@@ -101,6 +101,12 @@
 
 ## 10-surnia-ulula-v1
 
-猛鸮成年雌雄与巢内白绒羽雏鸟；待用户确认及科学校对。
+猛鸮成年雌雄与巢内白绒羽雏鸟；用户确认造型，科学细节待校对。
 
 ![10-surnia-ulula-v1](concepts/10-surnia-ulula-v1.png)
+
+## 11-aegolius-funereus-v1
+
+鬼鸮成年雌雄与初生白绒羽闭眼幼鸟；树洞艺术剖视，待用户确认及科学校对。
+
+![11-aegolius-funereus-v1](concepts/11-aegolius-funereus-v1.png)

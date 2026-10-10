@@ -86,3 +86,9 @@
 短耳鸮：成年雌雄、初生巢内绒羽期雏鸟；待用户确认和科学校对。
 
 ![07-asio-flammeus-v1](concepts/07-asio-flammeus-v1.png)
+
+## 08-strix-nebulosa-v1
+
+大灰鸮成年雌雄与早期巢内白绒羽雏鸟；待用户确认及科学校对。
+
+![08-strix-nebulosa-v1](concepts/08-strix-nebulosa-v1.png)

@@ -74,3 +74,9 @@
 灰林鸮棕色型：成年雄鸟、成年雌鸟、巢内绒羽期雏鸟。待用户确认，科学细节待校对。
 
 ![05-strix-aluco-v1](concepts/05-strix-aluco-v1.png)
+
+## 06-asio-otus-v1
+
+长耳鸮：成年雄鸟、成年雌鸟、巢内绒羽期雏鸟。待用户确认，地域与科学细节待核验。
+
+![06-asio-otus-v1](concepts/06-asio-otus-v1.png)

@@ -29,3 +29,11 @@
 - 英国非本地物种辨识：https://www.nonnativespecies.org/assets/Uploads/ID_Bubo_bubo_Eurasian_Eagle_Owl-1.pdf
 - Penteriani等，幼鸟发育研究（2005）：https://onlinelibrary.wiley.com/doi/10.1111/j.1474-919x.2004.00381.x
 
+
+## 2026-10-10 · 巢内绒羽期修订
+
+最新图：[03-bubo-bubo-v4](../../design/concepts/03-bubo-bubo-v4.png)。用户要求与成鸟差异更大的幼态。改为低伏、腹部受支撑的巢内雏鸟，去除成熟翅羽。仓鸮白绒羽；雪鸮灰色第二绒羽；雕鸮早期白绒羽且无成熟耳羽簇；纵纹腹小鸮褐灰绒羽。
+
+参考：https://doi.org/10.1111/j.1474-919x.2004.00381.x
+
+雪鸮参考ORI 8–14日阶段，雕鸮参考Penteriani等2005约10日阶段，但本图不是精确日龄复原。各物种发育速度不同，不设统一日龄或幼成高度比。眼周、面盘、脚部和成年尺寸仍需校对；所有图标注非测量比例，尚未科学验收或用户审美确认。旧版保留。

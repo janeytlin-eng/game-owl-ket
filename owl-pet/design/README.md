@@ -56,3 +56,15 @@
 纵纹腹小鸮：待用户确认；幼鸟纹理与羽毛阶段待核验。
 
 ![04-athene-noctua-v1](concepts/04-athene-noctua-v1.png)
+
+## 巢内绒羽期修订 · 2026-10-10
+
+待用户确认；发育阶段统一，日龄和高度比例不统一。非测量比例，细节待核验。
+
+![01-tyto-alba-v3](concepts/01-tyto-alba-v3.png)
+
+![02-bubo-scandiacus-v3](concepts/02-bubo-scandiacus-v3.png)
+
+![03-bubo-bubo-v4](concepts/03-bubo-bubo-v4.png)
+
+![04-athene-noctua-v2](concepts/04-athene-noctua-v2.png)

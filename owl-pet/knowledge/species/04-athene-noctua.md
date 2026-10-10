@@ -42,3 +42,11 @@
 新增来源：
 - BTO生物测量：https://www.bto.org/learn/about-birds/birdfacts/little-owl
 - Tschumi等2019（作者提供全文）：https://fattebert.weebly.com/uploads/7/4/4/8/74488337/tschumi_et_al._2019_parental_sex_allocation_and_sex-specific_survival_drive_offspring_sex_ratio_bias_in_little_owls.pdf
+
+## 2026-10-10 · 巢内绒羽期修订
+
+最新图：[04-athene-noctua-v2](../../design/concepts/04-athene-noctua-v2.png)。用户要求与成鸟差异更大的幼态。改为低伏、腹部受支撑的巢内雏鸟，去除成熟翅羽。仓鸮白绒羽；雪鸮灰色第二绒羽；雕鸮早期白绒羽且无成熟耳羽簇；纵纹腹小鸮褐灰绒羽。
+
+参考：https://www.barnowltrust.org.uk/barn-owl-facts/owlet-identification-age/
+
+雪鸮参考ORI 8–14日阶段，雕鸮参考Penteriani等2005约10日阶段，但本图不是精确日龄复原。各物种发育速度不同，不设统一日龄或幼成高度比。眼周、面盘、脚部和成年尺寸仍需校对；所有图标注非测量比例，尚未科学验收或用户审美确认。旧版保留。

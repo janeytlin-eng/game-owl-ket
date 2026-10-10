@@ -68,3 +68,9 @@
 ![03-bubo-bubo-v4](concepts/03-bubo-bubo-v4.png)
 
 ![04-athene-noctua-v2](concepts/04-athene-noctua-v2.png)
+
+## 05-strix-aluco-v1
+
+灰林鸮棕色型：成年雄鸟、成年雌鸟、巢内绒羽期雏鸟。待用户确认，科学细节待校对。
+
+![05-strix-aluco-v1](concepts/05-strix-aluco-v1.png)

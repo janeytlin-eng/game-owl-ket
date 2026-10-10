@@ -80,3 +80,9 @@
 长耳鸮：成年雄鸟、成年雌鸟、巢内绒羽期雏鸟。待用户确认，地域与科学细节待核验。
 
 ![06-asio-otus-v1](concepts/06-asio-otus-v1.png)
+
+## 07-asio-flammeus-v1
+
+短耳鸮：成年雌雄、初生巢内绒羽期雏鸟；待用户确认和科学校对。
+
+![07-asio-flammeus-v1](concepts/07-asio-flammeus-v1.png)

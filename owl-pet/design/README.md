@@ -50,3 +50,9 @@
 
 ![02-bubo-scandiacus-v2](concepts/02-bubo-scandiacus-v2.png)
 
+
+## 04-athene-noctua-v1
+
+纵纹腹小鸮：待用户确认；幼鸟纹理与羽毛阶段待核验。
+
+![04-athene-noctua-v1](concepts/04-athene-noctua-v1.png)

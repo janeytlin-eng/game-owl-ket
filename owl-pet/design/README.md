@@ -113,6 +113,12 @@
 
 ## 12-aegolius-acadicus-v1
 
-北美锯鸮成年雌雄与初生白绒羽闭眼幼鸟；树洞艺术剖视，待用户确认及科学校对。
+北美锯鸮成年雌雄与初生白绒羽闭眼幼鸟；用户确认造型，科学细节待校对。
 
 ![12-aegolius-acadicus-v1](concepts/12-aegolius-acadicus-v1.png)
+
+## 13-micrathene-whitneyi-v1
+
+精灵鸮成年雌雄与初生白绒羽低伏幼鸟；巨柱仙人掌巢室艺术剖视，待用户确认及科学校对。
+
+![13-micrathene-whitneyi-v1](concepts/13-micrathene-whitneyi-v1.png)

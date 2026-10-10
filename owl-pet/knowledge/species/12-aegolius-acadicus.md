@@ -1,6 +1,6 @@
 # 12 · 北美锯鸮 Aegolius acadicus
 
-研究日期：2026-10-10。Northern Saw-whet Owl。采用北美广布指名亚种acadicus方向，不把Haida Gwaii的brooksi色型混入。中文名尚待完整分类名录统一。造型待用户确认，科学核验未通过。
+研究日期：2026-10-10。Northern Saw-whet Owl。采用北美广布指名亚种acadicus方向，不把Haida Gwaii的brooksi色型混入。中文名尚待完整分类名录统一。用户确认本组概念造型（2026-10-10）；科学核验未通过。
 
 ## 来源事实
 Cornell与ORI：小型圆头、无耳羽簇、黄眼、棕色上体白斑与细白额纹、浅色面盘；ORI说明黑喙、覆羽足，白腹有红棕纵纹。Alaska官方识别强调与鬼鸮区别为深色喙和纵纹额头。
@@ -26,3 +26,6 @@ Cornell生命周期：刚孵化白绒羽、闭眼；使用旧啄木鸟洞和巢�
 ![v1](../../design/concepts/12-aegolius-acadicus-v1.png)
 
 内置imagegen生成。生成规格：电影感3D动画角色表、圆头无耳羽簇、黑喙黄眼、暖棕白斑、额部细白纵纹与白眉、白腹红棕纵纹、接近尺寸雌雄、树洞剖视内初生白绒羽闭眼低伏幼鸟、非测量比例。
+
+## 保护状态补充（2026-10-10检索）
+物种未灭绝；HawkWatch当前页面列全球IUCN无危LC。加拿大政府2017评估brooksi亚种为受威胁，不能将亚种状态套在整物种或指名亚种。来源：https://hawkwatch.org/raptor-id/raptor-id-fact-sheets/northern-saw-whet-owl/ 、https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/northern-saw-whet-owl-2017.html

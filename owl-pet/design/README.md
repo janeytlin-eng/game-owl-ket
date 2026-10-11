@@ -190,3 +190,9 @@
 ![须角鸮v1](concepts/19-megascops-trichopsis-v1.png)
 
 [研究档案](../knowledge/species/19-megascops-trichopsis.md)。成年雄鸟、成年雌鸟与接近离巢幼鸟；浅黄橄榄色喙、橙黄色眼、脸部须状羽与粗黑斑点用于区别西美角鸮。已目视检查，待用户确认和科学校准。
+
+## 20 · 裸胫角鸮 v1
+
+![裸胫角鸮v1](concepts/20-megascops-clarkii-v1.png)
+
+[研究档案](../knowledge/species/20-megascops-clarkii.md)。成年雄鸟、成年雌鸟与约三周龄洞巢幼鸟；采用湿润山地云雾林及天然树洞。初稿把裸露腿段夸张得过长，v1归档图已编辑为上段有羽、仅短下段裸露并完成目视复查；待用户确认和科学校准。

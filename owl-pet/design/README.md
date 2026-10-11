@@ -178,3 +178,9 @@
 ![东美角鸮v3](concepts/17-megascops-asio-v3.png)
 
 成年脚下基线与脚羽修订，目视检查完成；科学校准待完成。
+
+## 18 · 西美角鸮 v1
+
+![西美角鸮v1](concepts/18-megascops-kennicottii-v1.png)
+
+[研究档案](../knowledge/species/18-megascops-kennicottii.md)。成年雄鸟、成年雌鸟与闭眼白绒羽早期幼鸟；深色喙与小耳簇用于区别第17组方向。已目视检查，待用户确认和科学校准。

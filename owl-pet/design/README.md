@@ -154,3 +154,9 @@
 ![14-bubo-virginianus-v1](concepts/14-bubo-virginianus-v1.png)
 
 精灵鸮v5用户造型确认：2026-10-11，科学核验仍待完成。
+
+## 15-strix-varia-v1
+
+横斑林鸮成年雌雄与巢内休息幼态；待确认及科学校对。
+
+![15-strix-varia-v1](concepts/15-strix-varia-v1.png)

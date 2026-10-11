@@ -172,3 +172,9 @@
 ![东美角鸮v2](concepts/17-megascops-asio-v2.png)
 
 [研究档案](../knowledge/species/17-megascops-asio.md)。v1为历史初稿，v2为本次确认版本；成年雌雄与巢内白绒羽幼鸟，待确认和科学核验。第16组斑点林鸮v2概念造型已确认。
+
+## 17 · v3修订
+
+![东美角鸮v3](concepts/17-megascops-asio-v3.png)
+
+成年脚下基线与脚羽修订，目视检查完成；科学校准待完成。

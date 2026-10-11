@@ -160,3 +160,9 @@
 横斑林鸮成年雌雄与巢内休息幼态；待确认及科学校对。
 
 ![15-strix-varia-v1](concepts/15-strix-varia-v1.png)
+
+## 16 · 斑点林鸮（北方亚种）
+
+![斑点林鸮v2](concepts/16-strix-occidentalis-v2.png)
+
+[研究档案](../knowledge/species/16-strix-occidentalis.md)。成年雌雄与早期巢内白绒羽幼鸟；待确认及科学校对。第15组横斑林鸮v1造型已获用户确认。

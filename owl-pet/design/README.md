@@ -146,3 +146,11 @@
 幼鸟活力修订：腹部支撑、轻抬头微张嘴；角色表情设计，待确认及科学校对。
 
 ![13-micrathene-whitneyi-v5](concepts/13-micrathene-whitneyi-v5.png)
+
+## 14-bubo-virginianus-v1
+
+大角鸮成年雌雄与早期巢内白绒羽幼鸟，树林旧枝巢；待确认及科学校对。
+
+![14-bubo-virginianus-v1](concepts/14-bubo-virginianus-v1.png)
+
+精灵鸮v5用户造型确认：2026-10-11，科学核验仍待完成。

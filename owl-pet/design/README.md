@@ -208,3 +208,9 @@
 ![波多黎各鸮v1](concepts/22-gymnasio-nudipes-v1.png)
 
 [研究档案](../knowledge/species/22-gymnasio-nudipes.md)。采用现行学名 *Gymnasio nudipes*，记录旧名 *Megascops nudipes* 与 *Otus nudipes*；成年雄鸟、成年雌鸟和年龄未定的洞巢蓬松幼鸟。首图幼鸟出现成熟层叠翼羽，归档图已回退为短幼羽并复查；待用户确认和科学校准。
+
+## 23 · 美洲角鸮 v1
+
+![美洲角鸮v1](concepts/23-psiloscops-flammeolus-v1.png)
+
+[研究档案](../knowledge/species/23-psiloscops-flammeolus.md)。采用现行学名 *Psiloscops flammeolus*，记录旧名 *Otus flammeolus*；成年雄鸟、成年雌鸟与闭眼白绒羽初生幼鸟。成年以深褐近黑虹膜、短而贴伏耳羽及灰褐—锈色火焰状纹区别相邻角鸮。首图幼鸟头部贴地过低，归档图改为木屑坡承托头颈、轻张喙的低伏姿态并复查；待用户确认和科学校准。

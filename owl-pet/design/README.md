@@ -2,6 +2,12 @@
 
 所有文件保留原始PNG像素，不覆盖旧版本。均为概念图，不是3D模型；用户审美确认与科学核验分开。
 
+## 26-glaucidium-siju-v1
+
+状态：古巴鸺鹠成年雄鸟、成年雌鸟与年龄未定近期离巢幼鸟；幼鸟过熟斑纹已修订，待用户确认与科学校准。
+
+![26-glaucidium-siju-v1](concepts/26-glaucidium-siju-v1.png)
+
 ## generic-owl-v1
 
 状态：审美参考，未对应物种。

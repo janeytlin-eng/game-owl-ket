@@ -166,3 +166,9 @@
 ![斑点林鸮v2](concepts/16-strix-occidentalis-v2.png)
 
 [研究档案](../knowledge/species/16-strix-occidentalis.md)。成年雌雄与早期巢内白绒羽幼鸟；待确认及科学校对。第15组横斑林鸮v1造型已获用户确认。
+
+## 17 · 东美角鸮（灰色型）
+
+![东美角鸮v2](concepts/17-megascops-asio-v2.png)
+
+[研究档案](../knowledge/species/17-megascops-asio.md)。v1为历史初稿，v2为本次确认版本；成年雌雄与巢内白绒羽幼鸟，待确认和科学核验。第16组斑点林鸮v2概念造型已确认。

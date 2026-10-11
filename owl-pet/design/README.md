@@ -184,3 +184,9 @@
 ![西美角鸮v1](concepts/18-megascops-kennicottii-v1.png)
 
 [研究档案](../knowledge/species/18-megascops-kennicottii.md)。成年雄鸟、成年雌鸟与闭眼白绒羽早期幼鸟；深色喙与小耳簇用于区别第17组方向。已目视检查，待用户确认和科学校准。
+
+## 19 · 须角鸮 v1
+
+![须角鸮v1](concepts/19-megascops-trichopsis-v1.png)
+
+[研究档案](../knowledge/species/19-megascops-trichopsis.md)。成年雄鸟、成年雌鸟与接近离巢幼鸟；浅黄橄榄色喙、橙黄色眼、脸部须状羽与粗黑斑点用于区别西美角鸮。已目视检查，待用户确认和科学校准。

@@ -202,3 +202,9 @@
 ![热带角鸮v1](concepts/21-megascops-choliba-v1.png)
 
 [研究档案](../knowledge/species/21-megascops-choliba.md)。成年雄鸟、成年雌鸟与11–13日龄洞巢幼鸟；采用灰褐型、开阔热带林缘和枯死tucumã棕榈天然洞。首图幼鸟翼羽偏成熟，归档图已回退为白绒羽为主、仅有少量初生羽轴并完成目视复查；待用户确认和科学校准。
+
+## 22 · 波多黎各鸮 v1
+
+![波多黎各鸮v1](concepts/22-gymnasio-nudipes-v1.png)
+
+[研究档案](../knowledge/species/22-gymnasio-nudipes.md)。采用现行学名 *Gymnasio nudipes*，记录旧名 *Megascops nudipes* 与 *Otus nudipes*；成年雄鸟、成年雌鸟和年龄未定的洞巢蓬松幼鸟。首图幼鸟出现成熟层叠翼羽，归档图已回退为短幼羽并复查；待用户确认和科学校准。

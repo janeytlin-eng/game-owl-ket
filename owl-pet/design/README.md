@@ -214,3 +214,9 @@
 ![美洲角鸮v1](concepts/23-psiloscops-flammeolus-v1.png)
 
 [研究档案](../knowledge/species/23-psiloscops-flammeolus.md)。采用现行学名 *Psiloscops flammeolus*，记录旧名 *Otus flammeolus*；成年雄鸟、成年雌鸟与闭眼白绒羽初生幼鸟。成年以深褐近黑虹膜、短而贴伏耳羽及灰褐—锈色火焰状纹区别相邻角鸮。首图幼鸟头部贴地过低，归档图改为木屑坡承托头颈、轻张喙的低伏姿态并复查；待用户确认和科学校准。
+
+## 24 · 北方鸺鹠 v1
+
+![北方鸺鹠v1](concepts/24-glaucidium-californicum-v1.png)
+
+[研究档案](../knowledge/species/24-glaucidium-californicum.md)。采用现行学名 *Glaucidium californicum*，记录部分旧资料中的 *G. gnoma* 对应；成年雄鸟、成年雌鸟与近期离巢幼鸟。成年以圆头无耳簇、黄眼黄喙、长横斑尾、纵纹下体及后颈假眼斑识别。首图幼鸟尾羽过长且横斑过熟，归档图已缩短尾羽并弱化成年斑纹后复查；待用户确认和科学校准。

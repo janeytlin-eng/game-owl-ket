@@ -128,3 +128,9 @@
 移除普通树枝，统一仙人掌侧臂与巢室；待用户确认及科学校对。v1保留历史。
 
 ![13-micrathene-whitneyi-v2](concepts/13-micrathene-whitneyi-v2.png)
+
+## 13-micrathene-whitneyi-v3
+
+巢室材质修订：仙人掌组织包围连续愈伤壳的艺术剖视；待确认与科学校对。
+
+![13-micrathene-whitneyi-v3](concepts/13-micrathene-whitneyi-v3.png)

@@ -41,3 +41,15 @@ ORI物种页误写“小耳羽簇”并将喙概述为绿黄，且学名少了�
 ![v2](../../design/concepts/13-micrathene-whitneyi-v2.png)
 
 内置imagegen编辑，保留角色与排版，统一绿色棱状仙人掌外皮、干燥洞内壁、无刺落脚面与沙漠背景。
+
+## v3巢室材质修订 · 2026-10-11
+
+用户指出v2内部仍像树洞。新增NPS和Arizona-Sonora Desert Museum来源：啄木鸟在巨柱仙人掌挖洞后，植物形成硬化愈伤组织，遗留壳体称saguaro boot。区别仙人掌绿色外皮、储水组织与洞腔愈伤壳，不能用朽木层片和木屑表现全部巢室。
+
+v3采用艺术剖视：绿色外皮、浅色储水组织剖面、连续杯状褐色愈伤内壳与干燥巢底。颜色、厚度和几何为展示设计，非精确植物解剖复原。仍待用户确认和科学校对。
+
+来源：https://www.nps.gov/places/signs-of-life-self-guided-tour-stop-12.htm 、https://desertmuseum.org/books/nhsd_insects_saguaro.php 、https://digitallibrary.desertmuseum.org/books/nhsd_cactus_.php
+
+![v3](../../design/concepts/13-micrathene-whitneyi-v3.png)
+
+内置imagegen编辑：只修巢室，保留角色及排版；去除树皮层片、木纹与碎木，展示仙人掌组织包围愈伤壳。

@@ -196,3 +196,9 @@
 ![裸胫角鸮v1](concepts/20-megascops-clarkii-v1.png)
 
 [研究档案](../knowledge/species/20-megascops-clarkii.md)。成年雄鸟、成年雌鸟与约三周龄洞巢幼鸟；采用湿润山地云雾林及天然树洞。初稿把裸露腿段夸张得过长，v1归档图已编辑为上段有羽、仅短下段裸露并完成目视复查；待用户确认和科学校准。
+
+## 21 · 热带角鸮 v1
+
+![热带角鸮v1](concepts/21-megascops-choliba-v1.png)
+
+[研究档案](../knowledge/species/21-megascops-choliba.md)。成年雄鸟、成年雌鸟与11–13日龄洞巢幼鸟；采用灰褐型、开阔热带林缘和枯死tucumã棕榈天然洞。首图幼鸟翼羽偏成熟，归档图已回退为白绒羽为主、仅有少量初生羽轴并完成目视复查；待用户确认和科学校准。

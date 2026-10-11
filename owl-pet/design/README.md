@@ -134,3 +134,9 @@
 巢室材质修订：仙人掌组织包围连续愈伤壳的艺术剖视；待确认与科学校对。
 
 ![13-micrathene-whitneyi-v3](concepts/13-micrathene-whitneyi-v3.png)
+
+## 13-micrathene-whitneyi-v4
+
+保守巢室剖视修订，收敛大孔和规则分层，非精确植物解剖复原；待确认。
+
+![13-micrathene-whitneyi-v4](concepts/13-micrathene-whitneyi-v4.png)

@@ -64,3 +64,11 @@ NPS描述遗留壳体大致鞋/袜形，不能推广为规则对称瓶形。检�
 - https://www.nps.gov/places/signs-of-life-self-guided-tour-stop-12.htm
 - https://www.nps.gov/sagu/learn/nature/saguaro.htm
 - https://www.desertmuseum.org/kids/facts/?animal=Saguaro%20Cactus
+
+## v4保守巢室表达 · 2026-10-11
+
+根据证据复核收敛v3：去掉明显大孔海绵、减弱均匀亮黄分层，使用低对比细纹组织边缘、不对称向下巢腔及暗褐灰褐低浮雕硬化内壁。只作为有来源结构方向的艺术概念，不声称精准组织学、壳厚或色泽复原，仍待用户确认与科学校对。
+
+![v4](../../design/concepts/13-micrathene-whitneyi-v4.png)
+
+内置imagegen编辑：保留角色与版式，仅收敛巢室材质、几何及剖面细节。

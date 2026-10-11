@@ -53,3 +53,14 @@ v3采用艺术剖视：绿色外皮、浅色储水组织剖面、连续杯状褐
 ![v3](../../design/concepts/13-micrathene-whitneyi-v3.png)
 
 内置imagegen编辑：只修巢室，保留角色及排版；去除树皮层片、木纹与碎木，展示仙人掌组织包围愈伤壳。
+
+## v3内壁证据复核 · 2026-10-11
+
+结论：愈伤壳存在有NPS与沙漠博物馆支持，但v3的浅黄色大孔海绵剖面、均匀褐色内壁、对称瓶形腔体和层厚未得到直接解剖或尺寸证据，不能科学验收。此前将“不像木头”当作改图约束过强：NPS明确巨柱仙人掌有木质肋骨，愈伤组织硬化，木质/软木样观感本身不意味着错误。应区分愈伤壳与朽树皮层片。
+
+NPS描述遗留壳体大致鞋/袜形，不能推广为规则对称瓶形。检索照片多为死株遗留干燥标本，不足以直接确定活体使用中巢室的色泽与质感。2022 Sue Hakala论文DOI10.2985/015.094.0103已定位，全文未成功读取，不引用其未见细节。下一版应减弱夸张孔洞与整齐层状剖面，保留不规则硬化壳，厚度/色泽继续待核验。
+
+核验来源：
+- https://www.nps.gov/places/signs-of-life-self-guided-tour-stop-12.htm
+- https://www.nps.gov/sagu/learn/nature/saguaro.htm
+- https://www.desertmuseum.org/kids/facts/?animal=Saguaro%20Cactus

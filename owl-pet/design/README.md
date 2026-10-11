@@ -122,3 +122,9 @@
 精灵鸮成年雌雄与初生白绒羽低伏幼鸟；巨柱仙人掌巢室艺术剖视，待用户确认及科学校对。
 
 ![13-micrathene-whitneyi-v1](concepts/13-micrathene-whitneyi-v1.png)
+
+## 13-micrathene-whitneyi-v2
+
+移除普通树枝，统一仙人掌侧臂与巢室；待用户确认及科学校对。v1保留历史。
+
+![13-micrathene-whitneyi-v2](concepts/13-micrathene-whitneyi-v2.png)

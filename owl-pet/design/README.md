@@ -140,3 +140,9 @@
 保守巢室剖视修订，收敛大孔和规则分层，非精确植物解剖复原；待确认。
 
 ![13-micrathene-whitneyi-v4](concepts/13-micrathene-whitneyi-v4.png)
+
+## 13-micrathene-whitneyi-v5
+
+幼鸟活力修订：腹部支撑、轻抬头微张嘴；角色表情设计，待确认及科学校对。
+
+![13-micrathene-whitneyi-v5](concepts/13-micrathene-whitneyi-v5.png)

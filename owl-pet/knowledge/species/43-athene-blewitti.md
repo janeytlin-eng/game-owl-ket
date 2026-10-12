@@ -14,3 +14,12 @@
 ## 完整ImageGen提示
 
 Create a polished scientific-reference virtual-pet character sheet in the same warm storybook-naturalist style. Landscape 4:3, parchment lower margin, central Indian open deciduous forest with lower canopy, one real tree cavity and sunlit branch. Exactly three full-body Forest Owlets: adult male left, adult female center, recently fledged about-40-day-old juvenile right at the cavity lip. Current species Athene blewitti (historical Heteroglaux blewitti). Adults: compact stocky owl 20–23 cm, no ear tufts, yellow eyes, yellowish bill with dark-tinged cere, plain brownish-grey crown and mantle essentially unspotted except a few tiny pale speckles and sparse scapular/wing-coverts spots, very weak nape false-face, broad white throat patch, solid grey-brown upper breast band, plain white lower-breast center and belly, broad dark brown flank bars, white feathered tarsi and long dirty-yellow toes with heavy dark claws; dark brown tail with broad whitish bars and terminal band. Do not confuse with Athene brama: Forest Owlet must have far fewer crown/back spots, a solid pectoral band and plain white central lower breast. No sexual size-difference data: male and female same apparent height and volume, only natural pose differs. Juvenile: age-supported recently fledged individual, securely gripping the cavity rim; facial disc less developed than adult, softer shorter juvenile wing and tail, warm reddish-brown horizontal belly markings, head and back still mostly plain/unspotted, no mature long layered remiges; alert but dependent posture. Exactly three birds, all feet supported, no eggs, no prey, no fantasy accessories. Bottom labels only: "43 FOREST OWLET" and italic-style "Athene blewitti".
+
+## 生成、检查与迭代
+
+首稿成鸟识别与雌雄尺度通过；幼鸟翼面误生成人成鸟式白斑和完整层叠飞羽。定向编辑移除白斑、缩短并软化翼尾后复查通过。未解决：图鉴正文仍称juvenile未正式描述，当前只采用同页未成年实拍的较弱脸盘与红褐腹横纹，以及原始观察支持的约40日龄离巢动作阶段。
+
+- 图片：`design/concepts/43-athene-blewitti-v1.png`
+- blob：`5efc556a538c88a4b4a195b7a3bc7da1abe79b6b`
+- SHA-256：`f3ab99c772c8e005ca045e2b74acc4b6ec1ca8a3246fefa0e21b785400ba03a8`
+- 图片提交：`a31497b02ab1450c80c3b7456c07aae172583e07`

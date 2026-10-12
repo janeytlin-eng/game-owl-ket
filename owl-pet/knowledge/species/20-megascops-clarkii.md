@@ -1,6 +1,6 @@
 # 20 · 裸胫角鸮 Megascops clarkii
 
-研究日期：2026-10-12（Asia/Shanghai）。英文 Bare-shanked Screech-Owl；历史检索名 *Otus clarkii*。中文工作名与251种完整名录版本仍待统一。v1为概念图，科学核验未通过。
+研究与重建日期：2026-10-12（Asia/Shanghai）。英文 Bare-shanked Screech-Owl；历史检索名 *Otus clarkii*。v1远端PNG损坏；v2为保留历史版本的重建，科学核验未通过。
 
 ## 来源事实
 
@@ -22,9 +22,9 @@ Avibase现行概念使用 *Megascops clarkii*；1997年巢记载使用旧属名 
 
 来源详见[研究资料索引](../../research/SOURCE_INDEX.md)：BSOW-JRR-NEST-1997、BSOW-PEREGRINE-2026、BSOW-AVIBASE-TAX-2026。
 
-Heimo Mikkola摄影指南本轮在已连接资料中可以定位，但大文件未能成功载入并逐页读取；因此本档案没有将二手引页或未读页码写成已核验来源。
+本轮已实际读取Heimo Mikkola摄影指南印刷页217：正文支持跗跖下三分之一裸露、淡黄眼、绿灰/蓝灰喙，以及白绒雏和无可见耳簇的桂皮黄色离巢幼鸟。照片说明“超过一半跗跖裸露”与正文存在内部张力，v2采用更保守的正文边界。约三周龄巢记录没有羽被照片，因此幼鸟只画白绒为主、少量短生长羽，不直接套用完整离巢羽。
 
-图：`design/concepts/20-megascops-clarkii-v1.png`。
+v2首图仍把裸腿和幼鸟锈色翼羽画得过长；定向编辑后，大腿与跗跖上段由羽毛覆盖，仅短下段裸露，幼鸟回退为白绒主体及少量短羽。二次检查确认三只、文字、足部支撑和洞内承托完整。图：损坏历史版本`design/concepts/20-megascops-clarkii-v1.png`；重建`design/concepts/20-megascops-clarkii-v2.png`。
 
 ## 待办
 

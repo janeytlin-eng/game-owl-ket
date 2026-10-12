@@ -21,3 +21,10 @@ Use case: scientific-educational. Asset type: owl electronic-pet species concept
 
 ## Scientific status
 Pending. Exact juvenile age and continuous feather sequence, sex-specific linear measurements, geographic variation, and nest-stage morphology remain unknown.
+
+## Image review and iteration
+- First generation: exactly three birds, correct labels, supported feet and adult morphology; failed juvenile boundary because the center bird retained crisp white wing spots, visible adult-like layered remiges and a back that was not plain enough.
+- Evidence-based edit: changed only the juvenile, removing crisp wing/back spotting and mature flight-feather layering, shortening/softening wing and tail, while preserving the gray mottled head, adults, labels and environment.
+- Recheck: exactly three birds; adult male/female remain near equal standing scale; no ear tufts; juvenile back is plain, wing/tail are short and soft, both feet grip the branch; text is correct.
+- Archive: 1536×1024 PNG, 786,444 bytes, SHA-256 `befb7d30511707ff1ee1cb258f3a6ea95639a49cd570570b7ad17973168e3f48`.
+- Scientific status remains pending; visual review is not scientific approval.

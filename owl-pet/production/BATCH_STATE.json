@@ -36,6 +36,7 @@
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
     "Concept production completion does not mean scientific validation passed.",
-    "2026-10-12 16:38 +0800: restored and verified complete #31 PNG in commit b8dc4451313e077f7204dfe6280d73c34cc14f74; cycles unchanged because this is archive repair, not a new production cycle."
+    "2026-10-12 16:38 +0800: restored and verified complete #31 PNG in commit b8dc4451313e077f7204dfe6280d73c34cc14f74; cycles unchanged because this is archive repair, not a new production cycle.",
+    "2026-10-12 17:35 +0800: restored and verified complete #25-30 PNGs in commit 87040c31a57f8c09c125eb3dd977b67024707c5d; remote hashes match manifest and all six decode fully. Cycles unchanged because this is archive repair."
   ]
 }

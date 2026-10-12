@@ -24,9 +24,15 @@
           "species": "Megascops clarkii",
           "commit_sha": "e60bcee179c2ce420c2ea9e412376fe5afc4adf0",
           "run_record": "owl-pet/production/runs/2026-10-12T1844+0800-subround-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Megascops choliba",
+          "commit_sha": "cc3ced834cf07a0694cfa77dfcb359d8a7507553",
+          "run_record": "owl-pet/production/runs/2026-10-12T1857+0800-subround-4.md"
         }
       ],
-      "next_cycle": 4
+      "next_cycle": 5
     },
     {
       "batch_id": "2026-10-12T1332+0800",
@@ -43,15 +49,7 @@
       "next_cycle": 2
     }
   ],
-  "lease": {
-    "owner": "owl-production-20261012T1857+0800",
-    "run_id": "2026-10-12T1857+0800-batch-2026-10-12T1230-cycle-4",
-    "batch_id": "2026-10-12T1230+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-12T18:57:00+08:00",
-    "expires_at": "2026-10-12T19:12:00+08:00",
-    "stage": "RESEARCH"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -59,6 +57,7 @@
     "2026-10-12 16:38 +0800: restored and verified complete #31 PNG in commit b8dc4451313e077f7204dfe6280d73c34cc14f74; cycles unchanged because this is archive repair, not a new production cycle.",
     "2026-10-12 17:35 +0800: restored and verified complete #25-30 PNGs in commit 87040c31a57f8c09c125eb3dd977b67024707c5d; remote hashes match manifest and all six decode fully. Cycles unchanged because this is archive repair.",
     "2026-10-12 18:43 +0800: cycle 2 rebuilt and verified #19 v2 after corrupt v1; archive commit f2b053f3976503924a2b3f2928a941c21bf61a0f; batch advances to 2/6.",
-    "2026-10-12 18:56 +0800: cycle 3 rebuilt and verified #20 v2 after corrupt v1; archive commit e60bcee179c2ce420c2ea9e412376fe5afc4adf0; batch advances to 3/6."
+    "2026-10-12 18:56 +0800: cycle 3 rebuilt and verified #20 v2 after corrupt v1; archive commit e60bcee179c2ce420c2ea9e412376fe5afc4adf0; batch advances to 3/6.",
+    "2026-10-12: cycle 4 rebuilt and verified #21 v2 after corrupt v1; archive commit cc3ced834cf07a0694cfa77dfcb359d8a7507553; batch advances to 4/6."
   ]
 }

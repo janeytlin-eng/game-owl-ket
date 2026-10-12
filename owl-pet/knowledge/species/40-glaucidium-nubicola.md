@@ -20,3 +20,10 @@ Pending. Exact juvenile plumage, age, feather sequence, nest microstructure and 
 
 ## Stage history
 - RESEARCH_READY: sources and boundaries recorded 2026-10-13 01:44 +0800.
+
+## Image review and iteration
+- First generation inspected at full rendered view: exactly three birds; title and scientific name correct; all feet supported; no ear tufts; adult sexes near equal in standing scale; greenish-yellow bills, yellow eyes, warm-brown ground color, bold pale wing-covert/scapular spots and short barred tails are present; cloud-forest setting is appropriate.
+- Juvenile is lower, crouched, branch-supported and shorter-tailed, consistent with the only evidence-backed “recently fledged” stage. Because species-specific juvenile plumage remains undescribed, its fine plumage pattern is a conservative concept and is not scientifically approved.
+- No edit was made: there was no evidence-backed correction that would improve the undocumented juvenile plumage without inventing details. This is an explicit uncertainty, not a pass.
+- Archive: 1536×1024 indexed-color PNG, 763,862 bytes, SHA-256 `8dffe7c33e6114ce7d065e7e604919004e190c2bc99a9de32bb7c55e84549a87`; Git blob `15cd2699ba5f63ef8f1e6c13be3019ba20185183`.
+- Remote readback: whitespace-normalized base64 decodes to 763,862 bytes; PNG prefix `iVBORw0KGgoAAAANSUhEUgAABgAAAAQA` and IEND suffix confirmed; archive commit `c2bcb0cfd2687157d2e9c43be78d49a58588d707`.

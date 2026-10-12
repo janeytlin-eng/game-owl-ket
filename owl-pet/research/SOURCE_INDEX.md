@@ -193,3 +193,43 @@
 - Value: adult gray-brown morph and habitat context.
 - Limitation: single adult, sex unknown.
 - Supports: adult visual review.
+
+
+## 2026-10-12 · #39 *Glaucidium griseiceps*
+
+### SRC-PAPER-039-01
+- Title/authors/year: *Nuevo registro del Mochuelo Cabecigrís (Glaucidium griseiceps) en el valle medio del río Magdalena, Colombia*, Miguel Moreno-Palacios & Elkin Luis Rodríguez-Ortiz, 2008.
+- URL: https://www.researchgate.net/publication/272503247_NUEVO_REGISTRO_DEL_MOCHUELO_CABECIGRIS_GLAUCIDIUM_GRISEICEPS_EN_EL_VALLE_MEDIO_DEL_RIO_MAGDALENA_COLOMBIA
+- Accessed: 2026-10-12.
+- Type/stage: peer-reviewed regional field record; photographed juvenile.
+- Value: the paper reports and figures an immature individual from Reserva El Paujil; figure caption identifies a mottled head and unmarked back as diagnostic within the *G. minutissimum* complex.
+- Location: Ornitología Colombiana 6:92–95, Figure 1 and abstract.
+- Limit: one photographed immature of unstated exact age; does not provide a continuous feather-development sequence, sex, or measurements. It supports an age-unknown juvenile plumage, not a nestling day-age.
+- Supports: #39 juvenile crown/back boundary and explicit age uncertainty.
+
+### SRC-WEB-039-02
+- Institution/title: BirdLife International, Central American Pygmy-owl species factsheet.
+- URL: https://datazone.birdlife.org/species/factsheet/central-american-pygmy-owl-glaucidium-griseiceps
+- Accessed: 2026-10-12.
+- Type/stage: institutional taxonomy, distribution and conservation account.
+- Value: supports the accepted species name and Central American to northwestern South American range framework.
+- Limit: dynamic tables did not expose usable juvenile morphology or sex-specific measurements in this reading.
+- Supports: taxonomy and geographic boundary only.
+
+### SRC-WEB-039-03
+- Creator/title/date: Roger A. Morales-Flores, Central American Pygmy-Owl iNaturalist photograph, 27 February 2024; mirrored by Wikimedia Commons.
+- URL: https://commons.wikimedia.org/wiki/File:Central_American_Pygmy-Owl_iNaturalist.jpg
+- Accessed: 2026-10-12.
+- Type/stage: metadata-backed field photograph, adult/age not independently sexed.
+- Value: 1536×2048 real-bird reference for compact round-headed, ear-tuftless silhouette, yellow eye and brown-gray plumage; page records author, date, observation link and CC BY 4.0 metadata.
+- Limit: one individual; age/sex and locality details were not independently validated here. Does not support sexual dimorphism or juvenile sequence.
+- Supports: adult visual cross-check for #39 v1.
+
+### SRC-WEB-039-04
+- Institution/title: ITIS taxonomic report, *Glaucidium griseiceps* Sharpe, 1875.
+- URL: https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555453&source=to_print
+- Accessed: 2026-10-12.
+- Type: authoritative taxonomic database.
+- Value: supports valid species name and authority; ITIS also records former subspecies names *occultum* and *rarum* as junior synonyms under its cited checklist treatment.
+- Limit: taxonomy only; no morphology or developmental evidence.
+- Supports: current/older-name mapping.

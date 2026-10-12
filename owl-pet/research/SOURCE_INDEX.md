@@ -78,3 +78,33 @@
 | ANPO-BOW-2020 | Cornell Lab of Ornithology / Holt et al., [Andean Pygmy-Owl](https://doi.org/10.2173/bow.anpowl1.01) | 2020 | 机构物种专论 | *G. jardinii*，成年、分布与繁殖 | Identification、Habitat、Breeding摘要 | 支持棕色与红褐色型、黄眼、白眉、后颈假眼、安第斯湿润山地/云雾林；繁殖资料不充分，利用树洞或旧啄木鸟洞。 | 公开摘要不提供连续幼鸟外观；本轮幼鸟羽被以Mikkola为主，巢位与环境以此交叉核验。可信度：高。 |
 | ANPO-BIRDLIFE-2026 | BirdLife International, [Andean Pygmy-owl factsheet](https://datazone.birdlife.org/species/factsheet/andean-pygmy-owl-glaucidium-jardinii) | 页面现行版，访问2026-10-12 | 国际鸟类保护机构物种事实页 | *G. jardinii*，现名、范围与林地依赖 | Taxonomy、Distribution、Habitat页面结构 | 支持现行名、安第斯分布与湿润山地林依赖框架。 | 动态页面不支持幼鸟羽序、日龄或性别尺寸；只用于现名和地域边界。可信度：高。 |
 
+
+
+## 2026-10-12 · #36 *Glaucidium bolivianum*
+
+### SRC-WEB-036-01
+- Title/institution: *Glaucidium bolivianum* species account, Birds of Bolivia
+- URL: https://birdsofbolivia.org/species-fact-sheets-2/owls/glaucidium-bolivianum/glaucidium-bolivianum-2/
+- Accessed: 2026-10-12
+- Type/stage: institutional species account; adult
+- Value: adult occurrence and field appearance reference.
+- Limit: no verified juvenile developmental sequence or nest documentation was extracted.
+- Supports: adult identification and range context for #36 v1.
+
+### SRC-WEB-036-02
+- Title/authors/year: Yungas Pygmy-Owl, Holt et al., Birds of the World, 2020
+- DOI/URL: https://doi.org/10.2173/bow.yupowl1.01
+- Accessed: 2026-10-12
+- Type/stage: institutional synthesis; adult/ecology
+- Value: approximately 16 cm; brown/rufous/rare gray morphs; pale dorsal spots, streaked pale underparts, pale tail bands; humid montane/cloud-forest habitat; breeding biology almost unknown.
+- Limit/conflict: account access was through indexed text/citation; no juvenile plate or primary developmental series was available. Old woodpecker-hole nesting is an inference.
+- Supports: adult and habitat boundaries; explicit juvenile/nest uncertainty.
+
+### SRC-WEB-036-03
+- Title/creator/year: Yungas Pygmy-Owl photograph, S. K. Herzog / Birds of Bolivia, 2013
+- URL: https://birdsofbolivia.org/birds-olivia-photography-gallery/yungas-pygmy-owl-glaucidium-bolivianum-2-s-k-herzog-copy/
+- Accessed: 2026-10-12
+- Type/stage: dated adult field photograph
+- Value: real adult plumage reference.
+- Limit: single adult image; does not support juvenile plumage, sex comparison, or precise measurement.
+- Supports: #36 adult visual review.

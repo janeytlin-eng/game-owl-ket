@@ -105,7 +105,16 @@
       "next_cycle": 2
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "automation-production",
+    "run_id": "2026-10-12T2251+0800-subround-2",
+    "batch_id": "2026-10-12T2237+0800",
+    "cycle": 2,
+    "heartbeat_at": "2026-10-12T22:51:00+08:00",
+    "expires_at": "2026-10-12T23:06:00+08:00",
+    "stage": "STARTED",
+    "species_target": "#40 Glaucidium gnoma (working selection; verify taxonomy and evidence)"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

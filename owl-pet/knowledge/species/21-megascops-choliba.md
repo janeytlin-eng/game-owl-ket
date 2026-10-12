@@ -24,9 +24,9 @@ ITIS接受名为 *Megascops choliba*，并列旧名 *Otus choliba*；旧属名�
 
 来源详见[研究资料索引](../../research/SOURCE_INDEX.md)：TSO-ACTA-NESTLING-2017、TSO-UWI-BEHAV-2014、TSO-PEREGRINE-2026、TSO-ITIS-TAX-2026。
 
-本轮运行环境没有提供可调用的Library内容读取接口；因此未能重新读取用户上传的Heimo Mikkola指南，也没有写入未经验证的页码。
+本轮已实际读取Mikkola摄影指南印刷页218–219，交叉确认浅黄至金黄眼、浅绿灰喙、黑缘脸盘、羽跗、色型、白绒雏和横斑中雏羽；图鉴不提供11–13日龄羽轴长度，因此阶段边界仍以2017原始发育研究为主。
 
-图：`design/concepts/21-megascops-choliba-v1.png`。
+v2首图仍出现一束偏长的幼鸟翼羽，已定向编辑为白绒主体和少量短羽轴并二次复查。图：损坏历史版本`design/concepts/21-megascops-choliba-v1.png`；重建`design/concepts/21-megascops-choliba-v2.png`。
 
 ## 待办
 

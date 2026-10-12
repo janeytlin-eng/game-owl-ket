@@ -15,3 +15,10 @@ Scientific-educational owl electronic-pet concept sheet, warm painterly semi-rea
 
 ## Scientific status
 Pending. Exact mesoptile age, wing/tail chronology, sex measurements and final checklist treatment remain unresolved.
+
+## Image review and iteration
+- First image: exactly three birds, correct labels, supported feet, highland cavity setting and same-scale adults; juvenile gray crown direction was correct but the wing retained adult-like layered remiges and crisp barring.
+- Targeted edit changed only the juvenile: wing/tail shortened and softened, adult-like layering removed, grayish unspotted crown and mottled forehead retained; adults, cavity and text preserved.
+- Recheck: exactly three birds; no ear tufts; adults same scale/color direction; juvenile is securely supported at cavity lip with diffuse mesoptile texture and no mature flight-feather layering.
+- Archive: 1536×1024 PNG, 773,316 bytes, SHA-256 `ff6234187379a3d51871e55e40cd289214d154d3c42a03598c0edaeec70a4388`; Git blob `1ef82ac0fe2098889a59fd11c3c5a7c27d16dac9`; commit `c86a06936e854a1d9b3a65755dce6257e89389b9`.
+- Scientific status remains pending because exact age, sex metrics and checklist treatment are unresolved.

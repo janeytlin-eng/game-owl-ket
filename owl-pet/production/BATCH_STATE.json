@@ -62,20 +62,18 @@
           "species": "Glaucidium hardyi",
           "commit_sha": "6cdade07d2ca47bb98a429aba03cca87c5d80444",
           "run_record": "owl-pet/production/runs/2026-10-12T2037+0800-subround-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Glaucidium jardinii",
+          "commit_sha": "3110f1a7b8190cfe53433353dad6fe4a92168824",
+          "run_record": "owl-pet/production/runs/2026-10-12T2045+0800-subround-3.md"
         }
       ],
-      "next_cycle": 3
+      "next_cycle": 4
     }
   ],
-  "lease": {
-    "owner": "owl-production-20261012T2045+0800",
-    "run_id": "2026-10-12T2045+0800-batch-2026-10-12T1332-cycle-3",
-    "batch_id": "2026-10-12T1332+0800",
-    "cycle": 3,
-    "heartbeat_at": "2026-10-12T20:45:00+08:00",
-    "expires_at": "2026-10-12T21:00:00+08:00",
-    "stage": "RESEARCH_READY"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -87,6 +85,7 @@
     "2026-10-12: cycle 4 rebuilt and verified #21 v2 after corrupt v1; archive commit cc3ced834cf07a0694cfa77dfcb359d8a7507553; batch advances to 4/6.",
     "2026-10-12 19:38 +0800: cycle 5 produced and verified #32 Glaucidium castanotum v1; archive commit 6461796911fa00302102e5a3b9d412acec9d45c9; batch advances to 5/6.",
     "2026-10-12 19:46 +0800: cycle 6 produced and verified #33 Taenioptynx brodiei v1; archive commit 0d063baa19204d548861056b1f15e14110e93e9f; oldest batch closed at 6/6.",
-    "2026-10-12 20:42 +0800: cycle 2 produced and verified #34 Glaucidium hardyi v1; archive commit 6cdade07d2ca47bb98a429aba03cca87c5d80444; batch advances to 2/6."
+    "2026-10-12 20:42 +0800: cycle 2 produced and verified #34 Glaucidium hardyi v1; archive commit 6cdade07d2ca47bb98a429aba03cca87c5d80444; batch advances to 2/6.",
+    "2026-10-12 20:51 +0800: cycle 3 produced and verified #35 Glaucidium jardinii v1; archive commit 3110f1a7b8190cfe53433353dad6fe4a92168824; batch advances to 3/6."
   ]
 }

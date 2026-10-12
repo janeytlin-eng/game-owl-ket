@@ -233,3 +233,40 @@
 - Value: supports valid species name and authority; ITIS also records former subspecies names *occultum* and *rarum* as junior synonyms under its cited checklist treatment.
 - Limit: taxonomy only; no morphology or developmental evidence.
 - Supports: current/older-name mapping.
+
+
+## 2026-10-13 · #40 *Glaucidium nubicola*
+
+### SRC-BOOK-040-01
+- Title/author/year: *Owls of the World: A Photographic Guide*, Heimo Mikkola, 2013.
+- Pages: printed p.378; uploaded PDF page 380, species 181.
+- Type/stages: photographic guide; adult morphology, sex direction, habitat; juvenile status.
+- Value: 16 cm, 73–80 g, wing 90–96 mm; female wings slightly longer but females are not heavier; round head, no ear tufts, yellow eyes, greenish-yellow bill; practically unspotted warm dark-brown mantle/back, bold pale scapular/upperwing-covert spots, short tail with five incomplete pale-spotted bars, white central throat/breast/belly with rufous-streaked flanks; humid western-Andean cloud forest at 1,400–2,000 m. The guide explicitly states “Juvenile Undescribed.”
+- Limitation: no juvenile morphology or day-age; page image rendering returned 403 in this run, so only extracted page text was used. No invented juvenile plumage is supported.
+- Supports: adult identification, near-equal adult scale, habitat, and explicit juvenile uncertainty for #40 v1.
+
+### SRC-PAPER-040-02
+- Title/authors/year: *A new species of pygmy-owl (Strigidae: Glaucidium) from the Pacific slope of the northern Andes*, Mark B. Robbins & F. Gary Stiles, 1999, The Auk 116:305–315.
+- URL: https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Glaucidium/Glaucidium%20nubicola%20%28Robbins%20%26%20Stiles%29%201999%2C%20Auk%2C%20116%2C%20pages%20305-315%20%28front%20cover%29..pdf
+- Accessed: 2026-10-13.
+- Type/stages: original peer-reviewed species description; adult specimens, voice and range.
+- Value: diagnoses the Pacific-slope taxon as distinct and anchors the accepted name, holotype locality/elevation and adult diagnostic comparison.
+- Limitation: not a developmental series and does not support juvenile feather chronology.
+- Supports: taxonomy and adult diagnostic boundary.
+
+### SRC-PAPER-040-03
+- Title/authors/year: *Notes on the breeding of north-west Ecuadorian birds*, Harold F. Greeney & Tony Nunnery, 2006, Bulletin of the British Ornithologists’ Club 126:38–45.
+- Accessed: 2026-10-13 through indexed publication citation and breeding excerpt; the primary-paper landing/full-text was not independently rendered in this run.
+- Type/stage: original field breeding note; recently fledged juvenile.
+- Value: records a recently fledged *G. nubicola* at Tandayapa in August 1999, supporting a mobile, branch-supported fledgling stage and a breeding period extending at least into August.
+- Limitation: no directly extracted juvenile plate, exact age, sex, or feather-by-feather description; treated as a stage/behavior boundary only, not a morphology source.
+- Supports: use of a conservative, fully supported fledgling pose; does not justify novel plumage detail.
+
+### SRC-WEB-040-04
+- Institution/title: BirdLife International, Cloud-forest Pygmy-owl species factsheet.
+- URL: https://datazone.birdlife.org/species/factsheet/cloud-forest-pygmy-owl-glaucidium-nubicola
+- Accessed: 2026-10-13.
+- Type: institutional taxonomy, range and conservation account.
+- Value: accepted name and Vulnerable conservation context.
+- Limitation: dynamic page did not expose juvenile morphology or sex-specific measurements in this reading.
+- Supports: current-name/range/status cross-check only.

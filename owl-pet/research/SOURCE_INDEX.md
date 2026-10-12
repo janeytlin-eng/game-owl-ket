@@ -306,3 +306,8 @@
 - Type: checklist aggregation/taxonomic crosswalk.
 - Value: maps *Glaucidium cobanense* to historical/alternate *Glaucidium gnoma cobanense* usage.
 - Limitation: taxonomy only; no morphology or development.
+
+| SPOT-MIKKOLA-2013 | Heimo Mikkola, *Owls of the World: A Photographic Guide*, 2nd ed. | 2013；上传本访问2026-10-13 | 摄影图鉴 | *Athene brama*，成年、绒雏与中雏羽 | 印刷页436–439，species 215、Identification、Juvenile、Geographical variation及照片说明 | 19–21 cm；无耳簇、黄至金黄眼、绿角质色喙、头顶密集白点、腹面短横斑呈鳞状；无性别尺寸差数据，照片说明雌雄无可见差；绒雏纯白，中雏羽较软、头背近乎无斑、腹面均一暗色且深纹不清。 | 指名、indica、albida、ultra、pulchra存在地域差；本轮采用南印度指名亚种方向。支持42号档案与v1。可信度：高。 |
+| SPOT-PANDE-2011 | Pande et al., [Biometry based ageing of nestling Indian Spotted Owlets](https://doi.org/10.3897/zookeys.132.1346) | 2011 | 同行评审原始发育研究 | *A. b. brama*，孵化至离巢 | ZooKeys 132:75–88；公开摘要及可检索正文/图表片段 | 53个活巢；从孵化至离巢测量翼、喙、爪、跗跖和体重；翼长约两周后快速增长；分类树中3周龄翼弦范围66.15–127 mm。 | 线性测量范围不能直接转绘成成熟羽层；本轮只用于选择约3周龄并限制翼尾仍明显未成熟。可信度：高。 |
+| SPOT-ALI-2015 | Ali & Santhanakrishnan, [Nest trees, habitat and breeding biology of the spotted owlet](https://doi.org/10.1080/21658005.2015.1061248) | 2015 | 同行评审野外繁殖研究；FAO AGRIS记录 | *A. b. brama*，巢位、栖息地、幼鸟发育 | 摘要；2008–2009年南印度27巢；Zoology and Ecology 25(3):211–219 | 比较人居与农业景观巢树；繁殖期1月至4月底；记录孵化、育雏、离巢成功并提供幼鸟发育照片。 | 本轮未取得全部照片图版，故不把照片内容转述为精确羽序；仅支持南印度开放人居/农业景观树洞方向。可信度：高。 |
+| SPOT-MAHMOOD-2007 | Mahmood-ul-Hassan et al., [Nesting and Breeding Habits of the Spotted Owlet](https://doi.org/10.3356/0892-1016(2007)41%5B50:NABHOT%5D2.0.CO;2) | 2007 | 同行评审野外繁殖研究 | *A. brama*，巢位与育雏 | Journal of Raptor Research 41(1):50–52；摘要/PDF出版索引 | 提供巴基斯坦种群筑巢与繁殖基线，用于交叉核对洞巢和育雏背景。 | 本轮未读取完整表格，不用于精确日龄、羽被或南印度亚种比例。可信度：中高。 |

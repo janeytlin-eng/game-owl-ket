@@ -108,3 +108,41 @@
 - Value: real adult plumage reference.
 - Limit: single adult image; does not support juvenile plumage, sex comparison, or precise measurement.
 - Supports: #36 adult visual review.
+
+
+## 2026-10-12 · #37 *Glaucidium peruanum*
+
+### SRC-BOOK-037-01
+- Title/author/year: *Owls of the World: A Photographic Guide*, Heimo Mikkola, 2013
+- Pages: 398–399
+- Source type/stages: photographic guide; adult, downy chick, mesoptile
+- Value: 15–17 cm, 58–65 g; female only slightly larger/about 5 g heavier; three morphs; adult markings; downy chick white; mesoptile adult-like with plain unspotted crown; western-Andean dry/riparian habitats.
+- Limitation: synthesis rather than a primary developmental series; exact juvenile age and feather sequence not supplied.
+- Supports: #37 adult, habitat, and juvenile-stage boundaries.
+
+### SRC-WEB-037-02
+- Institution/title: The Peregrine Fund, Peruvian Pygmy-owl
+- URL: https://peregrinefund.org/explore-raptors-species/owls/peruvian-pygmy-owl
+- Accessed: 2026-10-12
+- Type: institutional species account
+- Value: behavior, human-modified habitat tolerance and status context.
+- Limitation: no detailed juvenile feather chronology.
+- Supports: ecology/background only.
+
+### SRC-WEB-037-03
+- Institution/title: BirdLife Data Zone species factsheet
+- URL: https://datazone.birdlife.org/species/factsheet/peruvian-pygmy-owl-glaucidium-peruanum
+- Accessed: 2026-10-12
+- Type: conservation factsheet
+- Value: range, status, and forest-dependency context.
+- Limitation: no usable juvenile morphology detail.
+- Supports: distribution/status record.
+
+### SRC-WEB-037-04
+- Title/creator/date: Peruvian Pygmy-Owl adult photograph, Dominic Sherony, 29 July 2013
+- URL: https://commons.wikimedia.org/wiki/File:Peruvian_Pygmy-Owl_(Glaucidium_peruanum).jpg
+- Accessed: 2026-10-12
+- Type/stage: metadata-backed adult field photograph, Peru
+- Value: real adult morphology reference.
+- Limitation: one adult image; no sex, measurement, or juvenile evidence.
+- Supports: adult visual comparison for #37 v1.

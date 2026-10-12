@@ -2,6 +2,12 @@
 
 所有文件保留原始PNG像素，不覆盖旧版本。均为概念图，不是3D模型；用户审美确认与科学核验分开。
 
+## 27-glaucidium-passerinum-v1
+
+状态：花头鸺鹠成年雄鸟、成年雌鸟与年龄未定近期离巢幼鸟；成年尺度和幼鸟成熟度已修订，待用户确认与科学校准。
+
+![27-glaucidium-passerinum-v1](concepts/27-glaucidium-passerinum-v1.png)
+
 ## 26-glaucidium-siju-v1
 
 状态：古巴鸺鹠成年雄鸟、成年雌鸟与年龄未定近期离巢幼鸟；幼鸟过熟斑纹已修订，待用户确认与科学校准。

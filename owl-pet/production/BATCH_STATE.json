@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "policy": "Resume oldest incomplete batch before creating a new batch. Six verified complete production cycles per batch; attempt all remaining cycles in each invocation.",
+  "batches": [
+    {
+      "batch_id": "2026-10-12T1230+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Glaucidium cuculoides",
+          "commit_sha": "32c9b4d3e68fa885c8c3a7891517f6db3d159870",
+          "run_record": "owl-pet/production/runs/2026-10-12T1230+0800-subround-1.md"
+        }
+      ],
+      "next_cycle": 2
+    },
+    {
+      "batch_id": "2026-10-12T1332+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Glaucidium radiatum",
+          "commit_sha": "1da08d1da2ada70cb1adbb13d3206dcd603e2037",
+          "run_record": "owl-pet/production/runs/2026-10-12T1332+0800-subround-1.md"
+        }
+      ],
+      "next_cycle": 2
+    }
+  ],
+  "lease": null,
+  "notes": [
+    "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
+    "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
+    "Concept production completion does not mean scientific validation passed."
+  ]
+}

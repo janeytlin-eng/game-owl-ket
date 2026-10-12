@@ -112,20 +112,18 @@
           "species": "Glaucidium cobanense",
           "commit_sha": "c86a06936e854a1d9b3a65755dce6257e89389b9",
           "run_record": "owl-pet/production/runs/2026-10-13T0155+0800-subround-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Athene brama",
+          "commit_sha": "240a020db19f0c96a05c7263ca2108febb257e90",
+          "run_record": "owl-pet/production/runs/2026-10-13T0226+0800-subround-4.md"
         }
       ],
-      "next_cycle": 4
+      "next_cycle": 5
     }
   ],
-  "lease": {
-    "batch_id": "2026-10-12T2237+0800",
-    "cycle": 4,
-    "owner": "automation-production",
-    "run_id": "2026-10-13T0226+0800",
-    "heartbeat_at": "2026-10-13T02:36:00+08:00",
-    "expires_at": "2026-10-13T02:51:00+08:00",
-    "stage": "RESEARCH_READY"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -145,6 +143,7 @@
     "2026-10-12 22:50 +0800: cycle 1 produced and verified #39 Glaucidium griseiceps v1; first juvenile had adult-like wing spots/remiges and was edited to a plain-backed, short-winged age-unknown juvenile; archive commit 97713d227e3755ecc7928b8d0dc97cc292a659b8; new batch advances to 1/6.",
     "2026-10-12 22:55 +0800: cycle 2 candidate Glaucidium gnoma was not produced because accessible juvenile/RSD evidence mixed broad Northern Pygmy-Owl taxonomy with the narrow split already represented by #24 G. californicum; no cycle credit; resume cycle 2 with locality-matched evidence or another species.",
     "2026-10-13 01:54 +0800: cycle 2 produced and verified #40 Glaucidium nubicola v1; juvenile is only a conservative recently fledged concept because the uploaded guide explicitly says juvenile undescribed; archive commit c2bcb0cfd2687157d2e9c43be78d49a58588d707; batch advances to 2/6.",
-    "2026-10-13 02:10 +0800: cycle 3 produced and verified #41 Glaucidium cobanense v1; first juvenile adult-like remiges were softened/shortened and rechecked; taxonomy conflict with historical G. gnoma cobanense retained; archive commit c86a06936e854a1d9b3a65755dce6257e89389b9; batch advances to 3/6."
+    "2026-10-13 02:10 +0800: cycle 3 produced and verified #41 Glaucidium cobanense v1; first juvenile adult-like remiges were softened/shortened and rechecked; taxonomy conflict with historical G. gnoma cobanense retained; archive commit c86a06936e854a1d9b3a65755dce6257e89389b9; batch advances to 3/6.",
+    "2026-10-13 02:45 +0800: cycle 4 produced and verified #42 Athene brama v1; initial duplicate candidate G. perlatum was rejected after manifest check; first image male scale and juvenile wing maturity were corrected and rechecked; archive commit 240a020db19f0c96a05c7263ca2108febb257e90; batch advances to 4/6."
   ]
 }

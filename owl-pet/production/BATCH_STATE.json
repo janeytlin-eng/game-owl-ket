@@ -100,21 +100,18 @@
           "species": "Glaucidium griseiceps",
           "commit_sha": "97713d227e3755ecc7928b8d0dc97cc292a659b8",
           "run_record": "owl-pet/production/runs/2026-10-12T2237+0800-subround-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Glaucidium nubicola",
+          "commit_sha": "c2bcb0cfd2687157d2e9c43be78d49a58588d707",
+          "run_record": "owl-pet/production/runs/2026-10-13T0134+0800-subround-2.md"
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
-  "lease": {
-    "batch_id": "2026-10-12T2237+0800",
-    "cycle": 2,
-    "owner": "automation-production",
-    "run_id": "2026-10-13T0134+0800",
-    "heartbeat_at": "2026-10-13T01:45:00+08:00",
-    "expires_at": "2026-10-13T02:00:00+08:00",
-    "stage": "RESEARCH_READY",
-    "species": "Glaucidium nubicola"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -132,6 +129,7 @@
     "2026-10-12 21:58 +0800: cycle 5 produced and verified #37 Glaucidium peruanum v1; archive commit 219a249c3ba429d2ec64cdd6c6e6611c35bbbcb4; batch advances to 5/6.",
     "2026-10-12 22:10 +0800: cycle 6 produced and verified #38 Glaucidium nana v1; archive commit 50bcb022c6b901aa0ea0952f7c3828a1cd5b17b4; second batch closed at 6/6.",
     "2026-10-12 22:50 +0800: cycle 1 produced and verified #39 Glaucidium griseiceps v1; first juvenile had adult-like wing spots/remiges and was edited to a plain-backed, short-winged age-unknown juvenile; archive commit 97713d227e3755ecc7928b8d0dc97cc292a659b8; new batch advances to 1/6.",
-    "2026-10-12 22:55 +0800: cycle 2 candidate Glaucidium gnoma was not produced because accessible juvenile/RSD evidence mixed broad Northern Pygmy-Owl taxonomy with the narrow split already represented by #24 G. californicum; no cycle credit; resume cycle 2 with locality-matched evidence or another species."
+    "2026-10-12 22:55 +0800: cycle 2 candidate Glaucidium gnoma was not produced because accessible juvenile/RSD evidence mixed broad Northern Pygmy-Owl taxonomy with the narrow split already represented by #24 G. californicum; no cycle credit; resume cycle 2 with locality-matched evidence or another species.",
+    "2026-10-13 01:54 +0800: cycle 2 produced and verified #40 Glaucidium nubicola v1; juvenile is only a conservative recently fledged concept because the uploaded guide explicitly says juvenile undescribed; archive commit c2bcb0cfd2687157d2e9c43be78d49a58588d707; batch advances to 2/6."
   ]
 }

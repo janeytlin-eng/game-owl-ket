@@ -270,3 +270,39 @@
 - Value: accepted name and Vulnerable conservation context.
 - Limitation: dynamic page did not expose juvenile morphology or sex-specific measurements in this reading.
 - Supports: current-name/range/status cross-check only.
+
+
+## 2026-10-13 · #41 *Glaucidium cobanense*
+
+### SRC-BOOK-041-01
+- Title/author/year: *Owls of the World: A Photographic Guide*, Heimo Mikkola, 2013.
+- Pages: printed p.380; uploaded PDF p.382, species 183.
+- Type/stages: photographic guide; adult, downy chick and mesoptile.
+- Value: 16–18 cm, wing 82–98 mm; no sexual-size data; brown and red morphs, red predominant; yellow eyes, yellowish-horn bill, no ear tufts, false eyes and barred tail. Downy chick whitish; mesoptile adult-like but more diffuse, with grayish unmarked crown and mottled forehead. Mountain forest at higher elevations.
+- Limitation: no exact juvenile age or continuous wing/tail development; no sex-size evidence.
+- Supports: #41 adult/mesoptile boundaries and explicit near-equal sex scale.
+
+### SRC-PAPER-041-02
+- Title/authors/year: *Vocalizations of the Guatemalan Pygmy-Owl (Glaucidium cobanense)*, Knut Eisermann & Steve N. G. Howell, 2011, Journal of Raptor Research 45(4).
+- DOI/URL: https://doi.org/10.3356/JRR-10-73.1
+- Accessed: 2026-10-13.
+- Type: peer-reviewed taxonomic/vocal study.
+- Value: documents vocal divergence and the highland distribution used by modern species-level treatments.
+- Limitation/conflict: AOS/Clements treatments have historically retained it within *G. gnoma*; this source supports an evidence-based split but does not erase checklist disagreement. No juvenile morphology.
+- Supports: current working species boundary and old-name mapping *G. gnoma cobanense*.
+
+### SRC-WEB-041-03
+- Institution/authors: CAYAYA Birding / Knut Eisermann & Claudia Avendaño, Natural history of Guatemalan Pygmy-Owl.
+- URL: https://www.bird-studies-guatemala.info/Guatemalan-Pygmy-Owl.htm
+- Accessed: 2026-10-13.
+- Type/stage: field-research project page; breeding/nest.
+- Value: researchers report first Guatemalan nesting records and ongoing breeding-biology work; associated video index documents juveniles at a nest entrance.
+- Limitation: results were stated as being prepared for publication; no quantitative day-age or feather sequence was extracted. Used only to support tree-cavity/nest-entrance context, not precise plumage.
+
+### SRC-WEB-041-04
+- Institution/title: Avibase taxonomic concepts, Guatemalan Pygmy-Owl.
+- URL: https://avibase.bsc-eoc.org/species.jsp?avibaseid=A793D41DE97FA6AE
+- Accessed: 2026-10-13.
+- Type: checklist aggregation/taxonomic crosswalk.
+- Value: maps *Glaucidium cobanense* to historical/alternate *Glaucidium gnoma cobanense* usage.
+- Limitation: taxonomy only; no morphology or development.

@@ -146,3 +146,50 @@
 - Value: real adult morphology reference.
 - Limitation: one adult image; no sex, measurement, or juvenile evidence.
 - Supports: adult visual comparison for #37 v1.
+
+
+## 2026-10-12 · #38 *Glaucidium nana*
+
+### SRC-BOOK-038-01
+- Title/author/year: *Owls of the World: A Photographic Guide*, Heimo Mikkola, 2013
+- Page: 400
+- Type/stages: photographic guide; adult, downy chick, mesoptile, photographed immature
+- Value: 17–21 cm, 55–100 g range; adult morphs and markings; white chick; mesoptile with deep yellow/orange-tinged eyes, unspotted crown and less distinct pattern; habitat and diet summary.
+- Limitation: no exact juvenile age or continuous feather-development series.
+- Supports: #38 adult, environment, and immature boundaries.
+
+### SRC-WEB-038-02
+- Institution/title: Cornell Lab eBird, Austral Pygmy-Owl
+- URL: https://ebird.org/species/aupowl1
+- Accessed: 2026-10-12
+- Type: institutional identification account and photo gateway
+- Value: southern South American habitat breadth and adult identification.
+- Limitation: summary does not supply exact juvenile chronology.
+- Supports: environment and adult cross-check.
+
+### SRC-WEB-038-03
+- Institution/title: Argentina National Parks SIB, *Glaucidium nana*
+- URL: https://sib.gob.ar/especies/glaucidium-nana
+- Accessed: 2026-10-12
+- Type: governmental protected-area species account
+- Value: 20 cm diagnostic summary, yellow iris, long barred tail, forest/ecotone/shrub-steppe habitat, tree-cavity nesting.
+- Limitation: compiled regional guide; no juvenile feather sequence.
+- Supports: adult/environment/nest-site context.
+
+### SRC-WEB-038-04
+- Institution/title: ITIS taxonomic report, *Glaucidium nana*
+- URL: https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686695
+- Accessed: 2026-10-12
+- Type: authoritative taxonomic database
+- Value: valid current name plus *G. nanum* and *Strix nana* synonyms; cites IOC, Clements and HBW lists.
+- Limitation: taxonomy only.
+- Supports: name mapping.
+
+### SRC-WEB-038-05
+- Title/date: Austral Pygmy Owl, Torres del Paine, 7 March 2011
+- URL: https://commons.wikimedia.org/wiki/File:Austral_Pygmy_Owl_Glaucidium_nana,_Torres_del_Paine_1.jpg
+- Accessed: 2026-10-12
+- Type/stage: metadata-backed adult field photograph
+- Value: adult gray-brown morph and habitat context.
+- Limitation: single adult, sex unknown.
+- Supports: adult visual review.

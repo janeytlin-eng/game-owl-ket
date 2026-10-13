@@ -3,7 +3,7 @@
 ## Scope
 - Current working name: *Strix nebulosa* Forster, 1772.
 - Planned stage: adult male, adult female, and a recently nest-departed, preflight juvenile using a leaning tree for supported climbing.
-- Status: RESEARCH_READY; not scientifically verified.
+- Status: VERIFIED production/archive; scientific calibration remains pending.
 
 ## Evidence actually read
 1. Ulev 2007 USDA Forest Service FEIS species review, DOI 10.2737/feis-species-review-stne: juveniles leave the nest at 26–28.5 days, cannot fly for 7–14 days, and climb leaning or deeply fissured trees with talons, wings and bill; adult habitat and nest-site synthesis.

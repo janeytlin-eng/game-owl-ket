@@ -789,3 +789,46 @@
 - Evidence actually read: juvenile explicitly labelled peeking from a supported nest/tree setting at Ranthambore.
 - Limits/confidence: exact age, measurements and continuous feather sequence unknown; not a primary developmental paper. Medium.
 - Design support: use a conservative supported nestling/brancher with short down-softened wings; no flight action or mature remiges.
+
+
+## 2026-10-14 · #59 Brown Fish Owl — *Ketupa zeylonensis*
+
+### BFO-INDIANBIRDS-2013
+- Title/source: Brown Fish Owl breeding observation; Indian BIRDS 8(6)
+- URL: https://indianbirds.in/pdfs/IB_8.6_HighRes.pdf
+- Accessed: 2026-10-14
+- Type: field observation with nestling/fledgling photographs
+- Applies to: nestlings and first week after leaving nest
+- Evidence actually read: search-indexed article text explicitly captions two nestlings before and one week after nest departure and notes fledglings resembled adults.
+- Limits/confidence: exact page and full growth measurements still require PDF page-by-page extraction; useful for stage and visible maturity, not exact sex or day-age. Medium-high.
+- Design support: choose a supported near-fledging youngster at nest edge, with developed but still short/soft wings and no unsupported flight action.
+
+### BFO-OWL-PAGES-2026
+- Title/institution: Brown Fish Owl (*Ketupa zeylonensis*); The Owl Pages
+- URL: https://www.owlpages.com/owls/species.php?s=1400
+- Accessed: 2026-10-14
+- Type: specialist species account and labelled photographs
+- Applies to: adult identity and habitat
+- Evidence actually read: large owl with tousled horizontally oriented ear tufts and long legs; thick lowland/open wooded country always near water.
+- Limits/confidence: secondary specialist account; no sex-specific measurements or continuous juvenile sequence. Medium-high for adult diagnostics.
+- Design support: shaggy lateral ear tufts, yellow eyes, long bare-looking lower legs/toes, riparian forest setting.
+
+### BFO-AVIBASE-2026
+- Title/institution: *Ketupa zeylonensis*; Avibase / Bird Studies Canada
+- URL: https://avibase.bsc-eoc.org/species.jsp?avibaseid=CFDF9E89DD4CE1D4
+- Accessed: 2026-10-14
+- Type: institutional taxonomic/distribution index
+- Applies to: taxonomy, subspecies and range
+- Evidence actually read: current species name and disjunct lowland-to-foothill riparian range; lists *semenowi*, *leschenaulti* and *orientalis*.
+- Limits/confidence: taxonomy/range only. High for duplicate routing, not morphology.
+- Design support: one species record; plate does not claim a precise subspecies reconstruction.
+
+### BFO-BIRDLIFE-2026
+- Title/institution: List of Owl Species; BirdLife International
+- URL: https://www.birdlife.org/birds/list-of-owl-species/
+- Accessed: 2026-10-14
+- Type: institutional species list
+- Applies to: accepted extant species identity
+- Evidence actually read: Brown Fish-owl listed as *Ketupa zeylonensis*, Least Concern.
+- Limits/confidence: no morphology or juvenile detail. High for list identity only.
+- Design support: confirms nonduplicate current name.

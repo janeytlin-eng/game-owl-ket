@@ -459,3 +459,55 @@
 - Limit: not a morphology/development source.
 - Design support: label spelling and synonym mapping only.
 - Confidence: high for name mapping.
+
+## #51 *Strix rufipes*
+
+### OWL-SRC-0051-A
+- Title: Rufous-legged Owl (*Strix rufipes*), version 1.0
+- Authors/institution: Holt, Berkley, Deppe, Enríquez et al.; Cornell Lab of Ornithology, Birds of the World
+- Year: 2020
+- URL/DOI: https://doi.org/10.2173/bow.rulowl1.01
+- Accessed: 2026-10-13
+- Type: institutional species monograph; original page not directly accessible this run, DOI and facts read through a citation-bearing synthesis
+- Species/stage: *Strix rufipes*; adult, chick, juvenile
+- Useful facts: adult rufous facial disc/white brows/dark eyes/barred rufous body; chick downy off-white; juvenile warm buff with faint dark barring; cavity nesting typical.
+- Section: Description; Breeding
+- Limitations/confidence: medium; accessible text is secondary to the paywalled monograph, so exact age is not inferred.
+- Design decision: supports adult diagnostic direction and conservative off-white down chick.
+
+### OWL-SRC-0051-B
+- Title: Unusual Nesting of the Rufous-legged Owl?
+- Institution: Journal of Raptor Research / Raptor Research Foundation
+- Year: 2024
+- URL: https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2302&context=jrr
+- Accessed: 2026-10-13
+- Type: primary nesting report
+- Species/stage: *Strix rufipes*; eggs/nest
+- Useful facts: search metadata reports two eggs in a shallow ground depression with pine needles and woody debris.
+- Section: abstract/search metadata
+- Limitations/confidence: metadata verified; full PDF returned HTTP 403, so no unseen details are treated as read.
+- Design decision: records ground nesting as an unusual exception; does not override typical cavity scene.
+
+### OWL-SRC-0051-C
+- Title: Rufous-legged Owl *Strix rufipes* Species Factsheet
+- Institution: BirdLife International DataZone
+- URL: https://datazone.birdlife.org/species/factsheet/rufous-legged-owl-strix-rufipes
+- Accessed: 2026-10-13
+- Type: institutional taxonomy/conservation factsheet
+- Species/stage: *Strix rufipes*; species level
+- Useful facts: current accepted species account, range and forest-conservation framework.
+- Section: Distribution; Ecology; Taxonomy
+- Limitations/confidence: dynamic tables did not expose all values in text view; high for identity, lower for omitted details.
+- Design decision: supports current name and temperate forest setting.
+
+### OWL-SRC-0051-D
+- Title: Rufous-legged owl accessible species synthesis
+- Institution: Wikimedia community; cites Birds of the World and BirdLife
+- URL: https://en.wikipedia.org/wiki/Rufous-legged_owl
+- Accessed: 2026-10-13
+- Type: secondary synthesis with labelled adult/chick imagery
+- Species/stage: *Strix rufipes*; adult, chick, juvenile
+- Useful facts: chick downy off-white; juvenile warm buff; adult rusty facial disc, dark eyes, barred rufous plumage and feathered legs; typical tree cavity.
+- Section: Description; Breeding; image caption “Chick, Ñuble forest, Chile”
+- Limitations/confidence: secondary source; used only to corroborate conservative visible traits and source routing.
+- Design decision: reinforces chick stage without assigning exact age.

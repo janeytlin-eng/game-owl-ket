@@ -251,3 +251,8 @@
 ![乌雕鸮v1](concepts/58-ketupa-coromanda-v1.png)
 
 [研究档案](../knowledge/species/58-ketupa-coromanda.md)。现行名 *Ketupa coromanda*，旧组合 *Bubo coromandus*。成年雄鸟、成年雌鸟与有自然支撑的年龄未定幼鸟；首稿幼鸟成熟翼羽已缩短绒羽化并复查。待用户确认与科学校准。
+
+## 59 · 褐渔鸮 v1
+![褐渔鸮v1](concepts/59-ketupa-zeylonensis-v1.png)
+
+[研究档案](../knowledge/species/59-ketupa-zeylonensis.md)。现行名 *Ketupa zeylonensis*；成年雄鸟、成年雌鸟与近离巢巢缘幼鸟。首稿幼鸟成年式长层叠飞羽和长尾已缩短、软化并重新查看；成年雌雄保持近等可视高度，未凭空制造二型。待用户确认与精确羽龄、连续羽序、亚种及分性别测量科学校准。

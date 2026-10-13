@@ -161,14 +161,7 @@
       "next_cycle": 4
     }
   ],
-  "lease": {
-    "owner": "automation-production",
-    "run_id": "2026-10-13T1545+0800",
-    "batch_id": "2026-10-13T1333+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-13T15:45:00+08:00",
-    "expires_at": "2026-10-13T16:00:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -195,6 +188,7 @@
     "2026-10-13 13:54 +0800: cycle 1 produced and verified #45 Strix seloputo v1; two corrupted binary transfer attempts were superseded before credit; final remote Git blob exactly matches local git hash-object 385d85582db347d1809355f29c16429ca9a1f813; juvenile adult-like wing spots and long wing/tail were removed and rechecked; archive commit 2aa4300e1607662206fa64633ad22bb682798e20; new batch advances to 1/6.",
     "2026-10-13 14:03 +0800: cycle 2 Strix ocellata reached RESEARCH_READY only; no image generated or cycle credit. Resume from owl-pet/production/runs/2026-10-13T1356+0800-subround-2.md; batch remains 1/6, next_cycle 2.",
     "2026-10-13 14:37 +0800: cycle 2 resumed from RESEARCH_READY and produced/verified #46 Strix ocellata v1; first juvenile adult-style white wing spots and long layered remiges were removed and rechecked; an earlier truncated connector blob was superseded before credit; final archive commit dbec2e82eb1792e951f9e695a1c0081fb9812f71, Git blob cc023e5127153f3808b1aac48f7000106983caf8; batch advances to 2/6.",
-    "2026-10-13 15:44 +0800: cycle 3 produced and verified #47 Strix leptogrammica v1; first juvenile adult-style pale wing spots and long layered remiges were removed and rechecked; final archive commit 7a1f53051fcf579e6bbe99e32e86a47c5f030b8e, Git blob a27448ca02d83577043c242fd2fd9728652627df; batch advances to 3/6."
+    "2026-10-13 15:44 +0800: cycle 3 produced and verified #47 Strix leptogrammica v1; first juvenile adult-style pale wing spots and long layered remiges were removed and rechecked; final archive commit 7a1f53051fcf579e6bbe99e32e86a47c5f030b8e, Git blob a27448ca02d83577043c242fd2fd9728652627df; batch advances to 3/6.",
+    "2026-10-13 15:54 +0800: cycle 4 checked Strix niasensis but did not generate due insufficient accessible juvenile/development evidence; switched to #48 Strix nivicolum and persisted RESEARCH_READY evidence in owl-pet/production/runs/2026-10-13T1545+0800-subround-4.md. No image and no cycle credit; resume cycle 4 from that record."
   ]
 }

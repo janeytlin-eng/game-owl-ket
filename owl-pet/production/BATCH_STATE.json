@@ -149,7 +149,15 @@
       "next_cycle": 2
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "automation-production",
+    "run_id": "2026-10-13T1356+0800-subround-2",
+    "batch_id": "2026-10-13T1333+0800",
+    "cycle": 2,
+    "heartbeat_at": "2026-10-13T13:56:00+08:00",
+    "expires_at": "2026-10-13T14:11:00+08:00",
+    "stage": "STARTED"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

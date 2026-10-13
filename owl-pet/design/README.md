@@ -245,3 +245,9 @@
 - v1：成年雄鸟、成年雌鸟与年龄未定洞内幼鸟；初稿过熟翼羽已回退并复查。
 - 状态：待用户确认与科学校准；不声明精确日龄、性别二型或亚种还原。
 - [原图](concepts/31-glaucidium-radiatum-v1.png) · [物种档案](../knowledge/species/31-glaucidium-radiatum.md)
+
+
+## 58 · 乌雕鸮 v1
+![乌雕鸮v1](concepts/58-ketupa-coromanda-v1.png)
+
+[研究档案](../knowledge/species/58-ketupa-coromanda.md)。现行名 *Ketupa coromanda*，旧组合 *Bubo coromandus*。成年雄鸟、成年雌鸟与有自然支撑的年龄未定幼鸟；首稿幼鸟成熟翼羽已缩短绒羽化并复查。待用户确认与科学校准。

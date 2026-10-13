@@ -595,3 +595,36 @@
 | SEO-BDI-2022 | Loftie-Eaton & Daniel / Biodiversity and Development Institute, [Spotted Eagle-Owl](https://thebdi.org/2022/03/29/spotted-eagle-owl-bubo-africanus/) | 2022，访问2026-10-13 | 区域生物多样性机构物种档案及标注实物照片 | *B. africanus*，成年、幼鸟、繁殖 | Identification、Habitat、Behaviour；网页行40–66 | 成年灰褐、显著耳簇、黄眼、浅赭脸盘黑缘、下体细横斑；雌雄颜色与体型近似。幼鸟似成鸟但耳簇较弱且仍见蓬松绒羽。常用地面岩石/灌丛、树洞、崖台和建筑巢位；雏鸟约4–6周开始离巢探索，亲鸟随后继续照料5–6周。 | “雌雄同大小”为野外档案概括；与形态论文的跗跖差异并不冲突，但不能据此画明显高度差。图中选择4–6周探索幼鸟，不声明精确日龄。可信度：中高。 |
 | SEO-OSTRICH-RSD-2008 | Ansara-Ross, Wepener, Verdoorn & Ross, [Sexual dimorphism of four owl species in South Africa](https://doi.org/10.2989/OSTRICH.2008.79.1.11.366) | 2008 | 同行评审原始形态研究 | *B. africanus*，成年雌雄 | 摘要、方法与结果；ResearchGate全文行33–36、138–164、203–217 | 研究高登省道路死亡标本的8项形态测量；在斑点雕鸮中仅跗跖长度检出显著性别差异，未支持把一般性“雌大”直接转成明显体高差。 | 样本为单一区域道路死亡个体且表格数值仍待专题复核；本图把成鸟外观和站高设为近似，仅以标签区分性别。可信度：高（原始研究）。 |
 | SEO-SABAP1-1997 | Mendelsohn / Southern African Bird Atlas Project 1, [Spotted Eagle Owl species text](https://sabap2.birdmap.africa/docs/sabap1/401.pdf) | 1997 | 区域鸟类图谱物种档案PDF | *B. africanus*，栖息地、巢位、移动 | PDF p.1，Habitat/Movements/Breeding | 广泛利用各类植被与人造环境；巢位包括地面浅坑、树洞和旧枝巢、崖壁/建筑洞穴或平台；幼鸟可远距离扩散。 | 不提供幼鸟羽被或离巢动作细节；只支持场景与巢位多样性。可信度：中高。 |
+
+
+## 2026-10-14 · #55 *Bubo lacteus* (current combination *Ketupa lactea*)
+
+### VEO-PF-2026
+- Title: Verreaux's Eagle-owl
+- Institution: The Peregrine Fund
+- URL: https://peregrinefund.org/explore-raptors-species/owls/verreauxs-eagle-owl
+- Accessed: 2026-10-14
+- Type: raptor-conservation institution species account; adult, nestling and nest-leaving juvenile
+- Evidence actually read: lines 17–22, 42–50 and 68–77. Pink eyelids can appear about one week after hatch; adults have dark eyes, creamy dark-edged facial disc, small ear tufts and fine pale vermiculation. Large reused nests and occasional hollows are documented. At about 60 days, young leave the nest before reliable flight, climbing and hopping in the nest tree; first flight follows about two weeks later.
+- Limits/confidence: institutional synthesis rather than a primary growth-series paper; age values support behavior, not an exact plumage chronology. High for stage/action and diagnostics, medium for fine juvenile feather detail.
+- Design support: branch-supported, non-flying ~60-day climber with down-softened outline and short developing wings; diagnostic pink eyelid allowed without adult feather maturity.
+
+### VEO-CZBG-2026
+- Title: Verreaux's Eagle Owl
+- Institution: Cincinnati Zoo & Botanical Garden
+- URL: https://cincinnatizoo.org/animals-archive/verreauxs-eagle-owl/
+- Accessed: 2026-10-14
+- Type: accredited zoo species account
+- Evidence actually read: lines 66–70 and 77–90. Identifies *Bubo lacteus*, Africa's largest owl, central-to-southern African range, acacia/woodland/savanna habitat; usually one chick reaches fledging and young may remain with the pair.
+- Limits/confidence: no sex-specific measurements or feather-sequence data. High for identity/habitat, medium for generalized family behavior.
+- Design support: dry wooded-savanna setting and restrained family context only.
+
+### VEO-TAX-2026
+- Title: Verreaux's eagle-owl current taxonomic treatment
+- Institution: current secondary synthesis cross-referencing modern owl-systematics sources
+- URL: https://en.wikipedia.org/wiki/Verreaux%27s_eagle-owl
+- Accessed: 2026-10-14
+- Type: taxonomic routing source
+- Evidence actually read: lines 148–181. Current combination shown as *Ketupa lactea*; historical/project combination *Bubo lacteus* retained as synonym mapping.
+- Limits/confidence: secondary source; used only to prevent duplicate counting across genus changes, not for morphology or juvenile design.
+- Design support: one species record, not two; plate follows repository label *Bubo lacteus*.

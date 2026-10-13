@@ -175,3 +175,9 @@
 - 新增成年雄鸟、成年雌鸟与灰绒睁眼羽轴期巢内幼鸟组图。
 - 新增香港观鸟会繁殖档案和法国博物馆标本目录；记录旧名 *Athene cuculoides*。
 - 复查确认三只、无耳簇、成年横斑、幼鸟短羽轴和自然支撑；首图无需修订，科学状态仍待校准。
+
+
+## 2026-10-13 · #47 Brown Wood Owl
+- Added research, source-index entries and v1 concept for *Strix leptogrammica*.
+- Corrected adult-like juvenile wing spots/long remiges and rechecked the final compressed archive.
+- Retained explicit unknowns for age, developmental sequence, subspecies/locality and sex-specific linear dimensions.

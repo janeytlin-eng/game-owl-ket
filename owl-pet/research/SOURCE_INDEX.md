@@ -549,3 +549,44 @@
 - Useful facts: current name and Atlantic Forest range/ecology framework.
 - Limitations/confidence: dynamic page; used for identity and setting, not juvenile detail.
 - Design decision: humid Atlantic Forest context.
+
+
+## #53 *Strix nebulosa*
+
+### OWL-SRC-0053-A
+- Title: *Strix nebulosa*, Great Gray Owl
+- Author/institution: Elena D. Ulev; USDA Forest Service Fire Effects Information System
+- Year: 2007
+- URL/DOI: https://research.fs.usda.gov/feis/species-reviews/stne ; https://doi.org/10.2737/feis-species-review-stne
+- Accessed: 2026-10-13
+- Type: institutional literature synthesis
+- Species/stage: adult, nestling, recently fledged juvenile
+- Useful facts: young leave nests at 26–28.5 days; remain unable to fly for 7–14 days; climb leaning/deeply fissured trees with talons, wings and bill; documents nest sites, habitat and post-fledging support needs.
+- Section: Development and Reproduction; Perching and Roosting; Nesting Habitat
+- Limitations/confidence: high for cited developmental ranges and behavior; synthesized from multiple studies rather than a new primary observation.
+- Design decision: preflight juvenile shown low and supported while climbing leaning bark, with no mature flight posture.
+
+### OWL-SRC-0053-B
+- Title: Ecology of the Great Gray Owl
+- Authors/institution: Evelyn L. Bull and Mark G. Henjum; USDA Forest Service Pacific Northwest Research Station
+- Year: 1990
+- URL/DOI: https://research.fs.usda.gov/treesearch/5628 ; https://doi.org/10.2737/PNW-GTR-265
+- Accessed: 2026-10-13
+- Type: primary field study / General Technical Report
+- Species/stage: 24 pairs, 107 juveniles, 71 nesting attempts
+- Useful facts: nests occurred on stick platforms, broken-off dead-tree tops and artificial platforms; mature/older mixed conifer stands common; recently fledged young need perches and cover.
+- Section/pages: abstract; full report 39 pp.
+- Limitations/confidence: high for northeastern Oregon population; regional extrapolation is limited.
+- Design decision: broken snag/old platform context and nearby leaning-tree support, not a cavity nest.
+
+### OWL-SRC-0053-C
+- Title: Great Gray Owl Life History
+- Institution: Cornell Lab of Ornithology, All About Birds
+- URL: https://www.allaboutbirds.org/guide/great_gray_owl/lifehistory
+- Accessed: 2026-10-13
+- Type: institutional species account
+- Species/stage: egg, hatchling, nestling, adult
+- Useful facts: nestling period 26–29 days; hatchlings helpless and down-covered; nests reuse old raptor/raven nests, broken tree tops, mistletoe brooms or platforms, usually without added material.
+- Section: Nest Description; Nesting Facts
+- Limitations/confidence: high-level synthesis; does not specify the exact down-to-feather sequence for one individual.
+- Design decision: supports down-dominant, recently nest-departed stage and non-cavity nesting structure.

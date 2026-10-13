@@ -2,8 +2,8 @@
 
 ## Scope
 - Current working name: *Strix hylophila* Temminck, 1825.
-- Planned stage: adult male, adult female, and recently fledged juvenile near the documented 32–35 day nest-leaving window.
-- Status: RESEARCH_READY; not scientifically verified.
+- Depicted stage: adult male, adult female, and recently fledged juvenile near the documented 32–35 day nest-leaving window.
+- Status: VERIFIED production/archive; scientific calibration remains pending.
 
 ## Evidence actually read
 1. Holt et al. 2020, Birds of the World, DOI 10.2173/bow.rubowl2.01, through an accessible citation-bearing synthesis: adult plumage, sex mass direction, cavity nesting, 28–29 day incubation, young leaving at 32–35 days, juvenile overall buff with faint darker barring.
@@ -12,9 +12,19 @@
 
 ## Design boundaries
 - Adult pair: compact, no ear tufts, dark-brown eyes, pale rusty facial discs with concentric darker rings and small white brows, heavily barred upperparts and underparts; female subtly fuller only.
-- Juvenile: recently fledged 32–35-day direction, overall warm buff with faint soft darker barring, short soft wings/tail, securely perched on a thick branch close to cavity; no long adult-patterned remiges.
-- Atlantic Forest edge/interior; natural cavity nearby.
+- Juvenile: recently fledged 32–35-day direction, overall warm buff with faint soft darker barring, short soft wings/tail, securely perched on a thick branch close to cavity.
+- Atlantic Forest interior; natural cavity nearby.
 - Do not claim exact day, subspecies or continuous feather sequence.
+
+## Production and review
+- v1 first render: adult pair, title and habitat passed; juvenile failed because the wing carried long, layered, adult-like patterned remiges.
+- v1 targeted edit: changed only juvenile wings/tail to shorter, softer, faintly marked development; retained natural branch support and the adults/title/environment.
+- Recheck: exactly three birds; title exact; adult diagnostic direction retained; juvenile no longer has adult-like long remiges or a mature tail.
+- Archive: `owl-pet/design/concepts/52-strix-hylophila-v1.png`
+- Archive commit: `d1affca028cae840ea098d82302fcb46da1b2e12`
+- Git blob: `768364d447d4ca8e268bd370402762588f1ee754`
+- SHA-256: `564d0fb32147376db2964af138ffdd28c375cc3525865a130dd90e488ea6cc3d`
+- Dimensions/size: 1536×1024, 586264 bytes.
 
 ## Unknowns
 - Exact juvenile feather sequence, individual age, sex-specific linear measurements and regional variation.

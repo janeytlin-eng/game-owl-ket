@@ -149,15 +149,7 @@
       "next_cycle": 2
     }
   ],
-  "lease": {
-    "owner": "automation-production",
-    "run_id": "2026-10-13T1356+0800-subround-2",
-    "batch_id": "2026-10-13T1333+0800",
-    "cycle": 2,
-    "heartbeat_at": "2026-10-13T13:56:00+08:00",
-    "expires_at": "2026-10-13T14:11:00+08:00",
-    "stage": "STARTED"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -181,6 +173,7 @@
     "2026-10-13 02:45 +0800: cycle 4 produced and verified #42 Athene brama v1; initial duplicate candidate G. perlatum was rejected after manifest check; first image male scale and juvenile wing maturity were corrected and rechecked; archive commit 240a020db19f0c96a05c7263ca2108febb257e90; batch advances to 4/6.",
     "2026-10-13 02:53 +0800: cycle 5 produced and verified #43 Athene blewitti v1; juvenile adult-like wing spots/remiges were removed and rechecked; archive commit a31497b02ab1450c80c3b7456c07aae172583e07; batch advances to 5/6.",
     "2026-10-13 03:03 +0800: cycle 6 produced and verified #44 Strix uralensis v1; juvenile wing maturity and label typo corrected and rechecked; archive commit 17beaefa0a0ab910e8394a526c307ea90371023b; batch closes at 6/6.",
-    "2026-10-13 13:54 +0800: cycle 1 produced and verified #45 Strix seloputo v1; two corrupted binary transfer attempts were superseded before credit; final remote Git blob exactly matches local git hash-object 385d85582db347d1809355f29c16429ca9a1f813; juvenile adult-like wing spots and long wing/tail were removed and rechecked; archive commit 2aa4300e1607662206fa64633ad22bb682798e20; new batch advances to 1/6."
+    "2026-10-13 13:54 +0800: cycle 1 produced and verified #45 Strix seloputo v1; two corrupted binary transfer attempts were superseded before credit; final remote Git blob exactly matches local git hash-object 385d85582db347d1809355f29c16429ca9a1f813; juvenile adult-like wing spots and long wing/tail were removed and rechecked; archive commit 2aa4300e1607662206fa64633ad22bb682798e20; new batch advances to 1/6.",
+    "2026-10-13 14:03 +0800: cycle 2 Strix ocellata reached RESEARCH_READY only; no image generated or cycle credit. Resume from owl-pet/production/runs/2026-10-13T1356+0800-subround-2.md; batch remains 1/6, next_cycle 2."
   ]
 }

@@ -196,23 +196,25 @@
           "run_record": "owl-pet/production/runs/2026-10-13T2047+0800-subround-2.md"
         },
         {
+          "cycle": 4,
+          "species": "Bubo africanus",
+          "commit_sha": "471e467d9f0e3cdd32865686c87a1368f2974aec",
+          "run_record": "owl-pet/production/runs/2026-10-13T2236+0800-subround-4.md"
+        }
+      ],
+      "next_cycle": 3,
+      "invalidated_cycles": [
+        {
           "cycle": 3,
           "species": "Strix nebulosa",
           "commit_sha": "c68164b3d286f1ee86413e603878f4622ae2cd27",
-          "run_record": "owl-pet/production/runs/2026-10-13T2137+0800-subround-3.md"
+          "run_record": "owl-pet/production/runs/2026-10-13T2137+0800-subround-3.md",
+          "reason": "Duplicate of existing #08 Strix nebulosa; archive preserved but no unique-species or cycle credit."
         }
-      ],
-      "next_cycle": 4
+      ]
     }
   ],
-  "lease": {
-    "batch_id": "2026-10-13T2034+0800",
-    "cycle": 4,
-    "owner": "scheduled-production",
-    "run_id": "2026-10-13T2236+0800-subround-4",
-    "heartbeat_at": "2026-10-14T00:38:00+08:00",
-    "expires_at": "2026-10-14T00:53:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -246,6 +248,7 @@
     "2026-10-13 20:12 +0800: cycle 6 produced and verified #50 Strix virgata v1; conservative fuzzy-white cavity juvenile within dated field-observation boundary; archive commit 69d9ace9652ff000f3e587efc9eb84e613d07508; fourth batch closed at 6/6.",
     "2026-10-13 20:46 +0800: cycle 1 produced and verified #51 Strix rufipes v1; conservative off-white downy cavity chick, with unusual 2024 ground-nest report retained only as an exception; archive commit 5725bd87c2d9fc7a62ccb0c15e40f6d15b48f8a6; new batch advances to 1/6.",
     "2026-10-13 21:01 +0800: cycle 2 produced and verified #52 Strix hylophila v1; first juvenile adult-like long patterned remiges were shortened/softened and rechecked; archive commit d1affca028cae840ea098d82302fcb46da1b2e12, Git blob 768364d447d4ca8e268bd370402762588f1ee754 exactly matches local; batch advances to 2/6.",
-    "2026-10-13 21:51 +0800: cycle 3 produced and verified #53 Strix nebulosa v1; first juvenile adult-like long spotted remiges were replaced with short down-covered wing buds and rechecked; archive commit c68164b3d286f1ee86413e603878f4622ae2cd27, Git blob bd62f4b2e55380c4ff893dbd649db2a2b93e7950 exactly matches local; batch advances to 3/6."
+    "2026-10-13 21:51 +0800: cycle 3 produced and verified #53 Strix nebulosa v1; first juvenile adult-like long spotted remiges were replaced with short down-covered wing buds and rechecked; archive commit c68164b3d286f1ee86413e603878f4622ae2cd27, Git blob bd62f4b2e55380c4ff893dbd649db2a2b93e7950 exactly matches local; batch advances to 3/6.",
+    "2026-10-14 00:45 +0800: repository-wide duplicate audit found #53 Strix nebulosa duplicates existing #08. #53 assets remain as a revision but cycle 3 credit was invalidated. Cycle 4 produced and verified unique #54 Bubo africanus v1; archive commit 471e467d9f0e3cdd32865686c87a1368f2974aec, Git blob de2053b8848ba40bbdd4c92696c09d27ee915259 matches local. Batch has 3 valid cycles (1,2,4)/6 and next_cycle is replacement cycle 3."
   ]
 }

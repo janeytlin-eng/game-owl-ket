@@ -628,3 +628,27 @@
 - Evidence actually read: lines 148–181. Current combination shown as *Ketupa lactea*; historical/project combination *Bubo lacteus* retained as synonym mapping.
 - Limits/confidence: secondary source; used only to prevent duplicate counting across genus changes, not for morphology or juvenile design.
 - Design support: one species record, not two; plate follows repository label *Bubo lacteus*.
+
+
+## 2026-10-14 · #56 *Bubo virginianus*
+
+### GHO-CORNELL-2026
+- Institution/title: Cornell Lab of Ornithology, Great Horned Owl Life History
+- URL: https://www.allaboutbirds.org/guide/Great_Horned_Owl/lifehistory
+- Accessed: 2026-10-14
+- Evidence read: lines 23–46. Mixed woodland/open habitats; reused stick nests and cavities; 42-day nestling period; hatchlings helpless with white down.
+- Limits/design use: institutional synthesis, not a continuous plumage series; supports reused nest, habitat and conservative 6-week brancher boundary.
+
+### GHO-ADW-2026
+- Institution/title: University of Michigan Animal Diversity Web, *Bubo virginianus*
+- URL: https://animaldiversity.org/accounts/Bubo_virginianus/
+- Accessed: 2026-10-14
+- Evidence read: lines 85–123 and 146–153. Yellow eyes, horn-like tufts, white throat, barred underparts; females average 1.7 kg, males 1.3 kg; fledging 6–9 weeks.
+- Limits/design use: academic synthesis across geographic variation; supports moderate sex-size difference and 6-week non-confident-flight juvenile, not subspecies precision.
+
+### GHO-AUDUBON-2026
+- Institution/title: National Audubon Society Field Guide, Great Horned Owl
+- URL: https://www.audubon.org/field-guide/bird/great-horned-owl
+- Accessed: 2026-10-14
+- Evidence read: lines 9–37 and 58–88; labelled adult, nestling and adult-with-fledglings image categories; broad rounded wing and woodland-to-open habitat range.
+- Limits/design use: gallery/field-guide corroboration, not developmental measurement; supports visual cross-check only.

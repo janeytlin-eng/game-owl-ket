@@ -3,7 +3,7 @@
 ## Scope
 - Current working name: *Strix rufipes* King, 1827; historical treatment sometimes included Chaco Owl as *S. r. chacoensis*, now retained as a separate-species conflict note.
 - Planned stage: adult male, adult female, and cavity chick in downy off-white stage.
-- Status: RESEARCH_READY; not scientifically verified.
+- Status: VERIFIED production archive; not scientifically verified.
 
 ## Evidence actually read
 1. Holt et al. 2020, Birds of the World, DOI 10.2173/bow.rulowl1.01, as cited in an accessible species synthesis: adults compact and ear-tuft-free; rusty facial disc, white brows/lores, dark-brown eyes, dark reddish-brown upperparts with orange-buff bars/spots, buffy-white underparts with black bars; chick downy off-white, juvenile warm buff with faint dusky barring and tawny face; tree cavities typical.
@@ -20,3 +20,11 @@
 
 ## Unknowns
 - Exact chick age and continuous feather sequence; cross-checked sex-specific linear measurements; locality/subspecies-level variation.
+
+## Production result
+- Image: `owl-pet/design/concepts/51-strix-rufipes-v1.png`
+- Archive commit: `5725bd87c2d9fc7a62ccb0c15e40f6d15b48f8a6`
+- Git blob: `dec1421139b086a4da1f2ccaea3bc95e0e59687e`
+- SHA-256: `f96d09a9e2e617683d68067b540dc357c2f4a18fb8c98f1371b70fe89495e169`
+- Visual review: exactly two adults and one chick; title exact; adult dark eyes, rusty facial discs, white brows/lores, barred underparts and feathered rufous legs passed; chick remained low and supported, off-white down dominant, with only short soft feather buds and no mature remiges or long tail. No edit required.
+- Scientific status: concept archived and technically verified; exact chick age, continuous feather sequence, sex-specific measurements and subspecies variation remain pending.

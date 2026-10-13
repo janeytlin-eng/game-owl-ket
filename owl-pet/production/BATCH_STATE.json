@@ -188,19 +188,18 @@
           "species": "Strix rufipes",
           "commit_sha": "5725bd87c2d9fc7a62ccb0c15e40f6d15b48f8a6",
           "run_record": "owl-pet/production/runs/2026-10-13T2034+0800-subround-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix hylophila",
+          "commit_sha": "d1affca028cae840ea098d82302fcb46da1b2e12",
+          "run_record": "owl-pet/production/runs/2026-10-13T2047+0800-subround-2.md"
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
-  "lease": {
-    "owner": "scheduled-production",
-    "run_id": "2026-10-13T2047+0800-subround-2",
-    "batch_id": "2026-10-13T2034+0800",
-    "cycle": 2,
-    "heartbeat_at": "2026-10-13T20:47:00+08:00",
-    "expires_at": "2026-10-13T21:02:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -232,6 +231,7 @@
     "2026-10-13 19:41 +0800: cycle 4 resumed from REVIEWED and produced/verified #48 Strix nivicolum v1; initial long Base64 blob was detected as truncated and superseded before credit; final archive commit 56aafd1ab353fb271ec1ce5b15ae3ec819033a55, Git blob cce6bd72894d0be748dcab20ca1c0033365d8568 exactly matches local; batch advances to 4/6.",
     "2026-10-13 19:56 +0800: cycle 5 produced and verified #49 Strix woodfordii v1; first juvenile adult-like long patterned wing was shortened/softened and rechecked; archive commit 3641062002d67e7dd1809332204e5dfbdce651f7, Git blob 6444875693c4b717a13f82cd90fc351d8e91616d matches local; batch advances to 5/6.",
     "2026-10-13 20:12 +0800: cycle 6 produced and verified #50 Strix virgata v1; conservative fuzzy-white cavity juvenile within dated field-observation boundary; archive commit 69d9ace9652ff000f3e587efc9eb84e613d07508; fourth batch closed at 6/6.",
-    "2026-10-13 20:46 +0800: cycle 1 produced and verified #51 Strix rufipes v1; conservative off-white downy cavity chick, with unusual 2024 ground-nest report retained only as an exception; archive commit 5725bd87c2d9fc7a62ccb0c15e40f6d15b48f8a6; new batch advances to 1/6."
+    "2026-10-13 20:46 +0800: cycle 1 produced and verified #51 Strix rufipes v1; conservative off-white downy cavity chick, with unusual 2024 ground-nest report retained only as an exception; archive commit 5725bd87c2d9fc7a62ccb0c15e40f6d15b48f8a6; new batch advances to 1/6.",
+    "2026-10-13 21:01 +0800: cycle 2 produced and verified #52 Strix hylophila v1; first juvenile adult-like long patterned remiges were shortened/softened and rechecked; archive commit d1affca028cae840ea098d82302fcb46da1b2e12, Git blob 768364d447d4ca8e268bd370402762588f1ee754 exactly matches local; batch advances to 2/6."
   ]
 }

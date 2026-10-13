@@ -253,7 +253,16 @@
       "next_cycle": 2
     }
   ],
-  "lease": null,
+  "lease": {
+    "batch_id": "2026-10-14T0430+0800",
+    "cycle": 2,
+    "owner": "automation-owl-production",
+    "run_id": "2026-10-14T0730+0800-cycle-2",
+    "heartbeat_at": "2026-10-14T07:30:00+08:00",
+    "expires_at": "2026-10-14T07:45:00+08:00",
+    "stage": "STARTED",
+    "run_record": "owl-pet/production/runs/2026-10-14T0730+0800-cycle-2.md"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

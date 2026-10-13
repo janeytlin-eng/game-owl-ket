@@ -832,3 +832,44 @@
 - Evidence actually read: Brown Fish-owl listed as *Ketupa zeylonensis*, Least Concern.
 - Limits/confidence: no morphology or juvenile detail. High for list identity only.
 - Design support: confirms nonduplicate current name.
+
+
+## 2026-10-14 · #60 Tawny Fish Owl — *Ketupa flavipes*
+
+### TFO-SUN-NEST-1997
+- Title: Notes on a Nest of the Tawny Fish-Owl (*Ketupa flavipes*) at Sakatang Stream, Taiwan
+- Authors/source: Yuan-Hsun Sun, Ying Wang & Keith A. Arnold; Journal of Raptor Research 31(4):387–389
+- URL: https://digitalcommons.usf.edu/jrr/vol31/iss4/18/
+- Accessed: 2026-10-14
+- Type: peer-reviewed species-specific nest observation
+- Evidence actually read: article landing page, citation, journal/volume/pages, and indexed PDF text identifying the paper; direct PDF page rendering timed out in this run.
+- Limits/confidence: high for study identity and nest-specific relevance; continuous juvenile plumage sequence, exact age and sex measurements were not extracted and remain unknown.
+- Design support: conservative supported nest-edge dependent juvenile only; no exact day age or unsupported flight action.
+
+### TFO-SUN-HABITAT-2000
+- Title: Habitat Selection by Tawny Fish-Owls (*Ketupa flavipes*) in Taiwan
+- Authors/source: Yuan-Hsun Sun, Ying Wang & C. Lee; Journal of Raptor Research 34:102–107
+- URL: https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2425&context=jrr
+- Accessed: 2026-10-14
+- Type: primary radio-tracking/habitat study
+- Evidence actually read: indexed abstract reports four radio-tagged owls; broader Taiwan records identify mountain-stream territories and riparian natural forest dependence.
+- Limits/confidence: habitat evidence, not morphology or development. High for riparian setting.
+- Design support: intact mountain riparian forest and fast rocky stream backdrop.
+
+### TFO-AVIBASE-2026
+- Title/institution: *Ketupa flavipes* taxonomic concept; Avibase / Birds Canada
+- URL: https://avibase.bsc-eoc.org/species.jsp?avibaseid=67CA1D26
+- Accessed: 2026-10-14
+- Type: institutional nomenclatural index
+- Evidence actually read: lines 36–95 and 172–260: current full species *Ketupa flavipes*, protonym *Cultrunguis flavipes*, Nepal type locality, Clements range from Himalayas through southern China/Indochina to Taiwan.
+- Limits/confidence: taxonomy/range only; not juvenile morphology. High for duplicate routing.
+- Design support: one unique species record across current/historical combinations.
+
+### TFO-BIRDLIFE-2026
+- Title/institution: Tawny Fish-owl Species Factsheet; BirdLife International DataZone
+- URL: https://datazone.birdlife.org/species/factsheet/tawny-fish-owl-ketupa-flavipes
+- Accessed: 2026-10-14
+- Type: institutional conservation/taxonomy factsheet
+- Evidence actually read: current species factsheet and assessment framework; dynamic morphology fields were not exposed.
+- Limits/confidence: identity/status support only. High for institutional species identity, not feather sequence.
+- Design support: confirms extant species routing; no fine-plumage inference.

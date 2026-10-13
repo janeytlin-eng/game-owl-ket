@@ -511,3 +511,41 @@
 - Section: Description; Breeding; image caption “Chick, Ñuble forest, Chile”
 - Limitations/confidence: secondary source; used only to corroborate conservative visible traits and source routing.
 - Design decision: reinforces chick stage without assigning exact age.
+
+## #52 *Strix hylophila*
+
+### OWL-SRC-0052-A
+- Title: Rusty-barred Owl (*Strix hylophila*), version 1.0
+- Authors/institution: Holt, Berkley, Deppe, Enríquez et al.; Cornell Lab of Ornithology, Birds of the World
+- Year: 2020
+- URL/DOI: https://doi.org/10.2173/bow.rubowl2.01
+- Accessed: 2026-10-13
+- Type: institutional species monograph, read through accessible citation-bearing synthesis
+- Species/stage: adult and juvenile
+- Useful facts: juvenile overall buff with faint darker barring; cavity nest; young leave 32–35 days after hatch; adult diagnostic barring and dark eyes.
+- Limitations/confidence: medium; exact monograph page not directly accessible, so no exact-day assignment.
+- Design decision: recently fledged, supported buff juvenile with short soft wing/tail.
+
+### OWL-SRC-0052-B
+- Title: Rusty-barred Owl – *Strix hylophila*
+- Author/institution: Deane Lewis, The Owl Pages
+- Date: 2020-10-27
+- URL: https://www.owlpages.com/owls/species.php?s=2340
+- Accessed: 2026-10-13
+- Type: specialist species account
+- Species/stage: adult
+- Useful facts: rusty facial disc with darker concentric rings, small white brows, dark eyes, orange-buff/brown/white barring, feathered legs.
+- Limitations/confidence: secondary specialist account.
+- Design decision: adult face, eye and barring direction.
+
+### OWL-SRC-0052-C
+- Title: Rusty-barred Owl *Strix hylophila* Species Factsheet
+- Institution: BirdLife International
+- Year: 2022/current page
+- URL: https://datazone.birdlife.org/species/factsheet/rusty-barred-owl-strix-hylophila
+- Accessed: 2026-10-13
+- Type: institutional taxonomy/conservation factsheet
+- Species/stage: species/range
+- Useful facts: current name and Atlantic Forest range/ecology framework.
+- Limitations/confidence: dynamic page; used for identity and setting, not juvenile detail.
+- Design decision: humid Atlantic Forest context.

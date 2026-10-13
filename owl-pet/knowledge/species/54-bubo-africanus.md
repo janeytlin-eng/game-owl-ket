@@ -3,7 +3,7 @@
 ## Scope
 - Current working name: *Bubo africanus* (Temminck, 1821).
 - Planned stage: adult male, adult female, and a supported 4–6-week exploratory juvenile on a low rock beside the nest scrape.
-- Status: RESEARCH_READY; not scientifically verified.
+- Status: VERIFIED production/archive; scientific calibration remains pending.
 
 ## Evidence actually read
 1. SANBI species page: typical gray-brown/yellow-eyed/fine-barred identification, open scrub–savanna–grassland–rocky habitat, juvenile hiss and bill-click behavior.
@@ -19,3 +19,14 @@
 
 ## Unknowns
 - Exact continuous feather sequence, regional/subspecies variation, and precise sex-specific standing dimensions remain unresolved.
+
+## Production and review
+- v1 first render: adults, title, rocky savanna and low support passed; juvenile failed because the wing showed a long layered adult-like patterned panel.
+- v1 targeted edit: changed only the juvenile wing and tail to short, soft, down-covered structures; retained both adults, exact title and support.
+- Recheck: exactly three birds; adult yellow eyes, ear tufts, dark-rimmed pale facial discs and fine barring retained; adult scales near equal; juvenile down-dominant, short-winged, short-tailed and fully supported.
+- Archive: `owl-pet/design/concepts/54-bubo-africanus-v1.png`
+- Archive commit: `471e467d9f0e3cdd32865686c87a1368f2974aec`
+- Git blob: `de2053b8848ba40bbdd4c92696c09d27ee915259`
+- SHA-256: `368f9ab52964127d939544e39e3f2ba92eea2f39cb9d5410a5390e20b5470960`
+- Dimensions/size: 1536×1024, 625269 bytes.
+- Scientific status: production/archive verified; scientific calibration remains pending.

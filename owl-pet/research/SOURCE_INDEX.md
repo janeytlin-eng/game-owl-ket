@@ -348,3 +348,59 @@
 | HIML-MIKKOLA-2013 | Heimo Mikkola, *Owls of the World: A Photographic Guide*, 2nd ed. | uploaded copy; accessed 2026-10-13 | photographic guide; adult and photographed young | Printed pp.329–330 (uploaded PDF pp.331–332), species 153 under *S. nivicola*: 35–40 cm; female slightly larger; gray/rufous morphs; two pale wing rows, broad wing/tail bands, heavily streaked pale underparts; photo caption says young bird is very white. | No exact juvenile age or feather sequence; supports only a white, short-feathered young stage. |
 | HIML-BIRDLIFE-2026 | BirdLife International, Himalayan Owl factsheet | https://datazone.birdlife.org/species/factsheet/himalayan-owl-strix-nivicolum ; accessed 2026-10-13 | institutional taxonomy/range | Accepts current name *Strix nivicolum* and broad range framing. | Dynamic page did not expose juvenile morphology; name/range only. |
 | HIML-OWLPAGES-2020 | The Owl Pages, Himalayan Wood Owl | https://www.owlpages.com/owls/species.php?s=1590 ; accessed 2026-10-13 | specialist synthesis; adult/taxonomy | Medium, round-headed, no ear tufts; current name *S. nivicolum*; formerly treated within *S. aluco*. | No juvenile chronology or sex measurements; used for name-history cross-check only. |
+
+
+## 2026-10-13 · #49 *Strix woodfordii*
+
+### OWL-SRC-0049-A
+- Title: African Wood Owl
+- Author/institution: SANBI / Rural Citizen Science Birding Project
+- Year: 2018
+- URL: https://www.sanbi.org/animal-of-the-week/african-wood-owl/
+- Accessed: 2026-10-13
+- Type: institutional species account
+- Applies to: *Strix woodfordii*; adult ecology, breeding and nest site
+- Evidence read: dense evergreen/deciduous/riparian woodland; natural tree-hole nesting; references Steyn & Scott breeding work.
+- Location: habitat and life-cycle sections; lines 33–45, 77–102 in retrieved page.
+- Limit: synthesized account; not a continuous juvenile plumage series.
+- Design support: dense woodland and cavity setting; no exact subspecies claim.
+- Confidence: medium-high.
+
+### OWL-SRC-0049-B
+- Title: Owls of Levubu / African Wood Owl observations
+- Author/institution: African Birdlife / BirdLife South Africa
+- Year: 2016
+- URL: https://www.birdlife.org.za/wp-content/uploads/2020/08/38-47_Owls4.pdf
+- Accessed: 2026-10-13
+- Type: field-observation article with nest photographs
+- Applies to: *Strix woodfordii*; chicks, nest and branching stage
+- Evidence read: PDF pp.46–47 (file page 4), lines 283–434; nests 7–15 m high in palm sheaths/hollow logs; female leaves nest about 10 days after hatch; chicks exercise another 2–3 weeks and climb surrounding branches at 25–30 days; caption identifies almost-one-month chick clambering around nest.
+- Limit: locality-specific Levubu observations; plumage sequence not quantified.
+- Design support: supported 25–30-day branching juvenile at hollow-log rim, not a flying chick.
+- Confidence: high for behavior/stage, medium for generalized plumage.
+
+### OWL-SRC-0049-C
+- Title: African Wood-owl
+- Author/institution: The Peregrine Fund
+- Year: undated current account
+- URL: https://peregrinefund.org/explore-raptors-species/owls/african-wood-owl
+- Accessed: 2026-10-13
+- Type: institutional species account; cites Birds of the World v1.1
+- Applies to: *Strix woodfordii*; hatchling through fledging and habitat
+- Evidence read: lines 40–64; white-down hatchling, natural cavities, branching around one month, first flight around 46 days; cites DOI 10.2173/bow.afwowl1.01.1.
+- Limit: summary account rather than full primary paper.
+- Design support: white/pale branching juvenile with short developing wings; no flight pose at 25–30 days.
+- Confidence: medium-high.
+
+### OWL-SRC-0049-D
+- Title: African Wood Owl – *Strix woodfordii*
+- Author/institution: The Owl Pages
+- Year: current page
+- URL: https://www.owlpages.com/owls/species.php?s=1630
+- Accessed: 2026-10-13
+- Type: specialist species account and labelled photo gallery
+- Applies to: adult male/female morphology
+- Evidence read: 30–35 cm, rounded head, no ear tufts; gallery includes sex-labelled adult examples.
+- Limit: no verified sex-specific linear measurement used; gallery not a development study.
+- Design support: adult head structure, dark-eyed wood-owl direction and restrained sex-size contrast.
+- Confidence: medium.

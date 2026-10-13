@@ -3,7 +3,7 @@
 ## Scope
 - Current working name: *Strix nebulosa* Forster, 1772.
 - Planned stage: adult male, adult female, and a recently nest-departed, preflight juvenile using a leaning tree for supported climbing.
-- Status: VERIFIED production/archive; scientific calibration remains pending.
+- Status: ARCHIVED revision; duplicate of existing species #08, so it does not increase unique-species count or receive production-cycle credit.
 
 ## Evidence actually read
 1. Ulev 2007 USDA Forest Service FEIS species review, DOI 10.2737/feis-species-review-stne: juveniles leave the nest at 26–28.5 days, cannot fly for 7–14 days, and climb leaning or deeply fissured trees with talons, wings and bill; adult habitat and nest-site synthesis.
@@ -30,3 +30,7 @@
 - SHA-256: `8e242ed0d7aa0f180b472246f630e6a9d1f20dbab49021c9d0fa50b28e804f6b`
 - Dimensions/size: 1536×1024, 612295 bytes.
 - Scientific status: production/archive verified; scientific calibration remains pending.
+
+## Duplicate audit
+- 2026-10-14: repository-wide species-path audit found that #08 is already *Strix nebulosa*.
+- #53 image and evidence are preserved as a supported-climbing revision, but the species is not counted twice and its former batch-cycle credit is invalidated.

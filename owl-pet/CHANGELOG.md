@@ -181,3 +181,11 @@
 - Added research, source-index entries and v1 concept for *Strix leptogrammica*.
 - Corrected adult-like juvenile wing spots/long remiges and rechecked the final compressed archive.
 - Retained explicit unknowns for age, developmental sequence, subspecies/locality and sex-specific linear dimensions.
+
+
+## 2026-10-14 — #57 Spot-bellied Eagle-Owl
+
+- Audited and rejected a locally generated *Bubo bubo* candidate after the full manifest revealed existing #03 revisions; no duplicate image was archived or counted.
+- Added four indexed *Bubo nipalensis* sources and a species evidence record, including a dated Indian BIRDS dependent-juvenile observation.
+- Generated v1, found an overly mature juvenile wing/tail, edited them shorter and down-softened, and rechecked the full plate.
+- Archived `design/concepts/57-bubo-nipalensis-v1.png` (SHA-256 `18626f7477b6bd9d8f7a34c7ffc4b4ab3328b993386dacf29731495401935ea1`; Git blob `43934570d912bd22988f66cd117c118fb6f8bd5a`). Scientific review remains pending.

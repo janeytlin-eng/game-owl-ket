@@ -746,3 +746,46 @@
 - Evidence actually read: current combination presented as *Ketupa nipalensis* while extensive recent literature and project label use *Bubo nipalensis*.
 - Limits/confidence: secondary source; taxonomy mapping only.
 - Design support: one species record under historical/current genus combinations; no duplicate credit.
+
+
+## 2026-10-14 · #58 Dusky Eagle-Owl — current *Ketupa coromanda*, legacy *Bubo coromandus*
+
+### DEO-AVIBASE-2026
+- Title/institution: Dusky Eagle-Owl taxonomic history; Avibase / Bird Studies Canada
+- URL: https://avibase.bsc-eoc.org/species.jsp?avibaseid=15789B6D091982C0
+- Accessed: 2026-10-14
+- Type: institutional nomenclatural index
+- Applies to: taxonomy and synonym mapping
+- Evidence actually read: current Clements/IOC combination *Ketupa coromanda*; older major lists use *Bubo coromandus*; also maps *Strix coromanda*.
+- Limits/confidence: taxonomy routing only; not morphology. High for preventing duplicate credit.
+- Design support: one species record under current and legacy combinations; repository plate labels both.
+
+### DEO-BIRDLIFE-2026
+- Title/institution: Dusky Eagle-owl Species Factsheet; BirdLife International DataZone
+- URL: https://datazone.birdlife.org/species/factsheet/dusky-eagle-owl-bubo-coromandus
+- Accessed: 2026-10-14
+- Type: institutional taxonomy/conservation factsheet
+- Applies to: species identity and range
+- Evidence actually read: species account identity and South/Southeast Asian range framework.
+- Limits/confidence: dynamic factsheet exposed limited morphology; not used for juvenile feather sequence. High for identity/range.
+- Design support: lowland South Asian wooded-wetland edge context only.
+
+### DEO-ADW-2026
+- Title/institution: *Bubo coromandus* specimen/photo index; University of Michigan Animal Diversity Web
+- URL: https://animaldiversity.org/accounts/Bubo_coromandus/pictures/
+- Accessed: 2026-10-14
+- Type: university museum-linked image/specimen index
+- Applies to: adult external appearance
+- Evidence actually read: three species-labelled adult images available under legacy combination.
+- Limits/confidence: no measured sex difference or dated juvenile sequence. Medium-high for adult cross-check only.
+- Design support: adults share grey-brown plumage and prominent ear tufts; do not invent visible sexual dichromatism.
+
+### DEO-JUV-OBS-2026
+- Title/source: Juvenile Dusky Eagle Owl at Ranthambore; The Owl Pages social observation
+- URL: https://www.facebook.com/owlpages/posts/1306472991528426/
+- Accessed: 2026-10-14
+- Type: labelled field photograph lead, directly readable caption
+- Applies to: juvenile support context
+- Evidence actually read: juvenile explicitly labelled peeking from a supported nest/tree setting at Ranthambore.
+- Limits/confidence: exact age, measurements and continuous feather sequence unknown; not a primary developmental paper. Medium.
+- Design support: use a conservative supported nestling/brancher with short down-softened wings; no flight action or mature remiges.

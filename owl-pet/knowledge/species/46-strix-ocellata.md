@@ -3,7 +3,7 @@
 ## Scope
 - Current working name: *Strix ocellata* (Lesson, 1839); historical combinations include *Syrnium ocellatum* and *Bulaca ocellata*.
 - Concept stage planned: adult male, adult female, mesoptile juvenile.
-- Status: RESEARCH_READY only; no image archived; not scientifically verified.
+- Status: concept image v1 generated, edited, reviewed and archived; not scientifically verified.
 
 ## Evidence actually read
 1. Mikkola 2013, printed pp. 324–325 (PDF pp. 326–327), species 150: 41–48 cm, no ear-tufts; females only presumed larger; mottled reddish-brown/black/white/buff upperparts, finely concentrically barred pale facial disc, dark-brown eyes, muted coral eyelids, horn-black bill; mesoptile with whiter crown and finely blackish-barred pale nape/mantle/wing-coverts.
@@ -28,3 +28,11 @@ Text (verbatim): "#46 MOTTLED WOOD OWL — Strix ocellata"
 Constraints: no ear tufts; no exaggerated female size; no adult-length juvenile flight feathers; preserve concentric facial-disc barring.
 Avoid: yellow eyes, bright yellow bill, mature juvenile wing/tail, floating feet, extra birds, watermark.
 ```
+
+## Production result
+- Final file: `design/concepts/46-strix-ocellata-v1.png`
+- First draft issue: juvenile retained adult-like large white wing spots and long layered remiges.
+- Applied edit: removed adult-style white spots; shortened and softened juvenile wing/tail while preserving whiter crown, fine dark barring, natural support, adult faces and scale.
+- Recheck: title, exactly three birds, dark-brown eyes, concentric facial-disc barring, horn-black bills, near-equal adults and supported feet passed visual review.
+- PNG: 1536×1024 indexed-color transfer-safe archive, 711,668 bytes; SHA-256 `c0f611865f25021a8e363c086a8c76bc7ed0c50f3adfbb1f20edaeeba87e8403`; Git blob `cc023e5127153f3808b1aac48f7000106983caf8`.
+- Scientific unknowns retained: exact day-age, continuous juvenile wing/tail sequence, sex-specific measurements and subspecies-locality detail.

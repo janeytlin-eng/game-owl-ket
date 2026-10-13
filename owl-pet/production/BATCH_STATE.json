@@ -230,9 +230,24 @@
           "reason": "Duplicate of existing #08 Strix nebulosa; archive preserved but no unique-species or cycle credit."
         }
       ]
+    },
+    {
+      "batch_id": "2026-10-14T0327+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "scheduled-production",
+    "run_id": "2026-10-14T0327+0800-cycle-1",
+    "batch_id": "2026-10-14T0327+0800",
+    "cycle": 1,
+    "heartbeat_at": "2026-10-14T03:27:00+08:00",
+    "expires_at": "2026-10-14T03:42:00+08:00",
+    "stage": "STARTED"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

@@ -3,7 +3,7 @@
 ## Scope
 - Current working name: *Strix leptogrammica* Temminck, 1832.
 - Concept stage: adult male, adult female, mesoptile juvenile.
-- Status: RESEARCH_READY; not scientifically verified.
+- Status: concept image v1 generated, edited, reviewed and archived; not scientifically verified.
 
 ## Evidence actually read
 1. Mikkola 2013, printed pp.326–327 (uploaded PDF pp.328–329), species 151: 34–45 cm, 500–1100 g, wing 286–400 mm; female clearly larger and at least 200 g heavier; no ear tufts; dark eyes, greenish-horn bill, cinnamon/rufous nuchal collar, rufous/chestnut breast band and thin dark barring below. Natal down light rufous-buff; mesoptile very pale rufous/ochre-buff with faint russet bars.
@@ -29,3 +29,12 @@ Text (verbatim): "#47 BROWN WOOD OWL — Strix leptogrammica"
 Constraints: exactly three owls; no ear tufts; dark eyes; retain cinnamon nuchal collar and horizontal white throat band; juvenile not an adult miniature.
 Avoid: yellow eyes, bright yellow bill, exaggerated female height, adult-length juvenile flight feathers, floating feet, extra birds, watermark.
 ```
+
+
+## Production result
+- Final file: `design/concepts/47-strix-leptogrammica-v1.png`
+- First draft issue: juvenile had adult-style pale wing spots and long layered remiges; title species spelling needed clearer rendering.
+- Applied edit: removed pale adult wing spots, shortened/softened juvenile wing and tail, and re-rendered the exact scientific name.
+- Recheck: exact three birds, title `Strix leptogrammica`, dark eyes, no ear tufts, supported feet, moderate female fullness, adult nuchal/throat bands, and a short-winged soft mesoptile passed visual review.
+- PNG: 1536×1024 indexed-color transfer-safe archive, 703,587 bytes; SHA-256 `62062db36d6b11835551812487f6100d43bcede086d0557d5176a671ffbcd22f`; Git blob `a27448ca02d83577043c242fd2fd9728652627df`.
+- Scientific unknowns retained: exact day-age, continuous wing/tail sequence, locality/subspecies and sex-specific linear measurements.

@@ -652,3 +652,52 @@
 - Accessed: 2026-10-14
 - Evidence read: lines 9–37 and 58–88; labelled adult, nestling and adult-with-fledglings image categories; broad rounded wing and woodland-to-open habitat range.
 - Limits/design use: gallery/field-guide corroboration, not developmental measurement; supports visual cross-check only.
+
+
+## 2026-10-14 · #57 *Bubo bubo*
+
+### EEO-PENTERIANI-2005
+- Title: Development of chicks and predispersal behaviour of young in the Eagle Owl *Bubo bubo*
+- Authors/institution: V. Penteriani, M. M. Delgado, C. Maggio, A. Aradis & F. Sergio; Ibis / British Ornithologists' Union
+- Year/DOI: 2005; https://doi.org/10.1111/j.1474-919x.2004.00381.x
+- Original URL: https://digital.csic.es/bitstream/10261/59646/1/ibis.pdf
+- Accessed: 2026-10-14
+- Type: peer-reviewed primary developmental field study
+- Applies to: *Bubo bubo* chicks and pre-dispersal young
+- Evidence actually read: bibliographic record and abstract/title page identification; Ibis 147:155–168. The accessible PDF endpoint failed during full-text reopening, so no unseen age-specific measurements are imported.
+- Limits/confidence: high for study identity and relevance; detailed growth values remain unverified in this run.
+- Design support: establishes a species-specific developmental evidence route, while the plate uses the independently verified zoo account for the 60-day activity boundary.
+
+### EEO-DENVER-2020
+- Title: Eurasian Eagle Owl — *Bubo bubo*
+- Institution: Denver Zoological Foundation
+- Year: 2020/current PDF
+- URL: https://denverzoo.org/wp-content/uploads/2020/04/Eurasian-Eagle-Owl.pdf
+- Accessed: 2026-10-14
+- Type: accredited-zoo species account, 3-page PDF
+- Applies to: adult morphology, sex size, nest setting, juvenile development
+- Evidence actually read: PDF p.1 lines 17–35 and p.2 lines 51–60. Orange eyes, prominent ear tufts, tawny mottled brown upperparts, buff lowerparts with black streaks and a whitish throat; males are smaller than females. Rocky scrapes/crevices/cave entrances/sheltered cliff ledges are used. Young begin only short conditioning flights at about 60 days.
+- Limits/confidence: institutional synthesis, not a continuous feather-growth series; high for diagnostics and setting, medium-high for the general 60-day behavior boundary.
+- Design support: moderate female size increase; supported rocky ledge; ~60-day juvenile remains grounded/perched with short down-softened developing wings and no strong flight pose.
+
+### EEO-CLEMZOO-2024
+- Title: Eagle-Owl, Eurasian — *Bubo bubo*
+- Institution: Cleveland Metroparks Zoo Resource Library
+- Year: current fact sheet, accessed 2026-10-14
+- URL: https://resourcelibrary.clemetzoo.com/Download/PDF?fileName=OwlEurasian+Eagle.pdf
+- Type: accredited-zoo morphology fact sheet
+- Applies to: adult male/female morphology
+- Evidence actually read: search-indexed PDF text. Females 3.9–10.1 lb and males 2.7–7.1 lb; orange eyes; erect ear tufts; bulky barrel-shaped body; tawny/blackish mottled upperparts, barred wings/tail, buff dark-streaked underparts; little external sex difference beyond the female being slightly larger.
+- Limits/confidence: direct PDF reopening was blocked by the connector; facts are retained as search-indexed source text and not used for details beyond corroboration.
+- Design support: same plumage on both adults, with restrained—not exaggerated—female size difference.
+
+### EEO-EBIRD-2026
+- Title: Eurasian Eagle-Owl — *Bubo bubo*
+- Institution: Cornell Lab of Ornithology, eBird/Macaulay Library
+- URL: https://ebird.org/species/eueowl1
+- Accessed: 2026-10-14
+- Type: institutional identification account and labelled adult/juvenile photo index
+- Applies to: adult identification and visual cross-check
+- Evidence actually read: very large powerful owl with obvious ear tufts, deep orange eyes, and finely streaked pale-buffy underparts; labelled adult, juvenile, and adult-with-juvenile media entries.
+- Limits/confidence: restricted page prevented opening individual media in this run; not used to infer exact juvenile age or feather sequence.
+- Design support: adult diagnostic cross-check only.

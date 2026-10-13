@@ -404,3 +404,58 @@
 - Limit: no verified sex-specific linear measurement used; gallery not a development study.
 - Design support: adult head structure, dark-eyed wood-owl direction and restrained sex-size contrast.
 - Confidence: medium.
+
+
+## 2026-10-13 · #50 *Strix virgata*
+
+### OWL-SRC-0050-A
+- Title: Mottled Owl – *Strix virgata*
+- Institution: The Owl Pages
+- Year: current page
+- URL: https://www.owlpages.com/owls/species.php?s=1640
+- Accessed: 2026-10-13
+- Type: specialist species account
+- Applies to: adult morphology, habitat and nest
+- Evidence read: dark-brown upperparts flecked/barred pale, pale-buff facial disc, dark eyes, whitish/buff streaked underparts; natural tree-hole nest; breeding biology little known.
+- Limit: no continuous juvenile development data.
+- Design support: adult dark morph and cavity setting.
+- Confidence: medium.
+
+### OWL-SRC-0050-B
+- Title: *Strix virgata* (mottled owl)
+- Institution: University of Michigan Animal Diversity Web
+- Year: 2004
+- URL: https://animaldiversity.org/accounts/Strix_virgata/
+- Accessed: 2026-10-13
+- Type: academic institutional synthesis
+- Applies to: reproduction and older *Ciccaba* usage
+- Evidence read: 1–2 eggs; tree holes/broken palms or old nests.
+- Limit: older synthesis; no detailed juvenile plumage.
+- Design support: cavity-bound juvenile setting and historical-name mapping.
+- Confidence: medium.
+
+### OWL-SRC-0050-C
+- Title: Mottled Owl, *Strix virgata* – young in nest
+- Author/site: Backyard Nature field newsletter
+- Year: 2016
+- URL: https://www.backyardnature.net/mexnat/mottled.htm
+- Accessed: 2026-10-13
+- Type: dated locality-specific field observation with photographs
+- Applies to: fuzzy-white cavity juvenile; Yucatán, Mexico
+- Evidence read: 12 June 2016 Hacienda Chichén observation shows fuzzy-white young in tree hollow and later both parents nearby.
+- Limit: exact age and continuous feather sequence not documented; field page rather than peer-reviewed study.
+- Design support: fuzzy-white supported cavity juvenile without a flight claim.
+- Confidence: medium for visible stage/locality.
+
+### OWL-SRC-0050-D
+- Title: Mottled Owl – *Strix virgata*
+- Institution: Avibase
+- Year: current database
+- URL: https://avibase.bsc-eoc.org/species.jsp?avibaseid=192FC14D288B0F46
+- Accessed: 2026-10-13
+- Type: taxonomic database
+- Applies to: current name and historical combinations
+- Evidence read: current *Strix virgata* mapping; historic *Ciccaba* treatment retained in project record.
+- Limit: not a morphology/development source.
+- Design support: label spelling and synonym mapping only.
+- Confidence: high for name mapping.

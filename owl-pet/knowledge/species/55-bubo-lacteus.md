@@ -1,6 +1,6 @@
 # 55 · Verreaux's Eagle-Owl · *Bubo lacteus*
 
-Status: RESEARCH_READY (concept production cycle replacement 3/6)
+Status: ARCHIVED / visually reviewed; scientific calibration pending
 Accessed: 2026-10-14
 
 ## Taxonomy
@@ -27,4 +27,14 @@ Accessed: 2026-10-14
 - VEO-TAX-2026 — current-name cross-check for *Ketupa lactea* / historical *Bubo lacteus*.
 
 ## Asset
-- Planned: `owl-pet/design/concepts/55-bubo-lacteus-v1.png`
+- Archived: `owl-pet/design/concepts/55-bubo-lacteus-v1.png`
+- Dimensions: 1536 × 1024 PNG; 636755 bytes
+- SHA-256: `96dbc7e19eca9aabd7487ba4facfd9f20db3ea4284170b2535db004d42cff781`
+- Git blob: `ee6bf60f8750d8791599587afd32179ab889e06d`
+- Archive commit: `0565686b8214b9c49aa45685e0d18c4d3f8c12ca`
+
+## Actual review and iteration
+- Initial image: adult traits, exact bird count, title, nest and support passed; juvenile retained long layered white-spotted adult-like flight feathers.
+- Edit: replaced only the juvenile wing with shorter rounded down-covered developing wings; preserved adult birds, title, nest and branch.
+- Recheck: exact three birds; adult pink eyelids/dark eyes and pale vermiculation visible; female only subtly fuller; juvenile pink eyelids, weak ear tufts, short immature wing, non-flight climbing posture and secure branch contact visible.
+- Remaining uncertainty: exact sex-specific measurement ratio and continuous juvenile feather sequence remain unverified; concept is not marked scientifically approved.

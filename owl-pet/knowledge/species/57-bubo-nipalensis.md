@@ -1,7 +1,7 @@
 # 57 · Spot-bellied Eagle-Owl · *Bubo nipalensis*
 
 ## Status
-- Production stage: RESEARCH_READY
+- Production stage: ARCHIVED
 - Scientific status: pending review
 - Version target: v1
 - Batch/cycle: 2026-10-13T2034+0800 · 6/6
@@ -19,9 +19,17 @@ Project label follows the widespread literature combination *Bubo nipalensis*. C
 See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): SBEO-SRINIVASAN-2013, SBEO-OWL-PAGES-2022, SBEO-THAI-NP-2026, SBEO-TAX-2026.
 
 ## Review checklist
-- [ ] exactly three birds, labels and exact title
-- [ ] adults dark-eyed with long sideways ragged ear tufts
-- [ ] pale fulvous underside has horizontal bars/broad spots, not vertical eagle-owl streaks
-- [ ] adults near-equal scale; no invented dimorphism
-- [ ] juvenile paler, smaller ear tufts, stable branch support, no strong flight pose
-- [ ] dense humid forest; no rocky/open-country nest substitution
+- [x] exactly three birds, labels and exact title
+- [x] adults dark-eyed with long sideways ragged ear tufts
+- [x] pale fulvous underside has horizontal bars/broad spots, not vertical eagle-owl streaks
+- [x] adults near-equal scale; no invented dimorphism
+- [x] juvenile paler, smaller ear tufts, stable branch support, no strong flight pose
+- [x] dense humid forest; no rocky/open-country nest substitution
+
+## Production review
+
+- Initial image: juvenile retained a long layered spotted wing and long tail.
+- Revision: targeted edit shortened and down-softened the juvenile wing/tail while preserving adult diagnostics and text.
+- Recheck: passed visual production review at 1536×1024; exactly three birds, supported feet, correct title/labels and forest setting.
+- Archive: [v1 image](../../design/concepts/57-bubo-nipalensis-v1.png), Git blob `43934570d912bd22988f66cd117c118fb6f8bd5a`, SHA-256 `18626f7477b6bd9d8f7a34c7ffc4b4ab3328b993386dacf29731495401935ea1`.
+- Scientific status remains pending; exact age, sex measurements and genus standardization are unresolved.

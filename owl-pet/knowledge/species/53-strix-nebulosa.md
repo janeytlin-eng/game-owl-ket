@@ -18,3 +18,15 @@
 
 ## Unknowns
 - Exact individual age, regional/subspecies plumage variation, sex-specific standing dimensions, and the precise continuous replacement of nestling down.
+
+
+## Production and review
+- v1 first render: adults, exact title, habitat and supported climbing pose passed; juvenile failed because both wings carried long layered spotted remiges.
+- v1 targeted edit: changed only the juvenile wings/tail to very short, down-covered buds with no flight-feather rows; tail hidden; retained low bark-braced pose, adults, environment and title.
+- Recheck: exactly three birds; adult yellow eyes, concentric facial discs and black chin marks retained; juvenile visibly supported by feet/bill, down dominant and unable to fly.
+- Archive: `owl-pet/design/concepts/53-strix-nebulosa-v1.png`
+- Archive commit: `c68164b3d286f1ee86413e603878f4622ae2cd27`
+- Git blob: `bd62f4b2e55380c4ff893dbd649db2a2b93e7950`
+- SHA-256: `8e242ed0d7aa0f180b472246f630e6a9d1f20dbab49021c9d0fa50b28e804f6b`
+- Dimensions/size: 1536×1024, 612295 bytes.
+- Scientific status: production/archive verified; scientific calibration remains pending.

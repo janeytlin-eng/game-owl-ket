@@ -701,3 +701,48 @@
 - Evidence actually read: very large powerful owl with obvious ear tufts, deep orange eyes, and finely streaked pale-buffy underparts; labelled adult, juvenile, and adult-with-juvenile media entries.
 - Limits/confidence: restricted page prevented opening individual media in this run; not used to infer exact juvenile age or feather sequence.
 - Design support: adult diagnostic cross-check only.
+
+
+## 2026-10-14 · #57 *Bubo nipalensis* (current combination often *Ketupa nipalensis*)
+
+### SBEO-SRINIVASAN-2013
+- Title: Spot-bellied Eagle Owl *Bubo nipalensis* in northern Eastern Ghats, Andhra Pradesh, India
+- Author/source: Sathyanarayana Srinivasan; Indian BIRDS 8(4):106–107
+- URL: https://indianbirds.in/pdfs/IB_8.4_Final.pdf
+- Accessed: 2026-10-14
+- Type: field/rescue observation with dated juvenile photographs
+- Applies to: juvenile plumage, movement ability, moist-forest setting
+- Evidence actually read: PDF pp.106–107 (file pp.24–25), lines 1981–2074. Juvenile was pale yellow with light spotting, thin V-shaped breast marks, heavily barred dark flight/tail feathers, small ear tufts and creamy-yellow legs; it attempted escape but did not fly far and was judged not yet flying/dependent. Dense moist deciduous forest with semi-evergreen/evergreen stream pockets is documented.
+- Limits/confidence: rescued single individual of unknown exact age; high for visible plumage/observed weak flight, not a continuous growth series.
+- Design support: supported branch-perched dependent juvenile with pale yellow-cream plumage, small ear tufts and restrained wing presentation; no strong flight pose.
+
+### SBEO-OWL-PAGES-2022
+- Title: Forest Eagle Owl (*Bubo nipalensis*) juvenile
+- Author/source: Anawat Jorapunyanont / The Owl Pages
+- Date/location: March 2022, Kaeng Krachan National Park, Thailand
+- URL: https://www.owlpages.com/owls/species.php?i=1120
+- Accessed: 2026-10-14
+- Type: specialist labelled field photograph
+- Evidence actually read: page lines 49–54 identify a young bird perched on a branch in daylight.
+- Limits/confidence: no exact age or measurements; medium-high for supported perching stage.
+- Design support: stable branch support and daylight forest context only.
+
+### SBEO-THAI-NP-2026
+- Title: Spot-bellied eagle-owl — *Bubo nipalensis*
+- Institution: Thai National Parks species account
+- URL: https://www.thainationalparks.com/species/spot-bellied-eagle-owl
+- Accessed: 2026-10-14
+- Type: regional species synthesis
+- Evidence actually read: lines 24–38 and 43–50. Adults are large stark grayish-brown forest owls with very long ragged sideways ear tufts, pale fulvous underparts carrying black-and-white horizontal flank stripes and broad abdominal spots; feathered legs/feet with bare terminal digits. Juveniles are much paler grayish-cream with heavy brownish barring. Primary/older secondary moist forests are typical.
+- Limits/confidence: synthesis rather than primary morphology paper; does not establish a stable visible sex difference.
+- Design support: adult diagnostic pattern, juvenile colour boundary and dense forest setting; adults kept near-equal in visible scale.
+
+### SBEO-TAX-2026
+- Title: Spot-bellied eagle-owl taxonomic routing
+- Source: current synthesis / historical literature mapping
+- URL: https://en.wikipedia.org/wiki/Spot-bellied_eagle-owl
+- Accessed: 2026-10-14
+- Type: taxonomy routing source
+- Evidence actually read: current combination presented as *Ketupa nipalensis* while extensive recent literature and project label use *Bubo nipalensis*.
+- Limits/confidence: secondary source; taxonomy mapping only.
+- Design support: one species record under historical/current genus combinations; no duplicate credit.

@@ -1020,7 +1020,7 @@ Fresh main manifest lacksNinox rufa, reserve73. Sourcesnew2/reused1. RUF-RIDDELL
 
 ## Batch1334 additional evidence mapping
 All accessed2026-10-14. Uploaded guide existing WHSO-MIKKOLA-2013 identity, HeimoMikkola2013: actual text/captions reread printed104–105/PDF106–107 (#66v2),450–451/PDF452–453 (#70),452–453/PDF454–455 (#71),455–456/PDF457–458 (#72),448–449/PDF450–451 (#73). #67v3 reused earlier actual printed310–311 extract, not newly reread this invocation. No book photos inspected as pixels.
-SEO-OSTRICH-RSD-2008 extended original fulltext scope to #66; earlier inaccessible notes historical, publisher route still failed; author upload succeeded. Do not duplicate source identity or treat table-body total length as standing height. Table3 manuscript p3 has flattened-wing metric inconsistent with field wingchord summaries; retain measurement-method caution and book conflict.
+SEO-OSTRICH-RSD-2008 extended original fulltext scope to #66; earlier inaccessible notes historical, publisher route still failed; author upload succeeded. Do not duplicate source identity or treat table-body total length as standing height. Table1 manuscript p3 has flattened-wing metric inconsistent with field wingchord summaries; retain measurement-method caution and book conflict.
 | Source ID | Topic | Species/version | Evidence scope |
 |---|---|---|---|
 | SPO-BOUGLOUAN-2026 | Juvenile barred coverts | [#67v3](../design/concepts/67-pulsatrix-perspicillata-v3.png) | Text reread; source photograph click returned marker, no pixel claim |

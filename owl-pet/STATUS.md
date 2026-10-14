@@ -310,3 +310,6 @@ Complete original archived and independently verified, image commit 84e28bd532ae
 
 
 2026-10-14T13:33:51.358Z Ninox scutulata 75-ninox-scutulata-v2.png ARCHIVED: 1次imagegen编辑并实际查看，成年蓝黑喙浅尖、头顶褐色与白额斑方向修订；幼鸟理羽、翼尾、支撑及近等成鸟尺度视觉保留，精确羽序与雌雄方向冲突待核验，scientificfalse。 Full PNG 2834128 bytes, independently local/upload Git 23dd4033942052fd45707c37ff84a55d900d9df0, SHA256 8c62cee34629dbc37a2b0e06007344a95dfb2bb9068de81ad21ff132c91d3269. [Image](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/75-ninox-scutulata-v2.png). Exact stage/ratios remain pending scientific calibration.
+
+
+2026-10-14T13:45:06.917Z Asio stygius 77-asio-stygius-v1.png ARCHIVED: Edited image actually viewed: female larger direction restored; juvenile raised wings shortened and down-covered with developing dark tips. Ground support, black mask, yellow eyes and pale horn bill retained. Exact age/subspecies unresolved, concept only scientific false. Full PNG 2804966 bytes, independently local/upload Git b09e87369bac2f1d9d7d46a7981483629d473df1, SHA256 d5a57c8d1a845dcbbeee31196ff1e99822a963b0b42a9a4917c694048d9d1b34. [Image](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/77-asio-stygius-v1.png). Uploadstart 2026-10-14T13:44:43.201Z end 2026-10-14T13:45:05.683Z. Exact stage/ratios remain pending scientific calibration.

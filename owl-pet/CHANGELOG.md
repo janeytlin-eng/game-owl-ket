@@ -236,3 +236,7 @@ Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Or
 ## 70-ninox-strenua-v1.png
 1次生成1次编辑并实图复查：首稿雄鸟体量过大、幼鸟翼面偏白点列；编辑后缩小性别差距并增加幼鸟连续横向白带。成年雄鸟仍较大、金眼蓝灰喙、V形腹纹、羽足黄趾；幼鸟白头暗眼斑、稀纵纹浅腹、有发育翼羽与短尾、抓树洞缘自然承托成立。局部成年翼斑仍较点状，羽序与精确性别比例待科学校准；不称科学通过或精确复原。Sources新0复用3；图鉴实际页450–451，生成编辑等待约4分钟，归档时刻见记录。
 [Original](../../design/concepts/70-ninox-strenua-v1.png) · [Run](../../production/runs/2026-10-14T1334+0800-cycle-3.md). Image commit c04fe7867fbd26baa122d528d6579150020e2312. Scientific acceptancefalse, exact age/scale unknown.
+
+## 71-ninox-connivens-v1.png
+1次生成0编辑，实际成图查看：三主体标签、黄眼深喙、成年纵纹浅腹/白翼斑、雄略大方向与灰褐树林水缘成立；较蓬松幼鸟有白眉/浅颈、较少腹纹、自然洞缘腹足支撑，未强行初生翼芽。未发现需立即编辑的明显问题；精确年龄翼羽尺度及亚种鉴别仍未知，科学验收false。新2来源复用1；规则已在本图检查，非全库科学通过。生成等待约2分钟。
+[Original](../../design/concepts/71-ninox-connivens-v1.png) · [Run](../../production/runs/2026-10-14T1334+0800-cycle-4.md). Image commit 3f363f71b85e78c812414cd24c7865a513160555. Scientific acceptancefalse, exact age/scale unknown.

@@ -278,3 +278,7 @@ Complete original archived and independently verified, image commit 84e28bd532ae
 ## 66-tyto-capensis-v2.png
 两次imagegen编辑并实际复查：幼鸟面盘由成年式浅色点缘改为棕褐白边柔和面盘，第二次将粉喙改为乳灰；成鸟浅喙、深眼、长腿、草隧道和雌鸟较大方向仍成立。成鸟喙也有轻微灰化漂移但仍在浅喙证据边界，不称像素完全不变。低伏腹足承托、无成熟幼翼保持；精确羽龄比例未知，科学验收false。源事实新增0，复用3ID并更正原始研究可访问性/适用指标1项；Mikkola实际重读印刷104–105/PDF106–107。性别方向有南非样本证据，不将体重/体长换算站高。
 [Original](../../design/concepts/66-tyto-capensis-v2.png) · [Run](../../production/runs/2026-10-14T1334+0800-cycle-2.md). Image commit b21f806defe03158bde9da2b988ed391e53dc7bd. Scientific acceptancefalse, exact age/scale unknown.
+
+## 70-ninox-strenua-v1.png
+1次生成1次编辑并实图复查：首稿雄鸟体量过大、幼鸟翼面偏白点列；编辑后缩小性别差距并增加幼鸟连续横向白带。成年雄鸟仍较大、金眼蓝灰喙、V形腹纹、羽足黄趾；幼鸟白头暗眼斑、稀纵纹浅腹、有发育翼羽与短尾、抓树洞缘自然承托成立。局部成年翼斑仍较点状，羽序与精确性别比例待科学校准；不称科学通过或精确复原。Sources新0复用3；图鉴实际页450–451，生成编辑等待约4分钟，归档时刻见记录。
+[Original](../../design/concepts/70-ninox-strenua-v1.png) · [Run](../../production/runs/2026-10-14T1334+0800-cycle-3.md). Image commit c04fe7867fbd26baa122d528d6579150020e2312. Scientific acceptancefalse, exact age/scale unknown.

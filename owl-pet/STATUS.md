@@ -240,3 +240,7 @@ v2内部仍像树洞，用户要求继续修订。补充saguaro boot来源，v3�
 
 ## 63 · Pel's Fishing Owl — Scotopelia peli
 [原图]( design/concepts/63-scotopelia-peli-v1.png )。三主体与足部支撑、无耳簇深眼成鸟及浅色幼鸟已实际检查；独立本地Git哈希匹配远端完整PNG。待用户确认与科学校准，不赋精确日龄。
+
+
+## 64 灰脸仓鸮
+新组图两次编辑复查、原图已归档。采用Curti等2018 p18记录的赭色绒羽阶段与特殊Palmchat巢室，非普遍巢位。科学校准未通过。

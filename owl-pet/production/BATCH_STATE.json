@@ -286,16 +286,18 @@
       "batch_id": "2026-10-14T1128+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Tyto soumagnei",
+          "commit_sha": "9d847e615d47340961111c511d863a1ed2e1ce56",
+          "run_record": "owl-pet/production/runs/2026-10-14T1128+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2
     }
   ],
-  "lease": {
-    "owner": "codex-2026-10-14T1128",
-    "run_id": "2026-10-14T1128+0800-cycle-1",
-    "heartbeat_at": "2026-10-14T03:32:00Z",
-    "expires_at": "2026-10-14T03:47:00Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

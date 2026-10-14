@@ -254,20 +254,18 @@
           "species": "Ketupa flavipes",
           "commit_sha": "2cddf4c172fd5ebe9060064fd46dd6d90ccf42ca",
           "run_record": "owl-pet/production/runs/2026-10-14T0730+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ketupa ketupu",
+          "commit_sha": "19b2fede5845f68c7516be327d4fa4f0440bf395",
+          "run_record": "owl-pet/production/runs/2026-10-14T0835+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3
+      "next_cycle": 4
     }
   ],
-  "lease": {
-    "owner": "automation-owl-production",
-    "run_id": "2026-10-14T0835+0800-cycle-3",
-    "batch_id": "2026-10-14T0430+0800",
-    "cycle": 3,
-    "heartbeat_at": "2026-10-14T08:51:00+08:00",
-    "expires_at": "2026-10-14T09:06:00+08:00",
-    "stage": "ARCHIVED"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -308,6 +306,7 @@
     "2026-10-14 03:05 +0800: cycle 6 initially generated Bubo bubo but rejected it before archival after full manifest audit found existing #03; replacement unique #57 Bubo nipalensis v1 was produced, juvenile wing/tail shortened/down-softened and rechecked; archive commit 542f76531fe778e13c2124d82f1a5e10bfc185ad, Git blob 43934570d912bd22988f66cd117c118fb6f8bd5a exactly matches local and recursive tree readback. Batch closes at 6/6.",
     "2026-10-14 03:46 +0800: repository-wide audit confirmed #56 Bubo virginianus duplicates established #14; its cycle 5 credit was invalidated. Newly verified unique #58 Ketupa coromanda replaces cycle 5 (archive correction commit 8dcecb96f50595d7804282e2f75bc53217e0825c, Git blob b41a522884f67acb06f0320516a67b68f343ce7f, 648870 bytes). The transient empty batch opened before detecting this historical duplicate was removed; earliest affected batch remains COMPLETE 6/6. Unique species total is 56/251.",
     "2026-10-14 06:33 +0800: recovered expired cycle 1 and verified unique #59 Ketupa zeylonensis v1; first juvenile adult-like layered remiges and long tail were shortened/down-softened and rechecked; image commit 376b4ac97df5eb06edf98fcf582a89c2e0264d7a, Git blob 92cb56eedf3cf055cb5a78dc9a8913ac75416854, 593254 bytes; metadata/run verification commit 62ababd26cc034ea6a88730bc6be05237cb7df6e. Batch advances to 1/6; next_cycle 2.",
-    "2026-10-14 07:49 +0800: cycle 2 produced and verified unique #60 Ketupa flavipes v1; first juvenile adult-style white-spotted layered remiges were removed, wings/tail shortened and down-softened, then rechecked; archive commit 2cddf4c172fd5ebe9060064fd46dd6d90ccf42ca, Git blob 7d3500102f712ad8f6e129691f430789490ca09c; batch advances to 2/6."
+    "2026-10-14 07:49 +0800: cycle 2 produced and verified unique #60 Ketupa flavipes v1; first juvenile adult-style white-spotted layered remiges were removed, wings/tail shortened and down-softened, then rechecked; archive commit 2cddf4c172fd5ebe9060064fd46dd6d90ccf42ca, Git blob 7d3500102f712ad8f6e129691f430789490ca09c; batch advances to 2/6.",
+    "2026-10-14 08:54 +0800: cycle 3 produced and verified #61 Ketupa ketupu v1; initial female was visibly undersized and was corrected to near-equal adult scale; species-specific fern-nest downy stage retained; image commit 19b2fede5845f68c7516be327d4fa4f0440bf395; batch advances to 3/6."
   ]
 }

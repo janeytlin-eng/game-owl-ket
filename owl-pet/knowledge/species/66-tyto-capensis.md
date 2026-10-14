@@ -4,3 +4,7 @@
 
 Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-14T1128+0800-cycle-2.md), [source index](../../research/SOURCE_INDEX.md).
 [Original](../../design/concepts/66-tyto-capensis-v1.png); image commit 46ee01bd04e9afd5d9b955a688e950b60709bd25. Uploaded Mikkola guide not read, no page asserted. Scientific acceptance false; user confirmation pending.
+
+## 66-tyto-capensis-v2.png
+两次imagegen编辑并实际复查：幼鸟面盘由成年式浅色点缘改为棕褐白边柔和面盘，第二次将粉喙改为乳灰；成鸟浅喙、深眼、长腿、草隧道和雌鸟较大方向仍成立。成鸟喙也有轻微灰化漂移但仍在浅喙证据边界，不称像素完全不变。低伏腹足承托、无成熟幼翼保持；精确羽龄比例未知，科学验收false。源事实新增0，复用3ID并更正原始研究可访问性/适用指标1项；Mikkola实际重读印刷104–105/PDF106–107。性别方向有南非样本证据，不将体重/体长换算站高。
+[Original](../../design/concepts/66-tyto-capensis-v2.png) · [Run](../../production/runs/2026-10-14T1334+0800-cycle-2.md). Image commit b21f806defe03158bde9da2b988ed391e53dc7bd. Scientific acceptancefalse, exact age/scale unknown.

@@ -22,4 +22,4 @@ See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): BEOW-NPARKS-2026, BEOW-SGBIR
 
 ## Status
 
-RESEARCH_READY; image generation pending. Scientific acceptance: not passed.
+v1 GENERATED, REVIEWED and ARCHIVED; remote verification pending. Juvenile wings were shortened after first-image review. Scientific acceptance: not passed.

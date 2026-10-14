@@ -891,3 +891,13 @@
 
 ## 2026-10-14 integrity-recovery evidence recheck
 Re-read BFOW-BESG-NEST-2016 (body and photo captions) and BEOW-SGBIRDS-2026 (Identification) during original-PNG restoration. No new sources; exact juvenile age/wing lengths remain unvalidated. [Recovery evidence and binary verification rule](../production/runs/2026-10-14T0927+0800-integrity-recovery.md).
+
+## #63 Scotopelia peli — 2026-10-14
+| ID | Source / author / date / URL | Species, stage, section | Read facts and design support | Limits |
+|---|---|---|---|---|
+| PFO-TRUST-2026 | The Owls Trust, Pel's Fishing Owl Facts, current page; https://theowlstrust.org/owl-facts/pels-fishing-owl-facts/ ; accessed 2026-10-14; charity husbandry account | S. peli adult; Facts | Large loose round head without tufts; bare long toes; riparian trees, shade and deep water. | Captive-care context, no sex/juvenile measurements; high for broad diagnostics. |
+| PFO-OWLPAGES-2020 | Deane Lewis, Pel's Fishing Owl, updated 2020-10-22; https://www.owlpages.com/owls/species.php?s=1430 ; accessed 2026-10-14; sourced species synthesis | S. peli / historical Bubo peli; Description, Size, Breeding | Ginger adults, dark eyes, black bill/grey base, bare straw lower legs; female larger/heavier, no linear ratio; hollow nests without added nesting material. | Secondary synthesis; precise sex ratios and juvenile feather chronology unknown; medium. |
+| PFO-OUZMAN-JUV | Lee Ouzman, Young Pel's Fishing Owl perched on a leafy branch; date not supplied; https://www.owlpages.com/owls/species.php?i=968 ; accessed 2026-10-14; photo metadata | S. peli juvenile; Xaxanaka Botswana; title/caption | Explicit juvenile identification and branch-perching support. | Caption read, image pixels not retrieved; not used for detailed feather reconstruction or age; medium for posture. |
+| PFO-BOUGLOUAN-2026 | Nicole Bouglouan, Pel's Fishing-Owl; date unspecified; https://www.oiseaux-birds.com/card-pel-s-fishing-owl.html ; accessed 2026-10-14; book-sourced illustrated synthesis | S. peli adult/juvenile; Description, Habitat, Reproduction | Juvenile whitish head/body with rufous wash; dark eyes, black bill, no tufts; sexes near-similar with individual colour variation; natural cavities. | Secondary evidence; differs from Owl Pages on adult-like age 15 vs 10 months; neither age adopted; exact growing wing length unknown; medium. |
+
+All four map to [species 63](../knowledge/species/63-scotopelia-peli.md), [v1](../design/concepts/63-scotopelia-peli-v1.png) and [cycle 5](../production/runs/2026-10-14T1027+0800-cycle-5.md). Facts above are distinct from conservative design choices (short soft growing wings, near-equal adult standing height); scientific acceptance remains false.

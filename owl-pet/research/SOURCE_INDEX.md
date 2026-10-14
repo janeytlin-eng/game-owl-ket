@@ -1046,3 +1046,7 @@ MOR-STEPHENSON-MINOT-2006 BrentM Stephenson/EdwardO Minot, Breeding biology of m
 
 ## #74 recovery stage rule applied 2026-10-14
 Reused MOR-STEPHENSON-MINOT-2006 original pp310–311 actual re-read: early grey-down/pinfeather stage precedes later white-spotted secondaries; leaflitter/wooddust from site, not transported constructed nest. No newsourceID. Actual selected image still shows white-tipped narrow dark blades; edit2 targets these only. Exactstage/shaftcount/ratio unknown, not sciencepassed. Rule: pick supported stage then compare feather structure, not blanket strip legitimate feathers. Applied edit waiting, effectiveness not yet verified. [Run](../production/runs/2026-10-14T1437+0800-cycle-3.md)
+
+
+### 2026-10-14 Morepork cycle3 recovery · existing ID reuse
+MOR-STEPHENSON-MINOT-2006 original pp310–311 re-read: grey/brown down with emerging pins precedes white-spotted back/secondaries described at day25 in one detailed chick; not a universal timeline. Edit3 replaces entire visible patterned wing patch (spatial coordinates) with down and tiny shafts; actual output review confirms targeted issue removed. Exact artwork age, pin distribution and ratios unknown. New IDs0/reused1/corrections0. Linked run: [cycle3](../production/runs/2026-10-14T1437+0800-cycle-3.md); selected image pending archive74v2. Prior ineffective edits not erased. Rule effective only here, requires future validation; avoid confusing prompt compliance with science acceptance.

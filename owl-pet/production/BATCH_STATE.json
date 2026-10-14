@@ -422,16 +422,24 @@
           "unique_species_increment": 1,
           "commit_sha": "4b005cb275255a132ba79ded6d01f598ebb729a9",
           "run_record": "owl-pet/production/runs/2026-10-14T1437+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox boobook",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7e3d2bd33e5e0c530157123b864e9113461fdbb8",
+          "run_record": "owl-pet/production/runs/2026-10-14T1437+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4
+      "next_cycle": 5
     }
   ],
   "lease": {
     "owner": "codex",
-    "run_id": "2026-10-14T2030+0800-cycle4",
-    "heartbeat_at": "2026-10-14T12:31:17.459Z",
-    "expires_at": "2026-10-14T12:46:17.465Z"
+    "run_id": "2026-10-14T2030+0800-cycle5",
+    "heartbeat_at": "2026-10-14T12:35:10.870Z",
+    "expires_at": "2026-10-14T12:50:10.870Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

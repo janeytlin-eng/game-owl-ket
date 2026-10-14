@@ -1050,3 +1050,7 @@ Reused MOR-STEPHENSON-MINOT-2006 original pp310–311 actual re-read: early grey
 
 ### 2026-10-14 Morepork cycle3 recovery · existing ID reuse
 MOR-STEPHENSON-MINOT-2006 original pp310–311 re-read: grey/brown down with emerging pins precedes white-spotted back/secondaries described at day25 in one detailed chick; not a universal timeline. Edit3 replaces entire visible patterned wing patch (spatial coordinates) with down and tiny shafts; actual output review confirms targeted issue removed. Exact artwork age, pin distribution and ratios unknown. New IDs0/reused1/corrections0. Linked run: [cycle3](../production/runs/2026-10-14T1437+0800-cycle-3.md); selected image pending archive74v2. Prior ineffective edits not erased. Rule effective only here, requires future validation; avoid confusing prompt compliance with science acceptance.
+
+
+### 2026-10-14 #72v3 iris correction decision · BOO-ABSA-2019 reuse
+Actual original pp1–2 re-read https://absa.asn.au/wp-content/uploads/2019/09/Australian-Boobook.pdf Ageing: basicdownywhitejuvenile has powder-blueiris laterstrawyellow; no exacttransitionage. Priorhazelbrown fromhistoricalMikkola may concernolderstage, conflictretained. Designchoiceblue-greyirises forselecteddownyjuvenile, notscientificpass. CurrentcommonnameAustralianBoobook; canonicalmainlandNinoxboobook samecount. Reused1/new0; [cycle4](../production/runs/2026-10-14T1437+0800-cycle-4.md), image72v3pending. Stage-specificirischeck discovered, pendingapplicationverification.

@@ -470,17 +470,20 @@
           "unique_species_increment": 1,
           "commit_sha": "40fba249c49bfbb5f39729857ef1e692e42bcfea",
           "run_record": "owl-pet/production/runs/2026-10-14T2128+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Asio capensis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "d3ea3f63cf50d12ac776cbc707e576c98e9d0bea",
+          "run_record": "owl-pet/production/runs/2026-10-14T2128+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3
+      "next_cycle": 4
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-14T2128+0800-cycle3",
-    "heartbeat_at": "2026-10-14T13:45:48.373Z",
-    "expires_at": "2026-10-14T14:00:48.373Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

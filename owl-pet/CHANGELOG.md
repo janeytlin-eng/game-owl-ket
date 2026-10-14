@@ -201,3 +201,7 @@
 - Added four indexed *Bubo nipalensis* sources and a species evidence record, including a dated Indian BIRDS dependent-juvenile observation.
 - Generated v1, found an overly mature juvenile wing/tail, edited them shorter and down-softened, and rechecked the full plate.
 - Archived `design/concepts/57-bubo-nipalensis-v1.png` (SHA-256 `18626f7477b6bd9d8f7a34c7ffc4b4ab3328b993386dacf29731495401935ea1`; Git blob `43934570d912bd22988f66cd117c118fb6f8bd5a`). Scientific review remains pending.
+
+
+## 2026-10-14 · #65 Tyto soumagnei
+新增完整原图并目视检查，独立本地Git blob与远端一致406f6c5d8fcae48f618127224929aed26f1d5730 / 2900854 bytes；image commit 9d847e615d47340961111c511d863a1ed2e1ce56。去重有图物种62→63/251，科学通过仍0。三条已读来源增量索引；接近离巢、羽色近成鸟阶段，雌雄尺度与精确羽龄待校准。未读取图鉴页码；原始巢论文检索失败不冒充已读。

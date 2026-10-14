@@ -240,3 +240,7 @@ Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Or
 ## 71-ninox-connivens-v1.png
 1次生成0编辑，实际成图查看：三主体标签、黄眼深喙、成年纵纹浅腹/白翼斑、雄略大方向与灰褐树林水缘成立；较蓬松幼鸟有白眉/浅颈、较少腹纹、自然洞缘腹足支撑，未强行初生翼芽。未发现需立即编辑的明显问题；精确年龄翼羽尺度及亚种鉴别仍未知，科学验收false。新2来源复用1；规则已在本图检查，非全库科学通过。生成等待约2分钟。
 [Original](../../design/concepts/71-ninox-connivens-v1.png) · [Run](../../production/runs/2026-10-14T1334+0800-cycle-4.md). Image commit 3f363f71b85e78c812414cd24c7865a513160555. Scientific acceptancefalse, exact age/scale unknown.
+
+## 72-ninox-boobook-v1.png
+1次生成0编辑并实际查看：成年巧克力褐背白斑/暖褐纵纹浅斑腹、浅绿黄眼蓝灰喙成立，幼鸟浅乳白腹、深眼斑白眼圈/榛褐眼、短软翼尾和木屑落叶承托成立。成鸟脚下基线不同，左雄更高不等于物种尺度反向；雌体量略满但精确性别比例仍未知，列后续同基线校准。树洞剖视为艺术展示，非精确巢室复原。限定大陆nominate，不计岛屿型/旧广义分类额外物种，scientificfalse。新1来源复用1，图鉴455–456实际读取。生成等待约2分钟，阶段时间见run。
+[Original](../../design/concepts/72-ninox-boobook-v1.png) · [Run](../../production/runs/2026-10-14T1334+0800-cycle-5.md). Image commit f138d9cb91f365c418d68edd2eb7f5e75cc3691a. Scientific acceptancefalse, exact age/scale unknown.

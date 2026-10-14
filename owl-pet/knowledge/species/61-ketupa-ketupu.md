@@ -23,4 +23,4 @@ See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): BFOW-NPARKS-2026, BFOW-BESG-
 
 ## Status
 
-v1 GENERATED, REVIEWED and ARCHIVED; remote verification pending. Adult scale was corrected after first-image review. Scientific acceptance: not passed.
+v1 VERIFIED as an archived concept after adult-scale correction and remote blob/metadata readback. Scientific acceptance: not passed.

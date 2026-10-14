@@ -298,3 +298,6 @@ Complete original archived and independently verified, image commit 84e28bd532ae
 
 ## 2026-10-14 · #74 Morepork v2
 第三次空间定向编辑已移除幼鸟过熟翼羽并实际复查；新物种71→72/251，科学通过仍0。完整原图[74v2](design/concepts/74-ninox-novaeseelandiae-v2.png)，[研究](knowledge/species/74-ninox-novaeseelandiae.md)。本地Git、上传blob、远端目录均0b4b59866a940726b3e428617ad5957e7f2a3830/2836479字节，图片提交4b005cb275255a132ba79ded6d01f598ebb729a9；精确羽龄羽序比例未知。
+
+
+2026-10-14 2026-10-14T12:35:04.258Z #72v3 ARCHIVED/VERIFIED: juvenilebluegreyiris/currentAustraliancommonname correctedactualview; completePNG2580469bytes independentlocalgit=upload=remote43023853c03fbec656a7c2c96b3f157272f93e75. [原图](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/72-ninox-boobook-v3.png) imagecommit7e3d2bd33e5e0c530157123b864e9113461fdbb8. Sourceindexnew0reused1, exactage/feather/ratio sciencefalse. Revisionuniqueincrement0. Research/edit/archive timestageinrun; no platformtimeout claim.

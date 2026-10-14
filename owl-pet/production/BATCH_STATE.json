@@ -430,16 +430,24 @@
           "unique_species_increment": 0,
           "commit_sha": "7e3d2bd33e5e0c530157123b864e9113461fdbb8",
           "run_record": "owl-pet/production/runs/2026-10-14T1437+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Ninox scutulata",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "292f0f2c9cd30a9ac3ef8c45b45533612f0c88a4",
+          "run_record": "owl-pet/production/runs/2026-10-14T1437+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5
+      "next_cycle": 6
     }
   ],
   "lease": {
     "owner": "codex",
-    "run_id": "2026-10-14T2030+0800-cycle5",
-    "heartbeat_at": "2026-10-14T12:41:51.871Z",
-    "expires_at": "2026-10-14T12:56:51.871Z"
+    "run_id": "2026-10-14T2030+0800-cycle6",
+    "heartbeat_at": "2026-10-14T12:43:12.313Z",
+    "expires_at": "2026-10-14T12:58:12.313Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

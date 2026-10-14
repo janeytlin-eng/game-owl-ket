@@ -462,17 +462,20 @@
           "unique_species_increment": 0,
           "commit_sha": "4b1057e7baa1be9dff208fb8207be141925ce0e7",
           "run_record": "owl-pet/production/runs/2026-10-14T2128+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Asio stygius",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "40fba249c49bfbb5f39729857ef1e692e42bcfea",
+          "run_record": "owl-pet/production/runs/2026-10-14T2128+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-14T2128+0800-cycle2",
-    "heartbeat_at": "2026-10-14T13:34:54.851Z",
-    "expires_at": "2026-10-14T13:49:54.851Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

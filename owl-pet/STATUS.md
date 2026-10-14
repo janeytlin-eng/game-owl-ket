@@ -258,3 +258,8 @@ Unique species 64/251; image commit 46ee01bd04e9afd5d9b955a688e950b60709bd25. Or
 ## 2026-10-14 · #67 pulsatrix-perspicillata
 1次生成1次编辑复查；首稿幼鸟两翼暗色成熟斑纹飞羽已改为短软白绒羽覆盖翼面。实图成年黄眼、白眉眼镜/白喉、暗胸带与浅腹，无耳簇；幼鸟白身暗面盘、黄眼和抓木支撑正确。雌鸟体量略大，未指定比例；短软翼的精确羽龄仍未知。规则应用本图有效，未声称全部旧图有效。生成编辑约3分钟，归档起止见阶段时间。
 Unique species 65/251; image commit b93efac0191287fbbbcd8923004f4d692738c1d3. Original bytes 2788349 and independent Git blob 513a1281f63563c7c792fd7aec394cfe3404d4d0 match remote; sources +3. Scientific acceptance false.
+
+
+## 2026-10-14 · #68 tyto-tenebricosa
+1次生成1次编辑复查；首稿雌鸟略小，定向放大至较丰满稍高后复查。成年黑眼浅喙、灰脸深缘、灰黑白细斑与浅腹、羽足灰趾正确。幼鸟采用官方记录的离巢羽色近成鸟、头腹仍有绒羽，发育中闭翼不是初生翼芽，未无依据移除所有飞羽；自然木缘支撑、湿桉林与树蕨符合边界。精确羽龄、翼长与性别比例仍未知，未标科学通过。阶段先行规则在本图广义验证有效，不能用于未审旧图；雌雄方向检查看图后才识别错误。生成编辑约3分钟。
+Unique species 66/251; image commit 4d15bd73952dbdd13cde067583bf26e144d09714. Original bytes 2822896 and independent Git blob 0589abf9ae3e3a93b2d835de7cf4f5330314bc3e match remote; sources +3. Scientific acceptance false.

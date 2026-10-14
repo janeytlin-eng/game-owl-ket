@@ -268,3 +268,6 @@ Unique species 66/251; image commit 4d15bd73952dbdd13cde067583bf26e144d09714. Or
 ## 2026-10-14 · #67 pulsatrix-perspicillata
 归档修订v2，保留v1，不增加物种数。2次imagegen编辑并实际复查：依据Mikkola印刷310–311及新读Bouglouan恢复幼鸟灰褐翼覆羽和较浅横斑，保留白绒身/暗面盘/黄眼、自然抓木支撑；不再错误地把全部褐翼当作成年化。第二次编辑使斑纹更柔和横向，但部分覆羽尖端仍像浅色圆斑，列入下一轮精细校准队列，不称完整科学通过。确切羽龄、翼长、亚种仍未知。已回查本轮#65/#68成图，所选离巢羽色近成鸟方向未机械去除成熟羽；#66面盤棕色范围与性别尺度冲突待核。规则更正来源是阶段判读过度泛化，不是外部来源正文错误。
 Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Original bytes 2607553 and independent Git blob 359a1b6281342fd783c5e22734b30400b59e04a4 match remote; sources +1. Scientific acceptance false.
+
+## #69 recovery
+Complete original archived and independently verified, image commit 84e28bd532ae1697339927dd615b9a0742f67cfb. Unique species66→67/251. Scientific acceptance remains0. Original current batch cycle6 resumed without duplicate image generation; #67v2 revision does not add a species.

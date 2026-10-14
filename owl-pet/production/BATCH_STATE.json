@@ -396,7 +396,7 @@
     },
     {
       "batch_id": "2026-10-14T1437+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -438,17 +438,20 @@
           "unique_species_increment": 1,
           "commit_sha": "292f0f2c9cd30a9ac3ef8c45b45533612f0c88a4",
           "run_record": "owl-pet/production/runs/2026-10-14T1437+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Asio clamator",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "4060cdf342cfbc9ed99f3e6d9822fa22e794b0e1",
+          "run_record": "owl-pet/production/runs/2026-10-14T1437+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6
+      "next_cycle": null
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-14T2030+0800-cycle6",
-    "heartbeat_at": "2026-10-14T12:44:34.795Z",
-    "expires_at": "2026-10-14T12:59:34.795Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -493,6 +496,7 @@
     "2026-10-14 08:54 +0800: cycle 3 produced and verified #61 Ketupa ketupu v1; initial female was visibly undersized and was corrected to near-equal adult scale; species-specific fern-nest downy stage retained; image commit 19b2fede5845f68c7516be327d4fa4f0440bf395; batch advances to 3/6.",
     "2026-10-14 09:10 +0800: cycle 4 produced and verified #62 Ketupa sumatrana v1; juvenile adult-like remiges were shortened/softened and rechecked; image commit a08aae39013b8509baf790c766a8f4d6c5deb4ab; batch advances to 4/6.",
     "2026-10-14 binary integrity correction: #61/#62 complete originals restored in 5efc1da49e062dc6e6b510ffeec20081c05c06ce; previous remote-only hash verification was invalid. Cycle credit unchanged, next_cycle 5. Evidence: owl-pet/production/runs/2026-10-14T0927+0800-integrity-recovery.md.",
-    "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision."
+    "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
+    "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ]
 }

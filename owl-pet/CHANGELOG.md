@@ -205,3 +205,8 @@
 
 ## 2026-10-14 · #65 Tyto soumagnei
 新增完整原图并目视检查，独立本地Git blob与远端一致406f6c5d8fcae48f618127224929aed26f1d5730 / 2900854 bytes；image commit 9d847e615d47340961111c511d863a1ed2e1ce56。去重有图物种62→63/251，科学通过仍0。三条已读来源增量索引；接近离巢、羽色近成鸟阶段，雌雄尺度与精确羽龄待校准。未读取图鉴页码；原始巢论文检索失败不冒充已读。
+
+
+## 2026-10-14 · #66 tyto-capensis
+已生成、首稿幼鸟成年式白斑层叠飞羽已定向改为短软无斑第二绒羽翼芽并复查；1次生成1次编辑。实图三只与标签正确，深眼浅喙、黑褐白点上体、长腿、雌鸟较大方向、地面草隧道、幼鸟腹足支撑符合资料边界。幼鸟面盘边缘仍略规整，精确日龄/翼长与雌雄比例未知，待科学校准。规则应用：草隧道替代树洞，第二绒羽阶段不借用成年斑纹翼羽；编辑后本图有效，未宣称全库有效。生成/编辑约3分钟，归档起止见阶段时间。归档脚本作用域ReferenceError已修复，无图片丢失。
+Unique species 64/251; image commit 46ee01bd04e9afd5d9b955a688e950b60709bd25. Original bytes 2733697 and independent Git blob 4c09dde67993ec6c46c58b74cde6f7f7cb9283f5 match remote; sources +4. Scientific acceptance false.

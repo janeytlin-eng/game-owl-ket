@@ -1074,3 +1074,7 @@ Actual original pp1–2 re-read https://absa.asn.au/wp-content/uploads/2019/09/A
 
 ## End-of-batch stage-rule audit
 FreshuploadedWHSO-MIKKOLA-2013 printed455–456/PDF457–458 actualread now confirms #72 mesoptilehazel-brown eyes; ABSA2019 powderblue juvenile beforestrawyellow remains conflict withundefinedartstage. v3bluegrey is explicitdesignchoice notresolutionorverifiedchronology. Source correction0/reuseadditionalbook, retainbothfacts. #75actualprinted464–465 sexconflict retainednear-equalscale. #76printed510–511 bodyyellowishwhitebutwingsfeathered: separatebodydownfromwingstage, don'teraseallfeathers. Actuallookback72v3/75v1bothdecode1536x1024RGB; #75growingwingsappropriatetoobservedbranchyoung, no blanketrollback. Rule discovered/applied/reviewedtargetonly, noallgallerysciencepass. #76firstbodytoo brown pendingtargetedit. Cycle4sourceuniqueIDsused2 (ABSA+book), cycle5 new4+book1, cycle6new2+book1; overallnew6/reused2distinctIDs.
+
+
+## #75v2 batch2128cycle1 · 2026-10-14
+ReusedSCU-OWLPAGES-2021 actualDescription re-read andWHSO-MIKKOLA-2013 actualprinted464–465/PDF466–467: blueblackbillpaletip, whiteforehead/scapularareasdistinctfromtinywhitecrowndots; preserveochrefeatheredges. Designtargetadultbilldarkening/plaincrown whilekeepingstageappropriateyoung and unresolvedsexconflict. New0/reused2, no sourcefactcorrection. [Cycle1](../production/runs/2026-10-14T2128+0800-cycle-1.md), image75v2pending. Prompt-rule preciseanatomicalcolourversuslighting, pendingactualeditreview.

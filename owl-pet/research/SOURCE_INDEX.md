@@ -1064,3 +1064,10 @@ Actual original pp1–2 re-read https://absa.asn.au/wp-content/uploads/2019/09/A
 [Species/runmapping#75](../production/runs/2026-10-14T1437+0800-cycle-5.md); image75pending. New4/reused0, factsseparatefromnearequalscale/preenposeartisticinference; no precisehatchlingdetails.
 
 #75 supplement WHSO-MIKKOLA-2013 actualuploadedbookprinted464–465/PDF466–467 read2026-10-14: female slightlylarger vsOwlPagesmalelarger conflictretained; youngmesoptilefluffylessstriated, foreheadwhite/scapularareas notMoreporkdots. Chosennearequalscale notfixeddirection. Styleleakagefixed/reviewedtarget, residualfeatheredgeprecisenessunknown. New4reused1notduplicatenewbookID.
+
+
+## #76 Asio clamator · accessed2026-10-14
+- CLA-OWLPAGES-2020 DeaneLewis updated2020-11-08 expertsynthesis https://www.owlpages.com/owls/species.php?s=3580 actualDescription/Size/Breeding/Habitat: browncinnamoneyes,creamfeatherfeet,longdarktufts,boldstreaks,femaleheavier; groundlonggrass/bushnest, openhabitat. Supportsadultidentity/environment; no exactjuvday or sexstandratio.
+- CLA-AOS-2021 TerryChesser/MaxKirsch 1Mar2021 AOS2021-C10pp53–55 https://americanornithology.org/wp-content/uploads/2021/04/2021-C.pdf actualmolecularcomparison/recommendation, AsioincludesPseudoscopsclamator, Rhinoptynxoldusage mapped; committeeproposal notindependentcurrent251list proof, noextraspeciescount.
+- WHSO-MIKKOLA-2013 reusedactualuploadedbooktext printed510–511/PDF512–513: juvenilewhitishbuffmesoptilediffusebar/duskyruff, CostaRicaMayDanielMartinezcaptionwingdisplaywithfeatheredwings supportsselectedstage/action. Renderedphotoimageunavailable, doNOTclaimpixelsread; caption/textactualread. Exactday,winglength/subspeciesgeometryunknown, growingwingsnotremovedbyblanketrule.
+[Cycle6#76](../production/runs/2026-10-14T1437+0800-cycle-6.md), new2/reused1. UWIPDF400timeout andoldphotoHTMLfailed remainunverifiedleads notsourcefacts. Scientificfalse.

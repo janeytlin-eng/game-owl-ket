@@ -910,3 +910,15 @@ All four map to [species 63](../knowledge/species/63-scotopelia-peli.md), [v1](.
 | AFO-PEREGRINE-2026 | The Peregrine Fund, Ashy-faced Owl; https://peregrinefund.org/explore-raptors-species/owls/ashy-faced-owl ; current page accessed 2026-10-14; institutional account | Tyto glaucops adults/newly hatched; What They Do, Nest Eggs Young | Grey face with reddish-brown heart rim, dark eyes, yellow-brown chest, darker back; female larger; newly hatched white down. | Mass difference not height ratio; hatchling white down not used for later buff-down stage; medium-high. |
 
 Links: [species64](../knowledge/species/64-tyto-glaucops.md), [v1](../design/concepts/64-tyto-glaucops-v1.png), [cycle6](../production/runs/2026-10-14T1032+0800-cycle-6.md). Scientific acceptance false; precise age and measured wing lengths unknown.
+
+
+## #65 Tyto soumagnei — 2026-10-14
+| ID | Bibliography / URL / type | Scope and location | Read facts / design decisions | Limits |
+|---|---|---|---|---|
+| MRO-PEREGRINE-2026 | The Peregrine Fund, Madagascar Red Owl, current institutional account; https://peregrinefund.org/explore-raptors-species/owls/madagascar-red-owl ; accessed 2026-10-14 | Adult, recently fledged juvenile, habitat; What it Does / Nest Eggs Young | Dark eyes, pale bill, cream brown-rimmed disc and orange-red body; tree cavities without nest-building; young remain over 2 months and have adult-like plumage at fledging. Supports older juvenile rather than unsupported newborn. | Exact wing growth, sex measurements and juvenile age unknown. Medium-high. |
+| MRO-ADW-2026 | Animal Diversity Web / University of Michigan, Tyto soumagnei; https://animaldiversity.org/accounts/Tyto_soumagnei/ ; current account accessed 2026-10-14; educational species synthesis | Physical Description / Reproduction, sexes and juvenile | Sexes alike; juvenile similar and brighter. Supports near-equal display scale as conservative design, NOT a measured ratio. | Barn-owl reproductive extrapolations explicitly excluded; listed 209mm wingspan questionable, not used. Medium. |
+| MRO-OWLPAGES-2020 | Deane Lewis, Madagascar Red Owl, updated 2020-11-11; https://www.owlpages.com/owls/species.php?s=100 ; accessed 2026-10-14; sourced synthesis | Adult Description / Breeding | No tufts, fine dark flecks, pale grey bill, smoky grey feet; cavity habitat. | Secondary source; no primary feather sequence. Medium. |
+
+Unverified lead: Thorstrom & de Roland 1997, First nest record… Ostrich 68:42–43, protectedareas.mg PDF returned 503/internal error; official research bibliography read but link click failed twice. Not counted as read primary evidence. Uploaded Mikkola guide not accessed; no page asserted.
+
+Links: [species65](../knowledge/species/65-tyto-soumagnei.md), planned [v1](../design/concepts/65-tyto-soumagnei-v1.png), [cycle1](../production/runs/2026-10-14T1128+0800-cycle-1.md).

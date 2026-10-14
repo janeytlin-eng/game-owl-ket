@@ -210,3 +210,8 @@
 ## 2026-10-14 · #66 tyto-capensis
 已生成、首稿幼鸟成年式白斑层叠飞羽已定向改为短软无斑第二绒羽翼芽并复查；1次生成1次编辑。实图三只与标签正确，深眼浅喙、黑褐白点上体、长腿、雌鸟较大方向、地面草隧道、幼鸟腹足支撑符合资料边界。幼鸟面盘边缘仍略规整，精确日龄/翼长与雌雄比例未知，待科学校准。规则应用：草隧道替代树洞，第二绒羽阶段不借用成年斑纹翼羽；编辑后本图有效，未宣称全库有效。生成/编辑约3分钟，归档起止见阶段时间。归档脚本作用域ReferenceError已修复，无图片丢失。
 Unique species 64/251; image commit 46ee01bd04e9afd5d9b955a688e950b60709bd25. Original bytes 2733697 and independent Git blob 4c09dde67993ec6c46c58b74cde6f7f7cb9283f5 match remote; sources +4. Scientific acceptance false.
+
+
+## 2026-10-14 · #67 pulsatrix-perspicillata
+1次生成1次编辑复查；首稿幼鸟两翼暗色成熟斑纹飞羽已改为短软白绒羽覆盖翼面。实图成年黄眼、白眉眼镜/白喉、暗胸带与浅腹，无耳簇；幼鸟白身暗面盘、黄眼和抓木支撑正确。雌鸟体量略大，未指定比例；短软翼的精确羽龄仍未知。规则应用本图有效，未声称全部旧图有效。生成编辑约3分钟，归档起止见阶段时间。
+Unique species 65/251; image commit b93efac0191287fbbbcd8923004f4d692738c1d3. Original bytes 2788349 and independent Git blob 513a1281f63563c7c792fd7aec394cfe3404d4d0 match remote; sources +3. Scientific acceptance false.

@@ -366,17 +366,20 @@
           "run_record": "owl-pet/production/runs/2026-10-14T1334+0800-cycle-3.md",
           "action": "NEW",
           "unique_species_increment": 1
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox connivens",
+          "commit_sha": "3f363f71b85e78c812414cd24c7865a513160555",
+          "run_record": "owl-pet/production/runs/2026-10-14T1334+0800-cycle-4.md",
+          "action": "NEW",
+          "unique_species_increment": 1
         }
       ],
-      "next_cycle": 4
+      "next_cycle": 5
     }
   ],
-  "lease": {
-    "owner": "codex-2026-10-14T1334+0800",
-    "run_id": "owl-pet/production/runs/2026-10-14T1334+0800-cycle-4.md",
-    "heartbeat_at": "2026-10-14T05:48:41.391Z",
-    "expires_at": "2026-10-14T06:03:41.391Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

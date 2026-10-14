@@ -922,3 +922,14 @@ Links: [species64](../knowledge/species/64-tyto-glaucops.md), [v1](../design/con
 Unverified lead: Thorstrom & de Roland 1997, First nest record… Ostrich 68:42–43, protectedareas.mg PDF returned 503/internal error; official research bibliography read but link click failed twice. Not counted as read primary evidence. Uploaded Mikkola guide not accessed; no page asserted.
 
 Links: [species65](../knowledge/species/65-tyto-soumagnei.md), planned [v1](../design/concepts/65-tyto-soumagnei-v1.png), [cycle1](../production/runs/2026-10-14T1128+0800-cycle-1.md).
+
+
+## #66 Tyto capensis — 2026-10-14
+| ID | Bibliography / URL / type | Scope / read section | Facts and decisions | Limits |
+|---|---|---|---|---|
+| AGO-PEREGRINE-2026 | The Peregrine Fund, African Grass-owl; https://peregrinefund.org/explore-raptors-species/owls/african-grass-owl ; current institutional page, accessed2026-10-14 | Adult, juvenile movement, nests; Did you know / What they do / Nests | Female larger, dark back/eyes, cream face and pale bill; grass tunnel shallow nest; wander at five weeks, flights around seven. | No sex ratio/feather sequence, approximate timing; medium-high. |
+| AGO-ADW-2014 | Jenny McKinney, University Michigan ADW, Tyto capensis, updated2014-03-09; https://animaldiversity.org/accounts/Tyto_capensis/ ; accessed2026-10-14; educational synthesis | Physical Description / Parental Investment | White first down replaced with dense pale brown/buff second coat; juvenile remains downy, unspotted; brown face lightens outward. Supports second-down nest stage, not exact day. | Unreliable listed wingspan excluded; 18-day onset not used as precise image age. Medium. |
+| AGO-WHITTINGTON-2012 | Craig Whittington-Jones interview by Markus Jais,2012-02-16; https://www.africanraptors.org/interview-with-craig-whittington-jones-about-the-african-grass-owl/ ; accessed2026-10-14; first-person field testimony | South Africa habitat Q4 and threatsQ7 | Rank grass/sedges near seasonal wetlands; ground nesting and disturbance vulnerability. Supports concealed ground nest, not decorative tree hollow. | Personal experience, not quantified juvenile feather data. Medium-high for habitat. |
+| AGO-OWLPAGES-2020 | Deane Lewis, updated2020-11-12; https://www.owlpages.com/owls/species.php?s=210 ; accessed2026-10-14; synthesis | Description | Long legs feathered to lower third, pale yellow-grey bristled distal legs/toes and dark claws. | No sex-specific ratios. Medium. |
+
+[Species66](../knowledge/species/66-tyto-capensis.md), [image v1](../design/concepts/66-tyto-capensis-v1.png), [cycle2](../production/runs/2026-10-14T1128+0800-cycle-2.md). Caption Hayley Komen juvenile South Africa July2006 read but pixels not loaded, not used to infer colour; not indexed as verified visual evidence. Old broad Grass Owl concepts may include T.longimembris; no merged counting. Uploaded guide not read; no page claimed.

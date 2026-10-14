@@ -236,3 +236,7 @@ v2内部仍像树洞，用户要求继续修订。补充saguaro boot来源，v3�
 ## 2026-10-14 · 第62组横斑雕鸮
 
 新增 #62 *Ketupa sumatrana* v1。首稿幼鸟翼羽偏成熟，已缩短软化并复查；成鸟深色眼、长横向耳簇、黄色喙与细密横斑通过实图检查。科学验收未通过。
+
+
+## 63 · Pel's Fishing Owl — Scotopelia peli
+[原图]( design/concepts/63-scotopelia-peli-v1.png )。三主体与足部支撑、无耳簇深眼成鸟及浅色幼鸟已实际检查；独立本地Git哈希匹配远端完整PNG。待用户确认与科学校准，不赋精确日龄。

@@ -255,3 +255,6 @@ Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Or
 
 
 2026-10-14 2026-10-14T12:35:06.126Z #72v3 ARCHIVED/VERIFIED: juvenilebluegreyiris/currentAustraliancommonname correctedactualview; completePNG2580469bytes independentlocalgit=upload=remote43023853c03fbec656a7c2c96b3f157272f93e75. [原图](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/72-ninox-boobook-v3.png) imagecommit7e3d2bd33e5e0c530157123b864e9113461fdbb8. Sourceindexnew0reused1, exactage/feather/ratio sciencefalse. Revisionuniqueincrement0. Research/edit/archive timestageinrun; no platformtimeout claim.
+
+
+2026-10-14T12:43:07.090Z #75 ARCHIVED/VERIFIED concept: fullPNG2869075bytes localGit=upload=remote d160718b2cee3fa5d51f8b2905c1b51396c264fa imagecommit292f0f2c9cd30a9ac3ef8c45b45533612f0c88a4. [图](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/75-ninox-scutulata-v1.png). New4sourceIDs reused1book, sciencefalse. Unique72→73/251. Scale/referenceleakage editedreviewed, residualfeatherprecisionunknown. Generation/edit startendabove, archivecurrenttime; nofixedruntimeclaim.

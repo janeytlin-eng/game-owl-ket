@@ -260,3 +260,7 @@
 
 ## 63 · Pel's Fishing Owl — Scotopelia peli
 [原图]( concepts/63-scotopelia-peli-v1.png )。三主体与足部支撑、无耳簇深眼成鸟及浅色幼鸟已实际检查；独立本地Git哈希匹配远端完整PNG。待用户确认与科学校准，不赋精确日龄。
+
+
+## 64 灰脸仓鸮 Tyto glaucops
+[原图](concepts/64-tyto-glaucops-v1.png) · [研究](../knowledge/species/64-tyto-glaucops.md)。幼鸟斑纹翼羽和雌鸟体量已修订复查；待用户确认与科学校准。

@@ -220,3 +220,8 @@ Unique species 65/251; image commit b93efac0191287fbbbcd8923004f4d692738c1d3. Or
 ## 2026-10-14 · #68 tyto-tenebricosa
 1次生成1次编辑复查；首稿雌鸟略小，定向放大至较丰满稍高后复查。成年黑眼浅喙、灰脸深缘、灰黑白细斑与浅腹、羽足灰趾正确。幼鸟采用官方记录的离巢羽色近成鸟、头腹仍有绒羽，发育中闭翼不是初生翼芽，未无依据移除所有飞羽；自然木缘支撑、湿桉林与树蕨符合边界。精确羽龄、翼长与性别比例仍未知，未标科学通过。阶段先行规则在本图广义验证有效，不能用于未审旧图；雌雄方向检查看图后才识别错误。生成编辑约3分钟。
 Unique species 66/251; image commit 4d15bd73952dbdd13cde067583bf26e144d09714. Original bytes 2822896 and independent Git blob 0589abf9ae3e3a93b2d835de7cf4f5330314bc3e match remote; sources +3. Scientific acceptance false.
+
+
+## 2026-10-14 · #67 pulsatrix-perspicillata
+归档修订v2，保留v1，不增加物种数。2次imagegen编辑并实际复查：依据Mikkola印刷310–311及新读Bouglouan恢复幼鸟灰褐翼覆羽和较浅横斑，保留白绒身/暗面盘/黄眼、自然抓木支撑；不再错误地把全部褐翼当作成年化。第二次编辑使斑纹更柔和横向，但部分覆羽尖端仍像浅色圆斑，列入下一轮精细校准队列，不称完整科学通过。确切羽龄、翼长、亚种仍未知。已回查本轮#65/#68成图，所选离巢羽色近成鸟方向未机械去除成熟羽；#66面盤棕色范围与性别尺度冲突待核。规则更正来源是阶段判读过度泛化，不是外部来源正文错误。
+Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Original bytes 2607553 and independent Git blob 359a1b6281342fd783c5e22734b30400b59e04a4 match remote; sources +1. Scientific acceptance false.

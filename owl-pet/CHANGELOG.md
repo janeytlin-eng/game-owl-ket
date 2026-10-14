@@ -261,3 +261,6 @@ Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Or
 
 
 2026-10-14T12:48:47.394Z #76 ARCHIVED/VERIFIED concept: fullPNG2809119bytes localGit=upload=remote bbb25235ec26a3955be0799ab90a2ac1b02b4be8 decoded1536x1024RGB. [图](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/76-asio-clamator-v1.png) imagecommit4060cdf342cfbc9ed99f3e6d9822fa22e794b0e1. New2/reusedbook1, exactage/subspecies/winggeometrysciencefalse. Unique73→74/251. Correctedmesoptilebodywhilepreservingstage-appropriatewings. Run4–6 actualtimeline spansresearch/gen/edit/archive; nofixedplatformlimit claim.
+
+
+2026-10-14T13:33:51.358Z Ninox scutulata 75-ninox-scutulata-v2.png ARCHIVED: 1次imagegen编辑并实际查看，成年蓝黑喙浅尖、头顶褐色与白额斑方向修订；幼鸟理羽、翼尾、支撑及近等成鸟尺度视觉保留，精确羽序与雌雄方向冲突待核验，scientificfalse。 Full PNG 2834128 bytes, independently local/upload Git 23dd4033942052fd45707c37ff84a55d900d9df0, SHA256 8c62cee34629dbc37a2b0e06007344a95dfb2bb9068de81ad21ff132c91d3269. [Image](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/75-ninox-scutulata-v2.png). Exact stage/ratios remain pending scientific calibration.

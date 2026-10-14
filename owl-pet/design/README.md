@@ -256,3 +256,7 @@
 ![褐渔鸮v1](concepts/59-ketupa-zeylonensis-v1.png)
 
 [研究档案](../knowledge/species/59-ketupa-zeylonensis.md)。现行名 *Ketupa zeylonensis*；成年雄鸟、成年雌鸟与近离巢巢缘幼鸟。首稿幼鸟成年式长层叠飞羽和长尾已缩短、软化并重新查看；成年雌雄保持近等可视高度，未凭空制造二型。待用户确认与精确羽龄、连续羽序、亚种及分性别测量科学校准。
+
+
+## 63 · Pel's Fishing Owl — Scotopelia peli
+[原图]( concepts/63-scotopelia-peli-v1.png )。三主体与足部支撑、无耳簇深眼成鸟及浅色幼鸟已实际检查；独立本地Git哈希匹配远端完整PNG。待用户确认与科学校准，不赋精确日龄。

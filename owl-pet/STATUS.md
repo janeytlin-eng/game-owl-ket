@@ -271,3 +271,6 @@ Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Or
 
 ## #69 recovery
 Complete original archived and independently verified, image commit 84e28bd532ae1697339927dd615b9a0742f67cfb. Unique species66→67/251. Scientific acceptance remains0. Original current batch cycle6 resumed without duplicate image generation; #67v2 revision does not add a species.
+
+## 2026-10-14 #67v3 VERIFIED
+2026-10-14T05:39:48.076Z; [original](design/concepts/67-pulsatrix-perspicillata-v3.png); image commit 86c4f3287ce8a622573e7e3dffac9ec626641998. One targeted built-in imagegen edit, actual image reviewed, round pale covert tips replaced by more continuous transverse pale bands; adults, white-bodied juvenile/dark mask, support/text preserved. Full original2523926 bytes; independent local Git blob61f963e9e7025ba9aa6bc43b783c507c10624beb matches remote. Unique species increment0, remains67/251; scientific acceptancefalse. Sources new0/reused2. Complete prompt and evidence owl-pet/production/runs/2026-10-14T1334+0800-cycle-1.md. Exact feather-age/subspecies still unknown; no whole-library rule-validation claim.

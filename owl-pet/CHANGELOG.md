@@ -258,3 +258,6 @@ Unique species 66/251; image commit fe84b207b6e7192821521ee4c46cf143f65c318e. Or
 
 
 2026-10-14T12:43:07.090Z #75 ARCHIVED/VERIFIED concept: fullPNG2869075bytes localGit=upload=remote d160718b2cee3fa5d51f8b2905c1b51396c264fa imagecommit292f0f2c9cd30a9ac3ef8c45b45533612f0c88a4. [图](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/75-ninox-scutulata-v1.png). New4sourceIDs reused1book, sciencefalse. Unique72→73/251. Scale/referenceleakage editedreviewed, residualfeatherprecisionunknown. Generation/edit startendabove, archivecurrenttime; nofixedruntimeclaim.
+
+
+2026-10-14T12:48:47.394Z #76 ARCHIVED/VERIFIED concept: fullPNG2809119bytes localGit=upload=remote bbb25235ec26a3955be0799ab90a2ac1b02b4be8 decoded1536x1024RGB. [图](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/76-asio-clamator-v1.png) imagecommit4060cdf342cfbc9ed99f3e6d9822fa22e794b0e1. New2/reusedbook1, exactage/subspecies/winggeometrysciencefalse. Unique73→74/251. Correctedmesoptilebodywhilepreservingstage-appropriatewings. Run4–6 actualtimeline spansresearch/gen/edit/archive; nofixedplatformlimit claim.

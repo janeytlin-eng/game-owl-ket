@@ -314,3 +314,6 @@ Actualgeneratedimageviewed: adultyellowiris/palegreenbill/darkcrown/blackruff-ch
 ## 94-pulsatrix-koeniswaldiana-v1 2026-10-15T12:56:59.903Z
 NEW Pulsatrix koeniswaldiana
 Actualfirstimageandeditviewed: addedmissing#94, reducedrightfemalevisualscale; onlymodestdifference now, notbiologicalratiocalibration. Adultsdarkchestnuteyes/tawnybrows/whitechin/plainbuffbelly/brownband/baretoesbranches retained. Laterjuvenilephoto-stage residualwhiteheadfluff/darkmask/darkeyes/buffbelow/brownchestband/developedfoldedwingsvalid, notshrinktoembryonicbuds. Exactjuvenileage/winglengthunknown. Originaldraftarchived45aae06f49f8879c5a1bcfe0a17fb58ae5ba9eac notanotheruniquegroup. Recheckconcretechangevisualsuccess, sciencefalse. Generation 2026-10-15T12:53:20.767Z to 2026-10-15T12:54:03.398Z; edit 2026-10-15T12:54:44.348Z to 2026-10-15T12:55:50.570Z.
+
+## 2026-10-15 #95 Pulsatrix melanota recovered original
+Recovered existing imagegen edit, actually viewed/reviewed; developing brown juvenile wing softened, exactage/sexratio notvalidated. Newunique93/251, science0. [Original](design/concepts/95-pulsatrix-melanota-v1.png). Full stage evidence production/runs/2026-10-15T2034+0800-cycle-6.md. No repeated generation.

@@ -277,3 +277,11 @@
 - #92 ninox japonica：[原始PNG](concepts/92-ninox-japonica-v1.png) · [研究档案](../knowledge/species/92-ninox-japonica.md)
 
 [六子轮提交、完整提示及实际修订证据](../production/runs/2026-10-15T1602+0800-summary.md)。去重90/251，全部251完成前仍属增量入口。
+
+
+## 2026-10-16 历史组图科学待校准修订
+旧版与原用户确认记录保留，新版未自动获用户确认。
+- [01仓鸮v4](concepts/01-tyto-alba-v4.png)：棚舍遮蔽巢位环境修订；精确羽龄/比例仍待校准。
+- [02雪鸮v4](concepts/02-bubo-scandiacus-v4.png)：早期灰绒羽幼鸟移除过早白色眼周X纹，第二次编辑后实际复查。
+- [03雕鸮v5](concepts/03-bubo-bubo-v5.png)：早期低伏幼鸟、腹部支撑与粉皮/短羽管修订。
+[完整六轮、原图提交与提示](../production/runs/2026-10-16T0146+0800-summary.md)。本次接续4–6三轮，非单次六轮；唯一物种102/251不变，科学通过0。

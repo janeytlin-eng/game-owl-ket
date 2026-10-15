@@ -710,18 +710,26 @@
           "unique_species_increment": 1,
           "commit_sha": "cac11ef1a9452176441c7878193217d11cc4fba1",
           "run_record": "owl-pet/production/runs/2026-10-15T2226+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Strix huhula",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "5e4a7565a5070ea65b688eb49609a923f5ef2398",
+          "run_record": "owl-pet/production/runs/2026-10-15T2226+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-15T14:30:09.628Z"
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "2026-10-16T0129+0800-resume2226",
-    "cycle": 5,
-    "heartbeat_at": "2026-10-15T17:37:59.430Z",
-    "expires_at": "2026-10-15T17:52:59.430Z"
+    "cycle": 6,
+    "heartbeat_at": "2026-10-15T17:40:46.288Z",
+    "expires_at": "2026-10-15T17:55:46.288Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

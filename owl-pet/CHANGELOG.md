@@ -302,3 +302,7 @@ Actualeditedimageviewed: bothadultlowerbelly blackladderbars andverticalextensio
 ## 88-bubo-capensis-v2 2026-10-15T12:45:16.940Z
 REVISION Bubo capensis
 Actual editedimageviewed: juvenile shoulder/upperwing softened into diffuse dark bars over brownishwhite fluff, adultwhitewingpatchesnottransferred. Shortfoldedwing/lowrestingbody/yelloweyes/feet-groundsupport preserved. Adultcoarsebreastplate/whitewingmarks preserved. Exactage/proportionsunknown; scientifically_verifiedfalse. Learnedrule: juvenile mesoptile markings must be checked separately from adultdiagnostic patches, notsimplyremoveallpattern. Research ~3min; image wait 2026-10-15T12:43:07.949Z to 2026-10-15T12:44:01.687Z.
+
+## 89-bubo-bengalensis-v2 2026-10-15T12:50:03.852Z
+REVISION Bubo bengalensis
+Actualeditviewed: bothadultsupperchest streaks smaller/narrower whileclearlypresent, faintbellycrossbars retained. Neonatalclosedeyes/pinkskin/whitedownwisps/nomaturepins/prostratebellyandheadcontact retained. Primaryphoto524adultconspicuousstreaks vsbooksmallstreakwording remainsvariation/interpretationlimit, notscientificvalidation. Sexwinglengthnotcalibrated. Rulepreciselocalchangesmustretainlegitimatepatternsandrecordconflicts. Imagewait 2026-10-15T12:45:40.552Z to 2026-10-15T12:48:59.067Z; sciencefalse.

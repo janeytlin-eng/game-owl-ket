@@ -508,7 +508,7 @@
     },
     {
       "batch_id": "2026-10-15T1529+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -550,17 +550,20 @@
           "unique_species_increment": 1,
           "commit_sha": "55f442c7d2666b4704d2b40ec084eaff4045c362",
           "run_record": "owl-pet/production/runs/2026-10-15T1529+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus elegans",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "b7a8d5f89dae50ed97809d0a4e03d9ad6cb4adb4",
+          "run_record": "owl-pet/production/runs/2026-10-15T1529+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6
+      "next_cycle": null
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-15T1529+0800-cycle6",
-    "heartbeat_at": "2026-10-15T07:55:24.053Z",
-    "expires_at": "2026-10-15T08:10:24.053Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

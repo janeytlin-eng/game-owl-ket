@@ -735,17 +735,26 @@
       "batch_id": "2026-10-16T0146+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Strix nigrolineata",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "2932cfcb600b19bd32b83ec9e34df6164c4f200a",
+          "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-10-15T17:46:15.358Z"
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "2026-10-16T0146+0800",
-    "cycle": 1,
-    "heartbeat_at": "2026-10-15T17:46:15.358Z",
-    "expires_at": "2026-10-15T18:01:15.358Z"
+    "cycle": 2,
+    "heartbeat_at": "2026-10-15T17:52:26.833Z",
+    "expires_at": "2026-10-15T18:07:26.833Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

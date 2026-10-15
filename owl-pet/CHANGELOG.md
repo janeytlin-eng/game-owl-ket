@@ -317,3 +317,8 @@ Actualfirstimageandeditviewed: addedmissing#94, reducedrightfemalevisualscale; o
 
 ## 2026-10-15 #95 Pulsatrix melanota recovered original
 Recovered existing imagegen edit, actually viewed/reviewed; developing brown juvenile wing softened, exactage/sexratio notvalidated. Newunique93/251, science0. [Original](design/concepts/95-pulsatrix-melanota-v1.png). Full stage evidence production/runs/2026-10-15T2034+0800-cycle-6.md. No repeated generation.
+
+
+## 2026-10-15T19:35:22.140Z #03v5 scientific-pending revision
+Actual editedPNG viewed: chick now low crouched, belly touchingground, pinkfeet forward naturallysupported, headturnedtowardadults; adultmask/crownspots gone, noear tufts/adultremigepanels. Whitewisps andpinkshoulder, shortgreyshoulderpin-sheaths visible; residualcurlystyle, exactsheathlength andgreybluepupilnotquantitativelycalibrated. Bill isdarklarge-ish, adultstylepropensitynotcompletelyeliminated; exactbill/10daybodyratio remainpending. Adultlabels/poses/orangeeyes andfemalegreaterdirection preserved. No sciencepass; userapprovalnottransferredfromv4.
+Original03v4 and historicaluserapprovalpreserved; v5 notautomaticallyapproved. FullPNG imagecommit ba0b6fb92eeec4d945b71729e700cc76ed167911 SHA256 a6911309bafe5fbc738af5411ae85fa150d19eab71327bf86822b1a526f1eaa7. SourceEEO-PENTERIANI-2005 fulltext figuresrecovered/indexcorrected; new0/reused1/corrected1. Unique102/251 unchanged. [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T0146+0800-cycle-4.md).

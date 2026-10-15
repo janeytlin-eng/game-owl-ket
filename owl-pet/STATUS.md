@@ -332,3 +332,8 @@ REVIEWED 2026-10-15T07:40:35.559Z
 Actual editedimageviewed: juvenile white adultlike spotrows and long layered remiges replaced with shorter soft grey-buff developingwing, body stillfluffy with lessdistinctmarkings, feet/cavityfloor supported. Female nowfuller, nearadultsameheight notmass-to-heightcalibration; yelloweyes/darkbills/tufts/adultwhiteshoulders/treecavityaridsavanna retained. Finejuvenilefeatherage/sexratios/toegeometrystillunresolved, sciencefalse. Repeatedcause model borrows adult wings onto fluffybody; explicitnegativeandlocaledit reducedvisibleartifact, notbiologicalvalidation.
 ARCHIVED fullPNG3043383bytes Git8a2e5bcd71826a8bd5bd659d02aa186b52b968e2 SHA256c1ee88ad875c85c9439c934139e3d25b665d99d5f86aec31708f6874092df138.
 IMAGE_GENERATED 2026-10-15T07:38:08.425Z; EDIT_RETURNED 2026-10-15T07:39:35.826Z; edit wait 64.55s. Unique80/251.
+
+REVIEWED 2026-10-15T07:45:16.416Z
+Actual editedimageviewed: ear tufts shortened, crown and upperparts paler with thindarkstreaks; boldscapularpatches muted. Juvenile long layered wing/white spots replacedwithsoftshortfeathers, horizontalfinechestbars and palebrows, openbill upwardbegging retained; cavityfloor/feet support intact. Adult basal middletoe feathering subtlevisible but exactextentnotcalibrated. Juvenileiris yellow, adult-yellowcontrast notquantified; featherage/subspecies/sexheight unknown. Patternleakage fromreference reducedafterlocaledit, ruleappliedandvisuallyverified notscientificpass.
+ARCHIVED fullPNG2974487bytes Git5d41433403e55c5c0e9cdf46f7f5206be760783f SHA25696fbfb30dc67f3556e64fe961f0de3db0041e631477d19ad75aed46d1f751505.
+EDIT_RETURNED 2026-10-15T07:44:28.063Z editwait 56.938s. Unique81/251.

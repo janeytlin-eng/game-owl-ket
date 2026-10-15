@@ -102,3 +102,7 @@ Sourcefacts/selectedstage/localimagecorrection mustbechecked separately; no auto
 ### 01-tyto-alba-v4 appliedreview
 ActualeditedPNGviewed: outdoorforest/mossyrockground replacedwith roofedtimberbarninterior, shelteredwoodrecess overheadandbackwallvisiblebehindchick, broadwoodfloorwithmodestpelletlike/debris notwovenbasket. Threebirds allfoot/bellycontacts supported; chickwhitefluff/darkeyes/pinkeyelids/baretoes retained, adultslabels/markings andposes preservedvisually. Barnopeningfarmview notdenseforest. Recess isconceptcutaway notmeasurednestbox; apparentbarnheight/roofgeometry andexactchickfeatherage/sexdisplayratio remainunknownsciencefalse. No userapprovaltransfer fromoldv3.
 Sourcefacts/selectedstage/localimagecorrection mustbechecked separately; no automatic scientificapproval orhistoricaluserapprovaltransfer. Related owl-pet/production/runs/2026-10-16T0146+0800-cycle-6.md.
+
+
+### #105 Ptilopsis granti applied review
+Hospitalphoto olderjuvenile has formedwings; earlyprompt stillleakedadultwhitepatchrows. Actualtargetededit reducedwhitepatchrows/softenedgraybrownwing while preservingformedlength; actualPNGviewed. Do not universallyeraseolderjuvenilewings. Chesttonalcontraststillpending; visualimprovement notscientificvalidation. ADW units/chronologyerrors excluded fromproportion/agerules. No retrospectiveacceptance ofalloldimages. Related batch0430 cycle1.

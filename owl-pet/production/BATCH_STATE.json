@@ -751,18 +751,26 @@
           "unique_species_increment": 1,
           "commit_sha": "1419fb73cf8f771c22ae8f4f737037eb97292dab",
           "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Asio madagascariensis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "b919e3f836387d3d49fa81d8866695e7a0beba4e",
+          "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-15T17:46:15.358Z"
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "2026-10-16T0146+0800",
-    "cycle": 3,
-    "heartbeat_at": "2026-10-15T17:58:01.670Z",
-    "expires_at": "2026-10-15T18:13:01.670Z"
+    "cycle": 4,
+    "heartbeat_at": "2026-10-15T18:05:24.061Z",
+    "expires_at": "2026-10-15T18:20:24.061Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

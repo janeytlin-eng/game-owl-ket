@@ -759,9 +759,17 @@
           "unique_species_increment": 1,
           "commit_sha": "b919e3f836387d3d49fa81d8866695e7a0beba4e",
           "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ba0b6fb92eeec4d945b71729e700cc76ed167911",
+          "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-15T17:46:15.358Z",
       "last_checkpoint": {
         "at": "2026-10-15T18:30:01.674Z",
@@ -774,9 +782,9 @@
   "lease": {
     "owner": "codex-0330",
     "run_id": "2026-10-16T0146+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-15T19:32:35.810Z",
-    "expires_at": "2026-10-15T19:47:35.810Z"
+    "cycle": 5,
+    "heartbeat_at": "2026-10-15T19:35:22.140Z",
+    "expires_at": "2026-10-15T19:50:36.292Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -825,5 +833,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-15T18:30:01.674Z"
+  "updated_at": "2026-10-15T19:35:22.140Z"
 }

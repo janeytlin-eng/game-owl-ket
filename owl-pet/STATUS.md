@@ -398,3 +398,7 @@ Recovered existing imagegen edit, actually viewed/reviewed; developing brown juv
 ## #99 recovered 2026-10-15T17:36:38.959Z
 Recovered edit actually viewed: juvenile wing softened to gray down-covered short developing feathers; adult white throat bib/dark dot border and fine breast bars restored. Yellow eyes, bluegray bills, small pointed tufts, feathered toes, bare balcony floor and feet/belly support retained. Exact feather age, sex ratio and toe geometry unknown; concept only, scientifically_verified false. Lesson applied: zoned breast correction preserves legitimate adult back mottling; visual improvement checked, not biological validation.
 Unique96→97/251; image cac11ef1a9452176441c7878193217d11cc4fba1; sourceindex reused2/new0. Cycle4/6 verified.
+
+
+## 2026-10-15T18:09:44.486Z #100–104 verified archive reconciliation
+Unique102/251 after #99–104 (six distinct additions across two batches). Historical user-confirmed16 unchanged; scientificverified0, all remaining86 require scientific calibration/visual approval; exact revision queue count unknown. Full PNGs/research/reviews/prompts/stage times and commits: [continuation summary](production/runs/2026-10-16-0201-continuation-summary.md). Older batch2226 complete6/6; current0146 partial3/6 next4. Do not count candidate searches or revisions twice.

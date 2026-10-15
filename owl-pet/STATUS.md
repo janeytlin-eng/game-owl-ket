@@ -327,3 +327,8 @@ IMAGE_GENERATED 2026-10-15T07:32:36.137Z imagegen edit wait 57.406s.
 REVIEWED 2026-10-15T07:35:32.565Z
 Actual output viewed: adult feet now near-level branch baseline and bodies near equal, both natural grips; pale fine-barred fluffy juvenile remains short-winged without long mature remiges. Adult plumage/bill changed slightly during edit, not pixel-exact preservation. Dark eyes and reddish orbital rims retained. Sex-size direction and precise feather age remain unknown; scientifically_verified false. Lesson applied: compare crown-to-toe body scale on common baseline, not head position alone; visual improvement verified, biological ratio not verified.
 ARCHIVED fullPNG2691844bytes localGit/upload3891215720f97c2a21f07741d9c576599f15ebd8 SHA2564fa81b8405d9eea794bc81cbd3a0f46a5e591770970991498cca9206cc9aa648. Original v1 preserved. Unique species unchanged79/251.
+
+REVIEWED 2026-10-15T07:40:35.559Z
+Actual editedimageviewed: juvenile white adultlike spotrows and long layered remiges replaced with shorter soft grey-buff developingwing, body stillfluffy with lessdistinctmarkings, feet/cavityfloor supported. Female nowfuller, nearadultsameheight notmass-to-heightcalibration; yelloweyes/darkbills/tufts/adultwhiteshoulders/treecavityaridsavanna retained. Finejuvenilefeatherage/sexratios/toegeometrystillunresolved, sciencefalse. Repeatedcause model borrows adult wings onto fluffybody; explicitnegativeandlocaledit reducedvisibleartifact, notbiologicalvalidation.
+ARCHIVED fullPNG3043383bytes Git8a2e5bcd71826a8bd5bd659d02aa186b52b968e2 SHA256c1ee88ad875c85c9439c934139e3d25b665d99d5f86aec31708f6874092df138.
+IMAGE_GENERATED 2026-10-15T07:38:08.425Z; EDIT_RETURNED 2026-10-15T07:39:35.826Z; edit wait 64.55s. Unique80/251.

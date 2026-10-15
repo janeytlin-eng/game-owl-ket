@@ -310,3 +310,7 @@ Actualeditviewed: bothadultsupperchest streaks smaller/narrower whileclearlypres
 ## 93-aegolius-harrisii-v1 2026-10-15T12:52:38.516Z
 NEW Aegolius harrisii
 Actualgeneratedimageviewed: adultyellowiris/palegreenbill/darkcrown/blackruff-chinbib/plainochrebelly/noeartufts; modestfemaleincrease, bareyellowtoesgrippingwood. Earlyyoungpinkskin/sparsegreywisps/darkbill/closedeye supportedheadandbodyoncavitywoodfloor, noadultremiges/whiteplush. Largeopenedcavity isexplicitconceptcutaway NOTliteral8cmentrance. Exactskinextent/greywisplightness/ratiosunverified. Noeditneededatconceptlevel. Newrule fromprimary2019supersedes2013downundescribed, appliedgraydownpromptandviewcheckednotclaimquantitativevalidation. Generationwait 2026-10-15T12:50:31.413Z to 2026-10-15T12:51:20.554Z; sciencefalse.
+
+## 94-pulsatrix-koeniswaldiana-v1 2026-10-15T12:56:59.903Z
+NEW Pulsatrix koeniswaldiana
+Actualfirstimageandeditviewed: addedmissing#94, reducedrightfemalevisualscale; onlymodestdifference now, notbiologicalratiocalibration. Adultsdarkchestnuteyes/tawnybrows/whitechin/plainbuffbelly/brownband/baretoesbranches retained. Laterjuvenilephoto-stage residualwhiteheadfluff/darkmask/darkeyes/buffbelow/brownchestband/developedfoldedwingsvalid, notshrinktoembryonicbuds. Exactjuvenileage/winglengthunknown. Originaldraftarchived45aae06f49f8879c5a1bcfe0a17fb58ae5ba9eac notanotheruniquegroup. Recheckconcretechangevisualsuccess, sciencefalse. Generation 2026-10-15T12:53:20.767Z to 2026-10-15T12:54:03.398Z; edit 2026-10-15T12:54:44.348Z to 2026-10-15T12:55:50.570Z.

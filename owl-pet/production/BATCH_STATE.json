@@ -673,9 +673,23 @@
         }
       ],
       "next_cycle": null
+    },
+    {
+      "batch_id": "2026-10-15T2226+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "started_at": "2026-10-15T14:30:09.628Z"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex",
+    "run_id": "2026-10-15T2226+0800",
+    "heartbeat_at": "2026-10-15T14:30:09.628Z",
+    "expires_at": "2026-10-15T14:45:09.628Z",
+    "cycle": 1
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

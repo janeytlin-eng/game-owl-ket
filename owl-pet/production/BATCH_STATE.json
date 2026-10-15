@@ -620,7 +620,7 @@
     },
     {
       "batch_id": "2026-10-15T2034+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -662,17 +662,20 @@
           "unique_species_increment": 1,
           "commit_sha": "4b89e39e38ba98a27e05c8c91efb5d6c18090939",
           "run_record": "owl-pet/production/runs/2026-10-15T2034+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Pulsatrix melanota",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "367a1ac048cc26e3e8d8986a1496deee5ca5b5dd",
+          "run_record": "owl-pet/production/runs/2026-10-15T2034+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6
+      "next_cycle": null
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-15T2129+0800-resume2034-cycle6",
-    "heartbeat_at": "2026-10-15T13:30:36.133Z",
-    "expires_at": "2026-10-15T13:45:36.133Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

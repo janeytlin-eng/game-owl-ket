@@ -510,16 +510,20 @@
       "batch_id": "2026-10-15T1529+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus lettia",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "80d51ca7b4c8e2b42ef977893780d30893b242ee",
+          "run_record": "owl-pet/production/runs/2026-10-15T1529+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-15T1529+0800-cycle1",
-    "heartbeat_at": "2026-10-15T07:31:33.778Z",
-    "expires_at": "2026-10-15T07:46:33.778Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

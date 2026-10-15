@@ -1309,3 +1309,10 @@ AdditionalAlanVanNorman2014OwlPagesjuvenilecaptionreadonlynotphotopixels; notuse
 
 ## 2026-10-16 retrospective audit — reuse CRI-MIK2013-358
 Actual #97 immutable original (cbc4719e5b19b21e2ed067c8849ef501b4c195b0) downloaded/viewed again. Existing source printed358/PDF360 reread: dark orange-brown adult iris and adultlike wings/tail in white mesoptile. Apparent orange iris was suspected but source confirms compatible colour direction, so NO automatic recolour and NO new source/revision credit. Supported juvenile feet and formed balancing wing retained. Exact colour/feathergeometry remain scientificunknown. This reuse tests avoiding false-positive blanket juvenile-wing removal and overcorrection of colour wording.
+
+
+### BRA-MOTTA-BRAGA2012 — literature-gap screening (not juvenile morphology proof)
+- José Carlos Motta-Junior & Ana Cláudia Rocha Braga (2012), Estado del conocimiento sobre la ecología y biología de búhos en Brasil. Ornitologia Neotropical23:227–234. OriginalURL https://sora.unm.edu/sites/default/files/Motta-Junior.pdf ; accessed2026-10-16; literature review, actual fulltext read (pp227,228–229 methods,232 table1,233 discussion).
+- Scope Brazilian owls incl. Megascops sanctaecatarinae/M. atricapilla, mixed taxa and research topics, not age-specific primary development. Authors reviewed262 works through firsthalf2011, many partial observations; morphology/age cannot be reconstructed from numberofreferences.
+- Designdecision: do NOT use review table as evidence for candidate juvenile feathering or fledging days; follow original species-specific nest papers. Older nomenclature permethods/KonigWeick2008, not current taxonomy authority. Confidence high for paper's own reviewmethods, insufficient for individual young appearance. No imageversion produced fromthissource.
+- Linkedrun [remaining cycle4](../production/runs/2026-10-16T0146+0800-cycle-4.md); taxa map Megascops sanctaecatarinae / Megascops atricapilla; topic evidencegaps/reproductionliterature.

@@ -678,17 +678,26 @@
       "batch_id": "2026-10-15T2226+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Aegolius ridgwayi",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "c5611d52593b8a29d9fb46fec99f515115ac2eb8",
+          "run_record": "owl-pet/production/runs/2026-10-15T2226+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-10-15T14:30:09.628Z"
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "2026-10-15T2226+0800",
-    "cycle": 1,
-    "heartbeat_at": "2026-10-15T14:35:39.549Z",
-    "expires_at": "2026-10-15T14:50:39.549Z"
+    "cycle": 2,
+    "heartbeat_at": "2026-10-15T14:36:11.224Z",
+    "expires_at": "2026-10-15T14:51:11.224Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

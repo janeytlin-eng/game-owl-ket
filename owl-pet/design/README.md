@@ -264,3 +264,16 @@
 
 ## 64 灰脸仓鸮 Tyto glaucops
 [原图](concepts/64-tyto-glaucops-v1.png) · [研究](../knowledge/species/64-tyto-glaucops.md)。幼鸟斑纹翼羽和雌鸟体量已修订复查；待用户确认与科学校准。
+
+## 87–92 · 新增组图集中审查入口
+
+以下均已归档和实际查看，待用户确认与科学校准；不把概念复查当科学通过。
+
+- #87 bubo ascalaphus：[原始PNG](concepts/87-bubo-ascalaphus-v1.png) · [研究档案](../knowledge/species/87-bubo-ascalaphus.md)
+- #88 bubo capensis：[原始PNG](concepts/88-bubo-capensis-v1.png) · [研究档案](../knowledge/species/88-bubo-capensis.md)
+- #89 bubo bengalensis：[原始PNG](concepts/89-bubo-bengalensis-v1.png) · [研究档案](../knowledge/species/89-bubo-bengalensis.md)
+- #90 tyto furcata：[原始PNG](concepts/90-tyto-furcata-v1.png) · [研究档案](../knowledge/species/90-tyto-furcata.md)
+- #91 tyto javanica：[原始PNG](concepts/91-tyto-javanica-v1.png) · [研究档案](../knowledge/species/91-tyto-javanica.md)
+- #92 ninox japonica：[原始PNG](concepts/92-ninox-japonica-v1.png) · [研究档案](../knowledge/species/92-ninox-japonica.md)
+
+[六子轮提交、完整提示及实际修订证据](../production/runs/2026-10-15T1602+0800-summary.md)。去重90/251，全部251完成前仍属增量入口。

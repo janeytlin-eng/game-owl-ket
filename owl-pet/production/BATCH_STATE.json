@@ -762,16 +762,16 @@
         }
       ],
       "next_cycle": 4,
-      "started_at": "2026-10-15T17:46:15.358Z"
+      "started_at": "2026-10-15T17:46:15.358Z",
+      "last_checkpoint": {
+        "at": "2026-10-15T18:10:31.042Z",
+        "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-4.md",
+        "stage": "PARTIAL_RESEARCH",
+        "reason": "Candidate original fulltext 403; alternative evidence not yet sufficient. No completed-cycle credit, no claim of platform timeout."
+      }
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-16T0146+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-15T18:05:24.061Z",
-    "expires_at": "2026-10-15T18:20:24.061Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -818,5 +818,6 @@
     "2026-10-14 binary integrity correction: #61/#62 complete originals restored in 5efc1da49e062dc6e6b510ffeec20081c05c06ce; previous remote-only hash verification was invalid. Cycle credit unchanged, next_cycle 5. Evidence: owl-pet/production/runs/2026-10-14T0927+0800-integrity-recovery.md.",
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
-  ]
+  ],
+  "updated_at": "2026-10-15T18:10:31.042Z"
 }

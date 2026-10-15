@@ -518,17 +518,20 @@
           "unique_species_increment": 0,
           "commit_sha": "80d51ca7b4c8e2b42ef977893780d30893b242ee",
           "run_record": "owl-pet/production/runs/2026-10-15T1529+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Otus senegalensis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "7e2136af08c4e3a7c612b1062cc1aba381471544",
+          "run_record": "owl-pet/production/runs/2026-10-15T1529+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2
+      "next_cycle": 3
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "2026-10-15T1529+0800-cycle2",
-    "heartbeat_at": "2026-10-15T07:36:26.809Z",
-    "expires_at": "2026-10-15T07:51:26.809Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

@@ -342,3 +342,8 @@ REVIEWED 2026-10-15T07:49:19.581Z
 Actual editedimageviewed: middle bill/cere nowgrey notgreen, bluegreyiris retained, noear tufts, softshortwings notadultremiges, horizontalbarring/woodfloorandfeet support. Adultdarkbrowneyes/greenhornbills/conspicuoustufts, rightfemale modestlyfuller/larger onleveltoebaseline; exactheightnotcalibrated. Boxwoodsupportandwoodlandappropriate; no scientificpass, exactage/subspecies/toegeometrystillunknown. Cause juvenilebill copiedadultcolour, localjuvenileonlyeditvisuallyeffective; rule eyesANDbill checkedseparatelyforagestage.
 ARCHIVED fullPNG2708403bytes Gitd27c08fd3655d25f61f1f6148702c03a1cec9f07 SHA256fac19a4a0bfcc2ba6f1c8be16bd2b8244fa433d781b687149bcd8abcc7cd8ee4.
 EDIT_RETURNED 2026-10-15T07:48:04.510Z editwait 52.174s. Unique82/251.
+
+REVIEWED 2026-10-15T07:54:57.217Z
+Actual editedimageviewed: fine shorttoe feathersadded across toeupperbases/length, claws visible/branchgrips retained, nohugefurrymittens; exactdistalcoveragepending. Youngfirstwinter palernarrowpointedlongwings/tail preserved, palercoverts distinct from adultdarkroundedwing, bodynearadultsize/notdownyball, coherentheadturn/footgrips, orangeeyes notusedasagecriterion. Adultsize nearequal notscientificRSDclaim. Thinforehead pattern and exactfeathergeometry stillnotcalibrated; sciencefalse. Lessonverifiedinimage: targettoeeditdidnoteraselegitimateformedjuvenilefeathers, age-specificrulesnotuniversalshortwings.
+ARCHIVED fullPNG2792816bytes Gitd0f41fc41c5c37321d8c3a0296ad675aa96262f6 SHA2562745b7a10215d254452ef735b4cb95f4517c283c0c008c69e8811e11ec90c886.
+EDIT_RETURNED 2026-10-15T07:54:09.026Z editwait 142.038s. Unique83/251.

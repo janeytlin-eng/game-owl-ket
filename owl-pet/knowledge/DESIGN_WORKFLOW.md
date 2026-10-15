@@ -84,3 +84,7 @@
 - Retrospectivecheck: #97 full original at cbc4719e5b19b21e2ed067c8849ef501b4c195b0 downloaded/viewed; Mikkola printed358 reread. Adultdarkorangebrowniris and formed mesoptilewings supported, so NO automatic irisrecolour or wing removal. Source wording prevents falsepositive correction. Fineage/geometrystillunknown.
 - #101 commonbranchbaseline/crown-to-toe check revealed maleoverscale, edit near-equaldisplay visuallyrechecked. This is not RSD measurement.
 Full prompts, timestamps and actualimages in cycle records; scientificstatus false remains explicit.
+
+
+### #104 actual post-edit check
+Female modest enlargement and fine lower-belly streak correction visually checked; legitimate upper-breast shafts and mesoptile formed wings preserved. Young iris remains unknown (wide dark pupil with thin amber rim in concept), not scientifically passed. Do not turn photograph dark-eye appearance into black-iris certainty. #97 retrospective actual image/book check retained dark-orange-brown eyes; no unsupported recoloring. See production/runs/2026-10-16-0201-continuation-summary.md.

@@ -75,3 +75,12 @@
 - 再次复用已有#85“不可把所有幼鸟都短翅”规则：#94选择Bottai2013照片的较晚幼鸟，实际保留发育翼羽；编辑后复查保留。不能因初生/中雏图中出现过熟翼问题就删除较晚幼鸟有证据支持的飞羽。
 - 性别大小缺乏测量时，不以“据称雌大”夸大成巨大比例。#94首图偏大已局部收敛并实际查看；#93图鉴明确雌大雌重、#94无雄重、#95仅无性别体重，证据边界分别记录。构图尺度不是生物学比例测量。
 复查范围明确为上述实际输出，并对照既有#85规则；没有重新验收全部历史图。发现规则、提示应用、视觉复查与生物学验证必须分开。资料索引及完整提示见本批各cycle运行记录，scientifically_verified仍为false。
+
+
+### 2026-10-16 evidence-led iteration (#99–103; #104 review pending)
+- Mixed-species papers must be checked by section heading: Gerhardt etal1994 pp631–632 nataldown/eyeopening/fledging sequence is S.virgata, NOT S.nigrolineata. #102 used only the correct pp633–634 epiphyte nest account plus its own Mikkola mesoptile description. Rule discovered and applied; not biologicalvalidation.
+- Correct feather pattern polarity and zone, not all feathers: #100 juvenile palegray/blackbars must not receive adult darkwing/whitepatchrows. Actual edit replaced those rows; adulthead/wing finewhitebars differ from #102 plainsootycrown/back. #102 crown-only edit retained legitimate speckledbrow/ruff. Both visuallyrechecked.
+- Fluff does not equal newborn or absent formedwings. #103 DunlopPain2016 Fig1 is55/69daygoldenmesoptile, notgenericwhiteTytohatchling; no captive-to-wild exactage generalization. #101 brancher legitimate balancingwing preserved.
+- Retrospectivecheck: #97 full original at cbc4719e5b19b21e2ed067c8849ef501b4c195b0 downloaded/viewed; Mikkola printed358 reread. Adultdarkorangebrowniris and formed mesoptilewings supported, so NO automatic irisrecolour or wing removal. Source wording prevents falsepositive correction. Fineage/geometrystillunknown.
+- #101 commonbranchbaseline/crown-to-toe check revealed maleoverscale, edit near-equaldisplay visuallyrechecked. This is not RSD measurement.
+Full prompts, timestamps and actualimages in cycle records; scientificstatus false remains explicit.

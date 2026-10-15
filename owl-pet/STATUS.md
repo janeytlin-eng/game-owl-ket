@@ -402,3 +402,8 @@ Unique96→97/251; image cac11ef1a9452176441c7878193217d11cc4fba1; sourceindex r
 
 ## 2026-10-15T18:09:44.486Z #100–104 verified archive reconciliation
 Unique102/251 after #99–104 (six distinct additions across two batches). Historical user-confirmed16 unchanged; scientificverified0, all remaining86 require scientific calibration/visual approval; exact revision queue count unknown. Full PNGs/research/reviews/prompts/stage times and commits: [continuation summary](production/runs/2026-10-16-0201-continuation-summary.md). Older batch2226 complete6/6; current0146 partial3/6 next4. Do not count candidate searches or revisions twice.
+
+
+## 2026-10-15T19:35:22.140Z #03v5 scientific-pending revision
+Actual editedPNG viewed: chick now low crouched, belly touchingground, pinkfeet forward naturallysupported, headturnedtowardadults; adultmask/crownspots gone, noear tufts/adultremigepanels. Whitewisps andpinkshoulder, shortgreyshoulderpin-sheaths visible; residualcurlystyle, exactsheathlength andgreybluepupilnotquantitativelycalibrated. Bill isdarklarge-ish, adultstylepropensitynotcompletelyeliminated; exactbill/10daybodyratio remainpending. Adultlabels/poses/orangeeyes andfemalegreaterdirection preserved. No sciencepass; userapprovalnottransferredfromv4.
+Original03v4 and historicaluserapprovalpreserved; v5 notautomaticallyapproved. FullPNG imagecommit ba0b6fb92eeec4d945b71729e700cc76ed167911 SHA256 a6911309bafe5fbc738af5411ae85fa150d19eab71327bf86822b1a526f1eaa7. SourceEEO-PENTERIANI-2005 fulltext figuresrecovered/indexcorrected; new0/reused1/corrected1. Unique102/251 unchanged. [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T0146+0800-cycle-4.md).

@@ -668,6 +668,9 @@
 - Limits/confidence: high for study identity and relevance; detailed growth values remain unverified in this run.
 - Design support: establishes a species-specific developmental evidence route, while the plate uses the independently verified zoo account for the 60-day activity boundary.
 
+
+2026-10-16 fulltext recovery/correction: actual fullPDF read via https://avibirds.com/wp-content/uploads/pdf/oehoe10.pdf ; printed156 methods19chicks/8nests/SierraNorteSpain2003, printed159fig2 (1–3d prostratewhite/pinkskin; eyesopen4–7d darkyellowiris/greybluepupil), printed160fig3(10d whitefirstdown, shoulders/rump/tarsus/wingpin-sheaths andtwochestshaftlines, bellybeginningdown), fig4(15d greybegiewool/down/incompletebelly/unstablefeet). Printed160 rendered actuallyviewedfig3/4. This supersedes earlier metadata-only limitation for this access only; no universalage/sexgrowthratio (paperexcludedsexeffect due samplesize). Applied#03v5 earlychick posture/feather correction; v4 preserved userapproval. No copiedPDF/photo inrepo; link/summaryonly. Related production/runs/2026-10-16T0146+0800-cycle-4.md.
+
 ### EEO-DENVER-2020
 - Title: Eurasian Eagle Owl — *Bubo bubo*
 - Institution: Denver Zoological Foundation

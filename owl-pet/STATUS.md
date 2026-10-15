@@ -337,3 +337,8 @@ REVIEWED 2026-10-15T07:45:16.416Z
 Actual editedimageviewed: ear tufts shortened, crown and upperparts paler with thindarkstreaks; boldscapularpatches muted. Juvenile long layered wing/white spots replacedwithsoftshortfeathers, horizontalfinechestbars and palebrows, openbill upwardbegging retained; cavityfloor/feet support intact. Adult basal middletoe feathering subtlevisible but exactextentnotcalibrated. Juvenileiris yellow, adult-yellowcontrast notquantified; featherage/subspecies/sexheight unknown. Patternleakage fromreference reducedafterlocaledit, ruleappliedandvisuallyverified notscientificpass.
 ARCHIVED fullPNG2974487bytes Git5d41433403e55c5c0e9cdf46f7f5206be760783f SHA25696fbfb30dc67f3556e64fe961f0de3db0041e631477d19ad75aed46d1f751505.
 EDIT_RETURNED 2026-10-15T07:44:28.063Z editwait 56.938s. Unique81/251.
+
+REVIEWED 2026-10-15T07:49:19.581Z
+Actual editedimageviewed: middle bill/cere nowgrey notgreen, bluegreyiris retained, noear tufts, softshortwings notadultremiges, horizontalbarring/woodfloorandfeet support. Adultdarkbrowneyes/greenhornbills/conspicuoustufts, rightfemale modestlyfuller/larger onleveltoebaseline; exactheightnotcalibrated. Boxwoodsupportandwoodlandappropriate; no scientificpass, exactage/subspecies/toegeometrystillunknown. Cause juvenilebill copiedadultcolour, localjuvenileonlyeditvisuallyeffective; rule eyesANDbill checkedseparatelyforagestage.
+ARCHIVED fullPNG2708403bytes Gitd27c08fd3655d25f61f1f6148702c03a1cec9f07 SHA256fac19a4a0bfcc2ba6f1c8be16bd2b8244fa433d781b687149bcd8abcc7cd8ee4.
+EDIT_RETURNED 2026-10-15T07:48:04.510Z editwait 52.174s. Unique82/251.

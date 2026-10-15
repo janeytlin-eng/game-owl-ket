@@ -743,18 +743,26 @@
           "unique_species_increment": 1,
           "commit_sha": "2932cfcb600b19bd32b83ec9e34df6164c4f200a",
           "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Tyto longimembris",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "1419fb73cf8f771c22ae8f4f737037eb97292dab",
+          "run_record": "owl-pet/production/runs/2026-10-16T0146+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-15T17:46:15.358Z"
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "2026-10-16T0146+0800",
-    "cycle": 2,
-    "heartbeat_at": "2026-10-15T17:56:04.286Z",
-    "expires_at": "2026-10-15T18:11:04.286Z"
+    "cycle": 3,
+    "heartbeat_at": "2026-10-15T17:58:01.670Z",
+    "expires_at": "2026-10-15T18:13:01.670Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

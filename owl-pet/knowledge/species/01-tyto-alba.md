@@ -39,3 +39,8 @@
 参考：https://www.barnowltrust.org.uk/barn-owl-facts/owlet-identification-age/
 
 雪鸮参考ORI 8–14日阶段，雕鸮参考Penteriani等2005约10日阶段，但本图不是精确日龄复原。各物种发育速度不同，不设统一日龄或幼成高度比。眼周、面盘、脚部和成年尺寸仍需校对；所有图标注非测量比例，尚未科学验收或用户审美确认。旧版保留。
+
+
+## 2026-10-15T19:42:07.147Z 01-tyto-alba-v4 REVISION
+ActualeditedPNGviewed: outdoorforest/mossyrockground replacedwith roofedtimberbarninterior, shelteredwoodrecess overheadandbackwallvisiblebehindchick, broadwoodfloorwithmodestpelletlike/debris notwovenbasket. Threebirds allfoot/bellycontacts supported; chickwhitefluff/darkeyes/pinkeyelids/baretoes retained, adultslabels/markings andposes preservedvisually. Barnopeningfarmview notdenseforest. Recess isconceptcutaway notmeasurednestbox; apparentbarnheight/roofgeometry andexactchickfeatherage/sexdisplayratio remainunknownsciencefalse. No userapprovaltransfer fromoldv3.
+[FullPNG](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/01-tyto-alba-v4.png) imagecommit f065f593294645f4acb5a0d5044afda622469728; SHA256 63aff40f299da06abc98b7328be6bd8aa7c179a568b0127bde1ab2b2a2387e11 bytes 2390604. Sourceindexnew3 WBO-BOT-IDAGE2026/NEST2026/BUILD2026. Unique102/251 unchanged, historicaluserapprovalonlyoldversion/science0. Run owl-pet/production/runs/2026-10-16T0146+0800-cycle-6.md.

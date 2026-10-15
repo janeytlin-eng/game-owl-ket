@@ -382,3 +382,7 @@ Actual editedimageviewed: juvenile shoulder/upperwing softened into diffuse dark
 ## 89-bubo-bengalensis-v2 2026-10-15T12:50:03.555Z
 REVISION Bubo bengalensis
 Actualeditviewed: bothadultsupperchest streaks smaller/narrower whileclearlypresent, faintbellycrossbars retained. Neonatalclosedeyes/pinkskin/whitedownwisps/nomaturepins/prostratebellyandheadcontact retained. Primaryphoto524adultconspicuousstreaks vsbooksmallstreakwording remainsvariation/interpretationlimit, notscientificvalidation. Sexwinglengthnotcalibrated. Rulepreciselocalchangesmustretainlegitimatepatternsandrecordconflicts. Imagewait 2026-10-15T12:45:40.552Z to 2026-10-15T12:48:59.067Z; sciencefalse.
+
+## 93-aegolius-harrisii-v1 2026-10-15T12:52:38.132Z
+NEW Aegolius harrisii
+Actualgeneratedimageviewed: adultyellowiris/palegreenbill/darkcrown/blackruff-chinbib/plainochrebelly/noeartufts; modestfemaleincrease, bareyellowtoesgrippingwood. Earlyyoungpinkskin/sparsegreywisps/darkbill/closedeye supportedheadandbodyoncavitywoodfloor, noadultremiges/whiteplush. Largeopenedcavity isexplicitconceptcutaway NOTliteral8cmentrance. Exactskinextent/greywisplightness/ratiosunverified. Noeditneededatconceptlevel. Newrule fromprimary2019supersedes2013downundescribed, appliedgraydownpromptandviewcheckednotclaimquantitativevalidation. Generationwait 2026-10-15T12:50:31.413Z to 2026-10-15T12:51:20.554Z; sciencefalse.

@@ -92,3 +92,8 @@ Female modest enlargement and fine lower-belly streak correction visually checke
 
 ### #03v5 early-stage retrospective correction
 Do not confuse blanketed whiteplush and uprightpose with verified10daystage. Penteriani2005 Fig3 shows sparsebelly/shoulder andpins; v5 lowgroundsupport/pinkskin/shortsheaths applied andactuallyviewed. Existing#104 olderbrancherformedwing retained when reviewedpreviously; don'terasealljuvenilefeathers. Exactpin/bill/ageproportionsstillpending, rulevisualresultonly.
+
+
+### 02-bubo-scandiacus-v4 appliedreview
+SecondeditactualPNGviewed: conspicuouswhiteX/whitecheeks removed, graydownnowextendsaroundeyesandbill, subtlerlightwispsnotsharpadultX. Headgentleturn/graymesoptile/belly-moundcontact/twofootcontacts/yelloweyes/darkbill preserved; noadultwingpanels orformedtail. Toe-downshortbutstylized; exactday9–14 iris/pinlength andbodyratio notvalidated. Adults andlabels retainedvisually, notpixelidenticalclaim. Scientificfalse, priorv3approvalnottransferred.
+Sourcefacts/selectedstage/localimagecorrection mustbechecked separately; no automatic scientificapproval orhistoricaluserapprovaltransfer. Related owl-pet/production/runs/2026-10-16T0146+0800-cycle-5.md.

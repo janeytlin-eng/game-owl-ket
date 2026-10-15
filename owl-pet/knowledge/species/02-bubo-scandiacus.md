@@ -34,3 +34,8 @@
 参考：https://www.owlresearchinstitute.org/snowy-owl-photo-guide
 
 雪鸮参考ORI 8–14日阶段，雕鸮参考Penteriani等2005约10日阶段，但本图不是精确日龄复原。各物种发育速度不同，不设统一日龄或幼成高度比。眼周、面盘、脚部和成年尺寸仍需校对；所有图标注非测量比例，尚未科学验收或用户审美确认。旧版保留。
+
+
+## 2026-10-15T19:39:39.036Z 02-bubo-scandiacus-v4 REVISION
+SecondeditactualPNGviewed: conspicuouswhiteX/whitecheeks removed, graydownnowextendsaroundeyesandbill, subtlerlightwispsnotsharpadultX. Headgentleturn/graymesoptile/belly-moundcontact/twofootcontacts/yelloweyes/darkbill preserved; noadultwingpanels orformedtail. Toe-downshortbutstylized; exactday9–14 iris/pinlength andbodyratio notvalidated. Adults andlabels retainedvisually, notpixelidenticalclaim. Scientificfalse, priorv3approvalnottransferred.
+[FullPNG](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/02-bubo-scandiacus-v4.png) imagecommit 8df7513ecc81392d717234698625163eff204dab; SHA256 49cb6e30a9d12117db6bbdfb17194eddd1608441bd113a2f9414155845bf42c6 bytes 2175676. Sourceindexnew1 SNO-ORI-2022GUIDE. Unique102/251 unchanged, historicaluserapprovalonlyoldversion/science0. Run owl-pet/production/runs/2026-10-16T0146+0800-cycle-5.md.

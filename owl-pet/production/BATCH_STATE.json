@@ -646,16 +646,24 @@
           "unique_species_increment": 0,
           "commit_sha": "c48421a0caee98143786b3235a1cdd0a57d9a8de",
           "run_record": "owl-pet/production/runs/2026-10-15T2034+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Aegolius harrisii",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "56caf86789b36493f8685dc98d3972a56618a8fd",
+          "run_record": "owl-pet/production/runs/2026-10-15T2034+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4
+      "next_cycle": 5
     }
   ],
   "lease": {
     "owner": "codex",
-    "run_id": "2026-10-15T2034+0800-cycle4",
-    "heartbeat_at": "2026-10-15T12:50:14.407Z",
-    "expires_at": "2026-10-15T13:05:14.407Z"
+    "run_id": "2026-10-15T2034+0800-cycle5",
+    "heartbeat_at": "2026-10-15T12:52:59.152Z",
+    "expires_at": "2026-10-15T13:07:59.152Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

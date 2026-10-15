@@ -88,3 +88,7 @@ Full prompts, timestamps and actualimages in cycle records; scientificstatus fal
 
 ### #104 actual post-edit check
 Female modest enlargement and fine lower-belly streak correction visually checked; legitimate upper-breast shafts and mesoptile formed wings preserved. Young iris remains unknown (wide dark pupil with thin amber rim in concept), not scientifically passed. Do not turn photograph dark-eye appearance into black-iris certainty. #97 retrospective actual image/book check retained dark-orange-brown eyes; no unsupported recoloring. See production/runs/2026-10-16-0201-continuation-summary.md.
+
+
+### #03v5 early-stage retrospective correction
+Do not confuse blanketed whiteplush and uprightpose with verified10daystage. Penteriani2005 Fig3 shows sparsebelly/shoulder andpins; v5 lowgroundsupport/pinkskin/shortsheaths applied andactuallyviewed. Existing#104 olderbrancherformedwing retained when reviewedpreviously; don'terasealljuvenilefeathers. Exactpin/bill/ageproportionsstillpending, rulevisualresultonly.

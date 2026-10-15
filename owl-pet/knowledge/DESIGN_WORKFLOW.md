@@ -97,3 +97,8 @@ Do not confuse blanketed whiteplush and uprightpose with verified10daystage. Pen
 ### 02-bubo-scandiacus-v4 appliedreview
 SecondeditactualPNGviewed: conspicuouswhiteX/whitecheeks removed, graydownnowextendsaroundeyesandbill, subtlerlightwispsnotsharpadultX. Headgentleturn/graymesoptile/belly-moundcontact/twofootcontacts/yelloweyes/darkbill preserved; noadultwingpanels orformedtail. Toe-downshortbutstylized; exactday9–14 iris/pinlength andbodyratio notvalidated. Adults andlabels retainedvisually, notpixelidenticalclaim. Scientificfalse, priorv3approvalnottransferred.
 Sourcefacts/selectedstage/localimagecorrection mustbechecked separately; no automatic scientificapproval orhistoricaluserapprovaltransfer. Related owl-pet/production/runs/2026-10-16T0146+0800-cycle-5.md.
+
+
+### 01-tyto-alba-v4 appliedreview
+ActualeditedPNGviewed: outdoorforest/mossyrockground replacedwith roofedtimberbarninterior, shelteredwoodrecess overheadandbackwallvisiblebehindchick, broadwoodfloorwithmodestpelletlike/debris notwovenbasket. Threebirds allfoot/bellycontacts supported; chickwhitefluff/darkeyes/pinkeyelids/baretoes retained, adultslabels/markings andposes preservedvisually. Barnopeningfarmview notdenseforest. Recess isconceptcutaway notmeasurednestbox; apparentbarnheight/roofgeometry andexactchickfeatherage/sexdisplayratio remainunknownsciencefalse. No userapprovaltransfer fromoldv3.
+Sourcefacts/selectedstage/localimagecorrection mustbechecked separately; no automatic scientificapproval orhistoricaluserapprovaltransfer. Related owl-pet/production/runs/2026-10-16T0146+0800-cycle-6.md.

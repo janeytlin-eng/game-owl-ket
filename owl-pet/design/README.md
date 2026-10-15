@@ -285,3 +285,8 @@
 - [02雪鸮v4](concepts/02-bubo-scandiacus-v4.png)：早期灰绒羽幼鸟移除过早白色眼周X纹，第二次编辑后实际复查。
 - [03雕鸮v5](concepts/03-bubo-bubo-v5.png)：早期低伏幼鸟、腹部支撑与粉皮/短羽管修订。
 [完整六轮、原图提交与提示](../production/runs/2026-10-16T0146+0800-summary.md)。本次接续4–6三轮，非单次六轮；唯一物种102/251不变，科学通过0。
+
+
+## 2026-10-15T23:34:35.108Z · #105 Ptilopsis granti
+Actual editedimage viewed: juvenile adultlike whitepatchrows reduced to paleedges on softer graybrown formedwings; legitimateolderjuvenile wings retained. Shortsofttufts/whitecentralface/darkeyerings/mutedorangebrowniris/creambill/bothfeetbranchsupport/headturn retained. Chestbrown-gray chevrons stillpalerthan primaryphoto; tonalcalibration, exactage, toes/feathergeometry andsexratio remainunknown. Adultblackrimwhiteface/orangeredeyes/longtufts/creambill/sharedgraystreakedplumage retained. Conceptonly scientifically_verifiedfalse.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/105-ptilopsis-granti-v1.png) imagecommit 81c36c1d284ef191a99118f6fe7dca8cdb8edf10; fullPNG 2868148bytes SHA256 070910dc060418c4042c6dc89e940a2a77b95c633c1c9d48b53e349257eff8f0 independentlydownloaded/decoded/hashmatched. Unique103/251; priorapprovalsretainedscience0. [Fullprompt andstageevidence](../production/runs/2026-10-16T0430+0800-cycle-1.md).

@@ -279,3 +279,6 @@ ARCHIVED 2026-10-15T06:42:47.591Z 81-otus-scops-v1.png fullPNG3217141bytes indep
 
 ## 2026-10-15 #87法老雕鸮
 新增雄/雌/幼鸟组图，一次生成一次定向编辑；幼鸟过熟翼羽已软化缩短并实际复查。新增2外部来源和图鉴272–273页映射，科学校准未通过。
+
+## 2026-10-15T08:16:30.221Z #88 bubo-capensis
+Editedimage actually viewed: juvenile elongated adultremiges removed, wing nowshort/downsoft; shoulder darkmarkingstillbold notfullycalibrated, diffusebodybars andyelloweyes/drowsycavefloorrest visible. Belly/feet supported, adultsorangeeyes/blackbills/featheredtoes/breastplate retained. Female elevatedrock soheadheightnotsexratio, bodiesnearheight/fullnessqualitative. No scientificpass; exactfeatherstage/toes/age unknown. Targetedwingedit reducedadultborrowing visually, shouldnotuniversallyeraseformedjuvenilefeathers. BDIlandscapephoto197871-2 downloadedshowslowerhalfcorruption, onlyupperrock/adultvisible; notjuvenileproof. Research~4minincludingnextcandidate; generation/editwaitelapsed recordnotprovidertelemetry; archive~40s. Unique86/251.

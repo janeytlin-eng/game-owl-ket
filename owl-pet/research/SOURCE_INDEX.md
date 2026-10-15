@@ -1316,3 +1316,23 @@ Actual #97 immutable original (cbc4719e5b19b21e2ed067c8849ef501b4c195b0) downloa
 - Scope Brazilian owls incl. Megascops sanctaecatarinae/M. atricapilla, mixed taxa and research topics, not age-specific primary development. Authors reviewed262 works through firsthalf2011, many partial observations; morphology/age cannot be reconstructed from numberofreferences.
 - Designdecision: do NOT use review table as evidence for candidate juvenile feathering or fledging days; follow original species-specific nest papers. Older nomenclature permethods/KonigWeick2008, not current taxonomy authority. Confidence high for paper's own reviewmethods, insufficient for individual young appearance. No imageversion produced fromthissource.
 - Linkedrun [remaining cycle4](../production/runs/2026-10-16T0146+0800-cycle-4.md); taxa map Megascops sanctaecatarinae / Megascops atricapilla; topic evidencegaps/reproductionliterature.
+
+
+## 2026-10-16 cycle4 incremental screening — no image/cycle credit
+
+### ABY-OGADA-MURIITHI2017
+- Darcy Ogada (The Peregrine Fund), Paul Muriithi (Kenya Wildlife Service Training Institute), June2017, Is the Abyssinian Owl on Mt Kenya dependent on declining heath forest habitat? FinalProjectReport toAfricanBirdClub. https://www.africanbirdclub.org/sites/default/files/2016_Abyssinian_Owl.pdf ; access2026-10-16. Original fieldresearch report, actual nine-page text read; summaryp2/resultsp4/conclusionsp6 (PDF pages2/4/6).
+- Taxon Asio abyssinicus, MtKenya; no juvenile developmental sequence. Authors explicitly didnot positivelyconfirm owl identity despite82 fielddays and30 cameratrappingmonths. Roost/pellets suspected only; habitat dependence preliminary.
+- Decision: do not use pellet prey/roost vegetation as confirmed species-specific nest or juvenile evidence; do not infer absence/extinction from nondetection. Reliable evidenceof ownmethod/limitations, not positive juvenile morphology. No subspecies/youngage inference; no renderedversion.
+
+### LTS-PAGANO2021
+- LuisG.Pagano, AlejandroBodrati, NestorFariña, FacundoG.DiSallo, MarceloJ.Wioneczak, LuisS.Pradier, ErnestoR.Krauczuk, LuisO.Krause, KristinaL.Cockle (2021-12-01), Distribución e historia natural del Alilicucú Orejudo o Ribereño (Megascops sanctaecatarinae) en Argentina. ElHornero36(2):51–64. DOI10.56178/eh.v36i2.370 ; https://elhornero.avesargentinas.org.ar/home/article/view/370 ; access2026-10-16. Originalobservationpaper, actual journalHTML author/abstract/reference sections read; PDFdownload toolinternalerror, fullPDF NOTread.
+- Taxon M.sanctaecatarinae, MisionesArgentina; abstract41records/18localities; vocalizations especiallyfemale important; bodylargeness/scaledchest canhelp but notalwaysvisible; tuftlength/iriscolour notdiagnostic alone. Study reportedriparian/degraded/recoveringforest association, not universal specieshabitat restriction.
+- Decision: avoid treating longtufts/yellowvsorangeeyes as sufficient speciesverification; full developmental evidence notpresent inreadabstract. Highconfidence for authors' reportedabstract only, no day/feather sequence. Old Otus/scops synonyms require separatelyreadtaxonomyauthority beforemapping.
+
+### Unverified or restricted leads — NOT juvenile morphology evidence
+- ABY-MATON1989-LEAD: PeterMaton, AfricanLong-earedOwl(juv)(Asioabyssinicus), https://www.flickr.com/photos/34579661@N04/5424426357 ; authorcaption actuallyread says Ethiopia1989 scannedslide; uploaded2011-02-07, automatedtakendate2011-02-06 conflicts so captionpriority. Linkedphoto https://live.staticflickr.com/5212/5424426357_60a4bb2920.jpg returned403; PIXELS NOTVIEWED; appearance/pose/ageunknown, no imagepromptuse. Allrightsreserved, linkonly.
+- Bichinski2012 AtualidadesOrnitologicas168:4–6 remains searchlead, notfulltextread; Messias2015 AtualidadesOrnitologicas183:20–22 discovered inPagano bibliography, notread. Existing BRA-MOTTA-BRAGA2012 reused asgapwarning, no duplicateentry.
+- Secondary DeaneLewis OwlPages https://www.owlpages.com/owls/species.php?s=3560 actualDescription/Size/Breeding read; adultfeatheredtoes/orangeyellowiris/blackbill, slightfemalelargeness; breeding paragraph explicitlylittleknown/probablysimilar A.otus is speculation, not transferable juvenile proof. Notprimary morphologyvalidation.
+
+Related taxa map Asio abyssinicus / Megascops sanctaecatarinae; topics identification/juvenileevidencegap/researchuncertainty. [Cycle4 record](../production/runs/2026-10-16T0146+0800-cycle-4.md). No new imageversion; no sciencepass.

@@ -622,15 +622,24 @@
       "batch_id": "2026-10-15T2034+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Bubo ascalaphus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b0f548a19398cd5b086c240b7ca00481d06e4c3b",
+          "run_record": "owl-pet/production/runs/2026-10-15T2034+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2
     }
   ],
   "lease": {
     "owner": "codex",
-    "run_id": "2026-10-15T2034+0800-cycle1",
-    "heartbeat_at": "2026-10-15T12:36:43.425Z",
-    "expires_at": "2026-10-15T12:51:43.425Z"
+    "run_id": "2026-10-15T2034+0800-cycle2",
+    "heartbeat_at": "2026-10-15T12:40:57.972Z",
+    "expires_at": "2026-10-15T12:55:57.972Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

@@ -276,3 +276,6 @@ ARCHIVED 2026-10-14T15:41:54.401Z 79-otus-lettia-v1.png fullPNG2730654bytes inde
 ARCHIVED 2026-10-15T06:36:09.686Z 80-otus-sunia-v1.png fullPNG3038650bytes independentlocalGit/upload ddd67bf06b3e2ee9bf0179fd3f2e9cadc0172cf4 SHA256ffd7a5ddb5d4a5438a8af49544bc8a4004210064ad3ae5a2afdbdc14272cdd4e. Recovered execb1ba8e3d actualview2026-10-15: second edit restored adult near-equal scale after first edit overshrunk male; young down-covered shortwing/noadultspots, pale diffusemesoptilebars, yelloweyes/darkgreybill/headturn/supportedfeet retained. Not exact featherage/sexratios scientifically false.
 
 ARCHIVED 2026-10-15T06:42:47.591Z 81-otus-scops-v1.png fullPNG3217141bytes independentlocalGit/upload 49302c3894a3538abb83f0f82b99435d99d34b9b SHA256325ed60c13c425281f68acc673c3a09dbb50545d82fa5d3c501199c752450cdd. Edited image actually viewed: juvenile conspicuous white scapular patches diminished and crown replaced with finer vermiculations; real formed pointed juvenile feathers retained rather than erased, yelloweyes/darkgrey bill, supported two-foot bark grips and branchfork contact visible. Adult sexheight ratio not calibrated, precise feathers/toe geometry/age unresolved. Concept review only, scientifically_verified false. One generation one edit.
+
+## 2026-10-15 #87法老雕鸮
+新增雄/雌/幼鸟组图，一次生成一次定向编辑；幼鸟过熟翼羽已软化缩短并实际复查。新增2外部来源和图鉴272–273页映射，科学校准未通过。

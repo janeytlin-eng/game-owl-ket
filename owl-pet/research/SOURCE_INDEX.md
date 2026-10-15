@@ -1339,3 +1339,9 @@ Actual #97 immutable original (cbc4719e5b19b21e2ed067c8849ef501b4c195b0) downloa
 - Secondary DeaneLewis OwlPages https://www.owlpages.com/owls/species.php?s=3560 actualDescription/Size/Breeding read; adultfeatheredtoes/orangeyellowiris/blackbill, slightfemalelargeness; breeding paragraph explicitlylittleknown/probablysimilar A.otus is speculation, not transferable juvenile proof. Notprimary morphologyvalidation.
 
 Related taxa map Asio abyssinicus / Megascops sanctaecatarinae; topics identification/juvenileevidencegap/researchuncertainty. [Cycle4 record](../production/runs/2026-10-16T0146+0800-cycle-4.md). No new imageversion; no sciencepass.
+
+
+### SNO-ORI-2022GUIDE
+- SolaiS.LeFay,ChloeY.Hernandez,DenverW.Holt, OwlResearchInstitute, A photographic guide to aging and sexing Snowy Owls from hatching to fledging (2022fieldseason; webpageundated). https://www.owlresearchinstitute.org/snowy-owl-photo-guide ; access2026-10-16. Originalinstitutional fieldphoto/description, 2022UtqiagvikAlaska onlynest, checks3days; developmental agesestimated, notuniversalsizeformula.
+- Actualwebtextread Stages1–5: Stage3days8–14 graymesoptile replaceswhite, eyesopen9–11d, primaryquillsbeginaround14d, legs/toeswhitefeathering; headcanbeheldup. Stage5days22–28 explicitlywhiteXaroundeyes emergingjuvenileplumage, darkergraydown. No precise wing/heightmeasurementused.
+- #02v3 actuallyviewed has prominentwhiteXwhilearchivedtarget8–14d; designdecisionreplacewithsoftgraydownface, preserveheduphead/groundsupport. Sourcephoto11 linktoolInternalError, actualphotopixelsNOTviewed inthisresume; relyonexplicitstagewording notunseenphotogeometry. No adultsexratio claims. Related #02v4 and production/runs/2026-10-16T0146+0800-cycle-5.md. Confidencehigh for author'sstageaccount, exactindividualage/colour/geometrystillpending.

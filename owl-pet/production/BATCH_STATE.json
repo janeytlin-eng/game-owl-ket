@@ -998,17 +998,23 @@
           "unique_species_increment": 1,
           "commit_sha": "8671a4ec20102930107fca2921513d8ecbd08d7d",
           "run_record": "owl-pet/production/runs/2026-10-16T1747+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Margarobyas lawrencii",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "890776f909465f3a938a69acf90cd64a0f561331",
+          "run_record": "owl-pet/production/runs/2026-10-16T1747+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-16T09:47:00.688Z",
       "last_checkpoint": {
-        "at": "2026-10-16T10:41:12.362Z",
-        "stage": "RESEARCH_PARTIAL",
-        "commit_sha": "bae1dfd24984c4a67857a40800b50ba4bbb24097",
-        "run_record": "owl-pet/production/runs/2026-10-16T1747+0800-cycle-2.md",
-        "result": "PARTIAL",
-        "blocker": "Candidate original PDF404 and DOIreader inaccessible; figures/taxonmapping unverified; no image."
+        "at": "2026-10-16T11:38:59.332Z",
+        "stage": "VERIFIED",
+        "commit_sha": "890776f909465f3a938a69acf90cd64a0f561331",
+        "run_record": "owl-pet/production/runs/2026-10-16T1747+0800-cycle-2.md"
       }
     }
   ],
@@ -1016,9 +1022,9 @@
     "owner": "owl-1932",
     "run_id": "owl-1932",
     "batch_id": "2026-10-16T1747+0800",
-    "cycle": 2,
-    "heartbeat_at": "2026-10-16T11:33:00.968Z",
-    "expires_at": "2026-10-16T11:48:00.968Z"
+    "cycle": 3,
+    "heartbeat_at": "2026-10-16T11:38:59.332Z",
+    "expires_at": "2026-10-16T11:54:14.603Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1067,5 +1073,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T11:33:00.968Z"
+  "updated_at": "2026-10-16T11:38:59.332Z"
 }

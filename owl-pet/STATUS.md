@@ -553,3 +553,7 @@ New0/reused3 PSC-MERLE-2019 actualprimarypage/pixels, PSC-OWLPAGES-2020 Descript
 
 ### #118v3 2026-10-16 crown-only revision
 Actualedited/viewed youngcrown mutedgrayfinebars; formedspreadwings/groundfeet/adulttwo wingbands/labels retained. Sciencefalse; exactage/sexscale/geometry pending. Unique117/251unchanged; imagecommit feadbab66ddef117fe264b5cdfd048ff34f9c323.
+
+
+### #120 Megascops ingens verified 2026-10-16T14:40:25.310Z
+NEW unique117→118/251; actualgenerated/edited/viewed juvenilecovertcontrast reduced, formedremiges/ageunknown retained. Brownirises/shortadulttufts/olivebills/featheredtarsi/baretoegrips/stumpcavitysupport andlabels checked. Finefeathergeometry/age/sexscale unknownsciencefalse. Sources RIS-ORDONEZ-2022-LEAD correctedoriginaltextp302/Fig1visualgap; RIS-OWLPAGES-2020 and RIS-ITIS-MAPPING new2. Originalimagecommit c6658d5eb8740838127b068ebc3d98595d0fbac3;3069948bytes SHA2563f11bfc3998d28ad8876c3ac6c98e3efe565ce4df6f8010781fef1b39308f48a blobfbf72c57cae4c082d892e60bec0c650a82911466. IndependentlydownloadedimmutablePNGfullydecoded1536x1024/hashmatched. [Original](../design/concepts/120-megascops-ingens-v1.png); [prompts/stages](../production/runs/2026-10-16T2029+0800-cycle-2.md).

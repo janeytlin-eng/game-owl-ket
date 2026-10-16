@@ -229,3 +229,7 @@ Success is limited to visible changes, not scientificvalidation or universalrule
 
 ### #118v3 actual crown-only correction
 Previousadultwing edit incidentallyraisedyoungcrowncontrast. Targetonlyyoungcrown; actualview softerfinebars, adults/two bands/olderformedwings/groundfeet retained. Preservepromptdoesnotguaranteepixelidentity. Do notgeneralize crownruletootherspecies. Biologicalgeometry/age/sexscale unvalidated. See batch2029cycle1.
+
+
+### #120 evidence-led style isolation
+Actualedited juvenilecovertwhiteovals reduced withformedremiges retained. Primaryolderstage notgenericwhiteTyto/newborn; sourceestimatedage notknownage. Adultwing/headstyle leakage stillcheck, no universalfeatherruleproven. Retrospective#118v3 olderbarredspreadwing retained, notautomaticwingremoval. Scientificfalse; exactgeom remains.

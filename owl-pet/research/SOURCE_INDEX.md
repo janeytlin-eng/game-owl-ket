@@ -1499,3 +1499,13 @@ WesternAustralianMuseum undatedpage https://museum.wa.gov.au/explore/articles/co
 
 ## CIB-ARCC-LEAD — excluded mass values
 AustralianRaptorCareConservation https://www.arccinc.com.au/field-guide/christmas-boobook actualread2026-10-16: listedmale1000g/female1200g conflicts small26–29cmowlcontext and other massleads; notusedforproportions orsourcefacts. No newsourcefactcount frominvalidnumbers, retainconflict.
+
+
+## SSO-CURRIE-2004 — breedingbiology originalstudy
+DaveCurrie,RodneyFanchette,JamesMillett,CamilleHoareau,NirmalJ.Shah.2004 BirdConservationInternational14:123–137 DOI10.1017/S0959270904000140, https://doi.org/10.1017/S0959270904000140 . Access2026-10-16 actualpublisherPDFread pp123–126,128,130–132. Otusinsularis Mahé. P124 smalltufts/baretarsiandfeet; pp125–126 fluffyjuvenilechestbarring; p128 fledglingsmayleavenestbeforeabletofly, observedperchedabovecavity, laterclumsyflight. Eighttreecavitynests pp126/130, notunderground; femaleincubation/brooding pp130–131. Designdecision: use supportedbarredfluffybrancherstage orfindage-matchedphoto, notnatalguesses; notproofyoungiris/bill/precisewinggeometry. Smallobservationaldataset notuniversaldevelopmentalclock, historicthreatstatusnotpresentclaim. Nextcandidateonly,noimageversionorcyclecredit.
+
+## SSO-BAKKER-2024 — adultmbak395475
+MichaelBakkerPaiva Nov2024 Seychelles MontFleuri, primary https://www.oiseaux.net/photos/michael.bakker.paiva/petit-duc.scieur.1.html?ctx=espece . CC BY photographer attribution retained, access2026-10-16 actualcaptionadultandJPEGviewed. Visibleyelloweyes/darkfacemask/palechin/brownmottling/barredtail/barelowerlegsbranchgrip; lowlightphoto notabsolutecolororfootlengthcalibration. Nojuvenilemorphfacts/sexunlabelled. Usefuladultreferenceforthenextcandidate, no photocopyrepo orimagecredit.
+
+## SSO-CURRIE-2002-LEAD — sexualsize paper accessblocked
+D.Currie,A.C.Mateman,C.M.Lessells,R.Fanchette.2002 Ringing&Migration21:16–18 DOI10.1080/03078698.2002.9674272, https://www.tandfonline.com/doi/pdf/10.1080/03078698.2002.9674272 . Access2026-10-16 actualopenreturned403Forbidden; fulltextNOTread. Searchresults differinsexsamplecounts, doNOTusetablemeasurementsorassertRSDquantifiedfromsnippet. Unverifiedleadpendingauthorizedfulltext; no permissionbypass.

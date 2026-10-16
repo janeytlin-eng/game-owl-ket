@@ -225,3 +225,7 @@ Success is limited to visible changes, not scientificvalidation or universalrule
 Actualedited/viewed adultupperwing excessivebrightVrows reduced, truewhitescapulargroup AND secondclosedwingpaleband retained. Some repeatedgeometry remains pending. Youngdefensiveformedbarredwings/graybarredbody/yelloweyes/bill/twofeetgroundsupport retained but finecrown/browfeathermap incidentally highercontrast, NOT pixelidentical despitepreserveprompt; pendingcalibration. Adultheadtufts/tarsi/grips/labels retained. Unique117/251unchanged.
 New0/reused3 PSC-MERLE-2019 actualprimarypage/pixels, PSC-OWLPAGES-2020 Description refreshed, PSC-KOMAR-STUFKENS-2012 knownyoungpose unchanged. Research prevented erroneous removal of validsecondband beforeedit; visual outputbothbandsretained but no universalsciencepass. Index39ea21a90e3a0ae2f1631debab4414eea55e45ea readback.
 Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.
+
+
+### #118v3 actual crown-only correction
+Previousadultwing edit incidentallyraisedyoungcrowncontrast. Targetonlyyoungcrown; actualview softerfinebars, adults/two bands/olderformedwings/groundfeet retained. Preservepromptdoesnotguaranteepixelidentity. Do notgeneralize crownruletootherspecies. Biologicalgeometry/age/sexscale unvalidated. See batch2029cycle1.

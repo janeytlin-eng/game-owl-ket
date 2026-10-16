@@ -153,3 +153,7 @@ Recovered #109v2 actually viewed: adult proximal toe featherlets visibly increas
 
 ### #111 2026-10-16T04:45:59.939Z
 Actualeditedgrayadultfaces/reducedyoungwhitepatches viewed; formed fledgedwings/olivebranchsupport retained. Conceptonly/sciencefalse, exactage/sexratio/feathergeometryunknown. Unique109/251; imagecommit9afdb03ad46c2fef62eedc2213656f59b107b4a3. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/111-otus-cyprius-v1.png). Sources CYSO-FLINT-2015 reused, CYSO-SOUNDAPPROACH-2013PHOTOS/CYSO-RENOULT-2023 new; sourceindex2ac35e0670946c99e9d3b14a4016f3c4cd752ee5. Wholeplateactualcheck mandatory: styleinput leakedPtilopsiswhiteface andyoungwhitepatchrows; editvisuallyreduced notscientificvalidation. Fullprompts cycle4.
+
+
+### #112 occluded evidence rule / 2026-10-16T05:40:39.990Z
+A nestphoto may support broodedwhitefluff without showing eye/bill/wing/toes. Applied conservative partial-view prompt; actualimage retains occlusion andsupport. Do not infer anatomy from adjacent species or identify pelletproducer from an explicitly inconclusive report. Rule applied/visuallychecked for #112, not developmental validation. Prior#111 olderformedwing remains legitimate, no universal wingremoval.

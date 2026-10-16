@@ -1424,3 +1424,5 @@ Daniel Heuclin/Biosphoto/SuperStock, undated image4413-19311249, https://www.sup
 
 ### NWFO-OWLPAGES-2020
 Deane Lewis2020-10-25, https://www.owlpages.com/owls/species.php?s=1160 ; specialistsecondarycompilation, Description/Size/Habits/Breeding/Habitat actualread2026-10-16. Adultlightmorph graybrown/fineshafts/blackrimwhiteface/amber-toorangeeyes/hornyellowbill; featheredtarsi reachbasalhalftoes (distinguishedfromfullybaretoes), qualitativefemalelarger notheightpercent; woodland/savanna/naturalholes oroldsticknests. Used roostbranchnotinventednest, earlier27–32dfigures notassigned tophoto. Historical Otus leucotis mapped to northernunit only, do notborrow southern P.granti hospitalyoung. Exact251versionedrosterstillmissing, scopeunchanged.
+
+NWFO-OWLPAGES-2020/NWFO-HEUCLIN-TOGO reused 2026-10-16T01:37:03.882Z: freshdescriptionreadandpreviewviewed; repeatedimagegentoe editnotvisuallyeffective, keepbasalhalftoefeathering/juvenilewingedgespending, notsciencepassed. [109run](../production/runs/2026-10-16T0857+0800-cycle-1.md). New0/reused2/corrected0.

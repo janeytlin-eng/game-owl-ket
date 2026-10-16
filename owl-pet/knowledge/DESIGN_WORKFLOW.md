@@ -157,3 +157,7 @@ Actualeditedgrayadultfaces/reducedyoungwhitepatches viewed; formed fledgedwings/
 
 ### #112 occluded evidence rule / 2026-10-16T05:40:39.990Z
 A nestphoto may support broodedwhitefluff without showing eye/bill/wing/toes. Applied conservative partial-view prompt; actualimage retains occlusion andsupport. Do not infer anatomy from adjacent species or identify pelletproducer from an explicitly inconclusive report. Rule applied/visuallychecked for #112, not developmental validation. Prior#111 olderformedwing remains legitimate, no universal wingremoval.
+
+
+### #108v2 adult pattern iteration
+A fineherringbone textualdescription mustnotbecome identical tinychevrons acrossbelly. EasternMantadia ownadultphoto supportedexplicitrufousbrownmorph withsparseirregularshafts; adultventral-only edit achievedvisually, juvenile andadultwing retained. Do notuseoneindividualtoerasepatternsinallmorphs orcreate sex-dependentcolors. Retrospective#112 check: Asio crossbars have separate speciesevidence, notautomaticallyremoved. Biologicalprecisionstillunknown.

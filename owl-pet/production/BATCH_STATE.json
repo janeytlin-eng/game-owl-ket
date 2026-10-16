@@ -934,16 +934,23 @@
           "unique_species_increment": 1,
           "commit_sha": "5d415c8b55394bbeeceb188c527363670745bb8a",
           "run_record": "owl-pet/production/runs/2026-10-16T1345+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Otus insularis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "501cc73e2f331fce1cdb1a2ed61d275cf278e3e4",
+          "run_record": "owl-pet/production/runs/2026-10-16T1345+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-16T05:45:03.623Z",
       "last_checkpoint": {
-        "at": "2026-10-16T05:51:18.886Z",
-        "stage": "PARTIAL_RESEARCH",
-        "commit_sha": "82aafe335a69a6c00a976bb2c0b6bfdd16de0062",
-        "run_record": "owl-pet/production/runs/2026-10-16T1345+0800-cycle-2.md",
-        "reason": "Actual primarysex-sizefulltext403; nofullread/noyounggeometryvalidation/noimageforthiscycle. NotGitHub/imagegenoutage/notconfirmedplatformtimeout."
+        "at": "2026-10-16T06:43:01.805Z",
+        "stage": "VERIFIED",
+        "commit_sha": "501cc73e2f331fce1cdb1a2ed61d275cf278e3e4",
+        "run_record": "owl-pet/production/runs/2026-10-16T1345+0800-cycle-2.md"
       }
     }
   ],
@@ -951,9 +958,9 @@
     "owner": "owl-1435",
     "run_id": "owl-1435",
     "batch_id": "2026-10-16T1345+0800",
-    "cycle": 2,
-    "heartbeat_at": "2026-10-16T06:35:46.893Z",
-    "expires_at": "2026-10-16T06:50:46.893Z"
+    "cycle": 3,
+    "heartbeat_at": "2026-10-16T06:43:01.805Z",
+    "expires_at": "2026-10-16T06:58:21.395Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1002,5 +1009,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T05:51:18.886Z"
+  "updated_at": "2026-10-16T06:43:01.805Z"
 }

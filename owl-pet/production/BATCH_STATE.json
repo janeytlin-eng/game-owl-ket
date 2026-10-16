@@ -1078,15 +1078,23 @@
           "unique_species_increment": 0,
           "commit_sha": "b5f57023750f719d375a18c883f798d33b5ec4fc",
           "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox natalis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f8526a6c934164862ce8ada0dc9b62b185dbb43e",
+          "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-16T12:30:41.580Z",
       "last_checkpoint": {
-        "at": "2026-10-16T14:43:41.776Z",
+        "at": "2026-10-16T14:46:32.575Z",
         "stage": "VERIFIED",
-        "commit_sha": "b5f57023750f719d375a18c883f798d33b5ec4fc",
-        "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-3.md"
+        "commit_sha": "f8526a6c934164862ce8ada0dc9b62b185dbb43e",
+        "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-4.md"
       }
     }
   ],
@@ -1143,5 +1151,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T14:44:11.563Z"
+  "updated_at": "2026-10-16T14:46:32.575Z"
 }

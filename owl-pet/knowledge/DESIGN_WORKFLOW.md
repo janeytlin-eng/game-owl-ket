@@ -195,3 +195,9 @@ Prompt intentions not assumed successful. Retain age-supported formed wings; do 
 ### 118-megascops-cooperi-v1 actual iteration
 Actually generated/viewed and edited adult chest from rusty repeatedarrowheads toward muted graybrown/cream with thinner shafts; repeatedgeometry remains pending. Groundsupported juvenile defensivewingfan retains photographed formedremiges, roundgraybarredhead/body, yelloweyes/greenishbills; feetground, adultbranchgrips/featheredtarsi andlabels preserved. Not a neonatal or flightability reconstruction. Unique115→116/251.
 Style transfer can accidentally import previous species plumage. Separate render style from anatomical/color fields and inspect actual pixels, not prompt success. This rule found and applied here; effectiveness limited to observed changes, not universally proven.
+
+
+### 116-margarobyas-lawrencii-v2 actual iteration
+First targetededit insufficient; second actualview shows crowncap mostly muted sienna/brown and visibly fewer brightivoryteardrops, fainttipsremain. Bothadultspottedupperparts/darkeyes/baretarsi-toes/grips, youngformedwings/face/warmbreast/palebelly/cavitysillsupport andlabels retained. No exactfeathermap or agepass; unique116/251unchanged.
+New0/reused2 CBLO-BOUGLOUAN-CARD actualDescription/Reproduction refreshed, CBLO-MIK2013-252 priorprinted252–253/PDF254–255 evidence reused. Zero pale spots is not a biological requirement; lowcontrast sparse tips are conservative design inference. Sourceindex3246d3cbd11e436fb8e7d65089ac9fb4c814034a readback.
+Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.

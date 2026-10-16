@@ -165,3 +165,8 @@ A fineherringbone textualdescription mustnotbecome identical tinychevrons across
 
 ### #113 actual iteration
 Captionjuvenile canmeanlargelyfeatheredrufousbarredstage. DirectMontgomeryphoto supportsformedwing-tail; preservewhileeditingwhitecovertpatchleak andoverwhiteeyebrows. ActualeditedPNG viewed: paleovalrows reducedbutfinegeometryunvalidated. #108olderyoungretainedlikewise; #112hiddenbroodedfluff hasdifferentstageevidence, no universalpattern/wingrule. Misprintedmassvaluesmustnotdrivebodyratio.
+
+
+### 114-otus-insularis-v1 evidence-led iteration
+Oneactualedit madevisible tarsi smoothbarepinkishgray, kept toegrips/leglength/formedyoungwing-tail; billslessblue, youngwhitepatchesreducedbutregularpaleedgesstillpending. ActualPNGviewed, notassumedpromptsuccess.
+Discovery/prompt application/actual visual result distinguished; not biological validation. Existing#113 laterformedwings retained, no universal wingremoval.

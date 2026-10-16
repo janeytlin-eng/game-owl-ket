@@ -1559,3 +1559,16 @@ Nicole Bouglouan, Bare-legged Owl card, date not stated, specialist secondary sy
 
 
 2026-10-16 cycle5 recovery application: CBLO-BOUGLOUAN-CARD actual Description/Reproduction refreshed; CBLO-MIK2013-252/Sherony2006/Sharp2016/AOU2013A11 reused, new0 IDs. [#116v1](../design/concepts/116-margarobyas-lawrencii-v1.png), [actual recovery/edit/check](../production/runs/2026-10-16T1345+0800-cycle-5.md). Reduced juvenile wing spotting/warmed chest visible; pale crownflecks, age and sexed proportions still pending. Not additional independent biological evidence.
+
+
+### SLSO-MANAHAMPI-2012
+ReydiManahampi, Immature Sulawesi Scops Owl at MountMasarangTomohonNorthSulawesi, ownphoto27May2012; https://commons.wikimedia.org/wiki/File:Otus_manadensis_at_Masarang.JPG ; pageoriginalpixels actually read/viewed2026-10-16, CC BY-SA3. Broad later immature with small tufts/barred crown and nape, dark mottled/barred body, formedwingtail/perchgrip. Dayage/sexunknown, photoexposure notcalibratediris. Supports117olderstage notneonate. [Cycle6](../production/runs/2026-10-16T1345+0800-cycle-6.md).
+
+### SLSO-JORDAN-2007
+RaphaelJordan adultSulawesiScopsOwl ownphotoDec2007 KualaPalaesNorthSulawesi, https://www.oiseaux.net/photos/raphael.jordan/petit-duc.de.manado.1.html?ctx=espece ; actualcaption/pixels read2026-10-16. Yelloweyes/blackishbill/graybrowncrypticupperparts/whitebellysparsebarsandshafts, featheredtarsi, perched; flashyes/sexunknown, notRSD. Referenceonly noimagecopyrepo. Supports117adult diagnosticchecks.
+
+### SLSO-MIK2013-194
+HeimoMikkola2013 uploadedguide printed194/PDF196; textactuallyread earlier2026-10-16 preparation and reused now (no fresh bookphoto claim). Adultirregularsepia/buffuppermarks, richerbreast/whitebarredshaftbelly, yelloweyes/blackishbill/featheredtarsitotoes; juvenilefinecrown/nape bars otherwiseadultlike. No sexedsize data; NorthSulawesiform, not otherhistoricalmanadensis islands. Age/measurementgeometry unknown; olderphoto establishes stage. ExistingbookID/URLapplies. #117cycle6.
+
+### SLSO-SANGSTER-2013
+Sangster,King,Verbelen,Trainor2013 PLOS ONE8:e53712 https://doi.org/10.1371/journal.pone.0053712 ; originalpublisher abstract/intro actuallyread2026-10-16. Researchmuseum/fieldvocal comparisons differentiate Lombokjolandae from Sulawesimanadensis and Javalempiji, supports not merging/copying those taxa. NOT juveniledevelopment/sexratio evidence; no anatomytransfer. ANU2022 breedingPDF failedread, unverifiedleadnotbasis. #117cycle6.

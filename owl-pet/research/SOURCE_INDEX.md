@@ -1433,3 +1433,18 @@ Knut Eisermann & Claudia Avendaño, undated primaryfield-researcher account, htt
 
 ### BSO-CAYAYA-FIELD — morphology variation correction
 Eisermann/Avendaño CAYAYA BIRDING, undated, https://www.cayaya-birding.com/species/Bearded-Screech-Owl.htm ; actualbodyread2026-10-16, first-handfieldresearch since2009. Longwhiskers, pine-oak highlands, rufous/gray/brownmorphs inbothsexes; explicitwarning very-small-ear-tuftbookgeneralization notuniversal. Historical Scopsbarbarus/Otusbarbarus sameunit. No preciseRSDmeasurement orjuvenileage; noforcedsexcolour. Prompt moderateearprojections andnarrowbristlesnotliteralbeard. Cited2017chapterpages447–515 arebibliographyONLY notreadasfullchapter. [#110](../knowledge/species/110-megascops-barbarus.md), [cycle2](../production/runs/2026-10-16T0857+0800-cycle-2.md).
+
+
+### KSO-ORDONEZ-FREILE-2019
+Leonardo Ordóñez-Delgado & Juan Freile (2019-11-25), First records of Koepcke’s Screech-Owl Megascops koepckeae in Ecuador. Revista Ecuatoriana de Ornitología5:25–29. Primary field report, https://revistas.usfq.edu.ec/index.php/reo/article/download/1193/1700/5440 ; accessed2026-10-16. Actually read pp25–28, including field observations/identification. Page27 nestling found beside Phoenix canariensis, rescued and released2014, photos held by Museo de Vertebrados UTPL; this is NOT proof of nesting inside that palm. No juvenile morphology illustration or precise age in the read paper. Page28 adults lack white nuchal collar, pronounced ventral herringbone on pale background; morphology alone difficult versus M.roboratus. Supports adult design and evidence-gap decision, NOT invented neonatal down. Historical M.choliba subspecies assignment reported. No image generated; candidate remains research-only.
+Related [research-only cycle3](../production/runs/2026-10-16T0857+0800-cycle-3.md).
+
+
+### CYSO-FLINT-2015
+Peter Flint et al.(2015-11-11), Reprising the taxonomy of Cyprus Scops Owl Otus (scops) cyprius, a neglected island endemic. Zootaxa4040(3):301–316, DOI10.11646/zootaxa.4040.3.3, https://kuskor.org/uploads/home/file/Flint2015-Reprising_the_taxonomy_of_Cyprus_Scops_Owl_Otus_(scops)_cyprius1.pdf ; accessed2026-10-16. Primary comparative taxonomy; actually read abstract/methods and located plumage pp309 and genetic sample tablep312. Darker gray/heavier upper streaking and absence of rufous morph separate Cyprus unit from broad scops; cannot copy reddish O.scops plate. Juvenile rescued14July2013 and nestbox chick sampled1June2013 occur in sample metadata only, not developmental/photo descriptions. No juvenile design evidence obtained; no invented age/plumage. Old O.scops cyprius mapped to O.cyprius candidate, not counted as completed.
+Related [research-only cycle3](../production/runs/2026-10-16T0857+0800-cycle-3.md).
+
+
+### BCSO-MENQ-2018
+Willian Menq (Feb2018), Corujinha-sapo Megascops atricapilla, Aves de Rapina Brasil, https://www.avesderapinabrasil.com/megascops_atricapilla.htm ; accessed2026-10-16. Specialist synthesis with credited field photos; actual description/reproduction/habitat and caption text read. Adult morph/iris variation, feathered tarsi to toe bases, Atlantic forest roost/cavity nesting; female heavier is qualitative, no justified height ratio. Some taxonomic statements dated/in-preparation, do not use as modern roster authority. No juvenile plumage text verified. WikiAves juvenile photo2019052 was search lead ONLY; web internalerror and direct HTTP403, pixels not accessed. Not a verified juvenile source. Candidate rejected for production pending evidence.
+Related [research-only cycle3](../production/runs/2026-10-16T0857+0800-cycle-3.md).

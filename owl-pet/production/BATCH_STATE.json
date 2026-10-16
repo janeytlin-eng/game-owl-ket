@@ -990,16 +990,23 @@
       "batch_id": "2026-10-16T1747+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Megascops cooperi",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "8671a4ec20102930107fca2921513d8ecbd08d7d",
+          "run_record": "owl-pet/production/runs/2026-10-16T1747+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-10-16T09:47:00.688Z",
       "last_checkpoint": {
-        "at": "2026-10-16T09:48:02.568Z",
-        "stage": "RESEARCH_READY",
-        "commit_sha": "ad5a7f984e79e93ec2323612cf3263744a125acb",
-        "run_record": "owl-pet/production/runs/2026-10-16T1747+0800-cycle-1.md",
-        "result": "PARTIAL",
-        "blocker": "Adult reference image fetch returned CAPTCHA HTML; no pixels viewed, no generation."
+        "at": "2026-10-16T10:40:14.641Z",
+        "stage": "VERIFIED",
+        "commit_sha": "8671a4ec20102930107fca2921513d8ecbd08d7d",
+        "run_record": "owl-pet/production/runs/2026-10-16T1747+0800-cycle-1.md"
       }
     }
   ],
@@ -1007,9 +1014,9 @@
     "owner": "owl-1834",
     "run_id": "owl-1834",
     "batch_id": "2026-10-16T1747+0800",
-    "cycle": 1,
-    "heartbeat_at": "2026-10-16T10:35:11.254Z",
-    "expires_at": "2026-10-16T10:50:11.254Z"
+    "cycle": 2,
+    "heartbeat_at": "2026-10-16T10:40:14.641Z",
+    "expires_at": "2026-10-16T10:55:30.049Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1058,5 +1065,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T10:35:11.254Z"
+  "updated_at": "2026-10-16T10:40:14.641Z"
 }

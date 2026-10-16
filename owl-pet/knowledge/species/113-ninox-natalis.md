@@ -5,3 +5,8 @@ Editedandactuallyviewed: heavywhiteeyebrowV reduced, olderjuvenilelargewhitewing
 [Original](../../design/concepts/113-ninox-natalis-v1.png)
 [Sources](../../research/SOURCE_INDEX.md)
 [Fullprompts/review](../../production/runs/2026-10-16T1345+0800-cycle-1.md)
+
+
+### 113-ninox-natalis-v2 2026-10-16T14:46:22.885Z
+Actualedited/viewed youngcrown nowmoreuniformrussetbrown withfewerpalecream flecks, smallremainingtips retained notabsolutezero. Shortwhitelores/yelloweyes/graybill/roundtuftlesshead/headtilt/barredbody/formedwingtail/yellowfootgrips andadultwingwhitespots/alllabels retainedvisually. Exactheadpattern/colorunderillumination/age/sexscale remainunknownsciencefalse.
+Sources CIB-MONTGOMERY-2006 primarycaption/pixels; CIB-WAM-FACTS section317–356 refreshed;new0/reused2. Original design/concepts/113-ninox-natalis-v2.png imagecommit f8526a6c934164862ce8ada0dc9b62b185dbb43e;2618503 bytes SHA256 b1dea33fc084634c4042d92340af6e6ef1430a18d49ae45cdec05323eb22dcbb Gitblob d92a63536aa13141282c4705b33255550863efe4. IndependentlydownloadedimmutablePNGfullPILdecoded1536x1024/hashmatched. Unique118/251unchanged. [Original](../design/concepts/113-ninox-natalis-v2.png); [Completeprompts/research/stages](../production/runs/2026-10-16T2029+0800-cycle-4.md).

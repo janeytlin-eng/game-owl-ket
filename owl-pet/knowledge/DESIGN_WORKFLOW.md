@@ -185,3 +185,8 @@ Discovery/prompt application/actual visual result distinguished; not biological 
 ### 116-margarobyas-lawrencii-v1 actual iteration
 Recovered older image and new built-in targeted edit actually viewed: young upperbreast warmed/wingcoverts predominantly sienna with fewer bright spots than adults; small crown pale flecks persist despite absolute removal prompt, priority scientific-calibration item. Adults bare tarsi/bare gripping toes, dark eyes, tuftless heads, wood cavity sill support and labels retained. Not neonatal reconstruction. Unique113→114/251.
 Prompt intentions not assumed successful. Retain age-supported formed wings; do not globally replace juvenile wings with buds.
+
+
+### 117-otus-manadensis-v1 actual iteration
+New original and targeted edit actually viewed: juvenile crown/nape fine dark transverse bars visibly added, adult lowerbelly whiteground with less regular longshafts; upperbreast/wing stylized geometry remains pending. Yelloweyes/blackhornbills/featheredtarsi/baretoes/grips, olderjuvenile formedwing/barredtail preserved. Unique114→115/251.
+Prompt intentions not assumed successful. Retain age-supported formed wings; do not globally replace juvenile wings with buds.

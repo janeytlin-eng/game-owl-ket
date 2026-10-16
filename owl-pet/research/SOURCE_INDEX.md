@@ -1451,3 +1451,5 @@ Related [research-only cycle3](../production/runs/2026-10-16T0857+0800-cycle-3.m
 
 
 NWFO-OWLPAGES-2020 reuse 2026-10-16T02:30:16.474Z: actual Description/Size/Habits/Breeding/Habitat freshly read; toe-base covering explicitly extends to basalhalf of toes, distaltoes duskybrown. #109v1 actually viewed and toe bases insufficiently covered; cycle3 targeted single anatomy edit requested. Discovery vs application vs actualvisualsuccess remain distinct. Source secondary compilation, not measured feathercoverage anatomy; no new exactage or sexualheight ratio. Uploaded Mikkola PDFpage340 actualread again403 Forbidden this invocation; no bypass/no new bookfacts. New0/reused1. [Cycle3](../production/runs/2026-10-16T0857+0800-cycle-3.md).
+
+NWFO-OWLPAGES-2020 reuse 2026-10-16T04:36:45.361Z: fresh read supports basal toe feather boundary. Recovered #109v2 actual second edit visually shows more fine projecting featherlets over toe bases. Exact coverage remains unmeasured; do not promote to sciencepassed. Failed first edit retained in cycle3 history; younger wingedges still pending. New0/reused1/corrected0. [v2](../design/concepts/109-ptilopsis-leucotis-v2.png).

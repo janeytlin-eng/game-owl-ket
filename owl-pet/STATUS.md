@@ -465,3 +465,7 @@ New primary field-photo sources BSO-EISERMANN-FIELD and BSO-CAYAYA-FIELD; long b
 
 ### #109v2 2026-10-16T04:37:11.458Z
 Recovered #109v2 actually viewed: adult proximal toe featherlets visibly increased; exact basalhalf geometry still pending. Older juvenile formed wings retained; pale scalloped wingedges unresolved. Concept only/scientifically_verified=false; no userapproval transfer. Unique108/251 unchanged. Imagecommit b5ba7bfb3a45dce9acf4c9410a99ba5d83924938. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/109-ptilopsis-leucotis-v2.png). [Full prompts/review](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T0857+0800-cycle-3.md). Rule: inspect feather vanes rather than assume a successful prompt, preserve legitimate older wings. Reused NWFO-OWLPAGES-2020; new0.
+
+
+### #111 2026-10-16T04:45:53.678Z
+Actualeditedgrayadultfaces/reducedyoungwhitepatches viewed; formed fledgedwings/olivebranchsupport retained. Conceptonly/sciencefalse, exactage/sexratio/feathergeometryunknown. Unique109/251; imagecommit9afdb03ad46c2fef62eedc2213656f59b107b4a3. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/111-otus-cyprius-v1.png). Sources CYSO-FLINT-2015 reused, CYSO-SOUNDAPPROACH-2013PHOTOS/CYSO-RENOULT-2023 new; sourceindex2ac35e0670946c99e9d3b14a4016f3c4cd752ee5. Wholeplateactualcheck mandatory: styleinput leakedPtilopsiswhiteface andyoungwhitepatchrows; editvisuallyreduced notscientificvalidation. Fullprompts cycle4.

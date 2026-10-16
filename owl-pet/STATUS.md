@@ -549,3 +549,7 @@ New0/reused2 BSO-EISERMANN-FIELD originalpage/ownfamilyphotopixels reread/viewed
 Actualedited/viewed adultupperwing excessivebrightVrows reduced, truewhitescapulargroup AND secondclosedwingpaleband retained. Some repeatedgeometry remains pending. Youngdefensiveformedbarredwings/graybarredbody/yelloweyes/bill/twofeetgroundsupport retained but finecrown/browfeathermap incidentally highercontrast, NOT pixelidentical despitepreserveprompt; pendingcalibration. Adultheadtufts/tarsi/grips/labels retained. Unique117/251unchanged. Sciencefalse; age/sexscale/feathergeometry pending. Original 9b55f0463f3260366b78bbc982e9bef9c2522d3a size2977729 SHA256 de773ec742e1c92d990c8c590be633660819c0225d5377501463376be79f1932 Gitblob 1d825783827687659548f8d2fc5289ca6c892d75; independently downloaded full PNG decoded and size/hash matched.
 New0/reused3 PSC-MERLE-2019 actualprimarypage/pixels, PSC-OWLPAGES-2020 Description refreshed, PSC-KOMAR-STUFKENS-2012 knownyoungpose unchanged. Research prevented erroneous removal of validsecondband beforeedit; visual outputbothbandsretained but no universalsciencepass. Index39ea21a90e3a0ae2f1631debab4414eea55e45ea readback.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/118-megascops-cooperi-v2.png)
+
+
+### #118v3 2026-10-16 crown-only revision
+Actualedited/viewed youngcrown mutedgrayfinebars; formedspreadwings/groundfeet/adulttwo wingbands/labels retained. Sciencefalse; exactage/sexscale/geometry pending. Unique117/251unchanged; imagecommit feadbab66ddef117fe264b5cdfd048ff34f9c323.

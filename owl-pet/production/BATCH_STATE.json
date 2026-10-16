@@ -814,15 +814,23 @@
           "unique_species_increment": 1,
           "commit_sha": "2293acea7017b3c15f53d23899a9891dbcf2d86f",
           "run_record": "owl-pet/production/runs/2026-10-16T0430+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Strix fulvescens",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "e5f3e7527dd3c116a2a88e94ff4e678dfe27010b",
+          "run_record": "owl-pet/production/runs/2026-10-16T0430+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-15T20:30:35.078Z",
       "last_checkpoint": {
-        "at": "2026-10-16T00:37:00.893Z",
+        "at": "2026-10-16T00:41:26.322Z",
         "stage": "VERIFIED",
-        "commit_sha": "a29f324e52b9ebec5c1526bafa63b4d9290130be",
-        "run_record": "owl-pet/production/runs/2026-10-16T0430+0800-cycle-2.md"
+        "commit_sha": "8da046e096edbeff0c65bf499c939d81cf3f8823",
+        "run_record": "owl-pet/production/runs/2026-10-16T0430+0800-cycle-3.md"
       }
     }
   ],
@@ -830,9 +838,9 @@
     "owner": "owl-0827",
     "run_id": "owl-0827",
     "batch_id": "2026-10-16T0430+0800",
-    "cycle": 3,
-    "heartbeat_at": "2026-10-16T00:37:00.893Z",
-    "expires_at": "2026-10-16T00:52:00.893Z"
+    "cycle": 4,
+    "heartbeat_at": "2026-10-16T00:41:26.322Z",
+    "expires_at": "2026-10-16T00:56:26.322Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -881,5 +889,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T00:37:00.893Z"
+  "updated_at": "2026-10-16T00:41:26.322Z"
 }

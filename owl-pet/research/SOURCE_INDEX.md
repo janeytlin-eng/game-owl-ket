@@ -1455,3 +1455,12 @@ NWFO-OWLPAGES-2020 reuse 2026-10-16T02:30:16.474Z: actual Description/Size/Habit
 NWFO-OWLPAGES-2020 reuse 2026-10-16T04:36:45.361Z: fresh read supports basal toe feather boundary. Recovered #109v2 actual second edit visually shows more fine projecting featherlets over toe bases. Exact coverage remains unmeasured; do not promote to sciencepassed. Failed first edit retained in cycle3 history; younger wingedges still pending. New0/reused1/corrected0. [v2](../design/concepts/109-ptilopsis-leucotis-v2.png).
 
 NWFO-HEUCLIN-TOGO reuse 2026-10-16T04:38:25.150Z: actualpublicmetadata reread and existing watermarked preview viewed again for specific coverts vs remiges comparison. Olderjuvenile coverts finely stippled graybrown without adultlike cream scallopedrows; alreadyformed barredremiges valid. #109v3 cycle4 local covert edit requested, outcome pending; no blanketshortening. New0/reused1. [Cycle4](../production/runs/2026-10-16T0857+0800-cycle-4.md).
+
+
+### CYSO-SOUNDAPPROACH-2013PHOTOS
+The Sound Approach/Magnus Robb account, René Pop photographs26–27June2013, Lefkara,Larnaca,Cyprus; webpublication undated/copyright2019. https://books.soundapproach.co.uk/species/cyprus-scops-owl/ accessed2026-10-16. Primary field photos and matched soundrecordings, actualfullrelevanttext/captions read and twooriginalphotos downloaded/viewed. Fledged juveniles in olivegrove, residualgraybrownfluff, shortweak tufts/gray facialdisc/darkbill, formed barredwings and gripbranches; balancingoutstretchedwings directly documented. No exactday, sex, developmentalseries or quantified RSD. Eyeclosed in firstphoto cannotinfer iris; no natalguess. Earlynest isancientolive cavity, postfledge roostnotnest. New useful source fills juvenile gap of CYSO-FLINT-2015; same species oldO.scops cyprius. No thirdpartyimages copiedtorepo. Related pending#111/cycle4.
+
+### CYSO-RENOULT-2023
+Julien Renoult27Feb2023, CyprusScopsOwl, https://commons.wikimedia.org/wiki/File:Otus_cyprius.jpg original iNaturalist260105805/observation150805059; CC BY4.0, accessed2026-10-16. Actualmetadata read; originaldownloaded for visualinspection. No sex/age confirmed; Commons exposureedits mean notcolorstandard. Supports visible adultphenotype only, not sexualdimorphism.
+
+CYSO-FLINT-2015 reused2026-10-16 freshactualp309 Plumage/p310Table7 read: darkgray/heavy shafts withcoarsevermiculations, whitespotcontrast, no rufousmorph. Specimenwing male153.3/female153.5mm nearlyoverlap, live n3each159/166mm; notheight ratio andnotuniversalgiantfemale. New2/reused1 thisselection; fullreview pending.

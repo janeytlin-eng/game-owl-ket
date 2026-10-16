@@ -50,3 +50,8 @@
 参考：https://www.barnowltrust.org.uk/barn-owl-facts/owlet-identification-age/
 
 雪鸮参考ORI 8–14日阶段，雕鸮参考Penteriani等2005约10日阶段，但本图不是精确日龄复原。各物种发育速度不同，不设统一日龄或幼成高度比。眼周、面盘、脚部和成年尺寸仍需校对；所有图标注非测量比例，尚未科学验收或用户审美确认。旧版保留。
+
+
+## 04-athene-noctua-v3 2026-10-16T00:51:05.134Z
+Actual edited PNG viewed: white natalfluff/closedeyes/noadultmask/noformedwing, lowcurledbody belly andhead supported, pinktoes rest wooddebris. Treecavity cutaway withroof/back/floor replaces exposedgrasscup. Adults identity retained; male stillslightlytallerbydisplay, notbiologicalratio. Exactbill/featherage/proportion unvalidatedscientificfalse. Species-specific earlywhite stage fromdirectUKmonitoringphoto applied/visuallychecked; notallLittleOwlyoungwhite and no exactdaygeometryclaim.
+New3 LTO-UKLOP-AGING/LTO-UKLOP-ID/LTO-BTO-FACTS actualread/indexed. Additionalnew1 LEO-SEIDENSTICKER-2006 supports retrospective#06 earlygraygreeneye, NO automaticrevision orcyclecredit. Unique106/251 unchanged, priorversions/approval preserved andnottransferred. Imagecommit 4c3fe840f213b2ae7e23b2bb3320f5949e8fad23; full PNG2698533bytes SHA256 a6b70c2493d23445498c521bced9c3d84b6c06ecbeeeda175e464a38b338aa8d. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/04-athene-noctua-v3.png). [Fullprompt/stages](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T0430+0800-cycle-5.md).

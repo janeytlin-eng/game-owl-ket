@@ -1624,3 +1624,7 @@ CYSO-SOUNDAPPROACH-2013PHOTOS primaryactualpage/captions and POP6058pixels re-vi
 
 ### Batch2029 cycle4 #113v2 2026-10-16T14:44:11.273Z
 CIB-MONTGOMERY-2006 primaryownpage/caption/actualJPEG refreshed; CIB-WAM-FACTS relevant317–356actuallyread. New0/reused2. Designselectedlaterjuvenilerussetcrownwithfewerpalespots vsdecorativev1head; NOT alljuvenilesunspotted. Preservelegitimateformedwingtail andadultwhitecovertspots, exactage/sexscale unknown. [Prompt/actualstage](../production/runs/2026-10-16T2029+0800-cycle-4.md).
+
+
+### Batch2029 cycle5 #114v2 2026-10-16T14:47:01.525Z
+SSO-BOUGLOUAN-CARD actualDescription/Reproduction andSSO-BAKKER-2024 primaryadultcaption/JPEG re-viewed; SSO-MIK2013-138 priorbooktext reused. New0/reused3. Darkmottledadultcrown vsdecorativebrightwhitev1 rows, lowercontrastdesign, notabsolutezeropale. Barelegcoloryellowsecondary vsgray/pink/lowlight uncertainty remains, noautomaticrepaint. [Fullprompt/stage](../production/runs/2026-10-16T2029+0800-cycle-5.md).

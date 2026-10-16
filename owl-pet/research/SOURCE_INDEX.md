@@ -1604,3 +1604,6 @@ CHSO-REYES-ASTUDILLO-2017-PARTIAL correction/application: original author's publ
 
 
 2026-10-16 cycle5 #110v2 application BSO-EISERMANN-FIELD originalpage/familyphoto actuallyre-read/re-viewed, BSO-CAYAYA-FIELD bodyrefreshed; new0/reused2. Fine diffuseyoungcovertpattern vsdecorativebrightrows; preserveformedremiges, no exactage/sexratio. [Run](../production/runs/2026-10-16T1747+0800-cycle-5.md).
+
+
+2026-10-16 cycle6 #118v2 application: PSC-MERLE-2019 originalpage/photo reread/viewed, PSC-OWLPAGES-2020 Description freshlyread, PSC-KOMAR-STUFKENS-2012 reusedunchangedyoungpose; new0/reused3. IMPORTANT actualsource says both scapularwhiteband and secondcovertpaleband. Do not universalize removeallbrightwingmarks: retaintruebands, lower excessregularVrows. Noage/sexscale derived, elevation/taxonomicboundarylimitations retained. [Run](../production/runs/2026-10-16T1747+0800-cycle-6.md). Rule discovered andappliedprompt; outputsuccessawaitactualreview.

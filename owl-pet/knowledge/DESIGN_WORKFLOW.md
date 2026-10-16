@@ -201,3 +201,9 @@ Style transfer can accidentally import previous species plumage. Separate render
 First targetededit insufficient; second actualview shows crowncap mostly muted sienna/brown and visibly fewer brightivoryteardrops, fainttipsremain. Bothadultspottedupperparts/darkeyes/baretarsi-toes/grips, youngformedwings/face/warmbreast/palebelly/cavitysillsupport andlabels retained. No exactfeathermap or agepass; unique116/251unchanged.
 New0/reused2 CBLO-BOUGLOUAN-CARD actualDescription/Reproduction refreshed, CBLO-MIK2013-252 priorprinted252–253/PDF254–255 evidence reused. Zero pale spots is not a biological requirement; lowcontrast sparse tips are conservative design inference. Sourceindex3246d3cbd11e436fb8e7d65089ac9fb4c814034a readback.
 Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.
+
+
+### 117-otus-manadensis-v2 actual iteration
+Actualedit/view adultupperbreast now moreirregular elongate/broken darkshafts with less alignedarrowheadrows. Some stylizedpaleedges persist, notfullsciencepass. Whitebelly/shafts/yelloweyes/blackhornbills/tufts/featheredtarsi/grips andcenterolderjuvenilefinecrown/nape bars/formedwings/barredtail/labels retained. Unique116/251unchanged.
+New0/reused2 SLSO-JORDAN-2007 freshprimarypage/originalpixels and SLSO-MIK2013-194 priorprinted194/PDF196. Flashcoloruncertainty preserved, no sexmeasurement. Indexba9a65349780439c501f52eb00ecfa9636449fd8 readback.
+Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.

@@ -213,3 +213,9 @@ Success is limited to visible changes, not scientificvalidation or universalrule
 Actualnewgeneration/view andedit: adultbarepinklower tarsi corrected fromwhitesocks, grayyoungbill/smallpaletip corrected fromgreenish; grayfinelybarredmesoptileyoung/no projectingtail/cavitysillsupport andvalidfoldedremiges retained. Adultgraymorphyelloweyes/smalltufts/greenishbills/branchgrips preserved; no universalirisrule or dayageclaim. Exacttipcolor/toegeometry/featherpatterns pending. Unique116→117/251.
 New2 CHSO-AVIBASE-MAPPING, CHSO-JORDAN-2012; reused/corrected1 CHSO-REYES-ASTUDILLO-2017-PARTIAL: Results/Tablespp378–379 and originalFig1/2 actuallyread/viewed via publicDownloaddirectly links. FullPDFstillnotread; previous404 preserved, no accesswallbypass. Index3c34c6f7d6bc61655111a056f5b7d63c2d1fd9dc readback. Exactglobal251rosterstillmissing, no scopechange.
 Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.
+
+
+### 110-megascops-barbarus-v2 actual iteration
+Actualtargetededit/view lowers brightwhitejuvenileupperwingpatches toward browngray and mutespaleedgerows, but repeatedscallopgeometry remains pending. Validformedremiges/shorttail/softbarredbreast/yelloweye/bristles/bill/footgrips/pose andbothadultpatterns/labelsretained. Not all geometricalissuesresolved; unique117/251unchanged.
+New0/reused2 BSO-EISERMANN-FIELD originalpage/ownfamilyphotopixels reread/viewed and BSO-CAYAYA-FIELD bodyrefreshed. Exactage/sexscaleunknown, no literalfeathermap. Index113f12b8d5365325d3b96f9b7455e6b70df1eae2 readback.
+Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.

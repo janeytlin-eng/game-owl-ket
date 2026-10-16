@@ -1582,3 +1582,7 @@ Sangster,King,Verbelen,Trainor2013 PLOS ONE8:e53712 https://doi.org/10.1371/jour
 
 ### PSC-LOCKSHAW-2017 reuse 2026-10-16
 - Actual Field Notes/Range/Habits/Breeding/Visual distinctions re-read for planned #118. Adult reference file pacific-screech-owl2.jpg link obtained, but web reader returned internal error and direct public fetch returned231-byte HTML CAPTCHA redirect instead of JPEG. No adult pixels claimed viewed; do not bypass CAPTCHA. Source text remains usable; photo verification incomplete. PSC-SEQUEIRA-2017-DISPUTED excluded as juvenile age authority. New2/reused1 trusted/excluded1 disputed.
+
+
+### PSC-MERLE-2019
+Stéphane Merle, Pacific Screech Owl adult, March2019 LaEnsenadaPuntarenasCostaRica, Oiseaux.net stme265543. https://www.oiseaux.net/en/photos/stephane.merle/pacific.screech.owl.1.html?ctx=espece ; actual caption/EXIF read and original pixels downloaded/viewed2026-10-16. No flash; perched upright onbranch, prominent tufts, greenish hornbill, crypticgraybrown plumage, thinshafts/finevermiculations and whitedark-edged scapular patches. Eyes narrowed/shadowed, not iris-color authority; retain yellow from PSC-OWLPAGES-2020. Sexunknown/no measurements, equal adultscale is inference. Copyright referenceonly no photoreproduction inrepo. Reuse PSC-KOMAR-STUFKENS-2012 p65 Fig4 and p66 event, PSC-OWLPAGES-2020; no CAPTCHA bypass. #118 planned cycle1.

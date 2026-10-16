@@ -1062,10 +1062,24 @@
           "unique_species_increment": 0,
           "commit_sha": "feadbab66ddef117fe264b5cdfd048ff34f9c323",
           "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Megascops ingens",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "c6658d5eb8740838127b068ebc3d98595d0fbac3",
+          "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
-      "started_at": "2026-10-16T12:30:41.580Z"
+      "next_cycle": 3,
+      "started_at": "2026-10-16T12:30:41.580Z",
+      "last_checkpoint": {
+        "at": "2026-10-16T14:40:34.859Z",
+        "stage": "VERIFIED",
+        "commit_sha": "c6658d5eb8740838127b068ebc3d98595d0fbac3",
+        "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-2.md"
+      }
     }
   ],
   "lease": {

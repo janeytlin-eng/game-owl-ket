@@ -878,16 +878,23 @@
           "unique_species_increment": 1,
           "commit_sha": "05001e2c091e6e82e518382efe9bf341c5dec615",
           "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ptilopsis leucotis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b5ba7bfb3a45dce9acf4c9410a99ba5d83924938",
+          "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-16T00:57:25.902Z",
       "last_checkpoint": {
-        "at": "2026-10-16T01:51:43.139Z",
-        "stage": "PARTIAL_RESEARCH",
-        "commit_sha": "b757a0f2b94fe6eaab1ad9bf22d76043c9d524b4",
-        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-3.md",
-        "reason": "Actual source HTTP403/CAPTCHA and missing juvenile visual evidence; no cycle credit, no global runtime limit claim."
+        "at": "2026-10-16T04:37:22.546Z",
+        "stage": "VERIFIED",
+        "commit_sha": "caf8c2f81f4cdf7d001134922efee6e868b023f7",
+        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-3.md"
       }
     }
   ],
@@ -895,9 +902,9 @@
     "owner": "owl-1234",
     "run_id": "owl-1234",
     "batch_id": "2026-10-16T0857+0800",
-    "cycle": 3,
-    "heartbeat_at": "2026-10-16T04:35:29.127Z",
-    "expires_at": "2026-10-16T04:50:29.127Z"
+    "cycle": 4,
+    "heartbeat_at": "2026-10-16T04:37:22.546Z",
+    "expires_at": "2026-10-16T04:52:22.546Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

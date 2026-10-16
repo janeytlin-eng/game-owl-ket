@@ -1593,3 +1593,6 @@ Reyes EnzoM.R. and Evelyng Astudillo-Sánchez2017, Notes on the Nest, Owlets, Di
 
 
 2026-10-16 cycle2 #116v2 application: CBLO-BOUGLOUAN-CARD actual Description/Reproduction refreshed, CBLO-MIK2013-252 existing evidence reused; new0/reused2. Sienna above/breast and paler belly does NOT support absolute zero pale spots. Replace absolute prior removal instruction with lowcontrast sparse tips, preserve formed foldedwings and ageunknown. [Run](../production/runs/2026-10-16T1747+0800-cycle-2.md). Rule discovered/applied prompt only, pending actualeditcheck.
+
+
+2026-10-16 cycle3 #117v2 application: SLSO-JORDAN-2007 primaryadultpage metadata refreshed and originalpixels re-viewed; SLSO-MIK2013-194 priorbooktext reused, new0/reused2. Correct repeatedarrowheadrows toward irregularshafts/crossbars; not universalexactfeathermap, flashcoloruncertaintyretained. [Run](../production/runs/2026-10-16T1747+0800-cycle-3.md).

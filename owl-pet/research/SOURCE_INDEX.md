@@ -1607,3 +1607,7 @@ CHSO-REYES-ASTUDILLO-2017-PARTIAL correction/application: original author's publ
 
 
 2026-10-16 cycle6 #118v2 application: PSC-MERLE-2019 originalpage/photo reread/viewed, PSC-OWLPAGES-2020 Description freshlyread, PSC-KOMAR-STUFKENS-2012 reusedunchangedyoungpose; new0/reused3. IMPORTANT actualsource says both scapularwhiteband and secondcovertpaleband. Do not universalize removeallbrightwingmarks: retaintruebands, lower excessregularVrows. Noage/sexscale derived, elevation/taxonomicboundarylimitations retained. [Run](../production/runs/2026-10-16T1747+0800-cycle-6.md). Rule discovered andappliedprompt; outputsuccessawaitactualreview.
+
+
+### 2026-10-16 20:29 batch cycle1 #118v3 application
+PSC-OWLPAGES-2020 actualDescription64–66/Breeding refreshed; PSC-KOMAR-STUFKENS-2012 pp65Fig4/66 previouslyread primary reused, notfreshPDFread (reader400 size19748953). New0/reused2IDs. Older defensive ground-supported young formedbarredremiges retained; soften ornate highcontrast crown fromv2 as designinference, no exactday/feathermap/sexheight claim. Adult two legitimatepalewingbands remain. [Prompt/stage record](../production/runs/2026-10-16T2029+0800-cycle-1.md). Currentimage actuallyviewed; editing/check pending.

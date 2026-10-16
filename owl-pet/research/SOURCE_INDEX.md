@@ -1509,3 +1509,13 @@ MichaelBakkerPaiva Nov2024 Seychelles MontFleuri, primary https://www.oiseaux.ne
 
 ## SSO-CURRIE-2002-LEAD — sexualsize paper accessblocked
 D.Currie,A.C.Mateman,C.M.Lessells,R.Fanchette.2002 Ringing&Migration21:16–18 DOI10.1080/03078698.2002.9674272, https://www.tandfonline.com/doi/pdf/10.1080/03078698.2002.9674272 . Access2026-10-16 actualopenreturned403Forbidden; fulltextNOTread. Searchresults differinsexsamplecounts, doNOTusetablemeasurementsorassertRSDquantifiedfromsnippet. Unverifiedleadpendingauthorizedfulltext; no permissionbypass.
+
+
+## SSO-MIK2013-138 — existing uploaded work, new section
+HeimoMikkola2013 Owls oftheWorld APhotographicGuide, printed138/PDF140, Library libfile_916e2244186c81918fe5a0716884b8c9. Access2026-10-16 actualpagesTEXT read successfully (notjustfind, no photopixelclaim). Adultsmallnearinvisibletufts/yellowbrownmottledcrown/palescapularband/paleunderparts broadblackshafts/faintbars/yelloweyes/grayyellowdarktipbill/TOTALLYbaretarsiandtoes. Female>20gheavier notheightformula. Juvenilesaidadultlikebutnotwellknown. Olderstatus/rangehistoricalnotcurrent. Supports#114adultboundary/laterjuvenileonly, sourceworkalreadyindexednotnewbook. Exactyoungiris/geometryunknown.
+
+## SSO-BOUGLOUAN-CARD — specialistsecondary juvenile description
+NicoleBouglouan undated https://www.oiseaux-birds.com/card-seychelles-scops-owl.html actualfullDescription/Reproductionread2026-10-16. Youngresemblesadult/paler/heavilybarred/lessblackshaftstreaking; noexactageorphotosequence. Adultsgrayhornbilldarktip/yelloweyes/bareyellowlongtoes. PairedwithprimarySSO-CURRIE-2004 olderfledglingadultappearance p128/130 notnewborninference. Usefulconservativeolderyoung#114, notscientificvalidation.
+
+### SSO-CURRIE-2004 / SSO-BAKKER-2024 reuse2026-10-16
+FreshpublisherPDFreadpp124–126/128–131; distinguishrecentnonflyingbrancherfrommatureadult-likeconfidentflier Table1p128. Chooseolderjuvenilewithformedwings notflightaction, noexactageclaim. ExistingBakkeradultJPEGactuallyviewed again, notjuvenilephoto. Sex-size2002fulltextstillnotread, nofresh403claim.

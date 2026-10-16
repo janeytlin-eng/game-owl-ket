@@ -180,3 +180,8 @@ Discovery/prompt application/actual visual result distinguished; not biological 
 ### 109-ptilopsis-leucotis-v3 evidence-led iteration
 First targeted edit ineffective, not credited as success; second actual viewed edit substantially lowered central juvenile covert contrast and removed dominant bright ivory U outlines, replacing with gray-brown stippling; residual stylized repetitive geometry remains pending. Long barred remiges/tail, adult identity/toe feathers, labels, supported feet preserved. Rule: lower covert contrast without erasing legitimate later-stage flight feathers, assess image not prompt.
 Discovery/prompt application/actual visual result distinguished; not biological validation. Existing#113 laterformedwings retained, no universal wingremoval.
+
+
+### 116-margarobyas-lawrencii-v1 actual iteration
+Recovered older image and new built-in targeted edit actually viewed: young upperbreast warmed/wingcoverts predominantly sienna with fewer bright spots than adults; small crown pale flecks persist despite absolute removal prompt, priority scientific-calibration item. Adults bare tarsi/bare gripping toes, dark eyes, tuftless heads, wood cavity sill support and labels retained. Not neonatal reconstruction. Unique113→114/251.
+Prompt intentions not assumed successful. Retain age-supported formed wings; do not globally replace juvenile wings with buds.

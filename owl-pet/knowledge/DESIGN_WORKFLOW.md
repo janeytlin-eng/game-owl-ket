@@ -207,3 +207,9 @@ Success is limited to visible changes, not scientificvalidation or universalrule
 Actualedit/view adultupperbreast now moreirregular elongate/broken darkshafts with less alignedarrowheadrows. Some stylizedpaleedges persist, notfullsciencepass. Whitebelly/shafts/yelloweyes/blackhornbills/tufts/featheredtarsi/grips andcenterolderjuvenilefinecrown/nape bars/formedwings/barredtail/labels retained. Unique116/251unchanged.
 New0/reused2 SLSO-JORDAN-2007 freshprimarypage/originalpixels and SLSO-MIK2013-194 priorprinted194/PDF196. Flashcoloruncertainty preserved, no sexmeasurement. Indexba9a65349780439c501f52eb00ecfa9636449fd8 readback.
 Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.
+
+
+### 119-megascops-centralis-v1 actual iteration
+Actualnewgeneration/view andedit: adultbarepinklower tarsi corrected fromwhitesocks, grayyoungbill/smallpaletip corrected fromgreenish; grayfinelybarredmesoptileyoung/no projectingtail/cavitysillsupport andvalidfoldedremiges retained. Adultgraymorphyelloweyes/smalltufts/greenishbills/branchgrips preserved; no universalirisrule or dayageclaim. Exacttipcolor/toegeometry/featherpatterns pending. Unique116→117/251.
+New2 CHSO-AVIBASE-MAPPING, CHSO-JORDAN-2012; reused/corrected1 CHSO-REYES-ASTUDILLO-2017-PARTIAL: Results/Tablespp378–379 and originalFig1/2 actuallyread/viewed via publicDownloaddirectly links. FullPDFstillnotread; previous404 preserved, no accesswallbypass. Index3c34c6f7d6bc61655111a056f5b7d63c2d1fd9dc readback. Exactglobal251rosterstillmissing, no scopechange.
+Success is limited to visible changes, not scientificvalidation or universalrule. Preserve valid age-supported wings; avoid repeated decorativepatterns and absolute unsubstantiated biologicalconstraints.

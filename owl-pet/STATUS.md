@@ -451,3 +451,8 @@ Reused1 SWFO-JWVH-2024 freshread actualp16 andphoto, index21cd4daa3f616a5314876a
 
 ### #106 iris review correction
 Earlier 'darkbrown iris retained/conflictresolved' overstates evidence: displayedv1 has amberiris. Primarymuseum1986darkeye/directColombia lowlightphoto versusuploadedbookfind deeporangelead conflicts; fullbookpage403 andleadnotverified. Card/index/manifest/run now explicitly flag unresolved, notsciencepassed, no automaticblackrepaint. This is auditcorrection, notnewimage/species/cycle. Oldclaims retainedhistorically but supersededhere.
+
+
+### #109 2026-10-16T01:39:08.704Z
+Recovered edit and new targeted edit actually viewed. Olderjuvenile buffchestlongshafts/darkbill/shortfluffytufts/orangeeyes/formedwings/twofootbranchsupport retained; adultgrayplumage/blackrimwhiteface/longtufts/hornbill/labels retained. HOWEVER basaladulttoe feathercoverage stillnotvisuallyachieved andjuvenilewingedge scallops persist, priorityrevisionqueue NOT scientificpass. Actualeditattempt notclaim effective; exactage/sexratio/toegeometrystillunknown. Rule: inspectresult notprompt toassesscorrection.
+Reused2 NWFO-HEUCLIN-TOGO/NWFO-OWLPAGES-2020; new0. Togo olderjuvenile notsouthernP.granti; erroneousEcuadorcaptionexcluded. UploadedMikkolapage340read403, notsourcefacts. Unique107/251; scientifically_verifiedfalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/109-ptilopsis-leucotis-v1.png), imagecommit abe4aebb78920dddf255d28cd329736a9c95ab19. [Prompts/review/stages](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T0857+0800-cycle-1.md).

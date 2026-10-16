@@ -886,15 +886,23 @@
           "unique_species_increment": 0,
           "commit_sha": "b5ba7bfb3a45dce9acf4c9410a99ba5d83924938",
           "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus cyprius",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "9afdb03ad46c2fef62eedc2213656f59b107b4a3",
+          "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-16T00:57:25.902Z",
       "last_checkpoint": {
-        "at": "2026-10-16T04:37:22.546Z",
+        "at": "2026-10-16T04:46:03.739Z",
         "stage": "VERIFIED",
-        "commit_sha": "caf8c2f81f4cdf7d001134922efee6e868b023f7",
-        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-3.md"
+        "commit_sha": "6d71fbbe3cb1eebf1caa4937dd3722d109c02e1e",
+        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-4.md"
       }
     }
   ],
@@ -902,9 +910,9 @@
     "owner": "owl-1234",
     "run_id": "owl-1234",
     "batch_id": "2026-10-16T0857+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-16T04:44:22.931Z",
-    "expires_at": "2026-10-16T04:59:22.931Z"
+    "cycle": 5,
+    "heartbeat_at": "2026-10-16T04:46:03.739Z",
+    "expires_at": "2026-10-16T05:01:03.739Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

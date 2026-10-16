@@ -1486,3 +1486,16 @@ Actual JPEG viewed2026-10-16: mature-looking long folded wing/tail and tall tuft
 
 ## MSC-GIERSBERGEN-2019 — adult eastern Madagascar photo
 Paul vanGiersbergen November2019. Primary ownphoto Oiseaux pava295537, https://www.oiseaux.net/photos/paul.van.giersbergen/petit-duc.malgache.1.html?ctx=espece ; access2026-10-16. Page caption explicitlyadult, MantadiaNP AlaotraMangoro (18°50′6″S48°27′32″E), noflash. ActualJPEGdownload/view: rufousground/sparseblacklongitudinalventralshafts/irregularcreamybellypatches, notfineuniformall-overherringbone. Oneindividual/sexunknown, notproofallmorphsplain orsexratio. Decision#108v2 explicitrufousbrownadultmorph; reduceventraltilepattern, preserveyoungfromMSC-VASSEN-2013 andsmalltufts/bills/formedadultwing. Photoreproductionprohibited, link/researchonly noexternalphotocopytorepo.
+
+
+## CIB-MONTGOMERY-2006 — Christmas Boobook juvenile39760
+Ian Montgomery, Birdway, timestamp displayed3/9/06 23:48:46 (dateformatnotinferred), ChristmasIsland Australia. Primary ownphoto https://www.birdway.com.au/strigidae/christmas_island_hawk_owl/source/christmas_is_hawkowl_39760.php ; access2026-10-16 originalpage andJPEGactualviewed. Explicitjuvenilecaption; observedrufoushead/yellowiris/graybill/white-rufousventralbars/formedbarredwing-tail/yellowfeetbranchgrip. Exactageunknown, clearlynotnatalfluff; supportlaterfeatheredperchingjuvenile #113. Nophotocopyarchive.
+
+## CIB-PELSY-2025 — Christmas Boobook adultfrpe385362
+FrédéricPelsy Sep2025 Settlement ChristmasIsland, https://www.oiseaux.net/en/photos/frederic.pelsy/christmas.boobook.1.html ; access2026-10-16 actualpagecaptionadultandJPEGviewed. Roundtuftlesshead/yelloweyes/bluegraybill/shortwhitelores-brows/rufouswhitehorizontalbars/formedwings-tail/yellowfootgrip. Sexunlabelled, nightimage notabsolute colorcalibration. Supportsadultpattern notRSD; nophotocopyrepo.
+
+## CIB-WAM-FACTS — WA Museum ChristmasIslandHawk-Owl section
+WesternAustralianMuseum undatedpage https://museum.wa.gov.au/explore/articles/cocos-keeling-and-christmas-island-birds ; access2026-10-16 actualsectionlines317–356. Institutional: tuftlessrufousowl whitewingcovertspots/yelloweyes/bluegraybill/paleyellowfeet; sexesalike femalequalitativelyslightlylarger; youngpalerfluffier; foresthollowbreeder. SelectedlaterstageboundtoMontgomeryphoto notgenericwhitishyoung. Do notuseotherbirdsections' sticknests. Noexactsexheightratio.
+
+## CIB-ARCC-LEAD — excluded mass values
+AustralianRaptorCareConservation https://www.arccinc.com.au/field-guide/christmas-boobook actualread2026-10-16: listedmale1000g/female1200g conflicts small26–29cmowlcontext and other massleads; notusedforproportions orsourcefacts. No newsourcefactcount frominvalidnumbers, retainconflict.

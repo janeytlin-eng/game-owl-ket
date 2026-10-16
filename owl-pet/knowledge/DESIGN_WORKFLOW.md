@@ -175,3 +175,8 @@ Discovery/prompt application/actual visual result distinguished; not biological 
 ### 115-otus-lempiji-v1 evidence-led iteration
 First draft giant white wing ovals corrected using imagegen; final actual view shows dark gray-brown wings with smaller sandy edges; formed feathers, tarsal feathering/bare toes and supported posture retained. Repeated ornamented wing geometry remains pending scientific review, not claimed resolved universally.
 Discovery/prompt application/actual visual result distinguished; not biological validation. Existing#113 laterformedwings retained, no universal wingremoval.
+
+
+### 109-ptilopsis-leucotis-v3 evidence-led iteration
+First targeted edit ineffective, not credited as success; second actual viewed edit substantially lowered central juvenile covert contrast and removed dominant bright ivory U outlines, replacing with gray-brown stippling; residual stylized repetitive geometry remains pending. Long barred remiges/tail, adult identity/toe feathers, labels, supported feet preserved. Rule: lower covert contrast without erasing legitimate later-stage flight feathers, assess image not prompt.
+Discovery/prompt application/actual visual result distinguished; not biological validation. Existing#113 laterformedwings retained, no universal wingremoval.

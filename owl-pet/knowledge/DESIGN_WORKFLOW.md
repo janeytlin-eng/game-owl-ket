@@ -170,3 +170,8 @@ Captionjuvenile canmeanlargelyfeatheredrufousbarredstage. DirectMontgomeryphoto 
 ### 114-otus-insularis-v1 evidence-led iteration
 Oneactualedit madevisible tarsi smoothbarepinkishgray, kept toegrips/leglength/formedyoungwing-tail; billslessblue, youngwhitepatchesreducedbutregularpaleedgesstillpending. ActualPNGviewed, notassumedpromptsuccess.
 Discovery/prompt application/actual visual result distinguished; not biological validation. Existing#113 laterformedwings retained, no universal wingremoval.
+
+
+### 115-otus-lempiji-v1 evidence-led iteration
+First draft giant white wing ovals corrected using imagegen; final actual view shows dark gray-brown wings with smaller sandy edges; formed feathers, tarsal feathering/bare toes and supported posture retained. Repeated ornamented wing geometry remains pending scientific review, not claimed resolved universally.
+Discovery/prompt application/actual visual result distinguished; not biological validation. Existing#113 laterformedwings retained, no universal wingremoval.

@@ -1620,3 +1620,7 @@ AuthorOrdóñez-Delgado,RamónCastillo,PinedaDíaz2022 NeotropicalBiodiversity8:
 
 ### Batch2029 cycle3 #111v2 2026-10-16T14:41:05.845Z
 CYSO-SOUNDAPPROACH-2013PHOTOS primaryactualpage/captions and POP6058pixels re-viewed; CYSO-FLINT-2015 priorp309/310 adultfacts reused, new0/reused2. Youngdiffusebarredventrum versusv1sharpadultshaft designcontrastcorrection; preserveformedwing andrealpalespots, noexactage/sexscale. [Prompt/actualstage](../production/runs/2026-10-16T2029+0800-cycle-3.md). Applypendingactualimagecheck.
+
+
+### Batch2029 cycle4 #113v2 2026-10-16T14:44:11.273Z
+CIB-MONTGOMERY-2006 primaryownpage/caption/actualJPEG refreshed; CIB-WAM-FACTS relevant317–356actuallyread. New0/reused2. Designselectedlaterjuvenilerussetcrownwithfewerpalespots vsdecorativev1head; NOT alljuvenilesunspotted. Preservelegitimateformedwingtail andadultwhitecovertspots, exactage/sexscale unknown. [Prompt/actualstage](../production/runs/2026-10-16T2029+0800-cycle-4.md).

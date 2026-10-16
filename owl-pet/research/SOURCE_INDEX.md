@@ -1475,3 +1475,10 @@ Darcy Ogada(The Peregrine Fund) & Paul Muriithi(Kenya Wildlife Service Training 
 
 ### ABO-BERNARDIN-2015-LEAD
 Pascal Bernardin, Jan2015Dinsho/BaleMountainsNP Ethiopia, https://www.oiseaux.net/en/photos/pascal.bernardin/abyssinian.owl.2.html ; metadataactuallyread2026-10-16. Ownphotograph metadata labels speciesbutNOjuvenileage/sex. Photoimage retrieval attempted; cannotuse metadataaloneforjuvenilephenotype. No reproduction ofcopyrightphoto inrepo. Candidatelead, notverifieddevelopmentalevidence.
+
+
+## ABO-CARLBERG-2016 — Ethiopia 6–28 January 2016
+Tomas Carlberg compiler; field party led Håkan Pohlstrand/Brook Kassa/Carlberg. 2016 first-hand trip report, https://mammalwatching.com/Afrotropical/other%20reports/TC%20Ethiopia%202016.pdf . Access2026-10-16. Actual downloaded PDF pages1,44 read; page45 rendered and visually viewed. Asio abyssinicus nominate Ethiopian highlands; p44 records adult plus two downy chicks on nest Bale Mts NP HQ17–18Jan2016 and separate adult+twojuveniles inravine18Jan. P45 Håkan Pohlstrand nestphoto: parent on twig platform at trunk, white down visible beneath belly; young mostly concealed. No exact age, iris/bill/limb/wing morphology measurable. Decision #112 show just brooded white down partially occluded under female; no invented newborn anatomy. Observation not peer-reviewed developmental series; sex of photographed parent unlabelled, design assigns female brooder not sex evidence. No copying third-party photo to repo. Web reader failed size15860240; ordinary direct PDF download succeeded, not access bypass.
+
+### ABO-BERNARDIN-2015-LEAD visual follow-up
+Actual JPEG viewed2026-10-16: mature-looking long folded wing/tail and tall tufts, face heavily obscured by foliage/shadow, iris not reliably visible. Metadata no age/sex; NOT juvenile evidence, no iris conflict resolution.

@@ -860,7 +860,7 @@
     },
     {
       "batch_id": "2026-10-16T0857+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -902,26 +902,28 @@
           "unique_species_increment": 1,
           "commit_sha": "9153fdde057b7fc309608da51de73179cf39ae13",
           "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus rutilus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e21e650fd61444c0730390003704dd15971535de",
+          "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-16T00:57:25.902Z",
       "last_checkpoint": {
-        "at": "2026-10-16T05:40:39.990Z",
+        "at": "2026-10-16T05:43:34.580Z",
         "stage": "VERIFIED",
-        "commit_sha": "9153fdde057b7fc309608da51de73179cf39ae13",
-        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-5.md"
-      }
+        "commit_sha": "e21e650fd61444c0730390003704dd15971535de",
+        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-16T05:43:34.580Z"
     }
   ],
-  "lease": {
-    "owner": "owl-1333",
-    "run_id": "owl-1333",
-    "batch_id": "2026-10-16T0857+0800",
-    "cycle": 6,
-    "heartbeat_at": "2026-10-16T05:41:52.794Z",
-    "expires_at": "2026-10-16T05:56:52.794Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -969,5 +971,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T05:40:39.990Z"
+  "updated_at": "2026-10-16T05:43:34.580Z"
 }

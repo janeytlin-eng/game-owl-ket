@@ -190,3 +190,8 @@ Prompt intentions not assumed successful. Retain age-supported formed wings; do 
 ### 117-otus-manadensis-v1 actual iteration
 New original and targeted edit actually viewed: juvenile crown/nape fine dark transverse bars visibly added, adult lowerbelly whiteground with less regular longshafts; upperbreast/wing stylized geometry remains pending. Yelloweyes/blackhornbills/featheredtarsi/baretoes/grips, olderjuvenile formedwing/barredtail preserved. Unique114→115/251.
 Prompt intentions not assumed successful. Retain age-supported formed wings; do not globally replace juvenile wings with buds.
+
+
+### 118-megascops-cooperi-v1 actual iteration
+Actually generated/viewed and edited adult chest from rusty repeatedarrowheads toward muted graybrown/cream with thinner shafts; repeatedgeometry remains pending. Groundsupported juvenile defensivewingfan retains photographed formedremiges, roundgraybarredhead/body, yelloweyes/greenishbills; feetground, adultbranchgrips/featheredtarsi andlabels preserved. Not a neonatal or flightability reconstruction. Unique115→116/251.
+Style transfer can accidentally import previous species plumage. Separate render style from anatomical/color fields and inspect actual pixels, not prompt success. This rule found and applied here; effectiveness limited to observed changes, not universally proven.

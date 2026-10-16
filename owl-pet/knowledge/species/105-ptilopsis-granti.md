@@ -5,3 +5,8 @@ Sources SWFO-JWVH-2024 primaryhospital2024printedp16/PDF17, SWFO-ADW-2010 (ID re
 [Original](../../design/concepts/105-ptilopsis-granti-v1.png)
 [Sources](../../research/SOURCE_INDEX.md)
 [Fullprompt/edits/stages](../../production/runs/2026-10-16T0430+0800-cycle-1.md)
+
+
+## 105-ptilopsis-granti-v2 2026-10-16T00:56:26.551Z
+Actual edited and label-repaired PNG viewed: youngchest darkergraybrown with stronger diffusebars/chevrons compared v1; stilllighterthan hospitalphoto underdifferentlight, precise tonalcalibrationpending. Legitimateolderjuvenile formedwings/softpaleedges/whiteface/darkeyerings/shortsofttufts/footgrips/headturn preserved; bothadults preservedvisually. Missing JUVENILElabel fromfirstedit restored and actuallychecked. Scientificfalse, no exactage/sexratio pass. Lesson: localplumageediting mayregresslabels, always inspect wholeplate.
+Reused1 SWFO-JWVH-2024 freshread actualp16 andphoto, index21cd4daa3f616a5314876a61b0d776d2a7bcbad7. No newsourceID. Unique106/251 unchanged, priorversions/approval preserved andnottransferred. Imagecommit 901b637298eb2c4698268dfe50e95e1a96658110; full PNG2771106bytes SHA256 df85d629646556de5f96d0b68cc99c6be92e876bf7e4d1b9a9f051701cfd9456. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/105-ptilopsis-granti-v2.png). [Fullprompt/stages](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T0430+0800-cycle-6.md).

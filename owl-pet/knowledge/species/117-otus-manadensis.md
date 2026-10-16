@@ -1,0 +1,6 @@
+# Otus manadensis
+
+New4 sourceIDs SLSO-MANAHAMPI-2012/SLSO-JORDAN-2007/SLSO-MIK2013-194/SLSO-SANGSTER-2013; originalphoto pages/pixels and paper abstract/intro read, booktext priorpreparation reused honestly. NorthSulawesi older immature not imported otherislands; no exact age/flight or sexratio claim. Sourceindex f256e4fd32283a93a61d893abe8cd515d509f307 readback.
+
+New original and targeted edit actually viewed: juvenile crown/nape fine dark transverse bars visibly added, adult lowerbelly whiteground with less regular longshafts; upperbreast/wing stylized geometry remains pending. Yelloweyes/blackhornbills/featheredtarsi/baretoes/grips, olderjuvenile formedwing/barredtail preserved. Unique114→115/251. Sciencefalse; age, sexed proportions and feather geometry unverified. Original commit 8905a272947736d8ab8e8aec0738897a14c951a2 size 2830523 SHA256 5f93aa62f2867005e437a4a5d715027697da743880652be7ca12aa3152e21868 Gitblob 31271f604196047038dee1f5f6e8c8af1f1526e7; independently downloaded immutable raw PNG fully decoded and size/hash matched.
+[Original](../../design/concepts/117-otus-manadensis-v1.png) · [Sources](../../research/SOURCE_INDEX.md) · [Full prompts and phases](../../production/runs/2026-10-16T1345+0800-cycle-6.md)

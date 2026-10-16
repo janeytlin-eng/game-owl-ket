@@ -1070,15 +1070,23 @@
           "unique_species_increment": 1,
           "commit_sha": "c6658d5eb8740838127b068ebc3d98595d0fbac3",
           "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus cyprius",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b5f57023750f719d375a18c883f798d33b5ec4fc",
+          "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-16T12:30:41.580Z",
       "last_checkpoint": {
-        "at": "2026-10-16T14:40:34.859Z",
+        "at": "2026-10-16T14:43:41.776Z",
         "stage": "VERIFIED",
-        "commit_sha": "c6658d5eb8740838127b068ebc3d98595d0fbac3",
-        "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-2.md"
+        "commit_sha": "b5f57023750f719d375a18c883f798d33b5ec4fc",
+        "run_record": "owl-pet/production/runs/2026-10-16T2029+0800-cycle-3.md"
       }
     }
   ],
@@ -1135,5 +1143,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T14:42:16.276Z"
+  "updated_at": "2026-10-16T14:43:41.776Z"
 }

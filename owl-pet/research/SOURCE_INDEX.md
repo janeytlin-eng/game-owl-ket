@@ -1482,3 +1482,7 @@ Tomas Carlberg compiler; field party led Håkan Pohlstrand/Brook Kassa/Carlberg.
 
 ### ABO-BERNARDIN-2015-LEAD visual follow-up
 Actual JPEG viewed2026-10-16: mature-looking long folded wing/tail and tall tufts, face heavily obscured by foliage/shadow, iris not reliably visible. Metadata no age/sex; NOT juvenile evidence, no iris conflict resolution.
+
+
+## MSC-GIERSBERGEN-2019 — adult eastern Madagascar photo
+Paul vanGiersbergen November2019. Primary ownphoto Oiseaux pava295537, https://www.oiseaux.net/photos/paul.van.giersbergen/petit-duc.malgache.1.html?ctx=espece ; access2026-10-16. Page caption explicitlyadult, MantadiaNP AlaotraMangoro (18°50′6″S48°27′32″E), noflash. ActualJPEGdownload/view: rufousground/sparseblacklongitudinalventralshafts/irregularcreamybellypatches, notfineuniformall-overherringbone. Oneindividual/sexunknown, notproofallmorphsplain orsexratio. Decision#108v2 explicitrufousbrownadultmorph; reduceventraltilepattern, preserveyoungfromMSC-VASSEN-2013 andsmalltufts/bills/formedadultwing. Photoreproductionprohibited, link/researchonly noexternalphotocopytorepo.

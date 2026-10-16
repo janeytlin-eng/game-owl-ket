@@ -161,3 +161,7 @@ A nestphoto may support broodedwhitefluff without showing eye/bill/wing/toes. Ap
 
 ### #108v2 adult pattern iteration
 A fineherringbone textualdescription mustnotbecome identical tinychevrons acrossbelly. EasternMantadia ownadultphoto supportedexplicitrufousbrownmorph withsparseirregularshafts; adultventral-only edit achievedvisually, juvenile andadultwing retained. Do notuseoneindividualtoerasepatternsinallmorphs orcreate sex-dependentcolors. Retrospective#112 check: Asio crossbars have separate speciesevidence, notautomaticallyremoved. Biologicalprecisionstillunknown.
+
+
+### #113 actual iteration
+Captionjuvenile canmeanlargelyfeatheredrufousbarredstage. DirectMontgomeryphoto supportsformedwing-tail; preservewhileeditingwhitecovertpatchleak andoverwhiteeyebrows. ActualeditedPNG viewed: paleovalrows reducedbutfinegeometryunvalidated. #108olderyoungretainedlikewise; #112hiddenbroodedfluff hasdifferentstageevidence, no universalpattern/wingrule. Misprintedmassvaluesmustnotdrivebodyratio.

@@ -1393,3 +1393,10 @@ Knut Eisermann & Claudia Avendaño, undated website; accessed2026-10-16. Primary
 
 
 2026-10-16 followup: #106 displayed amber iris is a pending evidence conflict, not confirmed error. Library find locates Mikkola printed338/PDF340 and snippet says deeporange, conflicting with museum1986p41 darkeye; page read actually403 Forbidden, snippet is UNVERIFIED LEAD not fullsource reading. No permissionbypass or automatic blackirisrepaint. Prior review claim of resolvediris was too strong; scientifically_verified remainsfalse. Next research requires accessible primary iris/color photographs across localities or permitted fullpage.
+
+
+### MSC-VASSEN-2013 — juvenile at Andasibe
+Frank Vassen, photograph2013-12-04 13:12, Flickr12038858063, CC BY2.0 (https://creativecommons.org/licenses/by/2.0/), via https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg ; accessed2026-10-16. Actualmetadata read and fulloriginal downloaded/viewed. Otus rutilus easternMadagascar olderdownyjuvenile, unknownday. Fluffybrown-gray softbarredbody/yelloweye/pinkeyelid/darkbill/wispypseudoearoutline, formedwing largelyhidden, tailhidden, bristledtoesgrip trunkbranch withbodyagainsttrunk. Supports thisspecific olderperchingpose, not nataldown or flight. No sex or exactage; attributionmetadata identitynotindependentlygenotyped. Related#108/run cycle4.
+
+### MSC-OWLPAGES-2020
+Deane Lewis, Madagascar Scops Owl, updated2020-10-19, https://www.owlpages.com/owls/species.php?s=440 ; accessed2026-10-16. Specialistsecondarycompilation, actual Description/Size/Habits/Breeding/Habitat read after transienttimeout retrysucceeded. Brown/gray/rufous morphs, smalltufts/yelloweyes/graybrownbill/featheredtarsi; female slightlylarger/heavier qualitativeonly; densefoliagetrunkroost/humidrainforest north/eastMadagascar, natural treehole nests. No quantitativeheight/juveniledevelopment. Prompt brownmorph and modestfullness, roostnotinventednest. Do not mix westernTorotoroka or historicalbroadComorosunits. [#108](../knowledge/species/108-otus-rutilus.md), [cycle4](../production/runs/2026-10-16T0430+0800-cycle-4.md).

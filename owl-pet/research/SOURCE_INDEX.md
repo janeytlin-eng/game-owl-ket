@@ -1519,3 +1519,19 @@ NicoleBouglouan undated https://www.oiseaux-birds.com/card-seychelles-scops-owl.
 
 ### SSO-CURRIE-2004 / SSO-BAKKER-2024 reuse2026-10-16
 FreshpublisherPDFreadpp124–126/128–131; distinguishrecentnonflyingbrancherfrommatureadult-likeconfidentflier Table1p128. Chooseolderjuvenilewithformedwings notflightaction, noexactageclaim. ExistingBakkeradultJPEGactuallyviewed again, notjuvenilephoto. Sex-size2002fulltextstillnotread, nofresh403claim.
+
+
+## SUN-MIK2013-162
+Mikkola2013 existinguploadedbook printed162/PDF164 actualTEXTread2026-10-16. Graybrown/rufousmorphs, black-edgedprominenttufts, mostlybrownirisbutorangevariants; whiteyellowbill, fullyfeatheredtarsitotoebase; chevron/arrowheadshaftmarks. Sexedmeasurementsabsent, female-largerquestionmarkNOTfact. Juveniledownregional: MalaywhiteversusJava darkgray/rufousgray, mesoptilebars. UseJava olderstage matchedownphoto; noSingapore cnephaeus transfer.
+
+## SUN-AKBAR-2013
+PanjiGustiAkbar (cendrawasih), 'YoungNightStalker', posted4Aug2013, https://www.birdforum.net/gallery/young-night-stalker.468198/ . Access2026-10-16 actualowncaptionjuvenile CondongcaturYogyakartaJava andactualJPEGviewed. Graybrownsofthead/body, sparseblackverticalventralshafts, shortwisps, formedwing-tail, twofootbranchgrip. Eye redflash/eyeshine NOT rediris, irisunknown; noexactdays. Supports#115olderperchstage; restingclosedeye is designchoice not agefact. Copyrightwatermarkretainedinreference, nophotocopyrepo.
+
+## SUN-JORDAN-2018
+RaphaelJordan Apr2018 BlimbingsariBali, adultcaption ownphoto https://www.oiseaux.net/en/photos/raphael.jordan/sunda.scops.owl.1.html . ActualpageandJPEGviewed2026-10-16. Longtufts/graybrowncrypticplumage/irregularshaftchevrons/darkeyes/branchgrip; sexunknown, notRSD. Java/Bali nominateunit notSingaporephoto; noexternalphotocopyrepo.
+
+## SUN-UNCLEFAI-2025-LEAD
+Owncaptionjuvenile EcoPetuluBirdSanctuaryandCafe https://www.flickr.com/photos/64074416@N06/54280822746/ uploaded22Jan2025 (notverifiedcapturedate). Actualimageclick returned403 https://live.staticflickr.com/65535/54280822746_38fe9da97e.jpg ; pixelsNOTseen/noageanatomyfact. Didnotswitchhostorproxy. IndependentAkbarJavaimage foundandactuallyreadinstead. Singapore2009research searchhits andcurrentSingaporebirdscnephaeus/lettia splitconflictnotusedasJavajuvenilefacts, noextrataxoncount.
+
+## WBO-MIK2013-471 / WBO-PEREGRINE-FACTS — deferred candidate
+ExistingMikkola printed471/PDF473 actualTEXTread2026-10-16 underoldNinoxsuperciliaris=Athene superciliaris, explicitlyJuvenileUndescribed andnosexedmeasurements. PeregrineFund institutionalpage https://peregrinefund.org/explore-raptors-species/owls/white-browed-owl actualfullread: groundnestreportsunconfirmed/treecavitiesreported; noyoungdevelopment. CandidateDEFERRED, noimage/assignednumber; donotdrawgroundnestorborrowAthenechicks. Usefulnegativeevidence notproductioncredit.

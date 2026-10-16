@@ -106,3 +106,8 @@ Sourcefacts/selectedstage/localimagecorrection mustbechecked separately; no auto
 
 ### #105 Ptilopsis granti applied review
 Hospitalphoto olderjuvenile has formedwings; earlyprompt stillleakedadultwhitepatchrows. Actualtargetededit reducedwhitepatchrows/softenedgraybrownwing while preservingformedlength; actualPNGviewed. Do not universallyeraseolderjuvenilewings. Chesttonalcontraststillpending; visualimprovement notscientificvalidation. ADW units/chronologyerrors excluded fromproportion/agerules. No retrospectiveacceptance ofalloldimages. Related batch0430 cycle1.
+
+
+## #106 verified 2026-10-16T00:36:50.638Z
+Actual edited PNG viewed: juvenile wing softened to buff-yellow-cream down with diffuse bars; adultlike pale patchrows/long remiges removed. Adults darkbrown eyes/no ear tufts/tawny mask/hornbill/checkerbars retained; juvenile body/feet supported by treefern leafbase roost, not nest. Exact young age/iris/wing geometry and sex size remain unknown; concept only, scientifically_verified false.
+Sources new2/reused1; adult iris conflict resolved with museum primary p41 and direct adult photo; no scientific pass. Unique104/251. Full PNG imagecommit 2293acea7017b3c15f53d23899a9891dbcf2d86f, 3189092 bytes SHA256 3a6273a186384331da9c8e98bebea22c6202a585382bdb89645448455bf789f3. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/106-strix-albitarsis-v1.png). [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T0430+0800-cycle-2.md). Lesson applied and visually checked: adult iris and juvenile wing patterns require separate evidence; do not transfer adult pale wing patchrows to this downy stage.

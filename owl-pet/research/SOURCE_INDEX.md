@@ -1628,3 +1628,7 @@ CIB-MONTGOMERY-2006 primaryownpage/caption/actualJPEG refreshed; CIB-WAM-FACTS r
 
 ### Batch2029 cycle5 #114v2 2026-10-16T14:47:01.525Z
 SSO-BOUGLOUAN-CARD actualDescription/Reproduction andSSO-BAKKER-2024 primaryadultcaption/JPEG re-viewed; SSO-MIK2013-138 priorbooktext reused. New0/reused3. Darkmottledadultcrown vsdecorativebrightwhitev1 rows, lowercontrastdesign, notabsolutezeropale. Barelegcoloryellowsecondary vsgray/pink/lowlight uncertainty remains, noautomaticrepaint. [Fullprompt/stage](../production/runs/2026-10-16T2029+0800-cycle-5.md).
+
+
+### Batch2029 cycle6 #115v2 2026-10-16T14:49:53.373Z
+SUN-AKBAR-2013 Javajuvenile primarycaption/JPEG andSUN-JORDAN-2018 Baliadultcaption/EXIF/JPEG actuallyrefreshed; SUN-MIK2013-162 printed162/PDF164 textpriorread reused. New0/reused3. Selectedyounggraybrownfinebars/shortwispsnotadultcreamV; retainadultV andolderformedwings. Flashrednotiris; restingeyeexpressionnotagefact. [Fullprompt/actualstages](../production/runs/2026-10-16T2029+0800-cycle-6.md). Notuniversalzeropaleheadrule orscientificpass.

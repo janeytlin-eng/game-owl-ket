@@ -1417,3 +1417,10 @@ Mathew T.Seidensticker,D.T.TylerFlockhart,DenverW.Holt,KathyGray(2006), Growth a
 
 
 SWFO-JWVH-2024 reuse 2026-10-16 cycle6: freshoriginalp16text and photo reread; #105v1 chesttoo cream compared withhospital brown-gray chevrons, promptedlocalyoungchestdarkening for [105v2](../design/concepts/105-ptilopsis-granti-v2.png). Preservephoto-supportedformedwings; no exactage/sex or wildnest inference. Fullprompt/review [cycle6](../production/runs/2026-10-16T0430+0800-cycle-6.md). No new ID, original copyrightnotcopied.
+
+
+### NWFO-HEUCLIN-TOGO — later juveniles direct photo
+Daniel Heuclin/Biosphoto/SuperStock, undated image4413-19311249, https://www.superstock.com/asset/northern-white-faced-owl-ptilopsis-leucotis-juveniles-branch-togo-sub/4413-19311249 ; accessed2026-10-16. Actuallyreadmetadata, publicwatermarkedpreviewdownloaded/actuallyviewed, no watermarkremoval orlicensedoriginaldownload. Caption identifiesjuvenilesTogo; erroneousboilerplate Africa-to-Ecuador is EXCLUDED (speciesnotNeotropical). Observed residualgraycrownfluff/shorttufts/whiteblackrimface/orangeeyes/darkbill/buffupperchestdarkshaftstreaks/creamabdomen/formedbarredgraywings/feetgripbranch. Exactage/sex/subspeciesnotverified; agencyspeciesID notgeneticvalidation. Supports laterperchedjuvenile not neonatal borrowing fromP.granti. No thirdpartyimage copiedtorepo. [#109](../knowledge/species/109-ptilopsis-leucotis.md).
+
+### NWFO-OWLPAGES-2020
+Deane Lewis2020-10-25, https://www.owlpages.com/owls/species.php?s=1160 ; specialistsecondarycompilation, Description/Size/Habits/Breeding/Habitat actualread2026-10-16. Adultlightmorph graybrown/fineshafts/blackrimwhiteface/amber-toorangeeyes/hornyellowbill; featheredtarsi reachbasalhalftoes (distinguishedfromfullybaretoes), qualitativefemalelarger notheightpercent; woodland/savanna/naturalholes oroldsticknests. Used roostbranchnotinventednest, earlier27–32dfigures notassigned tophoto. Historical Otus leucotis mapped to northernunit only, do notborrow southern P.granti hospitalyoung. Exact251versionedrosterstillmissing, scopeunchanged.

@@ -1400,3 +1400,13 @@ Frank Vassen, photograph2013-12-04 13:12, Flickr12038858063, CC BY2.0 (https://c
 
 ### MSC-OWLPAGES-2020
 Deane Lewis, Madagascar Scops Owl, updated2020-10-19, https://www.owlpages.com/owls/species.php?s=440 ; accessed2026-10-16. Specialistsecondarycompilation, actual Description/Size/Habits/Breeding/Habitat read after transienttimeout retrysucceeded. Brown/gray/rufous morphs, smalltufts/yelloweyes/graybrownbill/featheredtarsi; female slightlylarger/heavier qualitativeonly; densefoliagetrunkroost/humidrainforest north/eastMadagascar, natural treehole nests. No quantitativeheight/juveniledevelopment. Prompt brownmorph and modestfullness, roostnotinventednest. Do not mix westernTorotoroka or historicalbroadComorosunits. [#108](../knowledge/species/108-otus-rutilus.md), [cycle4](../production/runs/2026-10-16T0430+0800-cycle-4.md).
+
+
+### LTO-UKLOP-AGING — Ageing nestling UK Little Owls study
+UK Little Owl Project/Roy Leigh, undated project report, https://www.littleowlproject.uk/index.php?b=diary&currentpage=12 ; accessed2026-10-16. Primary monitoring initiative, actualfulltext and originalphoto https://www.littleowlproject.uk/assets/chicks-n5yz11.jpg downloaded/viewed. Caption1–2daysold: whitefluffy lowclusteredbody/closedeyes/noadultmask orremiges/palebill; lowhead needsbody/nestfloor support. No singledaygeometry fromlowresphoto; handlingsiblings not copiedaslonelyuprightbird. Text usesdown/physicalfeatures under10days; developingUKwingagingnotvalidatedpublishedresults. Supports earlywhite stage not genericbrownmesoptile. Related#04v3/cycle5.
+
+### LTO-UKLOP-ID — Little Owl Spotters Guide
+UK Little Owl Project, undated, https://www.littleowlproject.uk/index.php?p=13 ; actualIdentification read2026-10-16. Adultsexessimilar, roundstockyheads/yellowiris/cream-buffbackspots; olderjuvenile softer/paler andyellowgrayiris notclaimneonatalvisibleiris. Habitat orchards/farmland/oldtrees. No quantitativeRSD orprecisenatalday. #04v3 adultappearance retained.
+
+### LTO-BTO-FACTS — Little Owl BirdFacts
+British Trust for Ornithology, living institutionalringing/nestrecordssynthesis, https://www.bto.org/learn/about-birds/birdfacts/little-owl ; Introduction actuallyreread2026-10-16. Supports oldtreeswithnestingcavities/farmland UK. Prior#04card measuredsexstats preserved but not rederivedhere. Design cavitycutaway notoutdooropenbowl, no measuredentrancegeometry. [#04](../knowledge/species/04-athene-noctua.md), [cycle5](../production/runs/2026-10-16T0430+0800-cycle-5.md).

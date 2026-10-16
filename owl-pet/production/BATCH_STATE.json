@@ -870,15 +870,23 @@
           "unique_species_increment": 1,
           "commit_sha": "abe4aebb78920dddf255d28cd329736a9c95ab19",
           "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Megascops barbarus",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "05001e2c091e6e82e518382efe9bf341c5dec615",
+          "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-16T00:57:25.902Z",
       "last_checkpoint": {
-        "at": "2026-10-16T01:39:21.234Z",
+        "at": "2026-10-16T01:49:27.621Z",
         "stage": "VERIFIED",
-        "commit_sha": "9d300eff3f1012be24ed969b42af8ad64e53e088",
-        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-1.md"
+        "commit_sha": "c7ab36bed51a5209fdd6286ef3415e3d765bc5b7",
+        "run_record": "owl-pet/production/runs/2026-10-16T0857+0800-cycle-2.md"
       }
     }
   ],
@@ -886,9 +894,9 @@
     "owner": "owl-0931",
     "run_id": "owl-0931",
     "batch_id": "2026-10-16T0857+0800",
-    "cycle": 2,
-    "heartbeat_at": "2026-10-16T01:39:21.234Z",
-    "expires_at": "2026-10-16T01:54:21.234Z"
+    "cycle": 3,
+    "heartbeat_at": "2026-10-16T01:49:27.621Z",
+    "expires_at": "2026-10-16T02:04:27.621Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -937,5 +945,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-16T01:39:21.234Z"
+  "updated_at": "2026-10-16T01:49:27.621Z"
 }

@@ -1658,3 +1658,7 @@ CHSO-REYES-ASTUDILLO-2017-PARTIAL Resultspp378–379/Table1 freshlyread original
 ### #119 v2 2026-10-17T22:35:44.597Z
 Actual built-in edit/review reduced hard juvenile cream scallopedplates to softer gray mesoptile/darkbars; adultspots/baretarsi andyoungformedremiges/notail/cavitysupport retainedvisually. Some repeateddarkgeometry remainsunresolved, sciencefalse. Sources CHSO-REYES-ASTUDILLO-2017-PARTIAL freshResultspp378–379/Table1, CHSO-AVIBASE-MAPPING reusedprior; new0/reused2/corrected0. Unique118/251unchanged.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/f963ff9dabf83c0b890a96cdb0a3eeb1db5ab38e/owl-pet/design/concepts/119-megascops-centralis-v2.png); [prompt/stages/review/integrity](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-18T0528+0800-cycle-2.md).
+
+
+### DESO-KIRWAN-2015
+GuyM.Kirwan,ManuelSchweizer,JoséLuisCopete2015, Multiple lines of evidence confirm that Hume’s Owl Strix butleri... Zootaxa3904(1):28–50 DOI10.11646/zootaxa.3904.1.2. InstitutionalPDF https://nnhc.huji.ac.il/sites/default/files/nnhc/files/15-zootaxa-kirwan_schweizer_copete_compressed.pdf accessed2026-10-18, primarytaxonomy; Abstract/Introductionprinted28–29/PDF2–3text actuallyread, nofreshfigurepixels. Supports hadorami/butleri historicalnameboundary, notjuvenilefeathers/sexheight; no fullPDF copied. DESO-BENDOV-2017 reused; photoaccesserrorsremain. [Cycle3 limitations](../production/runs/2026-10-18T0528+0800-cycle-3.md). New1/reused1/corrected0; noimagecredit.

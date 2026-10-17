@@ -1649,3 +1649,7 @@ BCSO-DANTAS-2021: SidneiM.Dantas,JasonD.Weckstein,JohnBates,JoicianeN.Oliveira,T
 New usefulIDs2 (DESO-BENDOV-2017 andBCSO-DANTAS-2021), reusedBCSO-MENQ-2018 one. Productioncycle2 notcompleted. Research generationprompt notyetwritten becausevisualevidencegap. IMAGE_GENERATED/REVIEWED/ARCHIVED/VERIFIED all NOT reached. No claim ongoingbackgroundwork or fixedplatformlimit. This invocation completed2 productioncycles: recovered115v2 oldbatch6 plusnew120v2 newbatch1. Currentbatch1/6,next2. Stop at actual source-tool errors for checkpoint; no generationfromunknownplumage. No automationchange.
 
 [Cycle2 evidence and access errors](../production/runs/2026-10-18T0528+0800-cycle-2.md). No source images copied, no completed species/cycle credit.
+
+
+### #119v2 cycle2 application 2026-10-17T22:34:10.145Z
+CHSO-REYES-ASTUDILLO-2017-PARTIAL Resultspp378–379/Table1 freshlyread originalauthorHTML, graymesoptilefinebars vs currenthardscallops; retainlegitimateformedremiges/Ayellowiris/notail. CHSO-AVIBASE-MAPPING reusedpriorverifiedtaxonomy. New0/reused2/corrected0. No freshfigurepixels oruploadedbookread; exactage/sexscale/feathermap unknown. [Prompt/stages](../production/runs/2026-10-18T0528+0800-cycle-2.md).

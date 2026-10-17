@@ -257,3 +257,8 @@ Juvenile crown adult-like cream V reduced; adults/older formed wings and support
 
 ### #120 v2 2026-10-17T21:35:42.723Z
 Actual built-in face edit reviewed: juvenile facial disks modestly deepened, still warm rim; whitishforehead/darkbrowniris/graybilltip/down/formedwing/footgrips/adults/labels preserved visually. Not exact source color or sciencepass. Source RIS-ORDONEZ-2022-LEAD Results p302/Fig1b refreshed; new0/reused1. Unique118/251 unchanged. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/aa377734ac413c6fcd2488f062202bf418ebbcad/owl-pet/design/concepts/120-megascops-ingens-v2.png); [prompt/stages/errors/verification](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-18T0528+0800-cycle-1.md).
+
+
+### #119 v2 2026-10-17T22:35:44.597Z
+Actual built-in edit/review reduced hard juvenile cream scallopedplates to softer gray mesoptile/darkbars; adultspots/baretarsi andyoungformedremiges/notail/cavitysupport retainedvisually. Some repeateddarkgeometry remainsunresolved, sciencefalse. Sources CHSO-REYES-ASTUDILLO-2017-PARTIAL freshResultspp378–379/Table1, CHSO-AVIBASE-MAPPING reusedprior; new0/reused2/corrected0. Unique118/251unchanged.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/f963ff9dabf83c0b890a96cdb0a3eeb1db5ab38e/owl-pet/design/concepts/119-megascops-centralis-v2.png); [prompt/stages/review/integrity](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-18T0528+0800-cycle-2.md).

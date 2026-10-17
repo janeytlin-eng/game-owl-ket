@@ -484,3 +484,7 @@ Sources SSO-BOUGLOUAN-CARD freshDescription, SSO-BAKKER-2024 primarycaption/pixe
 ### #115 v2 recovered/reviewed 2026-10-17T21:32:41.765Z
 Juvenile crown adult-like cream V reduced; adults/older formed wings and support preserved visually. Unknown age/sexscale/feather geometry, sciencefalse. Unique118/251 unchanged. Sources new0/reused3/corrected0; SUN-AKBAR-2013 and SUN-JORDAN-2018 refreshed, SUN-MIK2013-162 prior p162/PDF164 reused.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/5f6389dd29e4a19b2de85b50bbcf0a5edb4ad790/owl-pet/design/concepts/115-otus-lempiji-v2.png); [research/prompt/recovery/review/integrity evidence](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T2029+0800-cycle-6.md).
+
+
+### #120 v2 2026-10-17T21:35:42.723Z
+Actual built-in face edit reviewed: juvenile facial disks modestly deepened, still warm rim; whitishforehead/darkbrowniris/graybilltip/down/formedwing/footgrips/adults/labels preserved visually. Not exact source color or sciencepass. Source RIS-ORDONEZ-2022-LEAD Results p302/Fig1b refreshed; new0/reused1. Unique118/251 unchanged. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/aa377734ac413c6fcd2488f062202bf418ebbcad/owl-pet/design/concepts/120-megascops-ingens-v2.png); [prompt/stages/errors/verification](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-18T0528+0800-cycle-1.md).

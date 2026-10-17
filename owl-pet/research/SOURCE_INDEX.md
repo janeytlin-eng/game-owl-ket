@@ -1632,3 +1632,8 @@ SSO-BOUGLOUAN-CARD actualDescription/Reproduction andSSO-BAKKER-2024 primaryadul
 
 ### Batch2029 cycle6 #115v2 2026-10-16T14:49:53.373Z
 SUN-AKBAR-2013 Javajuvenile primarycaption/JPEG andSUN-JORDAN-2018 Baliadultcaption/EXIF/JPEG actuallyrefreshed; SUN-MIK2013-162 printed162/PDF164 textpriorread reused. New0/reused3. Selectedyounggraybrownfinebars/shortwispsnotadultcreamV; retainadultV andolderformedwings. Flashrednotiris; restingeyeexpressionnotagefact. [Fullprompt/actualstages](../production/runs/2026-10-16T2029+0800-cycle-6.md). Notuniversalzeropaleheadrule orscientificpass.
+
+
+### #115 v2 recovered/reviewed 2026-10-17T21:32:41.765Z
+Juvenile crown adult-like cream V reduced; adults/older formed wings and support preserved visually. Unknown age/sexscale/feather geometry, sciencefalse. Unique118/251 unchanged. Sources new0/reused3/corrected0; SUN-AKBAR-2013 and SUN-JORDAN-2018 refreshed, SUN-MIK2013-162 prior p162/PDF164 reused.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/5f6389dd29e4a19b2de85b50bbcf0a5edb4ad790/owl-pet/design/concepts/115-otus-lempiji-v2.png); [research/prompt/recovery/review/integrity evidence](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T2029+0800-cycle-6.md).

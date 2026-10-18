@@ -548,3 +548,5 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 2026-10-18T20:38:15.831Z 139-otus-jolandae-v1 NEW imagecommitf83543a716445fded927a992c99b2c7cd9894538 independentlyverified; sciencefalse.
 
 2026-10-18T20:42:25.457Z 23-psiloscops-flammeolus-v2 REVISION imagecommit7be8cdca99563c587e1d776ffd22669e546ba4fd independentlyverified; sciencefalse.
+
+2026-10-18T20:45:04.306Z 21-megascops-choliba-v3 REVISION imagecommit596cfca9ae61051052a28b7a760d6bab21037e3b independentlyverified; sciencefalse.

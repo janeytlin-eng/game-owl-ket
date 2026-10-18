@@ -323,3 +323,6 @@ Generatedbars became repeatedgraphic arcs despitefinebarprompt; targetededit vis
 
 ## 2026-10-18T20:42:25.457Z actualiteration
 Adultheightdifference was presentationconfound despiteunknownsexratio; editneutralizeddisplay only. Newlyread11dayfieldrecords must not be appliedto newbornboundary. No measuredsexratio or fullscientificacceptanceclaimed.
+
+## 2026-10-18T20:45:04.306Z actualiteration
+Nestmaterial is a separatecalibrationdimension fromjuvenileage. Sparse bark decision anchoredinprimarynestparagraph, do not add constructedtwignests tocavityowls bydefault. Actualeditreducedheapbutno exactnestgeometryvalidation.

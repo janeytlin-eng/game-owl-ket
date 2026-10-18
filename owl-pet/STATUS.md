@@ -661,3 +661,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18T20:42:25.457Z
 23-psiloscops-flammeolus-v2 REVISION independentlyverified original; unique137/251,science0; finecalibrationpending.
+
+## 2026-10-18T20:45:04.306Z
+21-megascops-choliba-v3 REVISION independentlyverified original; unique137/251,science0; finecalibrationpending.

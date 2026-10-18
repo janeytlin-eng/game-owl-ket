@@ -519,3 +519,7 @@ Actuallyviewed finaledit: broadarcs reduced to thinner morebroken darkbars andsl
 ## 23-psiloscops-flammeolus-v2
 Actual editedPNG1254x1254 viewed: leftadult reduced/middleenlarged, near-equal crownheight onbranch, slightposturedifference retained. Darkeyes/shorttufts/rust-graypattern and grips retained visually, finefeatherdrift notpixelidentity. Newbornstilllowbellysupported/closedeyes/finewhitedown/woodchipsupport/openbill/noadultwing; no11daygray transferred. Neutraldisplay notbiologicalsexratio/sciencepass. Exactnewborn proportions and nestcutaway remainpending.
 ![image](concepts/23-psiloscops-flammeolus-v2.png)
+
+## 21-megascops-choliba-v3
+ActualeditedPNGviewed: thickloosechipheap reduced to a muchbarercavityfloor withfewflatbarkpieces. Chickbelly/feetstillcontactfloor, openeyes/whitefinefluff/shortdarkemergingwingpins retained; adults/yelloweyes/greengraybills/blackfacediskborder/labels/palmwalls unchangedvisually. Nest43cmdepthnotrepresented asmeasurement; exposedcavity isartcutaway. Finepinlength/irisage/sexscale stillpending, sciencefalse.
+![image](concepts/21-megascops-choliba-v3.png)

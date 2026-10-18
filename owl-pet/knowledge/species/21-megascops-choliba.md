@@ -31,3 +31,8 @@ v2首图仍出现一束偏长的幼鸟翼羽，已定向编辑为白绒主体和
 ## 待办
 
 固定完整251种名录与本组参考亚种；补充同一亚种的分性别测量及11–13日龄高分辨率影像，校准羽轴长度和比例。不得把色型差异当作性别差异。
+
+## 21-megascops-choliba-v3 2026-10-18T20:45:04.306Z
+ActualeditedPNGviewed: thickloosechipheap reduced to a muchbarercavityfloor withfewflatbarkpieces. Chickbelly/feetstillcontactfloor, openeyes/whitefinefluff/shortdarkemergingwingpins retained; adults/yelloweyes/greengraybills/blackfacediskborder/labels/palmwalls unchangedvisually. Nest43cmdepthnotrepresented asmeasurement; exposedcavity isartcutaway. Finepinlength/irisage/sexscale stillpending, sciencefalse.
+![image](../../design/concepts/21-megascops-choliba-v3.png)
+[Prompt/review](../../production/runs/2026-10-19T0431+0800-cycle-4.md)

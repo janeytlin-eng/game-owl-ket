@@ -655,3 +655,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18T20:34:06.411Z
 138-otus-mentawi-v2 REVISION independentlyverified original; unique136/251,science0; finecalibrationpending.
+
+## 2026-10-18T20:38:15.831Z
+139-otus-jolandae-v1 NEW independentlyverified original; unique137/251,science0; finecalibrationpending.

@@ -317,3 +317,6 @@ Style reference137 caused anatomy/palette carryover in138 despite explicit avoid
 
 ## 2026-10-18T20:34:06.411Z actualiteration
 Single-region bellyground edit produced visible warmth improvement after previouscombinedprompt weakresponse. Effective hereonly, notgeneralvalidated. Do notinterpret colorwarmth as exact scientific calibration or transfer adultpalette tojuvenile.
+
+## 2026-10-18T20:38:15.831Z actualiteration
+Generatedbars became repeatedgraphic arcs despitefinebarprompt; targetededit visiblythinnedthem but exactpatternnotverified. Preserve formedwings of documentedolderimmature rather than applying universalremoval rule. Priorstylecarryover138 bellynotappliedto139 becauseprimarydiagnosisrequirescontrast.

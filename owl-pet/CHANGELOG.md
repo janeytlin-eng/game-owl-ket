@@ -544,3 +544,5 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 138-otus-mentawi-v1 NEW original d8c25538c9c5647ef8095a9b2e60408316281fcb; source/review evidence in cycle6 record.
 
 2026-10-18T20:34:06.411Z 138-otus-mentawi-v2 REVISION imagecommit60a1fc48d498baaf7e7f52796fb89a4f60151711 independentlyverified; sciencefalse.
+
+2026-10-18T20:38:15.831Z 139-otus-jolandae-v1 NEW imagecommitf83543a716445fded927a992c99b2c7cd9894538 independentlyverified; sciencefalse.

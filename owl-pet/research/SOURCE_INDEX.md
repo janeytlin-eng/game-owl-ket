@@ -1807,3 +1807,6 @@ Fresh original speciessection externally refreshed2026-10-18; p104yelloweyes/bla
 
 ### MARS-WESKE-1981 reuse 2026-10-18 cycle1603-1
 Externally reopened original author fulltext pp2–3 (same URL/ID, no duplicate source): abdominal transverse white spaces separated by shaft/crossbars vary in clarity and alignment; one specimen central belly unmarked. This supports breaking artificial uniform U scale outlines, NOT erasing diagnostic pattern. Actual #128v2 belly edit visually reduced outlined scallops, irregular pale spaces/deep shafts remain. Source and exact feather map not color-calibrated. New0/reused1 externally refreshed; MARS-MIK2013-234 prior stage context reused, not fresh book read. [Run](../production/runs/2026-10-18T1603+0800-cycle-1.md) [image](../design/concepts/128-megascops-marshalli-v2.png). Sciencefalse.
+
+### NWFO-OWLPAGES-2020 reuse1630 failededit
+2026-10-18 actualDescription externallyreread basalhalf/duskytoes, current#109v7 twoeditsactuallyviewed notclearlyeffective. NewIDs0/reused1. Do not countasmodelimprovement/sciencepass. Broad2008Commonsphotoidentificationmayincludecaptivesouthernform, no extra sourcefactcredit. [Cycle2](../production/runs/2026-10-18T1603+0800-cycle-2.md). Nextattempt mustusecloseup foot-specific reference orlargerlocalreconstruction insteadofsamefulltrioinstruction.

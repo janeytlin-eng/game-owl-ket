@@ -1434,23 +1434,32 @@
           "commit_sha": "6ce6e1a4bada597fe8958bcc172a7e3ec51990c9",
           "verification_commit_sha": "e178ca6ca23caa620714dc4f81393f4203ea15cf",
           "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Strix nebulosa",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "dd76a283617a07b5a73116a709fd9ff9e668990a",
+          "verification_commit_sha": "da81b5aa6f5b0c3c253d0f0ca280cb3a6966f24d",
+          "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-18T14:31:23.867Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-18T15:39:52.612Z",
-        "commit_sha": "6ce6e1a4bada597fe8958bcc172a7e3ec51990c9",
-        "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-4.md"
+        "at": "2026-10-18T15:43:25.088Z",
+        "commit_sha": "dd76a283617a07b5a73116a709fd9ff9e668990a",
+        "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-5.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-production-20261018-2328",
     "run_id": "2026-10-18T2328+0800",
-    "heartbeat_at": "2026-10-18T15:39:52.612Z",
-    "expires_at": "2026-10-18T15:54:52.612Z"
+    "heartbeat_at": "2026-10-18T15:43:25.088Z",
+    "expires_at": "2026-10-18T15:58:25.088Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1499,5 +1508,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-18T15:39:52.612Z"
+  "updated_at": "2026-10-18T15:43:25.088Z"
 }

@@ -1670,3 +1670,8 @@ SJOB-OWLPAGES-2020: DeaneLewis2020-10-31, https://www.owlpages.com/owls/species.
 SJOB-SOBEL-2024-LEAD: ScottSobel BirdForum https://www.birdforum.net/gallery/sj%C3%B6stedts-owlet.723691/ actualmetadata/captionread:2024-09-18LomakoYokokalaDRC,tropicalrainforest,flashlightnotcameraflash. Age/sexnotgiven, ownJPEGpixelsnotviewedthisturn. ThereforeNOTverifiedadult/juvenileplumagesource, contrarythumbnailassumptions; leadonly. Noimagecopiedrepo.
 
 Mapping:Glaucidium sjostedti/Taenioglaux sjostedti; juvenileplumage→SJOB-POB-2011 (secondaryunconfirmed), taxonomy/range→SJOB-OWLPAGES-2020, fieldphotometadata→SJOB-SOBEL-2024-LEAD (pixels/ageunverified). Noimageversionorcompletedcredit. [Cycle3 uncertainty and failedoriginalpaperfetch](../production/runs/2026-10-18T0528+0800-cycle-3.md).
+
+
+### 2026-10-18 cycle3 resumed #110v3
+BSO-EISERMANN-FIELD and BSO-CAYAYA-FIELD freshly read original sections/captions; field family JPEG actually viewed. New0/reused2; exact age and sex scale unknown. Fine irregular juvenile covert texture supports local design correction, formed remiges retained. [Full prompt/stages](../production/runs/2026-10-18T0528+0800-cycle-3.md).
+FOSTER-1971-NONOWL — Mercedes S. Foster 1971, Plumage and Behavior of a Juvenile Gray-headed Kite, Auk88(1) Article18. https://digitalcommons.usf.edu/auk/vol88/iss1/18/ USF Libraries institutional bibliography; actual title/author/citation read2026-10-18, no owl species or developmental stage. Corrects previous unverified fosterauk88.pdf lead; excluded from owl biology. No article fulltext read or copied; bibliographic confidence high, no design support. Related cycle3 record. One excluded lead correction, not a new useful owl source.

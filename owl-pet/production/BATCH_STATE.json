@@ -1229,18 +1229,19 @@
       "next_cycle": 5,
       "started_at": "2026-10-18T00:57:22.286Z",
       "last_checkpoint": {
-        "at": "2026-10-18T04:40:43.891Z",
-        "stage": "VERIFIED",
-        "commit_sha": "bc026dc93e94d808d8519cdf46731762d565c47f",
-        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-4.md"
+        "at": "2026-10-18T04:46:14.804Z",
+        "stage": "RESEARCH_READY",
+        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-5.md",
+        "species": "Strix hadorami",
+        "reason": "#109v6 ineffective toe attempt archived not counted; primary-photo-backed #126 being generated"
       }
     }
   ],
   "lease": {
     "owner": "owl-1234",
     "run_id": "2026-10-18T1234+0800",
-    "heartbeat_at": "2026-10-18T04:40:43.891Z",
-    "expires_at": "2026-10-18T04:55:43.891Z"
+    "heartbeat_at": "2026-10-18T04:46:14.804Z",
+    "expires_at": "2026-10-18T05:01:14.804Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

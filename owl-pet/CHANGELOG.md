@@ -517,3 +517,6 @@ NEW unique121/251. Photo-supported older graybrownjuvenile, exactageunknown/capt
 
 ### #124 Ketupa philippensis v1 2026-10-18T01:00:51.324Z
 NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldrecords; adultsnear-equaldisplay nosexratioassumed. Actualview retainedwarmer/fainteryoungstreaks, formedwingtail, footsupport, shorttufts/graybills; exacteye/coverts/sexheight pending/sciencefalse. New3PEOsourceIDs. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/08dab32247854136d336748278629503b3a1fa24/owl-pet/design/concepts/124-ketupa-philippensis-v1.png); [Research/prompt/review](../production/runs/2026-10-18T0857+0800-cycle-1.md). Independentlydownloaded fullPNG2856062bytes1536x1024 SHA256cea2700cb05891981d29f8b83aac1c2114bdf2c3091515c3dd0d0452c0795ba4 Gitblob2bd2ae81a95e8fa780ab62b8e91daf3cb516f954 matcheslocal.
+
+## 2026-10-18 batch1258 complete6/6
+新增#128M.marshalli/#129M.hoyi/#130M.koepckeae/#131M.watsonii，修订#126v2/#130v2。129/251种，188版本，原图逐张下载完整解码及SHA256/Gitblob核验完成，科学通过0。历史编号/版本/确认不改；3处旧提示追加恢复。来源新增14条/复用4次；仍未知精确羽龄/比例/羽纹。 [完整研究、提示、逐图检查与提交入口](production/runs/2026-10-18T1258+0800-summary.md)。

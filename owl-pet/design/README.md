@@ -491,3 +491,7 @@ Actual rebuilt and edited PNG viewed: female display height raised toward male o
 ## 135-otus-silvicola-v1
 Actual edited PNG viewed: young forehead V/whitecrownspots reduced, finelybarred fluffy head/chest dominates with fewer verticalshafts; formed foldedwings retained, crouchedbody/twofeetbranch supported. Adults yelloweyes/graybills/palegraybuffbreast/whitebellycenter/basaltoe feathering retained visually; mild detaildrift notpixelidentity. Exact youngage/iris/color/finebars/sexheight unvalidated. Type's fullyfeatheredimmature selected NOTnewborn; grayscaleFig8 notknownage. Scientificfalse.
 ![原图](concepts/135-otus-silvicola-v1.png)
+
+## 08-strix-nebulosa-v3
+Actual edited fullPNG viewed: modest diffuse gray around chickcheeks/rearhead now visible vswhiteforehead; still muchsubtler than primarycamframe, exactextent/agegeometrypending. Halfopeneyes/hornyellowbill/whitebody/shortdownywing/noadulttail, bellyfloor/tuckedfeet support retained. Adults facialrings/yelloweyes/barring/labels preserved visually, slightdetaildrift. Scientificfalse; oldapprovalnottransferred. Prior128v3twofailedcrownedits remainauditnotcredited.
+![原图](concepts/08-strix-nebulosa-v3.png)

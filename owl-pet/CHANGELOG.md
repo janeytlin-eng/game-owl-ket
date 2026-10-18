@@ -530,3 +530,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18T18:44:08.830Z
 135-otus-silvicola-v1 NEW，独立原图完整核验，科学未通过。
+
+## 2026-10-18T18:49:22.144Z
+08-strix-nebulosa-v3 REVISION，独立原图完整核验，科学未通过。

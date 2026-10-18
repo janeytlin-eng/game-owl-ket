@@ -30,3 +30,7 @@ ORI2020具体巢观察：约7和9日龄雏鸟眼睛半睁；初生白绒羽尚�
 幼鸟后脑加入少量灰色第二绒羽；颊侧仍比巢摄浅，范围待校准，不精确赋日龄。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
 来源索引ID：GGO-ORI-2020-0506 / OWL-SRC-0053-C，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
 [v2原图](../../design/concepts/08-strix-nebulosa-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-5.md) · 图片提交dd76a283617a07b5a73116a709fd9ff9e668990a。
+
+## 08-strix-nebulosa-v3
+Actual edited fullPNG viewed: modest diffuse gray around chickcheeks/rearhead now visible vswhiteforehead; still muchsubtler than primarycamframe, exactextent/agegeometrypending. Halfopeneyes/hornyellowbill/whitebody/shortdownywing/noadulttail, bellyfloor/tuckedfeet support retained. Adults facialrings/yelloweyes/barring/labels preserved visually, slightdetaildrift. Scientificfalse; oldapprovalnottransferred. Prior128v3twofailedcrownedits remainauditnotcredited.
+Sources new0/reused2 MARS-WESKE-1981 failedtarget, GGO-ORI-2020-0506 actualfreshbody/GIF primaryphoto; index4101148e129dea1badefe314676eb5d58ce8f425 and d9fd769e60425bfaf33bbdb06eae4f9b3a95a7de; fullprompt/stages [run](../../production/runs/2026-10-19T0025+0800-cycle-3.md). [Original](../../design/concepts/08-strix-nebulosa-v3.png).

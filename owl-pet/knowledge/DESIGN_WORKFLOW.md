@@ -302,3 +302,6 @@ Prior style-reference blackcap/scallop leakage persisted through initial edit; c
 
 ### 135-otus-silvicola-v1 evidence-led iteration
 Species-specific museum first-adult transition requires mostlyfinebars notscaledadultshafts, while formed wings are legitimate. Edit actualview reducedshafts/whiteV but no exactfeathermap validation. Wikipedia cm wingspan error excluded; primarysexglyphs visuallychecked p115 N1/sex not standingratio. Compared134graymesoptile-with-hiddenwings and135fullyfeatheredstage separately; no universal feather deletion. Scope limited to actual output; not universal model improvement or scientific pass.
+
+### 08-strix-nebulosa-v3 evidence-led iteration
+Two128crownedits failed; record result notprompt. Replacement08target diffusegraycheek got limited visiblechange, no exactsourcecolormatch. Sourcefirstwhite andsecondgraydowncan coexist, do not replaceallwithgray or adultmask. Compare135laterformedwing separate; no automaticdeletion. Scope limited to actual output; not universal model improvement or scientific pass.

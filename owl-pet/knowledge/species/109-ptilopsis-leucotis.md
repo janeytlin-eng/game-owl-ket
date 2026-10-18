@@ -20,3 +20,7 @@ First targeted edit ineffective, not credited as success; second actual viewed e
 [Original](../../design/concepts/109-ptilopsis-leucotis-v3.png)
 [Sources](../../research/SOURCE_INDEX.md)
 [Full prompts and stages](../../production/runs/2026-10-16T1345+0800-cycle-4.md)
+
+
+### #109v4 attempted revision 2026-10-18T00:41:57.977Z
+Two actual built-in edits and reviews completed. Female proximal toe collar fuller, but target basal-half coverage remains unverified/not demonstrably achieved; male toe extent unresolved. Not an effective anatomical fix or scientific pass. Minor face/bill detail drift recorded. Older juvenile formed remiges and branch grips retained. Archive preserved for audit, no unique-species increment;118/251 unchanged. Sources new0/reused2 NWFO-OWLPAGES-2020 (fresh Description) and NWFO-HEUCLIN-TOGO (prior primary pixels, not freshly viewed). [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/a1c4cbe595f1cb8e8022f6f189beda4bb544c7d7/owl-pet/design/concepts/109-ptilopsis-leucotis-v4.png). [Full prompts, review and continuation](../production/runs/2026-10-18T0528+0800-cycle-4.md). PNG2637899bytes1536x1024 independent immutable download/full decode SHA256c837e1e769b63d56694185bf65137b8e258ba536108ce9ae03b51e957d81ad9d Gitblob9454bda37c0ed7576b7a5dbae0901bf054890285 matcheslocal.

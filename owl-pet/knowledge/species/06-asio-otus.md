@@ -24,3 +24,6 @@ Seidensticker等2006研究美国蒙大拿52只幼鸟、15巢：初生白绒羽�
 ![v1](../../design/concepts/06-asio-otus-v1.png)
 
 生成规格：电影感3D动画角色、欧洲型橙眼与细长耳羽簇、成年雌雄尺寸接近、早期白绒羽巢内雏鸟、灰绿幼鸟虹膜、自然头颈与低伏姿态、非测量比例。内置imagegen生成并修正成年站姿。
+
+## #06v2 archive
+Actual built-in edit viewed: early chick tan structured disks removed, unstructured white down/graygreeniris retained, nest-supported lowbody and adults preserved visually. Reuse LEO-SEIDENSTICKER-2006 fresh pp982–983; exactage/feathermap/European-Montana correspondence and adultheight pending, sciencefalse. Prior approval v1 retained not transferred. Original2604774bytes SHA2561db9b61edaf27ee3bd643e93d1324ebab73a993c7eab4d764aa2cfb53fdedb8f Gitblobff9b55db488963b3c4f3be288114a4b01ed7c1f5. Remote download verification pending. Unique122/251 unchanged.

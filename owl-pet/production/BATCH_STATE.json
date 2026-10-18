@@ -1337,23 +1337,32 @@
           "commit_sha": "27685c281314ca0ff03d689ba65108094940e028",
           "verification_commit_sha": "e42b5d7690c9be52e7a7ed7a659e60e8abe4f2c3",
           "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix davidi",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "fddc1245d22aa032548575d2dcf49b3f17f88d02",
+          "verification_commit_sha": "6437a0f80d3b606f34b88d57ed6d8882e5aa28e5",
+          "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-18T08:06:09.654Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_INCOMPLETE",
-        "at": "2026-10-18T08:09:10.431Z",
-        "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-2.md",
-        "reason": "Three candidate original-page reads inaccessible; no juvenile stage evidence or generated image. Resume cycle2, do not reset."
+        "stage": "VERIFIED",
+        "at": "2026-10-18T08:39:25.570Z",
+        "commit_sha": "fddc1245d22aa032548575d2dcf49b3f17f88d02",
+        "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-2.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-1630",
-    "run_id": "2026-10-18T1603+0800-cycle2",
-    "heartbeat_at": "2026-10-18T08:38:13.401Z",
-    "expires_at": "2026-10-18T08:53:13.401Z"
+    "run_id": "2026-10-18T1603+0800-cycle3",
+    "heartbeat_at": "2026-10-18T08:39:25.570Z",
+    "expires_at": "2026-10-18T08:54:25.570Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1402,5 +1411,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-18T08:30:49.729Z"
+  "updated_at": "2026-10-18T08:39:25.570Z"
 }

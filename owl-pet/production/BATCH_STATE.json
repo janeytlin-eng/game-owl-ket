@@ -1416,9 +1416,18 @@
           "commit_sha": "0ec35f2b5fe2e9afc2b2dd74edc2c2a0f987feaf",
           "verification_commit_sha": "20dce72052e13d2c75668c232870b6e5006befb1",
           "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Athene cunicularia",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "adfc57c501e3ec61c3132519af8209edf63418ab",
+          "verification_commit_sha": "7fa38f4da41b676f71b100cd4000df7cdf68fe1a",
+          "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-18T14:31:23.867Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
@@ -1430,8 +1439,8 @@
   "lease": {
     "owner": "owl-production-20261018-2328",
     "run_id": "2026-10-18T2328+0800",
-    "heartbeat_at": "2026-10-18T15:32:23.712Z",
-    "expires_at": "2026-10-18T15:47:23.712Z"
+    "heartbeat_at": "2026-10-18T15:35:39.811Z",
+    "expires_at": "2026-10-18T15:50:39.811Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

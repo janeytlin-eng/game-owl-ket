@@ -479,3 +479,7 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 幼鸟肩翼由硬质羽片改为不规则短灰绒，实际编辑查看；保留v1及其用户确认，不转移批准。细羽纹/日龄/比例待科学校准。
 ![v2](concepts/05-strix-aluco-v2.png)
 [研究及实际检查](../production/runs/2026-10-18T2230+0800-cycle-2.md)
+
+
+## 2026-10-18 五项v2集中入口
+[05灰林鸮](concepts/05-strix-aluco-v2.png) · [09穴小鸮](concepts/09-athene-cunicularia-v2.png) · [12北美锯鸮](concepts/12-aegolius-acadicus-v2.png) · [08大灰鸮](concepts/08-strix-nebulosa-v2.png) · [15横斑林鸮](concepts/15-strix-varia-v2.png)。均实际编辑查看和远端完整解码哈希核验，仍待科学校准。旧用户批准不自动覆盖新版。 [研究、提示及复查提交](../production/runs/2026-10-18T2230+0800-resume-2328-summary.md)。

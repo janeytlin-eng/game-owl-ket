@@ -27,3 +27,9 @@ Cornell幼鸟照片所示较大幼鸟斑纹少于成年，不将其混入本图�
 ![v1](../../design/concepts/09-athene-cunicularia-v1.png)
 
 生成规格：电影感3D动画角色、北美西部型、长腿短尾、成年雌雄同尺寸、黄眼白眉白喉与腹部横纹、地下巢室剖视中的灰白初生闭眼雏鸟、非测量比例。内置imagegen生成。
+
+
+## 2026-10-18 v2 实际修订与复查
+初生幼鸟翼芽修订；去除层叠羽片，灰白绒/稀疏粉皮；比例与密度仍待科学校准。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
+来源索引ID：BUOW-SDZ-2017 / BUOW-CORNELL-LIFE，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
+[v2原图](../../design/concepts/09-athene-cunicularia-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-3.md) · 图片提交adfc57c501e3ec61c3132519af8209edf63418ab。

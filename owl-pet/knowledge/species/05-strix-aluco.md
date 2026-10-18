@@ -23,3 +23,9 @@ Barn Owl Trust救护观察：较小巢内雏鸟以短厚灰绒羽为主，较大
 ![v1](../../design/concepts/05-strix-aluco-v1.png)
 
 生成规格：电影感3D动画角色、同地面视角、棕型成年雌雄、灰绒羽巢内雏鸟、暗眼、粉红幼鸟眼睑、无耳羽簇、自然头颈、非测量比例。使用内置imagegen生成。
+
+
+## 2026-10-18 v2 实际修订与复查
+肩翼灰绒修订；短厚灰绒方向改善，细羽纹/精确羽龄与比例仍未知。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
+来源索引ID：TAO-BOT-OWLET / TAO-BTO-FACTS，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
+[v2原图](../../design/concepts/05-strix-aluco-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-2.md) · 图片提交0ec35f2b5fe2e9afc2b2dd74edc2c2a0f987feaf。

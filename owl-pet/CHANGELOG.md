@@ -520,3 +520,7 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18 batch1258 complete6/6
 新增#128M.marshalli/#129M.hoyi/#130M.koepckeae/#131M.watsonii，修订#126v2/#130v2。129/251种，188版本，原图逐张下载完整解码及SHA256/Gitblob核验完成，科学通过0。历史编号/版本/确认不改；3处旧提示追加恢复。来源新增14条/复用4次；仍未知精确羽龄/比例/羽纹。 [完整研究、提示、逐图检查与提交入口](production/runs/2026-10-18T1258+0800-summary.md)。
+
+
+## 2026-10-18 23:28 五项修订
+05/09/12/08/15新增v2保留旧图及批准，实际编辑查看、远端完整解码哈希核验；累计仍131/251，201版本，科学通过0。旧批次跨次关闭6/6，本次5轮，不声称单次六轮。来源稳定ID新增9/旧ID复用1。 [逐图原图及commit](production/runs/2026-10-18T2230+0800-resume-2328-summary.md)。

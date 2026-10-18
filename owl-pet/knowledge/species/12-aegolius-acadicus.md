@@ -29,3 +29,9 @@ Cornell生命周期：刚孵化白绒羽、闭眼；使用旧啄木鸟洞和巢�
 
 ## 保护状态补充（2026-10-10检索）
 物种未灭绝；HawkWatch当前页面列全球IUCN无危LC。加拿大政府2017评估brooksi亚种为受威胁，不能将亚种状态套在整物种或指名亚种。来源：https://hawkwatch.org/raptor-id/raptor-id-fact-sheets/northern-saw-whet-owl/ 、https://www.canada.ca/en/environment-climate-change/services/species-risk-public-registry/cosewic-assessments-status-reports/northern-saw-whet-owl-2017.html
+
+
+## 2026-10-18 v2 实际修订与复查
+成年落脚基线拉平；保留雌鸟稍丰满，不从体重推站高；幼鸟不改变。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
+来源索引ID：NSWO-ORI-FACTS / NSWO-CORNELL-LIFE，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
+[v2原图](../../design/concepts/12-aegolius-acadicus-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-4.md) · 图片提交6ce6e1a4bada597fe8958bcc172a7e3ec51990c9。

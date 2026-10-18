@@ -292,3 +292,7 @@ NEW unique121/251. Photo-supported older graybrownjuvenile, exactageunknown/capt
 
 ### #124 Ketupa philippensis v1 2026-10-18T01:00:51.324Z
 NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldrecords; adultsnear-equaldisplay nosexratioassumed. Actualview retainedwarmer/fainteryoungstreaks, formedwingtail, footsupport, shorttufts/graybills; exacteye/coverts/sexheight pending/sciencefalse. New3PEOsourceIDs. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/08dab32247854136d336748278629503b3a1fa24/owl-pet/design/concepts/124-ketupa-philippensis-v1.png); [Research/prompt/review](../production/runs/2026-10-18T0857+0800-cycle-1.md). Independentlydownloaded fullPNG2856062bytes1536x1024 SHA256cea2700cb05891981d29f8b83aac1c2114bdf2c3091515c3dd0d0452c0795ba4 Gitblob2bd2ae81a95e8fa780ab62b8e91daf3cb516f954 matcheslocal.
+
+
+## 2026-10-18 23:28 五项实际规则复查
+局部改羽纹不等于年龄验证：05/09根据各自物种来源分别柔化灰绒与去掉初生翼片，实际查看；08有后脑灰绒过渡但颊侧仍浅，局限保留。12/15拉平共同落脚基线，实际查看支持消除构图混淆，不将体重变身高。回查10原图无足够明确新错误，不无依据编辑；133较晚幼鸟翼羽不得套初生删除规则。五图科学仍false；未重新验收全库，非模型训练改进。详细证据见production/runs/2026-10-18T2230+0800-resume-2328-summary.md。

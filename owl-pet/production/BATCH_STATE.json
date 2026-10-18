@@ -1256,7 +1256,7 @@
     },
     {
       "batch_id": "2026-10-18T1258+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -1303,24 +1303,29 @@
           "commit_sha": "305382082327a02d9b17b3010832083fa366aa56",
           "verification_commit_sha": "cb1eac7a1a05bbeb912ce20c2c999a101869af95",
           "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops koepckeae",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "4cb84d65c83eabb30d94c2a60718d1bd283875bd",
+          "verification_commit_sha": "15375b844489c4ed312048d48896df608954f401",
+          "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-18T04:58:39.274Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-18T07:54:16.936Z",
-        "commit_sha": "305382082327a02d9b17b3010832083fa366aa56",
-        "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-5.md"
-      }
+        "at": "2026-10-18T07:58:35.624Z",
+        "commit_sha": "4cb84d65c83eabb30d94c2a60718d1bd283875bd",
+        "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-18T07:58:35.624Z"
     }
   ],
-  "lease": {
-    "owner": "owl-1530",
-    "run_id": "2026-10-18T1530+0800",
-    "heartbeat_at": "2026-10-18T07:54:16.936Z",
-    "expires_at": "2026-10-18T08:09:18.301Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -1368,5 +1373,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-18T05:32:34.027Z"
+  "updated_at": "2026-10-18T07:58:35.624Z"
 }

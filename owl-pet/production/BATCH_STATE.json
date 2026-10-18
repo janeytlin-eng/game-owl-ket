@@ -1294,23 +1294,32 @@
           "commit_sha": "9d050581b6c8bde992172e777fe93d495a9ec6f7",
           "verification_commit_sha": "82feb880d6885d423f34475e3826325dffa72067",
           "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops watsonii",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "305382082327a02d9b17b3010832083fa366aa56",
+          "verification_commit_sha": "cb1eac7a1a05bbeb912ce20c2c999a101869af95",
+          "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-18T04:58:39.274Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-18T07:48:40.091Z",
-        "commit_sha": "9d050581b6c8bde992172e777fe93d495a9ec6f7",
-        "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-4.md"
+        "at": "2026-10-18T07:54:16.936Z",
+        "commit_sha": "305382082327a02d9b17b3010832083fa366aa56",
+        "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-5.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-1530",
     "run_id": "2026-10-18T1530+0800",
-    "heartbeat_at": "2026-10-18T07:50:08.763Z",
-    "expires_at": "2026-10-18T08:05:08.763Z"
+    "heartbeat_at": "2026-10-18T07:54:16.936Z",
+    "expires_at": "2026-10-18T08:09:18.301Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

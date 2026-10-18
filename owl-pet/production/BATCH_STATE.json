@@ -1224,16 +1224,24 @@
           "commit_sha": "bc026dc93e94d808d8519cdf46731762d565c47f",
           "verification_commit_sha": "445a8165ec0eb2039f69598c30b004be28503747",
           "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Strix hadorami",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "b6e448dea14e77524697eb8996834f55909e0fc9",
+          "verification_commit_sha": "7edc35537b3f114e63976d0b9c44be9d0dcd497a",
+          "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-18T00:57:22.286Z",
       "last_checkpoint": {
-        "at": "2026-10-18T04:46:14.804Z",
-        "stage": "RESEARCH_READY",
-        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-5.md",
-        "species": "Strix hadorami",
-        "reason": "#109v6 ineffective toe attempt archived not counted; primary-photo-backed #126 being generated"
+        "at": "2026-10-18T04:50:38.344Z",
+        "stage": "VERIFIED",
+        "commit_sha": "b6e448dea14e77524697eb8996834f55909e0fc9",
+        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-5.md"
       }
     }
   ],

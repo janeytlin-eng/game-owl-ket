@@ -1267,23 +1267,32 @@
           "commit_sha": "29b5767f6d085823fd37639de5078eb0c5351619",
           "verification_commit_sha": "9420defc080035780f2fbf92fcfaa7d588b7159d",
           "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Megascops marshalli",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "b5f072aa5afa7e74c443b0a1829e480e9339a1f3",
+          "verification_commit_sha": "d3f68684eb57d497bfc79f2e4532d66c3a02d870",
+          "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-18T04:58:39.274Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-18T07:33:48.269Z",
-        "commit_sha": "29b5767f6d085823fd37639de5078eb0c5351619",
-        "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-1.md"
+        "at": "2026-10-18T07:38:03.840Z",
+        "commit_sha": "b5f072aa5afa7e74c443b0a1829e480e9339a1f3",
+        "run_record": "owl-pet/production/runs/2026-10-18T1258+0800-cycle-2.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-1530",
     "run_id": "2026-10-18T1530+0800",
-    "heartbeat_at": "2026-10-18T07:33:48.269Z",
-    "expires_at": "2026-10-18T07:48:49.628Z"
+    "heartbeat_at": "2026-10-18T07:38:03.840Z",
+    "expires_at": "2026-10-18T07:53:05.017Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

@@ -536,3 +536,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18T18:53:24.916Z
 136-megascops-petersoni-v1 NEW，独立原图完整核验，科学未通过。
+
+## 2026-10-18T19:31:37.752Z
+137-otus-alfredi-v1 NEW original 319bd390d0bdafe465a71c62ca8fd9cb3ca3ef4a; source/review evidence in cycle5 record.

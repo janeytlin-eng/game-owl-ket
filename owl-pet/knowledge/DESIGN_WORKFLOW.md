@@ -308,3 +308,6 @@ Two128crownedits failed; record result notprompt. Replacement08target diffusegra
 
 ### 136-megascops-petersoni-v1 evidence-led iteration
 Museum first-yearalmostadult stage can legitimatelyretainformedwingtail; don't apply134hiddenwing or08initialdownrules. Buffnotwhite diagnosis explicit inprompt and actualview broadwarmbuff patches retained, but tonalcalibrationpending. Primarysparse distaltarsus separate from135basaltoefeathercoverage. No universal toe rule. Scope limited to actual output; not universal model improvement or scientific pass.
+
+## 2026-10-18T19:31:37.752Z actual iteration
+Recovered edit had fixed distal tarsi but introduced gray claws: inspect neighboring softpart colors after a local anatomy correction. Current orange-yellow claw edit actually viewed improved; crownflecks reduced but exact extent unvalidated. Do not generalize orange claws to other species.

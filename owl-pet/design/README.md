@@ -499,3 +499,7 @@ Actual edited fullPNG viewed: modest diffuse gray around chickcheeks/rearhead no
 ## 136-megascops-petersoni-v1
 Actual newPNG viewed: cinnamonbrown adultground/darkirises/palegraygreenbills/shortmoderate tufts/duskyfaceedges, faintbarredshaft underparts, warmbuffscapularpatches notbrightwhite, sparsebarelowerleg/baretoes/branchcontacts. Olderfirstyear fluffier/palerbuffbarredbody withformedwing/tail andheadtilt retained; notneonate. Near-equaladultdisplay notsexratio. No grossstage/supportproblem requiringadditionaledit; exactpalehighlightcolor/feathermap/firstyearage/sexscale/toeextent stillpending sciencefalse. Generationwaitms60702,edit0.
 ![原图](concepts/136-megascops-petersoni-v1.png)
+
+## 137-otus-alfredi-v1
+Actual final edited image viewed: short bare orange lower tarsi retained, claws now orange-yellow rather than gray; adult posterior crown flecks reduced, forehead flecks retained. Rusty plain back/no blackshaft pattern, short rounded tufts, yellow adult irises/orange bills, supported branch grips; later feathered juvenile with residual down, closed resting eyes and hidden tail preserved. Exact feather map, crown limits, auricular filaments, juvenile unknown iris/age, adult sex ratio remain pending. No scientific pass.
+![Original](concepts/137-otus-alfredi-v1.png)

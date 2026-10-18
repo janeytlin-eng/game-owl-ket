@@ -311,3 +311,6 @@ Museum first-yearalmostadult stage can legitimatelyretainformedwingtail; don't a
 
 ## 2026-10-18T19:31:37.752Z actual iteration
 Recovered edit had fixed distal tarsi but introduced gray claws: inspect neighboring softpart colors after a local anatomy correction. Current orange-yellow claw edit actually viewed improved; crownflecks reduced but exact extent unvalidated. Do not generalize orange claws to other species.
+
+## 2026-10-18T19:37:25.093Z actual iteration
+Style reference137 caused anatomy/palette carryover in138 despite explicit avoidrules. Actual edit1 improved juvenilepattern but failed tarsi; a subsequent tarsi-only edit actually improved feathercuffs. Targetoneanatomicalregion per followup when combined correction partlyfails; ruleobserved only here, notgeneralvalidated. Known adultbellypalette/tailocclusion/fineplumage remains pending.

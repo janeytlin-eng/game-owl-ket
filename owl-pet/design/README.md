@@ -503,3 +503,7 @@ Actual newPNG viewed: cinnamonbrown adultground/darkirises/palegraygreenbills/sh
 ## 137-otus-alfredi-v1
 Actual final edited image viewed: short bare orange lower tarsi retained, claws now orange-yellow rather than gray; adult posterior crown flecks reduced, forehead flecks retained. Rusty plain back/no blackshaft pattern, short rounded tufts, yellow adult irises/orange bills, supported branch grips; later feathered juvenile with residual down, closed resting eyes and hidden tail preserved. Exact feather map, crown limits, auricular filaments, juvenile unknown iris/age, adult sex ratio remain pending. No scientific pass.
 ![Original](concepts/137-otus-alfredi-v1.png)
+
+## 138-otus-mentawi-v1
+Actual final edit2 viewed: adult gray scaly vertical tarsal shafts replaced with buffbrown feather cuffs to toe bases, baregraytoes/darkclaws/grips retained. Edit1 reduced juvenile boldwhiteocelli/strongfishbones to palergraybrown fluffy chest/thin diffuse shafts and subdued wingmarks; formed foldedwings retained. Adultbellies only modestly warmer, stillverypale and need palettecalibration. Short juveniletail largelyoccluded so wingtip/tailprojection cannot be fully verified; unknown dayage and adultsexualstandingratio. Brownirises/grayhornbills/subduedtufts/mottledchestnutadult retained. No claim all finefeathermap correct or scientificpass. Newthree sources indexed, completeprompt/edit history inrun.
+![Original](concepts/138-otus-mentawi-v1.png)

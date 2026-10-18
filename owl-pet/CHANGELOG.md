@@ -539,3 +539,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18T19:31:37.752Z
 137-otus-alfredi-v1 NEW original 319bd390d0bdafe465a71c62ca8fd9cb3ca3ef4a; source/review evidence in cycle5 record.
+
+## 2026-10-18T19:37:25.093Z
+138-otus-mentawi-v1 NEW original d8c25538c9c5647ef8095a9b2e60408316281fcb; source/review evidence in cycle6 record.

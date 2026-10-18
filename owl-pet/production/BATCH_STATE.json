@@ -1206,25 +1206,32 @@
           "unique_species_increment": 0,
           "commit_sha": "c547ee5088d4288fcdd95fdea6f1dc30b3dbe3c0",
           "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Asio flammeus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "20646b2835e6a0001f1cc80275b21423c11a54ea",
+          "verification_commit_sha": "c73f0c6be4f19b6ac898b1112080aefaf474ca01",
+          "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-18T00:57:22.286Z",
       "last_checkpoint": {
-        "at": "2026-10-18T02:35:40.588Z",
-        "stage": "REVIEW_FAILED_ARCHIVED_ATTEMPT",
-        "commit_sha": "31fd32090d3f2cd40dc97633839defaee002fe7b",
-        "verification_commit_sha": "171dc6018987c515cf13fad0cca1ff35cbcdafe5",
-        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-2.md",
-        "reason": "Two actual imagegen edits did not demonstrably achieve toe feather boundary. No cycle credit. Continue cycle2; integrity verified only."
+        "at": "2026-10-18T03:32:29.169Z",
+        "stage": "VERIFIED",
+        "commit_sha": "20646b2835e6a0001f1cc80275b21423c11a54ea",
+        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-3.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-1126",
     "run_id": "2026-10-18T1126+0800",
-    "heartbeat_at": "2026-10-18T03:30:06.052Z",
-    "expires_at": "2026-10-18T03:45:06.052Z"
+    "heartbeat_at": "2026-10-18T03:32:29.169Z",
+    "expires_at": "2026-10-18T03:47:29.169Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

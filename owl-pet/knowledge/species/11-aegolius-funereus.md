@@ -26,3 +26,12 @@ Cornell生命周期：孵化时白绒羽、闭眼；使用啄木鸟洞、自然�
 ![v1](../../design/concepts/11-aegolius-funereus-v1.png)
 
 内置imagegen生成。生成规格：电影感3D动画角色表、方圆大头、无耳羽簇、深框灰白脸、黄眼浅喙、棕背白点白腹纵纹、接近尺寸成年雌雄、树洞剖视内初生白绒羽闭眼低伏幼鸟、非测量比例。
+
+## v2 early down correction
+
+## IMAGE_GENERATED / REVIEWED 2026-10-18T08:43:48.623Z
+exec-4cd6d15f-a110-4b3e-a9a0-1a1bbad0d926 actualviewed50swait. Youngthinwhitewisps nowshowpinkhead/shoulderpatches; lowbelly supportedwooddust withcheek/neckmound, slightopenbeaknotlimp, closedeyes, tuckedtoes. Noformedwings/tail. Adultfaces/eyes/feathers/feet/scale andlabels visuallyretained notpixelidentity. Broadbookearlystage notknownexactday; degreeofpink/featherdensity andanatomy stillpending. Sourceagecapabilityguard: no24–34dayentranceperch appliedtoearlyyoung. No sciencepass/userapprovaltransfer.
+## ARCHIVED pendingverification
+PNG2642361bytes1536x1024 SHA256e8a3637d274582df0fd94e3bd571f0aaf2c91a2537580cf3af73cbd8e46fe95c Gitblob43dbe95ed1fc07e55f3bc51a4d51577f384fdfc7 copiedworkspace11-aegolius-funereus-v2.png. Unique130/251 unchanged.
+
+Sources BOR-MIK2013-440, BOR-KOUBA-2014 at research/SOURCE_INDEX.md; original v1 and approval preserved, no pass transferred.

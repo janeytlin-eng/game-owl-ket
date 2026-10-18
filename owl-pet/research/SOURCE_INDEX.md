@@ -1734,3 +1734,7 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ### NWFO-OWLPAGES-2020 reuse 2026-10-18 cycle2
 Fresh external Description/Size/Habitat read https://www.owlpages.com/owls/species.php?s=1160 (Deane Lewis, updated2020-10-25; accessed2026-10-18). Secondary species account supports feathered tarsi extending onto basal half toes, dusky-brown distal toes. Qualitative female larger is not a numerical standing-height rule. Used only for targeted #109v5 adult toe-covering correction; prior older-juvenile stage/formed wings retained, no new age assertions. Actual image review required, not assumed effective. New IDs0/reused1/corrected0. [Cycle2](../production/runs/2026-10-18T0857+0800-cycle-2.md). No new book page read.
+
+
+### LEO-SEIDENSTICKER-2006 reuse 2026-10-18 #06v2
+Fresh author fulltext pp982–983 and screenshotp983 actually read. Primary52Montananestlings/15nests, earlywhite nataldown/graygreeniris versus later grayblackdisks and brownruff. Supports removing v1 earlychick structured tan disks while retaining open-eye early stage; no exactday or European iris inference. Source URL https://tylerflockhart.com/wp-content/uploads/2016/06/1.Seidensticker_2006.pdf . New0/reused1/corrected0. [Cycle2](../production/runs/2026-10-18T0857+0800-cycle-2.md), intended06-asio-otus-v2. Prior user approval not transferred. No new Mikkola page read.

@@ -1425,22 +1425,32 @@
           "commit_sha": "adfc57c501e3ec61c3132519af8209edf63418ab",
           "verification_commit_sha": "7fa38f4da41b676f71b100cd4000df7cdf68fe1a",
           "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Aegolius acadicus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6ce6e1a4bada597fe8958bcc172a7e3ec51990c9",
+          "verification_commit_sha": "e178ca6ca23caa620714dc4f81393f4203ea15cf",
+          "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-18T14:31:23.867Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-18T15:32:23.712Z",
-        "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-2.md"
+        "at": "2026-10-18T15:39:52.612Z",
+        "commit_sha": "6ce6e1a4bada597fe8958bcc172a7e3ec51990c9",
+        "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-4.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-production-20261018-2328",
     "run_id": "2026-10-18T2328+0800",
-    "heartbeat_at": "2026-10-18T15:35:39.811Z",
-    "expires_at": "2026-10-18T15:50:39.811Z"
+    "heartbeat_at": "2026-10-18T15:39:52.612Z",
+    "expires_at": "2026-10-18T15:54:52.612Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1489,5 +1499,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-18T15:28:47.031Z"
+  "updated_at": "2026-10-18T15:39:52.612Z"
 }

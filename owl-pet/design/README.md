@@ -507,3 +507,7 @@ Actual final edited image viewed: short bare orange lower tarsi retained, claws 
 ## 138-otus-mentawi-v1
 Actual final edit2 viewed: adult gray scaly vertical tarsal shafts replaced with buffbrown feather cuffs to toe bases, baregraytoes/darkclaws/grips retained. Edit1 reduced juvenile boldwhiteocelli/strongfishbones to palergraybrown fluffy chest/thin diffuse shafts and subdued wingmarks; formed foldedwings retained. Adultbellies only modestly warmer, stillverypale and need palettecalibration. Short juveniletail largelyoccluded so wingtip/tailprojection cannot be fully verified; unknown dayage and adultsexualstandingratio. Brownirises/grayhornbills/subduedtufts/mottledchestnutadult retained. No claim all finefeathermap correct or scientificpass. Newthree sources indexed, completeprompt/edit history inrun.
 ![Original](concepts/138-otus-mentawi-v1.png)
+
+## 138-otus-mentawi-v2
+Actuallyviewed edited fullPNG: adultlowerbellies now visibly warmer brown/buff instead oflargeivorypatch, subtlepalergradient retained; juvenile palegraybrown/headtilt/formedwings and adultbrownirises/graybills/feathercuffs/baregraytoes/darkclaws/branchgrips preserved visually. Exactpalette/feathermap and occludedjuveniletail remainunknown; no scientificpass, oldapprovalnottransferred.
+![image](concepts/138-otus-mentawi-v2.png)

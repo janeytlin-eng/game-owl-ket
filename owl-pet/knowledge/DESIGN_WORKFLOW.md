@@ -314,3 +314,6 @@ Recovered edit had fixed distal tarsi but introduced gray claws: inspect neighbo
 
 ## 2026-10-18T19:37:25.093Z actual iteration
 Style reference137 caused anatomy/palette carryover in138 despite explicit avoidrules. Actual edit1 improved juvenilepattern but failed tarsi; a subsequent tarsi-only edit actually improved feathercuffs. Targetoneanatomicalregion per followup when combined correction partlyfails; ruleobserved only here, notgeneralvalidated. Known adultbellypalette/tailocclusion/fineplumage remains pending.
+
+## 2026-10-18T20:34:06.411Z actualiteration
+Single-region bellyground edit produced visible warmth improvement after previouscombinedprompt weakresponse. Effective hereonly, notgeneralvalidated. Do notinterpret colorwarmth as exact scientific calibration or transfer adultpalette tojuvenile.

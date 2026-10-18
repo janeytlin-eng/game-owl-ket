@@ -1155,23 +1155,32 @@
           "commit_sha": "7ec11966e72c79b2382a527d124f56c108cb5b68",
           "verification_commit_sha": "9773071a85aaa112b0946e55b0f03d9e62fb8bb2",
           "run_record": "owl-pet/production/runs/2026-10-18T0528+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus megalotis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "43ffb8b9c6b2d39306476ae6c7b1fc6f23ec1ead",
+          "verification_commit_sha": "2636c590d25bca4ef7f0821454ce408de473d2c8",
+          "run_record": "owl-pet/production/runs/2026-10-18T0528+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-17T21:33:48.624Z",
       "last_checkpoint": {
-        "at": "2026-10-18T00:47:34.315Z",
+        "at": "2026-10-18T00:51:55.207Z",
         "stage": "VERIFIED",
-        "commit_sha": "7ec11966e72c79b2382a527d124f56c108cb5b68",
-        "run_record": "owl-pet/production/runs/2026-10-18T0528+0800-cycle-4.md"
+        "commit_sha": "43ffb8b9c6b2d39306476ae6c7b1fc6f23ec1ead",
+        "run_record": "owl-pet/production/runs/2026-10-18T0528+0800-cycle-5.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-0833",
     "run_id": "2026-10-18T0833+0800",
-    "heartbeat_at": "2026-10-18T00:48:55.213Z",
-    "expires_at": "2026-10-18T01:03:55.213Z"
+    "heartbeat_at": "2026-10-18T00:51:55.207Z",
+    "expires_at": "2026-10-18T01:07:03.677Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1220,5 +1229,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-18T00:47:34.315Z"
+  "updated_at": "2026-10-18T00:51:55.207Z"
 }

@@ -1908,3 +1908,6 @@ Wikipedia contributors, Wallace'sscopsowl oldid1315031866,lastedit4Oct2025, http
 
 ### MARS-WESKE-1981 reuse cycle0025-3 access19Oct2026
 Fresh authorfulltext pp1–3 actuallyread (sameoriginalURL/ID). Crown irregularblackish transversebars/mottledchestnut,moredarkanterior; whitishHINDcrown band notforehead; shorts tufts. Current128v2actualview showsdecorativetiles. Designtargetonlyadultcrowntexture, keepoccludedrearband unasserted. Olderimmatureformedwings/ageunknown retained as priorstageevidence, notnewlyprovedbycrownparagraph. New0/reused1/corrected0. [Run](../production/runs/2026-10-19T0025+0800-cycle-3.md), [v3](../design/concepts/128-megascops-marshalli-v3.png). Copyrightonlylimitedsummarylinks, sourcefigurenotcopied.
+
+### GGO-ORI-2020-0506 reuse0025-cycle3 replacement
+Access19Oct2026 freshoriginalbody andKD J/explore.org GIF actuallydownloaded/viewed (webGIF400unsupported, localviewrecovered). Approx7/9dayhalfopeneyes, secondarydownrearhead; actualframe showsgraycheekssides/whiteforehead, notadultdisc. Sourcecamera/lightlowres limit exactpatch/agegeometry. Target08v3diffusecheek/reargray, notalljuvenilesgray. Earlier128crownedits2failed; replacementnotduplicatecredit. New0/reused1; [run](../production/runs/2026-10-19T0025+0800-cycle-3.md), [08v3](../design/concepts/08-strix-nebulosa-v3.png). Pixelphoto/GIFnotcopiedrepo.

@@ -1835,3 +1835,6 @@ LSO-AVIBASE-CONCEPT: DenisLepage/BirdsCanada Avibase undatedtaxonomiccomparison 
 
 ### HOY source reuse 2026-10-18 21:30
 Reuse HOY-KOENIG-2000 (external caption freshly read, no freshpixels), HOY-MIK2013-228 (existing indexed printed228/PDF230 description, book not freshlyopened). Adultshaftstreaks2–3crossbranches guide local#129v2 abdominal U-tile reduction; notgenericowlpattern/notprecisephotomap. Juvenilefledgedstage/formedwing/tuftlesshead kept, no new age claim. No newIDs/corrections,2reused. [Prompt/stages](../production/runs/2026-10-18T1603+0800-cycle-4.md). Outcome notyetreviewed; no scientificvalidation.
+
+### WAT cycle5 reuse2026-10-18
+WAT-SCAUP-2024 metadata reread; WAT-DAFFONSECA-2017 actualcaption/originalpixels freshlyviewed, ageImmaturesexundefined, palegraybill/darkappearingeyes/fluffygraybrownbarredbody/perchgrip retained. WAT-DANTAS-2021 andWAT-MIK2013-235 priorindexreused notfreshfulltexts. FourIDsreused/new0. Absenceofsexheightdata doesNOTproveequalheight; near-equaladultdisplay#131v2 isdesigninference toremoveunsupportedlargevisualdirection. No scientificpass orclaimphotosexedpair. [Cycle5](../production/runs/2026-10-18T1603+0800-cycle-5.md).

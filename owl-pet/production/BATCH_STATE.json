@@ -1187,7 +1187,7 @@
     },
     {
       "batch_id": "2026-10-18T0857+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -1233,23 +1233,33 @@
           "commit_sha": "b6e448dea14e77524697eb8996834f55909e0fc9",
           "verification_commit_sha": "7edc35537b3f114e63976d0b9c44be9d0dcd497a",
           "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops albogularis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "b72836f645c643bc4571a046d5c661e99e44fcae",
+          "verification_commit_sha": "4868c7562c329dda7f71e22c3e05352360099eca",
+          "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-18T00:57:22.286Z",
       "last_checkpoint": {
-        "at": "2026-10-18T04:50:38.344Z",
+        "at": "2026-10-18T04:57:39.520Z",
         "stage": "VERIFIED",
-        "commit_sha": "b6e448dea14e77524697eb8996834f55909e0fc9",
-        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-5.md"
-      }
+        "commit_sha": "b72836f645c643bc4571a046d5c661e99e44fcae",
+        "run_record": "owl-pet/production/runs/2026-10-18T0857+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-18T04:57:39.520Z"
     }
   ],
   "lease": {
     "owner": "owl-1234",
     "run_id": "2026-10-18T1234+0800",
-    "heartbeat_at": "2026-10-18T04:46:14.804Z",
-    "expires_at": "2026-10-18T05:01:14.804Z"
+    "heartbeat_at": "2026-10-18T04:57:39.520Z",
+    "expires_at": "2026-10-18T05:12:39.520Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

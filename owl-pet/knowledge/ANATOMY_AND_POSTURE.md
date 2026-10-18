@@ -53,3 +53,11 @@
 - 已完成组图回查：重新对照本批#87/#88所选中雏翼部与#89早期雏针羽边界；发现并实际修订上述三处，复查结果见相应cycle1–3。#90/#91不是同阶段，未作无证据的统一短翼回退。#92成图尚待查看，不能在此预判有效。
 - 保留问题：#87腹部横斑仍偏显著，#88肩部斑纹仍偏清晰，均进入精细羽纹科学校准待办；不以概念归档等同科学通过。旧组图不因本规则自动标通过，连续羽序、个体日龄与趾部几何仍须专门证据。
 来源稳定ID与完整URL/局限见research/SOURCE_INDEX.md及本批六份生产记录；这里只记录已应用结果，不声称生物学验证。
+
+### 2026-10-18 batch1258 evidence-led review
+- #128primary1981p3/p5 retainedjuvenalremiges belongsolderimmatureseveralmonthsto1yr, not genericmesoptile/newborn. Bookstageword alonecannotoverrideprimary. Appliedinpromptandactualimage; precisefeathermapnotvalidated.
+- #131currentGuiananwatsonii cannotreuseanyfilecalledwatsonii: actualCommons524709809captionustaexcluded; primary2021cladeAandManausphotolocalityused. Bookjuvenileunknownsupersededonlybynewprimaryphoto-stage, notinventednataldown. TaxonIDstillneedsvoice/genetics, morphologyaloneuncertain.
+- #130multi-species2-column2023paper: cupnest/materialsbelongsConopophaga, notMegascops. Usedactualowlsection/fledgedbranchphoto, nofabricatednest. Appliedcheck preventswrongnestassignment.
+- #126samebaselinecrown-to-toeadjustment changeddisplaynotsexbiometrics. #128/#129massclaimsnotconvertedtoheight; no universalfemale-larger.
+- #130v2specificcheekzone+primaryphotoreference visiblydarkenedjuvenileface; initialv1vagueface-darkenonlymodest. Thisoneactualvisualcase notgeneralmodelimprovement/sciencepass. #128/129differentyoungface/formedwing stages notuniversallyrecolored/shortened. #109toehalfproblem remainsnotfixed; don'trepeatidenticalfailededitandclaimsuccess.
+- Completepromptmustbecommittedbeforelongimagecall; undefinedoldlogsrecoveredbyappend withprovenance, originalentries retained. A scratchreviewdraftwaslost, regeneratedwithnewhash andnotdoublecounted. Eachfinalmustbeuploadedandindependentlydecodedbeforecyclecredit.

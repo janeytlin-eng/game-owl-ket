@@ -27,3 +27,5 @@ BTO页面有生物测量栏目，但此次没有读取到成年雌雄翼长和�
 ![v1](../../design/concepts/07-asio-flammeus-v1.png)
 
 生成规格：电影感3D动画角色、短耳羽簇、成年黄眼与深色眼斑、相近成年尺寸、初生闭眼白米色绒羽雏鸟、低伏地面草巢、非测量比例。内置imagegen生成。
+
+#07v2 actual reviewed: adultmale reduced to near-equal presentation, common groundcontacts; chickclosedeyes/whitecreamdown/lowgroundsupport preserved. No scientificsexheightvalidation; age/feathermap and slightmale-facedrift pending. BTO page fresh read, SHEO-BTO-BIRDFACTS. Priorv1approval retained nottransferred. Original2479185bytes SHA256c48f5468bf1048b9a29ecd1086695912c4c1fca2a48c5eb956ecfb46052f30b1 Gitblob2a42ee64867093fb7b5a967fe97bb280e52b736e; remoteverification pending.

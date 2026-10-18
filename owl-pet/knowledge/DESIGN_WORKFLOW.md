@@ -305,3 +305,6 @@ Species-specific museum first-adult transition requires mostlyfinebars notscaled
 
 ### 08-strix-nebulosa-v3 evidence-led iteration
 Two128crownedits failed; record result notprompt. Replacement08target diffusegraycheek got limited visiblechange, no exactsourcecolormatch. Sourcefirstwhite andsecondgraydowncan coexist, do not replaceallwithgray or adultmask. Compare135laterformedwing separate; no automaticdeletion. Scope limited to actual output; not universal model improvement or scientific pass.
+
+### 136-megascops-petersoni-v1 evidence-led iteration
+Museum first-yearalmostadult stage can legitimatelyretainformedwingtail; don't apply134hiddenwing or08initialdownrules. Buffnotwhite diagnosis explicit inprompt and actualview broadwarmbuff patches retained, but tonalcalibrationpending. Primarysparse distaltarsus separate from135basaltoefeathercoverage. No universal toe rule. Scope limited to actual output; not universal model improvement or scientific pass.

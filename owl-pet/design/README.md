@@ -495,3 +495,7 @@ Actual edited PNG viewed: young forehead V/whitecrownspots reduced, finelybarred
 ## 08-strix-nebulosa-v3
 Actual edited fullPNG viewed: modest diffuse gray around chickcheeks/rearhead now visible vswhiteforehead; still muchsubtler than primarycamframe, exactextent/agegeometrypending. Halfopeneyes/hornyellowbill/whitebody/shortdownywing/noadulttail, bellyfloor/tuckedfeet support retained. Adults facialrings/yelloweyes/barring/labels preserved visually, slightdetaildrift. Scientificfalse; oldapprovalnottransferred. Prior128v3twofailedcrownedits remainauditnotcredited.
 ![原图](concepts/08-strix-nebulosa-v3.png)
+
+## 136-megascops-petersoni-v1
+Actual newPNG viewed: cinnamonbrown adultground/darkirises/palegraygreenbills/shortmoderate tufts/duskyfaceedges, faintbarredshaft underparts, warmbuffscapularpatches notbrightwhite, sparsebarelowerleg/baretoes/branchcontacts. Olderfirstyear fluffier/palerbuffbarredbody withformedwing/tail andheadtilt retained; notneonate. Near-equaladultdisplay notsexratio. No grossstage/supportproblem requiringadditionaledit; exactpalehighlightcolor/feathermap/firstyearage/sexscale/toeextent stillpending sciencefalse. Generationwaitms60702,edit0.
+![原图](concepts/136-megascops-petersoni-v1.png)

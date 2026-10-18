@@ -1730,3 +1730,7 @@ PEO-AVIBASE-MAPPING DenisLepage/BirdsCanada Avibase https://avibase.bsc-eoc.org/
 
 ### #124 Ketupa philippensis v1 2026-10-18T01:00:51.324Z
 NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldrecords; adultsnear-equaldisplay nosexratioassumed. Actualview retainedwarmer/fainteryoungstreaks, formedwingtail, footsupport, shorttufts/graybills; exacteye/coverts/sexheight pending/sciencefalse. New3PEOsourceIDs. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/08dab32247854136d336748278629503b3a1fa24/owl-pet/design/concepts/124-ketupa-philippensis-v1.png); [Research/prompt/review](../production/runs/2026-10-18T0857+0800-cycle-1.md). Independentlydownloaded fullPNG2856062bytes1536x1024 SHA256cea2700cb05891981d29f8b83aac1c2114bdf2c3091515c3dd0d0452c0795ba4 Gitblob2bd2ae81a95e8fa780ab62b8e91daf3cb516f954 matcheslocal.
+
+
+### NWFO-OWLPAGES-2020 reuse 2026-10-18 cycle2
+Fresh external Description/Size/Habitat read https://www.owlpages.com/owls/species.php?s=1160 (Deane Lewis, updated2020-10-25; accessed2026-10-18). Secondary species account supports feathered tarsi extending onto basal half toes, dusky-brown distal toes. Qualitative female larger is not a numerical standing-height rule. Used only for targeted #109v5 adult toe-covering correction; prior older-juvenile stage/formed wings retained, no new age assertions. Actual image review required, not assumed effective. New IDs0/reused1/corrected0. [Cycle2](../production/runs/2026-10-18T0857+0800-cycle-2.md). No new book page read.

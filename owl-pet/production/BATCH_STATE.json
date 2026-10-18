@@ -1393,9 +1393,22 @@
         "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-6.md"
       },
       "completed_at": "2026-10-18T13:43:12.448Z"
+    },
+    {
+      "batch_id": "2026-10-18T2230+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "started_at": "2026-10-18T14:31:23.867Z"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "owl-production-2230",
+    "run_id": "2026-10-18T2230+0800",
+    "heartbeat_at": "2026-10-18T14:31:23.867Z",
+    "expires_at": "2026-10-18T14:46:23.867Z"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

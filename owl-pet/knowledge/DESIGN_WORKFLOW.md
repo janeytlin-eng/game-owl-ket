@@ -296,3 +296,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18 23:28 五项实际规则复查
 局部改羽纹不等于年龄验证：05/09根据各自物种来源分别柔化灰绒与去掉初生翼片，实际查看；08有后脑灰绒过渡但颊侧仍浅，局限保留。12/15拉平共同落脚基线，实际查看支持消除构图混淆，不将体重变身高。回查10原图无足够明确新错误，不无依据编辑；133较晚幼鸟翼羽不得套初生删除规则。五图科学仍false；未重新验收全库，非模型训练改进。详细证据见production/runs/2026-10-18T2230+0800-resume-2328-summary.md。
+
+## #134 actual application
+Prior style-reference blackcap/scallop leakage persisted through initial edit; cannot assume negative prompt solves it. Rebuild with explicit graymesoptile and targeted adult-display edit actually viewed; source photo head/chest only, occlude unverified lower anatomy instead of inventing newborn or gripping. This is limited visual improvement, not scientificvalidation. #133 olderformedwing source remains separate; no automatic wing-removal rule applied retrospectively. Finecontrast/sexratio unknown.

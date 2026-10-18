@@ -483,3 +483,7 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18 五项v2集中入口
 [05灰林鸮](concepts/05-strix-aluco-v2.png) · [09穴小鸮](concepts/09-athene-cunicularia-v2.png) · [12北美锯鸮](concepts/12-aegolius-acadicus-v2.png) · [08大灰鸮](concepts/08-strix-nebulosa-v2.png) · [15横斑林鸮](concepts/15-strix-varia-v2.png)。均实际编辑查看和远端完整解码哈希核验，仍待科学校准。旧用户批准不自动覆盖新版。 [研究、提示及复查提交](../production/runs/2026-10-18T2230+0800-resume-2328-summary.md)。
+
+## 134-megascops-sanctaecatarinae-v1
+Actual rebuilt and edited PNG viewed: female display height raised toward male on branch, still posture/baseline differences; not measured sexratio. Juvenile charcoal-gray fine diffuse bars/tinywisps/open horn-green bill, no adultblackcap or leafplates; lowerbody/wing/feet concealed in supportedcavity. Primaryphoto freshly downloaded/viewed again confirms short graymesoptile; sourcechestbars finer/darker than concept, eye appearance not iris measurement. Adult tufts/crown spotcontrast, precise羽纹/日龄/性别尺度/趾序 remain pending. Scientificfalse, no approvaltransfer.
+![134](concepts/134-megascops-sanctaecatarinae-v1.png)

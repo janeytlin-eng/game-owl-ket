@@ -1326,7 +1326,7 @@
     },
     {
       "batch_id": "2026-10-18T1603+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -1362,7 +1362,8 @@
           "action": "REVISION",
           "unique_species_increment": 0,
           "commit_sha": "41d8d3e24740577cf9da97e5f3e05d1b5bd01387",
-          "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-4.md"
+          "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-4.md",
+          "verification_commit_sha": "d28819a9213424d6a885ac5d75e49d9865aa2751"
         },
         {
           "cycle": 5,
@@ -1370,25 +1371,31 @@
           "action": "REVISION",
           "unique_species_increment": 0,
           "commit_sha": "cef16307ab04c7a0a0ea6a6f0172a71b430c350e",
-          "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-5.md"
+          "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-5.md",
+          "verification_commit_sha": "e7c6a10f88b64b3dc164ab6be791267a6ab6547f"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox rufa",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "9426eea5ce698d86c11ae19c9da9f85b58e5304d",
+          "verification_commit_sha": "c4a45fe5fe529a5a882ec8279b16e8116d349506",
+          "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-18T08:06:09.654Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_INCOMPLETE",
-        "at": "2026-10-18T08:47:52.610Z",
-        "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-4.md",
-        "reason": "Cycle4 research-only; no image/count. Actualcompleted this invocation cycles2–3, batch3/6 next4. Not globaltoolblock or platformtimeout."
-      }
+        "stage": "VERIFIED",
+        "at": "2026-10-18T13:43:12.449Z",
+        "commit_sha": "9426eea5ce698d86c11ae19c9da9f85b58e5304d",
+        "run_record": "owl-pet/production/runs/2026-10-18T1603+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-18T13:43:12.448Z"
     }
   ],
-  "lease": {
-    "owner": "owl-production-2130",
-    "run_id": "2026-10-18T2130+0800",
-    "heartbeat_at": "2026-10-18T13:38:38.015Z",
-    "expires_at": "2026-10-18T13:53:38.015Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -1436,5 +1443,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-18T08:47:52.610Z"
+  "updated_at": "2026-10-18T13:43:12.449Z"
 }

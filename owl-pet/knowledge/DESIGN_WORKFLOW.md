@@ -299,3 +299,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## #134 actual application
 Prior style-reference blackcap/scallop leakage persisted through initial edit; cannot assume negative prompt solves it. Rebuild with explicit graymesoptile and targeted adult-display edit actually viewed; source photo head/chest only, occlude unverified lower anatomy instead of inventing newborn or gripping. This is limited visual improvement, not scientificvalidation. #133 olderformedwing source remains separate; no automatic wing-removal rule applied retrospectively. Finecontrast/sexratio unknown.
+
+### 135-otus-silvicola-v1 evidence-led iteration
+Species-specific museum first-adult transition requires mostlyfinebars notscaledadultshafts, while formed wings are legitimate. Edit actualview reducedshafts/whiteV but no exactfeathermap validation. Wikipedia cm wingspan error excluded; primarysexglyphs visuallychecked p115 N1/sex not standingratio. Compared134graymesoptile-with-hiddenwings and135fullyfeatheredstage separately; no universal feather deletion. Scope limited to actual output; not universal model improvement or scientific pass.

@@ -487,3 +487,7 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 ## 134-megascops-sanctaecatarinae-v1
 Actual rebuilt and edited PNG viewed: female display height raised toward male on branch, still posture/baseline differences; not measured sexratio. Juvenile charcoal-gray fine diffuse bars/tinywisps/open horn-green bill, no adultblackcap or leafplates; lowerbody/wing/feet concealed in supportedcavity. Primaryphoto freshly downloaded/viewed again confirms short graymesoptile; sourcechestbars finer/darker than concept, eye appearance not iris measurement. Adult tufts/crown spotcontrast, precise羽纹/日龄/性别尺度/趾序 remain pending. Scientificfalse, no approvaltransfer.
 ![134](concepts/134-megascops-sanctaecatarinae-v1.png)
+
+## 135-otus-silvicola-v1
+Actual edited PNG viewed: young forehead V/whitecrownspots reduced, finelybarred fluffy head/chest dominates with fewer verticalshafts; formed foldedwings retained, crouchedbody/twofeetbranch supported. Adults yelloweyes/graybills/palegraybuffbreast/whitebellycenter/basaltoe feathering retained visually; mild detaildrift notpixelidentity. Exact youngage/iris/color/finebars/sexheight unvalidated. Type's fullyfeatheredimmature selected NOTnewborn; grayscaleFig8 notknownage. Scientificfalse.
+![原图](concepts/135-otus-silvicola-v1.png)

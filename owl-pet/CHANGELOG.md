@@ -527,3 +527,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-19 #134
 新增灰色幼鸟头胸部有直接实照依据的长耳簇角鸮组图，重建丢失草稿并编辑成年展示尺度。原图完整校验，仍待科学校准。132/251，202版本。
+
+## 2026-10-18T18:44:08.830Z
+135-otus-silvicola-v1 NEW，独立原图完整核验，科学未通过。

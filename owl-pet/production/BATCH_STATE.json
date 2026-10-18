@@ -1556,23 +1556,32 @@
           "commit_sha": "f83543a716445fded927a992c99b2c7cd9894538",
           "verification_commit_sha": "dba47422e6750292bc443dc6b7729cac951171cb",
           "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Psiloscops flammeolus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7be8cdca99563c587e1d776ffd22669e546ba4fd",
+          "verification_commit_sha": "9f5fb7aefcbdb5c8fe7d22ca565d76d012886edd",
+          "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-18T20:31:49.972Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-18T20:38:15.831Z",
-        "commit_sha": "dba47422e6750292bc443dc6b7729cac951171cb",
-        "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-2.md"
+        "at": "2026-10-18T20:42:25.457Z",
+        "commit_sha": "9f5fb7aefcbdb5c8fe7d22ca565d76d012886edd",
+        "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-3.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-production-20261019-0431",
     "run_id": "2026-10-19T0431+0800",
-    "heartbeat_at": "2026-10-18T20:38:15.831Z",
-    "expires_at": "2026-10-18T20:53:22.386Z"
+    "heartbeat_at": "2026-10-18T20:42:25.457Z",
+    "expires_at": "2026-10-18T20:57:31.687Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1621,5 +1630,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-18T20:38:15.831Z"
+  "updated_at": "2026-10-18T20:42:25.457Z"
 }

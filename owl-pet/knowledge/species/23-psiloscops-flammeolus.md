@@ -27,3 +27,8 @@ Cornell支持本种只在树洞繁殖，多用旧啄木鸟洞或天然洞，不�
 ## 待办
 
 固定251种名录所采用的分类版本与中文名；寻找带明确孵化后日龄的巢内连续影像、分性别翼长/质量原始表及标本羽色近照。不得用近缘鸣角鸮的幼鸟阶段补足本种证据。
+
+## 23-psiloscops-flammeolus-v2 2026-10-18T20:42:25.457Z
+Actual editedPNG1254x1254 viewed: leftadult reduced/middleenlarged, near-equal crownheight onbranch, slightposturedifference retained. Darkeyes/shorttufts/rust-graypattern and grips retained visually, finefeatherdrift notpixelidentity. Newbornstilllowbellysupported/closedeyes/finewhitedown/woodchipsupport/openbill/noadultwing; no11daygray transferred. Neutraldisplay notbiologicalsexratio/sciencepass. Exactnewborn proportions and nestcutaway remainpending.
+![image](../../design/concepts/23-psiloscops-flammeolus-v2.png)
+[Prompt/review](../../production/runs/2026-10-19T0431+0800-cycle-3.md)

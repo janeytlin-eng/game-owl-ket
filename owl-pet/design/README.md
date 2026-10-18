@@ -515,3 +515,7 @@ Actuallyviewed edited fullPNG: adultlowerbellies now visibly warmer brown/buff i
 ## 139-otus-jolandae-v1
 Actuallyviewed finaledit: broadarcs reduced to thinner morebroken darkbars andslendershafts, juvenilepale cap reduced to scatteredremnants. Threebirds/labels/adultgoldirises/brownbills/faceborder/warmercinnamonbreast-palerbellycontrast/formedwings/feathered tarsi reachingtoebase/bareochretoes/darkclaws and supportedrest maintained. No exactstandingscale/dayage, youngirisunknownclosedrestdesign; finefeatherdensity/colors stillunvalidated, sciencefalse. Uploadedbookfindresolvedtitleandcontentsp188butactualPDFpage190read403, nobookbodyused.
 ![image](concepts/139-otus-jolandae-v1.png)
+
+## 23-psiloscops-flammeolus-v2
+Actual editedPNG1254x1254 viewed: leftadult reduced/middleenlarged, near-equal crownheight onbranch, slightposturedifference retained. Darkeyes/shorttufts/rust-graypattern and grips retained visually, finefeatherdrift notpixelidentity. Newbornstilllowbellysupported/closedeyes/finewhitedown/woodchipsupport/openbill/noadultwing; no11daygray transferred. Neutraldisplay notbiologicalsexratio/sciencepass. Exactnewborn proportions and nestcutaway remainpending.
+![image](concepts/23-psiloscops-flammeolus-v2.png)

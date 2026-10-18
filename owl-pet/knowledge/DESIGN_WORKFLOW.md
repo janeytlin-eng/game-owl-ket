@@ -320,3 +320,6 @@ Single-region bellyground edit produced visible warmth improvement after previou
 
 ## 2026-10-18T20:38:15.831Z actualiteration
 Generatedbars became repeatedgraphic arcs despitefinebarprompt; targetededit visiblythinnedthem but exactpatternnotverified. Preserve formedwings of documentedolderimmature rather than applying universalremoval rule. Priorstylecarryover138 bellynotappliedto139 becauseprimarydiagnosisrequirescontrast.
+
+## 2026-10-18T20:42:25.457Z actualiteration
+Adultheightdifference was presentationconfound despiteunknownsexratio; editneutralizeddisplay only. Newlyread11dayfieldrecords must not be appliedto newbornboundary. No measuredsexratio or fullscientificacceptanceclaimed.

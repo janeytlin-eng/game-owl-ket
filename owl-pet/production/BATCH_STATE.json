@@ -1407,23 +1407,31 @@
           "commit_sha": "01e3fb7b6dc7ee06dc4e0cda8d8aaa1759d26730",
           "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-1.md",
           "verification_commit_sha": "cb10028f7cdd94647387b88e60944b6011f34c49"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix aluco",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "0ec35f2b5fe2e9afc2b2dd74edc2c2a0f987feaf",
+          "verification_commit_sha": "20dce72052e13d2c75668c232870b6e5006befb1",
+          "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-18T14:31:23.867Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_INCOMPLETE",
-        "at": "2026-10-18T14:39:20.612Z",
-        "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-2.md",
-        "reason": "Original juvenile pages InternalError; partial PDF encoding unreadable; no cycle2 image. Only1 cycle completed. Not globaltoolblock or platformtimeout."
+        "stage": "VERIFIED",
+        "at": "2026-10-18T15:32:23.712Z",
+        "run_record": "owl-pet/production/runs/2026-10-18T2230+0800-cycle-2.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-production-20261018-2328",
     "run_id": "2026-10-18T2328+0800",
-    "heartbeat_at": "2026-10-18T15:28:47.031Z",
-    "expires_at": "2026-10-18T15:43:47.031Z"
+    "heartbeat_at": "2026-10-18T15:32:23.712Z",
+    "expires_at": "2026-10-18T15:47:23.712Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

@@ -473,3 +473,9 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 
 ## 2026-10-18 batch1258 complete6/6
 新增#128M.marshalli/#129M.hoyi/#130M.koepckeae/#131M.watsonii，修订#126v2/#130v2。129/251种，188版本，原图逐张下载完整解码及SHA256/Gitblob核验完成，科学通过0。历史编号/版本/确认不改；3处旧提示追加恢复。来源新增14条/复用4次；仍未知精确羽龄/比例/羽纹。 [完整研究、提示、逐图检查与提交入口](../production/runs/2026-10-18T1258+0800-summary.md)。
+
+
+## 05 Strix aluco v2
+幼鸟肩翼由硬质羽片改为不规则短灰绒，实际编辑查看；保留v1及其用户确认，不转移批准。细羽纹/日龄/比例待科学校准。
+![v2](concepts/05-strix-aluco-v2.png)
+[研究及实际检查](../production/runs/2026-10-18T2230+0800-cycle-2.md)

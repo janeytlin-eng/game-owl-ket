@@ -1626,23 +1626,32 @@
           "commit_sha": "7c613f6210e11fa820c3c3e10f95e5f67acff498",
           "verification_commit_sha": "36423f976d78119be2da49435710511df8543d93",
           "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus senegalensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1744baaba8918b2caad21e9c0d85d900e3bafb77",
+          "verification_commit_sha": "b4c39c58a6921c1747b2aee8e5b445b8a1f7f27c",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-19T01:29:30.823Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-19T01:36:44.811Z",
-        "commit_sha": "36423f976d78119be2da49435710511df8543d93",
-        "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-2.md"
+        "at": "2026-10-19T01:39:19.519Z",
+        "commit_sha": "b4c39c58a6921c1747b2aee8e5b445b8a1f7f27c",
+        "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-3.md"
       }
     }
   ],
   "lease": {
     "owner": "owl-production-20261019-0929",
     "run_id": "2026-10-19T0929+0800",
-    "heartbeat_at": "2026-10-19T01:36:44.811Z",
-    "expires_at": "2026-10-19T01:51:44.811Z"
+    "heartbeat_at": "2026-10-19T01:39:19.519Z",
+    "expires_at": "2026-10-19T01:54:19.519Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1691,5 +1700,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-19T01:36:44.811Z"
+  "updated_at": "2026-10-19T01:39:19.519Z"
 }

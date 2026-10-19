@@ -2015,3 +2015,7 @@ ELE-AKATANI2011-BR actualfresh p4Appearance baregrayadulttoes vsbaselinepink; ad
 
 ## #88v3 reuse2026-10-19
 CAP-TIPPETT2024 actualfreshBehaviour unlinedbarescrape; replaceconspicuouswoodchips withmineralgrit artinference notexactmaterialmeasurement. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T1028+0800-cycle-3.md).
+
+
+### 2026-10-19 cycle4 reuse FUR-CORNELL-CAM2010
+Actually re-read CornellFAQ sex/nest/juvenalplumage sections; femalegeneral sizeandcolor trend withoverlap, olderjuvenileformedwings legitimate. No newsourceID. Modestdisplaymale reductionisdesigninference, notmeasuredsexratio. [#90v2 run](../production/runs/2026-10-19T1028+0800-cycle-4.md). Access2026-10-19; sourceURL/title/author/date/limitations remaininexistingentry.

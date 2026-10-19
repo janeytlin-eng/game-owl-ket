@@ -2019,3 +2019,7 @@ CAP-TIPPETT2024 actualfreshBehaviour unlinedbarescrape; replaceconspicuouswoodch
 
 ### 2026-10-19 cycle4 reuse FUR-CORNELL-CAM2010
 Actually re-read CornellFAQ sex/nest/juvenalplumage sections; femalegeneral sizeandcolor trend withoverlap, olderjuvenileformedwings legitimate. No newsourceID. Modestdisplaymale reductionisdesigninference, notmeasuredsexratio. [#90v2 run](../production/runs/2026-10-19T1028+0800-cycle-4.md). Access2026-10-19; sourceURL/title/author/date/limitations remaininexistingentry.
+
+
+### 2026-10-19 cycle5 SLSO-MANAHAMPI-2012 reuse
+Originalphoto andmetadata re-read/viewed2026-10-19: immaturebody irregularmottledbars versus generatedregularpointedscales. Only#117v3bodymarking edit, age/sex/flashcolor limits unchanged. No newID; designtranslationnotexactphoto. [Cycle5](../production/runs/2026-10-19T1028+0800-cycle-5.md).

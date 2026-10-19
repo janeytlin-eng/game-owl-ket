@@ -1678,23 +1678,32 @@
       "batch_id": "2026-10-19T1028+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus magicus",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97",
+          "verification_commit_sha": "fe56610987c1195d8b87c751f8dbd68da958822c",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-10-19T02:31:10.775Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_INCOMPLETE",
-        "at": "2026-10-19T04:28:18.737Z",
-        "commit_sha": "f5e8b8751b4164fbd4037dc2965c6e8b95ee6de9",
-        "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md",
-        "result": "Approval review capacity failure before primary media retrieval; LSO taxonomy unresolved; no cycle credit"
+        "stage": "VERIFIED",
+        "at": "2026-10-19T05:41:01.763Z",
+        "commit_sha": "fe56610987c1195d8b87c751f8dbd68da958822c",
+        "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md"
       }
     }
   ],
   "lease": {
     "owner": "resume1334",
-    "run_id": "2026-10-19T1028+0800-cycle-1-resume1334",
-    "heartbeat_at": "2026-10-19T05:34:27.240Z",
-    "expires_at": "2026-10-19T05:49:27.241Z"
+    "run_id": "2026-10-19T1028+0800-cycle-2-resume1334",
+    "heartbeat_at": "2026-10-19T05:41:01.763Z",
+    "expires_at": "2026-10-19T05:56:10.575Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1743,5 +1752,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-19T04:28:18.737Z"
+  "updated_at": "2026-10-19T05:41:01.763Z"
 }

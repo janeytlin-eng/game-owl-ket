@@ -2011,3 +2011,7 @@ Design: male/female same plumage/near-equalheight unknownsexsize, centerolderdow
 
 ## #86 v2 reuse2026-10-19
 ELE-AKATANI2011-BR actualfresh p4Appearance baregrayadulttoes vsbaselinepink; adult-onlycolour edit, juvenileontogenyunknown retained. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T1028+0800-cycle-2.md).
+
+
+## #88v3 reuse2026-10-19
+CAP-TIPPETT2024 actualfreshBehaviour unlinedbarescrape; replaceconspicuouswoodchips withmineralgrit artinference notexactmaterialmeasurement. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T1028+0800-cycle-3.md).

@@ -29,3 +29,6 @@ The Peregrine Fund和ABC都强调繁殖及幼鸟生活史资料稀缺。可确�
 ## 待办
 
 固定251种名录所采用的分类版本；寻找带日期或已知日龄的本种巢内影像、分性别翼长/跗跖测量及标本近照。不得把近缘鸣角鸮的20–30日发育周期当作本种直接证据。
+
+## 2026-10-19 #22v2
+Adultirises correctedfrombrightgold to reddishbrown basedfreshPRO-PEREGRINE-2026 +newPRO-OWLPAGES-2020; oldABCorange-yellowattribution unsubstantiatedcurrentbody, historicaltextretainedaserrornotfact. Juvenileirisunknown notchanged. Actualbuiltin edit/view retainedwhitebrows/bills/barelegs/support/young/text, finegeometry/scalepending scientifically_verifiedfalse. Lesson: recheckattributedsourcewords beforeassumingstylecolors, adultirisfacts notjuveniledevelopmentfacts. ARCHIVED bacf4cb1f78ff56907bbfa1987758fd03bcc5b69; VERIFIED independentremote fulldecode1254x1254,2794868bytes SHA2567509e739370f6b5f15c709d6ff6411e2e2525a731c0dc0f0e7f1ad7e45e28cf5 Gitblob2dd1004d3e521a99170f01e3ac837e235384ee09 local==remote. Sourceindex2df91b2c6340471fb2850c7ad6bf2c0a8934af1d new1/reuse1/correct1oldattribution. Unique137/251unchanged,214versions. Verificationat 2026-10-19T00:39:38.927Z

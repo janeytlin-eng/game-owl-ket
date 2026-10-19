@@ -7,3 +7,8 @@ Actual editedimageviewed: fine shorttoe feathersadded across toeupperbases/lengt
 Original ../../design/concepts/85-otus-semitorques-v1.png
 Run ../../production/runs/2026-10-15T1529+0800-cycle-5.md
 Imagecommit 55f442c7d2666b4704d2b40ec084eaff4045c362
+
+## VERIFIED 2026-10-19T01:47:07.431Z
+85-otus-semitorques-v2 REVISION; Adultbillgrayhorn edited/viewed, juvenilebill/formedlongpointedwings unchanged; feet/redorangeeyes/grips retained. Exactpalette/age/sexscale pending. Sciencefalse. ARCHIVED ac3a735087953eea3de909d9df5c6db0f1a1ce41; independentimmutable remote fullPNGdecode 1536x1024 2769094bytes SHA256b733bd9b6a3856d8b4332e9c6e68bbf4a2aeb14c1eefd847b0c0cebbc28d3bb8 Gitblob51a6c83383fad94d16a5f585f163b81aff80cc9a local==remote. Sources new0/reuse2 SEM-MIK2013-158/SEM-FUKAI2017 index66b70965913ac9986dfba1ca2566986eaf2a92f7. [Run](production/runs/2026-10-19T0929+0800-cycle-6.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/ac3a735087953eea3de909d9df5c6db0f1a1ce41/owl-pet/design/concepts/85-otus-semitorques-v2.png). Unique138/251.
+Lesson: Use age-specific field notes and nominate mapping; adultbill correction must not erase firstwinter feathers or importpryeri baretoes.
+

@@ -7,3 +7,8 @@ Actual editedimageviewed: middle bill/cere nowgrey notgreen, bluegreyiris retain
 Original: ../../design/concepts/84-otus-bakkamoena-v1.png
 Evidence: ../../production/runs/2026-10-15T1529+0800-cycle-4.md
 Archive commit: 7d36e6fdfd2c2a7191dc6bdfd1f664f883ac9834
+
+## VERIFIED 2026-10-19T01:45:26.785Z
+84-otus-bakkamoena-v2 REVISION; Narrowgrayeye marginslightlymoreexposed, whitefeatherlinerreducedsubtly; fullperiocularfeatherlossnotestablished remainsprioritycheck. Blueeyes/graybill/noear tufts/shortwings/supportretained. No scientificpass. Sciencefalse. ARCHIVED b50912921398566d686ac277bd7c3cbd77756148; independentimmutable remote fullPNGdecode 1536x1024 2655367bytes SHA256668f1d511671b286168fc877952f294e2365dd39e260d1e51318dbe8083259cb Gitblob96aa6a077eeaa0cf0d20b5bbdb5fb2e38ad6224d local==remote. Sources new0/reuse1 BAK-BRRAICH-SINGH2021 indexe456e8c6222c9d87ddef254fd4eb8091b8ebce03. [Run](production/runs/2026-10-19T0929+0800-cycle-5.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/b50912921398566d686ac277bd7c3cbd77756148/owl-pet/design/concepts/84-otus-bakkamoena-v2.png). Unique138/251.
+Lesson: Source explicit absence needs local visual verification; subtle reduction not equivalent full absence and must remain unresolved.
+

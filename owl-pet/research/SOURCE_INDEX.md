@@ -2023,3 +2023,7 @@ Actually re-read CornellFAQ sex/nest/juvenalplumage sections; femalegeneral size
 
 ### 2026-10-19 cycle5 SLSO-MANAHAMPI-2012 reuse
 Originalphoto andmetadata re-read/viewed2026-10-19: immaturebody irregularmottledbars versus generatedregularpointedscales. Only#117v3bodymarking edit, age/sex/flashcolor limits unchanged. No newID; designtranslationnotexactphoto. [Cycle5](../production/runs/2026-10-19T1028+0800-cycle-5.md).
+
+
+### 2026-10-19 cycle6 JAP-TAIEOL2013 reuse
+Actualinstitutionaltextre-read morphologicalsection: adultbilldarkbrown/palertip overrides coolgrayrender; olderjuvenilebillnotrecoloredwithoutageevidence. No newID. Regionalscopeandhistoricaltotogotaxonomylimits unchanged. [Cycle6 #92v2](../production/runs/2026-10-19T1028+0800-cycle-6.md).

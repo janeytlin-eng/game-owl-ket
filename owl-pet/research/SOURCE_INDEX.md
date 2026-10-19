@@ -1968,3 +1968,6 @@ DeaneLewis2020-10-03,ReddishScopsOwl, https://www.owlpages.com/owls/species.php?
 
 ## Batch0929 cycle2 #81v2
 Reused SCOPS-BLASCO-UNDATED, JavierBlascoZumeta/GerdMichaelHeinze species267 https://www.blascozumeta.com/specie_files/07390_Otus_scops_E.pdf actualpp1–2read2026-10-19 Sexing/Ageing: alikeplumage/overlapmeasurements, juvenile narrowpointedformedflightfeathersnotnewborn. No sexstandingratio; neutraladultdisplayinference only, preserveyoungwing. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T0929+0800-cycle-2.md) [Card](../knowledge/species/81-otus-scops.md) [v2](../design/concepts/81-otus-scops-v2.png). Exactyoungage/feetpatternpending.
+
+## Batch0929 cycle3 #82v2
+new SEN-OWLPAGES-2020: DeaneLewis2020-10-08 AfricanScopsOwl https://www.owlpages.com/owls/species.php?s=550 Descriptionactuallyread19Oct2026 secondarysummary adultduskygraybrowntoes/blackbrownclaws/tarsitotoebase. Nojuvenilecolourstagefacts. Reused SEN-BE-ROBERTS2005 https://www.biodiversityexplorer.info/birds/strigidae/otus_senegalensis.htm actualBreeding/Habitatread, cavity/aridsavanna25–28dayleave notpreciseartage. Designonlyadulttoescolor tosource notcoveragevalidation, youngunchangedunknown. [Run](../production/runs/2026-10-19T0929+0800-cycle-3.md) [Card](../knowledge/species/82-otus-senegalensis.md) [v2](../design/concepts/82-otus-senegalensis-v2.png).

@@ -1984,3 +1984,6 @@ Reused SEM-MIK2013-158 HeimoMikkola2013 OwlsWorldPhotographicGuide2ed printed158
 
 ### 2026-10-19 batch1028 #84 targeted reuse
 BAK-BRRAICH-SINGH2021 publisher two-page extract printed55/PDF2 freshly read: same brood periocular feathers absent, blue iris and gray exposed nostrils/bill with underdeveloped wings. Healthy narrow gray bare margin is design inference; width not measured. Prior v2 pale feather liner remains unresolved. No new stable ID. [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md), target84v3; original source URL above existing ID.
+
+
+2026-10-19 resume1130 BAK-BRRAICH-SINGH2021 p55/PDF2 freshly read again; target84v4 regeneration after two failed local edits. Same brood, no new source ID, no new biological fact, no exact bare width inference. [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md).

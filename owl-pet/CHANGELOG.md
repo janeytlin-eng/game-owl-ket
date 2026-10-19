@@ -595,3 +595,8 @@ Lesson: Use age-specific field notes and nominate mapping; adultbill correction 
 ## VERIFIED 2026-10-19T05:41:01.763Z
 141-otus-magicus-v1 NEW actual generated/edited/viewed; young covertspots reduced and diffusehead/bodybars, formedwing/supportretained, adultgrayblackbills corrected. Juvenilebilldarkening/sexdisplayheight/warmtone/footextent/preciseage remainunknown sciencefalse. Archived 6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97; independentimmutable remote fullPNG1536x1024,2874184bytes SHA2566e2a8f76796ba029dc1f25a1d3924e108d9fdbd2edb77127bde0de00d7b40327 Gitblob77a5450861bcab718c00051b52e65f9d810fd5a1 local==remote. Unique139/251. Sources3newexternalIDs +1newsectionofexistingMikkolabook; no biologicalsciencepass.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97/owl-pet/design/concepts/141-otus-magicus-v1.png) [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md)
+
+
+## VERIFIED 2026-10-19T05:45:16.335Z
+86-otus-elegans-v2 Adultbaretoesgray corrected/viewed; juvenileagecolorunchanged, support/bills/eyes/patternretained; precisegeometry/age/sexscale pending. Lesson ageboundedcolorcorrectionvisuallyeffective notalltoevalidation. Sciencefalse. Original 0d7a59cc11505e469d201c2d342e021cf02fe961; independentimmutable remote fullPNG1536x1024 2924611bytes SHA25688317c306db37e56bcdc8ea1204878e2c29432332a39a6c8943f18e499b94de2 Gitblob38b5bfd503dc98a7869c8611d8d18cd0fbabb931 local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 ELE-AKATANI2011-BR
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-2.md)

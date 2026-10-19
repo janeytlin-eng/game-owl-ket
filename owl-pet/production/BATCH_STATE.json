@@ -1608,16 +1608,32 @@
       "batch_id": "2026-10-19T0929+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "started_at": "2026-10-19T01:29:30.823Z"
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus rufescens",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "061ead00101e6f4bad1be07c92a86e527f1afaeb",
+          "verification_commit_sha": "37c18710344625acd067530a854548b926213567",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
+      "started_at": "2026-10-19T01:29:30.823Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-19T01:34:12.905Z",
+        "commit_sha": "37c18710344625acd067530a854548b926213567",
+        "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-1.md"
+      }
     }
   ],
   "lease": {
     "owner": "owl-production-20261019-0929",
     "run_id": "2026-10-19T0929+0800",
-    "heartbeat_at": "2026-10-19T01:29:30.823Z",
-    "expires_at": "2026-10-19T01:44:30.823Z"
+    "heartbeat_at": "2026-10-19T01:34:12.905Z",
+    "expires_at": "2026-10-19T01:49:12.905Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1666,5 +1682,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-19T01:29:30.823Z"
+  "updated_at": "2026-10-19T01:34:12.905Z"
 }

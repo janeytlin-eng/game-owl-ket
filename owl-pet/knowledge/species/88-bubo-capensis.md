@@ -15,3 +15,8 @@ Actualv1view: chosenfluffyrestingyoungshoulder hasdensecrispdarkteardrops/faintw
 Actual editedimageviewed: juvenile shoulder/upperwing softened into diffuse dark bars over brownishwhite fluff, adultwhitewingpatchesnottransferred. Shortfoldedwing/lowrestingbody/yelloweyes/feet-groundsupport preserved. Adultcoarsebreastplate/whitewingmarks preserved. Exactage/proportionsunknown; scientifically_verifiedfalse. Learnedrule: juvenile mesoptile markings must be checked separately from adultdiagnostic patches, notsimplyremoveallpattern. Research ~3min; image wait 2026-10-15T12:43:07.949Z to 2026-10-15T12:44:01.687Z.
 [Original](../../design/concepts/88-bubo-capensis-v2.png)
 [Run](../../production/runs/2026-10-15T2034+0800-cycle-2.md)
+
+
+## VERIFIED 2026-10-19T05:48:34.802Z
+88-bubo-capensis-v3 Woodchips replacedmineralgrit/pebbles, actualviewyoungsupport/adultplumageandlabelsretained. Exactsubstrate/age/sexscaleunknown; unlinedscrape artinference notnestmaterialmeasurement. Lesson substrate checked separately from plumage. Sciencefalse. Original 95b58cea5be0aa4e623181ed60bafcde969f7a2c; independentimmutable remote fullPNG1536x1024 2914032bytes SHA256090df95064a4a84bae60f57d68afc81c6fa38a009a148fb0bd917d310093efb7 Gitblobb42fe856210da8e1b1b923c7d8ee6dd4ff09bdea local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 CAP-TIPPETT2024
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-3.md)

@@ -7,3 +7,8 @@ Actual review:
 Actualfirstimageviewed: olderjuvenile nearlyadultbody/formedlongfoldedwings/residualheadandlegdown, supportedtwofeetboxthreshold/shorttailnotnewborn. Adults darkeyes creambills whitedisc/orangebrownrim/goldgreyupperparts, malewhiter/femalebuff/morespottedandfuller; noexactsexratio. Woodboxdebrisnotdecorativewoven nest/Texaspaviliongrassland coherent. Necessaryeditnotidentified; exactfeathersequence/winggeometry/toes/agesunresolved sciencefalse. Lessonappliedandvisuallysuccessful: explicitlyolderdependentstage permittedlegitimateformedwings instead ofuniversalshortening. Unique88/251. Researchstartfrom08:18; generationstageelapsedrecordedseparately, archive~40s; edit0calls.
 Original: ../../design/concepts/90-tyto-furcata-v1.png
 Run: ../../production/runs/2026-10-15T1602+0800-cycle-4.md
+
+
+## VERIFIED 2026-10-19T05:53:35.117Z
+90-tyto-furcata-v2 Male display silhouette reduced; female fuller, juvenile formedwings preserved. Qualitativeconceptnotcalibratedratio; editovershoot noted, footgeometry/exactage unresolved. Sciencefalse. Original bd3bb34f00055061473afb4f583b819738ea3cda; independentimmutable remote fullPNG1536x1024 2499112bytes SHA256d281734c108027471b01339718588d8213a613509e1b76b83a517dba77dae161 Gitbloba2618cdb16db52b85539cca5cb4749406ce43afb local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 FUR-CORNELL-CAM2010
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-4.md)

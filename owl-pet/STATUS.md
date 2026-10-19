@@ -722,3 +722,8 @@ Lesson: Use age-specific field notes and nominate mapping; adultbill correction 
 ## VERIFIED 2026-10-19T05:48:34.802Z
 88-bubo-capensis-v3 Woodchips replacedmineralgrit/pebbles, actualviewyoungsupport/adultplumageandlabelsretained. Exactsubstrate/age/sexscaleunknown; unlinedscrape artinference notnestmaterialmeasurement. Lesson substrate checked separately from plumage. Sciencefalse. Original 95b58cea5be0aa4e623181ed60bafcde969f7a2c; independentimmutable remote fullPNG1536x1024 2914032bytes SHA256090df95064a4a84bae60f57d68afc81c6fa38a009a148fb0bd917d310093efb7 Gitblobb42fe856210da8e1b1b923c7d8ee6dd4ff09bdea local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 CAP-TIPPETT2024
 [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-3.md)
+
+
+## VERIFIED 2026-10-19T05:53:35.117Z
+90-tyto-furcata-v2 Male display silhouette reduced; female fuller, juvenile formedwings preserved. Qualitativeconceptnotcalibratedratio; editovershoot noted, footgeometry/exactage unresolved. Sciencefalse. Original bd3bb34f00055061473afb4f583b819738ea3cda; independentimmutable remote fullPNG1536x1024 2499112bytes SHA256d281734c108027471b01339718588d8213a613509e1b76b83a517dba77dae161 Gitbloba2618cdb16db52b85539cca5cb4749406ce43afb local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 FUR-CORNELL-CAM2010
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-4.md)

@@ -10,3 +10,8 @@ New original and targeted edit actually viewed: juvenile crown/nape fine dark tr
 Actualedit/view adultupperbreast now moreirregular elongate/broken darkshafts with less alignedarrowheadrows. Some stylizedpaleedges persist, notfullsciencepass. Whitebelly/shafts/yelloweyes/blackhornbills/tufts/featheredtarsi/grips andcenterolderjuvenilefinecrown/nape bars/formedwings/barredtail/labels retained. Unique116/251unchanged. Sciencefalse; age/sexscale/feathergeometry pending. Original 4c4be5af359c68027eda4ed93a8eec8f33f00191 size2780313 SHA256 61140e0f59b4e31ea7a59365b10414278408347de1bbaed296c6a3ccc93d8b60 Gitblob 307a64fe440eee758fa52fa2796f06cfdba51e7a; independently downloaded full PNG decoded and size/hash matched.
 New0/reused2 SLSO-JORDAN-2007 freshprimarypage/originalpixels and SLSO-MIK2013-194 priorprinted194/PDF196. Flashcoloruncertainty preserved, no sexmeasurement. Indexba9a65349780439c501f52eb00ecfa9636449fd8 readback.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/117-otus-manadensis-v2.png)
+
+
+## VERIFIED 2026-10-19T05:59:07.904Z
+117-otus-manadensis-v3 Juvenilefront brightedges reduced aftertwoactualedits, residualscallopedgeometry remainspriorityqueue; limitedimprovementnotfullcorrection. Adults/formedwings/grips retained. Sciencefalse. Original 83ed1daf924da5eba9f46705f1faca8c480f9d94; independentimmutable remote fullPNG1536x1024 2717256bytes SHA2564b9e2a94b20255a79274a5b5de6a476312a357d6fe2f036f2dffc032b9f4a54d Gitblobe22d4f69eef1178f98ccee2578042638a5240681 local==remote. Unique139/251 unchanged. Sources new0/reuse1 SLSO-MANAHAMPI-2012 actualphoto
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-5.md)

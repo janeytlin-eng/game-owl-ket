@@ -727,3 +727,8 @@ Lesson: Use age-specific field notes and nominate mapping; adultbill correction 
 ## VERIFIED 2026-10-19T05:53:35.117Z
 90-tyto-furcata-v2 Male display silhouette reduced; female fuller, juvenile formedwings preserved. Qualitativeconceptnotcalibratedratio; editovershoot noted, footgeometry/exactage unresolved. Sciencefalse. Original bd3bb34f00055061473afb4f583b819738ea3cda; independentimmutable remote fullPNG1536x1024 2499112bytes SHA256d281734c108027471b01339718588d8213a613509e1b76b83a517dba77dae161 Gitbloba2618cdb16db52b85539cca5cb4749406ce43afb local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 FUR-CORNELL-CAM2010
 [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-4.md)
+
+
+## VERIFIED 2026-10-19T05:59:07.904Z
+117-otus-manadensis-v3 Juvenilefront brightedges reduced aftertwoactualedits, residualscallopedgeometry remainspriorityqueue; limitedimprovementnotfullcorrection. Adults/formedwings/grips retained. Sciencefalse. Original 83ed1daf924da5eba9f46705f1faca8c480f9d94; independentimmutable remote fullPNG1536x1024 2717256bytes SHA2564b9e2a94b20255a79274a5b5de6a476312a357d6fe2f036f2dffc032b9f4a54d Gitblobe22d4f69eef1178f98ccee2578042638a5240681 local==remote. Unique139/251 unchanged. Sources new0/reuse1 SLSO-MANAHAMPI-2012 actualphoto
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-5.md)

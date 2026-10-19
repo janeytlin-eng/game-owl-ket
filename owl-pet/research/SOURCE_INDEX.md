@@ -1980,3 +1980,7 @@ Reused BAK-BRRAICH-SINGH2021 BrraichOnkarSingh/JagdeepSingh, AnIndianScopsOwlbre
 
 ## Batch0929 cycle6 #85v2
 Reused SEM-MIK2013-158 HeimoMikkola2013 OwlsWorldPhotographicGuide2ed printed158–159/PDF160–161 actualLibrarytextread2026-10-19 (notphoto pixels): nominatesemitorques adultbill/ceregrayishhorn, fierydarkredeyes/tarsitoesfeathered, nosexsizedata. p159pryeribaretoes belongsdifferentrace notimported. Reused SEM-FUKAI2017 NorioFukai29:25–31 https://www.jstage.jst.go.jp/article/jbba/29/1/29_MS086/_pdf/-char/ja actualpp25–27 reread primaryfirstwinterpalerpointedretainedflightfeathers/palecovers; irisnotrecordedforage, smallknownage5sample. New0/reuse2/correct0. Adultgraybillcolourdesignsupported nojuvenileontogenytransfer; actualLibrarycontentavailablethiscycle despiteearlierblankp1. [Run](../production/runs/2026-10-19T0929+0800-cycle-6.md) [Card](../knowledge/species/85-otus-semitorques.md) [v2](../design/concepts/85-otus-semitorques-v2.png).
+
+
+### 2026-10-19 batch1028 #84 targeted reuse
+BAK-BRRAICH-SINGH2021 publisher two-page extract printed55/PDF2 freshly read: same brood periocular feathers absent, blue iris and gray exposed nostrils/bill with underdeveloped wings. Healthy narrow gray bare margin is design inference; width not measured. Prior v2 pale feather liner remains unresolved. No new stable ID. [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md), target84v3; original source URL above existing ID.

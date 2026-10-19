@@ -2007,3 +2007,7 @@ MAG-OWLPAGES-2020: DeaneLewis updated2020-10-08 https://www.owlpages.com/owls/sp
 MAG-CLEMENTS2013: CornellLab ClementsChecklist UpdatesandCorrectionsAugust2013 https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/overview-august-2013/updates-and-corrections-august-2013/ actual speciesgainOtusjolandae andp164magicusupdate read. Lombokformerlymagicus nowjolandae (#139) NOTsameHalmaheramagicus. HistoricalScopsleucospilus map currentmagicusleucospilus, subspecies notadditionalunit. Full251projectroster notyetversioned, unchangedscope251. Wholemanifestchecked noOtusmagicus image before141allocation; #135silvicola/#137alfredi/#139jolandae distinct. No automaticcountofsubspecies. Four IDs new to index:3external+1existingbooksection; facts vs art separate.
 Design: male/female same plumage/near-equalheight unknownsexsize, centerolderdowny-featheredyoungwithheadfinebars/faintbodymarks, supportedbroadfork relaxedsleepyheadnotlimp; wingsformedbutshortpartlyobscuredwithoutadultspotrows; noflight/dayclaim. Natural lowlandHalmaheraforestbranch (nestsunknown). All details scientificallyunverified.
 [Card](../knowledge/species/141-otus-magicus.md) [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md)
+
+
+## #86 v2 reuse2026-10-19
+ELE-AKATANI2011-BR actualfresh p4Appearance baregrayadulttoes vsbaselinepink; adult-onlycolour edit, juvenileontogenyunknown retained. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T1028+0800-cycle-2.md).

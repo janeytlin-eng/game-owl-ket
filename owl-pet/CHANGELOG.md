@@ -550,3 +550,6 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 2026-10-18T20:42:25.457Z 23-psiloscops-flammeolus-v2 REVISION imagecommit7be8cdca99563c587e1d776ffd22669e546ba4fd independentlyverified; sciencefalse.
 
 2026-10-18T20:45:04.306Z 21-megascops-choliba-v3 REVISION imagecommit596cfca9ae61051052a28b7a760d6bab21037e3b independentlyverified; sciencefalse.
+
+## 2026-10-19 cycle5 resumed
+#19v3 adult underparts edited to shorter irregular blotches, actual view effective; juvenile/eye/bill/support preserved visually. Sciencefalse, eyequoteconflict/toefeathers/precisegeometry pending. Image commit cdc4431e19d92758244d3e42571f2a60eec16783; independent remote PNG full decode1536x1024,2750169bytes,SHA256275922b0f7499402ef2079cab879f55e7966ff606308bbacde67959ef9d7eca2,Gitblob650443968d50b7634be9562e618486ae25cab34f matcheslocal. New0,reused1 WHSO-CORNELL-ID-2026 freshly actualread; prior cycle5 sourceindex f9c97ccc already saved2IDs/onewordingcorrection. Single-region shortshaft edit visibly effective here, no blanket validation. Unique137/251 unchanged. [Original](../design/concepts/19-megascops-trichopsis-v3.png). ARCHIVED and VERIFIED 2026-10-19T00:36:58.415Z

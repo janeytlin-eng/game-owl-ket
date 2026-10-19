@@ -1574,9 +1574,18 @@
           "commit_sha": "596cfca9ae61051052a28b7a760d6bab21037e3b",
           "verification_commit_sha": "977ac682b5b29eeb3212ba3fff52102cf5e43570",
           "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops trichopsis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "cdc4431e19d92758244d3e42571f2a60eec16783",
+          "verification_commit_sha": "da86032e7badbac1bedb695264cf9c6a18f8e7b8",
+          "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-18T20:31:49.972Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
@@ -1589,8 +1598,8 @@
   "lease": {
     "owner": "owl-production-20261019-0834",
     "run_id": "2026-10-19T0431+0800-resume-0834",
-    "heartbeat_at": "2026-10-19T00:34:35.499Z",
-    "expires_at": "2026-10-19T00:49:35.499Z"
+    "heartbeat_at": "2026-10-19T00:37:03.279Z",
+    "expires_at": "2026-10-19T00:52:03.279Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1639,5 +1648,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-19T00:34:35.499Z"
+  "updated_at": "2026-10-19T00:37:03.279Z"
 }

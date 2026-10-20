@@ -2124,3 +2124,6 @@ WCS Congo/NouabaleNdokiNationalPark March2019 monthlynewsletter p2 WildlifeHealt
 
 ### LZBO-RASMUSSEN-2012-LEAD reuse for144 Ninox spilocephala
 Originalpaperfreshp3–4,p13Table7,p14Diagnosis andadultFig6bp12actualscreenshotread/view. Olderimmatureplainbrowncrown/weakbuffspotteduppermantlecollar, no age/otherjuveniletraits supplied; adultsdiagnosesexcludeimmatures, pooledsexesnotdimorphismtest. Draft144 thereforeoccludesunsupportedyoungbelly/wings/feet/tail andclosedeyes; restingroostcomposite isartinference notactionevidence. [Fullfacts,prompt,unknowns](../production/runs/2026-10-20T2310+0800-cycle-1.md)/[144card](../knowledge/species/144-ninox-spilocephala.md). ReusedsamepaperID notnewsource. Prior125unmarkedadultcrown rule MUSTNOTtransfer toadult144spottedcrown. No sourcefigurecopiedrepo.
+
+### LZBO-RASMUSSEN-2012-LEAD correction/reuse cycle2
+Captioncorrection Fig6b printedp12 R.O.Hutchinson PICOPMindanaoFebruary2011; erroneous run1Pitman2008attribution superseded. Fresh p13 adult125unmarkedcrown/nape diagnosis reused, mattehighlight control newrenderinghypothesis notbiologicalfact. [125v3cycle2](../production/runs/2026-10-20T2310+0800-cycle-2.md). One existingID corrected/reused, notnewsource.

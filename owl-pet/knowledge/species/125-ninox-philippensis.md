@@ -5,3 +5,8 @@ Adults unbarredbrowncrown/whitecovertspots/longitudinalventralstreaks/yellowirid
 First draft excessivewhiteadultmasks andadultlikejuvenilebrows corrected throughimagegen, actualviewed again. Bothadultmasks reduced, juvenilebrows buff; allsupport/labels checked. Finegeometry/sexratio/age unknown/scientifically_verified=false. No userapproval transfer.
 Full prompts/stages ../production/runs/2026-10-18T0857+0800-cycle-4.md (repository root owl-pet).
 Lesson: never apply blanket wing-shortening to a photo-supported featheredjuvenile; independently check face ontogeny. Applied and visually checked only here; not validated generically.
+
+
+VERIFIED 2026-10-20T14:58:13.361Z 125-ninox-philippensis-v2
+Adultcrownflecks modestlysubdued but residualtexturehighlightsremain; FULLunmarkedtargetNOTproven, prioritycalibration. Wingwhitepatches/whitebrows/streaks/yelloweyesbilltoes/juvenileformedwings/support/text retainedvisually. Limitedimprovement notfullcorrection, sciencefalse. New0/reuse1target+1readonlydiagnostic. Actualprimaryadultdiagnosis appliednotjuvenileage; no approvaltransfer.
+Imagecommit 42305fdef63c77df28c20a6b1c4b1b8b11b99776; independentimmutable raw fullPNG1536x1024 2372024bytes SHA2560d0d21cca3ae1c915e8197789d47e2437e4d75238edeb5de7ed0cabc778eea6a Gitblob0fb51f46b58c542c5ccc33dbe76ee205599d31a4 local==remote fullydecoded. Unique141/251, scientifically_verifiedfalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/42305fdef63c77df28c20a6b1c4b1b8b11b99776/owl-pet/design/concepts/125-ninox-philippensis-v2.png) [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-6.md).

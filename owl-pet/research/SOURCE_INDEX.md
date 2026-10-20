@@ -2038,3 +2038,5 @@ Originalyoungphotoandmetadataactuallyviewed/readagain: softbrownpectoralband ver
 
 
 2026-10-20: CHA-SANTANDER2013 freshly re-read full author account Detailed Description/Bare Parts/Systematics/Habitat for #98v2 adult blackish-brown iris correction; no new sourceID; bill conflict retained, juvenile developmental limits retained. [Run](../production/runs/2026-10-20T1634+0800-cycle-2.md).
+
+2026-10-20 17:34 resume: CHA-SANTANDER2013 Detailed Description adult toe-feather boundary freshly re-read, reused stable ID, no new source. Source description versus proposed image-only boundary treatment distinguished; juvenile not inferred. [Cycle3](../production/runs/2026-10-20T1634+0800-cycle-3.md).

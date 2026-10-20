@@ -15,3 +15,8 @@ Actual edit viewed: male reduced to near-equal crown-to-toe display scale on com
 
 ## VERIFIED 2026-10-20T11:45:21.522Z
 101-otus-spilocephalus-v2 Adultventral finebackgroundthreads increased retaining sparseblackshafts; residualparallelregularity/sexscale/juvenileage unknown, formedbalancingwing retained. sciencefalse; unique139/251 unchanged. Imagecommit edc8d23ce4907c819cac949f55f137774ba67be7 independentimmutable raw fullPNG1536x1024 2892292bytes SHA25680a3edccc6c52aff6409b00e3c28d14e1b74530b196ea0a881c0791b3caed46c Gitblob9307fe7aacdb8ad8d99e4422a7da44a2fa4e4ade local==remote. Sources new0/reuse1 MSO-MOA-TW2 indexf7dfcafdcd3ab5d2e1ebee0225607fa7b49b40b3 [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-4.md).
+
+
+## VERIFIED 2026-10-20T13:38:51.324Z 101-otus-spilocephalus-v3
+Actualview: bothadultbellythreads visibly winding/irregular instead ofparallelrows, sparseblackshafts retainedbutlegibilitylower in densepattern. Exactpatternfinegeometry/shaftscontraststillpending. Adultfaces/yelloweyes/palebills/wings/tiny tufts/footgrips/labels/support andcentralbrancherbalancingwing retainedvisually. No pixelidentityclaim; age/sexratio unknownsciencefalse. Rule applied visuallyimproved irregularity here, notglobalpatternvalidation.
+Imagecommit 42630e8af3a42a16be49fdeee0fea676c3eb1b5b independentrawfullPNG1536x1024 2752067bytes SHA256e2efb886ebbf020e442d6d11f50e686842b640500b20e63fac17867b61b0e081 Gitblob5a79d8d91ef4895889663ffcb0b1e0852b96dabb local==remote. Unique139/251unchanged, sciencefalse. [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-1.md).

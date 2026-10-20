@@ -2092,3 +2092,13 @@ Richard C.Hoyer/WINGS, undated photographs (Nov caption; website©2018 not photo
 
 ## JAM-WOODS2015-METADATA — Jamaican Owl (juvenile)
 SamWoods, taken2015-03-21/uploaded2020-12-07, primary photographpage metadata only, accessed2026-10-20 https://www.flickr.com/photos/samwoodsbirding/50688720008. Pseudoscops grammicus juvenile, BlueMountains Jamaica. Actualcaptionread; image403 so morphologyUNVERIFIED, not visualdesignbasis. No page/fig; rightsreserved. Linked [cycle3](../production/runs/2026-10-20T2133+0800-cycle-3.md). No new sourcebook count; newID limitedmetadata not scienceevidence.
+
+
+## FEO-LOYN-DEBUS2000 / Asio solomonensis juvenile-development
+Loyn,R.H.&Debus,S.J.S.,2000, Description of Juvenile Fearful Owl Nesasio solomonensis, AustralianBirdWatcher18(7):288–289. Primaryfieldobservation https://afo.birdlife.org.au/afo/index.php/afo/article/download/215/205 accessed2026-10-20 actualfulltext+Plate79p289read/viewed. Bougainville1987-07-16 rescuedyoung, exactageunknown, longunbarredpaledown/darkmask/emergingbarredwings/orangeyelloweyes/grayfeet, walking/bouncing/perchingnotflight. Single rescuedindividualnotgrowthcurve. Supportsdocumentedolderfluffypercher notinventednewborn. [143card](../knowledge/species/143-asio-solomonensis.md)/[fullfactsandpromptcycle4](../production/runs/2026-10-20T2133+0800-cycle-4.md)/143-asio-solomonensis-v1planned. No copyrightedpaper copiedrepo.
+
+## FEO-OWLPAGES2020 / Asio solomonensis adult-morphology
+DeaneLewis2020-11-08 specialistsecondary https://www.owlpages.com/owls/species.php?s=3500 accessed2026-10-20 actualDescription/Size/Breeding/Habitat. Adultdiagnostics/unknownsexratio andnestlimits per [cycle4](../production/runs/2026-10-20T2133+0800-cycle-4.md). No primarysexmeasurement, no currentconservationstatusclaim; onlinechaptersnopagenumber. Supportsadultpalette/tarsitoes, notyoungfeathersequence. Link143v1planned above.
+
+## FEO-AVIBASE-MAP / Asio solomonensis taxonomy
+DenisLepage/BirdsCanada undatedcurrenttable https://avibase.bsc-eoc.org/species.jsp?avibaseid=8251FDDB47459E76&lang=EN accessed2026-10-20 actualtaxonomyversions/name/protonymread. IOC15.2/Clements2025 Asio, BirdLife2025Nesasio, protonymPseudoptynx sameunit. Authoritativetaxonomicindex notmorphology orwhole251list. [cycle4](../production/runs/2026-10-20T2133+0800-cycle-4.md),143v1. No targetcountchange.

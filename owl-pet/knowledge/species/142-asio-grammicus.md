@@ -1,2 +1,3 @@
 #142 Asio grammicus / Pseudoscops grammicus
-Concept pending; source facts/design inference/unknowns and complete prompt in [cycle3](../../production/runs/2026-10-20T2133+0800-cycle-3.md). No sex-size data; no exact young age or flight claim. scientifically_verified:false.
+Adult graybrown toes/feathered reddish tarsi edited and actually reviewed; juvenile photographed fluffy perching stage retained; exact age/sex ratio/iris/pattern geometry unknown, scientificfalse.
+Sources JAM-HOYER-BIRDSEYE primaryphotos/new, JAM-WOODS2015-METADATA notpixels/new, JAM-OWLPAGES2026/JAM-MIK2013-500 reused. Full facts/design boundaries/prompt/review/iteration and all stages in [cycle3](../../production/runs/2026-10-20T2133+0800-cycle-3.md). No sex-size measurement; no natalstage/flight claim. [Original](../../design/concepts/142-asio-grammicus-v1.png), imagecommit 4c5a90bcd957561fdbc6eef394df04ff9d073a62. Originalindependentlydecoded/hashmatched; scientifically_verified:false.

@@ -2068,3 +2068,6 @@ Fresh full original newsletter p16/PDF17 text and rendered photo read: olderjuve
 
 ## 2026-10-20 cycle6 FVO-EISERMANN-FIELD2026 reuse
 Freshpage and originaljuvenilephoto actuallyread/viewed. #107v1 broadlong patternedwing exceeds source's narrowexposedformedtips; earlierreviewcallingretainedtips narrow wasoverconfident. Refineexposedwingarea/softbarredcoverts for107v2 while retainingformedtips; noexactage/sex/nest/iris inference. New0/reuse1/corrected0, historicalreviewpreservedandqualified. [Run](../production/runs/2026-10-20T1634+0800-cycle-6.md), [species](../knowledge/species/107-strix-fulvescens.md). Originalsourcecopyrightlinkonly.
+
+
+2026-10-20 run2029 cycle6 FVO-EISERMANN-FIELD2026 reused1/new0/corrected0. Existingfullpage researchcheckpoint reused, cached originaljuvenileJPEG re-viewed. Freshwebbody retry500redirect/accessfailure, notnewfullreadclaim; no sourcefactsinvented. #107v2 exposedwingarea refinement actuallyapplied/viewed, exactage/geometryunknown, sciencefalse. [Run](../production/runs/2026-10-20T1634+0800-cycle-6.md), [image](../design/concepts/107-strix-fulvescens-v2.png). Fullprompt/actualwait/verificationinrun; sourcecopyrightlinkonly.

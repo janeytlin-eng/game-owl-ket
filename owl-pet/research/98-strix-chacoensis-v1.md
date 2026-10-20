@@ -7,3 +7,8 @@ Actual image review: Actual editedjuvenile softened, supportedrest; adultgraywhi
 Image commit 659a7f2de8bcbed34436f4ef77ab01d7592d82c1
 SHA256 4d9d1a8b387bf251dd517a93cba0c2652e780db0f8caca3fff6a370010ab8a9c; Git blob 4aaa57e47d6af99a63d37356deda5a22c29138ea; 2802926 bytes; full raw reread decoded and SHA256 matched.
 Prompt/run: production/runs/2026-10-15T2226+0800-cycle-3.md
+
+
+## VERIFIED 2026-10-20T08:49:35.110Z
+98-strix-chacoensis-v2 Adult iris darkened after rejected first edit; juvenile/labels/feet support retained. Bill-source conflict and proximal toe feather review unresolved; no calibrated eye hue or exact age/sex ratio. Sciencefalse. Originald7c251c7fe3b35b2272ba720bd04ec8d7d7b8d96 independentfullPNG2666005bytes SHA2565763b462a4f4300f465bc8ffcf41de29956b5003aba580f913d0a076e13c4388 Gitblob7de65dd0c9f0f32f9ced8142698ece11ea4df735 local==remote. Unique139/251 unchanged. Sourcesnew0/reuse1 CHA-SANTANDER2013
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-2.md)

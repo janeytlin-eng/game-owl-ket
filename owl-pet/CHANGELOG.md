@@ -625,3 +625,8 @@ Lesson: Use age-specific field notes and nominate mapping; adultbill correction 
 ## VERIFIED 2026-10-20T08:41:40.555Z
 94-pulsatrix-koeniswaldiana-v2 Juvenilepectoralband softer/morecontinuous, formedwing/supportpreserved; exactage/sexratio/geometrypending. Original1312x1199 preserved. Sciencefalse. Originalff6e3510afeaf3f4525a6fb8b9b2bd2c6359e5e3 independentfullPNG2514159bytes SHA2569fea6fd64ae9cb3c3c6ebc4b11f5547939c5058e7ec02d0a9a3d4cab7a20c942 Gitblob98e11e5431b80512c33aa63e02b6b7f90f22fbfa local==remote. Unique139/251 unchanged. Sourcesnew0/reuse1 KOE-BOTTAI2013-Y
 [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-1.md)
+
+
+## VERIFIED 2026-10-20T08:49:35.110Z
+98-strix-chacoensis-v2 Adult iris darkened after rejected first edit; juvenile/labels/feet support retained. Bill-source conflict and proximal toe feather review unresolved; no calibrated eye hue or exact age/sex ratio. Sciencefalse. Originald7c251c7fe3b35b2272ba720bd04ec8d7d7b8d96 independentfullPNG2666005bytes SHA2565763b462a4f4300f465bc8ffcf41de29956b5003aba580f913d0a076e13c4388 Gitblob7de65dd0c9f0f32f9ced8142698ece11ea4df735 local==remote. Unique139/251 unchanged. Sourcesnew0/reuse1 CHA-SANTANDER2013
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-2.md)

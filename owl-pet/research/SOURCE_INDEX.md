@@ -2035,3 +2035,6 @@ Freshread https://taieol.tw/pages/244954/articles 綜合描述 authored林文宏
 
 ## 2026-10-20 KOE-BOTTAI2013-Y targeted reuse
 Originalyoungphotoandmetadataactuallyviewed/readagain: softbrownpectoralband versus#94renderangularpatches; plainbuffbelly/formedwingtail retained. Exactage/sex/flashcolorunknown; oneindividualnotuniversal. Reuse1,new0,correct0. [#94v2cycle1](../production/runs/2026-10-20T1634+0800-cycle-1.md).
+
+
+2026-10-20: CHA-SANTANDER2013 freshly re-read full author account Detailed Description/Bare Parts/Systematics/Habitat for #98v2 adult blackish-brown iris correction; no new sourceID; bill conflict retained, juvenile developmental limits retained. [Run](../production/runs/2026-10-20T1634+0800-cycle-2.md).

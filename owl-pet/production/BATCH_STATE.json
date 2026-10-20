@@ -1916,15 +1916,24 @@
           "commit_sha": "6fb67d128759b7729d2663171b6e20f128c9fda3",
           "verification_commit_sha": "7db2e609264c2c2f803bd7c996f2f72ecc03efe7",
           "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus gurneyi",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "df63c6c8d7066beda3817c73d402866e9414d6fd",
+          "verification_commit_sha": "2e94ed5cbd8e463091a9ea668881d7cfe9908b43",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-20T15:11:45.124Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-20T15:50:05.782Z",
-        "commit_sha": "7db2e609264c2c2f803bd7c996f2f72ecc03efe7",
-        "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-3.md"
+        "at": "2026-10-20T15:55:07.341Z",
+        "commit_sha": "2e94ed5cbd8e463091a9ea668881d7cfe9908b43",
+        "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-4.md"
       }
     }
   ],
@@ -1932,9 +1941,9 @@
     "owner": "run2330",
     "run_id": "2026-10-20T2330+0800",
     "batch_id": "2026-10-20T2310+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-20T15:50:05.782Z",
-    "expires_at": "2026-10-20T16:05:05.782Z"
+    "cycle": 5,
+    "heartbeat_at": "2026-10-20T15:55:07.341Z",
+    "expires_at": "2026-10-20T16:10:07.341Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1983,5 +1992,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-20T15:50:05.782Z"
+  "updated_at": "2026-10-20T15:55:07.341Z"
 }

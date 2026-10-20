@@ -2031,3 +2031,7 @@ Actualinstitutionaltextre-read morphologicalsection: adultbilldarkbrown/palertip
 
 ## 2026-10-20 cycle6 recovery reuse JAP-TAIEOL2013
 Freshread https://taieol.tw/pages/244954/articles 綜合描述 authored林文宏/劉小如,2013-05-10. Adultdarkbrownbill/palertip, creamtarsi/yellowbristledtoes; immaturepalebuff. Institutionalregionalaccount, notgrowthseries/currentfulltaxonomyresolution; bookprior466–467notfreshreadinrecovery. Appliesadultbillonly, juvenileagecolorunknown. New0/reuse1/correct0, no duplicateID. [Recovered #92v2 run](../production/runs/2026-10-19T1028+0800-cycle-6.md).
+
+
+## 2026-10-20 KOE-BOTTAI2013-Y targeted reuse
+Originalyoungphotoandmetadataactuallyviewed/readagain: softbrownpectoralband versus#94renderangularpatches; plainbuffbelly/formedwingtail retained. Exactage/sex/flashcolorunknown; oneindividualnotuniversal. Reuse1,new0,correct0. [#94v2cycle1](../production/runs/2026-10-20T1634+0800-cycle-1.md).

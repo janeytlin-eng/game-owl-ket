@@ -1780,7 +1780,12 @@
       }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "run1829",
+    "run_id": "batch1634-resume-cycle3",
+    "heartbeat_at": "2026-10-20T10:30:10.612Z",
+    "expires_at": "2026-10-20T10:45:10.612Z"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

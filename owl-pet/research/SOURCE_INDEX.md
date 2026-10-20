@@ -2110,3 +2110,10 @@ GSO-SHANKAR-2013-YOUNG originalphoto+caption/EXIF/license freshread/view; GSO-OW
 
 ### 2026-10-20 cycle6 LZBO-RASMUSSEN2012-LEAD reuse (no duplicateID)
 ActualoriginalPDFp1,p3–4,p13Table7 refreshed: nominatephilippensis unmarkedcrown, spilocephala spotted; pooledsexesnotRSDproof andimmatures excluded. Supportsadult125v2crown-onlyedit, notjuvenilecrown orwingpatchremoval. [Facts,prompt,actualreview](../production/runs/2026-10-20T2133+0800-cycle-6.md). PEO-ARTUSO2015 primarybody/caption/7005pixels freshreadonly124check, no edit/no credit; keep legitimateolderformedwings. New0/correct0.
+
+
+## VFO-BORROW2022-META — Scotopelia bouvieri immature; pixels UNVERIFIED
+NikBorrow photograph2022-08-24/upload2022-10-04, primaryphotographmetadata https://www.flickr.com/photos/nikborrow/52405057195 accessed2026-10-20. Actualcaption immature/AkakaLoangoGabonread. Image403Forbidden pixelsNOTseen, no morphologyused. No printedpage/exactage/sex; attributedmetadataonly. FollowupleadNOTverifieddesignbasis. [Cycle1research/error](../production/runs/2026-10-20T2310+0800-cycle-1.md). No speciesID/imageassigned,no sourceimagecopy.
+
+## VFO-OISEAUX2015 — Scotopelia bouvieri morphology and mesoptile bounds
+DanielLe-Dantec2015-11-27, Chouette-pêcheuse de Bouvier, Oiseaux.net specialistsecondary https://www.oiseaux.net/oiseaux/chouette-pecheuse.de.bouvier.html accessed2026-10-20. ActualIdentification/Habitat/Reproduction/Referencesread. Adultdarkeyes/yellowishbill/earless,palebellydarkshafts/whitescapularornaments,baretarsifeet; palejuvenilemesoptilepossiblecinnamonwash. Riverforest. Supportsprovisionalpalette notexactagerule/pose/sexratio. Breedingpoorlyknown; Pelanalogy/monthsnotprimarysequence; automaticoddmeasurementsnotused. Namedsections,no pages. [Facts/limits/nextcycle](../production/runs/2026-10-20T2310+0800-cycle-1.md); no speciesID/imageassigned. Copyrightlinkandshortsummaryonly.

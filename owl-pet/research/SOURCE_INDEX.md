@@ -2130,3 +2130,6 @@ Captioncorrection Fig6b printedp12 R.O.Hutchinson PICOPMindanaoFebruary2011; err
 
 ### MARS-WESKE-1981 reuse cycle2310-3
 Freshpp1–3 hindcrowncoronalband/feathertips/olderimmature retainedflightfeathers read; #128v3 headturn designinference exposes posteriorcrown, not foreheadV. Exactage/sexratio pending. [Run](../production/runs/2026-10-20T2310+0800-cycle-3.md). ExistingIDreuse no duplicate.
+
+### GSO-SHANKAR-2013-YOUNG reuse2310cycle4
+Caption/EXIFand960pxactualfreshview2026-10-20; diffusejuvenilefluff vsartificialarcgeometry, exactage/captive/dateconflictunchanged. Actualreferenceattachedforregionaledit, no copiedsourceinrepo. [123v3run](../production/runs/2026-10-20T2310+0800-cycle-4.md). ExistingIDreuse1 no newID.

@@ -2074,3 +2074,6 @@ Freshpage and originaljuvenilephoto actuallyread/viewed. #107v1 broadlong patter
 
 
 2026-10-20 batch2133 cycle1 MSO-MOA-TW2 reused1/new0/correct0. FreshMorphologyread densefinevermiculations vs sparseblackshafts. #101v2 parallelartifact targetedv3, noage/sexratioinference. [Run](../production/runs/2026-10-20T2133+0800-cycle-1.md). Primarycandidatejuvenilegapnotpromotedtoevidence.
+
+
+2026-10-20 cycle2 CIB-MONTGOMERY-2006 reused1/new0/corrected0. Freshprimarycaption/JPEGactuallyviewed. Genuinewhitewingpatches confirmed, genericpatchremoval rejected; #113v3 target onlyjuvenilerufousground/narrowwhiteventralbars. Exactage/sex/colornotcalibrated. [Run](../production/runs/2026-10-20T2133+0800-cycle-2.md), [species](../knowledge/species/113-ninox-natalis.md). Copyrightlinkonly.

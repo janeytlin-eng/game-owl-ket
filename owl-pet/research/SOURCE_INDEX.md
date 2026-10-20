@@ -2102,3 +2102,7 @@ DeaneLewis2020-11-08 specialistsecondary https://www.owlpages.com/owls/species.p
 
 ## FEO-AVIBASE-MAP / Asio solomonensis taxonomy
 DenisLepage/BirdsCanada undatedcurrenttable https://avibase.bsc-eoc.org/species.jsp?avibaseid=8251FDDB47459E76&lang=EN accessed2026-10-20 actualtaxonomyversions/name/protonymread. IOC15.2/Clements2025 Asio, BirdLife2025Nesasio, protonymPseudoptynx sameunit. Authoritativetaxonomicindex notmorphology orwhole251list. [cycle4](../production/runs/2026-10-20T2133+0800-cycle-4.md),143v1. No targetcountchange.
+
+
+### 2026-10-20 cycle5 reuse audit (no duplicate IDs)
+GSO-SHANKAR-2013-YOUNG originalphoto+caption/EXIF/license freshread/view; GSO-OWLPAGES2020 Description/Size/Breeding/Habitat freshread. Maps Otus/Mimizuku gurneyi→juvenilebodytexture→123v2. RepeatedsharpUedges vsfinebarredfluff motivates targetedbodyedit, formedwingsretained; exactage/geometryunknown. [Research/prompt/actualreview](../production/runs/2026-10-20T2133+0800-cycle-5.md). Preliminaryreadonlychecks TAS-ABSA2019/PSO-JOSEF2012/PSO-JOSEF-TANEDO2013 reused, no false correction to121/122;122photoactualviewcompatibleplainrufousyoung. New0/correct0.

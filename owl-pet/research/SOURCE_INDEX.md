@@ -2146,3 +2146,7 @@ Fresh institutional Morphology/Habitat/TaiwanBirds2ed attribution read2026-10-21
 
 ### Reuse verification 2026-10-20T20:29:36.207Z: MSO-MOA-TW2 / Otus spilocephalus hambroecki
 Freshly read original Morphology/Habitat/source attribution; adult fine brown vermiculations plus sparse blackbrown shafts support #101v4 contrast correction, not juvenile age/sex ratio/exact feather map. Existing stable ID reused; new0/reuse1/correction0. [Cycle6 recovery](../production/runs/2026-10-20T2310+0800-cycle-6.md); image e1d4df916c4a27353ef7159d277f7175eaae70ed. No duplicate source entry or newly accessed Mikkola pages.
+
+
+### 2026-10-21 #117v4 evidence reuse
+- SLSO-MANAHAMPI-2012 and SLSO-MIK2013-194 reused for the same North Sulawesi older-immature stage. Decision supported: retain formed wing/tail, perch grip and fine juvenile barring while reducing unsupported regular bright scallop geometry. Fresh search found no stronger primary juvenile source; adjacent taxa were not transferred. New0/reused2/corrected0. Exact age, sex ratio and feather map remain unknown. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-1.md).

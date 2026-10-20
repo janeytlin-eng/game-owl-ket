@@ -1940,11 +1940,10 @@
       "started_at": "2026-10-20T15:11:45.124Z",
       "last_checkpoint": {
         "stage": "ARCHIVED_PENDING_VERIFICATION",
-        "at": "2026-10-20T17:36:07.707Z",
-        "commit_sha": "d83551e666760fdd7c063d980b7532e4cc5a92b1",
-        "source_index_commit_sha": "0d6b015266cf68f0119976c95f346c34c726d71e",
+        "at": "2026-10-20T18:36:27.772Z",
+        "commit_sha": "405ac8e8cd9d2a96f2c384a7fe4954b08d54d6a5",
         "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-6.md",
-        "error": "No usable execution environment is available. Independent PNG download/full decode/hash not executed; no completion credit."
+        "error": "No usable execution environment is available; repeated probe failed before execution. No new binary verification or cycle credit. Source index unchanged."
       }
     }
   ],
@@ -1996,5 +1995,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-20T17:36:07.707Z"
+  "updated_at": "2026-10-20T18:36:27.772Z"
 }

@@ -2071,3 +2071,6 @@ Freshpage and originaljuvenilephoto actuallyread/viewed. #107v1 broadlong patter
 
 
 2026-10-20 run2029 cycle6 FVO-EISERMANN-FIELD2026 reused1/new0/corrected0. Existingfullpage researchcheckpoint reused, cached originaljuvenileJPEG re-viewed. Freshwebbody retry500redirect/accessfailure, notnewfullreadclaim; no sourcefactsinvented. #107v2 exposedwingarea refinement actuallyapplied/viewed, exactage/geometryunknown, sciencefalse. [Run](../production/runs/2026-10-20T1634+0800-cycle-6.md), [image](../design/concepts/107-strix-fulvescens-v2.png). Fullprompt/actualwait/verificationinrun; sourcecopyrightlinkonly.
+
+
+2026-10-20 batch2133 cycle1 MSO-MOA-TW2 reused1/new0/correct0. FreshMorphologyread densefinevermiculations vs sparseblackshafts. #101v2 parallelartifact targetedv3, noage/sexratioinference. [Run](../production/runs/2026-10-20T2133+0800-cycle-1.md). Primarycandidatejuvenilegapnotpromotedtoevidence.

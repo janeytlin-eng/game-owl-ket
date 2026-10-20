@@ -2150,3 +2150,7 @@ Freshly read original Morphology/Habitat/source attribution; adult fine brown ve
 
 ### 2026-10-21 #117v4 evidence reuse
 - SLSO-MANAHAMPI-2012 and SLSO-MIK2013-194 reused for the same North Sulawesi older-immature stage. Decision supported: retain formed wing/tail, perch grip and fine juvenile barring while reducing unsupported regular bright scallop geometry. Fresh search found no stronger primary juvenile source; adjacent taxa were not transferred. New0/reused2/corrected0. Exact age, sex ratio and feather map remain unknown. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-1.md).
+
+
+### CHA-MIK2013-336 reuse — 2026-10-21 cycle 2
+Fresh targeted review reused the already indexed uploaded-guide section for *Strix chacoensis* (historical *S. rufipes chacoensis*), printed p.336 / PDF p.338: feathered tarsi and pale-orange feathering on proximal toes, with bare gray-brown distal toes. Applied only to #98 v3 foot feather extent; no juvenile age, sex-specific foot difference or scientific pass inferred. New0/reused1/corrected0. [Run](../production/runs/2026-10-21T0533+0800-cycle-2.md) · [image](../design/concepts/98-strix-chacoensis-v3.png).

@@ -2154,3 +2154,7 @@ Freshly read original Morphology/Habitat/source attribution; adult fine brown ve
 
 ### CHA-MIK2013-336 reuse — 2026-10-21 cycle 2
 Fresh targeted review reused the already indexed uploaded-guide section for *Strix chacoensis* (historical *S. rufipes chacoensis*), printed p.336 / PDF p.338: feathered tarsi and pale-orange feathering on proximal toes, with bare gray-brown distal toes. Applied only to #98 v3 foot feather extent; no juvenile age, sex-specific foot difference or scientific pass inferred. New0/reused1/corrected0. [Run](../production/runs/2026-10-21T0533+0800-cycle-2.md) · [image](../design/concepts/98-strix-chacoensis-v3.png).
+
+
+### SWFO-JWVH-2024 reuse — 2026-10-21 cycle 3
+Institutional rescue newsletter printed p.16/PDF p.17 reused for #105 v4: actual previously viewed older-juvenile photo supports irregular brown-gray chest chevrons, subdued formed wing edge, short rounded tufts and supported non-flight posture. Applied to reduce unsupported repeated loop/scallop geometry only; exact age, sex and flight timing remain unknown. New0/reused1/corrected0. [Run](../production/runs/2026-10-21T0533+0800-cycle-3.md) · [image](../design/concepts/105-ptilopsis-granti-v4.png).

@@ -1,0 +1,2 @@
+#144 Mindanao Boobook Ninox spilocephala
+OldN.philippensisspilocephala mapped ownunitnot125Luzon. Pendingconcept. [Originalresearch,prompt,sourcefactsanddesigninferences](../../production/runs/2026-10-20T2310+0800-cycle-1.md). Olderimmatureonlydocumentedplaincrown/weakbuffcollar; unsupportedregionsoccluded notinferredadultlike. Exactage/sexratio/youngsoftparts/wingtailunknown scientifically_verifiedfalse.

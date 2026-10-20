@@ -630,3 +630,7 @@ Lesson: Use age-specific field notes and nominate mapping; adultbill correction 
 ## VERIFIED 2026-10-20T08:49:35.110Z
 98-strix-chacoensis-v2 Adult iris darkened after rejected first edit; juvenile/labels/feet support retained. Bill-source conflict and proximal toe feather review unresolved; no calibrated eye hue or exact age/sex ratio. Sciencefalse. Originald7c251c7fe3b35b2272ba720bd04ec8d7d7b8d96 independentfullPNG2666005bytes SHA2565763b462a4f4300f465bc8ffcf41de29956b5003aba580f913d0a076e13c4388 Gitblob7de65dd0c9f0f32f9ced8142698ece11ea4df735 local==remote. Unique139/251 unchanged. Sourcesnew0/reuse1 CHA-SANTANDER2013
 [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-2.md)
+
+
+## VERIFIED 2026-10-20T11:40:59.000Z
+#100v2 adultiris darkened/pinkeyelids preserved, juvenileunchanged; exacthue/age/sexratio/winggeometryunknown sciencefalse. FullPNG1536x1024 3196349bytes SHA2566372fc5dbc54d926eb526a0db0528edb1445ec47012aefdb9553610c4874c31e Gitblobf646c76d07bc4f8decf3d8172875370667993249 independentimmutable rawdownload full decode local==remote. Imagecommit 2c065722847b03396c8fc46c62ad80d74fb57b09. Unique139/251unchanged; cycle3REVISION. New1/reuse2/correct0 sources indexed562e1081b2f094c492a1c69d4009dd9a7a3a278a. [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-3.md).

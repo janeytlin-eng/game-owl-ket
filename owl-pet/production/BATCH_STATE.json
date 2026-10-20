@@ -1676,7 +1676,7 @@
     },
     {
       "batch_id": "2026-10-19T1028+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -1723,24 +1723,30 @@
           "commit_sha": "83ed1daf924da5eba9f46705f1faca8c480f9d94",
           "verification_commit_sha": "f95ff3e3678274b63425b767850896de57ddd573",
           "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox japonica",
+          "action": "REVISION_RECOVERY",
+          "unique_species_increment": 0,
+          "commit_sha": "b0f25e7cffded0984e83a0765986ef39173050c9",
+          "verification_commit_sha": "470c7a8c4d80f43f348628e0af926df4306a1e2e",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-6.md",
+          "recovered_at": "2026-10-20T07:34:14.293Z"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-19T02:31:10.775Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-19T05:59:07.904Z",
-        "commit_sha": "f95ff3e3678274b63425b767850896de57ddd573",
-        "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-5.md"
-      }
+        "commit_sha": "470c7a8c4d80f43f348628e0af926df4306a1e2e",
+        "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-6.md",
+        "at": "2026-10-20T07:34:14.293Z"
+      },
+      "completed_at": "2026-10-20T07:34:14.293Z"
     }
   ],
-  "lease": {
-    "owner": "resume20261020-1531",
-    "run_id": "batch1028-cycle6-recovery",
-    "heartbeat_at": "2026-10-20T07:32:14.180Z",
-    "expires_at": "2026-10-20T07:47:14.180Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -1788,5 +1794,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-20T07:32:14.180Z"
+  "updated_at": "2026-10-20T07:34:14.293Z"
 }

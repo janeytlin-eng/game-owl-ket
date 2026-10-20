@@ -2027,3 +2027,7 @@ Originalphoto andmetadata re-read/viewed2026-10-19: immaturebody irregularmottle
 
 ### 2026-10-19 cycle6 JAP-TAIEOL2013 reuse
 Actualinstitutionaltextre-read morphologicalsection: adultbilldarkbrown/palertip overrides coolgrayrender; olderjuvenilebillnotrecoloredwithoutageevidence. No newID. Regionalscopeandhistoricaltotogotaxonomylimits unchanged. [Cycle6 #92v2](../production/runs/2026-10-19T1028+0800-cycle-6.md).
+
+
+## 2026-10-20 cycle6 recovery reuse JAP-TAIEOL2013
+Freshread https://taieol.tw/pages/244954/articles 綜合描述 authored林文宏/劉小如,2013-05-10. Adultdarkbrownbill/palertip, creamtarsi/yellowbristledtoes; immaturepalebuff. Institutionalregionalaccount, notgrowthseries/currentfulltaxonomyresolution; bookprior466–467notfreshreadinrecovery. Appliesadultbillonly, juvenileagecolorunknown. New0/reuse1/correct0, no duplicateID. [Recovered #92v2 run](../production/runs/2026-10-19T1028+0800-cycle-6.md).

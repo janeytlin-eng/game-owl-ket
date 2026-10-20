@@ -2133,3 +2133,6 @@ Freshpp1–3 hindcrowncoronalband/feathertips/olderimmature retainedflightfeathe
 
 ### GSO-SHANKAR-2013-YOUNG reuse2310cycle4
 Caption/EXIFand960pxactualfreshview2026-10-20; diffusejuvenilefluff vsartificialarcgeometry, exactage/captive/dateconflictunchanged. Actualreferenceattachedforregionaledit, no copiedsourceinrepo. [123v3run](../production/runs/2026-10-20T2310+0800-cycle-4.md). ExistingIDreuse1 no newID.
+
+### CIB-MONTGOMERY-2006 reuse2310cycle5
+Primarypage+JPEGfreshview, plainrufousyoungcrown/finefeathertexture contrastsconceptshinycreamflecks; genuinewingwhitepatches retained. Exactage/palette notcalibrated. Testmattehighlightcontrolnotuniversalrule. [113v4run](../production/runs/2026-10-20T2310+0800-cycle-5.md). ExistingIDreuse1,new0.

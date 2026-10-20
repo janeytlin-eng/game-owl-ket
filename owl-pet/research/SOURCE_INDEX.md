@@ -2106,3 +2106,7 @@ DenisLepage/BirdsCanada undatedcurrenttable https://avibase.bsc-eoc.org/species.
 
 ### 2026-10-20 cycle5 reuse audit (no duplicate IDs)
 GSO-SHANKAR-2013-YOUNG originalphoto+caption/EXIF/license freshread/view; GSO-OWLPAGES2020 Description/Size/Breeding/Habitat freshread. Maps Otus/Mimizuku gurneyi→juvenilebodytexture→123v2. RepeatedsharpUedges vsfinebarredfluff motivates targetedbodyedit, formedwingsretained; exactage/geometryunknown. [Research/prompt/actualreview](../production/runs/2026-10-20T2133+0800-cycle-5.md). Preliminaryreadonlychecks TAS-ABSA2019/PSO-JOSEF2012/PSO-JOSEF-TANEDO2013 reused, no false correction to121/122;122photoactualviewcompatibleplainrufousyoung. New0/correct0.
+
+
+### 2026-10-20 cycle6 LZBO-RASMUSSEN2012-LEAD reuse (no duplicateID)
+ActualoriginalPDFp1,p3–4,p13Table7 refreshed: nominatephilippensis unmarkedcrown, spilocephala spotted; pooledsexesnotRSDproof andimmatures excluded. Supportsadult125v2crown-onlyedit, notjuvenilecrown orwingpatchremoval. [Facts,prompt,actualreview](../production/runs/2026-10-20T2133+0800-cycle-6.md). PEO-ARTUSO2015 primarybody/caption/7005pixels freshreadonly124check, no edit/no credit; keep legitimateolderformedwings. New0/correct0.

@@ -8,3 +8,8 @@ Newexternal2/newbooksection1/reuseexistingbook1. Scientificfalse; olderjuvenileb
 Actualfirstimageandeditviewed: addedmissing#94, reducedrightfemalevisualscale; onlymodestdifference now, notbiologicalratiocalibration. Adultsdarkchestnuteyes/tawnybrows/whitechin/plainbuffbelly/brownband/baretoesbranches retained. Laterjuvenilephoto-stage residualwhiteheadfluff/darkmask/darkeyes/buffbelow/brownchestband/developedfoldedwingsvalid, notshrinktoembryonicbuds. Exactjuvenileage/winglengthunknown. Originaldraftarchived45aae06f49f8879c5a1bcfe0a17fb58ae5ba9eac notanotheruniquegroup. Recheckconcretechangevisualsuccess, sciencefalse. Generation 2026-10-15T12:53:20.767Z to 2026-10-15T12:54:03.398Z; edit 2026-10-15T12:54:44.348Z to 2026-10-15T12:55:50.570Z.
 [Original](../../design/concepts/94-pulsatrix-koeniswaldiana-v1.png)
 [Run](../../production/runs/2026-10-15T2034+0800-cycle-5.md)
+
+
+## VERIFIED 2026-10-20T08:41:40.555Z
+94-pulsatrix-koeniswaldiana-v2 Juvenilepectoralband softer/morecontinuous, formedwing/supportpreserved; exactage/sexratio/geometrypending. Original1312x1199 preserved. Sciencefalse. Originalff6e3510afeaf3f4525a6fb8b9b2bd2c6359e5e3 independentfullPNG2514159bytes SHA2569fea6fd64ae9cb3c3c6ebc4b11f5547939c5058e7ec02d0a9a3d4cab7a20c942 Gitblob98e11e5431b80512c33aa63e02b6b7f90f22fbfa local==remote. Unique139/251 unchanged. Sourcesnew0/reuse1 KOE-BOTTAI2013-Y
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-1.md)

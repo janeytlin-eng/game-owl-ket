@@ -2064,3 +2064,7 @@ Related #100v1→proposedv2; [run](../production/runs/2026-10-20T1634+0800-cycle
 
 ## 2026-10-20 cycle5 reuse SWFO-JWVH-2024
 Fresh full original newsletter p16/PDF17 text and rendered photo read: olderjuvenile irregular brown-gray chestchevrons and muted formedwingcoverts. #105v2 still overlypale/regular-scaled; qualitative localpattern refinement for #105v3, exactcolor/age/sexunknown; no wildnest inference. Source metadata unchanged, new0/reuse1/correction0. [Run](../production/runs/2026-10-20T1634+0800-cycle-5.md), [species](../knowledge/species/105-ptilopsis-granti.md). Copyright linkonly, notsourcecopy.
+
+
+## 2026-10-20 cycle6 FVO-EISERMANN-FIELD2026 reuse
+Freshpage and originaljuvenilephoto actuallyread/viewed. #107v1 broadlong patternedwing exceeds source's narrowexposedformedtips; earlierreviewcallingretainedtips narrow wasoverconfident. Refineexposedwingarea/softbarredcoverts for107v2 while retainingformedtips; noexactage/sex/nest/iris inference. New0/reuse1/corrected0, historicalreviewpreservedandqualified. [Run](../production/runs/2026-10-20T1634+0800-cycle-6.md), [species](../knowledge/species/107-strix-fulvescens.md). Originalsourcecopyrightlinkonly.

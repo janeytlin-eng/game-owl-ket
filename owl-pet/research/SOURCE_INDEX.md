@@ -2139,3 +2139,6 @@ Primarypage+JPEGfreshview, plainrufousyoungcrown/finefeathertexture contrastscon
 
 ### MSO-MOA-TW2 reuse2310cycle6
 FreshregionalMorphology/Habitat adultfinevermiculations PLUSsparseblacklongitudinalshafts read; #101v4 contrastseparationtest, notlongstripedbody/juvenileinference. [Run](../production/runs/2026-10-20T2310+0800-cycle-6.md). ReuseexistingID1/no newID.
+
+### MSO-MOA-TW2 reuse 2026-10-21 recovery cycle6
+Fresh institutional Morphology/Habitat/TaiwanBirds2ed attribution read2026-10-21: regionaladultfinevermiculations andsparseblackbrownshaftstreaks, notjuvenileage/sexratio. No newfact/sourceID; reused1/new0/correction0. Existing101v4 binaryverification BLOCKED unavailableexecutionenvironment, no newimageview/sciencepass/cyclecredit. [Recovery evidence](../production/runs/2026-10-20T2310+0800-cycle-6.md). Priorverifiedfacts retained, no sourcescopied.

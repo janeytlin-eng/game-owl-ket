@@ -1747,7 +1747,7 @@
     },
     {
       "batch_id": "2026-10-20T1634+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -1794,24 +1794,29 @@
           "commit_sha": "584d03899e33239de636e91ad4b7e434f260282c",
           "verification_commit_sha": "41a611829eb8dfc8ac23ac66d20b7cb6bc6bd755",
           "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Strix fulvescens",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ac94e2faade19bce441081edd81ff13199557f95",
+          "verification_commit_sha": "9a19ab30b9c008dfd13c3e384d6bfe63563fb4a0",
+          "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-20T08:37:34.615Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-20T11:55:05.825Z",
-        "commit_sha": "41a611829eb8dfc8ac23ac66d20b7cb6bc6bd755",
-        "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-5.md"
-      }
+        "at": "2026-10-20T12:35:57.658Z",
+        "commit_sha": "9a19ab30b9c008dfd13c3e384d6bfe63563fb4a0",
+        "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-20T12:35:57.658Z"
     }
   ],
-  "lease": {
-    "owner": "run2029",
-    "run_id": "batch1634-cycle6",
-    "heartbeat_at": "2026-10-20T12:31:22.272Z",
-    "expires_at": "2026-10-20T12:46:22.276Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -1859,5 +1864,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-20T11:55:05.825Z"
+  "updated_at": "2026-10-20T12:35:57.658Z"
 }

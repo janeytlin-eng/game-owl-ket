@@ -2127,3 +2127,6 @@ Originalpaperfreshp3–4,p13Table7,p14Diagnosis andadultFig6bp12actualscreenshot
 
 ### LZBO-RASMUSSEN-2012-LEAD correction/reuse cycle2
 Captioncorrection Fig6b printedp12 R.O.Hutchinson PICOPMindanaoFebruary2011; erroneous run1Pitman2008attribution superseded. Fresh p13 adult125unmarkedcrown/nape diagnosis reused, mattehighlight control newrenderinghypothesis notbiologicalfact. [125v3cycle2](../production/runs/2026-10-20T2310+0800-cycle-2.md). One existingID corrected/reused, notnewsource.
+
+### MARS-WESKE-1981 reuse cycle2310-3
+Freshpp1–3 hindcrowncoronalband/feathertips/olderimmature retainedflightfeathers read; #128v3 headturn designinference exposes posteriorcrown, not foreheadV. Exactage/sexratio pending. [Run](../production/runs/2026-10-20T2310+0800-cycle-3.md). ExistingIDreuse no duplicate.

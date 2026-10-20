@@ -1889,15 +1889,24 @@
       "batch_id": "2026-10-20T2310+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Ninox spilocephala",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "f1dabc519f6e481c1422ae8cdb9173738b81a45b",
+          "verification_commit_sha": "389b7cd70b9183bbeb5ed86de9b6ded30e5f0c22",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-10-20T15:11:45.124Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_PARTIAL",
-        "at": "2026-10-20T15:15:05.097Z",
-        "commit_sha": "7a8157f6a3891ba57fd7ff6306041af796418307",
-        "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-1.md",
-        "error": "Scotopelia bouvieri immature primary image WEB click403Forbidden; pixels not viewed; no image generated"
+        "stage": "VERIFIED",
+        "at": "2026-10-20T15:42:28.009Z",
+        "commit_sha": "389b7cd70b9183bbeb5ed86de9b6ded30e5f0c22",
+        "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-1.md"
       }
     }
   ],
@@ -1905,9 +1914,9 @@
     "owner": "run2330",
     "run_id": "2026-10-20T2330+0800",
     "batch_id": "2026-10-20T2310+0800",
-    "cycle": 1,
-    "heartbeat_at": "2026-10-20T15:31:41.618Z",
-    "expires_at": "2026-10-20T15:46:41.618Z"
+    "cycle": 2,
+    "heartbeat_at": "2026-10-20T15:42:28.009Z",
+    "expires_at": "2026-10-20T15:57:28.009Z"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -1956,5 +1965,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-20T15:31:41.618Z"
+  "updated_at": "2026-10-20T15:42:28.009Z"
 }

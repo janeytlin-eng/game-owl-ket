@@ -2142,3 +2142,7 @@ FreshregionalMorphology/Habitat adultfinevermiculations PLUSsparseblacklongitudi
 
 ### MSO-MOA-TW2 reuse 2026-10-21 recovery cycle6
 Fresh institutional Morphology/Habitat/TaiwanBirds2ed attribution read2026-10-21: regionaladultfinevermiculations andsparseblackbrownshaftstreaks, notjuvenileage/sexratio. No newfact/sourceID; reused1/new0/correction0. Existing101v4 binaryverification BLOCKED unavailableexecutionenvironment, no newimageview/sciencepass/cyclecredit. [Recovery evidence](../production/runs/2026-10-20T2310+0800-cycle-6.md). Priorverifiedfacts retained, no sourcescopied.
+
+
+### Reuse verification 2026-10-20T20:29:36.207Z: MSO-MOA-TW2 / Otus spilocephalus hambroecki
+Freshly read original Morphology/Habitat/source attribution; adult fine brown vermiculations plus sparse blackbrown shafts support #101v4 contrast correction, not juvenile age/sex ratio/exact feather map. Existing stable ID reused; new0/reuse1/correction0. [Cycle6 recovery](../production/runs/2026-10-20T2310+0800-cycle-6.md); image e1d4df916c4a27353ef7159d277f7175eaae70ed. No duplicate source entry or newly accessed Mikkola pages.

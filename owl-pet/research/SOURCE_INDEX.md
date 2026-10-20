@@ -2060,3 +2060,7 @@ Related #100v1→proposedv2; [run](../production/runs/2026-10-20T1634+0800-cycle
 
 
 2026-10-20: MSO-MOA-TW2 freshMorphologyreaccess adultdensefineventralvermiculationsandsparseshafts; regionalTaiwanhambroecki nojuvenileagerule. [Cycle4](../production/runs/2026-10-20T1634+0800-cycle-4.md) #101v2 proposed adult-onlypatternedit. New0/reuse1/correct0; sourcefacts vsdesignhypothesis separated.
+
+
+## 2026-10-20 cycle5 reuse SWFO-JWVH-2024
+Fresh full original newsletter p16/PDF17 text and rendered photo read: olderjuvenile irregular brown-gray chestchevrons and muted formedwingcoverts. #105v2 still overlypale/regular-scaled; qualitative localpattern refinement for #105v3, exactcolor/age/sexunknown; no wildnest inference. Source metadata unchanged, new0/reuse1/correction0. [Run](../production/runs/2026-10-20T1634+0800-cycle-5.md), [species](../knowledge/species/105-ptilopsis-granti.md). Copyright linkonly, notsourcecopy.

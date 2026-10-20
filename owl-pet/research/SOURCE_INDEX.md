@@ -2136,3 +2136,6 @@ Caption/EXIFand960pxactualfreshview2026-10-20; diffusejuvenilefluff vsartificial
 
 ### CIB-MONTGOMERY-2006 reuse2310cycle5
 Primarypage+JPEGfreshview, plainrufousyoungcrown/finefeathertexture contrastsconceptshinycreamflecks; genuinewingwhitepatches retained. Exactage/palette notcalibrated. Testmattehighlightcontrolnotuniversalrule. [113v4run](../production/runs/2026-10-20T2310+0800-cycle-5.md). ExistingIDreuse1,new0.
+
+### MSO-MOA-TW2 reuse2310cycle6
+FreshregionalMorphology/Habitat adultfinevermiculations PLUSsparseblacklongitudinalshafts read; #101v4 contrastseparationtest, notlongstripedbody/juvenileinference. [Run](../production/runs/2026-10-20T2310+0800-cycle-6.md). ReuseexistingID1/no newID.

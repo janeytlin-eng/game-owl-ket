@@ -2057,3 +2057,6 @@ SourceHUH-SOARES2021 NEW: LeonardoMoura dosSantosSoares,WedsonMedeirosSilvaSouto
 HUH-BC2013 REUSED Bodrati/Cockle2013 OrnitNeotrop24:169–182 actualfulltextIntro/Abstract freshread thisinvocation: livingangicofork15.2m protectedepiphytes/threeuprights, samealbomarginata scope, nests2010young2012egg; no newirisclaimfrompaper. Prior nestlingregionalpalegraybars/yellowbill stage remains, juvenileirisenotchanged. Book2013printed340–341 reusedhistorical notfreshread. Noexactage/sexratio/irishexscientificpass.
 
 Related #100v1→proposedv2; [run](../production/runs/2026-10-20T1634+0800-cycle-3.md). Newexternal1/reused2IDs(HUH-BC2013,HUH-MIK2013-340 historicalbook); correction0. Primaryarticlequalitativeeyefact, not exactRGB/juvenileage orsexratio. LicenseCCBY4.0, noentirearticlecopied.
+
+
+2026-10-20: MSO-MOA-TW2 freshMorphologyreaccess adultdensefineventralvermiculationsandsparseshafts; regionalTaiwanhambroecki nojuvenileagerule. [Cycle4](../production/runs/2026-10-20T1634+0800-cycle-4.md) #101v2 proposed adult-onlypatternedit. New0/reuse1/correct0; sourcefacts vsdesignhypothesis separated.

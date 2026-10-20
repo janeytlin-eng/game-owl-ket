@@ -1,2 +1,3 @@
-#143 Asio solomonensis / Nesasio solomonensis
-Pendingconcept; facts/design/limits and fullprompt [cycle4](../../production/runs/2026-10-20T2133+0800-cycle-4.md). No sexsize data/exactjuvenileage, scientificfalse.
+#143 Asio solomonensis / Nesasio solomonensis / Pseudoptynx solomonensis
+Secondactualedit replaced adultpinkscalytarsi with shaggytawnyfeathers; graybaretoes and juvenileunbarredpalecreamfluff/darkmask/orangeeyes/formedwings retained. Exactage/sexratio/feathermap/palette pending sciencefalse.
+Sources FEO-LOYN-DEBUS2000 originalpp288–289Plate79, FEO-OWLPAGES2020 specialistadultdescription, FEO-AVIBASE-MAP taxonomy. Fullsourcefacts/limitations/prompts/actualedits/checks in [cycle4](../../production/runs/2026-10-20T2133+0800-cycle-4.md). Photoobservedperching supportsstage but branchroost isarttranslation ofrescuedrailing, notnest. No measurementsfromsexunidentifiedyoung; no scientificpass. [Original](../../design/concepts/143-asio-solomonensis-v1.png) imagecommit2e838d9ae966bee31ab7f51a15b8310ac15620c6 independentlydownloadeddecoded/hashmatched.

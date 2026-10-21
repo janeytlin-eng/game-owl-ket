@@ -2044,11 +2044,16 @@
       "started_at": "2026-10-21T03:35:00.000Z",
       "last_checkpoint": {
         "stage": "STARTED",
-        "at": "2026-10-21T03:35:00.000Z",
-        "run_record": "owl-pet/production/runs/2026-10-21T1134+0800-cycle-1.md"
+        "at": "2026-10-21T04:35:00Z",
+        "run_record": "owl-pet/production/runs/2026-10-21T1232+0800-cycle-2.md"
       },
-      "lease": null,
-      "last_updated_at": "2026-10-21T03:55:00Z"
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-21T1232+0800-cycle-2",
+        "heartbeat_at": "2026-10-21T04:35:00Z",
+        "expires_at": "2026-10-21T04:50:00Z"
+      },
+      "last_updated_at": "2026-10-21T04:35:00Z"
     }
   ],
   "lease": {

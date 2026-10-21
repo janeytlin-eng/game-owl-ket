@@ -718,3 +718,7 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Preserved documented developmental boundaries and all adults/text/setting; residual fine arcs and scientific unknowns remain declared.
 - Registered the PNG hash and kept scientifically_verified=false.
 
+## 2026-10-21 — #03 Bubo bubo v9
+- Further reduced residual U/C-shaped loop artifacts in the nestling's white down.
+- Preserved anatomy, adults, labels and setting; no scientific pass or transferred approval.
+

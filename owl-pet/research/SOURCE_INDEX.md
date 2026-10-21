@@ -2212,3 +2212,18 @@ Rasmussen et al. (2012), original paper “Vocal divergence and new species in t
 
 ### 2026-10-22 cycle 4 reuse audit — #113 v5
 Fresh targeted search and actual page reading reused two already-known species accounts without creating duplicate IDs: the Australian Government Christmas Island National Park page (adult bright-yellow eyes, tawny-orange upperparts, orange-and-white barred underparts; institutional field photograph) and OwlPages (adult whitish breast finely barred rufous, dark tail with rufous bands). Neither source measures an older juvenile's exact feather map, age or flight ability. Direct v4 inspection showed the central older juvenile's chest/belly as highly regular stacked adult-like scallop bands. v5 therefore makes a bounded rendering correction only: softer paler downy body texture with fine irregular broken rufous bars, while retaining formed wing/tail and natural two-foot branch support. Exact age, sex, flight ability and juvenile pattern remain unknown; `scientifically_verified=false`. New 0; reused 2; corrected 0. [Run](../production/runs/2026-10-22T0031+0800-cycle-4.md) · [v5](../design/concepts/113-ninox-natalis-v5.png) · image commit d3ac2b4db3992c0936d8d6789adfb939455e713e.
+
+
+### ISOW-NEST-LUCKNOW-2019 — Indian Scops Owl nesting ecology (limited abstract record)
+- Stable ID: `ISOW-NEST-LUCKNOW-2019`
+- Title: “Nesting Ecology of Indian Scops Owl (*Otus bakkamoena*) in Lucknow”
+- Author/year: metadata on accessible record incomplete; 2019 publication record; accessed 2026-10-22.
+- URL: https://www.researchgate.net/publication/338448693_NESTING_ECOLOGY_OF_INDIAN_SCOPS_OWL_OTUS_BAKKAMOENA_IN_LUCKNOW
+- Type/read extent: original-study record and abstract-level text actually read; full paper/pages were not accessible in this cycle.
+- Taxon/stage/topic: *Otus bakkamoena*; breeding/nest site; no juvenile morphology.
+- Fact: 21 nests were reported; most were in tree cavities, notably old neem, khair and cluster fig trees.
+- Limitation/confidence: abstract-level evidence only; does not provide a read cavity diagram, height, dimensions, floor-material quantity or nestling stage. Moderate confidence for natural-cavity direction, no credit for fine geometry.
+- Design link: supports replacing #84 v2's conspicuous board-built box with a natural tree hollow in [#84 v5](../design/concepts/84-otus-bakkamoena-v5.png). The exact hollow shown is conservative design inference. [Cycle record](../production/runs/2026-10-22T0048+0800-cycle-5.md).
+
+### 2026-10-22 cycle 5 reuse audit — #84 v5
+OwlPages photo record of an Indian Scops Owl at a tree-hollow entrance was actually read/viewed at page-caption level and reused. Combined with `ISOW-NEST-LUCKNOW-2019`, it supports a natural-cavity setting, not a measured cavity blueprint. New 1 limited source; reused 1; corrected 0. Exact tree species, dimensions, height, floor material and juvenile stage remain unknown; `scientifically_verified=false`. Image commit 218f2ee8ed77007bfff1408d9c63daea163156b1.

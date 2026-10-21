@@ -1957,7 +1957,7 @@
     },
     {
       "batch_id": "2026-10-21T0533+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -2004,23 +2004,29 @@
           "commit_sha": "7617668e91108dd70910a90ed5c1f4b84253d4b0",
           "verification_commit_sha": "a3180093f811d4f901cb6e51e74cd59cd1f354a4",
           "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops sanctaecatarinae",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "24bc119b982c3eb52a3df3d035b6576c5c67fb42",
+          "verification_commit_sha": "3030a3c6e4e128a2f2db7591180a49a814b0aee3",
+          "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-20T21:34:50.374Z",
       "last_checkpoint": {
-        "stage": "STARTED",
-        "at": "2026-10-21T01:42:00.000Z",
+        "stage": "VERIFIED",
+        "at": "2026-10-21T01:51:00.000Z",
+        "commit_sha": "3030a3c6e4e128a2f2db7591180a49a814b0aee3",
         "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-6.md"
-      }
+      },
+      "completed_at": "2026-10-21T01:51:00.000Z"
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "2026-10-21T0926+0800-cycle-6",
-    "heartbeat_at": "2026-10-21T01:42:00.000Z",
-    "expires_at": "2026-10-21T01:57:00.000Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2068,5 +2074,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-21T01:42:00.000Z"
+  "updated_at": "2026-10-21T01:51:00.000Z"
 }

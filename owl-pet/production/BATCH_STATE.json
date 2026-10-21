@@ -2119,23 +2119,27 @@
           "commit_sha": "14d6343cc85e3defff3e2e94e8b5e4839d483276",
           "verification_commit_sha": "e36d27b37de0d01c9c2ef4311156f63b64a04d23",
           "run_record": "owl-pet/production/runs/2026-10-21T1930+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ninox spilocephala",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "46c023c32b322bb1c932f0b48126449a6cad0eb8",
+          "verification_commit_sha": "82615c0c8ba94e9c5cdc5a172e87e2da77b01241",
+          "run_record": "owl-pet/production/runs/2026-10-21T2334+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-21T10:29:00Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-21T15:38:00Z",
-        "commit_sha": "1354800c1eb629df2a2fb709e7977e0cc4218a16",
+        "stage": "VERIFIED",
+        "at": "2026-10-21T15:48:00Z",
+        "commit_sha": "82615c0c8ba94e9c5cdc5a172e87e2da77b01241",
         "run_record": "owl-pet/production/runs/2026-10-21T2334+0800-cycle-3.md"
       },
-      "lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-21T2334+0800-cycle-3",
-        "heartbeat_at": "2026-10-21T15:35:00Z",
-        "expires_at": "2026-10-21T15:50:00Z"
-      },
-      "last_updated_at": "2026-10-21T15:38:00Z"
+      "lease": null,
+      "last_updated_at": "2026-10-21T15:48:00Z"
     }
   ],
   "lease": {
@@ -2191,5 +2195,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-21T15:38:00Z"
+  "updated_at": "2026-10-21T15:48:00Z"
 }

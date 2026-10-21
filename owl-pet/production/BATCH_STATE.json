@@ -2136,9 +2136,17 @@
           "unique_species_increment": 0,
           "commit_sha": "23d333cd57d0e93fb381df0162218b0855594d7b",
           "run_record": "owl-pet/production/runs/2026-10-22T0031+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus bakkamoena",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "eda9fc4f66a5cb25448e7715d59b6267fec3820c",
+          "run_record": "owl-pet/production/runs/2026-10-22T0048+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-21T10:29:00Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
@@ -2146,15 +2154,7 @@
         "commit_sha": "82615c0c8ba94e9c5cdc5a172e87e2da77b01241",
         "run_record": "owl-pet/production/runs/2026-10-21T2334+0800-cycle-3.md"
       },
-      "lease": {
-        "owner": "owl-production-2026-10-22T0048+0800-c5",
-        "run_id": "owl-production-2026-10-22T0048+0800-c5",
-        "cycle": 5,
-        "species": "Otus bakkamoena",
-        "heartbeat_at": "2026-10-21T16:51:00Z",
-        "expires_at": "2026-10-21T17:06:00Z",
-        "run_record": "owl-pet/production/runs/2026-10-22T0048+0800-cycle-5.md"
-      },
+      "lease": null,
       "last_updated_at": "2026-10-21T15:48:00Z"
     }
   ],

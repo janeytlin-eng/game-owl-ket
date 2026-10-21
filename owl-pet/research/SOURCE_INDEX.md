@@ -2162,3 +2162,11 @@ Institutional rescue newsletter printed p.16/PDF p.17 reused for #105 v4: actual
 
 ### 2026-10-21 cycle4 reuse audit (no duplicate IDs)
 GSO-SHANKAR-2013-YOUNG and GSO-SHANKAR-2013-ADULT re-read from the existing index for Otus/Mimizuku gurneyi. The accessible juvenile photograph supports an older perched gray-brown juvenile with short broad erect tufts, dark bill/eyes, pink-purple eyelid margin, formed but partly hidden wing edges, gray toes gripping wood; exact age and sex remain unknown. This cycle changed rendering integration only and did not infer wild-family grouping or natal plumage. Fresh web searches produced no additional verified species-specific developmental source and were not indexed as evidence. [Image](https://github.com/janeytlin-eng/game-owl-ket/blob/2b92aceaad467faef4918926fdcf0c24bc0e5682/owl-pet/design/concepts/123-otus-gurneyi-v4.png). Reused2/new0/corrected0.
+
+
+### 2026-10-21 #128 v5 revision audit
+
+- Reused source: **MARS-WESKE-1981** — Weske & Terborgh (1981), original species description, actually re-read pp. 2–3. It supports an irregular whitish hindcrown/nuchal area behind the darker anterior crown, short ear tufts, dark-brown iris and rufous black-rimmed facial disc. It does not give a calibrated display width or a population-wide feather map; the seven-male/one-female specimen series is small.
+- Fresh external search used current and historical names (*Megascops marshalli* / *Otus marshalli*) to look for additional institutional photographs and development evidence. No new source with a measured hindcrown-band extent or sex-linked display geometry was actually read, so search-only leads receive no evidentiary credit.
+- Design inference, not source fact: the conspicuously broad bright-white v4 band was narrowed, warmed to buff and interrupted by reddish-brown/blackish feather texture. Exact extent remains unknown; image remains scientifically_verified=false.
+- Counts: new sources 0; reused sources 1; corrected sources 0. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-5.md) · [v5](../design/concepts/128-megascops-marshalli-v5.png) · image commit 7617668e91108dd70910a90ed5c1f4b84253d4b0.

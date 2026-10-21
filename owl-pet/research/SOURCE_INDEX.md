@@ -2158,3 +2158,7 @@ Fresh targeted review reused the already indexed uploaded-guide section for *Str
 
 ### SWFO-JWVH-2024 reuse — 2026-10-21 cycle 3
 Institutional rescue newsletter printed p.16/PDF p.17 reused for #105 v4: actual previously viewed older-juvenile photo supports irregular brown-gray chest chevrons, subdued formed wing edge, short rounded tufts and supported non-flight posture. Applied to reduce unsupported repeated loop/scallop geometry only; exact age, sex and flight timing remain unknown. New0/reused1/corrected0. [Run](../production/runs/2026-10-21T0533+0800-cycle-3.md) · [image](../design/concepts/105-ptilopsis-granti-v4.png).
+
+
+### 2026-10-21 cycle4 reuse audit (no duplicate IDs)
+GSO-SHANKAR-2013-YOUNG and GSO-SHANKAR-2013-ADULT re-read from the existing index for Otus/Mimizuku gurneyi. The accessible juvenile photograph supports an older perched gray-brown juvenile with short broad erect tufts, dark bill/eyes, pink-purple eyelid margin, formed but partly hidden wing edges, gray toes gripping wood; exact age and sex remain unknown. This cycle changed rendering integration only and did not infer wild-family grouping or natal plumage. Fresh web searches produced no additional verified species-specific developmental source and were not indexed as evidence. [Image](https://github.com/janeytlin-eng/game-owl-ket/blob/2b92aceaad467faef4918926fdcf0c24bc0e5682/owl-pet/design/concepts/123-otus-gurneyi-v4.png). Reused2/new0/corrected0.

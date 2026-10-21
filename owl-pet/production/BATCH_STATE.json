@@ -2047,23 +2047,27 @@
           "commit_sha": "8a11a0b590cee6e629146f6228ab6eb7e8531096",
           "verification_commit_sha": "05cc25ab4cf9724cef1454c9054ea55aaa147050",
           "run_record": "owl-pet/production/runs/2026-10-21T1232+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a3b3cf2bd15edff17cf8448e31f3af8c2f6220fe",
+          "verification_commit_sha": "f0b5ec3978a22d7c484aa6b2418591419b4df988",
+          "run_record": "owl-pet/production/runs/2026-10-21T1326+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-21T03:35:00.000Z",
       "last_checkpoint": {
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-21T05:38:00Z",
-        "commit_sha": "3481334240fd4f7082663a86450c5865d7ad53c4",
+        "stage": "VERIFIED",
+        "at": "2026-10-21T05:46:00Z",
+        "commit_sha": "f0b5ec3978a22d7c484aa6b2418591419b4df988",
         "run_record": "owl-pet/production/runs/2026-10-21T1326+0800-cycle-3.md"
       },
-      "lease": {
-        "owner": "codex-automation",
-        "run_id": "2026-10-21T1326+0800-cycle-3",
-        "heartbeat_at": "2026-10-21T05:38:00Z",
-        "expires_at": "2026-10-21T05:53:00Z"
-      },
-      "last_updated_at": "2026-10-21T05:38:00Z"
+      "lease": null,
+      "last_updated_at": "2026-10-21T05:46:00Z"
     }
   ],
   "lease": {

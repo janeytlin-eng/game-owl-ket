@@ -833,3 +833,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 ## 2026-10-21 #03 v8 cycle 3
 Bubo bubo v8 revised the v7 chick's conspicuous closed-loop/crochet down toward softer irregular short fluff; residual fine arcs remain. Actual final PNG viewed and archived at 1536×1024; manifest hash registered. Unique species remains 142/251 and science pass remains 0. Batch 2026-10-21T1134+0800 reaches 3/6 after verification; no user approval transferred. Evidence: [run](production/runs/2026-10-21T1326+0800-cycle-3.md).
 
+## 2026-10-21 #03 v9 cycle 4
+Bubo bubo v9 further reduced the v8 chick's residual U/C-shaped down outlines while preserving developmental anatomy, adults and labels. Final PNG viewed and registered; unique species remains 142/251 and science pass remains 0. Batch 2026-10-21T1134+0800 reaches 4/6 after verification. [Run](production/runs/2026-10-21T1433+0800-cycle-4.md).
+

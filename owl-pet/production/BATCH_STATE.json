@@ -2061,13 +2061,17 @@
       "next_cycle": 4,
       "started_at": "2026-10-21T03:35:00.000Z",
       "last_checkpoint": {
-        "stage": "VERIFIED",
-        "at": "2026-10-21T05:46:00Z",
-        "commit_sha": "f0b5ec3978a22d7c484aa6b2418591419b4df988",
-        "run_record": "owl-pet/production/runs/2026-10-21T1326+0800-cycle-3.md"
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-21T06:36:00Z",
+        "run_record": "owl-pet/production/runs/2026-10-21T1433+0800-cycle-4.md"
       },
-      "lease": null,
-      "last_updated_at": "2026-10-21T05:46:00Z"
+      "lease": {
+        "owner": "codex-automation",
+        "run_id": "2026-10-21T1433+0800-cycle-4",
+        "heartbeat_at": "2026-10-21T06:36:00Z",
+        "expires_at": "2026-10-21T06:51:00Z"
+      },
+      "last_updated_at": "2026-10-21T06:36:00Z"
     }
   ],
   "lease": {

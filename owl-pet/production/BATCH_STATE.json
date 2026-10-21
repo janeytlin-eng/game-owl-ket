@@ -2096,6 +2096,26 @@
       "lease": null,
       "last_updated_at": "2026-10-21T09:34:00Z",
       "completed_at": "2026-10-21T09:34:00Z"
+    },
+    {
+      "batch_id": "2026-10-21T1828+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "started_at": "2026-10-21T10:29:00Z",
+      "last_checkpoint": {
+        "stage": "STARTED",
+        "at": "2026-10-21T10:29:00Z",
+        "cycle": 1
+      },
+      "lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-21T1828+0800-cycle-1",
+        "heartbeat_at": "2026-10-21T10:29:00Z",
+        "expires_at": "2026-10-21T10:44:00Z"
+      },
+      "last_updated_at": "2026-10-21T10:29:00Z"
     }
   ],
   "lease": {
@@ -2151,5 +2171,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-21T09:34:00Z"
+  "updated_at": "2026-10-21T10:29:00Z"
 }

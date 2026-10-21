@@ -2070,13 +2070,17 @@
       "next_cycle": 5,
       "started_at": "2026-10-21T03:35:00.000Z",
       "last_checkpoint": {
-        "stage": "VERIFIED",
-        "at": "2026-10-21T06:48:00Z",
-        "commit_sha": "5915071328b4e8d79c8d04673fd4daa75b8aafbe",
-        "run_record": "owl-pet/production/runs/2026-10-21T1433+0800-cycle-4.md"
+        "stage": "STARTED",
+        "at": "2026-10-21T07:28:00Z",
+        "cycle": 5
       },
-      "lease": null,
-      "last_updated_at": "2026-10-21T06:48:00Z"
+      "lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-21T1527+0800-cycle-5",
+        "heartbeat_at": "2026-10-21T07:28:00Z",
+        "expires_at": "2026-10-21T07:43:00Z"
+      },
+      "last_updated_at": "2026-10-21T07:28:00Z"
     }
   ],
   "lease": {

@@ -829,3 +829,7 @@ Actual targeted edit/view: center older juvenile's repeated bright semicircular 
 Sources new0/reused2/corrected0: SLSO-MANAHAMPI-2012 and SLSO-MIK2013-194; fresh search found no stronger primary juvenile source and no adjacent-taxon anatomy was transferred. Full prompt and evidence boundaries are in the cycle record.
 Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f; independent immutable download fully decoded 1536x1024, 2699035 bytes, SHA256 5ff0de6565f99fca35593455d3b5fb479c4bdb8190ccf30f2fcb077783c02c67, Git blob 9638bb92f2fdbebd1c9f3e42739b9c44123269ca; local==remote byte-for-byte. An interim truncated blob commit 4bb0e4e2ed1a7685d67a6af90e2a9b43caeca81c was detected before credit and superseded by the complete PNG.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6aec025f31dc608af118bc9d7e185116369ae52f/owl-pet/design/concepts/117-otus-manadensis-v4.png) · [Cycle](../production/runs/2026-10-21T0533+0800-cycle-1.md)
+
+## 2026-10-21 #03 v8 cycle 3
+Bubo bubo v8 revised the v7 chick's conspicuous closed-loop/crochet down toward softer irregular short fluff; residual fine arcs remain. Actual final PNG viewed and archived at 1536×1024; manifest hash registered. Unique species remains 142/251 and science pass remains 0. Batch 2026-10-21T1134+0800 reaches 3/6 after verification; no user approval transferred. Evidence: [run](production/runs/2026-10-21T1326+0800-cycle-3.md).
+

@@ -2170,3 +2170,11 @@ GSO-SHANKAR-2013-YOUNG and GSO-SHANKAR-2013-ADULT re-read from the existing inde
 - Fresh external search used current and historical names (*Megascops marshalli* / *Otus marshalli*) to look for additional institutional photographs and development evidence. No new source with a measured hindcrown-band extent or sex-linked display geometry was actually read, so search-only leads receive no evidentiary credit.
 - Design inference, not source fact: the conspicuously broad bright-white v4 band was narrowed, warmed to buff and interrupted by reddish-brown/blackish feather texture. Exact extent remains unknown; image remains scientifically_verified=false.
 - Counts: new sources 0; reused sources 1; corrected sources 0. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-5.md) · [v5](../design/concepts/128-megascops-marshalli-v5.png) · image commit 7617668e91108dd70910a90ed5c1f4b84253d4b0.
+
+
+### 2026-10-21 #134 v2 revision audit
+
+- Reused source: **LTSC-KACHIMARECK-2014-WA1527488** — José L. Kachimareck, WikiAves primary photo record, taken 8 Oct 2014 in Curitiba, Paraná, tagged `Filhote`; original page/full pixels had been actually read and viewed. It supports short gray down/mesoptile, finer diffuse gray-brown throat/chest bars, weak head wisps, a greenish-horn bill and concealment of lower anatomy. Exact age, flight ability and iris colour are not established.
+- Fresh current/historical-name web search was performed for juvenile/development evidence. BirdLife and taxonomic/secondary hits added no measured age or feather-sequence facts; no search-only lead is credited as verified evidence.
+- Design inference: the v1 decorative coarse loop rows were replaced only in the visible throat/upper chest with finer darker broken bars and wisps. Hidden wing, lower body and feet remain unillustrated rather than guessed. `scientifically_verified=false`.
+- Counts: new sources 0; reused sources 1; corrected sources 0. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-6.md) · [v2](../design/concepts/134-megascops-sanctaecatarinae-v2.png) · image commit 24bc119b982c3eb52a3df3d035b6576c5c67fb42.

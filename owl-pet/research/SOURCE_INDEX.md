@@ -2204,3 +2204,7 @@ Oscar H. Marín-Gómez, Yemay Toro-López, Margarita M. López-García, Javier I
 
 ### 2026-10-21 cycle 2 reuse audit — #67
 Reused the already indexed Mikkola/Bouglouan evidence for the white-down, dark-mask juvenile and gray-brown formed wings. New 1 stable source ID (`SPO-MARINGOMEZ-2017`), reused 2, corrected 0. Search-only commercial or social-media hits were not promoted to evidence. Exact age, sex, subspecies and covert geometry remain unknown; `scientifically_verified=false`.
+
+
+### LZBO-RASMUSSEN-2012-LEAD reuse — 2026-10-21 cycle 3 #144 v2
+Rasmussen et al. (2012), original paper “Vocal divergence and new species in the Philippine Hawk Owl *Ninox philippensis* complex”, pp.3–4, printed pp.12–14 and Table 7, was reused after a fresh current-name/old-name web search. The paper supports a spotted adult crown and variable brown-and-white ventral streaking in *N. spilocephala*; adult diagnoses exclude immatures, and pooled sexes do not establish reversed dimorphism. Applied only to replace #144 adults' coarse repeated teardrop marks with finer irregular broken longitudinal streaking. The older immature remains occluded because exact age, ventral pattern, wing/foot/tail development and action ability are not documented. New 0; reused 1; corrected 0; `scientifically_verified=false`. [Run](../production/runs/2026-10-21T2334+0800-cycle-3.md) · [v2](../design/concepts/144-ninox-spilocephala-v2.png).

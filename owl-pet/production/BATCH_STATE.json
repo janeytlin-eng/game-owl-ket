@@ -2065,22 +2065,27 @@
           "commit_sha": "f2228667e2f8961007ffc8cc360dc28f48132f2e",
           "verification_commit_sha": "5915071328b4e8d79c8d04673fd4daa75b8aafbe",
           "run_record": "owl-pet/production/runs/2026-10-21T1433+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ec049e7c89ed5a27a572634d1f4539ee185ddd0a",
+          "verification_commit_sha": "088245249cbccdc250185de025be2149c7f7700e",
+          "run_record": "owl-pet/production/runs/2026-10-21T1527+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-21T03:35:00.000Z",
       "last_checkpoint": {
-        "stage": "STARTED",
-        "at": "2026-10-21T07:28:00Z",
-        "cycle": 5
+        "stage": "VERIFIED",
+        "at": "2026-10-21T07:39:00Z",
+        "commit_sha": "088245249cbccdc250185de025be2149c7f7700e",
+        "run_record": "owl-pet/production/runs/2026-10-21T1527+0800-cycle-5.md"
       },
-      "lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-21T1527+0800-cycle-5",
-        "heartbeat_at": "2026-10-21T07:28:00Z",
-        "expires_at": "2026-10-21T07:43:00Z"
-      },
-      "last_updated_at": "2026-10-21T07:28:00Z"
+      "lease": null,
+      "last_updated_at": "2026-10-21T07:39:00Z"
     }
   ],
   "lease": {

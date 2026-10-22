@@ -2227,3 +2227,13 @@ Fresh targeted search and actual page reading reused two already-known species a
 
 ### 2026-10-22 cycle 5 reuse audit — #84 v5
 OwlPages photo record of an Indian Scops Owl at a tree-hollow entrance was actually read/viewed at page-caption level and reused. Combined with `ISOW-NEST-LUCKNOW-2019`, it supports a natural-cavity setting, not a measured cavity blueprint. New 1 limited source; reused 1; corrected 0. Exact tree species, dimensions, height, floor material and juvenile stage remain unknown; `scientifically_verified=false`. Image commit 218f2ee8ed77007bfff1408d9c63daea163156b1.
+
+
+### NINOX-NATALIS-ADULT-BARRING-2026 — Christmas Island Boobook adult plumage cross-check
+- Stable ID: NINOX-NATALIS-ADULT-BARRING-2026
+- Sources actually read: Australian Government Christmas Island National Park bird profile (accessed 2026-10-22), https://www.dcceew.gov.au/parks-heritage/christmas-island/nature/birds ; OwlPages species account (accessed 2026-10-22), https://www.owlpages.com/owls/species.php?s=620 ; Australian Government threat-abatement plan (PDF species listing only; accessed 2026-10-22), https://www.dcceew.gov.au/sites/default/files/documents/exotic-rodents.pdf
+- Taxon/name mapping: Ninox natalis; Christmas Island hawk-owl / Christmas Boobook; historical Ninox forbesi natalis retained as a name crosswalk only.
+- Fact: institutional account supports bright yellow eyes, tawny-orange upperparts and orange/white barred underparts. OwlPages describes the breast as whitish and finely barred rufous.
+- Limitation/confidence: descriptions do not prescribe exact bar count, spacing or individual geometry; no sex-specific ventral difference was established. High confidence for fine rufous-on-pale barring direction, low confidence for exact geometry.
+- Design inference/application: in [#113 v6](../design/concepts/113-ninox-natalis-v6.png), only adult ventral markings were changed from broad mechanical bands to finer irregular broken bars. All other features and the v5 older juvenile were retained. scientifically_verified=false.
+- Cycle audit: new verified sources 0; reused 2; new limited lead 1; corrected sources 0. Image commit 2dc9296d1306a3dfcca6518ae6dbffe428fd6372. [Run record](../production/runs/2026-10-22T1031+0800-cycle-6.md).

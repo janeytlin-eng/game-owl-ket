@@ -2281,3 +2281,13 @@ Design: nearly equal adults; age-unknown older juvenile with shortened rounded w
 | NBBO-EBIRD-ID-2026 | Cornell Lab/eBird, [New Britain Boobook](https://ebird.org/species/nebhao1) | 页面现行版，访问2026-10-22 | 机构物种识别页 | *Ninox odiosa*，成年/生境 | Identification 概述 | 小型褐色鸮；暗褐头、显著白眉和白喉、橙黄色眼；宽褐胸带与浅色斑驳下体形成对比；暗巧克力褐上体/翼有散在白斑；新不列颠低地和山麓森林及改造林缘。 | 未提供可靠雌雄视觉差或幼鸟羽序；支持成年诊断、森林场景与近等成人比例。可信度：高。链接物种记录[149](../knowledge/species/149-ninox-odiosa.md)及v1。 |
 | NBBO-BIRDLIFE-2026 | BirdLife International, [New Britain Boobook factsheet](https://datazone.birdlife.org/species/factsheet/new-britain-boobook-ninox-odiosa) | 动态资料，访问2026-10-22 | 保护机构物种档案 | *N. odiosa*，分布/生境 | factsheet 摘要 | 新不列颠特有；资料不足但分布较广，在适生地相对常见。 | 摘要不足以支持幼鸟、巢位或雌雄比例；仅支持地域和保守雨林环境。可信度：高（范围），发育细节未知。 |
 | NBBO-AVIBASE-TAX-2026 | Denis Lepage / Birds Canada, [Avibase taxonomic concepts: *Ninox odiosa*](https://avibase.bsc-eoc.org/species.jsp?avibaseid=1C14F946E4885064&lang=EN) | 动态数据库，访问2026-10-22 | 分类名录聚合 | *N. odiosa*，历史名称 | Taxonomic concepts | 现行组合为 *Ninox odiosa* Sclater 1877；历史英文名包括 Russet/New Britain Hawk-Owl，Clements后期采用 New Britain Boobook。 | 仅支持分类与旧名检索映射，不支持形态或发育。可信度：中高。 |
+
+
+## #150 *Ninox variegata* — New Ireland / Bismarck Boobook — 2026-10-22
+| 稳定ID | 来源 | 年份 | 类型 | 物种/阶段 | 实际读取与页码/章节 | 关键事实 | 局限与用途 |
+|---|---|---:|---|---|---|---|---|
+| NIBO-EBIRD-ID-2026 | Cornell Lab/eBird, [Bismarck Boobook](https://ebird.org/species/bishao1) | 页面现行版，访问2026-10-22 | 机构物种识别页与实物照片索引 | *Ninox variegata*，成年/生境 | Identification 概述及页面照片索引 | 小至中型、无耳簇、短尾；暗红褐上体和横斑肩羽，翼尾斑纹可变；暗褐面盘，虹膜记为褐或黄，喙脚黄；浅色素喉、上胸暗横斑、其余白色下体具红褐横斑；森林及林缘至约1000米。 | 无可靠雌雄视觉差和幼鸟序列；支持成年诊断、近等成人比例和森林场景。可信度：高。 |
+| NIBO-BIRDLIFE-2026 | BirdLife International, [Bismarck Boobook factsheet](https://datazone.birdlife.org/species/factsheet/bismarck-boobook-ninox-variegata) | 动态资料，访问2026-10-22 | 保护机构物种档案 | *N. variegata*，分布/生境 | factsheet 范围与生态框架 | 新爱尔兰/俾斯麦群岛方向及森林生态背景。 | 动态字段未完整暴露；不用于精确羽色、性别或幼鸟判断。可信度：中高（范围/生境）。 |
+| NIBO-AVIBASE-TAX-2026 | Denis Lepage / Birds Canada, [Avibase taxonomic concepts: *Ninox variegata*](https://avibase.bsc-eoc.org/species.jsp?avibaseid=9564C8049624F8B9&lang=EN) | 动态数据库，访问2026-10-22 | 分类名录聚合 | *N. variegata*，名称/分类 | Taxonomic concepts 与同物异名框架 | 支持现行学名及 New Ireland/Bismarck Boobook 英文名映射。 | 仅支持分类和检索映射，不支持发育细节。可信度：中高。 |
+
+设计决策：#150 v1采用近等尺度成年雌雄；以暗红褐上体、肩羽横斑、无显著白眉、浅素喉与横斑下体区分上一组新不列颠种。初稿幼鸟具有过长成人式层叠飞羽，已编辑为短圆紧凑翼、柔化体纹及双足自然支撑后复查。未取得物种专属幼鸟序列、性别比例或精确巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/150-ninox-variegata.md)、[v1](../design/concepts/150-ninox-variegata-v1.png)、[运行记录](../production/runs/2026-10-22T1728+0800-cycle-6.md)。

@@ -2260,33 +2260,30 @@
           "commit_sha": "bbd5d093b8f32a517b077b8756246e4a84582f12",
           "verification_commit_sha": "b032bac4a536a0f2170b140c440f74986a589cc5",
           "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Jubula lettii",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "36db3a8d7c149fa29815c86861e466c0ef686031",
+          "verification_commit_sha": "0ae87bc414563900964bd5206e30fd85b55a3898",
+          "run_record": "owl-pet/production/runs/2026-10-22T2031+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-22T10:31:00Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-22T11:38:00Z",
-        "commit_sha": "b032bac4a536a0f2170b140c440f74986a589cc5",
-        "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-2.md"
+        "at": "2026-10-22T12:49:00Z",
+        "commit_sha": "0ae87bc414563900964bd5206e30fd85b55a3898",
+        "run_record": "owl-pet/production/runs/2026-10-22T2031+0800-cycle-3.md"
       },
-      "lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-22T2031+0800",
-        "heartbeat_at": "2026-10-22T12:31:00Z",
-        "expires_at": "2026-10-22T12:46:00Z",
-        "cycle": 3
-      },
-      "last_updated_at": "2026-10-22T12:31:00Z"
+      "lease": null,
+      "last_updated_at": "2026-10-22T12:50:00Z"
     }
   ],
-  "lease": {
-    "owner": "scheduled-production",
-    "run_id": "2026-10-22T2031+0800",
-    "heartbeat_at": "2026-10-22T12:31:00Z",
-    "expires_at": "2026-10-22T12:46:00Z",
-    "cycle": 3
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2336,7 +2333,8 @@
     "2026-10-22 17:46 +0800: cycle 6 produced and verified unique #150 Ninox variegata v1; initial juvenile adult-like long layered remiges were shortened/softened and rechecked; image commit c490f70857d9ede54795f6466bbc05c9c74f472c, Git blob 58e6b518278f2aa0a5a47a020baa299e4b0a8c92; verification commit f7c061542f455414a588cc4a5b80434c3f45bba7. Batch 2026-10-22T1126+0800 closes at 6/6; unique species total 148/251.",
     "2026-10-22 18:47 +0800: new batch cycle 1 produced and verified unique #151 Athene jacquinoti v1 (historical Ninox jacquinoti); initial juvenile adult-like layered remiges were shortened/rounded and rechecked; image commit d81ec404158fbf6cbd128a84c87d6bb2b46f40cd, Git blob 38b77a8a96076c3c0dea8b148f4a4aeb1b410639; verification commit 6d1fd18abfdc4b154b8fb2972bae32714ff85908. Batch advances to 1/6; unique species total 149/251.",
     "2026-10-22 18:52 +0800: batch cycle 2 #152 Uroglaux dimorpha reached RESEARCH_READY only; evidence boundary and full imagegen prompt persisted in ed7758619c1032051ef10b4e6ac6d08612d7ee6e. No image generated or archived and no cycle credit. Lease released for recovery; next_cycle remains 2.",
-    "2026-10-22 19:38 +0800: resumed cycle 2 from RESEARCH_READY and produced/verified unique #152 Uroglaux dimorpha v1; initial juvenile adult-like layered barred wing/tail was shortened/softened and rechecked; image commit bbd5d093b8f32a517b077b8756246e4a84582f12, Git blob 5ca479c023c7b7ea9804ac8fe50bde74f6e3b640; verification run commit b032bac4a536a0f2170b140c440f74986a589cc5. Batch advances to 2/6; unique species total 150/251."
+    "2026-10-22 19:38 +0800: resumed cycle 2 from RESEARCH_READY and produced/verified unique #152 Uroglaux dimorpha v1; initial juvenile adult-like layered barred wing/tail was shortened/softened and rechecked; image commit bbd5d093b8f32a517b077b8756246e4a84582f12, Git blob 5ca479c023c7b7ea9804ac8fe50bde74f6e3b640; verification run commit b032bac4a536a0f2170b140c440f74986a589cc5. Batch advances to 2/6; unique species total 150/251.",
+    "2026-10-22 20:49 +0800: batch cycle 3 produced and verified unique #153 Jubula lettii v1; initial immature adult-like long layered wing/tail was shortened/softened and rechecked; image commit 36db3a8d7c149fa29815c86861e466c0ef686031, Git blob 554cd9b06dbc11bac00db58dcb840775917acfd2; verification commit 0ae87bc414563900964bd5206e30fd85b55a3898. Batch advances to 3/6; unique species total 151/251."
   ],
-  "updated_at": "2026-10-22T12:31:00Z"
+  "updated_at": "2026-10-22T12:50:00Z"
 }

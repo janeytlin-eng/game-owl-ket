@@ -731,3 +731,11 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Corrected the generated juvenile's adult-like long layered wing and long barred tail before archival.
 - Preserved uncertainty: no scientific pass, no exact juvenile age, nest or invented sex dimorphism.
 - Image commit: `36db3a8d7c149fa29815c86861e466c0ef686031`; blob `554cd9b06dbc11bac00db58dcb840775917acfd2`.
+
+
+## 2026-10-22 — #154 *Pseudoscops grammicus*
+
+- Archived Jamaican Owl male/female/downy-young concept group.
+- Added three actually-read source entries and explicit juvenile evidence limits.
+- Image passed first visual review; no editing was needed.
+- Image commit `c6ff15f2a7e147ae1c1fc567988a2737365ccdaf`; scientifically_verified remains false.

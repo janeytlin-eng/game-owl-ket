@@ -853,3 +853,7 @@ Bubo bubo v9 further reduced the v8 chick's residual U/C-shaped down outlines wh
 - Added `154-pseudoscops-grammicus-v1.png`; 3,476,269 bytes, SHA-256 `78be19ebbefeab0c4bd90f3f43342ddc53dfe0e29c24f6491eda5fb55d0134f0`, Git blob `ad3262e963e54c80ac40cce5574ce0ede7f89a6c`.
 - Full image review passed without edit; exact juvenile age, growth sequence and sex-specific scale remain unknown.
 - User confirmation and scientific validation pending.
+
+
+## 2026-10-22 · #155 *Scotopelia ussheri* v1
+NEW Rufous Fishing Owl. First generated plate actually viewed and passed concept-level review without edit: exactly three labeled birds, dark eyes, no ear tufts, all feet supported, adults near-equal, and an older photographed-stage juvenile with formed but shorter wing/tail. Exact juvenile age, sex ratio and fine feather geometry remain unknown; scientifically_verified=false. Unique species 152→153/251. Complete PNG 2,872,336 bytes, 1536×1024 sRGB, SHA-256 87c5ccb97b2bfaa7dea2b590092cca7dfecfefb569bc8860d567a4388cfc1440; local and remote Git blob 69cde58c56c09af6dd4c63a58a062227040a7e13. [Original](design/concepts/155-scotopelia-ussheri-v1.png) · [Run](production/runs/2026-10-22T2232+0800-cycle-5.md).

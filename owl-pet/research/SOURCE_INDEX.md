@@ -2269,3 +2269,11 @@ OwlPages photo record of an Indian Scops Owl at a tree-hollow entrance was actua
 | CAM-RASMUSSEN-2012-LEAD | Rasmussen et al., “Vocal divergence and new species in the Philippine Hawk Owl *Ninox philippensis* complex”, *Forktail* 28:1–20 | 2012 | 原始分类论文，部分读取线索 | *N. leventisi*，分类/成年诊断 | 搜索摘要及公开diagnosis摘录实际读取；PDF打开超时，未完成全文读取 | 支持七个异域种拆分；公开诊断摘录指向卡米金种独特灰至极浅黄绿色虹膜。 | 仅部分读取，明确标记未核验全文；不当作幼鸟、繁殖或完整形态证据。下一轮可补全文。可信度：中（本轮读取范围）。 |
 
 设计决策：#147 v1采用近等尺度成年雌雄，诊断性灰绿色眼、白喉、浅肩斑和暖棕细横斑；幼鸟只作不定日龄、短圆翼尾、双足枝上支撑的保守较大龄概念。未取得物种专属幼鸟序列、性别比或巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/147-ninox-leventisi.md)、[v1](../design/concepts/147-ninox-leventisi-v1.png)、[运行记录](../production/runs/2026-10-22T1531+0800-cycle-3.md)。
+
+
+## #148 *Ninox rumseyi* — Cebu Boobook — 2026-10-22
+- CEB-EBIRD-2026 — Cornell/eBird identification, https://ebird.org/species/cebboo1, actual Identification read: Cebu wooded areas; earless medium owl, dark-brown weakly barred upperparts, orange-brown underparts, white wing speckling, pale shoulder bar, bright yellow eyes, white eyebrow V, large white throat. No juvenile/sexed measurements.
+- CEB-BIRDLIFE-2026 — BirdLife Data Zone factsheet, https://datazone.birdlife.org/species/factsheet/cebu-boobook-ninox-rumseyi, actual page framework/range read: Cebu endemic, highly restricted remnant forest. Dynamic details incomplete; habitat context only.
+- CEB-RASMUSSEN-2012-LEAD — Rasmussen et al. 2012 Forktail 28:1–20, public abstract/diagnosis excerpt read; full PDF not retrieved. Supports species split; partial-read lead, not juvenile evidence.
+- CEB-JAKOSALEM-2012 — Jakosalem, Collar & Gill, “Habitat selection and conservation status of the endemic Ninox hawk-owl on Cebu”, Bird Conservation International, DOI 10.1017/S0959270912000317; abstract actual read. Five forest patches/2011 transects and forest dependence; full methods/results not read here.
+Design: nearly equal adults; age-unknown older juvenile with shortened rounded wing/tail and two-foot support. New verified source pages2, partial leads2, reused Philippine complex context1; science false. Related [species](../knowledge/species/148-ninox-rumseyi.md), [image](../design/concepts/148-ninox-rumseyi-v1.png), [run](../production/runs/2026-10-22T1531+0800-cycle-4.md).

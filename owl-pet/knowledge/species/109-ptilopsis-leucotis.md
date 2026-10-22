@@ -31,3 +31,12 @@ REVIEWED 2026-10-18T02:36Z: second built-in output actually viewed. Tarsal feath
 Selected attempted output 109-ptilopsis-leucotis-v5.png full2675183bytes SHA25665ec73aaf677bca9bac0db92a8696cc2ace16874b50588791eb70240ad3dd1ad Gitblob7ebecd65e41bc143ba9e4987b60f021720f6b012; uploaded blob matches local. ARCHIVED attempt only; remote download verification pending. Unique122/251 unchanged. Source new0/reused1/corrected0. Both full prompts above; first output exec-b1c1dc8b-6d7d-481f-813e-bc88214e6dc3.png, second exec-76d48a03-0787-4609-a552-9cfb739e4f28.png. Generation/edit waiting approximately3 minutes across two calls, archive transfer approximately2minutes; approximate executor observations, not platform limit telemetry.
 
 [Attempted original](../../design/concepts/109-ptilopsis-leucotis-v5.png)
+
+
+## v6 completed revision · 2026-10-23
+Fresh reconstruction was actually viewed. First output retained adult-length layered juvenile wings and pale spot rows; targeted second pass shortened the wing above the feet, hid most tail, softened gray-brown coverts and reduced repeated bright scallops while preserving formed tips, both adults, labels, branch and two-foot support. Exact juvenile age/sequence, quantitative sex ratio and toe-feather extent remain unknown; scientifically_verified=false.
+
+- Image: [109-ptilopsis-leucotis-v6.png](../../design/concepts/109-ptilopsis-leucotis-v6.png)
+- Image commit: `916ae2127842f850ad08c29c623e1c2b9b1bad3b`
+- Git blob: `a54d99052a00efc97d934f4d989d7598d1bc86d2`
+- SHA-256: `b6bf3374da8d57e9107ba03a215d3cc4808134c3d82269c4e91027ae7d4e3c66`

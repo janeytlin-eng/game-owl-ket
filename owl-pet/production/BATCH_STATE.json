@@ -2301,7 +2301,14 @@
       "last_updated_at": "2026-10-22T14:43:00Z"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "automation-owl-production",
+    "run_id": "2026-10-22T2332+0800",
+    "batch_id": "2026-10-22T1828+0800",
+    "cycle": 6,
+    "heartbeat_at": "2026-10-22T23:33:00+08:00",
+    "expires_at": "2026-10-22T23:48:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2356,5 +2363,5 @@
     "2026-10-22 21:10 +0800: batch cycle 4 produced and verified unique #154 Pseudoscops grammicus v1; first image passed visual review without edit, using evidence-bounded age-unknown downy young; image commit c6ff15f2a7e147ae1c1fc567988a2737365ccdaf, Git blob ad3262e963e54c80ac40cce5574ce0ede7f89a6c; verification commit d74aeea359dd5e8fdbe9d10be94e5fcfc26ed1ca. Batch advances to 4/6; unique species total 152/251.",
     "2026-10-22 22:43 +0800: batch cycle 5 produced and verified unique #155 Scotopelia ussheri v1; first generated plate passed visual review without edit; a truncated connector blob was detected and superseded before credit; complete image commit 65ddbdb4df4af1457595a2d739645751b033b506, Git blob 69cde58c56c09af6dd4c63a58a062227040a7e13; verification commit 4faa218de02303dd4ef8b3d8719562eb534d887c. Batch advances to 5/6; unique species total 153/251."
   ],
-  "updated_at": "2026-10-22T14:43:00Z"
+  "updated_at": "2026-10-22T15:33:00Z"
 }

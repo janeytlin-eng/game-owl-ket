@@ -845,3 +845,11 @@ Bubo bubo v9 further reduced the v8 chick's residual U/C-shaped down outlines wh
 - Initial juvenile adult-like long remiges/tail were shortened and softened, then re-viewed.
 - Evidence gaps retained: exact age, continuous juvenile feather sequence, nest, sex-specific size and visible dimorphism.
 - User confirmation pending; scientific validation pending.
+
+
+## 2026-10-22 · #154 Jamaican Owl archived
+
+- Unique archived species: 152/251.
+- Added `154-pseudoscops-grammicus-v1.png`; 3,476,269 bytes, SHA-256 `78be19ebbefeab0c4bd90f3f43342ddc53dfe0e29c24f6491eda5fb55d0134f0`, Git blob `ad3262e963e54c80ac40cce5574ce0ede7f89a6c`.
+- Full image review passed without edit; exact juvenile age, growth sequence and sex-specific scale remain unknown.
+- User confirmation and scientific validation pending.

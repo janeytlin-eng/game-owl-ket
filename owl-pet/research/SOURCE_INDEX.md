@@ -2259,3 +2259,13 @@ OwlPages photo record of an Indian Scops Owl at a tree-hollow entrance was actua
 - Supported direction: Mindoro endemic, earless, dark-brown head/back, warmer reddish-brown chest, yellow eyes and fine barring; sexes similar. This distinguishes [#146 v1](../design/concepts/146-ninox-mindorensis-v1.png) from the paler broad-streaked #145.
 - Limitation: no reliable juvenile-plumage sequence found; older juvenile is conservative inference with no exact age. Exact sex ratio and bar geometry unknown; scientifically_verified=false.
 - Cycle audit: new 0, reused 3, corrected 0. Image commit ae170dcd2187f495ac7a738f46158170e6e8ee2b. [Run](../production/runs/2026-10-22T1126+0800-cycle-2.md).
+
+
+## #147 *Ninox leventisi* — Camiguin Boobook — 2026-10-22
+| 稳定ID | 来源 | 年份 | 类型 | 物种/阶段 | 实际读取与页码/章节 | 关键事实 | 局限与用途 |
+|---|---|---:|---|---|---|---|---|
+| CAM-EBIRD-2026 | Cornell Lab/eBird, [Camiguin Boobook identification](https://ebird.org/species/camboo1) | 页面现行版，访问2026-10-22 | 机构物种页与标注照片索引 | *Ninox leventisi*，成年 | Identification及页面照片索引实际读取 | 中型、无耳簇；卡米金残存阔叶林；棕色头背、浅肩斑、暖棕腹面均匀细横斑、长脸须、白喉、浅黄色眼。 | 未提供雌雄测量、繁殖或幼鸟序列；支持成年识别和森林背景，不支持精确幼鸟阶段。可信度：高。 |
+| CAM-BIRDLIFE-2026 | BirdLife International, [Camiguin Boobook factsheet](https://datazone.birdlife.org/species/factsheet/camiguin-boobook-ninox-leventisi) | 页面现行版，访问2026-10-22 | 保护机构物种页 | *N. leventisi*，分布/保护 | 页面Range、Ecology、Taxonomy框架实际读取；动态数据表未完整暴露 | 卡米金岛狭域特有种，现存森林依赖方向。 | 动态字段无法完整读取；不用于羽色、性别或幼鸟判断，仅支持分布与保护背景。可信度：中高。 |
+| CAM-RASMUSSEN-2012-LEAD | Rasmussen et al., “Vocal divergence and new species in the Philippine Hawk Owl *Ninox philippensis* complex”, *Forktail* 28:1–20 | 2012 | 原始分类论文，部分读取线索 | *N. leventisi*，分类/成年诊断 | 搜索摘要及公开diagnosis摘录实际读取；PDF打开超时，未完成全文读取 | 支持七个异域种拆分；公开诊断摘录指向卡米金种独特灰至极浅黄绿色虹膜。 | 仅部分读取，明确标记未核验全文；不当作幼鸟、繁殖或完整形态证据。下一轮可补全文。可信度：中（本轮读取范围）。 |
+
+设计决策：#147 v1采用近等尺度成年雌雄，诊断性灰绿色眼、白喉、浅肩斑和暖棕细横斑；幼鸟只作不定日龄、短圆翼尾、双足枝上支撑的保守较大龄概念。未取得物种专属幼鸟序列、性别比或巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/147-ninox-leventisi.md)、[v1](../design/concepts/147-ninox-leventisi-v1.png)、[运行记录](../production/runs/2026-10-22T1531+0800-cycle-3.md)。

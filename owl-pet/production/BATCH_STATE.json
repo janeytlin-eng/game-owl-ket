@@ -2242,34 +2242,30 @@
       "batch_id": "2026-10-22T1828+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Athene jacquinoti",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "d81ec404158fbf6cbd128a84c87d6bb2b46f40cd",
+          "verification_commit_sha": "6d1fd18abfdc4b154b8fb2972bae32714ff85908",
+          "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-10-22T10:31:00Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-22T10:35:00Z",
-        "commit_sha": "34699382cfd06aaf3088ef2627182cbeca8a8275",
+        "stage": "VERIFIED",
+        "at": "2026-10-22T10:47:00Z",
+        "commit_sha": "6d1fd18abfdc4b154b8fb2972bae32714ff85908",
         "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-1.md"
       },
-      "lease": {
-        "owner": "automation-production",
-        "run_id": "2026-10-22T1828+0800-cycle-1",
-        "heartbeat_at": "2026-10-22T10:40:00Z",
-        "expires_at": "2026-10-22T10:55:00Z",
-        "cycle": 1,
-        "species": "Athene jacquinoti"
-      },
-      "last_updated_at": "2026-10-22T10:40:00Z"
+      "lease": null,
+      "last_updated_at": "2026-10-22T10:47:00Z"
     }
   ],
-  "lease": {
-    "owner": "automation-production",
-    "run_id": "2026-10-22T1828+0800-cycle-1",
-    "heartbeat_at": "2026-10-22T10:40:00Z",
-    "expires_at": "2026-10-22T10:55:00Z",
-    "cycle": 1,
-    "species": "Athene jacquinoti"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2316,7 +2312,8 @@
     "2026-10-14 binary integrity correction: #61/#62 complete originals restored in 5efc1da49e062dc6e6b510ffeec20081c05c06ce; previous remote-only hash verification was invalid. Cycle credit unchanged, next_cycle 5. Evidence: owl-pet/production/runs/2026-10-14T0927+0800-integrity-recovery.md.",
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained.",
-    "2026-10-22 17:46 +0800: cycle 6 produced and verified unique #150 Ninox variegata v1; initial juvenile adult-like long layered remiges were shortened/softened and rechecked; image commit c490f70857d9ede54795f6466bbc05c9c74f472c, Git blob 58e6b518278f2aa0a5a47a020baa299e4b0a8c92; verification commit f7c061542f455414a588cc4a5b80434c3f45bba7. Batch 2026-10-22T1126+0800 closes at 6/6; unique species total 148/251."
+    "2026-10-22 17:46 +0800: cycle 6 produced and verified unique #150 Ninox variegata v1; initial juvenile adult-like long layered remiges were shortened/softened and rechecked; image commit c490f70857d9ede54795f6466bbc05c9c74f472c, Git blob 58e6b518278f2aa0a5a47a020baa299e4b0a8c92; verification commit f7c061542f455414a588cc4a5b80434c3f45bba7. Batch 2026-10-22T1126+0800 closes at 6/6; unique species total 148/251.",
+    "2026-10-22 18:47 +0800: new batch cycle 1 produced and verified unique #151 Athene jacquinoti v1 (historical Ninox jacquinoti); initial juvenile adult-like layered remiges were shortened/rounded and rechecked; image commit d81ec404158fbf6cbd128a84c87d6bb2b46f40cd, Git blob 38b77a8a96076c3c0dea8b148f4a4aeb1b410639; verification commit 6d1fd18abfdc4b154b8fb2972bae32714ff85908. Batch advances to 1/6; unique species total 149/251."
   ],
-  "updated_at": "2026-10-22T10:40:00Z"
+  "updated_at": "2026-10-22T10:47:00Z"
 }

@@ -2428,3 +2428,10 @@ Avibase / Bird Studies Canada, “Mindanao Boobook *Ninox spilocephala*”, http
 
 ### 2026-10-23 cycle 5 evidence boundary — #144 v3
 Fresh research added `MINBOO-EBIRD-ID-2026` and `MINBOO-AVIBASE-TAXON-2026`; reused `LZBO-RASMUSSEN-2012-LEAD` for the split-species diagnosis and older-immature boundary. The v2 plumage remains invariant. The only design edit is to reveal a short natural branch under the older immature and both feet gripping it, resolving ambiguous support without asserting new juvenile anatomy. Sources new/reused/corrected: 2/1/0. Exact juvenile age, soft-part colors, wing/tail sequence and quantified sex ratio remain unknown; scientifically_verified=false.
+
+
+## 2026-10-23 · #109 Northern White-faced Owl — *Ptilopsis leucotis* v6
+### NWFO-AVIBASE-TAX-2026
+Avibase / Birds Canada, “Northern White-faced Owl *Ptilopsis leucotis*”, https://avibase.bsc-eoc.org/species.jsp?avibaseid=E561A180ED8942F7 ; accessed 2026-10-23. Taxonomic database. Actual page read: current taxonomic concept consistently uses *Ptilopsis leucotis* and retains historical *Otus leucotis*. It provides no juvenile age, feather sequence or sex measurements; high confidence for naming only.
+
+Cycle boundary: reused `NWFO-OWLPAGES-2020` for adult white black-rimmed facial disc, long dark-tipped tufts, amber/orange eyes and horn-yellow bill. No directly read continuous species-specific juvenile series was found. v6 targets only repeated bright scalloped juvenile wing edges; exact age, continuous feather geometry, sex ratio and toe-feather extent remain unknown. Sources new/reused/corrected 1/1/0; scientifically_verified=false.

@@ -2207,11 +2207,21 @@
         "commit_sha": "24fc9d0cdb8ae8c4cf4e6a798ca06c17e0159e18",
         "run_record": "owl-pet/production/runs/2026-10-22T1531+0800-cycle-3.md"
       },
-      "lease": null,
-      "last_updated_at": "2026-10-22T07:48:00Z"
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-22T1531+0800-cycle-4",
+        "heartbeat_at": "2026-10-22T07:50:00Z",
+        "expires_at": "2026-10-22T08:05:00Z"
+      },
+      "last_updated_at": "2026-10-22T07:50:00Z"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-production",
+    "run_id": "2026-10-22T1531+0800-cycle-4",
+    "heartbeat_at": "2026-10-22T07:50:00Z",
+    "expires_at": "2026-10-22T08:05:00Z"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2259,5 +2269,5 @@
     "2026-10-14 cycle6 recovered existing reviewed #69 full PNG; verified image 84e28bd532ae1697339927dd615b9a0742f67cfb; batch1128 COMPLETE6/6 across invocations (5 NEW species+1 deliberate #67v2 scientific correction); no duplicate species credit for revision.",
     "2026-10-14: batch1437 closed6/6 acrossinvocations; latestinvocationcompletedcycles4–6 only (72v3revision,75new,76new), notsingle6cycleclaim. AllthreefullPNGslocal/upload/remotehashandsizematched, sciencefalse; unique74/251. NewsourceIDs6/reused2distinctIDs, freshbookprinted455–456,464–465,510–511; unresolvediris/sexconflictsretained."
   ],
-  "updated_at": "2026-10-22T07:48:00Z"
+  "updated_at": "2026-10-22T07:50:00Z"
 }

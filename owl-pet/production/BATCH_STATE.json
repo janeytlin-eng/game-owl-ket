@@ -2312,7 +2312,7 @@
     },
     {
       "batch_id": "2026-10-23T0027+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -2359,22 +2359,27 @@
           "action": "REVISION",
           "unique_species_increment": 0,
           "verification_commit": "edd7791421674c0f6d734c5793ae57075a2e779f"
+        },
+        {
+          "cycle": 6,
+          "species": "Ptilopsis leucotis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "916ae2127842f850ad08c29c623e1c2b9b1bad3b",
+          "verification_commit": "80bc30ae153df53d7a9a77547924222679ab69a8",
+          "run_record": "owl-pet/production/runs/2026-10-23T0431+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "lease": {
-        "owner": "automation-production",
-        "run_id": "2026-10-23T0431+0800-cycle-6",
-        "heartbeat_at": "2026-10-22T22:27:10Z",
-        "expires_at": "2026-10-22T22:42:10Z"
-      },
+      "next_cycle": null,
+      "lease": null,
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-22T19:36:00Z",
-        "commit_sha": "edd7791421674c0f6d734c5793ae57075a2e779f",
-        "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-5.md"
+        "at": "2026-10-22T22:31:00Z",
+        "commit_sha": "80bc30ae153df53d7a9a77547924222679ab69a8",
+        "run_record": "owl-pet/production/runs/2026-10-23T0431+0800-cycle-6.md"
       },
-      "last_updated_at": "2026-10-22T22:27:10Z"
+      "last_updated_at": "2026-10-22T22:31:00Z",
+      "completed_at": "2026-10-22T22:31:00Z"
     }
   ],
   "lease": null,

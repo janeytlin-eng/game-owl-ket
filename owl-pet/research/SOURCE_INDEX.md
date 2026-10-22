@@ -2340,3 +2340,33 @@ Design: nearly equal adults; age-unknown older juvenile with shortened rounded w
 - Evidence actually read: Maned Owl *Jubula lettii* is listed as Data Deficient.
 - Limits/confidence: list entry supplies no juvenile sequence or sex measurements. High for the displayed category only.
 - Design support: requires explicit uncertainty labels and forbids claiming scientific approval from a concept image.
+
+
+## 2026-10-22 · #154 Jamaican Owl — *Pseudoscops grammicus*
+
+### JAM-PEREGRINE-2026
+- Title/institution: [Jamaican Owl](https://peregrinefund.org/explore-raptors-species/owls/jamaican-owl), The Peregrine Fund
+- Date/access: current page; accessed 2026-10-22
+- Type: raptor-research institution species account
+- Applies to: adult, habitat, nest and evidence gaps
+- Evidence actually read: Jamaica endemic, chiefly lowland open woodland/forest edge; dark eyes, bright rufous body, fine black breast streaks, white/black-edged facial disk and prominent ear tufts; tree cavities or forks and up to two eggs.
+- Limits/confidence: page explicitly says nestling growth, first flight age and parental care remain unknown; no sex measurements. High for account facts, deliberately insufficient for exact juvenile age.
+- Design support: adult recognition and wooded-edge/cavity setting; no invented sex dimorphism or fledging age.
+
+### JAM-BIRDSEYE-YOUNG-2018
+- Title/source: [BirdsEye Photography Jamaican Owl review index](https://birdseye.photo/photos/review/3591/jamaican_owl/)
+- Date/access: site copyright 2018; accessed 2026-10-22
+- Type: species-labelled image index
+- Applies to: adult and downy young
+- Evidence actually read: two adult entries and one *Pseudoscops grammicus* entry labelled “Downy young”.
+- Limits/confidence: visible index does not provide day-age, measurements or continuous feather sequence. Medium; supports stage existence only.
+- Design support: conservative downy, age-unknown young bird with no mature remiges.
+
+### JAM-BIRDLIFE-2026
+- Title/institution: [Jamaican Owl species factsheet](https://datazone.birdlife.org/species/factsheet/jamaican-owl-pseudoscops-grammicus), BirdLife International
+- Date/access: current page; accessed 2026-10-22
+- Type: conservation/taxonomic factsheet
+- Applies to: species identity/factsheet mapping
+- Evidence actually read: page identity and assessment framework; morphology fields were not exposed in the readable dynamic page.
+- Limits/confidence: not used for plumage or juvenile design. High for page identity only.
+- Design support: stable factsheet linkage, no extra morphological inference.

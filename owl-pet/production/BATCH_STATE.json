@@ -2309,9 +2309,29 @@
       "lease": null,
       "last_updated_at": "2026-10-22T15:44:00Z",
       "completed_at": "2026-10-22T15:44:00Z"
+    },
+    {
+      "batch_id": "2026-10-23T0027+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "lease": {
+        "owner": "automation-production",
+        "run_id": "2026-10-23T0027+0800-cycle-1",
+        "heartbeat_at": "2026-10-22T16:28:00Z",
+        "expires_at": "2026-10-22T16:43:00Z"
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "automation-production",
+    "run_id": "2026-10-23T0027+0800-cycle-1",
+    "batch_id": "2026-10-23T0027+0800",
+    "cycle": 1,
+    "heartbeat_at": "2026-10-22T16:28:00Z",
+    "expires_at": "2026-10-22T16:43:00Z"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2367,5 +2387,5 @@
     "2026-10-22 22:43 +0800: batch cycle 5 produced and verified unique #155 Scotopelia ussheri v1; first generated plate passed visual review without edit; a truncated connector blob was detected and superseded before credit; complete image commit 65ddbdb4df4af1457595a2d739645751b033b506, Git blob 69cde58c56c09af6dd4c63a58a062227040a7e13; verification commit 4faa218de02303dd4ef8b3d8719562eb534d887c. Batch advances to 5/6; unique species total 153/251.",
     "2026-10-22 23:44 +0800: batch cycle 6 produced and verified unique #156 Scotopelia peli v1; first generated plate passed visual review without edit; image commit 4209ca0e1f1f6785452cfd5ebf517c22bd3185d1, Git blob 4edc334ffa796510f45182a903dec5ea3048286e; verification commit c3e8980164a3116b31cd1938348107e249c88b7e. Batch 2026-10-22T1828+0800 closes at 6/6; unique species total 154/251."
   ],
-  "updated_at": "2026-10-22T15:44:00Z"
+  "updated_at": "2026-10-22T16:28:00Z"
 }

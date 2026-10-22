@@ -2301,3 +2301,42 @@ Design: nearly equal adults; age-unknown older juvenile with shortened rounded w
 | WSO-WBN-TAX-2026 | World Bird Names, [Solomons Boobook / *Ninox jacquinoti*](https://www.worldbirdnames.com/bird/solomons-boobook/9461.html) | 页面现行版，访问2026-10-22 | 分类历史聚合 | *N. jacquinoti*，分类/旧名 | Taxonomy与type locality，第49–77行 | 列出 *Ninox jacquinoti*、原组合 *Athene jacquinoti*、1850年描述和所罗门群岛模式产地；保留旧广义亚种历史线索。 | 与eBird当前属级处理不同，页面还保留旧广义分类；仅用于名称映射，不能用作形态或幼鸟证据。可信度：中。 |
 
 设计决策：#151 v1使用eBird当前名称 *Athene jacquinoti*，同时在档案保留项目图鉴常见旧名 *Ninox jacquinoti*。成年以橙眼、无耳簇、褐色浅斑上体、浅下体和森林背景为证据边界；更细的眉、喉和胸腹纹理仅作照片导向的保守设计，不视为定量诊断。首稿幼鸟出现过长层叠飞羽，编辑为更短圆、柔软的发育翼，翼端止于足部上方，并复查双足支撑。没有物种专属幼鸟序列、稳定性别二型或巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/151-athene-jacquinoti.md)、[v1](../design/concepts/151-athene-jacquinoti-v1.png)、[运行记录](../production/runs/2026-10-22T1828+0800-cycle-1.md)。
+
+
+## 2026-10-22 · #153 Maned Owl — *Jubula lettii*
+
+### MANED-ML-531449801-2023
+- Title/institution: [Macaulay Library asset ML531449801 — Maned Owl](https://macaulaylibrary.org/asset/531449801); Cornell Lab of Ornithology
+- Date/access: observation 2023-02-04; accessed 2026-10-22
+- Type: institution-hosted field photograph record with observer notes
+- Applies to: *Jubula lettii*, adult/unknown birds and one mobile immature; Equatorial Guinea primary forest
+- Evidence actually read: one immature flew a short distance and perched; it retained white juvenile facial feathers. Notes record sandy/rufous back and wings, large ear tufts, longish tail with underside bars, orange eyes, yellowish feet, reddish upper-breast wash and fine black vertical flank streaks.
+- Limits/confidence: page explicitly leaves age and sex unspecified; one observation cannot define a full developmental sequence or sexual dimorphism. High for this dated individual and locality, medium for generalisation.
+- Design support: older branch-supported immature with white juvenile facial feathering; adults use the recorded diagnostic palette and silhouette.
+
+### MANED-ITIS-555440-2026
+- Title/institution: [ITIS report TSN 555440 — *Jubula lettii*](https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555440&source=to_print)
+- Date/access: current report; accessed 2026-10-22
+- Type: government taxonomic database
+- Applies to: species identity and historical name
+- Evidence actually read: *Jubula lettii* is valid; synonym *Bubo letti*.
+- Limits/confidence: taxonomy only; does not support morphology, sex or juvenile development. High for naming use.
+- Design support: current label *Jubula lettii* and legacy-name research mapping.
+
+### MANED-BHL-HABITAT-1992
+- Title/source: [On the vocal behaviour and habitat of the maned owl *Jubula lettii* in south-western Congo](https://www.biodiversitylibrary.org/part/77066), *Bulletin of the British Ornithologists’ Club* 112:213–218
+- Date/access: 1992; accessed 2026-10-22
+- Type: original field article, BHL-hosted metadata/article access
+- Applies to: habitat and vocal-behaviour research context
+- Evidence actually read: article identity, publication details, pages and habitat focus.
+- Limits/confidence: this run did not extract a juvenile description from article pages; therefore it is not used for juvenile plumage. High for bibliographic/habitat scope.
+- Design support: Central African forest habitat context only.
+
+### MANED-BIRDLIFE-LIST-2026
+- Title/institution: [BirdLife International list of owl species](https://www.birdlife.org/birds/list-of-owl-species/)
+- Date/access: current page; accessed 2026-10-22
+- Type: conservation/taxonomic list
+- Applies to: *Jubula lettii*
+- Evidence actually read: Maned Owl *Jubula lettii* is listed as Data Deficient.
+- Limits/confidence: list entry supplies no juvenile sequence or sex measurements. High for the displayed category only.
+- Design support: requires explicit uncertainty labels and forbids claiming scientific approval from a concept image.

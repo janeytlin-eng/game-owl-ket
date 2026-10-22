@@ -861,3 +861,6 @@ Bubo bubo v9 further reduced the v8 chick's residual U/C-shaped down outlines wh
 
 ## 2026-10-22 · #155 *Scotopelia ussheri* v1
 NEW Rufous Fishing Owl. First generated plate actually viewed and passed concept-level review without edit: exactly three labeled birds, dark eyes, no ear tufts, all feet supported, adults near-equal, and an older photographed-stage juvenile with formed but shorter wing/tail. Exact juvenile age, sex ratio and fine feather geometry remain unknown; scientifically_verified=false. Unique species 152→153/251. Complete PNG 2,872,336 bytes, 1536×1024 sRGB, SHA-256 87c5ccb97b2bfaa7dea2b590092cca7dfecfefb569bc8860d567a4388cfc1440; local and remote Git blob 69cde58c56c09af6dd4c63a58a062227040a7e13. [Original](design/concepts/155-scotopelia-ussheri-v1.png) · [Run](production/runs/2026-10-22T2232+0800-cycle-5.md).
+
+## 2026-10-23 · 第157组蠕纹渔鸮
+新增 *Scotopelia bouvieri* v1；唯一物种进度154→155/251，科学通过仍为0。主动研究新增5条来源：英国博物馆原始描述、1904年标本报告、Oiseaux.net繁殖综述、BirdLife事实页与USFWS分类页。首稿幼鸟出现过长、层叠且成鸟式斑纹飞羽，已定向缩短、绒羽化并重新查看。成年保持近等尺度、暗眼、无耳簇与裸露黄腿；幼鸟采用有枝巢支撑的年龄未定中雏羽阶段。精确日龄、连续羽序、飞行能力、分性别线性测量与地域色变仍未知，未标科学通过。

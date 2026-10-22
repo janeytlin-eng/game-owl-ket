@@ -2370,3 +2370,14 @@ Design: nearly equal adults; age-unknown older juvenile with shortened rounded w
 - Evidence actually read: page identity and assessment framework; morphology fields were not exposed in the readable dynamic page.
 - Limits/confidence: not used for plumage or juvenile design. High for page identity only.
 - Design support: stable factsheet linkage, no extra morphological inference.
+
+
+## 2026-10-22 · *Scotopelia ussheri* · #155
+
+| Stable ID | Source | Date/type | Scope | Evidence read | Limits / design use |
+|---|---|---|---|---|---|
+| RFO-BIRDLIFE-2026 | BirdLife International, [Rufous Fishing-owl factsheet](https://datazone.birdlife.org/species/factsheet/rufous-fishing-owl-scotopelia-ussheri) | current page, accessed 2026-10-22; conservation institution | species, range/habitat | Endemic to Upper Guinea forests; records concentrated around forest river systems. | Does not provide a juvenile sequence or sex-specific measurements; supports habitat only. Confidence: high. |
+| RFO-FWS-TAX-2026 | U.S. Fish & Wildlife Service, [Rufous Fishing Owl](https://www.fws.gov/species/rufous-fishing-owl-scotopelia-ussheri) | current page, accessed 2026-10-22; government taxonomy profile | taxonomy | Confirms current scientific name *Scotopelia ussheri*. | Taxonomy only; no morphology or development inference. Confidence: high for nomenclature. |
+| RFO-WABC-MONTICELLI-2015 | Monticelli, Koroma & Bannah, “Observations of Rufous Fishing Owl *Scotopelia ussheri* in Sierra Leone,” *Bulletin of the African Bird Club* 22(2):183–189 | 2015; field-observation synthesis | adult encounters/habitat | Summarises twelve sufficiently documented visual encounters since 1989 in Sierra Leone, chiefly Gola Forest and Tiwai Island. | Search-accessible abstract does not expose full morphology measurements; used for locality/habitat, not plumage geometry. Confidence: medium-high. |
+| RFO-ABC-JUV-2022 | “Juvenile Rufous Fishing Owl *Scotopelia ussheri* in Guinea” | 2022; photographic note | juvenile | Presents photographs of a juvenile captured in south-east Guinea in October 1993. | Exact age, sex, measurements and continuous feather sequence are not available in the accessible text; supports an older photographed juvenile stage only. Confidence: medium-high. |
+| RFO-OWLPAGES-JUV-2003 | OwlPages / Guy Rondeau, [juvenile Rufous Fishing Owl](https://www.owlpages.com/owls/species.php?i=377) | photo taken Dec 2003; specialist photo record | juvenile/perching | Young owl from Duékoué, Côte d’Ivoire, photographed roosting in a small tree. | Captive-rescue context and no exact age; supports formed plumage and perch capability, not natural nest details. Confidence: medium. |

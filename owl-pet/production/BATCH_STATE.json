@@ -2270,11 +2270,23 @@
         "commit_sha": "b032bac4a536a0f2170b140c440f74986a589cc5",
         "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-2.md"
       },
-      "lease": null,
-      "last_updated_at": "2026-10-22T11:39:00Z"
+      "lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-22T2031+0800",
+        "heartbeat_at": "2026-10-22T12:31:00Z",
+        "expires_at": "2026-10-22T12:46:00Z",
+        "cycle": 3
+      },
+      "last_updated_at": "2026-10-22T12:31:00Z"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "scheduled-production",
+    "run_id": "2026-10-22T2031+0800",
+    "heartbeat_at": "2026-10-22T12:31:00Z",
+    "expires_at": "2026-10-22T12:46:00Z",
+    "cycle": 3
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2326,5 +2338,5 @@
     "2026-10-22 18:52 +0800: batch cycle 2 #152 Uroglaux dimorpha reached RESEARCH_READY only; evidence boundary and full imagegen prompt persisted in ed7758619c1032051ef10b4e6ac6d08612d7ee6e. No image generated or archived and no cycle credit. Lease released for recovery; next_cycle remains 2.",
     "2026-10-22 19:38 +0800: resumed cycle 2 from RESEARCH_READY and produced/verified unique #152 Uroglaux dimorpha v1; initial juvenile adult-like layered barred wing/tail was shortened/softened and rechecked; image commit bbd5d093b8f32a517b077b8756246e4a84582f12, Git blob 5ca479c023c7b7ea9804ac8fe50bde74f6e3b640; verification run commit b032bac4a536a0f2170b140c440f74986a589cc5. Batch advances to 2/6; unique species total 150/251."
   ],
-  "updated_at": "2026-10-22T11:39:00Z"
+  "updated_at": "2026-10-22T12:31:00Z"
 }

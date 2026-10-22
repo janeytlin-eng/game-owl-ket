@@ -879,3 +879,7 @@ NEW Rufous Fishing Owl. First generated plate actually viewed and passed concept
 
 ## 2026-10-23 · 第158组栗鸮
 新增 *Phodilus badius* v1；唯一物种进度155→156/251，科学通过仍为0。主动研究新增5条来源；Owl Pages明确孵化期、离巢期未知，因此采用有巢树观察支持、但不指定日龄的洞口幼鸟。首稿幼鸟出现成鸟式长层叠白斑飞羽，已定向替换为短圆、绒羽覆盖的发育中翼并重新查看。成年保持暗眼、V形分裂脸盘、短圆翼、近等尺度和自然抓握。连续幼羽、精确日龄/飞行能力、分性别测量及亚种色差仍未知，未标科学通过。
+
+
+## 2026-10-23 · #109 *Ptilopsis leucotis* v6 revision
+Cycle 6 revision completed after recovery. Targeted edit shortened and softened the center juvenile wing and reduced repeated bright scallops; actual final 1536×1024 RGB PNG viewed with all birds, labels and foot supports complete. Unique species remains 157/251; science pass remains 0. Exact juvenile age/sequence, sex ratio and toe-feather extent unknown. Image commit `916ae2127842f850ad08c29c623e1c2b9b1bad3b`; SHA-256 `b6bf3374da8d57e9107ba03a215d3cc4808134c3d82269c4e91027ae7d4e3c66`; Git blob `a54d99052a00efc97d934f4d989d7598d1bc86d2`.

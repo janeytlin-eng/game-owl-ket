@@ -26,3 +26,14 @@ Lesson: Source explicit absence needs local visual verification; subtle reductio
 
 ## 2026-10-23 v6 research-ready
 Freshly read ISO-EBIRD-ID-2026, ISO-PF-FACE-2026 and ISO-OWLPAGES-DESC-2020. All support dark eyes within a broad pale grey/buff facial disc edged by a thin/dark border; none supports the large separate white circular “goggles” visible around each adult eye in v5. The revision will change only those adult periocular rings, blending them into the broader disc while retaining dark eyes, thin outer rim, ear tufts, natural cavity, juvenile, anatomy, labels and support. Exact feather geometry and juvenile age remain unknown; scientifically_verified=false.
+
+## v6 targeted eye-surround revision — 2026-10-23
+
+- Image: [84-otus-bakkamoena-v6.png](../../design/concepts/84-otus-bakkamoena-v6.png)
+- Revision evidence: `ISO-EBIRD-ID-2026`, `ISO-PF-FACE-2026`, `ISO-OWLPAGES-DESC-2020`; reused `BAK-BRRAICH-SINGH2021` and uploaded Mikkola pp. 150–151 (printed; PDF pp. 152–153).
+- Problem: v5 retained conspicuous, thick, separate pale circles immediately around the adult eyes, creating an unsupported “goggle” effect.
+- Applied change: removed the separate bright adult periocular circles; blended the region into a continuous pale grey-buff facial disc while preserving a thin dark outer disc rim, dark hazel-brown eyes and ear tufts.
+- Preserved: natural tree cavity, supported central juvenile, blue-grey juvenile eyes, grey bill, labels, adult bodies and branch.
+- Actual visual review: targeted correction passed on the archived 1536×1024 PNG.
+- Archive: commit `23efe6f2787571e8e4ac106072eb01abe63b3956`; Git blob `3beca06c39dc95f565ef477b17d993e0f235ec74`; SHA-256 `cbc11277516ca40f4c9916263d3c624de9ecaccaef8ff79023dd41148032035e`.
+- Scientific status: **concept reviewed, not science-verified**. Sex-specific appearance and exact juvenile age remain evidence-limited; labels must not be read as proof of quantified sexual dimorphism.

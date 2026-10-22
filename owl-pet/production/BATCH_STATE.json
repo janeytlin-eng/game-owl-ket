@@ -2341,25 +2341,29 @@
           "action": "NEW",
           "unique_species_increment": 1,
           "verification_commit": "4cd0c4b1f11949909c1d53dcf686984ce30b27c1"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus bakkamoena",
+          "commit_sha": "23efe6f2787571e8e4ac106072eb01abe63b3956",
+          "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-4.md",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "verification_commit": "f1410cf6739bdbe0fc43cd4342cd88256928f407"
         }
       ],
-      "next_cycle": 4,
-      "lease": {
-        "owner": "automation-production",
-        "run_id": "2026-10-23T0027+0800-cycle-4",
-        "heartbeat_at": "2026-10-22T18:38:00Z",
-        "expires_at": "2026-10-22T18:53:00Z"
-      }
+      "next_cycle": 5,
+      "lease": null,
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-22T18:40:00Z",
+        "commit_sha": "f1410cf6739bdbe0fc43cd4342cd88256928f407",
+        "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-4.md"
+      },
+      "last_updated_at": "2026-10-22T18:40:00Z"
     }
   ],
-  "lease": {
-    "owner": "automation-production",
-    "run_id": "2026-10-23T0027+0800-cycle-3",
-    "heartbeat_at": "2026-10-22T17:38:00Z",
-    "expires_at": "2026-10-22T17:53:00Z",
-    "batch_id": "2026-10-23T0027+0800",
-    "cycle": 3
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2415,7 +2419,8 @@
     "2026-10-22 22:43 +0800: batch cycle 5 produced and verified unique #155 Scotopelia ussheri v1; first generated plate passed visual review without edit; a truncated connector blob was detected and superseded before credit; complete image commit 65ddbdb4df4af1457595a2d739645751b033b506, Git blob 69cde58c56c09af6dd4c63a58a062227040a7e13; verification commit 4faa218de02303dd4ef8b3d8719562eb534d887c. Batch advances to 5/6; unique species total 153/251.",
     "2026-10-22 23:44 +0800: batch cycle 6 produced and verified unique #156 Scotopelia peli v1; first generated plate passed visual review without edit; image commit 4209ca0e1f1f6785452cfd5ebf517c22bd3185d1, Git blob 4edc334ffa796510f45182a903dec5ea3048286e; verification commit c3e8980164a3116b31cd1938348107e249c88b7e. Batch 2026-10-22T1828+0800 closes at 6/6; unique species total 154/251.",
     "2026-10-23 00:42 +0800: new batch cycle 1 produced and verified unique #157 Scotopelia bouvieri v1; initial juvenile adult-like long layered remiges were shortened/softened and rechecked; image commit aaa94b4c42b2969854b223486e90bcc3d4eeeb8c, Git blob f3ce964eb4a54fe81918a8bb2880767f35bf7748; verification run commit 13f9446f5ec37dfc3d3bdc64723c65fd5ee3cd68. Batch advances to 1/6; unique species total 155/251.",
-    "2026-10-23 01:37 +0800: recovered expired batch cycle 2 and produced/verified unique #158 Phodilus badius v1; initial juvenile adult-like long spotted remiges were shortened/softened and rechecked; image commit d306e8a7e23b1bce22d8e33fd34d17e6e06b1cb9, Git blob 6c69baf500dc81b8d7065c8842bd446f1b964ff6. Batch advances to 2/6; unique species total 156/251."
+    "2026-10-23 01:37 +0800: recovered expired batch cycle 2 and produced/verified unique #158 Phodilus badius v1; initial juvenile adult-like long spotted remiges were shortened/softened and rechecked; image commit d306e8a7e23b1bce22d8e33fd34d17e6e06b1cb9, Git blob 6c69baf500dc81b8d7065c8842bd446f1b964ff6. Batch advances to 2/6; unique species total 156/251.",
+    "2026-10-23 02:40 +0800: batch cycle 4 revised and verified #84 Otus bakkamoena v6; adult unsupported thick pale periocular goggle rings were removed while preserving dark eyes, thin outer disc rim, natural cavity and juvenile. Image commit 23efe6f2787571e8e4ac106072eb01abe63b3956, Git blob 3beca06c39dc95f565ef477b17d993e0f235ec74; unique species total remains 157/251."
   ],
-  "updated_at": "2026-10-22T18:38:00Z"
+  "updated_at": "2026-10-22T18:40:00Z"
 }

@@ -17,6 +17,10 @@ Habitat: humid Sri Lankan evergreen forest, with the plate kept simple enough to
 ## Scientific boundary
 A directly read species-specific continuous juvenile feather sequence, exact chick age, flight onset, quantitative sex measurements and calibrated regional colour range were not obtained. scientifically_verified: false
 
-## Planned archive
-- Image: `159-phodilus-assimilis-v1.png`
-- Status: RESEARCH_READY; image generation pending.
+## Review and archive
+The first plate was inspected and the juvenile's visible wing was too long, layered and adult-spotted. A targeted edit replaced it with a short rounded, down-covered developing wing; the final was re-opened and passed the evidence-bounded concept review. Exact age and feather sequence remain unresolved.
+
+- Image: [159-phodilus-assimilis-v1.png](../../design/concepts/159-phodilus-assimilis-v1.png)
+- Image commit: `91224bc8829ec3a5b287158871c2b8b819a90bcb`
+- Git blob: `2f79978b667e9dcc1aecb744c4a36cf048df39ef`
+- scientifically_verified: false

@@ -1,0 +1,18 @@
+# 158 · Oriental Bay Owl · *Phodilus badius*
+
+## Evidence read on 2026-10-23
+- OBO-OWLPAGES-2020 — adult morphology, slight female size direction, dense forest habitat and recorded tree-hole/rotten-trunk/palm/box nesting; incubation and fledging periods explicitly unknown.
+- OBO-WOT-2023 — World Owl Trust live-bird account cross-checking large dark eyes, broad V-divided face, very short rounded plumicorn corners, orange upperparts, short rounded wings and strong long toes.
+- OBO-VNWILDLIFE-2025 — photographed Vietnamese adult; male and female described as similar.
+- OBO-FG-2014 — field report records an adult watching a young chick at a nest tree, but gives no age or feather sequence.
+- OBO-BIRDLIFE-2026 — current name and broad South/Southeast Asian range.
+
+## Design decisions for v1
+Adults: small unusual tytonid, large dark brown/blackish eyes, creamy horn bill, elongated divided heart/V-shaped facial disc with dark chestnut eye bands and black-edged buff rim, tiny rounded plumicorn corners rather than long ear tufts; chestnut crown/back with black and buff shaft marks; pale yellow-brown underparts with small dark speckles; short rounded wings; feathered tarsi to toe joint and long supported toes. Male and female near-equal, female only subtly fuller.
+
+Juvenile: conservative age-unknown nest-tree chick/fledgling supported at a natural rotten-trunk cavity rim, softer and fluffier than adults, short rounded developing wings and very short tail, simplified face pattern and no long layered mature remiges. Exact age and flight ability are not asserted.
+
+Habitat: dense humid evergreen foothill forest with rattan/palm understory and a natural rotten-trunk cavity.
+
+## Scientific boundary
+Species-specific continuous juvenile feather sequence, exact chick age, fledging time, quantitative sex measurements and subspecies colour differences remain unknown. scientifically_verified: false

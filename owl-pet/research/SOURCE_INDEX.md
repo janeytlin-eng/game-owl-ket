@@ -2291,3 +2291,13 @@ Design: nearly equal adults; age-unknown older juvenile with shortened rounded w
 | NIBO-AVIBASE-TAX-2026 | Denis Lepage / Birds Canada, [Avibase taxonomic concepts: *Ninox variegata*](https://avibase.bsc-eoc.org/species.jsp?avibaseid=9564C8049624F8B9&lang=EN) | 动态数据库，访问2026-10-22 | 分类名录聚合 | *N. variegata*，名称/分类 | Taxonomic concepts 与同物异名框架 | 支持现行学名及 New Ireland/Bismarck Boobook 英文名映射。 | 仅支持分类和检索映射，不支持发育细节。可信度：中高。 |
 
 设计决策：#150 v1采用近等尺度成年雌雄；以暗红褐上体、肩羽横斑、无显著白眉、浅素喉与横斑下体区分上一组新不列颠种。初稿幼鸟具有过长成人式层叠飞羽，已编辑为短圆紧凑翼、柔化体纹及双足自然支撑后复查。未取得物种专属幼鸟序列、性别比例或精确巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/150-ninox-variegata.md)、[v1](../design/concepts/150-ninox-variegata-v1.png)、[运行记录](../production/runs/2026-10-22T1728+0800-cycle-6.md)。
+
+
+## #151 *Athene jacquinoti* (historical *Ninox jacquinoti*) — West Solomons Owl — 2026-10-22
+| 稳定ID | 来源 | 年份 | 类型 | 物种/阶段 | 实际读取与位置 | 关键事实 | 局限与用途 |
+|---|---|---:|---|---|---|---|---|
+| WSO-EBIRD-ID-2026 | Cornell Lab/eBird, [West Solomons Owl](https://ebird.org/species/solboo1) | 页面现行版，访问2026-10-22 | 机构识别页及照片索引 | *Athene jacquinoti*，成年/分布 | Identification，第56–63行及照片索引 | 小型橙眼鸮，褐色上体有浅色小斑、下体较浅；偏好发育良好的森林，以低地为主，最高约1500米；分布自Bougainville、Buka、Choiseul至Florida Island；已从旧广义“Solomons Boobook”拆分。 | 不提供性别测量或幼鸟序列；支持当前名称、成年识别、橙眼和森林背景。可信度：高。 |
+| WSO-OWLPAGES-2020 | Deane Lewis / OwlPages, [Solomons Boobook](https://www.owlpages.com/owls/species.php?s=3320) | 更新2020-11-07，访问2026-10-22 | 专题物种页，二级来源 | *Ninox jacquinoti*，成年/旧名 | Introduction、Information，第49–80行 | 小至中型、无耳簇；旧名包括West Solomons Hawk Owl/Boobook；记录所罗门群岛分布并链接Mikkola 2013。 | 形态信息有限，非原始研究；只用于无耳簇和旧名交叉核验，不支持幼鸟或性别方向。可信度：中。 |
+| WSO-WBN-TAX-2026 | World Bird Names, [Solomons Boobook / *Ninox jacquinoti*](https://www.worldbirdnames.com/bird/solomons-boobook/9461.html) | 页面现行版，访问2026-10-22 | 分类历史聚合 | *N. jacquinoti*，分类/旧名 | Taxonomy与type locality，第49–77行 | 列出 *Ninox jacquinoti*、原组合 *Athene jacquinoti*、1850年描述和所罗门群岛模式产地；保留旧广义亚种历史线索。 | 与eBird当前属级处理不同，页面还保留旧广义分类；仅用于名称映射，不能用作形态或幼鸟证据。可信度：中。 |
+
+设计决策：#151 v1使用eBird当前名称 *Athene jacquinoti*，同时在档案保留项目图鉴常见旧名 *Ninox jacquinoti*。成年以橙眼、无耳簇、褐色浅斑上体、浅下体和森林背景为证据边界；更细的眉、喉和胸腹纹理仅作照片导向的保守设计，不视为定量诊断。首稿幼鸟出现过长层叠飞羽，编辑为更短圆、柔软的发育翼，翼端止于足部上方，并复查双足支撑。没有物种专属幼鸟序列、稳定性别二型或巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/151-athene-jacquinoti.md)、[v1](../design/concepts/151-athene-jacquinoti-v1.png)、[运行记录](../production/runs/2026-10-22T1828+0800-cycle-1.md)。

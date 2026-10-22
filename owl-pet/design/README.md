@@ -717,3 +717,9 @@ Adult male, adult female and evidence-bounded older juvenile in Upper Guinea riv
 [Original PNG](concepts/109-ptilopsis-leucotis-v6.png) · [species record](../knowledge/species/109-ptilopsis-leucotis.md) · [cycle record](../production/runs/2026-10-23T0431+0800-cycle-6.md)
 
 Revision replaces repeated bright juvenile wing scallops with shorter, softer gray-brown developing wings while retaining formed tips and full branch support. Actual targeted edit passed limited review; age, continuous feather sequence, sex ratio and toe-feather extent remain pending, with no scientific pass transferred.
+
+
+## #123 · Giant Scops Owl — *Otus gurneyi* v4
+[Original PNG](concepts/123-otus-gurneyi-v4.png) · [species record](../knowledge/species/123-otus-gurneyi.md) · [cycle record](../production/runs/2026-10-23T0627+0800-cycle-1.md)
+
+Revision of the older photographed-stage juvenile: an initial resumed render again exposed long folded remiges reaching the feet, so a targeted edit concealed the long wing and tail beneath soft gray-brown juvenile plumage while keeping two-foot support. Adults, brown eyes, black-spotted tufts, labels and habitat remain. Scientific calibration is still pending.

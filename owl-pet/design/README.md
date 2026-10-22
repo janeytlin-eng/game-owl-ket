@@ -685,3 +685,10 @@ Actual targeted edit/view: center older juvenile's repeated bright semicircular 
 Sources new0/reused2/corrected0: SLSO-MANAHAMPI-2012 and SLSO-MIK2013-194; fresh search found no stronger primary juvenile source and no adjacent-taxon anatomy was transferred. Full prompt and evidence boundaries are in the cycle record.
 Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f; independent immutable download fully decoded 1536x1024, 2699035 bytes, SHA256 5ff0de6565f99fca35593455d3b5fb479c4bdb8190ccf30f2fcb077783c02c67, Git blob 9638bb92f2fdbebd1c9f3e42739b9c44123269ca; local==remote byte-for-byte. An interim truncated blob commit 4bb0e4e2ed1a7685d67a6af90e2a9b43caeca81c was detected before credit and superseded by the complete PNG.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6aec025f31dc608af118bc9d7e185116369ae52f/owl-pet/design/concepts/117-otus-manadensis-v4.png) · [Cycle](../production/runs/2026-10-21T0533+0800-cycle-1.md)
+
+
+## #153 · Maned Owl — *Jubula lettii* v1
+
+[Original PNG](concepts/153-jubula-lettii-v1.png) · [species record](../knowledge/species/153-jubula-lettii.md) · [cycle record](../production/runs/2026-10-22T2031+0800-cycle-3.md)
+
+Adult male, adult female and one age-unknown older immature. Adults keep near-equal visible scale because sex-specific measurements were not found. The initial juvenile had adult-like long layered remiges and a long barred tail; the archived edit shortens/softens both while retaining white juvenile facial feathers and two-foot branch support. Actual edited PNG re-viewed; concept only, pending user confirmation and scientific calibration.

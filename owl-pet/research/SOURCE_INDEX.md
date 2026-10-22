@@ -2249,3 +2249,13 @@ OwlPages photo record of an Indian Scops Owl at a tree-hollow entrance was actua
 - Supported adult direction: small compact boobook, no ear tufts, yellow eyes, brown upperparts with restrained pale spotting, pale underparts with broad brown streaking, white eyebrow/moustachial facial marks; sexes visually similar.
 - Limitation: no strong primary juvenile-plumage sequence was found. The older juvenile in [#145 v1](../design/concepts/145-ninox-philippensis-v1.png) is conservative design inference, not an age reconstruction. Exact sex-size ratio and subspecies pattern remain unknown; scientifically_verified=false.
 - Cycle audit: new sources 4; reused 0; corrected 0. Image commit 5514fc0f750c7fa6a34444f8bbea128e62500fc5. [Run](../production/runs/2026-10-22T1126+0800-cycle-1.md).
+
+
+### NINOX-MINDORENSIS-DESIGN-2026 — Mindoro Boobook concept boundaries
+- Stable ID: NINOX-MINDORENSIS-DESIGN-2026
+- Rasmussen et al. 2012 taxonomic split paper, original diagnostic summary read: https://news.msu.edu/media/documents/2012/08/0cd74c7a-3869-429d-92e2-f4ff62cd82e8.pdf
+- eBird Mindoro Boobook account read: https://ebird.org/species/minboo2
+- BirdLife Data Zone factsheet read: https://datazone.birdlife.org/species/factsheet/mindoro-boobook-ninox-mindorensis
+- Supported direction: Mindoro endemic, earless, dark-brown head/back, warmer reddish-brown chest, yellow eyes and fine barring; sexes similar. This distinguishes [#146 v1](../design/concepts/146-ninox-mindorensis-v1.png) from the paler broad-streaked #145.
+- Limitation: no reliable juvenile-plumage sequence found; older juvenile is conservative inference with no exact age. Exact sex ratio and bar geometry unknown; scientifically_verified=false.
+- Cycle audit: new 0, reused 3, corrected 0. Image commit ae170dcd2187f495ac7a738f46158170e6e8ee2b. [Run](../production/runs/2026-10-22T1126+0800-cycle-2.md).

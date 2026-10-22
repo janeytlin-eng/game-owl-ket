@@ -2256,16 +2256,29 @@
       "next_cycle": 2,
       "started_at": "2026-10-22T10:31:00Z",
       "last_checkpoint": {
-        "stage": "VERIFIED",
-        "at": "2026-10-22T10:47:00Z",
-        "commit_sha": "6d1fd18abfdc4b154b8fb2972bae32714ff85908",
-        "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-1.md"
+        "stage": "STARTED",
+        "at": "2026-10-22T10:48:00Z",
+        "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-2.md"
       },
-      "lease": null,
-      "last_updated_at": "2026-10-22T10:47:00Z"
+      "lease": {
+        "owner": "automation-production",
+        "run_id": "2026-10-22T1828+0800-cycle-2",
+        "heartbeat_at": "2026-10-22T10:48:00Z",
+        "expires_at": "2026-10-22T11:03:00Z",
+        "cycle": 2,
+        "species": "Uroglaux dimorpha"
+      },
+      "last_updated_at": "2026-10-22T10:48:00Z"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "automation-production",
+    "run_id": "2026-10-22T1828+0800-cycle-2",
+    "heartbeat_at": "2026-10-22T10:48:00Z",
+    "expires_at": "2026-10-22T11:03:00Z",
+    "cycle": 2,
+    "species": "Uroglaux dimorpha"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2315,5 +2328,5 @@
     "2026-10-22 17:46 +0800: cycle 6 produced and verified unique #150 Ninox variegata v1; initial juvenile adult-like long layered remiges were shortened/softened and rechecked; image commit c490f70857d9ede54795f6466bbc05c9c74f472c, Git blob 58e6b518278f2aa0a5a47a020baa299e4b0a8c92; verification commit f7c061542f455414a588cc4a5b80434c3f45bba7. Batch 2026-10-22T1126+0800 closes at 6/6; unique species total 148/251.",
     "2026-10-22 18:47 +0800: new batch cycle 1 produced and verified unique #151 Athene jacquinoti v1 (historical Ninox jacquinoti); initial juvenile adult-like layered remiges were shortened/rounded and rechecked; image commit d81ec404158fbf6cbd128a84c87d6bb2b46f40cd, Git blob 38b77a8a96076c3c0dea8b148f4a4aeb1b410639; verification commit 6d1fd18abfdc4b154b8fb2972bae32714ff85908. Batch advances to 1/6; unique species total 149/251."
   ],
-  "updated_at": "2026-10-22T10:47:00Z"
+  "updated_at": "2026-10-22T10:48:00Z"
 }

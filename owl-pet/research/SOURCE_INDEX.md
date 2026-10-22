@@ -2237,3 +2237,15 @@ OwlPages photo record of an Indian Scops Owl at a tree-hollow entrance was actua
 - Limitation/confidence: descriptions do not prescribe exact bar count, spacing or individual geometry; no sex-specific ventral difference was established. High confidence for fine rufous-on-pale barring direction, low confidence for exact geometry.
 - Design inference/application: in [#113 v6](../design/concepts/113-ninox-natalis-v6.png), only adult ventral markings were changed from broad mechanical bands to finer irregular broken bars. All other features and the v5 older juvenile were retained. scientifically_verified=false.
 - Cycle audit: new verified sources 0; reused 2; new limited lead 1; corrected sources 0. Image commit 2dc9296d1306a3dfcca6518ae6dbffe428fd6372. [Run record](../production/runs/2026-10-22T1031+0800-cycle-6.md).
+
+
+### NINOX-PHILIPPENSIS-TAXON-DESIGN-2026 — Luzon Boobook taxonomy and concept boundaries
+- Stable ID: NINOX-PHILIPPENSIS-TAXON-DESIGN-2026
+- Rasmussen et al. (2012), “Vocal divergence and new species in the Philippine Hawk Owl Ninox philippensis complex,” Forktail; original taxonomic paper, abstract and diagnostic summary read; https://news.msu.edu/media/documents/2012/08/0cd74c7a-3869-429d-92e2-f4ff62cd82e8.pdf
+- U.S. Fish & Wildlife Service, Luzon Boobook species profile; institutional taxonomy record read; https://www.fws.gov/species/luzon-boobook-ninox-philippensis
+- eBird, Luzon Boobook species account; current range/habitat and adult identification text read; https://ebird.org/species/phihao1
+- BirdLife Data Zone factsheet; current species and endemic resident-range treatment read; https://datazone.birdlife.org/species/factsheet/luzon-boobook-ninox-philippensis
+- Taxon mapping: current Ninox philippensis is separated from the former broad Philippine Hawk-Owl complex; already archived Ninox spilocephala remains a distinct current species. Older broad N. philippensis usage is a historical crosswalk, not merged here.
+- Supported adult direction: small compact boobook, no ear tufts, yellow eyes, brown upperparts with restrained pale spotting, pale underparts with broad brown streaking, white eyebrow/moustachial facial marks; sexes visually similar.
+- Limitation: no strong primary juvenile-plumage sequence was found. The older juvenile in [#145 v1](../design/concepts/145-ninox-philippensis-v1.png) is conservative design inference, not an age reconstruction. Exact sex-size ratio and subspecies pattern remain unknown; scientifically_verified=false.
+- Cycle audit: new sources 4; reused 0; corrected 0. Image commit 5514fc0f750c7fa6a34444f8bbea128e62500fc5. [Run](../production/runs/2026-10-22T1126+0800-cycle-1.md).

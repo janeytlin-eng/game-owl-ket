@@ -2335,10 +2335,22 @@
         }
       ],
       "next_cycle": 3,
-      "lease": null
+      "lease": {
+        "owner": "automation-production",
+        "run_id": "2026-10-23T0027+0800-cycle-3",
+        "heartbeat_at": "2026-10-22T17:38:00Z",
+        "expires_at": "2026-10-22T17:53:00Z"
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "automation-production",
+    "run_id": "2026-10-23T0027+0800-cycle-3",
+    "heartbeat_at": "2026-10-22T17:38:00Z",
+    "expires_at": "2026-10-22T17:53:00Z",
+    "batch_id": "2026-10-23T0027+0800",
+    "cycle": 3
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2396,5 +2408,5 @@
     "2026-10-23 00:42 +0800: new batch cycle 1 produced and verified unique #157 Scotopelia bouvieri v1; initial juvenile adult-like long layered remiges were shortened/softened and rechecked; image commit aaa94b4c42b2969854b223486e90bcc3d4eeeb8c, Git blob f3ce964eb4a54fe81918a8bb2880767f35bf7748; verification run commit 13f9446f5ec37dfc3d3bdc64723c65fd5ee3cd68. Batch advances to 1/6; unique species total 155/251.",
     "2026-10-23 01:37 +0800: recovered expired batch cycle 2 and produced/verified unique #158 Phodilus badius v1; initial juvenile adult-like long spotted remiges were shortened/softened and rechecked; image commit d306e8a7e23b1bce22d8e33fd34d17e6e06b1cb9, Git blob 6c69baf500dc81b8d7065c8842bd446f1b964ff6. Batch advances to 2/6; unique species total 156/251."
   ],
-  "updated_at": "2026-10-22T17:37:00Z"
+  "updated_at": "2026-10-22T17:38:00Z"
 }

@@ -711,3 +711,9 @@ Adult male, adult female and age-unknown downy young. Full image viewed: adult d
 ![155-scotopelia-ussheri-v1](concepts/155-scotopelia-ussheri-v1.png)
 
 Adult male, adult female and evidence-bounded older juvenile in Upper Guinea river forest. Actual image reviewed; complete PNG verified. Exact juvenile age, sexual size ratio and fine feather geometry remain pending scientific calibration.
+
+
+## #109 · Northern White-faced Owl — *Ptilopsis leucotis* v6
+[Original PNG](concepts/109-ptilopsis-leucotis-v6.png) · [species record](../knowledge/species/109-ptilopsis-leucotis.md) · [cycle record](../production/runs/2026-10-23T0431+0800-cycle-6.md)
+
+Revision replaces repeated bright juvenile wing scallops with shorter, softer gray-brown developing wings while retaining formed tips and full branch support. Actual targeted edit passed limited review; age, continuous feather sequence, sex ratio and toe-feather extent remain pending, with no scientific pass transferred.

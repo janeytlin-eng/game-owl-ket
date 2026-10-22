@@ -17,3 +17,10 @@ Habitat: mature sub-Saharan riverine forest with quiet permanent water and a lar
 
 ## Scientific boundary
 The concept may use published stage boundaries, but exact nestling age, feather tract sequence, sex-specific linear measurements, and fine geographic colour variation remain unknown. scientifically_verified: false
+
+## Review and archive
+The generated v1 was actually inspected and passed without an edit: exactly three labeled birds; dark eyes; no ear tufts; visible bare lower tarsi/toes with natural support; near-equal adults; and a mostly pale-down juvenile supported inside a natural tree cavity. Exact juvenile age/feather sequence and quantitative sex dimensions remain unresolved.
+
+- Image: [156-scotopelia-peli-v1.png](../../design/concepts/156-scotopelia-peli-v1.png)
+- Image commit: `4209ca0e1f1f6785452cfd5ebf517c22bd3185d1`
+- scientifically_verified: false

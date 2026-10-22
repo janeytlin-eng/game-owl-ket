@@ -18,3 +18,11 @@ Habitat: humid Guineo-Congolian riverine forest beside a broad shaded river; low
 
 ## Scientific boundary
 Breeding biology, exact juvenile age/feather sequence, sex-specific linear measurements and regional colour variation remain insufficiently documented. The old-stick-nest and slowly maturing mesoptile stage are treated as conservative design boundaries, not full scientific validation. scientifically_verified: false
+
+## Review and archive
+The first generated plate was actually inspected. The juvenile initially carried long layered adult-like patterned remiges; a targeted edit shortened and softened the wing, reduced crisp adult barring, and removed any visible long tail. The final plate was re-opened and passed the evidence-bounded concept review: three labels, dark eyes, no ear tufts, cream-yellow bills, near-equal adults, bare yellow lower legs with natural support, and an older fuzzy juvenile securely supported in a broad stick nest.
+
+- Image: [157-scotopelia-bouvieri-v1.png](../../design/concepts/157-scotopelia-bouvieri-v1.png)
+- Image commit: `aaa94b4c42b2969854b223486e90bcc3d4eeeb8c`
+- Git blob: `f3ce964eb4a54fe81918a8bb2880767f35bf7748`
+- scientifically_verified: false

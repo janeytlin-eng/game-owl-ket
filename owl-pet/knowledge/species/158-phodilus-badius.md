@@ -16,3 +16,11 @@ Habitat: dense humid evergreen foothill forest with rattan/palm understory and a
 
 ## Scientific boundary
 Species-specific continuous juvenile feather sequence, exact chick age, fledging time, quantitative sex measurements and subspecies colour differences remain unknown. scientifically_verified: false
+
+## Review and archive
+The first generated plate was inspected and the juvenile wing was found too adult-like. A targeted edit removed long layered spotted remiges, shortened and rounded the developing wing, and softened it into juvenile contour feathers. Re-opened final passed the evidence-bounded visual review; exact age and feather sequence remain unresolved.
+
+- Image: [158-phodilus-badius-v1.png](../../design/concepts/158-phodilus-badius-v1.png)
+- Image commit: `d306e8a7e23b1bce22d8e33fd34d17e6e06b1cb9`
+- Git blob: `6c69baf500dc81b8d7065c8842bd446f1b964ff6`
+- scientifically_verified: false

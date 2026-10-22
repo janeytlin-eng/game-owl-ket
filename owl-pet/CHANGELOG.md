@@ -722,3 +722,12 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Further reduced residual U/C-shaped loop artifacts in the nestling's white down.
 - Preserved anatomy, adults, labels and setting; no scientific pass or transferred approval.
 
+
+
+## 2026-10-22 — #153 *Jubula lettii*
+
+- Archived Maned Owl adult male, adult female and age-unknown older immature concept group.
+- Added four actually-read source entries and a species record with current/old name mapping.
+- Corrected the generated juvenile's adult-like long layered wing and long barred tail before archival.
+- Preserved uncertainty: no scientific pass, no exact juvenile age, nest or invented sex dimorphism.
+- Image commit: `36db3a8d7c149fa29815c86861e466c0ef686031`; blob `554cd9b06dbc11bac00db58dcb840775917acfd2`.

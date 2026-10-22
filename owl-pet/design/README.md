@@ -692,3 +692,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 [Original PNG](concepts/153-jubula-lettii-v1.png) · [species record](../knowledge/species/153-jubula-lettii.md) · [cycle record](../production/runs/2026-10-22T2031+0800-cycle-3.md)
 
 Adult male, adult female and one age-unknown older immature. Adults keep near-equal visible scale because sex-specific measurements were not found. The initial juvenile had adult-like long layered remiges and a long barred tail; the archived edit shortens/softens both while retaining white juvenile facial feathers and two-foot branch support. Actual edited PNG re-viewed; concept only, pending user confirmation and scientific calibration.
+
+
+## #154 · Jamaican Owl — *Pseudoscops grammicus* v1
+
+[Original PNG](concepts/154-pseudoscops-grammicus-v1.png) · [species record](../knowledge/species/154-pseudoscops-grammicus.md) · [cycle record](../production/runs/2026-10-22T2051+0800-cycle-4.md)
+
+Adult male, adult female and age-unknown downy young. Full image viewed: adult diagnostics and three labels present; juvenile has short soft wings and hidden/very short tail with both feet on cavity substrate. No edit required. Pending user confirmation and scientific validation.

@@ -699,3 +699,9 @@ Adult male, adult female and one age-unknown older immature. Adults keep near-eq
 [Original PNG](concepts/154-pseudoscops-grammicus-v1.png) · [species record](../knowledge/species/154-pseudoscops-grammicus.md) · [cycle record](../production/runs/2026-10-22T2051+0800-cycle-4.md)
 
 Adult male, adult female and age-unknown downy young. Full image viewed: adult diagnostics and three labels present; juvenile has short soft wings and hidden/very short tail with both feet on cavity substrate. No edit required. Pending user confirmation and scientific validation.
+
+
+## 155 · Rufous Fishing Owl · *Scotopelia ussheri* v1
+![155-scotopelia-ussheri-v1](concepts/155-scotopelia-ussheri-v1.png)
+
+Adult male, adult female and evidence-bounded older juvenile in Upper Guinea river forest. Actual image reviewed; complete PNG verified. Exact juvenile age, sexual size ratio and fine feather geometry remain pending scientific calibration.

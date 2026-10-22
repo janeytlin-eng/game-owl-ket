@@ -2332,15 +2332,18 @@
           "action": "NEW",
           "unique_species_increment": 1,
           "verification_commit": "a4b478f2d890c2487d6707e7fac847ef61d0924d"
+        },
+        {
+          "cycle": 3,
+          "species": "Phodilus assimilis",
+          "commit_sha": "91224bc8829ec3a5b287158871c2b8b819a90bcb",
+          "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-3.md",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "verification_commit": "4cd0c4b1f11949909c1d53dcf686984ce30b27c1"
         }
       ],
-      "next_cycle": 3,
-      "lease": {
-        "owner": "automation-production",
-        "run_id": "2026-10-23T0027+0800-cycle-3",
-        "heartbeat_at": "2026-10-22T17:36:00Z",
-        "expires_at": "2026-10-22T17:51:00Z"
-      }
+      "next_cycle": 4
     }
   ],
   "lease": {

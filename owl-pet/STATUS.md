@@ -836,3 +836,12 @@ Bubo bubo v8 revised the v7 chick's conspicuous closed-loop/crochet down toward 
 ## 2026-10-21 #03 v9 cycle 4
 Bubo bubo v9 further reduced the v8 chick's residual U/C-shaped down outlines while preserving developmental anatomy, adults and labels. Final PNG viewed and registered; unique species remains 142/251 and science pass remains 0. Batch 2026-10-21T1134+0800 reaches 4/6 after verification. [Run](production/runs/2026-10-21T1433+0800-cycle-4.md).
 
+
+
+## 2026-10-22 · #153 Maned Owl archived
+
+- Unique archived species: 151/251.
+- Added `153-jubula-lettii-v1.png`; full PNG 3,049,506 bytes, SHA-256 `3bc0ca975c27768ff4e0a270381e07a8969a806025b66fd1dad4e2482779caba`, Git blob `554cd9b06dbc11bac00db58dcb840775917acfd2`.
+- Initial juvenile adult-like long remiges/tail were shortened and softened, then re-viewed.
+- Evidence gaps retained: exact age, continuous juvenile feather sequence, nest, sex-specific size and visible dimorphism.
+- User confirmation pending; scientific validation pending.

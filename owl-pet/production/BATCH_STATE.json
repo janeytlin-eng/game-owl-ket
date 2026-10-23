@@ -2457,29 +2457,30 @@
       "batch_id": "2026-10-23T1233+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Tyto furcata",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "4690cf7216ba8c1d573e8dfc3dbd79a2b2e488aa",
+          "verification_commit": "942ff58d8d166eb5858dce91f2fd203b6bf572e1",
+          "run_record": "owl-pet/production/runs/2026-10-23T1233+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "started_at": "2026-10-23T04:35:49.308Z",
-      "lease": {
-        "owner": "owl-prototype-production",
-        "run_id": "2026-10-23T1233+0800-cycle-1",
-        "heartbeat_at": "2026-10-23T04:35:49.308Z",
-        "expires_at": "2026-10-23T04:50:49.308Z"
-      },
-      "last_updated_at": "2026-10-23T04:35:49.308Z",
+      "lease": null,
+      "last_updated_at": "2026-10-23T04:38:45.128Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-23T04:35:49.308Z",
+        "stage": "VERIFIED",
+        "at": "2026-10-23T04:38:45.128Z",
+        "commit_sha": "942ff58d8d166eb5858dce91f2fd203b6bf572e1",
         "run_record": "owl-pet/production/runs/2026-10-23T1233+0800-cycle-1.md"
       }
     }
   ],
-  "lease": {
-    "owner": "owl-prototype-production",
-    "run_id": "2026-10-23T1233+0800-cycle-1",
-    "heartbeat_at": "2026-10-23T04:35:49.308Z",
-    "expires_at": "2026-10-23T04:50:49.308Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

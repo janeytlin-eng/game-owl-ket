@@ -2464,3 +2464,43 @@ Cycle boundary: reused `NWFO-OWLPAGES-2020` for adult white black-rimmed facial 
 - Design decision: corroborates preservation of crown/mantle barring; does not justify invented age-specific wing structure.
 
 Cycle boundary: new/reused/corrected source IDs 2/2/0. Reused `SLSO-MANAHAMPI-2012` and `SLSO-MIK2013-194`. v6 is a juvenile-only correction of repeated ventral/covert arcs. Exact age, sex ratio, continuous wing/tail sequence and flight ability remain unknown; `scientifically_verified=false`. [Run](../production/runs/2026-10-23T1134+0800-cycle-6.md) · [Image](../design/concepts/117-otus-manadensis-v6.png)
+
+
+## 2026-10-23 · #90 American Barn Owl — *Tyto furcata* v3
+
+### ABO-BC-SPECIES-2026
+- Title: Species Summary — *Tyto furcata*, American Barn Owl
+- Institution: Government of British Columbia
+- Year/access: n.d.; accessed 2026-10-23
+- URL: https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=14636
+- Type: government species account, citing Bloom 1978 and Colvin 1984
+- Species/stage: *Tyto furcata*, adults, sex differences
+- Actual content read: adults 30–37 cm; females reported larger/heavier (569 g versus 475 g), darker and more heavily speckled; variability makes some individuals difficult to sex.
+- Location: ADULTS/species summary; no page number.
+- Limits/confidence: secondary synthesis, population and individual variation; body mass cannot be converted directly to image height. High confidence for direction, moderate for design magnitude.
+- Decision: female remains fuller/darker/more spotted, but the v2 exaggerated perspective scale is reduced.
+
+### ABO-MONTANA-MARTI-1992
+- Title: American Barn Owl — Montana Field Guide
+- Institution/source: Montana Natural Heritage Program / Montana Fish, Wildlife & Parks; morphology attributed to Marti 1992
+- Year/access: current online account; accessed 2026-10-23
+- URL: https://fieldguide.mt.gov/speciesDetail.aspx?elcode=ABNSA01030
+- Type: government field guide / secondary account
+- Species/stage: *Tyto furcata*, adult male/female
+- Actual content read: females average 34–40 cm and males 32–38 cm; female breast slightly darker and sometimes heavily spotted.
+- Location: Identification; no page number.
+- Limits/confidence: overlapping ranges and compiled citation; does not define an individual fixed ratio. High confidence for overlap and qualitative direction.
+- Decision: constrain display difference to modest, not universal.
+
+### ABO-MARTI-SEXAGE
+- Title: Sex and Age Dimorphism in the Barn Owl and a Test of Mate Choice
+- Author: Carl D. Marti
+- Venue/year: The Auk; original paper record, year as indexed in source record
+- URL: https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=22040&context=auk
+- Type: primary morphometric study
+- Species/stage: barn owl adults, sex and age
+- Actual content read from accessible record: females significantly larger in measured characters except wing chord and tail length; males have lower wing loading.
+- Location: abstract/summary record; exact table values not extracted in this run.
+- Limits/confidence: taxonomic treatment and population context require care; supports direction, not the exact 8–12% visual target. Moderate confidence for broad decision.
+
+Cycle boundary: new/reused/corrected source IDs 3/1/0. Existing v2 actual image and status reused. v3 changes only the right adult female's display scale; adult plumage, juvenile stage and support remain invariant. Exact pair ratio, juvenile age, toe geometry and feather sequence remain unknown; `scientifically_verified=false`. [Run](../production/runs/2026-10-23T1233+0800-cycle-1.md) · [Image](../design/concepts/90-tyto-furcata-v3.png)

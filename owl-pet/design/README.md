@@ -735,3 +735,9 @@ Revision rebuilds both adults with plain unmarked matte-brown crowns while prese
 [Original PNG](concepts/113-ninox-natalis-v5.png) · [cycle record](../production/runs/2026-10-23T0832+0800-cycle-3.md)
 
 Revision replaces the initial adult-length juvenile wing and long tail with a shorter rounded formed wing, concealed tail, irregular ventral markings and natural two-foot support. Scientific calibration remains pending.
+
+
+## #128 · Cloud-forest Screech-Owl — *Megascops marshalli* v6
+[Original PNG](concepts/128-megascops-marshalli-v6.png) · [species record](../knowledge/species/128-megascops-marshalli.md) · [cycle record](../production/runs/2026-10-23T0929+0800-cycle-4.md)
+
+Revision narrows and lowers the contrast of the middle adult female's hind-crown band, breaking it into individually tipped posterior feathers instead of a bright continuous arc. Actual full plate reviewed; no forehead V, cap or collar, and the other two birds, older-immature formed wings, supports and labels remain. Scientific calibration remains pending.

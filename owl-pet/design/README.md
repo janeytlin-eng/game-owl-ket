@@ -723,3 +723,9 @@ Revision replaces repeated bright juvenile wing scallops with shorter, softer gr
 [Original PNG](concepts/123-otus-gurneyi-v4.png) · [species record](../knowledge/species/123-otus-gurneyi.md) · [cycle record](../production/runs/2026-10-23T0627+0800-cycle-1.md)
 
 Revision of the older photographed-stage juvenile: an initial resumed render again exposed long folded remiges reaching the feet, so a targeted edit concealed the long wing and tail beneath soft gray-brown juvenile plumage while keeping two-foot support. Adults, brown eyes, black-spotted tufts, labels and habitat remain. Scientific calibration is still pending.
+
+
+## #125 · Luzon Boobook — *Ninox philippensis* v4
+[Original PNG](concepts/125-ninox-philippensis-v4.png) · [species record](../knowledge/species/125-ninox-philippensis.md) · [cycle record](../production/runs/2026-10-23T0832+0800-cycle-2.md)
+
+Revision rebuilds both adults with plain unmarked matte-brown crowns while preserving legitimate white wing spots. The first juvenile render was too mature; the reviewed edit shortens and rounds its formed wing, hides the tail and retains residual buff down plus two-foot branch support. Scientific calibration remains pending.

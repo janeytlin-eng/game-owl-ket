@@ -741,3 +741,9 @@ Revision replaces the initial adult-length juvenile wing and long tail with a sh
 [Original PNG](concepts/128-megascops-marshalli-v6.png) · [species record](../knowledge/species/128-megascops-marshalli.md) · [cycle record](../production/runs/2026-10-23T0929+0800-cycle-4.md)
 
 Revision narrows and lowers the contrast of the middle adult female's hind-crown band, breaking it into individually tipped posterior feathers instead of a bright continuous arc. Actual full plate reviewed; no forehead V, cap or collar, and the other two birds, older-immature formed wings, supports and labels remain. Scientific calibration remains pending.
+
+
+## #105 · Southern White-faced Owl — *Ptilopsis granti* v5
+[Original PNG](concepts/105-ptilopsis-granti-v5.png) · [species record](../knowledge/species/105-ptilopsis-granti.md) · [cycle record](../production/runs/2026-10-23T1031+0800-cycle-5.md)
+
+Revision changes the older juvenile's face from adult-white to gray-brown and reduces bright decorative body/covert edges. Actual plate reviewed: developing wing remains formed but shorter than adults, tail concealed, both feet supported; adults and labels intact. Scientific calibration remains pending.

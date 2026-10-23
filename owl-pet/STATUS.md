@@ -887,3 +887,7 @@ NEW Rufous Fishing Owl. First generated plate actually viewed and passed concept
 
 ## 2026-10-23 · #109 *Ptilopsis leucotis* v6 revision
 Cycle 6 revision completed after recovery. Targeted edit shortened and softened the center juvenile wing and reduced repeated bright scallops; actual final 1536×1024 RGB PNG viewed with all birds, labels and foot supports complete. Unique species remains 157/251; science pass remains 0. Exact juvenile age/sequence, sex ratio and toe-feather extent unknown. Image commit `916ae2127842f850ad08c29c623e1c2b9b1bad3b`; SHA-256 `b6bf3374da8d57e9107ba03a215d3cc4808134c3d82269c4e91027ae7d4e3c66`; Git blob `a54d99052a00efc97d934f4d989d7598d1bc86d2`.
+
+
+## VERIFIED 2026-10-23 #125 Luzon Boobook v4
+Actual generation and targeted edit reviewed. Both adult crowns are plain matte brown without discrete pale spotting; legitimate white wing spots, yellow eyes and ventral streaks remain. The juvenile wing was shortened/rounded and tail concealed while preserving short formed spotted tips, buff residual down and two-foot branch support. Unique species remains 157/251; science pass remains 0. Exact juvenile age/sequence, sex ratio and fine pattern calibration unknown. Image commit `504c0e769a207f4d0aa9ce0208b7ae06455eaa76`; 1536×1024 RGB PNG, 2968828 bytes; SHA-256 `dddb8e710cb87e0b1533d3df55085110427a02238101dbe997a056bc4d06e27b`; Git blob `0a62ad8de10b1abed456db62c4a5ad5fb2339037`.

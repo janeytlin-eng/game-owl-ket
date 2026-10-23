@@ -2504,3 +2504,32 @@ Cycle boundary: new/reused/corrected source IDs 2/2/0. Reused `SLSO-MANAHAMPI-20
 - Limits/confidence: taxonomic treatment and population context require care; supports direction, not the exact 8–12% visual target. Moderate confidence for broad decision.
 
 Cycle boundary: new/reused/corrected source IDs 3/1/0. Existing v2 actual image and status reused. v3 changes only the right adult female's display scale; adult plumage, juvenile stage and support remain invariant. Exact pair ratio, juvenile age, toe geometry and feather sequence remain unknown; `scientifically_verified=false`. [Run](../production/runs/2026-10-23T1233+0800-cycle-1.md) · [Image](../design/concepts/90-tyto-furcata-v3.png)
+
+
+## 2026-10-23 · #94 Tawny-browed Owl — *Pulsatrix koeniswaldiana* v3
+
+### TKBO-EBIRD-ID-2026
+- Title/institution: Tawny-browed Owl, Cornell Lab of Ornithology / eBird
+- URL: https://ebird.org/species/tabowl1
+- Accessed: 2026-10-23
+- Type: institutional identification page and Macaulay media index
+- Evidence read: large brown owl with dark eyes, distinctive pale facial semicircles; humid/open woodland including Araucaria forest.
+- Limits/design use: adult identification and habitat only; no exact juvenile age or sex measurements.
+
+### TKBO-ECOREG-JUV-2026
+- Title/source: *Pulsatrix koeniswaldiana*, EcoRegistros species account
+- URL: https://www.ecoregistros.org/sheet/Pulsatrix-koeniswaldiana&idlugar=109873
+- Accessed: 2026-10-23
+- Type: regional observation/photo synthesis
+- Evidence read: juveniles are mostly white or creamy with a dark mask-like facial disc and acquire adult appearance gradually.
+- Limits/design use: secondary synthesis without continuous feather measurements; supports the pale dependent-juvenile direction, not exact day/wing length.
+
+### TKBO-RSD-2018
+- Title: Reverse Size Dimorphism Estimated by an Improved Method in Eight Species of Neotropical Owls
+- Access: indexed research record read 2026-10-23
+- URL: https://www.researchgate.net/publication/322258615_Reverse_Size_Dimorphism_Estimated_by_an_Improved_Method_in_Eight_Species_of_Neotropical_Owls
+- Type: morphometric study record
+- Evidence read: body mass is the more dimorphic metric; *P. koeniswaldiana* total-length dimorphism is near zero.
+- Limits/design use: available record is insufficient for a painted fixed ratio; adults remain near-equal display scale.
+
+Cycle boundary: v2 showed a central juvenile with adult-length layered remiges, regular white wing spots and a long tail. v3 changes only the juvenile to creamy-white/pale-buff mesoptile, dark mask, softer incomplete breast band, short rounded developing wings and no exposed long tail, while preserving both adults, labels, forest and two-foot branch support. Exact age, continuous feather sequence, flight ability and quantified sex ratio remain unknown; scientifically_verified=false.

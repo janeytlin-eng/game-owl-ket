@@ -2547,20 +2547,25 @@
           "commit_sha": "086bdc0ba1c0ff874b397036c8002d87b69182b3",
           "verification_commit": "a2997ea94ba264ecd716c85d7c52bd307f65db00",
           "run_record": "owl-pet/production/runs/2026-10-24T0232+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus elegans",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8c9434eef15829e3d36fb06ccf55067bcd3933c5",
+          "verification_commit": "3021be72f53a61de64c1d6cd669ab715444f75c5",
+          "run_record": "owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-23T15:29:58Z",
-      "lease": {
-        "owner": "automation-production",
-        "run_id": "2026-10-24T0327+0800-cycle-3",
-        "heartbeat_at": "2026-10-23T19:32:00Z",
-        "expires_at": "2026-10-23T19:47:00Z"
-      },
+      "lease": null,
       "last_checkpoint": {
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-23T19:32:00Z",
-        "run_record": "owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md"
+        "stage": "VERIFIED",
+        "at": "2026-10-23T19:35:00Z",
+        "run_record": "owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md",
+        "commit_sha": "3021be72f53a61de64c1d6cd669ab715444f75c5"
       }
     }
   ],
@@ -2628,5 +2633,5 @@
     "2026-10-23 21:38 +0800: batch cycle 5 revised and verified #99 Bubo magellanicus v2; default urban tiled terrace was replaced with a natural southern Andean/Patagonian open-scrub rocky ledge, and the downy juvenile now rests in a sheltered rock depression with visible two-foot support. Image commit 325b686eb1180fcdf97234430e47390b89165926, Git blob 121a40d630bef2ed6964736777517de3856d652e; verification commit fbc3aaad1ef5e8bcda712dc1e46f9712ab1f8255. Unique species total remains 157/251.",
     "2026-10-23 22:38 +0800: batch cycle 6 revised and verified #93 Aegolius harrisii v2; duplicate second chick was removed so the production unit now contains exactly one early-stage, closed-eye, securely supported nestling with sparse natal down and no mature remiges or tail. Image commit 8f1091e5912b0fa54cd62ad8159e44f9933ffb17, Git blob 9679daadaf43d7161be13ce7171b7cfa7e4fe83c; verification commit 514f4a859c576e680368e8bb9d1edbd1e184a282. Batch complete 6/6; unique species total remains 157/251."
   ],
-  "updated_at": "2026-10-23T19:32:00Z"
+  "updated_at": "2026-10-23T19:35:00Z"
 }

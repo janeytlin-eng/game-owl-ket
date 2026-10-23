@@ -2565,3 +2565,35 @@ Cycle boundary: v2 showed a central juvenile with adult-length layered remiges, 
 - Limits/design use: supports cavity-nesting context and conservative young stage only; not an original developmental study and does not justify exact day, wing length or flight ability.
 
 Cycle boundary: v2 adults and habitat were retained. The central juvenile's long dark layered remiges and exposed tail were inconsistent with its heavily downy depiction. v3 changes only that bird to short rounded down-covered wing buds with no long exposed remiges or tail, while preserving two-foot support, adults, labels and environment. Exact juvenile age, detailed molt sequence, flight ability and quantitative sex ratio remain unknown; scientifically_verified=false.
+
+
+## 2026-10-23 — #101 *Otus spilocephalus* v5
+
+### S101-EBIRD-MOSOWL2
+- Title: Mountain Scops-Owl *Otus spilocephalus*
+- Author/institution: Cornell Lab of Ornithology, eBird
+- Accessed: 2026-10-23
+- URL: https://ebird.org/species/mosowl2
+- Type: institutional species account and reference media
+- Evidence read: small brown owl of hilly and montane broadleaf forest; dark brown above, paler face and underparts, bright yellow eyes.
+- Limits/design use: supports adult identity and forest setting; does not establish exact juvenile age, wing-growth sequence or sex-size ratio.
+
+### S101-MACAULAY-212609901
+- Title: *Otus spilocephalus* media asset 212609901
+- Author/institution: Macaulay Library, Cornell Lab of Ornithology
+- Accessed: 2026-10-23
+- URL: https://macaulaylibrary.org/asset/212609901
+- Type: institutional field-media record
+- Evidence read: species-specific media lead used to check overall compact scops-owl proportions.
+- Limits/design use: accessible page did not expose a dated developmental sequence; treated as supporting media, not proof of exact brancher age or flight capability.
+
+### S101-IUCN-2024
+- Title: *Otus spilocephalus* assessment
+- Author/institution: BirdLife International / IUCN Red List
+- Year: 2024; accessed 2026-10-23
+- DOI: 10.2305/IUCN.UK.2024-2.RLTS.T22688579A263677414.en
+- Type: authoritative conservation/taxonomy assessment
+- Evidence read: current species treatment is *Otus spilocephalus*; historical synonym *Otus stresemanni* remains an old-name mapping.
+- Limits/design use: supports taxonomy and range context, not juvenile feather geometry.
+
+Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layered and barred wings. v5 folds and shortens only the juvenile wings, removes the exposed long tail, retains short developing coverts and makes both feet visibly grip one branch. Adults, text, cavity and forest remain unchanged. Exact age, continuous feather sequence, flight ability and quantitative sex ratio remain unknown; scientifically_verified=false.

@@ -901,3 +901,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-23 #105 *Ptilopsis granti* v5: REVISION archived and visually reviewed. Juvenile face changed to gray-brown and bright scalloped texture reduced; exact age/feather sequence remain unknown, scientifically_verified=false. Orphan v4 preserved and not counted. Unique species remains 157/251. Image commit `d2d0c918659293d8ba36b84cf6d82c1ce298480e`; [run](production/runs/2026-10-23T1031+0800-cycle-5.md).
+
+
+- 2026-10-23 #117 *Otus manadensis* v6: REVISION archived and visually reviewed after rejecting a first draft that increased scalloped tiles. The final juvenile chest/belly uses softer broad irregular barring; residual fine arcs remain, so scientifically_verified=false. Orphan v5 preserved and not counted. Unique species remains 157/251; science pass 0. Image commit `2e4c2d0e711babef80174973f11473a7d8f44a6a`; [run](production/runs/2026-10-23T1134+0800-cycle-6.md).

@@ -2524,6 +2524,25 @@
         "run_record": "owl-pet/production/runs/2026-10-23T2230+0800-cycle-6.md"
       },
       "completed_at": "2026-10-23T14:38:00Z"
+    },
+    {
+      "batch_id": "2026-10-23T2329+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "started_at": "2026-10-23T15:29:58Z",
+      "lease": {
+        "owner": "automation-production",
+        "run_id": "2026-10-23T2329+0800-cycle-1",
+        "heartbeat_at": "2026-10-23T15:31:00Z",
+        "expires_at": "2026-10-23T15:46:00Z"
+      },
+      "last_checkpoint": {
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-23T15:31:00Z",
+        "run_record": "owl-pet/production/runs/2026-10-23T2329+0800-cycle-1.md"
+      }
     }
   ],
   "lease": null,

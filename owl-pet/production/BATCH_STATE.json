@@ -2434,17 +2434,26 @@
       ],
       "next_cycle": 6,
       "started_at": "2026-10-22T22:32:00Z",
-      "lease": null,
-      "last_updated_at": "2026-10-23T02:44:30Z",
+      "lease": {
+        "owner": "owl-prototype-production",
+        "run_id": "2026-10-23T1134+0800-cycle-6",
+        "heartbeat_at": "2026-10-23T03:36:08.232Z",
+        "expires_at": "2026-10-23T03:51:08.233Z"
+      },
+      "last_updated_at": "2026-10-23T03:36:08.232Z",
       "last_checkpoint": {
-        "stage": "VERIFIED",
-        "at": "2026-10-23T02:44:00Z",
-        "commit_sha": "e49543b9eb46e566117c54821253eac20bd91ccc",
-        "run_record": "owl-pet/production/runs/2026-10-23T1031+0800-cycle-5.md"
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-23T03:36:08.232Z",
+        "run_record": "owl-pet/production/runs/2026-10-23T1134+0800-cycle-6.md"
       }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "owl-prototype-production",
+    "run_id": "2026-10-23T1134+0800-cycle-6",
+    "heartbeat_at": "2026-10-23T03:36:08.232Z",
+    "expires_at": "2026-10-23T03:51:08.233Z"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

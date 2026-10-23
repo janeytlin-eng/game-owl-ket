@@ -891,3 +891,7 @@ Cycle 6 revision completed after recovery. Targeted edit shortened and softened 
 
 ## VERIFIED 2026-10-23 #125 Luzon Boobook v4
 Actual generation and targeted edit reviewed. Both adult crowns are plain matte brown without discrete pale spotting; legitimate white wing spots, yellow eyes and ventral streaks remain. The juvenile wing was shortened/rounded and tail concealed while preserving short formed spotted tips, buff residual down and two-foot branch support. Unique species remains 157/251; science pass remains 0. Exact juvenile age/sequence, sex ratio and fine pattern calibration unknown. Image commit `504c0e769a207f4d0aa9ce0208b7ae06455eaa76`; 1536×1024 RGB PNG, 2968828 bytes; SHA-256 `dddb8e710cb87e0b1533d3df55085110427a02238101dbe997a056bc4d06e27b`; Git blob `0a62ad8de10b1abed456db62c4a5ad5fb2339037`.
+
+
+## VERIFIED 2026-10-23 #113 Christmas Island Boobook v5
+Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, long tail concealed, irregular narrow ventral marks and natural support retained; adults and labels complete. Unique remains 157/251; science pass 0. Image commit `ca4032d3618c5768c5344ee8247310b5e7b91610`; SHA-256 `5488d152517a585de99ed85ee1ad2243cb59864e9a23b9f672674eb08a59cd5e`; Git blob `0ac539880511a5a55230a2a6a81ad0084b439035`.

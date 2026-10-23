@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T04:37:00+08:00",
+  "updated": "2026-10-24T04:41:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -2160,20 +2160,20 @@
       "verification_status": "Remote image Git blob, source index, species research record, manifest and VERIFIED run record read back from main; image blob and byte size match the local source."
     },
     {
-      "id": "108-otus-rutilus-v2",
-      "path": "design/concepts/108-otus-rutilus-v2.png",
+      "id": "108-otus-rutilus-v3",
+      "path": "design/concepts/108-otus-rutilus-v3.png",
       "species_id": 108,
       "scientific_name": "Otus rutilus",
       "common_name": "Madagascar Scops Owl",
-      "version": 2,
+      "version": 3,
       "sha256": "d6ad1582b366dee615193ee68e221204b249170c2e4d610de289e1798b828db0",
       "scientifically_verified": false,
       "status": "Adult ventral-pattern revision: mechanically repeated fine herringbone/chevron rows replaced with sparse irregular dark-brown vertical shaft streaks and soft rufous-brown mottling over warm buff. Adult heads, yellow irises, short tufts, scapular/wing pattern, near-equal display scale and foot support retained. Central fluffy older juvenile, two-foot support, labels and rainforest retained unchanged. Exact ventral feather map, juvenile age/sequence, flight ability and fixed sex-size ratio remain unknown.",
       "source_index": "research/SOURCE_INDEX.md#rut-peregrine-2026--rut-ebird-id-2026--rut-vassen-2013-juv",
       "run_record": "production/runs/2026-10-24T0429+0800-cycle-4.md",
-      "archive_commit": "5a370f0f412696acf2a1deb2c56f80873efd983e",
+      "archive_commit": "f2cc4ea93f2789b744d247f95fbfc527c4aa8b60",
       "image_git_blob": "e1d9eea3f9a973ff7a4b26a1fc9a3c60213b7e2c",
-      "verification_status": "Remote Git blob matches locally computed Git blob; final manifest/run readback pending."
+      "verification_status": "Historical v2 restored and retained; v3 remote blob matches locally computed Git blob."
     }
   ]
 }

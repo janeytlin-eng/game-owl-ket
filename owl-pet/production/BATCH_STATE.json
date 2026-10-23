@@ -2455,7 +2455,7 @@
     },
     {
       "batch_id": "2026-10-23T1233+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -2502,23 +2502,28 @@
           "commit_sha": "325b686eb1180fcdf97234430e47390b89165926",
           "verification_commit": "fbc3aaad1ef5e8bcda712dc1e46f9712ab1f8255",
           "run_record": "owl-pet/production/runs/2026-10-23T2127+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Aegolius harrisii",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8f1091e5912b0fa54cd62ad8159e44f9933ffb17",
+          "verification_commit": "514f4a859c576e680368e8bb9d1edbd1e184a282",
+          "run_record": "owl-pet/production/runs/2026-10-23T2230+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-23T04:35:49.308Z",
-      "lease": {
-        "owner": "owl-production",
-        "run_id": "2026-10-23T2230+0800-cycle-6",
-        "heartbeat_at": "2026-10-23T14:31:00Z",
-        "expires_at": "2026-10-23T14:46:00Z"
-      },
-      "last_updated_at": "2026-10-23T14:31:00Z",
+      "lease": null,
+      "last_updated_at": "2026-10-23T14:38:00Z",
       "last_checkpoint": {
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-23T14:31:00Z",
-        "commit_sha": null,
+        "stage": "VERIFIED",
+        "at": "2026-10-23T14:38:00Z",
+        "commit_sha": "514f4a859c576e680368e8bb9d1edbd1e184a282",
         "run_record": "owl-pet/production/runs/2026-10-23T2230+0800-cycle-6.md"
-      }
+      },
+      "completed_at": "2026-10-23T14:38:00Z"
     }
   ],
   "lease": null,
@@ -2582,7 +2587,8 @@
     "2026-10-23 03:36 +0800: batch cycle 5 revised and verified #144 Ninox spilocephala v3; central older immature now has visible two-foot contact on one mossy branch while evidence-bounded plumage remains unchanged. Image commit 2e18e7462b5edebbe4139c57e7ebdbccfbcc8c9b, Git blob ae4dc3a63da40c8c3d4af13003ed2f3be76dd4b0; unique species total remains 157/251.",
     "2026-10-23 17:34 +0800: batch cycle 3 revised and verified #107 Strix fulvescens v3; central heavily downy juvenile no longer shows long dark layered remiges or exposed tail, while adult traits, labels, cloud-forest context and two-foot support remain stable. Image commit fd339c6ccf35aff4cbdae03ffd9a28ca03afbf4d, Git blob 91dbbceb74ab8369b9f3b3f10288521c2371dd69; verification commit 643aa11e93f8bb9469d412407a3eff82a930de63. Unique species total remains 157/251.",
     "2026-10-23 20:38 +0800: batch cycle 4 revised and verified #101 Otus spilocephalus v5; juvenile spread adult-length barred wings were folded and shortened, long tail hidden, and both feet visibly grounded on one branch. Image commit 6332fdfee23464b183404aca3ed4e19a9c647972, Git blob 886efc80eec57a83ff1d439d1f1c6f5f725af0ec; verification commit 947119a7e833099970dc8b14e51ff0bca3982ff0. Unique species total remains 157/251.",
-    "2026-10-23 21:38 +0800: batch cycle 5 revised and verified #99 Bubo magellanicus v2; default urban tiled terrace was replaced with a natural southern Andean/Patagonian open-scrub rocky ledge, and the downy juvenile now rests in a sheltered rock depression with visible two-foot support. Image commit 325b686eb1180fcdf97234430e47390b89165926, Git blob 121a40d630bef2ed6964736777517de3856d652e; verification commit fbc3aaad1ef5e8bcda712dc1e46f9712ab1f8255. Unique species total remains 157/251."
+    "2026-10-23 21:38 +0800: batch cycle 5 revised and verified #99 Bubo magellanicus v2; default urban tiled terrace was replaced with a natural southern Andean/Patagonian open-scrub rocky ledge, and the downy juvenile now rests in a sheltered rock depression with visible two-foot support. Image commit 325b686eb1180fcdf97234430e47390b89165926, Git blob 121a40d630bef2ed6964736777517de3856d652e; verification commit fbc3aaad1ef5e8bcda712dc1e46f9712ab1f8255. Unique species total remains 157/251.",
+    "2026-10-23 22:38 +0800: batch cycle 6 revised and verified #93 Aegolius harrisii v2; duplicate second chick was removed so the production unit now contains exactly one early-stage, closed-eye, securely supported nestling with sparse natal down and no mature remiges or tail. Image commit 8f1091e5912b0fa54cd62ad8159e44f9933ffb17, Git blob 9679daadaf43d7161be13ce7171b7cfa7e4fe83c; verification commit 514f4a859c576e680368e8bb9d1edbd1e184a282. Batch complete 6/6; unique species total remains 157/251."
   ],
-  "updated_at": "2026-10-23T14:31:00Z"
+  "updated_at": "2026-10-23T14:38:00Z"
 }

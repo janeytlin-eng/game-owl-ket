@@ -22,3 +22,11 @@ Actual targeted edit/view: center older juvenile's repeated bright semicircular 
 Sources new0/reused2/corrected0: SLSO-MANAHAMPI-2012 and SLSO-MIK2013-194; fresh search found no stronger primary juvenile source and no adjacent-taxon anatomy was transferred. Full prompt and evidence boundaries are in the cycle record.
 Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f; independent immutable download fully decoded 1536x1024, 2699035 bytes, SHA256 5ff0de6565f99fca35593455d3b5fb479c4bdb8190ccf30f2fcb077783c02c67, Git blob 9638bb92f2fdbebd1c9f3e42739b9c44123269ca; local==remote byte-for-byte. An interim truncated blob commit 4bb0e4e2ed1a7685d67a6af90e2a9b43caeca81c was detected before credit and superseded by the complete PNG.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6aec025f31dc608af118bc9d7e185116369ae52f/owl-pet/design/concepts/117-otus-manadensis-v4.png) · [Cycle](../production/runs/2026-10-21T0533+0800-cycle-1.md)
+
+
+## VERIFIED 2026-10-23 — 117-otus-manadensis-v6
+Actual v5 orphan was preserved and used as the edit base. Draft1 failed review because repeated overlapping scallop/scale edges increased; it was not archived. A second targeted reconstruction produced broad softer irregular gray-brown ventral barring with substantially lower bright-edge contrast. Actual final full plate viewed: crown/mantle heavier barring, short formed folded wings, barred tail, yellow eyes and both-feet branch support retained; adults, title, labels and forest intact. Residual fine low-contrast arcs remain, so this is a limited concept correction, not a scientific pass. Exact age, sex ratio, continuous feather sequence and flight ability remain unknown; `scientifically_verified=false`.
+
+Sources new2/reused2/corrected0: `SLSO-EBIRD-JUV-2026`, `SLSO-OISEAUX-JUV-2026`; reused `SLSO-MANAHAMPI-2012`, `SLSO-MIK2013-194`. Image commit `2e4c2d0e711babef80174973f11473a7d8f44a6a`; 1536×1024 sRGB PNG, 2,706,476 bytes; SHA-256 `1660e343fb41401a7c947257c7d7c5525b9241d3f90eb9acd40420480c5aa1ff`; Git blob `c01cab0327842f1b7cfbfbe3ea69a7bace350227`, local and immutable remote blob match. Unique species remains 157/251.
+
+[Original](../../design/concepts/117-otus-manadensis-v6.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-23T1134+0800-cycle-6.md)

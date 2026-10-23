@@ -753,3 +753,9 @@ Revision changes the older juvenile's face from adult-white to gray-brown and re
 [Original PNG](concepts/117-otus-manadensis-v6.png) · [species record](../knowledge/species/117-otus-manadensis.md) · [cycle record](../production/runs/2026-10-23T1134+0800-cycle-6.md)
 
 Revision preserves the orphan v5 and follows one rejected draft with a second targeted juvenile-only edit. Actual final plate reviewed: broad softer irregular gray-brown ventral bars replace most bright regular scallop rows while heavier crown/mantle barring, short formed wings, barred tail and branch support remain. Residual fine low-contrast arcs and exact developmental calibration remain pending; scientific verification is false.
+
+
+## #90 · American Barn Owl — *Tyto furcata* v3
+[Original PNG](concepts/90-tyto-furcata-v3.png) · [species record](../knowledge/species/90-tyto-furcata.md) · [cycle record](../production/runs/2026-10-23T1233+0800-cycle-1.md)
+
+Revision corrects the v2 overshoot in sex-size display: the right adult female is now only modestly taller and fuller than the male while retaining darker, more spotted plumage. Actual plate reviewed; juvenile stage, supports, labels and environment remain intact. Exact ratio and scientific calibration remain pending.

@@ -2623,3 +2623,43 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 - **Design support:** Supports a Casuarina cavity with shelterbelt/agricultural-edge context for the Minami-daito concept. Does not support an exact juvenile age, feather length, sex ratio or a decorative nest substrate.
 - **Limitations / confidence:** High confidence for sampled nest-site and habitat facts; no direct quantitative plumage calibration extracted. Do not infer all *O. elegans* populations use introduced Casuarina.
 - **Linked artifacts:** `owl-pet/research/species/86-otus-elegans.md`; `owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md`; `owl-pet/design/concepts/86-otus-elegans-v3.png`
+
+
+### RUT-PEREGRINE-2026
+- Title: Madagascar Scops-owl
+- Author/Institution: The Peregrine Fund / World Center for Birds of Prey
+- Year/updated: accessed 2026-10-24
+- URL: https://peregrinefund.org/explore-raptors-species/owls/madagascar-scops-owl
+- Source type: raptor-research institution species account; full page read
+- Species/stage: *Otus rutilus*; adults, habitat, breeding/young evidence limits
+- Key facts: three color morphs (rufous, brown, gray), generally pale facial disc; rainforest, secondary forest and parks; daytime dense-foliage roost. Breeding and nestling development remain poorly known.
+- Section: “Where They Live”, “What They Do”, “Nest, Eggs, and Young” (lines 43–59 in retrieved page)
+- Limits/confidence: secondary institutional synthesis citing Birds of the World; explicitly does not establish juvenile feather sequence or a fixed sex ratio.
+- Design decision: supports retaining pale discs/rufous-brown morph and forest context; supports marking juvenile age and sequence unknown. Does not support mechanically repeated ventral chevrons.
+- Related: species #108; `design/concepts/108-otus-rutilus-v2.png`; `production/runs/2026-10-24T0429+0800-cycle-4.md`.
+
+### RUT-EBIRD-ID-2026
+- Title: Madagascar Scops-Owl — Identification
+- Author/Institution: Cornell Lab of Ornithology, eBird/Merlin
+- Year/updated: accessed 2026-10-24
+- URL: https://ebird.org/species/madsco1
+- Source type: research-institution identification account; full page read
+- Species/stage: *Otus rutilus*; adult identification and habitat
+- Key facts: small ear tufts; gray, brown and rufous variation; rufous birds more frequent in eastern rainforest; moist/dry forest, scrub and plantation habitats.
+- Section: Identification, lines 68–75
+- Limits/confidence: does not quantify ventral feather geometry, sex ratio or juvenile development.
+- Design decision: supports the rufous-brown adult direction and forest setting; adult belly pattern must remain irregular and evidence-bounded.
+- Related: species #108; `design/concepts/108-otus-rutilus-v2.png`.
+
+### RUT-VASSEN-2013-JUV
+- Title: Juvenile Madagascar Scops Owl (*Otus rutilus*), Andasibe, Madagascar
+- Author/Institution: Frank Vassen; Wikimedia Commons/Flickr
+- Year: photograph 2013; accessed 2026-10-24
+- URL: https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg
+- Source type: dated field photograph with author and locality metadata; full file page read
+- Species/stage: *Otus rutilus*; juvenile, exact age unknown
+- Key facts: confirms a photographed juvenile at Andasibe; metadata records 4 Dec 2013 and direct photographic origin.
+- Figure/metadata: original file 3670×2679; file description and metadata lines 100–136
+- Limits/confidence: single photograph; age, sex and continuous feather sequence unknown; identification inherited from contributor metadata.
+- Design decision: used only to avoid inventing an exact day-age and to retain a plausible fluffy older juvenile; not used to infer precise measurements.
+- Related: species #108; `production/runs/2026-10-24T0429+0800-cycle-4.md`.

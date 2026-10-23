@@ -2533,3 +2533,35 @@ Cycle boundary: new/reused/corrected source IDs 3/1/0. Existing v2 actual image 
 - Limits/design use: available record is insufficient for a painted fixed ratio; adults remain near-equal display scale.
 
 Cycle boundary: v2 showed a central juvenile with adult-length layered remiges, regular white wing spots and a long tail. v3 changes only the juvenile to creamy-white/pale-buff mesoptile, dark mask, softer incomplete breast band, short rounded developing wings and no exposed long tail, while preserving both adults, labels, forest and two-foot branch support. Exact age, continuous feather sequence, flight ability and quantified sex ratio remain unknown; scientifically_verified=false.
+
+
+## 2026-10-23 — #107 *Strix fulvescens* v3
+
+### S107-EBIRD-FULOWL1
+- Title: Fulvous Owl *Strix fulvescens* species account
+- Author/institution: Cornell Lab of Ornithology, eBird
+- Accessed: 2026-10-23
+- URL: https://ebird.org/species/fulowl1
+- Type: institutional species account and reference photographs
+- Evidence read: adults have a rounded head, pale face, brown eyes, overall buffy tone, breast barring and belly streaking; highland pine-oak and evergreen forest.
+- Limits/design use: supports adult identity and cloud-forest context, not juvenile exact age, feather sequence or sex ratio.
+
+### S107-CAYAYA-2026
+- Title: Fulvous Owl in Guatemala
+- Author/institution: CAYAYA BIRDING
+- Accessed: 2026-10-23
+- URL: https://www.cayaya-birding.com/species/Fulvous-Owl.htm
+- Type: regional natural-history account with field photographs
+- Evidence read: the species occupies humid high-elevation/cloud forest, also pine-oak and conifer forest, and retains the historical combination *Syrnium fulvescens* plus past treatment as *Strix varia fulvescens*.
+- Limits/design use: supports habitat, adult field appearance and old-name mapping; no verified juvenile developmental series was available.
+
+### S107-OWLPAGES-2020
+- Title: Fulvous Owl
+- Author/institution: The Owl Pages
+- Year: 2020; accessed 2026-10-23
+- URL: https://www.owlpages.com/owls/species.php?s=1730
+- Type: secondary species account
+- Evidence read: nesting is generally in natural tree-trunk holes, incubation is reported as 28–30 days, and young have been observed in May.
+- Limits/design use: supports cavity-nesting context and conservative young stage only; not an original developmental study and does not justify exact day, wing length or flight ability.
+
+Cycle boundary: v2 adults and habitat were retained. The central juvenile's long dark layered remiges and exposed tail were inconsistent with its heavily downy depiction. v3 changes only that bird to short rounded down-covered wing buds with no long exposed remiges or tail, while preserving two-foot support, adults, labels and environment. Exact juvenile age, detailed molt sequence, flight ability and quantitative sex ratio remain unknown; scientifically_verified=false.

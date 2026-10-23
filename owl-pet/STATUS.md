@@ -895,3 +895,6 @@ Actual generation and targeted edit reviewed. Both adult crowns are plain matte 
 
 ## VERIFIED 2026-10-23 #113 Christmas Island Boobook v5
 Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, long tail concealed, irregular narrow ventral marks and natural support retained; adults and labels complete. Unique remains 157/251; science pass 0. Image commit `ca4032d3618c5768c5344ee8247310b5e7b91610`; SHA-256 `5488d152517a585de99ed85ee1ad2243cb59864e9a23b9f672674eb08a59cd5e`; Git blob `0ac539880511a5a55230a2a6a81ad0084b439035`.
+
+
+- 2026-10-23 #128 *Megascops marshalli* v6: REVISION archived and visually reviewed. The female hind-crown marking is slimmer, lower-contrast and interrupted; exact band anatomy remains pending, so scientifically_verified=false. Orphan v5 was preserved and not counted. Unique species remains 157/251. Image commit `114add3da905924d8d585c0bf02b872fb43934ea`; [run](production/runs/2026-10-23T0929+0800-cycle-4.md).

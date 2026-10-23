@@ -12,3 +12,11 @@ Run: ../../production/runs/2026-10-15T1602+0800-cycle-4.md
 ## VERIFIED 2026-10-19T05:53:35.117Z
 90-tyto-furcata-v2 Male display silhouette reduced; female fuller, juvenile formedwings preserved. Qualitativeconceptnotcalibratedratio; editovershoot noted, footgeometry/exactage unresolved. Sciencefalse. Original bd3bb34f00055061473afb4f583b819738ea3cda; independentimmutable remote fullPNG1536x1024 2499112bytes SHA256d281734c108027471b01339718588d8213a613509e1b76b83a517dba77dae161 Gitbloba2618cdb16db52b85539cca5cb4749406ce43afb local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 FUR-CORNELL-CAM2010
 [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-4.md)
+
+
+## VERIFIED 2026-10-23 — 90-tyto-furcata-v3
+Actual v2 review showed the right female visually about one-third taller than the male despite evidence that female and male length ranges overlap. Targeted edit reduced only her display scale. Actual final full plate viewed: female remains modestly taller and fuller, darker/buffer and more spotted; both adults' facial discs, dark eyes, bills, legs, talons and rail grips are complete. Adult male, center older juvenile with formed wings/residual down, box, labels and landscape remain. Exact biological pair ratio, juvenile age, feather sequence and toe geometry remain unknown; `scientifically_verified=false`.
+
+Sources new3/reused1/corrected0: `ABO-BC-SPECIES-2026`, `ABO-MONTANA-MARTI-1992`, `ABO-MARTI-SEXAGE`; existing v2 evidence reused. Image commit `4690cf7216ba8c1d573e8dfc3dbd79a2b2e488aa`; 1536×1024 sRGB PNG, 2,382,644 bytes; SHA-256 `bbed9af7b6a30f7d0584c5b80a3813f3ad64f81f62706414af7879f6fecdfaba`; Git blob `fe7102464c78e6dc301b0599824de45a1ecf9c18`. Unique species remains 157/251.
+
+[Original](../../design/concepts/90-tyto-furcata-v3.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-23T1233+0800-cycle-1.md)

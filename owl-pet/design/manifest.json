@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T02:39:00+08:00",
+  "updated": "2026-10-24T03:34:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -2142,6 +2142,22 @@
       "archive_commit": "086bdc0ba1c0ff874b397036c8002d87b69182b3",
       "image_git_blob": "c49a014f7444046853e68209a4505c9d2a185566",
       "verification_status": "Remote image Git blob, manifest and VERIFIED run record read back from main; image blob and byte size match the local source."
+    },
+    {
+      "id": "86-otus-elegans-v3",
+      "path": "design/concepts/86-otus-elegans-v3.png",
+      "species_id": 86,
+      "scientific_name": "Otus elegans",
+      "common_name": "Ryukyu Scops Owl",
+      "version": 3,
+      "sha256": "262a48dcc7cd483add1815127928ecec8f1833f607c47b5ae063d020ad7d3777",
+      "scientifically_verified": false,
+      "status": "Older-juvenile wing-development revision: near-adult head/torso retained while folded wings were shortened and rounded to end above the branch, orderly adult-like remiges replaced with softer developing feathers, tail hidden and both feet supported. Adult bare-gray toes and near-equal adult height retained. Exact age, feather sequence, fixed sex ratio and toe geometry remain unknown.",
+      "source_index": "research/SOURCE_INDEX.md#ele-akatani2011-jrr--ele-sawada2021-thesis--ele-sawada2021-author",
+      "run_record": "production/runs/2026-10-24T0327+0800-cycle-3.md",
+      "archive_commit": "8c9434eef15829e3d36fb06ccf55067bcd3933c5",
+      "image_git_blob": "67df7a792b655e4f33458c2270019c893b767d24",
+      "verification_status": "Pending final remote readback."
     }
   ]
 }

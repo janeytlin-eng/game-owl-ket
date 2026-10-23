@@ -2484,17 +2484,26 @@
           "commit_sha": "fd339c6ccf35aff4cbdae03ffd9a28ca03afbf4d",
           "verification_commit": "643aa11e93f8bb9469d412407a3eff82a930de63",
           "run_record": "owl-pet/production/runs/2026-10-23T1726+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus spilocephalus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6332fdfee23464b183404aca3ed4e19a9c647972",
+          "verification_commit": "947119a7e833099970dc8b14e51ff0bca3982ff0",
+          "run_record": "owl-pet/production/runs/2026-10-23T2033+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-23T04:35:49.308Z",
       "lease": null,
-      "last_updated_at": "2026-10-23T09:34:00.000Z",
+      "last_updated_at": "2026-10-23T12:38:00.000Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-23T09:34:00.000Z",
-        "commit_sha": "643aa11e93f8bb9469d412407a3eff82a930de63",
-        "run_record": "owl-pet/production/runs/2026-10-23T1726+0800-cycle-3.md"
+        "at": "2026-10-23T12:38:00.000Z",
+        "commit_sha": "947119a7e833099970dc8b14e51ff0bca3982ff0",
+        "run_record": "owl-pet/production/runs/2026-10-23T2033+0800-cycle-4.md"
       }
     }
   ],
@@ -2557,7 +2566,8 @@
     "2026-10-23 01:37 +0800: recovered expired batch cycle 2 and produced/verified unique #158 Phodilus badius v1; initial juvenile adult-like long spotted remiges were shortened/softened and rechecked; image commit d306e8a7e23b1bce22d8e33fd34d17e6e06b1cb9, Git blob 6c69baf500dc81b8d7065c8842bd446f1b964ff6. Batch advances to 2/6; unique species total 156/251.",
     "2026-10-23 02:40 +0800: batch cycle 4 revised and verified #84 Otus bakkamoena v6; adult unsupported thick pale periocular goggle rings were removed while preserving dark eyes, thin outer disc rim, natural cavity and juvenile. Image commit 23efe6f2787571e8e4ac106072eb01abe63b3956, Git blob 3beca06c39dc95f565ef477b17d993e0f235ec74; unique species total remains 157/251.",
     "2026-10-23 03:36 +0800: batch cycle 5 revised and verified #144 Ninox spilocephala v3; central older immature now has visible two-foot contact on one mossy branch while evidence-bounded plumage remains unchanged. Image commit 2e18e7462b5edebbe4139c57e7ebdbccfbcc8c9b, Git blob ae4dc3a63da40c8c3d4af13003ed2f3be76dd4b0; unique species total remains 157/251.",
-    "2026-10-23 17:34 +0800: batch cycle 3 revised and verified #107 Strix fulvescens v3; central heavily downy juvenile no longer shows long dark layered remiges or exposed tail, while adult traits, labels, cloud-forest context and two-foot support remain stable. Image commit fd339c6ccf35aff4cbdae03ffd9a28ca03afbf4d, Git blob 91dbbceb74ab8369b9f3b3f10288521c2371dd69; verification commit 643aa11e93f8bb9469d412407a3eff82a930de63. Unique species total remains 157/251."
+    "2026-10-23 17:34 +0800: batch cycle 3 revised and verified #107 Strix fulvescens v3; central heavily downy juvenile no longer shows long dark layered remiges or exposed tail, while adult traits, labels, cloud-forest context and two-foot support remain stable. Image commit fd339c6ccf35aff4cbdae03ffd9a28ca03afbf4d, Git blob 91dbbceb74ab8369b9f3b3f10288521c2371dd69; verification commit 643aa11e93f8bb9469d412407a3eff82a930de63. Unique species total remains 157/251.",
+    "2026-10-23 20:38 +0800: batch cycle 4 revised and verified #101 Otus spilocephalus v5; juvenile spread adult-length barred wings were folded and shortened, long tail hidden, and both feet visibly grounded on one branch. Image commit 6332fdfee23464b183404aca3ed4e19a9c647972, Git blob 886efc80eec57a83ff1d439d1f1c6f5f725af0ec; verification commit 947119a7e833099970dc8b14e51ff0bca3982ff0. Unique species total remains 157/251."
   ],
-  "updated_at": "2026-10-23T09:34:00Z"
+  "updated_at": "2026-10-23T12:38:00Z"
 }

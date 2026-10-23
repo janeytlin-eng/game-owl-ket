@@ -898,3 +898,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-23 #128 *Megascops marshalli* v6: REVISION archived and visually reviewed. The female hind-crown marking is slimmer, lower-contrast and interrupted; exact band anatomy remains pending, so scientifically_verified=false. Orphan v5 was preserved and not counted. Unique species remains 157/251. Image commit `114add3da905924d8d585c0bf02b872fb43934ea`; [run](production/runs/2026-10-23T0929+0800-cycle-4.md).
+
+
+- 2026-10-23 #105 *Ptilopsis granti* v5: REVISION archived and visually reviewed. Juvenile face changed to gray-brown and bright scalloped texture reduced; exact age/feather sequence remain unknown, scientifically_verified=false. Orphan v4 preserved and not counted. Unique species remains 157/251. Image commit `d2d0c918659293d8ba36b84cf6d82c1ce298480e`; [run](production/runs/2026-10-23T1031+0800-cycle-5.md).

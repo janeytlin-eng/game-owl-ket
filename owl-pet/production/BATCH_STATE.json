@@ -2394,33 +2394,30 @@
           "commit_sha": "ffb1bd9661886af510a587dfd1acbf8c5fe0e689",
           "verification_commit": "7a04181ea90590c0805b1f15574e3e885d08ea67",
           "run_record": "owl-pet/production/runs/2026-10-23T0627+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox philippensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "504c0e769a207f4d0aa9ce0208b7ae06455eaa76",
+          "verification_commit": "61bf3e7c098fb0f42d5c4ae4c2f9155276d9c1bb",
+          "run_record": "owl-pet/production/runs/2026-10-23T0832+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-22T22:32:00Z",
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "2026-10-23T0832+0800-cycle-2",
-        "cycle": 2,
-        "heartbeat_at": "2026-10-23T00:44:00Z",
-        "expires_at": "2026-10-23T00:59:00Z"
-      },
-      "last_updated_at": "2026-10-23T00:44:00Z",
+      "lease": null,
+      "last_updated_at": "2026-10-23T00:49:00Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
-        "at": "2026-10-22T23:36:00Z",
-        "commit_sha": "7a04181ea90590c0805b1f15574e3e885d08ea67",
-        "run_record": "owl-pet/production/runs/2026-10-23T0627+0800-cycle-1.md"
+        "at": "2026-10-23T00:49:00Z",
+        "commit_sha": "61bf3e7c098fb0f42d5c4ae4c2f9155276d9c1bb",
+        "run_record": "owl-pet/production/runs/2026-10-23T0832+0800-cycle-2.md"
       }
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "2026-10-23T0832+0800-cycle-2",
-    "cycle": 2,
-    "heartbeat_at": "2026-10-23T00:44:00Z",
-    "expires_at": "2026-10-23T00:59:00Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2480,5 +2477,5 @@
     "2026-10-23 02:40 +0800: batch cycle 4 revised and verified #84 Otus bakkamoena v6; adult unsupported thick pale periocular goggle rings were removed while preserving dark eyes, thin outer disc rim, natural cavity and juvenile. Image commit 23efe6f2787571e8e4ac106072eb01abe63b3956, Git blob 3beca06c39dc95f565ef477b17d993e0f235ec74; unique species total remains 157/251.",
     "2026-10-23 03:36 +0800: batch cycle 5 revised and verified #144 Ninox spilocephala v3; central older immature now has visible two-foot contact on one mossy branch while evidence-bounded plumage remains unchanged. Image commit 2e18e7462b5edebbe4139c57e7ebdbccfbcc8c9b, Git blob ae4dc3a63da40c8c3d4af13003ed2f3be76dd4b0; unique species total remains 157/251."
   ],
-  "updated_at": "2026-10-23T00:44:00Z"
+  "updated_at": "2026-10-23T00:49:00Z"
 }

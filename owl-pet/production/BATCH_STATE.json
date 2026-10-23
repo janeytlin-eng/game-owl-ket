@@ -2412,30 +2412,30 @@
           "commit_sha": "ca4032d3618c5768c5344ee8247310b5e7b91610",
           "verification_commit": "6a811c1feb52dc184ffcc1b67197f20119b9bcdb",
           "run_record": "owl-pet/production/runs/2026-10-23T0832+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Megascops marshalli",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "114add3da905924d8d585c0bf02b872fb43934ea",
+          "verification_commit": "83f13bc246698182e460ae1d9cab07dd91601809",
+          "run_record": "owl-pet/production/runs/2026-10-23T0929+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-22T22:32:00Z",
-      "lease": {
-        "owner": "owl-pet-production",
-        "run_id": "2026-10-23T0929+0800-cycle-4",
-        "heartbeat_at": "2026-10-23T01:35:30Z",
-        "expires_at": "2026-10-23T01:50:30Z"
-      },
-      "last_updated_at": "2026-10-23T01:35:30Z",
+      "lease": null,
+      "last_updated_at": "2026-10-23T02:34:00Z",
       "last_checkpoint": {
-        "stage": "REVIEWED",
-        "at": "2026-10-23T01:35:30Z",
+        "stage": "VERIFIED",
+        "at": "2026-10-23T01:39:00Z",
+        "commit_sha": "83f13bc246698182e460ae1d9cab07dd91601809",
         "run_record": "owl-pet/production/runs/2026-10-23T0929+0800-cycle-4.md"
       }
     }
   ],
-  "lease": {
-    "owner": "owl-pet-production",
-    "run_id": "2026-10-23T0929+0800-cycle-4",
-    "heartbeat_at": "2026-10-23T01:35:30Z",
-    "expires_at": "2026-10-23T01:50:30Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2495,5 +2495,5 @@
     "2026-10-23 02:40 +0800: batch cycle 4 revised and verified #84 Otus bakkamoena v6; adult unsupported thick pale periocular goggle rings were removed while preserving dark eyes, thin outer disc rim, natural cavity and juvenile. Image commit 23efe6f2787571e8e4ac106072eb01abe63b3956, Git blob 3beca06c39dc95f565ef477b17d993e0f235ec74; unique species total remains 157/251.",
     "2026-10-23 03:36 +0800: batch cycle 5 revised and verified #144 Ninox spilocephala v3; central older immature now has visible two-foot contact on one mossy branch while evidence-bounded plumage remains unchanged. Image commit 2e18e7462b5edebbe4139c57e7ebdbccfbcc8c9b, Git blob ae4dc3a63da40c8c3d4af13003ed2f3be76dd4b0; unique species total remains 157/251."
   ],
-  "updated_at": "2026-10-23T01:35:30Z"
+  "updated_at": "2026-10-23T02:34:00Z"
 }

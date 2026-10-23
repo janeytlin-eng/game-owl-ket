@@ -12,3 +12,10 @@ ARCHIVED fullPNG3115079bytes Gite97b2baef8712ed41dce5f21c333f6091878cede SHA2563
 EDIT_RETURNED 2026-10-15T07:58:11.150Z editwait 72.487s. ARCHIVE_STARTED 2026-10-15T07:58:30.406Z. Unique84/251.
 
 Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-6.md
+
+## 2026-10-24 v3 revision
+
+New full-text source `ELE-AKATANI2011-JRR` confirms the Minami-daito Casuarina-cavity and shelterbelt/sugar-cane context (printed pp.315–319), but supplies no calibrated juvenile feather lengths. Existing 99-nestling growth evidence remains the plumage boundary: body mass/tarsus approach adult values sooner than wing length. v3 therefore preserves a large-bodied older juvenile while shortening and softening the folded wings, hiding the tail and retaining two-foot support. Adult bare-gray toes from v2 are retained. Exact age, continuous feather sequence, sex ratio and toe geometry remain unknown; scientific verification remains false.
+
+Image archive commit: `8c9434eef15829e3d36fb06ccf55067bcd3933c5`; image Git blob: `67df7a792b655e4f33458c2270019c893b767d24`; SHA-256: `262a48dcc7cd483add1815127928ecec8f1833f607c47b5ae063d020ad7d3777`.
+Run: `owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md`.

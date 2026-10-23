@@ -2407,8 +2407,14 @@
       ],
       "next_cycle": 3,
       "started_at": "2026-10-22T22:32:00Z",
-      "lease": null,
-      "last_updated_at": "2026-10-23T00:49:00Z",
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-23T0832+0800-cycle-3",
+        "cycle": 3,
+        "heartbeat_at": "2026-10-23T00:50:00Z",
+        "expires_at": "2026-10-23T01:05:00Z"
+      },
+      "last_updated_at": "2026-10-23T00:50:00Z",
       "last_checkpoint": {
         "stage": "VERIFIED",
         "at": "2026-10-23T00:49:00Z",
@@ -2417,7 +2423,13 @@
       }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-production",
+    "run_id": "2026-10-23T0832+0800-cycle-3",
+    "cycle": 3,
+    "heartbeat_at": "2026-10-23T00:50:00Z",
+    "expires_at": "2026-10-23T01:05:00Z"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2477,5 +2489,5 @@
     "2026-10-23 02:40 +0800: batch cycle 4 revised and verified #84 Otus bakkamoena v6; adult unsupported thick pale periocular goggle rings were removed while preserving dark eyes, thin outer disc rim, natural cavity and juvenile. Image commit 23efe6f2787571e8e4ac106072eb01abe63b3956, Git blob 3beca06c39dc95f565ef477b17d993e0f235ec74; unique species total remains 157/251.",
     "2026-10-23 03:36 +0800: batch cycle 5 revised and verified #144 Ninox spilocephala v3; central older immature now has visible two-foot contact on one mossy branch while evidence-bounded plumage remains unchanged. Image commit 2e18e7462b5edebbe4139c57e7ebdbccfbcc8c9b, Git blob ae4dc3a63da40c8c3d4af13003ed2f3be76dd4b0; unique species total remains 157/251."
   ],
-  "updated_at": "2026-10-23T00:49:00Z"
+  "updated_at": "2026-10-23T00:50:00Z"
 }

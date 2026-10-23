@@ -2435,3 +2435,32 @@ Fresh research added `MINBOO-EBIRD-ID-2026` and `MINBOO-AVIBASE-TAXON-2026`; reu
 Avibase / Birds Canada, “Northern White-faced Owl *Ptilopsis leucotis*”, https://avibase.bsc-eoc.org/species.jsp?avibaseid=E561A180ED8942F7 ; accessed 2026-10-23. Taxonomic database. Actual page read: current taxonomic concept consistently uses *Ptilopsis leucotis* and retains historical *Otus leucotis*. It provides no juvenile age, feather sequence or sex measurements; high confidence for naming only.
 
 Cycle boundary: reused `NWFO-OWLPAGES-2020` for adult white black-rimmed facial disc, long dark-tipped tufts, amber/orange eyes and horn-yellow bill. No directly read continuous species-specific juvenile series was found. v6 targets only repeated bright scalloped juvenile wing edges; exact age, continuous feather geometry, sex ratio and toe-feather extent remain unknown. Sources new/reused/corrected 1/1/0; scientifically_verified=false.
+
+
+## 2026-10-23 · #117 Sulawesi Scops Owl — *Otus manadensis* v6
+
+### SLSO-EBIRD-JUV-2026
+- Title: Sulawesi Scops-Owl *Otus manadensis*
+- Author/institution: Cornell Lab of Ornithology / eBird
+- Year: n.d.; accessed 2026-10-23
+- URL: https://ebird.org/species/susowl1
+- Type: institutional species account; secondary identification summary
+- Species/stage: *Otus manadensis*; juvenile
+- Actual content read: juvenile is described as heavily barred on back and crown; adult account also supports small brown owl, yellow eyes and feathered ear tufts.
+- Location: Identification text on species account; no stable page number.
+- Limits/confidence: useful for broad juvenile pattern and soft parts, but not a primary developmental study and gives no exact age, sex ratio or continuous feather sequence. Moderate confidence for design direction only.
+- Design decision: retain heavier crown/mantle barring while editing only regular decorative ventral/covert contours.
+
+### SLSO-OISEAUX-JUV-2026
+- Title: Sulawesi Scops-owl — *Otus manadensis*
+- Author/institution: Oiseaux-Birds / Françoise V.
+- Year: n.d.; accessed 2026-10-23
+- URL: https://www.oiseaux-birds.com/card-sulawesi-scops-owl.html
+- Type: secondary species account
+- Species/stage: *Otus manadensis*; juvenile and adult morphology
+- Actual content read: juvenile resembles adults but has heavier barring on crown and mantle; adult account provides 19–23 cm and 83–93 g ranges and yellow eyes.
+- Location: Description and juvenile paragraph; no stable page number.
+- Limits/confidence: compiled account, not primary ontogeny evidence; exact age, sex ratio and feather sequence absent. Moderate confidence for broad pattern only.
+- Design decision: corroborates preservation of crown/mantle barring; does not justify invented age-specific wing structure.
+
+Cycle boundary: new/reused/corrected source IDs 2/2/0. Reused `SLSO-MANAHAMPI-2012` and `SLSO-MIK2013-194`. v6 is a juvenile-only correction of repeated ventral/covert arcs. Exact age, sex ratio, continuous wing/tail sequence and flight ability remain unknown; `scientifically_verified=false`. [Run](../production/runs/2026-10-23T1134+0800-cycle-6.md) · [Image](../design/concepts/117-otus-manadensis-v6.png)

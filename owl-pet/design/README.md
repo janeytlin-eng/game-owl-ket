@@ -747,3 +747,9 @@ Revision narrows and lowers the contrast of the middle adult female's hind-crown
 [Original PNG](concepts/105-ptilopsis-granti-v5.png) · [species record](../knowledge/species/105-ptilopsis-granti.md) · [cycle record](../production/runs/2026-10-23T1031+0800-cycle-5.md)
 
 Revision changes the older juvenile's face from adult-white to gray-brown and reduces bright decorative body/covert edges. Actual plate reviewed: developing wing remains formed but shorter than adults, tail concealed, both feet supported; adults and labels intact. Scientific calibration remains pending.
+
+
+## #117 · Sulawesi Scops Owl — *Otus manadensis* v6
+[Original PNG](concepts/117-otus-manadensis-v6.png) · [species record](../knowledge/species/117-otus-manadensis.md) · [cycle record](../production/runs/2026-10-23T1134+0800-cycle-6.md)
+
+Revision preserves the orphan v5 and follows one rejected draft with a second targeted juvenile-only edit. Actual final plate reviewed: broad softer irregular gray-brown ventral bars replace most bright regular scallop rows while heavier crown/mantle barring, short formed wings, barred tail and branch support remain. Residual fine low-contrast arcs and exact developmental calibration remain pending; scientific verification is false.

@@ -2663,3 +2663,30 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 - Limits/confidence: single photograph; age, sex and continuous feather sequence unknown; identification inherited from contributor metadata.
 - Design decision: used only to avoid inventing an exact day-age and to retain a plausible fluffy older juvenile; not used to infer precise measurements.
 - Related: species #108; `production/runs/2026-10-24T0429+0800-cycle-4.md`.
+
+
+### LEU-OWLPAGES-2020
+- Title: Northern White-faced Owl — *Ptilopsis leucotis*
+- Author/Institution: Deane Lewis, The Owl Pages
+- Year/updated: 2020-10-25; accessed 2026-10-24
+- URL: https://www.owlpages.com/owls/species.php?s=1160
+- Source type: specialist species synthesis citing major owl monographs; full page read
+- Species/stage: *Ptilopsis leucotis*; adult soft parts, legs/feet, breeding and young
+- Read location: Description and Breeding, lines 63–76 in retrieved page
+- Verified facts: tarsi feathered to the basal half of the toes; distal toes dusky-brown with blackish claws. Young appear fully feathered around day 27 and may climb out; flight reported by days 30–32.
+- Limits/confidence: secondary synthesis, not a specimen measurement or continuous photo series. Exact featherlet count, individual toe coverage, pictured juvenile age and fixed sex ratio remain unknown. Confidence: medium-high for descriptive direction.
+- Design decision: adult proximal toe featherlets may reach roughly halfway; distal toes and claws must remain bare. Juvenile is preserved without numeric-age assignment.
+- Related: species #109; `design/concepts/109-ptilopsis-leucotis-v8.png`; `production/runs/2026-10-24T0530+0800-cycle-5.md`.
+
+### LEU-FWS-TAXONOMY
+- Title: Northern White-faced Owl
+- Author/Institution: U.S. Fish & Wildlife Service
+- Year/updated: current page; accessed 2026-10-24
+- URL: https://www.fws.gov/species/northern-white-faced-owl-ptilopsis-leucotis
+- Source type: official government taxonomy page; full page read
+- Species/stage: *Ptilopsis leucotis*; taxonomy only
+- Read location: Overview and Location in Taxonomic Tree, lines 169–201
+- Verified facts: accepts the current scientific name *Ptilopsis leucotis*, common name Northern White-faced Owl, genus *Ptilopsis*.
+- Limits/confidence: no plumage, juvenile or foot-anatomy evidence. Confidence: high for naming only.
+- Design decision: supports current-name mapping only; not used to infer morphology.
+- Related: species #109; `production/runs/2026-10-24T0530+0800-cycle-5.md`.

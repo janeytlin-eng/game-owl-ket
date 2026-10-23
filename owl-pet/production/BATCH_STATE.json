@@ -2565,30 +2565,29 @@
           "commit_sha": "f2cc4ea93f2789b744d247f95fbfc527c4aa8b60",
           "verification_commit": "6c033e9e3821154af573a4c66c656207f3926442",
           "run_record": "owl-pet/production/runs/2026-10-24T0429+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Ptilopsis leucotis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "c30565c893443b3af60c26f2a944e2add0f5be9d",
+          "verification_commit": "98902b85f5714bc06470e6d6bcbfbf3caaae9bc4",
+          "run_record": "owl-pet/production/runs/2026-10-24T0530+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-23T15:29:58Z",
-      "lease": {
-        "owner": "owl-production",
-        "run_id": "2026-10-24T0530+0800-cycle-5",
-        "heartbeat_at": "2026-10-23T23:39:00Z",
-        "expires_at": "2026-10-23T23:54:00Z"
-      },
+      "lease": null,
       "last_checkpoint": {
-        "stage": "REVIEWED",
-        "at": "2026-10-23T23:39:00Z",
+        "stage": "VERIFIED",
+        "at": "2026-10-23T23:45:00Z",
         "run_record": "owl-pet/production/runs/2026-10-24T0530+0800-cycle-5.md",
-        "local_sha256": "d643cbe2f9b0b2212564e4caf53b00814a09684aed7d8a461e415479341ac061"
+        "commit_sha": "98902b85f5714bc06470e6d6bcbfbf3caaae9bc4"
       }
     }
   ],
-  "lease": {
-    "owner": "owl-production",
-    "run_id": "2026-10-24T0530+0800-cycle-5",
-    "heartbeat_at": "2026-10-23T23:39:00Z",
-    "expires_at": "2026-10-23T23:54:00Z"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2650,7 +2649,8 @@
     "2026-10-23 17:34 +0800: batch cycle 3 revised and verified #107 Strix fulvescens v3; central heavily downy juvenile no longer shows long dark layered remiges or exposed tail, while adult traits, labels, cloud-forest context and two-foot support remain stable. Image commit fd339c6ccf35aff4cbdae03ffd9a28ca03afbf4d, Git blob 91dbbceb74ab8369b9f3b3f10288521c2371dd69; verification commit 643aa11e93f8bb9469d412407a3eff82a930de63. Unique species total remains 157/251.",
     "2026-10-23 20:38 +0800: batch cycle 4 revised and verified #101 Otus spilocephalus v5; juvenile spread adult-length barred wings were folded and shortened, long tail hidden, and both feet visibly grounded on one branch. Image commit 6332fdfee23464b183404aca3ed4e19a9c647972, Git blob 886efc80eec57a83ff1d439d1f1c6f5f725af0ec; verification commit 947119a7e833099970dc8b14e51ff0bca3982ff0. Unique species total remains 157/251.",
     "2026-10-23 21:38 +0800: batch cycle 5 revised and verified #99 Bubo magellanicus v2; default urban tiled terrace was replaced with a natural southern Andean/Patagonian open-scrub rocky ledge, and the downy juvenile now rests in a sheltered rock depression with visible two-foot support. Image commit 325b686eb1180fcdf97234430e47390b89165926, Git blob 121a40d630bef2ed6964736777517de3856d652e; verification commit fbc3aaad1ef5e8bcda712dc1e46f9712ab1f8255. Unique species total remains 157/251.",
-    "2026-10-23 22:38 +0800: batch cycle 6 revised and verified #93 Aegolius harrisii v2; duplicate second chick was removed so the production unit now contains exactly one early-stage, closed-eye, securely supported nestling with sparse natal down and no mature remiges or tail. Image commit 8f1091e5912b0fa54cd62ad8159e44f9933ffb17, Git blob 9679daadaf43d7161be13ce7171b7cfa7e4fe83c; verification commit 514f4a859c576e680368e8bb9d1edbd1e184a282. Batch complete 6/6; unique species total remains 157/251."
+    "2026-10-23 22:38 +0800: batch cycle 6 revised and verified #93 Aegolius harrisii v2; duplicate second chick was removed so the production unit now contains exactly one early-stage, closed-eye, securely supported nestling with sparse natal down and no mature remiges or tail. Image commit 8f1091e5912b0fa54cd62ad8159e44f9933ffb17, Git blob 9679daadaf43d7161be13ce7171b7cfa7e4fe83c; verification commit 514f4a859c576e680368e8bb9d1edbd1e184a282. Batch complete 6/6; unique species total remains 157/251.",
+    "2026-10-24 07:45 +0800: recovered expired cycle 5, bypassed truncated main v6/empty v7 by restoring fully decodable v3, and produced/verified #109 Ptilopsis leucotis v8. A first edit still showed only an ankle cuff; second pass visibly extended pale-gray featherlets along proximal half of adult toes while retaining bare distal toes and black claws. Image commit c30565c893443b3af60c26f2a944e2add0f5be9d, Git blob 7fc34dbded1425bd469871fda9233380e77d109c. Batch advances to 5/6; unique species remains 157/251."
   ],
-  "updated_at": "2026-10-23T23:39:00Z"
+  "updated_at": "2026-10-23T23:45:00Z"
 }

@@ -2607,3 +2607,19 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 | EBO-EBIRD-ID-2026 | Cornell Lab of Ornithology / eBird, [Eastern Barn Owl — *Tyto javanica*](https://ebird.org/species/eabowl1) | 页面现行版；访问2026-10-23 | 机构物种页与实物影像索引 | *T. javanica*，成年识别与行为 | Species account、media | 中型、心形面盘、深色眼；上体白黑细斑、灰褐翼；在开阔地夜间低缓飞行觅食。 | 未给雌雄可视比例或幼鸟日龄/羽序；仅约束成年外观及开阔地背景，不用于精确幼鸟校准。可信度：高（机构资料）。 |
 | EBO-MCLAUGHLIN-DEBUS-2025 | McLaughlin, J. G. & Debus, S. J. S., [Breeding biology and behaviour of the Eastern Barn Owl *Tyto javanica delicatula* in north-western Victoria](https://www.researchgate.net/publication/394591872_Breeding_biology_and_behaviour_of_the_Eastern_Barn_Owl_Tyto_javanica_delicatula_in_north-western_Victoria) | 2025；访问2026-10-23 | 繁殖生物学研究摘要 | *T. j. delicatula*，繁殖与离巢 | Abstract | 1987–1990年、14巢；窝卵3–6枚（通常4–5），每次繁殖离巢2–5只。 | 当前只读取公开摘要，未取得连续幼鸟照片或日龄羽序；不能据此精确绘制幼鸟阶段，仅确认本亚种繁殖资料存在。可信度：中（摘要已读、全文细节未核验）。 |
 
+
+
+## ELE-AKATANI2011-JRR
+
+- **Title:** Breeding Ecology and Habitat Use of the Daito Scops Owl (*Otus elegans interpositus*) on an Oceanic Island
+- **Authors:** Kana Akatani, Taro Matsuo, Masaoki Takagi
+- **Year:** 2011
+- **Source type:** peer-reviewed field study; full text read
+- **DOI / URL:** https://doi.org/10.3356/JRR-10-82.1 ; full-text mirror read at https://artefacts-discovery.researcher.life/full_text_files/DA-2/b0/b08a46ba4b3b3b479b767cf6cfbffccb/full_text/QY9j5MIU0LPmlYpR1bcjFQzTRKFCueUozDf963dNwcM=.pdf
+- **Accessed:** 2026-10-24
+- **Species / stage:** *Otus elegans interpositus*; breeding adults, nest sites and nestling provisioning; no calibrated juvenile plumage sequence
+- **Read location:** printed pp.315–319 (PDF pp.1–5), especially abstract, study-area/methods, nest-characteristics and diet sections
+- **Verified facts:** Most recorded nests were cavities in introduced *Casuarina* (n=30); two were vertical hollows in native fan palm. The study area is a fragmented Minami-daito landscape dominated by sugar cane and forest shelterbelts; nest and habitat variables were measured directly. Nestling diet was recorded from 25 nests.
+- **Design support:** Supports a Casuarina cavity with shelterbelt/agricultural-edge context for the Minami-daito concept. Does not support an exact juvenile age, feather length, sex ratio or a decorative nest substrate.
+- **Limitations / confidence:** High confidence for sampled nest-site and habitat facts; no direct quantitative plumage calibration extracted. Do not infer all *O. elegans* populations use introduced Casuarina.
+- **Linked artifacts:** `owl-pet/research/species/86-otus-elegans.md`; `owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md`; `owl-pet/design/concepts/86-otus-elegans-v3.png`

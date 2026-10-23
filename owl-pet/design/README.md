@@ -729,3 +729,9 @@ Revision of the older photographed-stage juvenile: an initial resumed render aga
 [Original PNG](concepts/125-ninox-philippensis-v4.png) · [species record](../knowledge/species/125-ninox-philippensis.md) · [cycle record](../production/runs/2026-10-23T0832+0800-cycle-2.md)
 
 Revision rebuilds both adults with plain unmarked matte-brown crowns while preserving legitimate white wing spots. The first juvenile render was too mature; the reviewed edit shortens and rounds its formed wing, hides the tail and retains residual buff down plus two-foot branch support. Scientific calibration remains pending.
+
+
+## #113 · Christmas Island Boobook — *Ninox natalis* v5
+[Original PNG](concepts/113-ninox-natalis-v5.png) · [cycle record](../production/runs/2026-10-23T0832+0800-cycle-3.md)
+
+Revision replaces the initial adult-length juvenile wing and long tail with a shorter rounded formed wing, concealed tail, irregular ventral markings and natural two-foot support. Scientific calibration remains pending.

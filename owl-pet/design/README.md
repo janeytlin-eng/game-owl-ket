@@ -759,3 +759,9 @@ Revision preserves the orphan v5 and follows one rejected draft with a second ta
 [Original PNG](concepts/90-tyto-furcata-v3.png) · [species record](../knowledge/species/90-tyto-furcata.md) · [cycle record](../production/runs/2026-10-23T1233+0800-cycle-1.md)
 
 Revision corrects the v2 overshoot in sex-size display: the right adult female is now only modestly taller and fuller than the male while retaining darker, more spotted plumage. Actual plate reviewed; juvenile stage, supports, labels and environment remain intact. Exact ratio and scientific calibration remain pending.
+
+
+## #159 · Sri Lanka Bay Owl — *Phodilus assimilis* v2
+[Original PNG](concepts/159-phodilus-assimilis-v2.png) · [species record](../knowledge/species/159-phodilus-assimilis.md) · [cycle record](../production/runs/2026-10-24T0933+0800-cycle-1.md)
+
+Recovery revision preserves the previously orphaned v1 and registers both versions. Actual full-resolution v2 review confirms the juvenile folded wing is shorter, rounder and more down-covered, with no exposed long tail and both feet supported; adults, labels and cavity habitat remain stable. Exact age, continuous feather sequence, flight ability and fixed sex ratio remain unknown, so scientific verification is false.

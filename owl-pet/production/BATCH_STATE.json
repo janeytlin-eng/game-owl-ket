@@ -2707,19 +2707,26 @@
       ],
       "next_cycle": 2,
       "started_at": "2026-10-24T21:30:47+08:00",
-      "lease": null,
+      "lease": {
+        "owner": "automation-production",
+        "run_id": "2026-10-24T2232+0800-cycle-2",
+        "heartbeat_at": "2026-10-24T22:33:00+08:00",
+        "expires_at": "2026-10-24T22:48:00+08:00"
+      },
       "last_checkpoint": {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "species": "Strix chacoensis",
-        "version": 4,
-        "archive_commit_sha": "336aaf1970f09c84e9c9b18147a93809f0213765",
-        "verification_commit_sha": "446e247b3534c9cf9479a3c1a8b8f1765c0e5277",
-        "at": "2026-10-24T21:56:00+08:00"
+        "cycle": 2,
+        "stage": "STARTED",
+        "species": "Strix albitarsis",
+        "at": "2026-10-24T22:33:00+08:00"
       }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "automation-production",
+    "run_id": "2026-10-24T2232+0800-cycle-2",
+    "heartbeat_at": "2026-10-24T22:33:00+08:00",
+    "expires_at": "2026-10-24T22:48:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2787,7 +2794,7 @@
     "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle.",
     "2026-10-24 21:44 +0800: new batch cycle 1 #98 Strix chacoensis reached REVIEWED after one rebuild and two toe-feather edits, but environment became unavailable during PNG base64/upload preparation. No archive credit; lease released; next_cycle remains 1. Research/index commit 05c0e0d is durable."
   ],
-  "updated_at": "2026-10-24T21:56:00+08:00",
+  "updated_at": "2026-10-24T22:33:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251."
   ]

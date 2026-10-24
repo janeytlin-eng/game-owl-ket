@@ -2869,3 +2869,14 @@ Cycle2 re-read RBO-GREENEY-2003 full text pp.67–68 and reused RBO-SCHERZINGER-
 - **Freshly read evidence:** Cornell Lab/eBird current account, https://ebird.org/species/minboo1, directly supports a fairly small lowland-forest owl with dark-brown head/upperparts, wing speckles, reddish-brown chest, white belly with thick reddish-brown streaking and yellowish eyes; it explicitly distinguishes the species from Chocolate Boobook by smaller size and absence of white on the chest. Rasmussen et al. (2012) remains the primary taxonomy/morphology source already indexed for the *N. philippensis* complex and the old-name mapping.
 - **Limits:** no exact immature age, continuous wing/tail sequence, soft-part calibration, quantified sex ratio, nest structure or locomotor milestone. BirdLife's current dynamic factsheet was opened but exposed no substantive species fields in the retrieved page, so it is not counted as a new verified evidence entry.
 - **Design decision:** v4 keeps adults near-equal, enforces reddish-brown upper chest without a white patch, places white only on the streaked lower belly, and uses a supported older immature with compact wings/tail. Related: [#144 v4](../design/concepts/144-ninox-spilocephala-v4.png), [cycle record](../production/runs/2026-10-25T0532+0800-cycle-2.md).
+
+
+### MANED-EBIRD-2026
+- Title/institution: [Maned Owl — *Jubula lettii*](https://ebird.org/species/manowl1), Cornell Lab of Ornithology/eBird
+- Accessed: 2026-10-25
+- Type: institutional current identification account; full page/search account read
+- Species/stage: adults, identification and habitat
+- Verified facts: distinctive lowland-rainforest owl, mostly rufous-brown, long shaggy drooping ear tufts and nape plumes, yellow-to-orange eyes, rufous breast, buff belly with fine black streaks, dense understory often rich in lianas.
+- Limits: no juvenile age, continuous feather sequence, sex measurements, nest dimensions or locomotor milestone. Confidence high for adult identification direction, not development.
+- Decision: supports adult mane silhouette, palette and liana-rich rainforest; juvenile remains bounded by MANED-ML-531449801-2023.
+- Related: #153 v2 and `owl-pet/production/runs/2026-10-25T0627+0800-cycle-3.md`.

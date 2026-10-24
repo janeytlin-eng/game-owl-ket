@@ -28,3 +28,11 @@ The group shows near-equal adult sexes because no reliable sex-specific size or 
 - Applied edit: shortened and softened juvenile wing/tail, reduced crisp adult rows, preserved white juvenile face and two-foot branch support.
 - Recheck: exactly three birds; labels legible; adult diagnostic palette and mane-like ear tufts retained; all feet supported.
 - Status: concept review passed within cited boundaries; user confirmation pending; scientific validation pending.
+
+
+## v2 landscape and immature-maturity revision — 2026-10-25
+- Fresh source: MANED-EBIRD-2026; reused MANED-ML-531449801-2023, MANED-ITIS-555440-2026, MANED-BHL-HABITAT-1992 and MANED-BIRDLIFE-LIST-2026.
+- First 1536×1024 draft preserved white juvenile facial feathers but gave the central immature adult-length layered wings and a long barred tail.
+- Targeted edit shortened/rounded the folded wing, softened adult-like layers and reduced the tail while retaining a mobile older immature, orange-toned eye, yellowish feet and two-foot branch grip.
+- Exact age, continuous feather sequence, flight ability and quantified sex difference remain unknown; scientifically_verified=false.
+- Final SHA-256: `5ad8351831dcc2f9c7b7c4168efb292f9e980997c3d073a3c68470cf7a38223a`.

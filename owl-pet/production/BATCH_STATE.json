@@ -2836,16 +2836,18 @@
       ],
       "next_cycle": 5,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": null,
+      "lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-25T0749+0800-cycle-5",
+        "heartbeat_at": "2026-10-25T07:49:00+08:00",
+        "expires_at": "2026-10-25T08:04:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Pseudoscops grammicus",
-        "run_id": "2026-10-25T0732+0800-cycle-4",
-        "at": "2026-10-25T07:48:00+08:00",
-        "archive_commit": "258d44965ce491ea931c3662cdf16ef150b4672b",
-        "image_blob": "cdb1b52e2ff006ac290ac3235db46366fa0c6281",
-        "verification_commit": "ef19cb16a931f3be00731da64a9a83833b50d2a1"
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Scotopelia ussheri",
+        "run_id": "2026-10-25T0749+0800-cycle-5",
+        "at": "2026-10-25T07:49:00+08:00"
       }
     }
   ],

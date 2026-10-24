@@ -913,3 +913,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-24 #159 *Phodilus assimilis* v2: REVISION/recovery archived and visually reviewed. The previously unregistered v1 is preserved; v2 shortens and down-softens the age-unknown juvenile's adult-like folded wing while retaining two-foot support, adults, labels and tree-cavity context. Exact age, continuous feather sequence, flight ability and fixed sex ratio remain unknown, so `scientifically_verified=false`. Unique species remains 157/251; manifest entries 292 including the generic reference. Image commit `9757947a64bb371838b66b9e8c403b918c3cb356`; [run](production/runs/2026-10-24T0933+0800-cycle-1.md).
+
+
+- 2026-10-25 #117 *Otus manadensis* v8: REVISION generated and actually reviewed. Center age-unknown older juvenile uses irregular diffuse ventral mottling rather than repeated scallops, with heavier crown/back barring, compact formed wings and two-foot support. Unique species remains 157/251; scientifically_verified=false. [Run](production/runs/2026-10-25T0431+0800-cycle-1.md).

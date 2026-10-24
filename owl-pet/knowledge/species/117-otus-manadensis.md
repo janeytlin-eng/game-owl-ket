@@ -38,3 +38,7 @@ Complete evidence-bounded rebuild followed by one actual targeted edit/view. The
 Sources new2/reused3/corrected0: `SLSO-FWS-TAXONOMY-2026`, `SLSO-AVIBASE-2026`; reused `SLSO-MANAHAMPI-2012`, `SLSO-MIK2013-194`, `SLSO-EBIRD-JUV-2026`. Image commit `c4d11f90f2d37228e584fd1f44afbbad54e76997`; 1536×1024 PNG, 3,004,874 bytes; SHA-256 `4b787e10b181ddaa73a1fc830c0526e94ac5f6f8a3a992b5ea40a5881e43c622`; Git blob `5e84ae7b292874b4a83b25238c8113eb2bdbdc52`. Unique species remains 157/251.
 
 [Original](../../design/concepts/117-otus-manadensis-v7.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-24T1535+0800-cycle-3.md)
+
+
+## REVIEWED 2026-10-25 — 117-otus-manadensis-v8
+Fresh evidence-bounded rebuild reuses current institutional sources without extrapolating exact age. Actual 1536×1024 plate viewed: exactly three labelled birds; adults near-equal with yellow eyes, ear tufts and irregular brown markings; center older juvenile has source-supported heavier crown/back barring, irregular diffuse ventral mottling, compact formed wings and natural two-foot support. Exact age, feather sequence, flight ability, sex ratio and literal feather map remain unknown; scientifically_verified=false. SHA-256 b3cece60198f669dcc2cf4ed279bffa323382b3b750c8c3825462a0b37b23386. [Original](../../design/concepts/117-otus-manadensis-v8.png) · [Run](../../production/runs/2026-10-25T0431+0800-cycle-1.md)

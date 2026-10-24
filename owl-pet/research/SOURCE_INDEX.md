@@ -2851,3 +2851,12 @@ Cycle2 re-read RBO-GREENEY-2003 full text pp.67–68 and reused RBO-SCHERZINGER-
 - Limits/conflicts: no usable morphology, sex, juvenile-development or nest detail; taxonomy support only.
 - Design decision: confirms current combination; historical Otus Madagascariensis remains an old-name mapping, not another species.
 - Linked record: ../production/runs/2026-10-25T0331+0800-cycle-6.md
+
+
+### SLSO-REUSE-2026-10-25
+- **Accessed:** 2026-10-25
+- **Species/stage:** *Otus manadensis*, adults and older juvenile.
+- **Reused source IDs:** `SLSO-EBIRD-JUV-2026`, `SLSO-FWS-TAXONOMY-2026`, `SLSO-MANAHAMPI-2012`, `SLSO-MIK2013-194`.
+- **Freshly read evidence:** Cornell Lab/eBird current account (https://ebird.org/species/susowl1) supports yellow-eyed brown adults with ear tufts and juvenile heavier barring on crown/back in forest/edge; USFWS current profile (https://www.fws.gov/species/sulawesi-scops-owl-otus-manadensis) supports the current scientific combination only.
+- **Limits:** no exact juvenile age, continuous feather sequence, flight ability, literal feather geometry, fixed sex ratio or toe-feather count. Uploaded Mikkola file was unavailable this invocation, so the prior p.194 index entry is reused without a new page-reading claim.
+- **Design decision:** irregular diffuse juvenile ventral texture; no mechanical scallop rows or adult-length remiges. Related: [#117 v8](../design/concepts/117-otus-manadensis-v8.png), [cycle record](../production/runs/2026-10-25T0431+0800-cycle-1.md).

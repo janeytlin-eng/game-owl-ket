@@ -778,3 +778,9 @@ Recovery revision preserves the previously orphaned v1 and registers both versio
 [Original PNG](concepts/98-strix-chacoensis-v4.png) · [cycle record](../production/runs/2026-10-24T2130+0800-cycle-1.md)
 
 Revision resolves the documented bill and proximal-toe boundary direction: yellowish bill/cere, blackish-brown irises, and pale featherlets continuing onto the proximal toe shafts while distal toes and claws remain bare. The older juvenile retains short rounded formed wings and supported feet. Exact age, feather sequence, toe-feather count and fixed sex ratio remain pending; scientific verification is false.
+
+
+## #117 · Sulawesi Scops-Owl — *Otus manadensis* v8
+[Original PNG](concepts/117-otus-manadensis-v8.png) · [species record](../knowledge/species/117-otus-manadensis.md) · [cycle record](../production/runs/2026-10-25T0431+0800-cycle-1.md)
+
+Fresh rebuild removes the residual mechanical juvenile ventral pattern direction while retaining source-supported heavy crown/back barring, compact formed wings and natural support. Scientific calibration remains pending.

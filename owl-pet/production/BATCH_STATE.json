@@ -2643,17 +2643,20 @@
         }
       ],
       "next_cycle": 5,
-      "lease": null,
-      "last_checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Ninox leucopsis",
-        "run_id": "2026-10-24T1630+0800-cycle-4",
-        "image_commit_sha": "4d0ea89ed2507a46fca1ec4a12b895ad0b766674",
-        "verification_commit_sha": "369087727269890c62247debd615e7c57e27b8be",
-        "updated_at": "2026-10-24T08:51:00Z"
+      "lease": {
+        "owner": "flora-codex",
+        "run_id": "2026-10-24T1830+0800-cycle-5",
+        "heartbeat_at": "2026-10-24T18:32:00+08:00",
+        "expires_at": "2026-10-24T18:47:00+08:00"
       },
-      "last_updated_at": "2026-10-24T07:40:00Z"
+      "last_checkpoint": {
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": null,
+        "run_id": "2026-10-24T1830+0800-cycle-5",
+        "updated_at": "2026-10-24T18:32:00+08:00"
+      },
+      "last_updated_at": "2026-10-24T18:32:00+08:00"
     }
   ],
   "lease": null,

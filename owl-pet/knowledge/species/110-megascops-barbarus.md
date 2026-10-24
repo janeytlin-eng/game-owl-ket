@@ -15,3 +15,11 @@ New0/reused2 BSO-EISERMANN-FIELD originalpage/ownfamilyphotopixels reread/viewed
 
 ### #110 v3 2026-10-18T00:38:45.697Z
 Two built-in edits actually viewed: first introduced white spots (rejected); second reduced upper-covert spots and tile contrast. Repeated fine scalloping remains pending. Legitimate older juvenile remiges/branch grips/adults/labels retained visually, sciencefalse; exact age and sex scale unknown. Unique118/251 unchanged. Sources new0/reused2; one excluded non-owl lead corrected. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/0171f82805d2e079fb7d07c686a053dc7ac065ab/owl-pet/design/concepts/110-megascops-barbarus-v3.png); [research/full prompts/actual checks](../production/runs/2026-10-18T0528+0800-cycle-3.md). Independently downloaded original2915991bytes, PNG1536x1024 fully decoded, SHA25691eabaa2ab1cbefff32b5eafce28e559537f7b5e065f37262d66d35ff841812c, Gitblob6e2883ad732a79d256bfb3e15542f8779cf3149c matches local.
+
+
+### #110 v4 · 2026-10-24
+
+Targeted built-in edit actually generated and viewed. The center older juvenile's upper folded-wing coverts are softer, lower-contrast and less mechanically tiled than v3; legitimate formed lower remiges, wing length, branch grip, adults and labels remain. Residual fine arcs and a slightly brighter/more photographic rendering remain, so this is a limited correction rather than a complete scientific calibration. Exact juvenile age, continuous feather sequence, sex-specific scale and literal covert geometry remain unknown; `scientifically_verified=false`.
+
+Sources: new `BSO-ENRIQUEZ-2010`; reused `BSO-EISERMANN-FIELD` and `BSO-CAYAYA-FIELD`. Image commit `1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a`; 2,918,099-byte PNG, 1536×1024 RGB; SHA-256 `178b40b2f92d7c253d574e50e0dd0157f27fcbbe5997d33e29e0c9f7d7ad69a8`; Git blob `246a75e73a234abf0c6ab227326ccc616564dcfd`.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a/owl-pet/design/concepts/110-megascops-barbarus-v4.png) · [Research, prompt and review](../../production/runs/2026-10-24T0828+0800-cycle-6.md)

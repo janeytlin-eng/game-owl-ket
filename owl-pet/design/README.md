@@ -767,8 +767,8 @@ Revision corrects the v2 overshoot in sex-size display: the right adult female i
 Recovery revision preserves the previously orphaned v1 and registers both versions. Actual full-resolution v2 review confirms the juvenile folded wing is shorter, rounder and more down-covered, with no exposed long tail and both feet supported; adults, labels and cavity habitat remain stable. Exact age, continuous feather sequence, flight ability and fixed sex ratio remain unknown, so scientific verification is false.
 
 
-## 03-bubo-bubo-v10
+## 03-bubo-bubo-v11
 
-状态：约10日龄幼鸟白绒闭环/钩针状重复纹理重建修订；实际查看通过，待科学校准，旧版及历史确认保留且不自动转移。
+状态：约10日龄幼鸟白绒闭环/钩针状重复纹理重建修订；实际查看通过，待科学校准。历史 v10 已从父提交逐字节恢复，本图另存 v11，旧版及历史确认保留且不自动转移。
 
-![03-bubo-bubo-v10](concepts/03-bubo-bubo-v10.png)
+![03-bubo-bubo-v11](concepts/03-bubo-bubo-v11.png)

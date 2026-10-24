@@ -2629,23 +2629,29 @@
           "image_commit_sha": "c4d11f90f2d37228e584fd1f44afbbad54e76997",
           "commit_sha": "c8dcfdae9d3e70b566d23469c55148007cc95a07",
           "run_record": "owl-pet/production/runs/2026-10-24T1535+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox leucopsis",
+          "species_id": 121,
+          "action": "REVISION",
+          "version": 2,
+          "unique_increment": 0,
+          "image_commit_sha": "4d0ea89ed2507a46fca1ec4a12b895ad0b766674",
+          "commit_sha": "369087727269890c62247debd615e7c57e27b8be",
+          "run_record": "owl-pet/production/runs/2026-10-24T1630+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
-      "lease": {
-        "owner": "automation-production",
-        "run_id": "2026-10-24T1630+0800-cycle-4",
-        "cycle": 4,
-        "species": "Ninox leucopsis",
-        "heartbeat_at": "2026-10-24T16:34:00+08:00",
-        "expires_at": "2026-10-24T16:49:00+08:00"
-      },
+      "next_cycle": 5,
+      "lease": null,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "STARTED",
+        "stage": "VERIFIED",
         "species": "Ninox leucopsis",
         "run_id": "2026-10-24T1630+0800-cycle-4",
-        "updated_at": "2026-10-24T08:34:00Z"
+        "image_commit_sha": "4d0ea89ed2507a46fca1ec4a12b895ad0b766674",
+        "verification_commit_sha": "369087727269890c62247debd615e7c57e27b8be",
+        "updated_at": "2026-10-24T08:51:00Z"
       },
       "last_updated_at": "2026-10-24T07:40:00Z"
     }
@@ -2716,5 +2722,5 @@
     "2026-10-24 07:45 +0800: recovered expired cycle 5, bypassed truncated main v6/empty v7 by restoring fully decodable v3, and produced/verified #109 Ptilopsis leucotis v8. A first edit still showed only an ankle cuff; second pass visibly extended pale-gray featherlets along proximal half of adult toes while retaining bare distal toes and black claws. Image commit c30565c893443b3af60c26f2a944e2add0f5be9d, Git blob 7fc34dbded1425bd469871fda9233380e77d109c. Batch advances to 5/6; unique species remains 157/251.",
     "2026-10-24 13:37 +0800: recovered expired batch cycle 1 and verified #159 Phodilus assimilis v2; preserved and registered orphan v1, shortened/down-softened the age-unknown juvenile's adult-like folded wing, and retained both-foot support, adults, labels and cavity habitat. Image commit 9757947a64bb371838b66b9e8c403b918c3cb356, Git blob 0c4d0df9eb914d37a6169aa419609180dc737225; verification commit d5fc38a7e9e6d8ef0de9b8d438199f08a72b8b19. Unique species remains 157/251; batch advances to 1/6, next_cycle 2."
   ],
-  "updated_at": "2026-10-24T08:34:00Z"
+  "updated_at": "2026-10-24T08:51:00Z"
 }

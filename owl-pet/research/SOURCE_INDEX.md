@@ -2789,3 +2789,5 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 - **Limits / confidence:** No juvenile development, breeding detail, fixed sex dimorphism or quantitative measurements. High confidence for adult identification direction only.
 - **Design decision:** Adult long tail and sparse ventral streaking retained; source not used to infer juvenile tail length or precise age.
 - **Related:** #152 v2 and the cycle-5 run record.
+
+| EEO-PEREGRINE-FUND-2026 | The Peregrine Fund, [Eurasian Eagle-owl species account](https://peregrinefund.org/explore-raptors-species/owls/eurasian-eagle-owl) | 页面现行版，访问2026-10-24 | 研究机构物种教育页 | *Bubo bubo*，初生至约7周 | Nestlings/young 段落 | 初生幼鸟为白色蓬松绒羽、深色喙，数日后睁眼；约7周或更早接近成体并准备飞行。 | 机构概述无逐日羽区图或样本方法；仅交叉支持早期白绒、深喙和不画成熟翼尾，具体10日龄形态仍以Penteriani等2005图3为主。可信度：中高。链接物种记录[03](../knowledge/species/03-bubo-bubo.md)与v10。 |

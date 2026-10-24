@@ -907,3 +907,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-23 #90 *Tyto furcata* v3: REVISION archived and visually reviewed. Right adult female display scale reduced from exaggerated perspective size to a modest difference over the male; darker/more spotted plumage retained. Exact pair ratio and juvenile calibration remain unknown, so `scientifically_verified=false`. Unique species remains 157/251. Image commit `4690cf7216ba8c1d573e8dfc3dbd79a2b2e488aa`; [run](production/runs/2026-10-23T1233+0800-cycle-1.md).
+
+
+- 2026-10-24 #110 *Megascops barbarus* v4: REVISION archived and visually reviewed. The center older juvenile's repeated embossed/tile-like upper-wing covert geometry is softer and lower-contrast while formed remiges, foot support, adults and labels remain. Residual fine arcs, exact age, sex scale and literal feather map remain unknown, so `scientifically_verified=false`. Unique species remains 157/251; manifest versions 290. Image commit `1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a`; [run](production/runs/2026-10-24T0828+0800-cycle-6.md).

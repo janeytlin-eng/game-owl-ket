@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T06:36:00+08:00",
+  "updated": "2026-10-25",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -2412,6 +2412,36 @@
       "scientifically_verified": false,
       "status": "Landscape v2; first draft juvenile had adult-length wing/tail, targeted edit shortened and softened wing and reduced tail while preserving white juvenile face and two-foot support. Exact age, feather sequence and sex ratio unknown.",
       "image_commit_sha": "90e00e0e9290d2c61d56e384275cfdca7581a7d4"
+    },
+    {
+      "id": "154-pseudoscops-grammicus-v1",
+      "path": "design/concepts/154-pseudoscops-grammicus-v1.png",
+      "species_id": 154,
+      "scientific_name": "Pseudoscops grammicus",
+      "common_name": "Jamaican Owl",
+      "version": 1,
+      "sha256": "78be19ebbefeab0c4bd90f3f43342ddc53dfe0e29c24f6491eda5fb55d0134f0",
+      "scientifically_verified": false,
+      "status": "Historical v1 recovered into manifest from verified 2026-10-22 cycle; 1254×1254 PNG with an age-unknown downy young in a supported cavity setting; no scientific pass.",
+      "run_record": "production/runs/2026-10-22T2051+0800-cycle-4.md",
+      "archive_commit": "c6ff15f2a7e147ae1c1fc567988a2737365ccdaf",
+      "image_git_blob": "ad3262e963e54c80ac40cce5574ce0ede7f89a6c"
+    },
+    {
+      "id": "154-pseudoscops-grammicus-v2",
+      "path": "design/concepts/154-pseudoscops-grammicus-v2.png",
+      "species_id": 154,
+      "scientific_name": "Pseudoscops grammicus",
+      "current_name": "Asio grammicus",
+      "common_name": "Jamaican Owl",
+      "version": 2,
+      "sha256": "e3b7cda44dc92ed804306404ad81c0a2ec57b718b3ce0d4faed02f22112099eb",
+      "scientifically_verified": false,
+      "status": "Landscape v2 full rebuild plus one targeted juvenile edit. Exactly three birds; adults retain dark brown eyes, prominent long ear tufts, rufous finely marked plumage and near-equal display scale. Center age-unknown older juvenile has gray-brown back, pale cinnamon-buff body, short rounded developing wings, concealed tail and two-foot support. Exact age, sequence, flight ability and fixed sex ratio remain unknown.",
+      "source_index": "research/SOURCE_INDEX.md#2026-10-25--154-jamaican-owl--pseudoscops-grammicus--asio-grammicus-v2",
+      "run_record": "production/runs/2026-10-25T0732+0800-cycle-4.md",
+      "archive_commit": "258d44965ce491ea931c3662cdf16ef150b4672b",
+      "image_git_blob": "cdb1b52e2ff006ac290ac3235db46366fa0c6281"
     }
   ]
 }

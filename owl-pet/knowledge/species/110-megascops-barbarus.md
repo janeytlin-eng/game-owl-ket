@@ -23,3 +23,12 @@ Targeted built-in edit actually generated and viewed. The center older juvenile'
 
 Sources: new `BSO-ENRIQUEZ-2010`; reused `BSO-EISERMANN-FIELD` and `BSO-CAYAYA-FIELD`. Image commit `1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a`; 2,918,099-byte PNG, 1536×1024 RGB; SHA-256 `178b40b2f92d7c253d574e50e0dd0157f27fcbbe5997d33e29e0c9f7d7ad69a8`; Git blob `246a75e73a234abf0c6ab227326ccc616564dcfd`.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a/owl-pet/design/concepts/110-megascops-barbarus-v4.png) · [Research, prompt and review](../../production/runs/2026-10-24T0828+0800-cycle-6.md)
+
+
+### #110 v5 · 2026-10-24
+
+Complete evidence-bounded rebuild after v4 retained low-contrast arcs. Initial v5 generation was actually viewed and rejected for an adult-length juvenile folded wing; one center-juvenile-only edit shortened and rounded the wing above the feet, concealed the tail and retained irregular low-contrast developing coverts plus two-foot support. Both adults, labels, oak cavity and pine–oak/cloud-forest context were rechecked. Exact day-age, continuous feather sequence, flight ability, fixed sex ratio and literal covert map remain unknown; `scientifically_verified=false`.
+
+New source `BSO-IUCN-2020` records the known natural cavity in a living oak with one approximately three-week grey-morph nestling; reused `BSO-EISERMANN-FIELD`, `BSO-CAYAYA-FIELD` and `BSO-ENRIQUEZ-2010`. Image commit `f7f294c061140a87f3bf41ca573eaa65f6c3dce0`; PNG 1536×1024 RGB, 2,911,924 bytes; SHA-256 `9c496e26754b5371d23a16976df6f0f555e3506d60979aae5bd60f22ecdbd59c`; Git blob `d249d08657d86feab1e36fc60746672e243f962d`.
+
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/f7f294c061140a87f3bf41ca573eaa65f6c3dce0/owl-pet/design/concepts/110-megascops-barbarus-v5.png) · [Research, prompts and review](../../production/runs/2026-10-24T1431+0800-cycle-2.md)

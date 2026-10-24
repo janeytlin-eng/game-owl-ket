@@ -2725,16 +2725,22 @@
           "commit_sha": "248c54b94840ced153bc208e41c7cf439e6e922e",
           "verification_commit": "a7a61b42561e4d8c3f63ee29022c698cf69adf6c",
           "run_record": "owl-pet/production/runs/2026-10-25T0030+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ptilopsis granti",
+          "species_id": 105,
+          "version": 6,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "0ba0703d7d08d65e65a3d10186c5e39e9e5f1c12",
+          "verification_commit": "a9b2b2fd03e8806590b31715195424f5f1bdc280",
+          "run_record": "owl-pet/production/runs/2026-10-25T0128+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "started_at": "2026-10-24T21:30:47+08:00",
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "2026-10-25T0128+0800-cycle-4",
-        "heartbeat_at": "2026-10-25T01:41:00+08:00",
-        "expires_at": "2026-10-25T01:56:00+08:00"
-      },
+      "lease": null,
       "last_checkpoint": {
         "cycle": 2,
         "stage": "STARTED",
@@ -2743,14 +2749,12 @@
       },
       "checkpoint": {
         "cycle": 4,
-        "stage": "REVIEWED",
+        "stage": "VERIFIED",
         "species": "Ptilopsis granti",
         "version": 6,
-        "run_id": "2026-10-25T0128+0800-cycle-4",
-        "at": "2026-10-25T01:41:00+08:00",
-        "review_commit": "bda399bd8d270f5bfcc89c07cf05260aca651c4b",
-        "sha256": "124cf8f94e9d9bc8cfa035a0b94477ae781d3f3f3ca5da47516029cba2593793",
-        "bytes": 3186999
+        "archive_commit": "0ba0703d7d08d65e65a3d10186c5e39e9e5f1c12",
+        "verification_commit": "a9b2b2fd03e8806590b31715195424f5f1bdc280",
+        "verified_at": "2026-10-25T01:48:00+08:00"
       }
     }
   ],

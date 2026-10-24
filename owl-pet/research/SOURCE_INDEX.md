@@ -2708,3 +2708,17 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 
 
 | SLBO-OWLPAGES-2020 | Deane Lewis / The Owl Pages, [Sri Lanka Bay Owl](https://www.owlpages.com/owls/species.php?s=280) | updated 2020-10-02; accessed 2026-10-24; specialist species synthesis | adult morphology, size, breeding/habitat | Actual description and breeding sections read: about 29 cm, short rounded wings, vinaceous-pink V-shaped facial disk, dark chestnut densely black/white-speckled upperparts, strongly barred wings/tail, pale buff spotted underparts; toes bare beyond buff-feathered legs; tree-hole breeding and young of very different sizes reported in November. | Secondary synthesis; no juvenile photograph, exact age, continuous feather map or quantified sex dimorphism. Supports retaining adult identity and only a conservative down-covered short developing juvenile wing. Confidence: medium-high for adult synthesis, low for exact juvenile geometry. |
+
+
+### BSO-IUCN-2020
+
+- **Title:** *Megascops barbarus* — Bearded Screech-owl
+- **Author / institution:** BirdLife International / IUCN Red List
+- **Year / accessed:** assessment 2020; accessed 2026-10-24
+- **URL:** https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22688807A180130085.en
+- **Source type:** authoritative conservation assessment synthesizing published natural-history sources
+- **Species / stage:** *Megascops barbarus*; nesting and approximately three-week nestling
+- **Read location / facts:** Habitat and Ecology: montane evergreen and humid pine–oak forest at 1,800–2,500 m; the known June 2001 nest was a natural cavity 2.45 m above ground in a living *Quercus laurina*, with an adult red-morph female brooding one grey-morph nestling estimated at three weeks.
+- **Limitations / confidence:** The assessment does not publish a continuous photographic feather sequence or literal covert map. “Grey morph” and estimated age do not justify neat repeated arcs, exact feather counts, flight ability or a fixed sex-size ratio. Confidence high for the cited nest context, medium for using the brief stage description to bound art.
+- **Design decision:** v5 may depict one grey-brown approximately three-week nestling/older juvenile in an oak-cavity/pine–oak setting, with soft irregular developing coverts and no mechanical scallop rows; any formed remiges must remain modest and stage-bounded.
+- **Related:** #110; `owl-pet/knowledge/species/110-megascops-barbarus.md`; `owl-pet/production/runs/2026-10-24T1431+0800-cycle-2.md`.

@@ -15,3 +15,13 @@ Adult crownspotted, mixed upperbreastpattern corrected; immature plainbrowncrown
 - Review: targeted support correction passed at 1536×1024.
 - Archive: image commit `2e18e7462b5edebbe4139c57e7ebdbccfbcc8c9b`; Git blob `ae4dc3a63da40c8c3d4af13003ed2f3be76dd4b0`; SHA-256 `15273b11222176e5d7f0b3ad188481717e7b6b94445bac727d0b9878b0123253`.
 - Scientific status: **concept reviewed, not science-verified**. Exact immature age, soft-part colors, wing/tail sequence and quantified sex ratio remain unknown.
+
+
+## v4 adult chest-boundary and immature-stage revision — 2026-10-25
+
+- Image: [144-ninox-spilocephala-v4.png](../../design/concepts/144-ninox-spilocephala-v4.png)
+- Trigger: a fresh check against Cornell/eBird's current diagnosis required an explicit reddish-brown upper chest with no white chest patch; v3 also had never been registered in the manifest.
+- Evidence: reused `LZBO-RASMUSSEN-2012-LEAD`, `MINBOO-EBIRD-ID-2026`, and `MINBOO-AVIBASE-TAXON-2026`; fresh page reading recorded in `MINBOO-REUSE-2026-10-25`.
+- Generation/review: initial v4 failed because white rose into the adult chest and the immature wing/tail looked too mature. A targeted edit recolored both adult upper chests reddish-brown, restricted white to the streaked lower belly, shortened/rounded the central wing and reduced exposed tail. Final 1536×1024 RGB PNG passed structural review with three birds, correct text and all six feet supported.
+- Uncertainty: exact immature age, soft parts, continuous feather sequence, locomotor ability and quantified sex ratio remain unknown; scientifically_verified=false.
+- SHA-256: `719110e5a086fbf7b3a830d47c970ecfe7a36a9a6a631765e0137eef3b6432b6`.

@@ -2824,3 +2824,30 @@ Cycle2 re-read RBO-GREENEY-2003 full text pp.67–68 and reused RBO-SCHERZINGER-
 - **Limitations / confidence:** Male specimen comparison does not define female differences, juvenile stages, a universal crown tone or exact hind-crown feather geometry. High confidence for examined specimens and habitat; not a continuous development study.
 - **Design decision:** Use mossy epiphyte-rich cloud forest and allow restrained crown/nape variation. Do not turn one specimen's pale hind-crown feathers into a universal broad cap or infer a fixed sex ratio.
 - **Related:** #128; `owl-pet/knowledge/species/128-megascops-marshalli.md`; `owl-pet/production/runs/2026-10-25T0230+0800-cycle-5.md`.
+
+
+### MLO-EBIRD2026 — Madagascar Owl identification and habitat
+- Stable ID: MLO-EBIRD2026
+- Title: Madagascar Owl — Asio madagascariensis
+- Author/institution: Cornell Lab of Ornithology / eBird
+- Date: current account; accessed 2026-10-25
+- URL: https://ebird.org/species/mleowl1
+- Type: institutional species account; current identification and habitat context
+- Taxon/stage: Asio madagascariensis; adults; Madagascar range/habitat
+- Read evidence: account text directly read; fairly large brown owl with long ear tufts, locally in multiple forest types and sometimes scrub/plantations; high-tree roosting; pale chest with fine streaks.
+- Limits/conflicts: no juvenile age, feather sequence, measurements or sex-linked plumage; not used to infer young morphology or fixed sex ratio.
+- Design decision: retain long tufts, forest-edge context and sparse fine adult chest/belly streaking; pair with primary chapter and dated juvenile photograph.
+- Linked record: ../production/runs/2026-10-25T0331+0800-cycle-6.md; ../design/concepts/104-asio-madagascariensis-v2.png
+
+### MLO-FWS2026 — current taxon record
+- Stable ID: MLO-FWS2026
+- Title: Madagascar Long-eared Owl (Asio madagascariensis)
+- Author/institution: U.S. Fish & Wildlife Service
+- Date: current record; accessed 2026-10-25
+- URL: https://www.fws.gov/species/madagascar-long-eared-owl-asio-madagascariensis
+- Type: government taxonomy record
+- Taxon/stage: Asio madagascariensis; species-level identity
+- Read evidence: current scientific name and placement in genus Asio.
+- Limits/conflicts: no usable morphology, sex, juvenile-development or nest detail; taxonomy support only.
+- Design decision: confirms current combination; historical Otus Madagascariensis remains an old-name mapping, not another species.
+- Linked record: ../production/runs/2026-10-25T0331+0800-cycle-6.md

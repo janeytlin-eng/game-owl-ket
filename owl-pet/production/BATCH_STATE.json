@@ -2527,7 +2527,7 @@
     },
     {
       "batch_id": "2026-10-23T2329+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -2574,24 +2574,26 @@
           "commit_sha": "c30565c893443b3af60c26f2a944e2add0f5be9d",
           "verification_commit": "98902b85f5714bc06470e6d6bcbfbf3caaae9bc4",
           "run_record": "owl-pet/production/runs/2026-10-24T0530+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops barbarus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a",
+          "verification_commit": "e71c1eaadfaf846162f4ac07fdb4bc2aedfad021",
+          "run_record": "owl-pet/production/runs/2026-10-24T0828+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-23T15:29:58Z",
-      "lease": {
-        "owner": "owl-production",
-        "run_id": "2026-10-24T0828+0800-cycle-6",
-        "heartbeat_at": "2026-10-24T08:40:00+08:00",
-        "expires_at": "2026-10-24T08:55:00+08:00",
-        "cycle": 6,
-        "species": "Megascops barbarus"
-      },
+      "lease": null,
       "last_checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "2026-10-24T0828+0800-cycle-6",
-        "at": "2026-10-24T08:40:00+08:00",
-        "evidence": "image commit 1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a; blob 246a75e73a234abf0c6ab227326ccc616564dcfd"
+        "at": "2026-10-24T08:43:00+08:00",
+        "evidence": "verification commit e71c1eaadfaf846162f4ac07fdb4bc2aedfad021; image commit 1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a"
       }
     }
   ],

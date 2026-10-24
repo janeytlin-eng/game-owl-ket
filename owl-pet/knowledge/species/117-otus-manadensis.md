@@ -30,3 +30,11 @@ Actual v5 orphan was preserved and used as the edit base. Draft1 failed review b
 Sources new2/reused2/corrected0: `SLSO-EBIRD-JUV-2026`, `SLSO-OISEAUX-JUV-2026`; reused `SLSO-MANAHAMPI-2012`, `SLSO-MIK2013-194`. Image commit `2e4c2d0e711babef80174973f11473a7d8f44a6a`; 1536×1024 sRGB PNG, 2,706,476 bytes; SHA-256 `1660e343fb41401a7c947257c7d7c5525b9241d3f90eb9acd40420480c5aa1ff`; Git blob `c01cab0327842f1b7cfbfbe3ea69a7bace350227`, local and immutable remote blob match. Unique species remains 157/251.
 
 [Original](../../design/concepts/117-otus-manadensis-v6.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-23T1134+0800-cycle-6.md)
+
+
+## ARCHIVED 2026-10-24 — 117-otus-manadensis-v7
+Complete evidence-bounded rebuild followed by one actual targeted edit/view. The center older juvenile's repeated horizontal scallop-like ventral bands were replaced with irregular diffuse gray-brown mottling; folded wings were shortened and rounded to end above the branch, with a modest tail and visible two-foot support. Adults, yellow eyes, ear tufts, labels and Sulawesi forest context were retained. Exact age, continuous wing/tail sequence, flight ability, fixed sex ratio and literal ventral feather map remain unknown; `scientifically_verified=false`.
+
+Sources new2/reused3/corrected0: `SLSO-FWS-TAXONOMY-2026`, `SLSO-AVIBASE-2026`; reused `SLSO-MANAHAMPI-2012`, `SLSO-MIK2013-194`, `SLSO-EBIRD-JUV-2026`. Image commit `c4d11f90f2d37228e584fd1f44afbbad54e76997`; 1536×1024 PNG, 3,004,874 bytes; SHA-256 `4b787e10b181ddaa73a1fc830c0526e94ac5f6f8a3a992b5ea40a5881e43c622`; Git blob `5e84ae7b292874b4a83b25238c8113eb2bdbdc52`. Unique species remains 157/251.
+
+[Original](../../design/concepts/117-otus-manadensis-v7.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-24T1535+0800-cycle-3.md)

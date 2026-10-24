@@ -24,3 +24,14 @@ The first plate was inspected and the juvenile's visible wing was too long, laye
 - Image commit: `91224bc8829ec3a5b287158871c2b8b819a90bcb`
 - Git blob: `2f79978b667e9dcc1aecb744c4a36cf048df39ef`
 - scientifically_verified: false
+
+## v2 recovery revision — 2026-10-24
+
+Freshly read evidence reused `SLBO-FWS-TAX-2026` and corrected `SLBO-CBC-NEST-2007`; new source `SLBO-OWLPAGES-2020` was added to the central source index. The adult morphology and tree-cavity setting remain supported, but a continuous species-specific juvenile feather sequence was not found.
+
+Actual v1 inspection found the age-unknown juvenile's folded wing too long and adult-like. The v2 targeted edit shortens and rounds that wing, increases down cover, hides any long tail and preserves both-foot support, the two adults, labels and habitat. Residual short muted feather tips are retained as an age-unknown developing wing. Exact age, flight ability, continuous feather sequence and fixed sex ratio remain unknown; `scientifically_verified: false`.
+
+- Image: [159-phodilus-assimilis-v2.png](../../design/concepts/159-phodilus-assimilis-v2.png)
+- Image commit: `9757947a64bb371838b66b9e8c403b918c3cb356`
+- Git blob: `0c4d0df9eb914d37a6169aa419609180dc737225`
+- Run: [2026-10-24T0933+0800-cycle-1.md](../../production/runs/2026-10-24T0933+0800-cycle-1.md)

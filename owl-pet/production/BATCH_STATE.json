@@ -2605,17 +2605,17 @@
       "lease": {
         "owner": "owl-production",
         "run_id": "2026-10-24T0933+0800-cycle-1",
-        "heartbeat_at": "2026-10-24T09:40:00+08:00",
-        "expires_at": "2026-10-24T09:55:00+08:00",
+        "heartbeat_at": "2026-10-24T13:35:00+08:00",
+        "expires_at": "2026-10-24T13:50:00+08:00",
         "cycle": 1,
         "species": "Phodilus assimilis"
       },
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "2026-10-24T0933+0800-cycle-1",
-        "at": "2026-10-24T09:42:00+08:00",
-        "evidence": "owl-pet/production/runs/2026-10-24T0933+0800-cycle-1.md"
+        "at": "2026-10-24T13:35:00+08:00",
+        "evidence": "image commit 9757947a64bb371838b66b9e8c403b918c3cb356; manifest commit 348b7cd44ff3419693f97deba8468863c6ebe43a; run owl-pet/production/runs/2026-10-24T0933+0800-cycle-1.md"
       }
     }
   ],
@@ -2684,5 +2684,5 @@
     "2026-10-23 22:38 +0800: batch cycle 6 revised and verified #93 Aegolius harrisii v2; duplicate second chick was removed so the production unit now contains exactly one early-stage, closed-eye, securely supported nestling with sparse natal down and no mature remiges or tail. Image commit 8f1091e5912b0fa54cd62ad8159e44f9933ffb17, Git blob 9679daadaf43d7161be13ce7171b7cfa7e4fe83c; verification commit 514f4a859c576e680368e8bb9d1edbd1e184a282. Batch complete 6/6; unique species total remains 157/251.",
     "2026-10-24 07:45 +0800: recovered expired cycle 5, bypassed truncated main v6/empty v7 by restoring fully decodable v3, and produced/verified #109 Ptilopsis leucotis v8. A first edit still showed only an ankle cuff; second pass visibly extended pale-gray featherlets along proximal half of adult toes while retaining bare distal toes and black claws. Image commit c30565c893443b3af60c26f2a944e2add0f5be9d, Git blob 7fc34dbded1425bd469871fda9233380e77d109c. Batch advances to 5/6; unique species remains 157/251."
   ],
-  "updated_at": "2026-10-24T00:31:00Z"
+  "updated_at": "2026-10-24T05:35:00Z"
 }

@@ -2798,3 +2798,15 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 
 ### RBO-2026-10-24-REUSE-NOTE
 Cycle2 re-read RBO-GREENEY-2003 full text pp.67–68 and reused RBO-SCHERZINGER-1986 p.41. Greeney directly supports a yellow-cream down juvenile roosting beside an adult at the base of tree-fern leaves about 4 m high in disturbed primary forest with Chusquea bamboo, but gives no iris colour, age or wing sequence. Scherzinger's adult-head comparison explicitly describes *Strix albitarsis* as having a dark eye in a dark facial field and warns of an erroneous historical drawing. Current secondary pages/search snippets variously say orange/yellow; because their underlying specimen/sample and lighting are not resolved in the accessible text, this cycle treats conspicuous amber as unsupported and uses a very dark brown iris without claiming universal calibrated colour. Stable source IDs reused: RBO-GREENEY-2003, RBO-SCHERZINGER-1986. Accessed 2026-10-24. This is a correction note, not a new source entry.
+
+
+### SWFO-SABISABI-2014
+- **Title / institution:** Sabi Sabi Wild Facts: Southern White Faced Scops Owl / Sabi Sabi Private Game Reserve
+- **Published / accessed:** 2014-12-16 / 2026-10-25
+- **URL:** https://www.sabisabi.com/discover/wild-facts/white-faced-scops-owl
+- **Source type:** field-site institutional species account; full page read
+- **Species / stage:** *Ptilopsis granti*; adults, juveniles and fledging
+- **Read location / facts:** lines 220–235. Juveniles are described with greyish facial plumage and yellow eyes; young begin flying at roughly 33 days. The account describes dry woodland, thornveld and riverine forest, and use of old stick nests or natural tree holes.
+- **Limitations / confidence:** Secondary field account without sample size, measured feather sequence or a dated juvenile photo series. It cannot establish exact age, covert geometry, toe-feather count or fixed sex ratio. Confidence medium for broad stage and habitat direction.
+- **Design decision:** Supports a grey-faced, yellow-grey-eyed older juvenile in dry woodland with formed but not adult-like wings; exact age remains unknown and mechanical repeated covert arcs are not evidence-supported.
+- **Related:** #105; `owl-pet/knowledge/species/105-ptilopsis-granti.md`; `owl-pet/production/runs/2026-10-25T0128+0800-cycle-4.md`.

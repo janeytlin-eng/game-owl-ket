@@ -2698,24 +2698,29 @@
       "lease": {
         "owner": "owl-pet-production",
         "run_id": "2026-10-24T2130+0800-cycle-1",
-        "heartbeat_at": "2026-10-24T21:32:00+08:00",
-        "expires_at": "2026-10-24T21:47:00+08:00"
+        "heartbeat_at": "2026-10-24T21:36:00+08:00",
+        "expires_at": "2026-10-24T21:51:00+08:00"
       },
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "2026-10-24T2130+0800-cycle-1",
-        "at": "2026-10-24T21:32:00+08:00",
+        "at": "2026-10-24T21:36:00+08:00",
         "species": "Strix chacoensis",
-        "target_version": 3
+        "target_version": 3,
+        "source_ids": [
+          "CHAO-NBO-2013",
+          "CHAO-FWS-TAXON-2026"
+        ],
+        "prompt_saved": true
       }
     }
   ],
   "lease": {
     "owner": "owl-pet-production",
     "run_id": "2026-10-24T2130+0800-cycle-1",
-    "heartbeat_at": "2026-10-24T21:32:00+08:00",
-    "expires_at": "2026-10-24T21:47:00+08:00"
+    "heartbeat_at": "2026-10-24T21:36:00+08:00",
+    "expires_at": "2026-10-24T21:51:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -2783,5 +2788,5 @@
     "2026-10-24 13:37 +0800: recovered expired batch cycle 1 and verified #159 Phodilus assimilis v2; preserved and registered orphan v1, shortened/down-softened the age-unknown juvenile's adult-like folded wing, and retained both-foot support, adults, labels and cavity habitat. Image commit 9757947a64bb371838b66b9e8c403b918c3cb356, Git blob 0c4d0df9eb914d37a6169aa419609180dc737225; verification commit d5fc38a7e9e6d8ef0de9b8d438199f08a72b8b19. Unique species remains 157/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle."
   ],
-  "updated_at": "2026-10-24T21:32:00+08:00"
+  "updated_at": "2026-10-24T21:36:00+08:00"
 }

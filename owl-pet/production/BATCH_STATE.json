@@ -2825,16 +2825,18 @@
       ],
       "next_cycle": 4,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": null,
+      "lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-25T0732+0800-cycle-4",
+        "heartbeat_at": "2026-10-25T07:34:00+08:00",
+        "expires_at": "2026-10-25T07:49:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Jubula lettii",
-        "run_id": "2026-10-25T0627+0800-cycle-3",
-        "at": "2026-10-25T06:39:00+08:00",
-        "archive_commit": "90e00e0e9290d2c61d56e384275cfdca7581a7d4",
-        "image_blob": "ef38317413308decb2c39e34ed6c1eaad81c6136",
-        "verification_commit": "3e44ecaf08ef975ec3153d3ebfb11c4888f18e9b"
+        "cycle": 4,
+        "stage": "STARTED",
+        "species": "Pseudoscops grammicus",
+        "run_id": "2026-10-25T0732+0800-cycle-4",
+        "at": "2026-10-25T07:34:00+08:00"
       }
     }
   ],

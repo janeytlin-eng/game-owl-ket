@@ -2718,7 +2718,12 @@
       ],
       "next_cycle": 3,
       "started_at": "2026-10-24T21:30:47+08:00",
-      "lease": null,
+      "lease": {
+        "owner": "automation-production",
+        "run_id": "2026-10-25T0030+0800-cycle-3",
+        "heartbeat_at": "2026-10-25T00:36:00+08:00",
+        "expires_at": "2026-10-25T00:51:00+08:00"
+      },
       "last_checkpoint": {
         "cycle": 2,
         "stage": "STARTED",
@@ -2808,9 +2813,14 @@
     "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle.",
     "2026-10-24 21:44 +0800: new batch cycle 1 #98 Strix chacoensis reached REVIEWED after one rebuild and two toe-feather edits, but environment became unavailable during PNG base64/upload preparation. No archive credit; lease released; next_cycle remains 1. Research/index commit 05c0e0d is durable."
   ],
-  "updated_at": "2026-10-24T23:42:00+08:00",
+  "updated_at": "2026-10-25T00:36:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251."
   ],
-  "active_lease": null
+  "active_lease": {
+    "owner": "automation-production",
+    "run_id": "2026-10-25T0030+0800-cycle-3",
+    "heartbeat_at": "2026-10-25T00:36:00+08:00",
+    "expires_at": "2026-10-25T00:51:00+08:00"
+  }
 }

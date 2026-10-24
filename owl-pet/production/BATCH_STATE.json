@@ -2698,18 +2698,19 @@
       "lease": {
         "owner": "owl-pet-production",
         "run_id": "2026-10-24T2130+0800-cycle-1",
-        "heartbeat_at": "2026-10-24T21:47:00+08:00",
-        "expires_at": "2026-10-24T22:02:00+08:00"
+        "heartbeat_at": "2026-10-24T21:52:00+08:00",
+        "expires_at": "2026-10-24T22:07:00+08:00"
       },
       "last_checkpoint": {
         "cycle": 1,
         "stage": "ARCHIVED",
         "run_id": "2026-10-24T2130+0800-cycle-1",
-        "at": "2026-10-24T21:47:00+08:00",
+        "at": "2026-10-24T21:52:00+08:00",
         "species": "Strix chacoensis",
-        "version": 3,
+        "version": 4,
         "image_git_blob": "ed6b0b56834b11908dbef0e32420634fae3c43cf",
         "sha256": "c0660119d649aa2335d0a006b69ae09d948dfe3ec4753157d790c7761cafe3d5",
+        "historical_v3_restored_blob": "d8be5fa06db1d9dc7c95b2dec2b7df7d07f82cfe",
         "verification_pending": true
       }
     }
@@ -2717,8 +2718,8 @@
   "lease": {
     "owner": "owl-pet-production",
     "run_id": "2026-10-24T2130+0800-cycle-1",
-    "heartbeat_at": "2026-10-24T21:47:00+08:00",
-    "expires_at": "2026-10-24T22:02:00+08:00"
+    "heartbeat_at": "2026-10-24T21:52:00+08:00",
+    "expires_at": "2026-10-24T22:07:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -2787,5 +2788,5 @@
     "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle.",
     "2026-10-24 21:44 +0800: new batch cycle 1 #98 Strix chacoensis reached REVIEWED after one rebuild and two toe-feather edits, but environment became unavailable during PNG base64/upload preparation. No archive credit; lease released; next_cycle remains 1. Research/index commit 05c0e0d is durable."
   ],
-  "updated_at": "2026-10-24T21:47:00+08:00"
+  "updated_at": "2026-10-24T21:52:00+08:00"
 }

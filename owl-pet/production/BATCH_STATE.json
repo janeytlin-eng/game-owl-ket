@@ -2640,23 +2640,31 @@
           "image_commit_sha": "4d0ea89ed2507a46fca1ec4a12b895ad0b766674",
           "commit_sha": "369087727269890c62247debd615e7c57e27b8be",
           "run_record": "owl-pet/production/runs/2026-10-24T1630+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Uroglaux dimorpha",
+          "species_id": 152,
+          "action": "REVISION",
+          "version": 2,
+          "unique_increment": 0,
+          "image_commit_sha": "88dc00b9b8a71468bb28808230972f7d003d9d25",
+          "commit_sha": "b5bf517ff791ea818439395feafcf65ebcb44871",
+          "run_record": "owl-pet/production/runs/2026-10-24T1830+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
-      "lease": {
-        "owner": "flora-codex",
-        "run_id": "2026-10-24T1830+0800-cycle-5",
-        "heartbeat_at": "2026-10-24T18:32:00+08:00",
-        "expires_at": "2026-10-24T18:47:00+08:00"
-      },
+      "next_cycle": 6,
+      "lease": null,
       "last_checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
-        "species": null,
+        "stage": "VERIFIED",
+        "species": "Uroglaux dimorpha",
         "run_id": "2026-10-24T1830+0800-cycle-5",
-        "updated_at": "2026-10-24T18:32:00+08:00"
+        "image_commit_sha": "88dc00b9b8a71468bb28808230972f7d003d9d25",
+        "verification_commit_sha": "b5bf517ff791ea818439395feafcf65ebcb44871",
+        "updated_at": "2026-10-24T18:44:00+08:00"
       },
-      "last_updated_at": "2026-10-24T18:32:00+08:00"
+      "last_updated_at": "2026-10-24T18:44:00+08:00"
     }
   ],
   "lease": null,

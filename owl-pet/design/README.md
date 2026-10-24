@@ -772,3 +772,9 @@ Recovery revision preserves the previously orphaned v1 and registers both versio
 状态：约10日龄幼鸟白绒闭环/钩针状重复纹理重建修订；实际查看通过，待科学校准。历史 v10 已从父提交逐字节恢复，本图另存 v11，旧版及历史确认保留且不自动转移。
 
 ![03-bubo-bubo-v11](concepts/03-bubo-bubo-v11.png)
+
+
+## #98 · Chaco Owl — *Strix chacoensis* v3
+[Original PNG](concepts/98-strix-chacoensis-v3.png) · [cycle record](../production/runs/2026-10-24T2130+0800-cycle-1.md)
+
+Revision resolves the documented bill and proximal-toe boundary direction: yellowish bill/cere, blackish-brown irises, and pale featherlets continuing onto the proximal toe shafts while distal toes and claws remain bare. The older juvenile retains short rounded formed wings and supported feet. Exact age, feather sequence, toe-feather count and fixed sex ratio remain pending; scientific verification is false.

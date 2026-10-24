@@ -2880,3 +2880,13 @@ Cycle2 re-read RBO-GREENEY-2003 full text pp.67–68 and reused RBO-SCHERZINGER-
 - Limits: no juvenile age, continuous feather sequence, sex measurements, nest dimensions or locomotor milestone. Confidence high for adult identification direction, not development.
 - Decision: supports adult mane silhouette, palette and liana-rich rainforest; juvenile remains bounded by MANED-ML-531449801-2023.
 - Related: #153 v2 and `owl-pet/production/runs/2026-10-25T0627+0800-cycle-3.md`.
+
+
+## 2026-10-25 · #154 Jamaican Owl — *Pseudoscops grammicus* / *Asio grammicus* v2
+
+| Stable ID | Source | Accessed | Type/stage | Evidence actually read | Limits and design use |
+|---|---|---|---|---|---|
+| JAM-EBIRD-2026 | Cornell Lab eBird, [Jamaican Owl / *Asio grammicus*](https://ebird.org/species/jamowl1) | 2026-10-25 | institution species account; adult/habitat | Medium-large nocturnal wooded-area owl; prominent ear tufts distinguish it from Barn Owl; roosts in cavities or dense foliage. | No sex measurements or juvenile chronology; supports habitat and adult silhouette only. |
+| JAM-AVIBASE-2026 | Avibase, [*Asio grammicus* taxonomic concept](https://avibase.bsc-eoc.org/species.jsp?avibaseid=F85D5EC3722EC714) | 2026-10-25 | checklist/taxonomic crosswalk; all stages | Documents protonym *Ephialtes grammicus*, historical *Pseudoscops grammicus*, and current Clements/AviList use of *Asio grammicus*. | Taxonomic mapping only; does not support plumage or development. |
+
+Reused: JAM-PEREGRINE-2026, JAM-HOYER-BIRDSEYE, JAM-BIRDLIFE-2026 and the verified v1 run record. Adult dark eyes, rufous finely marked plumage, edged facial disc and long ear tufts are retained. The v2 center bird uses the described light gray-brown back and pale cinnamon-buff juvenile direction, but exact age, continuous feather sequence, flight ability and fixed sex-size difference remain unknown. Design inference: use an age-unknown older mobile juvenile with short rounded developing wings and concealed tail. Linked image: `design/concepts/154-pseudoscops-grammicus-v2.png`; run: `production/runs/2026-10-25T0732+0800-cycle-4.md`.

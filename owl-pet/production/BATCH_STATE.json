@@ -2799,22 +2799,30 @@
           "commit_sha": "35d48a0b45817c14dbab044e28957bfeafde7e0c",
           "verification_commit": "171e042ec8e79a1a7063a93273414bfdf4996ae0",
           "run_record": "owl-pet/production/runs/2026-10-25T0431+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox spilocephala",
+          "species_id": 144,
+          "version": 4,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1a43d9e5b2956c1c727b45fd6504c05493177b59",
+          "verification_commit": null,
+          "run_record": "owl-pet/production/runs/2026-10-25T0532+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "2026-10-25T0532+0800-cycle-2",
-        "heartbeat_at": "2026-10-25T05:42:00+08:00",
-        "expires_at": "2026-10-25T05:57:00+08:00"
-      },
+      "lease": null,
       "checkpoint": {
         "cycle": 2,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Ninox spilocephala",
         "run_id": "2026-10-25T0532+0800-cycle-2",
-        "at": "2026-10-25T05:42:00+08:00"
+        "at": "2026-10-25T05:45:00+08:00",
+        "archive_commit": "1a43d9e5b2956c1c727b45fd6504c05493177b59",
+        "image_blob": "c319c7cb7bf7b7271f16684018776a24d7950b82"
       }
     }
   ],

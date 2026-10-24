@@ -2810,22 +2810,30 @@
           "commit_sha": "1a43d9e5b2956c1c727b45fd6504c05493177b59",
           "verification_commit": "c79fffd677ba01884dfe17cf7210621afc4bfed2",
           "run_record": "owl-pet/production/runs/2026-10-25T0532+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Jubula lettii",
+          "species_id": 153,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "90e00e0e9290d2c61d56e384275cfdca7581a7d4",
+          "verification_commit": null,
+          "run_record": "owl-pet/production/runs/2026-10-25T0627+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "2026-10-25T0627+0800-cycle-3",
-        "heartbeat_at": "2026-10-25T06:36:00+08:00",
-        "expires_at": "2026-10-25T06:51:00+08:00"
-      },
+      "lease": null,
       "checkpoint": {
         "cycle": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Jubula lettii",
         "run_id": "2026-10-25T0627+0800-cycle-3",
-        "at": "2026-10-25T06:36:00+08:00"
+        "at": "2026-10-25T06:39:00+08:00",
+        "archive_commit": "90e00e0e9290d2c61d56e384275cfdca7581a7d4",
+        "image_blob": "ef38317413308decb2c39e34ed6c1eaad81c6136"
       }
     }
   ],

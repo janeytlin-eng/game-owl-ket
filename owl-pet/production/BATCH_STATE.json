@@ -2732,8 +2732,8 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "2026-10-25T0128+0800-cycle-4",
-        "heartbeat_at": "2026-10-25T01:28:27+08:00",
-        "expires_at": "2026-10-25T01:43:27+08:00"
+        "heartbeat_at": "2026-10-25T01:36:00+08:00",
+        "expires_at": "2026-10-25T01:51:00+08:00"
       },
       "last_checkpoint": {
         "cycle": 2,
@@ -2743,10 +2743,12 @@
       },
       "checkpoint": {
         "cycle": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Ptilopsis granti",
         "run_id": "2026-10-25T0128+0800-cycle-4",
-        "at": "2026-10-25T01:28:27+08:00"
+        "at": "2026-10-25T01:36:00+08:00",
+        "research_commit": "f46acd3cd9aee0ff484c276a9699c1fb52bd6e94",
+        "source_index_commit": "6776627d00bb97c0d0778075d3e2390edfa62ab5"
       }
     }
   ],

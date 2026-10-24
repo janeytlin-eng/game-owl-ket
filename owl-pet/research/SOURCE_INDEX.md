@@ -2810,3 +2810,17 @@ Cycle2 re-read RBO-GREENEY-2003 full text pp.67–68 and reused RBO-SCHERZINGER-
 - **Limitations / confidence:** Secondary field account without sample size, measured feather sequence or a dated juvenile photo series. It cannot establish exact age, covert geometry, toe-feather count or fixed sex ratio. Confidence medium for broad stage and habitat direction.
 - **Design decision:** Supports a grey-faced, yellow-grey-eyed older juvenile in dry woodland with formed but not adult-like wings; exact age remains unknown and mechanical repeated covert arcs are not evidence-supported.
 - **Related:** #105; `owl-pet/knowledge/species/105-ptilopsis-granti.md`; `owl-pet/production/runs/2026-10-25T0128+0800-cycle-4.md`.
+
+
+### MARS-HERZOG-2009
+- **Title:** Vocalizations, Distribution, and Ecology of the Cloud-Forest Screech Owl (*Megascops marshalli*)
+- **Authors:** Sebastian K. Herzog et al.
+- **Year / journal:** 2009, *The Wilson Journal of Ornithology* 121(2):240–252
+- **DOI / URL:** https://doi.org/10.1676/08-041.1 ; author full text read at https://www.researchgate.net/publication/224825121_Vocalizations_Distribution_and_Ecology_of_the_Cloud-Forest_Screech_Owl_Megascops_marshalli
+- **Accessed:** 2026-10-25
+- **Source type:** peer-reviewed field, specimen-comparison and vocalization study; full text read
+- **Species / stage:** *M. marshalli* adults/specimens and habitat; no juvenile developmental series
+- **Read location / facts:** abstract pp.240–241; specimen comparison and Fig.2 around pp.243–244. Confirms a Bolivian specimen by direct comparison with Peruvian material; three illustrated males show dorsal geographic/individual variation, with the Bolivian crown/nape darker than Peruvian paratypes. Preferred habitat is pristine to slightly disturbed wet montane forest with dense understory and abundant epiphytes, recorded at 1,550–2,580 m.
+- **Limitations / confidence:** Male specimen comparison does not define female differences, juvenile stages, a universal crown tone or exact hind-crown feather geometry. High confidence for examined specimens and habitat; not a continuous development study.
+- **Design decision:** Use mossy epiphyte-rich cloud forest and allow restrained crown/nape variation. Do not turn one specimen's pale hind-crown feathers into a universal broad cap or infer a fixed sex ratio.
+- **Related:** #128; `owl-pet/knowledge/species/128-megascops-marshalli.md`; `owl-pet/production/runs/2026-10-25T0230+0800-cycle-5.md`.

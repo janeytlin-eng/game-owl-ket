@@ -2832,22 +2832,31 @@
           "commit_sha": "258d44965ce491ea931c3662cdf16ef150b4672b",
           "verification_commit": "ef19cb16a931f3be00731da64a9a83833b50d2a1",
           "run_record": "owl-pet/production/runs/2026-10-25T0732+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Scotopelia ussheri",
+          "species_id": 155,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "4ac56a7c136cbbf0321b9fabaf5020cb63a35d09",
+          "verification_commit": "59096efdb167c46c56d9d96303781023ed9dd817",
+          "run_record": "owl-pet/production/runs/2026-10-25T0749+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-25T0749+0800-cycle-5",
-        "heartbeat_at": "2026-10-25T07:49:00+08:00",
-        "expires_at": "2026-10-25T08:04:00+08:00"
-      },
+      "lease": null,
       "checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "VERIFIED",
         "species": "Scotopelia ussheri",
         "run_id": "2026-10-25T0749+0800-cycle-5",
-        "at": "2026-10-25T07:49:00+08:00"
+        "at": "2026-10-25T07:56:00+08:00",
+        "archive_commit": "4ac56a7c136cbbf0321b9fabaf5020cb63a35d09",
+        "image_blob": "f36e55deddee201289510843d626c4f767578068",
+        "verification_commit": "59096efdb167c46c56d9d96303781023ed9dd817"
       }
     }
   ],

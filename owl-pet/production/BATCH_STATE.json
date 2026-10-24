@@ -2687,9 +2687,36 @@
         "integrity_repair_verification_commit": "3a7be35f4f60c730f514ea2f481d420772a7d626"
       },
       "last_updated_at": "2026-10-24T20:34:00+08:00"
+    },
+    {
+      "batch_id": "2026-10-24T2130+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "started_at": "2026-10-24T21:30:47+08:00",
+      "lease": {
+        "owner": "owl-pet-production",
+        "run_id": "2026-10-24T2130+0800-cycle-1",
+        "heartbeat_at": "2026-10-24T21:32:00+08:00",
+        "expires_at": "2026-10-24T21:47:00+08:00"
+      },
+      "last_checkpoint": {
+        "cycle": 1,
+        "stage": "STARTED",
+        "run_id": "2026-10-24T2130+0800-cycle-1",
+        "at": "2026-10-24T21:32:00+08:00",
+        "species": "Strix chacoensis",
+        "target_version": 3
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "owl-pet-production",
+    "run_id": "2026-10-24T2130+0800-cycle-1",
+    "heartbeat_at": "2026-10-24T21:32:00+08:00",
+    "expires_at": "2026-10-24T21:47:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2756,5 +2783,5 @@
     "2026-10-24 13:37 +0800: recovered expired batch cycle 1 and verified #159 Phodilus assimilis v2; preserved and registered orphan v1, shortened/down-softened the age-unknown juvenile's adult-like folded wing, and retained both-foot support, adults, labels and cavity habitat. Image commit 9757947a64bb371838b66b9e8c403b918c3cb356, Git blob 0c4d0df9eb914d37a6169aa419609180dc737225; verification commit d5fc38a7e9e6d8ef0de9b8d438199f08a72b8b19. Unique species remains 157/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle."
   ],
-  "updated_at": "2026-10-24T20:36:00+08:00"
+  "updated_at": "2026-10-24T21:32:00+08:00"
 }

@@ -2803,15 +2803,18 @@
       ],
       "next_cycle": 2,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": null,
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-25T0532+0800-cycle-2",
+        "heartbeat_at": "2026-10-25T05:34:00+08:00",
+        "expires_at": "2026-10-25T05:49:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "species": "Otus manadensis",
-        "run_id": "2026-10-25T0431+0800-cycle-1",
-        "at": "2026-10-25T04:48:00+08:00",
-        "archive_commit": "35d48a0b45817c14dbab044e28957bfeafde7e0c",
-        "verification_commit": "171e042ec8e79a1a7063a93273414bfdf4996ae0"
+        "cycle": 2,
+        "stage": "STARTED",
+        "species": "Ninox spilocephala",
+        "run_id": "2026-10-25T0532+0800-cycle-2",
+        "at": "2026-10-25T05:34:00+08:00"
       }
     }
   ],

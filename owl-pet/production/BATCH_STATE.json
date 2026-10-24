@@ -2659,8 +2659,10 @@
           "action": "REVISION",
           "version": 10,
           "unique_increment": 0,
-          "commit_sha": "PENDING_THIS_COMMIT",
-          "run_record": "owl-pet/production/runs/2026-10-24T1927+0800-cycle-6.md"
+          "commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204",
+          "run_record": "owl-pet/production/runs/2026-10-24T1927+0800-cycle-6.md",
+          "image_commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204",
+          "verification_commit": "bc1f6b6709240f060982f2e3f2d624816030a204"
         }
       ],
       "next_cycle": null,
@@ -2670,7 +2672,9 @@
         "stage": "VERIFIED",
         "species": "Bubo bubo",
         "run_id": "2026-10-24T1927+0800-cycle-6",
-        "updated_at": "2026-10-24T19:43:00+08:00"
+        "updated_at": "2026-10-24T19:43:00+08:00",
+        "image_commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204",
+        "verification_commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204"
       },
       "last_updated_at": "2026-10-24T19:43:00+08:00"
     }

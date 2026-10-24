@@ -2695,33 +2695,24 @@
       "completed_cycles": [],
       "next_cycle": 1,
       "started_at": "2026-10-24T21:30:47+08:00",
-      "lease": {
-        "owner": "owl-pet-production",
-        "run_id": "2026-10-24T2130+0800-cycle-1",
-        "heartbeat_at": "2026-10-24T21:36:00+08:00",
-        "expires_at": "2026-10-24T21:51:00+08:00"
-      },
+      "lease": null,
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_id": "2026-10-24T2130+0800-cycle-1",
-        "at": "2026-10-24T21:36:00+08:00",
+        "at": "2026-10-24T21:44:00+08:00",
         "species": "Strix chacoensis",
         "target_version": 3,
-        "source_ids": [
-          "CHAO-NBO-2013",
-          "CHAO-FWS-TAXON-2026"
-        ],
-        "prompt_saved": true
+        "local_path": "owl-pet/design/concepts/98-strix-chacoensis-v3.png",
+        "sha256": "c0660119d649aa2335d0a006b69ae09d948dfe3ec4753157d790c7761cafe3d5",
+        "bytes": 2775396,
+        "archive_status": "BLOCKED_ENVIRONMENT_UNAVAILABLE",
+        "completion_credit": false,
+        "next_step": "recover local final PNG if available; otherwise regenerate from saved prompt and edits; then ARCHIVED and VERIFIED"
       }
     }
   ],
-  "lease": {
-    "owner": "owl-pet-production",
-    "run_id": "2026-10-24T2130+0800-cycle-1",
-    "heartbeat_at": "2026-10-24T21:36:00+08:00",
-    "expires_at": "2026-10-24T21:51:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -2786,7 +2777,8 @@
     "2026-10-23 22:38 +0800: batch cycle 6 revised and verified #93 Aegolius harrisii v2; duplicate second chick was removed so the production unit now contains exactly one early-stage, closed-eye, securely supported nestling with sparse natal down and no mature remiges or tail. Image commit 8f1091e5912b0fa54cd62ad8159e44f9933ffb17, Git blob 9679daadaf43d7161be13ce7171b7cfa7e4fe83c; verification commit 514f4a859c576e680368e8bb9d1edbd1e184a282. Batch complete 6/6; unique species total remains 157/251.",
     "2026-10-24 07:45 +0800: recovered expired cycle 5, bypassed truncated main v6/empty v7 by restoring fully decodable v3, and produced/verified #109 Ptilopsis leucotis v8. A first edit still showed only an ankle cuff; second pass visibly extended pale-gray featherlets along proximal half of adult toes while retaining bare distal toes and black claws. Image commit c30565c893443b3af60c26f2a944e2add0f5be9d, Git blob 7fc34dbded1425bd469871fda9233380e77d109c. Batch advances to 5/6; unique species remains 157/251.",
     "2026-10-24 13:37 +0800: recovered expired batch cycle 1 and verified #159 Phodilus assimilis v2; preserved and registered orphan v1, shortened/down-softened the age-unknown juvenile's adult-like folded wing, and retained both-foot support, adults, labels and cavity habitat. Image commit 9757947a64bb371838b66b9e8c403b918c3cb356, Git blob 0c4d0df9eb914d37a6169aa419609180dc737225; verification commit d5fc38a7e9e6d8ef0de9b8d438199f08a72b8b19. Unique species remains 157/251; batch advances to 1/6, next_cycle 2.",
-    "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle."
+    "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle.",
+    "2026-10-24 21:44 +0800: new batch cycle 1 #98 Strix chacoensis reached REVIEWED after one rebuild and two toe-feather edits, but environment became unavailable during PNG base64/upload preparation. No archive credit; lease released; next_cycle remains 1. Research/index commit 05c0e0d is durable."
   ],
-  "updated_at": "2026-10-24T21:36:00+08:00"
+  "updated_at": "2026-10-24T21:44:00+08:00"
 }

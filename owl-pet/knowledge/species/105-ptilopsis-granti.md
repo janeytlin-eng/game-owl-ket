@@ -18,3 +18,12 @@ Reused1 SWFO-JWVH-2024 freshread actualp16 andphoto, index21cd4daa3f616a5314876a
 
 ## v5 juvenile face/texture revision — 2026-10-23
 Preflight found unregistered v4 already present; it was preserved and not counted. Fresh active search reread ADW and OwlPages pages but found no stronger exact-age juvenile feather sequence; the design decision therefore reused `SWFO-JWVH-2024` hospital p.16/PDF17 older-juvenile photograph plus bounded basic context from `SWFO-ADW-2010` (known chronology errors excluded). New0/reused2/corrected0. Actual v5 view: center juvenile now has gray-brown rather than adult-white facial feathers, darker low-contrast irregular body texture, formed but shorter/rounder wings, concealed tail and two-foot support. Faint arcs remain; exact age, continuous feather sequence, flight ability, toe-feather extent and sex ratio unknown. scientifically_verified=false. Image commit `d2d0c918659293d8ba36b84cf6d82c1ce298480e`; PNG 1536×1024, 2,691,298 bytes, SHA256 `7d9c9eab8cfec9c35116cc570253aa7fa51f3c37b977274e530be7c5c59a07c1`, blob `56826de123e6a7ed5ce79d0a5bec12dec79ca400`. [Original](../../design/concepts/105-ptilopsis-granti-v5.png) · [run](../../production/runs/2026-10-23T1031+0800-cycle-5.md).
+
+
+## v6 anatomical and juvenile-pattern revision — 2026-10-25
+
+Fresh active research read Animal Diversity Web and added `SWFO-SABISABI-2014`; reused `SWFO-JWVH-2024` and bounded ADW facts. One full generation plus one targeted edit were actually viewed. Final v6 shows adult proximal toe-shaft featherlets with bare distal toes and exposed claws, and an older juvenile with grey-brown face, yellow-grey eyes, short rounded wings ending above the branch, concealed tail, irregular subdued coverts and two-foot support. Exactly three birds, text and habitat remain intact. Exact age, continuous feather sequence, literal toe-feather count, flight ability and fixed sex ratio remain unknown; `scientifically_verified=false`.
+
+- Image: [105-ptilopsis-granti-v6.png](../../design/concepts/105-ptilopsis-granti-v6.png)
+- SHA-256: `124cf8f94e9d9bc8cfa035a0b94477ae781d3f3f3ca5da47516029cba2593793`
+- Run: [cycle 4](../../production/runs/2026-10-25T0128+0800-cycle-4.md)

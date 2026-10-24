@@ -2741,3 +2741,28 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 - **Read fact:** current checklist concepts retain *O. manadensis* for Sulawesi and document older broader usages; recent checklists separate formerly conspecific island taxa.
 - **Limits:** not a plumage or development study; cannot calibrate juvenile arcs, age, flight ability or sex ratio. Confidence high for checklist crosswalk.
 - **Decision / related:** prevents importing juvenile traits from Mentawai/Banggai taxa into #117; linked to `knowledge/species/117-otus-manadensis.md` and v7 run.
+
+
+### TBO-ABSA-AGEING-2019
+- Title: Tasmanian Boobook *Ninox leucopsis* — Ageing and sexing guide
+- Author/institution: Australian Bird Study Association
+- Year/accessed: 2019 / 2026-10-24
+- URL: https://absa.asn.au/wp-content/uploads/2019/12/Tasmanian-Boobook.pdf
+- Type: institutional banding/ageing reference, one-page PDF
+- Taxon/stage: *Ninox leucopsis*; juvenile and first immature
+- Verified facts: downy juvenile plumage; juvenile iris and leg/foot color ranges; post-juvenile moult completed about three months after fledging; first immatures retain juvenile remiges and rectrices until the end-of-first-year complete moult.
+- Location: one-page sheet, Ageing section.
+- Limits: does not provide a continuous day-by-day feather map or exact posture/flight milestone.
+- Decision: supports an older juvenile with retained formed flight feathers but softer/downier body surface; no exact day-age.
+
+### TBO-AFO-TSANG-2022
+- Title: A recent specimen of a Tasmanian Boobook *Ninox leucopsis* recovered on Lord Howe Island
+- Authors: Leah R. Tsang et al.
+- Year/accessed: 2022 / 2026-10-24
+- URL/DOI: https://afo.birdlife.org.au/afo/index.php/afo/article/view/2265 ; 10.20938/afo39143157
+- Type: peer-reviewed specimen/genetic study
+- Taxon/stage: genetically confirmed adult male *N. leucopsis*
+- Verified facts: confirmed male exhibited darker brown coloration and an overall clean-white spotted pattern.
+- Location: abstract and article landing page.
+- Limits: one adult male specimen; not a juvenile-development or population-wide sex-difference study.
+- Decision: supports dark brown adult ground color and clean white spots without extrapolating a fixed male/female difference.

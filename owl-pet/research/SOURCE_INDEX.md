@@ -2766,3 +2766,26 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 - Location: abstract and article landing page.
 - Limits: one adult male specimen; not a juvenile-development or population-wide sex-difference study.
 - Decision: supports dark brown adult ground color and clean white spots without extrapolating a fixed male/female difference.
+
+
+### PAP-BIRDLIFE-FACTSHEET-2026
+- **Title / institution:** Papuan Hawk-owl *Uroglaux dimorpha* Species Factsheet / BirdLife International Data Zone
+- **Accessed:** 2026-10-24
+- **URL:** https://datazone.birdlife.org/species/factsheet/papuan-hawk-owl-uroglaux-dimorpha
+- **Source type:** authoritative conservation/species synthesis; page read
+- **Species / stage:** *Uroglaux dimorpha*; adult morphology, habitat and a juvenile photographic lead
+- **Verified facts:** New Guinea lowland and foothill forest distribution; the factsheet indexes a juvenile record near Vanimo. It does not provide a continuous juvenile feather sequence.
+- **Limits / confidence:** High for accepted taxon, broad habitat and conservation context; low for exact juvenile age, wing/tail development, sex ratio and nest structure. The juvenile image lead is not treated as a measured developmental series.
+- **Design decision:** Retain small-headed long-tailed adults in rainforest. Use a conservative age-unknown older juvenile with short rounded developing wing, mostly concealed short tail and explicit two-foot support; do not invent a nest or day-age.
+- **Related:** #152; `owl-pet/design/concepts/152-uroglaux-dimorpha-v2.png`; `owl-pet/production/runs/2026-10-24T1830+0800-cycle-5.md`.
+
+### PAP-EBIRD-ID-2026
+- **Title / institution:** Papuan Owl — *Uroglaux dimorpha* / Cornell Lab of Ornithology, eBird
+- **Accessed:** 2026-10-24
+- **URL:** https://ebird.org/species/paphao1
+- **Source type:** research-institution identification account; page read
+- **Species / stage:** adults; identification and habitat
+- **Verified facts:** rare lowland/foothill forest owl; medium-sized and small-headed, dark brown with barred back/tail, pale underparts with long sparse streaks, and no white dorsal flecks.
+- **Limits / confidence:** No juvenile development, breeding detail, fixed sex dimorphism or quantitative measurements. High confidence for adult identification direction only.
+- **Design decision:** Adult long tail and sparse ventral streaking retained; source not used to infer juvenile tail length or precise age.
+- **Related:** #152 v2 and the cycle-5 run record.

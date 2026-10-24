@@ -2743,8 +2743,8 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "2026-10-25T0230+0800-cycle-5",
-        "heartbeat_at": "2026-10-25T02:30:07+08:00",
-        "expires_at": "2026-10-25T02:45:07+08:00"
+        "heartbeat_at": "2026-10-25T02:37:00+08:00",
+        "expires_at": "2026-10-25T02:52:00+08:00"
       },
       "last_checkpoint": {
         "cycle": 2,
@@ -2754,10 +2754,12 @@
       },
       "checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Megascops marshalli",
         "run_id": "2026-10-25T0230+0800-cycle-5",
-        "at": "2026-10-25T02:30:07+08:00"
+        "at": "2026-10-25T02:37:00+08:00",
+        "research_commit": "cf018bce5f506aeface4b7cfcb04d5ee8f089f10",
+        "source_index_commit": "c4517614df287cb5fdec2f4b9e6b00abc42aef39"
       }
     }
   ],

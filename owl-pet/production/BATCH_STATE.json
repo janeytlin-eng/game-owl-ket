@@ -2740,7 +2740,12 @@
       ],
       "next_cycle": 5,
       "started_at": "2026-10-24T21:30:47+08:00",
-      "lease": null,
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-25T0230+0800-cycle-5",
+        "heartbeat_at": "2026-10-25T02:30:07+08:00",
+        "expires_at": "2026-10-25T02:45:07+08:00"
+      },
       "last_checkpoint": {
         "cycle": 2,
         "stage": "STARTED",
@@ -2748,13 +2753,11 @@
         "at": "2026-10-24T22:33:00+08:00"
       },
       "checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Ptilopsis granti",
-        "version": 6,
-        "archive_commit": "0ba0703d7d08d65e65a3d10186c5e39e9e5f1c12",
-        "verification_commit": "a9b2b2fd03e8806590b31715195424f5f1bdc280",
-        "verified_at": "2026-10-25T01:48:00+08:00"
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Megascops marshalli",
+        "run_id": "2026-10-25T0230+0800-cycle-5",
+        "at": "2026-10-25T02:30:07+08:00"
       }
     }
   ],

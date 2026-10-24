@@ -2595,6 +2595,28 @@
         "at": "2026-10-24T08:43:00+08:00",
         "evidence": "verification commit e71c1eaadfaf846162f4ac07fdb4bc2aedfad021; image commit 1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a"
       }
+    },
+    {
+      "batch_id": "2026-10-24T0933+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "lease": {
+        "owner": "owl-production",
+        "run_id": "2026-10-24T0933+0800-cycle-1",
+        "heartbeat_at": "2026-10-24T09:34:00+08:00",
+        "expires_at": "2026-10-24T09:49:00+08:00",
+        "cycle": 1,
+        "species": "Phodilus assimilis"
+      },
+      "last_checkpoint": {
+        "cycle": 1,
+        "stage": "STARTED",
+        "run_id": "2026-10-24T0933+0800-cycle-1",
+        "at": "2026-10-24T09:34:00+08:00",
+        "evidence": "owl-pet/production/runs/2026-10-24T0933+0800-cycle-1.md"
+      }
     }
   ],
   "lease": null,

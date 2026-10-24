@@ -2722,3 +2722,22 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 - **Limitations / confidence:** The assessment does not publish a continuous photographic feather sequence or literal covert map. “Grey morph” and estimated age do not justify neat repeated arcs, exact feather counts, flight ability or a fixed sex-size ratio. Confidence high for the cited nest context, medium for using the brief stage description to bound art.
 - **Design decision:** v5 may depict one grey-brown approximately three-week nestling/older juvenile in an oak-cavity/pine–oak setting, with soft irregular developing coverts and no mechanical scallop rows; any formed remiges must remain modest and stage-bounded.
 - **Related:** #110; `owl-pet/knowledge/species/110-megascops-barbarus.md`; `owl-pet/production/runs/2026-10-24T1431+0800-cycle-2.md`.
+
+
+### SLSO-FWS-TAXONOMY-2026
+- **Title / institution:** Sulawesi Scops Owl / U.S. Fish & Wildlife Service
+- **Accessed:** 2026-10-24
+- **URL:** https://www.fws.gov/species/sulawesi-scops-owl-otus-manadensis
+- **Type / scope:** official government taxonomy page; *Otus manadensis* naming only.
+- **Read fact:** accepts genus *Otus*, species *Otus manadensis*, common name Sulawesi Scops Owl.
+- **Limits:** no morphology, sex difference, nest, juvenile age or feather-sequence evidence. High confidence for naming only.
+- **Decision / related:** supports current-name mapping for #117; no visual detail inferred; linked to `production/runs/2026-10-24T1535+0800-cycle-3.md`.
+
+### SLSO-AVIBASE-2026
+- **Title / institution:** Sulawesi Scops Owl (*Otus manadensis*) / Avibase, Bird Studies Canada
+- **Accessed:** 2026-10-24
+- **URL:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=DCE2207530B57EA4
+- **Type / scope:** taxonomic concept and checklist crosswalk.
+- **Read fact:** current checklist concepts retain *O. manadensis* for Sulawesi and document older broader usages; recent checklists separate formerly conspecific island taxa.
+- **Limits:** not a plumage or development study; cannot calibrate juvenile arcs, age, flight ability or sex ratio. Confidence high for checklist crosswalk.
+- **Decision / related:** prevents importing juvenile traits from Mentawai/Banggai taxa into #117; linked to `knowledge/species/117-otus-manadensis.md` and v7 run.

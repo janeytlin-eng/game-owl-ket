@@ -2690,3 +2690,18 @@ Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layere
 - Limits/confidence: no plumage, juvenile or foot-anatomy evidence. Confidence: high for naming only.
 - Design decision: supports current-name mapping only; not used to infer morphology.
 - Related: species #109; `production/runs/2026-10-24T0530+0800-cycle-5.md`.
+
+
+### BSO-ENRIQUEZ-2010
+
+- **Title:** The ‘Near Threatened’ Bearded Screech-owl *Megascops barbarus*: diet pattern and trophic assessment using δ13C and δ15N stable-isotopes
+- **Authors / institution:** P. L. Enríquez et al.; *Bird Conservation International*
+- **Year / publication:** 2010, 20(1), pp. 25–33
+- **Stable URL / DOI:** https://doi.org/10.1017/S095927090999013X
+- **Accessed:** 2026-10-24
+- **Source type:** peer-reviewed research article
+- **Species / stage:** *Megascops barbarus*; adults sampled for feathers/diet analysis (not a juvenile-plumage study)
+- **Read section / valuable fact:** Abstract and introductory habitat description; 24 feather samples support a mainly insectivorous trophic signal, and the species is associated with humid montane/cloud and pine–oak forest around 1,800–2,500 m.
+- **Limitations / confidence:** High confidence for habitat and diet context; no support for exact juvenile age, sex ratio, or covert geometry. It cannot justify a literal juvenile feather map.
+- **Design / review decision:** supports retaining humid highland pine–oak context only. Juvenile texture correction continues to rely on the project’s field-photo sources `BSO-EISERMANN-FIELD` and `BSO-CAYAYA-FIELD`, with uncertainty preserved.
+- **Links:** [species record](../knowledge/species/110-megascops-barbarus.md) · [v3](../design/concepts/110-megascops-barbarus-v3.png) · [cycle record](../production/runs/2026-10-24T0828+0800-cycle-6.md)

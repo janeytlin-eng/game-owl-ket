@@ -11,3 +11,11 @@ Mapping adultmorph→TAS-HANZAB-1999 + TAS-HARRISON-PHOTO; juvenile→explicitle
 
 ### #121 Ninox leucopsis v1 2026-10-18T00:47:34.315Z
 NEW unique119/251. Later feathered juvenile, ageunknown, not invented newborn; initial adultlike breast droplets softened in actual edit and reviewed. Adult fine spot geometry/exactage/sexheight/irisstage stillpending, scientifically_verifiedfalse. HistoricalN.novaeseelandiaeleucopsis mapped, not#72mainlandboobook or#74NZduplicate. Sourcesnew3 TAS-ABSA-2019/TAS-HANZAB-1999/TAS-HARRISON-PHOTO; rawsourcefacts vsdesign inference and conflict saved. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7ec11966e72c79b2382a527d124f56c108cb5b68/owl-pet/design/concepts/121-ninox-leucopsis-v1.png); [Fullprompts/review/integrity](../production/runs/2026-10-18T0528+0800-cycle-4.md). PNG2661216bytes1536x1024 independent full decode SHA256e34e651d2feeed3cb0a6d8a0fc6badb53afd4187d4e94d8ea4584724314c8814 Gitblob5e008aa4067476e4146d7d69e249dde654b9ba58 matcheslocal.
+
+
+## ARCHIVED 2026-10-24 — 121-ninox-leucopsis-v2
+Evidence-bounded rebuild followed by one actual juvenile-only edit/view. Initial juvenile wing reached the branch with adult-like dark layered remiges; final wing is compact and rounded above the branch, long tail concealed, with fluffy mottled body plumage and visible two-foot support. Adults retain dark chestnut-brown ground color, clean white spotting, golden eyes, text and Tasmanian eucalypt setting. Exact juvenile age, continuous feather sequence, flight ability and fixed sex ratio remain unknown; `scientifically_verified=false`.
+
+Sources new2/reused1/corrected0: `TBO-ABSA-AGEING-2019`, `TBO-AFO-TSANG-2022`; reused `TBO-BIRDLIFE-FACTSHEET`. Image commit `4d0ea89ed2507a46fca1ec4a12b895ad0b766674`; 1536×1024 PNG, 2,665,228 bytes; SHA-256 `90561d31c4cc57c48ebe872fcdfa9a1d6509d12b73b1e9f35a1a6bf25af3dc67`; Git blob `74889abc20ba5321075ba94a10bb4db0b2ae9b48`. Unique species remains 157/251.
+
+[Original](../../design/concepts/121-ninox-leucopsis-v2.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-24T1630+0800-cycle-4.md)

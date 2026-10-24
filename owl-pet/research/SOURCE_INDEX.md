@@ -2860,3 +2860,12 @@ Cycle2 re-read RBO-GREENEY-2003 full text pp.67–68 and reused RBO-SCHERZINGER-
 - **Freshly read evidence:** Cornell Lab/eBird current account (https://ebird.org/species/susowl1) supports yellow-eyed brown adults with ear tufts and juvenile heavier barring on crown/back in forest/edge; USFWS current profile (https://www.fws.gov/species/sulawesi-scops-owl-otus-manadensis) supports the current scientific combination only.
 - **Limits:** no exact juvenile age, continuous feather sequence, flight ability, literal feather geometry, fixed sex ratio or toe-feather count. Uploaded Mikkola file was unavailable this invocation, so the prior p.194 index entry is reused without a new page-reading claim.
 - **Design decision:** irregular diffuse juvenile ventral texture; no mechanical scallop rows or adult-length remiges. Related: [#117 v8](../design/concepts/117-otus-manadensis-v8.png), [cycle record](../production/runs/2026-10-25T0431+0800-cycle-1.md).
+
+
+### MINBOO-REUSE-2026-10-25
+- **Accessed:** 2026-10-25
+- **Species/stage:** *Ninox spilocephala*, adults and age-unknown older immature.
+- **Reused source IDs:** `LZBO-RASMUSSEN-2012-LEAD`, `MINBOO-EBIRD-ID-2026`, `MINBOO-AVIBASE-TAXON-2026`.
+- **Freshly read evidence:** Cornell Lab/eBird current account, https://ebird.org/species/minboo1, directly supports a fairly small lowland-forest owl with dark-brown head/upperparts, wing speckles, reddish-brown chest, white belly with thick reddish-brown streaking and yellowish eyes; it explicitly distinguishes the species from Chocolate Boobook by smaller size and absence of white on the chest. Rasmussen et al. (2012) remains the primary taxonomy/morphology source already indexed for the *N. philippensis* complex and the old-name mapping.
+- **Limits:** no exact immature age, continuous wing/tail sequence, soft-part calibration, quantified sex ratio, nest structure or locomotor milestone. BirdLife's current dynamic factsheet was opened but exposed no substantive species fields in the retrieved page, so it is not counted as a new verified evidence entry.
+- **Design decision:** v4 keeps adults near-equal, enforces reddish-brown upper chest without a white patch, places white only on the streaked lower belly, and uses a supported older immature with compact wings/tail. Related: [#144 v4](../design/concepts/144-ninox-spilocephala-v4.png), [cycle record](../production/runs/2026-10-25T0532+0800-cycle-2.md).

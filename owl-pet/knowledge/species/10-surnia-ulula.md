@@ -24,3 +24,15 @@ Cornell：初生无助、白绒羽；树洞、啄木鸟旧洞及断树中空顶�
 ![v1](../../design/concepts/10-surnia-ulula-v1.png)
 
 生成规格：电影感3D动画、紧凑身体与长横斑尾、白脸深色侧缘、黄眼黄喙、无耳羽簇、足部覆羽、树洞内早期白绒羽低伏雏鸟、非测量比例。内置imagegen生成。
+
+## 2026-10-25 · v2 evidence-bounded rebuild
+
+Freshly read sources NHO-CORNELL-ID-2026, NHO-CORNELL-LIFE-2026 and NHO-NPS-NEST-2021 were added to the central index. v2 restores the adult hawk-like silhouette: compact oval body, short pointed folded wing and conspicuously long tapered barred tail, while retaining yellow eyes, dark-bordered white face, feathered feet and near-equal displayed adult scale.
+
+The early nestling is age-unknown: white natal down, closed/slit eyes, tiny down-buried wing buds, no adult facial border, mature remiges, barring or formed tail; belly and both feet are supported by the hollow snag floor. The first render passed visual review without edit. Exact age, eye-opening time, continuous feather sequence, measured proportions and quantified sex difference remain unknown; scientifically_verified: false. Historical v1 and its user-approved scope are preserved and not transferred to v2.
+
+- Image: [10-surnia-ulula-v2.png](../../design/concepts/10-surnia-ulula-v2.png)
+- Image commit: `1cb0e03314af160cbdd4ad91f50ce21a6811d18b`
+- Git blob: `79de445a797eebb5d2c6b0eb2c84fec2d76618dc`
+- SHA-256: `8cd274feb085837a97a5e38faeac055c964563239236eeed025e4f8627f156d4`
+- Run: [2026-10-25T1932+0800-cycle-6.md](../../production/runs/2026-10-25T1932+0800-cycle-6.md)

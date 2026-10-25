@@ -26,3 +26,16 @@ The first generated plate was actually inspected. The juvenile initially carried
 - Image commit: `aaa94b4c42b2969854b223486e90bcc3d4eeeb8c`
 - Git blob: `f3ce964eb4a54fe81918a8bb2880767f35bf7748`
 - scientifically_verified: false
+
+
+## v2 revision — 2026-10-25
+Fresh checks reused VFO-BM-CAT-1875, VFO-IBIS-YOUNG-1904, VFO-OISEAUX-LIFE-2026, VFO-BIRDLIFE-2026 and VFO-FWS-TAX-2026. No new Mikkola page was claimed because the uploaded guide was unavailable in this execution.
+
+The first v2 render preserved the evidence-supported adult characters and environment but again gave the juvenile narrow, layered adult-like remiges. One targeted edit removed those remiges and replaced them with very short rounded developing wings embedded in soft mesoptile down; the tail remains concealed. The final image was re-opened and passed: exactly three labeled birds, dark adult irises, no ear tufts, near-equal adults, cream-yellow bills, bare yellow lower legs and toes, secure branch/nest support, and coherent riverine forest.
+
+Unknowns remain exact juvenile age, continuous feather sequence, flight ability, quantified sex differences, regional colour variation and how general old stick-nest use is. Therefore `scientifically_verified: false` remains.
+
+- Image: [157-scotopelia-bouvieri-v2.png](../../design/concepts/157-scotopelia-bouvieri-v2.png)
+- Image commit: `d4cd1bb8de4db1f8179caca1e297de8cb217a72b`
+- Git blob: `7bd0bda6c5e959c816ab807d01bf5fa915384e40`
+- SHA-256: `294a09b0d15dc1eeb6695ffb7b0c9006e39f160477bad2b54a7716e54e3b7062`

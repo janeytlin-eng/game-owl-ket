@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T14:53:00+08:00",
+  "updated": "2026-10-25T15:38:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -2532,6 +2532,35 @@
       "sha256": "bab7f076ad2b2986c15a7aefc7804f5cafd8090b1747e13b6788b56ba20589de",
       "git_blob": "a17830282c371307daccbbdd14895ad218d54ecb",
       "scientifically_verified": false
+    },
+    {
+      "id": "84-otus-bakkamoena-v6",
+      "path": "design/concepts/84-otus-bakkamoena-v6.png",
+      "species_id": 84,
+      "scientific_name": "Otus bakkamoena",
+      "common_name": "Indian Scops Owl",
+      "version": 6,
+      "sha256": "cbc11277516ca40f4c9916263d3c624de9ecaccaef8ff79023dd41148032035e",
+      "scientifically_verified": false,
+      "status": "Historical v6 recovered into manifest. Separate bright adult periocular circles removed and blended into continuous pale grey-buff facial discs; juvenile blue-grey eyes, grey bill and supported downy stage preserved. Exact juvenile age and sex measurements unresolved.",
+      "archive_commit": "23efe6f2787571e8e4ac106072eb01abe63b3956",
+      "image_git_blob": "3beca06c39dc95f565ef477b17d993e0f235ec74",
+      "run_record": "production/runs/2026-10-23T0000+0800-cycle-unknown.md"
+    },
+    {
+      "id": "84-otus-bakkamoena-v7",
+      "path": "design/concepts/84-otus-bakkamoena-v7.png",
+      "species_id": 84,
+      "scientific_name": "Otus bakkamoena",
+      "common_name": "Indian Scops Owl",
+      "version": 7,
+      "sha256": "994af791d024ba4a27d452a58b767166ff0cf4a5c55fa87d90f20f8537d8bb25",
+      "scientifically_verified": false,
+      "status": "Full landscape evidence-bounded rebuild plus one targeted adult-face edit. Exactly three supported birds. Adults retain dark hazel-brown eyes, ear tufts and one continuous pale grey-buff disc with a thin dark outer rim; center juvenile has blue-grey eyes, grey bill, no ear tufts, soft barred down, short developing wings and concealed tail. Exact age, continuous sequence, universal juvenile eye colour and quantified sex difference remain unknown.",
+      "source_index": "research/SOURCE_INDEX.md#2026-10-25--84-otus-bakkamoena-v7-reuse-and-fresh-check",
+      "run_record": "production/runs/2026-10-25T1525+0800-cycle-3.md",
+      "archive_commit": "7f6f352543a09a100106f1fa395cb30d000323ba",
+      "image_git_blob": "92a18d2ab3fa2ef4d91dd9b3a9cbf92bbb5133a8"
     }
   ]
 }

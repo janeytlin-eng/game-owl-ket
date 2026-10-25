@@ -2959,21 +2959,31 @@
       "batch_id": "2026-10-25T2033+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Aegolius acadicus",
+          "species_id": 12,
+          "version": 3,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "97e1e14c6a18f0cf56c68eca0678776e9c36ad59",
+          "verification_commit": "3520f51beffe2619f3ceec6e149f160180460d9f",
+          "run_record": "owl-pet/production/runs/2026-10-25T2033+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "checkpoint": {
         "cycle": 1,
-        "stage": "STARTED",
+        "stage": "VERIFIED",
         "species": "Aegolius acadicus",
         "run_id": "2026-10-25T2033+0800-cycle-1",
-        "at": "2026-10-25T20:33:05+08:00"
+        "at": "2026-10-25T20:45:00+08:00",
+        "archive_commit": "97e1e14c6a18f0cf56c68eca0678776e9c36ad59",
+        "image_blob": "7cd8b975cf19adbe1290c5e68c875a070eae34ff",
+        "verification_commit": "3520f51beffe2619f3ceec6e149f160180460d9f"
       },
-      "lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-25T2033+0800-cycle-1",
-        "heartbeat_at": "2026-10-25T20:33:05+08:00",
-        "expires_at": "2026-10-25T20:48:05+08:00"
-      }
+      "lease": null
     }
   ],
   "lease": null,
@@ -3050,10 +3060,5 @@
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
     "2026-10-25 03:48 +0800: batch cycle 6 revised and verified #104 Asio madagascariensis v2; fresh rebuild retained evidence-supported older mesoptile juvenile, and one targeted edit extended adult feathering onto proximal toe bases while keeping distal claws exposed. Archive commit 945ae44d42bd890d00c07c9b3817616200aeba11, Git blob 7eab1531203df968dc1d0481476abc5c7778a2e1. Unique species remains 157/251; batch closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "scheduled-production",
-    "run_id": "2026-10-25T2033+0800-cycle-1",
-    "heartbeat_at": "2026-10-25T20:33:05+08:00",
-    "expires_at": "2026-10-25T20:48:05+08:00"
-  }
+  "active_lease": null
 }

@@ -3065,7 +3065,15 @@
           "run_record": "owl-pet/production/runs/2026-10-26T0427+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 3
+      "next_cycle": 3,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T0632+0800-cycle-3",
+        "cycle": 3,
+        "heartbeat_at": "2026-10-26T06:35:00+08:00",
+        "expires_at": "2026-10-26T06:50:00+08:00",
+        "stage": "RESEARCH_READY"
+      }
     }
   ],
   "lease": null,

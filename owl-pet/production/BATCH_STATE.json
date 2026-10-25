@@ -3071,19 +3071,18 @@
           "unique_species_increment": 0,
           "commit_sha": "30b9f04f936ec299c0fe4c90db3e2777658c3a95",
           "run_record": "owl-pet/production/runs/2026-10-26T0632+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Gymnasio nudipes",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b9e2dfb021fea57e73dab4b20a860fac316ded75",
+          "run_record": "owl-pet/production/runs/2026-10-26T0726+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T0726+0800-cycle-4",
-        "cycle": 4,
-        "heartbeat_at": "2026-10-26T07:38:00+08:00",
-        "expires_at": "2026-10-26T07:53:00+08:00",
-        "stage": "ARCHIVED",
-        "image_commit": "ab607067a7f2731de30e1e35d819821d4f0ab233",
-        "image_blob": "d7eecd411a86808914015e7a928a21d255b2c645"
-      }
+      "next_cycle": 5,
+      "active_lease": null
     }
   ],
   "lease": null,

@@ -784,3 +784,10 @@ Revision resolves the documented bill and proximal-toe boundary direction: yello
 [Original PNG](concepts/117-otus-manadensis-v8.png) · [species record](../knowledge/species/117-otus-manadensis.md) · [cycle record](../production/runs/2026-10-25T0431+0800-cycle-1.md)
 
 Fresh rebuild removes the residual mechanical juvenile ventral pattern direction while retaining source-supported heavy crown/back barring, compact formed wings and natural support. Scientific calibration remains pending.
+
+
+## 13-micrathene-whitneyi-v6
+
+证据边界重建：三鸟与标签、无耳羽短尾成年、黄眼灰喙、闭眼白绒低伏幼鸟及不规则仙人掌洞支撑已实际复查。v5历史用户确认保留，不自动迁移到v6；精确日龄、羽序和巢腔尺寸仍待科学校准。
+
+![13-micrathene-whitneyi-v6](concepts/13-micrathene-whitneyi-v6.png)

@@ -32,3 +32,10 @@ The Peregrine Fund和ABC都强调繁殖及幼鸟生活史资料稀缺。可确�
 
 ## 2026-10-19 #22v2
 Adultirises correctedfrombrightgold to reddishbrown basedfreshPRO-PEREGRINE-2026 +newPRO-OWLPAGES-2020; oldABCorange-yellowattribution unsubstantiatedcurrentbody, historicaltextretainedaserrornotfact. Juvenileirisunknown notchanged. Actualbuiltin edit/view retainedwhitebrows/bills/barelegs/support/young/text, finegeometry/scalepending scientifically_verifiedfalse. Lesson: recheckattributedsourcewords beforeassumingstylecolors, adultirisfacts notjuveniledevelopmentfacts. ARCHIVED bacf4cb1f78ff56907bbfa1987758fd03bcc5b69; VERIFIED independentremote fulldecode1254x1254,2794868bytes SHA2567509e739370f6b5f15c709d6ff6411e2e2525a731c0dc0f0e7f1ad7e45e28cf5 Gitblob2dd1004d3e521a99170f01e3ac837e235384ee09 local==remote. Sourceindex2df91b2c6340471fb2850c7ad6bf2c0a8934af1d new1/reuse1/correct1oldattribution. Unique137/251unchanged,214versions. Verificationat 2026-10-19T00:39:38.927Z
+
+
+## 22-gymnasio-nudipes-v3 · 2026-10-26
+
+v3按现有证据边界完整重建。最终1536×1024原图复查通过：恰好三鸟与正确标签；同一棕色型成年保留赤褐虹膜、绿黄喙、显著白眉、白底不规则棕纹、近等展示尺度和自然裸露的下腿/足，雌鸟仅略丰满；中央年龄未定洞巢幼鸟采用灰米色蓬松幼羽、藏于绒羽下的短圆发育翼芽、隐藏尾部，无成熟层叠飞羽或成年白眉，腹部与双足均由稀疏洞底碎屑承托。首次成图通过，无需编辑。
+
+幼鸟虹膜、精确日龄、连续羽序、飞行能力、量化雌雄差异、裸腿精细边界和普遍巢腔几何仍未知，科学通过为否。图：`design/concepts/22-gymnasio-nudipes-v3.png`；运行：`production/runs/2026-10-26T0726+0800-cycle-4.md`；图片提交：`ab607067a7f2731de30e1e35d819821d4f0ab233`；Git blob：`d7eecd411a86808914015e7a928a21d255b2c645`。

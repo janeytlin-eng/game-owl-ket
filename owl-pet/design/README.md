@@ -838,3 +838,10 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 证据边界重建并修订幼鸟翼部：同色型成年黄眼、浅绿灰喙、黑缘脸盘、羽跗和近等展示高度已复查；中央11–13日龄幼鸟以白绒为主，仅见少量贴身极短羽轴，无长层叠飞羽、尾羽或耳簇，腹部与双足由近乎裸露的枯棕榈洞底承托。精确羽轴长度、连续羽序、参考亚种、量化雌雄差异及普遍巢腔几何仍待科学校准。
 
 ![21-megascops-choliba-v4](concepts/21-megascops-choliba-v4.png)
+
+
+## 22-gymnasio-nudipes-v3
+
+证据边界重建：同棕色型成年赤褐虹膜、绿黄喙、显著白眉、白底棕纹、自然裸露下腿和近等尺度通过复查；中央年龄未定幼鸟以灰米色蓬松幼羽为主，短圆翼芽藏于绒羽下，无成熟翼尾或成年白眉，腹部和双足由洞底承托。精确日龄、幼鸟虹膜、连续羽序、飞行能力、量化性别差异及精细裸腿几何仍待科学校准。
+
+![22-gymnasio-nudipes-v3](concepts/22-gymnasio-nudipes-v3.png)

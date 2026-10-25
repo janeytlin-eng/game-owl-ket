@@ -2942,3 +2942,12 @@ Reused: JAM-PEREGRINE-2026, JAM-HOYER-BIRDSEYE, JAM-BIRDLIFE-2026 and the verifi
 - **Freshly read evidence:** Cornell Lab identification and life-history pages support tiny tuftless short-tailed adults with yellow eyes, white eyebrows, two white upperpart stripes, diffuse underpart streaks, and hatchlings with thick white down unable to sit up; NPS supports old woodpecker chambers in living saguaros with a hardened grayish wound lining and a vaguely shoe/sock-shaped rather than regular bottle-shaped cavity.
 - **Limits:** no exact chick age, continuous feather sequence, eye-opening day, measured cactus-wall thickness, calibrated wound-lining colour or quantified standing-height sex difference. Uploaded Mikkola guide unavailable this invocation.
 - **Design decision:** v6 uses a physically supported early white-down nestling with down-buried wing buds and no tail; adults stay near-equal; the irregular cutaway is explicitly illustrative. Related: `owl-pet/knowledge/species/13-micrathene-whitneyi.md`; `owl-pet/production/runs/2026-10-25T2131+0800-cycle-2.md`.
+
+
+### GHOW-REUSE-2026-10-25
+- **Accessed:** 2026-10-25.
+- **Species/stage:** *Bubo virginianus*, adults and hatching-stage young.
+- **Reused source IDs:** `GHOW-CORNELL-ID`, `GHOW-CORNELL-LIFE`, `GHOW-CORNELL-CAM-FAQ`.
+- **Freshly read evidence:** Cornell identification supports large thick-bodied adults with prominent ear tufts, yellow eyes and regionally variable gray-to-cinnamon facial discs; life history states hatchlings are helpless with closed eyes, pink skin and white down on upperparts, with a 42-day nestling period; the camera FAQ supports female heavier tendency but does not define display height.
+- **Limits:** no exact pictured age, continuous feather sequence, measured standing-height ratio, universal regional color or individual nest geometry.
+- **Design decision:** v2 uses one regional neutral gray-brown adult morph, near-equal adult display with subtle female fullness, irregular rather than mechanical ventral markings, and a low fully supported early hatchling with no mature wing/tail or ear tufts. Related: `owl-pet/knowledge/species/14-bubo-virginianus.md`; `owl-pet/production/runs/2026-10-25T2144+0800-cycle-3.md`.

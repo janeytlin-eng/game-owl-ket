@@ -2918,22 +2918,31 @@
           "commit_sha": "e7ac9d28de1ca262646aabfabe3a4cf8a116739e",
           "verification_commit": "484571e8e508c10f1b7c2d6510e9edf2b539f4f5",
           "run_record": "owl-pet/production/runs/2026-10-25T1628+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Bubo scandiacus",
+          "species_id": 2,
+          "version": 5,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e17383d118b5427ebe3727b1f077fc56857ebd82",
+          "verification_commit": "493762c3bf2a65aaca84f42e5ee82cfc726d050d",
+          "run_record": "owl-pet/production/runs/2026-10-25T1645+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "VERIFIED",
         "species": "Bubo scandiacus",
         "run_id": "2026-10-25T1645+0800-cycle-5",
-        "at": "2026-10-25T16:45:00+08:00"
+        "at": "2026-10-25T16:56:00+08:00",
+        "archive_commit": "e17383d118b5427ebe3727b1f077fc56857ebd82",
+        "image_blob": "f7e1f784dff71d2dd74cb91aa64d381530823384",
+        "verification_commit": "493762c3bf2a65aaca84f42e5ee82cfc726d050d"
       },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "2026-10-25T1645+0800-cycle-5",
-        "heartbeat_at": "2026-10-25T16:45:00+08:00",
-        "expires_at": "2026-10-25T17:00:00+08:00"
-      }
+      "lease": null
     }
   ],
   "lease": null,
@@ -3004,16 +3013,11 @@
     "2026-10-24 20:34 +0800: integrity correction for completed cycle 6: restored historical #03 Bubo bubo v10 blob 26a054ad65a2b1673ca06d24c811857681b77092 and moved the newly generated render to v11 blob 77df3c9257c871fd71405ddb31164c165c0c1fb8. This is not an additional production cycle.",
     "2026-10-24 21:44 +0800: new batch cycle 1 #98 Strix chacoensis reached REVIEWED after one rebuild and two toe-feather edits, but environment became unavailable during PNG base64/upload preparation. No archive credit; lease released; next_cycle remains 1. Research/index commit 05c0e0d is durable."
   ],
-  "updated_at": "2026-10-25T16:45:00+08:00",
+  "updated_at": "2026-10-25T16:56:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
     "2026-10-25 03:48 +0800: batch cycle 6 revised and verified #104 Asio madagascariensis v2; fresh rebuild retained evidence-supported older mesoptile juvenile, and one targeted edit extended adult feathering onto proximal toe bases while keeping distal claws exposed. Archive commit 945ae44d42bd890d00c07c9b3817616200aeba11, Git blob 7eab1531203df968dc1d0481476abc5c7778a2e1. Unique species remains 157/251; batch closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-production",
-    "run_id": "2026-10-25T1645+0800-cycle-5",
-    "heartbeat_at": "2026-10-25T16:45:00+08:00",
-    "expires_at": "2026-10-25T17:00:00+08:00"
-  }
+  "active_lease": null
 }

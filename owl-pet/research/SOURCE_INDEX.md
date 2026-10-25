@@ -2995,3 +2995,14 @@ Reused and freshly read 2026-10-26:
 - WHSO-CORNELL-LIFE-2026: unlined natural/woodpecker cavity, 24–30 day nestling period, and fledgling walking/hopping on branches.
 - WHSO-NM-ACCOUNT-2017: regional dense oak/pine-oak canyon nesting habitat and secondary-cavity use.
 - WHSO-MIKKOLA-2013: printed pp. 212–213 adult size, morphs and geographic variation; dark bill/cere wording remains in conflict with current Cornell/Audubon accounts.
+
+
+## 2026-10-26 #20 *Megascops clarkii* v3 evidence increment
+
+Freshly read/reused 2026-10-26:
+- `BSOW-PEREGRINE-2026`: actual institutional page lines 65–126 confirms 23–25 cm, 130–190 g, Costa Rica–northern Colombia humid montane/cloud forest and natural tree cavities; it explicitly states that little else is known about breeding. This supports environment and prevents invented juvenile precision.
+- `BSOW-JRR-NEST-1997`: original field nest record metadata and institutional abstract, approximately three-week chick in a natural *Quercus copeyensis* cavity; no feather map.
+- `BSOW-MIKKOLA-2013`: printed p.217 adult morphology, conservative lower-third bare-tarsus boundary, white chick/cinnamon fledgling direction; internal bare-tarsus wording tension retained.
+- `BSOW-AVIBASE-TAX-2026`: current name and historical *Otus clarkii* mapping.
+
+New source IDs: 0; reused: 4; corrected: 0. Search leads that could not be opened (BHL 403) were not treated as newly verified evidence. Links #20, v3 and run 2026-10-26T0427+0800-cycle-2. Exact chick feather sequence, sex-specific measurements and universal cavity geometry remain unknown.

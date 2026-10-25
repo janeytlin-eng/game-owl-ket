@@ -2847,16 +2847,18 @@
       ],
       "next_cycle": 6,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": null,
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-25T0826+0800-cycle-6",
+        "heartbeat_at": "2026-10-25T08:29:00+08:00",
+        "expires_at": "2026-10-25T08:44:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "species": "Scotopelia ussheri",
-        "run_id": "2026-10-25T0749+0800-cycle-5",
-        "at": "2026-10-25T07:56:00+08:00",
-        "archive_commit": "4ac56a7c136cbbf0321b9fabaf5020cb63a35d09",
-        "image_blob": "f36e55deddee201289510843d626c4f767578068",
-        "verification_commit": "59096efdb167c46c56d9d96303781023ed9dd817"
+        "cycle": 6,
+        "stage": "STARTED",
+        "species": "Scotopelia peli",
+        "run_id": "2026-10-25T0826+0800-cycle-6",
+        "at": "2026-10-25T08:29:00+08:00"
       }
     }
   ],

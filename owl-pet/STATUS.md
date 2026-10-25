@@ -936,3 +936,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-25 #117 *Otus manadensis* v8: REVISION generated and actually reviewed. Center age-unknown older juvenile uses irregular diffuse ventral mottling rather than repeated scallops, with heavier crown/back barring, compact formed wings and two-foot support. Unique species remains 157/251; scientifically_verified=false. [Run](production/runs/2026-10-25T0431+0800-cycle-1.md).
+
+
+- 2026-10-26 #19 *Megascops trichopsis* v5: REVISION archived and original-resolution reviewed. Adults show source-supported orange-tinged eyes, yellow-olive bills, short ear tufts, whiskerlike facial extensions and coarse irregular ventral spotting; center age-unknown older juvenile retains short rounded developing wings, concealed tail and visible two-foot support. Exact juvenile feather sequence and toe-feather boundary remain unknown, so `scientifically_verified=false`. Unique species remains 159/251. Image commit `141e222da52711737a9576ccba016186dcde22a9`; [run](production/runs/2026-10-26T0331+0800-cycle-1.md).

@@ -2786,7 +2786,7 @@
     },
     {
       "batch_id": "2026-10-25T0431+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -2843,24 +2843,31 @@
           "commit_sha": "4ac56a7c136cbbf0321b9fabaf5020cb63a35d09",
           "verification_commit": "59096efdb167c46c56d9d96303781023ed9dd817",
           "run_record": "owl-pet/production/runs/2026-10-25T0749+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Scotopelia peli",
+          "species_id": 156,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f316751d8e433eaf9db31c444c868ab5056cd39d",
+          "verification_commit": "d1aaccd1570645af8239dd325e9e41322418f22e",
+          "run_record": "owl-pet/production/runs/2026-10-25T1030+0800-cycle-6-recovery.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "started_at": "2026-10-25T04:31:13+08:00",
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "2026-10-25T1030+0800-cycle-6-recovery",
-        "heartbeat_at": "2026-10-25T10:32:00+08:00",
-        "expires_at": "2026-10-25T10:47:00+08:00"
-      },
+      "lease": null,
       "checkpoint": {
         "cycle": 6,
-        "stage": "IMAGE_GENERATED",
+        "stage": "VERIFIED",
         "species": "Scotopelia peli",
         "run_id": "2026-10-25T1030+0800-cycle-6-recovery",
-        "at": "2026-10-25T10:32:00+08:00",
-        "recovered_from": "2026-10-25T0826+0800-cycle-6",
-        "local_path": "owl-pet/design/concepts/156-scotopelia-peli-v2.png"
+        "at": "2026-10-25T10:41:00+08:00",
+        "archive_commit": "f316751d8e433eaf9db31c444c868ab5056cd39d",
+        "image_blob": "49aaa718e82a0f16a80f62af48527385f4ed5dd8",
+        "verification_commit": "d1aaccd1570645af8239dd325e9e41322418f22e"
       }
     }
   ],

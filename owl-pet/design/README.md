@@ -1,3 +1,9 @@
+## 2026-10-26 · #18 Megascops kennicottii v2 evidence-bounded rebuild
+
+![#18 Western Screech-Owl v2](concepts/18-megascops-kennicottii-v2.png)
+
+Rebuilt one adult-male / early-hatchling / adult-female concept sheet. Adults retain yellow eyes, deep dark bills, small ear tufts, compact square-headed gray-brown bark pattern and near-equal displayed height. The center hatchling uses the source-bounded closed-eye white-down condition, with short down-covered wing buds, concealed tail, and full head/belly/two-foot support on sparse natural cavity debris. First render passed original-resolution review without edit. Exact hatchling age, eye-opening day, continuous feather sequence, quantified sex difference outside sampled populations, regional morph and universal cavity geometry remain unknown; scientifically_verified=false. Archive commit `cd2e596fc04013b904d2faaf2b9fdc55026660f4`.
+
 ## 2026-10-26 · #17 Megascops asio v4 evidence-bounded rebuild
 
 ![#17 Eastern Screech-Owl v4](concepts/17-megascops-asio-v4.png)

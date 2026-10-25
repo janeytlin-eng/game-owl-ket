@@ -798,3 +798,10 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 证据边界重建：成年诊断、同基线近等比例、早期闭眼白绒幼鸟及旧枝巢支撑已实际复查。v1用户确认保留但不迁移；仍待精确日龄、羽序和比例科学校准。
 
 ![14-bubo-virginianus-v2](concepts/14-bubo-virginianus-v2.png)
+
+
+## 15-strix-varia-v3
+
+证据边界重建：成鸟暗褐眼、黄喙、无耳羽、上胸横斑与下胸纵纹，同基线近等展示，雌鸟仅略丰满；中央年龄未知、尚未攀枝的白绒幼鸟采用短圆绒羽翼芽、隐藏尾部，腹部与双足由不规则腐朽树洞底承托。精确日龄、连续羽序、量化雌雄差异及巢腔几何仍待科学校准；旧v2保留。
+
+![15-strix-varia-v3](concepts/15-strix-varia-v3.png)

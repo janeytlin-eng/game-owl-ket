@@ -2911,3 +2911,9 @@ Reused: JAM-PEREGRINE-2026, JAM-HOYER-BIRDSEYE, JAM-BIRDLIFE-2026 and the verifi
 - Fresh access check: BirdLife DataZone and U.S. Fish & Wildlife Service pages re-opened on 2026-10-25. BirdLife's dynamic ecology fields remained unloaded, so only the visible current-name/range structure was reused; FWS again confirmed *Scotopelia bouvieri* and TSN 555424.
 - Design boundary for v2: dark-eyed earless adults with bare yellow lower legs/feet and dense vermiculation; adults near-equal because stable visual sex dimorphism is unproven. Juvenile remains an age-unknown older mesoptile bird in a supported old stick nest; exact age, continuous feather sequence, flight ability, sex-specific measurements and fixed nest-site generality remain unknown.
 - Linked record: [157 species file](../knowledge/species/157-scotopelia-bouvieri.md); v1 and v2 concept images.
+
+
+### 2026-10-25 · #158 *Phodilus badius* v2 reuse log
+- Reused verified IDs: OBO-OWLPAGES-2020, OBO-WOT-2023, OBO-VNWILDLIFE-2025, OBO-FG-2014, OBO-BIRDLIFE-2026.
+- Fresh access: BirdLife DataZone still supports South/Southeast Asian foothill and submontane forest; World Owl Trust's current live-bird account supports very large dark eyes, broad V-divided face, orange-edged disc and tiny rounded plumicorn corners. No species-specific continuous juvenile sequence was found.
+- v2 boundary: adults near-equal, female only subtly fuller; age-unknown nest-tree chick/fledgling has short rounded developing wings, concealed tail and secure cavity-rim support. Exact age, fledging time, flight ability, quantitative sex measurements and subspecies colour differences remain unknown.

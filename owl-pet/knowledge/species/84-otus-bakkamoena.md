@@ -37,3 +37,13 @@ Freshly read ISO-EBIRD-ID-2026, ISO-PF-FACE-2026 and ISO-OWLPAGES-DESC-2020. All
 - Actual visual review: targeted correction passed on the archived 1536×1024 PNG.
 - Archive: commit `23efe6f2787571e8e4ac106072eb01abe63b3956`; Git blob `3beca06c39dc95f565ef477b17d993e0f235ec74`; SHA-256 `cbc11277516ca40f4c9916263d3c624de9ecaccaef8ff79023dd41148032035e`.
 - Scientific status: **concept reviewed, not science-verified**. Sex-specific appearance and exact juvenile age remain evidence-limited; labels must not be read as proof of quantified sexual dimorphism.
+
+
+## v7 full rebuild and adult-disc correction — 2026-10-25
+- Full evidence-bounded landscape rebuild using existing species sources plus fresh eBird/Peregrine Fund/Owl Pages checks.
+- Initial generation passed bird count, labels, juvenile stage and support but retained adult concentric eye-ring geometry. One targeted edit changed only the adult face discs, blending pale feathers into one continuous disc with a thin dark outer rim.
+- Final review passed: exactly three birds; dark-eyed tufted adults, juvenile blue-grey eyes/grey bill/no tufts, short down-covered wings, concealed tail, six supported feet, natural cavity and correct text.
+- Unknown remains exact juvenile age, continuous feather sequence, universal juvenile eye colour, flight ability, toe-feather geometry and quantified sex difference; scientifically_verified=false.
+- Image: ../../design/concepts/84-otus-bakkamoena-v7.png
+- Image commit: 7f6f352543a09a100106f1fa395cb30d000323ba; Git blob 92a18d2ab3fa2ef4d91dd9b3a9cbf92bbb5133a8; SHA-256 994af791d024ba4a27d452a58b767166ff0cf4a5c55fa87d90f20f8537d8bb25.
+- Run: ../../production/runs/2026-10-25T1525+0800-cycle-3.md

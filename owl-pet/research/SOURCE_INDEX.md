@@ -1,3 +1,16 @@
+## 2026-10-26 #18 Megascops kennicottii v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Location | Limits / design use |
+|---|---|---|---|---|---|---|---|---|
+| WESO-ADW-HATCH-2026 | [Otus kennicottii (western screech owl)](https://animaldiversity.org/accounts/Otus_kennicottii/) | Animal Diversity Web, University of Michigan Museum of Zoology | page current; accessed 2026-10-26 | Institutional species account citing Cannings & Angell 2001, Cornell 1999, Ehrlich et al. 1988 | *Megascops kennicottii* (syn. *Otus kennicottii*), hatchling | Altricial young hatch with white down, closed eyes and an egg tooth; male provisions female until young are about three weeks old. | Reproduction / Development text | Secondary synthesis rather than direct day-by-day primary measurements. Supports a conservative closed-eye white-down hatchling only; exact age, down density, eye-opening day and feather sequence remain unknown. Links species record 18, concept v2 and run 2026-10-26T0238+0800-cycle-6. Confidence: medium-high for hatch condition. |
+
+Reused:
+- WESO-CORNELL-ID-2026: adult yellow eyes, deep bill, small ear tufts, compact square-headed silhouette, bark-like streaking and regional color variation.
+- WESO-USFS-NM-2010: adult mass dimorphism in sampled New Mexico populations; mass difference is not converted to standing-height difference.
+- Cornell Western Screech-Owl life-history page (accessed 2026-10-26): natural/reused cavities, no constructed nest, eggs laid on material already present; cavity dimensions are descriptive, not a universal template.
+
+Design inference: use near-equal adult displayed height with the female only subtly fuller; select a gray-brown shared morph rather than encoding regional color as sex; depict one closed-eye white-down hatchling low on the natural cavity floor with short down-covered wing buds, concealed tail and full body support. These are evidence-bounded visual decisions, not scientific validation.
+
 # 研究资料索引
 
 访问日期统一按 Asia/Shanghai 记录。仅收录实际读取内容；搜索命中但未读原文不计为已核验来源。摘要只保存支持设计与校对的必要事实。

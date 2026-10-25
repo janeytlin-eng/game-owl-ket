@@ -791,3 +791,10 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 证据边界重建：三鸟与标签、无耳羽短尾成年、黄眼灰喙、闭眼白绒低伏幼鸟及不规则仙人掌洞支撑已实际复查。v5历史用户确认保留，不自动迁移到v6；精确日龄、羽序和巢腔尺寸仍待科学校准。
 
 ![13-micrathene-whitneyi-v6](concepts/13-micrathene-whitneyi-v6.png)
+
+
+## 14-bubo-virginianus-v2
+
+证据边界重建：成年诊断、同基线近等比例、早期闭眼白绒幼鸟及旧枝巢支撑已实际复查。v1用户确认保留但不迁移；仍待精确日龄、羽序和比例科学校准。
+
+![14-bubo-virginianus-v2](concepts/14-bubo-virginianus-v2.png)

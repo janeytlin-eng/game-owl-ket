@@ -2904,3 +2904,10 @@ Reused: JAM-PEREGRINE-2026, JAM-HOYER-BIRDSEYE, JAM-BIRDLIFE-2026 and the verifi
 - **Reused:** `PFO-BLSA-REDLIST-2025`, `PFO-FWS-TAX-2026`, `PFO-OWLPAGES-2020`, `PFO-OUZMAN-JUV`. BirdLife South Africa supports orange-rufous adults, dark eyes, visually similar sexes with only a subtle female size direction, bare fishing-adapted tarsi/toes, natural cavities, and prolonged pale juvenile down; Owl Pages supports ginger-rufous adults, bare straw-coloured lower legs/toes and cavity nesting.
 - **Evidence boundary:** exact juvenile age, day-by-day feather-tract sequence, locomotor milestone, fish-gripping spicule geometry and quantitative sex ratio remain unknown. Uploaded Mikkola guide was not accessible in this execution, so no new page claim is made.
 - **Design / review:** v2 keeps adults near-equal, dark-eyed, round-headed and ear-tuft-free with bare fishing feet. First generated juvenile had adult-like barred remiges; one targeted edit replaced them with short rounded down-covered wings and a concealed tail. Related image: `design/concepts/156-scotopelia-peli-v2.png`; run: `production/runs/2026-10-25T1030+0800-cycle-6-recovery.md`.
+
+
+### 2026-10-25 · #157 *Scotopelia bouvieri* v2 reuse log
+- Reused verified IDs: VFO-BM-CAT-1875, VFO-IBIS-YOUNG-1904, VFO-OISEAUX-LIFE-2026, VFO-BIRDLIFE-2026, VFO-FWS-TAX-2026.
+- Fresh access check: BirdLife DataZone and U.S. Fish & Wildlife Service pages re-opened on 2026-10-25. BirdLife's dynamic ecology fields remained unloaded, so only the visible current-name/range structure was reused; FWS again confirmed *Scotopelia bouvieri* and TSN 555424.
+- Design boundary for v2: dark-eyed earless adults with bare yellow lower legs/feet and dense vermiculation; adults near-equal because stable visual sex dimorphism is unproven. Juvenile remains an age-unknown older mesoptile bird in a supported old stick nest; exact age, continuous feather sequence, flight ability, sex-specific measurements and fixed nest-site generality remain unknown.
+- Linked record: [157 species file](../knowledge/species/157-scotopelia-bouvieri.md); v1 and v2 concept images.

@@ -3074,7 +3074,14 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": null
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T0726+0800-cycle-4",
+        "cycle": 4,
+        "heartbeat_at": "2026-10-26T07:30:00+08:00",
+        "expires_at": "2026-10-26T07:45:00+08:00",
+        "stage": "RESEARCH_READY"
+      }
     }
   ],
   "lease": null,

@@ -3063,19 +3063,18 @@
           "unique_species_increment": 0,
           "commit_sha": "adcf1dab4eccc84ce197c1b7b42cbc2a7a06a433",
           "run_record": "owl-pet/production/runs/2026-10-26T0427+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Megascops choliba",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "30b9f04f936ec299c0fe4c90db3e2777658c3a95",
+          "run_record": "owl-pet/production/runs/2026-10-26T0632+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T0632+0800-cycle-3",
-        "cycle": 3,
-        "heartbeat_at": "2026-10-26T06:44:00+08:00",
-        "expires_at": "2026-10-26T06:59:00+08:00",
-        "stage": "ARCHIVED",
-        "image_commit": "173260a22a7f7240a2a0796ee3ea5431540cd940",
-        "image_blob": "0c0909fd3cec170b45dc6d8e33363cc5d39c89bf"
-      }
+      "next_cycle": 4,
+      "active_lease": null
     }
   ],
   "lease": null,

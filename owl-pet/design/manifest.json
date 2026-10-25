@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25",
+  "updated": "2026-10-25T10:38:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -2471,6 +2471,35 @@
       "run_record": "production/runs/2026-10-25T0749+0800-cycle-5.md",
       "archive_commit": "4ac56a7c136cbbf0321b9fabaf5020cb63a35d09",
       "image_git_blob": "f36e55deddee201289510843d626c4f767578068"
+    },
+    {
+      "id": "156-scotopelia-peli-v1",
+      "path": "design/concepts/156-scotopelia-peli-v1.png",
+      "species_id": 156,
+      "scientific_name": "Scotopelia peli",
+      "common_name": "Pel's Fishing Owl",
+      "version": 1,
+      "sha256": "651f1dd15a0d22520fe19bf86c7b1181f061e191b8ed90c0cd622c46c8c24995",
+      "scientifically_verified": false,
+      "status": "Historical verified v1 recovered into manifest; exact juvenile age and sequence unresolved.",
+      "run_record": "production/runs/2026-10-14T1027+0800-cycle-5.md",
+      "archive_commit": "4209ca0e1f1f6785452cfd5ebf517c22bd3185d1",
+      "image_git_blob": "4edc334ffa796510f45182a903dec5ea3048286e"
+    },
+    {
+      "id": "156-scotopelia-peli-v2",
+      "path": "design/concepts/156-scotopelia-peli-v2.png",
+      "species_id": 156,
+      "scientific_name": "Scotopelia peli",
+      "common_name": "Pel's Fishing Owl",
+      "version": 2,
+      "sha256": "ff03472b6af2fc7f910ec355b4453d111ea634e06d2355207ce4da808f131870",
+      "scientifically_verified": false,
+      "status": "Landscape v2 recovered after interruption. Exactly three supported birds; dark-eyed ear-tuft-free adults with bare fishing feet. Initial juvenile mature remiges were edited to short rounded down-covered wings and concealed tail. Exact age, continuous feather sequence, locomotor milestone and fixed sex ratio unknown.",
+      "source_index": "research/SOURCE_INDEX.md#2026-10-25--156-pels-fishing-owl--scotopelia-peli-v2",
+      "run_record": "production/runs/2026-10-25T1030+0800-cycle-6-recovery.md",
+      "archive_commit": "f316751d8e433eaf9db31c444c868ab5056cd39d",
+      "image_git_blob": "49aaa718e82a0f16a80f62af48527385f4ed5dd8"
     }
   ]
 }

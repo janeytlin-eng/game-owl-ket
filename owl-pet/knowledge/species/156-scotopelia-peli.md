@@ -24,3 +24,15 @@ The generated v1 was actually inspected and passed without an edit: exactly thre
 - Image: [156-scotopelia-peli-v1.png](../../design/concepts/156-scotopelia-peli-v1.png)
 - Image commit: `4209ca0e1f1f6785452cfd5ebf517c22bd3185d1`
 - scientifically_verified: false
+
+
+## v2 recovery revision · 2026-10-25
+Fresh internet research added BirdLife International's current Data Zone factsheet and re-read the indexed BirdLife South Africa and Owl Pages accounts. The evidence continues to support round-headed, ear-tuft-free, dark-eyed ginger-rufous adults; bare lower tarsi/toes; riverine forest; natural cavities; and a prolonged pale-down juvenile direction. It does not resolve exact juvenile age, continuous feather sequence, flight ability, foot-spicule geometry or a fixed male/female scale.
+
+The recovered v2 final was visually re-inspected. Exactly three labeled birds are present on one continuous natural branch. Adults retain dark eyes, no ear tufts, bare pale-straw lower legs/toes and near-equal display scale. The first generated juvenile's long barred remiges failed review; one targeted edit produced short rounded down-covered wings, concealed tail and explicit two-foot support. Scientific verification remains false.
+
+- Image: [156-scotopelia-peli-v2.png](../../design/concepts/156-scotopelia-peli-v2.png)
+- Archive commit: `f316751d8e433eaf9db31c444c868ab5056cd39d`
+- Git blob: `49aaa718e82a0f16a80f62af48527385f4ed5dd8`
+- SHA-256: `ff03472b6af2fc7f910ec355b4453d111ea634e06d2355207ce4da808f131870`
+- scientifically_verified: false

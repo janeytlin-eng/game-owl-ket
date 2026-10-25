@@ -2982,3 +2982,16 @@ Mapping: *Strix varia* → adult diagnosis BARO-CORNELL-ID; sex similarity BARO-
 |---|---|---|---|---|---|---|---|
 | ESOW-CORNELL-LIFE-2026 | Cornell Lab of Ornithology, [Eastern Screech-Owl Life History](https://www.allaboutbirds.org/guide/Eastern_Screech-Owl/lifehistory) | live page; accessed 2026-10-26 | Institutional species account | *Megascops asio*, nesting and hatchling | Nesting / Nesting Facts | Natural or reused cavities; no constructed nest; eggs/chicks rest on cavity debris. Hatching condition is white down with eyes closed; nestling period 26–30 days. | Supports an explicitly early, closed-eye, fully floor-supported chick without formed remiges. Nestling-period range does not identify exact image age or continuous feather sequence. Linked to [#17 v4 run](../production/runs/2026-10-26T0141+0800-cycle-5.md). Confidence: high. |
 | ESOW-EKU-2017 | Gary Ritchison / Eastern Kentucky University, [Eastern Screech-Owl](https://encompass.eku.edu/fs_research/160/) | 2017; accessed 2026-10-26 | University species account | *Megascops asio*, breeding ecology | Abstract | Females incubate and feed nestlings for roughly a month, then tend fledglings for 8–10 weeks; species uses natural and human-made cavities. | Broad timing only; does not supply exact early plumage, eye-opening day or sex-specific standing-height measurements. Supports cavity setting and continued uncertainty. Confidence: medium-high. |
+
+
+## 2026-10-26 #19 *Megascops trichopsis* v5 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Location | Limits / design use |
+|---|---|---|---|---|---|---|---|---|
+| WHSO-ADW-YOUNG-2026 | [*Otus trichopsis* (whiskered screech owl)](https://animaldiversity.org/accounts/Otus_trichopsis/) | Animal Diversity Web, University of Michigan Museum of Zoology | page current; accessed 2026-10-26 | Institutional secondary species account | *Megascops trichopsis* (syn. *Otus trichopsis*), hatchling and fledgling | Young are described as semi-altricial with white down, pinkish bare skin, closed eyes and egg tooth; fledglings initially have weak flight and remain near parents. | Development / Reproduction text | Secondary synthesis, not a measured day-by-day primary series. Supports conservative hatch condition and weak initial flight only; does not establish the exact age, feather map, eye-opening day, or appearance of the older juvenile in v5. Confidence: medium-high for broad stage traits. Links #19, concept v5 and run 2026-10-26T0331+0800-cycle-1. |
+
+Reused and freshly read 2026-10-26:
+- WHSO-CORNELL-ID-2026: orange-tinged eyes, yellow-olive bill, feathered toes, whiskerlike facial extensions, and coarse spotted rather than long-streaked underparts.
+- WHSO-CORNELL-LIFE-2026: unlined natural/woodpecker cavity, 24–30 day nestling period, and fledgling walking/hopping on branches.
+- WHSO-NM-ACCOUNT-2017: regional dense oak/pine-oak canyon nesting habitat and secondary-cavity use.
+- WHSO-MIKKOLA-2013: printed pp. 212–213 adult size, morphs and geographic variation; dark bill/cere wording remains in conflict with current Cornell/Audubon accounts.

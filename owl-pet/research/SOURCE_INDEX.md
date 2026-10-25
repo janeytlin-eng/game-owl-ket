@@ -2933,3 +2933,12 @@ Reused: JAM-PEREGRINE-2026, JAM-HOYER-BIRDSEYE, JAM-BIRDLIFE-2026 and the verifi
 | NHO-CORNELL-ID-2026 | Cornell Lab of Ornithology, [Northern Hawk Owl Identification](https://www.allaboutbirds.org/guide/Northern_Hawk_Owl/id) | 页面现行版，访问2026-10-25 | 机构物种页与标注实物照片 | *Surnia ulula*，成年 | Identification、Color Pattern、Habitat、Measurements | 中型鸮，椭圆紧凑体形、长而收尖的尾、短尖翼；黄眼，白脸具深色外缘；褐色上体白斑、腹部褐色横纹；开放针阔混交林邻近开阔或湿地。两性合并体长36–45 cm、体重240–454 g。 | 合并测量不支持固定雌雄站高差；照片用于成年共同特征和环境，不支持幼鸟连续羽序。链接#10 v2。可信度：高。 |
 | NHO-CORNELL-LIFE-2026 | Cornell Lab of Ornithology, [Northern Hawk Owl Life History](https://www.allaboutbirds.org/guide/Northern_Hawk_Owl/lifehistory) | 页面现行版，访问2026-10-25 | 机构物种页 | *S. ulula*，初生、巢位、巢期 | Nest Description、Nesting Facts | 啄木鸟洞、自然腐洞或断树中空顶部为主；不添加巢材，洞底可积累食丸与猎物毛；孵化时无助、白绒羽；巢期20–35日。 | 20–35日是巢期范围，不能指定图中日龄；未提供连续羽序、眼睛开放时点或精确比例。v2采用年龄未知的早期白绒巢内阶段。可信度：高。 |
 | NHO-NPS-NEST-2021 | U.S. National Park Service, [Northern Hawk Owl](https://www.nps.gov/articles/northern-hawk-owl.htm) | 2021-10-26，访问2026-10-25 | 美国国家公园管理局物种资料 | *S. ulula*，巢位 | Nesting段落 | 多数巢位于断树中空顶部或树洞；巢址通常不逐年重复，但某些个体可多年使用同一巢区。 | 不支持幼鸟外观、日龄或性别形态；只交叉确认断树/树洞巢位，不能把巢区忠诚画成固定巢材。可信度：高。 |
+
+
+### ELF-REUSE-2026-10-25
+- **Accessed:** 2026-10-25.
+- **Species/stage:** *Micrathene whitneyi*, adults and newly hatched/very early nestling.
+- **Reused source IDs:** `ELF-CORNELL-LIFE`, `ELF-CORNELL-ID`, `ELF-NPS-SAGUARO-BOOT`.
+- **Freshly read evidence:** Cornell Lab identification and life-history pages support tiny tuftless short-tailed adults with yellow eyes, white eyebrows, two white upperpart stripes, diffuse underpart streaks, and hatchlings with thick white down unable to sit up; NPS supports old woodpecker chambers in living saguaros with a hardened grayish wound lining and a vaguely shoe/sock-shaped rather than regular bottle-shaped cavity.
+- **Limits:** no exact chick age, continuous feather sequence, eye-opening day, measured cactus-wall thickness, calibrated wound-lining colour or quantified standing-height sex difference. Uploaded Mikkola guide unavailable this invocation.
+- **Design decision:** v6 uses a physically supported early white-down nestling with down-buried wing buds and no tail; adults stay near-equal; the irregular cutaway is explicitly illustrative. Related: `owl-pet/knowledge/species/13-micrathene-whitneyi.md`; `owl-pet/production/runs/2026-10-25T2131+0800-cycle-2.md`.

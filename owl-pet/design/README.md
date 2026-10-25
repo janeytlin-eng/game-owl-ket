@@ -1,3 +1,9 @@
+## 2026-10-26 · #17 Megascops asio v4 evidence-bounded rebuild
+
+![#17 Eastern Screech-Owl v4](concepts/17-megascops-asio-v4.png)
+
+Rebuilt one adult-male / early-hatchling / adult-female concept sheet. Adults retain yellow eyes, small ear tufts, gray-green bills and gray-morph bark pattern at near-equal displayed height. The center hatchling uses the source-bounded closed-eye white-down condition, with short down-covered wing buds, concealed tail, and full head/belly/two-foot support on sparse natural cavity debris. First render passed original-resolution review without edit. Exact hatchling age, eye-opening day, continuous feather sequence, regional morph variation and quantified sex difference remain unknown; scientifically_verified=false. Archive commit `bccad4774ccebdd50a97ae0f769896dcdfb4c4a1`.
+
 ## 156-scotopelia-peli-v1
 
 状态：横斑渔鸮成年雄鸟、成年雌鸟与树洞内白绒为主幼鸟；已生成并目视检查，待科学校准。

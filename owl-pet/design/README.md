@@ -817,3 +817,10 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 证据边界重建：成鸟暗褐眼、黄喙、无耳羽、上胸横斑与下胸纵纹，同基线近等展示，雌鸟仅略丰满；中央年龄未知、尚未攀枝的白绒幼鸟采用短圆绒羽翼芽、隐藏尾部，腹部与双足由不规则腐朽树洞底承托。精确日龄、连续羽序、量化雌雄差异及巢腔几何仍待科学校准；旧v2保留。
 
 ![15-strix-varia-v3](concepts/15-strix-varia-v3.png)
+
+
+## 19-megascops-trichopsis-v5
+
+证据边界重建：三鸟及标签正确；成鸟保留橙调虹膜、黄橄榄色喙、短耳簇、须状脸羽和不规则粗斑，雌鸟仅略丰满；中央年龄未知的较大幼鸟具蓬松中雏羽、短圆发育翼、隐藏尾部和双足枝条支撑。精确日龄、连续羽序、趾羽边界、量化雌雄差异及细斑几何仍待科学校准；旧版本保留。
+
+![19-megascops-trichopsis-v5](concepts/19-megascops-trichopsis-v5.png)

@@ -3003,26 +3003,33 @@
           "commit_sha": "f5a57a57753b6e2b4e1fcd6bfeb52d24384dca1a",
           "verification_commit": "aa9c68a339358948d952a85ed74e5bb32fa1129b",
           "run_record": "owl-pet/production/runs/2026-10-25T2234+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops asio",
+          "species_id": 17,
+          "version": 4,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "bccad4774ccebdd50a97ae0f769896dcdfb4c4a1",
+          "verification_commit": "31baf91e05022715683ed6134cce6a9b175a0a1f",
+          "run_record": "owl-pet/production/runs/2026-10-26T0141+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "checkpoint": {
         "cycle": 5,
-        "stage": "RESEARCH_READY",
+        "stage": "VERIFIED",
         "species": "Megascops asio",
         "species_id": 17,
         "version": 4,
         "run_id": "2026-10-26T0141+0800-cycle-5",
-        "at": "2026-10-26T02:29:00+08:00",
+        "at": "2026-10-26T02:36:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T0141+0800-cycle-5.md",
-        "source_index_commit": "8a19a52ff1ec2bd0347ceba841878c8b87fc00a2"
+        "commit_sha": "bccad4774ccebdd50a97ae0f769896dcdfb4c4a1",
+        "verification_commit": "31baf91e05022715683ed6134cce6a9b175a0a1f"
       },
-      "lease": {
-        "owner": "owl-production-2026-10-26T0228+0800",
-        "run_id": "2026-10-26T0141+0800-cycle-5",
-        "heartbeat_at": "2026-10-26T02:29:00+08:00",
-        "expires_at": "2026-10-26T02:44:00+08:00"
-      }
+      "lease": null
     }
   ],
   "lease": null,
@@ -3094,7 +3101,7 @@
     "2026-10-24 21:44 +0800: new batch cycle 1 #98 Strix chacoensis reached REVIEWED after one rebuild and two toe-feather edits, but environment became unavailable during PNG base64/upload preparation. No archive credit; lease released; next_cycle remains 1. Research/index commit 05c0e0d is durable.",
     "2026-10-26 01:40 +0800: recovered expired cycle 4 and verified #15 Strix varia v3; reused the already archived image after original-resolution visual review, registered manifest/design/status/run evidence, and confirmed immutable Git blob ad04ba5d1a40eb2bcc18fc1cb39a37ebe81cfbeb. Archive commit f5a57a57753b6e2b4e1fcd6bfeb52d24384dca1a; verification commit aa9c68a339358948d952a85ed74e5bb32fa1129b. Unique species is 159/251 by current manifest; batch advances to 4/6, next_cycle 5."
   ],
-  "updated_at": "2026-10-26T01:46:00+08:00",
+  "updated_at": "2026-10-26T02:37:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

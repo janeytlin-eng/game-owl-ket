@@ -24,3 +24,12 @@ The first generated plate was inspected and the juvenile wing was found too adul
 - Image commit: `d306e8a7e23b1bce22d8e33fd34d17e6e06b1cb9`
 - Git blob: `6c69baf500dc81b8d7065c8842bd446f1b964ff6`
 - scientifically_verified: false
+
+
+## v2 revision — 2026-10-25
+Fresh access reused OBO-OWLPAGES-2020, OBO-WOT-2023, OBO-VNWILDLIFE-2025, OBO-FG-2014 and OBO-BIRDLIFE-2026. The first render preserved the divided V-face, dark eyes and cavity habitat but gave the juvenile spotted layered adult-like remiges. One targeted edit removed them and concealed the tail under down. Final recheck passed: exactly three labeled birds, near-equal adults, huge dark eyes, tiny rounded plumicorn corners, natural foot support and a securely supported cavity-rim juvenile. Exact juvenile age, feather sequence, fledging/flight ability, quantitative sex difference and subspecies colour remain unknown; scientifically_verified stays false.
+
+- Image: [158-phodilus-badius-v2.png](../../design/concepts/158-phodilus-badius-v2.png)
+- Image commit: `57af90bc230605ce6cb94e65df6ba8183fae7952`
+- Git blob: `a17830282c371307daccbbdd14895ad218d54ecb`
+- SHA-256: `bab7f076ad2b2986c15a7aefc7804f5cafd8090b1747e13b6788b56ba20589de`

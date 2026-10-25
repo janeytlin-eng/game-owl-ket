@@ -3013,11 +3013,16 @@
         "species_id": 17,
         "version": 4,
         "run_id": "2026-10-26T0141+0800-cycle-5",
-        "at": "2026-10-26T01:45:00+08:00",
+        "at": "2026-10-26T02:29:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T0141+0800-cycle-5.md",
         "source_index_commit": "8a19a52ff1ec2bd0347ceba841878c8b87fc00a2"
       },
-      "lease": null
+      "lease": {
+        "owner": "owl-production-2026-10-26T0228+0800",
+        "run_id": "2026-10-26T0141+0800-cycle-5",
+        "heartbeat_at": "2026-10-26T02:29:00+08:00",
+        "expires_at": "2026-10-26T02:44:00+08:00"
+      }
     }
   ],
   "lease": null,

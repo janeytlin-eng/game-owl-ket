@@ -2996,19 +2996,27 @@
       ],
       "next_cycle": 4,
       "checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Bubo virginianus",
-        "run_id": "2026-10-25T2144+0800-cycle-3",
-        "at": "2026-10-25T21:54:00+08:00",
-        "archive_commit": "f5063d83d3577745a3d9b0a0dda8befa57ac7b7d",
-        "image_blob": "683bee6a1866724a7aac613b4365bbe3ffa29e94",
-        "verification_commit": "9a3055ef45846268a555080a1392172d5cbf9808"
+        "cycle": 4,
+        "stage": "STARTED",
+        "species": null,
+        "run_id": "2026-10-25T2234+0800-cycle-4",
+        "at": "2026-10-25T22:35:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-25T2234+0800-cycle-4.md"
       },
-      "lease": null
+      "lease": {
+        "owner": "owl-production",
+        "run_id": "2026-10-25T2234+0800-cycle-4",
+        "heartbeat_at": "2026-10-25T22:35:00+08:00",
+        "expires_at": "2026-10-25T22:50:00+08:00"
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "owl-production",
+    "run_id": "2026-10-25T2234+0800-cycle-4",
+    "heartbeat_at": "2026-10-25T22:35:00+08:00",
+    "expires_at": "2026-10-25T22:50:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

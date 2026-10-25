@@ -35,3 +35,12 @@ Cornell生命周期：刚孵化白绒羽、闭眼；使用旧啄木鸟洞和巢�
 成年落脚基线拉平；保留雌鸟稍丰满，不从体重推站高；幼鸟不改变。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
 来源索引ID：NSWO-ORI-FACTS / NSWO-CORNELL-LIFE，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
 [v2原图](../../design/concepts/12-aegolius-acadicus-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-4.md) · 图片提交6ce6e1a4bada597fe8958bcc172a7e3ec51990c9。
+
+
+## 2026-10-25 v3 evidence-bounded rebuild
+
+Fresh institutional reread reused NSWO-CORNELL-LIFE and NSWO-ORI-FACTS. The concept preserves the species-level black bill, yellow eyes, rounded tuftless head, rusty-brown white-spotted upperparts and pale vertically streaked underparts. Adults share plumage and use near-equal display scale; the female is only subtly fuller.
+
+The center bird is an age-unknown very early nestling: closed eyes, white natal down, no formed wing panels or tail, belly and head/neck supported by old cavity-floor wood debris. Cornell's 27–34 day nestling interval is not used to assign an exact day. The image was actually viewed: exactly three birds, labels correct, natural supports visible, no edit required. Exact feather density, bill geometry, body proportions, sex difference and continuous juvenile sequence remain unknown; scientifically_verified=false. No approval transfers from v1/v2.
+
+Image: [v3](../../design/concepts/12-aegolius-acadicus-v3.png). Image commit 97e1e14c6a18f0cf56c68eca0678776e9c36ad59. PNG 1536×1024, 2,712,058 bytes, SHA-256 fbfd2b5af7a88e4554ed0041e172a77c159c962ace4dd83a7b78356dd36045c0, Git blob 7cd8b975cf19adbe1290c5e68c875a070eae34ff.

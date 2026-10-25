@@ -3018,3 +3018,15 @@ Freshly opened/reused 2026-10-26:
 Design boundary: same gray-brown morph for both adults; no invented sexual plumage dimorphism and only subtle female fullness because quantified sex measurements are absent. v4's center chick is explicitly an evidence-bounded 11–13-day visual inference: open eyes, low supported posture, white down and only tiny close pin tips. Exact pin length, continuous feather sequence, reference subspecies and universal cavity geometry remain unknown; `scientifically_verified=false`.
 
 New source IDs: 0; reused/freshly read: 2; corrected: 0. Linked concept `design/concepts/21-megascops-choliba-v4.png`; run `production/runs/2026-10-26T0632+0800-cycle-3.md`.
+
+
+## 2026-10-26 #22 *Gymnasio nudipes* v3 evidence increment
+
+Freshly opened/reused 2026-10-26:
+- `PRO-BIRDSCARIB-2021`: BirdsCaribbean's Puerto Rican endemic account was read in full. It supports 23–25 cm, dark-brown upperparts, white underparts with brown streaks, prominent white eyebrows, two common brown/rufous morphs, a rare dry-forest gray morph, completely bare lower legs and feet, similar-looking sexes with female somewhat heavier, natural tree cavities from April–June, and embedded footage of two fluffy nestlings. It supplies no chick age, iris ontogeny or feather sequence.
+- `PRO-ABC-2026`: American Bird Conservancy's current life-history page was freshly read. It explicitly says the species and its young are poorly known; its 20–30-day incubation/fledging ranges are comparisons with related owls and are not transferred into the v3 age claim. It supports older/dead-tree and Puerto Rican Woodpecker cavities.
+- `PRO-PEREGRINE-2026` and `PRO-OWLPAGES-2020` remain reused for adult reddish-brown/brownish irises, green-yellow bill, bare-leg boundary and continued breeding-data limits. The older unsubstantiated ABC orange-yellow adult-eye attribution remains corrected, not restored.
+
+Design boundary: v3 uses one brown adult morph for both sexes, near-equal displayed height and only subtle female fullness; mass tendency is not converted into a fixed height ratio. The center bird is an age-unknown fluffy cavity nestling based only on the available footage: short rounded developing wings kept under soft gray-buff juvenile plumage, tail concealed, no mature layered remiges, and belly plus both feet supported. Juvenile iris color, exact age, continuous feather sequence, flight ability, bare-leg fine geometry and universal cavity dimensions remain unknown; `scientifically_verified=false`.
+
+New source IDs: 0; reused/freshly read: 4; corrected: 0. Linked v3 and run `production/runs/2026-10-26T0726+0800-cycle-4.md`.

@@ -39,3 +39,13 @@
 ## 2026-10-15T19:39:39.036Z 02-bubo-scandiacus-v4 REVISION
 SecondeditactualPNGviewed: conspicuouswhiteX/whitecheeks removed, graydownnowextendsaroundeyesandbill, subtlerlightwispsnotsharpadultX. Headgentleturn/graymesoptile/belly-moundcontact/twofootcontacts/yelloweyes/darkbill preserved; noadultwingpanels orformedtail. Toe-downshortbutstylized; exactday9–14 iris/pinlength andbodyratio notvalidated. Adults andlabels retainedvisually, notpixelidenticalclaim. Scientificfalse, priorv3approvalnottransferred.
 [FullPNG](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/02-bubo-scandiacus-v4.png) imagecommit 8df7513ecc81392d717234698625163eff204dab; SHA256 49cb6e30a9d12117db6bbdfb17194eddd1608441bd113a2f9414155845bf42c6 bytes 2175676. Sourceindexnew1 SNO-ORI-2022GUIDE. Unique102/251 unchanged, historicaluserapprovalonlyoldversion/science0. Run owl-pet/production/runs/2026-10-16T0146+0800-cycle-5.md.
+
+## 2026-10-25 · v5 ORI stage rebuild
+
+Re-read SNO-ORI-2022GUIDE and Cornell identification. The first v5 render showed long formed layered juvenile flight feathers; one targeted edit replaced them with a short gray-down-covered wing bud and only a few short primary quill tips, while hiding a formed tail and retaining feather-growing legs/toes plus ground support. Adult male is paler, adult female more barred, both with yellow eyes and tundra context. The 16–18-day target is a design bracket, not a measured individual; exact age, quill length, sex-size ratio and regional plumage remain unresolved. scientifically_verified: false.
+
+- Image: [02-bubo-scandiacus-v5.png](../../design/concepts/02-bubo-scandiacus-v5.png)
+- Image commit: `e17383d118b5427ebe3727b1f077fc56857ebd82`
+- Git blob: `f7e1f784dff71d2dd74cb91aa64d381530823384`
+- SHA-256: `35bd8a2dec21f79753718fa4a45c1b18f27f40cf69fdcea0e32044ec5a84d318`
+- Run: [2026-10-25T1645+0800-cycle-5.md](../../production/runs/2026-10-25T1645+0800-cycle-5.md)

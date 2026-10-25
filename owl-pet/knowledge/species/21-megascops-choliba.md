@@ -36,3 +36,10 @@ v2首图仍出现一束偏长的幼鸟翼羽，已定向编辑为白绒主体和
 ActualeditedPNGviewed: thickloosechipheap reduced to a muchbarercavityfloor withfewflatbarkpieces. Chickbelly/feetstillcontactfloor, openeyes/whitefinefluff/shortdarkemergingwingpins retained; adults/yelloweyes/greengraybills/blackfacediskborder/labels/palmwalls unchangedvisually. Nest43cmdepthnotrepresented asmeasurement; exposedcavity isartcutaway. Finepinlength/irisage/sexscale stillpending, sciencefalse.
 ![image](../../design/concepts/21-megascops-choliba-v3.png)
 [Prompt/review](../../production/runs/2026-10-19T0431+0800-cycle-4.md)
+
+
+## 21-megascops-choliba-v4 · 2026-10-26
+
+v4重新按11–13日龄证据边界制作。首稿三鸟、成年诊断和文字正确，但中央幼鸟两侧出现偏长的层叠飞羽；定向编辑仅移除成熟翼羽，恢复白绒主体和少量贴身极短羽轴。最终1536×1024 PNG已按原始分辨率复查：恰好三鸟；成鸟同一灰褐色型、近等展示高度，黄眼、浅绿灰喙、黑缘脸盘与羽跗清楚；幼鸟低伏，腹部与双足由几乎裸露的枯棕榈洞底支撑，无尾羽或耳簇。精确羽轴长度、连续羽序、参考亚种、分性别测量和普遍巢腔几何仍未知，科学通过为否。
+
+图：`design/concepts/21-megascops-choliba-v4.png`；运行：`production/runs/2026-10-26T0632+0800-cycle-3.md`；图像归档提交：`173260a22a7f7240a2a0796ee3ea5431540cd940`；Git blob：`0c0909fd3cec170b45dc6d8e33363cc5d39c89bf`。

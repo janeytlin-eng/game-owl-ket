@@ -3006,3 +3006,15 @@ Freshly read/reused 2026-10-26:
 - `BSOW-AVIBASE-TAX-2026`: current name and historical *Otus clarkii* mapping.
 
 New source IDs: 0; reused: 4; corrected: 0. Search leads that could not be opened (BHL 403) were not treated as newly verified evidence. Links #20, v3 and run 2026-10-26T0427+0800-cycle-2. Exact chick feather sequence, sex-specific measurements and universal cavity geometry remain unknown.
+
+
+## 2026-10-26 #21 *Megascops choliba* v4 evidence increment
+
+Freshly opened/reused 2026-10-26:
+- `TSO-ACTA-NESTLING-2017`: Guilherme & de Souza, original Acta Amazonica paper and PDF; monitored a southwestern Amazon nest from hatching to departure. Figures/text bound the chosen 11–13-day stage: white down remains dominant, darker mesoptile begins near day 13, and the first flight-feather shafts only begin to appear. Nestlings remained about 30 days. The single Acre nest is not a universal subspecies, growth or cavity standard.
+- `TSO-PEREGRINE-2026`: institutional species account freshly opened; natural/man-made cavities, tree holes, old woodpecker holes and nest boxes are documented. This supports a cavity scene but not exact geometry or floor depth.
+- Existing `TSO-UWI-BEHAV-2014`, `TSO-ITIS-TAX-2026` and `TSO-MIKKOLA-2013` remain mapped for adult diagnostics, behaviour, historical *Otus choliba* search name and printed pp. 218–219.
+
+Design boundary: same gray-brown morph for both adults; no invented sexual plumage dimorphism and only subtle female fullness because quantified sex measurements are absent. v4's center chick is explicitly an evidence-bounded 11–13-day visual inference: open eyes, low supported posture, white down and only tiny close pin tips. Exact pin length, continuous feather sequence, reference subspecies and universal cavity geometry remain unknown; `scientifically_verified=false`.
+
+New source IDs: 0; reused/freshly read: 2; corrected: 0. Linked concept `design/concepts/21-megascops-choliba-v4.png`; run `production/runs/2026-10-26T0632+0800-cycle-3.md`.

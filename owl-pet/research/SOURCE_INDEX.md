@@ -2917,3 +2917,13 @@ Reused: JAM-PEREGRINE-2026, JAM-HOYER-BIRDSEYE, JAM-BIRDLIFE-2026 and the verifi
 - Reused verified IDs: OBO-OWLPAGES-2020, OBO-WOT-2023, OBO-VNWILDLIFE-2025, OBO-FG-2014, OBO-BIRDLIFE-2026.
 - Fresh access: BirdLife DataZone still supports South/Southeast Asian foothill and submontane forest; World Owl Trust's current live-bird account supports very large dark eyes, broad V-divided face, orange-edged disc and tiny rounded plumicorn corners. No species-specific continuous juvenile sequence was found.
 - v2 boundary: adults near-equal, female only subtly fuller; age-unknown nest-tree chick/fledgling has short rounded developing wings, concealed tail and secure cavity-rim support. Exact age, fledging time, flight ability, quantitative sex measurements and subspecies colour differences remain unknown.
+
+
+### 2026-10-25 · #84 *Otus bakkamoena* v7 reuse and fresh check
+- **Accessed:** 2026-10-25.
+- **Reused verified IDs:** `BAK-BRRAICH-SINGH2021`, `BAK-MIK2013-150`, `ISO-EBIRD-ID-2026`, `ISO-PF-FACE-2026`, `ISO-OWLPAGES-DESC-2020`.
+- **Freshly read:** Cornell Lab/eBird current account (https://ebird.org/species/insowl1) supports prominent ear tufts, dark eyes, variable grey-brown plumage, thin black facial-disc border and woodland habitat; The Peregrine Fund current account (https://peregrinefund.org/explore-raptors-species/owls/indian-scops-owl) supports tree-hole nesting and explicitly states that young are poorly known; Owl Pages (https://www.owlpages.com/owls/species.php?s=760) supports cavities, woodland/orchards and limited breeding knowledge.
+- **Primary juvenile boundary:** Brraich & Singh photo 70, Indian BIRDS 17(2), p.56, remains the actual-read source for one supported juvenile: grey horizontal barring, no ear tufts, blue-grey eyes, grey bill, underdeveloped wings and supported feet. This is one brood/observation and is not generalized into a universal age sequence.
+- **Design decision:** v7 is a full evidence-bounded rebuild rather than another unsupported eye-ring edit: adults have dark hazel-brown eyes within one continuous pale grey-buff disc and a thin dark outer rim; juvenile has blue-grey eyes and grey bill, short soft wings, short concealed tail and secure cavity-floor support. Adults shown near-equal with only subtle female fullness; no quantified sex ratio claim.
+- **Unknown:** exact juvenile age, continuous feather sequence, flight ability, universal juvenile eye colour, toe-feather geometry and quantified sexual dimorphism. Uploaded Mikkola guide was unavailable this invocation, so the already indexed printed pp.150–151 are reused without a new page-reading claim.
+- **Related:** `design/concepts/84-otus-bakkamoena-v7.png`; `production/runs/2026-10-25T1525+0800-cycle-3.md`.

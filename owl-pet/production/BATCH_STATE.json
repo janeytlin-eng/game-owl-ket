@@ -2849,16 +2849,18 @@
       "started_at": "2026-10-25T04:31:13+08:00",
       "lease": {
         "owner": "codex-production",
-        "run_id": "2026-10-25T0826+0800-cycle-6",
-        "heartbeat_at": "2026-10-25T08:29:00+08:00",
-        "expires_at": "2026-10-25T08:44:00+08:00"
+        "run_id": "2026-10-25T1030+0800-cycle-6-recovery",
+        "heartbeat_at": "2026-10-25T10:32:00+08:00",
+        "expires_at": "2026-10-25T10:47:00+08:00"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "IMAGE_GENERATED",
         "species": "Scotopelia peli",
-        "run_id": "2026-10-25T0826+0800-cycle-6",
-        "at": "2026-10-25T08:29:00+08:00"
+        "run_id": "2026-10-25T1030+0800-cycle-6-recovery",
+        "at": "2026-10-25T10:32:00+08:00",
+        "recovered_from": "2026-10-25T0826+0800-cycle-6",
+        "local_path": "owl-pet/design/concepts/156-scotopelia-peli-v2.png"
       }
     }
   ],

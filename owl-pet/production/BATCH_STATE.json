@@ -3829,35 +3829,46 @@
       "batch_id": "2026-10-27T0334+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-27T0334+0800-cycle-1",
-        "cycle": 1,
-        "heartbeat_at": "2026-10-27T03:52:00+08:00",
-        "expires_at": "2026-10-27T04:07:00+08:00"
-      },
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Asio clamator",
+          "species_id": 76,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "d69581f81fc48a662eac5e1bc5216f9b03db5534",
+          "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-1.md",
+          "verified_at": "2026-10-27T03:54:00+08:00"
+        }
+      ],
+      "next_cycle": 2,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Asio clamator",
         "species_id": 76,
         "version": 2,
         "run_id": "2026-10-27T0334+0800-cycle-1",
-        "at": "2026-10-27T03:52:00+08:00",
+        "at": "2026-10-27T03:54:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-1.md",
         "evidence": {
           "image_commit": "d69581f81fc48a662eac5e1bc5216f9b03db5534",
-          "run_record_commit": "899089f4f2dbdc14e699bcca7ee864630429c26a",
+          "run_record_commit": "c872d8f6994964aef2990ea8f9a32a0f5389b3aa",
           "image_blob": "92c81389fb3335ba08f89b6ff5fd7816738e0567",
-          "concept_path": "owl-pet/design/concepts/76-asio-clamator-v2.png",
-          "asset_path": "owl-pet/production/assets/76-asio-clamator-v2-reviewed.png",
+          "concept_remote_readback": true,
+          "asset_remote_readback": true,
+          "manifest_remote_readback": true,
+          "source_index_remote_readback": true,
+          "archive_commit_files_verified": true,
           "sha256": "8a4013f7211b119cbb2688245d94475621abba754e03faa5153eb1b05931a19e",
-          "bytes": 747112
+          "bytes": 747112,
+          "dimensions": "1350x900",
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T03:52:00+08:00",
+      "last_updated_at": "2026-10-27T03:54:00+08:00",
       "audit_notes": []
     }
   ],

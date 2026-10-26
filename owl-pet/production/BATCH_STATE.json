@@ -3962,35 +3962,31 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T0533+0800-cycle-3",
-        "heartbeat_at": "2026-10-27T05:55:30.000+08:00",
-        "expires_at": "2026-10-27T06:10:30.000+08:00",
+        "heartbeat_at": "2026-10-27T05:57:30.000+08:00",
+        "expires_at": "2026-10-27T06:12:30.000+08:00",
         "cycle": 3,
         "species": "Asio abyssinicus",
         "species_id": 112
       },
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Asio abyssinicus",
         "species_id": 112,
         "version": 2,
         "run_id": "2026-10-27T0533+0800-cycle-3",
-        "at": "2026-10-27T05:55:30.000+08:00",
+        "at": "2026-10-27T05:57:30.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-3.md",
         "evidence": {
-          "new_sources": [
-            "ABO-COLLAR-BOESMAN-2019"
-          ],
-          "reused_sources": [
-            "ABO-CARLBERG-2016",
-            "ABO-OWLPAGES-2020",
-            "ABO-OGADA-MURIITHI-2017"
-          ],
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "species_record": "owl-pet/research/species/112-asio-abyssinicus.md"
+          "image_blob": "af5090c599f238b3215039ece2fc55fea0470228",
+          "local_path": "owl-pet/design/concepts/112-asio-abyssinicus-v2.png",
+          "sha256": "f1e3894b5c9b83dfc690c5b23d1b59bc1ad712549bf045e48ea0d9dec4554d6a",
+          "dimensions": "1536x1024",
+          "bytes": 3048516,
+          "mode": "generate"
         }
       },
-      "last_updated_at": "2026-10-27T05:55:30.000+08:00",
+      "last_updated_at": "2026-10-27T05:57:30.000+08:00",
       "audit_notes": [
         "Clock correction: this batch uses the actual invocation time; the preceding batch's stored phase timestamps extend later due to earlier runner clock skew.",
         "2026-10-27T05:44:49.388+08:00: cycle 1 #102 Strix nigrolineata v2 readback verified; archive 339caef, image blob a8c6883. Unique species remains 159/251; next_cycle 2.",
@@ -4001,8 +3997,8 @@
   "lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T0533+0800-cycle-3",
-    "heartbeat_at": "2026-10-27T05:55:30.000+08:00",
-    "expires_at": "2026-10-27T06:10:30.000+08:00",
+    "heartbeat_at": "2026-10-27T05:57:30.000+08:00",
+    "expires_at": "2026-10-27T06:12:30.000+08:00",
     "cycle": 3,
     "species": "Asio abyssinicus",
     "species_id": 112
@@ -4094,13 +4090,13 @@
   "active_lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T0533+0800-cycle-3",
-    "heartbeat_at": "2026-10-27T05:55:30.000+08:00",
-    "expires_at": "2026-10-27T06:10:30.000+08:00",
+    "heartbeat_at": "2026-10-27T05:57:30.000+08:00",
+    "expires_at": "2026-10-27T06:12:30.000+08:00",
     "cycle": 3,
     "species": "Asio abyssinicus",
     "species_id": 112
   },
-  "last_updated_at": "2026-10-27T05:55:30.000+08:00",
+  "last_updated_at": "2026-10-27T05:57:30.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

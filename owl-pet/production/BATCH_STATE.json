@@ -3873,32 +3873,30 @@
         "species": "Otus sunia",
         "species_id": 80,
         "version": 2,
-        "heartbeat_at": "2026-10-27T04:50:00+08:00",
-        "expires_at": "2026-10-27T05:05:00+08:00"
+        "heartbeat_at": "2026-10-27T04:55:00+08:00",
+        "expires_at": "2026-10-27T05:10:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Otus sunia",
         "species_id": 80,
         "version": 2,
         "run_id": "2026-10-27T0334+0800-cycle-4",
-        "at": "2026-10-27T04:50:00+08:00",
+        "at": "2026-10-27T04:55:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-4.md",
         "evidence": {
-          "new_source_ids": [],
-          "reused_source_ids": [
-            "SUNIA-OAK-2015",
-            "SUNIA-OWLPAGES-2020",
-            "WHSO-MIKKOLA-2013"
-          ],
-          "corrected_scope_ids": [
-            "SUNIA-OAK-2015"
-          ],
-          "scientifically_verified": false
+          "tool": "OpenAI imagegen",
+          "generation_count": 1,
+          "edit_count": 0,
+          "persistent_draft": "owl-pet/production/attempts/80-otus-sunia-v2-draft1.png",
+          "blob_sha": "8430e376af7080bfd4a93316d1d30c0057dacf75",
+          "sha256": "1c0406ceed67a38f37e672dba1fc8b827d5c271fecd44c8fe7df1ff06e88ac37",
+          "dimensions": "1350x900",
+          "bytes": 700099
         }
       },
-      "last_updated_at": "2026-10-27T04:50:00+08:00",
+      "last_updated_at": "2026-10-27T04:55:00+08:00",
       "audit_notes": []
     }
   ],
@@ -3994,10 +3992,10 @@
     "species": "Otus sunia",
     "species_id": 80,
     "version": 2,
-    "heartbeat_at": "2026-10-27T04:50:00+08:00",
-    "expires_at": "2026-10-27T05:05:00+08:00"
+    "heartbeat_at": "2026-10-27T04:55:00+08:00",
+    "expires_at": "2026-10-27T05:10:00+08:00"
   },
-  "last_updated_at": "2026-10-27T04:50:00+08:00",
+  "last_updated_at": "2026-10-27T04:55:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

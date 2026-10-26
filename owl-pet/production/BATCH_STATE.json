@@ -3182,20 +3182,25 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "species": "Glaucidium capense",
-        "species_id": 29,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1146+0800-cycle-6",
+        "heartbeat_at": "2026-10-26T11:46:00+08:00",
+        "expires_at": "2026-10-26T12:01:00+08:00",
+        "species": "Glaucidium cuculoides",
+        "species_id": 30,
         "version": 2,
-        "run_id": "2026-10-26T1130+0800-cycle-5",
-        "at": "2026-10-26T11:45:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1130+0800-cycle-5.md",
-        "image_path": "owl-pet/design/concepts/29-glaucidium-capense-v2.png",
-        "commit_sha": "37effa92927d6d501d943ccd0605c43bebc2c3b4",
-        "archive_commit": "1a417ffe2e942690ac58ec5eb023a2edc6bc7d00",
-        "sha256": "c8ded1c971d09d843e4195d4ef7ab1a19df670978cc82f06cc96309fa5b14e37"
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 6,
+        "stage": "STARTED",
+        "species": "Glaucidium cuculoides",
+        "species_id": 30,
+        "version": 2,
+        "run_id": "2026-10-26T1146+0800-cycle-6",
+        "at": "2026-10-26T11:46:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1146+0800-cycle-6.md"
       }
     }
   ],

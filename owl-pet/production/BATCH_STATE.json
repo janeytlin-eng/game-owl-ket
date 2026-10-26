@@ -3433,28 +3433,30 @@
         "owner": "codex-automation",
         "run_id": "2026-10-26T1705+0800-cycle-3",
         "cycle": 3,
-        "heartbeat_at": "2026-10-26T17:03:00+08:00",
-        "expires_at": "2026-10-26T17:18:00+08:00",
-        "stage": "RESEARCH_READY",
+        "heartbeat_at": "2026-10-26T17:07:00+08:00",
+        "expires_at": "2026-10-26T17:22:00+08:00",
+        "stage": "IMAGE_GENERATED",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 2
       },
       "checkpoint": {
         "cycle": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 2,
         "run_id": "2026-10-26T1705+0800-cycle-3",
-        "at": "2026-10-26T17:03:00+08:00",
+        "at": "2026-10-26T17:07:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1705+0800-cycle-3.md",
         "evidence": {
-          "source_index_commit": "07dedfeb26d37c5c47673b2fb2d1d5c8e37ef651",
-          "new_sources": 2,
-          "reused_sources": 3,
-          "corrected_sources": 0,
-          "complete_prompt_saved": true
+          "draft_path": "owl-pet/production/assets/2026-10-26T1705+0800-cycle-3-draft.png",
+          "draft_commit": "ab31f07022ddb49a5f7a6927016b0f0cc4f888d5",
+          "git_blob": "5510ef4364a9cacc5db9408e9261a589761d3120",
+          "size_bytes": 3409943,
+          "sha256": "3ede981fab0a58e05082d5557340df2f2d7e0987e5e6f5370d7516ad097afc9d",
+          "dimensions": "1254x1254",
+          "remote_readback": true
         }
       }
     }

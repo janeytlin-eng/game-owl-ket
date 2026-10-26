@@ -35,3 +35,13 @@
 - Re-read `OWL-SRC-0050-B`: brown eyes, grey-yellow/blue-grey bill, greyish-yellow toes, strong vertical ventral streaks; cited samples support females being heavier and longer-winged. This permits a fuller/longer-winged female, not an arbitrary standing-height multiplier.
 - v2 selects an 18–21-day, non-flying cavity nestling: open eyes, down-dominant body, short emerging wing/tail feathers and low natural support. Exact continuous feather sequence and population/subspecies variation remain pending.
 - Cross-mapping correction: Gerhardt et al.'s Mottled Owl development is explicitly barred from use for *S. nigrolineata*.
+
+
+## 2026-10-26 production result — v2
+
+- Final image: `design/concepts/50-strix-virgata-v2.png` (1254×1254; 2,959,269 bytes; SHA-256 `97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d`).
+- Draft passed adult morphology, labels, adult size direction and support, but failed the juvenile-wing check because the 18–21-day bird had crisp white spots and long layered remiges.
+- One targeted edit removed the spots and long remiges, leaving a short plain-brown emerging wing tucked into down and a concealed tail. Original-resolution recheck passed.
+- Adult female is fuller/longer-winged on species-specific evidence, not a generic height rule. Juvenile remains open-eyed, down-dominant, cavity-supported and explicitly non-flying.
+- Research count: 0 net-new works, 5 reused, 1 corrected cross-mapping; no duplicate credit for Gerhardt et al. 1994.
+- Scientific status remains pending continuous feather-sequence, subspecies and geographic calibration.

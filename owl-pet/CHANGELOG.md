@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-26 19:03 +08:00
+
+- Revised #50 Mottled Owl (*Strix virgata*) to v2; reused five sources without duplicate credit, corrected the Gerhardt et al. cross-species mapping, calibrated an 18–21-day cavity nestling, and removed its adult-like wing spots/remiges. Unique species remains 159/251; science pending.
+
+
 ## 2026-10-26 18:45 +08:00
 
 - Revised #49 African Wood Owl (*Strix woodfordii*) to v2; added two sources, reused three, corrected the juvenile's adult-like wing spots and remiges, and archived the reviewed PNG. Unique species remains 159/251; science pending.

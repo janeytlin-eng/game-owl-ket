@@ -1,3 +1,9 @@
+## 50 · Mottled Owl · *Strix virgata* v2
+
+- [Original PNG](concepts/50-strix-virgata-v2.png) · 1254×1254 · 2,959,269 bytes · SHA-256 `97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d`
+- Archive image commit/blob: `46c4ed8a6e58c79accba7013d062aebdac34451a` / `2378e5547b35f85f20cd8175a394c58f6ba9ea17`
+- Revision: 18–21-day cavity nestling calibrated from Gerhardt et al. 1994; one targeted edit removed adult-like white spots and long remiges. Female fullness/wing length is source-supported; height is not exaggerated. Science pending.
+
 ## 49 · African Wood Owl · *Strix woodfordii* v2
 
 - [Original PNG](concepts/49-strix-woodfordii-v2.png) · 1254×1254 · 2,979,818 bytes · SHA-256 `91736dcecc2439398437ebe618ede329d96510dfcb540add4d720933d17c4339`

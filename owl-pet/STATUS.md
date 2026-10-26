@@ -1,3 +1,11 @@
+## 2026-10-26 #50 *Strix virgata* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/50-strix-virgata-v2.png](design/concepts/50-strix-virgata-v2.png)
+- Image commit/blob: `46c4ed8a6e58c79accba7013d062aebdac34451a` / `2378e5547b35f85f20cd8175a394c58f6ba9ea17`; 1254×1254; 2,959,269 bytes; SHA-256 `97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d`.
+- Review: one juvenile-wing edit; original-resolution recheck passed. Science pending.
+- Run: [production/runs/2026-10-26T1849+0800-cycle-2.md](production/runs/2026-10-26T1849+0800-cycle-2.md)
+
 ## 2026-10-26 #49 *Strix woodfordii* v2
 
 - Result: revised and archived; unique species remains 159/251.

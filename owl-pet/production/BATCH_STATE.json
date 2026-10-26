@@ -3521,27 +3521,32 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1849+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-26T19:00:00+08:00",
-        "expires_at": "2026-10-26T19:15:00+08:00"
+        "heartbeat_at": "2026-10-26T19:03:00+08:00",
+        "expires_at": "2026-10-26T19:18:00+08:00"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Strix virgata",
         "species_id": 50,
         "version": 2,
         "run_id": "2026-10-26T1849+0800-cycle-2",
-        "at": "2026-10-26T19:00:00+08:00",
+        "at": "2026-10-26T19:03:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1849+0800-cycle-2.md",
         "evidence": {
-          "draft_commit": "611a18f7ac4d09d1549848a7fe982e3bbee79645",
-          "final_path": "owl-pet/design/concepts/50-strix-virgata-v2.png",
+          "image_path": "owl-pet/design/concepts/50-strix-virgata-v2.png",
+          "image_commit": "46c4ed8a6e58c79accba7013d062aebdac34451a",
           "git_blob": "2378e5547b35f85f20cd8175a394c58f6ba9ea17",
           "size_bytes": 2959269,
           "sha256": "97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d",
           "dimensions": "1254x1254",
-          "edit": "juvenile wing only: removed white spots and long layered remiges",
-          "review_result": "PASS visual review; science remains pending"
+          "metadata_paths": [
+            "owl-pet/design/manifest.json",
+            "owl-pet/design/README.md",
+            "owl-pet/knowledge/species/50-strix-virgata.md",
+            "owl-pet/STATUS.md",
+            "owl-pet/CHANGELOG.md"
+          ]
         }
       }
     }

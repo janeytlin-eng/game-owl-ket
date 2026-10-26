@@ -1,3 +1,11 @@
+## 40 · Cloud-forest Pygmy-Owl · *Glaucidium nubicola* v2
+
+- [Original PNG](concepts/40-glaucidium-nubicola-v2.png) · 1254×1254 · 3,033,861 bytes · SHA-256 `fe90bd55bc997e4f144f112327e38d89ed838593ed6ac818463acaae91beb6e0`
+- Archive commit/blob: `efd3235a9cf061c763bba518426dee2f1018a3ff` / `889d8830d8f16d3603adbdebde49992787ae5547`
+- Revision: evidence-bounded v2; adult plain-back/wing-covert pattern and white-bordered false eye are retained, sexes stay near-equal, and the recent fledgling uses only soft contour/short tail because its plumage is undescribed.
+- Review: first render passed without edit; scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-40-glaucidium-nubicola-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1454+0800-cycle-4.md)
+
 ## 39 · Central American Pygmy-Owl · *Glaucidium griseiceps* v2
 
 - [Original PNG](concepts/39-glaucidium-griseiceps-v2.png) · 1254×1254 · 2,871,466 bytes · SHA-256 `8a3335dba0f0d2e93d75ada1056a8f21e10460c16b9a8e4896612a8213abb121`

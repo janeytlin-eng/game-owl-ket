@@ -1,3 +1,12 @@
+## 2026-10-26 #25 *Glaucidium brasilianum cactorum* v2
+
+- Result: revised and archived; unique species remains 159/251 because FWS records this trinomial as a subspecies under *G. brasilianum*.
+- Image: [design/concepts/25-glaucidium-brasilianum-cactorum-v2.png](design/concepts/25-glaucidium-brasilianum-cactorum-v2.png)
+- Archive commit/blob: `61e8df2d21278b889bc19fd5744ed51e818f1e74` / `62f3a525a1c33446b1a84bef9f6a9efd66ed4db6`; local and immutable readback SHA-256 both `5a4fb8208aab0f550297b4187694b57ca6a2585a26748889be9a8118a5e2ccd9`.
+- Research: 3 new indexed sources, 1 reused source, and 1 corrected full-text source entry.
+- Review: first render failed due to an extra woodpecker and mature-looking juvenile remiges; one targeted edit removed the fourth bird and softened/shortened the juvenile wing. Final image passed original-resolution review.
+- Scientific status: pending; exact fledgling age/iris, quantified linear sex difference, regional color variation and continuous wing/tail growth remain unknown.
+
 ## 2026-10-26 · #18 v2 证据边界重建
 
 修订西美角鸮 *Megascops kennicottii* v2；新增0种，按现行manifest去重总数159/251，科学通过0。三鸟与标签正确；成鸟黄眼、深色喙、小型耳羽、方头紧凑体形和灰褐树皮状纹理，近等展示且雌鸟仅略丰满；中央闭眼白绒初生阶段幼鸟低伏于天然树洞碎屑，短绒翼芽、尾部隐藏，头部、腹部与双足均有支撑。首次生成通过原分辨率复查，无需编辑。精确日龄、睁眼日、连续羽序、样本外量化性别差异、地域色型与普遍巢腔几何仍未知。图片提交 `cd2e596fc04013b904d2faaf2b9fdc55026660f4`，Git blob `6703bc6ad03b070b7c2098449bb16b16d3439723`。

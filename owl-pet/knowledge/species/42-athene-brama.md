@@ -45,3 +45,12 @@ Create one polished scientific-reference character sheet for a virtual-pet owl s
 - Git blob：`fcf8e41a7896527aa7f56887e4d92deb8a2ab2cb`
 - SHA-256：`e42e441aeeeffcdf8586d32fb01e7e30ff4a9fff2bc4d863d0833b7623f5d72b`
 - 图片归档提交：`240a020db19f0c96a05c7263ca2108febb257e90`
+
+
+## 2026-10-26 v2 evidence increment and archive
+- New source `SPOT-AVIBASE-2026` confirms the current species name, nominate southern-India range and open/village habitat; it is not used for juvenile feather geometry.
+- Re-read `SPOT-PANDE-2011`: known-age nestlings were followed through 32 days, wing growth accelerated after two weeks, fledging was around 4.5 weeks, sexes could not be separated externally, and pre-flight young could walk from the nest hole onto branches.
+- Final image: [42-athene-brama-v2.png](../../design/concepts/42-athene-brama-v2.png), 1254×1254 sRGB PNG, 3,105,696 bytes.
+- SHA-256: `3605f76a2b9862771d02b4eb6ada85cc0c423c75355b6c69e162ac4876fbc149`; Git blob: `82f947aefdeee9b68ba8c142b6acc7699eb9c8f2`; archive commit: `ae18c2d06e02b353231e55ee18167c0357ebc3fc`.
+- Iteration: first render had a dark layered juvenile wing; one targeted edit shortened/softened only that wing. Adults, labels, cavity, support and background were preserved and rechecked.
+- Scientific status remains pending; exact feather geometry, sex-specific growth and subspecies color variation are unresolved.

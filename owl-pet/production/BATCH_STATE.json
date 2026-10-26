@@ -3426,36 +3426,38 @@
           "commit_sha": "d27c115e18afe92b1e251cdc022bcd485bbb85c1",
           "archive_commit": "87d1a98666bd1fb39b893c3b0f85f6ffdee94a77",
           "run_record": "owl-pet/production/runs/2026-10-26T1703+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Strix seloputo",
+          "species_id": 45,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "c8cdb2a310e11f7517446e4211792a3e62ff37eb",
+          "archive_commit": "377af05568fbcfd0d726e0d75cf54011dde0bd08",
+          "run_record": "owl-pet/production/runs/2026-10-26T1705+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "2026-10-26T1705+0800-cycle-3",
-        "cycle": 3,
-        "heartbeat_at": "2026-10-26T17:11:00+08:00",
-        "expires_at": "2026-10-26T17:26:00+08:00",
-        "stage": "ARCHIVED",
-        "species": "Strix seloputo",
-        "species_id": 45,
-        "version": 2
-      },
+      "next_cycle": 4,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 2,
         "run_id": "2026-10-26T1705+0800-cycle-3",
-        "at": "2026-10-26T17:11:00+08:00",
+        "at": "2026-10-26T17:13:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1705+0800-cycle-3.md",
         "evidence": {
+          "verification_commit": "c8cdb2a310e11f7517446e4211792a3e62ff37eb",
           "archive_commit": "377af05568fbcfd0d726e0d75cf54011dde0bd08",
           "git_blob": "c15b59923d6da407761ab23457791eb0e2a91966",
           "size_bytes": 3217442,
           "sha256": "cd3d2db4a180298d6141cb8d6f1990749ba206b4553c7b3874da0c17582dedf2",
           "dimensions": "1254x1254",
-          "remote_readback": false,
+          "remote_readback": true,
           "scientifically_verified": false
         }
       }

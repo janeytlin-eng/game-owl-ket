@@ -3030,3 +3030,13 @@ Freshly opened/reused 2026-10-26:
 Design boundary: v3 uses one brown adult morph for both sexes, near-equal displayed height and only subtle female fullness; mass tendency is not converted into a fixed height ratio. The center bird is an age-unknown fluffy cavity nestling based only on the available footage: short rounded developing wings kept under soft gray-buff juvenile plumage, tail concealed, no mature layered remiges, and belly plus both feet supported. Juvenile iris color, exact age, continuous feather sequence, flight ability, bare-leg fine geometry and universal cavity dimensions remain unknown; `scientifically_verified=false`.
 
 New source IDs: 0; reused/freshly read: 4; corrected: 0. Linked v3 and run `production/runs/2026-10-26T0726+0800-cycle-4.md`.
+
+
+## 2026-10-26 #23 *Psiloscops flammeolus* v3 evidence increment
+
+Freshly opened/reused 2026-10-26:
+- `FLOW-CORNELL-ID-2026`: Cornell Lab identification page confirms 15–17 cm combined-sex length, short often-flattened feathered ear tufts, short tail, dark eyes, gray/brown/rust/white bark camouflage and mature western mountain conifer/mixed forest.
+- `FLOW-CORNELL-LIFE-2026`: Cornell Lab life-history page confirms exclusive tree-cavity nesting, old woodpecker/natural cavities, no constructed nest, and white-down closed-eye hatch condition.
+- `FLOW-ORI-2026`: Owl Research Institute account independently supports very dark eyes, rectangular head, tiny flattened tufts, reddish/gray bark camouflage, similar-looking sexes, equal reported sex-combined size ranges and cavity nesting.
+
+Design boundary: v3 uses one gray-rust adult morph, near-equal display height and only subtle female fullness. The central bird is an age-unknown early hatchling: closed eyes, white natal down, tiny down-covered wing buds, no mature remiges or tail, fully supported on sparse cavity debris. Exact post-hatch age, proportions, down density, eye-opening date, continuous feather sequence, sex-specific measurements and universal cavity geometry remain unknown; `scientifically_verified=false`. New stable source IDs: 0; reused/freshly read: 3; corrected: 0. Linked concept `design/concepts/23-psiloscops-flammeolus-v3.png`; run `production/runs/2026-10-26T0825+0800-cycle-5.md`.

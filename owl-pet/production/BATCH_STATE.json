@@ -3983,30 +3983,30 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-owl-production",
+        "run_id": "2026-10-27T0533+0800-cycle-5",
+        "heartbeat_at": "2026-10-27T06:42:00.000+08:00",
+        "expires_at": "2026-10-27T06:57:00.000+08:00",
+        "cycle": 5,
+        "species": "Ketupa philippensis",
+        "species_id": 124
+      },
       "cycle_checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Otus megalotis",
-        "species_id": 122,
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Ketupa philippensis",
+        "species_id": 124,
         "version": 2,
-        "run_id": "2026-10-27T0533+0800-cycle-4",
-        "at": "2026-10-27T06:40:00.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-4.md",
+        "run_id": "2026-10-27T0533+0800-cycle-5",
+        "at": "2026-10-27T06:42:00.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-5.md",
         "evidence": {
-          "archive_image_commit": "70182ca5e51401d5ca139b7fe2b04547a3ebadda",
-          "archive_metadata_commit": "0cd409349697ded8b569e720a6c9b047f5c21180",
-          "concept_blob": "18278c4cc31a3f2bd02ab24c501d4e5b464e8e29",
-          "asset_blob": "18278c4cc31a3f2bd02ab24c501d4e5b464e8e29",
-          "size_bytes": 2788748,
-          "sha256": "4a11432ee836a17b82b38a6e34a7439b73e8d7293402704253ce97f24839b458",
-          "manifest_readback": true,
-          "run_readback": true,
-          "species_readback": true,
-          "scientifically_verified": false
+          "selection": "lowest-ID v1-only valid candidate after verified #122",
+          "manifest_checked_at_head": "edae4638157eb48b1245a08548762359514f0559"
         }
       },
-      "last_updated_at": "2026-10-27T06:40:00.000+08:00",
+      "last_updated_at": "2026-10-27T06:42:00.000+08:00",
       "audit_notes": [
         "Clock correction: this batch uses the actual invocation time; the preceding batch's stored phase timestamps extend later due to earlier runner clock skew.",
         "2026-10-27T05:44:49.388+08:00: cycle 1 #102 Strix nigrolineata v2 readback verified; archive 339caef, image blob a8c6883. Unique species remains 159/251; next_cycle 2.",

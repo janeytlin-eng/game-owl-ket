@@ -4071,20 +4071,23 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "species": "Megascops atricapilla",
-        "species_id": 133,
-        "version": 2,
-        "run_id": "2026-10-27T0728+0800-cycle-2",
-        "at": "2026-10-27T08:22:00.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-2.md",
-        "archive_commit": "8fa27afbee175dc7f58fee03e6b120702711e756",
-        "image_git_blob": "94556a91cd5df558037d6115e3236e3b908dc1ea"
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "2026-10-27T0728+0800-cycle-3",
+        "heartbeat_at": "2026-10-27T08:24:00.000+08:00",
+        "expires_at": "2026-10-27T08:39:00.000+08:00"
       },
-      "last_updated_at": "2026-10-27T08:22:00.000+08:00",
+      "cycle_checkpoint": {
+        "cycle": 3,
+        "stage": "STARTED",
+        "species": "Otus silvicola",
+        "species_id": 135,
+        "version": 2,
+        "run_id": "2026-10-27T0728+0800-cycle-3",
+        "at": "2026-10-27T08:24:00.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-3.md"
+      },
+      "last_updated_at": "2026-10-27T08:24:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
@@ -4098,7 +4101,8 @@
         "2026-10-27T08:10:00.000+08:00: cycle 2 IMAGE_GENERATED; initial output inspected, juvenile wing corrected by targeted edit; final indexed PNG actual-viewed, exact Git blob 94556a91cd5df558037d6115e3236e3b908dc1ea; lease renewed.",
         "2026-10-27T08:14:00.000+08:00: cycle 2 REVIEWED PASS after one targeted juvenile-wing/tail edit; adult/juvenile identity, support, labels and habitat checked; scientific status remains false; lease renewed.",
         "2026-10-27T08:18:00.000+08:00: cycle 2 ARCHIVED pending independent readback; concept/generated/reviewed paths use intended blob 94556a91cd5df558037d6115e3236e3b908dc1ea; manifest/status/design index/changelog updated; lease renewed.",
-        "2026-10-27T08:22:00.000+08:00: cycle 2 #133 Megascops atricapilla v2 fully read back and VERIFIED; three remote image paths match exact blob/size and immutable raw URL visibly rendered; unique species remains 159/251; next_cycle 3; lease released."
+        "2026-10-27T08:22:00.000+08:00: cycle 2 #133 Megascops atricapilla v2 fully read back and VERIFIED; three remote image paths match exact blob/size and immutable raw URL visibly rendered; unique species remains 159/251; next_cycle 3; lease released.",
+        "2026-10-27T08:24:00.000+08:00: cycle 3 STARTED for #135 Otus silvicola v2; v1-only candidate selected after actual visual review; short lease acquired."
       ]
     }
   ],

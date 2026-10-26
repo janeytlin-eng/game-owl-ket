@@ -3138,19 +3138,25 @@
         }
       ],
       "next_cycle": 2,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "species": "Glaucidium brasilianum cactorum",
-        "species_id": 25,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1047+0800-cycle-2",
+        "heartbeat_at": "2026-10-26T10:47:00+08:00",
+        "expires_at": "2026-10-26T11:02:00+08:00",
+        "species": "Glaucidium siju",
+        "species_id": 26,
         "version": 2,
-        "run_id": "2026-10-26T1031+0800-cycle-1",
-        "at": "2026-10-26T10:46:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1031+0800-cycle-1.md",
-        "archive_commit": "61e8df2d21278b889bc19fd5744ed51e818f1e74",
-        "image_blob": "62f3a525a1c33446b1a84bef9f6a9efd66ed4db6",
-        "verification_commit": "1ddba773ee947f72d8181f0213e2f4bdf86ae9d4"
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 2,
+        "stage": "STARTED",
+        "species": "Glaucidium siju",
+        "species_id": 26,
+        "version": 2,
+        "run_id": "2026-10-26T1047+0800-cycle-2",
+        "at": "2026-10-26T10:47:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1047+0800-cycle-2.md"
       }
     }
   ],
@@ -3225,11 +3231,20 @@
     "2026-10-26 03:43 +0800: new batch cycle 1 revised and verified #19 Megascops trichopsis v5; original-resolution review passed without edit. Adults retain orange-tinged eyes, yellow-olive bills and coarse spotted underparts; center age-unknown older juvenile has short rounded developing wings and two-foot support. Image commit 141e222da52711737a9576ccba016186dcde22a9, Git blob b5997bed804a34256e2adad7e4f5c06cc4b98bdc; verification commit fac250bb3267c78301cd1a5548c6287119bdad1c. Unique species remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 10:46 +0800: new batch cycle 1 revised and verified #25 Glaucidium brasilianum cactorum v2; a first render added an extra woodpecker and adult-like juvenile remiges, so one targeted edit removed the fourth bird and shortened/softened the juvenile wing. Complete image commit 61e8df2d21278b889bc19fd5744ed51e818f1e74, Git blob 62f3a525a1c33446b1a84bef9f6a9efd66ed4db6; verification commit 1ddba773ee947f72d8181f0213e2f4bdf86ae9d4. This is a subspecies revision, so unique species remains 159/251. Batch advances to 1/6; next_cycle 2."
   ],
-  "updated_at": "2026-10-26T10:46:00+08:00",
+  "updated_at": "2026-10-26T10:47:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
     "2026-10-25 03:48 +0800: batch cycle 6 revised and verified #104 Asio madagascariensis v2; fresh rebuild retained evidence-supported older mesoptile juvenile, and one targeted edit extended adult feathering onto proximal toe bases while keeping distal claws exposed. Archive commit 945ae44d42bd890d00c07c9b3817616200aeba11, Git blob 7eab1531203df968dc1d0481476abc5c7778a2e1. Unique species remains 157/251; batch closes COMPLETE 6/6."
   ],
-  "active_lease": null
+  "active_lease": {
+    "owner": "scheduled-production",
+    "run_id": "2026-10-26T1047+0800-cycle-2",
+    "heartbeat_at": "2026-10-26T10:47:00+08:00",
+    "expires_at": "2026-10-26T11:02:00+08:00",
+    "species": "Glaucidium siju",
+    "species_id": 26,
+    "version": 2,
+    "stage": "STARTED"
+  }
 }

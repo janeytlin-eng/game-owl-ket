@@ -3793,24 +3793,28 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-27T0034+0800-cycle-6",
         "cycle": 6,
-        "heartbeat_at": "2026-10-27T02:31:00+08:00",
-        "expires_at": "2026-10-27T02:46:00+08:00"
+        "heartbeat_at": "2026-10-27T02:39:00+08:00",
+        "expires_at": "2026-10-27T02:54:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Ninox connivens",
         "species_id": 71,
         "version": 2,
         "run_id": "2026-10-27T0034+0800-cycle-6",
-        "at": "2026-10-27T02:31:00+08:00",
+        "at": "2026-10-27T02:39:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0034+0800-cycle-6.md",
         "evidence": {
-          "predecessor": "owl-pet/design/concepts/71-ninox-connivens-v1.png",
-          "reason": "next archived species still lacking a research-calibrated v2 revision"
+          "source_index_commit": "f2c0bdf34cc34087a7519ce8219ee1730c923ab6",
+          "run_record_commit": "e8b75f29fc911d17607e0ab6636460407f8e77f5",
+          "new_sources": 2,
+          "reused_sources": 3,
+          "corrected_or_conflicted_sources": 1,
+          "prompt_persisted": true
         }
       },
-      "last_updated_at": "2026-10-27T02:31:00+08:00"
+      "last_updated_at": "2026-10-27T02:39:00+08:00"
     }
   ],
   "lease": null,

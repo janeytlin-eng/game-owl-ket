@@ -3093,19 +3093,23 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T0852+0800-cycle-6",
+        "cycle": 6,
+        "species": "Glaucidium californicum",
+        "heartbeat_at": "2026-10-26T08:56:00+08:00",
+        "expires_at": "2026-10-26T09:11:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "species": "Psiloscops flammeolus",
-        "species_id": 23,
-        "version": 3,
-        "run_id": "2026-10-26T0825+0800-cycle-5",
-        "at": "2026-10-26T08:48:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T0825+0800-cycle-5.md",
-        "archive_commit": "c633dfe27eb46ee232a5b3d61df37fdbdc867b19",
-        "image_blob": "9cb3679cd01d7b4f85d604dbfc84aa5d4ac4bee1",
-        "verification_commit": "a6f77194a4c0266775bb11bdc92c63ed45ff5e40"
+        "cycle": 6,
+        "stage": "RESEARCH_READY",
+        "species": "Glaucidium californicum",
+        "species_id": 24,
+        "version": 2,
+        "run_id": "2026-10-26T0852+0800-cycle-6",
+        "at": "2026-10-26T08:56:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T0852+0800-cycle-6.md"
       }
     }
   ],

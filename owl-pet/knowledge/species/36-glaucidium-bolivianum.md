@@ -25,3 +25,15 @@ The juvenile is an explicitly conservative, age-unspecified concept. No exact da
 - Targeted edit: shortened juvenile tail, removed full adult-like tail bands, softened body plumage and reduced mature wing presentation.
 - Recheck: exactly three owls; correct title; no ear tufts; all feet supported; juvenile remains pending species-specific developmental evidence.
 - Scientific status: **pending**.
+
+
+## v2 production record — 2026-10-26
+
+- Archived concept: [36-glaucidium-bolivianum-v2.png](../../design/concepts/36-glaucidium-bolivianum-v2.png)
+- Research delta: new 2 (`YPOW-EBIRD-2025`, `YPOW-PEREGRINE-2026`), reused 3 (`SRC-WEB-036-01/02/03`), corrected 0.
+- Problem found in first render: juvenile retained crisp adult-like white wing spots and layered feather edges.
+- Modification: targeted edit shortened/rounded the juvenile wing, removed crisp spot rows and replaced them with plain diffuse juvenile feathering while preserving both-foot support, adults, labels and habitat.
+- Recheck: PASS for exactly three labeled birds, adult male false eyes, adult shared brown-morph traits, near-equal adult scale, juvenile softer/shorter wings and tail, and natural support.
+- Remaining uncertainty: exact juvenile age, continuous feather sequence, flight ability, juvenile nape pattern and sex-specific linear measurements.
+- Scientific status: **pending** (`scientifically_verified=false`).
+- Run: [2026-10-26T1341+0800 cycle 6](../../production/runs/2026-10-26T1341+0800-cycle-6.md)

@@ -3643,25 +3643,25 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T2233+0800-cycle-4",
+        "cycle": 4,
+        "heartbeat_at": "2026-10-26T22:33:00+08:00",
+        "expires_at": "2026-10-26T22:48:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Ketupa zeylonensis",
-        "species_id": 59,
+        "cycle": 4,
+        "stage": "STARTED",
+        "species": "Ketupa flavipes",
+        "species_id": 60,
         "version": 2,
-        "run_id": "2026-10-26T2218+0800-cycle-3",
-        "at": "2026-10-26T22:31:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T2218+0800-cycle-3.md",
+        "run_id": "2026-10-26T2233+0800-cycle-4",
+        "at": "2026-10-26T22:33:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T2233+0800-cycle-4.md",
         "evidence": {
-          "verification_commit": "765c5cacabc99af97b67e6e382e0212414e5fdf1",
-          "archive_commit": "456aafe9fbc3cf532348ebb2ee8dbe409b417d93",
-          "git_blob": "d355eb731938652b551b657f70e58ff8fb990e70",
-          "sha256": "a1a6947c2aa10a8f015f8250b87e4a0f37f5e083d80c14af8f53894383d41b27",
-          "dimensions": "1350x900",
-          "size_bytes": 631441,
-          "remote_readback": true,
-          "scientifically_verified": false
+          "start_commit": "8320777150753e384d13fe7c1d47094cda10f98f",
+          "prior_asset": "owl-pet/design/concepts/60-ketupa-flavipes-v1.png"
         }
       }
     }

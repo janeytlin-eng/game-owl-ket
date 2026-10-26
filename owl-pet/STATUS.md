@@ -1,3 +1,12 @@
+## 2026-10-26 #38 *Glaucidium nana* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/38-glaucidium-nana-v2.png](design/concepts/38-glaucidium-nana-v2.png)
+- Archive commit/blob: `5b1372acb749e1cf4079aadcd0f2a6d387a8232b` / `b7fd2bf1878cbabca5424966685ef927cfa8c79d`; PNG 3,092,184 bytes; SHA-256 `4fddd226a41156a8b504dadb860e20d590c58a545a66de0c1c1ad3ffcc91e6d0`.
+- Research: 1 new peer-reviewed primary source read in full, 3 reused. A 1989 full-text endpoint returned 403 and was not counted or used for new claims.
+- Review: one edit removed mature juvenile wing spots and shortened/softened wing and tail; final has exactly three labeled, supported birds in a southern Andean-Patagonian setting.
+- Scientific status: pending; exact juvenile age, iris/flight stage, continuous feather sequence and population variation remain unknown.
+
 ## 2026-10-26 #37 *Glaucidium peruanum* v2
 
 - Result: revised and archived; unique species remains 159/251.

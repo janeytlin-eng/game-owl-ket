@@ -28,3 +28,12 @@ Pending. Exact juvenile age and continuous feather sequence, sex-specific linear
 - Recheck: exactly three birds; adult male/female remain near equal standing scale; no ear tufts; juvenile back is plain, wing/tail are short and soft, both feet grip the branch; text is correct.
 - Archive: 1536×1024 PNG, 786,444 bytes, SHA-256 `befb7d30511707ff1ee1cb258f3a6ea95639a49cd570570b7ad17973168e3f48`.
 - Scientific status remains pending; visual review is not scientific approval.
+
+
+## v2 evidence increment — 2026-10-26
+
+- Added `CAPO-EBIRD-ID-2026` (Cornell/eBird) for current adult identification and humid evergreen lowland/canopy-edge context; reused `SRC-PAPER-039-01`, `SRC-WEB-039-02` and `SRC-WEB-039-03`.
+- Re-read the 2008 juvenile article record: the photographed bird/caption supports a mottled head and unmarked back, but not exact age, iris chronology or continuous wing/tail growth. Howell & Robbins (1995) remained unread and was not used.
+- v2 archive: [39-glaucidium-griseiceps-v2.png](../../design/concepts/39-glaucidium-griseiceps-v2.png), 1254×1254 PNG, 2,871,466 bytes, SHA-256 `8a3335dba0f0d2e93d75ada1056a8f21e10460c16b9a8e4896612a8213abb121`; archive commit `f408fd84ad7b417fc78406be333b0cf076024fc7`, Git blob `1de3efd3d0d0915cca11f3ad573f35280d5ecbfc`.
+- Visual review: first render passed without edit. Exactly three labeled, supported birds; male rear-side pose exposes the nape false-eye patch; adults remain near-equal; the central age-unknown juvenile has a mottled unspotted head, nearly plain back, short soft wing and no conspicuous mature tail.
+- Scientific status remains pending.

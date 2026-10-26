@@ -3264,17 +3264,25 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Glaucidium hardyi",
-        "species_id": 34,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1245+0800-cycle-5",
+        "heartbeat_at": "2026-10-26T12:45:00+08:00",
+        "expires_at": "2026-10-26T13:00:00+08:00",
+        "species": "Glaucidium jardinii",
+        "species_id": 35,
         "version": 2,
-        "run_id": "2026-10-26T1229+0800-cycle-4",
-        "at": "2026-10-26T12:44:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1229+0800-cycle-4.md",
-        "commit_sha": "a6905845f9ce7650b11a550a803cf74fa70ffabd"
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Glaucidium jardinii",
+        "species_id": 35,
+        "version": 2,
+        "run_id": "2026-10-26T1245+0800-cycle-5",
+        "at": "2026-10-26T12:45:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1245+0800-cycle-5.md"
       }
     }
   ],

@@ -42,3 +42,13 @@ See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): SBEO-SRINIVASAN-2013, SBEO-O
 - Taxonomy mapping preserved: project plate remains *Bubo nipalensis*; current *Ketupa nipalensis* is the same species.
 - Reused stable source IDs: `SBEO-SRINIVASAN-2013`, `SBEO-OWL-PAGES-2022`, `SBEO-THAI-NP-2026`, `SBEO-TAX-2026`. New source IDs 0; corrections 0.
 - Mikkola guide page evidence remains unavailable from the uploaded file; no page claim is asserted. Scientific calibration remains pending.
+
+## v2 production and review
+- First pass: adults, exact labels, forest and support passed; juvenile wing retained adult-like white spot rows.
+- Targeted edit: only the juvenile wing was shortened, made plain and down-softened; adults, text and forest were preserved.
+- Final review: exactly three birds; adult dark eyes, ragged sideways tufts, horizontal bars/broad spots and near-equal scale pass; juvenile is pale, softly barred, smaller-tufted, short-winged/short-tailed and fully supported.
+- Archive: `owl-pet/design/concepts/57-bubo-nipalensis-v2.png`
+- Git blob: `31005b66794e728e683e9011a3ea197d46cb072a`
+- SHA-256: `b2e6bfd26d8f32a2d269ca3f222788ba90b11dc66cf6427de9fc472fddc7be39`
+- Dimensions/size: 1350×900, 729682 bytes.
+- Scientific status: production/archive evidence-bounded; scientific calibration pending.

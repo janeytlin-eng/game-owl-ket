@@ -25,3 +25,11 @@ Avoid: no extra birds, no fish in beak, no exaggerated female size, no cave, no 
 - v2 stage: late nestling near the natural cavity/fork edge, down-softened head/body with short rounded developing folded wings; supported, alert, not flying.
 - v1 review defect: adult irises too amber-orange and juvenile wing/tail too mature. v2 requires clear yellow irises and short soft juvenile wing/tail.
 - Sources: 1 new, 3 reused, 0 corrected; scientific calibration remains pending.
+
+
+## v2 production review — 2026-10-26
+- Final asset: `design/concepts/59-ketupa-zeylonensis-v2.png`.
+- First v2 render corrected yellow eyes but kept crisp adult-like juvenile wing spots; targeted edit reduced the spots and softened the short rounded folded wing.
+- Re-opened review passed: three birds/labels, horizontal shaggy tufts, near-equal adults, late nestling nearly adult-sized yet fluffy, short wing/tail, natural hollow-edge support and riparian setting.
+- Science boundary: measured 43–49 d nestling period supports stage but not exact feather map. Concept review passed; scientific calibration pending.
+- Transfer: 1350×900, 631,441 bytes, SHA-256 `a1a6947c2aa10a8f015f8250b87e4a0f37f5e083d80c14af8f53894383d41b27`, Git blob `d355eb731938652b551b657f70e58ff8fb990e70`.

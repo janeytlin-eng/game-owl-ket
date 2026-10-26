@@ -1,3 +1,11 @@
+## 2026-10-27 #124 *Ketupa philippensis* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/124-ketupa-philippensis-v2.png](design/concepts/124-ketupa-philippensis-v2.png)
+- Git blob `0f6d49a6887c4b9a11b5f76271746fba508ebac9`; 1536×1024; 2,882,949 bytes; SHA-256 `4b008554eb05591f61179174a5e322fbf464e17e189fe50fe3edc6acff80a875`.
+- Research: 1 new primary source, 3 reused. Review: one juvenile-wing edit; original-resolution recheck passed. Science pending.
+- Run: [production/runs/2026-10-27T0533+0800-cycle-5.md](production/runs/2026-10-27T0533+0800-cycle-5.md)
+
 ## 2026-10-27 #122 *Otus megalotis* v2
 
 - Result: revised and archived; unique species remains 159/251.

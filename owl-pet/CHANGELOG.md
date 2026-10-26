@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-27 06:53 +08:00
+
+- Revised #124 Philippine Eagle-Owl (*Ketupa philippensis*) to v2; added one primary Luzon post-breeding source, reused three, selected an approximately 70-day near-fledged stage, and folded/shortened the juvenile wing after the first output appeared adult-like. Unique species remains 159/251; science pending.
+
+
 ## 2026-10-27 06:38 +08:00
 
 - Revised #122 Philippine Scops-Owl (*Otus megalotis*) to v2 for the Luzon lowland unit; added one source, reused three, and corrected the age-unknown fledgling's overlong adult-layered wing/tail before original-resolution recheck. Unique species remains 159/251; science pending.

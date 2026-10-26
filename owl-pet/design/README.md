@@ -1,3 +1,10 @@
+## 124 · Philippine Eagle-Owl · *Ketupa philippensis* v2
+
+- [Original PNG](concepts/124-ketupa-philippensis-v2.png) · 1536×1024 · 2,882,949 bytes · SHA-256 `4b008554eb05591f61179174a5e322fbf464e17e189fe50fe3edc6acff80a875`
+- Git blob: `0f6d49a6887c4b9a11b5f76271746fba508ebac9`
+- Revision: Luzon/northern unit; approximately 70-day late nestling/near-fledged stage from primary field study. One targeted edit folded and shortened the juvenile wing. Science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-5.md)
+
 ## 122 · Philippine Scops-Owl · *Otus megalotis* v2
 
 - [Original PNG](concepts/122-otus-megalotis-v2.png) · 1536×1024 · 2,788,748 bytes · SHA-256 `4a11432ee836a17b82b38a6e34a7439b73e8d7293402704253ce97f24839b458`

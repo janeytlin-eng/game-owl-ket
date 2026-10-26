@@ -25,3 +25,10 @@ Create a polished scientific-character concept sheet in the repository’s estab
 ## Open uncertainties
 
 Exact hatch date, continuous feather sequence, sex-specific linear dimensions, geographic plumage variation and the generality of nest-site reuse remain unknown. Scientific verification cannot be marked true.
+
+
+## v2 production and review
+
+- Final original: `design/concepts/124-ketupa-philippensis-v2.png`; Git blob `0f6d49a6887c4b9a11b5f76271746fba508ebac9`; SHA-256 `4b008554eb05591f61179174a5e322fbf464e17e189fe50fe3edc6acff80a875`; 1536×1024; 2,882,949 bytes.
+- First output's fully spread juvenile wings had long crisp barred remiges beyond the primary study's detail; one targeted edit folded and shortened the visible wings while keeping formed feathers and two-foot support; original-resolution review passed.
+- Scientific status remains false.

@@ -3560,3 +3560,16 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Evidence limitations / conflicts / confidence:** abstract-only verification; no chick morphology, nest microstructure or photographs were read. Cuban subspecies facts are not automatically transferred to the Ecuador juvenile concept.
 - **Design / review decision:** use only as corroboration that ground nesting occurs within the species complex; it does not justify adding a Cuban nest or juvenile details to this Ecuador-bounded v2 plate.
 - **Links:** [Cycle 2 run](../production/runs/2026-10-27T0334+0800-cycle-2.md)
+
+
+## 2026-10-27 #78 *Asio capensis* v2 evidence increment
+
+| ID | Title / author / year / URL | Source type and scope | Actually read evidence | Limits / design decision |
+|---|---|---|---|---|
+| MAR-ANSARA-ROSS-2008 | Tahla M. Ansara-Ross, Victor Wepener, Gerhard H. Verdoorn & Mathew J. Ross, “Sexual dimorphism of four owl species in South Africa”, *Ostrich* 79(1), 2008, DOI [10.2989/OSTRICH.2008.79.1.11.366](https://doi.org/10.2989/OSTRICH.2008.79.1.11.366); author-uploaded full text [ResearchGate](https://www.researchgate.net/publication/233710566_Sexual_dimorphism_of_four_owl_species_in_South_Africa), accessed 2026-10-27 | Primary morphometric study; Gauteng N17 road-killed intact adults, 2002–2003; *A. capensis* total n=43, sexed male n=21 / female n=11 for body mass | Methods, Results and Tables 1–2 read. Male mean mass 297.59 g vs female 329.07 g; male tail 148.8 mm vs female 156.3 mm; body mass and tail length were significant between sexes, while mean flattened wing length was nearly identical (398.1 vs 398.2 mm). No dichromatic sex distinction was found. | Roadkill regional sample with overlapping ranges; carcass total length is not artwork standing height. Supports only a modestly fuller/longer-tailed female, not a fixed height ratio or color difference. High for sampled morphometrics. |
+
+Reused sources: MARSH-BIOEXP-2026 (actual Breeding section reread: 14–18-day chicks leave the ground depression and crawl through nearby bush before flight), MARSH-OWLPAGES-2020 (adult dark eyes, tiny tufts, plain earth-brown direction; prior verified extract), and WHSO-MIKKOLA-2013 printed pp.518–519 / PDF pp.520–521 (prior verified guide extract: buff-brown barred mesoptile, darker face/black ruff, feathered legs). Smith & Ellick-Kendrick 1964 DOI 10.1111/j.1474-919x.1964.tb03687.x was found as a bibliographic lead only; full text was not read and it is not used as design proof.
+
+Design inference: southern African nominate concept; female only modestly fuller with a subtly longer tail; central juvenile is a low, naturally supported mobile preflight 14–18-day stage with short soft wing and concealed tail. Exact individual age, continuous feather sequence, flight threshold, subspecies geometry and universal sex ratio remain unknown. Scientifically verified: false.
+
+Links: [species record](../knowledge/species/78-asio-capensis.md) · [run](../production/runs/2026-10-27T0334+0800-cycle-3.md) · target [v2 image](../design/concepts/78-asio-capensis-v2.png).

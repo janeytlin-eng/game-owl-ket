@@ -1,3 +1,11 @@
+## 41 · Guatemalan Pygmy-Owl · *Glaucidium cobanense* v2
+
+- [Original PNG](concepts/41-glaucidium-cobanense-v2.png) · 1254×1254 · 3,089,648 bytes · SHA-256 `981eacdf495f5bfd093e4a1a6211c7e6a52c456a51a2916d299c8f09f92200c2`
+- Archive commit/blob: `48c14c9a88072c37c228837ebe58406f372dc0c2` / `0ebda51b51b41cab157da93c6586d1a945b11ab6`
+- Revision: evidence-bounded v2; same-scale rufous-morph adults retain tiny untufted form and false-eye patches, while the age-unknown mesoptile juvenile keeps its grayish unspotted crown and mottled forehead but no mature layered flight feathers.
+- Review: first render was rejected for adult-like juvenile wing spots/remiges; one targeted edit shortened and softened the juvenile wing/tail, then the original-resolution image passed recheck. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-41-glaucidium-cobanense-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1459+0800-cycle-5.md)
+
 ## 40 · Cloud-forest Pygmy-Owl · *Glaucidium nubicola* v2
 
 - [Original PNG](concepts/40-glaucidium-nubicola-v2.png) · 1254×1254 · 3,033,861 bytes · SHA-256 `fe90bd55bc997e4f144f112327e38d89ed838593ed6ac818463acaae91beb6e0`

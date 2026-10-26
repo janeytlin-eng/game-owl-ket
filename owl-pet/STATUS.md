@@ -1,3 +1,12 @@
+## 2026-10-26 #39 *Glaucidium griseiceps* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/39-glaucidium-griseiceps-v2.png](design/concepts/39-glaucidium-griseiceps-v2.png)
+- Archive commit/blob: `f408fd84ad7b417fc78406be333b0cf076024fc7` / `1de3efd3d0d0915cca11f3ad573f35280d5ecbfc`; PNG 2,871,466 bytes; SHA-256 `8a3335dba0f0d2e93d75ada1056a8f21e10460c16b9a8e4896612a8213abb121`.
+- Research: 1 new indexed source, 3 reused; the 2008 juvenile figure/caption and current Cornell/eBird page were read, with an unread paper lead explicitly excluded.
+- Review: first render passed; exactly three supported birds, correct labels, rear-side adult false-eye patch, near-equal adults, plain-backed short-winged older juvenile, humid evergreen lowland setting.
+- Scientific status: pending; exact juvenile age, iris chronology, continuous feather sequence, population variation and quantified sex difference remain unknown.
+
 ## 2026-10-26 #38 *Glaucidium nana* v2
 
 - Result: revised and archived; unique species remains 159/251.

@@ -3374,3 +3374,12 @@ Reused and re-read: `SRC-WEB-036-01` (Birds of Bolivia adult occurrence/image re
 ### Reused evidence and limitation
 - Reused `TFO-SUN-NEST-1997`, `TFO-SUN-HABITAT-2000`, `TFO-AVIBASE-2026`, `TFO-BIRDLIFE-2026`.
 - The v1 binary exceeds the connector response cap in this run, so its previously archived review finding—not truncated pixels—is used: adult-like juvenile white spots/layered remiges required correction. No claim of fresh v1 pixel review is made.
+
+
+## 2026-10-26 #61 *Ketupa ketupu* v2 evidence increment
+
+| Stable ID | Source | Read scope | Verified value | Limits / design use |
+|---|---|---|---|---|
+| BFOW-INDIANBIRDS-2015 | Sharma, M., Jha, S. & Jain, A., [Buffy Fish Owl *Ketupa ketupu* breeding in Sundarbans Tiger Reserve, India](https://indianbirds.in/pdfs/IB_10_1_Sharma_BuffyFishOwl.pdf), *Indian BIRDS* 10(1):27–28 | Full two-page note, pp. 27–28 and Figs. 28–29 read 2026-10-26 | One pair used an old raptor twig nest 8–10 m above water in a dry *Sonneratia apetala* beside a mangrove channel; one chick was later observed. Adult marks recorded include yellow iris, black bill, streaked forehead, white brow/crescent, warm-brown facial disc, sideward ear tufts, diffuse white throat, dark-streaked yellow-brown underparts and long bare tarsi. | Primary regional breeding observation, high confidence for that event but not a universal nest rule; no chick age or continuous plumage sequence. Supports adult diagnostics and an alternative mangrove nest substrate, not the selected Singapore fern-nest reconstruction. |
+
+Reused and freshly read: BFOW-BESG-NEST-2016 (living *Asplenium nidus* nest at Sungei Buloh; small resting chick on 25 March and down-covered chick on 25 April), BFOW-BESG-FLEDGE-2024 (branch-supported juvenile about two days after fledging, still parent-fed), and BFOW-NPARKS-2026 (adult/habitat direction). V2 selects the better photo-sequenced Singapore fern nestling: low resting posture, soft down, naturally supported body and no flight claim. Exact hatch age, fine remige sequence, sex-specific measurements and subspecies color remain unknown; `scientifically_verified=false`.

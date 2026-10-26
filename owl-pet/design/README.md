@@ -1137,3 +1137,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Review: first draft's juvenile had adult-like long layered remiges and crisp white wing rows. One targeted edit produced a short rounded soft-brown developing wing under down; exactly three labels, both supported adults, juvenile belly/two-foot contact and unchanged text were rechecked at original resolution.
 - Limits: exact juvenile age/flight threshold, universal nest type and reliable sex-size ratio remain unknown; `scientifically_verified=false`.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-95-pulsatrix-melanota-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-5.md)
+
+
+## 96 · Unspotted Saw-whet Owl · *Aegolius ridgwayi* v2
+- [Original PNG](concepts/96-aegolius-ridgwayi-v2.png) · 1350×900 · 621,172 bytes · SHA-256 `07a25002fe02bc54c18f3e57334a3b9ad9c987110670a8a4d718d7b787c3f3b9`
+- Revision: Guatemalan highland context grounded in the 2018 inventory; resting branch avoids turning probable cavity nesting into fact.
+- Review: first draft's central juvenile had an adult-length layered wing. One targeted edit shortened it to a rounded down-overlaid developing wing; exactly three labels, both adults, eye/bill colors, juvenile belly/two-foot support and unchanged text were rechecked at original resolution.
+- Limits: exact juvenile age/flight threshold, nest type and robust sex-size ratio remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-96-aegolius-ridgwayi-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-6.md)

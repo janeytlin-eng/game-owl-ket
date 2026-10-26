@@ -816,3 +816,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added `design/concepts/95-pulsatrix-melanota-v2.png` and mirrored production asset; preserved v1.
 - Added MEL-BOW-2026 and MEL-RODRIGUEZ-2018; reused the published exposed-fork nesting record and Mikkola guide evidence.
 - Removed the first render's adult-like juvenile white wing rows/long layered remiges through one targeted edit and rechecked the result at original resolution. Scientific verification remains false.
+
+
+## 2026-10-27 06:08 +0800 — #96 Unspotted Saw-whet Owl v2
+- Added `design/concepts/96-aegolius-ridgwayi-v2.png` and mirrored production asset; preserved v1.
+- Added RID-EISERMANN-AVENDANO-2018 for Guatemalan highland distribution/breeding status; kept exact nest form and juvenile timing unknown.
+- Shortened the first render's adult-like juvenile wing in one targeted edit and rechecked the complete image at original resolution. Scientific verification remains false.

@@ -1178,3 +1178,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 05:34 +0800 — #95 *Pulsatrix melanota* v2 archived after one juvenile-wing edit. Adults retain dark reddish eyes, pale-yellow bills, broad cream facial markings, brown breast bands and barred lower underparts at near-equal scale; the pale-buff/cinnamon dark-faced juvenile now has a short rounded soft-brown developing wing without adult white rows, concealed tail and full exposed-fork support. Revision only; unique-species total remains 159/251. Exact age/flight threshold, universal nest type and reliable sex-size ratio remain unknown; scientific calibration pending. Image: [95-pulsatrix-melanota-v2.png](design/concepts/95-pulsatrix-melanota-v2.png).
+
+
+- 2026-10-27 06:08 +0800 — #96 *Aegolius ridgwayi* v2 archived after one juvenile-wing edit. Adults retain honey-amber eyes, dark horn bills, narrow pale facial rims, plain warm-brown upperparts and buff bellies at near-equal scale; the age-unknown older fluffy juvenile now has a short rounded down-overlaid wing, concealed tail and full branch support. Revision only; unique-species total remains 159/251. Exact age/flight threshold, nest type and robust sex-size ratio remain unknown; scientific calibration pending. Image: [96-aegolius-ridgwayi-v2.png](design/concepts/96-aegolius-ridgwayi-v2.png).

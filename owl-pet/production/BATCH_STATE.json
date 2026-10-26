@@ -3521,32 +3521,33 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1849+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-26T19:03:00+08:00",
-        "expires_at": "2026-10-26T19:18:00+08:00"
+        "heartbeat_at": "2026-10-26T19:05:00+08:00",
+        "expires_at": "2026-10-26T19:20:00+08:00"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix virgata",
         "species_id": 50,
         "version": 2,
         "run_id": "2026-10-26T1849+0800-cycle-2",
-        "at": "2026-10-26T19:03:00+08:00",
+        "at": "2026-10-26T19:05:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1849+0800-cycle-2.md",
         "evidence": {
-          "image_path": "owl-pet/design/concepts/50-strix-virgata-v2.png",
+          "archive_commit": "257fbf724d486fc564015c74c7aaef1473895729",
           "image_commit": "46c4ed8a6e58c79accba7013d062aebdac34451a",
+          "image_path": "owl-pet/design/concepts/50-strix-virgata-v2.png",
           "git_blob": "2378e5547b35f85f20cd8175a394c58f6ba9ea17",
           "size_bytes": 2959269,
           "sha256": "97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d",
           "dimensions": "1254x1254",
-          "metadata_paths": [
-            "owl-pet/design/manifest.json",
-            "owl-pet/design/README.md",
-            "owl-pet/knowledge/species/50-strix-virgata.md",
-            "owl-pet/STATUS.md",
-            "owl-pet/CHANGELOG.md"
-          ]
+          "readback": {
+            "image": true,
+            "manifest": true,
+            "species_record": true,
+            "run_record": true,
+            "source_index": true
+          }
         }
       }
     }

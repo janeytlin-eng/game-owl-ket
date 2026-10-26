@@ -3569,26 +3569,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2156+0800-cycle-6",
         "cycle": 6,
-        "heartbeat_at": "2026-10-26T22:00:00+08:00",
-        "expires_at": "2026-10-26T22:15:00+08:00"
+        "heartbeat_at": "2026-10-26T22:02:00+08:00",
+        "expires_at": "2026-10-26T22:17:00+08:00"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 2,
         "run_id": "2026-10-26T2156+0800-cycle-6",
-        "at": "2026-10-26T22:00:00+08:00",
+        "at": "2026-10-26T22:02:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2156+0800-cycle-6.md",
         "evidence": {
           "research_commit": "4dcc5d591fbf6fee4f2af13cf673c18fe4e71ca4",
-          "run_record_commit": "6388b6e51305d71bb2ea20e0fc7b2681512183bc",
-          "sources_reused": 3,
-          "sources_new": 0,
-          "sources_corrected": 0,
-          "prompt_persisted": true,
-          "mikkola_page_evidence": false,
+          "candidate_commit": "91c5c055585feeee22b440461ba0398224ac660f",
+          "candidate_blob": "0e2294296804772b1d8759c1dfa9d53c46addf23",
+          "sha256": "b03ddbfde5d7a0fb760ee6f7790259c115eeba6cdebad4813751ba80c2536e7e",
+          "dimensions": "1350x900",
+          "size_bytes": 734708,
+          "review_issue": "juvenile folded wing long, sharply layered and white-spotted",
+          "remote_readback": true,
           "scientifically_verified": false
         }
       }

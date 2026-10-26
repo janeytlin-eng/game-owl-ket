@@ -3250,28 +3250,31 @@
           "commit_sha": "7b6729c44844f3a19e741ad11bbd86ee4033a7bc",
           "archive_commit": "081ea81c554da8ed8e8b719498c392f112ba841c",
           "run_record": "owl-pet/production/runs/2026-10-26T1215+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Glaucidium hardyi",
+          "species_id": 34,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a6905845f9ce7650b11a550a803cf74fa70ffabd",
+          "archive_commit": "e7474fc3f3c6645c283f1726eb52eb41952ee589",
+          "run_record": "owl-pet/production/runs/2026-10-26T1229+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1229+0800-cycle-4",
-        "heartbeat_at": "2026-10-26T12:42:00+08:00",
-        "expires_at": "2026-10-26T12:57:00+08:00",
-        "species": "Glaucidium hardyi",
-        "species_id": 34,
-        "version": 2,
-        "stage": "ARCHIVED"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 4,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Glaucidium hardyi",
         "species_id": 34,
         "version": 2,
         "run_id": "2026-10-26T1229+0800-cycle-4",
-        "at": "2026-10-26T12:42:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1229+0800-cycle-4.md"
+        "at": "2026-10-26T12:44:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1229+0800-cycle-4.md",
+        "commit_sha": "a6905845f9ce7650b11a550a803cf74fa70ffabd"
       }
     }
   ],

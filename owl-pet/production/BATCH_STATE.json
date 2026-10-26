@@ -3234,22 +3234,24 @@
       "active_lease": {
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1153+0800-cycle-2",
-        "heartbeat_at": "2026-10-26T11:53:00+08:00",
-        "expires_at": "2026-10-26T12:08:00+08:00",
+        "heartbeat_at": "2026-10-26T12:00:00+08:00",
+        "expires_at": "2026-10-26T12:15:00+08:00",
         "species": "Glaucidium castanotum",
         "species_id": 32,
         "version": 2,
-        "stage": "STARTED"
+        "stage": "RESEARCH_READY"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Glaucidium castanotum",
         "species_id": 32,
         "version": 2,
         "run_id": "2026-10-26T1153+0800-cycle-2",
-        "at": "2026-10-26T11:53:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1153+0800-cycle-2.md"
+        "at": "2026-10-26T12:00:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1153+0800-cycle-2.md",
+        "evidence_commit": "801c09862852760ce6f8dffdc96847bf141781d3",
+        "source_index_commit": "a0e65734a535039dea3af23bde87dc6b453e2690"
       }
     }
   ],

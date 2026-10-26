@@ -3986,27 +3986,36 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T0533+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T06:42:00.000+08:00",
-        "expires_at": "2026-10-27T06:57:00.000+08:00",
+        "heartbeat_at": "2026-10-27T06:46:00.000+08:00",
+        "expires_at": "2026-10-27T07:01:00.000+08:00",
         "cycle": 5,
         "species": "Ketupa philippensis",
         "species_id": 124
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Ketupa philippensis",
         "species_id": 124,
         "version": 2,
         "run_id": "2026-10-27T0533+0800-cycle-5",
-        "at": "2026-10-27T06:42:00.000+08:00",
+        "at": "2026-10-27T06:46:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-5.md",
         "evidence": {
-          "selection": "lowest-ID v1-only valid candidate after verified #122",
-          "manifest_checked_at_head": "edae4638157eb48b1245a08548762359514f0559"
+          "new_sources": [
+            "PEO-URRIZA-2017"
+          ],
+          "reused_sources": [
+            "PEO-OCHAVO-2012",
+            "PEO-ARTUSO-2015",
+            "PEO-AVIBASE-MAPPING"
+          ],
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "species_record": "owl-pet/research/species/124-ketupa-philippensis.md",
+          "pdf_limit": "cover/page 2 and abstract read; remaining screenshots 403"
         }
       },
-      "last_updated_at": "2026-10-27T06:42:00.000+08:00",
+      "last_updated_at": "2026-10-27T06:46:00.000+08:00",
       "audit_notes": [
         "Clock correction: this batch uses the actual invocation time; the preceding batch's stored phase timestamps extend later due to earlier runner clock skew.",
         "2026-10-27T05:44:49.388+08:00: cycle 1 #102 Strix nigrolineata v2 readback verified; archive 339caef, image blob a8c6883. Unique species remains 159/251; next_cycle 2.",

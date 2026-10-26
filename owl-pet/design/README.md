@@ -1,3 +1,9 @@
+## #27 Eurasian Pygmy-Owl v2 — 2026-10-26
+
+- [Original PNG](concepts/27-glaucidium-passerinum-v2.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/510ec23c05aa8d5763107555f888b06d7d76e46d)
+- Targeted edit removed adult-like juvenile remiges/tail bars; exactly three birds, labels and support rechecked.
+- Exact juvenile day/iris/feather growth unresolved; `scientifically_verified=false`.
+
 ## #26 Cuban Pygmy-Owl v2 — 2026-10-26
 
 - Original: [26-glaucidium-siju-v2.png](concepts/26-glaucidium-siju-v2.png)

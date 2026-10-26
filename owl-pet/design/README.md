@@ -888,3 +888,6 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 
 
 - `31-glaucidium-radiatum-v2.png` — #31 *Glaucidium radiatum* v2 revision; targeted edit removed the cavity chick’s residual long dark remiges, leaving gray-white down and a short rounded wing bud. Adults, three labels, no-false-eye diagnosis and natural supports were reviewed. Exact juvenile age/sequence, sex-size ratio and subspecies detail remain unknown; scientifically verified: no. Image commit: `12827b8ab8ac4ae94d4177f20551d2e4ce38e7f0`; [run](../production/runs/2026-10-26T1128+0800-cycle-1.md).
+
+
+- `32-glaucidium-castanotum-v2.png` — #32 *Glaucidium castanotum* v2; targeted juvenile edit removed crisp adult wing spots/long remiges and softened the middle-juvenile pattern. Exact age, sequence and sex-size ratio remain unknown; scientifically verified: no. Image commit `495c1bf335d5e61dbc10d986502980b2ef69aafc`; [run](../production/runs/2026-10-26T1153+0800-cycle-2.md).

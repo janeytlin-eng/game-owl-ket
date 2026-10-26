@@ -3328,27 +3328,27 @@
       "active_lease": {
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1438+0800-cycle-2",
-        "heartbeat_at": "2026-10-26T14:41:00+08:00",
-        "expires_at": "2026-10-26T14:56:00+08:00",
+        "heartbeat_at": "2026-10-26T14:43:00+08:00",
+        "expires_at": "2026-10-26T14:58:00+08:00",
         "species": "Glaucidium nana",
         "species_id": 38,
         "version": 2,
-        "stage": "RESEARCH_READY"
+        "stage": "IMAGE_GENERATED"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Glaucidium nana",
         "species_id": 38,
         "version": 2,
         "run_id": "2026-10-26T1438+0800-cycle-2",
-        "at": "2026-10-26T14:41:00+08:00",
+        "at": "2026-10-26T14:43:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1438+0800-cycle-2.md",
         "evidence": {
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 1,
-          "reused_sources": 3,
-          "full_prompt_persisted": true
+          "scratch_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-36a3b1f4-8b58-4a47-9da5-3b771de3b3b5.png",
+          "sha256": "03acde59cd797cd4fae890241aaf31fa8c13174d44947a1e8a40953af5d24306",
+          "review_issue": "juvenile adult-like white wing spots and long fully barred tail",
+          "archive_ready": false
         }
       }
     }
@@ -3427,7 +3427,7 @@
     "2026-10-26 11:15 +0800: batch cycle 3 revised and verified #27 Glaucidium passerinum v2 after one juvenile wing/tail correction; archive 510ec23c05aa8d5763107555f888b06d7d76e46d, blob b00e1f205dc60e13397713451285a56d937e7f83, verification 4835454f0db28037fb7bd23ed6f0e98de8e9d084. Unique remains 159/251; next_cycle 4.",
     "2026-10-26 14:36 +0800: new batch cycle 1 revised and verified #37 Glaucidium peruanum v2; first render passed original-resolution review. Archive commit 85ec167a10c7688a17368ba0d29563dc0b422369, Git blob 5f3f6922e501681fd61bb0b7e0bc87a10e7a6e25; verification commit 03ff1c9fba1e4d7765337c2a0b10dc0213c6d71a. Unique remains 159/251; batch advances to 1/6, next_cycle 2."
   ],
-  "updated_at": "2026-10-26T14:41:00+08:00",
+  "updated_at": "2026-10-26T14:43:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -3438,11 +3438,11 @@
   "active_lease": {
     "owner": "scheduled-production",
     "run_id": "2026-10-26T1438+0800-cycle-2",
-    "heartbeat_at": "2026-10-26T14:41:00+08:00",
-    "expires_at": "2026-10-26T14:56:00+08:00",
+    "heartbeat_at": "2026-10-26T14:43:00+08:00",
+    "expires_at": "2026-10-26T14:58:00+08:00",
     "species": "Glaucidium nana",
     "species_id": 38,
     "version": 2,
-    "stage": "RESEARCH_READY"
+    "stage": "IMAGE_GENERATED"
   }
 }

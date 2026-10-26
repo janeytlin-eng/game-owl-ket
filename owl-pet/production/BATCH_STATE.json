@@ -3557,27 +3557,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2103+0800-cycle-5",
         "cycle": 5,
-        "heartbeat_at": "2026-10-26T21:44:00+08:00",
-        "expires_at": "2026-10-26T21:59:00+08:00"
+        "heartbeat_at": "2026-10-26T21:47:00+08:00",
+        "expires_at": "2026-10-26T22:02:00+08:00"
       },
       "checkpoint": {
         "cycle": 5,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Bubo africanus",
         "species_id": 54,
         "version": 2,
         "run_id": "2026-10-26T2103+0800-cycle-5",
-        "at": "2026-10-26T21:44:00+08:00",
+        "at": "2026-10-26T21:47:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2103+0800-cycle-5.md",
         "evidence": {
           "research_commit": "d93b4103f9c0b6d1a7215dd7837e3e9facbba488",
-          "run_record_commit": "d4ce1f8341270cddf0aef818ded0ebc80c734eea",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "sources_reused": 4,
-          "sources_new": 0,
-          "sources_corrected": 0,
-          "mikkola_page_evidence": false,
-          "prompt_persisted": true,
+          "candidate_commit": "259fb84d88f43ca208dfab9863aa8fe640eb7bf7",
+          "candidate_blob": "8abbd84cbcc6d286a3ab01a8383a1e5b2a91b28d",
+          "candidate_sha256": "b4be207250162a6a57fda1d8a270c697a903e362a18142b3274913517de04b26",
+          "dimensions": "1350x900",
+          "size_bytes": 750197,
+          "remote_readback": true,
+          "review_issue": "juvenile layered patterned wing reads too mature",
           "scientifically_verified": false
         }
       }

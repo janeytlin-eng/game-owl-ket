@@ -19,3 +19,10 @@ Create a polished scientific-character concept sheet in the repository’s estab
 ## Open uncertainties
 
 Exact juvenile age, iris development, bill tone, detailed upper-foot feather extent, quantitative standing-height ratio, continuous feather sequence and individual/morph variation remain unknown. Concept image cannot be marked scientifically verified.
+
+
+## v2 production and review
+
+- Final original: `design/concepts/122-otus-megalotis-v2.png`; archive image commit `70182ca5e51401d5ca139b7fe2b04547a3ebadda`; Git blob `18278c4cc31a3f2bd02ab24c501d4e5b464e8e29`; SHA-256 `4a11432ee836a17b82b38a6e34a7439b73e8d7293402704253ce97f24839b458`; 1536×1024; 2,788,748 bytes.
+- Issue → evidence → change → recheck: first output's juvenile wing and tail read too long/adult-layered for the fuzzy age-unknown fledgling; one targeted ImageGen edit shortened/rounded the folded wing and concealed the long tail without erasing formed flight feathers; original-resolution recheck passed all visual gates.
+- Scientific status remains false; the open uncertainties above were not converted into facts.

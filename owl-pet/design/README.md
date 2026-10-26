@@ -1,3 +1,10 @@
+## 122 · Philippine Scops-Owl · *Otus megalotis* v2
+
+- [Original PNG](concepts/122-otus-megalotis-v2.png) · 1536×1024 · 2,788,748 bytes · SHA-256 `4a11432ee836a17b82b38a6e34a7439b73e8d7293402704253ce97f24839b458`
+- Archive image commit/blob: `70182ca5e51401d5ca139b7fe2b04547a3ebadda` / `18278c4cc31a3f2bd02ab24c501d4e5b464e8e29`
+- Revision: Luzon lowland unit only; one targeted juvenile-wing/tail edit after the first output read too adult-layered. Original-resolution review passed; science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-4.md)
+
 ## 51 · Rufous-legged Owl · *Strix rufipes* v2
 
 - [Original PNG](concepts/51-strix-rufipes-v2.png) · 1254×1254 · 2,867,007 bytes · SHA-256 `75883fe11ddd5bf97a780f6b22736aaa1228d8c0040a947683237b00e6b244da`

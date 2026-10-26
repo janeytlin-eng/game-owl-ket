@@ -1,3 +1,11 @@
+## 2026-10-27 #122 *Otus megalotis* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/122-otus-megalotis-v2.png](design/concepts/122-otus-megalotis-v2.png)
+- Archive image commit/blob: `70182ca5e51401d5ca139b7fe2b04547a3ebadda` / `18278c4cc31a3f2bd02ab24c501d4e5b464e8e29`; 1536×1024; 2,788,748 bytes; SHA-256 `4a11432ee836a17b82b38a6e34a7439b73e8d7293402704253ce97f24839b458`.
+- Research: 1 new indexed source, 3 reused. Review: one juvenile-wing/tail edit; original-resolution recheck passed. Science pending.
+- Run: [production/runs/2026-10-27T0533+0800-cycle-4.md](production/runs/2026-10-27T0533+0800-cycle-4.md)
+
 ## 2026-10-26 #52 *Strix hylophila* v2
 
 - Result: revised and archived; unique species remains 159/251.

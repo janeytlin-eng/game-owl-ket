@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-27 06:38 +08:00
+
+- Revised #122 Philippine Scops-Owl (*Otus megalotis*) to v2 for the Luzon lowland unit; added one source, reused three, and corrected the age-unknown fledgling's overlong adult-layered wing/tail before original-resolution recheck. Unique species remains 159/251; science pending.
+
+
 ## 2026-10-26 19:24 +08:00
 
 - Revised #51 Rufous-legged Owl (*Strix rufipes*) to v2; added two sources, calibrated an approximately one-month juvenile against a 34-day nestling period, and corrected the adult sex-size direction without exaggerating height. Unique species remains 159/251; science pending.

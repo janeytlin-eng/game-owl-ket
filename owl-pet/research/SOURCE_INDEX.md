@@ -3647,3 +3647,9 @@ Martin Kennewell / Macaulay Library, ML201585161 (IBC 1180864), 18 July 2010, Mt
 - **DAV-SCHERZINGER-2004-BHL** — Scherzinger, “Remarks on Sichuan Wood Owl…”, *Bulletin BOC* 125:275–286, BHL page https://www.biodiversitylibrary.org/page/40056584 . Search lead found via Clements but current fetch returned 403; **unverified lead**, not used as validated evidence.
 - Design decision: preserve v1 layout and box-supported young; remove dotted/concentric adult facial halos, reduce excessive white wing spotting, darken central tails with subtle irregular scribbles; science remains false.
 - Related run: [2026-10-27T0728+0800-cycle-1](../production/runs/2026-10-27T0728+0800-cycle-1.md).
+
+### 2026-10-27 #135 *Otus silvicola* v2 source reuse audit
+
+- Reused `WSC-MEES-2006` after fresh targeted reread of Naturalis pp.113–115 / species account and Fig.8 context: examined material includes fledglings whose remiges and rectrices remain basally sheathed; the type's immature transition is fully feathered with fine loose barring and few adult shafts. Exact age is not given. This supports formed but softer/less adult-regular wing and tail, not erasing them.
+- Reused `SLSO-SANGSTER-2013` after fresh PLOS full-text read of Diagnosis: Morphology, lines 322–323: *O. silvicola* colder gray-brown upperparts with broader shaft streaks/bars; pale grayish-cinnamon/buffy-gray breast only slightly darker than belly sides with white belly center; tarsal feathering covers toe bases. It supplies no juvenile development or population sex ratio.
+- Stable source IDs added: 0; corrected: 0; reused: 2. Design application only: reduce v1 immature's crisp adult-like white wing patch rows while retaining the evidence-supported fully feathered transitional stage. Scientific verification remains false.

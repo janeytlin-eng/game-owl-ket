@@ -21,3 +21,13 @@
 ## 来源
 
 见 [SOURCE_INDEX](../../research/SOURCE_INDEX.md)：`COOW-MIKKOLA-2013`、`COOW-GWEE-2019`、`COOW-BIRDLIFE-2026`。
+
+
+## v2 revision — 2026-10-26
+
+- Evidence increment: new `COOW-EBIRD-2025`; reused `COOW-MIKKOLA-2013`, `COOW-GWEE-2019`, and `COOW-BIRDLIFE-2026`.
+- Change from v1: standardized to a 3:2 three-bird sheet, made the male’s paired nape false eyes plainly visible, and made the center older immature’s head more vertically streaked while keeping body bars diffuse and wings/tail shorter than adults.
+- Review: exactly three birds; correct title/labels; no ear tufts; adult common traits and near-equal scale retained; both juvenile feet grip the branch. No edit was required after original-resolution inspection.
+- Remaining uncertainty: exact immature age, continuous feather sequence, flight ability, regional morph/lineage, and quantified sex-size difference. This is not a scientific pass.
+- Original: [33-taenioptynx-brodiei-v2.png](../../design/concepts/33-taenioptynx-brodiei-v2.png)
+- Run: [2026-10-26T1215+0800-cycle-3](../../production/runs/2026-10-26T1215+0800-cycle-3.md)

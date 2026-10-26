@@ -3843,32 +3843,28 @@
         }
       ],
       "next_cycle": 2,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-27T0334+0800-cycle-2",
+        "cycle": 2,
+        "heartbeat_at": "2026-10-27T03:56:00+08:00",
+        "expires_at": "2026-10-27T04:11:00+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "species": "Asio clamator",
-        "species_id": 76,
+        "cycle": 2,
+        "stage": "STARTED",
+        "species": "Asio stygius",
+        "species_id": 77,
         "version": 2,
-        "run_id": "2026-10-27T0334+0800-cycle-1",
-        "at": "2026-10-27T03:54:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-1.md",
+        "run_id": "2026-10-27T0334+0800-cycle-2",
+        "at": "2026-10-27T03:56:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-2.md",
         "evidence": {
-          "image_commit": "d69581f81fc48a662eac5e1bc5216f9b03db5534",
-          "run_record_commit": "c872d8f6994964aef2990ea8f9a32a0f5389b3aa",
-          "image_blob": "92c81389fb3335ba08f89b6ff5fd7816738e0567",
-          "concept_remote_readback": true,
-          "asset_remote_readback": true,
-          "manifest_remote_readback": true,
-          "source_index_remote_readback": true,
-          "archive_commit_files_verified": true,
-          "sha256": "8a4013f7211b119cbb2688245d94475621abba754e03faa5153eb1b05931a19e",
-          "bytes": 747112,
-          "dimensions": "1350x900",
-          "scientifically_verified": false
+          "selection_basis": "next sequential revision after #76; #77 has only v1 in current manifest",
+          "previous_asset": "owl-pet/design/concepts/77-asio-stygius-v1.png"
         }
       },
-      "last_updated_at": "2026-10-27T03:54:00+08:00",
+      "last_updated_at": "2026-10-27T03:56:00+08:00",
       "audit_notes": []
     }
   ],

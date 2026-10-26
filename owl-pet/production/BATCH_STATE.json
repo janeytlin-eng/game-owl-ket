@@ -3508,32 +3508,33 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1835+0800-cycle-1",
         "cycle": 1,
-        "heartbeat_at": "2026-10-26T18:45:00+08:00",
-        "expires_at": "2026-10-26T19:00:00+08:00"
+        "heartbeat_at": "2026-10-26T18:48:00+08:00",
+        "expires_at": "2026-10-26T19:03:00+08:00"
       },
       "checkpoint": {
         "cycle": 1,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix woodfordii",
         "species_id": 49,
         "version": 2,
         "run_id": "2026-10-26T1835+0800-cycle-1",
-        "at": "2026-10-26T18:45:00+08:00",
+        "at": "2026-10-26T18:48:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1835+0800-cycle-1.md",
         "evidence": {
-          "image_path": "owl-pet/design/concepts/49-strix-woodfordii-v2.png",
+          "archive_commit": "d65f17ad872c1b2f3f8b7d6b0266ae4eb1e84300",
           "image_commit": "cabba678b26de3663fb9c4ff6d4f31d11e406362",
+          "image_path": "owl-pet/design/concepts/49-strix-woodfordii-v2.png",
           "git_blob": "a69969d77819758c2a2026954bada5079131adb1",
           "size_bytes": 2979818,
           "sha256": "91736dcecc2439398437ebe618ede329d96510dfcb540add4d720933d17c4339",
           "dimensions": "1254x1254",
-          "metadata_paths": [
-            "owl-pet/design/manifest.json",
-            "owl-pet/design/README.md",
-            "owl-pet/knowledge/species/49-strix-woodfordii.md",
-            "owl-pet/STATUS.md",
-            "owl-pet/CHANGELOG.md"
-          ]
+          "readback": {
+            "image": true,
+            "manifest": true,
+            "species_record": true,
+            "run_record": true,
+            "source_index": true
+          }
         }
       }
     }

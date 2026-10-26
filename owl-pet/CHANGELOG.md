@@ -1,3 +1,4 @@
+- 2026-10-27: Revised #133 *Megascops atricapilla* to v2; enriched the existing primary taxonomic source, reused three species sources, and corrected the age-unknown later juvenile's adult-layered long wing/tail while preserving its evidence-supported yellow iris and perch grip. Archived an actually viewed 1536×1024 PNG; unique species remains 159/251; science pending.
 - 2026-10-27: #132 v2 archive readback detected a truncated binary; replaced all image paths with an actually viewed 1513×1039 64-color indexed PNG (683,823 bytes, blob `5f45f249b4a3a70c857ac707f4eee61b83b6adf3`) before verification.
 - 2026-10-27: Revised #132 *Strix davidi* to v2; corrected unsupported concentric adult facial halos to radial pattern, preserved the evidence-bounded approximately four-week box-supported young, and archived source/review evidence. Scientific verification remains pending.
 # 更新记录

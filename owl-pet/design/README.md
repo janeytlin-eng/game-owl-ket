@@ -1,3 +1,10 @@
+## 133 · Black-capped Screech-Owl · *Megascops atricapilla* v2
+
+- [Original PNG](concepts/133-megascops-atricapilla-v2.png) · 1536×1024 · 678,643 bytes · SHA-256 `80e8e9bf6ff70c66e3b719af41e73592b5b1d1433405116dd2ae24fb7142ea4c`
+- Git blob: `94556a91cd5df558037d6115e3236e3b908dc1ea`
+- Revision: preserved the photo-supported age-unknown later juvenile and yellow iris, but one targeted edit shortened/rounded/softened its adult-layered wing and tail. Adult pair remains near-equal on one baseline; source enrichment prevents trait transfer across the former *atricapilla–watsonii* complex. Original-detail and final indexed-PNG reviews passed; exact age/flight, feather sequence, iris variation and quantified sex ratio remain unknown; science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0728+0800-cycle-2.md)
+
 ## 132 · Père David's Owl · *Strix davidi* v2
 
 - [Original PNG](concepts/132-strix-davidi-v2.png) · 1513×1039 · 683,823 bytes · SHA-256 `4dab1f19ee3269fc8f92869e546cb900f5a50f6a7a3fa672dd3c2016e85797f1`

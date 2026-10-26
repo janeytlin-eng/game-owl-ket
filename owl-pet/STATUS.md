@@ -1,3 +1,11 @@
+## 2026-10-27 #133 *Megascops atricapilla* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/133-megascops-atricapilla-v2.png](design/concepts/133-megascops-atricapilla-v2.png)
+- Git blob `94556a91cd5df558037d6115e3236e3b908dc1ea`; 1536×1024; 678,643 bytes; SHA-256 `80e8e9bf6ff70c66e3b719af41e73592b5b1d1433405116dd2ae24fb7142ea4c`.
+- Research: BCSO-DANTAS-2021 materially enriched from abstract-only to species account/taxonomic recommendations; 3 sources reused; 0 new IDs. Review: first output's juvenile wing/tail was too adult-layered; one targeted edit shortened and softened it while retaining the supported later stage, yellow iris and two-foot grip. Original-detail and final indexed-PNG reviews passed. Science pending.
+- Run: [production/runs/2026-10-27T0728+0800-cycle-2.md](production/runs/2026-10-27T0728+0800-cycle-2.md)
+
 ## 2026-10-27 #132 *Strix davidi* v2
 
 - Result: revised and archived; unique species remains 159/251.

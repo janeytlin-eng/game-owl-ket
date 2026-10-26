@@ -1145,3 +1145,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 00:08 +0800 — #62 *Ketupa sumatrana* v2 archived after one juvenile-wing edit: black-eyed, yellow-billed, horizontally tufted adults remain near-equal; older white-headed barred juvenile has a shorter soft wing, hidden tail and two-foot branch support. Revision only; unique-species total unchanged. Scientific calibration pending. Image: [62-ketupa-sumatrana-v2.png](design/concepts/62-ketupa-sumatrana-v2.png).
+
+
+- 2026-10-27 00:51 +0800 — #63 *Scotopelia peli* v2 archived after one juvenile-wing edit: no-tuft dark-eyed rufous adults remain near-equal, while the age-unknown pale juvenile now has a short down-softened folded wing, concealed tail and two-foot branch support. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [63-scotopelia-peli-v2.png](design/concepts/63-scotopelia-peli-v2.png).

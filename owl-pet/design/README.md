@@ -1046,3 +1046,12 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 - Review: PASS_AFTER_ONE_EDIT at original resolution; juvenile wing shortened/softened and tail concealed.
 - Evidence: BEOW-SGBIRDS-BREED-2018; reused BEOW-SGBIRDS-2026, BEOW-BESG-JUV-2010, BEOW-NPARKS-2026 and BEOW-AVIBASE-2026.
 - Boundary: older dependent branch-perched juvenile with whitish head/tufts and developing dark bars; conditional age estimate is not treated as exact. This is a concept image, not a scientifically verified plate.
+
+
+## #63 Pel's Fishing Owl / *Scotopelia peli* v2
+
+![#63 Pel's Fishing Owl v2](concepts/63-scotopelia-peli-v2.png)
+
+- Review: PASS_AFTER_ONE_EDIT at original resolution; the juvenile's adult-like long layered remiges were replaced by a short rounded down-softened developing wing and the tail was concealed.
+- Evidence: new PFO-BOTSWANAPOST-2022; reused PFO-TRUST-2026, PFO-OWLPAGES-2020, PFO-OUZMAN-JUV and PFO-BOUGLOUAN-2026.
+- Boundary: adults are dark-eyed, ear-tuft-free rufous fishing owls in old-tree riparian habitat; the supported pale juvenile is deliberately age-unknown. Exact age, continuous feather sequence and fixed sex ratio remain unresolved. This is a concept image, not a scientifically verified plate.

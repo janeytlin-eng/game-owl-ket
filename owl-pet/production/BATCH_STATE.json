@@ -3671,8 +3671,8 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2352+0800-cycle-6",
         "cycle": 6,
-        "heartbeat_at": "2026-10-27T00:03:00+08:00",
-        "expires_at": "2026-10-27T00:18:00+08:00"
+        "heartbeat_at": "2026-10-27T00:05:00+08:00",
+        "expires_at": "2026-10-27T00:20:00+08:00"
       },
       "checkpoint": {
         "cycle": 4,
@@ -3696,23 +3696,24 @@
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Ketupa sumatrana",
         "species_id": 62,
         "version": 2,
         "run_id": "2026-10-26T2352+0800-cycle-6",
-        "at": "2026-10-27T00:03:00+08:00",
+        "at": "2026-10-27T00:05:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2352+0800-cycle-6.md",
         "evidence": {
-          "research_commit": "7631b1c0ede7837fa845207d45eeaa5d9add6af0",
-          "image_stage_commit": "c5d136c7ea4e82085004ded059a758c13edbfbd6",
-          "edit_count": 1,
-          "archive_candidate_sha256": "e3069d4885beb8f7d7dbd1b659c8acb95a8a1b0c3e32e67b2d38e1f0eca59abe",
+          "review_commit": "af35ddeb4eae1e457fa85e867e1f0f37b451ce7a",
+          "review_result": "PASS_AFTER_ONE_EDIT",
+          "git_blob_local": "9520c87e67d3a8ab76fe526fb3b4f6b92d70078a",
+          "sha256": "e3069d4885beb8f7d7dbd1b659c8acb95a8a1b0c3e32e67b2d38e1f0eca59abe",
           "size_bytes": 811269,
-          "dimensions": "1350x900"
+          "dimensions": "1350x900",
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T00:03:00+08:00"
+      "last_updated_at": "2026-10-27T00:05:00+08:00"
     }
   ],
   "lease": null,
@@ -3807,7 +3808,7 @@
     "heartbeat_at": "2026-10-26T21:39:00+08:00",
     "expires_at": "2026-10-26T21:54:00+08:00"
   },
-  "last_updated_at": "2026-10-27T00:03:00+08:00",
+  "last_updated_at": "2026-10-27T00:05:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6."

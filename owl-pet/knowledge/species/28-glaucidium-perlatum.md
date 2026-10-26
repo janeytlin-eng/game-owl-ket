@@ -15,3 +15,14 @@ SANBI支持体长17–21 cm、黄眼、褐色底密布白色珠斑、后颈白�
 仍未知：分性别线性测量、幼鸟精确离巢日龄、翼尾生长长度与区域亚种幼羽差异。概念图可归档，科学状态不通过。
 
 图：`design/concepts/28-glaucidium-perlatum-v1.png`。详见[来源索引](../../research/SOURCE_INDEX.md)。
+
+
+## 2026-10-26 v2 evidence-bounded revision
+
+New institutional synthesis `PSOW-BDI-2026`, adapted from SABAP1 and read in full, reinforces the 17–21 cm adult scale, sexes alike in plumage, only slight linear sex-size contrast, neat white upperpart spots, longitudinal brown breast streaks, black false eyes rimmed white, old barbet/woodpecker-hole nesting, and post-fledging young remaining near the nest. It explicitly identifies juveniles by shorter tails and much-reduced head/back spotting, with especially obvious false eyes.
+
+v2 therefore replaces the v1 “small adult” tendency with a smaller, softer supported post-fledging juvenile: reduced crown/back spotting, short folded wings and no visible mature barred tail. Adults remain close in height; the female’s rear view exposes the paired false eyes. The dry open thorn-savanna and old cavity are retained.
+
+Actual full-resolution and optimized-archive inspection passed: exactly three labeled owls, all six feet supported, correct adult diagnostic palette/pattern, no extra bird or malformed limb. No imagegen edit was needed after generation. Archived image: `design/concepts/28-glaucidium-perlatum-v2.png`; SHA-256 `c85f8e82eeb507260719983630803eab8315196af4aeccb95870edaf8f701a02`; image commit `949a874e85fe620935b557565142001d5733b0d3`.
+
+Unresolved: exact juvenile day, day-specific feather tracts and iris chronology, continuous wing/tail growth and quantified linear sex-size difference. This remains a reviewed concept, not a scientific pass (`scientifically_verified=false`). See [source index](../../research/SOURCE_INDEX.md) and [cycle record](../../production/runs/2026-10-26T1116+0800-cycle-4.md).

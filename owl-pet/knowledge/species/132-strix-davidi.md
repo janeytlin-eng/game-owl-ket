@@ -26,6 +26,8 @@ FullPNG3155885bytes1536x1024 SHA256c34151703cf5ba90b9a95094f8531315a3ec4cd54713f
 
 - Actual v2 PNG viewed: exactly three birds and correct labels. Adult faces now use radial streaking without the v1 dotted concentric halo; dark eyes, yellow bills, restrained shoulder/secondary white drops, dark long central tails and feathered toe tops pass the evidence-boundary check.
 - Approximately four-week juvenile retains gray woolly barred mesoptile, dark mask, dark-brown iris, pinkish lids, pale-yellow bill, short/hidden wing and tail, furry toe tops and wooden-sill support.
-- ImageGen calls 1; edits 0. Final 1513×1039, 3,120,335 bytes, SHA-256 `18933289d94ba27a1ea8ecf4b98b7fbb6c520ae2fbd703c3dd893b8b2a2b57d6`, Git blob `80e4a67d1d507c8912abbdcc694d498c34e79a31`.
+- ImageGen calls 1; edits 0. Final 1513×1039, 683,823 bytes, SHA-256 `4dab1f19ee3269fc8f92869e546cb900f5a50f6a7a3fa672dd3c2016e85797f1`, Git blob `5f45f249b4a3a70c857ac707f4eee61b83b6adf3`.
 - Scientific verification remains false; exact hatch date, continuous feather sequence, quantified sex-size relation and population variation remain unknown.
 - [Run](../../production/runs/2026-10-27T0728+0800-cycle-1.md) · [v2 original](../../design/concepts/132-strix-davidi-v2.png)
+
+- Archive repair: first remote binary was truncated and rejected by readback. Final 1513×1039 image was re-encoded as an actually viewed 64-color indexed PNG; scientific composition unchanged. Correct final is 683,823 bytes, SHA-256 `4dab1f19ee3269fc8f92869e546cb900f5a50f6a7a3fa672dd3c2016e85797f1`, Git blob `5f45f249b4a3a70c857ac707f4eee61b83b6adf3`.

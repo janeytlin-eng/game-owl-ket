@@ -2,8 +2,8 @@
 
 - Result: revised and archived; unique species remains 159/251.
 - Image: [design/concepts/132-strix-davidi-v2.png](design/concepts/132-strix-davidi-v2.png)
-- Git blob `80e4a67d1d507c8912abbdcc694d498c34e79a31`; 1513×1039; 3,120,335 bytes; SHA-256 `18933289d94ba27a1ea8ecf4b98b7fbb6c520ae2fbd703c3dd893b8b2a2b57d6`.
-- Research: 1 new authoritative checklist source, 2 reused; 1 BHL lead left unverified. Review: first output passed; v1 facial-ring error corrected. Science pending.
+- Git blob `5f45f249b4a3a70c857ac707f4eee61b83b6adf3`; 1513×1039; 683,823 bytes; SHA-256 `4dab1f19ee3269fc8f92869e546cb900f5a50f6a7a3fa672dd3c2016e85797f1`.
+- Research: 1 new authoritative checklist source, 2 reused; 1 BHL lead left unverified. Review: first output passed; v1 facial-ring error corrected. A truncated binary upload was detected on readback and replaced with an actually viewed 64-color indexed PNG at unchanged dimensions. Science pending.
 - Run: [production/runs/2026-10-27T0728+0800-cycle-1.md](production/runs/2026-10-27T0728+0800-cycle-1.md)
 
 ## 2026-10-27 #127 *Megascops albogularis* v2

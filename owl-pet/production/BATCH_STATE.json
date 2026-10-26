@@ -3640,16 +3640,22 @@
           "archive_commit": "456aafe9fbc3cf532348ebb2ee8dbe409b417d93",
           "image_commit": "456aafe9fbc3cf532348ebb2ee8dbe409b417d93",
           "run_record": "owl-pet/production/runs/2026-10-26T2218+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ketupa flavipes",
+          "species_id": 60,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1105f6515bcc190d78649cc738857042ae9f109c",
+          "archive_commit": "375647aec6c4d6f67865de97e285a3ada963b3c4",
+          "image_commit": "375647aec6c4d6f67865de97e285a3ada963b3c4",
+          "run_record": "owl-pet/production/runs/2026-10-26T2233+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T2233+0800-cycle-4",
-        "cycle": 4,
-        "heartbeat_at": "2026-10-26T22:46:00+08:00",
-        "expires_at": "2026-10-26T23:01:00+08:00"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 4,
         "stage": "ARCHIVED",
@@ -3669,7 +3675,29 @@
           "remote_readback": "byte-identical",
           "scientifically_verified": false
         }
-      }
+      },
+      "cycle_checkpoint": {
+        "cycle": 4,
+        "stage": "VERIFIED",
+        "species": "Ketupa flavipes",
+        "species_id": 60,
+        "version": 2,
+        "run_id": "2026-10-26T2233+0800-cycle-4",
+        "at": "2026-10-26T23:26:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T2233+0800-cycle-4.md",
+        "evidence": {
+          "verification_commit": "1105f6515bcc190d78649cc738857042ae9f109c",
+          "archive_commit": "375647aec6c4d6f67865de97e285a3ada963b3c4",
+          "git_blob": "f79e83f89cdfd6bbd7727cb68424898f092caf71",
+          "sha256": "7cfb3e3c4abc729f58437491667f5f31d6e4f832aab86d08a5cf3d1ec638975f",
+          "size_bytes": 690452,
+          "dimensions": "1350x900",
+          "remote_readback": true,
+          "scientifically_verified": false,
+          "recovered_registration": true
+        }
+      },
+      "last_updated_at": "2026-10-26T23:26:00+08:00"
     }
   ],
   "lease": null,

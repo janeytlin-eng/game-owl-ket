@@ -27,7 +27,7 @@ Create a polished scientific-reference virtual-pet character sheet in the same w
 
 ## 2026-10-26 v2 evidence-bounded revision
 
-- Image: `design/concepts/43-athene-blewitti-v2.png`; archive commit `38772d472388816351c24f5e648980bb563e4540`; Git blob `97f15a421489a6c7e8a07bc0e012f34c8814f9b4`.
+- Image: `design/concepts/43-athene-blewitti-v2.png`; archive commit `0add92a7742da2be5654d5060eb9ceb8e97e1eb0`; Git blob `392d29ec7bf7cf01413b72a83e72b7311811c876`.
 - New habitat source `FOW-KHAN-2023-HABITAT` was read with four existing sources. Large-tree stands need not be closed-canopy and may adjoin agricultural cover.
 - First render correctly separated Forest Owlet from Spotted Owlet but gave the fledgling adult-style white wing rows and mature layered remiges. One juvenile-only edit removed those rows, shortened and softened the wing, concealed the tail and retained both-foot/belly support.
 - Remaining unknowns: complete juvenile feather sequence, population plumage variation, sex measurements and universal nest geometry. `scientifically_verified=false`.

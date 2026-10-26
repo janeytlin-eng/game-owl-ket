@@ -875,3 +875,10 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 证据边界修订：成年黄眼、浅绿黄色喙蜡膜、肉桂褐底整齐白色珠斑、白底棕色纵纹及雌雄近等展示通过复查；成年雌鸟后转展示成对白边黑色假眼。中央年龄未定离巢幼鸟更小、更蓬松，头背珠斑明显减少、短圆折翼、无成熟横斑长尾，双足由低矮金合欢枝承托。精确日龄、逐日羽区与虹膜发育、连续翼尾生长及量化性别差异仍待科学校准。
 
 ![28-glaucidium-perlatum-v2](concepts/28-glaucidium-perlatum-v2.png)
+
+
+## 29-glaucidium-capense-v2
+
+证据边界修订并定向修正幼鸟：成年细横斑、白色肩带、黄眼浅绿喙、腹部深色羽端斑、无后颈假眼及近等尺度通过复查；中央近期离巢幼鸟改为弥散不完整横纹、短软折翼、无醒目成年肩斑和短尾尖，双足自然支撑。精确日龄、连续羽序、亚种及量化性别差异仍待校准。
+
+![29-glaucidium-capense-v2](concepts/29-glaucidium-capense-v2.png)

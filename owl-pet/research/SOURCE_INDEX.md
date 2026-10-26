@@ -3342,3 +3342,19 @@ Reused and re-read: `SRC-WEB-036-01` (Birds of Bolivia adult occurrence/image re
 - Reused `DEO-AVIBASE-2026`, `DEO-BIRDLIFE-2026`, `DEO-ADW-2026`, and `DEO-JUV-OBS-2026`.
 - Freshly read Peregrine Fund synthesis supports yellow eyes, long ear tufts, lowland riparian/woodland habitat, old high stick nests in tree forks and major uncertainty in breeding timing.
 - Source fact versus inference: the primary paper supports an 8–10-week branch-moving youngster but not exact feather geometry. Wings stay short and down-softened; scientific calibration remains pending.
+
+
+## 2026-10-26 · #59 *Ketupa zeylonensis* v2 evidence increment
+
+### BFOW-BINDU-BALAKRISHNAN-2015
+- Title/authors: T. N. Bindu & Peroth Balakrishnan, “Observations on the Breeding of the Brown Fish-Owl *Ketupa zeylonensis* in Kerala, Southern India,” *Journal of the Bombay Natural History Society* 112(2):97–98 (2015).
+- Stable URL/DOI: https://doi.org/10.17087/jbnhs/2015/v112i2/104938
+- Accessed: 2026-10-26; source type: primary nine-year breeding observation; article metadata plus accessible full-text sections/table actually read.
+- Evidence: nine nesting attempts; mean incubation 34.8±1.92 d (32–37 d, n=5); nestling period 43–49 d (mean 46±3 d, n=3); seven of eleven eggs fledged. The repeatedly used site indicates probable site fidelity but birds were unmarked. The paper notes large trees and sites close to water.
+- Limits/confidence: long monitoring but one repeatedly used locality/site and unmarked adults; it does not provide a day-by-day feather tract. High for observed timing, medium for universalizing nest choice or plumage.
+- Design use: v2 uses a late-nestling/near-fledging stage bounded by the 43–49 d nestling period, without inventing a precise remex sequence.
+- Linked record/version/run: `knowledge/species/59-ketupa-zeylonensis.md`; `design/concepts/59-ketupa-zeylonensis-v2.png`; `production/runs/2026-10-26T2218+0800-cycle-3.md`.
+
+### Reused evidence and v1 review
+- Reused the actually read Indian BIRDS 8(6) breeding account: 15–20 d chicks and two nestlings that left 23/25 Apr 2012; fledglings resembled adults and were nearly adult-sized but remained dependent. Reused Owl Pages/Avibase adult and taxonomy records.
+- v1 was actually opened: composition/support passed, but adult irises read amber-orange rather than clear yellow, and juvenile wing/tail were too mature. v2 corrects both.

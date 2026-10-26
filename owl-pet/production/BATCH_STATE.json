@@ -3521,25 +3521,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1849+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-26T18:57:00+08:00",
-        "expires_at": "2026-10-26T19:12:00+08:00"
+        "heartbeat_at": "2026-10-26T19:00:00+08:00",
+        "expires_at": "2026-10-26T19:15:00+08:00"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Strix virgata",
         "species_id": 50,
         "version": 2,
         "run_id": "2026-10-26T1849+0800-cycle-2",
-        "at": "2026-10-26T18:57:00+08:00",
+        "at": "2026-10-26T19:00:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1849+0800-cycle-2.md",
         "evidence": {
-          "draft_path": "owl-pet/production/assets/50-strix-virgata-v2-draft.png",
-          "git_blob": "725e0ea1cbba53e5d339aa6a31b3f94b1c4f289f",
-          "size_bytes": 3183673,
-          "sha256": "ddc94f48f2303fcb4f4ca6bf12b8a55d8e96030e5e15a1b63e0654054d77af59",
+          "draft_commit": "611a18f7ac4d09d1549848a7fe982e3bbee79645",
+          "final_path": "owl-pet/design/concepts/50-strix-virgata-v2.png",
+          "git_blob": "2378e5547b35f85f20cd8175a394c58f6ba9ea17",
+          "size_bytes": 2959269,
+          "sha256": "97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d",
           "dimensions": "1254x1254",
-          "review_result": "REJECT juvenile adult-like white-spotted layered wing"
+          "edit": "juvenile wing only: removed white spots and long layered remiges",
+          "review_result": "PASS visual review; science remains pending"
         }
       }
     }

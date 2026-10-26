@@ -3242,23 +3242,25 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "species": "Glaucidium castanotum",
-        "species_id": 32,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1215+0800-cycle-3",
+        "heartbeat_at": "2026-10-26T12:15:00+08:00",
+        "expires_at": "2026-10-26T12:30:00+08:00",
+        "species": "Taenioptynx brodiei",
+        "species_id": 33,
         "version": 2,
-        "run_id": "2026-10-26T1153+0800-cycle-2",
-        "at": "2026-10-26T12:14:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1153+0800-cycle-2.md",
-        "evidence_commit": "772fbc61b1e3a02061bf8e826e13566828d0872a",
-        "archive_commit": "495c1bf335d5e61dbc10d986502980b2ef69aafc",
-        "git_blob": "b9ed7a2018f610fa53a20224dc364af17d385e78",
-        "sha256": "8b0e2491561b90bf0ae56ce2911774d56cfd82bcf949023b499202fba1c9dccd",
-        "bytes": 728556,
-        "dimensions": "1536x1024",
-        "raw_readback": "byte-identical"
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 3,
+        "stage": "STARTED",
+        "species": "Taenioptynx brodiei",
+        "species_id": 33,
+        "version": 2,
+        "run_id": "2026-10-26T1215+0800-cycle-3",
+        "at": "2026-10-26T12:15:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1215+0800-cycle-3.md"
       }
     }
   ],

@@ -4,3 +4,11 @@
 
 Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-14T1128+0800-cycle-4.md), [source index](../../research/SOURCE_INDEX.md).
 [Original](../../design/concepts/68-tyto-tenebricosa-v1.png); image commit 4d15bd73952dbdd13cde067583bf26e144d09714. Uploaded Mikkola guide not read, no page asserted. Scientific acceptance false; user confirmation pending.
+
+
+## 2026-10-27 v2 calibration delta
+
+- New `GSO-ABSA-2019`: nominate juveniles fledge almost fully feathered, may be darker than adults, and retain little down. Female measurements and mass exceed male ranges; females may have lighter masks/underparts.
+- NSW government evidence supports dark gray, white-speckled adults, gray heart disc, pale belly, large feathered legs/feet, rainforest and moist eucalypt habitat, and large old-tree hollows.
+- V2 uses a naturally supported near-fledging juvenile with developed compact wings and limited head/underpart down; not a natal chick. Female is clearly fuller but no mass-to-height conversion is made.
+- Exact daily feather sequence, local age and subspecies-generalization remain unknown.

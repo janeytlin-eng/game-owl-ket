@@ -4,3 +4,13 @@ Hispaniola endemic, species distinct from Tyto alba. Grey heart face/reddish rim
 Status RESEARCH_READY; scientific acceptance false.
 
 Image generated, edited twice and reviewed; archive d4069ad1d8148391c26ec731ae768a164672c4ef. Scientific acceptance remains false.
+
+
+## 2026-10-27 v2 calibration delta
+
+- **New evidence:** `AFO-BIRDSCARIBBEAN-2023` supports a truly ash-gray heart-shaped face, black eyes, buff underparts, darker overall colour than the Barn Owl, and a strong female-over-male mass direction.
+- **Reused evidence:** `AFO-CURTI-2018` (primary research note, pp. 17–19; especially p. 18) and `AFO-PEREGRINE-2026`.
+- **Juvenile boundary:** Curti et al. observed a poorly mobile nestling almost completely covered in buff down with some juvenile wing feathers emerging. V2 may portray this documented stage resting within the cavity, but must not add long layered remiges, a long tail, flight posture or an exact age.
+- **Nest boundary:** the Palmchat nest was a single documented, unusual locality example. It may be used as that example, not described as the species-wide norm.
+- **Sex boundary:** female mass is larger, but no fixed standing-height ratio is derived; show fuller body volume without turning the pair into different-sized species.
+- **Habitat conflict:** BirdsCaribbean says dense wooded areas are preferred while Peregrine Fund emphasizes lightly wooded/open settings. Treat *T. glaucops* as habitat-flexible; use a plausible Hispaniolan palm/woodland edge and do not label it universal.

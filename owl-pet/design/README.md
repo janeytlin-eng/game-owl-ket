@@ -1129,3 +1129,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Review: the first render passed original-resolution review without editing. Exactly three labeled owls are present. The central late cavity young has fluffy weakly marked mesoptile, no conspicuous tufts, no adult-length layered remiges or exposed tail, and full belly/two-foot support.
 - Limits: exact individual age, daily feather chronology, flight threshold and cross-subspecies transfer remain unknown; `scientifically_verified=false`.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-80-otus-sunia-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-4.md)
+
+
+## 95 · Band-bellied Owl · *Pulsatrix melanota* v2
+- [Original PNG](concepts/95-pulsatrix-melanota-v2.png) · 1350×900 · 673,505 bytes · SHA-256 `c70f82213a3604ed9b14a95457ed66e0e9ed5fab1aabedf43782f1c6f9c52438`
+- Revision: current Cornell account and two primary field sources bound the adults, pale-buff/cinnamon juvenile and one documented exposed-fork nest; no cavity or universal nest claim.
+- Review: first draft's juvenile had adult-like long layered remiges and crisp white wing rows. One targeted edit produced a short rounded soft-brown developing wing under down; exactly three labels, both supported adults, juvenile belly/two-foot contact and unchanged text were rechecked at original resolution.
+- Limits: exact juvenile age/flight threshold, universal nest type and reliable sex-size ratio remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-95-pulsatrix-melanota-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-5.md)

@@ -810,3 +810,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added `design/concepts/80-otus-sunia-v2.png` and mirrored production asset; preserved v1.
 - Expanded SUNIA-OAK-2015 from partial sections to the actually read full text: 13 South Korean nests, mean brooding 23.5±2.6 days, and fledging defined as stable flight to a tree top.
 - First render passed original-resolution review: exactly three supported birds, no adult-like juvenile remiges/tail, and no exaggerated sexual dimorphism. Scientific verification remains false.
+
+
+## 2026-10-27 05:34 +0800 — #95 Band-bellied Owl v2
+- Added `design/concepts/95-pulsatrix-melanota-v2.png` and mirrored production asset; preserved v1.
+- Added MEL-BOW-2026 and MEL-RODRIGUEZ-2018; reused the published exposed-fork nesting record and Mikkola guide evidence.
+- Removed the first render's adult-like juvenile white wing rows/long layered remiges through one targeted edit and rechecked the result at original resolution. Scientific verification remains false.

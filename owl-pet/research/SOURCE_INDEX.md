@@ -1,3 +1,9 @@
+## 2026-10-26 #44 Strix uralensis v2 evidence increment
+
+**Verified-source delta:** new 0; reused and freshly read 3 (`UROW-MIKKOLA-2013`, `UROW-LOHMUS-2003`, `UROW-BROMMER-2004`); corrected 0.
+
+Mikkola printed pp.350–352 remain the direct adult/young visual boundary: dark-brown adult eyes, yellow-horn bill, long wedge tail with broad pale bars, strongly longitudinally streaked pale underparts, and a roughly four-week young with a developed facial disc but gray-beige fluffy mesoptile. Lõhmus supports cavities and stick nests with a preference for cavities; Brommer supports a studied nestling period but supplies no drawable feather sequence. Active search also located Eriksson, Lundberg & Westman (1984), *Estimating age of Ural Owl nestlings from body part measurements*, plus a 1987 symposium development figure; direct full-text/figure retrieval failed in this run, so both remain explicitly unverified leads and were not assigned stable source IDs or used for new fine-feather claims. V2 therefore corrects the visible juvenile wing to short soft mesoptile without asserting exact remige geometry or a measured sex-height ratio; `scientifically_verified=false`. [Species #44](../knowledge/species/44-strix-uralensis.md) · [v2 run](../production/runs/2026-10-26T1703+0800-cycle-2.md)
+
 ## 2026-10-26 #42 Athene brama v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

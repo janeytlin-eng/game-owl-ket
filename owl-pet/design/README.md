@@ -958,3 +958,9 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 - Review: one targeted edit removed crisp adult-like juvenile wing spots and shortened/softened the folded wing; second original-resolution inspection passed.
 - Science: concept reviewed, not scientifically verified; juvenile age/sequence, flight ability, nape pattern and sex-specific measurements remain unknown.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-36-glaucidium-bolivianum-v2-evidence-increment) · [run record](../production/runs/2026-10-26T1341+0800-cycle-6.md)
+
+
+## #43 · Forest Owlet — *Athene blewitti* v2
+[Original PNG](concepts/43-athene-blewitti-v2.png) · [species record](../knowledge/species/43-athene-blewitti.md) · [cycle record](../production/runs/2026-10-26T1639+0800-cycle-1.md)
+
+Evidence-bounded revision preserves equal-scale adults, near-plain crown/back, solid pectoral band and open central-Indian large-tree habitat. One targeted edit removed the approximately 40-day fledgling's adult-style white wing rows and mature layered remiges while retaining rufous ventral barring and full cavity-lip support. Scientific calibration remains pending.

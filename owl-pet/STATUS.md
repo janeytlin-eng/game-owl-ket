@@ -1,3 +1,12 @@
+## 2026-10-26 #43 *Athene blewitti* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/43-athene-blewitti-v2.png](design/concepts/43-athene-blewitti-v2.png)
+- Archive commit/blob: `38772d472388816351c24f5e648980bb563e4540` / `97f15a421489a6c7e8a07bc0e012f34c8814f9b4`; PNG 3,028,433 bytes; SHA-256 `a819c9775d084a481e0c5e3c38179c72b775e312fd6f04f5fd5d90dda6b0fe15`.
+- Research: 1 new indexed primary habitat source, 4 freshly re-read sources. The 40-day fledging and continued-dependence evidence supports the selected supported stage but not a complete feather map.
+- Review: one targeted edit removed adult-style white juvenile wing rows and mature layered remiges; final has exactly three labeled, supported birds, equal-scale adults and open large-tree/agricultural-edge habitat.
+- Scientific status: pending; juvenile sequence, population variation, sex measurements and universal nest geometry remain unknown.
+
 ## 2026-10-26 #42 *Athene brama* v2
 
 - Result: revised and archived; unique species remains 159/251.

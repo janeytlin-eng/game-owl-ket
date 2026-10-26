@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-26 16:56 +08:00
+
+- Revised #43 Forest Owlet (*Athene blewitti*) to v2 with one juvenile-wing correction; added one primary habitat source and archived the full reviewed PNG. Unique species remains 159/251; scientific verification remains false.
+
+
 ## 2026-10-26 · #42 横斑腹小鸮 v2 修订
 
 - 新读Avibase现行分类/地域页，并复读南印度幼鸟生长原始研究；来源索引新增1、复用2。

@@ -3521,24 +3521,26 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1849+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-26T18:49:00+08:00",
-        "expires_at": "2026-10-26T19:04:00+08:00"
+        "heartbeat_at": "2026-10-26T18:53:00+08:00",
+        "expires_at": "2026-10-26T19:08:00+08:00"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix virgata",
         "species_id": 50,
         "version": 2,
         "run_id": "2026-10-26T1849+0800-cycle-2",
-        "at": "2026-10-26T18:49:00+08:00",
+        "at": "2026-10-26T18:53:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1849+0800-cycle-2.md",
         "evidence": {
-          "prior_image": "owl-pet/design/concepts/50-strix-virgata-v1.png",
-          "prior_archive_commit": "69d9ace9652ff000f3e587efc9eb84e613d07508",
-          "prior_git_blob": "08d47f5291dd8214c1f17861266941432aa2989d",
-          "action": "REVISION",
-          "unique_species_increment": 0
+          "source_index": "owl-pet/research/SOURCE_INDEX.md#2026-10-26-50-strix-virgata-v2-evidence-increment",
+          "new_sources": 0,
+          "reused_sources": 5,
+          "corrected_mappings": 1,
+          "primary_source": "BWO-GER1994",
+          "primary_pages": "629–632",
+          "species_record": "owl-pet/knowledge/species/50-strix-virgata.md"
         }
       }
     }

@@ -27,3 +27,11 @@
 - SHA-256: `a94d94df2e10c06fa2fdff4331bec5a1cade58330af9774dffb283c2754c5cc3`
 - Visual review: exactly two adults and one cavity juvenile; adult dark eyes/no ear tufts/mottled upperparts/streaked underparts passed; juvenile remains low and supported, white-down dominant, with only short emerging wing feathers and no mature remiges or long tail. No edit required.
 - Scientific status: concept archived and technically verified; exact juvenile age, sex-specific measurements and subspecies remain pending scientific review.
+
+
+## 2026-10-26 v2 evidence increment
+
+- Reused primary source `BWO-GER1994` (Gerhardt et al. 1994), repository-verified full-PDF pp. 629–632; current BioStor/JSTOR metadata and abstract were re-opened. Tikal cavity nests averaged 12.9 m; young left at 27–33 days. Page notes support whitish natal down, eyes opening about 8–10 days and feather emergence about 10–12 days.
+- Re-read `OWL-SRC-0050-B`: brown eyes, grey-yellow/blue-grey bill, greyish-yellow toes, strong vertical ventral streaks; cited samples support females being heavier and longer-winged. This permits a fuller/longer-winged female, not an arbitrary standing-height multiplier.
+- v2 selects an 18–21-day, non-flying cavity nestling: open eyes, down-dominant body, short emerging wing/tail feathers and low natural support. Exact continuous feather sequence and population/subspecies variation remain pending.
+- Cross-mapping correction: Gerhardt et al.'s Mottled Owl development is explicitly barred from use for *S. nigrolineata*.

@@ -1,3 +1,15 @@
+## 2026-10-26 #50 *Strix virgata* v2 evidence increment
+
+| Stable ID | Source | Read scope | Verified value | Limits / design use |
+|---|---|---|---|---|
+| BWO-GER1994 | Richard P. Gerhardt, Normandy Bonilla González, Dawn McAnnis Gerhardt & Craig J. Flatten, [Breeding Biology and Home Range of Two *Ciccaba* Owls](https://biostor.org/reference/200595), *Wilson Bulletin* 106(4):629–639; JSTOR 4163480 | Existing repository full-PDF read reused (pp. 629–632); BioStor page map and JSTOR/abstract metadata re-opened 2026-10-26 | Thirteen *C. virgata* nests at Tikal were cavities in live trees (mean 12.9 m); young left at 27–33 d. Repository page notes record whitish natal down, eyes opening about 8–10 d and feather emergence about 10–12 d on pp. 631–632. | Primary study, high confidence for the Tikal population. Do not transfer its Mottled Owl chick development to *S. nigrolineata*. For v2 choose an 18–21 d cavity nestling: eyes open, down still dominant, short emerging wing/tail feathers, non-flying. |
+| OWL-SRC-0050-B | University of Michigan Animal Diversity Web, [*Strix virgata*](https://animaldiversity.org/accounts/Strix_virgata/) | Physical description and reproduction sections re-read 2026-10-26 | Brown eyes; yellow-grey/blue-grey bill; greyish-yellow toes; vertical chest/throat streaks. Females in cited samples weighed more and had longer wing chords. Nests commonly in tree holes/broken palms; both parents care for young. | Institutional synthesis, not a substitute for the primary development paper. Supports a noticeably fuller/longer-winged female but not a fixed standing-height ratio. |
+| OWL-SRC-0050-A / C / D | Owl Pages adult account; 2016 Yucatán cavity-young field photographs; Avibase taxonomy mapping | Existing verified records reused | Dark-brown mottled adult, pale-buff facial disc, dark eyes, cavity setting; current *Strix virgata* with historical *Ciccaba virgata* / *Syrnium virgatum*. | Field photo has no exact chick age; v2 age comes from BWO-GER1994 and remains Tikal-population-bounded. |
+
+**Index correction:** `BWO-GER1994`, previously embedded under the #102 research note as a warning, is now explicitly cross-mapped to #50. It supplies Mottled Owl development only; it remains prohibited evidence for Black-and-white Owl chick development. No duplicate source-count credit is taken.
+
+**Design decision:** v2 uses an 18–21-day nestling inside a high live-tree cavity. Down remains the dominant body covering, the eyes are open, and only short emerging wing/tail feathers are visible. No flight or fledging posture is shown. The adult female may be fuller and longer-winged than the male because this species has source-supported reverse size dimorphism, but head height is not exaggerated.
+
 ## 2026-10-26 #48 *Strix nivicolum* v2 evidence increment
 
 | Stable ID | Source | Read scope | Verified value | Limits / design use |

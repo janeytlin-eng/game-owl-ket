@@ -3467,3 +3467,22 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Limitations:** southern nominate subspecies profile; does not provide a day-by-day feather sequence or full nest context.
 - **Confidence:** high for listed measurements and ageing statement within the nominate subspecies.
 - **Linked records:** `knowledge/species/68-tyto-tenebricosa.md`; `design/concepts/68-tyto-tenebricosa-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-4.md`
+
+
+### AMO-NSW-2024 — NSW Masked Owl threatened-species profile
+
+- **Stable ID:** `AMO-NSW-2024`
+- **Title:** Masked Owl — profile
+- **Author / institution:** NSW Environment, Energy and Science / BioNet threatened species program
+- **Last updated:** 2024-03-13
+- **URL:** https://threatenedspecies.bionet.nsw.gov.au/profile?id=10820
+- **Accessed:** 2026-10-27
+- **Source type:** current state-government threatened-species profile
+- **Species / life stage:** *Tyto novaehollandiae* adults; habitat and nesting
+- **Sections / lines read:** Description and Habitat and ecology, lines 198–216
+- **Verified facts:** dark eyes in a flat heart-shaped facial disc with a dark border; powerful feet and legs feathered to the toes; upperparts grey to dark brown with buff/rufous mottling and fine pale spots; barred wings/tail; variable pale-to-rufous underparts with dark spotting; dry eucalypt forest/woodland use, with roosting and breeding in moist eucalypt gullies in large tree hollows or sometimes caves.
+- **Design support:** combine a large natural eucalypt hollow and forest-edge context with powerful fully feathered feet; keep adult colour within the named dark/brown nominate morph rather than borrowing sooty-grey *T. tenebricosa*.
+- **Limitations / conflicts:** overview does not provide sex-specific dimensions or juvenile development. It explicitly notes wide colour-form variation, so it cannot justify one plumage as universal.
+- **Confidence:** high for NSW identification, habitat and nesting summary.
+- **Linked records:** `knowledge/species/69-tyto-novaehollandiae.md`; `design/concepts/69-tyto-novaehollandiae-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-5.md`
+- **Fact / inference boundary:** profile facts are listed above; choosing a dark-morph nominate family and a single hollow scene is a bounded design decision, not a species-wide universal.

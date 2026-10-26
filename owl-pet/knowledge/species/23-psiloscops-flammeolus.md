@@ -32,3 +32,13 @@ Cornell支持本种只在树洞繁殖，多用旧啄木鸟洞或天然洞，不�
 Actual editedPNG1254x1254 viewed: leftadult reduced/middleenlarged, near-equal crownheight onbranch, slightposturedifference retained. Darkeyes/shorttufts/rust-graypattern and grips retained visually, finefeatherdrift notpixelidentity. Newbornstilllowbellysupported/closedeyes/finewhitedown/woodchipsupport/openbill/noadultwing; no11daygray transferred. Neutraldisplay notbiologicalsexratio/sciencepass. Exactnewborn proportions and nestcutaway remainpending.
 ![image](../../design/concepts/23-psiloscops-flammeolus-v2.png)
 [Prompt/review](../../production/runs/2026-10-19T0431+0800-cycle-3.md)
+
+
+## 23-psiloscops-flammeolus-v3 — 2026-10-26
+
+v3 rebuilt the three-character plate from the evidence boundary in the current index. Both adults use the same gray-rust morph, very dark eyes, short mostly flattened ear tufts, short tails and bark camouflage; displayed height is near-equal and the female is only subtly fuller. The central bird is an age-unknown very early hatchling: closed eyes, white natal down, tiny down-covered wing buds, no mature remiges or visible tail, and full cavity-floor support. Original-resolution review passed without edit.
+
+Exact post-hatch age, head/body ratio, down density, eye-opening date, continuous feather sequence, sex-specific linear measurements and universal cavity geometry remain unknown. `scientifically_verified=false`.
+
+Image: `design/concepts/23-psiloscops-flammeolus-v3.png`.
+Run: `production/runs/2026-10-26T0825+0800-cycle-5.md`.

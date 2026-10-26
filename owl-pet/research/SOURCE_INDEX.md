@@ -3631,3 +3631,11 @@ Martin Kennewell / Macaulay Library, ML201585161 (IBC 1180864), 18 July 2010, Mt
 - Reused **PEO-OCHAVO-2012**, **PEO-ARTUSO-2015**, **PEO-AVIBASE-MAPPING**. Their actual field text/images support adults with yellow eyes/gray bill/rufous-brown shaft pattern, a later young with formed wing/tail and secure perch grip, and the historical *Bubo* → current *Ketupa* name mapping. They do not justify a fixed sex-size ratio or universal nest form.
 - Design decision: approximately 70-day late nestling/near-fledged juvenile, not a natal chick; near-equal adult display with only subtle female fullness; Luzon/northern unit only. Scientific verification remains false.
 - Related run: [2026-10-27T0533+0800 cycle 5](../production/runs/2026-10-27T0533+0800-cycle-5.md).
+
+
+## 2026-10-27 — #127 *Megascops albogularis* v2 evidence increment
+
+- **WTSO-MACAULAY-1980** — Ted Parker/Cornell Lab Macaulay Library, ML21782, recorded 24 July 1980 at Cerro Chinguela, Cajamarca, Peru. URL: https://macaulaylibrary.org/asset/21782 (actual archive page read 2026-10-27). Source type: institutional primary field audio record. Taxon/stage: adult, sex unknown; media notes say 1–2 adults, territorial paired, advertising in humid cloudforest/edge. Design support: humid montane cloud-forest edge setting and paired-adult context only. Limits: audio record, no usable plumage geometry or sex-size evidence; “male/female” in notes does not provide measurements. Confidence: high for locality/habitat/behavior, none for visual morphology.
+- Reused **WTSO-PERUAVES-PHOTOS2019** (actual adult/juvenile photos previously viewed), **WTSO-MIK2013-249** (uploaded guide printed pp. 249–250 / PDF pp. 251–252, text actually read), and **WTSO-NCBI714938-MAPPING**. Adult limits: no projecting ear tufts/fluffy head, white throat ovals, tarsi to toe bases, female qualitatively heavier but no height formula. Juvenile: Piura warm-buff fluffy stage with diffuse bars and formed lower wing; exact age and iris color unresolved.
+- Fresh search also found current EcoRegistros adult records and the existing PeruAves page; no additional juvenile-development sequence was available, so they were not promoted as new developmental evidence.
+- Related run: [2026-10-27T0533+0800 cycle 6](../production/runs/2026-10-27T0533+0800-cycle-6.md).

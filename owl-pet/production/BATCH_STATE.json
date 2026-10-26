@@ -3998,27 +3998,35 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T0533+0800-cycle-6",
-        "heartbeat_at": "2026-10-27T07:00:00.000+08:00",
-        "expires_at": "2026-10-27T07:15:00.000+08:00",
+        "heartbeat_at": "2026-10-27T07:04:00.000+08:00",
+        "expires_at": "2026-10-27T07:19:00.000+08:00",
         "cycle": 6,
         "species": "Megascops albogularis",
         "species_id": 127
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Megascops albogularis",
         "species_id": 127,
         "version": 2,
         "run_id": "2026-10-27T0533+0800-cycle-6",
-        "at": "2026-10-27T07:00:00.000+08:00",
+        "at": "2026-10-27T07:04:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-6.md",
         "evidence": {
-          "selection": "lowest-ID v1-only candidate after #124; #125 already v4 and #126 v2",
-          "manifest_checked_at_head": "a9f24d747e8d78c64ea576bccca4b0d372833618"
+          "new_sources": [
+            "WTSO-MACAULAY-1980"
+          ],
+          "reused_sources": [
+            "WTSO-PERUAVES-PHOTOS2019",
+            "WTSO-MIK2013-249",
+            "WTSO-NCBI714938-MAPPING"
+          ],
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "species_record": "owl-pet/research/species/127-megascops-albogularis.md"
         }
       },
-      "last_updated_at": "2026-10-27T07:00:00.000+08:00",
+      "last_updated_at": "2026-10-27T07:04:00.000+08:00",
       "audit_notes": [
         "Clock correction: this batch uses the actual invocation time; the preceding batch's stored phase timestamps extend later due to earlier runner clock skew.",
         "2026-10-27T05:44:49.388+08:00: cycle 1 #102 Strix nigrolineata v2 readback verified; archive 339caef, image blob a8c6883. Unique species remains 159/251; next_cycle 2.",

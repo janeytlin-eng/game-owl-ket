@@ -1114,3 +1114,10 @@ Revision generated and visually reviewed after one juvenile-wing edit. Adults re
 ![#77 Stygian Owl v2](concepts/77-asio-stygius-v2.png)
 
 Revision generated and visually reviewed after one juvenile-wing edit. A 35-day Ecuador field observation supports an older-than-one-month brancher with yellow eyes, black facial disc, small tufts, pale rear-head feathers, scattered residual down, barred belly, developing herringbone chest lines and branch-changing behavior. The final juvenile has a shorter, softer formed wing rather than adult-length crisp remiges; dark yellow-eyed adults share a common branch baseline with only a modestly fuller female. Exact age, flight threshold, subspecies transfer and sex ratio remain unknown; `scientifically_verified=false`. Sources: `STY-CADENA-2018`, `STY-AMARO-2024`, `STY-SPIZAETUS-2018`, `STY-OWLPAGES-2020`, `WHSO-MIKKOLA-2013`. [Run record](../production/runs/2026-10-27T0334+0800-cycle-2.md).
+
+
+## 78 · Marsh Owl · *Asio capensis* v2
+- [Original PNG](concepts/78-asio-capensis-v2.png) · 1350×900 · 624,973 bytes · SHA-256 `047833e884e801bc021c1caabd1cd62e814c79a28c06c29df74024fe76048699`
+- Revision: evidence-bounded southern African concept; adult sexes remain alike, with only modest female fullness and subtle tail direction; center juvenile is the directly supported mobile 14–18-day preflight stage in a ground-level tall-grass tunnel/depression.
+- Review: first draft had juvenile ear tufts and long layered adult-like remiges. One targeted edit removed the tufts, shortened/softened the wing and concealed the tail. Exactly three labeled owls, dark eyes, small adult tufts, feathered legs, text, wetland setting and all foot supports were rechecked. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-78-asio-capensis-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-3.md)

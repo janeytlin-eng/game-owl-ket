@@ -1169,3 +1169,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 04:10 +0800 — #77 *Asio stygius* v2 archived after one juvenile-wing edit: adults retain yellow-orange eyes, black bills/claws, long dark tufts, blackish faces and deep sooty-brown plumage; the >1-month Ecuador-bounded brancher has yellow eyes, small tufts, residual down, barred belly, developing herringbone chest lines, a shorter soft formed wing and full two-foot support. Revision only; unique-species total remains 159/251. Exact age, flight threshold, subspecies transfer and fixed sex ratio remain unknown; scientific calibration pending. Image: [77-asio-stygius-v2.png](design/concepts/77-asio-stygius-v2.png).
+
+
+- 2026-10-27 04:41 +0800 — #78 *Asio capensis* v2 archived after one juvenile-only edit: adults retain dark brown eyes, blackish bills, tiny tufts, feathered legs and only a modest female fuller/longer-tail direction; the 14–18-day mobile preflight young now has no ear tufts, a short down-soft wing, concealed tail and full ground-level support. Revision only; unique-species total remains 159/251. Exact age, continuous feather sequence, flight threshold, subspecies geometry and universal sex ratio remain unknown; scientific calibration pending. Image: [78-asio-capensis-v2.png](design/concepts/78-asio-capensis-v2.png).

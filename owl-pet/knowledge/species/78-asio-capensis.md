@@ -10,3 +10,7 @@ MAR-OWLPAGES-2020 DeaneLewis https://www.owlpages.com/owls/species.php?s=3610 ac
 
 ## 2026-10-27 v2 research-ready
 New primary source MAR-ANSARA-ROSS-2008 actual full text read: Gauteng *A. capensis* males averaged 297.59 g and 148.8 mm tail (n=21); females 329.07 g and 156.3 mm tail (n=11). Body mass and tail length differed significantly, while mean flattened wing length was almost identical; no dichromatic sex distinction was found. Apply only modest female fullness/subtle tail difference, not a fixed height ratio. Reused MARSH-BIOEXP-2026, MARSH-OWLPAGES-2020 and WHSO-MIKKOLA-2013 for ground nest, dark-eyed adults and mobile 14–18-day mesoptile juvenile. Exact age/continuous feather sequence/flight threshold/subspecies geometry remain unknown; scientifically_verified=false.
+
+
+## 2026-10-27 v2 archive
+Final `78-asio-capensis-v2.png`: exactly three labeled birds. First draft's juvenile ear tufts and long layered remiges were removed; final 14–18-day mobile preflight young has a short round down-soft wing, concealed tail, dark face/ruff and two-foot ground support. Adults retain dark eyes, tiny tufts, feathered legs and only modest female fullness/tail direction. 1350×900, 624,973 bytes, SHA-256 `047833e884e801bc021c1caabd1cd62e814c79a28c06c29df74024fe76048699`; scientifically_verified=false.

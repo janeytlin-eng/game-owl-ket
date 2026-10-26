@@ -798,3 +798,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added three actually-read source entries and explicit juvenile evidence limits.
 - Image passed first visual review; no editing was needed.
 - Image commit `c6ff15f2a7e147ae1c1fc567988a2737365ccdaf`; scientifically_verified remains false.
+
+
+## 2026-10-27 04:41 +0800 — #78 Marsh Owl v2
+- Added `design/concepts/78-asio-capensis-v2.png` and mirrored production asset; preserved v1.
+- New primary source MAR-ANSARA-ROSS-2008 limits sex depiction to modest female mass/tail direction, not a fixed standing-height ratio or dichromatism.
+- First draft juvenile adult-like layered wing and ear tufts were removed in one targeted edit; final was actually viewed at original resolution. Scientific verification remains false.

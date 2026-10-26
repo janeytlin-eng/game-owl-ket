@@ -3174,23 +3174,25 @@
       "active_lease": {
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1130+0800-cycle-5",
-        "heartbeat_at": "2026-10-26T11:35:00+08:00",
-        "expires_at": "2026-10-26T11:50:00+08:00",
+        "heartbeat_at": "2026-10-26T11:39:00+08:00",
+        "expires_at": "2026-10-26T11:54:00+08:00",
         "species": "Glaucidium capense",
         "species_id": 29,
         "version": 2,
-        "stage": "RESEARCH_READY"
+        "stage": "REVIEWED"
       },
       "checkpoint": {
         "cycle": 5,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "species": "Glaucidium capense",
         "species_id": 29,
         "version": 2,
         "run_id": "2026-10-26T1130+0800-cycle-5",
-        "at": "2026-10-26T11:35:00+08:00",
+        "at": "2026-10-26T11:39:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1130+0800-cycle-5.md",
-        "evidence_commit": "9391edbb86d44905f7a0bd68cd4169024e9fca41"
+        "image_path": "owl-pet/design/concepts/29-glaucidium-capense-v2.png",
+        "sha256": "f6f66176b687b5406a5244c5743759e0ad5699633558669461b56eb14ead645b",
+        "evidence_commit": "e80136ce801bcb08a393bc68ddcc67396dcb0a3c"
       }
     }
   ],

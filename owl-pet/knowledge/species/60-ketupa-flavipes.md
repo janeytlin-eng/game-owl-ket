@@ -32,3 +32,11 @@ RESEARCH_READY; image generation pending. Scientific acceptance: not passed.
 - Reused four existing taxonomy/adult/nest/habitat sources; new 1, reused 4, corrected 0.
 - Prior v1 review found adult-like juvenile white spots/layered remiges; v2 forbids these. Current-run v1 binary retrieval hit the connector cap, so no fresh pixel claim is made.
 - Scientific calibration remains pending.
+
+
+## v2 production review — 2026-10-26
+- Final asset: `design/concepts/60-ketupa-flavipes-v2.png`.
+- First v2 render passed setting/eyes/support but retained long layered juvenile remiges. Targeted edit shortened, rounded and down-softened the folded wing and hid the long tail.
+- Re-opened review passed: three birds/labels, orange-rufous adults, yellow eyes, lateral messy tufts, late nestling nearly adult-sized but dependent, muted short wing, secure feet/belly on the massive broken tree cross-section beside a fast mountain stream.
+- Science boundary: local 56–57 d nestling period and three tree substrates observed; exact feather progression absent. Concept review passed; scientific calibration pending.
+- Transfer: 1350×900, 690,452 bytes, SHA-256 `7cfb3e3c4abc729f58437491667f5f31d6e4f832aab86d08a5cf3d1ec638975f`, Git blob `f79e83f89cdfd6bbd7727cb68424898f092caf71`.

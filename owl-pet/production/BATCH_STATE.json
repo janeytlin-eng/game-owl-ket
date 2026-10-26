@@ -3149,19 +3149,25 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "species": "Glaucidium siju",
-        "species_id": 26,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1101+0800-cycle-3",
+        "heartbeat_at": "2026-10-26T11:01:00+08:00",
+        "expires_at": "2026-10-26T11:16:00+08:00",
+        "species": "Glaucidium passerinum",
+        "species_id": 27,
         "version": 2,
-        "run_id": "2026-10-26T1047+0800-cycle-2",
-        "at": "2026-10-26T11:00:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1047+0800-cycle-2.md",
-        "archive_commit": "701ba25ab3f850a4c34df108415c1aa5f6e9b7d0",
-        "image_blob": "88de832b62363625a645264fd123872ee25cddbf",
-        "verification_commit": "822f1aa096dd4621f079b26c7626ab36feac7f20"
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 3,
+        "stage": "STARTED",
+        "species": "Glaucidium passerinum",
+        "species_id": 27,
+        "version": 2,
+        "run_id": "2026-10-26T1101+0800-cycle-3",
+        "at": "2026-10-26T11:01:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1101+0800-cycle-3.md"
       }
     }
   ],
@@ -3243,5 +3249,14 @@
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
     "2026-10-25 03:48 +0800: batch cycle 6 revised and verified #104 Asio madagascariensis v2; fresh rebuild retained evidence-supported older mesoptile juvenile, and one targeted edit extended adult feathering onto proximal toe bases while keeping distal claws exposed. Archive commit 945ae44d42bd890d00c07c9b3817616200aeba11, Git blob 7eab1531203df968dc1d0481476abc5c7778a2e1. Unique species remains 157/251; batch closes COMPLETE 6/6."
   ],
-  "active_lease": null
+  "active_lease": {
+    "owner": "scheduled-production",
+    "run_id": "2026-10-26T1101+0800-cycle-3",
+    "heartbeat_at": "2026-10-26T11:01:00+08:00",
+    "expires_at": "2026-10-26T11:16:00+08:00",
+    "species": "Glaucidium passerinum",
+    "species_id": 27,
+    "version": 2,
+    "stage": "STARTED"
+  }
 }

@@ -3502,15 +3502,22 @@
       "batch_id": "2026-10-26T1835+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1835+0800-cycle-1",
-        "cycle": 1,
-        "heartbeat_at": "2026-10-26T18:48:00+08:00",
-        "expires_at": "2026-10-26T19:03:00+08:00"
-      },
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Strix woodfordii",
+          "species_id": 49,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1bf564fe5b39c1ecd77174def6d0e29c360b34ff",
+          "archive_commit": "d65f17ad872c1b2f3f8b7d6b0266ae4eb1e84300",
+          "image_commit": "cabba678b26de3663fb9c4ff6d4f31d11e406362",
+          "run_record": "owl-pet/production/runs/2026-10-26T1835+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 1,
         "stage": "VERIFIED",

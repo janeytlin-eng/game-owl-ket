@@ -401,3 +401,7 @@ Lesson actually observed twice: narrow semantic feather-removal edits can preser
 ### #133 later-juvenile maturity-cue check (2026-10-27)
 
 A photographed age-unknown juvenile may legitimately have formed wing/tail, so the correction must target maturity cues rather than erase the wing. #133 v2 first render had long, crisp adult-like feather layering; one targeted edit shortened and rounded the folded wing/tail and softened regular pale rows while preserving yellow iris, tiny tufts and two-foot perch grip. The original-detail and indexed archive-candidate images were actually viewed and the visual correction passed. This is one additional cross-species application of the existing “older juvenile wings are not erased wholesale” rule; it does not validate exact age, flight ability or feather geometry, and scientifically_verified remains false.
+
+### #135 sheathed-remex juvenile check (2026-10-27)
+
+A primary account saying fledgling remiges/rectrices remain basally in sheath supports a formed wing and tail, but not crisp adult-like white patch rows or fully regular layering. #135 v2 retained the fully feathered age-unknown transition and edited only maturity cues: shorter/rounder/softer wing and tail, diffuse fine barring, fewer irregular pale flecks. Original-detail and final indexed-candidate views passed. This is a visual application of the “older juvenile wings are not erased wholesale” rule; exact age, flight and feather geometry remain unknown and scientifically_verified stays false.

@@ -13,3 +13,10 @@ Animal Diversity Web物种档案支持欧亚鸺鹠幼鸟由白色绒羽逐步换
 初稿中左侧成年明显大于雌鸟，幼鸟翼尾过熟，后颈假眼斑也夸张成侧颈图案。定向编辑后，成年尺度已收敛，幼鸟尾显著缩短且斑纹弱化，三只均有自然脚部支撑。仍存在：左侧成年略高、假眼斑尺寸和位置需实物照片校准，幼鸟翼面仍可能偏成熟。概念图可归档，科学状态不通过。
 
 图：`design/concepts/27-glaucidium-passerinum-v1.png`。详见[来源索引](../../research/SOURCE_INDEX.md)。
+
+
+## v2 revision — 2026-10-26
+
+Pačenovský & Šotnár (2010) followed post-fledging families: dependent young used dense beech/ash cover, changed trees, continued begging, and still failed hunting attempts on day 22. The authors explicitly state that incidental fledgling finds cannot be assigned precise ages. Stehlíková Sovadinová et al. (2024) tested 242 juveniles and states that external sex-related signs are absent, so the v2 juvenile is not assigned a sex. Adult reversed size dimorphism is shown only subtly.
+
+The first render kept adult-like white-spotted layered juvenile remiges and a complete barred tail. One targeted edit shortened/softened the folded wings, removed most wing spots and reduced the tail bars, while preserving the supported begging posture, adults and forest/cavity context. Immutable archive: commit `510ec23c05aa8d5763107555f888b06d7d76e46d`, blob `b00e1f205dc60e13397713451285a56d937e7f83`, SHA-256 `82f9ed785a580d2fe63e640b13ead1416f7711e9211afbcfc992330408958446`. Exact age, iris chronology and continuous feather sequence remain unknown; science verification is false.

@@ -3040,3 +3040,14 @@ Freshly opened/reused 2026-10-26:
 - `FLOW-ORI-2026`: Owl Research Institute account independently supports very dark eyes, rectangular head, tiny flattened tufts, reddish/gray bark camouflage, similar-looking sexes, equal reported sex-combined size ranges and cavity nesting.
 
 Design boundary: v3 uses one gray-rust adult morph, near-equal display height and only subtle female fullness. The central bird is an age-unknown early hatchling: closed eyes, white natal down, tiny down-covered wing buds, no mature remiges or tail, fully supported on sparse cavity debris. Exact post-hatch age, proportions, down density, eye-opening date, continuous feather sequence, sex-specific measurements and universal cavity geometry remain unknown; `scientifically_verified=false`. New stable source IDs: 0; reused/freshly read: 3; corrected: 0. Linked concept `design/concepts/23-psiloscops-flammeolus-v3.png`; run `production/runs/2026-10-26T0825+0800-cycle-5.md`.
+
+
+## 2026-10-26 #24 *Glaucidium californicum* v2 evidence increment
+
+Freshly opened/reused 2026-10-26:
+- `NPO-CORNELL-ID-2026`: Cornell Lab identification page supports the compact round tuftless head, yellow eyes/bill, long narrow-barred adult tail, white crown/back spots, paired nape eyespots and gray-brown/rufous regional variation.
+- `NPO-CORNELL-LIFE-2026`: Cornell Lab life-history page supports rot/woodpecker tree cavities, cavity-floor debris and white-down closed-eye hatch condition.
+- `NPO-USFWS-TAX-2026`: U.S. Fish & Wildlife Service current profile confirms *Glaucidium californicum*.
+- `NPO-MACAULAY-FLEDGE-2026`: existing indexed institutional media supports a branch-gripping recent fledgling but not exact age or tail length.
+
+The primary Portland breeding-biology PDF lead returned 403 and was not counted as read. Design boundary: one gray-brown adult morph, near-equal adult height and subtle female fullness only. v2 uses an age-unknown recent fledgling with open yellow eyes, fluffy less-spotted plumage, short rounded wings, a shortened incompletely developed weakly barred tail and secure two-foot grip. First render failed the tail-stage check; targeted edit shortened the tail and reduced complete adult-like barring, then passed reinspection. Exact age, post-fledge day, tail-growth curve, regional juvenile pattern, sex-specific measurements and universal cavity geometry remain unknown; `scientifically_verified=false`. New stable IDs: 0; reused/freshly read: 4; corrected: 0. Linked concept `design/concepts/24-glaucidium-californicum-v2.png`; run `production/runs/2026-10-26T0852+0800-cycle-6.md`.

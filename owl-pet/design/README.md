@@ -1121,3 +1121,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Revision: evidence-bounded southern African concept; adult sexes remain alike, with only modest female fullness and subtle tail direction; center juvenile is the directly supported mobile 14–18-day preflight stage in a ground-level tall-grass tunnel/depression.
 - Review: first draft had juvenile ear tufts and long layered adult-like remiges. One targeted edit removed the tufts, shortened/softened the wing and concealed the tail. Exactly three labeled owls, dark eyes, small adult tufts, feathered legs, text, wetland setting and all foot supports were rechecked. Scientific calibration remains pending.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-78-asio-capensis-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-3.md)
+
+
+## 80 · Oriental Scops-Owl · *Otus sunia stictonotus* v2
+- [Original PNG](concepts/80-otus-sunia-v2.png) · 1350×900 · 700,099 bytes · SHA-256 `1c0406ceed67a38f37e672dba1fc8b827d5c271fecd44c8fe7df1ff06e88ac37`
+- Revision: South Korean gray-morph concept grounded in the 13-nest breeding study; natural Zelkova cavity, near-equal adult display height and only a subtly fuller female.
+- Review: the first render passed original-resolution review without editing. Exactly three labeled owls are present. The central late cavity young has fluffy weakly marked mesoptile, no conspicuous tufts, no adult-length layered remiges or exposed tail, and full belly/two-foot support.
+- Limits: exact individual age, daily feather chronology, flight threshold and cross-subspecies transfer remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-80-otus-sunia-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-4.md)

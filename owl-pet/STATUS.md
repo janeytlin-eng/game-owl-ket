@@ -1172,3 +1172,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 04:41 +0800 — #78 *Asio capensis* v2 archived after one juvenile-only edit: adults retain dark brown eyes, blackish bills, tiny tufts, feathered legs and only a modest female fuller/longer-tail direction; the 14–18-day mobile preflight young now has no ear tufts, a short down-soft wing, concealed tail and full ground-level support. Revision only; unique-species total remains 159/251. Exact age, continuous feather sequence, flight threshold, subspecies geometry and universal sex ratio remain unknown; scientific calibration pending. Image: [78-asio-capensis-v2.png](design/concepts/78-asio-capensis-v2.png).
+
+
+- 2026-10-27 05:02 +0800 — #80 *Otus sunia stictonotus* v2 archived after one generation and original-resolution PASS, with no edit required. Adults retain yellow irises, dark-gray bills, small tufts and near-equal scale; the evidence-bounded late cavity young has pale fluffy mesoptile, weak diffuse marks, no adult-length remiges or exposed tail, and full cavity-lip support. Revision only; unique-species total remains 159/251. Exact individual age, day-to-feather chronology, flight threshold and cross-subspecies transfer remain unknown; scientific calibration pending. Image: [80-otus-sunia-v2.png](design/concepts/80-otus-sunia-v2.png).

@@ -804,3 +804,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added `design/concepts/78-asio-capensis-v2.png` and mirrored production asset; preserved v1.
 - New primary source MAR-ANSARA-ROSS-2008 limits sex depiction to modest female mass/tail direction, not a fixed standing-height ratio or dichromatism.
 - First draft juvenile adult-like layered wing and ear tufts were removed in one targeted edit; final was actually viewed at original resolution. Scientific verification remains false.
+
+
+## 2026-10-27 05:02 +0800 — #80 Oriental Scops-Owl v2
+- Added `design/concepts/80-otus-sunia-v2.png` and mirrored production asset; preserved v1.
+- Expanded SUNIA-OAK-2015 from partial sections to the actually read full text: 13 South Korean nests, mean brooding 23.5±2.6 days, and fledging defined as stable flight to a tree top.
+- First render passed original-resolution review: exactly three supported birds, no adult-like juvenile remiges/tail, and no exaggerated sexual dimorphism. Scientific verification remains false.

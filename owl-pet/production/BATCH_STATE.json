@@ -3405,7 +3405,7 @@
     },
     {
       "batch_id": "2026-10-26T1639+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -3459,35 +3459,44 @@
           "commit_sha": "897b97709bcc139b3fe47715870101e17e35f844",
           "archive_commit": "f2d24ca8f4810af840d6093323b6bbfae04e2853",
           "run_record": "owl-pet/production/runs/2026-10-26T1743+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Strix nivicolum",
+          "species_id": 48,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ad3d71c1445ff79c80c697eb06c63e4a352d2534",
+          "archive_commit": "1f52cb6e9ffa441f3be673bd0600f120330b9820",
+          "run_record": "owl-pet/production/runs/2026-10-26T1751+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1751+0800-cycle-6",
-        "cycle": 6,
-        "heartbeat_at": "2026-10-26T17:55:48+08:00",
-        "expires_at": "2026-10-26T18:10:48+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix nivicolum",
         "species_id": 48,
         "version": 2,
         "run_id": "2026-10-26T1751+0800-cycle-6",
-        "at": "2026-10-26T17:55:48+08:00",
+        "at": "2026-10-26T18:34:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1751+0800-cycle-6.md",
         "evidence": {
-          "image_commit": "1f52cb6e9ffa441f3be673bd0600f120330b9820",
+          "verification_commit": "ad3d71c1445ff79c80c697eb06c63e4a352d2534",
+          "archive_metadata_commit": "70fe87e6a154ac934171552682e479bb23d7b7d4",
+          "archive_commit": "1f52cb6e9ffa441f3be673bd0600f120330b9820",
           "git_blob": "ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884",
           "size_bytes": 2991607,
           "sha256": "8956ddcc9786010a5bbadaa0d877704d73298bec0cf1a07cc9ad22e8f375dd87",
           "dimensions": "1254x1254",
           "remote_readback": true,
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "recovered_registration": true
         }
-      }
+      },
+      "completed_at": "2026-10-26T18:34:00+08:00"
     }
   ],
   "lease": null,
@@ -3564,9 +3573,10 @@
     "2026-10-26 11:15 +0800: batch cycle 3 revised and verified #27 Glaucidium passerinum v2 after one juvenile wing/tail correction; archive 510ec23c05aa8d5763107555f888b06d7d76e46d, blob b00e1f205dc60e13397713451285a56d937e7f83, verification 4835454f0db28037fb7bd23ed6f0e98de8e9d084. Unique remains 159/251; next_cycle 4.",
     "2026-10-26 14:36 +0800: new batch cycle 1 revised and verified #37 Glaucidium peruanum v2; first render passed original-resolution review. Archive commit 85ec167a10c7688a17368ba0d29563dc0b422369, Git blob 5f3f6922e501681fd61bb0b7e0bc87a10e7a6e25; verification commit 03ff1c9fba1e4d7765337c2a0b10dc0213c6d71a. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 14:45 +0800: batch cycle 2 revised and verified #38 Glaucidium nana v2 after one juvenile-wing/tail correction; archive commit 5b1372acb749e1cf4079aadcd0f2a6d387a8232b, Git blob b7fd2bf1878cbabca5424966685ef927cfa8c79d; verification commit 81ab316f63d0abd1c86fb48eec52baf83a3821f3. Unique remains 159/251; batch advances to 2/6, next_cycle 3.",
-    "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2."
+    "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
+    "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-26T14:46:00+08:00",
+  "updated_at": "2026-10-26T18:34:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -3574,15 +3584,6 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "scheduled-owl-production",
-    "run_id": "2026-10-26T1703+0800-cycle-2",
-    "batch_id": "2026-10-26T1639+0800",
-    "cycle": 2,
-    "species": "Strix uralensis",
-    "stage": "RESEARCH_READY",
-    "heartbeat_at": "2026-10-26T17:08:00+08:00",
-    "expires_at": "2026-10-26T17:23:00+08:00"
-  },
-  "last_updated_at": "2026-10-26T17:08:00+08:00"
+  "active_lease": null,
+  "last_updated_at": "2026-10-26T18:34:00+08:00"
 }

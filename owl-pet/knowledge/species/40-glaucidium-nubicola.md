@@ -27,3 +27,12 @@ Pending. Exact juvenile plumage, age, feather sequence, nest microstructure and 
 - No edit was made: there was no evidence-backed correction that would improve the undocumented juvenile plumage without inventing details. This is an explicit uncertainty, not a pass.
 - Archive: 1536×1024 indexed-color PNG, 763,862 bytes, SHA-256 `8dffe7c33e6114ce7d065e7e604919004e190c2bc99a9de32bb7c55e84549a87`; Git blob `15cd2699ba5f63ef8f1e6c13be3019ba20185183`.
 - Remote readback: whitespace-normalized base64 decodes to 763,862 bytes; PNG prefix `iVBORw0KGgoAAAANSUhEUgAABgAAAAQA` and IEND suffix confirmed; archive commit `c2bcb0cfd2687157d2e9c43be78d49a58588d707`.
+
+
+## v2 evidence increment — 2026-10-26
+
+- Added `CFPO-EBIRD-ID-2026`; reused `SRC-PAPER-040-02`, `SRC-BOOK-040-01` and the previously verified `SRC-PAPER-040-03` boundary.
+- Complete 1999 description re-read: very wet western-Andean cloud forest at 1,400–2,000 m; nearly absent back/chest-side/flank barring, bold pale scapular/wing-covert spots, short tail and white-bordered false eyes. The breeding-note host returned 403 and was not newly re-read.
+- v2 archive: [40-glaucidium-nubicola-v2.png](../../design/concepts/40-glaucidium-nubicola-v2.png), 1254×1254 PNG, 3,033,861 bytes, SHA-256 `fe90bd55bc997e4f144f112327e38d89ed838593ed6ac818463acaae91beb6e0`; archive commit `efd3235a9cf061c763bba518426dee2f1018a3ff`, Git blob `889d8830d8f16d3603adbdebde49992787ae5547`.
+- First render passed without edit. Juvenile differs only by softer contour, lower supported posture and shorter tail; its plumage remains explicitly undescribed.
+- Scientific status remains pending.

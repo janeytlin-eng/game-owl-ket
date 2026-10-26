@@ -1,3 +1,11 @@
+## #37 Peruvian Pygmy-Owl v2 — 2026-10-26
+
+- Original: [37-glaucidium-peruanum-v2.png](concepts/37-glaucidium-peruanum-v2.png)
+- Archive commit: [85ec167](https://github.com/janeytlin-eng/game-owl-ket/commit/85ec167a10c7688a17368ba0d29563dc0b422369)
+- Review: first render passed at original resolution; exactly three birds and correct labels; male rear-side view exposes a nape false-eye patch; female is only subtly fuller; age-unknown older juvenile has a plain crown, short soft unspotted wings/tail and secure two-foot support.
+- Scientific calibration: original description and institutional pages support adult marks and dry western-Andean setting but no juvenile sequence; exact juvenile age/iris/flight stage and population variation remain unknown, so `scientifically_verified=false`.
+- Research/run: [species record](../knowledge/species/37-glaucidium-peruanum.md) · [cycle record](../production/runs/2026-10-26T1428+0800-cycle-1.md)
+
 ## #27 Eurasian Pygmy-Owl v2 — 2026-10-26
 
 - [Original PNG](concepts/27-glaucidium-passerinum-v2.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/510ec23c05aa8d5763107555f888b06d7d76e46d)

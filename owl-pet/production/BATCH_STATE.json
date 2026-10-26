@@ -3429,25 +3429,28 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "2026-10-26T1705+0800-cycle-3",
+        "cycle": 3,
+        "heartbeat_at": "2026-10-26T17:05:00+08:00",
+        "expires_at": "2026-10-26T17:20:00+08:00",
+        "stage": "STARTED",
+        "species": "Strix seloputo",
+        "species_id": 45,
+        "version": 2
+      },
       "checkpoint": {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "species": "Strix uralensis",
-        "species_id": 44,
+        "cycle": 3,
+        "stage": "STARTED",
+        "species": "Strix seloputo",
+        "species_id": 45,
         "version": 2,
-        "run_id": "2026-10-26T1703+0800-cycle-2",
-        "at": "2026-10-26T17:04:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1703+0800-cycle-2.md",
+        "run_id": "2026-10-26T1705+0800-cycle-3",
+        "at": "2026-10-26T17:05:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1705+0800-cycle-3.md",
         "evidence": {
-          "verification_commit": "d27c115e18afe92b1e251cdc022bcd485bbb85c1",
-          "archive_commit": "87d1a98666bd1fb39b893c3b0f85f6ffdee94a77",
-          "git_blob": "21cf2b387eb5baf6d4d32a83fbe20c36bc297a2f",
-          "size_bytes": 3338226,
-          "sha256": "dd4febdfe84982371fa52219a0578e752f6e417889334ae496940bf12b62bf2c",
-          "dimensions": "1254x1254",
-          "remote_readback": true,
-          "scientifically_verified": false
+          "lease": true
         }
       }
     }

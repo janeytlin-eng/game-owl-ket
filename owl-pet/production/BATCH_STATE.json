@@ -3610,22 +3610,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2211+0800-cycle-1",
         "cycle": 1,
-        "heartbeat_at": "2026-10-26T22:11:00+08:00",
-        "expires_at": "2026-10-26T22:26:00+08:00"
+        "heartbeat_at": "2026-10-26T22:15:00+08:00",
+        "expires_at": "2026-10-26T22:30:00+08:00"
       },
       "checkpoint": {
         "cycle": 1,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Bubo nipalensis",
         "species_id": 57,
         "version": 2,
         "run_id": "2026-10-26T2211+0800-cycle-1",
-        "at": "2026-10-26T22:11:00+08:00",
+        "at": "2026-10-26T22:15:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2211+0800-cycle-1.md",
         "evidence": {
-          "start_commit": "c2d705dbc70af54acc4c98698a17479efa2498b0",
-          "prior_asset": "owl-pet/design/concepts/57-bubo-nipalensis-v1.png",
-          "duplicate_56_skipped": true
+          "research_commit": "8b688dd351e869a5236c9dd857c606cc346d382b",
+          "run_record_commit": "4abdec2fb077adfe6c1880ac2c14648d51671579",
+          "sources_reused": 4,
+          "sources_new": 0,
+          "sources_corrected": 0,
+          "prompt_persisted": true,
+          "mikkola_page_evidence": false,
+          "scientifically_verified": false
         }
       }
     }

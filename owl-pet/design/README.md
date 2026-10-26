@@ -1,3 +1,11 @@
+## #38 Austral Pygmy-Owl v2 — 2026-10-26
+
+- Original: [38-glaucidium-nana-v2.png](concepts/38-glaucidium-nana-v2.png)
+- Archive commit: [5b1372a](https://github.com/janeytlin-eng/game-owl-ket/commit/5b1372acb749e1cf4079aadcd0f2a6d387a8232b)
+- Review: first render had crisp adult-like juvenile wing spots and a long fully barred tail; one targeted edit removed the spots, shortened/softened the wing and shortened/weakened the tail. Exactly three birds, labels, adults and all foot supports were rechecked.
+- Scientific calibration: the new primary cavity study strengthens breeding-habitat evidence but gives no juvenile feather sequence; exact age, iris/flight stage and population variation remain unknown, so `scientifically_verified=false`.
+- Research/run: [species record](../knowledge/species/38-glaucidium-nana.md) · [cycle record](../production/runs/2026-10-26T1438+0800-cycle-2.md)
+
 ## #37 Peruvian Pygmy-Owl v2 — 2026-10-26
 
 - Original: [37-glaucidium-peruanum-v2.png](concepts/37-glaucidium-peruanum-v2.png)

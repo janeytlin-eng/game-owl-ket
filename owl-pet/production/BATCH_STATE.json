@@ -3631,25 +3631,25 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T2218+0800-cycle-3",
+        "cycle": 3,
+        "heartbeat_at": "2026-10-26T22:18:00+08:00",
+        "expires_at": "2026-10-26T22:33:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "species": "Ketupa coromanda",
-        "species_id": 58,
+        "cycle": 3,
+        "stage": "STARTED",
+        "species": "Ketupa zeylonensis",
+        "species_id": 59,
         "version": 2,
-        "run_id": "2026-10-26T2225+0800-cycle-2",
-        "at": "2026-10-26T22:16:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T2225+0800-cycle-2.md",
+        "run_id": "2026-10-26T2218+0800-cycle-3",
+        "at": "2026-10-26T22:18:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T2218+0800-cycle-3.md",
         "evidence": {
-          "verification_commit": "ddd91267c8eba946123430b73d9f82936a867637",
-          "archive_commit": "f24248888e041cf850f71b51ee01fd7e03a3aa72",
-          "git_blob": "c7edc3b93add95467c834fbb39fd0f0ca99c38d3",
-          "sha256": "0d2bbd8561c26e778ce1d2f681a058c32f90a48b4fdebe08fe57fc07ea6f6a7a",
-          "dimensions": "1350x900",
-          "size_bytes": 667562,
-          "remote_readback": true,
-          "scientifically_verified": false
+          "start_commit": "d2bffcb8cf839005c0d423aa77d3b097ff3d90cf",
+          "prior_asset": "owl-pet/design/concepts/59-ketupa-zeylonensis-v1.png"
         }
       }
     }

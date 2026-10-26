@@ -1157,3 +1157,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 01:38 +0800 — #68 *Tyto tenebricosa* v2 passed first-render review: institutional ageing evidence supports a nearly fully feathered, possibly darker fledgling with little down; adults retain black eyes, grey dark-rimmed heart faces, sooty white-spotted plumage and feathered feet, while the female is shown fuller and slightly paler without an invented height ratio. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [68-tyto-tenebricosa-v2.png](design/concepts/68-tyto-tenebricosa-v2.png).
+
+
+- 2026-10-27 01:47 +0800 — #69 *Tyto novaehollandiae* v2 passed first-render review: primary growth evidence now supports an older nearly full-grown dark-morph juvenile, darker and more heavily marked than its parents with developed wings and only residual down; adults retain dark eyes, chestnut dark-rimmed heart faces, powerful feathered feet and a larger/darker female direction. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [69-tyto-novaehollandiae-v2.png](design/concepts/69-tyto-novaehollandiae-v2.png).

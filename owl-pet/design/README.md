@@ -1082,3 +1082,12 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 - Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
 - Evidence: new GSO-ABSA-2019 institutional ageing/morphometrics profile; corroborated with NSW government habitat, nest and identification material.
 - Boundary: adults show black eyes, dark-rimmed grey heart discs, sooty white-spotted plumage and feathered feet; the female is fuller and slightly paler. The darker near-fledged juvenile is almost fully feathered with compact developed wings, little residual down and natural two-foot support at an old eucalypt hollow. Exact daily plumage chronology, pictured age and population-wide subspecies generality remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #69 Australian Masked Owl / *Tyto novaehollandiae* v2
+
+![#69 Australian Masked Owl v2](concepts/69-tyto-novaehollandiae-v2.png)
+
+- Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
+- Evidence: re-read primary AMO-DEBUS-WOOD-2007 growth sequence and Australian Museum profile; added current AMO-NSW-2024 government habitat/identification source.
+- Boundary: mainland nominate dark morph; larger/darker female and an older, darker, heavily marked near-fledgling with developed wings and only residual down, naturally supported at a deep eucalypt hollow. Exact age, captive-to-wild growth transfer and colour across morphs/subspecies remain unresolved. This is a concept image, not a scientifically verified plate.

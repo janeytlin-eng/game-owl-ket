@@ -3212,6 +3212,33 @@
         "raw_readback": "byte-identical"
       },
       "completed_at": "2026-10-26T12:05:00+08:00"
+    },
+    {
+      "batch_id": "2026-10-26T1128+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1128+0800-cycle-1",
+        "heartbeat_at": "2026-10-26T11:28:00+08:00",
+        "expires_at": "2026-10-26T11:43:00+08:00",
+        "species": "Glaucidium radiatum",
+        "species_id": 31,
+        "version": 2,
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 1,
+        "stage": "STARTED",
+        "species": "Glaucidium radiatum",
+        "species_id": 31,
+        "version": 2,
+        "run_id": "2026-10-26T1128+0800-cycle-1",
+        "at": "2026-10-26T11:28:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1128+0800-cycle-1.md"
+      }
     }
   ],
   "lease": null,

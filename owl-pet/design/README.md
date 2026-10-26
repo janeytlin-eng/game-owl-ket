@@ -1,3 +1,9 @@
+## 49 · African Wood Owl · *Strix woodfordii* v2
+
+- [Original PNG](concepts/49-strix-woodfordii-v2.png) · 1254×1254 · 2,979,818 bytes · SHA-256 `91736dcecc2439398437ebe618ede329d96510dfcb540add4d720933d17c4339`
+- Archive image commit/blob: `cabba678b26de3663fb9c4ff6d4f31d11e406362` / `a69969d77819758c2a2026954bada5079131adb1`
+- Revision: one targeted edit removed adult-like white spots and long layered remiges from the supported 25–30-day juvenile. Adult sex difference remains deliberately modest. Science status: pending expert confirmation.
+
 ## 48 · Himalayan Owl · *Strix nivicolum* v2
 
 - [Original PNG](concepts/48-strix-nivicolum-v2.png) · 1254×1254 · 2,991,607 bytes · SHA-256 `8956ddcc9786010a5bbadaa0d877704d73298bec0cf1a07cc9ad22e8f375dd87`

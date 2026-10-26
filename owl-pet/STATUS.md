@@ -1,3 +1,11 @@
+## 2026-10-26 #49 *Strix woodfordii* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/49-strix-woodfordii-v2.png](design/concepts/49-strix-woodfordii-v2.png)
+- Image commit/blob: `cabba678b26de3663fb9c4ff6d4f31d11e406362` / `a69969d77819758c2a2026954bada5079131adb1`; 1254×1254; 2,979,818 bytes; SHA-256 `91736dcecc2439398437ebe618ede329d96510dfcb540add4d720933d17c4339`.
+- Review: one juvenile-wing edit; original-resolution recheck passed. Science pending.
+- Run: [production/runs/2026-10-26T1835+0800-cycle-1.md](production/runs/2026-10-26T1835+0800-cycle-1.md)
+
 ## 2026-10-26 #48 *Strix nivicolum* v2
 
 - Result: revised and archived; unique species remains 159/251.

@@ -36,3 +36,13 @@
 - Re-read SANBI and Peregrine Fund accounts; reused the prior African Birdlife branching-stage record.
 - Design target remains a supported 25–30-day clambering young, not a flying bird. The approximately 46-day first-flight figure prevents mature-flight pose/wing assumptions at the chosen stage.
 - Full prompt and timing evidence: `production/runs/2026-10-26T1835+0800-cycle-1.md`.
+
+
+## 2026-10-26 production result — v2
+
+- Final image: `design/concepts/49-strix-woodfordii-v2.png` (1254×1254; 2,979,818 bytes; SHA-256 `91736dcecc2439398437ebe618ede329d96510dfcb540add4d720933d17c4339`).
+- Initial draft passed three-bird, adult morphology, text and support checks but failed the juvenile-wing check: crisp white adult-style spots and long layered remiges.
+- Targeted edit removed those mature traits and retained a short, rounded, down-covered developing wing, concealed tail and secure low support. Original-resolution recheck passed.
+- Adults remain dark-eyed, untufted and barred, with yellow bill/cere; sexes are alike and the female is only subtly fuller. The juvenile is an evidence-bounded 25–30-day branching bird and is not shown flying.
+- Sources added: `AWOO-AVIBASE-2026`, `AWOO-ABC-2005`; reused: `OWL-SRC-0049-A`, `OWL-SRC-0049-B`, `OWL-SRC-0049-C`.
+- Scientific status remains pending: no claim is made for precise feather sequence, subspecies variation or sex-specific measurements.

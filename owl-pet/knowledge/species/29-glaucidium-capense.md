@@ -15,3 +15,10 @@ Owl Pages汇编支持圆头无耳簇、黄眼、绿灰偏黄喙，头颈密布�
 仍未知：复合群采用的最终名录版本、分性别线性测量、30–33日龄翼尾精确长度及亚种幼羽差异。概念图可归档，科学状态不通过。
 
 图：`design/concepts/29-glaucidium-capense-v1.png`。详见[来源索引](../../research/SOURCE_INDEX.md)。
+
+
+## 2026-10-26 v2 revision
+
+Primary museum/specimen reassessment `CAP-FISHPOOL-2023` was added to bound the complex-level morphology, measurements and taxonomic uncertainty; no subspecies is asserted. v2 preserves adult fine head/chest barring, bold shoulder white spots, spotted lower underparts, yellow eyes, pale greenish bill and no false eyespots. After inspection, a targeted edit removed the juvenile's conspicuous adult shoulder spots, shortened/softened the folded wing, diffused its body barring and reduced the tail.
+
+The final plate contains exactly three labeled, supported birds. Exact juvenile day, continuous feather chronology, reference subspecies and quantified sex ratio remain unknown; `scientifically_verified=false`. Image `design/concepts/29-glaucidium-capense-v2.png`; SHA-256 `c8ded1c971d09d843e4195d4ef7ab1a19df670978cc82f06cc96309fa5b14e37`; archive `1a417ffe2e942690ac58ec5eb023a2edc6bc7d00`.

@@ -1091,3 +1091,12 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 - Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
 - Evidence: re-read primary AMO-DEBUS-WOOD-2007 growth sequence and Australian Museum profile; added current AMO-NSW-2024 government habitat/identification source.
 - Boundary: mainland nominate dark morph; larger/darker female and an older, darker, heavily marked near-fledgling with developed wings and only residual down, naturally supported at a deep eucalypt hollow. Exact age, captive-to-wild growth transfer and colour across morphs/subspecies remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #71 Barking Owl / *Ninox connivens* v2
+
+![#71 Barking Owl v2](concepts/71-ninox-connivens-v2.png)
+
+- Review: PASS_AFTER_EDIT at original archival resolution; one targeted juvenile-wing edit was required.
+- Evidence: reused Australian Museum `BARK-AM-2022`, ABSA `BARK-ABSA-2020` and Mikkola `WHSO-MIKKOLA-2013`; added Bullock’s 2026 primary breeding study `BARK-BULLOCK-2026`.
+- Boundary: yellow-eyed, vertically streaked, white-wing-spotted adults with the male only modestly larger; a supported recent fledgling has less ventral streaking, a pale mottled nape and shorter, softer wings at a debris-lined eucalypt hollow. Exact age, continuous feather sequence, regional variation and a fixed sex ratio remain unresolved. This is a concept image, not a scientifically verified plate.

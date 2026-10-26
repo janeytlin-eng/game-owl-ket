@@ -1160,3 +1160,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 01:47 +0800 — #69 *Tyto novaehollandiae* v2 passed first-render review: primary growth evidence now supports an older nearly full-grown dark-morph juvenile, darker and more heavily marked than its parents with developed wings and only residual down; adults retain dark eyes, chestnut dark-rimmed heart faces, powerful feathered feet and a larger/darker female direction. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [69-tyto-novaehollandiae-v2.png](design/concepts/69-tyto-novaehollandiae-v2.png).
+
+
+- 2026-10-27 02:45 +0800 — #71 *Ninox connivens* v2 archived after one juvenile-wing edit: yellow-eyed, white-wing-spotted adults retain strong longitudinal underpart streaking and only a modest male-larger direction; the dependent recent fledgling now has weaker wing spots, a shorter rounded wing, less ventral streaking and natural two-foot hollow-lip support. Revision only; unique-species total remains 159/251. Exact age/feather sequence, regional variation and fixed sex ratio remain unknown; scientific calibration pending. Image: [71-ninox-connivens-v2.png](design/concepts/71-ninox-connivens-v2.png).

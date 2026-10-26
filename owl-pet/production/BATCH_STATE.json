@@ -3980,41 +3980,49 @@
           "image_git_blob": "18278c4cc31a3f2bd02ab24c501d4e5b464e8e29",
           "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-4.md",
           "verified_at": "2026-10-27T06:40:00.000+08:00"
+        },
+        {
+          "cycle": 5,
+          "species": "Ketupa philippensis",
+          "species_id": 124,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "4e2b06b35a73022b5d72abc973913ea3fd688804",
+          "image_git_blob": "0f6d49a6887c4b9a11b5f76271746fba508ebac9",
+          "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-5.md",
+          "verified_at": "2026-10-27T06:56:00.000+08:00"
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "2026-10-27T0533+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T06:53:00.000+08:00",
-        "expires_at": "2026-10-27T07:08:00.000+08:00",
-        "cycle": 5,
-        "species": "Ketupa philippensis",
-        "species_id": 124
-      },
+      "next_cycle": 6,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Ketupa philippensis",
         "species_id": 124,
         "version": 2,
         "run_id": "2026-10-27T0533+0800-cycle-5",
-        "at": "2026-10-27T06:53:00.000+08:00",
+        "at": "2026-10-27T06:56:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-5.md",
         "evidence": {
-          "image_git_blob": "0f6d49a6887c4b9a11b5f76271746fba508ebac9",
+          "archive_commit": "4e2b06b35a73022b5d72abc973913ea3fd688804",
+          "concept_blob": "0f6d49a6887c4b9a11b5f76271746fba508ebac9",
+          "asset_blob": "0f6d49a6887c4b9a11b5f76271746fba508ebac9",
+          "size_bytes": 2882949,
           "sha256": "4b008554eb05591f61179174a5e322fbf464e17e189fe50fe3edc6acff80a875",
-          "concept_path": "owl-pet/design/concepts/124-ketupa-philippensis-v2.png",
-          "asset_path": "owl-pet/production/assets/124-ketupa-philippensis-v2.png"
+          "manifest_readback": true,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T06:53:00.000+08:00",
+      "last_updated_at": "2026-10-27T06:56:00.000+08:00",
       "audit_notes": [
         "Clock correction: this batch uses the actual invocation time; the preceding batch's stored phase timestamps extend later due to earlier runner clock skew.",
         "2026-10-27T05:44:49.388+08:00: cycle 1 #102 Strix nigrolineata v2 readback verified; archive 339caef, image blob a8c6883. Unique species remains 159/251; next_cycle 2.",
         "2026-10-27T05:51:07.487+08:00: cycle 2 #103 Tyto longimembris v2 readback verified; unique remains 159/251; next_cycle 3.",
         "2026-10-27T06:02:30.000+08:00: cycle 3 #112 Asio abyssinicus v2 readback verified; archive 2db98c2, image blob af5090c. Unique species remains 159/251; next_cycle 4.",
-        "2026-10-27T06:40:00.000+08:00: cycle 4 #122 Otus megalotis v2 dual-path image and metadata readback verified; unique species remains 159/251; next_cycle 5."
+        "2026-10-27T06:40:00.000+08:00: cycle 4 #122 Otus megalotis v2 dual-path image and metadata readback verified; unique species remains 159/251; next_cycle 5.",
+        "2026-10-27T06:56:00.000+08:00: cycle 5 #124 Ketupa philippensis v2 dual-path image and metadata readback verified; unique species remains 159/251; next_cycle 6."
       ]
     }
   ],

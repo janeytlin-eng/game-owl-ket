@@ -3358,3 +3358,19 @@ Reused and re-read: `SRC-WEB-036-01` (Birds of Bolivia adult occurrence/image re
 ### Reused evidence and v1 review
 - Reused the actually read Indian BIRDS 8(6) breeding account: 15–20 d chicks and two nestlings that left 23/25 Apr 2012; fledglings resembled adults and were nearly adult-sized but remained dependent. Reused Owl Pages/Avibase adult and taxonomy records.
 - v1 was actually opened: composition/support passed, but adult irises read amber-orange rather than clear yellow, and juvenile wing/tail were too mature. v2 corrects both.
+
+
+## 2026-10-26 · #60 *Ketupa flavipes* v2 evidence increment
+
+### TFO-WANG-2013
+- Title/author/institution: Chen-ning Wang (汪辰寧), *Diet and activity pattern of Tawny fish owl (Ketupa flavipes) nestlings in Wuling* / 武陵地區黃魚鴞育雛食性及活動模式, M.Sc. thesis, National Pingtung University of Science and Technology, Institute of Wildlife Conservation, 2013, 39 pp.; advisor Yuan-Hsun Sun.
+- Stable URL: https://ndltd.ncl.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dnclcdr&s=id%3D%22101NPUS5746001%22.&searchmode=basic
+- Accessed: 2026-10-26; thesis metadata, bilingual abstract, contents and bibliography actually read.
+- Evidence: telemetry and infrared video at Wuling; incubation 36–41 d, nestling period approximately 56–57 d; all three nests on broken cross-sections of trees >1 m DBH in primary forest; fish 47.8% and amphibians 42.8% of nestling diet; female brooded/guarded early while male provisioned throughout.
+- Limits/confidence: three nests and one Taiwanese montane population; abstract does not give a feather-tract sequence or a photograph-based age key. High for local timing/substrate, low for exact drawable remex geometry.
+- Design use: late nestling near the massive-tree cross-section, beside a fast mountain stream, naturally supported; no unsupported flight or invented exact wing progression.
+- Linked record/version/run: `knowledge/species/60-ketupa-flavipes.md`; `design/concepts/60-ketupa-flavipes-v2.png`; `production/runs/2026-10-26T2233+0800-cycle-4.md`.
+
+### Reused evidence and limitation
+- Reused `TFO-SUN-NEST-1997`, `TFO-SUN-HABITAT-2000`, `TFO-AVIBASE-2026`, `TFO-BIRDLIFE-2026`.
+- The v1 binary exceeds the connector response cap in this run, so its previously archived review finding—not truncated pixels—is used: adult-like juvenile white spots/layered remiges required correction. No claim of fresh v1 pixel review is made.

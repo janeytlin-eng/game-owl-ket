@@ -3521,26 +3521,25 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1849+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-26T18:53:00+08:00",
-        "expires_at": "2026-10-26T19:08:00+08:00"
+        "heartbeat_at": "2026-10-26T18:57:00+08:00",
+        "expires_at": "2026-10-26T19:12:00+08:00"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Strix virgata",
         "species_id": 50,
         "version": 2,
         "run_id": "2026-10-26T1849+0800-cycle-2",
-        "at": "2026-10-26T18:53:00+08:00",
+        "at": "2026-10-26T18:57:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1849+0800-cycle-2.md",
         "evidence": {
-          "source_index": "owl-pet/research/SOURCE_INDEX.md#2026-10-26-50-strix-virgata-v2-evidence-increment",
-          "new_sources": 0,
-          "reused_sources": 5,
-          "corrected_mappings": 1,
-          "primary_source": "BWO-GER1994",
-          "primary_pages": "629–632",
-          "species_record": "owl-pet/knowledge/species/50-strix-virgata.md"
+          "draft_path": "owl-pet/production/assets/50-strix-virgata-v2-draft.png",
+          "git_blob": "725e0ea1cbba53e5d339aa6a31b3f94b1c4f289f",
+          "size_bytes": 3183673,
+          "sha256": "ddc94f48f2303fcb4f4ca6bf12b8a55d8e96030e5e15a1b63e0654054d77af59",
+          "dimensions": "1254x1254",
+          "review_result": "REJECT juvenile adult-like white-spotted layered wing"
         }
       }
     }

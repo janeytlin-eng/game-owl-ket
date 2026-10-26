@@ -1,3 +1,11 @@
+## 2026-10-26 #42 Athene brama v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| SPOT-AVIBASE-2026 | [Athene brama (Spotted Owlet)](https://avibase.bsc-eoc.org/species.jsp?avibaseid=DDE6A35290A28441) | Avibase / Denis Lepage; Clements range source | page current; accessed 2026-10-26 | Institutional taxonomic crosswalk; classification, range and checklist sections read | *Athene brama* species and nominate *A. b. brama* | Confirms current species name, protonym *Strix brama*, nominate range in southern India, open lowland/foothill forest, desert/semi-desert and village habitats; current Avibase, AviList 2025, IOC 15.2 and Clements 2025 retain the species concept. | Taxonomic/range source only; no plumage-development or sex-size evidence. Supports the nominate southern-India setting and current name, not feather geometry. | [species #42](../knowledge/species/42-athene-brama.md); [v2 run](../production/runs/2026-10-26T1550+0800-cycle-6.md) |
+
+**Reuse / uncertainty boundary.** Re-read the complete open primary study `SPOT-PANDE-2011`: eight known-age nestlings from seven intensively studied southern-Indian nests were measured from hatching through 32 days; sexes could not be separated externally; wing growth accelerated after two weeks, reached about 80% of adult chord at 4.5 weeks, and fledging occurred around 4.5 weeks. The authors also observed pre-flight young walking from the nest hole onto branches. For v2, an approximately three-week nestling therefore has a short developing wing, is not shown flying, and remains securely supported at the cavity lip. The paper does not supply a literal feather map; exact remige layering, sex-specific growth and subspecies color variation remain unknown, so `scientifically_verified=false`.
+
 ## 2026-10-26 #41 Glaucidium cobanense v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

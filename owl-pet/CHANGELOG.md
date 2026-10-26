@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-26 17:00 +08:00
+
+- Revised #44 Ural Owl (*Strix uralensis*) to v2. Reused and freshly read three indexed sources; kept two inaccessible development references as unverified leads. One targeted edit removed adult-style juvenile wing spots/layered remiges, and the complete reviewed PNG was archived. Unique species remains 159/251; scientific verification remains false.
+
+
 ## 2026-10-26 16:56 +08:00
 
 - Revised #43 Forest Owlet (*Athene blewitti*) to v2 with one juvenile-wing correction; added one primary habitat source and archived the full reviewed PNG. Unique species remains 159/251; scientific verification remains false.

@@ -1,3 +1,11 @@
+## 2026-10-26 #41 Glaucidium cobanense v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| GUPO-AOS-2013A | [AOS North American Classification Committee Proposals 2013-A](https://americanornithology.org/wp-content/uploads/2020/02/2013-A.pdf) | American Ornithologists’ Union / NACC | 2013; accessed 2026-10-26 | Institutional taxonomic proposal; relevant pp.4–7 read | *G. cobanense* taxonomy, morphs, habitat, range | Recommends species recognition from vocal separation; gives rufous and brown morphs, highland Chiapas–Guatemala–western Honduras range, and humid broadleaf/pine-oak/conifer forest, edge, woodland and plantations at 1,500–3,500 m. | Taxonomic committee evidence, not juvenile development or sex-size data. Supports rufous adult/habitat choice while the repository retains current checklist conflict. | [species #41](../knowledge/species/41-glaucidium-cobanense.md); [v2 run](../production/runs/2026-10-26T1459+0800-cycle-5.md) |
+
+**Reuse / uncertainty boundary.** Re-read `SRC-PAPER-041-02` full accessible text and `SRC-WEB-041-03`: the research page identifies juvenile birds at a nest entrance and a juvenile brown morph, while the paper documents a nest territory and sex-specific calls but not plumage growth. Reused `SRC-BOOK-041-01` for the explicit mesoptile boundary. Exact age, remige/tail chronology, sex measurements and checklist treatment remain unresolved; v2 stays `scientifically_verified=false`.
+
 ## 2026-10-26 #40 Glaucidium nubicola v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

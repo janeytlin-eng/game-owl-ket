@@ -3119,6 +3119,33 @@
         "verification_commit": "9b01b1a39a9dc2b8a6ada4a986b9709525730b28"
       },
       "completed_at": "2026-10-26T09:10:00+08:00"
+    },
+    {
+      "batch_id": "2026-10-26T1031+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1031+0800-cycle-1",
+        "heartbeat_at": "2026-10-26T10:34:00+08:00",
+        "expires_at": "2026-10-26T10:49:00+08:00",
+        "species": "Glaucidium brasilianum cactorum",
+        "species_id": 25,
+        "version": 2,
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 1,
+        "stage": "STARTED",
+        "species": "Glaucidium brasilianum cactorum",
+        "species_id": 25,
+        "version": 2,
+        "run_id": "2026-10-26T1031+0800-cycle-1",
+        "at": "2026-10-26T10:34:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1031+0800-cycle-1.md"
+      }
     }
   ],
   "lease": null,

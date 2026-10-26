@@ -4037,6 +4037,33 @@
         "2026-10-27T06:56:00.000+08:00: cycle 5 #124 Ketupa philippensis v2 dual-path image and metadata readback verified; unique species remains 159/251; next_cycle 6.",
         "2026-10-27T07:15:00.000+08:00: cycle 6 #127 Megascops albogularis v2 readback verified; batch closed COMPLETE 6/6; unique species remains 159/251."
       ]
+    },
+    {
+      "batch_id": "2026-10-27T0728+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "2026-10-27T0728+0800-cycle-1",
+        "heartbeat_at": "2026-10-27T07:28:38.000+08:00",
+        "expires_at": "2026-10-27T07:43:38.000+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 1,
+        "stage": "STARTED",
+        "species": "Strix davidi",
+        "species_id": 132,
+        "version": 2,
+        "run_id": "2026-10-27T0728+0800-cycle-1",
+        "at": "2026-10-27T07:28:38.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-1.md"
+      },
+      "last_updated_at": "2026-10-27T07:28:38.000+08:00",
+      "audit_notes": [
+        "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired."
+      ]
     }
   ],
   "lease": {

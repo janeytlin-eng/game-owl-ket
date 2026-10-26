@@ -882,3 +882,6 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 证据边界修订并定向修正幼鸟：成年细横斑、白色肩带、黄眼浅绿喙、腹部深色羽端斑、无后颈假眼及近等尺度通过复查；中央近期离巢幼鸟改为弥散不完整横纹、短软折翼、无醒目成年肩斑和短尾尖，双足自然支撑。精确日龄、连续羽序、亚种及量化性别差异仍待校准。
 
 ![29-glaucidium-capense-v2](concepts/29-glaucidium-capense-v2.png)
+
+
+- `30-glaucidium-cuculoides-v2.png` — #30 *Glaucidium cuculoides* v2 revision; final center nestling uses the undated gray-down/open-eye stage with short emerging sheaths after rejecting and editing a draft with mature layered remiges. Adults, three labels and natural cavity support were reviewed. Exact age, feather sequence, sex-size ratio and geographic variation remain unknown; scientifically verified: no. Image commit: `055ab38d0dcf7fb1605bf75eaeef69fcbb6e6100`; [run](../production/runs/2026-10-26T1146+0800-cycle-6.md).

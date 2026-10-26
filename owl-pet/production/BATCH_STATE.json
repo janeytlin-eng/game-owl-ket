@@ -3045,7 +3045,7 @@
     },
     {
       "batch_id": "2026-10-26T0331+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -3090,27 +3090,35 @@
           "commit_sha": "a6f77194a4c0266775bb11bdc92c63ed45ff5e40",
           "archive_commit": "c633dfe27eb46ee232a5b3d61df37fdbdc867b19",
           "run_record": "owl-pet/production/runs/2026-10-26T0825+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Glaucidium californicum",
+          "species_id": 24,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "9b01b1a39a9dc2b8a6ada4a986b9709525730b28",
+          "archive_commit": "8b82bf492508b1db5b707ce8d5d0b11e8f86a467",
+          "run_record": "owl-pet/production/runs/2026-10-26T0852+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T0852+0800-cycle-6",
-        "cycle": 6,
-        "species": "Glaucidium californicum",
-        "heartbeat_at": "2026-10-26T08:56:00+08:00",
-        "expires_at": "2026-10-26T09:11:00+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 6,
-        "stage": "RESEARCH_READY",
+        "stage": "VERIFIED",
         "species": "Glaucidium californicum",
         "species_id": 24,
         "version": 2,
         "run_id": "2026-10-26T0852+0800-cycle-6",
-        "at": "2026-10-26T08:56:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T0852+0800-cycle-6.md"
-      }
+        "at": "2026-10-26T09:09:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T0852+0800-cycle-6.md",
+        "archive_commit": "8b82bf492508b1db5b707ce8d5d0b11e8f86a467",
+        "image_blob": "ab1e8d1298754548e90aa1a595b89c5e737b86e0",
+        "verification_commit": "9b01b1a39a9dc2b8a6ada4a986b9709525730b28"
+      },
+      "completed_at": "2026-10-26T09:10:00+08:00"
     }
   ],
   "lease": null,

@@ -3724,7 +3724,7 @@
     },
     {
       "batch_id": "2026-10-27T0034+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -3786,35 +3786,44 @@
           "archive_commit": "4a743e81a9c3623957720c8a06e237af9cf66261",
           "image_git_blob": "d833ec0564daac37dfe7ed2cf5c603a6c486e16e",
           "run_record": "owl-pet/production/runs/2026-10-27T0034+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox connivens",
+          "species_id": 71,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "9ac47ef5b77c9ca498c02200f00076fac62a3a3e",
+          "archive_commit": "54120a3bb78e52c5973ef7e4d7458481fa467261",
+          "image_git_blob": "2145a3ec62f541ec0dba7fa7a91718ed13444b59",
+          "run_record": "owl-pet/production/runs/2026-10-27T0034+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-27T0034+0800-cycle-6",
-        "cycle": 6,
-        "heartbeat_at": "2026-10-27T02:51:00+08:00",
-        "expires_at": "2026-10-27T03:06:00+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Ninox connivens",
         "species_id": 71,
         "version": 2,
         "run_id": "2026-10-27T0034+0800-cycle-6",
-        "at": "2026-10-27T02:51:00+08:00",
+        "at": "2026-10-27T02:54:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0034+0800-cycle-6.md",
         "evidence": {
           "archive_commit": "54120a3bb78e52c5973ef7e4d7458481fa467261",
-          "archive_record_commit": "9452f6da88651c69699c1c471c1af4643fcde5b5",
+          "verification_commit": "9ac47ef5b77c9ca498c02200f00076fac62a3a3e",
           "image_git_blob": "2145a3ec62f541ec0dba7fa7a91718ed13444b59",
           "manifest_sha256": "d34288e4f907e7264d07eade46544eb1ab7061f271b2c01a8f774ce76e5dc16e",
-          "bytes": 758374,
-          "dimensions": "1350x900"
+          "remote_readback": true,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T02:51:00+08:00"
+      "last_updated_at": "2026-10-27T02:54:00+08:00",
+      "audit_notes": [
+        "2026-10-27 02:54 +08:00 — cycle 6 Ninox connivens v2 verified and batch closed at 6/6; revision only, unique total unchanged."
+      ]
     }
   ],
   "lease": null,

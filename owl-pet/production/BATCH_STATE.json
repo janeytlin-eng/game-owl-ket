@@ -3610,28 +3610,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2211+0800-cycle-1",
         "cycle": 1,
-        "heartbeat_at": "2026-10-26T22:20:00+08:00",
-        "expires_at": "2026-10-26T22:35:00+08:00"
+        "heartbeat_at": "2026-10-26T22:23:00+08:00",
+        "expires_at": "2026-10-26T22:38:00+08:00"
       },
       "checkpoint": {
         "cycle": 1,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Bubo nipalensis",
         "species_id": 57,
         "version": 2,
         "run_id": "2026-10-26T2211+0800-cycle-1",
-        "at": "2026-10-26T22:20:00+08:00",
+        "at": "2026-10-26T22:23:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2211+0800-cycle-1.md",
         "evidence": {
-          "research_commit": "8b688dd351e869a5236c9dd857c606cc346d382b",
-          "candidate_commit": "455d85d64600f22c5dc1b27f60ce931a4b668c35",
-          "reviewed_commit": "5d2c144f398c7573051bfc3539f009812e9adee1",
-          "reviewed_blob": "31005b66794e728e683e9011a3ea197d46cb072a",
+          "archive_commit": "a769b618536a1561073217f716c7f28b4c3dd890",
+          "git_blob": "31005b66794e728e683e9011a3ea197d46cb072a",
           "sha256": "b2e6bfd26d8f32a2d269ca3f222788ba90b11dc66cf6427de9fc472fddc7be39",
           "dimensions": "1350x900",
           "size_bytes": 729682,
-          "edit_applied": "juvenile adult-like spot rows removed; wing shortened and down-softened",
-          "remote_readback": true,
+          "manifest_entry": "57-bubo-nipalensis-v2",
+          "image_remote_readback": true,
+          "manifest_remote_readback": true,
           "scientifically_verified": false
         }
       }

@@ -868,3 +868,10 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 证据边界重建：同棕色型成年赤褐虹膜、绿黄喙、显著白眉、白底棕纹、自然裸露下腿和近等尺度通过复查；中央年龄未定幼鸟以灰米色蓬松幼羽为主，短圆翼芽藏于绒羽下，无成熟翼尾或成年白眉，腹部和双足由洞底承托。精确日龄、幼鸟虹膜、连续羽序、飞行能力、量化性别差异及精细裸腿几何仍待科学校准。
 
 ![22-gymnasio-nudipes-v3](concepts/22-gymnasio-nudipes-v3.png)
+
+
+## 28-glaucidium-perlatum-v2
+
+证据边界修订：成年黄眼、浅绿黄色喙蜡膜、肉桂褐底整齐白色珠斑、白底棕色纵纹及雌雄近等展示通过复查；成年雌鸟后转展示成对白边黑色假眼。中央年龄未定离巢幼鸟更小、更蓬松，头背珠斑明显减少、短圆折翼、无成熟横斑长尾，双足由低矮金合欢枝承托。精确日龄、逐日羽区与虹膜发育、连续翼尾生长及量化性别差异仍待科学校准。
+
+![28-glaucidium-perlatum-v2](concepts/28-glaucidium-perlatum-v2.png)

@@ -3526,16 +3526,22 @@
           "archive_commit": "257fbf724d486fc564015c74c7aaef1473895729",
           "image_commit": "46c4ed8a6e58c79accba7013d062aebdac34451a",
           "run_record": "owl-pet/production/runs/2026-10-26T1849+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Strix rufipes",
+          "species_id": 51,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e809d1d4c459ac7c2bbc73e16b9216b307afc308",
+          "archive_commit": "0b07445bf8a1d8893db11f1c3337928b2820ce62",
+          "image_commit": "74eec69998b2eccb442aaa43a90d8debfcaf1964",
+          "run_record": "owl-pet/production/runs/2026-10-26T1908+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1908+0800-cycle-3",
-        "cycle": 3,
-        "heartbeat_at": "2026-10-26T19:27:00+08:00",
-        "expires_at": "2026-10-26T19:42:00+08:00"
-      },
+      "next_cycle": 4,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 3,
         "stage": "VERIFIED",

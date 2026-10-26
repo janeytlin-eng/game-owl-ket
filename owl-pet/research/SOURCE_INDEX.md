@@ -3516,3 +3516,18 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Conflict / decision:** The brown-eye wording conflicts with the yellow-eye direction in Australian Museum `BARK-AM-2022` and Mikkola `WHSO-MIKKOLA-2013`. The concept plate retains yellow irises and records this page only as a conflict; no unsupported reconciliation is claimed.
 - **Limitations / confidence:** Institutional overview without a cited specimen-age or iris-method context on the page; moderate confidence for general morphology, low confidence for overriding the iris consensus.
 - **Related records/assets:** `owl-pet/production/runs/2026-10-27T0034+0800-cycle-6.md`
+
+
+### CLA-PONCE-GONZALEZ-2025 — Striped Owl nest and chick development in Panama
+- **Title:** Notas sobre la anidación del Búho Listado (*Asio clamator*) en el Cerro San Cristóbal, Chiriquí, Panamá
+- **Authors / institution:** Marcos Ponce and Edgar González; Universidad Autónoma de Chiriquí / Vida Natural
+- **Year:** 2025, 2(2)
+- **DOI / stable URL:** https://doi.org/10.59722/rcvn.v2i2.807
+- **Accessed:** 2026-10-27
+- **Source type:** Primary field observation, periodic nest visits
+- **Species / stage:** *Asio clamator*; 2–3-week nestlings and approximately 5-week brancher/fledgling
+- **Actually read:** Full-text extract, pp. 37–43, including methods, results, discussion and figure captions
+- **Evidence facts:** A rudimentary ground nest lay at a tree base in grass and shrubs, lined with feathers, straw and leaves. At discovery, 2–3-week chicks had salmon-colored body/legs, white facial down and a poorly defined facial disc. About 22 days later, one approximately 5-week chick perched 4 m high; head, underparts and legs were dull yellowish, the facial disc was defined with blackish outer-eye markings, white brow/moustache feathers were prominent, and ear tufts were defined. The authors estimate an approximately 30–40-day rearing interval and explicitly note sparse knowledge.
+- **Design use:** Supports a naturally gripping approximately 5-week brancher with formed wings and defined tufts, rather than a down-only hatchling or a fully adult-plumaged juvenile; supports ground-nest grass/leaf context rather than a tree cavity.
+- **Limitations / confidence:** One nest in Panama; ages are estimates, only one chick survived to the final observation, and plumage transfer across subspecies/localities is uncertain. High confidence for the reported individual and nest, moderate generalizability.
+- **Related records/assets:** `owl-pet/production/runs/2026-10-27T0334+0800-cycle-1.md`; planned `owl-pet/design/concepts/76-asio-clamator-v2.png`

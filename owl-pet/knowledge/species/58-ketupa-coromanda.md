@@ -29,3 +29,11 @@ Constraints: natural support and toe contact; no exaggerated female size; no mat
 - Fresh Peregrine Fund re-read supports clear yellow eyes, long ear tufts, lowland near-water habitat and old high stick nests; it explicitly notes major breeding-stage uncertainty.
 - v2 stage: supported 8–10-week branch-moving juvenile, not a hatchling and not shown flying. Exact remex sequence remains unknown.
 - Sources: 1 new, 4 reused, 0 corrected. Mikkola uploaded guide remains unextractable for verified page evidence.
+
+
+## v2 production review — 2026-10-26
+- Final asset: `design/concepts/58-ketupa-coromanda-v2.png`.
+- First generated juvenile had long layered, white-spotted adult-like wing feathers. A targeted edit removed the spots and replaced the wing with a short rounded down-softened folded wing.
+- Re-opened review passed: exactly three birds and correct labels; adults near-equal with only subtle female fullness; clear yellow eyes and long upright tufts; juvenile supported on both feet beside an old dry-stick tree-fork nest in the evidence-bounded water/woodland/rice-edge setting.
+- Science boundary: the juvenile stage is tied to the field-estimated 8–10 weeks and branch movement, but exact feather progression is not measured. Concept review passed; scientific calibration remains pending.
+- Transfer: 1350×900 PNG, 667,562 bytes, SHA-256 `0d2bbd8561c26e778ce1d2f681a058c32f90a48b4fdebe08fe57fc07ea6f6a7a`, Git blob `c7edc3b93add95467c834fbb39fd0f0ca99c38d3`.

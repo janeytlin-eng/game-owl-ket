@@ -3659,8 +3659,8 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2327+0800-cycle-5",
         "cycle": 5,
-        "heartbeat_at": "2026-10-26T23:37:00+08:00",
-        "expires_at": "2026-10-26T23:52:00+08:00"
+        "heartbeat_at": "2026-10-26T23:40:00+08:00",
+        "expires_at": "2026-10-26T23:55:00+08:00"
       },
       "checkpoint": {
         "cycle": 4,
@@ -3684,22 +3684,21 @@
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Ketupa ketupu",
         "species_id": 61,
         "version": 2,
         "run_id": "2026-10-26T2327+0800-cycle-5",
-        "at": "2026-10-26T23:37:00+08:00",
+        "at": "2026-10-26T23:40:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2327+0800-cycle-5.md",
         "evidence": {
-          "research_commit": "fbbf9561420dda909d6ad65592745041c07c53fc",
-          "image_stage_commit": "6c02dad43563734d5bbc9e08e6df049282bde24e",
+          "review_commit": "9f43d6d1d90dc7e924ff271a042d4a3ab7569444",
           "local_sha256": "fca8779d4964ada196f0866ea5be4a28949b19af6f825f96f1ed2506270b354e",
-          "size_bytes": 3337074,
-          "dimensions": "1536x1024"
+          "review_result": "PASS_NO_EDIT",
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-26T23:37:00+08:00"
+      "last_updated_at": "2026-10-26T23:40:00+08:00"
     }
   ],
   "lease": null,
@@ -3794,7 +3793,7 @@
     "heartbeat_at": "2026-10-26T21:39:00+08:00",
     "expires_at": "2026-10-26T21:54:00+08:00"
   },
-  "last_updated_at": "2026-10-26T23:37:00+08:00",
+  "last_updated_at": "2026-10-26T23:40:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5."
   ]

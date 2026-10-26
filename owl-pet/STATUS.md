@@ -1,3 +1,11 @@
+## 2026-10-26 #52 *Strix hylophila* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/52-strix-hylophila-v2.png](design/concepts/52-strix-hylophila-v2.png)
+- Image commit/blob: `3e937af2581d6770acdb93790ed00205e181350a` / `0261a02230f96176c9bce963bb35a14e29f5f35b`; 1536×1024; 3,103,170 bytes; SHA-256 `2db92cb535d95d38141cecd91bc15e5fd1507fd56e27f262c91fc23b535ef8b2`.
+- Research: 3 reused indexed sources, 0 new IDs, 1 false-positive juvenile interpretation rejected before indexing. Review: one juvenile-wing edit; original-resolution recheck passed. Science pending.
+- Run: [production/runs/2026-10-26T1929+0800-cycle-4.md](production/runs/2026-10-26T1929+0800-cycle-4.md)
+
 ## 2026-10-26 #51 *Strix rufipes* v2
 
 - Result: revised and archived; unique species remains 159/251.

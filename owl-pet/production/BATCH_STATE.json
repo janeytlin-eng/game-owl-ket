@@ -3635,21 +3635,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2218+0800-cycle-3",
         "cycle": 3,
-        "heartbeat_at": "2026-10-26T22:18:00+08:00",
-        "expires_at": "2026-10-26T22:33:00+08:00"
+        "heartbeat_at": "2026-10-26T22:22:00+08:00",
+        "expires_at": "2026-10-26T22:37:00+08:00"
       },
       "checkpoint": {
         "cycle": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Ketupa zeylonensis",
         "species_id": 59,
         "version": 2,
         "run_id": "2026-10-26T2218+0800-cycle-3",
-        "at": "2026-10-26T22:18:00+08:00",
+        "at": "2026-10-26T22:22:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2218+0800-cycle-3.md",
         "evidence": {
           "start_commit": "d2bffcb8cf839005c0d423aa77d3b097ff3d90cf",
-          "prior_asset": "owl-pet/design/concepts/59-ketupa-zeylonensis-v1.png"
+          "source_index_commit": "272c021aaf37d157c3a4d8e2a506e3c056565ab0",
+          "species_record_commit": "0424b6b220570d02eb787d2a6340a6f9a252b3ba",
+          "run_record_commit": "5219674615166c27e9a1bdbf73e152b41d0d3f2a",
+          "new_sources": 1,
+          "reused_sources": 3,
+          "corrected_sources": 0,
+          "scientifically_verified": false
         }
       }
     }

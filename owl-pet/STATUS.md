@@ -1,3 +1,12 @@
+## 2026-10-26 #40 *Glaucidium nubicola* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/40-glaucidium-nubicola-v2.png](design/concepts/40-glaucidium-nubicola-v2.png)
+- Archive commit/blob: `efd3235a9cf061c763bba518426dee2f1018a3ff` / `889d8830d8f16d3603adbdebde49992787ae5547`; PNG 3,033,861 bytes; SHA-256 `fe90bd55bc997e4f144f112327e38d89ed838593ed6ac818463acaae91beb6e0`.
+- Research: 1 new indexed source, 3 reused; the complete 11-page 1999 description was re-read, while the 403 breeding-note host was not misreported as newly read.
+- Review: first render passed; adult plain-back and restricted wing-covert spotting, near-equal adults, white-bordered false eye, supported recent fledgling and wet cloud-forest context all meet the evidence bounds.
+- Scientific status: pending; species-specific juvenile plumage, exact age/iris/feather sequence and nest details remain unknown.
+
 ## 2026-10-26 #39 *Glaucidium griseiceps* v2
 
 - Result: revised and archived; unique species remains 159/251.

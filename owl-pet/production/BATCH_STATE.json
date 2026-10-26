@@ -3529,31 +3529,28 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1908+0800-cycle-3",
+        "cycle": 3,
+        "heartbeat_at": "2026-10-26T19:08:00+08:00",
+        "expires_at": "2026-10-26T19:23:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "species": "Strix virgata",
-        "species_id": 50,
+        "cycle": 3,
+        "stage": "STARTED",
+        "species": "Strix rufipes",
+        "species_id": 51,
         "version": 2,
-        "run_id": "2026-10-26T1849+0800-cycle-2",
-        "at": "2026-10-26T19:05:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1849+0800-cycle-2.md",
+        "run_id": "2026-10-26T1908+0800-cycle-3",
+        "at": "2026-10-26T19:08:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1908+0800-cycle-3.md",
         "evidence": {
-          "archive_commit": "257fbf724d486fc564015c74c7aaef1473895729",
-          "image_commit": "46c4ed8a6e58c79accba7013d062aebdac34451a",
-          "image_path": "owl-pet/design/concepts/50-strix-virgata-v2.png",
-          "git_blob": "2378e5547b35f85f20cd8175a394c58f6ba9ea17",
-          "size_bytes": 2959269,
-          "sha256": "97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d",
-          "dimensions": "1254x1254",
-          "readback": {
-            "image": true,
-            "manifest": true,
-            "species_record": true,
-            "run_record": true,
-            "source_index": true
-          }
+          "prior_image": "owl-pet/design/concepts/51-strix-rufipes-v1.png",
+          "prior_archive_commit": "5725bd87c2d9fc7a62ccb0c15e40f6d15b48f8a6",
+          "prior_git_blob": "dec1421139b086a4da1f2ccaea3bc95e0e59687e",
+          "action": "REVISION",
+          "unique_species_increment": 0
         }
       }
     }

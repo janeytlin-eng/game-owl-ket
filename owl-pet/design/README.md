@@ -1,3 +1,11 @@
+## #26 Cuban Pygmy-Owl v2 — 2026-10-26
+
+- Original: [26-glaucidium-siju-v2.png](concepts/26-glaucidium-siju-v2.png)
+- Archive commit: [701ba25](https://github.com/janeytlin-eng/game-owl-ket/commit/701ba25ab3f850a4c34df108415c1aa5f6e9b7d0)
+- Review: exactly three birds; correct labels; female only subtly fuller/longer-tailed and shows nape eyespots; age-unknown juvenile has weak pattern, short wings/tail and secure support.
+- Scientific calibration: species-level gray-brown direction only; race, exact juvenile age/iris and feather sequence remain unknown, so `scientifically_verified=false`.
+- Research/run: [species record](../knowledge/species/26-glaucidium-siju.md) · [cycle record](../production/runs/2026-10-26T1047+0800-cycle-2.md)
+
 ## #25 Cactus Ferruginous Pygmy-Owl v2 — 2026-10-26
 
 - Taxon: *Glaucidium brasilianum cactorum* (subspecies rank; revision only, unique count unchanged).

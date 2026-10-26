@@ -1,3 +1,11 @@
+## 39 · Central American Pygmy-Owl · *Glaucidium griseiceps* v2
+
+- [Original PNG](concepts/39-glaucidium-griseiceps-v2.png) · 1254×1254 · 2,871,466 bytes · SHA-256 `8a3335dba0f0d2e93d75ada1056a8f21e10460c16b9a8e4896612a8213abb121`
+- Archive commit/blob: `f408fd84ad7b417fc78406be333b0cf076024fc7` / `1de3efd3d0d0915cca11f3ad573f35280d5ecbfc`
+- Revision: evidence-bounded v2; exactly three labeled birds, adult male nape false-eye view, near-equal adult scale, and an age-unknown older juvenile with mottled unspotted head, plain back and short soft wing/tail.
+- Review: first render passed without edit. Scientific calibration remains pending because exact juvenile age/iris/feather sequence and quantified sex difference remain unknown.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-39-glaucidium-griseiceps-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1446+0800-cycle-3.md)
+
 ## #38 Austral Pygmy-Owl v2 — 2026-10-26
 
 - Original: [38-glaucidium-nana-v2.png](concepts/38-glaucidium-nana-v2.png)

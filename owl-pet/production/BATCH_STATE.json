@@ -3422,30 +3422,29 @@
         "owner": "codex-automation",
         "run_id": "2026-10-26T1703+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-26T16:54:00+08:00",
-        "expires_at": "2026-10-26T17:09:00+08:00",
-        "stage": "IMAGE_GENERATED",
+        "heartbeat_at": "2026-10-26T16:56:00+08:00",
+        "expires_at": "2026-10-26T17:11:00+08:00",
+        "stage": "REVIEWED",
         "species": "Strix uralensis",
         "species_id": 44,
         "version": 2
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Strix uralensis",
         "species_id": 44,
         "version": 2,
         "run_id": "2026-10-26T1703+0800-cycle-2",
-        "at": "2026-10-26T16:54:00+08:00",
+        "at": "2026-10-26T16:56:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1703+0800-cycle-2.md",
         "evidence": {
-          "draft_path": "owl-pet/production/assets/2026-10-26T1703+0800-cycle-2-draft.png",
-          "draft_commit": "b4d582f9164788724a49fc755510eafd52b30803",
-          "git_blob": "bc9cd2f8cb998f60a7a8137745dc0a5edce2be7d",
-          "size_bytes": 3638231,
-          "sha256": "8ccb303dec2ca65b3de4511723eab100f551e99c9aeca7e00142103d5435453b",
+          "final_local_path": "owl-pet/design/concepts/44-strix-uralensis-v2.png",
+          "size_bytes": 3338226,
+          "sha256": "dd4febdfe84982371fa52219a0578e752f6e417889334ae496940bf12b62bf2c",
           "dimensions": "1254x1254",
-          "remote_readback": true
+          "reviewed": true,
+          "scientifically_verified": false
         }
       }
     }

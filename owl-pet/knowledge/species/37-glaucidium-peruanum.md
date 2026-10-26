@@ -23,3 +23,18 @@
 - Targeted edit: shortened and softened juvenile wing/tail, removed full adult-like tail bars, preserved plain crown and natural support.
 - Recheck: title correct; exactly three; all feet supported; adult sex difference subtle; juvenile crown remains unspotted.
 - Scientific status: pending exact age, feather sequence, breeding ecology, and possible elevational population differences.
+
+## v2 evidence increment — 2026-10-26
+
+### New sources
+- **PEPO-KONIG-1991 — König 1991, pp. 56–61.** Primary species description read in full. Supports the tiny tuftless adult form, pale crown/nape spotting, fine chest shaft-streaks, coarser flank marks, banded tail and arid/semi-arid Pacific-slope environment with hedges, trees, riparian vegetation, gardens/agriculture and cactus. The paper supplies no juvenile sequence and leaves geographic size variation unresolved.
+- **PEPO-EBIRD-ID-2026 — Cornell Lab/eBird identification page.** Cross-checks the very small owl, brown/gray-brown adult tones, daytime activity, desert/western-Andean foothills, woodlands, hedges, gardens and open country.
+- Reused **SRC-BOOK-037-01** and **SRC-WEB-037-02** for slight female size difference, yellow eyes, greenish-yellow bill/cere, morph range, plain-crowned mesoptile and habitat.
+
+### v2 image review
+- Archived file: [37-glaucidium-peruanum-v2.png](../../design/concepts/37-glaucidium-peruanum-v2.png)
+- First render passed original-resolution review without editing: exactly three correctly labeled birds; all feet supported; adults near equal in displayed height with the female only subtly fuller; male rear-side angle shows a nape false-eye patch.
+- Center older juvenile has a plain unspotted crown, soft diffuse body, short rounded unspotted developing wing, short weakly barred tail and two-foot support.
+- Dry western-Andean foothill/riparian thorn-scrub context is supported; no nest-site claim was added.
+- Archive commit: `85ec167a10c7688a17368ba0d29563dc0b422369`; Git blob `5f3f6922e501681fd61bb0b7e0bc87a10e7a6e25`; SHA-256 `5cfd7cf94fa6cabff0b5fc161d60fadad8b2fe9c64a641feece1382a2c52f70e`.
+- Scientific status remains pending because exact juvenile age, iris/flight stage, continuous feather sequence and population variation are unresolved.

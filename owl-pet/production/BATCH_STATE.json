@@ -3253,17 +3253,25 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Taenioptynx brodiei",
-        "species_id": 33,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1229+0800-cycle-4",
+        "heartbeat_at": "2026-10-26T12:29:00+08:00",
+        "expires_at": "2026-10-26T12:44:00+08:00",
+        "species": "Glaucidium hardyi",
+        "species_id": 34,
         "version": 2,
-        "run_id": "2026-10-26T1215+0800-cycle-3",
-        "at": "2026-10-26T12:28:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1215+0800-cycle-3.md",
-        "commit_sha": "7b6729c44844f3a19e741ad11bbd86ee4033a7bc"
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 4,
+        "stage": "STARTED",
+        "species": "Glaucidium hardyi",
+        "species_id": 34,
+        "version": 2,
+        "run_id": "2026-10-26T1229+0800-cycle-4",
+        "at": "2026-10-26T12:29:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1229+0800-cycle-4.md"
       }
     }
   ],

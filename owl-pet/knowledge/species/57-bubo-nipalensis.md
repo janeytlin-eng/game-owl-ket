@@ -33,3 +33,12 @@ See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): SBEO-SRINIVASAN-2013, SBEO-O
 - Recheck: passed visual production review at 1536×1024; exactly three birds, supported feet, correct title/labels and forest setting.
 - Archive: [v1 image](../../design/concepts/57-bubo-nipalensis-v1.png), Git blob `43934570d912bd22988f66cd117c118fb6f8bd5a`, SHA-256 `18626f7477b6bd9d8f7a34c7ffc4b4ab3328b993386dacf29731495401935ea1`.
 - Scientific status remains pending; exact age, sex measurements and genus standardization are unresolved.
+
+## v2 research increment — 2026-10-26
+- Fresh external read: Thai National Parks species account for adult morphology, juvenile paler greyish-cream barring and dense forest habitat; Owl Pages March 2022 labelled juvenile field photograph for real branch perching at Kaeng Krachan National Park.
+- Adult calibration: retain dark eyes, very long ragged sideways ear tufts, pale fulvous underparts with horizontal black/white flank bars broadening into belly spots, plus feathered feet with bare terminal digits. Do not substitute vertical eagle-owl streaks.
+- Juvenile boundary: exact age is not established in the accessible sources. Use a parent-dependent, pale branch-perching stage with smaller tufts, soft barring/light V marks and shortened developing wing/tail; do not claim hatchling or fledging age.
+- Sex evidence remains insufficient for reliable visible dimorphism; adults stay near-equal with only subtle female fullness.
+- Taxonomy mapping preserved: project plate remains *Bubo nipalensis*; current *Ketupa nipalensis* is the same species.
+- Reused stable source IDs: `SBEO-SRINIVASAN-2013`, `SBEO-OWL-PAGES-2022`, `SBEO-THAI-NP-2026`, `SBEO-TAX-2026`. New source IDs 0; corrections 0.
+- Mikkola guide page evidence remains unavailable from the uploaded file; no page claim is asserted. Scientific calibration remains pending.

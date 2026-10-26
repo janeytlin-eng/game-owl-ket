@@ -3185,24 +3185,25 @@
       "active_lease": {
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1146+0800-cycle-6",
-        "heartbeat_at": "2026-10-26T11:56:00+08:00",
-        "expires_at": "2026-10-26T12:11:00+08:00",
+        "heartbeat_at": "2026-10-26T11:58:00+08:00",
+        "expires_at": "2026-10-26T12:13:00+08:00",
         "species": "Glaucidium cuculoides",
         "species_id": 30,
         "version": 2,
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Glaucidium cuculoides",
         "species_id": 30,
         "version": 2,
         "run_id": "2026-10-26T1146+0800-cycle-6",
-        "at": "2026-10-26T11:56:00+08:00",
+        "at": "2026-10-26T11:58:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1146+0800-cycle-6.md",
-        "evidence_commit": "63c766bea33bb0481abe7aeb3ca2e01c027fb0da",
-        "local_path": "owl-pet/design/concepts/30-glaucidium-cuculoides-v2.png",
+        "evidence_commit": "a6b5c370c1e26874e1d76648f66b222aa87b40fc",
+        "archive_commit": "055ab38d0dcf7fb1605bf75eaeef69fcbb6e6100",
+        "git_blob": "8bd981045235bb8c9e605942fea50c4a0f8646ad",
         "sha256": "6353e084e9f1f87b55349b74137b94d40e33e9d801d5c092d5da8881c496666d",
         "bytes": 779053,
         "dimensions": "1536x1024"

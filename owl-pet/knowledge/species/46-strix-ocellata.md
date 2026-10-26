@@ -36,3 +36,35 @@ Avoid: yellow eyes, bright yellow bill, mature juvenile wing/tail, floating feet
 - Recheck: title, exactly three birds, dark-brown eyes, concentric facial-disc barring, horn-black bills, near-equal adults and supported feet passed visual review.
 - PNG: 1536×1024 indexed-color transfer-safe archive, 711,668 bytes; SHA-256 `c0f611865f25021a8e363c086a8c76bc7ed0c50f3adfbb1f20edaeeba87e8403`; Git blob `cc023e5127153f3808b1aac48f7000106983caf8`.
 - Scientific unknowns retained: exact day-age, continuous juvenile wing/tail sequence, sex-specific measurements and subspecies-locality detail.
+
+
+## v2 evidence-bounded revision · 2026-10-26
+
+### New evidence actually read
+- MOWL-KUMAR-2020, printed p. 318 / PDF p. 3 and Fig. 3: approximately three-month rescued juvenile; untufted, fluffy mottled body, fine concentric face bars, white chin/half-collar, orange eyelid, dark-brown iris and yellowish-buff wing; not yet capable of long flights at rescue. Single rehabilitated bird, so no universal timing claim.
+- MOWL-EBIRD-2026: adult dark eyes, dense orange-gray patchiness, lowland groves/open plains/cultivated edges.
+- Re-read MOWL-MIKKOLA-2013 and MOWL-DESHPANDE-2018 for adult marks, mesoptile direction and mango/tamarind agricultural-mosaic context.
+
+### v2 design boundaries
+- Adults stay alike and near equal height; female only subtly fuller because size difference is not quantified.
+- Juvenile is approximately three months, mobile and supported but not a mature-winged miniature adult; keep wings/tail short, soft and partly concealed, with no crisp adult white spot rows.
+- Exact wild fledging age, continuous feather sequence and subspecies-locality plumage remain unknown.
+
+### Complete imagegen prompt
+
+```
+Use case: stylized-concept scientific calibration revision.
+Asset type: square owl electronic-pet species prototype group plate.
+Primary request: Create one polished 1:1 storybook-naturalist 3D maquette plate for #46 Mottled Wood Owl, Strix ocellata, containing exactly three full-body owls: adult male, adult female and an approximately three-month-old supported juvenile.
+Scene/backdrop: a mature mango-and-tamarind grove beside open cultivated plains in west-central India at soft dusk; warm earthen ground, cavity tree and discreet grasses; each bird has a clearly visible natural support.
+Subjects: adult male left and adult female center, adults alike and nearly equal standing height because the only available source says female is presumed—not measured—larger. Both adults have smooth round untufted heads, dark-brown irises, muted coral-orange eyelids, horn-black bills, pale whitish facial discs with fine concentric dark brown/black bars, dense orange/gray/reddish-brown/black/white/buff mottling, barred tails and feathered buff feet. Female may be subtly fuller only, not taller.
+Juvenile right: about three months old, securely crouched on a lower branch/cavity rim with both feet supported; untufted head, dark-brown iris, orange eyelid, fine concentric facial-disc bars, white chin and white half-collar, fluffy mottled reddish-brown/white body, noticeable yellowish-buff in wing coverts. Keep wing and tail shorter/softer and partly concealed than adults, without crisp adult-style white spot rows or long layered remiges; depict limited long-distance flight capability, not a helpless natal chick.
+Style/medium: polished soft 3D animated-film maquette / storybook naturalist, matching recent owl-pet v2 square plates; realistic anatomy, softly modeled feathers, warm restrained palette.
+Composition/framing: 1:1 square; exactly three owls, spaced left/center/right; full bodies and feet visible; title at top and three small labels below birds.
+Text (verbatim): "#46 MOTTLED WOOD OWL"; scientific subtitle "Strix ocellata"; labels "ADULT MALE", "ADULT FEMALE", "JUVENILE · ~3 MONTHS".
+Constraints: no ear tufts; preserve dark eyes and finely concentric face bars; no exaggerated female size; no mature juvenile flight feathers; no floating feet; no extra animals; no watermark.
+Avoid: yellow irises, bright yellow bills, adult-length juvenile wings/tail, snow-white facial disc without barring, generic rainforest, photorealistic collage, extra birds.
+```
+
+### Stage
+RESEARCH_READY; image not yet generated.

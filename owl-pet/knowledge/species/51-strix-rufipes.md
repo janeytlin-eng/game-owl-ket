@@ -28,3 +28,11 @@
 - SHA-256: `f96d09a9e2e617683d68067b540dc357c2f4a18fb8c98f1371b70fe89495e169`
 - Visual review: exactly two adults and one chick; title exact; adult dark eyes, rusty facial discs, white brows/lores, barred underparts and feathered rufous legs passed; chick remained low and supported, off-white down dominant, with only short soft feather buds and no mature remiges or long tail. No edit required.
 - Scientific status: concept archived and technically verified; exact chick age, continuous feather sequence, sex-specific measurements and subspecies variation remain pending.
+
+
+## 2026-10-26 v2 evidence increment
+
+- Added primary `RLO-ESCOBAR-2022` (JRR 56(1):106–110): accessible full article reports 30-day incubation and a 34-day nestling period at one successful central-Chile ground nest; other documented nest sites include a *Nothofagus* snag and tree cavities. Small sample limits generalization.
+- Added `RLO-FIGUEROA-2017` (*The Owls of Chile*): a labelled rehabilitation photograph identifies a juvenile as approximately one month old. It supports age/plumage direction only, not wild behavior or exact nest setting.
+- v2 selects an approximately one-month warm-buff juvenile with faint dusky barring and developing but shorter/softer wings, standing low at a natural *Nothofagus* cavity rim. The 34-day nestling period supports a non-flying portrayal near this age; no exact flight claim is made.
+- Adult female remains only subtly fuller because accessible sources give direction but not a cross-checked standing-height ratio.

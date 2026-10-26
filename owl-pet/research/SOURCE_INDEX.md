@@ -1,3 +1,13 @@
+## 2026-10-26 #51 *Strix rufipes* v2 evidence increment
+
+| Stable ID | Source | Read scope | Verified value | Limits / design use |
+|---|---|---|---|---|
+| RLO-ESCOBAR-2022 | Escobar, Vukasovic, Tomasevic, Uribe, Venegas, Santander & Estades, [New Nesting Records and Breeding Ecology Observations of Rufous-legged Owls in the Mediterranean Temperate Forest of Central Chile](https://doi.org/10.3356/JRR-20-116), *Journal of Raptor Research* 56(1):106–110 | Full accessible article text read: abstract, pp. 106–109 / methods-results-discussion, 2026-10-26 | Two monitored 2004 nests; incubation 30 d; successful ground nest produced two fledglings after a 34 d nestling period. A prior 2001 nest with a one-week owlet was atop a *Nothofagus glauca* snag; other records include cavities in fire-damaged trees, woodpecker cavities and fungal rot. | Primary, high confidence but small sample. Establishes a 34 d nestling period and flexible substrates; does not specify plumage progression. For v2, a ~1-month bird may remain a supported nestling near the cavity rim, but no flight claim is made. |
+| RLO-FIGUEROA-2017 | Figueroa et al., [The Owls of Chile](https://doi.org/10.1007/978-3-319-57108-9_7), in *Neotropical Owls*, pp. 159–290 | Scholarly review and figure captions read; caption for adult and juvenile *S. rufipes* in rehabilitation, 2026-10-26 | Caption identifies the Chillán juvenile as approximately one month old; review describes the species' knowledge gaps. | Captive-rehabilitation photograph is used only for age/plumage direction, not behavior or nest context. No exact day or flight ability is inferred. |
+| OWL-SRC-0051-A / BirdLife account | Birds of the World citation-bearing synthesis and BirdLife DataZone | Existing verified evidence reused | Adult dark eyes, rusty face, white brows/lores, reddish-brown barred upperparts, buffy-white dark-barred underparts, feathered rufous legs; female-larger direction; current name/range. | No cross-verified sex-specific linear measurements. Female shown only subtly fuller. |
+
+**Design decision:** replace v1's age-unknown off-white chick with an approximately one-month warm-buff juvenile, using the dated Chilean rehabilitation caption for plumage direction and the 34-day primary nestling period for a non-flying, cavity-rim-supported concept. This is a synthesis, not a reconstruction of one photographed wild nest.
+
 ## 2026-10-26 #50 *Strix virgata* v2 evidence increment
 
 | Stable ID | Source | Read scope | Verified value | Limits / design use |

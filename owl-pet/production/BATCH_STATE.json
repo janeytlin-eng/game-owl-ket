@@ -3508,30 +3508,25 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1835+0800-cycle-1",
         "cycle": 1,
-        "heartbeat_at": "2026-10-26T18:36:00+08:00",
-        "expires_at": "2026-10-26T18:51:00+08:00"
+        "heartbeat_at": "2026-10-26T18:37:00+08:00",
+        "expires_at": "2026-10-26T18:52:00+08:00"
       },
       "checkpoint": {
         "cycle": 1,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Strix woodfordii",
         "species_id": 49,
         "version": 2,
         "run_id": "2026-10-26T1835+0800-cycle-1",
-        "at": "2026-10-26T18:36:00+08:00",
+        "at": "2026-10-26T18:37:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1835+0800-cycle-1.md",
         "evidence": {
-          "new_sources": 2,
-          "reused_sources": 3,
-          "corrected_sources": 0,
-          "source_ids": [
-            "AWOO-AVIBASE-2026",
-            "AWOO-ABC-2005",
-            "OWL-SRC-0049-A",
-            "OWL-SRC-0049-B",
-            "OWL-SRC-0049-C"
-          ],
-          "scientifically_verified": false
+          "draft_path": "owl-pet/production/assets/49-strix-woodfordii-v2-draft.png",
+          "git_blob": "b614fcf1ce8b2836f19ade6a8cc553597782bfdf",
+          "size_bytes": 3149643,
+          "sha256": "33d60415f8b6ca55d2722bd95430c25f66bdda695a72b844297775a85ac71484",
+          "dimensions": "1254x1254",
+          "review_result": "REJECT juvenile long layered spotted wing"
         }
       }
     }
@@ -3613,7 +3608,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-26T18:36:00+08:00",
+  "updated_at": "2026-10-26T18:37:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -3622,5 +3617,5 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-10-26T18:36:00+08:00"
+  "last_updated_at": "2026-10-26T18:37:00+08:00"
 }

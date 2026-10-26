@@ -15,3 +15,16 @@ Cornell Birds of the World物种档案的公开索引支持现名、古巴特有
 仍未知：画面个体所属亚种、精确幼龄与比例、幼羽换羽顺序、分性别测量。详见[来源索引](../../research/SOURCE_INDEX.md)。
 
 图：`design/concepts/26-glaucidium-siju-v1.png`。
+
+
+## v2 revision — 2026-10-26
+
+Fresh primary research read Garrido (2002), who examined 152 *Glaucidium siju* specimens. For widespread Cuban adults, the table reports mean male wing 91.0 mm, tail 56.2 mm and weight 57.1 g versus female wing 99.3 mm, tail 61.2 mm and weight 64.7 g. v2 therefore makes the female subtly fuller and slightly longer-tailed, while keeping standing height close.
+
+The paper also warns against collapsing geographic variation: Pico Turquino *turquinensis* is darker gray-brown and much less spotted; Isle of Youth *vittatum* is larger and most spotted. v2 deliberately uses a generic gray-brown species direction and does not assign a race. The same paper supports abandoned woodpecker/natural/palm cavities and behavioral display of the nape eyespots.
+
+No primary juvenile series or continuous feather-development evidence was found. The center bird is therefore only an age-unknown older dependent juvenile: smaller/fluffier, unspotted crown, weak upperpart spotting, short rounded folded wings, short weakly barred tail, subdued eye color and two-foot support. These are conservative design bounds, not an exact age diagnosis.
+
+The first v2 render passed visual review without edit: exactly three birds, correct labels, close adult height, female eyespots, natural cavity and six supported feet. A same-resolution palette PNG was also rechecked before archive. Immutable evidence: commit `701ba25ab3f850a4c34df108415c1aa5f6e9b7d0`, blob `88de832b62363625a645264fd123872ee25cddbf`, SHA-256 `b7b407a34f0d6907acdbcf4461f44f0158882a75143a184cbb3d9207fbfe1fc7`, 650,812 bytes.
+
+New source IDs: CUPO-GARRIDO-2002, CUPO-EBIRD-ID-2025, CUPO-BIRDSCARIBBEAN-2020 and CUPO-CUBA-BIODIVERSITY-2025. Reused: CUPO-BOW-2020 and CUPO-OWLPAGES-PHOTO-2014. Individual race, exact juvenile age/iris/feather sequence and chick-stage proportions remain unknown; `scientifically_verified=false`.

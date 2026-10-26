@@ -3449,3 +3449,21 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Confidence:** high for this observed nest, fledging window and plumage direction; medium for broader species-wide generalization.
 - **Linked records:** `knowledge/species/65-tyto-soumagnei.md`; `design/concepts/65-tyto-soumagnei-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-3.md`
 - **Fact / inference boundary:** field measurements and observations above are facts from one nest; lineup pose, subtle softness and branch placement are design inferences.
+
+
+### GSO-ABSA-2019 — Australian Bird Study Association Sooty Owl profile
+
+- **Stable ID:** `GSO-ABSA-2019`
+- **Title:** Sooty Owl *Tyto tenebricosa tenebricosa* — Bird in the Hand, 2nd ed.
+- **Author / institution:** J.W. Hardy; Australian Bird Study Association; reproduced with BirdLife Australia permission; HANZAB 4 basis
+- **Published:** 2019-03
+- **URL:** https://absa.asn.au/wp-content/uploads/2019/09/Sooty-Owl.pdf
+- **Accessed:** 2026-10-27
+- **Source type:** institutional banding/morphometrics profile
+- **Species / stage:** nominate *T. t. tenebricosa* adults and fledged juveniles
+- **Page:** single-page PDF, lines 10–33
+- **Verified facts:** female wing/tail/tarsus and mass ranges exceed male ranges; juveniles fledge in nearly complete adult-like juvenile plumage with little remaining down and may be darker than adults; females often have lighter facial masks and underparts.
+- **Design support:** show a clearly fuller female without converting mass to a precise standing-height ratio; use a fully feathered darker fledgling with only small residual down tufts rather than a natal chick.
+- **Limitations:** southern nominate subspecies profile; does not provide a day-by-day feather sequence or full nest context.
+- **Confidence:** high for listed measurements and ageing statement within the nominate subspecies.
+- **Linked records:** `knowledge/species/68-tyto-tenebricosa.md`; `design/concepts/68-tyto-tenebricosa-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-4.md`

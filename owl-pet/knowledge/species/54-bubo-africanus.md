@@ -30,3 +30,11 @@
 - SHA-256: `368f9ab52964127d939544e39e3f2ba92eea2f39cb9d5410a5390e20b5470960`
 - Dimensions/size: 1536×1024, 625269 bytes.
 - Scientific status: production/archive verified; scientific calibration remains pending.
+
+## v2 research increment — 2026-10-26
+- Fresh external re-read: SANBI species account and the BDI 2022 account. Both independently support yellow-eyed, ear-tufted, grey-brown adults in open/rocky habitats; BDI explicitly says the sexes are alike in colour and size, while SANBI gives 43–50 cm without a sex-specific standing-size rule.
+- Juvenile stage boundary: BDI places leaving/exploring at about 4–6 weeks; SANBI says chicks stand from three weeks, leave at about six weeks before flight, and at six weeks retain some head/underpart down with well-grown wing feathers and a half-length tail. The design therefore uses a supported, non-flying 4–6-week explorer, not a hatchling and not a fully feathered flyer.
+- Confusion control: retain bright yellow eyes and fine brown barring; avoid the more rufous/orange-eyed, coarsely blotched Cape Eagle-Owl look.
+- Mikkola guide status: the uploaded copy was located, but this run could not extract searchable text or page images for *B. africanus*. No page claim from that guide is treated as verified evidence.
+- Reused stable source IDs: `SEO-SANBI-2026`, `SEO-BDI-2022`, `SEO-OSTRICH-RSD-2008`, `SEO-SABAP1-1997`. New source IDs: 0; corrections: 0.
+- v2 remains production evidence-bounded and scientifically pending; unresolved continuous feather sequence, regional/subspecies variation and precise sex-specific dimensions are preserved as unknowns.

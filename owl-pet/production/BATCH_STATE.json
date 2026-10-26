@@ -4061,20 +4061,20 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "2026-10-27T0728+0800-cycle-2",
-        "heartbeat_at": "2026-10-27T08:00:00.000+08:00",
-        "expires_at": "2026-10-27T08:15:00.000+08:00"
+        "heartbeat_at": "2026-10-27T08:05:00.000+08:00",
+        "expires_at": "2026-10-27T08:20:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Megascops atricapilla",
         "species_id": 133,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-2",
-        "at": "2026-10-27T08:00:00.000+08:00",
+        "at": "2026-10-27T08:05:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-2.md"
       },
-      "last_updated_at": "2026-10-27T08:00:00.000+08:00",
+      "last_updated_at": "2026-10-27T08:05:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
@@ -4083,7 +4083,8 @@
         "2026-10-27T07:50:00.000+08:00: cycle 1 ARCHIVED pending readback; concept and reviewed asset use blob 80e4a67d1d507c8912abbdcc694d498c34e79a31; manifest/status/design indexes updated; lease renewed.",
         "2026-10-27T07:54:00.000+08:00: archive readback detected truncated blob 80e4a67d1d507c8912abbdcc694d498c34e79a31 (786445 bytes vs local 3120335). Re-encoded final at unchanged 1513x1039 with 64-color indexed PNG, actual viewed and passed; exact local Git blob 5f45f249b4a3a70c857ac707f4eee61b83b6adf3, 683823 bytes; three remote image paths replaced; lease renewed.",
         "2026-10-27T07:58:00.000+08:00: cycle 1 #132 Strix davidi v2 fully read back and VERIFIED after archive repair; unique species remains 159/251; next_cycle 2; lease released.",
-        "2026-10-27T08:00:00.000+08:00: cycle 2 STARTED for #133 Megascops atricapilla v2; manifest has v1 only; short lease acquired."
+        "2026-10-27T08:00:00.000+08:00: cycle 2 STARTED for #133 Megascops atricapilla v2; manifest has v1 only; short lease acquired.",
+        "2026-10-27T08:05:00.000+08:00: cycle 2 RESEARCH_READY; 1 new primary taxonomy source and 3 reused species sources; full prompt persisted; juvenile exact age/flight remains unknown; lease renewed."
       ]
     }
   ],

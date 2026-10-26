@@ -22,3 +22,11 @@ Pending. Exact mesoptile age, wing/tail chronology, sex measurements and final c
 - Recheck: exactly three birds; no ear tufts; adults same scale/color direction; juvenile is securely supported at cavity lip with diffuse mesoptile texture and no mature flight-feather layering.
 - Archive: 1536×1024 PNG, 773,316 bytes, SHA-256 `ff6234187379a3d51871e55e40cd289214d154d3c42a03598c0edaeec70a4388`; Git blob `1ef82ac0fe2098889a59fd11c3c5a7c27d16dac9`; commit `c86a06936e854a1d9b3a65755dce6257e89389b9`.
 - Scientific status remains pending because exact age, sex metrics and checklist treatment are unresolved.
+
+
+## 2026-10-26 v2 recovery archive
+- Final image: [41-glaucidium-cobanense-v2.png](../../design/concepts/41-glaucidium-cobanense-v2.png), 1254×1254 sRGB PNG, 3,089,648 bytes.
+- SHA-256: `981eacdf495f5bfd093e4a1a6211c7e6a52c456a51a2916d299c8f09f92200c2`; Git blob: `0ebda51b51b41cab157da93c6586d1a945b11ab6`; archive commit: `48c14c9a88072c37c228837ebe58406f372dc0c2`.
+- Recovery: reused the persisted REVIEWED checkpoint only after the local PNG hash matched the run record; no regeneration.
+- Review result: one targeted edit removed adult-like juvenile wing spots/layered remiges and shortened/softened the wing and tail. Exactly three labeled birds, same-scale adults and natural foot support were rechecked.
+- Scientific status remains pending; exact mesoptile age, continuous feather chronology, sex measurements and checklist treatment are unresolved.

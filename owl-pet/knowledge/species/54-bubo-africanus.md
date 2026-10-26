@@ -38,3 +38,13 @@
 - Mikkola guide status: the uploaded copy was located, but this run could not extract searchable text or page images for *B. africanus*. No page claim from that guide is treated as verified evidence.
 - Reused stable source IDs: `SEO-SANBI-2026`, `SEO-BDI-2022`, `SEO-OSTRICH-RSD-2008`, `SEO-SABAP1-1997`. New source IDs: 0; corrections: 0.
 - v2 remains production evidence-bounded and scientifically pending; unresolved continuous feather sequence, regional/subspecies variation and precise sex-specific dimensions are preserved as unknowns.
+
+## v2 production and review
+- First pass: adult identification, near-equal adult scale, labels, rocky savanna and fully supported juvenile passed; the juvenile folded wing retained too many sharply layered adult-like patterned remiges.
+- Targeted edit: only the juvenile wing/tail was shortened, rounded and softened with more residual pale gray-buff down; adults, environment, text and layout were preserved.
+- Final review: exactly three labeled birds; adult yellow eyes, ear tufts, dark-rimmed pale facial discs and fine barring pass; juvenile is down-dominant, small-tufted, non-flying, short-winged/short-tailed and fully supported.
+- Archive: `owl-pet/design/concepts/54-bubo-africanus-v2.png`
+- Git blob: `9eb433740782e6b8e397c025ec0d1aa9175699c4`
+- SHA-256: `e7a94e20a08c3f7ab8c7a822da7a4e0129a18699460b999ce8860b6c967f740f`
+- Dimensions/size: 1350×900, 733826 bytes.
+- Scientific status: production/archive evidence-bounded; scientific calibration remains pending.

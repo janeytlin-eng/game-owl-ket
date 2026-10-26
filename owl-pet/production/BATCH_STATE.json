@@ -3647,21 +3647,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2233+0800-cycle-4",
         "cycle": 4,
-        "heartbeat_at": "2026-10-26T22:33:00+08:00",
-        "expires_at": "2026-10-26T22:48:00+08:00"
+        "heartbeat_at": "2026-10-26T22:37:00+08:00",
+        "expires_at": "2026-10-26T22:52:00+08:00"
       },
       "checkpoint": {
         "cycle": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Ketupa flavipes",
         "species_id": 60,
         "version": 2,
         "run_id": "2026-10-26T2233+0800-cycle-4",
-        "at": "2026-10-26T22:33:00+08:00",
+        "at": "2026-10-26T22:37:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2233+0800-cycle-4.md",
         "evidence": {
           "start_commit": "8320777150753e384d13fe7c1d47094cda10f98f",
-          "prior_asset": "owl-pet/design/concepts/60-ketupa-flavipes-v1.png"
+          "source_index_commit": "1ccb81ba41657752287e81396ed9e01ceac06318",
+          "species_record_commit": "0b59779526e262d89f6347673d1a6483f1e7cf3c",
+          "run_record_commit": "364573ef0d89bd83ddb202b98aa6c5c0cac646ce",
+          "new_sources": 1,
+          "reused_sources": 4,
+          "corrected_sources": 0,
+          "scientifically_verified": false
         }
       }
     }

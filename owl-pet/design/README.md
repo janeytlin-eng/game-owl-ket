@@ -1161,3 +1161,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Review: first render had long adult-patterned juvenile remiges. One targeted edit produced short high-ending down-covered wing buds; adults, bare distal tarsi/toes, sex-color direction, support and labels were rechecked at original resolution.
 - Limits: captive-to-wild equivalence, exact wing readiness/body geometry and universal sex ratio remain unknown; `scientifically_verified=false`.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-103-tyto-longimembris-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-2.md)
+
+
+## 112 · Abyssinian Owl · *Asio abyssinicus* v2
+- [Original PNG](concepts/112-asio-abyssinicus-v2.png) · 1536×1024 · 3,048,516 bytes · SHA-256 `f1e3894b5c9b83dfc690c5b23d1b59bc1ad712549bf045e48ea0d9dec4554d6a`
+- Revision: adult proportions and separation from *A. otus* are grounded in the 2019 museum/taxonomic analysis; the Bale Mountains tree-platform scene follows a first-hand observation rather than a universal habitat claim.
+- Review: first render passed original-resolution review. Exactly three role-bearing birds are present; adult sex difference is subtle and the single chick remains a compact, mostly concealed white-down mound without invented eyes, bill, feet, wings or tail.
+- Limits: exact chick age/anatomy, quantitative sex ratio, fine feather geometry and habitat generality remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#abo-collar-boesman-2019) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-3.md)

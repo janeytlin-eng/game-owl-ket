@@ -834,3 +834,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added `design/concepts/103-tyto-longimembris-v2.png` and mirrored production asset; preserved v1.
 - Added the NSW government profile and Taiwan primary study with explicit subspecies/stage transfer limits; reused the Australian captive growth study, Mikkola and taxonomy mapping.
 - Shortened the first render’s adult-like juvenile remiges in one targeted edit and rechecked at original resolution. Scientific verification remains false.
+
+
+## 2026-10-27 06:01 +0800 — #112 Abyssinian Owl v2
+- Added `design/concepts/112-asio-abyssinicus-v2.png` and mirrored production asset; preserved v1.
+- Added ABO-COLLAR-BOESMAN-2019 from the actually read full paper and reused the species-specific Bale Mountains nest observation plus adult/field limitations.
+- First render passed original-resolution review; the chick remains a mostly concealed white-down mound, avoiding unsupported eye/bill/limb/wing/tail details or transfer from *A. otus*. Scientific verification remains false.

@@ -1107,3 +1107,10 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 ![#76 Striped Owl v2](concepts/76-asio-clamator-v2.png)
 
 Revision generated and visually reviewed after one juvenile-wing edit. Adults retain brown-cinnamon eyes, black bill/claws, long dark ear tufts, dark-bordered white facial discs, bold vertical streaking and near-equal display height. The approximately five-week brancher has warm yellowish-white/buff body plumage, a defined face and short tufts, a shorter rounded developing wing with diffuse bars, a short tail and two-foot support. A rudimentary grassland ground nest uses straw, leaves and feathers. Exact age, continuous feather sequence, fixed sex ratio and subspecies transfer remain unknown; `scientifically_verified=false`. Sources: `CLA-PONCE-GONZALEZ-2025`, `CLA-OWLPAGES-2020`, `CLA-AOS-2021`, `WHSO-MIKKOLA-2013`. [Run record](../production/runs/2026-10-27T0334+0800-cycle-1.md).
+
+
+### #77 Stygian Owl — *Asio stygius* v2 (2026-10-27)
+
+![#77 Stygian Owl v2](concepts/77-asio-stygius-v2.png)
+
+Revision generated and visually reviewed after one juvenile-wing edit. A 35-day Ecuador field observation supports an older-than-one-month brancher with yellow eyes, black facial disc, small tufts, pale rear-head feathers, scattered residual down, barred belly, developing herringbone chest lines and branch-changing behavior. The final juvenile has a shorter, softer formed wing rather than adult-length crisp remiges; dark yellow-eyed adults share a common branch baseline with only a modestly fuller female. Exact age, flight threshold, subspecies transfer and sex ratio remain unknown; `scientifically_verified=false`. Sources: `STY-CADENA-2018`, `STY-AMARO-2024`, `STY-SPIZAETUS-2018`, `STY-OWLPAGES-2020`, `WHSO-MIKKOLA-2013`. [Run record](../production/runs/2026-10-27T0334+0800-cycle-2.md).

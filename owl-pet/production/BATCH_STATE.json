@@ -3171,20 +3171,25 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Glaucidium perlatum",
-        "species_id": 28,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1130+0800-cycle-5",
+        "heartbeat_at": "2026-10-26T11:30:00+08:00",
+        "expires_at": "2026-10-26T11:45:00+08:00",
+        "species": "Glaucidium capense",
+        "species_id": 29,
         "version": 2,
-        "run_id": "2026-10-26T1116+0800-cycle-4",
-        "at": "2026-10-26T11:29:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1116+0800-cycle-4.md",
-        "image_path": "owl-pet/design/concepts/28-glaucidium-perlatum-v2.png",
-        "commit_sha": "79d5cd78f0799c3a8217e67392b57a11aab6decc",
-        "archive_commit": "949a874e85fe620935b557565142001d5733b0d3",
-        "sha256": "c85f8e82eeb507260719983630803eab8315196af4aeccb95870edaf8f701a02"
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Glaucidium capense",
+        "species_id": 29,
+        "version": 2,
+        "run_id": "2026-10-26T1130+0800-cycle-5",
+        "at": "2026-10-26T11:30:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1130+0800-cycle-5.md"
       }
     }
   ],

@@ -1,3 +1,11 @@
+## 2026-10-26 #39 Glaucidium griseiceps v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| CAPO-EBIRD-ID-2026 | [Central American Pygmy-Owl](https://ebird.org/species/capowl1) | Cornell Lab of Ornithology / eBird | page current; accessed 2026-10-26 | Institutional identification page; full page read | *G. griseiceps* adult identification, habitat and behavior | Very small owl of humid evergreen tropical lowlands; often active by day in canopy and forest edge. The page distinguishes Ferruginous Pygmy-Owl by its more open habitat and pale crown streaks rather than spots. | Adult identification page only; no sex-separated measurements, juvenile age or feather-growth sequence. Used to cross-check compact adult silhouette, spotted crown and humid lowland/forest-edge setting. | [species #39](../knowledge/species/39-glaucidium-griseiceps.md); [v2 run](../production/runs/2026-10-26T1446+0800-cycle-3.md) |
+
+**Reuse / uncertainty boundary.** Re-read the complete accessible record for `SRC-PAPER-039-01` (Ornitología Colombiana 6:92–95): its juvenile photograph/caption supports a mottled head and notably unmarked back for the *G. minutissimum* complex, while the article documents the middle Magdalena Valley record. Reused `SRC-WEB-039-02` and `SRC-WEB-039-03` for range/habitat and adult-photo cross-checks. A Howell & Robbins (1995) species-limits search hit was not readable in this run and is not treated as verified evidence. No source closes exact juvenile age, iris chronology, remige/tail growth or quantified sex difference; v2 therefore depicts an age-unknown older juvenile with short soft wing/tail, plain back and no crisp adult pattern, and remains `scientifically_verified=false`.
+
 ## 2026-10-26 #38 Glaucidium nana v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

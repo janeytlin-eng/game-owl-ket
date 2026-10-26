@@ -24,3 +24,11 @@ See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): TFO-SUN-NEST-1997, TFO-SUN-H
 ## Status
 
 RESEARCH_READY; image generation pending. Scientific acceptance: not passed.
+
+
+## v2 evidence increment — 2026-10-26
+- New primary thesis `TFO-WANG-2013`: Wuling incubation 36–41 d and nestling period 56–57 d; three nests on broken cross-sections of >1 m DBH trees in primary forest.
+- v2 stage: conservative late nestling near the end of the local nestling period, naturally supported on the massive tree cross-section; no flight. Exact feather sequence remains unknown.
+- Reused four existing taxonomy/adult/nest/habitat sources; new 1, reused 4, corrected 0.
+- Prior v1 review found adult-like juvenile white spots/layered remiges; v2 forbids these. Current-run v1 binary retrieval hit the connector cap, so no fresh pixel claim is made.
+- Scientific calibration remains pending.

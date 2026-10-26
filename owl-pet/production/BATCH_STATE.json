@@ -3545,26 +3545,34 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1929+0800-cycle-4",
         "cycle": 4,
-        "heartbeat_at": "2026-10-26T20:47:00+08:00",
-        "expires_at": "2026-10-26T21:02:00+08:00"
+        "heartbeat_at": "2026-10-26T20:51:00+08:00",
+        "expires_at": "2026-10-26T21:06:00+08:00"
       },
       "checkpoint": {
         "cycle": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix hylophila",
         "species_id": 52,
         "version": 2,
         "run_id": "2026-10-26T1929+0800-cycle-4",
-        "at": "2026-10-26T20:47:00+08:00",
+        "at": "2026-10-26T20:51:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1929+0800-cycle-4.md",
         "evidence": {
-          "prior_image": "owl-pet/design/concepts/52-strix-hylophila-v1.png",
-          "prior_archive_commit": "d1affca028cae840ea098d82302fcb46da1b2e12",
-          "prior_git_blob": "768364d447d4ca8e268bd370402762588f1ee754",
-          "action": "REVISION",
-          "unique_species_increment": 0,
-          "resumed_after_expired_lease": true,
-          "previous_expiry": "2026-10-26T19:44:00+08:00"
+          "source_ids": [
+            "OWL-SRC-0052-A",
+            "OWL-SRC-0052-B",
+            "OWL-SRC-0052-C"
+          ],
+          "new_source_ids": [],
+          "species_record_commit": "bf8faf0c90113423d58a2db5cc1eeffaeb894229",
+          "research_commit": "a6d0e97cd1a4f0fc0e8d273b0da4f3aba1c8c069",
+          "mikkola_status": "Library copy located; page/text unavailable; not used as verified page evidence",
+          "prompt_saved": true,
+          "unknowns": [
+            "exact juvenile feather sequence",
+            "individual age",
+            "quantified sex-size ratio"
+          ]
         }
       }
     }
@@ -3655,5 +3663,5 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-10-26T20:47:00+08:00"
+  "last_updated_at": "2026-10-26T20:51:00+08:00"
 }

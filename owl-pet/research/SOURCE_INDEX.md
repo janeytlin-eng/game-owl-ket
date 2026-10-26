@@ -1,3 +1,13 @@
+## 2026-10-26 #27 Glaucidium passerinum v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision |
+|---|---|---|---|---|---|---|---|
+| EUPO-PACENOVSKY-SOTNAR-2010 | [Notes on the reproduction, breeding biology and ethology of the Eurasian pygmy owl](https://doi.org/10.2478/v10262-012-0046-y) | Samuel Pačenovský & Kornel Šotnár; Slovak Raptor Journal 4:49–81 | 2010; accessed 2026-10-26 | Peer-reviewed breeding-ecology field study | *G. passerinum* nestlings and post-fledging families | Study evaluates 78 confirmed breedings; older nestlings are seen at cavity entrances and fledging can span several days. One family was followed for 27 days after fledging: young used dense beeches/ashes, changed trees, still begged, and made unsuccessful hunting attempts on day 22. Authors explicitly warn that accidental fledgling finds cannot be assigned precise ages. | Supports a supported, dependent recent fledgling in dense cover with no confident exact day. Does not provide continuous feather measurements, iris chronology or a single universal plumage. Confidence: high. |
+| EUPO-SOVADINOVA-2024 | [Comparison of three primer pairs for molecular sex determination in Eurasian pygmy owls](https://doi.org/10.1038/s41598-024-65157-3) | Stehlíková Sovadinová et al.; Scientific Reports 14:16397 | 2024; accessed 2026-10-26 | Open-access primary molecular study | 242 juveniles and 9 adults of *G. passerinum* | Abstract and methods state most nestlings lack sex-related external signs; the study used molecular sex determination and found CHD1F/CHD1R reliable. | Directly forbids assigning male/female external juvenile pattern. Does not describe plumage development or adult sex proportions. Confidence: high. |
+| EUPO-LUNDBERG-1986 | [Adaptive advantages of reversed sexual size dimorphism in European owls](https://www.jstor.org/stable/3676862) | Arne Lundberg | 1986; accessed 2026-10-26 | Peer-reviewed comparative study | Adult European owls | Searchable study table reports mean wing length about 97 mm for males and 105.5 mm for females in *G. passerinum*, confirming moderate reversed dimorphism. | Only the relevant table/summary was accessible this run; used to bound a subtle female size increase, not exact standing-height scaling. Confidence: medium-high. |
+
+Reused: EUPO-ADW-2018 and EUPO-BARONI-2020. Juvenile exact age, iris change and wing/tail growth remain unknown.
+
 ## 2026-10-26 #26 Glaucidium siju v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision |

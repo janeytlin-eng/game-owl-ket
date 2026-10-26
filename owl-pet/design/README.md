@@ -1153,3 +1153,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Review: the first render’s juvenile had long adult-like side remiges. One targeted edit produced short rounded down-covered developing wings; exactly three labeled owls, adult diagnostics, near-equal adult height, juvenile belly/two-foot support and all text were rechecked at original resolution.
 - Limits: exact juvenile age/flight threshold, sexed linear dimensions, universal nest choice and precise toe geometry remain unknown; `scientifically_verified=false`.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-102-strix-nigrolineata-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-1.md)
+
+
+## 103 · Eastern Grass Owl · *Tyto longimembris* v2
+- [Original PNG](concepts/103-tyto-longimembris-v2.png) · 1536×1024 · 2,882,053 bytes · SHA-256 `de6471aff936cf0b592ea952c34d6ff293b0bcc0da83f5d8cb899f5d944268ee`
+- Revision: nominate Australian adult/ground habitat direction; 55-day juvenile is explicitly a captive-reference mesoptile, not a wild-age or flight claim.
+- Review: first render had long adult-patterned juvenile remiges. One targeted edit produced short high-ending down-covered wing buds; adults, bare distal tarsi/toes, sex-color direction, support and labels were rechecked at original resolution.
+- Limits: captive-to-wild equivalence, exact wing readiness/body geometry and universal sex ratio remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-103-tyto-longimembris-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-2.md)

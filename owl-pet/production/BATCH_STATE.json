@@ -3466,28 +3466,25 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1751+0800-cycle-6",
         "cycle": 6,
-        "heartbeat_at": "2026-10-26T17:51:16+08:00",
-        "expires_at": "2026-10-26T18:06:16+08:00"
+        "heartbeat_at": "2026-10-26T17:53:47+08:00",
+        "expires_at": "2026-10-26T18:08:47+08:00"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Strix nivicolum",
         "species_id": 48,
         "version": 2,
         "run_id": "2026-10-26T1751+0800-cycle-6",
-        "at": "2026-10-26T17:51:16+08:00",
+        "at": "2026-10-26T17:53:47+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1751+0800-cycle-6.md",
         "evidence": {
-          "source_ids": [
-            "HIML-LEE-2025",
-            "HIML-EBIRD-2026",
-            "HIML-AVIBASE-2026",
-            "HIML-MIKKOLA-2013"
-          ],
-          "new_sources": 3,
-          "reused_sources": 1,
-          "prompt_persisted": true
+          "draft_path": "owl-pet/production/assets/48-strix-nivicolum-v2-draft.png",
+          "draft_blob": "a7e1a2a006831284e15156d907c92a5559f16697",
+          "draft_size_bytes": 3157149,
+          "draft_sha256": "36f46d6bbad87a8ea5f03c8df3f03b64bc67bb9a9c4089cd4adfc4d6149e7b6d",
+          "dimensions": "1254x1254",
+          "imagegen_calls": 1
         }
       }
     }

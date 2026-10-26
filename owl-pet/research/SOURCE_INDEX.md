@@ -3430,3 +3430,22 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Confidence:** medium-high for adult identification and sex mass direction; medium for generalized habitat preference.
 - **Linked records:** `knowledge/species/64-tyto-glaucops.md`; `design/concepts/64-tyto-glaucops-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-2.md`
 - **Fact / inference boundary:** adult traits and relative mass are source facts; visual body-volume differences and habitat staging are conservative design inferences.
+
+
+### MRO-THORSTROM-NEST-1996 — First nesting record of Madagascar Red Owl
+
+- **Stable ID:** `MRO-THORSTROM-NEST-1996`
+- **Title:** Preliminary study and first nesting record of the Madagascar Red Owl, *Tyto soumagnei*
+- **Author / institution:** Russell Thorstrom and Karen E. Rabarisoa; The Peregrine Fund / WWF Madagascar Project
+- **Year:** 1996 (Working Group on Birds in the Madagascar Region Newsletter 6(1):9–12)
+- **URL:** https://assets.peregrinefund.org/docs/pdf/research-library/1997/1997-Thorstrom-red-owl-nest.pdf
+- **Accessed:** 2026-10-27
+- **Source type:** primary field research / first documented nest; six-page scanned PDF
+- **Species / life stage:** *Tyto soumagnei* adults and two young, nest to fledging
+- **Pages / figures read:** newsletter pp. 9–11 (PDF pp. 1–3), especially p. 9 nest setting and age estimate, p. 10–11 fledging account; Fig. 1 study habitat; Fig. 2 adult at cavity; Fig. 3 wing of fledged young
+- **Verified facts:** nest was a natural cavity in a partly dead *Weinmannia* about 23 m high in primary humid rainforest near Ambanizana on the Masoala Peninsula; two young were estimated 6–7 weeks old when found; both left the cavity and fledged at about 10–11 weeks; fledged young were fully plumaged and generally more brown than adults, with reddish-orange overcast on facial and body feathers; an adult foraging male was smaller than the female by measurements reported in the paper.
+- **Design support:** a recently fledged, naturally supported juvenile can be shown fully feathered yet browner/softer than adults; use a high humid-forest cavity in an old partly dead tree and avoid a ground chick or invented natal-down stage.
+- **Limitations / conflicts:** single first-known nest and two young; findings should not be generalized to every population. Exact daily feather sequence between 6 and 11 weeks was not documented. Scanned copy was read visually, so the index preserves concise facts rather than OCR-derived quotations.
+- **Confidence:** high for this observed nest, fledging window and plumage direction; medium for broader species-wide generalization.
+- **Linked records:** `knowledge/species/65-tyto-soumagnei.md`; `design/concepts/65-tyto-soumagnei-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-3.md`
+- **Fact / inference boundary:** field measurements and observations above are facts from one nest; lineup pose, subtle softness and branch placement are design inferences.

@@ -1,3 +1,12 @@
+## 2026-10-26 #41 *Glaucidium cobanense* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/41-glaucidium-cobanense-v2.png](design/concepts/41-glaucidium-cobanense-v2.png)
+- Archive commit/blob: `48c14c9a88072c37c228837ebe58406f372dc0c2` / `0ebda51b51b41cab157da93c6586d1a945b11ab6`; PNG 3,089,648 bytes; SHA-256 `981eacdf495f5bfd093e4a1a6211c7e6a52c456a51a2916d299c8f09f92200c2`.
+- Research: 1 new indexed source and 3 reused; the AOS proposal pp.4–7 and accessible 2011 vocal paper were read, while juvenile chronology remains unsupported.
+- Review: the first render's adult-like juvenile wing spots/layered remiges were removed in one targeted edit; final has exactly three labeled, supported birds, same-scale adults and an evidence-bounded mesoptile juvenile.
+- Scientific status: pending; exact age, remige/tail chronology, sex measurements and checklist treatment remain unknown.
+
 ## 2026-10-26 #40 *Glaucidium nubicola* v2
 
 - Result: revised and archived; unique species remains 159/251.

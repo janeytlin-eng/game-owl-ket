@@ -47,3 +47,13 @@ Accessed: 2026-10-14
 - Mikkola guide status: the uploaded copy was already located during this batch, but searchable text/page extraction was unavailable; no page claim is asserted.
 - Reused stable source IDs: `VEO-PF-2026`, `VEO-CZBG-2026`, `VEO-TAX-2026`. New source IDs: 0; corrections: 0.
 - Unknowns retained: exact sex-specific measurement ratio and continuous juvenile feather sequence. Scientific calibration remains pending.
+
+## v2 production and review
+- First pass: adult diagnostic traits, pink eyelids, labels, dry savanna/riverine tree, stick nest and secure branch support passed; the juvenile retained long, sharply layered white-spotted adult-like flight feathers.
+- Targeted edit: replaced only the juvenile wing with a shorter, rounder, down-softened developing wing without adult spot rows; adults, text, nest, branch and layout were preserved.
+- Final review: exactly three labeled birds; adult dark eyes, bright pink eyelids, small ear tufts, pale vermiculation and near-equal scale pass; juvenile pink lids, weak tufts, down-softened body, short plain wing/tail, non-flying stance and two-foot branch grip pass.
+- Archive: `owl-pet/design/concepts/55-bubo-lacteus-v2.png`
+- Git blob: `04bb34603c5e4fa46e66ac7765430fd54df5a1d9`
+- SHA-256: `32814b6b1d6372050f549ca4ca2a32481619778db7f9bc83c0f4ce31bc9af46a`
+- Dimensions/size: 1350×900, 697301 bytes.
+- Scientific status: production/archive evidence-bounded; scientific calibration remains pending.

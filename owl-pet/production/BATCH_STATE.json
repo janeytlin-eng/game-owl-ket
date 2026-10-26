@@ -3616,33 +3616,39 @@
           "archive_commit": "a769b618536a1561073217f716c7f28b4c3dd890",
           "image_commit": "a769b618536a1561073217f716c7f28b4c3dd890",
           "run_record": "owl-pet/production/runs/2026-10-26T2211+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ketupa coromanda",
+          "species_id": 58,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ddd91267c8eba946123430b73d9f82936a867637",
+          "archive_commit": "f24248888e041cf850f71b51ee01fd7e03a3aa72",
+          "image_commit": "f24248888e041cf850f71b51ee01fd7e03a3aa72",
+          "run_record": "owl-pet/production/runs/2026-10-26T2225+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T2225+0800-cycle-2",
-        "cycle": 2,
-        "heartbeat_at": "2026-10-26T22:15:00+08:00",
-        "expires_at": "2026-10-26T22:30:00+08:00"
-      },
+      "next_cycle": 3,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 2,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Ketupa coromanda",
         "species_id": 58,
         "version": 2,
         "run_id": "2026-10-26T2225+0800-cycle-2",
-        "at": "2026-10-26T22:15:00+08:00",
+        "at": "2026-10-26T22:16:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2225+0800-cycle-2.md",
         "evidence": {
-          "review_checkpoint_commit": "f463a85d501dbb0a8dec9d165610a1bfe2fb611e",
+          "verification_commit": "ddd91267c8eba946123430b73d9f82936a867637",
           "archive_commit": "f24248888e041cf850f71b51ee01fd7e03a3aa72",
           "git_blob": "c7edc3b93add95467c834fbb39fd0f0ca99c38d3",
           "sha256": "0d2bbd8561c26e778ce1d2f681a058c32f90a48b4fdebe08fe57fc07ea6f6a7a",
-          "size_bytes": 667562,
           "dimensions": "1350x900",
-          "remote_readback": "byte-identical",
+          "size_bytes": 667562,
+          "remote_readback": true,
           "scientifically_verified": false
         }
       }

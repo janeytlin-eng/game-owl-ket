@@ -23,3 +23,16 @@ Create a polished scientific-character concept sheet in the repository’s estab
 ## Open uncertainties
 
 Exact juvenile age, iris/bill/limb morphology, feather emergence, fledging timing, quantitative sexual size ratio, and fine individual plumage geometry remain unknown. Concept image cannot be marked scientifically verified.
+
+
+## Actual visual review — 2026-10-27T05:59:00.000+08:00
+
+- Viewed with the image viewer at original 1536×1024 resolution after generation.
+- Composition: exactly three role-bearing individuals; adult male left on a broad branch, adult female right at the trunk-side twig platform, one compact white-down chick low in the nest.
+- Identification: both adults show centered dark tufts, tawny dark-rimmed facial discs, orange-yellow eyes, black bills, robust dark-golden/buff streaked and barred plumage. Female is only subtly fuller.
+- Development: chick is deliberately a mostly featureless white natal-down mound. No visible eyes, bill, feet, wing, remiges or tail; therefore the image does not invent unavailable details or import *A. otus* development.
+- Action/support: male feet grip a real branch; female body is settled on the platform; chick is cradled by twigs and adjacent to the female. No unsupported balancing/flying action.
+- Nest/environment: old twig platform contacts a live tree trunk in a highland forest context consistent with the Bale Mountains observation; it is not claimed as a universal habitat dependency.
+- Text: title and all three labels are readable and correctly assigned.
+- Result: PASS, no edit warranted. Avoiding an edit here is evidence-bound restraint, not a scientific pass.
+- Unknowns retained: exact chick age/anatomy, fine feather geometry, sex ratio and individual variation. `scientifically_verified=false`.

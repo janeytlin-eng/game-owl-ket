@@ -3455,25 +3455,28 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1743+0800-cycle-5",
         "cycle": 5,
-        "heartbeat_at": "2026-10-26T17:47:26+08:00",
-        "expires_at": "2026-10-26T18:02:26+08:00"
+        "heartbeat_at": "2026-10-26T17:49:02+08:00",
+        "expires_at": "2026-10-26T18:04:02+08:00"
       },
       "checkpoint": {
         "cycle": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Strix leptogrammica",
         "species_id": 47,
         "version": 2,
         "run_id": "2026-10-26T1743+0800-cycle-5",
-        "at": "2026-10-26T17:47:26+08:00",
+        "at": "2026-10-26T17:49:02+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1743+0800-cycle-5.md",
         "evidence": {
-          "draft_path": "owl-pet/production/assets/47-strix-leptogrammica-v2-draft.png",
-          "draft_blob": "2fab83c77909b22a5b72870591a71d5bfc26b94a",
-          "draft_size_bytes": 3046416,
-          "draft_sha256": "f4324c0f3ad2a8ef8c0ac7299cc0b2d223e3ab910d05daf1735c296ac867c972",
+          "final_path": "owl-pet/design/concepts/47-strix-leptogrammica-v2.png",
+          "git_blob": "1c4b66aae806329cd8406153df49f56e38ec1496",
+          "size_bytes": 2850558,
+          "sha256": "643ba79e2f3886f3ecc5538051bcda04c4b2685df391addb72c4c961333d6a9e",
           "dimensions": "1254x1254",
-          "imagegen_calls": 1
+          "imagegen_calls": 2,
+          "edits": 1,
+          "visual_review": "pass",
+          "scientifically_verified": false
         }
       }
     }

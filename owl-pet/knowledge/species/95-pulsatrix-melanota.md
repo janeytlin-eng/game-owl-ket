@@ -23,3 +23,7 @@ FullPNG2937661bytes SHA25631faa5a4d922adc0aa2cd29e58d73a6ef32747dca6ca53e1635464
 
 [Original](../../design/concepts/95-pulsatrix-melanota-v1.png)
 [Run](../../production/runs/2026-10-15T2034+0800-cycle-6.md)
+
+
+## 2026-10-27 v2 research-ready
+New current Cornell Birds of the World abstract (MEL-BOW-2026) explicitly describes the juvenile as mostly pale buff with cinnamon below, brown wings and a chocolate-brown facial disk; no exact age or flight threshold is supplied. A newly indexed, actually read 2018 Colombian field note (MEL-RODRIGUEZ-2018) corroborates adult abdomen barring, brown-white collar, pronounced pale brows and humid foothill/gallery-forest use, but contains adults only. Reused primary nesting record MEL-RIVAS2022 keeps the scene to one documented exposed tree-fork example rather than an invented cavity. New2/reused2; exact age, wing dimensions, sex ratio and universal nest choice remain unknown; scientifically_verified=false.

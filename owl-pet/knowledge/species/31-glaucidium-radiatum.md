@@ -33,3 +33,14 @@
 
 - [31-glaucidium-radiatum-v1.png](../../design/concepts/31-glaucidium-radiatum-v1.png)
 - SHA-256: `42657710e99aa65e6e0f7d566d17be225d5dfc8d3941ca81585407abe680829e`
+
+
+## v2 修订（2026-10-26）
+
+本轮实际重读 Peregrine Fund、Owl Pages、U.S. Fish & Wildlife Service 和 Cornell/eBird 页面；新增3条来源索引、复用2条。成年证据边界收敛为圆头无耳簇、柠檬黄眼、绿黄至黄灰喙、白色颏/短眉/髭纹、密集浅赭或锈色细横斑、短横斑尾、羽被跗跖，并明确不画后颈假眼斑。没有找到可直接转绘的稳定雌雄可视差或分性别线性测量，因此雌鸟仅略丰满，不做夸张站高差。
+
+v1原分辨率复查发现中央幼鸟翼面带明显成鸟式白斑及层叠飞羽。v2首稿仍在幼鸟观察者左侧残留一簇长深色飞羽，未通过检查；定向编辑只替换该翼区为灰白绒羽和短圆翼芽。最终重新查看确认幼鸟睁眼、低伏于天然树洞，腹部和双足有支撑；无长层叠飞羽、成年翼斑、成熟横斑尾或飞行动作。
+
+最终图：`design/concepts/31-glaucidium-radiatum-v2.png`；1536×1024，727,478 bytes，SHA-256 `58aca15f0ff32912b6193661acde4bb395f34c9110b90c43680dfe379040bb7e`，Git blob `85f8a77a51f3fe642f2723f54d957037b39b8eda`，图像提交 `12827b8ab8ac4ae94d4177f20551d2e4ce38e7f0`。
+
+仍未知：幼鸟精确日龄、虹膜变化、连续羽序、飞行能力、量化雌雄尺寸差、亚种差异与细羽图。因此 `scientifically_verified=false`，不继承用户确认。运行记录：`production/runs/2026-10-26T1128+0800-cycle-1.md`。

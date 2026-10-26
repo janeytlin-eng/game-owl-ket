@@ -3553,25 +3553,26 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T2103+0800-cycle-5",
+        "cycle": 5,
+        "heartbeat_at": "2026-10-26T21:03:00+08:00",
+        "expires_at": "2026-10-26T21:18:00+08:00"
+      },
       "checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Strix hylophila",
-        "species_id": 52,
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Bubo africanus",
+        "species_id": 54,
         "version": 2,
-        "run_id": "2026-10-26T1929+0800-cycle-4",
-        "at": "2026-10-26T21:02:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1929+0800-cycle-4.md",
+        "run_id": "2026-10-26T2103+0800-cycle-5",
+        "at": "2026-10-26T21:03:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T2103+0800-cycle-5.md",
         "evidence": {
-          "verification_commit": "0515cf857249647b1dc441dff99352ccb4b9a239",
-          "archive_commit": "e1af257bff72a89176c4990b77e3ca517377a4ff",
-          "image_blob": "3cbc698bd929dd05fb41b73aed038f0445d334d0",
-          "bytes": 722261,
-          "sha256": "311759bf7845e1ee7857d7fbc1dc74016c2d50bd85e021a871baae29b43c5b9e",
-          "remote_local_base64_exact_match": true,
-          "scientifically_verified": false,
-          "unique_species_increment": 0
+          "start_commit": "809e36ff49eb692046f313f28e7c663c5cb33d33",
+          "prior_asset": "owl-pet/design/concepts/54-bubo-africanus-v1.png",
+          "duplicate_53_skipped": true
         }
       }
     }
@@ -3661,8 +3662,14 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-26T21:02:00+08:00",
+  "active_lease": {
+    "owner": "scheduled-production",
+    "run_id": "2026-10-26T2103+0800-cycle-5",
+    "cycle": 5,
+    "heartbeat_at": "2026-10-26T21:03:00+08:00",
+    "expires_at": "2026-10-26T21:18:00+08:00"
+  },
+  "last_updated_at": "2026-10-26T21:03:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5."
   ]

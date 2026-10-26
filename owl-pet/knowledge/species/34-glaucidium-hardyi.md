@@ -21,3 +21,12 @@
 ## 来源
 
 见 [SOURCE_INDEX](../../research/SOURCE_INDEX.md)：`APOW-MIKKOLA-2013`、`APOW-DEVILLE-2012`、`APOW-COMMONS-2013`。
+
+
+## v2 revision — 2026-10-26
+
+- Evidence increment: new `APOW-MACAULAY-2026`; reused `APOW-MIKKOLA-2013`, `APOW-DEVILLE-2012`, and `APOW-COMMONS-2013`.
+- Change: 3:2 standardized sheet; male turned rearward to reveal paired nape false eyes; age-unknown older juvenile retains plain crown, weaker diffuse ventral streaks, softer wings and no mature-tail claim.
+- Review passed at original resolution without edit: exactly three birds, correct labels/title, adult common traits, near-equal adult scale and all supports visible.
+- Unknown: exact juvenile age, continuous feather sequence, flight ability and sex-specific measurements; not a scientific pass.
+- [Original PNG](../../design/concepts/34-glaucidium-hardyi-v2.png) · [run](../../production/runs/2026-10-26T1229+0800-cycle-4.md)

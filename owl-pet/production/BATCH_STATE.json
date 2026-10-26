@@ -3466,20 +3466,28 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1751+0800-cycle-6",
         "cycle": 6,
-        "heartbeat_at": "2026-10-26T17:50:42+08:00",
-        "expires_at": "2026-10-26T18:05:42+08:00"
+        "heartbeat_at": "2026-10-26T17:51:16+08:00",
+        "expires_at": "2026-10-26T18:06:16+08:00"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix nivicolum",
         "species_id": 48,
         "version": 2,
         "run_id": "2026-10-26T1751+0800-cycle-6",
-        "at": "2026-10-26T17:50:42+08:00",
+        "at": "2026-10-26T17:51:16+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1751+0800-cycle-6.md",
         "evidence": {
-          "previous_cycle_verification": "897b97709bcc139b3fe47715870101e17e35f844"
+          "source_ids": [
+            "HIML-LEE-2025",
+            "HIML-EBIRD-2026",
+            "HIML-AVIBASE-2026",
+            "HIML-MIKKOLA-2013"
+          ],
+          "new_sources": 3,
+          "reused_sources": 1,
+          "prompt_persisted": true
         }
       }
     }

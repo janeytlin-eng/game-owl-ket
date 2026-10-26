@@ -25,3 +25,20 @@
 - Remaining unknowns: exact juvenile age, continuous feather sequence, subspecies and sex-specific linear measurements.
 
 - Archive repair: initial long Base64 transfer was detected as truncated before verification; superseded by a 1536×1024 128-color indexed PNG whose remote Git blob exactly matches local `git hash-object` `cce6bd72894d0be748dcab20ca1c0033365d8568`.
+
+
+## v2 evidence-bounded revision · 2026-10-26
+
+Newly read: HIML-LEE-2025 full text (one Korean nest box, two chicks fledged), HIML-EBIRD-2026 adult/habitat identification, and HIML-AVIBASE-2026 current/old-name mapping and range. Reused HIML-MIKKOLA-2013. None supplies a juvenile age or continuous feather sequence, so the v2 juvenile remains age-unknown, very white, short-winged and naturally supported.
+
+### Complete imagegen prompt
+
+```
+Create a polished 1:1 storybook-naturalist soft-3D owl-pet plate for #48 HIMALAYAN OWL, scientific subtitle Strix nivicolum, exactly three full-body owls: ADULT MALE left, ADULT FEMALE center, JUVENILE · AGE UNKNOWN right. Montane oak-conifer forest with rocky wooded ravine at cool dawn; every bird visibly supported on natural mossy branches/cavity ledges.
+Adults: medium, round untufted heads; deep black eyes bracketed by bright white arcs; gray-brown morph; mottled dark crown/back; two restrained pale wing rows, broadly banded wings/tails; pale underparts with heavy fine dark longitudinal streaks; feathered toes. Female only subtly fuller/slightly larger, not taller. Juvenile: evidence-bounded very white fluffy young, securely low/perched with both feet supported; soft white/cream mesoptile, faint gray-brown diffuse bars, less defined face, short rounded soft developing wings and short concealed tail; no adult spot rows or long layered remiges; do not assign exact age or flight ability.
+Text exactly: "#48 HIMALAYAN OWL"; "Strix nivicolum"; labels "ADULT MALE", "ADULT FEMALE", "JUVENILE · AGE UNKNOWN".
+Preserve realistic anatomy, exactly three birds, no ear tufts, black eyes, no yellow eyes, no bright yellow bill, no exaggerated sex size, no floating feet, no extra animals, no watermark.
+```
+
+### Stage
+RESEARCH_READY; image not yet generated.

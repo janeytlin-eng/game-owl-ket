@@ -1,3 +1,13 @@
+## 2026-10-26 #48 *Strix nivicolum* v2 evidence increment
+
+| Stable ID | Source | Read scope | Verified value | Limits / design use |
+|---|---|---|---|---|
+| HIML-LEE-2025 | Sang-Yeon Lee, [Nest Box Utilization by the Himalayan Owl and Its Implications for Conservation Planning in South Korea](https://doi.org/10.22920/PNIE.2025.6.3.143), PNIE 6(3):143–147 | Open-access full text and Fig. 2 captions read | First confirmed South Korean nest-box breeding; one pair produced and fledged two chicks; Korean *ma* adult direction grayish- to light reddish-brown. | One nest box/case; no juvenile age or feather sequence. Supports successful fledging and cavity use only, not a drawable age clock. |
+| HIML-EBIRD-2026 | Cornell Lab/eBird, [Himalayan Owl](https://ebird.org/species/himowl1) | Identification section read | Medium brownish montane-forest owl, deep black eyes with bright white arcs and finely patterned underparts. | No sex measures or juvenile chronology; adult/habitat cross-check only. |
+| HIML-AVIBASE-2026 | Avibase, [*Strix nivicolum*](https://avibase.bsc-eoc.org/species.jsp?avibaseid=6EC647125826D9EB) | Classification, original description, range and current-authority mappings read | Current *Strix nivicolum*, protonym *Syrnium nivicolum*, type locality Himalaya/Nepal; foothill-montane conifer/oak forest and rocky forested ravines; documents historical *nivicoloa/nivicola* usage across lists. | Taxonomy/range only; no plumage development. |
+
+Reused HIML-MIKKOLA-2013, printed pp.329–330 / PDF pp.331–332, for slightly larger female, adult gray/rufous morphs and the photographed very-white young. Exact juvenile age, wing growth and locomotor ability remain unknown; v2 uses an age-unknown supported white mesoptile bird and remains scientifically unverified.
+
 ## 2026-10-26 #47 *Strix leptogrammica* v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

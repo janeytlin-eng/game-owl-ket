@@ -900,3 +900,13 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 
 
 - `35-glaucidium-jardinii-v2.png` — #35 *Glaucidium jardinii* v2 revision; one targeted edit removed adult-like white wing spots from the age-unknown middle juvenile and softened/shortened its wing. Adult male nape false eyes, adult spotted crowns, white throat/chest, near-equal adult scale, three labels and natural supports were reviewed at original resolution. Exact age, continuous feather sequence and flight ability remain unknown; scientifically verified: no. Image commit `930c6054adc72a781ef676d586667bbd89c5193d`; [run](../production/runs/2026-10-26T1245+0800-cycle-5.md).
+
+
+## #36 Yungas Pygmy-Owl v2 — 2026-10-26
+
+- Original: [36-glaucidium-bolivianum-v2.png](concepts/36-glaucidium-bolivianum-v2.png)
+- Taxon: *Glaucidium bolivianum*
+- Unit: adult male, adult female and one age-unknown older juvenile.
+- Review: one targeted edit removed crisp adult-like juvenile wing spots and shortened/softened the folded wing; second original-resolution inspection passed.
+- Science: concept reviewed, not scientifically verified; juvenile age/sequence, flight ability, nape pattern and sex-specific measurements remain unknown.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-36-glaucidium-bolivianum-v2-evidence-increment) · [run record](../production/runs/2026-10-26T1341+0800-cycle-6.md)

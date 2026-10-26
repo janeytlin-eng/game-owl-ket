@@ -3569,26 +3569,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2156+0800-cycle-6",
         "cycle": 6,
-        "heartbeat_at": "2026-10-26T22:02:00+08:00",
-        "expires_at": "2026-10-26T22:17:00+08:00"
+        "heartbeat_at": "2026-10-26T22:05:00+08:00",
+        "expires_at": "2026-10-26T22:20:00+08:00"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 2,
         "run_id": "2026-10-26T2156+0800-cycle-6",
-        "at": "2026-10-26T22:02:00+08:00",
+        "at": "2026-10-26T22:05:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2156+0800-cycle-6.md",
         "evidence": {
           "research_commit": "4dcc5d591fbf6fee4f2af13cf673c18fe4e71ca4",
-          "candidate_commit": "91c5c055585feeee22b440461ba0398224ac660f",
-          "candidate_blob": "0e2294296804772b1d8759c1dfa9d53c46addf23",
-          "sha256": "b03ddbfde5d7a0fb760ee6f7790259c115eeba6cdebad4813751ba80c2536e7e",
+          "first_candidate_commit": "91c5c055585feeee22b440461ba0398224ac660f",
+          "reviewed_commit": "a4d6381af2e5e25dfd0c5da0843a962ba0705d95",
+          "reviewed_blob": "04bb34603c5e4fa46e66ac7765430fd54df5a1d9",
+          "sha256": "32814b6b1d6372050f549ca4ca2a32481619778db7f9bc83c0f4ce31bc9af46a",
           "dimensions": "1350x900",
-          "size_bytes": 734708,
-          "review_issue": "juvenile folded wing long, sharply layered and white-spotted",
+          "size_bytes": 697301,
+          "edit_applied": "juvenile adult-like spotted remiges replaced by shorter plain down-softened developing wing",
           "remote_readback": true,
           "scientifically_verified": false
         }

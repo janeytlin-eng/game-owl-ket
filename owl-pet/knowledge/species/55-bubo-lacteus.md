@@ -38,3 +38,12 @@ Accessed: 2026-10-14
 - Edit: replaced only the juvenile wing with shorter rounded down-covered developing wings; preserved adult birds, title, nest and branch.
 - Recheck: exact three birds; adult pink eyelids/dark eyes and pale vermiculation visible; female only subtly fuller; juvenile pink eyelids, weak ear tufts, short immature wing, non-flight climbing posture and secure branch contact visible.
 - Remaining uncertainty: exact sex-specific measurement ratio and continuous juvenile feather sequence remain unverified; concept is not marked scientifically approved.
+
+## v2 research increment — 2026-10-26
+- Fresh external read: The Peregrine Fund species account confirms dark brown eyes, bright pink eyelids visible from about one week, creamy dark-edged facial disc, pale grey-brown vermiculated plumage, small ear tufts, feathered legs/partly feathered toes, dry savanna/riverine habitat and reuse of large stick nests/tree hollows.
+- Juvenile stage boundary: the account places leaving the nest at around 60 days, often before reliable flight; the young walks, climbs and explores branches, with first flight commonly about two weeks later. The v2 juvenile is therefore a supported nest-tree climber, not a hatchling and not a flying fledgling.
+- Existing institutional sex evidence remains insufficient for a precise standing ratio. Adults retain shared plumage and near-equal height; only subtle female fullness is allowed.
+- Taxonomy mapping preserved: repository plate remains *Bubo lacteus*; current treatments may use *Ketupa lactea*. This is not counted as another species.
+- Mikkola guide status: the uploaded copy was already located during this batch, but searchable text/page extraction was unavailable; no page claim is asserted.
+- Reused stable source IDs: `VEO-PF-2026`, `VEO-CZBG-2026`, `VEO-TAX-2026`. New source IDs: 0; corrections: 0.
+- Unknowns retained: exact sex-specific measurement ratio and continuous juvenile feather sequence. Scientific calibration remains pending.

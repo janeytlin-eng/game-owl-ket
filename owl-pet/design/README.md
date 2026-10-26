@@ -1,3 +1,10 @@
+## 132 · Père David's Owl · *Strix davidi* v2
+
+- [Original PNG](concepts/132-strix-davidi-v2.png) · 1513×1039 · 3,120,335 bytes · SHA-256 `18933289d94ba27a1ea8ecf4b98b7fbb6c520ae2fbd703c3dd893b8b2a2b57d6`
+- Git blob: `80e4a67d1d507c8912abbdcc694d498c34e79a31`
+- Revision: replaced v1's unsupported dotted/concentric facial halos with the primary field study's radial adult face pattern, restrained excess white spotting, and retained the supported approximately four-week nest-box-opening young. Original-resolution review passed without an edit; science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0728+0800-cycle-1.md)
+
 ## 127 · White-throated Screech-Owl · *Megascops albogularis* v2
 
 - [Original PNG](concepts/127-megascops-albogularis-v2.png) · 1536×1024 · 2,930,939 bytes · SHA-256 `67878e0b899fcb9a063f45b3a1e260a6c1d9b78bfa5037cef3f6fd352bba90bc`

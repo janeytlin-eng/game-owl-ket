@@ -1,3 +1,4 @@
+- 2026-10-27: Revised #132 *Strix davidi* to v2; corrected unsupported concentric adult facial halos to radial pattern, preserved the evidence-bounded approximately four-week box-supported young, and archived source/review evidence. Scientific verification remains pending.
 # 更新记录
 
 ## 2026-10-27 07:12 +08:00

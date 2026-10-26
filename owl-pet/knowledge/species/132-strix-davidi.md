@@ -21,3 +21,11 @@ FullPNG3155885bytes1536x1024 SHA256c34151703cf5ba90b9a95094f8531315a3ec4cd54713f
 - Uploaded guide `DAV-MIK2013-348` reused from earlier actually-read printed pp.348–349/PDF350–351; current page-render attempt failed, so no new figure claim.
 - v1 actual image reviewed: composition/supports are usable, but bright dotted facial halos and excessive adult white spotting conflict with the primary revision. v2 targets those adults while preserving the supported four-week box-opening juvenile.
 - Scientific verification remains false.
+
+## v2 review and archive — 2026-10-27
+
+- Actual v2 PNG viewed: exactly three birds and correct labels. Adult faces now use radial streaking without the v1 dotted concentric halo; dark eyes, yellow bills, restrained shoulder/secondary white drops, dark long central tails and feathered toe tops pass the evidence-boundary check.
+- Approximately four-week juvenile retains gray woolly barred mesoptile, dark mask, dark-brown iris, pinkish lids, pale-yellow bill, short/hidden wing and tail, furry toe tops and wooden-sill support.
+- ImageGen calls 1; edits 0. Final 1513×1039, 3,120,335 bytes, SHA-256 `18933289d94ba27a1ea8ecf4b98b7fbb6c520ae2fbd703c3dd893b8b2a2b57d6`, Git blob `80e4a67d1d507c8912abbdcc694d498c34e79a31`.
+- Scientific verification remains false; exact hatch date, continuous feather sequence, quantified sex-size relation and population variation remain unknown.
+- [Run](../../production/runs/2026-10-27T0728+0800-cycle-1.md) · [v2 original](../../design/concepts/132-strix-davidi-v2.png)

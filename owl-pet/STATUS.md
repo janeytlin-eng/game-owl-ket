@@ -987,3 +987,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-26 #32 *Glaucidium castanotum* v2: REVISION generated, targeted-edited and reviewed. Juvenile crisp adult wing spots/long remiges were replaced by diffuse short soft middle-juvenile wings; adults retain yellow eyes, chestnut mantle and streaked white underparts. Exact age, sequence and quantified sex difference remain unknown, so `scientifically_verified=false`. Unique remains 159/251; manifest entries 343. Image commit `495c1bf335d5e61dbc10d986502980b2ef69aafc`; [run](production/runs/2026-10-26T1153+0800-cycle-2.md).
+
+
+- 2026-10-26 #33 *Taenioptynx brodiei* v2: REVISION generated and original-resolution reviewed without edit. Male rear view now clearly exposes paired nape false eyes; center older immature has stronger vertical head streaking, softer incomplete body pattern, shorter formed wings/tail and full support. Exact age, feather sequence, flight ability, lineage/morph and quantified sex difference remain unknown, so `scientifically_verified=false`. Unique remains 159/251; manifest entries 344. Image commit `081ea81c554da8ed8e8b719498c392f112ba841c`; [run](production/runs/2026-10-26T1215+0800-cycle-3.md).

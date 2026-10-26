@@ -1137,3 +1137,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-26 14:08 +08:00 — revised #36 *Glaucidium bolivianum* v2 archived at [design/concepts/36-glaucidium-bolivianum-v2.png](design/concepts/36-glaucidium-bolivianum-v2.png). One targeted edit removed adult-like juvenile wing spotting; remote blob `f0b16955903b9c3337e800394822abda33eabf18` is 2,791,825 bytes. Unique species remains 159/251; scientific verification remains pending.
+
+
+- 2026-10-26 23:41 +0800 — #61 *Ketupa ketupu* v2 archived: first render passed original-resolution review; exactly three birds, near-equal adults and a down-dominant, short-winged, naturally supported bird's-nest-fern juvenile. Revision only; unique-species total unchanged. Scientific calibration pending. Image: [61-ketupa-ketupu-v2.png](design/concepts/61-ketupa-ketupu-v2.png).

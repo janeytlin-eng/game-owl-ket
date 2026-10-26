@@ -1028,3 +1028,12 @@ Evidence-bounded revision preserves equal-scale adults, near-plain crown/back, s
 [Original PNG](concepts/52-strix-hylophila-v2.png) · [species record](../knowledge/species/52-strix-hylophila.md) · [cycle record](../production/runs/2026-10-26T1929+0800-cycle-4.md)
 
 Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, rusty concentric facial discs, dense rusty/buff/white barring and near-equal adult scale. One targeted edit replaced the recently fledged juvenile's adult-like long spotted remiges with short rounded down-softened wings; both feet remain supported near the cavity. Exact juvenile feather sequence, individual age and quantified sex-size ratio remain unknown, so scientific calibration remains pending.
+
+
+## #61 Sunda Buffy Fish Owl / *Ketupa ketupu* v2
+
+![#61 Sunda Buffy Fish Owl v2](concepts/61-ketupa-ketupu-v2.png)
+
+- Review: PASS_NO_EDIT at original 1536×1024 resolution.
+- Evidence: BFOW-INDIANBIRDS-2015; reused BFOW-BESG-NEST-2016, BFOW-BESG-FLEDGE-2024 and BFOW-NPARKS-2026.
+- Boundary: the down-covered juvenile rests inside a living bird's-nest fern; exact hatch age, feather chronology, subspecies color and sex measurements remain unresolved. This is a concept image, not a scientifically verified plate.

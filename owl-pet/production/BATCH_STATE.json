@@ -3647,26 +3647,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2233+0800-cycle-4",
         "cycle": 4,
-        "heartbeat_at": "2026-10-26T22:37:00+08:00",
-        "expires_at": "2026-10-26T22:52:00+08:00"
+        "heartbeat_at": "2026-10-26T22:44:00+08:00",
+        "expires_at": "2026-10-26T22:59:00+08:00"
       },
       "checkpoint": {
         "cycle": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "species": "Ketupa flavipes",
         "species_id": 60,
         "version": 2,
         "run_id": "2026-10-26T2233+0800-cycle-4",
-        "at": "2026-10-26T22:37:00+08:00",
+        "at": "2026-10-26T22:44:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2233+0800-cycle-4.md",
         "evidence": {
-          "start_commit": "8320777150753e384d13fe7c1d47094cda10f98f",
-          "source_index_commit": "1ccb81ba41657752287e81396ed9e01ceac06318",
-          "species_record_commit": "0b59779526e262d89f6347673d1a6483f1e7cf3c",
-          "run_record_commit": "364573ef0d89bd83ddb202b98aa6c5c0cac646ce",
-          "new_sources": 1,
-          "reused_sources": 4,
-          "corrected_sources": 0,
+          "research_ready_commit": "1565da8d2a5c99d9da91070c5e9a68f111f916c6",
+          "image_commit": "920e8ab898fde419a9782dfb6ee83ee65245e9c6",
+          "review_record_commit": "52cfddc389e223665ad201ab30d07e3da97ecc9f",
+          "git_blob": "f79e83f89cdfd6bbd7727cb68424898f092caf71",
+          "sha256": "7cfb3e3c4abc729f58437491667f5f31d6e4f832aab86d08a5cf3d1ec638975f",
+          "size_bytes": 690452,
+          "dimensions": "1350x900",
+          "edit_count": 1,
           "scientifically_verified": false
         }
       }

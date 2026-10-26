@@ -3462,26 +3462,24 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1751+0800-cycle-6",
+        "cycle": 6,
+        "heartbeat_at": "2026-10-26T17:50:42+08:00",
+        "expires_at": "2026-10-26T18:05:42+08:00"
+      },
       "checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "species": "Strix leptogrammica",
-        "species_id": 47,
+        "cycle": 6,
+        "stage": "STARTED",
+        "species": "Strix nivicolum",
+        "species_id": 48,
         "version": 2,
-        "run_id": "2026-10-26T1743+0800-cycle-5",
-        "at": "2026-10-26T17:50:16+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1743+0800-cycle-5.md",
+        "run_id": "2026-10-26T1751+0800-cycle-6",
+        "at": "2026-10-26T17:50:42+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1751+0800-cycle-6.md",
         "evidence": {
-          "verification_commit": "897b97709bcc139b3fe47715870101e17e35f844",
-          "archive_metadata_commit": "bf7796855eb4d6762cfc2cd335342796412997a2",
-          "archive_commit": "f2d24ca8f4810af840d6093323b6bbfae04e2853",
-          "git_blob": "1c4b66aae806329cd8406153df49f56e38ec1496",
-          "size_bytes": 2850558,
-          "sha256": "643ba79e2f3886f3ecc5538051bcda04c4b2685df391addb72c4c961333d6a9e",
-          "dimensions": "1254x1254",
-          "remote_readback": true,
-          "scientifically_verified": false
+          "previous_cycle_verification": "897b97709bcc139b3fe47715870101e17e35f844"
         }
       }
     }

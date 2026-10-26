@@ -3628,33 +3628,39 @@
           "archive_commit": "f24248888e041cf850f71b51ee01fd7e03a3aa72",
           "image_commit": "f24248888e041cf850f71b51ee01fd7e03a3aa72",
           "run_record": "owl-pet/production/runs/2026-10-26T2225+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ketupa zeylonensis",
+          "species_id": 59,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "765c5cacabc99af97b67e6e382e0212414e5fdf1",
+          "archive_commit": "456aafe9fbc3cf532348ebb2ee8dbe409b417d93",
+          "image_commit": "456aafe9fbc3cf532348ebb2ee8dbe409b417d93",
+          "run_record": "owl-pet/production/runs/2026-10-26T2218+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T2218+0800-cycle-3",
-        "cycle": 3,
-        "heartbeat_at": "2026-10-26T22:30:00+08:00",
-        "expires_at": "2026-10-26T22:45:00+08:00"
-      },
+      "next_cycle": 4,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Ketupa zeylonensis",
         "species_id": 59,
         "version": 2,
         "run_id": "2026-10-26T2218+0800-cycle-3",
-        "at": "2026-10-26T22:30:00+08:00",
+        "at": "2026-10-26T22:31:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2218+0800-cycle-3.md",
         "evidence": {
-          "review_checkpoint_commit": "51dce12a7f99ceb567b372fd42b98f3cccb97a5c",
+          "verification_commit": "765c5cacabc99af97b67e6e382e0212414e5fdf1",
           "archive_commit": "456aafe9fbc3cf532348ebb2ee8dbe409b417d93",
           "git_blob": "d355eb731938652b551b657f70e58ff8fb990e70",
           "sha256": "a1a6947c2aa10a8f015f8250b87e4a0f37f5e083d80c14af8f53894383d41b27",
-          "size_bytes": 631441,
           "dimensions": "1350x900",
-          "remote_readback": "byte-identical",
+          "size_bytes": 631441,
+          "remote_readback": true,
           "scientifically_verified": false
         }
       }

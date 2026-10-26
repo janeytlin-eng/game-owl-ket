@@ -1140,3 +1140,5 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-26 23:41 +0800 — #61 *Ketupa ketupu* v2 archived: first render passed original-resolution review; exactly three birds, near-equal adults and a down-dominant, short-winged, naturally supported bird's-nest-fern juvenile. Revision only; unique-species total unchanged. Scientific calibration pending. Image: [61-ketupa-ketupu-v2.png](design/concepts/61-ketupa-ketupu-v2.png).
+
+- 2026-10-26 23:44 +0800 — #61 binary integrity correction: the initial 3,337,074-byte transfer in commit 290ff699 produced a non-matching Git blob and is superseded before cycle credit. The reviewed render was resized/palette-optimized to 1350×900 without content changes; final SHA-256 is b8624f64c9a04af55fa7d06a3bc74a2c3dae8f4b8fea1da2ec63d7b8e6a2bdb8 (779,205 bytes).

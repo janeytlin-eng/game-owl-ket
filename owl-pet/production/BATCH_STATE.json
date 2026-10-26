@@ -3557,24 +3557,28 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2103+0800-cycle-5",
         "cycle": 5,
-        "heartbeat_at": "2026-10-26T21:39:00+08:00",
-        "expires_at": "2026-10-26T21:54:00+08:00"
+        "heartbeat_at": "2026-10-26T21:44:00+08:00",
+        "expires_at": "2026-10-26T21:59:00+08:00"
       },
       "checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Bubo africanus",
         "species_id": 54,
         "version": 2,
         "run_id": "2026-10-26T2103+0800-cycle-5",
-        "at": "2026-10-26T21:39:00+08:00",
+        "at": "2026-10-26T21:44:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2103+0800-cycle-5.md",
         "evidence": {
-          "start_commit": "809e36ff49eb692046f313f28e7c663c5cb33d33",
-          "prior_asset": "owl-pet/design/concepts/54-bubo-africanus-v1.png",
-          "duplicate_53_skipped": true,
-          "resume_commit": "a9f729a4fc45b9473e429b1570ef1edc6597ff0b",
-          "resume_reason": "expired lease; no later image/stage commits"
+          "research_commit": "d93b4103f9c0b6d1a7215dd7837e3e9facbba488",
+          "run_record_commit": "d4ce1f8341270cddf0aef818ded0ebc80c734eea",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "sources_reused": 4,
+          "sources_new": 0,
+          "sources_corrected": 0,
+          "mikkola_page_evidence": false,
+          "prompt_persisted": true,
+          "scientifically_verified": false
         }
       }
     }

@@ -3415,32 +3415,33 @@
           "unique_species_increment": 0,
           "commit_sha": "18b3ea0092586cc65b315b1f49d0fbd6e3851b7b",
           "run_record": "owl-pet/production/runs/2026-10-26T1639+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix uralensis",
+          "species_id": 44,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "d27c115e18afe92b1e251cdc022bcd485bbb85c1",
+          "archive_commit": "87d1a98666bd1fb39b893c3b0f85f6ffdee94a77",
+          "run_record": "owl-pet/production/runs/2026-10-26T1703+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "2026-10-26T1703+0800-cycle-2",
-        "cycle": 2,
-        "heartbeat_at": "2026-10-26T17:02:00+08:00",
-        "expires_at": "2026-10-26T17:17:00+08:00",
-        "stage": "ARCHIVED",
-        "species": "Strix uralensis",
-        "species_id": 44,
-        "version": 2
-      },
+      "next_cycle": 3,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 2,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix uralensis",
         "species_id": 44,
         "version": 2,
         "run_id": "2026-10-26T1703+0800-cycle-2",
-        "at": "2026-10-26T17:02:00+08:00",
+        "at": "2026-10-26T17:04:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1703+0800-cycle-2.md",
         "evidence": {
+          "verification_commit": "d27c115e18afe92b1e251cdc022bcd485bbb85c1",
           "archive_commit": "87d1a98666bd1fb39b893c3b0f85f6ffdee94a77",
-          "metadata_commit": "6572df9bb694faea80864456b69835e75a2c5c30",
           "git_blob": "21cf2b387eb5baf6d4d32a83fbe20c36bc297a2f",
           "size_bytes": 3338226,
           "sha256": "dd4febdfe84982371fa52219a0578e752f6e417889334ae496940bf12b62bf2c",

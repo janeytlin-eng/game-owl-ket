@@ -1,3 +1,12 @@
+## 2026-10-26 #26 *Glaucidium siju* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/26-glaucidium-siju-v2.png](design/concepts/26-glaucidium-siju-v2.png)
+- Archive commit/blob: `701ba25ab3f850a4c34df108415c1aa5f6e9b7d0` / `88de832b62363625a645264fd123872ee25cddbf`; SHA-256 `b7b407a34f0d6907acdbcf4461f44f0158882a75143a184cbb3d9207fbfe1fc7`.
+- Research: 4 new indexed sources, 2 reused; primary paper covers 152 specimens and supports only modest sex-size treatment plus geographic-pattern boundaries.
+- Review: first render passed; exactly three birds, correct labels and support. Juvenile remains age-unknown; no claim of exact feather sequence.
+- Scientific status: pending.
+
 ## 2026-10-26 #25 *Glaucidium brasilianum cactorum* v2
 
 - Result: revised and archived; unique species remains 159/251 because FWS records this trinomial as a subspecies under *G. brasilianum*.

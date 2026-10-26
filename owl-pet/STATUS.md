@@ -1,3 +1,12 @@
+## 2026-10-26 #45 *Strix seloputo* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/45-strix-seloputo-v2.png](design/concepts/45-strix-seloputo-v2.png)
+- Archive commit/blob: `377af05568fbcfd0d726e0d75cf54011dde0bd08` / `c15b59923d6da407761ab23457791eb0e2a91966`; PNG 3,217,442 bytes; SHA-256 `cd3d2db4a180298d6141cb8d6f1990749ba206b4553c7b3874da0c17582dedf2`.
+- Research: 2 new indexed sources, 3 freshly re-read sources, 0 corrections.
+- Review: one targeted edit removed the recent fledgling's adult-style white spot rows/long layered remiges; final has exactly three labeled supported birds in documented Singapore rain-tree/fern context.
+- Scientific status: pending; exact age, feather sequence, sex measurements and locality-specific color remain unknown.
+
 ## 2026-10-26 #44 *Strix uralensis* v2
 
 - Result: revised and archived; unique species remains 159/251.

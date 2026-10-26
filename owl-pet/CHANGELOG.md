@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-26 17:11 +08:00
+
+- Revised #45 Spotted Wood Owl (*Strix seloputo*) to v2; indexed two newly read Singapore sources and reused three. One targeted edit removed the pale fledgling's adult-style wing spots/long remiges; the complete reviewed PNG was archived. Unique species remains 159/251; scientific verification remains false.
+
+
 ## 2026-10-26 17:00 +08:00
 
 - Revised #44 Ural Owl (*Strix uralensis*) to v2. Reused and freshly read three indexed sources; kept two inaccessible development references as unverified leads. One targeted edit removed adult-style juvenile wing spots/layered remiges, and the complete reviewed PNG was archived. Unique species remains 159/251; scientific verification remains false.

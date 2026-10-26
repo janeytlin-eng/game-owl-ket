@@ -38,3 +38,13 @@ Avoid: ear tufts, yellow eyes, bright yellow bill, exaggerated female size, matu
 - SOWL-MIKKOLA-2013
 - SOWL-BIRDLIFE-2026
 - SOWL-XC-2026
+
+
+## v2（2026-10-26）
+
+- 原图：`design/concepts/45-strix-seloputo-v2.png`
+- 提交/blob：`377af05568fbcfd0d726e0d75cf54011dde0bd08` / `c15b59923d6da407761ab23457791eb0e2a91966`
+- SHA-256：`cd3d2db4a180298d6141cb8d6f1990749ba206b4553c7b3874da0c17582dedf2`；1254×1254；3,217,442 bytes。
+- 来源：新增2、复用并新读3、更正0。NParks支持成鸟与成熟公园栖境；Pasir Ris单家庭记录支持雨树鸟巢蕨、白色绒幼鸟和离巢后沿枝移动，但不外推为普遍巢型。
+- 检查：首稿幼鸟翼面为长层叠成年斑点飞羽；一次定向编辑改为短圆、柔软、弥散深褐横斑的中雏羽翼，复查三鸟、标签、自然支撑与成鸟诊断通过。
+- 未知：精确离巢日龄、连续翼尾羽序、性别线性测量和地方色型；科学验收false，不继承v1用户确认。

@@ -3433,30 +3433,30 @@
         "owner": "codex-automation",
         "run_id": "2026-10-26T1705+0800-cycle-3",
         "cycle": 3,
-        "heartbeat_at": "2026-10-26T17:07:00+08:00",
-        "expires_at": "2026-10-26T17:22:00+08:00",
-        "stage": "IMAGE_GENERATED",
+        "heartbeat_at": "2026-10-26T17:11:00+08:00",
+        "expires_at": "2026-10-26T17:26:00+08:00",
+        "stage": "ARCHIVED",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 2
       },
       "checkpoint": {
         "cycle": 3,
-        "stage": "IMAGE_GENERATED",
+        "stage": "ARCHIVED",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 2,
         "run_id": "2026-10-26T1705+0800-cycle-3",
-        "at": "2026-10-26T17:07:00+08:00",
+        "at": "2026-10-26T17:11:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1705+0800-cycle-3.md",
         "evidence": {
-          "draft_path": "owl-pet/production/assets/2026-10-26T1705+0800-cycle-3-draft.png",
-          "draft_commit": "ab31f07022ddb49a5f7a6927016b0f0cc4f888d5",
-          "git_blob": "5510ef4364a9cacc5db9408e9261a589761d3120",
-          "size_bytes": 3409943,
-          "sha256": "3ede981fab0a58e05082d5557340df2f2d7e0987e5e6f5370d7516ad097afc9d",
+          "archive_commit": "377af05568fbcfd0d726e0d75cf54011dde0bd08",
+          "git_blob": "c15b59923d6da407761ab23457791eb0e2a91966",
+          "size_bytes": 3217442,
+          "sha256": "cd3d2db4a180298d6141cb8d6f1990749ba206b4553c7b3874da0c17582dedf2",
           "dimensions": "1254x1254",
-          "remote_readback": true
+          "remote_readback": false,
+          "scientifically_verified": false
         }
       }
     }

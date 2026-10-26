@@ -1,3 +1,11 @@
+## 45 · Spotted Wood Owl · *Strix seloputo* v2
+
+- [Original PNG](concepts/45-strix-seloputo-v2.png) · 1254×1254 · 3,217,442 bytes · SHA-256 `cd3d2db4a180298d6141cb8d6f1990749ba206b4553c7b3874da0c17582dedf2`
+- Archive commit/blob: `377af05568fbcfd0d726e0d75cf54011dde0bd08` / `c15b59923d6da407761ab23457791eb0e2a91966`
+- Revision: evidence-bounded Singapore recent-fledgling v2 with near-equal adults, a rain-tree/bird's-nest-fern setting and a pale supported young.
+- Review: the draft fledgling had a long adult-like spotted wing panel; one targeted edit shortened and softened it into diffusely barred mesoptile. Exactly three labeled birds, adult orange discs/dark eyes, spelling and all supports were rechecked. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-45-strix-seloputo-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1705+0800-cycle-3.md)
+
 ## 44 · Ural Owl · *Strix uralensis* v2
 
 - [Original PNG](concepts/44-strix-uralensis-v2.png) · 1254×1254 · 3,338,226 bytes · SHA-256 `dd4febdfe84982371fa52219a0578e752f6e417889334ae496940bf12b62bf2c`

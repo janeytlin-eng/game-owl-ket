@@ -3392,3 +3392,22 @@ Reused and freshly read: BFOW-BESG-NEST-2016 (living *Asplenium nidus* nest at S
 | BEOW-SGBIRDS-BREED-2018 | Bird Society of Singapore, [First breeding record of the Barred Eagle-Owl in Singapore Island](https://singaporebirds.com/blog/first-breeding-record-of-the-barred-eagle-owl-in-singapore-island) | Full accessible article text and dated juvenile observations, lines 7–18, read 2026-10-26 | A juvenile was recorded 7–17 August 2018 near Singapore Quarry, estimated 8–10 months if the Johor breeding cycle applied; by 16–17 August it was almost adult-sized and nearly finished moulting, but head and ear tufts remained whitish. It called for adults, perched, attempted hunting, and flew with a snake while an adult remained nearby. | Regional field account, not a measured developmental series; the age is explicitly an estimate conditional on another population. Supports a naturally perched older dependent juvenile and the late white-head/tuft boundary, not an exact age or early-nestling anatomy. |
 
 Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill, long outward tufts, finely barred plumage; juvenile white with dark bars), BEOW-BESG-JUV-2010 (identified supported branch-perching juvenile), BEOW-NPARKS-2026 (Sunda rainforest/plantation/wooded-garden habitat) and BEOW-AVIBASE-2026 (current *Ketupa sumatrana*, historical *Bubo sumatranus*). V2 uses an older branch-perched juvenile with soft white head/tufts and dark barred developing body feathers, not a natal chick. Exact molt chronology, early chick stage, stable sex-size ratio and subspecies-specific color remain unknown; `scientifically_verified=false`.
+
+
+### PFO-BOTSWANAPOST-2022 — BotswanaPost “Pel’s Owl in Botswana” brochure
+
+- **Stable ID:** `PFO-BOTSWANAPOST-2022`
+- **Title:** Pel’s Owl in Botswana
+- **Author / institution:** BotswanaPost Philatelic Bureau; acknowledgements include Botswana Ministry of Environment, Natural Resources Conservation and Tourism, Ian White (BirdLife Botswana), Dr Tim and June Liversedge
+- **Year / date:** 2022-08-31
+- **URL:** https://philately.botswanapost.post/booklet/PelsFishingOwl%20brochure.pdf
+- **Accessed:** 2026-10-27
+- **Source type:** institutional two-page species brochure / regional field synthesis
+- **Species / life stage:** *Scotopelia peli*; adults, nest and chick/fledging
+- **Pages / sections:** p. 2, “Pel’s Owl in Botswana” (PDF page index 1; text lines 96–158)
+- **Verified facts:** dense riverine forest around permanent water in Botswana; adults ginger-brown to russet with black spotting, rounded head and inky-black eyes; ancient indigenous trees supply cavities and waterside fishing perches; no constructed nest, eggs placed in a large-tree hollow; female incubates while male provisions; surviving chick fledges at about 70 days.
+- **Design support:** adults should be round-headed, black-eyed and rufous in shaded riverine woodland; nest context may use a natural old-tree cavity without invented nest material; an older supported juvenile is safer than an undocumented natal chick.
+- **Limitations / conflicts:** regional summary, not a primary growth study; brochure gives no staged juvenile-plumage measurements and does not justify exact feather-length ratios. Use its ~70-day fledging statement only to bound locomotor ability, not to assign the pictured juvenile an exact age.
+- **Confidence:** medium-high for regional habitat, adult identity and cavity nesting; medium for life-history summary.
+- **Linked records:** `research/species/63-scotopelia-peli.md`; `design/concepts/63-scotopelia-peli-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-1.md`
+- **Fact / inference boundary:** source facts are listed above; choosing an age-unknown branch-perched older juvenile with short down-softened developing wings is a conservative design inference constrained by the lack of a species-specific plumage series.

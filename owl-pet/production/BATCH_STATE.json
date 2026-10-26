@@ -4042,41 +4042,53 @@
       "batch_id": "2026-10-27T0728+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "2026-10-27T0728+0800-cycle-1",
-        "heartbeat_at": "2026-10-27T07:54:00.000+08:00",
-        "expires_at": "2026-10-27T08:09:00.000+08:00"
-      },
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Strix davidi",
+          "species_id": 132,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "236ddcf5e5dda5e7ff9940bb0d42496411285077",
+          "archive_commit": "236ddcf5e5dda5e7ff9940bb0d42496411285077",
+          "image_git_blob": "5f45f249b4a3a70c857ac707f4eee61b83b6adf3",
+          "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-1.md",
+          "verified_at": "2026-10-27T07:58:00.000+08:00"
+        }
+      ],
+      "next_cycle": 2,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix davidi",
         "species_id": 132,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-1",
-        "at": "2026-10-27T07:54:00.000+08:00",
+        "at": "2026-10-27T07:58:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-1.md",
         "evidence": {
-          "archive_commit": "PENDING_REPAIRED",
+          "archive_commit": "236ddcf5e5dda5e7ff9940bb0d42496411285077",
           "concept_blob": "5f45f249b4a3a70c857ac707f4eee61b83b6adf3",
           "asset_blob": "5f45f249b4a3a70c857ac707f4eee61b83b6adf3",
-          "sha256": "4dab1f19ee3269fc8f92869e546cb900f5a50f6a7a3fa672dd3c2016e85797f1",
           "size_bytes": 683823,
-          "manifest_written": true,
+          "sha256": "4dab1f19ee3269fc8f92869e546cb900f5a50f6a7a3fa672dd3c2016e85797f1",
+          "manifest_readback": true,
+          "source_index_readback": true,
+          "run_record_readback": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T07:54:00.000+08:00",
+      "last_updated_at": "2026-10-27T07:58:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
         "2026-10-27T07:44:00.000+08:00: cycle 1 IMAGE_GENERATED; first output persisted at owl-pet/production/assets/132-strix-davidi-v2-generated.png, blob 80e4a67d1d507c8912abbdcc694d498c34e79a31; lease renewed.",
         "2026-10-27T07:47:00.000+08:00: cycle 1 REVIEWED PASS at original generation resolution; no edit required; science remains false; lease renewed.",
         "2026-10-27T07:50:00.000+08:00: cycle 1 ARCHIVED pending readback; concept and reviewed asset use blob 80e4a67d1d507c8912abbdcc694d498c34e79a31; manifest/status/design indexes updated; lease renewed.",
-        "2026-10-27T07:54:00.000+08:00: archive readback detected truncated blob 80e4a67d1d507c8912abbdcc694d498c34e79a31 (786445 bytes vs local 3120335). Re-encoded final at unchanged 1513x1039 with 64-color indexed PNG, actual viewed and passed; exact local Git blob 5f45f249b4a3a70c857ac707f4eee61b83b6adf3, 683823 bytes; three remote image paths replaced; lease renewed."
+        "2026-10-27T07:54:00.000+08:00: archive readback detected truncated blob 80e4a67d1d507c8912abbdcc694d498c34e79a31 (786445 bytes vs local 3120335). Re-encoded final at unchanged 1513x1039 with 64-color indexed PNG, actual viewed and passed; exact local Git blob 5f45f249b4a3a70c857ac707f4eee61b83b6adf3, 683823 bytes; three remote image paths replaced; lease renewed.",
+        "2026-10-27T07:58:00.000+08:00: cycle 1 #132 Strix davidi v2 fully read back and VERIFIED after archive repair; unique species remains 159/251; next_cycle 2; lease released."
       ]
     }
   ],

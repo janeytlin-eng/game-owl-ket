@@ -3573,3 +3573,11 @@ Reused sources: MARSH-BIOEXP-2026 (actual Breeding section reread: 14–18-day c
 Design inference: southern African nominate concept; female only modestly fuller with a subtly longer tail; central juvenile is a low, naturally supported mobile preflight 14–18-day stage with short soft wing and concealed tail. Exact individual age, continuous feather sequence, flight threshold, subspecies geometry and universal sex ratio remain unknown. Scientifically verified: false.
 
 Links: [species record](../knowledge/species/78-asio-capensis.md) · [run](../production/runs/2026-10-27T0334+0800-cycle-3.md) · target [v2 image](../design/concepts/78-asio-capensis-v2.png).
+
+
+## 2026-10-27 #80 *Otus sunia* v2 evidence increment
+SUNIA-OAK-2015 was freshly read in full through the Open Access Korea page, not only abstract/methods. Results §Clutch size, incubation and brooding period reports 13 nests, mean incubation 24.4±1.2 d, mean brooding 23.5±2.6 d and hatching asynchrony 3.5±0.7 d; Methods defines fledging as the young stably flying to the top of a tree after leaving the nest. The study covers South Korean *O. s. stictonotus*, 2011–2012, and records 46.1% woodpecker holes, 38.5% natural tree holes, 15.4% artificial boxes. This corrects the old index limitation that only Introduction/Methods/Abstract had been read. It still does not describe age-specific plumage, so Mikkola mesoptile facts remain separate and the artwork does not claim exact day-to-feather mapping.
+
+Reused source IDs: SUNIA-OAK-2015 (fresh full-text expansion/correction), SUNIA-OWLPAGES-2020 (adult yellow eyes/dark-gray bill/white brows/gray-brown morph/cavity direction), WHSO-MIKKOLA-2013 printed pp.152–153 / PDF pp.154–155 (prior verified mesoptile: fluffy, faintly barred, markings less prominent; female about 6 g heavier). New sources 0; reused 3; corrected-scope 1. Design inference: a late cavity young near the species' mean brooding period, but no exact individual day; short rounded developing wing and natural cavity-lip support. Exact feather chronology, flight threshold, sex ratio and cross-subspecies transfer remain unknown. scientifically_verified=false.
+
+Links: [species](../knowledge/species/80-otus-sunia.md) · [run](../production/runs/2026-10-27T0334+0800-cycle-4.md) · target [v2](../design/concepts/80-otus-sunia-v2.png).

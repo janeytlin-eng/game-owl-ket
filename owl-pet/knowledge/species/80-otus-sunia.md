@@ -5,3 +5,6 @@ SUNIA-OAK-2015 NoSunHo/BaekChungYoul/YouYoungHan/ChoSamRae (28Nov2015), A study 
 
 Recovered execb1ba8e3d actualview2026-10-15: second edit restored adult near-equal scale after first edit overshrunk male; young down-covered shortwing/noadultspots, pale diffusemesoptilebars, yelloweyes/darkgreybill/headturn/supportedfeet retained. Not exact featherage/sexratios scientifically false.
 [Original](../../design/concepts/80-otus-sunia-v1.png). Scientificfalse.
+
+## 2026-10-27 v2 research-ready
+SUNIA-OAK-2015 full open-access text freshly read: 13 South Korean *stictonotus* nests had mean incubation 24.4±1.2 d, brooding 23.5±2.6 d and hatching asynchrony 3.5±0.7 d; fledging was defined as stable flight to a tree top after leaving the nest. This expands/corrects the earlier partial-read scope. Use a late supported cavity young near, but not assigned to, the mean brooding period. Plumage still comes only from existing guide/description sources, so no exact day-to-feather mapping. New0/reused3/corrected1; scientifically_verified=false.

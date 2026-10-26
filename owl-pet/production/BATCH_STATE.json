@@ -3500,7 +3500,7 @@
     },
     {
       "batch_id": "2026-10-26T1835+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -3562,37 +3562,43 @@
           "archive_commit": "161c1ac84f0ba4e51faa3c675ee1109f7a7e9622",
           "image_commit": "161c1ac84f0ba4e51faa3c675ee1109f7a7e9622",
           "run_record": "owl-pet/production/runs/2026-10-26T2103+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Bubo lacteus",
+          "species_id": 55,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f099ed4e090ddd6d5557d8b4384e0f63fcba54a2",
+          "archive_commit": "f720758413f9aee66f162973f1bd9448c117dcec",
+          "image_commit": "f720758413f9aee66f162973f1bd9448c117dcec",
+          "run_record": "owl-pet/production/runs/2026-10-26T2156+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T2156+0800-cycle-6",
-        "cycle": 6,
-        "heartbeat_at": "2026-10-26T22:08:00+08:00",
-        "expires_at": "2026-10-26T22:23:00+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 2,
         "run_id": "2026-10-26T2156+0800-cycle-6",
-        "at": "2026-10-26T22:08:00+08:00",
+        "at": "2026-10-26T22:09:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2156+0800-cycle-6.md",
         "evidence": {
+          "verification_commit": "f099ed4e090ddd6d5557d8b4384e0f63fcba54a2",
           "archive_commit": "f720758413f9aee66f162973f1bd9448c117dcec",
           "git_blob": "04bb34603c5e4fa46e66ac7765430fd54df5a1d9",
           "sha256": "32814b6b1d6372050f549ca4ca2a32481619778db7f9bc83c0f4ce31bc9af46a",
           "dimensions": "1350x900",
           "size_bytes": 697301,
-          "manifest_entry": "55-bubo-lacteus-v2",
-          "image_remote_readback": true,
-          "manifest_remote_readback": true,
+          "remote_readback": true,
           "scientifically_verified": false
         }
-      }
+      },
+      "completed_at": "2026-10-26T22:09:00+08:00"
     }
   ],
   "lease": null,

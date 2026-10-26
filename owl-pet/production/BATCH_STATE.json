@@ -3228,34 +3228,37 @@
           "commit_sha": "970de26232a344478bb531ac24dfd4abd144eba1",
           "archive_commit": "12827b8ab8ac4ae94d4177f20551d2e4ce38e7f0",
           "run_record": "owl-pet/production/runs/2026-10-26T1128+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Glaucidium castanotum",
+          "species_id": 32,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "772fbc61b1e3a02061bf8e826e13566828d0872a",
+          "archive_commit": "495c1bf335d5e61dbc10d986502980b2ef69aafc",
+          "run_record": "owl-pet/production/runs/2026-10-26T1153+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1153+0800-cycle-2",
-        "heartbeat_at": "2026-10-26T12:08:00+08:00",
-        "expires_at": "2026-10-26T12:23:00+08:00",
-        "species": "Glaucidium castanotum",
-        "species_id": 32,
-        "version": 2,
-        "stage": "ARCHIVED"
-      },
+      "next_cycle": 3,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 2,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Glaucidium castanotum",
         "species_id": 32,
         "version": 2,
         "run_id": "2026-10-26T1153+0800-cycle-2",
-        "at": "2026-10-26T12:08:00+08:00",
+        "at": "2026-10-26T12:14:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1153+0800-cycle-2.md",
-        "evidence_commit": "b1d78c335e084c1fc8764fa1126ba0bf28d038f8",
+        "evidence_commit": "772fbc61b1e3a02061bf8e826e13566828d0872a",
         "archive_commit": "495c1bf335d5e61dbc10d986502980b2ef69aafc",
         "git_blob": "b9ed7a2018f610fa53a20224dc364af17d385e78",
         "sha256": "8b0e2491561b90bf0ae56ce2911774d56cfd82bcf949023b499202fba1c9dccd",
         "bytes": 728556,
-        "dimensions": "1536x1024"
+        "dimensions": "1536x1024",
+        "raw_readback": "byte-identical"
       }
     }
   ],

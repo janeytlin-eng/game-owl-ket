@@ -1,3 +1,11 @@
+## 2026-10-27 #135 *Otus silvicola* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/135-otus-silvicola-v2.png](design/concepts/135-otus-silvicola-v2.png)
+- Git blob `cf7ebc005bac01509b396c6cc15818118b4f8671`; 1536×1024; 637,806 bytes; SHA-256 `6631df74b885d397b2ea686f0eaaf890a6e38a3488879673811ed8f0bb8a6b19`.
+- Research: 2 indexed primary sources freshly reread/reused; 0 new IDs. Review: first output's age-unknown immature retained formed wing/tail but showed adult-like white rows; one edit shortened/softened them and restored fine loose barring. Original-detail and indexed-PNG reviews passed. Science pending.
+- Run: [production/runs/2026-10-27T0728+0800-cycle-3.md](production/runs/2026-10-27T0728+0800-cycle-3.md)
+
 ## 2026-10-27 #133 *Megascops atricapilla* v2
 
 - Result: revised and archived; unique species remains 159/251.

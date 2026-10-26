@@ -1,3 +1,10 @@
+## 135 · Wallace's Scops-Owl · *Otus silvicola* v2
+
+- [Original PNG](concepts/135-otus-silvicola-v2.png) · 1536×1024 · 637,806 bytes · SHA-256 `6631df74b885d397b2ea686f0eaaf890a6e38a3488879673811ed8f0bb8a6b19`
+- Git blob: `cf7ebc005bac01509b396c6cc15818118b4f8671`
+- Revision: retained the primary-account fully feathered age-unknown immature, but one targeted edit replaced adult-like white wing rows with a shorter, softer, loosely barred formed wing/tail. Two existing primary sources were freshly reread and reused; no duplicate source IDs. Actual original-detail and indexed-PNG reviews passed; science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0728+0800-cycle-3.md)
+
 ## 133 · Black-capped Screech-Owl · *Megascops atricapilla* v2
 
 - [Original PNG](concepts/133-megascops-atricapilla-v2.png) · 1536×1024 · 678,643 bytes · SHA-256 `80e8e9bf6ff70c66e3b719af41e73592b5b1d1433405116dd2ae24fb7142ea4c`

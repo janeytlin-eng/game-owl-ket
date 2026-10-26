@@ -3878,28 +3878,31 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Otus sunia",
-        "species_id": 80,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-27T0334+0800-cycle-5",
+        "cycle": 5,
+        "species": "Pulsatrix melanota",
+        "species_id": 95,
         "version": 2,
-        "run_id": "2026-10-27T0334+0800-cycle-4",
-        "at": "2026-10-27T05:06:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-4.md",
+        "heartbeat_at": "2026-10-27T05:10:00+08:00",
+        "expires_at": "2026-10-27T05:25:00+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Pulsatrix melanota",
+        "species_id": 95,
+        "version": 2,
+        "run_id": "2026-10-27T0334+0800-cycle-5",
+        "at": "2026-10-27T05:10:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-5.md",
         "evidence": {
-          "archive_commit": "14a66e1124131b23fbcecf6b251e69a5fb14ae60",
-          "concept_blob": "8430e376af7080bfd4a93316d1d30c0057dacf75",
-          "asset_blob": "8430e376af7080bfd4a93316d1d30c0057dacf75",
-          "manifest_blob": "db2d646927135eef8b1fb2f3df6247a2ab9ec850",
-          "source_index_blob": "7d2ac9909a12a3c8115b9544512a442a936912e9",
-          "run_blob": "9cfa866b70cc11f977a98fc0cb67a99cff4cd56e",
-          "readback_pass": true,
-          "scientifically_verified": false
+          "selection": "manifest has only 95-pulsatrix-melanota-v1; first lowest-ID revision candidate after completed #80 v2",
+          "lease_expires_at": "2026-10-27T05:25:00+08:00"
         }
       },
-      "last_updated_at": "2026-10-27T05:07:00+08:00",
+      "last_updated_at": "2026-10-27T05:10:00+08:00",
       "audit_notes": [
         "2026-10-27 05:07 +0800: cycle 4 #80 Otus sunia v2 readback verified; archive 14a66e1, verification ab4741f. Unique species remains 159/251; next_cycle 5."
       ]
@@ -3990,8 +3993,17 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-27T05:07:00+08:00",
+  "active_lease": {
+    "owner": "codex-production",
+    "run_id": "2026-10-27T0334+0800-cycle-5",
+    "cycle": 5,
+    "species": "Pulsatrix melanota",
+    "species_id": 95,
+    "version": 2,
+    "heartbeat_at": "2026-10-27T05:10:00+08:00",
+    "expires_at": "2026-10-27T05:25:00+08:00"
+  },
+  "last_updated_at": "2026-10-27T05:10:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

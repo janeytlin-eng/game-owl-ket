@@ -23,3 +23,18 @@ USDA Forest Service专章第8页（PDF页3）描述该亚种体长约16.5–18 c
 ## 待办
 
 固定251种名录对 *G. brasilianum*、*G. ridgwayi* 与相关拆分处理；寻找带明确日龄和尺度的幼鸟连续影像、分性别测量原表及后颈视角实物照片。后续如做v2，应在不牺牲正面辨识的前提下让至少一只成年鸟三分之四回首，以完整显示假眼斑。
+
+
+## v2 revision — 2026-10-26
+
+The repository's fixed slot remains #25, but U.S. Fish & Wildlife Service explicitly records *Glaucidium brasilianum cactorum* as the subspecies rank beneath *G. brasilianum*. This revision therefore does not add a new independent species to the 251-species count.
+
+New full-text reading corrected CFPO-TAMUK-BIOLOGY-1998 to the 1999 bulletin by Proudfoot, Beasom and Chavez-Ramirez (cover and printed pp.2–4). Its applicable Texas evidence supports: males usually homogeneous dark brown, females homogeneous cinnamon-rufous and on average heavier (54 males 2.3 oz; 29 females 2.7 oz); lemon-yellow adult iris, greenish-yellow bill/toes; 23–29 day fledging; and, critically, fledglings lacking white crown streaks and nape false eyespots for the first four weeks after fledging. Young use dense understory for about three weeks while flight skill develops. The bulletin explicitly says plumage sexing near four weeks is not scientifically verified, so v2 does not assign a sex to the juvenile.
+
+v2 uses one dark-brown adult male, one cinnamon-rufous adult female at near-equal displayed height, and one recent fledgling in dense understory with short rounded softened folded wings, a short developing tail, no adult crown streaks or false eyespots, subdued eye color and two-foot branch support. A first generated version introduced an extra woodpecker and retained overly layered juvenile remiges; one targeted edit removed the fourth bird and softened/shortened the juvenile wing. The final concept contains exactly three owls.
+
+The archive copy is a 1536×1024 palette-optimized PNG, visually rechecked after optimization. Immutable archive evidence: commit `61e8df2d21278b889bc19fd5744ed51e818f1e74`, Git blob `62f3a525a1c33446b1a84bef9f6a9efd66ed4db6`, SHA-256 `5a4fb8208aab0f550297b4187694b57ca6a2585a26748889be9a8118a5e2ccd9`, 722,601 bytes.
+
+Still unknown: exact fledgling age, age-specific iris color, quantified linear sex-size difference, regional color variation and a continuous wing/tail growth sequence. v2 remains a scientifically bounded concept, not a scientifically verified reconstruction.
+
+Sources: CFPO-USDA-2000 (reused), CFPO-TAMUK-BIOLOGY-1998 (corrected/full text), CFPO-FWS-TAXONOMY-2026, CFPO-CORNELL-ID-2026 and CFPO-TBBA-BREEDING-2006 in [SOURCE_INDEX](../../research/SOURCE_INDEX.md). Image: `design/concepts/25-glaucidium-brasilianum-cactorum-v2.png`.

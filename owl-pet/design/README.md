@@ -1100,3 +1100,10 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 - Review: PASS_AFTER_EDIT at original archival resolution; one targeted juvenile-wing edit was required.
 - Evidence: reused Australian Museum `BARK-AM-2022`, ABSA `BARK-ABSA-2020` and Mikkola `WHSO-MIKKOLA-2013`; added Bullock’s 2026 primary breeding study `BARK-BULLOCK-2026`.
 - Boundary: yellow-eyed, vertically streaked, white-wing-spotted adults with the male only modestly larger; a supported recent fledgling has less ventral streaking, a pale mottled nape and shorter, softer wings at a debris-lined eucalypt hollow. Exact age, continuous feather sequence, regional variation and a fixed sex ratio remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+### #76 Striped Owl — *Asio clamator* v2 (2026-10-27)
+
+![#76 Striped Owl v2](concepts/76-asio-clamator-v2.png)
+
+Revision generated and visually reviewed after one juvenile-wing edit. Adults retain brown-cinnamon eyes, black bill/claws, long dark ear tufts, dark-bordered white facial discs, bold vertical streaking and near-equal display height. The approximately five-week brancher has warm yellowish-white/buff body plumage, a defined face and short tufts, a shorter rounded developing wing with diffuse bars, a short tail and two-foot support. A rudimentary grassland ground nest uses straw, leaves and feathers. Exact age, continuous feather sequence, fixed sex ratio and subspecies transfer remain unknown; `scientifically_verified=false`. Sources: `CLA-PONCE-GONZALEZ-2025`, `CLA-OWLPAGES-2020`, `CLA-AOS-2021`, `WHSO-MIKKOLA-2013`. [Run record](../production/runs/2026-10-27T0334+0800-cycle-1.md).

@@ -3082,7 +3082,24 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T0825+0800-cycle-5",
+        "cycle": 5,
+        "species": "Psiloscops flammeolus",
+        "heartbeat_at": "2026-10-26T08:34:00+08:00",
+        "expires_at": "2026-10-26T08:49:00+08:00"
+      },
+      "checkpoint": {
+        "cycle": 5,
+        "stage": "RESEARCH_READY",
+        "species": "Psiloscops flammeolus",
+        "species_id": 23,
+        "version": 3,
+        "run_id": "2026-10-26T0825+0800-cycle-5",
+        "at": "2026-10-26T08:34:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T0825+0800-cycle-5.md"
+      }
     }
   ],
   "lease": null,

@@ -1,3 +1,12 @@
+## #25 Cactus Ferruginous Pygmy-Owl v2 — 2026-10-26
+
+- Taxon: *Glaucidium brasilianum cactorum* (subspecies rank; revision only, unique count unchanged).
+- Original: [25-glaucidium-brasilianum-cactorum-v2.png](concepts/25-glaucidium-brasilianum-cactorum-v2.png)
+- Archive commit: [61e8df2](https://github.com/janeytlin-eng/game-owl-ket/commit/61e8df2d21278b889bc19fd5744ed51e818f1e74)
+- Review: exactly three owls and correct labels; extra generated woodpecker removed; juvenile mature-looking remiges shortened/softened; adult male/female color distinction, nape eyespot and all foot supports rechecked.
+- Scientific calibration: concept passed evidence-bounded visual review; exact fledgling age/iris, quantified sex-size difference and regional color variation remain unknown, so `scientifically_verified=false`.
+- Research/run: [species record](../knowledge/species/25-glaucidium-brasilianum-cactorum.md) · [cycle record](../production/runs/2026-10-26T1031+0800-cycle-1.md)
+
 ## 2026-10-26 · #18 Megascops kennicottii v2 evidence-bounded rebuild
 
 ![#18 Western Screech-Owl v2](concepts/18-megascops-kennicottii-v2.png)

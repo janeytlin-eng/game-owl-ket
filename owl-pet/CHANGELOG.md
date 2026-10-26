@@ -822,3 +822,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added `design/concepts/96-aegolius-ridgwayi-v2.png` and mirrored production asset; preserved v1.
 - Added RID-EISERMANN-AVENDANO-2018 for Guatemalan highland distribution/breeding status; kept exact nest form and juvenile timing unknown.
 - Shortened the first render's adult-like juvenile wing in one targeted edit and rechecked the complete image at original resolution. Scientific verification remains false.
+
+
+## 2026-10-27 05:43 +0800 — #102 Black-and-white Owl v2
+- Added `design/concepts/102-strix-nigrolineata-v2.png` and mirrored production asset; preserved v1.
+- Added BWO-VOOUS1964 from the actually read full primary paper and reused BWO-GER1994 plus Mikkola printed p.339/PDF p.341 with explicit current/historical name mapping.
+- Shortened the first render’s adult-like juvenile remiges through one targeted imagegen edit and rechecked the complete image at original resolution. Scientific verification remains false.

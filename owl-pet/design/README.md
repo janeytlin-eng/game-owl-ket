@@ -1145,3 +1145,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Review: first draft's central juvenile had an adult-length layered wing. One targeted edit shortened it to a rounded down-overlaid developing wing; exactly three labels, both adults, eye/bill colors, juvenile belly/two-foot support and unchanged text were rechecked at original resolution.
 - Limits: exact juvenile age/flight threshold, nest type and robust sex-size ratio remain unknown; `scientifically_verified=false`.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-96-aegolius-ridgwayi-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-6.md)
+
+
+## 102 · Black-and-white Owl · *Strix nigrolineata* v2
+- [Original PNG](concepts/102-strix-nigrolineata-v2.png) · 1536×1024 · 3,139,343 bytes · SHA-256 `d6805d96dbc49c0ad278daacb182de6ed581d37b492f255b1c85bbc60f8b08eb`
+- Revision: current-name/historical-name mapping is retained; adults are evidence-bounded dark, tuftless and horizontally barred, while the documented Tikal substrate is shown as a bare living epiphyte platform rather than a cavity or constructed nest.
+- Review: the first render’s juvenile had long adult-like side remiges. One targeted edit produced short rounded down-covered developing wings; exactly three labeled owls, adult diagnostics, near-equal adult height, juvenile belly/two-foot support and all text were rechecked at original resolution.
+- Limits: exact juvenile age/flight threshold, sexed linear dimensions, universal nest choice and precise toe geometry remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-102-strix-nigrolineata-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-1.md)

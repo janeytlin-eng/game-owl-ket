@@ -3659,8 +3659,8 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2327+0800-cycle-5",
         "cycle": 5,
-        "heartbeat_at": "2026-10-26T23:40:00+08:00",
-        "expires_at": "2026-10-26T23:55:00+08:00"
+        "heartbeat_at": "2026-10-26T23:46:00+08:00",
+        "expires_at": "2026-10-27T00:01:00+08:00"
       },
       "checkpoint": {
         "cycle": 4,
@@ -3684,21 +3684,25 @@
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Ketupa ketupu",
         "species_id": 61,
         "version": 2,
         "run_id": "2026-10-26T2327+0800-cycle-5",
-        "at": "2026-10-26T23:40:00+08:00",
+        "at": "2026-10-26T23:46:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2327+0800-cycle-5.md",
         "evidence": {
-          "review_commit": "9f43d6d1d90dc7e924ff271a042d4a3ab7569444",
-          "local_sha256": "fca8779d4964ada196f0866ea5be4a28949b19af6f825f96f1ed2506270b354e",
-          "review_result": "PASS_NO_EDIT",
+          "initial_archive_commit": "290ff699372d3185c33c7f48d732902eddbd5196",
+          "archive_commit": "c22d9a5b1040bdb45047083d37fbadad01a67bd8",
+          "archive_record_commit": "2a8c38dfb67dded947fecfd1021cb4854044d98c",
+          "git_blob": "3dc82943f74da20e5cb493988a08ba014e35a8a0",
+          "sha256": "b8624f64c9a04af55fa7d06a3bc74a2c3dae8f4b8fea1da2ec63d7b8e6a2bdb8",
+          "size_bytes": 779205,
+          "dimensions": "1350x900",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-26T23:40:00+08:00"
+      "last_updated_at": "2026-10-26T23:46:00+08:00"
     }
   ],
   "lease": null,
@@ -3793,7 +3797,7 @@
     "heartbeat_at": "2026-10-26T21:39:00+08:00",
     "expires_at": "2026-10-26T21:54:00+08:00"
   },
-  "last_updated_at": "2026-10-26T23:40:00+08:00",
+  "last_updated_at": "2026-10-26T23:46:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5."
   ]

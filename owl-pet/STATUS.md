@@ -1,3 +1,10 @@
+## 2026-10-26 #48 *Strix nivicolum* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/48-strix-nivicolum-v2.png](design/concepts/48-strix-nivicolum-v2.png)
+- Archive commit/blob: `1f52cb6e9ffa441f3be673bd0600f120330b9820` / `ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884`; 2,991,607 bytes; SHA-256 `8956ddcc9786010a5bbadaa0d877704d73298bec0cf1a07cc9ad22e8f375dd87`.
+- Research: 3 new, 1 reused. Review: one juvenile-wing edit. Scientific status: pending.
+
 ## 2026-10-26 #47 *Strix leptogrammica* v2
 
 - Result: revised and archived; unique species remains 159/251.

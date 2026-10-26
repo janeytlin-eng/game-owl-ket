@@ -1,3 +1,11 @@
+## 48 · Himalayan Owl · *Strix nivicolum* v2
+
+- [Original PNG](concepts/48-strix-nivicolum-v2.png) · 1254×1254 · 2,991,607 bytes · SHA-256 `8956ddcc9786010a5bbadaa0d877704d73298bec0cf1a07cc9ad22e8f375dd87`
+- Archive commit/blob: `1f52cb6e9ffa441f3be673bd0600f120330b9820` / `ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884`
+- Revision: age-unknown very-white juvenile v2 in a montane oak-conifer/rocky-ravine setting.
+- Review: one targeted edit removed the juvenile's long dark layered wing, replacing it with short soft white/cream mesoptile. Exactly three labeled supported birds, adult black eyes/white arcs and subtle sex scale were rechecked. Science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-48-strix-nivicolum-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1751+0800-cycle-6.md)
+
 ## 47 · Brown Wood Owl · *Strix leptogrammica* v2
 
 - [Original PNG](concepts/47-strix-leptogrammica-v2.png) · 1254×1254 · 2,850,558 bytes · SHA-256 `643ba79e2f3886f3ecc5538051bcda04c4b2685df391addb72c4c961333d6a9e`

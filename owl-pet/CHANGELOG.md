@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-26 17:55 +08:00
+
+- Revised #48 Himalayan Owl (*Strix nivicolum*) to v2; added three sources, reused Mikkola, corrected the juvenile wing and archived the reviewed PNG. Unique species remains 159/251; science pending.
+
+
 ## 2026-10-26 17:49 +08:00
 
 - Revised #47 Brown Wood Owl (*Strix leptogrammica*) to v2; verified the previously inaccessible 2006 nesting paper, added a second source and reused Mikkola. One targeted edit corrected the 34-day chick wing; reviewed PNG archived. Unique species remains 159/251; science pending.

@@ -41,4 +41,11 @@ Preserve realistic anatomy, exactly three birds, no ear tufts, black eyes, no ye
 ```
 
 ### Stage
-RESEARCH_READY; image not yet generated.
+ARCHIVED; visual review passed after one targeted juvenile-wing edit. Scientific verification remains false.
+
+
+### v2 production result
+- Final `design/concepts/48-strix-nivicolum-v2.png`; one edit replaced the young's long dark layered wing with short soft white/cream mesoptile and concealed tail.
+- Recheck: exactly three labeled supported birds; black eyes/white arcs, untufted adults, subtle female fullness and mountain habitat passed.
+- PNG 2,991,607 bytes; SHA-256 `8956ddcc9786010a5bbadaa0d877704d73298bec0cf1a07cc9ad22e8f375dd87`; blob `ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884`; image commit `1f52cb6e9ffa441f3be673bd0600f120330b9820`.
+- Exact juvenile age/sequence/ability and sex measurements remain unknown; scientifically_verified=false.

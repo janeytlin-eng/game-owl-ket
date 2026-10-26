@@ -3433,24 +3433,28 @@
         "owner": "codex-automation",
         "run_id": "2026-10-26T1705+0800-cycle-3",
         "cycle": 3,
-        "heartbeat_at": "2026-10-26T17:05:00+08:00",
-        "expires_at": "2026-10-26T17:20:00+08:00",
-        "stage": "STARTED",
+        "heartbeat_at": "2026-10-26T17:03:00+08:00",
+        "expires_at": "2026-10-26T17:18:00+08:00",
+        "stage": "RESEARCH_READY",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 2
       },
       "checkpoint": {
         "cycle": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 2,
         "run_id": "2026-10-26T1705+0800-cycle-3",
-        "at": "2026-10-26T17:05:00+08:00",
+        "at": "2026-10-26T17:03:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1705+0800-cycle-3.md",
         "evidence": {
-          "lease": true
+          "source_index_commit": "07dedfeb26d37c5c47673b2fb2d1d5c8e37ef651",
+          "new_sources": 2,
+          "reused_sources": 3,
+          "corrected_sources": 0,
+          "complete_prompt_saved": true
         }
       }
     }

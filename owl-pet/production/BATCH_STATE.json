@@ -3309,7 +3309,7 @@
     },
     {
       "batch_id": "2026-10-26T1428+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -3366,35 +3366,42 @@
           "commit_sha": "998324fa5d7b61c11ad998873d45a205905108d9",
           "archive_commit": "48c14c9a88072c37c228837ebe58406f372dc0c2",
           "run_record": "owl-pet/production/runs/2026-10-26T1459+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Athene brama",
+          "species_id": 42,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "9d05ee6deda0c323019337916dd9c79e91f65adc",
+          "archive_commit": "ae18c2d06e02b353231e55ee18167c0357ebc3fc",
+          "run_record": "owl-pet/production/runs/2026-10-26T1550+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1550+0800-cycle-6",
-        "heartbeat_at": "2026-10-26T15:58:00+08:00",
-        "expires_at": "2026-10-26T16:13:00+08:00",
-        "species": "Athene brama",
-        "species_id": 42,
-        "version": 2,
-        "stage": "REVIEWED"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 6,
-        "stage": "REVIEWED",
+        "stage": "VERIFIED",
         "species": "Athene brama",
         "species_id": 42,
         "version": 2,
         "run_id": "2026-10-26T1550+0800-cycle-6",
-        "at": "2026-10-26T15:58:00+08:00",
+        "at": "2026-10-26T16:02:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1550+0800-cycle-6.md",
         "evidence": {
-          "png_sha256": "3605f76a2b9862771d02b4eb6ada85cc0c423c75355b6c69e162ac4876fbc149",
+          "verification_commit": "9d05ee6deda0c323019337916dd9c79e91f65adc",
+          "archive_commit": "ae18c2d06e02b353231e55ee18167c0357ebc3fc",
+          "git_blob": "82f947aefdeee9b68ba8c142b6acc7699eb9c8f2",
           "size_bytes": 3105696,
+          "sha256": "3605f76a2b9862771d02b4eb6ada85cc0c423c75355b6c69e162ac4876fbc149",
           "dimensions": "1254x1254",
-          "edits": 1
+          "remote_readback": true,
+          "scientifically_verified": false
         }
-      }
+      },
+      "completed_at": "2026-10-26T16:02:00+08:00"
     }
   ],
   "lease": null,
@@ -3480,15 +3487,6 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "scheduled-production",
-    "run_id": "2026-10-26T1550+0800-cycle-6",
-    "heartbeat_at": "2026-10-26T15:58:00+08:00",
-    "expires_at": "2026-10-26T16:13:00+08:00",
-    "species": "Athene brama",
-    "species_id": 42,
-    "version": 2,
-    "stage": "REVIEWED"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-10-26T15:02:00+08:00"
 }

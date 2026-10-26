@@ -1151,3 +1151,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 01:10 +0800 — #64 *Tyto glaucops* v2 archived after one nestling-wing edit: ash-gray heart faces, black eyes and buff mottled adults are retained; female mass direction is shown only by fuller volume; the low supported nestling now has ochre down and tiny unpatterned wing sprouts inside the documented Palmchat cavity example. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [64-tyto-glaucops-v2.png](design/concepts/64-tyto-glaucops-v2.png).
+
+
+- 2026-10-27 01:27 +0800 — #65 *Tyto soumagnei* v2 passed first-render review: primary nest evidence supports a fully feathered but browner recent fledgling at about 10–11 weeks, naturally supported beside a high humid-forest cavity; red-ochre dark-eyed adults and moderate female mass direction are preserved. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [65-tyto-soumagnei-v2.png](design/concepts/65-tyto-soumagnei-v2.png).

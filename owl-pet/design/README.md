@@ -1064,3 +1064,12 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 - Review: PASS_AFTER_ONE_EDIT at original resolution; crisp adult-like pattern was removed from the nestling's wing sprouts.
 - Evidence: new AFO-BIRDSCARIBBEAN-2023; reused primary AFO-CURTI-2018 and institutional AFO-PEREGRINE-2026.
 - Boundary: gray-faced, black-eyed buff adults flank one poorly mobile ochre-down nestling inside the documented Palmchat-nest cavity example. Exact nestling age, continuous feather chronology, fixed standing-height ratio and generality of this nest type remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #65 Madagascar Red Owl / *Tyto soumagnei* v2
+
+![#65 Madagascar Red Owl v2](concepts/65-tyto-soumagnei-v2.png)
+
+- Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
+- Evidence: new primary MRO-THORSTROM-NEST-1996; reused MRO-PEREGRINE-2026, MRO-ADW-2026 and MRO-OWLPAGES-2020.
+- Boundary: one fully feathered but browner recent fledgling is naturally supported outside the high humid-forest cavity observed in the first nest study. Daily feather chronology, population-wide generality and a fixed standing-height ratio remain unresolved. This is a concept image, not a scientifically verified plate.

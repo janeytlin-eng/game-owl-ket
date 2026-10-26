@@ -38,3 +38,35 @@ Avoid: yellow eyes, bright yellow bill, exaggerated female height, adult-length 
 - Recheck: exact three birds, title `Strix leptogrammica`, dark eyes, no ear tufts, supported feet, moderate female fullness, adult nuchal/throat bands, and a short-winged soft mesoptile passed visual review.
 - PNG: 1536×1024 indexed-color transfer-safe archive, 703,587 bytes; SHA-256 `62062db36d6b11835551812487f6100d43bcede086d0557d5176a671ffbcd22f`; Git blob `a27448ca02d83577043c242fd2fd9728652627df`.
 - Scientific unknowns retained: exact day-age, continuous wing/tail sequence, locality/subspecies and sex-specific linear measurements.
+
+
+## v2 evidence-bounded revision · 2026-10-26
+
+### New evidence and correction
+- BROW-SAMARAWICKRAMA-2006, full pp.73–78 and Fig. 2 labels read: four-year reused old jack-tree cavity; female incubation 25–30 days; young dependent nearly two months; development photos explicitly labelled 24 days, 34 days, ready to fly and nine weeks. This corrects the previous “full text not retrieved” note.
+- BROW-OWLPAGES-2020 cross-checks adult marks, female-larger direction, tropical forest and tree-hole nesting.
+- BROW-MIKKOLA-2013 reused for very pale rufous/ochre-buff, faintly russet-barred mesoptile and the mass—not standing-height—sex difference.
+
+### v2 boundaries
+- Use the explicitly labelled 34-day chick on a cavity lip; do not claim competent flight.
+- Show female moderately fuller, not dramatically taller.
+- Exact remige/tail geometry, universal timing and extrapolation beyond Sri Lankan *ochrogenys* remain unknown.
+
+### Complete imagegen prompt
+
+```
+Use case: stylized-concept scientific calibration revision.
+Asset type: square owl electronic-pet species prototype group plate.
+Primary request: Create one polished 1:1 storybook-naturalist 3D maquette plate for #47 Brown Wood Owl, Strix leptogrammica, with exactly three full-body birds: adult male, adult female and a 34-day-old nestling/brancher supported at a tree-cavity rim.
+Scene/backdrop: humid Sri Lankan home-garden edge adjoining Gannoruwa forest, an old jackfruit tree with a deep natural cavity, lush but believable lowland vegetation at soft dusk; each bird has a visible natural support.
+Adults: no ear tufts; deep dark-brown/black eyes; greenish-horn bill and blue-gray cere; fulvous/rufous-brown facial disc with narrow black border and blackish eye zone; pale buff brows; blackish-brown crown with rufous tint; prominent cinnamon-buff nuchal collar; chestnut-brown upperparts densely dark barred; narrow white horizontal throat band; rufous/chestnut upper-breast band; creamy/light rufous-buff underparts densely thin-barred brown; feathered tarsi. Female center visibly fuller and moderately larger than male left, reflecting documented mass difference but not an invented standing-height ratio.
+Juvenile right: exactly 34 days old per the published Sri Lankan nest photo stage, safely crouched at the old jack-tree cavity lip with both feet supported; very pale rufous/ochre-buff fluffy mesoptile with faint diffuse russet bars, buff facial disc with narrow dark border and dark eyes, short soft rounded developing wings and a short mostly concealed tail. No adult-style crisp white wing spots or long layered remiges; do not imply competent flight.
+Style/medium: polished soft 3D animated-film maquette / storybook naturalist matching recent owl-pet v2 square plates; realistic anatomy, softly modeled feathers, restrained warm forest palette.
+Composition/framing: 1:1 square; exactly three owls, adult male left, adult female center, juvenile right; full bodies and feet visible; title at top and labels beneath birds.
+Text (verbatim): "#47 BROWN WOOD OWL"; scientific subtitle "Strix leptogrammica"; labels "ADULT MALE", "ADULT FEMALE", "JUVENILE · 34 DAYS".
+Constraints: exactly three owls; no ear tufts; dark eyes; retain adult cinnamon nuchal collar and horizontal white throat band; moderate female fullness only; juvenile naturally supported and immature-winged; no extra animals; no watermark.
+Avoid: yellow eyes, bright yellow bill, exaggerated female height, adult-length juvenile flight feathers, crisp adult wing spots on juvenile, floating feet, generic open farmland, extra birds.
+```
+
+### Stage
+RESEARCH_READY; image not yet generated.

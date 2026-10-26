@@ -3455,20 +3455,28 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1743+0800-cycle-5",
         "cycle": 5,
-        "heartbeat_at": "2026-10-26T17:43:47+08:00",
-        "expires_at": "2026-10-26T17:58:47+08:00"
+        "heartbeat_at": "2026-10-26T17:44:19+08:00",
+        "expires_at": "2026-10-26T17:59:19+08:00"
       },
       "checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix leptogrammica",
         "species_id": 47,
         "version": 2,
         "run_id": "2026-10-26T1743+0800-cycle-5",
-        "at": "2026-10-26T17:43:47+08:00",
+        "at": "2026-10-26T17:44:19+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1743+0800-cycle-5.md",
         "evidence": {
-          "previous_cycle_verification": "f48da80947f22bc207721736a47ba9e4925778dd"
+          "source_ids": [
+            "BROW-SAMARAWICKRAMA-2006",
+            "BROW-OWLPAGES-2020",
+            "BROW-MIKKOLA-2013"
+          ],
+          "new_sources": 2,
+          "reused_sources": 1,
+          "corrections": 1,
+          "prompt_persisted": true
         }
       }
     }

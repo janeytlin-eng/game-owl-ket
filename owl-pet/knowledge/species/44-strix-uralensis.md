@@ -1,7 +1,7 @@
 # 44 · 长尾林鸮 / Ural Owl
 
 - 学名：*Strix uralensis*
-- 阶段：RESEARCH_READY；科学验收false。
+- 阶段：v2 ARCHIVED / concept reviewed；科学验收false。
 
 ## 边界
 
@@ -19,3 +19,13 @@ Create a polished warm storybook-naturalist scientific character sheet for Ural 
 - blob：`091897eae652a920b6706c2e0bac930a473bdbcc`
 - SHA-256：`45adb15dd83359ce805ff77086ef6358475ed5d18fbdab425e81a88dd86cc6c2`
 - 图片提交：`17beaefa0a0ab910e8394a526c307ea90371023b`
+
+
+## v2（2026-10-26）
+
+- 原图：`design/concepts/44-strix-uralensis-v2.png`
+- 提交/blob：`87d1a98666bd1fb39b893c3b0f85f6ffdee94a77` / `21cf2b387eb5baf6d4d32a83fbe20c36bc297a2f`
+- SHA-256：`dd4febdfe84982371fa52219a0578e752f6e417889334ae496940bf12b62bf2c`；1254×1254；3,338,226 bytes。
+- 来源：新增0、复用并新读3、更正0；另两条发育文献只作为未核验线索，不进入已验证依据。
+- 检查：首稿幼鸟右翼出现清晰白斑列和层叠成年飞羽；一次定向编辑改为短圆灰米色中雏羽/新生羽纹理，保留成鸟、文字、洞口支撑和环境，复查通过。
+- 未知：精确四周龄羽片几何、分性别线性比例、地理色型与普遍巢腔形态；因此不标科学通过，也不继承v1的任何用户确认。

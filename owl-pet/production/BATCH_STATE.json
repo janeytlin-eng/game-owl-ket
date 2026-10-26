@@ -3973,35 +3973,30 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T0533+0800-cycle-4",
-        "heartbeat_at": "2026-10-27T06:06:00.000+08:00",
-        "expires_at": "2026-10-27T06:21:00.000+08:00",
+        "heartbeat_at": "2026-10-27T06:34:42.000+08:00",
+        "expires_at": "2026-10-27T06:49:42.000+08:00",
         "cycle": 4,
         "species": "Otus megalotis",
         "species_id": 122
       },
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Otus megalotis",
         "species_id": 122,
         "version": 2,
         "run_id": "2026-10-27T0533+0800-cycle-4",
-        "at": "2026-10-27T06:06:00.000+08:00",
+        "at": "2026-10-27T06:34:42.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-4.md",
         "evidence": {
-          "new_sources": [
-            "PSO-MACAULAY-2010"
-          ],
-          "reused_sources": [
-            "PSO-JOSEF-2012",
-            "PSO-JOSEF-TANEDO-2013",
-            "PSO-MIRANDA-2011"
-          ],
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "species_record": "owl-pet/research/species/122-otus-megalotis.md"
+          "image_git_blob": "18278c4cc31a3f2bd02ab24c501d4e5b464e8e29",
+          "sha256": "4a11432ee836a17b82b38a6e34a7439b73e8d7293402704253ce97f24839b458",
+          "bytes": 2788748,
+          "dimensions": "1536x1024",
+          "mode": "reuse recovered edited ImageGen output; no regeneration"
         }
       },
-      "last_updated_at": "2026-10-27T06:06:00.000+08:00",
+      "last_updated_at": "2026-10-27T06:34:42.000+08:00",
       "audit_notes": [
         "Clock correction: this batch uses the actual invocation time; the preceding batch's stored phase timestamps extend later due to earlier runner clock skew.",
         "2026-10-27T05:44:49.388+08:00: cycle 1 #102 Strix nigrolineata v2 readback verified; archive 339caef, image blob a8c6883. Unique species remains 159/251; next_cycle 2.",

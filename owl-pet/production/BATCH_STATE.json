@@ -3550,34 +3550,39 @@
           "archive_commit": "e1af257bff72a89176c4990b77e3ca517377a4ff",
           "image_commit": "e1af257bff72a89176c4990b77e3ca517377a4ff",
           "run_record": "owl-pet/production/runs/2026-10-26T1929+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Bubo africanus",
+          "species_id": 54,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "119fad82e545caf1d741de05e2cf4a0ede7aa61e",
+          "archive_commit": "161c1ac84f0ba4e51faa3c675ee1109f7a7e9622",
+          "image_commit": "161c1ac84f0ba4e51faa3c675ee1109f7a7e9622",
+          "run_record": "owl-pet/production/runs/2026-10-26T2103+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T2103+0800-cycle-5",
-        "cycle": 5,
-        "heartbeat_at": "2026-10-26T21:54:00+08:00",
-        "expires_at": "2026-10-26T22:09:00+08:00"
-      },
+      "next_cycle": 6,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 5,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Bubo africanus",
         "species_id": 54,
         "version": 2,
         "run_id": "2026-10-26T2103+0800-cycle-5",
-        "at": "2026-10-26T21:54:00+08:00",
+        "at": "2026-10-26T21:55:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2103+0800-cycle-5.md",
         "evidence": {
+          "verification_commit": "119fad82e545caf1d741de05e2cf4a0ede7aa61e",
           "archive_commit": "161c1ac84f0ba4e51faa3c675ee1109f7a7e9622",
           "git_blob": "9eb433740782e6b8e397c025ec0d1aa9175699c4",
           "sha256": "e7a94e20a08c3f7ab8c7a822da7a4e0129a18699460b999ce8860b6c967f740f",
           "dimensions": "1350x900",
           "size_bytes": 733826,
-          "manifest_entry": "54-bubo-africanus-v2",
-          "image_remote_readback": true,
-          "manifest_remote_readback": true,
+          "remote_readback": true,
           "scientifically_verified": false
         }
       }

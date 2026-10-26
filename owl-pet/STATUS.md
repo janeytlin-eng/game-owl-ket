@@ -1154,3 +1154,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 01:27 +0800 — #65 *Tyto soumagnei* v2 passed first-render review: primary nest evidence supports a fully feathered but browner recent fledgling at about 10–11 weeks, naturally supported beside a high humid-forest cavity; red-ochre dark-eyed adults and moderate female mass direction are preserved. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [65-tyto-soumagnei-v2.png](design/concepts/65-tyto-soumagnei-v2.png).
+
+
+- 2026-10-27 01:38 +0800 — #68 *Tyto tenebricosa* v2 passed first-render review: institutional ageing evidence supports a nearly fully feathered, possibly darker fledgling with little down; adults retain black eyes, grey dark-rimmed heart faces, sooty white-spotted plumage and feathered feet, while the female is shown fuller and slightly paler without an invented height ratio. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [68-tyto-tenebricosa-v2.png](design/concepts/68-tyto-tenebricosa-v2.png).

@@ -1073,3 +1073,12 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 - Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
 - Evidence: new primary MRO-THORSTROM-NEST-1996; reused MRO-PEREGRINE-2026, MRO-ADW-2026 and MRO-OWLPAGES-2020.
 - Boundary: one fully feathered but browner recent fledgling is naturally supported outside the high humid-forest cavity observed in the first nest study. Daily feather chronology, population-wide generality and a fixed standing-height ratio remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #68 Greater Sooty Owl / *Tyto tenebricosa* v2
+
+![#68 Greater Sooty Owl v2](concepts/68-tyto-tenebricosa-v2.png)
+
+- Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
+- Evidence: new GSO-ABSA-2019 institutional ageing/morphometrics profile; corroborated with NSW government habitat, nest and identification material.
+- Boundary: adults show black eyes, dark-rimmed grey heart discs, sooty white-spotted plumage and feathered feet; the female is fuller and slightly paler. The darker near-fledged juvenile is almost fully feathered with compact developed wings, little residual down and natural two-foot support at an old eucalypt hollow. Exact daily plumage chronology, pictured age and population-wide subspecies generality remain unresolved. This is a concept image, not a scientifically verified plate.

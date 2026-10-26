@@ -3569,22 +3569,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2156+0800-cycle-6",
         "cycle": 6,
-        "heartbeat_at": "2026-10-26T21:56:00+08:00",
-        "expires_at": "2026-10-26T22:11:00+08:00"
+        "heartbeat_at": "2026-10-26T22:00:00+08:00",
+        "expires_at": "2026-10-26T22:15:00+08:00"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 2,
         "run_id": "2026-10-26T2156+0800-cycle-6",
-        "at": "2026-10-26T21:56:00+08:00",
+        "at": "2026-10-26T22:00:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2156+0800-cycle-6.md",
         "evidence": {
-          "start_commit": "d6a75425dd91dfbc13f6228db279ef282f75b6ed",
-          "prior_asset": "owl-pet/design/concepts/55-bubo-lacteus-v1.png",
-          "taxonomy_mapping": "Bubo lacteus = current Ketupa lactea"
+          "research_commit": "4dcc5d591fbf6fee4f2af13cf673c18fe4e71ca4",
+          "run_record_commit": "6388b6e51305d71bb2ea20e0fc7b2681512183bc",
+          "sources_reused": 3,
+          "sources_new": 0,
+          "sources_corrected": 0,
+          "prompt_persisted": true,
+          "mikkola_page_evidence": false,
+          "scientifically_verified": false
         }
       }
     }

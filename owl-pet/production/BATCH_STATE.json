@@ -3122,7 +3122,7 @@
     },
     {
       "batch_id": "2026-10-26T1031+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -3179,35 +3179,39 @@
           "commit_sha": "37effa92927d6d501d943ccd0605c43bebc2c3b4",
           "archive_commit": "1a417ffe2e942690ac58ec5eb023a2edc6bc7d00",
           "run_record": "owl-pet/production/runs/2026-10-26T1130+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Glaucidium cuculoides",
+          "species_id": 30,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "77cd762bcd8f57f4100019a6691923cf625e60e2",
+          "archive_commit": "055ab38d0dcf7fb1605bf75eaeef69fcbb6e6100",
+          "run_record": "owl-pet/production/runs/2026-10-26T1146+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1146+0800-cycle-6",
-        "heartbeat_at": "2026-10-26T11:58:00+08:00",
-        "expires_at": "2026-10-26T12:13:00+08:00",
-        "species": "Glaucidium cuculoides",
-        "species_id": 30,
-        "version": 2,
-        "stage": "ARCHIVED"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Glaucidium cuculoides",
         "species_id": 30,
         "version": 2,
         "run_id": "2026-10-26T1146+0800-cycle-6",
-        "at": "2026-10-26T11:58:00+08:00",
+        "at": "2026-10-26T12:05:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1146+0800-cycle-6.md",
-        "evidence_commit": "a6b5c370c1e26874e1d76648f66b222aa87b40fc",
+        "evidence_commit": "77cd762bcd8f57f4100019a6691923cf625e60e2",
         "archive_commit": "055ab38d0dcf7fb1605bf75eaeef69fcbb6e6100",
         "git_blob": "8bd981045235bb8c9e605942fea50c4a0f8646ad",
         "sha256": "6353e084e9f1f87b55349b74137b94d40e33e9d801d5c092d5da8881c496666d",
         "bytes": 779053,
-        "dimensions": "1536x1024"
-      }
+        "dimensions": "1536x1024",
+        "raw_readback": "byte-identical"
+      },
+      "completed_at": "2026-10-26T12:05:00+08:00"
     }
   ],
   "lease": null,

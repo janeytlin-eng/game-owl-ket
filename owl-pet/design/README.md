@@ -1,3 +1,11 @@
+## 44 · Ural Owl · *Strix uralensis* v2
+
+- [Original PNG](concepts/44-strix-uralensis-v2.png) · 1254×1254 · 3,338,226 bytes · SHA-256 `dd4febdfe84982371fa52219a0578e752f6e417889334ae496940bf12b62bf2c`
+- Archive commit/blob: `87d1a98666bd1fb39b893c3b0f85f6ffdee94a77` / `21cf2b387eb5baf6d4d32a83fbe20c36bc297a2f`
+- Revision: evidence-bounded European pale-form v2 with same-height adults and a supported approximately four-week young in an open Finnish mixed-forest/bog-edge cavity setting.
+- Review: the draft young showed crisp adult-like white wing spots/layers; one targeted edit replaced only that wing with short rounded gray-beige mesoptile/emerging texture. Exactly three labeled birds, adult dark eyes, long barred wedge tails, longitudinal breast streaking, spelling and all natural supports were rechecked. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-44-strix-uralensis-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1703+0800-cycle-2.md)
+
 ## 42 · Spotted Owlet · *Athene brama* v2
 
 - [Original PNG](concepts/42-athene-brama-v2.png) · 1254×1254 · 3,105,696 bytes · SHA-256 `3605f76a2b9862771d02b4eb6ada85cc0c423c75355b6c69e162ac4876fbc149`

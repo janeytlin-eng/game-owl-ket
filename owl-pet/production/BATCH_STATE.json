@@ -3847,24 +3847,30 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-27T0334+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-27T03:56:00+08:00",
-        "expires_at": "2026-10-27T04:11:00+08:00"
+        "heartbeat_at": "2026-10-27T04:04:00+08:00",
+        "expires_at": "2026-10-27T04:19:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Asio stygius",
         "species_id": 77,
         "version": 2,
         "run_id": "2026-10-27T0334+0800-cycle-2",
-        "at": "2026-10-27T03:56:00+08:00",
+        "at": "2026-10-27T04:04:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-2.md",
         "evidence": {
-          "selection_basis": "next sequential revision after #76; #77 has only v1 in current manifest",
-          "previous_asset": "owl-pet/design/concepts/77-asio-stygius-v1.png"
+          "source_index_commit": "bfa5beffa0a847f70ec8f1d8a823cd3de30c0bbf",
+          "run_record_commit": "461cd200a0590eed72255ff1da1aa7857cd3c8c9",
+          "new_sources": 2,
+          "reused_sources": 3,
+          "corrected_sources": 0,
+          "prompt_persisted": true,
+          "full_text_primary_read": true,
+          "abstract_only_source_limited": true
         }
       },
-      "last_updated_at": "2026-10-27T03:56:00+08:00",
+      "last_updated_at": "2026-10-27T04:04:00+08:00",
       "audit_notes": []
     }
   ],

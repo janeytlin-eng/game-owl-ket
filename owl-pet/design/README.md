@@ -1,3 +1,11 @@
+## 42 · Spotted Owlet · *Athene brama* v2
+
+- [Original PNG](concepts/42-athene-brama-v2.png) · 1254×1254 · 3,105,696 bytes · SHA-256 `3605f76a2b9862771d02b4eb6ada85cc0c423c75355b6c69e162ac4876fbc149`
+- Archive commit/blob: `ae18c2d06e02b353231e55ee18167c0357ebc3fc` / `82f947aefdeee9b68ba8c142b6acc7699eb9c8f2`
+- Revision: evidence-bounded Southern Indian nominate v2; same-scale alike adults retain spotted upperparts and short scaly underpart bars, while the approximately three-week nestling is nearly unspotted with a short soft developing wing and hidden tail.
+- Review: the first render's juvenile wing looked too dark and layered; one targeted edit shortened and softened only that wing. Exactly three labeled birds and all natural supports were rechecked. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-42-athene-brama-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1550+0800-cycle-6.md)
+
 ## 41 · Guatemalan Pygmy-Owl · *Glaucidium cobanense* v2
 
 - [Original PNG](concepts/41-glaucidium-cobanense-v2.png) · 1254×1254 · 3,089,648 bytes · SHA-256 `981eacdf495f5bfd093e4a1a6211c7e6a52c456a51a2916d299c8f09f92200c2`

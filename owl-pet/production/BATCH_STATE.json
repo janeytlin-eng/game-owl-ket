@@ -3185,22 +3185,23 @@
       "active_lease": {
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1146+0800-cycle-6",
-        "heartbeat_at": "2026-10-26T11:46:00+08:00",
-        "expires_at": "2026-10-26T12:01:00+08:00",
+        "heartbeat_at": "2026-10-26T11:51:00+08:00",
+        "expires_at": "2026-10-26T12:06:00+08:00",
         "species": "Glaucidium cuculoides",
         "species_id": 30,
         "version": 2,
-        "stage": "STARTED"
+        "stage": "RESEARCH_READY"
       },
       "checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Glaucidium cuculoides",
         "species_id": 30,
         "version": 2,
         "run_id": "2026-10-26T1146+0800-cycle-6",
-        "at": "2026-10-26T11:46:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1146+0800-cycle-6.md"
+        "at": "2026-10-26T11:51:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1146+0800-cycle-6.md",
+        "evidence_commit": "160b0bcc8ed314cf5a717eabb730d41bd32ee968"
       }
     }
   ],

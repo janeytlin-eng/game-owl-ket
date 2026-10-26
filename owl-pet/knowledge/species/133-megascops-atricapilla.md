@@ -5,3 +5,7 @@ SoutheasternBrazilAtlanticForestbrownmorphconcept. Strixatricapilla/Otusatricapi
 ## 2026-10-27 v2 research boundary
 
 Added BCSO-DANTAS-2021: primary multi-character taxonomy keeps the Atlantic-Forest *M. atricapilla* unit distinct and warns that plumage polymorphism alone is unsafe across the former complex. For v2, preserve the photo-supported later juvenile (BCSO-ALMEIDA-2016) but shorten/soften its v1 folded wing and remove crisp adult-like spot rows; retain yellow iris and secure two-foot perch. Adults remain near-equal in display height, with no fixed sex-size ratio. Exact juvenile age/flight ability, individual adult iris stage and fine pattern remain unresolved. scientifically_verified: false.
+
+## 2026-10-27 v2 visual review
+
+Generated once and edited once. The first render retained an overly adult-layered juvenile wing. Evidence supports a later formed juvenile but not mature regular remiges, so the final v2 shortens/rounds/softens the folded wing and tail while preserving yellow iris, tiny tufts and two-foot support. Adult pair remains near-equal on one baseline. Actual original-detail and indexed archive-candidate views passed. Exact juvenile age/flight, continuous feather sequence, adult iris variation, fine pattern and quantified sex-size difference remain unknown; scientifically_verified: false.

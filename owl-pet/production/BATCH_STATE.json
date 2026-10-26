@@ -3791,29 +3791,26 @@
       "next_cycle": 6,
       "active_lease": {
         "owner": "scheduled-production",
-        "run_id": "2026-10-27T0034+0800-cycle-5",
-        "cycle": 5,
-        "heartbeat_at": "2026-10-27T01:47:00+08:00",
-        "expires_at": "2026-10-27T02:02:00+08:00"
+        "run_id": "2026-10-27T0034+0800-cycle-6",
+        "cycle": 6,
+        "heartbeat_at": "2026-10-27T02:31:00+08:00",
+        "expires_at": "2026-10-27T02:46:00+08:00"
       },
       "cycle_checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "species": "Tyto novaehollandiae",
-        "species_id": 69,
+        "cycle": 6,
+        "stage": "STARTED",
+        "species": "Ninox connivens",
+        "species_id": 71,
         "version": 2,
-        "run_id": "2026-10-27T0034+0800-cycle-5",
-        "at": "2026-10-27T02:28:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T0034+0800-cycle-5.md",
+        "run_id": "2026-10-27T0034+0800-cycle-6",
+        "at": "2026-10-27T02:31:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0034+0800-cycle-6.md",
         "evidence": {
-          "archive_commit": "4a743e81a9c3623957720c8a06e237af9cf66261",
-          "verification_commit": "fdbc3574cf33e4151580a3cd71b03899734f0337",
-          "image_git_blob": "d833ec0564daac37dfe7ed2cf5c603a6c486e16e",
-          "manifest_sha256": "26c5855a1b5548079003ab344c7e1bb7da3fb7c2c2bfd24908348009ef811217",
-          "scientifically_verified": false
+          "predecessor": "owl-pet/design/concepts/71-ninox-connivens-v1.png",
+          "reason": "next archived species still lacking a research-calibrated v2 revision"
         }
       },
-      "last_updated_at": "2026-10-27T01:47:00+08:00"
+      "last_updated_at": "2026-10-27T02:31:00+08:00"
     }
   ],
   "lease": null,

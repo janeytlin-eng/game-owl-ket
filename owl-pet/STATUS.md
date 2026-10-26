@@ -1,3 +1,9 @@
+## 2026-10-26 #27 *Glaucidium passerinum* v2
+
+- Revised/archived; unique species remains 159/251.
+- Image commit `510ec23c05aa8d5763107555f888b06d7d76e46d`, blob `b00e1f205dc60e13397713451285a56d937e7f83`, SHA-256 `82f9ed785a580d2fe63e640b13ead1416f7711e9211afbcfc992330408958446`.
+- New sources 3, reused 2; one juvenile edit; science pending.
+
 ## 2026-10-26 #26 *Glaucidium siju* v2
 
 - Result: revised and archived; unique species remains 159/251.

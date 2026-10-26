@@ -1,3 +1,11 @@
+## 2026-10-26 #30 Glaucidium cuculoides v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| ASBO-OWLPAGES-2020 | [Asian Barred Owlet — *Glaucidium cuculoides*](https://www.owlpages.com/owls/species.php?s=2130) | Deane Lewis / The Owl Pages | updated 2020; accessed 2026-10-26 | specialist synthesis; full page read | adult, breeding | 22–25 cm; round head without ear tufts; lemon-yellow eyes; greenish-horn cere and yellowish-green bill; finely spotted crown, barred upperparts/breast, white throat, about six pale tail bars; feathered tarsi and bare toes; unlined natural/abandoned barbet or woodpecker cavity. | Secondary synthesis, not a juvenile developmental study. Used for adult field marks and cavity direction only; not for exact chick age or feather growth. | [species #30](../knowledge/species/30-glaucidium-cuculoides.md); [v2 run](../production/runs/2026-10-26T1146+0800-cycle-6.md) |
+
+**Reuse note.** `ASBO-HKBWS-2024` was re-read in full and remains the strongest available stage-specific record: undated photographs show closed-eye white down, a larger gray-down/open-eye/yellow-orange-iris stage with visible sheaths, and a yellow-eyed fledgling stage; it explicitly labels those nest-box photographs undated. `ASBO-MDC-1877` is retained only for historical-name/specimen mapping. v2 uses the supported middle nest-box stage without assigning an exact day or transferring unrelated owl growth schedules.
+
 ## 2026-10-26 #29 Glaucidium capense v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

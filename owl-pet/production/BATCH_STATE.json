@@ -3355,29 +3355,40 @@
           "commit_sha": "2093a10a47ee4219f953a97dd46222eec74224b7",
           "archive_commit": "efd3235a9cf061c763bba518426dee2f1018a3ff",
           "run_record": "owl-pet/production/runs/2026-10-26T1454+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Glaucidium cobanense",
+          "species_id": 41,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "998324fa5d7b61c11ad998873d45a205905108d9",
+          "archive_commit": "48c14c9a88072c37c228837ebe58406f372dc0c2",
+          "run_record": "owl-pet/production/runs/2026-10-26T1459+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1459+0800-cycle-5",
-        "heartbeat_at": "2026-10-26T15:39:00+08:00",
-        "expires_at": "2026-10-26T15:54:00+08:00",
-        "species": "Glaucidium cobanense",
-        "species_id": 41,
-        "version": 2,
-        "stage": "REVIEWED"
-      },
+      "next_cycle": 6,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 5,
-        "stage": "REVIEWED",
+        "stage": "VERIFIED",
         "species": "Glaucidium cobanense",
         "species_id": 41,
         "version": 2,
         "run_id": "2026-10-26T1459+0800-cycle-5",
-        "at": "2026-10-26T15:39:00+08:00",
+        "at": "2026-10-26T15:49:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1459+0800-cycle-5.md",
-        "recovery": "local PNG SHA-256 matched persisted review"
+        "evidence": {
+          "verification_commit": "998324fa5d7b61c11ad998873d45a205905108d9",
+          "archive_commit": "48c14c9a88072c37c228837ebe58406f372dc0c2",
+          "git_blob": "0ebda51b51b41cab157da93c6586d1a945b11ab6",
+          "size_bytes": 3089648,
+          "sha256": "981eacdf495f5bfd093e4a1a6211c7e6a52c456a51a2916d299c8f09f92200c2",
+          "dimensions": "1254x1254",
+          "remote_readback": true,
+          "scientifically_verified": false
+        }
       }
     }
   ],
@@ -3464,15 +3475,6 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "scheduled-production",
-    "run_id": "2026-10-26T1459+0800-cycle-5",
-    "heartbeat_at": "2026-10-26T15:39:00+08:00",
-    "expires_at": "2026-10-26T15:54:00+08:00",
-    "species": "Glaucidium cobanense",
-    "species_id": 41,
-    "version": 2,
-    "stage": "REVIEWED"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-10-26T15:02:00+08:00"
 }

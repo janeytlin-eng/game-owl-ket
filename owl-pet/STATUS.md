@@ -1,3 +1,12 @@
+## 2026-10-26 #42 *Athene brama* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/42-athene-brama-v2.png](design/concepts/42-athene-brama-v2.png)
+- Archive commit/blob: `ae18c2d06e02b353231e55ee18167c0357ebc3fc` / `82f947aefdeee9b68ba8c142b6acc7699eb9c8f2`; PNG 3,105,696 bytes; SHA-256 `3605f76a2b9862771d02b4eb6ada85cc0c423c75355b6c69e162ac4876fbc149`.
+- Research: 1 new indexed taxonomic/range source, 2 reused; the complete open primary nestling-growth study was re-read and supports same-looking sexes, delayed wing growth, ~4.5-week fledging and supported pre-flight branch walking.
+- Review: one targeted edit removed the juvenile's dark layered remiges; final has exactly three labeled, supported birds, same-scale adults, a nearly unspotted mesoptile juvenile and open southern-Indian village-edge farmland habitat.
+- Scientific status: pending; exact feather geometry, sex-specific growth and subspecies color variation remain unknown.
+
 ## 2026-10-26 #41 *Glaucidium cobanense* v2
 
 - Result: revised and archived; unique species remains 159/251.

@@ -894,3 +894,6 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 
 
 - `33-taenioptynx-brodiei-v2.png` — #33 *Taenioptynx brodiei* v2 revision; original-resolution review passed without edit. Male nape false eyes, adult untufted form, yellow eyes/green-yellow bills, barred plumage and near-equal scale were retained; center older immature has stronger vertical head streaking, softer body pattern, shorter wings/tail and full two-foot support. Exact immature age, continuous feather sequence, flight ability and quantified sex difference remain unknown; scientifically verified: no. Image commit: `081ea81c554da8ed8e8b719498c392f112ba841c`; [run](../production/runs/2026-10-26T1215+0800-cycle-3.md).
+
+
+- `34-glaucidium-hardyi-v2.png` — #34 *Glaucidium hardyi* v2 revision, reviewed without edit. Male nape false eyes are visible; adults retain the gray spotted crown/rufous mantle contrast and near-equal scale; center older juvenile has an unspotted crown, diffuse weak streaking, soft wings and no mature-tail claim. Exact age, continuous feather sequence, flight ability and sex measurements remain unknown; scientifically verified: no. Image commit `e7474fc3f3c6645c283f1726eb52eb41952ee589`; [run](../production/runs/2026-10-26T1229+0800-cycle-4.md).

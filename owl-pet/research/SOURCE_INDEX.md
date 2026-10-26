@@ -1,3 +1,11 @@
+## 2026-10-26 #40 Glaucidium nubicola v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| CFPO-EBIRD-ID-2026 | [Cloud-forest Pygmy-Owl](https://ebird.org/species/clopyo1) | Cornell Lab of Ornithology / eBird | page current; accessed 2026-10-26 | Institutional identification page with adult and juvenile media labels; page text read | *G. nubicola* adult identification, sex similarity, elevational habitat; juvenile-media lead | Small brown-to-rufous owl of montane forest in its limited western Colombia/Ecuador range; sexes alike. The page distinguishes it by elevation between Central American and Andean pygmy-owls and includes a media item labelled juvenile. | Media label does not provide age, plumage chronology or measurements. It supports use of a recent-fledgling stage only when combined with the already indexed breeding note; no distinctive juvenile pattern is inferred. | [species #40](../knowledge/species/40-glaucidium-nubicola.md); [v2 run](../production/runs/2026-10-26T1454+0800-cycle-4.md) |
+
+**Reuse / uncertainty boundary.** Re-read the complete 11-page original description `SRC-PAPER-040-02`: pp.305–307 diagnose very wet Pacific-slope cloud forest at 1,400–2,000 m, near absence of pale spotting/barring on the back, chest sides and flanks, bold pale scapular/wing-covert spots, a short tail and white-bordered hindneck false eyes; pp.311–312 describe steep wet primary cloud forest and note that natural history was then almost unknown. Reused `SRC-BOOK-040-01` and the previously verified `SRC-PAPER-040-03` boundary for an undescribed-plumage recent fledgling. The breeding-note host returned 403 in this run and was not newly re-read. Exact juvenile plumage, age, iris chronology and feather sequence remain unknown; v2 changes only texture/posture/tail length, not invented juvenile diagnostics, and remains `scientifically_verified=false`.
+
 ## 2026-10-26 #39 Glaucidium griseiceps v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

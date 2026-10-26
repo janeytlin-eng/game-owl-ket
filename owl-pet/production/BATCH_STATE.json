@@ -3508,25 +3508,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1835+0800-cycle-1",
         "cycle": 1,
-        "heartbeat_at": "2026-10-26T18:37:00+08:00",
-        "expires_at": "2026-10-26T18:52:00+08:00"
+        "heartbeat_at": "2026-10-26T18:41:00+08:00",
+        "expires_at": "2026-10-26T18:56:00+08:00"
       },
       "checkpoint": {
         "cycle": 1,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Strix woodfordii",
         "species_id": 49,
         "version": 2,
         "run_id": "2026-10-26T1835+0800-cycle-1",
-        "at": "2026-10-26T18:37:00+08:00",
+        "at": "2026-10-26T18:41:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1835+0800-cycle-1.md",
         "evidence": {
-          "draft_path": "owl-pet/production/assets/49-strix-woodfordii-v2-draft.png",
-          "git_blob": "b614fcf1ce8b2836f19ade6a8cc553597782bfdf",
-          "size_bytes": 3149643,
-          "sha256": "33d60415f8b6ca55d2722bd95430c25f66bdda695a72b844297775a85ac71484",
+          "draft_commit": "3aa2224d9a945f0656f240a790669495a260e275",
+          "final_path": "owl-pet/design/concepts/49-strix-woodfordii-v2.png",
+          "git_blob": "a69969d77819758c2a2026954bada5079131adb1",
+          "size_bytes": 2979818,
+          "sha256": "91736dcecc2439398437ebe618ede329d96510dfcb540add4d720933d17c4339",
           "dimensions": "1254x1254",
-          "review_result": "REJECT juvenile long layered spotted wing"
+          "edit": "juvenile wing only: removed crisp adult-like spots and long layered remiges",
+          "review_result": "PASS visual review; science remains pending"
         }
       }
     }

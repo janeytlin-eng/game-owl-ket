@@ -996,3 +996,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-26 #35 *Glaucidium jardinii* v2: REVISION generated, juvenile-targeted edited and original-resolution reviewed. Adult male rear-side view exposes paired nape false eyes; adults retain yellow eyes, pale green-yellow bills, finely pale-spotted brown upperparts and white throat/chest at near-equal scale. Center age-unknown middle juvenile has a much plainer crown, weak diffuse underpart marks, short soft wing/tail and full two-foot support after adult-like white wing spots were removed. Exact age, continuous feather sequence and flight ability remain unknown, so `scientifically_verified=false`. Unique remains 159/251; manifest entries 346. Image commit `930c6054adc72a781ef676d586667bbd89c5193d`; [run](production/runs/2026-10-26T1245+0800-cycle-5.md).
+
+
+- 2026-10-26 14:08 +08:00 — revised #36 *Glaucidium bolivianum* v2 archived at [design/concepts/36-glaucidium-bolivianum-v2.png](design/concepts/36-glaucidium-bolivianum-v2.png). One targeted edit removed adult-like juvenile wing spotting; remote blob `f0b16955903b9c3337e800394822abda33eabf18` is 2,791,825 bytes. Unique species remains 159/251; scientific verification remains pending.

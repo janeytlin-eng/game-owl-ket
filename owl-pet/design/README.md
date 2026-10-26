@@ -885,3 +885,6 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 
 
 - `30-glaucidium-cuculoides-v2.png` — #30 *Glaucidium cuculoides* v2 revision; final center nestling uses the undated gray-down/open-eye stage with short emerging sheaths after rejecting and editing a draft with mature layered remiges. Adults, three labels and natural cavity support were reviewed. Exact age, feather sequence, sex-size ratio and geographic variation remain unknown; scientifically verified: no. Image commit: `055ab38d0dcf7fb1605bf75eaeef69fcbb6e6100`; [run](../production/runs/2026-10-26T1146+0800-cycle-6.md).
+
+
+- `31-glaucidium-radiatum-v2.png` — #31 *Glaucidium radiatum* v2 revision; targeted edit removed the cavity chick’s residual long dark remiges, leaving gray-white down and a short rounded wing bud. Adults, three labels, no-false-eye diagnosis and natural supports were reviewed. Exact juvenile age/sequence, sex-size ratio and subspecies detail remain unknown; scientifically verified: no. Image commit: `12827b8ab8ac4ae94d4177f20551d2e4ce38e7f0`; [run](../production/runs/2026-10-26T1128+0800-cycle-1.md).

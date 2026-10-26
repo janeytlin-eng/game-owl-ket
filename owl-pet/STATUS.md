@@ -1148,3 +1148,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 00:51 +0800 — #63 *Scotopelia peli* v2 archived after one juvenile-wing edit: no-tuft dark-eyed rufous adults remain near-equal, while the age-unknown pale juvenile now has a short down-softened folded wing, concealed tail and two-foot branch support. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [63-scotopelia-peli-v2.png](design/concepts/63-scotopelia-peli-v2.png).
+
+
+- 2026-10-27 01:10 +0800 — #64 *Tyto glaucops* v2 archived after one nestling-wing edit: ash-gray heart faces, black eyes and buff mottled adults are retained; female mass direction is shown only by fuller volume; the low supported nestling now has ochre down and tiny unpatterned wing sprouts inside the documented Palmchat cavity example. Revision only; unique-species total remains 159/251. Scientific calibration pending. Image: [64-tyto-glaucops-v2.png](design/concepts/64-tyto-glaucops-v2.png).

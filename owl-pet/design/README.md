@@ -1055,3 +1055,12 @@ Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, 
 - Review: PASS_AFTER_ONE_EDIT at original resolution; the juvenile's adult-like long layered remiges were replaced by a short rounded down-softened developing wing and the tail was concealed.
 - Evidence: new PFO-BOTSWANAPOST-2022; reused PFO-TRUST-2026, PFO-OWLPAGES-2020, PFO-OUZMAN-JUV and PFO-BOUGLOUAN-2026.
 - Boundary: adults are dark-eyed, ear-tuft-free rufous fishing owls in old-tree riparian habitat; the supported pale juvenile is deliberately age-unknown. Exact age, continuous feather sequence and fixed sex ratio remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #64 Ashy-faced Owl / *Tyto glaucops* v2
+
+![#64 Ashy-faced Owl v2](concepts/64-tyto-glaucops-v2.png)
+
+- Review: PASS_AFTER_ONE_EDIT at original resolution; crisp adult-like pattern was removed from the nestling's wing sprouts.
+- Evidence: new AFO-BIRDSCARIBBEAN-2023; reused primary AFO-CURTI-2018 and institutional AFO-PEREGRINE-2026.
+- Boundary: gray-faced, black-eyed buff adults flank one poorly mobile ochre-down nestling inside the documented Palmchat-nest cavity example. Exact nestling age, continuous feather chronology, fixed standing-height ratio and generality of this nest type remain unresolved. This is a concept image, not a scientifically verified plate.

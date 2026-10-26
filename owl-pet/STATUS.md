@@ -1,3 +1,12 @@
+## 2026-10-26 #44 *Strix uralensis* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/44-strix-uralensis-v2.png](design/concepts/44-strix-uralensis-v2.png)
+- Archive commit/blob: `87d1a98666bd1fb39b893c3b0f85f6ffdee94a77` / `21cf2b387eb5baf6d4d32a83fbe20c36bc297a2f`; PNG 3,338,226 bytes; SHA-256 `dd4febdfe84982371fa52219a0578e752f6e417889334ae496940bf12b62bf2c`.
+- Research: 0 new verified sources, 3 freshly re-read sources, 0 corrections; two inaccessible development references remain unverified leads.
+- Review: one targeted edit removed the four-week young's adult-style white wing spots/layered remiges; final has exactly three labeled supported birds, dark-eyed long-tailed adults and an open Finnish mixed-forest cavity setting.
+- Scientific status: pending; exact juvenile feather geometry, sex ratio, population variation and universal nest geometry remain unknown.
+
 ## 2026-10-26 #43 *Athene blewitti* v2
 
 - Result: revised and archived; unique species remains 159/251.

@@ -1022,3 +1022,9 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 [Original PNG](concepts/43-athene-blewitti-v2.png) · [species record](../knowledge/species/43-athene-blewitti.md) · [cycle record](../production/runs/2026-10-26T1639+0800-cycle-1.md)
 
 Evidence-bounded revision preserves equal-scale adults, near-plain crown/back, solid pectoral band and open central-Indian large-tree habitat. One targeted edit removed the approximately 40-day fledgling's adult-style white wing rows and mature layered remiges while retaining rufous ventral barring and full cavity-lip support. Scientific calibration remains pending.
+
+## #52 · Rusty-barred Owl — *Strix hylophila* v2
+
+[Original PNG](concepts/52-strix-hylophila-v2.png) · [species record](../knowledge/species/52-strix-hylophila.md) · [cycle record](../production/runs/2026-10-26T1929+0800-cycle-4.md)
+
+Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, rusty concentric facial discs, dense rusty/buff/white barring and near-equal adult scale. One targeted edit replaced the recently fledged juvenile's adult-like long spotted remiges with short rounded down-softened wings; both feet remain supported near the cavity. Exact juvenile feather sequence, individual age and quantified sex-size ratio remain unknown, so scientific calibration remains pending.

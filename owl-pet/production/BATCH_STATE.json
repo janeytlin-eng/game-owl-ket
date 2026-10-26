@@ -3599,6 +3599,35 @@
         }
       },
       "completed_at": "2026-10-26T22:09:00+08:00"
+    },
+    {
+      "batch_id": "2026-10-26T2211+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T2211+0800-cycle-1",
+        "cycle": 1,
+        "heartbeat_at": "2026-10-26T22:11:00+08:00",
+        "expires_at": "2026-10-26T22:26:00+08:00"
+      },
+      "checkpoint": {
+        "cycle": 1,
+        "stage": "STARTED",
+        "species": "Bubo nipalensis",
+        "species_id": 57,
+        "version": 2,
+        "run_id": "2026-10-26T2211+0800-cycle-1",
+        "at": "2026-10-26T22:11:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T2211+0800-cycle-1.md",
+        "evidence": {
+          "start_commit": "c2d705dbc70af54acc4c98698a17479efa2498b0",
+          "prior_asset": "owl-pet/design/concepts/57-bubo-nipalensis-v1.png",
+          "duplicate_56_skipped": true
+        }
+      }
     }
   ],
   "lease": null,

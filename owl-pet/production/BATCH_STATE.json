@@ -3444,27 +3444,25 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1736+0800-cycle-4",
         "cycle": 4,
-        "heartbeat_at": "2026-10-26T17:41:34+08:00",
-        "expires_at": "2026-10-26T17:56:34+08:00"
+        "heartbeat_at": "2026-10-26T17:42:29+08:00",
+        "expires_at": "2026-10-26T17:57:29+08:00"
       },
       "checkpoint": {
         "cycle": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Strix ocellata",
         "species_id": 46,
         "version": 2,
         "run_id": "2026-10-26T1736+0800-cycle-4",
-        "at": "2026-10-26T17:41:34+08:00",
+        "at": "2026-10-26T17:42:29+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1736+0800-cycle-4.md",
         "evidence": {
-          "final_path": "owl-pet/design/concepts/46-strix-ocellata-v2.png",
+          "image_commit": "9668653af1d2602dd9108d630b84a54d5210b5ac",
           "git_blob": "ec9dcd05d490ddad78a49ac6b4d5e786b9f7f292",
           "size_bytes": 2943120,
           "sha256": "89e7112b4e3f51b3780ef2e334d16463a83428e36c2806ec0772de31424e2d98",
           "dimensions": "1254x1254",
-          "imagegen_calls": 2,
-          "edits": 1,
-          "visual_review": "pass",
+          "remote_readback": true,
           "scientifically_verified": false
         }
       }

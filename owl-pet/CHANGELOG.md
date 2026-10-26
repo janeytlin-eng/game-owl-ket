@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-26 17:42 +08:00
+
+- Revised #46 Mottled Wood Owl (*Strix ocellata*) to v2; indexed two newly read sources and reused two. One targeted edit removed the approximately three-month juvenile's adult-style white wing rows/long remiges; the complete reviewed PNG was archived. Unique species remains 159/251; scientific verification remains false.
+
+
 ## 2026-10-26 17:11 +08:00
 
 - Revised #45 Spotted Wood Owl (*Strix seloputo*) to v2; indexed two newly read Singapore sources and reused three. One targeted edit removed the pale fledgling's adult-style wing spots/long remiges; the complete reviewed PNG was archived. Unique species remains 159/251; scientific verification remains false.

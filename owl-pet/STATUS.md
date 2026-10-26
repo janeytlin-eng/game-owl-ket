@@ -1,3 +1,12 @@
+## 2026-10-26 #46 *Strix ocellata* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/46-strix-ocellata-v2.png](design/concepts/46-strix-ocellata-v2.png)
+- Archive commit/blob: `9668653af1d2602dd9108d630b84a54d5210b5ac` / `ec9dcd05d490ddad78a49ac6b4d5e786b9f7f292`; PNG 2,943,120 bytes; SHA-256 `89e7112b4e3f51b3780ef2e334d16463a83428e36c2806ec0772de31424e2d98`.
+- Research: 2 new indexed sources, 2 freshly re-read sources, 0 corrections.
+- Review: one targeted edit removed the approximately three-month juvenile's adult-style white wing rows and long layered remiges; final has exactly three labeled supported birds in a documented mango/tamarind agricultural-edge context.
+- Scientific status: pending; single rescued-bird evidence does not establish universal wild timing, feather sequence, sex measurements or subspecies-locality plumage.
+
 ## 2026-10-26 #45 *Strix seloputo* v2
 
 - Result: revised and archived; unique species remains 159/251.

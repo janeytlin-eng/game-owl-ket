@@ -67,4 +67,13 @@ Avoid: yellow irises, bright yellow bills, adult-length juvenile wings/tail, sno
 ```
 
 ### Stage
-RESEARCH_READY; image not yet generated.
+ARCHIVED; visual review passed after one targeted juvenile-wing edit. Scientific verification remains false.
+
+
+### v2 production result
+- Final file: `design/concepts/46-strix-ocellata-v2.png`.
+- Draft issue: juvenile retained long layered adult-like remiges and crisp white wing spots.
+- Applied edit: replaced those with a short rounded soft partly concealed developing wing, yellowish-buff coverts, diffuse barring and a concealed short tail; adults, text, habitat and support were preserved.
+- Original-resolution recheck: exactly three labeled birds; near-equal adults; untufted round heads, dark irises, muted orange eyelids, horn-dark bills and concentric facial-disc bars; all feet supported; pass.
+- PNG: 1254×1254 RGB, 2,943,120 bytes; SHA-256 `89e7112b4e3f51b3780ef2e334d16463a83428e36c2806ec0772de31424e2d98`; Git blob `ec9dcd05d490ddad78a49ac6b4d5e786b9f7f292`; immutable image commit `9668653af1d2602dd9108d630b84a54d5210b5ac`.
+- Unknowns retained: exact wild fledging age, continuous feather sequence, sex-specific measurements and subspecies-locality plumage; `scientifically_verified=false`.

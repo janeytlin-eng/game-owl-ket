@@ -1,3 +1,11 @@
+## 46 · Mottled Wood Owl · *Strix ocellata* v2
+
+- [Original PNG](concepts/46-strix-ocellata-v2.png) · 1254×1254 · 2,943,120 bytes · SHA-256 `89e7112b4e3f51b3780ef2e334d16463a83428e36c2806ec0772de31424e2d98`
+- Archive commit/blob: `9668653af1d2602dd9108d630b84a54d5210b5ac` / `ec9dcd05d490ddad78a49ac6b4d5e786b9f7f292`
+- Revision: evidence-bounded approximately three-month rescued-juvenile v2 with near-equal adults in a mango/tamarind grove beside cultivated plains.
+- Review: the draft juvenile had long layered adult-like remiges and crisp white spot rows; one targeted edit shortened/softened the wing, removed the rows and concealed the short tail. Exactly three labeled birds, dark irises, concentric face bars, spelling and all supports were rechecked. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-46-strix-ocellata-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1736+0800-cycle-4.md)
+
 ## 45 · Spotted Wood Owl · *Strix seloputo* v2
 
 - [Original PNG](concepts/45-strix-seloputo-v2.png) · 1254×1254 · 3,217,442 bytes · SHA-256 `cd3d2db4a180298d6141cb8d6f1990749ba206b4553c7b3874da0c17582dedf2`

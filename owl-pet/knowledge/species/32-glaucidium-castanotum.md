@@ -22,3 +22,10 @@
 ## 来源
 
 见 [SOURCE_INDEX](../../research/SOURCE_INDEX.md)：`CBOW-MIKKOLA-2013`、`CBOW-PEREGRINE-2026`、`CBOW-BIRDLIFE-2026`。
+
+
+## v2 修订（2026-10-26）
+
+新增 `CBOW-EBIRD-2025`，复用Mikkola印刷页406、Peregrine Fund和BirdLife。v1及v2首稿的幼鸟仍有清晰白翼斑和层叠成熟飞羽；定向编辑后改为蓬松、弥散且短软的中雏羽翼，胸腹纹理不完整，尾羽不作成熟声明。最终三鸟、标签、栗背、黄眼、纵纹下体、近等雌雄尺度与自然支撑通过原分辨率复查。
+
+图：`design/concepts/32-glaucidium-castanotum-v2.png`；1536×1024，728,556 bytes；SHA-256 `8b0e2491561b90bf0ae56ce2911774d56cfd82bcf949023b499202fba1c9dccd`；Git blob `b9ed7a2018f610fa53a20224dc364af17d385e78`；图像提交 `495c1bf335d5e61dbc10d986502980b2ef69aafc`。精确日龄、连续羽序、飞行能力及量化性别差异未知，`scientifically_verified=false`。运行记录：`production/runs/2026-10-26T1153+0800-cycle-2.md`。

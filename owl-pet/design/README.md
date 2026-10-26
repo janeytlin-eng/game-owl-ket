@@ -1,3 +1,11 @@
+## 47 · Brown Wood Owl · *Strix leptogrammica* v2
+
+- [Original PNG](concepts/47-strix-leptogrammica-v2.png) · 1254×1254 · 2,850,558 bytes · SHA-256 `643ba79e2f3886f3ecc5538051bcda04c4b2685df391addb72c4c961333d6a9e`
+- Archive commit/blob: `f2d24ca8f4810af840d6093323b6bbfae04e2853` / `1c4b66aae806329cd8406153df49f56e38ec1496`
+- Revision: evidence-bounded Sri Lankan 34-day cavity-chick v2, with moderately fuller female and an old jack-tree cavity at a home-garden/forest edge.
+- Review: one targeted edit replaced the chick's dark layered wing panel with short soft pale-rufous/ochre mesoptile and kept the tail concealed. Exactly three labeled birds, dark eyes, greenish-horn bills, adult throat/nuchal bands and all supports were rechecked. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-47-strix-leptogrammica-v2-evidence-increment) · [cycle record](../production/runs/2026-10-26T1743+0800-cycle-5.md)
+
 ## 46 · Mottled Wood Owl · *Strix ocellata* v2
 
 - [Original PNG](concepts/46-strix-ocellata-v2.png) · 1254×1254 · 2,943,120 bytes · SHA-256 `89e7112b4e3f51b3780ef2e334d16463a83428e36c2806ec0772de31424e2d98`

@@ -1,3 +1,12 @@
+## 2026-10-26 #47 *Strix leptogrammica* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/47-strix-leptogrammica-v2.png](design/concepts/47-strix-leptogrammica-v2.png)
+- Archive commit/blob: `f2d24ca8f4810af840d6093323b6bbfae04e2853` / `1c4b66aae806329cd8406153df49f56e38ec1496`; PNG 2,850,558 bytes; SHA-256 `643ba79e2f3886f3ecc5538051bcda04c4b2685df391addb72c4c961333d6a9e`.
+- Research: 2 new sources, 1 reused, 1 historical-record correction.
+- Review: one targeted edit replaced the 34-day chick's dark layered wing with short soft mesoptile; exactly three labeled supported birds in the documented old jack-tree cavity setting.
+- Scientific status: pending; exact feather geometry, universal timing, geographic variation and sex-specific linear measurements remain unknown.
+
 ## 2026-10-26 #46 *Strix ocellata* v2
 
 - Result: revised and archived; unique species remains 159/251.

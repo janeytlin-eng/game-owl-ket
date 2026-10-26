@@ -69,4 +69,12 @@ Avoid: yellow eyes, bright yellow bill, exaggerated female height, adult-length 
 ```
 
 ### Stage
-RESEARCH_READY; image not yet generated.
+ARCHIVED; visual review passed after one targeted juvenile-wing edit. Scientific verification remains false.
+
+
+### v2 production result
+- Final: `design/concepts/47-strix-leptogrammica-v2.png`.
+- Draft issue/edit: dark layered 34-day chick wing replaced by a short rounded pale-rufous/ochre fluffy developing wing; tail concealed; adults/text/habitat/support preserved.
+- Recheck passed at 1254×1254: exactly three labeled supported birds, dark eyes, greenish-horn bills, untufted heads, adult nuchal/throat bands and moderate female fullness.
+- PNG 2,850,558 bytes; SHA-256 `643ba79e2f3886f3ecc5538051bcda04c4b2685df391addb72c4c961333d6a9e`; blob `1c4b66aae806329cd8406153df49f56e38ec1496`; image commit `f2d24ca8f4810af840d6093323b6bbfae04e2853`.
+- Unknowns retained; scientifically_verified=false.

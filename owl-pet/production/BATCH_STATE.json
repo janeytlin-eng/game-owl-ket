@@ -3347,21 +3347,25 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": null,
-      "checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Glaucidium griseiceps",
-        "species_id": 39,
+      "active_lease": {
+        "owner": "scheduled-production",
+        "run_id": "2026-10-26T1454+0800-cycle-4",
+        "heartbeat_at": "2026-10-26T14:54:00+08:00",
+        "expires_at": "2026-10-26T15:09:00+08:00",
+        "species": "Glaucidium nubicola",
+        "species_id": 40,
         "version": 2,
-        "run_id": "2026-10-26T1446+0800-cycle-3",
-        "at": "2026-10-26T14:53:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1446+0800-cycle-3.md",
-        "commit_sha": "763613cd85ea0250f484a86cea67e2b9aedf7311",
-        "archive_commit": "f408fd84ad7b417fc78406be333b0cf076024fc7",
-        "next_cycle": 4,
-        "next_species": "Glaucidium nubicola",
-        "next_species_id": 40
+        "stage": "STARTED"
+      },
+      "checkpoint": {
+        "cycle": 4,
+        "stage": "STARTED",
+        "species": "Glaucidium nubicola",
+        "species_id": 40,
+        "version": 2,
+        "run_id": "2026-10-26T1454+0800-cycle-4",
+        "at": "2026-10-26T14:54:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1454+0800-cycle-4.md"
       }
     }
   ],
@@ -3448,6 +3452,15 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-26T14:53:00+08:00"
+  "active_lease": {
+    "owner": "scheduled-production",
+    "run_id": "2026-10-26T1454+0800-cycle-4",
+    "heartbeat_at": "2026-10-26T14:54:00+08:00",
+    "expires_at": "2026-10-26T15:09:00+08:00",
+    "species": "Glaucidium nubicola",
+    "species_id": 40,
+    "version": 2,
+    "stage": "STARTED"
+  },
+  "last_updated_at": "2026-10-26T14:54:00+08:00"
 }

@@ -3321,3 +3321,24 @@ Reused and re-read: `SRC-WEB-036-01` (Birds of Bolivia adult occurrence/image re
 - Reused `OWL-SRC-0049-C` (Peregrine Fund/Birds of the World synthesis, reread 2026-10-26): white-down hatchling, branching around one month, first flight around 46 days.
 - Design inference: show a supported 25–30-day clambering young with pale-rufous/cream down and short soft emerging wing; do not show flight or adult-complete remiges. Sexes remain near-equal in displayed height.
 - Linked image/version/run: `design/concepts/49-strix-woodfordii-v2.png`; `production/runs/2026-10-26T1835+0800-cycle-1.md`.
+
+
+## 2026-10-26 · #58 *Ketupa coromanda* v2 evidence increment
+
+### DEO-REDDY-RAMACHANDRAN-2023
+- Title: Breeding of the Dusky Eagle Owl *Ketupa coromanda* in Telangana, and its status in southern India
+- Authors/institution: Sriram Reddy & Gopalakrishna Ramachandran; Indian BIRDS 19(2):44–47
+- Year/publication: 2023; accessed 2026-10-26
+- Original URL: https://indianbirds.in/pdfs/IB_19_2_Reddy_Ramachandran_DuskyEagleOwl.pdf
+- Source type: primary species-specific field observation with photographs
+- Species/stage: *Ketupa coromanda* adults, breeding pair and approximately 8–10-week juvenile
+- Evidence actually read: p.44 records paired adults, with the female identified as slightly larger after mating behaviour; a large dry-stick nest c.20 m high in a tall tree beside reserve forest. p.45 reports a camouflaged juvenile moving among neighbouring branches on 13 March 2021, estimated at 8–10 weeks by appearance and behaviour; parents watched from a distance. The site adjoined a large waterbody, wooded forest and rice cultivation.
+- Page/figure: pp.44–45; photographs 71–73; lines 17–60 and 65–102 in extracted PDF.
+- Limits/confidence: two opportunistic locality records; juvenile age is a field estimate, not a measured growth series; the female-size inference comes from one behaviorally sexed pair. High for the observed stage/context, medium for generalizing age or dimorphism.
+- Design/review use: supported branch-moving 8–10-week juvenile beside a high reused stick nest; only subtle female fullness; do not infer an exact remex sequence or universal size ratio.
+- Linked record/version/run: `knowledge/species/58-ketupa-coromanda.md`; `design/concepts/58-ketupa-coromanda-v2.png`; `production/runs/2026-10-26T2225+0800-cycle-2.md`.
+
+### Reused sources and design boundary
+- Reused `DEO-AVIBASE-2026`, `DEO-BIRDLIFE-2026`, `DEO-ADW-2026`, and `DEO-JUV-OBS-2026`.
+- Freshly read Peregrine Fund synthesis supports yellow eyes, long ear tufts, lowland riparian/woodland habitat, old high stick nests in tree forks and major uncertainty in breeding timing.
+- Source fact versus inference: the primary paper supports an 8–10-week branch-moving youngster but not exact feather geometry. Wings stay short and down-softened; scientific calibration remains pending.

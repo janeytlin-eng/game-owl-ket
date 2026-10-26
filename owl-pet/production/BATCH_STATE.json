@@ -3897,30 +3897,36 @@
         "species": "Aegolius ridgwayi",
         "species_id": 96,
         "version": 2,
-        "heartbeat_at": "2026-10-27T05:55:00+08:00",
-        "expires_at": "2026-10-27T06:10:00+08:00"
+        "heartbeat_at": "2026-10-27T06:04:00+08:00",
+        "expires_at": "2026-10-27T06:19:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Aegolius ridgwayi",
         "species_id": 96,
         "version": 2,
         "run_id": "2026-10-27T0334+0800-cycle-6",
-        "at": "2026-10-27T05:55:00+08:00",
+        "at": "2026-10-27T06:04:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-6.md",
         "evidence": {
           "generation_count": 1,
-          "edit_count": 0,
-          "persistent_draft": "owl-pet/production/attempts/96-aegolius-ridgwayi-v2-draft1.png",
-          "blob_sha": "ef618018fbd0dc800ef8f41949c6bbcd4416b1e2",
-          "sha256": "2af2b9f68cf985e8526c0701600cfea6f8c8b7d25cf995ed2aa10f3df780a29d",
+          "edit_count": 1,
+          "persistent_reviewed": "owl-pet/production/attempts/96-aegolius-ridgwayi-v2-reviewed.png",
+          "blob_sha": "6fdda7084787718529fd4941353cd7c74627f748",
+          "sha256": "07a25002fe02bc54c18f3e57334a3b9ad9c987110670a8a4d718d7b787c3f3b9",
           "dimensions": "1350x900",
-          "bytes": 638833,
-          "review_issue": "juvenile wing extends as long layered adult-like blade; targeted shortening/softening required"
+          "bytes": 621172,
+          "original_resolution_review": true,
+          "scientifically_verified": false,
+          "unresolved": [
+            "Exact juvenile age and flight threshold unknown.",
+            "Nest type is not asserted.",
+            "Robust sex ratio unknown."
+          ]
         }
       },
-      "last_updated_at": "2026-10-27T05:55:00+08:00",
+      "last_updated_at": "2026-10-27T06:04:00+08:00",
       "audit_notes": [
         "2026-10-27 05:07 +0800: cycle 4 #80 Otus sunia v2 readback verified; archive 14a66e1, verification ab4741f. Unique species remains 159/251; next_cycle 5.",
         "2026-10-27 05:39 +0800: cycle 5 #95 Pulsatrix melanota v2 readback verified; archive ec7ca7c, verification 8de8baa. Unique remains 159/251; next_cycle 6."
@@ -4019,10 +4025,10 @@
     "species": "Aegolius ridgwayi",
     "species_id": 96,
     "version": 2,
-    "heartbeat_at": "2026-10-27T05:55:00+08:00",
-    "expires_at": "2026-10-27T06:10:00+08:00"
+    "heartbeat_at": "2026-10-27T06:04:00+08:00",
+    "expires_at": "2026-10-27T06:19:00+08:00"
   },
-  "last_updated_at": "2026-10-27T05:55:00+08:00",
+  "last_updated_at": "2026-10-27T06:04:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

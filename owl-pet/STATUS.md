@@ -990,3 +990,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-26 #33 *Taenioptynx brodiei* v2: REVISION generated and original-resolution reviewed without edit. Male rear view now clearly exposes paired nape false eyes; center older immature has stronger vertical head streaking, softer incomplete body pattern, shorter formed wings/tail and full support. Exact age, feather sequence, flight ability, lineage/morph and quantified sex difference remain unknown, so `scientifically_verified=false`. Unique remains 159/251; manifest entries 344. Image commit `081ea81c554da8ed8e8b719498c392f112ba841c`; [run](production/runs/2026-10-26T1215+0800-cycle-3.md).
+
+
+- 2026-10-26 #34 *Glaucidium hardyi* v2: REVISION generated and original-resolution reviewed without edit. Adult male rear view exposes nape false eyes; center older juvenile keeps an unspotted crown, diffuse weak underpart streaking, soft wings and no mature-tail claim. Exact age, feather sequence, flight ability and sex measurements remain unknown, so `scientifically_verified=false`. Unique remains 159/251; manifest entries 345. Image commit `e7474fc3f3c6645c283f1726eb52eb41952ee589`; [run](production/runs/2026-10-26T1229+0800-cycle-4.md).

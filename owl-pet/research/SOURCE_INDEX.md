@@ -3486,3 +3486,33 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Confidence:** high for NSW identification, habitat and nesting summary.
 - **Linked records:** `knowledge/species/69-tyto-novaehollandiae.md`; `design/concepts/69-tyto-novaehollandiae-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-5.md`
 - **Fact / inference boundary:** profile facts are listed above; choosing a dark-morph nominate family and a single hollow scene is a bounded design decision, not a species-wide universal.
+
+
+### BARK-BULLOCK-2026 — Barking Owl breeding and juvenile dependence
+- **Title:** Breeding and diet of a family of Barking Owls *Ninox connivens* on the mid-north coast of New South Wales
+- **Author / institution:** Trevor Bullock; Australian Field Ornithology / BirdLife Australia
+- **Year:** 2026 (volume 43)
+- **Stable URL:** https://afo.birdlife.org.au/afo/index.php/afo/article/view/2416
+- **Accessed:** 2026-10-27
+- **Source type:** Primary longitudinal field observation
+- **Species / stage:** *Ninox connivens*; breeding, nestling and post-fledging dependent juvenile
+- **Actually read:** Article landing page and abstract
+- **Page / section:** Abstract
+- **Evidence facts:** One family was followed from 2023 to 2025 with juvenile independence observed into autumn 2026. Reported nestling periods were 37–39 days for the first two fledglings and 40–41 days for the third; post-fledging dependence lasted about 5–6 months.
+- **Design use:** Supports depicting a formed, perching recent fledgling that remains dependent rather than treating fledging as immediate independence. It does not establish an exact plumage sequence for every age.
+- **Limitations / confidence:** Single family/site and abstract-level read; useful primary development timing, but not a universal age-to-plumage map. High confidence for the reported observations, moderate transferability.
+- **Related records/assets:** `owl-pet/production/runs/2026-10-27T0034+0800-cycle-6.md`; planned `owl-pet/design/concepts/71-ninox-connivens-v2.png`
+
+### BARK-MV-2026 — Museum Victoria specimen summary (conflict note)
+- **Title:** Barking Owl, *Ninox connivens*
+- **Author / institution:** Museums Victoria Collections
+- **Year / publication date:** undated collection page; accessed 2026-10-27
+- **Stable URL:** https://collections.museumsvictoria.com.au/species/8473
+- **Source type:** Museum institutional collection/species page
+- **Species / stage:** *Ninox connivens* adults; nesting overview
+- **Actually read:** Identification and biology sections on the public page
+- **Page / section:** “What does it look like?” and “Biology”
+- **Evidence facts:** Page describes pale underparts with rufous/grey-brown streaking, white-spotted wings/back, white eyebrows, yellow talons, males up to about 44 cm, females about 39 cm, permanent pairs and tree-hollow nesting. It states brown eyes.
+- **Conflict / decision:** The brown-eye wording conflicts with the yellow-eye direction in Australian Museum `BARK-AM-2022` and Mikkola `WHSO-MIKKOLA-2013`. The concept plate retains yellow irises and records this page only as a conflict; no unsupported reconciliation is claimed.
+- **Limitations / confidence:** Institutional overview without a cited specimen-age or iris-method context on the page; moderate confidence for general morphology, low confidence for overriding the iris consensus.
+- **Related records/assets:** `owl-pet/production/runs/2026-10-27T0034+0800-cycle-6.md`

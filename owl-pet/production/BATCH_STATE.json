@@ -3533,27 +3533,32 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1908+0800-cycle-3",
         "cycle": 3,
-        "heartbeat_at": "2026-10-26T19:21:00+08:00",
-        "expires_at": "2026-10-26T19:36:00+08:00"
+        "heartbeat_at": "2026-10-26T19:24:00+08:00",
+        "expires_at": "2026-10-26T19:39:00+08:00"
       },
       "checkpoint": {
         "cycle": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Strix rufipes",
         "species_id": 51,
         "version": 2,
         "run_id": "2026-10-26T1908+0800-cycle-3",
-        "at": "2026-10-26T19:21:00+08:00",
+        "at": "2026-10-26T19:24:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T1908+0800-cycle-3.md",
         "evidence": {
-          "draft_commit": "9ae0602d17490badb3c2d29d7f22087617b18234",
-          "final_path": "owl-pet/design/concepts/51-strix-rufipes-v2.png",
+          "image_path": "owl-pet/design/concepts/51-strix-rufipes-v2.png",
+          "image_commit": "74eec69998b2eccb442aaa43a90d8debfcaf1964",
           "git_blob": "e873e3ce29d6ea615ecf2f79b78463df1da369d9",
           "size_bytes": 2867007,
           "sha256": "75883fe11ddd5bf97a780f6b22736aaa1228d8c0040a947683237b00e6b244da",
           "dimensions": "1254x1254",
-          "edit": "adult proportions only: female subtly fuller, near-equal height",
-          "review_result": "PASS visual review; science remains pending"
+          "metadata_paths": [
+            "owl-pet/design/manifest.json",
+            "owl-pet/design/README.md",
+            "owl-pet/knowledge/species/51-strix-rufipes.md",
+            "owl-pet/STATUS.md",
+            "owl-pet/CHANGELOG.md"
+          ]
         }
       }
     }

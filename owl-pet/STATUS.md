@@ -1,3 +1,11 @@
+## 2026-10-26 #51 *Strix rufipes* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/51-strix-rufipes-v2.png](design/concepts/51-strix-rufipes-v2.png)
+- Image commit/blob: `74eec69998b2eccb442aaa43a90d8debfcaf1964` / `e873e3ce29d6ea615ecf2f79b78463df1da369d9`; 1254×1254; 2,867,007 bytes; SHA-256 `75883fe11ddd5bf97a780f6b22736aaa1228d8c0040a947683237b00e6b244da`.
+- Review: one adult-scale edit; original-resolution recheck passed. Science pending.
+- Run: [production/runs/2026-10-26T1908+0800-cycle-3.md](production/runs/2026-10-26T1908+0800-cycle-3.md)
+
 ## 2026-10-26 #50 *Strix virgata* v2
 
 - Result: revised and archived; unique species remains 159/251.

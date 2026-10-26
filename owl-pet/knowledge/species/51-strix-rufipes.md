@@ -36,3 +36,12 @@
 - Added `RLO-FIGUEROA-2017` (*The Owls of Chile*): a labelled rehabilitation photograph identifies a juvenile as approximately one month old. It supports age/plumage direction only, not wild behavior or exact nest setting.
 - v2 selects an approximately one-month warm-buff juvenile with faint dusky barring and developing but shorter/softer wings, standing low at a natural *Nothofagus* cavity rim. The 34-day nestling period supports a non-flying portrayal near this age; no exact flight claim is made.
 - Adult female remains only subtly fuller because accessible sources give direction but not a cross-checked standing-height ratio.
+
+
+## 2026-10-26 production result — v2
+
+- Final image: `design/concepts/51-strix-rufipes-v2.png` (1254×1254; 2,867,007 bytes; SHA-256 `75883fe11ddd5bf97a780f6b22736aaa1228d8c0040a947683237b00e6b244da`).
+- Draft passed juvenile age/plumage, morphology, labels and support but showed the male as larger than the female. One targeted adult-proportion edit made the female subtly fuller and comparable in height; original-resolution recheck passed.
+- Juvenile remains approximately one month, warm-buff and faintly barred with shorter wing/tail, low natural support and no flight claim.
+- Sources added: `RLO-ESCOBAR-2022`, `RLO-FIGUEROA-2017`; reused two existing adult/taxonomy accounts.
+- Scientific status remains pending exact plumage sequence and population/subspecies calibration.

@@ -1,3 +1,9 @@
+## 51 · Rufous-legged Owl · *Strix rufipes* v2
+
+- [Original PNG](concepts/51-strix-rufipes-v2.png) · 1254×1254 · 2,867,007 bytes · SHA-256 `75883fe11ddd5bf97a780f6b22736aaa1228d8c0040a947683237b00e6b244da`
+- Archive image commit/blob: `74eec69998b2eccb442aaa43a90d8debfcaf1964` / `e873e3ce29d6ea615ecf2f79b78463df1da369d9`
+- Revision: age-bounded approximately one-month juvenile from Chilean evidence; one targeted adult-scale edit made the female subtly fuller without exaggerating height. Science pending.
+
 ## 50 · Mottled Owl · *Strix virgata* v2
 
 - [Original PNG](concepts/50-strix-virgata-v2.png) · 1254×1254 · 2,959,269 bytes · SHA-256 `97316ac808ffab3fba69957392c7cd458628f6193bcbb3e02e503d4a573f5b6d`

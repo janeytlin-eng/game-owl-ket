@@ -1,5 +1,10 @@
 # 更新记录
 
+## 2026-10-26 19:24 +08:00
+
+- Revised #51 Rufous-legged Owl (*Strix rufipes*) to v2; added two sources, calibrated an approximately one-month juvenile against a 34-day nestling period, and corrected the adult sex-size direction without exaggerating height. Unique species remains 159/251; science pending.
+
+
 ## 2026-10-26 19:03 +08:00
 
 - Revised #50 Mottled Owl (*Strix virgata*) to v2; reused five sources without duplicate credit, corrected the Gerhardt et al. cross-species mapping, calibrated an 18–21-day cavity nestling, and removed its adult-like wing spots/remiges. Unique species remains 159/251; science pending.

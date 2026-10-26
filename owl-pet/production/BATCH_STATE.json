@@ -4047,22 +4047,36 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "2026-10-27T0728+0800-cycle-1",
-        "heartbeat_at": "2026-10-27T07:28:38.000+08:00",
-        "expires_at": "2026-10-27T07:43:38.000+08:00"
+        "heartbeat_at": "2026-10-27T07:38:00.000+08:00",
+        "expires_at": "2026-10-27T07:53:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix davidi",
         "species_id": 132,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-1",
-        "at": "2026-10-27T07:28:38.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-1.md"
+        "at": "2026-10-27T07:38:00.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-1.md",
+        "evidence": {
+          "new_source_ids": [
+            "DAV-CLEMENTS-2022"
+          ],
+          "reused_source_ids": [
+            "DAV-SCHERZINGER-2014",
+            "DAV-MIK2013-348"
+          ],
+          "unverified_leads": [
+            "DAV-SCHERZINGER-2004-BHL"
+          ],
+          "prompt_saved": true
+        }
       },
-      "last_updated_at": "2026-10-27T07:28:38.000+08:00",
+      "last_updated_at": "2026-10-27T07:38:00.000+08:00",
       "audit_notes": [
-        "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired."
+        "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
+        "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed."
       ]
     }
   ],

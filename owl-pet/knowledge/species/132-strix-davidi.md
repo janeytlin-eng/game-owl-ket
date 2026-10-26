@@ -13,3 +13,11 @@ exec-7dd91830-df8f-43be-a946-08f9899f7d88 actualviewed45.7seditwait. Adultcrowns
 FullPNG3155885bytes1536x1024 SHA256c34151703cf5ba90b9a95094f8531315a3ec4cd54713ff4d5a027c7f5dc65831 Gitblobcf6c3a3e8319c50563e81e386de209eb890ddfae; workspace132-strix-davidi-v1.png copiednonoverwrite. New unique129→130pendingverification, failed#109 noincrement.
 
 [Run](../../production/runs/2026-10-18T1603+0800-cycle-2.md) [Original](../../design/concepts/132-strix-davidi-v1.png)
+
+## v2 research increment — 2026-10-27
+
+- Freshly reopened and read `DAV-SCHERZINGER-2014` web full text: field work 1995–2013 and nest-box brood records; relevant morphology/young material pp.54–93, especially pp.56–69, 75 and 84–85/Figs.2, 5, 7, 11, 17. The reported concentric face ring is rejected; use radial streaks. Fig.11 supports an approximately four-week young, not a flight-capable fledgling.
+- Added `DAV-CLEMENTS-2022` as an authoritative taxonomy mapping/conflict source. It does not change project ID #132 or transfer traits from #44.
+- Uploaded guide `DAV-MIK2013-348` reused from earlier actually-read printed pp.348–349/PDF350–351; current page-render attempt failed, so no new figure claim.
+- v1 actual image reviewed: composition/supports are usable, but bright dotted facial halos and excessive adult white spotting conflict with the primary revision. v2 targets those adults while preserving the supported four-week box-opening juvenile.
+- Scientific verification remains false.

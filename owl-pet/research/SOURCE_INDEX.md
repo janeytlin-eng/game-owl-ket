@@ -1,3 +1,11 @@
+## 2026-10-26 #29 Glaucidium capense v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| CAP-FISHPOOL-2023 | [The distribution, specimens and status of Chestnut Owlet *Glaucidium (capense) castaneum* and Albertine Owlet *G. (c.) albertinum*](https://doi.org/10.25226/bboc.v143i1.2023.a6) | Lincoln D. C. Fishpool / Bulletin of the British Ornithologists' Club | 2023; accessed 2026-10-26 | peer-reviewed primary museum/specimen reassessment; full text read | *G. capense* complex; adult morphology/taxonomy | Reassesses museum material, distribution, morphology and voice; records *capense* complex in tall moist woodland and drier forest types; provides sex-separated folded-wing/tail statistics for *G. c. ngamiense* and demonstrates substantial taxonomic/phenotypic complexity. | Does not provide a juvenile developmental series for nominal *capense*. v2 avoids claiming a subspecies, retains close adult display height, and does not transfer juvenile barring chronology from another pygmy-owl species. | [species #29](../knowledge/species/29-glaucidium-capense.md); [v2 run](../production/runs/2026-10-26T1130+0800-cycle-5.md) |
+
+**Reuse / boundary.** Reused `CAP-TIPPETT2024` and `CAP-MIK2013-276` for adult fine barring, yellow eyes, pale greenish bill, shoulder band, habitat and cavity direction; retained `CAP-COULONDRE2025-371219` only as a photo/juvenile lead. The reviewed v1 still gives the fledgling adult-like long layered remiges and strong tail barring. Because no primary day-by-day juvenile series was located, v2 uses a conservative supported recent fledgling with shorter, softer wings/tail and incomplete barring; scientific verification remains false.
+
 ## 2026-10-26 #28 Glaucidium perlatum v2 evidence increment
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

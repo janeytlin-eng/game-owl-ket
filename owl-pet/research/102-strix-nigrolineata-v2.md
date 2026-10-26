@@ -29,4 +29,6 @@ Use case: stylized-concept. Create a premium naturalistic 3D electronic owl-pet 
 
 ## Review
 
-Pending generated-image inspection.
+Full-resolution final candidate viewed after one targeted edit. PASS for concept archive: exactly three owls; adults have rounded tuftless heads, mostly uniform dark crown/back/wings, dark reddish-brown eyes, orange-yellow bills, black throat bibs, dense horizontal black bars on white underparts, barred feathered tarsi and visibly bare yellow-orange distal toes. Adults are near-equal height, with no automatic female-larger scaling. The juvenile is cream/dusky barred, alert, belly and both feet supported, with short soft down-covered developing wings and no adult black mask or adult remiges. The substrate reads as a living bromeliad/orchid root platform in a large live tree, not a cavity or straw nest. Text is legible and species number/name are correct. Remaining unknowns: exact juvenile age and flight threshold, sexed linear dimensions, universal nest choice and precise toe geometry. scientifically_verified=false.
+
+Problem → evidence → change → recheck: the first render had adult-like juvenile remiges; because no source supplies a transferable wing chronology, one targeted imagegen edit shortened and softened the wings. The edited PNG was reopened at original resolution and passed the checklist. This validates the correction only for this concept, not a universal juvenile template.

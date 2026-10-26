@@ -3623,26 +3623,27 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2225+0800-cycle-2",
         "cycle": 2,
-        "heartbeat_at": "2026-10-26T22:08:00+08:00",
-        "expires_at": "2026-10-26T22:23:00+08:00"
+        "heartbeat_at": "2026-10-26T22:12:00+08:00",
+        "expires_at": "2026-10-26T22:27:00+08:00"
       },
       "checkpoint": {
         "cycle": 2,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "species": "Ketupa coromanda",
         "species_id": 58,
         "version": 2,
         "run_id": "2026-10-26T2225+0800-cycle-2",
-        "at": "2026-10-26T22:08:00+08:00",
+        "at": "2026-10-26T22:12:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2225+0800-cycle-2.md",
         "evidence": {
-          "start_commit": "ae94aba99778b50666dfaa59324e01c51170754e",
-          "source_index_commit": "3acd5968d6319bbec93f851838e136993f304232",
-          "species_record_commit": "482204b6dfeba71e37d68c1493ecf54bd9b7de80",
-          "run_record_commit": "7f35bddd48c05d754c713f7eb3e016f30b5f7b61",
-          "new_sources": 1,
-          "reused_sources": 4,
-          "corrected_sources": 0,
+          "research_ready_commit": "dea54af0a041bf3a861707036053301bbab459d5",
+          "image_commit": "8731cec781e5d0af6133b5e9247f8b8d340c3a49",
+          "review_record_commit": "1b5e1dc327090fb44aa17e0c0febade8ec51c5c5",
+          "git_blob": "c7edc3b93add95467c834fbb39fd0f0ca99c38d3",
+          "sha256": "0d2bbd8561c26e778ce1d2f681a058c32f90a48b4fdebe08fe57fc07ea6f6a7a",
+          "size_bytes": 667562,
+          "dimensions": "1350x900",
+          "edit_count": 1,
           "scientifically_verified": false
         }
       }

@@ -3163,22 +3163,23 @@
       "active_lease": {
         "owner": "scheduled-production",
         "run_id": "2026-10-26T1116+0800-cycle-4",
-        "heartbeat_at": "2026-10-26T11:16:00+08:00",
-        "expires_at": "2026-10-26T11:31:00+08:00",
+        "heartbeat_at": "2026-10-26T11:20:00+08:00",
+        "expires_at": "2026-10-26T11:35:00+08:00",
         "species": "Glaucidium perlatum",
         "species_id": 28,
         "version": 2,
-        "stage": "STARTED"
+        "stage": "RESEARCH_READY"
       },
       "checkpoint": {
         "cycle": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Glaucidium perlatum",
         "species_id": 28,
         "version": 2,
         "run_id": "2026-10-26T1116+0800-cycle-4",
-        "at": "2026-10-26T11:16:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1116+0800-cycle-4.md"
+        "at": "2026-10-26T11:20:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1116+0800-cycle-4.md",
+        "evidence_commit": "de3cbf1af769a57fba8916c46fa1a8ea1aa756a9"
       }
     }
   ],

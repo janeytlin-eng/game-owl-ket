@@ -21,3 +21,11 @@ Style/medium: same soft hand-painted 3D storybook character concept style as pre
 Composition/framing: landscape 3:2; adult male left, adult female right, juvenile centered lower/front; full bodies and all feet visible; three poses varied but calm; straight coherent head/eye/beak perspective.
 Text: small clean labels “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”; title “58 DUSKY EAGLE-OWL”; scientific subtitle “Ketupa coromanda (Bubo coromandus)”.
 Constraints: natural support and toe contact; no exaggerated female size; no mature juvenile flight feathers or long tail; no flying juvenile; no extra birds; no watermark; do not mix orange-eyed Eurasian Eagle-Owl's heavy buff barring or Spot-bellied Eagle-Owl's huge sideways ear tufts.
+
+
+## v2 evidence increment — 2026-10-26
+- New primary source `DEO-REDDY-RAMACHANDRAN-2023`: pp.44–45 document adults at a high dry-stick nest and an approximately 8–10-week juvenile moving among neighbouring branches while parents watched. The locality combined a large waterbody, wooded forest and rice cultivation.
+- One behaviorally sexed pair had a slightly larger female; render only subtle fullness and do not generalize a precise ratio.
+- Fresh Peregrine Fund re-read supports clear yellow eyes, long ear tufts, lowland near-water habitat and old high stick nests; it explicitly notes major breeding-stage uncertainty.
+- v2 stage: supported 8–10-week branch-moving juvenile, not a hatchling and not shown flying. Exact remex sequence remains unknown.
+- Sources: 1 new, 4 reused, 0 corrected. Mikkola uploaded guide remains unextractable for verified page evidence.

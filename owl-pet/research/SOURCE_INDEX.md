@@ -3531,3 +3531,32 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Design use:** Supports a naturally gripping approximately 5-week brancher with formed wings and defined tufts, rather than a down-only hatchling or a fully adult-plumaged juvenile; supports ground-nest grass/leaf context rather than a tree cavity.
 - **Limitations / confidence:** One nest in Panama; ages are estimates, only one chick survived to the final observation, and plumage transfer across subspecies/localities is uncertain. High confidence for the reported individual and nest, moderate generalizability.
 - **Related records/assets:** `owl-pet/production/runs/2026-10-27T0334+0800-cycle-1.md`; planned `owl-pet/design/concepts/76-asio-clamator-v2.png`
+
+
+## STY-CADENA-2018
+- **Title:** Notes on the diet, juvenile development and distribution of the Stygian Owl *Asio stygius* in Ecuador
+- **Authors / institution:** Héctor Cadena-Ortíz, Jorge Bedoya, Glenda M. Pozo-Zamora, Julie Watson & Jorge Brito; Revista Ecuatoriana de Ornitología
+- **Year / publication:** 2018; received 2016-12-12, accepted 2018-06-21, online 2018-09-13
+- **URL / DOI:** https://doi.org/10.18272/reo.v0i3.773 ; full text https://revistas.usfq.edu.ec/index.php/reo/en/article/download/773/1244/3472
+- **Accessed:** 2026-10-27
+- **Source type:** Primary field study; full 12-page PDF text actually read
+- **Species / stage:** *Asio stygius* in Pichincha, Ecuador; two juveniles followed for 35 days, first seen at an inferred age greater than one month
+- **Pages / sections / figures:** printed pp. 20–26 (PDF pp. 1–7), especially Methods pp. 21–22, Results/Table 3/Fig. 2 pp. 23–24, Discussion pp. 25–26
+- **Verified facts:** juveniles were observed perched between adults; yellow irises persisted; facial disc was black, ear tufts small, scattered body down produced a fluffy aspect, and pale feathers occurred on the rear head. Belly barring darkened over time and parallel herringbone-like adult-direction chest lines began appearing. By 20 May the juveniles rapidly changed branches and one spread its wings; authors inferred they were older than one month when first seen because 27-day chicks in another study still could not perch high. The family used an *Inga* perch at about 1.5 m in a rural site with pasture, scattered fruit trees and native vegetation remnants.
+- **Evidence limitations / conflicts / confidence:** two juveniles from one Ecuador site; initial age is inferred, not hatch-dated. It does not establish a universal flight threshold, exact feather lengths, subspecies-wide plumage, or sex ratio. High confidence for the observed plumage/activity sequence at this site.
+- **Design / review decision:** supports a naturally branch-perched, >1-month juvenile with yellow eyes, black face, small tufts, remaining down, barred belly and developing—not adult-identical—formed wings; supports dynamic but fully supported branch stance. Do not depict a helpless down-only chick or claim an exact fledging day.
+- **Links:** [Cycle 2 run](../production/runs/2026-10-27T0334+0800-cycle-2.md) · target `design/concepts/77-asio-stygius-v2.png`
+
+## STY-AMARO-2024
+- **Title:** Observations of ground nesting, diet, and distribution of Stygian Owl (*Asio stygius siguapa*) on Isla de la Juventud, Cuba
+- **Author / institution:** Seriocha Amaro-Valdés; Instituto de Ecología y Sistemática; Journal of Caribbean Ornithology 37
+- **Year / publication:** 2024-03-13
+- **URL / DOI:** https://doi.org/10.55431/jco.2024.37.18-26 ; https://jco.birdscaribbean.org/index.php/jco/article/view/1405
+- **Accessed:** 2026-10-27
+- **Source type:** Primary research note; publisher abstract and metadata actually read; full PDF retrieval failed in this run
+- **Species / stage:** *Asio stygius siguapa*; adult nesting record
+- **Page / section:** journal pp. 18–26; publisher abstract only
+- **Verified facts:** an adult of the Cuban endemic subspecies was observed nesting on the ground on Isla de la Juventud in October 2006; the authors treat this as confirmation of ground nesting in the Cuban archipelago.
+- **Evidence limitations / conflicts / confidence:** abstract-only verification; no chick morphology, nest microstructure or photographs were read. Cuban subspecies facts are not automatically transferred to the Ecuador juvenile concept.
+- **Design / review decision:** use only as corroboration that ground nesting occurs within the species complex; it does not justify adding a Cuban nest or juvenile details to this Ecuador-bounded v2 plate.
+- **Links:** [Cycle 2 run](../production/runs/2026-10-27T0334+0800-cycle-2.md)

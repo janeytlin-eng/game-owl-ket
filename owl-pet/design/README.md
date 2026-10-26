@@ -897,3 +897,6 @@ Fresh rebuild removes the residual mechanical juvenile ventral pattern direction
 
 
 - `34-glaucidium-hardyi-v2.png` — #34 *Glaucidium hardyi* v2 revision, reviewed without edit. Male nape false eyes are visible; adults retain the gray spotted crown/rufous mantle contrast and near-equal scale; center older juvenile has an unspotted crown, diffuse weak streaking, soft wings and no mature-tail claim. Exact age, continuous feather sequence, flight ability and sex measurements remain unknown; scientifically verified: no. Image commit `e7474fc3f3c6645c283f1726eb52eb41952ee589`; [run](../production/runs/2026-10-26T1229+0800-cycle-4.md).
+
+
+- `35-glaucidium-jardinii-v2.png` — #35 *Glaucidium jardinii* v2 revision; one targeted edit removed adult-like white wing spots from the age-unknown middle juvenile and softened/shortened its wing. Adult male nape false eyes, adult spotted crowns, white throat/chest, near-equal adult scale, three labels and natural supports were reviewed at original resolution. Exact age, continuous feather sequence and flight ability remain unknown; scientifically verified: no. Image commit `930c6054adc72a781ef676d586667bbd89c5193d`; [run](../production/runs/2026-10-26T1245+0800-cycle-5.md).

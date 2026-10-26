@@ -1,3 +1,11 @@
+## 2026-10-27 #127 *Megascops albogularis* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/127-megascops-albogularis-v2.png](design/concepts/127-megascops-albogularis-v2.png)
+- Git blob `88a5fa85a20f799c98268d0ff682ffc98f285468`; 1536×1024; 2,930,939 bytes; SHA-256 `67878e0b899fcb9a063f45b3a1e260a6c1d9b78bfa5037cef3f6fd352bba90bc`.
+- Research: 1 new institutional field record, 3 reused. Review: one juvenile iris/wing edit; original-resolution recheck passed. Science pending.
+- Run: [production/runs/2026-10-27T0533+0800-cycle-6.md](production/runs/2026-10-27T0533+0800-cycle-6.md)
+
 ## 2026-10-27 #124 *Ketupa philippensis* v2
 
 - Result: revised and archived; unique species remains 159/251.

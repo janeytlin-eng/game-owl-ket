@@ -1,3 +1,10 @@
+## 127 · White-throated Screech-Owl · *Megascops albogularis* v2
+
+- [Original PNG](concepts/127-megascops-albogularis-v2.png) · 1536×1024 · 2,930,939 bytes · SHA-256 `67878e0b899fcb9a063f45b3a1e260a6c1d9b78bfa5037cef3f6fd352bba90bc`
+- Git blob: `88a5fa85a20f799c98268d0ff682ffc98f285468`
+- Revision: one targeted juvenile eye/wing edit after the first output claimed a bright iris and showed an adult-layered wing. Original-resolution review passed; science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-6.md)
+
 ## 124 · Philippine Eagle-Owl · *Ketupa philippensis* v2
 
 - [Original PNG](concepts/124-ketupa-philippensis-v2.png) · 1536×1024 · 2,882,949 bytes · SHA-256 `4b008554eb05591f61179174a5e322fbf464e17e189fe50fe3edc6acff80a875`

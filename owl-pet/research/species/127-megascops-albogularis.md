@@ -19,3 +19,10 @@ Create a polished scientific-character concept sheet in the repository’s estab
 ## Open uncertainties
 
 Juvenile exact age, iris pigmentation, continuous feather sequence, subspecies assignment of the photographed young, sex-specific measurements and individual color variation remain unknown. Scientific verification remains false.
+
+
+## v2 production and review
+
+- Final original: `design/concepts/127-megascops-albogularis-v2.png`; Git blob `88a5fa85a20f799c98268d0ff682ffc98f285468`; SHA-256 `67878e0b899fcb9a063f45b3a1e260a6c1d9b78bfa5037cef3f6fd352bba90bc`; 1536×1024; 2,930,939 bytes.
+- First output claimed a bright amber juvenile iris and showed a long adult-layered wing; one targeted edit changed the eye to unresolved dark brown, shortened/softened the formed wing and concealed the tail. Original-resolution review passed.
+- Scientific status remains false.

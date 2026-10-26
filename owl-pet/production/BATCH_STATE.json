@@ -3835,31 +3835,29 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-27T0334+0800-cycle-1",
         "cycle": 1,
-        "heartbeat_at": "2026-10-27T03:49:00+08:00",
-        "expires_at": "2026-10-27T04:04:00+08:00"
+        "heartbeat_at": "2026-10-27T03:52:00+08:00",
+        "expires_at": "2026-10-27T04:07:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Asio clamator",
         "species_id": 76,
         "version": 2,
         "run_id": "2026-10-27T0334+0800-cycle-1",
-        "at": "2026-10-27T03:49:00+08:00",
+        "at": "2026-10-27T03:52:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0334+0800-cycle-1.md",
         "evidence": {
-          "run_record_commit": "ac5122ca544ef4d9f75b513f5bc738e0c7291dc1",
-          "image_stage_commit": "e23fad300e742f9f1d0906670745d5c27485e455",
-          "archive_candidate": "owl-pet/design/concepts/76-asio-clamator-v2.png",
+          "image_commit": "d69581f81fc48a662eac5e1bc5216f9b03db5534",
+          "run_record_commit": "899089f4f2dbdc14e699bcca7ee864630429c26a",
+          "image_blob": "92c81389fb3335ba08f89b6ff5fd7816738e0567",
+          "concept_path": "owl-pet/design/concepts/76-asio-clamator-v2.png",
+          "asset_path": "owl-pet/production/assets/76-asio-clamator-v2-reviewed.png",
           "sha256": "8a4013f7211b119cbb2688245d94475621abba754e03faa5153eb1b05931a19e",
-          "bytes": 747112,
-          "dimensions": "1350x900",
-          "original_resolution_reviewed": true,
-          "optimized_candidate_reviewed": true,
-          "scientifically_verified": false
+          "bytes": 747112
         }
       },
-      "last_updated_at": "2026-10-27T03:49:00+08:00",
+      "last_updated_at": "2026-10-27T03:52:00+08:00",
       "audit_notes": []
     }
   ],

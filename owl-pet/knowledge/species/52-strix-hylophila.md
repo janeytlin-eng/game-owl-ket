@@ -28,3 +28,11 @@
 
 ## Unknowns
 - Exact juvenile feather sequence, individual age, sex-specific linear measurements and regional variation.
+
+
+## 2026-10-26 v2 research increment
+
+- Reused verified source IDs: `OWL-SRC-0052-A`, `OWL-SRC-0052-B`, `OWL-SRC-0052-C`; no duplicate source credit.
+- Active external search re-opened the specialist Owl Pages account and searched peer-reviewed Brazilian/Argentine literature for species-specific juvenile development. No additional source with stronger plumage-age sequence was found. A 2017 Serra da Cantareira paper was rejected as juvenile evidence after reading the PDF context: the juvenile sentence referred to another species, not *S. hylophila*.
+- The user-uploaded Mikkola PDF was found in Library, but its text/page index was unavailable in this run. A web catalogue identifies the species account as no. 160, but that catalogue snippet is not treated as verified book-page evidence.
+- v2 therefore keeps the supported 32–35-day recently fledged stage, warm-buff/faint-bar direction and close natural branch support. Exact feather geometry, individual age and quantified sex-size ratio remain unknown.

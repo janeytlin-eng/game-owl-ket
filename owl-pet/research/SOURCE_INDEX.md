@@ -3411,3 +3411,22 @@ Reused and freshly read: BEOW-SGBIRDS-2026 (adult pitch-black eyes, yellow bill,
 - **Confidence:** medium-high for regional habitat, adult identity and cavity nesting; medium for life-history summary.
 - **Linked records:** `research/species/63-scotopelia-peli.md`; `design/concepts/63-scotopelia-peli-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-1.md`
 - **Fact / inference boundary:** source facts are listed above; choosing an age-unknown branch-perched older juvenile with short down-softened developing wings is a conservative design inference constrained by the lack of a species-specific plumage series.
+
+
+### AFO-BIRDSCARIBBEAN-2023 — BirdsCaribbean Ashy-faced Owl profile
+
+- **Stable ID:** `AFO-BIRDSCARIBBEAN-2023`
+- **Title:** From the Nest – Day 111: Endemic Bird of the Day — Ashy-faced Owl
+- **Author / institution:** BirdsCaribbean; text credited to Simón Guerrero
+- **Published:** 2023-05-05
+- **URL:** https://www.birdscaribbean.org/2023/05/from-the-nest-day-111/
+- **Accessed:** 2026-10-27
+- **Source type:** regional ornithological organization species profile with links to primary nest research and Macaulay Library photographs
+- **Species / life stage:** *Tyto glaucops* adults; breeding habitat and sexual mass direction
+- **Sections / lines read:** “Endemic Bird of the Day: Ashy-faced Owl,” lines 10–19 and photo notes line 33
+- **Verified facts:** Hispaniola endemic; adult has an ash-gray heart-shaped face, black eyes and buff underparts, darker than the similar Barn Owl; recorded habitats are broad, with a stated preference for dense wooded areas; natural and artificial cavity nesting; females reported >500 g versus males 300–350 g.
+- **Design support:** use a genuinely gray, dark-rimmed facial disc rather than a Barn Owl-white face; keep black eyes and buff/mottled underparts; convey female mass direction through fuller body volume only, not an invented standing-height ratio.
+- **Limitations / conflicts:** educational synthesis rather than a primary morphometric paper; habitat preference wording differs from the Peregrine Fund profile, which emphasizes lightly wooded/open settings. Treat the species as habitat-flexible and choose a plausible Hispaniolan palm/woodland edge rather than claiming a universal setting. The page supplies no juvenile feather chronology.
+- **Confidence:** medium-high for adult identification and sex mass direction; medium for generalized habitat preference.
+- **Linked records:** `knowledge/species/64-tyto-glaucops.md`; `design/concepts/64-tyto-glaucops-v2.png`; `production/runs/2026-10-27T0034+0800-cycle-2.md`
+- **Fact / inference boundary:** adult traits and relative mass are source facts; visual body-volume differences and habitat staging are conservative design inferences.

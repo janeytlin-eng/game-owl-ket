@@ -4047,32 +4047,34 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "2026-10-27T0728+0800-cycle-1",
-        "heartbeat_at": "2026-10-27T07:44:00.000+08:00",
-        "expires_at": "2026-10-27T07:59:00.000+08:00"
+        "heartbeat_at": "2026-10-27T07:47:00.000+08:00",
+        "expires_at": "2026-10-27T08:02:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Strix davidi",
         "species_id": 132,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-1",
-        "at": "2026-10-27T07:44:00.000+08:00",
+        "at": "2026-10-27T07:47:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-1.md",
         "evidence": {
           "image_path": "owl-pet/production/assets/132-strix-davidi-v2-generated.png",
           "image_git_blob": "80e4a67d1d507c8912abbdcc694d498c34e79a31",
           "sha256": "18933289d94ba27a1ea8ecf4b98b7fbb6c520ae2fbd703c3dd893b8b2a2b57d6",
-          "dimensions": "1513x1039",
-          "size_bytes": 3120335,
-          "generation_calls": 1
+          "review": "PASS",
+          "generation_calls": 1,
+          "edit_calls": 0,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T07:44:00.000+08:00",
+      "last_updated_at": "2026-10-27T07:47:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
-        "2026-10-27T07:44:00.000+08:00: cycle 1 IMAGE_GENERATED; first output persisted at owl-pet/production/assets/132-strix-davidi-v2-generated.png, blob 80e4a67d1d507c8912abbdcc694d498c34e79a31; lease renewed."
+        "2026-10-27T07:44:00.000+08:00: cycle 1 IMAGE_GENERATED; first output persisted at owl-pet/production/assets/132-strix-davidi-v2-generated.png, blob 80e4a67d1d507c8912abbdcc694d498c34e79a31; lease renewed.",
+        "2026-10-27T07:47:00.000+08:00: cycle 1 REVIEWED PASS at original generation resolution; no edit required; science remains false; lease renewed."
       ]
     }
   ],

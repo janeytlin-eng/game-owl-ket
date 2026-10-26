@@ -25,3 +25,13 @@ Cornell/Macaulay可核验的离巢幼鸟记录显示幼鸟能在树枝上抓握�
 ## 待办
 
 固定251种名录采用的分类版本和中文名；寻找带明确离巢后日龄的连续影像、尾羽长度变化与分性别翼长/质量原始表。不得把 *G. gnoma* 或其他鸺鹠类群的幼鸟数据无条件套入本种。
+
+
+## 24-glaucidium-californicum-v2 — 2026-10-26
+
+v2 rebuilt the three-character plate from the current evidence boundary. Adults share one gray-brown morph, yellow eyes and bill, round tuftless heads, white speckles/spots and long barred tails; the turned male exposes the paired nape eyespots. Adult displayed height is near-equal and the female is only subtly fuller. The center bird is an age-unknown recent fledgling, securely gripping a branch with both feet.
+
+First render failed review because the fledgling tail was too long and fully adult-barred. Targeted edit shortened it and reduced the complete barring; the final original-resolution recheck passed. Exact age, post-fledge day, tail-growth curve, juvenile regional pattern, sex-specific measurements and universal cavity geometry remain unknown. `scientifically_verified=false`.
+
+Image: `design/concepts/24-glaucidium-californicum-v2.png`.
+Run: `production/runs/2026-10-26T0852+0800-cycle-6.md`.

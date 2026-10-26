@@ -1,3 +1,12 @@
+## 2026-10-26 #37 *Glaucidium peruanum* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/37-glaucidium-peruanum-v2.png](design/concepts/37-glaucidium-peruanum-v2.png)
+- Archive commit/blob: `85ec167a10c7688a17368ba0d29563dc0b422369` / `5f3f6922e501681fd61bb0b7e0bc87a10e7a6e25`; PNG 3,121,545 bytes; SHA-256 `5cfd7cf94fa6cabff0b5fc161d60fadad8b2fe9c64a641feece1382a2c52f70e`.
+- Research: 2 new indexed sources, 2 reused; König 1991 pp.56–61 was read page-by-page and bounds adult marks, habitat and unresolved geographic variation.
+- Review: first render passed; exactly three birds, correct labels/support, subtle adult scale difference, plain-crowned juvenile with short soft unspotted wings/tail, and dry western-Andean setting.
+- Scientific status: pending; exact juvenile age, iris/flight stage, continuous feather sequence and geographic variation remain unknown.
+
 ## 2026-10-26 #27 *Glaucidium passerinum* v2
 
 - Revised/archived; unique species remains 159/251.

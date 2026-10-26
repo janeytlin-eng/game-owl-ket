@@ -3995,27 +3995,30 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-owl-production",
+        "run_id": "2026-10-27T0533+0800-cycle-6",
+        "heartbeat_at": "2026-10-27T07:00:00.000+08:00",
+        "expires_at": "2026-10-27T07:15:00.000+08:00",
+        "cycle": 6,
+        "species": "Megascops albogularis",
+        "species_id": 127
+      },
       "cycle_checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "species": "Ketupa philippensis",
-        "species_id": 124,
+        "cycle": 6,
+        "stage": "STARTED",
+        "species": "Megascops albogularis",
+        "species_id": 127,
         "version": 2,
-        "run_id": "2026-10-27T0533+0800-cycle-5",
-        "at": "2026-10-27T06:56:00.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-5.md",
+        "run_id": "2026-10-27T0533+0800-cycle-6",
+        "at": "2026-10-27T07:00:00.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T0533+0800-cycle-6.md",
         "evidence": {
-          "archive_commit": "4e2b06b35a73022b5d72abc973913ea3fd688804",
-          "concept_blob": "0f6d49a6887c4b9a11b5f76271746fba508ebac9",
-          "asset_blob": "0f6d49a6887c4b9a11b5f76271746fba508ebac9",
-          "size_bytes": 2882949,
-          "sha256": "4b008554eb05591f61179174a5e322fbf464e17e189fe50fe3edc6acff80a875",
-          "manifest_readback": true,
-          "scientifically_verified": false
+          "selection": "lowest-ID v1-only candidate after #124; #125 already v4 and #126 v2",
+          "manifest_checked_at_head": "a9f24d747e8d78c64ea576bccca4b0d372833618"
         }
       },
-      "last_updated_at": "2026-10-27T06:56:00.000+08:00",
+      "last_updated_at": "2026-10-27T07:00:00.000+08:00",
       "audit_notes": [
         "Clock correction: this batch uses the actual invocation time; the preceding batch's stored phase timestamps extend later due to earlier runner clock skew.",
         "2026-10-27T05:44:49.388+08:00: cycle 1 #102 Strix nigrolineata v2 readback verified; archive 339caef, image blob a8c6883. Unique species remains 159/251; next_cycle 2.",

@@ -3604,33 +3604,39 @@
       "batch_id": "2026-10-26T2211+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T2211+0800-cycle-1",
-        "cycle": 1,
-        "heartbeat_at": "2026-10-26T22:23:00+08:00",
-        "expires_at": "2026-10-26T22:38:00+08:00"
-      },
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Bubo nipalensis",
+          "species_id": 57,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "26707e4416d53726ddf2bc0a30f025171bd148d5",
+          "archive_commit": "a769b618536a1561073217f716c7f28b4c3dd890",
+          "image_commit": "a769b618536a1561073217f716c7f28b4c3dd890",
+          "run_record": "owl-pet/production/runs/2026-10-26T2211+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 1,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Bubo nipalensis",
         "species_id": 57,
         "version": 2,
         "run_id": "2026-10-26T2211+0800-cycle-1",
-        "at": "2026-10-26T22:23:00+08:00",
+        "at": "2026-10-26T22:24:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2211+0800-cycle-1.md",
         "evidence": {
+          "verification_commit": "26707e4416d53726ddf2bc0a30f025171bd148d5",
           "archive_commit": "a769b618536a1561073217f716c7f28b4c3dd890",
           "git_blob": "31005b66794e728e683e9011a3ea197d46cb072a",
           "sha256": "b2e6bfd26d8f32a2d269ca3f222788ba90b11dc66cf6427de9fc472fddc7be39",
           "dimensions": "1350x900",
           "size_bytes": 729682,
-          "manifest_entry": "57-bubo-nipalensis-v2",
-          "image_remote_readback": true,
-          "manifest_remote_readback": true,
+          "remote_readback": true,
           "scientifically_verified": false
         }
       }

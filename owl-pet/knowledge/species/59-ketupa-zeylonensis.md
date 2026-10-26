@@ -17,3 +17,11 @@ Style: same soft hand-painted 3D storybook concept style as previous owl-pet pla
 Composition: landscape 3:2, male left, female right, juvenile center lower; all feet visible; varied calm poses.
 Text: “59 BROWN FISH OWL”; “Ketupa zeylonensis”; “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”.
 Avoid: no extra birds, no fish in beak, no exaggerated female size, no cave, no mature juvenile wing or unsupported flight, no watermark.
+
+
+## v2 evidence increment — 2026-10-26
+- New primary source `BFOW-BINDU-BALAKRISHNAN-2015`: nine-year Kerala observation; 32–37 d incubation (n=5) and 43–49 d nestling period (n=3). Exact feather progression was not measured.
+- Reused Indian BIRDS 8(6) dated chick/fledgling sequence and the existing adult/taxonomy sources.
+- v2 stage: late nestling near the natural cavity/fork edge, down-softened head/body with short rounded developing folded wings; supported, alert, not flying.
+- v1 review defect: adult irises too amber-orange and juvenile wing/tail too mature. v2 requires clear yellow irises and short soft juvenile wing/tail.
+- Sources: 1 new, 3 reused, 0 corrected; scientific calibration remains pending.

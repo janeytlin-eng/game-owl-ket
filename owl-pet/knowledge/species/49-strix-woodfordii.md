@@ -28,3 +28,11 @@
 - SHA-256: `d8aab19f8cb530a74b54823e40288c1582ccd80fe94de9f025a56c84aed2e84e`
 - Review/edit: first juvenile had long distinct adult-like wing feathers; one targeted edit shortened/softened emerging wing feathers and removed mature patterning while preserving adults, support, environment and title.
 - Final: 1536×1024 indexed PNG, 735,418 bytes; scientific status remains pending.
+
+
+## v2 research update — 2026-10-26
+- New taxonomy confirmation: `AWOO-AVIBASE-2026`; current *Strix woodfordii*, historical *Ciccaba woodfordii* preserved.
+- New curated juvenile-photo metadata: `AWOO-ABC-2005`, Mkuzi, South Africa, November 2005; no exact age or feather measurements.
+- Re-read SANBI and Peregrine Fund accounts; reused the prior African Birdlife branching-stage record.
+- Design target remains a supported 25–30-day clambering young, not a flying bird. The approximately 46-day first-flight figure prevents mature-flight pose/wing assumptions at the chosen stage.
+- Full prompt and timing evidence: `production/runs/2026-10-26T1835+0800-cycle-1.md`.

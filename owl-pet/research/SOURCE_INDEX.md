@@ -3265,3 +3265,37 @@ Reused and re-read: `SRC-WEB-036-01` (Birds of Bolivia adult occurrence/image re
 
 - Re-read/reused for this revision: `FOW-MIKKOLA-2013`, `FOW-ISHTIAQ-2005`, `FOW-KOPARDE-2018`, and `FOW-PEREGRINE-2026`.
 - Source facts remain separate from design inference: the 40-day fledging record supports supported cavity-rim/branch movement and continued dependence, but not a complete remige map. No sex-size difference is invented.
+
+
+## 2026-10-26 · #49 *Strix woodfordii* v2 evidence increment
+
+### AWOO-AVIBASE-2026
+- Title: Avibase: *Strix woodfordii* (African Wood Owl)
+- Author/institution: Avibase / Birds Canada
+- Year or publication date: current database, accessed 2026-10-26
+- Original URL: https://avibase.bsc-eoc.org/species.jsp?avibaseid=2E6575A8C8ECAD9B&lang=EN
+- Source type: institutional taxonomic database
+- Species/stage: *Strix woodfordii*; taxonomy only
+- Evidence actually read: current Avibase and Avilist 2025 retain full-species *Strix woodfordii*; historical Clements/Peters treatments include *Ciccaba woodfordii*.
+- Page/section: taxonomic concepts and synonyms, retrieved lines 184–271 and 490–512.
+- Limits/confidence: high for name mapping; no morphology or development evidence.
+- Design/review use: current subtitle *Strix woodfordii* and historical-name mapping only.
+
+### AWOO-ABC-2005
+- Title: African Wood Owl — Juvenile
+- Author/institution: African Bird Club image database; photograph Fredrik Ellin
+- Year or publication date: photograph November 2005; accessed 2026-10-26
+- Original URL: https://africanbirdclub.org/afbid/search/birddetails/random/840/3231
+- Source type: curated, locality-labelled photographic record
+- Species/stage: *Strix woodfordii* juvenile; Mkuzi, South Africa
+- Evidence actually read: page labels the subject African Wood Owl juvenile, Mkuzi, South Africa, November 2005; related database links include young birds and subspecies records.
+- Page/section: lines 33–82 and 83–117.
+- Limits/confidence: page gives no age or feather measurements; image metadata is not a developmental series. Medium confidence for identity/locality metadata; not used to invent exact feather geometry.
+- Design/review use: independent juvenile-photo lead and locality check only.
+
+### Reused sources and decision boundary
+- Reused `OWL-SRC-0049-A` (SANBI, reread 2026-10-26): adults about 33 cm and alike; dark-rimmed eyes, pale-rufous barred disc, white brows, yellow bill/cere/feet, feathering to toes; juvenile pale-rufous down; dense forest/woodland habitat.
+- Reused `OWL-SRC-0049-B` (African Birdlife field observations): at 25–30 days young climb surrounding branches; locality-specific and not a quantified feather series.
+- Reused `OWL-SRC-0049-C` (Peregrine Fund/Birds of the World synthesis, reread 2026-10-26): white-down hatchling, branching around one month, first flight around 46 days.
+- Design inference: show a supported 25–30-day clambering young with pale-rufous/cream down and short soft emerging wing; do not show flight or adult-complete remiges. Sexes remain near-equal in displayed height.
+- Linked image/version/run: `design/concepts/49-strix-woodfordii-v2.png`; `production/runs/2026-10-26T1835+0800-cycle-1.md`.

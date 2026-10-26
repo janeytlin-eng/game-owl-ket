@@ -3557,27 +3557,28 @@
         "owner": "scheduled-production",
         "run_id": "2026-10-26T2103+0800-cycle-5",
         "cycle": 5,
-        "heartbeat_at": "2026-10-26T21:47:00+08:00",
-        "expires_at": "2026-10-26T22:02:00+08:00"
+        "heartbeat_at": "2026-10-26T21:50:00+08:00",
+        "expires_at": "2026-10-26T22:05:00+08:00"
       },
       "checkpoint": {
         "cycle": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Bubo africanus",
         "species_id": 54,
         "version": 2,
         "run_id": "2026-10-26T2103+0800-cycle-5",
-        "at": "2026-10-26T21:47:00+08:00",
+        "at": "2026-10-26T21:50:00+08:00",
         "run_record": "owl-pet/production/runs/2026-10-26T2103+0800-cycle-5.md",
         "evidence": {
           "research_commit": "d93b4103f9c0b6d1a7215dd7837e3e9facbba488",
-          "candidate_commit": "259fb84d88f43ca208dfab9863aa8fe640eb7bf7",
-          "candidate_blob": "8abbd84cbcc6d286a3ab01a8383a1e5b2a91b28d",
-          "candidate_sha256": "b4be207250162a6a57fda1d8a270c697a903e362a18142b3274913517de04b26",
+          "first_candidate_commit": "259fb84d88f43ca208dfab9863aa8fe640eb7bf7",
+          "reviewed_commit": "768758f41b106806c845d3eda6a1997712bafba9",
+          "reviewed_blob": "9eb433740782e6b8e397c025ec0d1aa9175699c4",
+          "sha256": "e7a94e20a08c3f7ab8c7a822da7a4e0129a18699460b999ce8860b6c967f740f",
           "dimensions": "1350x900",
-          "size_bytes": 750197,
+          "size_bytes": 733826,
+          "edit_applied": "juvenile wing/tail shortened and downier",
           "remote_readback": true,
-          "review_issue": "juvenile layered patterned wing reads too mature",
           "scientifically_verified": false
         }
       }

@@ -3239,28 +3239,31 @@
           "commit_sha": "772fbc61b1e3a02061bf8e826e13566828d0872a",
           "archive_commit": "495c1bf335d5e61dbc10d986502980b2ef69aafc",
           "run_record": "owl-pet/production/runs/2026-10-26T1153+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Taenioptynx brodiei",
+          "species_id": 33,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7b6729c44844f3a19e741ad11bbd86ee4033a7bc",
+          "archive_commit": "081ea81c554da8ed8e8b719498c392f112ba841c",
+          "run_record": "owl-pet/production/runs/2026-10-26T1215+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "scheduled-production",
-        "run_id": "2026-10-26T1215+0800-cycle-3",
-        "heartbeat_at": "2026-10-26T12:26:00+08:00",
-        "expires_at": "2026-10-26T12:41:00+08:00",
-        "species": "Taenioptynx brodiei",
-        "species_id": 33,
-        "version": 2,
-        "stage": "ARCHIVED"
-      },
+      "next_cycle": 4,
+      "active_lease": null,
       "checkpoint": {
         "cycle": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Taenioptynx brodiei",
         "species_id": 33,
         "version": 2,
         "run_id": "2026-10-26T1215+0800-cycle-3",
-        "at": "2026-10-26T12:26:00+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-26T1215+0800-cycle-3.md"
+        "at": "2026-10-26T12:28:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T1215+0800-cycle-3.md",
+        "commit_sha": "7b6729c44844f3a19e741ad11bbd86ee4033a7bc"
       }
     }
   ],

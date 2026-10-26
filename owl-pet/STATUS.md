@@ -2,7 +2,7 @@
 
 - Result: revised and archived; unique species remains 159/251.
 - Image: [design/concepts/52-strix-hylophila-v2.png](design/concepts/52-strix-hylophila-v2.png)
-- Image commit/blob: `3e937af2581d6770acdb93790ed00205e181350a` / `0261a02230f96176c9bce963bb35a14e29f5f35b`; 1536×1024; 3,103,170 bytes; SHA-256 `2db92cb535d95d38141cecd91bc15e5fd1507fd56e27f262c91fc23b535ef8b2`.
+- Image commit/blob: `e1af257bff72a89176c4990b77e3ca517377a4ff` / `3cbc698bd929dd05fb41b73aed038f0445d334d0`; 1350×900; 722,261 bytes; SHA-256 `311759bf7845e1ee7857d7fbc1dc74016c2d50bd85e021a871baae29b43c5b9e` (first transfer was detected truncated and superseded before cycle credit).
 - Research: 3 reused indexed sources, 0 new IDs, 1 false-positive juvenile interpretation rejected before indexing. Review: one juvenile-wing edit; original-resolution recheck passed. Science pending.
 - Run: [production/runs/2026-10-26T1929+0800-cycle-4.md](production/runs/2026-10-26T1929+0800-cycle-4.md)
 

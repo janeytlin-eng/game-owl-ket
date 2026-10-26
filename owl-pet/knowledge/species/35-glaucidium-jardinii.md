@@ -21,3 +21,12 @@
 ## 来源
 
 见 [SOURCE_INDEX](../../research/SOURCE_INDEX.md)：`ANPO-MIKKOLA-2013`、`ANPO-BOW-2020`、`ANPO-BIRDLIFE-2026`。
+
+
+## v2 revision — 2026-10-26
+
+- Evidence increment: new `ANPO-EBIRD-2025`; reused `ANPO-MIKKOLA-2013`, `ANPO-BOW-2020`, and `ANPO-BIRDLIFE-2026`.
+- Change: standardized 3:2 sheet; adult male turned rear-side to expose paired nape false eyes; age-unknown middle juvenile keeps a much plainer crown, weak diffuse ventral marks, shorter/softer wing and tail.
+- Iteration: first render gave the juvenile adult-like white wing spots; one targeted imagegen edit removed those spots and softened/shortened the wing. Original-resolution review then passed with exactly three birds, required labels and full support.
+- Unknown: exact juvenile age, continuous feather sequence and flight ability; not a scientific pass.
+- [Original PNG](../../design/concepts/35-glaucidium-jardinii-v2.png) · [run](../../production/runs/2026-10-26T1245+0800-cycle-5.md)

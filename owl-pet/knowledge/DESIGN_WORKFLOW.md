@@ -418,3 +418,9 @@ Do not “fix” an exaggerated diagnostic feature by deleting it. #137's source
 ## 2026-10-27 — blank-canvas and support invariant validated on #139
 
 Problem: a nominally 1536×1024 concept can contain a large blank lower zone while all subjects are cropped above their feet; file dimensions alone therefore cannot establish a complete plate. Evidence: actual immutable v1 view exposed the blank lower third, absent labels and missing support. Change: prompts now require safe margins, full ear-tuft-to-toe anatomy, visible continuous support and exact role labels; whole-canvas review checks every edge before credit. Recheck: #139 v2 fully filled the canvas, showed all toes/support/labels and preserved this after a single wing-pattern edit. Validated for this case only; not a retroactive pass for unreviewed plates.
+
+
+### 2026-10-27 #160 split between “formed fledgling wing” and “adult-patterned wing”
+- A dependent fledgling may legitimately have formed folded wings; the correction target is not always wing length alone. In #160 the first image preserved the correct life stage but leaked repeated adult white spot rows and hard layered primary tips.
+- The targeted edit retained the formed wing and perch ability while making the wing browner, softer, slightly rounder and diffusely flecked. This was actually viewed and passed visual review for this image only.
+- Rule status: discovered, applied and visually checked once. It is not a universal instruction to shorten every fledgling wing and not a biological validation of exact feather sequence.

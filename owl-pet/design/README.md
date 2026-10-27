@@ -1231,3 +1231,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Review: first render passed original-resolution review. Exactly three role-bearing birds are present; adult sex difference is subtle and the single chick remains a compact, mostly concealed white-down mound without invented eyes, bill, feet, wings or tail.
 - Limits: exact chick age/anatomy, quantitative sex ratio, fine feather geometry and habitat generality remain unknown; `scientifically_verified=false`.
 - Evidence/run: [source index](../research/SOURCE_INDEX.md#abo-collar-boesman-2019) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-3.md)
+
+
+## 160 · Minahasa Masked-Owl · *Tyto inexspectata* v1
+
+- [Original PNG](concepts/160-tyto-inexspectata-v1.png) · 1536×1024 · 696,628 bytes · SHA-256 `447259e0c1634a7dd525c9b966f893e35b1d946ef85b874d56c5970af8ebe4f5`
+- Git blob: `3f6a6a83fb04033d4b0f99cb5e04f05d83cb41ef`
+- NEW concept. First output's juvenile carried crisp adult-style white wing spots and hard layered primaries; one targeted edit retained a formed fledgling wing while making it browner, shorter/rounder and softer with diffuse flecks. Adults, labels and rainforest support were rechecked. Exact juvenile age/iris/flight, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [run](../production/runs/2026-10-27T1034+0800-cycle-1.md)

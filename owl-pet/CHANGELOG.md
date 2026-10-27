@@ -867,3 +867,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added `design/concepts/112-asio-abyssinicus-v2.png` and mirrored production asset; preserved v1.
 - Added ABO-COLLAR-BOESMAN-2019 from the actually read full paper and reused the species-specific Bale Mountains nest observation plus adult/field limitations.
 - First render passed original-resolution review; the chick remains a mostly concealed white-down mound, avoiding unsupported eye/bill/limb/wing/tail details or transfer from *A. otus*. Scientific verification remains false.
+
+
+## 2026-10-27 — #160 *Tyto inexspectata* v1
+- Added first project concept for Minahasa Masked-Owl, increasing archived unique species from 159 to 160 of the fixed 251-species scope.
+- Added 4 source records and a species research card. The first render's juvenile wing was too adult-patterned; one targeted image edit retained a formed dependent-fledgling wing while reducing crisp white rows and hard primary layering.
+- The taxonomy/name is current IOC usage; exact juvenile age, iris development, feather sequence, flight threshold, nest geometry and measured sex ratio remain unknown. `scientifically_verified=false`.

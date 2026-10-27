@@ -1263,3 +1263,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 06:01 +0800 — #112 *Asio abyssinicus* v2 archived after one generation and original-resolution PASS, with no edit required. Adults retain centered dark tufts, dark-rimmed tawny faces, orange-yellow eyes, black bills and robust streaked/barred plumage; female is only subtly fuller. The species-specific juvenile evidence is limited to white down beneath a parent, so the chick is intentionally mostly concealed with no invented anatomy. Revision only; unique-species total remains 159/251. Exact chick age/anatomy, quantitative sex ratio and habitat generality remain unknown; scientific calibration pending. Image: [112-asio-abyssinicus-v2.png](design/concepts/112-asio-abyssinicus-v2.png).
+
+
+- 2026-10-27 10:47 +0800 — NEW #160 *Tyto inexspectata* v1 archived after one juvenile-wing edit. Exactly three labeled supported birds; adult rufous/dark-eye diagnosis and closed Sulawesi forest context retained. Age-unknown dependent fledgling has formed but softer/browner rounded wings and gray-speckled underparts. Unique archived species rises from 159 to 160/251; scientific calibration remains pending. Image: [160-tyto-inexspectata-v1.png](design/concepts/160-tyto-inexspectata-v1.png).

@@ -31,3 +31,11 @@ Create a single polished owl electronic-pet prototype group illustration in the 
 ## Initial visual defect in v2
 
 Original 1536×1024 PNG was actually viewed. Both adults use large repeated teardrop/scallop tiles and rigid exaggerated tufts; the juvenile has regular decorative ventral rings and an overly hard adult-like folded wing. These are visual/model artifacts, not evidence-supported traits.
+
+
+## Problem → evidence → modification → recheck
+
+- Problem: original candidate retained mechanically repeated pale bead rows on adult crown/face and a crisp adult-like folded wing on the fledgling.
+- Evidence: Mikkola pp.122–123 describes irregular shaft streaking/vermiculation and juvenile softness; Sound Approach field photographs directly support a branch-gripping fledgling with formed barred wing/tail but do not support identical adult covert geometry.
+- Modification: one targeted imagegen edit changed only these surface/stage cues, preserving the three roles, labels, feet, branch, olive grove, yellow eyes, dark bills, legitimate scapular marks and flight/tail bars.
+- Recheck: edited 1536×1024 image was opened at original resolution. Three birds, text, feet and support passed; juvenile wing is shorter/rounder/softer. Residual stylized regularity remains, so science stays false and the exact age/continuous feather sequence/bar spacing/sex-specific linear dimensions remain unknown.

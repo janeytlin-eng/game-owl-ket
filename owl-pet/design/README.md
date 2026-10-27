@@ -1,3 +1,9 @@
+## 111 · Cyprus Scops Owl · *Otus cyprius* v3
+
+- [Original PNG](concepts/111-otus-cyprius-v3.png) · 680×453 RGB · 664,414 bytes · SHA-256 `fef79ef15ea1c12caaf197aaacc79d69bfed149d250d138fc5adec2f41622277`
+- Git blob `30d7d0f312da0f1ae0ce3bda4dd26baaa0804679`. SCIENCE_REVISION: one targeted edit reduced mechanical adult rows and softened the fully supported fledgling wing while retaining formed barred remiges/tail and Mediterranean olive context. Science pending.
+- [Sources](../research/species/111-otus-cyprius-v3.md) · [Run](../production/runs/2026-10-27T2126+0800-cycle-5.md)
+
 ## 171 · Colima Pygmy-Owl · *Glaucidium palmarum* v1
 
 - [Original PNG](concepts/171-glaucidium-palmarum-v1.png) · 680×453 TrueColor · 642,816 bytes · SHA-256 `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`

@@ -1,3 +1,9 @@
+## 2026-10-27 — #111 *Otus cyprius* v3
+
+- Revised Cyprus Scops Owl after reading uploaded Mikkola pp.122–123 (PDF pp.124–125), current Cyprus institutional ecology, field-photographed fledglings and current taxonomy; unique remains 174/251.
+- One targeted edit reduced mechanical adult crown/face rows and made the supported juvenile folded wing shorter, rounder and softer without erasing documented formed barred remiges/tail.
+- Initial and edited 1536×1024 masters plus the 680×453 concept were actually viewed. Concept review passes with limitations; science remains false.
+
 ## 2026-10-27 — #118 *Megascops cooperi* v4
 
 - Revised Pacific Screech-Owl after rereading Komar 2012 pp.65–66/Fig.4, uploaded Mikkola p.210 and current species pages; unique remains 174/251.

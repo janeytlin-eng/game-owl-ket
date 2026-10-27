@@ -1504,3 +1504,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Research: 1 new, 2 reused and 1 corrected source entry. Primary paper pp.301–304/Figure 1 and Mikkola printed p.229 were actually read/viewed.
 - Review: two targeted edits corrected the adult-like juvenile wing, large adult tufts, bright irises and mechanical pattern repetition while preserving documented formed barred juvenile remiges. Exact age within 20–30 days and detailed variation remain unknown; science false.
 - Run: [production/runs/2026-10-27T2126+0800-cycle-3.md](production/runs/2026-10-27T2126+0800-cycle-3.md)
+
+
+- 2026-10-27T22:44:41.000+08:00 — #120 *Megascops ingens* v3 independently verified at archive commit `6a259c12b4b55f901160b86d4fc1d7ea8fe9651e`; concept blob `34d7ae4a4957ec5f6d20449a9ea92aa677c6b8ab`, full reviewed master blob `c80dffaab7a4299361b3fb0feec882662daf528a`. Manifest/run/species/research/status readback passed. Unique remains 174/251; batch 3/6, next cycle 4; science pending.

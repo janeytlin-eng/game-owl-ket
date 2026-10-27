@@ -1461,3 +1461,10 @@ v1 remains preserved. v2 corrects its unsupported bright adult-yellow juvenile i
 [Original 1536×1024 concept](concepts/162-glaucidium-hoskinsii-v2.png) · [research index](../research/SOURCE_INDEX.md#2026-10-28--162-baja-pygmy-owl--glaucidium-hoskinsii-v2-science-revision) · [run record](../production/runs/2026-10-28T0029+0800-cycle-5.md)
 
 v1 remains preserved. v2 retains the palm-cavity near-fledging stage but no longer depicts its unknown iris as adult yellow. One edit removes adult-like chick wing spots. Readback pending; science false.
+
+### #175 Sokoke Scops Owl · *Otus ireneae* v1
+
+- [Concept plate](concepts/175-otus-ireneae-v1.png)
+- [Research card](../research/species/175-otus-ireneae.md)
+- [Production run](../production/runs/2026-10-28T0029+0800-cycle-6.md)
+- New concept; age-unknown supported older juvenile, no invented nest. Scientific calibration pending.

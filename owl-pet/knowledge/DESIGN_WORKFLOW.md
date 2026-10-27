@@ -533,3 +533,7 @@ A generic label such as “advanced nestling” can contradict the rendered feat
 ### 2026-10-28 未知虹膜规则的第三次应用（#162 v2）
 
 #162 v1卡片已写“幼鸟虹膜未知”，但图像仍套用成鸟鲜黄眼。v2第三次应用“未知不套成鸟色”：使用阴影中的中性暗色而非宣称真实暗虹膜；一次定向编辑又移除幼鸟翼上成年式白斑。原分辨率复查通过；规则的重复执行得到第三例验证，科学状态仍为false。
+
+### Evidence rule: “juvenile resembles adult” plus field-confirmed young
+
+Discovery: for #175, the guide only says the juvenile resembles the adult, while a later primary field-project report confirms parent pairs with three young but provides no photographs, age series or nest. Applied: depict an age-unknown older juvenile with adult-like formed plumage, softer contour, neutral/indeterminate soft parts and complete support; use the observed family context without showing a nest box, cavity or eggs. Verification: the first render violated the unknown juvenile-eye boundary and over-hardened the wing; one targeted edit corrected both and passed original-resolution review. This rule is validated for #175 only and should be reused only when the same two evidence conditions are actually present.

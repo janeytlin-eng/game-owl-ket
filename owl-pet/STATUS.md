@@ -1592,3 +1592,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T02:00:12.688+08:00 — #162 v2 verified at archive `2f9734d8f3ade4562b5521b1701a078664738d2c`; complete tree `cfa94bef7da0f520b8fc4d222d95c61b71d9fcab` not truncated; concept/reviewed `96827ea8…`, generated `92e9b61f…`; batch 5/6 next 6; unique 174/251; science pending.
+
+## #175 Sokoke Scops Owl · *Otus ireneae* v1 — 2026-10-28
+
+- NEW; provisional unique total **175/251** pending immutable archive readback.
+- Four new sources: Mikkola printed p.134/PDF p.136, 2023 African Bird Club field report pp.2/9–10, The Peregrine Fund account and a licensed living-adult photograph.
+- The earlier evidence deferral was corrected only after the field report confirmed three young with parent pairs. Exact age, development, flight and nest geometry remain unknown.
+- One targeted edit removed an unsupported bright-yellow juvenile iris and softened adult-hard juvenile wings. Concept: [175-otus-ireneae-v1.png](design/concepts/175-otus-ireneae-v1.png).
+- ARCHIVED metadata prepared; independent commit-pinned readback pending. Science remains false.

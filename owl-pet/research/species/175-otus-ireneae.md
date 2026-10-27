@@ -47,3 +47,12 @@ Older juvenile: source-bounded only as “said to resemble the adult” and docu
 Lighting/mood: soft filtered forest light, calm family roost, no dramatic sunset cast that changes plumage colours.
 Constraints: exactly three birds and exact text; adult sexes equal scale; juvenile fully supported; natural irregular markings; preserve scientific uncertainty.
 Avoid: nest boxes, visible nest cavity, eggs, prey, extra birds, dense regular cloned feather rows, exaggerated ear tufts, yellow-eyed juvenile claim, mature-vs-immature size fantasy, cropped feet, flight pose, split panels, specimen layout, logos or watermarks.
+
+## Production result
+
+- Initial imagegen output: 1536×1024; title/count/adults/support passed, but the juvenile showed an unsupported bright-yellow iris and an adult-hard folded wing.
+- Edit: center-bird-only eye and wing correction.
+- Reviewed result: 1536×1024 opened at original resolution; exact text/count, adult morphology/equal scale, neutral juvenile iris, softer formed juvenile wing and complete branch support passed.
+- Concept derivative: 680×453, SHA-256 `24740001de7498c0b206caf16c7bf434338fa6c804ec764b75f869a03add32aa`, Git blob `fb4553af5d5ee9fbc1754572e4194c71caeae4`.
+- Scientific status: false. Remaining unknowns are unchanged.
+

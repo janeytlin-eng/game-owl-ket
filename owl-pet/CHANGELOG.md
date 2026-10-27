@@ -1089,3 +1089,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-28T02:00:12.688+08:00 — Verified #162 v2 archive `2f9734d8f3ade4562b5521b1701a078664738d2c` by complete commit-pinned tree and metadata readback; batch advanced to 5/6 without unique-count change.
+
+## 2026-10-28 — #175 Sokoke Scops Owl v1
+
+- Added a new evidence-bounded three-bird concept for *Otus ireneae*.
+- Added 4 stable sources and corrected the earlier “insufficient young-stage evidence” decision after reading the 2023 African Bird Club field report.
+- One targeted edit neutralized the unsupported juvenile iris and softened/rounded the juvenile wing.
+- Provisional unique total 175/251; commit-pinned readback pending; scientific verification false.

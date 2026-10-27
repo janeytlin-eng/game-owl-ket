@@ -1,6 +1,6 @@
 # #170 Tamaulipas Pygmy-Owl — *Glaucidium sanchezi* v1
 
-Status: ARCHIVED pending independent readback. Scientific verification: false. Scientific verification: false.
+Status: VERIFIED archive; scientific verification: false.
 
 ## Source facts
 
@@ -25,3 +25,8 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - First render problem: juvenile showed adult-like hard remiges and regular white wing rows.
 - Edit: shortened/rounded/softened center wing, diffused flecks, concealed tail; adults/background/text preserved.
 - Recheck: edited master and archive derivative viewed; design review PASS. Science remains false.
+
+
+## Archive verification
+
+Archive commit `25196c5cb8848cc6914ee4ac7b2ab20472bf4ab5`; concept/generated/reviewed paths independently resolve to blob `968280d7bf9d7c49e605200dcaddc00cd0cb0c43` (643,945 bytes). This is a verified production archive, not a scientific pass.

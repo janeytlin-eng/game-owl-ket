@@ -1604,3 +1604,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - 2026-10-28T02:26:23.000+08:00 — #175 v1 verified at archive `f5f9940c02e8b9f649405be702ef0a963de099a3`; all three asset paths and expected blobs plus manifest/source/card/run/state were read back at the immutable commit. Unique total is now **175/251**; batch `2026-10-28T0029+0800` closes **6/6 COMPLETE**. Scientific calibration remains pending.
 
 - 2026-10-28T02:28:00.000+08:00 — #175 cycle-6 stage times normalized to GitHub commit evidence; no image, count, cycle-credit or science-status change. Observed bottleneck was an environment switch after generated-asset persistence, not a demonstrated fixed platform timeout.
+
+
+## #176 Pemba Scops Owl · *Otus pembaensis* v1 — 2026-10-28
+
+- NEW; provisional unique total **176/251** pending immutable archive readback; manifest entries become **432** including the generic reference.
+- Research: 3 new sources, 0 reused, 0 corrected. Mikkola printed p.135/PDF p.137 is the stage anchor; African Bird Club adult imagery and Avibase name crosswalk were actually read.
+- One targeted imagegen edit corrected long adult-like juvenile remiges. Both the 1536×1024 reviewed image and 680×453 derivative were opened; exact title/labels, exactly three owls and natural support pass.
+- Concept: [176-otus-pembaensis-v1.png](design/concepts/176-otus-pembaensis-v1.png). Downy chick, exact age, juvenile iris chronology, nest geometry and flight threshold remain unknown. Science remains false; independent readback pending.

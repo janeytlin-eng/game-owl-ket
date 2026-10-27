@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T02:28:00.000+08:00",
+  "updated": "2026-10-28T03:38:21.709+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4608,6 +4608,32 @@
       "archive_note": "Built-in imagegen first produced a bright-yellow-eyed, adult-hard-winged juvenile. One targeted edit neutralized the unsupported juvenile iris and softened/rounded the formed wing while preserving adult-like plumage. Commit-pinned readback verified concept blob fb4553af…, generated master f54921e5… and reviewed master d691c656… plus manifest/source/card/run/state metadata. Scientific verification remains false.",
       "archive_commit": "f5f9940c02e8b9f649405be702ef0a963de099a3",
       "verified_at": "2026-10-28T02:26:29.000+08:00"
+    },
+    {
+      "id": "176-otus-pembaensis-v1",
+      "path": "design/concepts/176-otus-pembaensis-v1.png",
+      "species_id": 176,
+      "scientific_name": "Otus pembaensis",
+      "historical_names": [],
+      "common_name": "Pemba Scops Owl",
+      "version": 1,
+      "sha256": "a90533605c13b9621d1293d3bb65e7f894a6de8ee29b7a89d12e37b3e5da48c2",
+      "scientifically_verified": false,
+      "status": "NEW evidence-bounded concept. Adults are near-equal light morphs; only the male folded wing is subtly longer, avoiding an unsupported universal female-larger rule. The juvenile is the guide-described mesoptile: whitish fluffy down with vague yellowish-brown barring, unstreaked crown with soft white bars, neutral-dark iris and full branch support. One targeted edit shortened and softened adult-like remiges. Downy chick, exact age, iris chronology, nest geometry and flight threshold remain unknown.",
+      "source_ids": [
+        "PESO-MIKKOLA-2013-P135",
+        "PESO-ABC-GIERSBERGEN-2021",
+        "PESO-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-176-pemba-scops-owl--otus-pembaensis-v1",
+      "run_record": "production/runs/2026-10-28T0230+0800-cycle-1.md",
+      "git_blob": "d234423aca0c5732681b8d6c0e71a9fccd3d69be",
+      "reviewed_at": "2026-10-28T03:38:21.709+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 670554,
+      "archive_note": "Generated master preserved before review. One targeted built-in imagegen edit shortened and softened juvenile wings/tail while preserving adults, exact text and support. Original 1536x1024 reviewed image and 680x453 concept derivative were opened. Independent commit-pinned readback pending; scientific verification remains false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
   "updated_at": "2026-10-28T02:28:00.000+08:00"

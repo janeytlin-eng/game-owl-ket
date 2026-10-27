@@ -20,3 +20,11 @@ Pendinggeneration; no uniqueincrement untilverified.
 - Unknown and not invented: exact juvenile age/iris/flight/bill colour, sex ratio, quantified dimorphism, nest form, continuous feather sequence.
 - Full generation prompt is preserved in [run 2026-10-27T1335+0800-cycle-3](../../production/runs/2026-10-27T1335+0800-cycle-3.md).
 - Science status remains false until specialist review.
+
+
+## v2 VERIFIED — 2026-10-27T14:45:30.039+08:00
+
+- Result: REVISION; unique-species increment 0; project total remains 163/251.
+- Image: `owl-pet/design/concepts/141-otus-magicus-v2.png`.
+- Archive commit: `5d95ccb504c05b719267d973e6239f999658b047`; immutable Git blob: `4e1365939c4d96b85a052c8e66f4eb6ce40e24ef`; 1536×1024; 722,727 bytes; SHA-256 `29a4228d516644c3de39050a8a2bae28b98be630728e886de8d7d82e274cd35f`.
+- Review: one targeted edit removed the juvenile's long hard adult-like wing, placed the unknown iris colour in soft shadow, and extended adult tarsal feathering. Exact age/iris/flight/bill colour, quantified dimorphism, nest form and feather sequence remain unknown; science false.

@@ -2,7 +2,7 @@
 
 - Revised the Moluccan Scops Owl using reread Mikkola pp.189–190 and a new original-name/type-locality mapping; unique species remains 163/251.
 - Preserved the age-unknown older feathered juvenile and near-equal adult display height. One targeted edit removed a long hard adult-like juvenile wing, avoided unsupported juvenile iris colour and improved adult tarsal feathering.
-- Archived concept/reviewed assets to immutable Git blob `4e1365939c4d96b85a052c8e66f4eb6ce40e24ef`; independent readback remains pending in ARCHIVED. Science remains false.
+- Archived concept/reviewed assets in commit `5d95ccb504c05b719267d973e6239f999658b047` to immutable Git blob `4e1365939c4d96b85a052c8e66f4eb6ce40e24ef`; both image paths plus manifest/run/phase-ledger readback passed. Science remains false.
 
 ## 2026-10-27 — #163 *Glaucidium gnoma* v1
 

@@ -4134,3 +4134,13 @@ Links: [research card](species/173-otus-madagascariensis.md), [run](../productio
 ### Existing-source application
 - `PSC-KOMAR-STUFKENS-2012` institutional PDF printed/PDF pp.65–66 and Figure 4 re-downloaded, text read and page viewed: older fledgling ground defensive wing-spread after falling when startled, difficulty flying, exact age unknown. Reused, not duplicated.
 - `PSC-OWLPAGES-2020` current lines 50–77 opened/read: two real adult pale wing bands, fine irregular shaft/vermiculation pattern, yellow eye, greenish bill and feathered tarsi. Reused, not duplicated.
+
+
+## 2026-10-27 #111 Cyprus Scops Owl · *Otus cyprius* v3 revision
+
+| Stable ID | Title / URL | Institution | Year / accessed | Type | Taxon / stage | Verified value | Limits / decision |
+|---|---|---|---|---|---|---|---|
+| CYSO-MIKKOLA-2013-P122-123 | *Owls of the World*, printed pp.122–123 / uploaded PDF pp.124–125 | Heimo Mikkola | 2013; read/viewed 2026-10-27 | User-supplied photographic guide | old *O. scops cyprius*; adult plus broad juvenile | Silvery-gray Cyprus race; broad account gives small tufts, yellow eyes, gray bill, feathered tarsi, black shaft streaks/vermiculation, white scapular webs, pale-barred wing/tail; female heavier direction; juvenile fluffier | Predates split and is not Cyprus-specific development. Supports old-name mapping and bounded traits, not exact fledgling age/sex ratio. |
+| CYSO-BIRDLIFE-CYPRUS-2026 | [Cyprus Scops Owl](https://birdlifecyprus.org/cyprus-scops-owl/) | BirdLife Cyprus | current page; accessed 2026-10-27 | Institutional species page | current species; habitat/nesting | 19–21 cm; olive/conifer hollows, nest boxes; forests, farms, villages and olive groves | No juvenile plumage or sex measurements; habitat only. |
+
+Reused: CYSO-SOUNDAPPROACH-2013PHOTOS (actual fledged-young photos/captions reread) and CYSO-FLINT-2015 (PubMed abstract freshly reread; repository pp.309–310 evidence reused). Design preserves formed barred juvenile wing and real pale marks, but removes mechanical repeated texture and unsupported rigid adult-like geometry. Exact age/bar spacing/flight threshold/sex scale remain unknown; science false. [Research card](species/111-otus-cyprius-v3.md); [run](../production/runs/2026-10-27T2126+0800-cycle-5.md).

@@ -4161,3 +4161,20 @@ Reused: CYSO-SOUNDAPPROACH-2013PHOTOS (actual fledged-young photos/captions rere
 | BLF-MOVIN-2022 | Movin et al., “Using bioacoustic tools to clarify species delimitation within the Blakiston's Fish Owl (*Bubo blakistoni*) complex”, *Avian Research* 13:100021, 2022, DOI 10.1016/j.avrs.2022.100021, https://doi.org/10.1016/j.avrs.2022.100021 | Primary bioacoustic/taxonomic study; pp.1–8; 192 duets from 22 pairs | Abstract/method/results and pp.1,5 read. The study found marked duet differences between insular Hokkaido/Kunashir nominate and continental *doerriesi* and proposed species status for the latter. It identifies a continental white back patch and nearly white fully adult tail as the strongest plumage differences (p.5). | A published proposal, not substituted for the project's current IOC treatment. Used only to keep a Hokkaido scene within nominate visual scope and to document taxonomic uncertainty; not juvenile evidence. High for the study's own data/proposal. |
 
 Reused: BLF-HAYASHI-BR2010, BLF-MIKKOLA-2013-P296, BLF-IOC13-1-2023. The 2022 split proposal is recorded as a design boundary rather than a current-name replacement. Links: [v2 research card](species/161-ketupa-blakistoni.md#v2-science-revision--2026-10-28), [run](../production/runs/2026-10-28T0029+0800-cycle-1.md). Scientific verification remains false.
+
+
+## 2026-10-28 — #172 *Tyto castanops* v2 science revision
+
+### TMO-DEBUS-WOOD-2007-P49-52
+- Title: “Growth of a Captive Nestling Masked Owl *Tyto novaehollandiae*”
+- Authors/institution: S.J.S. Debus and C. Wood; Australian Field Ornithology 24:49–53
+- Year / URL / accessed: 2007; https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/610/596 ; accessed 2026-10-28
+- Type: primary captive growth observation with photographs
+- Taxon/stage: nominate *T. n. novaehollandiae* growth series; explicitly compares cream down reported for Tasmanian *T. n. castanops*
+- Actually read: printed pp.49–52 / PDF pp.1–4; Plate 11 captions and text pp.50–51; Plate 12 caption p.51.
+- Source facts: the authors interpret the photographed chick at about 4 weeks as downy with a developing mask, and at about 5 weeks as having thick second/mesoptile down and a well-developed mask with feathers not yet visible through the down. A probably ~11-week new fledgling was fully grown with only traces of down on feather tips. The paper says dark-morph Tasmanian chicks apparently have cream rather than buff mesoptile down, citing Higgins 1999.
+- Limits/conflicts/confidence: one captive nominate-subspecies female, estimated ages because hatch date was not recorded, unlimited-food conditions, and the Tasmanian cream-down statement is a secondary comparison. High for the photographed individual/stage sequence; moderate for transfer of cream hue to *castanops*; it does not justify a universal age or exact flight threshold.
+- Design/check decision: v1’s nearly spherical downy bird is not retained as an “advanced nestling.” The revision uses an explicitly approximate five-week, thick cream-down nestling with a developed mask and no visible flight feathers; science remains false.
+- Links: [species card](species/172-tyto-castanops.md#v2-science-revision--2026-10-28) · [run](../production/runs/2026-10-28T0029+0800-cycle-2.md)
+
+Reused source IDs: `TMO-MIKKOLA-2013-P110`, `TMO-ABSA-2019-P2`, and `TMO-AUSMUSEUM-2024`. No duplicate entries were created. The Australian Museum page was freshly read for current adult sex direction, young white/cream color, hollow chamber material and forest/woodland habitat. Scientific verification remains false.

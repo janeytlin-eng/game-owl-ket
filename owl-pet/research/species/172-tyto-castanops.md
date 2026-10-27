@@ -51,3 +51,27 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - Complete recursive tree readback mapped the concept and reviewed asset to `4022b7681cbadaeb909b521f7f9f7a7e51cffa95` (656,410 bytes), and the original master to `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac` (3,323,696 bytes); tree was not truncated.
 - Manifest contains exactly one #172 entry. All five source IDs are present in both source index and card; status/design/workflow/run metadata readback passed.
 - Result: NEW +1 unique species, 171→172/251. Scientific calibration remains pending.
+
+
+## v2 science revision — 2026-10-28
+
+Status: RESEARCH_READY; image not yet generated; scientific verification: false.
+
+### Problem → evidence → planned correction
+
+- Problem found by reopening v1: “ADVANCED NESTLING” conflicts with an almost uniform down-ball body and no bounded developing flight feathers.
+- New evidence: `TMO-DEBUS-WOOD-2007-P49-52` documents an interpreted ~5-week Masked Owl as thickly downed, with a well-developed mask and feathers not yet visible through the down; the same paper explicitly contrasts buff nominate mesoptile with apparently cream Tasmanian `castanops` mesoptile.
+- Planned correction: relabel and calibrate the juvenile to an approximate five-week nestling instead of inventing visible remiges or treating it as nearly fledged. Adult sex direction, tree-hollow support and Tasmanian setting are retained.
+- Unknowns retained: no exact hatch date for the observed chick; no *castanops*-specific continuous feather chronology or exact flight threshold. Science remains false.
+
+### Full imagegen prompt
+
+Edit the supplied Tasmanian Masked Owl concept plate in the same polished semi-realistic painterly gouache/watercolor style and preserve its horizontal 3:2 composition, muted Tasmanian eucalypt dusk palette, title, adult identities, adult poses and exactly-three-bird count. The only scientific revision is the centre juvenile and typography. Change the centre label exactly to “JUVENILE — ~5-WEEK NESTLING” and keep it comfortably inside the lower safe margin. Render the centre bird as a documented approximately five-week Masked Owl nestling: thick cream second/mesoptile down; a clearly developed heart-shaped facial mask; dark open eyes and pale bill; compact crouched body; feathers not yet visible through the down; no adult-like layered remiges, no long tail, no flight pose. Keep its belly and both feet fully supported at the broad old-eucalypt hollow lip. Preserve the left “ADULT MALE” as smaller and paler and the right “ADULT FEMALE” as markedly larger and darker, both with broad dark-edged facial discs, dark eyes, feathered legs and powerful supported feet. Do not add eggs, prey, extra birds, unsupported feet, decorative fantasy markings, or any text other than the existing title and the three labels.
+
+### Review gates
+
+1. Exactly three birds; title and labels correct, with centre label `JUVENILE — ~5-WEEK NESTLING`.
+2. Juvenile has thick cream down, developed mask, no visible adult-like remiges/tail, and full physical support at the hollow lip.
+3. Male remains smaller/paler and female larger/darker without converting mass dimorphism into an unsupported fixed height ratio.
+4. Dark eyes, broad discs, feathered legs and powerful supported feet remain coherent.
+5. No science pass: stage age is approximate and based on one captive nominate growth series plus a secondary *castanops* down-color comparison.

@@ -4930,29 +4930,31 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 3,
-        "run_id": "2026-10-28T0029+0800-cycle-3",
-        "species": "#163 Glaucidium gnoma",
+      "active_lease": {
+        "cycle": 4,
+        "owner": "codex-root",
+        "run_id": "2026-10-28T0029+0800-cycle-4",
+        "species": "#165 Ninox punctulata",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T01:40:00.000+08:00",
+        "heartbeat_at": "2026-10-28T01:42:00.000+08:00",
+        "expires_at": "2026-10-28T01:57:00.000+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 4,
+        "run_id": "2026-10-28T0029+0800-cycle-4",
+        "species": "#165 Ninox punctulata",
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-28T01:42:00.000+08:00",
         "evidence": {
-          "archive_commit": "059569c12c883e24af62cf4ed2e853803170c8b8",
-          "tree_sha": "cee84e343592ca57de4e2f67f16b9bfa07a10958",
-          "tree_readback_complete": true,
-          "tree_truncated": false,
-          "concept_blob": "97c96d2f092be871d27cb9ee53beb77eef9b0a24",
-          "generated_blob": "23a898f3b03409c05e0ee856a710d358aad83a8f",
-          "reviewed_blob": "97c96d2f092be871d27cb9ee53beb77eef9b0a24",
-          "manifest_entries": 428,
-          "unique_species_total": 174,
-          "scientifically_verified": false
+          "v1_path": "owl-pet/design/concepts/165-ninox-punctulata-v1.png",
+          "visual_issue": "age-unknown mesoptile is rendered as a miniature adult with dense adult-like spotting, full long hard wing feathers and adult-like soft-part cues; needs species-specific re-check",
+          "credit": false
         }
       },
-      "last_updated_at": "2026-10-28T01:40:00.000+08:00",
+      "last_updated_at": "2026-10-28T01:42:00.000+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -4968,7 +4970,8 @@
         "2026-10-28T01:35:30.000+08:00: cycle3 #163 v2 IMAGE_GENERATED; 1536x1024 PNG persisted. Initial original-resolution review requires targeted juvenile-wing edit; lease renewed to 2026-10-28T01:50:30.000+08:00.",
         "2026-10-28T01:37:00.000+08:00: cycle3 #163 v2 REVIEWED PASS after one targeted juvenile-wing edit; 1536x1024 reviewed PNG persisted; science pending; lease renewed to 2026-10-28T01:52:00.000+08:00.",
         "2026-10-28T01:38:30.000+08:00: cycle3 #163 Glaucidium gnoma v2 ARCHIVED tree prepared: concept/reviewed path share blob 97c96d2f092be871d27cb9ee53beb77eef9b0a24; manifest 427→428; unique remains 174/251; independent readback pending.",
-        "2026-10-28T01:40:00.000+08:00: cycle3 #163 Glaucidium gnoma v2 VERIFIED against archive 059569c12c883e24af62cf4ed2e853803170c8b8; complete tree/blob/path/manifest/source/card/run readback passed; unique remains 174/251; next_cycle4; lease released."
+        "2026-10-28T01:40:00.000+08:00: cycle3 #163 Glaucidium gnoma v2 VERIFIED against archive 059569c12c883e24af62cf4ed2e853803170c8b8; complete tree/blob/path/manifest/source/card/run readback passed; unique remains 174/251; next_cycle4; lease released.",
+        "2026-10-28T01:42:00.000+08:00: cycle4 STARTED #165 Ninox punctulata v2 SCIENCE_REVISION after actual v1 visual review found a miniature-adult mesoptile with dense adult-like spotting and full hard wing feathers. Lease expires 2026-10-28T01:57:00.000+08:00."
       ]
     }
   ],

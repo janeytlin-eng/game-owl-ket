@@ -3749,3 +3749,15 @@ Links: [research card](species/163-athene-cunicularia.md), [run](../production/r
 | LIO-BOT-OWLET-2026 | Barn Owl Trust, “Owlet identification and ageing”, accessed 2026-10-27, https://www.barnowltrust.org.uk/barn-owl-facts/owlet-identification-age/ | Specialist rehabilitation/identification guide | Little Owl young: brown/dirty-looking down, pale eyes, slightly feathered toes, often in/near buildings or mature trees. General fledgling cue: mostly feathered but wispy down remains on crown/between legs. | Not a measured Little Owl day-by-day series. Used only for down/eye/toe and support cues, cross-checked with BTO/Mikkola. |
 
 Links: [research card](species/164-athene-noctua.md), [run](../production/runs/2026-10-27T1034+0800-cycle-5.md). Facts and design inference remain separate; scientific verification is false.
+
+
+#140 Reddish Scops Owl — *Otus rufescens* v2 — 2026-10-27
+
+| ID | Title / institution / year / URL | Type and scope | Actually read facts | Limits / design use |
+|---|---|---|---|---|
+| RFS-MIKKOLA-2013-P178 | Heimo Mikkola, *Owls of the World—A Photographic Guide*, 2nd ed., 2013, user PDF pp.178; publisher https://www.bloomsbury.com/in/owls-of-the-world--a-photographic-guide-9781472905932/ | Photographic guide; adult, chick, habitat, subspecies | P.178 actually read: 15–18 cm/70–83 g; adult light/dark morph details, chestnut/amber eyes, horn-white bill, feathered pale-buff feet; downy chick reddish-brown, darker crown/mantle and paler rump; mesoptile adult-like but far less speckled; lowland evergreen/logged forest. | Synthesis, not a dated growth series. Nominate light morph used; no exact chick age/iris/flight or sex ratio. |
+| RFS-RAFFLES-CATALOGUE-2002 | Raffles Museum / National University of Singapore, avian catalogue p.299, https://lkcnhm.nus.edu.sg/app/uploads/2017/04/20brm005-299.pdf | Museum catalogue; malayensis distribution/specimens | P.299 actually read: scarce resident malayensis known from few Peninsula specimens; dense lowland/submontane jungle. | Adult regional occurrence only; not used for nominate chick color or development. |
+| RFS-WARAKAGODA-RASMUSSEN-2004 | Warakagoda & Rasmussen 2004, BBOC 124:85–105 | Primary museum comparative description; mesoptile | Reused p.102 description: one rufescens mesoptile rich nearly uniform rufescent-brown, weak dark facial rim, vague bars strongest hindcrown/uppermantle, downy texture. | Single specimen/unspecified age; supports texture/color, not posture, eyes or flight. |
+| RFS-OWLPAGES-2020 | Deane Lewis, Reddish Scops Owl, 2020, https://www.owlpages.com/owls/species.php?s=310 | Secondary synthesis; breeding/habitat | Reused: tree holes and old barbet/woodpecker holes; lowland evergreen, foothill/submontane and logged forest; downy nestling reported but no detailed stage. | No precise chick appearance/day; only cavity and habitat support. |
+
+Links: [knowledge card](../knowledge/species/140-otus-rufescens.md), [run](../production/runs/2026-10-27T1034+0800-cycle-6.md). Search hits without opened/usable species facts were not indexed. Science remains false.

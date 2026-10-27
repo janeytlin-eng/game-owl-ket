@@ -5,3 +5,6 @@
 Lesson: Museum mesoptile description supports texture/color, not precise day or flightability; avoid importing unknown Serendib juvenile prediction.
 
 Sourcefacts: Warakagoda & Rasmussen2004p102 actualNNM specimen; almostuniformrufescentbrown weakrim/vaguehindcrownbar. OwlPages2020Description adultamberbrowniris/hornwhitebill/bufftarsitotoebase, forest. No supportedsexstandingratio; neutraldisplay inference. Juvenilesupportedrest/closedeyes toavoidunknowniris inferencedesign. Completeprompt/iteration inrun, notscientificpass.
+
+## #140 *Otus rufescens* v2 research boundary — 2026-10-27
+Mikkola p.178 body text was newly available/read and supersedes the earlier “book body unavailable” limitation: adult light-morph characters, reddish-brown downy chick and far-less-speckled mesoptile are now explicit. Raffles catalogue p.299 adds adult malayensis lowland/submontane context but is not transferred to nominate juvenile detail. Existing primary mesoptile and OwlPages cavity/habitat records were reused. V2 uses an age-unknown, fully supported downy chick; v1 closed eyes are not treated as observed fact. Full prompt and review remain in the cycle-6 run. Science false.

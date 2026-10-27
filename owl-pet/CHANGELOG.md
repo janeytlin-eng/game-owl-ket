@@ -1,3 +1,9 @@
+## 2026-10-28 — #201 *Otus mantananensis romblonis* v1 archive checkpoint
+
+- Added a new evidence-bounded Mantanani Scops Owl concept; provisional unique count 184/251 pending immutable readback.
+- Added 4 stable sources after reading/viewing institutional identity/taxonomy records, an identified juvenile Photo Ark page and adult Cornell imagery. Uploaded guide was unavailable and no page is claimed.
+- One targeted edit shortened overly prominent adult tufts and replaced the juvenile's long adult-like side wing with a compact down-covered contour. Full reviewed master and 680×453 derivative were opened; science false.
+
 ## 2026-10-28 — #197 *Otus megalotis* v1 archive checkpoint
 
 - Added a new evidence-bounded Luzon Lowland Scops Owl board; provisional unique count 183/251 pending readback.

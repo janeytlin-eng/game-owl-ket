@@ -1,3 +1,9 @@
+## 201 · Mantanani Scops Owl · *Otus mantananensis romblonis* v1
+
+- [Original PNG](concepts/201-otus-mantananensis-v1.png) · 680×453 sRGB indexed PNG · 203,326 bytes · SHA-256 `6ea88a61879de0e5346f9fd32a8ed29f101a9906dd611edce78881e7835aab04`
+- Git blob `7263eab1698dfd22fb7f60231f7d869780de17ba`. NEW evidence-bounded Philippine concept; adults near-equal because sex-size direction is unknown. One targeted edit shortened adult tufts and replaced the juvenile's long adult-like side wing with a compact down-covered contour. Science pending.
+- [Sources](../research/species/201-otus-mantananensis-v1.md) · [Run](../production/runs/20261028T0629+0800-cycle-3.md)
+
 ## 197 · Luzon Lowland Scops Owl · *Otus megalotis* v1
 
 - [Original PNG](concepts/197-otus-megalotis-v1.png) · 680×453 sRGB · 688,003 bytes · SHA-256 `ce9263f99decfcb6dfd71e79aa5614d0336886afb6d4c9ca20128c6c86bc48f8`

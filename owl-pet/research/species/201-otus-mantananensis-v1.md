@@ -34,6 +34,8 @@ Avoid: traits borrowed from O. megalotis, O. everetti, O. nigrorum, or O. mindor
 ## Production result
 - IMAGE_GENERATED: source PNG SHA-256 `da6455ba7d6dfeffbfa67d9dcdda46089235f2f63e9b2aee503d82b8ea211b6f`; durable generated JPEG blob `40a45307b90cfc13b0f68ccc8eeb571b3b1280b2`.
 - Initial review: exact layout/text/support passed; adult tufts and juvenile wing required correction.
-- REVIEWED: one targeted edit shortened adult tufts and replaced the juvenile's long adult-like wing with a compact down-covered contour. Reviewed source PNG SHA-256 `7c77c910ba342282e94389e61235c218ec21e27cb5bec377bf6ad346ed5f3d17`; durable reviewed JPEG blob `f4393d3835c096cdd93307d8bc962a5d073f64cc`.
+- REVIEWED: one targeted edit shortened adult tufts and replaced the juvenile's long adult-like wing with a compact down-covered contour. Reviewed source PNG SHA-256 `22b48246e1fb1f18e3765db11735804fbb8751a0f2e6f30f6f2b4f257506c134`; durable reviewed JPEG blob `f4393d3835c096cdd93307d8bc962a5d073f64cc`.
 - Full master and 680×453 derivative viewed; PASS_WITH_LIMITATIONS; science false.
+- Concept: 680×453 sRGB indexed PNG, 203,326 bytes, SHA-256 `6ea88a61879de0e5346f9fd32a8ed29f101a9906dd611edce78881e7835aab04`, Git blob `7263eab1698dfd22fb7f60231f7d869780de17ba`.
+- Immutable archive readback: pending.
 - Scientific verification: false.

@@ -1,3 +1,12 @@
+## 2026-10-28 #201 *Otus mantananensis romblonis* v1
+
+- Result: NEW concept ARCHIVED; provisional unique species 184/251 pending immutable readback.
+- Image: [design/concepts/201-otus-mantananensis-v1.png](design/concepts/201-otus-mantananensis-v1.png)
+- Concept blob `7263eab1698dfd22fb7f60231f7d869780de17ba`; 680×453 sRGB indexed PNG; 203,326 bytes; SHA-256 `6ea88a61879de0e5346f9fd32a8ed29f101a9906dd611edce78881e7835aab04`.
+- Research: 4 new stable sources; eBird identification, Avibase taxonomy/range, Photo Ark juvenile page/pixels and Cornell adult pixels actually read/viewed. Uploaded Mikkola guide unavailable in this run, so no page claim.
+- Review: one targeted adult-tuft/juvenile-wing edit; master and derivative viewed. Science remains false for exact age, flight, continuous feather sequence, nest geometry, sex ratio and population generality.
+- Run: [production/runs/20261028T0629+0800-cycle-3.md](production/runs/20261028T0629+0800-cycle-3.md)
+
 ## 2026-10-27 #129 *Megascops hoyi* v3
 
 - Result: SCIENCE_REVISION VERIFIED; unique species remains 174/251.

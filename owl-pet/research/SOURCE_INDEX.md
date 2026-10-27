@@ -4047,3 +4047,45 @@ Links: [research card](species/173-otus-madagascariensis.md), [run](../productio
 ### Reused OWL-SRC-0053-A
 - Fresh read 2026-10-27: USDA Forest Service FEIS Perching and Roosting / Nesting Habitat. Pre-flight owlets first climb leaning trees and later deeply fissured upright trees; broken tops and vacated stick nests are valid, cavity/newly-built owl nest excluded.
 - Existing stable ID retained; no duplicate source entry counted.
+
+
+## #16 *Strix occidentalis caurina* · cycle 2026-10-27T1836+0800-6
+
+### NSO-FORSMAN-1984-P36-37
+- Title: Distribution and Biology of the Spotted Owl in Oregon
+- Authors/institution: Eric D. Forsman, E. Charles Meslow, Howard M. Wight; Oregon State University / The Wildlife Society
+- Year: 1984; accessed 2026-10-27
+- URL: https://andrewsforest.oregonstate.edu/pubs/pdf/pub1762.pdf
+- Type: primary long-term field monograph
+- Species/stage: Oregon *Strix occidentalis caurina*, nestlings and normally fledged juveniles
+- Actually read: printed pp. 36–37 / PDF pp. 33–34, Development and Behavior of Nestlings; Development and Care of Fledglings.
+- Useful facts: normal nest departure 34–36 days; natal down nearly replaced; remiges half to two-thirds developed; weak flight; rough-bark climbing with talons, wings and sometimes bill.
+- Evidence limit/confidence: high within the study population; no universal individual schedule or exact body ratio.
+- Design decision: supported weak-flying climber, no printed age, partial rather than adult remiges.
+- Links: [card](../knowledge/species/16-strix-occidentalis.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-6.md)
+
+### NSO-USFWS-PROTOCOL-2012-P33
+- Title: Protocol for Surveying Northern Spotted Owls
+- Institution: U.S. Fish & Wildlife Service
+- Year: January 2012; accessed 2026-10-27
+- URL: https://www.fws.gov/sites/default/files/documents/survey-protocol-for-northern-spotted-owl.pdf
+- Type: federal survey protocol / institutional synthesis
+- Species/stage: *S. o. caurina*, fledgling and juvenile age classes
+- Actually read: Glossary, PDF p. 32 / printed p. 33.
+- Useful facts: fledgling means young-of-year off nest; 1–3 month juveniles remain very white/downy overall or on breast/head; down decreases at 4–5 months; valid nests include cavities, broken tops, old nests, brooms and ledges.
+- Evidence limit/confidence: age-class synthesis, not an individual feather atlas.
+- Design decision: retain down on head/breast without converting the juvenile to an early nestling.
+- Links: [card](../knowledge/species/16-strix-occidentalis.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-6.md)
+
+### NSO-CORNELL-ID-2026
+- Title: Spotted Owl Identification
+- Institution: Cornell Lab of Ornithology, All About Birds
+- Year: live account; accessed 2026-10-27
+- URL: https://www.allaboutbirds.org/guide/Spotted_Owl/id
+- Type: institutional identification account with curated photographs
+- Species/stage: adult Northern Spotted Owl; general juvenile comparison
+- Actually read: photo/ID text lines 13–58.
+- Useful facts: northern birds are darker brown with small white head/back/breast spots and no ear tufts; Mexican birds are paler with larger facial/body white areas; juveniles retain down and look fluffy.
+- Evidence limit/confidence: juvenile photos include Mexican birds; their exact pattern is not transferred to northern birds.
+- Design decision: dark northern adults/small spots; juvenile fluff is bounded by primary Oregon development evidence.
+- Links: [card](../knowledge/species/16-strix-occidentalis.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-6.md)

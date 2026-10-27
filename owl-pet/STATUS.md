@@ -1,3 +1,12 @@
+## 2026-10-27 #139 *Otus jolandae* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/139-otus-jolandae-v2.png](design/concepts/139-otus-jolandae-v2.png)
+- Fix: repaired v1's blank lower third/cropped unsupported birds/missing labels; reduced excessive white wing patches and shortened the juvenile wing after one targeted edit.
+- Evidence: reused `SLSO-SANGSTER-2013`, added `RIN-PLOS-FIG1-2008`; one false Macaulay lead was opened and rejected as *O. manadensis*.
+- Review: visual correction passed; exact juvenile age/iris/flight, nest, sex ratio and detailed pattern remain unknown; `scientifically_verified=false`.
+- Run: [production/runs/2026-10-27T0728+0800-cycle-6.md](production/runs/2026-10-27T0728+0800-cycle-6.md)
+
 ## 2026-10-27 #137 *Otus alfredi* v2
 
 - Result: revised and archived; unique species remains 159/251.

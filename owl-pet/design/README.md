@@ -1,3 +1,9 @@
+## 139-otus-jolandae-v2
+
+- [Original PNG](concepts/139-otus-jolandae-v2.png) · 1536×1024 · 541,426 bytes · SHA-256 `16883ef01d913a70810d0c17e6df9502a29192ce91dc34c8cbbdfa8a6908c26f`
+- v2 repairs the blank/cropped v1 layout and restores complete support/labels. One targeted edit bounded adult scapular white and shortened/softened the age-unknown immature wing. Science remains false.
+- [Research, prompt and review](../production/runs/2026-10-27T0728+0800-cycle-6.md)
+
 ## 137 · Flores Scops-Owl · *Otus alfredi* v2
 
 - [Original PNG](concepts/137-otus-alfredi-v2.png) · 1536×1024 · 577,955 bytes · SHA-256 `22ce5bfd6de94d59214fc1a8924abe3a573bf4e6a94f79806070b01c567faa4b`

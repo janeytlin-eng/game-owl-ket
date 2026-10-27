@@ -1,3 +1,9 @@
+## 2026-10-27 — #139 *Otus jolandae* v2
+
+- Rebuilt broken v1 layout as a complete three-bird plate and applied one evidence-linked wing/scapular edit.
+- Added one published adult field-image source; rejected one false Macaulay match.
+- Unique species unchanged at 159/251; scientific verification remains false.
+
 - 2026-10-27: Revised #137 *Otus alfredi* to v2; corrected prior overbroad “plain rufous” interpretation by retaining real patterned white scapular feathers while removing v1's oversized blank shields, restored all role labels after one edit, and kept the evidence-bounded later feathered juvenile. Unique species remains 159/251; science pending.
 - 2026-10-27: Revised #136 *Megascops petersoni* to v2; freshly reread the original description, added primary habitat/locality and Cornell adult-photo sources, removed v1 near-white facial leakage and regular belly grids, and preserved the evidence-bounded nearly-adult first-year stage. Unique species remains 159/251; science pending.
 - 2026-10-27: Revised #135 *Otus silvicola* to v2; freshly reread/reused two primary sources without duplicate IDs, retained the fully feathered age-unknown immature, and replaced adult-like white wing rows with shorter softer loosely barred formed wing/tail. Unique species remains 159/251; science pending.

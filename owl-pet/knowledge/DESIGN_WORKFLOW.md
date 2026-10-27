@@ -413,3 +413,8 @@ A diagnosis of “virtually no white” must be applied separately to every high
 ### #137 diagnostic-feature correction check (2026-10-27)
 
 Do not “fix” an exaggerated diagnostic feature by deleting it. #137's source says both “solid rufous upperparts” and specifically patterned white scapular feathers; reread tables/zone definitions before acting on a terse summary. V2 kept white scapular feathers but bounded them to small dark-blotched, brown-tipped shoulder patches and removed repeated wing-wide shields. The first edit also restored omitted labels, and the whole plate was rechecked. This visual rule is validated for #137 only; exact spot geometry remains scientifically unverified.
+
+
+## 2026-10-27 — blank-canvas and support invariant validated on #139
+
+Problem: a nominally 1536×1024 concept can contain a large blank lower zone while all subjects are cropped above their feet; file dimensions alone therefore cannot establish a complete plate. Evidence: actual immutable v1 view exposed the blank lower third, absent labels and missing support. Change: prompts now require safe margins, full ear-tuft-to-toe anatomy, visible continuous support and exact role labels; whole-canvas review checks every edge before credit. Recheck: #139 v2 fully filled the canvas, showed all toes/support/labels and preserved this after a single wing-pattern edit. Validated for this case only; not a retroactive pass for unreviewed plates.

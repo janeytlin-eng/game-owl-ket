@@ -18,3 +18,8 @@
 
 - Blob `8b30765e66ce8dc35538a43a0982692a054d177e`; 1536×1024; 724,809 bytes; SHA-256 `c1ef30f97f707976d0c8a24d3f65080c8cba5196e1333cb133710c47c2695b30`.
 - One targeted edit corrected fledgling wing, tail and ventral stage; science false.
+
+## v2 VERIFIED — 2026-10-27T14:53:17.405+08:00
+
+- Archive `47459717548a53b8242aeb64e34444de1694da5f`; blob `8b30765e66ce8dc35538a43a0982692a054d177e`; unique increment 0, total 163/251.
+- Both image paths and manifest/run/ledger readback passed; science false.

@@ -1,8 +1,8 @@
 ## 2026-10-27 #145 *Ninox philippensis* v2
 
-- Result: REVISION archived pending readback; unique remains 163/251.
+- Result: REVISION VERIFIED; unique remains 163/251.
 - Image: [design/concepts/145-ninox-philippensis-v2.png](design/concepts/145-ninox-philippensis-v2.png)
-- Git blob `8b30765e66ce8dc35538a43a0982692a054d177e`; 1536×1024; 724,809 bytes; SHA-256 `c1ef30f97f707976d0c8a24d3f65080c8cba5196e1333cb133710c47c2695b30`.
+- Archive `47459717548a53b8242aeb64e34444de1694da5f`; Git blob `8b30765e66ce8dc35538a43a0982692a054d177e`; 1536×1024; 724,809 bytes; SHA-256 `c1ef30f97f707976d0c8a24d3f65080c8cba5196e1333cb133710c47c2695b30`.
 - Research: 1 new/3 reused/1 corrected limitation; Mikkola p.473 supplies explicit fledgling plumage.
 - Review: one targeted fledgling wing/tail/ventral-stage edit; science false.
 - Run: [production/runs/2026-10-27T1335+0800-cycle-4.md](production/runs/2026-10-27T1335+0800-cycle-4.md)

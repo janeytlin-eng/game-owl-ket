@@ -1,7 +1,7 @@
 ## 2026-10-27 — #145 *Ninox philippensis* v2
 
 - Revised Luzon Boobook with newly recovered Mikkola p.473 fledgling evidence; unique remains 163/251.
-- One targeted edit shortened/softened the fledgling wing, concealed the long tail and corrected ventral stage. Archived to blob `8b30765e66ce8dc35538a43a0982692a054d177e`; readback pending.
+- One targeted edit shortened/softened the fledgling wing, concealed the long tail and corrected ventral stage. Archived in `47459717548a53b8242aeb64e34444de1694da5f` to blob `8b30765e66ce8dc35538a43a0982692a054d177e`; image paths and manifest/run/ledger readback passed.
 
 ## 2026-10-27 — #141 *Otus magicus* v2
 

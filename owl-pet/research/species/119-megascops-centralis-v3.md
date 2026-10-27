@@ -22,3 +22,7 @@ Critical correction: no hard cream scallop plates, no repeated U-shapes, fish sc
 Text verbatim: title "CHOCO SCREECH-OWL"; subtitle "Megascops centralis"; labels "ADULT MALE", "OLDER JUVENILE — AGE UNKNOWN", "ADULT FEMALE".
 Exactly three birds, correct text, no extra chicks/eggs, no flight, no unsupported nest detail, no watermark.
 ```
+
+
+## Review/archive
+Initial render failed for repeated juvenile arcs and tall adult tufts. One targeted edit removed mechanical rows and reduced tufts while preserving supported formed wings/text/adults. Reviewed SHA-256 `54b760e1197314ce51db18456c066356404ae070ba57220b8d60bc608b7eacd0`; science false; readback pending.

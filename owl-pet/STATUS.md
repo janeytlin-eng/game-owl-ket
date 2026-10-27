@@ -1493,4 +1493,5 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Run: [production/runs/2026-10-27T2126+0800-cycle-1.md](production/runs/2026-10-27T2126+0800-cycle-1.md)
 
 
-- 2026-10-27T21:42:00.000+08:00 — #116 *Margarobyas lawrencii* v3 independently verified at archive commit `b9667425eed465cccce15ee20bcc535182c927c5`; concept and durable master both resolve to Git blob `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`. Unique archived species remains 174/251; batch 1/6, next cycle 2; science pending.
+## 2026-10-27 — #119 *Megascops centralis* v3
+- SCIENCE_REVISION ARCHIVED; readback pending; unique 174/251. Initial repeated juvenile arcs failed; one edit passed with irregular sparse fine marks, formed barred wings and support retained. New0/reused3/corrected0; science false. [Image](design/concepts/119-megascops-centralis-v3.png) · [run](production/runs/2026-10-27T2126+0800-cycle-2.md)

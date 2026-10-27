@@ -16,3 +16,7 @@ New2 CHSO-AVIBASE-MAPPING, CHSO-JORDAN-2012; reused/corrected1 CHSO-REYES-ASTUDI
 ### #119 v2 2026-10-17T22:35:44.597Z
 Actual built-in edit/review reduced hard juvenile cream scallopedplates to softer gray mesoptile/darkbars; adultspots/baretarsi andyoungformedremiges/notail/cavitysupport retainedvisually. Some repeateddarkgeometry remainsunresolved, sciencefalse. Sources CHSO-REYES-ASTUDILLO-2017-PARTIAL freshResultspp378–379/Table1, CHSO-AVIBASE-MAPPING reusedprior; new0/reused2/corrected0. Unique118/251unchanged.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/f963ff9dabf83c0b890a96cdb0a3eeb1db5ab38e/owl-pet/design/concepts/119-megascops-centralis-v2.png); [prompt/stages/review/integrity](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-18T0528+0800-cycle-2.md).
+
+
+### #119 v3 2026-10-27T21:54:00.000+08:00
+Actual first render failed for repeated juvenile arcs and tall adult tufts; one targeted edit passed. Reviewed concept uses irregular sparse fine dark marks on fluffy gray mesoptile, retains formed barred remiges/no projecting tail/two-foot cavity support. New0/reused3/corrected0; science false. [Original](../../design/concepts/119-megascops-centralis-v3.png) · [Run](../../production/runs/2026-10-27T2126+0800-cycle-2.md)

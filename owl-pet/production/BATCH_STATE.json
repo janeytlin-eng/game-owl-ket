@@ -4788,8 +4788,8 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T2126+0800-cycle-2",
-        "heartbeat_at": "2026-10-27T21:48:00.000+08:00",
-        "expires_at": "2026-10-27T22:03:00.000+08:00"
+        "heartbeat_at": "2026-10-27T21:54:00.000+08:00",
+        "expires_at": "2026-10-27T22:09:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -4797,8 +4797,8 @@
         "species": "#119 Megascops centralis",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-27T21:48:00.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-27T21:54:00.000+08:00",
         "evidence": {
           "main_head": "13f6cb067ba429645bfd1b030c332dabb8071a24",
           "candidate_reason": "#119 v2 latest manifest status says hard cream scallops were reduced but fine geometry remains pending; select focused juvenile mesoptile-pattern revision.",
@@ -4817,10 +4817,24 @@
           "source_ids_corrected": [],
           "fresh_research": "Reopened the primary-study landing/result, Avibase taxonomy and adult-photo/search leads. No new juvenile morphology fact exceeded the existing indexed paper/figure reading, so no duplicate source ID was added.",
           "design_boundary": "Use the documented age-unknown gray mesoptile individual with fine black bars, formed barred remiges, zero measured tail, gray/pale-tip bill and supported cavity posture. Yellow iris is individual A, not universal. Exact age/sex/flight/geometry remain unknown.",
-          "full_prompt_saved": "owl-pet/research/species/119-megascops-centralis-v3.md"
+          "full_prompt_saved": "owl-pet/research/species/119-megascops-centralis-v3.md",
+          "generated": {
+            "blob": "0510f656c77cc8b6eda9444a4887290c220e1cc7",
+            "bytes": 3627969,
+            "sha256": "03ddae908f5f55151fb95db2aedb7111903eb054a309ba3bc0eecb5c16ca7865"
+          },
+          "reviewed": {
+            "blob": "eeeed9b583081409e139b9f0ea3839042e314b7e",
+            "bytes": 3281682,
+            "sha256": "54b760e1197314ce51db18456c066356404ae070ba57220b8d60bc608b7eacd0",
+            "edit_calls": 1,
+            "result": "PASS: juvenile repeated arcs removed; sparse irregular fine dark marks on fluffy gray contour; formed barred wings, zero-tail silhouette, supported feet/text/adults retained; adult tufts reduced."
+          },
+          "concept_path": "owl-pet/design/concepts/119-megascops-centralis-v3.png",
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T21:48:00.000+08:00",
+      "last_updated_at": "2026-10-27T21:54:00.000+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
@@ -4829,7 +4843,8 @@
         "2026-10-27T21:39:00.000+08:00: ARCHIVED checkpoint prepared for #116 v3. Concept path reuses reviewed full master blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest grows 419→420 versions; unique species remains 174/251; science false. Independent commit-pinned readback pending. Lease renewed to 2026-10-27T21:54:00.000+08:00.",
         "2026-10-27T21:42:00.000+08:00: VERIFIED cycle 1/6 for #116 Margarobyas lawrencii v3. Archive commit b9667425eed465cccce15ee20bcc535182c927c5 fetched; concept and durable master both resolve to Git blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest/run/batch/species/research records read back. Unique species remains 174/251, manifest versions 420, science false. Lease released; next_cycle=2.",
         "2026-10-27T21:45:00.000+08:00: cycle 2 STARTED for #119 Megascops centralis v3 SCIENCE_REVISION. Latest v2 explicitly leaves fine juvenile mesoptile geometry pending after only partial scallop reduction. Lease expires 2026-10-27T22:00:00.000+08:00.",
-        "2026-10-27T21:48:00.000+08:00: cycle 2 RESEARCH_READY for #119 v3; reused 3 indexed sources, new0/corrected0 after fresh search/read; full prompt and boundary saved. Lease renewed to 2026-10-27T22:03:00.000+08:00."
+        "2026-10-27T21:48:00.000+08:00: cycle 2 RESEARCH_READY for #119 v3; reused 3 indexed sources, new0/corrected0 after fresh search/read; full prompt and boundary saved. Lease renewed to 2026-10-27T22:03:00.000+08:00.",
+        "2026-10-27T21:54:00.000+08:00: cycle2 IMAGE_GENERATED then REVIEWED after one targeted edit; ARCHIVED prepared. Initial repeated juvenile arcs failed review; edit removed them and reduced adult tufts. Concept blob eeeed9b583081409e139b9f0ea3839042e314b7e; independent readback pending."
       ]
     }
   ],

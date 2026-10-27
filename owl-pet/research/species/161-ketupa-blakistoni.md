@@ -26,3 +26,14 @@ See [SOURCE_INDEX.md](../SOURCE_INDEX.md#161-blakistons-fish-owl--ketupa-blakist
 
 ## Scientific status
 Pending. This evidence constrains concept design but does not make the generated concept scientifically verified.
+
+
+## v2 science revision — 2026-10-28
+
+Archived v1 was actually opened at 1536×1024. Its composition, labels, supports, female-fuller direction and late-nestling stage pass; v2 targets overly repetitive/high-contrast adult folded-wing marks, makes the feathered-tarsus/bare-toe boundary clearer, and explicitly labels the center bird as both juvenile and approximate late nestling.
+
+Movin et al. (2022, DOI 10.1016/j.avrs.2022.100021) analyzed 192 duets from 22 pairs and proposed separating continental *doerriesi* from the insular nominate form. Their p.5 plumage discussion identifies a white back patch and near-white adult tail in continental birds. Because the retained scene is Hokkaido and the project still follows the current repository/IOC name *Ketupa blakistoni*, this is a negative design boundary: do not add those continental traits; do not claim the proposal is universally adopted.
+
+New adult cross-check: The Owl Pages lines 64–69 agree on yellow iris, grayish bill, deep-brown wings with buff-yellow bars, 7–8 cream-yellow tail bars, cream-feathered tarsi and bare lead-gray toes. This secondary account refines checking but does not replace the primary/guide juvenile anchors.
+
+Unknowns remain exact individual plumage map, universal sex ratio, exact 50-day flight ability and continuous feather chronology. Scientific status remains pending.

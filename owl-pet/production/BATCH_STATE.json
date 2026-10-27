@@ -5201,88 +5201,35 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 5,
-        "run_id": "20261028T0743+0800-cycle-5",
-        "species": "#05 Strix aluco",
+      "active_lease": {
+        "owner": "codex",
+        "run_id": "20261028T0749+0800-cycle-6",
+        "batch_id": "2026-10-28T0508+0800",
+        "cycle": 6,
+        "species": "#06 Asio otus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T07:48:00.000+08:00",
+        "heartbeat_at": "2026-10-28T07:49:37.000+08:00",
+        "expires_at": "2026-10-28T08:04:37.000+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 6,
+        "run_id": "20261028T0749+0800-cycle-6",
+        "species": "#06 Asio otus",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-28T07:49:37.000+08:00",
         "evidence": {
-          "repo_head_before": "e5d6e096f624f379a7648ef81e676aa6820a934d",
-          "candidate_basis": "Current canonical #05 v2 was viewed. It uses an older Chinese-only comparison layout and an unlabelled gray cavity chick; its manifest status explicitly leaves fine pattern, feather age and proportion pending. A v3 labeled review-board revision will preserve v1/v2 and use Mikkola juvenile diagnosis plus BTO/primary brancher timing.",
+          "repo_head_before": "4750e61149e6794a0a1412885ad81e5deed66ed2",
+          "candidate_basis": "Canonical #06 v2 was viewed. It retains an older Chinese-only layout and a generic early nestling; v3 will preserve history but use Mikkola juvenile diagnosis and the 2006 primary growth/plumage study to depict a 22-day pre-flight brancher.",
           "manifest_checked": true,
           "unique_species_before": "184/251",
           "scientifically_verified": false,
-          "prelease_screening_disclosure": "The v2 image and initial source search/Mikkola text extraction occurred between cycles before this lease was written; no image generation or repository production credit occurred.",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids_new": [
-            "TAO-MIKKOLA-2013-P315",
-            "TAO-COLES-PETTY-1997"
-          ],
-          "source_ids_reused": [
-            "TAO-BTO-FACTS"
-          ],
-          "source_ids_corrected": [],
-          "fresh_research": "Mikkola printed pp.315–317 / PDF pp.317–319 text was extracted; BTO current account and BirdFacts were read; BTO nest-box PDF p.1 was read; Coles & Petty 1997 USDA record/abstract was read. MDPI primary-study page was temporarily rate-limited after the search result exposed methods, so it is not counted as a verified source.",
-          "design_boundary": "One brown adult morph; dark eyes and ivory bill; female subtly fuller only. Approximately 29–32-day pre-flight brancher outside cavity with grey-white diffuse-barred mesoptile, pink eye rims, short developing folded wings and short tail, stable branch support.",
-          "full_prompt_saved": "owl-pet/research/species/05-strix-aluco-v3.md",
-          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the repository's established cinematic 3D animated owl style. Exact header text: \"05 · TAWNY OWL · Strix aluco\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center, same brown morph and comparable baseline; female only subtly fuller/larger, not a giant. Adults: medium, round untufted heads, very dark blackish-brown eyes, ivory-yellow horn bill, light brown facial disc with fine dusky concentric lines and narrow dark ruff, off-white eyebrows, brown upperparts with dark streaks and some cross-bars, whitish scapular shoulder row, pale ochre underparts with strong dark vertical streaks and faint cross-bars, feathered tarsi and mostly feathered gray toes gripping a broad mossy branch. Do not encode sex through morph colour. Juvenile right is an evidence-bounded approximately 29–32-day brancher just outside a natural tree cavity and cannot yet fly: round untufted head, light greyish-white woolly mesoptile densely but softly barred with diffuse brown/gray, open dark opaque pupils with pink eyelid rims, pale fleshy cere and toes, short rounded developing folded wings, very short mostly concealed tail, both feet firmly gripping a stable adjacent branch; no spread wings, hovering, adult-length remiges or adult streaked breast. Woodland dusk beside the cavity, restrained depth of field. Comparative board, not a literal family photograph. No prey, eggs, extra birds, borders, logos or text beyond exact title and three labels. Preserve all feet, tufts/head outlines, tails and labels. Exact day, continuous feather sequence, measured display ratio and universal cavity geometry remain unknown.",
-          "remaining_unknowns": [
-            "exact juvenile day",
-            "continuous feather sequence",
-            "measured display ratio",
-            "universal cavity geometry",
-            "regional morph generality"
-          ],
-          "generated_initial_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-bdd586b6-be98-47d0-816d-e97b11b3cbfe.png",
-          "generation_wall_seconds": 27.3,
-          "initial_review": "Exact title/labels/count, adults, dark eyes, bills, same morph and all feet passed. Juvenile had long crisp adult-spotted folded remiges, contradicting the 29–32-day pre-flight brancher boundary; targeted edit required.",
-          "actual_errors": [],
-          "reviewed_source_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-ab80b532-d764-4f56-a616-74cec07db229.png",
-          "edit_count": 1,
-          "edit_wall_seconds": 27.5,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "review_findings": [
-            "Initial juvenile wing contained long crisp adult-spotted remiges inconsistent with an approximately 29–32-day pre-flight brancher.",
-            "One targeted edit replaced only the juvenile wing with a short rounded woolly diffuse-barred contour while preserving all text, adults, count, feet, cavity and lighting.",
-            "Edited 1536x1024 image passes exact text/count, adult dark eyes/one morph, juvenile pink eye rims/pale cere, short soft wing, concealed tail and two-foot support."
-          ],
-          "generated_master_path": "owl-pet/production/generated/05-strix-aluco-v3-generated-master.png",
-          "reviewed_master_path": "owl-pet/production/reviewed/05-strix-aluco-v3-reviewed-master.png",
-          "generated_master_blob": "33d35fe66afc923b27b04087a9dde1a2b7f760a7",
-          "reviewed_master_blob": "e0e8d62de9cdbf91ed90a90b360db002a96c1ef2",
-          "generated_master_sha256": "66660e29f91c08664cdc25f28e71aabeb0740bea58b9516c77e40ea0407a37f5",
-          "reviewed_master_sha256": "96670e345d3614848d121b12d47a9e2a3e7f527ab21a501354433ff9f23ff6b8",
-          "concept_path": "owl-pet/design/concepts/05-strix-aluco-v3.png",
-          "concept_blob": "c827dcf0944083728f26d9da1229873fff9c6530",
-          "concept_sha256": "f3d322769bf7795172f5622e3df729a210461521883575829241a8842b824870",
-          "concept_bytes": 166614,
-          "concept_dimensions": "680x453 sRGB",
-          "manifest_entry_id": "05-strix-aluco-v3",
-          "manifest_count_before": 441,
-          "manifest_count_after": 442,
-          "provisional_unique_species": "184/251",
-          "archive_readback": "pending",
-          "archive_commit": "3330861fb9ef907309fe1f67183135ff4eeae057",
-          "verified_concept_blob": "c827dcf0944083728f26d9da1229873fff9c6530",
-          "verified_generated_blob": "33d35fe66afc923b27b04087a9dde1a2b7f760a7",
-          "verified_reviewed_blob": "e0e8d62de9cdbf91ed90a90b360db002a96c1ef2",
-          "verified_manifest_blob": "7a20c99f88858fe5b51a65480f636a842cbf4ff1",
-          "verified_source_index_blob": "7066d5a626d9fa8cf57ce7cd816321c168a8794c",
-          "verified_card_blob": "258332e421daf41332bb0df08570de99759328ab",
-          "verified_run_blob": "50653e07bc5cb803d03937ac65206093b6bd0891",
-          "archived_state_blob": "9b8a9c1291e95ac109cfc0eda1c43a184c76d187",
-          "verified_status_blob": "2df4dd7378393540fe45c76d0aff907f76ead80f",
-          "verified_knowledge_blob": "2e9e824dc3df947cb82631f3569e567ae81c0384",
-          "verified_readme_blob": "e2edd41ed776b4917039c3b1466be4dca83a0f4d",
-          "immutable_readback_passed": true,
-          "unique_species_after": "184/251"
+          "prelease_screening_disclosure": "v2 viewing and initial source search/Mikkola extraction occurred between cycles before this lease; no generation or production credit occurred."
         }
       },
-      "last_updated_at": "2026-10-28T07:48:00.000+08:00",
+      "last_updated_at": "2026-10-28T07:49:37.000+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5315,7 +5262,8 @@
         "2026-10-28T07:45:39.000+08:00: cycle5 #05 v3 IMAGE_GENERATED after 27.3s; juvenile adult-spotted long remiges failed brancher boundary, targeted edit required; no credit.",
         "2026-10-28T07:46:07.000+08:00: cycle5 #05 v3 REVIEWED after one 27.5s targeted juvenile-wing edit; full master passes; science false; lease renewed.",
         "2026-10-28T07:47:07.000+08:00: cycle5 #05 v3 ARCHIVED; concept c827dcf0, generated 33d35fe6, reviewed e0e8d62d; manifest 441→442; unique 184/251; readback pending.",
-        "2026-10-28T07:48:00.000+08:00: cycle5 VERIFIED #05 Strix aluco v3 at 3330861fb9ef907309fe1f67183135ff4eeae057; immutable readback passed. Unique 184/251; batch 5/6, next_cycle 6; lease released; science false."
+        "2026-10-28T07:48:00.000+08:00: cycle5 VERIFIED #05 Strix aluco v3 at 3330861fb9ef907309fe1f67183135ff4eeae057; immutable readback passed. Unique 184/251; batch 5/6, next_cycle 6; lease released; science false.",
+        "2026-10-28T07:49:37.000+08:00: cycle6 STARTED canonical #06 Asio otus v3 SCIENCE_REVISION; prelease screening disclosed, no prior generation/credit; lease expires 2026-10-28T08:04:37.000+08:00."
       ]
     }
   ],
@@ -5411,7 +5359,7 @@
     "2026-10-28T03:54:20.820+08:00: cycle3 #178 IMAGE_GENERATED after 50.3s; original and derivative opened; no edit warranted.",
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false."
   ],
-  "updated_at": "2026-10-28T07:48:00.000+08:00",
+  "updated_at": "2026-10-28T07:49:37.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -5419,8 +5367,18 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-28T07:48:00.000+08:00",
+  "active_lease": {
+    "owner": "codex",
+    "run_id": "20261028T0749+0800-cycle-6",
+    "batch_id": "2026-10-28T0508+0800",
+    "cycle": 6,
+    "species": "#06 Asio otus",
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "heartbeat_at": "2026-10-28T07:49:37.000+08:00",
+    "expires_at": "2026-10-28T08:04:37.000+08:00"
+  },
+  "last_updated_at": "2026-10-28T07:49:37.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

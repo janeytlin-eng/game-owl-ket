@@ -1,6 +1,6 @@
 # #170 Tamaulipas Pygmy-Owl — *Glaucidium sanchezi* v1
 
-Status: RESEARCH_READY; concept pending generation. Scientific verification: false.
+Status: ARCHIVED pending independent readback. Scientific verification: false. Scientific verification: false.
 
 ## Source facts
 
@@ -17,3 +17,11 @@ Use a near-equal adult pair with the documented sex-colour direction; do not tur
 ## Prompt
 
 Create one polished horizontal 3:2 natural-history concept plate for the owl electronic-pet project, matching the established semi-realistic painterly gouache/watercolor style of prior archived plates. Title exactly: “TAMAULIPAS PYGMY-OWL · Glaucidium sanchezi”. Show exactly three complete birds, all naturally supported and fully inside frame, left-to-right: label “ADULT MALE”, center label “JUVENILE — AGE UNKNOWN”, right label “ADULT FEMALE”. Adults tiny round-headed, absolutely no ear tufts, bright yellow eyes, yellowish-horn bill/cere, feathered tarsi, gray-yellow bristled toes. Male: rich olive-brown crown/nape/upperparts, fine pale cinnamon-to-white spotting on forecrown and crown sides, clear paired blackish false eyes on nape bordered pale, spotted wing coverts, whitish streaked/mottled underparts with reddish-brown breast sides. Female: subtly fuller but not taller, distinctly rufous crown/nape/upperparts, same true species structure and markings. Center juvenile is an age-unknown mesoptile, not a hatchling: fully supported low on a mossy branch near a natural tree-cavity rim; gray unspotted crown, a few soft pale flecks on forehead, pale cinnamon tail bars, grayish cere; shorter rounder down-overlaid developing folded wings and a short supported tail, no long hard adult-style layered remiges, no flight pose. Use humid northeastern-Mexico subtropical montane evergreen/semideciduous forest with dappled light and restrained scientific-board backdrop. Adults near-equal height, female only modestly fuller. Keep foot anatomy plausible, two feet gripping where visible. Avoid invented nest material, eggs, prey, decorative gear, extra birds, adult-like crisp juvenile wing rows, text blocks beyond title and three labels, and any claim of scientific approval.
+
+
+## Image and review
+
+- Concept: [170-glaucidium-sanchezi-v1.png](../../design/concepts/170-glaucidium-sanchezi-v1.png)
+- First render problem: juvenile showed adult-like hard remiges and regular white wing rows.
+- Edit: shortened/rounded/softened center wing, diffused flecks, concealed tail; adults/background/text preserved.
+- Recheck: edited master and archive derivative viewed; design review PASS. Science remains false.

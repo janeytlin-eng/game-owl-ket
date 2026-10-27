@@ -1,3 +1,12 @@
+## 2026-10-27 #170 *Glaucidium sanchezi* v1
+
+- Result: NEW concept ARCHIVED pending independent readback; provisional unique total 170/251.
+- Image: [design/concepts/170-glaucidium-sanchezi-v1.png](design/concepts/170-glaucidium-sanchezi-v1.png)
+- Reviewed blob `968280d7bf9d7c49e605200dcaddc00cd0cb0c43`; 680×453 TrueColor; 643,945 bytes; SHA-256 `bbf17194488c6c989152bcb6ba6187e1a284533651eaa11b7700e92eb0cd7478`.
+- Research: 5 new stable source IDs. Mikkola printed p.384/PDF p.386 supplies adult sex-colour direction and an age-unknown mesoptile; current-name sources and live adult photographs bound taxonomy/palette.
+- Review: one targeted juvenile-wing edit; science false. Exact age/flight/nest geometry/full feather sequence/quantified sex ratio remain unknown.
+- Run: [production/runs/2026-10-27T1636+0800-cycle-5.md](production/runs/2026-10-27T1636+0800-cycle-5.md)
+
 ## 2026-10-27 #145 *Ninox philippensis* v2
 
 - Result: REVISION VERIFIED; unique remains 163/251.

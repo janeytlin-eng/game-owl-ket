@@ -962,3 +962,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 - Added current-name *Ketupa shelleyi* concept, four actually-read sources and historical *Bubo shelleyi* mapping.
 - Excluded the explicitly undescribed downy chick; used only the documented age-unknown mesoptile. First output passed visual review with no edit; science pending.
+
+
+## 2026-10-27 — #170 Tamaulipas Pygmy-Owl
+
+- Archived new *Glaucidium sanchezi* v1 concept and durable generated/reviewed assets.
+- Added five indexed sources and species research card; historical *G. minutissimum sanchezi* mapped without duplicate count.
+- One targeted edit corrected adult-like juvenile wing structure; science remains pending.

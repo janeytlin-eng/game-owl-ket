@@ -1,3 +1,9 @@
+## 170 · Tamaulipas Pygmy-Owl · *Glaucidium sanchezi* v1
+
+- [Original PNG](concepts/170-glaucidium-sanchezi-v1.png) · 680×453 TrueColor · 643,945 bytes · SHA-256 `bbf17194488c6c989152bcb6ba6187e1a284533651eaa11b7700e92eb0cd7478`
+- Git blob `968280d7bf9d7c49e605200dcaddc00cd0cb0c43`. NEW concept: documented olive-brown male and rufous female at near-equal scale; age-unknown gray-crowned mesoptile fully supported. One targeted edit removed regular adult wing spots and hard long remiges. Science pending.
+- [Sources](../research/SOURCE_INDEX.md#2026-10-27-170-tamaulipas-pygmy-owl--glaucidium-sanchezi-v1) · [Run](../production/runs/2026-10-27T1636+0800-cycle-5.md)
+
 ## 145 · Luzon Boobook · *Ninox philippensis* v2
 
 - [Original PNG](concepts/145-ninox-philippensis-v2.png) · 1536×1024 · 724,809 bytes · SHA-256 `c1ef30f97f707976d0c8a24d3f65080c8cba5196e1333cb133710c47c2695b30`

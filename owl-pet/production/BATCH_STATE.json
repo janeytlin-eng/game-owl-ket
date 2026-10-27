@@ -4539,31 +4539,31 @@
       "active_lease": {
         "owner": "codex-production-2026-10-27T1735+0800",
         "run_id": "2026-10-27T1636+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T17:45:30.000+08:00",
-        "expires_at": "2026-10-27T18:00:30.000+08:00"
+        "heartbeat_at": "2026-10-27T17:48:30.000+08:00",
+        "expires_at": "2026-10-27T18:03:30.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Glaucidium sanchezi",
         "species_id": 170,
         "version": 1,
         "run_id": "2026-10-27T1636+0800-cycle-5",
-        "at": "2026-10-27T17:45:30.000+08:00",
+        "at": "2026-10-27T17:48:30.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-5.md",
         "evidence": {
-          "image_generated": true,
-          "edited": true,
-          "views": 3,
-          "review_result": "PASS after one juvenile-wing edit",
-          "master_sha256": "2b0b7d1d3e2610e9a2f99256a3784694468432ae8ece2889bee08fe425765fe4",
-          "reviewed_sha256": "bbf17194488c6c989152bcb6ba6187e1a284533651eaa11b7700e92eb0cd7478",
-          "reviewed_blob": "968280d7bf9d7c49e605200dcaddc00cd0cb0c43",
-          "reviewed_size_bytes": 643945,
-          "scientifically_verified": false
+          "concept_path": "owl-pet/design/concepts/170-glaucidium-sanchezi-v1.png",
+          "concept_blob": "968280d7bf9d7c49e605200dcaddc00cd0cb0c43",
+          "size_bytes": 643945,
+          "sha256": "bbf17194488c6c989152bcb6ba6187e1a284533651eaa11b7700e92eb0cd7478",
+          "dimensions": "680x453",
+          "source_count_new": 5,
+          "review_pass": true,
+          "scientifically_verified": false,
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-27T17:45:30.000+08:00",
+      "last_updated_at": "2026-10-27T17:48:30.000+08:00",
       "audit_notes": [
         "2026-10-27T16:36:30.000+08:00: cycle 1 STARTED then RESEARCH_READY for unarchived #166 Bubo cinerascens v1; 4 sources read/indexed and full prompt persisted. Project scope remains 251; lease expires 2026-10-27T16:51:30.000+08:00.",
         "2026-10-27T16:39:43.000+08:00: cycle 1 IMAGE_GENERATED then REVIEWED PASS after one targeted center-fledgling wing edit. Regular adult-like pale spot rows and hard long remiges were reduced to a shorter, rounder, softer juvenile wing with diffuse flecks. Exact text, adults, support and savanna remained intact. Reviewed archive blob d29baf733b4e8fa3cd7b53c0440724014c17ee6f; lease renewed.",
@@ -4583,7 +4583,8 @@
         "2026-10-27T17:09:30.000+08:00: cycle 4 VERIFIED; immutable tree maps concept/generated/reviewed paths to fad8ddcd84bda9a7a0c468421678c058230029d7 (633521 bytes); manifest/source/card/run/status/design readback passed. Unique species 168→169/251; batch 4/6, next_cycle 5; lease released.",
         "2026-10-27T17:35:30.000+08:00: cycle 5 STARTED for unarchived candidate #170 Glaucidium sanchezi v1 after current-name and path audit; research not yet credited. Lease expires 2026-10-27T17:50:30.000+08:00.",
         "2026-10-27T17:40:30.000+08:00: cycle 5 RESEARCH_READY for #170 Glaucidium sanchezi v1. Four sources read/indexed; Mikkola p.384 gives adult sex-colour direction and an age-unknown mesoptile, while current taxonomic sources confirm species standing. Full prompt persisted; exact age/flight/nest remain unknown. Lease expires 2026-10-27T17:55:30.000+08:00.",
-        "2026-10-27T17:45:30.000+08:00: cycle 5 IMAGE_GENERATED then REVIEWED PASS after one targeted center-juvenile wing edit. Adult-like white rows/long hard remiges were replaced by a shorter rounder down-overlaid wing; title, exactly three birds, adult sex-colour direction, supports and habitat rechecked. Viewed TrueColor 680x453 derivative persisted as blob 968280d7bf9d7c49e605200dcaddc00cd0cb0c43; lease expires 2026-10-27T18:00:30.000+08:00."
+        "2026-10-27T17:45:30.000+08:00: cycle 5 IMAGE_GENERATED then REVIEWED PASS after one targeted center-juvenile wing edit. Adult-like white rows/long hard remiges were replaced by a shorter rounder down-overlaid wing; title, exactly three birds, adult sex-colour direction, supports and habitat rechecked. Viewed TrueColor 680x453 derivative persisted as blob 968280d7bf9d7c49e605200dcaddc00cd0cb0c43; lease expires 2026-10-27T18:00:30.000+08:00.",
+        "2026-10-27T17:48:30.000+08:00: cycle 5 ARCHIVED pending independent readback. Concept/generated/reviewed paths use reviewed blob 968280d7bf9d7c49e605200dcaddc00cd0cb0c43 (643945 bytes); manifest/status/design/changelog/card/run updated. Source count corrected to 5 new stable IDs; lease expires 2026-10-27T18:03:30.000+08:00."
       ]
     }
   ],

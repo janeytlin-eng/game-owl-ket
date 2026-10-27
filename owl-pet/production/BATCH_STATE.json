@@ -5170,94 +5170,29 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261028T0629+0800-cycle-3",
+        "heartbeat_at": "2026-10-28T06:29:50.607+08:00",
+        "expires_at": "2026-10-28T06:44:50.607+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 2,
-        "run_id": "2026-10-28T0508+0800-cycle-2",
-        "species": "#197 Otus megalotis",
+        "cycle": 3,
+        "run_id": "20261028T0629+0800-cycle-3",
+        "species": "#201 Otus mantananensis",
         "version": 1,
         "action": "NEW",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T05:28:28.928+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-28T06:29:50.607+08:00",
         "evidence": {
-          "repo_head_before": "be5bf86390ffaa17d1c33faddda3cabc9332ca0f",
-          "candidate_basis": "#196 Otus cnephaeus is deferred from new-species credit because current project taxonomy already maps it as historical O. lempiji cnephaeus under archived #190 Sunda Scops Owl. #197 Otus megalotis is the next roster entry with a guide-described juvenile and no manifest entry.",
+          "repo_head_before": "32c3baa2ca3ebf88cf4ff4a697eca3fa27100e6b",
+          "candidate_basis": "#198 Otus everetti, #199 Otus nigrorum and #200 Otus mindorensis are deferred because fresh searches did not produce reliable species-specific juvenile-stage evidence. #201 Otus mantananensis is unarchived and has institutional adult descriptions plus identifiable juvenile photographs for O. m. romblonis.",
           "manifest_checked": true,
-          "unique_species_before": "182/251",
-          "scientifically_verified": false,
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids_new": [
-            "LLSO-MIKKOLA-2013-P170",
-            "LLSO-MIRANDA-2011-WJO",
-            "LLSO-CLEMENTS-2012-SPLIT",
-            "LLSO-PROJECTNOAH-2013-JUV"
-          ],
-          "source_ids_reused": [],
-          "source_ids_corrected": [],
-          "fresh_research": "Mikkola printed p170/PDF172 text and page pixels read/viewed; Miranda 2011 institutional abstract and Cornell 2012 split update read; Rizal owlet metadata page and pixels viewed. Miranda full PDF timed out and is not claimed as read.",
-          "design_boundary": "Rufous-morph adults, female only modestly fuller; age-unknown older rufous-buff finely barred mesoptile with soft formed wing/short tail and full support. No exact age/flight/iris/nest inference.",
-          "full_prompt_saved": "owl-pet/research/species/197-otus-megalotis-v1.md",
-          "generated_master_path": "owl-pet/production/generated/197-otus-megalotis-v1-generated-master.jpg",
-          "generated_master_blob": "1f85b9062b095a780942ae451c488a598dc9f7ea",
-          "generated_source_png_sha256": "914c98d601f5982e9a72d29f8a0a2d303e525be2519dca196482abfef45cd7dd",
-          "generated_source_png_bytes": 3136510,
-          "generated_jpeg_sha256": "00866f602e155ded0977cc3ed90bcd3734625ef05554cc111d637347b5e13db7",
-          "generated_jpeg_bytes": 711268,
-          "generated_dimensions": "1536x1024 sRGB",
-          "generation_wall_seconds": 63.8,
-          "initial_review": "Exact three birds/text/support and adult sex direction pass. Juvenile soft body/stage pass, but folded wing is too long/crisp and adult-like; targeted edit required.",
-          "actual_errors": [
-            "Local `magick` executable was unavailable after source copy; encoding command failed before creating the JPEG. Existing `convert` executable completed the same q90 encoding successfully; source PNG remained intact."
-          ],
-          "reviewed_master_path": "owl-pet/production/reviewed/197-otus-megalotis-v1-reviewed-master.jpg",
-          "reviewed_master_blob": "ebccd25029b89be7a5cde52ea1c4f4712a45628e",
-          "reviewed_source_png_sha256": "1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f",
-          "reviewed_source_png_bytes": 2990550,
-          "reviewed_jpeg_sha256": "0887d52c574b2b4125e8750b467845f21f1c3b1ccffd7e2a49ad0cdc57567d2a",
-          "reviewed_jpeg_bytes": 672351,
-          "reviewed_dimensions": "1536x1024 sRGB",
-          "edit_count": 1,
-          "edit_wall_seconds": 64.9,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "review_findings": [
-            "Initial juvenile folded wing was too long, crisp and adult-like for the evidence-bounded mesoptile stage.",
-            "Targeted edit shortened/rounded/softened only the juvenile wing and mostly concealed the tail, while retaining a formed wing because the observed older owlet supports that stage.",
-            "Post-edit full master and 680x453 derivative pass exact title/scientific name/labels, three-bird count, adult rufous morph, modest female fullness, warm adult eyes, natural foot support and juvenile fine barring/soft wing."
-          ],
-          "remaining_unknowns": [
-            "exact juvenile age",
-            "juvenile iris chronology",
-            "flight ability",
-            "continuous feather sequence",
-            "nest geometry",
-            "individual morph variation"
-          ],
-          "concept_path": "owl-pet/design/concepts/197-otus-megalotis-v1.png",
-          "concept_blob": "8be1c0c0982451007910b76da4e5347654bde9ce",
-          "concept_sha256": "ce9263f99decfcb6dfd71e79aa5614d0336886afb6d4c9ca20128c6c86bc48f8",
-          "concept_bytes": 688003,
-          "concept_dimensions": "680x453 sRGB",
-          "manifest_entry_id": "197-otus-megalotis-v1",
-          "manifest_count_before": 438,
-          "manifest_count_after": 439,
-          "provisional_unique_species": "183/251",
-          "archive_readback": "pending",
-          "archive_commit": "499624e816c66112affc85f4168b927199777fcd",
-          "verified_concept_blob": "8be1c0c0982451007910b76da4e5347654bde9ce",
-          "verified_generated_blob": "1f85b9062b095a780942ae451c488a598dc9f7ea",
-          "verified_reviewed_blob": "ebccd25029b89be7a5cde52ea1c4f4712a45628e",
-          "verified_manifest_blob": "760fc11e6b48f7ef2d061a0adcd5d5ff1ca67bfd",
-          "verified_source_index_blob": "74ca9d46ae884cdc25c436003cd6190e331eee34",
-          "verified_card_blob": "1918bde1edd4a1be3a0b7a76e1217fe264408650",
-          "verified_run_blob": "da31ee1c0af5058983589146ff32739423b8a7a1",
-          "verified_state_blob": "e6fdf2905730d43694e8b1c1e6d48ae483b83e76",
-          "verified_status_blob": "9b460782d57b88d6d2a3e352cf8d6b4438a03e91",
-          "immutable_readback_passed": true,
-          "metadata_correction": "Research-card reviewed source PNG hash corrected to local sha256sum/REVIEWED ledger value 1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f; image blobs unchanged.",
-          "unique_species_after": "183/251"
+          "unique_species_before": "183/251",
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T05:28:28.928+08:00",
+      "last_updated_at": "2026-10-28T06:29:50.607+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5271,7 +5206,8 @@
         "2026-10-28T05:26:40.113+08:00: cycle2 #197 v1 REVIEWED after one juvenile-wing edit (64.9s observed wait). Initial long crisp adult-like wing was shortened/rounded/softened but kept formed for the photographed older stage. Full master and 680x453 derivative passed; science false; lease renewed.",
         "2026-10-28T05:27:35.699+08:00: cycle2 #197 v1 ARCHIVED tree prepared; concept 8be1c0c0982451007910b76da4e5347654bde9ce, generated 1f85b9062b095a780942ae451c488a598dc9f7ea, reviewed ebccd25029b89be7a5cde52ea1c4f4712a45628e; manifest 438→439; provisional unique 183/251. Readback pending; no credit yet.",
         "2026-10-28T05:28:28.928+08:00: cycle2 VERIFIED #197 Otus megalotis v1; immutable archive 499624e816c66112affc85f4168b927199777fcd maps concept/generated/reviewed to 8be1c0c0/1f85b906/ebccd250 and required records read back. Corrected one card hash transcription before credit. Unique 182→183/251; batch 2/6, next_cycle 3; lease released; science false.",
-        "2026-10-28T05:29:08.782+08:00: post-verification metadata correction: #197 reviewed source PNG SHA-256 is 1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f, matching local sha256sum and the REVIEWED checkpoint. Earlier verification prose contained a mistyped replacement value. No asset, archive, stage credit, count or science-status change."
+        "2026-10-28T05:29:08.782+08:00: post-verification metadata correction: #197 reviewed source PNG SHA-256 is 1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f, matching local sha256sum and the REVIEWED checkpoint. Earlier verification prose contained a mistyped replacement value. No asset, archive, stage credit, count or science-status change.",
+        "2026-10-28T06:29:50.607+08:00: cycle3 STARTED for unarchived #201 Otus mantananensis v1 after #198–200 juvenile-evidence screening. Lease expires 2026-10-28T06:44:50.607+08:00; no production credit."
       ]
     }
   ],
@@ -5375,8 +5311,13 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-28T05:29:08.782+08:00",
+  "active_lease": {
+    "owner": "codex-production",
+    "run_id": "20261028T0629+0800-cycle-3",
+    "heartbeat_at": "2026-10-28T06:29:50.607+08:00",
+    "expires_at": "2026-10-28T06:44:50.607+08:00"
+  },
+  "last_updated_at": "2026-10-28T06:29:50.607+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5442,7 +5383,8 @@
     "2026-10-28T00:48:00.000+08:00: cycle2 #172 Tyto castanops v2 ARCHIVED tree prepared; concept/generated/reviewed paths share blob d24b354d6584f5c241c91d94caad486d8ba26ef0; manifest 426→427; unique 174/251; immutable readback pending; no cycle credit.",
     "2026-10-28T00:49:00.000+08:00: cycle2 VERIFIED #172 Tyto castanops v2 at archive 67263de6289b3fd901ec15334b705b2dd0f8c039; manifest427; unique174/251; batch2/6 next_cycle3; lease released.",
     "2026-10-28T05:19:16.081+08:00: batch 2026-10-28T0508+0800 cycle1 NEW #195 Otus brookii solokensis v1 verified; archive f898fb66e5473fb0c2c36c53155082ea9b0bad83; concept 735ca30291099fea113af9498ea9acf8afc5dd8e. Unique species 182/251; batch 1/6, next_cycle 2; no active lease.",
-    "2026-10-28T05:28:28.928+08:00: batch 2026-10-28T0508+0800 cycle2 NEW #197 Otus megalotis v1 verified at 499624e816c66112affc85f4168b927199777fcd; unique 183/251; batch 2/6, next_cycle 3; no active lease."
+    "2026-10-28T05:28:28.928+08:00: batch 2026-10-28T0508+0800 cycle2 NEW #197 Otus megalotis v1 verified at 499624e816c66112affc85f4168b927199777fcd; unique 183/251; batch 2/6, next_cycle 3; no active lease.",
+    "2026-10-28T06:29:50.607+08:00: resumed oldest PARTIAL batch 2026-10-28T0508+0800 cycle3; #201 Otus mantananensis v1 STARTED; no credit."
   ],
   "audit_trail": [
     {

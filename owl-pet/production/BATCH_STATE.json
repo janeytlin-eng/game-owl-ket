@@ -4680,35 +4680,18 @@
       },
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "species": "Strix fulvescens",
-        "species_id": 107,
+        "run_id": "2026-10-27T1836+0800-cycle-4",
+        "species": "#107 Strix fulvescens",
         "version": 4,
         "action": "REVISION_RECOVERY",
-        "run_id": "2026-10-27T1836+0800-cycle-4",
-        "at": "2026-10-27T19:56:00.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T1836+0800-cycle-4.md",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-27T19:07:23.846+08:00",
         "evidence": {
-          "manifest_name_match_count": 0,
-          "existing_concepts": [
-            "owl-pet/design/concepts/107-strix-fulvescens-v1.png",
-            "owl-pet/design/concepts/107-strix-fulvescens-v2.png",
-            "owl-pet/design/concepts/107-strix-fulvescens-v3.png"
-          ],
-          "existing_knowledge_card": "owl-pet/knowledge/species/107-strix-fulvescens.md",
-          "correction": "Initial #175 candidate renumbered before research/generation/credit to preserve existing #107 identity.",
-          "source_ids": [
-            "FVO-EISERMANN-FIELD2026",
-            "S107-EBIRD-FULOWL1",
-            "S107-CAYAYA-2026",
-            "S107-OWLPAGES-2020",
-            "S107-BIRDLIFE-2026"
-          ],
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "research_card": "owl-pet/research/species/107-strix-fulvescens-v4.md",
-          "full_prompt_persisted": true,
-          "scientifically_verified": false,
-          "correction_v4": "Existing v3 found by recursive tree inspection before generation."
+          "generated_master": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/generated-master.png",
+          "sha256": "0ce55eca78edd8ad4b9bf89d221953fa0c6f3a6c1208a15aa34bc7c5326ed1d6",
+          "dimensions": "1536x1024",
+          "git_blob": "142dd1e74c6ff43627aebcdba0a9dc917f176b75",
+          "design_boundary": "First render preserves adults/text/cloud forest but juvenile has overlong adult-like layered remiges; requires targeted edit before REVIEWED."
         }
       },
       "last_updated_at": "2026-10-27T19:56:00.000+08:00",
@@ -4829,8 +4812,8 @@
   "active_lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T1836+0800-cycle-4",
-    "heartbeat_at": "2026-10-27T19:56:00.000+08:00",
-    "expires_at": "2026-10-27T20:11:00.000+08:00"
+    "heartbeat_at": "2026-10-27T19:07:23.846+08:00",
+    "expires_at": "2026-10-27T19:22:23.846+08:00"
   },
   "last_updated_at": "2026-10-27T19:56:00.000+08:00",
   "audit_notes": [

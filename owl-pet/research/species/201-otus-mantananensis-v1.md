@@ -32,5 +32,6 @@ Avoid: traits borrowed from O. megalotis, O. everetti, O. nigrorum, or O. mindor
 ```
 
 ## Production result
-- RESEARCH_READY only; image generation and review pending.
+- IMAGE_GENERATED: source PNG SHA-256 `da6455ba7d6dfeffbfa67d9dcdda46089235f2f63e9b2aee503d82b8ea211b6f`; durable generated JPEG blob `40a45307b90cfc13b0f68ccc8eeb571b3b1280b2`.
+- Initial review: exact layout/text/support passes; adult tufts and juvenile wing require targeted correction before REVIEWED.
 - Scientific verification: false.

@@ -3897,3 +3897,15 @@ Links: [research card](species/169-ketupa-shelleyi.md), [run](../production/runs
 | TPO-COMMONS-ADULT-2017-2019 | https://commons.wikimedia.org/wiki/File:Glaucidium_sanchezi_6273475.jpg ; https://commons.wikimedia.org/wiki/File:Glaucidium_sanchezi_58212759.jpg | Juan Carlos Pérez Magaña; Annika Lindqvist / iNaturalist, Commons | 2017/2019; pages opened 2026-10-27 | observer photographs | adult | Living adult identity/palette cross-check. | No sex measurements, age calibration or juvenile evidence. |
 
 Links: [research card](species/170-glaucidium-sanchezi.md), [run](../production/runs/2026-10-27T1636+0800-cycle-5.md). Design inference: documented male/female colour direction with near-equal display scale; age-unknown mesoptile fully supported, no invented exact age/flight/nest. Scientific verification remains false.
+
+
+## 2026-10-27 #171 Colima Pygmy-Owl · *Glaucidium palmarum* v1
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision |
+|---|---|---|---|---|---|---|---|
+| CPO-MIKKOLA-2013-P385-386 | *Owls of the World*, printed pp.385–386 / uploaded PDF pp.387–388 | Heimo Mikkola | 2013; read 2026-10-27 | user guide | adult/down/mesoptile | Adult diagnosis; female slightly larger/~5 g heavier; white down; mesoptile gray unspotted crown, sparse forehead flecks, false eyes and no clear cinnamon band; dry/thorn/deciduous/palm/oak habitat. | No dated growth series, nest or flight threshold. |
+| CPO-EBIRD-2026 | https://ebird.org/species/copowl1 | Cornell Lab/eBird | accessed 2026-10-27 | institution account/search index | current adult/habitat | Current *G. palmarum* identity; very small western-Mexican thorn/tropical-dry-forest owl. | Direct page bot-blocked; indexed description only, no measurements or juvenile facts used. |
+| CPO-BITRAN-2018-JUV | https://www.flickr.com/photos/bitranbirdsoftheworld/42395972510 | Ricardo Bitran | photographed 2018-08-02; page opened 2026-10-27 | observer photograph | age-unknown juvenile | Page actually labels/shows a Huatulco *G. palmarum* juvenile; living juvenile cross-check. | Exact age, sex and flight ability unmeasured. |
+| CPO-OWLPAGES-2020 | https://www.owlpages.com/owls/species.php?s=1970 | Deane Lewis / Owl Pages | updated 2020-10-30; read 2026-10-27 | specialist synthesis | adult/habitat/breeding | Adult diagnosis, subtle female-size direction, west-Mexico dry/thorn/palm/oak context; breeding explicitly little studied. | Likely cavity inference not used as verified nest geometry. |
+
+Links: [research card](species/171-glaucidium-palmarum.md), [run](../production/runs/2026-10-27T1636+0800-cycle-6.md). Exact juvenile age/flight, continuous feather sequence and verified nest geometry remain unknown; science false.

@@ -5071,8 +5071,8 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "2026-10-28T0230+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T05:10:00.000+08:00",
-        "expires_at": "2026-10-28T05:25:00.000+08:00"
+        "heartbeat_at": "2026-10-28T05:12:00.000+08:00",
+        "expires_at": "2026-10-28T05:27:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5080,25 +5080,18 @@
         "species": "#190 Otus lempiji",
         "version": 1,
         "action": "NEW",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T05:10:00.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T05:12:00.000+08:00",
         "evidence": {
-          "reviewed_master_blob": "67e58cf81793d0ad6419448d96797783e91d14c8",
-          "sha256": "1a01d2557a2ba372c04937e205498a0482c9acc79618173a932271db237a95d8",
-          "dimensions": "1536x1024",
-          "bytes": 472996,
-          "edit_count": 0,
-          "review": "Original and 680x453 derivative opened. Exact title/subtitle/labels and exactly three birds pass. Near-equal same-morph dark-eyed adults and fully supported tuftless fluffy barred juvenile with compact wings/tail and begging posture pass.",
-          "unknowns": [
-            "exact juvenile age",
-            "juvenile iris chronology",
-            "flight threshold",
-            "quantitative sex dimorphism"
-          ],
+          "concept_blob": "aec13b9290e34e9e0866f38d17142c073ee35028",
+          "generated_blob": "1888bd41487c1e09b3c764a6c91db34527e3e00b",
+          "reviewed_blob": "67e58cf81793d0ad6419448d96797783e91d14c8",
+          "concept_sha256": "ae2ca34c330020860e8085178e0c943619f0905aaa595077c379afce5138007d",
+          "immutable_readback": "pending",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T05:10:00.000+08:00",
+      "last_updated_at": "2026-10-28T05:12:00.000+08:00",
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49.",
@@ -5127,15 +5120,16 @@
         "2026-10-28T05:03:00.000+08:00: cycle6 STARTED #190 Otus lempiji v1 after exact current-name/historical-name manifest audit found no prior archive; #188's old combination O. lempiji semitorques was correctly not treated as the full species. #189 O. elegans already archived earlier and skipped. Mikkola printed p.162/PDF164 accessible; lease acquired.",
         "2026-10-28T05:06:00.000+08:00: cycle6 #190 Otus lempiji v1 RESEARCH_READY; guide p.162/PDF164 plus Lok et al. 2009 full PDF and juvenile figures, Clements 2017 taxonomic correction and Biodiversity of Singapore page read. Four stable sources indexed; full prompt persisted; science false; lease renewed.",
         "2026-10-28T05:08:00.000+08:00: cycle6 #190 IMAGE_GENERATED; 1536x1024 master 1888bd41487c1e09b3c764a6c91db34527e3e00b after 47.0s. Pixel inspection passes exact text/count, adult scale/eyes/support and evidence-bounded tuftless fluffy barred juvenile with compact wings/tail and begging posture; no edit indicated. Lease renewed.",
-        "2026-10-28T05:10:00.000+08:00: cycle6 #190 REVIEWED without edit after original and 680x453 derivative viewing. Final master 67e58cf81793d0ad6419448d96797783e91d14c8, SHA256 1a01d255…, 472996 bytes; text/count, adults, tuftless fluffy barred juvenile, compact wing/tail, begging posture and two-foot support pass. Science false; lease renewed."
+        "2026-10-28T05:10:00.000+08:00: cycle6 #190 REVIEWED without edit after original and 680x453 derivative viewing. Final master 67e58cf81793d0ad6419448d96797783e91d14c8, SHA256 1a01d255…, 472996 bytes; text/count, adults, tuftless fluffy barred juvenile, compact wing/tail, begging posture and two-foot support pass. Science false; lease renewed.",
+        "2026-10-28T05:12:00.000+08:00: cycle6 #190 ARCHIVED with concept blob aec13b9290e34e9e0866f38d17142c073ee35028; manifest/STATUS/card/run/state committed together. Immutable readback pending; science false."
       ],
       "checkpoint": {
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species_id": 190,
         "species": "Otus lempiji",
         "version": 1,
         "action": "NEW",
-        "at": "2026-10-28T05:10:00.000+08:00",
+        "at": "2026-10-28T05:12:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-6.md",
         "scientifically_verified": false
       }

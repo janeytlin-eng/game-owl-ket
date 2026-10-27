@@ -1656,3 +1656,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T05:01:00.000+08:00 — #188 *Otus semitorques* v1 independently verified at archive `321b71ca83ccf2c7f932eddb24a1a5cfca520b2d`; concept `3317c413…`, generated `0c49cc05…`, reviewed `71c009aa…`, plus manifest/source/card/run/state/STATUS read back. Unique total **180/251**; batch 5/6, next cycle 6. Science false.
+
+
+## 2026-10-28 #190 *Otus lempiji* v1
+
+- Result: NEW ARCHIVED; provisional unique species **181/251** pending immutable readback.
+- Image: [design/concepts/190-otus-lempiji-v1.png](design/concepts/190-otus-lempiji-v1.png)
+- Research: Mikkola p.162/PDF164, Lok et al. 2009 full PDF and juvenile figures, Clements 2017 synonym correction, Biodiversity of Singapore; four source IDs added.
+- Review: no edit required after original and derivative viewing. Exact text/count, near-equal dark-eyed adults, tuftless fluffy fine-barred juvenile, compact wing/tail, begging posture and two-foot support pass. Exact age, iris chronology, flight threshold and quantitative dimorphism remain unknown. Science false; immutable readback pending.

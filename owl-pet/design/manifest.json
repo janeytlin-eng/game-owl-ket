@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T05:01:00.000+08:00",
+  "updated": "2026-10-28T05:12:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4750,6 +4750,36 @@
       "archive_note": "Built-in imagegen generated a 1536x1024 master; one targeted edit shortened and softened the juvenile wing/tail while preserving adults, exact text and support. Final reviewed master and 680x453 concept derivative were opened. Commit-pinned readback at archive 321b71ca verified concept 3317c413, generated 0c49cc05, reviewed 71c009aa and manifest/source/card/run/state/STATUS; scientific verification remains false.",
       "archive_commit": "321b71ca83ccf2c7f932eddb24a1a5cfca520b2d",
       "verified_at": "2026-10-28T05:01:00.000+08:00"
+    },
+    {
+      "id": "190-otus-lempiji-v1",
+      "path": "design/concepts/190-otus-lempiji-v1.png",
+      "species_id": 190,
+      "scientific_name": "Otus lempiji",
+      "subspecies": "Otus lempiji lempiji",
+      "historical_names": [
+        "Otus lempiji cnephaeus",
+        "Otus bakkamoena lempiji"
+      ],
+      "common_name": "Sunda Scops Owl",
+      "version": 1,
+      "sha256": "ae2ca34c330020860e8085178e0c943619f0905aaa595077c379afce5138007d",
+      "scientifically_verified": false,
+      "status": "NEW evidence-bounded current-nominate Singapore concept. Adults are same grey-brown morph and near-equal because no sexed measurements exist; prominent black-edged tufts, dark-brown eyes, sandy mottling, spotted/chevron underparts, pale bill and fully feathered tarsi follow Mikkola and Lok et al. Older juvenile lacks distinct tufts, has fluffy pale fine-barred mesoptile, compact soft wing/tail, neutral dark eyes, evidence-supported begging posture and full branch support. Exact age, iris chronology, flight threshold and quantitative dimorphism remain unknown.",
+      "source_ids": [
+        "SUSO-MIKKOLA-2013-P162",
+        "SUSO-LOK-2009-SINGAPORE",
+        "SUSO-CLEMENTS-2017-CNEPHAEUS",
+        "SUSO-BOS-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--190-sunda-scops-owl--otus-lempiji-v1",
+      "run_record": "production/runs/2026-10-28T0230+0800-cycle-6.md",
+      "git_blob": "aec13b9290e34e9e0866f38d17142c073ee35028",
+      "reviewed_at": "2026-10-28T05:10:00.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 655345,
+      "archive_note": "Built-in imagegen generated the 1536x1024 master. Original and 680x453 derivative were opened; no edit was required. Immutable commit-pinned readback pending. Scientific verification remains false.",
+      "archive_commit": "PENDING_IMMUTABLE_READBACK"
     }
   ],
   "updated_at": "2026-10-28T02:28:00.000+08:00"

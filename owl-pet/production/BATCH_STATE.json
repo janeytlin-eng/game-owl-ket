@@ -4684,16 +4684,18 @@
         "species": "#107 Strix fulvescens",
         "version": 4,
         "action": "REVISION_RECOVERY",
-        "stage": "REVIEWED",
-        "at": "2026-10-27T19:08:25.392+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-27T19:10:03.177+08:00",
         "evidence": {
+          "concept_path": "owl-pet/design/concepts/107-strix-fulvescens-v4.png",
           "generated_master": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/generated-master.png",
-          "reviewed_master": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/edited-master-v2.png",
-          "sha256": "c649b00f2adb4df7cc3b46e101963510f2a83554aa0197c8be24150bfc3c72c4",
-          "dimensions": "1536x1024",
-          "git_blob": "d633d6db86833df54bb7bc4343ca5147a0a8c8ec",
-          "review": "PASS after one targeted edit: juvenile low and fully supported, down dominant, only bounded short emerging wing tips; adults, title, labels and cloud forest preserved.",
-          "scientific_limit": "Exact juvenile age, continuous feather sequence, flight ability and quantitative sex ratio remain unknown; scientifically_verified=false."
+          "edited_master": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/edited-master-v2.png",
+          "reviewed_derivative": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/reviewed-v2.png",
+          "sha256": "d7eacf6d7822664ccb927aa23d9300314280094cf8213cfb3cc6cb23c521c26f",
+          "dimensions": "680x453",
+          "size_bytes": 671576,
+          "git_blob": "9c7bae510567949fac5ee3c4c7747598f43468bf",
+          "visual_result": "PASS after targeted juvenile-wing edit; science false."
         }
       },
       "last_updated_at": "2026-10-27T19:56:00.000+08:00",
@@ -4814,8 +4816,8 @@
   "active_lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T1836+0800-cycle-4",
-    "heartbeat_at": "2026-10-27T19:08:25.392+08:00",
-    "expires_at": "2026-10-27T19:23:25.392+08:00"
+    "heartbeat_at": "2026-10-27T19:10:03.177+08:00",
+    "expires_at": "2026-10-27T19:25:03.177+08:00"
   },
   "last_updated_at": "2026-10-27T19:56:00.000+08:00",
   "audit_notes": [

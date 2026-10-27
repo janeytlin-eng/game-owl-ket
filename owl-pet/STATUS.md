@@ -1447,3 +1447,13 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Run: [production/runs/2026-10-27T1836+0800-cycle-3.md](production/runs/2026-10-27T1836+0800-cycle-3.md)
 
 - 2026-10-27 19:45 +0800 — #174 *Strix sartorii* v1 independently verified at archive commit `aae8cebfa33dc9278014eb0e6b97eb149c01314c`; concept/reviewed path resolves to `63ed6aad79e1312b79723338b516d38280ce7b97` (253,069 bytes), original master to `ce5d721e69b3149c8ce795987ef6215e47e762a2` (3,542,811 bytes). Unique archived species is 174/251; batch 3/6, next cycle 4; science pending.
+
+
+## 2026-10-27 — #107 Fulvous Owl · *Strix fulvescens* v4
+
+- Result: REVISION/RECOVERY concept ARCHIVED; independent readback pending. Unique archived species remains 174/251.
+- Image: [design/concepts/107-strix-fulvescens-v4.png](design/concepts/107-strix-fulvescens-v4.png)
+- Reviewed blob `9c7bae510567949fac5ee3c4c7747598f43468bf`; 680×453 RGB; 671,576 bytes; SHA-256 `d7eacf6d7822664ccb927aa23d9300314280094cf8213cfb3cc6cb23c521c26f`.
+- Research: 1 new and 4 reused source IDs. Existing direct field-photo review anchors the age-unknown older juvenile; current institutional sources bound identity, adult palette and cloud-forest habitat.
+- Review: one targeted edit removed overlong adult-like juvenile remiges and long tail while preserving adults, text and environment. Exact juvenile age/flight/continuous feather sequence and sex ratio remain unknown; science false.
+- Run: [production/runs/2026-10-27T1836+0800-cycle-4.md](production/runs/2026-10-27T1836+0800-cycle-4.md)

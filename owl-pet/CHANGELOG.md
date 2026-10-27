@@ -997,3 +997,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added the first Cinereous Owl concept, five indexed sources and a species card.
 - Preserved current AOS/IOC species treatment alongside original *Syrnium nebulosum* var. *Sartorii* and historical *Strix varia sartorii*. No Mikkola page was claimed because the uploaded guide was not directly accessible in this run.
 - First output passed original and derivative review without edit. The documented age-unknown older juvenile retains downy body plumage with developed but bounded flight feathers; science false.
+
+
+## 2026-10-27 — #107 *Strix fulvescens* v4
+
+- Added a non-destructive revision/recovery while preserving v1–v3; no unique-species increment.
+- Reused four verified source records, added one current BirdLife taxonomy/status boundary and corrected an initial manifest-field lookup error before cycle credit.
+- First render regressed to overlong adult-like juvenile remiges. One targeted edit restored a down-dominant, low, two-foot-supported juvenile with only short bounded emerging tips. Exact age/flight/continuous feather sequence and sex ratio remain unknown; science false.

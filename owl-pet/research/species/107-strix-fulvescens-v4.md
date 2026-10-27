@@ -1,10 +1,10 @@
 # #107 Fulvous Owl — *Strix fulvescens* v4
 
-Status: RESEARCH_READY; scientific verification: false.
+Status: ARCHIVED; independent remote readback pending; scientific verification: false.
 
 ## Recovery/version boundary
 
-Repository tree contains v1, v2 and v3. Current manifest contains no *Strix fulvescens* entry, so v4 preserves the existing #107 identity and will register the species once only after full verification.
+Repository tree contains v1, v2 and v3. The initial heterogeneous-manifest lookup was incorrect. Recursive manifest review confirms v1/v2/v3 entries; v4 preserves #107 as a revision with no unique-species increment.
 
 ## Evidence boundary
 
@@ -20,3 +20,8 @@ Reused `FVO-EISERMANN-FIELD2026`, `S107-EBIRD-FULOWL1`, `S107-CAYAYA-2026`, `S10
 ## Full imagegen prompt
 
 Create one polished horizontal 3:2 natural-history concept plate for the owl electronic-pet project in the established semi-realistic painterly gouache/watercolor style. Title exactly: “FULVOUS OWL · Strix fulvescens”. Show exactly three complete birds, fully inside frame and naturally supported, left-to-right with labels exactly: “ADULT MALE”, “JUVENILE — AGE UNKNOWN”, “ADULT FEMALE”. Adults are medium-sized rounded-headed Strix owls with no ear tufts, dark brown eyes, pale gray-to-warm rufous facial discs without dark concentric rings, yellowish horn bills, warm deep brown/rust upperparts with pale crossbars, buff-rufous barred upper breast, lighter belly with long dark vertical streaks, and a barred tail. Adults remain near-equal in display height and plumage; female may be only subtly fuller, with no exaggerated sex-size formula. Center juvenile follows directly viewed Guatemalan field photographs: an exact-age-unknown older resting juvenile with gray-cream fluffy body, a dark soft facial mask, yellow bill, diffuse incomplete body bars, short rounded down-covered folded wings with only narrow formed brown feather tips, no long exposed tail, and both feet gripping a broad mossy stump or branch. Eyes may be gently half-open but bird must look alive and stable. Setting: humid Guatemala highland/cloud forest above 2000 m, mossy trunks, epiphytes and cool misty green light. No nest or eggs, prey, flight, extra birds, ear tufts, cold Cinereous-Owl palette, adult-length juvenile remiges, long juvenile tail, exaggerated female size, unsupported feet, or any text beyond the exact title and labels.
+
+
+## Image review and design result
+
+The first v4 render regressed to overlong layered adult-like juvenile remiges. One targeted edit changed only the central juvenile: down now dominates, long tail is hidden, only short bounded emerging tips remain, and both feet are fully supported on the mossy branch. Adults, labels and cloud-forest context were preserved. Edited master and 680×453 derivative were actually viewed. Exact juvenile age, continuous feather sequence, flight ability and quantitative sex ratio remain unknown; science false.

@@ -492,3 +492,8 @@ A comparative diagnosis such as “relatively short ear tufts” must be checked
 ### Developed juvenile flight feathers can coexist with downy body plumage (2026-10-27, #174)
 
 Do not force every older owl juvenile into either “all down” or “miniature adult.” A dated *Strix sartorii* field record supports an exact-age-unknown older juvenile/fledgling with a visibly downy body while flight feathers are already developed. #174 applied this mixed-stage boundary with full branch support and no exact flight claim; the first render passed both original and derivative review. This validates the rule for this one image only, not as a cross-species age formula.
+
+
+### Applied and checked — recovery revisions must be compared with the latest accepted version (2026-10-27, #107 v4)
+
+A recovered cycle can repeat an already-corrected image failure even when the research prompt contains the right developmental boundary. Before accepting a revision, compare the new plate with the latest manifest status and prior review notes, not only the species sources. #107 v4's first render reintroduced long layered adult-like juvenile remiges that v3 had already removed. One center-only edit restored short down-covered wing buds, concealed the long tail and retained full two-foot support; the edited master and archive derivative were both viewed. This validates the recovery comparison rule for this image only. It does not establish exact age, flight ability, continuous feather sequence or a universal owl-juvenile template; science remains false.

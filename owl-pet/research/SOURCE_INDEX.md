@@ -3690,3 +3690,15 @@ Original Forktail pp.17–21, Tables 1–2 freshly reread. Prior terse “solid 
 - Limits/conflicts: single adult, unknown sex, flash/exposure and partly hidden feet; cannot calibrate sex ratio, juvenile appearance, exact colour standards or tarsal anatomy.
 - Design/review use: anchors adult silhouette and facial contrast for #139 v2; specimen diagnosis remains authoritative for colour/pattern and juvenile limits.
 - Linked record/version: `knowledge/species/139-otus-jolandae.md`; `design/concepts/139-otus-jolandae-v2.png`; `production/runs/2026-10-27T0728+0800-cycle-6.md`.
+
+
+## #160 Minahasa Masked-Owl — *Tyto inexspectata* — 2026-10-27
+
+| ID | Title / author or institution / year / URL | Type and scope | Actually read facts | Limits / design use |
+|---|---|---|---|---|
+| MIN-IOC15-2-2026 | IOC World Bird List v15.2, “Owls”, Gill, Donsker & Rasmussen eds., 2026, https://www.worldbirdnames.org/new/bow/owls/ | Authoritative checklist; Strigiformes | Search result and page metadata identify *Tyto inexspectata* as Minahassa Masked-Owl under current IOC usage. | The HTML table timed out on open; taxonomy only, not morphology. Project scope remains fixed at 251 rather than being recalculated from IOC totals. |
+| MIN-NATURALIS-TYPE-2023 | “Type specimens of non-passerines in Naturalis Biodiversity Center”, van der Mije et al., ZooKeys, 2023, https://zookeys.pensoft.net/issue/4564/pdf/833051 | Peer-reviewed museum type catalogue; adult female | Searchable full-text excerpt maps *Strix inexspectata* Schlegel 1879 to current *Tyto inexspectata*; adult female mounted type from Minahassa, Celebes. | PDF direct open returned 403 this run; no plumage inference from the specimen and no juvenile evidence. High for name/type mapping. |
+| MIN-EBIRD-2025 | Cornell Lab/eBird Minahasa Masked-Owl species account, accessed 2026-10-27, https://ebird.org/species/minowl1 | Institution field account and curated media | Adult is richly rufous with rufous facial disc/forecrown; juvenile is browner-winged with speckled gray underparts; closed forest understory from lowlands to mountains, Sulawesi. | No exact age, sex ratio, nest or continuous feather sequence. Juvenile stage used only as age-unknown dependent fledgling. High for visible diagnosis/stage direction, not measurements. |
+| MIN-OWLPAGES-2020 | Deane Lewis, “Minahassa Masked Owl”, updated 2020-11-12, https://www.owlpages.com/owls/species.php?s=150 | Specialist secondary synthesis; adult, breeding, habitat | Small rufous-washed disc, dark eyes, cream bill; gray-brown/rufous upperparts with white spots and barred ochre wing/tail; pale ochre finely spotted underparts; feathered ochre tarsi to bare gray-brown toes. Female larger direction. Fledged juveniles observed fed by parents; rainforest with lianas, ferns, palms and epiphytes. | Secondary; “likely” hollow-tree breeding not treated as confirmed geometry. No fixed size ratio or exact juvenile age. Medium. |
+
+Links: [research card](species/160-tyto-inexspectata.md), [run](../production/runs/2026-10-27T1034+0800-cycle-1.md). Source facts and design inference remain separate; scientific verification is false.

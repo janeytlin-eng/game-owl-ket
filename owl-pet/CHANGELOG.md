@@ -1,3 +1,8 @@
+## 2026-10-27 — #129 *Megascops hoyi* v3
+
+- Revised Yungas Screech-Owl after actual v2 review, fresh Mikkola p.228/PDF p.230 reread/page view, current field-photo pages and taxonomic mapping; unique remains 174/251.
+- First render passed without an edit: adults retain authentic branched shafts, black facial-side ruff and broken shoulder band; the supported older fledgling is fluffy/tuftless but adult-like as directly described. Science false.
+
 ## 2026-10-27 — #111 *Otus cyprius* v3
 
 - Revised Cyprus Scops Owl after reading uploaded Mikkola pp.122–123 (PDF pp.124–125), current Cyprus institutional ecology, field-photographed fledglings and current taxonomy; unique remains 174/251.

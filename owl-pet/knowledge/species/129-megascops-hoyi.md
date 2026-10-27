@@ -8,3 +8,9 @@ HOY-MIK2013-228: HeimoMikkola2013uploadedPDF230/printed228textactuallyread. Fled
 Unverifiedleads notdesignfacts: KönigStraneck1989BHL403; Lillo2018primarymorphometricHTML webreadercontenttoolarge, notactualtablesread. SearchesjuvenileresultsmostlyotherMegascops: no borrowedM.cholibayoungphoto. New3sourceIDs,reuse0. [Cycle3](../production/runs/2026-10-18T1258+0800-cycle-3.md), intended#129v1.
 
 Actualfirstimageadulttuftstoolong/billgreenexaggerated; built-in edit actuallyviewed shortenedtufts/mutedbills/softenedyoungshoulders. Youngfluffytuftless butformedwings deliberatelyretained; branchsupportnotflightclaim. Finepattern/irisdevelopment/age/sexheightunknown. scientifically_verifiedfalse. Gen27.1s/edit52.2s. Fullprompts/stages ../../production/runs/2026-10-18T1258+0800-cycle-3.md . PNG2794168bytes SHA25676a14d2cff0fb38bd53c6265913959068fcf17bb0b2a5221bd17b32355094d0e Gitblob140ece790e9d2d82738b06eb87432de80f05a84d.
+
+
+### 129-megascops-hoyi-v3 2026-10-27
+
+Actual v2 view plus fresh Mikkola printed p.228/PDF p.230 text/page view and current adult field-photo pages. First render passed original-resolution review: exactly three supported birds; adult short tufts, yellow eyes, greenish-yellow bill/cere, black facial-side ruff, broken shoulder band and branched shafts; fledgling adult-like but fluffy and tuftless. No edit: formed wing/tail retained because the species-specific source describes fledged young as adult-like. Exact age/sequence/flight/sex-specific linear ratio/individual pattern unknown; scientifically_verified=false.
+[Original](../../design/concepts/129-megascops-hoyi-v3.png) · [Research](../../research/species/129-megascops-hoyi-v3.md) · [Run](../../production/runs/2026-10-27T2126+0800-cycle-6.md)

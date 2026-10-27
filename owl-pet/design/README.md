@@ -1,3 +1,9 @@
+## 129 · Yungas Screech-Owl · *Megascops hoyi* v3
+
+- [Original PNG](concepts/129-megascops-hoyi-v3.png) · 680×453 RGB · 589,162 bytes · SHA-256 `a8d1196ced4a3ea3dc1c7dfdd9fd6189c0b4e5ab2669a0f8d7147cac56394723`
+- Git blob `071ebe3a455f0860d3eb1ff5889ddba7fe187353`. SCIENCE_REVISION: short-tufted brown-morph adults and a tuftless fluffy adult-like fledgling on fully supported mossy branch. First render passed; science pending.
+- [Sources](../research/species/129-megascops-hoyi-v3.md) · [Run](../production/runs/2026-10-27T2126+0800-cycle-6.md)
+
 ## 111 · Cyprus Scops Owl · *Otus cyprius* v3
 
 - [Original PNG](concepts/111-otus-cyprius-v3.png) · 680×453 RGB · 664,414 bytes · SHA-256 `fef79ef15ea1c12caaf197aaacc79d69bfed149d250d138fc5adec2f41622277`

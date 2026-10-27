@@ -1,3 +1,12 @@
+## 2026-10-27 #129 *Megascops hoyi* v3
+
+- Result: SCIENCE_REVISION archived; unique species remains 174/251.
+- Image: [design/concepts/129-megascops-hoyi-v3.png](design/concepts/129-megascops-hoyi-v3.png)
+- Artifact: 680×453 RGB; 589,162 bytes; SHA-256 `a8d1196ced4a3ea3dc1c7dfdd9fd6189c0b4e5ab2669a0f8d7147cac56394723`.
+- Research: 1 new, 2 reused and 1 corrected stable source record; Mikkola printed p.228/PDF p.230 text and page pixels read/viewed.
+- Review: first render passed original-resolution review; no edit warranted. Science remains false because exact juvenile age/sequence/flight, sex-specific linear ratio and individual pattern remain unknown.
+- Run: [production/runs/2026-10-27T2126+0800-cycle-6.md](production/runs/2026-10-27T2126+0800-cycle-6.md)
+
 ## 2026-10-27 #111 *Otus cyprius* v3
 
 - Result: SCIENCE_REVISION VERIFIED; unique species remains 174/251.

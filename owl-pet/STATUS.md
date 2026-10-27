@@ -1445,3 +1445,5 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Research: 5 new source IDs. AOS and primary genetics support the split; original description/live field sources bound adult identity; 2015 Nayarit photo bounds the age-unknown older juvenile.
 - Review: first render passed. Exact juvenile age/flight, early down, nest/clutch and sex ratio remain unknown; science false.
 - Run: [production/runs/2026-10-27T1836+0800-cycle-3.md](production/runs/2026-10-27T1836+0800-cycle-3.md)
+
+- 2026-10-27 19:45 +0800 — #174 *Strix sartorii* v1 independently verified at archive commit `aae8cebfa33dc9278014eb0e6b97eb149c01314c`; concept/reviewed path resolves to `63ed6aad79e1312b79723338b516d38280ce7b97` (253,069 bytes), original master to `ce5d721e69b3149c8ce795987ef6215e47e762a2` (3,542,811 bytes). Unique archived species is 174/251; batch 3/6, next cycle 4; science pending.

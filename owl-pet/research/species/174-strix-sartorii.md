@@ -1,6 +1,6 @@
 # #174 Cinereous Owl — *Strix sartorii* v1
 
-Status: ARCHIVED; scientific verification: false.
+Status: VERIFIED archive/readback; scientific verification: false.
 
 ## Taxonomy boundary
 
@@ -32,3 +32,8 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 
 - Concept path: `design/concepts/174-strix-sartorii-v1.png` → reviewed blob `63ed6aad79e1312b79723338b516d38280ce7b97`.
 - Original master retained under the run asset directory; manifest entry awaits independent immutable-tree readback.
+
+## Verification — 2026-10-27T19:45:00.000+08:00
+
+- Archive commit `aae8cebfa33dc9278014eb0e6b97eb149c01314c`; master `ce5d721e69b3149c8ce795987ef6215e47e762a2` and concept/reviewed `63ed6aad79e1312b79723338b516d38280ce7b97` confirmed in a non-truncated immutable tree.
+- Production VERIFIED; science remains false for documented unknowns.

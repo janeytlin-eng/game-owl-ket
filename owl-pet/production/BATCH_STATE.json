@@ -4391,28 +4391,38 @@
       "active_lease": {
         "owner": "2026-10-27T1335+0800-cycle-5",
         "run_id": "2026-10-27T1335+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T15:37:00.000+08:00",
-        "expires_at": "2026-10-27T15:52:00.000+08:00"
+        "heartbeat_at": "2026-10-27T15:38:00.000+08:00",
+        "expires_at": "2026-10-27T15:53:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Strix hadorami",
         "species_id": 164,
         "version": 1,
         "run_id": "2026-10-27T1335+0800-cycle-5",
-        "at": "2026-10-27T15:37:00.000+08:00",
+        "at": "2026-10-27T15:38:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1335+0800-cycle-5.md",
         "evidence": {
-          "generated_asset": "owl-pet/production/assets/2026-10-27T1335+0800-cycle-5/164-strix-hadorami-v1-generated.png",
-          "generated_blob": "8c38337c8ab943c76ecaaac9d4e9e83fa8101732",
-          "size_bytes": 760989,
-          "sha256": "2032cb244fa25e24ddfc73c8f350f2a4f03a2b4a0caa5c87b91896535e16e6a8",
+          "reviewed_asset": "owl-pet/production/assets/2026-10-27T1335+0800-cycle-5/164-strix-hadorami-v1-reviewed.png",
+          "reviewed_blob": "d2cf312ef5bd620242d59721c882ce367f69863b",
+          "size_bytes": 753743,
+          "sha256": "c3b40c1c027b8b02547496818f1abac1e47aa5867f6f2215d69b1db86113cd8b",
           "dimensions": "1536x1024",
-          "review": "FAIL juvenile adult-style hard barred wing; targeted edit required"
+          "edits": 1,
+          "review": "PASS",
+          "scientifically_verified": false,
+          "remaining_unknowns": [
+            "exact juvenile age",
+            "iris chronology",
+            "continuous feather sequence",
+            "flight threshold",
+            "exact crevice geometry",
+            "universal sex ratio"
+          ]
         }
       },
-      "last_updated_at": "2026-10-27T15:37:00.000+08:00",
+      "last_updated_at": "2026-10-27T15:38:00.000+08:00",
       "audit_notes": [
         "2026-10-27T13:35:07.000+08:00: cycle 1 STARTED for unarchived #162 Glaucidium hoskinsii v1; no active lease or incomplete batch. Project number 162 is reused only after canonical duplicate correction; current unique total 161/251. Lease expires 2026-10-27T13:50:07.000+08:00.",
         "2026-10-27T13:39:00.000+08:00: cycle 1 RESEARCH_READY; 3 sources read/indexed. The 2025 primary nest record supports a near-fledged palm-cavity chick; Mikkola adult facts and IOC current naming applied. Exact chick day/iris/flight, continuous feather sequence and quantified sex ratio remain unknown; lease renewed.",
@@ -4440,7 +4450,8 @@
         "2026-10-27T14:53:17.405+08:00: cycle 4 VERIFIED revision #145 Ninox philippensis v2; archive 47459717548a53b8242aeb64e34444de1694da5f, blob 8b30765e66ce8dc35538a43a0982692a054d177e; unique 163/251; next_cycle 5; lease released.",
         "2026-10-27T15:29:17.000+08:00: cycle 5 STARTED for unarchived #164 Strix hadorami v1; manifest scientific-name check passed; historical Mikkola Strix butleri population is mapped to current Desert Owl. Fifteen-minute lease acquired through 2026-10-27T15:44:17.000+08:00.",
         "2026-10-27T15:34:00.000+08:00: cycle 5 RESEARCH_READY for #164 Strix hadorami v1; 4 sources indexed, uploaded guide and 2015 primary taxonomy read; old-name mapping/unknowns/prompt persisted; lease renewed through 2026-10-27T15:49:00.000+08:00.",
-        "2026-10-27T15:37:00.000+08:00: cycle 5 IMAGE_GENERATED; durable initial asset blob 8c38337c8ab943c76ecaaac9d4e9e83fa8101732; original-resolution review passed text/adults/habitat/support but found adult-style juvenile wing, requiring one targeted edit; lease renewed."
+        "2026-10-27T15:37:00.000+08:00: cycle 5 IMAGE_GENERATED; durable initial asset blob 8c38337c8ab943c76ecaaac9d4e9e83fa8101732; original-resolution review passed text/adults/habitat/support but found adult-style juvenile wing, requiring one targeted edit; lease renewed.",
+        "2026-10-27T15:38:00.000+08:00: cycle 5 REVIEWED PASS after one juvenile-wing edit; durable reviewed blob d2cf312ef5bd620242d59721c882ce367f69863b; adults/text/diagnosis/support preserved; science false; lease renewed."
       ]
     }
   ],

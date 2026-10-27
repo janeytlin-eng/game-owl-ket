@@ -4800,8 +4800,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "2026-10-27T2126+0800-cycle-4",
-        "heartbeat_at": "2026-10-27T22:46:47.000+08:00",
-        "expires_at": "2026-10-27T23:01:47.000+08:00"
+        "heartbeat_at": "2026-10-27T22:49:27.000+08:00",
+        "expires_at": "2026-10-27T23:04:27.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -4809,8 +4809,8 @@
         "species": "#118 Megascops cooperi",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-27T22:46:47.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-27T22:49:27.000+08:00",
         "evidence": {
           "main_head": "ac099740af393f6ffbaa52c95077ad86ba4c68a9",
           "candidate_reason": "Latest v3 original-resolution view shows repeated adult scallop/teardrop rows and oversized hard tufts; its own status still marks repeated geometry pending. Existing v1-v3 and valid two adult pale wing bands plus the documented defensive juvenile wing-fan must be preserved.",
@@ -4820,10 +4820,23 @@
             "v3"
           ],
           "unique_species_total": 174,
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids_new": [
+            "PSC-MIKKOLA-2013-P210",
+            "PSC-AVESCR-2025"
+          ],
+          "source_ids_reused": [
+            "PSC-KOMAR-STUFKENS-2012",
+            "PSC-OWLPAGES-2020"
+          ],
+          "source_ids_corrected": [],
+          "fresh_research": "Komar 2012 institutional PDF printed/PDF pp65–66 and Figure 4 re-downloaded, text read and page viewed; uploaded Mikkola printed p210/PDF212 read and adult photo viewed; current Owl Pages and Aves de Costa Rica species pages opened/read.",
+          "design_boundary": "Keep both legitimate adult pale wing bands and the primary-documented ground-supported defensive fledgling wing fan. Replace mechanical repeated tiles with thin irregular shafts/vermiculation; adult tufts prominent but natural; female only subtly fuller from average mass direction.",
+          "full_prompt_saved": "owl-pet/research/species/118-megascops-cooperi-v4.md"
         }
       },
-      "last_updated_at": "2026-10-27T22:46:47.000+08:00",
+      "last_updated_at": "2026-10-27T22:49:27.000+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
@@ -4841,7 +4854,8 @@
         "2026-10-27T22:42:16.000+08:00: cycle3 REVIEWED #120 v3 after two targeted edits. Edit1 reduced adult-like juvenile wing to bounded documented barred remiges under natal down; edit2 shortened adult tufts/darkened irises/softened mechanical pattern repetition. Full 1536x1024 view passed count, text, identity, support and stage checks. Reviewed source PNG SHA-256 9a835d8dd086a809257992917c47e38ebb0bb4e9a1d5a6481a5d84e4d2a29d38; durable JPEG SHA-256 e5f910944e9bd52dd2448e0c89873d07be335bf6c503329db76986c5d0874284. Science false.",
         "2026-10-27T22:44:00.000+08:00: cycle3 ARCHIVED checkpoint prepared for #120 v3. Concept 680x453 PNG SHA-256 22c68852d3384b9235417a6a8551db3e5d059fe568b18a155bd648de98844385; full reviewed master blob c80dffaab7a4299361b3fb0feec882662daf528a. Manifest 421→422; unique remains 174/251; science false. Independent commit-pinned readback pending.",
         "2026-10-27T22:44:41.000+08:00: cycle3 VERIFIED #120 Megascops ingens v3 at archive 6a259c12b4b55f901160b86d4fc1d7ea8fe9651e. Commit-pinned tree maps concept to 34d7ae4a4957ec5f6d20449a9ea92aa677c6b8ab, reviewed full master to c80dffaab7a4299361b3fb0feec882662daf528a and generated master to 0a13d9cee8bf2cd5773eb83814081c632438a799; manifest/run/species/research/status readback passed. Manifest 422 versions; unique 174/251; science false. Lease released; next_cycle=4.",
-        "2026-10-27T22:46:47.000+08:00: cycle4 STARTED #118 Megascops cooperi v4 SCIENCE_REVISION. Latest v3 actual 1536x1024 view shows repeated adult scallop/teardrop rows and oversized hard tufts while its own status says repeated geometry pending. Preserve valid two adult pale wing bands and primary-documented ground-supported defensive juvenile wing fan. Lease expires 2026-10-27T23:01:47.000+08:00."
+        "2026-10-27T22:46:47.000+08:00: cycle4 STARTED #118 Megascops cooperi v4 SCIENCE_REVISION. Latest v3 actual 1536x1024 view shows repeated adult scallop/teardrop rows and oversized hard tufts while its own status says repeated geometry pending. Preserve valid two adult pale wing bands and primary-documented ground-supported defensive juvenile wing fan. Lease expires 2026-10-27T23:01:47.000+08:00.",
+        "2026-10-27T22:49:27.000+08:00: cycle4 RESEARCH_READY #118 v4. Komar institutional PDF pp65–66/Fig4 re-downloaded/read/viewed; uploaded Mikkola p210/PDF212 read/photo viewed; current OwlPages and AvesCR pages read. New2/reused2/corrected0. Preserve both legitimate adult pale wing bands and the ground-supported defensive fledgling wing fan; remove excess repeated tiles only. Lease renewed."
       ]
     }
   ],

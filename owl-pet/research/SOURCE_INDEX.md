@@ -4121,3 +4121,16 @@ Links: [research card](species/173-otus-madagascariensis.md), [run](../productio
 - Limits/conflicts/confidence: synthesis does not supply a dated growth series; old two-subspecies account predates current checklist treatments. Qualitative sex-mass direction does not justify a fixed height ratio. Moderate-high for identification boundary, not a science pass.
 - Decision: adults retain small tufts, deep honey-brown eyes and feathered tarsi; female only subtly fuller. Juvenile stage comes from the 2022 primary observation.
 - Links: [research record](species/120-megascops-ingens-v3.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-3.md)
+
+
+## 2026-10-27 — #118 *Megascops cooperi* v4 science revision
+
+### PSC-MIKKOLA-2013-P210
+- Heimo Mikkola, 2013, *Owls of the World: A Photographic Guide*, 2nd ed., printed p.210 / PDF p.212; user-uploaded copy accessed/read 2026-10-27 and adult photograph actually viewed. Source type: photographic guide. Species/stage: adult *Megascops cooperi*; juvenile explicitly undescribed. Facts: 23–26 cm, 145–170 g; female average about 20 g heavier; rather prominent tufts; pale gray-brown, fine shaft streaks/coarse bars; true white scapular shoulder band plus second pale closed-wing covert band; yellow eye, greenish bill/cere, feathered tarsi. Limitation: female mass direction is not a height formula; no juvenile details; exact individual variation unknown. Design support: retain both bands, natural prominent tufts, subtle female fullness. [Species card](species/118-megascops-cooperi-v4.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-4.md). Confidence high for printed description/photo.
+
+### PSC-AVESCR-2025
+- Aves de Costa Rica, *Megascops cooperi*, https://avesdecostarica.com/Megascops-cooperi.html ; accessed/read 2026-10-27. Source type: secondary field-reference page. Species/stage: adults and juvenile. Read lines 28–36: gray-brown adult with fine dusky vermiculation/black shaft streaks; juvenile gray-buff above, whitish below grading to deeper buff breast, finely dusky-barred above/below; forest-edge/deciduous woodland/savanna/mangrove habitat. Page’s AI illustration explicitly excluded as evidence. No exact age/action/sex ratio. Design support: juvenile palette and fine-bar rather than decorative tile texture. [Species card](species/118-megascops-cooperi-v4.md). Confidence medium.
+
+### Existing-source application
+- `PSC-KOMAR-STUFKENS-2012` institutional PDF printed/PDF pp.65–66 and Figure 4 re-downloaded, text read and page viewed: older fledgling ground defensive wing-spread after falling when startled, difficulty flying, exact age unknown. Reused, not duplicated.
+- `PSC-OWLPAGES-2020` current lines 50–77 opened/read: two real adult pale wing bands, fine irregular shaft/vermiculation pattern, yellow eye, greenish bill and feathered tarsi. Reused, not duplicated.

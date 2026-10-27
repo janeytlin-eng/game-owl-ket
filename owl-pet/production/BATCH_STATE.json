@@ -4243,20 +4243,23 @@
         "cycle": 5,
         "species": "Athene noctua",
         "species_id": 164,
-        "heartbeat_at": "2026-10-27T12:06:00.000+08:00",
-        "expires_at": "2026-10-27T12:21:00.000+08:00"
+        "heartbeat_at": "2026-10-27T12:10:00.000+08:00",
+        "expires_at": "2026-10-27T12:25:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Athene noctua",
         "species_id": 164,
         "version": 1,
         "run_id": "2026-10-27T1034+0800-cycle-5",
-        "at": "2026-10-27T12:06:00.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-5.md"
+        "at": "2026-10-27T12:10:00.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-5.md",
+        "sources_new": 4,
+        "sources_reused": 1,
+        "sources_corrected": 0
       },
-      "last_updated_at": "2026-10-27T12:06:00.000+08:00",
+      "last_updated_at": "2026-10-27T12:10:00.000+08:00",
       "audit_notes": [
         "2026-10-27T10:34:00.000+08:00: new batch cycle 1 STARTED for unarchived #160 Tyto inexspectata v1; no prior incomplete batch or active lease. Project scope remains 251. Repository stored timestamps from the preceding batch are ahead of this invocation clock; commit order is authoritative.",
         "2026-10-27T10:36:00.000+08:00: cycle 1 RESEARCH_READY; 4 sources read/indexed (IOC checklist page result, 2023 Naturalis type catalogue, Cornell/eBird account, Owl Pages synthesis). Full prompt persisted; exact juvenile age, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; lease renewed.",
@@ -4282,7 +4285,8 @@
         "2026-10-27T11:59:00.000+08:00: cycle 4 REVIEWED PASS after one center-juvenile wing edit. Adult-like spot row/hard remiges were shortened and softened; exact text, adults, support, burrow and prairie remained stable. Reviewed blob 01d65dd5c87b50d053e1b347e60d950d19a19015; science pending; lease renewed.",
         "2026-10-27T12:02:30.000+08:00: cycle 4 ARCHIVED pending readback; concept/reviewed asset blob 01d65dd5c87b50d053e1b347e60d950d19a19015; manifest/status/design index/changelog/workflow lesson updated; lease renewed.",
         "2026-10-27T12:04:00.000+08:00: cycle 4 VERIFIED; immutable archive tree maps concept/reviewed asset to 01d65dd5c87b50d053e1b347e60d950d19a19015 (536814 bytes), manifest/run readback passed. Archive 43900131643b570a3c29d55a67d917752870bbe8. Unique 162→163/251; batch 4/6, next_cycle 5; lease released.",
-        "2026-10-27T12:06:00.000+08:00: cycle 5 STARTED for unarchived #164 Athene noctua v1; manifest duplicate check passed. Mikkola pp.427–428, BTO and published survival/post-fledging studies provide adult, mesoptile, fledging and agricultural-habitat evidence; lease acquired."
+        "2026-10-27T12:06:00.000+08:00: cycle 5 STARTED for unarchived #164 Athene noctua v1; manifest duplicate check passed. Mikkola pp.427–428, BTO and published survival/post-fledging studies provide adult, mesoptile, fledging and agricultural-habitat evidence; lease acquired.",
+        "2026-10-27T12:10:00.000+08:00: cycle 5 RESEARCH_READY; 5 sources read/indexed (Mikkola pp.427–428, BTO overview/monitoring guide, Pedersen et al. 2013, Barn Owl Trust). 27-day chick is threshold-capable but pre-fledging; western European palette and overlapping sex size are bounded; full prompt persisted."
       ]
     }
   ],
@@ -4386,10 +4390,10 @@
     "cycle": 5,
     "species": "Athene noctua",
     "species_id": 164,
-    "heartbeat_at": "2026-10-27T12:06:00.000+08:00",
-    "expires_at": "2026-10-27T12:21:00.000+08:00"
+    "heartbeat_at": "2026-10-27T12:10:00.000+08:00",
+    "expires_at": "2026-10-27T12:25:00.000+08:00"
   },
-  "last_updated_at": "2026-10-27T12:06:00.000+08:00",
+  "last_updated_at": "2026-10-27T12:10:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

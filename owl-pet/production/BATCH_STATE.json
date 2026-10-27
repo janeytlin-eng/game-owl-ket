@@ -5053,8 +5053,8 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "2026-10-28T0230+0800-cycle-4b",
-        "heartbeat_at": "2026-10-28T04:42:10.000+08:00",
-        "expires_at": "2026-10-28T04:57:10.000+08:00"
+        "heartbeat_at": "2026-10-28T04:44:00.000+08:00",
+        "expires_at": "2026-10-28T04:59:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -5062,25 +5062,20 @@
         "species": "#184 Otus spilocephalus (hambroecki)",
         "version": 1,
         "action": "NEW",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T04:42:10.000+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T04:44:00.000+08:00",
         "evidence": {
-          "sources_new": 3,
-          "sources_reused": 0,
-          "sources_corrected": 0,
-          "source_ids": [
-            "MOSO-MIKKOLA-2013-P148",
-            "MOSO-NTM-HAMBROECKI-2026",
-            "MOSO-AVIBASE-HAMBROECKI-2026"
-          ],
-          "guide_page": "printed p.148 / PDF p.150",
-          "subspecies_boundary": "Taiwan race O. s. hambroecki only",
-          "design_boundary": "near-equal same-plumage adults; older fluffy dull yellow/rufous-brown juvenile with soft markings and neutral-dark shaded iris; supported branch; no exact age/flight threshold",
+          "generated_blob": "ca6871533857566029ac81ddf3541bd1dd16c4cc",
+          "generated_sha256": "5a40317376c393be06c161b054f12831cf1e201040fa4deb06af7a5a1919aa60",
+          "dimensions": "1536x1024",
+          "size_bytes": 551247,
+          "generation_wait_seconds": 68.9,
+          "review_finding": "Initial image opened; juvenile wing/tail remained too hard and adult-like, so one targeted edit was required.",
           "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-4b.md",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T04:42:10.000+08:00",
+      "last_updated_at": "2026-10-28T04:44:00.000+08:00",
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49.",
@@ -5095,23 +5090,30 @@
         "2026-10-28T04:35:10.000+08:00: cycle4 STARTED #179 Otus mayottensis v1 after manifest/name audit found no archive; Mikkola printed p.139/PDF p.141 accessible; lease acquired.",
         "2026-10-28T04:39:38.000+08:00: cycle4 candidate #179 Otus mayottensis screened and BLOCKED before generation. Mikkola p.139/PDF141 says Juvenile Unknown; Fuchs 2008, eBird and Avibase establish taxonomy/adult/habitat but no juvenile morphology or stage. No cycle credit; lease released; next_cycle remains 4 for evidence-supported replacement.",
         "2026-10-28T04:42:00.000+08:00: cycle4 replacement STARTED #184 Otus spilocephalus v1 after #179 juvenile evidence block; current-main search found no #184/name archive. Mikkola printed p.148/PDF p.150 accessible; lease acquired to 2026-10-28T04:57:00.000+08:00.",
-        "2026-10-28T04:42:10.000+08:00: cycle4 replacement #184 Otus spilocephalus v1 RESEARCH_READY for Taiwan race hambroecki; Mikkola p.148/PDF150 page pixels viewed, Taiwan National Museum record/text and image viewed, Avibase current/old-name mapping read. Complete prompt persisted; lease renewed to 2026-10-28T04:57:10.000+08:00. Science false."
+        "2026-10-28T04:42:10.000+08:00: cycle4 replacement #184 Otus spilocephalus v1 RESEARCH_READY for Taiwan race hambroecki; Mikkola p.148/PDF150 page pixels viewed, Taiwan National Museum record/text and image viewed, Avibase current/old-name mapping read. Complete prompt persisted; lease renewed to 2026-10-28T04:57:10.000+08:00. Science false.",
+        "2026-10-28T04:44:00.000+08:00: cycle4 #184 IMAGE_GENERATED; 1536x1024 initial master ca6871533857566029ac81ddf3541bd1dd16c4cc persisted after 68.9s. Opened image passed text/count/adults/support but juvenile wing/tail was too adult-like; one targeted edit required. Lease renewed."
       ],
       "checkpoint": {
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species_id": 184,
         "species": "Otus spilocephalus",
         "subspecies": "hambroecki",
         "version": 1,
         "action": "NEW",
-        "at": "2026-10-28T04:42:10.000+08:00",
+        "at": "2026-10-28T04:44:00.000+08:00",
         "source_ids": [
           "MOSO-MIKKOLA-2013-P148",
           "MOSO-NTM-HAMBROECKI-2026",
           "MOSO-AVIBASE-HAMBROECKI-2026"
         ],
         "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-4b.md",
-        "scientifically_verified": false
+        "scientifically_verified": false,
+        "generated_path": "owl-pet/production/assets/2026-10-28T0230+0800-cycle-4b/184-otus-spilocephalus-v1-generated-master.jpg",
+        "generated_blob": "ca6871533857566029ac81ddf3541bd1dd16c4cc",
+        "generated_sha256": "5a40317376c393be06c161b054f12831cf1e201040fa4deb06af7a5a1919aa60",
+        "generated_size_bytes": 551247,
+        "generation_wait_seconds": 68.9,
+        "review_finding": "juvenile wing/tail too adult-like; targeted edit started"
       }
     }
   ],
@@ -5218,8 +5220,8 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "2026-10-28T0230+0800-cycle-4b",
-    "heartbeat_at": "2026-10-28T04:42:10.000+08:00",
-    "expires_at": "2026-10-28T04:57:10.000+08:00"
+    "heartbeat_at": "2026-10-28T04:44:00.000+08:00",
+    "expires_at": "2026-10-28T04:59:00.000+08:00"
   },
   "last_updated_at": "2026-10-28T03:54:53.033+08:00",
   "audit_notes": [

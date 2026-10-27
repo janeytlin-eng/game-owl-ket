@@ -4675,26 +4675,30 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T1836+0800-cycle-4",
-        "heartbeat_at": "2026-10-27T19:48:00.000+08:00",
-        "expires_at": "2026-10-27T20:03:00.000+08:00"
+        "heartbeat_at": "2026-10-27T19:52:00.000+08:00",
+        "expires_at": "2026-10-27T20:07:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
         "stage": "STARTED",
         "species": "Strix fulvescens",
-        "species_id": 175,
-        "version": 1,
-        "action": "NEW",
+        "species_id": 107,
+        "version": 3,
+        "action": "REVISION_RECOVERY",
         "run_id": "2026-10-27T1836+0800-cycle-4",
-        "at": "2026-10-27T19:48:00.000+08:00",
+        "at": "2026-10-27T19:52:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1836+0800-cycle-4.md",
         "evidence": {
           "manifest_name_match_count": 0,
-          "project_number_match_count": 0,
-          "existing_knowledge_card": "owl-pet/knowledge/species/107-strix-fulvescens.md"
+          "existing_concepts": [
+            "owl-pet/design/concepts/107-strix-fulvescens-v1.png",
+            "owl-pet/design/concepts/107-strix-fulvescens-v2.png"
+          ],
+          "existing_knowledge_card": "owl-pet/knowledge/species/107-strix-fulvescens.md",
+          "correction": "Initial #175 candidate renumbered before research/generation/credit to preserve existing #107 identity."
         }
       },
-      "last_updated_at": "2026-10-27T19:48:00.000+08:00",
+      "last_updated_at": "2026-10-27T19:52:00.000+08:00",
       "audit_notes": [
         "2026-10-27T18:36:00.000+08:00: cycle 1 STARTED for unarchived candidate #172 Tyto castanops v1 after main/manifest/name audit; no active lease or incomplete batch. IOC v15.2-style checklist treatment is split, while BirdLife/Australian authorities often retain T. novaehollandiae castanops; taxonomic conflict must be preserved in RESEARCH_READY. Lease expires 2026-10-27T18:51:00.000+08:00.",
         "2026-10-27T18:38:00.000+08:00: cycle 1 RESEARCH_READY for #172 Tyto castanops v1; 5 sources actually read/indexed. IOC split and BirdLife/Australian lump conflict preserved; white/cream advanced nestling selected with no exact-age/flight claim. Full prompt persisted; lease expires 2026-10-27T18:53:00.000+08:00.",
@@ -4713,15 +4717,16 @@
         "2026-10-27T19:38:00.000+08:00: cycle 3 REVIEWED PASS without edit. Original master and 680×453 derivative were both viewed; reviewed blob 63ed6aad79e1312b79723338b516d38280ce7b97 (253069 bytes). Exact text/count, support, cold gray adult diagnosis, near-equal adult scale and age-unknown downy older juvenile passed; lease expires 2026-10-27T19:53:00.000+08:00.",
         "2026-10-27T19:42:00.000+08:00: cycle 3 ARCHIVED pending independent readback. Concept/reviewed blob 63ed6aad79e1312b79723338b516d38280ce7b97 (253069 bytes), original master ce5d721e69b3149c8ce795987ef6215e47e762a2 retained; manifest/status/design/changelog/card/workflow updated. Unique count not advanced; lease expires 2026-10-27T19:57:00.000+08:00.",
         "2026-10-27T19:45:00.000+08:00: cycle 3 VERIFIED NEW #174 Strix sartorii v1; archive aae8cebfa33dc9278014eb0e6b97eb149c01314c, concept/reviewed blob 63ed6aad79e1312b79723338b516d38280ce7b97, master ce5d721e69b3149c8ce795987ef6215e47e762a2; immutable tree, 5 source IDs and metadata readback passed. Unique 173→174/251; next_cycle 4; lease released.",
-        "2026-10-27T19:48:00.000+08:00: cycle 4 STARTED for unarchived #175 Strix fulvescens v1; no manifest name/#175 match; existing #107 knowledge card must be reconciled without reusing its number as production identity. Lease expires 2026-10-27T20:03:00.000+08:00."
+        "2026-10-27T19:48:00.000+08:00: cycle 4 STARTED for unarchived #175 Strix fulvescens v1; no manifest name/#175 match; existing #107 knowledge card must be reconciled without reusing its number as production identity. Lease expires 2026-10-27T20:03:00.000+08:00.",
+        "2026-10-27T19:52:00.000+08:00: cycle 4 preflight corrected candidate #175 to existing project identity #107 Strix fulvescens v3 after reading knowledge card and finding v1/v2 concept files. No production credit or new image existed under #175. Action is REVISION_RECOVERY; old versions retained; lease expires 2026-10-27T20:07:00.000+08:00."
       ]
     }
   ],
   "lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T1836+0800-cycle-4",
-    "heartbeat_at": "2026-10-27T19:48:00.000+08:00",
-    "expires_at": "2026-10-27T20:03:00.000+08:00"
+    "heartbeat_at": "2026-10-27T19:52:00.000+08:00",
+    "expires_at": "2026-10-27T20:07:00.000+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -4799,7 +4804,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T19:48:00.000+08:00",
+  "updated_at": "2026-10-27T19:52:00.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4810,10 +4815,10 @@
   "active_lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T1836+0800-cycle-4",
-    "heartbeat_at": "2026-10-27T19:48:00.000+08:00",
-    "expires_at": "2026-10-27T20:03:00.000+08:00"
+    "heartbeat_at": "2026-10-27T19:52:00.000+08:00",
+    "expires_at": "2026-10-27T20:07:00.000+08:00"
   },
-  "last_updated_at": "2026-10-27T19:48:00.000+08:00",
+  "last_updated_at": "2026-10-27T19:52:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

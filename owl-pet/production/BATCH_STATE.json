@@ -4922,25 +4922,31 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 2,
-        "run_id": "2026-10-28T0029+0800-cycle-2",
-        "species": "#172 Tyto castanops",
+      "active_lease": {
+        "cycle": 3,
+        "owner": "codex-root",
+        "run_id": "2026-10-28T0029+0800-cycle-3",
+        "species": "#163 Glaucidium gnoma",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T00:49:00.000+08:00",
+        "heartbeat_at": "2026-10-28T01:32:30.000+08:00",
+        "expires_at": "2026-10-28T01:47:30.000+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 3,
+        "run_id": "2026-10-28T0029+0800-cycle-3",
+        "species": "#163 Glaucidium gnoma",
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-28T01:32:30.000+08:00",
         "evidence": {
-          "archive_commit": "67263de6289b3fd901ec15334b705b2dd0f8c039",
-          "git_blob": "d24b354d6584f5c241c91d94caad486d8ba26ef0",
-          "tree_readback_complete": true,
-          "manifest_entries": 427,
-          "unique_species_total": 174,
-          "scientifically_verified": false
+          "v1_path": "owl-pet/design/concepts/163-glaucidium-gnoma-v1.png",
+          "visual_issue": "v1 juvenile uses bright adult-like yellow iris even though exact juvenile iris is explicitly unknown; adult pale spotting also appears overly regular and requires source re-check",
+          "credit": false
         }
       },
-      "last_updated_at": "2026-10-28T00:49:00.000+08:00",
+      "last_updated_at": "2026-10-28T01:32:30.000+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -4950,7 +4956,8 @@
         "2026-10-28T00:40:48.861+08:00: cycle 1 #161 Ketupa blakistoni v2 VERIFIED against archive 149114821a507934aadb20843a9f643b9751485f; tree/blob/path/manifest/run/research readback passed; unique remains 174/251; next_cycle 2; lease released.",
         "2026-10-28T00:42:15.884+08:00: cycle 2 STARTED #172 Tyto castanops v2 SCIENCE_REVISION after actual v1 view found an advanced-nestling label versus near-uniform down/no visible formed-wing cue mismatch; research pending; lease expires 2026-10-28T00:57:15.884+08:00.",
         "2026-10-28T00:48:00.000+08:00: cycle2 #172 Tyto castanops v2 ARCHIVED; blob d24b354d6584f5c241c91d94caad486d8ba26ef0; manifest 426→427; independent readback pending.",
-        "2026-10-28T00:49:00.000+08:00: cycle2 VERIFIED at archive 67263de6289b3fd901ec15334b705b2dd0f8c039; tree/blob/manifest/source/card/run readback passed; unique 174/251; next_cycle3; lease released."
+        "2026-10-28T00:49:00.000+08:00: cycle2 VERIFIED at archive 67263de6289b3fd901ec15334b705b2dd0f8c039; tree/blob/manifest/source/card/run readback passed; unique 174/251; next_cycle3; lease released.",
+        "2026-10-28T01:32:30.000+08:00: cycle3 STARTED #163 Glaucidium gnoma v2 SCIENCE_REVISION after original-resolution visual review; juvenile yellow iris unsupported by current evidence and adult spot regularity requires source check. Lease expires 2026-10-28T01:47:30.000+08:00."
       ]
     }
   ],

@@ -1600,3 +1600,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - The earlier evidence deferral was corrected only after the field report confirmed three young with parent pairs. Exact age, development, flight and nest geometry remain unknown.
 - One targeted edit removed an unsupported bright-yellow juvenile iris and softened adult-hard juvenile wings. Concept: [175-otus-ireneae-v1.png](design/concepts/175-otus-ireneae-v1.png).
 - ARCHIVED metadata prepared; independent commit-pinned readback pending. Science remains false.
+
+- 2026-10-28T02:26:23.000+08:00 — #175 v1 verified at archive `f5f9940c02e8b9f649405be702ef0a963de099a3`; all three asset paths and expected blobs plus manifest/source/card/run/state were read back at the immutable commit. Unique total is now **175/251**; batch `2026-10-28T0029+0800` closes **6/6 COMPLETE**. Scientific calibration remains pending.

@@ -4903,7 +4903,7 @@
     },
     {
       "batch_id": "2026-10-28T0029+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -4947,42 +4947,41 @@
           "unique_species_increment": 0,
           "commit_sha": "2f9734d8f3ade4562b5521b1701a078664738d2c",
           "run_record": "owl-pet/production/runs/2026-10-28T0029+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus ireneae",
+          "species_id": 175,
+          "version": 1,
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "f5f9940c02e8b9f649405be702ef0a963de099a3",
+          "run_record": "owl-pet/production/runs/2026-10-28T0029+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "cycle": 6,
-        "owner": "codex-root",
-        "run_id": "2026-10-28T0029+0800-cycle-6",
-        "species": "#175 Otus ireneae",
-        "version": 1,
-        "action": "NEW",
-        "heartbeat_at": "2026-10-28T02:26:30.000+08:00",
-        "expires_at": "2026-10-28T02:41:30.000+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
         "run_id": "2026-10-28T0029+0800-cycle-6",
         "species": "#175 Otus ireneae",
         "version": 1,
         "action": "NEW",
-        "stage": "ARCHIVED",
-        "at": "2026-10-28T02:26:30.000+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-28T02:26:23.000+08:00",
         "evidence": {
-          "concept_path": "owl-pet/design/concepts/175-otus-ireneae-v1.png",
-          "generated_path": "owl-pet/production/assets/2026-10-28T0029+0800-cycle-6/175-otus-ireneae-v1-generated-master.jpg",
-          "reviewed_path": "owl-pet/production/assets/2026-10-28T0029+0800-cycle-6/175-otus-ireneae-v1-reviewed-master.jpg",
+          "archive_commit": "f5f9940c02e8b9f649405be702ef0a963de099a3",
+          "tree_sha": "6b81db9ab1c78ed605ae6cb7e5697fcd978bb7f1",
+          "commit_pinned_file_readback": true,
           "concept_blob": "fb4553af5d5ee9fbc1754572e4194c71caeae4",
           "generated_blob": "f54921e5e75d5ee9fbc1754572e4194c71caeae4",
           "reviewed_blob": "d691f5a192565ce424a626bb8c27863e67d39e0b",
           "manifest_entries": 431,
-          "provisional_unique_species_total": 175,
-          "readback_pending": true,
-          "scientifically_verified": false,
-          "credit": false
+          "unique_species_total": 175,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T02:26:30.000+08:00",
+      "last_updated_at": "2026-10-28T02:26:23.000+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -5015,7 +5014,8 @@
         "2026-10-28T02:07:48.000+08:00: cycle6 #175 Otus ireneae v1 RESEARCH_READY; 4 new/0 reused/1 corrected decision. Mikkola p.134 and the 2023 African Bird Club report were actually read; age-unknown adult-like supported juvenile selected; nest geometry and juvenile soft parts remain unknown. Lease renewed to 2026-10-28T02:22:48.000+08:00.",
         "2026-10-28T02:22:34.000+08:00: cycle6 #175 v1 IMAGE_GENERATED; 1536x1024 master persisted as blob f54921e5e75d5ee9fbc1754572e4194c71caeae4. Displayed output failed juvenile-eye uncertainty and juvenile-wing softness checks; targeted edit required. A later local view retry was interrupted by environment switch; no credit.",
         "2026-10-28T02:24:51.000+08:00: cycle6 #175 v1 REVIEWED PASS after one targeted juvenile-eye/wing edit. Original-resolution recheck passed exact text/count, adult morphology/equal scale, neutral juvenile eye, softer formed juvenile wing and full branch support. Science false; lease renewed to 2026-10-28T02:39:51.000+08:00.",
-        "2026-10-28T02:26:30.000+08:00: cycle6 #175 Otus ireneae v1 ARCHIVED tree prepared: concept/reviewed/generated assets and research/manifest/run metadata present; manifest 430→431; provisional unique 175/251. Independent readback pending; no credit."
+        "2026-10-28T02:26:30.000+08:00: cycle6 #175 Otus ireneae v1 ARCHIVED tree prepared: concept/reviewed/generated assets and research/manifest/run metadata present; manifest 430→431; provisional unique 175/251. Independent readback pending; no credit.",
+        "2026-10-28T02:26:23.000+08:00: cycle6 #175 Otus ireneae v1 VERIFIED against archive f5f9940c02e8b9f649405be702ef0a963de099a3; commit-pinned asset/blob/manifest/source/card/run/state readback passed. Unique 174→175/251; batch closes COMPLETE 6/6; lease released."
       ]
     }
   ],

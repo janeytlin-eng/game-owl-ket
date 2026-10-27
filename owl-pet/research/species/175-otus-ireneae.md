@@ -56,3 +56,10 @@ Avoid: nest boxes, visible nest cavity, eggs, prey, extra birds, dense regular c
 - Concept derivative: 680×453, SHA-256 `24740001de7498c0b206caf16c7bf434338fa6c804ec764b75f869a03add32aa`, Git blob `fb4553af5d5ee9fbc1754572e4194c71caeae4`.
 - Scientific status: false. Remaining unknowns are unchanged.
 
+## Archive verification
+
+- Archive commit: `f5f9940c02e8b9f649405be702ef0a963de099a3`
+- Archive tree: `6b81db9ab1c78ed605ae6cb7e5697fcd978bb7f1`
+- Commit-pinned readback: concept/generated/reviewed blobs, manifest entry, source index IDs, research card, run record and batch checkpoint all passed.
+- Verified: 2026-10-28T02:26:23.000+08:00
+- Scientific status remains false.

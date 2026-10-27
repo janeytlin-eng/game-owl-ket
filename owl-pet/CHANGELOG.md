@@ -1096,3 +1096,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added 4 stable sources and corrected the earlier “insufficient young-stage evidence” decision after reading the 2023 African Bird Club field report.
 - One targeted edit neutralized the unsupported juvenile iris and softened/rounded the juvenile wing.
 - Provisional unique total 175/251; commit-pinned readback pending; scientific verification false.
+
+- 2026-10-28T02:26:23.000+08:00 — Verified #175 *Otus ireneae* v1 archive `f5f9940c02e8b9f649405be702ef0a963de099a3` by commit-pinned asset and metadata readback; unique total 175/251 and batch closed 6/6 COMPLETE.

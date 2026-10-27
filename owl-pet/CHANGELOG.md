@@ -1,3 +1,8 @@
+## 2026-10-27 — #118 *Megascops cooperi* v4
+
+- Revised Pacific Screech-Owl after rereading Komar 2012 pp.65–66/Fig.4, uploaded Mikkola p.210 and current species pages; unique remains 174/251.
+- One texture-only edit reduced repeated tiles without deleting the two real adult pale wing bands or the documented ground defensive fledgling wing-fan. Full reviewed master and concept derivative were viewed; science false.
+
 ## 2026-10-27 — #120 *Megascops ingens* v3
 
 - Revised Rufescent Screech-Owl after fully reading the 2022 first-chick/nest paper (printed pp.301–304/Figure 1) and uploaded Mikkola guide p.229; unique species remains 174/251.

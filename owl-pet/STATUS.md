@@ -1507,3 +1507,12 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27T22:44:41.000+08:00 — #120 *Megascops ingens* v3 independently verified at archive commit `6a259c12b4b55f901160b86d4fc1d7ea8fe9651e`; concept blob `34d7ae4a4957ec5f6d20449a9ea92aa677c6b8ab`, full reviewed master blob `c80dffaab7a4299361b3fb0feec882662daf528a`. Manifest/run/species/research/status readback passed. Unique remains 174/251; batch 3/6, next cycle 4; science pending.
+
+
+## 2026-10-27 — #118 Pacific Screech-Owl · *Megascops cooperi* v4
+
+- Result: SCIENCE_REVISION concept ARCHIVED; independent readback pending. Unique archived species remains 174/251; manifest versions 422→423.
+- Image: [design/concepts/118-megascops-cooperi-v4.png](design/concepts/118-megascops-cooperi-v4.png); full 1536×1024 master: [production/assets/2026-10-27T2126+0800-cycle-4/reviewed-master.jpg](production/assets/2026-10-27T2126+0800-cycle-4/reviewed-master.jpg).
+- Research: new2/reused2/corrected0. Komar pp.65–66/Fig.4 and Mikkola p.210 read/viewed; OwlPages/AvesCR read.
+- Review: one texture-only edit reduced mechanical rows while retaining both true adult pale wing bands and the ground defensive fledgling wing-fan. Fine map/age/sequence/sexed dimensions/variation remain unknown; science false.
+- Run: [production/runs/2026-10-27T2126+0800-cycle-4.md](production/runs/2026-10-27T2126+0800-cycle-4.md)

@@ -14,3 +14,8 @@ New0/reused3 PSC-MERLE-2019 actualprimarypage/pixels, PSC-OWLPAGES-2020 Descript
 
 ## v3 crown-only revision2026-10-16
 Fresh PSC-OWLPAGES-2020 actualread; PSC-KOMAR-STUFKENS-2012 p65Fig4/66 reused. Actualedited/viewed softer mutedgray crown/finebars, olderformedspreadremiges/groundcontact retained. Noexactage/sexscale/feathermappass; sciencefalse. Original design/concepts/118-megascops-cooperi-v3.png, imagecommit feadbab66ddef117fe264b5cdfd048ff34f9c323. Priorapproval/versionpreserved. [Stages/prompt](../../production/runs/2026-10-16T2029+0800-cycle-1.md).
+
+
+### #118 v4 · 2026-10-27
+
+SCIENCE_REVISION; unique archived total remains 174/251. Reused primary `PSC-KOMAR-STUFKENS-2012` and `PSC-OWLPAGES-2020`; added `PSC-MIKKOLA-2013-P210` and `PSC-AVESCR-2025`. Institutional Komar PDF pp.65–66/Fig.4 and uploaded Mikkola p.210 were read/viewed. One texture-only imagegen edit reduced mechanical scallop/teardrop/U rows while preserving both evidence-supported pale adult wing bands, prominent barred tufts, yellow eyes/greenish bill, feathered tarsi and the source-documented ground defensive fledgling wing fan. Exact age, continuous sequence, exact feather map, sexed dimensions and geographic variation remain unknown; science false. [Concept](../../design/concepts/118-megascops-cooperi-v4.png) · [full master](../../production/assets/2026-10-27T2126+0800-cycle-4/reviewed-master.jpg) · [research](../../research/species/118-megascops-cooperi-v4.md) · [run](../../production/runs/2026-10-27T2126+0800-cycle-4.md)

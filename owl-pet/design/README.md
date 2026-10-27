@@ -1401,3 +1401,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Primary paper pp.301–304/Figure 1 and Mikkola printed p.229 were reread/viewed. Two targeted edits bounded the juvenile's developed barred remiges under natal down, shortened adult tufts, darkened irises and softened repeated decorative patterning.
 - Existing v1–v2 and historical user records remain preserved. Exact age within the authors' estimate, continuous feather sequence, individual/subspecies variation and quantitative sex dimorphism remain unknown; science pending.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/120-megascops-ingens-v3.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-3.md)
+
+
+### #118 Pacific Screech-Owl · *Megascops cooperi* · v4
+
+- [118-megascops-cooperi-v4.png](concepts/118-megascops-cooperi-v4.png) — near-equal adult pair on low branches and an age-unknown older fledgling on leaf litter in the Komar 2012 defensive wing-spread.
+- Komar pp.65–66/Fig.4 and uploaded Mikkola p.210 were reread/viewed; current Owl Pages and Aves de Costa Rica text were opened/read. One texture-only edit reduced mechanical rows while preserving both real adult pale wing bands and formed juvenile remiges.
+- Existing v1–v3 remain preserved. Exact age, continuous feather sequence, exact feather map, sexed linear dimensions and geographic variation remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/118-megascops-cooperi-v4.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-4.md)

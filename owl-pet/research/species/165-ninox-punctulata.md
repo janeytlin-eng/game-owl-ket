@@ -44,3 +44,11 @@ See [SOURCE_INDEX](../SOURCE_INDEX.md) and [cycle run](../../production/runs/202
 - Review: PASS at full 1536×1024 and re-encoded 1536×1024 resolution.
 - Blob: `87ac0f12f1843c6703f890d8b3241c9804e649fa`; 616,088 bytes; SHA-256 `d2ef263bbb2e53cf2c85c9e0606c35d91558d22f5fff4fb8d1fbafa8c928c2d1`.
 - Science remains false pending independent specialist calibration.
+
+
+## Archive verification
+
+- Archive commit: `3210c304fbc4690dbf747f81e25eef1e3fccf3c7`
+- Independent recursive-tree readback maps concept, generated and reviewed paths to blob `87ac0f12f1843c6703f890d8b3241c9804e649fa` (616,088 bytes).
+- STATUS, design index, changelog, source index, card, run and batch ledger all contained the expected species record at the immutable archive ref.
+- Verified: 2026-10-27T15:49:11.000+08:00; unique species 165/251; `scientifically_verified=false`.

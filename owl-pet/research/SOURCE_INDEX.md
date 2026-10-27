@@ -3934,3 +3934,75 @@ Links: [research card](species/172-tyto-castanops.md), [run](../production/runs/
 | TSO-EBIRD-CLEMENTS-2026 | https://ebird.org/species/torsco1 | Cornell Lab/eBird | accessed 2026-10-27 | institution taxonomic account | lumped subspecies | Clements/eBird uses Madagascar Scops-Owl (Torotoroka), *O. rutilus madagascariensis*. | Explicit authority conflict; project follows IOC split under fixed scope and retains lumped mapping.
 
 Links: [research card](species/173-otus-madagascariensis.md), [run](../production/runs/2026-10-27T1836+0800-cycle-2.md). Design uses a documented older immature on a branch; rare ground-nest evidence is not converted into juvenile habitat. Exact age/flight remain unknown; science false.
+
+
+## 2026-10-27 #174 Cinereous Owl — *Strix sartorii* v1
+
+### CIO-AOS-2021-P263
+- Title: Sixty-second Supplement to the American Ornithological Society’s Check-list of North American Birds
+- Authors/institution: Chesser et al.; American Ornithological Society
+- Year/date: 2021
+- URL/DOI: https://doi.org/10.1093/ornithology/ukab037
+- Accessed: 2026-10-27
+- Type: peer-reviewed checklist supplement
+- Scope: *Strix sartorii* taxonomy, habitat and range; adults/general
+- Location read: checklist p.263 species account (web lines 808–818)
+- Facts: AOS treats *S. sartorii* separately from *S. varia*; original combination is *Syrnium nebulosum* var. *Sartorii*. Habitat is pine-oak/pine forest at 1400–2500 m. Split support includes vocal, mtDNA, plumage and habitat differences.
+- Limits/conflicts/confidence: authoritative taxonomy/range; not an age-development or sex-dimorphism source. Historical range is broader than recent detections. High confidence for taxonomy and habitat.
+- Design/check decision: current species identity and Mexican montane pine-oak background; do not use it to invent juvenile detail or female size.
+- Links: [card](species/174-strix-sartorii.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-3.md)
+
+### CIO-BARROWCLOUGH-2011
+- Title: Phylogeography of the Barred Owl (*Strix varia*): Species Limits, Multiple Refugia, and Range Expansion
+- Authors: Barrowclough et al.
+- Year/date: 2011; *The Auk* 128(4):696–706
+- URL/DOI: https://doi.org/10.1525/auk.2011.11057
+- Accessed: 2026-10-27
+- Type: primary phylogeographic research
+- Scope: Mexican *sartorii*, North American *varia*, Central American *fulvescens*; adults/specimens
+- Location read: abstract and methods/results excerpt
+- Facts: analyses used nuclear and mitochondrial loci; Mexican *sartorii* was separated from northern *varia* by *fulvescens* in most trees. Authors recognized three species and reported about 4–5% genetic divergence among them; Mexican sample consisted of nine historical Jalisco skins.
+- Limits/conflicts/confidence: old skin sample and no recent Mexican specimens; genetic/taxonomic support only, not live color, sex, nest or juvenile development. High confidence within stated sampling limits.
+- Design/check decision: supports separate project identity but supplies no rendered trait.
+- Links: [card](species/174-strix-sartorii.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-3.md)
+
+### CIO-EARBIRDING-2015
+- Title: Mexico’s Mystery Owl
+- Authors: Nathan Pieplow and Andrew Spencer
+- Date: 2015-06-07
+- URL: https://earbirding.com/blog/archives/4905
+- Accessed: 2026-10-27
+- Type: dated field observation, photographs and recordings
+- Scope: adult and age-unknown juvenile *S. sartorii* at Rancho La Noria, Nayarit, 2015-06-05
+- Location read: page sections “The find”, “Visuals”, comparison figure/captions (lines 5–10, 47–54)
+- Facts: page documents and labels a juvenile photograph. Adult has a notably pale, gray facial disc without obvious darker concentric rings, cold gray coloration, dark sepia streaks on off-white underparts, cold gray collar, and toe feathering extending to claw bases.
+- Limits/conflicts/confidence: extremely small field sample; juvenile exact age and flight status are not stated on the page. Strong direct visual evidence for the photographed stage/adult individual, not universal variation.
+- Design/check decision: use a fully supported age-unknown older juvenile; no exact age/flight claim. Preserve pale gray face, cold palette, sepia streaks and feathered toes.
+- Links: [card](species/174-strix-sartorii.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-3.md)
+
+### CIO-BAIRD-RIDGWAY-1874-P29
+- Title: A History of North American Birds, Vol. III (original *sartorii* account)
+- Authors: Baird, Brewer and Ridgway
+- Year: 1874
+- URL: https://www.gutenberg.org/cache/epub/54169/pg54169-images.html
+- Accessed: 2026-10-27
+- Type: historical original descriptive work
+- Scope: adult female type-like specimen from Mirador near Veracruz; historical name *Syrnium nebulosum* var. *sartorii*
+- Location read: printed p.29, footnote 21 (web lines 424–433 and 15106)
+- Facts: blackish-sepia and clear white plumage, face without darker concentric rings; adult female specimen had much darker/less reddish brown than *nebulosum*, nearly black underpart markings, with the same underlying barred/streaked pattern.
+- Limits/conflicts/confidence: one historical specimen and old comparative terminology; useful diagnostic boundary, not population-wide sex or age evidence.
+- Design/check decision: cold blackish-sepia/white direction and no facial rings; do not infer female-specific coloration.
+- Links: [card](species/174-strix-sartorii.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-3.md)
+
+### CIO-EBIRD-2026
+- Title: Cinereous Owl *Strix sartorii* species account
+- Institution: Cornell Lab / eBird
+- Accessed: 2026-10-27
+- URL: https://ebird.org/species/barowl13
+- Type: current institutional field-identification account
+- Scope: adults/general; Mexico
+- Location read: species identification and habitat text
+- Facts: large dark-eyed owl of western/central Mexican pine and pine-oak forests; cold brown/gray tones, barred breast and vertically streaked belly; rare/local and known from few sites.
+- Limits/conflicts/confidence: concise field account, not a developmental study and no quantitative sex difference. High for adult field diagnosis/habitat.
+- Design/check decision: retain dark eyes, cold gray-brown palette, breast bars/belly streaks and montane forest; no invented sex contrast.
+- Links: [card](species/174-strix-sartorii.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-3.md)

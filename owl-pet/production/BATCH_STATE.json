@@ -4661,26 +4661,35 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T1836+0800-cycle-3",
-        "heartbeat_at": "2026-10-27T19:23:00.000+08:00",
-        "expires_at": "2026-10-27T19:38:00.000+08:00"
+        "heartbeat_at": "2026-10-27T19:31:00.000+08:00",
+        "expires_at": "2026-10-27T19:46:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix sartorii",
         "species_id": 174,
         "version": 1,
         "action": "NEW",
         "run_id": "2026-10-27T1836+0800-cycle-3",
-        "at": "2026-10-27T19:23:00.000+08:00",
+        "at": "2026-10-27T19:31:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1836+0800-cycle-3.md",
         "evidence": {
-          "manifest_name_match_count": 0,
-          "project_number_match_count": 0,
-          "selected_from_unarchived_current_species_gap": true
+          "source_ids": [
+            "CIO-AOS-2021-P263",
+            "CIO-BARROWCLOUGH-2011",
+            "CIO-EARBIRDING-2015",
+            "CIO-BAIRD-RIDGWAY-1874-P29",
+            "CIO-EBIRD-2026"
+          ],
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "research_card": "owl-pet/research/species/174-strix-sartorii.md",
+          "full_prompt_persisted": true,
+          "scientifically_verified": false,
+          "design_boundary": "Age-unknown older Nayarit juvenile; no exact age/flight, early down, nest/clutch or species-specific sex ratio claim."
         }
       },
-      "last_updated_at": "2026-10-27T19:23:00.000+08:00",
+      "last_updated_at": "2026-10-27T19:31:00.000+08:00",
       "audit_notes": [
         "2026-10-27T18:36:00.000+08:00: cycle 1 STARTED for unarchived candidate #172 Tyto castanops v1 after main/manifest/name audit; no active lease or incomplete batch. IOC v15.2-style checklist treatment is split, while BirdLife/Australian authorities often retain T. novaehollandiae castanops; taxonomic conflict must be preserved in RESEARCH_READY. Lease expires 2026-10-27T18:51:00.000+08:00.",
         "2026-10-27T18:38:00.000+08:00: cycle 1 RESEARCH_READY for #172 Tyto castanops v1; 5 sources actually read/indexed. IOC split and BirdLife/Australian lump conflict preserved; white/cream advanced nestling selected with no exact-age/flight claim. Full prompt persisted; lease expires 2026-10-27T18:53:00.000+08:00.",
@@ -4693,15 +4702,16 @@
         "2026-10-27T19:12:00.000+08:00: cycle 2 REVIEWED PASS after one targeted edit shortened/reduced all three overlong ear tufts. Edited 1536×1024 master blob 7d4bfe873126bc35c50176138d11a5c847a1469c and viewed 680×453 derivative blob 3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc persisted; text/count/support/adult scale/older-immature boundaries passed. Lease expires 2026-10-27T19:27:00.000+08:00.",
         "2026-10-27T19:17:00.000+08:00: cycle 2 ARCHIVED pending independent readback. Concept/reviewed derivative blob 3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc (668345 bytes); initial and edited 1536×1024 masters retained. Manifest/status/design/changelog/card/workflow updated; unique count not advanced; lease expires 2026-10-27T19:32:00.000+08:00.",
         "2026-10-27T19:20:00.000+08:00: cycle 2 VERIFIED NEW #173 Otus madagascariensis v1; archive 903d47aad7f74939bc49328f0b0bbdbd8d52028e, concept/reviewed blob 3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc, edited master 7d4bfe873126bc35c50176138d11a5c847a1469c, original master 848703a4b83b9109b0534ac8938b2ab343a82e51; immutable tree and metadata readback passed. Unique 172→173/251; next_cycle 3; lease released.",
-        "2026-10-27T19:23:00.000+08:00: cycle 3 STARTED for unarchived candidate #174 Strix sartorii v1 after manifest scientific-name/project-number audit found no match. Current taxonomy and age-stage evidence must be verified before generation. Lease expires 2026-10-27T19:38:00.000+08:00."
+        "2026-10-27T19:23:00.000+08:00: cycle 3 STARTED for unarchived candidate #174 Strix sartorii v1 after manifest scientific-name/project-number audit found no match. Current taxonomy and age-stage evidence must be verified before generation. Lease expires 2026-10-27T19:38:00.000+08:00.",
+        "2026-10-27T19:31:00.000+08:00: cycle 3 RESEARCH_READY for #174 Strix sartorii v1; 5 new sources read/indexed. AOS/primary genetics support split; adult cold-gray diagnosis and dated Nayarit age-unknown older juvenile bounded. Exact age/flight, early down, nest and sex ratio unknown; lease expires 2026-10-27T19:46:00.000+08:00."
       ]
     }
   ],
   "lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T1836+0800-cycle-3",
-    "heartbeat_at": "2026-10-27T19:23:00.000+08:00",
-    "expires_at": "2026-10-27T19:38:00.000+08:00"
+    "heartbeat_at": "2026-10-27T19:31:00.000+08:00",
+    "expires_at": "2026-10-27T19:46:00.000+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -4779,7 +4789,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T19:23:00.000+08:00",
+  "updated_at": "2026-10-27T19:31:00.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4790,10 +4800,10 @@
   "active_lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T1836+0800-cycle-3",
-    "heartbeat_at": "2026-10-27T19:23:00.000+08:00",
-    "expires_at": "2026-10-27T19:38:00.000+08:00"
+    "heartbeat_at": "2026-10-27T19:31:00.000+08:00",
+    "expires_at": "2026-10-27T19:46:00.000+08:00"
   },
-  "last_updated_at": "2026-10-27T19:23:00.000+08:00",
+  "last_updated_at": "2026-10-27T19:31:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

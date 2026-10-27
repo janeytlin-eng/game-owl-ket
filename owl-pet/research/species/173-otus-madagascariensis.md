@@ -1,6 +1,6 @@
 # #173 Torotoroka Scops Owl — *Otus madagascariensis* v1
 
-Status: RESEARCH_READY; scientific verification: false.
+Status: REVIEWED; scientific verification: false.
 
 ## Taxonomy boundary
 
@@ -28,3 +28,10 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - Female only moderately fuller.
 - Juvenile adult-like pattern allowed by species-specific evidence; tail-coverts/barred pointed rectrices differentiate stage.
 - No eggs/ground nest/extra birds/unsupported feet. Science false.
+
+## Image review — 2026-10-27T19:12:00.000+08:00
+
+- Initial master blob `848703a4b83b9109b0534ac8938b2ab343a82e51` had ear tufts too tall/prominent for the short-tufted diagnosis.
+- One targeted edit reduced/shortened all three tufts without altering identity, labels, number, support, adult scale, juvenile stage boundary, or habitat.
+- Edited master blob `7d4bfe873126bc35c50176138d11a5c847a1469c`; reviewed derivative blob `3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc`.
+- REVIEWED PASS; scientific verification remains false because exact immature age/flight capability is unknown and checklist split/lump treatment conflicts.

@@ -1,3 +1,9 @@
+## 162 · Baja Pygmy Owl · *Glaucidium hoskinsii* v1
+
+- [Original PNG](concepts/162-glaucidium-hoskinsii-v1.png) · 1536×1024 · 3,277,783 bytes · SHA-256 `f7cec2da0cb75a1f6dee045646ef9d9fa865e20058f97743e7f5a688d3a335e5`
+- Git blob `29bfdd132e5eac457541c4645e273e237ae5a5ad`. NEW current-species concept using adult evidence from Mikkola and a near-fledged palm-cavity chick from the 2025 first-nest paper. One targeted edit removed adult-style juvenile spot rows and hard remiges; science pending.
+- [Sources](../research/SOURCE_INDEX.md#2026-10-27-162-baja-pygmy-owl--glaucidium-hoskinsii-v1) · [Run](../production/runs/2026-10-27T1335+0800-cycle-1.md)
+
 ## 140 · Reddish Scops Owl · *Otus rufescens* v2
 
 - [Original PNG](concepts/140-otus-rufescens-v2.png) · 1536×1024 · 3,487,986 bytes · SHA-256 `930c637832afba048b74c5b72134917893ca232b795d04b3ea1fea6356c61b71`

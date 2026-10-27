@@ -443,3 +443,7 @@ BTO allows a 25–28-day Little Owl chick to leave the cavity before 30–35-day
 
 ### 2026-10-27 #140 age-unknown juvenile labels prevent false precision
 Mikkola p.178 and one museum mesoptile description support reddish-brown down/mesoptile texture but not exact age, iris, posture or flight threshold. #140 v2 therefore labels the chick age-unknown and requires full cavity-floor support. The first render passed because it preserved soft down, no mature remiges/tail and no independent action. This validates the boundary for this plate only; science remains false.
+
+
+### 2026-10-27 #162 later primary evidence may supersede a guide's “juvenile undescribed” gap
+A trusted older guide explicitly saying “juvenile undescribed” is a boundary, not evidence that no later stage-specific record exists. For *Glaucidium hoskinsii*, the 2025 first-nest paper and viewed figure support a near-fledged, very fluffy chick at a Mexican fan-palm cavity; they do not justify natal-down detail, exact age, iris, flight ability or a continuous feather map. The first generated chick leaked crisp adult-style white crown/wing spots and hard wing cues; one targeted edit removed those maturity signals while keeping a formed supported near-fledged body. Original-resolution recheck passed for this plate only. This validates searching for later primary evidence and editing maturity cues, not inventing missing early development; `scientifically_verified=false`.

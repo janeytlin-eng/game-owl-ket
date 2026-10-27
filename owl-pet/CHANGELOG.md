@@ -1,3 +1,9 @@
+## 2026-10-27 — #162 *Glaucidium hoskinsii* v1
+
+- Added a new Baja Pygmy Owl concept using IOC v15.2 current naming, Mikkola p.374 adult evidence and Flores & Marrón 2025's first documented nest/near-fledged chick.
+- Generated exactly one adult male, one palm-cavity-supported near-fledged chick and one adult female in Cape Tropical Scrub; one targeted edit removed adult-like juvenile white spot rows and hard long remiges.
+- Archived concept/reviewed assets to immutable Git blob `29bfdd132e5eac457541c4645e273e237ae5a5ad`; independent readback and unique-count advancement remain pending in the ARCHIVED phase.
+
 ## 2026-10-27 — #140 *Otus rufescens* v2
 
 - Revised the Reddish Scops Owl with newly read Mikkola p.178 and Raffles catalogue evidence; unique species remains 161/251.

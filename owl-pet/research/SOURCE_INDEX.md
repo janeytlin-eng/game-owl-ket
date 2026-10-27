@@ -4006,3 +4006,11 @@ Links: [research card](species/173-otus-madagascariensis.md), [run](../productio
 - Limits/conflicts/confidence: concise field account, not a developmental study and no quantitative sex difference. High for adult field diagnosis/habitat.
 - Design/check decision: retain dark eyes, cold gray-brown palette, breast bars/belly streaks and montane forest; no invented sex contrast.
 - Links: [card](species/174-strix-sartorii.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-3.md)
+
+
+## 2026-10-27 — #107 *Strix fulvescens* v4 recovery revision
+
+- Reused verified source IDs: `FVO-EISERMANN-FIELD2026`, `S107-EBIRD-FULOWL1`, `S107-CAYAYA-2026`, `S107-OWLPAGES-2020`.
+- Fresh read: `S107-BIRDLIFE-2026` — BirdLife International, Fulvous Owl species factsheet, https://datazone.birdlife.org/species/factsheet/fulvous-owl-strix-fulvescens, accessed 2026-10-27. Institutional conservation/taxonomy account; treats *S. fulvescens* as a species and notes vocal, morphological and coloration differences from historical *S. varia* lumping. Limit: dynamic page yielded no juvenile developmental sequence or sex ratio; used only for current identity/status boundary.
+- Fresh web checks of eBird, CAYAYA field photos/account and Owl Pages confirmed adult warm buff/rufous direction, dark/brown eyes, rounded no-tuft head, cloud/highland forest, and an older fluffy photographed juvenile. The existing 2026-10-16 direct-photo review remains the actual juvenile visual evidence.
+- Correction: recursive tree inspection found v3 at `design/concepts/107-strix-fulvescens-v3.png`; current cycle is therefore v4, not v3. No previous version is overwritten or recounted.

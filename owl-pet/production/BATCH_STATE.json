@@ -5173,8 +5173,8 @@
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261028T0629+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T06:29:50.607+08:00",
-        "expires_at": "2026-10-28T06:44:50.607+08:00"
+        "heartbeat_at": "2026-10-28T06:31:25.248+08:00",
+        "expires_at": "2026-10-28T06:46:25.248+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -5182,17 +5182,29 @@
         "species": "#201 Otus mantananensis",
         "version": 1,
         "action": "NEW",
-        "stage": "STARTED",
-        "at": "2026-10-28T06:29:50.607+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T06:31:25.248+08:00",
         "evidence": {
           "repo_head_before": "32c3baa2ca3ebf88cf4ff4a697eca3fa27100e6b",
           "candidate_basis": "#198 Otus everetti, #199 Otus nigrorum and #200 Otus mindorensis are deferred because fresh searches did not produce reliable species-specific juvenile-stage evidence. #201 Otus mantananensis is unarchived and has institutional adult descriptions plus identifiable juvenile photographs for O. m. romblonis.",
           "manifest_checked": true,
           "unique_species_before": "183/251",
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids_new": [
+            "MSO-EBIRD-ID-2026",
+            "MSO-AVIBASE-ROMBLONIS-2024",
+            "MSO-PHOTOARK-BIR070-00063",
+            "MSO-MACAULAY-615554542"
+          ],
+          "source_ids_reused": [],
+          "source_ids_corrected": [],
+          "fresh_research": "Cornell/eBird identification text read; Avibase current/old-name and range lines read; Photo Ark juvenile caption/keywords and page pixels viewed in browser; Cornell/Macaulay adult pixels viewed. Connected Library searches found no accessible uploaded Mikkola guide, so no page claim is made.",
+          "design_boundary": "Same-morph near-equal adults; age-unknown photographed O. m. romblonis juvenile with soft tawny-brown fine barring, reduced tufts, large pale eyes, gray bill, compact soft wing/short concealed tail and full support. No exact age/flight/nest/sex ratio/generalization.",
+          "full_prompt_saved": "owl-pet/research/species/201-otus-mantananensis-v1.md"
         }
       },
-      "last_updated_at": "2026-10-28T06:29:50.607+08:00",
+      "last_updated_at": "2026-10-28T06:31:25.248+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5207,7 +5219,8 @@
         "2026-10-28T05:27:35.699+08:00: cycle2 #197 v1 ARCHIVED tree prepared; concept 8be1c0c0982451007910b76da4e5347654bde9ce, generated 1f85b9062b095a780942ae451c488a598dc9f7ea, reviewed ebccd25029b89be7a5cde52ea1c4f4712a45628e; manifest 438→439; provisional unique 183/251. Readback pending; no credit yet.",
         "2026-10-28T05:28:28.928+08:00: cycle2 VERIFIED #197 Otus megalotis v1; immutable archive 499624e816c66112affc85f4168b927199777fcd maps concept/generated/reviewed to 8be1c0c0/1f85b906/ebccd250 and required records read back. Corrected one card hash transcription before credit. Unique 182→183/251; batch 2/6, next_cycle 3; lease released; science false.",
         "2026-10-28T05:29:08.782+08:00: post-verification metadata correction: #197 reviewed source PNG SHA-256 is 1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f, matching local sha256sum and the REVIEWED checkpoint. Earlier verification prose contained a mistyped replacement value. No asset, archive, stage credit, count or science-status change.",
-        "2026-10-28T06:29:50.607+08:00: cycle3 STARTED for unarchived #201 Otus mantananensis v1 after #198–200 juvenile-evidence screening. Lease expires 2026-10-28T06:44:50.607+08:00; no production credit."
+        "2026-10-28T06:29:50.607+08:00: cycle3 STARTED for unarchived #201 Otus mantananensis v1 after #198–200 juvenile-evidence screening. Lease expires 2026-10-28T06:44:50.607+08:00; no production credit.",
+        "2026-10-28T06:31:25.248+08:00: cycle3 #201 Otus mantananensis v1 RESEARCH_READY; 4 new sources read/viewed and indexed. Photo Ark juvenile page pixels viewed; uploaded guide unavailable after connected-library searches. Science false; lease renewed to 2026-10-28T06:46:25.248+08:00."
       ]
     }
   ],
@@ -5314,10 +5327,10 @@
   "active_lease": {
     "owner": "codex-production",
     "run_id": "20261028T0629+0800-cycle-3",
-    "heartbeat_at": "2026-10-28T06:29:50.607+08:00",
-    "expires_at": "2026-10-28T06:44:50.607+08:00"
+    "heartbeat_at": "2026-10-28T06:31:25.248+08:00",
+    "expires_at": "2026-10-28T06:46:25.248+08:00"
   },
-  "last_updated_at": "2026-10-28T06:29:50.607+08:00",
+  "last_updated_at": "2026-10-28T06:31:25.248+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5384,7 +5397,8 @@
     "2026-10-28T00:49:00.000+08:00: cycle2 VERIFIED #172 Tyto castanops v2 at archive 67263de6289b3fd901ec15334b705b2dd0f8c039; manifest427; unique174/251; batch2/6 next_cycle3; lease released.",
     "2026-10-28T05:19:16.081+08:00: batch 2026-10-28T0508+0800 cycle1 NEW #195 Otus brookii solokensis v1 verified; archive f898fb66e5473fb0c2c36c53155082ea9b0bad83; concept 735ca30291099fea113af9498ea9acf8afc5dd8e. Unique species 182/251; batch 1/6, next_cycle 2; no active lease.",
     "2026-10-28T05:28:28.928+08:00: batch 2026-10-28T0508+0800 cycle2 NEW #197 Otus megalotis v1 verified at 499624e816c66112affc85f4168b927199777fcd; unique 183/251; batch 2/6, next_cycle 3; no active lease.",
-    "2026-10-28T06:29:50.607+08:00: resumed oldest PARTIAL batch 2026-10-28T0508+0800 cycle3; #201 Otus mantananensis v1 STARTED; no credit."
+    "2026-10-28T06:29:50.607+08:00: resumed oldest PARTIAL batch 2026-10-28T0508+0800 cycle3; #201 Otus mantananensis v1 STARTED; no credit.",
+    "2026-10-28T06:31:25.248+08:00: cycle3 #201 RESEARCH_READY with 4 new indexed sources; guide unavailable; no credit."
   ],
   "audit_trail": [
     {

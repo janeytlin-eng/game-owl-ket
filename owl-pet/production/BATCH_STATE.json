@@ -4040,7 +4040,7 @@
     },
     {
       "batch_id": "2026-10-27T0728+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -4107,27 +4107,36 @@
           "image_git_blob": "d5248dc6b4a8c499f3370cc0bb193a169f7e0d60",
           "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-5.md",
           "verified_at": "2026-10-27T10:32:00.000+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus jolandae",
+          "species_id": 139,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b54497ddd81efee2089d58fc74e8dbd9811de51c",
+          "archive_commit": "b54497ddd81efee2089d58fc74e8dbd9811de51c",
+          "image_git_blob": "a9bfbb44ec2656cc4f30b6c25b4f941fa2d1887a",
+          "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-6.md",
+          "verified_at": "2026-10-27T11:03:00.000+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "2026-10-27T0728+0800-cycle-6",
-        "heartbeat_at": "2026-10-27T10:58:00.000+08:00",
-        "expires_at": "2026-10-27T11:13:00.000+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Otus jolandae",
         "species_id": 139,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-6",
-        "at": "2026-10-27T10:58:00.000+08:00",
+        "at": "2026-10-27T11:03:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-6.md",
+        "archive_commit": "b54497ddd81efee2089d58fc74e8dbd9811de51c",
         "image_git_blob": "a9bfbb44ec2656cc4f30b6c25b4f941fa2d1887a"
       },
-      "last_updated_at": "2026-10-27T10:58:00.000+08:00",
+      "last_updated_at": "2026-10-27T11:03:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
@@ -4164,7 +4173,8 @@
         "2026-10-27T10:42:00.000+08:00: cycle 6 RESEARCH_READY; original description freshly reread, 1 published adult figure newly indexed, 1 false Macaulay match rejected, complete prompt persisted; exact immature age/flight remains unknown; lease renewed.",
         "2026-10-27T10:49:00.000+08:00: cycle 6 IMAGE_GENERATED; first output actual-viewed, one targeted wing/scapular edit applied, edited original and 64-color indexed candidate viewed; exact blob a9bfbb44ec2656cc4f30b6c25b4f941fa2d1887a; lease renewed.",
         "2026-10-27T10:53:00.000+08:00: cycle 6 REVIEWED PASS after one wing/scapular edit; complete anatomy/support/text, adult identity and evidence-bounded immature stage checked; science false; lease renewed.",
-        "2026-10-27T10:58:00.000+08:00: cycle 6 ARCHIVED pending independent readback; concept/generated/reviewed use blob a9bfbb44ec2656cc4f30b6c25b4f941fa2d1887a; indexes/card/workflow updated; lease renewed."
+        "2026-10-27T10:58:00.000+08:00: cycle 6 ARCHIVED pending independent readback; concept/generated/reviewed use blob a9bfbb44ec2656cc4f30b6c25b4f941fa2d1887a; indexes/card/workflow updated; lease renewed.",
+        "2026-10-27T11:03:00.000+08:00: cycle 6 #139 Otus jolandae v2 fully read back and VERIFIED; three remote image paths match exact blob/size, manifest entry is unique, immutable raw image visibly rendered; unique species remains 159/251; batch closes COMPLETE 6/6; lease released."
       ]
     }
   ],

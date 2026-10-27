@@ -4806,8 +4806,8 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T2126+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T15:33:27.962Z",
-        "expires_at": "2026-10-27T15:48:27.962Z"
+        "heartbeat_at": "2026-10-27T15:35:20.138Z",
+        "expires_at": "2026-10-27T15:50:20.138Z"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -4989,7 +4989,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T15:33:27.962Z",
+  "updated_at": "2026-10-27T15:35:20.138Z",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -5000,10 +5000,10 @@
   "active_lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T2126+0800-cycle-5",
-    "heartbeat_at": "2026-10-27T15:33:27.962Z",
-    "expires_at": "2026-10-27T15:48:27.962Z"
+    "heartbeat_at": "2026-10-27T15:35:20.138Z",
+    "expires_at": "2026-10-27T15:50:20.138Z"
   },
-  "last_updated_at": "2026-10-27T15:33:27.962Z",
+  "last_updated_at": "2026-10-27T15:35:20.138Z",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5046,7 +5046,8 @@
     "2026-10-27T21:27:00.000+08:00: batch 2026-10-27T2126+0800 cycle 1 STARTED #117 Otus manadensis v4; lease expires 2026-10-27T21:42:00.000+08:00.",
     "2026-10-27T15:00:32.216Z: batch 2026-10-27T2126+0800 cycle 5 STARTED #111 Otus cyprius v3 SCIENCE_REVISION; lease expires 2026-10-27T15:15:32.216Z. Previous v2 retained as history.",
     "2026-10-27T15:02:35.237Z: cycle 5 #111 Otus cyprius v3 RESEARCH_READY; Mikkola old-name pages 122–123/PDF 124–125, Sound Approach fledgling photographs, Flint et al. taxonomy and BirdLife Cyprus habitat/nesting were actually read; 2 new/2 reused sources; lease renewed.",
-    "2026-10-27T15:33:27.962Z: recovered expired cycle-5 lease after confirming main unchanged; local generated candidate exec-ed8b4274-7412-4c68-a591-6fa15c124d20.png exists (3,087,078 bytes) and will be viewed before any archive credit."
+    "2026-10-27T15:33:27.962Z: recovered expired cycle-5 lease after confirming main unchanged; local generated candidate exec-ed8b4274-7412-4c68-a591-6fa15c124d20.png exists (3,087,078 bytes) and will be viewed before any archive credit.",
+    "2026-10-27T15:35:20.138Z: cycle 5 #111 Otus cyprius v3 IMAGE_GENERATED checkpoint; recovered 1536x1024 candidate SHA-256 0fb75105a09afb5324a647f1695812a210ad781c6579e5055503c60af8eff956 and original-resolution review identified targeted plumage/juvenile-wing corrections; no archive credit."
   ],
   "audit_trail": [
     {

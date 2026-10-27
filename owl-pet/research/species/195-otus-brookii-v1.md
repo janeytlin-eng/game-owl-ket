@@ -38,3 +38,10 @@ Avoid: borrowed Sunda Scops Owl pattern, yellow eyes, giant size dimorphism, eye
 - Concept derivative: 680×453 RGB, 669,421 bytes, SHA-256 `3b0cd1411612159d495fc909d490f35b231df0df0de3521c112e38236fcdab24`, Git blob `735ca30291099fea113af9498ea9acf8afc5dd8e`.
 - Review result: PASS_WITH_LIMITATIONS. Scientific verification remains false for the unknowns listed above.
 - Immutable archive readback: pending.
+
+## Immutable archive verification — 2026-10-28T05:19:16.081+08:00
+
+- Archive commit: `f898fb66e5473fb0c2c36c53155082ea9b0bad83`.
+- Commit-pinned paths map concept to `735ca30291099fea113af9498ea9acf8afc5dd8e`, generated master to `403adeb52bac72be426106b10333abffe602a810`, and reviewed master to `83d68129abb1c872c2147352067c69aa6f23bb33`.
+- Manifest entry count 438 and source index/card/run/state/STATUS markers read back at the same immutable ref.
+- Production status: VERIFIED. Science status: false.

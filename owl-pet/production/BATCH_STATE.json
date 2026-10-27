@@ -4094,27 +4094,36 @@
           "image_git_blob": "8a7ef903ed52d586210df3d2a55c5d3181491f55",
           "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-4.md",
           "verified_at": "2026-10-27T10:02:00.000+08:00"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus alfredi",
+          "species_id": 137,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "13bc118382d56aed7cd431e9b10e074443dc9dab",
+          "archive_commit": "13bc118382d56aed7cd431e9b10e074443dc9dab",
+          "image_git_blob": "d5248dc6b4a8c499f3370cc0bb193a169f7e0d60",
+          "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-5.md",
+          "verified_at": "2026-10-27T10:32:00.000+08:00"
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "2026-10-27T0728+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T10:27:00.000+08:00",
-        "expires_at": "2026-10-27T10:42:00.000+08:00"
-      },
+      "next_cycle": 6,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Otus alfredi",
         "species_id": 137,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-5",
-        "at": "2026-10-27T10:27:00.000+08:00",
+        "at": "2026-10-27T10:32:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-5.md",
+        "archive_commit": "13bc118382d56aed7cd431e9b10e074443dc9dab",
         "image_git_blob": "d5248dc6b4a8c499f3370cc0bb193a169f7e0d60"
       },
-      "last_updated_at": "2026-10-27T10:27:00.000+08:00",
+      "last_updated_at": "2026-10-27T10:32:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
@@ -4145,7 +4154,8 @@
         "2026-10-27T10:12:00.000+08:00: cycle 5 RESEARCH_READY; 2 new durable sources, 1 primary source freshly reread/reused, 1 prior design interpretation corrected (white scapular spots retained but bounded); full prompt persisted; lease renewed.",
         "2026-10-27T10:19:00.000+08:00: cycle 5 IMAGE_GENERATED; first output failed labels/wing-patch density, one targeted edit repaired both; edited original and indexed candidate viewed; exact blob d5248dc6b4a8c499f3370cc0bb193a169f7e0d60; lease renewed.",
         "2026-10-27T10:23:00.000+08:00: cycle 5 REVIEWED PASS after one combined label/wing-pattern edit; identity, juvenile maturity, support, text and habitat checked; science false; lease renewed.",
-        "2026-10-27T10:27:00.000+08:00: cycle 5 ARCHIVED pending independent readback; concept/generated/reviewed use blob d5248dc6b4a8c499f3370cc0bb193a169f7e0d60; indexes/card/workflow updated; lease renewed."
+        "2026-10-27T10:27:00.000+08:00: cycle 5 ARCHIVED pending independent readback; concept/generated/reviewed use blob d5248dc6b4a8c499f3370cc0bb193a169f7e0d60; indexes/card/workflow updated; lease renewed.",
+        "2026-10-27T10:32:00.000+08:00: cycle 5 #137 Otus alfredi v2 fully read back and VERIFIED; three remote image paths match exact blob/size, manifest entry is unique, immutable raw image visibly rendered; unique species remains 159/251; next_cycle 6; lease released."
       ]
     }
   ],

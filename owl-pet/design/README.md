@@ -1,3 +1,9 @@
+## 163 · Mountain Pygmy Owl · *Glaucidium gnoma* v1
+
+- [Original PNG](concepts/163-glaucidium-gnoma-v1.png) · 1536×1024 · 3,220,541 bytes · SHA-256 `05096fd4297ba496d05b0e6e00c1123b2ef67ef09cbafda84e169f84e72b3457`
+- Git blob `fddd1d0e4ef98732072b32bbbb62de34b6579659`. NEW current-species concept: same-height adult pair and an age-unknown, unspotted-crown mesoptile juvenile fully supported at a montane woodpecker cavity. One targeted edit removed adult-style wing spots/hard remiges; science pending.
+- [Sources](../research/SOURCE_INDEX.md#2026-10-27-163-mountain-pygmy-owl--glaucidium-gnoma-v1) · [Run](../production/runs/2026-10-27T1335+0800-cycle-2.md)
+
 ## 162 · Baja Pygmy Owl · *Glaucidium hoskinsii* v1
 
 - [Original PNG](concepts/162-glaucidium-hoskinsii-v1.png) · 1536×1024 · 3,277,783 bytes · SHA-256 `f7cec2da0cb75a1f6dee045646ef9d9fa865e20058f97743e7f5a688d3a335e5`

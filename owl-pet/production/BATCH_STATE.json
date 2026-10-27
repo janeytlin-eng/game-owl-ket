@@ -5253,7 +5253,7 @@
           "verified_state_blob": "e6fdf2905730d43694e8b1c1e6d48ae483b83e76",
           "verified_status_blob": "9b460782d57b88d6d2a3e352cf8d6b4438a03e91",
           "immutable_readback_passed": true,
-          "metadata_correction": "Research-card reviewed source PNG hash corrected before verification; image blobs unchanged.",
+          "metadata_correction": "Research-card reviewed source PNG hash corrected to local sha256sum/REVIEWED ledger value 1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f; image blobs unchanged.",
           "unique_species_after": "183/251"
         }
       },
@@ -5270,7 +5270,8 @@
         "2026-10-28T05:24:26.570+08:00: cycle2 #197 v1 IMAGE_GENERATED after 63.8s observed wall time. 1536x1024 source PNG SHA-256 914c98d6; q90 JPEG blob 1f85b9062b095a780942ae451c488a598dc9f7ea. Original viewed: count/text/support/adult direction pass; juvenile wing too long/crisp and requires edit. Local magick executable absent; convert fallback succeeded. Lease renewed.",
         "2026-10-28T05:26:40.113+08:00: cycle2 #197 v1 REVIEWED after one juvenile-wing edit (64.9s observed wait). Initial long crisp adult-like wing was shortened/rounded/softened but kept formed for the photographed older stage. Full master and 680x453 derivative passed; science false; lease renewed.",
         "2026-10-28T05:27:35.699+08:00: cycle2 #197 v1 ARCHIVED tree prepared; concept 8be1c0c0982451007910b76da4e5347654bde9ce, generated 1f85b9062b095a780942ae451c488a598dc9f7ea, reviewed ebccd25029b89be7a5cde52ea1c4f4712a45628e; manifest 438→439; provisional unique 183/251. Readback pending; no credit yet.",
-        "2026-10-28T05:28:28.928+08:00: cycle2 VERIFIED #197 Otus megalotis v1; immutable archive 499624e816c66112affc85f4168b927199777fcd maps concept/generated/reviewed to 8be1c0c0/1f85b906/ebccd250 and required records read back. Corrected one card hash transcription before credit. Unique 182→183/251; batch 2/6, next_cycle 3; lease released; science false."
+        "2026-10-28T05:28:28.928+08:00: cycle2 VERIFIED #197 Otus megalotis v1; immutable archive 499624e816c66112affc85f4168b927199777fcd maps concept/generated/reviewed to 8be1c0c0/1f85b906/ebccd250 and required records read back. Corrected one card hash transcription before credit. Unique 182→183/251; batch 2/6, next_cycle 3; lease released; science false.",
+        "2026-10-28T05:29:08.782+08:00: post-verification metadata correction: #197 reviewed source PNG SHA-256 is 1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f, matching local sha256sum and the REVIEWED checkpoint. Earlier verification prose contained a mistyped replacement value. No asset, archive, stage credit, count or science-status change."
       ]
     }
   ],
@@ -5366,7 +5367,7 @@
     "2026-10-28T03:54:20.820+08:00: cycle3 #178 IMAGE_GENERATED after 50.3s; original and derivative opened; no edit warranted.",
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false."
   ],
-  "updated_at": "2026-10-28T05:28:28.928+08:00",
+  "updated_at": "2026-10-28T05:29:08.782+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -5375,7 +5376,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-10-28T05:28:28.928+08:00",
+  "last_updated_at": "2026-10-28T05:29:08.782+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

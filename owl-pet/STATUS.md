@@ -1,8 +1,8 @@
 ## 2026-10-27 #111 *Otus cyprius* v3
 
-- Result: SCIENCE_REVISION archived; unique species remains 174/251.
+- Result: SCIENCE_REVISION VERIFIED; unique species remains 174/251.
 - Image: [design/concepts/111-otus-cyprius-v3.png](design/concepts/111-otus-cyprius-v3.png)
-- Artifact: 680×453 RGB; 664,414 bytes; SHA-256 `fef79ef15ea1c12caaf197aaacc79d69bfed149d250d138fc5adec2f41622277`.
+- Archive [`1e07f2d232c8557878167badae7b59108dd034be`](https://github.com/janeytlin-eng/game-owl-ket/commit/1e07f2d232c8557878167badae7b59108dd034be); verified Git blob `30d7d0f312da0f1ae0ce3bda4dd26baaa0804679`; 680×453 RGB; 664,414 bytes; SHA-256 `fef79ef15ea1c12caaf197aaacc79d69bfed149d250d138fc5adec2f41622277`.
 - Research: 2 new and 2 reused stable source IDs; Mikkola printed pp.122–123/PDF pp.124–125, BirdLife Cyprus, Sound Approach fledgling field photographs and Flint et al. taxonomy were actually read/reused with limits.
 - Review: one targeted plumage/juvenile-wing edit; structure and support passed. Science remains false because exact juvenile chronology/feather sequence, exact bar spacing and sex-specific linear dimensions remain unknown.
 - Run: [production/runs/2026-10-27T2126+0800-cycle-5.md](production/runs/2026-10-27T2126+0800-cycle-5.md)

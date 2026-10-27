@@ -4800,87 +4800,85 @@
           "species": "Megascops cooperi",
           "commit_sha": "e07603dae6e3cc9e6b54b10c12aa810d43ce5c31",
           "run_record": "owl-pet/production/runs/2026-10-27T2126+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus cyprius",
+          "commit_sha": "1e07f2d232c8557878167badae7b59108dd034be",
+          "run_record": "owl-pet/production/runs/2026-10-27T2126+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "2026-10-27T2126+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T15:41:24.274Z",
-        "expires_at": "2026-10-27T15:56:24.274Z"
-      },
+      "next_cycle": 6,
+      "active_lease": null,
       "cycle_checkpoint": {
-        "cycle": 4,
-        "run_id": "2026-10-27T2126+0800-cycle-4",
-        "species": "#118 Megascops cooperi",
-        "version": 4,
+        "cycle": 5,
+        "run_id": "2026-10-27T2126+0800-cycle-5",
+        "species": "#111 Otus cyprius",
+        "version": 3,
         "action": "SCIENCE_REVISION",
         "stage": "VERIFIED",
-        "at": "2026-10-27T22:57:10.000+08:00",
+        "at": "2026-10-27T23:42:55.731+08:00",
         "evidence": {
-          "main_head": "ac099740af393f6ffbaa52c95077ad86ba4c68a9",
-          "candidate_reason": "Latest v3 original-resolution view shows repeated adult scallop/teardrop rows and oversized hard tufts; its own status still marks repeated geometry pending. Existing v1-v3 and valid two adult pale wing bands plus the documented defensive juvenile wing-fan must be preserved.",
+          "main_head": "1e07f2d232c8557878167badae7b59108dd034be",
+          "candidate_reason": "Latest v2 and initial v3 candidate retained mechanical repeated adult texture and an overly crisp adult-like juvenile folded wing; historical v1-v2 preserved.",
           "preserved_versions": [
             "v1",
-            "v2",
-            "v3"
+            "v2"
           ],
           "unique_species_total": 174,
           "scientifically_verified": false,
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "source_ids_new": [
-            "PSC-MIKKOLA-2013-P210",
-            "PSC-AVESCR-2025"
+            "CYSO-MIKKOLA-2013-P122-123",
+            "CYSO-BIRDLIFE-CYPRUS-2026"
           ],
           "source_ids_reused": [
-            "PSC-KOMAR-STUFKENS-2012",
-            "PSC-OWLPAGES-2020"
+            "CYSO-SOUNDAPPROACH-2013PHOTOS",
+            "CYSO-FLINT-2015"
           ],
           "source_ids_corrected": [],
-          "fresh_research": "Komar 2012 institutional PDF printed/PDF pp65–66 and Figure 4 re-downloaded, text read and page viewed; uploaded Mikkola printed p210/PDF212 read and adult photo viewed; current Owl Pages and Aves de Costa Rica species pages opened/read.",
-          "design_boundary": "Keep both legitimate adult pale wing bands and the primary-documented ground-supported defensive fledgling wing fan. Replace mechanical repeated tiles with thin irregular shafts/vermiculation; adult tufts prominent but natural; female only subtly fuller from average mass direction.",
-          "full_prompt_saved": "owl-pet/research/species/118-megascops-cooperi-v4.md",
-          "generated_source_png_sha256": "7c8aa73463204e5a2edebbda2584bdd3bb6cc09f2f6b58cf9a758d4a9ba57da6",
-          "generated_source_png_bytes": 3124020,
-          "durable_master": "owl-pet/production/assets/2026-10-27T2126+0800-cycle-4/generated-master.jpg",
-          "durable_master_sha256": "be43d91f13d9b9460dde82499742a22792ba01aabb3b19341af902e1faa89007",
-          "durable_master_bytes": 471338,
-          "durable_master_dimensions": "1536x1024",
-          "durable_encoding": "JPEG quality 88, full original dimensions, archive transfer encoding",
-          "generation_elapsed_seconds": 126.5,
-          "generation_elapsed_note": "Observed tool-call wall time including one yielded wait; not provider telemetry.",
-          "review_result": "PASS after one feather-texture-only edit",
+          "fresh_research": "Uploaded Mikkola printed pp122–123/PDF124–125 text/pages read/viewed; Sound Approach field account/captions, PubMed Flint abstract and BirdLife Cyprus institutional page actually opened/read.",
+          "design_boundary": "Cool gray-brown adults near equal standing height; female subtly fuller only; retain legitimate scapular and flight/tail bars. Use fully supported photographed-stage fledgling with formed barred wing/tail in olive grove; exact age and fine geometry unknown.",
+          "full_prompt_saved": "owl-pet/research/species/111-otus-cyprius-v3.md",
+          "generated_source_png_sha256": "0fb75105a09afb5324a647f1695812a210ad781c6579e5055503c60af8eff956",
+          "generated_source_png_bytes": 3087078,
+          "generation_elapsed_seconds": 78,
+          "generation_elapsed_note": "Observed imagegen call wait from the original invocation; not provider telemetry.",
+          "review_result": "PASS_WITH_LIMITATIONS after one targeted edit",
           "review_viewed": "initial and edited 1536x1024 originals plus 680x453 concept derivative",
-          "edit": "Replaced regular scallop/teardrop/U rows with irregular shaft streaks and broken vermiculation while preserving both adult pale wing bands and the juvenile defensive wing fan.",
-          "reviewed_source_png_sha256": "85e917dd5896b5482ed639931c631ea0444e8d2da0a6577e95ab78a8276ea8da",
-          "reviewed_source_png_bytes": 3037091,
-          "reviewed_master": "owl-pet/production/assets/2026-10-27T2126+0800-cycle-4/reviewed-master.jpg",
-          "reviewed_master_sha256": "c700b7597a25460a717ac27769eb2466dda766a276474cc3a33f5aa15f65ffc3",
-          "reviewed_master_bytes": 448450,
-          "edit_wait_seconds": 52.7,
+          "edit": "Reduced repeated adult crown/face bead rows and shortened/softened the supported fledgling folded wing while retaining formed barred remiges/tail.",
+          "edit_wait_seconds": 126.3,
+          "reviewed_source_png_sha256": "9713edbc33692227753748c32ffc518c810e9ae50b5010818887a930ef778349",
+          "reviewed_source_png_bytes": 2956850,
+          "concept_path": "owl-pet/design/concepts/111-otus-cyprius-v3.png",
+          "concept_sha256": "fef79ef15ea1c12caaf197aaacc79d69bfed149d250d138fc5adec2f41622277",
+          "concept_bytes": 664414,
+          "concept_dimensions": "680x453",
+          "generated_master": "owl-pet/production/assets/2026-10-27T2126+0800-cycle-5/generated-master.jpg",
+          "generated_master_sha256": "f1a8097293582c8422cb27ac5e51b440c6cf8854f92b62052962cfdfce16c9ba",
+          "generated_master_bytes": 486765,
+          "generated_master_blob": "3018c67fcfd34553ca4e1e8f67f15801ef12c609",
+          "reviewed_master": "owl-pet/production/assets/2026-10-27T2126+0800-cycle-5/reviewed-master.jpg",
+          "reviewed_master_sha256": "c938f40849e5da685ed755caa8447ea85185791270c84432df2349910ac9d148",
+          "reviewed_master_bytes": 461706,
+          "reviewed_master_blob": "0b599ec95846136e8395420705f5ca7ce3842703",
           "remaining_unknowns": [
             "exact fledgling age",
             "continuous feather sequence",
-            "exact feather-by-feather map",
-            "sexed linear dimensions",
-            "individual/geographic variation"
+            "exact bar spacing",
+            "sex-specific linear dimensions",
+            "residual stylized plumage regularity"
           ],
-          "concept_path": "owl-pet/design/concepts/118-megascops-cooperi-v4.png",
-          "concept_sha256": "f25d4c6c9f2a578bbc76eaeecc3bbdfcc503374f0307a1255a690bf32a3f4c0c",
-          "concept_bytes": 681755,
-          "concept_dimensions": "680x453",
-          "reviewed_master_blob": "f7b9dfc8ac62610a0f817399c39840c8f00b44d9",
-          "manifest_versions_before": 422,
-          "manifest_versions_after": 423,
-          "archive_commit": "e07603dae6e3cc9e6b54b10c12aa810d43ce5c31",
+          "manifest_versions_before": 423,
+          "manifest_versions_after": 424,
+          "archive_commit": "1e07f2d232c8557878167badae7b59108dd034be",
           "independent_readback": "PASS",
-          "verified_concept_blob": "ac37754086ca3feaa2e83fa4294ee17a227e18e0",
-          "verified_reviewed_master_blob": "f7b9dfc8ac62610a0f817399c39840c8f00b44d9",
-          "verified_generated_master_blob": "4dee3d5cc6de9a1e7c0509475b74685c7bf552c4",
-          "verified_manifest_versions": 423
+          "verified_concept_blob": "30d7d0f312da0f1ae0ce3bda4dd26baaa0804679",
+          "verified_generated_master_blob": "3018c67fcfd34553ca4e1e8f67f15801ef12c609",
+          "verified_reviewed_master_blob": "0b599ec95846136e8395420705f5ca7ce3842703"
         }
       },
-      "last_updated_at": "2026-10-27T22:57:10.000+08:00",
+      "last_updated_at": "2026-10-27T23:42:55.731+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
@@ -4903,7 +4901,8 @@
         "2026-10-27T22:52:59.000+08:00: cycle4 IMAGE_GENERATED #118 v4. Source PNG 1536x1024, 3,124,020 bytes, SHA-256 7c8aa73463204e5a2edebbda2584bdd3bb6cc09f2f6b58cf9a758d4a9ba57da6; durable full-dimension JPEG 471,338 bytes, SHA-256 be43d91f13d9b9460dde82499742a22792ba01aabb3b19341af902e1faa89007. Generation wait 126.5 s observed including yielded wait, not provider telemetry. Original-detail review pending.",
         "2026-10-27T22:55:06.000+08:00: cycle4 REVIEWED #118 v4 after one texture-only edit. Adult chest/crown and juvenile chest repeated tiles reduced to irregular shaft/vermiculation/fine-bar pattern; both true adult pale bands, natural prominent tufts, ground defensive wing fan and all support contacts preserved. Initial/edited 1536x1024 and 680x453 derivative viewed. Fine crown map remains stylized/unknown; science false.",
         "2026-10-27T22:57:00.000+08:00: cycle4 ARCHIVED checkpoint prepared #118 v4. Concept 680x453 PNG SHA-256 f25d4c6c9f2a578bbc76eaeecc3bbdfcc503374f0307a1255a690bf32a3f4c0c; full reviewed master blob f7b9dfc8ac62610a0f817399c39840c8f00b44d9. Manifest 422→423; unique174/251; science false. Readback pending.",
-        "2026-10-27T22:57:10.000+08:00: cycle4 VERIFIED #118 Megascops cooperi v4 at archive e07603dae6e3cc9e6b54b10c12aa810d43ce5c31. Commit-pinned tree maps concept ac37754086ca3feaa2e83fa4294ee17a227e18e0, reviewed master f7b9dfc8ac62610a0f817399c39840c8f00b44d9, generated master 4dee3d5cc6de9a1e7c0509475b74685c7bf552c4; manifest/run/species/research/status passed. Manifest423; unique174/251; sciencefalse. Lease released; next_cycle5."
+        "2026-10-27T22:57:10.000+08:00: cycle4 VERIFIED #118 Megascops cooperi v4 at archive e07603dae6e3cc9e6b54b10c12aa810d43ce5c31. Commit-pinned tree maps concept ac37754086ca3feaa2e83fa4294ee17a227e18e0, reviewed master f7b9dfc8ac62610a0f817399c39840c8f00b44d9, generated master 4dee3d5cc6de9a1e7c0509475b74685c7bf552c4; manifest/run/species/research/status passed. Manifest423; unique174/251; sciencefalse. Lease released; next_cycle5.",
+        "2026-10-27T23:42:55.731+08:00: cycle5 VERIFIED #111 Otus cyprius v3 at archive 1e07f2d232c8557878167badae7b59108dd034be. Commit-pinned concept/generated/reviewed blobs and byte counts plus manifest/run/research/batch readback passed; manifest424; unique174/251; sciencefalse. Lease released; next_cycle6."
       ]
     }
   ],
@@ -4989,7 +4988,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T15:41:24.274Z",
+  "updated_at": "2026-10-27T23:42:55.731+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4997,13 +4996,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "2026-10-27T2126+0800-cycle-5",
-    "heartbeat_at": "2026-10-27T15:41:24.274Z",
-    "expires_at": "2026-10-27T15:56:24.274Z"
-  },
-  "last_updated_at": "2026-10-27T15:41:24.274Z",
+  "active_lease": null,
+  "last_updated_at": "2026-10-27T23:42:55.731+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

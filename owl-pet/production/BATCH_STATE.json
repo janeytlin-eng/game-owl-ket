@@ -5062,8 +5062,8 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "2026-10-28T0230+0800-cycle-5",
-        "heartbeat_at": "2026-10-28T04:56:30.000+08:00",
-        "expires_at": "2026-10-28T05:11:30.000+08:00"
+        "heartbeat_at": "2026-10-28T04:58:00.000+08:00",
+        "expires_at": "2026-10-28T05:13:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -5071,17 +5071,25 @@
         "species": "#188 Otus semitorques",
         "version": 1,
         "action": "NEW",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T04:56:30.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T04:58:00.000+08:00",
         "evidence": {
-          "generated_master_blob": "0c49cc058c6d305383c913ba53a8d72c28891c26",
+          "reviewed_master_blob": "71c009aa89b13ea84e47c2626235d377c22d2c36",
+          "sha256": "4bec66ea6411813df9235dbd0242b21a45981a7a62080ffc9c0a3f3473ba8607",
           "dimensions": "1536x1024",
-          "generation_seconds": 29.4,
-          "inspection": "Exact title/subtitle/labels, exactly three birds, red-eyed near-equal adults and branch support pass. Juvenile has overly adult-like long hard wing feathers; one targeted edit required.",
+          "bytes": 446879,
+          "edit_count": 1,
+          "review": "Exact title/subtitle/labels and exactly three birds pass. Adults near-equal with red eyes and natural support. Edited juvenile now has fluffy pale mesoptile, yellowish eyes, compact short wing/tail and two-foot support. Cavity is background only.",
+          "unknowns": [
+            "exact juvenile age",
+            "flight threshold",
+            "continuous remex/tail development",
+            "quantitative sexual size dimorphism"
+          ],
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T04:56:30.000+08:00",
+      "last_updated_at": "2026-10-28T04:58:00.000+08:00",
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49.",
@@ -5103,15 +5111,16 @@
         "2026-10-28T04:48:00.000+08:00: cycle4 VERIFIED #184 Otus spilocephalus hambroecki v1 at archive 1055aafeee33cef4a1bb09a9c3f96a7caa29ff79; concept/generated/reviewed plus manifest/source/card/run/state/STATUS read back by immutable SHA. Unique 179/251; next_cycle5; lease released. Science false.",
         "2026-10-28T04:53:00.000+08:00: cycle5 STARTED #188 Otus semitorques v1 after manifest audit found no species entry. Duplicate #185 O. bakkamoena/#186 O. sunia skipped; #180–183 retained as juvenile-evidence gaps. Mikkola printed p.158/PDF160 accessible; lease acquired.",
         "2026-10-28T04:55:00.000+08:00: cycle5 #188 Otus semitorques v1 RESEARCH_READY; 4 verified sources read/indexed. Mikkola p.158/PDF160 and Bazdyrev juvenile pixels viewed; Matsumiya et al. 2023 PDF and Avibase crosswalk read. Full prompt persisted; science false; lease renewed.",
-        "2026-10-28T04:56:30.000+08:00: cycle5 #188 IMAGE_GENERATED; 1536x1024 initial master 0c49cc058c6d305383c913ba53a8d72c28891c26 persisted after 29.4s. Exact text/count, adult eyes/scale and support pass; juvenile wing remiges/tail too adult-like, one targeted edit required. Lease renewed."
+        "2026-10-28T04:56:30.000+08:00: cycle5 #188 IMAGE_GENERATED; 1536x1024 initial master 0c49cc058c6d305383c913ba53a8d72c28891c26 persisted after 29.4s. Exact text/count, adult eyes/scale and support pass; juvenile wing remiges/tail too adult-like, one targeted edit required. Lease renewed.",
+        "2026-10-28T04:58:00.000+08:00: cycle5 #188 REVIEWED after one targeted juvenile-wing/tail edit. Final 1536x1024 master 71c009aa89b13ea84e47c2626235d377c22d2c36, SHA256 4bec66ea…, 446879 bytes; exact text/count, near-equal red-eyed adults, fluffy yellow-eyed short-winged juvenile and two-foot support pass. Science false; lease renewed."
       ],
       "checkpoint": {
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species_id": 188,
         "species": "Otus semitorques",
         "version": 1,
         "action": "NEW",
-        "at": "2026-10-28T04:56:30.000+08:00",
+        "at": "2026-10-28T04:58:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-5.md",
         "scientifically_verified": false
       }

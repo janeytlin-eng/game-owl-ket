@@ -1113,3 +1113,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-28T02:26:23.000+08:00 — Verified #175 *Otus ireneae* v1 archive `f5f9940c02e8b9f649405be702ef0a963de099a3` by commit-pinned asset and metadata readback; unique total 175/251 and batch closed 6/6 COMPLETE.
 
 - 2026-10-28T05:19:16.081+08:00 — Verified #195 *Otus brookii solokensis* v1 archive `f898fb66e5473fb0c2c36c53155082ea9b0bad83` by commit-pinned image and metadata readback; unique total 182/251; batch 1/6, next cycle 2. Scientific verification remains false.
+
+- 2026-10-28T05:28:28.928+08:00 — Verified #197 *Otus megalotis* v1 archive `499624e816c66112affc85f4168b927199777fcd` by commit-pinned image and metadata readback; corrected one research-card reviewed-PNG hash transcription before cycle credit. Unique total 183/251; batch 2/6, next cycle 3. Science false.

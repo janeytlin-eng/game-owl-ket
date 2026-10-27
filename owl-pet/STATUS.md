@@ -1686,3 +1686,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/197-otus-megalotis-v1.png](design/concepts/197-otus-megalotis-v1.png)
 - Research: 4 new stable source IDs; Mikkola printed p.170/PDF p.172, Miranda et al. primary-study abstract, Cornell split history, and a Rizal owlet field-photo page/pixels were read/viewed with limits.
 - Review: one targeted edit shortened/rounded/softened an overly adult-like juvenile wing while retaining a formed folded wing supported by the photographed older stage. Exact text/count, adult rufous morph, modest female fullness, warm adult eyes, fine-barred juvenile and two-foot support pass. Exact age, iris chronology, flight ability, feather sequence and nest geometry remain unknown. Science false; immutable readback pending.
+
+
+- 2026-10-28T05:28:28.928+08:00 — #197 *Otus megalotis* v1 independently verified at archive `499624e816c66112affc85f4168b927199777fcd`; concept `8be1c0c0…`, generated `1f85b906…`, reviewed `ebccd250…`, plus manifest/source/card/run/state/STATUS read back. Unique total **183/251**; batch **2/6**, next cycle 3. Science false.

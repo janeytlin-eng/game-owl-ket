@@ -32,7 +32,14 @@ Avoid: Otus everetti or Otus nigrorum traits; Rajah Scops Owl white inner tufts/
 
 ## Production result
 - IMAGE_GENERATED: source PNG SHA-256 `914c98d601f5982e9a72d29f8a0a2d303e525be2519dca196482abfef45cd7dd`; durable generated JPEG blob `1f85b9062b095a780942ae451c488a598dc9f7ea`.
-- REVIEWED: one targeted juvenile-wing edit; reviewed source PNG SHA-256 `1754db7dfe7108dd6c1d22712a4d3355c6dd98fe9c600ed7165bedb7eacd386d8`; durable reviewed JPEG blob `ebccd25029b89be7a5cde52ea1c4f4712a45628e`.
+- REVIEWED: one targeted juvenile-wing edit; reviewed source PNG SHA-256 `1754db7dfe710b2d53b4e7e5e52889b25b94197fa3bba2419be9ab40f23e111a`; durable reviewed JPEG blob `ebccd25029b89be7a5cde52ea1c4f4712a45628e`.
 - Concept: 680×453 sRGB, 688,003 bytes, SHA-256 `ce9263f99decfcb6dfd71e79aa5614d0336886afb6d4c9ca20128c6c86bc48f8`, Git blob `8be1c0c0982451007910b76da4e5347654bde9ce`.
 - Review: PASS_WITH_LIMITATIONS; science false.
 - Immutable archive readback: pending.
+
+## Immutable archive verification — 2026-10-28T05:28:28.928+08:00
+
+- Archive commit: `499624e816c66112affc85f4168b927199777fcd`.
+- Commit-pinned paths map concept to `8be1c0c0982451007910b76da4e5347654bde9ce`, generated to `1f85b9062b095a780942ae451c488a598dc9f7ea`, and reviewed to `ebccd25029b89be7a5cde52ea1c4f4712a45628e`; manifest (439 entries), source index, card, run, state and STATUS readback passed.
+- The reviewed source PNG hash transcription was corrected to `1754db7dfe710b2d53b4e7e5e52889b25b94197fa3bba2419be9ab40f23e111a`; no image or stage decision changed.
+- Scientific verification remains false for the documented unknowns.

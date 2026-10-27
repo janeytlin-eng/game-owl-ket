@@ -1,3 +1,9 @@
+## 2026-10-27 — #120 *Megascops ingens* v3
+
+- Revised Rufescent Screech-Owl after fully reading the 2022 first-chick/nest paper (printed pp.301–304/Figure 1) and uploaded Mikkola guide p.229; unique species remains 174/251.
+- Two targeted edits changed the juvenile from a complete adult-like wing to source-bounded developed barred remiges under natal down, then reduced adult tufts/darkened irises/softened repeated motifs.
+- Full 1536×1024 reviewed master and 680×453 PNG concept were actually viewed. Science remains false; exact age within the authors' estimate and detailed variation remain unknown.
+
 ## 2026-10-27 — #145 *Ninox philippensis* v2
 
 - Revised Luzon Boobook with newly recovered Mikkola p.473 fledgling evidence; unique remains 163/251.

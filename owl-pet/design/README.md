@@ -1393,3 +1393,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Initial master made the right female read slightly smaller. One targeted edit made only the female subtly fuller/larger; edited master and 680×453 derivative were actually viewed and passed.
 - Existing v1–v3 and v1 approval remain preserved. Exact juvenile age, regional plumage, continuous feather sequence and measured sex ratio remain unknown; science pending.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../knowledge/species/08-strix-nebulosa.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-5.md)
+
+
+### #120 Rufescent Screech-Owl · *Megascops ingens* · v3
+
+- [120-megascops-ingens-v3.png](concepts/120-megascops-ingens-v3.png) — adult male, author-estimated 20–30-day juvenile and adult female on a dead-stump cavity at a southeastern Ecuador lower-montane forest edge.
+- Primary paper pp.301–304/Figure 1 and Mikkola printed p.229 were reread/viewed. Two targeted edits bounded the juvenile's developed barred remiges under natal down, shortened adult tufts, darkened irises and softened repeated decorative patterning.
+- Existing v1–v2 and historical user records remain preserved. Exact age within the authors' estimate, continuous feather sequence, individual/subspecies variation and quantitative sex dimorphism remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/120-megascops-ingens-v3.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-3.md)

@@ -1495,3 +1495,12 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 ## 2026-10-27 — #119 *Megascops centralis* v3
 - SCIENCE_REVISION ARCHIVED; readback pending; unique 174/251. Initial repeated juvenile arcs failed; one edit passed with irregular sparse fine marks, formed barred wings and support retained. New0/reused3/corrected0; science false. [Image](design/concepts/119-megascops-centralis-v3.png) · [run](production/runs/2026-10-27T2126+0800-cycle-2.md)
+
+
+## 2026-10-27 — #120 Rufescent Screech-Owl · *Megascops ingens* v3
+
+- Result: SCIENCE_REVISION concept ARCHIVED; independent commit-pinned readback pending. Unique archived species remains 174/251; manifest versions 421→422.
+- Image: [design/concepts/120-megascops-ingens-v3.png](design/concepts/120-megascops-ingens-v3.png); full 1536×1024 reviewed master: [production/assets/2026-10-27T2126+0800-cycle-3/reviewed-master.jpg](production/assets/2026-10-27T2126+0800-cycle-3/reviewed-master.jpg).
+- Research: 1 new, 2 reused and 1 corrected source entry. Primary paper pp.301–304/Figure 1 and Mikkola printed p.229 were actually read/viewed.
+- Review: two targeted edits corrected the adult-like juvenile wing, large adult tufts, bright irises and mechanical pattern repetition while preserving documented formed barred juvenile remiges. Exact age within 20–30 days and detailed variation remain unknown; science false.
+- Run: [production/runs/2026-10-27T2126+0800-cycle-3.md](production/runs/2026-10-27T2126+0800-cycle-3.md)

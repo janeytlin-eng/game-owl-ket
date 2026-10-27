@@ -4947,8 +4947,8 @@
         "species": "#162 Glaucidium hoskinsii",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T01:55:16.125+08:00",
-        "expires_at": "2026-10-28T02:10:16.125+08:00"
+        "heartbeat_at": "2026-10-28T01:56:07.411+08:00",
+        "expires_at": "2026-10-28T02:11:07.411+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -4956,15 +4956,30 @@
         "species": "#162 Glaucidium hoskinsii",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T01:55:16.125+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T01:56:07.411+08:00",
         "evidence": {
-          "v1_path": "owl-pet/design/concepts/162-glaucidium-hoskinsii-v1.png",
-          "visual_issue": "v1 research card marks near-fledging chick iris unknown, but image gives the chick the same bright adult-yellow iris; this is an unsupported fact claim",
+          "new_sources": [
+            "BAJA-COMMONS-KNIGHT-2010"
+          ],
+          "reused_sources": [
+            "BAPO-FLORES-MARRON-2025",
+            "BAPO-IOC-2026",
+            "BAPO-MIKKOLA-2013"
+          ],
+          "source_counts": {
+            "new": 1,
+            "reused": 3,
+            "corrected": 1
+          },
+          "correction": "v1 rendered unknown chick iris as adult-yellow; v2 uses neutral shaded uncertainty without claiming a real iris colour",
+          "tool_limit": "cloud browser became unavailable after v1 original-resolution visual inspection, so v2 will be a full rebuild rather than a direct image edit",
+          "full_imagegen_prompt": "Create a polished 3:2 landscape zoological concept plate in the repository's established warm painterly-realistic owl-pet style. Exact title: “BAJA PYGMY OWL — Glaucidium hoskinsii”. Exactly three birds, no extras. Exact labels: left “ADULT MALE”, center “NEAR-FLEDGING CHICK”, right “ADULT FEMALE”.\n\nUse one continuous low-elevation Cape Tropical Scrub scene in southern Baja California: a real Mexican fan palm Washingtonia robusta with a natural cavity entrance, dry warm daylight, restrained Mexican ebony foliage and distant cactus. No generic pine forest, no fabricated nest box, no split panels.\n\nAdults: tiny 15–17 cm compact pygmy owls with round untufted heads, weak facial discs, whitish eyebrows, bright yellow adult eyes, greenish-yellow bills, sandy gray to subtly reddish upperparts, finely irregular whitish crown spots, restrained pale back marks, off-white underparts with soft gray-brown mottling/streaking, short thin-barred tails, feathered legs and natural gripping toes. Adults near-equal in standing height; female only subtly fuller and slightly warmer, never a fixed exaggerated ratio.\n\nCenter chick: the evidence-bounded near-fledged young observed at a palm-cavity entrance. It is very fluffy gray-brown with pale eyebrow/face patches, a short rounded soft developing folded wing, short or hidden tail, and belly plus both feet fully supported on the cavity floor/rim. IMPORTANT: exact juvenile iris colour is unknown in the sources read. Present the chick's eyes softly shaded neutral dark brown to gray-amber, not bright adult-yellow and not as a claimed fixed real colour. No crisp adult crown/wing spot rows, no long hard layered remiges, no flight pose or unsupported stance.\n\nAll birds fully visible with two eyes, one bill, two legs/feet, anatomically natural grips and distinct silhouettes. Natural irregular markings, no cloned symmetry, no prey, no logos, no watermarks, no text beyond the exact title and labels.",
+          "scientifically_verified": false,
           "credit": false
         }
       },
-      "last_updated_at": "2026-10-28T01:55:16.125+08:00",
+      "last_updated_at": "2026-10-28T01:56:07.411+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -4987,7 +5002,8 @@
         "2026-10-28T01:51:28.000+08:00: cycle4 #164 v2 REVIEWED PASS after one targeted juvenile-wing edit. Original-resolution recheck confirms short round soft wing, concealed tail, neutral shaded juvenile eye, full support, exact text/count and adult identity; science false; lease renewed.",
         "2026-10-28T01:52:33.054+08:00: cycle4 #164 Strix hadorami v2 ARCHIVED tree prepared: concept/reviewed path share blob c7197a773a59aec5eb8718d9ec4a74d081939ee5; generated blob a5fb70176c691d42125ef47f1ec3b718d7a77bd5; manifest 428→429; unique remains 174/251; independent readback pending. Stage timestamps normalized to GitHub commit times.",
         "2026-10-28T01:53:10.218+08:00: cycle4 #164 Strix hadorami v2 VERIFIED against archive a84179462391b8a7667aa5bcac6c6a8e297ec20e; complete untruncated tree, blob/path, manifest, source, card, run and batch readback passed. Unique remains 174/251; next_cycle5; lease released.",
-        "2026-10-28T01:55:16.125+08:00: cycle5 STARTED #162 Glaucidium hoskinsii v2 SCIENCE_REVISION after actual v1 original-resolution review found bright adult-yellow chick iris despite repository evidence marking juvenile iris unknown. Lease expires 2026-10-28T02:10:16.125+08:00."
+        "2026-10-28T01:55:16.125+08:00: cycle5 STARTED #162 Glaucidium hoskinsii v2 SCIENCE_REVISION after actual v1 original-resolution review found bright adult-yellow chick iris despite repository evidence marking juvenile iris unknown. Lease expires 2026-10-28T02:10:16.125+08:00.",
+        "2026-10-28T01:56:07.411+08:00: cycle5 #162 v2 RESEARCH_READY; primary 2025 nest article and IOC/Mikkola reused, one licensed adult field photograph added, one unsupported chick-iris inference corrected. Browser became unavailable after actual v1 inspection, so v2 will be a full rebuild rather than a direct edit. Lease renewed to 2026-10-28T02:11:07.411+08:00."
       ]
     }
   ],

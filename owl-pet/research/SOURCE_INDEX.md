@@ -4206,3 +4206,20 @@ Reused source IDs: `TMO-MIKKOLA-2013-P110`, `TMO-ABSA-2019-P2`, and `TMO-AUSMUSE
 - Links: [species card](species/164-strix-hadorami.md#v2-science-revision--2026-10-28) · [run](../production/runs/2026-10-28T0029+0800-cycle-4.md)
 
 Reused source IDs after fresh review: `DEOW-MIKKOLA-2013-P318` (printed pp.318–319 / uploaded PDF pp.320–321), `DEOW-KIRWAN-2015`, `DEOW-IOC-2015-SPLIT`, and `DEOW-EBIRD-2026`. The old-name mapping remains explicit: Mikkola’s widespread-population account under historical *S. butleri* applies to current *S. hadorami*, not the current Omani Owl. Scientific verification remains false.
+
+
+## 2026-10-28 — #162 Baja Pygmy Owl · *Glaucidium hoskinsii* v2 science revision
+
+### BAJA-COMMONS-KNIGHT-2010
+- Title/source: “Baja Pygmy Owl (*Glaucidium hoskinsii*) (8079381167)”
+- Photographer: Ron Knight (Flickr user sussexbirder); Wikimedia Commons import
+- Date/location: photographed 2010-03-12, Sierra de la Laguna, Baja California
+- Original URL: https://commons.wikimedia.org/wiki/File:Baja_Pygmy_Owl_(Glaucidium_hoskinsii)_(8079381167).jpg
+- Accessed/read/viewed: 2026-10-28; file page, preview and metadata opened.
+- Type / taxon / stage: licensed field photograph; adult *G. hoskinsii*.
+- Verified value: visual adult cross-check for compact untufted silhouette, yellow adult eye, yellow-green bill and finely irregular pale head/upperpart marks in the correct region.
+- Limits/confidence: one adult field image; no sex, chick, iris chronology, nest or developmental evidence. Medium visual confidence only. It cannot be transferred to the near-fledged chick.
+- Design decision: adults retain species identity; the chick's unknown iris is deliberately not copied from the photographed adult.
+- Links: [species card](species/162-glaucidium-hoskinsii.md#v2-science-revision--2026-10-28) · [run](../production/runs/2026-10-28T0029+0800-cycle-5.md)
+
+Reused after fresh review: `BAPO-FLORES-MARRON-2025` (official article/DOI, printed pp.228–230 and Fig.2 already viewed in the repository record), `BAPO-MIKKOLA-2013` and `BAPO-IOC-2026`. The primary nest record supports a near-fledged, palm-cavity-supported chick but does not state iris colour. v1’s bright adult-yellow chick iris is therefore a corrected design inference, not a newly discovered dark-iris fact. Scientific verification remains false.

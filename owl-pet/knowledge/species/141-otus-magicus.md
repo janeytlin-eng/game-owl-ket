@@ -10,3 +10,13 @@ Pendinggeneration; no uniqueincrement untilverified.
 ## VERIFIED 2026-10-19T05:41:01.763Z
 141-otus-magicus-v1 NEW actual generated/edited/viewed; young covertspots reduced and diffusehead/bodybars, formedwing/supportretained, adultgrayblackbills corrected. Juvenilebilldarkening/sexdisplayheight/warmtone/footextent/preciseage remainunknown sciencefalse. Archived 6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97; independentimmutable remote fullPNG1536x1024,2874184bytes SHA2566e2a8f76796ba029dc1f25a1d3924e108d9fdbd2edb77127bde0de00d7b40327 Gitblob77a5450861bcab718c00051b52e65f9d810fd5a1 local==remote. Unique139/251. Sources3newexternalIDs +1newsectionofexistingMikkolabook; no biologicalsciencepass.
 [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97/owl-pet/design/concepts/141-otus-magicus-v1.png) [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md)
+
+
+## v2 revision research — 2026-10-27T14:38:47.892+08:00
+
+- New source: `MAG-AVIBASE-BHL-1841` records Müller 1841, protonym *Strix magica*, and type locality Amboina; nomenclature only, not morphology.
+- Reused evidence: Mikkola pp.189–190, Keulemans/Sharpe 1875 plate, Owl Pages, and Clements 2013 taxonomic boundary.
+- Revision boundary: adults shown at essentially equal height; gray/rufous variation is not assigned to sex. Center bird is an age-unknown older feathered juvenile: fluffier, narrow soft head/crown/neck bars, fainter body spotting, short soft folded wings, supported rest. Non-nesting lowland Halmahera forest-edge branch.
+- Unknown and not invented: exact juvenile age/iris/flight/bill colour, sex ratio, quantified dimorphism, nest form, continuous feather sequence.
+- Full generation prompt is preserved in [run 2026-10-27T1335+0800-cycle-3](../../production/runs/2026-10-27T1335+0800-cycle-3.md).
+- Science status remains false until specialist review.

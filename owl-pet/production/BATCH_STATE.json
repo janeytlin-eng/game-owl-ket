@@ -4781,31 +4781,40 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T2126+0800-cycle-1",
-        "heartbeat_at": "2026-10-27T21:27:00.000+08:00",
-        "expires_at": "2026-10-27T21:42:00.000+08:00"
+        "heartbeat_at": "2026-10-27T21:31:00.000+08:00",
+        "expires_at": "2026-10-27T21:46:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
         "run_id": "2026-10-27T2126+0800-cycle-1",
-        "species": "#117 Otus manadensis",
-        "version": 4,
+        "species": "#116 Margarobyas lawrencii",
+        "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-27T21:27:00.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-27T21:31:00.000+08:00",
         "evidence": {
-          "main_head": "9547887bdea5de02709cdb6311c5b7dffb4841f0",
-          "candidate_reason": "latest v3 still records residual repetitive juvenile wing-edge scallop geometry; #109 was rejected as already resolved by v8",
-          "preserved_versions": [
-            "v1",
-            "v2",
-            "v3"
+          "preflight_correction": "The STARTED candidate #117 v4 was stale: main already contains #117 v8, archived and independently verified at 35d48a0b45817c14dbab044e28957bfeafde7e0c. No #117 image was generated.",
+          "target_reason": "#116 v2 manifest/card explicitly retain faint bright ivory teardrop-like crown tips as a priority scientific-calibration item.",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids_reused": [
+            "CBLO-MIK2013-252",
+            "CBLO-SHERONY-2006",
+            "CBLO-SHARP-2016",
+            "CBLO-BOUGLOUAN-CARD",
+            "CBLO-AOU-2013A11"
           ],
-          "unique_species_total": 174
+          "source_ids_new": [],
+          "source_ids_corrected": [],
+          "uploaded_guide_attempt": "Library file was accessible, but pages 254-255 returned no readable content in pages mode; prior actually-read indexed transcription was reused and no new page-reading claim is made.",
+          "external_research": "Fresh web search/read included Smithsonian repository metadata for Olson & Suarez 2008, AOS proposal, BirdsCaribbean adult account, Commons/field-photo leads; no new morphology fact exceeded existing indexed evidence, so deduplicated rather than adding a duplicate source ID.",
+          "unique_species_total": 174,
+          "full_prompt_saved": "owl-pet/research/species/116-margarobyas-lawrencii-v3.md"
         }
       },
-      "last_updated_at": "2026-10-27T21:27:00.000+08:00",
+      "last_updated_at": "2026-10-27T21:31:00.000+08:00",
       "audit_notes": [
-        "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00."
+        "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
+        "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00."
       ]
     }
   ],

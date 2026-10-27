@@ -873,3 +873,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added first project concept for Minahasa Masked-Owl, increasing archived unique species from 159 to 160 of the fixed 251-species scope.
 - Added 4 source records and a species research card. The first render's juvenile wing was too adult-patterned; one targeted image edit retained a formed dependent-fledgling wing while reducing crisp white rows and hard primary layering.
 - The taxonomy/name is current IOC usage; exact juvenile age, iris development, feather sequence, flight threshold, nest geometry and measured sex ratio remain unknown. `scientifically_verified=false`.
+
+## 2026-10-27 — #161 *Ketupa blakistoni* v1
+
+- Added the first project concept for Blakiston's Fish Owl, increasing archived unique species from 160 to 161 of the fixed 251-species scope.
+- Added three source records with explicit *Bubo blakistoni* → *Ketupa blakistoni* mapping; used Hayashi's approximately 50-day nestling photo/account and Mikkola pp.296–297 to bound the late-nestling design.
+- One targeted edit reduced adult-like juvenile wing spotting and hard remige layering while retaining a stage-plausible formed wing and full cavity support. Exact flight/feather chronology and quantified universal sex ratio remain unknown; `scientifically_verified=false`.

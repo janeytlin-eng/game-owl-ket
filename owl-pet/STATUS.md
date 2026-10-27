@@ -1,3 +1,12 @@
+## 2026-10-27 #161 *Ketupa blakistoni* v1
+
+- Result: NEW concept archived; unique species rises 160→161/251.
+- Image: [design/concepts/161-ketupa-blakistoni-v1.png](design/concepts/161-ketupa-blakistoni-v1.png)
+- Git blob `7922f6b6029ee281a2b18a40ce5a4893ce80b042`; 1536×1024; 710,627 bytes; SHA-256 `30c01be0c27b56120f5393fb5039205813f9bea9ec5ed05ca9378d9f64709ab4`.
+- Research: 3 new indexed sources—IOC current/old genus mapping, Hayashi/Japan Bird Research adult-habitat-nest and approximately 50-day nestling evidence, and Mikkola pp.296–297.
+- Review: first output's center wing was too crisply adult-patterned; one targeted edit retained a formed near-fledging wing while making it shorter, rounder, softer and more mesoptile-covered. Exactly three supported birds, labels, adult identity and female-fuller direction passed. Exact flight, continuous juvenile feather sequence, quantified universal sex ratio and subspecies/individual palette remain unknown; `scientifically_verified=false`.
+- Run: [production/runs/2026-10-27T1034+0800-cycle-2.md](production/runs/2026-10-27T1034+0800-cycle-2.md)
+
 ## 2026-10-27 #139 *Otus jolandae* v2
 
 - Result: revised and archived; unique species remains 159/251.

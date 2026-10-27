@@ -1,3 +1,10 @@
+## 161 · Blakiston's Fish Owl · *Ketupa blakistoni* v1
+
+- [Original PNG](concepts/161-ketupa-blakistoni-v1.png) · 1536×1024 · 710,627 bytes · SHA-256 `30c01be0c27b56120f5393fb5039205813f9bea9ec5ed05ca9378d9f64709ab4`
+- Git blob: `7922f6b6029ee281a2b18a40ce5a4893ce80b042`
+- NEW concept: adults retain the evidence-supported enormous ear-tufted, yellow-eyed, gray-billed, streaked/cross-barred identity; female is fuller without a fixed height exaggeration. The approximately 50-day nestling is fully cavity-supported and, after one targeted edit, keeps a formed but soft short-rounded wing without crisp adult rows. Science remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#161-blakistons-fish-owl--ketupa-blakistoni--2026-10-27) · [cycle record](../production/runs/2026-10-27T1034+0800-cycle-2.md)
+
 ## 139-otus-jolandae-v2
 
 - [Original PNG](concepts/139-otus-jolandae-v2.png) · 1536×1024 · 541,426 bytes · SHA-256 `16883ef01d913a70810d0c17e6df9502a29192ce91dc34c8cbbdfa8a6908c26f`

@@ -63,3 +63,7 @@ Avoid: nest boxes, visible nest cavity, eggs, prey, extra birds, dense regular c
 - Commit-pinned readback: concept/generated/reviewed blobs, manifest entry, source index IDs, research card, run record and batch checkpoint all passed.
 - Verified: 2026-10-28T02:26:23.000+08:00
 - Scientific status remains false.
+
+## Timing evidence
+
+GitHub commit-time normalization: STARTED 02:06:20; RESEARCH_READY 02:07:48; IMAGE_GENERATED asset 02:09:34; REVIEWED asset 02:24:18; ARCHIVED 02:25:45; VERIFIED 02:26:29 (+08:00). The main bottleneck was a documented 12m50s environment-handoff gap after the generated master was already durable; generation and edit calls themselves were 50.4s and 38.8s. This correction changes no image, count, cycle credit or science status.

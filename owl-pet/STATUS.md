@@ -1602,3 +1602,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - ARCHIVED metadata prepared; independent commit-pinned readback pending. Science remains false.
 
 - 2026-10-28T02:26:23.000+08:00 — #175 v1 verified at archive `f5f9940c02e8b9f649405be702ef0a963de099a3`; all three asset paths and expected blobs plus manifest/source/card/run/state were read back at the immutable commit. Unique total is now **175/251**; batch `2026-10-28T0029+0800` closes **6/6 COMPLETE**. Scientific calibration remains pending.
+
+- 2026-10-28T02:28:00.000+08:00 — #175 cycle-6 stage times normalized to GitHub commit evidence; no image, count, cycle-credit or science-status change. Observed bottleneck was an environment switch after generated-asset persistence, not a demonstrated fixed platform timeout.

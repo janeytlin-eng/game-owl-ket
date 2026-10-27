@@ -4176,6 +4176,36 @@
         "2026-10-27T10:58:00.000+08:00: cycle 6 ARCHIVED pending independent readback; concept/generated/reviewed use blob a9bfbb44ec2656cc4f30b6c25b4f941fa2d1887a; indexes/card/workflow updated; lease renewed.",
         "2026-10-27T11:03:00.000+08:00: cycle 6 #139 Otus jolandae v2 fully read back and VERIFIED; three remote image paths match exact blob/size, manifest entry is unique, immutable raw image visibly rendered; unique species remains 159/251; batch closes COMPLETE 6/6; lease released."
       ]
+    },
+    {
+      "batch_id": "2026-10-27T1034+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-owl-production",
+        "run_id": "2026-10-27T1034+0800-cycle-1",
+        "heartbeat_at": "2026-10-27T10:34:00.000+08:00",
+        "expires_at": "2026-10-27T10:49:00.000+08:00",
+        "cycle": 1,
+        "species": "Tyto inexspectata",
+        "species_id": 160
+      },
+      "cycle_checkpoint": {
+        "cycle": 1,
+        "stage": "STARTED",
+        "species": "Tyto inexspectata",
+        "species_id": 160,
+        "version": 1,
+        "run_id": "2026-10-27T1034+0800-cycle-1",
+        "at": "2026-10-27T10:34:00.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-1.md"
+      },
+      "last_updated_at": "2026-10-27T10:34:00.000+08:00",
+      "audit_notes": [
+        "2026-10-27T10:34:00.000+08:00: new batch cycle 1 STARTED for unarchived #160 Tyto inexspectata v1; no prior incomplete batch or active lease. Project scope remains 251. Repository stored timestamps from the preceding batch are ahead of this invocation clock; commit order is authoritative."
+      ]
     }
   ],
   "lease": {
@@ -4271,8 +4301,16 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-27T11:05:00.000+08:00",
+  "active_lease": {
+    "owner": "codex-owl-production",
+    "run_id": "2026-10-27T1034+0800-cycle-1",
+    "heartbeat_at": "2026-10-27T10:34:00.000+08:00",
+    "expires_at": "2026-10-27T10:49:00.000+08:00",
+    "cycle": 1,
+    "species": "Tyto inexspectata",
+    "species_id": 160
+  },
+  "last_updated_at": "2026-10-27T10:34:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -4288,6 +4326,7 @@
     "2026-10-27T05:35:19.806+08:00: started batch 2026-10-27T0533+0800 cycle 1 for #102 Strix nigrolineata v2; 15-minute lease acquired. Previous batch timestamps were ahead of invocation time, so this is an explicit clock-correction audit entry.",
     "2026-10-27T05:44:49.388+08:00: batch 2026-10-27T0533+0800 cycle 1 verified #102 Strix nigrolineata v2; archive 339caef32b2a56c3eddb705a6940a3de2ae7c9d5, blob a8c6883c29ae9c0b55b9547af25a52db9a0588ad. Unique remains 159/251; next_cycle 2.",
     "2026-10-27T05:51:07.487+08:00: batch 2026-10-27T0533+0800 cycle 2 verified #103 Tyto longimembris v2; archive bc1c56a, blob 75c7fcd. Unique remains 159/251; next_cycle 3.",
-    "2026-10-27T11:05:00.000+08:00: cleared expired top-level compatibility lease for completed batch 2026-10-27T0533+0800 cycle 4; no production credit changed. All batch-scoped leases are released and no incomplete batches remain."
+    "2026-10-27T11:05:00.000+08:00: cleared expired top-level compatibility lease for completed batch 2026-10-27T0533+0800 cycle 4; no production credit changed. All batch-scoped leases are released and no incomplete batches remain.",
+    "2026-10-27T10:34:00.000+08:00: started batch 2026-10-27T1034+0800 cycle 1 for #160 Tyto inexspectata v1. #160 is the next unused project number; IOC v15.2 recognizes the taxon and current manifest has no matching archive. Tyto multipunctata remains deferred because the existing source index records unresolved checklist treatment under the fixed 251-species scope."
   ]
 }

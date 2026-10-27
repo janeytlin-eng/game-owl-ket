@@ -4940,29 +4940,31 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 4,
-        "run_id": "2026-10-28T0029+0800-cycle-4",
-        "species": "#164 Strix hadorami",
+      "active_lease": {
+        "cycle": 5,
+        "owner": "codex-root",
+        "run_id": "2026-10-28T0029+0800-cycle-5",
+        "species": "#162 Glaucidium hoskinsii",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T01:53:10.218+08:00",
+        "heartbeat_at": "2026-10-28T01:55:16.125+08:00",
+        "expires_at": "2026-10-28T02:10:16.125+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 5,
+        "run_id": "2026-10-28T0029+0800-cycle-5",
+        "species": "#162 Glaucidium hoskinsii",
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-28T01:55:16.125+08:00",
         "evidence": {
-          "archive_commit": "a84179462391b8a7667aa5bcac6c6a8e297ec20e",
-          "tree_sha": "1949af4cbc53a5bf9b1828be87664ca8e5957f9f",
-          "tree_readback_complete": true,
-          "tree_truncated": false,
-          "concept_blob": "c7197a773a59aec5eb8718d9ec4a74d081939ee5",
-          "generated_blob": "a5fb70176c691d42125ef47f1ec3b718d7a77bd5",
-          "reviewed_blob": "c7197a773a59aec5eb8718d9ec4a74d081939ee5",
-          "manifest_entries": 429,
-          "unique_species_total": 174,
-          "scientifically_verified": false
+          "v1_path": "owl-pet/design/concepts/162-glaucidium-hoskinsii-v1.png",
+          "visual_issue": "v1 research card marks near-fledging chick iris unknown, but image gives the chick the same bright adult-yellow iris; this is an unsupported fact claim",
+          "credit": false
         }
       },
-      "last_updated_at": "2026-10-28T01:53:10.218+08:00",
+      "last_updated_at": "2026-10-28T01:55:16.125+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -4984,7 +4986,8 @@
         "2026-10-28T01:50:02.000+08:00: cycle4 #164 v2 IMAGE_GENERATED; 1536x1024 master persisted. Original-resolution review: title/count/support and neutral juvenile eye pass, but juvenile has long hard adult-barred remiges; targeted imagegen edit required; lease renewed.",
         "2026-10-28T01:51:28.000+08:00: cycle4 #164 v2 REVIEWED PASS after one targeted juvenile-wing edit. Original-resolution recheck confirms short round soft wing, concealed tail, neutral shaded juvenile eye, full support, exact text/count and adult identity; science false; lease renewed.",
         "2026-10-28T01:52:33.054+08:00: cycle4 #164 Strix hadorami v2 ARCHIVED tree prepared: concept/reviewed path share blob c7197a773a59aec5eb8718d9ec4a74d081939ee5; generated blob a5fb70176c691d42125ef47f1ec3b718d7a77bd5; manifest 428→429; unique remains 174/251; independent readback pending. Stage timestamps normalized to GitHub commit times.",
-        "2026-10-28T01:53:10.218+08:00: cycle4 #164 Strix hadorami v2 VERIFIED against archive a84179462391b8a7667aa5bcac6c6a8e297ec20e; complete untruncated tree, blob/path, manifest, source, card, run and batch readback passed. Unique remains 174/251; next_cycle5; lease released."
+        "2026-10-28T01:53:10.218+08:00: cycle4 #164 Strix hadorami v2 VERIFIED against archive a84179462391b8a7667aa5bcac6c6a8e297ec20e; complete untruncated tree, blob/path, manifest, source, card, run and batch readback passed. Unique remains 174/251; next_cycle5; lease released.",
+        "2026-10-28T01:55:16.125+08:00: cycle5 STARTED #162 Glaucidium hoskinsii v2 SCIENCE_REVISION after actual v1 original-resolution review found bright adult-yellow chick iris despite repository evidence marking juvenile iris unknown. Lease expires 2026-10-28T02:10:16.125+08:00."
       ]
     }
   ],

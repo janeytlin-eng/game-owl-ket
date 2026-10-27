@@ -5141,6 +5141,38 @@
         "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-6.md",
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "2026-10-28T0508+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-28T0508+0800-cycle-1",
+        "heartbeat_at": "2026-10-28T05:08:10.000+08:00",
+        "expires_at": "2026-10-28T05:23:10.000+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 1,
+        "run_id": "2026-10-28T0508+0800-cycle-1",
+        "species": "#195 Otus brookii solokensis",
+        "version": 1,
+        "action": "NEW",
+        "stage": "STARTED",
+        "at": "2026-10-28T05:08:10.000+08:00",
+        "evidence": {
+          "main_head_before_start": "e892ee6000e10df9fca6e1d8e71d0e0407b04f57",
+          "candidate_reason": "#191–194 have guide juvenile Unknown/Not known; #195 has a described mesoptile and current roster mapping is unarchived.",
+          "preserved_versions": [],
+          "unique_species_before": 181
+        }
+      },
+      "last_updated_at": "2026-10-28T05:08:10.000+08:00",
+      "audit_notes": [
+        "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00."
+      ]
     }
   ],
   "lease": null,

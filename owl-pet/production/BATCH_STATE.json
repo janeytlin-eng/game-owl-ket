@@ -4523,28 +4523,33 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Ketupa leucosticta",
-        "species_id": 168,
+      "active_lease": {
+        "owner": "codex-owl-production",
+        "run_id": "2026-10-27T1636+0800-cycle-4",
+        "cycle": 4,
+        "species": "Ketupa shelleyi",
+        "species_id": 169,
         "version": 1,
-        "run_id": "2026-10-27T1636+0800-cycle-3",
-        "at": "2026-10-27T17:00:00.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-3.md",
+        "heartbeat_at": "2026-10-27T17:02:00.000+08:00",
+        "expires_at": "2026-10-27T17:17:00.000+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 4,
+        "stage": "RESEARCH_READY",
+        "species": "Ketupa shelleyi",
+        "species_id": 169,
+        "version": 1,
+        "run_id": "2026-10-27T1636+0800-cycle-4",
+        "at": "2026-10-27T17:02:00.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-4.md",
         "evidence": {
-          "archive_commit": "3107392986c97865986eebc1d59fe529cd53fde8",
-          "concept_blob": "58fc42220dfaa8644c6d315a630b41256b4822da",
-          "asset_blob": "58fc42220dfaa8644c6d315a630b41256b4822da",
-          "size_bytes": 654988,
-          "sha256": "39b8793596b1bdcff1a713d41ea8012c2a9ccb0da9614262ea13f4797c27a13d",
-          "manifest_readback": true,
-          "tree_readback": true,
+          "sources_new": 4,
+          "sources_reused": 0,
+          "full_prompt_persisted": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T17:00:00.000+08:00",
+      "last_updated_at": "2026-10-27T17:02:00.000+08:00",
       "audit_notes": [
         "2026-10-27T16:36:30.000+08:00: cycle 1 STARTED then RESEARCH_READY for unarchived #166 Bubo cinerascens v1; 4 sources read/indexed and full prompt persisted. Project scope remains 251; lease expires 2026-10-27T16:51:30.000+08:00.",
         "2026-10-27T16:39:43.000+08:00: cycle 1 IMAGE_GENERATED then REVIEWED PASS after one targeted center-fledgling wing edit. Regular adult-like pale spot rows and hard long remiges were reduced to a shorter, rounder, softer juvenile wing with diffuse flecks. Exact text, adults, support and savanna remained intact. Reviewed archive blob d29baf733b4e8fa3cd7b53c0440724014c17ee6f; lease renewed.",
@@ -4557,7 +4562,8 @@
         "2026-10-27T16:52:00.000+08:00: cycle 2 VERIFIED only after repaired transfer readback. Immutable archive maps concept/reviewed asset to 2a22894c9f65c31217f0168cd13df43f91dc52c7 (689002 bytes), manifest/source/card/run readback passed. Unique 166→167/251; batch 2/6, next_cycle 3; lease released.",
         "2026-10-27T16:53:30.000+08:00: cycle 3 STARTED then RESEARCH_READY for #168 Ketupa leucosticta v1; 4 verified sources + 1 lead indexed; prompt persisted; lease expires 2026-10-27T17:08:30.000+08:00.",
         "2026-10-27T16:58:00.000+08:00: cycle 3 IMAGE_GENERATED/REVIEWED PASS no edit, then ARCHIVED pending readback; viewed TrueColor blob 58fc42220dfaa8644c6d315a630b41256b4822da (654988 bytes); lease renewed.",
-        "2026-10-27T17:00:00.000+08:00: cycle 3 VERIFIED; immutable tree maps concept/reviewed asset to 58fc42220dfaa8644c6d315a630b41256b4822da (654988 bytes); metadata passed. Unique 167→168/251; batch 3/6, next_cycle 4; lease released."
+        "2026-10-27T17:00:00.000+08:00: cycle 3 VERIFIED; immutable tree maps concept/reviewed asset to 58fc42220dfaa8644c6d315a630b41256b4822da (654988 bytes); metadata passed. Unique 167→168/251; batch 3/6, next_cycle 4; lease released.",
+        "2026-10-27T17:02:00.000+08:00: cycle 4 STARTED then RESEARCH_READY for unarchived #169 Ketupa shelleyi v1; old Bubo shelleyi mapping checked; 4 sources actually read/indexed. Downy chick remains unknown and is excluded; age-unknown Mikkola mesoptile selected. Lease expires 2026-10-27T17:17:00.000+08:00."
       ]
     }
   ],

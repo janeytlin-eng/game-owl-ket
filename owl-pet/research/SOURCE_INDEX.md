@@ -3872,3 +3872,15 @@ Design inference: current *Ketupa poensis* plate uses western nominate adult mor
 | AKUN-ABC-2023-LEAD | [Akun Eagle-Owl adult, Ankasa Ghana](https://www.africanbirdclub.org/) | Nik Borrow / African Bird Club | photographed Jan 2023; listing read 2026-10-27 | Image-database lead | adult | Locality/date/photographer verified in search result. | Image detail was not exposed by accessible page; not used for new morphology and marked lead-only. |
 
 Design inference: current-name adults plus an age-unknown, pale barred mesoptile on a supported rainforest-edge branch. Exact age, flight ability, continuous feather sequence and nest details remain unknown. Science false.
+
+
+## 2026-10-27 #169 Shelley’s Eagle-Owl · *Ketupa shelleyi* v1
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision |
+|---|---|---|---|---|---|---|---|
+| SHEO-MIKKOLA-2013-P288 | *Owls of the World*, printed p.288 / uploaded PDF p.290 | Heimo Mikkola | 2013; read 2026-10-27 | user guide | old *Bubo shelleyi* adult/mesoptile | Adult diagnosis, one male mass, unknown female mass; downy chick undescribed; age-unknown yellowish-grey brown-barred mesoptile with adult-like wings/tail and dark-blue eyes; lowland riverine rainforest. | No dated growth series or flight threshold; excludes downy chick and fixed sex ratio. |
+| SHEO-EBIRD-2026 | https://ebird.org/species/sheowl1 | Cornell Lab/eBird | read 2026-10-27 | institution account | current adult | Current *Ketupa* name; very large dark, heavily barred, dark-eyed lowland rainforest owl. | No juvenile chronology or sex data. |
+| SHEO-BIRDLIFE-2022-ATEWA | https://www.birdlife.org/news/2022/08/26/lost-and-found/ | BirdLife International / Rob Williams | 2022; event 16 Oct 2021; read 2026-10-27 | conservation institution / field photographs | adult/locality | Atewa Forest adult field photographs confirm living adult identity; about twenty museum specimens then known. | Adult/locality only; not used for juvenile or nest details. |
+| SHEO-ITIS-2025 | https://www.itis.gov/servlet/SingleRpt/SingleRpt?categories=All&search_value=Ketupa+shelleyi | ITIS / IOC v15.1 | 2025; read 2026-10-27 | taxonomic index | current/old name | Valid current combination *Ketupa shelleyi*; Mikkola’s *Bubo shelleyi* maps here. | Taxonomy only. |
+
+Links: [research card](species/169-ketupa-shelleyi.md), [run](../production/runs/2026-10-27T1636+0800-cycle-4.md). Exact age, flight ability, nest geometry and quantified sex ratio remain unknown. Scientific verification remains false.

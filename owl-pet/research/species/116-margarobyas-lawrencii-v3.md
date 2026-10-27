@@ -41,3 +41,8 @@ Avoid: mechanical repeated feather geometry, bright juvenile crown teardrop rows
 ## Planned review checks
 
 Exact species/text/count; untufted dark-eyed adults; bare tarsi/toes and real support; near-equal adult scale; juvenile crown free of bright repeated teardrop rows; fewer juvenile white spots without erasing legitimate formed wings; no unsupported nest or age claim.
+
+
+## Actual review result
+
+The newly generated 1536×1024 RGB master was opened at original detail. All planned visible checks passed. In particular, the juvenile crown no longer has bright repeated ivory teardrop rows; only sparse low-contrast pale tips remain on a continuous sienna-brown base, consistent with the conservative “fewer white spots” boundary. No edit was required. This is a visual correction result, not proof of exact feather mapping or biological verification.

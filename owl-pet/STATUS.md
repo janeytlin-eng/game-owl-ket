@@ -1362,3 +1362,11 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 15:49 +0800 — #165 *Ninox punctulata* v1 independently verified at archive commit `3210c304fbc4690dbf747f81e25eef1e3fccf3c7`; concept, generated asset and reviewed asset all resolve to blob `87ac0f12f1843c6703f890d8b3241c9804e649fa` (616,088 bytes), and status/design/changelog/source/card/run/batch metadata readback passed. Unique species total is now 165/251; science remains pending. Current six-cycle batch is COMPLETE 6/6.
+
+
+## 2026-10-27 — #166 Greyish Eagle-Owl · *Bubo cinerascens* v1
+
+- NEW concept archived at `design/concepts/166-bubo-cinerascens-v1.png`; provisional unique total 166/251 pending independent verification.
+- One juvenile-wing edit removed regular adult-like spot rows/hard remiges; exact title/labels, adults, feet/support and open-savanna setting passed reinspection.
+- Evidence: Mikkola printed p.282/PDF p.284; Barlow et al. 2022 primary molecular/breeding study (ground nests, two eggs, 35–43-day nestling period, grayish parent-like fledgling); Torit family figure/context; Avibase concept/synonymy index.
+- Unknowns remain: exact feather chronology and flight threshold within 35–43 days, universal fledgling soft parts, quantified sex ratio. Science status remains false.

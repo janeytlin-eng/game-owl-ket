@@ -1313,3 +1313,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Iteration evidence: the normal “remove adult-like juvenile remiges” safeguard was deliberately *not* applied, because Mikkola explicitly states that this species’ mesoptile wing and tail feathers are as adult. The validated rule is to override a generic juvenile safeguard only with direct species-specific evidence, while retaining juvenile body softness and a fully supported non-flight posture.
 - Limits: exact mesoptile age, flight threshold, juvenile iris, nest site and robust sex-size ratio remain unknown; `scientifically_verified=false`.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [research card](../research/species/165-ninox-punctulata.md) · [run](../production/runs/2026-10-27T1335+0800-cycle-6.md)
+
+
+### #166 Greyish Eagle-Owl · *Bubo cinerascens* · v1
+
+- Original: [166-bubo-cinerascens-v1.png](concepts/166-bubo-cinerascens-v1.png)
+- Group: adult male, 35–43 day fledgling, adult female; one continuous open-savanna ground-ledge scene.
+- Review: one targeted juvenile-wing edit; archive derivative re-viewed at 1536×1024. Scientific verification remains pending.
+- Research: [species card](../research/species/166-bubo-cinerascens.md) · [run](../production/runs/2026-10-27T1636+0800-cycle-1.md)

@@ -936,3 +936,11 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added the first Speckled Boobook concept, increasing unique archived species from 164 to 165 of the fixed 251-species scope.
 - Added three actually-read source records and a species research card; the primary 2012 Forktail study bounds the stream/rainforest/agriculture context, and Mikkola pp.485–486 supplies the species-specific mesoptile exception.
 - First output and 64-colour archive derivative passed visual review without editing. Adult-like folded juvenile wing/tail pattern was retained only because it is directly documented; exact age/flight/iris/nest and robust sex ratio remain unknown. `scientifically_verified=false`.
+
+
+## 2026-10-27 — #166 Greyish Eagle-Owl v1
+
+- Added one NEW three-bird concept, research card and four indexed sources.
+- Applied and rechecked one center-fledgling wing edit; preserved adult/text/environment invariants.
+- Added an evidence-backed rule application: a primary-study age range can label a supported fledgling, but does not establish exact flight ability or day-by-day feather chronology.
+- Science status remains false.

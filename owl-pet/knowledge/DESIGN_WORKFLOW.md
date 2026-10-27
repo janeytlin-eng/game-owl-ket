@@ -451,3 +451,14 @@ A trusted older guide explicitly saying “juvenile undescribed” is a boundary
 
 ### 2026-10-27 #163 named juvenile stages override undated “young” composites
 When one source explicitly labels mesoptile traits and another gives an undated generic “young” description, do not merge both into one bird. For *Glaucidium gnoma*, Mikkola's mesoptile has an unspotted gray crown while ORI's broad young cue reports head spots and a dark bill, likely a different stage. V1 selected the named mesoptile and kept exact age/iris unknown. The first image still leaked a regular adult-style white wing row and hard remiges; one targeted edit softened and shortened the wing while preserving a formed, cavity-supported juvenile. Original-resolution review passed for this plate only; science remains false.
+
+
+### Applied and checked — bounded fledgling age ranges (2026-10-27, #166)
+
+**Problem:** An explicit 35–43-day nestling period plus “grayish, parent-like” fledgling plumage can tempt the prompt to claim a precise developmental day or full flight competence.
+
+**Evidence rule:** Treat the published range as a stage boundary, not a daily growth series. Label the range, keep the young naturally supported, and leave flight threshold/continuous feather chronology unknown.
+
+**Applied:** #166 *Bubo cinerascens* v1 used a 35–43-day fledgling on a low natural ledge. A first-pass adult-like spot row and hard remiges were actively edited to a shorter, softer, diffuse-flecked folded wing.
+
+**Verified effect:** Original-resolution and archive-derivative rechecks confirmed the revised wing, exact text, full feet/support and adult invariants. This validates the rule for this image only; it is not a cross-species developmental template.

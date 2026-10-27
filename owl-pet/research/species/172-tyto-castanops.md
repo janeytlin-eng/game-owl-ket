@@ -1,6 +1,6 @@
 # #172 Tasmanian Masked Owl — *Tyto castanops* v1
 
-Status: ARCHIVED pending independent readback; scientific verification: false.
+Status: VERIFIED archive; scientific verification: false.; scientific verification: false.
 
 ## Taxonomy boundary
 
@@ -44,3 +44,10 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - Original master: `production/assets/2026-10-27T1836+0800-cycle-1/generated-master.png`, Git blob `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac`, 3,323,696 bytes.
 - Reviewed derivative: `production/assets/2026-10-27T1836+0800-cycle-1/reviewed-v1.png`, Git blob `4022b7681cbadaeb909b521f7f9f7a7e51cffa95`, 680×453, 656,410 bytes, SHA-256 `743d8b39b922ee9a5b7349006b2af7e39eadabca1290fddf68b3cb46565456a2`.
 - Independent immutable-tree/metadata readback still pending; no species or cycle credit yet.
+
+## Verification
+
+- Immutable archive commit: `17fb8d4617e8464090bc6d46545e39942e4bc59d`.
+- Complete recursive tree readback mapped the concept and reviewed asset to `4022b7681cbadaeb909b521f7f9f7a7e51cffa95` (656,410 bytes), and the original master to `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac` (3,323,696 bytes); tree was not truncated.
+- Manifest contains exactly one #172 entry. All five source IDs are present in both source index and card; status/design/workflow/run metadata readback passed.
+- Result: NEW +1 unique species, 171→172/251. Scientific calibration remains pending.

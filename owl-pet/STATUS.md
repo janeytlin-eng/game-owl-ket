@@ -1421,3 +1421,5 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Taxonomy conflict preserved: BirdLife, Australian Museum and ABSA retain *Tyto novaehollandiae castanops*; current project numbering follows IOC v15.2 split *T. castanops*.
 - First 1536×1024 render and 680×453 TrueColor derivative were both viewed and passed without edit. Adult male is smaller/paler, female larger/darker; the white/cream advanced nestling is fully supported in a deep old-eucalypt hollow and has no mature remiges/tail.
 - Exact juvenile age, flight threshold and continuous feather sequence remain unknown; `scientifically_verified=false`.
+
+- 2026-10-27 18:53 +0800 — #172 *Tyto castanops* v1 independently verified at archive commit `17fb8d4617e8464090bc6d46545e39942e4bc59d`; concept/reviewed path resolves to `4022b7681cbadaeb909b521f7f9f7a7e51cffa95` (656,410 bytes) and original master to `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac` (3,323,696 bytes). Unique archived species is 172/251; batch 1/6, next cycle 2; science pending.

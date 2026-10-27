@@ -1,6 +1,6 @@
 # #107 Fulvous Owl — *Strix fulvescens* v4
 
-Status: ARCHIVED; independent remote readback pending; scientific verification: false.
+Status: VERIFIED archive/readback; scientific verification: false.
 
 ## Recovery/version boundary
 
@@ -25,3 +25,8 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 ## Image review and design result
 
 The first v4 render regressed to overlong layered adult-like juvenile remiges. One targeted edit changed only the central juvenile: down now dominates, long tail is hidden, only short bounded emerging tips remain, and both feet are fully supported on the mossy branch. Adults, labels and cloud-forest context were preserved. Edited master and 680×453 derivative were actually viewed. Exact juvenile age, continuous feather sequence, flight ability and quantitative sex ratio remain unknown; science false.
+
+
+## Archive verification
+
+Archive commit `66dcf5a19ee8a3dc94990ddcd6e879c1a85e8e3e` was independently read back. Concept/reviewed blob: `9c7bae510567949fac5ee3c4c7747598f43468bf`; generated master: `142dd1e74c6ff43627aebcdba0a9dc917f176b75`; edited master: `d633d6db86833df54bb7bc4343ca5147a0a8c8ec`. Production verification does not convert the unresolved scientific fields to true.

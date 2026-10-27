@@ -1457,3 +1457,5 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Research: 1 new and 4 reused source IDs. Existing direct field-photo review anchors the age-unknown older juvenile; current institutional sources bound identity, adult palette and cloud-forest habitat.
 - Review: one targeted edit removed overlong adult-like juvenile remiges and long tail while preserving adults, text and environment. Exact juvenile age/flight/continuous feather sequence and sex ratio remain unknown; science false.
 - Run: [production/runs/2026-10-27T1836+0800-cycle-4.md](production/runs/2026-10-27T1836+0800-cycle-4.md)
+
+- 2026-10-27T19:11:07.940+08:00 — #107 *Strix fulvescens* v4 independently verified at archive commit `66dcf5a19ee8a3dc94990ddcd6e879c1a85e8e3e`; concept/reviewed path resolves to `9c7bae510567949fac5ee3c4c7747598f43468bf` (671,576 bytes), edited master to `d633d6db86833df54bb7bc4343ca5147a0a8c8ec`, and initial master to `142dd1e74c6ff43627aebcdba0a9dc917f176b75`. Unique archived species remains 174/251; batch 4/6, next cycle 5; science pending.

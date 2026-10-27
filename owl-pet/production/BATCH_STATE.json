@@ -4669,9 +4669,20 @@
           "original_master_git_blob": "ce5d721e69b3149c8ce795987ef6215e47e762a2",
           "run_record": "owl-pet/production/runs/2026-10-27T1836+0800-cycle-3.md",
           "verified_at": "2026-10-27T19:45:00.000+08:00"
+        },
+        {
+          "cycle": 4,
+          "species": "Strix fulvescens",
+          "project_id": 107,
+          "version": 4,
+          "action": "REVISION_RECOVERY",
+          "unique_species_increment": 0,
+          "commit_sha": "66dcf5a19ee8a3dc94990ddcd6e879c1a85e8e3e",
+          "run_record": "owl-pet/production/runs/2026-10-27T1836+0800-cycle-4.md",
+          "verified_at": "2026-10-27T19:11:07.940+08:00"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T1836+0800-cycle-4",
@@ -4684,18 +4695,17 @@
         "species": "#107 Strix fulvescens",
         "version": 4,
         "action": "REVISION_RECOVERY",
-        "stage": "ARCHIVED",
-        "at": "2026-10-27T19:10:03.177+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-27T19:11:07.940+08:00",
         "evidence": {
-          "concept_path": "owl-pet/design/concepts/107-strix-fulvescens-v4.png",
-          "generated_master": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/generated-master.png",
-          "edited_master": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/edited-master-v2.png",
-          "reviewed_derivative": "owl-pet/production/assets/2026-10-27T1836+0800-cycle-4/reviewed-v2.png",
-          "sha256": "d7eacf6d7822664ccb927aa23d9300314280094cf8213cfb3cc6cb23c521c26f",
-          "dimensions": "680x453",
-          "size_bytes": 671576,
-          "git_blob": "9c7bae510567949fac5ee3c4c7747598f43468bf",
-          "visual_result": "PASS after targeted juvenile-wing edit; science false."
+          "archive_commit": "66dcf5a19ee8a3dc94990ddcd6e879c1a85e8e3e",
+          "concept_blob": "9c7bae510567949fac5ee3c4c7747598f43468bf",
+          "generated_blob": "142dd1e74c6ff43627aebcdba0a9dc917f176b75",
+          "edited_master_blob": "d633d6db86833df54bb7bc4343ca5147a0a8c8ec",
+          "manifest_blob": "8ad74a27e61125e351fcd3d5ec6fa6c0c7ff9baf",
+          "verification": "Remote concept/reviewed/generated/edited blobs, manifest entry, research card, run and ARCHIVED batch checkpoint read back from immutable archive commit.",
+          "unique_species_total": 174,
+          "next_cycle": 5
         }
       },
       "last_updated_at": "2026-10-27T19:56:00.000+08:00",
@@ -4813,12 +4823,7 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "2026-10-27T1836+0800-cycle-4",
-    "heartbeat_at": "2026-10-27T19:10:03.177+08:00",
-    "expires_at": "2026-10-27T19:25:03.177+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-10-27T19:56:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",

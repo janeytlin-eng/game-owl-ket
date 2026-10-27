@@ -3673,3 +3673,20 @@ Cornell Lab of Ornithology, Macaulay Library asset ML62333921, Flores Scops-Owl 
 
 ### FSO-WIDODO-COX-RASMUSSEN-1999 v2 interpretation correction
 Original Forktail pp.17–21, Tables 1–2 freshly reread. Prior terse “solid rufous upperparts” design summary was incomplete: Table 2 explicitly documents white scapular feathers with 1–2 clear dark-brown outer-web blotches and brownish tips, plus small spaced whitish primary triangles. v2 therefore bounds/patterns oversized blank v1 patches rather than deleting legitimate white. Juvenile MZB 30.086 retains natal down; exact age/iris/flight remain unknown. New2/reused1/corrected1 interpretation. [Run](../production/runs/2026-10-27T0728+0800-cycle-5.md), [card](../knowledge/species/137-otus-alfredi.md), target v2.
+
+
+## RIN-PLOS-FIG1-2008 — Published adult field photograph, Figure 1
+
+- Title: Rinjani Scops Owl *Otus jolandae*, Lombok, August 2008 (Figure 1 of the original species description)
+- Photographer / institution: Philippe Verbelen; published by Sangster, King, Verbelen & Trainor in PLOS ONE
+- Year: photographed 2008; published 2013
+- URL/DOI: https://doi.org/10.1371/journal.pone.0053712.g001
+- Direct reusable image record: https://commons.wikimedia.org/wiki/File:Rinjani_Scops_Owl_Otus_jolandae,_Lombok_-_journal.pone.0053712.g001-right.png
+- Accessed: 2026-10-27
+- Source type: primary-paper field photograph; CC-licensed published figure
+- Applies to: *Otus jolandae*, adult of unknown sex; Lombok; night perch
+- Actual reading/view: original 1,659×1,337 pixels viewed. Supports compact silhouette, golden eye, dark facial framing, dark-cinnamon/brown field appearance and natural branch posture.
+- Figure/page: PLOS ONE Figure 1; article lines/section “Figure 1” and linked original image.
+- Limits/conflicts: single adult, unknown sex, flash/exposure and partly hidden feet; cannot calibrate sex ratio, juvenile appearance, exact colour standards or tarsal anatomy.
+- Design/review use: anchors adult silhouette and facial contrast for #139 v2; specimen diagnosis remains authoritative for colour/pattern and juvenile limits.
+- Linked record/version: `knowledge/species/139-otus-jolandae.md`; `design/concepts/139-otus-jolandae-v2.png`; `production/runs/2026-10-27T0728+0800-cycle-6.md`.

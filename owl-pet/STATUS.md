@@ -1622,3 +1622,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Research: 3 new sources, 0 reused, 0 corrected. Mikkola printed p.136/PDF p.138, BirdLife red-data PDF pp.326–327 and a 2021 georeferenced adult image were actually read/viewed.
 - One targeted imagegen edit corrected long adult-hard juvenile remiges. Original and 680×453 derivative pass exact title/labels, exactly three owls and natural support.
 - Concept: [177-otus-hartlaubi-v1.png](design/concepts/177-otus-hartlaubi-v1.png). Downy chick, exact age, juvenile iris chronology, wing/tail sequence, flight threshold and nest geometry remain unknown. Science false; independent readback pending.
+
+- 2026-10-28T03:48:50.020+08:00 — #177 *Otus hartlaubi* v1 independently verified at archive `c404c4ecaf832e9c39cb01ceecb750633099b6ee`; concept `f8a38c7c…`, generated `77b0699a…`, reviewed `47f11f14…`, plus manifest/source/card/run/state were read back at the immutable commit. Unique total **177/251**; batch 2/6, next cycle 3. Science false.

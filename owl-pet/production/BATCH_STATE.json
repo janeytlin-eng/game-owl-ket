@@ -4204,23 +4204,23 @@
         "cycle": 2,
         "species": "Ketupa blakistoni",
         "species_id": 161,
-        "heartbeat_at": "2026-10-27T11:35:59.748+08:00",
-        "expires_at": "2026-10-27T11:50:59.748+08:00"
+        "heartbeat_at": "2026-10-27T11:37:45.137+08:00",
+        "expires_at": "2026-10-27T11:52:45.137+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Ketupa blakistoni",
         "species_id": 161,
         "version": 1,
         "run_id": "2026-10-27T1034+0800-cycle-2",
-        "at": "2026-10-27T11:35:59.748+08:00",
+        "at": "2026-10-27T11:37:45.137+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-2.md",
-        "generated_asset": "owl-pet/production/assets/2026-10-27T1034+0800-cycle-2/161-ketupa-blakistoni-v1-generated.png",
-        "generated_blob": "72ed19dfd70c36a8b1e366e00fb3ea6ae26781a5",
-        "review": "Needs targeted center-juvenile wing edit: adult-style pale spotting and hard layered remiges remain too strong."
+        "reviewed_asset": "owl-pet/production/assets/2026-10-27T1034+0800-cycle-2/161-ketupa-blakistoni-v1-reviewed.png",
+        "reviewed_blob": "7922f6b6029ee281a2b18a40ce5a4893ce80b042",
+        "review_result": "PASS with one targeted center-nestling wing/mesoptile edit; scientific verification remains false."
       },
-      "last_updated_at": "2026-10-27T11:35:59.748+08:00",
+      "last_updated_at": "2026-10-27T11:37:45.137+08:00",
       "audit_notes": [
         "2026-10-27T10:34:00.000+08:00: new batch cycle 1 STARTED for unarchived #160 Tyto inexspectata v1; no prior incomplete batch or active lease. Project scope remains 251. Repository stored timestamps from the preceding batch are ahead of this invocation clock; commit order is authoritative.",
         "2026-10-27T10:36:00.000+08:00: cycle 1 RESEARCH_READY; 4 sources read/indexed (IOC checklist page result, 2023 Naturalis type catalogue, Cornell/eBird account, Owl Pages synthesis). Full prompt persisted; exact juvenile age, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; lease renewed.",
@@ -4230,7 +4230,8 @@
         "2026-10-27T10:51:00.000+08:00: cycle 1 VERIFIED; immutable tree/raw render/manifest readback passed for #160 Tyto inexspectata v1. Archive fcf6a4d9d838ca9bc2ca11ed6191171d854ffa1f, blob 3f6a6a83fb04033d4b0f99cb5e04f05d83cb41ef. Unique species rises 159→160/251; batch advances to 1/6, next_cycle 2; lease released.",
         "2026-10-27T11:31:54.489+08:00: cycle 2 STARTED for unarchived #161 Ketupa blakistoni v1; selected because current IOC naming and species-specific adult/late-nestling evidence are available. Scope remains 251; lease expires 2026-10-27T11:46:54.489+08:00.",
         "2026-10-27T11:33:20.788+08:00: cycle 2 RESEARCH_READY; 3 sources read/indexed (IOC genus transfer, Hayashi/Japan Bird Research adult-habitat-nest and ~50-day nestling account, Mikkola pp.296–297). Full prompt persisted. Exact sex-specific plumage differences, individual/subspecies palette, 50-day flight capability and continuous juvenile sequence remain bounded/unknown; lease renewed.",
-        "2026-10-27T11:35:59.748+08:00: cycle 2 IMAGE_GENERATED; first 1536x1024 output viewed. Adult identity, labels, cavity, river habitat and physical support pass. Center nestling retains overly crisp adult-like pale wing spotting and hard layered remiges; targeted edit required. Generated asset blob 72ed19dfd70c36a8b1e366e00fb3ea6ae26781a5; lease renewed."
+        "2026-10-27T11:35:59.748+08:00: cycle 2 IMAGE_GENERATED; first 1536x1024 output viewed. Adult identity, labels, cavity, river habitat and physical support pass. Center nestling retains overly crisp adult-like pale wing spotting and hard layered remiges; targeted edit required. Generated asset blob 72ed19dfd70c36a8b1e366e00fb3ea6ae26781a5; lease renewed.",
+        "2026-10-27T11:37:45.137+08:00: cycle 2 REVIEWED PASS after one targeted center-nestling edit. The wing is shorter/rounder/softer with diffuse flecks and abundant fluffy mesoptile; short tail and supported crouch preserved. Adults/text/habitat invariant. Reviewed blob 7922f6b6029ee281a2b18a40ce5a4893ce80b042; science pending; lease renewed."
       ]
     }
   ],
@@ -4334,10 +4335,10 @@
     "cycle": 2,
     "species": "Ketupa blakistoni",
     "species_id": 161,
-    "heartbeat_at": "2026-10-27T11:35:59.748+08:00",
-    "expires_at": "2026-10-27T11:50:59.748+08:00"
+    "heartbeat_at": "2026-10-27T11:37:45.137+08:00",
+    "expires_at": "2026-10-27T11:52:45.137+08:00"
   },
-  "last_updated_at": "2026-10-27T11:35:59.748+08:00",
+  "last_updated_at": "2026-10-27T11:37:45.137+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

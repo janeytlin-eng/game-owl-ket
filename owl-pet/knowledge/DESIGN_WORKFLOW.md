@@ -477,3 +477,8 @@ An identified field photograph without measured age can confirm visible posture,
 ### Applied and checked — frontal juveniles still require wing-edge review (2026-10-27, #171)
 
 A front-facing fluffy juvenile can appear stage-correct at head and breast while the visible lateral folded wing still leaks long hard remiges and crisp adult spot rows. #171’s first render had this mismatch despite an unspotted gray mesoptile crown. One targeted center-only edit shortened, rounded and softened the folded wing, removed the crisp spot row, kept the tail short and concealed, and retained two-foot branch support. Original-resolution and archive-derivative review passed for this image. This adds one visually checked application of the existing maturity-cue rule; it does not establish exact age, flight ability or a universal feather sequence, and `scientifically_verified` remains false.
+
+
+### Applied and checked — taxonomic authority conflicts stay visible (2026-10-27, #172)
+
+When the project scope follows a split checklist but conservation and national sources retain a subspecies, keep both treatments in the card/manifest and use one project identity only. #172 follows IOC v15.2 *Tyto castanops* while mapping BirdLife/Australian *T. novaehollandiae castanops* and original *Strix castanops*. This prevents a future duplicate and avoids presenting authority disagreement as a settled correction. The generated plate also demonstrates a separate developmental boundary: conflicting “white/cream young” and adult-like darker fledgling evidence was resolved by showing a fully supported, explicitly non-flying advanced nestling rather than inventing an exact age. Both master and derivative passed review for this image only; science remains false.

@@ -1,6 +1,6 @@
 # #172 Tasmanian Masked Owl — *Tyto castanops* v1
 
-Status: REVIEWED; scientific verification: false.
+Status: ARCHIVED pending independent readback; scientific verification: false.
 
 ## Taxonomy boundary
 
@@ -37,3 +37,10 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - Exact title/labels and three-bird count passed. Male is smaller/paler, female larger/darker; adult dark eyes, discs, feathered legs and powerful feet are coherent. The center advanced nestling is white/cream, lacks mature remiges and tail, and is fully supported at an old eucalypt hollow lip.
 - Viewed 680×453 TrueColor derivative also passed. Master Git blob: `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac`; reviewed Git blob: `4022b7681cbadaeb909b521f7f9f7a7e51cffa95`.
 - Exact juvenile age/flight threshold remain unknown; scientific verification false.
+
+## Archive candidate
+
+- Concept: `design/concepts/172-tyto-castanops-v1.png`
+- Original master: `production/assets/2026-10-27T1836+0800-cycle-1/generated-master.png`, Git blob `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac`, 3,323,696 bytes.
+- Reviewed derivative: `production/assets/2026-10-27T1836+0800-cycle-1/reviewed-v1.png`, Git blob `4022b7681cbadaeb909b521f7f9f7a7e51cffa95`, 680×453, 656,410 bytes, SHA-256 `743d8b39b922ee9a5b7349006b2af7e39eadabca1290fddf68b3cb46565456a2`.
+- Independent immutable-tree/metadata readback still pending; no species or cycle credit yet.

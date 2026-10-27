@@ -976,3 +976,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added a new Colima Pygmy-Owl archive candidate using four newly indexed sources, including Mikkola printed pp.385–386/PDF pp.387–388 and an opened 2018 Huatulco juvenile photograph.
 - Used an age-unknown, fully supported gray-crowned mesoptile. One targeted edit removed long hard adult-like remiges and crisp white wing rows while preserving exact text, adult identity and dry-forest context.
 - Archived in `d00da082eb0608152951a1e0acefe1e67ff5fff1` to Git blob `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; recursive tree, three image paths, manifest, four source IDs and production records passed readback. Unique species rises 170→171/251; science remains false.
+
+
+## 2026-10-27 — #172 *Tyto castanops* v1
+
+- Added the first Tasmanian Masked Owl concept, five indexed sources and a species card.
+- Preserved the IOC v15.2 split name alongside BirdLife/Australian `T. novaehollandiae castanops` treatment, avoiding a silent taxonomy rewrite.
+- First output passed original and derivative visual review without edit. Adult sex-size/colour direction and a fully supported white/cream advanced nestling are evidence-bounded; exact age/flight remain unknown. Science false.

@@ -1353,3 +1353,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - No edit required after original master and archive-derivative review. The undescribed downy chick was deliberately omitted.
 - Limits: exact age, flight ability, nest geometry and measured female/male size ratio remain unknown; `scientifically_verified=false`.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/169-ketupa-shelleyi.md) · [run](../production/runs/2026-10-27T1636+0800-cycle-4.md)
+
+
+### #172 Tasmanian Masked Owl · *Tyto castanops* · v1
+
+- [172-tyto-castanops-v1.png](concepts/172-tyto-castanops-v1.png) — adult male, advanced downy nestling, adult female in a mature Tasmanian eucalypt hollow setting.
+- Original 1536×1024 master and 680×453 TrueColor derivative were actually viewed; no edit required. Male/female direction and the fully supported downy nestling passed.
+- IOC split / BirdLife-Australian lump conflict is explicit; exact nestling age/flight threshold remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/172-tyto-castanops.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-1.md)

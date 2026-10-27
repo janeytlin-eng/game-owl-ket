@@ -1413,3 +1413,11 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 17:09 +0800 — #169 *Ketupa shelleyi* v1 independently verified at archive commit `6538a3278355cf46a0c5ba694cef84917b8fa1fc`; concept/generated/reviewed all resolve to blob `fad8ddcd84bda9a7a0c468421678c058230029d7` (633,521 bytes). Unique archived species is 169/251; science remains pending.
+
+
+## 2026-10-27 — #172 Tasmanian Masked Owl · *Tyto castanops* v1
+
+- NEW IOC-split concept archived provisionally at [172-tyto-castanops-v1.png](design/concepts/172-tyto-castanops-v1.png); unique total would rise 171→172/251 only after independent readback.
+- Taxonomy conflict preserved: BirdLife, Australian Museum and ABSA retain *Tyto novaehollandiae castanops*; current project numbering follows IOC v15.2 split *T. castanops*.
+- First 1536×1024 render and 680×453 TrueColor derivative were both viewed and passed without edit. Adult male is smaller/paler, female larger/darker; the white/cream advanced nestling is fully supported in a deep old-eucalypt hollow and has no mature remiges/tail.
+- Exact juvenile age, flight threshold and continuous feather sequence remain unknown; `scientifically_verified=false`.

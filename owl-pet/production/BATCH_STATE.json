@@ -4782,23 +4782,24 @@
           "species": "Margarobyas lawrencii",
           "commit_sha": "b9667425eed465cccce15ee20bcc535182c927c5",
           "run_record": "owl-pet/production/runs/2026-10-27T2126+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Megascops centralis",
+          "commit_sha": "bd053661476522be11844cb7bd002c47acfda758",
+          "run_record": "owl-pet/production/runs/2026-10-27T2126+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "2026-10-27T2126+0800-cycle-2",
-        "heartbeat_at": "2026-10-27T21:54:00.000+08:00",
-        "expires_at": "2026-10-27T22:09:00.000+08:00"
-      },
+      "next_cycle": 3,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 2,
         "run_id": "2026-10-27T2126+0800-cycle-2",
         "species": "#119 Megascops centralis",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-27T21:54:00.000+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-27T21:57:00.000+08:00",
         "evidence": {
           "main_head": "13f6cb067ba429645bfd1b030c332dabb8071a24",
           "candidate_reason": "#119 v2 latest manifest status says hard cream scallops were reduced but fine geometry remains pending; select focused juvenile mesoptile-pattern revision.",
@@ -4831,10 +4832,18 @@
             "result": "PASS: juvenile repeated arcs removed; sparse irregular fine dark marks on fluffy gray contour; formed barred wings, zero-tail silhouette, supported feet/text/adults retained; adult tufts reduced."
           },
           "concept_path": "owl-pet/design/concepts/119-megascops-centralis-v3.png",
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "archive_commit": "bd053661476522be11844cb7bd002c47acfda758",
+          "commit_pinned_readback": {
+            "concept": true,
+            "edited_master": true,
+            "manifest": true,
+            "run": true,
+            "batch": true
+          }
         }
       },
-      "last_updated_at": "2026-10-27T21:54:00.000+08:00",
+      "last_updated_at": "2026-10-27T21:57:00.000+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
@@ -4844,7 +4853,8 @@
         "2026-10-27T21:42:00.000+08:00: VERIFIED cycle 1/6 for #116 Margarobyas lawrencii v3. Archive commit b9667425eed465cccce15ee20bcc535182c927c5 fetched; concept and durable master both resolve to Git blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest/run/batch/species/research records read back. Unique species remains 174/251, manifest versions 420, science false. Lease released; next_cycle=2.",
         "2026-10-27T21:45:00.000+08:00: cycle 2 STARTED for #119 Megascops centralis v3 SCIENCE_REVISION. Latest v2 explicitly leaves fine juvenile mesoptile geometry pending after only partial scallop reduction. Lease expires 2026-10-27T22:00:00.000+08:00.",
         "2026-10-27T21:48:00.000+08:00: cycle 2 RESEARCH_READY for #119 v3; reused 3 indexed sources, new0/corrected0 after fresh search/read; full prompt and boundary saved. Lease renewed to 2026-10-27T22:03:00.000+08:00.",
-        "2026-10-27T21:54:00.000+08:00: cycle2 IMAGE_GENERATED then REVIEWED after one targeted edit; ARCHIVED prepared. Initial repeated juvenile arcs failed review; edit removed them and reduced adult tufts. Concept blob eeeed9b583081409e139b9f0ea3839042e314b7e; independent readback pending."
+        "2026-10-27T21:54:00.000+08:00: cycle2 IMAGE_GENERATED then REVIEWED after one targeted edit; ARCHIVED prepared. Initial repeated juvenile arcs failed review; edit removed them and reduced adult tufts. Concept blob eeeed9b583081409e139b9f0ea3839042e314b7e; independent readback pending.",
+        "2026-10-27T21:57:00.000+08:00: cycle2 VERIFIED at bd053661476522be11844cb7bd002c47acfda758; concept and edited master resolve to eeeed9b583081409e139b9f0ea3839042e314b7e; batch 2/6 next_cycle3; unique174/251; lease released."
       ]
     }
   ],

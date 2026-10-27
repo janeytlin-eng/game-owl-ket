@@ -1377,3 +1377,10 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - NEW current-name concept archived; provisional unique total 167/251 pending independent readback.
 - Old-name mapping: Mikkola’s *Bubo poensis* is the western nominate population; former *B. vosseleri* maps to current *K. p. vosseleri* and must not be counted as a separate extant species here.
 - Initial plate passed original-resolution review without edit. Science status remains false; exact juvenile age/flight, continuous feather sequence and nest geometry remain unknown.
+
+
+## 2026-10-27 — #168 Akun Eagle-Owl · *Ketupa leucosticta* v1
+
+- NEW current-name concept archived; provisional unique total 168/251 pending readback.
+- Original and TrueColor archive derivative viewed; no edit needed. Juvenile uses a pale barred age-unknown mesoptile cross-checked against Tony King’s 2022 Ghana photograph.
+- Old name *Bubo leucostictus* mapped; science false; exact age/flight/continuous feather sequence/nest geometry unknown.

@@ -1327,3 +1327,9 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 
 - [167-ketupa-poensis-v1.png](concepts/167-ketupa-poensis-v1.png) — adult male, age-unknown mesoptile juvenile, adult female; western nominate rainforest edge.
 - No edit required; original and archive derivative viewed. Current/old-name mapping prevents separate *vosseleri* double count. Scientific verification pending.
+
+
+### #168 Akun Eagle-Owl · *Ketupa leucosticta* · v1
+
+- [168-ketupa-leucosticta-v1.png](concepts/168-ketupa-leucosticta-v1.png) — adult male, age-unknown mesoptile juvenile, adult female in West African rainforest edge.
+- No edit required after original-resolution and archive-derivative review. Science pending.

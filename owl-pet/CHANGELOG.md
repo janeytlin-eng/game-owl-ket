@@ -950,3 +950,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 - Added current-name *Ketupa poensis* concept, five indexed sources and historical *Bubo poensis* / *vosseleri* mapping.
 - Recorded the species-specific adult-like mesoptile wing/tail exception; no image edit required after actual review.
+
+
+## 2026-10-27 — #168 Akun Eagle-Owl v1
+
+- Added current-name concept, four verified sources and one lead-only source; mapped historical *Bubo leucostictus*.
+- Used an actual 2022 Ghana juvenile photograph to cross-check the guide’s pale barred mesoptile without claiming an exact age.

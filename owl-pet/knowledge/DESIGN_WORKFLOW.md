@@ -467,3 +467,8 @@ When one source explicitly labels mesoptile traits and another gives an undated 
 ### Applied and checked — taxonomic lump before numbering (2026-10-27, #167)
 
 When an older guide treats *Bubo poensis* and *Bubo vosseleri* separately but the current list uses *Ketupa poensis* with nominate and vosseleri subspecies, assign one species number, name the depicted population, and preserve the old mapping. This was applied and read back for #167; it prevents a future “Usambara” double count. It does not imply plumage uniformity across subspecies.
+
+
+### Applied and checked — photograph cross-check without age inflation (2026-10-27, #168)
+
+An identified field photograph without measured age can confirm visible posture, support and feather appearance, but cannot turn an age-unknown mesoptile into a dated fledgling. #168 applies this rule: the Ghana photograph cross-checks pale fluffy barring and branch support; exact age/flight remain unknown. Original and archive derivative passed review; validation is image-specific.

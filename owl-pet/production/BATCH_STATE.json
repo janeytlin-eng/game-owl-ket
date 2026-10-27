@@ -5189,8 +5189,8 @@
         "species": "#14 Bubo virginianus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T07:38:51.000+08:00",
-        "expires_at": "2026-10-28T07:53:51.000+08:00"
+        "heartbeat_at": "2026-10-28T07:39:15.000+08:00",
+        "expires_at": "2026-10-28T07:54:15.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -5198,8 +5198,8 @@
         "species": "#14 Bubo virginianus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T07:38:51.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T07:39:15.000+08:00",
         "evidence": {
           "repo_head_before": "27abee695bccdb9446f03bcb0159abe3608d006b",
           "candidate_basis": "Repository manifest contains canonical #14 Bubo virginianus v2 and a later #56 duplicate audit artifact. The canonical #14 v2 lacks explicit trio role labels in the image and uses an early nestling; cycle 4 will preserve v1 user confirmation as history while rebuilding v3 with a source-bounded brancher-stage juvenile and current labeled review-board style.",
@@ -5237,10 +5237,27 @@
           "generated_jpeg_bytes": 641749,
           "generation_wall_seconds": 68.8,
           "initial_review": "PASS. Exact title and all three role labels are legible; exactly three birds; adults use one gray-brown morph with a subtle fullness difference, yellow eyes, white throat, irregular barring and feathered feet gripping the branch. Juvenile has smaller tufts, pale buff mesoptile, a developed dark facial margin, substantially grown folded wing, shorter unfinished tail and two-foot branch support. No flight pose or unsupported anatomy. No edit warranted at original resolution.",
-          "actual_errors": []
+          "actual_errors": [],
+          "reviewed_local_source": "/workspace/scratch/e49f444b0b9e/owl-pet/production/reviewed/14-bubo-virginianus-v3-reviewed-source.png",
+          "reviewed_source_png_sha256": "39eb73b53840a278a500c6554c9affb2155c53842e86088710ca0682f1118897",
+          "reviewed_source_png_bytes": 3034213,
+          "reviewed_jpeg_sha256": "ae4d09e1dc5a233fa4de83aea72a535e894524560a074e157aa4b305c7536487",
+          "reviewed_jpeg_bytes": 641749,
+          "concept_sha256": "b1bb7e7b209157f3754fe5779508e2d36d80a7a8cac58cb10ab2607d03af6bb1",
+          "concept_bytes": 185767,
+          "concept_dimensions": "680x453 sRGB",
+          "edit_count": 0,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "review_findings": [
+            "Original 1536x1024 source and 680x453 derivative were both viewed.",
+            "Exact title, scientific name and ADULT MALE / ADULT FEMALE / JUVENILE labels are legible; exactly three birds.",
+            "Adults share one gray-brown morph; female is only subtly fuller, with no sex-color split. Yellow eyes, white throat, irregular underpart barring, feathered toes and natural two-foot support pass.",
+            "Juvenile has open eyes, pale buff fluffy mesoptile, developed dark face margin, reduced tufts, substantially grown folded wing, shorter unfinished tail and stable two-foot branch support; no launch or flight pose.",
+            "No generated defect required an edit. The apparent advanced wing development is retained because the chosen 5–6/6-week evidence explicitly supports substantially grown to nearly complete wing feathers while tail remains unfinished."
+          ]
         }
       },
-      "last_updated_at": "2026-10-28T07:38:51.000+08:00",
+      "last_updated_at": "2026-10-28T07:39:15.000+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5264,7 +5281,8 @@
         "2026-10-28T06:40:58.186+08:00: invocation ended after 1 verified cycle (batch cumulative 3/6). No platform timeout telemetry was observed. Next-cycle selection was not guessed: repository tree has no canonical knowledge/species roster entries for 170–200 and only the newly created #201 above that range; historical STATUS priority mentions (#109/#84/#117/#128) are superseded by later manifest v8/v7/v8/v7 entries. External Mikkola sequence after Mantanani immediately includes already archived canonical species such as #23 Psiloscops flammeolus and #18 Megascops kennicottii, so assigning a guessed #202 would risk duplicate credit. next_cycle remains 4, no active lease.",
         "2026-10-28T07:33:27.000+08:00: cycle4 STARTED canonical #14 Bubo virginianus v3 SCIENCE_REVISION; #56 is retained only as a historical duplicate audit artifact and is not credited. Lease expires 2026-10-28T07:48:27.000+08:00; no production credit.",
         "2026-10-28T07:36:10.000+08:00: cycle4 #14 Bubo virginianus v3 RESEARCH_READY; 3 new/2 reused sources, including accessible Mikkola printed pp.262/264 (PDF pp.264/266) and primary postnatal study. Full prompt persisted; science false; lease renewed.",
-        "2026-10-28T07:38:51.000+08:00: cycle4 #14 v3 IMAGE_GENERATED after 68.8s observed wait. 1536x1024 PNG SHA-256 39eb73b5…; original-resolution review found exact text/count/support and evidence-bounded six-week brancher geometry; no edit required. Lease renewed; no cycle credit."
+        "2026-10-28T07:38:51.000+08:00: cycle4 #14 v3 IMAGE_GENERATED after 68.8s observed wait. 1536x1024 PNG SHA-256 39eb73b5…; original-resolution review found exact text/count/support and evidence-bounded six-week brancher geometry; no edit required. Lease renewed; no cycle credit.",
+        "2026-10-28T07:39:15.000+08:00: cycle4 #14 v3 REVIEWED PASS_WITH_LIMITATIONS. Full master and 680x453 derivative viewed; no edit required because the evidence-bounded brancher correctly retains substantially grown folded wings and shorter tail. Science false; lease renewed."
       ]
     }
   ],
@@ -5360,7 +5378,7 @@
     "2026-10-28T03:54:20.820+08:00: cycle3 #178 IMAGE_GENERATED after 50.3s; original and derivative opened; no edit warranted.",
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false."
   ],
-  "updated_at": "2026-10-28T07:38:51.000+08:00",
+  "updated_at": "2026-10-28T07:39:15.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -5376,10 +5394,10 @@
     "species": "#14 Bubo virginianus",
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "heartbeat_at": "2026-10-28T07:38:51.000+08:00",
-    "expires_at": "2026-10-28T07:53:51.000+08:00"
+    "heartbeat_at": "2026-10-28T07:39:15.000+08:00",
+    "expires_at": "2026-10-28T07:54:15.000+08:00"
   },
-  "last_updated_at": "2026-10-28T07:38:51.000+08:00",
+  "last_updated_at": "2026-10-28T07:39:15.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

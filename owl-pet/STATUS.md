@@ -1,3 +1,11 @@
+## 2026-10-27 #164 *Athene noctua* v1
+
+- Result: NEW concept archived; unique species rises 163→164/251.
+- Image: [design/concepts/164-athene-noctua-v1.png](design/concepts/164-athene-noctua-v1.png)
+- Blob `bacb2413632aa17489fffa0c70fa469b20138ffe`; 1536×1024; 3,296,969 bytes; SHA-256 `86a1b44624cefc4a3e83b404dcea7dc59ab0be0d4f32f21729cc1352106cb329`.
+- Research: 4 new + 1 reused source. One edit softened the 27-day chick wing; exact age progression, iris change and regional variation remain bounded; science false.
+- Run: [production/runs/2026-10-27T1034+0800-cycle-5.md](production/runs/2026-10-27T1034+0800-cycle-5.md)
+
 ## 2026-10-27 #163 *Athene cunicularia* v1
 
 - Result: NEW concept archived; unique species rises 162→163/251.

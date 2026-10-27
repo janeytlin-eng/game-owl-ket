@@ -1,3 +1,9 @@
+## 164 · Little Owl · *Athene noctua* v1
+
+- [Original PNG](concepts/164-athene-noctua-v1.png) · 1536×1024 · 3,296,969 bytes · SHA-256 `86a1b44624cefc4a3e83b404dcea7dc59ab0be0d4f32f21729cc1352106cb329`
+- Git blob `bacb2413632aa17489fffa0c70fa469b20138ffe`. Western European adults, old-orchard stone cavity and a supported 27-day pre-fledging chick passed after one juvenile-wing edit; science pending.
+- [Sources](../research/SOURCE_INDEX.md#164-little-owl--athene-noctua--2026-10-27) · [Run](../production/runs/2026-10-27T1034+0800-cycle-5.md)
+
 ## 163 · Burrowing Owl · *Athene cunicularia* v1
 
 - [Original PNG](concepts/163-athene-cunicularia-v1.png) · 1536×1024 · 536,814 bytes · SHA-256 `8c5d71da652781bd464a731ecdc3999f64bf4d3d0bb85c79e55e6148ee9999f1`

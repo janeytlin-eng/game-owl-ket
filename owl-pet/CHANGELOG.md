@@ -1,3 +1,9 @@
+## 2026-10-27 — #164 *Athene noctua* v1
+
+- Added the first Little Owl concept; unique archived species 163→164/251.
+- Added four new sources and reused Mikkola pp.427–428. The displayed bird is a western European nominate-context 27-day pre-fledging threshold chick, not a flying or independent juvenile.
+- One targeted edit removed the chick's adult-like wing spot row and hard long remiges while preserving the three-bird plate, support and exact labels. Science remains false.
+
 ## 2026-10-27 — #139 *Otus jolandae* v2
 
 - Rebuilt broken v1 layout as a complete three-bird plate and applied one evidence-linked wing/scapular edit.

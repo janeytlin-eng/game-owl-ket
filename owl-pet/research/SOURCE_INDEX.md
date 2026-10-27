@@ -3922,3 +3922,15 @@ Links: [research card](species/171-glaucidium-palmarum.md), [run](../production/
 | TMO-BIRDLIFE-2026 | https://datazone.birdlife.org/species/factsheet/australasian-masked-owl-tyto-novaehollandiae | BirdLife International | read 2026-10-27 | conservation taxonomy | lumped name | BirdLife retains Australasian Masked-owl as *T. novaehollandiae*; Australian Museum/ABSA likewise use *T. n. castanops*. | Explicit conflict preserved; project follows IOC split for current 251 scope, with old/subspecies mapping retained.
 
 Links: [research card](species/172-tyto-castanops.md), [run](../production/runs/2026-10-27T1836+0800-cycle-1.md). Design inference: adults use documented sex-size/colour direction; center bird is a fully supported downy advanced nestling, not a purported species-diagnostic fledgling. Exact age and flight threshold remain unknown; science false.
+
+
+## 2026-10-27 #173 Torotoroka Scops Owl · *Otus madagascariensis* v1
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision |
+|---|---|---|---|---|---|---|---|
+| TSO-MIKKOLA-2013-P145 | *Owls of the World*, printed p.145 / uploaded PDF p.147 | Heimo Mikkola | 2013; read 2026-10-27 | user guide | split adult/immature | 20–22 cm; female >15 g heavier; gray/brown/rufous morphs; short ear tufts, yellow eyes, blackish bill, heavily feathered tarsi; older immature has stronger-barred uppertail-coverts and narrower, more pointed rectrix tips; dry western Madagascar habitat. | Downy chick undescribed; no exact immature age or flight threshold.
+| TSO-RENE-THORSTROM-2009 | https://doi.org/10.5962/p.309872 | L.-A. Rene de Roland & Russell Thorstrom / Bull. African Bird Club | 2009; read 2026-10-27 | primary field note | adult/nest | First documented ground nest: four white eggs in a 20-mm bare depression at Berenty; hatching unconfirmed. Normal records included tree holes averaging 5.8±2.2 m and mean clutch 2.4±0.9 in Tsimembo dry forest. | Rare ground event cannot support a juvenile ground-nest scene; no chick development.
+| TSO-OWLPAGES-2020 | https://www.owlpages.com/owls/species.php?s=450 | Deane Lewis / Owl Pages | updated 2020-10-19; read 2026-10-27 | specialist synthesis | split current name/range | Current split name, short ear tufts, western/southwestern Madagascar range; cites IOC and Rasmussen et al. 2000 taxonomic work. | No juvenile detail or sex measurements.
+| TSO-EBIRD-CLEMENTS-2026 | https://ebird.org/species/torsco1 | Cornell Lab/eBird | accessed 2026-10-27 | institution taxonomic account | lumped subspecies | Clements/eBird uses Madagascar Scops-Owl (Torotoroka), *O. rutilus madagascariensis*. | Explicit authority conflict; project follows IOC split under fixed scope and retains lumped mapping.
+
+Links: [research card](species/173-otus-madagascariensis.md), [run](../production/runs/2026-10-27T1836+0800-cycle-2.md). Design uses a documented older immature on a branch; rare ground-nest evidence is not converted into juvenile habitat. Exact age/flight remain unknown; science false.

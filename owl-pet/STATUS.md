@@ -1433,3 +1433,5 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Research: 4 indexed sources. Mikkola printed p.145/PDF p.147 bounds short tufts, gray morph and an age-unknown older immature; the 2009 primary nest paper documents tree-hole nest heights and one rare egg-only ground nest, which was excluded from the juvenile scene.
 - Review: one targeted ear-tuft edit; exact juvenile age/flight ability and IOC split versus Clements/eBird lump remain unresolved; science false.
 - Run: [production/runs/2026-10-27T1836+0800-cycle-2.md](production/runs/2026-10-27T1836+0800-cycle-2.md)
+
+- 2026-10-27 19:20 +0800 — #173 *Otus madagascariensis* v1 independently verified at archive commit `903d47aad7f74939bc49328f0b0bbdbd8d52028e`; concept/reviewed path resolves to `3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc` (668,345 bytes), edited master to `7d4bfe873126bc35c50176138d11a5c847a1469c` (3,063,679 bytes), and initial master to `848703a4b83b9109b0534ac8938b2ab343a82e51` (3,415,748 bytes). Unique archived species is 173/251; batch 2/6, next cycle 3; science pending.

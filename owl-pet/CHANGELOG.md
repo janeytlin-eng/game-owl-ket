@@ -1,3 +1,9 @@
+## 2026-10-28 — #06 *Asio otus* v3 archive checkpoint
+
+- Rebuilt the older Chinese-only v2 layout as a current labeled evidence-bounded trio board; preserved v1/v2 history.
+- Added 2 stable source entries and reused the primary development study. Mikkola printed pp.504–506/PDF pp.506–508 was read.
+- Original and derivative review passed without edit; formed wing/tail retained under the juvenile account while pose remains preflight. Science false; immutable readback pending.
+
 ## 2026-10-28 — #05 *Strix aluco* v3 archive checkpoint
 
 - Rebuilt the older Chinese-only v2 layout as a current labeled evidence-bounded board; preserved v1/v2 history.

@@ -1,3 +1,11 @@
+## 2026-10-28 #06 *Asio otus* v3 archive checkpoint
+
+- Result: SCIENCE_REVISION ARCHIVED; unique species remains 184/251; immutable readback pending.
+- Image: [design/concepts/06-asio-otus-v3.png](design/concepts/06-asio-otus-v3.png)
+- Research: 2 new and 1 reused stable sources; Mikkola printed pp.504–506/PDF pp.506–508 and the primary growth study bound an approximately 22-day pre-flight brancher.
+- Review: first render passed without edit; full source and 680×453 derivative viewed. Science remains false for exact day, iris transition, continuous feather sequence, display ratio, subspecies and universal nest geometry.
+- Run: [production/runs/20261028T0749+0800-cycle-6.md](production/runs/20261028T0749+0800-cycle-6.md)
+
 ## 2026-10-28 #201 *Otus mantananensis romblonis* v1
 
 - Result: NEW concept VERIFIED; unique species rises 183→184/251.

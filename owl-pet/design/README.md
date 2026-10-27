@@ -1,3 +1,9 @@
+## 06 · Long-eared Owl · *Asio otus* v3
+
+- [Original PNG](concepts/06-asio-otus-v3.png) · 680×453 sRGB indexed PNG · 191,270 bytes · SHA-256 `a9ed851dd50bec6c00e60615cb302fe20c5069c4a5bfc6fa82a8243ec980161e`
+- Git blob `73780f81462ff8b3094a7af355d674dad3782af6`. SCIENCE_REVISION: comparable ochre-brown adults with orange eyes/long tufts and a source-bounded preflight brancher with dark face, incomplete tufts, formed folded wing/tail and two-foot support. First render passed; science pending.
+- [Sources](../research/species/06-asio-otus-v3.md) · [Run](../production/runs/20261028T0749+0800-cycle-6.md)
+
 ## 201 · Mantanani Scops Owl · *Otus mantananensis romblonis* v1
 
 - [Original PNG](concepts/201-otus-mantananensis-v1.png) · 680×453 sRGB indexed PNG · 203,326 bytes · SHA-256 `6ea88a61879de0e5346f9fd32a8ed29f101a9906dd611edce78881e7835aab04`

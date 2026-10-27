@@ -1,7 +1,7 @@
 # 06 · Long-eared Owl · *Asio otus* · v3
 
 - Action: SCIENCE_REVISION
-- Stage: REVIEWED
+- Stage: ARCHIVED
 - Date: 2026-10-28
 - v1/v2 preserved; prior confirmation does not transfer.
 - Science: false.
@@ -21,3 +21,7 @@ Check exact text/count/labels; adult long tufts/orange eyes/face/bill/streaks/sa
 ## Review
 
 Original-resolution render reviewed at 2026-10-28T07:54:02.000+08:00. PASS_WITH_LIMITATIONS; edit count 0. Count/text, adult orange eyes/long tufts/streaks, comparable adult scale, juvenile mesoptile/dark face/incomplete tufts/formed folded wing-tail, two-foot support and no-flight pose all pass. Formed wing/tail was deliberately retained because Mikkola supports that juvenile condition; science remains false for the unknowns above.
+
+## Archive checkpoint
+
+At 2026-10-28T07:56:41.000+08:00, concept `design/concepts/06-asio-otus-v3.png` (680×453, 191,270 bytes, SHA-256 `a9ed851d…`, Git blob `73780f81…`) plus full-resolution indexed generated/reviewed masters were placed in the archive tree. Immutable commit readback is pending; no scientific pass or cycle credit yet.

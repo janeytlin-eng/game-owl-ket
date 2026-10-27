@@ -27,3 +27,9 @@ Seidensticker等2006研究美国蒙大拿52只幼鸟、15巢：初生白绒羽�
 
 ## #06v2 archive
 Actual built-in edit viewed: early chick tan structured disks removed, unstructured white down/graygreeniris retained, nest-supported lowbody and adults preserved visually. Reuse LEO-SEIDENSTICKER-2006 fresh pp982–983; exactage/feathermap/European-Montana correspondence and adultheight pending, sciencefalse. Prior approval v1 retained not transferred. Original2604774bytes SHA2561db9b61edaf27ee3bd643e93d1324ebab73a993c7eab4d764aa2cfb53fdedb8f Gitblobff9b55db488963b3c4f3be288114a4b01ed7c1f5. Remote download verification pending. Unique122/251 unchanged.
+
+## v3 science-revision archive checkpoint (2026-10-28)
+
+Replaced the older generic early-nestling layout with a labeled trio board bounded by Mikkola printed pp.504–506 and Seidensticker et al. 2006. The approximately 22-day brancher is post-nest-departure but preflight: diffuse second down, dark face, incomplete tufts, dark gray-green eyes, formed folded wing/tail, stable two-foot support and no flight pose. Adults remain comparable in display scale; female only subtly fuller. Full source and derivative were viewed; no edit was warranted. Exact day, iris transition, continuous feather sequence, display ratio, subspecies and nest geometry remain unknown; science false.
+
+![v3](../../design/concepts/06-asio-otus-v3.png)

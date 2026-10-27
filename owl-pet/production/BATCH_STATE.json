@@ -4927,42 +4927,42 @@
           "unique_species_increment": 0,
           "commit_sha": "059569c12c883e24af62cf4ed2e853803170c8b8",
           "run_record": "owl-pet/production/runs/2026-10-28T0029+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Strix hadorami",
+          "species_id": 164,
+          "version": 2,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a84179462391b8a7667aa5bcac6c6a8e297ec20e",
+          "run_record": "owl-pet/production/runs/2026-10-28T0029+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "cycle": 4,
-        "owner": "codex-root",
-        "run_id": "2026-10-28T0029+0800-cycle-4",
-        "species": "#164 Strix hadorami",
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T01:52:33.054+08:00",
-        "expires_at": "2026-10-28T02:07:33.054+08:00"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 4,
         "run_id": "2026-10-28T0029+0800-cycle-4",
         "species": "#164 Strix hadorami",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-28T01:52:33.054+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-28T01:53:10.218+08:00",
         "evidence": {
-          "concept_path": "owl-pet/design/concepts/164-strix-hadorami-v2.png",
-          "generated_path": "owl-pet/production/assets/2026-10-28T0029+0800-cycle-4/164-strix-hadorami-v2-generated-master.png",
-          "reviewed_path": "owl-pet/production/assets/2026-10-28T0029+0800-cycle-4/164-strix-hadorami-v2-reviewed-master.png",
+          "archive_commit": "a84179462391b8a7667aa5bcac6c6a8e297ec20e",
+          "tree_sha": "1949af4cbc53a5bf9b1828be87664ca8e5957f9f",
+          "tree_readback_complete": true,
+          "tree_truncated": false,
+          "concept_blob": "c7197a773a59aec5eb8718d9ec4a74d081939ee5",
           "generated_blob": "a5fb70176c691d42125ef47f1ec3b718d7a77bd5",
           "reviewed_blob": "c7197a773a59aec5eb8718d9ec4a74d081939ee5",
-          "size_bytes": 2872415,
           "manifest_entries": 429,
           "unique_species_total": 174,
-          "readback_pending": true,
-          "scientifically_verified": false,
-          "credit": false
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T01:52:33.054+08:00",
+      "last_updated_at": "2026-10-28T01:53:10.218+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -4983,7 +4983,8 @@
         "2026-10-28T01:47:59.000+08:00: cycle4 candidate #165 withdrawn before generation after source re-check found Mikkola explicitly supports adult-like mesoptile wing/tail; no credit. Target changed to #164 Strix hadorami v2 because v1 specified/rendered bright yellow juvenile eyes despite its own unknown iris chronology boundary. RESEARCH_READY with 1 new/4 reused/1 corrected source; lease renewed to 02:03.",
         "2026-10-28T01:50:02.000+08:00: cycle4 #164 v2 IMAGE_GENERATED; 1536x1024 master persisted. Original-resolution review: title/count/support and neutral juvenile eye pass, but juvenile has long hard adult-barred remiges; targeted imagegen edit required; lease renewed.",
         "2026-10-28T01:51:28.000+08:00: cycle4 #164 v2 REVIEWED PASS after one targeted juvenile-wing edit. Original-resolution recheck confirms short round soft wing, concealed tail, neutral shaded juvenile eye, full support, exact text/count and adult identity; science false; lease renewed.",
-        "2026-10-28T01:52:33.054+08:00: cycle4 #164 Strix hadorami v2 ARCHIVED tree prepared: concept/reviewed path share blob c7197a773a59aec5eb8718d9ec4a74d081939ee5; generated blob a5fb70176c691d42125ef47f1ec3b718d7a77bd5; manifest 428→429; unique remains 174/251; independent readback pending. Stage timestamps normalized to GitHub commit times."
+        "2026-10-28T01:52:33.054+08:00: cycle4 #164 Strix hadorami v2 ARCHIVED tree prepared: concept/reviewed path share blob c7197a773a59aec5eb8718d9ec4a74d081939ee5; generated blob a5fb70176c691d42125ef47f1ec3b718d7a77bd5; manifest 428→429; unique remains 174/251; independent readback pending. Stage timestamps normalized to GitHub commit times.",
+        "2026-10-28T01:53:10.218+08:00: cycle4 #164 Strix hadorami v2 VERIFIED against archive a84179462391b8a7667aa5bcac6c6a8e297ec20e; complete untruncated tree, blob/path, manifest, source, card, run and batch readback passed. Unique remains 174/251; next_cycle5; lease released."
       ]
     }
   ],

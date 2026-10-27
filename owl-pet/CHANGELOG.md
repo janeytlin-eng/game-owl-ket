@@ -1076,3 +1076,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added/read `DEOW-BENDOV-2017-P285-307`; reused four established sources and corrected v1’s unsupported yellow-iris instruction.
 - Generated #164 v2 and made one targeted edit to remove adult-like juvenile remiges; original-resolution recheck passed.
 - Archived `design/concepts/164-strix-hadorami-v2.png`; manifest 428→429, unique remains 174/251. Independent readback pending.
+
+
+- 2026-10-28T01:53:10.218+08:00 — Verified #164 v2 archive `a84179462391b8a7667aa5bcac6c6a8e297ec20e` by complete commit-pinned tree and metadata readback; batch advanced to 4/6 with no unique-species count change.

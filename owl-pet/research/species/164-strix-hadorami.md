@@ -4,7 +4,7 @@
 - Version: v1
 - Current taxonomy: *Strix hadorami* Kirwan, Schweizer & Copete, 2015
 - Historical source mapping: Mikkola (2013) `Strix butleri` account mainly describes the widespread Levant–Arabia population now assigned to *S. hadorami*; current *S. butleri* is Omani Owl.
-- Production status: ARCHIVED; remote readback pending
+- Production status: VERIFIED archive; scientific calibration pending
 - Scientific status: pending
 
 ## Evidence facts

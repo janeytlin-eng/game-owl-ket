@@ -1354,3 +1354,5 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 15:40 +0800 — NEW #164 *Strix hadorami* v1 archived after one juvenile-wing edit. Current-name diagnosis preserves a uniformly pale sandy facial disc and light rufous cross-barring below, distinct from Omani Owl; adults remain near-equal with only subtle female fullness. The age-unknown pale mesoptile now has a short rounded down-covered wing, hidden tail, weaker talons and full sandstone-ledge support. Historical Mikkola *S. butleri* facts are explicitly mapped only to the widespread population renamed *S. hadorami*. Unique species rises 163→164/251; scientific calibration pending. Image: [164-strix-hadorami-v1.png](design/concepts/164-strix-hadorami-v1.png).
+
+- 2026-10-27 15:42 +0800 — #164 *Strix hadorami* v1 independently verified at archive commit `f4de848f88d4dd33ee7158cadcb22c8e5d796c64`; both concept and reviewed-asset paths resolve to blob `d2cf312ef5bd620242d59721c882ce367f69863b` (753,743 bytes). Unique species total is now 164/251; science remains pending.

@@ -1516,3 +1516,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Research: new2/reused2/corrected0. Komar pp.65–66/Fig.4 and Mikkola p.210 read/viewed; OwlPages/AvesCR read.
 - Review: one texture-only edit reduced mechanical rows while retaining both true adult pale wing bands and the ground defensive fledgling wing-fan. Fine map/age/sequence/sexed dimensions/variation remain unknown; science false.
 - Run: [production/runs/2026-10-27T2126+0800-cycle-4.md](production/runs/2026-10-27T2126+0800-cycle-4.md)
+
+
+- 2026-10-27T22:57:10.000+08:00 — #118 *Megascops cooperi* v4 independently verified at archive `e07603dae6e3cc9e6b54b10c12aa810d43ce5c31`; concept blob `ac37754086ca3feaa2e83fa4294ee17a227e18e0`, reviewed master `f7b9dfc8ac62610a0f817399c39840c8f00b44d9`. Readback passed; unique 174/251; batch 4/6, next cycle 5; science pending.

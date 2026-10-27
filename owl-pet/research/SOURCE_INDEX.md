@@ -3884,3 +3884,16 @@ Design inference: current-name adults plus an age-unknown, pale barred mesoptile
 | SHEO-ITIS-2025 | https://www.itis.gov/servlet/SingleRpt/SingleRpt?categories=All&search_value=Ketupa+shelleyi | ITIS / IOC v15.1 | 2025; read 2026-10-27 | taxonomic index | current/old name | Valid current combination *Ketupa shelleyi*; Mikkola’s *Bubo shelleyi* maps here. | Taxonomy only. |
 
 Links: [research card](species/169-ketupa-shelleyi.md), [run](../production/runs/2026-10-27T1636+0800-cycle-4.md). Exact age, flight ability, nest geometry and quantified sex ratio remain unknown. Scientific verification remains false.
+
+
+## 2026-10-27 #170 Tamaulipas Pygmy-Owl · *Glaucidium sanchezi* v1
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision |
+|---|---|---|---|---|---|---|---|
+| TPO-MIKKOLA-2013-P384 | *Owls of the World*, printed p.384 / uploaded PDF p.386 | Heimo Mikkola | 2013; read 2026-10-27 | user guide | adult/down/mesoptile | Male olive-brown, female rufous; female only slightly larger/<5 g heavier; yellow eyes; white down; mesoptile gray unspotted crown, pale cinnamon tail-bars and grayer cere; humid montane forest. | No dated growth series, nest or flight threshold. Supports age-unknown mesoptile only. |
+| TPO-FWS-2026 | https://www.fws.gov/species/tamaulipas-pygmy-owl-glaucidium-sanchezi | U.S. Fish & Wildlife Service | accessed 2026-10-27 | government species record | current taxon | Current name *Glaucidium sanchezi* and TSN gateway. | Taxonomy only; no morphology/development. |
+| TPO-ITIS-2026 | https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=SCR&search_topic=TSN&search_value=555452&source=from_print | ITIS | accessed 2026-10-27 | standards taxonomic index | current taxon | Valid species; Lowery & R. J. Newman 1949; TSN 555452. | Taxonomy only. |
+| TPO-AVIBASE-2026 | https://avibase.bsc-eoc.org/species.jsp?avibaseid=7081C015722C860E&lang=EN | Avibase / Bird Studies Canada | accessed 2026-10-27 | taxonomic authority index | current/historical names | Original description and type locality; current-list continuity; historical *G. minutissimum sanchezi* treatment mapped. | Taxonomy/range only. |
+| TPO-COMMONS-ADULT-2017-2019 | https://commons.wikimedia.org/wiki/File:Glaucidium_sanchezi_6273475.jpg ; https://commons.wikimedia.org/wiki/File:Glaucidium_sanchezi_58212759.jpg | Juan Carlos Pérez Magaña; Annika Lindqvist / iNaturalist, Commons | 2017/2019; pages opened 2026-10-27 | observer photographs | adult | Living adult identity/palette cross-check. | No sex measurements, age calibration or juvenile evidence. |
+
+Links: [research card](species/170-glaucidium-sanchezi.md), [run](../production/runs/2026-10-27T1636+0800-cycle-5.md). Design inference: documented male/female colour direction with near-equal display scale; age-unknown mesoptile fully supported, no invented exact age/flight/nest. Scientific verification remains false.

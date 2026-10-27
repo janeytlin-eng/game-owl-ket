@@ -1431,3 +1431,10 @@ Hokkaido nominate adults, a fully supported approximately 50-day late-nestling/j
 
 
 Verification: archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-eng/game-owl-ket/commit/149114821a507934aadb20843a9f643b9751485f); concept blob `8641f14245da409ce2ff92298d21c3ed4d731e6f`; commit-pinned readback passed. Science calibration remains pending.
+
+
+### #172 Tasmanian Masked Owl — v2 science revision (2026-10-28)
+
+[Original 1536×1024 concept](concepts/172-tyto-castanops-v2.png) · [research card](../research/species/172-tyto-castanops.md#v2-science-revision--2026-10-28) · [run record](../production/runs/2026-10-28T0029+0800-cycle-2.md)
+
+Adults retain the evidence-supported male-smaller/paler and female-larger/darker direction. The supported center bird is explicitly an approximate five-week cream-mesoptile nestling with a developed mask and no visible flight feathers. v1 remains preserved; repository integrity readback is pending and science status is not passed.

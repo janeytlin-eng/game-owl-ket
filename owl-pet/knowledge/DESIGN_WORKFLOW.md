@@ -507,3 +507,8 @@ A prompt can specify a modest female-larger direction yet composition and perch 
 ### Regional-taxon exclusion guard (discovered/applied/verified 2026-10-28)
 
 When a primary taxonomic study proposes a split and documents regional diagnostic plumage, use those traits as an explicit exclusion guard for a geographically fixed scene, but do not silently replace the repository's current checklist name. Applied to Hokkaido #161 v2: the continental *doerriesi* white back patch and near-white adult tail were excluded while *Ketupa blakistoni* remained the project name. Original-resolution review confirmed the guard without changing the evidence-supported juvenile stage. This rule is verified for this image only; it is not a universal instruction to adopt every proposed split.
+
+
+### Stage labels must match feather-development evidence (discovered/applied/verified 2026-10-28)
+
+A generic label such as “advanced nestling” can contradict the rendered feather stage even when the image is otherwise plausible. For #172 v2, fresh primary growth evidence showed that an approximately five-week Masked Owl can have thick mesoptile and a well-developed mask while feathers are not yet visible through the down. The correction changed both the label and design boundary instead of inventing visible remiges. Original-resolution review verified this application. This rule does not transfer an exact age across subspecies or individuals; retain approximate wording and science-false status when hatch dates or taxon-specific series are absent.

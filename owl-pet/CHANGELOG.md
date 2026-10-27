@@ -1050,3 +1050,11 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - VERIFIED #161 v2 at archive `149114821a507934aadb20843a9f643b9751485f`; immutable concept/blob/manifest/run/research readback passed. Batch 1/6, next cycle 2; unique total remains 174/251. Corrected stage timestamps to their actual GitHub commit times; no production credit changed.
+
+
+## 2026-10-28 — #172 *Tyto castanops* v2 archive checkpoint
+
+- Reopened v1 and found a stage-label mismatch: an almost uniform downy bird was labeled “advanced nestling.”
+- Added `TMO-DEBUS-WOOD-2007-P49-52` after reading printed pp.49–52; reused three existing evidence anchors without duplicate source records.
+- ImageGen produced one evidence-bounded edit. The 1536×1024 output was opened and reviewed: exactly three birds, correct text/support, thick cream down and developed mask with no visible flight feathers. No second edit was warranted.
+- Archived `design/concepts/172-tyto-castanops-v2.png`; manifest 426→427, unique remains 174/251. Independent readback is still pending.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T00:40:48.861+08:00",
+  "updated": "2026-10-28T00:48:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4456,7 +4456,37 @@
       "archive_note": "Existing v1 opened at original resolution and retained. Built-in imagegen produced v2 in one edit pass; generated and reviewed masters were both opened/rechecked, and all three repository image paths share the exact immutable blob. Commit-pinned archive tree, concept blob, manifest, run and research records read back successfully; v1 remains preserved.",
       "archive_commit": "149114821a507934aadb20843a9f643b9751485f",
       "verified_at": "2026-10-28T00:40:48.861+08:00"
+    },
+    {
+      "id": "172-tyto-castanops-v2",
+      "path": "design/concepts/172-tyto-castanops-v2.png",
+      "species_id": 172,
+      "scientific_name": "Tyto castanops",
+      "historical_names": [
+        "Tyto novaehollandiae castanops",
+        "Strix castanops"
+      ],
+      "common_name": "Tasmanian Masked Owl",
+      "version": 2,
+      "sha256": "fa3b708db420598350a4b28aad72897ec6159b62ab57083175a9d26eb7bbd329",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION after reopening v1. The juvenile label/stage is recalibrated from unsupported 'advanced nestling' to an explicitly approximate five-week nestling, with thick cream mesoptile, a developed facial mask and no feathers visible through the down. Adult male remains smaller/paler and female larger/darker; no fixed height ratio is asserted. Exact castanops chronology and flight threshold remain unknown.",
+      "source_ids": [
+        "TMO-MIKKOLA-2013-P110",
+        "TMO-ABSA-2019-P2",
+        "TMO-AUSMUSEUM-2024",
+        "TMO-AVIBASE-IOC15.2-2026",
+        "TMO-BIRDLIFE-2026",
+        "TMO-DEBUS-WOOD-2007-P49-52"
+      ],
+      "source_index": "research/species/172-tyto-castanops.md#v2-science-revision--2026-10-28",
+      "run_record": "production/runs/2026-10-28T0029+0800-cycle-2.md",
+      "git_blob": "d24b354d6584f5c241c91d94caad486d8ba26ef0",
+      "reviewed_at": "2026-10-28T00:47:00.000+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2845132,
+      "archive_note": "Existing v1 remains preserved. ImageGen edited v1 in one pass; the 1536x1024 output was opened at original resolution. Generated, reviewed and concept paths share the immutable blob. Independent archive readback is pending at this stage."
     }
   ],
-  "updated_at": "2026-10-28T00:40:48.861+08:00"
+  "updated_at": "2026-10-28T00:48:00.000+08:00"
 }

@@ -1550,3 +1550,11 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 ### VERIFIED — #161 v2
 
 Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-eng/game-owl-ket/commit/149114821a507934aadb20843a9f643b9751485f) was read back by immutable tree. The concept resolves to blob `8641f14245da409ce2ff92298d21c3ed4d731e6f`; manifest/run/research records match. Batch is now 1/6, next cycle 2; unique species remains 174/251 and science status remains unverified.
+
+
+## 2026-10-28 cycle 2 — #172 Tasmanian Masked Owl v2 ARCHIVED (verification pending)
+
+- Science revision; unique archived species remains **174/251** and manifest entries become **427**.
+- Existing v1 remains preserved. v2 corrects the center bird from unsupported “advanced nestling” to an evidence-bounded approximate five-week nestling: thick cream mesoptile, developed mask, no visible flight feathers, fully supported in the hollow.
+- Research: 1 new / 3 reused / 1 corrected design inference. New primary source: Debus & Wood 2007, *Australian Field Ornithology* 24:49–53.
+- Concept: [172-tyto-castanops-v2.png](design/concepts/172-tyto-castanops-v2.png). Scientific verification remains false; independent archive readback is pending.

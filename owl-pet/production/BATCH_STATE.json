@@ -4211,41 +4211,47 @@
         {
           "cycle": 3,
           "species": "Aegolius acadicus",
-          "species_id": 162,
-          "version": 1,
-          "action": "NEW",
-          "unique_species_increment": 1,
+          "species_id": 12,
+          "version": 4,
+          "action": "REVISION",
+          "unique_species_increment": 0,
           "commit_sha": "94b4f02b3bda4c638e9e261f5caa47d8545bf720",
           "archive_commit": "94b4f02b3bda4c638e9e261f5caa47d8545bf720",
           "image_git_blob": "0f3c9853a4c8e6ad89da62eea8a944f8afea7800",
           "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-3.md",
-          "verified_at": "2026-10-27T11:48:59.871+08:00"
+          "verified_at": "2026-10-27T11:48:59.871+08:00",
+          "canonical_path": "owl-pet/design/concepts/12-aegolius-acadicus-v4.png",
+          "duplicate_path_preserved": "owl-pet/design/concepts/162-aegolius-acadicus-v1.png"
         },
         {
           "cycle": 4,
           "species": "Athene cunicularia",
-          "species_id": 163,
-          "version": 1,
-          "action": "NEW",
-          "unique_species_increment": 1,
+          "species_id": 9,
+          "version": 3,
+          "action": "REVISION",
+          "unique_species_increment": 0,
           "commit_sha": "43900131643b570a3c29d55a67d917752870bbe8",
           "archive_commit": "43900131643b570a3c29d55a67d917752870bbe8",
           "image_git_blob": "01d65dd5c87b50d053e1b347e60d950d19a19015",
           "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-4.md",
-          "verified_at": "2026-10-27T12:04:00.000+08:00"
+          "verified_at": "2026-10-27T12:04:00.000+08:00",
+          "canonical_path": "owl-pet/design/concepts/09-athene-cunicularia-v3.png",
+          "duplicate_path_preserved": "owl-pet/design/concepts/163-athene-cunicularia-v1.png"
         },
         {
           "cycle": 5,
           "species": "Athene noctua",
-          "species_id": 164,
-          "version": 1,
-          "action": "NEW",
-          "unique_species_increment": 1,
+          "species_id": 4,
+          "version": 4,
+          "action": "REVISION",
+          "unique_species_increment": 0,
           "commit_sha": "adb5dea2140784d9dacf070009d8955bd54cc0fe",
           "archive_commit": "adb5dea2140784d9dacf070009d8955bd54cc0fe",
           "image_git_blob": "bacb2413632aa17489fffa0c70fa469b20138ffe",
           "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-5.md",
-          "verified_at": "2026-10-27T12:35:00.000+08:00"
+          "verified_at": "2026-10-27T12:35:00.000+08:00",
+          "canonical_path": "owl-pet/design/concepts/04-athene-noctua-v4.png",
+          "duplicate_path_preserved": "owl-pet/design/concepts/164-athene-noctua-v1.png"
         }
       ],
       "next_cycle": 6,
@@ -4254,8 +4260,8 @@
         "cycle": 5,
         "stage": "VERIFIED",
         "species": "Athene noctua",
-        "species_id": 164,
-        "version": 1,
+        "species_id": 4,
+        "version": 4,
         "run_id": "2026-10-27T1034+0800-cycle-5",
         "at": "2026-10-27T12:35:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-5.md",
@@ -4267,9 +4273,12 @@
           "sha256": "86a1b44624cefc4a3e83b404dcea7dc59ab0be0d4f32f21729cc1352106cb329",
           "manifest_readback": true,
           "scientifically_verified": false
-        }
+        },
+        "canonical_path": "owl-pet/design/concepts/04-athene-noctua-v4.png",
+        "duplicate_path_preserved": "owl-pet/design/concepts/164-athene-noctua-v1.png",
+        "reclassified_at": "2026-10-27T12:38:00.000+08:00"
       },
-      "last_updated_at": "2026-10-27T12:35:00.000+08:00",
+      "last_updated_at": "2026-10-27T12:38:00.000+08:00",
       "audit_notes": [
         "2026-10-27T10:34:00.000+08:00: new batch cycle 1 STARTED for unarchived #160 Tyto inexspectata v1; no prior incomplete batch or active lease. Project scope remains 251. Repository stored timestamps from the preceding batch are ahead of this invocation clock; commit order is authoritative.",
         "2026-10-27T10:36:00.000+08:00: cycle 1 RESEARCH_READY; 4 sources read/indexed (IOC checklist page result, 2023 Naturalis type catalogue, Cornell/eBird account, Owl Pages synthesis). Full prompt persisted; exact juvenile age, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; lease renewed.",
@@ -4300,7 +4309,8 @@
         "2026-10-27T12:11:00.000+08:00: cycle 5 IMAGE_GENERATED; first plate viewed. Text/adults/cavity/support pass; 27-day chick's folded wing has crisp adult-style marks/hard layered tips, so one targeted edit is required. Blob 7dd7f7d763f1daf9b095d7c11808dd603af339aa; lease renewed.",
         "2026-10-27T12:31:30.000+08:00: cycle 5 REVIEWED PASS after one targeted center-chick wing edit. The 27-day chick now has a shorter, rounder, softer developing folded wing with diffuse irregular flecks; repeated adult spot rows and hard long remiges were removed. Title, labels, adults, feet/support, cavity and farmland remained intact. Reviewed blob bacb2413632aa17489fffa0c70fa469b20138ffe; science remains pending; lease renewed.",
         "2026-10-27T12:34:00.000+08:00: cycle 5 ARCHIVED pending independent readback; concept/reviewed asset blob bacb2413632aa17489fffa0c70fa469b20138ffe; manifest/status/design index/changelog/workflow lesson updated; lease renewed.",
-        "2026-10-27T12:35:00.000+08:00: cycle 5 VERIFIED; immutable archive maps concept/reviewed asset to bacb2413632aa17489fffa0c70fa469b20138ffe (3,296,969 bytes), manifest/run readback passed. Archive adb5dea2140784d9dacf070009d8955bd54cc0fe. Unique species rises 163→164/251; batch advances to 5/6, next_cycle 6; lease released."
+        "2026-10-27T12:35:00.000+08:00: cycle 5 VERIFIED; immutable archive maps concept/reviewed asset to bacb2413632aa17489fffa0c70fa469b20138ffe (3,296,969 bytes), manifest/run readback passed. Archive adb5dea2140784d9dacf070009d8955bd54cc0fe. Unique species rises 163→164/251; batch advances to 5/6, next_cycle 6; lease released.",
+        "2026-10-27T12:38:00.000+08:00: duplicate-detection recovery after full-tree slug check. Cycles 3–5 reclassified as revisions: #12 Aegolius acadicus v4, #09 Athene cunicularia v3, #04 Athene noctua v4. Wrong 162/163/164 paths are preserved for audit but removed from current manifest; canonical paths reuse exact verified blobs. Unique total corrected from reported 164 to 161/251. Batch remains 5/6, next_cycle 6."
       ]
     }
   ],
@@ -4398,7 +4408,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-10-27T12:35:00.000+08:00",
+  "last_updated_at": "2026-10-27T12:38:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -4423,6 +4433,7 @@
     "2026-10-27T12:04:00.000+08:00: cycle 4 VERIFIED #163 Athene cunicularia v1; archive 43900131643b570a3c29d55a67d917752870bbe8, blob 01d65dd5c87b50d053e1b347e60d950d19a19015. Unique 163/251; next_cycle 5.",
     "2026-10-27T12:31:30.000+08:00: resumed expired cycle-5 lease after confirming main HEAD unchanged and no concurrent commit; #164 Athene noctua v1 passed review after one targeted juvenile-wing edit. Reviewed blob bacb2413632aa17489fffa0c70fa469b20138ffe; archive/readback still pending.",
     "2026-10-27T12:34:00.000+08:00: cycle 5 #164 Athene noctua v1 archived pending independent readback; concept blob bacb2413632aa17489fffa0c70fa469b20138ffe; unique count not advanced until VERIFIED.",
-    "2026-10-27T12:35:00.000+08:00: cycle 5 VERIFIED #164 Athene noctua v1; archive adb5dea2140784d9dacf070009d8955bd54cc0fe, blob bacb2413632aa17489fffa0c70fa469b20138ffe. Unique 164/251; next_cycle 6; lease released."
+    "2026-10-27T12:35:00.000+08:00: cycle 5 VERIFIED #164 Athene noctua v1; archive adb5dea2140784d9dacf070009d8955bd54cc0fe, blob bacb2413632aa17489fffa0c70fa469b20138ffe. Unique 164/251; next_cycle 6; lease released.",
+    "2026-10-27T12:38:00.000+08:00: authoritative duplicate recovery corrected cycles 3–5 to revisions of existing #12/#09/#04; unique total is 161/251, not 164. Canonical copies added; old paths retained as audit artifacts."
   ]
 }

@@ -1,3 +1,10 @@
+## Canonical recovery — 2026-10-27
+
+- [#12 *Aegolius acadicus* v4](concepts/12-aegolius-acadicus-v4.png) — exact blob 0f3c9853a4c8e6ad89da62eea8a944f8afea7800; replaces erroneous current-manifest #162 label.
+- [#09 *Athene cunicularia* v3](concepts/09-athene-cunicularia-v3.png) — exact blob 01d65dd5c87b50d053e1b347e60d950d19a19015; replaces erroneous current-manifest #163 label.
+- [#04 *Athene noctua* v4](concepts/04-athene-noctua-v4.png) — exact blob bacb2413632aa17489fffa0c70fa469b20138ffe; replaces erroneous current-manifest #164 label.
+- Misnumbered files remain unmodified as audit artifacts; they are not current manifest entries and add no unique species.
+
 ## 164 · Little Owl · *Athene noctua* v1
 
 - [Original PNG](concepts/164-athene-noctua-v1.png) · 1536×1024 · 3,296,969 bytes · SHA-256 `86a1b44624cefc4a3e83b404dcea7dc59ab0be0d4f32f21729cc1352106cb329`

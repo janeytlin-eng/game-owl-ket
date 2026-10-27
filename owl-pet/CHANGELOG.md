@@ -1,3 +1,7 @@
+## 2026-10-27 — duplicate-number recovery for cycles 3–5
+
+A full repository-tree slug check found that the recent #162 *Aegolius acadicus*, #163 *Athene cunicularia* and #164 *Athene noctua* entries duplicated existing canonical species #12, #09 and #04. They are now canonical revisions #12 v4, #09 v3 and #04 v4. Exact image blobs and the misnumbered files are preserved for audit; current manifest paths use the canonical numbers. Unique progress is corrected to **161/251**, while the batch remains 5/6 because all three were complete researched production revisions.
+
 ## 2026-10-27 — #164 *Athene noctua* v1
 
 - Added the first Little Owl concept; unique archived species 163→164/251.

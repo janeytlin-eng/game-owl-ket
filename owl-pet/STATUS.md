@@ -1,3 +1,11 @@
+## 2026-10-27 authoritative duplicate correction
+
+- Current unique archived species: **161/251**.
+- Cycle 3: #12 *Aegolius acadicus* v4 (revision; canonical image design/concepts/12-aegolius-acadicus-v4.png).
+- Cycle 4: #09 *Athene cunicularia* v3 (revision; canonical image design/concepts/09-athene-cunicularia-v3.png).
+- Cycle 5: #04 *Athene noctua* v4 (revision; canonical image design/concepts/04-athene-noctua-v4.png).
+- Earlier #162/#163/#164 NEW labels below are superseded audit history and do not add unique species.
+
 ## 2026-10-27 #164 *Athene noctua* v1
 
 - Result: NEW concept archived; unique species rises 163→164/251.

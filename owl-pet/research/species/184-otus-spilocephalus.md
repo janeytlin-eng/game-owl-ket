@@ -3,7 +3,7 @@
 - Production target: v1, Taiwan race *O. s. hambroecki*
 - Current species name: *Otus spilocephalus* (Blyth, 1846)
 - Subspecies mapping: *O. s. hambroecki* (Swinhoe, 1870); protonym *Ephialtes Hambroecki*
-- Production stage: ARCHIVED (immutable readback pending)
+- Production stage: VERIFIED archive
 - Scientific verification: false
 
 ## Evidence boundary
@@ -32,3 +32,5 @@ Related run: [cycle 4 replacement](../../production/runs/2026-10-28T0230+0800-cy
 ## v1 production review
 
 One targeted edit corrected adult-like hard juvenile wing/tail feathering. Final review passed the three required stages, same-plumage near-equal adults, evidence-bounded fluffy juvenile, correct dark shaded juvenile iris, natural branch support and non-assertive hollow context. Scientific verification remains false.
+
+Archive commit: `1055aafeee33cef4a1bb09a9c3f96a7caa29ff79`; immutable readback verified concept `b593734d…`, generated `ca687153…`, reviewed `f14cad94…` and all text records.

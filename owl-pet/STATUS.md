@@ -1642,3 +1642,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/184-otus-spilocephalus-v1.png](design/concepts/184-otus-spilocephalus-v1.png)
 - Research: Mikkola printed p.148/PDF p.150, Taiwan National Museum *hambroecki* records/imagery, and Avibase taxonomic crosswalk; three stable source IDs added.
 - Review: one targeted edit shortened and softened juvenile wing/tail. Final board passes exact text/count, same-plumage near-equal adults, adult morphology, fluffy dark-eyed juvenile, two-foot branch support and Taiwan broadleaf-forest/hollow context. Exact age, juvenile iris chronology, flight threshold, nest lining and quantified dimorphism remain unknown. Science false; commit-pinned readback pending.
+
+
+- 2026-10-28T04:48:00.000+08:00 — #184 *Otus spilocephalus* v1 independently verified at archive `1055aafeee33cef4a1bb09a9c3f96a7caa29ff79`; concept `b593734d…`, generated `ca687153…`, reviewed `f14cad94…`, plus manifest/source/card/run/state/STATUS read back. Unique total **179/251**; batch 4/6, next cycle 5. Science false.

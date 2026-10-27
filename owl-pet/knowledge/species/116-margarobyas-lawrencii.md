@@ -19,3 +19,6 @@ Science-calibration revision, unique-species increment 0. Actual 1536×1024 imag
 Sources: new 0, reused 5 (`CBLO-MIK2013-252`, `CBLO-SHERONY-2006`, `CBLO-SHARP-2016`, `CBLO-BOUGLOUAN-CARD`, `CBLO-AOU-2013A11`), corrected 0. Fresh web research was deduplicated. The uploaded guide was located but pages 254–255 yielded no readable content in this invocation, so only the prior actually-read indexed transcription is reused. Exact age, flight ability, continuous feather sequence, fixed sex-size ratio, exact crown feather map and subspecies limits remain unknown; `scientifically_verified=false`.
 
 [Original](../../design/concepts/116-margarobyas-lawrencii-v3.png) · [Research and full prompt](../../research/species/116-margarobyas-lawrencii-v3.md) · [Run](../../production/runs/2026-10-27T2126+0800-cycle-1.md)
+
+
+- 2026-10-27T21:42:00.000+08:00 — v3 independently verified at archive commit `b9667425eed465cccce15ee20bcc535182c927c5`; concept and durable master both resolve to Git blob `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`. Unique species remains 174/251; science remains false.

@@ -1491,3 +1491,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Research: 0 new, 5 reused, 0 corrected source IDs. Fresh external search was deduplicated; the uploaded guide was located but the requested pages returned no readable content, so no new page-read claim was made.
 - Review: first render passed without edit. The v2 residual bright repeated juvenile crown teardrops are absent; legitimate older-stage formed wings, adult identity, bare tarsi/toes and support remain. Exact age/flight/sequence/sex ratio/feather map remain unknown; science false.
 - Run: [production/runs/2026-10-27T2126+0800-cycle-1.md](production/runs/2026-10-27T2126+0800-cycle-1.md)
+
+
+- 2026-10-27T21:42:00.000+08:00 — #116 *Margarobyas lawrencii* v3 independently verified at archive commit `b9667425eed465cccce15ee20bcc535182c927c5`; concept and durable master both resolve to Git blob `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`. Unique archived species remains 174/251; batch 1/6, next cycle 2; science pending.

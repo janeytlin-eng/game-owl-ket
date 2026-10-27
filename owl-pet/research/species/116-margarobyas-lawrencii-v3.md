@@ -55,3 +55,8 @@ The newly generated 1536×1024 RGB master was opened at original detail. All pla
 - Git blob: `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`
 - SHA-256: `6f850d6e13b9bb6414820a8f6a37509c722efa9e0f2b61cfce06d9afa6a591d5`
 - Independent commit-pinned readback pending at ARCHIVED stage.
+
+
+## Independent verification
+
+At 2026-10-27T21:42:00.000+08:00, archive commit `b9667425eed465cccce15ee20bcc535182c927c5` was fetched. The commit-pinned concept and durable master paths both resolve to expected Git blob `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`; manifest, run, batch, species and research records were read back. The connector did not return the binary payload a second time, so this is recorded precisely as commit/path/blob identity verification, not a second byte-for-byte download.

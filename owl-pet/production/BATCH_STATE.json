@@ -4776,22 +4776,24 @@
       "batch_id": "2026-10-27T2126+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "2026-10-27T2126+0800-cycle-1",
-        "heartbeat_at": "2026-10-27T21:39:00.000+08:00",
-        "expires_at": "2026-10-27T21:54:00.000+08:00"
-      },
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Margarobyas lawrencii",
+          "commit_sha": "b9667425eed465cccce15ee20bcc535182c927c5",
+          "run_record": "owl-pet/production/runs/2026-10-27T2126+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 1,
         "run_id": "2026-10-27T2126+0800-cycle-1",
         "species": "#116 Margarobyas lawrencii",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-27T21:39:00.000+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-27T21:42:00.000+08:00",
         "evidence": {
           "preflight_correction": "The STARTED candidate #117 v4 was stale: main already contains #117 v8, archived and independently verified at 35d48a0b45817c14dbab044e28957bfeafde7e0c. No #117 image was generated.",
           "target_reason": "#116 v2 manifest/card explicitly retain faint bright ivory teardrop-like crown tips as a priority scientific-calibration item.",
@@ -4829,16 +4831,30 @@
           "archive_pending_commit": true,
           "concept_path": "owl-pet/design/concepts/116-margarobyas-lawrencii-v3.png",
           "image_git_blob": "49d4e1e15d4f9edeaf056a9016dc73e6878835e4",
-          "manifest_versions_after_archive": 420
+          "manifest_versions_after_archive": 420,
+          "archive_commit": "b9667425eed465cccce15ee20bcc535182c927c5",
+          "concept_git_blob": "49d4e1e15d4f9edeaf056a9016dc73e6878835e4",
+          "master_git_blob": "49d4e1e15d4f9edeaf056a9016dc73e6878835e4",
+          "commit_pinned_readback": {
+            "concept": true,
+            "master": true,
+            "manifest": true,
+            "run_record": true,
+            "batch_state": true,
+            "species_card": true,
+            "research_record": true
+          },
+          "concept_display_url": "https://github.com/janeytlin-eng/game-owl-ket/blob/b9667425eed465cccce15ee20bcc535182c927c5/owl-pet/design/concepts/116-margarobyas-lawrencii-v3.png"
         }
       },
-      "last_updated_at": "2026-10-27T21:39:00.000+08:00",
+      "last_updated_at": "2026-10-27T21:42:00.000+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
         "2026-10-27T21:34:00.000+08:00: IMAGE_GENERATED for #116 v3. Built-in imagegen produced one 1536x1024 RGB master, 3,144,863 bytes, SHA-256 6f850d6e13b9bb6414820a8f6a37509c722efa9e0f2b61cfce06d9afa6a591d5. Generation elapsed 56.2 s as observed by this invocation, not provider telemetry. Actual original-resolution view is recorded next; lease renewed to 2026-10-27T21:49:00.000+08:00.",
         "2026-10-27T21:36:00.000+08:00: REVIEWED #116 v3 master at original 1536x1024 detail. Exact count/text, adult identity/bare legs/support, near-equal adult scale, and subdued non-repeating juvenile crown pattern passed. No edit call warranted. Exact age/flight/sequence/sex ratio/feather map remain unknown; science false. Lease renewed to 2026-10-27T21:51:00.000+08:00.",
-        "2026-10-27T21:39:00.000+08:00: ARCHIVED checkpoint prepared for #116 v3. Concept path reuses reviewed full master blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest grows 419→420 versions; unique species remains 174/251; science false. Independent commit-pinned readback pending. Lease renewed to 2026-10-27T21:54:00.000+08:00."
+        "2026-10-27T21:39:00.000+08:00: ARCHIVED checkpoint prepared for #116 v3. Concept path reuses reviewed full master blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest grows 419→420 versions; unique species remains 174/251; science false. Independent commit-pinned readback pending. Lease renewed to 2026-10-27T21:54:00.000+08:00.",
+        "2026-10-27T21:42:00.000+08:00: VERIFIED cycle 1/6 for #116 Margarobyas lawrencii v3. Archive commit b9667425eed465cccce15ee20bcc535182c927c5 fetched; concept and durable master both resolve to Git blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest/run/batch/species/research records read back. Unique species remains 174/251, manifest versions 420, science false. Lease released; next_cycle=2."
       ]
     }
   ],

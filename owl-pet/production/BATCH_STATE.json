@@ -5028,8 +5028,8 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "2026-10-28T0230+0800-cycle-1",
-        "heartbeat_at": "2026-10-28T03:34:25.693+08:00",
-        "expires_at": "2026-10-28T03:49:25.693+08:00"
+        "heartbeat_at": "2026-10-28T03:35:03.870+08:00",
+        "expires_at": "2026-10-28T03:50:03.870+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5058,7 +5058,20 @@
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49."
-      ]
+      ],
+      "checkpoint": {
+        "stage": "IMAGE_GENERATED",
+        "species_id": 176,
+        "species": "Otus pembaensis",
+        "version": 1,
+        "action": "NEW",
+        "generated_path": "owl-pet/production/assets/2026-10-28T0230+0800-cycle-1/176-otus-pembaensis-v1-generated-master.png",
+        "generated_blob": "e7b9211e12ea5a95caedf851cb6735e816622580",
+        "generated_sha256": "60592c990be890d6146b36136e8b62aa27276f3bb92acf2de6594336fa79530b",
+        "generated_size_bytes": 3397818,
+        "image_generated_commit": "3861d68a3df4a8a891f4a2297a152fe66c8b64b5",
+        "review_finding": "Juvenile wing feathers are too long, stiff and adult-like; targeted edit required before REVIEWED."
+      }
     }
   ],
   "lease": {
@@ -5142,9 +5155,10 @@
     "2026-10-26 14:45 +0800: batch cycle 2 revised and verified #38 Glaucidium nana v2 after one juvenile-wing/tail correction; archive commit 5b1372acb749e1cf4079aadcd0f2a6d387a8232b, Git blob b7fd2bf1878cbabca5424966685ef927cfa8c79d; verification commit 81ab316f63d0abd1c86fb48eec52baf83a3821f3. Unique remains 159/251; batch advances to 2/6, next_cycle 3.",
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251.",
-    "2026-10-28T03:34:25.693+08:00: resumed expired cycle-1 lease for #176 Otus pembaensis v1 after confirming main still at RESEARCH_READY with no later archive commit; existing generated candidate will be inspected before any credit."
+    "2026-10-28T03:34:25.693+08:00: resumed expired cycle-1 lease for #176 Otus pembaensis v1 after confirming main still at RESEARCH_READY with no later archive commit; existing generated candidate will be inspected before any credit.",
+    "2026-10-28T03:35:03.870+08:00: cycle1 #176 IMAGE_GENERATED checkpoint attached at 3861d68; 1536x1024 candidate opened at original resolution. Adults/count/text/support pass; juvenile remiges are too long and adult-like, so REVIEWED remains pending targeted edit."
   ],
-  "updated_at": "2026-10-28T03:34:25.693+08:00",
+  "updated_at": "2026-10-28T03:35:03.870+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -5155,8 +5169,8 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "2026-10-28T0230+0800-cycle-1",
-    "heartbeat_at": "2026-10-28T03:34:25.693+08:00",
-    "expires_at": "2026-10-28T03:49:25.693+08:00"
+    "heartbeat_at": "2026-10-28T03:35:03.870+08:00",
+    "expires_at": "2026-10-28T03:50:03.870+08:00"
   },
   "last_updated_at": "2026-10-28T00:49:00.000+08:00",
   "audit_notes": [

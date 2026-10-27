@@ -5151,8 +5151,8 @@
       "active_lease": {
         "owner": "codex-production",
         "run_id": "2026-10-28T0508+0800-cycle-1",
-        "heartbeat_at": "2026-10-28T05:17:23.532+08:00",
-        "expires_at": "2026-10-28T05:32:23.532+08:00"
+        "heartbeat_at": "2026-10-28T05:18:29.050+08:00",
+        "expires_at": "2026-10-28T05:33:29.050+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5160,8 +5160,8 @@
         "species": "#195 Otus brookii solokensis",
         "version": 1,
         "action": "NEW",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T05:17:23.532+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T05:18:29.050+08:00",
         "evidence": {
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "source_ids_new": [
@@ -5213,15 +5213,26 @@
             "nest geometry",
             "quantified dimorphism",
             "exact individual collar/feather mapping"
-          ]
+          ],
+          "concept_path": "owl-pet/design/concepts/195-otus-brookii-v1.png",
+          "concept_blob": "735ca30291099fea113af9498ea9acf8afc5dd8e",
+          "concept_sha256": "3b0cd1411612159d495fc909d490f35b231df0df0de3521c112e38236fcdab24",
+          "concept_bytes": 669421,
+          "concept_dimensions": "680x453 RGB",
+          "manifest_entry_id": "195-otus-brookii-v1",
+          "manifest_count_before": 437,
+          "manifest_count_after": 438,
+          "provisional_unique_species": "182/251",
+          "archive_readback": "pending"
         }
       },
-      "last_updated_at": "2026-10-28T05:17:23.532+08:00",
+      "last_updated_at": "2026-10-28T05:18:29.050+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
         "2026-10-28T05:14:20.000+08:00: cycle1 #195 v1 IMAGE_GENERATED. Built-in source PNG 1536x1024, 3,129,810 bytes, SHA-256 b371684c…. PNG blob attempt failed validation (HTTP 422 invalid blob); one retry then failed before ref update due missing commit SHA. Full-dimension q90 JPEG encoding adaptation persisted as blob 403adeb52bac72be426106b10333abffe602a810, 537,656 bytes, SHA-256 4f64b7c3…. Review pending; lease renewed.",
-        "2026-10-28T05:17:23.532+08:00: cycle1 #195 v1 REVIEWED after one targeted edit. Adult white forehead/crown geometry was narrowed; three broken pale collars and irregular shaft streaks were restored. Original and derivative checks passed; older juvenile formed wing/tail retained because the Sumatran field photograph supports that stage. Science false; lease renewed."
+        "2026-10-28T05:17:23.532+08:00: cycle1 #195 v1 REVIEWED after one targeted edit. Adult white forehead/crown geometry was narrowed; three broken pale collars and irregular shaft streaks were restored. Original and derivative checks passed; older juvenile formed wing/tail retained because the Sumatran field photograph supports that stage. Science false; lease renewed.",
+        "2026-10-28T05:18:29.050+08:00: cycle1 #195 v1 ARCHIVED tree prepared; concept blob 735ca30291099fea113af9498ea9acf8afc5dd8e, generated 403adeb52bac72be426106b10333abffe602a810, reviewed 83d68129abb1c872c2147352067c69aa6f23bb33; manifest 437→438; provisional unique 182/251. Commit-pinned readback pending; no cycle credit yet."
       ]
     }
   ],
@@ -5317,7 +5328,7 @@
     "2026-10-28T03:54:20.820+08:00: cycle3 #178 IMAGE_GENERATED after 50.3s; original and derivative opened; no edit warranted.",
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false."
   ],
-  "updated_at": "2026-10-28T05:17:23.532+08:00",
+  "updated_at": "2026-10-28T05:18:29.050+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

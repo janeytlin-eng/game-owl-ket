@@ -537,3 +537,11 @@ A generic label such as “advanced nestling” can contradict the rendered feat
 ### Evidence rule: “juvenile resembles adult” plus field-confirmed young
 
 Discovery: for #175, the guide only says the juvenile resembles the adult, while a later primary field-project report confirms parent pairs with three young but provides no photographs, age series or nest. Applied: depict an age-unknown older juvenile with adult-like formed plumage, softer contour, neutral/indeterminate soft parts and complete support; use the observed family context without showing a nest box, cavity or eggs. Verification: the first render violated the unknown juvenile-eye boundary and over-hardened the wing; one targeted edit corrected both and passed original-resolution review. This rule is validated for #175 only and should be reused only when the same two evidence conditions are actually present.
+
+
+### 2026-10-28 阶段实拍优先于机械“幼鸟短翼”规则（#195 v1）
+
+- 发现：防止幼鸟被画成小型成鸟的既有经验容易被机械化为“所有幼鸟都必须短翼、藏尾”，但#195苏门答腊亚种的直接野外实拍显示一个较大幼鸟已有成形折叠翼与尾。
+- 证据：RAJ-MIK2013-P168描述红褐细横斑mesoptile；RAJ-BOWMAN2014-JUV的苏门答腊实拍像素与说明共同显示橙色虹膜、小耳羽、成形折叠翼尾和树枝支撑。实拍不提供精确年龄或飞行能力。
+- 实际应用：#195 v1保留柔软但成形的翼尾，仅修正成年鸟过宽白区与机械颈圈/轴纹，不为了套用通用规则而把幼鸟翼尾缩短。
+- 验证边界：已在#195 v1的1536×1024编辑版和680×453衍生图完成一次视觉复查；只验证“直接阶段证据应覆盖机械短翼默认值”，不证明精确年龄、飞行能力或连续换羽序列，也不泛化到没有同类实拍的物种。

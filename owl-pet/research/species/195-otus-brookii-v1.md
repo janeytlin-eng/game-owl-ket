@@ -30,5 +30,11 @@ Constraints: exactly three owls; accurate orange adult irises; solokensis-specif
 Avoid: borrowed Sunda Scops Owl pattern, yellow eyes, giant size dimorphism, eyelashes or gender props, extra birds, eggs, prey, branch-through-body errors, duplicated poses, exaggerated ear tufts, hard geometric feather tiles, unsupported hatchling details, adult-long rigid juvenile remiges, detached toes, cropped feet, misspelled text.
 ```
 
-## Pending
-IMAGE_GENERATED, original-resolution review, any required targeted edit, archive and immutable readback.
+## Production result
+
+- IMAGE_GENERATED: built-in source PNG 1536×1024, SHA-256 `b371684c45d08dd6c1d22712a4d3355c6dd98fe9c600ed7165bedb7eacd386d8`; durable generated JPEG blob `403adeb52bac72be426106b10333abffe602a810`.
+- REVIEWED: one targeted edit narrowed adult white geometry, naturalized three interrupted pale collars and irregularized shaft streaks; juvenile/environment/count/text preserved.
+- Reviewed source PNG SHA-256 `d1611e4f068879a0350f30386758944e5352f6e199400a7d25ce1dea8fc733ca`; durable reviewed JPEG blob `83d68129abb1c872c2147352067c69aa6f23bb33`.
+- Concept derivative: 680×453 RGB, 669,421 bytes, SHA-256 `3b0cd1411612159d495fc909d490f35b231df0df0de3521c112e38236fcdab24`, Git blob `735ca30291099fea113af9498ea9acf8afc5dd8e`.
+- Review result: PASS_WITH_LIMITATIONS. Scientific verification remains false for the unknowns listed above.
+- Immutable archive readback: pending.

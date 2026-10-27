@@ -1,3 +1,10 @@
+## 2026-10-28 — #195 *Otus brookii solokensis* v1 archive checkpoint
+
+- Added a new evidence-bounded Sumatran Rajah Scops Owl three-bird concept; provisional unique count 182/251 pending immutable readback.
+- Added 4 stable sources after reading/viewing the uploaded guide page, current taxonomy, primary rediscovery record and a Sumatran juvenile field photograph.
+- One targeted edit narrowed overly broad adult forehead/crown white geometry, converted collars to natural interrupted bands and irregularized shaft streaks. The older juvenile's formed wing/tail was deliberately retained because direct field-photo evidence supports that stage.
+- Full reviewed master and 680×453 derivative were opened. Science remains false; commit-pinned readback pending.
+
 ## 2026-10-27 — #129 *Megascops hoyi* v3
 
 - Revised Yungas Screech-Owl after actual v2 review, fresh Mikkola p.228/PDF p.230 reread/page view, current field-photo pages and taxonomic mapping; unique remains 174/251.

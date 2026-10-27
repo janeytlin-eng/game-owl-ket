@@ -1,3 +1,9 @@
+## 195 · Rajah Scops Owl · *Otus brookii solokensis* v1
+
+- [Original PNG](concepts/195-otus-brookii-v1.png) · 680×453 RGB · 669,421 bytes · SHA-256 `3b0cd1411612159d495fc909d490f35b231df0df0de3521c112e38236fcdab24`
+- Git blob `735ca30291099fea113af9498ea9acf8afc5dd8e`. NEW evidence-bounded Sumatran concept: near-equal orange-eyed adults and an older field-photo-bounded mesoptile juvenile. One targeted edit narrowed broad white head geometry and naturalized interrupted collars/shaft streaks. Science pending.
+- [Sources](../research/species/195-otus-brookii-v1.md) · [Run](../production/runs/2026-10-28T0508+0800-cycle-1.md)
+
 ## 129 · Yungas Screech-Owl · *Megascops hoyi* v3
 
 - [Original PNG](concepts/129-megascops-hoyi-v3.png) · 680×453 RGB · 589,162 bytes · SHA-256 `a8d1196ced4a3ea3dc1c7dfdd9fd6189c0b4e5ab2669a0f8d7147cac56394723`

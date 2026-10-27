@@ -1667,3 +1667,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T05:13:00.000+08:00 — #190 *Otus lempiji* v1 independently verified at archive `4707bba21c28cd00b6dc90a0b6967558ddfadcfe`; concept `aec13b92…`, generated `1888bd41…`, reviewed `67e58cf8…`, plus manifest/source/card/run/state/STATUS read back. Unique total **181/251**; batch **6/6 COMPLETE**. Science false.
+
+
+## 2026-10-28 #195 *Otus brookii solokensis* v1
+
+- Result: NEW ARCHIVED; provisional unique species **182/251** pending immutable readback.
+- Image: [design/concepts/195-otus-brookii-v1.png](design/concepts/195-otus-brookii-v1.png)
+- Research: 4 new stable source IDs; Mikkola printed p.168/PDF p.170 pixels and text, the 2021 primary rediscovery paper metadata/institutional report, a Sumatran juvenile field photograph, and current Cornell taxonomy were actually read/viewed with limits.
+- Review: one targeted edit narrowed adult white geometry, broke pale collars and irregularized dark shaft streaks. Exact text/count, natural support, orange adult irises, pale bills, subtle female fullness and the field-photo-bounded older juvenile pass. Exact juvenile age, flight ability, continuous feather sequence, nest geometry, quantified dimorphism and exact individual pattern remain unknown. Science false; immutable readback pending.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T05:13:00.000+08:00",
+  "updated": "2026-10-28T05:18:29.050+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4781,7 +4781,37 @@
       "archive_note": "Built-in imagegen generated the 1536x1024 master. Original and 680x453 derivative were opened; no edit was required. Commit-pinned readback at archive 4707bba2 verified concept aec13b92, generated 1888bd41, reviewed 67e58cf8 and manifest/source/card/run/state/STATUS. Scientific verification remains false.",
       "archive_commit": "4707bba21c28cd00b6dc90a0b6967558ddfadcfe",
       "verified_at": "2026-10-28T05:13:00.000+08:00"
+    },
+    {
+      "id": "195-otus-brookii-v1",
+      "path": "design/concepts/195-otus-brookii-v1.png",
+      "species_id": 195,
+      "scientific_name": "Otus brookii",
+      "subspecies": "Otus brookii solokensis",
+      "historical_names": [
+        "Scops brookii"
+      ],
+      "common_name": "Rajah Scops Owl",
+      "version": 1,
+      "sha256": "3b0cd1411612159d495fc909d490f35b231df0df0de3521c112e38236fcdab24",
+      "scientifically_verified": false,
+      "status": "NEW evidence-bounded Sumatran-race concept. Adults share one plumage and near-equal scale; female is only subtly fuller because the guide gives no weights. Orange eyes, pale bill, long white-inner-web tufts, interrupted pale collars and broad irregular dark shaft streaks follow the race description. The age-unknown older juvenile has orange eyes, small tufts, soft cross-barred mesoptile and a formed folded wing/tail because a directly viewed Sumatran field photograph supports that stage. One targeted edit narrowed overly broad adult white geometry and naturalized the collars/streaks. Exact juvenile age, flight ability, continuous feather sequence, nest geometry, quantified dimorphism and exact individual pattern remain unknown.",
+      "source_ids": [
+        "RAJ-MIK2013-P168",
+        "RAJ-CARD2021-DOI",
+        "RAJ-BOWMAN2014-JUV",
+        "RAJ-BOW2020-TAXON"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--195-rajah-scops-owl--otus-brookii-solokensis-v1",
+      "run_record": "production/runs/2026-10-28T0508+0800-cycle-1.md",
+      "git_blob": "735ca30291099fea113af9498ea9acf8afc5dd8e",
+      "reviewed_at": "2026-10-28T05:17:23.532+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 669421,
+      "archive_note": "Built-in imagegen generated a 1536x1024 master. One targeted edit narrowed adult white geometry, broke the pale collars and irregularized shaft streaks. Final reviewed master and 680x453 concept derivative were opened. Commit-pinned readback pending; scientific verification remains false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-28T02:28:00.000+08:00"
+  "updated_at": "2026-10-28T05:18:29.050+08:00"
 }

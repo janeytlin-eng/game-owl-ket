@@ -4178,3 +4178,14 @@ Reused: BLF-HAYASHI-BR2010, BLF-MIKKOLA-2013-P296, BLF-IOC13-1-2023. The 2022 sp
 - Links: [species card](species/172-tyto-castanops.md#v2-science-revision--2026-10-28) · [run](../production/runs/2026-10-28T0029+0800-cycle-2.md)
 
 Reused source IDs: `TMO-MIKKOLA-2013-P110`, `TMO-ABSA-2019-P2`, and `TMO-AUSMUSEUM-2024`. No duplicate entries were created. The Australian Museum page was freshly read for current adult sex direction, young white/cream color, hollow chamber material and forest/woodland habitat. Scientific verification remains false.
+
+
+## 2026-10-28 #163 Mountain Pygmy Owl · *Glaucidium gnoma* v2 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| MTPO-INAT-PEROTE-2016 | [Northern Pygmy-Owl observation 71536708](https://www.inaturalist.org/observations/71536708) | Noé Hernández García / iNaturalist | photographed 2016-03-17; image and page viewed 2026-10-28 | geolocated community-observation photograph | current *G. gnoma* range; adult; Perote, Veracruz, Mexico | The actually viewed adult is securely perched in oyamel fir and shows a compact untufted silhouette, yellow adult eyes, and fine irregular pale upperpart marks; it does not show the bright, repeated decorative droplet rows seen in v1. | Community-identification photograph, not a specimen series or juvenile study; confidence low–medium and used only as a visual cross-check alongside Mikkola/ORI/Owl Pages. It supplies no juvenile iris, sex ratio, exact size or developmental inference. | [species #163](species/163-glaucidium-gnoma.md); [v2 run](../production/runs/2026-10-28T0029+0800-cycle-3.md) |
+
+**Reused after fresh reading:** `MTPO-MIKKOLA-2013` (printed p.375 / uploaded PDF p.377), `MTPO-ORI-2026` (lines 64–120), `MTPO-OWLPAGES-2020` (lines 50–78) and `MTPO-IOC-2026`. Mikkola supports the gray, unspotted-crown mesoptile but not exact juvenile iris; v2 therefore replaces v1's unsupported bright adult-yellow juvenile iris with a shaded neutral presentation and keeps `scientifically_verified=false`. ORI/Owl Pages plus the viewed Mexico photograph support fine, irregular adult pale marks; v2 removes the mechanical droplet-row treatment.
+
+**Rejected/unverified leads:** Macaulay asset ML629359183 returned an access-denied/bot page and is not counted as read evidence. Deshler 2021 (FAO AGRIS/DOI 10.1676/1559-4491-132.2.352) was read as a nesting-ecology abstract for an Oregon population under historical broad *G. gnoma* usage; it is not transferred to current Mountain Pygmy Owl juvenile plumage or iris.

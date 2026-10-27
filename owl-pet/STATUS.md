@@ -1,8 +1,8 @@
 ## 2026-10-27 #163 *Glaucidium gnoma* v1
 
-- Result: NEW concept archived pending independent readback; unique count is not advanced until VERIFIED.
+- Result: NEW concept VERIFIED; unique species rises 162→163/251.
 - Image: [design/concepts/163-glaucidium-gnoma-v1.png](design/concepts/163-glaucidium-gnoma-v1.png)
-- Git blob `fddd1d0e4ef98732072b32bbbb62de34b6579659`; 1536×1024; 3,220,541 bytes; SHA-256 `05096fd4297ba496d05b0e6e00c1123b2ef67ef09cbafda84e169f84e72b3457`.
+- Archive `1ed365e889864b83cb2fa95d287dabaa851e8f7f`; Git blob `fddd1d0e4ef98732072b32bbbb62de34b6579659`; 1536×1024; 3,220,541 bytes; SHA-256 `05096fd4297ba496d05b0e6e00c1123b2ef67ef09cbafda84e169f84e72b3457`.
 - Research: 4 new verified source records; one inaccessible/ambiguous historical primary lead rejected. Mikkola's explicit mesoptile is used; ORI's undated spotted-head young cue is not merged.
 - Review: one targeted juvenile-wing edit removed regular adult-style white spots and hard long remiges; exact age/iris/flight/continuous feather sequence/cavity geometry remain unknown; `scientifically_verified=false`.
 - Run: [production/runs/2026-10-27T1335+0800-cycle-2.md](production/runs/2026-10-27T1335+0800-cycle-2.md)

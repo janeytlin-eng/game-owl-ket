@@ -2,7 +2,7 @@
 
 - Added a new Mountain Pygmy Owl concept from Mikkola p.375, Owl Research Institute, Owl Pages and IOC v15.2 evidence.
 - Used an age-unknown, unspotted-crown mesoptile juvenile rather than merging an undated older-young cue; one targeted edit removed adult-like white wing spots and hard long remiges.
-- Archived concept/reviewed assets to immutable Git blob `fddd1d0e4ef98732072b32bbbb62de34b6579659`; independent readback remains pending in ARCHIVED.
+- Archived concept/reviewed assets in commit `1ed365e889864b83cb2fa95d287dabaa851e8f7f` to immutable Git blob `fddd1d0e4ef98732072b32bbbb62de34b6579659`; concept path, manifest, run and phase ledger readback passed. Unique species rises 162→163/251.
 
 ## 2026-10-27 — #162 *Glaucidium hoskinsii* v1
 

@@ -1066,3 +1066,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Re-read Mikkola p.375/PDF p.377, ORI, Owl Pages and IOC; actually viewed and indexed one Perote, Veracruz adult observation photograph (`MTPO-INAT-PEROTE-2016`) as a visual-only cross-check. Rejected one access-denied Macaulay lead and one Oregon historical-broad-taxon study for morphological transfer.
 - ImageGen produced v2; original-resolution review found adult-like juvenile wing spots/hard tips, so one targeted edit replaced only the juvenile wing with short soft developing plumage. Recheck passed.
 - Archived `design/concepts/163-glaucidium-gnoma-v2.png`; manifest 427→428, unique remains 174/251. Independent readback is still pending.
+
+- VERIFIED at archive `059569c12c883e24af62cf4ed2e853803170c8b8`: complete-tree readback mapped concept/reviewed to `97c96d2f092be871d27cb9ee53beb77eef9b0a24` and generated master to `23a898f3b03409c05e0ee856a710d358aad83a8f`; cycle3 credited, next cycle4.

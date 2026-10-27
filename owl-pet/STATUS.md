@@ -1569,3 +1569,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Existing v1 remains preserved. v2 removes the unsupported bright adult-yellow juvenile iris, using a shaded neutral-dark uncertainty presentation, and replaces adult-like juvenile wing spots/hard remiges with short soft developing plumage.
 - Research: 1 new visual cross-check / 4 reused / 2 rejected leads. New index entry: `MTPO-INAT-PEROTE-2016`; Mikkola printed p.375/PDF p.377 remains the stage anchor.
 - Concept: [163-glaucidium-gnoma-v2.png](design/concepts/163-glaucidium-gnoma-v2.png). Scientific verification remains false; independent archive readback is pending.
+
+- 2026-10-28T01:40:00.000+08:00 — #163 *Glaucidium gnoma* v2 independently verified at archive `059569c12c883e24af62cf4ed2e853803170c8b8`; concept/reviewed paths map to blob `97c96d2f092be871d27cb9ee53beb77eef9b0a24` (3,195,022 bytes), generated master to `23a898f3b03409c05e0ee856a710d358aad83a8f` (3,393,584 bytes). Manifest/source/card/run readback passed; unique remains 174/251; batch 3/6, next cycle 4; science pending.

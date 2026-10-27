@@ -1445,3 +1445,5 @@ Adults retain the evidence-supported male-smaller/paler and female-larger/darker
 [Original 1536×1024 concept](concepts/163-glaucidium-gnoma-v2.png) · [research index](../research/SOURCE_INDEX.md#2026-10-28-163-mountain-pygmy-owl--glaucidium-gnoma-v2-evidence-increment) · [run record](../production/runs/2026-10-28T0029+0800-cycle-3.md)
 
 v1 remains preserved. v2 retains the fully supported gray, unspotted-crown mesoptile but no longer presents its unknown iris as adult yellow; the visible iris is shaded neutral dark. One targeted edit removed adult-like wing spots and hard long remiges. Adult pale marks are fine/irregular and female fullness remains subtle. Repository readback is pending; science status is not passed.
+
+Verification: archive [059569c12c883e24af62cf4ed2e853803170c8b8](https://github.com/janeytlin-eng/game-owl-ket/commit/059569c12c883e24af62cf4ed2e853803170c8b8); concept blob `97c96d2f092be871d27cb9ee53beb77eef9b0a24`; complete-tree readback passed. Science calibration remains pending.

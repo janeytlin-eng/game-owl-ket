@@ -1086,3 +1086,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added/read `BAJA-COMMONS-KNIGHT-2010`; reused primary nest/current-name sources; corrected unsupported chick iris.
 - Fresh same-style rebuild followed by one targeted chick-wing edit; original-resolution recheck passed.
 - Archived `design/concepts/162-glaucidium-hoskinsii-v2.png`; manifest 429→430, unique 174/251. Readback pending.
+
+
+- 2026-10-28T02:00:12.688+08:00 — Verified #162 v2 archive `2f9734d8f3ade4562b5521b1701a078664738d2c` by complete commit-pinned tree and metadata readback; batch advanced to 5/6 without unique-count change.

@@ -1589,3 +1589,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Science revision; unique remains **174/251**, manifest becomes **430**.
 - 1 new / 3 reused / 1 corrected source decision; v1 bright-yellow unknown chick iris corrected.
 - Concept: [162-glaucidium-hoskinsii-v2.png](design/concepts/162-glaucidium-hoskinsii-v2.png). Readback pending; science false.
+
+
+- 2026-10-28T02:00:12.688+08:00 — #162 v2 verified at archive `2f9734d8f3ade4562b5521b1701a078664738d2c`; complete tree `cfa94bef7da0f520b8fc4d222d95c61b71d9fcab` not truncated; concept/reviewed `96827ea8…`, generated `92e9b61f…`; batch 5/6 next 6; unique 174/251; science pending.

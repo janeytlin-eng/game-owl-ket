@@ -4500,36 +4500,36 @@
       "active_lease": {
         "owner": "codex-owl-pet-production",
         "run_id": "2026-10-27T1636+0800-cycle-2",
-        "heartbeat_at": "2026-10-27T16:47:00.000+08:00",
-        "expires_at": "2026-10-27T17:02:00.000+08:00"
+        "heartbeat_at": "2026-10-27T16:48:10.000+08:00",
+        "expires_at": "2026-10-27T17:03:10.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Ketupa poensis",
         "species_id": 167,
         "version": 1,
         "run_id": "2026-10-27T1636+0800-cycle-2",
-        "at": "2026-10-27T16:47:00.000+08:00",
+        "at": "2026-10-27T16:48:10.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-2.md",
         "evidence": {
-          "reviewed_full_sha256": "770e0496a0786d670a8e786c06ce71a285bb62e71968dc6393e7008fe9c3d190",
-          "archive_sha256": "61e5dcf3199757898d5eb1844fdba0d4ab7b92c11659e7e9350da65bcfcf97d1",
+          "archive_pending_readback": true,
+          "concept_blob": "78b676411efe50dca019930a9a8851bd4ef4a754",
           "asset_blob": "78b676411efe50dca019930a9a8851bd4ef4a754",
           "size_bytes": 2037948,
-          "dimensions": "1536x1024",
-          "edit_count": 0,
+          "sha256": "61e5dcf3199757898d5eb1844fdba0d4ab7b92c11659e7e9350da65bcfcf97d1",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T16:47:00.000+08:00",
+      "last_updated_at": "2026-10-27T16:48:10.000+08:00",
       "audit_notes": [
         "2026-10-27T16:36:30.000+08:00: cycle 1 STARTED then RESEARCH_READY for unarchived #166 Bubo cinerascens v1; 4 sources read/indexed and full prompt persisted. Project scope remains 251; lease expires 2026-10-27T16:51:30.000+08:00.",
         "2026-10-27T16:39:43.000+08:00: cycle 1 IMAGE_GENERATED then REVIEWED PASS after one targeted center-fledgling wing edit. Regular adult-like pale spot rows and hard long remiges were reduced to a shorter, rounder, softer juvenile wing with diffuse flecks. Exact text, adults, support and savanna remained intact. Reviewed archive blob d29baf733b4e8fa3cd7b53c0440724014c17ee6f; lease renewed.",
         "2026-10-27T16:41:30.000+08:00: cycle 1 ARCHIVED pending independent readback; concept path and reviewed asset use exact blob d29baf733b4e8fa3cd7b53c0440724014c17ee6f; manifest/status/design index/changelog/workflow lesson updated; lease renewed.",
         "2026-10-27T16:42:30.000+08:00: cycle 1 VERIFIED; immutable archive tree maps concept and reviewed asset to d29baf733b4e8fa3cd7b53c0440724014c17ee6f (638686 bytes), manifest/source/card/run/status/design readback passed. Archive 480c1129aced33779aa7436e919fc156b3bbbc4d. Unique species rises 165→166/251; batch advances to 1/6, next_cycle 2; lease released.",
         "2026-10-27T16:42:19.000+08:00: cycle 2 STARTED then RESEARCH_READY for #167 Ketupa poensis v1; historical Bubo poensis/Bubo vosseleri duplicate mapping checked, 5 sources indexed, full prompt persisted; lease expires 2026-10-27T16:57:19.000+08:00.",
-        "2026-10-27T16:47:00.000+08:00: cycle 2 IMAGE_GENERATED then REVIEWED PASS with no edit. Exact title/labels, three birds, dark eyes, adult diagnosis, moderate female fullness, supported juvenile and humid forest passed; Mikkola explicitly permits adult-like mesoptile wing/tail pattern. Archive derivative blob 78b676411efe50dca019930a9a8851bd4ef4a754; lease renewed."
+        "2026-10-27T16:47:00.000+08:00: cycle 2 IMAGE_GENERATED then REVIEWED PASS with no edit. Exact title/labels, three birds, dark eyes, adult diagnosis, moderate female fullness, supported juvenile and humid forest passed; Mikkola explicitly permits adult-like mesoptile wing/tail pattern. Archive derivative blob 78b676411efe50dca019930a9a8851bd4ef4a754; lease renewed.",
+        "2026-10-27T16:48:10.000+08:00: cycle 2 ARCHIVED pending readback; concept/reviewed asset blob 78b676411efe50dca019930a9a8851bd4ef4a754; indexes and taxonomy mapping updated; lease renewed."
       ]
     }
   ],
@@ -4610,7 +4610,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T16:47:00.000+08:00",
+  "updated_at": "2026-10-27T16:48:10.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4623,10 +4623,10 @@
     "cycle": 2,
     "owner": "codex-owl-pet-production",
     "run_id": "2026-10-27T1636+0800-cycle-2",
-    "heartbeat_at": "2026-10-27T16:47:00.000+08:00",
-    "expires_at": "2026-10-27T17:02:00.000+08:00"
+    "heartbeat_at": "2026-10-27T16:48:10.000+08:00",
+    "expires_at": "2026-10-27T17:03:10.000+08:00"
   },
-  "last_updated_at": "2026-10-27T16:47:00.000+08:00",
+  "last_updated_at": "2026-10-27T16:48:10.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

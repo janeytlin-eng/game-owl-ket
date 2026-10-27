@@ -1370,3 +1370,10 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - One juvenile-wing edit removed regular adult-like spot rows/hard remiges; exact title/labels, adults, feet/support and open-savanna setting passed reinspection.
 - Evidence: Mikkola printed p.282/PDF p.284; Barlow et al. 2022 primary molecular/breeding study (ground nests, two eggs, 35–43-day nestling period, grayish parent-like fledgling); Torit family figure/context; Avibase concept/synonymy index.
 - Unknowns remain: exact feather chronology and flight threshold within 35–43 days, universal fledgling soft parts, quantified sex ratio. Science status remains false.
+
+
+## 2026-10-27 — #167 Fraser’s Eagle-Owl · *Ketupa poensis* v1
+
+- NEW current-name concept archived; provisional unique total 167/251 pending independent readback.
+- Old-name mapping: Mikkola’s *Bubo poensis* is the western nominate population; former *B. vosseleri* maps to current *K. p. vosseleri* and must not be counted as a separate extant species here.
+- Initial plate passed original-resolution review without edit. Science status remains false; exact juvenile age/flight, continuous feather sequence and nest geometry remain unknown.

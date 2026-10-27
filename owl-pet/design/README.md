@@ -1321,3 +1321,9 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Group: adult male, 35–43 day fledgling, adult female; one continuous open-savanna ground-ledge scene.
 - Review: one targeted juvenile-wing edit; archive derivative re-viewed at 1536×1024. Scientific verification remains pending.
 - Research: [species card](../research/species/166-bubo-cinerascens.md) · [run](../production/runs/2026-10-27T1636+0800-cycle-1.md)
+
+
+### #167 Fraser’s Eagle-Owl · *Ketupa poensis* · v1
+
+- [167-ketupa-poensis-v1.png](concepts/167-ketupa-poensis-v1.png) — adult male, age-unknown mesoptile juvenile, adult female; western nominate rainforest edge.
+- No edit required; original and archive derivative viewed. Current/old-name mapping prevents separate *vosseleri* double count. Scientific verification pending.

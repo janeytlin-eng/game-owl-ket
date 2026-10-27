@@ -462,3 +462,8 @@ When one source explicitly labels mesoptile traits and another gives an undated 
 **Applied:** #166 *Bubo cinerascens* v1 used a 35–43-day fledgling on a low natural ledge. A first-pass adult-like spot row and hard remiges were actively edited to a shorter, softer, diffuse-flecked folded wing.
 
 **Verified effect:** Original-resolution and archive-derivative rechecks confirmed the revised wing, exact text, full feet/support and adult invariants. This validates the rule for this image only; it is not a cross-species developmental template.
+
+
+### Applied and checked — taxonomic lump before numbering (2026-10-27, #167)
+
+When an older guide treats *Bubo poensis* and *Bubo vosseleri* separately but the current list uses *Ketupa poensis* with nominate and vosseleri subspecies, assign one species number, name the depicted population, and preserve the old mapping. This was applied and read back for #167; it prevents a future “Usambara” double count. It does not imply plumage uniformity across subspecies.

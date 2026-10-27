@@ -944,3 +944,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Applied and rechecked one center-fledgling wing edit; preserved adult/text/environment invariants.
 - Added an evidence-backed rule application: a primary-study age range can label a supported fledgling, but does not establish exact flight ability or day-by-day feather chronology.
 - Science status remains false.
+
+
+## 2026-10-27 — #167 Fraser’s Eagle-Owl v1
+
+- Added current-name *Ketupa poensis* concept, five indexed sources and historical *Bubo poensis* / *vosseleri* mapping.
+- Recorded the species-specific adult-like mesoptile wing/tail exception; no image edit required after actual review.

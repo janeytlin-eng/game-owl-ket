@@ -5209,8 +5209,8 @@
         "species": "#06 Asio otus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T07:53:19.000+08:00",
-        "expires_at": "2026-10-28T08:08:19.000+08:00"
+        "heartbeat_at": "2026-10-28T07:54:02.000+08:00",
+        "expires_at": "2026-10-28T08:09:02.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5218,21 +5218,32 @@
         "species": "#06 Asio otus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T07:53:19.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T07:54:02.000+08:00",
         "evidence": {
-          "source_png": "local source retained for review; scratch is not persistent archive",
-          "source_dimensions": "1536x1024",
-          "source_bytes": 3016680,
-          "source_sha256": "25fffb479075c9e26a01ae4586be894762a421314598782a886ddd5ae1e1def3",
-          "generation_wait_seconds": 54.3,
-          "initial_visual_review": "PASS candidate: exact title/labels, exactly three owls, adults share morph and comparable scale, orange eyes/long tufts/streaked underparts, juvenile dark face/gray-green eyes/incomplete tufts/diffuse mesoptile/formed folded wing-tail, stable two-foot support and no flight pose.",
-          "edit_required": false,
-          "edit_decision": "No edit: Mikkola juvenile account explicitly supports adult-like formed flight/tail feathers, while Seidensticker et al. bounds a ~22-day nest-departure brancher before flight; removing the formed wing/tail would contradict the selected stage.",
-          "scientifically_verified": false
+          "result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 0,
+          "reviewed_source_sha256": "25fffb479075c9e26a01ae4586be894762a421314598782a886ddd5ae1e1def3",
+          "checks": {
+            "count_and_text": "PASS",
+            "adult_identity": "PASS",
+            "sex_direction": "PASS: comparable scale; no unsupported giant female",
+            "juvenile_stage": "PASS: mesoptile, dark face, incomplete tufts, formed folded wing and tail",
+            "support_and_action": "PASS: two feet on branch; no flight pose",
+            "nest_and_habitat": "PASS: old stick nest, conifer edge, open meadow"
+          },
+          "decision": "No edit warranted. Formed wing and tail retained because Mikkola supports flight and tail feathers approaching adult pattern in juvenile; primary study still bounds this individual as preflight.",
+          "remaining_unknowns": [
+            "exact individual day",
+            "iris transition",
+            "continuous feather sequence",
+            "measured display ratio",
+            "subspecies",
+            "universal nest geometry"
+          ]
         }
       },
-      "last_updated_at": "2026-10-28T07:53:19.000+08:00",
+      "last_updated_at": "2026-10-28T07:54:02.000+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5268,7 +5279,8 @@
         "2026-10-28T07:48:00.000+08:00: cycle5 VERIFIED #05 Strix aluco v3 at 3330861fb9ef907309fe1f67183135ff4eeae057; immutable readback passed. Unique 184/251; batch 5/6, next_cycle 6; lease released; science false.",
         "2026-10-28T07:49:37.000+08:00: cycle6 STARTED canonical #06 Asio otus v3 SCIENCE_REVISION; prelease screening disclosed, no prior generation/credit; lease expires 2026-10-28T08:04:37.000+08:00.",
         "2026-10-28T07:50:20.000+08:00: cycle6 #06 Asio otus v3 RESEARCH_READY; 2 new/1 reused sources including Mikkola pp.504–506 and Seidensticker et al. 2006; full prompt saved; science false; lease renewed.",
-        "2026-10-28T07:53:19.000+08:00: cycle6 #06 v3 IMAGE_GENERATED after 54.3s observed wait. 1536x1024 PNG SHA-256 25fffb47…; original/full render review passed exact text/count/support and the evidence-bounded ~22-day pre-flight brancher. No edit required; no cycle credit."
+        "2026-10-28T07:53:19.000+08:00: cycle6 #06 v3 IMAGE_GENERATED after 54.3s observed wait. 1536x1024 PNG SHA-256 25fffb47…; original/full render review passed exact text/count/support and the evidence-bounded ~22-day pre-flight brancher. No edit required; no cycle credit.",
+        "2026-10-28T07:54:02.000+08:00: cycle6 #06 v3 REVIEWED PASS_WITH_LIMITATIONS; no edit. Full source viewed; formed wing/tail retained under Mikkola juvenile account while primary study bounds the brancher as preflight. Science false; lease renewed."
       ]
     }
   ],

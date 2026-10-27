@@ -4068,27 +4068,36 @@
           "image_git_blob": "94556a91cd5df558037d6115e3236e3b908dc1ea",
           "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-2.md",
           "verified_at": "2026-10-27T08:22:00.000+08:00"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus silvicola",
+          "species_id": 135,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "c90b33e96d92bf432dfb15ac40bf85f5389d7f09",
+          "archive_commit": "c90b33e96d92bf432dfb15ac40bf85f5389d7f09",
+          "image_git_blob": "cf7ebc005bac01509b396c6cc15818118b4f8671",
+          "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-3.md",
+          "verified_at": "2026-10-27T09:32:00.000+08:00"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "2026-10-27T0728+0800-cycle-3",
-        "heartbeat_at": "2026-10-27T08:42:00.000+08:00",
-        "expires_at": "2026-10-27T08:57:00.000+08:00"
-      },
+      "next_cycle": 4,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Otus silvicola",
         "species_id": 135,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-3",
-        "at": "2026-10-27T08:42:00.000+08:00",
+        "at": "2026-10-27T09:32:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-3.md",
-        "image_git_blob": "cf7ebc005bac01509b396c6cc15818118b4f8671"
+        "image_git_blob": "cf7ebc005bac01509b396c6cc15818118b4f8671",
+        "archive_commit": "c90b33e96d92bf432dfb15ac40bf85f5389d7f09"
       },
-      "last_updated_at": "2026-10-27T08:42:00.000+08:00",
+      "last_updated_at": "2026-10-27T09:32:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
@@ -4107,7 +4116,8 @@
         "2026-10-27T08:30:00.000+08:00: cycle 3 RESEARCH_READY; 2 indexed primary sources freshly reread/reused, 0 new IDs; full prompt persisted; exact immature age/flight remains unknown; lease renewed.",
         "2026-10-27T08:35:00.000+08:00: cycle 3 IMAGE_GENERATED; first output inspected and immature wing/tail corrected; edited/full archive candidate viewed; exact blob cf7ebc005bac01509b396c6cc15818118b4f8671; lease renewed.",
         "2026-10-27T08:39:00.000+08:00: cycle 3 REVIEWED PASS after one immature wing/tail edit; identity, support, labels and habitat checked; science false; lease renewed.",
-        "2026-10-27T08:42:00.000+08:00: cycle 3 ARCHIVED pending independent readback; concept/generated/reviewed use blob cf7ebc005bac01509b396c6cc15818118b4f8671; indexes updated; lease renewed."
+        "2026-10-27T08:42:00.000+08:00: cycle 3 ARCHIVED pending independent readback; concept/generated/reviewed use blob cf7ebc005bac01509b396c6cc15818118b4f8671; indexes updated; lease renewed.",
+        "2026-10-27T09:32:00.000+08:00: expired cycle-3 lease recovered without regeneration; #135 Otus silvicola v2 remote PNG/blob/manifest/archive commit were read back, immutable raw image visibly rendered, and cycle VERIFIED. Unique species remains 159/251; next_cycle 4."
       ]
     }
   ],

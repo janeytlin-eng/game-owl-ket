@@ -55,7 +55,7 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 
 ## v2 science revision — 2026-10-28
 
-Status: IMAGE_GENERATED; review pending; scientific verification: false.
+Status: REVIEWED; archive pending; scientific verification: false.
 
 ### Problem → evidence → planned correction
 
@@ -81,3 +81,10 @@ Edit the supplied Tasmanian Masked Owl concept plate in the same polished semi-r
 
 - 1536×1024 RGB PNG; 2,845,132 bytes; SHA-256 `fa3b708db420598350a4b28aad72897ec6159b62ab57083175a9d26eb7bbd329`; Git blob `d24b354d6584f5c241c91d94caad486d8ba26ef0`.
 - Original-resolution image opened. Explicit checklist review and any needed edit remain pending; no science pass or production credit.
+
+
+### v2 image review
+
+- Original-resolution 1536×1024 checklist passed without a second edit. Exactly three supported birds; exact title/labels; evidence-bounded ~5-week cream-down nestling with developed mask and no visible flight feathers; adult sex direction and Tasmanian hollow habitat retained.
+- Adult-sized juvenile feet were retained because Debus & Wood p.52 states that nestling raptors and owls have adult-sized feet.
+- No unresolved visual defect requires another edit. Evidence limits remain, so scientific verification stays false.

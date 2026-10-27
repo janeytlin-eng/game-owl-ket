@@ -1582,3 +1582,10 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T01:53:10.218+08:00 — #164 *Strix hadorami* v2 independently verified at archive `a84179462391b8a7667aa5bcac6c6a8e297ec20e`; complete tree `1949af4cbc53a5bf9b1828be87664ca8e5957f9f` is not truncated, concept/reviewed blob `c7197a773a59aec5eb8718d9ec4a74d081939ee5`, generated blob `a5fb70176c691d42125ef47f1ec3b718d7a77bd5`. Manifest/source/card/run readback passed; unique 174/251; batch 4/6, next cycle 5; science pending.
+
+
+## 2026-10-28 cycle 5 — #162 Baja Pygmy Owl v2 ARCHIVED (verification pending)
+
+- Science revision; unique remains **174/251**, manifest becomes **430**.
+- 1 new / 3 reused / 1 corrected source decision; v1 bright-yellow unknown chick iris corrected.
+- Concept: [162-glaucidium-hoskinsii-v2.png](design/concepts/162-glaucidium-hoskinsii-v2.png). Readback pending; science false.

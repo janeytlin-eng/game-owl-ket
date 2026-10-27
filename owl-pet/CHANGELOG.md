@@ -1079,3 +1079,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-28T01:53:10.218+08:00 — Verified #164 v2 archive `a84179462391b8a7667aa5bcac6c6a8e297ec20e` by complete commit-pinned tree and metadata readback; batch advanced to 4/6 with no unique-species count change.
+
+
+## 2026-10-28 — #162 *Glaucidium hoskinsii* v2 archive checkpoint
+
+- Added/read `BAJA-COMMONS-KNIGHT-2010`; reused primary nest/current-name sources; corrected unsupported chick iris.
+- Fresh same-style rebuild followed by one targeted chick-wing edit; original-resolution recheck passed.
+- Archived `design/concepts/162-glaucidium-hoskinsii-v2.png`; manifest 429→430, unique 174/251. Readback pending.

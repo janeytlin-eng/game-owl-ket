@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T01:53:10.218+08:00",
+  "updated": "2026-10-28T01:59:34.433+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4548,7 +4548,37 @@
       "archive_note": "v1 preserved. Built-in imagegen generated v2 and one targeted edit shortened/softened the juvenile wing. Both outputs were opened at original resolution. Commit-pinned complete tree maps concept/reviewed to c7197a773a59aec5eb8718d9ec4a74d081939ee5 and generated master to a5fb70176c691d42125ef47f1ec3b718d7a77bd5; manifest/source/card/run readback passed. Scientific verification remains false.",
       "archive_commit": "a84179462391b8a7667aa5bcac6c6a8e297ec20e",
       "verified_at": "2026-10-28T01:53:10.218+08:00"
+    },
+    {
+      "id": "162-glaucidium-hoskinsii-v2",
+      "path": "design/concepts/162-glaucidium-hoskinsii-v2.png",
+      "species_id": 162,
+      "scientific_name": "Glaucidium hoskinsii",
+      "historical_names": [
+        "Glaucidium gnoma hoskinsii",
+        "Cape Pygmy Owl"
+      ],
+      "common_name": "Baja Pygmy Owl",
+      "version": 2,
+      "sha256": "2d53c4f71b1c0d9d2231f34b4717567419bb1d74c76db7ce3ae8ce5b4a0c5c72",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION after original-resolution v1 audit. v2 preserves the primary-record palm-cavity near-fledging stage but removes the unsupported bright adult-yellow chick iris, using neutral shaded uncertainty. One targeted edit removes a crisp adult-like white spot row from the chick's short wing. Exact age, iris colour, continuous feather sequence and flight threshold remain unknown.",
+      "source_ids": [
+        "BAPO-FLORES-MARRON-2025",
+        "BAPO-IOC-2026",
+        "BAPO-MIKKOLA-2013",
+        "BAJA-COMMONS-KNIGHT-2010"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--162-baja-pygmy-owl--glaucidium-hoskinsii-v2-science-revision",
+      "run_record": "production/runs/2026-10-28T0029+0800-cycle-5.md",
+      "git_blob": "96827ea8236c46fd59c3983f023a64f76e5ec991",
+      "reviewed_at": "2026-10-28T01:59:01.219+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2981087,
+      "archive_note": "v1 preserved. Browser became unavailable after v1 visual inspection, so imagegen performed a fresh same-style rebuild, then one targeted chick-wing edit. Both outputs opened at original resolution. Commit-pinned readback pending; science false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-28T01:53:10.218+08:00"
+  "updated_at": "2026-10-28T01:59:34.433+08:00"
 }

@@ -1454,3 +1454,10 @@ Verification: archive [059569c12c883e24af62cf4ed2e853803170c8b8](https://github.
 [Original 1536×1024 concept](concepts/164-strix-hadorami-v2.png) · [research index](../research/SOURCE_INDEX.md#2026-10-28--164-desert-owl--strix-hadorami-v2-science-revision) · [run record](../production/runs/2026-10-28T0029+0800-cycle-4.md)
 
 v1 remains preserved. v2 corrects its unsupported bright adult-yellow juvenile iris to a neutral shaded uncertainty treatment. One targeted edit removes long hard adult-barred juvenile remiges, leaving a short round soft wing, concealed tail and full ledge support. Independent archive readback is pending; science status is not passed.
+
+
+### #162 Baja Pygmy Owl — v2 science revision (2026-10-28)
+
+[Original 1536×1024 concept](concepts/162-glaucidium-hoskinsii-v2.png) · [research index](../research/SOURCE_INDEX.md#2026-10-28--162-baja-pygmy-owl--glaucidium-hoskinsii-v2-science-revision) · [run record](../production/runs/2026-10-28T0029+0800-cycle-5.md)
+
+v1 remains preserved. v2 retains the palm-cavity near-fledging stage but no longer depicts its unknown iris as adult yellow. One edit removes adult-like chick wing spots. Readback pending; science false.

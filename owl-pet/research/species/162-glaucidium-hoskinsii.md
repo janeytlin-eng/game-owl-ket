@@ -45,4 +45,10 @@ Center chick: the evidence-bounded near-fledged young observed at a palm-cavity 
 All birds fully visible with two eyes, one bill, two legs/feet, anatomically natural grips and distinct silhouettes. Natural irregular markings, no cloned symmetry, no prey, no logos, no watermarks, no text beyond the exact title and labels.
 
 ### Status
-RESEARCH_READY; generation pending. Scientific verification remains false.
+ARCHIVED; one targeted chick-wing edit passed original-resolution review. Commit-pinned readback pending. Scientific verification remains false.
+
+
+### v2 visual review
+- First rebuild passed neutral chick-eye, title/count, adults and cavity support, but one visible chick wing retained a crisp adult-like white spot row.
+- One targeted edit removed the spot row and mature feather-tip geometry while preserving a short round down-covered wing, hidden tail and full support.
+- Original-resolution recheck PASS. Science remains false.

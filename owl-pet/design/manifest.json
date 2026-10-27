@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T05:19:16.081+08:00",
+  "updated": "2026-10-28T05:27:35.699+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4811,7 +4811,36 @@
       "archive_note": "Built-in imagegen generated a 1536x1024 master; one targeted edit narrowed excessive adult white geometry and naturalized interrupted collars/shaft streaks while preserving the field-photo-supported older juvenile wing/tail. Full reviewed master and 680x453 concept derivative were opened. Commit-pinned readback at archive f898fb66 verified concept 735ca302, generated 403adeb5, reviewed 83d68129 and manifest/source/card/run/state/STATUS. Scientific verification remains false.",
       "archive_commit": "f898fb66e5473fb0c2c36c53155082ea9b0bad83",
       "verified_at": "2026-10-28T05:19:16.081+08:00"
+    },
+    {
+      "id": "197-otus-megalotis-v1",
+      "path": "design/concepts/197-otus-megalotis-v1.png",
+      "species_id": 197,
+      "scientific_name": "Otus megalotis",
+      "historical_names": [
+        "Otus megalotis megalotis"
+      ],
+      "common_name": "Luzon Lowland Scops Owl",
+      "version": 1,
+      "sha256": "ce9263f99decfcb6dfd71e79aa5614d0336886afb6d4c9ca20128c6c86bc48f8",
+      "scientifically_verified": false,
+      "status": "NEW evidence-bounded Luzon species concept. Adults use one rufous morph; female is only modestly fuller/larger, reflecting the guide's approximate 30 g direction without inventing a fixed ratio. Long tufts, warm orange-brown eyes, horn bill, irregular dark vermiculation, coarse wing bars and arrowhead-like ventral shaft streaks follow the guide. Older juvenile has rufous-buff finely barred mesoptile, warm shaded eye, full support and a soft formed folded wing/short tail. One targeted edit removed an overly long crisp adult-like juvenile wing. Exact age, iris chronology, flight ability, continuous feather sequence, nest geometry and individual variation remain unknown.",
+      "source_ids": [
+        "LLSO-MIKKOLA-2013-P170",
+        "LLSO-MIRANDA-2011-WJO",
+        "LLSO-CLEMENTS-2012-SPLIT",
+        "LLSO-PROJECTNOAH-2013-JUV"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--197-luzon-lowland-scops-owl--otus-megalotis-v1",
+      "run_record": "production/runs/2026-10-28T0508+0800-cycle-2.md",
+      "git_blob": "8be1c0c0982451007910b76da4e5347654bde9ce",
+      "reviewed_at": "2026-10-28T05:26:40.113+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 688003,
+      "archive_note": "One targeted edit shortened/rounded/softened only the juvenile wing while retaining the directly observed older-owlet formed-wing stage. Full reviewed master and 680x453 derivative were opened. Commit-pinned readback pending; science false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-28T05:19:16.081+08:00"
+  "updated_at": "2026-10-28T05:27:35.699+08:00"
 }

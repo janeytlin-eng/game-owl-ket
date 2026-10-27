@@ -5163,8 +5163,8 @@
       "active_lease": {
         "owner": "codex-production",
         "run_id": "2026-10-28T0508+0800-cycle-2",
-        "heartbeat_at": "2026-10-28T05:26:40.113+08:00",
-        "expires_at": "2026-10-28T05:41:40.113+08:00"
+        "heartbeat_at": "2026-10-28T05:27:35.699+08:00",
+        "expires_at": "2026-10-28T05:42:35.699+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5172,8 +5172,8 @@
         "species": "#197 Otus megalotis",
         "version": 1,
         "action": "NEW",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T05:26:40.113+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T05:27:35.699+08:00",
         "evidence": {
           "repo_head_before": "be5bf86390ffaa17d1c33faddda3cabc9332ca0f",
           "candidate_basis": "#196 Otus cnephaeus is deferred from new-species credit because current project taxonomy already maps it as historical O. lempiji cnephaeus under archived #190 Sunda Scops Owl. #197 Otus megalotis is the next roster entry with a guide-described juvenile and no manifest entry.",
@@ -5226,10 +5226,20 @@
             "continuous feather sequence",
             "nest geometry",
             "individual morph variation"
-          ]
+          ],
+          "concept_path": "owl-pet/design/concepts/197-otus-megalotis-v1.png",
+          "concept_blob": "8be1c0c0982451007910b76da4e5347654bde9ce",
+          "concept_sha256": "ce9263f99decfcb6dfd71e79aa5614d0336886afb6d4c9ca20128c6c86bc48f8",
+          "concept_bytes": 688003,
+          "concept_dimensions": "680x453 sRGB",
+          "manifest_entry_id": "197-otus-megalotis-v1",
+          "manifest_count_before": 438,
+          "manifest_count_after": 439,
+          "provisional_unique_species": "183/251",
+          "archive_readback": "pending"
         }
       },
-      "last_updated_at": "2026-10-28T05:26:40.113+08:00",
+      "last_updated_at": "2026-10-28T05:27:35.699+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5240,7 +5250,8 @@
         "2026-10-28T05:20:13.313+08:00: cycle2 STARTED candidate #197 Otus megalotis v1. #196 Otus cnephaeus was not duplicated because archived #190's current taxonomy maps cnephaeus under Sunda Scops Owl. Lease expires 2026-10-28T05:35:13.313+08:00; no production credit.",
         "2026-10-28T05:22:02.681+08:00: cycle2 #197 Otus megalotis v1 RESEARCH_READY; 4 new sources indexed. Mikkola printed p.170/PDF p.172 page pixels viewed; primary split abstract/Cornell update read; juvenile field-photo pixels viewed with community-record limitation. Full prompt persisted; science false; lease renewed to 2026-10-28T05:37:02.681+08:00.",
         "2026-10-28T05:24:26.570+08:00: cycle2 #197 v1 IMAGE_GENERATED after 63.8s observed wall time. 1536x1024 source PNG SHA-256 914c98d6; q90 JPEG blob 1f85b9062b095a780942ae451c488a598dc9f7ea. Original viewed: count/text/support/adult direction pass; juvenile wing too long/crisp and requires edit. Local magick executable absent; convert fallback succeeded. Lease renewed.",
-        "2026-10-28T05:26:40.113+08:00: cycle2 #197 v1 REVIEWED after one juvenile-wing edit (64.9s observed wait). Initial long crisp adult-like wing was shortened/rounded/softened but kept formed for the photographed older stage. Full master and 680x453 derivative passed; science false; lease renewed."
+        "2026-10-28T05:26:40.113+08:00: cycle2 #197 v1 REVIEWED after one juvenile-wing edit (64.9s observed wait). Initial long crisp adult-like wing was shortened/rounded/softened but kept formed for the photographed older stage. Full master and 680x453 derivative passed; science false; lease renewed.",
+        "2026-10-28T05:27:35.699+08:00: cycle2 #197 v1 ARCHIVED tree prepared; concept 8be1c0c0982451007910b76da4e5347654bde9ce, generated 1f85b9062b095a780942ae451c488a598dc9f7ea, reviewed ebccd25029b89be7a5cde52ea1c4f4712a45628e; manifest 438→439; provisional unique 183/251. Readback pending; no credit yet."
       ]
     }
   ],
@@ -5336,7 +5347,7 @@
     "2026-10-28T03:54:20.820+08:00: cycle3 #178 IMAGE_GENERATED after 50.3s; original and derivative opened; no edit warranted.",
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false."
   ],
-  "updated_at": "2026-10-28T05:26:40.113+08:00",
+  "updated_at": "2026-10-28T05:27:35.699+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

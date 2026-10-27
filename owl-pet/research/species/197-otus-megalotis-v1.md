@@ -30,5 +30,9 @@ Constraints: exactly three owls; current Luzon species concept only; rufous morp
 Avoid: Otus everetti or Otus nigrorum traits; Rajah Scops Owl white inner tufts/collars; giant dimorphism; gender props; extra birds; eggs; prey; adult-hard juvenile feather rows; unsupported downy chick; branch-through-body errors; detached toes; cropped feet; duplicated poses; misspelled text.
 ```
 
-## Pending
-IMAGE_GENERATED, original-resolution review, any required targeted edit, archive and immutable readback.
+## Production result
+- IMAGE_GENERATED: source PNG SHA-256 `914c98d601f5982e9a72d29f8a0a2d303e525be2519dca196482abfef45cd7dd`; durable generated JPEG blob `1f85b9062b095a780942ae451c488a598dc9f7ea`.
+- REVIEWED: one targeted juvenile-wing edit; reviewed source PNG SHA-256 `1754db7dfe7108dd6c1d22712a4d3355c6dd98fe9c600ed7165bedb7eacd386d8`; durable reviewed JPEG blob `ebccd25029b89be7a5cde52ea1c4f4712a45628e`.
+- Concept: 680×453 sRGB, 688,003 bytes, SHA-256 `ce9263f99decfcb6dfd71e79aa5614d0336886afb6d4c9ca20128c6c86bc48f8`, Git blob `8be1c0c0982451007910b76da4e5347654bde9ce`.
+- Review: PASS_WITH_LIMITATIONS; science false.
+- Immutable archive readback: pending.

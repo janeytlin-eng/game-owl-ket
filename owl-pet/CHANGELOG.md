@@ -1,3 +1,9 @@
+## 2026-10-28 — #197 *Otus megalotis* v1 archive checkpoint
+
+- Added a new evidence-bounded Luzon Lowland Scops Owl board; provisional unique count 183/251 pending readback.
+- Added 4 stable sources and preserved the *megalotis/everetti/nigrorum* split. One targeted edit softened/shortened the juvenile wing without mechanically erasing the photographed older-stage formed wing.
+- Full reviewed master and 680×453 derivative were opened. Science false; commit-pinned readback pending.
+
 ## 2026-10-28 — #195 *Otus brookii solokensis* v1 archive checkpoint
 
 - Added a new evidence-bounded Sumatran Rajah Scops Owl three-bird concept; provisional unique count 182/251 pending immutable readback.

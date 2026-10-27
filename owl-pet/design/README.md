@@ -1,3 +1,9 @@
+## 197 · Luzon Lowland Scops Owl · *Otus megalotis* v1
+
+- [Original PNG](concepts/197-otus-megalotis-v1.png) · 680×453 sRGB · 688,003 bytes · SHA-256 `ce9263f99decfcb6dfd71e79aa5614d0336886afb6d4c9ca20128c6c86bc48f8`
+- Git blob `8be1c0c0982451007910b76da4e5347654bde9ce`. NEW evidence-bounded rufous-morph concept; female only modestly fuller. One targeted edit softened/shortened the older juvenile's adult-like wing while retaining a formed stage. Science pending.
+- [Sources](../research/species/197-otus-megalotis-v1.md) · [Run](../production/runs/2026-10-28T0508+0800-cycle-2.md)
+
 ## 195 · Rajah Scops Owl · *Otus brookii solokensis* v1
 
 - [Original PNG](concepts/195-otus-brookii-v1.png) · 680×453 RGB · 669,421 bytes · SHA-256 `3b0cd1411612159d495fc909d490f35b231df0df0de3521c112e38236fcdab24`

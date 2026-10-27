@@ -1678,3 +1678,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T05:19:16.081+08:00 — #195 *Otus brookii solokensis* v1 independently verified at archive `f898fb66e5473fb0c2c36c53155082ea9b0bad83`; concept `735ca302…`, generated `403adeb5…`, reviewed `83d68129…`, plus manifest/source/card/run/state/STATUS read back. Unique total **182/251**; batch **1/6**, next cycle 2. Science false.
+
+
+## 2026-10-28 #197 *Otus megalotis* v1
+
+- Result: NEW ARCHIVED; provisional unique species **183/251** pending immutable readback.
+- Image: [design/concepts/197-otus-megalotis-v1.png](design/concepts/197-otus-megalotis-v1.png)
+- Research: 4 new stable source IDs; Mikkola printed p.170/PDF p.172, Miranda et al. primary-study abstract, Cornell split history, and a Rizal owlet field-photo page/pixels were read/viewed with limits.
+- Review: one targeted edit shortened/rounded/softened an overly adult-like juvenile wing while retaining a formed folded wing supported by the photographed older stage. Exact text/count, adult rufous morph, modest female fullness, warm adult eyes, fine-barred juvenile and two-foot support pass. Exact age, iris chronology, flight ability, feather sequence and nest geometry remain unknown. Science false; immutable readback pending.

@@ -1,6 +1,6 @@
 # #171 Colima Pygmy-Owl — *Glaucidium palmarum* v1
 
-Status: RESEARCH_READY; concept pending generation. Scientific verification: false.
+Status: REVIEWED; image generated, edited once and visually passed; archive pending. Scientific verification: false.
 
 ## Source facts
 
@@ -16,3 +16,10 @@ Use Mikkola’s age-unknown mesoptile, fully supported and non-flying, cross-che
 ## Prompt
 
 Create one polished horizontal 3:2 natural-history concept plate for the owl electronic-pet project in the established semi-realistic painterly gouache/watercolor style. Title exactly: “COLIMA PYGMY-OWL · Glaucidium palmarum”. Show exactly three complete birds, fully inside frame and naturally supported, left-to-right with labels exactly: “ADULT MALE”, “JUVENILE — AGE UNKNOWN”, “ADULT FEMALE”. Adults are tiny, round-headed pygmy owls with absolutely no ear tufts, bright yellow eyes, yellowish-horn bill and cere, feathered tarsi, pale yellow bristled toes and dark-tipped horn claws. Both adults grayish tawny-brown above, crown slightly warmer than mantle, densely but irregularly fine white/pale-buff speckling from forehead to nape, paired black false eyes on nape below a cinnamon band, lightly spotted wing coverts, short gray-brown tail with pale bars, pale ochre face with short white eyebrows, off-white underparts with broad cinnamon-brown streaks. Female only subtly fuller/slightly larger, not dramatically taller. Center juvenile is the documented age-unknown mesoptile: paler, softer and fluffier than adults, unspotted gray crown contrasting with brown upperparts, only a few pale forehead flecks, nape false eyes present but no clear cinnamon band below them, shorter rounder down-overlaid developing folded wing without crisp adult spot rows or long hard layered remiges; short tail largely concealed; low non-flying posture with both feet gripping a palm or thorn-forest branch. Background: western Mexico tropical dry/semideciduous thorn forest with dry oak/palm grove cues, warm daylight, no humid cloud forest. Do not show eggs, prey, invented nest contents, extra birds, flight, mature juvenile wing rows, exaggerated sex-size difference, or any text beyond title and three labels.
+
+## Image review
+
+- Initial output issue: center juvenile retained long hard adult-like remiges and crisp white adult spot rows.
+- Applied correction: shortened/rounded/softened the folded juvenile wing, overlaid it with down, removed crisp adult spot rows and kept the tail short and mostly concealed.
+- Reopened edited master and the 680×453 TrueColor derivative. Adult identity, subtle female fullness, supported juvenile posture, exact text and dry western-Mexico habitat passed. Exact juvenile age/flight and confirmed nest remain unknown; science false.
+- Reviewed SHA-256: `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`; Git blob: `9992a410ae54cf579090267f6ebc9bbfa8f76e97`.

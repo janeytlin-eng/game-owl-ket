@@ -37,5 +37,12 @@ Avoid: traits borrowed from O. megalotis, O. everetti, O. nigrorum, or O. mindor
 - REVIEWED: one targeted edit shortened adult tufts and replaced the juvenile's long adult-like wing with a compact down-covered contour. Reviewed source PNG SHA-256 `22b48246e1fb1f18e3765db11735804fbb8751a0f2e6f30f6f2b4f257506c134`; durable reviewed JPEG blob `f4393d3835c096cdd93307d8bc962a5d073f64cc`.
 - Full master and 680×453 derivative viewed; PASS_WITH_LIMITATIONS; science false.
 - Concept: 680×453 sRGB indexed PNG, 203,326 bytes, SHA-256 `6ea88a61879de0e5346f9fd32a8ed29f101a9906dd611edce78881e7835aab04`, Git blob `7263eab1698dfd22fb7f60231f7d869780de17ba`.
-- Immutable archive readback: pending.
+- Immutable archive readback: [adcd5aee](https://github.com/janeytlin-eng/game-owl-ket/commit/adcd5aeeae03e80d1dd60a0954f0f0fed86ab760) passed for concept/generated/reviewed assets and required metadata.
+
+## Immutable archive verification — 2026-10-28T06:38:36.251+08:00
+
+- Archive commit: `adcd5aeeae03e80d1dd60a0954f0f0fed86ab760`.
+- Commit-pinned paths map concept to `7263eab1698dfd22fb7f60231f7d869780de17ba`, generated master to `40a45307b90cfc13b0f68ccc8eeb571b3b1280b2`, and reviewed master to `f4393d3835c096cdd93307d8bc962a5d073f64cc`.
+- Manifest (440 entries), source index, card, run, state, STATUS, knowledge card and workflow rule readback passed.
+- Scientific verification remains false for the documented unknowns.
 - Scientific verification: false.

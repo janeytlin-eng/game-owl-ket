@@ -1,8 +1,9 @@
-## 2026-10-28 — #201 *Otus mantananensis romblonis* v1 archive checkpoint
+## 2026-10-28 — #201 *Otus mantananensis romblonis* v1
 
-- Added a new evidence-bounded Mantanani Scops Owl concept; provisional unique count 184/251 pending immutable readback.
+- Added and commit-pinned verified a new evidence-bounded Mantanani Scops Owl concept; unique count 183→184/251.
 - Added 4 stable sources after reading/viewing institutional identity/taxonomy records, an identified juvenile Photo Ark page and adult Cornell imagery. Uploaded guide was unavailable and no page is claimed.
 - One targeted edit shortened overly prominent adult tufts and replaced the juvenile's long adult-like side wing with a compact down-covered contour. Full reviewed master and 680×453 derivative were opened; science false.
+- Archive: [`adcd5aee`](https://github.com/janeytlin-eng/game-owl-ket/commit/adcd5aeeae03e80d1dd60a0954f0f0fed86ab760).
 
 ## 2026-10-28 — #197 *Otus megalotis* v1 archive checkpoint
 

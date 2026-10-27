@@ -58,4 +58,10 @@ Center juvenile: an age-unknown very pale mesoptile juvenile, fluffy and distinc
 All three birds fully visible with complete feet/support, believable anatomy and distinct silhouettes. Natural irregular markings, no cloned symmetry, no cropped birds, no human objects, no text other than the exact title and three exact role labels, no logos or watermarks.
 
 ### Status
-RESEARCH_READY; generation pending. Scientific verification remains false.
+ARCHIVED; one targeted juvenile-wing edit passed original-resolution review. Independent commit-pinned readback is pending. Scientific verification remains false.
+
+
+### v2 visual review
+- First render: neutral shaded juvenile eye and rock support passed, but the juvenile carried long hard adult-barred remiges.
+- Edit: only the juvenile wing/tail was changed to a short rounded down-covered wing with diffuse markings and concealed tail.
+- Recheck: PASS at 1536×1024 for exact three-bird count/title/labels, adult identity, near-equal adult scale, neutral uncertainty treatment, smaller juvenile talons and continuous rock support. Science remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T01:40:00.000+08:00",
+  "updated": "2026-10-28T01:52:33.054+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4518,7 +4518,37 @@
       "archive_note": "v1 preserved. Built-in imagegen generated v2 and one targeted edit removed adult-like juvenile wing pattern/hard remiges. Both generated and edited results were opened at original resolution. Commit-pinned complete tree readback verified concept/generated/reviewed blobs and manifest/source/card/run records; scientific verification remains false.",
       "archive_commit": "059569c12c883e24af62cf4ed2e853803170c8b8",
       "verified_at": "2026-10-28T01:40:00.000+08:00"
+    },
+    {
+      "id": "164-strix-hadorami-v2",
+      "path": "design/concepts/164-strix-hadorami-v2.png",
+      "species_id": 164,
+      "scientific_name": "Strix hadorami",
+      "historical_names": [
+        "Strix butleri (widespread population in pre-split sources)"
+      ],
+      "common_name": "Desert Owl",
+      "version": 2,
+      "sha256": "8a62b63063a6e1ade484788b2f8c447ddd1401ba1db5cdda6b097e56dab5d712",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION after v1 evidence/prompt audit. v2 removes the unsupported bright adult-yellow iris from the age-unknown pale mesoptile and uses a neutral shaded uncertainty presentation. One targeted edit replaces long hard adult-barred juvenile remiges with a short round soft developing wing and concealed tail. Exact juvenile iris, exact age and universal flight threshold remain unknown.",
+      "source_ids": [
+        "DEOW-MIKKOLA-2013-P318",
+        "DEOW-KIRWAN-2015",
+        "DEOW-IOC-2015-SPLIT",
+        "DEOW-EBIRD-2026",
+        "DEOW-BENDOV-2017-P285-307"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--164-desert-owl--strix-hadorami-v2-science-revision",
+      "run_record": "production/runs/2026-10-28T0029+0800-cycle-4.md",
+      "git_blob": "c7197a773a59aec5eb8718d9ec4a74d081939ee5",
+      "reviewed_at": "2026-10-28T01:51:28.000+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2872415,
+      "archive_note": "v1 preserved. Built-in imagegen generated v2 and one targeted edit shortened/softened the juvenile wing. Both outputs were opened at original resolution. Commit-pinned readback pending; scientific verification remains false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-28T01:40:00.000+08:00"
+  "updated_at": "2026-10-28T01:52:33.054+08:00"
 }

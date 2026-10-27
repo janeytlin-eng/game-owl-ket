@@ -1571,3 +1571,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Concept: [163-glaucidium-gnoma-v2.png](design/concepts/163-glaucidium-gnoma-v2.png). Scientific verification remains false; independent archive readback is pending.
 
 - 2026-10-28T01:40:00.000+08:00 — #163 *Glaucidium gnoma* v2 independently verified at archive `059569c12c883e24af62cf4ed2e853803170c8b8`; concept/reviewed paths map to blob `97c96d2f092be871d27cb9ee53beb77eef9b0a24` (3,195,022 bytes), generated master to `23a898f3b03409c05e0ee856a710d358aad83a8f` (3,393,584 bytes). Manifest/source/card/run readback passed; unique remains 174/251; batch 3/6, next cycle 4; science pending.
+
+
+## 2026-10-28 cycle 4 — #164 Desert Owl v2 ARCHIVED (verification pending)
+
+- Science revision; unique archived species remains **174/251** and manifest entries become **429**.
+- New primary field source `DEOW-BENDOV-2017-P285-307` was read and indexed; four established sources were reused and one internal prompt inference was corrected.
+- Candidate #165 was withdrawn without credit because its apparent adult-like mesoptile wing/tail is explicitly supported by Mikkola.
+- Concept: [164-strix-hadorami-v2.png](design/concepts/164-strix-hadorami-v2.png). Scientific verification remains false; independent archive readback is pending.

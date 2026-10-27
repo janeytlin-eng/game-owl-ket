@@ -1447,3 +1447,10 @@ Adults retain the evidence-supported male-smaller/paler and female-larger/darker
 v1 remains preserved. v2 retains the fully supported gray, unspotted-crown mesoptile but no longer presents its unknown iris as adult yellow; the visible iris is shaded neutral dark. One targeted edit removed adult-like wing spots and hard long remiges. Adult pale marks are fine/irregular and female fullness remains subtle. Repository readback is pending; science status is not passed.
 
 Verification: archive [059569c12c883e24af62cf4ed2e853803170c8b8](https://github.com/janeytlin-eng/game-owl-ket/commit/059569c12c883e24af62cf4ed2e853803170c8b8); concept blob `97c96d2f092be871d27cb9ee53beb77eef9b0a24`; complete-tree readback passed. Science calibration remains pending.
+
+
+### #164 Desert Owl — v2 science revision (2026-10-28)
+
+[Original 1536×1024 concept](concepts/164-strix-hadorami-v2.png) · [research index](../research/SOURCE_INDEX.md#2026-10-28--164-desert-owl--strix-hadorami-v2-science-revision) · [run record](../production/runs/2026-10-28T0029+0800-cycle-4.md)
+
+v1 remains preserved. v2 corrects its unsupported bright adult-yellow juvenile iris to a neutral shaded uncertainty treatment. One targeted edit removes long hard adult-barred juvenile remiges, leaving a short round soft wing, concealed tail and full ledge support. Independent archive readback is pending; science status is not passed.

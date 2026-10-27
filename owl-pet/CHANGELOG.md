@@ -1068,3 +1068,11 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Archived `design/concepts/163-glaucidium-gnoma-v2.png`; manifest 427→428, unique remains 174/251. Independent readback is still pending.
 
 - VERIFIED at archive `059569c12c883e24af62cf4ed2e853803170c8b8`: complete-tree readback mapped concept/reviewed to `97c96d2f092be871d27cb9ee53beb77eef9b0a24` and generated master to `23a898f3b03409c05e0ee856a710d358aad83a8f`; cycle3 credited, next cycle4.
+
+
+## 2026-10-28 — #164 *Strix hadorami* v2 archive checkpoint
+
+- Audited and withdrew #165 revision before generation after species-specific contrary evidence.
+- Added/read `DEOW-BENDOV-2017-P285-307`; reused four established sources and corrected v1’s unsupported yellow-iris instruction.
+- Generated #164 v2 and made one targeted edit to remove adult-like juvenile remiges; original-resolution recheck passed.
+- Archived `design/concepts/164-strix-hadorami-v2.png`; manifest 428→429, unique remains 174/251. Independent readback pending.

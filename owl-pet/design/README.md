@@ -1385,3 +1385,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Initial master showed overlong adult-like juvenile remiges. One center-only edit shortened and softened the wings, hid the long tail and retained full two-foot branch support; edited master and 680×453 derivative were actually viewed and passed.
 - Existing v1–v3 remain preserved. This is a revision/recovery, not a new species; exact juvenile age/flight/continuous feather sequence and quantitative sex ratio remain unknown; science pending.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/107-strix-fulvescens-v4.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-4.md)
+
+
+### #08 Great Gray Owl · *Strix nebulosa* · v4
+
+- [08-strix-nebulosa-v4.png](concepts/08-strix-nebulosa-v4.png) — adult male, recently nest-departed pre-flight juvenile, adult female in mature boreal conifer/meadow-edge habitat.
+- Initial master made the right female read slightly smaller. One targeted edit made only the female subtly fuller/larger; edited master and 680×453 derivative were actually viewed and passed.
+- Existing v1–v3 and v1 approval remain preserved. Exact juvenile age, regional plumage, continuous feather sequence and measured sex ratio remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../knowledge/species/08-strix-nebulosa.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-5.md)

@@ -497,3 +497,8 @@ Do not force every older owl juvenile into either “all down” or “miniature
 ### Applied and checked — recovery revisions must be compared with the latest accepted version (2026-10-27, #107 v4)
 
 A recovered cycle can repeat an already-corrected image failure even when the research prompt contains the right developmental boundary. Before accepting a revision, compare the new plate with the latest manifest status and prior review notes, not only the species sources. #107 v4's first render reintroduced long layered adult-like juvenile remiges that v3 had already removed. One center-only edit restored short down-covered wing buds, concealed the long tail and retained full two-foot support; the edited master and archive derivative were both viewed. This validates the recovery comparison rule for this image only. It does not establish exact age, flight ability, continuous feather sequence or a universal owl-juvenile template; science remains false.
+
+
+### Applied and checked — sex-size direction must survive composition and perspective (2026-10-27, #08 v4)
+
+A prompt can specify a modest female-larger direction yet composition and perch perspective can make the labeled female read smaller. #08 v4’s first render otherwise passed, but the right female’s apparent body volume contradicted the sourced direction. One female-only edit made her subtly fuller/larger without changing species markings, perches, text or juvenile. Both edited master and derivative were viewed. This validates an image-specific review rule: judge apparent size in the final composition, not prompt wording alone. It does not create a universal owl sex ratio; exact measurements remain unknown and science remains false.

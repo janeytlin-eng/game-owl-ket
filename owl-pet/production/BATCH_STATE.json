@@ -4686,8 +4686,8 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "2026-10-27T1836+0800-cycle-5",
-        "heartbeat_at": "2026-10-27T19:22:24.058+08:00",
-        "expires_at": "2026-10-27T19:37:24.058+08:00"
+        "heartbeat_at": "2026-10-27T19:24:20.786+08:00",
+        "expires_at": "2026-10-27T19:39:20.786+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -4695,20 +4695,24 @@
         "species": "#08 Strix nebulosa",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-27T19:22:24.058+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-27T19:24:20.786+08:00",
         "evidence": {
+          "concept_path": "owl-pet/design/concepts/08-strix-nebulosa-v4.png",
+          "concept_blob": "aecd92918328ad2b12cbc3d4af66657fe0577355",
           "generated_master_blob": "c764081fd2e61f87dd055335cc6ee476ccda8c94",
-          "generated_master_sha256_corrected": "3299b15ad713407a321cfffbfebe6e53c1d2d04eacef07f204c3eeb13dd8636d",
           "edited_master_blob": "68da949a9c2094c98be5b2392f287c850b70044b",
-          "edited_master_sha256": "7aa30cc6614000c1b884b432f07abac45eaf4d5ec278bd3225bf6155c8679d5d",
           "reviewed_blob": "aecd92918328ad2b12cbc3d4af66657fe0577355",
-          "reviewed_sha256": "169479f3360a4621d8662c1e44c5d6a4520540b088ad00af98cb791a58697381",
-          "dimensions": "1536x1024 master; 680x453 reviewed",
-          "result": "PASS after one targeted edit; science review remains conceptual/pending external expert calibration."
+          "source_ids": [
+            "GGO-CORNELL-ID-2026",
+            "GGO-WHITFIELD-1997",
+            "OWL-SRC-0053-A"
+          ],
+          "unique_species_total": 174,
+          "independent_readback": "pending"
         }
       },
-      "last_updated_at": "2026-10-27T19:22:24.058+08:00",
+      "last_updated_at": "2026-10-27T19:24:20.786+08:00",
       "audit_notes": [
         "2026-10-27T18:36:00.000+08:00: cycle 1 STARTED for unarchived candidate #172 Tyto castanops v1 after main/manifest/name audit; no active lease or incomplete batch. IOC v15.2-style checklist treatment is split, while BirdLife/Australian authorities often retain T. novaehollandiae castanops; taxonomic conflict must be preserved in RESEARCH_READY. Lease expires 2026-10-27T18:51:00.000+08:00.",
         "2026-10-27T18:38:00.000+08:00: cycle 1 RESEARCH_READY for #172 Tyto castanops v1; 5 sources actually read/indexed. IOC split and BirdLife/Australian lump conflict preserved; white/cream advanced nestling selected with no exact-age/flight claim. Full prompt persisted; lease expires 2026-10-27T18:53:00.000+08:00.",
@@ -4733,7 +4737,8 @@
         "2026-10-27T19:16:26.325+08:00: cycle 5 STARTED for existing #08 Strix nebulosa v4 SCIENCE_REVISION after tree/knowledge audit found v1-v3 and preserved prior user-approved/archived history. Same-executor cycle-4 nested lease was stale relative to VERIFIED checkpoint and replaced. Lease expires 2026-10-27T19:31:26.325+08:00.",
         "2026-10-27T19:17:50.565+08:00: cycle 5 RESEARCH_READY for #08 Strix nebulosa v4; 2 new/1 reused sources actually read. Adult diagnostic and modest female direction bounded; juvenile is recently nest-departed/pre-flight and bark-supported. Exact individual age, regional plumage and feather-sequence geometry remain unknown. Full prompt persisted; lease expires 2026-10-27T19:32:50.565+08:00.",
         "2026-10-27T19:20:06.715+08:00: cycle 5 IMAGE_GENERATED; original 1536×1024 viewed and durably persisted at blob c764081fd2e61f87dd055335cc6ee476ccda8c94 (3221749 bytes). Adult diagnosis/text/count/juvenile support passed; right female reads slightly smaller than male, so one targeted size/fullness edit is required. Lease expires 2026-10-27T19:35:06.715+08:00.",
-        "2026-10-27T19:22:24.058+08:00: cycle 5 REVIEWED PASS after one targeted edit enlarged/fullened only the right adult female. Edited master blob 68da949a9c2094c98be5b2392f287c850b70044b; viewed derivative blob aecd92918328ad2b12cbc3d4af66657fe0577355. Original master SHA-256 corrected to 3299b15a… (earlier run line transcribed 780d826b… despite correct Git blob); correction appended, not overwritten. Lease expires 2026-10-27T19:37:24.058+08:00."
+        "2026-10-27T19:22:24.058+08:00: cycle 5 REVIEWED PASS after one targeted edit enlarged/fullened only the right adult female. Edited master blob 68da949a9c2094c98be5b2392f287c850b70044b; viewed derivative blob aecd92918328ad2b12cbc3d4af66657fe0577355. Original master SHA-256 corrected to 3299b15a… (earlier run line transcribed 780d826b… despite correct Git blob); correction appended, not overwritten. Lease expires 2026-10-27T19:37:24.058+08:00.",
+        "2026-10-27T19:24:20.786+08:00: cycle 5 ARCHIVED pending independent readback. Concept/reviewed blob aecd92918328ad2b12cbc3d4af66657fe0577355 (646045 bytes); initial and edited 1536×1024 masters retained. Manifest/status/design/changelog/card/workflow updated. Revision gives no unique increment; lease expires 2026-10-27T19:39:20.786+08:00."
       ]
     }
   ],
@@ -4819,7 +4824,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T19:22:24.058+08:00",
+  "updated_at": "2026-10-27T19:24:20.786+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4830,8 +4835,8 @@
   "active_lease": {
     "owner": "codex-owl-production",
     "run_id": "2026-10-27T1836+0800-cycle-5",
-    "heartbeat_at": "2026-10-27T19:22:24.058+08:00",
-    "expires_at": "2026-10-27T19:37:24.058+08:00"
+    "heartbeat_at": "2026-10-27T19:24:20.786+08:00",
+    "expires_at": "2026-10-27T19:39:20.786+08:00"
   },
   "last_updated_at": "2026-10-27T19:56:00.000+08:00",
   "audit_notes": [

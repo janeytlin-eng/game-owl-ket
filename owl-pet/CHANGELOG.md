@@ -1004,3 +1004,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added a non-destructive revision/recovery while preserving v1–v3; no unique-species increment.
 - Reused four verified source records, added one current BirdLife taxonomy/status boundary and corrected an initial manifest-field lookup error before cycle credit.
 - First render regressed to overlong adult-like juvenile remiges. One targeted edit restored a down-dominant, low, two-foot-supported juvenile with only short bounded emerging tips. Exact age/flight/continuous feather sequence and sex ratio remain unknown; science false.
+
+
+## 2026-10-27 — #08 *Strix nebulosa* v4
+
+- Added a non-destructive science-calibration revision while preserving v1–v3 and the scope of the v1 user approval; no unique-species increment.
+- Added Cornell adult diagnosis and Whitfield 1997 primary pre-flight-stage evidence; reused FEIS climbing/nest-site synthesis without duplicating its source ID.
+- First render made the right female read smaller. One targeted edit restored only a subtle female fullness/size direction while retaining the bark-supported pre-flight juvenile, text and habitat. Exact age/feather chronology and measured sex ratio remain unknown; science false.

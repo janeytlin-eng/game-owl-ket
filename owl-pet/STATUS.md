@@ -1459,3 +1459,13 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Run: [production/runs/2026-10-27T1836+0800-cycle-4.md](production/runs/2026-10-27T1836+0800-cycle-4.md)
 
 - 2026-10-27T19:11:07.940+08:00 — #107 *Strix fulvescens* v4 independently verified at archive commit `66dcf5a19ee8a3dc94990ddcd6e879c1a85e8e3e`; concept/reviewed path resolves to `9c7bae510567949fac5ee3c4c7747598f43468bf` (671,576 bytes), edited master to `d633d6db86833df54bb7bc4343ca5147a0a8c8ec`, and initial master to `142dd1e74c6ff43627aebcdba0a9dc917f176b75`. Unique archived species remains 174/251; batch 4/6, next cycle 5; science pending.
+
+
+## 2026-10-27 — #08 Great Gray Owl · *Strix nebulosa* v4
+
+- Result: SCIENCE_REVISION concept ARCHIVED; independent readback pending. Unique archived species remains 174/251.
+- Image: [design/concepts/08-strix-nebulosa-v4.png](design/concepts/08-strix-nebulosa-v4.png)
+- Reviewed blob `aecd92918328ad2b12cbc3d4af66657fe0577355`; 680×453 RGB; 646,045 bytes; SHA-256 `169479f3360a4621d8662c1e44c5d6a4520540b088ad00af98cb791a58697381`.
+- Research: 2 new and 1 reused source IDs. Cornell bounds adult diagnosis and female direction; Whitfield’s primary study and FEIS bound a fledged pre-flight stage and climbing support.
+- Review: one targeted female-size/fullness edit. Exact juvenile day/feather chronology, regional plumage and measured sex ratio remain unknown; science false.
+- Run: [production/runs/2026-10-27T1836+0800-cycle-5.md](production/runs/2026-10-27T1836+0800-cycle-5.md)

@@ -41,3 +41,10 @@ Sources new0/reused2 MARS-WESKE-1981 failedtarget, GGO-ORI-2020-0506 actualfresh
 本轮保留 v1–v3 与 v1 用户审美确认，不转移确认状态。新读 Cornell 成鸟识别与 Whitfield & Gaffney 1997 原始野外研究，复用 FEIS 发育/栖位综合：v4 改用“刚离巢但尚不能飞”的幼鸟阶段，低伏并由倾斜、深裂纹针叶树干完整支撑；成鸟雌性只做轻微丰满/体型方向，不声明测量比例。精确日龄、地域型羽色和逐日羽序仍未知，scientifically_verified=false。
 
 来源索引：GGO-CORNELL-ID-2026、GGO-WHITFIELD-1997；复用 OWL-SRC-0053-A。完整提示与阶段证据见 [cycle 5 run](../../production/runs/2026-10-27T1836+0800-cycle-5.md)。
+
+
+## 2026-10-27 v4 actual image review and archive
+
+首图三鸟、成鸟识别、文字、幼鸟低伏双足支撑均通过，但透视使右侧雌鸟看起来略小。一次只改雌鸟的 imagegen 定向修订后，雌鸟仅轻微丰满/较大，未形成夸张比例；幼鸟仍为刚离巢但尚不能飞、绒羽主导、短尾、无成熟长飞羽并依靠倾斜深裂树干。编辑主图与 680×453 归档图均已实际查看。
+
+旧 v1–v3 与 v1 用户确认范围保留，不转移至 v4。精确日龄、地域羽色、连续羽序和测量性别比例未知；scientifically_verified=false。图像：[v4](../../design/concepts/08-strix-nebulosa-v4.png)；[完整提示、检查与阶段记录](../../production/runs/2026-10-27T1836+0800-cycle-5.md)。

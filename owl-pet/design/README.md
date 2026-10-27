@@ -1,3 +1,9 @@
+## 140 · Reddish Scops Owl · *Otus rufescens* v2
+
+- [Original PNG](concepts/140-otus-rufescens-v2.png) · 1536×1024 · 3,487,986 bytes · SHA-256 `930c637832afba048b74c5b72134917893ca232b795d04b3ea1fea6356c61b71`
+- Git blob `2835a262d9ae69bd6dc2a68fb6823fe52121ea48`. Nominate light-morph adults and a fully supported age-unknown downy chick passed first-render review; science pending.
+- [Sources](../research/SOURCE_INDEX.md#140-reddish-scops-owl--otus-rufescens-v2--2026-10-27) · [Run](../production/runs/2026-10-27T1034+0800-cycle-6.md)
+
 ## Canonical recovery — 2026-10-27
 
 - [#12 *Aegolius acadicus* v4](concepts/12-aegolius-acadicus-v4.png) — exact blob 0f3c9853a4c8e6ad89da62eea8a944f8afea7800; replaces erroneous current-manifest #162 label.

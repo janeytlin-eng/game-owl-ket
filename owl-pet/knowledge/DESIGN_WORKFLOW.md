@@ -439,3 +439,7 @@ For *Athene cunicularia*, Mikkola reports females clearly larger while Cornell s
 
 ### 2026-10-27 #164 cavity-threshold chicks still require wing-maturity review
 BTO allows a 25–28-day Little Owl chick to leave the cavity before 30–35-day fledging, so a supported 27-day threshold pose is evidence-bounded but must not be rendered as flying or independent. The first #164 plate correctly showed down and full support yet retained a regular adult-like pale wing row and hard long remiges. One targeted edit shortened/rounded/softened only that folded wing and replaced the row with diffuse irregular flecks; the whole image was reopened at original resolution and labels, adult identity, feet and habitat remained intact. This validates the maturity-cue edit for this plate only, not a universal day-specific feather sequence; science remains false.
+
+
+### 2026-10-27 #140 age-unknown juvenile labels prevent false precision
+Mikkola p.178 and one museum mesoptile description support reddish-brown down/mesoptile texture but not exact age, iris, posture or flight threshold. #140 v2 therefore labels the chick age-unknown and requires full cavity-floor support. The first render passed because it preserved soft down, no mature remiges/tail and no independent action. This validates the boundary for this plate only; science remains false.

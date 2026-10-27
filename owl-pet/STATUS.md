@@ -1,3 +1,11 @@
+## 2026-10-27 #140 *Otus rufescens* v2
+
+- Result: REVISION archived; unique species remains 161/251.
+- Image: [design/concepts/140-otus-rufescens-v2.png](design/concepts/140-otus-rufescens-v2.png)
+- Blob `2835a262d9ae69bd6dc2a68fb6823fe52121ea48`; 1536×1024; 3,487,986 bytes; SHA-256 `930c637832afba048b74c5b72134917893ca232b795d04b3ea1fea6356c61b71`.
+- Research: 2 new + 2 reused sources; one old inference corrected. First render passed; science false.
+- Run: [production/runs/2026-10-27T1034+0800-cycle-6.md](production/runs/2026-10-27T1034+0800-cycle-6.md)
+
 ## 2026-10-27 authoritative duplicate correction
 
 - Current unique archived species: **161/251**.

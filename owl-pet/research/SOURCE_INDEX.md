@@ -4249,3 +4249,46 @@ Links: [species card](species/175-otus-ireneae.md), [run](../production/runs/202
 Design inference: show two near-equal-bodied light-morph adults, with the male only subtly longer in folded wing rather than generally larger. The juvenile is the guide-described mesoptile: whitish down with loose yellow-brown barring, unstreaked white-barred crown and only a somewhat banded short tail; do not render a hatchling or copy full adult hard wing plumage. All three use natural branch support in densely foliaged Pemba woodland near clove habitat, with no nest, eggs or cavity claim. Juvenile eye/soft parts, exact age and flight ability remain unknown; keep the juvenile eye neutral/dark in shadow rather than asserting adult-yellow. Scientific verification remains false.
 
 Links: [species card](species/176-otus-pembaensis.md), [run](../production/runs/2026-10-28T0230+0800-cycle-1.md).
+
+
+## 2026-10-28 — #177 São Tomé Scops Owl · *Otus hartlaubi* v1 evidence increment
+
+### STSO-MIKKOLA-2013-P136
+
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Type:** uploaded photographic field guide; species account and plate.
+- **Original locator:** user-uploaded PDF; printed p.136 / PDF p.138, accessed 2026-10-28.
+- **Applies to:** *Otus hartlaubi*; adults of both morphs and mesoptile juvenile.
+- **Actually read/viewed:** page text extracted and page pixels rendered/viewed.
+- **Source facts:** 17–19 cm; very small tufts; females a little larger/heavier. Grey-brown morph is very dark with blackish shaft streaks, large whitish scapular areas, largely unbarred primaries, nearly unbanded tail, whitish underparts with fine brown/rufous barring and converging blackish shaft streaks; deep yellow eyes, yellow bill/cere; distal quarter of tarsus unfeathered. Rufous morph is dark reddish-brown with prominent black markings. Downy chick is not described; mesoptile of both morphs is paler than adult and fully finely barred. Habitat includes humid primary cloud forest, secondary forest and clove/mango plantation edges.
+- **Limitations/conflicts:** no exact juvenile age, iris chronology, wing/tail development, flight threshold, nest geometry or sex-specific plumage. High confidence for printed description; unknown fields remain unknown.
+- **Design decision:** same-morph adults with only a modest documented female size/fullness difference; fully supported paler finely barred mesoptile with neutral-dark shaded iris and no flight/nest claim.
+
+### STSO-BIRDLIFE-RDB-1985-P326
+
+- **Title / institution / year:** “Sao Tome Scops Owl, Otus hartlaubi” / ICBP–IUCN Red Data Book account / 1985-era compilation.
+- **Original URL:** https://birdlifedata.blob.core.windows.net/red-data-books/Sao_Tome_Scops_Owl_afr_rdb.pdf (accessed 2026-10-28).
+- **Type:** conservation synthesis citing historical specimens and field records.
+- **Applies to:** distribution, habitat, diet and breeding evidence; juvenile/fledgling stage.
+- **Actually read:** PDF pp.326–327 (web PDF pages 1–2), especially ecology lines 30–37.
+- **Source facts:** highest recorded density in secondary forest at Fortunato; food records include insects, grasshoppers, beetles, moth and a few bones. Fledglings in October indicate breeding from late August/early October; a broader September–February season is rainfall-based inference.
+- **Limitations/conflicts:** old conservation status and nomenclatural year are not used as current taxonomy; fledglings lack plumage, exact age, nest and soft-part description.
+- **Design decision:** supports forest/secondary-growth background and confirms young occur, but juvenile anatomy remains anchored to Mikkola’s mesoptile.
+
+### STSO-GABONBIOTA-INAT-2021
+
+- **Title / creator / date:** São Tomé Scops-Owl image detail / hiporame / photographed 2021-12-17.
+- **Original URL:** https://gabonbiota.org/portal/imagelib/imgdetails.php?mediaid=483515 ; medium image https://inaturalist-open-data.s3.amazonaws.com/photos/174205079/medium.jpg (accessed 2026-10-28).
+- **Type:** georeferenced living-adult photograph mirrored from iNaturalist open data.
+- **Applies to:** living adult, São Tomé, Mé-Zóchi.
+- **Actually read/viewed:** metadata page and medium image pixels.
+- **Source facts:** compact very dark reddish-brown adult with subtle low tufts, deep yellow eyes, small pale scapular marks and fine irregular pale barring/streaking in natural foliage.
+- **Limitations/conflicts:** single adult; sex and morph assignment not independently verified; no juvenile or size comparison. Visual cross-check only.
+- **Design decision:** constrain adult palette, low tuft silhouette and irregular rather than mechanical markings; do not infer sex from this image.
+
+### Source-to-design map
+
+- **Adult morphology / sex direction:** STSO-MIKKOLA-2013-P136; living-photo cross-check STSO-GABONBIOTA-INAT-2021.
+- **Juvenile stage:** STSO-MIKKOLA-2013-P136 only; STSO-BIRDLIFE-RDB-1985-P326 confirms fledglings but lacks morphology.
+- **Habitat/background:** STSO-MIKKOLA-2013-P136 and STSO-BIRDLIFE-RDB-1985-P326.
+- **Unknown by evidence:** exact juvenile age, iris chronology, remex/tail sequence, flight threshold, nest geometry and sex-specific plumage.

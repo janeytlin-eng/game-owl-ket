@@ -1,3 +1,8 @@
+## 2026-10-27 — #145 *Ninox philippensis* v2
+
+- Revised Luzon Boobook with newly recovered Mikkola p.473 fledgling evidence; unique remains 163/251.
+- One targeted edit shortened/softened the fledgling wing, concealed the long tail and corrected ventral stage. Archived to blob `8b30765e66ce8dc35538a43a0982692a054d177e`; readback pending.
+
 ## 2026-10-27 — #141 *Otus magicus* v2
 
 - Revised the Moluccan Scops Owl using reread Mikkola pp.189–190 and a new original-name/type-locality mapping; unique species remains 163/251.

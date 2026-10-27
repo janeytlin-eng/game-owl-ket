@@ -13,3 +13,8 @@
 - Design boundary: almost uniformly dark-brown fledgling upperparts, few buff-white scapular bars, darker ochre-spotted wings with white outer webs, white underparts broadly streaked by fawn centres; formed but short/soft wings and secure branch support.
 - Unknown and not invented: exact age, continuous feather sequence, flight threshold, quantified sex ratio, universal soft-part colour and nest geometry.
 - Science remains false. Full prompt is saved in [run](../../production/runs/2026-10-27T1335+0800-cycle-4.md).
+
+## v2 archive pending readback — 2026-10-27T14:52:36.391+08:00
+
+- Blob `8b30765e66ce8dc35538a43a0982692a054d177e`; 1536×1024; 724,809 bytes; SHA-256 `c1ef30f97f707976d0c8a24d3f65080c8cba5196e1333cb133710c47c2695b30`.
+- One targeted edit corrected fledgling wing, tail and ventral stage; science false.

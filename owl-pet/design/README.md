@@ -1,3 +1,9 @@
+## 145 · Luzon Boobook · *Ninox philippensis* v2
+
+- [Original PNG](concepts/145-ninox-philippensis-v2.png) · 1536×1024 · 724,809 bytes · SHA-256 `c1ef30f97f707976d0c8a24d3f65080c8cba5196e1333cb133710c47c2695b30`
+- Git blob `8b30765e66ce8dc35538a43a0982692a054d177e`. Mikkola p.473 fledgling revision; one targeted stage correction; science pending.
+- [Sources](../research/SOURCE_INDEX.md#2026-10-27-145-luzon-boobook--ninox-philippensis-v2-revision) · [Run](../production/runs/2026-10-27T1335+0800-cycle-4.md)
+
 ## 141 · Moluccan Scops Owl · *Otus magicus* v2
 
 - [Original PNG](concepts/141-otus-magicus-v2.png) · 1536×1024 · 722,727 bytes · SHA-256 `29a4228d516644c3de39050a8a2bae28b98be630728e886de8d7d82e274cd35f`

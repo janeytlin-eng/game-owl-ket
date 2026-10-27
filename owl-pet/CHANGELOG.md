@@ -1011,3 +1011,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added a non-destructive science-calibration revision while preserving v1–v3 and the scope of the v1 user approval; no unique-species increment.
 - Added Cornell adult diagnosis and Whitfield 1997 primary pre-flight-stage evidence; reused FEIS climbing/nest-site synthesis without duplicating its source ID.
 - First render made the right female read smaller. One targeted edit restored only a subtle female fullness/size direction while retaining the bark-supported pre-flight juvenile, text and habitat. Exact age/feather chronology and measured sex ratio remain unknown; science false.
+
+
+## 2026-10-27 — #116 *Margarobyas lawrencii* v3
+
+- Added a non-destructive science-calibration revision while preserving v1–v2; no unique-species increment.
+- Reused five indexed sources after fresh external search; no duplicate source IDs were added. The uploaded guide was found, but its requested pages were unreadable in this invocation, so no fresh page-reading claim was made.
+- First render passed original-resolution review without edit: the older juvenile’s v2 residual bright repeated crown teardrops were removed while source-bounded formed wings, adult dark eyes/untufed heads, bare tarsi/toes, natural support and near-equal adult scale were retained. Science remains false.

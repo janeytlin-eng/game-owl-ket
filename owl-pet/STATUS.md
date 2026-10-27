@@ -1481,3 +1481,13 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27T19:24:57.308+08:00 — #08 *Strix nebulosa* v4 independently verified at archive commit `be1e9eac5f1ba6808b6aadd7a4197d15c5040e8e`; concept/reviewed path resolves to `aecd92918328ad2b12cbc3d4af66657fe0577355` (646,045 bytes), edited master to `68da949a9c2094c98be5b2392f287c850b70044b`, and initial master to `c764081fd2e61f87dd055335cc6ee476ccda8c94`. Unique archived species remains 174/251; batch 5/6, next cycle 6; science pending.
+
+
+## 2026-10-27 — #116 Bare-legged Owl · *Margarobyas lawrencii* v3
+
+- Result: SCIENCE_REVISION concept ARCHIVED; independent readback pending. Unique archived species remains 174/251.
+- Image: [design/concepts/116-margarobyas-lawrencii-v3.png](design/concepts/116-margarobyas-lawrencii-v3.png)
+- Reviewed full master: 1536×1024 RGB; 3,144,863 bytes; SHA-256 `6f850d6e13b9bb6414820a8f6a37509c722efa9e0f2b61cfce06d9afa6a591d5`; Git blob `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`.
+- Research: 0 new, 5 reused, 0 corrected source IDs. Fresh external search was deduplicated; the uploaded guide was located but the requested pages returned no readable content, so no new page-read claim was made.
+- Review: first render passed without edit. The v2 residual bright repeated juvenile crown teardrops are absent; legitimate older-stage formed wings, adult identity, bare tarsi/toes and support remain. Exact age/flight/sequence/sex ratio/feather map remain unknown; science false.
+- Run: [production/runs/2026-10-27T2126+0800-cycle-1.md](production/runs/2026-10-27T2126+0800-cycle-1.md)

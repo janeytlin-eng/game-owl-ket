@@ -46,3 +46,12 @@ Exact species/text/count; untufted dark-eyed adults; bare tarsi/toes and real su
 ## Actual review result
 
 The newly generated 1536×1024 RGB master was opened at original detail. All planned visible checks passed. In particular, the juvenile crown no longer has bright repeated ivory teardrop rows; only sparse low-contrast pale tips remain on a continuous sienna-brown base, consistent with the conservative “fewer white spots” boundary. No edit was required. This is a visual correction result, not proof of exact feather mapping or biological verification.
+
+
+## Archive target
+
+- Concept: `owl-pet/design/concepts/116-margarobyas-lawrencii-v3.png`
+- Durable master: `owl-pet/production/assets/2026-10-27T2126+0800-cycle-1/generated-master.png`
+- Git blob: `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`
+- SHA-256: `6f850d6e13b9bb6414820a8f6a37509c722efa9e0f2b61cfce06d9afa6a591d5`
+- Independent commit-pinned readback pending at ARCHIVED stage.

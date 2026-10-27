@@ -1709,3 +1709,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T07:41:58.000+08:00 — #14 *Bubo virginianus* v3 independently verified at archive `bc4856cad33679864abf7552a697de09d2436346`; concept `901349b3…`, generated/reviewed full-size master `cbb375f0…`, plus manifest/source/card/run/state/STATUS/knowledge/README read back. Unique total remains **184/251**; batch **4/6**, next cycle 5. Science false.
+
+
+## 2026-10-28 #05 *Strix aluco* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, readback pending.
+- Image: [design/concepts/05-strix-aluco-v3.png](design/concepts/05-strix-aluco-v3.png)
+- Research: Mikkola printed pp.315–317, BTO account/nest records and Coles & Petty 1997; 2 new/1 reused stable sources.
+- Review: one targeted edit removed long crisp adult-spotted juvenile remiges. Text/count, same-morph dark-eyed adults, pink-rimmed gray brancher, short soft wing/concealed tail and full support pass. Science false.

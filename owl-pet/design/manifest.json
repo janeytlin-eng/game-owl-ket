@@ -4899,7 +4899,32 @@
       "archive_note": "Built-in imagegen produced a 1536x1024 source; original-resolution and 680x453 derivative review passed without an edit. The exact source SHA-256/size are preserved in the run record. Connector shell base64 output truncated before blob creation, so a visually re-opened full-resolution indexed PNG master was archived instead. Commit-pinned readback at bc4856ca verified concept 901349b3, generated/reviewed master cbb375f0, manifest/source/card/run/state/STATUS/knowledge/README. Scientific verification remains false.",
       "archive_commit": "bc4856cad33679864abf7552a697de09d2436346",
       "verified_at": "2026-10-28T07:41:58.000+08:00"
+    },
+    {
+      "id": "05-strix-aluco-v3",
+      "path": "design/concepts/05-strix-aluco-v3.png",
+      "species_id": 5,
+      "scientific_name": "Strix aluco",
+      "common_name": "Tawny Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "f3d322769bf7795172f5622e3df729a210461521883575829241a8842b824870",
+      "scientifically_verified": false,
+      "status": "v3 labeled evidence-bounded rebuild and one targeted juvenile-wing edit. Adults share one brown morph, dark eyes, horn bills, round untufted heads and near-equal display with subtle female fullness. The approximately 29–32-day pre-flight brancher has grey-white diffuse-barred mesoptile, pink eye rims, pale fleshy cere/toes, short rounded woolly folded wings, concealed tail and two-foot support outside a cavity. Exact day, continuous feather sequence, measured display ratio, regional morph and universal cavity geometry remain unknown.",
+      "source_ids": [
+        "TAO-MIKKOLA-2013-P315",
+        "TAO-COLES-PETTY-1997",
+        "TAO-BTO-FACTS"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--05-strix-aluco-v3-evidence-increment",
+      "run_record": "production/runs/20261028T0743+0800-cycle-5.md",
+      "git_blob": "c827dcf0944083728f26d9da1229873fff9c6530",
+      "reviewed_at": "2026-10-28T07:46:07.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 166614,
+      "archive_note": "Built-in imagegen generated two 1536x1024 stages. One targeted edit removed long crisp adult-spotted juvenile remiges. Full edited master and 680x453 derivative were viewed. Commit-pinned readback pending; science false.",
+      "archive_commit": "pending-readback"
     }
   ],
-  "updated_at": "2026-10-28T07:41:58.000+08:00"
+  "updated_at": "2026-10-28T07:47:07.000+08:00"
 }

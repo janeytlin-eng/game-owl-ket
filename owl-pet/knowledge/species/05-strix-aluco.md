@@ -29,3 +29,12 @@ Barn Owl Trust救护观察：较小巢内雏鸟以短厚灰绒羽为主，较大
 肩翼灰绒修订；短厚灰绒方向改善，细羽纹/精确羽龄与比例仍未知。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
 来源索引ID：TAO-BOT-OWLET / TAO-BTO-FACTS，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
 [v2原图](../../design/concepts/05-strix-aluco-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-2.md) · 图片提交0ec35f2b5fe2e9afc2b2dd74edc2c2a0f987feaf。
+
+
+## v3 labeled brancher revision · 2026-10-28
+
+v3 uses one brown adult morph and an approximately 29–32-day pre-flight brancher based on Mikkola, BTO and Coles & Petty. One targeted edit removed long adult-spotted juvenile remiges. Exact age, continuous feather sequence, display ratio, regional morph and cavity geometry remain unknown; science false.
+
+![v3](../../design/concepts/05-strix-aluco-v3.png)
+
+[Research](../../research/species/05-strix-aluco-v3.md) · [Run](../../production/runs/20261028T0743+0800-cycle-5.md)

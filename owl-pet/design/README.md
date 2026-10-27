@@ -1493,3 +1493,10 @@ v1 remains preserved. v2 retains the palm-cavity near-fledging stage but no long
 [Concept plate](concepts/14-bubo-virginianus-v3.png) · [research card](../research/species/14-bubo-virginianus-v3.md) · [run record](../production/runs/20261028T0733+0800-cycle-4.md)
 
 v1 user confirmation and v2 early-nestling rebuild remain preserved. v3 adopts the current labeled comparison-board format and an approximately six-week brancher bounded by Mikkola, a primary development study, a known-age photo series and Cornell observations. Adults share one regional morph; female fullness is subtle. Science calibration remains pending.
+
+
+### #05 Tawny Owl · *Strix aluco* v3 science revision (2026-10-28)
+
+[Concept](concepts/05-strix-aluco-v3.png) · [research card](../research/species/05-strix-aluco-v3.md) · [run](../production/runs/20261028T0743+0800-cycle-5.md)
+
+Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/v2 preserved. Science pending.

@@ -17,3 +17,8 @@ Create one polished 3:2 landscape scientific concept review board in the reposit
 ## Review plan
 
 Verify exact title/labels/count, adult dark eyes/untufted heads/bill/one morph, juvenile pink eye rims/diffuse gray mesoptile/short folded wing and tail, and all foot contacts. Edit only if those fail.
+
+
+## Generation and review
+
+Initial 1536×1024 render failed the juvenile-wing check: long crisp adult-spotted remiges. One targeted edit replaced only that wing with a short rounded woolly diffuse-barred contour. Edited full master and 680×453 derivative were viewed and pass. Generated blob `33d35fe6…`; reviewed blob `e0e8d62d…`; concept blob `c827dcf0…`. Science false; archive readback pending.

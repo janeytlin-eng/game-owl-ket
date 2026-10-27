@@ -1,3 +1,8 @@
+## 2026-10-28 — #05 *Strix aluco* v3 archive checkpoint
+
+- Rebuilt the older Chinese-only v2 layout as a current labeled evidence-bounded board; preserved v1/v2 history.
+- One targeted edit replaced the brancher's adult-spotted long remiges with a short rounded woolly diffuse-barred wing. Full master and derivative viewed; science false; readback pending.
+
 ## 2026-10-28 — #14 *Bubo virginianus* v3 archive checkpoint
 
 - Rebuilt canonical #14 as a labeled evidence-bounded trio board while preserving v1 user confirmation and v2 early-nestling history; historical #56 duplicate receives no credit.

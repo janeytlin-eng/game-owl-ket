@@ -5050,28 +5050,30 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": {
-        "owner": "codex-work",
-        "run_id": "2026-10-28T0230+0800-cycle-4",
-        "heartbeat_at": "2026-10-28T04:35:10.000+08:00",
-        "expires_at": "2026-10-28T04:50:10.000+08:00"
-      },
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 4,
         "run_id": "2026-10-28T0230+0800-cycle-4",
         "species": "#179 Otus mayottensis",
         "version": 1,
         "action": "NEW",
-        "stage": "STARTED",
-        "at": "2026-10-28T04:35:10.000+08:00",
+        "stage": "CANDIDATE_BLOCKED",
+        "at": "2026-10-28T04:39:38.000+08:00",
         "evidence": {
-          "manifest_search": "no #179 or Otus mayottensis entry",
-          "guide_page": "printed p.139 / PDF p.141 accessible",
+          "reason": "Mikkola printed p.139/PDF p.141 explicitly records Juvenile Unknown; targeted species-specific searches did not yield a verified juvenile developmental or plumage source.",
+          "verified_sources": [
+            "MAYS-MIKKOLA-2013-P139",
+            "MAYS-FUCHS-2008-TAXONOMY",
+            "MAYS-EBIRD-2026-ADULT",
+            "MAYS-AVIBASE-2026"
+          ],
+          "unverified_lead": "MAYS-RASMUSSEN-2000-LEAD",
           "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-4.md",
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "cycle_credit": false
         }
       },
-      "last_updated_at": "2026-10-28T04:35:10.000+08:00",
+      "last_updated_at": "2026-10-28T04:39:38.000+08:00",
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49.",
@@ -5083,17 +5085,19 @@
         "2026-10-28T03:51:10.143+08:00: cycle3 #178 Otus insularis v1 RESEARCH_READY; 3 new sources read/indexed; adult-like older juvenile boundary and full prompt persisted; science false.",
         "2026-10-28T04:33:50.000+08:00: cycle3 #178 Otus insularis v1 ARCHIVED with concept blob 4ea9d2d20a880f82f187f2ed40680b9255a90729 after expired-lease recovery; immutable readback pending; science false.",
         "2026-10-28T04:34:19.000+08:00: cycle3 VERIFIED #178 Otus insularis v1 at archive 89766ecd3c818d4ecf7ce8a243fa99afd789c6bf; unique 178/251; next_cycle4; lease released.",
-        "2026-10-28T04:35:10.000+08:00: cycle4 STARTED #179 Otus mayottensis v1 after manifest/name audit found no archive; Mikkola printed p.139/PDF p.141 accessible; lease acquired."
+        "2026-10-28T04:35:10.000+08:00: cycle4 STARTED #179 Otus mayottensis v1 after manifest/name audit found no archive; Mikkola printed p.139/PDF p.141 accessible; lease acquired.",
+        "2026-10-28T04:39:38.000+08:00: cycle4 candidate #179 Otus mayottensis screened and BLOCKED before generation. Mikkola p.139/PDF141 says Juvenile Unknown; Fuchs 2008, eBird and Avibase establish taxonomy/adult/habitat but no juvenile morphology or stage. No cycle credit; lease released; next_cycle remains 4 for evidence-supported replacement."
       ],
       "checkpoint": {
-        "stage": "STARTED",
+        "stage": "CANDIDATE_BLOCKED",
         "species_id": 179,
         "species": "Otus mayottensis",
         "version": 1,
         "action": "NEW",
-        "at": "2026-10-28T04:35:10.000+08:00",
+        "at": "2026-10-28T04:39:38.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-4.md",
-        "scientifically_verified": false
+        "scientifically_verified": false,
+        "cycle_credit": false
       }
     }
   ],
@@ -5197,12 +5201,7 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-work",
-    "run_id": "2026-10-28T0230+0800-cycle-4",
-    "heartbeat_at": "2026-10-28T04:35:10.000+08:00",
-    "expires_at": "2026-10-28T04:50:10.000+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-10-28T03:54:53.033+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",

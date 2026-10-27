@@ -4329,3 +4329,16 @@ Links: [species card](species/176-otus-pembaensis.md), [run](../production/runs/
 - Female size direction and no sex-linked colour: SSCO-CURRIE-2002-SIZE.
 - Juvenile/nest stage: SSCO-MIKKOLA-2013-P138 plus SSCO-CURRIE-2004-BREEDING.
 - Unknown: exact juvenile age, iris/soft parts, continuous feather state, flight threshold, nest lining.
+
+
+## 2026-10-28 — #179 Mayotte Scops Owl · *Otus mayottensis* evidence screening
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type / stage | Actually read and verified value | Limits / design decision |
+|---|---|---|---|---|---|---|
+| MAYS-MIKKOLA-2013-P139 | *Owls of the World: A Photographic Guide*, printed p.139 / uploaded PDF p.141 | Heimo Mikkola | 2013; text and full page pixels read 2026-10-28 | User-supplied photographic guide; adult, juvenile status, habitat | 24 cm, ~120 g; short tufts; mottled grey-brown; nuchal collar; sparse pale scapular areas; streaked/barred throat; vermiculated underparts; yellow eyes; greyish-horn bill; feathered tarsi. Female wing slightly longer. Juvenile explicitly “Unknown”. Evergreen forest. | No juvenile description, age, flight threshold or nest stage. Blocks the required juvenile panel rather than licensing transfer from another species. |
+| MAYS-FUCHS-2008-TAXONOMY | [Tracing the colonization history of the Indian Ocean scops-owls](https://doi.org/10.1186/1471-2148-8-197) | Fuchs et al. / BMC Evolutionary Biology | 2008; full article sections read 2026-10-28 | Primary phylogenetic study; taxonomy/vocal identity | Supports *O. mayottensis* as a distinct Mayotte lineage; records distinct morphology/vocalisation and 3–11 deep single hoots. | No juvenile morphology or breeding-stage evidence; used for taxonomic boundary only. |
+| MAYS-EBIRD-2026-ADULT | [Mayotte Scops-Owl species account](https://ebird.org/species/maysco1) | Cornell Lab of Ornithology / eBird | page and visible adult photographs read 2026-10-28 | Institution species account; adult/habitat | Compact dark adult with small tufts, dark-brown upperparts, medium-brown underparts; rare rufous morph; remnant rainforest, secondary forest, gardens and plantations; Mayotte endemic. | No sexed comparison or juvenile stage. Adult visual cross-check only. |
+| MAYS-AVIBASE-2026 | [Avibase taxonomic concept](https://avibase.bsc-eoc.org/species.jsp?avibaseid=2DF19EB22C0B4139) | Denis Lepage / Avibase | current page read 2026-10-28 | Taxonomic crosswalk | Preserves current name/authority and original protonym *Otus rutilus mayottensis* with type-locality metadata. | Secondary nomenclatural index, not morphology/development evidence. |
+| MAYS-RASMUSSEN-2000-LEAD | [A new species of scops-owl from Great Nicobar Island](https://www.biodiversitylibrary.org/page/40025648) | Rasmussen et al. | 2000; search result only, original not opened 2026-10-28 | **Unverified lead** | Bibliographic lead to comparative Indian Ocean scops-owl morphology. | Search snippet is not verified evidence and was not used for design. |
+
+**Screening result:** no verified source read in this run supplies a renderable *O. mayottensis* juvenile. Image generation is blocked, no manifest entry is created, and no production-cycle credit is granted. Links: [species card](species/179-otus-mayottensis.md) · [run](../production/runs/2026-10-28T0230+0800-cycle-4.md).

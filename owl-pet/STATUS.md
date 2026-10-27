@@ -1,8 +1,8 @@
 ## 2026-10-27 #162 *Glaucidium hoskinsii* v1
 
-- Result: NEW concept archived pending independent readback; unique count is not advanced until VERIFIED.
+- Result: NEW concept VERIFIED; unique species rises 161→162/251.
 - Image: [design/concepts/162-glaucidium-hoskinsii-v1.png](design/concepts/162-glaucidium-hoskinsii-v1.png)
-- Git blob `29bfdd132e5eac457541c4645e273e237ae5a5ad`; 1536×1024; 3,277,783 bytes; SHA-256 `f7cec2da0cb75a1f6dee045646ef9d9fa865e20058f97743e7f5a688d3a335e5`.
+- Archive `2b90a7899a29b6277316bd7103e750b633174875`; Git blob `29bfdd132e5eac457541c4645e273e237ae5a5ad`; 1536×1024; 3,277,783 bytes; SHA-256 `f7cec2da0cb75a1f6dee045646ef9d9fa865e20058f97743e7f5a688d3a335e5`.
 - Research: 3 new verified source records. The 2025 first-nest paper supplies a near-fledged fan-palm-cavity chick; Mikkola supplies adult morphology but explicitly did not describe the juvenile; IOC supplies current species name.
 - Review: one targeted center-chick edit removed adult-style regular white spots and hard long remiges. Exact age, iris, flight threshold, full feather sequence, universal nest substrate and quantified sex ratio remain unknown; `scientifically_verified=false`.
 - Run: [production/runs/2026-10-27T1335+0800-cycle-1.md](production/runs/2026-10-27T1335+0800-cycle-1.md)

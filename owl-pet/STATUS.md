@@ -1351,3 +1351,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27 10:47 +0800 — NEW #160 *Tyto inexspectata* v1 archived after one juvenile-wing edit. Exactly three labeled supported birds; adult rufous/dark-eye diagnosis and closed Sulawesi forest context retained. Age-unknown dependent fledgling has formed but softer/browner rounded wings and gray-speckled underparts. Unique archived species rises from 159 to 160/251; scientific calibration remains pending. Image: [160-tyto-inexspectata-v1.png](design/concepts/160-tyto-inexspectata-v1.png).
+
+
+- 2026-10-27 15:40 +0800 — NEW #164 *Strix hadorami* v1 archived after one juvenile-wing edit. Current-name diagnosis preserves a uniformly pale sandy facial disc and light rufous cross-barring below, distinct from Omani Owl; adults remain near-equal with only subtle female fullness. The age-unknown pale mesoptile now has a short rounded down-covered wing, hidden tail, weaker talons and full sandstone-ledge support. Historical Mikkola *S. butleri* facts are explicitly mapped only to the widespread population renamed *S. hadorami*. Unique species rises 163→164/251; scientific calibration pending. Image: [164-strix-hadorami-v1.png](design/concepts/164-strix-hadorami-v1.png).

@@ -4,7 +4,7 @@
 - Version: v1
 - Current taxonomy: *Strix hadorami* Kirwan, Schweizer & Copete, 2015
 - Historical source mapping: Mikkola (2013) `Strix butleri` account mainly describes the widespread Levant–Arabia population now assigned to *S. hadorami*; current *S. butleri* is Omani Owl.
-- Production status: RESEARCH_READY
+- Production status: ARCHIVED; remote readback pending
 - Scientific status: pending
 
 ## Evidence facts
@@ -22,6 +22,12 @@ Use exactly three labeled birds on one continuous sandstone ledge system. Keep a
 ## Sources
 
 See stable IDs `DEOW-MIKKOLA-2013-P318`, `DEOW-KIRWAN-2015`, `DEOW-IOC-2015-SPLIT`, and `DEOW-EBIRD-2026` in [SOURCE_INDEX.md](../SOURCE_INDEX.md).
+
+## Review result
+
+- First render failed the juvenile-wing check because it carried adult-style bars/spots and hard layered remiges.
+- One targeted edit produced a short rounded down-covered wing, concealed tail and weaker supported talons; title, adult diagnosis, sex boundary and wadi context remained intact.
+- Visual review: PASS; scientific verification remains pending.
 
 ## Linked production
 

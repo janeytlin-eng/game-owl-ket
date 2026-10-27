@@ -927,3 +927,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added the first Burrowing Owl concept; unique archived species 162→163/251.
 - Added five source records (four new, one reused Mikkola). The displayed population is western North American *A. c. hypugaea* and the juvenile is a source-bounded 29-day prefledgling.
 - One targeted edit removed adult-like juvenile wing spot rows/hard remiges. Mikkola/Cornell sex-size conflict remains explicit; adults are near-equal and `scientifically_verified=false`.
+
+- 2026-10-27: Added NEW #164 Desert Owl (*Strix hadorami*) v1 after primary taxonomy reconciliation and one juvenile-wing edit; archived concept plus recoverable generated/reviewed evidence. Unique archived species 164/251; science pending.

@@ -990,3 +990,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added the first Torotoroka Scops Owl concept, four indexed sources and a species card.
 - Preserved the IOC split name alongside Clements/eBird `O. rutilus madagascariensis` treatment. Mikkola's described older immature was used; a rare egg-only ground nest was not turned into a juvenile scene.
 - Initial output had ear tufts too tall/prominent. One targeted edit reduced them while preserving exact text/count, full branch support, restrained female size and evidence-bounded juvenile tail/wing cues. Science false.
+
+
+## 2026-10-27 — #174 *Strix sartorii* v1
+
+- Added the first Cinereous Owl concept, five indexed sources and a species card.
+- Preserved current AOS/IOC species treatment alongside original *Syrnium nebulosum* var. *Sartorii* and historical *Strix varia sartorii*. No Mikkola page was claimed because the uploaded guide was not directly accessible in this run.
+- First output passed original and derivative review without edit. The documented age-unknown older juvenile retains downy body plumage with developed but bounded flight feathers; science false.

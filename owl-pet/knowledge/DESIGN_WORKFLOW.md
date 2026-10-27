@@ -487,3 +487,8 @@ When the project scope follows a split checklist but conservation and national s
 ### Diagnostic modifiers must remain proportional (2026-10-27, #173)
 
 A comparative diagnosis such as “relatively short ear tufts” must be checked as a proportion, not merely as presence/absence. #173's first render contained the correct species, palette, labels, count and developmental boundary but exaggerated all three tufts. A targeted edit shortened/reduced only those tufts; the edited master and review derivative then passed. This is one actual application, not yet a universal validation. Exact juvenile age/flight ability and the IOC/Clements split-lump conflict remain explicit unknowns.
+
+
+### Developed juvenile flight feathers can coexist with downy body plumage (2026-10-27, #174)
+
+Do not force every older owl juvenile into either “all down” or “miniature adult.” A dated *Strix sartorii* field record supports an exact-age-unknown older juvenile/fledgling with a visibly downy body while flight feathers are already developed. #174 applied this mixed-stage boundary with full branch support and no exact flight claim; the first render passed both original and derivative review. This validates the rule for this one image only, not as a cross-species age formula.

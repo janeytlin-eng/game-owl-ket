@@ -1369,3 +1369,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Initial master revealed overlong ear tufts. One targeted edit reduced/shortened all three tufts; edited master and 680×453 TrueColor derivative were actually viewed and passed.
 - IOC split / Clements-eBird lump conflict is explicit; exact juvenile age/flight ability remain unknown; science pending.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/173-otus-madagascariensis.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-2.md)
+
+
+### #174 Cinereous Owl · *Strix sartorii* · v1
+
+- [174-strix-sartorii-v1.png](concepts/174-strix-sartorii-v1.png) — near-equal adult pair and age-unknown older juvenile in Mexican montane pine-oak forest.
+- Original 1536×1024 master and 680×453 derivative were actually viewed; first render passed without edit. Cold gray/sepia adults, pale unrung faces, feathered toes and the downy-but-flight-feathered juvenile remain legible.
+- AOS/IOC species identity is mapped to historical *S. varia sartorii*; exact juvenile age/flight and sex dimorphism remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/174-strix-sartorii.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-3.md)

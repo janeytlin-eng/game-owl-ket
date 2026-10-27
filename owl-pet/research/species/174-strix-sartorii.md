@@ -1,6 +1,6 @@
 # #174 Cinereous Owl — *Strix sartorii* v1
 
-Status: REVIEWED; scientific verification: false.
+Status: ARCHIVED; scientific verification: false.
 
 ## Taxonomy boundary
 
@@ -27,3 +27,8 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - First render passed original-resolution and 680×453 derivative review without edit.
 - Master blob `ce5d721e69b3149c8ce795987ef6215e47e762a2`; reviewed derivative blob `63ed6aad79e1312b79723338b516d38280ce7b97`.
 - Exact text/count, full support, cold gray adult diagnosis, near-equal adult scale, feathered toes and age-unknown downy older juvenile passed. Science remains false for documented unknowns.
+
+## Archive — 2026-10-27T19:42:00.000+08:00
+
+- Concept path: `design/concepts/174-strix-sartorii-v1.png` → reviewed blob `63ed6aad79e1312b79723338b516d38280ce7b97`.
+- Original master retained under the run asset directory; manifest entry awaits independent immutable-tree readback.

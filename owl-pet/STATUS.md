@@ -1435,3 +1435,13 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Run: [production/runs/2026-10-27T1836+0800-cycle-2.md](production/runs/2026-10-27T1836+0800-cycle-2.md)
 
 - 2026-10-27 19:20 +0800 — #173 *Otus madagascariensis* v1 independently verified at archive commit `903d47aad7f74939bc49328f0b0bbdbd8d52028e`; concept/reviewed path resolves to `3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc` (668,345 bytes), edited master to `7d4bfe873126bc35c50176138d11a5c847a1469c` (3,063,679 bytes), and initial master to `848703a4b83b9109b0534ac8938b2ab343a82e51` (3,415,748 bytes). Unique archived species is 173/251; batch 2/6, next cycle 3; science pending.
+
+
+## 2026-10-27 #174 *Strix sartorii* v1
+
+- Result: NEW concept ARCHIVED, independent readback pending; unique species remains 173/251 until VERIFIED.
+- Image: [design/concepts/174-strix-sartorii-v1.png](design/concepts/174-strix-sartorii-v1.png)
+- Reviewed blob `63ed6aad79e1312b79723338b516d38280ce7b97`; 680×453; 253,069 bytes; SHA-256 `0729338cbc9418b7cc099aa96c57a807f6fb793d7b985e252450b522cf2b89a3`.
+- Research: 5 new source IDs. AOS and primary genetics support the split; original description/live field sources bound adult identity; 2015 Nayarit photo bounds the age-unknown older juvenile.
+- Review: first render passed. Exact juvenile age/flight, early down, nest/clutch and sex ratio remain unknown; science false.
+- Run: [production/runs/2026-10-27T1836+0800-cycle-3.md](production/runs/2026-10-27T1836+0800-cycle-3.md)

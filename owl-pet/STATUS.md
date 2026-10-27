@@ -1632,3 +1632,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/178-otus-insularis-v1.png](design/concepts/178-otus-insularis-v1.png)
 - Research: Mikkola printed p.138/PDF p.140 plus Currie et al. 2004 breeding paper and Currie et al. 2002 biometric study. Three stable source IDs added.
 - Review: first generation passed original-resolution and 680×453 checks; no edit. Adults share plumage, female is moderately fuller; fully bare long tarsi/toes retained. Older adult-like juvenile is supported beside a simple cavity; exact age, iris chronology, feather sequence, flight threshold and nest lining remain unknown. Science false; commit-pinned readback pending.
+
+- 2026-10-28T04:34:19.000+08:00 — #178 *Otus insularis* v1 independently verified at archive `89766ecd3c818d4ecf7ce8a243fa99afd789c6bf`; concept `4ea9d2d2…`, generated/reviewed `44dd2333…`, plus manifest/source/card/run/state were read back at the immutable commit. Unique total **178/251**; batch 3/6, next cycle 4. Science false.

@@ -5045,8 +5045,8 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "2026-10-28T0230+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T03:49:26.643+08:00",
-        "expires_at": "2026-10-28T04:04:26.643+08:00"
+        "heartbeat_at": "2026-10-28T03:51:10.143+08:00",
+        "expires_at": "2026-10-28T04:06:10.143+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -5054,17 +5054,24 @@
         "species": "#178 Otus insularis",
         "version": 1,
         "action": "NEW",
-        "stage": "STARTED",
-        "at": "2026-10-28T03:49:26.643+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T03:51:10.143+08:00",
         "evidence": {
-          "manifest_name_search": "no entry",
-          "source_index_search": "no existing species section",
+          "sources_new": 3,
+          "sources_reused": 0,
+          "sources_corrected": 0,
+          "source_ids": [
+            "SSCO-MIKKOLA-2013-P138",
+            "SSCO-CURRIE-2004-BREEDING",
+            "SSCO-CURRIE-2002-SIZE"
+          ],
           "guide_page": "printed p.138 / PDF p.140",
+          "design_boundary": "older adult-like but softer juvenile; supported cavity context; exact plumage/iris/flight/nest lining unknown",
           "scientifically_verified": false,
           "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-3.md"
         }
       },
-      "last_updated_at": "2026-10-28T03:49:26.643+08:00",
+      "last_updated_at": "2026-10-28T03:51:10.143+08:00",
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49.",
@@ -5072,15 +5079,22 @@
         "2026-10-28T03:41:24.906+08:00: cycle2 STARTED #177 Otus hartlaubi v1 after manifest/source-index scientific-name search found no prior archive; guide printed p.136/PDF p.138 is accessible and viewed. Lease acquired.",
         "2026-10-28T03:42:45.313+08:00: cycle2 #177 Otus hartlaubi v1 RESEARCH_READY; 3 new sources read/indexed, full prompt persisted. Only Mikkola-described paler finely barred mesoptile authorized; science false.",
         "2026-10-28T03:48:50.020+08:00: cycle2 VERIFIED #177 Otus hartlaubi v1 at archive c404c4ecaf832e9c39cb01ceecb750633099b6ee; unique 177/251; next_cycle3; lease released.",
-        "2026-10-28T03:49:26.643+08:00: cycle3 STARTED #178 Otus insularis v1 after manifest/source-index name search found no prior archive; lease acquired."
+        "2026-10-28T03:49:26.643+08:00: cycle3 STARTED #178 Otus insularis v1 after manifest/source-index name search found no prior archive; lease acquired.",
+        "2026-10-28T03:51:10.143+08:00: cycle3 #178 Otus insularis v1 RESEARCH_READY; 3 new sources read/indexed; adult-like older juvenile boundary and full prompt persisted; science false."
       ],
       "checkpoint": {
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species_id": 178,
         "species": "Otus insularis",
         "version": 1,
         "action": "NEW",
-        "at": "2026-10-28T03:49:26.643+08:00"
+        "at": "2026-10-28T03:51:10.143+08:00",
+        "source_ids": [
+          "SSCO-MIKKOLA-2013-P138",
+          "SSCO-CURRIE-2004-BREEDING",
+          "SSCO-CURRIE-2002-SIZE"
+        ],
+        "scientifically_verified": false
       }
     }
   ],
@@ -5171,9 +5185,10 @@
     "2026-10-28T03:47:46.239+08:00: cycle2 #177 REVIEWED after one 55.2s targeted juvenile-wing edit; original and 680x453 derivative opened; pass; science false.",
     "2026-10-28T03:48:11.308+08:00: cycle2 #177 ARCHIVED tree prepared; unique remains 176/251 until immutable readback.",
     "2026-10-28T03:48:50.020+08:00: cycle2 VERIFIED #177 Otus hartlaubi v1; immutable readback passed; unique 177/251; batch 2/6 next 3; science false.",
-    "2026-10-28T03:49:26.643+08:00: cycle3 STARTED #178 Otus insularis v1; no production credit; research pending."
+    "2026-10-28T03:49:26.643+08:00: cycle3 STARTED #178 Otus insularis v1; no production credit; research pending.",
+    "2026-10-28T03:51:10.143+08:00: cycle3 #178 RESEARCH_READY; guide plus two primary studies indexed; generation pending."
   ],
-  "updated_at": "2026-10-28T03:49:26.643+08:00",
+  "updated_at": "2026-10-28T03:51:10.143+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -5184,10 +5199,10 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "2026-10-28T0230+0800-cycle-3",
-    "heartbeat_at": "2026-10-28T03:49:26.643+08:00",
-    "expires_at": "2026-10-28T04:04:26.643+08:00"
+    "heartbeat_at": "2026-10-28T03:51:10.143+08:00",
+    "expires_at": "2026-10-28T04:06:10.143+08:00"
   },
-  "last_updated_at": "2026-10-28T03:49:26.643+08:00",
+  "last_updated_at": "2026-10-28T03:51:10.143+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

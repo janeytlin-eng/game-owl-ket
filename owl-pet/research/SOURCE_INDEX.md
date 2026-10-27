@@ -4292,3 +4292,40 @@ Links: [species card](species/176-otus-pembaensis.md), [run](../production/runs/
 - **Juvenile stage:** STSO-MIKKOLA-2013-P136 only; STSO-BIRDLIFE-RDB-1985-P326 confirms fledglings but lacks morphology.
 - **Habitat/background:** STSO-MIKKOLA-2013-P136 and STSO-BIRDLIFE-RDB-1985-P326.
 - **Unknown by evidence:** exact juvenile age, iris chronology, remex/tail sequence, flight threshold, nest geometry and sex-specific plumage.
+
+
+## 2026-10-28 — #178 Seychelles Scops Owl · *Otus insularis* v1 evidence increment
+
+### SSCO-MIKKOLA-2013-P138
+
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Locator:** user-uploaded PDF, printed p.138 / PDF p.140, accessed 2026-10-28.
+- **Type:** photographic field guide species account; page text and pixels actually read/viewed.
+- **Facts:** 20 cm, 130–159 g; tiny often invisible tufts; female more than 20 g heavier. Dull yellowish-brown crown with white spots/black streaks, mottled buff-brown upperparts, dark-edged white scapular band, pale underparts with broad blackish streaks, yellow/green-yellow eyes, dark-tipped grey-yellow bill, totally bare tarsi and long pale toes. Juvenile said to resemble adult but not well known. Habitat: hilly forest 250–600 m and wooded upland gardens.
+- **Limitations:** no juvenile age, soft parts, continuous feather sequence or precise activity threshold; exact nest is not described on this page.
+- **Decision:** older adult-like but softer juvenile, neutral-dark shaded iris, fully supported; do not invent downy chick.
+
+### SSCO-CURRIE-2004-BREEDING
+
+- **Title / authors / year:** “The breeding biology of the Critically Endangered Seychelles Scops-owl *Otus insularis*: consequences for conservation and management” / Dave Currie et al. / 2004.
+- **DOI / URL:** https://doi.org/10.1017/S0959270904000140 ; full text read at https://www.researchgate.net/publication/248692719_The_breeding_biology_of_the_Critically_Endangered_Seychelles_Scops-owl_Otus_insularis_consequences_for_conservation_and_management (accessed 2026-10-28).
+- **Type:** primary field study, Bird Conservation International 14:123–137.
+- **Facts read:** observations on 12 pairs, eight nests; all nests in tree cavities 7–25 m high with one egg or chick; incubation 3–4 weeks; fledging period 4–6 weeks from two nests; 11 solitary fledglings from eight territories; fledglings remained on territory at least three months. Upland Mahé mist forest study area 140–710 m.
+- **Limitations:** no detailed fledgling plumage or iris chronology; 4–6 week fledging interval derives from two nests and is not a license to invent exact feather state.
+- **Decision:** a simple high-cavity context and an older supported juvenile are evidence-supported; no nest lining or exact-age label.
+
+### SSCO-CURRIE-2002-SIZE
+
+- **Title / authors / year:** “Sexual size dimorphism in the critically endangered Seychelles Scops Owl *Otus insularis*” / Currie, Mateman, Lessells & Fanchette / 2002.
+- **Locator:** Ringing & Migration 21; abstract read in the full-text research page above, lines 1294–1307, accessed 2026-10-28.
+- **Type:** primary biometric study; 31 live birds, 30 molecularly sexed (6 females, 24 males).
+- **Facts:** females generally heavier and larger; plumage colour varied but was unrelated to sex, with no evidence of distinct colour morphs.
+- **Limitations:** abstract-level reading; unbalanced sex sample; no fixed visual percentage for body height or detailed plumage dimorphism.
+- **Decision:** use same-plumage adults with clear but moderate female fullness, not colour-coded sexes and not a universal rule.
+
+### Source-to-design map
+
+- Adult morphology: SSCO-MIKKOLA-2013-P138.
+- Female size direction and no sex-linked colour: SSCO-CURRIE-2002-SIZE.
+- Juvenile/nest stage: SSCO-MIKKOLA-2013-P138 plus SSCO-CURRIE-2004-BREEDING.
+- Unknown: exact juvenile age, iris/soft parts, continuous feather state, flight threshold, nest lining.

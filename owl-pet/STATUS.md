@@ -1,3 +1,11 @@
+## 2026-10-27 #137 *Otus alfredi* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/137-otus-alfredi-v2.png](design/concepts/137-otus-alfredi-v2.png)
+- Git blob `d5248dc6b4a8c499f3370cc0bb193a169f7e0d60`; 1536×1024; 577,955 bytes; SHA-256 `22ce5bfd6de94d59214fc1a8924abe3a573bf4e6a94f79806070b01c567faa4b`.
+- Research: 2 new sources, 1 reused primary, 1 prior interpretation corrected. Review: first output lacked labels and repeated large white wing spots; one edit restored labels and bounded true patterned scapular white. Science pending.
+- Run: [production/runs/2026-10-27T0728+0800-cycle-5.md](production/runs/2026-10-27T0728+0800-cycle-5.md)
+
 ## 2026-10-27 #136 *Megascops petersoni* v2
 
 - Result: revised and archived; unique species remains 159/251.

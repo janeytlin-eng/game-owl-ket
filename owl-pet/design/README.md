@@ -1,3 +1,10 @@
+## 137 · Flores Scops-Owl · *Otus alfredi* v2
+
+- [Original PNG](concepts/137-otus-alfredi-v2.png) · 1536×1024 · 577,955 bytes · SHA-256 `22ce5bfd6de94d59214fc1a8924abe3a573bf4e6a94f79806070b01c567faa4b`
+- Git blob: `d5248dc6b4a8c499f3370cc0bb193a169f7e0d60`
+- Revision: retained legitimate white scapular feathers but reduced blank shields to compact brown-broken spots; restored all labels and softened juvenile shoulder/wing maturity cues. New2/reused1/corrected1 sources; actual original and indexed views passed; science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0728+0800-cycle-5.md)
+
 ## 136 · Cinnamon Screech-Owl · *Megascops petersoni* v2
 
 - [Original PNG](concepts/136-megascops-petersoni-v2.png) · 1536×1024 · 609,399 bytes · SHA-256 `f9f9b08f575512ceb72113eb98faf05f8aef19bf95c718cdb058826c78f75369`

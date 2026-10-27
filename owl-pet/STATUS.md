@@ -1612,3 +1612,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Research: 3 new sources, 0 reused, 0 corrected. Mikkola printed p.135/PDF p.137 is the stage anchor; African Bird Club adult imagery and Avibase name crosswalk were actually read.
 - One targeted imagegen edit corrected long adult-like juvenile remiges. Both the 1536×1024 reviewed image and 680×453 derivative were opened; exact title/labels, exactly three owls and natural support pass.
 - Concept: [176-otus-pembaensis-v1.png](design/concepts/176-otus-pembaensis-v1.png). Downy chick, exact age, juvenile iris chronology, nest geometry and flight threshold remain unknown. Science remains false; independent readback pending.
+
+- 2026-10-28T03:39:14.938+08:00 — #176 *Otus pembaensis* v1 independently verified at archive `b5b5e306b86e62ae9702d2d1210ad57ea952bf66`; concept `d234423a…`, generated master `e7b9211e…`, reviewed master `64562ea5…`, plus manifest/source/card/run/state were read back at the immutable commit. Unique total is now **176/251**; batch `2026-10-28T0230+0800` advances to **1/6**, next cycle 2. Science remains false.

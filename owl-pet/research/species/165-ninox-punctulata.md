@@ -34,3 +34,13 @@ Primary forest near streams is preferred; open woodland, cultivation and settlem
 - `SPBO-EBIRD-2026` — current-name adult identity cross-check.
 
 See [SOURCE_INDEX](../SOURCE_INDEX.md) and [cycle run](../../production/runs/2026-10-27T1335+0800-cycle-6.md).
+
+
+## Production outcome — v1
+
+- Concept: `owl-pet/design/concepts/165-ninox-punctulata-v1.png`
+- Reviewed production asset: `owl-pet/production/assets/2026-10-27T1335+0800-cycle-6/165-ninox-punctulata-v1-reviewed.png`
+- ImageGen calls: 1 generation, 0 edits.
+- Review: PASS at full 1536×1024 and re-encoded 1536×1024 resolution.
+- Blob: `87ac0f12f1843c6703f890d8b3241c9804e649fa`; 616,088 bytes; SHA-256 `d2ef263bbb2e53cf2c85c9e0606c35d91558d22f5fff4fb8d1fbafa8c928c2d1`.
+- Science remains false pending independent specialist calibration.

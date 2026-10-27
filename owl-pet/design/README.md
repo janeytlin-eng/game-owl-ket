@@ -1303,3 +1303,13 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [run](../production/runs/2026-10-27T1034+0800-cycle-1.md)
 
 - #164 Desert Owl — *Strix hadorami* v1: [concept](concepts/164-strix-hadorami-v1.png). NEW; source-bounded adult diagnosis and pale mesoptile; one juvenile-wing edit; scientific verification pending.
+
+
+## 165 · Speckled Boobook · *Ninox punctulata* v1
+
+- [Original PNG](concepts/165-ninox-punctulata-v1.png) · 1536×1024 · 616,088 bytes · SHA-256 `d2ef263bbb2e53cf2c85c9e0606c35d91558d22f5fff4fb8d1fbafa8c928c2d1`
+- Git blob: `87ac0f12f1843c6703f890d8b3241c9804e649fa`
+- NEW concept. Three actually-read sources ground the adult identity, Sulawesi stream/forest-edge habitat and mesoptile. First render and indexed archive derivative both passed actual original-resolution review without editing.
+- Iteration evidence: the normal “remove adult-like juvenile remiges” safeguard was deliberately *not* applied, because Mikkola explicitly states that this species’ mesoptile wing and tail feathers are as adult. The validated rule is to override a generic juvenile safeguard only with direct species-specific evidence, while retaining juvenile body softness and a fully supported non-flight posture.
+- Limits: exact mesoptile age, flight threshold, juvenile iris, nest site and robust sex-size ratio remain unknown; `scientifically_verified=false`.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [research card](../research/species/165-ninox-punctulata.md) · [run](../production/runs/2026-10-27T1335+0800-cycle-6.md)

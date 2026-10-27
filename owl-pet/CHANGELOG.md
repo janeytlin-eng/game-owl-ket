@@ -929,3 +929,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - One targeted edit removed adult-like juvenile wing spot rows/hard remiges. Mikkola/Cornell sex-size conflict remains explicit; adults are near-equal and `scientifically_verified=false`.
 
 - 2026-10-27: Added NEW #164 Desert Owl (*Strix hadorami*) v1 after primary taxonomy reconciliation and one juvenile-wing edit; archived concept plus recoverable generated/reviewed evidence. Unique archived species 164/251; science pending.
+
+
+## 2026-10-27 — #165 *Ninox punctulata* v1
+
+- Added the first Speckled Boobook concept, increasing unique archived species from 164 to 165 of the fixed 251-species scope.
+- Added three actually-read source records and a species research card; the primary 2012 Forktail study bounds the stream/rainforest/agriculture context, and Mikkola pp.485–486 supplies the species-specific mesoptile exception.
+- First output and 64-colour archive derivative passed visual review without editing. Adult-like folded juvenile wing/tail pattern was retained only because it is directly documented; exact age/flight/iris/nest and robust sex ratio remain unknown. `scientifically_verified=false`.

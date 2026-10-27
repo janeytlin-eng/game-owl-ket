@@ -1717,3 +1717,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/05-strix-aluco-v3.png](design/concepts/05-strix-aluco-v3.png)
 - Research: Mikkola printed pp.315–317, BTO account/nest records and Coles & Petty 1997; 2 new/1 reused stable sources.
 - Review: one targeted edit removed long crisp adult-spotted juvenile remiges. Text/count, same-morph dark-eyed adults, pink-rimmed gray brancher, short soft wing/concealed tail and full support pass. Science false.
+
+
+- 2026-10-28T07:48:00.000+08:00 — #05 *Strix aluco* v3 independently verified at archive `3330861fb9ef907309fe1f67183135ff4eeae057`; concept `c827dcf0…`, generated `33d35fe6…`, reviewed `e0e8d62d…` and required metadata read back. Unique remains **184/251**; batch **5/6**, next cycle 6. Science false.

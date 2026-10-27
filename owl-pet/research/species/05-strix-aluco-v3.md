@@ -22,3 +22,11 @@ Verify exact title/labels/count, adult dark eyes/untufted heads/bill/one morph, 
 ## Generation and review
 
 Initial 1536×1024 render failed the juvenile-wing check: long crisp adult-spotted remiges. One targeted edit replaced only that wing with a short rounded woolly diffuse-barred contour. Edited full master and 680×453 derivative were viewed and pass. Generated blob `33d35fe6…`; reviewed blob `e0e8d62d…`; concept blob `c827dcf0…`. Science false; archive readback pending.
+
+
+## Archive verification
+
+- Archive: [3330861fb9ef907309fe1f67183135ff4eeae057](https://github.com/janeytlin-eng/game-owl-ket/commit/3330861fb9ef907309fe1f67183135ff4eeae057)
+- Verified: 2026-10-28T07:48:00.000+08:00
+- Concept/generated/reviewed blobs: `c827dcf0…` / `33d35fe6…` / `e0e8d62d…`
+- Required metadata readback passed. Unique remains 184/251; science false.

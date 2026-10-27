@@ -1706,3 +1706,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/14-bubo-virginianus-v3.png](design/concepts/14-bubo-virginianus-v3.png)
 - Research: Mikkola printed pp.262/264 (PDF pp.264/266), Hoffmeister & Setzer 1947 original postnatal study, International Owl Center age-chart PDF, and reused Cornell life-history/branching material; 3 new and 2 reused source IDs.
 - Review: no edit required after viewing the 1536×1024 source, full-size durable master and 680×453 derivative. Exact text/count/support, same-morph adults, subtle female fullness and an evidence-bounded approximately six-week brancher pass. Exact day, continuous feather sequence, quantified sex ratio, regional morph and universal nest geometry remain unknown. Science false; readback pending.
+
+
+- 2026-10-28T07:41:58.000+08:00 — #14 *Bubo virginianus* v3 independently verified at archive `bc4856cad33679864abf7552a697de09d2436346`; concept `901349b3…`, generated/reviewed full-size master `cbb375f0…`, plus manifest/source/card/run/state/STATUS/knowledge/README read back. Unique total remains **184/251**; batch **4/6**, next cycle 5. Science false.

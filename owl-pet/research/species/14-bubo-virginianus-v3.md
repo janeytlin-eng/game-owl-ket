@@ -43,3 +43,14 @@ Check exact count/title/labels, adult yellow eyes/white throat/irregular barring
 - Durable master: 1536×1024 indexed PNG SHA-256 `db59d1e…`, 741,393 bytes, Git blob `cbb375f0…`; visually re-opened. The exact source could not be sent because the shell base64 result truncated before connector blob creation; no truncated write was attempted.
 - Concept: 680×453 PNG SHA-256 `b1bb7e7b…`, 185,767 bytes, Git blob `901349b3…`; viewed.
 - Scientific status: false. Remaining unknowns are unchanged.
+
+
+## Archive verification
+
+- Archive commit: [bc4856cad33679864abf7552a697de09d2436346](https://github.com/janeytlin-eng/game-owl-ket/commit/bc4856cad33679864abf7552a697de09d2436346)
+- Verified at: 2026-10-28T07:41:58.000+08:00
+- Concept blob: `901349b37e7e40ad3244953a01a0f059245cbc41`
+- Generated/reviewed full-size master blob: `cbb375f058e4ed8ecdbfc6b4250994215ce0785e`
+- Manifest/source/card/run/state/STATUS/knowledge/README: commit-pinned readback passed.
+- Unique species count: unchanged at 184/251; this is a science revision.
+- Scientific status: false.

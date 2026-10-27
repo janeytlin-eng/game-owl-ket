@@ -4896,9 +4896,10 @@
       "reviewed_at": "2026-10-28T07:39:15.000+08:00",
       "dimensions": "680x453",
       "size_bytes": 185767,
-      "archive_note": "Built-in imagegen produced a 1536x1024 source. Original-resolution and 680x453 derivative review passed without an edit. The exact source hash/size are recorded; connector base64 output truncated before blob creation, so a visually re-opened full-resolution indexed PNG master and the concept derivative were archived. Commit-pinned readback pending. Scientific verification remains false.",
-      "archive_commit": "pending-readback"
+      "archive_note": "Built-in imagegen produced a 1536x1024 source; original-resolution and 680x453 derivative review passed without an edit. The exact source SHA-256/size are preserved in the run record. Connector shell base64 output truncated before blob creation, so a visually re-opened full-resolution indexed PNG master was archived instead. Commit-pinned readback at bc4856ca verified concept 901349b3, generated/reviewed master cbb375f0, manifest/source/card/run/state/STATUS/knowledge/README. Scientific verification remains false.",
+      "archive_commit": "bc4856cad33679864abf7552a697de09d2436346",
+      "verified_at": "2026-10-28T07:41:58.000+08:00"
     }
   ],
-  "updated_at": "2026-10-28T07:40:37.000+08:00"
+  "updated_at": "2026-10-28T07:41:58.000+08:00"
 }

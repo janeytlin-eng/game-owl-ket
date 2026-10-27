@@ -3,7 +3,7 @@
 - Current name: *Otus lempiji*
 - Design taxon: nominate *O. l. lempiji*, Singapore / southern Malay Peninsula
 - Historical mapping: *Otus lempiji cnephaeus* — Clements 2017 correction treats this as a junior synonym of nominate *lempiji*
-- Production state: ARCHIVED (immutable readback pending)
+- Production state: VERIFIED
 - Scientific verification: false
 
 ## Evidence used
@@ -24,4 +24,5 @@ Run: [cycle 6](../../production/runs/2026-10-28T0230+0800-cycle-6.md).
 - Concept blob: `aec13b9290e34e9e0866f38d17142c073ee35028`
 - Generated blob: `1888bd41487c1e09b3c764a6c91db34527e3e00b`
 - Reviewed master blob: `67e58cf81793d0ad6419448d96797783e91d14c8`
-- Immutable readback: pending
+- Archive commit: `4707bba21c28cd00b6dc90a0b6967558ddfadcfe`
+- Immutable readback: passed for concept/generated/reviewed plus manifest/source/card/run/state/STATUS

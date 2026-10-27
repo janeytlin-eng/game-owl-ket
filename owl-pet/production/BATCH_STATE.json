@@ -4785,76 +4785,39 @@
         }
       ],
       "next_cycle": 2,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-owl-production",
+        "run_id": "2026-10-27T2126+0800-cycle-2",
+        "heartbeat_at": "2026-10-27T21:45:00.000+08:00",
+        "expires_at": "2026-10-27T22:00:00.000+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 1,
-        "run_id": "2026-10-27T2126+0800-cycle-1",
-        "species": "#116 Margarobyas lawrencii",
+        "cycle": 2,
+        "run_id": "2026-10-27T2126+0800-cycle-2",
+        "species": "#119 Megascops centralis",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-27T21:42:00.000+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-27T21:45:00.000+08:00",
         "evidence": {
-          "preflight_correction": "The STARTED candidate #117 v4 was stale: main already contains #117 v8, archived and independently verified at 35d48a0b45817c14dbab044e28957bfeafde7e0c. No #117 image was generated.",
-          "target_reason": "#116 v2 manifest/card explicitly retain faint bright ivory teardrop-like crown tips as a priority scientific-calibration item.",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids_reused": [
-            "CBLO-MIK2013-252",
-            "CBLO-SHERONY-2006",
-            "CBLO-SHARP-2016",
-            "CBLO-BOUGLOUAN-CARD",
-            "CBLO-AOU-2013A11"
+          "main_head": "13f6cb067ba429645bfd1b030c332dabb8071a24",
+          "candidate_reason": "#119 v2 latest manifest status says hard cream scallops were reduced but fine geometry remains pending; select focused juvenile mesoptile-pattern revision.",
+          "preserved_versions": [
+            "v1",
+            "v2"
           ],
-          "source_ids_new": [],
-          "source_ids_corrected": [],
-          "uploaded_guide_attempt": "Library file was accessible, but pages 254-255 returned no readable content in pages mode; prior actually-read indexed transcription was reused and no new page-reading claim is made.",
-          "external_research": "Fresh web search/read included Smithsonian repository metadata for Olson & Suarez 2008, AOS proposal, BirdsCaribbean adult account, Commons/field-photo leads; no new morphology fact exceeded existing indexed evidence, so deduplicated rather than adding a duplicate source ID.",
-          "unique_species_total": 174,
-          "full_prompt_saved": "owl-pet/research/species/116-margarobyas-lawrencii-v3.md",
-          "generated_asset": "owl-pet/production/assets/2026-10-27T2126+0800-cycle-1/generated-master.png",
-          "generated_dimensions": "1536x1024 RGB",
-          "generated_bytes": 3144863,
-          "generated_sha256": "6f850d6e13b9bb6414820a8f6a37509c722efa9e0f2b61cfce06d9afa6a591d5",
-          "generation_elapsed_seconds": 56.2,
-          "actual_view": "Original 1536x1024 RGB master opened at original detail.",
-          "edit_calls": 0,
-          "review": "PASS: exact three birds/text; adult dark eyes, untufted heads, bare tarsi/toes and supported grips; near-equal adult scale; juvenile crown continuous sienna-brown with only sparse low-contrast pale tips and no bright repeated teardrop rows; formed compact wings and both feet supported.",
-          "unknowns": [
-            "exact juvenile age",
-            "flight ability",
-            "continuous feather sequence",
-            "fixed sex-size ratio",
-            "exact crown feather map",
-            "subspecies limits"
-          ],
-          "scientifically_verified": false,
-          "archive_pending_commit": true,
-          "concept_path": "owl-pet/design/concepts/116-margarobyas-lawrencii-v3.png",
-          "image_git_blob": "49d4e1e15d4f9edeaf056a9016dc73e6878835e4",
-          "manifest_versions_after_archive": 420,
-          "archive_commit": "b9667425eed465cccce15ee20bcc535182c927c5",
-          "concept_git_blob": "49d4e1e15d4f9edeaf056a9016dc73e6878835e4",
-          "master_git_blob": "49d4e1e15d4f9edeaf056a9016dc73e6878835e4",
-          "commit_pinned_readback": {
-            "concept": true,
-            "master": true,
-            "manifest": true,
-            "run_record": true,
-            "batch_state": true,
-            "species_card": true,
-            "research_record": true
-          },
-          "concept_display_url": "https://github.com/janeytlin-eng/game-owl-ket/blob/b9667425eed465cccce15ee20bcc535182c927c5/owl-pet/design/concepts/116-margarobyas-lawrencii-v3.png"
+          "unique_species_total": 174
         }
       },
-      "last_updated_at": "2026-10-27T21:42:00.000+08:00",
+      "last_updated_at": "2026-10-27T21:45:00.000+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
         "2026-10-27T21:34:00.000+08:00: IMAGE_GENERATED for #116 v3. Built-in imagegen produced one 1536x1024 RGB master, 3,144,863 bytes, SHA-256 6f850d6e13b9bb6414820a8f6a37509c722efa9e0f2b61cfce06d9afa6a591d5. Generation elapsed 56.2 s as observed by this invocation, not provider telemetry. Actual original-resolution view is recorded next; lease renewed to 2026-10-27T21:49:00.000+08:00.",
         "2026-10-27T21:36:00.000+08:00: REVIEWED #116 v3 master at original 1536x1024 detail. Exact count/text, adult identity/bare legs/support, near-equal adult scale, and subdued non-repeating juvenile crown pattern passed. No edit call warranted. Exact age/flight/sequence/sex ratio/feather map remain unknown; science false. Lease renewed to 2026-10-27T21:51:00.000+08:00.",
         "2026-10-27T21:39:00.000+08:00: ARCHIVED checkpoint prepared for #116 v3. Concept path reuses reviewed full master blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest grows 419→420 versions; unique species remains 174/251; science false. Independent commit-pinned readback pending. Lease renewed to 2026-10-27T21:54:00.000+08:00.",
-        "2026-10-27T21:42:00.000+08:00: VERIFIED cycle 1/6 for #116 Margarobyas lawrencii v3. Archive commit b9667425eed465cccce15ee20bcc535182c927c5 fetched; concept and durable master both resolve to Git blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest/run/batch/species/research records read back. Unique species remains 174/251, manifest versions 420, science false. Lease released; next_cycle=2."
+        "2026-10-27T21:42:00.000+08:00: VERIFIED cycle 1/6 for #116 Margarobyas lawrencii v3. Archive commit b9667425eed465cccce15ee20bcc535182c927c5 fetched; concept and durable master both resolve to Git blob 49d4e1e15d4f9edeaf056a9016dc73e6878835e4; manifest/run/batch/species/research records read back. Unique species remains 174/251, manifest versions 420, science false. Lease released; next_cycle=2.",
+        "2026-10-27T21:45:00.000+08:00: cycle 2 STARTED for #119 Megascops centralis v3 SCIENCE_REVISION. Latest v2 explicitly leaves fine juvenile mesoptile geometry pending after only partial scallop reduction. Lease expires 2026-10-27T22:00:00.000+08:00."
       ]
     }
   ],

@@ -1392,3 +1392,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Old name *Bubo shelleyi* mapped to current *Ketupa shelleyi*. Original master and TrueColor derivative viewed; no edit required.
 - The downy chick is explicitly undescribed and was not invented. Plate uses Mikkola’s age-unknown yellowish-grey, brown-barred mesoptile with dark-blue eyes and species-specific adult-like wings/tail.
 - Exact age, flight ability, nest geometry and quantified sex ratio remain unknown; science false.
+
+
+- 2026-10-27 17:09 +0800 — #169 *Ketupa shelleyi* v1 independently verified at archive commit `6538a3278355cf46a0c5ba694cef84917b8fa1fc`; concept/generated/reviewed all resolve to blob `fad8ddcd84bda9a7a0c468421678c058230029d7` (633,521 bytes). Unique archived species is 169/251; science remains pending.

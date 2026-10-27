@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-10-28T00:42:10.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4426,7 +4426,35 @@
       "archive_note": "1513x1039 source and 680x453 derivative were actually viewed. First render required no edit because the tuftless fluffy adult-like fledgling matches the only species-specific stage description. Full generated/reviewed masters are retained under production/assets/2026-10-27T2126+0800-cycle-6/. v1-v2 preserved; unique count unchanged.",
       "archive_commit": "4a987dba71815bb008f2ce8b6a8a0ce747073bb8",
       "verified_at": "2026-10-27T23:55:07.249+08:00"
+    },
+    {
+      "id": "161-ketupa-blakistoni-v2",
+      "path": "design/concepts/161-ketupa-blakistoni-v2.png",
+      "species_id": 161,
+      "scientific_name": "Ketupa blakistoni",
+      "historical_names": [
+        "Bubo blakistoni"
+      ],
+      "common_name": "Blakiston's Fish Owl",
+      "version": 2,
+      "sha256": "73771356d806542940212b0bd182ec3c98396a97bfd98858da87a8838d31de44",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION after original-resolution v1 inspection and a fresh evidence-led edit. Adults retain Hokkaido nominate scope: no continental white back patch or nearly-white tail; high-contrast repeated wing rows are reduced to irregular subdued buff bars and shaft streaks; cream-feathered tarsi and bare lead-gray toes are explicit. Female is only subtly fuller. Center is explicitly a supported late-nestling/juvenile at approximately 50 days, with smoke-gray mesoptile, dark mask and soft formed wings. Exact age/flight, continuous feather chronology, universal sex ratio and individual pattern remain unknown.",
+      "source_ids": [
+        "BLF-HAYASHI-BR2010",
+        "BLF-MIKKOLA-2013-P296",
+        "BLF-IOC13-1-2023",
+        "BLF-OWLPAGES-2020",
+        "BLF-MOVIN-2022"
+      ],
+      "source_index": "research/species/161-ketupa-blakistoni.md#v2-science-revision--2026-10-28",
+      "run_record": "production/runs/2026-10-28T0029+0800-cycle-1.md",
+      "git_blob": "8641f14245da409ce2ff92298d21c3ed4d731e6f",
+      "reviewed_at": "2026-10-28T00:39:20.000+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3550209,
+      "archive_note": "Existing v1 opened at original resolution and retained. Built-in imagegen produced v2 in one edit pass; generated and reviewed masters were both opened/rechecked, and all three repository image paths share the exact immutable blob. Archive commit/readback pending at this stage."
     }
   ],
-  "updated_at": "2026-10-27T23:55:07.249+08:00"
+  "updated_at": "2026-10-28T00:42:10.000+08:00"
 }

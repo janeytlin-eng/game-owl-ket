@@ -502,3 +502,8 @@ A recovered cycle can repeat an already-corrected image failure even when the re
 ### Applied and checked — sex-size direction must survive composition and perspective (2026-10-27, #08 v4)
 
 A prompt can specify a modest female-larger direction yet composition and perch perspective can make the labeled female read smaller. #08 v4’s first render otherwise passed, but the right female’s apparent body volume contradicted the sourced direction. One female-only edit made her subtly fuller/larger without changing species markings, perches, text or juvenile. Both edited master and derivative were viewed. This validates an image-specific review rule: judge apparent size in the final composition, not prompt wording alone. It does not create a universal owl sex ratio; exact measurements remain unknown and science remains false.
+
+
+### Regional-taxon exclusion guard (discovered/applied/verified 2026-10-28)
+
+When a primary taxonomic study proposes a split and documents regional diagnostic plumage, use those traits as an explicit exclusion guard for a geographically fixed scene, but do not silently replace the repository's current checklist name. Applied to Hokkaido #161 v2: the continental *doerriesi* white back patch and near-white adult tail were excluded while *Ketupa blakistoni* remained the project name. Original-resolution review confirmed the guard without changing the evidence-supported juvenile stage. This rule is verified for this image only; it is not a universal instruction to adopt every proposed split.

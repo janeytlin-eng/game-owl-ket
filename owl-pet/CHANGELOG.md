@@ -1040,3 +1040,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added a non-destructive science-calibration revision while preserving v1–v2; no unique-species increment.
 - Reused five indexed sources after fresh external search; no duplicate source IDs were added. The uploaded guide was found, but its requested pages were unreadable in this invocation, so no fresh page-reading claim was made.
 - First render passed original-resolution review without edit: the older juvenile’s v2 residual bright repeated crown teardrops were removed while source-bounded formed wings, adult dark eyes/untufed heads, bare tarsi/toes, natural support and near-equal adult scale were retained. Science remains false.
+
+
+## 2026-10-28 — #161 *Ketupa blakistoni* v2 archive checkpoint
+
+- Deferred uncredited #175 *Otus ireneae* candidate because no verified species-specific juvenile/breeding stage was recovered; no image or species number was consumed.
+- Added a research-indexed science revision of #161 after actual v1 inspection; new source IDs BLF-OWLPAGES-2020 and BLF-MOVIN-2022, plus three reused anchors.
+- Generated, opened, reviewed and archived `design/concepts/161-ketupa-blakistoni-v2.png`; manifest 425→426, unique 174/251. Independent readback still pending, so cycle credit has not advanced.

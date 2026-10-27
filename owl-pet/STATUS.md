@@ -1537,3 +1537,11 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 
 
 - 2026-10-27T22:57:10.000+08:00 — #118 *Megascops cooperi* v4 independently verified at archive `e07603dae6e3cc9e6b54b10c12aa810d43ce5c31`; concept blob `ac37754086ca3feaa2e83fa4294ee17a227e18e0`, reviewed master `f7b9dfc8ac62610a0f817399c39840c8f00b44d9`. Readback passed; unique 174/251; batch 4/6, next cycle 5; science pending.
+
+
+## 2026-10-28 cycle 1 — #161 Blakiston's Fish Owl v2 ARCHIVED (verification pending)
+
+- Science revision; unique archived species remains **174/251** and manifest entries become **426**.
+- Existing v1 was opened at 1536×1024 and preserved. v2 reduces mechanical adult wing rows, constrains the Hokkaido nominate form against continental *doerriesi* traits, clarifies feathered tarsi/bare toes, and explicitly labels the supported center bird as a late-nestling/juvenile (~50 days).
+- Research: 2 new / 3 reused / 1 corrected inference. New primary source: Movin et al. 2022, DOI 10.1016/j.avrs.2022.100021; new morphology cross-check: The Owl Pages.
+- Concept: [161-ketupa-blakistoni-v2.png](design/concepts/161-ketupa-blakistoni-v2.png). Scientific verification remains false; independent archive readback is pending.

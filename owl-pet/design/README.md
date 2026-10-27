@@ -1421,3 +1421,10 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Komar pp.65–66/Fig.4 and uploaded Mikkola p.210 were reread/viewed; current Owl Pages and Aves de Costa Rica text were opened/read. One texture-only edit reduced mechanical rows while preserving both real adult pale wing bands and formed juvenile remiges.
 - Existing v1–v3 remain preserved. Exact age, continuous feather sequence, exact feather map, sexed linear dimensions and geographic variation remain unknown; science pending.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/118-megascops-cooperi-v4.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-4.md)
+
+
+### #161 Blakiston's Fish Owl — v2 science revision (2026-10-28)
+
+[Original 1536×1024 concept](concepts/161-ketupa-blakistoni-v2.png) · [research card](../research/species/161-ketupa-blakistoni.md#v2-science-revision--2026-10-28) · [run record](../production/runs/2026-10-28T0029+0800-cycle-1.md)
+
+Hokkaido nominate adults, a fully supported approximately 50-day late-nestling/juvenile, and a continuous winter riverine old-growth setting. v1 remains preserved. Repository integrity review is pending; science status is not passed.

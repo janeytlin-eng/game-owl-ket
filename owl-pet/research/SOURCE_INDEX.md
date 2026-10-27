@@ -4014,3 +4014,36 @@ Links: [research card](species/173-otus-madagascariensis.md), [run](../productio
 - Fresh read: `S107-BIRDLIFE-2026` — BirdLife International, Fulvous Owl species factsheet, https://datazone.birdlife.org/species/factsheet/fulvous-owl-strix-fulvescens, accessed 2026-10-27. Institutional conservation/taxonomy account; treats *S. fulvescens* as a species and notes vocal, morphological and coloration differences from historical *S. varia* lumping. Limit: dynamic page yielded no juvenile developmental sequence or sex ratio; used only for current identity/status boundary.
 - Fresh web checks of eBird, CAYAYA field photos/account and Owl Pages confirmed adult warm buff/rufous direction, dark/brown eyes, rounded no-tuft head, cloud/highland forest, and an older fluffy photographed juvenile. The existing 2026-10-16 direct-photo review remains the actual juvenile visual evidence.
 - Correction: recursive tree inspection found v3 at `design/concepts/107-strix-fulvescens-v3.png`; current cycle is therefore v4, not v3. No previous version is overwritten or recounted.
+
+
+## #08 *Strix nebulosa* · cycle 2026-10-27T1836+0800-5
+
+### GGO-CORNELL-ID-2026
+- Title: Great Gray Owl Identification
+- Author/institution: Cornell Lab of Ornithology, All About Birds
+- Year: live account; accessed 2026-10-27
+- URL: https://www.allaboutbirds.org/guide/Great_Gray_Owl/id
+- Type: institutional species account
+- Species/stage: *Strix nebulosa*, adults
+- Actually read: Four Keys to ID, lines 78–110.
+- Useful facts: tall, broad-winged, long-tailed, large round head/facial disk; females larger but plumage alike; silvery gray fine streaking/barring, yellow eyes, concentric disks, pale X arcs, white/black bow-tie throat mark.
+- Evidence limit/confidence: high for diagnosis; combined-sex measurements do not provide an exact standing-height ratio.
+- Design decision: subtle female fullness/size direction only; exact ratio withheld.
+- Links: [card](../knowledge/species/08-strix-nebulosa.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-5.md)
+
+### GGO-WHITFIELD-1997
+- Title: Great Gray Owl (*Strix nebulosa*) Breeding Habitat Use within Altered Forest Landscapes
+- Authors/institution: Whitfield & Gaffney; USDA Forest Service
+- Year: 1997; accessed 2026-10-27
+- URL: https://research.fs.usda.gov/download/treesearch/15623.pdf
+- Type: primary field study / conference proceedings
+- Species/stage: recently fledged pre-flight and flying juveniles
+- Actually read: PDF p. 3 / article p. 500, Table 1 and Juvenile Survivorship Pre-Independence.
+- Useful facts: study explicitly separated fledged pre-flight and flying broods; limited samples reported hatch-to-fledge and fledge-to-flight survival.
+- Evidence limit/confidence: primary stage evidence; no precise feather map, individual age or pose description.
+- Design decision: permits a pre-flight stage label, not exact-day or feather-sequence claims.
+- Links: [card](../knowledge/species/08-strix-nebulosa.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-5.md)
+
+### Reused OWL-SRC-0053-A
+- Fresh read 2026-10-27: USDA Forest Service FEIS Perching and Roosting / Nesting Habitat. Pre-flight owlets first climb leaning trees and later deeply fissured upright trees; broken tops and vacated stick nests are valid, cavity/newly-built owl nest excluded.
+- Existing stable ID retained; no duplicate source entry counted.

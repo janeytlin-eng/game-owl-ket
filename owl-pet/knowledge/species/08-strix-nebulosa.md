@@ -34,3 +34,10 @@ ORI2020具体巢观察：约7和9日龄雏鸟眼睛半睁；初生白绒羽尚�
 ## 08-strix-nebulosa-v3
 Actual edited fullPNG viewed: modest diffuse gray around chickcheeks/rearhead now visible vswhiteforehead; still muchsubtler than primarycamframe, exactextent/agegeometrypending. Halfopeneyes/hornyellowbill/whitebody/shortdownywing/noadulttail, bellyfloor/tuckedfeet support retained. Adults facialrings/yelloweyes/barring/labels preserved visually, slightdetaildrift. Scientificfalse; oldapprovalnottransferred. Prior128v3twofailedcrownedits remainauditnotcredited.
 Sources new0/reused2 MARS-WESKE-1981 failedtarget, GGO-ORI-2020-0506 actualfreshbody/GIF primaryphoto; index4101148e129dea1badefe314676eb5d58ce8f425 and d9fd769e60425bfaf33bbdb06eae4f9b3a95a7de; fullprompt/stages [run](../../production/runs/2026-10-19T0025+0800-cycle-3.md). [Original](../../design/concepts/08-strix-nebulosa-v3.png).
+
+
+## 2026-10-27 v4 RESEARCH_READY
+
+本轮保留 v1–v3 与 v1 用户审美确认，不转移确认状态。新读 Cornell 成鸟识别与 Whitfield & Gaffney 1997 原始野外研究，复用 FEIS 发育/栖位综合：v4 改用“刚离巢但尚不能飞”的幼鸟阶段，低伏并由倾斜、深裂纹针叶树干完整支撑；成鸟雌性只做轻微丰满/体型方向，不声明测量比例。精确日龄、地域型羽色和逐日羽序仍未知，scientifically_verified=false。
+
+来源索引：GGO-CORNELL-ID-2026、GGO-WHITFIELD-1997；复用 OWL-SRC-0053-A。完整提示与阶段证据见 [cycle 5 run](../../production/runs/2026-10-27T1836+0800-cycle-5.md)。

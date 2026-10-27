@@ -1,7 +1,7 @@
 # 06 · Long-eared Owl · *Asio otus* · v3
 
 - Action: SCIENCE_REVISION
-- Stage: RESEARCH_READY
+- Stage: REVIEWED
 - Date: 2026-10-28
 - v1/v2 preserved; prior confirmation does not transfer.
 - Science: false.
@@ -17,3 +17,7 @@ Create one polished 3:2 landscape scientific concept review board in the reposit
 ## Review plan
 
 Check exact text/count/labels; adult long tufts/orange eyes/face/bill/streaks/same morph; juvenile dark face, transitional eyes, incomplete tufts, soft formed folded wing/tail and two-foot support. Edit if adult orange eye leaks into juvenile or if juvenile flies/has fully adult proportions.
+
+## Review
+
+Original-resolution render reviewed at 2026-10-28T07:54:02.000+08:00. PASS_WITH_LIMITATIONS; edit count 0. Count/text, adult orange eyes/long tufts/streaks, comparable adult scale, juvenile mesoptile/dark face/incomplete tufts/formed folded wing-tail, two-foot support and no-flight pose all pass. Formed wing/tail was deliberately retained because Mikkola supports that juvenile condition; science remains false for the unknowns above.

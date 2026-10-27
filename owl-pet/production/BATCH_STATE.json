@@ -4794,8 +4794,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "2026-10-27T2126+0800-cycle-3",
-        "heartbeat_at": "2026-10-27T22:36:31.000+08:00",
-        "expires_at": "2026-10-27T22:51:31.000+08:00"
+        "heartbeat_at": "2026-10-27T22:42:16.000+08:00",
+        "expires_at": "2026-10-27T22:57:16.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -4803,8 +4803,8 @@
         "species": "#120 Megascops ingens",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-27T22:36:31.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-27T22:42:16.000+08:00",
         "evidence": {
           "main_head": "fa95478d81557e2b91607046222c42f486bd8c7e",
           "candidate_reason": "v2 actual view shows oversized tufts/bright irises/decorative feather geometry; direct primary juvenile paper and uploaded guide now fully read.",
@@ -4836,10 +4836,28 @@
           "durable_master_sha256": "eaab3388f5a39705aea632f23b9187be479f30e904492924095de7e77d216554",
           "durable_encoding": "JPEG quality 88, full original dimensions, archive transfer encoding",
           "generation_elapsed_seconds": 66.2,
-          "generation_elapsed_note": "Observed tool-call wall time for this invocation; not provider telemetry."
+          "generation_elapsed_note": "Observed tool-call wall time for this invocation; not provider telemetry.",
+          "review_result": "PASS after two targeted edits",
+          "review_viewed": "1536x1024 original detail",
+          "edit_1": "Juvenile wing reduced from adult-like full folded wing to a bounded cluster of developed barred remiges under natal down; all other composition preserved.",
+          "edit_2": "Adult tufts shortened, irises darkened, and mechanical repeated plumage motifs softened; juvenile/composition preserved.",
+          "reviewed_source_png_sha256": "9a835d8dd086a809257992917c47e38ebb0bb4e9a1d5a6481a5d84e4d2a29d38",
+          "reviewed_source_png_bytes": 3005223,
+          "reviewed_master": "owl-pet/production/assets/2026-10-27T2126+0800-cycle-3/reviewed-master.jpg",
+          "reviewed_master_sha256": "e5f910944e9bd52dd2448e0c89873d07be335bf6c503329db76986c5d0874284",
+          "reviewed_master_bytes": 459472,
+          "edit_wait_seconds": [
+            51,
+            74.5
+          ],
+          "remaining_unknowns": [
+            "exact chick age within author-estimated 20–30 days",
+            "individual/subspecies variation",
+            "exact sex-specific plumage differences"
+          ]
         }
       },
-      "last_updated_at": "2026-10-27T22:36:31.000+08:00",
+      "last_updated_at": "2026-10-27T22:42:16.000+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
@@ -4853,7 +4871,8 @@
         "2026-10-27T21:57:00.000+08:00: cycle2 VERIFIED at bd053661476522be11844cb7bd002c47acfda758; concept and edited master resolve to eeeed9b583081409e139b9f0ea3839042e314b7e; batch 2/6 next_cycle3; unique174/251; lease released.",
         "2026-10-27T22:28:00.000+08:00: cycle3 STARTED for #120 Megascops ingens v3 SCIENCE_REVISION after full-tree/version audit. Actual v2 view shows long strongly layered juvenile wing feathers while its manifest still leaves age/feather geometry unresolved. Research must re-open the 2022 first-chick/nest paper before choosing stage. Lease expires 2026-10-27T22:43:00.000+08:00.",
         "2026-10-27T22:36:00.000+08:00: cycle3 RESEARCH_READY for #120 v3. Publisher PDF pp301–304/Fig1 and uploaded Mikkola printed p229/PDF231 read/viewed. New1/reused2/corrected1; preserve documented formed barred juvenile remiges; correct adult tuft/iris/pattern exaggeration. Lease renewed to 2026-10-27T22:51:00.000+08:00.",
-        "2026-10-27T22:36:31.000+08:00: cycle3 IMAGE_GENERATED for #120 v3. Built-in imagegen source PNG 1536x1024, 3,146,282 bytes, SHA-256 2b0c8ca026afc13e8e638538e6a5cf953829d23a231d6ae6ceb1d6d472e33f60. Durable full-dimension JPEG archive 491,032 bytes, SHA-256 eaab3388f5a39705aea632f23b9187be479f30e904492924095de7e77d216554; encoding-only transfer adaptation. Generation elapsed 66.2 s observed by this invocation, not provider telemetry; original-detail review pending."
+        "2026-10-27T22:36:31.000+08:00: cycle3 IMAGE_GENERATED for #120 v3. Built-in imagegen source PNG 1536x1024, 3,146,282 bytes, SHA-256 2b0c8ca026afc13e8e638538e6a5cf953829d23a231d6ae6ceb1d6d472e33f60. Durable full-dimension JPEG archive 491,032 bytes, SHA-256 eaab3388f5a39705aea632f23b9187be479f30e904492924095de7e77d216554; encoding-only transfer adaptation. Generation elapsed 66.2 s observed by this invocation, not provider telemetry; original-detail review pending.",
+        "2026-10-27T22:42:16.000+08:00: cycle3 REVIEWED #120 v3 after two targeted edits. Edit1 reduced adult-like juvenile wing to bounded documented barred remiges under natal down; edit2 shortened adult tufts/darkened irises/softened mechanical pattern repetition. Full 1536x1024 view passed count, text, identity, support and stage checks. Reviewed source PNG SHA-256 9a835d8dd086a809257992917c47e38ebb0bb4e9a1d5a6481a5d84e4d2a29d38; durable JPEG SHA-256 e5f910944e9bd52dd2448e0c89873d07be335bf6c503329db76986c5d0874284. Science false."
       ]
     }
   ],

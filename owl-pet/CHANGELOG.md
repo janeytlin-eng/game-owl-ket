@@ -1058,3 +1058,11 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added `TMO-DEBUS-WOOD-2007-P49-52` after reading printed pp.49–52; reused three existing evidence anchors without duplicate source records.
 - ImageGen produced one evidence-bounded edit. The 1536×1024 output was opened and reviewed: exactly three birds, correct text/support, thick cream down and developed mask with no visible flight feathers. No second edit was warranted.
 - Archived `design/concepts/172-tyto-castanops-v2.png`; manifest 426→427, unique remains 174/251. Independent readback is still pending.
+
+
+## 2026-10-28 — #163 *Glaucidium gnoma* v2 archive checkpoint
+
+- Reopened v1 and found an evidence mismatch: the selected age-unknown mesoptile had bright adult-like yellow irises although the v1 record explicitly left juvenile iris unknown; adult spotting was also mechanically repeated.
+- Re-read Mikkola p.375/PDF p.377, ORI, Owl Pages and IOC; actually viewed and indexed one Perote, Veracruz adult observation photograph (`MTPO-INAT-PEROTE-2016`) as a visual-only cross-check. Rejected one access-denied Macaulay lead and one Oregon historical-broad-taxon study for morphological transfer.
+- ImageGen produced v2; original-resolution review found adult-like juvenile wing spots/hard tips, so one targeted edit replaced only the juvenile wing with short soft developing plumage. Recheck passed.
+- Archived `design/concepts/163-glaucidium-gnoma-v2.png`; manifest 427→428, unique remains 174/251. Independent readback is still pending.

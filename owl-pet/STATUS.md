@@ -1561,3 +1561,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T00:49:00.000+08:00 — #172 *Tyto castanops* v2 independently verified at archive `67263de6289b3fd901ec15334b705b2dd0f8c039`; concept/generated/reviewed paths map to blob `d24b354d6584f5c241c91d94caad486d8ba26ef0` (2,845,132 bytes). Manifest/source/card/run readback passed; unique remains 174/251; batch 2/6, next cycle 3; science pending.
+
+
+## 2026-10-28 cycle 3 — #163 Mountain Pygmy Owl v2 ARCHIVED (verification pending)
+
+- Science revision; unique archived species remains **174/251** and manifest entries become **428**.
+- Existing v1 remains preserved. v2 removes the unsupported bright adult-yellow juvenile iris, using a shaded neutral-dark uncertainty presentation, and replaces adult-like juvenile wing spots/hard remiges with short soft developing plumage.
+- Research: 1 new visual cross-check / 4 reused / 2 rejected leads. New index entry: `MTPO-INAT-PEROTE-2016`; Mikkola printed p.375/PDF p.377 remains the stage anchor.
+- Concept: [163-glaucidium-gnoma-v2.png](design/concepts/163-glaucidium-gnoma-v2.png). Scientific verification remains false; independent archive readback is pending.

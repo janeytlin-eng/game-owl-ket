@@ -4929,8 +4929,8 @@
         "species": "#163 Glaucidium gnoma",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T01:37:00.000+08:00",
-        "expires_at": "2026-10-28T01:52:00.000+08:00"
+        "heartbeat_at": "2026-10-28T01:38:30.000+08:00",
+        "expires_at": "2026-10-28T01:53:30.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -4938,20 +4938,21 @@
         "species": "#163 Glaucidium gnoma",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T01:37:00.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T01:38:30.000+08:00",
         "evidence": {
-          "path": "owl-pet/production/assets/2026-10-28T0029+0800-cycle-3/163-glaucidium-gnoma-v2-reviewed-master.png",
-          "width": 1536,
-          "height": 1024,
+          "concept_path": "owl-pet/design/concepts/163-glaucidium-gnoma-v2.png",
+          "generated_path": "owl-pet/production/assets/2026-10-28T0029+0800-cycle-3/163-glaucidium-gnoma-v2-generated-master.png",
+          "reviewed_path": "owl-pet/production/assets/2026-10-28T0029+0800-cycle-3/163-glaucidium-gnoma-v2-reviewed-master.png",
+          "git_blob": "97c96d2f092be871d27cb9ee53beb77eef9b0a24",
           "size_bytes": 3195022,
-          "sha256": "0abb3c1832f9a1d61e653049050bd889ccc960a30e9ea09f58007aaf11ab6a5f",
-          "review_result": "PASS_AFTER_ONE_TARGETED_EDIT",
-          "scientifically_verified": false,
+          "manifest_entries": 428,
+          "unique_species_total": 174,
+          "readback_pending": true,
           "credit": false
         }
       },
-      "last_updated_at": "2026-10-28T01:37:00.000+08:00",
+      "last_updated_at": "2026-10-28T01:38:30.000+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -4965,7 +4966,8 @@
         "2026-10-28T01:32:30.000+08:00: cycle3 STARTED #163 Glaucidium gnoma v2 SCIENCE_REVISION after original-resolution visual review; juvenile yellow iris unsupported by current evidence and adult spot regularity requires source check. Lease expires 2026-10-28T01:47:30.000+08:00.",
         "2026-10-28T01:34:00.000+08:00: cycle3 #163 Glaucidium gnoma v2 RESEARCH_READY; four prior sources re-read, one Mexico observation photo added as visual cross-check, two taxonomically/inaccessibly unsuitable leads rejected. Lease renewed to 2026-10-28T01:49:00.000+08:00.",
         "2026-10-28T01:35:30.000+08:00: cycle3 #163 v2 IMAGE_GENERATED; 1536x1024 PNG persisted. Initial original-resolution review requires targeted juvenile-wing edit; lease renewed to 2026-10-28T01:50:30.000+08:00.",
-        "2026-10-28T01:37:00.000+08:00: cycle3 #163 v2 REVIEWED PASS after one targeted juvenile-wing edit; 1536x1024 reviewed PNG persisted; science pending; lease renewed to 2026-10-28T01:52:00.000+08:00."
+        "2026-10-28T01:37:00.000+08:00: cycle3 #163 v2 REVIEWED PASS after one targeted juvenile-wing edit; 1536x1024 reviewed PNG persisted; science pending; lease renewed to 2026-10-28T01:52:00.000+08:00.",
+        "2026-10-28T01:38:30.000+08:00: cycle3 #163 Glaucidium gnoma v2 ARCHIVED tree prepared: concept/reviewed path share blob 97c96d2f092be871d27cb9ee53beb77eef9b0a24; manifest 427→428; unique remains 174/251; independent readback pending."
       ]
     }
   ],

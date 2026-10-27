@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T00:49:00.000+08:00",
+  "updated": "2026-10-28T01:38:30.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4488,7 +4488,37 @@
       "archive_note": "Existing v1 preserved. ImageGen edited v1 in one pass; the 1536x1024 output was opened and passed evidence-led review. Commit-pinned complete tree maps concept/generated/reviewed paths to blob d24b354d6584f5c241c91d94caad486d8ba26ef0 (2,845,132 bytes); manifest/source/card/run readback passed. Scientific verification remains false.",
       "archive_commit": "67263de6289b3fd901ec15334b705b2dd0f8c039",
       "verified_at": "2026-10-28T00:49:00.000+08:00"
+    },
+    {
+      "id": "163-glaucidium-gnoma-v2",
+      "path": "design/concepts/163-glaucidium-gnoma-v2.png",
+      "species_id": 163,
+      "scientific_name": "Glaucidium gnoma",
+      "historical_names": [
+        "Glaucidium gnoma gnoma"
+      ],
+      "common_name": "Mountain Pygmy Owl",
+      "version": 2,
+      "sha256": "0abb3c1832f9a1d61e653049050bd889ccc960a30e9ea09f58007aaf11ab6a5f",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION after direct v1 review. v2 removes the unsupported bright adult-yellow iris from the age-unknown mesoptile, using a shaded neutral-dark presentation because exact juvenile iris remains unknown. One targeted edit also replaced adult-like spotted hard wing feathers with short soft developing plumage. Adult pale marks are fine and irregular; adults remain same-height with only subtle female fullness. Exact juvenile age, iris, flight threshold and continuous feather sequence remain unresolved.",
+      "source_ids": [
+        "MTPO-MIKKOLA-2013",
+        "MTPO-ORI-2026",
+        "MTPO-OWLPAGES-2020",
+        "MTPO-IOC-2026",
+        "MTPO-INAT-PEROTE-2016"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-163-mountain-pygmy-owl--glaucidium-gnoma-v2-evidence-increment",
+      "run_record": "production/runs/2026-10-28T0029+0800-cycle-3.md",
+      "git_blob": "97c96d2f092be871d27cb9ee53beb77eef9b0a24",
+      "reviewed_at": "2026-10-28T01:37:00.000+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3195022,
+      "archive_note": "v1 preserved. Built-in imagegen generated v2 and one targeted edit removed adult-like juvenile wing pattern/hard remiges. Generated and edited results were each opened at original resolution. Commit-pinned readback is pending; scientific verification remains false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-28T00:49:00.000+08:00"
+  "updated_at": "2026-10-28T01:38:30.000+08:00"
 }

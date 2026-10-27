@@ -512,3 +512,11 @@ When a primary taxonomic study proposes a split and documents regional diagnosti
 ### Stage labels must match feather-development evidence (discovered/applied/verified 2026-10-28)
 
 A generic label such as “advanced nestling” can contradict the rendered feather stage even when the image is otherwise plausible. For #172 v2, fresh primary growth evidence showed that an approximately five-week Masked Owl can have thick mesoptile and a well-developed mask while feathers are not yet visible through the down. The correction changed both the label and design boundary instead of inventing visible remiges. Original-resolution review verified this application. This rule does not transfer an exact age across subspecies or individuals; retain approximate wording and science-false status when hatch dates or taxon-specific series are absent.
+
+
+### 2026-10-28 未知虹膜不以成鸟色补齐（#163 v2）
+
+- 发现：旧图的幼鸟阶段已明确“虹膜未知”，但图中仍自动沿用了成鸟鲜黄虹膜；这会把默认视觉填充误读成物种事实。
+- 证据：Mikkola p.375/PDF p.377只支持灰色绒羽和无斑灰冠；ORI的“young”是另一未定阶段，均不能确定本图mesoptile虹膜。
+- 实际修改：#163v2把可见虹膜压到受阴影影响的中性暗色，并在记录中明确这是“不主张颜色”的设计处理；不写成“幼鸟虹膜为暗色”。同时按原图复查移除幼鸟成鸟式翼斑和硬长飞羽。
+- 验证范围：已在#163v2生成图完成一次原分辨率视觉复查；只验证“避免把未知画成已知”，不验证真实虹膜颜色，也不泛化到有明确幼鸟虹膜资料的物种。

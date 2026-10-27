@@ -1,3 +1,11 @@
+## 2026-10-27 #136 *Megascops petersoni* v2
+
+- Result: revised and archived; unique species remains 159/251.
+- Image: [design/concepts/136-megascops-petersoni-v2.png](design/concepts/136-megascops-petersoni-v2.png)
+- Git blob `8a7ef903ed52d586210df3d2a55c5d3181491f55`; 1536×1024; 609,399 bytes; SHA-256 `f9f9b08f575512ceb72113eb98faf05f8aef19bf95c718cdb058826c78f75369`.
+- Research: 2 new durable sources, 1 primary source freshly reread/reused, 0 corrections. Review: first render passed; rebuilt v1's near-white facial graphics, dense regular belly grid and crisp juvenile pale wing pattern into a warm-cinnamon, sparse-pattern, evidence-bounded first-year plate. Original-detail and indexed-PNG reviews passed; science pending.
+- Run: [production/runs/2026-10-27T0728+0800-cycle-4.md](production/runs/2026-10-27T0728+0800-cycle-4.md)
+
 ## 2026-10-27 #135 *Otus silvicola* v2
 
 - Result: revised and archived; unique species remains 159/251.

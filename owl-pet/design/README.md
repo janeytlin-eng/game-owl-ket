@@ -1,3 +1,10 @@
+## 136 · Cinnamon Screech-Owl · *Megascops petersoni* v2
+
+- [Original PNG](concepts/136-megascops-petersoni-v2.png) · 1536×1024 · 609,399 bytes · SHA-256 `f9f9b08f575512ceb72113eb98faf05f8aef19bf95c718cdb058826c78f75369`
+- Git blob: `8a7ef903ed52d586210df3d2a55c5d3181491f55`
+- Revision: removed v1's near-white brow/cheek graphics and dense regular adult belly grid, while preserving the primary account's almost-adult first-year stage with formed wing/tail and paler barred down. Two new sources plus one freshly reread primary were indexed. Actual original-detail and indexed-PNG reviews passed; science pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md) · [cycle record](../production/runs/2026-10-27T0728+0800-cycle-4.md)
+
 ## 135 · Wallace's Scops-Owl · *Otus silvicola* v2
 
 - [Original PNG](concepts/135-otus-silvicola-v2.png) · 1536×1024 · 637,806 bytes · SHA-256 `6631df74b885d397b2ea686f0eaaf890a6e38a3488879673811ed8f0bb8a6b19`

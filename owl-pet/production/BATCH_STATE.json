@@ -4087,21 +4087,21 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "2026-10-27T0728+0800-cycle-4",
-        "heartbeat_at": "2026-10-27T09:52:00.000+08:00",
-        "expires_at": "2026-10-27T10:07:00.000+08:00"
+        "heartbeat_at": "2026-10-27T09:57:00.000+08:00",
+        "expires_at": "2026-10-27T10:12:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Megascops petersoni",
         "species_id": 136,
         "version": 2,
         "run_id": "2026-10-27T0728+0800-cycle-4",
-        "at": "2026-10-27T09:52:00.000+08:00",
+        "at": "2026-10-27T09:57:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T0728+0800-cycle-4.md",
         "image_git_blob": "8a7ef903ed52d586210df3d2a55c5d3181491f55"
       },
-      "last_updated_at": "2026-10-27T09:52:00.000+08:00",
+      "last_updated_at": "2026-10-27T09:57:00.000+08:00",
       "audit_notes": [
         "2026-10-27T07:28:38.000+08:00: cycle 1 STARTED for #132 Strix davidi v2; no prior incomplete batch or active lease; short lease acquired.",
         "2026-10-27T07:38:00.000+08:00: cycle 1 RESEARCH_READY; 1 new authoritative taxonomy source, 2 reused sources, 1 unverified BHL lead; full prompt persisted; lease renewed.",
@@ -4125,7 +4125,8 @@
         "2026-10-27T09:35:00.000+08:00: cycle 4 STARTED for #136 Megascops petersoni v2; v1-only revision selected; short lease acquired.",
         "2026-10-27T09:42:00.000+08:00: cycle 4 RESEARCH_READY; 2 new durable sources (2013 primary field/museum record and a Cornell adult photo), 1 primary source freshly reread/reused, 0 corrections; full prompt persisted; Mikkola upload not retrievable this run; lease renewed.",
         "2026-10-27T09:48:00.000+08:00: cycle 4 IMAGE_GENERATED; first render and 64-color archive candidate actual-viewed at 1536x1024; exact Git blob 8a7ef903ed52d586210df3d2a55c5d3181491f55; no edit yet required; lease renewed.",
-        "2026-10-27T09:52:00.000+08:00: cycle 4 REVIEWED PASS at original and indexed resolution; v1 white leakage and regular-grid defects corrected; no imagegen edit required; science remains false; lease renewed."
+        "2026-10-27T09:52:00.000+08:00: cycle 4 REVIEWED PASS at original and indexed resolution; v1 white leakage and regular-grid defects corrected; no imagegen edit required; science remains false; lease renewed.",
+        "2026-10-27T09:57:00.000+08:00: cycle 4 ARCHIVED pending independent readback; concept/generated/reviewed use blob 8a7ef903ed52d586210df3d2a55c5d3181491f55; manifest/status/design index/changelog/species card/workflow lesson updated; lease renewed."
       ]
     }
   ],

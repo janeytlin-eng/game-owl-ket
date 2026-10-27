@@ -4189,3 +4189,20 @@ Reused source IDs: `TMO-MIKKOLA-2013-P110`, `TMO-ABSA-2019-P2`, and `TMO-AUSMUSE
 **Reused after fresh reading:** `MTPO-MIKKOLA-2013` (printed p.375 / uploaded PDF p.377), `MTPO-ORI-2026` (lines 64–120), `MTPO-OWLPAGES-2020` (lines 50–78) and `MTPO-IOC-2026`. Mikkola supports the gray, unspotted-crown mesoptile but not exact juvenile iris; v2 therefore replaces v1's unsupported bright adult-yellow juvenile iris with a shaded neutral presentation and keeps `scientifically_verified=false`. ORI/Owl Pages plus the viewed Mexico photograph support fine, irregular adult pale marks; v2 removes the mechanical droplet-row treatment.
 
 **Rejected/unverified leads:** Macaulay asset ML629359183 returned an access-denied/bot page and is not counted as read evidence. Deshler 2021 (FAO AGRIS/DOI 10.1676/1559-4491-132.2.352) was read as a nesting-ecology abstract for an Oregon population under historical broad *G. gnoma* usage; it is not transferred to current Mountain Pygmy Owl juvenile plumage or iris.
+
+
+## 2026-10-28 — #164 Desert Owl · *Strix hadorami* v2 science revision
+
+### DEOW-BENDOV-2017-P285-307
+- Title: “Breeding biology of Desert Owl in Israel”
+- Authors: Amir Ben Dov, Aviam Atar, Erez Baruchi, Kochav Levi & Nir Sapir
+- Publication/year: *Dutch Birding* 39:285–307, 2017
+- Original URL: https://www.researchgate.net/publication/320517643_Breeding_Biology_of_Desert_Owl_in_Israel
+- Accessed/read: 2026-10-28; full text and plate captions actually read.
+- Source type / taxon / stage: primary field breeding study of current *Strix hadorami*; nestlings and fledglings from two Israeli sites.
+- Verified facts: printed p.286 plate 392 shows adult male, adult female and fledgling; p.288 plate 394 records first flight at about 30 days; p.289 plates 395–398 document an adult feeding an approximately 30-day nestling, an approximately 35-day fledgling and a 70–75-day fledgling with breast feathers appearing; the chronology records eyes partly open at day 7, fully open at day 9, wing-flapping at 20–25 days, standing on the nest shelf at 25 days, first flight around 30 days, leaving the nest site around 34 days, and body feathers growing at 70–75 days. Nest sites were cliff ledges/crevices in desert gorges.
+- Limits/conflicts/confidence: the authors note limited prior information and use Tawny Owl comparisons for some ageing; observed dates vary, and the paper text/plate captions read do not establish juvenile iris colour. High for the reported observations and plate captions, not a universal timetable or iris rule.
+- Design/check decision: retain a fully supported pale mesoptile on a rocky ledge and avoid a false flight-age claim; correct v1’s unsupported bright adult-yellow juvenile iris to a deliberately neutral, shaded uncertain presentation. This remains a concept, not a scientific pass.
+- Links: [species card](species/164-strix-hadorami.md#v2-science-revision--2026-10-28) · [run](../production/runs/2026-10-28T0029+0800-cycle-4.md)
+
+Reused source IDs after fresh review: `DEOW-MIKKOLA-2013-P318` (printed pp.318–319 / uploaded PDF pp.320–321), `DEOW-KIRWAN-2015`, `DEOW-IOC-2015-SPLIT`, and `DEOW-EBIRD-2026`. The old-name mapping remains explicit: Mikkola’s widespread-population account under historical *S. butleri* applies to current *S. hadorami*, not the current Omani Owl. Scientific verification remains false.

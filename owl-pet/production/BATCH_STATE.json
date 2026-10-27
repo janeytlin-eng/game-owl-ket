@@ -4934,27 +4934,43 @@
         "cycle": 4,
         "owner": "codex-root",
         "run_id": "2026-10-28T0029+0800-cycle-4",
-        "species": "#165 Ninox punctulata",
+        "species": "#164 Strix hadorami",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T01:42:00.000+08:00",
-        "expires_at": "2026-10-28T01:57:00.000+08:00"
+        "heartbeat_at": "2026-10-28T01:48:00.000+08:00",
+        "expires_at": "2026-10-28T02:03:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
         "run_id": "2026-10-28T0029+0800-cycle-4",
-        "species": "#165 Ninox punctulata",
+        "species": "#164 Strix hadorami",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T01:42:00.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T01:48:00.000+08:00",
         "evidence": {
-          "v1_path": "owl-pet/design/concepts/165-ninox-punctulata-v1.png",
-          "visual_issue": "age-unknown mesoptile is rendered as a miniature adult with dense adult-like spotting, full long hard wing feathers and adult-like soft-part cues; needs species-specific re-check",
-          "credit": false
+          "candidate_withdrawn": "#165 Ninox punctulata v2 — Mikkola explicitly supports adult-like mesoptile wing and tail; prior visual issue was not a defect",
+          "target_reason": "#164 v1 record admits juvenile iris chronology unknown but its prompt specifies yellowish eyes and render shows bright adult-like iris",
+          "new_sources": [
+            "DEOW-BENDOV-2017-P285-307"
+          ],
+          "reused_sources": [
+            "DEOW-MIKKOLA-2013-P318",
+            "DEOW-KIRWAN-2015",
+            "DEOW-IOC-2015-SPLIT",
+            "DEOW-EBIRD-2026"
+          ],
+          "source_counts": {
+            "new": 1,
+            "reused": 4,
+            "corrected": 1
+          },
+          "scientifically_verified": false,
+          "credit": false,
+          "full_imagegen_prompt": "Create a polished 3:2 landscape zoological concept plate in the repository's established warm, painterly realistic owl-pet style. Exact title at the top: “DESERT OWL · Strix hadorami”. Exactly three birds, no extra birds. Exact small labels below birds: left “ADULT MALE”, center “PALE MESOPTILE JUVENILE”, right “ADULT FEMALE”.\n\nShow one continuous rocky semi-desert wadi at warm dusk: sandstone cliff ledges, a sheltered natural crevice and sparse dry scrub. The three birds must share one connected ledge system with believable feet and support. Do not show eggs, a fabricated cavity interior, human objects, specimen panels or split frames.\n\nAdults: medium-sized round-headed owls with no ear tufts; pale sandy-gray facial discs with subtle dark rims; warm yellow to brownish-orange adult irises; gray-blue bills and pale ceres; sandy ochre-gray upperparts with a restrained pale scapular row and irregular small wing marks; barred flight feathers and tail; pale underparts with light rufous-brown cross-barring. Feathered tarsi, natural toes and claws gripping rock. Male and female nearly equal in height; female only subtly fuller, never a fixed exaggerated larger ratio.\n\nCenter juvenile: an age-unknown very pale mesoptile juvenile, fluffy and distinctly softer than the adults, with a short rounded developing folded wing, concealed or very short tail, weaker smaller talons, and full belly/feet support on the rock ledge. IMPORTANT uncertainty rule: exact juvenile iris chronology is not documented in the sources read. Show the juvenile eyes softly shaded neutral dark brown to gray-amber in shadow, not bright adult-yellow and not a claim of a known fixed color. Do not give the juvenile crisp adult wing bars, long hard layered remiges, mature tail geometry, a flight pose or unsupported posture.\n\nAll three birds fully visible with complete feet/support, believable anatomy and distinct silhouettes. Natural irregular markings, no cloned symmetry, no cropped birds, no human objects, no text other than the exact title and three exact role labels, no logos or watermarks."
         }
       },
-      "last_updated_at": "2026-10-28T01:42:00.000+08:00",
+      "last_updated_at": "2026-10-28T01:48:00.000+08:00",
       "audit_notes": [
         "2026-10-28T00:29:15.000+08:00: cycle 1 STARTED for candidate #175 Otus ireneae v1 after current manifest/name audit; research not yet credited. Lease expires 2026-10-28T00:44:15.000+08:00.",
         "2026-10-28T00:35:40.000+08:00: cycle 1 target changed before generation: #175 Otus ireneae deferred for absent verified juvenile/breeding-stage evidence; #161 Ketupa blakistoni v2 SCIENCE_REVISION reached RESEARCH_READY after archived v1 original-resolution review. Lease renewed to 2026-10-28T00:51:30.000+08:00.",
@@ -4971,7 +4987,8 @@
         "2026-10-28T01:37:00.000+08:00: cycle3 #163 v2 REVIEWED PASS after one targeted juvenile-wing edit; 1536x1024 reviewed PNG persisted; science pending; lease renewed to 2026-10-28T01:52:00.000+08:00.",
         "2026-10-28T01:38:30.000+08:00: cycle3 #163 Glaucidium gnoma v2 ARCHIVED tree prepared: concept/reviewed path share blob 97c96d2f092be871d27cb9ee53beb77eef9b0a24; manifest 427→428; unique remains 174/251; independent readback pending.",
         "2026-10-28T01:40:00.000+08:00: cycle3 #163 Glaucidium gnoma v2 VERIFIED against archive 059569c12c883e24af62cf4ed2e853803170c8b8; complete tree/blob/path/manifest/source/card/run readback passed; unique remains 174/251; next_cycle4; lease released.",
-        "2026-10-28T01:42:00.000+08:00: cycle4 STARTED #165 Ninox punctulata v2 SCIENCE_REVISION after actual v1 visual review found a miniature-adult mesoptile with dense adult-like spotting and full hard wing feathers. Lease expires 2026-10-28T01:57:00.000+08:00."
+        "2026-10-28T01:42:00.000+08:00: cycle4 STARTED #165 Ninox punctulata v2 SCIENCE_REVISION after actual v1 visual review found a miniature-adult mesoptile with dense adult-like spotting and full hard wing feathers. Lease expires 2026-10-28T01:57:00.000+08:00.",
+        "2026-10-28T01:48:00.000+08:00: cycle4 candidate #165 withdrawn before generation after source re-check found Mikkola explicitly supports adult-like mesoptile wing/tail; no credit. Target changed to #164 Strix hadorami v2 because v1 specified/rendered bright yellow juvenile eyes despite its own unknown iris chronology boundary. RESEARCH_READY with 1 new/4 reused/1 corrected source; lease renewed to 02:03."
       ]
     }
   ],

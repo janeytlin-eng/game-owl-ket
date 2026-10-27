@@ -956,3 +956,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 - Added current-name concept, four verified sources and one lead-only source; mapped historical *Bubo leucostictus*.
 - Used an actual 2022 Ghana juvenile photograph to cross-check the guide’s pale barred mesoptile without claiming an exact age.
+
+
+## 2026-10-27 — #169 Shelley’s Eagle-Owl v1
+
+- Added current-name *Ketupa shelleyi* concept, four actually-read sources and historical *Bubo shelleyi* mapping.
+- Excluded the explicitly undescribed downy chick; used only the documented age-unknown mesoptile. First output passed visual review with no edit; science pending.

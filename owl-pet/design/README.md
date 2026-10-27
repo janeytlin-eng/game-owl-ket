@@ -1333,3 +1333,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 
 - [168-ketupa-leucosticta-v1.png](concepts/168-ketupa-leucosticta-v1.png) — adult male, age-unknown mesoptile juvenile, adult female in West African rainforest edge.
 - No edit required after original-resolution and archive-derivative review. Science pending.
+
+
+### #169 Shelley’s Eagle-Owl · *Ketupa shelleyi* · v1
+
+- [169-ketupa-shelleyi-v1.png](concepts/169-ketupa-shelleyi-v1.png) — adult male, age-unknown mesoptile juvenile, adult female in primary lowland riverine rainforest.
+- No edit required after original master and archive-derivative review. The undescribed downy chick was deliberately omitted.
+- Limits: exact age, flight ability, nest geometry and measured female/male size ratio remain unknown; `scientifically_verified=false`.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/169-ketupa-shelleyi.md) · [run](../production/runs/2026-10-27T1636+0800-cycle-4.md)

@@ -1384,3 +1384,11 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - NEW current-name concept archived; provisional unique total 168/251 pending readback.
 - Original and TrueColor archive derivative viewed; no edit needed. Juvenile uses a pale barred age-unknown mesoptile cross-checked against Tony King’s 2022 Ghana photograph.
 - Old name *Bubo leucostictus* mapped; science false; exact age/flight/continuous feather sequence/nest geometry unknown.
+
+
+## 2026-10-27 — #169 Shelley’s Eagle-Owl · *Ketupa shelleyi* v1
+
+- NEW current-name concept archived; provisional unique total 169/251 pending independent readback.
+- Old name *Bubo shelleyi* mapped to current *Ketupa shelleyi*. Original master and TrueColor derivative viewed; no edit required.
+- The downy chick is explicitly undescribed and was not invented. Plate uses Mikkola’s age-unknown yellowish-grey, brown-barred mesoptile with dark-blue eyes and species-specific adult-like wings/tail.
+- Exact age, flight ability, nest geometry and quantified sex ratio remain unknown; science false.

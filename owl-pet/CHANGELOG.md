@@ -879,3 +879,7 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added the first project concept for Blakiston's Fish Owl, increasing archived unique species from 160 to 161 of the fixed 251-species scope.
 - Added three source records with explicit *Bubo blakistoni* → *Ketupa blakistoni* mapping; used Hayashi's approximately 50-day nestling photo/account and Mikkola pp.296–297 to bound the late-nestling design.
 - One targeted edit reduced adult-like juvenile wing spotting and hard remige layering while retaining a stage-plausible formed wing and full cavity support. Exact flight/feather chronology and quantified universal sex ratio remain unknown; `scientifically_verified=false`.
+
+## 2026-10-27 — #162 *Aegolius acadicus* v1
+- Added the first Northern Saw-whet Owl concept; unique archived species 161→162/251.
+- Added four source records. One edit reduced adult-like juvenile wing/back spotting and hard remiges; a second text-only edit corrected the scientific title. Science remains false.

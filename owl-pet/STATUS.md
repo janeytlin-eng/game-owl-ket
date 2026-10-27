@@ -1,3 +1,11 @@
+## 2026-10-27 #162 *Aegolius acadicus* v1
+
+- Result: NEW concept archived; unique species rises 161→162/251.
+- Image: [design/concepts/162-aegolius-acadicus-v1.png](design/concepts/162-aegolius-acadicus-v1.png)
+- Blob `0f3c9853a4c8e6ad89da62eea8a944f8afea7800`; 1536×1024; 630,834 bytes; SHA-256 `ab8a6b85796e7a9c378feaf2080771d584ce3a10b3405d62bdb7fcb6bb4dd12b`.
+- Research: 4 new sources. Two edits fixed adult-like juvenile spotting/remiges and the title spelling. Exact juvenile age/flight, universal sex ratio and cavity geometry remain unknown; science false.
+- Run: [production/runs/2026-10-27T1034+0800-cycle-3.md](production/runs/2026-10-27T1034+0800-cycle-3.md)
+
 ## 2026-10-27 #161 *Ketupa blakistoni* v1
 
 - Result: NEW concept archived; unique species rises 160→161/251.

@@ -1,3 +1,9 @@
+## 162 · Northern Saw-whet Owl · *Aegolius acadicus* v1
+
+- [Original PNG](concepts/162-aegolius-acadicus-v1.png) · 1536×1024 · 630,834 bytes · SHA-256 `ab8a6b85796e7a9c378feaf2080771d584ce3a10b3405d62bdb7fcb6bb4dd12b`
+- Git blob `0f3c9853a4c8e6ad89da62eea8a944f8afea7800`. Adult tuftless identity and supported coffee-brown X-faced late nestling passed after two edits; science pending.
+- [Sources](../research/SOURCE_INDEX.md#162-northern-saw-whet-owl--aegolius-acadicus--2026-10-27) · [Run](../production/runs/2026-10-27T1034+0800-cycle-3.md)
+
 ## 161 · Blakiston's Fish Owl · *Ketupa blakistoni* v1
 
 - [Original PNG](concepts/161-ketupa-blakistoni-v1.png) · 1536×1024 · 710,627 bytes · SHA-256 `30c01be0c27b56120f5393fb5039205813f9bea9ec5ed05ca9378d9f64709ab4`

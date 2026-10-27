@@ -1545,3 +1545,8 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Existing v1 was opened at 1536×1024 and preserved. v2 reduces mechanical adult wing rows, constrains the Hokkaido nominate form against continental *doerriesi* traits, clarifies feathered tarsi/bare toes, and explicitly labels the supported center bird as a late-nestling/juvenile (~50 days).
 - Research: 2 new / 3 reused / 1 corrected inference. New primary source: Movin et al. 2022, DOI 10.1016/j.avrs.2022.100021; new morphology cross-check: The Owl Pages.
 - Concept: [161-ketupa-blakistoni-v2.png](design/concepts/161-ketupa-blakistoni-v2.png). Scientific verification remains false; independent archive readback is pending.
+
+
+### VERIFIED — #161 v2
+
+Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-eng/game-owl-ket/commit/149114821a507934aadb20843a9f643b9751485f) was read back by immutable tree. The concept resolves to blob `8641f14245da409ce2ff92298d21c3ed4d731e6f`; manifest/run/research records match. Batch is now 1/6, next cycle 2; unique species remains 174/251 and science status remains unverified.

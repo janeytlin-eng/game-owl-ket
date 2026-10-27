@@ -1428,3 +1428,6 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 [Original 1536×1024 concept](concepts/161-ketupa-blakistoni-v2.png) · [research card](../research/species/161-ketupa-blakistoni.md#v2-science-revision--2026-10-28) · [run record](../production/runs/2026-10-28T0029+0800-cycle-1.md)
 
 Hokkaido nominate adults, a fully supported approximately 50-day late-nestling/juvenile, and a continuous winter riverine old-growth setting. v1 remains preserved. Repository integrity review is pending; science status is not passed.
+
+
+Verification: archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-eng/game-owl-ket/commit/149114821a507934aadb20843a9f643b9751485f); concept blob `8641f14245da409ce2ff92298d21c3ed4d731e6f`; commit-pinned readback passed. Science calibration remains pending.

@@ -1047,3 +1047,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Deferred uncredited #175 *Otus ireneae* candidate because no verified species-specific juvenile/breeding stage was recovered; no image or species number was consumed.
 - Added a research-indexed science revision of #161 after actual v1 inspection; new source IDs BLF-OWLPAGES-2020 and BLF-MOVIN-2022, plus three reused anchors.
 - Generated, opened, reviewed and archived `design/concepts/161-ketupa-blakistoni-v2.png`; manifest 425→426, unique 174/251. Independent readback still pending, so cycle credit has not advanced.
+
+
+- VERIFIED #161 v2 at archive `149114821a507934aadb20843a9f643b9751485f`; immutable concept/blob/manifest/run/research readback passed. Batch 1/6, next cycle 2; unique total remains 174/251. Corrected stage timestamps to their actual GitHub commit times; no production credit changed.

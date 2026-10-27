@@ -4479,7 +4479,7 @@
     },
     {
       "batch_id": "2026-10-27T1636+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -4546,49 +4546,52 @@
           "image_git_blob": "968280d7bf9d7c49e605200dcaddc00cd0cb0c43",
           "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-5.md",
           "verified_at": "2026-10-27T17:50:30.000+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Glaucidium palmarum",
+          "species_id": 171,
+          "version": 1,
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "d00da082eb0608152951a1e0acefe1e67ff5fff1",
+          "archive_commit": "d00da082eb0608152951a1e0acefe1e67ff5fff1",
+          "image_git_blob": "9992a410ae54cf579090267f6ebc9bbfa8f76e97",
+          "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-6.md",
+          "verified_at": "2026-10-27T18:10:00.000+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex-production-2026-10-27T1751+0800",
-        "run_id": "2026-10-27T1636+0800-cycle-6",
-        "heartbeat_at": "2026-10-27T18:07:00.000+08:00",
-        "expires_at": "2026-10-27T18:22:00.000+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Glaucidium palmarum",
         "species_id": 171,
         "version": 1,
         "run_id": "2026-10-27T1636+0800-cycle-6",
-        "at": "2026-10-27T18:07:00.000+08:00",
+        "at": "2026-10-27T18:10:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-6.md",
         "evidence": {
-          "new_sources": 4,
-          "reused_sources": 0,
-          "corrected_sources": 0,
-          "image_generated": true,
-          "actual_original_viewed": true,
-          "edit_count": 1,
-          "initial_issue": "juvenile showed long hard adult-like remiges and crisp white adult spot rows",
-          "correction": "center juvenile wing shortened, rounded, softened and down-overlaid; crisp adult spot rows removed; short tail and two-foot support retained",
-          "review_result": "PASS for concept archive; science remains false",
-          "master_dimensions": "1536x1024",
-          "master_bytes": 2974220,
-          "master_sha256": "60b5d2a90e60bd32e52e337395b6a273bb03b4abc5fbc9ab8ea1cea06de1b07c",
-          "archive_dimensions": "680x453",
-          "archive_bytes": 642816,
-          "archive_sha256": "43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34",
+          "archive_commit": "d00da082eb0608152951a1e0acefe1e67ff5fff1",
           "image_git_blob": "9992a410ae54cf579090267f6ebc9bbfa8f76e97",
-          "scientifically_verified": false,
+          "size_bytes": 642816,
           "concept_path": "owl-pet/design/concepts/171-glaucidium-palmarum-v1.png",
           "generated_asset": "owl-pet/production/assets/2026-10-27T1636+0800-cycle-6/generated-v1.png",
           "reviewed_asset": "owl-pet/production/assets/2026-10-27T1636+0800-cycle-6/reviewed-v1.png",
-          "archive_pending_readback": true
+          "immutable_tree_readback": true,
+          "tree_truncated": false,
+          "all_three_paths_exact_blob_and_size": true,
+          "manifest_entry_count": 1,
+          "source_ids_present": 4,
+          "card_run_status_design_workflow_readback": true,
+          "unique_species_before": 170,
+          "unique_species_after": 171,
+          "total_scope": 251,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-27T18:07:00.000+08:00",
+      "last_updated_at": "2026-10-27T18:10:00.000+08:00",
       "audit_notes": [
         "2026-10-27T16:36:30.000+08:00: cycle 1 STARTED then RESEARCH_READY for unarchived #166 Bubo cinerascens v1; 4 sources read/indexed and full prompt persisted. Project scope remains 251; lease expires 2026-10-27T16:51:30.000+08:00.",
         "2026-10-27T16:39:43.000+08:00: cycle 1 IMAGE_GENERATED then REVIEWED PASS after one targeted center-fledgling wing edit. Regular adult-like pale spot rows and hard long remiges were reduced to a shorter, rounder, softer juvenile wing with diffuse flecks. Exact text, adults, support and savanna remained intact. Reviewed archive blob d29baf733b4e8fa3cd7b53c0440724014c17ee6f; lease renewed.",
@@ -4614,8 +4617,10 @@
         "2026-10-27T17:51:30.000+08:00: cycle 6 STARTED for unarchived candidate #171 Glaucidium palmarum v1 after current-name and path audit; research not yet credited. Lease expires 2026-10-27T18:06:30.000+08:00.",
         "2026-10-27T17:56:30.000+08:00: cycle 6 RESEARCH_READY for unarchived #171 Glaucidium palmarum v1; four new stable sources read/indexed and full prompt persisted. Mikkola pp.385–386 plus a 2018 Huatulco juvenile photograph bound an age-unknown mesoptile. Exact age/flight and confirmed nest remain unknown. Lease expires 2026-10-27T18:11:30.000+08:00.",
         "2026-10-27T18:03:00.000+08:00: cycle 6 IMAGE_GENERATED then REVIEWED PASS after one targeted center-juvenile wing edit. Long hard adult-like remiges and crisp white spot rows were removed; the wing became shorter, rounder, softer and down-overlaid while the exact title/labels, adults, short supported posture and dry-forest context were retained. Viewed TrueColor 680x453 derivative persisted as blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97; lease renewed.",
-        "2026-10-27T18:07:00.000+08:00: cycle 6 ARCHIVED pending independent readback. Concept/generated/reviewed paths use viewed derivative blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97 (642816 bytes); manifest/status/design/changelog/card/run/workflow rule updated; lease renewed."
-      ]
+        "2026-10-27T18:07:00.000+08:00: cycle 6 ARCHIVED pending independent readback. Concept/generated/reviewed paths use viewed derivative blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97 (642816 bytes); manifest/status/design/changelog/card/run/workflow rule updated; lease renewed.",
+        "2026-10-27T18:10:00.000+08:00: cycle 6 VERIFIED; immutable archive tree maps concept/generated/reviewed paths to blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97 (642816 bytes); manifest/source/card/run/status/design/workflow readback passed. Unique species 170→171/251; batch 2026-10-27T1636+0800 closes COMPLETE 6/6; lease released."
+      ],
+      "completed_at": "2026-10-27T18:10:00.000+08:00"
     }
   ],
   "lease": null,
@@ -4695,7 +4700,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T17:00:00.000+08:00",
+  "updated_at": "2026-10-27T18:10:00.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4704,7 +4709,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-10-27T17:00:00.000+08:00",
+  "last_updated_at": "2026-10-27T18:10:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -4736,7 +4741,8 @@
     "2026-10-27T12:53:00.000+08:00: cycle 6 VERIFIED #140 Otus rufescens v2; batch 2026-10-27T1034+0800 COMPLETE 6/6; unique 161/251.",
     "2026-10-27T14:37:24.496+08:00: resumed oldest PARTIAL batch 2026-10-27T1335+0800 cycle 3 for #141 Otus magicus v2; no valid prior lease; generation credit remains pending VERIFIED.",
     "2026-10-27T14:45:30.039+08:00: batch 2026-10-27T1335+0800 cycle 3 verified #141 Otus magicus v2; revision only, unique total remains 163/251.",
-    "2026-10-27T14:53:17.405+08:00: batch cycle 4 verified #145 Ninox philippensis v2; revision only."
+    "2026-10-27T14:53:17.405+08:00: batch cycle 4 verified #145 Ninox philippensis v2; revision only.",
+    "2026-10-27T18:10:00.000+08:00: batch 2026-10-27T1636+0800 cycle 6 NEW #171 Glaucidium palmarum v1 verified; archive d00da082eb0608152951a1e0acefe1e67ff5fff1, blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97. Unique species 171/251; batch closes COMPLETE 6/6; no active lease."
   ],
   "audit_trail": [
     {

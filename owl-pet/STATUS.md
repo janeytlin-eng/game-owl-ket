@@ -1,8 +1,8 @@
 ## 2026-10-27 #171 *Glaucidium palmarum* v1
 
-- Result: NEW concept ARCHIVED; independent readback pending, so unique total remains 170/251 until VERIFIED.
+- Result: NEW concept VERIFIED; unique species rises 170→171/251.
 - Image: [design/concepts/171-glaucidium-palmarum-v1.png](design/concepts/171-glaucidium-palmarum-v1.png)
-- Pending-readback blob `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; 680×453 TrueColor; 642,816 bytes; SHA-256 `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`.
+- Archive `d00da082eb0608152951a1e0acefe1e67ff5fff1`; verified blob `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; 680×453 TrueColor; 642,816 bytes; SHA-256 `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`.
 - Research: 4 new source IDs. Mikkola printed pp.385–386/PDF pp.387–388 plus an opened 2018 Huatulco juvenile photograph bound an age-unknown mesoptile and dry western-Mexico context.
 - Review: one targeted juvenile-wing edit; science false. Exact age/flight/confirmed nest/continuous feather sequence/universal sex ratio remain unknown.
 - Run: [production/runs/2026-10-27T1636+0800-cycle-6.md](production/runs/2026-10-27T1636+0800-cycle-6.md)

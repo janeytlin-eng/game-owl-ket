@@ -975,4 +975,4 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 - Added a new Colima Pygmy-Owl archive candidate using four newly indexed sources, including Mikkola printed pp.385–386/PDF pp.387–388 and an opened 2018 Huatulco juvenile photograph.
 - Used an age-unknown, fully supported gray-crowned mesoptile. One targeted edit removed long hard adult-like remiges and crisp white wing rows while preserving exact text, adult identity and dry-forest context.
-- Concept/generated/reviewed paths point to Git blob `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; independent readback pending before count credit. Science remains false.
+- Archived in `d00da082eb0608152951a1e0acefe1e67ff5fff1` to Git blob `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; recursive tree, three image paths, manifest, four source IDs and production records passed readback. Unique species rises 170→171/251; science remains false.

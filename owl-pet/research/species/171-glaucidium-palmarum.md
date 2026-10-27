@@ -1,6 +1,6 @@
 # #171 Colima Pygmy-Owl — *Glaucidium palmarum* v1
 
-Status: ARCHIVED; independent immutable-tree readback pending. Scientific verification: false.
+Status: VERIFIED archive; scientific verification: false.
 
 ## Source facts
 
@@ -28,4 +28,4 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 
 - Concept: `design/concepts/171-glaucidium-palmarum-v1.png`
 - Reviewed Git blob: `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; 680×453; 642,816 bytes; SHA-256 `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`.
-- Independent tree/path readback pending; no scientific-pass claim.
+- Immutable archive commit: `d00da082eb0608152951a1e0acefe1e67ff5fff1`. Recursive tree readback matched concept/generated/reviewed paths to the exact 642,816-byte blob; manifest/source/card/run/index readback passed. No scientific-pass claim.

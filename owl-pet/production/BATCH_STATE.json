@@ -4220,33 +4220,38 @@
           "image_git_blob": "0f3c9853a4c8e6ad89da62eea8a944f8afea7800",
           "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-3.md",
           "verified_at": "2026-10-27T11:48:59.871+08:00"
+        },
+        {
+          "cycle": 4,
+          "species": "Athene cunicularia",
+          "species_id": 163,
+          "version": 1,
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "43900131643b570a3c29d55a67d917752870bbe8",
+          "archive_commit": "43900131643b570a3c29d55a67d917752870bbe8",
+          "image_git_blob": "01d65dd5c87b50d053e1b347e60d950d19a19015",
+          "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-4.md",
+          "verified_at": "2026-10-27T12:04:00.000+08:00"
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "2026-10-27T1034+0800-cycle-4",
-        "batch_id": "2026-10-27T1034+0800",
-        "cycle": 4,
-        "species": "Athene cunicularia",
-        "species_id": 163,
-        "heartbeat_at": "2026-10-27T12:02:30.000+08:00",
-        "expires_at": "2026-10-27T12:17:30.000+08:00"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Athene cunicularia",
         "species_id": 163,
         "version": 1,
         "run_id": "2026-10-27T1034+0800-cycle-4",
-        "at": "2026-10-27T12:02:30.000+08:00",
+        "at": "2026-10-27T12:04:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-4.md",
-        "concept_path": "owl-pet/design/concepts/163-athene-cunicularia-v1.png",
+        "archive_commit": "43900131643b570a3c29d55a67d917752870bbe8",
         "image_git_blob": "01d65dd5c87b50d053e1b347e60d950d19a19015",
-        "readback": "pending"
+        "readback": "PASS",
+        "next_cycle": 5
       },
-      "last_updated_at": "2026-10-27T12:02:30.000+08:00",
+      "last_updated_at": "2026-10-27T12:04:00.000+08:00",
       "audit_notes": [
         "2026-10-27T10:34:00.000+08:00: new batch cycle 1 STARTED for unarchived #160 Tyto inexspectata v1; no prior incomplete batch or active lease. Project scope remains 251. Repository stored timestamps from the preceding batch are ahead of this invocation clock; commit order is authoritative.",
         "2026-10-27T10:36:00.000+08:00: cycle 1 RESEARCH_READY; 4 sources read/indexed (IOC checklist page result, 2023 Naturalis type catalogue, Cornell/eBird account, Owl Pages synthesis). Full prompt persisted; exact juvenile age, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; lease renewed.",
@@ -4270,7 +4275,8 @@
         "2026-10-27T11:53:00.000+08:00: cycle 4 RESEARCH_READY; 5 sources read/indexed (Mikkola pp.424–425, Johnson et al. 2019 photographic aging key, Cornell life history/overview, COSEWIC 2017). Sex-size evidence conflicts and fledging ranges vary, so adults stay near-equal and the 29-day hypugaea juvenile is safely prefledging; full prompt persisted; lease renewed.",
         "2026-10-27T11:56:30.000+08:00: cycle 4 IMAGE_GENERATED; first 1536x1024 output viewed. Adult identity/text/burrow/support pass; center 29-day juvenile retains a regular pale wing-spot row and hard layered remiges, so one targeted edit is required. Generated blob b8b5314a3caaac7c62b5ec876fa336d13c5f2063; lease renewed.",
         "2026-10-27T11:59:00.000+08:00: cycle 4 REVIEWED PASS after one center-juvenile wing edit. Adult-like spot row/hard remiges were shortened and softened; exact text, adults, support, burrow and prairie remained stable. Reviewed blob 01d65dd5c87b50d053e1b347e60d950d19a19015; science pending; lease renewed.",
-        "2026-10-27T12:02:30.000+08:00: cycle 4 ARCHIVED pending readback; concept/reviewed asset blob 01d65dd5c87b50d053e1b347e60d950d19a19015; manifest/status/design index/changelog/workflow lesson updated; lease renewed."
+        "2026-10-27T12:02:30.000+08:00: cycle 4 ARCHIVED pending readback; concept/reviewed asset blob 01d65dd5c87b50d053e1b347e60d950d19a19015; manifest/status/design index/changelog/workflow lesson updated; lease renewed.",
+        "2026-10-27T12:04:00.000+08:00: cycle 4 VERIFIED; immutable archive tree maps concept/reviewed asset to 01d65dd5c87b50d053e1b347e60d950d19a19015 (536814 bytes), manifest/run readback passed. Archive 43900131643b570a3c29d55a67d917752870bbe8. Unique 162→163/251; batch 4/6, next_cycle 5; lease released."
       ]
     }
   ],
@@ -4367,17 +4373,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "2026-10-27T1034+0800-cycle-4",
-    "batch_id": "2026-10-27T1034+0800",
-    "cycle": 4,
-    "species": "Athene cunicularia",
-    "species_id": 163,
-    "heartbeat_at": "2026-10-27T12:02:30.000+08:00",
-    "expires_at": "2026-10-27T12:17:30.000+08:00"
-  },
-  "last_updated_at": "2026-10-27T12:02:30.000+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-27T12:04:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -4398,6 +4395,7 @@
     "2026-10-27T10:36:00.000+08:00: batch 2026-10-27T1034+0800 cycle 1 RESEARCH_READY for #160 Tyto inexspectata v1; source index and species research card persisted; generation pending.",
     "2026-10-27T10:51:00.000+08:00: batch 2026-10-27T1034+0800 cycle 1 NEW #160 Tyto inexspectata v1 verified. Archive fcf6a4d9d838ca9bc2ca11ed6191171d854ffa1f, blob 3f6a6a83fb04033d4b0f99cb5e04f05d83cb41ef. Unique species 160/251; next_cycle 2/6; no active lease.",
     "2026-10-27T11:39:58.890+08:00: cycle 2 VERIFIED; immutable archive tree maps concept and reviewed asset to blob 7922f6b6029ee281a2b18a40ce5a4893ce80b042 (710627 bytes), manifest/run readback passed. Archive ea06d96dcd7fc73aea0f56a9bcaa14376661824d. Unique species rises 160→161/251; batch advances to 2/6, next_cycle 3; lease released.",
-    "2026-10-27T11:48:59.871+08:00: cycle 3 VERIFIED; immutable tree maps concept/reviewed asset to 0f3c9853a4c8e6ad89da62eea8a944f8afea7800 (630834 bytes), manifest/run readback passed. Archive 94b4f02b3bda4c638e9e261f5caa47d8545bf720. Unique 161→162/251; batch 3/6, next_cycle 4; lease released."
+    "2026-10-27T11:48:59.871+08:00: cycle 3 VERIFIED; immutable tree maps concept/reviewed asset to 0f3c9853a4c8e6ad89da62eea8a944f8afea7800 (630834 bytes), manifest/run readback passed. Archive 94b4f02b3bda4c638e9e261f5caa47d8545bf720. Unique 161→162/251; batch 3/6, next_cycle 4; lease released.",
+    "2026-10-27T12:04:00.000+08:00: cycle 4 VERIFIED #163 Athene cunicularia v1; archive 43900131643b570a3c29d55a67d917752870bbe8, blob 01d65dd5c87b50d053e1b347e60d950d19a19015. Unique 163/251; next_cycle 5."
   ]
 }

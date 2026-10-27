@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T00:48:00.000+08:00",
+  "updated": "2026-10-28T00:49:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4485,8 +4485,10 @@
       "reviewed_at": "2026-10-28T00:47:00.000+08:00",
       "dimensions": "1536x1024",
       "size_bytes": 2845132,
-      "archive_note": "Existing v1 remains preserved. ImageGen edited v1 in one pass; the 1536x1024 output was opened at original resolution. Generated, reviewed and concept paths share the immutable blob. Independent archive readback is pending at this stage."
+      "archive_note": "Existing v1 preserved. ImageGen edited v1 in one pass; the 1536x1024 output was opened and passed evidence-led review. Commit-pinned complete tree maps concept/generated/reviewed paths to blob d24b354d6584f5c241c91d94caad486d8ba26ef0 (2,845,132 bytes); manifest/source/card/run readback passed. Scientific verification remains false.",
+      "archive_commit": "67263de6289b3fd901ec15334b705b2dd0f8c039",
+      "verified_at": "2026-10-28T00:49:00.000+08:00"
     }
   ],
-  "updated_at": "2026-10-28T00:48:00.000+08:00"
+  "updated_at": "2026-10-28T00:49:00.000+08:00"
 }

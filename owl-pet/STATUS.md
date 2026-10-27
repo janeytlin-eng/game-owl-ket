@@ -1558,3 +1558,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Existing v1 remains preserved. v2 corrects the center bird from unsupported “advanced nestling” to an evidence-bounded approximate five-week nestling: thick cream mesoptile, developed mask, no visible flight feathers, fully supported in the hollow.
 - Research: 1 new / 3 reused / 1 corrected design inference. New primary source: Debus & Wood 2007, *Australian Field Ornithology* 24:49–53.
 - Concept: [172-tyto-castanops-v2.png](design/concepts/172-tyto-castanops-v2.png). Scientific verification remains false; independent archive readback is pending.
+
+
+- 2026-10-28T00:49:00.000+08:00 — #172 *Tyto castanops* v2 independently verified at archive `67263de6289b3fd901ec15334b705b2dd0f8c039`; concept/generated/reviewed paths map to blob `d24b354d6584f5c241c91d94caad486d8ba26ef0` (2,845,132 bytes). Manifest/source/card/run readback passed; unique remains 174/251; batch 2/6, next cycle 3; science pending.

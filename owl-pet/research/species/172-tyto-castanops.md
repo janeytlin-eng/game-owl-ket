@@ -55,7 +55,7 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 
 ## v2 science revision — 2026-10-28
 
-Status: ARCHIVED; immutable readback pending; scientific verification: false.
+Status: VERIFIED archive; scientific verification: false.
 
 ### Problem → evidence → planned correction
 
@@ -96,3 +96,11 @@ Edit the supplied Tasmanian Masked Owl concept plate in the same polished semi-r
 - Generated/reviewed masters: `production/assets/2026-10-28T0029+0800-cycle-2/172-tyto-castanops-v2-{generated,reviewed}-master.png`.
 - All three paths use blob `d24b354d6584f5c241c91d94caad486d8ba26ef0`, 1536×1024, 2,845,132 bytes, SHA-256 `fa3b708db420598350a4b28aad72897ec6159b62ab57083175a9d26eb7bbd329`.
 - Commit-pinned repository readback is pending; no cycle credit yet.
+
+
+### v2 verification
+
+- Immutable archive commit: `67263de6289b3fd901ec15334b705b2dd0f8c039`.
+- Complete recursive tree readback mapped concept/generated/reviewed paths to blob `d24b354d6584f5c241c91d94caad486d8ba26ef0` (2,845,132 bytes); tree was not truncated.
+- Manifest has exactly one v2 entry; source index, card and run metadata passed commit-pinned readback.
+- SCIENCE_REVISION, no unique-species increment; science remains false.

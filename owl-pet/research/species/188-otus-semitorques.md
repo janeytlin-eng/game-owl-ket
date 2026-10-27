@@ -3,7 +3,7 @@
 - Current name: *Otus semitorques*
 - Historical mappings actually verified: *Otus bakkamoena semitorques*; *Otus lempiji semitorques*
 - Design taxon: nominate *O. s. semitorques* (Japan/Honshu) for all three birds
-- Production state: ARCHIVED (immutable readback pending)
+- Production state: VERIFIED
 - Scientific verification: false
 
 ## Evidence used
@@ -25,4 +25,5 @@ Run: [cycle 5](../../production/runs/2026-10-28T0230+0800-cycle-5.md).
 - Initial generated master blob: `0c49cc058c6d305383c913ba53a8d72c28891c26`
 - Reviewed master blob: `71c009aa89b13ea84e47c2626235d377c22d2c36`
 - Concept SHA-256: `677901b8f0cb6915b17c2fcf9f3f65ccc66571a3c4dbe6ecfe95be259012a7cf`
-- Immutable readback: pending
+- Archive commit: `321b71ca83ccf2c7f932eddb24a1a5cfca520b2d`
+- Immutable readback: passed for concept/generated/reviewed plus manifest/source/card/run/state/STATUS

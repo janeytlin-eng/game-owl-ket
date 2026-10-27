@@ -1653,3 +1653,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/188-otus-semitorques-v1.png](design/concepts/188-otus-semitorques-v1.png)
 - Research: Mikkola printed p.158/PDF p.160, Bazdyrev 2023 juvenile field photograph, Matsumiya et al. 2023 Nagano survey PDF, and Avibase taxonomic crosswalk; four stable source IDs added.
 - Review: one targeted edit shortened/softened juvenile wing and tail. Final board passes exact text/count, near-equal red-eyed adults, nominate-race boundary, fluffy yellow-eyed mesoptile, two-foot support and wooded Honshu/cavity context. Exact age, flight threshold, continuous feather sequence and quantitative dimorphism remain unknown. Science false; commit-pinned readback pending.
+
+
+- 2026-10-28T05:01:00.000+08:00 — #188 *Otus semitorques* v1 independently verified at archive `321b71ca83ccf2c7f932eddb24a1a5cfca520b2d`; concept `3317c413…`, generated `0c49cc05…`, reviewed `71c009aa…`, plus manifest/source/card/run/state/STATUS read back. Unique total **180/251**; batch 5/6, next cycle 6. Science false.

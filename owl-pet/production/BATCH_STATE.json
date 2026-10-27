@@ -5209,8 +5209,8 @@
         "species": "#06 Asio otus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T07:49:37.000+08:00",
-        "expires_at": "2026-10-28T08:04:37.000+08:00"
+        "heartbeat_at": "2026-10-28T07:50:20.000+08:00",
+        "expires_at": "2026-10-28T08:05:20.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5218,18 +5218,39 @@
         "species": "#06 Asio otus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T07:49:37.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T07:50:20.000+08:00",
         "evidence": {
           "repo_head_before": "4750e61149e6794a0a1412885ad81e5deed66ed2",
           "candidate_basis": "Canonical #06 v2 was viewed. It retains an older Chinese-only layout and a generic early nestling; v3 will preserve history but use Mikkola juvenile diagnosis and the 2006 primary growth/plumage study to depict a 22-day pre-flight brancher.",
           "manifest_checked": true,
           "unique_species_before": "184/251",
           "scientifically_verified": false,
-          "prelease_screening_disclosure": "v2 viewing and initial source search/Mikkola extraction occurred between cycles before this lease; no generation or production credit occurred."
+          "prelease_screening_disclosure": "v2 viewing and initial source search/Mikkola extraction occurred between cycles before this lease; no generation or production credit occurred.",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids_new": [
+            "LEO-MIKKOLA-2013-P504",
+            "LEO-BTO-2026"
+          ],
+          "source_ids_reused": [
+            "LEO-SEIDENSTICKER-2006"
+          ],
+          "source_ids_corrected": [],
+          "fresh_research": "Mikkola printed pp.504–506 / PDF pp.506–508 text was extracted. Seidensticker et al. 2006 primary full-text facts already indexed were reread via Oxford/ResearchGate abstract and search text. BTO current account/BirdFacts, Cornell life-history and Ulmschneider thesis abstract were read. The tokenized Condor PDF URL was not treated as stable; DOI metadata/abstract and existing author full-text evidence were used.",
+          "design_boundary": "Same adult morph; female subtly fuller only. Approximately 22-day pre-flight brancher after nest departure, complete second down/darkening face, incomplete tufts, formed but soft folded wing/tail, dark gray-green transitional eyes, branch support and no flight pose.",
+          "full_prompt_saved": "owl-pet/research/species/06-asio-otus-v3.md",
+          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the repository's established cinematic 3D animated owl style. Exact header text: \"06 · LONG-EARED OWL · Asio otus\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center on one sturdy conifer branch beside an old abandoned magpie/crow stick nest. Adults share one ochre-brown morph and comparable baseline; female only subtly fuller and slightly richer/darker in streak density, never a giant or a separate colour morph. Adults: medium slender owls, conspicuous long upright ear tufts, elongated buff facial disc with white-edged blackish rim, short whitish eyebrows and a pale vertical center line, deep orange eyes, blackish bill, ochre-brown upperparts with fine dark mottling/shaft streaks and a pale scapular row, pale dull yellow-buff underparts with strong blackish vertical streaks plus very thin belly cross-bars, feathered legs/toes visibly gripping branch. Juvenile right is a source-bounded approximately 22-day pre-flight brancher just outside the old stick nest: fluffy greyish-white to brownish-white mesoptile with diffuse dusky bars, almost black facial area, open dark gray-green transitional eyes (not adult orange), incompletely developed short ear tufts, formed but still soft folded flight and tail feathers with restrained light/dark bars, shorter than adult proportions, both feet firmly gripping a broad adjacent branch; no launch, spread wings, hovering or confident-flight pose. Conifer/mixed woodland edge at dusk, open hunting meadow beyond, natural stable support. Comparative review board, not a literal family moment. No prey, eggs, extra birds, borders, logos or text beyond exact title/labels. Exact individual day, iris transition, continuous feather sequence, measured display ratio, subspecies and universal nest structure remain unknown.",
+          "remaining_unknowns": [
+            "exact individual day",
+            "iris transition",
+            "continuous feather sequence",
+            "measured display ratio",
+            "subspecies",
+            "universal nest geometry"
+          ]
         }
       },
-      "last_updated_at": "2026-10-28T07:49:37.000+08:00",
+      "last_updated_at": "2026-10-28T07:50:20.000+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5263,7 +5284,8 @@
         "2026-10-28T07:46:07.000+08:00: cycle5 #05 v3 REVIEWED after one 27.5s targeted juvenile-wing edit; full master passes; science false; lease renewed.",
         "2026-10-28T07:47:07.000+08:00: cycle5 #05 v3 ARCHIVED; concept c827dcf0, generated 33d35fe6, reviewed e0e8d62d; manifest 441→442; unique 184/251; readback pending.",
         "2026-10-28T07:48:00.000+08:00: cycle5 VERIFIED #05 Strix aluco v3 at 3330861fb9ef907309fe1f67183135ff4eeae057; immutable readback passed. Unique 184/251; batch 5/6, next_cycle 6; lease released; science false.",
-        "2026-10-28T07:49:37.000+08:00: cycle6 STARTED canonical #06 Asio otus v3 SCIENCE_REVISION; prelease screening disclosed, no prior generation/credit; lease expires 2026-10-28T08:04:37.000+08:00."
+        "2026-10-28T07:49:37.000+08:00: cycle6 STARTED canonical #06 Asio otus v3 SCIENCE_REVISION; prelease screening disclosed, no prior generation/credit; lease expires 2026-10-28T08:04:37.000+08:00.",
+        "2026-10-28T07:50:20.000+08:00: cycle6 #06 Asio otus v3 RESEARCH_READY; 2 new/1 reused sources including Mikkola pp.504–506 and Seidensticker et al. 2006; full prompt saved; science false; lease renewed."
       ]
     }
   ],
@@ -5359,7 +5381,7 @@
     "2026-10-28T03:54:20.820+08:00: cycle3 #178 IMAGE_GENERATED after 50.3s; original and derivative opened; no edit warranted.",
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false."
   ],
-  "updated_at": "2026-10-28T07:49:37.000+08:00",
+  "updated_at": "2026-10-28T07:50:20.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -5375,10 +5397,10 @@
     "species": "#06 Asio otus",
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "heartbeat_at": "2026-10-28T07:49:37.000+08:00",
-    "expires_at": "2026-10-28T08:04:37.000+08:00"
+    "heartbeat_at": "2026-10-28T07:50:20.000+08:00",
+    "expires_at": "2026-10-28T08:05:20.000+08:00"
   },
-  "last_updated_at": "2026-10-28T07:49:37.000+08:00",
+  "last_updated_at": "2026-10-28T07:50:20.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

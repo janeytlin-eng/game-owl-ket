@@ -1,8 +1,8 @@
-## 2026-10-28 — #06 *Asio otus* v3 archive checkpoint
+## 2026-10-28 — #06 *Asio otus* v3 VERIFIED
 
 - Rebuilt the older Chinese-only v2 layout as a current labeled evidence-bounded trio board; preserved v1/v2 history.
 - Added 2 stable source entries and reused the primary development study. Mikkola printed pp.504–506/PDF pp.506–508 was read.
-- Original and derivative review passed without edit; formed wing/tail retained under the juvenile account while pose remains preflight. Science false; immutable readback pending.
+- Original and derivative review passed without edit; formed wing/tail retained under the juvenile account while pose remains preflight. Science false; commit-pinned readback passed at [`474b983c`](https://github.com/janeytlin-eng/game-owl-ket/commit/474b983ccf6183426cafcc227921067188b5d7f1). Current batch closes 6/6; unique remains 184/251.
 
 ## 2026-10-28 — #05 *Strix aluco* v3 archive checkpoint
 

@@ -1,7 +1,8 @@
-## 2026-10-28 #06 *Asio otus* v3 archive checkpoint
+## 2026-10-28 #06 *Asio otus* v3 VERIFIED
 
-- Result: SCIENCE_REVISION ARCHIVED; unique species remains 184/251; immutable readback pending.
+- Result: SCIENCE_REVISION VERIFIED; unique species remains 184/251; current batch closes 6/6.
 - Image: [design/concepts/06-asio-otus-v3.png](design/concepts/06-asio-otus-v3.png)
+- Archive [`474b983ccf6183426cafcc227921067188b5d7f1`](https://github.com/janeytlin-eng/game-owl-ket/commit/474b983ccf6183426cafcc227921067188b5d7f1); verified concept blob `73780f81`, generated `9c2fe29f`, reviewed `452951f3`.
 - Research: 2 new and 1 reused stable sources; Mikkola printed pp.504–506/PDF pp.506–508 and the primary growth study bound an approximately 22-day pre-flight brancher.
 - Review: first render passed without edit; full source and 680×453 derivative viewed. Science remains false for exact day, iris transition, continuous feather sequence, display ratio, subspecies and universal nest geometry.
 - Run: [production/runs/20261028T0749+0800-cycle-6.md](production/runs/20261028T0749+0800-cycle-6.md)

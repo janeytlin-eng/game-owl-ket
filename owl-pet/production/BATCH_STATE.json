@@ -5144,7 +5144,7 @@
     },
     {
       "batch_id": "2026-10-28T0508+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -5198,55 +5198,55 @@
           "unique_species_increment": 0,
           "commit_sha": "3330861fb9ef907309fe1f67183135ff4eeae057",
           "run_record": "owl-pet/production/runs/20261028T0743+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Asio otus",
+          "species_id": 6,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "474b983ccf6183426cafcc227921067188b5d7f1",
+          "run_record": "owl-pet/production/runs/20261028T0749+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261028T0749+0800-cycle-6",
-        "batch_id": "2026-10-28T0508+0800",
-        "cycle": 6,
-        "species": "#06 Asio otus",
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T07:56:41.000+08:00",
-        "expires_at": "2026-10-28T08:11:41.000+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
         "run_id": "20261028T0749+0800-cycle-6",
         "species": "#06 Asio otus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-28T07:56:41.000+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-28T07:58:12.000+08:00",
         "evidence": {
+          "archive_commit": "474b983ccf6183426cafcc227921067188b5d7f1",
+          "archive_tree": "f7b8ad2218cbc347585b6023ff27e75ab4aeb26c",
           "concept_path": "owl-pet/design/concepts/06-asio-otus-v3.png",
           "concept_blob": "73780f81462ff8b3094a7af355d674dad3782af6",
-          "concept_sha256": "a9ed851dd50bec6c00e60615cb302fe20c5069c4a5bfc6fa82a8243ec980161e",
-          "concept_bytes": 191270,
-          "concept_dimensions": "680x453",
-          "generated_path": "owl-pet/production/generated/06-asio-otus-v3-generated-master.png",
+          "concept_size": 191270,
           "generated_blob": "9c2fe29f30e48a03ec2652b5faf5106ce7c531f6",
-          "generated_sha256": "a94d49eaa0afceb1176e4513fc702cc36fa2fe44db34c98fc82ef71203963742",
-          "generated_bytes": 783733,
-          "generated_dimensions": "1536x1024",
-          "reviewed_path": "owl-pet/production/reviewed/06-asio-otus-v3-reviewed-master.png",
+          "generated_size": 783733,
           "reviewed_blob": "452951f3c65bfb59a032601dab39d697329677f7",
-          "reviewed_sha256": "70f5eef25ec45ad0e8f2e691f3dedac3d411be1eba0d43aec0d4a9854ee6866b",
-          "reviewed_bytes": 783733,
-          "reviewed_dimensions": "1536x1024",
-          "source_png_sha256": "25fffb479075c9e26a01ae4586be894762a421314598782a886ddd5ae1e1def3",
-          "source_png_bytes": 3016680,
-          "archive_format_note": "Exact 3.02 MB source is recorded by hash/size; full-resolution 96-colour indexed generated and reviewed masters plus 680x453 derivative are archived and were visually opened.",
-          "manifest_count_before": 442,
-          "manifest_count_after": 443,
-          "unique_species_provisional": "184/251",
-          "readback_pending": true,
+          "reviewed_size": 783733,
+          "readback_paths": [
+            "owl-pet/design/manifest.json",
+            "owl-pet/research/SOURCE_INDEX.md",
+            "owl-pet/research/species/06-asio-otus-v3.md",
+            "owl-pet/production/runs/20261028T0749+0800-cycle-6.md",
+            "owl-pet/production/BATCH_STATE.json",
+            "owl-pet/STATUS.md",
+            "owl-pet/knowledge/species/06-asio-otus.md",
+            "owl-pet/design/README.md"
+          ],
+          "marker_checks": "PASS",
+          "unique_species_after": "184/251",
+          "batch_cumulative": "6/6",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T07:56:41.000+08:00",
+      "last_updated_at": "2026-10-28T07:58:12.000+08:00",
       "audit_notes": [
         "2026-10-28T05:08:10.000+08:00: cycle1 STARTED for unarchived #195 Otus brookii solokensis v1 after current manifest/scientific-name audit. #191–194 were screened out because Mikkola explicitly records juvenile Unknown/Not known. Lease expires 2026-10-28T05:23:10.000+08:00.",
         "2026-10-28T05:09:55.969+08:00: cycle1 #195 Otus brookii solokensis v1 RESEARCH_READY; 4 new sources read/indexed. Mikkola printed p.168/PDF p.170 page pixels viewed; Sumatran older-juvenile field photograph bounds stage. Full prompt persisted; science false. Lease renewed to 2026-10-28T05:24:55.969+08:00.",
@@ -5284,7 +5284,8 @@
         "2026-10-28T07:50:20.000+08:00: cycle6 #06 Asio otus v3 RESEARCH_READY; 2 new/1 reused sources including Mikkola pp.504–506 and Seidensticker et al. 2006; full prompt saved; science false; lease renewed.",
         "2026-10-28T07:53:19.000+08:00: cycle6 #06 v3 IMAGE_GENERATED after 54.3s observed wait. 1536x1024 PNG SHA-256 25fffb47…; original/full render review passed exact text/count/support and the evidence-bounded ~22-day pre-flight brancher. No edit required; no cycle credit.",
         "2026-10-28T07:54:02.000+08:00: cycle6 #06 v3 REVIEWED PASS_WITH_LIMITATIONS; no edit. Full source viewed; formed wing/tail retained under Mikkola juvenile account while primary study bounds the brancher as preflight. Science false; lease renewed.",
-        "2026-10-28T07:56:41.000+08:00: cycle6 #06 v3 ARCHIVED tree prepared; concept 73780f81, generated 9c2fe29f, reviewed 452951f3; manifest 442→443; unique remains 184/251. Immutable readback pending; no cycle credit yet."
+        "2026-10-28T07:56:41.000+08:00: cycle6 #06 v3 ARCHIVED tree prepared; concept 73780f81, generated 9c2fe29f, reviewed 452951f3; manifest 442→443; unique remains 184/251. Immutable readback pending; no cycle credit yet.",
+        "2026-10-28T07:58:12.000+08:00: cycle6 VERIFIED #06 Asio otus v3 at archive 474b983ccf6183426cafcc227921067188b5d7f1; commit-pinned tree and metadata markers passed. Unique remains 184/251; batch closes 6/6; lease released; science false."
       ]
     }
   ],
@@ -5378,7 +5379,8 @@
     "2026-10-28T03:49:26.643+08:00: cycle3 STARTED #178 Otus insularis v1; no production credit; research pending.",
     "2026-10-28T03:51:10.143+08:00: cycle3 #178 RESEARCH_READY; guide plus two primary studies indexed; generation pending.",
     "2026-10-28T03:54:20.820+08:00: cycle3 #178 IMAGE_GENERATED after 50.3s; original and derivative opened; no edit warranted.",
-    "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false."
+    "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false.",
+    "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false."
   ],
   "updated_at": "2026-10-28T07:50:20.000+08:00",
   "recovery_notes": [

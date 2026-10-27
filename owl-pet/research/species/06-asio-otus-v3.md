@@ -1,7 +1,7 @@
 # 06 · Long-eared Owl · *Asio otus* · v3
 
 - Action: SCIENCE_REVISION
-- Stage: ARCHIVED
+- Stage: VERIFIED
 - Date: 2026-10-28
 - v1/v2 preserved; prior confirmation does not transfer.
 - Science: false.
@@ -24,4 +24,4 @@ Original-resolution render reviewed at 2026-10-28T07:54:02.000+08:00. PASS_WITH_
 
 ## Archive checkpoint
 
-At 2026-10-28T07:56:41.000+08:00, concept `design/concepts/06-asio-otus-v3.png` (680×453, 191,270 bytes, SHA-256 `a9ed851d…`, Git blob `73780f81…`) plus full-resolution indexed generated/reviewed masters were placed in the archive tree. Immutable commit readback is pending; no scientific pass or cycle credit yet.
+At 2026-10-28T07:56:41.000+08:00, concept `design/concepts/06-asio-otus-v3.png` (680×453, 191,270 bytes, SHA-256 `a9ed851d…`, Git blob `73780f81…`) plus full-resolution indexed generated/reviewed masters were placed in the archive tree. Commit-pinned readback passed at archive `474b983ccf6183426cafcc227921067188b5d7f1`; this closes cycle 6/6 without changing the unique-species count. Scientific verification remains false.

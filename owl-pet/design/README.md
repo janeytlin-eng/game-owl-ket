@@ -1,3 +1,9 @@
+## 141 · Moluccan Scops Owl · *Otus magicus* v2
+
+- [Original PNG](concepts/141-otus-magicus-v2.png) · 1536×1024 · 722,727 bytes · SHA-256 `29a4228d516644c3de39050a8a2bae28b98be630728e886de8d7d82e274cd35f`
+- Git blob `4e1365939c4d96b85a052c8e66f4eb6ce40e24ef`. REVISION: near-equal adult display height and an evidence-bounded older feathered juvenile. One targeted edit removed adult-like long hard juvenile wing structure, hid unsupported iris colour and extended adult tarsal feathering; science pending.
+- [Sources](../research/SOURCE_INDEX.md#2026-10-27-141-moluccan-scops-owl--otus-magicus-v2-revision) · [Run](../production/runs/2026-10-27T1335+0800-cycle-3.md)
+
 ## 163 · Mountain Pygmy Owl · *Glaucidium gnoma* v1
 
 - [Original PNG](concepts/163-glaucidium-gnoma-v1.png) · 1536×1024 · 3,220,541 bytes · SHA-256 `05096fd4297ba496d05b0e6e00c1123b2ef67ef09cbafda84e169f84e72b3457`

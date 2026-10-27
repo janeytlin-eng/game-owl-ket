@@ -1,3 +1,12 @@
+## 2026-10-27 #141 *Otus magicus* v2
+
+- Result: REVISION archived pending independent readback; unique species remains 163/251.
+- Image: [design/concepts/141-otus-magicus-v2.png](design/concepts/141-otus-magicus-v2.png)
+- Git blob `4e1365939c4d96b85a052c8e66f4eb6ce40e24ef`; 1536×1024; 722,727 bytes; SHA-256 `29a4228d516644c3de39050a8a2bae28b98be630728e886de8d7d82e274cd35f`.
+- Research: 1 new nomenclatural source and 4 reused sources. Mikkola's explicit older feathered juvenile is used; the Müller/Avibase/BHL record is used only for protonym/type-locality history.
+- Review: one targeted edit removed the juvenile's adult-like long hard wing, avoided a definite juvenile iris colour, and extended adult tarsal feathering. Exact age/iris/flight/bill colour, quantified dimorphism, nest form and continuous feather sequence remain unknown; `scientifically_verified=false`.
+- Run: [production/runs/2026-10-27T1335+0800-cycle-3.md](production/runs/2026-10-27T1335+0800-cycle-3.md)
+
 ## 2026-10-27 #163 *Glaucidium gnoma* v1
 
 - Result: NEW concept VERIFIED; unique species rises 162→163/251.

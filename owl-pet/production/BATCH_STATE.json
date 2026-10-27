@@ -5071,8 +5071,8 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "2026-10-28T0230+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T05:06:00.000+08:00",
-        "expires_at": "2026-10-28T05:21:00.000+08:00"
+        "heartbeat_at": "2026-10-28T05:08:00.000+08:00",
+        "expires_at": "2026-10-28T05:23:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5080,23 +5080,17 @@
         "species": "#190 Otus lempiji",
         "version": 1,
         "action": "NEW",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T05:06:00.000+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T05:08:00.000+08:00",
         "evidence": {
-          "source_ids": [
-            "SUSO-MIKKOLA-2013-P162",
-            "SUSO-LOK-2009-SINGAPORE",
-            "SUSO-CLEMENTS-2017-CNEPHAEUS",
-            "SUSO-BOS-2026"
-          ],
-          "guide": "printed p.162 / uploaded PDF p.164 text and page pixels read",
-          "primary": "Lok et al. 2009 full eight-page PDF text read; juvenile figures on PDF pp.3,6,7 actually viewed",
-          "taxonomy": "Cornell Clements 2017 correction read: cnephaeus is a junior synonym of nominate lempiji",
-          "juvenile_boundary": "Older supported Singapore juvenile lacking distinct ear tufts; fluffy pale buff/whitish mesoptile with clear fine cross-bars, soft compact wings/tail. Exact age and flight threshold unknown.",
+          "generated_master_blob": "1888bd41487c1e09b3c764a6c91db34527e3e00b",
+          "dimensions": "1536x1024",
+          "generation_seconds": 47,
+          "inspection": "Exact text/count; same-morph near-equal dark-eyed adults; juvenile lacks distinct tufts, has fluffy pale cross-barred mesoptile, compact short wing/tail, two-foot support and evidence-supported begging posture. No edit indicated.",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T05:06:00.000+08:00",
+      "last_updated_at": "2026-10-28T05:08:00.000+08:00",
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49.",
@@ -5123,15 +5117,16 @@
         "2026-10-28T05:00:00.000+08:00: cycle5 #188 ARCHIVED with concept blob 3317c413157d3711e174bdab198914a310161a5a; manifest/STATUS/card/run/state committed together. Immutable readback pending; science false.",
         "2026-10-28T05:01:00.000+08:00: cycle5 VERIFIED #188 Otus semitorques v1 at archive 321b71ca83ccf2c7f932eddb24a1a5cfca520b2d; concept/generated/reviewed and manifest/source/card/run/state/STATUS read back by immutable SHA. Unique 180/251; next_cycle6; lease released. Science false.",
         "2026-10-28T05:03:00.000+08:00: cycle6 STARTED #190 Otus lempiji v1 after exact current-name/historical-name manifest audit found no prior archive; #188's old combination O. lempiji semitorques was correctly not treated as the full species. #189 O. elegans already archived earlier and skipped. Mikkola printed p.162/PDF164 accessible; lease acquired.",
-        "2026-10-28T05:06:00.000+08:00: cycle6 #190 Otus lempiji v1 RESEARCH_READY; guide p.162/PDF164 plus Lok et al. 2009 full PDF and juvenile figures, Clements 2017 taxonomic correction and Biodiversity of Singapore page read. Four stable sources indexed; full prompt persisted; science false; lease renewed."
+        "2026-10-28T05:06:00.000+08:00: cycle6 #190 Otus lempiji v1 RESEARCH_READY; guide p.162/PDF164 plus Lok et al. 2009 full PDF and juvenile figures, Clements 2017 taxonomic correction and Biodiversity of Singapore page read. Four stable sources indexed; full prompt persisted; science false; lease renewed.",
+        "2026-10-28T05:08:00.000+08:00: cycle6 #190 IMAGE_GENERATED; 1536x1024 master 1888bd41487c1e09b3c764a6c91db34527e3e00b after 47.0s. Pixel inspection passes exact text/count, adult scale/eyes/support and evidence-bounded tuftless fluffy barred juvenile with compact wings/tail and begging posture; no edit indicated. Lease renewed."
       ],
       "checkpoint": {
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species_id": 190,
         "species": "Otus lempiji",
         "version": 1,
         "action": "NEW",
-        "at": "2026-10-28T05:06:00.000+08:00",
+        "at": "2026-10-28T05:08:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-6.md",
         "scientifically_verified": false
       }

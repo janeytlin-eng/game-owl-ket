@@ -1486,3 +1486,10 @@ v1 remains preserved. v2 retains the palm-cavity near-fledging stage but no long
 - [Research card](../research/species/175-otus-ireneae.md)
 - [Production run](../production/runs/2026-10-28T0029+0800-cycle-6.md)
 - New concept; age-unknown supported older juvenile, no invented nest. Scientific calibration pending.
+
+
+### #14 Great Horned Owl · *Bubo virginianus* v3 science revision (2026-10-28)
+
+[Concept plate](concepts/14-bubo-virginianus-v3.png) · [research card](../research/species/14-bubo-virginianus-v3.md) · [run record](../production/runs/20261028T0733+0800-cycle-4.md)
+
+v1 user confirmation and v2 early-nestling rebuild remain preserved. v3 adopts the current labeled comparison-board format and an approximately six-week brancher bounded by Mikkola, a primary development study, a known-age photo series and Cornell observations. Adults share one regional morph; female fullness is subtle. Science calibration remains pending.

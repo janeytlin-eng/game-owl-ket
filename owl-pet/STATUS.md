@@ -1698,3 +1698,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T05:28:28.928+08:00 — #197 *Otus megalotis* v1 independently verified at archive `499624e816c66112affc85f4168b927199777fcd`; concept `8be1c0c0…`, generated `1f85b906…`, reviewed `ebccd250…`, plus manifest/source/card/run/state/STATUS read back. Unique total **183/251**; batch **2/6**, next cycle 3. Science false.
+
+
+## 2026-10-28 #14 *Bubo virginianus* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique species remains **184/251** pending immutable readback.
+- Image: [design/concepts/14-bubo-virginianus-v3.png](design/concepts/14-bubo-virginianus-v3.png)
+- Research: Mikkola printed pp.262/264 (PDF pp.264/266), Hoffmeister & Setzer 1947 original postnatal study, International Owl Center age-chart PDF, and reused Cornell life-history/branching material; 3 new and 2 reused source IDs.
+- Review: no edit required after viewing the 1536×1024 source, full-size durable master and 680×453 derivative. Exact text/count/support, same-morph adults, subtle female fullness and an evidence-bounded approximately six-week brancher pass. Exact day, continuous feather sequence, quantified sex ratio, regional morph and universal nest geometry remain unknown. Science false; readback pending.

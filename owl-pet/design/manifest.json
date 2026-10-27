@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T06:38:36.251+08:00",
+  "updated": "2026-10-28",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4871,7 +4871,34 @@
       "archive_note": "Built-in imagegen generated a 1536x1024 master; one targeted edit shortened adult tufts and replaced the juvenile's long adult-like side wing with a compact down-covered contour. Full reviewed master and 680x453 derivative were opened. Commit-pinned readback at adcd5aee verified concept 7263eab1, generated 40a45307, reviewed f4393d38 and manifest/source/card/run/state/STATUS/knowledge/workflow paths. Scientific verification remains false.",
       "archive_commit": "adcd5aeeae03e80d1dd60a0954f0f0fed86ab760",
       "verified_at": "2026-10-28T06:38:36.251+08:00"
+    },
+    {
+      "id": "14-bubo-virginianus-v3",
+      "path": "design/concepts/14-bubo-virginianus-v3.png",
+      "species_id": 14,
+      "scientific_name": "Bubo virginianus",
+      "common_name": "Great Horned Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "b1bb7e7b209157f3754fe5779508e2d36d80a7a8cac58cb10ab2607d03af6bb1",
+      "scientifically_verified": false,
+      "status": "v3 evidence-bounded labeled review-board rebuild. Adults share one neutral gray-brown morph; female is only subtly fuller/larger because regional colour is not sex difference. Yellow eyes, dark bills, white throat patches, irregular barred underparts and feathered gripping toes pass. The approximately six-week brancher has pale buff fluffy mesoptile, developed dark facial margin, reduced tufts, substantially grown folded wings, shorter unfinished tail and full branch support. Exact day, continuous feather sequence, quantified sex-size ratio, regional/subspecies scope and universal nest geometry remain unknown.",
+      "source_ids": [
+        "GHOW-MIKKOLA-2013",
+        "GHOW-HOFFMEISTER-SETZER-1947",
+        "GHOW-IOC-AGECHART-2017",
+        "GHO-CORNELL-2026",
+        "GHOW-CORNELL-CAM-FAQ"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--14-bubo-virginianus-v3-evidence-increment",
+      "run_record": "production/runs/20261028T0733+0800-cycle-4.md",
+      "git_blob": "901349b37e7e40ad3244953a01a0f059245cbc41",
+      "reviewed_at": "2026-10-28T07:39:15.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 185767,
+      "archive_note": "Built-in imagegen produced a 1536x1024 source. Original-resolution and 680x453 derivative review passed without an edit. The exact source hash/size are recorded; connector base64 output truncated before blob creation, so a visually re-opened full-resolution indexed PNG master and the concept derivative were archived. Commit-pinned readback pending. Scientific verification remains false.",
+      "archive_commit": "pending-readback"
     }
   ],
-  "updated_at": "2026-10-28T06:38:36.251+08:00"
+  "updated_at": "2026-10-28T07:40:37.000+08:00"
 }

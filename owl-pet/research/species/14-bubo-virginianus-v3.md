@@ -34,3 +34,12 @@ Check exact count/title/labels, adult yellow eyes/white throat/irregular barring
 - GHOW-IOC-AGECHART-2017
 - GHO-CORNELL-2026 (reused)
 - GHOW-CORNELL-CAM-FAQ (reused)
+
+
+## Generation and review result
+
+- Built-in imagegen: 68.8 s observed wait; 1536×1024 source PNG SHA-256 `39eb73b…`, 3,034,213 bytes.
+- Visual review: PASS_WITH_LIMITATIONS; no edit required. Exact title/role labels/count, adult identity, same-morph treatment, juvenile stage and all foot supports pass.
+- Durable master: 1536×1024 indexed PNG SHA-256 `db59d1e…`, 741,393 bytes, Git blob `cbb375f0…`; visually re-opened. The exact source could not be sent because the shell base64 result truncated before connector blob creation; no truncated write was attempted.
+- Concept: 680×453 PNG SHA-256 `b1bb7e7b…`, 185,767 bytes, Git blob `901349b3…`; viewed.
+- Scientific status: false. Remaining unknowns are unchanged.

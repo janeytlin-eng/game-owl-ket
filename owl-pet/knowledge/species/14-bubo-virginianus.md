@@ -39,3 +39,12 @@ Cornell Bird Cams FAQ：第一天及刚孵化前几天不能抬头；早期会�
 ![v2](../../design/concepts/14-bubo-virginianus-v2.png)
 
 研究、提示词与复查见 [cycle 3](../../production/runs/2026-10-25T2144+0800-cycle-3.md)。
+
+
+## v3 labeled brancher revision · 2026-10-28
+
+v1 user confirmation and v2 early-hatchling concept remain historical records; confirmation does not automatically transfer. v3 uses an evidence-bounded approximately six-week brancher with pale buff fluffy mesoptile, developed dark facial margin, reduced tufts, substantially grown folded wing, shorter unfinished tail and two-foot branch support. Adults share one neutral gray-brown morph; female is only subtly fuller because Mikkola states plumage is identical and individual/regional colour varies. Exact juvenile day, continuous feather sequence, quantified sex-size ratio, regional morph and universal nest geometry remain unknown. Scientific verification remains false.
+
+![v3](../../design/concepts/14-bubo-virginianus-v3.png)
+
+Research and full prompt: [v3 card](../../research/species/14-bubo-virginianus-v3.md). Production record: [cycle 4](../../production/runs/20261028T0733+0800-cycle-4.md).

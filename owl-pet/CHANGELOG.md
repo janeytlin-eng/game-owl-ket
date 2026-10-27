@@ -1,3 +1,9 @@
+## 2026-10-28 — #14 *Bubo virginianus* v3 archive checkpoint
+
+- Rebuilt canonical #14 as a labeled evidence-bounded trio board while preserving v1 user confirmation and v2 early-nestling history; historical #56 duplicate receives no credit.
+- Added 3 stable source entries and reused 2: Mikkola printed pp.262/264, a 1947 original postnatal study, International Owl Center known-age series and Cornell development material.
+- Original and derivative review passed without an edit. A full-resolution indexed PNG master was archived after the exact 3.03 MB source could not be transferred through the connector because base64 command output was truncated before blob creation. Science remains false; commit-pinned readback pending.
+
 ## 2026-10-28 — #201 *Otus mantananensis romblonis* v1
 
 - Added and commit-pinned verified a new evidence-bounded Mantanani Scops Owl concept; unique count 183→184/251.

@@ -4217,26 +4217,23 @@
         "cycle": 3,
         "species": "Aegolius acadicus",
         "species_id": 162,
-        "heartbeat_at": "2026-10-27T11:42:07.799+08:00",
-        "expires_at": "2026-10-27T11:57:07.799+08:00"
+        "heartbeat_at": "2026-10-27T11:43:46.202+08:00",
+        "expires_at": "2026-10-27T11:58:46.202+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Aegolius acadicus",
         "species_id": 162,
         "version": 1,
         "run_id": "2026-10-27T1034+0800-cycle-3",
-        "at": "2026-10-27T11:42:07.799+08:00",
+        "at": "2026-10-27T11:43:46.202+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-3.md",
-        "source_ids": [
-          "NSW-MIKKOLA-2013-P444",
-          "NSW-USGS-MCCULLOUGH-CONWAY-2017",
-          "NSW-CORNELL-AAB-2026",
-          "NSW-USFS-JOHNSON-ANDERSON-2003"
-        ]
+        "generated_asset": "owl-pet/production/assets/2026-10-27T1034+0800-cycle-3/162-aegolius-acadicus-v1-generated.png",
+        "generated_blob": "1cb528b0256ceaee3e297af1a6e7b3a7468ceff5",
+        "review": "NEEDS EDIT: scientific-name text is misspelled; juvenile has crisp adult spot rows and hard layered primaries."
       },
-      "last_updated_at": "2026-10-27T11:42:07.799+08:00",
+      "last_updated_at": "2026-10-27T11:43:46.202+08:00",
       "audit_notes": [
         "2026-10-27T10:34:00.000+08:00: new batch cycle 1 STARTED for unarchived #160 Tyto inexspectata v1; no prior incomplete batch or active lease. Project scope remains 251. Repository stored timestamps from the preceding batch are ahead of this invocation clock; commit order is authoritative.",
         "2026-10-27T10:36:00.000+08:00: cycle 1 RESEARCH_READY; 4 sources read/indexed (IOC checklist page result, 2023 Naturalis type catalogue, Cornell/eBird account, Owl Pages synthesis). Full prompt persisted; exact juvenile age, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; lease renewed.",
@@ -4251,7 +4248,8 @@
         "2026-10-27T11:38:53.043+08:00: cycle 2 ARCHIVED pending independent readback; concept path and reviewed asset use exact blob 7922f6b6029ee281a2b18a40ce5a4893ce80b042; manifest/status/design index/changelog/workflow lesson updated; lease renewed.",
         "2026-10-27T11:39:58.890+08:00: cycle 2 VERIFIED; immutable archive tree maps concept and reviewed asset to blob 7922f6b6029ee281a2b18a40ce5a4893ce80b042 (710627 bytes), manifest/run readback passed. Archive ea06d96dcd7fc73aea0f56a9bcaa14376661824d. Unique species rises 160→161/251; batch advances to 2/6, next_cycle 3; lease released.",
         "2026-10-27T11:41:09.916+08:00: cycle 3 STARTED for unarchived #162 Aegolius acadicus v1; manifest duplicate check passed. Species selected because Mikkola describes adult and juvenile mesoptile, USGS provides a 30-day nestling period, and Cornell/USFS support cavity-stage behavior and habitat. Scope remains 251; lease expires 2026-10-27T11:56:09.916+08:00.",
-        "2026-10-27T11:42:07.799+08:00: cycle 3 RESEARCH_READY; 4 sources read/indexed (Mikkola p.444, USGS primary nest-camera paper metadata/abstract, Cornell account, USFS conservation assessment pp.1,5,17). Full prompt persisted. Exact mesoptile day, flight threshold, nest-cavity geometry and universal sex ratio remain unknown; lease renewed."
+        "2026-10-27T11:42:07.799+08:00: cycle 3 RESEARCH_READY; 4 sources read/indexed (Mikkola p.444, USGS primary nest-camera paper metadata/abstract, Cornell account, USFS conservation assessment pp.1,5,17). Full prompt persisted. Exact mesoptile day, flight threshold, nest-cavity geometry and universal sex ratio remain unknown; lease renewed.",
+        "2026-10-27T11:43:46.202+08:00: cycle 3 IMAGE_GENERATED; first 1536x1024 output viewed. Layout/support/adult identity pass, but title scientific name is misspelled and center juvenile has adult-style white spot rows/long hard remiges. Targeted text+juvenile edit required. Blob 1cb528b0256ceaee3e297af1a6e7b3a7468ceff5; lease renewed."
       ]
     }
   ],
@@ -4355,10 +4353,10 @@
     "cycle": 3,
     "species": "Aegolius acadicus",
     "species_id": 162,
-    "heartbeat_at": "2026-10-27T11:42:07.799+08:00",
-    "expires_at": "2026-10-27T11:57:07.799+08:00"
+    "heartbeat_at": "2026-10-27T11:43:46.202+08:00",
+    "expires_at": "2026-10-27T11:58:46.202+08:00"
   },
-  "last_updated_at": "2026-10-27T11:42:07.799+08:00",
+  "last_updated_at": "2026-10-27T11:43:46.202+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

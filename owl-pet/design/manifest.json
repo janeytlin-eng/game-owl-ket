@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T04:34:19.000+08:00",
+  "updated": "2026-10-28T04:47:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4688,6 +4688,37 @@
       "archive_note": "First built-in imagegen generation passed original-resolution and 680×453 derivative review without edit. Commit-pinned readback at archive 89766ecd verified concept 4ea9d2d2, generated 44dd2333, reviewed 44dd2333 and manifest/source/card/run/state records. The older adult-like juvenile remains evidence-bounded; scientific verification remains false.",
       "archive_commit": "89766ecd3c818d4ecf7ce8a243fa99afd789c6bf",
       "verified_at": "2026-10-28T04:34:19.000+08:00"
+    },
+    {
+      "id": "184-otus-spilocephalus-v1",
+      "path": "design/concepts/184-otus-spilocephalus-v1.png",
+      "species_id": 184,
+      "scientific_name": "Otus spilocephalus",
+      "subspecies": "Otus spilocephalus hambroecki",
+      "historical_names": [
+        "Ephialtes spilocephalus",
+        "Ephialtes Hambroecki",
+        "Otus hambroecki"
+      ],
+      "common_name": "Mountain Scops Owl",
+      "version": 1,
+      "sha256": "b77661b44e8fbfc46986753a00a2065f11427ed5baed24d1adc58f999fc711a6",
+      "scientifically_verified": false,
+      "status": "NEW evidence-bounded Taiwan-race concept. Same-plumage, near-equal adults; short indistinct tufts, warm tea/rufous-brown adult pattern, pale scapular row, yellow eyes, light horn bill and feathered tarsi. Older juvenile is smaller, rounder, fluffier and dull yellow/rufous-brown with softer marks, dark shaded iris, shorter wing/tail and two-foot support. No exact age, flight threshold, nest lining or quantified dimorphism inferred.",
+      "source_ids": [
+        "MOSO-MIKKOLA-2013-P148",
+        "MOSO-NTM-HAMBROECKI-2026",
+        "MOSO-AVIBASE-HAMBROECKI-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--184-mountain-scops-owl--otus-spilocephalus-v1",
+      "run_record": "production/runs/2026-10-28T0230+0800-cycle-4b.md",
+      "git_blob": "b593734db42a14c09d2088882321e4866a2dfc75",
+      "reviewed_at": "2026-10-28T04:47:00.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 664728,
+      "archive_note": "Built-in imagegen generated a full board; one targeted edit shortened/softened the juvenile wing and tail while preserving adults, text and support. 1536x1024 final master and 680x453 derivative were opened. Commit-pinned readback pending; science false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
   "updated_at": "2026-10-28T02:28:00.000+08:00"

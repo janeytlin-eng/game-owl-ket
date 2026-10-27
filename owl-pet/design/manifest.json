@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T04:48:00.000+08:00",
+  "updated": "2026-10-28T05:00:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4719,6 +4719,36 @@
       "archive_note": "Built-in imagegen generated a full master; one targeted edit shortened and softened juvenile wings/tail while preserving adults, exact text and support. Final 1536x1024 reviewed master and 680x453 concept derivative were opened. Commit-pinned readback at 1055aafe verified concept b593734d, generated ca687153, reviewed f14cad94 and manifest/source/card/run/state/STATUS. Scientific verification remains false.",
       "archive_commit": "1055aafeee33cef4a1bb09a9c3f96a7caa29ff79",
       "verified_at": "2026-10-28T04:48:00.000+08:00"
+    },
+    {
+      "id": "188-otus-semitorques-v1",
+      "path": "design/concepts/188-otus-semitorques-v1.png",
+      "species_id": 188,
+      "scientific_name": "Otus semitorques",
+      "subspecies": "Otus semitorques semitorques",
+      "historical_names": [
+        "Otus bakkamoena semitorques",
+        "Otus lempiji semitorques"
+      ],
+      "common_name": "Japanese Scops Owl",
+      "version": 1,
+      "sha256": "677901b8f0cb6915b17c2fcf9f3f65ccc66571a3c4dbe6ecfe95be259012a7cf",
+      "scientifically_verified": false,
+      "status": "NEW evidence-bounded nominate-Japan concept. Adults are near-equal because no sexual-size data were found; long prominent tufts, grey double collar, red eyes, small pale scapular patches, barred wings/tail and dark herringbone underparts follow Mikkola. Older juvenile is a fluffy pale/dull-yellow diffusely barred mesoptile with yellowish eyes, compact short wing/tail and full branch support. One targeted edit removed overlong adult-like juvenile remiges. Exact age, flight threshold, continuous feather sequence and quantitative dimorphism remain unknown.",
+      "source_ids": [
+        "JPSO-MIKKOLA-2013-P158",
+        "JPSO-COMMONS-BAZDYREV-2023",
+        "JPSO-MATSUMIYA-2023-NAGANO",
+        "JPSO-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--188-japanese-scops-owl--otus-semitorques-v1",
+      "run_record": "production/runs/2026-10-28T0230+0800-cycle-5.md",
+      "git_blob": "3317c413157d3711e174bdab198914a310161a5a",
+      "reviewed_at": "2026-10-28T04:58:00.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 640207,
+      "archive_note": "Built-in imagegen generated a 1536x1024 master; one targeted edit shortened and softened the juvenile wing/tail while preserving adults, exact text and support. Final reviewed master and 680x453 concept derivative were opened. Immutable commit-pinned readback pending; scientific verification remains false.",
+      "archive_commit": "PENDING_IMMUTABLE_READBACK"
     }
   ],
   "updated_at": "2026-10-28T02:28:00.000+08:00"

@@ -1645,3 +1645,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T04:48:00.000+08:00 — #184 *Otus spilocephalus* v1 independently verified at archive `1055aafeee33cef4a1bb09a9c3f96a7caa29ff79`; concept `b593734d…`, generated `ca687153…`, reviewed `f14cad94…`, plus manifest/source/card/run/state/STATUS read back. Unique total **179/251**; batch 4/6, next cycle 5. Science false.
+
+
+## 2026-10-28 #188 *Otus semitorques* v1
+
+- Result: NEW ARCHIVED; provisional unique species **180/251** pending immutable readback.
+- Image: [design/concepts/188-otus-semitorques-v1.png](design/concepts/188-otus-semitorques-v1.png)
+- Research: Mikkola printed p.158/PDF p.160, Bazdyrev 2023 juvenile field photograph, Matsumiya et al. 2023 Nagano survey PDF, and Avibase taxonomic crosswalk; four stable source IDs added.
+- Review: one targeted edit shortened/softened juvenile wing and tail. Final board passes exact text/count, near-equal red-eyed adults, nominate-race boundary, fluffy yellow-eyed mesoptile, two-foot support and wooded Honshu/cavity context. Exact age, flight threshold, continuous feather sequence and quantitative dimorphism remain unknown. Science false; commit-pinned readback pending.

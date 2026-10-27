@@ -1,3 +1,11 @@
+## 2026-10-27 #163 *Athene cunicularia* v1
+
+- Result: NEW concept archived; unique species rises 162→163/251.
+- Image: [design/concepts/163-athene-cunicularia-v1.png](design/concepts/163-athene-cunicularia-v1.png)
+- Blob `01d65dd5c87b50d053e1b347e60d950d19a19015`; 1536×1024; 536,814 bytes; SHA-256 `8c5d71da652781bd464a731ecdc3999f64bf4d3d0bb85c79e55e6148ee9999f1`.
+- Research: 4 new + 1 reused source. One edit softened the 29-day juvenile wing; sex-size and fledging-range conflicts remain bounded; science false.
+- Run: [production/runs/2026-10-27T1034+0800-cycle-4.md](production/runs/2026-10-27T1034+0800-cycle-4.md)
+
 ## 2026-10-27 #162 *Aegolius acadicus* v1
 
 - Result: NEW concept archived; unique species rises 161→162/251.

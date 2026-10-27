@@ -4230,25 +4230,23 @@
         "cycle": 4,
         "species": "Athene cunicularia",
         "species_id": 163,
-        "heartbeat_at": "2026-10-27T11:59:00.000+08:00",
-        "expires_at": "2026-10-27T12:14:00.000+08:00"
+        "heartbeat_at": "2026-10-27T12:02:30.000+08:00",
+        "expires_at": "2026-10-27T12:17:30.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Athene cunicularia",
         "species_id": 163,
         "version": 1,
         "run_id": "2026-10-27T1034+0800-cycle-4",
-        "at": "2026-10-27T11:59:00.000+08:00",
+        "at": "2026-10-27T12:02:30.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1034+0800-cycle-4.md",
-        "reviewed_image": "owl-pet/production/assets/2026-10-27T1034+0800-cycle-4/163-athene-cunicularia-v1-reviewed.png",
-        "reviewed_blob": "01d65dd5c87b50d053e1b347e60d950d19a19015",
-        "edits": 1,
-        "review_result": "PASS_CONCEPT",
-        "scientifically_verified": false
+        "concept_path": "owl-pet/design/concepts/163-athene-cunicularia-v1.png",
+        "image_git_blob": "01d65dd5c87b50d053e1b347e60d950d19a19015",
+        "readback": "pending"
       },
-      "last_updated_at": "2026-10-27T11:59:00.000+08:00",
+      "last_updated_at": "2026-10-27T12:02:30.000+08:00",
       "audit_notes": [
         "2026-10-27T10:34:00.000+08:00: new batch cycle 1 STARTED for unarchived #160 Tyto inexspectata v1; no prior incomplete batch or active lease. Project scope remains 251. Repository stored timestamps from the preceding batch are ahead of this invocation clock; commit order is authoritative.",
         "2026-10-27T10:36:00.000+08:00: cycle 1 RESEARCH_READY; 4 sources read/indexed (IOC checklist page result, 2023 Naturalis type catalogue, Cornell/eBird account, Owl Pages synthesis). Full prompt persisted; exact juvenile age, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; lease renewed.",
@@ -4271,7 +4269,8 @@
         "2026-10-27T11:49:51.665+08:00: cycle 4 STARTED for unarchived #163 Athene cunicularia v1; manifest duplicate check passed. Mikkola, Cornell, COSEWIC and a photographic aging key are available; sexual size sources conflict, so no fixed dimorphism will be claimed.",
         "2026-10-27T11:53:00.000+08:00: cycle 4 RESEARCH_READY; 5 sources read/indexed (Mikkola pp.424–425, Johnson et al. 2019 photographic aging key, Cornell life history/overview, COSEWIC 2017). Sex-size evidence conflicts and fledging ranges vary, so adults stay near-equal and the 29-day hypugaea juvenile is safely prefledging; full prompt persisted; lease renewed.",
         "2026-10-27T11:56:30.000+08:00: cycle 4 IMAGE_GENERATED; first 1536x1024 output viewed. Adult identity/text/burrow/support pass; center 29-day juvenile retains a regular pale wing-spot row and hard layered remiges, so one targeted edit is required. Generated blob b8b5314a3caaac7c62b5ec876fa336d13c5f2063; lease renewed.",
-        "2026-10-27T11:59:00.000+08:00: cycle 4 REVIEWED PASS after one center-juvenile wing edit. Adult-like spot row/hard remiges were shortened and softened; exact text, adults, support, burrow and prairie remained stable. Reviewed blob 01d65dd5c87b50d053e1b347e60d950d19a19015; science pending; lease renewed."
+        "2026-10-27T11:59:00.000+08:00: cycle 4 REVIEWED PASS after one center-juvenile wing edit. Adult-like spot row/hard remiges were shortened and softened; exact text, adults, support, burrow and prairie remained stable. Reviewed blob 01d65dd5c87b50d053e1b347e60d950d19a19015; science pending; lease renewed.",
+        "2026-10-27T12:02:30.000+08:00: cycle 4 ARCHIVED pending readback; concept/reviewed asset blob 01d65dd5c87b50d053e1b347e60d950d19a19015; manifest/status/design index/changelog/workflow lesson updated; lease renewed."
       ]
     }
   ],
@@ -4375,10 +4374,10 @@
     "cycle": 4,
     "species": "Athene cunicularia",
     "species_id": 163,
-    "heartbeat_at": "2026-10-27T11:59:00.000+08:00",
-    "expires_at": "2026-10-27T12:14:00.000+08:00"
+    "heartbeat_at": "2026-10-27T12:02:30.000+08:00",
+    "expires_at": "2026-10-27T12:17:30.000+08:00"
   },
-  "last_updated_at": "2026-10-27T11:59:00.000+08:00",
+  "last_updated_at": "2026-10-27T12:02:30.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

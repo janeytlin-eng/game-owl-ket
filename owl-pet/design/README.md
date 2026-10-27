@@ -1,3 +1,9 @@
+## 163 · Burrowing Owl · *Athene cunicularia* v1
+
+- [Original PNG](concepts/163-athene-cunicularia-v1.png) · 1536×1024 · 536,814 bytes · SHA-256 `8c5d71da652781bd464a731ecdc3999f64bf4d3d0bb85c79e55e6148ee9999f1`
+- Git blob `01d65dd5c87b50d053e1b347e60d950d19a19015`. Western *hypugaea* adults, natural burrow and a supported 29-day prefledgling passed after one juvenile-wing edit; science pending.
+- [Sources](../research/SOURCE_INDEX.md#163-burrowing-owl--athene-cunicularia--2026-10-27) · [Run](../production/runs/2026-10-27T1034+0800-cycle-4.md)
+
 ## 162 · Northern Saw-whet Owl · *Aegolius acadicus* v1
 
 - [Original PNG](concepts/162-aegolius-acadicus-v1.png) · 1536×1024 · 630,834 bytes · SHA-256 `ab8a6b85796e7a9c378feaf2080771d584ce3a10b3405d62bdb7fcb6bb4dd12b`

@@ -883,3 +883,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 ## 2026-10-27 — #162 *Aegolius acadicus* v1
 - Added the first Northern Saw-whet Owl concept; unique archived species 161→162/251.
 - Added four source records. One edit reduced adult-like juvenile wing/back spotting and hard remiges; a second text-only edit corrected the scientific title. Science remains false.
+
+
+## 2026-10-27 — #163 *Athene cunicularia* v1
+- Added the first Burrowing Owl concept; unique archived species 162→163/251.
+- Added five source records (four new, one reused Mikkola). The displayed population is western North American *A. c. hypugaea* and the juvenile is a source-bounded 29-day prefledgling.
+- One targeted edit removed adult-like juvenile wing spot rows/hard remiges. Mikkola/Cornell sex-size conflict remains explicit; adults are near-equal and `scientifically_verified=false`.

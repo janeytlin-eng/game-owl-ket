@@ -431,3 +431,7 @@ A fledging window (48–60 days here) supports selecting a late nestling with fo
 
 ### 2026-10-27 #162 label spelling is a blocking review item
 A biologically improved edit can still fail archival review if generated taxonomic text is wrong. #162 required a second text-only imagegen edit after the juvenile correction because the title did not spell *Aegolius acadicus* exactly. The final whole image was reopened and both taxonomy text and juvenile maturity cues passed. This validates the existing exact-label check for this image only; it does not imply future text generation will be reliable.
+
+
+### 2026-10-27 #163 conflicting dimorphism sources require neutral display
+For *Athene cunicularia*, Mikkola reports females clearly larger while Cornell states the sexes are the same size. Rather than selecting one statement as a universal ratio, #163 keeps both adults near-equal and records the conflict. The 29-day western *hypugaea* aging key also shows why a dated juvenile can still need a visual edit: the first render carried a regular adult-style wing spot row and hard remiges; one targeted edit shortened/softened the wing while retaining the dated prefledging stage, both-foot support and burrow context. This validates conflict-bounded prompting and maturity-cue review for this plate only; science remains false.

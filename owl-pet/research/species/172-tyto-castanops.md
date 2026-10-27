@@ -55,7 +55,7 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 
 ## v2 science revision — 2026-10-28
 
-Status: RESEARCH_READY; image not yet generated; scientific verification: false.
+Status: IMAGE_GENERATED; review pending; scientific verification: false.
 
 ### Problem → evidence → planned correction
 
@@ -75,3 +75,9 @@ Edit the supplied Tasmanian Masked Owl concept plate in the same polished semi-r
 3. Male remains smaller/paler and female larger/darker without converting mass dimorphism into an unsupported fixed height ratio.
 4. Dark eyes, broad discs, feathered legs and powerful supported feet remain coherent.
 5. No science pass: stage age is approximate and based on one captive nominate growth series plus a secondary *castanops* down-color comparison.
+
+
+### v2 generated checkpoint
+
+- 1536×1024 RGB PNG; 2,845,132 bytes; SHA-256 `fa3b708db420598350a4b28aad72897ec6159b62ab57083175a9d26eb7bbd329`; Git blob `d24b354d6584f5c241c91d94caad486d8ba26ef0`.
+- Original-resolution image opened. Explicit checklist review and any needed edit remain pending; no science pass or production credit.

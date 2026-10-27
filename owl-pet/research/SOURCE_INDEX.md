@@ -4089,3 +4089,35 @@ Links: [research card](species/173-otus-madagascariensis.md), [run](../productio
 - Evidence limit/confidence: juvenile photos include Mexican birds; their exact pattern is not transferred to northern birds.
 - Design decision: dark northern adults/small spots; juvenile fluff is bounded by primary Oregon development evidence.
 - Links: [card](../knowledge/species/16-strix-occidentalis.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-6.md)
+
+
+## 2026-10-27 #120 Rufescent Screech-Owl · *Megascops ingens* v3 evidence update
+
+### RIS-ORDONEZ-2022-LEAD — corrected full-read status
+- Title: *Primer registro del polluelo y nuevos datos del nido del Autillo Rojizo (Megascops ingens) (Strigiformes: Strigidae) en Zamora Chinchipe, sureste de Ecuador*
+- Authors: Leonardo Ordóñez-Delgado, Freddy Ramón Castillo, Angel Pineda Díaz
+- Year / publication: 2022; *Neotropical Biodiversity* 8:301–304
+- DOI / original URL: https://doi.org/10.1080/23766808.2022.2123729 ; https://ikiam.researchcommons.org/neotropical-diversity/vol8/iss1/35/
+- Accessed: 2026-10-27
+- Type: primary field report; open-access CC BY-NC 4.0
+- Scope/stage: southeastern Ecuador nest and a single chick estimated by authors at 20–30 days; adult shown in Figure 1c.
+- Location actually read/viewed: publisher-repository 11-page PDF, printed pp.301–304; Figure 1a–d on p.302; separate 1200×1488 Figure 1 image.
+- Verified facts: chick light-beige base, dark-brown face/eye contour, whitish forehead, faint brown crown/nape/mantle bands stronger on mantle/scapulars, residual white natal down; considerably developed primary/secondary/tertiary feathers barred light/dark brown like adults; gray bill with pale-yellow egg-tooth vestige; open dark-brown eyes/black pupils; no characteristic adult tufts. Simple bare cavity in a dead stump at lower-montane evergreen forest edge beside pasture, with a slight bed of dry/damp vegetation.
+- Correction: the earlier index entry accurately recorded the initial 403 limitation. This run obtained the public publisher-repository PDF and figure without bypassing access controls, so full text/figure evidence is now verified.
+- Limits/conflicts/confidence: age is an author estimate, not known hatching date; one nest/chick cannot establish universal clutch, dimensions or population-wide plumage. Abstract/body stump-height wording differs; no exact height is rendered. High for this observation, low for universal generalization.
+- Decision: use this exact documented stage and retain formed barred remiges; do not apply a blanket short-wing rule. No exact-day or flight claim.
+- Links: [research record](species/120-megascops-ingens-v3.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-3.md)
+
+### RIS-MIKKOLA-2013-P229
+- Title: *Owls of the World: A Photographic Guide*
+- Author: Heimo Mikkola
+- Year: 2013
+- Source: user-uploaded guide
+- Accessed: 2026-10-27
+- Type: photographic field guide / secondary synthesis
+- Scope/stage: *Megascops ingens* adult, downy chick and mesoptile
+- Location actually read/viewed: printed p.229 / PDF p.231, including Glenn Bartley adult photograph.
+- Verified facts: small tufts; females average 28 g heavier; dark olive-tawny/reddish/gray-brown upperparts with fine pale spots and narrow dark vermiculation; honey-brown eyes; olive-yellow bill/cere; densely feathered tarsi to toe bases; whitish-buff downy chick and dusky-mottled mesoptile.
+- Limits/conflicts/confidence: synthesis does not supply a dated growth series; old two-subspecies account predates current checklist treatments. Qualitative sex-mass direction does not justify a fixed height ratio. Moderate-high for identification boundary, not a science pass.
+- Decision: adults retain small tufts, deep honey-brown eyes and feathered tarsi; female only subtly fuller. Juvenile stage comes from the 2022 primary observation.
+- Links: [research record](species/120-megascops-ingens-v3.md) · [run](../production/runs/2026-10-27T2126+0800-cycle-3.md)

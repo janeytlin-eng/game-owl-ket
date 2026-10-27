@@ -472,3 +472,8 @@ When an older guide treats *Bubo poensis* and *Bubo vosseleri* separately but th
 ### Applied and checked — photograph cross-check without age inflation (2026-10-27, #168)
 
 An identified field photograph without measured age can confirm visible posture, support and feather appearance, but cannot turn an age-unknown mesoptile into a dated fledgling. #168 applies this rule: the Ghana photograph cross-checks pale fluffy barring and branch support; exact age/flight remain unknown. Original and archive derivative passed review; validation is image-specific.
+
+
+### Applied and checked — frontal juveniles still require wing-edge review (2026-10-27, #171)
+
+A front-facing fluffy juvenile can appear stage-correct at head and breast while the visible lateral folded wing still leaks long hard remiges and crisp adult spot rows. #171’s first render had this mismatch despite an unspotted gray mesoptile crown. One targeted center-only edit shortened, rounded and softened the folded wing, removed the crisp spot row, kept the tail short and concealed, and retained two-foot branch support. Original-resolution and archive-derivative review passed for this image. This adds one visually checked application of the existing maturity-cue rule; it does not establish exact age, flight ability or a universal feather sequence, and `scientifically_verified` remains false.

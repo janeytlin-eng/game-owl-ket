@@ -4552,17 +4552,17 @@
       "active_lease": {
         "owner": "codex-production-2026-10-27T1751+0800",
         "run_id": "2026-10-27T1636+0800-cycle-6",
-        "heartbeat_at": "2026-10-27T18:03:00.000+08:00",
-        "expires_at": "2026-10-27T18:18:00.000+08:00"
+        "heartbeat_at": "2026-10-27T18:07:00.000+08:00",
+        "expires_at": "2026-10-27T18:22:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Glaucidium palmarum",
         "species_id": 171,
         "version": 1,
         "run_id": "2026-10-27T1636+0800-cycle-6",
-        "at": "2026-10-27T18:03:00.000+08:00",
+        "at": "2026-10-27T18:07:00.000+08:00",
         "run_record": "owl-pet/production/runs/2026-10-27T1636+0800-cycle-6.md",
         "evidence": {
           "new_sources": 4,
@@ -4581,10 +4581,14 @@
           "archive_bytes": 642816,
           "archive_sha256": "43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34",
           "image_git_blob": "9992a410ae54cf579090267f6ebc9bbfa8f76e97",
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "concept_path": "owl-pet/design/concepts/171-glaucidium-palmarum-v1.png",
+          "generated_asset": "owl-pet/production/assets/2026-10-27T1636+0800-cycle-6/generated-v1.png",
+          "reviewed_asset": "owl-pet/production/assets/2026-10-27T1636+0800-cycle-6/reviewed-v1.png",
+          "archive_pending_readback": true
         }
       },
-      "last_updated_at": "2026-10-27T18:03:00.000+08:00",
+      "last_updated_at": "2026-10-27T18:07:00.000+08:00",
       "audit_notes": [
         "2026-10-27T16:36:30.000+08:00: cycle 1 STARTED then RESEARCH_READY for unarchived #166 Bubo cinerascens v1; 4 sources read/indexed and full prompt persisted. Project scope remains 251; lease expires 2026-10-27T16:51:30.000+08:00.",
         "2026-10-27T16:39:43.000+08:00: cycle 1 IMAGE_GENERATED then REVIEWED PASS after one targeted center-fledgling wing edit. Regular adult-like pale spot rows and hard long remiges were reduced to a shorter, rounder, softer juvenile wing with diffuse flecks. Exact text, adults, support and savanna remained intact. Reviewed archive blob d29baf733b4e8fa3cd7b53c0440724014c17ee6f; lease renewed.",
@@ -4609,7 +4613,8 @@
         "2026-10-27T17:50:30.000+08:00: cycle 5 VERIFIED; immutable tree maps concept/generated/reviewed paths to 968280d7bf9d7c49e605200dcaddc00cd0cb0c43 (643945 bytes); manifest/source/card/run/status/design readback passed after card/source-count cleanup. Unique species 169→170/251; batch 5/6, next_cycle 6; lease released.",
         "2026-10-27T17:51:30.000+08:00: cycle 6 STARTED for unarchived candidate #171 Glaucidium palmarum v1 after current-name and path audit; research not yet credited. Lease expires 2026-10-27T18:06:30.000+08:00.",
         "2026-10-27T17:56:30.000+08:00: cycle 6 RESEARCH_READY for unarchived #171 Glaucidium palmarum v1; four new stable sources read/indexed and full prompt persisted. Mikkola pp.385–386 plus a 2018 Huatulco juvenile photograph bound an age-unknown mesoptile. Exact age/flight and confirmed nest remain unknown. Lease expires 2026-10-27T18:11:30.000+08:00.",
-        "2026-10-27T18:03:00.000+08:00: cycle 6 IMAGE_GENERATED then REVIEWED PASS after one targeted center-juvenile wing edit. Long hard adult-like remiges and crisp white spot rows were removed; the wing became shorter, rounder, softer and down-overlaid while the exact title/labels, adults, short supported posture and dry-forest context were retained. Viewed TrueColor 680x453 derivative persisted as blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97; lease renewed."
+        "2026-10-27T18:03:00.000+08:00: cycle 6 IMAGE_GENERATED then REVIEWED PASS after one targeted center-juvenile wing edit. Long hard adult-like remiges and crisp white spot rows were removed; the wing became shorter, rounder, softer and down-overlaid while the exact title/labels, adults, short supported posture and dry-forest context were retained. Viewed TrueColor 680x453 derivative persisted as blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97; lease renewed.",
+        "2026-10-27T18:07:00.000+08:00: cycle 6 ARCHIVED pending independent readback. Concept/generated/reviewed paths use viewed derivative blob 9992a410ae54cf579090267f6ebc9bbfa8f76e97 (642816 bytes); manifest/status/design/changelog/card/run/workflow rule updated; lease renewed."
       ]
     }
   ],

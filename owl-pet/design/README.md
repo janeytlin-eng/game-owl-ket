@@ -1,3 +1,9 @@
+## 171 · Colima Pygmy-Owl · *Glaucidium palmarum* v1
+
+- [Original PNG](concepts/171-glaucidium-palmarum-v1.png) · 680×453 TrueColor · 642,816 bytes · SHA-256 `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`
+- Git blob `9992a410ae54cf579090267f6ebc9bbfa8f76e97`. NEW concept: near-equal tiny adults and a fully supported age-unknown gray-crowned mesoptile. One targeted edit removed long hard adult-like remiges and crisp spot rows. Independent readback and science pass pending.
+- [Sources](../research/SOURCE_INDEX.md#2026-10-27-171-colima-pygmy-owl--glaucidium-palmarum-v1) · [Run](../production/runs/2026-10-27T1636+0800-cycle-6.md)
+
 ## 170 · Tamaulipas Pygmy-Owl · *Glaucidium sanchezi* v1
 
 - [Original PNG](concepts/170-glaucidium-sanchezi-v1.png) · 680×453 TrueColor · 643,945 bytes · SHA-256 `bbf17194488c6c989152bcb6ba6187e1a284533651eaa11b7700e92eb0cd7478`

@@ -969,3 +969,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Archived new *Glaucidium sanchezi* v1 concept and durable generated/reviewed assets.
 - Added five indexed sources and species research card; historical *G. minutissimum sanchezi* mapped without duplicate count.
 - One targeted edit corrected adult-like juvenile wing structure; science remains pending.
+
+
+## 2026-10-27 — #171 *Glaucidium palmarum* v1
+
+- Added a new Colima Pygmy-Owl archive candidate using four newly indexed sources, including Mikkola printed pp.385–386/PDF pp.387–388 and an opened 2018 Huatulco juvenile photograph.
+- Used an age-unknown, fully supported gray-crowned mesoptile. One targeted edit removed long hard adult-like remiges and crisp white wing rows while preserving exact text, adult identity and dry-forest context.
+- Concept/generated/reviewed paths point to Git blob `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; independent readback pending before count credit. Science remains false.

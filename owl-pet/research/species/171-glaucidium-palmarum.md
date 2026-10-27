@@ -1,6 +1,6 @@
 # #171 Colima Pygmy-Owl — *Glaucidium palmarum* v1
 
-Status: REVIEWED; image generated, edited once and visually passed; archive pending. Scientific verification: false.
+Status: ARCHIVED; independent immutable-tree readback pending. Scientific verification: false.
 
 ## Source facts
 
@@ -23,3 +23,9 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - Applied correction: shortened/rounded/softened the folded juvenile wing, overlaid it with down, removed crisp adult spot rows and kept the tail short and mostly concealed.
 - Reopened edited master and the 680×453 TrueColor derivative. Adult identity, subtle female fullness, supported juvenile posture, exact text and dry western-Mexico habitat passed. Exact juvenile age/flight and confirmed nest remain unknown; science false.
 - Reviewed SHA-256: `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`; Git blob: `9992a410ae54cf579090267f6ebc9bbfa8f76e97`.
+
+## Archive candidate
+
+- Concept: `design/concepts/171-glaucidium-palmarum-v1.png`
+- Reviewed Git blob: `9992a410ae54cf579090267f6ebc9bbfa8f76e97`; 680×453; 642,816 bytes; SHA-256 `43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34`.
+- Independent tree/path readback pending; no scientific-pass claim.

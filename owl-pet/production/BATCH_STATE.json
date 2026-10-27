@@ -4791,59 +4791,31 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "2026-10-27T2126+0800-cycle-3",
+        "heartbeat_at": "2026-10-27T22:28:00.000+08:00",
+        "expires_at": "2026-10-27T22:43:00.000+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 2,
-        "run_id": "2026-10-27T2126+0800-cycle-2",
-        "species": "#119 Megascops centralis",
+        "cycle": 3,
+        "run_id": "2026-10-27T2126+0800-cycle-3",
+        "species": "#120 Megascops ingens",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-27T21:57:00.000+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-27T22:28:00.000+08:00",
         "evidence": {
-          "main_head": "13f6cb067ba429645bfd1b030c332dabb8071a24",
-          "candidate_reason": "#119 v2 latest manifest status says hard cream scallops were reduced but fine geometry remains pending; select focused juvenile mesoptile-pattern revision.",
+          "main_head": "c9c54149a641e7ce37385c305066dc1b642a906a",
+          "candidate_reason": "#120 v2 still records unresolved juvenile age/feather geometry; actual 1536×1024 preflight view shows a fluffy juvenile with long, strongly layered wing feathers. Re-open the 2022 first-chick/nest paper before setting the stage; generation remains pending.",
           "preserved_versions": [
             "v1",
             "v2"
           ],
-          "unique_species_total": 174,
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids_reused": [
-            "CHSO-REYES-ASTUDILLO-2017-PARTIAL",
-            "CHSO-AVIBASE-MAPPING",
-            "CHSO-JORDAN-2012"
-          ],
-          "source_ids_new": [],
-          "source_ids_corrected": [],
-          "fresh_research": "Reopened the primary-study landing/result, Avibase taxonomy and adult-photo/search leads. No new juvenile morphology fact exceeded the existing indexed paper/figure reading, so no duplicate source ID was added.",
-          "design_boundary": "Use the documented age-unknown gray mesoptile individual with fine black bars, formed barred remiges, zero measured tail, gray/pale-tip bill and supported cavity posture. Yellow iris is individual A, not universal. Exact age/sex/flight/geometry remain unknown.",
-          "full_prompt_saved": "owl-pet/research/species/119-megascops-centralis-v3.md",
-          "generated": {
-            "blob": "0510f656c77cc8b6eda9444a4887290c220e1cc7",
-            "bytes": 3627969,
-            "sha256": "03ddae908f5f55151fb95db2aedb7111903eb054a309ba3bc0eecb5c16ca7865"
-          },
-          "reviewed": {
-            "blob": "eeeed9b583081409e139b9f0ea3839042e314b7e",
-            "bytes": 3281682,
-            "sha256": "54b760e1197314ce51db18456c066356404ae070ba57220b8d60bc608b7eacd0",
-            "edit_calls": 1,
-            "result": "PASS: juvenile repeated arcs removed; sparse irregular fine dark marks on fluffy gray contour; formed barred wings, zero-tail silhouette, supported feet/text/adults retained; adult tufts reduced."
-          },
-          "concept_path": "owl-pet/design/concepts/119-megascops-centralis-v3.png",
-          "scientifically_verified": false,
-          "archive_commit": "bd053661476522be11844cb7bd002c47acfda758",
-          "commit_pinned_readback": {
-            "concept": true,
-            "edited_master": true,
-            "manifest": true,
-            "run": true,
-            "batch": true
-          }
+          "unique_species_total": 174
         }
       },
-      "last_updated_at": "2026-10-27T21:57:00.000+08:00",
+      "last_updated_at": "2026-10-27T22:28:00.000+08:00",
       "audit_notes": [
         "2026-10-27T21:27:00.000+08:00: new batch cycle 1 STARTED for existing #117 Otus manadensis v4 SCIENCE_REVISION after latest-version audit rejected #109 because v8 already closed the toe-feather target. Current #117 v3 retains residual repetitive juvenile wing-edge scallops. Lease expires 2026-10-27T21:42:00.000+08:00.",
         "2026-10-27T21:31:00.000+08:00: preflight correction: #117 v4 target was stale; #117 v8 is already archived/verified (archive 35d48a0b45817c14dbab044e28957bfeafde7e0c), so no #117 generation occurred. Cycle 1 retargeted to explicit unresolved #116 Margarobyas lawrencii v3 crown-pattern calibration. RESEARCH_READY with 5 reused source IDs, 0 new, 0 corrected; source index reused without duplicate entries. Lease renewed to 2026-10-27T21:46:00.000+08:00.",
@@ -4854,7 +4826,8 @@
         "2026-10-27T21:45:00.000+08:00: cycle 2 STARTED for #119 Megascops centralis v3 SCIENCE_REVISION. Latest v2 explicitly leaves fine juvenile mesoptile geometry pending after only partial scallop reduction. Lease expires 2026-10-27T22:00:00.000+08:00.",
         "2026-10-27T21:48:00.000+08:00: cycle 2 RESEARCH_READY for #119 v3; reused 3 indexed sources, new0/corrected0 after fresh search/read; full prompt and boundary saved. Lease renewed to 2026-10-27T22:03:00.000+08:00.",
         "2026-10-27T21:54:00.000+08:00: cycle2 IMAGE_GENERATED then REVIEWED after one targeted edit; ARCHIVED prepared. Initial repeated juvenile arcs failed review; edit removed them and reduced adult tufts. Concept blob eeeed9b583081409e139b9f0ea3839042e314b7e; independent readback pending.",
-        "2026-10-27T21:57:00.000+08:00: cycle2 VERIFIED at bd053661476522be11844cb7bd002c47acfda758; concept and edited master resolve to eeeed9b583081409e139b9f0ea3839042e314b7e; batch 2/6 next_cycle3; unique174/251; lease released."
+        "2026-10-27T21:57:00.000+08:00: cycle2 VERIFIED at bd053661476522be11844cb7bd002c47acfda758; concept and edited master resolve to eeeed9b583081409e139b9f0ea3839042e314b7e; batch 2/6 next_cycle3; unique174/251; lease released.",
+        "2026-10-27T22:28:00.000+08:00: cycle3 STARTED for #120 Megascops ingens v3 SCIENCE_REVISION after full-tree/version audit. Actual v2 view shows long strongly layered juvenile wing feathers while its manifest still leaves age/feather geometry unresolved. Research must re-open the 2022 first-chick/nest paper before choosing stage. Lease expires 2026-10-27T22:43:00.000+08:00."
       ]
     }
   ],

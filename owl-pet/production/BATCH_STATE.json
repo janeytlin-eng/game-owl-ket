@@ -4685,30 +4685,29 @@
       "next_cycle": 5,
       "active_lease": {
         "owner": "codex-owl-production",
-        "run_id": "2026-10-27T1836+0800-cycle-4",
-        "heartbeat_at": "2026-10-27T19:56:00.000+08:00",
-        "expires_at": "2026-10-27T20:11:00.000+08:00"
+        "run_id": "2026-10-27T1836+0800-cycle-5",
+        "heartbeat_at": "2026-10-27T19:16:26.325+08:00",
+        "expires_at": "2026-10-27T19:31:26.325+08:00"
       },
       "cycle_checkpoint": {
-        "cycle": 4,
-        "run_id": "2026-10-27T1836+0800-cycle-4",
-        "species": "#107 Strix fulvescens",
+        "cycle": 5,
+        "run_id": "2026-10-27T1836+0800-cycle-5",
+        "species": "#08 Strix nebulosa",
         "version": 4,
-        "action": "REVISION_RECOVERY",
-        "stage": "VERIFIED",
-        "at": "2026-10-27T19:11:07.940+08:00",
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-27T19:16:26.325+08:00",
         "evidence": {
-          "archive_commit": "66dcf5a19ee8a3dc94990ddcd6e879c1a85e8e3e",
-          "concept_blob": "9c7bae510567949fac5ee3c4c7747598f43468bf",
-          "generated_blob": "142dd1e74c6ff43627aebcdba0a9dc917f176b75",
-          "edited_master_blob": "d633d6db86833df54bb7bc4343ca5147a0a8c8ec",
-          "manifest_blob": "8ad74a27e61125e351fcd3d5ec6fa6c0c7ff9baf",
-          "verification": "Remote concept/reviewed/generated/edited blobs, manifest entry, research card, run and ARCHIVED batch checkpoint read back from immutable archive commit.",
-          "unique_species_total": 174,
-          "next_cycle": 5
+          "head_before": "490dd089ae812edabc06f51ade87c7e7de0cd371",
+          "prior_versions": [
+            "v1",
+            "v2",
+            "v3"
+          ],
+          "note": "Existing #08 and all prior versions retained; stale cycle-4 nested lease was the same executor's already-VERIFIED run and is replaced, not treated as concurrent work."
         }
       },
-      "last_updated_at": "2026-10-27T19:56:00.000+08:00",
+      "last_updated_at": "2026-10-27T19:16:26.325+08:00",
       "audit_notes": [
         "2026-10-27T18:36:00.000+08:00: cycle 1 STARTED for unarchived candidate #172 Tyto castanops v1 after main/manifest/name audit; no active lease or incomplete batch. IOC v15.2-style checklist treatment is split, while BirdLife/Australian authorities often retain T. novaehollandiae castanops; taxonomic conflict must be preserved in RESEARCH_READY. Lease expires 2026-10-27T18:51:00.000+08:00.",
         "2026-10-27T18:38:00.000+08:00: cycle 1 RESEARCH_READY for #172 Tyto castanops v1; 5 sources actually read/indexed. IOC split and BirdLife/Australian lump conflict preserved; white/cream advanced nestling selected with no exact-age/flight claim. Full prompt persisted; lease expires 2026-10-27T18:53:00.000+08:00.",
@@ -4729,7 +4728,8 @@
         "2026-10-27T19:45:00.000+08:00: cycle 3 VERIFIED NEW #174 Strix sartorii v1; archive aae8cebfa33dc9278014eb0e6b97eb149c01314c, concept/reviewed blob 63ed6aad79e1312b79723338b516d38280ce7b97, master ce5d721e69b3149c8ce795987ef6215e47e762a2; immutable tree, 5 source IDs and metadata readback passed. Unique 173→174/251; next_cycle 4; lease released.",
         "2026-10-27T19:48:00.000+08:00: cycle 4 STARTED for unarchived #175 Strix fulvescens v1; no manifest name/#175 match; existing #107 knowledge card must be reconciled without reusing its number as production identity. Lease expires 2026-10-27T20:03:00.000+08:00.",
         "2026-10-27T19:52:00.000+08:00: cycle 4 preflight corrected candidate #175 to existing project identity #107 Strix fulvescens v3 after reading knowledge card and finding v1/v2 concept files. No production credit or new image existed under #175. Action is REVISION_RECOVERY; old versions retained; lease expires 2026-10-27T20:07:00.000+08:00.",
-        "2026-10-27T19:56:00.000+08:00: cycle 4 corrected again to #107 v4 after recursive tree found v3; 1 new/4 reused sources indexed, full prompt persisted. Exact juvenile age/flight/feather sequence and sex ratio remain unknown; lease expires 2026-10-27T20:11:00.000+08:00."
+        "2026-10-27T19:56:00.000+08:00: cycle 4 corrected again to #107 v4 after recursive tree found v3; 1 new/4 reused sources indexed, full prompt persisted. Exact juvenile age/flight/feather sequence and sex ratio remain unknown; lease expires 2026-10-27T20:11:00.000+08:00.",
+        "2026-10-27T19:16:26.325+08:00: cycle 5 STARTED for existing #08 Strix nebulosa v4 SCIENCE_REVISION after tree/knowledge audit found v1-v3 and preserved prior user-approved/archived history. Same-executor cycle-4 nested lease was stale relative to VERIFIED checkpoint and replaced. Lease expires 2026-10-27T19:31:26.325+08:00."
       ]
     }
   ],
@@ -4815,7 +4815,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T19:56:00.000+08:00",
+  "updated_at": "2026-10-27T19:16:26.325+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4823,7 +4823,12 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
+  "active_lease": {
+    "owner": "codex-owl-production",
+    "run_id": "2026-10-27T1836+0800-cycle-5",
+    "heartbeat_at": "2026-10-27T19:16:26.325+08:00",
+    "expires_at": "2026-10-27T19:31:26.325+08:00"
+  },
   "last_updated_at": "2026-10-27T19:56:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",

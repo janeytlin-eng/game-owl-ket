@@ -4144,3 +4144,10 @@ Links: [research card](species/173-otus-madagascariensis.md), [run](../productio
 | CYSO-BIRDLIFE-CYPRUS-2026 | [Cyprus Scops Owl](https://birdlifecyprus.org/cyprus-scops-owl/) | BirdLife Cyprus | current page; accessed 2026-10-27 | Institutional species page | current species; habitat/nesting | 19–21 cm; olive/conifer hollows, nest boxes; forests, farms, villages and olive groves | No juvenile plumage or sex measurements; habitat only. |
 
 Reused: CYSO-SOUNDAPPROACH-2013PHOTOS (actual fledged-young photos/captions reread) and CYSO-FLINT-2015 (PubMed abstract freshly reread; repository pp.309–310 evidence reused). Design preserves formed barred juvenile wing and real pale marks, but removes mechanical repeated texture and unsupported rigid adult-like geometry. Exact age/bar spacing/flight threshold/sex scale remain unknown; science false. [Research card](species/111-otus-cyprius-v3.md); [run](../production/runs/2026-10-27T2126+0800-cycle-5.md).
+
+
+## 2026-10-27 — #129 Yungas Screech-Owl · *Megascops hoyi* v3
+
+- `HOY-COMMONS-INAT-2016` — Hugo Hulsberg / iNaturalist via Wikimedia Commons, adult photograph, Valle Grande, Jujuy, Argentina, 2016-07-01. URL: https://commons.wikimedia.org/wiki/File:Montane_Forest_Screech-Owl_iNaturalist.jpg (accessed 2026-10-27). File metadata and current page read. Supports adult real-photo morphology/locality only; no juvenile, sex or sequence evidence. Reliability: useful field-photo record with public observation identification; not a development study. Design link: research/species/129-megascops-hoyi-v3.md.
+- `HOY-KOENIG-2000` correction — current Owl Pages image endpoint is https://www.owlpages.com/owls/species.php?i=233 (accessed 2026-10-27), not the older indexed i=232. Caption confirms brown-morph male in Calilegua NP, Argentina, c.1400 m, September 2000. Adult field-photo use only.
+- Reused `HOY-MIK2013-228` and `HOY-SIB-ARG`; no duplicate source IDs created. Mikkola printed p.228 / PDF p.230 was freshly read and its page pixels viewed. Juvenile bound to adult-like but fluffy, tuftless fledgling; exact age/wing sequence remains unknown.

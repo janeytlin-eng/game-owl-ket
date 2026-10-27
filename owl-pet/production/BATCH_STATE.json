@@ -4401,30 +4401,23 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "species": "Strix hadorami",
-        "species_id": 164,
-        "version": 1,
-        "run_id": "2026-10-27T1335+0800-cycle-5",
-        "at": "2026-10-27T15:42:00.000+08:00",
-        "run_record": "owl-pet/production/runs/2026-10-27T1335+0800-cycle-5.md",
-        "evidence": {
-          "archive_commit": "f4de848f88d4dd33ee7158cadcb22c8e5d796c64",
-          "concept_blob": "d2cf312ef5bd620242d59721c882ce367f69863b",
-          "asset_blob": "d2cf312ef5bd620242d59721c882ce367f69863b",
-          "size_bytes": 753743,
-          "sha256": "c3b40c1c027b8b02547496818f1abac1e47aa5867f6f2215d69b1db86113cd8b",
-          "manifest_readback": true,
-          "paths_readback": true,
-          "tree_readback": true,
-          "scientifically_verified": false,
-          "unique_species_total": 164
-        }
+      "active_lease": {
+        "owner": "2026-10-27T1335+0800-cycle-6",
+        "run_id": "2026-10-27T1335+0800-cycle-6",
+        "heartbeat_at": "2026-10-27T15:40:30.000+08:00",
+        "expires_at": "2026-10-27T15:55:30.000+08:00"
       },
-      "last_updated_at": "2026-10-27T15:42:00.000+08:00",
+      "cycle_checkpoint": {
+        "cycle": 6,
+        "stage": "STARTED",
+        "species": "Ninox punctulata",
+        "species_id": 165,
+        "version": 1,
+        "run_id": "2026-10-27T1335+0800-cycle-6",
+        "at": "2026-10-27T15:40:30.000+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-27T1335+0800-cycle-6.md"
+      },
+      "last_updated_at": "2026-10-27T15:40:30.000+08:00",
       "audit_notes": [
         "2026-10-27T13:35:07.000+08:00: cycle 1 STARTED for unarchived #162 Glaucidium hoskinsii v1; no active lease or incomplete batch. Project number 162 is reused only after canonical duplicate correction; current unique total 161/251. Lease expires 2026-10-27T13:50:07.000+08:00.",
         "2026-10-27T13:39:00.000+08:00: cycle 1 RESEARCH_READY; 3 sources read/indexed. The 2025 primary nest record supports a near-fledged palm-cavity chick; Mikkola adult facts and IOC current naming applied. Exact chick day/iris/flight, continuous feather sequence and quantified sex ratio remain unknown; lease renewed.",
@@ -4455,7 +4448,8 @@
         "2026-10-27T15:37:00.000+08:00: cycle 5 IMAGE_GENERATED; durable initial asset blob 8c38337c8ab943c76ecaaac9d4e9e83fa8101732; original-resolution review passed text/adults/habitat/support but found adult-style juvenile wing, requiring one targeted edit; lease renewed.",
         "2026-10-27T15:38:00.000+08:00: cycle 5 REVIEWED PASS after one juvenile-wing edit; durable reviewed blob d2cf312ef5bd620242d59721c882ce367f69863b; adults/text/diagnosis/support preserved; science false; lease renewed.",
         "2026-10-27T15:40:00.000+08:00: cycle 5 ARCHIVED pending independent readback; concept/reviewed asset use blob d2cf312ef5bd620242d59721c882ce367f69863b; indexes and run updated; lease renewed.",
-        "2026-10-27T15:42:00.000+08:00: cycle 5 VERIFIED NEW #164 Strix hadorami v1; archive f4de848f88d4dd33ee7158cadcb22c8e5d796c64, blob d2cf312ef5bd620242d59721c882ce367f69863b, both paths and manifest/run/tree readback passed. Unique species 163→164/251; next_cycle 6; lease released."
+        "2026-10-27T15:42:00.000+08:00: cycle 5 VERIFIED NEW #164 Strix hadorami v1; archive f4de848f88d4dd33ee7158cadcb22c8e5d796c64, blob d2cf312ef5bd620242d59721c882ce367f69863b, both paths and manifest/run/tree readback passed. Unique species 163→164/251; next_cycle 6; lease released.",
+        "2026-10-27T15:40:30.000+08:00: cycle 6 STARTED for unarchived #165 Ninox punctulata v1; manifest scientific-name check passed; 15-minute lease acquired through 2026-10-27T15:55:30.000+08:00."
       ]
     }
   ],

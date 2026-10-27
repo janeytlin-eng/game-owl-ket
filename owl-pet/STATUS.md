@@ -1624,3 +1624,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Concept: [177-otus-hartlaubi-v1.png](design/concepts/177-otus-hartlaubi-v1.png). Downy chick, exact age, juvenile iris chronology, wing/tail sequence, flight threshold and nest geometry remain unknown. Science false; independent readback pending.
 
 - 2026-10-28T03:48:50.020+08:00 — #177 *Otus hartlaubi* v1 independently verified at archive `c404c4ecaf832e9c39cb01ceecb750633099b6ee`; concept `f8a38c7c…`, generated `77b0699a…`, reviewed `47f11f14…`, plus manifest/source/card/run/state were read back at the immutable commit. Unique total **177/251**; batch 2/6, next cycle 3. Science false.
+
+
+## 2026-10-28 #178 *Otus insularis* v1
+
+- Result: NEW ARCHIVED; provisional unique species **178/251** pending immutable readback.
+- Image: [design/concepts/178-otus-insularis-v1.png](design/concepts/178-otus-insularis-v1.png)
+- Research: Mikkola printed p.138/PDF p.140 plus Currie et al. 2004 breeding paper and Currie et al. 2002 biometric study. Three stable source IDs added.
+- Review: first generation passed original-resolution and 680×453 checks; no edit. Adults share plumage, female is moderately fuller; fully bare long tarsi/toes retained. Older adult-like juvenile is supported beside a simple cavity; exact age, iris chronology, feather sequence, flight threshold and nest lining remain unknown. Science false; commit-pinned readback pending.

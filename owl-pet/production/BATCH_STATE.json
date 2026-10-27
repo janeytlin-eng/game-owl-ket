@@ -5045,8 +5045,8 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "2026-10-28T0230+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T03:54:53.033+08:00",
-        "expires_at": "2026-10-28T04:09:53.033+08:00"
+        "heartbeat_at": "2026-10-28T04:33:50.000+08:00",
+        "expires_at": "2026-10-28T04:48:50.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -5054,24 +5054,18 @@
         "species": "#178 Otus insularis",
         "version": 1,
         "action": "NEW",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T03:51:10.143+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T04:33:50.000+08:00",
         "evidence": {
+          "concept_blob": "4ea9d2d20a880f82f187f2ed40680b9255a90729",
+          "generated_blob": "44dd233361128799106314b94fae840b8a01217e",
+          "reviewed_blob": "44dd233361128799106314b94fae840b8a01217e",
           "sources_new": 3,
-          "sources_reused": 0,
-          "sources_corrected": 0,
-          "source_ids": [
-            "SSCO-MIKKOLA-2013-P138",
-            "SSCO-CURRIE-2004-BREEDING",
-            "SSCO-CURRIE-2002-SIZE"
-          ],
-          "guide_page": "printed p.138 / PDF p.140",
-          "design_boundary": "older adult-like but softer juvenile; supported cavity context; exact plumage/iris/flight/nest lining unknown",
-          "scientifically_verified": false,
-          "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-3.md"
+          "run_record": "owl-pet/production/runs/2026-10-28T0230+0800-cycle-3.md",
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T03:51:10.143+08:00",
+      "last_updated_at": "2026-10-28T04:33:50.000+08:00",
       "audit_notes": [
         "2026-10-28T02:30:30.000+08:00: cycle1 STARTED for unarchived #176 Otus pembaensis v1 after current batch/manifest-name audit. Mikkola printed p.135/PDF p.137 is accessible; downy chick remains undescribed, so only the described mesoptile may be used. Lease expires 2026-10-28T02:45:30.000+08:00.",
         "2026-10-28T02:34:00.000+08:00: cycle1 #176 Otus pembaensis v1 RESEARCH_READY; 3 new sources read/indexed. Mikkola p.135/PDF137 and African Bird Club adult pixels viewed; current/old-name mapping read in Avibase. Only the described mesoptile is authorized; full prompt persisted; science false. Lease renewed to 02:49.",
@@ -5080,15 +5074,16 @@
         "2026-10-28T03:42:45.313+08:00: cycle2 #177 Otus hartlaubi v1 RESEARCH_READY; 3 new sources read/indexed, full prompt persisted. Only Mikkola-described paler finely barred mesoptile authorized; science false.",
         "2026-10-28T03:48:50.020+08:00: cycle2 VERIFIED #177 Otus hartlaubi v1 at archive c404c4ecaf832e9c39cb01ceecb750633099b6ee; unique 177/251; next_cycle3; lease released.",
         "2026-10-28T03:49:26.643+08:00: cycle3 STARTED #178 Otus insularis v1 after manifest/source-index name search found no prior archive; lease acquired.",
-        "2026-10-28T03:51:10.143+08:00: cycle3 #178 Otus insularis v1 RESEARCH_READY; 3 new sources read/indexed; adult-like older juvenile boundary and full prompt persisted; science false."
+        "2026-10-28T03:51:10.143+08:00: cycle3 #178 Otus insularis v1 RESEARCH_READY; 3 new sources read/indexed; adult-like older juvenile boundary and full prompt persisted; science false.",
+        "2026-10-28T04:33:50.000+08:00: cycle3 #178 Otus insularis v1 ARCHIVED with concept blob 4ea9d2d20a880f82f187f2ed40680b9255a90729 after expired-lease recovery; immutable readback pending; science false."
       ],
       "checkpoint": {
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species_id": 178,
         "species": "Otus insularis",
         "version": 1,
         "action": "NEW",
-        "at": "2026-10-28T03:51:10.143+08:00",
+        "at": "2026-10-28T04:33:50.000+08:00",
         "source_ids": [
           "SSCO-MIKKOLA-2013-P138",
           "SSCO-CURRIE-2004-BREEDING",
@@ -5108,7 +5103,12 @@
         "reviewed_size_bytes": 574681,
         "reviewed_commit": "36fb976b7caf7bdddc3001a8649dc8fc5a63a759",
         "edit_count": 0,
-        "review_result": "PASS first generation: exact text/count; adult bare legs, size direction and markings; older adult-like softer juvenile with dark eyes and full support beside simple cavity; science false."
+        "review_result": "PASS first generation: exact text/count; adult bare legs, size direction and markings; older adult-like softer juvenile with dark eyes and full support beside simple cavity; science false.",
+        "concept_path": "owl-pet/design/concepts/178-otus-insularis-v1.png",
+        "concept_blob": "4ea9d2d20a880f82f187f2ed40680b9255a90729",
+        "concept_sha256": "ae7b2e63f18030b44fdd81055845e147dcb2b63635a38c04762d0ccf4fbf45c3",
+        "concept_size_bytes": 705057,
+        "archive_readback": "pending"
       }
     }
   ],
@@ -5215,8 +5215,8 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "2026-10-28T0230+0800-cycle-3",
-    "heartbeat_at": "2026-10-28T03:54:53.033+08:00",
-    "expires_at": "2026-10-28T04:09:53.033+08:00"
+    "heartbeat_at": "2026-10-28T04:33:50.000+08:00",
+    "expires_at": "2026-10-28T04:48:50.000+08:00"
   },
   "last_updated_at": "2026-10-28T03:54:53.033+08:00",
   "audit_notes": [

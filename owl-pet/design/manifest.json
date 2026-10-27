@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T03:48:50.020+08:00",
+  "updated": "2026-10-28T04:33:50.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -4660,6 +4660,34 @@
       "archive_note": "Built-in imagegen generated a full master; one targeted edit shortened and softened juvenile wings/tail while preserving adults, exact text and support. Original 1536x1024 reviewed image and 680x453 concept derivative were opened. Commit-pinned readback at c404c4ec verified concept f8a38c7c, generated 77b0699a, reviewed 47f11f14 and manifest/source/card/run/state records. Scientific verification remains false.",
       "archive_commit": "c404c4ecaf832e9c39cb01ceecb750633099b6ee",
       "verified_at": "2026-10-28T03:48:50.020+08:00"
+    },
+    {
+      "id": "178-otus-insularis-v1",
+      "path": "design/concepts/178-otus-insularis-v1.png",
+      "species_id": 178,
+      "scientific_name": "Otus insularis",
+      "historical_names": [
+        "Gymnoscops insularis"
+      ],
+      "common_name": "Seychelles Scops Owl",
+      "version": 1,
+      "sha256": "ae7b2e63f18030b44fdd81055845e147dcb2b63635a38c04762d0ccf4fbf45c3",
+      "scientifically_verified": false,
+      "status": "NEW evidence-bounded concept. Adults use the same plumage; female is moderately fuller/heavier per primary biometric evidence. Tiny/hidden tufts, yellow-green eyes, dark-tipped grey-yellow bill, white-spotted black-streaked crown, scapular shoulder band, broad ventral streaks and fully bare long tarsi/toes follow Mikkola. Older juvenile is slightly softer/paler and adult-like, neutral-dark shaded iris, fully supported beside a simple high cavity. No downy chick, exact age, iris chronology, feather sequence, flight threshold or nest lining is inferred.",
+      "source_ids": [
+        "SSCO-MIKKOLA-2013-P138",
+        "SSCO-CURRIE-2004-BREEDING",
+        "SSCO-CURRIE-2002-SIZE"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--178-seychelles-scops-owl--otus-insularis-v1-evidence-increment",
+      "run_record": "production/runs/2026-10-28T0230+0800-cycle-3.md",
+      "git_blob": "4ea9d2d20a880f82f187f2ed40680b9255a90729",
+      "reviewed_at": "2026-10-28T04:33:50.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 705057,
+      "archive_note": "First built-in imagegen generation passed original-resolution and 680×453 derivative review without edit. The older adult-like juvenile is bounded by the only guide statement; no downy or exact-age detail is invented. Commit-pinned readback pending. Scientific verification remains false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
   "updated_at": "2026-10-28T02:28:00.000+08:00"

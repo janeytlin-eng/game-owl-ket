@@ -1,0 +1,32 @@
+# #172 Tasmanian Masked Owl — *Tyto castanops* v1
+
+Status: RESEARCH_READY; scientific verification: false.
+
+## Taxonomy boundary
+
+The project follows the IOC v15.2 split name *Tyto castanops*. BirdLife International, Australian Museum and ABSA retain the Tasmanian population as *Tyto novaehollandiae castanops*. The older/subspecies mapping is preserved rather than treated as an error.
+
+## Source facts
+
+1. **TMO-MIKKOLA-2013-P110** — Mikkola 2013, printed p.110 / uploaded PDF p.112: largest *Tyto*; female darker/larger, sometimes nearly twice male mass; two white down coats; immature darker than adult; dark eyes, feathered legs, powerful feet.
+2. **TMO-ABSA-2019-P2** — ABSA/HANZAB 2019 p.2: sexed wing/mass ranges for *castanops*; females significantly larger/darker; most nestling down lost by fledging, traces may remain about a month; most fledglings adult-like and darker.
+3. **TMO-AUSMUSEUM-2024** — Australian Museum, updated 2024-07-23: adult disc/plumage, female direction, white/cream young, tall hollow trees and deep bare chamber with soft debris; complex-wide evidence.
+4. **TMO-AVIBASE-IOC15.2-2026** — Avibase IOC v15.2-mode checklist: *Tyto castanops* split treatment.
+5. **TMO-BIRDLIFE-2026** — BirdLife DataZone: retained *T. novaehollandiae* treatment, recorded as conflicting authority.
+
+## Design inference
+
+Use a white-to-cream advanced nestling still at the hollow lip, fully supported and explicitly non-flying. This avoids combining ABSA’s darker adult-like fledgling with Mikkola/Australian Museum downy-young evidence. Adult male is smaller/paler; female markedly larger/darker. Exact age and flight threshold remain unknown.
+
+## Full imagegen prompt
+
+Create one polished horizontal 3:2 natural-history concept plate for the owl electronic-pet project in the established semi-realistic painterly gouache/watercolor style. Title exactly: “TASMANIAN MASKED OWL · Tyto castanops”. Show exactly three complete birds, fully inside frame and naturally supported, left-to-right with labels exactly: “ADULT MALE”, “JUVENILE — ADVANCED NESTLING”, “ADULT FEMALE”. The two adults are very large robust Tyto owls with broad heart-shaped facial discs, no ear tufts, dark brown eyes, pale horn bills, fully feathered strong legs, powerful feet and long dark talons. Adult male is clearly but not absurdly smaller and paler: gray-brown to pale chestnut upperparts with irregular white/gray speckling, pale buff facial disc edged dark chestnut-black, pale buff-white underparts with sparse brown speckles. Adult female is markedly larger, broader and darker: deep chocolate-brown to chestnut upperparts with stronger pale speckling, broad rich chestnut facial disc with a dark rim, darker warm-buff underparts with heavier brown spotting. Center juvenile is an evidence-bounded advanced nestling near fledging but still non-flying: white-to-cream first/second down over the whole body, very round fluffy contour, dark eyes and pale bill, short rounded developing wings mostly hidden beneath soft down with no long layered adult remiges, no adult facial-disc rim, tail absent or completely concealed; crouched safely at the broad lip of a deep old eucalypt-tree hollow with belly and both feet fully supported on decayed wood debris. Place adults on stout adjacent eucalypt branches framing the hollow; mature Tasmanian wet/dry eucalypt woodland mosaic at dusk, large senescent hollow-bearing tree, subdued natural colors. Do not show eggs, prey, extra birds, flight, exposed unsupported feet, a freestanding chick, mature juvenile wing or tail, Barn Owl proportions, exaggerated fantasy markings, or any text beyond the exact title and three labels.
+
+## Review checklist
+
+- Exactly three birds and exact title/labels.
+- Adult male visibly smaller/paler; female larger/darker without grotesque scale.
+- Juvenile entirely supported at cavity lip; white/cream down; no mature remiges/tail.
+- Broad dark-edged Tyto discs, dark eyes, feathered legs, powerful feet.
+- Mature hollow-bearing eucalypt setting; no eggs/prey/invented nest contents.
+- Scientific verification remains false.

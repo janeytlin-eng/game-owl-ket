@@ -1,6 +1,6 @@
 # #172 Tasmanian Masked Owl — *Tyto castanops* v1
 
-Status: RESEARCH_READY; scientific verification: false.
+Status: REVIEWED; scientific verification: false.
 
 ## Taxonomy boundary
 
@@ -30,3 +30,10 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - Broad dark-edged Tyto discs, dark eyes, feathered legs, powerful feet.
 - Mature hollow-bearing eucalypt setting; no eggs/prey/invented nest contents.
 - Scientific verification remains false.
+
+## Image review
+
+- Initial 1536×1024 image passed original-resolution review with no edit.
+- Exact title/labels and three-bird count passed. Male is smaller/paler, female larger/darker; adult dark eyes, discs, feathered legs and powerful feet are coherent. The center advanced nestling is white/cream, lacks mature remiges and tail, and is fully supported at an old eucalypt hollow lip.
+- Viewed 680×453 TrueColor derivative also passed. Master Git blob: `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac`; reviewed Git blob: `4022b7681cbadaeb909b521f7f9f7a7e51cffa95`.
+- Exact juvenile age/flight threshold remain unknown; scientific verification false.

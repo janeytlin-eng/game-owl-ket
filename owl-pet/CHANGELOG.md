@@ -983,3 +983,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added the first Tasmanian Masked Owl concept, five indexed sources and a species card.
 - Preserved the IOC v15.2 split name alongside BirdLife/Australian `T. novaehollandiae castanops` treatment, avoiding a silent taxonomy rewrite.
 - First output passed original and derivative visual review without edit. Adult sex-size/colour direction and a fully supported white/cream advanced nestling are evidence-bounded; exact age/flight remain unknown. Science false.
+
+
+## 2026-10-27 — #173 *Otus madagascariensis* v1
+
+- Added the first Torotoroka Scops Owl concept, four indexed sources and a species card.
+- Preserved the IOC split name alongside Clements/eBird `O. rutilus madagascariensis` treatment. Mikkola's described older immature was used; a rare egg-only ground nest was not turned into a juvenile scene.
+- Initial output had ear tufts too tall/prominent. One targeted edit reduced them while preserving exact text/count, full branch support, restrained female size and evidence-bounded juvenile tail/wing cues. Science false.

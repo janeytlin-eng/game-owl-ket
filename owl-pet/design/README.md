@@ -1361,3 +1361,11 @@ Revision generated and visually reviewed after one juvenile-wing edit. A 35-day 
 - Original 1536×1024 master and 680×453 TrueColor derivative were actually viewed; no edit required. Male/female direction and the fully supported downy nestling passed.
 - IOC split / BirdLife-Australian lump conflict is explicit; exact nestling age/flight threshold remain unknown; science pending.
 - Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/172-tyto-castanops.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-1.md)
+
+
+### #173 Torotoroka Scops Owl · *Otus madagascariensis* · v1
+
+- [173-otus-madagascariensis-v1.png](concepts/173-otus-madagascariensis-v1.png) — gray-morph adult male, age-unknown older immature, adult female in dry western/southwestern Madagascar forest-edge context.
+- Initial master revealed overlong ear tufts. One targeted edit reduced/shortened all three tufts; edited master and 680×453 TrueColor derivative were actually viewed and passed.
+- IOC split / Clements-eBird lump conflict is explicit; exact juvenile age/flight ability remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [card](../research/species/173-otus-madagascariensis.md) · [run](../production/runs/2026-10-27T1836+0800-cycle-2.md)

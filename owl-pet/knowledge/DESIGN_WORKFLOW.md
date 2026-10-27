@@ -482,3 +482,8 @@ A front-facing fluffy juvenile can appear stage-correct at head and breast while
 ### Applied and checked — taxonomic authority conflicts stay visible (2026-10-27, #172)
 
 When the project scope follows a split checklist but conservation and national sources retain a subspecies, keep both treatments in the card/manifest and use one project identity only. #172 follows IOC v15.2 *Tyto castanops* while mapping BirdLife/Australian *T. novaehollandiae castanops* and original *Strix castanops*. This prevents a future duplicate and avoids presenting authority disagreement as a settled correction. The generated plate also demonstrates a separate developmental boundary: conflicting “white/cream young” and adult-like darker fledgling evidence was resolved by showing a fully supported, explicitly non-flying advanced nestling rather than inventing an exact age. Both master and derivative passed review for this image only; science remains false.
+
+
+### Diagnostic modifiers must remain proportional (2026-10-27, #173)
+
+A comparative diagnosis such as “relatively short ear tufts” must be checked as a proportion, not merely as presence/absence. #173's first render contained the correct species, palette, labels, count and developmental boundary but exaggerated all three tufts. A targeted edit shortened/reduced only those tufts; the edited master and review derivative then passed. This is one actual application, not yet a universal validation. Exact juvenile age/flight ability and the IOC/Clements split-lump conflict remain explicit unknowns.

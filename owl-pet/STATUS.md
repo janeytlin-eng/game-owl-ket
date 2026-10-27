@@ -1423,3 +1423,13 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Exact juvenile age, flight threshold and continuous feather sequence remain unknown; `scientifically_verified=false`.
 
 - 2026-10-27 18:53 +0800 — #172 *Tyto castanops* v1 independently verified at archive commit `17fb8d4617e8464090bc6d46545e39942e4bc59d`; concept/reviewed path resolves to `4022b7681cbadaeb909b521f7f9f7a7e51cffa95` (656,410 bytes) and original master to `0dd3bb28a782438b4bffa49b89aa0ba74c7f6aac` (3,323,696 bytes). Unique archived species is 172/251; batch 1/6, next cycle 2; science pending.
+
+
+## 2026-10-27 #173 *Otus madagascariensis* v1
+
+- Result: NEW concept ARCHIVED, independent readback pending; unique species remains 172/251 until VERIFIED.
+- Image: [design/concepts/173-otus-madagascariensis-v1.png](design/concepts/173-otus-madagascariensis-v1.png)
+- Reviewed blob `3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc`; 680×453 TrueColor; 668,345 bytes; SHA-256 `1c0c11c79805abcc9489602f6bc7c54d561c7e5b9729318abf19692838c4e289`.
+- Research: 4 indexed sources. Mikkola printed p.145/PDF p.147 bounds short tufts, gray morph and an age-unknown older immature; the 2009 primary nest paper documents tree-hole nest heights and one rare egg-only ground nest, which was excluded from the juvenile scene.
+- Review: one targeted ear-tuft edit; exact juvenile age/flight ability and IOC split versus Clements/eBird lump remain unresolved; science false.
+- Run: [production/runs/2026-10-27T1836+0800-cycle-2.md](production/runs/2026-10-27T1836+0800-cycle-2.md)

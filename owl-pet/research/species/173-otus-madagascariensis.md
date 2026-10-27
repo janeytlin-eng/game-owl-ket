@@ -1,6 +1,6 @@
 # #173 Torotoroka Scops Owl — *Otus madagascariensis* v1
 
-Status: REVIEWED; scientific verification: false.
+Status: ARCHIVED; scientific verification: false.
 
 ## Taxonomy boundary
 
@@ -35,3 +35,8 @@ Create one polished horizontal 3:2 natural-history concept plate for the owl ele
 - One targeted edit reduced/shortened all three tufts without altering identity, labels, number, support, adult scale, juvenile stage boundary, or habitat.
 - Edited master blob `7d4bfe873126bc35c50176138d11a5c847a1469c`; reviewed derivative blob `3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc`.
 - REVIEWED PASS; scientific verification remains false because exact immature age/flight capability is unknown and checklist split/lump treatment conflicts.
+
+## Archive — 2026-10-27T19:17:00.000+08:00
+
+- Concept path: `design/concepts/173-otus-madagascariensis-v1.png` → reviewed blob `3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc`.
+- Initial and edited masters are retained under the run asset directory; manifest entry is pending independent immutable-tree readback.

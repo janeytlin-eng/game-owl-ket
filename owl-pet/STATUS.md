@@ -1469,3 +1469,6 @@ Actual generation and targeted edit reviewed. Juvenile wing shortened/rounded, l
 - Research: 2 new and 1 reused source IDs. Cornell bounds adult diagnosis and female direction; Whitfield’s primary study and FEIS bound a fledged pre-flight stage and climbing support.
 - Review: one targeted female-size/fullness edit. Exact juvenile day/feather chronology, regional plumage and measured sex ratio remain unknown; science false.
 - Run: [production/runs/2026-10-27T1836+0800-cycle-5.md](production/runs/2026-10-27T1836+0800-cycle-5.md)
+
+
+- 2026-10-27T19:24:57.308+08:00 — #08 *Strix nebulosa* v4 independently verified at archive commit `be1e9eac5f1ba6808b6aadd7a4197d15c5040e8e`; concept/reviewed path resolves to `aecd92918328ad2b12cbc3d4af66657fe0577355` (646,045 bytes), edited master to `68da949a9c2094c98be5b2392f287c850b70044b`, and initial master to `c764081fd2e61f87dd055335cc6ee476ccda8c94`. Unique archived species remains 174/251; batch 5/6, next cycle 6; science pending.

@@ -1,8 +1,8 @@
 ## 2026-10-27 #16 *Strix occidentalis caurina* v3
 
-- Result: SCIENCE_REVISION archived; independent readback pending. Unique species remains 174/251.
+- Result: SCIENCE_REVISION VERIFIED; unique species remains 174/251.
 - Image: [design/concepts/16-strix-occidentalis-v3.png](design/concepts/16-strix-occidentalis-v3.png)
-- Reviewed blob: `e88768bf23e808f83113af1f10ccdd30de936efc`; 680×453 RGB; 693,564 bytes; SHA-256 `129a022520c52ced8c815d1af7088b18faec0fdf5d7900897ac22b9abd5fadfa`.
+- Archive `2d0c160ca3da8f5a82f051152126fb9306044bab`; verified blob `e88768bf23e808f83113af1f10ccdd30de936efc`; 680×453 RGB; 693,564 bytes; SHA-256 `129a022520c52ced8c815d1af7088b18faec0fdf5d7900897ac22b9abd5fadfa`.
 - Research: 3 new stable source IDs. A primary Oregon study anchors normal nest departure (34–36 days), partly developed remiges and weak-flight/climbing mechanics; survey/ID sources bound juvenile down and northern-adult diagnosis.
 - Review: one targeted juvenile-wing edit; science false. Exact individual age, continuous feather sequence, regional variability and measured sex ratio remain unknown. v2 approval is historical and not transferred.
 - Run: [production/runs/2026-10-27T1836+0800-cycle-6.md](production/runs/2026-10-27T1836+0800-cycle-6.md)

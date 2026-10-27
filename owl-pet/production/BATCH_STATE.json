@@ -4624,7 +4624,7 @@
     },
     {
       "batch_id": "2026-10-27T1836+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -4695,33 +4695,47 @@
           "edited_master_git_blob": "68da949a9c2094c98be5b2392f287c850b70044b",
           "run_record": "owl-pet/production/runs/2026-10-27T1836+0800-cycle-5.md",
           "verified_at": "2026-10-27T19:24:57.308+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Strix occidentalis",
+          "design_scope": "Strix occidentalis caurina",
+          "project_id": 16,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "2d0c160ca3da8f5a82f051152126fb9306044bab",
+          "archive_commit": "2d0c160ca3da8f5a82f051152126fb9306044bab",
+          "image_git_blob": "e88768bf23e808f83113af1f10ccdd30de936efc",
+          "original_master_git_blob": "f4604dccab23811fe6db03f3fc59112cbcd1d35e",
+          "edited_master_git_blob": "e13fe1233cd53dc346e7a6484e41d0e482df81f8",
+          "run_record": "owl-pet/production/runs/2026-10-27T1836+0800-cycle-6.md",
+          "verified_at": "2026-10-27T20:37:00.000+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "2026-10-27T1836+0800-cycle-6",
-        "heartbeat_at": "2026-10-27T20:36:00.000+08:00",
-        "expires_at": "2026-10-27T20:51:00.000+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
         "run_id": "2026-10-27T1836+0800-cycle-6",
         "species": "#16 Strix occidentalis caurina",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-27T20:36:00.000+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-27T20:37:00.000+08:00",
         "evidence": {
+          "archive_commit": "2d0c160ca3da8f5a82f051152126fb9306044bab",
           "concept_path": "owl-pet/design/concepts/16-strix-occidentalis-v3.png",
           "reviewed_blob": "e88768bf23e808f83113af1f10ccdd30de936efc",
           "reviewed_sha256": "129a022520c52ced8c815d1af7088b18faec0fdf5d7900897ac22b9abd5fadfa",
           "dimensions": "680x453",
           "size_bytes": 693564,
-          "result": "archived pending independent readback; scientifically_verified=false"
+          "scientifically_verified": false,
+          "unique_species_total": 174,
+          "result": "immutable-path, manifest, run, status and batch ARCHIVED readback passed"
         }
       },
-      "last_updated_at": "2026-10-27T20:36:00.000+08:00",
+      "last_updated_at": "2026-10-27T20:37:00.000+08:00",
       "audit_notes": [
         "2026-10-27T18:36:00.000+08:00: cycle 1 STARTED for unarchived candidate #172 Tyto castanops v1 after main/manifest/name audit; no active lease or incomplete batch. IOC v15.2-style checklist treatment is split, while BirdLife/Australian authorities often retain T. novaehollandiae castanops; taxonomic conflict must be preserved in RESEARCH_READY. Lease expires 2026-10-27T18:51:00.000+08:00.",
         "2026-10-27T18:38:00.000+08:00: cycle 1 RESEARCH_READY for #172 Tyto castanops v1; 5 sources actually read/indexed. IOC split and BirdLife/Australian lump conflict preserved; white/cream advanced nestling selected with no exact-age/flight claim. Full prompt persisted; lease expires 2026-10-27T18:53:00.000+08:00.",
@@ -4753,16 +4767,12 @@
         "2026-10-27T19:27:55.106+08:00: cycle 6 RESEARCH_READY for #16 Strix occidentalis caurina v3; 3 new source IDs actually read. Primary study anchors normal nest departure, partial remiges and climbing mechanics; exact individual age/ratio remain unclaimed. Full prompt persisted; lease expires 2026-10-27T19:42:55.106+08:00.",
         "2026-10-27T19:29:42.927+08:00: cycle 6 IMAGE_GENERATED; original 1536×1024 viewed and persisted at blob f4604dccab23811fe6db03f3fc59112cbcd1d35e (3461609 bytes). Adults/text/count/support passed; juvenile folded remiges read as near-adult length versus the half-to-two-thirds primary-study boundary. Targeted juvenile-wing edit required; lease expires 2026-10-27T19:44:42.927+08:00.",
         "2026-10-27T19:31:35.267+08:00: cycle 6 REVIEWED PASS after one targeted juvenile-wing edit. Edited master blob e13fe1233cd53dc346e7a6484e41d0e482df81f8; derivative blob e88768bf23e808f83113af1f10ccdd30de936efc. Original master SHA-256 corrected to a05e75b5… (earlier run line transcription was wrong; Git blob correct). Lease expires 2026-10-27T19:46:35.267+08:00.",
-        "2026-10-27T20:36:00.000+08:00: cycle 6 ARCHIVED after expired-lease recovery and no-newer-commit check. Concept/reviewed blob e88768bf23e808f83113af1f10ccdd30de936efc (693564 bytes); initial and edited 1536×1024 masters retained. Manifest/status/run updated. Revision gives no unique increment; independent readback pending; lease expires 2026-10-27T20:51:00.000+08:00."
+        "2026-10-27T20:36:00.000+08:00: cycle 6 ARCHIVED after expired-lease recovery and no-newer-commit check. Concept/reviewed blob e88768bf23e808f83113af1f10ccdd30de936efc (693564 bytes); initial and edited 1536×1024 masters retained. Manifest/status/run updated. Revision gives no unique increment; independent readback pending; lease expires 2026-10-27T20:51:00.000+08:00.",
+        "2026-10-27T20:37:00.000+08:00: cycle 6 VERIFIED SCIENCE_REVISION #16 Strix occidentalis caurina v3; archive 2d0c160ca3da8f5a82f051152126fb9306044bab, concept/reviewed blob e88768bf23e808f83113af1f10ccdd30de936efc, edited master e13fe1233cd53dc346e7a6484e41d0e482df81f8, original master f4604dccab23811fe6db03f3fc59112cbcd1d35e; immutable path and metadata readback passed. Unique remains 174/251; batch COMPLETE 6/6; lease released."
       ]
     }
   ],
-  "lease": {
-    "owner": "codex-owl-production",
-    "run_id": "2026-10-27T1836+0800-cycle-4",
-    "heartbeat_at": "2026-10-27T19:56:00.000+08:00",
-    "expires_at": "2026-10-27T20:11:00.000+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -4839,7 +4849,7 @@
     "2026-10-26 17:02 +0800: new batch cycle 1 revised and verified #43 Athene blewitti v2 after one juvenile-wing correction. The first binary transfer was detected truncated at 786,445 bytes and superseded by complete 3,028,433-byte blob 392d29ec7bf7cf01413b72a83e72b7311811c876 in image commit 0add92a7742da2be5654d5060eb9ceb8e97e1eb0; verification commit 18b3ea0092586cc65b315b1f49d0fbd6e3851b7b. Unique remains 159/251; batch advances to 1/6, next_cycle 2.",
     "2026-10-26 18:34 +0800: crash recovery registered already-verified cycle 6 #48 Strix nivicolum v2 without regenerating. Image commit 1f52cb6e9ffa441f3be673bd0600f120330b9820, blob ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884; verification commit ad3d71c1445ff79c80c697eb06c63e4a352d2534. Batch 2026-10-26T1639+0800 closes COMPLETE 6/6; unique remains 159/251."
   ],
-  "updated_at": "2026-10-27T19:31:35.267+08:00",
+  "updated_at": "2026-10-27T20:37:00.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -4847,13 +4857,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "2026-10-27T1836+0800-cycle-6",
-    "heartbeat_at": "2026-10-27T20:36:00.000+08:00",
-    "expires_at": "2026-10-27T20:51:00.000+08:00"
-  },
-  "last_updated_at": "2026-10-27T19:56:00.000+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-27T20:37:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -4890,7 +4895,8 @@
     "2026-10-27T18:36:00.000+08:00: started batch 2026-10-27T1836+0800 cycle 1 for #172 Tyto castanops v1; lease acquired; unique total remains 171/251 until VERIFIED.",
     "2026-10-27T18:53:00.000+08:00: batch 2026-10-27T1836+0800 cycle 1 NEW #172 Tyto castanops v1 verified; archive 17fb8d4617e8464090bc6d46545e39942e4bc59d; unique 172/251; batch 1/6, next_cycle 2.",
     "2026-10-27T19:20:00.000+08:00: batch 2026-10-27T1836+0800 cycle 2 NEW #173 Otus madagascariensis v1 verified; archive 903d47aad7f74939bc49328f0b0bbdbd8d52028e; unique 173/251; batch 2/6, next_cycle 3; no active lease.",
-    "2026-10-27T19:45:00.000+08:00: batch 2026-10-27T1836+0800 cycle 3 NEW #174 Strix sartorii v1 verified; archive aae8cebfa33dc9278014eb0e6b97eb149c01314c; unique 174/251; batch 3/6, next_cycle 4; no active lease."
+    "2026-10-27T19:45:00.000+08:00: batch 2026-10-27T1836+0800 cycle 3 NEW #174 Strix sartorii v1 verified; archive aae8cebfa33dc9278014eb0e6b97eb149c01314c; unique 174/251; batch 3/6, next_cycle 4; no active lease.",
+    "2026-10-27T20:37:00.000+08:00: batch 2026-10-27T1836+0800 cycle 6 SCIENCE_REVISION #16 Strix occidentalis caurina v3 verified; archive 2d0c160ca3da8f5a82f051152126fb9306044bab; unique 174/251; batch COMPLETE 6/6; no active lease."
   ],
   "audit_trail": [
     {

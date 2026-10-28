@@ -5733,8 +5733,8 @@
         "run_id": "20261028T1528+0800-cycle-4",
         "cycle": 4,
         "species": "#30 Glaucidium cuculoides",
-        "heartbeat_at": "2026-10-28T15:32:30+08:00",
-        "expires_at": "2026-10-28T15:47:30+08:00"
+        "heartbeat_at": "2026-10-28T15:34:00+08:00",
+        "expires_at": "2026-10-28T15:49:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -5742,8 +5742,8 @@
         "species": "#30 Glaucidium cuculoides",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T15:32:30+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T15:34:00+08:00",
         "evidence": {
           "new_sources": [
             "ASBO-SANKAMETHAWEE-PIERCE-2019",
@@ -5769,11 +5769,36 @@
           "durable_blob": "0faf15dab096a9011327716bf464a83a7e77a700",
           "durable_sha256": "11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c",
           "durable_bytes": 719232,
-          "actual_view": "Exactly three correctly labeled birds; adults show yellow eyes, pale green-yellow bills, strong fine barring, white throats, no ear tufts or nape false eyes, near-equal crown height and subtle female fullness. Juvenile is yellow-eyed, crown-spotted, fully supported at cavity lip, with compact formed wing and hidden tail.",
-          "edit_required": false
+          "actual_view": "Exactly three owls; text correct; both adults fully supported and untufted; female subtly fuller at near-equal height; juvenile yellow-eyed, crown-spotted, fully supported at cavity lip, compact wing, hidden tail.",
+          "edit_required": false,
+          "result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 0,
+          "reviewed_path": "owl-pet/production/reviewed/30-glaucidium-cuculoides-v3-reviewed-master.jpg",
+          "reviewed_blob": "0faf15dab096a9011327716bf464a83a7e77a700",
+          "reviewed_sha256": "11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c",
+          "reviewed_bytes": 719232,
+          "checks": [
+            "exact title and labels",
+            "exactly three owls",
+            "adult yellow eyes and pale bill",
+            "no ear tufts or nape false eyes",
+            "female subtly fuller not taller",
+            "juvenile yellow iris and crown/forehead spots",
+            "juvenile both feet and body supported",
+            "compact wing and hidden tail",
+            "no flight/prey claim"
+          ],
+          "limitations": [
+            "undated HKBWS stage",
+            "exact flight ability unknown",
+            "continuous feather sequence unknown",
+            "juvenile bill/foot chronology unknown",
+            "subspecies not claimed",
+            "science false"
+          ]
         }
       },
-      "last_updated_at": "2026-10-28T15:32:30+08:00",
+      "last_updated_at": "2026-10-28T15:34:00+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5797,15 +5822,16 @@
         "2026-10-28T11:55:47+08:00: cycle3 VERIFIED #29 Glaucidium capense v3 at 0b066d21ffd326e8fcdaa8e9fa84bd17e5d3d0e6; fixed-commit raw decode/hash/blob/manifest/research/run/design/knowledge/workflow readback passed. Unique184/251; batch3/6 next_cycle4; lease released; science false.",
         "2026-10-28T15:28:00+08:00: cycle4 STARTED #30 Glaucidium cuculoides v3 SCIENCE_REVISION; v1-v2 preserved; active external research and stage-bounded juvenile evidence check required; no credit.",
         "2026-10-28T15:30:00+08:00: cycle4 #30 v3 RESEARCH_READY; new2/reused3/corrected1; 2019 primary ground-nest paper pp.157–160 and HKBWS stage text read; full prompt saved; Mikkola upload unavailable; science false.",
-        "2026-10-28T15:32:30+08:00: cycle4 #30 v3 IMAGE_GENERATED in 64.2s; original 1536x1024 opened. Count/text/adults/support pass; juvenile matches undated fully feathered third HKBWS stage. No evidence-based edit required. Durable JPEG saved; no credit."
+        "2026-10-28T15:32:30+08:00: cycle4 #30 v3 IMAGE_GENERATED in 64.2s; original 1536x1024 opened. Count/text/adults/support pass; juvenile matches undated fully feathered third HKBWS stage. No evidence-based edit required. Durable JPEG saved; no credit.",
+        "2026-10-28T15:34:00+08:00: cycle4 #30 v3 REVIEWED; first 1536x1024 render passed count/text/adults/support and evidence-bounded fully feathered juvenile stage. No edit warranted; science false; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1528+0800-cycle-4",
         "cycle": 4,
         "species": "#30 Glaucidium cuculoides",
-        "heartbeat_at": "2026-10-28T15:32:30+08:00",
-        "expires_at": "2026-10-28T15:47:30+08:00"
+        "heartbeat_at": "2026-10-28T15:34:00+08:00",
+        "expires_at": "2026-10-28T15:49:00+08:00"
       }
     }
   ],

@@ -32,3 +32,10 @@ v1 VERIFIED as an archived concept after adult-scale correction and remote blob/
 - v2 was opened: adult identity, labels, support and near-equal scale pass; the juvenile's dark structured wing patches and ear-like projections overstate the chosen early stage. v3 is a juvenile-only correction to loose white/cream natal down, no ear tufts, tucked down-covered wing buds, hidden tail and deep fern/humus support.
 - Unknown: exact hatch age, continuous feather geometry, flight threshold, sex ratio, subspecies variation. Scientific acceptance remains false.
 - Sources: BFOW-BESG-FLEDGE-2016 (new), BFOW-SBG-BREED-2016 (new), BFOW-BESG-NEST-2016 (reused), BFOW-NPARKS-2026 (reused), BFOW-BESG-FLEDGE-2024 (reused later-stage comparator).
+
+## v3 archive (2026-10-29)
+
+- First imagegen edit was rejected: it added unsupported explanatory boxes asserting male smaller/female larger and retained juvenile ear-like tufts/dark structured wing patches.
+- One targeted edit removed the boxes and leader lines, preserved the two adults and exact bottom labels, and corrected only the juvenile to a low, fully supported, white/cream down-dominant fern nestling with no ear tufts, adult-like remiges or long tail.
+- Visual review: pass with limitations. Scientific acceptance remains false because age is estimated and no continuous feather series, quantified sex ratio, precise flight threshold or subspecies reconstruction is available.
+- v1 and v2 are retained.

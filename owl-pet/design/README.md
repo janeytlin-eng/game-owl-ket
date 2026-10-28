@@ -1,3 +1,9 @@
+## #61 Buffy Fish Owl — *Ketupa ketupu* — v3 science revision
+
+- Concept: [61-ketupa-ketupu-v3.jpg](concepts/61-ketupa-ketupu-v3.jpg)
+- Research: [species card](../knowledge/species/61-ketupa-ketupu.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--61-ketupa-ketupu-v3--dated-two-week-vs-six-week-plumage-boundary)
+- Stage: ARCHIVED; fixed-commit readback pending. v3 separates the early white-down fern nestling from the adult-feathered branch/preflight stage and removes an imagegen-introduced male-smaller/female-larger claim. Science false.
+
 ## #60 Tawny Fish Owl — *Ketupa flavipes* — v3 science revision
 
 - Concept: [60-ketupa-flavipes-v3.jpg](concepts/60-ketupa-flavipes-v3.jpg)

@@ -1,3 +1,9 @@
+## 2026-10-29 #61 *Ketupa ketupu* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch `2026-10-29T0331+0800` remains 2/6 until fixed-commit verification.
+- [Concept](design/concepts/61-ketupa-ketupu-v3.jpg) · [run](production/runs/20261029T0443+0800-cycle-3.md) · [source index](research/SOURCE_INDEX.md#2026-10-29--61-ketupa-ketupu-v3--dated-two-week-vs-six-week-plumage-boundary)
+- Research: 2 new / 3 reused / 1 corrected inference. One targeted edit removed unsupported sex-size callouts and corrected the selected early juvenile to white/cream natal down, hidden tail and fern/humus support. Science false.
+
 ## 2026-10-29 #60 *Ketupa flavipes* v3 VERIFIED
 
 - Result: SCIENCE_REVISION verified at `cf03560e58b042966e1d39a5b6d753941d0a1e3e`; unique remains **184/251**; batch `2026-10-29T0331+0800` advances to 2/6.

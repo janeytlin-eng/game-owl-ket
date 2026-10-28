@@ -5323,8 +5323,8 @@
         "species": "#11 Aegolius funereus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:15:50.000+08:00",
-        "expires_at": "2026-10-28T08:30:50.000+08:00"
+        "heartbeat_at": "2026-10-28T08:16:14.477+08:00",
+        "expires_at": "2026-10-28T08:31:14.477+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -5332,8 +5332,8 @@
         "species": "#11 Aegolius funereus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T08:15:50.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T08:16:14.477+08:00",
         "evidence": {
           "source_ids_new": [
             "BOR-KOUBA-2015-FLEDGING",
@@ -5362,10 +5362,30 @@
           "generated_bytes": 3491506,
           "generated_dimensions": "1536x1024",
           "generation_seconds": 41.203,
-          "initial_review": "exact count/title/labels/adult/juvenile/support pass; no edit indicated"
+          "initial_review": "exact count/title/labels/adult/juvenile/support pass; no edit indicated",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "reviewed_source_same_as_generated": true,
+          "edit_count": 0,
+          "review_preview": "/workspace/scratch/e49f444b0b9e/bor11-review.jpg",
+          "review_checks": {
+            "exact_three_owls": true,
+            "title_and_labels": true,
+            "adult_identity": true,
+            "sex_direction": "female fuller/heavier without fixed multiplier",
+            "juvenile_stage": "approx. 30–33d dark-chocolate cavity-edge/recent fledgling",
+            "juvenile_wing": "formed but incomplete, supported",
+            "habitat": true
+          },
+          "unresolved": [
+            "exact day",
+            "continuous feather map",
+            "standing-height ratio",
+            "subspecies",
+            "universal cavity/box geometry"
+          ]
         }
       },
-      "last_updated_at": "2026-10-28T08:15:50.000+08:00",
+      "last_updated_at": "2026-10-28T08:16:14.477+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5381,7 +5401,8 @@
         "2026-10-28T08:12:09.687+08:00: cycle2 VERIFIED #10 Surnia ulula v3; archive 58a4e129a08c7f080bbee8016058a700f3072e35, concept 01245cbd, generated b47b4109, reviewed 464d2c91. Unique remains 184/251; batch 2/6, next_cycle 3; lease released.",
         "2026-10-28T08:13:05.276+08:00: cycle3 STARTED canonical #11 Aegolius funereus v3 SCIENCE_REVISION; v1/v2 and v1 user approval preserved; no credit.",
         "2026-10-28T08:14:27.101+08:00: cycle3 #11 v3 RESEARCH_READY; 2 new/2 reused sources including two primary PLOS studies, Mikkola and Cambridge synthesis. Full prompt saved; science false; no credit.",
-        "2026-10-28T08:15:50.000+08:00: cycle3 #11 IMAGE_GENERATED; 1536x1024 candidate opened via faithful 1200x800 review derivative; no edit indicated; no credit."
+        "2026-10-28T08:15:50.000+08:00: cycle3 #11 IMAGE_GENERATED; 1536x1024 candidate opened via faithful 1200x800 review derivative; no edit indicated; no credit.",
+        "2026-10-28T08:16:14.477+08:00: cycle3 #11 REVIEWED PASS_WITH_LIMITATIONS; evidence-supported older juvenile wing retained, no edit warranted; science false; no credit."
       ]
     }
   ],
@@ -5494,10 +5515,10 @@
     "species": "#11 Aegolius funereus",
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "heartbeat_at": "2026-10-28T08:15:50.000+08:00",
-    "expires_at": "2026-10-28T08:30:50.000+08:00"
+    "heartbeat_at": "2026-10-28T08:16:14.477+08:00",
+    "expires_at": "2026-10-28T08:31:14.477+08:00"
   },
-  "last_updated_at": "2026-10-28T08:15:50.000+08:00",
+  "last_updated_at": "2026-10-28T08:16:14.477+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

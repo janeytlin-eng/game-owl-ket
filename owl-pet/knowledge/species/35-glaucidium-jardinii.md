@@ -30,3 +30,15 @@
 - Iteration: first render gave the juvenile adult-like white wing spots; one targeted imagegen edit removed those spots and softened/shortened the wing. Original-resolution review then passed with exactly three birds, required labels and full support.
 - Unknown: exact juvenile age, continuous feather sequence and flight ability; not a scientific pass.
 - [Original PNG](../../design/concepts/35-glaucidium-jardinii-v2.png) · [run](../../production/runs/2026-10-26T1245+0800-cycle-5.md)
+
+
+## v3 revision — 2026-10-28
+
+- Mapping recovery: #35 remains *Glaucidium jardinii*. The expired *G. minutissimum* research-only checkpoint is preserved as an invalidated orphan lead and receives no image, cycle or species credit.
+- Evidence increment: new `ANPO-BANREP-CERVANTES-2016` and `ANPO-PERUAVES-2026`; reused `ANPO-MIKKOLA-2013`, `ANPO-BOW-2020`, `ANPO-BIRDLIFE-2026`, and `ANPO-EBIRD-2025`; one correction.
+- Correction: source summaries do not justify a universal visible female-larger direction; v3 keeps adults near-equal standing height.
+- Juvenile boundary: age-unknown late-nest bird at a mossy natural cavity lip, with plain or only finely lined crown/nape and weaker diffuse underpart marks. Exact day, continuous feather sequence and flight threshold remain unknown.
+- Actual review: 1536×1024 source opened successfully at high detail; exactly three birds, correct title/labels, natural support, paired adult nape false eyes, near-equal adults and non-mature juvenile wing treatment passed. No edit required; scientific verification remains false.
+- Concept: [35-glaucidium-jardinii-v3.png](../../design/concepts/35-glaucidium-jardinii-v3.png), 680×453, 675474 bytes, SHA-256 `14a25c152b99ca9586e619f76e660c01fdd79f3329758d47f16c3f4bee086d54`.
+- Master: [35-glaucidium-jardinii-v3-generated-master.jpg](../../production/generated/35-glaucidium-jardinii-v3-generated-master.jpg), 1536×1024, 948906 bytes, SHA-256 `574e8cd127d6ae0ad724f028071d46001e328c63c4831859319a12db2e93a5c5`.
+- [Run record](../../production/runs/20261028T1734+0800-cycle-3-recovery.md)

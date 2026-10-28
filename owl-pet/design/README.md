@@ -1556,3 +1556,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #34 *Glaucidium hardyi* v3 — primary-study almost-full-grown cavity nestling; [concept](concepts/34-glaucidium-hardyi-v3.png) · [research](../knowledge/species/34-glaucidium-hardyi.md) · [run](../production/runs/20261028T1626+0800-newbatch-cycle-2.md). Science pending.
+
+
+- #35 *Glaucidium jardinii* v3 — SCIENCE_REVISION; corrected canonical mapping, near-equal adults, paired nape false eyes and a source-bounded late-nest cavity juvenile with plain/fine-lined crown; [concept](concepts/35-glaucidium-jardinii-v3.png) · [research](../knowledge/species/35-glaucidium-jardinii.md) · [run](../production/runs/20261028T1734+0800-cycle-3-recovery.md). Science pending.

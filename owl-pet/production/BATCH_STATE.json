@@ -5504,8 +5504,8 @@
         "run_id": "20261028T0851+0800-newbatch-cycle-1",
         "cycle": 1,
         "species_id": 18,
-        "heartbeat_at": "2026-10-28T08:57:00.000+08:00",
-        "expires_at": "2026-10-28T09:12:00.000+08:00"
+        "heartbeat_at": "2026-10-28T08:59:00.000+08:00",
+        "expires_at": "2026-10-28T09:14:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5513,8 +5513,8 @@
         "species": "#18 Megascops kennicottii",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T08:57:00.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T08:59:00.000+08:00",
         "evidence": {
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "species_card": "owl-pet/research/species/18-megascops-kennicottii-v3.md",
@@ -5553,15 +5553,32 @@
               "continuous feather map",
               "wing/tail proportions"
             ]
-          }
+          },
+          "concept_path": "owl-pet/design/concepts/18-megascops-kennicottii-v3.png",
+          "concept_blob": "cce3c11d613708949dd11b502e4d801d501b328c",
+          "concept_sha256": "fe93cfe001d83b7ae69cf4bfc843222bb1fc31ee1cd53406da1bbaf7d1e24466",
+          "concept_bytes": 168768,
+          "generated_path": "owl-pet/production/generated/18-megascops-kennicottii-v3-generated-master.png",
+          "generated_blob": "88f0fa41cae502e30dc1897b984d40afb4b67bda",
+          "generated_sha256": "7b9706692cccf957fb3516710f439f02b019e1ee088fdf0f4df6524e53e6c78c",
+          "generated_bytes": 760106,
+          "reviewed_path": "owl-pet/production/reviewed/18-megascops-kennicottii-v3-reviewed-master.png",
+          "reviewed_blob": "d2a94c9f552cc356dde499246105b88bbccc17f9",
+          "reviewed_sha256": "a13eab0d3b03dfc2d88fe4d1de93fc5479d286b4908be41292e8503d5c6d1a45",
+          "reviewed_bytes": 725860,
+          "manifest_count_before": 449,
+          "manifest_count_after": 450,
+          "unique_species_provisional": "184/251",
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-28T08:57:00.000+08:00",
+      "last_updated_at": "2026-10-28T08:59:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:51:00.000+08:00: new batch cycle1 STARTED canonical #18 Megascops kennicottii v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
         "2026-10-28T08:53:00.000+08:00: cycle1 #18 v3 RESEARCH_READY; new2/reused4/corrected1 sources, Mikkola pp.204–205 and primary telemetry study read; full prompt saved; science false.",
         "2026-10-28T08:55:00.000+08:00: #18 v3 IMAGE_GENERATED in 44.979s; actual view found adult-length barred juvenile wing; edit required.",
-        "2026-10-28T08:57:00.000+08:00: #18 v3 REVIEWED after one 40.602s wing edit; long adult-like juvenile remiges removed, support preserved; science false."
+        "2026-10-28T08:57:00.000+08:00: #18 v3 REVIEWED after one 40.602s wing edit; long adult-like juvenile remiges removed, support preserved; science false.",
+        "2026-10-28T08:59:00.000+08:00: #18 v3 ARCHIVED; concept cce3c11d, generated 88f0fa41, reviewed d2a94c9f; manifest 449→450; readback pending."
       ]
     }
   ],
@@ -5671,10 +5688,10 @@
     "run_id": "20261028T0851+0800-newbatch-cycle-1",
     "cycle": 1,
     "species_id": 18,
-    "heartbeat_at": "2026-10-28T08:57:00.000+08:00",
-    "expires_at": "2026-10-28T09:12:00.000+08:00"
+    "heartbeat_at": "2026-10-28T08:59:00.000+08:00",
+    "expires_at": "2026-10-28T09:14:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T08:57:00.000+08:00",
+  "last_updated_at": "2026-10-28T08:59:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

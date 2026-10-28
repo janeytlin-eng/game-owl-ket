@@ -1,3 +1,6 @@
+## 2026-10-28 #18 *Megascops kennicottii* v3 ARCHIVED
+- Late-nestling mesoptile revision after one juvenile-wing edit; Mikkola and primary telemetry study applied. Science false; unique **184/251**; readback pending.
+
 ## 2026-10-28 #17 *Megascops asio* v5 ARCHIVED
 - SCIENCE_REVISION; uploaded Mikkola pp.207–209/PDF209–211, Cornell brancher behavior, FEIS development and USGS age-band evidence applied. One targeted edit shortened the juvenile wing and hid the long tail while retaining supported talon climbing. Science false; unique **184/251**. Commit-pinned image blobs, sizes, manifest, research and run passed readback at `25aa93639f6d5700fce42ac2840e84b5d9e9bb99`; batch closed 6/6.
 

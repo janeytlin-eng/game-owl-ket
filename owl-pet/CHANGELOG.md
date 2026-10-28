@@ -1,3 +1,7 @@
+## 2026-10-28 — #18 Western Screech-Owl v3
+
+- Added late-nestling mesoptile revision with one juvenile-wing correction; v1–v2 preserved, unique remains 184/251, science false.
+
 ## 2026-10-28 — #17 Eastern Screech-Owl v5
 
 - Added evidence-bounded approximately 27–30-day supported brancher revision after one juvenile-wing/tail edit. Existing v1–v4 preserved; morph is not used as sex; unique remains 184/251; science false.

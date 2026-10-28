@@ -28,3 +28,12 @@ USDA Forest Service 2010新墨西哥书章摘要：*M. k. aikeni*雌鸟质量高
 
 读取USFS书章完整PDF的方法与表格；补可确认地域/亚种和日龄的幼鸟影像序列；建立251种带版本完整名录后确认中文名及排序。不得将相邻东美角鸮资料直接转用为本物种证据。
 
+
+
+## 2026-10-28 · v3 late-nestling revision
+
+Mikkola pp.204–205/PDF206–207, ADW development and Ellsworth & Belthoff 1997 primary telemetry methods were read. v3 changes from v2’s early white hatchling to an approximately 28–34 d, densely barred mesoptile large young at a cavity lip. One targeted edit shortened the first output’s adult-length juvenile wing; full foot support and concealed tail were retained. Female is only subtly fuller and shared gray morph is not a sex code. Exact day/feather sequence/eye transition/ratios remain unknown; science false.
+
+![v3](../../design/concepts/18-megascops-kennicottii-v3.png)
+
+[Research/full prompt](../../research/species/18-megascops-kennicottii-v3.md) · [run](../../production/runs/20261028T0851+0800-newbatch-cycle-1.md)

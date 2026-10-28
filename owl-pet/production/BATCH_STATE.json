@@ -5711,8 +5711,8 @@
         "run_id": "20261028T1142+0800-newbatch-cycle-2",
         "cycle": 2,
         "species": "#28 Glaucidium perlatum",
-        "heartbeat_at": "2026-10-28T11:44:37+08:00",
-        "expires_at": "2026-10-28T11:59:37+08:00"
+        "heartbeat_at": "2026-10-28T11:46:29+08:00",
+        "expires_at": "2026-10-28T12:01:29+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5720,8 +5720,8 @@
         "species": "#28 Glaucidium perlatum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T11:44:37+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T11:46:29+08:00",
         "evidence": {
           "new_sources": [
             "PSOW-BIODIVEXPLORER-ROBERTS-2026"
@@ -5754,10 +5754,37 @@
           "durable_bytes": 719614,
           "actual_view": "Exact title/labels/count; adults at near-equal scale, female rearward with nape false eyes; juvenile fully supported and tail hidden. Juvenile crown/back and folded wing retain too many crisp white adult-like spots.",
           "edit_required": true,
-          "durable_blob": "c7e6bda13a7965a20855b8a6138e941655624e60"
+          "durable_blob": "c7e6bda13a7965a20855b8a6138e941655624e60",
+          "result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 1,
+          "edit_seconds": 39.2,
+          "reviewed_source_path": "generated_images/exec-f059bafa-491a-49e3-baa3-1f07bbaf24a6.png",
+          "reviewed_source_sha256": "13285f8d9334400a525e622b91e1b9d8ef8f6ca07d82d40c1e2896d508982c6d",
+          "reviewed_path": "owl-pet/production/reviewed/28-glaucidium-perlatum-v3-reviewed-master.jpg",
+          "reviewed_sha256": "56f6568121e65b48c0b8666fd3c1f29a9181d757f85028ba972ec9841f21d088",
+          "reviewed_bytes": 705712,
+          "changes": "Removed crisp adult-like white spot rows from juvenile crown/back/folded wing; shortened and softened juvenile wing while preserving nape false eyes, cavity support, hidden tail and muted eye.",
+          "checks": [
+            "exact title and labels",
+            "exactly three owls",
+            "adult diagnostic direction",
+            "female subtly fuller but not taller",
+            "juvenile reduced indistinct spotting",
+            "short soft folded juvenile wing",
+            "hidden juvenile tail",
+            "both feet and belly supported",
+            "no flight claim"
+          ],
+          "limitations": [
+            "exact age remains a design location inside 27–31 d window",
+            "no day-specific feather sequence",
+            "juvenile iris chronology unknown",
+            "scientifically_verified remains false"
+          ],
+          "reviewed_blob": "f7134f72e17c9da5f7df301d1fdbf1c777bf7e4b"
         }
       },
-      "last_updated_at": "2026-10-28T11:44:37+08:00",
+      "last_updated_at": "2026-10-28T11:46:29+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5769,15 +5796,16 @@
         "2026-10-28T11:40:11.421+08:00: cycle1 VERIFIED #27 Glaucidium passerinum v3 at archive a32c28731058a6772c6890967a9bd89723eb63ac; fixed-commit raw decode/hash/blob/manifest/research/run readback passed. Unique 184/251; batch 1/6, next_cycle2; lease released.",
         "2026-10-28T11:42:13+08:00: cycle2 STARTED canonical #28 Glaucidium perlatum v3 SCIENCE_REVISION; v1–v2 preserved; bounded late-cavity juvenile evidence selected; no credit.",
         "2026-10-28T11:43:06+08:00: cycle2 #28 v3 RESEARCH_READY; new1/reused4/corrected1. Biodiversity Explorer/Roberts timing cross-check read; 27–31-day cavity window applied conservatively. Full prompt saved; science false; no credit.",
-        "2026-10-28T11:44:37+08:00: cycle2 #28 v3 IMAGE_GENERATED in 43.8s; 1536x1024 original actually opened. Count/text/adult direction/support pass; juvenile crisp adult-like crown/back/wing spots require targeted edit. Durable source master saved; no credit."
+        "2026-10-28T11:44:37+08:00: cycle2 #28 v3 IMAGE_GENERATED in 43.8s; 1536x1024 original actually opened. Count/text/adult direction/support pass; juvenile crisp adult-like crown/back/wing spots require targeted edit. Durable source master saved; no credit.",
+        "2026-10-28T11:46:29+08:00: cycle2 #28 v3 REVIEWED after one 39.2s targeted juvenile-plumage edit; adult-like white spot rows removed, short soft wing and cavity support retained. Science false; no credit."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261028T1142+0800-newbatch-cycle-2",
         "cycle": 2,
         "species": "#28 Glaucidium perlatum",
-        "heartbeat_at": "2026-10-28T11:44:37+08:00",
-        "expires_at": "2026-10-28T11:59:37+08:00"
+        "heartbeat_at": "2026-10-28T11:46:29+08:00",
+        "expires_at": "2026-10-28T12:01:29+08:00"
       }
     }
   ],
@@ -5786,8 +5814,8 @@
     "run_id": "20261028T1142+0800-newbatch-cycle-2",
     "cycle": 2,
     "species": "#28 Glaucidium perlatum",
-    "heartbeat_at": "2026-10-28T11:44:37+08:00",
-    "expires_at": "2026-10-28T11:59:37+08:00"
+    "heartbeat_at": "2026-10-28T11:46:29+08:00",
+    "expires_at": "2026-10-28T12:01:29+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

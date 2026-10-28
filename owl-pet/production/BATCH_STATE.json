@@ -5335,14 +5335,7 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261028T0840+0800-cycle-5",
-        "cycle": 5,
-        "species_id": 15,
-        "heartbeat_at": "2026-10-28T08:43:15.000+08:00",
-        "expires_at": "2026-10-28T08:58:15.000+08:00"
-      },
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 5,
         "run_id": "20261028T0840+0800-cycle-5",
@@ -5350,7 +5343,7 @@
         "version": 4,
         "action": "SCIENCE_REVISION",
         "stage": "RESEARCH_READY",
-        "at": "2026-10-28T08:43:15.000+08:00",
+        "at": "2026-10-28T08:45:40.000+08:00",
         "evidence": {
           "source_ids_new": [
             "BARO-MIKKOLA-2013-P346",
@@ -5377,10 +5370,23 @@
             "subspecies geography",
             "universal cavity geometry"
           ],
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "generation_attempt": {
+            "at": "2026-10-28T08:44:52.000+08:00",
+            "tool": "imagegen",
+            "observed_seconds": 45.837,
+            "result": "tool reported generated, but returned object/path not retained after execution environment became unavailable",
+            "reusable": false
+          },
+          "last_error": {
+            "step": "post-generation local recovery/review",
+            "error": "No usable execution environment is available",
+            "observed_at": "2026-10-28T08:45:40.000+08:00"
+          },
+          "recovery_point": "Reuse persisted research card, source index and full prompt; regenerate or recover local asset if environment returns; then view before any REVIEWED/ARCHIVED credit."
         }
       },
-      "last_updated_at": "2026-10-28T08:43:15.000+08:00",
+      "last_updated_at": "2026-10-28T08:45:40.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5407,7 +5413,8 @@
         "2026-10-28T08:37:40.000+08:00: cycle4 #13 v7 ARCHIVED tree prepared; concept 01aece97, generated 76dc6093, reviewed b388f1a7; manifest 446→447; unique remains 184/251; readback pending, no credit.",
         "2026-10-28T08:39:06.000+08:00: cycle4 VERIFIED #13 Micrathene whitneyi v7 at 945b55043b4858abdf9d178da9b817dc6e222635; fixed-tree readback passed. Unique 184/251; batch 4/6 next_cycle5; lease released; science false.",
         "2026-10-28T08:40:20.000+08:00: cycle5 STARTED canonical #15 Strix varia v4 SCIENCE_REVISION; v1–v3 and v1 user approval preserved; no credit.",
-        "2026-10-28T08:43:15.000+08:00: cycle5 #15 v4 RESEARCH_READY; new3/reused2/corrected1 sources; full prompt saved; science false."
+        "2026-10-28T08:43:15.000+08:00: cycle5 #15 v4 RESEARCH_READY; new3/reused2/corrected1 sources; full prompt saved; science false.",
+        "2026-10-28T08:45:40.000+08:00: cycle5 #15 v4 PARTIAL after RESEARCH_READY. imagegen call returned after 45.837s, but local execution environment became unavailable before file path recovery/view/edit/archive. Stage remains RESEARCH_READY, lease released, no cycle credit."
       ]
     }
   ],
@@ -5512,15 +5519,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261028T0840+0800-cycle-5",
-    "cycle": 5,
-    "species_id": 15,
-    "heartbeat_at": "2026-10-28T08:43:15.000+08:00",
-    "expires_at": "2026-10-28T08:58:15.000+08:00"
-  },
-  "last_updated_at": "2026-10-28T08:43:15.000+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-28T08:45:40.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

@@ -102,3 +102,8 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Recheck: edited 1536×1024 master and 680×453 derivative passed with limitations. Exact remige geometry, cross-subspecies sequence, flight threshold and quantified display ratio remain unknown; scientifically_verified=false.
 - Iteration rule discovered and applied: do not infer juvenile wing maturity from residual body down alone; bind the feather geometry to the observed locality, subspecies and named stage. This rule is validated here only for preventing overgeneralization in #47 v3 and should trigger review of any prior design that equates downiness with uniformly immature wings.
 - Files: `production/generated/47-strix-leptogrammica-v3-generated-master.png`, `production/reviewed/47-strix-leptogrammica-v3-reviewed-master.png`, `design/concepts/47-strix-leptogrammica-v3.png`.
+
+
+### v3 archive verification
+
+- Fixed archive commit `6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9` was read through the commit tree; concept, generated master and reviewed master paths matched their expected Git blob IDs and byte sizes. Related text records were read back. Production/archive VERIFIED; scientific status remains false.

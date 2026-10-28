@@ -2,7 +2,7 @@
 
 - Concept: [47-strix-leptogrammica-v3.png](concepts/47-strix-leptogrammica-v3.png)
 - Research: [species card](../knowledge/species/47-strix-leptogrammica.md) · [source index](../research/SOURCE_INDEX.md#2026-10-28-47-strix-leptogrammica-v3-cross-subspecies-correction)
-- Stage: ARCHIVED; fixed readback pending. Explicit Sri Lankan 34-day cavity-lip stage; one juvenile-wing edit; Hong Kong fledgling evidence retained as a cross-subspecies conflict; science false.
+- Stage: VERIFIED at `6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9`; fixed concept/generated/reviewed blob IDs, byte sizes and text metadata readback passed. Explicit Sri Lankan 34-day cavity-lip stage; one juvenile-wing edit; Hong Kong fledgling evidence retained as a cross-subspecies conflict; science false.
 
 ## #46 Mottled Wood Owl — *Strix ocellata* — v3 science revision
 

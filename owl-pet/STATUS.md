@@ -1,3 +1,10 @@
+## 2026-10-28 #47 *Strix leptogrammica* v3 VERIFIED
+
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **3/6**, next cycle **4**.
+- [Original concept](design/concepts/47-strix-leptogrammica-v3.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9)
+- Commit-tree readback matched concept `7cf8b429e8…`, generated `296533411d…`, reviewed `0dd63926f3…` and byte sizes; manifest/source/card/run/state/status/design text markers passed.
+- Scientific calibration remains false; exact cross-subspecies feather chronology, flight threshold and quantified dimorphism remain unknown.
+
 ## 2026-10-28 #47 *Strix leptogrammica* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **2/6** until fixed verification.

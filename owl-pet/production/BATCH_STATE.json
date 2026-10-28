@@ -6118,64 +6118,45 @@
           "commit_sha": "ed3a57ce0d4d1992a6124db20a10e1c8bde4e666",
           "run_record": "owl-pet/production/runs/20261028T2252+0800-cycle-2.md",
           "verified_at": "2026-10-28T23:06:00+08:00"
+        },
+        {
+          "cycle": 3,
+          "species": "Strix leptogrammica",
+          "species_id": 47,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9",
+          "run_record": "owl-pet/production/runs/20261028T2308+0800-cycle-3.md",
+          "verified_at": "2026-10-28T23:54:00+08:00"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261028T2308+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T23:49:00+08:00",
-        "expires_at": "2026-10-29T00:04:00+08:00"
-      },
+      "next_cycle": 4,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 3,
         "run_id": "20261028T2308+0800-cycle-3",
         "species": "#47 Strix leptogrammica",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-28T23:49:00+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-28T23:54:00+08:00",
         "evidence": {
-          "new_sources": [
-            "BROW-HKBWS-2024"
-          ],
-          "reused_sources": [
-            "BROW-SAMARAWICKRAMA-2006",
-            "BROW-MIKKOLA-2013",
-            "BROW-OWLPAGES-2020"
-          ],
-          "corrected_sources": 1,
-          "correction": "v2 compact-wing rule narrowed to the photographed 34-day Sri Lankan ochrogenys stage; HKBWS shows recently fledged northern ticehursti can retain down while already carrying adult-type wing/tail feathers",
-          "design_boundary": "explicit Sri Lankan 34-day cavity-lip pre-flight chick, not universal juvenile sequence",
-          "full_imagegen_prompt": "Create a warm painterly semi-realistic natural-history concept board in the established owl-pet style, landscape 3:2. Exact title: “47 · BROWN WOOD OWL · Strix leptogrammica”. Exactly three full-body owls with exact labels ADULT MALE, ADULT FEMALE, JUVENILE. This board is explicitly the Sri Lankan subspecies direction Strix leptogrammica ochrogenys, not a universal reconstruction of northern ticehursti. Adults untufted and dark-eyed, with greenish-horn bill and blue-gray cere; fulvous/rufous-brown facial disc with narrow black border and dark eye zone, pale buff brows, blackish-brown crown, prominent cinnamon-buff nuchal collar, chestnut upperparts densely dark barred, a narrow white horizontal throat band, rufous upper-breast band, creamy light-rufous underparts densely thin-barred brown, feathered tarsi. Female may be moderately fuller/heavier than male based on mass direction, but avoid an invented dramatic standing-height gap. Juvenile is the published Sri Lankan 34-day chick at the old jackfruit-tree cavity lip: both feet and belly securely supported, alert but not flying; very pale rufous/ochre-buff fluffy mesoptile with faint diffuse russet bars, buff facial disc with narrow dark border and dark eyes, short rounded developing wing mostly embedded in fluff, and short mostly concealed tail. Do not treat this wing stage as universal: northern recently fledged juveniles can retain down on head/breast while already showing adult-type wing and tail feathers. Keep this individual explicitly at the 34-day Sri Lankan pre-flight stage, with only a few formed feather tips and no long layered adult wing. Habitat: humid Sri Lankan home-garden edge beside Gannoruwa forest, old jackfruit cavity, believable lowland vegetation at soft dusk. Natural support, feet visible. No extra birds, ear tufts, yellow eyes, bright yellow bill, exaggerated female height, airborne juvenile, mature long juvenile wing/tail, floating feet, watermark, or extra text.",
-          "scientifically_verified": false,
-          "pause_reason": "current observable context/output budget reached; no platform timeout telemetry",
-          "resume_from": "VERIFIED",
-          "image_generated": true,
-          "generated_path": "owl-pet/production/generated/47-strix-leptogrammica-v3-generated-master.png",
-          "generated_blob": "296533411df92471f225aab76e90312720e5c5af",
-          "dimensions": "1536x1024",
-          "size_bytes": 3068687,
-          "sha256": "033b861ef9207fd7e283cc08d5b9636610dc11ad5e678f4fd3cfd9a9064ae7ef",
-          "generation_seconds": 95.1,
-          "visual_review": "PASS adult/title/count/support; FAIL juvenile wing too long/layered with adult-like pale spots; targeted juvenile-only edit required",
-          "reviewed_path": "owl-pet/production/reviewed/47-strix-leptogrammica-v3-reviewed-master.png",
-          "reviewed_blob": "0dd63926f383b0e4496c3cc20bfcb9f9db222919",
-          "reviewed_size_bytes": 2801737,
-          "reviewed_sha256": "a14b43dd4a9d0822963858ff81149fc63f7159c3383e5057a0f237de0983a889",
-          "edit_seconds": 197.6,
-          "edit_count": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "review_summary": "One juvenile-only edit removed adult-like pale spots and long layered remiges; shortened rounded wing embedded in mesoptile and concealed tail; title, adults, cavity, habitat and supports preserved. Exact cross-subspecies feather geometry and timing remain unknown.",
+          "archive_commit": "6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9",
           "concept_path": "owl-pet/design/concepts/47-strix-leptogrammica-v3.png",
           "concept_blob": "7cf8b429e8296752b33efbf185f2772fb123306f",
-          "concept_dimensions": "680x453",
           "concept_size_bytes": 624046,
-          "concept_sha256": "8abb68a2bfcd4cb9721eeb96333daa70ce202488404409b412372c012b7dcaa2",
-          "readback_pending": true
+          "generated_blob": "296533411df92471f225aab76e90312720e5c5af",
+          "generated_size_bytes": 3068687,
+          "reviewed_blob": "0dd63926f383b0e4496c3cc20bfcb9f9db222919",
+          "reviewed_size_bytes": 2801737,
+          "commit_tree_readback": true,
+          "text_readback": true,
+          "scientifically_verified": false,
+          "next_cycle": 4
         }
       },
-      "last_updated_at": "2026-10-28T23:49:00+08:00",
+      "last_updated_at": "2026-10-28T23:54:00+08:00",
       "audit_notes": [
         "2026-10-28T22:35:00+08:00 new batch cycle1 STARTED #45 Strix seloputo v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
         "2026-10-28T22:38:00+08:00 cycle1 #45 v3 RESEARCH_READY; new1/reused4/corrected1; BESG Part 2 dated chronology read in full; documented 2–4-day post-fledging resting/balance stage selected; full prompt saved; science false; no credit.",
@@ -6195,34 +6176,14 @@
         "2026-10-28T23:36:00+08:00 cycle3 #47 v3 RESUMED from durable RESEARCH_READY; stale top-level 19:55 lease inspected as expired; 15-minute lease acquired; image generation next; no credit.",
         "2026-10-28T23:40:00+08:00 cycle3 #47 v3 IMAGE_GENERATED in 95.1s; 1536x1024 original opened. Title/count/dark eyes/untufted adults/support pass; juvenile wing is too long, layered and adult-spotted, requiring targeted juvenile-only edit; generated master persisted; no credit.",
         "2026-10-28T23:45:00+08:00 cycle3 #47 v3 REVIEWED after one juvenile-only edit; full edited 1536x1024 master and 680x453 derivative opened. Juvenile adult-like spots/long layered wing removed; short rounded mesoptile-embedded wing and concealed tail pass. PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-28T23:49:00+08:00 cycle3 #47 v3 ARCHIVED tree prepared; concept 7cf8b429e8, generated 296533411d, reviewed 0dd63926f3; manifest 475→476; fixed commit readback pending; no credit."
+        "2026-10-28T23:49:00+08:00 cycle3 #47 v3 ARCHIVED tree prepared; concept 7cf8b429e8, generated 296533411d, reviewed 0dd63926f3; manifest 475→476; fixed commit readback pending; no credit.",
+        "2026-10-28T23:54:00+08:00 cycle3 VERIFIED #47 at 6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9; commit-tree readback matched concept/generated/reviewed blob IDs and byte sizes; manifest/source/card/run/state/status/design text readback passed; batch3/6 next_cycle4; unique184/251; science false; lease released."
       ],
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261028T2308+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T23:49:00+08:00",
-        "expires_at": "2026-10-29T00:04:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 3,
-        "run_id": "20261028T2308+0800-cycle-3",
-        "species": "#47 Strix leptogrammica",
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-28T23:08:00+08:00",
-        "resume_from": "VERIFIED",
-        "resumed_at": "2026-10-28T23:36:00+08:00",
-        "heartbeat_at": "2026-10-28T23:49:00+08:00"
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261028T2308+0800-cycle-3",
-    "heartbeat_at": "2026-10-28T23:49:00+08:00",
-    "expires_at": "2026-10-29T00:04:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -6315,7 +6276,7 @@
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false.",
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false."
   ],
-  "updated_at": "2026-10-28T23:49:00+08:00",
+  "updated_at": "2026-10-28T23:54:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -6323,13 +6284,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261028T2308+0800-cycle-3",
-    "heartbeat_at": "2026-10-28T23:49:00+08:00",
-    "expires_at": "2026-10-29T00:04:00+08:00"
-  },
-  "last_updated_at": "2026-10-28T23:49:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-28T23:54:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

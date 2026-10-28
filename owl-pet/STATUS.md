@@ -1,9 +1,9 @@
-## 2026-10-29 #50 *Strix virgata* v3 ARCHIVED — readback pending
+## 2026-10-29 #50 *Strix virgata* v3 VERIFIED
 
-- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **5/6** until fixed verification.
-- Image: [design/concepts/50-strix-virgata-v3.png](design/concepts/50-strix-virgata-v3.png)
-- Research: 1 new / 5 reused / 1 corrected. Tikal female mass is substantially higher while measured wing/tail are only about 5–6% longer; v3 uses fuller body at comparable head height.
-- Review: one juvenile-only edit removed the 18–21-day nestling's long layered pale-spotted wing; full master and derivative passed with down dominance, concealed tail and complete cavity support. Exact continuous feather geometry and cross-population transfer remain unknown; science false.
+- Result: SCIENCE_REVISION VERIFIED at archive `defa5d15254d309b8d0959b1512290a2015d689e`; unique remains **184/251**; batch `2026-10-28T2235+0800` is **6/6 COMPLETE**.
+- [Original concept](design/concepts/50-strix-virgata-v3.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/defa5d15254d309b8d0959b1512290a2015d689e)
+- Fixed-commit readback matched concept `e29e60ff42…` (659,486 bytes), generated `344b79410b…` (3,239,568 bytes) and reviewed `b124588a4d…` (663,485 bytes); manifest/card/status/design/run/state markers passed.
+- Research: 1 new / 5 reused / 1 corrected. One juvenile-only edit removed the 18–21-day nestling's long layered pale-spotted wing; exact continuous feather geometry and cross-population transfer remain unknown; science false.
 
 ## 2026-10-29 #49 *Strix woodfordii* v3 VERIFIED
 

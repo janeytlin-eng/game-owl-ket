@@ -62,3 +62,6 @@
 - Reusable rule applied and visually verified: for down-dominant cavity nestlings, explicitly forbid a readable layered remex row and pale edge spots and require the wing boundary to dissolve into natal down; “shorter wing” alone is insufficient.
 - Files: `production/generated/50-strix-virgata-v3-generated-master.png`, `production/reviewed/50-strix-virgata-v3-reviewed-master.jpg`, `design/concepts/50-strix-virgata-v3.png`.
 - Result: PASS_WITH_LIMITATIONS. Exact continuous feather geometry and cross-population/subspecies transfer remain unknown; `scientifically_verified=false`.
+
+- Archive commit: `defa5d15254d309b8d0959b1512290a2015d689e`; fixed-commit readback matched concept blob `e29e60ff4258903878b586655eb32377c7eb753e` (659,486 bytes), generated blob `344b79410b228958e108bb7208a333d90ccd137c` (3,239,568 bytes) and reviewed blob `b124588a4ddaf8c982d054857bbd7a16fce3b024` (663,485 bytes).
+- Production state: VERIFIED; batch 6/6 COMPLETE. Scientific status remains false.

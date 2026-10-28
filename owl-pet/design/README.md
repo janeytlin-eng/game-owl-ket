@@ -2,7 +2,7 @@
 
 - Concept: [50-strix-virgata-v3.png](concepts/50-strix-virgata-v3.png)
 - Research: [species card](../knowledge/species/50-strix-virgata.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-50-strix-virgata-v3-quantified-dimorphism-correction)
-- Stage: ARCHIVED; fixed readback pending. Female body volume follows Tikal measurements without exaggerated height. One juvenile-only edit removed the long layered pale-spotted wing; science false.
+- Stage: VERIFIED at `defa5d15254d309b8d0959b1512290a2015d689e`; fixed concept/generated/reviewed blob IDs, exact byte sizes and text markers read back. Female body volume follows Tikal measurements without exaggerated height. One juvenile-only edit removed the long layered pale-spotted wing; science false.
 
 ### Incremental down-dominant nestling wing rule
 

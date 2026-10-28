@@ -561,3 +561,8 @@ Discovery: for #175, the guide only says the juvenile resembles the adult, while
 - 证据：MSO-PHOTOARK-BIR070-00063 的页面说明与像素共同确认 *O. m. romblonis* 的年龄未定幼鸟；MSO-EBIRD-ID-2026 和 MSO-MACAULAY-615554542 支持成年鸟短耳羽、暗边面盘与黄虹膜。
 - 实际修改：缩短两只成鸟耳羽；仅把幼鸟侧缘长硬翼改为短圆、绒羽覆盖的紧凑轮廓，尾部大多隐藏；保留实拍支持的浅黄赭虹膜和完整落脚支撑。
 - 验证范围：编辑后的 1536×1024 主图与 680×453 衍生图均已查看通过。它只验证“可见软部可按实拍、未见侧翼不补成熟羽序”在本图有效；不证明精确年龄、飞行能力、连续羽序或其他亚种相同，科学状态仍为 false。
+
+
+### Git blob identity is not image-integrity proof (discovered/applied/verified 2026-10-28, #27 v3)
+
+A Git blob SHA can be stable while the stored raster is still undecodable or visually incomplete. #27 v3's first durable PNG matched its recorded Git blob, yet actual CRC validation failed and tolerant decoding exposed a flat missing lower half; stored byte/SHA metadata was also inconsistent. The invalid asset was not edited or credited. The persisted full prompt was regenerated, and the new source, full-resolution master and 680×453 derivative were all opened before archive. This verifies one recovery rule: require decode and visual readback in addition to blob identity/size. It does not imply that every historical blob is corrupt; apply the check to new archives and suspicious recoveries.

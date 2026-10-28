@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-28T11:38:55.479+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5290,7 +5290,33 @@
       "archive_note": "Initial 1536x1024 render failed the juvenile pattern check. One targeted edit removed crisp adult-like crown/back/wing spots. Edited source, optimized full master and 680x453 derivative were viewed and passed. Science remains false pending stated unknowns.",
       "archive_commit": "3ff8adaa7903e00d22a101fc81b1d32e915cb3e6",
       "verified_at": "2026-10-28T10:33:00.000+08:00"
+    },
+    {
+      "id": "27-glaucidium-passerinum-v3",
+      "path": "design/concepts/27-glaucidium-passerinum-v3.png",
+      "species_id": 27,
+      "scientific_name": "Glaucidium passerinum",
+      "common_name": "Eurasian Pygmy-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "4692ea48fded40718c1568eadd0502d5512ebed763ff29c0134c259a064dcd9c",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using an 8/12/18/20/27-day developmental synthesis citing Schönn 1980. Adults remain near-equal in standing scale with the female only subtly fuller; male angle exposes the nape false-eye pattern. The juvenile is an explicit 20-day cavity nestling with dense chocolate-brown nearly unspotted mesoptile, sparse longitudinal underpart marks, muted iris, short soft rounded wing, hidden immature tail and complete cavity support. Primary Schönn pages, exact day-20 iris and individual variation remain unresolved.",
+      "source_ids": [
+        "EUPO-EGIR-2026",
+        "EUPO-PACENOVSKY-SOTNAR-2010",
+        "EUPO-SOVADINOVA-2024",
+        "EUPO-LUNDBERG-1986",
+        "EUPO-ADW-2018"
+      ],
+      "source_index": "research/species/27-glaucidium-passerinum-v3.md",
+      "run_record": "production/runs/20261028T1035+0800-newbatch-cycle-1.md",
+      "reviewed_at": "2026-10-28T11:38:55.479+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 261567,
+      "git_blob": "904993d0422346230930ad72fd42ceb54a9abaeb",
+      "archive_note": "The first durable generated blob was corrupt (PNG CRC error and missing lower half) and could not be used as an edit input. The persisted prompt was rebuilt with the required juvenile-wing correction. Rebuilt 1536x1024 source, optimized full master and 680x453 derivative were opened and passed. Science remains false."
     }
   ],
-  "updated_at": "2026-10-28T10:33:00.000+08:00"
+  "updated_at": "2026-10-28T11:38:55.479+08:00"
 }

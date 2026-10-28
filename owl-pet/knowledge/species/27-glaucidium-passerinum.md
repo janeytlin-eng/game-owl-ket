@@ -27,3 +27,8 @@ The first render kept adult-like white-spotted layered juvenile remiges and a co
 A newly read Russian scientific synthesis citing Schönn (1980) provides an 8/12/18/20/27-day feather sequence. v3 therefore changes stage, not merely styling: a 20-day cavity nestling has dense chocolate-brown mesoptile and appears evenly feathered, but its tail and facial disc retain numerous pins; the upperparts are nearly unspotted and the whitish underparts carry sparse longitudinal brown marks. Flight and a mature barred tail are excluded.
 
 The source is secondary and the underlying primary pages were not accessible, so day-20 iris and individual variation remain uncertain. Adult female size remains subtle; the juvenile is not sexed. Science remains false.
+
+
+### v3 production review — 2026-10-28
+
+The first durable generated blob failed actual PNG decoding (CRC error and missing lower half), so Git SHA presence alone was not accepted as image integrity. The complete persisted prompt was regenerated. Original-resolution and 680×453 review then confirmed near-equal adults, the male nape pattern, a fully cavity-supported 20-day nestling, short soft nearly unspotted juvenile wing and no mature tail/flight claim. Primary Schönn pages and exact day-20 iris remain unresolved; science remains false.

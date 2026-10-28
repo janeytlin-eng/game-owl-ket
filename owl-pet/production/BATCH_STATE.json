@@ -5537,12 +5537,12 @@
       ],
       "next_cycle": 5,
       "active_lease": {
-        "owner": "codex",
-        "run_id": "20261028T0936+0800-newbatch-cycle-3",
-        "cycle": 3,
-        "species_id": 21,
-        "heartbeat_at": "2026-10-28T09:39:00.000+08:00",
-        "expires_at": "2026-10-28T09:54:00.000+08:00"
+        "owner": "codex-work",
+        "run_id": "20261028T1008+0800-newbatch-cycle-5",
+        "cycle": 5,
+        "species_id": 24,
+        "heartbeat_at": "2026-10-28T10:13:00.000+08:00",
+        "expires_at": "2026-10-28T10:28:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -5550,23 +5550,27 @@
         "species": "#24 Glaucidium californicum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T10:11:00.000+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T10:13:00.000+08:00",
         "evidence": {
-          "new_sources": [
-            "NPO-FRYE-JAGEMAN-2012-WJO"
-          ],
-          "reused_sources": [
-            "NPO-CORNELL-ID-2026",
-            "NPO-CORNELL-OVERVIEW-2026",
-            "NPO-PEREGRINE-2026"
-          ],
-          "corrected_sources": 0,
-          "taxonomy_boundary": "2012 paper uses broad Glaucidium gnoma; Montana/Idaho study population corresponds to the project Northern Pygmy-Owl concept but is not used to resolve current species limits",
-          "science_pass": false
+          "original_path": "generated_images/exec-7c49237d-8442-4290-8848-2ce9a08ae074.png",
+          "dimensions": "1536x1024",
+          "generation_seconds": 44.311,
+          "source_sha256": "7a583b46b203220952ed7bdb478591178bb53adb9d30c0363e6cdbca50e04875",
+          "durable_blob": "32bf10e5bef3860903783ab716796a1102d15cd7",
+          "durable_bytes": 786351,
+          "actual_view": "Original-resolution image opened. Exactly three correctly labeled birds; adult identity and scale direction pass; male nape eyespots visible; juvenile is smaller, fluffy, short-tailed, both feet supported on a fork and watches a beetle.",
+          "edit_required": false,
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact day-9 plumage sequence",
+            "universal day-9 flight ability",
+            "sex-specific standing-height ratio",
+            "current species-limit treatment of broad G. gnoma literature"
+          ]
         }
       },
-      "last_updated_at": "2026-10-28T10:11:00.000+08:00",
+      "last_updated_at": "2026-10-28T10:13:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:51:00.000+08:00: new batch cycle1 STARTED canonical #18 Megascops kennicottii v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
         "2026-10-28T08:53:00.000+08:00: cycle1 #18 v3 RESEARCH_READY; new2/reused4/corrected1 sources, Mikkola pp.204–205 and primary telemetry study read; full prompt saved; science false.",
@@ -5596,19 +5600,27 @@
         "2026-10-28T10:02:00.000+08:00: cycle4 #23 v4 ARCHIVED; concept b49370e73a, reviewed 1ebf9d07e4; manifest 452→453; fixed readback pending.",
         "2026-10-28T10:04:00.000+08:00: cycle4 VERIFIED #23 Psiloscops flammeolus v4; archive 95f3e6423ba56397fd593627f29586c136b6e34f, fixed readback passed; manifest453; unique184/251; batch4/6 next_cycle5; lease released.",
         "2026-10-28T10:08:00.000+08:00: cycle5 STARTED #24 Glaucidium californicum v3 SCIENCE_REVISION; v1–v2 retained; no credit.",
-        "2026-10-28T10:11:00.000+08:00: cycle5 #24 v3 RESEARCH_READY; new1/reused3/corrected0; primary post-fledging study read, nine-days-after-fledging activity boundary applied; science false."
+        "2026-10-28T10:11:00.000+08:00: cycle5 #24 v3 RESEARCH_READY; new1/reused3/corrected0; primary post-fledging study read, nine-days-after-fledging activity boundary applied; science false.",
+        "2026-10-28T10:13:00.000+08:00: cycle5 #24 v3 IMAGE_GENERATED in 44.311s; 1536x1024 original actually opened. Count/text/adults/nape-eyespots/juvenile scale, support and shorter tail pass; no edit required. Durable full-resolution optimized PNG blob 32bf10e5be; science false; no credit."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261028T1008+0800-newbatch-cycle-5",
         "cycle": 5,
         "species_id": 24,
-        "heartbeat_at": "2026-10-28T10:11:00.000+08:00",
-        "expires_at": "2026-10-28T10:26:00.000+08:00"
+        "heartbeat_at": "2026-10-28T10:13:00.000+08:00",
+        "expires_at": "2026-10-28T10:28:00.000+08:00"
       }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-work",
+    "run_id": "20261028T1008+0800-newbatch-cycle-5",
+    "cycle": 5,
+    "species_id": 24,
+    "heartbeat_at": "2026-10-28T10:13:00.000+08:00",
+    "expires_at": "2026-10-28T10:28:00.000+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -5717,7 +5729,7 @@
     "heartbeat_at": "2026-10-28T10:11:00.000+08:00",
     "expires_at": "2026-10-28T10:26:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T10:11:00.000+08:00",
+  "last_updated_at": "2026-10-28T10:13:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5802,7 +5814,8 @@
     "2026-10-28T10:02:00.000+08:00: cycle4 #23 v4 ARCHIVED; concept b49370e73a, reviewed 1ebf9d07e4; manifest 452→453; fixed readback pending.",
     "2026-10-28T10:04:00.000+08:00: cycle4 VERIFIED #23 Psiloscops flammeolus v4; archive 95f3e6423ba56397fd593627f29586c136b6e34f, fixed readback passed; manifest453; unique184/251; batch4/6 next_cycle5; lease released.",
     "2026-10-28T10:08:00.000+08:00: cycle5 STARTED #24 Glaucidium californicum v3 SCIENCE_REVISION; v1–v2 retained; no credit.",
-    "2026-10-28T10:11:00.000+08:00: cycle5 #24 v3 RESEARCH_READY; new1/reused3/corrected0; primary post-fledging study read, nine-days-after-fledging activity boundary applied; science false."
+    "2026-10-28T10:11:00.000+08:00: cycle5 #24 v3 RESEARCH_READY; new1/reused3/corrected0; primary post-fledging study read, nine-days-after-fledging activity boundary applied; science false.",
+    "2026-10-28T10:13:00.000+08:00: cycle5 #24 v3 IMAGE_GENERATED in 44.311s; 1536x1024 original actually opened. Count/text/adults/nape-eyespots/juvenile scale, support and shorter tail pass; no edit required. Durable full-resolution optimized PNG blob 32bf10e5be; science false; no credit."
   ],
   "audit_trail": [
     {

@@ -1,3 +1,9 @@
+## #46 Mottled Wood Owl — *Strix ocellata* — v3 science revision
+
+- Concept: [46-strix-ocellata-v3.png](concepts/46-strix-ocellata-v3.png)
+- Research: [species card](../knowledge/species/46-strix-ocellata.md) · [source index](../research/SOURCE_INDEX.md#2026-10-28-46-strix-ocellata-v3-evidence-correction)
+- Stage: ARCHIVED, fixed-commit verification pending. Field-measured day-34–36 supported brancher; one juvenile-wing edit; science false.
+
 ## #45 Spotted Wood Owl — *Strix seloputo* — v3 science revision
 
 - Concept: [45-strix-seloputo-v3.png](concepts/45-strix-seloputo-v3.png)

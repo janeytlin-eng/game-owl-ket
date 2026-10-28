@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T22:49:00+08:00",
+  "updated": "2026-10-28T23:04:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5834,7 +5834,36 @@
       "readback_pending": false,
       "archive_commit": "fe5f4c2c85ad2d1539b0170aafc3ea57d78a75cf",
       "verified_at": "2026-10-28T22:49:00+08:00"
+    },
+    {
+      "id": "46-strix-ocellata-v3",
+      "path": "design/concepts/46-strix-ocellata-v3.png",
+      "species_id": 46,
+      "scientific_name": "Strix ocellata",
+      "common_name": "Mottled Wood Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "ccf3e7300f1ad73bd524373039c72918cbf112d28b474240b728a1db98dc9229",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using field serial biometry: a day-34–36 brancher leaves an open-top cavity by walking to an adjacent branch; tarsus/beak about 90% grown while wing/tail about 50%. Adults remain near-equal and same-plumage; juvenile has mesoptile barring and compact wing/tail. Daily plumage sequence, exact flight day, sample transfer and quantified dimorphism remain unknown.",
+      "source_ids": [
+        "MOWL-DESHPANDE-WOC-2022",
+        "MOWL-MIKKOLA-2013",
+        "MOWL-DESHPANDE-2018",
+        "MOWL-KUMAR-2020"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-46-strix-ocellata-v3-evidence-correction",
+      "run_record": "production/runs/20261028T2252+0800-cycle-2.md",
+      "reviewed_at": "2026-10-28T23:01:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 623970,
+      "git_blob": "030bc05c7d4597d758d485733209d893500a9d5e",
+      "generated_blob": "4e3083f87f09f6f0cd7b75badaa5bfcc8f2f97ba",
+      "reviewed_blob": "a2a72bb29d8bc93874a048d04902a91967e80e6d",
+      "archive_note": "First render had a long layered adult-spotted juvenile wing. One juvenile-only edit shortened, rounded and softened it, retained strong branch-walking support and concealed the tail; full edited original and derivative passed with limitations. Science false.",
+      "readback_pending": true,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-10-28T22:49:00+08:00"
+  "updated_at": "2026-10-28T23:04:00+08:00"
 }

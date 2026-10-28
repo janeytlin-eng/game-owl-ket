@@ -6113,8 +6113,8 @@
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261028T2252+0800-cycle-2",
-        "heartbeat_at": "2026-10-28T23:01:00+08:00",
-        "expires_at": "2026-10-28T23:16:00+08:00"
+        "heartbeat_at": "2026-10-28T23:04:00+08:00",
+        "expires_at": "2026-10-28T23:19:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -6122,30 +6122,22 @@
         "species": "#46 Strix ocellata",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T23:01:00+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T23:04:00+08:00",
         "evidence": {
-          "issue": "First juvenile wing too long/layered and adult-spotted.",
-          "edit": "One juvenile-only edit made the wing shorter, rounder, pale mesoptile-dominant and kept the tail concealed.",
-          "recheck": [
-            "1536x1024 original opened",
-            "680x453 derivative opened",
-            "text/count/adult morphology/support pass"
-          ],
-          "reviewed_path": "owl-pet/production/reviewed/46-strix-ocellata-v3-reviewed-master.jpg",
-          "reviewed_sha256": "01bdfe72e828e520314c693217a44edb2762b8ca2a4ada222b1ac76d5346dfcf",
-          "reviewed_bytes": 348237,
-          "result": "PASS_WITH_LIMITATIONS",
-          "unknowns": [
-            "daily plumage sequence",
-            "transfer from n=4/two nests",
-            "exact flight day",
-            "quantified dimorphism"
-          ],
+          "concept_path": "owl-pet/design/concepts/46-strix-ocellata-v3.png",
+          "concept_blob": "030bc05c7d4597d758d485733209d893500a9d5e",
+          "concept_sha256": "ccf3e7300f1ad73bd524373039c72918cbf112d28b474240b728a1db98dc9229",
+          "concept_bytes": 623970,
+          "dimensions": "680x453",
+          "generated_blob": "4e3083f87f09f6f0cd7b75badaa5bfcc8f2f97ba",
+          "reviewed_blob": "a2a72bb29d8bc93874a048d04902a91967e80e6d",
+          "manifest_count": "474→475",
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T23:01:00+08:00",
+      "last_updated_at": "2026-10-28T23:04:00+08:00",
       "audit_notes": [
         "2026-10-28T22:35:00+08:00 new batch cycle1 STARTED #45 Strix seloputo v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
         "2026-10-28T22:38:00+08:00 cycle1 #45 v3 RESEARCH_READY; new1/reused4/corrected1; BESG Part 2 dated chronology read in full; documented 2–4-day post-fledging resting/balance stage selected; full prompt saved; science false; no credit.",
@@ -6156,13 +6148,14 @@
         "2026-10-28T22:52:00+08:00 cycle2 STARTED #46 Strix ocellata v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
         "2026-10-28T22:55:00+08:00 cycle2 #46 v3 RESEARCH_READY; new1/reused3/corrected1; WOC proceedings printed pp.1217–1218 serial-biometry abstract read; day-34–36 brancher boundary and full prompt saved; science false; no credit.",
         "2026-10-28T22:58:00+08:00 cycle2 #46 v3 IMAGE_GENERATED in 64.3s; original opened. Text/count/adults/support pass; juvenile long layered adult-spotted wing requires targeted edit; no credit.",
-        "2026-10-28T23:01:00+08:00 cycle2 #46 v3 REVIEWED after one juvenile-only wing/tail edit; edited original and derivative opened; PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-28T23:01:00+08:00 cycle2 #46 v3 REVIEWED after one juvenile-only wing/tail edit; edited original and derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-28T23:04:00+08:00 cycle2 #46 v3 ARCHIVED tree prepared; concept 030bc05c7d, generated 4e3083f87f, reviewed a2a72bb29d; manifest 474→475; fixed readback pending; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T2252+0800-cycle-2",
-        "heartbeat_at": "2026-10-28T23:01:00+08:00",
-        "expires_at": "2026-10-28T23:16:00+08:00"
+        "heartbeat_at": "2026-10-28T23:04:00+08:00",
+        "expires_at": "2026-10-28T23:19:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -6170,7 +6163,7 @@
         "species": "#46 Strix ocellata",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "started_at": "2026-10-28T22:52:00+08:00"
       }
     }

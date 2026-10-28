@@ -1,3 +1,10 @@
+## 2026-10-28 #46 *Strix ocellata* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **1/6** until fixed verification.
+- Image: [design/concepts/46-strix-ocellata-v3.png](design/concepts/46-strix-ocellata-v3.png)
+- Research: 1 new / 3 reused / 1 corrected; field serial biometry fixes a day-34–36 walking brancher with wing/tail about 50% growth.
+- Review: one juvenile-only edit corrected the long adult-spotted wing; edited master and derivative passed with limitations. Fixed readback pending; science false.
+
 ## 2026-10-28 #45 *Strix seloputo* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **1/6**, next cycle **2**.

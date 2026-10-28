@@ -1,3 +1,10 @@
+## 2026-10-29 #50 *Strix virgata* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **5/6** until fixed verification.
+- Image: [design/concepts/50-strix-virgata-v3.png](design/concepts/50-strix-virgata-v3.png)
+- Research: 1 new / 5 reused / 1 corrected. Tikal female mass is substantially higher while measured wing/tail are only about 5–6% longer; v3 uses fuller body at comparable head height.
+- Review: one juvenile-only edit removed the 18–21-day nestling's long layered pale-spotted wing; full master and derivative passed with down dominance, concealed tail and complete cavity support. Exact continuous feather geometry and cross-population transfer remain unknown; science false.
+
 ## 2026-10-29 #49 *Strix woodfordii* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **5/6**, next cycle **6**.

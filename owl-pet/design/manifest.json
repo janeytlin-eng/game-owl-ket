@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T00:44:00+08:00",
+  "updated": "2026-10-29T01:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5955,7 +5955,37 @@
       "readback_pending": false,
       "archive_commit": "670c121434b205ee39ddf79f1012bcef819035e6",
       "verified_at": "2026-10-29T00:44:00+08:00"
+    },
+    {
+      "id": "50-strix-virgata-v3",
+      "path": "design/concepts/50-strix-virgata-v3.png",
+      "species_id": 50,
+      "scientific_name": "Strix virgata",
+      "common_name": "Mottled Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "3803da4348882dd00139ec217389013af152d69b76ae295d28c5fd4a673c6720",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION bounded to Tikal evidence. Adult female is substantially heavier but only about 5–6% longer in measured wing/tail, so v3 shows a fuller body at comparable head height with only subtly longer folded wing/tail. Juvenile is an open-eyed, down-dominant, fully supported and non-flying 18–21-day cavity nestling. The first render's long layered pale-spotted wing was removed in one juvenile-only edit; edited master and derivative passed. Exact continuous feather geometry and cross-population/subspecies transfer remain unknown.",
+      "source_ids": [
+        "MOWL-GERHARDT-1997",
+        "BWO-GER1994",
+        "OWL-SRC-0050-A",
+        "OWL-SRC-0050-B",
+        "OWL-SRC-0050-C",
+        "OWL-SRC-0050-D"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29-50-strix-virgata-v3-quantified-dimorphism-correction",
+      "run_record": "production/runs/20261029T0047+0800-cycle-6.md",
+      "reviewed_at": "2026-10-29T01:43:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 659486,
+      "git_blob": "e29e60ff4258903878b586655eb32377c7eb753e",
+      "generated_blob": "344b79410b228958e108bb7208a333d90ccd137c",
+      "reviewed_blob": "b124588a4ddaf8c982d054857bbd7a16fce3b024",
+      "archive_note": "First render passed text/count/adults/dimorphism/support but gave the 18–21-day juvenile a long layered pale-spotted wing. One juvenile-only edit removed the readable adult-like remex row and spots while preserving adults, text, habitat and support. Full edited original and derivative passed with limitations; science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T00:44:00+08:00"
+  "updated_at": "2026-10-29T01:47:00+08:00"
 }

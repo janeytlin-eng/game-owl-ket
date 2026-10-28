@@ -1,3 +1,13 @@
+## #50 Mottled Owl — *Strix virgata* — v3 science revision
+
+- Concept: [50-strix-virgata-v3.png](concepts/50-strix-virgata-v3.png)
+- Research: [species card](../knowledge/species/50-strix-virgata.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-50-strix-virgata-v3-quantified-dimorphism-correction)
+- Stage: ARCHIVED; fixed readback pending. Female body volume follows Tikal measurements without exaggerated height. One juvenile-only edit removed the long layered pale-spotted wing; science false.
+
+### Incremental down-dominant nestling wing rule
+
+For a sourced down-dominant cavity nestling, “shorter wing” is not a sufficient prompt boundary. Explicitly forbid a readable layered remex row and pale edge spots, require any emerging wing boundary to dissolve into natal down, retain a concealed tail and full belly/two-foot support, and re-open both master and derivative. Applied and visually rechecked on #50 v3; it does not establish a universal daily feather sequence.
+
 ## #49 African Wood Owl — *Strix woodfordii* — v3 science revision
 
 - Concept: [49-strix-woodfordii-v3.png](concepts/49-strix-woodfordii-v3.png)

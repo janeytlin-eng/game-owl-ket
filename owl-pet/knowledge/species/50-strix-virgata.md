@@ -52,3 +52,13 @@
 - Tikal breeding adults: female 334.9±22.0 g vs male 239.7±13.3 g; wing chord 24.6 vs 23.3 cm; tail 15.0 vs 14.1 cm (printed p.191/PDF p.2).
 - Design correction: show the female clearly fuller/heavier-bodied but at comparable head height, with only subtly longer folded wing/tail. Do not translate mass difference into exaggerated linear height.
 - Juvenile remains a Tikal 18–21-day supported cavity nestling using `BWO-GER1994`; exact continuous feather geometry and cross-population transfer remain unknown; science false.
+
+
+
+## 2026-10-29 v3 production result and self-iteration
+- Final concept: `design/concepts/50-strix-virgata-v3.png`; 680×453 PNG; 659,486 bytes; SHA-256 `3803da4348882dd00139ec217389013af152d69b76ae295d28c5fd4a673c6720`.
+- First render preserved adult morphology, exact labels, three-bird count, Tikal environment, full support and the evidence-based female-fullness direction, but failed the juvenile-wing boundary: the 18–21-day nestling had a long hard layered wing with pale edge spots.
+- One juvenile-only edit removed the readable mature remex row and spots, retaining natal-down dominance, concealed tail, non-flight posture, cavity floor/rim support and both visible supported feet. The 1536×1024 edited master and 680×453 derivative were both opened and passed.
+- Reusable rule applied and visually verified: for down-dominant cavity nestlings, explicitly forbid a readable layered remex row and pale edge spots and require the wing boundary to dissolve into natal down; “shorter wing” alone is insufficient.
+- Files: `production/generated/50-strix-virgata-v3-generated-master.png`, `production/reviewed/50-strix-virgata-v3-reviewed-master.jpg`, `design/concepts/50-strix-virgata-v3.png`.
+- Result: PASS_WITH_LIMITATIONS. Exact continuous feather geometry and cross-population/subspecies transfer remain unknown; `scientifically_verified=false`.

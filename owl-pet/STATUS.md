@@ -1793,3 +1793,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/29-glaucidium-capense-v3.png](design/concepts/29-glaucidium-capense-v3.png)
 - Research: new institutional-secondary Roberts timing cross-check plus four reused sources. Young leave at 32–33 d and learn flight at about 42 d; 35–39 d is only an event-bounded design interval.
 - Review: one juvenile wing/tail edit. Exact text/count, adult fine barring/shoulder band/no false eyes, subtle female fullness, juvenile diffuse barring, short soft wing, hidden tail and full support pass. Science false; readback pending.
+
+
+- 2026-10-28T11:55:47+08:00 — #29 *Glaucidium capense* v3 independently verified at archive `0b066d21ffd326e8fcdaa8e9fa84bd17e5d3d0e6`; concept `1528d410a3…`, generated `b0d388ea8f…`, reviewed `30965e4740…` and required metadata read back. Unique remains **184/251**; batch **3/6**, next cycle 4. Science false.

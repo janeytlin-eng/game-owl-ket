@@ -5714,25 +5714,29 @@
           "commit_sha": "8a1f349abb1e5b08fdc6dd889125a91fb528b995",
           "run_record": "owl-pet/production/runs/20261028T1142+0800-newbatch-cycle-2.md",
           "verified_at": "2026-10-28T11:49:08+08:00"
+        },
+        {
+          "cycle": 3,
+          "species": "Glaucidium capense",
+          "species_id": 29,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "0b066d21ffd326e8fcdaa8e9fa84bd17e5d3d0e6",
+          "run_record": "owl-pet/production/runs/20261028T1149+0800-newbatch-cycle-3.md",
+          "verified_at": "2026-10-28T11:55:47+08:00"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "codex-work",
-        "run_id": "20261028T1149+0800-newbatch-cycle-3",
-        "cycle": 3,
-        "species": "#29 Glaucidium capense",
-        "heartbeat_at": "2026-10-28T11:54:51+08:00",
-        "expires_at": "2026-10-28T12:09:51+08:00"
-      },
+      "next_cycle": 4,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 3,
         "run_id": "20261028T1149+0800-newbatch-cycle-3",
         "species": "#29 Glaucidium capense",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-28T11:54:51+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-28T11:55:47+08:00",
         "evidence": {
           "new_sources": [
             "ABOW-BIODIVEXPLORER-ROBERTS-2026"
@@ -5800,10 +5804,42 @@
           "manifest_count_before": 457,
           "manifest_count_after": 458,
           "unique_species_provisional": "184/251",
-          "readback_pending": true
+          "readback_pending": false,
+          "archive_commit": "0b066d21ffd326e8fcdaa8e9fa84bd17e5d3d0e6",
+          "verified_at": "2026-10-28T11:55:47+08:00",
+          "readback": {
+            "concept": {
+              "blob": "1528d410a3166f758f10996cfcdb42d8d3ca8eb5",
+              "bytes": 190379,
+              "sha256": "2d30b13c536200765a379852f2361e8f1a3aa95a5a8b22cb529a40a491ab52e0",
+              "dimensions": "680x453"
+            },
+            "generated": {
+              "blob": "b0d388ea8f3b96dd30f490751d47d0a87eb4f118",
+              "bytes": 690249,
+              "sha256": "d5e49282d859954efe90753339c717d79979960e76345afa35f13d6fa9643ca8",
+              "dimensions": "1536x1024"
+            },
+            "reviewed": {
+              "blob": "30965e4740254a5aff07c589a7e5c01f531a77d5",
+              "bytes": 632129,
+              "sha256": "186b6e5e5bda80d8c8ac21fc5d2a0970e8a5bbf75a5ee497287eebb2d14c02c9",
+              "dimensions": "1536x1024"
+            },
+            "manifest_count": 458,
+            "research_card": true,
+            "source_ids": true,
+            "run_archived": true,
+            "status": true,
+            "knowledge": true,
+            "workflow": true,
+            "design_index": true
+          },
+          "batch_cumulative": "3/6",
+          "unique_species_after": "184/251"
         }
       },
-      "last_updated_at": "2026-10-28T11:54:51+08:00",
+      "last_updated_at": "2026-10-28T11:55:47+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5823,26 +5859,13 @@
         "2026-10-28T11:50:35+08:00: cycle3 #29 v3 RESEARCH_READY; new1/reused4/corrected1. Biodiversity Explorer/Roberts separates 32–33 d departure from ~42 d flight; conservative supported pre-flight interval selected. Full prompt saved; science false.",
         "2026-10-28T11:52:20+08:00: cycle3 #29 v3 IMAGE_GENERATED in 60.1s; 1536x1024 original opened. Count/text/adults/support pass; juvenile adult-like long barred wing/tail require targeted edit. Durable source saved; no credit.",
         "2026-10-28T11:54:17+08:00: cycle3 #29 v3 REVIEWED after one 65.4s juvenile wing/tail edit; short soft wing, hidden tail and full support pass. Science false; no credit.",
-        "2026-10-28T11:54:51+08:00: cycle3 #29 v3 ARCHIVED tree prepared; concept 1528d410a3, generated b0d388ea8f, reviewed 30965e4740; manifest 457→458; unique184/251. Readback pending."
+        "2026-10-28T11:54:51+08:00: cycle3 #29 v3 ARCHIVED tree prepared; concept 1528d410a3, generated b0d388ea8f, reviewed 30965e4740; manifest 457→458; unique184/251. Readback pending.",
+        "2026-10-28T11:55:47+08:00: cycle3 VERIFIED #29 Glaucidium capense v3 at 0b066d21ffd326e8fcdaa8e9fa84bd17e5d3d0e6; fixed-commit raw decode/hash/blob/manifest/research/run/design/knowledge/workflow readback passed. Unique184/251; batch3/6 next_cycle4; lease released; science false."
       ],
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261028T1149+0800-newbatch-cycle-3",
-        "cycle": 3,
-        "species": "#29 Glaucidium capense",
-        "heartbeat_at": "2026-10-28T11:54:51+08:00",
-        "expires_at": "2026-10-28T12:09:51+08:00"
-      }
+      "lease": null
     }
   ],
-  "lease": {
-    "owner": "codex-work",
-    "run_id": "20261028T1149+0800-newbatch-cycle-3",
-    "cycle": 3,
-    "species": "#29 Glaucidium capense",
-    "heartbeat_at": "2026-10-28T11:54:51+08:00",
-    "expires_at": "2026-10-28T12:09:51+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

@@ -5895,8 +5895,8 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261028T1828+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T18:32:00+08:00",
-        "expires_at": "2026-10-28T18:47:00+08:00"
+        "heartbeat_at": "2026-10-28T18:44:00+08:00",
+        "expires_at": "2026-10-28T18:59:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5904,19 +5904,18 @@
         "species": "#38 Glaucidium nana",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T18:32:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T18:44:00+08:00",
         "evidence": {
-          "source_index_commit": "0251df286a2b387758c47a3140a7238ccc1225a7",
-          "run_commit": "790c19be7e8ea9f41fd391f3df0bc25cf8588040",
-          "new_sources": 2,
-          "reused_sources": 4,
-          "corrected_sources": 0,
-          "complete_prompt_persisted": true,
+          "generated_commit": "a180ba682392f16f4014c01c7c68dad3ca0c4740",
+          "generated_blob": "fa1b8d521884258cff390d0afe1da9f84f157b43",
+          "generated_sha256": "01eff27a9b8e6a74b0c63ea3c734201877d26a81ae4acdfa4a9fc152f7d40b55",
+          "dimensions": "1536x1024",
+          "review_issue": "juvenile adult-like white wing spots and mature tail; targeted edit completed but REVIEWED persistence pending",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T18:32:00+08:00",
+      "last_updated_at": "2026-10-28T18:44:00+08:00",
       "audit_notes": [
         "2026-10-28T16:10:00+08:00: new batch cycle1 STARTED #33 Taenioptynx brodiei v3 SCIENCE_REVISION; v1-v2 preserved; no credit.",
         "2026-10-28T16:15:00+08:00: cycle1 #33 v3 RESEARCH_READY; new2/reused2/corrected1; known 56-day fledgling boundary selected; science false.",
@@ -5935,13 +5934,14 @@
         "2026-10-28T18:01:00+08:00: cycle5 STARTED+RESEARCH_READY #37 v3; new1/reused4/corrected1; no credit; science false.",
         "2026-10-28T18:10:00+08:00: cycle5 VERIFIED #37 at 2419a6693320dd1959f538be17b81b2174f23f70; fixed readback passed; batch5/6 next_cycle6; science false.",
         "2026-10-28T18:28:40+08:00: cycle6 STARTED #38 Glaucidium nana v3 SCIENCE_REVISION; v1-v2 preserved; lease to 18:43:40; no credit.",
-        "2026-10-28T18:32:00+08:00: cycle6 #38 v3 RESEARCH_READY; new2/reused4/corrected0; field-documented fledgling boundary; complete prompt persisted; science false."
+        "2026-10-28T18:32:00+08:00: cycle6 #38 v3 RESEARCH_READY; new2/reused4/corrected0; field-documented fledgling boundary; complete prompt persisted; science false.",
+        "2026-10-28T18:44:00+08:00: cycle6 #38 v3 IMAGE_GENERATED persisted at a180ba682392f16f4014c01c7c68dad3ca0c4740; juvenile wing/tail edit required and executed; REVIEWED persistence pending; no credit."
       ],
       "lease": {
         "owner": "codex",
         "run_id": "20261028T1828+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T18:32:00+08:00",
-        "expires_at": "2026-10-28T18:47:00+08:00"
+        "heartbeat_at": "2026-10-28T18:44:00+08:00",
+        "expires_at": "2026-10-28T18:59:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -5949,7 +5949,7 @@
         "species": "#38 Glaucidium nana",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261028T1828+0800-cycle-6.md"
       },
       "invalidated_checkpoints": [

@@ -6440,18 +6440,20 @@
           "concept_path": "owl-pet/design/concepts/63-scotopelia-peli-v3.jpg",
           "concept_blob": "c7e59defffc627eede79b477b37ec4af4c103050",
           "concept_size_bytes": 593546,
-          "generated_blob": "3c7df0c0d6bb06eb0f90ce311f36d9899c0c71ba",
-          "generated_size_bytes": 3133821,
-          "reviewed_blob": "a2ff342ffc31686a3cfc0b964542674ff21c0971",
-          "reviewed_size_bytes": 2979922,
+          "generated_blob": "1a1fc478bb7ea5d54565a322b2d8886ca0d3429c",
+          "generated_size_bytes": 496873,
+          "reviewed_blob": "07b2c23743934a469414f554b508a99f2002e800",
+          "reviewed_size_bytes": 473154,
           "manifest_records": 490,
           "unique_species": 184,
           "duplicate_name_species_id": 156,
           "scientifically_verified": false,
-          "readback": "PENDING"
+          "readback": "PENDING",
+          "generated_path": "owl-pet/production/generated/63-scotopelia-peli-v3-generated-master.jpg",
+          "reviewed_path": "owl-pet/production/reviewed/63-scotopelia-peli-v3-reviewed-master.jpg"
         }
       },
-      "last_updated_at": "2026-10-29T05:44:30+08:00",
+      "last_updated_at": "2026-10-29T05:45:38+08:00",
       "audit_notes": [
         "2026-10-29T03:31:00+08:00: new batch cycle1 STARTED #59 Ketupa zeylonensis v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T03:40:00+08:00: cycle1 #59 v3 RESEARCH_READY; new1/reused3/corrected1; JBNHS pp.97–98, Indian BIRDS development sequence and ELA pp.1–2 actually read; v2 over-short late-nestling wing corrected to supported developed nest-leaving wing; full prompt saved; science false; no credit.",
@@ -6473,7 +6475,8 @@
         "2026-10-29T05:40:15+08:00: cycle5 #63 v3 RESEARCH_READY; new0/reused5/corrected2; SANBI/BirdLife South Africa and BotswanaPost active reread correct v2 undersized near-fledging juvenile and adult sex cues; full prompt saved; science false; no credit.",
         "2026-10-29T05:42:21+08:00: cycle5 #63 v3 IMAGE_GENERATED; full 1536x1024 original opened. Count/text/adults/sex cues/support pass; juvenile long regular adult-like wing and mature barred tail require bounded edit; no credit.",
         "2026-10-29T05:43:57+08:00: cycle5 #63 v3 REVIEWED after one juvenile-only wing/tail edit; full 1536x1024 edited image reopened. Adult identity/sex cues/text/support pass; juvenile wing shortened/softened and tail suppressed; science false; no credit.",
-        "2026-10-29T05:44:30+08:00: cycle5 #63 v3 ARCHIVED; concept c7e59defff, generated 3c7df0c0d6, reviewed a2ff342ffc; manifest490; fixed readback pending; no credit."
+        "2026-10-29T05:44:30+08:00: cycle5 #63 v3 ARCHIVED; concept c7e59defff, generated 3c7df0c0d6, reviewed a2ff342ffc; manifest490; fixed readback pending; no credit.",
+        "2026-10-29T05:45:38+08:00: cycle5 archive repair: fixed-tree readback rejected short PNG transfers (786305/786312 bytes); replaced with complete 1536x1024 JPEGs 496873/473154 bytes, blobs 1a1fc478bb/07b2c23743; verification pending; no credit."
       ],
       "lease": {
         "owner": "codex-work",

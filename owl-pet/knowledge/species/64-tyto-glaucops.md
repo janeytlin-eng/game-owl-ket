@@ -28,3 +28,8 @@ Image generated, edited twice and reviewed; archive d4069ad1d8148391c26ec731ae76
 - 2026-10-29T05:55:07.064+08:00: first render's full frame passed initially, but a 620×540 juvenile crop exposed too many regular shingle-like wing feathers. One juvenile-only edit shortened, reduced and down-softened the clusters; edited full 1536×1024 frame and crop were reopened.
 - [v3 concept](../../design/concepts/64-tyto-glaucops-v3.jpg) · 1350×900. Adults, text, count, female fuller-volume cue, Palmchat cavity and all natural support pass.
 - Exact feather number/sequence, exact age, first-flight threshold, fixed standing-height ratio and population-wide nest use remain unknown; science false.
+
+
+## v3 immutable archive verification
+
+- 2026-10-29T05:55:45.693+08:00: commit `0eda1847c6524b817aa9944b91f0238c763b9a87` complete-tree readback passed. Concept/generated/reviewed paths matched blobs `3f779f3cef`, `78abb4a770`, and `bf57fdb3f6` at 403529/677296/660410 bytes; all metadata markers passed. Science remains false.

@@ -1752,3 +1752,6 @@ Prolonged pale down does not imply hatchling body scale. When a species source g
 ### Incremental juvenile close-crop regularity rule
 
 A full-frame view can conceal over-regular juvenile feather layering. For evidence phrased only as “some juvenile feathers emerging,” inspect a close crop and reject continuous shingle-like layers even if the silhouette remains downy. Applied and rechecked on #64 v3; broader effectiveness remains unverified.
+
+
+- #64 v3 immutable archive verification passed at `0eda1847c6524b817aa9944b91f0238c763b9a87`; complete non-truncated tree and exact concept/generated/reviewed blob IDs plus 403529/677296/660410-byte sizes matched. Batch closed 6/6; science remains pending.

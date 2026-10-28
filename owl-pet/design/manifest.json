@@ -6387,8 +6387,26 @@
       "reviewed_size_bytes": 660410,
       "reviewed_sha256": "e02308d145dadf43df3b5fe88fa9c9dd3e7109243a6139a364d01b73ba167f15",
       "archive_note": "Re-read Curti et al. 2018 p18 and BirdsCaribbean 2023. First render full-frame looked acceptable, but a close crop exposed too many regular shingle-like juvenile wing feathers. One juvenile-only edit reduced/shortened/down-softened them; full edited master and crop reopened. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "0eda1847c6524b817aa9944b91f0238c763b9a87",
+      "verified_at": "2026-10-29T05:55:45.693+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "blob": "3f779f3cef3cf59512c1c6ed8daa3582018726d8",
+          "size_bytes": 403529
+        },
+        "generated": {
+          "blob": "78abb4a770c749909a99499815020aa1e918ac49",
+          "size_bytes": 677296
+        },
+        "reviewed": {
+          "blob": "bf57fdb3f6fb73399d531cc3f9df8ee45577e8cb",
+          "size_bytes": 660410
+        },
+        "truncated_tree": false
+      }
     }
   ],
-  "updated_at": "2026-10-29T05:55:07.064+08:00"
+  "updated_at": "2026-10-29T05:55:45.693+08:00"
 }

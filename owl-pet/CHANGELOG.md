@@ -1199,3 +1199,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Corrected v2's nearly invisible emerging wing feathers without inventing exact age: short down-softened juvenile clusters only.
 - Close crop found the first render still too regularly layered; one juvenile-only edit reduced/shortened the clusters. Full edited master and crop reopened.
 - Archived concept/generated/reviewed evidence; unique remains 184/251, science false, fixed readback pending.
+
+
+- 2026-10-29T05:55:45.693+08:00: verified #64 *Tyto glaucops* v3 archive `0eda1847c6524b817aa9944b91f0238c763b9a87` by complete commit-pinned tree and metadata readback; batch 2026-10-29T0331+0800 closed COMPLETE 6/6; unique remains 184/251 and science false.

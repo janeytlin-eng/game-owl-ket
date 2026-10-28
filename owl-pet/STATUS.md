@@ -1,3 +1,5 @@
+- 2026-10-29T05:55:45.693+08:00 — #64 *Tyto glaucops* v3 independently verified at archive `0eda1847c6524b817aa9944b91f0238c763b9a87`; exact concept/generated/reviewed blobs and byte sizes plus all metadata markers passed. Unique remains **184/251**; batch **2026-10-29T0331+0800 closed COMPLETE 6/6**. Science false.
+
 ## 2026-10-29 #64 *Tyto glaucops* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains 5/6 until fixed verification.

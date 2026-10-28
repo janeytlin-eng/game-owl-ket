@@ -5739,109 +5739,33 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261028T1538+0800-cycle-5",
+        "cycle": 5,
+        "species": "#31 Glaucidium radiatum",
+        "heartbeat_at": "2026-10-28T15:38:00+08:00",
+        "expires_at": "2026-10-28T15:53:00+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 4,
-        "run_id": "20261028T1528+0800-cycle-4",
-        "species": "#30 Glaucidium cuculoides",
+        "cycle": 5,
+        "run_id": "20261028T1538+0800-cycle-5",
+        "species": "#31 Glaucidium radiatum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T15:36:00+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-28T15:38:00+08:00",
         "evidence": {
-          "new_sources": [
-            "ASBO-SANKAMETHAWEE-PIERCE-2019",
-            "ASBO-THAIBIRDING-UPTON-2007"
+          "preserved_versions": [
+            "v1",
+            "v2"
           ],
-          "reused_sources": [
-            "ASBO-HKBWS-2024",
-            "ASBO-OWLPAGES-2020",
-            "ASBO-MDC-1877"
-          ],
-          "corrected_sources": 1,
-          "correction": "female larger/heavier qualitative direction restored; display remains near-equal height with subtle fullness",
-          "source_summary": "2019 primary paper pp.157-160: failed ground-nest attempt, no juvenile evidence; HKBWS third undated yellow-eyed juvenile-plumage stage selected",
-          "mikkola_access": "not accessible in Library or repository during this run; no page claimed",
-          "design_boundary": "undated yellow-eyed juvenile-plumage fledgling at natural banyan cavity, fully supported; no flight or exact-day claim",
-          "imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “30 · ASIAN BARRED OWLET · Glaucidium cuculoides”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Show exactly three owls, no extra birds or animals.\n\nAdult male left and adult female center stand on the same natural Chinese Banyan branch and baseline at nearly equal displayed crown height. Both are compact 22–25 cm Asian Barred Owlets with round untufted heads, lemon-yellow eyes, greenish-horn cere and yellowish-green bill, long pale eyebrows and moustachial streaks, a distinct white throat patch, dark rufous-olive-brown head/neck/breast and upperparts closely crossed by narrow pale buff bars, barred upper breast, white lower underparts with irregular brown spots and streaks, short dark tail with about six narrow pale bars, feathered tarsi and bare grayish olive-yellow toes. No paired nape false eyes. The female is only subtly fuller/heavier in body volume, not mechanically taller or a separate scale class.\n\nJuvenile right uses the third, undated Hong Kong nest-box stage only: a small fully feathered but still soft and rounded fledgling in juvenile plumage with yellow irises and visible spots on the crown and forehead. It stands low at the irregular natural cavity lip in the same banyan, with both feet gripping wood and belly/side lightly supported. Keep the wing formed but compact, soft-edged and shorter than adult proportion; keep the tail short and partly hidden by fluff and the cavity rim. Body barring is softer and less organized than on the adults. Do not assign an exact day, sex or flight ability; no airborne pose, no prey handling, no confident self-feeding claim, no adult-scale wing or tail, no hatchling down.\n\nScene: a lowland Hong Kong woodland edge near farmland, with mature banyan bark, restrained deep green foliage and warm filtered light. The 2019 Thailand ground-nesting attempt was unsuccessful and must not be turned into a juvenile scene; use the repeatedly successful Hong Kong natural tree-cavity setting instead. Accurate owl feet and natural support. No ear tufts, no nape false eyes, no exaggerated female size, no unsupported juvenile, no nest box geometry, no watermark, and no text other than the exact title and three exact role labels.",
-          "scientifically_verified": false,
-          "original_path": "generated_images/exec-0b2db888-b9f2-40d7-83af-01408a00780a.png",
-          "dimensions": "1536x1024",
-          "generation_seconds": 64.2,
-          "source_sha256": "854fcd0eebca85bf98ab45c4ac0a1a7f02f35fbb6a7217a3bdd5a13bb1d4dc18",
-          "durable_path": "owl-pet/production/generated/30-glaucidium-cuculoides-v3-generated-master.jpg",
-          "durable_blob": "0faf15dab096a9011327716bf464a83a7e77a700",
-          "durable_sha256": "11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c",
-          "durable_bytes": 719232,
-          "actual_view": "Exactly three owls; text correct; both adults fully supported and untufted; female subtly fuller at near-equal height; juvenile yellow-eyed, crown-spotted, fully supported at cavity lip, compact wing, hidden tail.",
-          "edit_required": false,
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
-          "reviewed_path": "owl-pet/production/reviewed/30-glaucidium-cuculoides-v3-reviewed-master.jpg",
-          "reviewed_blob": "0faf15dab096a9011327716bf464a83a7e77a700",
-          "reviewed_sha256": "11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c",
-          "reviewed_bytes": 719232,
-          "checks": [
-            "exact title and labels",
-            "exactly three owls",
-            "adult yellow eyes and pale bill",
-            "no ear tufts or nape false eyes",
-            "female subtly fuller not taller",
-            "juvenile yellow iris and crown/forehead spots",
-            "juvenile both feet and body supported",
-            "compact wing and hidden tail",
-            "no flight/prey claim"
-          ],
-          "limitations": [
-            "undated HKBWS stage",
-            "exact flight ability unknown",
-            "continuous feather sequence unknown",
-            "juvenile bill/foot chronology unknown",
-            "subspecies not claimed",
-            "science false"
-          ],
-          "concept_path": "owl-pet/design/concepts/30-glaucidium-cuculoides-v3.png",
-          "concept_blob": "9dea21238c20bf00da70d975ae6949bd9b059b55",
-          "concept_sha256": "3d367183c60bf08cd3252ec45913e5e58e449879636c67039e880e9454d8030e",
-          "concept_bytes": 195780,
-          "generated_path": "owl-pet/production/generated/30-glaucidium-cuculoides-v3-generated-master.jpg",
-          "manifest_count_before": 458,
-          "manifest_count_after": 459,
-          "unique_species_provisional": "184/251",
-          "archive_commit": "b55d0f4a1b5f1522a04afd5e1c65e07af1f85861",
-          "verified_at": "2026-10-28T15:36:00+08:00",
-          "readback": {
-            "concept": {
-              "blob": "9dea21238c20bf00da70d975ae6949bd9b059b55",
-              "bytes": 195780,
-              "sha256": "3d367183c60bf08cd3252ec45913e5e58e449879636c67039e880e9454d8030e",
-              "dimensions": "680x453"
-            },
-            "generated": {
-              "blob": "0faf15dab096a9011327716bf464a83a7e77a700",
-              "bytes": 719232,
-              "sha256": "11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c",
-              "dimensions": "1536x1024"
-            },
-            "reviewed": {
-              "blob": "0faf15dab096a9011327716bf464a83a7e77a700",
-              "bytes": 719232,
-              "sha256": "11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c",
-              "dimensions": "1536x1024"
-            },
-            "manifest_count": 459,
-            "research_card": true,
-            "source_ids": true,
-            "run_archived": true,
-            "status": true,
-            "knowledge": true,
-            "design_index": true
-          },
-          "batch_cumulative": "4/6",
-          "unique_species_after": "184/251"
+          "intended_version": "v3",
+          "unique_species_increment": 0,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T15:36:00+08:00",
+      "last_updated_at": "2026-10-28T15:38:00+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5868,9 +5792,17 @@
         "2026-10-28T15:32:30+08:00: cycle4 #30 v3 IMAGE_GENERATED in 64.2s; original 1536x1024 opened. Count/text/adults/support pass; juvenile matches undated fully feathered third HKBWS stage. No evidence-based edit required. Durable JPEG saved; no credit.",
         "2026-10-28T15:34:00+08:00: cycle4 #30 v3 REVIEWED; first 1536x1024 render passed count/text/adults/support and evidence-bounded fully feathered juvenile stage. No edit warranted; science false; no credit.",
         "2026-10-28T15:35:00+08:00: cycle4 #30 v3 ARCHIVED tree prepared; concept 9dea21238c, generated/reviewed 0faf15dab0; manifest458→459; unique184/251. Fixed readback pending; no credit.",
-        "2026-10-28T15:36:00+08:00: cycle4 VERIFIED #30 Glaucidium cuculoides v3 at b55d0f4a1b5f1522a04afd5e1c65e07af1f85861; fixed-commit decode/hash/blob/manifest/source/card/run/status/knowledge/design readback passed. Unique184/251; batch4/6 next_cycle5; lease released; science false."
+        "2026-10-28T15:36:00+08:00: cycle4 VERIFIED #30 Glaucidium cuculoides v3 at b55d0f4a1b5f1522a04afd5e1c65e07af1f85861; fixed-commit decode/hash/blob/manifest/source/card/run/status/knowledge/design readback passed. Unique184/251; batch4/6 next_cycle5; lease released; science false.",
+        "2026-10-28T15:38:00+08:00: cycle5 STARTED #31 Glaucidium radiatum v3 SCIENCE_REVISION; v1-v2 preserved; active juvenile-development search required; no credit."
       ],
-      "lease": null
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "20261028T1538+0800-cycle-5",
+        "cycle": 5,
+        "species": "#31 Glaucidium radiatum",
+        "heartbeat_at": "2026-10-28T15:38:00+08:00",
+        "expires_at": "2026-10-28T15:53:00+08:00"
+      }
     }
   ],
   "lease": null,

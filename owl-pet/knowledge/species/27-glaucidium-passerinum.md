@@ -20,3 +20,10 @@ Animal Diversity Web物种档案支持欧亚鸺鹠幼鸟由白色绒羽逐步换
 Pačenovský & Šotnár (2010) followed post-fledging families: dependent young used dense beech/ash cover, changed trees, continued begging, and still failed hunting attempts on day 22. The authors explicitly state that incidental fledgling finds cannot be assigned precise ages. Stehlíková Sovadinová et al. (2024) tested 242 juveniles and states that external sex-related signs are absent, so the v2 juvenile is not assigned a sex. Adult reversed size dimorphism is shown only subtly.
 
 The first render kept adult-like white-spotted layered juvenile remiges and a complete barred tail. One targeted edit shortened/softened the folded wings, removed most wing spots and reduced the tail bars, while preserving the supported begging posture, adults and forest/cavity context. Immutable archive: commit `510ec23c05aa8d5763107555f888b06d7d76e46d`, blob `b00e1f205dc60e13397713451285a56d937e7f83`, SHA-256 `82f9ed785a580d2fe63e640b13ead1416f7711e9211afbcfc992330408958446`. Exact age, iris chronology and continuous feather sequence remain unknown; science verification is false.
+
+
+## v3 evidence increment — 2026-10-28
+
+A newly read Russian scientific synthesis citing Schönn (1980) provides an 8/12/18/20/27-day feather sequence. v3 therefore changes stage, not merely styling: a 20-day cavity nestling has dense chocolate-brown mesoptile and appears evenly feathered, but its tail and facial disc retain numerous pins; the upperparts are nearly unspotted and the whitish underparts carry sparse longitudinal brown marks. Flight and a mature barred tail are excluded.
+
+The source is secondary and the underlying primary pages were not accessible, so day-20 iris and individual variation remain uncertain. Adult female size remains subtle; the juvenile is not sexed. Science remains false.

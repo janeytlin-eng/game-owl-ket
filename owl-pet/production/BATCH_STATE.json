@@ -5699,8 +5699,8 @@
         "run_id": "20261028T1035+0800-newbatch-cycle-1",
         "cycle": 1,
         "species_id": 27,
-        "heartbeat_at": "2026-10-28T10:35:00.000+08:00",
-        "expires_at": "2026-10-28T10:50:00.000+08:00"
+        "heartbeat_at": "2026-10-28T10:38:00.000+08:00",
+        "expires_at": "2026-10-28T10:53:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5708,28 +5708,37 @@
         "species": "#27 Glaucidium passerinum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T10:35:00.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T10:38:00.000+08:00",
         "evidence": {
-          "prior_versions": [
-            "v1",
-            "v2"
+          "new_sources": [
+            "EUPO-EGIR-2026"
           ],
-          "selection": "newly read age-series synthesis enables an evidence-bounded 20-day cavity nestling rather than another age-unknown fledgling; exact primary Schönn pages are unavailable and limitation will be explicit",
+          "reused_sources": [
+            "EUPO-PACENOVSKY-SOTNAR-2010",
+            "EUPO-SOVADINOVA-2024",
+            "EUPO-LUNDBERG-1986",
+            "EUPO-ADW-2018"
+          ],
+          "corrected_sources": 1,
+          "correction": "v2 correctly kept an undated fledgling; new age-series synthesis citing Schönn 1980 now permits a 20-day nestling boundary while preserving the lack of primary-page access and exact eye chronology",
+          "design_boundary": "20-day cavity nestling, dense chocolate-brown mesoptile, head/back nearly unspotted, whitish underparts with sparse longitudinal marks, face/tail feather pins, no mature tail or flight; adult female only subtly fuller.",
+          "imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “27 · EURASIAN PYGMY-OWL · Glaucidium passerinum”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Exactly three birds.\n\nAdult male left and adult female center perch on the same spruce branch at the same baseline, with the female only subtly fuller and slightly longer in body/tail direction, not mechanically taller. Both adults are tiny untufted owls with broad rounded heads, lemon-yellow irides, pale gray-yellow bills, gray-brown upperparts scattered with small pale rounded spots, a pale nape half-collar and dark nape false-eye pattern, white underparts with blurred dark-brown longitudinal streaks, and brown tails with three or four pale bars. Turn the male slightly to expose the nape pattern; female faces forward. Do not invent strong sex plumage differences.\n\nJuvenile right is explicitly a 20-day cavity nestling, not a fledgling. It sits low at a woodpecker-cavity lip with belly and both feet fully supported. Follow the sourced 20-day boundary: the body is evenly covered in very dense chocolate-brown mesoptile; head, nape and back look smooth and nearly unspotted, darker than adults; underparts are whitish with sparse soft brown longitudinal marks concentrated on flanks, crop and chest. The face disc and tail still show many short emerging feather pins, and the tail is not a mature barred adult tail. Wings are short, rounded and fully folded against the body, with no long adult-like layered remiges or white spot rows. Iris should be muted brownish-olive rather than adult-bright yellow, explicitly as a conservative between-endpoints design inference. No flight, brancher or begging-action claim.\n\nSet a quiet mature spruce-aspen forest with a close old woodpecker cavity and dense young spruce cover. Exact title and three labels only. Exactly three owls, no extra birds, no prey, no airborne pose, no dangling feet, no mature juvenile tail, no watermark.",
           "science_pass": false
         }
       },
-      "last_updated_at": "2026-10-28T10:35:00.000+08:00",
+      "last_updated_at": "2026-10-28T10:38:00.000+08:00",
       "audit_notes": [
-        "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit."
+        "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
+        "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261028T1035+0800-newbatch-cycle-1",
         "cycle": 1,
         "species_id": 27,
-        "heartbeat_at": "2026-10-28T10:35:00.000+08:00",
-        "expires_at": "2026-10-28T10:50:00.000+08:00"
+        "heartbeat_at": "2026-10-28T10:38:00.000+08:00",
+        "expires_at": "2026-10-28T10:53:00.000+08:00"
       }
     }
   ],
@@ -5738,8 +5747,8 @@
     "run_id": "20261028T1035+0800-newbatch-cycle-1",
     "cycle": 1,
     "species_id": 27,
-    "heartbeat_at": "2026-10-28T10:35:00.000+08:00",
-    "expires_at": "2026-10-28T10:50:00.000+08:00"
+    "heartbeat_at": "2026-10-28T10:38:00.000+08:00",
+    "expires_at": "2026-10-28T10:53:00.000+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -5849,7 +5858,7 @@
     "heartbeat_at": "2026-10-28T10:11:00.000+08:00",
     "expires_at": "2026-10-28T10:26:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T10:35:00.000+08:00",
+  "last_updated_at": "2026-10-28T10:38:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5945,7 +5954,8 @@
     "2026-10-28T10:29:00.000+08:00: #26 v3 REVIEWED after one edit; juvenile pattern corrected, science false.",
     "2026-10-28T10:31:00.000+08:00: #26 v3 ARCHIVED; fixed readback pending.",
     "2026-10-28T10:33:00.000+08:00: cycle6 VERIFIED #26 Glaucidium siju v3 at 3ff8adaa7903e00d22a101fc81b1d32e915cb3e6; batch COMPLETE6/6.",
-    "2026-10-28T10:35:00.000+08:00: new batch 2026-10-28T1035+0800 cycle1 STARTED #27 v3; no credit."
+    "2026-10-28T10:35:00.000+08:00: new batch 2026-10-28T1035+0800 cycle1 STARTED #27 v3; no credit.",
+    "2026-10-28T10:38:00.000+08:00: #27 v3 RESEARCH_READY; 20-day evidence boundary saved."
   ],
   "audit_trail": [
     {

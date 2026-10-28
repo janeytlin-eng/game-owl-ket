@@ -6008,14 +6008,14 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261028T2006+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T20:06:00+08:00",
-        "expires_at": "2026-10-28T20:21:00+08:00"
+        "heartbeat_at": "2026-10-28T20:11:30+08:00",
+        "expires_at": "2026-10-28T20:26:30+08:00"
       },
       "lease": {
         "owner": "codex",
         "run_id": "20261028T2006+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T20:06:00+08:00",
-        "expires_at": "2026-10-28T20:21:00+08:00"
+        "heartbeat_at": "2026-10-28T20:11:30+08:00",
+        "expires_at": "2026-10-28T20:26:30+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -6023,7 +6023,7 @@
         "species": "#41 Glaucidium cobanense",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261028T2006+0800-cycle-3.md"
       },
       "cycle_checkpoint": {
@@ -6032,14 +6032,19 @@
         "species": "#41 Glaucidium cobanense",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T20:06:00+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T20:11:30+08:00",
         "evidence": {
-          "start_parent": "4ccc8c6ac2c9831c9176980f86d182bb4e551d9f",
-          "selection": "manifest has v2 only; v3 absent; dedicated field-research page exposes juvenile-at-nest and female-with-juvenile evidence"
+          "new_sources": 2,
+          "reused_sources": 4,
+          "corrected_sources": 1,
+          "source_index": "owl-pet/research/SOURCE_INDEX.md#2026-10-28-41-glaucidium-cobanense-v3-evidence-increment",
+          "species_card": "owl-pet/knowledge/species/41-glaucidium-cobanense.md",
+          "juvenile_boundary": "field page identifies brown-morph juvenile at nest entrance; exact plumage/age pixels unavailable",
+          "prompt_saved": true
         }
       },
-      "last_updated_at": "2026-10-28T20:06:00+08:00",
+      "last_updated_at": "2026-10-28T20:11:30+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6054,7 +6059,8 @@
         "2026-10-28T19:56:30+08:00 cycle2 #40 v3 REVIEWED after one juvenile-only edit; original and derivative viewed; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-28T20:00:30+08:00 cycle2 #40 v3 ARCHIVED tree prepared; concept ea7df51491, generated da55112dac, reviewed 00281b3dd8; manifest 468→469; fixed readback pending; no credit.",
         "2026-10-28T20:03:30+08:00 cycle2 VERIFIED #40 at 34bab668db91a953d25061febce615ddb7e79fda; fixed tree/blob sizes and manifest/source/card/run/state/STATUS/design readback passed; batch2/6 next_cycle3; science false.",
-        "2026-10-28T20:06:00+08:00 cycle3 STARTED #41 Glaucidium cobanense v3 SCIENCE_REVISION; no credit."
+        "2026-10-28T20:06:00+08:00 cycle3 STARTED #41 Glaucidium cobanense v3 SCIENCE_REVISION; no credit.",
+        "2026-10-28T20:11:30+08:00 cycle3 #41 v3 RESEARCH_READY; new2/reused4/corrected1; full prompt saved; science false; no credit."
       ]
     }
   ],

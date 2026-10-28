@@ -30,3 +30,15 @@ Pending. Exact mesoptile age, wing/tail chronology, sex measurements and final c
 - Recovery: reused the persisted REVIEWED checkpoint only after the local PNG hash matched the run record; no regeneration.
 - Review result: one targeted edit removed adult-like juvenile wing spots/layered remiges and shortened/softened the wing and tail. Exactly three labeled birds, same-scale adults and natural foot support were rechecked.
 - Scientific status remains pending; exact mesoptile age, continuous feather chronology, sex measurements and checklist treatment are unresolved.
+
+
+## v3 evidence increment — 2026-10-28
+
+- Added `GUPO-BSG-2026` and `GUPO-HOWELL-EISERMANN-2011`; reused `SRC-BOOK-041-01`, `SRC-PAPER-041-02`, `SRC-WEB-041-03`, and `SRC-WEB-041-04`.
+- Bird Studies Guatemala text identifies juvenile brown morph, juveniles at the nest entrance, and a female with juvenile; linked image pixels were inaccessible and are not claimed as viewed.
+- Howell & Eisermann (2011), printed pp.74–76/PDF pp.1–3, documents both adult morphs and a brown-morph male at a nest entrance in bromeliad habitat.
+- V3 uses a same-morph brown adult pair and a supported brown-morph mesoptile at the cavity lip, preventing morph from being misread as sex difference. Exact age, feather chronology and flight remain unknown; science pending.
+
+### v3 complete image-generation prompt
+
+Scientific-educational owl electronic-pet concept sheet in the repository’s established warm painterly semi-realistic style, 3:2 horizontal board. Title exactly “41 · GUATEMALAN PYGMY-OWL · Glaucidium cobanense”. Create exactly three full-body birds with exact labels “ADULT MALE”, “ADULT FEMALE”, and “JUVENILE”. Use the field-documented brown morph consistently for both adults and the juvenile; do not turn morph into a sex difference. Adults: tiny compact round heads, absolutely no ear tufts, yellow eyes, yellowish-horn bills, warm dark brown crown and upperparts with subdued small pale spots, bold dark nape false-eye patches bordered buff-white, barred brown wings and short tail, white central throat-to-belly and brown/rufous sides with broad diffuse streaks. Adult male is on a side branch in rear three-quarter view to show both nape false-eye patches. Adult female is near the cavity entrance, same standing height and bulk as male, no invented size difference. Juvenile: documented brown-morph mesoptile at the natural cavity lip, both feet securely supported, alert; soft diffuse brown body, grayish unspotted crown, mottled forehead, compact short soft folded wing without crisp adult spot rows or layered mature remiges, short soft tail. Do not invent exact age, hatchling down, independent flight or a precise feather sequence. Habitat: misty Guatemalan highland oak-pine forest with moss and bromeliads; natural woodpecker-like tree cavity, no decorative nest materials. Three distinct poses, clean anatomical separation, natural support. No extra birds, no ear tufts, no exaggerated female, no mature juvenile wing/tail, no watermark, and no text beyond the title and three labels.

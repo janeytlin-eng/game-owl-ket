@@ -41,3 +41,5 @@ Sources BOR-MIK2013-440, BOR-KOUBA-2014 at research/SOURCE_INDEX.md; original v1
 PLOS 2015 bounds fledging at 27–38 days and confirms incomplete wing growth; PLOS 2014 bounds entrance perching/climbing; Mikkola printed pp.440–443 and Korpimäki & Hakkarainen 2012 support a dark-chocolate, sooty-faced, white-browed late juvenile with a few scapular/wing-coverts spots. The approx. 30–33-day cavity-edge/recent fledgling passed first render; no edit was warranted. Exact day, continuous feather map, ratio, subspecies and cavity/box geometry remain unknown; science false.
 
 ![v3](../../design/concepts/11-aegolius-funereus-v3.png)
+
+Commit-pinned readback at `67e4d89e8844d95bd7192e275ab59e7d9d36b148` verified concept `72c5fd4fa69abfa35ee7ba20ce977b46186e97a4`, generated/reviewed master `da719433590ba4e65445eecb69a0937509237f36`, manifest and records. Science remains false.

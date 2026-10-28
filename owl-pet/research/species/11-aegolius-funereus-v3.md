@@ -1,7 +1,7 @@
 # 11 · Boreal Owl · *Aegolius funereus* · v3
 
 - Action: SCIENCE_REVISION
-- Stage: ARCHIVED
+- Stage: VERIFIED
 - Date: 2026-10-28
 - v1/v2 and v1 user approval preserved; approval does not transfer.
 - Science: false.
@@ -29,4 +29,8 @@ Exact depicted day, continuous feather map, quantified standing-height ratio, su
 
 First render passed full-source and derivative checks. The older juvenile's formed but incomplete wing is evidence-supported and was not mechanically removed. PASS_WITH_LIMITATIONS; science false.
 
-Concept `design/concepts/11-aegolius-funereus-v3.png` and full-resolution indexed generated/reviewed masters entered the archive tree at 2026-10-28T08:17:09.543+08:00. Commit-pinned readback pending.
+Concept `design/concepts/11-aegolius-funereus-v3.png` and full-resolution indexed generated/reviewed masters entered the archive tree at 2026-10-28T08:17:09.543+08:00. Commit-pinned readback verified.
+
+- Archive commit: `67e4d89e8844d95bd7192e275ab59e7d9d36b148`
+- Readback: concept `72c5fd4f`, generated/reviewed `da719433`; manifest and records matched.
+- Scientific status: false; unresolved boundaries retained.

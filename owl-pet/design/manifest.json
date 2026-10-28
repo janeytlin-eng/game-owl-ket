@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T20:28:30+08:00",
+  "updated": "2026-10-28T21:38:18.731+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5713,7 +5713,33 @@
       "readback_pending": false,
       "archive_commit": "4274e3100c4b2fe9d202c154eaa57341be96a325",
       "verified_at": "2026-10-28T20:28:30+08:00"
+    },
+    {
+      "id": "42-athene-brama-v3",
+      "path": "design/concepts/42-athene-brama-v3.png",
+      "species_id": 42,
+      "scientific_name": "Athene brama",
+      "common_name": "Spotted Owlet",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "76a5d532ad25677ab364247fdde0eec003971f3a95bf5c697c773841bcaffdf4",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using the complete primary longitudinal study: externally alike near-equal adults and an approximately four-week pre-flight cavity-lip/branch-walking juvenile with nearly unspotted crown/back, soft compact subadult-length wing, concealed short tail and full two-foot support. Exact visible feather geometry, exact day, continuous chronology and independent-flight threshold remain unknown.",
+      "source_ids": [
+        "SPOT-PANDE-2011",
+        "SPOT-MIKKOLA-2013",
+        "SPOT-ALI-2015",
+        "SPOT-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-42-athene-brama-v3-evidence-correction",
+      "run_record": "production/runs/20261028T2031+0800-cycle-4.md",
+      "reviewed_at": "2026-10-28T21:34:41.875+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 627883,
+      "git_blob": "03d7191ba1968dd4950105ee5ffe08150963c7aa",
+      "archive_note": "First render passed adult/count/text/support checks but juvenile wing carried adult-like pale spots/layered remiges and the tail had crisp mature bars. One juvenile-only edit removed those spots, shortened and softened the wing, and concealed the short tail; full edited image and derivative were opened and passed. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-28T20:28:30+08:00"
+  "updated_at": "2026-10-28T21:38:18.731+08:00"
 }

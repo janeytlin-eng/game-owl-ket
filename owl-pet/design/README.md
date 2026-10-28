@@ -1,3 +1,9 @@
+## 42 · Spotted Owlet · *Athene brama* v3
+
+- [Original PNG](concepts/42-athene-brama-v3.png) · 680×453 PNG · 627,883 bytes · SHA-256 `76a5d532ad25677ab364247fdde0eec003971f3a95bf5c697c773841bcaffdf4`
+- Git blob `03d7191ba1968dd4950105ee5ffe08150963c7aa`; archive commit pending fixed readback. SCIENCE_REVISION: complete primary longitudinal evidence bounds an approximately four-week pre-flight cavity-lip/branch-walking juvenile. One targeted edit removed adult-like juvenile wing spots/layered remiges and crisp mature tail bars. Science remains pending because exact day, visible feather map, continuous chronology and independent-flight threshold are unresolved.
+- [Sources](../research/SOURCE_INDEX.md#2026-10-28-42-athene-brama-v3-evidence-correction) · [Species record](../knowledge/species/42-athene-brama.md) · [Run](../production/runs/20261028T2031+0800-cycle-4.md)
+
 ## 38 · Austral Pygmy-Owl · *Glaucidium nana* v3
 
 - [Original PNG](concepts/38-glaucidium-nana-v3.png) · 680×453 indexed PNG · 192,686 bytes · SHA-256 `0958aedac1b0bb3b6ce268695c823e3c00bc4faa20d58a4aba2d22c7627a9bc3`

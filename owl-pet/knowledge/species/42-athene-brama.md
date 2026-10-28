@@ -65,3 +65,13 @@ Create one polished scientific-reference character sheet for a virtual-pet owl s
 ### v3 complete image-generation prompt
 
 Scientific-educational owl electronic-pet concept sheet in the established warm painterly semi-realistic style, 3:2 horizontal board. Title exactly “42 · SPOTTED OWLET · Athene brama”. Create exactly three full-body nominate southern-Indian Spotted Owlets with exact labels “ADULT MALE”, “ADULT FEMALE”, and “JUVENILE”. Adults: compact round untufted heads, golden-yellow eyes, greenish-horn bills, earth-gray-brown crown and upperparts densely but irregularly spotted white, white eyebrows meeting above the bill, short narrowly barred tail, creamy underparts with short gray-brown scaly crossbars rather than long streaks, feathered tarsi. Male and female must be near-identical in standing height, bulk and plumage because sexes are externally alike; distinct poses only. Juvenile is an evidence-bounded approximately four-week pre-flight cavity-lip/branch-walking nestling, not a hatchling: low on the natural cavity rim/adjacent short branch with both feet supported, gray-brown nearly unspotted crown and mantle, softer dusky underparts with weak indistinct marks, formed but clearly shorter soft folded wings (not adult-length and no crisp adult spot rows), short tail; alert but do not depict independent flight. Habitat: open southern Indian village-edge/agricultural woodland, rough-barked tree cavity, natural sparse cavity debris, no decorative nest. Three distinct poses, clean separation. No extra birds, no ear tufts, no exaggerated female, no mature juvenile wing/tail, no eggs/prey, no watermark, and no text beyond the title and labels.
+
+
+## v3 production result — 2026-10-28
+
+- Complete primary-study correction and all four source IDs were applied; no new source was duplicated.
+- Initial 1536×1024 render passed adults, count, labels, support and habitat but failed juvenile wing/tail maturity.
+- One targeted imagegen edit removed adult-like pale wing spots and layered remiges, shortened/softened the folded wing, and made the short tail mostly concealed without changing adults, labels, environment or support.
+- Full edited master and 680×453 derivative were actually opened and passed with limitations.
+- Concept: `design/concepts/42-athene-brama-v3.png`; SHA-256 `76a5d532ad25677ab364247fdde0eec003971f3a95bf5c697c773841bcaffdf4`; Git blob `03d7191ba1968dd4950105ee5ffe08150963c7aa`.
+- Scientific status remains false; exact day, individual feather map, continuous chronology, independent-flight threshold and sex-specific growth remain unknown.

@@ -5504,8 +5504,8 @@
         "run_id": "20261028T0851+0800-newbatch-cycle-1",
         "cycle": 1,
         "species_id": 18,
-        "heartbeat_at": "2026-10-28T08:51:00.000+08:00",
-        "expires_at": "2026-10-28T09:06:00.000+08:00"
+        "heartbeat_at": "2026-10-28T08:53:00.000+08:00",
+        "expires_at": "2026-10-28T09:08:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5513,20 +5513,35 @@
         "species": "#18 Megascops kennicottii",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T08:51:00.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T08:53:00.000+08:00",
         "evidence": {
-          "existing_versions": [
-            "v1",
-            "v2"
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "species_card": "owl-pet/research/species/18-megascops-kennicottii-v3.md",
+          "sources": {
+            "new": 2,
+            "reused": 4,
+            "corrected": 1
+          },
+          "source_summary": "Mikkola printed pp.204–205/PDF206–207; primary 1997 Idaho radio-telemetry study; ADW development chronology; existing Cornell and USFS records.",
+          "design_boundary": "Late nestling/large young approx. 28–34 d, densely barred mesoptile, supported at cavity lip, short incomplete wings and no flight; shared gray morph; female fuller not taller.",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact depicted day",
+            "continuous feather sequence",
+            "eye/cere transition",
+            "juvenile wing/tail proportions",
+            "geographic/subspecies variation",
+            "standing-height ratio",
+            "universal cavity geometry"
           ],
-          "duplicate_check": "v3 absent at main 9acc918646a95d3736371c0e1ee128390b129842",
-          "user_records_preserved": "all prior versions and user records; no approval transfer"
+          "imagegen_prompt": "Create a warm hand-painted digital gouache 3:2 scientific review board. Title exactly “18 · WESTERN SCREECH-OWL · Megascops kennicottii”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Exactly three owls.\n\nAdult male left and adult female center perch on the same branch and baseline in an open-canopy western North American riparian woodland with cottonwood/sycamore and a natural tree cavity. Both adults use one neutral southwestern gray morph, never regional morph as sex. They are compact and square-headed with small short ear tufts, bright yellow eyes, blackish bill and cere with horn-colored tip, gray-brown upperparts with black shaft streaks and fine vermiculation, a white scapular spot line, strongly barred flight feathers, pale underparts with black shaft streaks and irregular cross-bars, dark-edged pale facial discs, feathered tarsi and gray-brown toes. Female only subtly fuller/heavier, not taller.\n\nJuvenile at right is one late nestling/large young approximately 28–34 days old at the cavity lip, still fully supported and not airborne. It has a densely fine-barred gray mesoptile across head, mantle and underparts, reduced soft ear tufts, yellowish eyes, short formed but incompletely grown wings held close with one brief defensive half-stretch, and a short tail mostly concealed by fluff. Both feet grip bark. Do not make a white hatchling; do not use mature adult wing length or confident flight.\n\nWarm restrained ochre/gray-green palette, clear review-board spacing, accurate owl toes and support. No extra birds, no red morph, no size-exaggerated female, no long adult-like juvenile remiges/tail, no flight, no spread full wing, no fabricated nest material, no labels beyond the exact title and three role labels."
         }
       },
-      "last_updated_at": "2026-10-28T08:51:00.000+08:00",
+      "last_updated_at": "2026-10-28T08:53:00.000+08:00",
       "audit_notes": [
-        "2026-10-28T08:51:00.000+08:00: new batch cycle1 STARTED canonical #18 Megascops kennicottii v3 SCIENCE_REVISION; v1/v2 preserved; no credit."
+        "2026-10-28T08:51:00.000+08:00: new batch cycle1 STARTED canonical #18 Megascops kennicottii v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
+        "2026-10-28T08:53:00.000+08:00: cycle1 #18 v3 RESEARCH_READY; new2/reused4/corrected1 sources, Mikkola pp.204–205 and primary telemetry study read; full prompt saved; science false."
       ]
     }
   ],
@@ -5636,10 +5651,10 @@
     "run_id": "20261028T0851+0800-newbatch-cycle-1",
     "cycle": 1,
     "species_id": 18,
-    "heartbeat_at": "2026-10-28T08:51:00.000+08:00",
-    "expires_at": "2026-10-28T09:06:00.000+08:00"
+    "heartbeat_at": "2026-10-28T08:53:00.000+08:00",
+    "expires_at": "2026-10-28T09:08:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T08:51:00.000+08:00",
+  "last_updated_at": "2026-10-28T08:53:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

@@ -4540,3 +4540,16 @@ Links: [species research](species/15-strix-varia-v4.md) · [run](../production/r
 **Source counts:** new 4 / reused 1 / corrected 1.  
 **Unknowns retained:** exact depicted day, continuous feather sequence, juvenile eye/cere chronology, wing/tail proportions, subspecies/morph variation, standing-height ratio, universal cavity geometry. `scientifically_verified=false`.  
 **Related:** [research card](species/17-megascops-asio-v5.md) · [run](../production/runs/20261028T0851+0800-cycle-6.md).
+
+
+## #166 Western Screech-Owl — *Megascops kennicottii* — 2026-10-28
+
+| ID | Source | Type / material read | Evidence used | Limits |
+|---|---|---|---|---|
+| WESO-MIKKOLA-2013-P204 | Heimo Mikkola, *Owls of the World: A Photographic Guide* (2013), printed pp.204–205 / uploaded PDF pp.206–207, read 2026-10-28 | Photographic guide species account and caption actually extracted | Adult short ear tufts, gray/brown morphs, female >30 g heavier on average, yellow eyes, blackish bill/cere, white scapular line, barred wing/tail and feathered tarsi. White downy chick; mesoptile densely barred on head, mantle and underparts. Caption shows a female and large young of race *aikeni*. | Secondary guide; “large young” caption has no exact age/action; eight-subspecies treatment is historical scope, not a universal color/ratio template. |
+| WESO-ELLSWORTH-BELTHOFF-1997 | Ethan Ellsworth & James Belthoff, “Sex-biased Dispersal of Young Western Screech-owls (*Otus kennicottii*)”, in *Biology and Conservation of Owls of the Northern Hemisphere*, USDA Forest Service GTR NC-190, 1997, pp.155–159, https://www.nrs.fs.usda.gov/pubs/gtr/gtr_nc190/gtr_nc190_155.pdf, read 2026-10-28 | Primary radio-telemetry study; Methods/Results actually read | 48 juveniles from 15 families were fitted about one week before fledging; 50 young left boxes in the study and survivors remained on natal areas 41–97 d. Supports a fully supported pre-fledging large-young stage and prolonged family association. | Idaho nest boxes; no exact age, plumage plate or wing-length measurements in the read passage. Does not justify a precise feather map or flight posture. |
+
+**Reused/re-read:** WESO-ADW-HATCH-2026 (development: eyes open near one week, three-week defensive wing stretch, fledging roughly 27–35 d); WESO-CORNELL-ID-2026; WESO-CORNELL-LIFE-2026; WESO-USFS-NM-2010.  
+**Corrected inference:** v2’s closed-eye white hatchling is stage-specific, not the universal juvenile. v3 depicts an approximately 28–34 d, densely barred mesoptile large young fully supported at the cavity lip, with short incomplete wings and no flight. Regional morph and subspecies differences are not encoded as sex; female mass direction is rendered as subtle fullness only.  
+**Source counts:** new 2 / reused 4 / corrected 1. **Unknowns:** exact day, continuous feather sequence, eye/cere transition, juvenile wing/tail proportions, subspecies/geography, standing ratio, universal cavity geometry. `scientifically_verified=false`.  
+**Related:** [card](species/18-megascops-kennicottii-v3.md) · [run](../production/runs/20261028T0851+0800-newbatch-cycle-1.md).

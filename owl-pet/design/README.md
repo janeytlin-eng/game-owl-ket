@@ -1,7 +1,7 @@
 ## 07 · Short-eared Owl · *Asio flammeus* v3
 
 - [Original PNG](concepts/07-asio-flammeus-v3.png) · 680×453 sRGB indexed PNG · 167,329 bytes · SHA-256 `230f12c7dbf17949be09c292d81f2c4c154bfb7935c050631bab935106fd64b1`
-- Git blob `2dcbbc7808fcce58d40e35065a3b3a8911de267d`. SCIENCE_REVISION: tiny-tufted yellow-eyed adults and a dark-faced preflight ground-walker; one juvenile-wing edit. Science pending.
+- Git blob `2dcbbc7808fcce58d40e35065a3b3a8911de267d`; archive [`f47af7da`](https://github.com/janeytlin-eng/game-owl-ket/commit/f47af7da2d91eea5b9b4372ca956765845f22a14). SCIENCE_REVISION: tiny-tufted yellow-eyed adults and a dark-faced preflight ground-walker; one juvenile-wing edit. Science pending.
 - [Sources](../research/species/07-asio-flammeus-v3.md) · [Run](../production/runs/20261028T0800+0800-cycle-1.md)
 
 ## 06 · Long-eared Owl · *Asio otus* v3

@@ -1,7 +1,8 @@
-## 2026-10-28 #07 *Asio flammeus* v3 archive checkpoint
+## 2026-10-28 #07 *Asio flammeus* v3 VERIFIED
 
-- Result: SCIENCE_REVISION ARCHIVED; unique remains 184/251; readback pending.
+- Result: SCIENCE_REVISION VERIFIED; unique remains 184/251; new batch 1/6, next cycle 2.
 - Image: [design/concepts/07-asio-flammeus-v3.png](design/concepts/07-asio-flammeus-v3.png)
+- Archive [`f47af7da`](https://github.com/janeytlin-eng/game-owl-ket/commit/f47af7da2d91eea5b9b4372ca956765845f22a14); concept `2dcbbc78`, generated `e3064dca`, reviewed `76cb14aa`.
 - Research: 3 new/1 reused sources; Mikkola printed pp.512–513/PDF pp.514–515 and primary 2000 age/sex study read.
 - Review: one juvenile-wing edit; full source and derivative viewed. Science false.
 - Run: [production/runs/20261028T0800+0800-cycle-1.md](production/runs/20261028T0800+0800-cycle-1.md)

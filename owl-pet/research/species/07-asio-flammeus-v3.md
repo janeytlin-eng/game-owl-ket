@@ -1,7 +1,7 @@
 # 07 · Short-eared Owl · *Asio flammeus* · v3
 
 - Action: SCIENCE_REVISION
-- Stage: ARCHIVED
+- Stage: VERIFIED
 - Date: 2026-10-28
 - v1/v2 and v1 user confirmation preserved; confirmation does not transfer.
 - Science: false.
@@ -21,3 +21,5 @@ Initial juvenile wing was too long and carried adult-like spot rows. One targete
 ## Archive checkpoint
 
 Concept `design/concepts/07-asio-flammeus-v3.png` and full-resolution indexed generated/reviewed masters entered the archive tree at 2026-10-28T08:09:00.000+08:00. Commit-pinned readback pending; science false.
+
+Commit-pinned readback passed at `f47af7da2d91eea5b9b4372ca956765845f22a14`; cycle credited as revision with no unique-species increment. Scientific verification remains false.

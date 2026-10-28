@@ -30,8 +30,10 @@ BTO页面有生物测量栏目，但此次没有读取到成年雌雄翼长和�
 
 #07v2 actual reviewed: adultmale reduced to near-equal presentation, common groundcontacts; chickclosedeyes/whitecreamdown/lowgroundsupport preserved. No scientificsexheightvalidation; age/feathermap and slightmale-facedrift pending. BTO page fresh read, SHEO-BTO-BIRDFACTS. Priorv1approval retained nottransferred. Original2479185bytes SHA256c48f5468bf1048b9a29ecd1086695912c4c1fca2a48c5eb956ecfb46052f30b1 Gitblob2a42ee64867093fb7b5a967fe97bb280e52b736e; remoteverification pending.
 
-## v3 science-revision archive checkpoint (2026-10-28)
+## v3 science-revision VERIFIED (2026-10-28)
 
 Mikkola printed pp.512–513 and Martínez et al. 2000 bound a dark-faced, yellow-eyed mesoptile ground-walker before flight. One edit shortened the overly adult-like spotted wing and hid the tail; both feet remain on firm turf. Exact age/flight threshold/continuous feather sequence/ratio/subspecies/nest geometry remain unknown; science false.
 
 ![v3](../../design/concepts/07-asio-flammeus-v3.png)
+
+Commit-pinned readback passed at `f47af7da2d91eea5b9b4372ca956765845f22a14`; production verification only, science false.

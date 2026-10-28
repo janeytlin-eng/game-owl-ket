@@ -6024,10 +6024,21 @@
           "commit_sha": "805aef01cd56d44999b324c0ad83fd33ca8bb784",
           "run_record": "owl-pet/production/runs/20261028T2031+0800-cycle-4.md",
           "verified_at": "2026-10-28T21:40:00.096+08:00"
+        },
+        {
+          "cycle": 5,
+          "species": "Athene blewitti",
+          "species_id": 43,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6aacd4cf316108964f952883b2043401c894839e",
+          "run_record": "owl-pet/production/runs/20261028T2142+0800-cycle-5.md",
+          "verified_at": "2026-10-28T21:55:00+08:00"
         }
       ],
-      "next_cycle": 5,
-      "last_updated_at": "2026-10-28T21:54:00+08:00",
+      "next_cycle": 6,
+      "last_updated_at": "2026-10-28T21:55:00+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6059,86 +6070,9 @@
         "2026-10-28T21:47:00+08:00 cycle5 #43 v3 IMAGE_GENERATED after one pre-generation reference-image error; 1536x1024 master 08593dc0073c605d0c41ede0ad78a0ef7079f196; original view requires juvenile-wing edit; no credit.",
         "2026-10-28T21:49:00+08:00 cycle5 #43 v3 REVIEWED after one juvenile-wing edit; master and derivative viewed; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-28T21:52:00+08:00 cycle5 #43 v3 ARCHIVED tree prepared; concept 43d3d2d67e, reviewed fc85ee69eb; manifest 471→472; fixed readback pending; no credit.",
-        "2026-10-28T21:54:00+08:00 #43 generated-master archive repair: first upload truncated at 786444/797684 bytes; re-encoded same 1536x1024 PNG to 494663-byte JPEG blob 0937be3096ba8b9537c80c850795ac855e292dd4; concept/reviewed unchanged; verification pending."
-      ],
-      "in_progress": {
-        "cycle": 5,
-        "species": "Athene blewitti",
-        "species_id": 43,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "run_record": "owl-pet/production/runs/20261028T2142+0800-cycle-5.md",
-        "run_id": "20261028T2142+0800-cycle-5",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-28T21:42:00.071+08:00",
-        "lease": {
-          "owner": "codex",
-          "run_id": "20261028T2142+0800-cycle-5",
-          "heartbeat_at": "2026-10-28T21:54:00+08:00",
-          "expires_at": "2026-10-28T22:09:00+08:00"
-        },
-        "phases": {
-          "STARTED": {
-            "status": "complete",
-            "at": "2026-10-28T21:42:00.071+08:00",
-            "evidence": "run record and batch lease"
-          },
-          "RESEARCH_READY": {
-            "status": "complete",
-            "at": "2026-10-28T21:44:00+08:00",
-            "evidence": "FOW-JATHAR-2004 new; FOW-ISHTIAQ-2005 full-text correction; new1/reused4/corrected1; complete prompt in run/card"
-          },
-          "IMAGE_GENERATED": {
-            "status": "complete",
-            "at": "2026-10-28T21:47:00+08:00",
-            "evidence": "generated master 08593dc0073c605d0c41ede0ad78a0ef7079f196; actual original view; juvenile-wing edit required; initial reference-image call failed pre-generation"
-          },
-          "REVIEWED": {
-            "status": "complete",
-            "at": "2026-10-28T21:49:00+08:00",
-            "evidence": "one juvenile-only wing edit; full master and derivative viewed; reviewed fc85ee69eb4d33898b626fd5ce4d8218a840d795; PASS_WITH_LIMITATIONS"
-          },
-          "ARCHIVED": {
-            "status": "complete",
-            "at": "2026-10-28T21:52:00+08:00",
-            "evidence": "concept 43d3d2d67e79cae7bdab06088c79cdaabf9de468; reviewed fc85ee69eb; manifest 471→472; fixed readback pending"
-          },
-          "VERIFIED": {
-            "status": "pending"
-          }
-        },
-        "generated_asset": {
-          "path": "owl-pet/production/generated/43-athene-blewitti-v3-generated-master.jpg",
-          "blob_sha": "0937be3096ba8b9537c80c850795ac855e292dd4",
-          "sha256": "dcde5a1e0edae5889cac958f0edd456eadc024f5ebf161a4b95323ae44ab8c40",
-          "bytes": 494663,
-          "width": 1536,
-          "height": 1024,
-          "repair_reason": "initial base64 upload truncated"
-        },
-        "reviewed_asset": {
-          "path": "owl-pet/production/reviewed/43-athene-blewitti-v3-reviewed-master.jpg",
-          "blob_sha": "fc85ee69eb4d33898b626fd5ce4d8218a840d795",
-          "sha256": "53d9fc030ca72dc11ceea92b8afa5931f3a3b8b5b758bfd09cea2ef9595c48dc",
-          "bytes": 718776,
-          "width": 1536,
-          "height": 1024
-        },
-        "concept_asset": {
-          "path": "owl-pet/design/concepts/43-athene-blewitti-v3.png",
-          "blob_sha": "43d3d2d67e79cae7bdab06088c79cdaabf9de468",
-          "sha256": "107f434ab8f45df6b5d2527a094b677c7615034b3c80a6fe45805a86af302d75",
-          "bytes": 655007,
-          "width": 680,
-          "height": 453
-        }
-      },
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261028T2142+0800-cycle-5",
-        "heartbeat_at": "2026-10-28T21:54:00+08:00",
-        "expires_at": "2026-10-28T22:09:00+08:00"
-      }
+        "2026-10-28T21:54:00+08:00 #43 generated-master archive repair: first upload truncated at 786444/797684 bytes; re-encoded same 1536x1024 PNG to 494663-byte JPEG blob 0937be3096ba8b9537c80c850795ac855e292dd4; concept/reviewed unchanged; verification pending.",
+        "2026-10-28T21:55:00+08:00 cycle5 VERIFIED #43 at 6aacd4cf316108964f952883b2043401c894839e; concept/reviewed/generated repair blobs, sizes, signatures, manifest/source/card/run/state/status/design readback passed; batch5/6 next_cycle6; science false."
+      ]
     }
   ],
   "lease": {

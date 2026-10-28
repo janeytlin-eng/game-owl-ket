@@ -1,10 +1,10 @@
-## 2026-10-28 #43 *Athene blewitti* v3 ARCHIVED — fixed readback pending
+## 2026-10-28 #43 *Athene blewitti* v3 VERIFIED
 
-- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **4/6** until fixed readback.
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **5/6**, next cycle **6**.
 - Image: [design/concepts/43-athene-blewitti-v3.png](design/concepts/43-athene-blewitti-v3.png)
 - Research: 1 new / 4 reused / 1 corrected source record. BNHS printed pp.53–55 supplies the 28–30-day development boundary; full Ibis text corrects sex-difference and single-bird chronology limits.
 - Review: first successful render had an adult-like long layered juvenile wing. One juvenile-only edit shortened/softened it; full edited master and 680×453 derivative passed with limitations.
-- Archive: concept blob `43d3d2d67e79cae7bdab06088c79cdaabf9de468`; reviewed master blob `fc85ee69eb4d33898b626fd5ce4d8218a840d795`. Fixed commit readback pending. Science false.
+- Archive: [`6aacd4cf`](https://github.com/janeytlin-eng/game-owl-ket/commit/6aacd4cf316108964f952883b2043401c894839e); concept blob `43d3d2d67e79cae7bdab06088c79cdaabf9de468`, 655007 bytes; reviewed blob `fc85ee69eb4d33898b626fd5ce4d8218a840d795`, 718776 bytes; generated-master repair blob `0937be3096ba8b9537c80c850795ac855e292dd4`, 494663 bytes. Commit-pinned readback passed. Science false.
 
 ## 2026-10-28 #42 *Athene brama* v3 VERIFIED
 

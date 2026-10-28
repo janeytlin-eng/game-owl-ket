@@ -1,7 +1,7 @@
 ## 43 · Forest Owlet · *Athene blewitti* v3
 
 - [Original PNG](concepts/43-athene-blewitti-v3.png) · 680×453 PNG · 655,007 bytes · SHA-256 `107f434ab8f45df6b5d2527a094b677c7615034b3c80a6fe45805a86af302d75`
-- Git blob `43d3d2d67e79cae7bdab06088c79cdaabf9de468`; archive commit pending fixed readback. SCIENCE_REVISION: BNHS printed pp.53–55 bounds a 28–30-day supported nearby-perch juvenile with stumpy tail and poorly developed flight feathers. One targeted edit removed the adult-like long juvenile wing. Science remains pending because exact feather sequence, population variation and universal sexual dimorphism are unresolved.
+- Git blob `43d3d2d67e79cae7bdab06088c79cdaabf9de468`; archive commit [`6aacd4cf`](https://github.com/janeytlin-eng/game-owl-ket/commit/6aacd4cf316108964f952883b2043401c894839e). SCIENCE_REVISION: BNHS printed pp.53–55 bounds a 28–30-day supported nearby-perch juvenile with stumpy tail and poorly developed flight feathers. One targeted edit removed the adult-like long juvenile wing. Science remains pending because exact feather sequence, population variation and universal sexual dimorphism are unresolved.
 - [Sources](../research/SOURCE_INDEX.md#2026-10-28-43-athene-blewitti-v3-evidence-correction) · [Species record](../knowledge/species/43-athene-blewitti.md) · [Run](../production/runs/20261028T2142+0800-cycle-5.md)
 
 ## 42 · Spotted Owlet · *Athene brama* v3

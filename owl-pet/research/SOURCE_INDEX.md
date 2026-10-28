@@ -4617,3 +4617,17 @@ Links: [species research](species/15-strix-varia-v4.md) · [run](../production/r
 **Design decision:** v3 moves from the middle gray-down stage used in v2 to the HKBWS third, undated yellow-eyed juvenile-plumage stage, fully supported at a natural banyan cavity lip. Exact day, continuous feather sequence, flight threshold, juvenile bill/foot colour, subspecies-locality variation, quantitative sex ratio and universal nest geometry remain unknown; `scientifically_verified=false`.  
 **Source counts:** new 2 / reused 3 / corrected 1.  
 **Related:** [species record](../knowledge/species/30-glaucidium-cuculoides.md) · [run](../production/runs/20261028T1528+0800-cycle-4.md).
+
+
+## 2026-10-28 · #31 *Glaucidium radiatum* v3 evidence increment
+
+| Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |
+|---|---|---|---|---|---|---|---|---|
+| JUOW-OISEAUXNET-LEBOFF-2026 | [Jungle Owlet immature, O.Net ref. gale387974](https://www.oiseaux.net/en/photos/gabriel.leboff/jungle.owlet.7.html?ctx=espece) | Anne & Gabriel Leboff / Oiseaux.net | photographed Jan 2026; page and full image viewed 2026-10-28 | Georeferenced field photograph with EXIF and plumage metadata | *G. radiatum*, age-unknown immature, Pīlībhīt, Uttar Pradesh | Page identifies plumage as immature and records date/location/camera. Full photo was opened: fully feathered, supported on a fork, round untufted head, yellow eyes, barred crown/upperparts, compact folded wings and short barred tail. | No exact age, sex, flight threshold or longitudinal sequence; one photographed individual. Used for an age-unknown older immature, not for a universal day or all populations. |
+| JUOW-OISEAUXBIRDS-BOUGLOUAN-2026 | [Jungle Owlet species card](https://www.oiseaux-birds.com/card-jungle-owlet.html) | Nicole Bouglouan / Oiseaux-Birds | current page; lines 84–138 read 2026-10-28 | Specialist secondary synthesis citing HBW, Mikkola, König & Weick, BirdLife and BOW | adult, juvenile and habitat | Adults: 20–22 cm, yellow eyes, greenish-yellow/yellowish-gray bill, no ear tufts or nape false eyes, dense barring, feathered tarsi; sexes alike. Juvenile: less distinct barring below and browner tail bars. | Not a primary developmental study; its broader month/fledging statements were not used as a precise clock. Supports only the older-immature plumage contrast. |
+
+**Reused/re-read:** `JUOW-PF-2021` explicitly says breeding/young information is sparse and confirms tree cavities; `JUOW-OWLPAGES-2020` and `JUOW-EBIRD-2025` retain adult identity/no-false-eye boundaries.  
+**Correction:** v2 used an undated gray-white downy cavity chick because no directly viewable older juvenile evidence had been found. The newly opened georeferenced immature photo supports switching v3 to an age-unknown fully feathered older immature, while exact age/flight remains unknown.  
+**Mikkola access:** Library and repository searches again found no accessible uploaded copy; no page claim is added.  
+**Source counts:** new 2 / reused 3 / corrected 1. `scientifically_verified=false`.  
+**Related:** [species record](../knowledge/species/31-glaucidium-radiatum.md) · [run](../production/runs/20261028T1538+0800-cycle-5.md).

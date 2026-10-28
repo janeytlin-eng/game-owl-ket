@@ -5744,8 +5744,8 @@
         "run_id": "20261028T1538+0800-cycle-5",
         "cycle": 5,
         "species": "#31 Glaucidium radiatum",
-        "heartbeat_at": "2026-10-28T15:38:00+08:00",
-        "expires_at": "2026-10-28T15:53:00+08:00"
+        "heartbeat_at": "2026-10-28T15:41:00+08:00",
+        "expires_at": "2026-10-28T15:56:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -5753,19 +5753,27 @@
         "species": "#31 Glaucidium radiatum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T15:38:00+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T15:41:00+08:00",
         "evidence": {
-          "preserved_versions": [
-            "v1",
-            "v2"
+          "new_sources": [
+            "JUOW-OISEAUXNET-LEBOFF-2026",
+            "JUOW-OISEAUXBIRDS-BOUGLOUAN-2026"
           ],
-          "intended_version": "v3",
-          "unique_species_increment": 0,
+          "reused_sources": [
+            "JUOW-PF-2021",
+            "JUOW-OWLPAGES-2020",
+            "JUOW-EBIRD-2025"
+          ],
+          "corrected_sources": 1,
+          "correction": "newly viewed georeferenced immature photo supports age-unknown fully feathered older stage rather than downy v2 stage",
+          "design_boundary": "age-unknown fully feathered supported immature; less distinct underpart barring and browner tail bars; no exact age/flight claim",
+          "mikkola_access": "not accessible this run; no page claimed",
+          "imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “31 · JUNGLE OWLET · Glaucidium radiatum”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Show exactly three owls, no extra birds or animals.\n\nAdult male left and adult female center stand on the same natural deciduous-forest branch and baseline at nearly equal displayed crown height. Both are squat 20–22 cm Jungle Owlets with round untufted heads, bright lemon-yellow eyes, greenish-yellow to yellowish-gray bills, white chin and short white brows/moustachial streaks, dark gray-brown upperparts densely crossed by narrow pale ochre-rufous bars, warmer rufous upperwing panels, white underparts with dense gray-brown barring on breast and flanks, a short sooty tail narrowly barred white, and feathering down the tarsi toward greenish-yellow toes. Absolutely no paired nape false eyes. Sexes look alike; female only subtly fuller in body volume, not taller or a different scale class.\n\nJuvenile right is an age-unknown older immature grounded by the January 2026 Uttar Pradesh photograph and the compiled juvenile description. It perches low on a forked branch with both feet fully gripping wood. It is smaller and softer-contoured than adults but fully feathered: dark brown rounded crown with fine narrow buff bars, noticeably softer less-distinct barring below, a compact formed folded wing with muted rufous-brown bars, and a short tail with browner bars than the adults. Keep eyes yellow only as visible in the reference photograph, not as a universal age key. Do not claim exact age, fledging day, independence or flight ability. No hatchling down, no cavity-floor pose, no long adult-scale hard wing or tail, no prey handling.\n\nScene: central-north Indian mixed deciduous and secondary forest edge near Pīlībhīt, with dry leaves, restrained green understory and warm filtered light. Accurate owl feet and natural support. Exactly three owls. No ear tufts, no nape false eyes, no exaggerated female size, no unsupported juvenile, no airborne pose, no prey, no nest box, no watermark, and no text other than the exact title and three exact labels.",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T15:38:00+08:00",
+      "last_updated_at": "2026-10-28T15:41:00+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5793,15 +5801,16 @@
         "2026-10-28T15:34:00+08:00: cycle4 #30 v3 REVIEWED; first 1536x1024 render passed count/text/adults/support and evidence-bounded fully feathered juvenile stage. No edit warranted; science false; no credit.",
         "2026-10-28T15:35:00+08:00: cycle4 #30 v3 ARCHIVED tree prepared; concept 9dea21238c, generated/reviewed 0faf15dab0; manifest458→459; unique184/251. Fixed readback pending; no credit.",
         "2026-10-28T15:36:00+08:00: cycle4 VERIFIED #30 Glaucidium cuculoides v3 at b55d0f4a1b5f1522a04afd5e1c65e07af1f85861; fixed-commit decode/hash/blob/manifest/source/card/run/status/knowledge/design readback passed. Unique184/251; batch4/6 next_cycle5; lease released; science false.",
-        "2026-10-28T15:38:00+08:00: cycle5 STARTED #31 Glaucidium radiatum v3 SCIENCE_REVISION; v1-v2 preserved; active juvenile-development search required; no credit."
+        "2026-10-28T15:38:00+08:00: cycle5 STARTED #31 Glaucidium radiatum v3 SCIENCE_REVISION; v1-v2 preserved; active juvenile-development search required; no credit.",
+        "2026-10-28T15:41:00+08:00: cycle5 #31 v3 RESEARCH_READY; new2/reused3/corrected1. Georeferenced Jan-2026 immature photo pixels and Oiseaux-Birds juvenile description read; older age-unknown supported stage selected; science false."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1538+0800-cycle-5",
         "cycle": 5,
         "species": "#31 Glaucidium radiatum",
-        "heartbeat_at": "2026-10-28T15:38:00+08:00",
-        "expires_at": "2026-10-28T15:53:00+08:00"
+        "heartbeat_at": "2026-10-28T15:41:00+08:00",
+        "expires_at": "2026-10-28T15:56:00+08:00"
       }
     }
   ],

@@ -37,3 +37,10 @@ The juvenile is an explicitly conservative, age-unspecified concept. No exact da
 - Remaining uncertainty: exact juvenile age, continuous feather sequence, flight ability, juvenile nape pattern and sex-specific linear measurements.
 - Scientific status: **pending** (`scientifically_verified=false`).
 - Run: [2026-10-26T1341+0800 cycle 6](../../production/runs/2026-10-26T1341+0800-cycle-6.md)
+
+
+## v3 research correction — 2026-10-28
+
+- New `YPOW-AVESPERU-2026`; reused/re-read `YPOW-PEREGRINE-2026`, `SRC-WEB-036-01/02/03`, and `YPOW-EBIRD-2025`.
+- Peregrine Fund's current breeding section explicitly keeps clutch, incubation, nestling duration and flight timing unknown and describes woodpecker-hole use only as likely.
+- V3 therefore removes the implied cavity-stage claim from v2. The juvenile is an age-unknown fully feathered, naturally supported mossy-fork concept with reduced/diffuse markings. Exact age, flight ability and species-specific development remain unknown; science false.

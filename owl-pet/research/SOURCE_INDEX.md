@@ -4682,3 +4682,13 @@ The preceding `#35 Glaucidium minutissimum` block is retained as an invalidated 
 **Reused:** `ANPO-MIKKOLA-2013`, `ANPO-BOW-2020`, `ANPO-BIRDLIFE-2026`, and `ANPO-EBIRD-2025`. The uploaded Mikkola file itself was not accessible in this invocation; only the previously page-verified repository index was reused, with no new page claim.  
 **Correction:** v3 does not encode “female larger” as a fixed display rule; adults are near-equal height because no read source supplies a reliable standing linear ratio and available mass summaries are not sufficient for that inference.  
 **Design:** late-nest/age-unknown juvenile fully supported at a mossy natural cavity lip; plain/fine-lined crown, weaker diffuse underparts, short soft folded wing/tail; no exact day or flight claim. New2/reused4/corrected1; `scientifically_verified=false`.
+
+
+## 2026-10-28 · #36 *Glaucidium bolivianum* v3 evidence increment
+
+| Stable ID | Title / URL | Institution | Accessed | Type / stage | Verified evidence | Limits / design decision |
+|---|---|---|---|---|---|---|
+| YPOW-AVESPERU-2026 | [Lechucita de las Yungas](https://avesdeperu.org/strigidae/lechucita-de-las-yungas-glaucidium-bolivianum/) | Aves de Perú / CORBIDI | 2026-10-28 | institutional specialist page; adults only | Adult brown/rufous morphs, heavily spotted crown, yellow iris, dense underpart streaking; adult field images from Peru/Bolivia and 1500–3200 m east-Andean context. | Every displayed image is adult/sex unknown; no young or development evidence. Used for adult identity/habitat only. |
+
+**Reused/re-read:** `YPOW-PEREGRINE-2026` explicitly says breeding biology remains largely unknown and even the woodpecker-hole nest is likely, not a documented stage series; `SRC-WEB-036-01/02/03` and `YPOW-EBIRD-2025` retain adult morphology and distribution. A Macaulay page was access-blocked and is not indexed as read evidence.  
+**Correction:** v2's conservative juvenile is retained only as an age-unknown fully feathered design, moved from an implied cavity context to a supported mossy fork. No exact age, cavity occupancy, flight threshold or species-specific juvenile plumage claim. New1/reused5/corrected1; science false. [Species](../knowledge/species/36-glaucidium-bolivianum.md) · [run](../production/runs/20261028T1745+0800-cycle-4.md).

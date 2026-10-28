@@ -83,3 +83,5 @@ Constraints: preserve exact text and exactly three birds; no prey, eggs, nestlin
 - Generated master: blob `e69de29bb2d1d6434b8b29ae775ad8c2e48c5391`, 524639 bytes.
 - Reviewed master: blob `232c8a4e5c5616cc559a47410c9f72ad75cedd42`, 453007 bytes.
 - Scientific status remains pending: exact juvenile age, flight competence, sex metrics and subspecies-level plumage are unknown.
+
+- v3 immutable verification: archive `667f13a1fda5daa8d5aecb13d69cade7c94c637b`; exact concept/generated/reviewed blobs and metadata markers passed at fixed commit. Scientific status remains pending.

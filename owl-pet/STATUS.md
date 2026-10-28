@@ -1977,3 +1977,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/57-bubo-nipalensis-v3.png](design/concepts/57-bubo-nipalensis-v3.png)
 - Research: 3 new / 2 reused / 1 corrected claim. Sharpe 1875 printed p.38 supports developed barred juvenile wing/tail structure; CBC and Owl Pages support natural branch perching; Palei et al. supports paler greyish-cream body, pale bill and creamy legs.
 - Review: one juvenile-only edit softened adult-like white spot rows and moderately shortened the tail while retaining developed folded juvenile wings and visible barred tail. Exact age, flight competence, sex metrics and subspecies-level plumage remain unknown. Science false; readback pending.
+
+- 2026-10-29T03:22:00+08:00 — #57 *Bubo nipalensis* v3 independently verified at archive `667f13a1fda5daa8d5aecb13d69cade7c94c637b`; concept `e90077283f…`, generated `e69de29bb2…`, reviewed `232c8a4e5c…`, manifest484 and all text markers passed. Unique remains **184/251**; batch **5/6**, next cycle 6. Science false.

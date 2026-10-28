@@ -1683,3 +1683,5 @@ Do not infer a hatchling-like short wing merely because a sourced juvenile canno
 ### Incremental stage-specific rule — age uncertainty is not evidence for uniformly short wings
 
 When a source describes an age-unspecified young bird with adult-like wing/tail structure or barred juvenile feathers, do not collapse it into a generic downy short-wing chick. Preserve the sourced developed structure while marking the age and flight boundary unknown. Use labelled field photographs only for support/pose/environment unless they document locomotor ability. Applied and visually rechecked on #57 v3; broader effectiveness remains unverified.
+
+- #57 v3 immutable archive verification passed at `667f13a1fda5daa8d5aecb13d69cade7c94c637b`; exact three image blobs and metadata markers matched. Science remains pending.

@@ -5060,3 +5060,13 @@ Design correction: v2’s supported downy juvenile was conservative but its hidd
 - **AFO-PEREGRINE-GUIDE-2025 (unverified lead, not counted as evidence):** Peregrine Fund, *Raptors of the Caribbean* education guide, 2025, p.61 search extract; direct 55.7 MB PDF open failed with content-length error on 2026-10-29. It is not used to close any design gap.
 - **Design decision:** v2's juvenile showed essentially no visible emerging wing feathers. V3 adds only short, rounded, down-softened juvenile feather clusters while retaining the documented low-mobility buff-down cavity posture. Exact age, continuous feather chronology and universal Palmchat-nest use remain unknown. Science false.
 - Links: [species card](../knowledge/species/64-tyto-glaucops.md), v3 planned, [run](../production/runs/20261029T0548+0800-cycle-6.md).
+
+
+## 2026-10-29 — #65 *Tyto soumagnei* v3 — fully feathered fledgling structure reconciliation
+
+- **MRO-THORSTROM-NEST-1996 (reused, primary field account):** the previously read scanned Peregrine Fund newsletter pp.9–11/Figs.1–3 remains the primary species-specific boundary: two 6–7-week young later fledged at about 10–11 weeks; fledged birds were fully plumaged and generally browner than adults with reddish-orange overcast. This run reuses the repository's prior actual-read record; no new page claim is added.
+- **MRO-PEREGRINE-2026 (reused, institutional account):** The Peregrine Fund, “Madagascar Red Owl,” https://peregrinefund.org/explore-raptors-species/owls/madagascar-red-owl; accessed and page opened 2026-10-29; What it Does and Nest, Eggs, and Young sections actually read. Supports orange/red blush, dark eyes, pale bill, cream brown-rimmed disc, cavity nesting, more than two months before fledging, adult-like plumage at fledging and four additional months in parental territory.
+- **Large-PDF lead not verified this run:** protectedareas.mg 33.3 MB chapter search result surfaced nest chronology and immature plumage, but direct open failed for content length. It is not counted as newly read evidence.
+- **Corrected inference:** “adult-like plumage” supports mature wing/tail structure and branch gripping, but not an exact standing-height or juvenile/adult size ratio. V3 may avoid a tiny-chick silhouette without assigning a numeric ratio.
+- Exact day-by-day feather sequence, fledgling linear ratio, sex ratio and single-nest generality remain unknown. Science false.
+- Links: [species card](../knowledge/species/65-tyto-soumagnei.md), [run](../production/runs/20261029T0557+0800-cycle-1.md).

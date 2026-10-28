@@ -6514,31 +6514,37 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261029T0557+0800-cycle-1",
-        "heartbeat_at": "2026-10-29T05:56:32.572+08:00",
-        "expires_at": "2026-10-29T06:11:32.572+08:00"
+        "heartbeat_at": "2026-10-29T05:57:51.982+08:00",
+        "expires_at": "2026-10-29T06:12:51.982+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261029T0557+0800-cycle-1",
         "evidence": {
-          "previous_versions": [
-            "v1",
-            "v2"
+          "sources_new": 0,
+          "sources_reused": 2,
+          "inferences_corrected": 1,
+          "prompt": "Edit the supplied #65 Tyto soumagnei v2 into a polished 3:2 science-revision plate in the same established realistic-cute natural-history game concept style. Preserve exactly three owls and exact readable text: title “MADAGASCAR RED OWL”, italic “Tyto soumagnei”, bottom labels “ADULT MALE”, “RECENT FLEDGLING”, “ADULT FEMALE”. Preserve adult identity: orange-red/ochre plumage with fine dark spotting, pale cream heart-shaped facial disc narrowly outlined brown, dark eyes, pale gray-white bill, no ear tufts, fully feathered legs and naturally gripping feet. Keep sexes visually similar; show at most modest body-volume difference, no fixed standing-height ratio. Preserve the recorded first-nest habitat example as a natural tree cavity in mature humid Madagascar rainforest, with mossy stable branches, while not implying all nests are identical. Refine the center juvenile as a recently fledged, flight-capable young bird after more than two months in the nest: fully feathered with adult-like wing and tail structure, generally a little browner/softer and with a warm reddish-orange wash relative to the adults, dark eyes, pale bill, no downy chick body, no baby wing buds, no flight pose. Make it structurally developed and naturally gripping a branch outside the cavity; do not specify an unsupported exact body ratio or daily feather chronology. Preserve natural support and perspective. No extra birds, chicks, eggs, text, logos, borders or watermarks.",
+          "unknowns": [
+            "day-by-day feather sequence",
+            "fledgling/adult linear ratio",
+            "sex ratio",
+            "single-nest generality"
           ],
-          "unique_species_increment": 0,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T05:56:32.572+08:00",
+      "last_updated_at": "2026-10-29T05:57:51.982+08:00",
       "audit_notes": [
-        "2026-10-29T05:56:32.572+08:00: new batch cycle1 STARTED #65 Tyto soumagnei v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit."
+        "2026-10-29T05:56:32.572+08:00: new batch cycle1 STARTED #65 Tyto soumagnei v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
+        "2026-10-29T05:57:51.982+08:00: cycle1 #65 v3 RESEARCH_READY; new0/reused2/corrected1; Peregrine Fund opened, primary first-nest record reused; full prompt saved; science false; no credit."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261029T0557+0800-cycle-1",
-        "heartbeat_at": "2026-10-29T05:56:32.572+08:00",
-        "expires_at": "2026-10-29T06:11:32.572+08:00"
+        "heartbeat_at": "2026-10-29T05:57:51.982+08:00",
+        "expires_at": "2026-10-29T06:12:51.982+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -6547,7 +6553,7 @@
         "species_id": 65,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED"
+        "stage": "RESEARCH_READY"
       }
     }
   ],
@@ -6788,6 +6794,6 @@
     "species_id": 65,
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "stage": "STARTED"
+    "stage": "RESEARCH_READY"
   }
 }

@@ -14,3 +14,10 @@ Sources: MRO-PEREGRINE-2026, MRO-ADW-2026, MRO-OWLPAGES-2020 in [source index](.
 - **Nest/habitat:** natural cavity in a partly dead *Weinmannia* about 23 m high in primary humid rainforest near Ambanizana, Masoala Peninsula. Treat this as one observed nest, not universal.
 - **Sex boundary:** the measured adult male was smaller than the female, but display should use moderate relative body volume, not an exact standing-height ratio.
 - **Still unknown:** continuous daily feather sequence between 6 and 11 weeks and population-wide variability.
+
+
+## 2026-10-29 v3 research boundary
+
+- Reused the previously read Thorstrom/de Roland first-nest account and actively opened the current Peregrine Fund species page. Young remain in the nest over two months and have adult-like plumage at fledging; the first known fledglings were fully plumaged and generally browner with reddish-orange overcast.
+- V3 therefore keeps a branch-supported recent fledgling with developed wing/tail structure and no downy chick cues. “Adult-like plumage” does not justify a fixed linear size ratio.
+- Exact daily feather sequence, fledgling/adult linear ratio, sex ratio and population-wide nest/habitat variability remain unknown; science false.

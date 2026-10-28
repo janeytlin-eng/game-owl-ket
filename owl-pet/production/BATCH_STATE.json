@@ -6239,23 +6239,31 @@
       "batch_id": "2026-10-29T0153+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261029T0153+0800-cycle-1",
-        "heartbeat_at": "2026-10-29T02:16:00+08:00",
-        "expires_at": "2026-10-29T02:31:00+08:00"
-      },
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Strix rufipes",
+          "species_id": 51,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "40c34065764b33d10c44a872d4493bf5db0f8737",
+          "run_record": "owl-pet/production/runs/20261029T0153+0800-cycle-1.md",
+          "verified_at": "2026-10-29T02:20:00+08:00"
+        }
+      ],
+      "next_cycle": 2,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 1,
         "run_id": "20261029T0153+0800-cycle-1",
         "species": "#51 Strix rufipes",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-29T02:16:00+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-29T02:20:00+08:00",
         "evidence": {
+          "archive_commit": "40c34065764b33d10c44a872d4493bf5db0f8737",
           "concept_path": "owl-pet/design/concepts/51-strix-rufipes-v3.png",
           "concept_blob": "224c84642623e9f062d04124a2495fcc6ab4094d",
           "concept_size_bytes": 637419,
@@ -6266,35 +6274,22 @@
           "reviewed_blob": "5e8854fd0677d6bb0ccdcddcc944755479d1b704",
           "reviewed_size_bytes": 642396,
           "manifest_records": 480,
-          "readback_pending": true,
-          "scientifically_verified": false
+          "unique_species": 184,
+          "scientifically_verified": false,
+          "readback": "PASS"
         }
       },
-      "last_updated_at": "2026-10-29T02:16:00+08:00",
+      "last_updated_at": "2026-10-29T02:20:00+08:00",
       "audit_notes": [
         "2026-10-29T01:53:00+08:00: new batch cycle1 STARTED #51 Strix rufipes v3 SCIENCE_REVISION; v1-v2 retained; no cycle credit.",
         "2026-10-29T02:00:00+08:00: cycle1 #51 v3 RESEARCH_READY; new1/reused3/corrected1; official Chile MMA dossier pp.1–2/8 read and adult sexual dichromatism corrected; full prompt saved; science false; no credit.",
         "2026-10-29T02:04:00+08:00: cycle1 #51 v3 IMAGE_GENERATED; 1536x1024 original opened. Exact title/count, darker male/paler female, adult morphology and support pass; juvenile shows visibly layered dark remiges requiring juvenile-only edit; no credit.",
         "2026-10-29T02:10:00+08:00: cycle1 #51 v3 REVIEWED after one juvenile-only wing edit; edited 1536x1024 master and 680x453 derivative opened. Adult-like layered juvenile remiges removed; darker male/paler female, text/count/support pass. Science false; no credit.",
-        "2026-10-29T02:16:00+08:00: cycle1 #51 v3 ARCHIVED tree prepared; concept 224c846426, generated 93c81e877e, reviewed 5e8854fd06; manifest 479→480; fixed-commit readback pending; no credit."
+        "2026-10-29T02:16:00+08:00: cycle1 #51 v3 ARCHIVED tree prepared; concept 224c846426, generated 93c81e877e, reviewed 5e8854fd06; manifest 479→480; fixed-commit readback pending; no credit.",
+        "2026-10-29T02:20:00+08:00: cycle1 VERIFIED #51 at 40c34065764b33d10c44a872d4493bf5db0f8737; fixed concept/generated/reviewed blobs and byte sizes plus manifest/source/card/run/state/status/design markers passed; batch1/6 next_cycle2; unique184/251; science false; lease released."
       ],
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261029T0153+0800-cycle-1",
-        "heartbeat_at": "2026-10-29T02:16:00+08:00",
-        "expires_at": "2026-10-29T02:31:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 1,
-        "run_id": "20261029T0153+0800-cycle-1",
-        "species": "#51 Strix rufipes",
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-29T01:53:00+08:00",
-        "heartbeat_at": "2026-10-29T02:16:00+08:00",
-        "resume_from": "VERIFIED"
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
   "lease": {
@@ -6404,12 +6399,7 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261029T0153+0800-cycle-1",
-    "heartbeat_at": "2026-10-29T02:16:00+08:00",
-    "expires_at": "2026-10-29T02:31:00+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-10-29T00:55:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",

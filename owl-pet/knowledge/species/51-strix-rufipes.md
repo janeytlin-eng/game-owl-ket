@@ -62,3 +62,5 @@
 - Generated master preserves the pre-edit first render; reviewed master preserves the juvenile-wing correction at 1536×1024.
 - First render passed exact title/count, adult identification, dark-male/paler-female direction and support, but the juvenile showed distinct dark layered remiges. One juvenile-only edit removed that mature row and blended the short wing into warm-buff down. Original-resolution and 680×453 rechecks passed.
 - Technical archive status: ARCHIVED pending fixed-commit readback. Scientific status remains false for exact feather sequence, quantitative dichromatism/size, population transfer and rehabilitation-to-wild behavior.
+
+- Immutable archive verification: commit `40c34065764b33d10c44a872d4493bf5db0f8737`; concept blob `224c84642623e9f062d04124a2495fcc6ab4094d`, generated blob `93c81e877ea565f2c137ad58bb615a74f4c88424`, reviewed blob `5e8854fd0677d6bb0ccdcddcc944755479d1b704`; exact byte sizes and required text markers passed. Unique species count unchanged at 184/251; science remains false.

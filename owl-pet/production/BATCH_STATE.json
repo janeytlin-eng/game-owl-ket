@@ -6121,7 +6121,12 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex",
+        "run_id": "20261028T2308+0800-cycle-3",
+        "heartbeat_at": "2026-10-28T23:36:00+08:00",
+        "expires_at": "2026-10-28T23:51:00+08:00"
+      },
       "cycle_checkpoint": {
         "cycle": 3,
         "run_id": "20261028T2308+0800-cycle-3",
@@ -6149,7 +6154,7 @@
           "image_generated": false
         }
       },
-      "last_updated_at": "2026-10-28T23:14:00+08:00",
+      "last_updated_at": "2026-10-28T23:36:00+08:00",
       "audit_notes": [
         "2026-10-28T22:35:00+08:00 new batch cycle1 STARTED #45 Strix seloputo v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
         "2026-10-28T22:38:00+08:00 cycle1 #45 v3 RESEARCH_READY; new1/reused4/corrected1; BESG Part 2 dated chronology read in full; documented 2–4-day post-fledging resting/balance stage selected; full prompt saved; science false; no credit.",
@@ -6165,9 +6170,15 @@
         "2026-10-28T23:06:00+08:00 cycle2 VERIFIED #46 at ed3a57ce0d4d1992a6124db20a10e1c8bde4e666; fixed three-binary blobs/bytes/signatures and manifest/source/card/run/state/status/design readback passed; batch2/6 next_cycle3; science false.",
         "2026-10-28T23:08:00+08:00 cycle3 STARTED #47 Strix leptogrammica v3 SCIENCE_REVISION; v1–v2 preserved; lease acquired; no credit.",
         "2026-10-28T23:12:00+08:00 cycle3 #47 v3 RESEARCH_READY; new1/reused3/corrected1; HKBWS account read and cross-subspecies conflict recorded; full Sri Lankan 34-day prompt saved; image not yet generated; no credit.",
-        "2026-10-28T23:14:00+08:00 invocation PARTIAL after completing two verified cycles; cycle3 #47 remains RESEARCH_READY with full prompt/source/card persisted. Image generation not started; no cycle credit. Lease released for next trigger. Executor reports current observable context/output budget reached; no fixed platform timeout telemetry."
+        "2026-10-28T23:14:00+08:00 invocation PARTIAL after completing two verified cycles; cycle3 #47 remains RESEARCH_READY with full prompt/source/card persisted. Image generation not started; no cycle credit. Lease released for next trigger. Executor reports current observable context/output budget reached; no fixed platform timeout telemetry.",
+        "2026-10-28T23:36:00+08:00 cycle3 #47 v3 RESUMED from durable RESEARCH_READY; stale top-level 19:55 lease inspected as expired; 15-minute lease acquired; image generation next; no credit."
       ],
-      "lease": null,
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261028T2308+0800-cycle-3",
+        "heartbeat_at": "2026-10-28T23:36:00+08:00",
+        "expires_at": "2026-10-28T23:51:00+08:00"
+      },
       "in_progress": {
         "cycle": 3,
         "run_id": "20261028T2308+0800-cycle-3",
@@ -6176,16 +6187,17 @@
         "action": "SCIENCE_REVISION",
         "stage": "RESEARCH_READY",
         "started_at": "2026-10-28T23:08:00+08:00",
-        "paused_at": "2026-10-28T23:14:00+08:00",
-        "resume_from": "IMAGE_GENERATED"
+        "resume_from": "IMAGE_GENERATED",
+        "resumed_at": "2026-10-28T23:36:00+08:00",
+        "heartbeat_at": "2026-10-28T23:36:00+08:00"
       }
     }
   ],
   "lease": {
     "owner": "codex",
-    "run_id": "20261028T1940+0800-cycle-2",
-    "heartbeat_at": "2026-10-28T19:40:52+08:00",
-    "expires_at": "2026-10-28T19:55:52+08:00"
+    "run_id": "20261028T2308+0800-cycle-3",
+    "heartbeat_at": "2026-10-28T23:36:00+08:00",
+    "expires_at": "2026-10-28T23:51:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -6279,7 +6291,7 @@
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false.",
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false."
   ],
-  "updated_at": "2026-10-28T19:40:52+08:00",
+  "updated_at": "2026-10-28T23:36:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -6289,11 +6301,11 @@
   ],
   "active_lease": {
     "owner": "codex",
-    "run_id": "20261028T1940+0800-cycle-2",
-    "heartbeat_at": "2026-10-28T19:40:52+08:00",
-    "expires_at": "2026-10-28T19:55:52+08:00"
+    "run_id": "20261028T2308+0800-cycle-3",
+    "heartbeat_at": "2026-10-28T23:36:00+08:00",
+    "expires_at": "2026-10-28T23:51:00+08:00"
   },
-  "last_updated_at": "2026-10-28T19:40:52+08:00",
+  "last_updated_at": "2026-10-28T23:36:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

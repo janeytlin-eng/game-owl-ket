@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T22:33:00+08:00",
+  "updated": "2026-10-28T22:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5803,7 +5803,37 @@
       "readback_pending": false,
       "archive_commit": "25d90f8a8b7eb1fa3ffff7518af80e5caac2e167",
       "verified_at": "2026-10-28T22:33:00+08:00"
+    },
+    {
+      "id": "45-strix-seloputo-v3",
+      "path": "design/concepts/45-strix-seloputo-v3.png",
+      "species_id": 45,
+      "scientific_name": "Strix seloputo",
+      "common_name": "Spotted Wood Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "2add1f7f6e16a78ef60e9b86bc7ac0495221b5bd11684de016c40aa0b26c71c4",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using a fully read dated field chronology from one wild Pasir Ris family: near-equal same-plumage adults and an explicitly 2–4-days-post-fledging supported juvenile with prominent pale down, diffuse mesoptile barring, short emerging remiges, much shorter rectrices and a documented head-on-branch resting pose. Exact hatch age, universal timing, independent-flight threshold and quantified sexual dimorphism remain unknown.",
+      "source_ids": [
+        "SOWL-BESG-2022-P2",
+        "SOWL-MIKKOLA-2013",
+        "SOWL-NPARKS-2026",
+        "SOWL-BESG-2022",
+        "SOWL-BIRDLIFE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-45-strix-seloputo-v3-evidence-correction",
+      "run_record": "production/runs/20261028T2235+0800-cycle-1.md",
+      "reviewed_at": "2026-10-28T22:44:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 641699,
+      "git_blob": "07ab6742a2b45238a2cf1adaa5bab4f367bcdcaf",
+      "generated_blob": "122108d72fa41e721ed82a90c4083962c46704f1",
+      "reviewed_blob": "bf2a5720f6b0c63fb7a61f596a2c4f0159b6e283",
+      "archive_note": "First render passed text/count/adults/support but gave the juvenile a long layered white-spotted wing. One juvenile-only edit shortened/softened and embedded the wing in prominent down while preserving the documented head-on-branch support pose; edited original and derivative passed with limitations. Science false.",
+      "readback_pending": true,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-10-28T21:55:00+08:00"
+  "updated_at": "2026-10-28T22:47:00+08:00"
 }

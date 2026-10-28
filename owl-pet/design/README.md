@@ -1,3 +1,9 @@
+## #45 Spotted Wood Owl — *Strix seloputo* — v3 science revision
+
+- Concept: [45-strix-seloputo-v3.png](concepts/45-strix-seloputo-v3.png)
+- Research: [species card](../knowledge/species/45-strix-seloputo.md) · [source index](../research/SOURCE_INDEX.md#2026-10-28-45-strix-seloputo-v3-evidence-correction)
+- Stage: ARCHIVED, fixed-commit verification pending. Dated 2–4-day post-fledging supported brancher; one juvenile-wing edit; science false.
+
 ## #44 Ural Owl — *Strix uralensis* — v3 science revision
 
 - Concept: [44-strix-uralensis-v3.png](concepts/44-strix-uralensis-v3.png)

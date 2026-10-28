@@ -6101,8 +6101,8 @@
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261028T2235+0800-cycle-1",
-        "heartbeat_at": "2026-10-28T22:44:00+08:00",
-        "expires_at": "2026-10-28T22:59:00+08:00"
+        "heartbeat_at": "2026-10-28T22:47:00+08:00",
+        "expires_at": "2026-10-28T23:02:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -6110,44 +6110,34 @@
         "species": "#45 Strix seloputo",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T22:44:00+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T22:47:00+08:00",
         "evidence": {
-          "issue": "First render juvenile wing too long/layered with crisp adult-like spots.",
-          "edit": "One juvenile-only edit shortened/softened the wing, embedded it in prominent pale down and removed regular adult spot rows while preserving documented head-on-branch support.",
-          "recheck": [
-            "1536x1024 edited original opened",
-            "680x453 derivative opened",
-            "exact title and all labels readable",
-            "exactly three owls",
-            "near-equal adults",
-            "juvenile full support and much shorter wing/tail direction"
-          ],
-          "reviewed_path": "owl-pet/production/reviewed/45-strix-seloputo-v3-reviewed-master.jpg",
-          "reviewed_sha256": "8413efa17c47eedebc75cd067dffa4a0d20ea50f5516c46335d0e9a26b8c92a9",
-          "reviewed_bytes": 368241,
-          "result": "PASS_WITH_LIMITATIONS",
-          "unknowns": [
-            "exact hatch age",
-            "universal feather sequence",
-            "independent flight threshold",
-            "quantified sex dimorphism"
-          ],
+          "concept_path": "owl-pet/design/concepts/45-strix-seloputo-v3.png",
+          "concept_blob": "07ab6742a2b45238a2cf1adaa5bab4f367bcdcaf",
+          "concept_sha256": "2add1f7f6e16a78ef60e9b86bc7ac0495221b5bd11684de016c40aa0b26c71c4",
+          "concept_bytes": 641699,
+          "dimensions": "680x453",
+          "generated_blob": "122108d72fa41e721ed82a90c4083962c46704f1",
+          "reviewed_blob": "bf2a5720f6b0c63fb7a61f596a2c4f0159b6e283",
+          "manifest_count": "473→474",
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T22:44:00+08:00",
+      "last_updated_at": "2026-10-28T22:47:00+08:00",
       "audit_notes": [
         "2026-10-28T22:35:00+08:00 new batch cycle1 STARTED #45 Strix seloputo v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
         "2026-10-28T22:38:00+08:00 cycle1 #45 v3 RESEARCH_READY; new1/reused4/corrected1; BESG Part 2 dated chronology read in full; documented 2–4-day post-fledging resting/balance stage selected; full prompt saved; science false; no credit.",
         "2026-10-28T22:41:00+08:00 cycle1 #45 v3 IMAGE_GENERATED in 79.0s; original 1536x1024 opened. Text/count/adults/support pass; juvenile long layered white-spotted wing requires targeted edit; durable generated master persisted; no credit.",
-        "2026-10-28T22:44:00+08:00 cycle1 #45 v3 REVIEWED after one juvenile-only wing edit; edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; exact hatch age/sequence/flight threshold unknown; science false; no credit."
+        "2026-10-28T22:44:00+08:00 cycle1 #45 v3 REVIEWED after one juvenile-only wing edit; edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; exact hatch age/sequence/flight threshold unknown; science false; no credit.",
+        "2026-10-28T22:47:00+08:00 cycle1 #45 v3 ARCHIVED tree prepared; concept 07ab6742a2, generated 122108d72f, reviewed bf2a5720f6; manifest 473→474; fixed readback pending; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T2235+0800-cycle-1",
-        "heartbeat_at": "2026-10-28T22:44:00+08:00",
-        "expires_at": "2026-10-28T22:59:00+08:00"
+        "heartbeat_at": "2026-10-28T22:47:00+08:00",
+        "expires_at": "2026-10-28T23:02:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -6155,7 +6145,7 @@
         "species": "#45 Strix seloputo",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "started_at": "2026-10-28T22:35:00+08:00"
       }
     }

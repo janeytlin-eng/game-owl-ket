@@ -1,3 +1,11 @@
+## 2026-10-28 #45 *Strix seloputo* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; new batch remains **0/6** until fixed-commit verification.
+- Image: [design/concepts/45-strix-seloputo-v3.png](design/concepts/45-strix-seloputo-v3.png)
+- Research: 1 new / 4 reused / 1 corrected source decision; dated Pasir Ris chronology narrows the juvenile to one observed 2–4-day post-fledging brancher.
+- Review: one juvenile-only edit shortened the adult-like wing and retained the documented head-on-branch support pose; edited master and derivative passed with limitations.
+- Archive blobs: concept `07ab6742a2…`; generated `122108d72f…`; reviewed `bf2a5720f6…`. Fixed readback pending; science false.
+
 ## 2026-10-28 #44 *Strix uralensis* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; batch `2026-10-28T1856+0800` closes **6/6 COMPLETE**.

@@ -1815,3 +1815,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [39-glaucidium-griseiceps-v3.png](design/concepts/39-glaucidium-griseiceps-v3.png)
 - Research: 1 new / 3 reused / 1 corrected source decision. Primary printed p.93/Fig.1 supports the wet ground juvenile after a storm; v2 branch pose was an inference.
 - Review: one targeted edit removed adult-like juvenile crown/back/wing white spots. Exact text/count, near-equal adults, male nape false eye, juvenile plain back/soft compact wing/hidden tail and wet ground support pass. Exact age, flight ability, feather chronology, nest stage and quantified dimorphism remain unknown. Science false; fixed-commit readback pending.
+
+- 2026-10-28T19:39:42+08:00 — #39 *Glaucidium griseiceps* v3 independently verified at archive `c22243e93daf1e9e5f7327c02e89e9a306662ba5`; concept `9fb8eeef61…`, generated `b63607799f…`, reviewed `5bec851412…`, plus manifest/source/card/run/state/STATUS read back. Unique remains **184/251**; batch **1/6**, next cycle 2. Science false.

@@ -47,3 +47,5 @@ Pending. Exact juvenile age and continuous feather sequence, sex-specific linear
 - First render retained crisp adult-like juvenile white spots. One targeted edit removed those crown/back/wing spots; the 1536×1024 reviewed master and 680×453 derivative were opened and passed count, text, adult, support and juvenile-boundary checks.
 - Concept: [39-glaucidium-griseiceps-v3.png](../../design/concepts/39-glaucidium-griseiceps-v3.png), 680×453 PNG, 245151 bytes, SHA-256 `51548adf493a257c30fc19fdde8ababdf3eab8faac2947b2ca995634216bfd13`, Git blob `9fb8eeef61970a67862b69eda17613dc8942bf88`.
 - Scientific status remains pending; visual concept review is not scientific approval.
+
+- v3 immutable archive readback passed at commit `c22243e93daf1e9e5f7327c02e89e9a306662ba5`; all three image blobs and metadata markers matched. Verified 2026-10-28T19:39:42+08:00.

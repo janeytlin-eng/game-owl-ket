@@ -6632,8 +6632,34 @@
       "review_crop_blob": "6cdf5812a8854b766ae3bc8ac3d6735e9054847d",
       "review_crop_size_bytes": 229640,
       "archive_note": "One targeted edit after full-image review; final full and crop pass. Exact age/ratio/tract chronology unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "d07039a4300c648e2035badc3079089a232d3593",
+      "verified_at": "2026-10-29T07:43:22.976+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/70-ninox-strenua-v3.jpg",
+          "blob": "8f8255932adc7bfec472012809ca2e6fde44200c",
+          "size_bytes": 548079
+        },
+        "generated": {
+          "path": "production/generated/70-ninox-strenua-v3-generated-master.jpg",
+          "blob": "0edf4ff36ddec5e5176e4dcb728cf92232bab2bd",
+          "size_bytes": 739875
+        },
+        "reviewed": {
+          "path": "production/reviewed/70-ninox-strenua-v3-reviewed-master.jpg",
+          "blob": "932de98df44e071a6f92e728f6ab7a04464971db",
+          "size_bytes": 663011
+        },
+        "review_crop": {
+          "path": "production/reviewed/70-ninox-strenua-v3-juvenile-review-crop.jpg",
+          "blob": "6cdf5812a8854b766ae3bc8ac3d6735e9054847d",
+          "size_bytes": 229640
+        },
+        "tree_truncated": false
+      }
     }
   ],
-  "updated_at": "2026-10-29T07:42:41.901+08:00"
+  "updated_at": "2026-10-29T07:43:22.976+08:00"
 }

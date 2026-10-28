@@ -6437,30 +6437,26 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-work",
+        "run_id": "20261029T0548+0800-cycle-6",
+        "heartbeat_at": "2026-10-29T05:47:59.031+08:00",
+        "expires_at": "2026-10-29T06:02:59.031+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "run_id": "20261029T0539+0800-cycle-5",
+        "cycle": 6,
+        "stage": "STARTED",
+        "run_id": "20261029T0548+0800-cycle-6",
         "evidence": {
-          "archive_commit": "9b80a0dc5350b70be0e256acc70820e177886427",
-          "concept_path": "owl-pet/design/concepts/63-scotopelia-peli-v3.jpg",
-          "concept_blob": "c7e59defffc627eede79b477b37ec4af4c103050",
-          "concept_size_bytes": 593546,
-          "generated_path": "owl-pet/production/generated/63-scotopelia-peli-v3-generated-master.jpg",
-          "generated_blob": "1a1fc478bb7ea5d54565a322b2d8886ca0d3429c",
-          "generated_size_bytes": 496873,
-          "reviewed_path": "owl-pet/production/reviewed/63-scotopelia-peli-v3-reviewed-master.jpg",
-          "reviewed_blob": "07b2c23743934a469414f554b508a99f2002e800",
-          "reviewed_size_bytes": 473154,
-          "readback": "VERIFIED",
-          "manifest_records": 490,
-          "unique_species": 184,
-          "duplicate_name_species_id": 156,
+          "previous_versions": [
+            "v1",
+            "v2"
+          ],
+          "unique_species_increment": 0,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T05:47:30.167+08:00",
+      "last_updated_at": "2026-10-29T05:47:59.031+08:00",
       "audit_notes": [
         "2026-10-29T03:31:00+08:00: new batch cycle1 STARTED #59 Ketupa zeylonensis v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T03:40:00+08:00: cycle1 #59 v3 RESEARCH_READY; new1/reused3/corrected1; JBNHS pp.97–98, Indian BIRDS development sequence and ELA pp.1–2 actually read; v2 over-short late-nestling wing corrected to supported developed nest-leaving wing; full prompt saved; science false; no credit.",
@@ -6484,10 +6480,24 @@
         "2026-10-29T05:43:57+08:00: cycle5 #63 v3 REVIEWED after one juvenile-only wing/tail edit; full 1536x1024 edited image reopened. Adult identity/sex cues/text/support pass; juvenile wing shortened/softened and tail suppressed; science false; no credit.",
         "2026-10-29T05:44:30+08:00: cycle5 #63 v3 ARCHIVED; concept c7e59defff, generated 3c7df0c0d6, reviewed a2ff342ffc; manifest490; fixed readback pending; no credit.",
         "2026-10-29T05:45:38+08:00: cycle5 archive repair: fixed-tree readback rejected short PNG transfers (786305/786312 bytes); replaced with complete 1536x1024 JPEGs 496873/473154 bytes, blobs 1a1fc478bb/07b2c23743; verification pending; no credit.",
-        "2026-10-29T05:47:30.167+08:00: cycle5 VERIFIED #63 at archive 9b80a0dc5350b70be0e256acc70820e177886427; complete fixed-tree image paths/blobs/bytes and metadata markers passed after JPEG transfer repair; batch5/6 next_cycle6; unique184/251; science false; lease released."
+        "2026-10-29T05:47:30.167+08:00: cycle5 VERIFIED #63 at archive 9b80a0dc5350b70be0e256acc70820e177886427; complete fixed-tree image paths/blobs/bytes and metadata markers passed after JPEG transfer repair; batch5/6 next_cycle6; unique184/251; science false; lease released.",
+        "2026-10-29T05:47:59.031+08:00: cycle6 STARTED #64 Tyto glaucops v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit."
       ],
-      "lease": null,
-      "in_progress": null
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261029T0548+0800-cycle-6",
+        "heartbeat_at": "2026-10-29T05:47:59.031+08:00",
+        "expires_at": "2026-10-29T06:02:59.031+08:00"
+      },
+      "in_progress": {
+        "cycle": 6,
+        "run_id": "20261029T0548+0800-cycle-6",
+        "species": "#64 Tyto glaucops",
+        "species_id": 64,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED"
+      }
     }
   ],
   "lease": {
@@ -6720,5 +6730,13 @@
       "detail": "Concept blob, archive commit, batch verification and run record existed, but the manifest entry was absent. Added the missing #165 record without changing completed-cycle or species counts; science remains unverified."
     }
   ],
-  "in_progress": null
+  "in_progress": {
+    "cycle": 6,
+    "run_id": "20261029T0548+0800-cycle-6",
+    "species": "#64 Tyto glaucops",
+    "species_id": 64,
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "stage": "STARTED"
+  }
 }

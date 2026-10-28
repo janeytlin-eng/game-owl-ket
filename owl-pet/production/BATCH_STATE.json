@@ -6019,14 +6019,14 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261028T2031+0800-cycle-4",
-        "heartbeat_at": "2026-10-28T20:34:00+08:00",
-        "expires_at": "2026-10-28T20:49:00+08:00"
+        "heartbeat_at": "2026-10-28T20:37:30+08:00",
+        "expires_at": "2026-10-28T20:52:30+08:00"
       },
       "lease": {
         "owner": "codex",
         "run_id": "20261028T2031+0800-cycle-4",
-        "heartbeat_at": "2026-10-28T20:34:00+08:00",
-        "expires_at": "2026-10-28T20:49:00+08:00"
+        "heartbeat_at": "2026-10-28T20:37:30+08:00",
+        "expires_at": "2026-10-28T20:52:30+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -6034,7 +6034,7 @@
         "species": "#42 Athene brama",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261028T2031+0800-cycle-4.md"
       },
       "cycle_checkpoint": {
@@ -6043,18 +6043,18 @@
         "species": "#42 Athene brama",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T20:34:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T20:37:30+08:00",
         "evidence": {
-          "new_sources": 0,
-          "reused_sources": 3,
-          "corrected_sources": 1,
-          "primary_fulltext": "SPOT-PANDE-2011",
-          "juvenile_boundary": "approximately 4-week pre-flight cavity-lip/branch-walking stage",
-          "prompt_saved": true
+          "generated_blob": "e5dfeb15c8a674dc2ef6b5c440df584fe3b314e5",
+          "generated_path": "owl-pet/production/generated/42-athene-brama-v3-generated-master.jpg",
+          "bytes": 412786,
+          "dimensions": "1536x1024",
+          "first_view": "FAIL_NEEDS_EDIT",
+          "issue": "juvenile adult-like wing spots/layering and crisp tail bars"
         }
       },
-      "last_updated_at": "2026-10-28T20:34:00+08:00",
+      "last_updated_at": "2026-10-28T20:37:30+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6076,7 +6076,8 @@
         "2026-10-28T20:25:00+08:00 cycle3 #41 v3 ARCHIVED; manifest 469→470; fixed readback pending; no credit.",
         "2026-10-28T20:28:30+08:00 cycle3 VERIFIED #41 at 4274e3100c4b2fe9d202c154eaa57341be96a325; fixed tree and required text readback passed; batch3/6 next_cycle4; science false.",
         "2026-10-28T20:31:30+08:00 cycle4 STARTED #42 Athene brama v3; no credit.",
-        "2026-10-28T20:34:00+08:00 cycle4 #42 v3 RESEARCH_READY; full primary text correction, new0/reused3/corrected1; no credit."
+        "2026-10-28T20:34:00+08:00 cycle4 #42 v3 RESEARCH_READY; full primary text correction, new0/reused3/corrected1; no credit.",
+        "2026-10-28T20:37:30+08:00 cycle4 #42 v3 IMAGE_GENERATED; juvenile wing/tail edit required; no credit."
       ]
     }
   ],

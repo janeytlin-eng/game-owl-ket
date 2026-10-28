@@ -1,9 +1,8 @@
-## 2026-10-29 #49 *Strix woodfordii* v3 ARCHIVED — readback pending
+## 2026-10-29 #49 *Strix woodfordii* v3 VERIFIED
 
-- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **4/6** until fixed verification.
-- Image: [design/concepts/49-strix-woodfordii-v3.png](design/concepts/49-strix-woodfordii-v3.png)
-- Research: 0 new / 5 reused / 1 corrected; Levubu 25–30 d record kept locality-specific and reconciled with broader SANBI chronology.
-- Review: one juvenile-wing edit passed at master and derivative sizes; truncated intermediate transfers detected and superseded by full-size blobs in archive tree. Fixed readback pending; science false.
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **5/6**, next cycle **6**.
+- [Original concept](design/concepts/49-strix-woodfordii-v3.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/670c121434b205ee39ddf79f1012bcef819035e6)
+- Commit-tree readback matched concept `9a0ff5c1c1…`, generated `3e51fdd5ea…` and reviewed `a02cecc13e…` blob IDs and exact byte sizes; related text markers passed. Science false.
 
 ## 2026-10-29 #48 *Strix nivicolum* v3 VERIFIED
 

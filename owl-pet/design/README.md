@@ -2,7 +2,7 @@
 
 - Concept: [49-strix-woodfordii-v3.png](concepts/49-strix-woodfordii-v3.png)
 - Research: [species card](../knowledge/species/49-strix-woodfordii.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-49-strix-woodfordii-v3-development-boundary-correction)
-- Stage: ARCHIVED; fixed readback pending. One targeted edit removed adult-like juvenile wing spots/long remiges; short supported clamberer wing passed. Science false.
+- Stage: VERIFIED at `670c121434b205ee39ddf79f1012bcef819035e6`; fixed concept/generated/reviewed blob IDs, exact byte sizes and text records read back. One targeted juvenile-wing edit passed; science false.
 
 ## #48 Himalayan Owl — *Strix nivicolum* — v3 science revision
 

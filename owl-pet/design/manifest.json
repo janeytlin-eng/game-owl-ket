@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T21:40:00.096+08:00",
+  "updated": "2026-10-28T21:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5741,7 +5741,35 @@
       "readback_pending": false,
       "archive_commit": "805aef01cd56d44999b324c0ad83fd33ca8bb784",
       "verified_at": "2026-10-28T21:40:00.096+08:00"
+    },
+    {
+      "id": "43-athene-blewitti-v3",
+      "path": "design/concepts/43-athene-blewitti-v3.png",
+      "species_id": 43,
+      "scientific_name": "Athene blewitti",
+      "common_name": "Forest Owlet",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "107f434ab8f45df6b5d2527a094b677c7615034b3c80a6fe45805a86af302d75",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using the BNHS multi-nest development sequence: a supported 28–30-day recently emerged juvenile with darker body, strongly blotched/streaked ventrum, very stumpy tail and poorly developed primaries/secondaries. Adults show only a subtle possible female size/belly-barring difference because consistency is unresolved. Exact feather chronology, population variation and universal sexual dimorphism remain unknown.",
+      "source_ids": [
+        "FOW-JATHAR-2004",
+        "FOW-ISHTIAQ-2005",
+        "FOW-MIKKOLA-2013",
+        "FOW-KOPARDE-2018",
+        "FOW-PEREGRINE-2026",
+        "FOW-KHAN-2023-HABITAT"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-43-athene-blewitti-v3-evidence-correction",
+      "run_record": "production/runs/20261028T2142+0800-cycle-5.md",
+      "reviewed_at": "2026-10-28T21:49:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 655007,
+      "git_blob": "43d3d2d67e79cae7bdab06088c79cdaabf9de468",
+      "archive_note": "Initial render passed adult/count/text/support/habitat checks but gave the juvenile an adult-like long layered wing. One juvenile-only edit shortened and softened the wing and removed/reduced adult-like spot rows; full master and derivative were opened and passed with limitations. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-28T21:40:00.096+08:00"
+  "updated_at": "2026-10-28T21:52:00+08:00"
 }

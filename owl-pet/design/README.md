@@ -1650,3 +1650,10 @@ A documented rufous/brown morph is not evidence of sexual dichromatism. Unless a
 ### Incremental sexual-dichromatism rule
 
 When a species source explicitly documents sex-linked plumage difference, encode that color/value direction separately from size direction. A “female paler” statement does not justify a fixed palette ratio, and a “female larger” direction does not justify dramatic standing-height separation. Applied and visually rechecked on #51 v3 (dark male, paler subtly fuller female at comparable head height); broader effectiveness remains unverified.
+
+
+- #52 *Strix hylophila* v3 — SCIENCE_REVISION; 32–35-day evidence is rendered as a fully supported nest-leaving brancher, not an independently flying fledgling. [concept](concepts/52-strix-hylophila-v3.png) · [research](../knowledge/species/52-strix-hylophila.md) · [run](../production/runs/20261029T0223+0800-cycle-2.md). One edit removed adult-like juvenile remiges and restored subtle female fullness; science pending.
+
+### Incremental nest-departure rule
+
+A reported nest-leaving age is not automatically evidence of independent flight. Unless locomotor behavior is separately documented, render the young bird fully supported at or beside the nest and describe it as a nest-leaving/brancher stage. Applied and visually rechecked on #52 v3; broader effectiveness remains unverified.

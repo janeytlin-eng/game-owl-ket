@@ -45,3 +45,11 @@
 - Reused `OWL-SRC-0052-A/B/C`.
 - Corrected wording: v2’s “recently fledged 32–35-day” is narrowed to a 32–35-day nest-leaving/brancher stage. The juvenile is warm-buff and faintly barred with short down-softened wings/tail and full branch support immediately beside the cavity; no independent-flight claim.
 - Adult sexes remain alike in plumage, with only subtle female fullness. Exact feather sequence, locomotor threshold, sex measurements and regional variation remain unknown; science false.
+
+
+## 2026-10-29 production result — v3
+
+- Concept: `design/concepts/52-strix-hylophila-v3.png` (680×453; 670,837 bytes; SHA-256 `4c1115274a4f87bb0b35b35a4a61b5a5017a2d8c892011fbfe1b2995f4913d67`).
+- Pre-edit and reviewed 1536×1024 JPEG masters are retained separately.
+- First render passed title/count/adult identity/habitat/support but gave the brancher long layered spotted remiges and made the female smaller. One bounded edit produced a short down-softened juvenile wing and subtly fuller same-plumage female. Original and derivative rechecks passed.
+- Technical status: ARCHIVED pending fixed-commit readback. Science remains false for exact feather sequence, locomotor threshold, sex measurements and regional variation.

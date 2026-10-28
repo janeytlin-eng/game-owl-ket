@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T02:20:00+08:00",
+  "updated": "2026-10-29T02:46:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -6017,7 +6017,36 @@
       "readback_pending": false,
       "archive_commit": "40c34065764b33d10c44a872d4493bf5db0f8737",
       "verified_at": "2026-10-29T02:20:00+08:00"
+    },
+    {
+      "id": "52-strix-hylophila-v3",
+      "path": "design/concepts/52-strix-hylophila-v3.png",
+      "species_id": 52,
+      "scientific_name": "Strix hylophila",
+      "common_name": "Rusty-barred Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "4c1115274a4f87bb0b35b35a4a61b5a5017a2d8c892011fbfe1b2995f4913d67",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION narrowing the 32–35-day record from a generic recently fledged bird to an evidence-bounded nest-leaving/brancher stage. New juvenile photo page confirms natural branch support but not age or flight; Embrapa p35 supports tall well-preserved Araucaria/Atlantic Forest and large-tree cavities. One edit removed long adult-spotted juvenile remiges and corrected the female from visually smaller to subtly fuller. Exact feather sequence, locomotor threshold, sex measurements and regional variation remain unknown.",
+      "source_ids": [
+        "RBO-OWLPAGES-JUV-2026",
+        "RBO-EMBRAPA-2024",
+        "OWL-SRC-0052-A",
+        "OWL-SRC-0052-B",
+        "OWL-SRC-0052-C"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29-52-strix-hylophila-v3-nest-leaving-stage-correction",
+      "run_record": "production/runs/20261029T0223+0800-cycle-2.md",
+      "reviewed_at": "2026-10-29T02:40:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 670837,
+      "git_blob": "1a5a67b2c6366bf4bf7e2ee59974e8c4f35b95fb",
+      "generated_blob": "f1c30904ff7a54d8d2def9a9fabdef8cbd3f5e0d",
+      "reviewed_blob": "cc6e4e75ac770f4ea5f9bb63887aaa37207be932",
+      "archive_note": "First render passed text/count/adult identity/habitat/support but gave the juvenile long layered spotted remiges and made the female smaller. One bounded edit softened the juvenile wing and made the female subtly fuller while preserving shared plumage, text and environment. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T02:20:00+08:00"
+  "updated_at": "2026-10-29T02:46:00+08:00"
 }

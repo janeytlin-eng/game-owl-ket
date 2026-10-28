@@ -1939,3 +1939,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Review: one juvenile-only edit removed the first render's distinct dark layered remiges. Exact title/count, dark male, paler subtly fuller female, adult morphology, down-softened approximately-one-month juvenile wing, concealed tail and full cavity-rim support pass. Exact feather sequence, quantitative dichromatism, population transfer and rehabilitation-to-wild behavior remain unknown. Science false; fixed-commit readback pending.
 
 - 2026-10-29T02:20:00+08:00 — #51 *Strix rufipes* v3 independently verified at archive `40c34065764b33d10c44a872d4493bf5db0f8737`; concept `224c846426…`, generated `93c81e877e…`, reviewed `5e8854fd06…`, plus manifest480/source/card/run/state/STATUS/design markers read back. Unique remains **184/251**; batch **1/6**, next cycle 2. Science false.
+
+
+## 2026-10-29 #52 *Strix hylophila* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/52-strix-hylophila-v3.png](design/concepts/52-strix-hylophila-v3.png)
+- Research: 2 new / 3 reused / 1 corrected inference. Owl Pages confirms an age-unknown young bird on a branch in Atlantic Rainforest; Embrapa p.35 supports tall Araucaria/Atlantic Forest and large-tree cavities. The 32–35-day record is treated as nest-leaving, not proof of flight.
+- Review: one bounded edit removed long adult-spotted juvenile remiges and made the adult female subtly fuller rather than smaller. Text/count, same-plumage adults, supported warm-buff brancher, cavity and habitat pass. Exact feather sequence, locomotor threshold, sex metrics and regional variation remain unknown. Science false; readback pending.

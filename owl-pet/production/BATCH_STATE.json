@@ -5687,9 +5687,60 @@
         "2026-10-28T10:33:00.000+08:00: cycle6 VERIFIED #26 Glaucidium siju v3; immutable archive 3ff8adaa7903e00d22a101fc81b1d32e915cb3e6 maps concept c1ac22468d, generated 7bb7703d08, reviewed cd6c87943d; manifest455 and required metadata markers read back. Batch closes6/6; unique184/251; lease released; science false."
       ],
       "lease": null
+    },
+    {
+      "batch_id": "2026-10-28T1035+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-work",
+        "run_id": "20261028T1035+0800-newbatch-cycle-1",
+        "cycle": 1,
+        "species_id": 27,
+        "heartbeat_at": "2026-10-28T10:35:00.000+08:00",
+        "expires_at": "2026-10-28T10:50:00.000+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 1,
+        "run_id": "20261028T1035+0800-newbatch-cycle-1",
+        "species": "#27 Glaucidium passerinum",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-28T10:35:00.000+08:00",
+        "evidence": {
+          "prior_versions": [
+            "v1",
+            "v2"
+          ],
+          "selection": "newly read age-series synthesis enables an evidence-bounded 20-day cavity nestling rather than another age-unknown fledgling; exact primary Schönn pages are unavailable and limitation will be explicit",
+          "science_pass": false
+        }
+      },
+      "last_updated_at": "2026-10-28T10:35:00.000+08:00",
+      "audit_notes": [
+        "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit."
+      ],
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261028T1035+0800-newbatch-cycle-1",
+        "cycle": 1,
+        "species_id": 27,
+        "heartbeat_at": "2026-10-28T10:35:00.000+08:00",
+        "expires_at": "2026-10-28T10:50:00.000+08:00"
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-work",
+    "run_id": "20261028T1035+0800-newbatch-cycle-1",
+    "cycle": 1,
+    "species_id": 27,
+    "heartbeat_at": "2026-10-28T10:35:00.000+08:00",
+    "expires_at": "2026-10-28T10:50:00.000+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -5798,7 +5849,7 @@
     "heartbeat_at": "2026-10-28T10:11:00.000+08:00",
     "expires_at": "2026-10-28T10:26:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T10:33:00.000+08:00",
+  "last_updated_at": "2026-10-28T10:35:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5893,7 +5944,8 @@
     "2026-10-28T10:27:00.000+08:00: #26 v3 IMAGE_GENERATED; juvenile spot correction required.",
     "2026-10-28T10:29:00.000+08:00: #26 v3 REVIEWED after one edit; juvenile pattern corrected, science false.",
     "2026-10-28T10:31:00.000+08:00: #26 v3 ARCHIVED; fixed readback pending.",
-    "2026-10-28T10:33:00.000+08:00: cycle6 VERIFIED #26 Glaucidium siju v3 at 3ff8adaa7903e00d22a101fc81b1d32e915cb3e6; batch COMPLETE6/6."
+    "2026-10-28T10:33:00.000+08:00: cycle6 VERIFIED #26 Glaucidium siju v3 at 3ff8adaa7903e00d22a101fc81b1d32e915cb3e6; batch COMPLETE6/6.",
+    "2026-10-28T10:35:00.000+08:00: new batch 2026-10-28T1035+0800 cycle1 STARTED #27 v3; no credit."
   ],
   "audit_trail": [
     {

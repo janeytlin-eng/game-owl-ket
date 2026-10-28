@@ -5302,8 +5302,8 @@
         "species": "#07 Asio flammeus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:03:00.000+08:00",
-        "expires_at": "2026-10-28T08:18:00.000+08:00"
+        "heartbeat_at": "2026-10-28T08:05:00.000+08:00",
+        "expires_at": "2026-10-28T08:20:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5311,39 +5311,24 @@
         "species": "#07 Asio flammeus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T08:03:00.000+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T08:05:00.000+08:00",
         "evidence": {
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids_new": [
-            "SEO-MIKKOLA-2013-P512",
-            "SEO-MARTINEZ-CLIMENT-2000",
-            "SEO-USFWS-2026"
-          ],
-          "source_ids_reused": [
-            "SHEO-BTO-BIRDFACTS"
-          ],
-          "source_ids_corrected": [],
-          "fresh_research": "Mikkola printed pp.512–513/PDF pp.514–515 extracted; primary Condor abstract/metadata, USFWS, BTO and Cornell read.",
-          "design_boundary": "Approximately 16-day preflight ground-walker, dark face/yellow eyes/pale ochre diffuse-barred mesoptile, tiny tufts, short soft folded wings, full turf support.",
-          "full_prompt_saved": "owl-pet/research/species/07-asio-flammeus-v3.md",
-          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the repository's established cinematic 3D animated owl style. Exact header text: \"07 · SHORT-EARED OWL · Asio flammeus\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center stand on separate low earth hummocks at the same visual baseline in open rough grassland at dusk beside a shallow grass-lined ground nest; adult female only subtly fuller/heavier, never a giant. Adults share one ochre-brown morph: medium slim bodies, tiny inconspicuous ear tufts mostly flattened, pale buff-yellow facial discs with narrow dark-speckled pale rim, strong sooty black patches around relatively small bright yellow eyes, very short white eyebrows, blackish-horn bills, yellow-brown crown/upperparts heavily streaked and mottled, pale dull-yellow underparts with clear dark vertical streaks strongest on upper breast and fading below, feathered light-tawny legs/toes visibly standing on firm turf. Juvenile right is a source-bounded approximately 16-day pre-flight ground-walker just beyond the nest: pale ochre-buff mesoptile with diffuse dusky barring, nearly black facial disc, bright yellow eyes, short white eyebrows, tiny undeveloped tufts, formed but short soft folded wings without long adult remiges, short unfinished tail, both feet planted on one grassy hummock; no flight, spread wings, hovering or unstable pose. Open marshy meadow/rough pasture, low vegetation concealment, no trees dominating. Comparative review board, not a literal family moment. No prey, eggs, extra birds, borders, logos or text beyond exact title/labels. Exact individual day, flight threshold, secondary pattern, continuous feather sequence, measured display ratio, subspecies and universal nest geometry remain unknown.",
-          "remaining_unknowns": [
-            "exact day",
-            "flight threshold",
-            "secondary pattern",
-            "continuous feather sequence",
-            "measured display ratio",
-            "subspecies",
-            "universal nest geometry"
-          ],
+          "generation_wait_seconds": 43.875,
+          "source_path_local": "generated_images/exec-472adfed-27f6-44db-9124-ebb34ff400df.png",
+          "source_bytes": 2709048,
+          "source_sha256": "8e2b7b8336365e9f430cfe828232cfde82e5d9b662b9d1b23e0b5fc3e5f309d2",
+          "source_dimensions": "1536x1024",
+          "initial_review": "Title/labels/count/adults/habitat/support pass; juvenile wing too long with adult-like spot rows.",
+          "edit_required": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T08:03:00.000+08:00",
+      "last_updated_at": "2026-10-28T08:05:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
-        "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed."
+        "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
+        "2026-10-28T08:05:00.000+08:00: #07 v3 IMAGE_GENERATED after 43.875s; juvenile wing too long/adult-spotted, targeted edit required; no credit."
       ]
     }
   ],

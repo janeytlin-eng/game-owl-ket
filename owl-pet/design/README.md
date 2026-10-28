@@ -1535,3 +1535,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 - #18 *Megascops kennicottii* v3 — SCIENCE_REVISION, supported ~28–34 d barred-mesoptile large young; [concept](concepts/18-megascops-kennicottii-v3.png) · [research](../research/species/18-megascops-kennicottii-v3.md) · [run](../production/runs/20261028T0851+0800-newbatch-cycle-1.md). Science pending.
 
 - #27 *Glaucidium passerinum* v3 — SCIENCE_REVISION, evidence-bounded 20-day cavity nestling; [concept](concepts/27-glaucidium-passerinum-v3.png) · [research](../research/species/27-glaucidium-passerinum-v3.md) · [run](../production/runs/20261028T1035+0800-newbatch-cycle-1.md). The first remote generated PNG was corrupt and was rebuilt from the persisted prompt; science pending.
+
+
+- #28 *Glaucidium perlatum* v3 — SCIENCE_REVISION, fully supported late cavity nestling inside the documented 27–31-day nest window; [concept](concepts/28-glaucidium-perlatum-v3.png) · [research](../research/species/28-glaucidium-perlatum-v3.md) · [run](../production/runs/20261028T1142+0800-newbatch-cycle-2.md). One juvenile-plumage edit; exact age and feather sequence unknown; science pending.

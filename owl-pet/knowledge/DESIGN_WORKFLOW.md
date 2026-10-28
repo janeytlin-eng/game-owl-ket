@@ -566,3 +566,11 @@ Discovery: for #175, the guide only says the juvenile resembles the adult, while
 ### Git blob identity is not image-integrity proof (discovered/applied/verified 2026-10-28, #27 v3)
 
 A Git blob SHA can be stable while the stored raster is still undecodable or visually incomplete. #27 v3's first durable PNG matched its recorded Git blob, yet actual CRC validation failed and tolerant decoding exposed a flat missing lower half; stored byte/SHA metadata was also inconsistent. The invalid asset was not edited or credited. The persisted full prompt was regenerated, and the new source, full-resolution master and 680×453 derivative were all opened before archive. This verifies one recovery rule: require decode and visual readback in addition to blob identity/size. It does not imply that every historical blob is corrupt; apply the check to new archives and suspicious recoveries.
+
+
+### 2026-10-28 时间窗只约束阶段，不自动给出逐日羽序（#28 v3）
+
+- 发现：两个独立二手综合来源都给出珠斑鸺鹠27–31日的巢内期，但首图仍把“接近离巢”机械翻译成了成鸟式清晰珠斑与规则折翼羽。
+- 证据：`PSOW-BDI-2026`与`PSOW-BIODIVEXPLORER-ROBERTS-2026`交叉支持时间窗；幼鸟识别资料只支持头背斑点减少与短尾，没有逐日羽区或虹膜序列。
+- 实际修改：把幼鸟定位为巢口晚期、双足与腹部完整支撑；只编辑幼鸟，去除冠背与折翼的成鸟式整齐白斑列，缩短并软化折翼，隐藏短尾。
+- 验证范围：编辑后1536×1024原图、全分辨率审查母版和680×453衍生图均已查看。规则验证的是“时间窗可约束动作与支撑，但羽序须另有证据”；不证明精确29–30日、首飞能力、虹膜变化或其他物种相同，科学状态仍为false。

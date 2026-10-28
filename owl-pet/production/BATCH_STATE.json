@@ -5711,8 +5711,8 @@
         "run_id": "20261028T1142+0800-newbatch-cycle-2",
         "cycle": 2,
         "species": "#28 Glaucidium perlatum",
-        "heartbeat_at": "2026-10-28T11:46:29+08:00",
-        "expires_at": "2026-10-28T12:01:29+08:00"
+        "heartbeat_at": "2026-10-28T11:47:41+08:00",
+        "expires_at": "2026-10-28T12:02:41+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5720,8 +5720,8 @@
         "species": "#28 Glaucidium perlatum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T11:46:29+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T11:47:41+08:00",
         "evidence": {
           "new_sources": [
             "PSOW-BIODIVEXPLORER-ROBERTS-2026"
@@ -5781,10 +5781,19 @@
             "juvenile iris chronology unknown",
             "scientifically_verified remains false"
           ],
-          "reviewed_blob": "f7134f72e17c9da5f7df301d1fdbf1c777bf7e4b"
+          "reviewed_blob": "f7134f72e17c9da5f7df301d1fdbf1c777bf7e4b",
+          "concept_path": "owl-pet/design/concepts/28-glaucidium-perlatum-v3.png",
+          "concept_blob": "d67ed35c9e59cbb8462c003538ee3658a1ff85d0",
+          "concept_sha256": "b33f6e28e294f510d3560ce0a3c4969976ce32b9c622022e9f211044689ed846",
+          "concept_bytes": 180311,
+          "generated_blob": "c7e6bda13a7965a20855b8a6138e941655624e60",
+          "manifest_count_before": 456,
+          "manifest_count_after": 457,
+          "unique_species_provisional": "184/251",
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-28T11:46:29+08:00",
+      "last_updated_at": "2026-10-28T11:47:41+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5797,15 +5806,16 @@
         "2026-10-28T11:42:13+08:00: cycle2 STARTED canonical #28 Glaucidium perlatum v3 SCIENCE_REVISION; v1–v2 preserved; bounded late-cavity juvenile evidence selected; no credit.",
         "2026-10-28T11:43:06+08:00: cycle2 #28 v3 RESEARCH_READY; new1/reused4/corrected1. Biodiversity Explorer/Roberts timing cross-check read; 27–31-day cavity window applied conservatively. Full prompt saved; science false; no credit.",
         "2026-10-28T11:44:37+08:00: cycle2 #28 v3 IMAGE_GENERATED in 43.8s; 1536x1024 original actually opened. Count/text/adult direction/support pass; juvenile crisp adult-like crown/back/wing spots require targeted edit. Durable source master saved; no credit.",
-        "2026-10-28T11:46:29+08:00: cycle2 #28 v3 REVIEWED after one 39.2s targeted juvenile-plumage edit; adult-like white spot rows removed, short soft wing and cavity support retained. Science false; no credit."
+        "2026-10-28T11:46:29+08:00: cycle2 #28 v3 REVIEWED after one 39.2s targeted juvenile-plumage edit; adult-like white spot rows removed, short soft wing and cavity support retained. Science false; no credit.",
+        "2026-10-28T11:47:41+08:00: cycle2 #28 v3 ARCHIVED tree prepared; concept d67ed35c9e, generated c7e6bda13a, reviewed f7134f72e1; manifest 456→457; unique 184/251. Fixed-commit readback pending; no credit."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261028T1142+0800-newbatch-cycle-2",
         "cycle": 2,
         "species": "#28 Glaucidium perlatum",
-        "heartbeat_at": "2026-10-28T11:46:29+08:00",
-        "expires_at": "2026-10-28T12:01:29+08:00"
+        "heartbeat_at": "2026-10-28T11:47:41+08:00",
+        "expires_at": "2026-10-28T12:02:41+08:00"
       }
     }
   ],
@@ -5814,8 +5824,8 @@
     "run_id": "20261028T1142+0800-newbatch-cycle-2",
     "cycle": 2,
     "species": "#28 Glaucidium perlatum",
-    "heartbeat_at": "2026-10-28T11:46:29+08:00",
-    "expires_at": "2026-10-28T12:01:29+08:00"
+    "heartbeat_at": "2026-10-28T11:47:41+08:00",
+    "expires_at": "2026-10-28T12:02:41+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

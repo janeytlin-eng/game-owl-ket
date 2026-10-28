@@ -26,3 +26,12 @@ v2 therefore replaces the v1 “small adult” tendency with a smaller, softer s
 Actual full-resolution and optimized-archive inspection passed: exactly three labeled owls, all six feet supported, correct adult diagnostic palette/pattern, no extra bird or malformed limb. No imagegen edit was needed after generation. Archived image: `design/concepts/28-glaucidium-perlatum-v2.png`; SHA-256 `c85f8e82eeb507260719983630803eab8315196af4aeccb95870edaf8f701a02`; image commit `949a874e85fe620935b557565142001d5733b0d3`.
 
 Unresolved: exact juvenile day, day-specific feather tracts and iris chronology, continuous wing/tail growth and quantified linear sex-size difference. This remains a reviewed concept, not a scientific pass (`scientifically_verified=false`). See [source index](../../research/SOURCE_INDEX.md) and [cycle record](../../production/runs/2026-10-26T1116+0800-cycle-4.md).
+
+
+## 2026-10-28 v3 bounded late-cavity revision
+
+A second institutional-secondary page, `PSOW-BIODIVEXPLORER-ROBERTS-2026`, independently repeats the Roberts VII timing direction: 28–29 days incubation, young remaining in the cavity for 27–31 days, and parents feeding fledged young near the nest for at least another 14 days. This agrees with the previously indexed `PSOW-BDI-2026`, but neither is a primary day-by-day plumage series.
+
+v3 corrects the v2 design inference from an age-unknown post-fledging bird to a fully supported late-cavity nestling inside the 27–31-day window. “About 29–30 days” is only a visual location in that window, not a claimed exact age. The first render gave the juvenile too many crisp adult-like crown/back/wing spots; one targeted edit reduced these to faint flecks, softened and shortened the folded wing, retained the nape false eyes, hid the short tail and preserved both feet plus belly support at the cavity lip. Adults remain near-equal in displayed height; the female is only subtly fuller and turns to expose the paired nape false eyes.
+
+Actual 1536×1024 source, full-resolution reviewed JPEG and 680×453 concept derivative were opened and passed. Exact day, day-specific feather tracts, juvenile iris chronology, precise wing/tail proportions and subspecies variation remain unknown. Science remains false. Image: `design/concepts/28-glaucidium-perlatum-v3.png`; research card: [28-glaucidium-perlatum-v3.md](../../research/species/28-glaucidium-perlatum-v3.md); run: [20261028T1142+0800-newbatch-cycle-2.md](../../production/runs/20261028T1142+0800-newbatch-cycle-2.md).

@@ -1774,3 +1774,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T07:48:00.000+08:00 — #05 *Strix aluco* v3 independently verified at archive `3330861fb9ef907309fe1f67183135ff4eeae057`; concept `c827dcf0…`, generated `33d35fe6…`, reviewed `e0e8d62d…` and required metadata read back. Unique remains **184/251**; batch **5/6**, next cycle 6. Science false.
+
+
+## 2026-10-28 #28 *Glaucidium perlatum* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/28-glaucidium-perlatum-v3.png](design/concepts/28-glaucidium-perlatum-v3.png)
+- Research: one new institutional-secondary cross-check, four reused sources and one corrected design inference; 27–31-day nest window applied conservatively. Exact day-specific feather sequence and iris chronology remain unknown.
+- Review: one targeted edit removed crisp adult-like juvenile crown/back/wing spots. Exact text/count, adult identity, near-equal displayed height, subtle female fullness, nape false eyes, juvenile short soft wing, hidden tail and full cavity support pass. Science false; readback pending.

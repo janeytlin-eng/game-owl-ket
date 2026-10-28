@@ -6234,6 +6234,57 @@
       ],
       "lease": null,
       "in_progress": null
+    },
+    {
+      "batch_id": "2026-10-29T0153+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex",
+        "run_id": "20261029T0153+0800-cycle-1",
+        "heartbeat_at": "2026-10-29T01:53:00+08:00",
+        "expires_at": "2026-10-29T02:08:00+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 1,
+        "run_id": "20261029T0153+0800-cycle-1",
+        "species": "#51 Strix rufipes",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-29T01:53:00+08:00",
+        "evidence": {
+          "prior_versions": [
+            "v1",
+            "v2"
+          ],
+          "unique_species": 184,
+          "scientifically_verified": false
+        }
+      },
+      "last_updated_at": "2026-10-29T01:53:00+08:00",
+      "audit_notes": [
+        "2026-10-29T01:53:00+08:00: new batch cycle1 STARTED #51 Strix rufipes v3 SCIENCE_REVISION; v1-v2 retained; no cycle credit."
+      ],
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261029T0153+0800-cycle-1",
+        "heartbeat_at": "2026-10-29T01:53:00+08:00",
+        "expires_at": "2026-10-29T02:08:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 1,
+        "run_id": "20261029T0153+0800-cycle-1",
+        "species": "#51 Strix rufipes",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "started_at": "2026-10-29T01:53:00+08:00",
+        "heartbeat_at": "2026-10-29T01:53:00+08:00",
+        "resume_from": "RESEARCH_READY"
+      }
     }
   ],
   "lease": {

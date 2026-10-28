@@ -43,3 +43,7 @@
 ## v3 research — 2026-10-28
 
 New `PEPO-MACIAS-2015` (printed/PDF p.147) reports white-down blind hatchlings and a broad 26–42 d cavity-departure window. V3 uses only a supported late-cavity young; no exact day, feather map or flight claim. Science false.
+
+
+### v3成图
+概念图 680×453，647132 bytes，SHA-256 `3a8f79f50806d4942658c3ad6b845fe4c695ea200601b12ba38072a3d961ddbe`; 母版1536×1024，812503 bytes，SHA-256 `322d5bc3b3bce5b34876197a6a8a88d09a5f0dfd051ffb0877bd4bd59751dd1d`。首稿误生4只鸟，第一次编辑移除额外成鸟；第二次编辑恢复雄鸟后视假眼。最终三只、支撑、标签和幼鸟边界通过；科学false。

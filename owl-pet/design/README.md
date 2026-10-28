@@ -1562,3 +1562,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #36 *Glaucidium bolivianum* v3 — SCIENCE_REVISION; Yungas adult identity plus an explicitly age-unknown supported juvenile, with a targeted edit removing adult-like juvenile wing spots/full tail bands; [concept](concepts/36-glaucidium-bolivianum-v3.png) · [research](../knowledge/species/36-glaucidium-bolivianum.md) · [run](../production/runs/20261028T1745+0800-cycle-4.md). Science pending.
+
+
+- #37 *Glaucidium peruanum* v3 — SCIENCE_REVISION; source-bounded broad 26–42 d late-cavity young; two edits corrected an extra fourth bird and restored male false-eye view; [concept](concepts/37-glaucidium-peruanum-v3.png) · [research](../knowledge/species/37-glaucidium-peruanum.md) · [run](../production/runs/20261028T1758+0800-cycle-5.md). Science pending.

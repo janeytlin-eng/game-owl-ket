@@ -5886,8 +5886,8 @@
         "run_id": "20261028T1758+0800-cycle-5",
         "cycle": 5,
         "species": "#37 Glaucidium peruanum",
-        "heartbeat_at": "2026-10-28T18:01:00+08:00",
-        "expires_at": "2026-10-28T18:16:00+08:00"
+        "heartbeat_at": "2026-10-28T18:08:00+08:00",
+        "expires_at": "2026-10-28T18:23:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -5895,8 +5895,8 @@
         "species": "#37 Glaucidium peruanum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T18:01:00+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T18:08:00+08:00",
         "evidence": {
           "at": "2026-10-28T18:01:00+08:00",
           "full_imagegen_prompt": "Create one horizontal 3:2 warm digital-gouache board. Title exactly \"37 · PERUVIAN PYGMY-OWL · Glaucidium peruanum\"; labels ADULT MALE, ADULT FEMALE, JUVENILE; exactly three supported birds. Adults near-equal height, tiny untufted brown/gray-brown, yellow irises, greenish-yellow bill/cere, pale-spotted crown/upperparts, strong dark longitudinal underpart streaks, relatively long broken-bar tail; one rear three-quarter with false eyes. Juvenile is a conservative late-cavity young within a broad reported 26–42-day departure window, no exact day: fully supported at natural cavity lip, plain unspotted crown, soft diffuse body, short rounded wing, short weakly marked tail; no flight or independence. Dry western-Andean/Tumbesian thorn scrub with mesquite, cactus and riparian trees. No extra birds, prey, eggs, watermark or other text.",
@@ -5913,7 +5913,7 @@
           "science_pass": false
         }
       },
-      "last_updated_at": "2026-10-28T18:01:00+08:00",
+      "last_updated_at": "2026-10-28T18:08:00+08:00",
       "audit_notes": [
         "2026-10-28T16:10:00+08:00: new batch cycle1 STARTED #33 Taenioptynx brodiei v3 SCIENCE_REVISION; v1-v2 preserved; no credit.",
         "2026-10-28T16:15:00+08:00: cycle1 #33 v3 RESEARCH_READY; new2/reused2/corrected1; known 56-day fledgling boundary selected; science false.",
@@ -5934,8 +5934,8 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1758+0800-cycle-5",
-        "heartbeat_at": "2026-10-28T18:01:00+08:00",
-        "expires_at": "2026-10-28T18:16:00+08:00"
+        "heartbeat_at": "2026-10-28T18:08:00+08:00",
+        "expires_at": "2026-10-28T18:23:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -5944,7 +5944,7 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T1758+0800-cycle-5.md",
-        "stage": "RESEARCH_READY",
+        "stage": "ARCHIVED",
         "stage_evidence": {
           "STARTED": {
             "at": "2026-10-28T17:58:00+08:00",
@@ -5967,6 +5967,37 @@
             ],
             "corrected_sources": 1,
             "science_pass": false
+          },
+          "IMAGE_GENERATED": {
+            "at": "2026-10-28T18:04:00+08:00",
+            "path": "owl-pet/production/generated/37-glaucidium-peruanum-v3-generated-master.jpg",
+            "blob_sha": "28ee7319b5fdf758692326b180260b3845a44180",
+            "bytes": 812503,
+            "sha256": "322d5bc3b3bce5b34876197a6a8a88d09a5f0dfd051ffb0877bd4bd59751dd1d",
+            "generation_seconds": 62.1,
+            "edits_seconds": [
+              30.3,
+              39.1
+            ]
+          },
+          "REVIEWED": {
+            "at": "2026-10-28T18:06:00+08:00",
+            "edit_required": true,
+            "issues": [
+              "extra fourth bird",
+              "male false-eye view lost after first edit"
+            ],
+            "result": "two targeted edits; final exactly three supported birds",
+            "science_pass": false
+          },
+          "ARCHIVED": {
+            "at": "2026-10-28T18:08:00+08:00",
+            "concept_path": "owl-pet/design/concepts/37-glaucidium-peruanum-v3.png",
+            "concept_blob_sha": "c7bc6327f878fe1a0458498e6e6fabd781105235",
+            "concept_bytes": 647132,
+            "master_blob_sha": "28ee7319b5fdf758692326b180260b3845a44180",
+            "master_bytes": 812503,
+            "manifest_count": 466
           }
         }
       },
@@ -5985,8 +6016,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261028T1758+0800-cycle-5",
-    "heartbeat_at": "2026-10-28T18:01:00+08:00",
-    "expires_at": "2026-10-28T18:16:00+08:00"
+    "heartbeat_at": "2026-10-28T18:08:00+08:00",
+    "expires_at": "2026-10-28T18:23:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -6093,10 +6124,10 @@
     "run_id": "20261028T1758+0800-cycle-5",
     "cycle": 5,
     "species": "#37 Glaucidium peruanum",
-    "heartbeat_at": "2026-10-28T18:01:00+08:00",
-    "expires_at": "2026-10-28T18:16:00+08:00"
+    "heartbeat_at": "2026-10-28T18:08:00+08:00",
+    "expires_at": "2026-10-28T18:23:00+08:00"
   },
-  "last_updated_at": "2026-10-28T18:01:00+08:00",
+  "last_updated_at": "2026-10-28T18:08:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

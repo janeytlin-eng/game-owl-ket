@@ -5534,24 +5534,22 @@
         "species": "#21 Megascops choliba",
         "version": 5,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T09:44:00.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T09:46:00.000+08:00",
         "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/21-megascops-choliba-v5-reviewed-master.png",
-          "blob_sha": "ab8ef71545373b3c5c87d646e076f4ec8e187038",
-          "visual_review_seconds": 2.1,
-          "visual_review": "1536x1024 actual view passed count/text/adult identity/18–20-day juvenile/cavity/support checks; no edit warranted",
-          "science_pass": false,
-          "unknowns": [
-            "individual morph variation",
-            "sex-specific dimensions",
-            "continuous feather sequence",
-            "flight capability at 18–20 days",
-            "subspecies assignment"
-          ]
+          "concept_path": "owl-pet/design/concepts/21-megascops-choliba-v5.png",
+          "concept_blob": "805f8e91d8de87ff92aebee40f0f682f840c0c0a",
+          "concept_sha256": "5beae738e219e39d56a04186111cb8c3ae749cb5d58bf2f43c03d4d8cfb85295",
+          "generated_blob": "ab8ef71545373b3c5c87d646e076f4ec8e187038",
+          "reviewed_blob": "ab8ef71545373b3c5c87d646e076f4ec8e187038",
+          "manifest_count_before": 451,
+          "manifest_count_after": 452,
+          "unique_species": 184,
+          "readback_pending": true,
+          "science_pass": false
         }
       },
-      "last_updated_at": "2026-10-28T09:44:00.000+08:00",
+      "last_updated_at": "2026-10-28T09:46:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:51:00.000+08:00: new batch cycle1 STARTED canonical #18 Megascops kennicottii v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
         "2026-10-28T08:53:00.000+08:00: cycle1 #18 v3 RESEARCH_READY; new2/reused4/corrected1 sources, Mikkola pp.204–205 and primary telemetry study read; full prompt saved; science false.",
@@ -5571,15 +5569,16 @@
         "2026-10-28T09:36:00.000+08:00: cycle3 STARTED #21 Megascops choliba v5 SCIENCE_REVISION; v1–v4 preserved; no credit.",
         "2026-10-28T09:39:00.000+08:00: cycle3 #21 v5 RESEARCH_READY; new1/reused4/corrected1; 18–20-day dark barred mesoptile and well-developed remiges read from primary paper, average fledging 29.3d cross-checked; full prompt saved; science false.",
         "2026-10-28T09:43:00.000+08:00: cycle3 #21 v5 IMAGE_GENERATED in 47.8s; actual 1536x1024 view opened, first render passed count/text/adult/18–20-day juvenile/support checks; REVIEWED pending; no credit.",
-        "2026-10-28T09:44:00.000+08:00: cycle3 #21 v5 REVIEWED; first 1536x1024 render passed original-resolution concept QA without edit; well-developed remiges remain folded and cavity-supported; science false."
+        "2026-10-28T09:44:00.000+08:00: cycle3 #21 v5 REVIEWED; first 1536x1024 render passed original-resolution concept QA without edit; well-developed remiges remain folded and cavity-supported; science false.",
+        "2026-10-28T09:46:00.000+08:00: cycle3 #21 v5 ARCHIVED; concept 805f8e91d8, master ab8ef71545; manifest 451→452; fixed-commit readback pending; no credit."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261028T0936+0800-newbatch-cycle-3",
         "cycle": 3,
         "species_id": 21,
-        "heartbeat_at": "2026-10-28T09:44:00.000+08:00",
-        "expires_at": "2026-10-28T09:59:00.000+08:00"
+        "heartbeat_at": "2026-10-28T09:46:00.000+08:00",
+        "expires_at": "2026-10-28T10:01:00.000+08:00"
       }
     }
   ],
@@ -5689,10 +5688,10 @@
     "run_id": "20261028T0936+0800-newbatch-cycle-3",
     "cycle": 3,
     "species_id": 21,
-    "heartbeat_at": "2026-10-28T09:44:00.000+08:00",
-    "expires_at": "2026-10-28T09:59:00.000+08:00"
+    "heartbeat_at": "2026-10-28T09:46:00.000+08:00",
+    "expires_at": "2026-10-28T10:01:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T09:44:00.000+08:00",
+  "last_updated_at": "2026-10-28T09:46:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5767,7 +5766,8 @@
     "2026-10-28T06:38:36.251+08:00: batch 2026-10-28T0508+0800 cycle3 VERIFIED; cumulative 3/6; next_cycle 4.",
     "2026-10-28T06:40:58.186+08:00: invocation ended after 1 verified cycle (batch cumulative 3/6). No platform timeout telemetry was observed. Next-cycle selection was not guessed: repository tree has no canonical knowledge/species roster entries for 170–200 and only the newly created #201 above that range; historical STATUS priority mentions (#109/#84/#117/#128) are superseded by later manifest v8/v7/v8/v7 entries. External Mikkola sequence after Mantanani immediately includes already archived canonical species such as #23 Psiloscops flammeolus and #18 Megascops kennicottii, so assigning a guessed #202 would risk duplicate credit. next_cycle remains 4, no active lease.",
     "2026-10-28T09:43:00.000+08:00: cycle3 #21 v5 IMAGE_GENERATED in 47.8s; actual 1536x1024 view opened, first render passed count/text/adult/18–20-day juvenile/support checks; REVIEWED pending; no credit.",
-    "2026-10-28T09:44:00.000+08:00: cycle3 #21 v5 REVIEWED; first 1536x1024 render passed original-resolution concept QA without edit; well-developed remiges remain folded and cavity-supported; science false."
+    "2026-10-28T09:44:00.000+08:00: cycle3 #21 v5 REVIEWED; first 1536x1024 render passed original-resolution concept QA without edit; well-developed remiges remain folded and cavity-supported; science false.",
+    "2026-10-28T09:46:00.000+08:00: cycle3 #21 v5 ARCHIVED; concept 805f8e91d8, master ab8ef71545; manifest 451→452; fixed-commit readback pending; no credit."
   ],
   "audit_trail": [
     {

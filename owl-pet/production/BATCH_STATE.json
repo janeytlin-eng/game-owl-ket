@@ -5690,7 +5690,7 @@
     },
     {
       "batch_id": "2026-10-28T1035+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -5744,45 +5744,57 @@
           "commit_sha": "a6cfea001fe62b58f32a0a182d13077513f4e121",
           "run_record": "owl-pet/production/runs/20261028T1538+0800-cycle-5.md",
           "action": "SCIENCE_REVISION",
-          "version": 3
+          "version": 3,
+          "unique_species_increment": 0,
+          "verified_at": "2026-10-28T15:46:00+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Glaucidium castanotum",
+          "species_id": 32,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7d154e458fb69fca611c56916b80664223a2037a",
+          "run_record": "owl-pet/production/runs/20261028T1548+0800-cycle-6.md",
+          "verified_at": "2026-10-28T16:07:00+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261028T1538+0800-cycle-5",
-        "cycle": 5,
-        "species": "#31 Glaucidium radiatum",
-        "heartbeat_at": "2026-10-28T15:41:00+08:00",
-        "expires_at": "2026-10-28T15:56:00+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
-        "cycle": 5,
-        "run_id": "20261028T1538+0800-cycle-5",
-        "species": "#31 Glaucidium radiatum",
+        "cycle": 6,
+        "run_id": "20261028T1548+0800-cycle-6",
+        "species": "#32 Glaucidium castanotum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T15:41:00+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-28T16:07:00+08:00",
         "evidence": {
           "new_sources": [
-            "JUOW-OISEAUXNET-LEBOFF-2026",
-            "JUOW-OISEAUXBIRDS-BOUGLOUAN-2026"
+            "CBOW-COMMONS-ABEY2019",
+            "CBOW-EDIRISINGHE-2025",
+            "CBOW-FLICKR-KALUBOWILA-2014"
           ],
           "reused_sources": [
-            "JUOW-PF-2021",
-            "JUOW-OWLPAGES-2020",
-            "JUOW-EBIRD-2025"
+            "CBOW-MIKKOLA-2013",
+            "CBOW-PEREGRINE-2026"
           ],
           "corrected_sources": 1,
-          "correction": "newly viewed georeferenced immature photo supports age-unknown fully feathered older stage rather than downy v2 stage",
-          "design_boundary": "age-unknown fully feathered supported immature; less distinct underpart barring and browner tail bars; no exact age/flight claim",
-          "mikkola_access": "not accessible this run; no page claimed",
-          "imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “31 · JUNGLE OWLET · Glaucidium radiatum”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Show exactly three owls, no extra birds or animals.\n\nAdult male left and adult female center stand on the same natural deciduous-forest branch and baseline at nearly equal displayed crown height. Both are squat 20–22 cm Jungle Owlets with round untufted heads, bright lemon-yellow eyes, greenish-yellow to yellowish-gray bills, white chin and short white brows/moustachial streaks, dark gray-brown upperparts densely crossed by narrow pale ochre-rufous bars, warmer rufous upperwing panels, white underparts with dense gray-brown barring on breast and flanks, a short sooty tail narrowly barred white, and feathering down the tarsi toward greenish-yellow toes. Absolutely no paired nape false eyes. Sexes look alike; female only subtly fuller in body volume, not taller or a different scale class.\n\nJuvenile right is an age-unknown older immature grounded by the January 2026 Uttar Pradesh photograph and the compiled juvenile description. It perches low on a forked branch with both feet fully gripping wood. It is smaller and softer-contoured than adults but fully feathered: dark brown rounded crown with fine narrow buff bars, noticeably softer less-distinct barring below, a compact formed folded wing with muted rufous-brown bars, and a short tail with browner bars than the adults. Keep eyes yellow only as visible in the reference photograph, not as a universal age key. Do not claim exact age, fledging day, independence or flight ability. No hatchling down, no cavity-floor pose, no long adult-scale hard wing or tail, no prey handling.\n\nScene: central-north Indian mixed deciduous and secondary forest edge near Pīlībhīt, with dry leaves, restrained green understory and warm filtered light. Accurate owl feet and natural support. Exactly three owls. No ear tufts, no nape false eyes, no exaggerated female size, no unsupported juvenile, no airborne pose, no prey, no nest box, no watermark, and no text other than the exact title and three exact labels.",
+          "correction": "dated Sinharaja juvenile evidence replaces v2's undated cavity middle-juvenile pose and 2025 original field comparison sharpens separation from #31",
+          "design_boundary": "age-unknown fully feathered supported older juvenile; no exact age, independence or flight claim",
+          "archive_commit": "7d154e458fb69fca611c56916b80664223a2037a",
+          "readback": {
+            "concept_bytes": 181541,
+            "concept_dimensions": "680x453",
+            "master_bytes": 635396,
+            "master_dimensions": "1536x1024",
+            "text_markers": true
+          },
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T15:41:00+08:00",
+      "last_updated_at": "2026-10-28T16:07:00+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5811,76 +5823,12 @@
         "2026-10-28T15:35:00+08:00: cycle4 #30 v3 ARCHIVED tree prepared; concept 9dea21238c, generated/reviewed 0faf15dab0; manifest458→459; unique184/251. Fixed readback pending; no credit.",
         "2026-10-28T15:36:00+08:00: cycle4 VERIFIED #30 Glaucidium cuculoides v3 at b55d0f4a1b5f1522a04afd5e1c65e07af1f85861; fixed-commit decode/hash/blob/manifest/source/card/run/status/knowledge/design readback passed. Unique184/251; batch4/6 next_cycle5; lease released; science false.",
         "2026-10-28T15:38:00+08:00: cycle5 STARTED #31 Glaucidium radiatum v3 SCIENCE_REVISION; v1-v2 preserved; active juvenile-development search required; no credit.",
-        "2026-10-28T15:41:00+08:00: cycle5 #31 v3 RESEARCH_READY; new2/reused3/corrected1. Georeferenced Jan-2026 immature photo pixels and Oiseaux-Birds juvenile description read; older age-unknown supported stage selected; science false."
+        "2026-10-28T15:41:00+08:00: cycle5 #31 v3 RESEARCH_READY; new2/reused3/corrected1. Georeferenced Jan-2026 immature photo pixels and Oiseaux-Birds juvenile description read; older age-unknown supported stage selected; science false.",
+        "2026-10-28T16:07:00+08:00: cycle5 #31 v3 VERIFIED at a6cfea001fe62b58f32a0a182d13077513f4e121; fixed readback passed; batch5/6 next_cycle6; science false.",
+        "2026-10-28T16:07:00+08:00: cycle6 #32 v3 VERIFIED at 7d154e458fb69fca611c56916b80664223a2037a; fixed readback passed; manifest461; unique184/251; batch COMPLETE6/6; lease released; science false."
       ],
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261028T1548+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T16:05:00+08:00",
-        "expires_at": "2026-10-28T16:20:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "species_id": 32,
-        "species": "Glaucidium castanotum",
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "run_record": "owl-pet/production/runs/20261028T1548+0800-cycle-6.md",
-        "stage": "ARCHIVED",
-        "stage_evidence": {
-          "STARTED": {
-            "at": "2026-10-28T15:48:00+08:00",
-            "prior_versions": [
-              "v1",
-              "v2"
-            ],
-            "selection_basis": "next numbered science-revision target after verified #31; existing #32 v2 remains scientifically unverified"
-          },
-          "RESEARCH_READY": {
-            "at": "2026-10-28T15:56:00+08:00",
-            "new_source_ids": [
-              "CBOW-COMMONS-ABEY2019",
-              "CBOW-EDIRISINGHE-2025",
-              "CBOW-FLICKR-KALUBOWILA-2014"
-            ],
-            "reused_source_ids": [
-              "CBOW-MIKKOLA-2013",
-              "CBOW-PEREGRINE-2026"
-            ],
-            "corrected_count": 1,
-            "design_boundary": "age-unknown fully feathered branch-supported juvenile; no exact age, independence or flight",
-            "full_imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “32 · CHESTNUT-BACKED OWLET · Glaucidium castanotum”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Show exactly three owls, no extra birds or animals.\n\nAdult male left and adult female center stand on the same mossy branch and baseline at nearly equal displayed crown height. Both are small 17–19 cm Sri Lankan Chestnut-backed Owlets with compact bodies, round untufted heads, bright yellow eyes, pale greenish-yellow bills, dark brown crowns crossed by narrow rusty-ochre bars, a conspicuous rich reddish-chestnut mantle and upper back with only sparse dark bars, darker barred wings, a brown breast band with restrained ochre bars, white lower underparts marked mostly by dark longitudinal streaks rather than the dense horizontal barring of Jungle Owlet, short barred tails, and feathered tarsi. Absolutely no paired nape false eyes. Female is only subtly fuller/heavier, not taller or a separate size class.\n\nJuvenile right is an age-unknown fully feathered older juvenile grounded by the dated Sinharaja juvenile photograph and Mikkola’s middle-juvenile description. It perches low with both feet gripping a broad mossy fork. Keep the same species identity but make the plumage softer and fluffier: muted chestnut back, less crisp diffuse rusty crown bars and underpart streaks, compact formed folded wings, and a short soft tail. The photograph supports a branch-perched juvenile but not exact age, independence or flight threshold. Do not make it a downy hatchling, do not give it long adult-scale hard remiges or a long mature tail, and do not show flight or prey handling.\n\nScene: Sri Lankan wet-zone evergreen rainforest resembling Sinharaja, shaded dense green foliage, moss, lichens and filtered daylight. Accurate owl feet and natural support. Exactly three owls. No ear tufts, no nape false eyes, no exaggerated female size, no unsupported juvenile, no airborne pose, no nest box, no prey, no watermark, and no text other than the exact title and three exact labels.",
-            "science_pass": false
-          },
-          "IMAGE_GENERATED": {
-            "at": "2026-10-28T16:00:00+08:00",
-            "path": "owl-pet/production/generated/32-glaucidium-castanotum-v3-generated-master.jpg",
-            "blob_sha": "d27c56d73a9b7f014039e98cee5120a5159a9c29",
-            "sha256": "ebb3daf8b2c9d2c85f65fa1a06dcca122d79463f3ada33d830a84c242a3105ac",
-            "bytes": 635396,
-            "width": 1536,
-            "height": 1024,
-            "generation_seconds": 88.4
-          },
-          "REVIEWED": {
-            "at": "2026-10-28T16:02:00+08:00",
-            "path": "owl-pet/production/reviewed/32-glaucidium-castanotum-v3-reviewed-master.jpg",
-            "blob_sha": "d27c56d73a9b7f014039e98cee5120a5159a9c29",
-            "inspection": "actual 1536x1024 view",
-            "edit_required": false,
-            "review_seconds": 83,
-            "science_pass": false
-          },
-          "ARCHIVED": {
-            "at": "2026-10-28T16:05:00+08:00",
-            "concept_path": "owl-pet/design/concepts/32-glaucidium-castanotum-v3.png",
-            "concept_blob_sha": "6d05bfce34aba32d4fea9040a01a2b8ec2f7cbf2",
-            "concept_sha256": "9d2bc0affb283109b57c42ffac075d18744b0c98157c2d087f399d69de261815c",
-            "concept_bytes": 181541,
-            "manifest_count": 461
-          }
-        }
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
   "lease": null,

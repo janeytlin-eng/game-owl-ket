@@ -5542,19 +5542,24 @@
         "species": "#23 Psiloscops flammeolus",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T09:51:00.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T09:56:00.000+08:00",
         "evidence": {
-          "prior_versions": [
-            "v1",
-            "v2",
-            "v3"
+          "new_sources": [
+            "FLOW-POWERS-1996-JRR"
           ],
-          "selection": "replace age-unknown newborn direction with independently documented 11-day nest stage; no duplicate count",
+          "reused_sources": [
+            "FLOW-FOSSILBEDS-2007",
+            "FLOW-CORNELL-ID-2026",
+            "FLOW-CORNELL-LIFE-2026",
+            "FLOW-ORI-2026"
+          ],
+          "corrected_sources": 0,
+          "design_boundary": "11-day nestling; white natal down with only beginnings of gray; compact supported cavity pose; no mature remiges/tail and no flight inference",
           "science_pass": false
         }
       },
-      "last_updated_at": "2026-10-28T09:51:00.000+08:00",
+      "last_updated_at": "2026-10-28T09:56:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:51:00.000+08:00: new batch cycle1 STARTED canonical #18 Megascops kennicottii v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
         "2026-10-28T08:53:00.000+08:00: cycle1 #18 v3 RESEARCH_READY; new2/reused4/corrected1 sources, Mikkola pp.204–205 and primary telemetry study read; full prompt saved; science false.",
@@ -5577,15 +5582,16 @@
         "2026-10-28T09:44:00.000+08:00: cycle3 #21 v5 REVIEWED; first 1536x1024 render passed original-resolution concept QA without edit; well-developed remiges remain folded and cavity-supported; science false.",
         "2026-10-28T09:46:00.000+08:00: cycle3 #21 v5 ARCHIVED; concept 805f8e91d8, master ab8ef71545; manifest 451→452; fixed-commit readback pending; no credit.",
         "2026-10-28T09:48:00.000+08:00: cycle3 VERIFIED #21 Megascops choliba v5; archive 0e1baa05e4249a32ef4826d829a37748d14baf7f, concept 805f8e91d8 and master ab8ef71545 read back at fixed commit; manifest452; unique184/251; batch3/6 next_cycle4; lease released.",
-        "2026-10-28T09:51:00.000+08:00: cycle4 STARTED #23 Psiloscops flammeolus v4 SCIENCE_REVISION; prior v1–v3 retained; 11-day evidence-bounded nest stage selected; no credit."
+        "2026-10-28T09:51:00.000+08:00: cycle4 STARTED #23 Psiloscops flammeolus v4 SCIENCE_REVISION; prior v1–v3 retained; 11-day evidence-bounded nest stage selected; no credit.",
+        "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 RESEARCH_READY; new1/reused4/corrected0; Powers et al. 1996 pp.15–20 actually read, 11-day field-account evidence reused; full prompt saved; science false."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261028T0951+0800-newbatch-cycle-4",
         "cycle": 4,
         "species_id": 23,
-        "heartbeat_at": "2026-10-28T09:51:00.000+08:00",
-        "expires_at": "2026-10-28T10:06:00.000+08:00"
+        "heartbeat_at": "2026-10-28T09:56:00.000+08:00",
+        "expires_at": "2026-10-28T10:11:00.000+08:00"
       }
     }
   ],
@@ -5695,10 +5701,10 @@
     "run_id": "20261028T0951+0800-newbatch-cycle-4",
     "cycle": 4,
     "species_id": 23,
-    "heartbeat_at": "2026-10-28T09:51:00.000+08:00",
-    "expires_at": "2026-10-28T10:06:00.000+08:00"
+    "heartbeat_at": "2026-10-28T09:56:00.000+08:00",
+    "expires_at": "2026-10-28T10:11:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T09:51:00.000+08:00",
+  "last_updated_at": "2026-10-28T09:56:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -5776,7 +5782,8 @@
     "2026-10-28T09:44:00.000+08:00: cycle3 #21 v5 REVIEWED; first 1536x1024 render passed original-resolution concept QA without edit; well-developed remiges remain folded and cavity-supported; science false.",
     "2026-10-28T09:46:00.000+08:00: cycle3 #21 v5 ARCHIVED; concept 805f8e91d8, master ab8ef71545; manifest 451→452; fixed-commit readback pending; no credit.",
     "2026-10-28T09:48:00.000+08:00: cycle3 VERIFIED #21 Megascops choliba v5; archive 0e1baa05e4249a32ef4826d829a37748d14baf7f, concept 805f8e91d8 and master ab8ef71545 read back at fixed commit; manifest452; unique184/251; batch3/6 next_cycle4; lease released.",
-    "2026-10-28T09:51:00.000+08:00: cycle4 STARTED #23 Psiloscops flammeolus v4 SCIENCE_REVISION; prior v1–v3 retained; 11-day evidence-bounded nest stage selected; no credit."
+    "2026-10-28T09:51:00.000+08:00: cycle4 STARTED #23 Psiloscops flammeolus v4 SCIENCE_REVISION; prior v1–v3 retained; 11-day evidence-bounded nest stage selected; no credit.",
+    "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 RESEARCH_READY; new1/reused4/corrected0; Powers et al. 1996 pp.15–20 actually read, 11-day field-account evidence reused; full prompt saved; science false."
   ],
   "audit_trail": [
     {

@@ -42,3 +42,8 @@ Exact post-hatch age, head/body ratio, down density, eye-opening date, continuou
 
 Image: `design/concepts/23-psiloscops-flammeolus-v3.png`.
 Run: `production/runs/2026-10-26T0825+0800-cycle-5.md`.
+
+
+## v4 evidence boundary · 2026-10-28
+
+Powers et al. 1996 was read in full for nest context and phenology; it supports small tree cavities and a roughly 22-day nestling period but not day-specific plumage. The earlier species-specific 11-day field account is reused only for its coarse observation: 30–40 g owlets still in white natal down with beginnings of gray. Therefore v4 changes the juvenile from an age-unknown newborn to an explicitly 11-day supported nestling, while withholding mature remiges, tail and flight ability. Adult sexes remain visually similar and near equal in displayed height. Science remains false because day-11 feather sequence, proportions, posture range and sex-specific measurements are not resolved.

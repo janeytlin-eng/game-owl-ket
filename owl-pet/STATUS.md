@@ -1,3 +1,4 @@
+- 2026-10-29T06:52:32.841+08:00: #68 *Tyto tenebricosa* v3 VERIFIED; fixed-tree images and markers passed at `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; unique +0; science false.
 - 2026-10-29T06:51:54.664+08:00: #68 *Tyto tenebricosa* v3 ARCHIVED; sex-volume/recent-fledgling/hollow-gully full+crop pass; concept `141c341dc4`, master `eb96cb7ffc`; readback pending; unique +0; science false.
 - 2026-10-29T06:47:56.280+08:00: #66 *Tyto capensis* v3 VERIFIED; fixed-tree images/blob/sizes and all text markers passed at archive `0af2270579e4e43b4f7e103372aba1772224778e`; unique +0; science false.
 - 2026-10-29T06:47:09.479+08:00: #66 *Tyto capensis* v3 ARCHIVED; recent fledgling dark/unspotted dorsum, adult diagnostic white dorsal spotting, modest female direction, wetland grass tunnel and support passed full/crop review; concept `f89f59a091`, master `2fece942b4`; fixed-tree readback pending; unique +0; science false.

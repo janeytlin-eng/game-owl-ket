@@ -25,3 +25,8 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 
 - Concept `141c341dc49fe57eeba07ac6bc0855abd382a76f` / 359873 B; generated/reviewed `eb96cb7ffc6d8b38296d9e61ef04312275f4b21d` / 449107 B each; crop `eda3c94fd67d9bd490ada81820ea896c58241578` / 108906 B.
 - Problem/evidence/change/recheck: v2 kept female difference conservative; Bilney 2012 supports strong nominate reversed dimorphism. v3 makes female clearly fuller on comparable support and uses the NSW three-month nest-period recent fledgling with developed wings/tail and only small residual down. Full/crop pass; no edit. Science false for exact ratio/age/subspecies variation.
+
+
+## v3 fixed-tree verification — 2026-10-29T06:52:32.841+08:00
+
+Archive `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; concept `141c341dc49fe57eeba07ac6bc0855abd382a76f`/359873 B; master `eb96cb7ffc6d8b38296d9e61ef04312275f4b21d`/449107 B; crop `eda3c94fd67d9bd490ada81820ea896c58241578`/108906 B; recursive tree and markers passed. Science false.

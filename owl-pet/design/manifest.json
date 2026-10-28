@@ -6530,8 +6530,34 @@
       "review_crop_blob": "eda3c94fd67d9bd490ada81820ea896c58241578",
       "review_crop_size_bytes": 108906,
       "archive_note": "First render passed full and crop; no edit. Exact chronology/sex visual ratio/subspecies variation unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "5e1c152e13b81ce96364cc1d3a162424a0901c6f",
+      "verified_at": "2026-10-29T06:52:32.841+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/68-tyto-tenebricosa-v3.jpg",
+          "blob": "141c341dc49fe57eeba07ac6bc0855abd382a76f",
+          "size_bytes": 359873
+        },
+        "generated": {
+          "path": "production/generated/68-tyto-tenebricosa-v3-generated-master.jpg",
+          "blob": "eb96cb7ffc6d8b38296d9e61ef04312275f4b21d",
+          "size_bytes": 449107
+        },
+        "reviewed": {
+          "path": "production/reviewed/68-tyto-tenebricosa-v3-reviewed-master.jpg",
+          "blob": "eb96cb7ffc6d8b38296d9e61ef04312275f4b21d",
+          "size_bytes": 449107
+        },
+        "review_crop": {
+          "path": "production/reviewed/68-tyto-tenebricosa-v3-juvenile-review-crop.jpg",
+          "blob": "eda3c94fd67d9bd490ada81820ea896c58241578",
+          "size_bytes": 108906
+        },
+        "tree_truncated": false
+      }
     }
   ],
-  "updated_at": "2026-10-29T06:51:54.664+08:00"
+  "updated_at": "2026-10-29T06:52:32.841+08:00"
 }

@@ -46,3 +46,10 @@
 - Adults remain dark-eyed, untufted and barred, with yellow bill/cere; sexes are alike and the female is only subtly fuller. The juvenile is an evidence-bounded 25–30-day branching bird and is not shown flying.
 - Sources added: `AWOO-AVIBASE-2026`, `AWOO-ABC-2005`; reused: `OWL-SRC-0049-A`, `OWL-SRC-0049-B`, `OWL-SRC-0049-C`.
 - Scientific status remains pending: no claim is made for precise feather sequence, subspecies variation or sex-specific measurements.
+
+
+## 2026-10-29 v3 research correction
+- Active research re-read SANBI, African Birdlife and Peregrine Fund development accounts; Avibase/current-name and ABC juvenile-photo metadata were reused.
+- Correction: the approximately 25–30-day branch-clambering stage is a Levubu-specific observation, not a universal species-wide departure age. SANBI reports the broader 30–37-day nestling/near-parent interval and good flight at about 46 days.
+- V3 boundary: fully supported Levubu clamberer, cream-white/pale-rufous down, short soft rounded emerging wing tips embedded in down, concealed tail, no adult wing spots and no flight.
+- New/reused/corrected sources: 0/5/1. Exact continuous plumage sequence, population transfer and quantified sex difference remain unknown; scientific status stays false.

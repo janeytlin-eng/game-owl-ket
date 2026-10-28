@@ -1807,3 +1807,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T15:36:00+08:00 — #30 *Glaucidium cuculoides* v3 independently verified at archive `b55d0f4a1b5f1522a04afd5e1c65e07af1f85861`; concept `9dea21238c…`, generated/reviewed `0faf15dab0…`, manifest459 and source/card/run/STATUS/knowledge/design records read back at the immutable commit. Unique remains **184/251**; batch **4/6**, next cycle 5. Science false.
+
+
+## 2026-10-28 #39 *Glaucidium griseiceps* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [39-glaucidium-griseiceps-v3.png](design/concepts/39-glaucidium-griseiceps-v3.png)
+- Research: 1 new / 3 reused / 1 corrected source decision. Primary printed p.93/Fig.1 supports the wet ground juvenile after a storm; v2 branch pose was an inference.
+- Review: one targeted edit removed adult-like juvenile crown/back/wing white spots. Exact text/count, near-equal adults, male nape false eye, juvenile plain back/soft compact wing/hidden tail and wet ground support pass. Exact age, flight ability, feather chronology, nest stage and quantified dimorphism remain unknown. Science false; fixed-commit readback pending.

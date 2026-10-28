@@ -37,3 +37,13 @@ Pending. Exact juvenile age and continuous feather sequence, sex-specific linear
 - v2 archive: [39-glaucidium-griseiceps-v2.png](../../design/concepts/39-glaucidium-griseiceps-v2.png), 1254×1254 PNG, 2,871,466 bytes, SHA-256 `8a3335dba0f0d2e93d75ada1056a8f21e10460c16b9a8e4896612a8213abb121`; archive commit `f408fd84ad7b417fc78406be333b0cf076024fc7`, Git blob `1de3efd3d0d0915cca11f3ad573f35280d5ecbfc`.
 - Visual review: first render passed without edit. Exactly three labeled, supported birds; male rear-side pose exposes the nape false-eye patch; adults remain near-equal; the central age-unknown juvenile has a mottled unspotted head, nearly plain back, short soft wing and no conspicuous mature tail.
 - Scientific status remains pending.
+
+
+## v3 evidence correction — 2026-10-28
+
+- New source `CAPO-BIRDLIFE-2026`; reused `SRC-PAPER-039-01`, `CAPO-EBIRD-ID-2026` and `SRC-WEB-039-03`; the complete primary article corrected one prior interpretation.
+- Printed p.93 and Figure 1 of Moreno-Palacios & Rodríguez-Ortiz (2008) directly document a very wet, age-unknown juvenile on the forest floor after a storm, with mottled head and unmarked back. The v2 branch pose is retained only as historical design inference and is not reused.
+- v3 uses a wet leaf-litter/root-supported juvenile with plain back, soft compact wing and hidden short tail. Exact age, flight ability, remige/tail chronology, iris development and nest stage remain unknown.
+- First render retained crisp adult-like juvenile white spots. One targeted edit removed those crown/back/wing spots; the 1536×1024 reviewed master and 680×453 derivative were opened and passed count, text, adult, support and juvenile-boundary checks.
+- Concept: [39-glaucidium-griseiceps-v3.png](../../design/concepts/39-glaucidium-griseiceps-v3.png), 680×453 PNG, 245151 bytes, SHA-256 `51548adf493a257c30fc19fdde8ababdf3eab8faac2947b2ca995634216bfd13`, Git blob `9fb8eeef61970a67862b69eda17613dc8942bf88`.
+- Scientific status remains pending; visual concept review is not scientific approval.

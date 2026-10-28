@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28",
+  "updated": "2026-10-28T19:38:44+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5626,7 +5626,33 @@
       "archive_note": "First render had adult-like juvenile wing spots, hard remiges and a mature barred tail; one targeted edit softened and shortened wing/tail, then original-resolution and derivative review passed. Science false.",
       "archive_commit": "1c72a6d71b412d0a43f5a3066a978850104cece7",
       "verified_at": "2026-10-28T18:54:00+08:00"
+    },
+    {
+      "id": "39-glaucidium-griseiceps-v3",
+      "path": "design/concepts/39-glaucidium-griseiceps-v3.png",
+      "species_id": 39,
+      "scientific_name": "Glaucidium griseiceps",
+      "common_name": "Central American Pygmy-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "51548adf493a257c30fc19fdde8ababdf3eab8faac2947b2ca995634216bfd13",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION correcting v2's inferred branch pose with the primary 2008 field record: the age-unknown, very wet juvenile is naturally supported on forest-floor leaf litter/root after a storm, with a softly mottled gray head, unmarked back, compact soft wing and hidden short tail. Adults remain near-equal in displayed height with no invented sex-color split; male rear-side view shows one nape false-eye patch. Exact juvenile age, flight ability, continuous feather sequence, nest stage and quantified sex difference remain unknown.",
+      "source_ids": [
+        "CAPO-BIRDLIFE-2026",
+        "SRC-PAPER-039-01",
+        "CAPO-EBIRD-ID-2026",
+        "SRC-WEB-039-03"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-39-glaucidium-griseiceps-v3-evidence-correction",
+      "run_record": "production/runs/20261028T1856+0800-cycle-1.md",
+      "reviewed_at": "2026-10-28T19:36:56+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 245151,
+      "git_blob": "9fb8eeef61970a67862b69eda17613dc8942bf88",
+      "archive_note": "First render passed text/count/adult/support checks but had crisp adult-like juvenile crown/back/wing spots. One targeted edit removed those spots, softened the compact wing and retained wet ground support; full-size and 680x453 derivative were opened and passed. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-28T18:54:00+08:00"
+  "updated_at": "2026-10-28T19:38:44+08:00"
 }

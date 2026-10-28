@@ -5335,96 +5335,33 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex",
+        "run_id": "20261028T0840+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 15,
+        "heartbeat_at": "2026-10-28T08:40:20.000+08:00",
+        "expires_at": "2026-10-28T08:55:20.000+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 4,
-        "run_id": "20261028T0826+0800-cycle-4",
-        "species": "#13 Micrathene whitneyi",
-        "version": 7,
+        "cycle": 5,
+        "run_id": "20261028T0840+0800-cycle-5",
+        "species": "#15 Strix varia",
+        "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T08:39:06.000+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-28T08:40:20.000+08:00",
         "evidence": {
-          "source_ids_new": [
-            "ELF-MIKKOLA-2013-P418",
-            "ELF-ADW-STERLING-2001",
-            "ELF-LIGON-1968-LEAD",
-            "ELF-NPS-SAGUARO-BIRDS-2026"
+          "existing_versions": [
+            "v1",
+            "v2",
+            "v3"
           ],
-          "source_ids_reused": [],
-          "source_ids_corrected": [
-            "v6 early-chick scope is not a universal juvenile template"
-          ],
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "fresh_research": "Mikkola printed pp.418–420/PDF420–422, ADW development and NPS Saguaro page actually read; Ligon full-text lead marked unverified.",
-          "design_boundary": "Approx. 21–22d active supported mesoptile cavity nestling with ineffective short wing attempt.",
-          "full_prompt_saved": "owl-pet/research/species/13-micrathene-whitneyi-v7.md",
-          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the established warm hand-painted digital gouache style of the owl-pet archive: parchment-cream background, subtle paper grain, restrained Sonoran desert colors, clean dark-brown taxonomy typography, and an evidence-bounded saguaro-cavity vignette. Exact header text: \"13 · ELF OWL · Micrathene whitneyi\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center perch at the same visual baseline on separate broad, naturally scarred saguaro ribs/side-arm surfaces beside one abandoned woodpecker cavity; female only subtly fuller, not dramatically taller. Both adults are extremely tiny, round-headed, absolutely no ear tufts, short-tailed, yellow-eyed, with grayish-horn bill and yellowish-horn tip, gray-brown upperparts densely fine vermiculated lighter/darker, small pale-yellow forehead spots, narrow whitish nuchal collar, narrow white eyebrows, whitish scapular row and wing-covert spots, whitish underparts densely mottled gray-brown/cinnamon, bristled tarsi/toes gripping fully supported surfaces. Juvenile right is an approximately 21–22-day active cavity nestling at the safe cavity lip, not a hatchling and not a competent flier: alert open yellowish eyes, upright crouch with belly and both feet fully supported, trying an ineffective short wing stretch while remaining inside/at the lip. Give it gray-and-white mottled mesoptile: unspotted gray forehead and crown, indistinct pale spots on upperparts, mottled gray-white underparts, short rounded developing folded wing with only incomplete juvenile remiges, very short concealed-to-modest tail. No adult white forehead spots, no long adult flight feathers, no airborne pose, no exposed pink hatchling skin, no plush white neonatal ball. Show green saguaro outer skin and an irregular low-contrast hardened cavity boot/wound lining; avoid tree-bark layers, loose wood chips, honeycomb foam, symmetrical bottle geometry, exaggerated wall thickness, or literal anatomical cutaway claims. Comparative review board, not a literal family moment. Exactly three owls and exact title/labels only; no extra text, eggs, prey, logos, border, measurement marks or additional birds.",
-          "remaining_unknowns": [
-            "exact individual age",
-            "continuous feather sequence",
-            "21–22d remex length",
-            "standing-height ratio",
-            "subspecies variation",
-            "live cavity geometry"
-          ],
-          "scientifically_verified": false,
-          "generated_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-10d961a6-6c00-4124-8e13-153e4e0b6ad2.png",
-          "generated_sha256": "919ca24207b9838842985704fd10078ddf3ec38cd1f52712021aea782217575a",
-          "generated_bytes": 712343,
-          "generated_dimensions": "1536x1024",
-          "generation_seconds": 42.4,
-          "initial_review": "juvenile wing too long and carried crisp adult-like white spot rows",
-          "edit_count": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "edit_seconds": 41,
-          "reviewed_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-fef2ac9c-23ac-4599-9cc0-d8ab94e5dd40.png",
-          "reviewed_sha256": "c2c76eb50a339ef0447370402e1083ac6852bcfc7b38fbd69ba6ae71d03e334b",
-          "reviewed_bytes": 761874,
-          "reviewed_dimensions": "1536x1024",
-          "review_checks": {
-            "exact_three_owls": true,
-            "title_and_labels": true,
-            "adult_identity": true,
-            "sex_direction": "female subtly fuller at same baseline",
-            "juvenile_stage": "approximately 21–22d gray-white mesoptile, open-eyed and alert",
-            "juvenile_wing": "shortened/softened; large adult-like white spot rows removed; one small ineffective stretch",
-            "support": "juvenile belly and both feet supported at cavity lip",
-            "habitat": "saguaro cavity setting retained"
-          },
-          "unresolved": [
-            "exact individual age",
-            "continuous feather sequence",
-            "21–22d remex length",
-            "standing-height ratio",
-            "subspecies variation",
-            "live cavity geometry"
-          ],
-          "concept_path": "owl-pet/design/concepts/13-micrathene-whitneyi-v7.png",
-          "concept_blob": "01aece97dbcac7f0109a35865a8ca52f8507280c",
-          "concept_sha256": "548fad7439e23301619c8950b2ef54dc0fe0721e0d1039e7312e5893c7f6e308",
-          "concept_bytes": 171348,
-          "generated_path": "owl-pet/production/generated/13-micrathene-whitneyi-v7-generated-master.png",
-          "generated_blob": "76dc609366d46a9ae4ddc4b31674ba6d18c661a4",
-          "reviewed_path": "owl-pet/production/reviewed/13-micrathene-whitneyi-v7-reviewed-master.png",
-          "reviewed_blob": "b388f1a7dff243fe1ff88f90931866db4df67995",
-          "manifest_count_before": 446,
-          "manifest_count_after": 447,
-          "unique_species_provisional": "184/251",
-          "readback_pending": false,
-          "archive_commit": "945b55043b4858abdf9d178da9b817dc6e222635",
-          "verified_at": "2026-10-28T08:39:06.000+08:00",
-          "readback": {
-            "commit": "945b55043b4858abdf9d178da9b817dc6e222635",
-            "concept_blob": "01aece97dbcac7f0109a35865a8ca52f8507280c",
-            "generated_blob": "76dc609366d46a9ae4ddc4b31674ba6d18c661a4",
-            "reviewed_blob": "b388f1a7dff243fe1ff88f90931866db4df67995",
-            "manifest_count": 447,
-            "paths_and_sizes_match": true
-          }
+          "user_approval_preserved": "v1 2026-10-11",
+          "duplicate_check": "v4 absent at main 325a332ca3944a79fd311c11740811e8c52638d0"
         }
       },
-      "last_updated_at": "2026-10-28T08:39:06.000+08:00",
+      "last_updated_at": "2026-10-28T08:40:20.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5449,7 +5386,8 @@
         "2026-10-28T08:33:05.000+08:00: cycle4 #13 v7 IMAGE_GENERATED; original 1536x1024 opened; juvenile long crisp adult-spotted wing requires targeted edit; no credit.",
         "2026-10-28T08:35:12.000+08:00: cycle4 #13 v7 REVIEWED after one targeted imagegen edit; juvenile adult-like spotted long wing shortened/softened and large white spot rows removed; science false.",
         "2026-10-28T08:37:40.000+08:00: cycle4 #13 v7 ARCHIVED tree prepared; concept 01aece97, generated 76dc6093, reviewed b388f1a7; manifest 446→447; unique remains 184/251; readback pending, no credit.",
-        "2026-10-28T08:39:06.000+08:00: cycle4 VERIFIED #13 Micrathene whitneyi v7 at 945b55043b4858abdf9d178da9b817dc6e222635; fixed-tree readback passed. Unique 184/251; batch 4/6 next_cycle5; lease released; science false."
+        "2026-10-28T08:39:06.000+08:00: cycle4 VERIFIED #13 Micrathene whitneyi v7 at 945b55043b4858abdf9d178da9b817dc6e222635; fixed-tree readback passed. Unique 184/251; batch 4/6 next_cycle5; lease released; science false.",
+        "2026-10-28T08:40:20.000+08:00: cycle5 STARTED canonical #15 Strix varia v4 SCIENCE_REVISION; v1–v3 and v1 user approval preserved; no credit."
       ]
     }
   ],
@@ -5554,8 +5492,15 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-28T08:39:06.000+08:00",
+  "active_lease": {
+    "owner": "codex",
+    "run_id": "20261028T0840+0800-cycle-5",
+    "cycle": 5,
+    "species_id": 15,
+    "heartbeat_at": "2026-10-28T08:40:20.000+08:00",
+    "expires_at": "2026-10-28T08:55:20.000+08:00"
+  },
+  "last_updated_at": "2026-10-28T08:40:20.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

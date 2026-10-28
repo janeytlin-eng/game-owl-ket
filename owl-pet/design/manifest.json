@@ -4951,6 +4951,31 @@
       "archive_note": "Built-in imagegen produced a 1536x1024 source; original-resolution and 680x453 derivative passed with no edit. Formed wing/tail were retained because Mikkola supports that juvenile condition while the primary study bounds the brancher as preflight. Exact source hash/size are in the run record; full-resolution indexed generated/reviewed masters are archived. Commit-pinned readback at 474b983c verified concept 73780f81, generated 9c2fe29f, reviewed 452951f3 and required metadata paths. Science false.",
       "archive_commit": "474b983ccf6183426cafcc227921067188b5d7f1",
       "verified_at": "2026-10-28T07:58:12.000+08:00"
+    },
+    {
+      "id": "07-asio-flammeus-v3",
+      "path": "design/concepts/07-asio-flammeus-v3.png",
+      "species_id": 7,
+      "scientific_name": "Asio flammeus",
+      "common_name": "Short-eared Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "230f12c7dbf17949be09c292d81f2c4c154bfb7935c050631bab935106fd64b1",
+      "scientifically_verified": false,
+      "status": "v3 labeled evidence-bounded rebuild with one targeted juvenile-wing edit. Adults share one ochre-brown morph, yellow eyes, sooty eye patches, tiny mostly flattened tufts and upper-breast streaking; female is only subtly fuller. The approximately 16-day pre-flight ground-walker has pale ochre-buff diffuse-barred mesoptile, nearly black face, yellow eyes, tiny tufts, short rounded soft folded wing, hidden tail and full turf support. Exact day, flight threshold, secondary pattern, continuous feather sequence, measured display ratio, subspecies and universal nest geometry remain unknown.",
+      "source_ids": [
+        "SEO-MIKKOLA-2013-P512",
+        "SEO-MARTINEZ-CLIMENT-2000",
+        "SEO-USFWS-2026",
+        "SHEO-BTO-BIRDFACTS"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28--07-asio-flammeus-v3-evidence-increment",
+      "run_record": "production/runs/20261028T0800+0800-cycle-1.md",
+      "git_blob": "2dcbbc7808fcce58d40e35065a3b3a8911de267d",
+      "reviewed_at": "2026-10-28T08:06:30.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 167329,
+      "archive_note": "Built-in imagegen generated two 1536x1024 stages; one edit shortened/softened the juvenile wing and hid the tail. Full edited source and derivative viewed. Full-resolution indexed generated/reviewed masters archived. Readback pending; science false."
     }
   ],
   "updated_at": "2026-10-28T07:48:00.000+08:00"

@@ -1,3 +1,8 @@
+## 2026-10-28 — #07 *Asio flammeus* v3 archive checkpoint
+
+- Rebuilt v2 as a current evidence-bounded labeled trio; preserved v1/v2 and historical confirmation.
+- One edit shortened the preflight ground-walker's adult-like spotted wing and hid its tail. Full source/derivative pass; science false; readback pending.
+
 ## 2026-10-28 — #06 *Asio otus* v3 VERIFIED
 
 - Rebuilt the older Chinese-only v2 layout as a current labeled evidence-bounded trio board; preserved v1/v2 history.

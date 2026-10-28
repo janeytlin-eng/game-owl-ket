@@ -1,3 +1,11 @@
+## 2026-10-28 #07 *Asio flammeus* v3 archive checkpoint
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains 184/251; readback pending.
+- Image: [design/concepts/07-asio-flammeus-v3.png](design/concepts/07-asio-flammeus-v3.png)
+- Research: 3 new/1 reused sources; Mikkola printed pp.512–513/PDF pp.514–515 and primary 2000 age/sex study read.
+- Review: one juvenile-wing edit; full source and derivative viewed. Science false.
+- Run: [production/runs/20261028T0800+0800-cycle-1.md](production/runs/20261028T0800+0800-cycle-1.md)
+
 ## 2026-10-28 #06 *Asio otus* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique species remains 184/251; current batch closes 6/6.

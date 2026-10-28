@@ -5302,8 +5302,8 @@
         "species": "#07 Asio flammeus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:06:30.000+08:00",
-        "expires_at": "2026-10-28T08:21:30.000+08:00"
+        "heartbeat_at": "2026-10-28T08:09:00.000+08:00",
+        "expires_at": "2026-10-28T08:24:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5311,41 +5311,37 @@
         "species": "#07 Asio flammeus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T08:06:30.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T08:09:00.000+08:00",
         "evidence": {
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 1,
-          "edit_wait_seconds": 46.229,
-          "reviewed_source_path_local": "generated_images/exec-297af0bf-7b9b-44f1-af25-e40e463ad032.png",
-          "reviewed_source_bytes": 2630759,
-          "reviewed_source_sha256": "9d9a12cf6090afc82fec90fdeeea01bb5a80fc602c298d5b7aa5f17652232292",
-          "checks": {
-            "count_text": "PASS",
-            "adult_identity": "PASS",
-            "sex_direction": "PASS",
-            "juvenile_stage": "PASS after shorter rounded soft wing and hidden tail",
-            "support_action": "PASS",
-            "habitat_nest": "PASS"
-          },
-          "remaining_unknowns": [
-            "exact day",
-            "flight threshold",
-            "secondary pattern",
-            "continuous feather sequence",
-            "measured display ratio",
-            "subspecies",
-            "universal nest geometry"
-          ],
+          "concept_path": "owl-pet/design/concepts/07-asio-flammeus-v3.png",
+          "concept_blob": "2dcbbc7808fcce58d40e35065a3b3a8911de267d",
+          "concept_sha256": "230f12c7dbf17949be09c292d81f2c4c154bfb7935c050631bab935106fd64b1",
+          "concept_bytes": 167329,
+          "generated_path": "owl-pet/production/generated/07-asio-flammeus-v3-generated-master.png",
+          "generated_blob": "e3064dca00e3f4911eeb46f65b9f82572b0d0c0c",
+          "generated_sha256": "6a5ed5dd36694bc80525660f00baccd03bceb73906879123d934703395062ac1",
+          "generated_bytes": 663389,
+          "reviewed_path": "owl-pet/production/reviewed/07-asio-flammeus-v3-reviewed-master.png",
+          "reviewed_blob": "76cb14aaa11a67facb166855bccdcc36dad45c40",
+          "reviewed_sha256": "8fe72d4b05250999ad60f8166d7c2069c4c6ad4b5289e4d46bc3fb88fca46065",
+          "reviewed_bytes": 651355,
+          "source_generated_sha256": "8e2b7b8336365e9f430cfe828232cfde82e5d9b662b9d1b23e0b5fc3e5f309d2",
+          "source_reviewed_sha256": "9d9a12cf6090afc82fec90fdeeea01bb5a80fc602c298d5b7aa5f17652232292",
+          "manifest_count_before": 443,
+          "manifest_count_after": 444,
+          "unique_species_provisional": "184/251",
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T08:06:30.000+08:00",
+      "last_updated_at": "2026-10-28T08:09:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
         "2026-10-28T08:05:00.000+08:00: #07 v3 IMAGE_GENERATED after 43.875s; juvenile wing too long/adult-spotted, targeted edit required; no credit.",
-        "2026-10-28T08:06:30.000+08:00: #07 v3 REVIEWED after one 46.229s juvenile-wing edit; long adult-spotted remiges removed, short rounded soft wing/hidden tail and turf support pass. Science false."
+        "2026-10-28T08:06:30.000+08:00: #07 v3 REVIEWED after one 46.229s juvenile-wing edit; long adult-spotted remiges removed, short rounded soft wing/hidden tail and turf support pass. Science false.",
+        "2026-10-28T08:09:00.000+08:00: #07 v3 ARCHIVED tree prepared; concept 2dcbbc78, generated e3064dca, reviewed 76cb14aa; manifest 443→444; unique remains 184/251. Readback pending; no cycle credit."
       ]
     }
   ],

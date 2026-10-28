@@ -1,3 +1,9 @@
+## 2026-10-29 #61 *Ketupa ketupu* v3 VERIFIED
+
+- Result: SCIENCE_REVISION verified at `e0fcfbdac6d5aebd469554ecf0db7c6eba44b89d`; unique remains **184/251**; batch `2026-10-29T0331+0800` advances to 3/6.
+- [Concept](design/concepts/61-ketupa-ketupu-v3.jpg) · [run](production/runs/20261029T0443+0800-cycle-3.md) · [source index](research/SOURCE_INDEX.md#2026-10-29--61-ketupa-ketupu-v3--dated-two-week-vs-six-week-plumage-boundary)
+- Fixed-commit readback matched concept 623334 bytes, repaired generated checkpoint 399768 bytes, and reviewed master 751822 bytes. One initial transfer mismatch was detected and repaired before credit. Science remains false.
+
 ## 2026-10-29 #61 *Ketupa ketupu* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; batch `2026-10-29T0331+0800` remains 2/6 until fixed-commit verification.

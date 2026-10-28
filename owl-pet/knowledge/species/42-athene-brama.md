@@ -54,3 +54,14 @@ Create one polished scientific-reference character sheet for a virtual-pet owl s
 - SHA-256: `3605f76a2b9862771d02b4eb6ada85cc0c423c75355b6c69e162ac4876fbc149`; Git blob: `82f947aefdeee9b68ba8c142b6acc7699eb9c8f2`; archive commit: `ae18c2d06e02b353231e55ee18167c0357ebc3fc`.
 - Iteration: first render had a dark layered juvenile wing; one targeted edit shortened/softened only that wing. Adults, labels, cavity, support and background were preserved and rechecked.
 - Scientific status remains pending; exact feather geometry, sex-specific growth and subspecies color variation are unresolved.
+
+
+## v3 evidence correction — 2026-10-28
+
+- Complete `SPOT-PANDE-2011` PMC text was read, correcting the earlier abstract/snippet-only note. Known-age nestlings were followed 0–32 d; sexes were externally alike; wing growth accelerated after two weeks; 4-week wing chord was 102.5–115 mm versus about 150 mm post-fledging/adult; pre-flight young could walk from nest hole to branches; fledging was around 4.5 weeks.
+- V3 uses an approximately four-week pre-flight cavity-lip/branch-walking stage with formed but subadult-length soft wing, short tail, nearly unspotted crown/back and two-foot support. It does not claim independent flight or exact feather geometry.
+- Scientific status remains pending.
+
+### v3 complete image-generation prompt
+
+Scientific-educational owl electronic-pet concept sheet in the established warm painterly semi-realistic style, 3:2 horizontal board. Title exactly “42 · SPOTTED OWLET · Athene brama”. Create exactly three full-body nominate southern-Indian Spotted Owlets with exact labels “ADULT MALE”, “ADULT FEMALE”, and “JUVENILE”. Adults: compact round untufted heads, golden-yellow eyes, greenish-horn bills, earth-gray-brown crown and upperparts densely but irregularly spotted white, white eyebrows meeting above the bill, short narrowly barred tail, creamy underparts with short gray-brown scaly crossbars rather than long streaks, feathered tarsi. Male and female must be near-identical in standing height, bulk and plumage because sexes are externally alike; distinct poses only. Juvenile is an evidence-bounded approximately four-week pre-flight cavity-lip/branch-walking nestling, not a hatchling: low on the natural cavity rim/adjacent short branch with both feet supported, gray-brown nearly unspotted crown and mantle, softer dusky underparts with weak indistinct marks, formed but clearly shorter soft folded wings (not adult-length and no crisp adult spot rows), short tail; alert but do not depict independent flight. Habitat: open southern Indian village-edge/agricultural woodland, rough-barked tree cavity, natural sparse cavity debris, no decorative nest. Three distinct poses, clean separation. No extra birds, no ear tufts, no exaggerated female, no mature juvenile wing/tail, no eggs/prey, no watermark, and no text beyond the title and labels.

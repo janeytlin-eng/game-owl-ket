@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T11:49:08+08:00",
+  "updated": "2026-10-28T11:54:51+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5346,7 +5346,35 @@
       "archive_note": "Initial 1536x1024 render passed text/count/adults/support but gave the late nestling too many crisp adult-like crown/back/wing spots. One targeted edit removed the adult-like spot rows and softened/shortened the juvenile wing. Edited original, full-resolution JPEG master and 680x453 derivative were opened and passed. Science remains false.",
       "archive_commit": "8a1f349abb1e5b08fdc6dd889125a91fb528b995",
       "verified_at": "2026-10-28T11:49:08+08:00"
+    },
+    {
+      "id": "29-glaucidium-capense-v3",
+      "path": "design/concepts/29-glaucidium-capense-v3.png",
+      "species_id": 29,
+      "scientific_name": "Glaucidium capense",
+      "common_name": "African Barred Owlet",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "2d30b13c536200765a379852f2361e8f1a3aa95a5a8b22cb529a40a491ab52e0",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using sourced 32–33 d nest departure and about-42 d flight milestones. Adults have fine barring, bold white shoulder spots, spotted lower underparts, no nape false eyes and near-equal displayed height; female subtly fuller. Juvenile is a fully supported post-departure/pre-flight bird, visually around 35–39 d only as a design interval, with diffuse barring, short soft wing and hidden short tail. Exact day, feather/iris sequence, first-flight onset and subspecies remain unknown.",
+      "source_ids": [
+        "ABOW-BIODIVEXPLORER-ROBERTS-2026",
+        "CAP-FISHPOOL-2023",
+        "CAP-TIPPETT2024",
+        "CAP-MIK2013-276",
+        "CAP-COULONDRE2025-371219"
+      ],
+      "source_index": "research/species/29-glaucidium-capense-v3.md",
+      "run_record": "production/runs/20261028T1149+0800-newbatch-cycle-3.md",
+      "reviewed_at": "2026-10-28T11:54:51+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 190379,
+      "git_blob": "1528d410a3166f758f10996cfcdb42d8d3ca8eb5",
+      "archive_note": "First render passed text/count/adults/support but gave the juvenile a long hard barred wing and fully barred tail. One targeted edit shortened/softened the wing and hid the tail. Edited original, full master and derivative were opened and passed. Science false.",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-28T11:49:08+08:00"
+  "updated_at": "2026-10-28T11:54:51+08:00"
 }

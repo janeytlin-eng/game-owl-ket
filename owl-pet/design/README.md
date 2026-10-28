@@ -1538,3 +1538,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #28 *Glaucidium perlatum* v3 — SCIENCE_REVISION, fully supported late cavity nestling inside the documented 27–31-day nest window; [concept](concepts/28-glaucidium-perlatum-v3.png) · [research](../research/species/28-glaucidium-perlatum-v3.md) · [run](../production/runs/20261028T1142+0800-newbatch-cycle-2.md). One juvenile-plumage edit; exact age and feather sequence unknown; science pending.
+
+
+- #29 *Glaucidium capense* v3 — SCIENCE_REVISION, supported post-departure/pre-flight juvenile between sourced 32–33 d departure and about-42 d flight milestones; [concept](concepts/29-glaucidium-capense-v3.png) · [research](../research/species/29-glaucidium-capense-v3.md) · [run](../production/runs/20261028T1149+0800-newbatch-cycle-3.md). One wing/tail edit; exact age/feather sequence unknown; science pending.

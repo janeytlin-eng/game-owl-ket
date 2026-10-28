@@ -1785,3 +1785,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T11:49:08+08:00 — #28 *Glaucidium perlatum* v3 independently verified at archive `8a1f349abb1e5b08fdc6dd889125a91fb528b995`; concept `d67ed35c9e…`, generated `c7e6bda13a…`, reviewed `f7134f72e1…`, plus manifest/source/card/run/STATUS/knowledge/workflow/design index read back. Unique remains **184/251**; batch **2/6**, next cycle 3. Science false.
+
+
+## 2026-10-28 #29 *Glaucidium capense* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/29-glaucidium-capense-v3.png](design/concepts/29-glaucidium-capense-v3.png)
+- Research: new institutional-secondary Roberts timing cross-check plus four reused sources. Young leave at 32–33 d and learn flight at about 42 d; 35–39 d is only an event-bounded design interval.
+- Review: one juvenile wing/tail edit. Exact text/count, adult fine barring/shoulder band/no false eyes, subtle female fullness, juvenile diffuse barring, short soft wing, hidden tail and full support pass. Science false; readback pending.

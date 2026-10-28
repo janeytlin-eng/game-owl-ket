@@ -22,3 +22,10 @@ Owl Pages汇编支持圆头无耳簇、黄眼、绿灰偏黄喙，头颈密布�
 Primary museum/specimen reassessment `CAP-FISHPOOL-2023` was added to bound the complex-level morphology, measurements and taxonomic uncertainty; no subspecies is asserted. v2 preserves adult fine head/chest barring, bold shoulder white spots, spotted lower underparts, yellow eyes, pale greenish bill and no false eyespots. After inspection, a targeted edit removed the juvenile's conspicuous adult shoulder spots, shortened/softened the folded wing, diffused its body barring and reduced the tail.
 
 The final plate contains exactly three labeled, supported birds. Exact juvenile day, continuous feather chronology, reference subspecies and quantified sex ratio remain unknown; `scientifically_verified=false`. Image `design/concepts/29-glaucidium-capense-v2.png`; SHA-256 `c8ded1c971d09d843e4195d4ef7ab1a19df670978cc82f06cc96309fa5b14e37`; archive `1a417ffe2e942690ac58ec5eb023a2edc6bc7d00`.
+
+
+## 2026-10-28 v3 post-departure/pre-flight revision
+
+`ABOW-BIODIVEXPLORER-ROBERTS-2026`, an institutional secondary page citing Roberts VII, states that young leave the cavity at 32–33 days, remain near the nest and learn to fly at about 42 days. v3 therefore replaces the broad v2 “recent fledgling” with a fully supported bird between those events, visually around 35–39 days only as a design interval.
+
+The first render gave the juvenile a long hard adult-like barred wing and fully barred tail. One targeted edit shortened and softened the wing, hid most of the tail, and preserved full branch support. Adults, text and habitat were locked. Exact day, day-specific feather/iris sequence, first-flight onset and subspecies remain unknown; science false. See [source index](../../research/SOURCE_INDEX.md), [v3 research card](../../research/species/29-glaucidium-capense-v3.md), and [run](../../production/runs/20261028T1149+0800-newbatch-cycle-3.md).

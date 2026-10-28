@@ -1,3 +1,19 @@
+## 2026-10-29 · #59 *Ketupa zeylonensis* v3 nest-leaving correction
+
+| Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |
+|---|---|---|---|---|---|---|
+| BFOW-ELA-2013 | “Brown Fish Owl — Fact File” — ELA Foundation, March 2013 | https://elafoundation.org/wp-content/uploads/2013/03/Brown-Fish-Owl.pdf — accessed 2026-10-29 | Practitioner fact file with field photographs and cited species synthesis; adult and 4–6-week juvenile stages | PDF pp.1–2 actually read. p.1 describes golden-yellow iris, horizontal tufts, rounded wings ending short of the tail, bare tarsi, pale/rufous juvenile and a smaller-male direction. p.2 captions four-week and five-to-six-week chicks; after five weeks chicks stretch/exercise the wings and the outer/inner wing pattern is visible; it also records natural hollows/forks or ledges close to water and about 50-day fledging. | Correct v2’s over-short late-nestling wing: use a nearly adult-sized nest-leaver with developed patterned but still soft juvenile wing, visible developing tail, full branch/cavity support and no flight pose. Keep adult scale difference subtle. | The fact file is not a serial biometric growth study; its recommended-citation line contains an apparent “Indian Eagle Owl” editorial mismatch despite Brown Fish Owl title/content. Moderate confidence and supporting use only; exact feather lengths and sex ratio remain unknown. |
+
+Reused and freshly checked:
+- `BFOW-BINDU-BALAKRISHNAN-2015`: official JBNHS metadata and article evidence, printed pp.97–98, DOI 10.17087/jbnhs/2015/v112i2/104938; Kerala nestling period 43–49 d (mean 46, n=3), incubation 32–37 d (n=5), seven of eleven eggs fledged, site close to pond.
+- `BFO-INDIANBIRDS-2013`: article text for the 2012 sequence; 15–20 d chicks had down-softened discs and small wing/body feathers; nest-leavers resembled adults and were almost adult-sized, remained in the same tree 4–6 d and were still fed.
+- `BFO-OWL-PAGES-2026`: adult identity and thick woodland near water reused; not used as developmental chronology.
+- Current/old-name map remains *Ketupa zeylonensis* / *Bubo zeylonensis*; no extra species count.
+- Corrected inference: v2’s short rounded, nearly wing-bud-like late-nestling wing is too immature for the chosen 43–49 d / 5–7-week nest-leaving stage. V3 keeps down softness but gives the supported juvenile developed softer-patterned wings and a short-to-medium tail.
+- Unknown: exact day-age of a particular illustrated juvenile, quantitative remex/tail length, population-level sex ratio and continuous feather tract remain unknown; `scientifically_verified=false`.
+- Heimo Mikkola uploaded photographic guide was not accessible in this execution; no page claim is made.
+- Full generation prompt is stored in the #59 card and cycle run.
+
 ## 2026-10-29 #55 *Bubo lacteus* v3 nest-leaving development correction
 
 | Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |

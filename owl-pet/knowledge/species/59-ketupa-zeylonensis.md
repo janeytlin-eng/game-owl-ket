@@ -33,3 +33,27 @@ Avoid: no extra birds, no fish in beak, no exaggerated female size, no cave, no 
 - Re-opened review passed: three birds/labels, horizontal shaggy tufts, near-equal adults, late nestling nearly adult-sized yet fluffy, short wing/tail, natural hollow-edge support and riparian setting.
 - Science boundary: measured 43–49 d nestling period supports stage but not exact feather map. Concept review passed; scientific calibration pending.
 - Transfer: 1350×900, 631,441 bytes, SHA-256 `a1a6947c2aa10a8f015f8250b87e4a0f37f5e083d80c14af8f53894383d41b27`, Git blob `d355eb731938652b551b657f70e58ff8fb990e70`.
+
+
+## v3 active-research correction — 2026-10-29
+
+- Action: SCIENCE_REVISION; preserve v1 and v2 as history.
+- Evidence boundary: Bindu & Balakrishnan (2015) places nest departure at 43–49 d; the Indian BIRDS field sequence says nest-leavers were almost adult-sized and resembled adults while remaining parent-fed for several days; ELA 2013 p.2 shows wing exercise and visible wing pattern after five weeks.
+- Corrected problem: v2 successfully removed adult-like spots, but its very short rounded wing/tail reads too young for the selected late-nestling/nest-leaving stage.
+- V3 juvenile: nearly adult-sized but lower and paler/rufous, with down-softened margins, smaller horizontal tufts, developed softer/less-regular patterned folded wings, short-to-medium tail and full cavity/fork branch support; no flight claim.
+- Adults: golden-yellow eyes, white throat, warm rufous-brown streaked/wavy plumage and bare tarsi; sexes near equal, female only subtly fuller. ELA’s male-smaller direction is not converted into a dramatic height ratio.
+- Nest setting is one supported option, not a universal rule: natural tree cavity/fork beside water.
+- Science limitations: exact day-age, continuous feather sequence, quantified sex ratio and regional variation remain unknown; scientifically_verified=false.
+
+### Complete v3 imagegen prompt
+
+Use case: scientific-educational
+Asset type: owl electronic-pet concept plate, one species-specific group image
+Exact header: “59 · BROWN FISH OWL · Ketupa zeylonensis”
+Exact labels left-to-right: “ADULT MALE”, “ADULT FEMALE”, “JUVENILE · NEST-LEAVING”
+Scene: warm riparian woodland beside a calm pond or slow stream; one massive old tree with a natural cavity/fork edge and broad branch support.
+Adult male and female: two large near-equal-height warm rufous-brown fish owls; female only subtly fuller, not dramatically taller. Both have shaggy horizontally oriented ear tufts, golden-yellow irises, shallow facial discs, conspicuous white throat patches, pale underparts marked by dark-brown streaks and broken wavy lines, rounded wings, clearly bare granular dusky-yellow tarsi, and strong gripping toes.
+Juvenile: one nest-leaving bird nearly adult-sized but placed lower, visibly more rufous/pale and juvenile. Preserve fluffy/down-softened head and torso margins, smaller horizontal ear tufts, golden-yellow eyes and an emerging white throat. Show developed folded juvenile wings with visible pattern, but softer and less regular than the adults, plus a short-to-medium developing barred tail. It is fully supported on the cavity/fork branch in an alert begging or preening posture, not flying, and remains parent-dependent.
+Composition: landscape 3:2, adult male left, adult female right, juvenile lower center/front; exactly three birds; all feet and their natural supports readable; calm varied poses; unobstructed title and labels.
+Visual style: match the existing confirmed owl-pet plates—soft hand-painted 3D storybook realism, tactile feather detail, warm natural light, restrained depth of field, scientifically legible anatomy.
+Do not show: a tiny chick, short wing buds, almost no tail, a fully adult third bird, unsupported flight, orange eyes, feathered tarsi, fish/prey, nestlings without support, extra birds, exaggerated female size, watermark or extra text.

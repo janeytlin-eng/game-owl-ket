@@ -73,3 +73,13 @@ Adults: exactly two, near-equal standing height and scale because reliable visib
 Juvenile: one age-unknown fledgling fully supported on the mossy branch, not flying or hovering. Much paler whitish/greyish-cream than adults, brown transverse barring and some heart/spade-like dorsal marks, smaller developing ear tufts, pale yellowish bill and creamy legs. Show developed juvenile folded wings and a visible barred developing tail: historical museum description says young wings/tail may already resemble adult structure and carry barred white juvenile feathers/seven fulvous tail bars. Keep the texture visibly juvenile and softer than adults; do not turn it into a tiny down chick or give it a plain short wing.
 Composition: three full bodies separated left-to-right; every foot and perch contact visible; adults calm upright, juvenile lower/alert branch-perching pose.
 Constraints: preserve exact text and exactly three birds; no prey, eggs, nestlings, flight, sexual color dichromatism, dramatic female-larger ratio, vertical adult belly streaks, orange/yellow irises, invented exact age, or watermark.
+
+
+## v3 production and review
+- First render: exact three birds, text, adult dark eyes, horizontal flank bars, near-equal adult scale, forest and support passed; juvenile showed developed wing/tail but crisp white spot rows looked too adult-like and tail was overlong.
+- Targeted edit: juvenile wing changed to softer transverse barring and irregular heart/spade marks; tail shortened moderately while remaining visibly barred and developed. Adults, text and environment were preserved.
+- Recheck: full 1536×1024 image and 680×453 derivative opened; all feet supported; juvenile remains much paler, smaller-tufted and visibly younger without becoming a tiny down chick.
+- Concept: `owl-pet/design/concepts/57-bubo-nipalensis-v3.png` — blob `e90077283fd6f18560ab92772bdb70ed04c8f4b8`, 247084 bytes, SHA-256 `7e2b301a7f9f1a7fb5cd0f261275a939ce8ba898c2822763ec4e89ff4f8ff788`.
+- Generated master: blob `e69de29bb2d1d6434b8b29ae775ad8c2e48c5391`, 524639 bytes.
+- Reviewed master: blob `232c8a4e5c5616cc559a47410c9f72ad75cedd42`, 453007 bytes.
+- Scientific status remains pending: exact juvenile age, flight competence, sex metrics and subspecies-level plumage are unknown.

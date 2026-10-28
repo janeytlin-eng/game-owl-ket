@@ -6112,7 +6112,40 @@
       "reviewed_path": "production/reviewed/55-bubo-lacteus-v3-reviewed-master.jpg",
       "archive_commit": "a9a5688b0971b0d33ce13ac68e42fae04da708ee",
       "verified_at": "2026-10-29T03:00:00+08:00"
+    },
+    {
+      "id": "57-bubo-nipalensis-v3",
+      "path": "design/concepts/57-bubo-nipalensis-v3.png",
+      "species_id": 57,
+      "scientific_name": "Bubo nipalensis",
+      "common_name": "Spot-bellied Eagle-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "7e2b301a7f9f1a7fb5cd0f261275a939ce8ba898c2822763ec4e89ff4f8ff788",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION correcting v2's blanket short/plain juvenile wing. Sharpe 1875 p.38 describes an age-unspecified young with developed barred juvenile wings and tail; labelled field photographs support a naturally branch-perching fledgling. One bounded edit softened adult-like white spot rows and moderately shortened the tail while retaining developed folded juvenile wing and visible barred tail. Exact age, flight competence, sex metrics and subspecies-level plumage remain unknown.",
+      "source_ids": [
+        "SBEO-SHARPE-BM-1875",
+        "SBEO-CBC-FLEDGLING-2012",
+        "SBEO-PALEI-2018",
+        "SBEO-THAI-NP-2026",
+        "SBEO-OWL-PAGES-2022"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-57-v3-source-reconciliation",
+      "run_record": "production/runs/20261029T0303+0800-cycle-5.md",
+      "reviewed_at": "2026-10-29T03:16:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 247084,
+      "git_blob": "e90077283fd6f18560ab92772bdb70ed04c8f4b8",
+      "generated_blob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "reviewed_blob": "232c8a4e5c5616cc559a47410c9f72ad75cedd42",
+      "archive_note": "Initial v3 passed exact text/count/adult identity/scale/support, but juvenile wing spots read too adult-like and tail was overlong. Juvenile-only edit replaced crisp spots with softer barring/heart-spade marks and shortened the tail moderately without reverting to a down chick. Full edited PNG, full-resolution JPEG and 680x453 derivative were opened. Science false.",
+      "readback_pending": true,
+      "generated_path": "production/generated/57-bubo-nipalensis-v3-generated-master.jpg",
+      "reviewed_path": "production/reviewed/57-bubo-nipalensis-v3-reviewed-master.jpg",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-29T03:00:00+08:00"
+  "updated_at": "2026-10-29T03:19:00+08:00"
 }

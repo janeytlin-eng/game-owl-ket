@@ -1969,3 +1969,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-29T03:00:00+08:00 — #55 *Bubo lacteus* v3 independently verified at archive `a9a5688b0971b0d33ce13ac68e42fae04da708ee`; concept `f84ad1a755…`, generated `2df884e648…`, reviewed `eb4a87276d…`, exact bytes and metadata markers passed. Unique remains **184/251**; batch **4/6**, next cycle 5. Science false.
+
+
+## 2026-10-29 #57 *Bubo nipalensis* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/57-bubo-nipalensis-v3.png](design/concepts/57-bubo-nipalensis-v3.png)
+- Research: 3 new / 2 reused / 1 corrected claim. Sharpe 1875 printed p.38 supports developed barred juvenile wing/tail structure; CBC and Owl Pages support natural branch perching; Palei et al. supports paler greyish-cream body, pale bill and creamy legs.
+- Review: one juvenile-only edit softened adult-like white spot rows and moderately shortened the tail while retaining developed folded juvenile wings and visible barred tail. Exact age, flight competence, sex metrics and subspecies-level plumage remain unknown. Science false; readback pending.

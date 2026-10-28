@@ -1676,3 +1676,10 @@ Do not infer a hatchling-like short wing merely because a sourced juvenile canno
 
 
 - #55 v3 immutable archive verification passed at `a9a5688b0971b0d33ce13ac68e42fae04da708ee`: full tree 1,504 entries/non-truncated; exact concept/generated/reviewed blobs and byte sizes plus manifest/source/card/run/state/STATUS/design markers matched. Science remains pending.
+
+
+- #57 *Bubo nipalensis* v3 — SCIENCE_REVISION correcting the age-unknown juvenile boundary. [concept](concepts/57-bubo-nipalensis-v3.png) · [research](../knowledge/species/57-bubo-nipalensis.md) · [run](../production/runs/20261029T0303+0800-cycle-5.md). One juvenile-only edit removed crisp adult-like wing spots and shortened an overlong tail while retaining developed folded juvenile wings and a visible barred developing tail. Science pending.
+
+### Incremental stage-specific rule — age uncertainty is not evidence for uniformly short wings
+
+When a source describes an age-unspecified young bird with adult-like wing/tail structure or barred juvenile feathers, do not collapse it into a generic downy short-wing chick. Preserve the sourced developed structure while marking the age and flight boundary unknown. Use labelled field photographs only for support/pose/environment unless they document locomotor ability. Applied and visually rechecked on #57 v3; broader effectiveness remains unverified.

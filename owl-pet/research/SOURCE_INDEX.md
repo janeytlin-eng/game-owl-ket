@@ -1,3 +1,11 @@
+## 2026-10-29 #48 *Strix nivicolum* v3 taxonomy and juvenile-boundary check
+
+| Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |
+|---|---|---|---|---|---|---|
+| HIML-ITIS-2025 | ITIS Standard Report: *Strix nivicolum* (Blyth, 1845), TSN 1063252 | https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063252&source=to_print — accessed 2026-10-28 | Government-integrated taxonomic authority; current name and children | Lines 6–18 and 27–50 read: current valid species *Strix nivicolum*, synonym/protonym combination *Syrnium nivicolum*, English Himalayan Owl, and children *S. n. ma*, nominate *nivicolum* and *yamadae*; record credibility “verified — standards met.” IOC v15.1 is cited by ITIS. | Board uses current *Strix nivicolum*; old combinations are retained only in the research map. No subspecies identity is assigned to the very-white photo stage. | Taxonomy only; no morphology, sex difference, juvenile age, feather sequence, action ability or nest evidence. High confidence for name mapping, no developmental transfer. |
+
+Reused after targeted current-name and old-name searches: HIML-LEE-2025 (official 2025 PNIE/KCI metadata and abstract; one South Korean nest box, two chicks successfully fledged, but no transferable daily feather sequence), HIML-MIKKOLA-2013 printed pp.329–330 / PDF pp.331–332 (adult marks, slight female direction and a photographed very-white young) and HIML-AVIBASE-2026 (current/old-name map and montane range). Correction: no verified source found in this search supports a precise age, flight threshold or universal wing geometry for the very-white young. V3 therefore keeps an age-unknown supported juvenile and scientifically_verified=false.
+
 ## 2026-10-27 #145 Luzon Boobook · *Ninox philippensis* v2 revision
 
 | Stable ID | Title / original URL | Author / institution | Year / accessed | Type | Taxon / stage | Verified evidence | Limits / design decision | Links |

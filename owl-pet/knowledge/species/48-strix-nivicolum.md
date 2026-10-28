@@ -49,3 +49,16 @@ ARCHIVED; visual review passed after one targeted juvenile-wing edit. Scientific
 - Recheck: exactly three labeled supported birds; black eyes/white arcs, untufted adults, subtle female fullness and mountain habitat passed.
 - PNG 2,991,607 bytes; SHA-256 `8956ddcc9786010a5bbadaa0d877704d73298bec0cf1a07cc9ad22e8f375dd87`; blob `ee7d756669f9c0e5e3a7ab75a2df7bc6193e5884`; image commit `1f52cb6e9ffa441f3be673bd0600f120330b9820`.
 - Exact juvenile age/sequence/ability and sex measurements remain unknown; scientifically_verified=false.
+
+
+## v3 research-ready · 2026-10-29
+
+- New source HIML-ITIS-2025 confirms the current valid species name *Strix nivicolum*, the historical *Syrnium nivicolum* combination and three recognized children in the ITIS record; it supplies no developmental evidence.
+- Targeted current-name and old-name searches plus the official 2025 PNIE/KCI record did not recover a daily juvenile feather chronology. The Korean nest-box case confirms successful fledging of two chicks but cannot date or define Mikkola's very-white photographed young.
+- V3 boundary: age-unknown, very-white/cream, naturally supported juvenile; no exact age, flight claim, nest-box-stage claim or universal compact-wing inference. Science remains false.
+
+### Complete v3 imagegen prompt
+
+```
+Create a warm painterly semi-realistic natural-history concept board in the established owl-pet style, landscape 3:2. Exact title: “48 · HIMALAYAN OWL · Strix nivicolum”. Exactly three full-body owls with exact labels ADULT MALE, ADULT FEMALE, JUVENILE · AGE UNKNOWN. Adults: medium Strix owls with round untufted heads, deep black eyes bracketed by bright white arcs, gray-brown morph, dark mottled crown/back, two restrained pale wing rows, broadly banded wings and tail, pale underparts with heavy fine dark longitudinal streaks, and feathered tarsi/toes. Male and female are alike; female may be only subtly fuller/slightly larger, never dramatically taller. Juvenile: age unknown because no daily development series was found; very white/cream fluffy young bird based on the Mikkola photographic account, with faint diffuse gray-brown bars, less-defined facial disc, short rounded soft developing wings mostly embedded in mesoptile and short concealed tail; no adult spot rows or long layered remiges. Give it secure two-foot support low on a mossy branch/cavity ledge; do not claim flight ability or a precise nest stage. Habitat: cool Himalayan foothill-to-montane oak/conifer forest with a rocky wooded ravine at dawn; natural support visible for every bird. ITIS/IOC current name is Strix nivicolum; old literature may use Strix aluco nivicola/nivicolum or Syrnium nivicolum, but only the current name appears on the board. No extra birds, ear tufts, yellow eyes, bright yellow bill, exaggerated sex-size difference, airborne juvenile, mature juvenile wing/tail, floating feet, watermark, or extra text.
+```

@@ -21,3 +21,8 @@ Image commit 84e28bd532ae1697339927dd615b9a0742f67cfb
 - New 0, reused 4, corrected/application-expanded 1: AMO-DEBUS-WOOD-2007 now explicitly includes its printed pp.51–52 ~11-week recent-fledgling observation, not only early mesoptile.
 - v3: fully grown darker/more heavily marked recent fledgling with small residual down; clearly fuller/darker female on comparable support; mainland dark-morph eucalypt-hollow example with soil/sand/soft wood mulch.
 - Exact age, down placement, morph prevalence and universal ratio unknown; science false. Full prompt in SOURCE_INDEX.
+
+
+## v3 review/archive checkpoint — 2026-10-29T06:55:57.558+08:00
+
+Concept `cb7580aaf3a5de8b11a93beec51062271cc1d984`/348592 B; master `ad1128dccb4f977d549de5ba6074cce30cd4410a`/432568 B; crop `db88fbd04a20eea1165a4849e2a706b8fc5dc144`/100908 B. Debus 2007 ~11-week stage applied; fuller/darker female; full/crop pass, no edit. Exact age/ratio/morph prevalence unknown; science false.

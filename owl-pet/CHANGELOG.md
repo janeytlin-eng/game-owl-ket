@@ -1219,3 +1219,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-29T06:51:54.664+08:00: #68 *Tyto tenebricosa* v3 archive checkpoint — new2/reused3 sources; clearer evidence-based female volume and three-month-stage recent fledgling; full/crop pass, no edit; blobs `141c341dc49fe57eeba07ac6bc0855abd382a76f`/`eb96cb7ffc6d8b38296d9e61ef04312275f4b21d`/`eda3c94fd67d9bd490ada81820ea896c58241578`; unique +0, science false, readback pending.
 
 - 2026-10-29T06:52:32.841+08:00: #68 *Tyto tenebricosa* v3 VERIFIED; fixed-tree concept/master/crop and markers passed at `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; unique +0, science false.
+
+- 2026-10-29T06:55:57.558+08:00: #69 *Tyto novaehollandiae* v3 archive checkpoint — new0/reused4/corrected1; 11-week fledgling and sex direction; full/crop pass; blobs `cb7580aaf3a5de8b11a93beec51062271cc1d984`/`ad1128dccb4f977d549de5ba6074cce30cd4410a`/`db88fbd04a20eea1165a4849e2a706b8fc5dc144`; readback pending, science false.

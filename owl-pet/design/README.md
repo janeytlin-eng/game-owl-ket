@@ -1776,3 +1776,5 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - #68 Greater Sooty Owl v3 — `design/concepts/68-tyto-tenebricosa-v3.jpg`; concept `141c341dc49fe57eeba07ac6bc0855abd382a76f` (359873 B), master `eb96cb7ffc6d8b38296d9e61ef04312275f4b21d` (449107 B), crop `eda3c94fd67d9bd490ada81820ea896c58241578` (108906 B); readback pending; science false.
 
 - 2026-10-29T06:52:32.841+08:00: #68 *Tyto tenebricosa* v3 VERIFIED; fixed-tree passed at `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; science false.
+
+- #69 Australian Masked Owl v3 — concept `cb7580aaf3a5de8b11a93beec51062271cc1d984` (348592 B), master `ad1128dccb4f977d549de5ba6074cce30cd4410a` (432568 B), crop `db88fbd04a20eea1165a4849e2a706b8fc5dc144` (100908 B); readback pending; science false.

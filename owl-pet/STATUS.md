@@ -1,3 +1,9 @@
+## 2026-10-29 #48 *Strix nivicolum* v3 VERIFIED
+
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **4/6**, next cycle **5**.
+- [Original concept](design/concepts/48-strix-nivicolum-v3.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/65261cd3140874582f304e27500fe8b96b31e52d)
+- Commit-tree readback matched concept `1b4badac8b…` and generated/reviewed `121bb76eed…` blob IDs and byte sizes; all related text markers passed. Science false.
+
 ## 2026-10-29 #48 *Strix nivicolum* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **3/6** until fixed verification.

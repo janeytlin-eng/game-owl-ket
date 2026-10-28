@@ -71,3 +71,8 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Recheck: 1536×1024 master and 680×453 derivative both opened; PASS_WITH_LIMITATIONS; science false.
 - Iteration rule applied: a color-stage phrase such as “very white” is not an age clock or locomotor proxy. If no dated series exists, use an age-unknown supported stage and preserve uncertainty rather than borrowing timing from a related owl.
 - Files: `production/generated/48-strix-nivicolum-v3-generated-master.png`, `production/reviewed/48-strix-nivicolum-v3-reviewed-master.png`, `design/concepts/48-strix-nivicolum-v3.png`.
+
+
+### v3 archive verification
+
+- Fixed archive commit `65261cd3140874582f304e27500fe8b96b31e52d` was read through the commit tree; concept and identical generated/reviewed master paths matched expected Git blob IDs and byte sizes. Related text records were read back. Production/archive VERIFIED; scientific status remains false.

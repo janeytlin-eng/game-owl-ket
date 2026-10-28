@@ -48,3 +48,18 @@ Avoid: ear tufts, yellow eyes, bright yellow bill, exaggerated female size, matu
 - 来源：新增2、复用并新读3、更正0。NParks支持成鸟与成熟公园栖境；Pasir Ris单家庭记录支持雨树鸟巢蕨、白色绒幼鸟和离巢后沿枝移动，但不外推为普遍巢型。
 - 检查：首稿幼鸟翼面为长层叠成年斑点飞羽；一次定向编辑改为短圆、柔软、弥散深褐横斑的中雏羽翼，复查三鸟、标签、自然支撑与成鸟诊断通过。
 - 未知：精确离巢日龄、连续翼尾羽序、性别线性测量和地方色型；科学验收false，不继承v1用户确认。
+
+
+## v3 research-ready（2026-10-28）
+
+- Action: SCIENCE_REVISION; v1–v2 and prior user records preserved.
+- New evidence: SOWL-BESG-2022-P2, a fully read dated field account for one wild Pasir Ris family. First/second fledging occurred 19/21 Feb; 23 Feb owlets retained prominent white down, walked branches, balanced by flapping and used a strong-leg plus head-on-branch resting pose; 25 Feb one made a short flight. Remiges lengthened over weeks while rectrices stayed shorter; exact hatch age remains unknown.
+- Correction applied to design boundary: replace v2’s generic recent-fledgling shorthand with an explicitly single-family 2–4 days post-fledging brancher. Keep full natural support, short emerging remiges, much shorter tail, diffuse juvenile barring and poorly defined pale facial-disc edge. Do not generalize the rain-tree/bird’s-nest-fern site as a universal nest.
+- Source delta: new 1 / reused 4 / corrected inference 1.
+- Scientific calibration remains false.
+
+### Complete v3 imagegen prompt
+
+```
+Create a warm painterly semi-realistic natural-history concept board in the established owl-pet style, landscape 3:2. Exact title: “45 · SPOTTED WOOD OWL · Strix seloputo”. Show exactly three full-body owls, clearly separated and labeled ADULT MALE, ADULT FEMALE, JUVENILE. Adults nearly equal standing scale because published sex-size difference is unknown; no exaggerated female size. Both adults untufted, with very dark brown eyes, dark gray-green bill/cere, orange-buff facial disc with a dark brown rim, coffee/chocolate-brown upperparts marked by black-edged white spots and bars, whitish to buff underparts with strong horizontal dark-brown/black barring, and feathered legs/toes. Keep the adult sexes in the same plumage direction, with only subtle posture/body fullness variation. Juvenile must represent the documented 2–4 days after fledging stage from one wild Pasir Ris family (exact hatch age unknown): about half adult body scale, prominent fluffy white/pale down, diffuse dark-brown mesoptile bars, pale facial disc with poorly defined brown edge, short emerging remiges useful for balance but no adult layered wing or crisp adult spot rows, and rectrices much shorter than adults with no mature barred tail. Put the juvenile low on a broad rain-tree branch immediately beside a bird’s-nest fern, both feet and breast/side fully supported, in a documented resting pose with head gently resting on the branch for extra support; no flight, no floating, no helpless newborn. Adults perch naturally on adjacent rain-tree branches. Background: mature Singapore urban park / wooded lowland at warm dusk, subtle and non-distracting; the rain-tree/fern setting is one documented family context, not a universal nest claim. No extra birds, no eggs, no nest-box, no ear tufts, no yellow eyes, no bright yellow bill, no watermark, no clipped feet, no unsupported juvenile, no mature juvenile wing/tail. Use readable exact labels and title.
+```

@@ -58,3 +58,13 @@ Exactly three full-body birds. Two adults near-equal height, female only subtly 
 Juvenile: one approximately 8–10-week branch-moving, well-grown fledgling, lower and fully supported on a neighbouring broad branch beside the stick-nest tree. Paler grey-cream, down-softened head/body, smaller developing upright tufts and yellow eyes. Show developed folded juvenile flight feathers with softer, less regular barring than adults and a visible medium-length developing tail with several broad grey-brown bars and pale tip. It may look alert/preening or stepping between branches, but must not fly, hover or spread its wings. Do not make it a tiny hatchling, a spherical fluff ball, a short wing-bud chick, or a fully adult-plumaged third bird.
 Composition: adult male left, adult female center, juvenile right/lower; all feet and branch contact visible.
 Avoid extra birds, prey, eggs, watermark, exaggerated female size, orange eyes, Spot-bellied horizontal belly pattern, adult-like juvenile regularity, unsupported hovering, invented exact flight competence.
+
+
+## v3 production and review
+- First render passed exact text/count, adult yellow eyes/upright tufts/near-equal scale, wetland woodland and dry-stick nest; juvenile wing/tail structure matched the branch-moving stage but crisp white spots and layered dark remiges read too adult-regular.
+- Targeted edit softened coverts/remiges into paler irregular juvenile barring while preserving developed folded wings and a medium visible barred tail.
+- Recheck opened full 1536×1024 image and 680×453 derivative; all feet supported, no flight pose, exact labels pass.
+- Concept: `owl-pet/design/concepts/58-ketupa-coromanda-v3.png` — blob `ec4a40db371114623ac4d58783a6cf8eebab86df`, 251004 bytes, SHA-256 `6dcb7b496d8b2a5ae5d7ac71fce4be8eb787b5a4ece222ce1788daf7b761ad76`.
+- Generated master: blob `54add06208a52a14d0d3ffa25f14c781b5f12f13`, 562936 bytes.
+- Reviewed master: blob `5855979f0093cff71abdabbaa994f563ff22627e`, 523346 bytes.
+- Scientific status pending: first-flight competence, exact feather progression and regional juvenile variation unknown.

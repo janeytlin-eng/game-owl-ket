@@ -1685,3 +1685,10 @@ Do not infer a hatchling-like short wing merely because a sourced juvenile canno
 When a source describes an age-unspecified young bird with adult-like wing/tail structure or barred juvenile feathers, do not collapse it into a generic downy short-wing chick. Preserve the sourced developed structure while marking the age and flight boundary unknown. Use labelled field photographs only for support/pose/environment unless they document locomotor ability. Applied and visually rechecked on #57 v3; broader effectiveness remains unverified.
 
 - #57 v3 immutable archive verification passed at `667f13a1fda5daa8d5aecb13d69cade7c94c637b`; exact three image blobs and metadata markers matched. Science remains pending.
+
+
+- #58 *Ketupa coromanda* v3 — SCIENCE_REVISION correcting the sourced 8–10-week branch-moving / well-grown fledgling boundary. [concept](concepts/58-ketupa-coromanda-v3.png) · [research](../knowledge/species/58-ketupa-coromanda.md) · [run](../production/runs/20261029T0325+0800-cycle-6.md). One edit softened adult-regular juvenile wing markings while retaining developed folded flight feathers and a medium barred tail. Science pending.
+
+### Incremental stage-specific rule — locomotor age can reject a wing-bud template
+
+A species-specific estimate of 8–10 weeks plus observed movement among neighbouring branches and an independent “well-grown fledgling” label is sufficient to reject a tiny down-chick wing-bud depiction, even when first flight is unknown. Render developed folded juvenile wings and supported branch movement; keep flight ability explicitly unknown. Applied and visually rechecked on #58 v3; broader effectiveness remains unverified.

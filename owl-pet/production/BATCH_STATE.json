@@ -5866,49 +5866,32 @@
           "unique_species_increment": 0,
           "commit_sha": "121c41c0412352439db76b7298374d725e61d2f9",
           "run_record": "owl-pet/production/runs/20261028T1734+0800-cycle-3-recovery.md",
-          "verified_at": "2026-10-28T17:54:00+08:00"
+          "verified_at": "2026-10-28T17:42:23+08:00"
         }
       ],
       "next_cycle": 4,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261028T1745+0800-cycle-4",
+        "cycle": 4,
+        "species": "#36 Glaucidium bolivianum",
+        "heartbeat_at": "2026-10-28T17:45:00+08:00",
+        "expires_at": "2026-10-28T18:00:00+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 3,
-        "run_id": "20261028T1734+0800-cycle-3-recovery",
-        "species": "#35 Glaucidium jardinii",
+        "cycle": 4,
+        "run_id": "20261028T1745+0800-cycle-4",
+        "species": "#36 Glaucidium bolivianum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T17:54:00+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-28T17:45:00+08:00",
         "evidence": {
-          "mapping_correction": "Canonical #35 is Glaucidium jardinii; invalid Glaucidium minutissimum research-only checkpoint preserved without credit.",
-          "new_sources": [
-            "ANPO-BANREP-CERVANTES-2016",
-            "ANPO-PERUAVES-2026"
-          ],
-          "reused_sources": [
-            "ANPO-MIKKOLA-2013",
-            "ANPO-BOW-2020",
-            "ANPO-BIRDLIFE-2026",
-            "ANPO-EBIRD-2025"
-          ],
-          "corrected_sources": 1,
-          "design_boundary": "near-equal adults; age-unknown late-nest cavity-supported juvenile with plain/fine-lined crown; exact day/flight unknown",
-          "scientifically_verified": false,
-          "concept_path": "owl-pet/design/concepts/35-glaucidium-jardinii-v3.png",
-          "concept_blob_sha": "535dd41e5319dea6acdc44efc13ba768afad79b8",
-          "master_path": "owl-pet/production/generated/35-glaucidium-jardinii-v3-generated-master.jpg",
-          "master_blob_sha": "0b366916ed94f96661be31a0b385c4a8fefaa956",
-          "archive_commit": "121c41c0412352439db76b7298374d725e61d2f9",
-          "fixed_commit_readback": {
-            "concept": true,
-            "master": true,
-            "manifest": true,
-            "run": true,
-            "source_index": true
-          }
+          "canonical_record": "owl-pet/knowledge/species/36-glaucidium-bolivianum.md",
+          "prior_version": "owl-pet/design/concepts/36-glaucidium-bolivianum-v2.png"
         }
       },
-      "last_updated_at": "2026-10-28T17:54:00+08:00",
+      "last_updated_at": "2026-10-28T17:45:00+08:00",
       "audit_notes": [
         "2026-10-28T16:10:00+08:00: new batch cycle1 STARTED #33 Taenioptynx brodiei v3 SCIENCE_REVISION; v1-v2 preserved; no credit.",
         "2026-10-28T16:15:00+08:00: cycle1 #33 v3 RESEARCH_READY; new2/reused2/corrected1; known 56-day fledgling boundary selected; science false.",
@@ -5920,10 +5903,34 @@
         "2026-10-28T16:30:00+08:00: cycle2 #34 v3 RESEARCH_READY; primary paper pp23-26 read; science false.",
         "2026-10-28T16:39:00+08:00: cycle2 VERIFIED #34 at f16d4d0d0ce2f50a203208164f346a5a2a9d5fcf; fixed readback passed; batch2/6 next_cycle3; science false.",
         "2026-10-28T17:34:00+08:00: cycle3 recovery STARTED #35 Glaucidium jardinii v3; invalid #35 G. minutissimum RESEARCH_READY checkpoint preserved with no credit; lease to 2026-10-28T17:49:00+08:00.",
-        "2026-10-28T17:54:00+08:00: cycle3 VERIFIED #35 Glaucidium jardinii v3 at 121c41c0412352439db76b7298374d725e61d2f9; fixed concept/master/manifest/run/source-index readback passed; batch3/6 next_cycle4; science false."
+        "2026-10-28T17:54:00+08:00: cycle3 VERIFIED #35 Glaucidium jardinii v3 at 121c41c0412352439db76b7298374d725e61d2f9; fixed concept/master/manifest/run/source-index readback passed; batch3/6 next_cycle4; science false.",
+        "2026-10-28T17:43:00+08:00: corrected cycle3 phase timestamps against GitHub commit created_at evidence; archive commit 17:41:35, verification 17:42:23.",
+        "2026-10-28T17:45:00+08:00: cycle4 STARTED #36 Glaucidium bolivianum v3 SCIENCE_REVISION; v1-v2 preserved; no credit."
       ],
-      "lease": null,
-      "in_progress": null,
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "20261028T1745+0800-cycle-4",
+        "heartbeat_at": "2026-10-28T17:45:00+08:00",
+        "expires_at": "2026-10-28T18:00:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 4,
+        "species_id": 36,
+        "species": "Glaucidium bolivianum",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_record": "owl-pet/production/runs/20261028T1745+0800-cycle-4.md",
+        "stage": "STARTED",
+        "stage_evidence": {
+          "STARTED": {
+            "at": "2026-10-28T17:45:00+08:00",
+            "prior_versions": [
+              "v1",
+              "v2"
+            ]
+          }
+        }
+      },
       "invalidated_checkpoints": [
         {
           "cycle": 3,
@@ -5936,7 +5943,12 @@
       ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-production",
+    "run_id": "20261028T1745+0800-cycle-4",
+    "heartbeat_at": "2026-10-28T17:45:00+08:00",
+    "expires_at": "2026-10-28T18:00:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -6037,8 +6049,15 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-28T17:54:00+08:00",
+  "active_lease": {
+    "owner": "codex-production",
+    "run_id": "20261028T1745+0800-cycle-4",
+    "cycle": 4,
+    "species": "#36 Glaucidium bolivianum",
+    "heartbeat_at": "2026-10-28T17:45:00+08:00",
+    "expires_at": "2026-10-28T18:00:00+08:00"
+  },
+  "last_updated_at": "2026-10-28T17:45:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

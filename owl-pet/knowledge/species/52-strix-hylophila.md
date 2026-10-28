@@ -36,3 +36,12 @@
 - Active external search re-opened the specialist Owl Pages account and searched peer-reviewed Brazilian/Argentine literature for species-specific juvenile development. No additional source with stronger plumage-age sequence was found. A 2017 Serra da Cantareira paper was rejected as juvenile evidence after reading the PDF context: the juvenile sentence referred to another species, not *S. hylophila*.
 - The user-uploaded Mikkola PDF was found in Library, but its text/page index was unavailable in this run. A web catalogue identifies the species account as no. 160, but that catalogue snippet is not treated as verified book-page evidence.
 - v2 therefore keeps the supported 32–35-day recently fledged stage, warm-buff/faint-bar direction and close natural branch support. Exact feather geometry, individual age and quantified sex-size ratio remain unknown.
+
+
+## 2026-10-29 v3 evidence correction
+
+- New `RBO-OWLPAGES-JUV-2026`: the specialist page explicitly labels a young *Strix hylophila* perched on a branch at night in Atlantic Rainforest, Minas Gerais; age and flight are not supplied.
+- New `RBO-EMBRAPA-2024`: Embrapa Documentos 520, PDF p.35/47, supports tall well-preserved Araucaria/Atlantic Forest and cavities in large living or dead trees; it supplies no juvenile chronology.
+- Reused `OWL-SRC-0052-A/B/C`.
+- Corrected wording: v2’s “recently fledged 32–35-day” is narrowed to a 32–35-day nest-leaving/brancher stage. The juvenile is warm-buff and faintly barred with short down-softened wings/tail and full branch support immediately beside the cavity; no independent-flight claim.
+- Adult sexes remain alike in plumage, with only subtle female fullness. Exact feather sequence, locomotor threshold, sex measurements and regional variation remain unknown; science false.

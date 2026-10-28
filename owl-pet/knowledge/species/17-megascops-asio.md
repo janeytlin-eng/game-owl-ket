@@ -30,3 +30,14 @@ v2去掉幼鸟成熟翼羽，降低胸/头、腹部支撑，成年高度差收�
 Mikkola《Owls of the World》第二版2013，印刷207–209页（上传PDF209–211页），Megascops asio与现用学名一致。文本说明雌鸟平均较重约30g，但不证明站高比例；喙为橄榄绿带黄尖，跗跖羽毛到趾基，绒羽幼鸟白色。未采用旧书地域/亚种表作为最新分类名录。PDF文本已读；页面图片读取403，不能声称已核对照片。
 重新访问Cornell生活史及ORI物种页面；Cornell确认白绒羽闭眼孵化、现成树洞与底部碎屑，离巢扑翼攀爬不适用于初生。
 实际查看v2和生成v3：成年脚下基线收敛，雌鸟略丰满而没有制造性别羽色差；脚部羽毛过渡改善但精确边界仍待校准。幼鸟闭眼白绒羽，腹部支撑，无明显成熟飞羽或耳簇；轻抬头/张嘴幅度为概念表达，未获物种阶段视频验证。耳簇和头眼艺术夸张、幼成比例仍未通过测量核验。不赋精确日龄，不标科学通过。旧版本及确认记录均保留。
+
+
+## 2026-10-28 · v5 late-brancher revision
+
+Mikkola printed pp.207–209/PDF209–211, Cornell Life History/ID, the USDA FEIS synthesis and the USGS 22–28 d primary-study abstract were actually read. v5 deliberately changes stage from v4’s early closed-eye white-down hatchling to an approximately 27–30 d brancher. The older young is fluffy finely barred gray, grips bark with both feet and uses one short incomplete wing for balance; it is not airborne. One targeted edit shortened the first render’s long crisp adult-like wing and concealed the long tail.
+
+Both adults use northern gray morph so morph is not confused with sex; female is only subtly fuller, never assigned a fixed height ratio. Exact depicted day, continuous feather sequence, juvenile eye/cere chronology, remex/tail proportions, subspecies variation and universal cavity geometry remain unknown. `scientifically_verified=false`; v1–v4 and prior user records remain historical.
+
+![v5](../../design/concepts/17-megascops-asio-v5.png)
+
+[Research/full prompt](../../research/species/17-megascops-asio-v5.md) · [run](../../production/runs/20261028T0851+0800-cycle-6.md)

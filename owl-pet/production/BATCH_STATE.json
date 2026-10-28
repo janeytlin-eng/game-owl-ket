@@ -5350,8 +5350,8 @@
         "run_id": "20261028T0851+0800-cycle-6",
         "cycle": 6,
         "species_id": 17,
-        "heartbeat_at": "2026-10-28T08:46:40.000+08:00",
-        "expires_at": "2026-10-28T09:01:40.000+08:00"
+        "heartbeat_at": "2026-10-28T08:49:00.000+08:00",
+        "expires_at": "2026-10-28T09:04:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5359,8 +5359,8 @@
         "species": "#17 Megascops asio",
         "version": 5,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T08:46:40.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T08:49:00.000+08:00",
         "evidence": {
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "species_card": "owl-pet/research/species/17-megascops-asio-v5.md",
@@ -5409,10 +5409,26 @@
               "emerging juvenile wing still shows moderate barring; retained as a formed-but-incomplete late-nestling wing rather than claiming exact day-specific remex pattern",
               "scientifically_verified remains false"
             ]
-          }
+          },
+          "concept_path": "owl-pet/design/concepts/17-megascops-asio-v5.png",
+          "concept_blob": "3f039019ac98cfa2b17f20cfb53f5040b8fae465",
+          "concept_sha256": "c15fdffdbf859a2f559190d6bbd5f143a1d2f56afee145f38f12700bfa5b9fea",
+          "concept_bytes": 154821,
+          "generated_path": "owl-pet/production/generated/17-megascops-asio-v5-generated-master.png",
+          "generated_blob": "27f7733c5f86b24a1ce733ee6cb6f215ca65ead2",
+          "generated_sha256": "78ea60aa813dd46e480e970dee0a51f959bb5d2b8e8747ad3f41782f5546be00",
+          "generated_bytes": 704125,
+          "reviewed_path": "owl-pet/production/reviewed/17-megascops-asio-v5-reviewed-master.png",
+          "reviewed_blob": "0d12928559b3a306c58d5d19652e6b82bba1d2ef",
+          "reviewed_sha256": "cb5e9060353f8db308cc18b50be41608f8a817938197d3978f5375820fe5a802",
+          "reviewed_bytes": 641649,
+          "manifest_count_before": 448,
+          "manifest_count_after": 449,
+          "unique_species_provisional": "184/251",
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-28T08:46:40.000+08:00",
+      "last_updated_at": "2026-10-28T08:49:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5449,7 +5465,8 @@
         "2026-10-28T08:51:10.000+08:00: cycle6 STARTED canonical #17 Megascops asio v5 SCIENCE_REVISION; v1–v4 preserved; no credit.",
         "2026-10-28T08:43:30.000+08:00: cycle6 #17 v5 RESEARCH_READY; new4/reused1/corrected1 sources, Mikkola pp.207–209 and external development evidence read. Full prompt saved; science false; prior STARTED timestamp display is later than the current worker clock, while the actual start commit was 00:41Z.",
         "2026-10-28T08:45:30.000+08:00: cycle6 #17 v5 IMAGE_GENERATED in 30.703s; 1536x1024 candidate opened via faithful derivative. Juvenile adult-like long barred wing/tail requires targeted edit; no credit.",
-        "2026-10-28T08:46:40.000+08:00: cycle6 #17 v5 REVIEWED PASS_WITH_LIMITATIONS after one 44.373s targeted edit; juvenile long adult-like wing/tail shortened/softened, full climbing support retained. Exact day/remex pattern unknown; science false."
+        "2026-10-28T08:46:40.000+08:00: cycle6 #17 v5 REVIEWED PASS_WITH_LIMITATIONS after one 44.373s targeted edit; juvenile long adult-like wing/tail shortened/softened, full climbing support retained. Exact day/remex pattern unknown; science false.",
+        "2026-10-28T08:49:00.000+08:00: cycle6 #17 v5 ARCHIVED tree prepared; concept 3f039019, generated 27f7733c, reviewed 0d129285; manifest 448→449; unique 184/251; readback pending."
       ]
     }
   ],
@@ -5559,10 +5576,10 @@
     "run_id": "20261028T0851+0800-cycle-6",
     "cycle": 6,
     "species_id": 17,
-    "heartbeat_at": "2026-10-28T08:51:10.000+08:00",
-    "expires_at": "2026-10-28T09:06:10.000+08:00"
+    "heartbeat_at": "2026-10-28T08:49:00.000+08:00",
+    "expires_at": "2026-10-28T09:04:00.000+08:00"
   },
-  "last_updated_at": "2026-10-28T08:51:10.000+08:00",
+  "last_updated_at": "2026-10-28T08:49:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

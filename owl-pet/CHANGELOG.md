@@ -1,3 +1,7 @@
+## 2026-10-28 — #17 Eastern Screech-Owl v5
+
+- Added evidence-bounded approximately 27–30-day supported brancher revision after one juvenile-wing/tail edit. Existing v1–v4 preserved; morph is not used as sex; unique remains 184/251; science false.
+
 ## 2026-10-28 — #15 Barred Owl v4
 
 - Added evidence-bounded ~30–33-day supported brancher/climber revision after one juvenile-wing/tail edit. Existing v1–v3 preserved; unique remains 184/251; science false.

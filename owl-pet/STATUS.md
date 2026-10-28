@@ -1,3 +1,6 @@
+## 2026-10-28 #17 *Megascops asio* v5 ARCHIVED
+- SCIENCE_REVISION; uploaded Mikkola pp.207–209/PDF209–211, Cornell brancher behavior, FEIS development and USGS age-band evidence applied. One targeted edit shortened the juvenile wing and hid the long tail while retaining supported talon climbing. Science false; unique **184/251**; readback pending.
+
 ## 2026-10-28 #15 *Strix varia* v4 ARCHIVED
 - SCIENCE_REVISION; Mikkola, 2024 primary cavity-camera study, USFS climbing study and Cornell cam evidence applied. One targeted edit removed long adult-spotted juvenile wing/tail while retaining supported climbing brancher action. Science false; unique **184/251**; readback passed at `901800d0b81eebd5b48fbe77d8c09cf945a6e883`; batch 5/6, next cycle 6.
 

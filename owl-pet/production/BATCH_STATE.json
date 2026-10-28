@@ -5706,36 +5706,29 @@
         }
       ],
       "next_cycle": 2,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-work",
+        "run_id": "20261028T1142+0800-newbatch-cycle-2",
+        "cycle": 2,
+        "species": "#28 Glaucidium perlatum",
+        "heartbeat_at": "2026-10-28T11:42:13+08:00",
+        "expires_at": "2026-10-28T11:57:13+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 1,
-        "run_id": "20261028T1035+0800-newbatch-cycle-1",
-        "species": "#27 Glaucidium passerinum",
+        "cycle": 2,
+        "run_id": "20261028T1142+0800-newbatch-cycle-2",
+        "species": "#28 Glaucidium perlatum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T11:40:11.421+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-28T11:42:13+08:00",
         "evidence": {
-          "archive_commit": "a32c28731058a6772c6890967a9bd89723eb63ac",
-          "concept_path": "owl-pet/design/concepts/27-glaucidium-passerinum-v3.png",
-          "concept_blob": "904993d0422346230930ad72fd42ceb54a9abaeb",
-          "concept_bytes": 261567,
-          "concept_sha256": "4692ea48fded40718c1568eadd0502d5512ebed763ff29c0134c259a064dcd9c",
-          "generated_path": "owl-pet/production/generated/27-glaucidium-passerinum-v3-generated-master-rebuilt.jpg",
-          "reviewed_path": "owl-pet/production/reviewed/27-glaucidium-passerinum-v3-reviewed-master.jpg",
-          "master_blob": "17e4d8d0c36e14e0a8d768129c699f8adc75dcb6",
-          "master_bytes": 619572,
-          "master_sha256": "548d2bf01571d75df81abdef3c66800f2f0d04be593ea4a626628e72988a30f0",
-          "manifest_count": 456,
-          "source_index_marker": true,
-          "research_card_marker": true,
-          "raw_readback": "decode+dimensions+sha256+git-blob match",
-          "unique_species_after": "184/251",
-          "batch_cumulative": "1/6",
-          "scientifically_verified": false
+          "prior_version": "v2 preserved",
+          "candidate_reason": "sequential science-revision queue; v2 lacked a bounded nest-stage juvenile",
+          "credit": false
         }
       },
-      "last_updated_at": "2026-10-28T11:40:11.421+08:00",
+      "last_updated_at": "2026-10-28T11:42:13+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5744,12 +5737,27 @@
         "2026-10-28T11:34:44.610+08:00: remote generated blob integrity failed actual decode (CRC error; lower half missing). Recorded durable byte/SHA metadata was inconsistent. Rebuild from persisted full prompt authorized; no cycle credit.",
         "2026-10-28T11:37:41.789+08:00: cycle1 #27 v3 REVIEWED after corruption-triggered rebuild. New 1536x1024 source and full-resolution JPEG master opened; text/count/adult direction/support/short soft juvenile wing pass. Science false; lease renewed.",
         "2026-10-28T11:38:55.479+08:00: cycle1 #27 v3 ARCHIVED tree prepared; concept blob 904993d0, rebuilt full master 17e4d8d0, manifest 455→456; fixed-commit readback pending, no credit.",
-        "2026-10-28T11:40:11.421+08:00: cycle1 VERIFIED #27 Glaucidium passerinum v3 at archive a32c28731058a6772c6890967a9bd89723eb63ac; fixed-commit raw decode/hash/blob/manifest/research/run readback passed. Unique 184/251; batch 1/6, next_cycle2; lease released."
+        "2026-10-28T11:40:11.421+08:00: cycle1 VERIFIED #27 Glaucidium passerinum v3 at archive a32c28731058a6772c6890967a9bd89723eb63ac; fixed-commit raw decode/hash/blob/manifest/research/run readback passed. Unique 184/251; batch 1/6, next_cycle2; lease released.",
+        "2026-10-28T11:42:13+08:00: cycle2 STARTED canonical #28 Glaucidium perlatum v3 SCIENCE_REVISION; v1–v2 preserved; bounded late-cavity juvenile evidence selected; no credit."
       ],
-      "lease": null
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261028T1142+0800-newbatch-cycle-2",
+        "cycle": 2,
+        "species": "#28 Glaucidium perlatum",
+        "heartbeat_at": "2026-10-28T11:42:13+08:00",
+        "expires_at": "2026-10-28T11:57:13+08:00"
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-work",
+    "run_id": "20261028T1142+0800-newbatch-cycle-2",
+    "cycle": 2,
+    "species": "#28 Glaucidium perlatum",
+    "heartbeat_at": "2026-10-28T11:42:13+08:00",
+    "expires_at": "2026-10-28T11:57:13+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

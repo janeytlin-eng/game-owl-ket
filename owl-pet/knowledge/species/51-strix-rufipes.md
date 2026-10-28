@@ -45,3 +45,12 @@
 - Juvenile remains approximately one month, warm-buff and faintly barred with shorter wing/tail, low natural support and no flight claim.
 - Sources added: `RLO-ESCOBAR-2022`, `RLO-FIGUEROA-2017`; reused two existing adult/taxonomy accounts.
 - Scientific status remains pending exact plumage sequence and population/subspecies calibration.
+
+
+## 2026-10-29 v3 evidence correction
+
+- New official source `RLO-MMA-2015`, Chilean Environment Ministry 8-page dossier, was actually read. PDF p.1/8 states explicit sexual plumage variation: the female is markedly paler than the dark male; both retain dark eyes, grey/rust facial discs, white brows/moustachial marks, barred ochre underparts, dark barred upperparts and rufous thighs. PDF p.2/8 supports mature-tree cavities; p.4/8 supports dense mature *Nothofagus* forest. Historical synonyms include *Syrnium rufipes* and *Ulula rufipes*.
+- Reused `RLO-ESCOBAR-2022` for the 30-day incubation/34-day nestling record, `RLO-FIGUEROA-2017` for the labelled approximately-one-month rehabilitation juvenile, and `OWL-SRC-0051-A` for adult morphology.
+- Corrected v2 adult direction: v3 male is darker; female is visibly paler and subtly fuller/larger, without exaggerated standing-height difference.
+- Juvenile remains approximately one month, warm-buff and faintly dusky-barred, with a short down-softened developing wing and concealed/short tail; it stands low with both feet supported at a mature-tree cavity rim and is not shown flying.
+- Scientific status remains false: exact feather-by-feather juvenile sequence, quantitative adult palette/size ratios, population transfer and rehabilitation-to-wild behavior remain unknown.

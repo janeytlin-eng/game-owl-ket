@@ -14,3 +14,10 @@ Image generated, edited twice and reviewed; archive d4069ad1d8148391c26ec731ae76
 - **Nest boundary:** the Palmchat nest was a single documented, unusual locality example. It may be used as that example, not described as the species-wide norm.
 - **Sex boundary:** female mass is larger, but no fixed standing-height ratio is derived; show fuller body volume without turning the pair into different-sized species.
 - **Habitat conflict:** BirdsCaribbean says dense wooded areas are preferred while Peregrine Fund emphasizes lightly wooded/open settings. Treat *T. glaucops* as habitat-flexible; use a plausible Hispaniolan palm/woodland edge and do not label it universal.
+
+
+## 2026-10-29 v3 research boundary
+
+- Re-read Curti et al. 2018 p.18/PDF p.3: the selected bird was not very mobile and almost completely buff-down, but some juvenile feathers were already emerging on the wings. V2's nearly invisible wing development is therefore revised to short, rounded, down-softened feather clusters only.
+- BirdsCaribbean 2023 was re-read for ash-gray face, black eyes, buff/darker body, general cavity nesting and strong mass direction; adult female may be fuller but no standing-height ratio is inferred.
+- Palmchat stick-nest cavity remains a documented single-site example, not a species-wide nest rule. Exact age, tract lengths, full feather chronology and first-flight threshold remain unknown; science false.

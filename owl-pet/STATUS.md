@@ -1,3 +1,11 @@
+## 2026-10-28 #44 *Strix uralensis* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; current batch stays **5/6** until fixed-commit verification.
+- Image: [design/concepts/44-strix-uralensis-v3.png](design/concepts/44-strix-uralensis-v3.png)
+- Research: 1 new / 3 reused / 1 corrected source record; Scherzinger 1980 printed pp.45–52 and pp.61–62 supplies the day-29 boundary.
+- Review: first render had an adult-like juvenile wing panel. One juvenile-only edit restored mesoptile-dominant flank, short newly opened wing tips and no visible tail; full edited master and derivative passed with limitations.
+- Archive: concept blob `7c9473b4f28915199daa796858a5fae17e3a2e0c`; generated `b4423a4dda`; reviewed `8a23cfa48e`. Fixed-commit readback pending; science false.
+
 ## 2026-10-28 #43 *Athene blewitti* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **5/6**, next cycle **6**.

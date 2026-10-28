@@ -1,3 +1,9 @@
+## #44 Ural Owl — *Strix uralensis* — v3 science revision
+
+- Concept: [44-strix-uralensis-v3.png](concepts/44-strix-uralensis-v3.png)
+- Research: [species card](../knowledge/species/44-strix-uralensis.md) · [source index](../research/SOURCE_INDEX.md#2026-10-28-44-strix-uralensis-v3-evidence-correction)
+- Stage: ARCHIVED, fixed-commit verification pending. Day-29 supported brancher; one juvenile-wing edit; science false.
+
 ## 43 · Forest Owlet · *Athene blewitti* v3
 
 - [Original PNG](concepts/43-athene-blewitti-v3.png) · 680×453 PNG · 655,007 bytes · SHA-256 `107f434ab8f45df6b5d2527a094b677c7615034b3c80a6fe45805a86af302d75`

@@ -35,3 +35,8 @@ First render failed review because the fledgling tail was too long and fully adu
 
 Image: `design/concepts/24-glaucidium-californicum-v2.png`.
 Run: `production/runs/2026-10-26T0852+0800-cycle-6.md`.
+
+
+## v3 evidence increment · 2026-10-28
+
+Frye & Jageman 2012 supplies an explicit post-fledging behavioral boundary: earliest hunting observations occurred nine days after fledging while parental attendance continued. v3 therefore uses a dependent nine-days-after-fledging branch-perched juvenile, not an age-unknown generic fledgling. The paper's broad *Glaucidium gnoma* usage is retained as a nomenclatural limitation and is not treated as a modern species-limit decision. Juvenile plumage remains a conservative design inference from established identity sources; exact day-9 feather sequence is unknown. Science remains false.

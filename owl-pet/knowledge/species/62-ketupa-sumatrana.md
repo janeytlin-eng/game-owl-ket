@@ -23,3 +23,10 @@ See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): BEOW-NPARKS-2026, BEOW-SGBIR
 ## Status
 
 v1 VERIFIED as an archived concept after juvenile-wing correction and remote blob/metadata readback. Scientific acceptance: not passed.
+
+## v3 research boundary (2026-10-29)
+
+- Re-read 2018 dated family sequence: the estimated 8–10-month juvenile was almost full-sized and nearly adult-feathered; only head and ear tufts remained whitish. It attempted hunting and flew, while still calling with an adult nearby.
+- The 2010 white adult-sized dependent bird is a different stage. v3 therefore corrects v2's blended small white begging juvenile to the 2018 late-moult boundary.
+- New BEOW-SGBIRDS-RAPTOR-2021 independently confirms a branch-capable fledgling with adults nearby, but does not supply age or feather geometry.
+- Unknown: exact hatch age, continuous moult sequence, sex ratio, juvenile sex and subspecies variation. Science remains false.

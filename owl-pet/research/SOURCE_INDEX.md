@@ -1,3 +1,30 @@
+# 2026-10-29 · #62 *Ketupa sumatrana* v3 — late dependent juvenile boundary
+
+## BEOW-SGBIRDS-RAPTOR-2021
+
+- **Title / institution / date:** “Singapore Raptor Report, Late Spring Migration, April–June 2021”; Singapore Bird Group / Nature Society (Singapore); 11 July 2021.
+- **Original URL:** https://singaporebirdgroup.wordpress.com/2021/07/11/singapore-raptor-report-late-spring-migration-april-june-2021/
+- **Accessed:** 2026-10-29 (UTC+08:00).
+- **Source type:** regional field-report aggregation with credited photographs; directly opened and read.
+- **Species / stage:** *Ketupa sumatrana* under historical *Bubo sumatranus*; recently fledged juvenile.
+- **Evidence:** HTML lines 44–47 report a fledgling photographed at Rifle Range Link on 4 April, with two adults at the same locality the previous day. This independently supports branch-capable fledgling presence and nearby adults, not a nest-bound wing-bud stage.
+- **Limitations:** no measured age, feather lengths, sex or continuous development series; the report does not alone establish the late 2018 plumage boundary.
+- **Decision:** use only as a stage/behavior cross-check; no flight action or sex inference is added.
+
+## Reused source IDs and corrected inference
+
+- **BEOW-SGBIRDS-BREED-2018:** directly re-read. Lines 10–15 give a dated 7–17 August sequence; the juvenile was estimated 8–10 months, almost full-sized, had nearly completed moult to adult-like feathers, retained whitish head/ear tufts, attempted hunting and flew with a snake while an adult remained nearby.
+- **BEOW-BESG-JUV-2010:** directly re-read. Lines 18–23 describe a snowy-white juvenile already adult-sized and capable of good flight but unable to feed independently. This is a different dependent stage and must not be blended with the 2018 late-moult bird.
+- **BEOW-SGBIRDS-2026:** adult ID boundary and broad juvenile white-with-dark-bars summary.
+- **Corrected design inference:** v2's small, white, extensively barred begging juvenile blends the 2010 white adult-sized dependent stage with the 2018 almost-adult late-moult stage. v3 deliberately selects the dated 2018 boundary: almost adult size, adult-like body/wing feathers, whitish head/ear tufts only, closed bill and secure branch support.
+- **Unknown:** exact hatch date, continuous moult sequence, quantified sex ratio, juvenile sex and subspecies variation. Science remains false. Heimo Mikkola upload unavailable; no page citation invented.
+
+## Full image-edit prompt
+
+Edit the supplied #62 Barred Eagle-Owl (Ketupa sumatrana) v2 concept in place. Preserve photographic realism, humid Southeast Asian forest/quarry-edge habitat, the title BARRED EAGLE-OWL, italic Ketupa sumatrana, exactly three owls and the three existing bottom labels. Preserve both adults exactly in pose, near-equal visible scale, pitch-black eyes, large yellow bills, very long horizontal outward ear tufts, dark brown-and-buff barred upperparts, blackish-and-whitish finely barred underparts and natural branch support. Make a bounded juvenile-only science revision to the documented August 2018 late dependent stage: enlarge the center juvenile to almost adult size, perched securely on the same branch; most body and wing plumage already adult-like and fully feathered, with mature-looking dark/buff barred folded wings and tail; retain conspicuously whitish head and ear tufts as the remaining juvenile character. Closed bill, alert but non-flight pose. Do not depict a small fluffy nestling, pure natal down, begging gape, shortened wing buds or hidden tail. Do not invent a fixed female-larger rule or sex the juvenile. No explanatory callouts, extra text, prey, eggs, extra birds, UI or border.
+
+---
+
 # 2026-10-29 · #61 *Ketupa ketupu* v3 — dated two-week vs six-week plumage boundary
 
 ## BFOW-BESG-FLEDGE-2016

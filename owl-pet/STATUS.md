@@ -1999,3 +1999,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Review: one juvenile-only edit removed adult-regular white spots/layered remiges while retaining developed folded juvenile wings and a shorter developing tail. Exact feather lengths, sex ratio and regional variation remain unknown. Science false; readback pending.
 
 - 2026-10-29T03:50:00+08:00 — #59 *Ketupa zeylonensis* v3 independently verified at archive `8a74506bb4cc16e517f2aba168c78a62465eaeda`; concept `04133d739f…`, generated `9431f0cc2b…`, reviewed `6c683c3485…`, manifest486 and source/card/run/state/status/design markers passed. Unique remains **184/251**; batch **1/6**, next cycle 2. Science false.
+
+
+## 2026-10-29 #60 *Ketupa flavipes* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/60-ketupa-flavipes-v3.jpg](design/concepts/60-ketupa-flavipes-v3.jpg)
+- Research: 1 new / 4 reused / 1 corrected inference. SPNP/PTS directly reports 30 d and 40 d Wuling chicks and provides a credited nest photograph; Wang 2013 gives a local 56–57 d nestling period.
+- Review: one juvenile-only edit softened adult-regular wing marks while retaining developed folded juvenile wings and a medium developing tail. Full 1536×1024 reviewed JPEG reopened; count/text/adults/yellow eyes/bare lower tarsi/Y-fork support pass. Exact feather geometry, flight threshold, sex ratio and regional variation remain unknown. Science false; readback pending.

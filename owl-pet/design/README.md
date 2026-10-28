@@ -1703,3 +1703,10 @@ A species-specific estimate of 8–10 weeks plus observed movement among neighbo
 When species-specific evidence puts nest departure around 43–49 days and independent field observations describe nest-leavers as nearly adult-sized, do not render a tiny late nestling with wing buds. Retain developed juvenile wing/tail structure but soften pattern regularity and keep the bird supported and parent-dependent. Applied and visually rechecked on #59 v3; broader effectiveness remains unverified.
 
 - #59 v3 immutable archive verification passed at `8a74506bb4cc16e517f2aba168c78a62465eaeda`; exact concept/generated/reviewed blobs and byte sizes plus manifest/source/card/run/state/status/design markers matched. Science remains pending.
+
+
+- #60 *Ketupa flavipes* v3 — SCIENCE_REVISION correcting v2's over-short 56–57-day late-nestling wing/tail. [concept](concepts/60-ketupa-flavipes-v3.jpg) · [research](../knowledge/species/60-ketupa-flavipes.md) · [run](../production/runs/20261029T0353+0800-cycle-2.md). One bounded edit softened adult-regular markings while retaining developed folded juvenile wings and a medium tail. Science pending.
+
+### Incremental stage-specific rule — age-known younger chicks set a minimum late-nestling feather boundary
+
+When species-specific photographs show 30–40-day chicks already carrying developed folded wings and conspicuous tails, a 56–57-day late nestling must not be rendered with wing buds or a hidden tail merely because continuous feather measurements are unavailable. Preserve developed structure, soften pattern regularity, require natural nest support, and keep first-flight ability unknown. Applied and visually rechecked on #60 v3; broader effectiveness remains unverified.

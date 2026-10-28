@@ -5100,3 +5100,38 @@ Use case: scientific-educational. Asset type: owl-pet species concept plate. Cre
 ```
 
 Links: [species dossier](../knowledge/species/66-tyto-capensis.md), [v1](../design/concepts/66-tyto-capensis-v1.png), [v2](../design/concepts/66-tyto-capensis-v2.png), [cycle2 run](../production/runs/20261029T0642+0800-cycle-2.md).
+
+
+## 2026-10-29 · #68 *Tyto tenebricosa* v3 — sex-volume and three-month fledgling reconciliation
+
+### GSO-BILNEY-2012
+- Stable ID: GSO-BILNEY-2012
+- Title: Reversed sexual dimorphism and altered prey base: the effect on sooty owl (*Tyto tenebricosa tenebricosa*) diet.
+- Authors/source/year: Bilney, White & Cooke / Australian Journal of Zoology 59(5):302–311 / 2012; DOI https://doi.org/10.1071/ZO11101 .
+- Accessed: 2026-10-29; primary peer-reviewed ecology study.
+- Evidence actually read: publisher article lines 159–190, especially Introduction lines 188–189. Nominate southeast-Australian females cited at 1000–1200 g and males 550–700 g; the paper frames this as exceptionally strong reversed sexual dimorphism. Hollow dependence and tall wet-forest context are also explicit.
+- Limits: masses are cited from Higgins/Hollands within a diet paper, not this paper’s own morphometric experiment; values support clear body-volume direction but not a standing-height ratio or every subspecies. High for nominate sex direction, medium for exact visual scaling.
+- Design decision: v3 makes the female clearly fuller/longer-bodied on comparable support; no numeric height ratio.
+
+### GSO-NSWSC-2008
+- Stable ID: GSO-NSWSC-2008
+- Title/institution/date: Sooty Owl *Tyto tenebricosa*: Review of Current Information in NSW / NSW Scientific Committee / September 2008.
+- URL: https://www.environment.nsw.gov.au/sites/default/files/2024-09/sc-sooty-owl-tyto-tenebricos-review-report.pdf
+- Accessed: 2026-10-29; government review PDF, 6 pages.
+- Evidence actually read: PDF p.1 species description and taxonomy; p.2 key habitat/breeding (viewer P0–P1, lines 13–50). Dark sooty-grey, black eyes, grey face, fine white spotting, pale finely barred belly, fully feathered legs to large toes; nominate NSW subspecies. Rainforest/moist eucalypt gullies, old large smooth-gum hollows (over 30 cm wide, potentially very deep); nestling period about three months and post-fledging dependence up to five months.
+- Limits: government synthesis, regional NSW scope; it does not give a continuous juvenile feather sequence. High for morphology/habitat/nest duration, medium for fine fledgling feather detail.
+- Design decision: v3 uses an old living smooth-gum hollow in a moist tree-fern gully and a fully feathered recent fledgling at the hollow lip, not a neonatal chick.
+
+### Reused evidence and conflicts
+- GSO-ABSA-2019 (single-page ABSA/HANZAB-based banding profile, reread from existing index): fledged juveniles nearly complete adult-like but darker with little down; supports residual crown/underpart tufts only.
+- GSO-OWLPAGES-2026 (description/breeding lines 67–79 freshly reread): black eyes, cream bill, grey-brown dark-rimmed face, sooty white-spotted plumage, feathered legs, large hollow, ~3-month fledging. Its “sooty-grey down” refers to early chicks and is not used to repaint a recent fledgling as all-down.
+- Mikkola pp.114–115 remains indexed: natal-down colour conflict is irrelevant to the later stage selected here. Current name remains *Tyto tenebricosa*; plate follows nominate *T. t. tenebricosa*, not the smaller *multipunctata* taxon under alternative species treatments.
+- Unknown: exact individual age, residual-down placement, universal female:male visual ratio and New Guinea/subspecies variation. Science false.
+
+### Full imagegen prompt
+
+```text
+Use case: scientific-educational. Asset type: owl-pet species concept plate. Create a polished 3:2 science-revision plate in the established realistic-cute natural-history game concept style for Greater Sooty Owl. Show exactly three owls with exact readable text: title “GREATER SOOTY OWL”, italic “Tyto tenebricosa”, bottom labels “ADULT MALE”, “RECENT FLEDGLING”, “ADULT FEMALE”. Use the nominate southeast-Australian concept, not the smaller Lesser Sooty Owl. Adults: no ear tufts; rounded heart-shaped grey-brown facial disc with a heavy dark charcoal rim, black eyes, whitish-cream bill; dark sooty blackish-brown upperparts and breast with fine white spots, spots somewhat larger over back/wing coverts; paler grey-brown belly with fine grey barring/mottling; legs densely feathered to large bare grey-brown toes and dark claws. Sexes share plumage but strong evidence supports a substantially heavier/larger female: show her clearly fuller and longer-bodied than the male while keeping both feet on comparable support; do not convert mass ranges into a precise standing-height ratio. Juvenile: recent fledgling after the approximately three-month nestling period, fully feathered with developed folded wings and tail, darker than adults, adult-like juvenile plumage with only a few small residual down tufts on crown and lower belly/thighs; black eyes, pale bill, no natal chick body, no baby wing buds, no flight pose. Place all three naturally supported at the entrance/branch lip of a very large deep hollow in an old living smooth-barked gum within a moist rainforest/eucalypt gully with tree ferns and dense mid-storey. The juvenile may crouch low at the hollow lip; adults stand on adjacent stable wood. No cave-only implication, no eggs. Correct feet/perspective. No extra birds, chicks, text, logos, borders or watermarks.
+```
+
+Links: [species dossier](../knowledge/species/68-tyto-tenebricosa.md), [v1](../design/concepts/68-tyto-tenebricosa-v1.png), [v2](../design/concepts/68-tyto-tenebricosa-v2.png), [cycle3 run](../production/runs/20261029T0648+0800-cycle-3.md).

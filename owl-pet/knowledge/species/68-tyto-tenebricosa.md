@@ -12,3 +12,10 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - NSW government evidence supports dark gray, white-speckled adults, gray heart disc, pale belly, large feathered legs/feet, rainforest and moist eucalypt habitat, and large old-tree hollows.
 - V2 uses a naturally supported near-fledging juvenile with developed compact wings and limited head/underpart down; not a natal chick. Female is clearly fuller but no mass-to-height conversion is made.
 - Exact daily feather sequence, local age and subspecies-generalization remain unknown.
+
+
+## v3 RESEARCH_READY — 2026-10-29T06:49:28.177+08:00
+
+- New sources: GSO-BILNEY-2012 and GSO-NSWSC-2008. Reused: GSO-ABSA-2019, GSO-OWLPAGES-2026 and indexed Mikkola pp.114–115.
+- Revision: nominate female receives clearly greater body volume/length on comparable support; recent fledgling remains fully feathered and darker with only small residual down after the roughly three-month nestling period. Old smooth-gum hollow, moist gully and tree ferns are evidence-bound.
+- Unknown: exact age/down placement, universal sex visual ratio and subspecies variation. Science false. Full prompt in SOURCE_INDEX.

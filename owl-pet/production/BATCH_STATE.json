@@ -6113,8 +6113,8 @@
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261028T2252+0800-cycle-2",
-        "heartbeat_at": "2026-10-28T22:55:00+08:00",
-        "expires_at": "2026-10-28T23:10:00+08:00"
+        "heartbeat_at": "2026-10-28T22:58:00+08:00",
+        "expires_at": "2026-10-28T23:13:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -6122,25 +6122,25 @@
         "species": "#46 Strix ocellata",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T22:55:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T22:58:00+08:00",
         "evidence": {
-          "new_sources": [
-            "MOWL-DESHPANDE-WOC-2022"
+          "generated_path": "owl-pet/production/generated/46-strix-ocellata-v3-generated-master.jpg",
+          "generated_sha256": "e835429106de7296baf588d51f8e47745c6a61b932863c54d332d01caf759c76",
+          "generated_bytes": 368081,
+          "dimensions": "1536x1024",
+          "actual_view": "original opened",
+          "pass": [
+            "title/labels/count",
+            "near-equal adults",
+            "adult concentric discs and dark eyes",
+            "cavity/branch support"
           ],
-          "reused_sources": [
-            "MOWL-MIKKOLA-2013",
-            "MOWL-DESHPANDE-2018",
-            "MOWL-KUMAR-2020"
-          ],
-          "corrected_sources": 1,
-          "correction": "v2 approximately-three-month rescued juvenile replaced by field serial-biometry day-34–36 brancher; wing/tail at only about 50% adult growth while tarsus/beak about 90%",
-          "design_boundary": "walks from open-top cavity to adjacent branch; fully supported strong-legged brancher; no flight claim or mature wing/tail",
-          "full_imagegen_prompt": "Create a warm painterly semi-realistic natural-history concept board in the established owl-pet style, landscape 3:2. Exact title: “46 · MOTTLED WOOD OWL · Strix ocellata”. Show exactly three full-body owls, clearly separated and labeled ADULT MALE, ADULT FEMALE, JUVENILE. Adults nearly equal standing height because females are only presumed, not measured, larger; the female may be subtly fuller but never dramatically taller. Both adults untufted with smooth round heads, dark-brown irises, a fine muted coral-orange eyelid rim, horn-black bills, pale whitish facial discs covered by fine concentric dark-brown bars, dense reddish-brown/black/white/buff mottled upperparts, golden-orange buff underparts finely barred blackish, and feathered buff feet. Juvenile must be an evidence-bounded day-34–36 brancher from western Maharashtra serial biometry: it has left an open-top natural tree hollow by walking onto an immediately adjacent branch, with strong nearly developed tarsi/beak and both feet fully supported, while wing and tail are only about half adult growth. Show a whiter crown, pale nape/mantle/wing coverts with fine blackish mesoptile barring, a white chin/half-collar, dark-brown iris and muted orange eyelid; folded wing compact, rounded and soft with no long layered adult remiges or crisp adult white spot rows; tail very short and partly concealed. The juvenile may lean forward in a careful branch-walking/climbing posture, not fly and not pose as a helpless hatchling. Habitat: mature mango-tamarind agricultural mosaic in west-central India at soft dusk, with one genuine open-top natural cavity and wooden debris/shavings visible only inside; no claim that every nest is identical. All feet visible and naturally supported. No extra birds, eggs, prey, ear tufts, yellow irises, bright yellow bill, exaggerated female size, mature juvenile wing/tail, floating feet, watermark, or text beyond the exact title and labels.",
+          "issue": "Juvenile wing remains long, layered and adult-spotted, exceeding measured ~50% wing/tail growth boundary.",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T22:55:00+08:00",
+      "last_updated_at": "2026-10-28T22:58:00+08:00",
       "audit_notes": [
         "2026-10-28T22:35:00+08:00 new batch cycle1 STARTED #45 Strix seloputo v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
         "2026-10-28T22:38:00+08:00 cycle1 #45 v3 RESEARCH_READY; new1/reused4/corrected1; BESG Part 2 dated chronology read in full; documented 2–4-day post-fledging resting/balance stage selected; full prompt saved; science false; no credit.",
@@ -6149,13 +6149,14 @@
         "2026-10-28T22:47:00+08:00 cycle1 #45 v3 ARCHIVED tree prepared; concept 07ab6742a2, generated 122108d72f, reviewed bf2a5720f6; manifest 473→474; fixed readback pending; no credit.",
         "2026-10-28T22:49:00+08:00 cycle1 VERIFIED #45 at fe5f4c2c85ad2d1539b0170aafc3ea57d78a75cf; fixed concept/generated/reviewed blobs, byte sizes, signatures, manifest/source/card/run/state/status/design readback passed; batch1/6 next_cycle2; unique184/251; science false.",
         "2026-10-28T22:52:00+08:00 cycle2 STARTED #46 Strix ocellata v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
-        "2026-10-28T22:55:00+08:00 cycle2 #46 v3 RESEARCH_READY; new1/reused3/corrected1; WOC proceedings printed pp.1217–1218 serial-biometry abstract read; day-34–36 brancher boundary and full prompt saved; science false; no credit."
+        "2026-10-28T22:55:00+08:00 cycle2 #46 v3 RESEARCH_READY; new1/reused3/corrected1; WOC proceedings printed pp.1217–1218 serial-biometry abstract read; day-34–36 brancher boundary and full prompt saved; science false; no credit.",
+        "2026-10-28T22:58:00+08:00 cycle2 #46 v3 IMAGE_GENERATED in 64.3s; original opened. Text/count/adults/support pass; juvenile long layered adult-spotted wing requires targeted edit; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T2252+0800-cycle-2",
-        "heartbeat_at": "2026-10-28T22:55:00+08:00",
-        "expires_at": "2026-10-28T23:10:00+08:00"
+        "heartbeat_at": "2026-10-28T22:58:00+08:00",
+        "expires_at": "2026-10-28T23:13:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -6163,7 +6164,7 @@
         "species": "#46 Strix ocellata",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "started_at": "2026-10-28T22:52:00+08:00"
       }
     }

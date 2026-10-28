@@ -1796,3 +1796,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-28T11:55:47+08:00 — #29 *Glaucidium capense* v3 independently verified at archive `0b066d21ffd326e8fcdaa8e9fa84bd17e5d3d0e6`; concept `1528d410a3…`, generated `b0d388ea8f…`, reviewed `30965e4740…` and required metadata read back. Unique remains **184/251**; batch **3/6**, next cycle 4. Science false.
+
+
+## 2026-10-28 #30 *Glaucidium cuculoides* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/30-glaucidium-cuculoides-v3.png](design/concepts/30-glaucidium-cuculoides-v3.png)
+- Research: 2 new, 3 reused and 1 corrected source inference. The 2019 primary ground-nest paper pp.157–160 was actually viewed; it is an unsuccessful egg-stage attempt and supplies no juvenile development. HKBWS's third undated yellow-eyed juvenile-plumage stage is used instead.
+- Review: first 1536×1024 render passed without edit. Exact text/count, supported untufted adults, subtle female fullness, supported crown-spotted juvenile, compact wing and hidden tail pass. Exact age, flight ability, continuous feather sequence, subspecies and quantified sex ratio remain unknown. Science false; readback pending.

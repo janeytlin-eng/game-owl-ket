@@ -1541,3 +1541,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #29 *Glaucidium capense* v3 — SCIENCE_REVISION, supported post-departure/pre-flight juvenile between sourced 32–33 d departure and about-42 d flight milestones; [concept](concepts/29-glaucidium-capense-v3.png) · [research](../research/species/29-glaucidium-capense-v3.md) · [run](../production/runs/20261028T1149+0800-newbatch-cycle-3.md). One wing/tail edit; exact age/feather sequence unknown; science pending.
+
+
+- #30 *Glaucidium cuculoides* v3 — SCIENCE_REVISION, undated HKBWS third-stage yellow-eyed juvenile in fully supported natural banyan-cavity setting; [concept](concepts/30-glaucidium-cuculoides-v3.png) · [research](../research/species/30-glaucidium-cuculoides-v3.md) · [run](../production/runs/20261028T1528+0800-cycle-4.md). First render passed without edit; exact age/flight/continuous feather sequence and quantified sex ratio remain unknown; science pending.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T11:55:47+08:00",
+  "updated": "2026-10-28",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5374,7 +5374,34 @@
       "archive_note": "First render passed text/count/adults/support but gave the juvenile a long hard barred wing and fully barred tail. One targeted edit shortened/softened the wing and hid the tail. Edited original, full master and derivative were opened and passed. Science false.",
       "archive_commit": "0b066d21ffd326e8fcdaa8e9fa84bd17e5d3d0e6",
       "verified_at": "2026-10-28T11:55:47+08:00"
+    },
+    {
+      "id": "30-glaucidium-cuculoides-v3",
+      "path": "design/concepts/30-glaucidium-cuculoides-v3.png",
+      "species_id": 30,
+      "scientific_name": "Glaucidium cuculoides",
+      "common_name": "Asian Barred Owlet",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "3d367183c60bf08cd3252ec45913e5e58e449879636c67039e880e9454d8030e",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using HKBWS's third, undated juvenile-plumage/yellow-iris stage. Adults retain yellow eyes, pale greenish-yellow bills, white throats, fine barring, barred tails, no ear tufts or nape false eyes; female is subtly fuller at near-equal displayed height. Juvenile is crown/forehead-spotted, fully supported at a natural banyan cavity lip with compact formed wing and hidden tail. Exact age, flight threshold, continuous feather sequence, juvenile soft-part chronology, subspecies and quantified sex ratio remain unknown.",
+      "source_ids": [
+        "ASBO-SANKAMETHAWEE-PIERCE-2019",
+        "ASBO-THAIBIRDING-UPTON-2007",
+        "ASBO-HKBWS-2024",
+        "ASBO-OWLPAGES-2020",
+        "ASBO-MDC-1877"
+      ],
+      "source_index": "research/species/30-glaucidium-cuculoides-v3.md",
+      "run_record": "production/runs/20261028T1528+0800-cycle-4.md",
+      "reviewed_at": "2026-10-28T15:35:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 195780,
+      "git_blob": "9dea21238c20bf00da70d975ae6949bd9b059b55",
+      "archive_note": "First 1536x1024 render and full-resolution JPEG master were opened and passed. No edit: the selected HKBWS third stage is already a fully feathered juvenile-plumage stage; deleting formed wing feathering would regress it to v2's middle nestling. Science remains false.",
+      "archive_commit": "PENDING_FIXED_READBACK"
     }
   ],
-  "updated_at": "2026-10-28T11:55:47+08:00"
+  "updated_at": "2026-10-28T15:35:00+08:00"
 }

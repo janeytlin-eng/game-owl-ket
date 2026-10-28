@@ -1,3 +1,4 @@
+- 2026-10-29T06:59:13.345+08:00: #69 *Tyto novaehollandiae* v3 VERIFIED at `45f6711e9fc7fe117770b62494827b4b7d30877e`; unique +0; science false.
 - 2026-10-29T06:55:57.558+08:00: #69 *Tyto novaehollandiae* v3 ARCHIVED; full+crop pass; concept `cb7580aaf3`, master `ad1128dccb`; readback pending; unique +0; science false.
 - 2026-10-29T06:52:32.841+08:00: #68 *Tyto tenebricosa* v3 VERIFIED; fixed-tree images and markers passed at `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; unique +0; science false.
 - 2026-10-29T06:51:54.664+08:00: #68 *Tyto tenebricosa* v3 ARCHIVED; sex-volume/recent-fledgling/hollow-gully full+crop pass; concept `141c341dc4`, master `eb96cb7ffc`; readback pending; unique +0; science false.

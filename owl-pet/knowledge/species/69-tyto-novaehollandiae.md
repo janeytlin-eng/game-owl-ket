@@ -26,3 +26,8 @@ Image commit 84e28bd532ae1697339927dd615b9a0742f67cfb
 ## v3 review/archive checkpoint — 2026-10-29T06:55:57.558+08:00
 
 Concept `cb7580aaf3a5de8b11a93beec51062271cc1d984`/348592 B; master `ad1128dccb4f977d549de5ba6074cce30cd4410a`/432568 B; crop `db88fbd04a20eea1165a4849e2a706b8fc5dc144`/100908 B. Debus 2007 ~11-week stage applied; fuller/darker female; full/crop pass, no edit. Exact age/ratio/morph prevalence unknown; science false.
+
+
+## v3 fixed-tree verification — 2026-10-29T06:59:13.345+08:00
+
+Archive `45f6711e9fc7fe117770b62494827b4b7d30877e`; exact concept/master/review/crop blobs and sizes plus all text markers passed; tree not truncated; science false.

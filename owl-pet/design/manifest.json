@@ -6583,8 +6583,30 @@
       "review_crop_blob": "db88fbd04a20eea1165a4849e2a706b8fc5dc144",
       "review_crop_size_bytes": 100908,
       "archive_note": "Full/crop pass; no edit. Exact age, ratio, morph prevalence unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "45f6711e9fc7fe117770b62494827b4b7d30877e",
+      "verified_at": "2026-10-29T06:59:13.345+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "blob": "cb7580aaf3a5de8b11a93beec51062271cc1d984",
+          "size_bytes": 348592
+        },
+        "generated": {
+          "blob": "ad1128dccb4f977d549de5ba6074cce30cd4410a",
+          "size_bytes": 432568
+        },
+        "reviewed": {
+          "blob": "ad1128dccb4f977d549de5ba6074cce30cd4410a",
+          "size_bytes": 432568
+        },
+        "review_crop": {
+          "blob": "db88fbd04a20eea1165a4849e2a706b8fc5dc144",
+          "size_bytes": 100908
+        },
+        "tree_truncated": false
+      }
     }
   ],
-  "updated_at": "2026-10-29T06:55:57.558+08:00"
+  "updated_at": "2026-10-29T06:59:13.345+08:00"
 }

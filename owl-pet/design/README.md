@@ -1778,3 +1778,5 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - 2026-10-29T06:52:32.841+08:00: #68 *Tyto tenebricosa* v3 VERIFIED; fixed-tree passed at `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; science false.
 
 - #69 Australian Masked Owl v3 — concept `cb7580aaf3a5de8b11a93beec51062271cc1d984` (348592 B), master `ad1128dccb4f977d549de5ba6074cce30cd4410a` (432568 B), crop `db88fbd04a20eea1165a4849e2a706b8fc5dc144` (100908 B); readback pending; science false.
+
+- 2026-10-29T06:59:13.345+08:00: #69 v3 fixed-tree VERIFIED at `45f6711e9fc7fe117770b62494827b4b7d30877e`; science false.

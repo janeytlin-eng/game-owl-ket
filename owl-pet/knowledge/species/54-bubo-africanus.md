@@ -59,3 +59,12 @@
 - Correction to v2: hidden/very short tail and short rounded wing were too conservative for the selected approximately-six-week stage. V3 requires well-grown folded wings, a visible tail about half adult length, retained head/underpart down, full rock support and no flight.
 - Uploaded Mikkola guide could not be read in this run; no page citation is added.
 - Unknown: exact feather geometry, exact individual age, regional/subspecies variation and quantitative sex ratio. Scientific status remains false.
+
+
+## v3 production and review
+
+- First render: exact title, three labels, adults, near-equal scale, rocky habitat and full foot support passed. The juvenile had evidence-supported developed wing length but crisp adult-like white spot rows and overly regular remige layering.
+- Targeted edit: changed only juvenile wing/tail texture; retained well-grown folded wings, visible approximately half-length tail and remaining head/underpart down; softened adult-like spot rows/layering.
+- Recheck: 1536×1024 reviewed master and 680×453 derivative opened. Exactly three whole birds, title/labels, adult morphology, juvenile support and preflight boundary passed.
+- Archive concept: `owl-pet/design/concepts/54-bubo-africanus-v3.png`; generated and reviewed masters retained separately.
+- Technical status: ARCHIVED pending fixed-commit readback. Scientific status remains false because exact feather geometry, individual age, regional variation and quantitative sex ratio remain unknown.

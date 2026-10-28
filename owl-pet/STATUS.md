@@ -1,3 +1,10 @@
+## 2026-10-29 #54 *Bubo africanus* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch `2026-10-29T0153+0800` remains 2/6 until fixed-commit verification.
+- [Concept](design/concepts/54-bubo-africanus-v3.png) · [run](production/runs/20261029T0228+0800-cycle-3.md) · [source index](research/SOURCE_INDEX.md)
+- Research: 1 new / 3 reused / 1 corrected inference. SANBI's species-specific six-week account corrects v2: preflight young have well-grown wings, half-length tail and remaining head/underpart down.
+- Review: one bounded edit softened adult-like juvenile spot rows while retaining well-grown folded wings and a visible half-length tail. Exact title/count/labels, near-equal same-plumage adults, rocky-savanna support and preflight posture pass. Science false; fixed-commit readback pending.
+
 ## 2026-10-29 #50 *Strix virgata* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED at archive `defa5d15254d309b8d0959b1512290a2015d689e`; unique remains **184/251**; batch `2026-10-28T2235+0800` is **6/6 COMPLETE**.

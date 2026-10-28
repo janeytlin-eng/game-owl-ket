@@ -1657,3 +1657,10 @@ When a species source explicitly documents sex-linked plumage difference, encode
 ### Incremental nest-departure rule
 
 A reported nest-leaving age is not automatically evidence of independent flight. Unless locomotor behavior is separately documented, render the young bird fully supported at or beside the nest and describe it as a nest-leaving/brancher stage. Applied and visually rechecked on #52 v3; broader effectiveness remains unverified.
+
+
+- #54 *Bubo africanus* v3 — SCIENCE_REVISION correcting the approximately-six-week juvenile boundary: well-grown folded wings and visible half-length tail with remaining head/underpart down, while still preflight and fully supported. [concept](concepts/54-bubo-africanus-v3.png) · [research](../knowledge/species/54-bubo-africanus.md) · [run](../production/runs/20261029T0228+0800-cycle-3.md). One juvenile-only edit softened crisp adult-like spot rows but retained evidence-supported wing/tail development. Adults remain same-plumage and near-equal; science pending.
+
+### Incremental stage-specific wing rule — developed does not mean adult-patterned
+
+When a species source explicitly says a preflight juvenile has well-grown wing feathers, do not force an early-down short-wing template. Preserve the sourced development and locomotor boundary separately: well-grown folded wings may coexist with inability to fly, remaining down and a half-length tail. Crisp adult spot rows or fully regular adult remige geometry still require direct evidence. Applied and visually rechecked on #54 v3; broader effectiveness remains unverified.

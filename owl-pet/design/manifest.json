@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T02:50:00+08:00",
+  "updated": "2026-10-29T02:38:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -6048,7 +6048,35 @@
       "readback_pending": false,
       "archive_commit": "7cd30758c909a6f95bf5c02b787c74ba53a84dbf",
       "verified_at": "2026-10-29T02:50:00+08:00"
+    },
+    {
+      "id": "54-bubo-africanus-v3",
+      "path": "design/concepts/54-bubo-africanus-v3.png",
+      "species_id": 54,
+      "scientific_name": "Bubo africanus",
+      "common_name": "Spotted Eagle-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "fc3de0eeed340f8bc8ae713da6c705a9995eb15cdd7e3b6059a618ad8e5b4a89",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION correcting v2's overly conservative juvenile wing/tail boundary. SANBI states that at about six weeks chicks leave the nest before flight with well-grown wing feathers, tail about half final length and remaining down on head/underparts; BDI independently supports 4–6-week exploration, weaker tufts and visible down. Adults remain near-equal and same-plumage because primary morphometrics found only tarsus significantly sex-different in its sampled birds. One bounded edit softened adult-like juvenile spot rows while preserving well-grown wings and visible half-length tail. Exact feather geometry, individual age, regional variation and quantitative sex ratio remain unknown.",
+      "source_ids": [
+        "SEO-SANBI-2026",
+        "SEO-BDI-2022",
+        "SEO-OSTRICH-RSD-2008",
+        "SEO-OWLPAGES-2020"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#54-bubo-africanus--batch-2026-10-29t01530800-cycle-3-v3-research-increment",
+      "run_record": "production/runs/20261029T0228+0800-cycle-3.md",
+      "reviewed_at": "2026-10-29T02:36:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 717383,
+      "git_blob": "be18269c0bc4a1c77fefe1bac6a37fe8fcc6eacc",
+      "generated_blob": "bdc2a0f0f9883af4184a728cf20fcc2d038c5997",
+      "reviewed_blob": "0c86e915697ff0ec82b1d3b3bdc67847a806b2fc",
+      "archive_note": "First render passed title/count/adults/support but gave the juvenile crisp adult-like spot rows and regular layered remiges. One juvenile-only edit softened pattern/layering while preserving evidence-supported well-grown folded wings, visible half-length tail, remaining down, exact text and environment. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T02:50:00+08:00"
+  "updated_at": "2026-10-29T02:38:00+08:00"
 }

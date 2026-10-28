@@ -6267,8 +6267,8 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261029T0228+0800-cycle-3",
-        "heartbeat_at": "2026-10-29T02:36:00+08:00",
-        "expires_at": "2026-10-29T02:51:00+08:00"
+        "heartbeat_at": "2026-10-29T02:38:00+08:00",
+        "expires_at": "2026-10-29T02:53:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -6276,25 +6276,25 @@
         "species": "#54 Bubo africanus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-29T02:36:00+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-29T02:38:00+08:00",
         "evidence": {
+          "concept_path": "owl-pet/design/concepts/54-bubo-africanus-v3.png",
+          "concept_blob": "be18269c0bc4a1c77fefe1bac6a37fe8fcc6eacc",
+          "concept_size_bytes": 717383,
+          "generated_path": "owl-pet/production/generated/54-bubo-africanus-v3-generated-master.png",
+          "generated_blob": "bdc2a0f0f9883af4184a728cf20fcc2d038c5997",
+          "generated_size_bytes": 3616306,
           "reviewed_path": "owl-pet/production/reviewed/54-bubo-africanus-v3-reviewed-master.png",
-          "dimensions": "1536x1024",
-          "sha256": "e33148c4357416bb757fb34da4384ae3e51b6fe1d1d77970c207d3bb73ab6186",
-          "size_bytes": 3400250,
-          "derivative_dimensions": "680x453",
-          "derivative_sha256": "fc3de0eeed340f8bc8ae713da6c705a9995eb15cdd7e3b6059a618ad8e5b4a89",
-          "review": "PASS_WITH_LIMITATIONS after one juvenile-only wing/tail texture edit; science false.",
-          "unknowns": [
-            "exact feather geometry",
-            "exact individual age",
-            "regional variation",
-            "quantitative adult sex ratio"
-          ]
+          "reviewed_blob": "0c86e915697ff0ec82b1d3b3bdc67847a806b2fc",
+          "reviewed_size_bytes": 3400250,
+          "manifest_records": 482,
+          "unique_species": 184,
+          "scientifically_verified": false,
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-29T02:36:00+08:00",
+      "last_updated_at": "2026-10-29T02:38:00+08:00",
       "audit_notes": [
         "2026-10-29T01:53:00+08:00: new batch cycle1 STARTED #51 Strix rufipes v3 SCIENCE_REVISION; v1-v2 retained; no cycle credit.",
         "2026-10-29T02:00:00+08:00: cycle1 #51 v3 RESEARCH_READY; new1/reused3/corrected1; official Chile MMA dossier pp.1–2/8 read and adult sexual dichromatism corrected; full prompt saved; science false; no credit.",
@@ -6311,13 +6311,14 @@
         "2026-10-29T02:28:00+08:00: cycle3 STARTED #54 Bubo africanus v3 SCIENCE_REVISION. #53 skipped because it is a repository-audited duplicate of #08 and cannot receive cycle credit. Execution clock precedes prior record markers ending 02:50; anomaly recorded explicitly. 15-minute lease acquired; no credit.",
         "2026-10-29T02:31:00+08:00: cycle3 #54 v3 RESEARCH_READY; new1/reused3/corrected1. Fresh SANBI lines62–69 correct v2: six-week preflight young have well-grown wings and half-length tail with remaining down. Full prompt saved; science false; no credit.",
         "2026-10-29T02:34:00+08:00: cycle3 #54 v3 IMAGE_GENERATED; 1536x1024 original opened. Title/count/labels/adults/support pass; juvenile has crisp adult-like spotted layered remiges requiring bounded edit; no credit.",
-        "2026-10-29T02:36:00+08:00: cycle3 #54 v3 REVIEWED after one bounded juvenile wing/tail texture edit. Full master and 680x453 derivative opened; title/count/labels/adults/support/juvenile stage pass. Science false; no credit."
+        "2026-10-29T02:36:00+08:00: cycle3 #54 v3 REVIEWED after one bounded juvenile wing/tail texture edit. Full master and 680x453 derivative opened; title/count/labels/adults/support/juvenile stage pass. Science false; no credit.",
+        "2026-10-29T02:38:00+08:00: cycle3 #54 v3 ARCHIVED tree prepared; concept be18269c0b, generated bdc2a0f0f9, reviewed 0c86e91569; manifest 482; fixed-commit readback pending; no credit."
       ],
       "lease": {
         "owner": "codex",
         "run_id": "20261029T0228+0800-cycle-3",
-        "heartbeat_at": "2026-10-29T02:36:00+08:00",
-        "expires_at": "2026-10-29T02:51:00+08:00"
+        "heartbeat_at": "2026-10-29T02:38:00+08:00",
+        "expires_at": "2026-10-29T02:53:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -6326,7 +6327,7 @@
         "species_id": 54,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       }
     }
   ],

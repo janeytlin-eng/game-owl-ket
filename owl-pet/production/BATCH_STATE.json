@@ -5313,8 +5313,8 @@
         "species": "#10 Surnia ulula",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:15:00.000+08:00",
-        "expires_at": "2026-10-28T08:30:00.000+08:00"
+        "heartbeat_at": "2026-10-28T08:09:20.215+08:00",
+        "expires_at": "2026-10-28T08:24:20.215+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5322,8 +5322,8 @@
         "species": "#10 Surnia ulula",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T08:07:00.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T08:09:20.215+08:00",
         "evidence": {
           "source_ids_new": [
             "NHO-MIKKOLA-2013-P360",
@@ -5360,7 +5360,31 @@
             "juvenile wing is slightly long and shows overly crisp pale spots for the chosen 24–27d boundary"
           ],
           "review_preview": "/workspace/scratch/e49f444b0b9e/nho-review.jpg",
-          "clock_note": "Observed host wall clock (08:07 +08:00) was earlier than the previously persisted RESEARCH_READY timestamp (08:15 +08:00); actual observation time retained and anomaly disclosed."
+          "clock_note": "Observed host wall clock (08:07 +08:00) was earlier than the previously persisted RESEARCH_READY timestamp (08:15 +08:00); actual observation time retained and anomaly disclosed.",
+          "reviewed_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-f900e178-d0e2-499e-bc56-ebc5d5910f9f.png",
+          "reviewed_sha256": "6ff7694d6952c6a4e890910b864ed17426ec3a885e4a062781d6d91d8d0fb365",
+          "reviewed_bytes": 3052417,
+          "reviewed_dimensions": "1536x1024",
+          "edit_seconds": 43.673,
+          "edit_count": 1,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "review_checks": {
+            "exact_three_owls": true,
+            "title_and_labels": true,
+            "adult_no_ear_tufts": true,
+            "adult_tail_and_barring": true,
+            "adult_size_direction": "female subtly fuller",
+            "juvenile_stage": "24–27d preflight branch-clamberer",
+            "juvenile_wing": "formed but softened/shortened; no crisp adult white spots",
+            "support": true,
+            "habitat": true
+          },
+          "unresolved": [
+            "exact juvenile day",
+            "continuous feather sequence",
+            "measured adult display ratio",
+            "subspecies and nest-form universality"
+          ]
         }
       },
       "last_updated_at": "2026-10-28T08:15:00.000+08:00",
@@ -5373,7 +5397,8 @@
         "2026-10-28T08:10:00.000+08:00: cycle1 VERIFIED #07 Asio flammeus v3 at f47af7da; fixed-tree readback passed. Unique 184/251; batch 1/6 next_cycle2; lease released; science false.",
         "2026-10-28T08:12:00.000+08:00: cycle2 STARTED canonical #10 Surnia ulula v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
         "2026-10-28T08:15:00.000+08:00: cycle2 #10 v3 RESEARCH_READY; 3 new/3 reused sources, Mikkola pp.360–363 and development evidence read. Full prompt saved; science false.",
-        "2026-10-28T08:07:00.000+08:00: cycle2 #10 IMAGE_GENERATED; 1536x1024 original actually opened via faithful 1200x800 review derivative after direct original view transport rendered incorrectly. Male/female scale and juvenile wing spotting require targeted edit; no credit."
+        "2026-10-28T08:07:00.000+08:00: cycle2 #10 IMAGE_GENERATED; 1536x1024 original actually opened via faithful 1200x800 review derivative after direct original view transport rendered incorrectly. Male/female scale and juvenile wing spotting require targeted edit; no credit.",
+        "2026-10-28T08:09:20.215+08:00: cycle2 #10 REVIEWED PASS_WITH_LIMITATIONS after one targeted imagegen edit; female now subtly fuller and juvenile wing softened/shortened with adult-like white spots removed. Exact juvenile day and continuous feather sequence remain unknown; no credit."
       ]
     }
   ],
@@ -5489,7 +5514,7 @@
     "heartbeat_at": "2026-10-28T07:50:20.000+08:00",
     "expires_at": "2026-10-28T08:05:20.000+08:00"
   },
-  "last_updated_at": "2026-10-28T08:07:00.000+08:00",
+  "last_updated_at": "2026-10-28T08:09:20.215+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T23:06:00+08:00",
+  "updated": "2026-10-28T23:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5864,6 +5864,34 @@
       "readback_pending": false,
       "archive_commit": "ed3a57ce0d4d1992a6124db20a10e1c8bde4e666",
       "verified_at": "2026-10-28T23:06:00+08:00"
+    },
+    {
+      "id": "47-strix-leptogrammica-v3",
+      "path": "design/concepts/47-strix-leptogrammica-v3.png",
+      "species_id": 47,
+      "scientific_name": "Strix leptogrammica",
+      "common_name": "Brown Wood Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "8abb68a2bfcd4cb9721eeb96333daa70ce202488404409b412372c012b7dcaa2",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION explicitly bounded to the published Sri Lankan 34-day Strix leptogrammica ochrogenys cavity-lip chick. Adults remain untufted and dark-eyed with greenish-horn bills, cinnamon nuchal collars, white throat bands and near-equal/moderately fuller female direction. One juvenile-only edit removed the draft's long layered adult-spotted wing, leaving a short rounded mesoptile-embedded developing wing and concealed tail. Hong Kong ticehursti evidence is retained as a conflict showing this geometry is not universal; exact cross-subspecies feather chronology, flight threshold and quantified dimorphism remain unknown.",
+      "source_ids": [
+        "BROW-HKBWS-2024",
+        "BROW-SAMARAWICKRAMA-2006",
+        "BROW-MIKKOLA-2013",
+        "BROW-OWLPAGES-2020"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-47-strix-leptogrammica-v3-cross-subspecies-correction",
+      "run_record": "production/runs/20261028T2308+0800-cycle-3.md",
+      "reviewed_at": "2026-10-28T23:45:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 624046,
+      "git_blob": "7cf8b429e8296752b33efbf185f2772fb123306f",
+      "generated_blob": "296533411df92471f225aab76e90312720e5c5af",
+      "reviewed_blob": "0dd63926f383b0e4496c3cc20bfcb9f9db222919",
+      "archive_note": "First render passed text/count/adults/support but gave the 34-day chick a long layered adult-spotted wing. One juvenile-only edit removed the spots, shortened and embedded the wing in pale rufous/ochre mesoptile and concealed the tail; full edited master and derivative passed with limitations. Science false.",
+      "readback_pending": true
     }
   ],
   "updated_at": "2026-10-28T23:06:00+08:00"

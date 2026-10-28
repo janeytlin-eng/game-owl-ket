@@ -1,3 +1,10 @@
+## 2026-10-28 #47 *Strix leptogrammica* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **2/6** until fixed verification.
+- Image: [design/concepts/47-strix-leptogrammica-v3.png](design/concepts/47-strix-leptogrammica-v3.png)
+- Research: 1 new / 3 reused / 1 corrected; Sri Lankan 34-day stage retained while Hong Kong *ticehursti* prevents universalizing compact-wing geometry.
+- Review: one juvenile-only edit removed a long adult-spotted wing; edited master and derivative passed with limitations. Fixed readback pending; science false.
+
 ## 2026-10-28 #46 *Strix ocellata* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; batch **2/6**, next cycle **3**.

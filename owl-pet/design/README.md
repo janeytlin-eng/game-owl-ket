@@ -1,3 +1,9 @@
+## #47 Brown Wood Owl — *Strix leptogrammica* — v3 science revision
+
+- Concept: [47-strix-leptogrammica-v3.png](concepts/47-strix-leptogrammica-v3.png)
+- Research: [species card](../knowledge/species/47-strix-leptogrammica.md) · [source index](../research/SOURCE_INDEX.md#2026-10-28-47-strix-leptogrammica-v3-cross-subspecies-correction)
+- Stage: ARCHIVED; fixed readback pending. Explicit Sri Lankan 34-day cavity-lip stage; one juvenile-wing edit; Hong Kong fledgling evidence retained as a cross-subspecies conflict; science false.
+
 ## #46 Mottled Wood Owl — *Strix ocellata* — v3 science revision
 
 - Concept: [46-strix-ocellata-v3.png](concepts/46-strix-ocellata-v3.png)

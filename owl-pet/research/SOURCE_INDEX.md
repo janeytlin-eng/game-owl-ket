@@ -1,3 +1,45 @@
+# 2026-10-29 · #61 *Ketupa ketupu* v3 — dated two-week vs six-week plumage boundary
+
+## BFOW-BESG-FLEDGE-2016
+
+- **Title / author / institution / date:** “Buffy Fish-owl: The chick has fledged”; YC Wee / Bird Ecology Study Group; 13 May 2016.
+- **Original URL:** https://besgroup.org/2016/05/13/buffy-fish-owl-the-chick-has-fledged/
+- **Accessed:** 2026-10-29 (UTC+08:00).
+- **Source type:** dated field-photo account; directly opened and read, not a search-snippet-only lead.
+- **Species / stage:** *Ketupa ketupu*; estimated ~2-week nestling and ~6-week nest-leaver in the 2016 Sungei Buloh sequence.
+- **Evidence:** HTML lines 22–29 describe the approximately two-week chick between bird's-nest-fern frond bases as white-down covered; the six-week bird is on a branch, with down reported replaced by adult-like feathers and a crouching preflight posture. Lines 31–36 document wing stretching and first-flight preparation.
+- **Limitations / conflict:** ages are author estimates and the page's incubation/fledging-duration links are secondary; it is one Singapore individual, not a continuous measured feather series. The v3 design therefore uses only the directly pictured/dated early nest stage and does not claim exact age or universal timing.
+- **Design / review decision:** v2's central chick has dark, structured wing patches and ear-like projections inconsistent with the selected early down-dominant boundary. v3 must remove those mature-looking structures while retaining a low, fully supported fern-nest posture. Science remains false.
+
+## BFOW-SBG-BREED-2016
+
+- **Title / author / institution / date:** “First known nesting record of the Buffy Fish Owl”; Alan OwYong / Nature Society (Singapore) Bird Group; 30 April 2016.
+- **Original URL:** https://singaporebirdgroup.wordpress.com/2016/04/30/first-nesting-record-of-the-buffy-fish-owl/
+- **Accessed:** 2026-10-29 (UTC+08:00).
+- **Source type:** dated local field account with credited photographs; directly opened and read.
+- **Species / stage:** *Ketupa ketupu* (page typo “ketupa” noted); Sungei Buloh fern-nest young from 25 March to 25 April 2016.
+- **Evidence:** lines 15–25 identify the 25 March photograph as roughly two weeks after discovery, the chick hidden among bird's-nest-fern fronds, and the 25 April bird out on a branch after a short flight. Lines 23–24 describe the nest in a bird's-nest fern on a rain tree and nearby adult sentry perches.
+- **Limitations / conflict:** discovery date is not hatch date; “about two weeks” is not a measured age. This cross-check supports stage ordering and physical support, not precise feather-day calibration or sex-size inference.
+- **Design / review decision:** supports a deep, bowl-like living fern with humus/frond-base contact for the early chick; adults may remain nearby but must not be forced into a universal family-pair narrative.
+
+## Reused source IDs
+
+- **BFOW-BESG-NEST-2016:** 25 March chick rested and shifted within a living *Asplenium nidus*; down-covered profile; direct field-photo account.
+- **BFOW-NPARKS-2026:** adult identification boundary—long tawny ear tufts, black-streaked buffy-rufous underparts, dark upperparts and yellow iris; forest/mangrove habitat.
+- **BFOW-BESG-FLEDGE-2024:** retained only as a later branch-grip/post-fledging comparator; not used to invent the v3 early chick.
+
+## Old-name and inference control
+
+- Current list name: *Ketupa ketupu*; historical combination *Bubo ketupu*; protonym *Strix ketupu*.
+- The observed 2016 chick was not sexed. Adult sexes are not forced into a female-larger rule; near-equal visible scale is retained because no species-specific quantified sex ratio was found in this subround.
+- Heimo Mikkola upload was not accessible in this runtime; no page citation is invented.
+
+## Full image-edit prompt
+
+Edit the supplied #61 Buffy Fish Owl (Ketupa ketupu) three-bird concept in place. Preserve the established photographic-realism composition, tropical wetland/mangrove atmosphere, living bird's-nest fern nest, water background, title and all three bottom labels. Preserve both adults exactly in identity, pose, scale, warm buff-brown plumage, yellow irises, black bills, lateral tawny ear tufts, heavy dark vertical breast streaks, barred wings/tail, near-equal visible height and bare scaly lower tarsi/toes. Keep exactly three owls: ADULT MALE left, JUVENILE center, ADULT FEMALE right. Make a bounded juvenile-only science correction. The center bird must be an approximately two-week, nest-bound chick documented in the 2016 Sungei Buloh bird's-nest-fern sequence: low resting posture deep between supportive fern-frond bases and trapped humus, rounded body fully dominated by loose white-to-pale-cream natal down, open yellowish eyes and a small dark bill. Remove juvenile ear tufts, adult-like dark wing panels, layered barred remiges, long tail, standing/perching posture and exposed unsupported feet. Wings must read only as short down-covered tucked buds and the tail must be absent or hidden by down and nest material. Keep natural contact shadows and clear physical support. Do not change either adult, do not add birds, prey, eggs, UI, extra labels or decorative borders. Retain legible title “SUNDA BUFFY FISH OWL”, italic “Ketupa ketupu”, and the three exact labels.
+
+---
+
 ## 2026-10-29 · #60 *Ketupa flavipes* v3 age-known nestling correction
 
 | Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |

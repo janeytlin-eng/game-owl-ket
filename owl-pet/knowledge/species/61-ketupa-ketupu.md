@@ -24,3 +24,11 @@ See [SOURCE_INDEX](../../research/SOURCE_INDEX.md): BFOW-NPARKS-2026, BFOW-BESG-
 ## Status
 
 v1 VERIFIED as an archived concept after adult-scale correction and remote blob/metadata readback. Scientific acceptance: not passed.
+
+## v3 research boundary (2026-10-29)
+
+- New dated field evidence separates the selected early nestling from the later preflight bird: BFOW-BESG-FLEDGE-2016 reports an approximately two-week chick dominated by white down between fern-frond bases, whereas the approximately six-week bird is on a branch with adult-like plumage and wing-stretch/preflight behavior.
+- BFOW-SBG-BREED-2016 independently orders the same Sungei Buloh sequence from the fern-hidden 25 March chick to the 25 April branch bird. Dates are observation/discovery dates, not a measured hatch series.
+- v2 was opened: adult identity, labels, support and near-equal scale pass; the juvenile's dark structured wing patches and ear-like projections overstate the chosen early stage. v3 is a juvenile-only correction to loose white/cream natal down, no ear tufts, tucked down-covered wing buds, hidden tail and deep fern/humus support.
+- Unknown: exact hatch age, continuous feather geometry, flight threshold, sex ratio, subspecies variation. Scientific acceptance remains false.
+- Sources: BFOW-BESG-FLEDGE-2016 (new), BFOW-SBG-BREED-2016 (new), BFOW-BESG-NEST-2016 (reused), BFOW-NPARKS-2026 (reused), BFOW-BESG-FLEDGE-2024 (reused later-stage comparator).

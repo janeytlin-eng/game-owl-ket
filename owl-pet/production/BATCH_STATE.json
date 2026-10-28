@@ -5340,8 +5340,8 @@
         "run_id": "20261028T0840+0800-cycle-5",
         "cycle": 5,
         "species_id": 15,
-        "heartbeat_at": "2026-10-28T08:46:05.000+08:00",
-        "expires_at": "2026-10-28T09:01:05.000+08:00"
+        "heartbeat_at": "2026-10-28T08:48:10.000+08:00",
+        "expires_at": "2026-10-28T09:03:10.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -5349,8 +5349,8 @@
         "species": "#15 Strix varia",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T08:46:05.000+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T08:48:10.000+08:00",
         "evidence": {
           "source_ids_new": [
             "BARO-MIKKOLA-2013-P346",
@@ -5393,15 +5393,15 @@
           "recovery_point": "Reuse persisted research card, source index and full prompt; regenerate or recover local asset if environment returns; then view before any REVIEWED/ARCHIVED credit.",
           "generated_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-0506787d-1f26-4bc6-9149-2c0c42ddc003.png",
           "generated_dimensions": "1536x1024",
-          "generated_bytes": 3614699,
+          "generated_bytes": 615725,
           "generation_seconds": 45.837,
           "initial_review": "count/title/labels/adults/climbing support pass; juvenile wing/tail too long and adult-spotted for bounded brancher stage; targeted edit required",
           "edit_count": 1,
           "edit_seconds": 39.74,
           "review_result": "PASS_WITH_LIMITATIONS",
           "reviewed_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-a6d23dfd-0f50-466a-880c-bbc844f65686.png",
-          "reviewed_sha256": "fd753e72a145f8e5df8fcd0542a067ff3e2d39cb0ca1083f80ef37a8f30aabd3",
-          "reviewed_bytes": 3362020,
+          "reviewed_sha256": "c9315410be134b52ac241c67f2ab41b027c3dc6598cad64af9c7d8f79e682aa6",
+          "reviewed_bytes": 736075,
           "reviewed_dimensions": "1536x1024",
           "review_checks": {
             "exact_three_owls": true,
@@ -5420,10 +5420,23 @@
             "standing-height ratio",
             "regional/subspecies variation",
             "universal cavity geometry"
-          ]
+          ],
+          "concept_path": "owl-pet/design/concepts/15-strix-varia-v4.png",
+          "concept_blob": "05f5e770e10556d96895d06cac886010e061e9f1",
+          "concept_sha256": "2094399521c0a06660be9fc89597f44dfeeea8bbfc10f113f6043f0f32dabb00",
+          "concept_bytes": 200902,
+          "generated_path": "owl-pet/production/generated/15-strix-varia-v4-generated-master.png",
+          "generated_blob": "c952249fdf541b94e29488481473837bc0f48110",
+          "generated_sha256": "596dd7cf8b81dc8b1c8b46b0084152cacf15e42deaa22e1ba802771539032cba",
+          "reviewed_path": "owl-pet/production/reviewed/15-strix-varia-v4-reviewed-master.png",
+          "reviewed_blob": "edd5f50e47e0f66f4e2a28b49c1b9d0ab2d1016e",
+          "manifest_count_before": 447,
+          "manifest_count_after": 448,
+          "unique_species_provisional": "184/251",
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-28T08:46:05.000+08:00",
+      "last_updated_at": "2026-10-28T08:48:10.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5454,7 +5467,8 @@
         "2026-10-28T08:45:40.000+08:00: cycle5 #15 v4 PARTIAL after RESEARCH_READY. imagegen call returned after 45.837s, but local execution environment became unavailable before file path recovery/view/edit/archive. Stage remains RESEARCH_READY, lease released, no cycle credit.",
         "2026-10-28T08:42:30.000+08:00: cycle5 resumed after environment recovery. No new generated file appeared in generated_images, so persisted RESEARCH_READY prompt will be reused for regeneration; no duplicate cycle credit.",
         "2026-10-28T08:44:15.000+08:00: cycle5 #15 v4 IMAGE_GENERATED after recovery/regeneration; 1536x1024 actually opened. Juvenile adult-like long spotted wing/tail requires targeted edit; no credit.",
-        "2026-10-28T08:46:05.000+08:00: cycle5 #15 v4 REVIEWED after one targeted imagegen edit; adult-like juvenile long wing/tail removed while climbing support retained; science false."
+        "2026-10-28T08:46:05.000+08:00: cycle5 #15 v4 REVIEWED after one targeted imagegen edit; adult-like juvenile long wing/tail removed while climbing support retained; science false.",
+        "2026-10-28T08:48:10.000+08:00: cycle5 #15 v4 ARCHIVED tree prepared; concept 05f5e770, generated c952249f, reviewed edd5f50e; manifest 447→448; unique 184/251; readback pending."
       ]
     }
   ],
@@ -5564,10 +5578,10 @@
     "run_id": "20261028T0840+0800-cycle-5",
     "cycle": 5,
     "species_id": 15,
-    "heartbeat_at": "2026-10-28T08:46:05.000+08:00",
-    "expires_at": "2026-10-28T09:01:05.000+08:00"
+    "heartbeat_at": "2026-10-28T08:48:10.000+08:00",
+    "expires_at": "2026-10-28T09:03:10.000+08:00"
   },
-  "last_updated_at": "2026-10-28T08:46:05.000+08:00",
+  "last_updated_at": "2026-10-28T08:48:10.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

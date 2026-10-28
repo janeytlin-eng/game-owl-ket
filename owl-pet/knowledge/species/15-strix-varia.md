@@ -30,3 +30,14 @@ Cornell后期幼鸟照片为灰绒羽有褐纹，不能把该阶段当初生白�
 成年落脚基线拉平，左头顶仍微高因姿态；不是性别比例科学验收，幼鸟支撑仍待核验。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
 来源索引ID：BARO-CORNELL-FAQ-2020 / BARO-CORNELL-ID，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
 [v2原图](../../design/concepts/15-strix-varia-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-6.md) · 图片提交af934406f09361fed47e85497f6bd66d7ce07727。
+
+
+## v4 brancher/climber revision · 2026-10-28
+
+Uploaded Mikkola printed p.29/PDF31 and pp.346–347/PDF348–349, the 2024 Canadian Field-Naturalist primary cavity-camera abstract, USFS 1997 climbing passage and Cornell cam material were actually read. v4 selects an approximately 30–33-day cavity-edge/brancher: fluffy brownish-white mesoptile, no adult concentric facial rings, alert dark eyes, bill/talons contacting rough bark, and full support. One targeted edit removed the first render's long adult-spotted wing and long tail while retaining the climbing action.
+
+Adults remain untufted, dark-eyed and yellow-billed with upper-breast crossbars/lower vertical streaks; female only subtly fuller. Exact age, continuous feather sequence, flight threshold, sex-size ratio, regional variation and cavity geometry remain unknown. `scientifically_verified=false`; v1 approval remains historical.
+
+![v4](../../design/concepts/15-strix-varia-v4.png)
+
+[Research/full prompt](../../research/species/15-strix-varia-v4.md) · [run](../../production/runs/20261028T0840+0800-cycle-5.md)

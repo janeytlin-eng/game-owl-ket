@@ -1526,3 +1526,5 @@ v1 user confirmation and v2 early-nestling rebuild remain preserved. v3 adopts t
 Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/v2 preserved. Science pending.
 
 - #13 *Micrathene whitneyi* v7 — SCIENCE_REVISION, approx. 21–22-day supported active mesoptile; [concept](concepts/13-micrathene-whitneyi-v7.png) · [research](../research/species/13-micrathene-whitneyi-v7.md) · [run](../production/runs/20261028T0826+0800-cycle-4.md). Science pending.
+
+- #15 *Strix varia* v4 — SCIENCE_REVISION, supported ~30–33 d brancher/climber; [concept](concepts/15-strix-varia-v4.png) · [research](../research/species/15-strix-varia-v4.md) · [run](../production/runs/20261028T0840+0800-cycle-5.md). Science pending.

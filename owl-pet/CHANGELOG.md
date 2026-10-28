@@ -1,3 +1,7 @@
+## 2026-10-28 — #15 Barred Owl v4
+
+- Added evidence-bounded ~30–33-day supported brancher/climber revision after one juvenile-wing/tail edit. Existing v1–v3 preserved; unique remains 184/251; science false.
+
 ## 2026-10-28 — #13 Elf Owl v7
 
 - Added evidence-bounded science revision with approx. 21–22-day active supported cavity nestling; one juvenile-wing edit reviewed. Existing v1–v6 and v5 user confirmation preserved; unique species count unchanged at 184/251; science remains false.

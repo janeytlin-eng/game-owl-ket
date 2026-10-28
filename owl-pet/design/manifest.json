@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T00:18:00+08:00",
+  "updated": "2026-10-29T00:40:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5924,7 +5924,36 @@
       "readback_pending": false,
       "archive_commit": "65261cd3140874582f304e27500fe8b96b31e52d",
       "verified_at": "2026-10-29T00:18:00+08:00"
+    },
+    {
+      "id": "49-strix-woodfordii-v3",
+      "path": "design/concepts/49-strix-woodfordii-v3.png",
+      "species_id": 49,
+      "scientific_name": "Strix woodfordii",
+      "common_name": "African Wood Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "60d17e6dd9c1fbb7b3d62eaf436da83c638e7700bb731b49649cef901d2cca0e",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using a locality-bounded Levubu approximately 25–30-day supported clamberer. SANBI's broader 30–37-day nestling/near-parent range and approximately 46-day good-flight threshold are retained as a conflict/variation boundary, not collapsed into a universal date. Adults are dark-eyed, untufted, rich brown and barred; sexes are alike with only subtle female fullness. First render failed because the juvenile had long layered adult-spotted wings; one juvenile-only edit produced short rounded down-embedded wing tips, concealed tail and secure support. Exact continuous feather sequence, population/subspecies transfer and quantified dimorphism remain unknown.",
+      "source_ids": [
+        "OWL-SRC-0049-A",
+        "OWL-SRC-0049-B",
+        "OWL-SRC-0049-C",
+        "AWOO-AVIBASE-2026",
+        "AWOO-ABC-2005"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29-49-strix-woodfordii-v3-development-boundary-correction",
+      "run_record": "production/runs/20261029T0021+0800-cycle-5.md",
+      "reviewed_at": "2026-10-29T00:33:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 650314,
+      "git_blob": "9a0ff5c1c12ac4ab5121ba4d38a1faf1f602345f",
+      "generated_blob": "3e51fdd5eaec3e215032f77bb27c3ddfb593f0e6",
+      "reviewed_blob": "a02cecc13e385e3b38b7865735a6f3bf20896d48",
+      "archive_note": "First render passed text/count/adults/support but gave the clambering juvenile long layered adult-spotted wings. One juvenile-only edit removed spots and mature remiges, leaving a short rounded down-embedded wing, concealed tail and supported feet. Initial truncated master transfers were detected before credit and superseded by full-size blobs in this archive tree. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-28T23:06:00+08:00"
+  "updated_at": "2026-10-29T00:40:00+08:00"
 }

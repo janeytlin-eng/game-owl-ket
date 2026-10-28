@@ -1,3 +1,9 @@
+## #49 African Wood Owl — *Strix woodfordii* — v3 science revision
+
+- Concept: [49-strix-woodfordii-v3.png](concepts/49-strix-woodfordii-v3.png)
+- Research: [species card](../knowledge/species/49-strix-woodfordii.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-49-strix-woodfordii-v3-development-boundary-correction)
+- Stage: ARCHIVED; fixed readback pending. One targeted edit removed adult-like juvenile wing spots/long remiges; short supported clamberer wing passed. Science false.
+
 ## #48 Himalayan Owl — *Strix nivicolum* — v3 science revision
 
 - Concept: [48-strix-nivicolum-v3.png](concepts/48-strix-nivicolum-v3.png)

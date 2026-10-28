@@ -53,3 +53,12 @@
 - Correction: the approximately 25–30-day branch-clambering stage is a Levubu-specific observation, not a universal species-wide departure age. SANBI reports the broader 30–37-day nestling/near-parent interval and good flight at about 46 days.
 - V3 boundary: fully supported Levubu clamberer, cream-white/pale-rufous down, short soft rounded emerging wing tips embedded in down, concealed tail, no adult wing spots and no flight.
 - New/reused/corrected sources: 0/5/1. Exact continuous plumage sequence, population transfer and quantified sex difference remain unknown; scientific status stays false.
+
+
+## v3 production result and self-iteration · 2026-10-29
+- First render passed exact title/count, adult dark eyes/untufted heads/barred plumage, subtle female fullness and support, but failed the juvenile-wing check: long layered adult-spotted remiges contradicted the evidence-bounded clambering stage.
+- One juvenile-only edit removed the white spots and mature remex fan, preserving adults, labels, habitat and support. The edited 1536×1024 master and 680×453 derivative were both opened; short rounded down-embedded wing, concealed tail and two-foot support passed.
+- Iteration rule applied: a locality-specific clambering age cannot be promoted to a universal species clock. Prompts and reviews must name the population/record and retain wider published ranges separately.
+- Binary QA caught two truncated master transfers before credit; this archive tree supersedes them with full-size blobs.
+- Files: `production/generated/49-strix-woodfordii-v3-generated-master.png`, `production/reviewed/49-strix-woodfordii-v3-reviewed-master.png`, `design/concepts/49-strix-woodfordii-v3.png`.
+- Result: PASS_WITH_LIMITATIONS; exact continuous feather sequence, population/subspecies transfer and quantified sex difference remain unknown; science false.

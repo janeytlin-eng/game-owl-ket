@@ -6027,7 +6027,7 @@
         }
       ],
       "next_cycle": 5,
-      "last_updated_at": "2026-10-28T21:42:00.071+08:00",
+      "last_updated_at": "2026-10-28T21:44:00+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6054,7 +6054,8 @@
         "2026-10-28T21:34:41.875+08:00 cycle4 #42 v3 REVIEWED after juvenile-only wing/tail edit; full edited image and 680x453 derivative actually opened and passed with limitations; no credit.",
         "2026-10-28T21:38:18.731+08:00 cycle4 #42 v3 ARCHIVED tree prepared; concept 03d7191ba1, reviewed 15a89d6e56; manifest 470→471; fixed readback pending; no credit.",
         "2026-10-28T21:40:00.096+08:00 cycle4 VERIFIED #42 at 805aef01cd56d44999b324c0ad83fd33ca8bb784; fixed concept/reviewed blobs, sizes, manifest/source/card/run/state/status/design readback passed; batch4/6 next_cycle5; science false.",
-        "2026-10-28T21:42:00.071+08:00 cycle5 STARTED #43 Athene blewitti v3 SCIENCE_REVISION; 15-minute lease acquired; no credit."
+        "2026-10-28T21:42:00.071+08:00 cycle5 STARTED #43 Athene blewitti v3 SCIENCE_REVISION; 15-minute lease acquired; no credit.",
+        "2026-10-28T21:44:00+08:00 cycle5 #43 v3 RESEARCH_READY; new1/reused4/corrected1; primary printed pp.53–55 and full Ibis text read; full prompt saved; science false; no credit."
       ],
       "in_progress": {
         "cycle": 5,
@@ -6064,13 +6065,13 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T2142+0800-cycle-5.md",
         "run_id": "20261028T2142+0800-cycle-5",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-10-28T21:42:00.071+08:00",
         "lease": {
           "owner": "codex",
           "run_id": "20261028T2142+0800-cycle-5",
-          "heartbeat_at": "2026-10-28T21:42:00.071+08:00",
-          "expires_at": "2026-10-28T21:57:00.071+08:00"
+          "heartbeat_at": "2026-10-28T21:44:00+08:00",
+          "expires_at": "2026-10-28T21:59:00+08:00"
         },
         "phases": {
           "STARTED": {
@@ -6079,7 +6080,9 @@
             "evidence": "run record and batch lease"
           },
           "RESEARCH_READY": {
-            "status": "pending"
+            "status": "complete",
+            "at": "2026-10-28T21:44:00+08:00",
+            "evidence": "FOW-JATHAR-2004 new; FOW-ISHTIAQ-2005 full-text correction; new1/reused4/corrected1; complete prompt in run/card"
           },
           "IMAGE_GENERATED": {
             "status": "pending"
@@ -6098,8 +6101,8 @@
       "lease": {
         "owner": "codex",
         "run_id": "20261028T2142+0800-cycle-5",
-        "heartbeat_at": "2026-10-28T21:42:00.071+08:00",
-        "expires_at": "2026-10-28T21:57:00.071+08:00"
+        "heartbeat_at": "2026-10-28T21:44:00+08:00",
+        "expires_at": "2026-10-28T21:59:00+08:00"
       }
     }
   ],

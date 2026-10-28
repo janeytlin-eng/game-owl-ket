@@ -5313,8 +5313,8 @@
         "species": "#10 Surnia ulula",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:09:20.215+08:00",
-        "expires_at": "2026-10-28T08:24:20.215+08:00"
+        "heartbeat_at": "2026-10-28T08:11:06.404+08:00",
+        "expires_at": "2026-10-28T08:26:06.404+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5322,8 +5322,8 @@
         "species": "#10 Surnia ulula",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T08:09:20.215+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T08:11:06.404+08:00",
         "evidence": {
           "source_ids_new": [
             "NHO-MIKKOLA-2013-P360",
@@ -5351,8 +5351,8 @@
           ],
           "scientifically_verified": false,
           "generated_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-8877b54c-48a7-4912-ad8b-a19b63567254.png",
-          "generated_sha256": "c142b18dcbf3ade5fa83e080d1a081ca20c6803f6c76b7edfe64a2aa4860d563",
-          "generated_bytes": 3310395,
+          "generated_sha256": "c5c704cf1207b9810efc8f1ecd361b8fefdb61da4fdd2cd30bce8e9922824391",
+          "generated_bytes": 725839,
           "generated_dimensions": "1536x1024",
           "generation_seconds": 68.623,
           "initial_review_findings": [
@@ -5362,8 +5362,8 @@
           "review_preview": "/workspace/scratch/e49f444b0b9e/nho-review.jpg",
           "clock_note": "Observed host wall clock (08:07 +08:00) was earlier than the previously persisted RESEARCH_READY timestamp (08:15 +08:00); actual observation time retained and anomaly disclosed.",
           "reviewed_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-f900e178-d0e2-499e-bc56-ebc5d5910f9f.png",
-          "reviewed_sha256": "6ff7694d6952c6a4e890910b864ed17426ec3a885e4a062781d6d91d8d0fb365",
-          "reviewed_bytes": 3052417,
+          "reviewed_sha256": "09211afd30fbbacc945ed7e826d2cb295e15864932a92d947666ca83346007db",
+          "reviewed_bytes": 679823,
           "reviewed_dimensions": "1536x1024",
           "edit_seconds": 43.673,
           "edit_count": 1,
@@ -5384,10 +5384,24 @@
             "continuous feather sequence",
             "measured adult display ratio",
             "subspecies and nest-form universality"
-          ]
+          ],
+          "concept_path": "owl-pet/design/concepts/10-surnia-ulula-v3.png",
+          "concept_blob": "01245cbd6adec957f83b94f4b4e7b5134cbf0806",
+          "concept_sha256": "73fd58e6f3eacc4ef81b7f3340691c1361c63a99b496251c64041459102f2ca4",
+          "concept_bytes": 191927,
+          "generated_path": "owl-pet/production/generated/10-surnia-ulula-v3-generated-master.png",
+          "generated_blob": "b47b4109a8046880d58e4224ed0512c2d7e75358",
+          "reviewed_path": "owl-pet/production/reviewed/10-surnia-ulula-v3-reviewed-master.png",
+          "reviewed_blob": "464d2c91bbff190a66856e88b1e6dc6a84db42a0",
+          "source_generated_sha256": "c142b18dcbf3ade5fa83e080d1a081ca20c6803f6c76b7edfe64a2aa4860d563",
+          "source_reviewed_sha256": "6ff7694d6952c6a4e890910b864ed17426ec3a885e4a062781d6d91d8d0fb365",
+          "manifest_count_before": 444,
+          "manifest_count_after": 445,
+          "unique_species_provisional": "184/251",
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-28T08:15:00.000+08:00",
+      "last_updated_at": "2026-10-28T08:11:06.404+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5398,7 +5412,8 @@
         "2026-10-28T08:12:00.000+08:00: cycle2 STARTED canonical #10 Surnia ulula v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
         "2026-10-28T08:15:00.000+08:00: cycle2 #10 v3 RESEARCH_READY; 3 new/3 reused sources, Mikkola pp.360–363 and development evidence read. Full prompt saved; science false.",
         "2026-10-28T08:07:00.000+08:00: cycle2 #10 IMAGE_GENERATED; 1536x1024 original actually opened via faithful 1200x800 review derivative after direct original view transport rendered incorrectly. Male/female scale and juvenile wing spotting require targeted edit; no credit.",
-        "2026-10-28T08:09:20.215+08:00: cycle2 #10 REVIEWED PASS_WITH_LIMITATIONS after one targeted imagegen edit; female now subtly fuller and juvenile wing softened/shortened with adult-like white spots removed. Exact juvenile day and continuous feather sequence remain unknown; no credit."
+        "2026-10-28T08:09:20.215+08:00: cycle2 #10 REVIEWED PASS_WITH_LIMITATIONS after one targeted imagegen edit; female now subtly fuller and juvenile wing softened/shortened with adult-like white spots removed. Exact juvenile day and continuous feather sequence remain unknown; no credit.",
+        "2026-10-28T08:11:06.404+08:00: #10 v3 ARCHIVED tree prepared; concept 01245cbd, generated b47b4109, reviewed 464d2c91; manifest 444→445; unique remains 184/251. Readback pending; no cycle credit."
       ]
     }
   ],
@@ -5514,7 +5529,7 @@
     "heartbeat_at": "2026-10-28T07:50:20.000+08:00",
     "expires_at": "2026-10-28T08:05:20.000+08:00"
   },
-  "last_updated_at": "2026-10-28T08:09:20.215+08:00",
+  "last_updated_at": "2026-10-28T08:11:06.404+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

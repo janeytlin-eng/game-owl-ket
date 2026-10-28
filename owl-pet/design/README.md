@@ -1,3 +1,9 @@
+## 10 · Northern Hawk Owl · *Surnia ulula* v3
+
+- [Original PNG](concepts/10-surnia-ulula-v3.png) · 680×453 sRGB indexed PNG · 191,927 bytes · SHA-256 `73fd58e6f3eacc4ef81b7f3340691c1361c63a99b496251c64041459102f2ca4`
+- Git blob `01245cbd6adec957f83b94f4b4e7b5134cbf0806`. SCIENCE_REVISION: untufted barred adults with long graduated tails and an evidence-bounded 24–27-day preflight branch-clamberer; one adult-scale/juvenile-wing edit. Science pending.
+- [Sources](../research/species/10-surnia-ulula-v3.md) · [Run](../production/runs/20261028T0812+0800-cycle-2.md)
+
 ## 07 · Short-eared Owl · *Asio flammeus* v3
 
 - [Original PNG](concepts/07-asio-flammeus-v3.png) · 680×453 sRGB indexed PNG · 167,329 bytes · SHA-256 `230f12c7dbf17949be09c292d81f2c4c154bfb7935c050631bab935106fd64b1`

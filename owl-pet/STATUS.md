@@ -1,3 +1,11 @@
+## 2026-10-28 #10 *Surnia ulula* v3 archive checkpoint
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains 184/251; readback pending.
+- Image: [design/concepts/10-surnia-ulula-v3.png](design/concepts/10-surnia-ulula-v3.png)
+- Research: 3 new/3 reused sources; Mikkola printed pp.360–363/PDF pp.362–365, E-Fauna juvenile development and Huhtala et al. 1987 primary symposium abstract read.
+- Review: one edit corrected the adult size direction and juvenile wing; full source and derivative viewed. Science false.
+- Run: [production/runs/20261028T0812+0800-cycle-2.md](production/runs/20261028T0812+0800-cycle-2.md)
+
 ## 2026-10-28 #07 *Asio flammeus* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains 184/251; new batch 1/6, next cycle 2.

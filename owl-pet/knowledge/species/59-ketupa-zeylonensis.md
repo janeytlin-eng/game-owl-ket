@@ -67,3 +67,5 @@ Do not show: a tiny chick, short wing buds, almost no tail, a fully adult third 
 - Generated master: blob `9431f0cc2b4688e690032e3929cc94a049a9ab4e`, 572317 bytes.
 - Reviewed master: blob `6c683c34854d13a0ddc31c79948bcb72d06aeeb7`, 542946 bytes.
 - Scientific status pending: exact individual age, continuous feather-length series, quantified sex ratio and regional variation remain unknown.
+
+- Immutable archive verification passed at `8a74506bb4cc16e517f2aba168c78a62465eaeda`: concept/generated/reviewed blob IDs and byte sizes plus manifest/source/card/run/state/status/design markers matched. This verifies archival integrity, not scientific calibration.

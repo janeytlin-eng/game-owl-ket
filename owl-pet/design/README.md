@@ -1701,3 +1701,5 @@ A species-specific estimate of 8–10 weeks plus observed movement among neighbo
 ### Incremental stage-specific rule — nest-leaving timing must set a lower bound on wing development
 
 When species-specific evidence puts nest departure around 43–49 days and independent field observations describe nest-leavers as nearly adult-sized, do not render a tiny late nestling with wing buds. Retain developed juvenile wing/tail structure but soften pattern regularity and keep the bird supported and parent-dependent. Applied and visually rechecked on #59 v3; broader effectiveness remains unverified.
+
+- #59 v3 immutable archive verification passed at `8a74506bb4cc16e517f2aba168c78a62465eaeda`; exact concept/generated/reviewed blobs and byte sizes plus manifest/source/card/run/state/status/design markers matched. Science remains pending.

@@ -1997,3 +1997,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/59-ketupa-zeylonensis-v3.png](design/concepts/59-ketupa-zeylonensis-v3.png)
 - Research: 1 new / 3 reused / 1 corrected inference. JBNHS pp.97–98 sets a 43–49 d nestling period; Indian BIRDS says nest-leavers are almost adult-sized but parent-dependent; ELA p.2 shows wing exercise and visible wing pattern at 5–6 weeks.
 - Review: one juvenile-only edit removed adult-regular white spots/layered remiges while retaining developed folded juvenile wings and a shorter developing tail. Exact feather lengths, sex ratio and regional variation remain unknown. Science false; readback pending.
+
+- 2026-10-29T03:50:00+08:00 — #59 *Ketupa zeylonensis* v3 independently verified at archive `8a74506bb4cc16e517f2aba168c78a62465eaeda`; concept `04133d739f…`, generated `9431f0cc2b…`, reviewed `6c683c3485…`, manifest486 and source/card/run/state/status/design markers passed. Unique remains **184/251**; batch **1/6**, next cycle 2. Science false.

@@ -5350,8 +5350,8 @@
         "run_id": "20261028T0851+0800-cycle-6",
         "cycle": 6,
         "species_id": 17,
-        "heartbeat_at": "2026-10-28T08:51:10.000+08:00",
-        "expires_at": "2026-10-28T09:06:10.000+08:00"
+        "heartbeat_at": "2026-10-28T08:43:30.000+08:00",
+        "expires_at": "2026-10-28T08:58:30.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5359,20 +5359,32 @@
         "species": "#17 Megascops asio",
         "version": 5,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T08:51:10.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T08:43:30.000+08:00",
         "evidence": {
-          "existing_versions": [
-            "v1",
-            "v2",
-            "v3",
-            "v4"
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "species_card": "owl-pet/research/species/17-megascops-asio-v5.md",
+          "sources": {
+            "new": 4,
+            "reused": 1,
+            "corrected": 1
+          },
+          "source_summary": "Mikkola printed pp.207–209 / uploaded PDF pp.209–211; Cornell Life History; USDA FEIS; Cornell ID; USGS primary age-band article metadata/abstract.",
+          "design_boundary": "Approximately 27–30 d supported brancher; fluffy finely barred gray mesoptile; formed but incomplete short wings; climbing/wing flutter only. Morph is not sex. Female directionally fuller, not taller.",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact depicted day",
+            "continuous feather sequence",
+            "juvenile eye/cere chronology",
+            "wing/tail proportions",
+            "subspecies/morph variation",
+            "standing-height ratio",
+            "universal cavity geometry"
           ],
-          "duplicate_check": "v5 absent at main f86ebb5018e76654f61e4acd523e4255eed2c460",
-          "user_records_preserved": "all prior version records; no approval transfer"
+          "imagegen_prompt": "Create a warm hand-painted digital gouache 3:2 review board. Title exactly “17 · EASTERN SCREECH-OWL · Megascops asio”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Exactly three owls.\n\nPlace the adult male at left and adult female at center on the same branch and baseline. Both are northern gray-morph Eastern Screech-Owls, never using red morph as a sex difference. The female is only subtly fuller/heavier in body volume, not taller. Both adults have a small compact body, prominent small pointed ear tufts, bright yellow eyes, olive-greenish cere and bill with yellow tip, gray-brown upperparts with black shaft streaks and fine vermiculation, a visible white scapular shoulder line, barred flight feathers and tail, whitish underparts with branching longitudinal dark lines and faint cross-bars, and tarsi feathered to the toe base. Distal toes are gray-brown and grip the branch naturally.\n\nAt right show one approximately 27–30-day brancher beside a natural tree cavity and adjacent branch. It is a fluffy gray mesoptile juvenile with very fine alternating light/dark barring across head, mantle and underparts, reduced soft ear tufts, subdued yellowish eyes, formed but incomplete wings with short soft remiges, and a short tail largely concealed by fluff. The juvenile is fully supported by wood, climbing with both talons while one short wing flutters for balance. It is not airborne.\n\nWooded stream or mature park habitat; warm restrained ochre and forest-green background; clear review-board spacing; accurate owl feet and support. No neonatal white ball, no mature adult wing or long tail on the juvenile, no confident flight, no spread-flight pose, no red-morph female, no size-exaggerated female, no extra birds, no hatchling, no labels other than the exact title and three exact role labels."
         }
       },
-      "last_updated_at": "2026-10-28T08:51:10.000+08:00",
+      "last_updated_at": "2026-10-28T08:43:30.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5406,7 +5418,8 @@
         "2026-10-28T08:46:05.000+08:00: cycle5 #15 v4 REVIEWED after one targeted imagegen edit; adult-like juvenile long wing/tail removed while climbing support retained; science false.",
         "2026-10-28T08:48:10.000+08:00: cycle5 #15 v4 ARCHIVED tree prepared; concept 05f5e770, generated c952249f, reviewed edd5f50e; manifest 447→448; unique 184/251; readback pending.",
         "2026-10-28T08:49:35.000+08:00: cycle5 VERIFIED #15 Strix varia v4 at 901800d0b81eebd5b48fbe77d8c09cf945a6e883; fixed-tree readback passed. Unique 184/251; batch 5/6 next_cycle6; lease released; science false.",
-        "2026-10-28T08:51:10.000+08:00: cycle6 STARTED canonical #17 Megascops asio v5 SCIENCE_REVISION; v1–v4 preserved; no credit."
+        "2026-10-28T08:51:10.000+08:00: cycle6 STARTED canonical #17 Megascops asio v5 SCIENCE_REVISION; v1–v4 preserved; no credit.",
+        "2026-10-28T08:43:30.000+08:00: cycle6 #17 v5 RESEARCH_READY; new4/reused1/corrected1 sources, Mikkola pp.207–209 and external development evidence read. Full prompt saved; science false; prior STARTED timestamp display is later than the current worker clock, while the actual start commit was 00:41Z."
       ]
     }
   ],

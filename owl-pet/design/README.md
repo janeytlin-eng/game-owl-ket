@@ -1673,3 +1673,6 @@ When a species source explicitly says a preflight juvenile has well-grown wing f
 ### Incremental stage-specific rule — locomotor behavior constrains feather depiction
 
 Do not infer a hatchling-like short wing merely because a sourced juvenile cannot yet fly. When species-specific accounts document climbing, hopping or flapping for lift near nest departure, pair that locomotor evidence with developed juvenile remiges while keeping the bird fully supported. Adult-like spot geometry remains excluded without direct evidence. Applied and visually rechecked on #55 v3; broader effectiveness remains unverified.
+
+
+- #55 v3 immutable archive verification passed at `a9a5688b0971b0d33ce13ac68e42fae04da708ee`: full tree 1,504 entries/non-truncated; exact concept/generated/reviewed blobs and byte sizes plus manifest/source/card/run/state/STATUS/design markers matched. Science remains pending.

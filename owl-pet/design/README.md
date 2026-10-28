@@ -1731,3 +1731,10 @@ When species-specific photographs show 30–40-day chicks already carrying devel
 A dated late-dependent juvenile that is almost adult-sized and nearly finished moulting must not be collapsed into a small white begging chick merely because earlier juvenile accounts describe white barred plumage. Preserve the selected stage's adult-like body/wing/tail structure and restrict retained juvenile cues to those actually described. Applied and visually rechecked on #62 v3; broader effectiveness remains unverified.
 
 - #62 v3 immutable archive verification passed at `993341a4f47a2c17a1cc6a60173e8d8f17039710`; complete tree non-truncated and exact three image paths/blobs/byte sizes plus metadata markers matched. Science remains pending.
+
+
+- #63 *Scotopelia peli* v3 — SCIENCE_REVISION correcting v2's undersized near-fledging juvenile and unsourced adult-sex display. [concept](concepts/63-scotopelia-peli-v3.jpg) · [research](../knowledge/species/63-scotopelia-peli.md) · [run](../production/runs/20261029T0539+0800-cycle-5.md). One juvenile-only edit removed adult-like long remiges/mature tail bars while preserving the larger pale-down near-fledging body. Male subtly deeper rufous; female only slightly fuller. Duplicate-name #156 preserved; unique count unchanged; science pending.
+
+### Incremental pale-down scale rule
+
+Prolonged pale down does not imply hatchling body scale. When a species source gives both long down retention and a 68–70-day fledging age, depict the selected near-fledging bird larger and naturally supported while keeping the down-softened feather boundary. Applied and visually rechecked on #63 v3; broader effectiveness remains unverified.

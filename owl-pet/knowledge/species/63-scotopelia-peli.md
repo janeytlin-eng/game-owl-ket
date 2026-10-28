@@ -20,3 +20,10 @@ Status: VERIFIED archive, image reviewed; scientific calibration pending; scient
 - Adults are similar; male may be deeper rufous and female only slightly larger. This does not justify a dramatic standing-height difference.
 - V3 target: supported approximately 68–70-day near-fledging bird beside the natural cavity, pale down retained, modest down-softened developing folded wings and short visible tail, no adult bars/remiges and no flight pose.
 - Exact feather tract chronology, linear sex ratio and first-flight threshold remain unknown; science false.
+
+
+## v3 review/archive checkpoint
+
+- 2026-10-29T05:44:30+08:00: first render's juvenile had long regular adult-like remiges and mature tail bars; one bounded juvenile-only edit shortened/softened the wing and concealed the mature tail while preserving the larger downy near-fledging body and all adult/text/environment invariants.
+- [v3 concept](../../design/concepts/63-scotopelia-peli-v3.jpg) · 1350×900. Duplicate-name #156 remains in history; this revision does not add a unique species.
+- Exact feather sequence, first-flight threshold and quantified sex ratio remain unknown; science false.

@@ -1181,3 +1181,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Full 1536×1024 image review passed without edit. Archived concept/generated/reviewed evidence; unique remains 184/251, science false, fixed-commit verification pending.
 
 - 2026-10-29T05:38:41+08:00: verified #62 *Ketupa sumatrana* v3 archive `993341a4f47a2c17a1cc6a60173e8d8f17039710` by complete commit-pinned tree and metadata readback; batch advanced to 4/6, next cycle 5; unique remains 184/251 and science false.
+
+
+## 2026-10-29 — #63 *Scotopelia peli* v3 archive checkpoint
+
+- Active reread reused five indexed sources and corrected v2's undersized near-fledging juvenile plus adult sex cues; no duplicate source IDs.
+- First render's juvenile wing/tail were too mature; one bounded edit shortened/softened them and was reopened at 1536×1024.
+- Archived 1350×900 concept plus generated/reviewed masters. Duplicate-name #156 remains preserved; unique stays 184/251, science false, fixed readback pending.

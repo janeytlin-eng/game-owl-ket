@@ -1,3 +1,9 @@
+## 2026-10-29 #63 *Scotopelia peli* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; duplicate-name #156 preserved; unique remains **184/251**; batch remains 4/6 until fixed verification.
+- [Concept](design/concepts/63-scotopelia-peli-v3.jpg) · [run](production/runs/20261029T0539+0800-cycle-5.md) · [source index](research/SOURCE_INDEX.md#2026-10-29-63-scotopelia-peli-v3-near-fledging-scale-and-adult-sex-cue-reconciliation)
+- Research: 0 new / 5 reused / 2 corrected. Review: one juvenile-only wing/tail edit; full edited master and derivative reopened. Science false.
+
 - 2026-10-29T05:38:41+08:00 — #62 *Ketupa sumatrana* v3 independently verified at archive `993341a4f47a2c17a1cc6a60173e8d8f17039710`; concept/generated/reviewed exact blobs and 436319-byte sizes plus manifest/card/run/state/status/design markers passed. Unique remains **184/251**; batch advances to **4/6**, next cycle 5. Science false.
 
 ## 2026-10-29 #62 *Ketupa sumatrana* v3 ARCHIVED — readback pending

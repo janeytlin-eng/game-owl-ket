@@ -5542,20 +5542,15 @@
         "species": "#23 Psiloscops flammeolus",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "at": "2026-10-28T09:56:00.000+08:00",
         "evidence": {
-          "new_sources": [
-            "FLOW-POWERS-1996-JRR"
-          ],
-          "reused_sources": [
-            "FLOW-FOSSILBEDS-2007",
-            "FLOW-CORNELL-ID-2026",
-            "FLOW-CORNELL-LIFE-2026",
-            "FLOW-ORI-2026"
-          ],
-          "corrected_sources": 0,
-          "design_boundary": "11-day nestling; white natal down with only beginnings of gray; compact supported cavity pose; no mature remiges/tail and no flight inference",
+          "generated_path": "owl-pet/production/generated/23-psiloscops-flammeolus-v4-generated-master.png",
+          "dimensions": "1536x1024",
+          "sha256": "32e1dd1920b36f3d63eb22211ab644e81d8148d7ed9595b8ec9b88f633c820ea",
+          "size_bytes": 3369174,
+          "generation_seconds": 46.536,
+          "visual_review": "actual original-resolution view found juvenile remiges too mature for conservative 11-day boundary; edit required",
           "science_pass": false
         }
       },
@@ -5583,7 +5578,8 @@
         "2026-10-28T09:46:00.000+08:00: cycle3 #21 v5 ARCHIVED; concept 805f8e91d8, master ab8ef71545; manifest 451→452; fixed-commit readback pending; no credit.",
         "2026-10-28T09:48:00.000+08:00: cycle3 VERIFIED #21 Megascops choliba v5; archive 0e1baa05e4249a32ef4826d829a37748d14baf7f, concept 805f8e91d8 and master ab8ef71545 read back at fixed commit; manifest452; unique184/251; batch3/6 next_cycle4; lease released.",
         "2026-10-28T09:51:00.000+08:00: cycle4 STARTED #23 Psiloscops flammeolus v4 SCIENCE_REVISION; prior v1–v3 retained; 11-day evidence-bounded nest stage selected; no credit.",
-        "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 RESEARCH_READY; new1/reused4/corrected0; Powers et al. 1996 pp.15–20 actually read, 11-day field-account evidence reused; full prompt saved; science false."
+        "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 RESEARCH_READY; new1/reused4/corrected0; Powers et al. 1996 pp.15–20 actually read, 11-day field-account evidence reused; full prompt saved; science false.",
+        "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 IMAGE_GENERATED in 46.536s; actual 1536x1024 view found juvenile remiges too mature for conservative 11-day boundary; edit required; no credit."
       ],
       "lease": {
         "owner": "codex-work",
@@ -5783,7 +5779,8 @@
     "2026-10-28T09:46:00.000+08:00: cycle3 #21 v5 ARCHIVED; concept 805f8e91d8, master ab8ef71545; manifest 451→452; fixed-commit readback pending; no credit.",
     "2026-10-28T09:48:00.000+08:00: cycle3 VERIFIED #21 Megascops choliba v5; archive 0e1baa05e4249a32ef4826d829a37748d14baf7f, concept 805f8e91d8 and master ab8ef71545 read back at fixed commit; manifest452; unique184/251; batch3/6 next_cycle4; lease released.",
     "2026-10-28T09:51:00.000+08:00: cycle4 STARTED #23 Psiloscops flammeolus v4 SCIENCE_REVISION; prior v1–v3 retained; 11-day evidence-bounded nest stage selected; no credit.",
-    "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 RESEARCH_READY; new1/reused4/corrected0; Powers et al. 1996 pp.15–20 actually read, 11-day field-account evidence reused; full prompt saved; science false."
+    "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 RESEARCH_READY; new1/reused4/corrected0; Powers et al. 1996 pp.15–20 actually read, 11-day field-account evidence reused; full prompt saved; science false.",
+    "2026-10-28T09:56:00.000+08:00: cycle4 #23 v4 IMAGE_GENERATED in 46.536s; actual 1536x1024 view found juvenile remiges too mature for conservative 11-day boundary; edit required; no credit."
   ],
   "audit_trail": [
     {

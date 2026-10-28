@@ -1,3 +1,9 @@
+## 2026-10-29 #60 *Ketupa flavipes* v3 VERIFIED
+
+- Result: SCIENCE_REVISION verified at `cf03560e58b042966e1d39a5b6d753941d0a1e3e`; unique remains **184/251**; batch `2026-10-29T0331+0800` advances to 2/6.
+- [Concept](design/concepts/60-ketupa-flavipes-v3.jpg) · [run](production/runs/20261029T0353+0800-cycle-2.md) · [source index](research/SOURCE_INDEX.md#2026-10-29--60-ketupa-flavipes-v3-age-known-nestling-correction)
+- Fixed-commit readback matched concept/reviewed blob `ec1f604988e32c20b6c69e5e3465369c5a142330` (408698 bytes) and generated blob `c457621848e7c9adb7c863e1d5f448d221dd62e9` (430376 bytes). Science remains false; exact feather geometry, continuous sequence, quantified sex ratio and regional variation remain unknown.
+
 ## 2026-10-29 #54 *Bubo africanus* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; batch `2026-10-29T0153+0800` remains 2/6 until fixed-commit verification.

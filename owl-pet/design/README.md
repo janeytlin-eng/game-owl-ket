@@ -1,3 +1,9 @@
+## #60 Tawny Fish Owl — *Ketupa flavipes* — v3 science revision
+
+- Concept: [60-ketupa-flavipes-v3.jpg](concepts/60-ketupa-flavipes-v3.jpg)
+- Research: [species card](../knowledge/species/60-ketupa-flavipes.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--60-ketupa-flavipes-v3-age-known-nestling-correction)
+- Stage: VERIFIED at `cf03560e58b042966e1d39a5b6d753941d0a1e3e`; fixed concept/generated/reviewed blob IDs and exact byte sizes read back. Juvenile boundary is an age-known 30–40-day, Y-fork-supported late nestling with developed folded wings/tail but down-soft head/torso. Science remains false.
+
 ## #50 Mottled Owl — *Strix virgata* — v3 science revision
 
 - Concept: [50-strix-virgata-v3.png](concepts/50-strix-virgata-v3.png)

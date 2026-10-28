@@ -5816,8 +5816,8 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1548+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T15:56:00+08:00",
-        "expires_at": "2026-10-28T16:11:00+08:00"
+        "heartbeat_at": "2026-10-28T16:00:00+08:00",
+        "expires_at": "2026-10-28T16:15:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -5826,7 +5826,7 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T1548+0800-cycle-6.md",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "stage_evidence": {
           "STARTED": {
             "at": "2026-10-28T15:48:00+08:00",
@@ -5851,6 +5851,16 @@
             "design_boundary": "age-unknown fully feathered branch-supported juvenile; no exact age, independence or flight",
             "full_imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “32 · CHESTNUT-BACKED OWLET · Glaucidium castanotum”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Show exactly three owls, no extra birds or animals.\n\nAdult male left and adult female center stand on the same mossy branch and baseline at nearly equal displayed crown height. Both are small 17–19 cm Sri Lankan Chestnut-backed Owlets with compact bodies, round untufted heads, bright yellow eyes, pale greenish-yellow bills, dark brown crowns crossed by narrow rusty-ochre bars, a conspicuous rich reddish-chestnut mantle and upper back with only sparse dark bars, darker barred wings, a brown breast band with restrained ochre bars, white lower underparts marked mostly by dark longitudinal streaks rather than the dense horizontal barring of Jungle Owlet, short barred tails, and feathered tarsi. Absolutely no paired nape false eyes. Female is only subtly fuller/heavier, not taller or a separate size class.\n\nJuvenile right is an age-unknown fully feathered older juvenile grounded by the dated Sinharaja juvenile photograph and Mikkola’s middle-juvenile description. It perches low with both feet gripping a broad mossy fork. Keep the same species identity but make the plumage softer and fluffier: muted chestnut back, less crisp diffuse rusty crown bars and underpart streaks, compact formed folded wings, and a short soft tail. The photograph supports a branch-perched juvenile but not exact age, independence or flight threshold. Do not make it a downy hatchling, do not give it long adult-scale hard remiges or a long mature tail, and do not show flight or prey handling.\n\nScene: Sri Lankan wet-zone evergreen rainforest resembling Sinharaja, shaded dense green foliage, moss, lichens and filtered daylight. Accurate owl feet and natural support. Exactly three owls. No ear tufts, no nape false eyes, no exaggerated female size, no unsupported juvenile, no airborne pose, no nest box, no prey, no watermark, and no text other than the exact title and three exact labels.",
             "science_pass": false
+          },
+          "IMAGE_GENERATED": {
+            "at": "2026-10-28T16:00:00+08:00",
+            "path": "owl-pet/production/generated/32-glaucidium-castanotum-v3-generated-master.jpg",
+            "blob_sha": "d27c56d73a9b7f014039e98cee5120a5159a9c29",
+            "sha256": "ebb3daf8b2c9d2c85f65fa1a06dcca122d79463f3ada33d830a84c242a3105ac",
+            "bytes": 635396,
+            "width": 1536,
+            "height": 1024,
+            "generation_seconds": 88.4
           }
         }
       }

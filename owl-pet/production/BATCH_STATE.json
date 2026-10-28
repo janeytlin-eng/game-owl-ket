@@ -5997,14 +5997,14 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261028T1940+0800-cycle-2",
-        "heartbeat_at": "2026-10-28T19:44:30+08:00",
-        "expires_at": "2026-10-28T19:59:30+08:00"
+        "heartbeat_at": "2026-10-28T19:51:00+08:00",
+        "expires_at": "2026-10-28T20:06:00+08:00"
       },
       "lease": {
         "owner": "codex",
         "run_id": "20261028T1940+0800-cycle-2",
-        "heartbeat_at": "2026-10-28T19:44:30+08:00",
-        "expires_at": "2026-10-28T19:59:30+08:00"
+        "heartbeat_at": "2026-10-28T19:51:00+08:00",
+        "expires_at": "2026-10-28T20:06:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -6012,7 +6012,7 @@
         "species": "#40 Glaucidium nubicola",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261028T1940+0800-cycle-2.md"
       },
       "cycle_checkpoint": {
@@ -6021,19 +6021,21 @@
         "species": "#40 Glaucidium nubicola",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T19:44:30+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T19:51:00+08:00",
         "evidence": {
-          "source_index": "owl-pet/research/SOURCE_INDEX.md#2026-10-28-40-glaucidium-nubicola-v3-evidence-increment",
-          "species_card": "owl-pet/knowledge/species/40-glaucidium-nubicola.md",
-          "new_sources": 1,
-          "reused_sources": 4,
-          "corrected_sources": 1,
-          "juvenile_boundary": "recently fledged; unspotted crown only weakly corroborated; exact plumage unknown",
-          "prompt_saved": true
+          "generated_path": "owl-pet/production/generated/40-glaucidium-nubicola-v3-generated-master.jpg",
+          "generated_blob": "da55112dac1f6d2895adeadd36afb62b0363e4fa",
+          "generated_sha256": "a659754a4b7fb7917d9b13bc1ec5c50c7c7911cfc97b5ff2989a4f50ad500cf2",
+          "dimensions": "1536x1024",
+          "bytes": 444800,
+          "generation_seconds": 48.341,
+          "first_view": "FAIL_NEEDS_EDIT",
+          "issue": "juvenile has adult-like crisp crown and wing spots",
+          "tool_error": "reference attempt had zero available conversation images; text-only retry succeeded"
         }
       },
-      "last_updated_at": "2026-10-28T19:44:30+08:00",
+      "last_updated_at": "2026-10-28T19:51:00+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6043,7 +6045,8 @@
         "2026-10-28T19:38:44+08:00 ARCHIVED tree prepared; concept 9fb8eeef61, generated b63607799f, reviewed 5bec851412; manifest 467→468; fixed readback pending; no credit.",
         "2026-10-28T19:39:42+08:00 cycle1 VERIFIED #39 at c22243e93daf1e9e5f7327c02e89e9a306662ba5; fixed blob/byte/manifest/source/card/run/status readback passed; batch1/6 next_cycle2; science false.",
         "2026-10-28T19:40:52+08:00 cycle2 STARTED #40 Glaucidium nubicola v3 SCIENCE_REVISION; primary fledgling record and unspotted-immature lead selected; no credit.",
-        "2026-10-28T19:44:30+08:00 cycle2 #40 v3 RESEARCH_READY; primary full text re-read, new1/reused4/corrected1; full prompt saved; science false; no credit."
+        "2026-10-28T19:44:30+08:00 cycle2 #40 v3 RESEARCH_READY; primary full text re-read, new1/reused4/corrected1; full prompt saved; science false; no credit.",
+        "2026-10-28T19:51:00+08:00 cycle2 #40 v3 IMAGE_GENERATED; first 1536x1024 actual view requires juvenile crown/wing de-spotting; generated blob da55112dac1f6d2895adeadd36afb62b0363e4fa; no credit."
       ]
     }
   ],

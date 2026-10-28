@@ -54,3 +54,11 @@
 - Corrected v2 adult direction: v3 male is darker; female is visibly paler and subtly fuller/larger, without exaggerated standing-height difference.
 - Juvenile remains approximately one month, warm-buff and faintly dusky-barred, with a short down-softened developing wing and concealed/short tail; it stands low with both feet supported at a mature-tree cavity rim and is not shown flying.
 - Scientific status remains false: exact feather-by-feather juvenile sequence, quantitative adult palette/size ratios, population transfer and rehabilitation-to-wild behavior remain unknown.
+
+
+## 2026-10-29 production result — v3
+
+- Concept: `design/concepts/51-strix-rufipes-v3.png` (680×453; 637,419 bytes; SHA-256 `310bd6a769823d6dae8d80506399e0ec4c2967dded932252c37bd5c70b05b8f7`).
+- Generated master preserves the pre-edit first render; reviewed master preserves the juvenile-wing correction at 1536×1024.
+- First render passed exact title/count, adult identification, dark-male/paler-female direction and support, but the juvenile showed distinct dark layered remiges. One juvenile-only edit removed that mature row and blended the short wing into warm-buff down. Original-resolution and 680×453 rechecks passed.
+- Technical archive status: ARCHIVED pending fixed-commit readback. Scientific status remains false for exact feather sequence, quantitative dichromatism/size, population transfer and rehabilitation-to-wild behavior.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T01:50:00+08:00",
+  "updated": "2026-10-29T02:16:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5987,7 +5987,35 @@
       "readback_pending": false,
       "archive_commit": "defa5d15254d309b8d0959b1512290a2015d689e",
       "verified_at": "2026-10-29T01:50:00+08:00"
+    },
+    {
+      "id": "51-strix-rufipes-v3",
+      "path": "design/concepts/51-strix-rufipes-v3.png",
+      "species_id": 51,
+      "scientific_name": "Strix rufipes",
+      "common_name": "Rufous-legged Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "310bd6a769823d6dae8d80506399e0ec4c2967dded932252c37bd5c70b05b8f7",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION correcting adult sexual dichromatism from the official Chile MMA dossier: male darker, female markedly paler and subtly fuller without exaggerated height. Juvenile remains an approximately one-month warm-buff, faintly barred, fully supported cavity-rim bird with a short down-softened wing and no flight claim. One juvenile-only edit removed distinct layered remiges. Exact feather geometry, quantitative palette/size ratios, population transfer and rehabilitation-to-wild behavior remain unknown.",
+      "source_ids": [
+        "RLO-MMA-2015",
+        "RLO-ESCOBAR-2022",
+        "RLO-FIGUEROA-2017",
+        "OWL-SRC-0051-A"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29-51-strix-rufipes-v3-adult-sexual-dichromatism-correction",
+      "run_record": "production/runs/20261029T0153+0800-cycle-1.md",
+      "reviewed_at": "2026-10-29T02:10:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 637419,
+      "git_blob": "224c84642623e9f062d04124a2495fcc6ab4094d",
+      "generated_blob": "93c81e877ea565f2c137ad58bb615a74f4c88424",
+      "reviewed_blob": "5e8854fd0677d6bb0ccdcddcc944755479d1b704",
+      "archive_note": "First render passed text/count/adult sexual direction/support but gave the approximately-one-month juvenile a distinct dark layered wing. One juvenile-only edit blended the short wing into down and removed mature remiges. Edited master and derivative passed with limitations; science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T01:50:00+08:00"
+  "updated_at": "2026-10-29T02:16:00+08:00"
 }

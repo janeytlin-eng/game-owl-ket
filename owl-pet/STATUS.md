@@ -1929,3 +1929,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Review: one juvenile crown/wing edit. Same-morph near-equal adults, male false eyes, supported plain-crowned mesoptile and compact soft wing pass. Exact age/sequence/flight/sex metrics unknown; science false.
 
 - 2026-10-28T20:28:30+08:00 — #41 *Glaucidium cobanense* v3 independently verified at archive `4274e3100c4b2fe9d202c154eaa57341be96a325`; concept `5476ff35dc…`, generated `059d824c05…`, reviewed `9f59f8ce5f…`, plus metadata read back. Unique remains **184/251**; batch **3/6**, next cycle 4. Science false.
+
+
+## 2026-10-29 #51 *Strix rufipes* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/51-strix-rufipes-v3.png](design/concepts/51-strix-rufipes-v3.png)
+- Research: 1 new / 3 reused / 1 corrected inference. Official Chile MMA dossier PDF pp.1–2 and 4/8 documents a darker male, markedly paler female, mature-tree cavities and dense *Nothofagus* forest; v2 adult sameness was corrected.
+- Review: one juvenile-only edit removed the first render's distinct dark layered remiges. Exact title/count, dark male, paler subtly fuller female, adult morphology, down-softened approximately-one-month juvenile wing, concealed tail and full cavity-rim support pass. Exact feather sequence, quantitative dichromatism, population transfer and rehabilitation-to-wild behavior remain unknown. Science false; fixed-commit readback pending.

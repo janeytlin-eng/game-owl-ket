@@ -1643,3 +1643,10 @@ When a species-specific immature image caption is explicitly tentative (for exam
 ### Incremental morph-versus-sex rule
 
 A documented rufous/brown morph is not evidence of sexual dichromatism. Unless a source links morph to sex, keep adult male and female in the same morph and encode sex only through sourced features or distinct poses. Applied and visually rechecked on #41 v3; broader effectiveness remains unverified.
+
+
+- #51 *Strix rufipes* v3 — SCIENCE_REVISION; official Chile MMA evidence corrects the adult pair to a darker male and markedly paler, subtly fuller female. The approximately-one-month warm-buff juvenile remains low and fully supported at a mature-tree cavity rim. [concept](concepts/51-strix-rufipes-v3.png) · [research](../knowledge/species/51-strix-rufipes.md) · [run](../production/runs/20261029T0153+0800-cycle-1.md). One juvenile-wing edit removed adult-like layered remiges; exact feather sequence and quantitative sex ratios remain unknown; science pending.
+
+### Incremental sexual-dichromatism rule
+
+When a species source explicitly documents sex-linked plumage difference, encode that color/value direction separately from size direction. A “female paler” statement does not justify a fixed palette ratio, and a “female larger” direction does not justify dramatic standing-height separation. Applied and visually rechecked on #51 v3 (dark male, paler subtly fuller female at comparable head height); broader effectiveness remains unverified.

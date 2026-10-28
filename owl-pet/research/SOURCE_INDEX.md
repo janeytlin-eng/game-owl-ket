@@ -4466,3 +4466,33 @@ Reused `SHEO-BTO-BIRDFACTS`: current BTO BirdFacts reread; altricial downy type 
 | NHO-HUHTALA-1987 | Huhtala, Korpimäki & Pulliainen, “Foraging Activity and Growth of Nestlings in the Hawk Owl” in 1987 Winnipeg symposium proceedings | Abstract in institutional proceedings actually read | Four Finnish nests; nestlings prioritized early body-mass gain while wing growth was relatively slow; parents provisioned throughout the day with variable peaks. | Abstract/sample small; no day-specific plate or ratio. Supports avoiding overlong confident-flight wings in a preflight bird, not a precise feather map. |
 
 Reused `NHO-CORNELL-ID-2026`, `NHO-CORNELL-LIFE-2026`, `NHO-NPS-NEST-2021` for adult identity, 20–35d nest period and cavity/broken-snag nest context. No duplicate records. Design inference: use an approximately 24–27d newly nest-departed but preflight branch-clamberer with formed folded wing/tail retained under E-Fauna, full branch support and no flight pose. Exact day, continuous feather sequence, flight threshold, quantified display ratio, subspecies and universal nest form remain unknown. Linked [card](species/10-surnia-ulula-v3.md) and [run](../production/runs/20261028T0812+0800-cycle-2.md).
+
+## 2026-10-28 — #11 *Aegolius funereus* v3 evidence increment
+
+### BOR-KOUBA-2015-FLEDGING
+- **Title / authors / year:** “Factors Affecting the Duration of Nestling Period and Fledging Order in Tengmalm’s Owl (*Aegolius funereus*): Effect of Wing Length and Hatching Sequence” — Kouba, Bartoš, Korpimäki & Zárybnická, 2015.
+- **URL / DOI:** https://journals.plos.org/plosone/article/file?id=10.1371%2Fjournal.pone.0121641&type=printable · https://doi.org/10.1371/journal.pone.0121641
+- **Accessed:** 2026-10-28. **Type:** primary camera/chip/radio-telemetry study; printable paper and Results actually read.
+- **Species / stage:** *A. funereus*, late nestlings through fledging; 98 young at 27 nests.
+- **Facts:** nest period 27–38 d (mean 32.4±2.2); duration negatively related to wing length; wing growth continues after fledging, so fledglings leave with incomplete feather growth.
+- **Decision:** supports a 30–33 d cavity-edge/recent fledgling with formed but incompletely grown wings, full support and no confident flight.
+- **Limits / confidence:** no fine plumage map or universal exact day; high confidence for age/action boundary.
+
+### BOR-KORPIMAKI-HAKKARAINEN-2012-P7
+- **Title / authors / year:** *The Boreal Owl: Ecology, Behaviour and Conservation of a Forest-Dwelling Predator* — Erkki Korpimäki & Harri Hakkarainen, 2012.
+- **URL:** https://api.pageplace.de/preview/DT0400.9781139574600_A23868104/preview-9781139574600_A23868104.pdf
+- **Accessed:** 2026-10-28. **Type:** Cambridge University Press research synthesis; preview pp.6–7 / PDF pp.21–22 actually read.
+- **Species / stage:** *A. funereus*, adults and late nestling/fledgling.
+- **Facts:** fledglings are dark brown overall, face darker/sootier, very distinct white eyebrows, some white spots on scapulars and wing coverts; Finnish adult samples show females substantially heavier on average than males while wing-length difference is modest.
+- **Decision:** juvenile must not inherit adult white underpart streaking; female may read fuller/heavier without a fixed height multiplier.
+- **Limits / confidence:** synthesis/photographic caption, not a day-by-day sequence; high confidence for diagnostic direction.
+
+### Reused sources
+- **BOR-MIK2013-440** — Mikkola 2013 printed pp.440–443 / uploaded PDF pp.442–445 re-read: adults untufted, yellow-eyed, yellowish-horn bill, spotted brown upperparts and streaked whitish underparts; downy chick white/thin, later mesoptile uniformly dark chocolate-brown with white eyebrows/chin-side streaks; eyes pale yellow-grey then yellower before fledging. Six-subspecies account retained as historical scope, not a fixed artwork subspecies.
+- **BOR-KOUBA-2014** — PLOS ONE DOI 10.1371/journal.pone.0097504 re-read: entrance perching 24–34 d (mean 28); climbing begins around day 20, reaching entrance 26–30 d; wing growth incomplete at fledging.
+
+**Mapping:** `Aegolius funereus` = Tengmalm’s Owl (Old World name) = Boreal Owl (North American English).  
+**Source counts:** new 2 / reused 2 / corrected 0.  
+**Unknowns retained:** exact depicted day, continuous feather map, quantified standing-height ratio, subspecies, natural-cavity versus box geometry. `scientifically_verified=false`.  
+**Related:** [research card](species/11-aegolius-funereus-v3.md) · [run](../production/runs/20261028T0813+0800-cycle-3.md).
+

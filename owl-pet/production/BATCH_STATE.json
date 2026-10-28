@@ -5323,8 +5323,8 @@
         "species": "#11 Aegolius funereus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:13:05.276+08:00",
-        "expires_at": "2026-10-28T08:28:05.276+08:00"
+        "heartbeat_at": "2026-10-28T08:14:27.101+08:00",
+        "expires_at": "2026-10-28T08:29:27.101+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -5332,17 +5332,34 @@
         "species": "#11 Aegolius funereus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T08:13:05.276+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T08:14:27.101+08:00",
         "evidence": {
-          "previous_versions": [
-            "v1 user-approved concept preserved",
-            "v2 early nestling revision preserved"
+          "source_ids_new": [
+            "BOR-KOUBA-2015-FLEDGING",
+            "BOR-KORPIMAKI-HAKKARAINEN-2012-P7"
+          ],
+          "source_ids_reused": [
+            "BOR-MIK2013-440",
+            "BOR-KOUBA-2014"
+          ],
+          "source_ids_corrected": [],
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "fresh_research": "PLOS 2015 paper, PLOS 2014 paper, Mikkola pp.440–443/PDF442–445 and Cambridge 2012 pp.6–7/PDF21–22 actually read.",
+          "design_boundary": "Approx. 30–33d cavity-edge/recent fledgling, dark chocolate mesoptile/white eyebrows/formed incomplete wing-tail/full support.",
+          "full_prompt_saved": "owl-pet/research/species/11-aegolius-funereus-v3.md",
+          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the established warm hand-painted digital gouache style of the owl-pet archive: parchment cream background, subtle paper grain, restrained boreal color, clean dark-brown taxonomy typography, and a shallow old-conifer environmental vignette. Exact header text: \"11 · BOREAL OWL · Aegolius funereus\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center perch at the same baseline on adjacent broad spruce/aspen branches beside a natural woodpecker cavity; show the female noticeably fuller/heavier than the male but not grotesquely taller. Both adults: small round head, absolutely no ear tufts, bright yellow eyes, yellowish-horn bill and cere, round whitish facial disc surrounded by a dark ruff with tiny white marks, gray-brown to dark earth-brown upperparts with small white crown dots and larger pearl-white back/wing-covert spots, whitish underparts with broad gray-brown mottling and streaks, short dark tail with pale spot rows, densely feathered tarsi and toes gripping bark. Juvenile right is approximately 30–33 days old, at the natural cavity lip or immediately adjacent broad branch, recently fledging but not a competent flier: fairly uniform dark chocolate-brown mesoptile, even darker sooty face, very distinct whitish eyebrows plus pale lores/bill-base and short pale chin-side marks, pale yellow-grey to yellow eyes, a few small white scapular/wing-covert spots, formed but still incompletely grown folded flight feathers and short tail, both feet and lower body fully supported, cautious crouched/perching posture. Do not give the juvenile adult white streaked underparts, adult pearl-spotted crown, long adult wings, spread wings, airborne pose or exposed pink hatchling skin. Include old boreal spruce/aspen, a natural woodpecker cavity and light forest floor context; no box unless only as a very distant research cue. Comparative review board, not a literal family moment. Exactly three owls and exact title/labels only; no extra text, prey, eggs, logos, borders or measuring marks.",
+          "remaining_unknowns": [
+            "exact day",
+            "continuous feather map",
+            "standing-height ratio",
+            "subspecies",
+            "universal cavity/box geometry"
           ],
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T08:13:05.276+08:00",
+      "last_updated_at": "2026-10-28T08:14:27.101+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5356,7 +5373,8 @@
         "2026-10-28T08:09:20.215+08:00: cycle2 #10 REVIEWED PASS_WITH_LIMITATIONS after one targeted imagegen edit; female now subtly fuller and juvenile wing softened/shortened with adult-like white spots removed. Exact juvenile day and continuous feather sequence remain unknown; no credit.",
         "2026-10-28T08:11:06.404+08:00: #10 v3 ARCHIVED tree prepared; concept 01245cbd, generated b47b4109, reviewed 464d2c91; manifest 444→445; unique remains 184/251. Readback pending; no cycle credit.",
         "2026-10-28T08:12:09.687+08:00: cycle2 VERIFIED #10 Surnia ulula v3; archive 58a4e129a08c7f080bbee8016058a700f3072e35, concept 01245cbd, generated b47b4109, reviewed 464d2c91. Unique remains 184/251; batch 2/6, next_cycle 3; lease released.",
-        "2026-10-28T08:13:05.276+08:00: cycle3 STARTED canonical #11 Aegolius funereus v3 SCIENCE_REVISION; v1/v2 and v1 user approval preserved; no credit."
+        "2026-10-28T08:13:05.276+08:00: cycle3 STARTED canonical #11 Aegolius funereus v3 SCIENCE_REVISION; v1/v2 and v1 user approval preserved; no credit.",
+        "2026-10-28T08:14:27.101+08:00: cycle3 #11 v3 RESEARCH_READY; 2 new/2 reused sources including two primary PLOS studies, Mikkola and Cambridge synthesis. Full prompt saved; science false; no credit."
       ]
     }
   ],
@@ -5469,10 +5487,10 @@
     "species": "#11 Aegolius funereus",
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "heartbeat_at": "2026-10-28T08:13:05.276+08:00",
-    "expires_at": "2026-10-28T08:28:05.276+08:00"
+    "heartbeat_at": "2026-10-28T08:14:27.101+08:00",
+    "expires_at": "2026-10-28T08:29:27.101+08:00"
   },
-  "last_updated_at": "2026-10-28T08:13:05.276+08:00",
+  "last_updated_at": "2026-10-28T08:14:27.101+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

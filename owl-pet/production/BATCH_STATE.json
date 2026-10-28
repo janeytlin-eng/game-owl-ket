@@ -5853,8 +5853,8 @@
         "run_id": "20261028T1626+0800-newbatch-cycle-2",
         "cycle": 2,
         "species": "#34 Glaucidium hardyi",
-        "heartbeat_at": "2026-10-28T16:35:00+08:00",
-        "expires_at": "2026-10-28T16:50:00+08:00"
+        "heartbeat_at": "2026-10-28T16:37:00+08:00",
+        "expires_at": "2026-10-28T16:52:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5862,8 +5862,8 @@
         "species": "#34 Glaucidium hardyi",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T16:35:00+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T16:37:00+08:00",
         "evidence": {
           "new_sources": [
             "APOW-DEVILLE-INGELS-2012",
@@ -5893,8 +5893,8 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1626+0800-newbatch-cycle-2",
-        "heartbeat_at": "2026-10-28T16:35:00+08:00",
-        "expires_at": "2026-10-28T16:50:00+08:00"
+        "heartbeat_at": "2026-10-28T16:37:00+08:00",
+        "expires_at": "2026-10-28T16:52:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -5903,7 +5903,7 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T1626+0800-newbatch-cycle-2.md",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "stage_evidence": {
           "STARTED": {
             "at": "2026-10-28T16:26:00+08:00",
@@ -5934,6 +5934,13 @@
             "inspection": "actual 1536x1024 view",
             "edit_required": false,
             "science_pass": false
+          },
+          "ARCHIVED": {
+            "at": "2026-10-28T16:37:00+08:00",
+            "concept_path": "owl-pet/design/concepts/34-glaucidium-hardyi-v3.png",
+            "concept_blob_sha": "a7cf4c26294ffac909a468a9e7c5f54668b0ac95",
+            "concept_bytes": 198499,
+            "manifest_count": 463
           }
         }
       }

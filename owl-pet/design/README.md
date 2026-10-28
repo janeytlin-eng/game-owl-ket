@@ -1553,3 +1553,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #33 *Taenioptynx brodiei* v3 — SCIENCE_REVISION, primary-study approximately 56-day full-grown supported fledgling; [concept](concepts/33-taenioptynx-brodiei-v3.png) · [research](../knowledge/species/33-taenioptynx-brodiei.md) · [run](../production/runs/20261028T1610+0800-newbatch-cycle-1.md). Science pending.
+
+
+- #34 *Glaucidium hardyi* v3 — primary-study almost-full-grown cavity nestling; [concept](concepts/34-glaucidium-hardyi-v3.png) · [research](../knowledge/species/34-glaucidium-hardyi.md) · [run](../production/runs/20261028T1626+0800-newbatch-cycle-2.md). Science pending.

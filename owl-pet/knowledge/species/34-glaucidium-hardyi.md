@@ -35,3 +35,8 @@
 ## v3 research (2026-10-28)
 
 Deville & Ingels primary paper pp.23–26 was read. It documents an old woodpecker hole ~25 m high with an almost full-grown young photographed at the entrance, but no exact age or flight threshold. V3 uses that supported cavity stage; science false.
+
+
+### v3成图
+
+概念图 `design/concepts/34-glaucidium-hardyi-v3.png`，680×453，198499 bytes，SHA-256 `8f31bb01e7e10138ef1db3c5863e241f0c8b714481b4a3d70ef7ece5de186c89`。原图检查通过：成年灰头/褐背/假眼与幼鸟无斑头顶、柔和腹纹及洞口完整支撑；无编辑；科学false。

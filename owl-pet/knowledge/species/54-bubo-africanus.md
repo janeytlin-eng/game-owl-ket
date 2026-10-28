@@ -48,3 +48,14 @@
 - SHA-256: `e7a94e20a08c3f7ab8c7a822da7a4e0129a18699460b999ce8860b6c967f740f`
 - Dimensions/size: 1350×900, 733826 bytes.
 - Scientific status: production/archive evidence-bounded; scientific calibration remains pending.
+
+
+## v3 research increment — 2026-10-29
+
+- Freshly reread SANBI “Sex and life cycles” lines 62–69: chicks leave at about six weeks but cannot yet fly; wing feathers are well grown, tail feathers are about half final length, and down remains on head/underparts. Flight starts at about seven weeks.
+- Freshly reread BDI lines 40–66: sexes described alike in colour and size; juvenile resembles adults but retains fluffy down and weaker tufts; exploration begins at about 4–6 weeks.
+- Freshly reread Ansara-Ross et al. 2008: only tarsus length was significantly sex-different in the sampled *B. africanus* adults; no dramatic standing-height ratio is justified.
+- New cross-check SEO-OWLPAGES-2020 supports the 4–6-week leaving / 7-week flight boundary, but its female-heavier summary is not converted into a fixed visual ratio.
+- Correction to v2: hidden/very short tail and short rounded wing were too conservative for the selected approximately-six-week stage. V3 requires well-grown folded wings, a visible tail about half adult length, retained head/underpart down, full rock support and no flight.
+- Uploaded Mikkola guide could not be read in this run; no page citation is added.
+- Unknown: exact feather geometry, exact individual age, regional/subspecies variation and quantitative sex ratio. Scientific status remains false.

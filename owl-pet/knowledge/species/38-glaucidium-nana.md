@@ -54,3 +54,5 @@
 - First render retained adult-like white wing spots, long hard remiges and an overly mature barred tail on the juvenile. One targeted edit removed the crisp spot rows and shortened/softened wing and tail.
 - Final recheck: exact title/labels and exactly three supported birds; adults remain near-equal with the male nape false-eye view; juvenile has a plain crown, diffuse fluffy body, softer shortened folded wing, shorter weakly barred tail and secure two-foot branch support.
 - Scientific status remains pending: the exact depicted age, full feather chronology, flight-independence threshold, quantified sex-size ratio and population variation remain unknown.
+
+- v3 archive commit: `1c72a6d71b412d0a43f5a3066a978850104cece7`; fixed-commit readback matched concept/generated/reviewed blobs and metadata markers at 2026-10-28T18:54:00+08:00.

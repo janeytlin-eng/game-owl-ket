@@ -1,7 +1,7 @@
 ## 38 · Austral Pygmy-Owl · *Glaucidium nana* v3
 
 - [Original PNG](concepts/38-glaucidium-nana-v3.png) · 680×453 indexed PNG · 192,686 bytes · SHA-256 `0958aedac1b0bb3b6ce268695c823e3c00bc4faa20d58a4aba2d22c7627a9bc3`
-- Git blob `eb9174c2ecb68033bb6368fb6eb473f151c505c4`. SCIENCE_REVISION: primary field evidence now supports a fully branch-supported fledgling stage; one targeted edit removed adult-like juvenile wing spots/hard remiges and shortened the mature-looking tail. Science remains pending because exact age and feather/flight chronology are unresolved.
+- Git blob `eb9174c2ecb68033bb6368fb6eb473f151c505c4`; archive commit [`1c72a6d7`](https://github.com/janeytlin-eng/game-owl-ket/commit/1c72a6d71b412d0a43f5a3066a978850104cece7). SCIENCE_REVISION: primary field evidence now supports a fully branch-supported fledgling stage; one targeted edit removed adult-like juvenile wing spots/hard remiges and shortened the mature-looking tail. Science remains pending because exact age and feather/flight chronology are unresolved.
 - [Sources](../research/SOURCE_INDEX.md#2026-10-28-38-glaucidium-nana-v3-evidence-increment) · [Species record](../knowledge/species/38-glaucidium-nana.md) · [Run](../production/runs/20261028T1828+0800-cycle-6.md)
 
 ## 11 · Boreal Owl · *Aegolius funereus* v3

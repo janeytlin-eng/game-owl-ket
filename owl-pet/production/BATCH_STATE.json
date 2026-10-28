@@ -5832,7 +5832,7 @@
     },
     {
       "batch_id": "2026-10-28T1610+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -5889,38 +5889,56 @@
           "commit_sha": "2419a6693320dd1959f538be17b81b2174f23f70",
           "run_record": "owl-pet/production/runs/20261028T1758+0800-cycle-5.md",
           "verified_at": "2026-10-28T18:10:00+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Glaucidium nana",
+          "species_id": 38,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1c72a6d71b412d0a43f5a3066a978850104cece7",
+          "run_record": "owl-pet/production/runs/20261028T1828+0800-cycle-6.md",
+          "verified_at": "2026-10-28T18:54:00+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261028T1828+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T18:49:30+08:00",
-        "expires_at": "2026-10-28T19:04:30+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
         "run_id": "20261028T1828+0800-cycle-6",
         "species": "#38 Glaucidium nana",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T18:49:30+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-28T18:54:00+08:00",
         "evidence": {
-          "reviewed_commit": "4cd4a0cb67f6cfd5f6175fbc2137f277bc20d539",
-          "reviewed_path": "owl-pet/production/reviewed/38-glaucidium-nana-v3-reviewed-master.jpg",
-          "reviewed_blob": "2bc8b9c3a7db094c422a4ca42d7ef48ba8b7eb8e",
-          "reviewed_sha256": "89039d70befeaea3460adc9fb787591069281c1d05629d2fd18bd14a6bfe1bc9",
-          "reviewed_bytes": 435888,
-          "dimensions": "1536x1024",
-          "edit_count": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "concept_blob_prepared": "eb9174c2ecb68033bb6368fb6eb473f151c505c4",
+          "new_sources": [
+            "AUPO-IBARRA-2015",
+            "AUPO-ALTAMIRANO-2012"
+          ],
+          "reused_sources": [
+            "AUPO-IBARRA-2014",
+            "SRC-BOOK-038-01",
+            "SRC-WEB-038-02",
+            "SRC-WEB-038-03"
+          ],
+          "corrected_sources": 0,
+          "archive_commit": "1c72a6d71b412d0a43f5a3066a978850104cece7",
+          "concept_path": "owl-pet/design/concepts/38-glaucidium-nana-v3.png",
+          "concept_blob": "eb9174c2ecb68033bb6368fb6eb473f151c505c4",
           "concept_sha256": "0958aedac1b0bb3b6ce268695c823e3c00bc4faa20d58a4aba2d22c7627a9bc3",
+          "concept_bytes": 192686,
+          "generated_blob": "fa1b8d521884258cff390d0afe1da9f84f157b43",
+          "reviewed_blob": "2bc8b9c3a7db094c422a4ca42d7ef48ba8b7eb8e",
+          "readback_paths": 8,
+          "marker_checks": "PASS",
+          "unique_species_after": "184/251",
+          "batch_cumulative": "6/6",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T18:49:30+08:00",
+      "last_updated_at": "2026-10-28T18:54:00+08:00",
       "audit_notes": [
         "2026-10-28T16:10:00+08:00: new batch cycle1 STARTED #33 Taenioptynx brodiei v3 SCIENCE_REVISION; v1-v2 preserved; no credit.",
         "2026-10-28T16:15:00+08:00: cycle1 #33 v3 RESEARCH_READY; new2/reused2/corrected1; known 56-day fledgling boundary selected; science false.",
@@ -5941,23 +5959,11 @@
         "2026-10-28T18:28:40+08:00: cycle6 STARTED #38 Glaucidium nana v3 SCIENCE_REVISION; v1-v2 preserved; lease to 18:43:40; no credit.",
         "2026-10-28T18:32:00+08:00: cycle6 #38 v3 RESEARCH_READY; new2/reused4/corrected0; field-documented fledgling boundary; complete prompt persisted; science false.",
         "2026-10-28T18:44:00+08:00: cycle6 #38 v3 IMAGE_GENERATED persisted at a180ba682392f16f4014c01c7c68dad3ca0c4740; juvenile wing/tail edit required and executed; REVIEWED persistence pending; no credit.",
-        "2026-10-28T18:49:30+08:00 cycle 6 REVIEWED: one targeted juvenile-wing/tail edit passed actual-image review; archive pending."
+        "2026-10-28T18:49:30+08:00 cycle 6 REVIEWED: one targeted juvenile-wing/tail edit passed actual-image review; archive pending.",
+        "2026-10-28T18:54:00+08:00 cycle 6 VERIFIED; archive 1c72a6d71b412d0a43f5a3066a978850104cece7; batch COMPLETE 6/6."
       ],
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261028T1828+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T18:49:30+08:00",
-        "expires_at": "2026-10-28T19:04:30+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "run_id": "20261028T1828+0800-cycle-6",
-        "species": "#38 Glaucidium nana",
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "run_record": "owl-pet/production/runs/20261028T1828+0800-cycle-6.md"
-      },
+      "lease": null,
+      "in_progress": null,
       "invalidated_checkpoints": [
         {
           "cycle": 3,
@@ -5967,15 +5973,11 @@
           "reason": "Invalid species-number mapping: manifest and canonical knowledge map #35 to Glaucidium jardinii. Preserved as orphan research lead; no image generated and no cycle credit.",
           "invalidated_at": "2026-10-28T17:34:00+08:00"
         }
-      ]
+      ],
+      "completed_at": "2026-10-28T18:54:00+08:00"
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261028T1828+0800-cycle-6",
-    "heartbeat_at": "2026-10-28T18:49:30+08:00",
-    "expires_at": "2026-10-28T19:04:30+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -6068,7 +6070,7 @@
     "2026-10-28T03:54:53.033+08:00: cycle3 #178 REVIEWED; first generation passed original and derivative checks; no edit; science false.",
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false."
   ],
-  "updated_at": "2026-10-28T18:49:30+08:00",
+  "updated_at": "2026-10-28T18:54:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -6076,13 +6078,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261028T1828+0800-cycle-6",
-    "heartbeat_at": "2026-10-28T18:49:30+08:00",
-    "expires_at": "2026-10-28T19:04:30+08:00"
-  },
-  "last_updated_at": "2026-10-28T18:49:30+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-28T18:54:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -6181,7 +6178,8 @@
     "2026-10-28T10:35:00.000+08:00: new batch 2026-10-28T1035+0800 cycle1 STARTED #27 v3; no credit.",
     "2026-10-28T10:38:00.000+08:00: #27 v3 RESEARCH_READY; 20-day evidence boundary saved.",
     "2026-10-28T10:41:00.000+08:00: #27 v3 IMAGE_GENERATED; juvenile wing edit required.",
-    "2026-10-28T18:49:30+08:00 batch 2026-10-28T1610+0800 cycle 6 REVIEWED."
+    "2026-10-28T18:49:30+08:00 batch 2026-10-28T1610+0800 cycle 6 REVIEWED.",
+    "2026-10-28T18:54:00+08:00 batch 2026-10-28T1610+0800 closed COMPLETE 6/6 after fixed-commit readback."
   ],
   "audit_trail": [
     {

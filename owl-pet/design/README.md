@@ -1780,3 +1780,10 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - #69 Australian Masked Owl v3 — concept `cb7580aaf3a5de8b11a93beec51062271cc1d984` (348592 B), master `ad1128dccb4f977d549de5ba6074cce30cd4410a` (432568 B), crop `db88fbd04a20eea1165a4849e2a706b8fc5dc144` (100908 B); readback pending; science false.
 
 - 2026-10-29T06:59:13.345+08:00: #69 v3 fixed-tree VERIFIED at `45f6711e9fc7fe117770b62494827b4b7d30877e`; science false.
+
+
+### 2026-10-29 — Flight-capable recent fledglings: keep developed wings, soften age signal instead
+
+- **Observed failure:** an evidence-bounded recent fledgling was initially drawn with correct wing length but crisp, repeated adult-like bars; simultaneously, the adult pair exaggerated a weak sex-size direction.
+- **Applied rule:** when field evidence shows young can fly immediately after leaving a hollow, do not regress the design to wing buds or a hidden tail. Preserve developed folded wings, visible tail and gripping support; carry youth through downier head/underparts, broader paler bars, softer edges and sparse streaking. Treat “marginally smaller” adult sex direction as near-equal visual mass unless a source supports a stronger gap.
+- **Verified here:** #70 *Ninox strenua* v3 passed a full-image and juvenile-crop recheck after one targeted edit. This rule is applied and verified for this plate only; extension to other taxa requires species-specific evidence.

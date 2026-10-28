@@ -6565,28 +6565,25 @@
         "species": "Ninox strenua",
         "version": 3,
         "acquired_at": "2026-10-29T07:34:15.766+08:00",
-        "heartbeat_at": "2026-10-29T07:41:24.032+08:00",
-        "expires_at": "2026-10-29T07:56:24.032+08:00"
+        "heartbeat_at": "2026-10-29T07:42:41.901+08:00",
+        "expires_at": "2026-10-29T07:57:41.901+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261029T0734+0800-cycle-5",
         "evidence": {
-          "reviewed_master": "owl-pet/production/reviewed/70-ninox-strenua-v3-reviewed-master.jpg",
-          "review_crop": "owl-pet/production/reviewed/70-ninox-strenua-v3-juvenile-review-crop.jpg",
-          "master_dimensions": "1536x1024",
-          "master_size_bytes": 663011,
-          "master_sha256": "212af1a2244c89340c34338210241fb5dcdbb7833fb774701c3a1153bdd0342e",
-          "crop_dimensions": "650x650",
-          "crop_size_bytes": 229640,
-          "crop_sha256": "53270c641e5bb433f41c4925bc7bc4f484cbb8700c57242cf074cfe4c7b57b09",
-          "correction": "adult sizes near-equal with male only modestly fuller; juvenile wing bars softened and broadened while developed wing/tail and support retained",
-          "result": "PASS_CONCEPT_SCIENCE_PENDING",
-          "scientifically_verified": false
+          "concept": "owl-pet/design/concepts/70-ninox-strenua-v3.jpg",
+          "concept_blob": "8f8255932adc7bfec472012809ca2e6fde44200c",
+          "concept_size_bytes": 548079,
+          "generated_blob": "0edf4ff36ddec5e5176e4dcb728cf92232bab2bd",
+          "reviewed_blob": "932de98df44e071a6f92e728f6ab7a04464971db",
+          "review_crop_blob": "6cdf5812a8854b766ae3bc8ac3d6735e9054847d",
+          "manifest_record": 496,
+          "readback_pending": true
         }
       },
-      "last_updated_at": "2026-10-29T07:41:24.032+08:00",
+      "last_updated_at": "2026-10-29T07:42:41.901+08:00",
       "audit_notes": [
         "2026-10-29T05:56:32.572+08:00: new batch cycle1 STARTED #65 Tyto soumagnei v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T05:57:51.982+08:00: cycle1 #65 v3 RESEARCH_READY; new0/reused2/corrected1; Peregrine Fund opened, primary first-nest record reused; full prompt saved; science false; no credit.",
@@ -6616,7 +6613,8 @@
         "2026-10-29T07:34:15.766+08:00: cycle5 STARTED #70 Ninox strenua v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T07:37:09.404+08:00: cycle5 #70 v3 RESEARCH_READY; new3/reused5/corrected1; primary field development, government, museum and HANZAB sources actually read; full prompt saved; science false; no credit.",
         "2026-10-29T07:41:00.200+08:00: cycle5 #70 v3 IMAGE_GENERATED; 1536x1024 first render opened; count/text/adult identity/hollow/support pass; adult size gap and adult-like juvenile wing bars flagged for targeted edit; no credit.",
-        "2026-10-29T07:41:24.032+08:00: cycle5 #70 v3 REVIEWED after one targeted imagegen edit; full 1536x1024 image and 650x650 juvenile crop reopened. Adult sizes near-equal, juvenile broad soft wing bars, developed wing/tail, supported feet, exact text/count and hollow pass; science false; no credit."
+        "2026-10-29T07:41:24.032+08:00: cycle5 #70 v3 REVIEWED after one targeted imagegen edit; full 1536x1024 image and 650x650 juvenile crop reopened. Adult sizes near-equal, juvenile broad soft wing bars, developed wing/tail, supported feet, exact text/count and hollow pass; science false; no credit.",
+        "2026-10-29T07:42:41.901+08:00: cycle5 #70 v3 ARCHIVED; concept 8f8255932a/548079B, generated 0edf4ff36d/739875B, reviewed 932de98df4/663011B, crop 6cdf5812a8/229640B; manifest496; fixed readback pending; no credit."
       ],
       "lease": null,
       "in_progress": null
@@ -6727,7 +6725,7 @@
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false.",
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit."
   ],
-  "updated_at": "2026-10-29T07:41:24.032+08:00",
+  "updated_at": "2026-10-29T07:42:41.901+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -6744,10 +6742,10 @@
     "species": "Ninox strenua",
     "version": 3,
     "acquired_at": "2026-10-29T07:34:15.766+08:00",
-    "heartbeat_at": "2026-10-29T07:41:24.032+08:00",
-    "expires_at": "2026-10-29T07:56:24.032+08:00"
+    "heartbeat_at": "2026-10-29T07:42:41.901+08:00",
+    "expires_at": "2026-10-29T07:57:41.901+08:00"
   },
-  "last_updated_at": "2026-10-29T07:41:24.032+08:00",
+  "last_updated_at": "2026-10-29T07:42:41.901+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -6875,6 +6873,6 @@
     "species_id": 70,
     "species": "Ninox strenua",
     "version": 3,
-    "stage": "REVIEWED"
+    "stage": "ARCHIVED"
   }
 }

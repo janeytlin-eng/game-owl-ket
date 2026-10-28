@@ -6514,36 +6514,38 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261029T0557+0800-cycle-1",
-        "heartbeat_at": "2026-10-29T06:37:20.928+08:00",
-        "expires_at": "2026-10-29T06:52:20.928+08:00"
+        "heartbeat_at": "2026-10-29T06:38:08.327+08:00",
+        "expires_at": "2026-10-29T06:53:08.327+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261029T0557+0800-cycle-1",
         "evidence": {
           "generated_path": "owl-pet/production/generated/65-tyto-soumagnei-v3-generated-master.jpg",
           "generated_blob": "6a134e7f78ad1123035e10d71c4849456c245031",
           "generated_size_bytes": 747471,
-          "generated_sha256": "cc128796996d52a87527c5fb0ce232f8a1a2a452709a9fe74649f4232c484c1d",
-          "dimensions": "1536x1024",
-          "generation_wait_seconds": 71.3,
-          "visual_check": "FULL_FRAME_PASS_PENDING_CLOSE_REVIEW",
+          "reviewed_path": "owl-pet/production/reviewed/65-tyto-soumagnei-v3-reviewed-master.jpg",
+          "reviewed_blob": "6a134e7f78ad1123035e10d71c4849456c245031",
+          "reviewed_size_bytes": 747471,
+          "recheck": "full 1536x1024 and 620x620 juvenile crop opened; text/count/adults/juvenile developed wing-tail/natural grip/cavity pass",
+          "edit_required": false,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T06:37:20.928+08:00",
+      "last_updated_at": "2026-10-29T06:38:08.327+08:00",
       "audit_notes": [
         "2026-10-29T05:56:32.572+08:00: new batch cycle1 STARTED #65 Tyto soumagnei v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T05:57:51.982+08:00: cycle1 #65 v3 RESEARCH_READY; new0/reused2/corrected1; Peregrine Fund opened, primary first-nest record reused; full prompt saved; science false; no credit.",
         "2026-10-29T06:35:09.085+08:00: expired RESEARCH_READY lease audited against unchanged main e71ba4325e7fc1c7c987137e56a04c086f696e7f; same cycle1 run resumed without repeating research; 15-minute lease reacquired; no credit.",
-        "2026-10-29T06:37:20.928+08:00: cycle1 #65 v3 IMAGE_GENERATED; full 1536x1024 output opened. Text/count/adults/recent-fledgling structure/cavity/support pass; close review pending; no credit."
+        "2026-10-29T06:37:20.928+08:00: cycle1 #65 v3 IMAGE_GENERATED; full 1536x1024 output opened. Text/count/adults/recent-fledgling structure/cavity/support pass; close review pending; no credit.",
+        "2026-10-29T06:38:08.327+08:00: cycle1 #65 v3 REVIEWED; full image and juvenile crop reopened. First render passed; no edit needed. Adult identity/text/support and fully feathered branch-capable recent fledgling pass; science false; no credit."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261029T0557+0800-cycle-1",
-        "heartbeat_at": "2026-10-29T06:37:20.928+08:00",
-        "expires_at": "2026-10-29T06:52:20.928+08:00"
+        "heartbeat_at": "2026-10-29T06:38:08.327+08:00",
+        "expires_at": "2026-10-29T06:53:08.327+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -6552,7 +6554,7 @@
         "species_id": 65,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       }
     }
   ],
@@ -6793,6 +6795,6 @@
     "species_id": 65,
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "stage": "IMAGE_GENERATED"
+    "stage": "REVIEWED"
   }
 }

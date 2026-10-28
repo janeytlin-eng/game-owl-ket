@@ -1550,3 +1550,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #32 *Glaucidium castanotum* v3 — SCIENCE_REVISION, dated Sinharaja age-unknown fully feathered older juvenile, with redder mantle/fewer chest bars separating the species from #31; [concept](concepts/32-glaucidium-castanotum-v3.png) · [research](../knowledge/species/32-glaucidium-castanotum.md) · [run](../production/runs/20261028T1548+0800-cycle-6.md). First render passed without edit; exact age/flight/continuous feather sequence remain unknown; science pending.
+
+
+- #33 *Taenioptynx brodiei* v3 — SCIENCE_REVISION, primary-study approximately 56-day full-grown supported fledgling; [concept](concepts/33-taenioptynx-brodiei-v3.png) · [research](../knowledge/species/33-taenioptynx-brodiei.md) · [run](../production/runs/20261028T1610+0800-newbatch-cycle-1.md). Science pending.

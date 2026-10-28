@@ -36,3 +36,8 @@
 ## v3 research (2026-10-28)
 
 Lin et al. primary banding/museum study adds a known-age anchor: one bird hatched 15 June, fledged 5 July and at 56 days was full-grown but less barred/spotted with incomplete occipital pattern. Rufous and gray are sequential age plumages, not sex morphs; sex mass ranges overlap. V3 therefore uses an approximately 56-day supported fledgling, no exact universal calendar or independence claim. Science false.
+
+
+### v3成图与复查
+
+最终图 `design/concepts/33-taenioptynx-brodiei-v3.png`（680×453，190159 bytes，SHA-256 `c00520cb139dc336661afd220e96fc80ee5c697ad5e63c4ddbc088d5a584ce29`）。原图复查通过：成年灰色终羽与成对假眼、雌雄近等高；约56日龄幼鸟更褐、斑纹较少、仅单侧不完整枕斑且双足支撑。首稿无需编辑；科学状态false。

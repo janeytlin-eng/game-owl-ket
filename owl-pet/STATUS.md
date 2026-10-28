@@ -1,3 +1,9 @@
+## 2026-10-28 #46 *Strix ocellata* v3 VERIFIED
+
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; batch **2/6**, next cycle **3**.
+- [Original concept](design/concepts/46-strix-ocellata-v3.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/ed3a57ce0d4d1992a6124db20a10e1c8bde4e666)
+- Fixed readback passed for three binaries and manifest/source/card/run/state/status/design. Scientific calibration remains false.
+
 ## 2026-10-28 #46 *Strix ocellata* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **1/6** until fixed verification.

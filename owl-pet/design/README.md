@@ -2,7 +2,7 @@
 
 - Concept: [46-strix-ocellata-v3.png](concepts/46-strix-ocellata-v3.png)
 - Research: [species card](../knowledge/species/46-strix-ocellata.md) · [source index](../research/SOURCE_INDEX.md#2026-10-28-46-strix-ocellata-v3-evidence-correction)
-- Stage: ARCHIVED, fixed-commit verification pending. Field-measured day-34–36 supported brancher; one juvenile-wing edit; science false.
+- Stage: VERIFIED at `ed3a57ce0d4d1992a6124db20a10e1c8bde4e666`; fixed binary and metadata readback passed. Field-measured day-34–36 supported brancher; one juvenile-wing edit; science false.
 
 ## #45 Spotted Wood Owl — *Strix seloputo* — v3 science revision
 

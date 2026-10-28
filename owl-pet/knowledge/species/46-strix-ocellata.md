@@ -100,3 +100,6 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Generated/reviewed blobs: `4e3083f87f09f6f0cd7b75badaa5bfcc8f2f97ba` / `a2a72bb29d8bc93874a048d04902a91967e80e6d`.
 - First juvenile wing was too adult-like; one juvenile-only edit produced a shorter rounded pale mesoptile wing and concealed tail while retaining strong branch-walking support. Full edited image and derivative passed with limitations.
 - Unknown: daily plumage sequence, exact flight day, transfer from four birds/two nests and quantified dimorphism. Science false; fixed readback pending.
+
+
+- 2026-10-28T23:06:00+08:00 — v3 independently verified at archive `ed3a57ce0d4d1992a6124db20a10e1c8bde4e666`; binary blobs/bytes/signatures and manifest/source/card/run/state/status/design matched. Batch 2/6, next cycle 3; science false.

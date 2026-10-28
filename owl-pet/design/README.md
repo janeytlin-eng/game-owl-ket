@@ -1578,3 +1578,10 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 ### Incremental evidence-tier rule — tentative immature captions
 
 When a species-specific immature image caption is explicitly tentative (for example “believed to be”), apply only the narrow visible/worded boundary it supports. For a recent fledgling described as unspotted, remove crisp adult spot rows from crown/back/wing while retaining a formed, compact, naturally supported folded wing. Do not infer exact age, downy nestling plumage, flight ability or a full feather sequence. This rule was applied and visually rechecked on #40 v3; broader effectiveness remains unverified.
+
+
+- #41 *Glaucidium cobanense* v3 — SCIENCE_REVISION; field-research text identifies a brown-morph juvenile and juveniles at the nest entrance, while a 2011 paper documents a brown-morph male at the nest. [concept](concepts/41-glaucidium-cobanense-v3.png) · [research](../knowledge/species/41-glaucidium-cobanense.md) · [run](../production/runs/20261028T2006+0800-cycle-3.md). One juvenile crown/wing edit; exact age, feather chronology, sex metrics and flight remain unknown; science pending.
+
+### Incremental morph-versus-sex rule
+
+A documented rufous/brown morph is not evidence of sexual dichromatism. Unless a source links morph to sex, keep adult male and female in the same morph and encode sex only through sourced features or distinct poses. Applied and visually rechecked on #41 v3; broader effectiveness remains unverified.

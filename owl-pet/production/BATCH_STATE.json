@@ -6008,14 +6008,14 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261028T2006+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T20:22:30+08:00",
-        "expires_at": "2026-10-28T20:37:30+08:00"
+        "heartbeat_at": "2026-10-28T20:25:00+08:00",
+        "expires_at": "2026-10-28T20:40:00+08:00"
       },
       "lease": {
         "owner": "codex",
         "run_id": "20261028T2006+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T20:22:30+08:00",
-        "expires_at": "2026-10-28T20:37:30+08:00"
+        "heartbeat_at": "2026-10-28T20:25:00+08:00",
+        "expires_at": "2026-10-28T20:40:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -6023,7 +6023,7 @@
         "species": "#41 Glaucidium cobanense",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261028T2006+0800-cycle-3.md"
       },
       "cycle_checkpoint": {
@@ -6032,20 +6032,19 @@
         "species": "#41 Glaucidium cobanense",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
-        "at": "2026-10-28T20:22:30+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-28T20:25:00+08:00",
         "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/41-glaucidium-cobanense-v3-reviewed-master.jpg",
-          "reviewed_blob": "9f59f8ce5f3c90143cc6e7158844453db80fa7d0",
           "concept_path": "owl-pet/design/concepts/41-glaucidium-cobanense-v3.png",
           "concept_blob": "5476ff35dc18b420e566fbf5574ed42f49e3bfe1",
-          "edit_count": 1,
-          "edit_seconds": 42.751,
-          "review": "PASS_WITH_LIMITATIONS",
+          "generated_blob": "059d824c05a0ced9b3926adce23e62ec1af8285e",
+          "reviewed_blob": "9f59f8ce5f3c90143cc6e7158844453db80fa7d0",
+          "manifest_count": 470,
+          "readback_pending": true,
           "science_calibrated": false
         }
       },
-      "last_updated_at": "2026-10-28T20:22:30+08:00",
+      "last_updated_at": "2026-10-28T20:25:00+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6063,7 +6062,8 @@
         "2026-10-28T20:06:00+08:00 cycle3 STARTED #41 Glaucidium cobanense v3 SCIENCE_REVISION; no credit.",
         "2026-10-28T20:11:30+08:00 cycle3 #41 v3 RESEARCH_READY; new2/reused4/corrected1; full prompt saved; science false; no credit.",
         "2026-10-28T20:17:30+08:00 cycle3 #41 v3 IMAGE_GENERATED; first original view needs juvenile crown/wing edit; no credit.",
-        "2026-10-28T20:22:30+08:00 cycle3 #41 v3 REVIEWED after one juvenile-only edit; original and derivative passed with limitations; no credit."
+        "2026-10-28T20:22:30+08:00 cycle3 #41 v3 REVIEWED after one juvenile-only edit; original and derivative passed with limitations; no credit.",
+        "2026-10-28T20:25:00+08:00 cycle3 #41 v3 ARCHIVED; manifest 469→470; fixed readback pending; no credit."
       ]
     }
   ],

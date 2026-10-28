@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T20:03:30+08:00",
+  "updated": "2026-10-28T20:25:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5683,7 +5683,35 @@
       "readback_pending": false,
       "archive_commit": "34bab668db91a953d25061febce615ddb7e79fda",
       "verified_at": "2026-10-28T20:03:30+08:00"
+    },
+    {
+      "id": "41-glaucidium-cobanense-v3",
+      "path": "design/concepts/41-glaucidium-cobanense-v3.png",
+      "species_id": 41,
+      "scientific_name": "Glaucidium cobanense",
+      "common_name": "Guatemalan Pygmy-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "5eafc8ee0f4fbb0ff4e49c61bb842514b08c4dee1187bf1cf3a0396f9b663994",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using the field-research page's brown-morph juvenile/nest-entrance captions and a 2011 adult/nest paper: same-morph near-equal adults, male false-eye view, and a supported brown-morph mesoptile with plain gray-brown crown, diffuse forehead, compact soft wing and short tail. Exact age, continuous feather sequence, sex metrics and flight remain unknown.",
+      "source_ids": [
+        "GUPO-BSG-2026",
+        "GUPO-HOWELL-EISERMANN-2011",
+        "SRC-BOOK-041-01",
+        "SRC-PAPER-041-02",
+        "SRC-WEB-041-03",
+        "SRC-WEB-041-04"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-41-glaucidium-cobanense-v3-evidence-increment",
+      "run_record": "production/runs/20261028T2006+0800-cycle-3.md",
+      "reviewed_at": "2026-10-28T20:22:30+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 233474,
+      "git_blob": "5476ff35dc18b420e566fbf5574ed42f49e3bfe1",
+      "archive_note": "First render passed adult/count/text/support checks but juvenile crown flecks and wing layering were too adult-like. One targeted edit removed crisp crown spots and mature remige layering; original and derivative passed. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-28T20:03:30+08:00"
+  "updated_at": "2026-10-28T20:25:00+08:00"
 }

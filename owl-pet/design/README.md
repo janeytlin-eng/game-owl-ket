@@ -1787,3 +1787,10 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - **Observed failure:** an evidence-bounded recent fledgling was initially drawn with correct wing length but crisp, repeated adult-like bars; simultaneously, the adult pair exaggerated a weak sex-size direction.
 - **Applied rule:** when field evidence shows young can fly immediately after leaving a hollow, do not regress the design to wing buds or a hidden tail. Preserve developed folded wings, visible tail and gripping support; carry youth through downier head/underparts, broader paler bars, softer edges and sparse streaking. Treat “marginally smaller” adult sex direction as near-equal visual mass unless a source supports a stronger gap.
 - **Verified here:** #70 *Ninox strenua* v3 passed a full-image and juvenile-crop recheck after one targeted edit. This rule is applied and verified for this plate only; extension to other taxa requires species-specific evidence.
+
+
+### 2026-10-29 — Use post-fledging movement records to set capability, not adult plumage
+
+- **Observed failure:** #71 v2 used a recent-fledgling label but retained a short-winged, almost hidden-tail chick silhouette; the v3 first render then overcorrected with adult-like white spot rows.
+- **Applied rule:** if a primary study records fledglings roosting several metres high immediately after leaving the hollow, preserve developed folded wings, visible tail and firm grip. Encode youth through species-specific collar, nape, streak density and softer irregular markings rather than reducing flight surfaces or copying adult pattern rows.
+- **Verified here:** #71 *Ninox connivens* v3 passed full and crop recheck after one targeted edit. Transfer requires species-specific evidence.

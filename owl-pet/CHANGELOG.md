@@ -1,3 +1,8 @@
+## 2026-10-28 — #11 *Aegolius funereus* v3 archive checkpoint
+
+- Rebuilt v2 as a current evidence-bounded labeled trio; preserved v1/v2 and v1 user approval.
+- Replaced the weakly bounded early-hatchling focus with a PLOS/Mikkola/Cambridge-supported 30–33-day cavity-edge/recent fledgling. Full source/derivative pass without edit; science false; readback pending.
+
 ## 2026-10-28 — #10 *Surnia ulula* v3 VERIFIED
 
 - Rebuilt v2 as a current evidence-bounded labeled trio; preserved v1/v2 and historical records.

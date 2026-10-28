@@ -35,3 +35,9 @@ exec-4cd6d15f-a110-4b3e-a9a0-1a1bbad0d926 actualviewed50swait. Youngthinwhitewis
 PNG2642361bytes1536x1024 SHA256e8a3637d274582df0fd94e3bd571f0aaf2c91a2537580cf3af73cbd8e46fe95c Gitblob43dbe95ed1fc07e55f3bc51a4d51577f384fdfc7 copiedworkspace11-aegolius-funereus-v2.png. Unique130/251 unchanged.
 
 Sources BOR-MIK2013-440, BOR-KOUBA-2014 at research/SOURCE_INDEX.md; original v1 and approval preserved, no pass transferred.
+
+## v3 science-revision archive checkpoint (2026-10-28)
+
+PLOS 2015 bounds fledging at 27–38 days and confirms incomplete wing growth; PLOS 2014 bounds entrance perching/climbing; Mikkola printed pp.440–443 and Korpimäki & Hakkarainen 2012 support a dark-chocolate, sooty-faced, white-browed late juvenile with a few scapular/wing-coverts spots. The approx. 30–33-day cavity-edge/recent fledgling passed first render; no edit was warranted. Exact day, continuous feather map, ratio, subspecies and cavity/box geometry remain unknown; science false.
+
+![v3](../../design/concepts/11-aegolius-funereus-v3.png)

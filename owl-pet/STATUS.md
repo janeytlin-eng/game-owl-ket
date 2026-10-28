@@ -1,3 +1,11 @@
+## 2026-10-28 #11 *Aegolius funereus* v3 archive checkpoint
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains 184/251; readback pending.
+- Image: [design/concepts/11-aegolius-funereus-v3.png](design/concepts/11-aegolius-funereus-v3.png)
+- Research: 2 new/2 reused sources; two primary PLOS studies, Mikkola printed pp.440–443/PDF pp.442–445 and Cambridge preview pp.6–7/PDF pp.21–22 read.
+- Review: first render passed full-source and derivative review; legitimate older-juvenile formed wing retained. Science false.
+- Run: [production/runs/20261028T0813+0800-cycle-3.md](production/runs/20261028T0813+0800-cycle-3.md)
+
 ## 2026-10-28 #10 *Surnia ulula* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains 184/251; current batch 2/6, next cycle 3.

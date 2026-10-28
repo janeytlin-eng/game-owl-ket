@@ -1,3 +1,9 @@
+## 11 · Boreal Owl · *Aegolius funereus* v3
+
+- [Original PNG](concepts/11-aegolius-funereus-v3.png) · 680×453 sRGB indexed PNG · 193,822 bytes · SHA-256 `2cf4b34c001ed48293aa4be831fd46d3304a3f3cf70cce6746530c3a6bd9927e`
+- Git blob `72c5fd4fa69abfa35ee7ba20ce977b46186e97a4`. SCIENCE_REVISION: untufted pearl-spotted adults and a source-bounded dark-chocolate 30–33-day cavity-edge/recent fledgling with formed incomplete wing/tail. Science pending.
+- [Sources](../research/species/11-aegolius-funereus-v3.md) · [Run](../production/runs/20261028T0813+0800-cycle-3.md)
+
 ## 10 · Northern Hawk Owl · *Surnia ulula* v3
 
 - [Original PNG](concepts/10-surnia-ulula-v3.png) · 680×453 sRGB indexed PNG · 191,927 bytes · SHA-256 `73fd58e6f3eacc4ef81b7f3340691c1361c63a99b496251c64041459102f2ca4`

@@ -28,3 +28,10 @@ No primary juvenile series or continuous feather-development evidence was found.
 The first v2 render passed visual review without edit: exactly three birds, correct labels, close adult height, female eyespots, natural cavity and six supported feet. A same-resolution palette PNG was also rechecked before archive. Immutable evidence: commit `701ba25ab3f850a4c34df108415c1aa5f6e9b7d0`, blob `88de832b62363625a645264fd123872ee25cddbf`, SHA-256 `b7b407a34f0d6907acdbcf4461f44f0158882a75143a184cbb3d9207fbfe1fc7`, 650,812 bytes.
 
 New source IDs: CUPO-GARRIDO-2002, CUPO-EBIRD-ID-2025, CUPO-BIRDSCARIBBEAN-2020 and CUPO-CUBA-BIODIVERSITY-2025. Reused: CUPO-BOW-2020 and CUPO-OWLPAGES-PHOTO-2014. Individual race, exact juvenile age/iris/feather sequence and chick-stage proportions remain unknown; `scientifically_verified=false`.
+
+
+## v3 evidence increment — 2026-10-28
+
+Pyle et al. (2004; printed p.138 / PDF p.3) directly examined/captured Cuban Pygmy-Owls and supplies the juvenile evidence missing from v2: juvenal body plumage is downy, the back unmarked, underparts streaked and crown spots indistinct. The account also supports a reddish-brown female with 95–101 mm wing chord versus a grayish-brown male at 84–94 mm, while warning that some males can be reddish-tinged. v3 therefore uses sex color only within this species evidence and keeps displayed height close; female is fuller, not automatically taller.
+
+The juvenile remains age-unknown because the study's HY window is calendar aging, not a day-specific growth series. Eye color is only a tentative age cue in the paper, and flight/tail chronology are absent. v3 uses natural branch support, no flight action and no exact tail-length claim. Science remains false.

@@ -1,5 +1,5 @@
 ## 2026-10-28 #15 *Strix varia* v4 ARCHIVED
-- SCIENCE_REVISION; Mikkola, 2024 primary cavity-camera study, USFS climbing study and Cornell cam evidence applied. One targeted edit removed long adult-spotted juvenile wing/tail while retaining supported climbing brancher action. Science false; unique **184/251**; readback pending.
+- SCIENCE_REVISION; Mikkola, 2024 primary cavity-camera study, USFS climbing study and Cornell cam evidence applied. One targeted edit removed long adult-spotted juvenile wing/tail while retaining supported climbing brancher action. Science false; unique **184/251**; readback passed at `901800d0b81eebd5b48fbe77d8c09cf945a6e883`; batch 5/6, next cycle 6.
 
 ## 2026-10-28 #13 *Micrathene whitneyi* v7 ARCHIVED
 - SCIENCE_REVISION; uploaded Mikkola pp.418–420/PDF420–422, ADW development and NPS cavity evidence applied. One targeted edit removed long adult-spotted juvenile wing; reviewed concept is an approx. 21–22-day supported, active but ineffective-flight nestling. Science false; exact feather chronology/ratio/cavity anatomy unknown. Unique remains **184/251**. Archive readback passed at `945b55043b4858abdf9d178da9b817dc6e222635`; batch 4/6, next cycle 5.

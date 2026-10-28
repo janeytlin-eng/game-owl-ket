@@ -6278,8 +6278,8 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261029T0245+0800-cycle-4",
-        "heartbeat_at": "2026-10-29T02:51:00+08:00",
-        "expires_at": "2026-10-29T03:06:00+08:00"
+        "heartbeat_at": "2026-10-29T02:54:00+08:00",
+        "expires_at": "2026-10-29T03:09:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -6287,20 +6287,31 @@
         "species": "#55 Bubo lacteus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-29T02:51:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-29T02:54:00+08:00",
         "evidence": {
           "generated_path": "owl-pet/production/generated/55-bubo-lacteus-v3-generated-master.jpg",
-          "generated_size_bytes": 582630,
-          "generated_sha256": "5c7e397cc2bdc90b980e389e574e4fc394e64090bf7d74b66bdf5f6fd3e06aae",
-          "generation_seconds": 62.3,
-          "opened": true,
-          "issue": "male too large; juvenile adult-spotted wing",
-          "edit_required": true,
+          "reviewed_path": "owl-pet/production/reviewed/55-bubo-lacteus-v3-reviewed-master.jpg",
+          "concept_path": "owl-pet/design/concepts/55-bubo-lacteus-v3.png",
+          "edit_seconds": 102.1,
+          "reviewed_original": true,
+          "reviewed_jpeg": true,
+          "reviewed_derivative": true,
+          "result": "PASS_WITH_LIMITATIONS",
+          "corrected": [
+            "adult relative scale",
+            "juvenile adult-like wing spots"
+          ],
+          "unknown": [
+            "exact feather geometry",
+            "individual age",
+            "regional variation",
+            "adult sex biometric ratio"
+          ],
           "science_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T02:51:00+08:00",
+      "last_updated_at": "2026-10-29T02:54:00+08:00",
       "audit_notes": [
         "2026-10-29T01:53:00+08:00: new batch cycle1 STARTED #51 Strix rufipes v3 SCIENCE_REVISION; v1-v2 retained; no cycle credit.",
         "2026-10-29T02:00:00+08:00: cycle1 #51 v3 RESEARCH_READY; new1/reused3/corrected1; official Chile MMA dossier pp.1–2/8 read and adult sexual dichromatism corrected; full prompt saved; science false; no credit.",
@@ -6323,13 +6334,14 @@
         "2026-10-29T02:44:00+08:00: cycle3 VERIFIED #54 at repaired archive 74273cfb062a1ec990b9ef6e9bfb71ff9451af6e; exact tree blobs/sizes and all required markers passed; first truncated attempt rejected before credit; batch3/6 next_cycle4; unique184/251; science false; lease released.",
         "2026-10-29T02:45:00+08:00: cycle4 STARTED #55 Bubo lacteus v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T02:48:00+08:00: cycle4 #55 v3 RESEARCH_READY; new2/reused1/corrected1; Pillans African Birdlife pp.46–49 species-specific nest chronology read; ~60-day wing-development boundary and full prompt saved; science false; no credit.",
-        "2026-10-29T02:51:00+08:00: cycle4 #55 v3 IMAGE_GENERATED in 62.3s; 1536x1024 original opened. Header/count/identity/support pass; male too large and juvenile has adult-spotted wing; bounded edit required; generated master persisted; no credit."
+        "2026-10-29T02:51:00+08:00: cycle4 #55 v3 IMAGE_GENERATED in 62.3s; 1536x1024 original opened. Header/count/identity/support pass; male too large and juvenile has adult-spotted wing; bounded edit required; generated master persisted; no credit.",
+        "2026-10-29T02:54:00+08:00: cycle4 #55 v3 REVIEWED after one bounded edit in 102.1s; edited 1536x1024 master, JPEG and 680x453 derivative opened. Adult scale and juvenile adult-spotted wing corrected; PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "lease": {
         "owner": "codex",
         "run_id": "20261029T0245+0800-cycle-4",
-        "heartbeat_at": "2026-10-29T02:51:00+08:00",
-        "expires_at": "2026-10-29T03:06:00+08:00"
+        "heartbeat_at": "2026-10-29T02:54:00+08:00",
+        "expires_at": "2026-10-29T03:09:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -6338,7 +6350,7 @@
         "species_id": 55,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       }
     }
   ],

@@ -6278,8 +6278,8 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261029T0245+0800-cycle-4",
-        "heartbeat_at": "2026-10-29T02:45:00+08:00",
-        "expires_at": "2026-10-29T03:00:00+08:00"
+        "heartbeat_at": "2026-10-29T02:48:00+08:00",
+        "expires_at": "2026-10-29T03:03:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -6287,13 +6287,18 @@
         "species": "#55 Bubo lacteus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-29T02:45:00+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-29T02:48:00+08:00",
         "evidence": {
-          "selection": "Next non-duplicate sequential science revision after verified #54; v1-v2 retained."
+          "sources_new": 2,
+          "sources_reused": 1,
+          "inference_corrected": 1,
+          "full_prompt_saved": true,
+          "juvenile_stage": "approximately 60-day nest-leaving climber; developed juvenile wing feathers; preflight; fully supported",
+          "science_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T02:45:00+08:00",
+      "last_updated_at": "2026-10-29T02:48:00+08:00",
       "audit_notes": [
         "2026-10-29T01:53:00+08:00: new batch cycle1 STARTED #51 Strix rufipes v3 SCIENCE_REVISION; v1-v2 retained; no cycle credit.",
         "2026-10-29T02:00:00+08:00: cycle1 #51 v3 RESEARCH_READY; new1/reused3/corrected1; official Chile MMA dossier pp.1–2/8 read and adult sexual dichromatism corrected; full prompt saved; science false; no credit.",
@@ -6314,13 +6319,14 @@
         "2026-10-29T02:38:00+08:00: cycle3 #54 v3 ARCHIVED tree prepared; concept be18269c0b, generated bdc2a0f0f9, reviewed 0c86e91569; manifest 482; fixed-commit readback pending; no credit.",
         "2026-10-29T02:41:00+08:00: cycle3 #54 archive repair after immutable size mismatch; first blobs truncated and rejected for credit. Re-exported/indexed concept 584fe07677, generated JPEG db3b7c3afe, reviewed JPEG b6fccf9fd6; corrupted PNG masters removed; fixed readback pending.",
         "2026-10-29T02:44:00+08:00: cycle3 VERIFIED #54 at repaired archive 74273cfb062a1ec990b9ef6e9bfb71ff9451af6e; exact tree blobs/sizes and all required markers passed; first truncated attempt rejected before credit; batch3/6 next_cycle4; unique184/251; science false; lease released.",
-        "2026-10-29T02:45:00+08:00: cycle4 STARTED #55 Bubo lacteus v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit."
+        "2026-10-29T02:45:00+08:00: cycle4 STARTED #55 Bubo lacteus v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
+        "2026-10-29T02:48:00+08:00: cycle4 #55 v3 RESEARCH_READY; new2/reused1/corrected1; Pillans African Birdlife pp.46–49 species-specific nest chronology read; ~60-day wing-development boundary and full prompt saved; science false; no credit."
       ],
       "lease": {
         "owner": "codex",
         "run_id": "20261029T0245+0800-cycle-4",
-        "heartbeat_at": "2026-10-29T02:45:00+08:00",
-        "expires_at": "2026-10-29T03:00:00+08:00"
+        "heartbeat_at": "2026-10-29T02:48:00+08:00",
+        "expires_at": "2026-10-29T03:03:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -6329,7 +6335,7 @@
         "species_id": 55,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED"
+        "stage": "RESEARCH_READY"
       }
     }
   ],

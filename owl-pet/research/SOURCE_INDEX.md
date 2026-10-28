@@ -1,3 +1,18 @@
+## 2026-10-29 #55 *Bubo lacteus* v3 nest-leaving development correction
+
+| Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |
+|---|---|---|---|---|---|---|
+| VEO-BIRDLIFE-PILLANS-2019 | “doubling the odds: A helping hand for a Verreaux’s Eagle-Owl chick” — John Pillans, *African Birdlife*, Jan/Feb 2019 | https://www.birdlife.org.za/wp-content/uploads/2021/03/46-49_Verreaux_s-Nest5.pdf — accessed 2026-10-29 | First-hand nest chronology with text and photographs; *Bubo lacteus* chicks, East London, South Africa | Indexed PDF text pp.46–49 read. p.46 identifies author/title and old Crowned Eagle stick nest; p.49 records <10-day white down, pink eyelids from first sighting, facial grey/barring increasing, rapid wing-feather growth, frequent wing exercise about 10 days later, increasing grey down and browner back/shoulder feathering. | Correct v2’s underdeveloped “short plain wing” at the selected ~60-day stage: show well-developed juvenile wing feathers plus remaining down and browner dorsal feathering; pink eyelids retained. | Direct PDF open redirected and was unavailable in the reader; evidence comes from the search service’s page-indexed PDF text. It is a single nest and does not provide exact 60-day feather lengths or sex biometrics. High value for species-specific development sequence, moderate scope. |
+| VEO-OWLPAGES-2020 | “Verreaux’s Eagle Owl ~ *Bubo lacteus*” — Deane Lewis / The Owl Pages, updated 2020-10-26 | https://www.owlpages.com/owls/species.php?s=1320 — accessed 2026-10-29 | Secondary species account; adult morphology, size, nesting and fledging | Description and breeding sections read: dark-brown eyes with bare pink upper lids; pale grey-brown vermiculation; old stick nests/tree hollows; young leave at 62–63 days and fly well about two weeks later. | Cross-check the selected ~60-day bird as a supported nest-leaving climber, not a competent flier; old stick nest and riverine/dry-savanna setting retained. | Secondary synthesis; “female larger/heavier” is not converted into a dramatic standing-height ratio because no measurement-by-sex table was available here. |
+
+- Reused: VEO-PF-2026 (Peregrine Fund, nest/young section): around 60 days the owlet walks out, climbs, hops and may flap for lift; first flight roughly two weeks later.
+- Corrected inference: v2’s short, nearly hatchling-like folded wing and concealed tail are too immature for the chosen ~60-day locomotor stage. v3 uses long developed juvenile remiges and a visible developing tail while preserving down, preflight behavior and full branch/nest support.
+- Taxonomy: repository label remains *Bubo lacteus*; the mapped current combination *Ketupa lactea* is not counted as another species.
+- Uncertainty: no species-specific quantitative feather-length series or verified adult sex measurement table was found. Exact juvenile feather geometry, individual age, regional variation and adult sex ratio remain unknown; science verification stays false.
+- Heimo Mikkola photographic guide: not readable in this execution; no page claim made.
+- Full generation prompt is stored in the #55 species card and run record.
+
+
 ## 2026-10-29 #48 *Strix nivicolum* v3 taxonomy and juvenile-boundary check
 
 | Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |

@@ -6124,8 +6124,8 @@
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261028T2308+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T23:08:00+08:00",
-        "expires_at": "2026-10-28T23:23:00+08:00"
+        "heartbeat_at": "2026-10-28T23:12:00+08:00",
+        "expires_at": "2026-10-28T23:27:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -6133,14 +6133,25 @@
         "species": "#47 Strix leptogrammica",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T23:08:00+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T23:12:00+08:00",
         "evidence": {
-          "v1_v2_preserved": true,
+          "new_sources": [
+            "BROW-HKBWS-2024"
+          ],
+          "reused_sources": [
+            "BROW-SAMARAWICKRAMA-2006",
+            "BROW-MIKKOLA-2013",
+            "BROW-OWLPAGES-2020"
+          ],
+          "corrected_sources": 1,
+          "correction": "v2 compact-wing rule narrowed to the photographed 34-day Sri Lankan ochrogenys stage; HKBWS shows recently fledged northern ticehursti can retain down while already carrying adult-type wing/tail feathers",
+          "design_boundary": "explicit Sri Lankan 34-day cavity-lip pre-flight chick, not universal juvenile sequence",
+          "full_imagegen_prompt": "Create a warm painterly semi-realistic natural-history concept board in the established owl-pet style, landscape 3:2. Exact title: “47 · BROWN WOOD OWL · Strix leptogrammica”. Exactly three full-body owls with exact labels ADULT MALE, ADULT FEMALE, JUVENILE. This board is explicitly the Sri Lankan subspecies direction Strix leptogrammica ochrogenys, not a universal reconstruction of northern ticehursti. Adults untufted and dark-eyed, with greenish-horn bill and blue-gray cere; fulvous/rufous-brown facial disc with narrow black border and dark eye zone, pale buff brows, blackish-brown crown, prominent cinnamon-buff nuchal collar, chestnut upperparts densely dark barred, a narrow white horizontal throat band, rufous upper-breast band, creamy light-rufous underparts densely thin-barred brown, feathered tarsi. Female may be moderately fuller/heavier than male based on mass direction, but avoid an invented dramatic standing-height gap. Juvenile is the published Sri Lankan 34-day chick at the old jackfruit-tree cavity lip: both feet and belly securely supported, alert but not flying; very pale rufous/ochre-buff fluffy mesoptile with faint diffuse russet bars, buff facial disc with narrow dark border and dark eyes, short rounded developing wing mostly embedded in fluff, and short mostly concealed tail. Do not treat this wing stage as universal: northern recently fledged juveniles can retain down on head/breast while already showing adult-type wing and tail feathers. Keep this individual explicitly at the 34-day Sri Lankan pre-flight stage, with only a few formed feather tips and no long layered adult wing. Habitat: humid Sri Lankan home-garden edge beside Gannoruwa forest, old jackfruit cavity, believable lowland vegetation at soft dusk. Natural support, feet visible. No extra birds, ear tufts, yellow eyes, bright yellow bill, exaggerated female height, airborne juvenile, mature long juvenile wing/tail, floating feet, watermark, or extra text.",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T23:08:00+08:00",
+      "last_updated_at": "2026-10-28T23:12:00+08:00",
       "audit_notes": [
         "2026-10-28T22:35:00+08:00 new batch cycle1 STARTED #45 Strix seloputo v3 SCIENCE_REVISION; v1–v2 preserved; 15-minute lease acquired; no credit.",
         "2026-10-28T22:38:00+08:00 cycle1 #45 v3 RESEARCH_READY; new1/reused4/corrected1; BESG Part 2 dated chronology read in full; documented 2–4-day post-fledging resting/balance stage selected; full prompt saved; science false; no credit.",
@@ -6154,13 +6165,14 @@
         "2026-10-28T23:01:00+08:00 cycle2 #46 v3 REVIEWED after one juvenile-only wing/tail edit; edited original and derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-28T23:04:00+08:00 cycle2 #46 v3 ARCHIVED tree prepared; concept 030bc05c7d, generated 4e3083f87f, reviewed a2a72bb29d; manifest 474→475; fixed readback pending; no credit.",
         "2026-10-28T23:06:00+08:00 cycle2 VERIFIED #46 at ed3a57ce0d4d1992a6124db20a10e1c8bde4e666; fixed three-binary blobs/bytes/signatures and manifest/source/card/run/state/status/design readback passed; batch2/6 next_cycle3; science false.",
-        "2026-10-28T23:08:00+08:00 cycle3 STARTED #47 Strix leptogrammica v3 SCIENCE_REVISION; v1–v2 preserved; lease acquired; no credit."
+        "2026-10-28T23:08:00+08:00 cycle3 STARTED #47 Strix leptogrammica v3 SCIENCE_REVISION; v1–v2 preserved; lease acquired; no credit.",
+        "2026-10-28T23:12:00+08:00 cycle3 #47 v3 RESEARCH_READY; new1/reused3/corrected1; HKBWS account read and cross-subspecies conflict recorded; full Sri Lankan 34-day prompt saved; image not yet generated; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T2308+0800-cycle-3",
-        "heartbeat_at": "2026-10-28T23:08:00+08:00",
-        "expires_at": "2026-10-28T23:23:00+08:00"
+        "heartbeat_at": "2026-10-28T23:12:00+08:00",
+        "expires_at": "2026-10-28T23:27:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -6168,7 +6180,7 @@
         "species": "#47 Strix leptogrammica",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-10-28T23:08:00+08:00"
       }
     }

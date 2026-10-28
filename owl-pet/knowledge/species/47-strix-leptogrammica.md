@@ -78,3 +78,17 @@ ARCHIVED; visual review passed after one targeted juvenile-wing edit. Scientific
 - Recheck passed at 1254×1254: exactly three labeled supported birds, dark eyes, greenish-horn bills, untufted heads, adult nuchal/throat bands and moderate female fullness.
 - PNG 2,850,558 bytes; SHA-256 `643ba79e2f3886f3ecc5538051bcda04c4b2685df391addb72c4c961333d6a9e`; blob `1c4b66aae806329cd8406153df49f56e38ec1496`; image commit `f2d24ca8f4810af840d6093323b6bbfae04e2853`.
 - Unknowns retained; scientifically_verified=false.
+
+
+## v3 research-ready（2026-10-28）
+
+- Action: SCIENCE_REVISION; v1–v2 preserved.
+- New cross-check: BROW-HKBWS-2024 was actually read. Hong Kong *ticehursti* recently fledged juveniles may retain white down on head/breast/underparts while already showing adult-type wings/tail.
+- Correction: v2’s compact juvenile-wing rule is retained only for the explicitly photographed 34-day Sri Lankan *ochrogenys* cavity-lip stage; it is no longer phrased as a universal Brown Wood Owl sequence.
+- New 1 / reused 3 / corrected inference 1. Exact remige geometry and cross-subspecies timing remain unknown; science false.
+
+### Complete v3 imagegen prompt
+
+```
+Create a warm painterly semi-realistic natural-history concept board in the established owl-pet style, landscape 3:2. Exact title: “47 · BROWN WOOD OWL · Strix leptogrammica”. Exactly three full-body owls with exact labels ADULT MALE, ADULT FEMALE, JUVENILE. This board is explicitly the Sri Lankan subspecies direction Strix leptogrammica ochrogenys, not a universal reconstruction of northern ticehursti. Adults untufted and dark-eyed, with greenish-horn bill and blue-gray cere; fulvous/rufous-brown facial disc with narrow black border and dark eye zone, pale buff brows, blackish-brown crown, prominent cinnamon-buff nuchal collar, chestnut upperparts densely dark barred, a narrow white horizontal throat band, rufous upper-breast band, creamy light-rufous underparts densely thin-barred brown, feathered tarsi. Female may be moderately fuller/heavier than male based on mass direction, but avoid an invented dramatic standing-height gap. Juvenile is the published Sri Lankan 34-day chick at the old jackfruit-tree cavity lip: both feet and belly securely supported, alert but not flying; very pale rufous/ochre-buff fluffy mesoptile with faint diffuse russet bars, buff facial disc with narrow dark border and dark eyes, short rounded developing wing mostly embedded in fluff, and short mostly concealed tail. Do not treat this wing stage as universal: northern recently fledged juveniles can retain down on head/breast while already showing adult-type wing and tail feathers. Keep this individual explicitly at the 34-day Sri Lankan pre-flight stage, with only a few formed feather tips and no long layered adult wing. Habitat: humid Sri Lankan home-garden edge beside Gannoruwa forest, old jackfruit cavity, believable lowland vegetation at soft dusk. Natural support, feet visible. No extra birds, ear tufts, yellow eyes, bright yellow bill, exaggerated female height, airborne juvenile, mature long juvenile wing/tail, floating feet, watermark, or extra text.
+```

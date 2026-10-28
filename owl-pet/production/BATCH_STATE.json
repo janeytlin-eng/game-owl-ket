@@ -6038,7 +6038,7 @@
         }
       ],
       "next_cycle": 6,
-      "last_updated_at": "2026-10-28T22:00:00+08:00",
+      "last_updated_at": "2026-10-28T22:04:00+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6073,7 +6073,8 @@
         "2026-10-28T21:54:00+08:00 #43 generated-master archive repair: first upload truncated at 786444/797684 bytes; re-encoded same 1536x1024 PNG to 494663-byte JPEG blob 0937be3096ba8b9537c80c850795ac855e292dd4; concept/reviewed unchanged; verification pending.",
         "2026-10-28T21:55:00+08:00 cycle5 VERIFIED #43 at 6aacd4cf316108964f952883b2043401c894839e; concept/reviewed/generated repair blobs, sizes, signatures, manifest/source/card/run/state/status/design readback passed; batch5/6 next_cycle6; science false.",
         "2026-10-28T21:56:00+08:00 cycle6 STARTED #44 Strix uralensis v3 SCIENCE_REVISION; lease acquired; no credit.",
-        "2026-10-28T22:00:00+08:00 cycle6 #44 v3 RESEARCH_READY; new1/reused3/corrected1; Scherzinger 1980 printed pp.45–52 and 61–62 actually read; exact day-29 brancher boundary and full prompt saved; science false; no credit."
+        "2026-10-28T22:00:00+08:00 cycle6 #44 v3 RESEARCH_READY; new1/reused3/corrected1; Scherzinger 1980 printed pp.45–52 and 61–62 actually read; exact day-29 brancher boundary and full prompt saved; science false; no credit.",
+        "2026-10-28T22:04:00+08:00 cycle6 #44 v3 IMAGE_GENERATED in 65.8s; 1536x1024 original opened; juvenile adult-like layered wing requires targeted edit; no credit."
       ],
       "in_progress": {
         "cycle": 6,
@@ -6083,13 +6084,13 @@
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T2156+0800-cycle-6.md",
         "run_id": "20261028T2156+0800-cycle-6",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "started_at": "2026-10-28T21:56:00+08:00",
         "lease": {
           "owner": "codex",
           "run_id": "20261028T2156+0800-cycle-6",
-          "heartbeat_at": "2026-10-28T22:00:00+08:00",
-          "expires_at": "2026-10-28T22:15:00+08:00"
+          "heartbeat_at": "2026-10-28T22:04:00+08:00",
+          "expires_at": "2026-10-28T22:19:00+08:00"
         },
         "phases": {
           "STARTED": {
@@ -6103,7 +6104,10 @@
             "evidence": "SOURCE_INDEX + species card + run prompt commits; Scherzinger 1980 full developmental monograph actually read; new1/reused3/corrected1"
           },
           "IMAGE_GENERATED": {
-            "status": "pending"
+            "status": "complete",
+            "at": "2026-10-28T22:04:00+08:00",
+            "evidence": "1536x1024 first-render opened; generated JPEG 481983 bytes SHA256 3272cc... Git blob b4423a4dda6a9c01a356ad763d270054fc51168b; juvenile-wing edit required",
+            "duration_seconds": 65.8
           },
           "REVIEWED": {
             "status": "pending"
@@ -6119,8 +6123,8 @@
       "lease": {
         "owner": "codex",
         "run_id": "20261028T2156+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T22:00:00+08:00",
-        "expires_at": "2026-10-28T22:15:00+08:00"
+        "heartbeat_at": "2026-10-28T22:04:00+08:00",
+        "expires_at": "2026-10-28T22:19:00+08:00"
       }
     }
   ],

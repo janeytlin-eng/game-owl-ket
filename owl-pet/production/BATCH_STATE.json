@@ -5841,8 +5841,8 @@
         "run_id": "20261028T1610+0800-newbatch-cycle-1",
         "cycle": 1,
         "species": "#33 Taenioptynx brodiei",
-        "heartbeat_at": "2026-10-28T16:10:00+08:00",
-        "expires_at": "2026-10-28T16:25:00+08:00"
+        "heartbeat_at": "2026-10-28T16:15:00+08:00",
+        "expires_at": "2026-10-28T16:30:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5850,19 +5850,33 @@
         "species": "#33 Taenioptynx brodiei",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T16:10:00+08:00",
-        "evidence": {}
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T16:15:00+08:00",
+        "evidence": {
+          "new_sources": [
+            "COOW-LIN-ETAL-2014",
+            "COOW-OISEAUXNET-AUDEVARD-2010"
+          ],
+          "reused_sources": [
+            "COOW-MIKKOLA-2013",
+            "COOW-GWEE-2019"
+          ],
+          "corrected_sources": 1,
+          "design_boundary": "approximately 56-day full-grown supported fledgling; fewer bars/spots; incomplete occipital pattern; no color-sex rule",
+          "imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache. Title exactly “33 · COLLARED OWLET · Taenioptynx brodiei”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Exactly three owls. Adult male left and female center on one mossy Himalayan broadleaf-forest branch, near-equal crown height; tiny round untufted owls with yellow eyes, green-yellow bills, gray-brown definitive plumage, pale crown spots, barred back/tail, white underparts with dark upper-breast bars and sparse drop streaks, feathered legs, and paired black nape false eyes edged buff visible by slight three-quarter turns. Female only subtly fuller, not taller; no rufous-vs-gray sex coding. Juvenile right is an evidence-bounded approximately 56-day, fully grown post-fledging bird from the primary longitudinal study: both feet gripping a low fork, softer browner fledgling plumage, distinctly fewer/less crisp bars and crown spots, occipital false-eye pattern incomplete, compact formed wing and short tail. Do not show hatchling down, an exact flight feat, independence, prey, or adult-complete false eyes on the juvenile. Natural support, misty Asian montane broadleaf forest, exact title/labels only, no extra animals, watermark or nest box.",
+          "scientifically_verified": false
+        }
       },
-      "last_updated_at": "2026-10-28T16:10:00+08:00",
+      "last_updated_at": "2026-10-28T16:15:00+08:00",
       "audit_notes": [
-        "2026-10-28T16:10:00+08:00: new batch cycle1 STARTED #33 Taenioptynx brodiei v3 SCIENCE_REVISION; v1-v2 preserved; no credit."
+        "2026-10-28T16:10:00+08:00: new batch cycle1 STARTED #33 Taenioptynx brodiei v3 SCIENCE_REVISION; v1-v2 preserved; no credit.",
+        "2026-10-28T16:15:00+08:00: cycle1 #33 v3 RESEARCH_READY; new2/reused2/corrected1; known 56-day fledgling boundary selected; science false."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1610+0800-newbatch-cycle-1",
-        "heartbeat_at": "2026-10-28T16:10:00+08:00",
-        "expires_at": "2026-10-28T16:25:00+08:00"
+        "heartbeat_at": "2026-10-28T16:15:00+08:00",
+        "expires_at": "2026-10-28T16:30:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -5871,7 +5885,7 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T1610+0800-newbatch-cycle-1.md",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "stage_evidence": {
           "STARTED": {
             "at": "2026-10-28T16:10:00+08:00",
@@ -5879,6 +5893,15 @@
               "v1",
               "v2"
             ]
+          },
+          "RESEARCH_READY": {
+            "at": "2026-10-28T16:15:00+08:00",
+            "full_imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache. Title exactly “33 · COLLARED OWLET · Taenioptynx brodiei”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Exactly three owls. Adult male left and female center on one mossy Himalayan broadleaf-forest branch, near-equal crown height; tiny round untufted owls with yellow eyes, green-yellow bills, gray-brown definitive plumage, pale crown spots, barred back/tail, white underparts with dark upper-breast bars and sparse drop streaks, feathered legs, and paired black nape false eyes edged buff visible by slight three-quarter turns. Female only subtly fuller, not taller; no rufous-vs-gray sex coding. Juvenile right is an evidence-bounded approximately 56-day, fully grown post-fledging bird from the primary longitudinal study: both feet gripping a low fork, softer browner fledgling plumage, distinctly fewer/less crisp bars and crown spots, occipital false-eye pattern incomplete, compact formed wing and short tail. Do not show hatchling down, an exact flight feat, independence, prey, or adult-complete false eyes on the juvenile. Natural support, misty Asian montane broadleaf forest, exact title/labels only, no extra animals, watermark or nest box.",
+            "new_source_ids": [
+              "COOW-LIN-ETAL-2014",
+              "COOW-OISEAUXNET-AUDEVARD-2010"
+            ],
+            "science_pass": false
           }
         }
       }

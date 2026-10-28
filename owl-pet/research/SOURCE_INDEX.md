@@ -4645,3 +4645,13 @@ Links: [species research](species/15-strix-varia-v4.md) · [run](../production/r
 **Correction:** v2 used an undated middle-juvenile cavity pose. The dated Sinharaja file supports moving v3 to an age-unknown, fully feathered branch-perched juvenile; it does not support exact age, independence or flight. The 2025 field abstract also corrects the risk of drawing this species too much like #31: use the markedly redder mantle and fewer chest bars.  
 **Source counts:** new 3 / reused 2 / corrected 1. Science false.  
 **Related:** [species record](../knowledge/species/32-glaucidium-castanotum.md) · [run](../production/runs/20261028T1548+0800-cycle-6.md).
+
+
+## 2026-10-28 · #33 *Taenioptynx brodiei* v3 evidence increment
+
+| Stable ID | Source | Date/access | Type | Stage | Verified fact | Limits |
+|---|---|---|---|---|---|---|
+| COOW-LIN-ETAL-2014 | [Colour morphs in the Collared Pygmy Owl are age-related, not a polymorphism](https://arachsociety.tw/systevo/lib/publications_lib_pdf/glaucidium_et_al_2014.pdf) | Lin et al.; read 2026-10-28 | Peer-reviewed primary longitudinal field/banding + museum study | 32 nestlings; seven recaptured fledglings; known-age sequence | Fledgling plumage 2–3 months; a known bird hatched 15 June, fledged 5 July and at 56 days was full-grown but less barred/spotted with incompletely formed occipital pattern; rufous 4–7 months, definitive gray 10–11 months. Male/female mass ranges overlap. | Taiwan subspecies/population; not a universal exact calendar. V3 uses the known 56-day bird as an approximate visual anchor and does not sex-code color.
+| COOW-OISEAUXNET-AUDEVARD-2010 | [Collared Owlet juvenile, O.Net auau96634](https://www.oiseaux.net/photos/aurelien.audevard/chevechette.a.collier.1.html) | Aurélien Audevard; photographed May 2010, Fujian; read 2026-10-28 | Dated field photograph metadata | juvenile | Confirms a supported fully feathered juvenile in China/Fujian and supplies locality/date/plumage label. | No exact age or sex; photo used only as independent appearance/support cross-check.
+
+Reused: `COOW-MIKKOLA-2013` (printed pp.370–371) and `COOW-GWEE-2019`. Correction: prior v2 was age-unknown; primary study now supports an approximately 56-day full-grown fledgling with incomplete occipital pattern and fewer bars/spots. It also prevents treating rufous/gray as sex morphs. New2/reused2/corrected1; science false. [Species](../knowledge/species/33-taenioptynx-brodiei.md) · [run](../production/runs/20261028T1610+0800-newbatch-cycle-1.md).

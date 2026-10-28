@@ -31,3 +31,8 @@
 - Remaining uncertainty: exact immature age, continuous feather sequence, flight ability, regional morph/lineage, and quantified sex-size difference. This is not a scientific pass.
 - Original: [33-taenioptynx-brodiei-v2.png](../../design/concepts/33-taenioptynx-brodiei-v2.png)
 - Run: [2026-10-26T1215+0800-cycle-3](../../production/runs/2026-10-26T1215+0800-cycle-3.md)
+
+
+## v3 research (2026-10-28)
+
+Lin et al. primary banding/museum study adds a known-age anchor: one bird hatched 15 June, fledged 5 July and at 56 days was full-grown but less barred/spotted with incomplete occipital pattern. Rufous and gray are sequential age plumages, not sex morphs; sex mass ranges overlap. V3 therefore uses an approximately 56-day supported fledgling, no exact universal calendar or independence claim. Science false.

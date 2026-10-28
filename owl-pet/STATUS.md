@@ -1825,3 +1825,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/40-glaucidium-nubicola-v3.png](design/concepts/40-glaucidium-nubicola-v3.png)
 - Research: 1 new / 4 reused / 1 corrected source decision. Primary printed p.38 supports a recently fledged juvenile being fed a lizard; tentative secondary caption weakly supports an unspotted immature crown; linked image was blocked and not claimed as viewed.
 - Review: one juvenile-only edit removed adult-like crown/wing spots. Exact text/count, near-equal adults, male nape false-eye, plain-crowned juvenile, soft compact formed wing, shorter tail and full support pass. Exact age, feather chronology, nest and independent flight remain unknown. Science false; fixed-commit readback pending.
+
+- 2026-10-28T20:03:30+08:00 — #40 *Glaucidium nubicola* v3 independently verified at archive `34bab668db91a953d25061febce615ddb7e79fda`; concept `ea7df51491…`, generated `da55112dac…`, reviewed `00281b3dd8…`, plus manifest/source/card/run/state/STATUS/design records read back. Unique remains **184/251**; batch **2/6**, next cycle 3. Science false.

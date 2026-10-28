@@ -1770,3 +1770,5 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - 2026-10-29T06:41:35.721+08:00: #65 *Tyto soumagnei* v3 VERIFIED; concept blob `53d5923c644884ade4c153ad13d87b11a895e462` (451441 B), generated/reviewed blob `6a134e7f78ad1123035e10d71c4849456c245031` (747471 B each), archive `1cf48b957e1e017f2586c9616ae8d86f24fa0842`; science false.
 
 - #66 African Grass Owl v3 — `design/concepts/66-tyto-capensis-v3.jpg`; recent-fledgling science revision, concept blob `f89f59a09110ca5955e64352b9989717c791e794` (339039 B), generated/reviewed `2fece942b426064065c9c40533b710d87d0e8c81` (416328 B each), crop `6da78d92bbd4ba7aafea972ab629b0455662a23b` (109404 B); fixed readback pending; science false.
+
+- 2026-10-29T06:47:56.280+08:00: #66 *Tyto capensis* v3 VERIFIED; fixed-tree readback passed at `0af2270579e4e43b4f7e103372aba1772224778e`; concept `f89f59a09110ca5955e64352b9989717c791e794`, master `2fece942b426064065c9c40533b710d87d0e8c81`, crop `6da78d92bbd4ba7aafea972ab629b0455662a23b`; science false.

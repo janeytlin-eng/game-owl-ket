@@ -26,3 +26,10 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - Generated/reviewed master: `2fece942b426064065c9c40533b710d87d0e8c81`, 416328 bytes. Juvenile/foot crop: `6da78d92bbd4ba7aafea972ab629b0455662a23b`, 109404 bytes.
 - Issue → evidence → change → recheck: v1/v2 intentionally used an early second-down stage; BirdLife South Africa documents a darker, white-dorsal-spot-free fledgling. v3 changes to a grounded recent fledgling with developed folded wings, unspotted dark dorsum and supported feet. Full frame and crop pass; no edit required.
 - Reusable rule applied: do not use face colour alone as an age key when the source says it is unreliable; prioritize dorsal pattern plus stage-compatible locomotion. Verified only for this image; science remains false pending exact chronology, range-wide sex scaling and geographic variation.
+
+
+## v3 fixed-tree verification — 2026-10-29T06:47:56.280+08:00
+
+- Archive commit: `0af2270579e4e43b4f7e103372aba1772224778e`; recursive tree not truncated.
+- Concept `f89f59a09110ca5955e64352b9989717c791e794` / 339039 B; generated/reviewed `2fece942b426064065c9c40533b710d87d0e8c81` / 416328 B each; crop `6da78d92bbd4ba7aafea972ab629b0455662a23b` / 109404 B.
+- All archive and source markers reread. Science remains false for exact chronology, universal sex scaling and geographic variation.

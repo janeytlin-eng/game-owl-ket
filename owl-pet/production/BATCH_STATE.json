@@ -5350,8 +5350,8 @@
         "run_id": "20261028T0851+0800-cycle-6",
         "cycle": 6,
         "species_id": 17,
-        "heartbeat_at": "2026-10-28T08:45:30.000+08:00",
-        "expires_at": "2026-10-28T09:00:30.000+08:00"
+        "heartbeat_at": "2026-10-28T08:46:40.000+08:00",
+        "expires_at": "2026-10-28T09:01:40.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -5359,8 +5359,8 @@
         "species": "#17 Megascops asio",
         "version": 5,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T08:45:30.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T08:46:40.000+08:00",
         "evidence": {
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "species_card": "owl-pet/research/species/17-megascops-asio-v5.md",
@@ -5388,10 +5388,31 @@
             "generation_seconds": 30.703,
             "actual_view": "faithful 1200x800 derivative opened after original transport produced only a strip",
             "review": "Exactly three labeled birds and adult diagnostics pass. Juvenile is supported and climbing, but exposed wing has long crisp adult-like barred remiges and tail is too developed; targeted edit required."
+          },
+          "review": {
+            "result": "PASS_WITH_LIMITATIONS",
+            "edit_count": 1,
+            "edit_seconds": 44.373,
+            "reviewed_path": "generated_images/exec-83a72e93-5b4d-4f01-a90a-b10f8ad5c828.png",
+            "changes": "Shortened/softened exposed juvenile wing; removed long outer remiges and visible long tail; preserved full talon support and one-wing balance action.",
+            "pass": [
+              "exact title and labels",
+              "exactly three owls",
+              "adult gray-morph diagnostic direction",
+              "female subtly fuller not mechanically taller",
+              "juvenile fluffy fine gray barring",
+              "both juvenile talons supported",
+              "shorter incomplete wing and hidden tail",
+              "no airborne pose"
+            ],
+            "limitations": [
+              "emerging juvenile wing still shows moderate barring; retained as a formed-but-incomplete late-nestling wing rather than claiming exact day-specific remex pattern",
+              "scientifically_verified remains false"
+            ]
           }
         }
       },
-      "last_updated_at": "2026-10-28T08:45:30.000+08:00",
+      "last_updated_at": "2026-10-28T08:46:40.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5427,7 +5448,8 @@
         "2026-10-28T08:49:35.000+08:00: cycle5 VERIFIED #15 Strix varia v4 at 901800d0b81eebd5b48fbe77d8c09cf945a6e883; fixed-tree readback passed. Unique 184/251; batch 5/6 next_cycle6; lease released; science false.",
         "2026-10-28T08:51:10.000+08:00: cycle6 STARTED canonical #17 Megascops asio v5 SCIENCE_REVISION; v1–v4 preserved; no credit.",
         "2026-10-28T08:43:30.000+08:00: cycle6 #17 v5 RESEARCH_READY; new4/reused1/corrected1 sources, Mikkola pp.207–209 and external development evidence read. Full prompt saved; science false; prior STARTED timestamp display is later than the current worker clock, while the actual start commit was 00:41Z.",
-        "2026-10-28T08:45:30.000+08:00: cycle6 #17 v5 IMAGE_GENERATED in 30.703s; 1536x1024 candidate opened via faithful derivative. Juvenile adult-like long barred wing/tail requires targeted edit; no credit."
+        "2026-10-28T08:45:30.000+08:00: cycle6 #17 v5 IMAGE_GENERATED in 30.703s; 1536x1024 candidate opened via faithful derivative. Juvenile adult-like long barred wing/tail requires targeted edit; no credit.",
+        "2026-10-28T08:46:40.000+08:00: cycle6 #17 v5 REVIEWED PASS_WITH_LIMITATIONS after one 44.373s targeted edit; juvenile long adult-like wing/tail shortened/softened, full climbing support retained. Exact day/remex pattern unknown; science false."
       ]
     }
   ],

@@ -1547,3 +1547,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #31 *Glaucidium radiatum* v3 — SCIENCE_REVISION, directly photographed age-unknown fully feathered older immature with natural fork support; [concept](concepts/31-glaucidium-radiatum-v3.png) · [research](../knowledge/species/31-glaucidium-radiatum.md) · [run](../production/runs/20261028T1538+0800-cycle-5.md). First render passed without edit; exact age/flight/continuous feather sequence and population variation remain unknown; science pending.
+
+
+- #32 *Glaucidium castanotum* v3 — SCIENCE_REVISION, dated Sinharaja age-unknown fully feathered older juvenile, with redder mantle/fewer chest bars separating the species from #31; [concept](concepts/32-glaucidium-castanotum-v3.png) · [research](../knowledge/species/32-glaucidium-castanotum.md) · [run](../production/runs/20261028T1548+0800-cycle-6.md). First render passed without edit; exact age/flight/continuous feather sequence remain unknown; science pending.

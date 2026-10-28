@@ -5816,8 +5816,8 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1548+0800-cycle-6",
-        "heartbeat_at": "2026-10-28T16:02:00+08:00",
-        "expires_at": "2026-10-28T16:17:00+08:00"
+        "heartbeat_at": "2026-10-28T16:05:00+08:00",
+        "expires_at": "2026-10-28T16:20:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -5826,7 +5826,7 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T1548+0800-cycle-6.md",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "stage_evidence": {
           "STARTED": {
             "at": "2026-10-28T15:48:00+08:00",
@@ -5870,6 +5870,14 @@
             "edit_required": false,
             "review_seconds": 83,
             "science_pass": false
+          },
+          "ARCHIVED": {
+            "at": "2026-10-28T16:05:00+08:00",
+            "concept_path": "owl-pet/design/concepts/32-glaucidium-castanotum-v3.png",
+            "concept_blob_sha": "6d05bfce34aba32d4fea9040a01a2b8ec2f7cbf2",
+            "concept_sha256": "9d2bc0affb283109b57c42ffac075d18744b0c98157c2d087f399d69de261815c",
+            "concept_bytes": 181541,
+            "manifest_count": 461
           }
         }
       }

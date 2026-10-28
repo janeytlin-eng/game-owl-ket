@@ -6019,14 +6019,14 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261028T2031+0800-cycle-4",
-        "heartbeat_at": "2026-10-28T21:31:29+08:00",
-        "expires_at": "2026-10-28T21:46:29+08:00"
+        "heartbeat_at": "2026-10-28T21:34:41.875+08:00",
+        "expires_at": "2026-10-28T21:49:41+08:00"
       },
       "lease": {
         "owner": "codex",
         "run_id": "20261028T2031+0800-cycle-4",
-        "heartbeat_at": "2026-10-28T21:31:29+08:00",
-        "expires_at": "2026-10-28T21:46:29+08:00"
+        "heartbeat_at": "2026-10-28T21:34:41.875+08:00",
+        "expires_at": "2026-10-28T21:49:41+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -6034,7 +6034,7 @@
         "species": "#42 Athene brama",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261028T2031+0800-cycle-4.md"
       },
       "cycle_checkpoint": {
@@ -6043,18 +6043,18 @@
         "species": "#42 Athene brama",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T20:37:30+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T21:34:41.875+08:00",
         "evidence": {
-          "generated_blob": "e5dfeb15c8a674dc2ef6b5c440df584fe3b314e5",
-          "generated_path": "owl-pet/production/generated/42-athene-brama-v3-generated-master.jpg",
-          "bytes": 412786,
-          "dimensions": "1536x1024",
-          "first_view": "FAIL_NEEDS_EDIT",
-          "issue": "juvenile adult-like wing spots/layering and crisp tail bars"
+          "reviewed_sha256": "3bd7a05f85c0798b28ed8d2694d99d6d909ca80eb7364b728067cb021778aa5b",
+          "concept_sha256": "76a5d532ad25677ab364247fdde0eec003971f3a95bf5c697c773841bcaffdf4",
+          "dimensions": "1536x1024 and 680x453",
+          "actual_views": "full edited master and concept derivative",
+          "result": "PASS_WITH_LIMITATIONS",
+          "remaining_unknown": "exact day, continuous feather chronology, independent flight threshold"
         }
       },
-      "last_updated_at": "2026-10-28T21:31:29+08:00",
+      "last_updated_at": "2026-10-28T21:34:41.875+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6078,7 +6078,7 @@
         "2026-10-28T20:31:30+08:00 cycle4 STARTED #42 Athene brama v3; no credit.",
         "2026-10-28T20:34:00+08:00 cycle4 #42 v3 RESEARCH_READY; full primary text correction, new0/reused3/corrected1; no credit.",
         "2026-10-28T20:37:30+08:00 cycle4 #42 v3 IMAGE_GENERATED; juvenile wing/tail edit required; no credit.",
-        "2026-10-28T21:31:29+08:00 expired IMAGE_GENERATED lease recovered after fresh main/run audit; no later stage or competing commit; same run resumed from durable master."
+        "2026-10-28T21:34:41.875+08:00 cycle4 #42 v3 REVIEWED after juvenile-only wing/tail edit; full edited image and 680x453 derivative actually opened and passed with limitations; no credit."
       ]
     }
   ],

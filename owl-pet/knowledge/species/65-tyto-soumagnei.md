@@ -21,3 +21,10 @@ Sources: MRO-PEREGRINE-2026, MRO-ADW-2026, MRO-OWLPAGES-2020 in [source index](.
 - Reused the previously read Thorstrom/de Roland first-nest account and actively opened the current Peregrine Fund species page. Young remain in the nest over two months and have adult-like plumage at fledging; the first known fledglings were fully plumaged and generally browner with reddish-orange overcast.
 - V3 therefore keeps a branch-supported recent fledgling with developed wing/tail structure and no downy chick cues. “Adult-like plumage” does not justify a fixed linear size ratio.
 - Exact daily feather sequence, fledgling/adult linear ratio, sex ratio and population-wide nest/habitat variability remain unknown; science false.
+
+
+## v3 review/archive checkpoint
+
+- 2026-10-29T06:39:03.830+08:00: expired RESEARCH_READY checkpoint resumed without duplicate research. First render and 620×620 juvenile crop passed; no edit required.
+- [v3 concept](../../design/concepts/65-tyto-soumagnei-v3.jpg) · 1350×900. Adults/text/count/cavity/support pass; recent fledgling is fully feathered, branch-capable and slightly browner/warmer.
+- Exact daily feather chronology, fledgling/adult linear ratio, sex ratio and population-wide nest variability remain unknown; science false.

@@ -1202,3 +1202,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-29T05:55:45.693+08:00: verified #64 *Tyto glaucops* v3 archive `0eda1847c6524b817aa9944b91f0238c763b9a87` by complete commit-pinned tree and metadata readback; batch 2026-10-29T0331+0800 closed COMPLETE 6/6; unique remains 184/251 and science false.
+
+
+## 2026-10-29 — #65 *Tyto soumagnei* v3 archive checkpoint
+
+- Resumed an expired RESEARCH_READY checkpoint without duplicating research or generation.
+- Reused the first-nest and Peregrine Fund evidence for an over-two-month, fully feathered, branch-capable recent fledgling; no exact body ratio inferred.
+- First render and juvenile crop passed without edit. Archived concept/generated/reviewed evidence; unique count unchanged, science false, fixed readback pending.

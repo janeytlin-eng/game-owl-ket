@@ -1755,3 +1755,14 @@ A full-frame view can conceal over-regular juvenile feather layering. For eviden
 
 
 - #64 v3 immutable archive verification passed at `0eda1847c6524b817aa9944b91f0238c763b9a87`; complete non-truncated tree and exact concept/generated/reviewed blob IDs plus 403529/677296/660410-byte sizes matched. Batch closed 6/6; science remains pending.
+
+
+## #65 Madagascar Red Owl — *Tyto soumagnei* — v3 science revision
+
+- Concept: [65-tyto-soumagnei-v3.jpg](concepts/65-tyto-soumagnei-v3.jpg)
+- Research: [species card](../knowledge/species/65-tyto-soumagnei.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-65-tyto-soumagnei-v3-fully-feathered-fledgling-structure-reconciliation)
+- Stage: ARCHIVED, fixed readback pending. First render and crop passed: fully feathered, branch-capable recent fledgling with adult-like wing/tail structure but slightly browner/warmer tone. Science false.
+
+### Incremental fledgling structure rule
+
+When a species source explicitly says plumage is adult-like at fledging, do not retain hatchling wing buds or a downy body merely to signal youth. Use developed wing/tail and natural gripping support, while keeping exact linear size ratio unknown unless measured. Applied and rechecked on #65 v3; broader effectiveness remains unverified.

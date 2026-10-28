@@ -5070,3 +5070,33 @@ Design correction: v2’s supported downy juvenile was conservative but its hidd
 - **Corrected inference:** “adult-like plumage” supports mature wing/tail structure and branch gripping, but not an exact standing-height or juvenile/adult size ratio. V3 may avoid a tiny-chick silhouette without assigning a numeric ratio.
 - Exact day-by-day feather sequence, fledgling linear ratio, sex ratio and single-nest generality remain unknown. Science false.
 - Links: [species card](../knowledge/species/65-tyto-soumagnei.md), [run](../production/runs/20261029T0557+0800-cycle-1.md).
+
+
+## 2026-10-29 · #66 *Tyto capensis* v3 — recent-fledgling dorsal pattern and wetland tunnel revision
+
+### AGO-BLSA-RDB-2025
+- Stable ID: AGO-BLSA-RDB-2025
+- Title/institution/date: African Grass Owl / BirdLife South Africa Red Data Book / current 2025 assessment page.
+- URL: https://www.birdlife.org.za/red-data-book/red-list/african-grass-owl/
+- Accessed: 2026-10-29.
+- Type and scope: regional conservation institution species account; current name, adult and fledgling identification, habitat and nesting structures.
+- Evidence actually read: Biology & Ecology, Taxonomy, Identification and Ecology; web lines 122–145. The page treats *T. capensis* as current and monotypic under Kemp, while noting some authors combine it with *T. longimembris*. Adults have a white dense facial disc, dark teardrop eyes, whitish bill, dark olive-brown upperparts with tiny white tip-spots, pale underparts, buff-feathered legs and grey feet. At fledging juveniles are darker and lack white dorsal spots; a buff/rufous facial disc is explicitly unreliable. Tall rank damp grass/sedges, tunnels, caves and landing platforms support the ground setting.
+- Limits/conflicts/confidence: regional South African assessment; fledgling statement cites Kemp rather than a measured growth series, and rufous-face exceptions include breeding adults. High for regional identification/habitat, medium-high for fledgling dorsal-pattern direction; not an exact age chronology.
+- Design decision: v3 uses a grounded fully feathered recent fledgling with dark unspotted dorsum, no forced rufous face, and a concealed wetland grass tunnel/landing platform. Science remains false.
+
+### Reused/corrected evidence
+- AGO-ADW-2014 (University of Michigan ADW, Physical Description and Parental Investment, lines 65–67 and 113–124, reread 2026-10-29): white first down and dense pale-brown/buff second coat are earlier stages; mobility begins around five weeks and learning flight around seven. v3 selects the later recent-fledgling stage, so it does not reuse the v1/v2 downy body.
+- SEO-OSTRICH-RSD-2008 (Ansara-Ross et al., DOI 10.2989/OSTRICH.2008.79.1.11.366, pp.2–3, Table 1/2 and Results; ResearchGate OCR lines 279–369, reread 2026-10-29): corrected scope to include *T. capensis*, not only the earlier #54 application. In the Gauteng road-carcass sample, females were heavier and longer-bodied; sexes were not distinguishable by dichromatic difference. This supports only a modest female body-volume direction, not a fixed standing-height ratio or range-wide rule.
+- AGO-WHITTINGTON-2012 and AGO-PEREGRINE-2026 remain reused for rank wetland grass, ground tunnels and approximate movement/flight timing; no precise feather chronology is inferred.
+
+### Name mapping and unresolved items
+- Current name: *Tyto capensis* (Smith, 1834). No old genus combination is required by the repository record. BirdLife South Africa notes a taxonomic-treatment conflict: some authors have combined it with *T. longimembris*; this plate follows the repository/IOC-separated *T. capensis* concept.
+- Still unknown: universal sex ratio/visual scaling, exact individual fledgling age, exact wing/tail emergence sequence and geographic variation. These remain explicit unknowns and prevent scientific pass.
+
+### Full imagegen prompt
+
+```text
+Use case: scientific-educational. Asset type: owl-pet species concept plate. Create a polished 3:2 science-revision plate in the repository’s established realistic-cute natural-history game concept style for African Grass Owl. Show exactly three owls with exact readable text: title “AFRICAN GRASS OWL”, italic scientific name “Tyto capensis”, bottom labels “ADULT MALE”, “RECENT FLEDGLING”, “ADULT FEMALE”. Adults: no ear tufts; dense white heart-shaped facial disc with a subtle yellow-buff/dark speckled border, dark teardrop eyes, whitish to pale gray bill; dark olive-brown upperparts with tiny white spots at feather tips; white to pale-buff underparts with scattered dark spots; long buff-feathered legs and greyish feet naturally supported. Sexes are visually alike; based on a Gauteng carcass sample, show the adult female only modestly fuller/longer-bodied than the male, never an exaggerated standing-height ratio. Juvenile: a recent fledgling around the learning-to-fly period, but grounded with wings folded and no flight pose; fully feathered and structurally capable of moving through grass, darker than the adults, unspotted dark upperparts lacking the adults’ tiny white dorsal spots, deep golden-buff lower plumage, dark eyes and pale bill. Do not force a rufous face because BirdLife South Africa says that is not a reliable age trait. Do not depict white first down, baby wing buds, mature adult dorsal spotting, or unsupported exact day-by-day feather chronology. Place the group within tall rank wetland grass and sedges on damp substrate. Show a concealed ground nest/runway system with trampled grass tunnel, small cave-like shelter and stable grass landing platform; no tree hollow, rock ledge, eggs or exposed open nest. All feet must have natural support and correct perspective. No extra birds, chicks, text, logos, borders or watermarks.
+```
+
+Links: [species dossier](../knowledge/species/66-tyto-capensis.md), [v1](../design/concepts/66-tyto-capensis-v1.png), [v2](../design/concepts/66-tyto-capensis-v2.png), [cycle2 run](../production/runs/20261029T0642+0800-cycle-2.md).

@@ -5313,8 +5313,8 @@
         "species": "#10 Surnia ulula",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:12:00.000+08:00",
-        "expires_at": "2026-10-28T08:27:00.000+08:00"
+        "heartbeat_at": "2026-10-28T08:15:00.000+08:00",
+        "expires_at": "2026-10-28T08:30:00.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5322,17 +5322,37 @@
         "species": "#10 Surnia ulula",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T08:12:00.000+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T08:15:00.000+08:00",
         "evidence": {
-          "repo_head_before": "737a0a6c8206074a9a0d5ee8d7c844619f4cd46a",
-          "candidate_basis": "Canonical #10 has v1 historical approval and v2 evidence-bounded early chick but no modern species card/manifest metadata or scientific pass; preserve v1/v2.",
-          "manifest_checked": true,
-          "unique_species_before": "184/251",
+          "source_ids_new": [
+            "NHO-MIKKOLA-2013-P360",
+            "NHO-EFAUNA-BC-2026",
+            "NHO-HUHTALA-1987"
+          ],
+          "source_ids_reused": [
+            "NHO-CORNELL-ID-2026",
+            "NHO-CORNELL-LIFE-2026",
+            "NHO-NPS-NEST-2021"
+          ],
+          "source_ids_corrected": [],
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "fresh_research": "Mikkola pp.360–363 extracted; E-Fauna juvenile account and primary symposium abstract actually read; Cornell/NPS records reused.",
+          "design_boundary": "Approximately 24–27d preflight branch-clamberer, gray mesoptile/dark face/formed modest wing-tail/full support.",
+          "full_prompt_saved": "owl-pet/research/species/10-surnia-ulula-v3.md",
+          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the repository's established cinematic 3D animated owl style. Exact header text: \"10 · NORTHERN HAWK OWL · Surnia ulula\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center perch at the same baseline on the broad broken top and adjacent branch of a fire-scarred boreal snag; female only subtly fuller/heavier, never a giant. Adults share one morph: medium compact but hawk-like owl, no ear tufts, long graduated dark tail with narrow pale bars, short pointed folded wings, dark gray-brown upperparts with dense white spots and a broad white scapular shoulder band, white facial disc with broad blackish side ruff and white eyebrows, bright yellow eyes, yellow-green bill, white underparts fully barred gray-brown, tarsi and toes densely feathered and gripping wood. Juvenile right is a source-bounded approximately 24–27-day newly nest-departed but pre-flight branch-clamberer on a lower sturdy snag branch: fluffy overall gray mesoptile, light gray largely unspotted crown, poorly defined blackish/dark-gray facial disc with whitish lower cheeks and throat, golden-yellow eyes, faint gray underpart barring, a few pale spots on brown-gray back, formed but still modest folded flight feathers and short barred tail retained because this stage has adult-like flight/tail feathers, both feet firmly gripping bark; no launch, spread wings, hovering or confident flight. Boreal conifer edge with open burned clearing/marsh beyond in cool daylight; broken snag cavity/stump context. Comparative review board, not a literal family moment. No prey, eggs, extra birds, borders, logos or text beyond exact title/labels. Exact day, continuous feather sequence, flight threshold, measured display ratio, subspecies and universal nest form remain unknown.",
+          "remaining_unknowns": [
+            "exact day",
+            "continuous feather sequence",
+            "flight threshold",
+            "measured display ratio",
+            "subspecies",
+            "universal nest form"
+          ],
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T08:12:00.000+08:00",
+      "last_updated_at": "2026-10-28T08:15:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5340,7 +5360,8 @@
         "2026-10-28T08:06:30.000+08:00: #07 v3 REVIEWED after one 46.229s juvenile-wing edit; long adult-spotted remiges removed, short rounded soft wing/hidden tail and turf support pass. Science false.",
         "2026-10-28T08:09:00.000+08:00: #07 v3 ARCHIVED tree prepared; concept 2dcbbc78, generated e3064dca, reviewed 76cb14aa; manifest 443→444; unique remains 184/251. Readback pending; no cycle credit.",
         "2026-10-28T08:10:00.000+08:00: cycle1 VERIFIED #07 Asio flammeus v3 at f47af7da; fixed-tree readback passed. Unique 184/251; batch 1/6 next_cycle2; lease released; science false.",
-        "2026-10-28T08:12:00.000+08:00: cycle2 STARTED canonical #10 Surnia ulula v3 SCIENCE_REVISION; v1/v2 preserved; no credit."
+        "2026-10-28T08:12:00.000+08:00: cycle2 STARTED canonical #10 Surnia ulula v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
+        "2026-10-28T08:15:00.000+08:00: cycle2 #10 v3 RESEARCH_READY; 3 new/3 reused sources, Mikkola pp.360–363 and development evidence read. Full prompt saved; science false."
       ]
     }
   ],

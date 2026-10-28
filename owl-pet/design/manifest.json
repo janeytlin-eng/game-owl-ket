@@ -5540,7 +5540,34 @@
       "archive_note": "First render opened at high detail after the original-detail preview failed to render; high-detail review passed. No edit required. Science false.",
       "archive_commit": "121c41c0412352439db76b7298374d725e61d2f9",
       "verified_at": "2026-10-28T17:42:23+08:00"
+    },
+    {
+      "id": "36-glaucidium-bolivianum-v3",
+      "path": "design/concepts/36-glaucidium-bolivianum-v3.png",
+      "species_id": 36,
+      "scientific_name": "Glaucidium bolivianum",
+      "common_name": "Yungas Pygmy-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "0bb5182f9c0c033bc55a706d49314c64bbf37492e8b56ea508be1e42c6a61e15",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: adult identity and Yungas habitat are source-backed; no species-specific juvenile sequence was found, so the juvenile remains age-unknown, fully feathered and branch-supported with reduced diffuse markings. Exact age, cavity stage and flight ability unknown.",
+      "source_ids": [
+        "YPOW-AVESPERU-2026",
+        "YPOW-PEREGRINE-2026",
+        "SRC-WEB-036-01",
+        "SRC-WEB-036-02",
+        "SRC-WEB-036-03",
+        "YPOW-EBIRD-2025"
+      ],
+      "source_index": "knowledge/species/36-glaucidium-bolivianum.md",
+      "run_record": "owl-pet/production/runs/20261028T1745+0800-cycle-4.md",
+      "reviewed_at": "2026-10-28T17:52:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 679590,
+      "git_blob": "f0ca7fc9974e317335900dc4a65f02d94414e7f9",
+      "archive_note": "First render failed juvenile-plumage review; targeted edit removed adult-like wing spots and full tail bands, shortened wing/tail, and passed recheck. Science false."
     }
   ],
-  "updated_at": "2026-10-28T17:45:00+08:00"
+  "updated_at": "2026-10-28T17:54:00+08:00"
 }

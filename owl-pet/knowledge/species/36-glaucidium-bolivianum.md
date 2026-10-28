@@ -44,3 +44,11 @@ The juvenile is an explicitly conservative, age-unspecified concept. No exact da
 - New `YPOW-AVESPERU-2026`; reused/re-read `YPOW-PEREGRINE-2026`, `SRC-WEB-036-01/02/03`, and `YPOW-EBIRD-2025`.
 - Peregrine Fund's current breeding section explicitly keeps clutch, incubation, nestling duration and flight timing unknown and describes woodpecker-hole use only as likely.
 - V3 therefore removes the implied cavity-stage claim from v2. The juvenile is an age-unknown fully feathered, naturally supported mossy-fork concept with reduced/diffuse markings. Exact age, flight ability and species-specific development remain unknown; science false.
+
+
+### v3成图
+
+- [Concept PNG](../../design/concepts/36-glaucidium-bolivianum-v3.png), 680×453, 679590 bytes, SHA-256 `0bb5182f9c0c033bc55a706d49314c64bbf37492e8b56ea508be1e42c6a61e15`.
+- [Generated master](../../production/generated/36-glaucidium-bolivianum-v3-generated-master.jpg), 1536×1024, 915960 bytes, SHA-256 `3b2fe00b9389265d5299af657256394529502a5fb591e479600ba78cf4eb3434`.
+- First render problem: juvenile had adult-like white wing spots and full tail bands. Targeted edit softened/reduced spots and shortened wing/tail; actual recheck passed. Exact age/flight/cavity stage unknown; science false.
+- [Run](../../production/runs/20261028T1745+0800-cycle-4.md)

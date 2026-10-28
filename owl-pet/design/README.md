@@ -1559,3 +1559,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #35 *Glaucidium jardinii* v3 — SCIENCE_REVISION; corrected canonical mapping, near-equal adults, paired nape false eyes and a source-bounded late-nest cavity juvenile with plain/fine-lined crown; [concept](concepts/35-glaucidium-jardinii-v3.png) · [research](../knowledge/species/35-glaucidium-jardinii.md) · [run](../production/runs/20261028T1734+0800-cycle-3-recovery.md). Science pending.
+
+
+- #36 *Glaucidium bolivianum* v3 — SCIENCE_REVISION; Yungas adult identity plus an explicitly age-unknown supported juvenile, with a targeted edit removing adult-like juvenile wing spots/full tail bands; [concept](concepts/36-glaucidium-bolivianum-v3.png) · [research](../knowledge/species/36-glaucidium-bolivianum.md) · [run](../production/runs/20261028T1745+0800-cycle-4.md). Science pending.

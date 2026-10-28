@@ -4692,3 +4692,12 @@ The preceding `#35 Glaucidium minutissimum` block is retained as an invalidated 
 
 **Reused/re-read:** `YPOW-PEREGRINE-2026` explicitly says breeding biology remains largely unknown and even the woodpecker-hole nest is likely, not a documented stage series; `SRC-WEB-036-01/02/03` and `YPOW-EBIRD-2025` retain adult morphology and distribution. A Macaulay page was access-blocked and is not indexed as read evidence.  
 **Correction:** v2's conservative juvenile is retained only as an age-unknown fully feathered design, moved from an implied cavity context to a supported mossy fork. No exact age, cavity occupancy, flight threshold or species-specific juvenile plumage claim. New1/reused5/corrected1; science false. [Species](../knowledge/species/36-glaucidium-bolivianum.md) · [run](../production/runs/20261028T1745+0800-cycle-4.md).
+
+
+## 2026-10-28 · #37 *Glaucidium peruanum* v3 evidence increment
+
+| Stable ID | Source | Institution / page | Stage | Verified fact | Limits |
+|---|---|---|---|---|---|
+| PEPO-MACIAS-2015 | [Catálogo de Vida Silvestre](https://www.patrimoniocultural.gob.ec/wp-content/uploads/2022/09/Cata%CC%81logo-Vida-Silvestre.-Macias-2015_compressed.pdf) | Roddy Macías; Ecuador institutional host; printed/PDF p.147 of 714; read 2026-10-28 | hatchling and nest departure | White-down blind hatchlings; tree/old-woodpecker cavities; young reported to leave at 26–42 d. | Secondary catalogue; no primary growth series or day-specific feather/flight data. V3 uses only a conservative supported late-cavity young inside the broad range. |
+
+Reused `SRC-BOOK-037-01`, `PEPO-KONIG-1991`, `SRC-WEB-037-02`, and `PEPO-EBIRD-ID-2026`. Correction: v2 age-unknown young is constrained to the broad supported late-cavity window; exact age/flight remain unknown. [Species](../knowledge/species/37-glaucidium-peruanum.md) · [run](../production/runs/20261028T1758+0800-cycle-5.md).

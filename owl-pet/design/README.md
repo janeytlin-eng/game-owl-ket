@@ -1666,3 +1666,10 @@ A reported nest-leaving age is not automatically evidence of independent flight.
 When a species source explicitly says a preflight juvenile has well-grown wing feathers, do not force an early-down short-wing template. Preserve the sourced development and locomotor boundary separately: well-grown folded wings may coexist with inability to fly, remaining down and a half-length tail. Crisp adult spot rows or fully regular adult remige geometry still require direct evidence. Applied and visually rechecked on #54 v3; broader effectiveness remains unverified.
 
 - #54 v3 immutable archive verification passed at `74273cfb062a1ec990b9ef6e9bfb71ff9451af6e` after rejecting and repairing a connector-truncated first archive. Exact concept/generated/reviewed blobs and byte sizes matched; science remains pending.
+
+
+- #55 *Bubo lacteus* v3 — SCIENCE_REVISION correcting the approximately-60-day nest-leaving boundary: developed juvenile remiges and visible developing tail coexist with remaining down, pink eyelids and inability to fly reliably. [concept](concepts/55-bubo-lacteus-v3.png) · [research](../knowledge/species/55-bubo-lacteus.md) · [run](../production/runs/20261029T0245+0800-cycle-4.md). One bounded edit equalized adult scale and removed crisp adult-like juvenile spots. Science pending.
+
+### Incremental stage-specific rule — locomotor behavior constrains feather depiction
+
+Do not infer a hatchling-like short wing merely because a sourced juvenile cannot yet fly. When species-specific accounts document climbing, hopping or flapping for lift near nest departure, pair that locomotor evidence with developed juvenile remiges while keeping the bird fully supported. Adult-like spot geometry remains excluded without direct evidence. Applied and visually rechecked on #55 v3; broader effectiveness remains unverified.

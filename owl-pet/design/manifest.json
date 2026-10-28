@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T02:44:00+08:00",
+  "updated": "2026-10-29",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -6080,7 +6080,39 @@
       "reviewed_path": "production/reviewed/54-bubo-africanus-v3-reviewed-master.jpg",
       "archive_commit": "74273cfb062a1ec990b9ef6e9bfb71ff9451af6e",
       "verified_at": "2026-10-29T02:44:00+08:00"
+    },
+    {
+      "id": "55-bubo-lacteus-v3",
+      "path": "design/concepts/55-bubo-lacteus-v3.png",
+      "species_id": 55,
+      "scientific_name": "Bubo lacteus",
+      "common_name": "Verreaux's Eagle-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "4f0aa3c1bec24bafd40c8690391473b62b38756ed833a087fc512e23312943cd",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION correcting v2's underdeveloped approximately-60-day juvenile wing boundary. Species-specific field chronology reports rapid wing-feather growth, frequent wing exercise, persistent grey down and browner back/shoulder feathering; Peregrine Fund and Owl Pages place nest departure around 60–63 days before competent flight. One bounded edit made adults comparable in height and replaced crisp adult-like juvenile wing spots with long soft juvenile remiges. Exact feather geometry, individual age, regional variation and adult sex biometric ratio remain unknown.",
+      "source_ids": [
+        "VEO-BIRDLIFE-PILLANS-2019",
+        "VEO-PF-2026",
+        "VEO-OWLPAGES-2020",
+        "VEO-CZBG-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29-55-bubo-lacteus-v3-nest-leaving-development-correction",
+      "run_record": "production/runs/20261029T0245+0800-cycle-4.md",
+      "reviewed_at": "2026-10-29T02:54:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 233957,
+      "git_blob": "f84ad1a755a11c9ef1c49cb423bfc5897311f443",
+      "generated_blob": "2df884e648c876953979e05370c89008d8534afb",
+      "reviewed_blob": "eb4a87276d88cdfd5343cf1b33e91703316f84a5",
+      "archive_note": "First render passed title/count/identity/support but made the male too large and gave the juvenile crisp adult-like white-spotted wing layers. One bounded edit equalized adult scale and softened the juvenile wing while retaining long developed remiges, visible developing tail, down, pink eyelids and full branch/nest support. Full edited PNG, quality-88 full-resolution JPEG and indexed derivative were opened. Science false.",
+      "readback_pending": true,
+      "generated_path": "production/generated/55-bubo-lacteus-v3-generated-master.jpg",
+      "reviewed_path": "production/reviewed/55-bubo-lacteus-v3-reviewed-master.jpg",
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-29T02:44:00+08:00"
+  "updated_at": "2026-10-29T02:57:00+08:00"
 }

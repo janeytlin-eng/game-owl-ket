@@ -75,3 +75,5 @@ Scientific-educational owl electronic-pet concept sheet in the established warm 
 - Full edited master and 680×453 derivative were actually opened and passed with limitations.
 - Concept: `design/concepts/42-athene-brama-v3.png`; SHA-256 `76a5d532ad25677ab364247fdde0eec003971f3a95bf5c697c773841bcaffdf4`; Git blob `03d7191ba1968dd4950105ee5ffe08150963c7aa`.
 - Scientific status remains false; exact day, individual feather map, continuous chronology, independent-flight threshold and sex-specific growth remain unknown.
+
+- Archive commit: `805aef01cd56d44999b324c0ad83fd33ca8bb784`; commit-pinned concept/reviewed blobs and required text records passed readback at 2026-10-28T21:40:00.096+08:00.

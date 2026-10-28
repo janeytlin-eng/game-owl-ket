@@ -1,10 +1,10 @@
-## 2026-10-28 #42 *Athene brama* v3 ARCHIVED — fixed readback pending
+## 2026-10-28 #42 *Athene brama* v3 VERIFIED
 
-- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **3/6** until fixed readback.
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **4/6**, next cycle **5**.
 - Image: [design/concepts/42-athene-brama-v3.png](design/concepts/42-athene-brama-v3.png)
 - Research: 0 new / 3 reused / 1 corrected source entry; complete PMC text replaces abstract/snippet-only access. Approximately four-week pre-flight cavity-lip/branch-walking stage; no independent-flight claim.
 - Review: first render had adult-like juvenile wing spots/layered remiges and crisp mature tail bars. One juvenile-only edit removed the spots, shortened/softened the wing and concealed the tail; full edited master and 680×453 derivative were opened and passed with limitations.
-- Archive: concept blob `03d7191ba1968dd4950105ee5ffe08150963c7aa`; reviewed master blob `15a89d6e566f8897e9a8fcf138f1957925775394`. Fixed commit readback pending. Science false.
+- Archive: [`805aef01`](https://github.com/janeytlin-eng/game-owl-ket/commit/805aef01cd56d44999b324c0ad83fd33ca8bb784); concept blob `03d7191ba1968dd4950105ee5ffe08150963c7aa`, 627883 bytes; reviewed master blob `15a89d6e566f8897e9a8fcf138f1957925775394`, 674449 bytes. Commit-pinned image/text readback passed. Science false.
 
 ## 2026-10-28 #27 *Glaucidium passerinum* v3 VERIFIED
 

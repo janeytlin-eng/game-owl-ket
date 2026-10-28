@@ -68,3 +68,5 @@ Avoid extra birds, prey, eggs, watermark, exaggerated female size, orange eyes, 
 - Generated master: blob `54add06208a52a14d0d3ffa25f14c781b5f12f13`, 562936 bytes.
 - Reviewed master: blob `5855979f0093cff71abdabbaa994f563ff22627e`, 523346 bytes.
 - Scientific status pending: first-flight competence, exact feather progression and regional juvenile variation unknown.
+
+- v3 immutable verification: archive `2752d7ffbff572999ca9823301862733b6d83b53`; exact concept/generated/reviewed blobs and all metadata markers passed. Scientific status remains pending.

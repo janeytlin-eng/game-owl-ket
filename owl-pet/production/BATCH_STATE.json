@@ -6237,7 +6237,7 @@
     },
     {
       "batch_id": "2026-10-29T0153+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -6294,24 +6294,31 @@
           "commit_sha": "667f13a1fda5daa8d5aecb13d69cade7c94c637b",
           "run_record": "owl-pet/production/runs/20261029T0303+0800-cycle-5.md",
           "verified_at": "2026-10-29T03:22:00+08:00"
+        },
+        {
+          "cycle": 6,
+          "species": "Ketupa coromanda",
+          "species_id": 58,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "2752d7ffbff572999ca9823301862733b6d83b53",
+          "run_record": "owl-pet/production/runs/20261029T0325+0800-cycle-6.md",
+          "verified_at": "2026-10-29T03:41:00+08:00"
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261029T0325+0800-cycle-6",
-        "heartbeat_at": "2026-10-29T03:38:00+08:00",
-        "expires_at": "2026-10-29T03:53:00+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
         "run_id": "20261029T0325+0800-cycle-6",
         "species": "#58 Ketupa coromanda",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "at": "2026-10-29T03:38:00+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-29T03:41:00+08:00",
         "evidence": {
+          "archive_commit": "2752d7ffbff572999ca9823301862733b6d83b53",
           "concept_path": "owl-pet/design/concepts/58-ketupa-coromanda-v3.png",
           "concept_blob": "ec4a40db371114623ac4d58783a6cf8eebab86df",
           "concept_size_bytes": 251004,
@@ -6322,11 +6329,12 @@
           "reviewed_blob": "5855979f0093cff71abdabbaa994f563ff22627e",
           "reviewed_size_bytes": 523346,
           "manifest_records": 485,
-          "readback_pending": true,
-          "science_verified": false
+          "unique_species": 184,
+          "scientifically_verified": false,
+          "readback": "PASS"
         }
       },
-      "last_updated_at": "2026-10-29T03:38:00+08:00",
+      "last_updated_at": "2026-10-29T03:41:00+08:00",
       "audit_notes": [
         "2026-10-29T01:53:00+08:00: new batch cycle1 STARTED #51 Strix rufipes v3 SCIENCE_REVISION; v1-v2 retained; no cycle credit.",
         "2026-10-29T02:00:00+08:00: cycle1 #51 v3 RESEARCH_READY; new1/reused3/corrected1; official Chile MMA dossier pp.1–2/8 read and adult sexual dichromatism corrected; full prompt saved; science false; no credit.",
@@ -6363,31 +6371,14 @@
         "2026-10-29T03:29:00+08:00: cycle6 #58 v3 RESEARCH_READY; new1/reused3/corrected1; Indian BIRDS pp.44–45/PDF1–2 and Cornell ML201341421 read; v2 short wing-bud boundary corrected to developed supported branch-moving fledgling; science false; no credit.",
         "2026-10-29T03:32:00+08:00: cycle6 #58 v3 IMAGE_GENERATED in 44.6s; 1536x1024 opened. Text/count/adults/yellow eyes/scale/habitat/support pass; juvenile structure correct but wing spots/remiges too adult-regular, edit required; no credit.",
         "2026-10-29T03:35:00+08:00: cycle6 #58 v3 REVIEWED after one 42.7s juvenile-only edit; 1536x1024 and 680x453 derivative opened; adult identity/support/habitat and softened developed juvenile wing/medium barred tail pass; science false; no credit.",
-        "2026-10-29T03:38:00+08:00: cycle6 #58 v3 ARCHIVED tree prepared; concept ec4a40db37, generated 54add06208, reviewed 5855979f00; manifest485; fixed readback pending; no credit."
+        "2026-10-29T03:38:00+08:00: cycle6 #58 v3 ARCHIVED tree prepared; concept ec4a40db37, generated 54add06208, reviewed 5855979f00; manifest485; fixed readback pending; no credit.",
+        "2026-10-29T03:41:00+08:00: cycle6 VERIFIED #58 at 2752d7ffbff572999ca9823301862733b6d83b53; exact image blobs and manifest485/source/card/run/state/status/design markers passed; batch COMPLETE6/6; unique184/251; science false; lease released."
       ],
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261029T0325+0800-cycle-6",
-        "heartbeat_at": "2026-10-29T03:38:00+08:00",
-        "expires_at": "2026-10-29T03:53:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "run_id": "20261029T0325+0800-cycle-6",
-        "species": "#58 Ketupa coromanda",
-        "species_id": 58,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED"
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261029T0325+0800-cycle-6",
-    "heartbeat_at": "2026-10-29T03:38:00+08:00",
-    "expires_at": "2026-10-29T03:53:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -6603,13 +6594,5 @@
       "detail": "Concept blob, archive commit, batch verification and run record existed, but the manifest entry was absent. Added the missing #165 record without changing completed-cycle or species counts; science remains unverified."
     }
   ],
-  "in_progress": {
-    "cycle": 6,
-    "run_id": "20261029T0325+0800-cycle-6",
-    "species": "#58 Ketupa coromanda",
-    "species_id": 58,
-    "version": 3,
-    "action": "SCIENCE_REVISION",
-    "stage": "ARCHIVED"
-  }
+  "in_progress": null
 }

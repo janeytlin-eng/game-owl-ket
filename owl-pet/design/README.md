@@ -1692,3 +1692,5 @@ When a source describes an age-unspecified young bird with adult-like wing/tail 
 ### Incremental stage-specific rule — locomotor age can reject a wing-bud template
 
 A species-specific estimate of 8–10 weeks plus observed movement among neighbouring branches and an independent “well-grown fledgling” label is sufficient to reject a tiny down-chick wing-bud depiction, even when first flight is unknown. Render developed folded juvenile wings and supported branch movement; keep flight ability explicitly unknown. Applied and visually rechecked on #58 v3; broader effectiveness remains unverified.
+
+- #58 v3 immutable verification passed at `2752d7ffbff572999ca9823301862733b6d83b53`; exact three image blobs and metadata matched. Science pending.

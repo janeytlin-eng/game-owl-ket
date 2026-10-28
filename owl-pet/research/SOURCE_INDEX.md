@@ -4920,3 +4920,26 @@ Design correction: v2’s supported downy juvenile was conservative but its hidd
 - Corrected design claim: v2’s short, plain, down-softened juvenile wing is not a safe generalization. Museum text supports developed, barred juvenile wing/tail structure in an age-unspecified young bird; field photographs support a branch-perching fledgling. Exact age, flight competence and sex remain unknown.
 - Taxonomy mapping: project *Bubo nipalensis* = current *Ketupa nipalensis*; historical *Huhua/Eutoglaux/Urrua nipalensis* combinations refer to the same species.
 - Heimo Mikkola guide: not readable in this execution; no page number asserted.
+
+
+### DEO-MACAULAY-FLEDGLING-2011
+- Title: Macaulay Library asset ML201341421 / IBC 1197570 — Dusky Eagle-Owl
+- Institution: Cornell Lab of Ornithology, Macaulay Library / Internet Bird Collection
+- Observation date: 2011-02-28
+- URL: https://macaulaylibrary.org/asset/201341421
+- Accessed: 2026-10-28
+- Type: institution-hosted labelled field media record
+- Taxon/stage: *Ketupa coromanda* (recorded as *Bubo coromandus coromandus*); well-grown fledgling
+- Read location: media notes and observation details
+- Source facts: a well-grown fledgling was perched in a tree, looking around and preening at Keoladeo Ghana National Park.
+- Evidence limits: age and sex are explicitly not specified; the record does not quantify wing/tail development or flight competence.
+- Supported decision: an age-unknown/well-grown fledgling can perch and preen in a tree; it should not be reduced to a tiny down chick. Do not infer exact age or flight ability.
+- Related: [species card](../knowledge/species/58-ketupa-coromanda.md); v3.
+
+### 2026-10-28 #58 v3 source reconciliation
+- Primary source re-read: DEO-REDDY-RAMACHANDRAN-2023, Indian BIRDS 19(2), printed pp.44–45 (PDF pp.1–2). The authors observed a juvenile, estimated 8–10 weeks from appearance/behaviour, attempting to move among neighbouring branches while parents watched; the nest was a large dry-stick nest c.20 m high; habitat adjoined a large waterbody, wooded forest and rice cultivation. Their behaviourally sexed female was only slightly larger.
+- New source: DEO-MACAULAY-FLEDGLING-2011, a labelled well-grown fledgling perched and preening in a tree.
+- Reused institutions: DEO-PEREGRINE-FUND-2026 (yellow eyes, long tufts, nest/flight/dependency duration unknown) and DEO-OWL-PAGES-2020 (adult morphology, barred tail, stick nest near water; fledging period unknown).
+- Corrected design claim: v2’s short rounded down-covered wing and almost absent tail are too conservative for the sourced 8–10-week branch-moving / well-grown fledgling. V3 uses developed folded juvenile wings and a visible medium barred developing tail, while keeping the bird supported and not claiming flight.
+- Taxonomy: *Ketupa coromanda* is used because *Ketupa* is feminine; *K. coromandus*, *Bubo coromandus* and *Strix coromanda* are legacy/search combinations for the same species.
+- Heimo Mikkola guide: not readable in this execution; no page claim asserted.

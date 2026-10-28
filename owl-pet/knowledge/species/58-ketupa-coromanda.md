@@ -37,3 +37,24 @@ Constraints: natural support and toe contact; no exaggerated female size; no mat
 - Re-opened review passed: exactly three birds and correct labels; adults near-equal with only subtle female fullness; clear yellow eyes and long upright tufts; juvenile supported on both feet beside an old dry-stick tree-fork nest in the evidence-bounded water/woodland/rice-edge setting.
 - Science boundary: the juvenile stage is tied to the field-estimated 8–10 weeks and branch movement, but exact feather progression is not measured. Concept review passed; scientific calibration remains pending.
 - Transfer: 1350×900 PNG, 667,562 bytes, SHA-256 `0d2bbd8561c26e778ce1d2f681a058c32f90a48b4fdebe08fe57fc07ea6f6a7a`, Git blob `c7edc3b93add95467c834fbb39fd0f0ca99c38d3`.
+
+
+## v3 research increment — 2026-10-28
+- Primary re-read: `DEO-REDDY-RAMACHANDRAN-2023`, Indian BIRDS 19(2), printed pp.44–45 / PDF pp.1–2. A juvenile estimated 8–10 weeks from appearance/behaviour attempted to move among neighbouring branches while parents watched. The large dry-stick nest was c.20 m high; site adjoined a large waterbody, wooded forest and rice cultivation. A behaviourally sexed female was only slightly larger.
+- New institutional field media: `DEO-MACAULAY-FLEDGLING-2011`, a labelled well-grown fledgling perched, looking around and preening in a tree; exact age and sex not specified.
+- Reused: `DEO-PEREGRINE-FUND-2026` and `DEO-OWL-PAGES-2020`. Peregrine Fund explicitly leaves nest duration, first flight and dependency unknown. Owl Pages supports yellow eyes, long upright tufts, pale grey underparts with shaft streaks/cross-bars, 4–5 broad tail bars and old stick nests near water.
+- Correction to v2: a short rounded down-covered wing and almost absent tail are too conservative for an approximately 8–10-week branch-moving / institution-labelled well-grown fledgling. V3 uses developed folded juvenile wings and a visible medium barred developing tail, with full branch support and no flight claim.
+- Sex: only subtle female fullness; no exaggerated ratio or colour dichromatism.
+- Taxonomy: current *Ketupa coromanda*; legacy/search *Ketupa coromandus*, *Bubo coromandus* and *Strix coromanda* map to the same species.
+- New 1 / reused 3 / corrected 1. Mikkola guide unreadable this execution; no page claim. Science remains pending.
+
+## v3 full imagegen prompt
+Use case: scientific-educational.
+Asset type: owl-pet species concept board.
+Create one 3:2 horizontal hand-painted natural-history board in the established rich gouache-watercolor realism.
+Exact visible text: header “58 · DUSKY EAGLE-OWL · Ketupa coromanda”; exactly three labels left-to-right “ADULT MALE”, “ADULT FEMALE”, “JUVENILE · 8–10 WEEKS”.
+Scene: South Asian lowland well-watered woodland edge beside a large waterbody and rice-field margin; massive old tree, broad natural branches and a high reused dry-stick nest/fork. Do not depict cave, ground nest, desert or rocky habitat.
+Exactly three full-body birds. Two adults near-equal height, female only subtly fuller. Adults have clear bright yellow eyes, prominent long upright ear tufts (not huge sideways Spot-bellied tufts), narrow dark facial-disc rim, bluish-lead bill, grey-brown upperparts with fine dark shaft streaks/vermiculations, very pale buff-grey underparts with restrained dark vertical shaft streaks plus subtle brown cross-bars, feathered tarsi and strong natural feet.
+Juvenile: one approximately 8–10-week branch-moving, well-grown fledgling, lower and fully supported on a neighbouring broad branch beside the stick-nest tree. Paler grey-cream, down-softened head/body, smaller developing upright tufts and yellow eyes. Show developed folded juvenile flight feathers with softer, less regular barring than adults and a visible medium-length developing tail with several broad grey-brown bars and pale tip. It may look alert/preening or stepping between branches, but must not fly, hover or spread its wings. Do not make it a tiny hatchling, a spherical fluff ball, a short wing-bud chick, or a fully adult-plumaged third bird.
+Composition: adult male left, adult female center, juvenile right/lower; all feet and branch contact visible.
+Avoid extra birds, prey, eggs, watermark, exaggerated female size, orange eyes, Spot-bellied horizontal belly pattern, adult-like juvenile regularity, unsupported hovering, invented exact flight competence.

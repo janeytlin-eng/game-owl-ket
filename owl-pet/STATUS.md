@@ -1956,3 +1956,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Review: one bounded edit removed long adult-spotted juvenile remiges and made the adult female subtly fuller rather than smaller. Text/count, same-plumage adults, supported warm-buff brancher, cavity and habitat pass. Exact feather sequence, locomotor threshold, sex metrics and regional variation remain unknown. Science false; readback pending.
 
 - 2026-10-29T02:50:00+08:00 — #52 *Strix hylophila* v3 independently verified at archive `7cd30758c909a6f95bf5c02b787c74ba53a84dbf`; concept `1a5a67b2c6…`, generated `f1c30904ff…`, reviewed `cc6e4e75ac…`, plus manifest481/source/card/run/state/STATUS/design markers read back. Unique remains **184/251**; batch **2/6**, next cycle 3. Science false.
+
+- 2026-10-29T02:44:00+08:00 — #54 *Bubo africanus* v3 independently verified at repaired archive `74273cfb062a1ec990b9ef6e9bfb71ff9451af6e`; concept `584fe07677…`, generated `db3b7c3afe…`, reviewed `b6fccf9fd6…`, exact bytes and metadata markers passed. The first truncated archive attempt was rejected before credit. Unique remains **184/251**; batch **3/6**, next cycle 4. Science false.

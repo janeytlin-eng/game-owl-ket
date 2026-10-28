@@ -68,3 +68,6 @@
 - Recheck: 1536×1024 reviewed master and 680×453 derivative opened. Exactly three whole birds, title/labels, adult morphology, juvenile support and preflight boundary passed.
 - Archive concept: `owl-pet/design/concepts/54-bubo-africanus-v3.png`; generated and reviewed masters retained separately.
 - Technical status: ARCHIVED pending fixed-commit readback. Scientific status remains false because exact feather geometry, individual age, regional variation and quantitative sex ratio remain unknown.
+
+
+- Immutable archive verification: repaired archive commit `74273cfb062a1ec990b9ef6e9bfb71ff9451af6e`; concept `584fe0767728c9df6df2a3a7a0417b978e61120c`, generated JPEG `db3b7c3afec9a542a9632ef42a2f33135d123d40`, reviewed JPEG `b6fccf9fd62a2a12b9d0e638b235b23071789911`; exact tree byte sizes and all required markers passed. The earlier truncated blob attempt received no cycle credit. Unique remains 184/251; science false.

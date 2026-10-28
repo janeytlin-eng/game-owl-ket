@@ -1817,3 +1817,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Review: one targeted edit removed adult-like juvenile crown/back/wing white spots. Exact text/count, near-equal adults, male nape false eye, juvenile plain back/soft compact wing/hidden tail and wet ground support pass. Exact age, flight ability, feather chronology, nest stage and quantified dimorphism remain unknown. Science false; fixed-commit readback pending.
 
 - 2026-10-28T19:39:42+08:00 — #39 *Glaucidium griseiceps* v3 independently verified at archive `c22243e93daf1e9e5f7327c02e89e9a306662ba5`; concept `9fb8eeef61…`, generated `b63607799f…`, reviewed `5bec851412…`, plus manifest/source/card/run/state/STATUS read back. Unique remains **184/251**; batch **1/6**, next cycle 2. Science false.
+
+
+## 2026-10-28 #40 *Glaucidium nubicola* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/40-glaucidium-nubicola-v3.png](design/concepts/40-glaucidium-nubicola-v3.png)
+- Research: 1 new / 4 reused / 1 corrected source decision. Primary printed p.38 supports a recently fledged juvenile being fed a lizard; tentative secondary caption weakly supports an unspotted immature crown; linked image was blocked and not claimed as viewed.
+- Review: one juvenile-only edit removed adult-like crown/wing spots. Exact text/count, near-equal adults, male nape false-eye, plain-crowned juvenile, soft compact formed wing, shorter tail and full support pass. Exact age, feather chronology, nest and independent flight remain unknown. Science false; fixed-commit readback pending.

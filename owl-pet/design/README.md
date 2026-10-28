@@ -1571,3 +1571,10 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #37 *Glaucidium peruanum* v3 — SCIENCE_REVISION; source-bounded broad 26–42 d late-cavity young; two edits corrected an extra fourth bird and restored male false-eye view; [concept](concepts/37-glaucidium-peruanum-v3.png) · [research](../knowledge/species/37-glaucidium-peruanum.md) · [run](../production/runs/20261028T1758+0800-cycle-5.md). Science pending.
+
+
+- #40 *Glaucidium nubicola* v3 — SCIENCE_REVISION; primary record supports a recently fledged juvenile receiving lizard prey, while a tentative secondary caption only weakly supports an unspotted immature crown. [concept](concepts/40-glaucidium-nubicola-v3.png) · [research](../knowledge/species/40-glaucidium-nubicola.md) · [run](../production/runs/20261028T1940+0800-cycle-2.md). One targeted juvenile edit removed adult-like crown/wing spots; exact age, plumage chronology, nest and independent flight remain unknown; science pending.
+
+### Incremental evidence-tier rule — tentative immature captions
+
+When a species-specific immature image caption is explicitly tentative (for example “believed to be”), apply only the narrow visible/worded boundary it supports. For a recent fledgling described as unspotted, remove crisp adult spot rows from crown/back/wing while retaining a formed, compact, naturally supported folded wing. Do not infer exact age, downy nestling plumage, flight ability or a full feather sequence. This rule was applied and visually rechecked on #40 v3; broader effectiveness remains unverified.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T19:39:42+08:00",
+  "updated": "2026-10-28T20:00:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5654,7 +5654,34 @@
       "readback_pending": false,
       "archive_commit": "c22243e93daf1e9e5f7327c02e89e9a306662ba5",
       "verified_at": "2026-10-28T19:39:42+08:00"
+    },
+    {
+      "id": "40-glaucidium-nubicola-v3",
+      "path": "design/concepts/40-glaucidium-nubicola-v3.png",
+      "species_id": 40,
+      "scientific_name": "Glaucidium nubicola",
+      "common_name": "Cloud-forest Pygmy-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "c9a468b2b1bf4e611c47c4e19203ebf79124e80ffa856fe97a8ca3ad59c5ed5f",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using a primary recent-fledgling feeding record plus a tentative secondary unspotted-immature caption: adults near-equal with one male rear-side false-eye view; supported juvenile has an unspotted crown, plain back, compact soft formed wing and shorter tail. Exact age, detailed plumage sequence, nest and independent flight remain unknown.",
+      "source_ids": [
+        "SRC-PAPER-040-02",
+        "SRC-BOOK-040-01",
+        "SRC-PAPER-040-03",
+        "CFPO-EBIRD-ID-2026",
+        "CFPO-BIRDSCOLOMBIA-IMMATURE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-28-40-glaucidium-nubicola-v3-evidence-increment",
+      "run_record": "production/runs/20261028T1940+0800-cycle-2.md",
+      "reviewed_at": "2026-10-28T19:56:30+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 225544,
+      "git_blob": "ea7df51491d3022c4d14a8a1043faa8f30846fb8",
+      "archive_note": "First render passed count/text/adult/support checks but juvenile crown and wing carried crisp adult-like spots. One targeted edit removed those spots, softened the compact formed wing, preserved shorter tail and two-foot support; full-size and derivative were opened and passed. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-28T19:39:42+08:00"
+  "updated_at": "2026-10-28T20:00:30+08:00"
 }

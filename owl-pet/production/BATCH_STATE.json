@@ -5302,8 +5302,8 @@
         "species": "#07 Asio flammeus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "heartbeat_at": "2026-10-28T08:05:00.000+08:00",
-        "expires_at": "2026-10-28T08:20:00.000+08:00"
+        "heartbeat_at": "2026-10-28T08:06:30.000+08:00",
+        "expires_at": "2026-10-28T08:21:30.000+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
@@ -5311,24 +5311,41 @@
         "species": "#07 Asio flammeus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-28T08:05:00.000+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-28T08:06:30.000+08:00",
         "evidence": {
-          "generation_wait_seconds": 43.875,
-          "source_path_local": "generated_images/exec-472adfed-27f6-44db-9124-ebb34ff400df.png",
-          "source_bytes": 2709048,
-          "source_sha256": "8e2b7b8336365e9f430cfe828232cfde82e5d9b662b9d1b23e0b5fc3e5f309d2",
-          "source_dimensions": "1536x1024",
-          "initial_review": "Title/labels/count/adults/habitat/support pass; juvenile wing too long with adult-like spot rows.",
-          "edit_required": true,
+          "result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 1,
+          "edit_wait_seconds": 46.229,
+          "reviewed_source_path_local": "generated_images/exec-297af0bf-7b9b-44f1-af25-e40e463ad032.png",
+          "reviewed_source_bytes": 2630759,
+          "reviewed_source_sha256": "9d9a12cf6090afc82fec90fdeeea01bb5a80fc602c298d5b7aa5f17652232292",
+          "checks": {
+            "count_text": "PASS",
+            "adult_identity": "PASS",
+            "sex_direction": "PASS",
+            "juvenile_stage": "PASS after shorter rounded soft wing and hidden tail",
+            "support_action": "PASS",
+            "habitat_nest": "PASS"
+          },
+          "remaining_unknowns": [
+            "exact day",
+            "flight threshold",
+            "secondary pattern",
+            "continuous feather sequence",
+            "measured display ratio",
+            "subspecies",
+            "universal nest geometry"
+          ],
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T08:05:00.000+08:00",
+      "last_updated_at": "2026-10-28T08:06:30.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
-        "2026-10-28T08:05:00.000+08:00: #07 v3 IMAGE_GENERATED after 43.875s; juvenile wing too long/adult-spotted, targeted edit required; no credit."
+        "2026-10-28T08:05:00.000+08:00: #07 v3 IMAGE_GENERATED after 43.875s; juvenile wing too long/adult-spotted, targeted edit required; no credit.",
+        "2026-10-28T08:06:30.000+08:00: #07 v3 REVIEWED after one 46.229s juvenile-wing edit; long adult-spotted remiges removed, short rounded soft wing/hidden tail and turf support pass. Science false."
       ]
     }
   ],

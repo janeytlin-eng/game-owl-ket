@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T09:00:00.000+08:00",
+  "updated": "2026-10-28T09:34:00.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5138,7 +5138,36 @@
       "git_blob": "cce3c11d613708949dd11b502e4d801d501b328c",
       "archive_commit": "6bd289186cde11539374e8528118b730b7fd9f14",
       "verified_at": "2026-10-28T09:00:00.000+08:00"
+    },
+    {
+      "id": "20-megascops-clarkii-v4",
+      "path": "design/concepts/20-megascops-clarkii-v4.png",
+      "species_id": 20,
+      "scientific_name": "Megascops clarkii",
+      "common_name": "Bare-shanked Screech-Owl",
+      "historical_names": [
+        "Otus clarkii"
+      ],
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "sha256": "359487f9c20c893a224a46ab4840a9f5b232b226c00b9ff8b5c858b58df602b2",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION after original 2018 nest-site article and Mikkola p.217 evidence reconciliation. Adults share a rufous morph and scale, with female only subtly fuller; lower tarsal segment remains bare but exact fraction is unresolved. Age-unknown supported nest-stage juvenile is mostly downy with only compact incomplete growing flight-feather tips on a moss/organic platform inside a live-tree crack. Exact age, flight capability, continuous feather sequence, sex-specific dimensions and tarsal boundary remain unknown.",
+      "source_ids": [
+        "BSOW-ASTORGA-2018-P85-89",
+        "BSOW-MIKKOLA-2013",
+        "BSOW-JRR-NEST-1997",
+        "BSOW-PEREGRINE-2026",
+        "BSOW-AVIBASE-TAX-2026"
+      ],
+      "source_index": "research/species/20-megascops-clarkii-v4.md",
+      "run_record": "production/runs/20261028T0903+0800-newbatch-cycle-2.md",
+      "reviewed_at": "2026-10-28T09:34:00.000+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 161425,
+      "git_blob": "092ea72c0ac80d80c9d8eaac29c00a660fdcbf14",
+      "archive_note": "Recovered from persisted IMAGE_GENERATED checkpoint after expired lease. Workspace pruning removed only the scratch edit; one resumed precise-object edit was generated and viewed at 1536x1024, then a 680x453 derivative was viewed. Adult upper tarsi feathering and juvenile incomplete wing/support passed concept review. Science remains false pending stated unknowns."
     }
   ],
-  "updated_at": "2026-10-28T09:00:00.000+08:00"
+  "updated_at": "2026-10-28T09:34:00.000+08:00"
 }

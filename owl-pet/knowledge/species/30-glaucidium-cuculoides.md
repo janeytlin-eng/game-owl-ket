@@ -35,3 +35,8 @@
 HKBWS识别段同时说明幼鸟额顶有斑点；Owl Pages重读支持雌鸟通常更大更重，但没有站高比例。v3只把雌鸟画得略丰满，雌雄同基线近等冠高，不把体重方向机械换算成显著身高差。成人继续保持黄眼、黄绿色喙、白喉、细横斑、短横斑尾、无耳簇和无后颈假眼斑。
 
 本轮Library与仓库检索均未找到可访问的用户上传Mikkola文件，因此不声明读取页码。仍未知精确幼龄、连续羽序、飞行阈值、幼鸟喙趾颜色、亚种地域差异、量化性别比例和普遍巢腔几何；`scientifically_verified=false`。
+
+
+### v3归档核验
+
+v3概念图 `design/concepts/30-glaucidium-cuculoides-v3.png` 已在固定提交 `b55d0f4a1b5f1522a04afd5e1c65e07af1f85861` 回读：680×453，195,780 bytes，SHA-256 `3d367183c60bf08cd3252ec45913e5e58e449879636c67039e880e9454d8030e`，Git blob `9dea21238c20bf00da70d975ae6949bd9b059b55`。1536×1024生成/审查母版Git blob均为 `0faf15dab096a9011327716bf464a83a7e77a700`，719,232 bytes，SHA-256 `11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c`。概念审查通过，但科学状态保持false，旧版本与旧确认记录不转移。

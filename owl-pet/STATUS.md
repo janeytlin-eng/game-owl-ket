@@ -1804,3 +1804,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/30-glaucidium-cuculoides-v3.png](design/concepts/30-glaucidium-cuculoides-v3.png)
 - Research: 2 new, 3 reused and 1 corrected source inference. The 2019 primary ground-nest paper pp.157–160 was actually viewed; it is an unsuccessful egg-stage attempt and supplies no juvenile development. HKBWS's third undated yellow-eyed juvenile-plumage stage is used instead.
 - Review: first 1536×1024 render passed without edit. Exact text/count, supported untufted adults, subtle female fullness, supported crown-spotted juvenile, compact wing and hidden tail pass. Exact age, flight ability, continuous feather sequence, subspecies and quantified sex ratio remain unknown. Science false; readback pending.
+
+
+- 2026-10-28T15:36:00+08:00 — #30 *Glaucidium cuculoides* v3 independently verified at archive `b55d0f4a1b5f1522a04afd5e1c65e07af1f85861`; concept `9dea21238c…`, generated/reviewed `0faf15dab0…`, manifest459 and source/card/run/STATUS/knowledge/design records read back at the immutable commit. Unique remains **184/251**; batch **4/6**, next cycle 5. Science false.

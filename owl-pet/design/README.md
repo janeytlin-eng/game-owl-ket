@@ -1544,3 +1544,6 @@ Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/
 
 
 - #30 *Glaucidium cuculoides* v3 — SCIENCE_REVISION, undated HKBWS third-stage yellow-eyed juvenile in fully supported natural banyan-cavity setting; [concept](concepts/30-glaucidium-cuculoides-v3.png) · [research](../research/species/30-glaucidium-cuculoides-v3.md) · [run](../production/runs/20261028T1528+0800-cycle-4.md). First render passed without edit; exact age/flight/continuous feather sequence and quantified sex ratio remain unknown; science pending.
+
+
+- #31 *Glaucidium radiatum* v3 — SCIENCE_REVISION, directly photographed age-unknown fully feathered older immature with natural fork support; [concept](concepts/31-glaucidium-radiatum-v3.png) · [research](../knowledge/species/31-glaucidium-radiatum.md) · [run](../production/runs/20261028T1538+0800-cycle-5.md). First render passed without edit; exact age/flight/continuous feather sequence and population variation remain unknown; science pending.

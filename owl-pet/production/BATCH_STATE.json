@@ -6038,7 +6038,7 @@
         }
       ],
       "next_cycle": 6,
-      "last_updated_at": "2026-10-28T21:55:00+08:00",
+      "last_updated_at": "2026-10-28T21:56:00+08:00",
       "audit_notes": [
         "2026-10-28T18:56:30+08:00 new batch cycle 1 STARTED after prior batch completed.",
         "2026-10-28T19:01:30+08:00 RESEARCH_READY with correction of v2 branch-pose inference.",
@@ -6071,8 +6071,54 @@
         "2026-10-28T21:49:00+08:00 cycle5 #43 v3 REVIEWED after one juvenile-wing edit; master and derivative viewed; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-28T21:52:00+08:00 cycle5 #43 v3 ARCHIVED tree prepared; concept 43d3d2d67e, reviewed fc85ee69eb; manifest 471→472; fixed readback pending; no credit.",
         "2026-10-28T21:54:00+08:00 #43 generated-master archive repair: first upload truncated at 786444/797684 bytes; re-encoded same 1536x1024 PNG to 494663-byte JPEG blob 0937be3096ba8b9537c80c850795ac855e292dd4; concept/reviewed unchanged; verification pending.",
-        "2026-10-28T21:55:00+08:00 cycle5 VERIFIED #43 at 6aacd4cf316108964f952883b2043401c894839e; concept/reviewed/generated repair blobs, sizes, signatures, manifest/source/card/run/state/status/design readback passed; batch5/6 next_cycle6; science false."
-      ]
+        "2026-10-28T21:55:00+08:00 cycle5 VERIFIED #43 at 6aacd4cf316108964f952883b2043401c894839e; concept/reviewed/generated repair blobs, sizes, signatures, manifest/source/card/run/state/status/design readback passed; batch5/6 next_cycle6; science false.",
+        "2026-10-28T21:56:00+08:00 cycle6 STARTED #44 Strix uralensis v3 SCIENCE_REVISION; lease acquired; no credit."
+      ],
+      "in_progress": {
+        "cycle": 6,
+        "species": "Strix uralensis",
+        "species_id": 44,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_record": "owl-pet/production/runs/20261028T2156+0800-cycle-6.md",
+        "run_id": "20261028T2156+0800-cycle-6",
+        "stage": "STARTED",
+        "started_at": "2026-10-28T21:56:00+08:00",
+        "lease": {
+          "owner": "codex",
+          "run_id": "20261028T2156+0800-cycle-6",
+          "heartbeat_at": "2026-10-28T21:56:00+08:00",
+          "expires_at": "2026-10-28T22:11:00+08:00"
+        },
+        "phases": {
+          "STARTED": {
+            "status": "complete",
+            "at": "2026-10-28T21:56:00+08:00",
+            "evidence": "run record and batch lease"
+          },
+          "RESEARCH_READY": {
+            "status": "pending"
+          },
+          "IMAGE_GENERATED": {
+            "status": "pending"
+          },
+          "REVIEWED": {
+            "status": "pending"
+          },
+          "ARCHIVED": {
+            "status": "pending"
+          },
+          "VERIFIED": {
+            "status": "pending"
+          }
+        }
+      },
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261028T2156+0800-cycle-6",
+        "heartbeat_at": "2026-10-28T21:56:00+08:00",
+        "expires_at": "2026-10-28T22:11:00+08:00"
+      }
     }
   ],
   "lease": {

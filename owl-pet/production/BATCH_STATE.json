@@ -5345,111 +5345,34 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex",
+        "run_id": "20261028T0851+0800-cycle-6",
+        "cycle": 6,
+        "species_id": 17,
+        "heartbeat_at": "2026-10-28T08:51:10.000+08:00",
+        "expires_at": "2026-10-28T09:06:10.000+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 5,
-        "run_id": "20261028T0840+0800-cycle-5",
-        "species": "#15 Strix varia",
-        "version": 4,
+        "cycle": 6,
+        "run_id": "20261028T0851+0800-cycle-6",
+        "species": "#17 Megascops asio",
+        "version": 5,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T08:49:35.000+08:00",
+        "stage": "STARTED",
+        "at": "2026-10-28T08:51:10.000+08:00",
         "evidence": {
-          "source_ids_new": [
-            "BARO-MIKKOLA-2013-P346",
-            "BARO-DUNCAN-2024-CFN",
-            "BARO-CORNELL-BIRDCAMS-2024"
+          "existing_versions": [
+            "v1",
+            "v2",
+            "v3",
+            "v4"
           ],
-          "source_ids_reused": [
-            "BARO-USFS-1997",
-            "BARO-CORNELL-FAQ-2020"
-          ],
-          "source_ids_corrected": [
-            "BARO-USFS-1997 scope expanded with actual climbing passage"
-          ],
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "fresh_research": "Mikkola printed p29/PDF31 and pp346–347/PDF348–349; peer-reviewed 2024 CFN abstract; USFS field-study passage and Cornell cam page actually read.",
-          "design_boundary": "Approx. 30–33d supported cavity-edge/branching climber with fluffy mesoptile and barely any flight skill.",
-          "full_prompt_saved": "owl-pet/research/species/15-strix-varia-v4.md",
-          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the established warm hand-painted digital gouache style of the owl-pet archive: parchment-cream background, subtle paper grain, restrained humid old-forest colors, clean dark-brown taxonomy typography, and a natural mature-tree decay-cavity/branch vignette. Exact header text: \"15 · BARRED OWL · Strix varia\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center perch at the same visual baseline on adjacent broad old hardwood branches; female only subtly fuller/heavier, not one-third taller. Both adults: fairly large round heads, absolutely no ear tufts, blackish-brown eyes with no dark eye patches, yellowish bills, pale gray-brown facial discs with fine concentric lines but no prominent dark ruff, brown to gray-brown upperparts scalloped with whitish bars, whitish wing-covert spots, pale upper breast densely cross-barred light/dark, lower breast and belly boldly vertically streaked rufous-brown/dark brown, feathered tarsi nearly to toe tips, bare distal toes yellowish-gray and fully gripping bark. Juvenile right is an approximately 30–33-day branching-age bird at a natural cavity lip or immediately adjacent broad rough-barked branch: fluffy brownish-white mesoptile with indistinct darker barring above and below, pinkish skin only subtly visible at face/eyelid edges, light bluish-green cere, dark eyes, no adult concentric facial-disc rings, substantially growing but still soft incomplete folded wings, short unfinished tail. Show it climbing/branching with bill and both talons contacting rough bark while belly/chest remains safely supported; alert but clumsy, barely capable of short fluttering leaps, not competent sustained flight. Do not show it airborne, spread adult wings, long adult tail, neonate white ball, or adult vertical belly streaking. Setting: mature humid mixed woodland/swamp edge, old large tree and irregular natural cavity, no decorative woven nest and no measured cavity reconstruction. Comparative review board, not a literal family moment. Exactly three owls and exact title/labels only; no extra text, prey, eggs, logos, borders or measurement marks.",
-          "remaining_unknowns": [
-            "exact individual age",
-            "continuous feather sequence",
-            "wing/tail length",
-            "standing-height ratio",
-            "subspecies geography",
-            "universal cavity geometry"
-          ],
-          "scientifically_verified": false,
-          "generation_attempt": {
-            "at": "2026-10-28T08:44:52.000+08:00",
-            "tool": "imagegen",
-            "observed_seconds": 45.837,
-            "result": "tool reported generated, but returned object/path not retained after execution environment became unavailable",
-            "reusable": false
-          },
-          "last_error": {
-            "step": "post-generation local recovery/review",
-            "error": "No usable execution environment is available",
-            "observed_at": "2026-10-28T08:45:40.000+08:00"
-          },
-          "recovery_point": "Reuse persisted research card, source index and full prompt; regenerate or recover local asset if environment returns; then view before any REVIEWED/ARCHIVED credit.",
-          "generated_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-0506787d-1f26-4bc6-9149-2c0c42ddc003.png",
-          "generated_dimensions": "1536x1024",
-          "generated_bytes": 615725,
-          "generation_seconds": 45.837,
-          "initial_review": "count/title/labels/adults/climbing support pass; juvenile wing/tail too long and adult-spotted for bounded brancher stage; targeted edit required",
-          "edit_count": 1,
-          "edit_seconds": 39.74,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "reviewed_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-a6d23dfd-0f50-466a-880c-bbc844f65686.png",
-          "reviewed_sha256": "c9315410be134b52ac241c67f2ab41b027c3dc6598cad64af9c7d8f79e682aa6",
-          "reviewed_bytes": 736075,
-          "reviewed_dimensions": "1536x1024",
-          "review_checks": {
-            "exact_three_owls": true,
-            "title_and_labels": true,
-            "adult_identity": true,
-            "sex_direction": "female subtly fuller, no one-third standing-height claim",
-            "juvenile_stage": "approx. 30–33d fluffy brancher at cavity/tree",
-            "juvenile_wing": "shortened soft incomplete folded wing; adult spot rows and long tail removed",
-            "support": "both talons plus bill contact rough bark; belly/body supported",
-            "habitat": "mature humid swamp woodland, natural cavity"
-          },
-          "unresolved": [
-            "exact individual age",
-            "continuous feather sequence",
-            "wing/tail length",
-            "standing-height ratio",
-            "regional/subspecies variation",
-            "universal cavity geometry"
-          ],
-          "concept_path": "owl-pet/design/concepts/15-strix-varia-v4.png",
-          "concept_blob": "05f5e770e10556d96895d06cac886010e061e9f1",
-          "concept_sha256": "2094399521c0a06660be9fc89597f44dfeeea8bbfc10f113f6043f0f32dabb00",
-          "concept_bytes": 200902,
-          "generated_path": "owl-pet/production/generated/15-strix-varia-v4-generated-master.png",
-          "generated_blob": "c952249fdf541b94e29488481473837bc0f48110",
-          "generated_sha256": "596dd7cf8b81dc8b1c8b46b0084152cacf15e42deaa22e1ba802771539032cba",
-          "reviewed_path": "owl-pet/production/reviewed/15-strix-varia-v4-reviewed-master.png",
-          "reviewed_blob": "edd5f50e47e0f66f4e2a28b49c1b9d0ab2d1016e",
-          "manifest_count_before": 447,
-          "manifest_count_after": 448,
-          "unique_species_provisional": "184/251",
-          "readback_pending": false,
-          "archive_commit": "901800d0b81eebd5b48fbe77d8c09cf945a6e883",
-          "verified_at": "2026-10-28T08:49:35.000+08:00",
-          "readback": {
-            "commit": "901800d0b81eebd5b48fbe77d8c09cf945a6e883",
-            "concept_blob": "05f5e770e10556d96895d06cac886010e061e9f1",
-            "generated_blob": "c952249fdf541b94e29488481473837bc0f48110",
-            "reviewed_blob": "edd5f50e47e0f66f4e2a28b49c1b9d0ab2d1016e",
-            "manifest_count": 448,
-            "paths_and_sizes_match": true
-          }
+          "duplicate_check": "v5 absent at main f86ebb5018e76654f61e4acd523e4255eed2c460",
+          "user_records_preserved": "all prior version records; no approval transfer"
         }
       },
-      "last_updated_at": "2026-10-28T08:49:35.000+08:00",
+      "last_updated_at": "2026-10-28T08:51:10.000+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5482,7 +5405,8 @@
         "2026-10-28T08:44:15.000+08:00: cycle5 #15 v4 IMAGE_GENERATED after recovery/regeneration; 1536x1024 actually opened. Juvenile adult-like long spotted wing/tail requires targeted edit; no credit.",
         "2026-10-28T08:46:05.000+08:00: cycle5 #15 v4 REVIEWED after one targeted imagegen edit; adult-like juvenile long wing/tail removed while climbing support retained; science false.",
         "2026-10-28T08:48:10.000+08:00: cycle5 #15 v4 ARCHIVED tree prepared; concept 05f5e770, generated c952249f, reviewed edd5f50e; manifest 447→448; unique 184/251; readback pending.",
-        "2026-10-28T08:49:35.000+08:00: cycle5 VERIFIED #15 Strix varia v4 at 901800d0b81eebd5b48fbe77d8c09cf945a6e883; fixed-tree readback passed. Unique 184/251; batch 5/6 next_cycle6; lease released; science false."
+        "2026-10-28T08:49:35.000+08:00: cycle5 VERIFIED #15 Strix varia v4 at 901800d0b81eebd5b48fbe77d8c09cf945a6e883; fixed-tree readback passed. Unique 184/251; batch 5/6 next_cycle6; lease released; science false.",
+        "2026-10-28T08:51:10.000+08:00: cycle6 STARTED canonical #17 Megascops asio v5 SCIENCE_REVISION; v1–v4 preserved; no credit."
       ]
     }
   ],
@@ -5587,8 +5511,15 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-28T08:49:35.000+08:00",
+  "active_lease": {
+    "owner": "codex",
+    "run_id": "20261028T0851+0800-cycle-6",
+    "cycle": 6,
+    "species_id": 17,
+    "heartbeat_at": "2026-10-28T08:51:10.000+08:00",
+    "expires_at": "2026-10-28T09:06:10.000+08:00"
+  },
+  "last_updated_at": "2026-10-28T08:51:10.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

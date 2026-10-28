@@ -1,3 +1,10 @@
+## 2026-10-29 #48 *Strix nivicolum* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains **3/6** until fixed verification.
+- Image: [design/concepts/48-strix-nivicolum-v3.png](design/concepts/48-strix-nivicolum-v3.png)
+- Research: 1 new / 3 reused / 1 corrected; current/old-name mapping checked and no precise juvenile chronology found.
+- Review: first render and derivative passed without edit; age-unknown very-white supported juvenile retained. Fixed readback pending; science false.
+
 ## 2026-10-28 #47 *Strix leptogrammica* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **3/6**, next cycle **4**.

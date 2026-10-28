@@ -1,3 +1,9 @@
+## #48 Himalayan Owl — *Strix nivicolum* — v3 science revision
+
+- Concept: [48-strix-nivicolum-v3.png](concepts/48-strix-nivicolum-v3.png)
+- Research: [species card](../knowledge/species/48-strix-nivicolum.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-48-strix-nivicolum-v3-taxonomy-and-juvenile-boundary-check)
+- Stage: ARCHIVED; fixed readback pending. Age-unknown very-white juvenile retained after targeted present/old-name search found no daily feather chronology; first render passed without edit; science false.
+
 ## #47 Brown Wood Owl — *Strix leptogrammica* — v3 science revision
 
 - Concept: [47-strix-leptogrammica-v3.png](concepts/47-strix-leptogrammica-v3.png)

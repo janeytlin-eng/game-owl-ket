@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T23:54:00+08:00",
+  "updated": "2026-10-29T00:14:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5894,6 +5894,34 @@
       "readback_pending": false,
       "archive_commit": "6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9",
       "verified_at": "2026-10-28T23:54:00+08:00"
+    },
+    {
+      "id": "48-strix-nivicolum-v3",
+      "path": "design/concepts/48-strix-nivicolum-v3.png",
+      "species_id": 48,
+      "scientific_name": "Strix nivicolum",
+      "common_name": "Himalayan Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "sha256": "2462799c31e11c30e6c1bf759603b554df5bb73fe372609779c2f012b7dcaa2",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION retaining a conservative age-unknown very-white juvenile because targeted present-name and old-name searches found no daily feather chronology. Adults are untufted and black-eyed with white eye arcs, gray-brown upperparts, fine streaked underparts and only subtle female fullness. The first render passed without edit: juvenile is fully supported with short soft mesoptile-embedded wing and concealed tail. ITIS confirms current Strix nivicolum and old Syrnium nivicolum mapping but supplies no development. Exact age, photo subspecies, feather sequence, flight threshold and quantified dimorphism remain unknown.",
+      "source_ids": [
+        "HIML-ITIS-2025",
+        "HIML-LEE-2025",
+        "HIML-MIKKOLA-2013",
+        "HIML-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29-48-strix-nivicolum-v3-taxonomy-and-juvenile-boundary-check",
+      "run_record": "production/runs/20261028T2357+0800-cycle-4.md",
+      "reviewed_at": "2026-10-29T00:09:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 667787,
+      "git_blob": "1b4badac8bdf31b8b62e7669abb0b32f4254055d",
+      "generated_blob": "121bb76eed49c85ff002eaa80d243319ae50ccc2",
+      "reviewed_blob": "121bb76eed49c85ff002eaa80d243319ae50ccc2",
+      "archive_note": "First render and derivative passed text/count/adult/support checks; the very-white age-unknown juvenile had a short soft embedded wing and concealed tail, so no edit was needed. Scientific unknowns retained.",
+      "readback_pending": true
     }
   ],
   "updated_at": "2026-10-28T23:06:00+08:00"

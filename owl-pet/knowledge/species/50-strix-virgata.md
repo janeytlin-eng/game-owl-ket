@@ -45,3 +45,10 @@
 - Adult female is fuller/longer-winged on species-specific evidence, not a generic height rule. Juvenile remains open-eyed, down-dominant, cavity-supported and explicitly non-flying.
 - Research count: 0 net-new works, 5 reused, 1 corrected cross-mapping; no duplicate credit for Gerhardt et al. 1994.
 - Scientific status remains pending continuous feather-sequence, subspecies and geographic calibration.
+
+
+## 2026-10-29 v3 quantified-dimorphism correction
+- New primary source `MOWL-GERHARDT-1997`: complete USDA Forest Service PDF, printed pp.190–196/PDF pp.1–7, read in full.
+- Tikal breeding adults: female 334.9±22.0 g vs male 239.7±13.3 g; wing chord 24.6 vs 23.3 cm; tail 15.0 vs 14.1 cm (printed p.191/PDF p.2).
+- Design correction: show the female clearly fuller/heavier-bodied but at comparable head height, with only subtly longer folded wing/tail. Do not translate mass difference into exaggerated linear height.
+- Juvenile remains a Tikal 18–21-day supported cavity nestling using `BWO-GER1994`; exact continuous feather geometry and cross-population transfer remain unknown; science false.

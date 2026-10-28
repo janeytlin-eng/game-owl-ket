@@ -29,3 +29,15 @@ Create a polished warm storybook-naturalist scientific character sheet for Ural 
 - 来源：新增0、复用并新读3、更正0；另两条发育文献只作为未核验线索，不进入已验证依据。
 - 检查：首稿幼鸟右翼出现清晰白斑列和层叠成年飞羽；一次定向编辑改为短圆灰米色中雏羽/新生羽纹理，保留成鸟、文字、洞口支撑和环境，复查通过。
 - 未知：精确四周龄羽片几何、分性别线性比例、地理色型与普遍巢腔形态；因此不标科学通过，也不继承v1的任何用户确认。
+
+## 2026-10-28 v3 research-ready correction
+
+- New primary source `UROW-SCHERZINGER-1980`: full monograph read, development chapter printed pp.45–52/PDF pp.46–53 and English summary printed pp.61–62/PDF pp.62–63.
+- Day-29 boundary: facial-disc feather ring first visible from day 26; flight feathers open through day 27 and just exceed coverts on day 29; tail quills remain concealed in rump mesoptile. One-month birds fly only short distances; 35–40 d flight becomes steady.
+- Reused `UROW-MIKKOLA-2013`, `UROW-LOHMUS-2003`, `UROW-BROMMER-2004`; corrected the prior generic four-week wing/tail inference.
+- Unknown: population color, sex-specific linear ratios, universal nest geometry and transfer from captive chronology. Science remains false.
+
+## Complete ImageGen prompt for v3
+
+Scientific-educational owl electronic-pet concept sheet in the established approved warm painterly semi-realistic natural-history style, horizontal 3:2 board. Title exactly “44 · URAL OWL · Strix uralensis”. Exactly three full-body birds with exact labels “ADULT MALE”, “ADULT FEMALE”, and “JUVENILE”. Adults: large long-bodied untufted Ural Owls, round prominent pale ochre-gray facial discs with fine darker ruffs, small very dark brown eyes, yellow-horn bills, pale gray-brown upperparts with restrained whitish mottling, white scapular row, very pale underparts covered by strong narrow longitudinal brown streaks rather than crossbars, thickly feathered legs, and conspicuously long wedge-shaped tails with 5–7 broad gray-white bars. Female may be subtly fuller/heavier than male, but avoid a dramatic standing-height difference. Juvenile: an evidence-bounded day-29 brancher at the end of the nestling period, a large woolly gray-beige to nut-brown mesoptile ball with fine blurred transverse barring; facial-disc feather ring newly visible but still soft; folded flight-feather tips have only just opened and extend slightly beyond the coverts, not adult-length layered wings; tail quills remain concealed in rump fluff, so no visible adult tail or tail bars. Place the juvenile low at the natural cavity lip or on the immediately adjacent rough branch with both feet fully supported, alert but not flying; it may use a crouched hopping/climbing-ready posture, never an airborne pose. Habitat: mature but open northern European mixed spruce-birch forest beside a small bog clearing, one genuine large natural tree cavity, soft cool daylight. Three distinct poses, clean separation. No extra birds, ear tufts, eggs, prey, fantasy accessories, watermark, or text beyond the exact title and labels.
+

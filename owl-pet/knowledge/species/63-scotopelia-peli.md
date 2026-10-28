@@ -27,3 +27,8 @@ Status: VERIFIED archive, image reviewed; scientific calibration pending; scient
 - 2026-10-29T05:44:30+08:00: first render's juvenile had long regular adult-like remiges and mature tail bars; one bounded juvenile-only edit shortened/softened the wing and concealed the mature tail while preserving the larger downy near-fledging body and all adult/text/environment invariants.
 - [v3 concept](../../design/concepts/63-scotopelia-peli-v3.jpg) · 1350×900. Duplicate-name #156 remains in history; this revision does not add a unique species.
 - Exact feather sequence, first-flight threshold and quantified sex ratio remain unknown; science false.
+
+
+## v3 immutable archive verification
+
+- 2026-10-29T05:47:30.167+08:00: commit `9b80a0dc5350b70be0e256acc70820e177886427` complete-tree readback passed. Concept/generated/reviewed paths matched blobs `c7e59defff`, `1a1fc478bb`, and `07b2c23743` at 593546/496873/473154 bytes; rejected truncated PNG paths are absent. Science remains false.

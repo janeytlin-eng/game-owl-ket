@@ -1738,3 +1738,6 @@ A dated late-dependent juvenile that is almost adult-sized and nearly finished m
 ### Incremental pale-down scale rule
 
 Prolonged pale down does not imply hatchling body scale. When a species source gives both long down retention and a 68–70-day fledging age, depict the selected near-fledging bird larger and naturally supported while keeping the down-softened feather boundary. Applied and visually rechecked on #63 v3; broader effectiveness remains unverified.
+
+
+- #63 v3 immutable archive verification passed at `9b80a0dc5350b70be0e256acc70820e177886427`; complete non-truncated tree showed exact concept/generated/reviewed blobs and 593546/496873/473154-byte sizes, with rejected short PNG paths absent. Science remains pending.

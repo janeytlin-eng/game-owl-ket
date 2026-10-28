@@ -1188,3 +1188,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Active reread reused five indexed sources and corrected v2's undersized near-fledging juvenile plus adult sex cues; no duplicate source IDs.
 - First render's juvenile wing/tail were too mature; one bounded edit shortened/softened them and was reopened at 1536×1024.
 - Archived 1350×900 concept plus generated/reviewed masters. Duplicate-name #156 remains preserved; unique stays 184/251, science false, fixed readback pending.
+
+
+- 2026-10-29T05:47:30.167+08:00: verified #63 *Scotopelia peli* v3 archive `9b80a0dc5350b70be0e256acc70820e177886427` by complete commit-pinned tree and metadata readback; duplicate-name #156 retained, batch advanced to 5/6, next cycle 6; unique remains 184/251 and science false.

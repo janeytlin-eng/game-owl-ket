@@ -1,3 +1,4 @@
+- 2026-10-29T06:47:09.479+08:00: #66 *Tyto capensis* v3 ARCHIVED; recent fledgling dark/unspotted dorsum, adult diagnostic white dorsal spotting, modest female direction, wetland grass tunnel and support passed full/crop review; concept `f89f59a091`, master `2fece942b4`; fixed-tree readback pending; unique +0; science false.
 - 2026-10-29T06:41:35.721+08:00: #65 *Tyto soumagnei* v3 VERIFIED; fixed-tree image/blob/size and all text markers passed at archive `1cf48b957e1e017f2586c9616ae8d86f24fa0842`; unique species +0; science false.
 ## 2026-10-29 #65 *Tyto soumagnei* v3 ARCHIVED — readback pending
 

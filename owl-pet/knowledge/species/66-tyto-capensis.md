@@ -18,3 +18,11 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - Environment: tall damp rank grass/sedges with tunnel, cave-like shelter and landing platform; no tree hollow.
 - Unknown: exact age/feather chronology, universal sex scaling and geographic variation. Science remains false.
 - Full prompt and source details are stored in SOURCE_INDEX under the 2026-10-29 v3 section.
+
+
+## v3 review/archive checkpoint — 2026-10-29T06:47:09.479+08:00
+
+- Concept: `design/concepts/66-tyto-capensis-v3.jpg`, 1350x900, 339039 bytes, SHA-256 `6162ac656ac3653136a4445ee6d85103feeb0e495e997cb6a8c5bb44e353f091`, Git blob `f89f59a09110ca5955e64352b9989717c791e794`.
+- Generated/reviewed master: `2fece942b426064065c9c40533b710d87d0e8c81`, 416328 bytes. Juvenile/foot crop: `6da78d92bbd4ba7aafea972ab629b0455662a23b`, 109404 bytes.
+- Issue → evidence → change → recheck: v1/v2 intentionally used an early second-down stage; BirdLife South Africa documents a darker, white-dorsal-spot-free fledgling. v3 changes to a grounded recent fledgling with developed folded wings, unspotted dark dorsum and supported feet. Full frame and crop pass; no edit required.
+- Reusable rule applied: do not use face colour alone as an age key when the source says it is unreliable; prioritize dorsal pattern plus stage-compatible locomotion. Verified only for this image; science remains false pending exact chronology, range-wide sex scaling and geographic variation.

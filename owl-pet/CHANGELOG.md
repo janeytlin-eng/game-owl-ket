@@ -1211,3 +1211,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - First render and juvenile crop passed without edit. Archived concept/generated/reviewed evidence; unique count unchanged, science false, fixed readback pending.
 
 - 2026-10-29T06:41:35.721+08:00: #65 *Tyto soumagnei* v3 VERIFIED; fixed-tree readback passed for concept/generated/reviewed and index markers at `1cf48b957e1e017f2586c9616ae8d86f24fa0842`; no new unique species; science false.
+
+- 2026-10-29T06:47:09.479+08:00: #66 *Tyto capensis* v3 archive checkpoint — new1/reused4/corrected1 source evidence; fully feathered dark unspotted recent fledgling replaces earlier down-stage concept without deleting v1/v2; full/crop review passed, no edit required; concept `f89f59a09110ca5955e64352b9989717c791e794`, master `2fece942b426064065c9c40533b710d87d0e8c81`; readback pending, unique +0, science false.

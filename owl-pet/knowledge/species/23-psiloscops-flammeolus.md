@@ -1,0 +1,49 @@
+# 23 · 美洲角鸮 Psiloscops flammeolus
+
+研究日期：2026-10-12（Asia/Shanghai）。英文 Flammulated Owl；旧学名组合包括 *Otus flammeolus*、*Scops flammeola*。中文工作名采用“美洲角鸮”；完整251种名录版本确定后需统一核对。v1为概念图，科学核验未通过。
+
+## 来源事实与分类
+
+Cornell和BC Conservation Data Centre采用现行名 *Psiloscops flammeolus*；BC档案记录2014年依AOU补编从 *Otus flammeolus* 改属。成年体长约15–17 cm，是极小型鸮；短尾、短而常贴伏的耳羽、深褐近黑虹膜、灰褐树皮拟态与锈色火焰状纹是关键辨识组合。Cornell公开测量合并两性，Owl Research Institute亦描述雌雄外观相同，因此没有依据画出明显身高或羽色二型。
+
+Cornell支持本种只在树洞繁殖，多用旧啄木鸟洞或天然洞，不筑巢而把卵置于洞底；孵化时闭眼、白绒羽。BC档案支持成熟开放黄松/花旗松林与大径木洞方向。没有从已读来源获得初生日龄内的精确身体比例、绒羽密度或抬头幅度。
+
+## v1设计、问题—修改—复查
+
+两只成年鸟采用同一灰褐—锈色方向和近似尺度，只以头部朝向区分。保留深色虹膜、小灰褐喙、短贴伏耳羽、腹面深色短纵纹和肩部锈色火焰状纹。环境采用成熟开放黄松林；幼鸟位于旧啄木鸟洞的天然洞底。
+
+首图成年辨识组合正确，幼鸟也符合闭眼白绒羽、无成熟翼尾羽的边界，但头部完全贴地，视觉上容易显得失去活力。第二次生成只调整幼鸟和紧邻木屑：保持腹部低伏、眼闭、无成羽，让木屑小坡承托头颈，面部轻微朝上并小幅张喙；没有把初生幼鸟抬成坐姿或站姿。
+
+最终目视复查通过：恰好三只；标题和学名正确；成年均为深色眼、短耳羽、灰褐锈色树皮纹且脚抓树枝；幼鸟闭眼、白绒羽、低伏并由木屑承托，无成熟飞羽和尾羽。待科学校准：初生具体日龄、身体与头部比例、绒羽密度、轻张喙幅度及分性别线性测量。故v1不标科学通过。
+
+## 资料与版本
+
+来源详见[研究资料索引](../../research/SOURCE_INDEX.md)：FLOW-CORNELL-ID-2026、FLOW-CORNELL-LIFE-2026、FLOW-BC-CDC-2026、FLOW-STEIN-2023。
+
+本轮运行环境未提供可调用的Library内容读取接口，无法重新读取用户上传的Heimo Mikkola指南，因此没有写入未经核验的页码。
+
+图：`design/concepts/23-psiloscops-flammeolus-v1.png`。
+
+## 待办
+
+固定251种名录所采用的分类版本与中文名；寻找带明确孵化后日龄的巢内连续影像、分性别翼长/质量原始表及标本羽色近照。不得用近缘鸣角鸮的幼鸟阶段补足本种证据。
+
+## 23-psiloscops-flammeolus-v2 2026-10-18T20:42:25.457Z
+Actual editedPNG1254x1254 viewed: leftadult reduced/middleenlarged, near-equal crownheight onbranch, slightposturedifference retained. Darkeyes/shorttufts/rust-graypattern and grips retained visually, finefeatherdrift notpixelidentity. Newbornstilllowbellysupported/closedeyes/finewhitedown/woodchipsupport/openbill/noadultwing; no11daygray transferred. Neutraldisplay notbiologicalsexratio/sciencepass. Exactnewborn proportions and nestcutaway remainpending.
+![image](../../design/concepts/23-psiloscops-flammeolus-v2.png)
+[Prompt/review](../../production/runs/2026-10-19T0431+0800-cycle-3.md)
+
+
+## 23-psiloscops-flammeolus-v3 — 2026-10-26
+
+v3 rebuilt the three-character plate from the evidence boundary in the current index. Both adults use the same gray-rust morph, very dark eyes, short mostly flattened ear tufts, short tails and bark camouflage; displayed height is near-equal and the female is only subtly fuller. The central bird is an age-unknown very early hatchling: closed eyes, white natal down, tiny down-covered wing buds, no mature remiges or visible tail, and full cavity-floor support. Original-resolution review passed without edit.
+
+Exact post-hatch age, head/body ratio, down density, eye-opening date, continuous feather sequence, sex-specific linear measurements and universal cavity geometry remain unknown. `scientifically_verified=false`.
+
+Image: `design/concepts/23-psiloscops-flammeolus-v3.png`.
+Run: `production/runs/2026-10-26T0825+0800-cycle-5.md`.
+
+
+## v4 evidence boundary · 2026-10-28
+
+Powers et al. 1996 was read in full for nest context and phenology; it supports small tree cavities and a roughly 22-day nestling period but not day-specific plumage. The earlier species-specific 11-day field account is reused only for its coarse observation: 30–40 g owlets still in white natal down with beginnings of gray. Therefore v4 changes the juvenile from an age-unknown newborn to an explicitly 11-day supported nestling, while withholding mature remiges, tail and flight ability. Adult sexes remain visually similar and near equal in displayed height. Science remains false because day-11 feather sequence, proportions, posture range and sex-specific measurements are not resolved.

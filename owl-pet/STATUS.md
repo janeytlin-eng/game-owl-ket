@@ -1947,3 +1947,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/52-strix-hylophila-v3.png](design/concepts/52-strix-hylophila-v3.png)
 - Research: 2 new / 3 reused / 1 corrected inference. Owl Pages confirms an age-unknown young bird on a branch in Atlantic Rainforest; Embrapa p.35 supports tall Araucaria/Atlantic Forest and large-tree cavities. The 32–35-day record is treated as nest-leaving, not proof of flight.
 - Review: one bounded edit removed long adult-spotted juvenile remiges and made the adult female subtly fuller rather than smaller. Text/count, same-plumage adults, supported warm-buff brancher, cavity and habitat pass. Exact feather sequence, locomotor threshold, sex metrics and regional variation remain unknown. Science false; readback pending.
+
+- 2026-10-29T02:50:00+08:00 — #52 *Strix hylophila* v3 independently verified at archive `7cd30758c909a6f95bf5c02b787c74ba53a84dbf`; concept `1a5a67b2c6…`, generated `f1c30904ff…`, reviewed `cc6e4e75ac…`, plus manifest481/source/card/run/state/STATUS/design markers read back. Unique remains **184/251**; batch **2/6**, next cycle 3. Science false.

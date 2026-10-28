@@ -53,3 +53,5 @@
 - Pre-edit and reviewed 1536×1024 JPEG masters are retained separately.
 - First render passed title/count/adult identity/habitat/support but gave the brancher long layered spotted remiges and made the female smaller. One bounded edit produced a short down-softened juvenile wing and subtly fuller same-plumage female. Original and derivative rechecks passed.
 - Technical status: ARCHIVED pending fixed-commit readback. Science remains false for exact feather sequence, locomotor threshold, sex measurements and regional variation.
+
+- Immutable archive verification: commit `7cd30758c909a6f95bf5c02b787c74ba53a84dbf`; concept `1a5a67b2c6366bf4bf7e2ee59974e8c4f35b95fb`, generated `f1c30904ff7a54d8d2def9a9fabdef8cbd3f5e0d`, reviewed `cc6e4e75ac770f4ea5f9bb63887aaa37207be932`; exact bytes and all required metadata markers passed. Unique remains 184/251; science false.

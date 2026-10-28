@@ -1179,3 +1179,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Recovered the existing IMAGE_GENERATED master after an expired lease; no duplicate generation.
 - Re-ran targeted current/legacy-name searches and re-read the dated 2018 family sequence. The saved late-dependent boundary remained supported; no duplicate source IDs added.
 - Full 1536×1024 image review passed without edit. Archived concept/generated/reviewed evidence; unique remains 184/251, science false, fixed-commit verification pending.
+
+- 2026-10-29T05:38:41+08:00: verified #62 *Ketupa sumatrana* v3 archive `993341a4f47a2c17a1cc6a60173e8d8f17039710` by complete commit-pinned tree and metadata readback; batch advanced to 4/6, next cycle 5; unique remains 184/251 and science false.

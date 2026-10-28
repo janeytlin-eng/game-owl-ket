@@ -6412,35 +6412,39 @@
           "unique_species_increment": 0,
           "commit_sha": "e0fcfbdac6d5aebd469554ecf0db7c6eba44b89d",
           "run_record": "owl-pet/production/runs/20261029T0443+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ketupa sumatrana",
+          "species_id": 62,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "993341a4f47a2c17a1cc6a60173e8d8f17039710",
+          "run_record": "owl-pet/production/runs/20261029T0511+0800-cycle-4.md",
+          "verified_at": "2026-10-29T05:38:41+08:00"
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "codex-work",
-        "run_id": "20261029T0511+0800-cycle-4",
-        "heartbeat_at": "2026-10-29T05:37:41+08:00",
-        "expires_at": "2026-10-29T05:52:41+08:00"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261029T0511+0800-cycle-4",
         "evidence": {
+          "archive_commit": "993341a4f47a2c17a1cc6a60173e8d8f17039710",
           "concept_path": "owl-pet/design/concepts/62-ketupa-sumatrana-v3.jpg",
           "concept_blob": "c48bb4545e13eb62e40a1a7839caa179b1a21d51",
-          "generated_path": "owl-pet/production/generated/62-ketupa-sumatrana-v3-generated-master.jpg",
           "generated_blob": "c48bb4545e13eb62e40a1a7839caa179b1a21d51",
-          "reviewed_path": "owl-pet/production/reviewed/62-ketupa-sumatrana-v3-reviewed-master.jpg",
           "reviewed_blob": "c48bb4545e13eb62e40a1a7839caa179b1a21d51",
           "size_bytes": 436319,
-          "dimensions": "1536x1024",
           "manifest_records": 489,
           "unique_species": 184,
           "scientifically_verified": false,
-          "readback": "PENDING"
+          "readback": "PASS"
         }
       },
-      "last_updated_at": "2026-10-29T05:37:41+08:00",
+      "last_updated_at": "2026-10-29T05:38:41+08:00",
       "audit_notes": [
         "2026-10-29T03:31:00+08:00: new batch cycle1 STARTED #59 Ketupa zeylonensis v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T03:40:00+08:00: cycle1 #59 v3 RESEARCH_READY; new1/reused3/corrected1; JBNHS pp.97–98, Indian BIRDS development sequence and ELA pp.1–2 actually read; v2 over-short late-nestling wing corrected to supported developed nest-leaving wing; full prompt saved; science false; no credit.",
@@ -6456,23 +6460,11 @@
         "2026-10-29T04:34:00+08:00: cycle2 #60 v3 ARCHIVED tree prepared after reopened full reviewed master; concept/reviewed ec1f604988, generated c457621848; manifest487; fixed readback pending; no credit.",
         "2026-10-29T05:36:13+08:00: expired IMAGE_GENERATED lease audited against unchanged main 9cb142b212444a19e646b5e1481feb4af22d614d; same cycle4 run resumed without regeneration; 15-minute lease reacquired; no credit.",
         "2026-10-29T05:36:52+08:00: cycle4 #62 v3 REVIEWED after full 1536x1024 image inspection and 2018 source cross-check; first render passed without edit; science false; no credit.",
-        "2026-10-29T05:37:41+08:00: cycle4 #62 v3 ARCHIVED tree prepared; concept/generated/reviewed same verified blob c48bb4545e; manifest489; fixed readback pending; no credit."
+        "2026-10-29T05:37:41+08:00: cycle4 #62 v3 ARCHIVED tree prepared; concept/generated/reviewed same verified blob c48bb4545e; manifest489; fixed readback pending; no credit.",
+        "2026-10-29T05:38:41+08:00: cycle4 VERIFIED #62 at archive 993341a4f47a2c17a1cc6a60173e8d8f17039710; fixed complete-tree blob/byte and manifest/card/run/state/status/design readback passed; batch4/6 next_cycle5; science false; lease released."
       ],
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261029T0511+0800-cycle-4",
-        "heartbeat_at": "2026-10-29T05:37:41+08:00",
-        "expires_at": "2026-10-29T05:52:41+08:00"
-      },
-      "in_progress": {
-        "cycle": 4,
-        "run_id": "20261029T0511+0800-cycle-4",
-        "species": "#62 Ketupa sumatrana",
-        "species_id": 62,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED"
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
   "lease": {
@@ -6705,13 +6697,5 @@
       "detail": "Concept blob, archive commit, batch verification and run record existed, but the manifest entry was absent. Added the missing #165 record without changing completed-cycle or species counts; science remains unverified."
     }
   ],
-  "in_progress": {
-    "cycle": 4,
-    "run_id": "20261029T0511+0800-cycle-4",
-    "species": "#62 Ketupa sumatrana",
-    "species_id": 62,
-    "version": 3,
-    "action": "SCIENCE_REVISION",
-    "stage": "ARCHIVED"
-  }
+  "in_progress": null
 }

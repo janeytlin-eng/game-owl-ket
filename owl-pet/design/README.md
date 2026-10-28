@@ -1729,3 +1729,5 @@ When species-specific photographs show 30–40-day chicks already carrying devel
 ### Incremental late-dependent moult rule
 
 A dated late-dependent juvenile that is almost adult-sized and nearly finished moulting must not be collapsed into a small white begging chick merely because earlier juvenile accounts describe white barred plumage. Preserve the selected stage's adult-like body/wing/tail structure and restrict retained juvenile cues to those actually described. Applied and visually rechecked on #62 v3; broader effectiveness remains unverified.
+
+- #62 v3 immutable archive verification passed at `993341a4f47a2c17a1cc6a60173e8d8f17039710`; complete tree non-truncated and exact three image paths/blobs/byte sizes plus metadata markers matched. Science remains pending.

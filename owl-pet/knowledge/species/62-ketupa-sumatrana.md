@@ -37,3 +37,5 @@ v1 VERIFIED as an archived concept after juvenile-wing correction and remote blo
 - 2026-10-29T05:37:41+08:00: full 1536×1024 v3 was opened and compared with the dated 2018 late-dependent sequence. The first render passed without edit: almost adult body/wing plumage and size, residual whitish head/ear tufts, closed bill and full branch support.
 - Concept: [62-ketupa-sumatrana-v3.jpg](../../design/concepts/62-ketupa-sumatrana-v3.jpg). Generated and reviewed masters preserve the same verified image bytes.
 - This is concept-production review only. Exact hatch age, continuous moult geometry, juvenile sex, measured adult sex ratio, momentary flight threshold and subspecies transfer remain unknown; `scientifically_verified=false`.
+
+- 2026-10-29T05:38:41+08:00: immutable archive verification passed at `993341a4f47a2c17a1cc6a60173e8d8f17039710`; complete tree was non-truncated and all three image paths matched blob `c48bb4545e13eb62e40a1a7839caa179b1a21d51` and 436319 bytes. v3 production status VERIFIED; science remains false.

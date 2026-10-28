@@ -1,3 +1,5 @@
+- 2026-10-29T05:38:41+08:00 — #62 *Ketupa sumatrana* v3 independently verified at archive `993341a4f47a2c17a1cc6a60173e8d8f17039710`; concept/generated/reviewed exact blobs and 436319-byte sizes plus manifest/card/run/state/status/design markers passed. Unique remains **184/251**; batch advances to **4/6**, next cycle 5. Science false.
+
 ## 2026-10-29 #62 *Ketupa sumatrana* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; batch `2026-10-29T0331+0800` remains 3/6 until fixed-commit verification.

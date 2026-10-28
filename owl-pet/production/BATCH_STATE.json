@@ -5711,8 +5711,8 @@
         "run_id": "20261028T1142+0800-newbatch-cycle-2",
         "cycle": 2,
         "species": "#28 Glaucidium perlatum",
-        "heartbeat_at": "2026-10-28T11:43:06+08:00",
-        "expires_at": "2026-10-28T11:58:06+08:00"
+        "heartbeat_at": "2026-10-28T11:44:37+08:00",
+        "expires_at": "2026-10-28T11:59:37+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -5720,8 +5720,8 @@
         "species": "#28 Glaucidium perlatum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
-        "at": "2026-10-28T11:43:06+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-10-28T11:44:37+08:00",
         "evidence": {
           "new_sources": [
             "PSOW-BIODIVEXPLORER-ROBERTS-2026"
@@ -5744,10 +5744,20 @@
             "precise wing and tail proportions"
           ],
           "scientifically_verified": false,
-          "imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “28 · PEARL-SPOTTED OWLET · Glaucidium perlatum”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Show exactly three owls, no extra birds or animals.\n\nAdult male left and adult female center stand on the same natural branch and baseline at nearly equal displayed crown height. Both are compact, round-headed, ear-tuft-free Pearl-spotted Owlets with bright yellow eyes, pale greenish-yellow bill and cere, cinnamon-brown upperparts carrying neat small white pearl spots, white underparts strongly streaked longitudinally brown, and short brown tails and folded flight feathers marked with pale bars/spots. Angle the adult female three-quarter rear while keeping one facial eye visible so the paired black nape false eyes edged white can be clearly reviewed. Sexes are alike in plumage; show the female only subtly fuller in body volume, never taller or a separate scale class.\n\nAt right show one late cavity nestling within the documented 27–31-day nest period, visually positioned around the 29–30-day boundary without claiming an exact hatch age. It rests at the lip of an old barbet or woodpecker cavity in thorn-savanna woodland. Both feet and the belly are fully supported by the cavity lip; it is alert but not flying. Make it smaller, rounder and softer than the adults, with reduced or absent crisp white spots on crown and back, especially conspicuous dark-and-pale nape false eyes, softly streaked underparts, short rounded folded wings with soft incomplete-looking feather edges, and a very short tail mostly hidden by body fluff and the cavity edge. Iris chronology is unknown: render the juvenile eye subdued muted ochre-olive in shadow, not a confident diagnostic color.\n\nDry open southern African thorn-savanna with warm ochre bark, muted grasses and restrained olive-green foliage; clear review-board spacing; accurate gripping owl feet and natural support. No ear tufts, no strongly oversized female, no adult-like crisp pearl rows on the juvenile, no long mature juvenile remiges or tail, no spread-flight pose, no airborne juvenile, no hatchling, no prey, no watermark, and no text other than the exact title and three exact role labels."
+          "imagegen_prompt": "Create one 3:2 horizontal owl-pet scientific character review board in warm hand-painted digital gouache matching the established confirmed style. Title exactly “28 · PEARL-SPOTTED OWLET · Glaucidium perlatum”. Labels exactly “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”. Show exactly three owls, no extra birds or animals.\n\nAdult male left and adult female center stand on the same natural branch and baseline at nearly equal displayed crown height. Both are compact, round-headed, ear-tuft-free Pearl-spotted Owlets with bright yellow eyes, pale greenish-yellow bill and cere, cinnamon-brown upperparts carrying neat small white pearl spots, white underparts strongly streaked longitudinally brown, and short brown tails and folded flight feathers marked with pale bars/spots. Angle the adult female three-quarter rear while keeping one facial eye visible so the paired black nape false eyes edged white can be clearly reviewed. Sexes are alike in plumage; show the female only subtly fuller in body volume, never taller or a separate scale class.\n\nAt right show one late cavity nestling within the documented 27–31-day nest period, visually positioned around the 29–30-day boundary without claiming an exact hatch age. It rests at the lip of an old barbet or woodpecker cavity in thorn-savanna woodland. Both feet and the belly are fully supported by the cavity lip; it is alert but not flying. Make it smaller, rounder and softer than the adults, with reduced or absent crisp white spots on crown and back, especially conspicuous dark-and-pale nape false eyes, softly streaked underparts, short rounded folded wings with soft incomplete-looking feather edges, and a very short tail mostly hidden by body fluff and the cavity edge. Iris chronology is unknown: render the juvenile eye subdued muted ochre-olive in shadow, not a confident diagnostic color.\n\nDry open southern African thorn-savanna with warm ochre bark, muted grasses and restrained olive-green foliage; clear review-board spacing; accurate gripping owl feet and natural support. No ear tufts, no strongly oversized female, no adult-like crisp pearl rows on the juvenile, no long mature juvenile remiges or tail, no spread-flight pose, no airborne juvenile, no hatchling, no prey, no watermark, and no text other than the exact title and three exact role labels.",
+          "original_path": "generated_images/exec-1f045531-7b39-423d-864e-87bdccbe1bc6.png",
+          "dimensions": "1536x1024",
+          "generation_seconds": 43.8,
+          "source_sha256": "d7decc6ad37cf1dafab6c9dc6b1e96f46d4a52d926b3f338d37afd2aed04e307",
+          "durable_path": "owl-pet/production/generated/28-glaucidium-perlatum-v3-generated-master.jpg",
+          "durable_sha256": "b94d984bac8f7807c105d6179792e4d8f02453130d899454c9357c9ced52ab96",
+          "durable_bytes": 719614,
+          "actual_view": "Exact title/labels/count; adults at near-equal scale, female rearward with nape false eyes; juvenile fully supported and tail hidden. Juvenile crown/back and folded wing retain too many crisp white adult-like spots.",
+          "edit_required": true,
+          "durable_blob": "c7e6bda13a7965a20855b8a6138e941655624e60"
         }
       },
-      "last_updated_at": "2026-10-28T11:43:06+08:00",
+      "last_updated_at": "2026-10-28T11:44:37+08:00",
       "audit_notes": [
         "2026-10-28T10:35:00.000+08:00: new batch cycle1 STARTED #27 Glaucidium passerinum v3 SCIENCE_REVISION; v1–v2 preserved; 20-day nestling evidence selected; no credit.",
         "2026-10-28T10:38:00.000+08:00: new batch cycle1 #27 v3 RESEARCH_READY; new1/reused4/corrected1. egir.ru description/molt sections read: sourced 8/12/18/20/27-day progression; conservative 20-day cavity stage selected. Full prompt saved; primary Schönn pages unavailable, science false.",
@@ -5758,15 +5768,16 @@
         "2026-10-28T11:38:55.479+08:00: cycle1 #27 v3 ARCHIVED tree prepared; concept blob 904993d0, rebuilt full master 17e4d8d0, manifest 455→456; fixed-commit readback pending, no credit.",
         "2026-10-28T11:40:11.421+08:00: cycle1 VERIFIED #27 Glaucidium passerinum v3 at archive a32c28731058a6772c6890967a9bd89723eb63ac; fixed-commit raw decode/hash/blob/manifest/research/run readback passed. Unique 184/251; batch 1/6, next_cycle2; lease released.",
         "2026-10-28T11:42:13+08:00: cycle2 STARTED canonical #28 Glaucidium perlatum v3 SCIENCE_REVISION; v1–v2 preserved; bounded late-cavity juvenile evidence selected; no credit.",
-        "2026-10-28T11:43:06+08:00: cycle2 #28 v3 RESEARCH_READY; new1/reused4/corrected1. Biodiversity Explorer/Roberts timing cross-check read; 27–31-day cavity window applied conservatively. Full prompt saved; science false; no credit."
+        "2026-10-28T11:43:06+08:00: cycle2 #28 v3 RESEARCH_READY; new1/reused4/corrected1. Biodiversity Explorer/Roberts timing cross-check read; 27–31-day cavity window applied conservatively. Full prompt saved; science false; no credit.",
+        "2026-10-28T11:44:37+08:00: cycle2 #28 v3 IMAGE_GENERATED in 43.8s; 1536x1024 original actually opened. Count/text/adult direction/support pass; juvenile crisp adult-like crown/back/wing spots require targeted edit. Durable source master saved; no credit."
       ],
       "lease": {
         "owner": "codex-work",
         "run_id": "20261028T1142+0800-newbatch-cycle-2",
         "cycle": 2,
         "species": "#28 Glaucidium perlatum",
-        "heartbeat_at": "2026-10-28T11:43:06+08:00",
-        "expires_at": "2026-10-28T11:58:06+08:00"
+        "heartbeat_at": "2026-10-28T11:44:37+08:00",
+        "expires_at": "2026-10-28T11:59:37+08:00"
       }
     }
   ],
@@ -5775,8 +5786,8 @@
     "run_id": "20261028T1142+0800-newbatch-cycle-2",
     "cycle": 2,
     "species": "#28 Glaucidium perlatum",
-    "heartbeat_at": "2026-10-28T11:43:06+08:00",
-    "expires_at": "2026-10-28T11:58:06+08:00"
+    "heartbeat_at": "2026-10-28T11:44:37+08:00",
+    "expires_at": "2026-10-28T11:59:37+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",

@@ -1,9 +1,10 @@
-## 2026-10-28 #27 *Glaucidium passerinum* v3 ARCHIVED
+## 2026-10-28 #27 *Glaucidium passerinum* v3 VERIFIED
 
-- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**; fixed-commit readback pending.
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **1/6**, next cycle **2**.
 - Image: [design/concepts/27-glaucidium-passerinum-v3.png](design/concepts/27-glaucidium-passerinum-v3.png)
 - Research: 1 new/4 reused/1 corrected source record; an 8/12/18/20/27-day developmental synthesis bounds an explicit 20-day cavity nestling. Primary Schönn pages and exact iris chronology remain unavailable.
-- Review: the first remote generated blob was corrupt. A prompt-persistent rebuild passed original/full-master/680×453 review with a short, soft, nearly unspotted juvenile wing, hidden immature tail and full cavity support. Science false.
+- Review: the first remote generated blob was corrupt. A prompt-persistent rebuild passed original/full-master/680×453 review with a short, soft, nearly unspotted juvenile wing, hidden immature tail and full cavity support.
+- Archive: `a32c28731058a6772c6890967a9bd89723eb63ac`; concept blob `904993d0422346230930ad72fd42ceb54a9abaeb`; master blob `17e4d8d0c36e14e0a8d768129c699f8adc75dcb6`. Fresh raw downloads decoded and matched dimensions, SHA-256 and Git blob IDs. Science false.
 
 ## 2026-10-28 #18 *Megascops kennicottii* v3 ARCHIVED
 - Late-nestling mesoptile revision after one juvenile-wing edit; Mikkola and primary telemetry study applied. Science false; unique **184/251**; commit-pinned blob/size/metadata readback passed.

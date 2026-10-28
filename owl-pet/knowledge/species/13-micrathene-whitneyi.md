@@ -95,3 +95,14 @@ NPS描述遗留壳体大致鞋/袜形，不能推广为规则对称瓶形。检�
 ![v6](../../design/concepts/13-micrathene-whitneyi-v6.png)
 
 研究与完整提示见 [2026-10-25 cycle 2](../../production/runs/2026-10-25T2131+0800-cycle-2.md)。
+
+
+## v7 active mesoptile revision · 2026-10-28
+
+Mikkola printed pp.418–420/PDF420–422, University of Michigan ADW development and NPS saguaro-cavity material were actually read. The primary Ligon 1968 monograph full text was not accessible and is retained only as an unverified lead. v7 therefore uses a secondary-source-bounded approximately 21–22-day active cavity nestling: open-eyed, gray-white mottled mesoptile, unspotted gray crown, short incomplete wing making an ineffective stretch, and full belly/two-foot support. One targeted imagegen edit removed the first render's long, crisp adult-spotted juvenile wing.
+
+Adults remain tiny, round-headed and tuftless; female is only subtly fuller. Exact age, continuous feather sequence, remex length, standing-height ratio, subspecies variation and live cavity geometry remain unknown. `scientifically_verified=false`; v5 user approval remains historical and is not transferred.
+
+![v7](../../design/concepts/13-micrathene-whitneyi-v7.png)
+
+[Research and full prompt](../../research/species/13-micrathene-whitneyi-v7.md) · [run record](../../production/runs/20261028T0826+0800-cycle-4.md)

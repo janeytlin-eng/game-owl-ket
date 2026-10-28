@@ -1524,3 +1524,5 @@ v1 user confirmation and v2 early-nestling rebuild remain preserved. v3 adopts t
 [Concept](concepts/05-strix-aluco-v3.png) · [research card](../research/species/05-strix-aluco-v3.md) · [run](../production/runs/20261028T0743+0800-cycle-5.md)
 
 Current labeled board with a source-bounded 29–32-day pre-flight brancher; v1/v2 preserved. Science pending.
+
+- #13 *Micrathene whitneyi* v7 — SCIENCE_REVISION, approx. 21–22-day supported active mesoptile; [concept](concepts/13-micrathene-whitneyi-v7.png) · [research](../research/species/13-micrathene-whitneyi-v7.md) · [run](../production/runs/20261028T0826+0800-cycle-4.md). Science pending.

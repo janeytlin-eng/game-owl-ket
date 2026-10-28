@@ -1,3 +1,7 @@
+## 2026-10-28 — #13 Elf Owl v7
+
+- Added evidence-bounded science revision with approx. 21–22-day active supported cavity nestling; one juvenile-wing edit reviewed. Existing v1–v6 and v5 user confirmation preserved; unique species count unchanged at 184/251; science remains false.
+
 ## 2026-10-28 — #11 *Aegolius funereus* v3 VERIFIED
 
 - Rebuilt v2 as a current evidence-bounded labeled trio; preserved v1/v2 and v1 user approval.

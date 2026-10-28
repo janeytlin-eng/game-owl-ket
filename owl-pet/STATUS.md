@@ -1,3 +1,6 @@
+## 2026-10-28 #13 *Micrathene whitneyi* v7 ARCHIVED
+- SCIENCE_REVISION; uploaded Mikkola pp.418–420/PDF420–422, ADW development and NPS cavity evidence applied. One targeted edit removed long adult-spotted juvenile wing; reviewed concept is an approx. 21–22-day supported, active but ineffective-flight nestling. Science false; exact feather chronology/ratio/cavity anatomy unknown. Unique remains **184/251**. Archive readback pending.
+
 ## 2026-10-28 #11 *Aegolius funereus* v3 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains 184/251; current batch 3/6, next cycle 4.

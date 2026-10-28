@@ -1782,3 +1782,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/28-glaucidium-perlatum-v3.png](design/concepts/28-glaucidium-perlatum-v3.png)
 - Research: one new institutional-secondary cross-check, four reused sources and one corrected design inference; 27–31-day nest window applied conservatively. Exact day-specific feather sequence and iris chronology remain unknown.
 - Review: one targeted edit removed crisp adult-like juvenile crown/back/wing spots. Exact text/count, adult identity, near-equal displayed height, subtle female fullness, nape false eyes, juvenile short soft wing, hidden tail and full cavity support pass. Science false; readback pending.
+
+
+- 2026-10-28T11:49:08+08:00 — #28 *Glaucidium perlatum* v3 independently verified at archive `8a1f349abb1e5b08fdc6dd889125a91fb528b995`; concept `d67ed35c9e…`, generated `c7e6bda13a…`, reviewed `f7134f72e1…`, plus manifest/source/card/run/STATUS/knowledge/workflow/design index read back. Unique remains **184/251**; batch **2/6**, next cycle 3. Science false.

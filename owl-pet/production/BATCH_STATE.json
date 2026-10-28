@@ -5807,10 +5807,27 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1538+0800-cycle-5",
+        "heartbeat_at": "2026-10-28T15:40:00+08:00",
+        "expires_at": "2026-10-28T15:55:00+08:00"
+      },
+      "in_progress": {
         "cycle": 5,
-        "species": "#31 Glaucidium radiatum",
-        "heartbeat_at": "2026-10-28T15:41:00+08:00",
-        "expires_at": "2026-10-28T15:56:00+08:00"
+        "species_id": 31,
+        "species": "Glaucidium radiatum",
+        "run_record": "owl-pet/production/runs/20261028T1538+0800-cycle-5.md",
+        "stage": "IMAGE_GENERATED",
+        "stage_evidence": {
+          "IMAGE_GENERATED": {
+            "at": "2026-10-28T15:40:00+08:00",
+            "path": "owl-pet/production/generated/31-glaucidium-radiatum-v3-generated-master.jpg",
+            "blob_sha": "6391b1a96600c45d2dc0d397d1e7084e4f864db6",
+            "sha256": "07a984e730bb942a67af7ecc563597f59a6897b17b0e667b71e42a284f5911a9",
+            "bytes": 728937,
+            "width": 1536,
+            "height": 1024,
+            "generation_seconds": 38.5
+          }
+        }
       }
     }
   ],

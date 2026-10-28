@@ -5864,8 +5864,8 @@
         "run_id": "20261028T1641+0800-newbatch-cycle-3",
         "cycle": 3,
         "species": "#35 Glaucidium minutissimum",
-        "heartbeat_at": "2026-10-28T16:41:00+08:00",
-        "expires_at": "2026-10-28T16:56:00+08:00"
+        "heartbeat_at": "2026-10-28T16:45:00+08:00",
+        "expires_at": "2026-10-28T17:00:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
@@ -5873,9 +5873,21 @@
         "species": "#35 Glaucidium minutissimum",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T16:41:00+08:00",
-        "evidence": {}
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-28T16:45:00+08:00",
+        "evidence": {
+          "new_sources": [
+            "LEPO-WIKIAVES-JOVEM-2026",
+            "LEPO-OWLPAGES-2026"
+          ],
+          "reused_sources": [
+            "LEPO-MIKKOLA-2013",
+            "LEPO-BIRDLIFE-2026"
+          ],
+          "corrected_sources": 1,
+          "imagegen_prompt": "Create one 3:2 horizontal warm digital-gouache owl-pet review board. Title exactly “35 · LEAST PYGMY-OWL · Glaucidium minutissimum”; labels ADULT MALE, ADULT FEMALE, JUVENILE; exactly three owls. Adults near-equal height, female subtly fuller, 14–15 cm round untufted Atlantic-Forest owls: yellow eyes/bill/toes, warm cinnamon-brown crown with tiny white flecks, plain warm-brown mantle, paired black nape false eyes, off-white underparts with buff-rufous flank streaks, short tail with 3–4 broken pale bars. Juvenile right is an age-unknown fully feathered “jovem” supported on a low fork: smaller/softer, crown flecks and flank streaks reduced/diffuse, compact wing, short tail; no exact day, flight or independence. Brazilian Atlantic rainforest edge; natural feet/support; no prey/flight/extra birds/watermark/other text.",
+          "scientifically_verified": false
+        }
       },
       "last_updated_at": "2026-10-28T16:39:00+08:00",
       "audit_notes": [
@@ -5892,8 +5904,8 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261028T1641+0800-newbatch-cycle-3",
-        "heartbeat_at": "2026-10-28T16:41:00+08:00",
-        "expires_at": "2026-10-28T16:56:00+08:00"
+        "heartbeat_at": "2026-10-28T16:45:00+08:00",
+        "expires_at": "2026-10-28T17:00:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -5902,10 +5914,15 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261028T1641+0800-newbatch-cycle-3.md",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "stage_evidence": {
           "STARTED": {
             "at": "2026-10-28T16:41:00+08:00"
+          },
+          "RESEARCH_READY": {
+            "at": "2026-10-28T16:45:00+08:00",
+            "full_imagegen_prompt": "Create one 3:2 horizontal warm digital-gouache owl-pet review board. Title exactly “35 · LEAST PYGMY-OWL · Glaucidium minutissimum”; labels ADULT MALE, ADULT FEMALE, JUVENILE; exactly three owls. Adults near-equal height, female subtly fuller, 14–15 cm round untufted Atlantic-Forest owls: yellow eyes/bill/toes, warm cinnamon-brown crown with tiny white flecks, plain warm-brown mantle, paired black nape false eyes, off-white underparts with buff-rufous flank streaks, short tail with 3–4 broken pale bars. Juvenile right is an age-unknown fully feathered “jovem” supported on a low fork: smaller/softer, crown flecks and flank streaks reduced/diffuse, compact wing, short tail; no exact day, flight or independence. Brazilian Atlantic rainforest edge; natural feet/support; no prey/flight/extra birds/watermark/other text.",
+            "science_pass": false
           }
         }
       }

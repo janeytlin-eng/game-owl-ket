@@ -4663,3 +4663,8 @@ Reused: `COOW-MIKKOLA-2013` (printed pp.370–371) and `COOW-GWEE-2019`. Correct
 - **APOW-WIKIAVES-BORGES-2013** — dated field-photo page, Paranaíta/MT, 2013-09-13, labelled chick/nest; used only as independent nestling/location lead, not age.
 
 Reused `APOW-MIKKOLA-2013` and adult institutional summaries. Correction: v2 age-unknown juvenile is tightened to the paper's almost-full-grown cavity nestling; exact age remains unknown. New2/reused2/corrected1; science false. [Species](../knowledge/species/34-glaucidium-hardyi.md) · [run](../production/runs/20261028T1626+0800-newbatch-cycle-2.md).
+
+
+## 2026-10-28 · #35 *Glaucidium minutissimum* v3 increment
+
+New: **LEPO-WIKIAVES-JOVEM-2026** (WikiAves species catalogue actually read: separate adult and jovem media entry, 14 cm, cavity/woodpecker-hole synthesis; no age/sex for juvenile) and **LEPO-OWLPAGES-2026** (adult soft parts, crown flecks, false eyes, tail bars, female heavier; breeding explicitly little known). Reused prior Mikkola/name mapping. Correction: juvenile remains age-unknown fully feathered, not a hatchling or exact fledging stage. New2/reused2/corrected1; science false. [Species](../knowledge/species/35-glaucidium-minutissimum.md) · [run](../production/runs/20261028T1641+0800-newbatch-cycle-3.md).

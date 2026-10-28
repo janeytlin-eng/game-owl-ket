@@ -1,3 +1,17 @@
+## 2026-10-29 · #60 *Ketupa flavipes* v3 age-known nestling correction
+
+| Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |
+|---|---|---|---|---|---|---|
+| TFO-SPNP-PNN-2026 | “揭開暗夜王者的育雛祕密” — Shei-Pa National Park Administration; PTS News report and credited nest photograph, 2026 | https://www.spnp.gov.tw/ch/specialreport/latest-news/3717 and https://news.pts.org.tw/article/805942 — accessed 2026-10-29 | Government conservation/research announcement plus a directly viewed, age-linked nest photograph; Wuling, Taiwan | SPNP lines 8–20 and PNN lines 23–56 actually read; PNN image 18 viewed. The research team measured two chicks at about 40 d/1212 g and 30 d/899 g in a humus/epiphyte-filled hollow at the base of a Y-shaped fork in a 1.5-m-DBH old tree, with nest departure expected around 60 d. The photograph visibly shows both fully supported chicks with developed patterned folded wings and conspicuous developing tails, while head/torso remain down-softened. | Reject v2's short wing-bud / hidden-tail late-nestling depiction. V3 uses a nearly adult-sized, supported 56–57 d late nestling with developed but juvenile-soft wings and medium tail. Use the documented Y-fork/humus substrate and mountain stream. | One nest and two chicks; photograph does not identify which visible chick is 30 vs 40 d and is not a day-by-day feather series. It supports a lower bound on wing/tail development, not exact feather geometry or flight ability. High confidence for age/site context, moderate for generalization. |
+
+Reused:
+- `TFO-WANG-2013`: Taiwan thesis record, Wuling incubation 36–41 d and nestling period 56–57 d; three nests on broken cross-sections of >1 m DBH trees in primary forest.
+- `TFO-SUN-NEST-1997` and `TFO-SUN-HABITAT-2000`: species-specific nest/riparian forest evidence retained.
+- `TFO-AVIBASE-2026`: current *Ketupa flavipes* and old *Bubo flavipes* mapping retained.
+- Corrected inference: “exact sequence unknown” cannot justify wing buds at an evidence-bounded 56–57 d late stage when younger age-known chicks visibly carry developed wings/tails. Exact feather lengths and first-flight competence remain unknown; scientifically_verified=false.
+- Heimo Mikkola uploaded guide was not accessible in this execution; no page claim made.
+
+
 ## 2026-10-29 · #59 *Ketupa zeylonensis* v3 nest-leaving correction
 
 | Stable ID | Title / institution / year | URL / accessed | Type and scope | Actually read evidence | Design decision | Limits |

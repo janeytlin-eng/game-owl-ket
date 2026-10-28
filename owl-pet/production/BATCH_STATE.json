@@ -6256,8 +6256,8 @@
       "active_lease": {
         "owner": "codex",
         "run_id": "20261029T0223+0800-cycle-2",
-        "heartbeat_at": "2026-10-29T02:34:00+08:00",
-        "expires_at": "2026-10-29T02:49:00+08:00"
+        "heartbeat_at": "2026-10-29T02:40:00+08:00",
+        "expires_at": "2026-10-29T02:55:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -6265,17 +6265,20 @@
         "species": "#52 Strix hylophila",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-29T02:34:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-29T02:40:00+08:00",
         "evidence": {
-          "local_original": "generated_images/exec-879be70f-0218-480a-979d-70c9506c56e3.png",
+          "edited_original": "generated_images/exec-98a33399-2e19-4d1d-a477-4b119e830349.png",
           "dimensions": "1536x1024",
-          "actual_view": "PASS title/count/adult identity/habitat/support; FAIL juvenile long layered spotted remiges and female appears smaller than male",
-          "edit_required": true,
+          "concept_dimensions": "680x453",
+          "concept_sha256": "4c1115274a4f87bb0b35b35a4a61b5a5017a2d8c892011fbfe1b2995f4913d67",
+          "generated_sha256": "34821490d3997587a785c9e884012c55f75918eac2bcfa6e3b2f6f0254b5e8e6",
+          "reviewed_sha256": "63902deaba1478e8937aa7fedad8db0a00b6d02eb631776fac094b1c2e7a7c6b",
+          "actual_review": "PASS_WITH_LIMITATIONS after one bounded two-point edit",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T02:34:00+08:00",
+      "last_updated_at": "2026-10-29T02:40:00+08:00",
       "audit_notes": [
         "2026-10-29T01:53:00+08:00: new batch cycle1 STARTED #51 Strix rufipes v3 SCIENCE_REVISION; v1-v2 retained; no cycle credit.",
         "2026-10-29T02:00:00+08:00: cycle1 #51 v3 RESEARCH_READY; new1/reused3/corrected1; official Chile MMA dossier pp.1–2/8 read and adult sexual dichromatism corrected; full prompt saved; science false; no credit.",
@@ -6285,13 +6288,14 @@
         "2026-10-29T02:20:00+08:00: cycle1 VERIFIED #51 at 40c34065764b33d10c44a872d4493bf5db0f8737; fixed concept/generated/reviewed blobs and byte sizes plus manifest/source/card/run/state/status/design markers passed; batch1/6 next_cycle2; unique184/251; science false; lease released.",
         "2026-10-29T02:23:00+08:00: cycle2 STARTED #52 Strix hylophila v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T02:30:00+08:00: cycle2 #52 v3 RESEARCH_READY; new2/reused3/corrected1; Owl Pages juvenile record and EMBRAPA p35 read; “recently fledged” narrowed to nest-leaving/brancher with no flight claim; full prompt saved; science false; no credit.",
-        "2026-10-29T02:34:00+08:00: cycle2 #52 v3 IMAGE_GENERATED; 1536x1024 original opened. Title/count/adult identity/habitat/support pass; juvenile has long layered spotted remiges and female appears smaller than male, requiring targeted edit; no credit."
+        "2026-10-29T02:34:00+08:00: cycle2 #52 v3 IMAGE_GENERATED; 1536x1024 original opened. Title/count/adult identity/habitat/support pass; juvenile has long layered spotted remiges and female appears smaller than male, requiring targeted edit; no credit.",
+        "2026-10-29T02:40:00+08:00: cycle2 #52 v3 REVIEWED after one bounded edit; juvenile adult-like remiges removed and female made subtly fuller at comparable height. Full master and derivative opened; science false; no credit."
       ],
       "lease": {
         "owner": "codex",
         "run_id": "20261029T0223+0800-cycle-2",
-        "heartbeat_at": "2026-10-29T02:34:00+08:00",
-        "expires_at": "2026-10-29T02:49:00+08:00"
+        "heartbeat_at": "2026-10-29T02:40:00+08:00",
+        "expires_at": "2026-10-29T02:55:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -6299,10 +6303,10 @@
         "species": "#52 Strix hylophila",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-29T02:23:00+08:00",
-        "heartbeat_at": "2026-10-29T02:34:00+08:00",
-        "resume_from": "REVIEWED"
+        "heartbeat_at": "2026-10-29T02:40:00+08:00",
+        "resume_from": "ARCHIVED"
       }
     }
   ],
@@ -6416,8 +6420,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261029T0223+0800-cycle-2",
-    "heartbeat_at": "2026-10-29T02:34:00+08:00",
-    "expires_at": "2026-10-29T02:49:00+08:00"
+    "heartbeat_at": "2026-10-29T02:40:00+08:00",
+    "expires_at": "2026-10-29T02:55:00+08:00"
   },
   "last_updated_at": "2026-10-29T00:55:00+08:00",
   "audit_notes": [

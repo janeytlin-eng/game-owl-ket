@@ -5042,3 +5042,12 @@ Design correction: v2’s supported downy juvenile was conservative but its hidd
 - Corrected design claim: v2’s short rounded down-covered wing and almost absent tail are too conservative for the sourced 8–10-week branch-moving / well-grown fledgling. V3 uses developed folded juvenile wings and a visible medium barred developing tail, while keeping the bird supported and not claiming flight.
 - Taxonomy: *Ketupa coromanda* is used because *Ketupa* is feminine; *K. coromandus*, *Bubo coromandus* and *Strix coromanda* are legacy/search combinations for the same species.
 - Heimo Mikkola guide: not readable in this execution; no page claim asserted.
+
+
+## 2026-10-29 #63 *Scotopelia peli* v3 near-fledging scale and adult-sex cue reconciliation
+
+- **Active reread; no duplicate source IDs added:** `PFO-BLSA-REDLIST-2025` (SANBI/BirdLife South Africa diagnostics and biology), `PFO-BOTSWANAPOST-2022` p.2, `PFO-OWLPAGES-2020`, `PFO-OUZMAN-JUV`, and taxonomy-only `PFO-FWS-TAX-2026`.
+- **Source facts:** SANBI states juveniles retain most pale white down during their first six months; it also states sexes are visually similar, males deeper rufous and females slightly larger. BotswanaPost p.2 gives about 70-day fledging and natural old-tree cavities without a built nest. Owl Pages independently gives 68–70-day fledging and 6–9-month parental-territory dependence; the Ouzman record supports a naturally branch-perched juvenile but no exact age.
+- **Corrected design inferences:** v2's central bird is too small for the selected 68–70-day near-fledging stage, while its pale down is defensible and must not be replaced by adult plumage. V3 enlarges the juvenile, retains pale down, adds only modest down-softened developing folded wings/short visible tail and full branch support. Adult male is subtly deeper rufous; female slightly fuller at comparable height, not dramatically taller.
+- **Limits:** no day-by-day feather tract series, measured standing-height ratio, exact visible remige geometry or first-flight observation was found. Design inference remains concept-level; `scientifically_verified=false`. Uploaded Mikkola guide was unavailable in this run, so no new page claim is made.
+- Related: [species card](../knowledge/species/63-scotopelia-peli.md) · [v2](../design/concepts/63-scotopelia-peli-v2.png) · [run](../production/runs/20261029T0539+0800-cycle-5.md).

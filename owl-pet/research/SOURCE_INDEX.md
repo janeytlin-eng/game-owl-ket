@@ -4870,3 +4870,53 @@ Reused: BROW-SAMARAWICKRAMA-2006 full pp.73–78/Fig.2 (Sri Lankan *ochrogenys* 
 Reused and freshly read on 2026-10-29: SEO-SANBI-2026 lines 62–69; SEO-BDI-2022 lines 40–66; SEO-OSTRICH-RSD-2008 abstract/results. SANBI supplies the decisive species-specific correction to v2: at about six weeks the chicks leave the nest but are not yet able to fly; wing feathers are well grown, tail feathers are about half final length, and some down remains on head and underparts; flight begins at about seven weeks. BDI independently supports 4–6-week exploration and visible fluffy down with weaker tufts. The primary morphometric paper found only tarsus length significantly different between sexes in its small regional sample, so adults remain near-equal rather than universally “female larger.” Bubo bubo development literature found during search is not transferred to this species. Uploaded Mikkola guide was not readable in this run, so no new page claim is made.
 
 Design correction: v2’s supported downy juvenile was conservative but its hidden/very short tail and “short rounded wing” boundary undershot the newly reread SANBI six-week account. V3 targets a supported approximately-six-week preflight explorer with well-grown folded wings, a visible half-length tail and remaining head/underpart down. Exact feather geometry, individual age, regional variation and quantitative adult sex ratio remain unknown. New sources 1; reused stable sources 3; corrected design inference 1; science remains false. [Species card](../knowledge/species/54-bubo-africanus.md) · [run](../production/runs/20261029T0228+0800-cycle-3.md).
+
+
+### SBEO-SHARPE-BM-1875
+- Title: *Catalogue of the Birds in the British Museum*, vol. II
+- Author/institution: R. Bowdler Sharpe / British Museum
+- Year: 1875
+- URL: https://www.biodiversitylibrary.org/page/8309307
+- Accessed: 2026-10-28
+- Type: museum catalogue / historical specimen synthesis
+- Taxon/stage: *Bubo nipalensis*; old combinations *Huhua nipalensis*, *Eutoglaux nipalensis*, *Urrua nipalensis*; age-unspecified young
+- Read location: printed p. 38
+- Source facts: the young is white to yellow-washed with broad dark-brown heart/spade dorsal marks and pale transverse underpart bars; wings and tail are described as structurally much as in the adult and carry barred white juvenile feathers; tail with seven fulvous bars and white tip.
+- Evidence limits/conflicts: historical descriptive terminology; juvenile age and locomotor ability are not given. This conflicts with v2’s blanket short/plain-wing treatment but does not license an exact fledging age.
+- Supported decision: show an age-unknown fledgling with developed barred juvenile folded wings and visible barred developing tail, still paler/softer than adults.
+- Related: [species card](../knowledge/species/57-bubo-nipalensis.md); v3.
+
+### SBEO-CBC-FLEDGLING-2012
+- Title: Spot-bellied Eagle Owl — photographs
+- Institution: Ceylon Bird Club
+- Year/date: photograph dated 2012-03-18
+- URL: https://www.ceylonbirdclub.org/birds-of-sri-lanka/spot-bellied-eagle-owl/
+- Accessed: 2026-10-28
+- Type: institution-hosted labelled field photograph
+- Taxon/stage: *Bubo nipalensis blighi*; fledgling
+- Read location: page section “Fledgling, Sinharaja, 18 March 2012”
+- Source facts: a labelled fledgling is perched on a natural branch in dense forest.
+- Evidence limits: no exact age, sex, measurements or flight capability; subspecies is *blighi*.
+- Supported decision: natural branch support and humid forest are defensible; do not claim exact age or flight.
+- Related: [species card](../knowledge/species/57-bubo-nipalensis.md); v3.
+
+### SBEO-PALEI-2018
+- Title: Rescue and rehabilitation record of a juvenile Spot-bellied Eagle Owl
+- Authors: Palei et al.
+- Year: 2018
+- URL: https://www.researchgate.net/publication/329450298
+- Accessed: 2026-10-28
+- Type: published rescue/field account
+- Taxon/stage: *Bubo nipalensis*; juvenile rescued 2015-05-09 in Odisha
+- Read location: juvenile description
+- Source facts: juvenile recorded with ear tufts, paler greyish-cream body, pale-yellow bill and creamy-yellow legs.
+- Evidence limits: rescue context; exact age and normal locomotor development not established in the accessible text.
+- Supported decision: paler juvenile coloration, smaller developing tufts, pale bill and creamy legs; no exact-age or flight claim.
+- Related: [species card](../knowledge/species/57-bubo-nipalensis.md); v3.
+
+### 2026-10-28 #57 v3 source reconciliation
+- New verified sources: SBEO-SHARPE-BM-1875, SBEO-CBC-FLEDGLING-2012, SBEO-PALEI-2018.
+- Reused sources: SBEO-THAI-NP-2026, SBEO-OWL-PAGES-2022.
+- Corrected design claim: v2’s short, plain, down-softened juvenile wing is not a safe generalization. Museum text supports developed, barred juvenile wing/tail structure in an age-unspecified young bird; field photographs support a branch-perching fledgling. Exact age, flight competence and sex remain unknown.
+- Taxonomy mapping: project *Bubo nipalensis* = current *Ketupa nipalensis*; historical *Huhua/Eutoglaux/Urrua nipalensis* combinations refer to the same species.
+- Heimo Mikkola guide: not readable in this execution; no page number asserted.

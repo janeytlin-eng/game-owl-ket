@@ -6576,22 +6576,28 @@
         "species": "Ninox connivens",
         "version": 3,
         "acquired_at": "2026-10-29T07:43:46.772+08:00",
-        "heartbeat_at": "2026-10-29T07:46:47.876+08:00",
-        "expires_at": "2026-10-29T08:01:47.876+08:00"
+        "heartbeat_at": "2026-10-29T07:48:27.347+08:00",
+        "expires_at": "2026-10-29T08:03:27.347+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261029T0744+0800-cycle-6",
         "evidence": {
-          "generated_master": "owl-pet/production/generated/71-ninox-connivens-v3-generated-master.jpg",
-          "dimensions": "1536x1024",
-          "size_bytes": 767011,
-          "sha256": "be857d3fbf3954b5179c048a479369f076f42686fefaa228d24c63007e1e291d",
-          "visual_check": "count/text/adults/hollow/support and developed juvenile wing/tail pass; juvenile spot rows too adult-like and pale incomplete collar insufficient; edit required"
+          "reviewed_master": "owl-pet/production/reviewed/71-ninox-connivens-v3-reviewed-master.jpg",
+          "review_crop": "owl-pet/production/reviewed/71-ninox-connivens-v3-juvenile-review-crop.jpg",
+          "master_dimensions": "1536x1024",
+          "master_size_bytes": 727977,
+          "master_sha256": "cc10bf45653345120026a105a1fe31b13b9d3231ad2a1efc70b880a3f53c8a21",
+          "crop_dimensions": "650x650",
+          "crop_size_bytes": 238319,
+          "crop_sha256": "407377cfc6c65f725c82cbafe78ec8aa1c50771378da585d6ab6fa0dd816f114",
+          "correction": "juvenile white wing spots reduced/softened; incomplete pale collar and mottled nape clarified while developed wing/tail and grip retained",
+          "result": "PASS_CONCEPT_SCIENCE_PENDING",
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T07:46:47.876+08:00",
+      "last_updated_at": "2026-10-29T07:48:27.347+08:00",
       "audit_notes": [
         "2026-10-29T05:56:32.572+08:00: new batch cycle1 STARTED #65 Tyto soumagnei v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T05:57:51.982+08:00: cycle1 #65 v3 RESEARCH_READY; new0/reused2/corrected1; Peregrine Fund opened, primary first-nest record reused; full prompt saved; science false; no credit.",
@@ -6626,7 +6632,8 @@
         "2026-10-29T07:43:22.976+08:00: cycle5 #70 v3 VERIFIED at archive d07039a4300c648e2035badc3079089a232d3593; concept 8f8255932a/548079B, generated 0edf4ff36d/739875B, reviewed 932de98df4/663011B, crop 6cdf5812a8/229640B; manifest496; unique+0; science false; next cycle6.",
         "2026-10-29T07:43:46.772+08:00: cycle6 STARTED #71 Ninox connivens v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T07:45:24.921+08:00: cycle6 #71 v3 RESEARCH_READY; new2/reused4/corrected1; primary 2005 field study, 2026 primary abstract, Victorian government, ABSA and museum sources actually read; full prompt saved; science false; no credit.",
-        "2026-10-29T07:46:47.876+08:00: cycle6 #71 v3 IMAGE_GENERATED; 1536x1024 output opened; count/text/adults/hollow/support and developed juvenile wing/tail pass; adult-like juvenile spot rows and weak pale collar flagged for targeted edit; no credit."
+        "2026-10-29T07:46:47.876+08:00: cycle6 #71 v3 IMAGE_GENERATED; 1536x1024 output opened; count/text/adults/hollow/support and developed juvenile wing/tail pass; adult-like juvenile spot rows and weak pale collar flagged for targeted edit; no credit.",
+        "2026-10-29T07:48:27.347+08:00: cycle6 #71 v3 REVIEWED after one targeted edit; full 1536x1024 and 650x650 crop reopened. Developed wing/tail, firm grip, softened juvenile markings, incomplete collar, adult vertical streaks, exact text/count and hollow pass; science false; no credit."
       ],
       "lease": null,
       "in_progress": null
@@ -6726,7 +6733,7 @@
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false.",
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit."
   ],
-  "updated_at": "2026-10-29T07:46:47.876+08:00",
+  "updated_at": "2026-10-29T07:48:27.347+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -6743,10 +6750,10 @@
     "species": "Ninox connivens",
     "version": 3,
     "acquired_at": "2026-10-29T07:43:46.772+08:00",
-    "heartbeat_at": "2026-10-29T07:46:47.876+08:00",
-    "expires_at": "2026-10-29T08:01:47.876+08:00"
+    "heartbeat_at": "2026-10-29T07:48:27.347+08:00",
+    "expires_at": "2026-10-29T08:03:27.347+08:00"
   },
-  "last_updated_at": "2026-10-29T07:46:47.876+08:00",
+  "last_updated_at": "2026-10-29T07:48:27.347+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -6874,6 +6881,6 @@
     "species_id": 71,
     "species": "Ninox connivens",
     "version": 3,
-    "stage": "IMAGE_GENERATED"
+    "stage": "REVIEWED"
   }
 }

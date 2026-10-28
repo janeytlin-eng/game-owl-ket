@@ -38,3 +38,8 @@
 - Dry western-Andean foothill/riparian thorn-scrub context is supported; no nest-site claim was added.
 - Archive commit: `85ec167a10c7688a17368ba0d29563dc0b422369`; Git blob `5f3f6922e501681fd61bb0b7e0bc87a10e7a6e25`; SHA-256 `5cfd7cf94fa6cabff0b5fc161d60fadad8b2fe9c64a641feece1382a2c52f70e`.
 - Scientific status remains pending because exact juvenile age, iris/flight stage, continuous feather sequence and population variation are unresolved.
+
+
+## v3 research — 2026-10-28
+
+New `PEPO-MACIAS-2015` (printed/PDF p.147) reports white-down blind hatchlings and a broad 26–42 d cavity-departure window. V3 uses only a supported late-cavity young; no exact day, feather map or flight claim. Science false.

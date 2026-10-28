@@ -1,3 +1,10 @@
+## 2026-10-28 #45 *Strix seloputo* v3 VERIFIED
+
+- Result: SCIENCE_REVISION VERIFIED; unique remains **184/251**; current batch **1/6**, next cycle **2**.
+- [Original concept](design/concepts/45-strix-seloputo-v3.png) · [archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/fe5f4c2c85ad2d1539b0170aafc3ea57d78a75cf)
+- Fixed-commit readback passed for concept `07ab6742a2…`, generated `122108d72f…`, reviewed `bf2a5720f6…`, plus manifest/source/card/run/state/STATUS/design records.
+- Scientific calibration remains false; exact hatch age, universal feather sequence, independent-flight threshold and quantified dimorphism remain unknown.
+
 ## 2026-10-28 #45 *Strix seloputo* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251**; new batch remains **0/6** until fixed-commit verification.

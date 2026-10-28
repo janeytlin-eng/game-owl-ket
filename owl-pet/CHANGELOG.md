@@ -1215,3 +1215,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-29T06:47:09.479+08:00: #66 *Tyto capensis* v3 archive checkpoint — new1/reused4/corrected1 source evidence; fully feathered dark unspotted recent fledgling replaces earlier down-stage concept without deleting v1/v2; full/crop review passed, no edit required; concept `f89f59a09110ca5955e64352b9989717c791e794`, master `2fece942b426064065c9c40533b710d87d0e8c81`; readback pending, unique +0, science false.
 
 - 2026-10-29T06:47:56.280+08:00: #66 *Tyto capensis* v3 VERIFIED; fixed-tree concept/generated/reviewed/crop and all index markers passed at `0af2270579e4e43b4f7e103372aba1772224778e`; unique +0, science false.
+
+- 2026-10-29T06:51:54.664+08:00: #68 *Tyto tenebricosa* v3 archive checkpoint — new2/reused3 sources; clearer evidence-based female volume and three-month-stage recent fledgling; full/crop pass, no edit; blobs `141c341dc49fe57eeba07ac6bc0855abd382a76f`/`eb96cb7ffc6d8b38296d9e61ef04312275f4b21d`/`eda3c94fd67d9bd490ada81820ea896c58241578`; unique +0, science false, readback pending.

@@ -19,3 +19,9 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - New sources: GSO-BILNEY-2012 and GSO-NSWSC-2008. Reused: GSO-ABSA-2019, GSO-OWLPAGES-2026 and indexed Mikkola pp.114–115.
 - Revision: nominate female receives clearly greater body volume/length on comparable support; recent fledgling remains fully feathered and darker with only small residual down after the roughly three-month nestling period. Old smooth-gum hollow, moist gully and tree ferns are evidence-bound.
 - Unknown: exact age/down placement, universal sex visual ratio and subspecies variation. Science false. Full prompt in SOURCE_INDEX.
+
+
+## v3 review/archive checkpoint — 2026-10-29T06:51:54.664+08:00
+
+- Concept `141c341dc49fe57eeba07ac6bc0855abd382a76f` / 359873 B; generated/reviewed `eb96cb7ffc6d8b38296d9e61ef04312275f4b21d` / 449107 B each; crop `eda3c94fd67d9bd490ada81820ea896c58241578` / 108906 B.
+- Problem/evidence/change/recheck: v2 kept female difference conservative; Bilney 2012 supports strong nominate reversed dimorphism. v3 makes female clearly fuller on comparable support and uses the NSW three-month nest-period recent fledgling with developed wings/tail and only small residual down. Full/crop pass; no edit. Science false for exact ratio/age/subspecies variation.

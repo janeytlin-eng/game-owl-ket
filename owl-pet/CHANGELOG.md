@@ -1,7 +1,7 @@
-## 2026-10-28 — #10 *Surnia ulula* v3 archive checkpoint
+## 2026-10-28 — #10 *Surnia ulula* v3 VERIFIED
 
 - Rebuilt v2 as a current evidence-bounded labeled trio; preserved v1/v2 and historical records.
-- One edit corrected adult display direction and softened/shortened the 24–27-day preflight branch-clamberer's wing. Full source/derivative pass; science false; commit-pinned readback pending.
+- One edit corrected adult display direction and softened/shortened the 24–27-day preflight branch-clamberer's wing. Full source/derivative pass; commit-pinned tree, PNG blobs, manifest and records read back at `58a4e129…`; science false.
 
 ## 2026-10-28 — #07 *Asio flammeus* v3 VERIFIED
 

@@ -1,7 +1,7 @@
 # 10 · Northern Hawk Owl · *Surnia ulula* · v3
 
 - Action: SCIENCE_REVISION
-- Stage: ARCHIVED
+- Stage: VERIFIED
 - Date: 2026-10-28
 - v1/v2 and historical approval preserved; approval does not transfer.
 - Science: false.
@@ -18,4 +18,8 @@ Create one polished 3:2 landscape scientific concept review board in the reposit
 
 Initial render made the male appear larger and gave the juvenile a long, crisp-spotted wing. One targeted edit made the female subtly fuller and shortened/softened the juvenile wing while retaining evidence-supported formed flight/tail feathers and full support. PASS_WITH_LIMITATIONS; science false.
 
-Concept `design/concepts/10-surnia-ulula-v3.png` and full-resolution indexed generated/reviewed masters entered the archive tree at 2026-10-28T08:11:06.404+08:00. Commit-pinned readback pending.
+Concept `design/concepts/10-surnia-ulula-v3.png` and full-resolution indexed generated/reviewed masters entered the archive tree at 2026-10-28T08:11:06.404+08:00. Commit-pinned readback verified.
+
+- Archive commit: `58a4e129a08c7f080bbee8016058a700f3072e35`
+- Readback: concept `01245cbd`, generated `b47b4109`, reviewed `464d2c91`; manifest and records matched.
+- Scientific status: false; unresolved boundaries retained.

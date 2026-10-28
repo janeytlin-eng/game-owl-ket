@@ -42,3 +42,5 @@ The early nestling is age-unknown: white natal down, closed/slit eyes, tiny down
 Mikkola printed pp.360–363/PDF pp.362–365, E-Fauna BC and Huhtala et al. 1987 bound a recently nest-departed but preflight gray-mesoptile branch-clamberer with formed yet still modest wing/tail. One edit corrected the adult display direction and removed overly crisp juvenile wing spotting while retaining full branch support. Exact day, continuous feather sequence, flight threshold, ratio, subspecies and universal nest form remain unknown; science false.
 
 ![v3](../../design/concepts/10-surnia-ulula-v3.png)
+
+Commit-pinned readback at `58a4e129a08c7f080bbee8016058a700f3072e35` verified concept blob `01245cbd6adec957f83b94f4b4e7b5134cbf0806`, generated master `b47b4109a8046880d58e4224ed0512c2d7e75358`, reviewed master `464d2c91bbff190a66856e88b1e6dc6a84db42a0`, manifest and run record. Science remains false.

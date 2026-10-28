@@ -14,3 +14,10 @@ Image commit 84e28bd532ae1697339927dd615b9a0742f67cfb
 - New `AMO-NSW-2024`: large powerful feet with feathering to toes, dark-rimmed heart face, variable brown/grey spotted plumage, eucalypt forest/woodland and large hollow nesting.
 - V2 selects mainland nominate dark morph and the paper's near-fledged/fledgling boundary: a nearly full-grown darker juvenile with developed wings and only residual down, not the earlier all-down chick used in v1. Female body volume is clearly larger/darker, without converting mass to an exact standing-height ratio.
 - Exact age, wild growth rate, juvenile colour across morphs/subspecies and fixed sex ratio remain unknown.
+
+
+## v3 RESEARCH_READY — 2026-10-29T06:53:55.583+08:00
+
+- New 0, reused 4, corrected/application-expanded 1: AMO-DEBUS-WOOD-2007 now explicitly includes its printed pp.51–52 ~11-week recent-fledgling observation, not only early mesoptile.
+- v3: fully grown darker/more heavily marked recent fledgling with small residual down; clearly fuller/darker female on comparable support; mainland dark-morph eucalypt-hollow example with soil/sand/soft wood mulch.
+- Exact age, down placement, morph prevalence and universal ratio unknown; science false. Full prompt in SOURCE_INDEX.

@@ -5135,3 +5135,20 @@ Use case: scientific-educational. Asset type: owl-pet species concept plate. Cre
 ```
 
 Links: [species dossier](../knowledge/species/68-tyto-tenebricosa.md), [v1](../design/concepts/68-tyto-tenebricosa-v1.png), [v2](../design/concepts/68-tyto-tenebricosa-v2.png), [cycle3 run](../production/runs/20261029T0648+0800-cycle-3.md).
+
+
+## 2026-10-29 · #69 *Tyto novaehollandiae* v3 — 11-week fledgling and strong sex-direction application
+
+- Active external reread: AMO-DEBUS-WOOD-2007 original developmental study (Australian Field Ornithology 24:49–53; ResearchGate full text pp.49–52), AMO-AUSTRALIAN-MUSEUM-2024, TMO-ABSA-2019-P2, and the current NSW Environment profile (id10820).
+- Correction/application expansion: the earlier AMO-DEBUS-WOOD-2007 index entry emphasized 4–5-week mesoptile. The actually read printed pp.51–52 also reports a captive nominate dark-morph female recent fledgling, estimated ~11 weeks: fully grown, traces of down on head/facial ruff/underparts, darker and more heavily marked than dark-morph parents. Hatching date was unknown and release occurred later, so ~11 weeks remains an estimate, not a precise clock.
+- Sex evidence: ABSA/HANZAB ranges and Australian Museum/NSW accounts agree females are significantly larger and generally darker; apply clear body-volume/darkness direction on comparable support, not a numeric height ratio.
+- Nest/habitat: Australian Museum and Museum Victoria support a deep bare tree chamber lined by soil/sand/soft wood mulch; use one mainland eucalypt hollow, not a universal nest.
+- Name/morph boundary: current repository species *Tyto novaehollandiae*, nominate mainland dark morph as one bounded example; Tasmanian *castanops* remains excluded from this plate. Exact individual age, residual-down placement, morph prevalence and universal ratio remain unknown; science false.
+
+### Full imagegen prompt
+
+```text
+Use case: scientific-educational. Asset type: owl-pet species concept plate. Create a polished 3:2 science-revision plate in the established realistic-cute natural-history game concept style for mainland Australian Masked Owl. Exactly three owls and exact readable text: title “AUSTRALIAN MASKED OWL”, italic “Tyto novaehollandiae”, bottom labels “ADULT MALE”, “RECENT FLEDGLING”, “ADULT FEMALE”. Use nominate mainland dark morph as one bounded example, not Tasmania and not a universal morph. Adults: no ear tufts; dark eyes; pale horn bill; broad heart-shaped chestnut-buff facial disc with a dark brown rim and darker shading around eyes/bill; dark brown to chestnut upperparts with fine pale/white speckling; rufous-to-pale underparts with dark spotting; fully feathered legs and powerful feet. Females are significantly larger and generally darker: show the female clearly fuller/longer-bodied and somewhat darker than the male, with comparable support; do not turn measured mass/wing ranges into an exact standing-height ratio. Juvenile: a recent fledgling around the study’s estimated 11-week stage, fully grown and fully feathered with developed folded wings/tail, darker and more heavily marked than the dark-morph parents, with only small traces of down clinging to crown/facial ruff/underparts; no all-down chick, baby wing buds, flight pose or exact age label. Place all three at a large deep natural tree hollow in mainland eucalypt forest, with the juvenile crouched on a stable hollow-floor/lip of soil, sand and soft wood mulch, adults on adjacent stable wood. Feet and perspective anatomically supported. No eggs, extra birds, chicks, text, logos, borders or watermarks.
+```
+
+Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../design/concepts/69-tyto-novaehollandiae-v1.png), [v2](../design/concepts/69-tyto-novaehollandiae-v2.png), [cycle4](../production/runs/20261029T0653+0800-cycle-4.md).

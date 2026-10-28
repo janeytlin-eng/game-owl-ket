@@ -5510,35 +5510,28 @@
         }
       ],
       "next_cycle": 2,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261028T0901+0800-newbatch-cycle-2",
-        "cycle": 2,
-        "species_id": 19,
-        "heartbeat_at": "2026-10-28T09:01:00.000+08:00",
-        "expires_at": "2026-10-28T09:16:00.000+08:00"
-      },
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 2,
         "run_id": "20261028T0901+0800-newbatch-cycle-2",
         "species": "#19 Megascops trichopsis",
         "version": 6,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "at": "2026-10-28T09:01:00.000+08:00",
+        "stage": "CANDIDATE_DEFERRED",
+        "at": "2026-10-28T09:02:00.000+08:00",
         "evidence": {
-          "existing_versions": [
-            "v1",
-            "v2",
-            "v3",
-            "v4",
-            "v5"
+          "research_result": "INSUFFICIENT_FOR_NEW_PLUMAGE_REVISION",
+          "sources_read": [
+            "Mikkola printed pp.212–213/PDF214–215",
+            "ADW current account",
+            "Audubon current field guide",
+            "existing Cornell/knowledge sources"
           ],
-          "duplicate_check": "v6 absent at main f862aafe2ef02164c7d5fd761260a3c6f29874f1",
-          "user_records_preserved": "all prior versions and confirmation records; no approval transfer"
+          "reason": "Sources support 24–30 d departure/weak initial flight and adult diagnostics, but no species-specific late-juvenile feather map. Mikkola only says juvenile is similar to other screech-owls; ADW and Audubon conflict on iris/bill and Audubon explicitly says development/first flight not well known. Generating v6 would invent species-specific juvenile plumage or duplicate v5.",
+          "decision": "No image generated, no source-index entry added, no cycle credit. Move to #20 with actual stage evidence."
         }
       },
-      "last_updated_at": "2026-10-28T09:01:00.000+08:00",
+      "last_updated_at": "2026-10-28T09:02:00.000+08:00",
       "audit_notes": [
         "2026-10-28T08:51:00.000+08:00: new batch cycle1 STARTED canonical #18 Megascops kennicottii v3 SCIENCE_REVISION; v1/v2 preserved; no credit.",
         "2026-10-28T08:53:00.000+08:00: cycle1 #18 v3 RESEARCH_READY; new2/reused4/corrected1 sources, Mikkola pp.204–205 and primary telemetry study read; full prompt saved; science false.",
@@ -5546,7 +5539,8 @@
         "2026-10-28T08:57:00.000+08:00: #18 v3 REVIEWED after one 40.602s wing edit; long adult-like juvenile remiges removed, support preserved; science false.",
         "2026-10-28T08:59:00.000+08:00: #18 v3 ARCHIVED; concept cce3c11d, generated 88f0fa41, reviewed d2a94c9f; manifest 449→450; readback pending.",
         "2026-10-28T09:00:00.000+08:00: cycle1 VERIFIED #18 Megascops kennicottii v3 at 6bd289186cde11539374e8528118b730b7fd9f14; blob/size/metadata readback passed; batch 1/6 next_cycle2; science false.",
-        "2026-10-28T09:01:00.000+08:00: cycle2 STARTED #19 Megascops trichopsis v6 SCIENCE_REVISION; v1–v5 preserved; no credit."
+        "2026-10-28T09:01:00.000+08:00: cycle2 STARTED #19 Megascops trichopsis v6 SCIENCE_REVISION; v1–v5 preserved; no credit.",
+        "2026-10-28T09:02:00.000+08:00: #19 v6 candidate DEFERRED before generation: species-specific late-juvenile plumage evidence insufficient and adult iris/bill sources conflict. No image/index duplication/credit; cycle2 remains open for another candidate."
       ]
     }
   ],
@@ -5651,15 +5645,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261028T0901+0800-newbatch-cycle-2",
-    "cycle": 2,
-    "species_id": 19,
-    "heartbeat_at": "2026-10-28T09:01:00.000+08:00",
-    "expires_at": "2026-10-28T09:16:00.000+08:00"
-  },
-  "last_updated_at": "2026-10-28T09:01:00.000+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-28T09:02:00.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

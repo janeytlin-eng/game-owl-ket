@@ -50,4 +50,4 @@ Scientific-educational owl electronic-pet concept sheet in the established appro
 - Reviewed master: `production/reviewed/44-strix-uralensis-v3-reviewed-master.jpg`; blob `8a23cfa48e5a76bfd7508e42218da8a4305a674e`.
 - Check: first render's juvenile wing panel was too mature; one juvenile-only edit produced mesoptile-dominant flank with only short newly opened wing tips and no visible tail. Full image and derivative actually opened; PASS_WITH_LIMITATIONS.
 - Unknown: exact field transfer, population color, sex-specific linear ratios and universal nest geometry. `scientifically_verified=false`.
-- Archive commit and fixed readback: pending.
+- Archive commit: `25d90f8a8b7eb1fa3ffff7518af80e5caac2e167`; fixed commit readback passed at 2026-10-28T22:33:00+08:00.

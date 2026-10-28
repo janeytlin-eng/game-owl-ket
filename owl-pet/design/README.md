@@ -2,7 +2,7 @@
 
 - Concept: [44-strix-uralensis-v3.png](concepts/44-strix-uralensis-v3.png)
 - Research: [species card](../knowledge/species/44-strix-uralensis.md) · [source index](../research/SOURCE_INDEX.md#2026-10-28-44-strix-uralensis-v3-evidence-correction)
-- Stage: ARCHIVED, fixed-commit verification pending. Day-29 supported brancher; one juvenile-wing edit; science false.
+- Stage: VERIFIED at archive [`25d90f8a`](https://github.com/janeytlin-eng/game-owl-ket/commit/25d90f8a8b7eb1fa3ffff7518af80e5caac2e167). Day-29 supported brancher; one juvenile-wing edit; fixed readback passed; science false.
 
 ## 43 · Forest Owlet · *Athene blewitti* v3
 

@@ -77,3 +77,17 @@ ARCHIVED; visual review passed after one targeted juvenile-wing edit. Scientific
 - Original-resolution recheck: exactly three labeled birds; near-equal adults; untufted round heads, dark irises, muted orange eyelids, horn-dark bills and concentric facial-disc bars; all feet supported; pass.
 - PNG: 1254×1254 RGB, 2,943,120 bytes; SHA-256 `89e7112b4e3f51b3780ef2e334d16463a83428e36c2806ec0772de31424e2d98`; Git blob `ec9dcd05d490ddad78a49ac6b4d5e786b9f7f292`; immutable image commit `9668653af1d2602dd9108d630b84a54d5210b5ac`.
 - Unknowns retained: exact wild fledging age, continuous feather sequence, sex-specific measurements and subspecies-locality plumage; `scientifically_verified=false`.
+
+
+## v3 research-ready（2026-10-28）
+
+- Action: SCIENCE_REVISION; v1–v2 preserved.
+- New original evidence: MOWL-DESHPANDE-WOC-2022, printed pp.1217–1218. Four young in two western Maharashtra nests were serially measured from day 1; branching occurred at 34–36 days by walking from an open-top cavity to adjacent branches. Tarsus/beak were about 90% grown, but wing/tail only about 50%; actual flight is a later third phase.
+- Correction: replace v2’s rescued approximately-three-month juvenile with the field-measured day-34–36 brancher. Keep strong supported feet, short compact wing/tail, mesoptile crown/mantle barring and no flight claim.
+- Source delta: new 1 / reused 3 / corrected inference 1. Exact daily plumage sequence, sample transfer and quantified dimorphism remain unknown; science false.
+
+### Complete v3 imagegen prompt
+
+```
+Create a warm painterly semi-realistic natural-history concept board in the established owl-pet style, landscape 3:2. Exact title: “46 · MOTTLED WOOD OWL · Strix ocellata”. Show exactly three full-body owls, clearly separated and labeled ADULT MALE, ADULT FEMALE, JUVENILE. Adults nearly equal standing height because females are only presumed, not measured, larger; the female may be subtly fuller but never dramatically taller. Both adults untufted with smooth round heads, dark-brown irises, a fine muted coral-orange eyelid rim, horn-black bills, pale whitish facial discs covered by fine concentric dark-brown bars, dense reddish-brown/black/white/buff mottled upperparts, golden-orange buff underparts finely barred blackish, and feathered buff feet. Juvenile must be an evidence-bounded day-34–36 brancher from western Maharashtra serial biometry: it has left an open-top natural tree hollow by walking onto an immediately adjacent branch, with strong nearly developed tarsi/beak and both feet fully supported, while wing and tail are only about half adult growth. Show a whiter crown, pale nape/mantle/wing coverts with fine blackish mesoptile barring, a white chin/half-collar, dark-brown iris and muted orange eyelid; folded wing compact, rounded and soft with no long layered adult remiges or crisp adult white spot rows; tail very short and partly concealed. The juvenile may lean forward in a careful branch-walking/climbing posture, not fly and not pose as a helpless hatchling. Habitat: mature mango-tamarind agricultural mosaic in west-central India at soft dusk, with one genuine open-top natural cavity and wooden debris/shavings visible only inside; no claim that every nest is identical. All feet visible and naturally supported. No extra birds, eggs, prey, ear tufts, yellow irises, bright yellow bill, exaggerated female size, mature juvenile wing/tail, floating feet, watermark, or text beyond the exact title and labels.
+```

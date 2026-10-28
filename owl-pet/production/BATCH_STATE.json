@@ -5315,103 +5315,34 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
-      "cycle_checkpoint": {
-        "cycle": 2,
-        "run_id": "20261028T0812+0800-cycle-2",
-        "species": "#10 Surnia ulula",
+      "active_lease": {
+        "owner": "codex",
+        "run_id": "20261028T0813+0800-cycle-3",
+        "batch_id": "2026-10-28T0800+0800",
+        "cycle": 3,
+        "species": "#11 Aegolius funereus",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "at": "2026-10-28T08:12:09.687+08:00",
+        "heartbeat_at": "2026-10-28T08:13:05.276+08:00",
+        "expires_at": "2026-10-28T08:28:05.276+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 3,
+        "run_id": "20261028T0813+0800-cycle-3",
+        "species": "#11 Aegolius funereus",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "at": "2026-10-28T08:13:05.276+08:00",
         "evidence": {
-          "source_ids_new": [
-            "NHO-MIKKOLA-2013-P360",
-            "NHO-EFAUNA-BC-2026",
-            "NHO-HUHTALA-1987"
+          "previous_versions": [
+            "v1 user-approved concept preserved",
+            "v2 early nestling revision preserved"
           ],
-          "source_ids_reused": [
-            "NHO-CORNELL-ID-2026",
-            "NHO-CORNELL-LIFE-2026",
-            "NHO-NPS-NEST-2021"
-          ],
-          "source_ids_corrected": [],
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "fresh_research": "Mikkola pp.360–363 extracted; E-Fauna juvenile account and primary symposium abstract actually read; Cornell/NPS records reused.",
-          "design_boundary": "Approximately 24–27d preflight branch-clamberer, gray mesoptile/dark face/formed modest wing-tail/full support.",
-          "full_prompt_saved": "owl-pet/research/species/10-surnia-ulula-v3.md",
-          "full_prompt": "Create one polished 3:2 landscape scientific concept review board in the repository's established cinematic 3D animated owl style. Exact header text: \"10 · NORTHERN HAWK OWL · Surnia ulula\". Exactly three owls with exact lower labels \"ADULT MALE\", \"ADULT FEMALE\", \"JUVENILE\". Adult male left and adult female center perch at the same baseline on the broad broken top and adjacent branch of a fire-scarred boreal snag; female only subtly fuller/heavier, never a giant. Adults share one morph: medium compact but hawk-like owl, no ear tufts, long graduated dark tail with narrow pale bars, short pointed folded wings, dark gray-brown upperparts with dense white spots and a broad white scapular shoulder band, white facial disc with broad blackish side ruff and white eyebrows, bright yellow eyes, yellow-green bill, white underparts fully barred gray-brown, tarsi and toes densely feathered and gripping wood. Juvenile right is a source-bounded approximately 24–27-day newly nest-departed but pre-flight branch-clamberer on a lower sturdy snag branch: fluffy overall gray mesoptile, light gray largely unspotted crown, poorly defined blackish/dark-gray facial disc with whitish lower cheeks and throat, golden-yellow eyes, faint gray underpart barring, a few pale spots on brown-gray back, formed but still modest folded flight feathers and short barred tail retained because this stage has adult-like flight/tail feathers, both feet firmly gripping bark; no launch, spread wings, hovering or confident flight. Boreal conifer edge with open burned clearing/marsh beyond in cool daylight; broken snag cavity/stump context. Comparative review board, not a literal family moment. No prey, eggs, extra birds, borders, logos or text beyond exact title/labels. Exact day, continuous feather sequence, flight threshold, measured display ratio, subspecies and universal nest form remain unknown.",
-          "remaining_unknowns": [
-            "exact day",
-            "continuous feather sequence",
-            "flight threshold",
-            "measured display ratio",
-            "subspecies",
-            "universal nest form"
-          ],
-          "scientifically_verified": false,
-          "generated_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-8877b54c-48a7-4912-ad8b-a19b63567254.png",
-          "generated_sha256": "c5c704cf1207b9810efc8f1ecd361b8fefdb61da4fdd2cd30bce8e9922824391",
-          "generated_bytes": 725839,
-          "generated_dimensions": "1536x1024",
-          "generation_seconds": 68.623,
-          "initial_review_findings": [
-            "male appears materially larger than female because of composition/perspective",
-            "juvenile wing is slightly long and shows overly crisp pale spots for the chosen 24–27d boundary"
-          ],
-          "review_preview": "/workspace/scratch/e49f444b0b9e/nho-review.jpg",
-          "clock_note": "Observed host wall clock (08:07 +08:00) was earlier than the previously persisted RESEARCH_READY timestamp (08:15 +08:00); actual observation time retained and anomaly disclosed.",
-          "reviewed_local_path": "/workspace/scratch/e49f444b0b9e/generated_images/exec-f900e178-d0e2-499e-bc56-ebc5d5910f9f.png",
-          "reviewed_sha256": "09211afd30fbbacc945ed7e826d2cb295e15864932a92d947666ca83346007db",
-          "reviewed_bytes": 679823,
-          "reviewed_dimensions": "1536x1024",
-          "edit_seconds": 43.673,
-          "edit_count": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "review_checks": {
-            "exact_three_owls": true,
-            "title_and_labels": true,
-            "adult_no_ear_tufts": true,
-            "adult_tail_and_barring": true,
-            "adult_size_direction": "female subtly fuller",
-            "juvenile_stage": "24–27d preflight branch-clamberer",
-            "juvenile_wing": "formed but softened/shortened; no crisp adult white spots",
-            "support": true,
-            "habitat": true
-          },
-          "unresolved": [
-            "exact juvenile day",
-            "continuous feather sequence",
-            "measured adult display ratio",
-            "subspecies and nest-form universality"
-          ],
-          "concept_path": "owl-pet/design/concepts/10-surnia-ulula-v3.png",
-          "concept_blob": "01245cbd6adec957f83b94f4b4e7b5134cbf0806",
-          "concept_sha256": "73fd58e6f3eacc4ef81b7f3340691c1361c63a99b496251c64041459102f2ca4",
-          "concept_bytes": 191927,
-          "generated_path": "owl-pet/production/generated/10-surnia-ulula-v3-generated-master.png",
-          "generated_blob": "b47b4109a8046880d58e4224ed0512c2d7e75358",
-          "reviewed_path": "owl-pet/production/reviewed/10-surnia-ulula-v3-reviewed-master.png",
-          "reviewed_blob": "464d2c91bbff190a66856e88b1e6dc6a84db42a0",
-          "source_generated_sha256": "c142b18dcbf3ade5fa83e080d1a081ca20c6803f6c76b7edfe64a2aa4860d563",
-          "source_reviewed_sha256": "6ff7694d6952c6a4e890910b864ed17426ec3a885e4a062781d6d91d8d0fb365",
-          "manifest_count_before": 444,
-          "manifest_count_after": 445,
-          "unique_species_provisional": "184/251",
-          "readback_pending": false,
-          "archive_commit": "58a4e129a08c7f080bbee8016058a700f3072e35",
-          "verified_at": "2026-10-28T08:12:09.687+08:00",
-          "readback": {
-            "commit": "58a4e129a08c7f080bbee8016058a700f3072e35",
-            "concept_blob": "01245cbd6adec957f83b94f4b4e7b5134cbf0806",
-            "generated_blob": "b47b4109a8046880d58e4224ed0512c2d7e75358",
-            "reviewed_blob": "464d2c91bbff190a66856e88b1e6dc6a84db42a0",
-            "manifest_count": 445,
-            "paths_and_sizes_match": true
-          }
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-28T08:12:09.687+08:00",
+      "last_updated_at": "2026-10-28T08:13:05.276+08:00",
       "audit_notes": [
         "2026-10-28T08:00:00.000+08:00: new batch cycle1 STARTED canonical #07 Asio flammeus v3 SCIENCE_REVISION; v1/v2 preserved; no credit. Lease expires 2026-10-28T08:15:00.000+08:00.",
         "2026-10-28T08:03:00.000+08:00: cycle1 #07 v3 RESEARCH_READY; 3 new/1 reused sources including Mikkola pp.512–513 and primary age/sex study. Full prompt saved; science false; lease renewed.",
@@ -5424,7 +5355,8 @@
         "2026-10-28T08:07:00.000+08:00: cycle2 #10 IMAGE_GENERATED; 1536x1024 original actually opened via faithful 1200x800 review derivative after direct original view transport rendered incorrectly. Male/female scale and juvenile wing spotting require targeted edit; no credit.",
         "2026-10-28T08:09:20.215+08:00: cycle2 #10 REVIEWED PASS_WITH_LIMITATIONS after one targeted imagegen edit; female now subtly fuller and juvenile wing softened/shortened with adult-like white spots removed. Exact juvenile day and continuous feather sequence remain unknown; no credit.",
         "2026-10-28T08:11:06.404+08:00: #10 v3 ARCHIVED tree prepared; concept 01245cbd, generated b47b4109, reviewed 464d2c91; manifest 444→445; unique remains 184/251. Readback pending; no cycle credit.",
-        "2026-10-28T08:12:09.687+08:00: cycle2 VERIFIED #10 Surnia ulula v3; archive 58a4e129a08c7f080bbee8016058a700f3072e35, concept 01245cbd, generated b47b4109, reviewed 464d2c91. Unique remains 184/251; batch 2/6, next_cycle 3; lease released."
+        "2026-10-28T08:12:09.687+08:00: cycle2 VERIFIED #10 Surnia ulula v3; archive 58a4e129a08c7f080bbee8016058a700f3072e35, concept 01245cbd, generated b47b4109, reviewed 464d2c91. Unique remains 184/251; batch 2/6, next_cycle 3; lease released.",
+        "2026-10-28T08:13:05.276+08:00: cycle3 STARTED canonical #11 Aegolius funereus v3 SCIENCE_REVISION; v1/v2 and v1 user approval preserved; no credit."
       ]
     }
   ],
@@ -5529,8 +5461,18 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-28T08:12:09.687+08:00",
+  "active_lease": {
+    "owner": "codex",
+    "run_id": "20261028T0813+0800-cycle-3",
+    "batch_id": "2026-10-28T0800+0800",
+    "cycle": 3,
+    "species": "#11 Aegolius funereus",
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "heartbeat_at": "2026-10-28T08:13:05.276+08:00",
+    "expires_at": "2026-10-28T08:28:05.276+08:00"
+  },
+  "last_updated_at": "2026-10-28T08:13:05.276+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

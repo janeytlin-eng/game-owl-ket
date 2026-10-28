@@ -1694,3 +1694,10 @@ When a source describes an age-unspecified young bird with adult-like wing/tail 
 A species-specific estimate of 8–10 weeks plus observed movement among neighbouring branches and an independent “well-grown fledgling” label is sufficient to reject a tiny down-chick wing-bud depiction, even when first flight is unknown. Render developed folded juvenile wings and supported branch movement; keep flight ability explicitly unknown. Applied and visually rechecked on #58 v3; broader effectiveness remains unverified.
 
 - #58 v3 immutable verification passed at `2752d7ffbff572999ca9823301862733b6d83b53`; exact three image blobs and metadata matched. Science pending.
+
+
+- #59 *Ketupa zeylonensis* v3 — SCIENCE_REVISION correcting the 43–49-day nest-leaving stage. [concept](concepts/59-ketupa-zeylonensis-v3.png) · [research](../knowledge/species/59-ketupa-zeylonensis.md) · [run](../production/runs/20261029T0331+0800-cycle-1.md). One edit softened adult-regular juvenile wing markings while retaining a developed folded wing and shorter tail. Science pending.
+
+### Incremental stage-specific rule — nest-leaving timing must set a lower bound on wing development
+
+When species-specific evidence puts nest departure around 43–49 days and independent field observations describe nest-leavers as nearly adult-sized, do not render a tiny late nestling with wing buds. Retain developed juvenile wing/tail structure but soften pattern regularity and keep the bird supported and parent-dependent. Applied and visually rechecked on #59 v3; broader effectiveness remains unverified.

@@ -57,3 +57,13 @@ Juvenile: one nest-leaving bird nearly adult-sized but placed lower, visibly mor
 Composition: landscape 3:2, adult male left, adult female right, juvenile lower center/front; exactly three birds; all feet and their natural supports readable; calm varied poses; unobstructed title and labels.
 Visual style: match the existing confirmed owl-pet plates—soft hand-painted 3D storybook realism, tactile feather detail, warm natural light, restrained depth of field, scientifically legible anatomy.
 Do not show: a tiny chick, short wing buds, almost no tail, a fully adult third bird, unsupported flight, orange eyes, feathered tarsi, fish/prey, nestlings without support, extra birds, exaggerated female size, watermark or extra text.
+
+
+## v3 production and review
+- First render passed exact text/count, adult yellow eyes/horizontal tufts/near-equal scale, bare tarsi, riparian setting and support; juvenile wing was structurally developed but crisp white spots and regular layered remiges read too adult-like.
+- Targeted juvenile-only edit softened the wing and tail markings, added down-soft margins and slightly shortened the tail without reverting to a tiny chick or wing-bud stage.
+- Recheck opened the full 1536×1024 edited image and 680×453 derivative; all feet supported, no flight, exactly three birds and exact labels pass.
+- Concept: `owl-pet/design/concepts/59-ketupa-zeylonensis-v3.png` — blob `04133d739f1644388e925be9a6cd4bc7c3008715`, 236624 bytes, SHA-256 `9193353f9fda18c9f02a2d87284e0505afd850bce4306d67319da47cb0025e2d`.
+- Generated master: blob `9431f0cc2b4688e690032e3929cc94a049a9ab4e`, 572317 bytes.
+- Reviewed master: blob `6c683c34854d13a0ddc31c79948bcb72d06aeeb7`, 542946 bytes.
+- Scientific status pending: exact individual age, continuous feather-length series, quantified sex ratio and regional variation remain unknown.

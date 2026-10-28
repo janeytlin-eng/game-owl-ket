@@ -1989,3 +1989,11 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Review: one juvenile-only edit softened adult-regular wing spots/remiges while retaining developed folded wings and a medium barred tail. First-flight competence, exact feather progression and regional variation remain unknown. Science false; readback pending.
 
 - 2026-10-29T03:41:00+08:00 — #58 *Ketupa coromanda* v3 independently verified at `2752d7ffbff572999ca9823301862733b6d83b53`; concept/generated/reviewed exact blobs and manifest485 markers passed. Unique remains **184/251**; batch **COMPLETE 6/6**. Science false.
+
+
+## 2026-10-29 #59 *Ketupa zeylonensis* v3
+
+- Result: SCIENCE_REVISION ARCHIVED; unique remains **184/251**, immutable readback pending.
+- Image: [design/concepts/59-ketupa-zeylonensis-v3.png](design/concepts/59-ketupa-zeylonensis-v3.png)
+- Research: 1 new / 3 reused / 1 corrected inference. JBNHS pp.97–98 sets a 43–49 d nestling period; Indian BIRDS says nest-leavers are almost adult-sized but parent-dependent; ELA p.2 shows wing exercise and visible wing pattern at 5–6 weeks.
+- Review: one juvenile-only edit removed adult-regular white spots/layered remiges while retaining developed folded juvenile wings and a shorter developing tail. Exact feather lengths, sex ratio and regional variation remain unknown. Science false; readback pending.

@@ -1,3 +1,9 @@
+## 2026-10-29 #64 *Tyto glaucops* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch remains 5/6 until fixed verification.
+- [Concept](design/concepts/64-tyto-glaucops-v3.jpg) · [run](production/runs/20261029T0548+0800-cycle-6.md) · [source index](research/SOURCE_INDEX.md#2026-10-29-64-tyto-glaucops-v3-documented-emerging-wing-correction)
+- Research: 0 new / 2 reused / 2 corrected. Review: one juvenile-only wing edit after close-crop inspection; full edited master and crop reopened. Science false.
+
 - 2026-10-29T05:47:30.167+08:00 — #63 *Scotopelia peli* v3 independently verified at archive `9b80a0dc5350b70be0e256acc70820e177886427`; exact concept/generated/reviewed blobs and byte sizes plus metadata markers passed. Duplicate-name #156 preserved; unique remains **184/251**; batch advances to **5/6**, next cycle 6. Science false.
 
 ## 2026-10-29 #63 *Scotopelia peli* v3 ARCHIVED — readback pending

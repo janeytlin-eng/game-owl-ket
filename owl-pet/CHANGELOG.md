@@ -1191,3 +1191,11 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-29T05:47:30.167+08:00: verified #63 *Scotopelia peli* v3 archive `9b80a0dc5350b70be0e256acc70820e177886427` by complete commit-pinned tree and metadata readback; duplicate-name #156 retained, batch advanced to 5/6, next cycle 6; unique remains 184/251 and science false.
+
+
+## 2026-10-29 — #64 *Tyto glaucops* v3 archive checkpoint
+
+- Re-read Curti et al. 2018 p.18 and BirdsCaribbean 2023; added no duplicate source IDs.
+- Corrected v2's nearly invisible emerging wing feathers without inventing exact age: short down-softened juvenile clusters only.
+- Close crop found the first render still too regularly layered; one juvenile-only edit reduced/shortened the clusters. Full edited master and crop reopened.
+- Archived concept/generated/reviewed evidence; unique remains 184/251, science false, fixed readback pending.

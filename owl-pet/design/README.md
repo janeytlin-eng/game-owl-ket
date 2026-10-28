@@ -1741,3 +1741,14 @@ Prolonged pale down does not imply hatchling body scale. When a species source g
 
 
 - #63 v3 immutable archive verification passed at `9b80a0dc5350b70be0e256acc70820e177886427`; complete non-truncated tree showed exact concept/generated/reviewed blobs and 593546/496873/473154-byte sizes, with rejected short PNG paths absent. Science remains pending.
+
+
+## #64 Ashy-faced Owl — *Tyto glaucops* — v3 science revision
+
+- Concept: [64-tyto-glaucops-v3.jpg](concepts/64-tyto-glaucops-v3.jpg)
+- Research: [species card](../knowledge/species/64-tyto-glaucops.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-64-tyto-glaucops-v3-documented-emerging-wing-correction)
+- Stage: ARCHIVED, fixed readback pending. Curti et al. p.18 supports an almost entirely buff-down, low-mobility nestling with some juvenile wing feathers emerging. One close-crop-driven edit replaced regular layered wing feathers with shorter, sparser, down-softened clusters. Science false.
+
+### Incremental juvenile close-crop regularity rule
+
+A full-frame view can conceal over-regular juvenile feather layering. For evidence phrased only as “some juvenile feathers emerging,” inspect a close crop and reject continuous shingle-like layers even if the silhouette remains downy. Applied and rechecked on #64 v3; broader effectiveness remains unverified.

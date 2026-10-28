@@ -21,3 +21,10 @@ Image generated, edited twice and reviewed; archive d4069ad1d8148391c26ec731ae76
 - Re-read Curti et al. 2018 p.18/PDF p.3: the selected bird was not very mobile and almost completely buff-down, but some juvenile feathers were already emerging on the wings. V2's nearly invisible wing development is therefore revised to short, rounded, down-softened feather clusters only.
 - BirdsCaribbean 2023 was re-read for ash-gray face, black eyes, buff/darker body, general cavity nesting and strong mass direction; adult female may be fuller but no standing-height ratio is inferred.
 - Palmchat stick-nest cavity remains a documented single-site example, not a species-wide nest rule. Exact age, tract lengths, full feather chronology and first-flight threshold remain unknown; science false.
+
+
+## v3 review/archive checkpoint
+
+- 2026-10-29T05:55:07.064+08:00: first render's full frame passed initially, but a 620×540 juvenile crop exposed too many regular shingle-like wing feathers. One juvenile-only edit shortened, reduced and down-softened the clusters; edited full 1536×1024 frame and crop were reopened.
+- [v3 concept](../../design/concepts/64-tyto-glaucops-v3.jpg) · 1350×900. Adults, text, count, female fuller-volume cue, Palmchat cavity and all natural support pass.
+- Exact feather number/sequence, exact age, first-flight threshold, fixed standing-height ratio and population-wide nest use remain unknown; science false.

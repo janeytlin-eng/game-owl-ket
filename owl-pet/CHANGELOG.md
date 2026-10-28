@@ -1209,3 +1209,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Resumed an expired RESEARCH_READY checkpoint without duplicating research or generation.
 - Reused the first-nest and Peregrine Fund evidence for an over-two-month, fully feathered, branch-capable recent fledgling; no exact body ratio inferred.
 - First render and juvenile crop passed without edit. Archived concept/generated/reviewed evidence; unique count unchanged, science false, fixed readback pending.
+
+- 2026-10-29T06:41:35.721+08:00: #65 *Tyto soumagnei* v3 VERIFIED; fixed-tree readback passed for concept/generated/reviewed and index markers at `1cf48b957e1e017f2586c9616ae8d86f24fa0842`; no new unique species; science false.

@@ -28,3 +28,11 @@ Sources: MRO-PEREGRINE-2026, MRO-ADW-2026, MRO-OWLPAGES-2020 in [source index](.
 - 2026-10-29T06:39:03.830+08:00: expired RESEARCH_READY checkpoint resumed without duplicate research. First render and 620×620 juvenile crop passed; no edit required.
 - [v3 concept](../../design/concepts/65-tyto-soumagnei-v3.jpg) · 1350×900. Adults/text/count/cavity/support pass; recent fledgling is fully feathered, branch-capable and slightly browner/warmer.
 - Exact daily feather chronology, fledgling/adult linear ratio, sex ratio and population-wide nest variability remain unknown; science false.
+
+
+## v3 fixed-tree verification — 2026-10-29T06:41:35.721+08:00
+
+- Archive commit: `1cf48b957e1e017f2586c9616ae8d86f24fa0842`.
+- Concept: `53d5923c644884ade4c153ad13d87b11a895e462`, 451441 bytes.
+- Generated/reviewed: `6a134e7f78ad1123035e10d71c4849456c245031`, 747471 bytes each.
+- Recursive tree was not truncated; manifest and linked production records were reread from the fixed archive commit. Science remains false because exact sex ratio, exact juvenile chronology and single-nest generality remain unresolved.

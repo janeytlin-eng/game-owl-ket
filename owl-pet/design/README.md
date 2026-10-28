@@ -1766,3 +1766,5 @@ A full-frame view can conceal over-regular juvenile feather layering. For eviden
 ### Incremental fledgling structure rule
 
 When a species source explicitly says plumage is adult-like at fledging, do not retain hatchling wing buds or a downy body merely to signal youth. Use developed wing/tail and natural gripping support, while keeping exact linear size ratio unknown unless measured. Applied and rechecked on #65 v3; broader effectiveness remains unverified.
+
+- 2026-10-29T06:41:35.721+08:00: #65 *Tyto soumagnei* v3 VERIFIED; concept blob `53d5923c644884ade4c153ad13d87b11a895e462` (451441 B), generated/reviewed blob `6a134e7f78ad1123035e10d71c4849456c245031` (747471 B each), archive `1cf48b957e1e017f2586c9616ae8d86f24fa0842`; science false.

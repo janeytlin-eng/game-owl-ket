@@ -1,3 +1,4 @@
+- 2026-10-29T06:41:35.721+08:00: #65 *Tyto soumagnei* v3 VERIFIED; fixed-tree image/blob/size and all text markers passed at archive `1cf48b957e1e017f2586c9616ae8d86f24fa0842`; unique species +0; science false.
 ## 2026-10-29 #65 *Tyto soumagnei* v3 ARCHIVED — readback pending
 
 - Result: SCIENCE_REVISION archived; unique remains **184/251 numbered dossiers**; strict scientific-name count unchanged; batch remains 0/6 until fixed verification.

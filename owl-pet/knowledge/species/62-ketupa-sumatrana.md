@@ -30,3 +30,10 @@ v1 VERIFIED as an archived concept after juvenile-wing correction and remote blo
 - The 2010 white adult-sized dependent bird is a different stage. v3 therefore corrects v2's blended small white begging juvenile to the 2018 late-moult boundary.
 - New BEOW-SGBIRDS-RAPTOR-2021 independently confirms a branch-capable fledgling with adults nearby, but does not supply age or feather geometry.
 - Unknown: exact hatch age, continuous moult sequence, sex ratio, juvenile sex and subspecies variation. Science remains false.
+
+
+## v3 review and archive checkpoint
+
+- 2026-10-29T05:37:41+08:00: full 1536×1024 v3 was opened and compared with the dated 2018 late-dependent sequence. The first render passed without edit: almost adult body/wing plumage and size, residual whitish head/ear tufts, closed bill and full branch support.
+- Concept: [62-ketupa-sumatrana-v3.jpg](../../design/concepts/62-ketupa-sumatrana-v3.jpg). Generated and reviewed masters preserve the same verified image bytes.
+- This is concept-production review only. Exact hatch age, continuous moult geometry, juvenile sex, measured adult sex ratio, momentary flight threshold and subspecies transfer remain unknown; `scientifically_verified=false`.

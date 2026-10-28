@@ -1,3 +1,10 @@
+## 2026-10-29 #62 *Ketupa sumatrana* v3 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **184/251**; batch `2026-10-29T0331+0800` remains 3/6 until fixed-commit verification.
+- [Concept](design/concepts/62-ketupa-sumatrana-v3.jpg) · [run](production/runs/20261029T0511+0800-cycle-4.md) · [source index](research/SOURCE_INDEX.md#2026-10-29--62-ketupa-sumatrana-v3--late-dependent-moult-boundary)
+- Research: 1 new / 3 reused / 1 corrected inference across the whole cycle; this recovery re-ran targeted searches and re-read four sources without adding duplicate stable IDs.
+- Review: existing 1536×1024 generated master was opened after lease expiry; first render passed without edit. Science remains false; fixed-commit readback pending.
+
 ## 2026-10-29 #61 *Ketupa ketupu* v3 VERIFIED
 
 - Result: SCIENCE_REVISION verified at `e0fcfbdac6d5aebd469554ecf0db7c6eba44b89d`; unique remains **184/251**; batch `2026-10-29T0331+0800` advances to 3/6.

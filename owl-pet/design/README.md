@@ -1722,3 +1722,10 @@ When species-specific evidence puts nest departure around 43–49 days and indep
 ### Incremental stage-specific rule — age-known younger chicks set a minimum late-nestling feather boundary
 
 When species-specific photographs show 30–40-day chicks already carrying developed folded wings and conspicuous tails, a 56–57-day late nestling must not be rendered with wing buds or a hidden tail merely because continuous feather measurements are unavailable. Preserve developed structure, soften pattern regularity, require natural nest support, and keep first-flight ability unknown. Applied and visually rechecked on #60 v3; broader effectiveness remains unverified.
+
+
+- #62 *Ketupa sumatrana* v3 — SCIENCE_REVISION correcting v2's blended small white begging juvenile to the dated 2018 late-dependent boundary. [concept](concepts/62-ketupa-sumatrana-v3.jpg) · [research](../knowledge/species/62-ketupa-sumatrana.md) · [run](../production/runs/20261029T0511+0800-cycle-4.md). First render passed full review without edit: almost adult-sized/feathered juvenile with residual whitish head and ear tufts; exact moult sequence and flight threshold remain unknown; science pending.
+
+### Incremental late-dependent moult rule
+
+A dated late-dependent juvenile that is almost adult-sized and nearly finished moulting must not be collapsed into a small white begging chick merely because earlier juvenile accounts describe white barred plumage. Preserve the selected stage's adult-like body/wing/tail structure and restrict retained juvenile cues to those actually described. Applied and visually rechecked on #62 v3; broader effectiveness remains unverified.

@@ -1172,3 +1172,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-28T05:28:28.928+08:00 — Verified #197 *Otus megalotis* v1 archive `499624e816c66112affc85f4168b927199777fcd` by commit-pinned image and metadata readback; corrected one research-card reviewed-PNG hash transcription before cycle credit. Unique total 183/251; batch 2/6, next cycle 3. Science false.
 
 - 2026-10-28T05:29:08.782+08:00 — Post-verification metadata correction for #197: reviewed source PNG SHA-256 is `1754db7dfe710148d484c1df8bc875911baed24cc1c6cce99abf6ee48719960f`, matching local `sha256sum` and the REVIEWED ledger. No image, archive, cycle credit, count or science-status change.
+
+
+## 2026-10-29 — #62 *Ketupa sumatrana* v3 archive checkpoint
+
+- Recovered the existing IMAGE_GENERATED master after an expired lease; no duplicate generation.
+- Re-ran targeted current/legacy-name searches and re-read the dated 2018 family sequence. The saved late-dependent boundary remained supported; no duplicate source IDs added.
+- Full 1536×1024 image review passed without edit. Archived concept/generated/reviewed evidence; unique remains 184/251, science false, fixed-commit verification pending.

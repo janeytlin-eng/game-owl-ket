@@ -30,3 +30,8 @@
 - Review passed at original resolution without edit: exactly three birds, correct labels/title, adult common traits, near-equal adult scale and all supports visible.
 - Unknown: exact juvenile age, continuous feather sequence, flight ability and sex-specific measurements; not a scientific pass.
 - [Original PNG](../../design/concepts/34-glaucidium-hardyi-v2.png) · [run](../../production/runs/2026-10-26T1229+0800-cycle-4.md)
+
+
+## v3 research (2026-10-28)
+
+Deville & Ingels primary paper pp.23–26 was read. It documents an old woodpecker hole ~25 m high with an almost full-grown young photographed at the entrance, but no exact age or flight threshold. V3 uses that supported cavity stage; science false.

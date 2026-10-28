@@ -4655,3 +4655,11 @@ Links: [species research](species/15-strix-varia-v4.md) · [run](../production/r
 | COOW-OISEAUXNET-AUDEVARD-2010 | [Collared Owlet juvenile, O.Net auau96634](https://www.oiseaux.net/photos/aurelien.audevard/chevechette.a.collier.1.html) | Aurélien Audevard; photographed May 2010, Fujian; read 2026-10-28 | Dated field photograph metadata | juvenile | Confirms a supported fully feathered juvenile in China/Fujian and supplies locality/date/plumage label. | No exact age or sex; photo used only as independent appearance/support cross-check.
 
 Reused: `COOW-MIKKOLA-2013` (printed pp.370–371) and `COOW-GWEE-2019`. Correction: prior v2 was age-unknown; primary study now supports an approximately 56-day full-grown fledgling with incomplete occipital pattern and fewer bars/spots. It also prevents treating rufous/gray as sex morphs. New2/reused2/corrected1; science false. [Species](../knowledge/species/33-taenioptynx-brodiei.md) · [run](../production/runs/20261028T1610+0800-newbatch-cycle-1.md).
+
+
+## 2026-10-28 · #34 *Glaucidium hardyi* v3 evidence increment
+
+- **APOW-DEVILLE-INGELS-2012** — Tanguy Deville & Johan Ingels, “Observations at a nest of Amazonian Pygmy Owl *G. hardyi* in French Guiana”, *Neotropical Birding* 11, printed pp.23–26/PDF pp.1–4, [PDF](https://tanguydeville.net/wp-content/uploads/2019/05/2012-02-observations-at-a-nest-of-amazonian-pygmy-owl-glaucidium-hardyi-in-french-guiana-neotropical-birding-nc2b011.pdf), read 2026-10-28. Primary canopy-nest observation: old woodpecker hole c.25 m high, entrance c.7.5 cm, almost full-grown young photographed at entrance; one young seen, adults brought bird/cicada. No exact day, clutch outcome, sex or flight threshold. Supports an almost-full-grown, cavity-supported nestling only.
+- **APOW-WIKIAVES-BORGES-2013** — dated field-photo page, Paranaíta/MT, 2013-09-13, labelled chick/nest; used only as independent nestling/location lead, not age.
+
+Reused `APOW-MIKKOLA-2013` and adult institutional summaries. Correction: v2 age-unknown juvenile is tightened to the paper's almost-full-grown cavity nestling; exact age remains unknown. New2/reused2/corrected1; science false. [Species](../knowledge/species/34-glaucidium-hardyi.md) · [run](../production/runs/20261028T1626+0800-newbatch-cycle-2.md).

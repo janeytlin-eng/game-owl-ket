@@ -7213,32 +7213,27 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261029T1842+0800-cycle-3",
-        "heartbeat_at": "2026-10-29T18:48:00+08:00",
-        "expires_at": "2026-10-29T19:03:00+08:00"
+        "heartbeat_at": "2026-10-29T18:50:00+08:00",
+        "expires_at": "2026-10-29T19:05:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261029T1842+0800-cycle-3",
         "species_id": 100,
         "species": "Strix huhula",
         "version": 3,
         "evidence": {
-          "generated_path": "owl-pet/production/generated/100-strix-huhula-v3-generated-master.jpg",
-          "generated_blob": "3376b425a2bc2edd191a597568a0f15eda80465a",
-          "generated_size_bytes": 772908,
-          "reviewed_path": "owl-pet/production/reviewed/100-strix-huhula-v3-reviewed-master.jpg",
-          "reviewed_blob": "e290b4c60118a089fda9f54edd07b181cf7553a3",
-          "reviewed_size_bytes": 769145,
-          "crop_path": "owl-pet/production/reviewed/100-strix-huhula-v3-reviewed-fledgling-crop.jpg",
-          "crop_blob": "c02c19ead8ee911b5c2558f360da0e00a644f6d8",
-          "crop_size_bytes": 215992,
-          "edit_count": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
+          "concept_path": "owl-pet/design/concepts/100-strix-huhula-v3.jpg",
+          "concept_blob": "e290b4c60118a089fda9f54edd07b181cf7553a3",
+          "manifest_record": "100-strix-huhula-v3",
+          "manifest_entries_after": 522,
+          "research_record": "owl-pet/research/100-strix-huhula-v3.md",
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T18:48:00+08:00",
+      "last_updated_at": "2026-10-29T18:50:00+08:00",
       "audit_notes": [
         "2026-10-29T18:00:00+08:00: cycle1 STARTED #97 Lophostrix cristata v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T18:08:00+08:00: cycle1 #97 v3 RESEARCH_READY; new2/reused3/corrected1; actual PDF pp58–60, Smithsonian landing and MNHN specimen record read; full prompt saved; science false.",
@@ -7254,15 +7249,16 @@
         "2026-10-29T18:41:00+08:00: cycle2 #99 Bubo magellanicus v3 VERIFIED at fixed archive 7735200d31faca5081d62a06f2a3fae6d4317249; exact JPEG/crop path/blob/size pairs, manifest, run, source index and research record reopened; superseded PNG paths absent. Batch cumulative 2/6, next cycle3; unique species unchanged; science false.",
         "2026-10-29T18:42:00+08:00: cycle3 STARTED #100 Strix huhula v3 SCIENCE_REVISION; v1-v2 retained; short lease acquired. Candidate chosen because v2 still uses a generic nestling pose while a 2019 primary Colombia report documents a branch-supported fledgling making short flights. No credit.",
         "2026-10-29T18:45:00+08:00: cycle3 #100 v3 RESEARCH_READY; new1/reused2/corrected0. Muñoz-García et al. 2019 printed pp17–19/Figs2–5 read: a chick returned to a low branch was attended by both parents and one week later made short flights between branches. Full edit prompt saved; science false; no credit.",
-        "2026-10-29T18:48:00+08:00: cycle3 #100 v3 IMAGE_GENERATED and REVIEWED. Initial edit changed center label/stage to FLEDGLING but leaked adult-like white wing spot rows and an overlong adult-like tail. One targeted edit replaced them with a paler, softer barred, shorter rounded juvenile wing and a shorter partly hidden tail. Full and 620x760 crop reopened; two-foot branch grip, exact text/count and adult identity pass with limitations; science false; no credit."
+        "2026-10-29T18:48:00+08:00: cycle3 #100 v3 IMAGE_GENERATED and REVIEWED. Initial edit changed center label/stage to FLEDGLING but leaked adult-like white wing spot rows and an overlong adult-like tail. One targeted edit replaced them with a paler, softer barred, shorter rounded juvenile wing and a shorter partly hidden tail. Full and 620x760 crop reopened; two-foot branch grip, exact text/count and adult identity pass with limitations; science false; no credit.",
+        "2026-10-29T18:50:00+08:00: cycle3 #100 v3 ARCHIVED; concept/reviewed JPEG, generated JPEG, fledgling crop, manifest entry522 and species research note committed; fixed readback pending; no credit."
       ]
     }
   ],
   "lease": {
     "owner": "codex-automation",
     "run_id": "20261029T1842+0800-cycle-3",
-    "heartbeat_at": "2026-10-29T18:48:00+08:00",
-    "expires_at": "2026-10-29T19:03:00+08:00"
+    "heartbeat_at": "2026-10-29T18:50:00+08:00",
+    "expires_at": "2026-10-29T19:05:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7628,7 +7624,8 @@
     "2026-10-29T18:41:00+08:00: #99 v3 fixed-tree verification passed at 7735200d31faca5081d62a06f2a3fae6d4317249; batch2/6 next3; lease released.",
     "2026-10-29T18:42:00+08:00: batch cycle3 #100 Strix huhula v3 STARTED; no credit.",
     "2026-10-29T18:45:00+08:00: cycle3 #100 v3 RESEARCH_READY; source index + full prompt persisted; no credit.",
-    "2026-10-29T18:48:00+08:00: #100 v3 IMAGE_GENERATED+REVIEWED after one targeted juvenile wing/tail edit; no credit."
+    "2026-10-29T18:48:00+08:00: #100 v3 IMAGE_GENERATED+REVIEWED after one targeted juvenile wing/tail edit; no credit.",
+    "2026-10-29T18:50:00+08:00: #100 v3 ARCHIVED; fixed readback pending; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-29T1800+0800",
@@ -7636,6 +7633,6 @@
     "run_id": "20261029T1842+0800-cycle-3",
     "species": "Strix huhula",
     "species_id": 100,
-    "stage": "REVIEWED"
+    "stage": "ARCHIVED"
   }
 }

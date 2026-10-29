@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T18:41:00+08:00",
+  "updated": "2026-10-29T18:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8242,7 +8242,38 @@
         "superseded_png_paths_absent": true,
         "fixed_commit": "7735200d31faca5081d62a06f2a3fae6d4317249"
       }
+    },
+    {
+      "id": "100-strix-huhula-v3",
+      "path": "design/concepts/100-strix-huhula-v3.jpg",
+      "species_id": 100,
+      "scientific_name": "Strix huhula",
+      "common_name": "Black-banded Owl",
+      "version": 3,
+      "status": "SCIENCE_REVISION；依据Muñoz-García等2019印刷pp.17–19/Figs.2–5，将中心幼鸟从泛化Nestling改为有记录的离巢幼鸟：灰色主导、黑心形面罩白边、黄喙黄脚、发育但较短圆的折叠翼和较短尾，双足抓枝，符合一周后能在枝间短飞。首稿成年式亮白翼斑列和过长尾羽经一次定向编辑移除。精确日龄、性别、首次飞行日、连续羽序、量化翼尾长度、固定雌雄比例及通用巢位未知，科学验收false。",
+      "sha256": "fddba360ccac4dc93483052ec2f43fe6035ead209c9368004a2f3436a58fa611",
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "source_index": "research/SOURCE_INDEX.md#huh-munoz-2019",
+      "run_record": "production/runs/20261029T1842+0800-cycle-3.md",
+      "reviewed_at": "2026-10-29T18:48:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 769145,
+      "git_blob": "e290b4c60118a089fda9f54edd07b181cf7553a3",
+      "generated_path": "production/generated/100-strix-huhula-v3-generated-master.jpg",
+      "generated_blob": "3376b425a2bc2edd191a597568a0f15eda80465a",
+      "generated_size_bytes": 772908,
+      "generated_sha256": "61ee34972a899ec80ec04d18ddd2941bb474d4c464d064426738fd711ea42349",
+      "reviewed_path": "production/reviewed/100-strix-huhula-v3-reviewed-master.jpg",
+      "reviewed_blob": "e290b4c60118a089fda9f54edd07b181cf7553a3",
+      "reviewed_size_bytes": 769145,
+      "reviewed_sha256": "fddba360ccac4dc93483052ec2f43fe6035ead209c9368004a2f3436a58fa611",
+      "review_crop_path": "production/reviewed/100-strix-huhula-v3-reviewed-fledgling-crop.jpg",
+      "review_crop_blob": "c02c19ead8ee911b5c2558f360da0e00a644f6d8",
+      "review_crop_size_bytes": 215992,
+      "archive_note": "One juvenile wing/tail edit; edited full and crop reopened. Documented older fledgling stage and two-foot branch support pass with limitations. Periurban canopy is a documented case, not a universal nest claim.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T18:41:00+08:00"
+  "updated_at": "2026-10-29T18:50:00+08:00"
 }

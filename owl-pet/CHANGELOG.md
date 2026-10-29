@@ -1,3 +1,4 @@
+- 2026-10-30T01:51:10+08:00: Archived #11 Boreal Owl v4 science revision. Added one verified source, reused five; edited the ~21–23-d juvenile wing to remove adult-like rows. Science remains pending.
 - 2026-10-30T01:22:00+08:00: Archived #08 Great Gray Owl v5 science revision. Bull & Henjum 1990, Tornberg–Mikkola–Rytkönen 2016 and an NPS juvenile photo corrected brancher colour/climbing mechanics and bounded female size direction. One juvenile-wing edit removed adult-like layered remiges; full and crop passed. Manifest535; immutable readback pending; science false.
 - 2026-10-30T01:13:00+08:00: Verified #06 *Asio otus* v4 fixed archive 01aa13636579c17fec9905572e2f413a5d961eb4 after correcting crop-size metadata; batch 2/6 next3; unique unchanged; science false.
 - 2026-10-30T01:10:00+08:00: Archived #06 *Asio otus* v4 concealment/climbing revision after one juvenile wing/tail edit; manifest533; fixed readback pending; unique unchanged; science false.

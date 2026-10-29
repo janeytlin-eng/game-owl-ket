@@ -1,5 +1,12 @@
 # Current production review
 
+- Target: [11-aegolius-funereus-v4.jpg](concepts/11-aegolius-funereus-v4.jpg)
+- Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
+- Change: pre-entrance ~21–23-d nestling; one edit removed adult-like pale-spotted wing rows.
+- Evidence: [research](../research/species/11-aegolius-funereus-v4.md) · [run](../production/runs/20261030T014448+0800-cycle-1.md)
+
+# Current production review
+
 - Target: [08-strix-nebulosa-v5.jpg](concepts/08-strix-nebulosa-v5.jpg)
 - Research: [species record](../research/species/08-strix-nebulosa-v5.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30--08-strix-nebulosa-v5--brancher-colour-climbing-mechanics-and-bounded-sex-size-direction)
 - Review: `PASS_WITH_LIMITATIONS`, edit count 1. The just-out, still-flightless brancher is charcoal-gray above, pale below, short-winged/short-tailed and fully bark-supported by both talons; adult sexes share plumage and the female is only subtly fuller. Exact age/locality/subspecies/feather sequence/standing ratio/first-flight day remain unknown; science false.

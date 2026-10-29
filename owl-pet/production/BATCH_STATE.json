@@ -7541,6 +7541,35 @@
         "run_record": "owl-pet/production/runs/20261030T0136+0800-cycle-6.md",
         "commit_sha": "45290cc7957ff9e60a93727a706e76be8c71043c"
       }
+    },
+    {
+      "batch_id": "2026-10-30T0144+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-root",
+        "run_id": "20261030T014448+0800-cycle-1",
+        "heartbeat_at": "2026-10-30T01:44:48+08:00",
+        "expires_at": "2026-10-30T01:59:48+08:00"
+      },
+      "in_progress": {
+        "batch_id": "2026-10-30T0144+0800",
+        "cycle": 1,
+        "species": "Aegolius funereus",
+        "species_no": "11",
+        "action": "SCIENCE_REVISION",
+        "version": "v4",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261030T014448+0800-cycle-1.md",
+        "started_at": "2026-10-30T01:44:48+08:00"
+      },
+      "last_checkpoint": {
+        "stage": "STARTED",
+        "at": "2026-10-30T01:44:48+08:00",
+        "run_record": "owl-pet/production/runs/20261030T014448+0800-cycle-1.md"
+      }
     }
   ],
   "lease": {

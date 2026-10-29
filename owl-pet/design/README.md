@@ -1,3 +1,16 @@
+## #89 Indian Eagle-Owl — *Bubo bengalensis* — v3 science revision
+
+- Target: [89-bubo-bengalensis-v3.jpg](concepts/89-bubo-bengalensis-v3.jpg)
+- Research: [species card](../knowledge/species/89-bubo-bengalensis.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--89-bubo-bengalensis-v3--c35-day-full-juvenile-plumage-pre-flight-inference-boundary)
+- Current review: PASS_WITH_LIMITATIONS after one juvenile-only edit. V3 selects the separately documented c.35-day full-juvenile-plumage stage, but does not infer flight. Adults remain near-equal height; “female heavier” is not asserted. Exact age, feather-tract colour, flight threshold and local morph remain unknown; science false.
+
+### Full juvenile plumage is not adult-regular pattern or flight proof
+
+- Discovery: the first render converted “full juvenile plumage” into regular bright white wing spots and hard adult-like layered remiges.
+- Evidence: BEN-RAM2009 supplies the c.35-day plumage boundary; BEN-PANDE-DAHANUKAR2011 reports loose coupling among wing, tail, body mass and other growth characters.
+- Applied here: a juvenile-only edit softened/shortened the folded wing, made pale flecks irregular and retained residual down plus a short/hidden tail.
+- Verified here: full plate and 560×650 crop reopened; supported crouch and age contrast passed. This process lesson is validated only for #89 v3’s selected evidence boundary.
+
 ## #80 Oriental Scops Owl — *Otus sunia* — v3 science revision
 
 - Concept: [80-otus-sunia-v3.jpg](concepts/80-otus-sunia-v3.jpg)

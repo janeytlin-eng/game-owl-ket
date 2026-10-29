@@ -6845,8 +6845,34 @@
       "review_crop_blob": "c3bec39d4ae1753b640f8f91d8f9f04fcea5eab5",
       "review_crop_size_bytes": 311507,
       "archive_note": "No edit required after actual full-image and juvenile-crop review. Stage evidence supports a recent fledgling; exact tract chronology/ratio/population transfer unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "a77dcaa51fd78fb9942811ae10b59834adf6d683",
+      "verified_at": "2026-10-29T09:18:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/74-ninox-novaeseelandiae-v3.jpg",
+          "blob": "d5741ece37759984e138a1b92cfa960cd521d48d",
+          "size_bytes": 649936
+        },
+        "generated": {
+          "path": "production/generated/74-ninox-novaeseelandiae-v3-generated-master.jpg",
+          "blob": "e6357b3423c887f7a43daae7dc8aa165f54958dd",
+          "size_bytes": 544332
+        },
+        "reviewed": {
+          "path": "production/reviewed/74-ninox-novaeseelandiae-v3-reviewed-master.jpg",
+          "blob": "e6357b3423c887f7a43daae7dc8aa165f54958dd",
+          "size_bytes": 544332
+        },
+        "review_crop": {
+          "path": "production/reviewed/74-ninox-novaeseelandiae-v3-juvenile-review-crop.jpg",
+          "blob": "c3bec39d4ae1753b640f8f91d8f9f04fcea5eab5",
+          "size_bytes": 311507
+        },
+        "tree_truncated": false
+      }
     }
   ],
-  "updated_at": "2026-10-29T09:15:00+08:00"
+  "updated_at": "2026-10-29T09:18:00+08:00"
 }

@@ -2227,3 +2227,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 #10 *Surnia ulula* v4 concept plus generated/reviewed masters and juvenile crops are archived as manifest537. One targeted edit removed regular adult-like juvenile wing spots and shortened the overlong crisp-barred tail. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending; batch remains 5/6 until verification.
 
 - 2026-10-30T01:47:00+08:00 — #10 *Surnia ulula* v4 fixed-tree readback passed at `45290cc7957ff9e60a93727a706e76be8c71043c`: non-truncated 1839-entry tree, five exact assets, manifest537 and source index matched. Batch `2026-10-30T0033+0800` is **COMPLETE 6/6**; unique remains **175/251**, science false.
+
+
+## 2026-10-30 06:46 +08 — #27 Eurasian Pygmy-Owl v4 archived, verification pending
+
+#27 *Glaucidium passerinum* v4 concept plus generated/reviewed JPEGs and juvenile crop are archived as manifest546. The first render passed full/crop review without edit. The juvenile is an unsexed approximately 22-day cavity-entrance bird, wholly supported inside the cavity with no flight or mature-wing/tail claim. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0531+0800` remains 2/6 until verification.

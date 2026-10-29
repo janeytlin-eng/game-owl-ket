@@ -2214,3 +2214,17 @@ When a source explicitly says a recent fledgling lacks adult crown/false-eye mar
 ### Incremental rule — conceal unknown lengths instead of inventing them
 
 When a primary source describes juvenal body plumage but not remex, rectrix or flight chronology, make the supported body cues legible and use down/posture/cavity geometry to conceal unsupported lengths. Do not turn a broad juvenal diagnosis into a precise day-stage. Applied and visually rechecked on #26 v4; broader effectiveness remains unverified.
+
+
+## 2026-10-30 #27 Eurasian Pygmy-Owl v4 — direct cavity-entrance stage
+
+- Original: [27-glaucidium-passerinum-v4.jpg](concepts/27-glaucidium-passerinum-v4.jpg)
+- Research: [species record](../research/species/27-glaucidium-passerinum-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: first 1536×1024 render passed without edit; full plate and 520×680 juvenile crop reopened.
+- Boundary: approximately 22-day unsexed nestling, low and wholly supported inside the woodpecker cavity; soft dark mesoptile, sparse lower-front streaking, subdued iris and concealed wing/tail; no flight claim.
+- Unknown: exact iris chronology, individual feather sequence, primary Schönn pages and quantitative display scaling.
+- Scientific status: pending / false; v1–v3 and all historical records retained.
+
+### Incremental rule — prefer a direct behavior window over a secondary exact day
+
+When a primary field study provides a multi-day entrance window but the daily feather sequence is available only through a secondary citation, bind posture and locomotor claim to the primary window and keep feather/iris claims conservative. Do not convert a secondary exact day into false precision. Applied and visually rechecked on #27 v4; broader effectiveness remains unverified.

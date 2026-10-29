@@ -29,3 +29,8 @@ Composition: adults flank the central burrow entrance, all three fully visible; 
 Text, exact and legible: title "09 · BURROWING OWL · ATHENE CUNICULARIA"; labels "ADULT MALE", "ADULT FEMALE", and "APPROX. 14-DAY EMERGING CHICK".
 Style: refined cinematic 3D with tactile needle-felted wool texture, documentary calm, realistic species markings.
 Avoid: ear tufts, orange eyes on adults, feathered adult toes, exaggerated sex-size difference, adult-pattern juvenile, long juvenile flight feathers, flying/hopping juvenile, exposed unsupported chick, cavity/tree nest, artificial burrow pipe, extra birds, misspelled scientific name, watermark.
+
+
+## Generated-image comparison checkpoint
+
+At `2026-10-30T01:28:00+08:00`, the first render was checked at full resolution and with a dedicated juvenile crop. Adult morphology and support passed the prompt boundary. The chick's folded wing showed elongated spotted vanes inconsistent with the selected approximately 14-day first-emergence boundary documented above. The image therefore requires a localized wing edit and is not scientifically passed at this checkpoint. Generated evidence: `owl-pet/production/assets/09-athene-cunicularia-v4-generated.jpg`, `owl-pet/production/assets/09-athene-cunicularia-v4-generated-juvenile-crop.jpg`.

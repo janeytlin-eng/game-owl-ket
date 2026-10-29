@@ -2239,3 +2239,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 06:48 +08 — #28 Pearl-spotted Owlet v4 archived, verification pending
 
 #28 *Glaucidium perlatum* v4 concept, first generated JPEG, reviewed JPEG and juvenile crops are archived with research/source/run/state records. Two targeted juvenile-only edits removed adult-ordered pearl rows, compacted the wing, shortened/hid the tail and subdued the iris while preserving both-foot support, adults, exact text and habitat. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0531+0800` remains 3/6 until verification.
+
+- 2026-10-30T06:49:00+08:00 — #28 *Glaucidium perlatum* v4 fixed-commit readback passed at `581b5994ef0d48e2ca081f8c8d2e9ca1405714f8`: exact concept/generated/generated-crop/reviewed/review-crop blobs and sizes plus three manifests, source index, research, run-at-archive, knowledge, design, status and state blobs matched. Batch **4/6**, next cycle5; unique remains **175/251**, numbered IDs **185/251**, science false.

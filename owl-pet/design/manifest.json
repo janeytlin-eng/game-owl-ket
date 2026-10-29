@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T06:48:00+08:00",
+  "updated": "2026-10-30T06:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9344,8 +9344,45 @@
       "review_crop_sha256": "c4b5c1eb59243477a13ba26fce86a4976d6b1033746d4b62172569af4cb43c0f",
       "review_crop_size_bytes": 200320,
       "archive_note": "Full first render and crop were opened; two targeted juvenile-only edits were then opened and compared. Final full plate and crop passed count, typography, adult identity/sex boundary, support, habitat and evidence-bounded dependent-fledgling behavior. Existing v1-v3 and historical records remain preserved.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "581b5994ef0d48e2ca081f8c8d2e9ca1405714f8",
+      "fixed_commit": "581b5994ef0d48e2ca081f8c8d2e9ca1405714f8",
+      "verified_at": "2026-10-30T06:49:00+08:00",
+      "verification_result": "fixed-commit fetch returned exact five image blobs and all three manifest/source/research/run/knowledge/design/status/state blobs; local reviewed JPEG/crop decode and visual inspection already passed",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "581b5994ef0d48e2ca081f8c8d2e9ca1405714f8",
+        "concept": {
+          "path": "design/concepts/28-glaucidium-perlatum-v4.jpg",
+          "blob": "53f1dbbc361d56091a14cc1cab56518139b730d6",
+          "size_bytes": 591577
+        },
+        "generated": {
+          "path": "production/generated/28-glaucidium-perlatum-v4-generated.jpg",
+          "blob": "c84ecaced9ec26ac94b26dc1d7837311db557ccf",
+          "size_bytes": 652776
+        },
+        "generated_crop": {
+          "path": "production/generated/28-glaucidium-perlatum-v4-juvenile-crop.jpg",
+          "blob": "45a9f255e942223644a81eaf163464c03c489c81",
+          "size_bytes": 227816
+        },
+        "reviewed": {
+          "path": "production/reviewed/28-glaucidium-perlatum-v4-reviewed.jpg",
+          "blob": "53f1dbbc361d56091a14cc1cab56518139b730d6",
+          "size_bytes": 591577
+        },
+        "review_crop": {
+          "path": "production/reviewed/28-glaucidium-perlatum-v4-juvenile-crop.jpg",
+          "blob": "75119fdb4f68e1e9131c05f0516bad9026e8d4e3",
+          "size_bytes": 200320
+        },
+        "source_index_blob": "8814a733e9a396efe1f36232541c86d546c58d0c",
+        "research_blob": "5d536cab5f51de0ba7f318c38912385ba33b481d",
+        "run_blob_at_archive": "3daffe7bf211b6a1cd9b143db843c896d7a26f80",
+        "knowledge_blob": "d2af092b13969347277c4d0e5637e86c0af5575c"
+      }
     }
   ],
-  "updated_at": "2026-10-30T06:48:00+08:00"
+  "updated_at": "2026-10-30T06:49:00+08:00"
 }

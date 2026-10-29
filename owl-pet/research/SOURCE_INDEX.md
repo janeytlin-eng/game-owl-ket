@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 259688)
-Total output lines: 5840
-
 # 2026-10-29 · #90 *Tyto furcata pratincola* v4 — documented P20 standing, down-dominant stage
 
 ## ABO-WAGNER2022-P20
@@ -2359,7 +2356,944 @@ BOR-CORNELL-ID: CornellLabAllAboutBirds undated https://www.allaboutbirds.org/gu
 BOR-KOUBA-2015: Koubaetal2015, Factors Affecting Growth...PLoSONE10:e0138177 DOI10.1371/journal.pone.0138177 https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0138177 . ActualResults/Discussionread;137young43broods, sexmassdiffers butwinglengthnot; noadultstandingheightformula. Primaryquantitativebutpopulationlimited. No v2adultsizechangeinferred.
 Uncreditedlaterphoto lead: MaikMeid30June2010InnsbruckZooCommonsjuvenileactualcaptionandpixelsviewed https://commons.wikimedia.org/wiki/File:Aegolius_funereus_-Innsbruck_Zoo,_Austria_-juvenile-8a.jpg . Unknownexactage/captive, notusedasfirstdownreference norcopiedrepo. No stablefactIDneededforunusedlead.
 ## Omani candidate deferred, no assigned image
-OMAN-ROBB-2016: Robbetal2016 AvianResearch7:1 DOI10.1186/s40657-016-0043-4 https://link.springer.com/article/10.1186/s40657-016-0043-4 actualMorphology/Taxonomysectionsread; narrowbutleriincludesomanensis, nothadorami; adultgraydisc/yellowbill/shorttail/longtarsi. Nojuvenilemorphologyinferen…39688 tokens truncated…/afo/index.php/afo/article/view/2265 ; 10.20938/afo39143157
+OMAN-ROBB-2016: Robbetal2016 AvianResearch7:1 DOI10.1186/s40657-016-0043-4 https://link.springer.com/article/10.1186/s40657-016-0043-4 actualMorphology/Taxonomysectionsread; narrowbutleriincludesomanensis, nothadorami; adultgraydisc/yellowbill/shorttail/longtarsi. Nojuvenilemorphologyinference. Exactsexproportionunknown, sourceappliesOman/Iran.
+OMAN-TOHIDIFAR-2023: TohidifarM,ArianejadM,KhaleghizadehA,GhadirianT2023 Major range extensions...ZoologyMiddleEast DOI10.1080/09397140.2023.2233774 actualauthorfulltext/table1read https://www.researchgate.net/publication/372447316_Major_range_extensions_of_two_cryptic_owls_Omani_Owl_Strix_butleri_and_Western_Brown_Fish_Owl_Ketupa_zeylonensis_semenowi_in_Iran_Major_range_extensions_of_two_cryptic_owls_Omani_Owl_Strix_butleri_and . Kangan2019/2020confirmedbreedingrecords notjuvenilefeatherdescription. Table2youngfishowlsmustNOTtransfer. FacebookoriginalKasraviyoungphoto linkfromBirdForum returnedOnlinefetchthrottled; no pixels/nojuvenileageclaim. Continuewithotherprojectinsteadinventing. NotduplicateDESOsource/scope251unchanged.
+
+## Cycle4 research checkpoint2026-10-18 — no image credit
+SAW-CORNELL-NEST: CornellLabAllAboutBirds, Northern Saw-whet Owl LifeHistory, undatedwebsynthesis(citesRasmussen/Sealy/Cannings2008), accessed2026-10-18 https://www.allaboutbirds.org/guide/Northern_Saw-whet_Owl/lifehistory actualNesting/NestDescription/ConditionatHatching read. Cavitybottom maycontainoldwoodchips/twigs/moss/grass/hair/oldstarlingnest; owlsaddnone. Whiteclosedeyehatchlings. Supports retaining#12v1substrateunlesswovenmanufacturedarrangementexplicitlydemonstrated; presenceofgrassaloneNOTerror. Uncertainty actualnestsampled/preciseageunknown. [Cycle4](../production/runs/2026-10-18T1603+0800-cycle-4.md).
+SAW-MIK2013-444: Mikkola2013printed444/PDF446 textactuallyread2026-10-18. Whitefirstdown, latercoffeebrownmesoptile/whiteX; blackbill/yelloweyes/partlyfeatheredtoes. Female breedingmassversusautumn differs, notheightformula. Noimageeditforced; exactearlyage/ratiosunknown. #12v1retained, oldapprovalnotrevalidated.
+LSO-ABSA-2019: J.W.Hardy forAustralianBirdStudyAssociation2019March,BirdintheHand2ed LesserSootyOwl profilep1 https://absa.asn.au/wp-content/uploads/2019/09/Lesser-Sooty-Owl-1.pdf actualfulltextread, citesHANZAB4. AppliesnortheastQueensland multipunctata, notanyallsootyowl. Fledgedyoungalmostadultlikefewdown/darker; measuredadultsexwingandmassrangesdifferent, noheightpercent. ProfilelumpstoT.tenebricosamultipunctata so notassumefullspecies. Smallcompilationsamplesnotgiven, exactyoungageunknown. Supportsfutureolderyoungstage notinventednewborn; nocurrentimage/count.
+LSO-OWLPAGES-2020: DeaneLewis2020-09-27 https://www.owlpages.com/owls/species.php?s=230 actualDescription/Breeding/Habitatread. Darkeyes/palegraybrownbill/grayplumedshtarsi/baregraybrowntoes/shorttail, sootygraydown, treehollows/humidforest. TreatsT.multipunctataseparate unlikeABSA; secondarynotexactday/flightgeometryproof. No new#133 assigned.
+LSO-MIK2013-113: Mikkola2013printed113/PDF115 actualtextread2026-10-18; sootygraybothdowncoats/immaturegrayouterface, legfeatherstoetobases. Splitbutbookexplicitrequestsresearch, notcurrenttaxonomicconsensus. Sourcefactversusdesign noneappliedyet.
+LSO-AVIBASE-CONCEPT: DenisLepage/BirdsCanada Avibase undatedtaxonomiccomparison actualOriginalDescription/Authoritiesread2026-10-18 https://avibase.bsc-eoc.org/species.jsp?avibaseid=393BDFD33CB38C84&lang=EN . ProtonymTyto tenebricosa multipunctata Mathews1912; currentAvibase/Clements2025/Avilist2025 listsubspecies, HBW-BirdLife2025listsfullspecies. Mappingconflict, notauthoritativeoneunitforallchecklists. Withoutprojectversioned251roster, don't add potentiallyduplicateof#68. Keep251unchanged, no automaticmergeofexistingassets. A preceding guessedAvibaseIDurlfailed and suppliednoevidence; onlythisresolvedactualpagecounts.
+
+### HOY source reuse 2026-10-18 21:30
+Reuse HOY-KOENIG-2000 (external caption freshly read, no freshpixels), HOY-MIK2013-228 (existing indexed printed228/PDF230 description, book not freshlyopened). Adultshaftstreaks2–3crossbranches guide local#129v2 abdominal U-tile reduction; notgenericowlpattern/notprecisephotomap. Juvenilefledgedstage/formedwing/tuftlesshead kept, no new age claim. No newIDs/corrections,2reused. [Prompt/stages](../production/runs/2026-10-18T1603+0800-cycle-4.md). Outcome notyetreviewed; no scientificvalidation.
+
+### WAT cycle5 reuse2026-10-18
+WAT-SCAUP-2024 metadata reread; WAT-DAFFONSECA-2017 actualcaption/originalpixels freshlyviewed, ageImmaturesexundefined, palegraybill/darkappearingeyes/fluffygraybrownbarredbody/perchgrip retained. WAT-DANTAS-2021 andWAT-MIK2013-235 priorindexreused notfreshfulltexts. FourIDsreused/new0. Absenceofsexheightdata doesNOTproveequalheight; near-equaladultdisplay#131v2 isdesigninference toremoveunsupportedlargevisualdirection. No scientificpass orclaimphotosexedpair. [Cycle5](../production/runs/2026-10-18T1603+0800-cycle-5.md).
+
+## RUF-ABSA-2019 — accessed2026-10-18
+J.W.Hardy/AustralianBirdStudyAssociation, BirdintheHand2ed RufousOwl, March2019,p1 https://absa.asn.au/wp-content/uploads/2019/09/Rufous-Owl.pdf . InstitutionHANZAB4synthesis notnewfieldexperiment. ActualAgeing/Sexingtextread: juvenilefledgingplumage, adultlikeimmaturemoultafterfledging thoughtfinished4–5months; sexessimilarplumage/femalessmaller. AppliesAustralianN.rufa subspecies, meesi datafew; exactage/anatomicalratio notgiven. Measurementsmulti-columnnotconvertedstandingheight. SupportsKEEP#73largermale/olderdevelopingwing, notuniformfemale-larger/newbornguess. ReuseRUF-RIDDELL-2021 pp221–223freshprimarytext, RUF-OWLPAGES-2020 Description/Breedingfreshtext andWHSO-MIKKOLA-2013 priorprinted448–449indexedtext. Adultdensefinehorizontalbarring direction fromaccount/book, notABSAyoungdrawings. Sourcefact vsinference: thinningexaggeratedcreamUrows#73v2 localstylecalibration notliteralfeathermap/sciencepass. New1,reused3. [Cycle6](../production/runs/2026-10-18T1603+0800-cycle-6.md).
+
+## #133 Megascops atricapilla — accessed2026-10-18
+BCSO-ALMEIDA-2016: CelsoBAlmeida2016 WA2019052 https://en.wikiaves.com.br/2019052&t=s&s=10516&tag=FOTOJOVEM primaryfieldphotoFlorianopolisSC7Feb2016,published12Feb,captionageJuvenilesexundefined. Actualcaption/originalpixelsviewed: laterformedwingtail,darkcap/tinytufts/yellowiris/greenishbill,brownpatchyshaft-crossbarbody/twofoottrunkgrip. Exactage/flightnotknown, communityIDnotvoiceconfirmed; supportsolderstageonly. Copyrightnotcopiedrepo.
+BCSO-MENQ-2018: WillianMenq,AvesdeRapinaBrasil,Feb2018 https://avesderapinabrasil.com/megascops_atricapilla.htm . Description/Reproduction/Habitatread; adultpairMatiasTernesFlorianopolisJuly2012thumbnailpixelsviewed, lowresolution/sexpositionsunknown. Brown/gray/rufousvariation, variableiris, femaleheavier, featheredtarso/toebases; treeholes/forestedAtlanticunderstory. Noageorheightformula; secondaryregionalexpert. Earliernortheastscopepossiblealagoensisexclude; chosenSoutheastunit.
+BCSO-OWLPAGES-2020: DeaneLewis2020-10-24 https://www.owlpages.com/owls/species.php?s=1030 Description/Breedingactualread. Uniformdarkcrown, paleedgedscapulars,darkshaftscrossbranches,fineventralvermiculations; irisvariable. Supportsadultcap/markingnotyoungsequence. Mediumconfidence/synthesissamebooklineagenotindependentprimarydevelopment. 
+BCSO-ITIS-1063302: ITISundated https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063302 actualvalidname/standingread: StrixatricapillaTemminck1822 originalcombination=>Megascopsatricapilla; authoritymappingnotyoungbiology. OldOtusatricapilla/atricapillus aliases retained, notnewcount. No scope251change.
+Designinference: near-equaladultdisplaynotmeasuredequality; darkadult/ yellowyoungirisfromseparateevidenceNOTsexcolourrule; inclinedbranchroostnotnestclaim. New4/reused0. [Run/fullprompt](../production/runs/2026-10-18T2230+0800-cycle-1.md), intended133v1, sciencefalse.
+
+## Deferred Long-tufted candidate — accessed2026-10-18
+LTSC-PAGANO-2021: LuisG.Pagano,AlejandroBodrati,NestorFariña,FacundoG.diSallo,MarceloJ.Wioneczak,LuisS.Pradier,ErnestoR.Krauczuk,LuisO.Krause,KristinaL.Cockle2021 Distribucion e historia natural del Alilicucu Orejudo o Riberеno (Megascops sanctaecatarinae) en Argentina, ElHornero36(2):51ff. https://elhornero.avesargentinas.org.ar/index.php/home/article/download/370/368 primaryoriginalPDFabstractp51partactuallyread: voicesimportant; tuftlength/irisnotdiagnostic; riparianregeneratingforestsMisiones, possibleatricapillaconfusions. PDFbodyencodinggarbled, nojuvenileorneststageverified. Moderateconfidenceontheseabstractfacts, notfullpaperclaimed. Supportsavoidtuft/irisoversimplificationandnoautomatic133reclassification. LTSC-MENQ-2018: WillianMenqFeb2018 https://avesderapinabrasil.com/megascops_sanctaecatarinae.htm actualDescription/Breeding/Habitatread, treecavities/woodpeckerholes, southernbrownmorph/variableiris/sexmassranges. Secondarysynthesisnotstandingratio/youngappearance. No assigned134/image; [cycle2](../production/runs/2026-10-18T2230+0800-cycle-2.md). New2partial-scopeverifiedIDs, no scientificpass.
+Unverifiedleads: JoseKachimareckWA1527488 andSergioMessiasWA1481871 youngtagsearchhits, originalEnglishpagesInternalErrornotaccessible; notdesignfacts/stableverifiedsourceIDs. OriginalPDFyoungbodyunreadable, no gapfilledfromrelatedspecies. OldOtussanctaecatarinae mappingonlysearchlead, notfullauthorityverifiedyet.
+
+
+## 2026-10-18 · #05 Strix aluco v2 / cycle2230-2
+### TAO-BOT-OWLET
+Barn Owl Trust, undated, Which is which? Tawny and Barn Owl owlets. https://www.barnowltrust.org.uk/owl-facts-for-kids/tawny-barn-owl-owlets/ Access2026-10-18. Institutional rescue observation and Chris Richards linked photograph. Actually read Young Tawny Owls section and original linked photo. Small nestlings short thick gray down and pink eyelid margins; larger loose woolly graywhite/brownbuff barring. UK Strix aluco nestlings, not all subspecies or newborns. Unknown individual age, no measured wing chronology or posture series. High confidence institutional descriptive scope, limited exact feather geometry. Supports conservative soft gray wing texture in #05v2, not day assignment or scientific pass. Existing URL in species05 card now given stableID (not new URL discovery). [Card](../knowledge/species/05-strix-aluco.md), [run](../production/runs/2026-10-18T2230+0800-cycle-2.md), [v2](../design/concepts/05-strix-aluco-v2.png).
+### TAO-BTO-FACTS
+British Trust for Ornithology, live undated BirdFacts Tawny Owl. https://www.bto.org/learn/about-birds/birdfacts/tawny-owl Access2026-10-18. Institutional ringing/nest-record aggregation; actual Biometrics, Nesting, Classification sections read. Adult female mean mass502.2g(N179), male396g(N37); wings273.9mm(N235),259mm(N54); overlapping distributions. Downy altricial chicks, nesthole/box, woodland. Current name Strix aluco; no synonym/count change. Sexed masses/wings do NOT define standing-height ratio or exact nestling size. Selected adults retained, no sizevalidation. Highconfidence within British sampling, not universal subspecies geometry. Existing cardURL now indexedstableID. Same related card/run/v2 links above.
+Mapping: Strix aluco → juvenile-down/eyelids TAO-BOT-OWLET; sex-biometrics/nest/taxonomy TAO-BTO-FACTS. Source facts separated from conservative wing-softening design inference. NewstableIDs2, reusedolderindexIDs0, corrections0; both URLs reused from existing species card. No third-party original photo copied into repository.
+
+
+## #09 Athene cunicularia hypugaea / cycle2230-3
+### BUOW-SDZ-2017
+San Diego Zoo Institute for Conservation Research / Wildlife Alliance, Young of the year—development of a burrowing owl,26June2017. https://science.sandiegozoo.org/science-blog/young-year-development-burrowing-owl Access2026-10-18. Primaryinstitutional artificialburrow monitoring, Hatchandbrooding and Figure2 actuallyread; photo downloaded/viewed. White nataldown helpless huddled hatchlings, visiblepinkskin/closedeyes; developing feather stages later, not hatchling mature vanes. Westernhypugaea southernSanDiegoCounty. Figure2 redlighting/overlappingchicks prevents exact colour/individualage/winglength measurement; precise wingbud geometry unknown. Highconfidence stageboundary, notexactday illustration. URLalready in09card, newlystableindexed notnewURL. Supports localwingmaturityedit only; singletonpose is design inference. [Card](../knowledge/species/09-athene-cunicularia.md), [v2](../design/concepts/09-athene-cunicularia-v2.png), [run](../production/runs/2026-10-18T2230+0800-cycle-3.md).
+### BUOW-CORNELL-LIFE
+Cornell Lab of Ornithology, AllAboutBirds Burrowing Owl LifeHistory, liveundated; cited Poulin etal2011 speciesaccount. https://www.allaboutbirds.org/guide/Burrowing_Owl/lifehistory Access2026-10-18. Institutional synthesis actuallyread NestDescription/ConditionatHatching/Habitat. Closedeyes helpless graywhite down hatchlings, undergroundsoil chamber withvariablelining, open lowvegetation habitat. NorthAmerica broadscope; notexactstagephoto orsexedstandingheight. Supports retainingbellysupport/closedeyes andsoilcutaway, not allgeometry. Highwithintextscope. ExistingcardURL newlystableindexed. Same09card/v2/runlinks above. Mapping: Athene cunicularia hypugaea → natalwingboundary BUOW-SDZ-2017; nest/hatchcondition BUOW-CORNELL-LIFE. NewIDs2, olderindexIDreuse0/correction0. No thirdpartyphoto copiedrepo.
+
+
+## #12 Aegolius acadicus cycle2230-4
+### NSWO-ORI-FACTS
+Owl Research Institute, Northern Saw-Whet Owl, undatedlive. https://www.owlresearchinstitute.org/northern-saw-whet-owl Access2026-10-18. Institutionalfieldresearchers' Facts/Size/Nesting actuallyread. Adultsexesplumagealike, femaletendslarger/heavier; bothheight17–21cm, unspecifiedsamplestatistics. Brownwhite marks/yelloweyes/blackbill/featherfeet. Doesnotestablish numericalstandingratio; selectedacadicus notbrooksi. Supports retainingmodestfemale fullness while removingbranchbaselineconfound, notbiologicalproportionpass. Highqualitativediagnosis, lowexactgeometry. ExistingcardURL newlystableindexed. [Card](../knowledge/species/12-aegolius-acadicus.md), [run](../production/runs/2026-10-18T2230+0800-cycle-4.md), [v2](../design/concepts/12-aegolius-acadicus-v2.png).
+### NSWO-CORNELL-LIFE
+Cornell Lab, Northern Saw-whet Owl LifeHistory, liveundated. https://www.allaboutbirds.org/guide/Northern_Saw-whet_Owl/lifehistory Access2026-10-18. Institutional speciesaccount actual NestDescription/ConditionatHatching read. Cavity/olddebris and closedeyewhitedown newlyhatched young. No exactagebodyratio, featherdensity or posing geometry. Support existingearlyyoung beingpreserved, notlater cinnamonjuvenile. ExistingcardURL newlystableindexed. Samecard/run/v2links. Mapping Aegolius acadicus → sex/display NSWO-ORI-FACTS; earlyyoung/nest NSWO-CORNELL-LIFE. NewIDs2/reusedolderindex0/corrections0.
+
+
+## #08 Strix nebulosa cycle2230-5
+### GGO-ORI-2020-0506
+Owl Research Institute, Hello Little Ones! Great Gray chicks show their faces in a big way!,6May2020. https://www.owlresearchinstitute.org/single-post/2020/05/06/hello-little-ones-great-gray-chicks-show-their-faces-in-a-big-way Access2026-10-18. Primaryfieldcam observations, paragraphonapproximately7/9day chicks and KD J/explore.org linkedGIF actuallyread/viewed. Eyespartopen, secondarydown atrearhead beginningwhileinitialwhite remains; directframe showswhiteforehead/graycheeks/deepbowl. WebGIFreaderunsupported400 recoveredbycurl/view_image, nofakefailedaccessclaim. Singlecam approximateages/lights/lowresolution notfullfeathermap; no precisebodyratio inferred. Highobservationscope, limitedgeneralization. Existing08cardURL newlystableID. [Card](../knowledge/species/08-strix-nebulosa.md), [v2](../design/concepts/08-strix-nebulosa-v2.png), [run](../production/runs/2026-10-18T2230+0800-cycle-5.md). Sourcefacts support subtletransition, chosenpatchgeometry/artisticpose are inference, sciencefalse.
+Reused OWL-SRC-0053-C freshCornellLifeHistory NestDescription/NestingFacts read2026-10-18; broken-top/oldnest notbuiltnew, helplessdown. #53 is historicalduplicate08, notnewtaxon/count. Stage08early vs53later keptdistinct; do notapplyearlygraypatch toallages. Mapping Strix nebulosa earlydown→GGO-ORI-2020-0506, nest→OWL-SRC-0053-C. NewIDs1/reused1/correction0.
+
+
+## #15 Strix varia cycle2230-6
+### BARO-CORNELL-FAQ-2020
+Cornell Lab BirdCams, Bird Cams FAQ: Barred Owl Nest,1June2020. https://www.allaboutbirds.org/news/bird-cams-faq-barred-owl-nest/ Access2026-10-18. Institutionalcamproject educationalaccount. Actual AboutThisNest sexdifference and NaturalHistoryHowBig sectionsread. Sexesplumagealike; femaleheavier qualitative/uptoonethird, notstandingheightformula. NorthAmericanvaria/Indiana specificcam, notMexican S.sartorii orallsubspecies. Supports neutralizedbaseline plusmodestfemale fullness, notmeasuredsexratio. Existing15cardURL nowstableID. [Card](../knowledge/species/15-strix-varia.md), [run](../production/runs/2026-10-18T2230+0800-cycle-6.md), [v2](../design/concepts/15-strix-varia-v2.png).
+### BARO-CORNELL-ID
+Cornell Lab, AllAboutBirds Barred Owl ID, liveundated. https://www.allaboutbirds.org/guide/Barred_Owl/id Access2026-10-18. ActualIDtext/SizeShape/ColorPattern read. Earlessroundhead/darkeyes/yellowbill/upperbreastcrossbars/lowerverticalstreaks retained; bothsexmeasurementscombined notsexheightratio. Institutionaldescriptorhighconfidence, notearlyjuvenileagemap. Existing15cardURL nowstableID. Samecard/run/v2links. Mapping Strix varia→sex BARO-CORNELL-FAQ-2020; adultdiagnosis BARO-CORNELL-ID. NewIDs2/reusedolderindex0/corrections0. Earlycurledposepreserved asdesigninference notnewobservationalfact. 1964paperlinkredirectedSORAlanding notreadfull; uploadedMikkola348–349returned403; bothexcludedfromverifiedevidence, no fabricatedpageclaim. SupplementalHawkowlCornell/NPSread duringcandidateaudit butnotusedfornewimage/no stableIDcountinflation.
+
+
+## 2026-10-19 · Megascops sanctaecatarinae #134 / cycle0025-1
+### LTSC-KACHIMARECK-2014-WA1527488
+José L.Kachimareck, WA1527488 Megascops sanctaecatarinae, taken8Oct2014 CuritibaPRBrazil/published25Nov2014. https://www.wikiaves.com.br/1527488 Access19Oct2026. Primaryphoto record taggedFilhote,sexundetermined. Originalpageandlinkedfullpixelsactuallyread/viewed. Grayshortdown/mesoptile, diffusegraybrownbarring throat/chest, weakwispyheadtufts, palebrow/eyelidedges, darkappearingeye, greenishhornbill andfeeding; improvisedtreenestnearhouse. No knownexactage/flightability/sex; lowerbodywingsfeetoutsideframe. Irisdarkappearance notmeasurement oruniversalagecolour. Designusesonlyhead/upperchestabovecavitylip, concealedunverifiedloweranatomy; compositepose/scalecavity is inference notphotocopy. Mediumconfidenceidentity photographerannotation, confusionwithatricapillaexplicitlyretainedfromPagano; notscientificallypassed. Previouslyunverifiedlead2026-10-18nowrecoveredviawwwPortuguesecanonical, olderrorhistorypreserved notdeleted. Sourcecopyrightretained/link+summaryonly no photocopiedrepo. [Card](../knowledge/species/134-megascops-sanctaecatarinae.md), [v1](../design/concepts/134-megascops-sanctaecatarinae-v1.png), [run](../production/runs/2026-10-19T0025+0800-cycle-1.md).
+### LTSC-ITIS-686677
+IntegratedTaxonomicInformationSystem, live report TSN686677 https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686677 Access19Oct2026. ActualTaxonomy/Nomenclature/References read: currentvalidspecies Megascops sanctaecatarinae, synonymsOtus sanctaecatarinae/Scops sanctaecatarinae; referencesIOC15.1/Clements2021/HBWBirdLife2022. Authoritative namesmapping, notyoungmorphology orwhole251roster. Highidentityscope; nofulltaxonomyrevisionclaimed. Same134card/v1/runlinks.
+Reused LTSC-MENQ-2018 actualDescription/Breeding/Habitat freshread19Oct2026; overlap sexmasses doNOTinferstandingratio. Reused LTSC-PAGANO-2021 p51abstract/p52taxonomypartoriginalCONICETmirror https://ri.conicet.gov.ar/bitstream/handle/11336/163692/CONICET_Digital_Nro.ca947369-c334-420c-aace-5e1ed4e1c5ea_A.pdf?isAllowed=y&sequence=2 read. Historicalatricapilla synonym/subspeciesstatus vsnowdistinctspecies; tufts/irisalone NOTdiagnostic. PDFbodymanygarbledchars/p58screenshotrestricted notread/notbypassed; nojuvenilefactsderived. Expandedaccessscope onlynotfullpaper. Mapping Megascops sanctaecatarinae→juvenile LTSC-KACHIMARECK-2014-WA1527488, taxonomyLTSC-ITIS-686677/LTSC-PAGANO-2021, adult/sex/nest/habitatLTSC-MENQ-2018. NewIDs2/reused2/corrected1previousjuvenileaccessscope. Priorunverified WA1481871 stillfailed notverified. No guessedOwlPagesbarbarus/Embrapatargetabsent used.
+
+### 2026-10-19 02:34 continuation access audit (#134)
+Reused existing LTSC-MENQ-2018 and LTSC-KACHIMARECK-2014-WA1527488 (new0/reused2/corrected0): fresh original web bodies read; Menq Description/Reproduction/Habitat supports overlapping adult masses, variable iris, feathered tarsi/tree cavities, not standing-height ratio. WA metadata confirms Filhote/unknown sex, Curitiba8Oct2014 and improvised tree nest, NOT exact day age. Earlier actual-photo summary retained; pixels not freshly viewed in this continuation because former local photo absent. Do not inflate metadata reread into fresh pixel inspection. Previous draft and tool cell unavailable; reconstruction prompt preserved in cycle0025-1. No species/cycle completion from research alone.
+
+## #135 Otus silvicola cycle0025-2, access2026-10-19
+### WSC-MEES-2006
+G.F.Mees2006, The avifauna of Flores, Zool.Med.Leiden80-3, primarymuseumstudy https://repository.naturalis.nl/document/41318 . Actual pp113–115 text read; rendered113/115 visually checked. Adults N1/sex: female larger, plumage no obviousdifference; not population standingratio. Fledglings have remiges/rectrices basally sheathed. Type re-examination describes fullyfeathered immature transition with fine loose barred head/neck/upperback/breast and few adultshafts; notdownyyoung. Fig8 Schmutz12Oct1975 livephoto actualviewed, age notlabelled, cannotprove exactjuvenileage. Iris sulphuryellow note; originalScops silvicola mapping. Type sexdisputed; no sexratio inferredfromtype. Selected transitionalstage notnewborn; finecolors/age unknown. [Card](../knowledge/species/135-otus-silvicola.md), [run](../production/runs/2026-10-19T0025+0800-cycle-2.md), [v1](../design/concepts/135-otus-silvicola-v1.png).
+Reused SLSO-SANGSTER-2013 DOI10.1371/journal.pone.0053712 expandedaccess DiagnosisMorphology silvicola comparison actuallyread at publisher (PMCcaptcha notbypassed): coldergraybrown upper broadshafts, palegraybuffbreast/whitebellycenter, featheringcoversbasaltoes. This is silvicola comparison not jolandae holotype details. Confidencehighadultdiagnosis only, notjuvenile.
+### WSC-WIKIPEDIA-2025-1315031866
+Wikipedia contributors, Wallace'sscopsowl oldid1315031866,lastedit4Oct2025, https://en.wikipedia.org/w/index.php?title=Wallace%27s_scops_owl&oldid=1315031866 . Secondarysummary actualDescription/Habitat/Reproductionread: graybill/cere/yelloweyes/brownbarredwingtail, Flores&Sumbawaforest/secondaryhabitat; reproduction poorlyknown. Erroneous202–251cm'wingspan' excluded (primarywinglengthmm). No nestarchitecture asserted. Moderate/lowsecondarycolors; notstageauthority. Same135links. New2IDs/reused1expanded/corrected0existing; excluded generic life-cycle web claims notreadnotused.
+
+### MARS-WESKE-1981 reuse cycle0025-3 access19Oct2026
+Fresh authorfulltext pp1–3 actuallyread (sameoriginalURL/ID). Crown irregularblackish transversebars/mottledchestnut,moredarkanterior; whitishHINDcrown band notforehead; shorts tufts. Current128v2actualview showsdecorativetiles. Designtargetonlyadultcrowntexture, keepoccludedrearband unasserted. Olderimmatureformedwings/ageunknown retained as priorstageevidence, notnewlyprovedbycrownparagraph. New0/reused1/corrected0. [Run](../production/runs/2026-10-19T0025+0800-cycle-3.md), [v3](../design/concepts/128-megascops-marshalli-v3.png). Copyrightonlylimitedsummarylinks, sourcefigurenotcopied.
+
+### GGO-ORI-2020-0506 reuse0025-cycle3 replacement
+Access19Oct2026 freshoriginalbody andKD J/explore.org GIF actuallydownloaded/viewed (webGIF400unsupported, localviewrecovered). Approx7/9dayhalfopeneyes, secondarydownrearhead; actualframe showsgraycheekssides/whiteforehead, notadultdisc. Sourcecamera/lightlowres limit exactpatch/agegeometry. Target08v3diffusecheek/reargray, notalljuvenilesgray. Earlier128crownedits2failed; replacementnotduplicatecredit. New0/reused1; [run](../production/runs/2026-10-19T0025+0800-cycle-3.md), [08v3](../design/concepts/08-strix-nebulosa-v3.png). Pixelphoto/GIFnotcopiedrepo.
+
+## #136 Megascops petersoni access19Oct2026
+### CIN-FITZPATRICK-ONEILL-1986
+J.W.Fitzpatrick/J.P.ONeill1986, Otus petersoni...WilsonBull98:1–14. Original https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Megascops/Megascops%20petersoni%20%28Fitzpatrick%20%26%20O%27Neill%29%201986%2C%20Wilson%20Bulletin%2C%2098%2C%20pages%201-14..pdf . Actualpp2,4–6 read; p4renderactuallyviewed. Richcinnamon/darkiris/palegraygreenbill, sparse distal tarsi/baretoes; slightifanysexualdimorphism. FMNH317314firstyearnearlyadultwithpalerbarreddown, probablefirstprebasicmolt notknownage. No neonate/nestdetails; usecloudforestroost. Primarystrongselectedstage/anatomy, exactpose/plumagemap unknown. No whitebodywing exceptrare tiny malartips; avoid133/135whitepatchtransfer. [Card](../knowledge/species/136-megascops-petersoni.md), [run](../production/runs/2026-10-19T0025+0800-cycle-4.md), [v1](../design/concepts/136-megascops-petersoni-v1.png).
+### CIN-ITIS-686670
+ITIS livereport https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686670&source=to_print actualTaxonomy/Referencesread; validMegascopspetersoni/Otuspetersonisynonym, IOC15.1(2025)etc. Namingauthoritynotyounganatomy/whole251roster. Normalscreenunicodedecodingerror, publicprintnormalrecovered. Same136links.
+### CIN-PERUAVES-ACCOUNT
+PeruAves undated https://www.peruaves.org/strigidae/cinnamon-screech-owl-megascops-petersoni/ actualIdentification/Behavior andadultunknownsexcaptionsread; cinnamon/fishbones/darkiris/duskyfaceedge, highercloudforest thaningens. Photoclickfailed so nofreshphotopixelsclaim; primary1986controlsselectedstage. Secondarymoderateconfirmation, notsexratio. Same136links. New3/reused0/corrected0.
+
+## #137 Otus alfredi access19Oct2026
+### FSO-WIDODO-COX-RASMUSSEN-1999
+WahyuWidodo,JackH.Cox,PamelaC.Rasmussen1999, Rediscovery...FloresScopsOwl, Forktail15:15–23. Original https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc23b2b6a282c991de675/1545585212532/Widodo-Flores.pdf . Actualpp15–19,21–22/Table2 read, Fig2p16rendered/viewed. MZB30086 juvenile formedfeathers withpaleruniformrufousresidualdown, notnewborn; exactage/irisunknown. Adultphoto yellowiris/pinkorbitalrim/orangeyellowbill/feet; clawsnotdarktipped. Plainrufousupper/no blackbodyshafts/roundedtufts/no blackfacerim; denseupperleg barelowerthird, notwholeleg. Oldadultsexlabelsuncertain noRSDheight. Wetmontaneforest; nestunknown. Juveniletailmorebandedthanadult sohiddennotinvented. Poseclosedresteyes/branchsupport aredesigninference notobservedbehaviorclaim. Highspecies/stagescope smallsample/colorphotolimits. [Card](../knowledge/species/137-otus-alfredi.md), [run](../production/runs/2026-10-19T0025+0800-cycle-5.md), [v1](../design/concepts/137-otus-alfredi-v1.png).
+Reused WSC-MEES-2006 expandedpp111–113speciesdiscussion/currentnames Pisorhinaalfredi→Otusalfredi, notredmorphalbiventris or135silvicola; original1999 controlsstage. Reused SLSO-SANGSTER-2013 Diagnosisalfredi comparison readpublisher earlierthisinvocation confirmsplainrufousupper/yellowbill/shorttufts, NOTjolandaeholotypepattern. New1/reused2/corrected0. No sourcephotoscopiedrepo. Current251scopeunchanged; rareinitialdownunknown notinvented.
+
+### #137 continuation19Oct2026 03:26
+FSO-WIDODO-COX-RASMUSSEN-1999 reused primary pp15–18/Table2 fresh original reread: yellow bill/feet/claws and distal third bare, forehead whitevermiculations/no blackfacerim; this supports clawcolor/crownfleck targeted correction, not juvenile day or adult standing ratio. New0/reused1/corrected0IDs. Local recovered edit showed gray clawtips; subsequent actual edit changes them orange-yellow. Fine morphology remains unvalidated; no scientific pass. Related cycle0025-5 and137v1.
+
+## #138 Otus mentawi / cycle0025-6 access19Oct2026
+### MENT-TAUFIQURRAHMAN-2018
+Imam Taufiqurrahman, Ismael Saumanuk, Arif Setiawan2018, First breeding record of Mentawai Scops Owl..., BirdingASIA29:31–32. https://swaraowa.org/wp-content/uploads/2018/05/mentawai-scops-owl.pdf Primary fieldrecord; both pages/all4plates actually read/viewed. Siberut18May2017 fledgedyoung: palegraybrown thinlystreaked underparts, darkerupperparts/redbrownface, reddishbrowneyes, palegrayhornbill/toes, formedwings beyondshortdarktail with faintbars. Lowbranch2–3m supports perching stage; exactdayunknown. Plate1adult9Apr primaryphoto supports brownmottledadult, graybill, subduedtufts. Broodpatchfemale identification tentative; no sexedstandingratio. Suggested25daycycle is analogy, NOTmeasuredmentawi. Nightflash/lowresolution limits iris/featherpalette; no nestarchitecture determined. Highstageconfidence limitedindividuals, no scientificillustrationpass. Designuses18Maystage not21Maydarkerbody, supportedheadtilt is inference. Copyrightphoto notcopiedrepo.
+### MENT-AVIBASE-55EE7DEF
+Avibase/BirdsCanada live taxonomic database, https://avibase.bsc-eoc.org/species.jsp?avibaseid=55EE7DEFA0CC0277 . Actual originaldescription/classification/currentauthority mapping read. Otus bakkamoena mentawi Chasen&Kloss1926 Ibisser12v2p279→Otusmentawi; typeSipora, modernspeciesauthoritiesmapped, notwhole251roster. Highnameconfidence, notmorphology.
+### MENT-WIKIPEDIA-DE
+Wikipedia contributors, undatedlive Mentawi-Zwergohreule https://de.wikipedia.org/wiki/Mentawi-Zwergohreule . ActualBeschreibung/Lebensweise read; secondary synthesis referencing Mikkola2013p166 (bookpageNOTactuallyaccessed, doNOTclaimread). Adults rufousorblackbrown, grayhornbill/graytoes/darkclaws/featheredlegs; brownoroccasionallyyellowirises, no collar. Moderate/lowpalette authority, adultphoto crosschecks roughpattern, precise feathergeometry unknown. No sexratio inferred.
+Mapping Otusmentawi juvenile/behavior→MENT-TAUFIQURRAHMAN-2018; names→MENT-AVIBASE-55EE7DEF; adultsoftparts→MENT-WIKIPEDIA-DE. New3/reused0/corrected0 IDs. [Card](../knowledge/species/138-otus-mentawi.md), [run](../production/runs/2026-10-19T0025+0800-cycle-6.md), [v1](../design/concepts/138-otus-mentawi-v1.png). SORA1978landingredirect excludedfromverifiedoriginal; searchsnippetonly. Mikkolauploadnotavailablethisrun, no inventedpage access.
+
+MENT-WIKIPEDIA-DE metadata refinement: retrieved oldid270428150, lastedit12Sep2026; description lines145–151 and bibliography161 actually read, bookp166 merelybibliographic. No new source ID, no correction of sourcefact claimed.
+
+## 2026-10-19 batch0431 cycle1 #138v2 reuse
+Reused MENT-TAUFIQURRAHMAN-2018 pp31–32 original freshly read; juveniles laterfledged/palegraybrown, formedwings, no exactage, no sexstandingratio; keep unchanged notnewborn. Reused MENT-WIKIPEDIA-DE Beschreibung/oldid270428150: adultchestnut/brownunderparts notbroad ivorypatch. Colourinterpretation conservative notpixelcalibration. New0/reused2/corrected0IDs. [Run](../production/runs/2026-10-19T0431+0800-cycle-1.md), [v2](../design/concepts/138-otus-mentawi-v2.png), [card](../knowledge/species/138-otus-mentawi.md). Sourcefacts vswarmgrounddesigninference separate; exactpalettepending. Mikkolabookp166 remainsunreadnotfalselycited asread.
+
+## Batch0431 cycle2 #139 Otus jolandae
+Reused SLSO-SANGSTER-2013 DOI10.1371/journal.pone.0053712 actual publisher Diagnosis/Holotype/Variation/Habitat freshly read19Oct2026. Adultyellowiris/brownbill/dullochre feet, cinnamonbreast/whitishfinebarredbelly, tarsifeatheredtoNOTovertoebase, nocollar. AMNH629942 retainedscatteredpalejuvenile crown/nape feathers; olderimmature selected, no newbornor exactage facts. Smalltype series individualsex differences notpopulationstandingratio. LombokoldPisorhina/Scopsalbiventris/Otusmagicus albiventris localitymappedto jolandae, Floresalbiventrisnotmerged. Unknownnest; roostnotnest. Highprimaryidentity, restrictedyoungbodycoverage/irisunknown. New0/reused1/corrected0ID; no photoscopied. [Run](../production/runs/2026-10-19T0431+0800-cycle-2.md), [v1](../design/concepts/139-otus-jolandae-v1.png), [card](../knowledge/species/139-otus-jolandae.md).
+Candidateangelinae: BirdLife2001pp1747–1749 and2019institutionalabstract actuallyread, but primary1994BHL403 and noverifiedjuvenilepixelstage. Institutionalpaper2019 abstract cannotestablishsameidentity/immatureappearance. Leadsretainedrunonlynotverifiedstage, no taxonassigned139angelinae/noimage. No inventednestfromfernflushing inference.
+
+## Batch0431 cycle3 #23v2
+Reused FLOW-CORNELL-LIFE-2026 actualCornellNestDescription/ConditionHatching reread19Oct2026: cavityfloor/no built nest, closedeyeswhitedown newborn. Original23card has nosexedstandingratio, neutralizeapparentsexscale inference notmeasurement. CandidateFLOW-FOSSILBEDS-2007 (newstableID): FriendsFlorissantFossilBeds2July2007 SpeciesSpotlightFlammulatedOwl https://www.fossilbeds.org/2007/07/02/flammulated-owl-seminar-a-success/ actualseminarfieldaccount byBrianLinkhartstudy, 11day3owlets30–40g whitenataldown/beginningsgray, notnewborn; no exactnewborngeometry supports. Moderateobservationcontext, nofullpaperclaimed. New1/reused1/corrected0. [Run](../production/runs/2026-10-19T0431+0800-cycle-3.md), [card](../knowledge/species/23-psiloscops-flammeolus.md), [v2](../design/concepts/23-psiloscops-flammeolus-v2.png). Newlyfound11dayevidence notappliedtoexistingnewborn, no falseexperimentpass.
+
+## Batch0431 cycle4 #21v3
+Reused TSO-ACTA-NESTLING-2017 actual original https://www.scielo.br/j/aa/a/pwZYZj3KfPMyvLxH9QWKtqt/?lang=en Results nestparagraph/Fig1caption19Oct2026. Chamber43cmbelowopening onlyfewbarkpieces supports sparsefloor not thickchipnest; currentcutawayartnotmeasuredgeometry. 13daystartdarkmesoptile/incipientremigepins distinct18–20daydevelopedremiges; no newclaim exactpinlength. SingleAcrebrood, noallsubspeciesgeneralization. New0/reused1/corrected0ID. [Run](../production/runs/2026-10-19T0431+0800-cycle-4.md), [card](../knowledge/species/21-megascops-choliba.md), [v3](../design/concepts/21-megascops-choliba-v3.png). Materialeditinference supportpreserved, sciencefalse.
+
+## Batch0431 cycle5 #19v3
+Reused WHSO-CORNELL-ID-2026 actual https://www.allaboutbirds.org/guide/Whiskered_Screech-Owl/id19Oct2026: coarseblackishmarkedspottedratherthanlongstreaked, yellowolivebill/featheredtoes; sourcecurrentcaptionorange-tingedeyes conflictsoldcardliteral'yellow' attribution. Appendcorrectionofsourcequote, NOTproofchangeiris universally. Reused WHSO-CORNELL-LIFE-2026 actualNest/Behaviorread: noaddednestmaterial, nearleavebeakfeetclimbing, no preciseyoungfeathermap. New0/reused2/corrected1sourcewordingattribution. Targetadultpatternonly; finegeom pending/sciencefalse. [Run](../production/runs/2026-10-19T0431+0800-cycle-5.md), [card](../knowledge/species/19-megascops-trichopsis.md), [v3](../design/concepts/19-megascops-trichopsis-v3.png). Toe feather coverage remainsnotmeasured, don'tclaimfixed.
+
+## 2026-10-19 cycle5 resumed
+#19v3 adult underparts edited to shorter irregular blotches, actual view effective; juvenile/eye/bill/support preserved visually. Sciencefalse, eyequoteconflict/toefeathers/precisegeometry pending. Image commit cdc4431e19d92758244d3e42571f2a60eec16783; independent remote PNG full decode1536x1024,2750169bytes,SHA256275922b0f7499402ef2079cab879f55e7966ff606308bbacde67959ef9d7eca2,Gitblob650443968d50b7634be9562e618486ae25cab34f matcheslocal. New0,reused1 WHSO-CORNELL-ID-2026 freshly actualread; prior cycle5 sourceindex f9c97ccc already saved2IDs/onewordingcorrection. Single-region shortshaft edit visibly effective here, no blanket validation. Unique137/251 unchanged. [Original](../design/concepts/19-megascops-trichopsis-v3.png). ARCHIVED and VERIFIED 2026-10-19T00:36:58.415Z
+
+## Batch0431 cycle6 #22 iris correction, accessed2026-10-19
+Reused PRO-PEREGRINE-2026 https://peregrinefund.org/explore-raptors-species/owls/puerto-rican-screech-owl actualWhatitDoes/NestsEggsYoung read: adult reddishbrown eyes, barelegs, whiteXbrows; limitednestknowledge, no juvenileiris ontogeny. Institutional summary, notprimarydevelopmentstudy. New PRO-OWLPAGES-2020: DeaneLewis, PuertoRicanScreechOwl, updated2020-10-20, https://www.owlpages.com/owls/species.php?s=1090 Description: brownish eyes, greenyellowbill, onlyupperlegsfeathered; secondary synthesis, oldMegascops vsGymnasio mappedsameunit; no exactjuvenilecolor/sexheight. Crosssupports adultiris brown insteadofbrightgoldv1. Oldcard attributionABC orange-yellow notcorroborated currentpage (noeyes textfound), corrected attribution, notassert ABCexplicitlybrown. New1/reused1/corrected1oldattribution. Designdecisiononlyadultiris, youngunchangedunknown. [Run](../production/runs/2026-10-19T0431+0800-cycle-6.md),[card](../knowledge/species/22-gymnasio-nudipes.md),[v2](../design/concepts/22-gymnasio-nudipes-v2.png). No Mikkolabookbodyread thisresume; prior403notbypassed.
+
+## RFS-WARAKAGODA-RASMUSSEN-2004 / Otus rufescens / mesoptile
+Warakagoda DH & Rasmussen PC (2004), A new species of scops-owl from Sri Lanka, BulletinBOC124(2):85–105. URL https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Otus/Otus%20thilohoffmannii%20%28Warakagoda%20%26%20Rasmussen%29%202004%2C%20Bulletin%20of%20the%20British%20Ornithologists%27%20Club%2C.pdf. Access2026-10-19. PRIMARY museumcomparative study. Actuallyread p102(PDF18) Systematicrelationships lastparagraph: NNM rufescens mesoptile rich nearlyuniformrufescentbrown, weakdarkfacialrim, almostobsoletebars strongesthindcrown/uppermantle, downytexture. DoNOTtransferunknownthilohoffmanni juvenile prediction into fact. Exactage/posture/youngiris and flightwingmeasurements unspecified. Supports brownsoftmesoptile notwhitehatchling/adultspots. Highspecificspecimen evidence limitedsingleNNM/unspecifiedlocality. Decision conservative supportedrestclosedeyes inference not fact. Species#140 record/run/image linked below.
+## RFS-OWLPAGES-2020 / Otus rufescens / adult and habitat
+DeaneLewis2020-10-03,ReddishScopsOwl, https://www.owlpages.com/owls/species.php?s=310 accessed2026-10-19 actualDescription/Habits/Breeding/Habitat. SECONDARY synthesis: adultchestnut/amberbrowneyes, hornwhitebill, tawnyrufous/fulvousblackedgedmarks, cinnamonbuffunderparts, bufftarsifeatheringtoyellowishtoes/hornclaws, lowlandevergreenforest. Sparsebreedingrecords notpreciseyoungappearance. Sexheight unknown, neutraldisplay inference. No Mikkolabookbodyclaimed (Libraryreadpage1onlyassetpointer/no usablebody). New2/reuse0/correct0. [Run](../production/runs/2026-10-19T0929+0800-cycle-1.md) [Card](../knowledge/species/140-otus-rufescens.md) [Image](../design/concepts/140-otus-rufescens-v1.png).
+
+## Batch0929 cycle2 #81v2
+Reused SCOPS-BLASCO-UNDATED, JavierBlascoZumeta/GerdMichaelHeinze species267 https://www.blascozumeta.com/specie_files/07390_Otus_scops_E.pdf actualpp1–2read2026-10-19 Sexing/Ageing: alikeplumage/overlapmeasurements, juvenile narrowpointedformedflightfeathersnotnewborn. No sexstandingratio; neutraladultdisplayinference only, preserveyoungwing. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T0929+0800-cycle-2.md) [Card](../knowledge/species/81-otus-scops.md) [v2](../design/concepts/81-otus-scops-v2.png). Exactyoungage/feetpatternpending.
+
+## Batch0929 cycle3 #82v2
+new SEN-OWLPAGES-2020: DeaneLewis2020-10-08 AfricanScopsOwl https://www.owlpages.com/owls/species.php?s=550 Descriptionactuallyread19Oct2026 secondarysummary adultduskygraybrowntoes/blackbrownclaws/tarsitotoebase. Nojuvenilecolourstagefacts. Reused SEN-BE-ROBERTS2005 https://www.biodiversityexplorer.info/birds/strigidae/otus_senegalensis.htm actualBreeding/Habitatread, cavity/aridsavanna25–28dayleave notpreciseartage. Designonlyadulttoescolor tosource notcoveragevalidation, youngunchangedunknown. [Run](../production/runs/2026-10-19T0929+0800-cycle-3.md) [Card](../knowledge/species/82-otus-senegalensis.md) [v2](../design/concepts/82-otus-senegalensis-v2.png).
+
+## Batch0929 cycle4 #83v2
+Reused BRU-BENDOV-KIAT2016 AmirBenDov/YosefKiat DutchBirding38:146–158 https://www.researchgate.net/publication/305657832_Breeding_Pallid_Scops_Owls_in_Rift_valley_Israel_in_spring_2015 actualauthorfulltextBreedingbiologypp151–152 read2026-10-19: datepalmtrunkcavitiesfrompruning2–3mbelowcanopy, notbasket. No originalphoto pixelsnewlyviewed; cavitycutaway/fewfragments designinference notsourceprecisematerialcount. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T0929+0800-cycle-4.md) [Card](../knowledge/species/83-otus-brucei.md) [v2](../design/concepts/83-otus-brucei-v2.png). OwlPages520introonly noadditionaldevelopmentfacts/sourceIDcreated.
+
+## Batch0929 cycle5 #84v2 primary evidence expansion
+Reused BAK-BRRAICH-SINGH2021 BrraichOnkarSingh/JagdeepSingh, AnIndianScopsOwlbreedinginanartificialwoodennestbox IndianBIRDS17(2):55–56 28May2021. Actualpublisherexcerpt https://indianbirds.in/pdfs/IB_17_2_Chakravarty_EurasianWoodcock.pdf p55lastcolumn read2026-10-19 (includesstartoftargetnote despitefilename); https://www.researchgate.net/publication/352665555_Ground_nesting_of_Brahminy_Kite_Haliastur_indus_at_Chilika_Lagoon p56firstcolumntargetnotecontinuationread. DoNOTtransferkitebiology. 2July2018younggray/brownhorizontalbellybars, plumagearoundeyesabsent, noear tufts, graybill/bluisheyes/underdevelopedwings; onebrood notuniversalday. New0/reuse1/correct0IDs, alternativeURLs added sameID. Narrowbareeye margin artinference preciseextentunknown. Fullissue400oversize notglobalconnectionfault. [Run](../production/runs/2026-10-19T0929+0800-cycle-5.md) [Card](../knowledge/species/84-otus-bakkamoena.md) [v2](../design/concepts/84-otus-bakkamoena-v2.png).
+
+## Batch0929 cycle6 #85v2
+Reused SEM-MIK2013-158 HeimoMikkola2013 OwlsWorldPhotographicGuide2ed printed158–159/PDF160–161 actualLibrarytextread2026-10-19 (notphoto pixels): nominatesemitorques adultbill/ceregrayishhorn, fierydarkredeyes/tarsitoesfeathered, nosexsizedata. p159pryeribaretoes belongsdifferentrace notimported. Reused SEM-FUKAI2017 NorioFukai29:25–31 https://www.jstage.jst.go.jp/article/jbba/29/1/29_MS086/_pdf/-char/ja actualpp25–27 reread primaryfirstwinterpalerpointedretainedflightfeathers/palecovers; irisnotrecordedforage, smallknownage5sample. New0/reuse2/correct0. Adultgraybillcolourdesignsupported nojuvenileontogenytransfer; actualLibrarycontentavailablethiscycle despiteearlierblankp1. [Run](../production/runs/2026-10-19T0929+0800-cycle-6.md) [Card](../knowledge/species/85-otus-semitorques.md) [v2](../design/concepts/85-otus-semitorques-v2.png).
+
+
+### 2026-10-19 batch1028 #84 targeted reuse
+BAK-BRRAICH-SINGH2021 publisher two-page extract printed55/PDF2 freshly read: same brood periocular feathers absent, blue iris and gray exposed nostrils/bill with underdeveloped wings. Healthy narrow gray bare margin is design inference; width not measured. Prior v2 pale feather liner remains unresolved. No new stable ID. [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md), target84v3; original source URL above existing ID.
+
+
+2026-10-19 resume1130 BAK-BRRAICH-SINGH2021 p55/PDF2 freshly read again; target84v4 regeneration after two failed local edits. Same brood, no new source ID, no new biological fact, no exact bare width inference. [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md).
+
+## 2026-10-19 candidate research — Tyto multipunctata (no number allocated)
+### LSO-OWLPAGES-2020
+Deane Lewis, Lesser Sooty Owl, updated2020-09-27, https://www.owlpages.com/owls/species.php?s=230 . Access2026-10-19, specialist secondary synthesis, actual Description/Breeding/Habitat read. North Queensland current T.multipunctata, older T.tenebricosa multipunctata mapped SAME candidate not #68 T.tenebricosa duplicate. Adult: whitish outer face grading soot around black eyes, palegraybrown bill; dense silvery spotting on sootygray upperparts, paler spotted/chevron underparts; feathered legs to baregraybrown toes, darkclaws; female larger/heavier direction not standing-height ratio. Young down sootygray; newly fledged described adultlike, approximate3monthfledging not exact chosen age. Livingtree trunk/mainlimb hollows wetforest, often RoseGum. This supports later feathered juvenile alternative rather than invented neonatal wing anatomy, but no primary developmental sequence was read; species-specific flight/plumage details pending. No image produced. Credibility moderate synthesis citing standardbooks; not primary evidence. [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md).
+### LSO-MANINS-FIELD-2020
+Peter Manins, Sooty Owl fieldpage, currentcopyright2026/dateundated, https://manins.net.au/birds/sooty_owl/index.html . Access2026-10-19, primary photographer fieldcaption/text actualread, photograph pixels NOT viewed. Caption MVI_0836 20200131 multipunctata young CurtainFigTreeNP FarNorthQueensland; another media caption IMG_0838 20201031 young (potential differing date, do not merge). Page retains broad T.tenebricosa taxonomy; candidate subspecies mapped to current multipunctata not mainlandtenebricosa. Young-image caption is evidence of potential age-labeled reference, NOT evidence of visible plumage. Actual pixel/metadata retrieval was NOT EXECUTED because approval review failed: Selected model is at capacity. Caption-only lead, juvenile appearance UNVERIFIED. No sourcephoto copied. [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md).
+
+
+### Correction to resume1226 source accounting
+LSO-OWLPAGES-2020 was ALREADY indexed in earlier LSO candidate research; above section is a reuse/access note, not a new entry or independent source. Actual counts this invocation new1 (LSO-MANINS-FIELD-2020 caption-only UNVERIFIED pixels), reused1 (LSO-OWLPAGES-2020), corrected1 source-accounting duplication. Earlier LSO-AVIBASE-CONCEPT records current checklist disagreement multipunctata species vs subspecies and possible #68 duplication; newly restated currentfullspecies assumption above was premature. Candidate must remain UNALLOCATED pending versioned251roster/taxonomicdecision, even if images become readable. No unique increment. Sourcefact from specialist description valid at namedtaxonlevel, not evidence that project counts it separately. Old text retained for correction audit.
+
+
+## #141 source mapping 2026-10-19
+#141 Otus magicus — Moluccan Scops Owl, northern Moluccan leucospilus reference.
+MAG-KEULEMANS-SHARPE1875: J.G.Keulemans illustrator/R.B.Sharpe text, Catalogue of birds BritishMuseum Vol2 PlateVI,1875. https://commons.wikimedia.org/wiki/File:ScopsLeucospilusKeulemans.png originalimage https://upload.wikimedia.org/wikipedia/commons/d/d5/ScopsLeucospilusKeulemans.png . Actual metadata read and original plate pixels viewed2026-10-19. Caption Scopsleucospilus→Otusmagicusleucospilus, adult right and juvenile left. Left young graybuff horizontal soft narrow head/body bars, weak tufts, formed brown wing/tail and supported branch grips. This is historical specimen illustration NOT a fieldphoto, knownage, developmental series or direct flightability evidence. Use ageunknown older feathered juvenile with supported rest, not newborn. Exact palette/mark geometry/tail proportion uncertain; warm scannedpaper notcolorstandard.
+MAG-MIK2013-189: HeimoMikkola2013 uploadedbook printed189–190/PDF191–192 actualtext read. Shortprominenttufts; unknownsexsize data; yelloweyes/palegrayblackbillandcere; strongfeet; distal tarsus bare6–9mm abovegraybrowntoes/darkhornclaws; graybrownthroughrufousmorph variation notsex; shaftmarks and crossvermiculations/palerbelly. Juvenile fluffyadultlike narrow head/crown/neckcrossbars and faintspots. Leucospilus northernHalmahera/Bacan generallypaler; no forcing Seramnominatecolour. Lowlandforest/secondary/mangrove/gardens; nestingbiology notestablishedfromthese sources, use branch notinventednest. Bookworkreuse/newsectionmapping1, not independentnewbook.
+MAG-OWLPAGES-2020: DeaneLewis updated2020-10-08 https://www.owlpages.com/owls/species.php?s=580 actual Introduction/Distribution/Originaldescription read: shortprominenttufts and Moluccas/LesserSundas; no detailedjuvenile/sex evidence.
+MAG-CLEMENTS2013: CornellLab ClementsChecklist UpdatesandCorrectionsAugust2013 https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/overview-august-2013/updates-and-corrections-august-2013/ actual speciesgainOtusjolandae andp164magicusupdate read. Lombokformerlymagicus nowjolandae (#139) NOTsameHalmaheramagicus. HistoricalScopsleucospilus map currentmagicusleucospilus, subspecies notadditionalunit. Full251projectroster notyetversioned, unchangedscope251. Wholemanifestchecked noOtusmagicus image before141allocation; #135silvicola/#137alfredi/#139jolandae distinct. No automaticcountofsubspecies. Four IDs new to index:3external+1existingbooksection; facts vs art separate.
+Design: male/female same plumage/near-equalheight unknownsexsize, centerolderdowny-featheredyoungwithheadfinebars/faintbodymarks, supportedbroadfork relaxedsleepyheadnotlimp; wingsformedbutshortpartlyobscuredwithoutadultspotrows; noflight/dayclaim. Natural lowlandHalmaheraforestbranch (nestsunknown). All details scientificallyunverified.
+[Card](../knowledge/species/141-otus-magicus.md) [Run](../production/runs/2026-10-19T1028+0800-cycle-1.md)
+
+
+## #86 v2 reuse2026-10-19
+ELE-AKATANI2011-BR actualfresh p4Appearance baregrayadulttoes vsbaselinepink; adult-onlycolour edit, juvenileontogenyunknown retained. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T1028+0800-cycle-2.md).
+
+
+## #88v3 reuse2026-10-19
+CAP-TIPPETT2024 actualfreshBehaviour unlinedbarescrape; replaceconspicuouswoodchips withmineralgrit artinference notexactmaterialmeasurement. New0/reuse1/correct0. [Run](../production/runs/2026-10-19T1028+0800-cycle-3.md).
+
+
+### 2026-10-19 cycle4 reuse FUR-CORNELL-CAM2010
+Actually re-read CornellFAQ sex/nest/juvenalplumage sections; femalegeneral sizeandcolor trend withoverlap, olderjuvenileformedwings legitimate. No newsourceID. Modestdisplaymale reductionisdesigninference, notmeasuredsexratio. [#90v2 run](../production/runs/2026-10-19T1028+0800-cycle-4.md). Access2026-10-19; sourceURL/title/author/date/limitations remaininexistingentry.
+
+
+### 2026-10-19 cycle5 SLSO-MANAHAMPI-2012 reuse
+Originalphoto andmetadata re-read/viewed2026-10-19: immaturebody irregularmottledbars versus generatedregularpointedscales. Only#117v3bodymarking edit, age/sex/flashcolor limits unchanged. No newID; designtranslationnotexactphoto. [Cycle5](../production/runs/2026-10-19T1028+0800-cycle-5.md).
+
+
+### 2026-10-19 cycle6 JAP-TAIEOL2013 reuse
+Actualinstitutionaltextre-read morphologicalsection: adultbilldarkbrown/palertip overrides coolgrayrender; olderjuvenilebillnotrecoloredwithoutageevidence. No newID. Regionalscopeandhistoricaltotogotaxonomylimits unchanged. [Cycle6 #92v2](../production/runs/2026-10-19T1028+0800-cycle-6.md).
+
+
+## 2026-10-20 cycle6 recovery reuse JAP-TAIEOL2013
+Freshread https://taieol.tw/pages/244954/articles 綜合描述 authored林文宏/劉小如,2013-05-10. Adultdarkbrownbill/palertip, creamtarsi/yellowbristledtoes; immaturepalebuff. Institutionalregionalaccount, notgrowthseries/currentfulltaxonomyresolution; bookprior466–467notfreshreadinrecovery. Appliesadultbillonly, juvenileagecolorunknown. New0/reuse1/correct0, no duplicateID. [Recovered #92v2 run](../production/runs/2026-10-19T1028+0800-cycle-6.md).
+
+
+## 2026-10-20 KOE-BOTTAI2013-Y targeted reuse
+Originalyoungphotoandmetadataactuallyviewed/readagain: softbrownpectoralband versus#94renderangularpatches; plainbuffbelly/formedwingtail retained. Exactage/sex/flashcolorunknown; oneindividualnotuniversal. Reuse1,new0,correct0. [#94v2cycle1](../production/runs/2026-10-20T1634+0800-cycle-1.md).
+
+
+2026-10-20: CHA-SANTANDER2013 freshly re-read full author account Detailed Description/Bare Parts/Systematics/Habitat for #98v2 adult blackish-brown iris correction; no new sourceID; bill conflict retained, juvenile developmental limits retained. [Run](../production/runs/2026-10-20T1634+0800-cycle-2.md).
+
+2026-10-20 17:34 resume: CHA-SANTANDER2013 Detailed Description adult toe-feather boundary freshly re-read, reused stable ID, no new source. Source description versus proposed image-only boundary treatment distinguished; juvenile not inferred. [Cycle3](../production/runs/2026-10-20T1634+0800-cycle-3.md).
+
+
+## 2026-10-20 18:29 candidate evidence checkpoint (no image/cycle credit)
+External research: targeted Otus ireneae juvenile/development search with both engines; actual PeregrineFund full page read https://peregrinefund.org/explore-raptors-species/owls/sokoke-scops-owl Nests/Eggs/Young states breeding biology unknown, cavity only probable. Rejected unsourced online fixed hatching/fledging timetable; do not invent newborn. SOKO-PF-UNDATED new institution source scoped only gap/habitat.
+Candidate Otus balli NOT duplicate archived manifest (230versions through#141; species139/251). Uploaded HeimoMikkola2013 book actual page text PDF183/printed181 freshly read: no data sexualsize, smalltufts; brownground with fine vermiculations and large pale spots darkarrow loweredges, NOT longitudinal shafts; yellowadultiris/yellowishhornbill; tarsi distal third bare, dirtyyellowtoes; juvenile fineclosebars crown/breast/wingcoverts. No preciseage/winglength/flight/graspsequence. Monotypic Andaman; brown/rufousmorph not sexdifferences. BAL-MIK2013-181 new scopedsection samebookwork, not new book. Source fact vs design: would use neutraladultscale, juvenile rest concealedloweranatomy with continuoussupport, no nataldetails; this is proposed design not generated or verified.
+BAL-OWLPAGES2020 new DeaneLewis lastupdated2020-10-03 https://www.owlpages.com/owls/species.php?s=350 fulltextread Introduction/Distribution/OriginalDescription: smalltufts/AndamanInterview/locality, Hume1873StrayFeathers1:407–408 cited but originalnotread. Not evidence for juvenileage, outdatedconservationnotassertedcurrent.
+BAL-SINGH2018 new primaryphotographer page metadata https://www.owlpages.com/owls/species.php?i=1032 SarwanDeepSingh ChidiyaTapuPortBlairSouthAndaman March2018 tiltpose. HTML/metadataread; originalphoto pixels NOT viewed, age/sexunspecified; metadataonly not verifiedmorphologyevidence.
+BAL-AVIBASE8E1E400D new BirdsCanada curatedtaxonomy https://avibase.bsc-eoc.org/species.jsp?avibaseid=8E1E400D0B332369&lang=EN taxonomy/protonym/type locality actuallyread: EphialtesBalli Hume1873, SouthAndaman; Avilist2025/Clements2025 speciesconcept separate. No251scopechange orage/sexmorphologyclaim. BHLprimarylinkfound notread, not counted verifiedprimary.
+
+Access2026-10-20; source types and limitations above. BAL-MIK source uploadedbook oai-library://libfile_916e2244186c81918fe5a0716884b8c9 PDF183/printed181 textonly; pagepixels403. All facts scopedtoOtusballi orOtusireneae separately; no sharedjuvenilerules. Related image none (unassignedcandidate), prior #98v2 unchanged; [production/research record](../production/runs/2026-10-20T1634+0800-cycle-3.md). New4externalID+1scopedbooksection/reusebookwork1/correct0; photographermetadata NOT morphologyverified. No copies of copyrightedthirdpartyphotos/PDF.
+
+
+## HUH-SOARES2021 — adult identification; access2026-10-20
+SourceHUH-SOARES2021 NEW: LeonardoMoura dosSantosSoares,WedsonMedeirosSilvaSouto,AndersonGuzzi,AndreBastosdaSilva2021 First record of Strix huhula... CheckList17(4):1089–1093 DOI10.15560/17.4.1089; author/publisher fulltext actualread https://www.researchgate.net/publication/353494661_First_record_of_Strix_huhula_Daudin_1800_Strigiformes_Strigidae_Black-banded_Owl_from_the_savanna-dry_forest_ecotone_in_northeastern_Brazil . Identification printed1090: blackishbrown eye, yellowbill/legs, finewhitebarring. Piauinominateadult pair19Jul2018, notjuvenile and notprecisecolorforsouthernalbomarginata; specieswidequalitativecolorcrosscheckwith priorHUH-MIK2013-340 record, no measuredpalette. Newrecord geographyNOT transplant habitat; keepMisionesforest.
+HUH-BC2013 REUSED Bodrati/Cockle2013 OrnitNeotrop24:169–182 actualfulltextIntro/Abstract freshread thisinvocation: livingangicofork15.2m protectedepiphytes/threeuprights, samealbomarginata scope, nests2010young2012egg; no newirisclaimfrompaper. Prior nestlingregionalpalegraybars/yellowbill stage remains, juvenileirisenotchanged. Book2013printed340–341 reusedhistorical notfreshread. Noexactage/sexratio/irishexscientificpass.
+
+Related #100v1→proposedv2; [run](../production/runs/2026-10-20T1634+0800-cycle-3.md). Newexternal1/reused2IDs(HUH-BC2013,HUH-MIK2013-340 historicalbook); correction0. Primaryarticlequalitativeeyefact, not exactRGB/juvenileage orsexratio. LicenseCCBY4.0, noentirearticlecopied.
+
+
+2026-10-20: MSO-MOA-TW2 freshMorphologyreaccess adultdensefineventralvermiculationsandsparseshafts; regionalTaiwanhambroecki nojuvenileagerule. [Cycle4](../production/runs/2026-10-20T1634+0800-cycle-4.md) #101v2 proposed adult-onlypatternedit. New0/reuse1/correct0; sourcefacts vsdesignhypothesis separated.
+
+
+## 2026-10-20 cycle5 reuse SWFO-JWVH-2024
+Fresh full original newsletter p16/PDF17 text and rendered photo read: olderjuvenile irregular brown-gray chestchevrons and muted formedwingcoverts. #105v2 still overlypale/regular-scaled; qualitative localpattern refinement for #105v3, exactcolor/age/sexunknown; no wildnest inference. Source metadata unchanged, new0/reuse1/correction0. [Run](../production/runs/2026-10-20T1634+0800-cycle-5.md), [species](../knowledge/species/105-ptilopsis-granti.md). Copyright linkonly, notsourcecopy.
+
+
+## 2026-10-20 cycle6 FVO-EISERMANN-FIELD2026 reuse
+Freshpage and originaljuvenilephoto actuallyread/viewed. #107v1 broadlong patternedwing exceeds source's narrowexposedformedtips; earlierreviewcallingretainedtips narrow wasoverconfident. Refineexposedwingarea/softbarredcoverts for107v2 while retainingformedtips; noexactage/sex/nest/iris inference. New0/reuse1/corrected0, historicalreviewpreservedandqualified. [Run](../production/runs/2026-10-20T1634+0800-cycle-6.md), [species](../knowledge/species/107-strix-fulvescens.md). Originalsourcecopyrightlinkonly.
+
+
+2026-10-20 run2029 cycle6 FVO-EISERMANN-FIELD2026 reused1/new0/corrected0. Existingfullpage researchcheckpoint reused, cached originaljuvenileJPEG re-viewed. Freshwebbody retry500redirect/accessfailure, notnewfullreadclaim; no sourcefactsinvented. #107v2 exposedwingarea refinement actuallyapplied/viewed, exactage/geometryunknown, sciencefalse. [Run](../production/runs/2026-10-20T1634+0800-cycle-6.md), [image](../design/concepts/107-strix-fulvescens-v2.png). Fullprompt/actualwait/verificationinrun; sourcecopyrightlinkonly.
+
+
+2026-10-20 batch2133 cycle1 MSO-MOA-TW2 reused1/new0/correct0. FreshMorphologyread densefinevermiculations vs sparseblackshafts. #101v2 parallelartifact targetedv3, noage/sexratioinference. [Run](../production/runs/2026-10-20T2133+0800-cycle-1.md). Primarycandidatejuvenilegapnotpromotedtoevidence.
+
+
+2026-10-20 cycle2 CIB-MONTGOMERY-2006 reused1/new0/corrected0. Freshprimarycaption/JPEGactuallyviewed. Genuinewhitewingpatches confirmed, genericpatchremoval rejected; #113v3 target onlyjuvenilerufousground/narrowwhiteventralbars. Exactage/sex/colornotcalibrated. [Run](../production/runs/2026-10-20T2133+0800-cycle-2.md), [species](../knowledge/species/113-ninox-natalis.md). Copyrightlinkonly.
+
+
+## JAM-OWLPAGES2026 / JAM-MIK2013-500 candidate-only 2026-10-20T13:48:26.567Z
+ Asio grammicus historicallyPseudoscopsgrammicus, notpresentin139speciesmanifest. JAM-OWLPAGES2026 DeaneLewis updated2026-09-28 https://www.owlpages.com/owls/species.php?s=3520 actualIntroduction/Distribution/OriginalDescription read: Asiocombinationfromphylogeny, Jamaicaendemic, Gosse1847BirdsJamaicap19citednotoriginalread. Nojuvenileage orsexualmeasurements frompage. ExternaltargetedsearchesbothenginesincludedGosse/Pseudoscopsjuvenile, noverifiedprimarydevelopmentsequence; irrelevantreturnedhitsnotused.
+JAM-MIK2013-500 existinguploadedbookworknewsection: HeimoMikkola2013 OwlsWorldPhotographicGuide printed500–501/PDF502–503, Library libfile_916e2244186c81918fe5a0716884b8c9 textreadactually 2026-10-20T13:48:26.567Z. Adultwarmtawnybrown/longmottledtufts, nowhitescapularspots, shaftstreaks/finevermiculationsunderparts, hazelbrowneyes/bluegraybillcere, featheredtarsibaregraybrowntoes. No sexualsize/colordata; doNOTforcefemale-larger. Juvenile lightergraybrownback/dullcinnamonbuffrest, captionJulyyoungheaddownremnants; whitefirstdownmentionedbutnewbornposture/wingabilitynotgiven. Factsnotyetdesignprompt, exactage/tuftlength/youngiris/toeanatomy/wingtailsequenceunknown.
+ACTUAL ERROR: Library pages503 include_images=true returned RetrievalClientResponseError403Forbidden fetch_document_from_file. PagepixelsNOTviewed. No alternativecredential/proxy/bypass attempt. Prior text-only pages502–503succeeded. This is specificsourcepageimageaccessfailure, NOT globalGitHub/imagegenfailure or confirmedplatformtimeout. No fullRESEARCH_READY orIMAGE_GENERATED/REVIEWED/ARCHIVEDconcept/VERIFIEDcycle3. NewcandidateID notassigned, noimage3productioncredit. Permissionfailedstep stopped; noautopauses/otherprojectwrites.
+Next: originalcandidatepageimagevia normallypermittedaccess or independentlyaccessible clearlylabelledjuvenilephoto/developmentpaper, elseotherclearproject within SAMEbatchcycle3. Preserve prior cycles1–2. Sources new2scopedrecords JAM-OWLPAGES2026/JAM-MIK2013-500 (bookworkalreadyexists, not2newbooks); priorvalidatedsourceIDs reused2 across completedcyclesMSO-MOA-TW2/CIB-MONTGOMERY-2006; corrections0. Candidatefacts notcountedscientificallyverified. Runcompleted2/6,new0species/revision2,139/251unchanged. No fixedruntimebudgetclaim.
+
+
+
+## JAM-HOYER-BIRDSEYE — Jamaican Owl adult and Downy young
+Richard C.Hoyer/WINGS, undated photographs (Nov caption; website©2018 not photo date), primary field imagery, accessed2026-10-20. https://birdseye.photo/photos/review/3591/jamaican_owl/; actual viewed image URLs https://cdn.birdseye.photo/media/resized/medium_cropped/003591-909-20131104053054.jpg and https://cdn.birdseye.photo/media/resized/medium_cropped/003591-989-20131104053140.jpg. Pseudoscops grammicus=Asio grammicus Jamaica; adult sexunknown/downy young ageunknown. Actual image facts and limitations: see [cycle3](../production/runs/2026-10-20T2133+0800-cycle-3.md). Supports fluffy cinnamonbuff branch-supported stage/mostlyhiddenwing not nataldown/flightability; lowlight not iris calibration. No journalpages; photo labels Adult/Downy young. [Species142](../knowledge/species/142-asio-grammicus.md); image142-asio-grammicus-v1 planned not archivedyet.
+
+## JAM-WOODS2015-METADATA — Jamaican Owl (juvenile)
+SamWoods, taken2015-03-21/uploaded2020-12-07, primary photographpage metadata only, accessed2026-10-20 https://www.flickr.com/photos/samwoodsbirding/50688720008. Pseudoscops grammicus juvenile, BlueMountains Jamaica. Actualcaptionread; image403 so morphologyUNVERIFIED, not visualdesignbasis. No page/fig; rightsreserved. Linked [cycle3](../production/runs/2026-10-20T2133+0800-cycle-3.md). No new sourcebook count; newID limitedmetadata not scienceevidence.
+
+
+## FEO-LOYN-DEBUS2000 / Asio solomonensis juvenile-development
+Loyn,R.H.&Debus,S.J.S.,2000, Description of Juvenile Fearful Owl Nesasio solomonensis, AustralianBirdWatcher18(7):288–289. Primaryfieldobservation https://afo.birdlife.org.au/afo/index.php/afo/article/download/215/205 accessed2026-10-20 actualfulltext+Plate79p289read/viewed. Bougainville1987-07-16 rescuedyoung, exactageunknown, longunbarredpaledown/darkmask/emergingbarredwings/orangeyelloweyes/grayfeet, walking/bouncing/perchingnotflight. Single rescuedindividualnotgrowthcurve. Supportsdocumentedolderfluffypercher notinventednewborn. [143card](../knowledge/species/143-asio-solomonensis.md)/[fullfactsandpromptcycle4](../production/runs/2026-10-20T2133+0800-cycle-4.md)/143-asio-solomonensis-v1planned. No copyrightedpaper copiedrepo.
+
+## FEO-OWLPAGES2020 / Asio solomonensis adult-morphology
+DeaneLewis2020-11-08 specialistsecondary https://www.owlpages.com/owls/species.php?s=3500 accessed2026-10-20 actualDescription/Size/Breeding/Habitat. Adultdiagnostics/unknownsexratio andnestlimits per [cycle4](../production/runs/2026-10-20T2133+0800-cycle-4.md). No primarysexmeasurement, no currentconservationstatusclaim; onlinechaptersnopagenumber. Supportsadultpalette/tarsitoes, notyoungfeathersequence. Link143v1planned above.
+
+## FEO-AVIBASE-MAP / Asio solomonensis taxonomy
+DenisLepage/BirdsCanada undatedcurrenttable https://avibase.bsc-eoc.org/species.jsp?avibaseid=8251FDDB47459E76&lang=EN accessed2026-10-20 actualtaxonomyversions/name/protonymread. IOC15.2/Clements2025 Asio, BirdLife2025Nesasio, protonymPseudoptynx sameunit. Authoritativetaxonomicindex notmorphology orwhole251list. [cycle4](../production/runs/2026-10-20T2133+0800-cycle-4.md),143v1. No targetcountchange.
+
+
+### 2026-10-20 cycle5 reuse audit (no duplicate IDs)
+GSO-SHANKAR-2013-YOUNG originalphoto+caption/EXIF/license freshread/view; GSO-OWLPAGES2020 Description/Size/Breeding/Habitat freshread. Maps Otus/Mimizuku gurneyi→juvenilebodytexture→123v2. RepeatedsharpUedges vsfinebarredfluff motivates targetedbodyedit, formedwingsretained; exactage/geometryunknown. [Research/prompt/actualreview](../production/runs/2026-10-20T2133+0800-cycle-5.md). Preliminaryreadonlychecks TAS-ABSA2019/PSO-JOSEF2012/PSO-JOSEF-TANEDO2013 reused, no false correction to121/122;122photoactualviewcompatibleplainrufousyoung. New0/correct0.
+
+
+### 2026-10-20 cycle6 LZBO-RASMUSSEN2012-LEAD reuse (no duplicateID)
+ActualoriginalPDFp1,p3–4,p13Table7 refreshed: nominatephilippensis unmarkedcrown, spilocephala spotted; pooledsexesnotRSDproof andimmatures excluded. Supportsadult125v2crown-onlyedit, notjuvenilecrown orwingpatchremoval. [Facts,prompt,actualreview](../production/runs/2026-10-20T2133+0800-cycle-6.md). PEO-ARTUSO2015 primarybody/caption/7005pixels freshreadonly124check, no edit/no credit; keep legitimateolderformedwings. New0/correct0.
+
+
+## VFO-BORROW2022-META — Scotopelia bouvieri immature; pixels UNVERIFIED
+NikBorrow photograph2022-08-24/upload2022-10-04, primaryphotographmetadata https://www.flickr.com/photos/nikborrow/52405057195 accessed2026-10-20. Actualcaption immature/AkakaLoangoGabonread. Image403Forbidden pixelsNOTseen, no morphologyused. No printedpage/exactage/sex; attributedmetadataonly. FollowupleadNOTverifieddesignbasis. [Cycle1research/error](../production/runs/2026-10-20T2310+0800-cycle-1.md). No speciesID/imageassigned,no sourceimagecopy.
+
+## VFO-OISEAUX2015 — Scotopelia bouvieri morphology and mesoptile bounds
+DanielLe-Dantec2015-11-27, Chouette-pêcheuse de Bouvier, Oiseaux.net specialistsecondary https://www.oiseaux.net/oiseaux/chouette-pecheuse.de.bouvier.html accessed2026-10-20. ActualIdentification/Habitat/Reproduction/Referencesread. Adultdarkeyes/yellowishbill/earless,palebellydarkshafts/whitescapularornaments,baretarsifeet; palejuvenilemesoptilepossiblecinnamonwash. Riverforest. Supportsprovisionalpalette notexactagerule/pose/sexratio. Breedingpoorlyknown; Pelanalogy/monthsnotprimarysequence; automaticoddmeasurementsnotused. Namedsections,no pages. [Facts/limits/nextcycle](../production/runs/2026-10-20T2310+0800-cycle-1.md); no speciesID/imageassigned. Copyrightlinkandshortsummaryonly.
+
+
+## VFO-WCS-NDOKI2019 — rescued juvenile release record, not morphology
+WCS Congo/NouabaleNdokiNationalPark March2019 monthlynewsletter p2 WildlifeHealthProgram https://archive.pfbc-cbfp.org/docs/news/Avril2019/201903_Nouabale-Ndoki%20National%20Park%20monthly%20newsletter_MARCH%202019.pdf accessed2026-10-20 actualtext+pagescreenshotviewed. VermiculatedFishingOwl arrivedBomassaRehabilitationCentre asjuvenile/released; no age/feathersequence/owlimage. Primaryinstitutionalrescue record highconfidenceeventbutdoesnotclosevisualgap. [cycle1](../production/runs/2026-10-20T2310+0800-cycle-1.md), noScotopeliaimageassigned. NoPDFcopyrepo.
+
+### LZBO-RASMUSSEN-2012-LEAD reuse for144 Ninox spilocephala
+Originalpaperfreshp3–4,p13Table7,p14Diagnosis andadultFig6bp12actualscreenshotread/view. Olderimmatureplainbrowncrown/weakbuffspotteduppermantlecollar, no age/otherjuveniletraits supplied; adultsdiagnosesexcludeimmatures, pooledsexesnotdimorphismtest. Draft144 thereforeoccludesunsupportedyoungbelly/wings/feet/tail andclosedeyes; restingroostcomposite isartinference notactionevidence. [Fullfacts,prompt,unknowns](../production/runs/2026-10-20T2310+0800-cycle-1.md)/[144card](../knowledge/species/144-ninox-spilocephala.md). ReusedsamepaperID notnewsource. Prior125unmarkedadultcrown rule MUSTNOTtransfer toadult144spottedcrown. No sourcefigurecopiedrepo.
+
+### LZBO-RASMUSSEN-2012-LEAD correction/reuse cycle2
+Captioncorrection Fig6b printedp12 R.O.Hutchinson PICOPMindanaoFebruary2011; erroneous run1Pitman2008attribution superseded. Fresh p13 adult125unmarkedcrown/nape diagnosis reused, mattehighlight control newrenderinghypothesis notbiologicalfact. [125v3cycle2](../production/runs/2026-10-20T2310+0800-cycle-2.md). One existingID corrected/reused, notnewsource.
+
+### MARS-WESKE-1981 reuse cycle2310-3
+Freshpp1–3 hindcrowncoronalband/feathertips/olderimmature retainedflightfeathers read; #128v3 headturn designinference exposes posteriorcrown, not foreheadV. Exactage/sexratio pending. [Run](../production/runs/2026-10-20T2310+0800-cycle-3.md). ExistingIDreuse no duplicate.
+
+### GSO-SHANKAR-2013-YOUNG reuse2310cycle4
+Caption/EXIFand960pxactualfreshview2026-10-20; diffusejuvenilefluff vsartificialarcgeometry, exactage/captive/dateconflictunchanged. Actualreferenceattachedforregionaledit, no copiedsourceinrepo. [123v3run](../production/runs/2026-10-20T2310+0800-cycle-4.md). ExistingIDreuse1 no newID.
+
+### CIB-MONTGOMERY-2006 reuse2310cycle5
+Primarypage+JPEGfreshview, plainrufousyoungcrown/finefeathertexture contrastsconceptshinycreamflecks; genuinewingwhitepatches retained. Exactage/palette notcalibrated. Testmattehighlightcontrolnotuniversalrule. [113v4run](../production/runs/2026-10-20T2310+0800-cycle-5.md). ExistingIDreuse1,new0.
+
+### MSO-MOA-TW2 reuse2310cycle6
+FreshregionalMorphology/Habitat adultfinevermiculations PLUSsparseblacklongitudinalshafts read; #101v4 contrastseparationtest, notlongstripedbody/juvenileinference. [Run](../production/runs/2026-10-20T2310+0800-cycle-6.md). ReuseexistingID1/no newID.
+
+### MSO-MOA-TW2 reuse 2026-10-21 recovery cycle6
+Fresh institutional Morphology/Habitat/TaiwanBirds2ed attribution read2026-10-21: regionaladultfinevermiculations andsparseblackbrownshaftstreaks, notjuvenileage/sexratio. No newfact/sourceID; reused1/new0/correction0. Existing101v4 binaryverification BLOCKED unavailableexecutionenvironment, no newimageview/sciencepass/cyclecredit. [Recovery evidence](../production/runs/2026-10-20T2310+0800-cycle-6.md). Priorverifiedfacts retained, no sourcescopied.
+
+
+### Reuse verification 2026-10-20T20:29:36.207Z: MSO-MOA-TW2 / Otus spilocephalus hambroecki
+Freshly read original Morphology/Habitat/source attribution; adult fine brown vermiculations plus sparse blackbrown shafts support #101v4 contrast correction, not juvenile age/sex ratio/exact feather map. Existing stable ID reused; new0/reuse1/correction0. [Cycle6 recovery](../production/runs/2026-10-20T2310+0800-cycle-6.md); image e1d4df916c4a27353ef7159d277f7175eaae70ed. No duplicate source entry or newly accessed Mikkola pages.
+
+
+### 2026-10-21 #117v4 evidence reuse
+- SLSO-MANAHAMPI-2012 and SLSO-MIK2013-194 reused for the same North Sulawesi older-immature stage. Decision supported: retain formed wing/tail, perch grip and fine juvenile barring while reducing unsupported regular bright scallop geometry. Fresh search found no stronger primary juvenile source; adjacent taxa were not transferred. New0/reused2/corrected0. Exact age, sex ratio and feather map remain unknown. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-1.md).
+
+
+### CHA-MIK2013-336 reuse — 2026-10-21 cycle 2
+Fresh targeted review reused the already indexed uploaded-guide section for *Strix chacoensis* (historical *S. rufipes chacoensis*), printed p.336 / PDF p.338: feathered tarsi and pale-orange feathering on proximal toes, with bare gray-brown distal toes. Applied only to #98 v3 foot feather extent; no juvenile age, sex-specific foot difference or scientific pass inferred. New0/reused1/corrected0. [Run](../production/runs/2026-10-21T0533+0800-cycle-2.md) · [image](../design/concepts/98-strix-chacoensis-v3.png).
+
+
+### SWFO-JWVH-2024 reuse — 2026-10-21 cycle 3
+Institutional rescue newsletter printed p.16/PDF p.17 reused for #105 v4: actual previously viewed older-juvenile photo supports irregular brown-gray chest chevrons, subdued formed wing edge, short rounded tufts and supported non-flight posture. Applied to reduce unsupported repeated loop/scallop geometry only; exact age, sex and flight timing remain unknown. New0/reused1/corrected0. [Run](../production/runs/2026-10-21T0533+0800-cycle-3.md) · [image](../design/concepts/105-ptilopsis-granti-v4.png).
+
+
+### 2026-10-21 cycle4 reuse audit (no duplicate IDs)
+GSO-SHANKAR-2013-YOUNG and GSO-SHANKAR-2013-ADULT re-read from the existing index for Otus/Mimizuku gurneyi. The accessible juvenile photograph supports an older perched gray-brown juvenile with short broad erect tufts, dark bill/eyes, pink-purple eyelid margin, formed but partly hidden wing edges, gray toes gripping wood; exact age and sex remain unknown. This cycle changed rendering integration only and did not infer wild-family grouping or natal plumage. Fresh web searches produced no additional verified species-specific developmental source and were not indexed as evidence. [Image](https://github.com/janeytlin-eng/game-owl-ket/blob/2b92aceaad467faef4918926fdcf0c24bc0e5682/owl-pet/design/concepts/123-otus-gurneyi-v4.png). Reused2/new0/corrected0.
+
+
+### 2026-10-21 #128 v5 revision audit
+
+- Reused source: **MARS-WESKE-1981** — Weske & Terborgh (1981), original species description, actually re-read pp. 2–3. It supports an irregular whitish hindcrown/nuchal area behind the darker anterior crown, short ear tufts, dark-brown iris and rufous black-rimmed facial disc. It does not give a calibrated display width or a population-wide feather map; the seven-male/one-female specimen series is small.
+- Fresh external search used current and historical names (*Megascops marshalli* / *Otus marshalli*) to look for additional institutional photographs and development evidence. No new source with a measured hindcrown-band extent or sex-linked display geometry was actually read, so search-only leads receive no evidentiary credit.
+- Design inference, not source fact: the conspicuously broad bright-white v4 band was narrowed, warmed to buff and interrupted by reddish-brown/blackish feather texture. Exact extent remains unknown; image remains scientifically_verified=false.
+- Counts: new sources 0; reused sources 1; corrected sources 0. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-5.md) · [v5](../design/concepts/128-megascops-marshalli-v5.png) · image commit 7617668e91108dd70910a90ed5c1f4b84253d4b0.
+
+
+### 2026-10-21 #134 v2 revision audit
+
+- Reused source: **LTSC-KACHIMARECK-2014-WA1527488** — José L. Kachimareck, WikiAves primary photo record, taken 8 Oct 2014 in Curitiba, Paraná, tagged `Filhote`; original page/full pixels had been actually read and viewed. It supports short gray down/mesoptile, finer diffuse gray-brown throat/chest bars, weak head wisps, a greenish-horn bill and concealment of lower anatomy. Exact age, flight ability and iris colour are not established.
+- Fresh current/historical-name web search was performed for juvenile/development evidence. BirdLife and taxonomic/secondary hits added no measured age or feather-sequence facts; no search-only lead is credited as verified evidence.
+- Design inference: the v1 decorative coarse loop rows were replaced only in the visible throat/upper chest with finer darker broken bars and wisps. Hidden wing, lower body and feet remain unillustrated rather than guessed. `scientifically_verified=false`.
+- Counts: new sources 0; reused sources 1; corrected sources 0. [Cycle record](../production/runs/2026-10-21T0533+0800-cycle-6.md) · [v2](../design/concepts/134-megascops-sanctaecatarinae-v2.png) · image commit 24bc119b982c3eb52a3df3d035b6576c5c67fb42.
+
+
+### EEO-PENTERIANI-2005 reuse — 2026-10-21 cycle 1
+Fresh original author PDF was actually read at PDF pp.4–5 / printed pp.159–160, Figures 2–3: 1–3-day chicks are prostrate with first white down, pink bare shoulder/belly patches and pink tarsi/toes; eyes open by 6–7 days; the 10-day photograph retains white down and shows emerging shoulder/scapular/remige/tarsal sheaths. Direct comparison found #03 v5's nestling bill too long and bulky relative to the photographed 10-day stage. #03 v6 therefore changes only the chick bill to a shorter compact gently hooked form; exact bill/body ratio, population variation and sex remain unmeasured. New0/reused1/corrected0; design inference is explicitly separate from the paper facts. [Run](../production/runs/2026-10-21T1134+0800-cycle-1.md) · [v6](../design/concepts/03-bubo-bubo-v6.png). Source: https://www.vincenzopenteriani.org/publications_pdfs/bubo_bubo_ibis1.pdf (copyright link only; no paper copied).
+
+
+### EEO-PENTERIANI-2005 reuse — 2026-10-21 cycle 2
+Fresh targeted web retrieval and original-paper cross-check reused the same stable source, not a duplicate ID. Figure 3 / printed p.160 states and shows the 10-day chick still predominantly dense white down, with localized shoulder/scapular/remige/tarsal sheaths and belly down beginning to cover previously bare skin. #03 v6's large pink shoulder/flank panel read too much like a formed naked wing; #03 v7 reduces that exposed area and restores white-down coverage while retaining a small pink shoulder window and short gray pin-sheaths. The paper gives no numeric skin/down boundary, so the amount reduced is a conservative design inference, not a measurement. Two preliminary texture-only edits failed to remove loop-like rendering and were not archived. New0/reused1/corrected0; persistent loop texture remains a declared visual issue. [Run](../production/runs/2026-10-21T1232+0800-cycle-2.md) · [v7](../design/concepts/03-bubo-bubo-v7.png). DOI 10.1111/j.1474-919x.2004.00381; author PDF https://www.vincenzopenteriani.org/publications_pdfs/bubo_bubo_ibis1.pdf.
+
+### EEO-PENTERIANI-2005 reuse — 2026-10-21 cycle 3
+The same original author PDF and Figure 3 / printed p.160 boundary were reused for #03 v8; no duplicate source ID was created. The evidence supports predominantly white down with localized sheaths at the photographed approximately 10-day stage, but does not define a geometric fiber pattern. The v8 change is therefore a rendering correction from repeated closed loops toward irregular matte short down, not a new biological claim. Residual fine arcs, exact feather geometry, age calibration, iris colour, sex and regional variation remain unknown. New0/reused1/corrected0; scientifically_verified=false. [Run](../production/runs/2026-10-21T1326+0800-cycle-3.md) · [v8](../design/concepts/03-bubo-bubo-v8.png). DOI 10.1111/j.1474-919x.2004.00381; author PDF https://www.vincenzopenteriani.org/publications_pdfs/bubo_bubo_ibis1.pdf.
+
+### EEO-PENTERIANI-2005 reuse — 2026-10-21 cycle 4
+Fresh current-name/DOI web retrieval was attempted; no stronger primary developmental source was actually read, so no search-only lead receives evidence credit. The existing original author PDF Figure 3 / printed p.160 was reused for #03 v9. It supports predominantly white down with localized sheaths at approximately 10 days, not a measured fiber geometry. v9 therefore only reduces residual repeated U/C-shaped rendering artifacts and makes no new biological claim. New0/reused1/corrected0; exact down geometry, age calibration, iris colour, sex and regional variation remain unknown; scientifically_verified=false. [Run](../production/runs/2026-10-21T1433+0800-cycle-4.md) · [v9](../design/concepts/03-bubo-bubo-v9.png).
+
+### EEO-PENTERIANI-2005 reuse — 2026-10-21 cycle 5
+The same original author PDF, Figure 3 / printed p.160, was re-read for #03 v10. It supports an approximately 10-day chick dominated by white down with localized emerging sheaths; it does not specify a regular fiber geometry. The edit therefore removes only residual repeated U/C-shaped and scalloped rendering lines, retaining the compact bill, low supported posture, pink toes, localized shoulder skin and pin-sheaths. Fresh targeted searches found no stronger primary measurement of down geometry; search-only results were not credited. New0/reused1/corrected0; exact down geometry, age calibration, iris colour, sex and regional variation remain unknown; scientifically_verified=false. [Run](../production/runs/2026-10-21T1527+0800-cycle-5.md) · [v10](../design/concepts/03-bubo-bubo-v10.png).
+<!-- 2026-10-21T1725+0800 cycle 6 audit: #117 Otus manadensis v5. Reused SLSO-MANAHAMPI-2012 (older immature photograph: small tufts, fine barred crown/nape, formed wing/tail and perch grip) and SLSO-MIK2013-194 (Mikkola 2013, printed p.194 / PDF p.196: juvenile fine crown/nape bars and otherwise adult-like direction). Fresh web searches using current and historical names found no stronger accessible primary developmental source; search-only hits were not promoted to evidence. New sources 0; reused 2; corrected 0. Exact juvenile age, sex-specific linear proportions, and complete feather sequence remain unknown; v5 is a localized concept-art texture correction, not scientific verification. -->
+<!-- 2026-10-21T1828+0800 cycle 1 audit: #73 Ninox rufa v3. Reused RUF-RIDDELL-2021 (original five-season field study; one 2018 chick, white-down hollow stage followed by edge perching/flapping and branch walking before true flight), RUF-OWLPAGES-2020 (adult rich rufous underparts with narrow pale bars; male larger direction), and the already-read Mikkola 2013 printed pp.448–449/PDF pp.450–451 (adult fine light crossbars; white-headed mesoptile juvenile). Fresh search found a 2026 Australian Field Ornithology paper on diet/breeding but it did not add stronger adult feather-geometry evidence for this localized edit, so it is retained as an unverified lead, not a credited source. New 0; reused 3; corrected 0. Exact bar geometry, subspecies, quantified sex ratio and juvenile age remain unknown; scientifically_verified=false. -->
+
+
+### SPO-MARINGOMEZ-2017 — Spectacled Owl urban breeding observation
+Oscar H. Marín-Gómez, Yemay Toro-López, Margarita M. López-García, Javier I. Garzón Zuluaga & Diana M. Santa-Aristizabal (2017), “First records of the Spectacled Owl (*Pulsatrix perspicillata*) in urban areas, with notes on reproduction”, *North-Western Journal of Zoology* 13(2):368–371. Original article PDF: https://biozoojournals.ro/nwjz/content/v13n2/nwjz_e162602_Marin-Gomez.pdf ; accessed 2026-10-21. Actual full article read, especially printed pp.368–370 / PDF pp.1–3 and Fig.2 caption. The authors report two adults with a downy young perched in a tree; the same juvenile was later observed making learning flights, fell, and was returned to a tree. This supports a downy but mobile/perching stage with natural tree support and does not require a hatchling wing-bud depiction. The source does not report exact age, sex, subspecies or measured wing-covert geometry; those remain unknown and the concept is not scientifically verified. Source facts support retaining the formed folded wings and two-foot ledge grip in [#67 v3](../design/concepts/67-pulsatrix-perspicillata-v3.png); the change from round spots to irregular broken bars is a conservative design correction, not a measured reconstruction. [Run](../production/runs/2026-10-21T1930+0800-cycle-2.md).
+
+### 2026-10-21 cycle 2 reuse audit — #67
+Reused the already indexed Mikkola/Bouglouan evidence for the white-down, dark-mask juvenile and gray-brown formed wings. New 1 stable source ID (`SPO-MARINGOMEZ-2017`), reused 2, corrected 0. Search-only commercial or social-media hits were not promoted to evidence. Exact age, sex, subspecies and covert geometry remain unknown; `scientifically_verified=false`.
+
+
+### LZBO-RASMUSSEN-2012-LEAD reuse — 2026-10-21 cycle 3 #144 v2
+Rasmussen et al. (2012), original paper “Vocal divergence and new species in the Philippine Hawk Owl *Ninox philippensis* complex”, pp.3–4, printed pp.12–14 and Table 7, was reused after a fresh current-name/old-name web search. The paper supports a spotted adult crown and variable brown-and-white ventral streaking in *N. spilocephala*; adult diagnoses exclude immatures, and pooled sexes do not establish reversed dimorphism. Applied only to replace #144 adults' coarse repeated teardrop marks with finer irregular broken longitudinal streaking. The older immature remains occluded because exact age, ventral pattern, wing/foot/tail development and action ability are not documented. New 0; reused 1; corrected 0; `scientifically_verified=false`. [Run](../production/runs/2026-10-21T2334+0800-cycle-3.md) · [v2](../design/concepts/144-ninox-spilocephala-v2.png).
+
+
+### 2026-10-22 cycle 4 reuse audit — #113 v5
+Fresh targeted search and actual page reading reused two already-known species accounts without creating duplicate IDs: the Australian Government Christmas Island National Park page (adult bright-yellow eyes, tawny-orange upperparts, orange-and-white barred underparts; institutional field photograph) and OwlPages (adult whitish breast finely barred rufous, dark tail with rufous bands). Neither source measures an older juvenile's exact feather map, age or flight ability. Direct v4 inspection showed the central older juvenile's chest/belly as highly regular stacked adult-like scallop bands. v5 therefore makes a bounded rendering correction only: softer paler downy body texture with fine irregular broken rufous bars, while retaining formed wing/tail and natural two-foot branch support. Exact age, sex, flight ability and juvenile pattern remain unknown; `scientifically_verified=false`. New 0; reused 2; corrected 0. [Run](../production/runs/2026-10-22T0031+0800-cycle-4.md) · [v5](../design/concepts/113-ninox-natalis-v5.png) · image commit d3ac2b4db3992c0936d8d6789adfb939455e713e.
+
+
+### ISOW-NEST-LUCKNOW-2019 — Indian Scops Owl nesting ecology (limited abstract record)
+- Stable ID: `ISOW-NEST-LUCKNOW-2019`
+- Title: “Nesting Ecology of Indian Scops Owl (*Otus bakkamoena*) in Lucknow”
+- Author/year: metadata on accessible record incomplete; 2019 publication record; accessed 2026-10-22.
+- URL: https://www.researchgate.net/publication/338448693_NESTING_ECOLOGY_OF_INDIAN_SCOPS_OWL_OTUS_BAKKAMOENA_IN_LUCKNOW
+- Type/read extent: original-study record and abstract-level text actually read; full paper/pages were not accessible in this cycle.
+- Taxon/stage/topic: *Otus bakkamoena*; breeding/nest site; no juvenile morphology.
+- Fact: 21 nests were reported; most were in tree cavities, notably old neem, khair and cluster fig trees.
+- Limitation/confidence: abstract-level evidence only; does not provide a read cavity diagram, height, dimensions, floor-material quantity or nestling stage. Moderate confidence for natural-cavity direction, no credit for fine geometry.
+- Design link: supports replacing #84 v2's conspicuous board-built box with a natural tree hollow in [#84 v5](../design/concepts/84-otus-bakkamoena-v5.png). The exact hollow shown is conservative design inference. [Cycle record](../production/runs/2026-10-22T0048+0800-cycle-5.md).
+
+### 2026-10-22 cycle 5 reuse audit — #84 v5
+OwlPages photo record of an Indian Scops Owl at a tree-hollow entrance was actually read/viewed at page-caption level and reused. Combined with `ISOW-NEST-LUCKNOW-2019`, it supports a natural-cavity setting, not a measured cavity blueprint. New 1 limited source; reused 1; corrected 0. Exact tree species, dimensions, height, floor material and juvenile stage remain unknown; `scientifically_verified=false`. Image commit 218f2ee8ed77007bfff1408d9c63daea163156b1.
+
+
+### NINOX-NATALIS-ADULT-BARRING-2026 — Christmas Island Boobook adult plumage cross-check
+- Stable ID: NINOX-NATALIS-ADULT-BARRING-2026
+- Sources actually read: Australian Government Christmas Island National Park bird profile (accessed 2026-10-22), https://www.dcceew.gov.au/parks-heritage/christmas-island/nature/birds ; OwlPages species account (accessed 2026-10-22), https://www.owlpages.com/owls/species.php?s=620 ; Australian Government threat-abatement plan (PDF species listing only; accessed 2026-10-22), https://www.dcceew.gov.au/sites/default/files/documents/exotic-rodents.pdf
+- Taxon/name mapping: Ninox natalis; Christmas Island hawk-owl / Christmas Boobook; historical Ninox forbesi natalis retained as a name crosswalk only.
+- Fact: institutional account supports bright yellow eyes, tawny-orange upperparts and orange/white barred underparts. OwlPages describes the breast as whitish and finely barred rufous.
+- Limitation/confidence: descriptions do not prescribe exact bar count, spacing or individual geometry; no sex-specific ventral difference was established. High confidence for fine rufous-on-pale barring direction, low confidence for exact geometry.
+- Design inference/application: in [#113 v6](../design/concepts/113-ninox-natalis-v6.png), only adult ventral markings were changed from broad mechanical bands to finer irregular broken bars. All other features and the v5 older juvenile were retained. scientifically_verified=false.
+- Cycle audit: new verified sources 0; reused 2; new limited lead 1; corrected sources 0. Image commit 2dc9296d1306a3dfcca6518ae6dbffe428fd6372. [Run record](../production/runs/2026-10-22T1031+0800-cycle-6.md).
+
+
+### NINOX-PHILIPPENSIS-TAXON-DESIGN-2026 — Luzon Boobook taxonomy and concept boundaries
+- Stable ID: NINOX-PHILIPPENSIS-TAXON-DESIGN-2026
+- Rasmussen et al. (2012), “Vocal divergence and new species in the Philippine Hawk Owl Ninox philippensis complex,” Forktail; original taxonomic paper, abstract and diagnostic summary read; https://news.msu.edu/media/documents/2012/08/0cd74c7a-3869-429d-92e2-f4ff62cd82e8.pdf
+- U.S. Fish & Wildlife Service, Luzon Boobook species profile; institutional taxonomy record read; https://www.fws.gov/species/luzon-boobook-ninox-philippensis
+- eBird, Luzon Boobook species account; current range/habitat and adult identification text read; https://ebird.org/species/phihao1
+- BirdLife Data Zone factsheet; current species and endemic resident-range treatment read; https://datazone.birdlife.org/species/factsheet/luzon-boobook-ninox-philippensis
+- Taxon mapping: current Ninox philippensis is separated from the former broad Philippine Hawk-Owl complex; already archived Ninox spilocephala remains a distinct current species. Older broad N. philippensis usage is a historical crosswalk, not merged here.
+- Supported adult direction: small compact boobook, no ear tufts, yellow eyes, brown upperparts with restrained pale spotting, pale underparts with broad brown streaking, white eyebrow/moustachial facial marks; sexes visually similar.
+- Limitation: no strong primary juvenile-plumage sequence was found. The older juvenile in [#145 v1](../design/concepts/145-ninox-philippensis-v1.png) is conservative design inference, not an age reconstruction. Exact sex-size ratio and subspecies pattern remain unknown; scientifically_verified=false.
+- Cycle audit: new sources 4; reused 0; corrected 0. Image commit 5514fc0f750c7fa6a34444f8bbea128e62500fc5. [Run](../production/runs/2026-10-22T1126+0800-cycle-1.md).
+
+
+### NINOX-MINDORENSIS-DESIGN-2026 — Mindoro Boobook concept boundaries
+- Stable ID: NINOX-MINDORENSIS-DESIGN-2026
+- Rasmussen et al. 2012 taxonomic split paper, original diagnostic summary read: https://news.msu.edu/media/documents/2012/08/0cd74c7a-3869-429d-92e2-f4ff62cd82e8.pdf
+- eBird Mindoro Boobook account read: https://ebird.org/species/minboo2
+- BirdLife Data Zone factsheet read: https://datazone.birdlife.org/species/factsheet/mindoro-boobook-ninox-mindorensis
+- Supported direction: Mindoro endemic, earless, dark-brown head/back, warmer reddish-brown chest, yellow eyes and fine barring; sexes similar. This distinguishes [#146 v1](../design/concepts/146-ninox-mindorensis-v1.png) from the paler broad-streaked #145.
+- Limitation: no reliable juvenile-plumage sequence found; older juvenile is conservative inference with no exact age. Exact sex ratio and bar geometry unknown; scientifically_verified=false.
+- Cycle audit: new 0, reused 3, corrected 0. Image commit ae170dcd2187f495ac7a738f46158170e6e8ee2b. [Run](../production/runs/2026-10-22T1126+0800-cycle-2.md).
+
+
+## #147 *Ninox leventisi* — Camiguin Boobook — 2026-10-22
+| 稳定ID | 来源 | 年份 | 类型 | 物种/阶段 | 实际读取与页码/章节 | 关键事实 | 局限与用途 |
+|---|---|---:|---|---|---|---|---|
+| CAM-EBIRD-2026 | Cornell Lab/eBird, [Camiguin Boobook identification](https://ebird.org/species/camboo1) | 页面现行版，访问2026-10-22 | 机构物种页与标注照片索引 | *Ninox leventisi*，成年 | Identification及页面照片索引实际读取 | 中型、无耳簇；卡米金残存阔叶林；棕色头背、浅肩斑、暖棕腹面均匀细横斑、长脸须、白喉、浅黄色眼。 | 未提供雌雄测量、繁殖或幼鸟序列；支持成年识别和森林背景，不支持精确幼鸟阶段。可信度：高。 |
+| CAM-BIRDLIFE-2026 | BirdLife International, [Camiguin Boobook factsheet](https://datazone.birdlife.org/species/factsheet/camiguin-boobook-ninox-leventisi) | 页面现行版，访问2026-10-22 | 保护机构物种页 | *N. leventisi*，分布/保护 | 页面Range、Ecology、Taxonomy框架实际读取；动态数据表未完整暴露 | 卡米金岛狭域特有种，现存森林依赖方向。 | 动态字段无法完整读取；不用于羽色、性别或幼鸟判断，仅支持分布与保护背景。可信度：中高。 |
+| CAM-RASMUSSEN-2012-LEAD | Rasmussen et al., “Vocal divergence and new species in the Philippine Hawk Owl *Ninox philippensis* complex”, *Forktail* 28:1–20 | 2012 | 原始分类论文，部分读取线索 | *N. leventisi*，分类/成年诊断 | 搜索摘要及公开diagnosis摘录实际读取；PDF打开超时，未完成全文读取 | 支持七个异域种拆分；公开诊断摘录指向卡米金种独特灰至极浅黄绿色虹膜。 | 仅部分读取，明确标记未核验全文；不当作幼鸟、繁殖或完整形态证据。下一轮可补全文。可信度：中（本轮读取范围）。 |
+
+设计决策：#147 v1采用近等尺度成年雌雄，诊断性灰绿色眼、白喉、浅肩斑和暖棕细横斑；幼鸟只作不定日龄、短圆翼尾、双足枝上支撑的保守较大龄概念。未取得物种专属幼鸟序列、性别比或巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/147-ninox-leventisi.md)、[v1](../design/concepts/147-ninox-leventisi-v1.png)、[运行记录](../production/runs/2026-10-22T1531+0800-cycle-3.md)。
+
+
+## #148 *Ninox rumseyi* — Cebu Boobook — 2026-10-22
+- CEB-EBIRD-2026 — Cornell/eBird identification, https://ebird.org/species/cebboo1, actual Identification read: Cebu wooded areas; earless medium owl, dark-brown weakly barred upperparts, orange-brown underparts, white wing speckling, pale shoulder bar, bright yellow eyes, white eyebrow V, large white throat. No juvenile/sexed measurements.
+- CEB-BIRDLIFE-2026 — BirdLife Data Zone factsheet, https://datazone.birdlife.org/species/factsheet/cebu-boobook-ninox-rumseyi, actual page framework/range read: Cebu endemic, highly restricted remnant forest. Dynamic details incomplete; habitat context only.
+- CEB-RASMUSSEN-2012-LEAD — Rasmussen et al. 2012 Forktail 28:1–20, public abstract/diagnosis excerpt read; full PDF not retrieved. Supports species split; partial-read lead, not juvenile evidence.
+- CEB-JAKOSALEM-2012 — Jakosalem, Collar & Gill, “Habitat selection and conservation status of the endemic Ninox hawk-owl on Cebu”, Bird Conservation International, DOI 10.1017/S0959270912000317; abstract actual read. Five forest patches/2011 transects and forest dependence; full methods/results not read here.
+Design: nearly equal adults; age-unknown older juvenile with shortened rounded wing/tail and two-foot support. New verified source pages2, partial leads2, reused Philippine complex context1; science false. Related [species](../knowledge/species/148-ninox-rumseyi.md), [image](../design/concepts/148-ninox-rumseyi-v1.png), [run](../production/runs/2026-10-22T1531+0800-cycle-4.md).
+
+| NBBO-EBIRD-ID-2026 | Cornell Lab/eBird, [New Britain Boobook](https://ebird.org/species/nebhao1) | 页面现行版，访问2026-10-22 | 机构物种识别页 | *Ninox odiosa*，成年/生境 | Identification 概述 | 小型褐色鸮；暗褐头、显著白眉和白喉、橙黄色眼；宽褐胸带与浅色斑驳下体形成对比；暗巧克力褐上体/翼有散在白斑；新不列颠低地和山麓森林及改造林缘。 | 未提供可靠雌雄视觉差或幼鸟羽序；支持成年诊断、森林场景与近等成人比例。可信度：高。链接物种记录[149](../knowledge/species/149-ninox-odiosa.md)及v1。 |
+| NBBO-BIRDLIFE-2026 | BirdLife International, [New Britain Boobook factsheet](https://datazone.birdlife.org/species/factsheet/new-britain-boobook-ninox-odiosa) | 动态资料，访问2026-10-22 | 保护机构物种档案 | *N. odiosa*，分布/生境 | factsheet 摘要 | 新不列颠特有；资料不足但分布较广，在适生地相对常见。 | 摘要不足以支持幼鸟、巢位或雌雄比例；仅支持地域和保守雨林环境。可信度：高（范围），发育细节未知。 |
+| NBBO-AVIBASE-TAX-2026 | Denis Lepage / Birds Canada, [Avibase taxonomic concepts: *Ninox odiosa*](https://avibase.bsc-eoc.org/species.jsp?avibaseid=1C14F946E4885064&lang=EN) | 动态数据库，访问2026-10-22 | 分类名录聚合 | *N. odiosa*，历史名称 | Taxonomic concepts | 现行组合为 *Ninox odiosa* Sclater 1877；历史英文名包括 Russet/New Britain Hawk-Owl，Clements后期采用 New Britain Boobook。 | 仅支持分类与旧名检索映射，不支持形态或发育。可信度：中高。 |
+
+
+## #150 *Ninox variegata* — New Ireland / Bismarck Boobook — 2026-10-22
+| 稳定ID | 来源 | 年份 | 类型 | 物种/阶段 | 实际读取与页码/章节 | 关键事实 | 局限与用途 |
+|---|---|---:|---|---|---|---|---|
+| NIBO-EBIRD-ID-2026 | Cornell Lab/eBird, [Bismarck Boobook](https://ebird.org/species/bishao1) | 页面现行版，访问2026-10-22 | 机构物种识别页与实物照片索引 | *Ninox variegata*，成年/生境 | Identification 概述及页面照片索引 | 小至中型、无耳簇、短尾；暗红褐上体和横斑肩羽，翼尾斑纹可变；暗褐面盘，虹膜记为褐或黄，喙脚黄；浅色素喉、上胸暗横斑、其余白色下体具红褐横斑；森林及林缘至约1000米。 | 无可靠雌雄视觉差和幼鸟序列；支持成年诊断、近等成人比例和森林场景。可信度：高。 |
+| NIBO-BIRDLIFE-2026 | BirdLife International, [Bismarck Boobook factsheet](https://datazone.birdlife.org/species/factsheet/bismarck-boobook-ninox-variegata) | 动态资料，访问2026-10-22 | 保护机构物种档案 | *N. variegata*，分布/生境 | factsheet 范围与生态框架 | 新爱尔兰/俾斯麦群岛方向及森林生态背景。 | 动态字段未完整暴露；不用于精确羽色、性别或幼鸟判断。可信度：中高（范围/生境）。 |
+| NIBO-AVIBASE-TAX-2026 | Denis Lepage / Birds Canada, [Avibase taxonomic concepts: *Ninox variegata*](https://avibase.bsc-eoc.org/species.jsp?avibaseid=9564C8049624F8B9&lang=EN) | 动态数据库，访问2026-10-22 | 分类名录聚合 | *N. variegata*，名称/分类 | Taxonomic concepts 与同物异名框架 | 支持现行学名及 New Ireland/Bismarck Boobook 英文名映射。 | 仅支持分类和检索映射，不支持发育细节。可信度：中高。 |
+
+设计决策：#150 v1采用近等尺度成年雌雄；以暗红褐上体、肩羽横斑、无显著白眉、浅素喉与横斑下体区分上一组新不列颠种。初稿幼鸟具有过长成人式层叠飞羽，已编辑为短圆紧凑翼、柔化体纹及双足自然支撑后复查。未取得物种专属幼鸟序列、性别比例或精确巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/150-ninox-variegata.md)、[v1](../design/concepts/150-ninox-variegata-v1.png)、[运行记录](../production/runs/2026-10-22T1728+0800-cycle-6.md)。
+
+
+## #151 *Athene jacquinoti* (historical *Ninox jacquinoti*) — West Solomons Owl — 2026-10-22
+| 稳定ID | 来源 | 年份 | 类型 | 物种/阶段 | 实际读取与位置 | 关键事实 | 局限与用途 |
+|---|---|---:|---|---|---|---|---|
+| WSO-EBIRD-ID-2026 | Cornell Lab/eBird, [West Solomons Owl](https://ebird.org/species/solboo1) | 页面现行版，访问2026-10-22 | 机构识别页及照片索引 | *Athene jacquinoti*，成年/分布 | Identification，第56–63行及照片索引 | 小型橙眼鸮，褐色上体有浅色小斑、下体较浅；偏好发育良好的森林，以低地为主，最高约1500米；分布自Bougainville、Buka、Choiseul至Florida Island；已从旧广义“Solomons Boobook”拆分。 | 不提供性别测量或幼鸟序列；支持当前名称、成年识别、橙眼和森林背景。可信度：高。 |
+| WSO-OWLPAGES-2020 | Deane Lewis / OwlPages, [Solomons Boobook](https://www.owlpages.com/owls/species.php?s=3320) | 更新2020-11-07，访问2026-10-22 | 专题物种页，二级来源 | *Ninox jacquinoti*，成年/旧名 | Introduction、Information，第49–80行 | 小至中型、无耳簇；旧名包括West Solomons Hawk Owl/Boobook；记录所罗门群岛分布并链接Mikkola 2013。 | 形态信息有限，非原始研究；只用于无耳簇和旧名交叉核验，不支持幼鸟或性别方向。可信度：中。 |
+| WSO-WBN-TAX-2026 | World Bird Names, [Solomons Boobook / *Ninox jacquinoti*](https://www.worldbirdnames.com/bird/solomons-boobook/9461.html) | 页面现行版，访问2026-10-22 | 分类历史聚合 | *N. jacquinoti*，分类/旧名 | Taxonomy与type locality，第49–77行 | 列出 *Ninox jacquinoti*、原组合 *Athene jacquinoti*、1850年描述和所罗门群岛模式产地；保留旧广义亚种历史线索。 | 与eBird当前属级处理不同，页面还保留旧广义分类；仅用于名称映射，不能用作形态或幼鸟证据。可信度：中。 |
+
+设计决策：#151 v1使用eBird当前名称 *Athene jacquinoti*，同时在档案保留项目图鉴常见旧名 *Ninox jacquinoti*。成年以橙眼、无耳簇、褐色浅斑上体、浅下体和森林背景为证据边界；更细的眉、喉和胸腹纹理仅作照片导向的保守设计，不视为定量诊断。首稿幼鸟出现过长层叠飞羽，编辑为更短圆、柔软的发育翼，翼端止于足部上方，并复查双足支撑。没有物种专属幼鸟序列、稳定性别二型或巢位证据，故 `scientifically_verified=false`。关联：[物种记录](../knowledge/species/151-athene-jacquinoti.md)、[v1](../design/concepts/151-athene-jacquinoti-v1.png)、[运行记录](../production/runs/2026-10-22T1828+0800-cycle-1.md)。
+
+
+## 2026-10-22 · #153 Maned Owl — *Jubula lettii*
+
+### MANED-ML-531449801-2023
+- Title/institution: [Macaulay Library asset ML531449801 — Maned Owl](https://macaulaylibrary.org/asset/531449801); Cornell Lab of Ornithology
+- Date/access: observation 2023-02-04; accessed 2026-10-22
+- Type: institution-hosted field photograph record with observer notes
+- Applies to: *Jubula lettii*, adult/unknown birds and one mobile immature; Equatorial Guinea primary forest
+- Evidence actually read: one immature flew a short distance and perched; it retained white juvenile facial feathers. Notes record sandy/rufous back and wings, large ear tufts, longish tail with underside bars, orange eyes, yellowish feet, reddish upper-breast wash and fine black vertical flank streaks.
+- Limits/confidence: page explicitly leaves age and sex unspecified; one observation cannot define a full developmental sequence or sexual dimorphism. High for this dated individual and locality, medium for generalisation.
+- Design support: older branch-supported immature with white juvenile facial feathering; adults use the recorded diagnostic palette and silhouette.
+
+### MANED-ITIS-555440-2026
+- Title/institution: [ITIS report TSN 555440 — *Jubula lettii*](https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555440&source=to_print)
+- Date/access: current report; accessed 2026-10-22
+- Type: government taxonomic database
+- Applies to: species identity and historical name
+- Evidence actually read: *Jubula lettii* is valid; synonym *Bubo letti*.
+- Limits/confidence: taxonomy only; does not support morphology, sex or juvenile development. High for naming use.
+- Design support: current label *Jubula lettii* and legacy-name research mapping.
+
+### MANED-BHL-HABITAT-1992
+- Title/source: [On the vocal behaviour and habitat of the maned owl *Jubula lettii* in south-western Congo](https://www.biodiversitylibrary.org/part/77066), *Bulletin of the British Ornithologists’ Club* 112:213–218
+- Date/access: 1992; accessed 2026-10-22
+- Type: original field article, BHL-hosted metadata/article access
+- Applies to: habitat and vocal-behaviour research context
+- Evidence actually read: article identity, publication details, pages and habitat focus.
+- Limits/confidence: this run did not extract a juvenile description from article pages; therefore it is not used for juvenile plumage. High for bibliographic/habitat scope.
+- Design support: Central African forest habitat context only.
+
+### MANED-BIRDLIFE-LIST-2026
+- Title/institution: [BirdLife International list of owl species](https://www.birdlife.org/birds/list-of-owl-species/)
+- Date/access: current page; accessed 2026-10-22
+- Type: conservation/taxonomic list
+- Applies to: *Jubula lettii*
+- Evidence actually read: Maned Owl *Jubula lettii* is listed as Data Deficient.
+- Limits/confidence: list entry supplies no juvenile sequence or sex measurements. High for the displayed category only.
+- Design support: requires explicit uncertainty labels and forbids claiming scientific approval from a concept image.
+
+
+## 2026-10-22 · #154 Jamaican Owl — *Pseudoscops grammicus*
+
+### JAM-PEREGRINE-2026
+- Title/institution: [Jamaican Owl](https://peregrinefund.org/explore-raptors-species/owls/jamaican-owl), The Peregrine Fund
+- Date/access: current page; accessed 2026-10-22
+- Type: raptor-research institution species account
+- Applies to: adult, habitat, nest and evidence gaps
+- Evidence actually read: Jamaica endemic, chiefly lowland open woodland/forest edge; dark eyes, bright rufous body, fine black breast streaks, white/black-edged facial disk and prominent ear tufts; tree cavities or forks and up to two eggs.
+- Limits/confidence: page explicitly says nestling growth, first flight age and parental care remain unknown; no sex measurements. High for account facts, deliberately insufficient for exact juvenile age.
+- Design support: adult recognition and wooded-edge/cavity setting; no invented sex dimorphism or fledging age.
+
+### JAM-BIRDSEYE-YOUNG-2018
+- Title/source: [BirdsEye Photography Jamaican Owl review index](https://birdseye.photo/photos/review/3591/jamaican_owl/)
+- Date/access: site copyright 2018; accessed 2026-10-22
+- Type: species-labelled image index
+- Applies to: adult and downy young
+- Evidence actually read: two adult entries and one *Pseudoscops grammicus* entry labelled “Downy young”.
+- Limits/confidence: visible index does not provide day-age, measurements or continuous feather sequence. Medium; supports stage existence only.
+- Design support: conservative downy, age-unknown young bird with no mature remiges.
+
+### JAM-BIRDLIFE-2026
+- Title/institution: [Jamaican Owl species factsheet](https://datazone.birdlife.org/species/factsheet/jamaican-owl-pseudoscops-grammicus), BirdLife International
+- Date/access: current page; accessed 2026-10-22
+- Type: conservation/taxonomic factsheet
+- Applies to: species identity/factsheet mapping
+- Evidence actually read: page identity and assessment framework; morphology fields were not exposed in the readable dynamic page.
+- Limits/confidence: not used for plumage or juvenile design. High for page identity only.
+- Design support: stable factsheet linkage, no extra morphological inference.
+
+
+## 2026-10-22 · *Scotopelia ussheri* · #155
+
+| Stable ID | Source | Date/type | Scope | Evidence read | Limits / design use |
+|---|---|---|---|---|---|
+| RFO-BIRDLIFE-2026 | BirdLife International, [Rufous Fishing-owl factsheet](https://datazone.birdlife.org/species/factsheet/rufous-fishing-owl-scotopelia-ussheri) | current page, accessed 2026-10-22; conservation institution | species, range/habitat | Endemic to Upper Guinea forests; records concentrated around forest river systems. | Does not provide a juvenile sequence or sex-specific measurements; supports habitat only. Confidence: high. |
+| RFO-FWS-TAX-2026 | U.S. Fish & Wildlife Service, [Rufous Fishing Owl](https://www.fws.gov/species/rufous-fishing-owl-scotopelia-ussheri) | current page, accessed 2026-10-22; government taxonomy profile | taxonomy | Confirms current scientific name *Scotopelia ussheri*. | Taxonomy only; no morphology or development inference. Confidence: high for nomenclature. |
+| RFO-WABC-MONTICELLI-2015 | Monticelli, Koroma & Bannah, “Observations of Rufous Fishing Owl *Scotopelia ussheri* in Sierra Leone,” *Bulletin of the African Bird Club* 22(2):183–189 | 2015; field-observation synthesis | adult encounters/habitat | Summarises twelve sufficiently documented visual encounters since 1989 in Sierra Leone, chiefly Gola Forest and Tiwai Island. | Search-accessible abstract does not expose full morphology measurements; used for locality/habitat, not plumage geometry. Confidence: medium-high. |
+| RFO-ABC-JUV-2022 | “Juvenile Rufous Fishing Owl *Scotopelia ussheri* in Guinea” | 2022; photographic note | juvenile | Presents photographs of a juvenile captured in south-east Guinea in October 1993. | Exact age, sex, measurements and continuous feather sequence are not available in the accessible text; supports an older photographed juvenile stage only. Confidence: medium-high. |
+| RFO-OWLPAGES-JUV-2003 | OwlPages / Guy Rondeau, [juvenile Rufous Fishing Owl](https://www.owlpages.com/owls/species.php?i=377) | photo taken Dec 2003; specialist photo record | juvenile/perching | Young owl from Duékoué, Côte d’Ivoire, photographed roosting in a small tree. | Captive-rescue context and no exact age; supports formed plumage and perch capability, not natural nest details. Confidence: medium. |
+
+| PFO-BLSA-REDLIST-2025 | BirdLife South Africa, [Pel's Fishing Owl](https://www.birdlife.org.za/red-data-book/red-list/pels-fishing-owl/) | 2025 assessment; accessed 2026-10-22 | conservation-institution assessment with literature synthesis | *Scotopelia peli*, adults, juvenile down, habitat/nesting | Identification; Biology & Ecology; lines 123–148 in retrieved page | 63 cm/2.14 kg; dark-eyed, orange-rufous round-headed owl; sexes similar, female slightly larger and male deeper rufous; bare tarsi; juveniles retain most pale white down during first six months; riparian systems and natural tree cavities. | Literature synthesis, not continuous nestling imagery; supports conservative white-down cavity juvenile but not exact age or feather geometry. Confidence: high for stated boundaries. |
+| PFO-FWS-TAX-2026 | U.S. Fish & Wildlife Service, [Pel's Fishing Owl](https://www.fws.gov/species/pels-fishing-owl-scotopelia-peli) | current page; accessed 2026-10-22 | government taxonomy profile | *Scotopelia peli* | Overview / taxonomic tree | Confirms current scientific name and genus. | Taxonomy only; does not support morphology or development. Confidence: high for name. |
+| PFO-OWLPAGES-2020 | Deane Lewis / Owl Pages, [Pel's Fishing Owl](https://www.owlpages.com/owls/species.php?s=1430) | updated 2020-10-22; accessed 2026-10-22 | specialist owl reference synthesis | *S. peli*, adults, breeding, older juvenile | Description, Breeding, Habitat, refs. Mikkola 2013 and König & Weick 2008 | Ginger-rufous barred adults, dark-brown eyes, bare straw lower legs/toes, natural cavity nest, 68–70 day fledging, older-juvenile wail. | Secondary synthesis; used for cross-checks, not exact juvenile proportions. Confidence: medium-high. |
+| VFO-BM-CAT-1875 | R. B. Sharpe / British Museum, [Catalogue of the Birds in the British Museum, vol. II](https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf) | 1875；访问2026-10-23 | 原始分类描述/博物馆标本目录 | *Scotopelia bouvieri*，成年 | species account pp.11–12 / Plate I | 成鸟暗褐底、头颈黑色羽轴纹、全上体黄褐虫蠹纹；肩羽外翈浅黄形成肩斑；飞羽与尾羽横斑；模式成鸟全长约20.5英寸、翼13.6英寸、尾7.8英寸、跗跖2.35英寸。 | 19世纪标本色泽可能受保存影响，且单一成鸟测量不能代表两性；用于虫蠹纹、肩斑和整体尺度方向，不换算雌雄站高。可信度：高（原始描述）。 |
+| VFO-IBIS-YOUNG-1904 | G. L. Bates, [On Birds from the Cameroon](https://upload.wikimedia.org/wikipedia/commons/0/02/The_Ibis_%28IA_ibis841904brit%29.pdf) | 1904；访问2026-10-23 | 博物馆标本报告 | *S. bouvieri*，成年雌鸟与幼鸟标本 | The Ibis 1904, pp.102–103，species 42 | 报告一只接近成年的雌鸟腹面几乎全白、胁具黑横斑、腿具赤褐横斑；同馆另有来自Ogowé、Aruwimi及Cameroon的幼鸟标本，证明幼羽材料存在。 | 摘录没有给幼鸟详细羽序/日龄；只支持雌鸟腹面方向和“幼鸟可见”的事实，不据此发明精确幼羽。可信度：高（同期标本记录）。 |
+| VFO-OISEAUX-LIFE-2026 | Oiseaux.net, [Vermiculated Fishing Owl](https://www.oiseaux.net/en/oiseaux/vermiculated.fishing.owl.html) | 页面现行版；访问2026-10-23 | 鸟类资料页/文献综述 | *S. bouvieri*，成年、繁殖与幼鸟 | Description；Reproduction/nesting | 46–51 cm；无耳簇、暗眼、奶油至黄色喙、淡黄色裸腿；常利用大型鸟类旧枝巢；育雏生物学仍很少；幼鸟成熟慢，部分个体孵化后三个月仍保留mesoptile中雏羽。 | 二级综述且繁殖结论稀少；用于保守的较大未成熟幼鸟与旧枝巢方向，不赋精确日龄或飞行能力。可信度：中。 |
+| VFO-BIRDLIFE-2026 | BirdLife International, [Vermiculated Fishing-owl species factsheet](https://datazone.birdlife.org/species/factsheet/vermiculated-fishing-owl-scotopelia-bouvieri) | 动态页；访问2026-10-23 | 国际保护机构物种页 | *S. bouvieri*，分布与生态 | Range、Ecology、Taxonomy（动态表部分未加载） | 现名及广阔刚果盆地河流附近分布得到确认；页面明确列出生态/栖息地模块但动态细节未完整载入。 | 仅将实际显示的现名与总体河流分布作为核验事实；未加载字段不作已读证据。可信度：高（分类/分布用途）。 |
+| VFO-FWS-TAX-2026 | U.S. Fish & Wildlife Service, [Vermiculated Fishing Owl](https://www.fws.gov/species/vermiculated-fishing-owl-scotopelia-bouvieri) | 页面现行版；访问2026-10-23 | 政府分类页 | *S. bouvieri* | Overview、Taxonomic tree | 官方页确认现名 *Scotopelia bouvieri* 与TSN 555424。 | 不提供形态、幼鸟或繁殖细节；仅用于现名核对。可信度：高（分类用途）。 |
+| OBO-OWLPAGES-2020 | Deane Lewis / The Owl Pages, [Oriental Bay Owl](https://www.owlpages.com/owls/species.php?s=270) | 更新2020；访问2026-10-23 | 猫头鹰物种专页/文献综述 | *Phodilus badius*，成年、巢位 | Description、Habits、Breeding、Habitat | 22.5–29 cm；大暗褐眼，奶油黄/粉角质喙；狭长分裂式脸盘、眼部栗色纵带、V形额盾；栗色背部有黑/浅黄羽轴斑；短圆翼；跗跖羽至趾关节；雌鸟仅略大。树洞、腐朽树干/树桩洞、棕榈叶层及巢箱均有记录。 | 明确写孵化期和离巢期未知，未给幼鸟羽序；用于成年、森林与巢位，不把常见网文六周离巢当证据。可信度：中高。 |
+| OBO-WOT-2023 | World Owl Trust, [Back in the Collection](https://www.owls.org/world-owl-trust-news/back-in-the-collection) | 2023；访问2026-10-23 | 专业猫头鹰保育机构观察/实物照片 | *P. badius*，成年 | 正文与Figure 1–2 | 橙栗色上背、浅黄褐胸脸、大暗眼，宽V形分裂脸盘，脸盘上角为很短圆的plumicorn；短圆翼适应密林穿行；长趾和强钩爪。 | 圈养观察，不提供野外幼鸟发育和分性别测量；用于面盘、眼、翼形与足部方向。可信度：中高。 |
+| OBO-VNWILDLIFE-2025 | Vietnam Wildlife, [Oriental Bay Owl](https://vietnamwildlife.org/2025/09/30/cu-lon-rung-oriental-bay-owl/) | 2025；访问2026-10-23 | 区域野生实物照片/双语说明 | *P. badius*，成年 | 照片与Description | 约25 cm；暗边浅黄脸盘、三角形短羽簇、大黑眼；淡黄灰上体具金色斑、浅黄白下体带黑斑；雄雌外观相似。 | 单次照片说明，无幼鸟或测量序列；用于成年实物交叉核验和避免夸大性别差。可信度：中。 |
+| OBO-FG-2014 | Field Guides, [Thailand tour report](https://fieldguides.com/triplists/tha14b-extLIST.pdf) | 2014；访问2026-10-23 | 野外观察旅行报告PDF | *P. badius*，繁殖与幼鸟 | species checklist note | 记录成鸟守在巢树附近并照看一只幼雏，证明物种专属树巢幼鸟观察。 | 未提供幼雏日龄、羽被照片或动作能力；仅支持选择受洞口/巢树支撑的年龄未定幼鸟，不支持精确羽序。可信度：中。 |
+| OBO-BIRDLIFE-2026 | BirdLife International, [Oriental Bay-owl species factsheet](https://datazone.birdlife.org/species/factsheet/oriental-bay-owl-phodilus-badius) | 动态页；访问2026-10-23 | 国际保护机构物种页 | *P. badius*，分类/分布 | Species factsheet页面；动态表未完整加载 | 页面确认现名及南亚—东南亚分布。 | 动态生态字段未载入，不将空表当已读事实；仅用于现名和范围核验。可信度：高（分类/分布用途）。 |
+
+
+## 2026-10-23 · #159 Sri Lanka Bay Owl — *Phodilus assimilis*
+
+| Stable ID | Source | Date/type | Scope | Evidence actually read | Limits / design use |
+|---|---|---|---|---|---|
+| SLBO-EBIRD-ID-2026 | Cornell Lab/eBird, [Sri Lanka Bay-Owl](https://ebird.org/species/ceybao1) | current page; accessed 2026-10-23; institution identification page and photo index | adult, range/habitat | Heart-shaped facial disc, warm-brown upperparts and relatively clean underparts; dense wet forest. | No sex measurements or juvenile series; supports adult recognition and wet-forest setting only. Confidence: high for displayed identification. |
+| SLBO-FWS-TAX-2026 | U.S. Fish & Wildlife Service, [Sri Lanka Bay Owl](https://www.fws.gov/species/sri-lanka-bay-owl-phodilus-assimilis) | current page; accessed 2026-10-23; government taxonomy profile | current name/taxonomy | Confirms current name *Phodilus assimilis* and TSN 1063231. | Taxonomy only; no morphology or development inference. Confidence: high for nomenclature. |
+| SLBO-CBC-NEST-2007 | Uditha Hettige / Ceylon Bird Club, [Observations of a nesting pair of Ceylon Bay Owls](https://www.ceylonbirdclub.org/articles-2007-07.php) | CBCN July 2007 pp. 121–124; accessed 2026-10-24; detailed national bird-club field account | nesting pair, tree cavity, adults and nestlings | Actual article lines 43–70 read: prior evidence included three nestlings; 2007 nest was a vertical hollow in the broken top of a dead fishtail palm about 10 m high beside Sinharaja; no known sexual dichromatism, with pair differences possibly individual; adults can look plump or slender by feather posture. | No continuous nestling feather sequence, exact day-age, fledging measurements or fixed sex ratio. Supports a naturally supported cavity young and near-equal adult scale, while preserving uncertainty. Confidence: high for the observed nest; medium for broader generalisation. |
+| SLBO-INDIANBIRDS-ID-2026 | Indian Birds, [Sri Lanka Bay Owl](https://indianbirds.thedynamicnature.com/2017/05/sri-lanka-bay-owl-phodilus-assimilis.html) | current web account; accessed 2026-10-23; regional synthesis | adult, size, habitat | 25–30 cm and about 230 g; bulky bird with short legs, tail and wings; heart-shaped face, dark-brown spotted upperparts, buff underparts with scattered black spots; humid evergreen/semi-evergreen forest, wooded hillsides, mangrove and degraded forest. | Secondary synthesis and no sex/juvenile measurements; used only where consistent with institution/photo evidence. Confidence: medium. |
+| SLBO-KW-SYNTH-2008 | König & Weick account as quoted in current species synthesis, [Sri Lanka bay owl](https://de.wikipedia.org/wiki/Ceylonmaskeneule) | 2008 source attribution; page accessed 2026-10-23; tertiary gateway to specialist monograph | adult comparison and nesting | About 29 cm; darker and browner than *P. badius*, densely white/black spotted above, conspicuously barred wings/tail, pink-washed heart-shaped face; tree cavity and 2–3 white eggs reported. | Full monograph pages were not directly accessible in this run; marked as secondary/tertiary evidence and not used for exact juvenile anatomy. Confidence: medium. |
+
+Design boundary: #159 v1 uses near-equal adult scale, a pink-washed heart face, very dark eyes, dark brown densely spotted upperparts and clearly barred wings/tail to distinguish it from #158. The juvenile is an age-unknown, naturally supported cavity-rim chick with soft down, short rounded developing wings and a very short tail; no exact age, flight ability or continuous feather sequence is asserted. No stable visible sexual dimorphism or quantitative sex ratio was found. scientifically_verified=false.
+
+
+## 2026-10-23 · #84 Indian Scops Owl — *Otus bakkamoena* v6 facial-disc revision
+
+| Stable ID | Source | Date/type | Scope | Evidence actually read | Limits / design use |
+|---|---|---|---|---|---|
+| ISO-EBIRD-ID-2026 | Cornell Lab/eBird, [Indian Scops-Owl](https://ebird.org/species/insowl1) | current identification page; accessed 2026-10-23 | adult identification/photos | Medium-sized scops owl with prominent ear tufts, dark eyes, variable grey-to-brown plumage and a thin black border around the facial disc. | Does not define pixel-level feather geometry or juvenile sequence. High confidence for dark eyes and thin disc boundary. |
+| ISO-PF-FACE-2026 | The Peregrine Fund, [Indian Scops-owl](https://peregrinefund.org/explore-raptors-species/owls/indian-scops-owl) | current raptor institution account; accessed 2026-10-23 | adult facial disc/morphs | Grey-brown and rufous morphs; small ear tufts and darker feathers around the facial disc. | General account, no exact periocular feather measurements. High confidence for qualitative disc treatment. |
+| ISO-OWLPAGES-DESC-2020 | Deane Lewis / OwlPages, [Indian Scops Owl](https://www.owlpages.com/owls/species.php?s=760) | updated 2020; accessed 2026-10-23 | adult description | Facial disc pale grey-brown with a distinct blackish rim; forehead and eyebrows paler; eyes hazel-brown to dark brown; long prominent ear tufts with dark outer margins. | Secondary specialist synthesis, not a calibrated colour chart. Supports removing white circular eye “goggles” while preserving the broader pale disc and dark rim. Medium-high confidence. |
+
+Revision decision: v5 actual review showed a large pale circular feather ring around each adult eye, visually reading as goggles rather than one broader facial disc. v6 targets only those thick circular periocular rings: blend them into a continuous pale grey-buff disc, preserve dark eyes and a thin black outer disc rim, and retain the natural tree cavity, juvenile, feet, labels and all other composition. This is a visual correction, not scientific approval.
+
+### MINBOO-EBIRD-ID-2026 — Mindanao Boobook identification
+Cornell Lab of Ornithology / eBird, “Mindanao Boobook (*Ninox spilocephala*)”, current species account; https://ebird.org/species/minboo1 ; accessed 2026-10-23. Institutional identification account. Actual page text read: small lowland-forest owl on Mindanao; dark-brown head/upperparts with wing speckles, reddish-brown chest, white belly with thick reddish-brown streaking, yellowish eyes; smaller than Chocolate Boobook and lacks white on the chest. Applies to adults and habitat only. The account does not document juvenile age, posture, sex measurements or foot support, so those remain unknown. Supports preserving the already-reviewed v2 plumage and forest setting; it does not justify changing the immature plumage.
+
+### MINBOO-AVIBASE-TAXON-2026 — current/old-name mapping
+Avibase / Bird Studies Canada, “Mindanao Boobook *Ninox spilocephala*”, https://avibase.bsc-eoc.org/species.jsp?avibaseid=581CA4FF6396A3BC ; accessed 2026-10-23. Taxonomic database and original-description index. Actual page read: current combination *Ninox spilocephala* Tweeddale 1879, former English usage Mindanao Hawk-Owl, range Mindanao/Basilan/Dinagat/Siargao, original-description link and type locality Zamboanga, Mindanao. No juvenile-development or sex-size evidence. Supports current-name/old-name mapping only.
+
+### 2026-10-23 cycle 5 evidence boundary — #144 v3
+Fresh research added `MINBOO-EBIRD-ID-2026` and `MINBOO-AVIBASE-TAXON-2026`; reused `LZBO-RASMUSSEN-2012-LEAD` for the split-species diagnosis and older-immature boundary. The v2 plumage remains invariant. The only design edit is to reveal a short natural branch under the older immature and both feet gripping it, resolving ambiguous support without asserting new juvenile anatomy. Sources new/reused/corrected: 2/1/0. Exact juvenile age, soft-part colors, wing/tail sequence and quantified sex ratio remain unknown; scientifically_verified=false.
+
+
+## 2026-10-23 · #109 Northern White-faced Owl — *Ptilopsis leucotis* v6
+### NWFO-AVIBASE-TAX-2026
+Avibase / Birds Canada, “Northern White-faced Owl *Ptilopsis leucotis*”, https://avibase.bsc-eoc.org/species.jsp?avibaseid=E561A180ED8942F7 ; accessed 2026-10-23. Taxonomic database. Actual page read: current taxonomic concept consistently uses *Ptilopsis leucotis* and retains historical *Otus leucotis*. It provides no juvenile age, feather sequence or sex measurements; high confidence for naming only.
+
+Cycle boundary: reused `NWFO-OWLPAGES-2020` for adult white black-rimmed facial disc, long dark-tipped tufts, amber/orange eyes and horn-yellow bill. No directly read continuous species-specific juvenile series was found. v6 targets only repeated bright scalloped juvenile wing edges; exact age, continuous feather geometry, sex ratio and toe-feather extent remain unknown. Sources new/reused/corrected 1/1/0; scientifically_verified=false.
+
+
+## 2026-10-23 · #117 Sulawesi Scops Owl — *Otus manadensis* v6
+
+### SLSO-EBIRD-JUV-2026
+- Title: Sulawesi Scops-Owl *Otus manadensis*
+- Author/institution: Cornell Lab of Ornithology / eBird
+- Year: n.d.; accessed 2026-10-23
+- URL: https://ebird.org/species/susowl1
+- Type: institutional species account; secondary identification summary
+- Species/stage: *Otus manadensis*; juvenile
+- Actual content read: juvenile is described as heavily barred on back and crown; adult account also supports small brown owl, yellow eyes and feathered ear tufts.
+- Location: Identification text on species account; no stable page number.
+- Limits/confidence: useful for broad juvenile pattern and soft parts, but not a primary developmental study and gives no exact age, sex ratio or continuous feather sequence. Moderate confidence for design direction only.
+- Design decision: retain heavier crown/mantle barring while editing only regular decorative ventral/covert contours.
+
+### SLSO-OISEAUX-JUV-2026
+- Title: Sulawesi Scops-owl — *Otus manadensis*
+- Author/institution: Oiseaux-Birds / Françoise V.
+- Year: n.d.; accessed 2026-10-23
+- URL: https://www.oiseaux-birds.com/card-sulawesi-scops-owl.html
+- Type: secondary species account
+- Species/stage: *Otus manadensis*; juvenile and adult morphology
+- Actual content read: juvenile resembles adults but has heavier barring on crown and mantle; adult account provides 19–23 cm and 83–93 g ranges and yellow eyes.
+- Location: Description and juvenile paragraph; no stable page number.
+- Limits/confidence: compiled account, not primary ontogeny evidence; exact age, sex ratio and feather sequence absent. Moderate confidence for broad pattern only.
+- Design decision: corroborates preservation of crown/mantle barring; does not justify invented age-specific wing structure.
+
+Cycle boundary: new/reused/corrected source IDs 2/2/0. Reused `SLSO-MANAHAMPI-2012` and `SLSO-MIK2013-194`. v6 is a juvenile-only correction of repeated ventral/covert arcs. Exact age, sex ratio, continuous wing/tail sequence and flight ability remain unknown; `scientifically_verified=false`. [Run](../production/runs/2026-10-23T1134+0800-cycle-6.md) · [Image](../design/concepts/117-otus-manadensis-v6.png)
+
+
+## 2026-10-23 · #90 American Barn Owl — *Tyto furcata* v3
+
+### ABO-BC-SPECIES-2026
+- Title: Species Summary — *Tyto furcata*, American Barn Owl
+- Institution: Government of British Columbia
+- Year/access: n.d.; accessed 2026-10-23
+- URL: https://a100.gov.bc.ca/pub/eswp/speciesSummary.do?id=14636
+- Type: government species account, citing Bloom 1978 and Colvin 1984
+- Species/stage: *Tyto furcata*, adults, sex differences
+- Actual content read: adults 30–37 cm; females reported larger/heavier (569 g versus 475 g), darker and more heavily speckled; variability makes some individuals difficult to sex.
+- Location: ADULTS/species summary; no page number.
+- Limits/confidence: secondary synthesis, population and individual variation; body mass cannot be converted directly to image height. High confidence for direction, moderate for design magnitude.
+- Decision: female remains fuller/darker/more spotted, but the v2 exaggerated perspective scale is reduced.
+
+### ABO-MONTANA-MARTI-1992
+- Title: American Barn Owl — Montana Field Guide
+- Institution/source: Montana Natural Heritage Program / Montana Fish, Wildlife & Parks; morphology attributed to Marti 1992
+- Year/access: current online account; accessed 2026-10-23
+- URL: https://fieldguide.mt.gov/speciesDetail.aspx?elcode=ABNSA01030
+- Type: government field guide / secondary account
+- Species/stage: *Tyto furcata*, adult male/female
+- Actual content read: females average 34–40 cm and males 32–38 cm; female breast slightly darker and sometimes heavily spotted.
+- Location: Identification; no page number.
+- Limits/confidence: overlapping ranges and compiled citation; does not define an individual fixed ratio. High confidence for overlap and qualitative direction.
+- Decision: constrain display difference to modest, not universal.
+
+### ABO-MARTI-SEXAGE
+- Title: Sex and Age Dimorphism in the Barn Owl and a Test of Mate Choice
+- Author: Carl D. Marti
+- Venue/year: The Auk; original paper record, year as indexed in source record
+- URL: https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=22040&context=auk
+- Type: primary morphometric study
+- Species/stage: barn owl adults, sex and age
+- Actual content read from accessible record: females significantly larger in measured characters except wing chord and tail length; males have lower wing loading.
+- Location: abstract/summary record; exact table values not extracted in this run.
+- Limits/confidence: taxonomic treatment and population context require care; supports direction, not the exact 8–12% visual target. Moderate confidence for broad decision.
+
+Cycle boundary: new/reused/corrected source IDs 3/1/0. Existing v2 actual image and status reused. v3 changes only the right adult female's display scale; adult plumage, juvenile stage and support remain invariant. Exact pair ratio, juvenile age, toe geometry and feather sequence remain unknown; `scientifically_verified=false`. [Run](../production/runs/2026-10-23T1233+0800-cycle-1.md) · [Image](../design/concepts/90-tyto-furcata-v3.png)
+
+
+## 2026-10-23 · #94 Tawny-browed Owl — *Pulsatrix koeniswaldiana* v3
+
+### TKBO-EBIRD-ID-2026
+- Title/institution: Tawny-browed Owl, Cornell Lab of Ornithology / eBird
+- URL: https://ebird.org/species/tabowl1
+- Accessed: 2026-10-23
+- Type: institutional identification page and Macaulay media index
+- Evidence read: large brown owl with dark eyes, distinctive pale facial semicircles; humid/open woodland including Araucaria forest.
+- Limits/design use: adult identification and habitat only; no exact juvenile age or sex measurements.
+
+### TKBO-ECOREG-JUV-2026
+- Title/source: *Pulsatrix koeniswaldiana*, EcoRegistros species account
+- URL: https://www.ecoregistros.org/sheet/Pulsatrix-koeniswaldiana&idlugar=109873
+- Accessed: 2026-10-23
+- Type: regional observation/photo synthesis
+- Evidence read: juveniles are mostly white or creamy with a dark mask-like facial disc and acquire adult appearance gradually.
+- Limits/design use: secondary synthesis without continuous feather measurements; supports the pale dependent-juvenile direction, not exact day/wing length.
+
+### TKBO-RSD-2018
+- Title: Reverse Size Dimorphism Estimated by an Improved Method in Eight Species of Neotropical Owls
+- Access: indexed research record read 2026-10-23
+- URL: https://www.researchgate.net/publication/322258615_Reverse_Size_Dimorphism_Estimated_by_an_Improved_Method_in_Eight_Species_of_Neotropical_Owls
+- Type: morphometric study record
+- Evidence read: body mass is the more dimorphic metric; *P. koeniswaldiana* total-length dimorphism is near zero.
+- Limits/design use: available record is insufficient for a painted fixed ratio; adults remain near-equal display scale.
+
+Cycle boundary: v2 showed a central juvenile with adult-length layered remiges, regular white wing spots and a long tail. v3 changes only the juvenile to creamy-white/pale-buff mesoptile, dark mask, softer incomplete breast band, short rounded developing wings and no exposed long tail, while preserving both adults, labels, forest and two-foot branch support. Exact age, continuous feather sequence, flight ability and quantified sex ratio remain unknown; scientifically_verified=false.
+
+
+## 2026-10-23 — #107 *Strix fulvescens* v3
+
+### S107-EBIRD-FULOWL1
+- Title: Fulvous Owl *Strix fulvescens* species account
+- Author/institution: Cornell Lab of Ornithology, eBird
+- Accessed: 2026-10-23
+- URL: https://ebird.org/species/fulowl1
+- Type: institutional species account and reference photographs
+- Evidence read: adults have a rounded head, pale face, brown eyes, overall buffy tone, breast barring and belly streaking; highland pine-oak and evergreen forest.
+- Limits/design use: supports adult identity and cloud-forest context, not juvenile exact age, feather sequence or sex ratio.
+
+### S107-CAYAYA-2026
+- Title: Fulvous Owl in Guatemala
+- Author/institution: CAYAYA BIRDING
+- Accessed: 2026-10-23
+- URL: https://www.cayaya-birding.com/species/Fulvous-Owl.htm
+- Type: regional natural-history account with field photographs
+- Evidence read: the species occupies humid high-elevation/cloud forest, also pine-oak and conifer forest, and retains the historical combination *Syrnium fulvescens* plus past treatment as *Strix varia fulvescens*.
+- Limits/design use: supports habitat, adult field appearance and old-name mapping; no verified juvenile developmental series was available.
+
+### S107-OWLPAGES-2020
+- Title: Fulvous Owl
+- Author/institution: The Owl Pages
+- Year: 2020; accessed 2026-10-23
+- URL: https://www.owlpages.com/owls/species.php?s=1730
+- Type: secondary species account
+- Evidence read: nesting is generally in natural tree-trunk holes, incubation is reported as 28–30 days, and young have been observed in May.
+- Limits/design use: supports cavity-nesting context and conservative young stage only; not an original developmental study and does not justify exact day, wing length or flight ability.
+
+Cycle boundary: v2 adults and habitat were retained. The central juvenile's long dark layered remiges and exposed tail were inconsistent with its heavily downy depiction. v3 changes only that bird to short rounded down-covered wing buds with no long exposed remiges or tail, while preserving two-foot support, adults, labels and environment. Exact juvenile age, detailed molt sequence, flight ability and quantitative sex ratio remain unknown; scientifically_verified=false.
+
+
+## 2026-10-23 — #101 *Otus spilocephalus* v5
+
+### S101-EBIRD-MOSOWL2
+- Title: Mountain Scops-Owl *Otus spilocephalus*
+- Author/institution: Cornell Lab of Ornithology, eBird
+- Accessed: 2026-10-23
+- URL: https://ebird.org/species/mosowl2
+- Type: institutional species account and reference media
+- Evidence read: small brown owl of hilly and montane broadleaf forest; dark brown above, paler face and underparts, bright yellow eyes.
+- Limits/design use: supports adult identity and forest setting; does not establish exact juvenile age, wing-growth sequence or sex-size ratio.
+
+### S101-MACAULAY-212609901
+- Title: *Otus spilocephalus* media asset 212609901
+- Author/institution: Macaulay Library, Cornell Lab of Ornithology
+- Accessed: 2026-10-23
+- URL: https://macaulaylibrary.org/asset/212609901
+- Type: institutional field-media record
+- Evidence read: species-specific media lead used to check overall compact scops-owl proportions.
+- Limits/design use: accessible page did not expose a dated developmental sequence; treated as supporting media, not proof of exact brancher age or flight capability.
+
+### S101-IUCN-2024
+- Title: *Otus spilocephalus* assessment
+- Author/institution: BirdLife International / IUCN Red List
+- Year: 2024; accessed 2026-10-23
+- DOI: 10.2305/IUCN.UK.2024-2.RLTS.T22688579A263677414.en
+- Type: authoritative conservation/taxonomy assessment
+- Evidence read: current species treatment is *Otus spilocephalus*; historical synonym *Otus stresemanni* remains an old-name mapping.
+- Limits/design use: supports taxonomy and range context, not juvenile feather geometry.
+
+Cycle boundary: v4 showed a brancher with spread, adult-length, regularly layered and barred wings. v5 folds and shortens only the juvenile wings, removes the exposed long tail, retains short developing coverts and makes both feet visibly grip one branch. Adults, text, cavity and forest remain unchanged. Exact age, continuous feather sequence, flight ability and quantitative sex ratio remain unknown; scientifically_verified=false.
+| S099-EBIRD-GRHOWL2 | Cornell Lab of Ornithology / eBird, [Lesser Horned Owl](https://ebird.org/species/grhowl2) | 页面现行版；访问2026-10-23 | 机构物种页、标注影像与分布概述 | *Bubo magellanicus*（旧资料亦见 *Bubo virginianus magellanicus*），成年、环境 | Overview、照片与分布信息 | 本种使用开放林、农田及草地等较开阔环境；页面采用英文名 Lesser Horned Owl。 | 页面未提供幼鸟精确日龄、巢材或分性别线性测量；本轮只支持开阔环境方向，不将开阔环境固定为唯一生境。可信度：高。 |
+| S099-ORNNEO-2020-URBAN-NEST | Ornitología Neotropical, [First report of a Magellanic Horned Owl (*Bubo magellanicus*) nesting in an urban environment](https://ornneo.ornitologianeotropical.org/index.php/ornneo/article/download/569/ON%2031%20%282020%29%20%23569.%2031-33/4193) | 2020 | 原始繁殖记录/同行评审短报 | *B. magellanicus*，巢与两只幼鸟 | pp.31–33；巢发现、92日监测与幼鸟结果 | 2018年8月首周发现一处城市巢，连续监测92日，两只幼鸟成功离巢；证明城市筑巢会发生。 | 单点异常/机会性记录，不能把铺砖阳台或城市建筑当作本种默认巢位；本轮因此把v1城市露台改为自然岩台，而保留“城市巢可能”作为范围边界。未读取到连续羽序，幼鸟精确年龄仍未知。可信度：高。 |
+| S099-BIRDNET-TAXONOMY | Cornell Lab of Ornithology / BirdNET, [Taxonomy: *Bubo magellanicus*](https://birdnet.cornell.edu/taxonomy/species/Bubo%20magellanicus) | 页面现行版；访问2026-10-23 | 机构分类与物种生态概述 | *B. magellanicus*，分布、环境、巢位 | Species account | 分布从秘鲁中部、玻利维亚西部，经智利和阿根廷西部至火地岛；见于开放林、灌丛、农田与草地；概述称在悬崖或岩间筑巢。 | 概述未给岩巢结构、幼鸟日龄/动作能力或雌雄外观差异；本轮只采用南安第斯/巴塔哥尼亚开阔灌丛、岩台与自然承托，不声称精确巢型或地点。可信度：中高。 |
+| S093-ORNNEO-2019-NEST | Bodrati et al., [Nidificación de la Lechucita Canela (*Aegolius harrisii*) en Misiones, Argentina](https://ornneo.journals.publicknowledgeproject.org/ornneo/index.php/ornneo/article/download/479/ON%2030%20%282019%29%20151-156.pdf) | 2019；访问2026-10-23 | 同行评审原始繁殖研究 | *A. harrisii*，巢、卵与孵化 | PDF pp.151–156，摘要及巢期记录 | 在大啄木鸟旧洞中确认繁殖，巢高9.6 m；三枚白卵隔日孵化，记录显示本种使用树洞，但繁殖生物学仍知之甚少。 | 论文没有提供可连续转绘的幼雏羽序或精确日龄外观；本轮只用树洞与早期幼雏边界，不从三枚卵推导本组必须画多只幼鸟。可信度：高。 |
+| S093-WIKIAVES-984948 | Gustavo Pinto / WikiAves, [*Aegolius harrisii* filhote photograph record 984948](https://www.wikiaves.com.br/984948%26t%3Ds%26s%3D10531%26tag%3DFOTOFILHOTE) | 2013；访问2026-10-23 | 带物种标签的野外照片记录 | *A. harrisii*，巢内幼鸟 | 页面物种、年龄与巢标签；照片 | 页面确认存在本种巢内幼鸟实拍，可作“幼鸟并非只能由近缘种推断”的视觉线索。 | 无精确日龄、测量、连续羽序或性别信息；仅作视觉存在检查，不能单独校准比例。本轮保守画一只闭眼、稀疏绒羽幼雏并明确年龄未知。可信度：中。 |
+| S093-FWS-TAXONOMY | U.S. Fish & Wildlife Service, [Buff-fronted Owl — *Aegolius harrisii*](https://www.fws.gov/species/buff-fronted-owl-aegolius-harrisii) | 页面现行版；访问2026-10-23 | 美国政府分类物种页 | *A. harrisii*，分类 | Overview、taxonomic tree | 接受学名 *Aegolius harrisii*，英文名 Buff-fronted Owl，属级为 *Aegolius*。 | 页面不支持幼鸟形态、巢位或性别差异；仅用于现名与物种身份回读。可信度：高（分类用途）。 |
+| EBO-AUSMUSEUM-ID-2026 | Australian Museum, [Eastern Barn Owl](https://australian.museum/learn/animals/birds/eastern-barn-owl/) | 页面现行版；访问2026-10-23 | 博物馆物种页 | *Tyto javanica*，成年、幼鸟与生境 | Identification、Habitat | 心形白色面盘；上体沙橙与浅灰、下体白至乳白，背胸均有黑斑；幼鸟羽色与成鸟相似；雌鸟通常略大；常见于农田、荒地及疏林等开阔干燥环境。 | “幼鸟相似”不等于任意阶段都具完整成鸟长飞羽；未给日龄、连续羽序或量化性别比例。本轮只支持保留家族羽色、雌鸟略大及澳洲疏林背景。可信度：高（博物馆）。 |
+| EBO-EBIRD-ID-2026 | Cornell Lab of Ornithology / eBird, [Eastern Barn Owl — *Tyto javanica*](https://ebird.org/species/eabowl1) | 页面现行版；访问2026-10-23 | 机构物种页与实物影像索引 | *T. javanica*，成年识别与行为 | Species account、media | 中型、心形面盘、深色眼；上体白黑细斑、灰褐翼；在开阔地夜间低缓飞行觅食。 | 未给雌雄可视比例或幼鸟日龄/羽序；仅约束成年外观及开阔地背景，不用于精确幼鸟校准。可信度：高（机构资料）。 |
+| EBO-MCLAUGHLIN-DEBUS-2025 | McLaughlin, J. G. & Debus, S. J. S., [Breeding biology and behaviour of the Eastern Barn Owl *Tyto javanica delicatula* in north-western Victoria](https://www.researchgate.net/publication/394591872_Breeding_biology_and_behaviour_of_the_Eastern_Barn_Owl_Tyto_javanica_delicatula_in_north-western_Victoria) | 2025；访问2026-10-23 | 繁殖生物学研究摘要 | *T. j. delicatula*，繁殖与离巢 | Abstract | 1987–1990年、14巢；窝卵3–6枚（通常4–5），每次繁殖离巢2–5只。 | 当前只读取公开摘要，未取得连续幼鸟照片或日龄羽序；不能据此精确绘制幼鸟阶段，仅确认本亚种繁殖资料存在。可信度：中（摘要已读、全文细节未核验）。 |
+
+
+
+## ELE-AKATANI2011-JRR
+
+- **Title:** Breeding Ecology and Habitat Use of the Daito Scops Owl (*Otus elegans interpositus*) on an Oceanic Island
+- **Authors:** Kana Akatani, Taro Matsuo, Masaoki Takagi
+- **Year:** 2011
+- **Source type:** peer-reviewed field study; full text read
+- **DOI / URL:** https://doi.org/10.3356/JRR-10-82.1 ; full-text mirror read at https://artefacts-discovery.researcher.life/full_text_files/DA-2/b0/b08a46ba4b3b3b479b767cf6cfbffccb/full_text/QY9j5MIU0LPmlYpR1bcjFQzTRKFCueUozDf963dNwcM=.pdf
+- **Accessed:** 2026-10-24
+- **Species / stage:** *Otus elegans interpositus*; breeding adults, nest sites and nestling provisioning; no calibrated juvenile plumage sequence
+- **Read location:** printed pp.315–319 (PDF pp.1–5), especially abstract, study-area/methods, nest-characteristics and diet sections
+- **Verified facts:** Most recorded nests were cavities in introduced *Casuarina* (n=30); two were vertical hollows in native fan palm. The study area is a fragmented Minami-daito landscape dominated by sugar cane and forest shelterbelts; nest and habitat variables were measured directly. Nestling diet was recorded from 25 nests.
+- **Design support:** Supports a Casuarina cavity with shelterbelt/agricultural-edge context for the Minami-daito concept. Does not support an exact juvenile age, feather length, sex ratio or a decorative nest substrate.
+- **Limitations / confidence:** High confidence for sampled nest-site and habitat facts; no direct quantitative plumage calibration extracted. Do not infer all *O. elegans* populations use introduced Casuarina.
+- **Linked artifacts:** `owl-pet/research/species/86-otus-elegans.md`; `owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md`; `owl-pet/design/concepts/86-otus-elegans-v3.png`
+
+
+### RUT-PEREGRINE-2026
+- Title: Madagascar Scops-owl
+- Author/Institution: The Peregrine Fund / World Center for Birds of Prey
+- Year/updated: accessed 2026-10-24
+- URL: https://peregrinefund.org/explore-raptors-species/owls/madagascar-scops-owl
+- Source type: raptor-research institution species account; full page read
+- Species/stage: *Otus rutilus*; adults, habitat, breeding/young evidence limits
+- Key facts: three color morphs (rufous, brown, gray), generally pale facial disc; rainforest, secondary forest and parks; daytime dense-foliage roost. Breeding and nestling development remain poorly known.
+- Section: “Where They Live”, “What They Do”, “Nest, Eggs, and Young” (lines 43–59 in retrieved page)
+- Limits/confidence: secondary institutional synthesis citing Birds of the World; explicitly does not establish juvenile feather sequence or a fixed sex ratio.
+- Design decision: supports retaining pale discs/rufous-brown morph and forest context; supports marking juvenile age and sequence unknown. Does not support mechanically repeated ventral chevrons.
+- Related: species #108; `design/concepts/108-otus-rutilus-v2.png`; `production/runs/2026-10-24T0429+0800-cycle-4.md`.
+
+### RUT-EBIRD-ID-2026
+- Title: Madagascar Scops-Owl — Identification
+- Author/Institution: Cornell Lab of Ornithology, eBird/Merlin
+- Year/updated: accessed 2026-10-24
+- URL: https://ebird.org/species/madsco1
+- Source type: research-institution identification account; full page read
+- Species/stage: *Otus rutilus*; adult identification and habitat
+- Key facts: small ear tufts; gray, brown and rufous variation; rufous birds more frequent in eastern rainforest; moist/dry forest, scrub and plantation habitats.
+- Section: Identification, lines 68–75
+- Limits/confidence: does not quantify ventral feather geometry, sex ratio or juvenile development.
+- Design decision: supports the rufous-brown adult direction and forest setting; adult belly pattern must remain irregular and evidence-bounded.
+- Related: species #108; `design/concepts/108-otus-rutilus-v2.png`.
+
+### RUT-VASSEN-2013-JUV
+- Title: Juvenile Madagascar Scops Owl (*Otus rutilus*), Andasibe, Madagascar
+- Author/Institution: Frank Vassen; Wikimedia Commons/Flickr
+- Year: photograph 2013; accessed 2026-10-24
+- URL: https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg
+- Source type: dated field photograph with author and locality metadata; full file page read
+- Species/stage: *Otus rutilus*; juvenile, exact age unknown
+- Key facts: confirms a photographed juvenile at Andasibe; metadata records 4 Dec 2013 and direct photographic origin.
+- Figure/metadata: original file 3670×2679; file description and metadata lines 100–136
+- Limits/confidence: single photograph; age, sex and continuous feather sequence unknown; identification inherited from contributor metadata.
+- Design decision: used only to avoid inventing an exact day-age and to retain a plausible fluffy older juvenile; not used to infer precise measurements.
+- Related: species #108; `production/runs/2026-10-24T0429+0800-cycle-4.md`.
+
+
+### LEU-OWLPAGES-2020
+- Title: Northern White-faced Owl — *Ptilopsis leucotis*
+- Author/Institution: Deane Lewis, The Owl Pages
+- Year/updated: 2020-10-25; accessed 2026-10-24
+- URL: https://www.owlpages.com/owls/species.php?s=1160
+- Source type: specialist species synthesis citing major owl monographs; full page read
+- Species/stage: *Ptilopsis leucotis*; adult soft parts, legs/feet, breeding and young
+- Read location: Description and Breeding, lines 63–76 in retrieved page
+- Verified facts: tarsi feathered to the basal half of the toes; distal toes dusky-brown with blackish claws. Young appear fully feathered around day 27 and may climb out; flight reported by days 30–32.
+- Limits/confidence: secondary synthesis, not a specimen measurement or continuous photo series. Exact featherlet count, individual toe coverage, pictured juvenile age and fixed sex ratio remain unknown. Confidence: medium-high for descriptive direction.
+- Design decision: adult proximal toe featherlets may reach roughly halfway; distal toes and claws must remain bare. Juvenile is preserved without numeric-age assignment.
+- Related: species #109; `design/concepts/109-ptilopsis-leucotis-v8.png`; `production/runs/2026-10-24T0530+0800-cycle-5.md`.
+
+### LEU-FWS-TAXONOMY
+- Title: Northern White-faced Owl
+- Author/Institution: U.S. Fish & Wildlife Service
+- Year/updated: current page; accessed 2026-10-24
+- URL: https://www.fws.gov/species/northern-white-faced-owl-ptilopsis-leucotis
+- Source type: official government taxonomy page; full page read
+- Species/stage: *Ptilopsis leucotis*; taxonomy only
+- Read location: Overview and Location in Taxonomic Tree, lines 169–201
+- Verified facts: accepts the current scientific name *Ptilopsis leucotis*, common name Northern White-faced Owl, genus *Ptilopsis*.
+- Limits/confidence: no plumage, juvenile or foot-anatomy evidence. Confidence: high for naming only.
+- Design decision: supports current-name mapping only; not used to infer morphology.
+- Related: species #109; `production/runs/2026-10-24T0530+0800-cycle-5.md`.
+
+
+### BSO-ENRIQUEZ-2010
+
+- **Title:** The ‘Near Threatened’ Bearded Screech-owl *Megascops barbarus*: diet pattern and trophic assessment using δ13C and δ15N stable-isotopes
+- **Authors / institution:** P. L. Enríquez et al.; *Bird Conservation International*
+- **Year / publication:** 2010, 20(1), pp. 25–33
+- **Stable URL / DOI:** https://doi.org/10.1017/S095927090999013X
+- **Accessed:** 2026-10-24
+- **Source type:** peer-reviewed research article
+- **Species / stage:** *Megascops barbarus*; adults sampled for feathers/diet analysis (not a juvenile-plumage study)
+- **Read section / valuable fact:** Abstract and introductory habitat description; 24 feather samples support a mainly insectivorous trophic signal, and the species is associated with humid montane/cloud and pine–oak forest around 1,800–2,500 m.
+- **Limitations / confidence:** High confidence for habitat and diet context; no support for exact juvenile age, sex ratio, or covert geometry. It cannot justify a literal juvenile feather map.
+- **Design / review decision:** supports retaining humid highland pine–oak context only. Juvenile texture correction continues to rely on the project’s field-photo sources `BSO-EISERMANN-FIELD` and `BSO-CAYAYA-FIELD`, with uncertainty preserved.
+- **Links:** [species record](../knowledge/species/110-megascops-barbarus.md) · [v3](../design/concepts/110-megascops-barbarus-v3.png) · [cycle record](../production/runs/2026-10-24T0828+0800-cycle-6.md)
+
+
+| SLBO-OWLPAGES-2020 | Deane Lewis / The Owl Pages, [Sri Lanka Bay Owl](https://www.owlpages.com/owls/species.php?s=280) | updated 2020-10-02; accessed 2026-10-24; specialist species synthesis | adult morphology, size, breeding/habitat | Actual description and breeding sections read: about 29 cm, short rounded wings, vinaceous-pink V-shaped facial disk, dark chestnut densely black/white-speckled upperparts, strongly barred wings/tail, pale buff spotted underparts; toes bare beyond buff-feathered legs; tree-hole breeding and young of very different sizes reported in November. | Secondary synthesis; no juvenile photograph, exact age, continuous feather map or quantified sex dimorphism. Supports retaining adult identity and only a conservative down-covered short developing juvenile wing. Confidence: medium-high for adult synthesis, low for exact juvenile geometry. |
+
+
+### BSO-IUCN-2020
+
+- **Title:** *Megascops barbarus* — Bearded Screech-owl
+- **Author / institution:** BirdLife International / IUCN Red List
+- **Year / accessed:** assessment 2020; accessed 2026-10-24
+- **URL:** https://doi.org/10.2305/IUCN.UK.2020-3.RLTS.T22688807A180130085.en
+- **Source type:** authoritative conservation assessment synthesizing published natural-history sources
+- **Species / stage:** *Megascops barbarus*; nesting and approximately three-week nestling
+- **Read location / facts:** Habitat and Ecology: montane evergreen and humid pine–oak forest at 1,800–2,500 m; the known June 2001 nest was a natural cavity 2.45 m above ground in a living *Quercus laurina*, with an adult red-morph female brooding one grey-morph nestling estimated at three weeks.
+- **Limitations / confidence:** The assessment does not publish a continuous photographic feather sequence or literal covert map. “Grey morph” and estimated age do not justify neat repeated arcs, exact feather counts, flight ability or a fixed sex-size ratio. Confidence high for the cited nest context, medium for using the brief stage description to bound art.
+- **Design decision:** v5 may depict one grey-brown approximately three-week nestling/older juvenile in an oak-cavity/pine–oak setting, with soft irregular developing coverts and no mechanical scallop rows; any formed remiges must remain modest and stage-bounded.
+- **Related:** #110; `owl-pet/knowledge/species/110-megascops-barbarus.md`; `owl-pet/production/runs/2026-10-24T1431+0800-cycle-2.md`.
+
+
+### SLSO-FWS-TAXONOMY-2026
+- **Title / institution:** Sulawesi Scops Owl / U.S. Fish & Wildlife Service
+- **Accessed:** 2026-10-24
+- **URL:** https://www.fws.gov/species/sulawesi-scops-owl-otus-manadensis
+- **Type / scope:** official government taxonomy page; *Otus manadensis* naming only.
+- **Read fact:** accepts genus *Otus*, species *Otus manadensis*, common name Sulawesi Scops Owl.
+- **Limits:** no morphology, sex difference, nest, juvenile age or feather-sequence evidence. High confidence for naming only.
+- **Decision / related:** supports current-name mapping for #117; no visual detail inferred; linked to `production/runs/2026-10-24T1535+0800-cycle-3.md`.
+
+### SLSO-AVIBASE-2026
+- **Title / institution:** Sulawesi Scops Owl (*Otus manadensis*) / Avibase, Bird Studies Canada
+- **Accessed:** 2026-10-24
+- **URL:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=DCE2207530B57EA4
+- **Type / scope:** taxonomic concept and checklist crosswalk.
+- **Read fact:** current checklist concepts retain *O. manadensis* for Sulawesi and document older broader usages; recent checklists separate formerly conspecific island taxa.
+- **Limits:** not a plumage or development study; cannot calibrate juvenile arcs, age, flight ability or sex ratio. Confidence high for checklist crosswalk.
+- **Decision / related:** prevents importing juvenile traits from Mentawai/Banggai taxa into #117; linked to `knowledge/species/117-otus-manadensis.md` and v7 run.
+
+
+### TBO-ABSA-AGEING-2019
+- Title: Tasmanian Boobook *Ninox leucopsis* — Ageing and sexing guide
+- Author/institution: Australian Bird Study Association
+- Year/accessed: 2019 / 2026-10-24
+- URL: https://absa.asn.au/wp-content/uploads/2019/12/Tasmanian-Boobook.pdf
+- Type: institutional banding/ageing reference, one-page PDF
+- Taxon/stage: *Ninox leucopsis*; juvenile and first immature
+- Verified facts: downy juvenile plumage; juvenile iris and leg/foot color ranges; post-juvenile moult completed about three months after fledging; first immatures retain juvenile remiges and rectrices until the end-of-first-year complete moult.
+- Location: one-page sheet, Ageing section.
+- Limits: does not provide a continuous day-by-day feather map or exact posture/flight milestone.
+- Decision: supports an older juvenile with retained formed flight feathers but softer/downier body surface; no exact day-age.
+
+### TBO-AFO-TSANG-2022
+- Title: A recent specimen of a Tasmanian Boobook *Ninox leucopsis* recovered on Lord Howe Island
+- Authors: Leah R. Tsang et al.
+- Year/accessed: 2022 / 2026-10-24
+- URL/DOI: https://afo.birdlife.org.au/afo/index.php/afo/article/view/2265 ; 10.20938/afo39143157
 - Type: peer-reviewed specimen/genetic study
 - Taxon/stage: genetically confirmed adult male *N. leucopsis*
 - Verified facts: confirmed male exhibited darker brown coloration and an overall clean-white spotted pattern.

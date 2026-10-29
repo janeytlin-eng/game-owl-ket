@@ -1,3 +1,49 @@
+# 2026-10-29 · #90 *Tyto furcata pratincola* v4 — documented P20 standing, down-dominant stage
+
+## ABO-WAGNER2022-P20
+
+- **Stable source ID:** `ABO-WAGNER2022-P20`
+- **Title / authors / year:** “Development of the horizontal optocollic reflex in juvenile barn owls (*Tyto furcata pratincola*)”; Hermann Wagner, Ina Pappe, Sandra Brill et al.; 2022.
+- **DOI / original URL:** https://doi.org/10.1007/s00359-022-01555-0 ; open full text https://link.springer.com/article/10.1007/s00359-022-01555-0
+- **Accessed:** 2026-10-29.
+- **Source type:** peer-reviewed open-access primary developmental study; Journal of Comparative Physiology A 208:479–492.
+- **Taxon / stage:** exact North American subspecies *T. f. pratincola*; six hand-raised young, P9–P65.
+- **Actually read / viewed:** full article Introduction and Methods/General observations, lines 79–102 and 145–161; Figure 1 full-size photo sequence directly viewed.
+- **Source facts:** eyes open around P10–12; thermal support is needed to about P15; young can stand/walk around P20; exploration increases after P30; flight begins around P60 and adult feather length around P67. Figure 1 shows P20 still strongly white-down-dominant with emergent dark wing feathers and an upright but low-supported stance.
+- **Limits / conflicts:** the six birds were hand-raised and the paper’s main endpoint was visual reflex, not wild nestling plumage. Timing cannot be universalised to every population or individual; Figure 1 is a stage series, not a quantified feather map.
+- **Design / review decision:** v4 deliberately replaces v1–v3’s late fully feathered juvenile with a P20 standing/walking juvenile: abundant white down, short emergent dark wing feathers, short/hidden tail and both feet supported on a flat nest-box floor. No branch perch or flight.
+- **Links:** [species card](../knowledge/species/90-tyto-furcata.md) · [v4 target](../design/concepts/90-tyto-furcata-v4.jpg) · [run](../production/runs/202610291458+0800-cycle-6.md)
+
+## ABO-PHILLIPS2022-GROWTH
+
+- **Stable source ID:** `ABO-PHILLIPS2022-GROWTH`
+- **Title / author / year:** “Developmental Growth Rates of American Barn Owl (*Tyto furcata*) Nestlings and Comparison of Sexes”; Emily Phillips; 2022.
+- **Original URL:** https://escholarship.org/uc/item/4d0278kp
+- **Accessed:** 2026-10-29.
+- **Source type:** University of California thesis record/primary morphometric study; abstract available, full item embargoed until 9 December 2028.
+- **Taxon / stage:** American Barn Owl nestlings/fledglings in California’s Central Valley; males and females.
+- **Actually read:** complete repository abstract and metadata.
+- **Source facts:** male and female fledged nestlings showed similar overall growth patterns; hallux, culmen and body mass at fledging had not reached adult values; the study concludes growth continues after fledging.
+- **Limits / conflicts:** no dataset/full text is available during the embargo and the abstract gives no P20 feather colours or fixed sex ratio. It cannot calibrate the exact size difference of a depicted pair.
+- **Design / review decision:** use as a growth/sex caution only: the P20 juvenile must not be a miniature adult, and adult female direction may be fuller/darker without forcing a universal proportional height gap.
+- **Links:** [species card](../knowledge/species/90-tyto-furcata.md) · [run](../production/runs/202610291458+0800-cycle-6.md)
+
+## Reused evidence, taxonomy and corrected inference
+
+- **FUR-CORNELL-CAM2010:** Texas nest-camera synthesis reused for nest-box context, darker/buffer/more spotted female tendency, paler male, and the long 35–65-day flight-feather development window.
+- **FUR-MIK2013-82:** printed pp.82–84 / PDF pp.84–86 previously read; reused for whitish facial disc with orange-brown rim, dark eyes, creamy bill, pale feathered legs/toes and *pratincola* adult colour direction.
+- **Current / historical name:** current project list uses *Tyto furcata* (subspecies *T. f. pratincola*); older literature frequently uses *Tyto alba pratincola*. This v4 does not merge the American taxon with project #01 European *T. alba*.
+- **Corrected design inference:** v1–v3 chose a late, nearly adult-feathered juvenile. V4 selects the directly pictured P20 locomotor boundary so stage-specific down, wing length and support can be inspected. “Can stand/walk” does not mean branch-perching or flight.
+- **Unknown:** individual sex, exact day, wild-vs-hand-raised timing shift, precise feather-tract sequence, toe geometry and an individual adult pair’s ratio. Science remains false. The user-uploaded Mikkola file was unavailable in this runtime; only the already indexed page notes are reused.
+
+## Full image-generation prompt
+
+Create a landscape 3:2 natural-history concept plate in the established warm painterly-realistic owl style, titled exactly “AMERICAN BARN OWL” with italic subtitle “Tyto furcata pratincola”. Show exactly three birds left-to-right with exact labels “ADULT MALE”, “~20-DAY JUVENILE”, “ADULT FEMALE”. Setting: a clean but natural wooden Texas ranch nest-box/loft opening with broad flat floor, sparse pellets/dry grass and open grassland light beyond; no woven nest, eggs, prey, humans, UI, border or extra birds.
+
+Adults: heart-shaped whitish facial discs with warm orange-brown rim, dark eyes, creamy horn bills, gold-grey mottled upperparts. Male very pale/white below with sparse spots; female modestly fuller/darker/buffer and more spotted, but height ranges overlap and the display difference must remain subtle. Pale feathered legs/toes, complete natural talons, secure two-foot support.
+
+Center juvenile: specifically around post-hatching day 20, when *T. f. pratincola* can just stand/walk but is nowhere near flight. It is smaller, low/upright with both feet fully supported on the flat box floor; body overwhelmingly wrapped in loose white natal down, rounded head without a finished adult heart-shaped disc, open dark eyes and small pale bill. Wings are only short side stubs with a few emerging dark brown quills/short juvenile feathers, not long folded adult wings; tail absent or hidden. Do not show branch perching, wing-spread, flight or adult-regular spot rows. Exactly three birds; all text legible and exact.
+
 # 2026-10-29 · #89 *Bubo bengalensis* v3 — c.35-day full-juvenile-plumage, pre-flight-inference boundary
 
 ## BEN-PANDE-DAHANUKAR2011

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T15:48:00+08:00",
+  "updated": "2026-10-29T15:51:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7872,26 +7872,25 @@
       "generated_blob": "c2023389728818cc5465d8980e26c82bed54f0d3",
       "generated_size_bytes": 531100,
       "generated_sha256": "affe6201ddc09d587ce6aec446999af0cd567af8ce71f12ecfc47871d5d9bfe0",
-      "generated_png_path": "production/generated/91-tyto-javanica-delicatula-v3-generated-master.png",
-      "generated_png_blob": "55407a0aeff19c242b6a0f8952a4b579737c616e",
-      "generated_png_size_bytes": 863562,
-      "generated_png_sha256": "46312939077b61a9bcb2628d0385f749809655a39e1d36899d2df4976327889e",
       "imagegen_original_sha256": "251d5c11052a83149215275a9f45f915435ae6839272088decfe5b990487a98e",
       "imagegen_original_size_bytes": 3129868,
       "reviewed_path": "production/reviewed/91-tyto-javanica-delicatula-v3-reviewed-master.jpg",
       "reviewed_blob": "c2023389728818cc5465d8980e26c82bed54f0d3",
       "reviewed_size_bytes": 531100,
       "reviewed_sha256": "affe6201ddc09d587ce6aec446999af0cd567af8ce71f12ecfc47871d5d9bfe0",
-      "reviewed_png_path": "production/reviewed/91-tyto-javanica-delicatula-v3-reviewed-master.png",
-      "reviewed_png_blob": "55407a0aeff19c242b6a0f8952a4b579737c616e",
-      "reviewed_png_size_bytes": 863562,
-      "reviewed_png_sha256": "46312939077b61a9bcb2628d0385f749809655a39e1d36899d2df4976327889e",
       "review_crop_path": "production/reviewed/91-tyto-javanica-delicatula-v3-juvenile-review-crop.jpg",
       "review_crop_blob": "fbe4b351969f8d57e6ae42f578057333f186b3eb",
       "review_crop_size_bytes": 205988,
-      "archive_note": "One juvenile-only edit. Full and crop reopened. ~46–52-day late pre-fledgling with developed fresh folded wings, residual down, visible tail and two-foot hollow-lip support passes. Exact day/sex, tract sequence and pair ratio unknown; science false.",
-      "readback_pending": true
+      "archive_note": "One juvenile-only edit. Full and crop reopened. ~46–52-day late pre-fledgling with developed fresh folded wings, residual down, visible tail and two-foot hollow-lip support passes. Exact day/sex, tract sequence and pair ratio unknown; science false. Connector PNG transfer truncated on fixed readback; invalid PNG paths removed before credit. Full-resolution JPEG masters retained.",
+      "readback_pending": true,
+      "rejected_png_transfer": {
+        "blob": "55407a0aeff19c242b6a0f8952a4b579737c616e",
+        "readback_size_bytes": 786445,
+        "expected_size_bytes": 863562,
+        "expected_git_blob": "5dd56269cfc19ccc5cd81192651201fd121498b2",
+        "action": "removed both PNG paths before verification"
+      }
     }
   ],
-  "updated_at": "2026-10-29T15:48:00+08:00"
+  "updated_at": "2026-10-29T15:51:00+08:00"
 }

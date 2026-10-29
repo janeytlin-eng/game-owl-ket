@@ -1,3 +1,4 @@
+- 2026-10-29T15:51:00+08:00: #91 v3 archive repair: fixed readback rejected truncated PNG blob 55407a0a (786,445B vs 863,562B); invalid PNG paths removed before credit; complete JPEG/crop retained; reread pending.
 - 2026-10-29T15:48:00+08:00: #91 *Tyto javanica delicatula* v3 ARCHIVED; one juvenile-only edit passed full+crop review. Concept/generated/reviewed JPEG+PNG and crop plus manifest516 committed; fixed-tree readback pending; unique +0; science false.
 - 2026-10-29T15:35:02+08:00: #90 *Tyto furcata pratincola* v4 VERIFIED at fixed archive `0932faa36441386c748694150eadd2f1af54a998`; six exact commit-pinned image path/blob/size checks passed. Batch `2026-10-29T1236+0800` COMPLETE 6/6; unique +0; science false.
 - 2026-10-29T15:33:12+08:00: #90 *Tyto furcata pratincola* v4 ARCHIVED; one juvenile-wing edit passed full+crop review. Concept/generated/reviewed JPEG+PNG and crop plus manifest515 committed; fixed-tree readback pending; unique +0; science false.

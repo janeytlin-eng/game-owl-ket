@@ -10042,10 +10042,24 @@
       "review_crop_sha256": "8f01ceeb3b77fd6b0914d582ddbb3955e057fe06da36fd4df3745eccd9915ea6",
       "review_crop_size_bytes": 232135,
       "archive_note": "Full 1536×1024 plate and 520×650 juvenile crop were opened; first render passed without edit. Existing v1–v3 and fixed species slot remain preserved.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "b92752f0383f986b0be88a82b8c1e67673f190a8",
+      "verified_at": "2026-10-30T06:33:00+08:00",
+      "fixed_commit": "b92752f0383f986b0be88a82b8c1e67673f190a8",
+      "verification_result": "non-truncated 1895-entry fixed tree; exact concept/generated/reviewed/crop path, blob and size tuples plus manifest, source index, research, run, knowledge and state records matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "b92752f0383f986b0be88a82b8c1e67673f190a8",
+        "concept": {"path": "design/concepts/26-glaucidium-siju-v4.jpg", "blob": "dc275f57293c98e40cab7ed763310857e6266c03", "size_bytes": 739126},
+        "generated": {"path": "production/generated/26-glaucidium-siju-v4-generated.jpg", "blob": "dc275f57293c98e40cab7ed763310857e6266c03", "size_bytes": 739126},
+        "reviewed": {"path": "production/reviewed/26-glaucidium-siju-v4-reviewed.jpg", "blob": "dc275f57293c98e40cab7ed763310857e6266c03", "size_bytes": 739126},
+        "review_crop": {"path": "production/reviewed/26-glaucidium-siju-v4-juvenile-crop.jpg", "blob": "95d2bfe493db1331dcc258e3017507697ce5ae4b", "size_bytes": 232135},
+        "source_index_blob": "7da635006cff13b2b97f46c135c9e663fbba0989",
+        "research_blob": "5d36f763531d313952cddf6ebc7e47b735dfecde",
+        "run_blob_at_archive": "b7124513d8b14ef938650bbcc4ae25e365bd7f9e",
+        "knowledge_blob": "fbc03b32ed64deeb5801e802e9ded30fba8a9e23"
+      }
     }
   ],
-  "updated_at": "2026-10-30T05:58:00+08:00"
+  "updated_at": "2026-10-30T06:33:00+08:00"
 }

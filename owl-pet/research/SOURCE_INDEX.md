@@ -5670,3 +5670,17 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 
 
 | MAG-ZAMBRANO-2022 | Brayan Zambrano, [Aves rapaces que nidifican en entornos urbanos y periurbanos de Santiago, Región Metropolitana, Chile central](https://aveschile.cl/wp-content/uploads/2023/06/3.-Aves-rapaces-que-nidifican-en-entornos-urbanos-y-periurbanos-de-Santiago-Chile-central.pdf) | 2022；访问2026-10-29 | 同行评审原始野外繁殖研究 | *Bubo magellanicus*；成年、约1周龄幼鸟、离巢前发育 | Revista Chilena de Ornitología 28(1):15–27；印刷pp.20–21，Fig.4 B–D（PDF pp.6–7） | 2015年圣地亚哥阳台巢的两只幼鸟约1周龄时仍有卵齿、眼睑已开；自动相机显示它们留巢直至飞羽（尾羽与飞羽）发育完成，约出生后50–56日离巢。Fig.4展示不同阶段和干植物层支撑。 | 单一城市繁殖对，不能代表普遍巢位或全部种群；没有给出逐日羽区测量、性别或首次飞行能力。本轮只将约1周龄卵齿/睁眼/低伏绒羽作为阶段边界，并把阳台明确标为有记录的个案背景。可信度：高。支持 #99 v3、运行记录 `owl-pet/production/runs/20261029T1830+0800-cycle-2.md`。 |
+
+
+### HUH-MUNOZ-2019
+- **Title:** Registros de reproducción y notas del cuidado parental de *Ciccaba huhula* en Colombia
+- **Authors / institution:** Jorge Muñoz-García, Cristian Camilo Castaño Vargas, Sergio Reyes-Bueno & David Ricardo Rodríguez-Villamil; Caquetá Birding / Fundación Neotropical / Universidad Pedagógica Nacional
+- **Year / publication:** 2019; *Spizaetus*, Boletín de la Red de Rapaces Neotropicales 28:15–20
+- **Original URL:** https://www.researchgate.net/publication/340393774_Registros_de_reproduccion_y_notas_del_cuidado_parental_de_Ciccaba_huhula_en_Colombia
+- **Accessed:** 2026-10-29
+- **Source type:** primary field observations with photographs/video
+- **Taxon / stage:** *Ciccaba huhula* = current *Strix huhula*; chick to fledgling, Caquetá, Colombia
+- **Actually read:** printed pp.17–19, Figs.2–5. A chick found on the ground on 30 August 2019 was returned to a low *Carapa guianensis* branch; both adults attended and delivered prey. On 7 September the same young was in the canopy and made short flights between branches while watched by an adult.
+- **Evidence limits / conflicts:** exact hatch date, sex, first-flight date, measured wing/tail length and full feather sequence were not given. These observations document one periurban family and do not establish a universal nest or habitat choice. The paper uses historical genus *Ciccaba*.
+- **Supported decision:** #100 v3 may use the photographed older fledgling stage with developed folded wings/tail and firm branch grip; it must not be shown as a helpless downy nestling or as fully adult-plumaged. The branch/periurban canopy is a documented case, not a default nest claim.
+- **Related:** owl-pet/research/100-strix-huhula-v3.md; owl-pet/production/runs/20261029T1842+0800-cycle-3.md; owl-pet/design/concepts/100-strix-huhula-v3.jpg

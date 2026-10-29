@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T18:40:00+08:00",
+  "updated": "2026-10-29T18:41:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8212,8 +8212,37 @@
       "review_crop_blob": "be31492e72fe99c76863f037a0dfe765b20c641d",
       "review_crop_size_bytes": 142918,
       "archive_note": "One adult-foot edit; edited full and chick crop reopened. Approx. one-week chick passes with limitations. Balcony is a documented case, not a default nest claim. Oversize PNG Git blobs did not preserve exact local bytes and were superseded before credit by complete 1536×1024 JPEG masters.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "7735200d31faca5081d62a06f2a3fae6d4317249",
+      "fixed_commit": "7735200d31faca5081d62a06f2a3fae6d4317249",
+      "verified_at": "2026-10-29T18:41:00+08:00",
+      "verification_result": "exact commit-pinned JPEG/crop path/blob/size pairs verified; superseded PNG paths absent; manifest, run, source index and species research record reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/99-bubo-magellanicus-v3.jpg",
+          "blob": "fd1fca4457bbb7422cc0dabb2f5264364273ad50",
+          "size_bytes": 667980
+        },
+        "generated_jpg": {
+          "path": "production/generated/99-bubo-magellanicus-v3-generated-master.jpg",
+          "blob": "b8fde8a6fb67d84bee8423915036a44b05dd920c",
+          "size_bytes": 709995
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/99-bubo-magellanicus-v3-reviewed-master.jpg",
+          "blob": "fd1fca4457bbb7422cc0dabb2f5264364273ad50",
+          "size_bytes": 667980
+        },
+        "review_crop": {
+          "path": "production/reviewed/99-bubo-magellanicus-v3-reviewed-chick-crop.jpg",
+          "blob": "be31492e72fe99c76863f037a0dfe765b20c641d",
+          "size_bytes": 142918
+        },
+        "superseded_png_paths_absent": true,
+        "fixed_commit": "7735200d31faca5081d62a06f2a3fae6d4317249"
+      }
     }
   ],
-  "updated_at": "2026-10-29T18:40:00+08:00"
+  "updated_at": "2026-10-29T18:41:00+08:00"
 }

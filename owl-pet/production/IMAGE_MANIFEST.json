@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T07:42:00+08:00",
+  "updated": "2026-10-30T07:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9677,8 +9677,40 @@
       "review_crop_sha256": "2068da2a25c35707fbb90e792393ddba30b1ca670c655f06f0189dbef1ba4544",
       "review_crop_size_bytes": 196592,
       "archive_note": "First full plate was opened; two targeted juvenile-only imagegen edits removed adult-like layered white-spotted coverts and concealed residual wing/tail. Final full plate and 520x700 crop were reopened. Exact text/count, adults, subtle size direction, spotted juvenile crown, yellow eyes and full cavity support passed. Existing v1-v3 and historical records remain retained.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "49fd5d43268a392176bad83c0ef4e8f20363d91b",
+      "fixed_commit": "49fd5d43268a392176bad83c0ef4e8f20363d91b",
+      "verified_at": "2026-10-30T07:45:00+08:00",
+      "verification_result": "fixed-commit fetch returned exact expected Git blobs and byte sizes for concept, generated, reviewed and juvenile crop; all three manifests, restored source index, research, run, knowledge, design/status and state blobs also matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "49fd5d43268a392176bad83c0ef4e8f20363d91b",
+        "concept": {
+          "path": "design/concepts/30-glaucidium-cuculoides-v4.jpg",
+          "blob": "a8214760b598288ec0aa09b6adf645608a773275",
+          "size_bytes": 662412
+        },
+        "generated": {
+          "path": "production/generated/30-glaucidium-cuculoides-v4-generated.jpg",
+          "blob": "3c358e678313354a48c5d0653c4dcb69dcbdbadf",
+          "size_bytes": 735369
+        },
+        "reviewed": {
+          "path": "production/reviewed/30-glaucidium-cuculoides-v4-reviewed.jpg",
+          "blob": "a8214760b598288ec0aa09b6adf645608a773275",
+          "size_bytes": 662412
+        },
+        "review_crop": {
+          "path": "production/reviewed/30-glaucidium-cuculoides-v4-juvenile-crop.jpg",
+          "blob": "8e588e5ca85dff685da1e50f1a0993b84b2cfde1",
+          "size_bytes": 196592
+        },
+        "source_index_marker": "ASBO-YIP-HKWP-2006",
+        "research_blob": "31f5b1c09f2354233324d023f7c6242c53af7c60",
+        "run_blob_at_archive": "cc7a2dc2f3eff667f0e2d59ae0ab4c5d0b10e46a",
+        "knowledge_blob": "d89d0844b9c6ee6269af2e6f049f3f411cdb314a"
+      }
     }
   ],
-  "updated_at": "2026-10-30T07:42:00+08:00"
+  "updated_at": "2026-10-30T07:45:00+08:00"
 }

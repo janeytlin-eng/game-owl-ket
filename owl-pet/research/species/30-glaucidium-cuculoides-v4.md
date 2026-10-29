@@ -49,3 +49,7 @@ The new institutional source strengthens the nesting-context audit but does not 
 - Edit 1: shortened and softened the juvenile wing, but the 520×700 crop still showed a small crisp white-spotted covert row.
 - Edit 2: concealed the residual row and tail under soft juvenile contour feathering while preserving the spotted crown, yellow eyes, feet and cavity posture.
 - Final review: full plate and juvenile crop were reopened at original resolution. The exact text, three owls, adult phenotype, subtle sex-size direction, juvenile head pattern, natural dual-foot/belly support and hidden immature wing/tail passed. Remaining uncertainties are the undated juvenile stage, soft-part chronology, flight threshold, sexed ratio and regional transferability. Result: `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
+
+## Archive verification
+
+Fixed archive commit `49fd5d43268a392176bad83c0ef4e8f20363d91b` returned exact blobs and byte sizes for the 662,412-byte concept/reviewed JPEG (`a8214760b598288ec0aa09b6adf645608a773275`), 735,369-byte first generated JPEG (`3c358e678313354a48c5d0653c4dcb69dcbdbadf`) and 196,592-byte juvenile crop (`8e588e5ca85dff685da1e50f1a0993b84b2cfde1`). Source index, research, run, knowledge, all three manifests, design/status and batch state also matched. This is one revision-cycle credit and zero unique-species increment.

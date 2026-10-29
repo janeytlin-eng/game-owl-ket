@@ -1,3 +1,47 @@
+# 2026-10-29 · #87 *Bubo ascalaphus* v3 — documented c.40-day juvenile boundary
+
+## ASC-ALSHEIKHLY2012-40D
+
+- **Stable source ID:** `ASC-ALSHEIKHLY2012-40D`
+- **Title / author / year:** “Breeding of Pharaoh Eagle Owl *Bubo ascalaphus* in Iraq”; Omar F. Al-Sheikhly; 2012.
+- **Original URL:** https://www.osme.org/wp-content/uploads/2019/10/I_Al-Sheikhly_Sandgrouse34-1-compr.pdf
+- **Accessed:** 2026-10-29.
+- **Source type:** primary field/local-market record with photographs; Sandgrouse 34:72–74.
+- **Taxon / stage:** *Bubo ascalaphus* (historical combination unchanged); juvenile c.40 days, full-sized young, adult.
+- **Actually read / viewed:** printed p.72 (PDF p.1) text and Plate 1; printed p.74 (PDF p.3) Plate 3/4 screenshot.
+- **Source facts:** the c.40-day juvenile had a distinct facial disc, creamy-sandy plumage, very pale newly developed flight feathers, developing breast marks, yellow iris, pale legs and medium dark claws. Its wild nest origin was a hole in a moderately elevated cliff in rocky arid Wadi Al Ubayiadh. A separate 2011 record labels two birds “full-sized but young,” without exact ages.
+- **Limits / conflicts:** the photographed c.40-day bird was in captivity; sex and flight ability were not reported. Plate 3 establishes “full-sized but young” only, not a universal timing or detailed ontogenetic sequence.
+- **Design / review decision:** v3 changes the juvenile from an age-unknown fluffy chick to an explicitly labeled c.40-day older juvenile with short pale developing remiges, an incomplete breast pattern and firm two-foot support; no flight claim. Use the cliff/rock context as habitat support, not a reconstruction of the captive pose.
+- **Links:** [species card](../knowledge/species/87-bubo-ascalaphus.md) · [v3 image](../design/concepts/87-bubo-ascalaphus-v3.png) · [run](../production/runs/20261029T1426+0800-cycle-3.md)
+
+## ASC-MOLDOVAN-SANDOR2009
+
+- **Stable source ID:** `ASC-MOLDOVAN-SANDOR2009`
+- **Title / authors / year:** “Breeding and food habits of a pair of urban Desert Eagle Owls *Bubo ascalaphus* in Hurghada, Red Sea coast, Egypt”; István Moldován & Attila D. Sándor; 2009.
+- **Original URL:** https://osme.org/wp-content/uploads/2019/10/18_Sandgrouse_31_Pages_73-78_Moldovan.pdf
+- **Accessed:** 2026-10-29.
+- **Source type:** primary nest study with dated nest visits and photographs; Sandgrouse 31:73–78.
+- **Taxon / stage:** *Bubo ascalaphus*; downy nestling, 30–33-day nestling, estimated 52–55-day nestling, fully feathered juvenile, adults.
+- **Actually read / viewed:** printed pp.74–76 (PDF pp.2–4), especially dated Results text and Plates 3–7.
+- **Source facts:** the pair nested in a rock crevice, in a sand scrape. On 9 May two ringed young were fully feathered and able to fly; another nestling was estimated 52–55 days old on 12 March; a 30–33-day small nestling and a separate fully feathered juvenile were recorded 28 June. Plate 4 shows a downy youngster with short developing wings; Plate 7 shows a fully feathered juvenile on the ground among rocks.
+- **Limits / conflicts:** the paper does not give a species-wide day-by-day plumage table; the 52–55-day estimate used a regression from another study. Plate 4’s exact age is not stated in its caption.
+- **Design / review decision:** supports keeping age classes distinct and tying wing development/action to the chosen stage. For v3, the c.40-day Al-Sheikhly bird remains the controlling stage; this source supplies rock-crevice/sand-scrape context and a check against giving a downy youngster mature wings.
+- **Links:** [species card](../knowledge/species/87-bubo-ascalaphus.md) · [v3 image](../design/concepts/87-bubo-ascalaphus-v3.png) · [run](../production/runs/20261029T1426+0800-cycle-3.md)
+
+## ASC-ISLAM2014-MAHAZAT
+
+- **Stable source ID:** `ASC-ISLAM2014-MAHAZAT`
+- **Title / author / year:** “Desert Eagle Owl *Bubo ascalaphus* breeding in Mahazat as-Sayd Protected Area in central Saudi Arabia”; Zafar-ul Islam; 2014.
+- **Original URL:** https://www.researchgate.net/publication/279974806_Desert_Eagle_Owl_Bubo_ascalaphus_breeding_in_Mahazat_as-Sayd_Protected_Area_in_central_Saudi_Arabia
+- **Accessed:** 2026-10-29.
+- **Source type:** short primary breeding note; Phoenix 30(1):12; author-uploaded abstract/full-text landing page read.
+- **Taxon / stage:** *Bubo ascalaphus*; six chicks described by the author as fledglings.
+- **Actually read / viewed:** article metadata and complete abstract on the author-uploaded page.
+- **Source facts:** six chicks/fledglings were found under a large rock on 1 April 2013 in Mahazat as-Sayd; an adult was nearby; the group was observed for a week.
+- **Limits / conflicts:** no ages, measurements or detailed plumage description are provided on the read page; “fledglings” is the author’s broad label and is not used to infer exact flight ability here.
+- **Design / review decision:** corroborates naturally supported young in under-rock desert settings, but does not control v3 juvenile plumage.
+- **Links:** [species card](../knowledge/species/87-bubo-ascalaphus.md) · [v3 image](../design/concepts/87-bubo-ascalaphus-v3.png) · [run](../production/runs/20261029T1426+0800-cycle-3.md)
+
 # 2026-10-29 · #62 *Ketupa sumatrana* v3 — late dependent juvenile boundary
 
 ## BEOW-SGBIRDS-RAPTOR-2021

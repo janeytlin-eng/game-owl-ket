@@ -5934,3 +5934,49 @@ Reused `LEO-SEIDENSTICKER-2006`, `LEO-MIKKOLA-2013-P504`, and `LEO-BTO-2026`. Co
 
 Reused: `SEO-MIKKOLA-2013-P512`, `SEO-USFWS-2026`, `SHEO-BTO-BIRDFACTS`, and the v3 record. Design correction: the 2000 Condor paper is by Arroyo, De Cornulier & Bretagnolle, not Martínez, Zuberogoitia & Alonso. Linked record: [#07 v4](species/07-asio-flammeus-v4.md); run: [cycle 3](../production/runs/20261030T0104+0800-cycle-3.md).
 
+
+
+## 2026-10-30 · #08 *Strix nebulosa* v5 — brancher colour, climbing mechanics and bounded sex-size direction
+
+### GGO-BULL-HENJUM-1990
+- Title: *Ecology of the Great Gray Owl*
+- Authors/institution: Evelyn L. Bull & Mark G. Henjum; USDA Forest Service Pacific Northwest Research Station
+- Year: 1990; accessed 2026-10-30
+- URL/DOI: https://research.fs.usda.gov/download/treesearch/5628.pdf ; https://doi.org/10.2737/PNW-GTR-265
+- Type: original multi-year field report / government technical report
+- Species/stage: *Strix nebulosa*, adults, nestlings and recently nest-departed juveniles in northeastern Oregon
+- Actually read: report abstract and nesting biology; PDF pp. 8–9 (printed pp. 4–5), PDF pp. 18–19 (printed pp. 14–15), and colour-plate captions PDF pp. 23–25. Study covered 24 pairs, 107 juveniles and 71 nesting attempts. Young left after about four weeks; just-out weights were 360–755 g. Owlets left before flight, climbing with talons, bill and wings; in the first days leaning barked trees were easiest. Within the first week 67% of recorded perches were leaning trees or trees reached via them; within two weeks juveniles could fly. Colour-plate A describes juvenile identification as fluffy gray plumage, yellow eyes, large size and no ear tufts; plate I is a just-out, nonflying juvenile on a leaning tree.
+- Evidence limits/conflicts: Oregon population and 1982–1988 field context; no daily feather-tract map or individual age from the plate. Supports stage, support and broad colour, not exact pose or universal timing.
+- Design decision: v5 uses a gray/charcoal-headed, pale-bellied, flightless brancher gripping bark with talons plus bill/short wing assistance; no adult rings or mature long remiges.
+- Links: [species record](species/08-strix-nebulosa-v5.md) · [run](../production/runs/20261030T0115+0800-cycle-4.md)
+
+### GGO-TORNBERG-MIKKOLA-RYTKONEN-2016
+- Title: Morphometric sex determination of Great Grey Owls *Strix nebulosa*
+- Authors/institution: Risto Tornberg, Heimo Mikkola & Seppo Rytkönen; University of Oulu / University of Eastern Finland
+- Year: 2016; accessed 2026-10-30
+- URL/DOI: https://boap.uib.no/index.php/ornis/article/download/991/901/4571 ; https://doi.org/10.15845/on.v39i0.991
+- Type: peer-reviewed museum-specimen morphometrics
+- Species/stage: 83 Finnish Great Grey Owl specimens, sexed internally
+- Actually read: PDF pp. 1–3 (printed pp. 6–9), especially abstract, methods and Table 1. Plumage is not sexually dimorphic. Females averaged forearm 147 mm versus males 138 mm; wing 457 vs 437 mm; body length 311 vs 292 mm; mass 1065 vs 776 g. Ranges overlap substantially, and weight or wing alone cannot reliably sex an individual.
+- Evidence limits/conflicts: dead Finnish specimens collected 1962–2004; dimensions cannot be converted directly into a standing-height ratio for a stylized North American plate. Supports direction and restraint, not individual sex identification.
+- Design decision: adults share plumage; female only subtly fuller (about 5–7% apparent body volume), with no exaggerated height gap.
+- Links: [species record](species/08-strix-nebulosa-v5.md) · [run](../production/runs/20261030T0115+0800-cycle-4.md)
+
+### GGO-NPS-JUV-PHOTO-2020
+- Title: Great Gray Owl — juvenile photograph and breeding account
+- Author/institution: Sonya Daw / NPS Klamath Inventory & Monitoring Network; juvenile photograph by Mel Clements
+- Year: 2020; accessed 2026-10-30
+- URL: https://home.nps.gov/articles/000/great-gray-owl.htm ; https://home.nps.gov/articles/000/images/GGO_juv_copyright_Mel-Clements_cropped.jpg
+- Type: official institutional species account with field photograph
+- Species/stage: *Strix nebulosa*, juvenile brancher/fledgling context
+- Actually read/viewed: General Description and Breeding sections plus the actual juvenile photo. The photographed juvenile has a fluffy dark charcoal-gray head/upperparts, yellow eyes, a pale cream-gray belly, incomplete facial organization and a short-looking tail. NPS states young leave after 3–4 weeks while unable to fly, climb leaning trees, and fly 1–2 weeks later.
+- Evidence limits/conflicts: photograph lacks individual age, sex, locality and scale metadata on page; used as a visual cross-check, not a quantitative plumage map.
+- Design decision: avoid the prior overly pale/all-white interpretation for the selected just-out stage; keep dark gray head/back and pale belly with soft emerging feathers.
+- Links: [species record](species/08-strix-nebulosa-v5.md) · [run](../production/runs/20261030T0115+0800-cycle-4.md)
+
+### Reused evidence
+- GGO-CORNELL-ID-2026: adult concentric disks, yellow eyes, pale X arcs, black-centered white throat patch and no ear tufts.
+- GGO-WHITFIELD-1997: separately recognizes fledged pre-flight and flying broods; retained as stage-category support.
+- Existing ORI early-nestling and FEIS synthesis entries remain valid for their stated stages but are not used to infer a daily feather map.
+- Taxonomy: current repository/251-roster name remains *Strix nebulosa*; the manifest records no historical synonym for #08. No old-name remapping is needed this cycle.
+- Source accounting: new 3; reused 2 directly in prompt boundary; corrected 0. User-uploaded Mikkola photographic guide was not accessible in this run, so no unverified page claim is added.

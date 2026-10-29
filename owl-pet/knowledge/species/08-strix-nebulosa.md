@@ -48,3 +48,10 @@ Sources new0/reused2 MARS-WESKE-1981 failedtarget, GGO-ORI-2020-0506 actualfresh
 首图三鸟、成鸟识别、文字、幼鸟低伏双足支撑均通过，但透视使右侧雌鸟看起来略小。一次只改雌鸟的 imagegen 定向修订后，雌鸟仅轻微丰满/较大，未形成夸张比例；幼鸟仍为刚离巢但尚不能飞、绒羽主导、短尾、无成熟长飞羽并依靠倾斜深裂树干。编辑主图与 680×453 归档图均已实际查看。
 
 旧 v1–v3 与 v1 用户确认范围保留，不转移至 v4。精确日龄、地域羽色、连续羽序和测量性别比例未知；scientifically_verified=false。图像：[v4](../../design/concepts/08-strix-nebulosa-v4.png)；[完整提示、检查与阶段记录](../../production/runs/2026-10-27T1836+0800-cycle-5.md)。
+
+
+## 2026-10-30 v5 RESEARCH_READY
+
+本轮保留 v1–v4 与 v1 用户确认记录。新增读取 Bull & Henjum 1990（原始多年度野外研究）、Tornberg、Mikkola & Rytkönen 2016（83 件标本形态测量）及 NPS 实物幼鸟照片。v5 选择“刚离巢、仍不能飞、正在攀爬倾斜树”的 brancher；幼鸟改为灰黑头背、浅腹、黄眼和绒羽软化的短翼，双爪抓树并以喙/短翼辅助，避免 v4 的过浅概括。雌鸟仅轻微丰满，不把平均测量差异套成精确站高。精确日龄、地域型、逐日羽序和普适首飞日仍未知，scientifically_verified=false。
+
+来源索引：[SOURCE_INDEX](../../research/SOURCE_INDEX.md#2026-10-30--08-strix-nebulosa-v5--brancher-colour-climbing-mechanics-and-bounded-sex-size-direction)；研究档案：[08-strix-nebulosa-v5](../../research/species/08-strix-nebulosa-v5.md)；运行记录：[cycle 4](../../production/runs/20261030T0115+0800-cycle-4.md)。

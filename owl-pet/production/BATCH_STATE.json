@@ -7346,72 +7346,49 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-work-20261029T2247+0800",
+        "run_id": "20261029T2247+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 3,
+        "heartbeat_at": "2026-10-29T22:47:00+08:00",
+        "expires_at": "2026-10-29T23:02:00+08:00"
+      },
       "cycle_checkpoint": {
-        "cycle": 4,
-        "species_id": 2,
-        "species": "Bubo scandiacus",
-        "version": 6,
+        "cycle": 5,
+        "species_id": 3,
+        "species": "Bubo bubo",
+        "version": 12,
         "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "base_main_sha": "cb8d90cfcca181779c90f1c657dad19e403e7ccc",
-        "run_record": "owl-pet/production/runs/20261029T2158+0800-cycle-4.md",
+        "stage": "STARTED",
+        "base_main_sha": "c15390823c73b737bf1ec5dda1399239f4ce4d78",
+        "run_record": "owl-pet/production/runs/20261029T2247+0800-cycle-5.md",
         "prior_versions_retained": [
           1,
           2,
           3,
           4,
-          5
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
         ],
-        "production_credit": true,
-        "scientifically_verified": false,
-        "source_ids": [
-          "SNO-HOLT-GRAY-MAPLES-KORTE-2016",
-          "SNO-MIK2013-258-261",
-          "SNO-ORI-2022GUIDE"
-        ],
-        "source_counts": {
-          "new": 2,
-          "reused": 1,
-          "corrected": 1
-        },
-        "research_record": "owl-pet/research/species/02-bubo-scandiacus-v6.md",
-        "prompt_saved": true,
-        "generated_path": "owl-pet/production/generated/02-bubo-scandiacus-v6-generated.jpg",
-        "generated_blob": "38a1fe7b51e24e5315d8a7086c06ae66a2fe787a",
-        "generated_sha256": "30c75cbd52923f983c3809b5e6355b5089600d2467043bd11fd921cb99a41f01",
-        "generated_size_bytes": 410301,
-        "generation_wait_seconds": 50.4,
-        "initial_review": "exact text/count/adult dimorphism/support pass; juvenile displayed conspicuous long pale feather shafts requiring a targeted edit",
-        "reviewed_path": "owl-pet/production/reviewed/02-bubo-scandiacus-v6-reviewed.jpg",
-        "reviewed_blob": "e06ae7b891dd39c5a9d23622beb2fa06acf9beab",
-        "reviewed_sha256": "b50ba2815d2f70507795fa7704069e35351c629bed751be86cd2191d3b73846a",
-        "reviewed_size_bytes": 512603,
-        "review_crop_path": "owl-pet/production/reviewed/02-bubo-scandiacus-v6-nestling-crop.jpg",
-        "review_crop_blob": "bcab8997e71d1f565693b329b729a6a5a3fd06af",
-        "review_crop_sha256": "1779e92767575c86ff25bf3ded410cbef75890c61c0fe61ed55719f9e519c724",
-        "review_crop_size_bytes": 163979,
-        "edit_count": 1,
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "remaining_unknowns": [
-          "exact day",
-          "juvenile sex",
-          "iris progression",
-          "individual rectrix visibility",
-          "universal nest-departure date",
-          "feather-count thresholds"
-        ],
-        "concept_path": "owl-pet/design/concepts/02-bubo-scandiacus-v6.jpg",
-        "concept_blob": "e06ae7b891dd39c5a9d23622beb2fa06acf9beab",
-        "manifest_entry_id": 529,
-        "readback_pending": false,
-        "archive_commit": "deccc023afb044b66cf7989d6e1465f52cf398aa",
-        "fixed_commit": "deccc023afb044b66cf7989d6e1465f52cf398aa",
-        "verified_at": "2026-10-29T22:50:00+08:00",
-        "verification_result": "non-truncated 1776-entry fixed tree; concept/generated/reviewed/crop paths, blobs and sizes matched; manifest529, run, restored source index, research and knowledge records reopened"
+        "user_approved_scope": "v4 nestling concept look is preserved as historical approval; v12 does not inherit it",
+        "selection_rationale": "v11 is the latest evidence-bounded concept but lacks current generated/reviewed fixed-readback assets; rebuild under staged workflow while rechecking the approximately 10-day chick",
+        "production_credit": false,
+        "scientifically_verified": false
       },
-      "in_progress": null,
-      "last_updated_at": "2026-10-29T22:50:00+08:00",
+      "in_progress": {
+        "run_id": "20261029T2247+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 3,
+        "version": 12,
+        "stage": "STARTED"
+      },
+      "last_updated_at": "2026-10-29T22:47:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7438,11 +7415,19 @@
         "2026-10-29T22:43:00+08:00: cycle4 #02 v6 IMAGE_GENERATED; first 1536x1024 render opened. Count/text/adult dimorphism/foot support/tundra passed; juvenile side showed conspicuous long pale feather shafts, so targeted edit required. Generated JPEG persisted; no credit.",
         "2026-10-29T22:45:00+08:00: cycle4 #02 v6 REVIEWED after one targeted edit. Edited 1536x1024 full image and 560x650 nestling crop reopened: long pale juvenile feather shafts replaced by short dark pinfeather/quill tips; exact count/text/adult dimorphism/foot support/tundra pass. PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-29T22:48:00+08:00: cycle4 #02 Bubo scandiacus v6 ARCHIVED; concept, generated/reviewed JPEG masters, nestling crop, manifest529, research/knowledge/design/status/changelog and run records staged. Fixed commit-pinned readback pending; science false; no credit.",
-        "2026-10-29T22:50:00+08:00: cycle4 #02 Bubo scandiacus v6 VERIFIED at archive deccc023afb044b66cf7989d6e1465f52cf398aa; non-truncated 1776-entry fixed tree and four exact image path/blob/size pairs matched, and manifest529/run/restored source index/research/knowledge records reopened. Batch 4/6 next cycle5; unique unchanged; science false; lease released."
+        "2026-10-29T22:50:00+08:00: cycle4 #02 Bubo scandiacus v6 VERIFIED at archive deccc023afb044b66cf7989d6e1465f52cf398aa; non-truncated 1776-entry fixed tree and four exact image path/blob/size pairs matched, and manifest529/run/restored source index/research/knowledge records reopened. Batch 4/6 next cycle5; unique unchanged; science false; lease released.",
+        "2026-10-29T22:47:00+08:00: cycle5 STARTED #03 Bubo bubo v12 SCIENCE_REVISION; v1-v11 and historical v4 juvenile approval retained. V11 is evidence-bounded but lacks current generated/reviewed fixed-readback assets; selected for staged rebuild and new primary-source check. Fifteen-minute lease acquired; no credit."
       ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-work-20261029T2247+0800",
+    "run_id": "20261029T2247+0800-cycle-5",
+    "batch_id": "2026-10-29T2038+0800",
+    "cycle": 5,
+    "heartbeat_at": "2026-10-29T22:47:00+08:00",
+    "expires_at": "2026-10-29T23:02:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -7826,5 +7811,13 @@
     "2026-10-29T18:50:00+08:00: #100 v3 ARCHIVED; fixed readback pending; no credit.",
     "2026-10-29T18:51:00+08:00: #100 v3 fixed-tree verification passed at 56b0d5745680ff6c538f4109dc08911472986505; batch3/6 next4; lease released."
   ],
-  "in_progress": null
+  "in_progress": {
+    "batch_id": "2026-10-29T2038+0800",
+    "cycle": 5,
+    "run_id": "20261029T2247+0800-cycle-5",
+    "species": "Bubo bubo",
+    "species_id": 3,
+    "version": 12,
+    "stage": "STARTED"
+  }
 }

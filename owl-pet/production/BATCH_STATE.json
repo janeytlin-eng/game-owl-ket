@@ -6777,7 +6777,7 @@
     },
     {
       "batch_id": "2026-10-29T1036+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -6841,89 +6841,36 @@
           "scientifically_verified": false,
           "verification_commit": "8f6a19c5eea8e4aca40c84d623dc6e155c2cae2b",
           "verification_commit_pending": false
+        },
+        {
+          "cycle": 6,
+          "species": "Otus brucei",
+          "species_id": 83,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "5c452e18d3858353f583ca6d9ac33f9b8a5623fc",
+          "run_record": "owl-pet/production/runs/20261029T1214+0800-cycle-6.md",
+          "verified_at": "2026-10-29T12:23:00+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "20261029T1214+0800-cycle-6",
-        "run_id": "20261029T1214+0800-cycle-6",
-        "species": "Otus brucei",
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "heartbeat_at": "2026-10-29T12:21:00+08:00",
-        "expires_at": "2026-10-29T12:36:00+08:00",
-        "run_record": "owl-pet/production/runs/20261029T1214+0800-cycle-6.md",
-        "batch_id": "2026-10-29T1036+0800",
-        "species_id": 83,
-        "version": 3
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261029T1214+0800-cycle-6",
         "evidence": {
-          "new_sources": 2,
-          "reused_sources": 2,
-          "corrected_sources": 1,
-          "source_ids": [
-            "BRU-BENDOV-KIAT2016",
-            "BRU-QATAR-ENATURE-2026",
-            "BRU-IOC-15.2",
-            "BRU-MIK2013-126"
-          ],
-          "development_boundary": "approximately 26-day fresh fledgling on supported date-palm cavity lip; no sustained flight",
-          "unknowns": [
-            "exact daily feather tract",
-            "individual first-flight competence",
-            "adult sex-size direction",
-            "Israeli subspecies"
-          ],
-          "full_imagegen_prompt": "Use case: scientific-educational. Asset type: owl-pet species concept plate. Create a polished 3:2 horizontal natural-history concept plate in the repository's established realistic-cute style. Exactly three Pallid Scops Owls and exact readable text only: title “PALLID SCOPS OWL”, italic scientific line “Otus brucei”, bottom labels “ADULT MALE”, “c.26-DAY FRESH FLEDGLING”, “ADULT FEMALE”. Scene: mature date-palm plantation in the Dead Sea Rift Valley at warm dusk; a real cut cavity in the fibrous date-palm trunk 2–3 m below the canopy, not a basket or woven nest. Place the juvenile fully supported on the broad cavity lip/adjacent low palm stub, with both feet and toes clearly gripping; the two adults flank it on natural palm stubs. Adults: near-equal skeletal height and same pale sandy-grey morph; do not invent a fixed sex-size ratio. Small ear tufts, pale facial discs, yellow eyes, dark grey-horn bills, fine long dark shaft streaks against a pale weakly cross-barred background, subtle buff rather than bright-white scapular spots, pale feathering at the tarsus. Juvenile: species-specific fresh fledgling at about 26 days, not a newborn and not an adult clone; about three-quarters adult size, deep yellow iris, pale eyebrows, fine horizontal bars across forehead, chest and belly, a subtle feather patch on the upper side of the middle toe, woollier pale sandy-grey contour, developed but fresh soft-edged folded wings and short tail. No crisp adult-white shoulder patches, no hard layered mature remiges, no sustained-flight pose; cautious supported cavity-lip step only. No eggs, prey, extra birds, extra text, logo, border, watermark, basket, or forced subspecies label.",
-          "scientifically_verified": false,
-          "generation_wait_seconds": 44.3,
-          "durable_generated_paths": [
-            "owl-pet/production/generated/83-otus-brucei-v3-generated-master.jpg",
-            "owl-pet/production/generated/83-otus-brucei-v3-generated-master.png"
-          ],
-          "actual_view": "1536x1024 original opened",
-          "review_finding": "count/text/date-palm cavity/juvenile horizontal bars/deep-yellow iris/support pass; adults retain overly white scapular spots and need muted-buff correction",
-          "edit_count": 1,
-          "edit_wait_seconds": 69.5,
-          "reviewed_paths": [
-            "owl-pet/production/reviewed/83-otus-brucei-v3-reviewed-master.jpg",
-            "owl-pet/production/reviewed/83-otus-brucei-v3-reviewed-master.png",
-            "owl-pet/production/reviewed/83-otus-brucei-v3-juvenile-review-crop.jpg"
-          ],
-          "actual_review": "full 1536x1024 and 560x650 juvenile crop opened",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "checks": {
-            "count_text": "pass",
-            "adult_identity": "pass after muted buff scapular edit",
-            "adult_sex_scale": "pass near-equal; no direction claimed",
-            "juvenile_stage": "pass c.26d; horizontal bars, woolly contour, fresh wing, short-tail impression",
-            "support": "pass all feet; juvenile both feet on cavity lip",
-            "habitat": "pass mature date-palm cavity"
-          },
-          "remaining_unknowns": [
-            "exact daily feather tracts",
-            "first-flight competence",
-            "subspecies",
-            "sex-size direction"
-          ],
+          "archive_commit": "5c452e18d3858353f583ca6d9ac33f9b8a5623fc",
+          "tree_truncated": false,
           "manifest_record": 509,
-          "concept_path": "owl-pet/design/concepts/83-otus-brucei-v3.jpg",
-          "image_blobs": {
-            "concept": "19383af6ea16afabc097c101d702b0ed5b9e9acb",
-            "generated_jpg": "6f3db72c123d1011b05312bc424336aa51503adb",
-            "generated_png": "91c297bb7ac98050f7c8980e4b6644669c943165",
-            "reviewed_jpg": "19383af6ea16afabc097c101d702b0ed5b9e9acb",
-            "reviewed_png": "89aebb7f6de96e86ec043a03c145eff4ad00d15c",
-            "crop": "f02114e757f73b51482f3a4d36cfe9a0d9b30bd7"
-          },
-          "readback_pending": true
+          "all_six_image_paths_exact": true,
+          "readback_pending": false,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T12:21:00+08:00",
+      "last_updated_at": "2026-10-29T12:23:00+08:00",
       "audit_notes": [
         "2026-10-29T10:36:00+08:00: batch started cycle1 #78 Asio capensis v3 SCIENCE_REVISION; v1-v2 retained; no other open batch; 15-minute lease acquired; no credit.",
         "2026-10-29T10:41:00+08:00: cycle1 #78 v3 RESEARCH_READY; new2/reused4/corrected1; BirdLife 2025 and Hanane & Cherkaoui 2014 actually read; later early-fledgling boundary selected; science false.",
@@ -6958,23 +6905,12 @@
         "2026-10-29T12:16:00+08:00: cycle6 #83 v3 RESEARCH_READY; new2/reused2/corrected1; c.26-day fresh fledgling/date-palm cavity boundary; science false; no credit.",
         "2026-10-29T12:17:00+08:00: cycle6 #83 v3 IMAGE_GENERATED in 44.3s; original opened. Count/text/cavity/juvenile bars/support pass; adult scapular spots too white for Pallid Scops Owl and require targeted edit; no credit.",
         "2026-10-29T12:19:00+08:00: cycle6 #83 v3 REVIEWED after one adult-only edit; full plate and 560x650 juvenile crop reopened. Bright white scapular patches muted to buff-grey; juvenile horizontal bars/deep-yellow iris/woolly contour/both-foot cavity-lip support pass; science false; no credit.",
-        "2026-10-29T12:21:00+08:00: cycle6 #83 v3 ARCHIVED; six canonical image paths stored; corrected connector-safe PNG replaces rejected short stage blob; manifest509; fixed readback pending; science false; no credit."
+        "2026-10-29T12:21:00+08:00: cycle6 #83 v3 ARCHIVED; six canonical image paths stored; corrected connector-safe PNG replaces rejected short stage blob; manifest509; fixed readback pending; science false; no credit.",
+        "2026-10-29T12:23:00+08:00: cycle6 #83 v3 VERIFIED by fixed archive 5c452e18d3858353f583ca6d9ac33f9b8a5623fc; recursive tree not truncated; six image paths/blobs/sizes and manifest509/text markers passed. Batch COMPLETE 6/6; lease released; science false."
       ]
     }
   ],
-  "lease": {
-    "owner": "20261029T1214+0800-cycle-6",
-    "run_id": "20261029T1214+0800-cycle-6",
-    "species": "Otus brucei",
-    "cycle": 6,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-29T12:21:00+08:00",
-    "expires_at": "2026-10-29T12:36:00+08:00",
-    "run_record": "owl-pet/production/runs/20261029T1214+0800-cycle-6.md",
-    "batch_id": "2026-10-29T1036+0800",
-    "species_id": 83,
-    "version": 3
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -7068,7 +7004,7 @@
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false.",
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit."
   ],
-  "updated_at": "2026-10-29T12:21:00+08:00",
+  "updated_at": "2026-10-29T12:23:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7076,20 +7012,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "20261029T1214+0800-cycle-6",
-    "run_id": "20261029T1214+0800-cycle-6",
-    "species": "Otus brucei",
-    "cycle": 6,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-29T12:21:00+08:00",
-    "expires_at": "2026-10-29T12:36:00+08:00",
-    "run_record": "owl-pet/production/runs/20261029T1214+0800-cycle-6.md",
-    "batch_id": "2026-10-29T1036+0800",
-    "species_id": 83,
-    "version": 3
-  },
-  "last_updated_at": "2026-10-29T12:21:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-29T12:23:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7240,7 +7164,8 @@
     "2026-10-29T12:16:00+08:00: cycle6 #83 RESEARCH_READY; full prompt saved; no credit.",
     "2026-10-29T12:17:00+08:00: #83 IMAGE_GENERATED; adult scapular correction required; no credit.",
     "2026-10-29T12:19:00+08:00: #83 REVIEWED after one edit; PASS_WITH_LIMITATIONS; no credit.",
-    "2026-10-29T12:21:00+08:00: #83 ARCHIVED; manifest509; fixed readback pending; no credit."
+    "2026-10-29T12:21:00+08:00: #83 ARCHIVED; manifest509; fixed readback pending; no credit.",
+    "2026-10-29T12:23:00+08:00: #83 fixed-tree verification passed; batch 2026-10-29T1036+0800 COMPLETE6/6; lease released."
   ],
   "audit_trail": [
     {
@@ -7308,14 +7233,5 @@
     "2026-10-29T12:04:00+08:00: #81 VERIFIED at fixed archive fb066d5019a708128130e54fdd0d959eb3f2cae8; batch4/6 next5; lease released.",
     "2026-10-29T12:05:00+08:00: cycle5 #82 STARTED; cycle4 verification commit reconciled."
   ],
-  "in_progress": {
-    "batch_id": "2026-10-29T1036+0800",
-    "cycle": 6,
-    "run_id": "20261029T1214+0800-cycle-6",
-    "species_id": 83,
-    "species": "Otus brucei",
-    "version": 3,
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261029T1214+0800-cycle-6.md"
-  }
+  "in_progress": null
 }

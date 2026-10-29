@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T12:21:00+08:00",
+  "updated": "2026-10-29T12:23:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7406,12 +7406,46 @@
       "review_crop_blob": "f02114e757f73b51482f3a4d36cfe9a0d9b30bd7",
       "review_crop_size_bytes": 76707,
       "archive_note": "One adult-only plumage edit; full and crop reopened. Bright-white scapular patches muted to pale buff-grey while c.26-day juvenile horizontal bars/woolly contour/fresh wing/short-tail impression and both-foot cavity-lip support pass. Exact feather sequence/first flight/subspecies/sex-size direction unknown; science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null,
-      "readback": null
+      "readback_pending": false,
+      "archive_commit": "5c452e18d3858353f583ca6d9ac33f9b8a5623fc",
+      "fixed_commit": "5c452e18d3858353f583ca6d9ac33f9b8a5623fc",
+      "verified_at": "2026-10-29T12:23:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "tree_truncated": false,
+        "concept": {
+          "path": "design/concepts/83-otus-brucei-v3.jpg",
+          "blob": "19383af6ea16afabc097c101d702b0ed5b9e9acb",
+          "size_bytes": 363766
+        },
+        "generated_jpg": {
+          "path": "production/generated/83-otus-brucei-v3-generated-master.jpg",
+          "blob": "6f3db72c123d1011b05312bc424336aa51503adb",
+          "size_bytes": 422586
+        },
+        "generated_png": {
+          "path": "production/generated/83-otus-brucei-v3-generated-master.png",
+          "blob": "91c297bb7ac98050f7c8980e4b6644669c943165",
+          "size_bytes": 64975
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/83-otus-brucei-v3-reviewed-master.jpg",
+          "blob": "19383af6ea16afabc097c101d702b0ed5b9e9acb",
+          "size_bytes": 363766
+        },
+        "reviewed_png": {
+          "path": "production/reviewed/83-otus-brucei-v3-reviewed-master.png",
+          "blob": "89aebb7f6de96e86ec043a03c145eff4ad00d15c",
+          "size_bytes": 63706
+        },
+        "review_crop": {
+          "path": "production/reviewed/83-otus-brucei-v3-juvenile-review-crop.jpg",
+          "blob": "f02114e757f73b51482f3a4d36cfe9a0d9b30bd7",
+          "size_bytes": 76707
+        },
+        "fixed_commit": "5c452e18d3858353f583ca6d9ac33f9b8a5623fc"
+      }
     }
   ],
-  "updated_at": "2026-10-29T12:21:00+08:00"
+  "updated_at": "2026-10-29T12:23:00+08:00"
 }

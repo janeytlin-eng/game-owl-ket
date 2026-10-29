@@ -6086,3 +6086,19 @@ Reused `NHO-MIKKOLA-2013-P360`, `NHO-EFAUNA-BC-2026`, `NHO-CORNELL-ID-2026`, `NH
 
 ### Fresh reuse: GHOW-HOFFMEISTER-SETZER-1947
 Full facsimile was actually reread on 2026-10-30 at https://www.gutenberg.org/files/35118/35118-h/35118-h.htm, especially printed pp.159 and 166–170 plus figure captions pp.171–173. At the sampled 21-day stage, erupted primary averaged 10 mm and secondary 5 mm; eyes opened around days 6–9 and head carriage increased afterward. First definite self-feeding attempt was day 23. Four nestlings from two broods and one locality limit transfer; measurements are stage bounds, not a universal feather template. V4 therefore uses a low nest-supported, open-eyed, buff/gray-down nestling with very short developing wings and no flight claim. Reused Mikkola pp.262–264, IOC age chart, Cornell cam FAQ and Raptor Center adult account. New1/reused5/corrected1; `scientifically_verified=false`.
+
+
+# 2026-10-30 · #15 *Strix varia* v5 — directly observed natural-cavity entrance stage
+
+## BARO-DUNCAN-2024-SUPP
+- **Stable source ID:** `BARO-DUNCAN-2024-SUPP`
+- **Title / authors / year:** Supplementary Materials to “Barred Owl (*Strix varia*) activity and diet recorded with a camera trap at a natural cavity nest in Manitoba, Canada (2016–2017)”; James R. Duncan, Riki Kerbrat & Todd M. Whiklo; issue year 2024, published 2025-01-17.
+- **Original URL / DOI:** https://www.canadianfieldnaturalist.ca/index.php/cfn/article/download/3067/3219/16551 ; https://doi.org/10.22621/cfn.v138i1.3067
+- **Accessed:** 2026-10-30. **Type:** peer-reviewed primary camera-trap supplement; one natural cavity, southeastern Manitoba.
+- **Species / stage:** *Strix varia* nestlings at the cavity entrance before fledging, 2016–2017.
+- **Actually read/viewed:** PDF pp.1–2 Figures S1–S3 and PDF p.7 Table S6. Figure S2 captions a nestling peering out and a nestling at the entrance before fledging. Table S6: 2016 hatch 7–12 May; two nestlings banded 29 May at about 2.5 and 3 weeks; first entrance record 1 June, oldest about 26 d; last entrance record 7 June, youngest about 27 d. In 2017, first entrance record was 21 May, oldest about 31 d.
+- **Limits / conflicts / confidence:** ages are estimates from hatch ranges and banding, the photographs do not identify each individual’s exact age, and one cavity/two seasons cannot establish a universal day or feather map. High confidence for entrance activity and natural support; low for precise remex length, sex or colour calibration.
+- **Design / review decision:** v5 selects the earliest directly bounded entrance stage (~26 d): the chick stays inside the cavity threshold with chest/belly and both feet supported, peering out with closed short developing wings and no external branch, bill-climbing or flight claim.
+- **Links:** [species research](species/15-strix-varia-v5.md) · [run](../production/runs/20261030T030200+0800-cycle-4.md)
+
+Freshly reused parent record `BARO-DUNCAN-2024-CFN` (27,092 images; entrance activity 8–9 d before fledging at ≤27–32 d), plus `BARO-MIKKOLA-2013-P29-P346`, `BARO-CORNELL-ID` and `BARO-CORNELL-CAM-2024`. V4’s external brancher/climber inference is corrected to the directly evidenced cavity-threshold state. New1/reused4/corrected1; science false. The 1964 Howell paper was found, but only bibliographic metadata was accessible this cycle and it was not used as verified visual evidence.

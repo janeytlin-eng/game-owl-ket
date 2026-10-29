@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T00:52:00+08:00",
+  "updated": "2026-10-30T00:55:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9033,10 +9033,38 @@
       "review_crop_sha256": "f5cdc0e26cbe1c20b77d25fb30e41588f561f2af089a0472d23b2054fe15a179",
       "review_crop_size_bytes": 238374,
       "archive_note": "Initial render passed count/text/adult/support checks but the juvenile wing carried crisp white spots and ordered adult-like remiges. One targeted imagegen edit softened only the juvenile wing to irregular diffuse juvenile texture while retaining a formed folded wing. Full image and crop were reopened. The initial generated JPEG transfer was detected as truncated before cycle credit and is replaced here by a complete 674881-byte JPEG.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verification_result": "pending fixed commit-pinned readback"
+      "readback_pending": false,
+      "archive_commit": "afa285df8c801b83605af9038a16a03ecd8fa45e",
+      "verification_result": "non-truncated 1794-entry commit-pinned tree; exact concept/generated/reviewed/crop path/blob/size pairs matched; manifest, run, source-index blob, research, knowledge, design, status and changelog records reopened",
+      "fixed_commit": "afa285df8c801b83605af9038a16a03ecd8fa45e",
+      "verified_at": "2026-10-30T00:55:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/05-strix-aluco-v4.jpg",
+          "blob": "2ef6fb89cd37b7fcf19675d18ebb9791f0af5c38",
+          "size_bytes": 758696
+        },
+        "generated_jpg": {
+          "path": "production/generated/05-strix-aluco-v4-generated.jpg",
+          "blob": "a19493a192f943655952c285e8f077f6efb87720",
+          "size_bytes": 674881
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/05-strix-aluco-v4-reviewed.jpg",
+          "blob": "2ef6fb89cd37b7fcf19675d18ebb9791f0af5c38",
+          "size_bytes": 758696
+        },
+        "review_crop": {
+          "path": "production/reviewed/05-strix-aluco-v4-juvenile-crop.jpg",
+          "blob": "f414ba671135d5dea36aeae4bc5d939bdbd36d56",
+          "size_bytes": 238374
+        },
+        "source_index_blob": "7d16ae00729e1238fd12b0763c861dd948be6478",
+        "fixed_commit": "afa285df8c801b83605af9038a16a03ecd8fa45e",
+        "local_git_hash_object_matches": true
+      }
     }
   ],
-  "updated_at": "2026-10-30T00:52:00+08:00"
+  "updated_at": "2026-10-30T00:55:00+08:00"
 }

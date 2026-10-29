@@ -2090,3 +2090,5 @@ When field guidance and telemetry show that a young owl can leave or move around
 ### Incremental rule — locomotor immaturity does not require deleting a formed wing
 
 When a species-specific post-fledging study documents poor early locomotion but the selected stage is already outside the nest, correct flight competence through pose, support, concealment and juvenile feather texture. Do not automatically shorten every wing into a nestling stub, and do not retain crisp adult pattern rows. Applied and visually rechecked on #05 v4 after one targeted edit; broader effectiveness remains unverified.
+
+- 2026-10-30T00:55:00+08:00 — #05 v4 fixed-tree VERIFIED at `afa285df8c801b83605af9038a16a03ecd8fa45e`; four exact image blobs/sizes and source/review records matched. Batch 1/6, next cycle2; science false.

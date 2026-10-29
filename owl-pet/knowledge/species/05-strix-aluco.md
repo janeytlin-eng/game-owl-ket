@@ -47,3 +47,5 @@ V4 selects a first-week recent fledgling rather than a nestling. Two primary tra
 ![v4](../../design/concepts/05-strix-aluco-v4.jpg)
 
 [Research](../../research/species/05-strix-aluco-v4.md) · [Run](../../production/runs/20261030T0033+0800-cycle-1.md) · [Source index](../../research/SOURCE_INDEX.md)
+
+Fixed-tree archive verification passed at `afa285df8c801b83605af9038a16a03ecd8fa45e` on 2026-10-30T00:55+08:00; all four image paths/blobs/sizes and supporting records matched. Scientific verification remains false.

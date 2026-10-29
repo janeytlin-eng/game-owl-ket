@@ -2198,3 +2198,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 00:52 +08 — #05 Tawny Owl v4 archived, verification pending
 
 #05 *Strix aluco* v4 concept, complete repaired generated JPEG, reviewed JPEG and juvenile crop are archived as manifest532. One targeted edit removed crisp white spots and adult-ordered juvenile remiges while retaining a formed folded wing and complete low support. Revision adds no unique species; reconciled total remains **175/251** and numbered species IDs **185/251**. Science remains false. Fixed commit-pinned readback is pending, so batch 2026-10-30T0033+0800 remains 0/6 until verification.
+
+- 2026-10-30T00:55:00+08:00 — #05 *Strix aluco* v4 fixed-tree readback passed at archive `afa285df8c801b83605af9038a16a03ecd8fa45e`: non-truncated 1794-entry tree, four exact image path/blob/size pairs, source-index blob and all required text records matched. Batch **1/6**, next cycle 2; reconciled unique species remains **175/251**, numbered IDs **185/251**, science false.

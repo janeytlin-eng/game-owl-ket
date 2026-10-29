@@ -50,3 +50,7 @@ Environment: shaded deciduous woodland, ivy/moss and a plausible dark tree hollo
 - Modification: one targeted imagegen edit removed regular spots/rows and softened the wing texture while preserving its folded formed structure.
 - Recheck: full edited image and crop reopened; irregular down-softened wing, short tail, fleshy eye rims, both feet/lower body support and no flight pose pass. Result `PASS_WITH_LIMITATIONS`; science false.
 - Transfer error caught before credit: initial generated JPEG blob was shorter than the local file; archive replaces it with a complete 674881-byte JPEG and fixed readback remains mandatory.
+
+## Archive verification
+
+Fixed commit `afa285df8c801b83605af9038a16a03ecd8fa45e` was read back as a non-truncated 1794-entry tree. Concept, complete repaired generated JPEG, reviewed JPEG and juvenile crop matched exact paths, blobs and byte sizes; the source-index blob and all required text records were reopened. Cycle result: VERIFIED; scientific verification remains false.

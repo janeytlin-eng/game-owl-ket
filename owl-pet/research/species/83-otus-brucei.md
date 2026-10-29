@@ -8,3 +8,7 @@ ARCHIVED fullPNG2974487bytes Git5d41433403e55c5c0e9cdf46f7f5206be760783f SHA2569
 EDIT_RETURNED 2026-10-15T07:44:28.063Z editwait 56.938s. Unique81/251.
 
 Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-3.md
+
+## 2026-10-29 v3 research-ready correction
+
+Ben Dov & Kiat 2016 was re-read through searchable full text: printed pp.151–152 place all studied nests in mature date-palm cavities 2–3 m below the canopy and give fledging at about 26 d; pp.156–157/plate 243 provide pale coloration, deep-yellow iris, pale eyebrow, horizontal juvenile bars and middle-toe feathering. Qatar e-Nature was newly read for adult/juvenile identification, and IOC v15.2 was checked for current *Otus brucei* naming. V3 therefore uses a c.26-day fresh fledgling, fully supported on the cavity lip, not an unaged nestling or flying juvenile. Exact daily feather tracts, first-flight ability, sex-size direction and subspecies remain unknown; science false.

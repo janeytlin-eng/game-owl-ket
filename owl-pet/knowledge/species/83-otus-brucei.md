@@ -13,3 +13,8 @@ Archive commit: 1db9189ade04d9ab1973ef801fa5579a6621aac6
 83-otus-brucei-v2 REVISION; Datepalmcontinuouscavitywalls/darkrecess replacebasketcontext, actualviewyoungfloor/feet/adultsretained; artisticcutawaynotmeasurednestgeometry/materialcount. Sciencefalse. ARCHIVED d530478ae5e3a4037b5666a8d6fda2666df9df48; independentimmutable remote fullPNGdecode 1536x1024 3245034bytes SHA2567735ae055dde091e8ec28ea863be329f815ada0e39145989c9422968fa72dea8 Gitblob60bf4937552e42b2bb75746076f802b2ed61d9f2 local==remote. Sources new0/reuse1 BRU-BENDOV-KIAT2016 indexee51dde0dc3fa60a0c263881438a07b082a53614. [Run](production/runs/2026-10-19T0929+0800-cycle-4.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/d530478ae5e3a4037b5666a8d6fda2666df9df48/owl-pet/design/concepts/83-otus-brucei-v2.png). Unique138/251.
 Lesson: Nest substrate and cavity enclosure must be checked separately from species plumage; retain explicit cutaway boundary.
 
+
+
+## 2026-10-29 v3 research-ready correction
+
+Ben Dov & Kiat 2016 was re-read through searchable full text: printed pp.151–152 place all studied nests in mature date-palm cavities 2–3 m below the canopy and give fledging at about 26 d; pp.156–157/plate 243 provide pale coloration, deep-yellow iris, pale eyebrow, horizontal juvenile bars and middle-toe feathering. Qatar e-Nature was newly read for adult/juvenile identification, and IOC v15.2 was checked for current *Otus brucei* naming. V3 therefore uses a c.26-day fresh fledgling, fully supported on the cavity lip, not an unaged nestling or flying juvenile. Exact daily feather tracts, first-flight ability, sex-size direction and subspecies remain unknown; science false.

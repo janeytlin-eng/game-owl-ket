@@ -2,7 +2,7 @@
 
 - Concept: [79-otus-lettia-v3.jpg](concepts/79-otus-lettia-v3.jpg)
 - Research: [species card](../knowledge/species/79-otus-lettia.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--79-otus-lettia-v3--1115-day-cavity-nestling-feather-boundary)
-- Stage: ARCHIVED; fixed readback pending. V3 uses an 11–15-day cavity nestling from a species-specific Thai chronology, distinct from v1–v2’s older perched juvenile. Open eyes, pale down, beginning bill bristles, short pin-remiges, no rectrices and belly/sternum support passed full and crop review. Science false.
+- Stage: VERIFIED at `731714d9ca44a9e750f413be73b28ce57676222a`; recursive tree and exact blob/size pairs for concept, generated/reviewed JPEG+PNG and crop passed. V3 uses an 11–15-day cavity nestling from a species-specific Thai chronology, distinct from v1–v2’s older perched juvenile. Open eyes, pale down, beginning bill bristles, short pin-remiges, no rectrices and belly/sternum support passed full and crop review. Science false.
 
 ### Use chronological feather boundaries before generic “fledgling” texture
 

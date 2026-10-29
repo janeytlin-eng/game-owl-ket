@@ -7114,7 +7114,45 @@
       "review_crop_blob": "36b90e66928d1135d2c2bc3dd92ec29aece2e6a7",
       "review_crop_size_bytes": 187559,
       "archive_note": "No edit required after full and crop review. Species-specific 11–15-day no-rectrix, belly-supported cavity stage passes. Full-resolution connector-safe JPEG/PNG derivatives are archived; exact imagegen-local original hash retained. Exact individual chronology/subspecies/sex ratio unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "731714d9ca44a9e750f413be73b28ce57676222a",
+      "fixed_commit": "731714d9ca44a9e750f413be73b28ce57676222a",
+      "verified_at": "2026-10-29T11:55:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "tree_truncated": false,
+        "concept": {
+          "path": "design/concepts/79-otus-lettia-v3.jpg",
+          "blob": "8ae39195f9d221028b63bd09abd4bdd716900c8c",
+          "size_bytes": 469133
+        },
+        "generated_jpg": {
+          "path": "production/generated/79-otus-lettia-v3-generated-master.jpg",
+          "blob": "8ae39195f9d221028b63bd09abd4bdd716900c8c",
+          "size_bytes": 469133
+        },
+        "generated_png": {
+          "path": "production/generated/79-otus-lettia-v3-generated-master.png",
+          "blob": "5766ff0a7efbb0ef6ff34f4e303e4412c533d421",
+          "size_bytes": 768992
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/79-otus-lettia-v3-reviewed-master.jpg",
+          "blob": "8ae39195f9d221028b63bd09abd4bdd716900c8c",
+          "size_bytes": 469133
+        },
+        "reviewed_png": {
+          "path": "production/reviewed/79-otus-lettia-v3-reviewed-master.png",
+          "blob": "5766ff0a7efbb0ef6ff34f4e303e4412c533d421",
+          "size_bytes": 768992
+        },
+        "review_crop": {
+          "path": "production/reviewed/79-otus-lettia-v3-juvenile-review-crop.jpg",
+          "blob": "36b90e66928d1135d2c2bc3dd92ec29aece2e6a7",
+          "size_bytes": 187559
+        },
+        "fixed_commit": "731714d9ca44a9e750f413be73b28ce57676222a"
+      }
     }
   ],
   "updated_at": "2026-10-29T10:34:00+08:00"

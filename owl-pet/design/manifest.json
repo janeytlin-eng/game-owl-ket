@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T12:41:05+08:00",
+  "updated": "2026-10-29T13:40:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7518,7 +7518,46 @@
         },
         "fixed_commit": "8ebd20378c29614b68110c0d943709510f503f27"
       }
+    },
+    {
+      "id": "86-otus-elegans-v4",
+      "path": "design/concepts/86-otus-elegans-v4.jpg",
+      "status": "SCIENCE_REVISION；v4依据Sawada等99只雏鸟0–32日龄成长曲线和770只成鸟17年体尺数据，采用约30日龄的近离巢阶段：头、躯干与跗跖接近成鸟尺度，折翼仍明显未成熟；成年雌雄同羽色、近等身高和翼长，雌鸟仅略显丰满，不把平均体重差机械转成整体更高。首图幼鸟过小且翼斑过度成鸟化；第一次编辑体量通过但长硬飞羽复发；第二次编辑保留近成鸟体量并缩短软化折翼、去掉规则白斑列、隐藏尾部。全图与560×650裁切复查通过。精确日龄、连续羽区、虹膜/尾羽序列和首次飞行能力未知，科学验收false。",
+      "sha256": "0fe238819946237b41518e61cdd2e65b4cea386474081a1cad7cacd851363b81",
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29--86-otus-elegans-v4--30-day-bodywing-growth-decoupling-and-trait-specific-rsd",
+      "run_record": "production/runs/20261029T1325+0800-cycle-2.md",
+      "reviewed_at": "2026-10-29T13:37:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 613357,
+      "git_blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
+      "generated_path": "production/generated/86-otus-elegans-v4-generated-master.jpg",
+      "generated_blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
+      "generated_size_bytes": 613357,
+      "generated_sha256": "0fe238819946237b41518e61cdd2e65b4cea386474081a1cad7cacd851363b81",
+      "generated_png_path": "production/generated/86-otus-elegans-v4-generated-master.png",
+      "generated_png_blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
+      "generated_png_size_bytes": 77155,
+      "generated_png_sha256": "cf0e34803eb05c370c3e2f516f959a48e9c6c9e8c463d1fc2325470c051a9090",
+      "reviewed_path": "production/reviewed/86-otus-elegans-v4-reviewed-master.jpg",
+      "reviewed_blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
+      "reviewed_size_bytes": 613357,
+      "reviewed_sha256": "0fe238819946237b41518e61cdd2e65b4cea386474081a1cad7cacd851363b81",
+      "reviewed_png_path": "production/reviewed/86-otus-elegans-v4-reviewed-master.png",
+      "reviewed_png_blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
+      "reviewed_png_size_bytes": 77155,
+      "reviewed_png_sha256": "cf0e34803eb05c370c3e2f516f959a48e9c6c9e8c463d1fc2325470c051a9090",
+      "review_crop_path": "production/reviewed/86-otus-elegans-v4-juvenile-review-crop.jpg",
+      "review_crop_blob": "24320060485ed803113107b07e34fad8a83f8f2a",
+      "review_crop_size_bytes": 155656,
+      "archive_note": "Three built-in imagegen calls and two evidence-bounded edits. Full and crop reopened; near-adult juvenile body, soft short rounded incomplete wings, hidden tail, six supported feet, same-plumage near-equal adults and Minami-daito context pass. Exact day/feather/iris/tail/first-flight sequence unknown; science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verified_at": null,
+      "readback": null
     }
   ],
-  "updated_at": "2026-10-29T12:41:05+08:00"
+  "updated_at": "2026-10-29T13:40:00+08:00"
 }

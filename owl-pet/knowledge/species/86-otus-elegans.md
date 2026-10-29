@@ -32,3 +32,8 @@ Use case: scientific-educational. Asset type: owl-pet species concept plate. Cre
 ```
 
 Sources: `ELE-SAWADA2021-ARDEA` (new), `ELE-SAWADA2021-RSD-FULL` (access corrected), `ELE-SAWADA2024-RAIN` (new limitation), plus reused `ELE-AKATANI2011-BR`, `ELE-AKATANI2011-JRR`, `ELE-MIK2013-160`.
+
+
+## v4 reviewed — 2026-10-29T13:37:00+08:00
+
+Full 1536×1024 plate and 560×650 crop opened after two edits. The final juvenile retains near-adult head/torso/tarsi while folded wings are short, rounded and soft, without regular adult shoulder rows; tail hidden and both feet supported. Adults remain same-plumage and near-equal in height/wing length, with no forced female enlargement. Exact day, feather/iris/tail sequence and first-flight competence remain unknown; science false. Archive readback pending.

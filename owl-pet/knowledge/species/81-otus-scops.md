@@ -11,3 +11,8 @@ Lesson: Neutral scale edits can overshoot; do not label resulting display as mea
 ## 2026-10-29 v3 research-ready boundary
 
 SCOPS-MARCHESI-SERGIO-2005 full Wiley article pp.176–187 supports 20–32-d fledging and 15–20-d nest checks; SCOPS-GRIECO-2025 Ardea 113:103–115 supports departure about 21 d and progressive post-departure movement in an Aleppo-pine/old-Magpie-nest system. Reused SCOPS-BLASCO-UNDATED distinguishes narrow pointed fresh juvenile feathers from broad rounded adult feathers. V3 calibrates the existing formed-wing concept to an approx.21-d fresh fledgling: supported low branch, narrow pointed fresh wing/tail, residual down, controlled step/hop, no sustained flight. Exact day/competence/feather width/sex ratio unknown, science false. Run ../../production/runs/20261029T1156+0800-cycle-4.md.
+
+
+## 2026-10-29 v3 archive checkpoint
+
+First render and 620×650 crop passed with zero edits. Archived full-resolution connector-safe JPEG+PNG masters plus crop; manifest 507. Exact individual timing, sustained-flight ability, feather-width ratio and sex-size direction remain unknown; science false; fixed-commit readback pending.

@@ -6880,9 +6880,9 @@
     "run_id": "20261029T1156+0800-cycle-4",
     "species": "Otus scops",
     "cycle": 4,
-    "stage": "REVIEWED",
-    "heartbeat_at": "2026-10-29T12:01:00+08:00",
-    "expires_at": "2026-10-29T12:16:00+08:00",
+    "stage": "ARCHIVED",
+    "heartbeat_at": "2026-10-29T12:03:00+08:00",
+    "expires_at": "2026-10-29T12:18:00+08:00",
     "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md",
     "batch_id": "2026-10-29T1036+0800",
     "species_id": 81,
@@ -7206,7 +7206,8 @@
     "2026-10-29T11:56:00+08:00: cycle4 #81 start checkpoint.",
     "2026-10-29T11:59:00+08:00: #81 RESEARCH_READY.",
     "2026-10-29T12:00:00+08:00: #81 IMAGE_GENERATED in 56.4s; actual full image and juvenile crop opened; review pending.",
-    "2026-10-29T12:01:00+08:00: #81 REVIEWED first render, edit_count0; full JPEG and juvenile crop reopened; PASS_WITH_LIMITATIONS; science false."
+    "2026-10-29T12:01:00+08:00: #81 REVIEWED first render, edit_count0; full JPEG and juvenile crop reopened; PASS_WITH_LIMITATIONS; science false.",
+    "2026-10-29T12:03:00+08:00: #81 ARCHIVED; six image paths and manifest507 committed; fixed readback pending; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-29T1036+0800",
@@ -7215,7 +7216,7 @@
     "species_id": 81,
     "species": "Otus scops",
     "version": 3,
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md"
   }
 }

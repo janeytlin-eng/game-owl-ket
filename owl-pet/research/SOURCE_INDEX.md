@@ -5718,3 +5718,42 @@ New sources 0, reused 4, corrected 0. V3 retains the exact photographed 55-day c
 - **MLO-AVIBASE2026** — Birds Canada/Avibase current taxonomy. Reused to retain *Asio madagascariensis* and separate the historical broad-name mapping.
 - Unverified lead: Smithsonian NMNH specimen page search metadata was visible but the page returned 404 on reopen; it is not used as morphology evidence.
 - Design record: [v3 research](104-asio-madagascariensis-v3.md) · [run](../production/runs/20261029T1955+0800-cycle-6.md). Scientific status false.
+
+## 2026-10-29 — #179 *Otus mayottensis* v1 older-immature boundary
+
+### MAYS-MNHN-VOISIN-2011-P16
+- **Title / author / year:** *List of type specimens of birds in the collections of the Muséum national d’Histoire naturelle (Paris, France). 21. Strigiformes* — Claire Voisin & Jean-François Voisin, 2011
+- **URL:** https://publikace.nm.cz/file/e6d69a0d1788f9c0bd61bea0c6af0058/16751/180-2011-02-Voisin-Strigidae.pdf
+- **Accessed:** 2026-10-29
+- **Type / scope:** museum catalogue paper; *Otus rutilus mayottensis*; immature specimen; historical taxonomy
+- **Location:** printed p.16 / PDF p.8, “Scops Humbloti Oustalet” remarks
+- **Source fact:** MNHN C.G. 1884-2066 from Mayotte was found among mounted specimens and determined by Rasmussen as an immature *O. r. mayottensis*.
+- **Limit:** no age, plumage, soft-part, feather-development, nest or behavior description; it confirms stage/taxon existence only.
+- **Design support:** permits an “older immature, age unknown” target only when paired with separate appearance evidence; cannot support a chick, iris colour or flight claim.
+- **Confidence:** high for specimen/status; low for visual detail.
+- **Links:** research/species/179-otus-mayottensis.md; planned design/concepts/179-otus-mayottensis-v1.jpg.
+
+### MAYS-BIRDFORUM-2026-JUV
+- **Title / institution / date:** *Mayotte Scops Owl* — BirdForum Opus contributors, page read 2026-10-29
+- **URL:** https://www.birdforum.net/opus/Mayotte_Scops_Owl
+- **Accessed:** 2026-10-29
+- **Type / scope:** secondary species account; juvenile/adult identification; habitat
+- **Location:** Identification and Breeding sections; no page number.
+- **Source fact:** the page states sexes are similar and juveniles are similar to adults; it separately says breeding information is unavailable and cites HBW Vol.5 plus the Clements checklist.
+- **Limit/conflict:** the juvenile sentence is not mapped to a primary passage; Mikkola p.139 says juvenile unknown. It must not be upgraded to a neonatal or exact-age description.
+- **Design support:** age-unknown older immature with adult-like overall identity, softer irregular contour, complete support; no nest or precise soft-part claim.
+- **Confidence:** medium-low.
+- **Links:** research/species/179-otus-mayottensis.md; design/concepts/179-otus-mayottensis-v1.jpg.
+
+### MAYS-OISEAUX-2014-ADULT
+- **Title / author / date:** *Mayotte Scops Owl — Otus mayottensis* photo alan394855 — alanvannorman, photographed November 2014
+- **URL:** https://www.oiseaux.net/en/photos/alanvannorman/mayotte.scops.owl.1.html
+- **Accessed:** 2026-10-29
+- **Type / scope:** dated adult field-photo metadata; Réserve Forestière de Combani, Mayotte
+- **Location:** photo details; no page number.
+- **Source fact:** species identification, country, date and Combani forest-reserve locality are exposed; the photo is an adult record.
+- **Limit:** no sex, juvenile, age or breeding information; image copyright respected and no copy stored.
+- **Design support:** adult locality/environment corroboration only.
+- **Confidence:** medium.
+- **Links:** research/species/179-otus-mayottensis.md.
+

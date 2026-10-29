@@ -6827,91 +6827,36 @@
           "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md",
           "verified_at": "2026-10-29T12:04:00+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "species": "Otus senegalensis",
+          "species_id": 82,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "cd5e748e779666cb203f2f9c50ce53366fbae819",
+          "run_record": "owl-pet/production/runs/20261029T1205+0800-cycle-5.md",
+          "verified_at": "2026-10-29T12:13:00+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "20261029T1205+0800-cycle-5",
-        "run_id": "20261029T1205+0800-cycle-5",
-        "species": "Otus senegalensis",
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "heartbeat_at": "2026-10-29T12:12:00+08:00",
-        "expires_at": "2026-10-29T12:27:00+08:00",
-        "run_record": "owl-pet/production/runs/20261029T1205+0800-cycle-5.md",
-        "batch_id": "2026-10-29T1036+0800",
-        "species_id": 82,
-        "version": 3
-      },
+      "next_cycle": 6,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261029T1205+0800-cycle-5",
         "evidence": {
-          "new_sources": 1,
-          "reused_sources": 3,
-          "corrected_sources": 1,
-          "source_ids": [
-            "SEN-RIEKERT-1986",
-            "SEN-BROWN-RIEKERT-MORSBACH-1987",
-            "SEN-BE-ROBERTS2005",
-            "SEN-OWLPAGES-2020",
-            "SEN-MIK2013-130"
-          ],
-          "development_boundary": "25–28-day recent fledgling, about 75% adult size; fully supported low branch-step; no sustained-flight claim",
-          "unknowns": [
-            "exact feather-tract geometry",
-            "individual first-flight competence",
-            "subspecies transfer",
-            "juvenile sex"
-          ],
-          "full_imagegen_prompt": "Use case: scientific-educational. Asset type: owl-pet species concept plate. Create a polished 3:2 horizontal natural-history concept plate in the repository's established realistic-cute style. Exactly three African Scops Owls and exact readable text only: title “AFRICAN SCOPS OWL”, italic scientific line “Otus senegalensis”, bottom labels “ADULT MALE”, “25–28-DAY FRESH FLEDGLING”, “ADULT FEMALE”. Adults: near-equal skeletal height, female only subtly fuller if visible; do not convert heavier mass to fixed height and do not map grey/brown morph to sex. Use the same grey-brown morph for both: small blade-shaped ear tufts, yellow eyes, blackish-horn bill, fine bark-like vermiculations, pale scapular shoulder band, pale streaked underparts, feathered tarsi to dusky grey-brown toes, stable grips. Juvenile: species-specific recent fledgling at 25–28 days, about 75% of adult size and just leaving the nest for surrounding bush; not a newborn and not an adult clone. Fluffy soft grey-white mesoptile/residual down on head, shoulders and flanks; smaller soft ear tufts; developed but fresh, soft-edged folded wings and short tail with weak irregular juvenile markings; no crisp adult white shoulder band, no adult-regular white spot rows, no hard layered mature remiges, and no sustained-flight pose. It makes a cautious supported branch-step in a broad low thorn-bush fork with both feet/toes naturally gripping. Scene: arid Namibian savanna woodland near Daan Viljoen, Mopane/Acacia thorn bush and a weathered nest box or natural tree cavity visible behind, muted dusk. No eggs, prey, extra birds, extra text, logo, border, watermark, or invented exact sex ratio/flight claim.",
-          "scientifically_verified": false,
-          "generated_local": "generated_images/exec-8f14f938-c589-48ee-9c59-415335bb8f84.png",
-          "durable_generated_paths": [
-            "owl-pet/design/generated/82-otus-senegalensis-v3-generated-master.jpg",
-            "owl-pet/design/generated/82-otus-senegalensis-v3-generated.png"
-          ],
-          "generation_wait_seconds": 45.6,
-          "actual_view": "1536x1024 original opened",
-          "review_finding": "exact count/text/adult diagnostics/support pass; juvenile has overly crisp adult-like white wing spots and hard layered remiges; targeted edit required",
-          "edit_count": 1,
-          "edit_wait_seconds": 49.1,
-          "reviewed_paths": [
-            "owl-pet/design/reviewed/82-otus-senegalensis-v3-reviewed-master.jpg",
-            "owl-pet/design/reviewed/82-otus-senegalensis-v3-reviewed.png",
-            "owl-pet/design/reviewed/82-otus-senegalensis-v3-juvenile-crop.jpg"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "review_checks": {
-            "species_identity": "pass",
-            "eyes_bills_tufts": "pass",
-            "adult_sex_scale": "pass: near-equal skeletal height; morph not sex",
-            "juvenile_stage": "pass with limitation: 25–28-day recent fledgling; residual down, soft irregular fresh wing, short tail",
-            "support": "pass: both feet grip branch; adults stable",
-            "text_count": "pass",
-            "habitat": "pass: arid thorn woodland and cavity/nest-box context"
-          },
-          "remaining_unknowns": [
-            "exact 25–28-day feather-tract geometry",
-            "first-flight competence",
-            "subspecies transfer",
-            "juvenile sex"
-          ],
+          "archive_commit": "cd5e748e779666cb203f2f9c50ce53366fbae819",
+          "tree_truncated": false,
           "manifest_record": 508,
-          "concept_path": "owl-pet/design/concepts/82-otus-senegalensis-v3.jpg",
-          "image_blobs": {
-            "concept": "81043766d51d984a56dba7628dcb57d813f15be2",
-            "generated_jpg": "e53969feb91e753e1116e7a7f91e365b9768adfc",
-            "generated_png": "72014912d7c9d33d698b8c8c28a55537dba6d429",
-            "reviewed_jpg": "81043766d51d984a56dba7628dcb57d813f15be2",
-            "reviewed_png": "0ed640675ff3aee1d97433dea35c883a54ea8d73",
-            "crop": "0a5791d03040eda32cbb18be7f54fb8cbca8a43a"
-          },
-          "readback_pending": true
+          "all_six_image_paths_exact": true,
+          "readback_pending": false,
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T12:12:00+08:00",
+      "last_updated_at": "2026-10-29T12:13:00+08:00",
       "audit_notes": [
         "2026-10-29T10:36:00+08:00: batch started cycle1 #78 Asio capensis v3 SCIENCE_REVISION; v1-v2 retained; no other open batch; 15-minute lease acquired; no credit.",
         "2026-10-29T10:41:00+08:00: cycle1 #78 v3 RESEARCH_READY; new2/reused4/corrected1; BirdLife 2025 and Hanane & Cherkaoui 2014 actually read; later early-fledgling boundary selected; science false.",
@@ -6940,23 +6885,12 @@
         "2026-10-29T12:07:00+08:00: cycle5 #82 v3 RESEARCH_READY; new1/reused3/corrected1; 25–28-day recent fledgling at about 75% adult size selected; exact feather map/flight threshold unknown; science false; no credit.",
         "2026-10-29T12:09:00+08:00: cycle5 #82 v3 IMAGE_GENERATED in 45.6s; 1536x1024 original opened. Count/text/adults/support pass; juvenile adult-like white wing spots and hard layered remiges require targeted edit; durable generated derivatives saved; no credit.",
         "2026-10-29T12:10:00+08:00: cycle5 #82 v3 REVIEWED after one juvenile-only edit; full plate and 560x650 crop reopened. Adult-regular white spot rows/hard remiges reduced to softer irregular juvenile wing, short tail and residual down; both feet supported; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-29T12:12:00+08:00: cycle5 #82 v3 ARCHIVED; concept/generated/reviewed JPEG+PNG and crop stored in canonical paths; manifest508; fixed-commit readback pending; science false; no credit."
+        "2026-10-29T12:12:00+08:00: cycle5 #82 v3 ARCHIVED; concept/generated/reviewed JPEG+PNG and crop stored in canonical paths; manifest508; fixed-commit readback pending; science false; no credit.",
+        "2026-10-29T12:13:00+08:00: cycle5 #82 v3 VERIFIED by fixed archive cd5e748e779666cb203f2f9c50ce53366fbae819; recursive tree not truncated; all six image paths/blob/size pairs and manifest508/text markers read back. Batch advances to 5/6 next_cycle6; lease released; science false."
       ]
     }
   ],
-  "lease": {
-    "owner": "20261029T1205+0800-cycle-5",
-    "run_id": "20261029T1205+0800-cycle-5",
-    "species": "Otus senegalensis",
-    "cycle": 5,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-29T12:12:00+08:00",
-    "expires_at": "2026-10-29T12:27:00+08:00",
-    "run_record": "owl-pet/production/runs/20261029T1205+0800-cycle-5.md",
-    "batch_id": "2026-10-29T1036+0800",
-    "species_id": 82,
-    "version": 3
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -7050,7 +6984,7 @@
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false.",
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit."
   ],
-  "updated_at": "2026-10-29T12:12:00+08:00",
+  "updated_at": "2026-10-29T12:13:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7058,20 +6992,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "20261029T1156+0800-cycle-4",
-    "run_id": "20261029T1156+0800-cycle-4",
-    "species": "Otus scops",
-    "cycle": 4,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-29T12:12:00+08:00",
-    "expires_at": "2026-10-29T12:27:00+08:00",
-    "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md",
-    "batch_id": "2026-10-29T1036+0800",
-    "species_id": 81,
-    "version": 3
-  },
-  "last_updated_at": "2026-10-29T12:12:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-29T12:13:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7216,7 +7138,8 @@
     "2026-10-29T12:07:00+08:00: cycle5 #82 v3 RESEARCH_READY; primary development records read; full prompt saved; no credit.",
     "2026-10-29T12:09:00+08:00: #82 IMAGE_GENERATED; targeted juvenile-wing edit required; no credit.",
     "2026-10-29T12:10:00+08:00: #82 REVIEWED after one edit; full+crop passed with limitations; no credit.",
-    "2026-10-29T12:12:00+08:00: #82 ARCHIVED; manifest508; fixed readback pending; no credit."
+    "2026-10-29T12:12:00+08:00: #82 ARCHIVED; manifest508; fixed readback pending; no credit.",
+    "2026-10-29T12:13:00+08:00: #82 fixed-tree verification passed; batch5/6 next6; lease released."
   ],
   "audit_trail": [
     {
@@ -7284,14 +7207,5 @@
     "2026-10-29T12:04:00+08:00: #81 VERIFIED at fixed archive fb066d5019a708128130e54fdd0d959eb3f2cae8; batch4/6 next5; lease released.",
     "2026-10-29T12:05:00+08:00: cycle5 #82 STARTED; cycle4 verification commit reconciled."
   ],
-  "in_progress": {
-    "batch_id": "2026-10-29T1036+0800",
-    "cycle": 5,
-    "run_id": "20261029T1205+0800-cycle-5",
-    "species_id": 82,
-    "species": "Otus senegalensis",
-    "version": 3,
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261029T1205+0800-cycle-5.md"
-  }
+  "in_progress": null
 }

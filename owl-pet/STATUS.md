@@ -2098,8 +2098,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - VERIFIED at archive `91fcf381020a6f9d4ff402fc7478f7e52555570a`; all four image blobs/sizes and manifest503 matched. Batch `2026-10-29T0835+0800` is COMPLETE 6/6; unique species remains 174/251; science false.
 
 
-## 2026-10-29 12:12 +08 — #82 *Otus senegalensis* v3 ARCHIVED
+## 2026-10-29 12:13 +08 — #82 v3 verified
 
-- Science revision only; unique-species count unchanged. Manifest 508.
-- One juvenile-wing edit; full plate and crop reviewed; science false.
-- Fixed-commit readback pending before cycle credit.
+#82 *Otus senegalensis* v3 passed fixed-commit repository readback at `cd5e748e779666cb203f2f9c50ce53366fbae819`; six canonical image paths/blobs/sizes and manifest508 matched. This is a science revision with unique increment 0. Batch `2026-10-29T1036+0800` is 5/6, next cycle6. Scientific verification remains false.

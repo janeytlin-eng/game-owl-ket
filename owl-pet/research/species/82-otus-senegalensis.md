@@ -6,3 +6,7 @@ ARCHIVED fullPNG3043383bytes Git8a2e5bcd71826a8bd5bd659d02aa186b52b968e2 SHA256c
 IMAGE_GENERATED 2026-10-15T07:38:08.425Z; EDIT_RETURNED 2026-10-15T07:39:35.826Z; edit wait 64.55s. Unique80/251.
 
 Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-2.md
+
+## 2026-10-29 v3 research-ready correction
+
+Primary development evidence is now anchored by Riekert 1986 (printed pp.425–428; full four-page PDF opened) and Brown, Riekert & Morsbach 1987 (printed pp.58–64; institutional record and publisher abstract read). The old `SEN-BROWN1987-UNVERIFIED` lead is corrected to `SEN-BROWN-RIEKERT-MORSBACH-1987`. V3 uses a 25–28-day recent fledgling, about 75% adult size, with residual grey-white mesoptile, fresh soft-edged folded wings and short tail in a supported low branch-step beside a nest box/tree cavity. Adult mass and morph are not mapped to height or sex. Exact daily feather tracts, first-flight competence and juvenile sex remain unknown; science false.

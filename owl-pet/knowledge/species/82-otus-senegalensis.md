@@ -11,3 +11,8 @@ Archive commit: 7e2136af08c4e3a7c612b1062cc1aba381471544
 82-otus-senegalensis-v2 REVISION; Adulttoesduskygraybrown edited/viewed, juvenilecolourunchangedunknown; toegrips/claws/cuffs retained. Exactfeetgeometry andcolourpending. Sciencefalse. ARCHIVED 1744baaba8918b2caad21e9c0d85d900e3bafb77; independentimmutable remote fullPNGdecode 1536x1024 2983972bytes SHA256861f64d05584f2f7eb97c02ac8ac0a1d4146503d8426c118a66260d5ee3df191 Gitblob3c9da739e825d70cc77b06253b7b934c6289dddc local==remote. Sources new SEN-OWLPAGES-2020; reused SEN-BE-ROBERTS2005 indexd0799a7832328c109d61bc538fbb67688160416c. [Run](production/runs/2026-10-19T0929+0800-cycle-3.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/1744baaba8918b2caad21e9c0d85d900e3bafb77/owl-pet/design/concepts/82-otus-senegalensis-v2.png). Unique138/251.
 Lesson: Toe skin color independent from feathercoverage and juvenile age; do not generalize adultcolor to chick.
 
+
+
+## 2026-10-29 v3 research-ready correction
+
+Primary development evidence is now anchored by Riekert 1986 (printed pp.425–428; full four-page PDF opened) and Brown, Riekert & Morsbach 1987 (printed pp.58–64; institutional record and publisher abstract read). The old `SEN-BROWN1987-UNVERIFIED` lead is corrected to `SEN-BROWN-RIEKERT-MORSBACH-1987`. V3 uses a 25–28-day recent fledgling, about 75% adult size, with residual grey-white mesoptile, fresh soft-edged folded wings and short tail in a supported low branch-step beside a nest box/tree cavity. Adult mass and morph are not mapped to height or sex. Exact daily feather tracts, first-flight competence and juvenile sex remain unknown; science false.

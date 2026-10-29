@@ -6102,3 +6102,19 @@ Full facsimile was actually reread on 2026-10-30 at https://www.gutenberg.org/fi
 - **Links:** [species research](species/15-strix-varia-v5.md) · [run](../production/runs/20261030T030200+0800-cycle-4.md)
 
 Freshly reused parent record `BARO-DUNCAN-2024-CFN` (27,092 images; entrance activity 8–9 d before fledging at ≤27–32 d), plus `BARO-MIKKOLA-2013-P29-P346`, `BARO-CORNELL-ID` and `BARO-CORNELL-CAM-2024`. V4’s external brancher/climber inference is corrected to the directly evidenced cavity-threshold state. New1/reused4/corrected1; science false. The 1964 Howell paper was found, but only bibliographic metadata was accessible this cycle and it was not used as verified visual evidence.
+
+
+# 2026-10-30 · #16 *Strix occidentalis caurina* v4 — ten-day post-fledge mesoptile boundary
+
+## NSO-FORSMAN-1976-T15
+- **Stable source ID:** `NSO-FORSMAN-1976-T15`
+- **Title / author / year:** *A Preliminary Investigation of the Spotted Owl in Oregon*; Eric Forsman; Oregon State University MSc thesis, 1976 (presented 22 October 1975).
+- **Original URL:** https://andrewsforest.oregonstate.edu/sites/default/files/lter/pubs/pdf/pub1760.pdf
+- **Accessed:** 2026-10-30. **Type:** primary field thesis; Oregon spotted owls, 1970–1974.
+- **Species / stage:** Oregon *Strix occidentalis* (northern population context), fledging through first-summer plumage.
+- **Actually read/viewed:** PDF abstract pp.1–5; printed p.79/PDF p.109 Figure 8 caption; printed pp.82–83/PDF pp.112–113 Table 15. Figure 8 is captioned as ten days after fledging and 42–46 days old. Table 15 states that 0–10-day post-fledge owlets (35–46 d old) have fuzzy buff-brown mesoptile with natal-down tips; head/wing-covert mesoptiles complete by the end; small dark brownish-black facial disks; dark-brown iris, pale watery-blue pupil, greenish-blue beak and pink cere. The abstract reports fledging at 34–36 d, weak flight and climbing after falls.
+- **Limits/confidence:** historical Oregon sample, approximate ages/brood variability and no exact remex measurements; cannot define a universal timetable or quantitative pair ratio. High confidence for Table 15 sequence and Figure 8 age caption, moderate for colour transfer to a stylized image.
+- **Design decision:** v4 selects ~10 d post-fledge / 42–46 d, fully supported on a low branch in a cautious sideways sidestep. Fuzzy buff-brown mesoptile, clinging natal-down tips, small dark facial disks, pink cere/greenish-blue bill and shorter developing remiges are explicit; no flight pose or adult spotting grid.
+- **Links:** [species research](species/16-strix-occidentalis-v4.md) · [run](../production/runs/20261030T031600+0800-cycle-5.md)
+
+Reused `NSO-FORSMAN-1984-P36-37`, `NSO-USFWS-PROTOCOL-2012-P33` and `NSO-CORNELL-ID-2026`. V3’s generic departure-stage climber is refined to the directly captioned ten-day post-fledge stage. New1/reused3/corrected1; science false. The user-uploaded Mikkola guide was unavailable in this runtime; no unverified page is added.

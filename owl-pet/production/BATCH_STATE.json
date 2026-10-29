@@ -7321,10 +7321,36 @@
           "scientifically_verified": false
         }
       ],
-      "next_cycle": 3,
-      "active_lease": null,
-      "cycle_checkpoint": null,
-      "last_updated_at": "2026-10-29T21:51:00+08:00",
+    "next_cycle": 3,
+    "active_lease": {
+      "owner": "codex-work-20261029T2144+0800",
+      "run_id": "20261029T2144+0800-cycle-3",
+      "cycle": 3,
+      "species_id": 1,
+      "heartbeat_at": "2026-10-29T21:44:00+08:00",
+      "expires_at": "2026-10-29T21:59:00+08:00"
+    },
+    "cycle_checkpoint": {
+      "cycle": 3,
+      "species_id": 1,
+      "species": "Tyto alba",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "stage": "STARTED",
+      "base_main_sha": "6e968d6c7d69329727f9867f367529aaa0977e6e",
+      "run_record": "owl-pet/production/runs/20261029T2144+0800-cycle-3.md",
+      "prior_versions_retained": [1, 2, 3, 4],
+      "user_approved_scope": "v3 juvenile look retained as a historical user-approved direction; v4 barn-interior correction retained; v5 will calibrate a source-bounded nestling stage without overwriting either record.",
+      "production_credit": false
+    },
+    "in_progress": {
+      "run_id": "20261029T2144+0800-cycle-3",
+      "cycle": 3,
+      "species_id": 1,
+      "version": 5,
+      "stage": "STARTED"
+    },
+    "last_updated_at": "2026-10-29T21:44:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7338,7 +7364,8 @@
         "2026-10-29T21:40:00+08:00: cycle2 #143 v2 IMAGE_GENERATED checkpoint persisted from recoverable initial render. Full 1536x1024 image had been opened; exact count/text/adult support passed, but juvenile wing required the already-produced targeted edit. No production credit.",
         "2026-10-29T21:43:00+08:00: cycle2 #143 v2 REVIEWED after one targeted edit. Edited 1536x1024 full image and 620x760 juvenile crop reopened: three birds/text/support/near-equal adults pass; juvenile retains long pale down, dark mask, orange-yellow eyes, grey feet and short emerging barred wing. Exact age/sex/flight threshold remain unknown; science false; no credit.",
         "2026-10-29T21:47:00+08:00: cycle2 #143 v2 ARCHIVED; concept, generated/reviewed JPEG masters, juvenile crop, manifest527, knowledge/status and run records staged. Fixed commit-pinned readback pending; no cycle credit.",
-        "2026-10-29T21:51:00+08:00: cycle2 #143 Asio solomonensis v2 VERIFIED at archive 636309f2aa7c89a224eba688005a0e2399024d88; non-truncated 1764-entry fixed tree and four exact image path/blob/size pairs matched local git hash-object, and run/knowledge records reopened. Batch 2/6 next cycle3; unique unchanged; science false; lease released."
+      "2026-10-29T21:51:00+08:00: cycle2 #143 Asio solomonensis v2 VERIFIED at archive 636309f2aa7c89a224eba688005a0e2399024d88; non-truncated 1764-entry fixed tree and four exact image path/blob/size pairs matched local git hash-object, and run/knowledge records reopened. Batch 2/6 next cycle3; unique unchanged; science false; lease released.",
+      "2026-10-29T21:44:00+08:00: cycle3 STARTED #01 Tyto alba v5 SCIENCE_REVISION; v1-v4 retained, including user approval of the v3 juvenile look and v4 barn-interior correction. Fifteen-minute lease acquired. Candidate selected for a source-bounded early nestling recalibration under the current staged fixed-readback workflow; no production credit."
       ]
     }
   ],

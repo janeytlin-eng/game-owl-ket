@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T18:50:00+08:00",
+  "updated": "2026-10-29T18:51:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8272,8 +8272,36 @@
       "review_crop_blob": "c02c19ead8ee911b5c2558f360da0e00a644f6d8",
       "review_crop_size_bytes": 215992,
       "archive_note": "One juvenile wing/tail edit; edited full and crop reopened. Documented older fledgling stage and two-foot branch support pass with limitations. Periurban canopy is a documented case, not a universal nest claim.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "56b0d5745680ff6c538f4109dc08911472986505",
+      "fixed_commit": "56b0d5745680ff6c538f4109dc08911472986505",
+      "verified_at": "2026-10-29T18:51:00+08:00",
+      "verification_result": "four exact commit-pinned JPEG/crop path/blob/size pairs verified; manifest, run, source index and species research record reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/100-strix-huhula-v3.jpg",
+          "blob": "e290b4c60118a089fda9f54edd07b181cf7553a3",
+          "size_bytes": 769145
+        },
+        "generated_jpg": {
+          "path": "production/generated/100-strix-huhula-v3-generated-master.jpg",
+          "blob": "3376b425a2bc2edd191a597568a0f15eda80465a",
+          "size_bytes": 772908
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/100-strix-huhula-v3-reviewed-master.jpg",
+          "blob": "e290b4c60118a089fda9f54edd07b181cf7553a3",
+          "size_bytes": 769145
+        },
+        "review_crop": {
+          "path": "production/reviewed/100-strix-huhula-v3-reviewed-fledgling-crop.jpg",
+          "blob": "c02c19ead8ee911b5c2558f360da0e00a644f6d8",
+          "size_bytes": 215992
+        },
+        "fixed_commit": "56b0d5745680ff6c538f4109dc08911472986505"
+      }
     }
   ],
-  "updated_at": "2026-10-29T18:50:00+08:00"
+  "updated_at": "2026-10-29T18:51:00+08:00"
 }

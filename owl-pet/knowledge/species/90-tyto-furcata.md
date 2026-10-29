@@ -20,3 +20,18 @@ Actual v2 review showed the right female visually about one-third taller than th
 Sources new3/reused1/corrected0: `ABO-BC-SPECIES-2026`, `ABO-MONTANA-MARTI-1992`, `ABO-MARTI-SEXAGE`; existing v2 evidence reused. Image commit `4690cf7216ba8c1d573e8dfc3dbd79a2b2e488aa`; 1536×1024 sRGB PNG, 2,382,644 bytes; SHA-256 `bbed9af7b6a30f7d0584c5b80a3813f3ad64f81f62706414af7879f6fecdfaba`; Git blob `fe7102464c78e6dc301b0599824de45a1ecf9c18`. Unique species remains 157/251.
 
 [Original](../../design/concepts/90-tyto-furcata-v3.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-23T1233+0800-cycle-1.md)
+
+
+## 90-tyto-furcata-v4
+
+- **Action/state:** SCIENCE_REVISION; v1–v3 preserved; target P20 stage.
+- **New sources:** `ABO-WAGNER2022-P20` (open full primary paper and Figure 1 viewed; exact *T. f. pratincola*) and `ABO-PHILLIPS2022-GROWTH` (UC thesis abstract; full text under embargo).
+- **Reused:** `FUR-CORNELL-CAM2010`, `FUR-MIK2013-82`.
+- **Taxonomy:** current *Tyto furcata pratincola*; historical *Tyto alba pratincola*. Not duplicated with project #01 European *T. alba*.
+- **Adult boundary:** pale male versus modestly fuller/darker/buffer and more spotted female is directional, not a fixed height ratio. Whitish heart-shaped disc with orange-brown rim, dark eyes, creamy bill, pale feathered legs/toes.
+- **Juvenile boundary:** P20 can stand/walk, remains overwhelmingly white-down-dominant, has only short emerging dark wing feathers, no adult heart-disc, no developed tail and no flight/branch claim. Flat floor and both-foot support are required.
+- **Unknown:** exact individual day/sex, wild versus hand-raised timing, tract-level feather sequence, toe geometry and pair-specific adult ratio. Science remains false.
+- **Full prompt:** Create a landscape 3:2 natural-history concept plate in the established warm painterly-realistic owl style, titled exactly “AMERICAN BARN OWL” with italic subtitle “Tyto furcata pratincola”. Show exactly three birds left-to-right with exact labels “ADULT MALE”, “~20-DAY JUVENILE”, “ADULT FEMALE”. Place them at a natural wooden Texas ranch nest-box/loft opening with broad flat floor, sparse pellets/dry grass and open grassland light beyond; no woven nest, eggs, prey, humans, UI, border or extra birds. Adults have whitish heart-shaped discs with warm orange-brown rim, dark eyes, creamy horn bills and gold-grey mottled upperparts. Male very pale/white below with sparse spots; female modestly fuller/darker/buffer and more spotted, but display height difference subtle. Center juvenile is P20: smaller, low/upright, both feet on floor; overwhelmingly loose white natal down, rounded unfinished face, open dark eyes, small pale bill; only short side wing stubs with a few emerging dark brown quills/short feathers, tail absent/hidden; no branch, spread wings, flight or adult-regular spots.
+- **Source index:** ../../research/SOURCE_INDEX.md
+- **Target:** ../../design/concepts/90-tyto-furcata-v4.jpg
+- **Run:** ../../production/runs/202610291458+0800-cycle-6.md

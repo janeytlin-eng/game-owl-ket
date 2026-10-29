@@ -2063,3 +2063,16 @@ When a guide says the juvenile is unknown but a museum paper confirms an immatur
 ### Incremental rule — do not solve pinfeather leakage by deleting all stage-supported sheaths
 
 When a source supports localized emerging sheaths but a render produces long dense shaft clusters, target their length, density and distribution. Retain only short localized sheaths and recheck the chick crop; do not replace the evidence-bounded stage with a generic all-white ball. Applied and visually rechecked on #03 v12; broader effectiveness remains unverified.
+
+## 2026-10-29 #04 Little Owl v5 — cavity-threshold chick
+
+- Original: [04-athene-noctua-v5.jpg](concepts/04-athene-noctua-v5.jpg)
+- Research: [species record](../research/species/04-athene-noctua-v5.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one targeted juvenile-wing edit; full 1536×1024 plate and 560×650 chick crop reopened.
+- Boundary: approximately 28-day bird immediately outside the cavity, low and fully supported; limited flight and continued dependence, not a competent independent fledgling.
+- Unknown: exact day/sex, iris progression, primary/rectrix length, first successful flight and regional timing.
+- Scientific status: pending / false.
+
+### Incremental rule — nest departure is not proof of competent flight
+
+When field guidance and telemetry show that a young owl can leave or move around the cavity before strong flight, use cavity-adjacent support and incomplete rounded wings. Do not turn “outside the nest” into an airborne or independent fledgling. Applied and visually rechecked on #04 v5; broader effectiveness remains unverified.

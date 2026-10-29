@@ -1297,3 +1297,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-29: archived #02 *Bubo scandiacus* v6 science revision (15–21-day gray-mesoptile young; one targeted juvenile-wing edit); fixed readback pending.
 
 - 2026-10-29 23:38 +08: archived #03 *Bubo bubo* v12 science revision. Re-read Mikkola actual PDF pp.270–273 / printed pp.268–271 and Penteriani et al. 2005 printed pp.159–160 / Figs 2–3; one edit removed long dense juvenile shafts. Full plate and 560×600 crop reopened; manifest530; fixed readback pending; science false.
+
+- 2026-10-29 23:48 +08: archived #04 *Athene noctua* v5 science revision. Added Perrig et al. 2017 and re-read four sources; one juvenile-only edit replaced adult-layered wing/tail with a compact down-softened threshold wing. Full plate and 560×650 crop reopened; manifest531; fixed readback pending; science false.

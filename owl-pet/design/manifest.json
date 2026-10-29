@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T23:42:00+08:00",
+  "updated": "2026-10-29T23:48:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8908,7 +8908,58 @@
         "fixed_commit": "605918f47ffafd48f4ea3f34a61f4c84d532470a",
         "local_git_hash_object_matches": true
       }
+    },
+    {
+      "entry_id": 531,
+      "species_id": 4,
+      "scientific_name": "Athene noctua",
+      "common_name": "Little Owl",
+      "version": 5,
+      "path": "design/concepts/04-athene-noctua-v5.jpg",
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "user_approval_history": "no latest-version approval; v1-v4 and all historical records are retained without transfer",
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 4,
+      "sha256": "971866bfaa55030fc332bb8189f7988e7fd88b9b9eb7f1bc2d6bd7ac7912d16d",
+      "scientifically_verified": false,
+      "status": "PASS_WITH_LIMITATIONS. Approximately 28-day cavity-threshold chick is low and fully supported immediately outside the cavity, with down-softened body, compact rounded developing wings and hidden long tail. First departure does not imply strong flight or independence. Adults are similar-plumaged and near-equal display height; female only subtly fuller. Exact day, sex, iris progression, wing/tail metrics, first-flight threshold and subspecies transfer remain unknown.",
+      "source_ids": [
+        "LIO-PERRIG-2017",
+        "LIO-MIKKOLA-2013-P427",
+        "LIO-BTO-MONITORING-2019",
+        "LIO-PEDERSEN-2013",
+        "LIO-BTO-OVERVIEW-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/04-athene-noctua-v5.md",
+      "run_record": "production/runs/20261029T2346+0800-cycle-6.md",
+      "reviewed_at": "2026-10-29T23:46:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 769557,
+      "git_blob": "853ab0afecd8b8953930919f52b17eeff99fce17",
+      "generated_path": "production/generated/04-athene-noctua-v5-generated.jpg",
+      "generated_blob": "da2691f6536c1fa257afc8c82a776ea2f85b970a",
+      "generated_sha256": "e99d2d7c66eb58f021e5704994963a42dfe88f4abd3faf3cf0ee90260bb353a4",
+      "generated_size_bytes": 821585,
+      "reviewed_path": "production/reviewed/04-athene-noctua-v5-reviewed.jpg",
+      "reviewed_blob": "853ab0afecd8b8953930919f52b17eeff99fce17",
+      "reviewed_sha256": "971866bfaa55030fc332bb8189f7988e7fd88b9b9eb7f1bc2d6bd7ac7912d16d",
+      "reviewed_size_bytes": 769557,
+      "review_crop_path": "production/reviewed/04-athene-noctua-v5-chick-crop.jpg",
+      "review_crop_blob": "99ab0a94eb94861b54a5bee183c5f27931c2c6df",
+      "review_crop_sha256": "42949ee5cfb82a974e8563451728113d4a8cb49a57a954b6435566e7f60608ca",
+      "review_crop_size_bytes": 190284,
+      "archive_note": "First render had a long regularly layered, adult-spotted juvenile wing. One targeted imagegen edit shortened and softened it, removed regular adult-style spot rows and hid the long tail. Full image and 560x650 crop reopened; science false.",
+      "readback_pending": true,
+      "archive_commit": "PENDING_FIXED_COMMIT",
+      "verification_result": "pending fixed-commit tree and text-record readback"
     }
   ],
-  "updated_at": "2026-10-29T23:42:00+08:00"
+  "updated_at": "2026-10-29T23:48:00+08:00"
 }

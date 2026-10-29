@@ -6958,25 +6958,26 @@
         "batch_id": "2026-10-29T1236+0800",
         "cycle": 4,
         "species_id": 88,
-        "heartbeat_at": "2026-10-29T14:42:42+08:00",
-        "expires_at": "2026-10-29T14:57:42+08:00"
+        "heartbeat_at": "2026-10-29T14:44:01+08:00",
+        "expires_at": "2026-10-29T14:59:01+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261029T1437+0800-cycle-4",
         "evidence": {
           "species_id": 88,
           "version": 4,
-          "imagegen_calls": 2,
+          "result": "PASS_WITH_LIMITATIONS",
           "edit_count": 1,
-          "dimensions": "1536x1024",
-          "imagegen_original_sha256": "aefbbb32c9b76fc6ec42fca7d5f2eb95a49cf8fb399005417926e3645a1f0649",
-          "run_record_commit": "d3d10f127427acb84595dacc17090b838f8bf095",
+          "full_opened": true,
+          "juvenile_crop_opened": true,
+          "run_record_commit": "e18784d3a2e115e4cbc94f10ba35ca463614de27",
+          "species_card_commit": "f86fb54704e5d29c1fe43bfff670208c3522597d",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T14:42:42+08:00",
+      "last_updated_at": "2026-10-29T14:44:01+08:00",
       "audit_notes": [
         "2026-10-29T12:36:04+08:00: cycle1 STARTED #85 Otus semitorques v3 SCIENCE_REVISION; v1-v2 retained; no other open batch or active lease; 15-minute lease acquired; no production credit.",
         "2026-10-29T12:36:57+08:00: cycle1 #85 v3 RESEARCH_READY; new2/reused2/corrected1; first-winter retained-flight-feather boundary; science false.",
@@ -6999,7 +7000,8 @@
         "2026-10-29T14:36:45+08:00: cycle3 #87 Bubo ascalaphus v3 VERIFIED at fixed archive 1d507f4520223f55309bd3bc29b15c0b1dd6ebf2; batch3/6 next4; lease released.",
         "2026-10-29T14:37:48+08:00: cycle4 STARTED #88 Bubo capensis v4 SCIENCE_REVISION; v1-v3 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T14:39:35+08:00: cycle4 #88 v4 RESEARCH_READY; new3/reused2/corrected1; approximate 45-day pre-flight boundary with subspecies applicability; science false.",
-        "2026-10-29T14:42:42+08:00: cycle4 #88 v4 IMAGE_GENERATED after 2 calls/1 juvenile-wing edit; formal review next."
+        "2026-10-29T14:42:42+08:00: cycle4 #88 v4 IMAGE_GENERATED after 2 calls/1 juvenile-wing edit; formal review next.",
+        "2026-10-29T14:44:01+08:00: cycle4 #88 v4 REVIEWED after 1 edit; full and crop reopened; PASS_WITH_LIMITATIONS; science false."
       ]
     }
   ],
@@ -7009,8 +7011,8 @@
     "batch_id": "2026-10-29T1236+0800",
     "cycle": 4,
     "species_id": 88,
-    "heartbeat_at": "2026-10-29T14:42:42+08:00",
-    "expires_at": "2026-10-29T14:57:42+08:00"
+    "heartbeat_at": "2026-10-29T14:44:01+08:00",
+    "expires_at": "2026-10-29T14:59:01+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7106,7 +7108,7 @@
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit.",
     "2026-10-29T14:26:45+08:00: batch 2026-10-29T1236+0800 cycle3 STARTED #87 Bubo ascalaphus v3; no credit."
   ],
-  "updated_at": "2026-10-29T14:42:42+08:00",
+  "updated_at": "2026-10-29T14:44:01+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7120,10 +7122,10 @@
     "batch_id": "2026-10-29T1236+0800",
     "cycle": 4,
     "species_id": 88,
-    "heartbeat_at": "2026-10-29T14:42:42+08:00",
-    "expires_at": "2026-10-29T14:57:42+08:00"
+    "heartbeat_at": "2026-10-29T14:44:01+08:00",
+    "expires_at": "2026-10-29T14:59:01+08:00"
   },
-  "last_updated_at": "2026-10-29T14:42:42+08:00",
+  "last_updated_at": "2026-10-29T14:44:01+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7363,7 +7365,7 @@
     "species": "Bubo capensis",
     "version": 4,
     "action": "SCIENCE_REVISION",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-29T14:37:48+08:00",
     "run_record": "owl-pet/production/runs/20261029T1437+0800-cycle-4.md"
   }

@@ -6,3 +6,8 @@ Edited image actually viewed: juvenile conspicuous white scapular patches dimini
 81-otus-scops-v2 REVISION; Adultleftreduced/rightenlarged removingformerstrongmaleoverscale; rightmodestlytaller, exactneutral/sexratio pending. Juvenileformedwings/climbinggrips retained. Sciencefalse. ARCHIVED 7c613f6210e11fa820c3c3e10f95e5f67acff498; independentimmutable remote fullPNGdecode 1536x1024 3151116bytes SHA256606b4f4b54f6d3f04adf6b59e3c530eb30286b2045e8a225684202fc2c90ef82 Gitblob2d2f006550a1e6532d56f99dc7f6d93265619281 local==remote. Sources new0/reuse1 SCOPS-BLASCO-UNDATED index632f9b4ba50707446610e14f17a08c9e833701be. [Run](production/runs/2026-10-19T0929+0800-cycle-2.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7c613f6210e11fa820c3c3e10f95e5f67acff498/owl-pet/design/concepts/81-otus-scops-v2.png). Unique138/251.
 Lesson: Neutral scale edits can overshoot; do not label resulting display as measured sex ratio; retain legitimate older juvenile feathers.
 
+
+
+## 2026-10-29 v3 research-ready boundary
+
+SCOPS-MARCHESI-SERGIO-2005 full Wiley article pp.176–187 supports 20–32-d fledging and 15–20-d nest checks; SCOPS-GRIECO-2025 Ardea 113:103–115 supports departure about 21 d and progressive post-departure movement in an Aleppo-pine/old-Magpie-nest system. Reused SCOPS-BLASCO-UNDATED distinguishes narrow pointed fresh juvenile feathers from broad rounded adult feathers. V3 calibrates the existing formed-wing concept to an approx.21-d fresh fledgling: supported low branch, narrow pointed fresh wing/tail, residual down, controlled step/hop, no sustained flight. Exact day/competence/feather width/sex ratio unknown, science false. Run ../../production/runs/20261029T1156+0800-cycle-4.md.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:22:00+08:00",
+  "updated": "2026-10-30T01:23:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9266,11 +9266,42 @@
       "review_crop_sha256": "5d31447dac686c1ce330c89dcfe3657067f8495b16dde99cbfb4f1a3a87030be",
       "review_crop_size_bytes": 212606,
       "archive_note": "Full 1536x1024 generated plate and 610x760 crop were opened. Initial juvenile wing read as a long layered adult-like fan with regular pale rows. One juvenile-only imagegen edit compacted and down-softened the wing; edited full and crop were reopened. Adults/text/support were preserved. Historical v1-v4 and v1 user approval remain unchanged.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "aeee17b44f7b57994e2580e3761ec3d32d905104",
+      "fixed_commit": "aeee17b44f7b57994e2580e3761ec3d32d905104",
+      "verified_at": "2026-10-30T01:23:00+08:00",
+      "verification_result": "non-truncated 1813-entry fixed tree; exact five image path/blob/size pairs, complete source-index markers, manifest535, research and phase records matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "aeee17b44f7b57994e2580e3761ec3d32d905104",
+        "concept": {
+          "path": "design/concepts/08-strix-nebulosa-v5.jpg",
+          "blob": "8ebc0fe4c53f2229a79c0b766a4266d16be39aa6",
+          "size_bytes": 512888
+        },
+        "generated": {
+          "path": "production/generated/08-strix-nebulosa-v5-generated.jpg",
+          "blob": "8dbd4c5b22c32937e059d5caf45989fcee725935",
+          "size_bytes": 547089
+        },
+        "generated_crop": {
+          "path": "production/generated/08-strix-nebulosa-v5-juvenile-crop.jpg",
+          "blob": "c99d8c8708db522a20d3697058d7dafff8ec7670",
+          "size_bytes": 229814
+        },
+        "reviewed": {
+          "path": "production/reviewed/08-strix-nebulosa-v5-reviewed.jpg",
+          "blob": "8ebc0fe4c53f2229a79c0b766a4266d16be39aa6",
+          "size_bytes": 512888
+        },
+        "review_crop": {
+          "path": "production/reviewed/08-strix-nebulosa-v5-juvenile-crop.jpg",
+          "blob": "6aea433058888a5bfbf7300cc3ff6fe814c34013",
+          "size_bytes": 212606
+        },
+        "source_index_blob": "aaffda54a3dd815455c856f25999be931b2583f1"
+      }
     }
   ],
-  "updated_at": "2026-10-30T01:22:00+08:00"
+  "updated_at": "2026-10-30T01:23:00+08:00"
 }

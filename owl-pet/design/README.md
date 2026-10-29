@@ -3,7 +3,7 @@
 - Target: [08-strix-nebulosa-v5.jpg](concepts/08-strix-nebulosa-v5.jpg)
 - Research: [species record](../research/species/08-strix-nebulosa-v5.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30--08-strix-nebulosa-v5--brancher-colour-climbing-mechanics-and-bounded-sex-size-direction)
 - Review: `PASS_WITH_LIMITATIONS`, edit count 1. The just-out, still-flightless brancher is charcoal-gray above, pale below, short-winged/short-tailed and fully bark-supported by both talons; adult sexes share plumage and the female is only subtly fuller. Exact age/locality/subspecies/feather sequence/standing ratio/first-flight day remain unknown; science false.
-- Archive: manifest535; fixed commit-pinned readback pending.
+- Archive: manifest535 VERIFIED at fixed commit `aeee17b44f7b57994e2580e3761ec3d32d905104`; non-truncated 1813-entry tree, exact five image blobs/sizes and source-index/research/run markers passed.
 
 ### A climbing brancher needs stage-correct feathering as well as support
 

@@ -62,3 +62,8 @@ Sources new0/reused2 MARS-WESKE-1981 failedtarget, GGO-ORI-2020-0506 actualfresh
 首图三鸟、文字、成鸟特征、幼鸟灰黑头背/浅腹与双爪抓树均通过，但幼鸟折翼有成熟层叠飞羽扇与规则浅斑。一次仅改幼鸟翼羽的 imagegen 定向修订后，短圆绒羽翼、短尾和自然攀树支撑通过；编辑全图与 610×760 局部均已实际查看。雌鸟与雄鸟同羽色，仅略更圆满，不声称精确比例。精确日龄、地域型、逐日羽序、个体性别和普适首飞日仍未知；scientifically_verified=false。
 
 图像：[v5](../../design/concepts/08-strix-nebulosa-v5.jpg)；研究：[v5 record](../../research/species/08-strix-nebulosa-v5.md)；运行：[cycle 4](../../production/runs/20261030T0115+0800-cycle-4.md)。manifest535 已归档，固定提交回读待完成。
+
+
+## 2026-10-30 v5 archive verification
+
+固定归档提交 `aeee17b44f7b57994e2580e3761ec3d32d905104` 的非截断 1813 项树已回读；概念图、生成图、生成局部、审查图和审查局部的路径/blob/字节全部匹配。完整来源索引包含三条新增来源标记，manifest535、研究档案和五阶段记录匹配。结果 VERIFIED；旧 v1–v4 与 v1 用户确认不变；scientifically_verified=false。

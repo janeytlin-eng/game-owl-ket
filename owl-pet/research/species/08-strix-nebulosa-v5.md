@@ -57,3 +57,8 @@ The first render’s juvenile wing had long layered remiges and regular pale row
 ## ARCHIVED checkpoint
 
 At 2026-10-30T01:22:00+08:00, complete JPEG assets, manifest535, source/card/review/run records and the stage-bounded process lesson were written to main. Fixed commit-pinned readback remains required; no cycle credit yet. Scientifically_verified=false.
+
+
+## Archive verification
+
+Fixed commit `aeee17b44f7b57994e2580e3761ec3d32d905104` read back as a non-truncated 1813-entry tree. Concept, generated full/crop and reviewed full/crop matched exact paths, Git blobs and byte sizes. The complete source-index blob contained all three new-source IDs; manifest535, research and run stage markers matched. Result VERIFIED; unique_species_increment=0; scientifically_verified=false.

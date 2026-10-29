@@ -2186,3 +2186,17 @@ When an institutional regional account gives a 20–22-day departure before flig
 ### Incremental rule — bind short alarm tufts to behavior
 
 When sources describe a normally round head but short feather tufts raised during alarm, render the tufts only on the explicitly alert bird and constrain their length. Do not turn a “no true long ear tufts” statement into an absolute tuftless claim, and do not borrow large horns from related screech-owls. Applied and visually rechecked on #22 v4; broader effectiveness remains species-specific.
+
+
+## 2026-10-30 #25 Cactus Ferruginous Pygmy-Owl v3 — recent-fledgling correction
+
+- Original: [25-glaucidium-brasilianum-cactorum-v3.jpg](concepts/25-glaucidium-brasilianum-cactorum-v3.jpg)
+- Research: [species record](../research/species/25-glaucidium-brasilianum-cactorum-v3.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one targeted juvenile-only edit; full 1536×1024 plate and 520×640 crop reopened.
+- Boundary: approximately 20–30-day newly fledged bird in dense thorny cover, plain crown, short soft diffuse wing, much shorter lightly patterned tail, low crouch and complete two-foot branch support.
+- Unknown: exact age/sex/iris, remex and rectrix lengths, regional colour and quantitative linear dimorphism.
+- Scientific status: pending / false; v1/v2 and fixed subspecies slot preserved.
+
+### Incremental rule — remove early-fledgling adult patterns as a bundle
+
+When a source explicitly says a recent fledgling lacks adult crown/false-eye marks and still has uncoordinated flight, review the crown, wing pattern, remex length and tail together. Fixing only one cue can leave a miniature-adult silhouette. Apply the correction only to the selected stage, preserve full natural support, and do not infer an exact day-specific feather map. Applied and visually rechecked on #25 v3; broader effectiveness remains unverified.

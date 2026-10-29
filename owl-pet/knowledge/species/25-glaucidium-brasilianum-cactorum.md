@@ -38,3 +38,11 @@ The archive copy is a 1536×1024 palette-optimized PNG, visually rechecked after
 Still unknown: exact fledgling age, age-specific iris color, quantified linear sex-size difference, regional color variation and a continuous wing/tail growth sequence. v2 remains a scientifically bounded concept, not a scientifically verified reconstruction.
 
 Sources: CFPO-USDA-2000 (reused), CFPO-TAMUK-BIOLOGY-1998 (corrected/full text), CFPO-FWS-TAXONOMY-2026, CFPO-CORNELL-ID-2026 and CFPO-TBBA-BREEDING-2006 in [SOURCE_INDEX](../../research/SOURCE_INDEX.md). Image: `design/concepts/25-glaucidium-brasilianum-cactorum-v2.png`.
+
+## v3 revision — 2026-10-30
+
+Fresh reading of the 2024 U.S. Fish & Wildlife Service recovery outline (printed p.6/PDF p.5) and the USDA Forest Service monograph (printed pp.10, 11 and 13/PDF pp.14, 15 and 17) bounded the selected juvenile to a recent fledgling: about 20–30 days at departure, initially remaining near the nest in dense thorny cover, with inexperienced/uncoordinated flight. Current USFWS usage retains *G. b. cactorum* at subspecies rank, so v3 is a revision of fixed slot #25 and adds no independent species.
+
+The v2 picture still showed white crown flecking, a long strongly barred tail and crisp adult-like spotted/layered wing feathers. The first v3 render repeated those stage errors. One targeted edit removed the crown flecks and adult wing pattern, shortened/softened the wing, and shortened the tail while retaining a low crouch and two-foot branch support. The final full plate and juvenile crop were both reopened. Adults preserve the dark-brown male / cinnamon-rufous female direction, near-equal displayed height, yellow eyes, no ear tufts, long barred tails and a visible female nape false-eye patch.
+
+Review result is `PASS_WITH_LIMITATIONS`, not scientific verification. Exact individual age, juvenile sex and iris, precise feather lengths, regional colour and linear dimorphism remain unknown. Sources and inference boundary: [v3 research record](../../research/species/25-glaucidium-brasilianum-cactorum-v3.md) and [SOURCE_INDEX](../../research/SOURCE_INDEX.md). Image: `design/concepts/25-glaucidium-brasilianum-cactorum-v3.jpg`.

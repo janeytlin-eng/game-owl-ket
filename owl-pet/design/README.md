@@ -1996,3 +1996,16 @@ When one primary account describes both a few-days chick and later fledglings, d
 ### Incremental rule — exclude AI reference images even when the surrounding page is useful
 
 When a regional page explicitly labels an illustration as AI-generated, use only its independently supportable text and real photographs; never treat the synthetic illustration as morphology evidence. Applied on #96 v3; broader effectiveness remains unverified.
+
+
+## 2026-10-29 #103 Eastern Grass Owl v3 — captive-reference mesoptile boundary
+
+- Original: [103-tyto-longimembris-v3.jpg](concepts/103-tyto-longimembris-v3.jpg)
+- Research: [species record](../knowledge/species/103-tyto-longimembris.md) · [v3 note](../research/103-tyto-longimembris-v3.md)
+- Review: first render, edit_count0; full 1536×1024 plate and 650×650 crop reopened.
+- Boundary: approximately 55-day Australian captive-reference mesoptile, not a universal wild-age formula; golden powder-puff down, partial pink face, compact down-concealed wing, no mature remiges or long tail, belly and both feet supported.
+- Scientific status: pending / false.
+
+### Incremental rule — do not transfer measurements between photographed individuals
+
+When a husbandry paper shows multiple young at different ages, bind every plumage or measurement claim to the pictured individual and stage. Do not attach the 69-day bird's data to the approximately 55-day reference. Applied and visually checked on #103 v3; broader effectiveness remains unverified.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T19:45:00+08:00",
+  "updated": "2026-10-29T19:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8376,7 +8376,53 @@
         },
         "fixed_commit": "1e4a9aacdc032cc5a301d3f6c7516f93050cc947"
       }
+    },
+    {
+      "id": "103-tyto-longimembris-v3",
+      "path": "design/concepts/103-tyto-longimembris-v3.jpg",
+      "species_id": 103,
+      "scientific_name": "Tyto longimembris",
+      "historical_names": [
+        "Strix longimembris"
+      ],
+      "common_name": "Eastern Grass Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 103,
+      "sha256": "332f56bdaa57970ff2dc9bb5b8e200be229b66ed52bd46da3937a1ff1b008e48",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using the nominate Australian direction. Male white below; female warmer buff and only modestly fuller. Center is an approximately 55-day captive-reference mesoptile with golden-brown powder-puff down, partial pink face, dark eyes, pale bill, down-concealed compact wing, no mature remiges/long tail, and full ground support. Exact wild-age equivalence, wing readiness, individual geometry and universal sex ratio remain unknown.",
+      "source_ids": [
+        "EGO-DUNLOP2016",
+        "EGO-NSW2018",
+        "EGO-MIK2013-102",
+        "EGO-AVIBASE2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/103-tyto-longimembris-v3.md",
+      "run_record": "production/runs/20261029T1946+0800-cycle-5.md",
+      "reviewed_at": "2026-10-29T19:47:52.108+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 638281,
+      "git_blob": "5e456321473a8c2b4d2cb3cd6421586ac341fc54",
+      "generated_path": "production/generated/103-tyto-longimembris-v3-generated-master.jpg",
+      "generated_blob": "5e456321473a8c2b4d2cb3cd6421586ac341fc54",
+      "generated_sha256": "332f56bdaa57970ff2dc9bb5b8e200be229b66ed52bd46da3937a1ff1b008e48",
+      "generated_size_bytes": 638281,
+      "reviewed_path": "production/reviewed/103-tyto-longimembris-v3-reviewed-master.jpg",
+      "reviewed_blob": "5e456321473a8c2b4d2cb3cd6421586ac341fc54",
+      "reviewed_sha256": "332f56bdaa57970ff2dc9bb5b8e200be229b66ed52bd46da3937a1ff1b008e48",
+      "reviewed_size_bytes": 638281,
+      "review_crop_path": "production/reviewed/103-tyto-longimembris-v3-reviewed-mesoptile-crop.jpg",
+      "review_crop_blob": "8dcef8d1bdc110ed9d2f4c9600ed783a2374d13f",
+      "review_crop_sha256": "8462d316cbeda21b0ecc20eb38460116e8f73e3fa2d5eabb2011b5a73f49cbca",
+      "review_crop_size_bytes": 193441,
+      "archive_note": "First render passed full and crop review without edit. Source-bounded sex colour, modest scale, long partly bare legs, ground tussock setting and the low golden captive-reference mesoptile were retained. Unverified ABSA search-result lead was excluded.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null
     }
   ],
-  "updated_at": "2026-10-29T19:45:00+08:00"
+  "updated_at": "2026-10-29T19:52:00+08:00"
 }

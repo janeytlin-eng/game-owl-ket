@@ -1,3 +1,17 @@
+# 2026-10-30 — #11 *Aegolius funereus* v4 — protoptile/mesoptile transition and pre-entrance climbing boundary
+
+## BOR-ZARYBNICKA-2025-PLUMAGE
+- **Title / authors / year:** “Fledgling Sex Ratio Is Determined by Egg Loss, Hatching Order, Nestling Mortality, and Inter-Annual Food Fluctuations for Boreal Owls, *Aegolius funereus*” — Zárybnická et al., 2025.
+- **URL:** https://pmc.ncbi.nlm.nih.gov/articles/PMC11906283/
+- **Accessed:** 2026-10-30T01:45:57+08:00. **Type:** primary long-term demographic study; Methods section actually read from indexed full text.
+- **Species / stage:** *A. funereus*, known-age nestlings and fledglings.
+- **Facts:** age estimates were cross-checked against gradual replacement of white protoptile by gray mesoptile and growth of brown primary feathers; camera data from 70 hatchlings gave a 1.4±0.9-d hatching interval.
+- **Decision:** supports a transition-stage juvenile with gray/dark second down and short emerging brown primaries, not adult-length remiges or adult pearl rows.
+- **Limits / confidence:** no day-by-day feather plate or exact density; high confidence for sequence direction, moderate for appearance at the selected broad 21–23-d stage.
+
+### Reused IDs
+BOR-KOUBA-2014; BOR-KOUBA-2015-FLEDGING; BOR-KOUBA-2015; BOR-HIPKISS-2002; BOR-MIK2013-440. The new design combines the documented onset of climbing around day 20 with the documented feather-sequence direction. Exact individual day, continuous feather map, iris, subspecies and cavity geometry remain unknown. Related [card](species/11-aegolius-funereus-v4.md) and [run](../production/runs/20261030T014448+0800-cycle-1.md).
+
 # 2026-10-29 · #90 *Tyto furcata pratincola* v4 — documented P20 standing, down-dominant stage
 
 ## 2026-10-29 · #04 *Athene noctua* v5 — cavity-threshold chick and limited-flight boundary

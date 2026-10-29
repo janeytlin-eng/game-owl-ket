@@ -1,3 +1,46 @@
+# 2026-10-29 · #88 *Bubo capensis* v4 — approximately 45-day pre-flight nest-leaving boundary
+
+## CAP-OGADA-KIBUTHU2012
+
+- **Stable source ID:** `CAP-OGADA-KIBUTHU2012`
+- **Title / authors / year:** “Breeding Ecology of Mackinder’s Eagle-Owls (*Bubo capensis mackinderi*) in Farmlands of Central Kenya”; Darcy L. Ogada & Paul M. Kibuthu; 2012.
+- **DOI / original URL:** https://doi.org/10.3356/JRR-11-90.1 ; author-uploaded full text read at https://www.researchgate.net/publication/257412835_Breeding_Ecology_of_Mackinder%27s_Eagle-Owls_Bubo_capensis_mackinderi_In_Farmlands_of_Central_Kenya
+- **Accessed:** 2026-10-29.
+- **Source type:** peer-reviewed primary five-year field study; Journal of Raptor Research 46(4):327–335.
+- **Taxon / stage:** *B. c. mackinderi* only; nests, nestlings, operational fledging classification.
+- **Actually read:** full-text Methods pp.328–329 and Results pp.329–330, plus abstract.
+- **Source facts:** the study followed 13 pairs/39 breeding attempts; 65% of nests were in caves or on covered ledges. Hatching dates were estimated from nestling size; the authors operationally classified young as fledged at approximately 70 days and then confirmed them by later territory observations. Nests were also recorded on open ledges or ground.
+- **Limits / conflicts:** this is the larger East African subspecies *mackinderi*, not the nominate South African concept used for adult plumage. The ~70-day value is the study’s classification rule, not a universal measured first-flight threshold; it provides no detailed nestling plumage sequence.
+- **Design / review decision:** use only as a cross-check that a ~45-day bird should not be shown in sustained flight and that cave/ledge support is biologically grounded. Do not transfer *mackinderi* adult colour/size to v4.
+- **Links:** [species card](../knowledge/species/88-bubo-capensis.md) · [v4 image](../design/concepts/88-bubo-capensis-v4.jpg) · [run](../production/runs/20261029T1437+0800-cycle-4.md)
+
+## CAP-PEREGRINE-2026
+
+- **Stable source ID:** `CAP-PEREGRINE-2026`
+- **Title / institution / accessed:** “Cape Eagle-owl”; The Peregrine Fund; accessed 2026-10-29.
+- **Original URL:** https://peregrinefund.org/explore-raptors-species/owls/cape-eagle-owl
+- **Source type:** specialist raptor institution species synthesis citing Holt et al. 2020 and primary literature.
+- **Taxon / stage:** *Bubo capensis* species-level; hatchling through post-fledging.
+- **Actually read:** “Nests, Eggs, and Young” and references.
+- **Source facts:** hatchlings have off-white down; young begin exploring just outside the nest at about 45 days; they are described as ready for first flight at around two months and remain with parents for 2–3 months.
+- **Limits / conflicts:** this is a synthesis, not a pictured day-by-day primary growth series; “about” values cannot define individual feather counts or prove a fixed first-flight day. It is somewhat earlier than the 70-day operational fledging rule in the *mackinderi* field study.
+- **Design / review decision:** v4 selects the approximate 45-day nest-leaving/pre-flight stage, labels it approximate, keeps wings folded/partly developed and places both feet on a low cave threshold; no flight or branch-perching claim.
+- **Links:** [species card](../knowledge/species/88-bubo-capensis.md) · [v4 image](../design/concepts/88-bubo-capensis-v4.jpg) · [run](../production/runs/20261029T1437+0800-cycle-4.md)
+
+## CAP-SABAP1-590
+
+- **Stable source ID:** `CAP-SABAP1-590`
+- **Title / authors / year:** “Cape Eagle Owl *Bubo capensis*”; J. M. Mendelsohn & D. G. Allan, Southern African Bird Atlas species text; 1997.
+- **Original URL:** https://sabap2.birdmap.africa/docs/sabap1/400.pdf
+- **Accessed:** 2026-10-29.
+- **Source type:** regional atlas synthesis with mapped records.
+- **Taxon / scope:** nominate *B. c. capensis* versus *mackinderi*; habitat/nest placement.
+- **Actually read:** printed p.590/PDF p.1, especially taxon/range and Habitat paragraphs.
+- **Source facts:** nominate occurs in South Africa, Lesotho and Namibia; *mackinderi* occurs from Zimbabwe northward. Despite broad biomes, the species is restricted to rocky areas and nests on the ground, often sheltered by rocks/scrub.
+- **Limits / conflicts:** no juvenile plumage sequence or sex-specific measurements; historical subspecies treatment may differ from later lists.
+- **Design / review decision:** keeps v4 adult/background in a nominate southern African rocky setting and prevents East African *mackinderi* adult morphology from being silently transferred.
+- **Links:** [species card](../knowledge/species/88-bubo-capensis.md) · [v4 image](../design/concepts/88-bubo-capensis-v4.jpg) · [run](../production/runs/20261029T1437+0800-cycle-4.md)
+
 # 2026-10-29 · #87 *Bubo ascalaphus* v3 — documented c.40-day juvenile boundary
 
 ## ASC-ALSHEIKHLY2012-40D

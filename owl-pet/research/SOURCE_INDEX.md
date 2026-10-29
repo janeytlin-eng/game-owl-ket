@@ -5838,3 +5838,38 @@ New sources 0, reused 4, corrected 0. V3 retains the exact photographed 55-day c
 - **Unknown:** individual sex, exact hatch day, subspecies/local morph, precise feather-tract sequence, exact pair ratio and universal first-flight threshold. Scientific verification remains false.
 - **Links:** [research record](species/01-tyto-alba-v5.md) · [run](../production/runs/20261029T2144+0800-cycle-3.md)
 
+
+# 2026-10-29 · #02 *Bubo scandiacus* v6 — 15–21-day gray-mesoptile nestling
+
+## SNO-HOLT-GRAY-MAPLES-KORTE-2016
+
+- **Stable source ID:** `SNO-HOLT-GRAY-MAPLES-KORTE-2016`
+- **Title / authors / year:** “Mass Growth Rates, Plumage Development, and Related Behaviors of Snowy Owl (*Bubo scandiacus*) Nestlings”; Denver W. Holt, Kathy Gray, Michael T. Maples & Mark A. Korte; 2016.
+- **DOI / original URL:** https://doi.org/10.3356/rapt-50-02-131-143.1 ; journal PDF https://bioone.org/journals/journal-of-raptor-research/volume-50/issue-2/rapt-50-02-131-143.1/
+- **Accessed:** 2026-10-29.
+- **Source type:** peer-reviewed primary developmental field study; *Journal of Raptor Research* 50(2):131–143.
+- **Taxon / stage:** *Bubo scandiacus* hatch to fledging; 225 nestlings from 47 nests at Barrow/Utqiaġvik, Alaska, with detailed 1993 and 1995 data.
+- **Actually read:** abstract; methods on p.133; developmental sequence and behavior statements summarized across pp.131–143.
+- **Source facts:** white protoptile at hatching; dark-gray mesoptile begins at days 8–9; eyes open around days 9–11; by ~14 d young are dark gray and primary quills emerge. Primaries erupt from sheaths around 21 d; rectrix quills around 25 d. On-foot nest departure occurs around 21 d, first flight attempts 36–43 d, coordinated fledging 44–55 d.
+- **Limits / conflicts:** population averages from two high-breeding years cannot diagnose an exact day, sex or individual feather count from a still image. On-foot nest departure is not flight.
+- **Design / review decision:** v6 may show a mobile but grounded 15–21-day gray-mesoptile young with short erupting primaries and full substrate support; no mature wing, long tail or airborne pose.
+
+## SNO-MIK2013-258-261
+
+- **Stable source ID:** `SNO-MIK2013-258-261`
+- **Title / author / year:** *Owls of the World: A Photographic Guide*; Heimo Mikkola; 2013.
+- **Source:** user-uploaded PDF; actual PDF pp.260–263 / printed pp.258–261.
+- **Accessed:** 2026-10-29.
+- **Source type:** photographic field guide.
+- **Taxon / stage:** Snowy Owl adults, juveniles and habitat; book name `Nyctea scandiaca`, mapped here to current `Bubo scandiacus`.
+- **Source facts:** adult male largely plain white; female substantially more spotted/barred and described as 300–400 g heavier. Bright-yellow eyes, blackish bill base densely feathered, thick white-feathered tarsi/toes and black claws. Downy chicks grayish-white; mesoptile dark gray-brown. Arctic tundra with moss, lichen, rocks and slight elevations.
+- **Limits / conflicts:** broad field guide and old generic treatment; it does not provide an exact nestling day or quantitative pose sequence. A mass difference does not justify scaling every female body dimension upward.
+- **Design / review decision:** near-equal adult standing height with a fuller/barred female, mostly white male and correct feathered feet; developmental timing remains governed by the primary study.
+
+## Reused evidence and corrected inference
+
+- **SNO-ORI-2022GUIDE (reused):** photographic Stage 4 / days 15–21 boundary, especially p.13 primary-feather sequence; supports only the beginning of primary eruption and increasingly feathered feet.
+- **Name mapping:** current display `Bubo scandiacus`; retain Mikkola’s `Nyctea scandiaca` as historical literature name only.
+- **Corrected inference:** v5’s stage choice is retained, but v6 explicitly blocks long layered juvenile remiges and any implication that walking departure equals fledging.
+- **Unknown:** exact day/sex/mass, iris progression, individual rectrix visibility, universal nest departure and feather-count thresholds. Scientific verification remains false.
+- **Links:** [research record](species/02-bubo-scandiacus-v6.md) · [run](../production/runs/20261029T2158+0800-cycle-4.md)

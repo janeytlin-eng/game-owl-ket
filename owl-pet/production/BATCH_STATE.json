@@ -7333,36 +7333,54 @@
           "scientifically_verified": false
         }
       ],
-    "next_cycle": 4,
-    "active_lease": {
-      "owner": "codex-work-20261029T2158+0800",
-      "run_id": "20261029T2158+0800-cycle-4",
-      "cycle": 4,
-      "species_id": 2,
-      "heartbeat_at": "2026-10-29T21:58:00+08:00",
-      "expires_at": "2026-10-29T22:13:00+08:00"
-    },
-    "cycle_checkpoint": {
-      "cycle": 4,
-      "species_id": 2,
-      "species": "Bubo scandiacus",
-      "version": 6,
-      "action": "SCIENCE_REVISION",
-      "stage": "STARTED",
-      "base_main_sha": "4310036bf71a49585b1a7db38f8311f49a4c28fa",
-      "run_record": "owl-pet/production/runs/20261029T2158+0800-cycle-4.md",
-      "prior_versions_retained": [1, 2, 3, 4, 5],
-      "production_credit": false,
-      "scientifically_verified": false
-    },
-    "in_progress": {
-      "run_id": "20261029T2158+0800-cycle-4",
-      "cycle": 4,
-      "species_id": 2,
-      "version": 6,
-      "stage": "STARTED"
-    },
-    "last_updated_at": "2026-10-29T21:58:00+08:00",
+      "next_cycle": 4,
+      "active_lease": {
+        "owner": "codex-work-20261029T2158+0800",
+        "run_id": "20261029T2158+0800-cycle-4",
+        "cycle": 4,
+        "species_id": 2,
+        "heartbeat_at": "2026-10-29T22:39:00+08:00",
+        "expires_at": "2026-10-29T22:54:00+08:00"
+      },
+      "cycle_checkpoint": {
+        "cycle": 4,
+        "species_id": 2,
+        "species": "Bubo scandiacus",
+        "version": 6,
+        "action": "SCIENCE_REVISION",
+        "stage": "RESEARCH_READY",
+        "base_main_sha": "cb8d90cfcca181779c90f1c657dad19e403e7ccc",
+        "run_record": "owl-pet/production/runs/20261029T2158+0800-cycle-4.md",
+        "prior_versions_retained": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "production_credit": false,
+        "scientifically_verified": false,
+        "source_ids": [
+          "SNO-HOLT-GRAY-MAPLES-KORTE-2016",
+          "SNO-MIK2013-258-261",
+          "SNO-ORI-2022GUIDE"
+        ],
+        "source_counts": {
+          "new": 2,
+          "reused": 1,
+          "corrected": 1
+        },
+        "research_record": "owl-pet/research/species/02-bubo-scandiacus-v6.md",
+        "prompt_saved": true
+      },
+      "in_progress": {
+        "run_id": "20261029T2158+0800-cycle-4",
+        "cycle": 4,
+        "species_id": 2,
+        "version": 6,
+        "stage": "RESEARCH_READY"
+      },
+      "last_updated_at": "2026-10-29T22:39:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7376,14 +7394,16 @@
         "2026-10-29T21:40:00+08:00: cycle2 #143 v2 IMAGE_GENERATED checkpoint persisted from recoverable initial render. Full 1536x1024 image had been opened; exact count/text/adult support passed, but juvenile wing required the already-produced targeted edit. No production credit.",
         "2026-10-29T21:43:00+08:00: cycle2 #143 v2 REVIEWED after one targeted edit. Edited 1536x1024 full image and 620x760 juvenile crop reopened: three birds/text/support/near-equal adults pass; juvenile retains long pale down, dark mask, orange-yellow eyes, grey feet and short emerging barred wing. Exact age/sex/flight threshold remain unknown; science false; no credit.",
         "2026-10-29T21:47:00+08:00: cycle2 #143 v2 ARCHIVED; concept, generated/reviewed JPEG masters, juvenile crop, manifest527, knowledge/status and run records staged. Fixed commit-pinned readback pending; no cycle credit.",
-      "2026-10-29T21:51:00+08:00: cycle2 #143 Asio solomonensis v2 VERIFIED at archive 636309f2aa7c89a224eba688005a0e2399024d88; non-truncated 1764-entry fixed tree and four exact image path/blob/size pairs matched local git hash-object, and run/knowledge records reopened. Batch 2/6 next cycle3; unique unchanged; science false; lease released.",
-      "2026-10-29T21:44:00+08:00: cycle3 STARTED #01 Tyto alba v5 SCIENCE_REVISION; v1-v4 retained, including user approval of the v3 juvenile look and v4 barn-interior correction. Fifteen-minute lease acquired. Candidate selected for a source-bounded early nestling recalibration under the current staged fixed-readback workflow; no production credit.",
-      "2026-10-29T21:46:00+08:00: cycle3 #01 Tyto alba v5 RESEARCH_READY; new3/reused3/corrected1. Mikkola actual PDF pp.80–82/printed pp.78–80 and two primary developmental full texts were read. Approximately P15 is bounded to open eyes, low heel/belly support and tiny emerging quill tips only. Full prompt saved; science false; no credit.",
-      "2026-10-29T21:48:00+08:00: cycle3 #01 v5 IMAGE_GENERATED; first 1536x1024 render opened at original detail and generated JPEG persisted. Count/text/adult ratio/support passed; short nestling side quills require crop review against the P13–P25 boundary. Science false; no credit.",
-      "2026-10-29T21:50:00+08:00: cycle3 #01 v5 REVIEWED. Full 1536x1024 JPEG and 620x760 crop opened at original detail. Count/text/adult identification/near-equal scale/support/barn scene and P15 down-dominant low-supported chick with short sheaths pass. edit_count0; PASS_WITH_LIMITATIONS; science false; no credit.",
-      "2026-10-29T21:53:00+08:00: cycle3 #01 v5 ARCHIVED; concept/generated/reviewed JPEGs, nestling crop, manifest528, research/knowledge/design/status/changelog and run records committed. Fixed readback pending; science false; no credit.",
-      "2026-10-29T21:54:00+08:00: cycle3 #01 Tyto alba v5 VERIFIED at corrected fixed archive 4ba2de83758f1676966d7a538aa4c046ec0a79a4; non-truncated 1770-entry tree and four exact image path/blob/size pairs matched, and all text histories were restored/reopened. Batch 3/6 next cycle4; unique unchanged; science false; lease released.",
-      "2026-10-29T21:58:00+08:00: cycle4 STARTED #02 Bubo scandiacus v6 SCIENCE_REVISION; v1-v5 retained. V5 uses an evidence-bounded 15–21-day stage but lacks the current staged fixed-readback record; selected for a fresh source check and current workflow. Fifteen-minute lease acquired; no credit."
+        "2026-10-29T21:51:00+08:00: cycle2 #143 Asio solomonensis v2 VERIFIED at archive 636309f2aa7c89a224eba688005a0e2399024d88; non-truncated 1764-entry fixed tree and four exact image path/blob/size pairs matched local git hash-object, and run/knowledge records reopened. Batch 2/6 next cycle3; unique unchanged; science false; lease released.",
+        "2026-10-29T21:44:00+08:00: cycle3 STARTED #01 Tyto alba v5 SCIENCE_REVISION; v1-v4 retained, including user approval of the v3 juvenile look and v4 barn-interior correction. Fifteen-minute lease acquired. Candidate selected for a source-bounded early nestling recalibration under the current staged fixed-readback workflow; no production credit.",
+        "2026-10-29T21:46:00+08:00: cycle3 #01 Tyto alba v5 RESEARCH_READY; new3/reused3/corrected1. Mikkola actual PDF pp.80–82/printed pp.78–80 and two primary developmental full texts were read. Approximately P15 is bounded to open eyes, low heel/belly support and tiny emerging quill tips only. Full prompt saved; science false; no credit.",
+        "2026-10-29T21:48:00+08:00: cycle3 #01 v5 IMAGE_GENERATED; first 1536x1024 render opened at original detail and generated JPEG persisted. Count/text/adult ratio/support passed; short nestling side quills require crop review against the P13–P25 boundary. Science false; no credit.",
+        "2026-10-29T21:50:00+08:00: cycle3 #01 v5 REVIEWED. Full 1536x1024 JPEG and 620x760 crop opened at original detail. Count/text/adult identification/near-equal scale/support/barn scene and P15 down-dominant low-supported chick with short sheaths pass. edit_count0; PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-29T21:53:00+08:00: cycle3 #01 v5 ARCHIVED; concept/generated/reviewed JPEGs, nestling crop, manifest528, research/knowledge/design/status/changelog and run records committed. Fixed readback pending; science false; no credit.",
+        "2026-10-29T21:54:00+08:00: cycle3 #01 Tyto alba v5 VERIFIED at corrected fixed archive 4ba2de83758f1676966d7a538aa4c046ec0a79a4; non-truncated 1770-entry tree and four exact image path/blob/size pairs matched, and all text histories were restored/reopened. Batch 3/6 next cycle4; unique unchanged; science false; lease released.",
+        "2026-10-29T21:58:00+08:00: cycle4 STARTED #02 Bubo scandiacus v6 SCIENCE_REVISION; v1-v5 retained. V5 uses an evidence-bounded 15–21-day stage but lacks the current staged fixed-readback record; selected for a fresh source check and current workflow. Fifteen-minute lease acquired; no credit.",
+        "2026-10-29T22:39:00+08:00: expired cycle4 STARTED lease reconciled after confirming main had no later Snowy Owl stage/image commit. SOURCE_INDEX history was restored first at cb8d90cfcca181779c90f1c657dad19e403e7ccc; lease reacquired and cycle4 resumed without regeneration or duplicate credit.",
+        "2026-10-29T22:39:00+08:00: cycle4 #02 Bubo scandiacus v6 RESEARCH_READY; new2/reused1/corrected1. Holt et al. 2016 JRR 50(2):131–143 and Mikkola actual PDF pp.260–263/printed pp.258–261 read; stage bounded to 15–21 d dark-gray mesoptile with only short erupting primaries, grounded tundra support and no flight. Full prompt saved; science false; no credit."
       ]
     }
   ],
@@ -7392,8 +7412,8 @@
     "run_id": "20261029T2158+0800-cycle-4",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 4,
-    "heartbeat_at": "2026-10-29T21:58:00+08:00",
-    "expires_at": "2026-10-29T22:13:00+08:00"
+    "heartbeat_at": "2026-10-29T22:39:00+08:00",
+    "expires_at": "2026-10-29T22:54:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7785,6 +7805,6 @@
     "species": "Bubo scandiacus",
     "species_id": 2,
     "version": 6,
-    "stage": "STARTED"
+    "stage": "RESEARCH_READY"
   }
 }

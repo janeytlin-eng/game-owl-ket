@@ -2111,3 +2111,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 12:40 +08 — #85 v3 archived, verification pending
 
 #85 *Otus semitorques* v3 concept/generated/reviewed assets and research/check records are archived as manifest510. First render passed full/crop review; science remains false. Fixed-commit readback is pending, so batch remains 0/6 until verification.
+
+
+## 2026-10-29 12:41 +08 — #85 v3 verified; batch 1/6
+
+#85 *Otus semitorques* v3 passed fixed-commit repository readback at `8ebd20378c29614b68110c0d943709510f503f27`; six canonical image paths/blobs/sizes and manifest510 matched. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T1236+0800` is 1/6, next cycle2, no active lease.

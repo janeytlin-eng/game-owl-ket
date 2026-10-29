@@ -9,3 +9,6 @@ EDIT_RETURNED 2026-10-15T07:48:04.510Z editwait 52.174s. Unique82/251.
 Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-4.md
 
 REVIEWED 2026-10-29T12:39:42+08:00: full 1536×1024 and 560×650 crop opened. First render passed without edit: supported first-winter geometry is visible and distinct from broader/darker adult flight feathers; no downy chick or flight claim; adults near-equal. Remaining unknowns retained; science false.
+
+
+VERIFIED 2026-10-29T12:41:05+08:00: fixed archive `8ebd20378c29614b68110c0d943709510f503f27`; six image paths exact by non-truncated recursive tree. First-winter design boundary retained; science false.

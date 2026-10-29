@@ -52,3 +52,8 @@ Freshly read ISO-EBIRD-ID-2026, ISO-PF-FACE-2026 and ISO-OWLPAGES-DESC-2020. All
 ## v3 reviewed — 2026-10-29T12:39:42+08:00
 
 First generation actually opened at 1536×1024 plus a 560×650 juvenile crop. Exact three birds/text and six supported feet pass. Adult nominate traits and near-equal scale pass. The first-winter bird is near adult scale and fully feathered, with visibly narrower/paler/pointed retained flight feathers and shorter paler coverts; no iris-based age claim or white-down/chick transfer. Edit count 0. Exact age/month, juvenile sex/iris, quantitative feather thresholds and adult RSD remain unknown; science false.
+
+
+## v3 VERIFIED — 2026-10-29T12:41:05+08:00
+
+Fixed archive `8ebd20378c29614b68110c0d943709510f503f27`; recursive tree not truncated; six canonical image paths/blobs/sizes and manifest510 matched. Science revision only, unique increment0, scientifically_verified=false. [Original](../../design/concepts/85-otus-semitorques-v3.jpg) · [Run](../../production/runs/20261029T1236+0800-cycle-1.md).

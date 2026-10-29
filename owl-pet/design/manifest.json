@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T12:40:26+08:00",
+  "updated": "2026-10-29T12:41:05+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7479,12 +7479,46 @@
       "review_crop_blob": "938915f4ff6757f19399fa3d14bc02537d0b4e9d",
       "review_crop_size_bytes": 117958,
       "archive_note": "First render passed. Full and crop reopened; first-winter retained narrow/pale/pointed flight feathers and short pale coverts, near-adult body, supported feet and adult broad/dark/rounded contrast pass. Exact age, juvenile sex/iris, quantitative thresholds and adult RSD unknown; science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null,
-      "readback": null
+      "readback_pending": false,
+      "archive_commit": "8ebd20378c29614b68110c0d943709510f503f27",
+      "fixed_commit": "8ebd20378c29614b68110c0d943709510f503f27",
+      "verified_at": "2026-10-29T12:41:05+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "tree_truncated": false,
+        "concept": {
+          "path": "design/concepts/85-otus-semitorques-v3.jpg",
+          "blob": "ce1e49e0c8bebe4f548bba965dd4152f17b1b8b5",
+          "size_bytes": 438340
+        },
+        "generated_jpg": {
+          "path": "production/generated/85-otus-semitorques-v3-generated-master.jpg",
+          "blob": "ce1e49e0c8bebe4f548bba965dd4152f17b1b8b5",
+          "size_bytes": 438340
+        },
+        "generated_png": {
+          "path": "production/generated/85-otus-semitorques-v3-generated-master.png",
+          "blob": "af2c7b2ccd640d1de10c3b689c2ec5686cab69ef",
+          "size_bytes": 75434
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/85-otus-semitorques-v3-reviewed-master.jpg",
+          "blob": "ce1e49e0c8bebe4f548bba965dd4152f17b1b8b5",
+          "size_bytes": 438340
+        },
+        "reviewed_png": {
+          "path": "production/reviewed/85-otus-semitorques-v3-reviewed-master.png",
+          "blob": "af2c7b2ccd640d1de10c3b689c2ec5686cab69ef",
+          "size_bytes": 75434
+        },
+        "review_crop": {
+          "path": "production/reviewed/85-otus-semitorques-v3-juvenile-review-crop.jpg",
+          "blob": "938915f4ff6757f19399fa3d14bc02537d0b4e9d",
+          "size_bytes": 117958
+        },
+        "fixed_commit": "8ebd20378c29614b68110c0d943709510f503f27"
+      }
     }
   ],
-  "updated_at": "2026-10-29T12:40:26+08:00"
+  "updated_at": "2026-10-29T12:41:05+08:00"
 }

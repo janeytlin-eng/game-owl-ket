@@ -1,3 +1,4 @@
+- 2026-10-29T20:05:00+08:00: #104 v3 archive repair staged after generated JPEG byte mismatch; complete 504528B re-encode replaced the bad path. Fixed readback pending; no credit.
 - 2026-10-29T20:03:00+08:00: #104 *Asio madagascariensis* v3 ARCHIVED after one adult-belly/juvenile-wing edit and full+crop review; manifest525, assets and records committed. Fixed readback pending; batch remains 5/6; unique +0; science false.
 - 2026-10-29T19:54:00+08:00: #103 *Tyto longimembris* v3 VERIFIED at fixed archive ffbbe8cb4549439bfa08118c449d3d654745f0b1; non-truncated tree and four exact image path/blob/size checks passed. Batch 2026-10-29T1800+0800 5/6, next cycle6; unique +0; science false.
 - 2026-10-29T19:52:00+08:00: #103 *Tyto longimembris* v3 ARCHIVED after full+crop first-render review; manifest524 and concept/generated/reviewed/crop assets committed. Fixed-tree readback pending; batch remains 4/6 until verification; unique +0; science false.

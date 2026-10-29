@@ -1,3 +1,4 @@
+- 2026-10-29T20:05:00+08:00: Repaired #104 v3 generated-master path after fixed readback rejected a truncated blob; complete 1536×1024 504528B JPEG staged, verification still pending.
 - 2026-10-29T20:03:00+08:00: Archived #104 *Asio madagascariensis* v3 after one evidence-driven edit reduced adult lower-belly streaks and juvenile adult-pattern leakage while retaining formed mesoptile wings; manifest525; fixed readback pending.
 - 2026-10-29T19:54:00+08:00: Verified fixed archive ffbbe8cb4549439bfa08118c449d3d654745f0b1 for #103 v3; four image paths matched exact blobs and byte sizes, text evidence reopened, and batch advanced to 5/6.
 - 2026-10-29T19:52:00+08:00: Archived #103 *Tyto longimembris* v3 science revision with evidence-bounded approximately 55-day captive-reference mesoptile; first render passed full+crop review, edit_count0. Manifest524; fixed readback pending; unique unchanged; science false.

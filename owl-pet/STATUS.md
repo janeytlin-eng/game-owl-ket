@@ -1,3 +1,4 @@
+- 2026-10-29T17:54:00+08:00: #96 Aegolius ridgwayi v3 VERIFIED at fixed archive 91887b36ca001b17ccf6c5af445acc921c62f230; four exact JPEG/crop path/blob/size checks passed. Batch 2026-10-29T1536+0800 COMPLETE 6/6; unique +0; science false.
 - 2026-10-29T17:50:00+08:00: #96 Aegolius ridgwayi v3 ARCHIVED; first render passed full+crop review. Concept/generated/reviewed JPEG and crop committed; fixed-tree readback pending; unique +0; science false.
 - 2026-10-29T17:28:00+08:00: #95 Pulsatrix melanota v3 VERIFIED at fixed archive 2b5be919418bd80604ee7db89663076252ac411d; four exact JPEG/crop path/blob/size checks passed. Batch 2026-10-29T1536+0800 5/6, next cycle6; unique +0; science false.
 - 2026-10-29T17:24:00+08:00: #95 Pulsatrix melanota v3 ARCHIVED; one juvenile-wing edit passed full+crop review. Concept, generated draft, reviewed master and crop committed; fixed-tree readback pending; unique +0; science false.

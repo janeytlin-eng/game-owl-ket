@@ -8098,8 +8098,36 @@
       "review_crop_blob": "2a3ddec6692a2c72e51f98964a715b2d8eb292c7",
       "review_crop_size_bytes": 172888,
       "archive_note": "First render; full and crop reopened. Older fluffy juvenile and support pass with limitations; no edit warranted. Exact age/flight threshold and nest form remain unknown.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "91887b36ca001b17ccf6c5af445acc921c62f230",
+      "fixed_commit": "91887b36ca001b17ccf6c5af445acc921c62f230",
+      "verified_at": "2026-10-29T17:54:00+08:00",
+      "verification_result": "four exact commit-pinned JPEG/crop path/blob/size pairs verified",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/96-aegolius-ridgwayi-v3.jpg",
+          "blob": "c9cf473acdcb20c925c6fb3cc70cb8af3c5407b4",
+          "size_bytes": 623627
+        },
+        "generated_jpg": {
+          "path": "production/generated/96-aegolius-ridgwayi-v3-generated-master.jpg",
+          "blob": "c9cf473acdcb20c925c6fb3cc70cb8af3c5407b4",
+          "size_bytes": 623627
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/96-aegolius-ridgwayi-v3-reviewed-master.jpg",
+          "blob": "c9cf473acdcb20c925c6fb3cc70cb8af3c5407b4",
+          "size_bytes": 623627
+        },
+        "review_crop": {
+          "path": "production/reviewed/96-aegolius-ridgwayi-v3-juvenile-review-crop.jpg",
+          "blob": "2a3ddec6692a2c72e51f98964a715b2d8eb292c7",
+          "size_bytes": 172888
+        },
+        "fixed_commit": "91887b36ca001b17ccf6c5af445acc921c62f230"
+      }
     }
   ],
-  "updated_at": "2026-10-29T17:50:00+08:00"
+  "updated_at": "2026-10-29T17:54:00+08:00"
 }

@@ -1,5 +1,15 @@
 # Current production review
 
+- Target: [93-aegolius-harrisii-v2.jpg](concepts/93-aegolius-harrisii-v2.jpg)
+- Research: [species card](../knowledge/species/93-aegolius-harrisii.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--93-aegolius-harrisii-iheringi-v2--documented-24-day-pre-fledging-stage)
+- Current review: PASS_WITH_LIMITATIONS on first render. ~24-day disc-bearing, developed but cavity-bound nestling is fully supported; schematic cutaway and exact proportions remain unknown. Fixed-tree verification pending. Science false.
+
+### Do not confuse a cutaway with an entrance measurement
+
+When the monitored opening is too small to show the animal, label/use a schematic cavity cutaway and preserve the measured opening only in research notes.
+
+# Current production review
+
 - Target: [91-tyto-javanica-delicatula-v3.jpg](concepts/91-tyto-javanica-delicatula-v3.jpg)
 - Research: [species card](../knowledge/species/91-tyto-javanica-delicatula.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--91-tyto-javanica-delicatula-v3--late-pre-fledgling-wing-and-locomotion-correction)
 - Stage: VERIFIED at `75deb2ec07160131522f00488c55a067961a518b`; four exact JPEG/crop path/blob/size checks passed and rejected truncated PNG paths are absent. Review: PASS_WITH_LIMITATIONS after one juvenile-only edit. Science false.

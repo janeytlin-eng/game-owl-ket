@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T15:54:00+08:00",
+  "updated": "2026-10-29T16:28:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -2101,18 +2101,6 @@
       "run_record": "production/runs/2026-10-23T2127+0800-cycle-5.md",
       "archive_commit": "325b686eb1180fcdf97234430e47390b89165926",
       "image_git_blob": "121a40d630bef2ed6964736777517de3856d652e",
-      "verification_status": "Remote image/source index/manifest/run record read back from main; verification commit records evidence."
-    },
-    {
-      "id": "93-aegolius-harrisii-v2",
-      "path": "design/concepts/93-aegolius-harrisii-v2.png",
-      "status": "Juvenile-count and welfare-readability revision: duplicated second chick removed. Exactly one early-stage pinkish-gray nestling with sparse gray-white natal down rests securely on cavity debris with eyes closed, tucked limbs and no mature remiges or tail. Both adults, labels, adult morphology and tree-cavity scene retained. Exact nestling age, continuous plumage sequence, sex-linked size ratio and soft-part colors remain unknown; concept checked, not scientifically verified.",
-      "sha256": "e8c63758ca1add01214a2f26036fa4efd26e1fafecd72d95c3a970fabcb9a486",
-      "scientifically_verified": false,
-      "source_index": "research/SOURCE_INDEX.md#s093-ornneo-2019-nest--s093-wikiaves-984948--s093-fws-taxonomy",
-      "run_record": "production/runs/2026-10-23T2230+0800-cycle-6.md",
-      "archive_commit": "8f1091e5912b0fa54cd62ad8159e44f9933ffb17",
-      "image_git_blob": "9679daadaf43d7161be13ce7171b7cfa7e4fe83c",
       "verification_status": "Remote image/source index/manifest/run record read back from main; verification commit records evidence."
     },
     {
@@ -7919,7 +7907,36 @@
         "rejected_png_paths_absent": true,
         "fixed_commit": "75deb2ec07160131522f00488c55a067961a518b"
       }
+    },
+    {
+      "id": "93-aegolius-harrisii-v2",
+      "path": "design/concepts/93-aegolius-harrisii-v2.jpg",
+      "status": "SCIENCE_REVISION；同一受监测巢的约24日龄阶段：面盘已形成、羽毛大部发育且近似成鸟，但仍在巢洞内、距35–37日龄离巢尚早。首稿及裁切实际查看通过；巢洞全身视图是示意切面，不是8×8厘米入口尺度复原。精确日龄/性别、羽区时序、翼尾比例、雌雄比例和切面几何未知，科学验收false。",
+      "sha256": "cc46bf82da497f7c40a5ccdfea9a27a0d3308582be1210fa348f5b1d146cd818",
+      "scientifically_verified": false,
+      "unique_species_increment": 0,
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29--93-aegolius-harrisii-iheringi-v2--documented-24-day-pre-fledging-stage",
+      "run_record": "production/runs/20261029T1615+0800-cycle-3.md",
+      "reviewed_at": "2026-10-29T16:25:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 752047,
+      "git_blob": "f8854eb64efb3ee5f8b186db687dc59e951b1c32",
+      "generated_path": "production/generated/93-aegolius-harrisii-v2-generated-master.jpg",
+      "generated_blob": "f8854eb64efb3ee5f8b186db687dc59e951b1c32",
+      "generated_size_bytes": 752047,
+      "generated_sha256": "cc46bf82da497f7c40a5ccdfea9a27a0d3308582be1210fa348f5b1d146cd818",
+      "imagegen_original_sha256": "aab15cdd0441f239153b73b682bb6e93369d0643fe03136ff7e2413a42aa606f",
+      "imagegen_original_size_bytes": 3470562,
+      "reviewed_path": "production/reviewed/93-aegolius-harrisii-v2-reviewed-master.jpg",
+      "reviewed_blob": "f8854eb64efb3ee5f8b186db687dc59e951b1c32",
+      "reviewed_size_bytes": 752047,
+      "reviewed_sha256": "cc46bf82da497f7c40a5ccdfea9a27a0d3308582be1210fa348f5b1d146cd818",
+      "review_crop_path": "production/reviewed/93-aegolius-harrisii-v2-juvenile-review-crop.jpg",
+      "review_crop_blob": "afb0c53c88691cd5a06efdd55df35a8f079c235e",
+      "review_crop_size_bytes": 256618,
+      "archive_note": "First render; full and crop reopened. Supported ~24-day cavity nestling with established disc, developed folded wing and sparse grey down passes with limitations. Schematic cutaway and exact proportions remain unverified. JPEG-only remote masters after known connector PNG truncation risk.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T15:54:00+08:00"
+  "updated_at": "2026-10-29T16:28:00+08:00"
 }

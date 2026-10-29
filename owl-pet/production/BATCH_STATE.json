@@ -6970,35 +6970,25 @@
         "batch_id": "2026-10-29T1236+0800",
         "cycle": 5,
         "species_id": 89,
-        "heartbeat_at": "2026-10-29T14:53:43.264+08:00",
-        "expires_at": "2026-10-29T15:08:43.264+08:00"
+        "heartbeat_at": "2026-10-29T14:55:17.306+08:00",
+        "expires_at": "2026-10-29T15:10:17.306+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261029T1446+0800-cycle-5",
         "evidence": {
           "species_id": 89,
           "version": 3,
-          "result": "PASS_WITH_LIMITATIONS",
-          "imagegen_calls": 2,
-          "edit_count": 1,
-          "full_opened": true,
-          "crop_opened": true,
-          "juvenile_support_pass": true,
-          "exact_text_count_pass": true,
-          "remaining_unknown": [
-            "exact individual age",
-            "colour/feather-tract calibration",
-            "first-flight threshold",
-            "local morph",
-            "sex ratio"
-          ],
-          "run_checkpoint_commit": "b67e09d6d5adf5d103a660d1dba98ce6b33384e6",
+          "archive_commit": "9fb54507a1d206ea182879890eae92acc451f3b5",
+          "paths": 6,
+          "manifest_record": 514,
+          "readback_pending": true,
+          "run_checkpoint_commit": "0d7a06784ebae7cc3b4b76ee67246e352d3197cc",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T14:53:43.264+08:00",
+      "last_updated_at": "2026-10-29T14:55:17.306+08:00",
       "audit_notes": [
         "2026-10-29T12:36:04+08:00: cycle1 STARTED #85 Otus semitorques v3 SCIENCE_REVISION; v1-v2 retained; no other open batch or active lease; 15-minute lease acquired; no production credit.",
         "2026-10-29T12:36:57+08:00: cycle1 #85 v3 RESEARCH_READY; new2/reused2/corrected1; first-winter retained-flight-feather boundary; science false.",
@@ -7028,7 +7018,8 @@
         "2026-10-29T14:46:22+08:00: cycle5 STARTED #89 Bubo bengalensis v3 SCIENCE_REVISION; v1-v2 retained; lease acquired; no credit.",
         "2026-10-29T14:49:00.898+08:00: cycle5 #89 v3 RESEARCH_READY; new2/reused2/corrected1; c.35-day full-juvenile-plumage without flight inference; science false.",
         "2026-10-29T14:52:34.484+08:00: cycle5 #89 v3 IMAGE_GENERATED after 2 calls/1 juvenile-wing edit; final 1536x1024 full plate opened; review crop next.",
-        "2026-10-29T14:53:43.264+08:00: cycle5 #89 v3 REVIEWED after 1 edit; full and crop reopened; PASS_WITH_LIMITATIONS; science false."
+        "2026-10-29T14:53:43.264+08:00: cycle5 #89 v3 REVIEWED after 1 edit; full and crop reopened; PASS_WITH_LIMITATIONS; science false.",
+        "2026-10-29T14:55:17.306+08:00: cycle5 #89 v3 ARCHIVED at 9fb54507a1d206ea182879890eae92acc451f3b5; six canonical paths+manifest514; fixed readback pending."
       ]
     }
   ],

@@ -2050,3 +2050,16 @@ When a guide says the juvenile is unknown but a museum paper confirms an immatur
 - 2026-10-29T20:53:00+08:00 — #179 v1 fixed-tree VERIFIED at `3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5`; four path/blob/size checks and local Git hashes matched; manifest526 confirmed; science false.
 
 - [#02 Snowy Owl v6](concepts/02-bubo-scandiacus-v6.jpg) — 15–21-day gray-mesoptile stage; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false.
+
+## 2026-10-29 #03 Eurasian Eagle-Owl v12 — approximately 10-day nestling
+
+- Original: [03-bubo-bubo-v12.jpg](concepts/03-bubo-bubo-v12.jpg)
+- Research: [species record](../research/species/03-bubo-bubo-v12.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one targeted juvenile-feather edit; full 1536×1024 plate and 560×600 nestling crop reopened.
+- Boundary: predominantly white-downy, low substrate-supported chick with compact bill, pink feet and only short localized sheaths; no formed adult wing, tail fan or ear tufts.
+- Unknown: exact sheath placement, iris calibration, adult sex-size ratio and transfer across regional forms.
+- Scientific status: pending / false; v4 historical user approval preserved but not inherited.
+
+### Incremental rule — do not solve pinfeather leakage by deleting all stage-supported sheaths
+
+When a source supports localized emerging sheaths but a render produces long dense shaft clusters, target their length, density and distribution. Retain only short localized sheaths and recheck the chick crop; do not replace the evidence-bounded stage with a generic all-white ball. Applied and visually rechecked on #03 v12; broader effectiveness remains unverified.

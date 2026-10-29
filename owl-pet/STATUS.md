@@ -2177,3 +2177,7 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 22:50 +08 — #02 Snowy Owl v6 verified; batch 4/6
 
 #02 *Bubo scandiacus* v6 passed fixed-commit readback at `deccc023afb044b66cf7989d6e1465f52cf398aa`: non-truncated 1776-entry tree and four canonical image path/blob/size pairs matched; manifest529, run, restored source index, research and knowledge records reopened. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T2038+0800` is 4/6, next cycle5, no active lease.
+
+## 2026-10-29 23:38 +08 — #03 Eurasian Eagle-Owl v12 archived, verification pending
+
+#03 *Bubo bubo* v12 concept plus generated/reviewed JPEGs and nestling crop are archived as manifest530. One targeted edit removed overlong dense juvenile shafts; full image and crop passed with limitations. Revision adds no unique species; reconciled total remains 175/251. Science remains false. Fixed commit-pinned readback is pending, so the batch remains 4/6 until verification.

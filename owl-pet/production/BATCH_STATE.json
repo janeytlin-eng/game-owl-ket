@@ -7351,8 +7351,8 @@
         "run_id": "20261029T2247+0800-cycle-5",
         "cycle": 5,
         "species_id": 3,
-        "heartbeat_at": "2026-10-29T23:34:00+08:00",
-        "expires_at": "2026-10-29T23:49:00+08:00"
+        "heartbeat_at": "2026-10-29T23:38:00+08:00",
+        "expires_at": "2026-10-29T23:53:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -7360,7 +7360,7 @@
         "species": "Bubo bubo",
         "version": 12,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "base_main_sha": "c15390823c73b737bf1ec5dda1399239f4ce4d78",
         "run_record": "owl-pet/production/runs/20261029T2247+0800-cycle-5.md",
         "prior_versions_retained": [
@@ -7411,6 +7411,13 @@
           "edit_count": 1,
           "result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        "archive_evidence": {
+          "concept_path": "owl-pet/design/concepts/03-bubo-bubo-v12.jpg",
+          "concept_blob": "3db93d50efdb1dfcd1080cd718aa130587a3c534",
+          "concept_size_bytes": 500940,
+          "manifest_entry": 530,
+          "readback_pending": true
         }
       },
       "in_progress": {
@@ -7418,9 +7425,9 @@
         "cycle": 5,
         "species_id": 3,
         "version": 12,
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       },
-      "last_updated_at": "2026-10-29T23:34:00+08:00",
+      "last_updated_at": "2026-10-29T23:38:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7452,7 +7459,8 @@
         "2026-10-29T22:55:00+08:00: cycle5 #03 Bubo bubo v12 RESEARCH_READY; new1/reused1/corrected0. Mikkola uploaded PDF pp.270–273/printed pp.268–271 and Penteriani et al. 2005 printed pp.159–160/Figs2–3 read. Approximately 10-day chick bounded to predominant white down, low substrate support and short localized sheaths only; full prompt saved; science false; no credit.",
         "2026-10-29T22:57:00+08:00: cycle5 #03 v12 IMAGE_GENERATED; first 1536x1024 render opened and generated JPEG persisted. Count/text/adults/support passed, but juvenile carried long dense dark feather shafts beyond the approximately 10-day evidence boundary; targeted edit required; no credit.",
         "2026-10-29T23:00:00+08:00: cycle5 #03 v12 REVIEWED after one targeted juvenile-feather edit. Edited 1536x1024 full master and 560x600 nestling crop reopened; long shafts removed, low support/white down/compact bill/pink feet and adult identity pass with limitations. Exact short-sheath placement, iris calibration, adult ratio and regional transfer remain unknown; science false; no credit.",
-        "2026-10-29T23:34:00+08:00: expired cycle5 REVIEWED lease reconciled at unchanged main f176acac6197e1d05fa02a2575c4cc5a3fa50c49. Remote generated/reviewed/crop blobs and byte sizes still matched recoverable local evidence; same run_id resumed without regeneration or duplicate credit. Stale top-level cycle4 lease corrected."
+        "2026-10-29T23:34:00+08:00: expired cycle5 REVIEWED lease reconciled at unchanged main f176acac6197e1d05fa02a2575c4cc5a3fa50c49. Remote generated/reviewed/crop blobs and byte sizes still matched recoverable local evidence; same run_id resumed without regeneration or duplicate credit. Stale top-level cycle4 lease corrected.",
+        "2026-10-29T23:38:00+08:00: cycle5 #03 Bubo bubo v12 ARCHIVED as manifest530 with concept plus existing generated/reviewed/crop JPEG evidence and updated research/knowledge/design/status/changelog/run records. Fixed commit-pinned readback pending; batch remains 4/6 and no credit added."
       ]
     }
   ],
@@ -7569,7 +7577,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T23:34:00+08:00",
+  "updated_at": "2026-10-29T23:38:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7582,8 +7590,8 @@
     "run_id": "20261029T2247+0800-cycle-5",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 5,
-    "heartbeat_at": "2026-10-29T23:34:00+08:00",
-    "expires_at": "2026-10-29T23:49:00+08:00"
+    "heartbeat_at": "2026-10-29T23:38:00+08:00",
+    "expires_at": "2026-10-29T23:53:00+08:00"
   },
   "last_updated_at": "2026-10-29T21:58:00+08:00",
   "audit_notes": [
@@ -7854,6 +7862,6 @@
     "species": "Bubo bubo",
     "species_id": 3,
     "version": 12,
-    "stage": "REVIEWED"
+    "stage": "ARCHIVED"
   }
 }

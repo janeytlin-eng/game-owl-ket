@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T22:48:00+08:00",
+  "updated": "2026-10-29T23:38:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8826,7 +8826,62 @@
         "fixed_commit": "deccc023afb044b66cf7989d6e1465f52cf398aa",
         "local_git_hash_object_matches": true
       }
+    },
+    {
+      "entry_id": 530,
+      "species_id": 3,
+      "scientific_name": "Bubo bubo",
+      "common_name": "Eurasian Eagle-Owl",
+      "version": 12,
+      "path": "design/concepts/03-bubo-bubo-v12.jpg",
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "user_approval_history": "v4 juvenile concept look was approved historically; v12 science revision preserves but does not inherit that approval",
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 3,
+      "sha256": "b4c383eed5e448d6bb42780bc6b9a3593f3ea0be926f0bfb371eb61f1258de74",
+      "scientifically_verified": false,
+      "status": "PASS_WITH_LIMITATIONS. Approximately 10-day nestling is predominantly white-downy, low and substrate-supported, with compact bill, pink feet and only short localized sheaths. No formed adult wing panels, long tail or ear tufts. Adult pair share plumage; female is only subtly fuller, not uniformly enlarged. Exact sheath placement, iris calibration, sex-size ratio and regional transfer remain unknown.",
+      "source_ids": [
+        "EEO-MIKKOLA-2013",
+        "EEO-PENTERIANI-2005"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/03-bubo-bubo-v12.md",
+      "run_record": "production/runs/20261029T2247+0800-cycle-5.md",
+      "reviewed_at": "2026-10-29T23:00:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 500940,
+      "git_blob": "3db93d50efdb1dfcd1080cd718aa130587a3c534",
+      "generated_path": "production/generated/03-bubo-bubo-v12-generated.jpg",
+      "generated_blob": "14fa838675973c214392068f2c92d018045b2a3b",
+      "generated_sha256": "6777a011f4ffe088e9765aec8751b941b3291b2f3fab027b596d29f4950b7a95",
+      "generated_size_bytes": 543255,
+      "reviewed_path": "production/reviewed/03-bubo-bubo-v12-reviewed.jpg",
+      "reviewed_blob": "3db93d50efdb1dfcd1080cd718aa130587a3c534",
+      "reviewed_sha256": "b4c383eed5e448d6bb42780bc6b9a3593f3ea0be926f0bfb371eb61f1258de74",
+      "reviewed_size_bytes": 500940,
+      "review_crop_path": "production/reviewed/03-bubo-bubo-v12-nestling-crop.jpg",
+      "review_crop_blob": "9214c54f756628682a08fb266121fe2373647c62",
+      "review_crop_sha256": "2892206d96ce1e5a6a297e98d2de762217262936af5b9c69e1b42311580b6a91",
+      "review_crop_size_bytes": 157773,
+      "archive_note": "First render showed long dense dark juvenile shafts. One targeted imagegen edit removed them and reduced shoulder skin. Full edited image and 560x600 crop reopened; evidence boundaries remain explicit and science false.",
+      "readback_pending": true,
+      "archive_commit": "PENDING_FIXED_COMMIT",
+      "verification_result": "pending fixed-commit tree and text-record readback"
     }
   ],
-  "updated_at": "2026-10-29T22:48:00+08:00"
+  "updated_at": "2026-10-29T23:38:00+08:00"
 }

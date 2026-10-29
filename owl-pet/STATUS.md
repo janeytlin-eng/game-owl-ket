@@ -1,3 +1,4 @@
+- 2026-10-30T01:55:08+08:00: #12 *Aegolius acadicus* v5 ARCHIVED. Full/crop review passed with limitations, edit 0; fixed readback pending. Unique species 175/251; numbered IDs 185/251; science verified 0.
 - 2026-10-30T01:51:10+08:00: #11 *Aegolius funereus* v4 ARCHIVED. One juvenile-wing edit; fixed readback pending. Unique species remains 175/251; numbered IDs 185/251; science verified 0.
 - 2026-10-30T01:23:00+08:00: #08 *Strix nebulosa* v5 VERIFIED at fixed archive aeee17b44f7b57994e2580e3761ec3d32d905104; non-truncated 1813-entry tree, five exact image assets and complete source-index/research/run markers passed. Batch 4/6, next cycle5; unique +0; science false.
 - 2026-10-30T01:22:00+08:00: #08 *Strix nebulosa* v5 ARCHIVED as manifest535 after one juvenile-wing edit and full/crop recheck. Three new sources, two reused; exact concept/generated/reviewed/crop fixed readback pending. Batch remains 3/6; unique +0; science false.

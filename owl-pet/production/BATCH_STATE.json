@@ -7569,8 +7569,8 @@
       "active_lease": {
         "owner": "codex-root",
         "run_id": "20261030T015100+0800-cycle-2",
-        "heartbeat_at": "2026-10-30T01:54:33+08:00",
-        "expires_at": "2026-10-30T02:14:00+08:00"
+        "heartbeat_at": "2026-10-30T01:55:08+08:00",
+        "expires_at": "2026-10-30T02:17:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T0144+0800",
@@ -7579,7 +7579,7 @@
         "species_no": "12",
         "action": "SCIENCE_REVISION",
         "version": "v5",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261030T015100+0800-cycle-2.md",
         "started_at": "2026-10-30T01:51:46+08:00",
         "research_record": "owl-pet/research/species/12-aegolius-acadicus-v5.md",
@@ -7590,14 +7590,15 @@
         },
         "generated_path": "owl-pet/production/generated/12-aegolius-acadicus-v5-generated.jpg",
         "review_result": "PASS_WITH_LIMITATIONS",
-        "edit_count": 0
+        "edit_count": 0,
+        "concept_path": "owl-pet/design/concepts/12-aegolius-acadicus-v5.jpg"
       },
       "last_checkpoint": {
-        "stage": "REVIEWED",
-        "at": "2026-10-30T01:54:33+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-30T01:55:08+08:00",
         "run_record": "owl-pet/production/runs/20261030T015100+0800-cycle-2.md",
-        "reviewed_blob": "26ecaed484cb6590d892e28aa7b31f04f1f839d5",
-        "review_crop_blob": "93057118aff1f19b00f2252798a941b583139a75"
+        "concept_blob": "26ecaed484cb6590d892e28aa7b31f04f1f839d5",
+        "manifest_count": 539
       }
     }
   ],

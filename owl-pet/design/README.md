@@ -1,5 +1,12 @@
 # Current production review
 
+- Target: [12-aegolius-acadicus-v5.jpg](concepts/12-aegolius-acadicus-v5.jpg)
+- Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
+- Change: supported ~4–5-week fledgling in fulvous/chocolate juvenal body plumage and uniform HY flight feathers; no edit required.
+- Evidence: [research](../research/species/12-aegolius-acadicus-v5.md) · [run](../production/runs/20261030T015100+0800-cycle-2.md)
+
+# Current production review
+
 - Target: [11-aegolius-funereus-v4.jpg](concepts/11-aegolius-funereus-v4.jpg)
 - Status: PASS_WITH_LIMITATIONS; scientifically_verified=false
 - Change: pre-entrance ~21–23-d nestling; one edit removed adult-like pale-spotted wing rows.

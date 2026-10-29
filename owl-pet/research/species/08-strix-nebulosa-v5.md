@@ -42,3 +42,8 @@ Avoid: ear tufts, orange eyes, oversized exposed bill, heart-shaped barn-owl fac
 ## Review checklist
 
 Exactly three birds; exact title/labels; adult yellow eyes/concentric disks/pale X/black-centered white bow tie/no ear tufts; restrained female-size direction; juvenile dark-gray-above/pale-below/down-softened/no adult rings/no adult-like remiges; two-talon natural support plus optional bill/wing brace; leaning barked tree and dense conifer cover; no cavity/new owl-built nest.
+
+
+## IMAGE_GENERATED checkpoint
+
+At 2026-10-30T01:20:00+08:00, built-in imagegen produced a 1536×1024 full plate. Full image and 610×760 juvenile crop were opened. Three birds, exact text, adult diagnostics, juvenile colour and two-talon tree support passed. The juvenile wing retained a long layered fan of mature-looking remiges and regular pale rows, so the image was not accepted. A juvenile-wing-only edit is required; science false.

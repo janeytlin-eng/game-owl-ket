@@ -7512,8 +7512,8 @@
       "active_lease": {
         "owner": "codex-work-20261030T0115+0800",
         "run_id": "20261030T0115+0800-cycle-4",
-        "heartbeat_at": "2026-10-30T01:17:00+08:00",
-        "expires_at": "2026-10-30T01:32:00+08:00"
+        "heartbeat_at": "2026-10-30T01:20:00+08:00",
+        "expires_at": "2026-10-30T01:35:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T0033+0800",
@@ -7521,30 +7521,35 @@
         "species": "Strix nebulosa",
         "action": "SCIENCE_REVISION",
         "version": "v5",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261030T0115+0800-cycle-4.md",
         "started_at": "2026-10-30T01:15:00+08:00",
-        "heartbeat_at": "2026-10-30T01:17:00+08:00",
+        "heartbeat_at": "2026-10-30T01:20:00+08:00",
         "research_path": "owl-pet/research/species/08-strix-nebulosa-v5.md",
         "source_counts": {
           "new": 3,
           "reused": 2,
           "corrected": 0
         },
-        "prompt_persisted": true
+        "prompt_persisted": true,
+        "generated_path": "owl-pet/production/generated/08-strix-nebulosa-v5-generated.jpg",
+        "generated_blob": "8dbd4c5b22c32937e059d5caf45989fcee725935",
+        "generated_crop_blob": "c99d8c8708db522a20d3697058d7dafff8ec7670",
+        "review_issue": "juvenile adult-like layered remiges require targeted edit"
       },
       "last_checkpoint": {
-        "at": "2026-10-30T01:17:00+08:00",
-        "stage": "RESEARCH_READY",
-        "run_record": "owl-pet/production/runs/20261030T0115+0800-cycle-4.md"
+        "at": "2026-10-30T01:20:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "run_record": "owl-pet/production/runs/20261030T0115+0800-cycle-4.md",
+        "generated_blob": "8dbd4c5b22c32937e059d5caf45989fcee725935"
       }
     }
   ],
   "lease": {
     "owner": "codex-work-20261030T0115+0800",
     "run_id": "20261030T0115+0800-cycle-4",
-    "heartbeat_at": "2026-10-30T01:17:00+08:00",
-    "expires_at": "2026-10-30T01:32:00+08:00"
+    "heartbeat_at": "2026-10-30T01:20:00+08:00",
+    "expires_at": "2026-10-30T01:35:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7651,7 +7656,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-30T01:17:00+08:00",
+  "updated_at": "2026-10-30T01:20:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7662,10 +7667,10 @@
   "active_lease": {
     "owner": "codex-work-20261030T0115+0800",
     "run_id": "20261030T0115+0800-cycle-4",
-    "heartbeat_at": "2026-10-30T01:17:00+08:00",
-    "expires_at": "2026-10-30T01:32:00+08:00"
+    "heartbeat_at": "2026-10-30T01:20:00+08:00",
+    "expires_at": "2026-10-30T01:35:00+08:00"
   },
-  "last_updated_at": "2026-10-30T01:17:00+08:00",
+  "last_updated_at": "2026-10-30T01:20:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7858,7 +7863,8 @@
     "2026-10-30T01:10:00+08:00: #06 v4 REVIEWED after one edit and ARCHIVED as manifest533; fixed readback pending; no credit.",
     "2026-10-30T01:13:00+08:00: #06 v4 fixed-tree verification passed at 01aa13636579c17fec9905572e2f413a5d961eb4; manifest crop size corrected before credit; batch2/6 next3; lease released.",
     "2026-10-30T01:15:00+08:00: cycle4 #08 Strix nebulosa v5 STARTED; 15-minute lease acquired; existing v1-v4 and user approval preserved; no credit.",
-    "2026-10-30T01:17:00+08:00: cycle4 #08 v5 RESEARCH_READY; new3/reused2/corrected0; full prompt and evidence boundaries persisted; no credit."
+    "2026-10-30T01:17:00+08:00: cycle4 #08 v5 RESEARCH_READY; new3/reused2/corrected0; full prompt and evidence boundaries persisted; no credit.",
+    "2026-10-30T01:20:00+08:00: cycle4 #08 v5 IMAGE_GENERATED; full and crop opened; juvenile adult-like layered remiges require targeted edit; no credit."
   ],
   "audit_trail": [
     {
@@ -7951,16 +7957,20 @@
     "species": "Strix nebulosa",
     "action": "SCIENCE_REVISION",
     "version": "v5",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "run_record": "owl-pet/production/runs/20261030T0115+0800-cycle-4.md",
     "started_at": "2026-10-30T01:15:00+08:00",
-    "heartbeat_at": "2026-10-30T01:17:00+08:00",
+    "heartbeat_at": "2026-10-30T01:20:00+08:00",
     "research_path": "owl-pet/research/species/08-strix-nebulosa-v5.md",
     "source_counts": {
       "new": 3,
       "reused": 2,
       "corrected": 0
     },
-    "prompt_persisted": true
+    "prompt_persisted": true,
+    "generated_path": "owl-pet/production/generated/08-strix-nebulosa-v5-generated.jpg",
+    "generated_blob": "8dbd4c5b22c32937e059d5caf45989fcee725935",
+    "generated_crop_blob": "c99d8c8708db522a20d3697058d7dafff8ec7670",
+    "review_issue": "juvenile adult-like layered remiges require targeted edit"
   }
 }

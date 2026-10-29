@@ -7204,31 +7204,36 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261029T1830+0800-cycle-2",
-        "heartbeat_at": "2026-10-29T18:34:00+08:00",
-        "expires_at": "2026-10-29T18:49:00+08:00"
+        "heartbeat_at": "2026-10-29T18:42:00+08:00",
+        "expires_at": "2026-10-29T18:57:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_id": "20261029T1830+0800-cycle-2",
         "species_id": 99,
         "species": "Bubo magellanicus",
         "version": 3,
         "evidence": {
-          "new_sources": 1,
-          "reused_sources": 3,
-          "corrected_sources": 0,
-          "source_ids": [
-            "MAG-ZAMBRANO-2022",
-            "MAG-MIK2013-266",
-            "S099-ORNNEO-2020-URBAN-NEST",
-            "S099-BIRDNET-TAXONOMY"
-          ],
-          "full_prompt_saved": true,
+          "generated_path": "owl-pet/production/generated/99-bubo-magellanicus-v3-generated-master.png",
+          "generated_blob": "b0f44b66ed85b4bf835779441a5ea61416c1debd",
+          "generated_size_bytes": 2957738,
+          "generated_sha256": "421b96f6922983448d3eaf3f94859955e984ecf78693ea6ef63eb42ba035e987",
+          "reviewed_path": "owl-pet/production/reviewed/99-bubo-magellanicus-v3-reviewed-master.png",
+          "reviewed_blob": "9726f45136ea746cbcbe489bf6fe11159158a83d",
+          "reviewed_size_bytes": 2799536,
+          "reviewed_sha256": "94212cd5b80dfc16bbf4fd5643bef24f8f7a61bfbc3540106f964baa6b40f949",
+          "review_crop": "owl-pet/production/reviewed/99-bubo-magellanicus-v3-reviewed-chick-crop.jpg",
+          "review_crop_blob": "be31492e72fe99c76863f037a0dfe765b20c641d",
+          "review_crop_size_bytes": 142918,
+          "review_crop_sha256": "53667ffa621f5614553a520570dbcc0ea6c1c96ff25d4254d04550b8b14b91d3",
+          "dimensions": "1536x1024",
+          "edit_count": 1,
+          "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T18:34:00+08:00",
+      "last_updated_at": "2026-10-29T18:42:00+08:00",
       "audit_notes": [
         "2026-10-29T18:00:00+08:00: cycle1 STARTED #97 Lophostrix cristata v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T18:08:00+08:00: cycle1 #97 v3 RESEARCH_READY; new2/reused3/corrected1; actual PDF pp58–60, Smithsonian landing and MNHN specimen record read; full prompt saved; science false.",
@@ -7237,7 +7242,8 @@
         "2026-10-29T17:43:00+08:00: cycle1 #97 v3 ARCHIVED paths prepared; concept/generated/reviewed/crop plus manifest entry 520 and species research record; readback pending.",
         "2026-10-29T17:45:00+08:00: cycle1 #97 v3 VERIFIED at ea9df522; four exact commit-pinned paths/blob/size pairs, manifest, run, source index and research record reopened. Batch advances to cycle2; science false.",
         "2026-10-29T17:45:00+08:00: invocation checkpoint after 1 verified cycle; cycles2–6 remain. This is an execution checkpoint, not evidence of a fixed platform timeout.",
-        "2026-10-29T18:34:00+08:00: cycle2 #99 Bubo magellanicus v3 RESEARCH_READY; new1/reused3/corrected0. Zambrano2022 printed pp20–21/Fig4 read: approx1-week chicks retained egg tooth, eyelids open; chicks stayed until flight feathers developed and departed at approx50–56 days. Full prompt saved; science false."
+        "2026-10-29T18:34:00+08:00: cycle2 #99 Bubo magellanicus v3 RESEARCH_READY; new1/reused3/corrected0. Zambrano2022 printed pp20–21/Fig4 read: approx1-week chicks retained egg tooth, eyelids open; chicks stayed until flight feathers developed and departed at approx50–56 days. Full prompt saved; science false.",
+        "2026-10-29T18:42:00+08:00: cycle2 #99 v3 IMAGE_GENERATED and REVIEWED. Full and 560x650 chick crop opened at original detail. One targeted edit extended dirty-white feathering along adult toes; chick, labels and scene preserved. PASS_WITH_LIMITATIONS; science false."
       ]
     }
   ],
@@ -7361,7 +7367,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-10-29T18:34:00+08:00",
+  "last_updated_at": "2026-10-29T18:42:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7614,6 +7620,6 @@
     "run_id": "20261029T1830+0800-cycle-2",
     "species": "Bubo magellanicus",
     "species_id": 99,
-    "stage": "RESEARCH_READY"
+    "stage": "REVIEWED"
   }
 }

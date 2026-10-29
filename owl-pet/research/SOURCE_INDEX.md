@@ -5598,3 +5598,25 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - **Boundary:** It did not describe natal down and is not used to override the 2019 exact-nest sequence.
 
 **Source accounting:** new 2 / reused 2 / corrected 1. Exact individual age within the “24-day” observation, sex, tract sequence, size ratio and cutaway geometry remain unknown; science false.
+
+
+## 2026-10-29 — #94 *Pulsatrix koeniswaldiana* v4 — southern-Brazil juvenile figure boundary
+
+### KOE-GARCIA-ETAL-2015 — new primary regional record and juvenile figure
+
+- **Title:** Registros de *Pulsatrix koeniswaldiana* em fragmentos de Mata Atlântica no Vale do Rio dos Sinos e primeiro espécime em coleção científica no Rio Grande do Sul
+- **Authors / source:** Suélen de Almeida Garcia et al.; *Caderno de Pesquisa, série Biologia* 27(3):31–36 (2015)
+- **DOI / URL:** https://doi.org/10.17058/cp.v27i3.6505 · https://seer.unisc.br/index.php/cadpesquisa/article/download/6505/4474
+- **Accessed/read:** 2026-10-29; all pp.31–36; Fig.2 p.34 rendered and viewed
+- **Taxon/stage:** exact species; juvenile recorded March 2013 in an Atlantic Forest fragment at Ivoti, Rio Grande do Sul
+- **Facts:** Fig.2 shows a perched juvenile with pale fluffy body, dark facial mask, and partly developed short rounded wing; paper does not supply age, sex or motor score. Habitat is a highly fragmented semideciduous Atlantic Forest landscape.
+- **Design decision:** use age-unknown post-cavity branch support and direct juvenile tonal/wing boundary; no adult-length wing, exposed long tail or flight claim.
+- **Limitations:** single photographed juvenile; figure quality is low and does not resolve tract sequence or exact toe geometry.
+
+### Reused sources
+
+- **KOE-PEREIRA2013:** monitored Bauru pair used a natural top cavity in *Piptadenia gonoacantha*; young later perched outside. Supports post-cavity behavior, not exact age.
+- **KOE-BOTTAI2013-Y:** dated young individual with dark mask, residual pale fluff and developed plumage; exact age/sex unknown.
+- **KOE-MIK2013-313:** adult morphology baseline; female larger stated but no fixed ratio used.
+
+**Source accounting:** new 1 / reused 3 / corrected 1. Exact age, sex, flight ability, wing/tail dimensions, toe geometry and pair ratio remain unknown; science false.

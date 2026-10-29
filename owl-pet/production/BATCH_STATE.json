@@ -6678,24 +6678,28 @@
         "species_id": 74,
         "species": "Ninox novaeseelandiae",
         "version": 3,
-        "heartbeat_at": "2026-10-29T09:05:30+08:00",
-        "expires_at": "2026-10-29T09:20:30+08:00"
+        "heartbeat_at": "2026-10-29T09:15:00+08:00",
+        "expires_at": "2026-10-29T09:30:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "ARCHIVED",
         "run_id": "20261029T0904+0800-cycle-3",
         "evidence": {
-          "research_note": "owl-pet/research/species/74-ninox-novaeseelandiae-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 2,
-          "reused_sources": 2,
-          "corrected_decisions": 1,
-          "prompt_saved": true,
+          "concept_blob": "d5741ece37759984e138a1b92cfa960cd521d48d",
+          "concept_size": 649936,
+          "generated_blob": "e6357b3423c887f7a43daae7dc8aa165f54958dd",
+          "generated_size": 544332,
+          "reviewed_blob": "e6357b3423c887f7a43daae7dc8aa165f54958dd",
+          "reviewed_size": 544332,
+          "crop_blob": "c3bec39d4ae1753b640f8f91d8f9f04fcea5eab5",
+          "crop_size": 311507,
+          "manifest_record": 500,
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T09:05:30+08:00",
+      "last_updated_at": "2026-10-29T09:15:00+08:00",
       "audit_notes": [
         "2026-10-29T08:35:49+08:00: new batch cycle1 STARTED #72 Ninox boobook v4 SCIENCE_REVISION; v1-v3 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T08:36:22+08:00: cycle1 #72 v4 RESEARCH_READY; new3/reused3/corrected1; two primary development studies and Victorian government identification table actually read; full prompt saved; science false; no credit.",
@@ -6711,7 +6715,8 @@
         "2026-10-29T08:59:00+08:00: cycle2 #73 v4 ARCHIVED; concept 4baba633ed/783143B, generated 13f9e4207a/519288B, reviewed 3c6d4619ab/494904B, crop 90512ebb08/283888B; manifest499; fixed readback pending; no credit.",
         "2026-10-29T09:01:00+08:00: cycle2 #73 Ninox rufa v4 VERIFIED at 2ab89b08db77b36d9275748a1cac2dc9b658f183; fixed tree and four image blobs/sizes matched; manifest499; unique+0; science false; next cycle3.",
         "2026-10-29T09:04:00+08:00: cycle3 STARTED #74 Ninox novaeseelandiae v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease; no credit.",
-        "2026-10-29T09:05:30+08:00: cycle3 #74 v3 RESEARCH_READY; new2/reused2/corrected1; NZ Birds Online development synthesis, DOC account and primary Mokoia study applied; full prompt saved; science false; no credit."
+        "2026-10-29T09:05:30+08:00: cycle3 #74 v3 RESEARCH_READY; new2/reused2/corrected1; NZ Birds Online development synthesis, DOC account and primary Mokoia study applied; full prompt saved; science false; no credit.",
+        "2026-10-29T09:15:00+08:00: cycle3 #74 v3 ARCHIVED; concept d5741ece37/649936B, generated e6357b3423/544332B, reviewed e6357b3423/544332B, crop c3bec39d4a/311507B; manifest500; fixed readback pending; no credit."
       ]
     }
   ],

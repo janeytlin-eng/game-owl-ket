@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T07:05:00+08:00",
+  "updated": "2026-10-30T07:07:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9429,8 +9429,45 @@
       "review_crop_sha256": "f7e735b55cc01faae16f746b203c1300d7cd7c9b0c84698b90e2b534e4b06917",
       "review_crop_size_bytes": 195888,
       "archive_note": "Full generated plate and crop were opened. One juvenile-only imagegen edit removed repeated bright covert rows, softened/compacted remiges, reduced pale body bars and shortened/concealed the tail. Final full plate and crop were reopened; adults, text, support and habitat were preserved. Existing v1-v3 and history remain retained.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "100f238467d31a5a711ac98225f5820561b20e84",
+      "fixed_commit": "100f238467d31a5a711ac98225f5820561b20e84",
+      "verified_at": "2026-10-30T07:07:00+08:00",
+      "verification_result": "fixed-commit fetch returned exact expected Git blobs for five image paths and all three manifest/source/research/run/knowledge/design/status/state records; matching image blobs prove byte identity with decoded local JPEGs",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "100f238467d31a5a711ac98225f5820561b20e84",
+        "concept": {
+          "path": "design/concepts/29-glaucidium-capense-v4.jpg",
+          "blob": "1b0422ef2242ea125fb1dfaa8903dd3941d6c3ab",
+          "size_bytes": 639960
+        },
+        "generated": {
+          "path": "production/generated/29-glaucidium-capense-v4-generated.jpg",
+          "blob": "ef396366d4bd33cd91be4c84503378759251ede3",
+          "size_bytes": 695936
+        },
+        "generated_crop": {
+          "path": "production/generated/29-glaucidium-capense-v4-juvenile-crop.jpg",
+          "blob": "97f665d89ea637668e3ca2261e60911e003318fc",
+          "size_bytes": 216672
+        },
+        "reviewed": {
+          "path": "production/reviewed/29-glaucidium-capense-v4-reviewed.jpg",
+          "blob": "1b0422ef2242ea125fb1dfaa8903dd3941d6c3ab",
+          "size_bytes": 639960
+        },
+        "review_crop": {
+          "path": "production/reviewed/29-glaucidium-capense-v4-juvenile-crop.jpg",
+          "blob": "15209febd90c0d2089e95ba386da61c1f339165c",
+          "size_bytes": 195888
+        },
+        "source_index_marker": "ABOW-UPemba-1953-P220",
+        "research_blob": "dfccb662a445e81bc3530e3a646e83cc91c6c609",
+        "run_blob_at_archive": "d26434951529f0605a1aa3179ea211ee98880597",
+        "knowledge_blob": "91eb00c48acf2e71351b470d67c43df19e646fe1"
+      }
     }
   ],
-  "updated_at": "2026-10-30T07:05:00+08:00"
+  "updated_at": "2026-10-30T07:07:00+08:00"
 }

@@ -41,4 +41,8 @@ Exact day-specific iris colour, individual feather-growth variation and the prim
 - Generated dimensions: 1536×1024.
 - First full image and 520×680 juvenile crop actually opened; formal review is recorded in the run ledger rather than inferred from file presence.
 
+## Visual review result
+
+The full JPEG and juvenile crop were reopened after persistence. Count, exact text, adult identity, shared adult plumage, modest female size direction, male nape false-eye, all natural supports and the cavity-contained juvenile pass. The chick has no visible ordered wing spots or mature barred tail and makes no unsupported locomotor claim. No edit was warranted; edit count 0. Result: `PASS_WITH_LIMITATIONS`; science remains false because the exact iris and primary day-by-day feather sequence are unresolved.
+
 Links: [source index](../SOURCE_INDEX.md) · [run](../../production/runs/20261030T063400+0800-cycle-3.md)

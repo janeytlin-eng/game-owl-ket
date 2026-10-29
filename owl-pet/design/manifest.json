@@ -8681,11 +8681,21 @@
       "review_crop_sha256": "0f43f87e38eb69b16d2e11744ca7df1bce98f2c5c9e85304758a015751bf720c",
       "review_crop_size_bytes": 86224,
       "archive_note": "A first-pass imagegen render passed the evidence checklist without editing. Full image and nestling crop were reopened at original detail. V1-v4 and the v3 user-approval record remain intact; science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verification_result": "pending fixed-commit readback"
+      "readback_pending": false,
+      "archive_commit": "4ba2de83758f1676966d7a538aa4c046ec0a79a4",
+      "fixed_commit": "4ba2de83758f1676966d7a538aa4c046ec0a79a4",
+      "verified_at": "2026-10-29T21:54:00+08:00",
+      "verification_result": "non-truncated 1770-entry commit-pinned tree; four exact JPEG/crop path/blob/size pairs matched local git hash-object; manifest, run, source index, species research, knowledge, design and changelog records reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {"path": "design/concepts/01-tyto-alba-v5.jpg", "blob": "0171fca31ff68e59fd583cbd5c1ca5b1024c6830", "size_bytes": 335384},
+        "generated_jpg": {"path": "production/generated/01-tyto-alba-v5-generated.jpg", "blob": "53313093f98e16101fcb8e5adba029e14283ecb7", "size_bytes": 307657},
+        "reviewed_jpg": {"path": "production/reviewed/01-tyto-alba-v5-reviewed.jpg", "blob": "0171fca31ff68e59fd583cbd5c1ca5b1024c6830", "size_bytes": 335384},
+        "review_crop": {"path": "production/reviewed/01-tyto-alba-v5-nestling-crop.jpg", "blob": "7af2823c4946c6e24a46032bb91638a669fff98e", "size_bytes": 86224},
+        "fixed_commit": "4ba2de83758f1676966d7a538aa4c046ec0a79a4",
+        "local_git_hash_object_matches": true
+      }
     }
   ],
-  "updated_at": "2026-10-29T21:53:00+08:00"
+  "updated_at": "2026-10-29T21:54:00+08:00"
 }

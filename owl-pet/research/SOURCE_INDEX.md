@@ -5708,3 +5708,13 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - **Unverified lead:** an ABSA “Bird in the Hand” PDF search result exposed male/female wing and mass ranges, but the original PDF returned 404 in this run. It is not used as verified evidence or a new source ID.
 
 New sources 0, reused 4, corrected 0. V3 retains the exact photographed 55-day captive stage, keeps the wing mostly concealed by down and does not claim wild-age equivalence or scientific pass.
+
+
+## 2026-10-29 — #104 *Asio madagascariensis* v3 reuse audit
+
+- **MLO-RENEGOODMAN2003** — L.-A. Rene de Roland & S. M. Goodman, *Asio madagascariensis*, in *The Natural History of Madagascar* (2003), printed pp.1116–1117, Fig.12.20. Original URL: https://protectedareas.mg/content/documents/0cd9156e-e528-4293-b8da-d00aa5f5af4f/dc17b8fd22bd4c08ad8fcddd92d3ff17.pdf. Accessed 2026-10-29. Primary chapter/search excerpt plus previously read pages reused: one brood moved off an epiphyte-tuft nest at 36 days; the separate figure shows a fledgling molting from white to dark plumage. Do not transfer the brood age to the pictured bird. High value; stage linkage limited.
+- **MLO-VASSEN2013** — Frank Vassen, dated juvenile photograph, Andasibe, 4 Dec 2013, Wikimedia Commons/Flickr, https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Long-eared_Owl_(Asio_madagascariensis),_Andasibe,_Madagascar.jpg. Accessed 2026-10-29, file lines 100–129 and image metadata. Reliable dated real photograph: white fluffy juvenile, black mask, short tufts, formed wing and branch support; no age or measured iris colour. CC BY 2.0; linked, not copied.
+- **MLO-MIK2013-509** — Heimo Mikkola (2013), printed p.509. Reused for adult orange iris, black bill, widely separated tufts, feathered toes and zoned plumage. Exact sex ratio and juvenile iris remain limited.
+- **MLO-AVIBASE2026** — Birds Canada/Avibase current taxonomy. Reused to retain *Asio madagascariensis* and separate the historical broad-name mapping.
+- Unverified lead: Smithsonian NMNH specimen page search metadata was visible but the page returned 404 on reopen; it is not used as morphology evidence.
+- Design record: [v3 research](104-asio-madagascariensis-v3.md) · [run](../production/runs/20261029T1955+0800-cycle-6.md). Scientific status false.

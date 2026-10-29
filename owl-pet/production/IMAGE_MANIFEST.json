@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:35:00+08:00",
+  "updated": "2026-10-30T01:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9382,7 +9382,59 @@
         },
         "source_index_blob": "7557fbfd5b6d260cad771791dca62208d2798441"
       }
+    },
+    {
+      "id": "10-surnia-ulula-v4",
+      "path": "design/concepts/10-surnia-ulula-v4.jpg",
+      "species_id": 10,
+      "scientific_name": "Surnia ulula",
+      "historical_names": [],
+      "common_name": "Northern Hawk-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "63ab12fb24bf4559986a2ec4432615be29ec47f99f2be6cdc6a89a68beb13275",
+      "size_bytes": 273913,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION. Alaska-scoped approximately 20–22-day just-departed but flightless juvenile at a broken-snag cavity rim. One targeted edit removed regular adult-like white wing spots and replaced a long crisp-barred tail with a short body-close developing tail. Adults remain near-equal in displayed height; female only subtly fuller. Exact individual day, feather metrics, iris, sex, first-flight timing and regional transfer remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "NHO-ADFG-1994",
+        "NHO-PATRIKEEV-2006-LEAD",
+        "NHO-MIKKOLA-2013-P360",
+        "NHO-EFAUNA-BC-2026",
+        "NHO-CORNELL-ID-2026",
+        "NHO-CORNELL-LIFE-2026",
+        "NHO-NPS-NEST-2021"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--10-surnia-ulula-v4--alaska-2022-day-nest-departure-boundary",
+      "research_record": "research/species/10-surnia-ulula-v4.md",
+      "run_record": "production/runs/20261030T0136+0800-cycle-6.md",
+      "generated_path": "production/generated/10-surnia-ulula-v4-generated.jpg",
+      "generated_blob": "83ca014939f8381e607e90731d6ac538829d6395",
+      "generated_sha256": "26ca64f3155246f39f9d8470730981abab4b479de3d519a78030e20e7ffc9ce9",
+      "generated_size_bytes": 307690,
+      "generated_crop_path": "production/generated/10-surnia-ulula-v4-juvenile-crop.jpg",
+      "generated_crop_blob": "6e9fb01d6b33578f6619aa58c224d417e88d70ea",
+      "generated_crop_sha256": "02f206f83b5c5c0feafb5bc33df72e5d851dc4dfdb11e81802d8d0a35b9a257f",
+      "generated_crop_size_bytes": 162454,
+      "reviewed_path": "production/reviewed/10-surnia-ulula-v4-reviewed.jpg",
+      "reviewed_blob": "1eb21f41c480d33fa2f4256fbe7378bdedf8e99d",
+      "reviewed_sha256": "63ab12fb24bf4559986a2ec4432615be29ec47f99f2be6cdc6a89a68beb13275",
+      "reviewed_size_bytes": 273913,
+      "review_crop_path": "production/reviewed/10-surnia-ulula-v4-juvenile-crop.jpg",
+      "review_crop_blob": "dfc58a3bf19ede5fa991962058e87546727bce97",
+      "review_crop_sha256": "fdc13428af337ab41d7c41c3dcfed2526b4bc8c1953e50fed2bd37f031d21b7b",
+      "review_crop_size_bytes": 142478,
+      "archive_note": "Full generated and edited 1536x1024 plates plus 560x640 juvenile crops were opened. One localized wing/tail edit removed adult-regular white spots and overlong crisp-barred tail while preserving a formed but short soft wing, short tail, adults, labels and complete cavity-rim support. v1-v3 and v1 user approval remain unchanged.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-10-30T01:35:00+08:00"
+  "updated_at": "2026-10-30T01:45:00+08:00"
 }

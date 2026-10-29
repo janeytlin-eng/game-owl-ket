@@ -2218,3 +2218,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 #09 *Athene cunicularia* v4 concept, generated/reviewed masters and juvenile crops are archived as manifest536. One targeted edit replaced an elongated pale-spotted juvenile wing with a compact down-covered wing bud and short sheath nubs. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0033+0800` remains 4/6 until verification.
 
 - 2026-10-30T01:35:00+08:00 — #09 *Athene cunicularia* v4 fixed-tree readback passed at `1d6364b3eca882d2a9866480e7f5eeee79c363db`: non-truncated 1827-entry tree, exact five formal image path/blob/size pairs, manifest536 and source-index blob matched; initial root-path error corrected. Batch **5/6**, next cycle6; unique remains **175/251**, science false.
+
+
+## 2026-10-30 01:45 +08 — #10 Northern Hawk-Owl v4 archived, verification pending
+
+#10 *Surnia ulula* v4 concept plus generated/reviewed masters and juvenile crops are archived as manifest537. One targeted edit removed regular adult-like juvenile wing spots and shortened the overlong crisp-barred tail. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending; batch remains 5/6 until verification.

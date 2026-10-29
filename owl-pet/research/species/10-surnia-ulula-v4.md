@@ -68,3 +68,8 @@ The first render was opened at full resolution and as a 560×640 juvenile crop. 
 ## Edit and recheck
 
 One localized imagegen edit removed the regular bright adult-like spot row from the juvenile wing, shortened/softened the folded wing, and replaced the exposed long crisp-barred tail with a short body-close developing tail. Full-frame and 560×640 crop reinspection preserved both adults, every label and complete cavity-rim support. Result: `PASS_WITH_LIMITATIONS`; scientific verification remains false.
+
+
+## Archive state
+
+The reviewed v4 plate and generated/reviewed evidence pairs are archived without replacing v1-v3. The unverified Patrikeev lead remains explicitly excluded from drawing evidence. Scientific verification remains false. Fixed commit-pinned readback is pending.

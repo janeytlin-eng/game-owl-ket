@@ -30,3 +30,8 @@ First render persisted. Full and crop inspection found adult-like regular white 
 ### REVIEWED checkpoint
 
 One juvenile wing/tail edit was reopened at full resolution and crop. Regular adult-like white spots and the long crisp-barred juvenile tail are gone; the supported gray-mesoptile bird retains only a short soft wing and short body-close tail. `PASS_WITH_LIMITATIONS`; pending archive/readback.
+
+
+### ARCHIVED checkpoint
+
+v4 formal concept, generated/reviewed masters and juvenile crops are archived as a science revision. Unique increment 0; science false; fixed-tree verification pending.

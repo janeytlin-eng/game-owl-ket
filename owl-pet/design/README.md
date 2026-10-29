@@ -2142,3 +2142,17 @@ For a documented brancher, use climbing/concealment posture and complete support
 For a documented early-emergence chick, permit short localized sheath nubs supported by known-age imagery, but remove elongated vanes, regular pale spots and adult-like rows. Preserve walking support and do not infer flight from being outside the burrow. Applied and visually rechecked on #09 v4; broader effectiveness remains unverified.
 
 - 2026-10-30T01:35:00+08:00 — #09 v4 fixed-tree VERIFIED at `1d6364b3eca882d2a9866480e7f5eeee79c363db`; five exact image blobs/sizes matched, erroneous root paths absent, batch 5/6 next6; science false.
+
+
+## 2026-10-30 #10 Northern Hawk-Owl v4 — Alaska nest-departure rim
+
+- Original: [10-surnia-ulula-v4.jpg](concepts/10-surnia-ulula-v4.jpg)
+- Research: [species record](../research/species/10-surnia-ulula-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one juvenile wing/tail edit; full 1536×1024 plate and 560×640 crop reopened.
+- Boundary: Alaska-scoped approximately 20–22-day just-departed but flightless juvenile, gray mesoptile, short soft formed wing, short body-close tail, both feet gripping broken-cavity rim.
+- Unknown: exact individual day, iris, feather metrics, sex, first-flight timing and regional transfer.
+- Scientific status: pending / false; v1 approval retained but not inherited.
+
+### Incremental rule — regionally dated nest departure is not a universal flight date
+
+When an institutional regional account gives a 20–22-day departure before flight and another regional synthesis gives 23–27 days, bind the drawing and label to the selected region. Preserve stage-supported developing wing/tail feathers, but remove adult-regular pattern and length. Applied/rechecked on #10 v4; broader effectiveness unverified.

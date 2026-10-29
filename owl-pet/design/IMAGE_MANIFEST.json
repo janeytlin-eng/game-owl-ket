@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T03:26:00+08:00",
+  "updated": "2026-10-30T03:28:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9824,15 +9824,40 @@
       "review_crop_sha256": "a49d4e7e10f6be2e8a2ec481b8428ccb15ff9f15cf5eec834b6e97053a6934de",
       "review_crop_size_bytes": 130785,
       "archive_note": "Full 1536×1024 plate and 560×700 juvenile crop reopened after one targeted edit. Adult-length juvenile remiges/tail were shortened while supported sidestep, mesoptile/down tips, small dark disk, cere/bill, adults, count and exact text were preserved. v1–v3 and v2 approval preserved.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
-      "fixed_commit": null,
-      "verification_result": null,
+      "readback_pending": false,
+      "archive_commit": "d1fea48c92fba85089a38386b841d2448b800256",
+      "verified_at": "2026-10-30T03:28:00+08:00",
+      "fixed_commit": "d1fea48c92fba85089a38386b841d2448b800256",
+      "verification_result": "non-truncated 1877-entry fixed tree; exact four image path/blob/size tuples; manifest542, source-index, run, research and knowledge matched",
       "readback": {
-        "status": "PENDING"
+        "status": "VERIFIED",
+        "fixed_commit": "d1fea48c92fba85089a38386b841d2448b800256",
+        "concept": {
+          "path": "design/concepts/16-strix-occidentalis-v4.jpg",
+          "blob": "37e192f0f686b08252489d080a4801e067875749",
+          "size_bytes": 499257
+        },
+        "generated": {
+          "path": "production/generated/16-strix-occidentalis-v4-generated.jpg",
+          "blob": "decb2beda8a367a54aee09c05470ca82113f8fd6",
+          "size_bytes": 532780
+        },
+        "reviewed": {
+          "path": "production/reviewed/16-strix-occidentalis-v4-reviewed.jpg",
+          "blob": "37e192f0f686b08252489d080a4801e067875749",
+          "size_bytes": 499257
+        },
+        "review_crop": {
+          "path": "production/reviewed/16-strix-occidentalis-v4-juvenile-review-crop.jpg",
+          "blob": "73e643a855da8c44afc3515f3c3a71423440dd61",
+          "size_bytes": 130785
+        },
+        "source_index_blob": "3e8c5440982f8e1fe1e0ff3dc70826cbad1fd24f",
+        "research_blob": "0e86478769efbce63dabee37a52ac90ec725bd61",
+        "run_blob": "5f72a91ca7f1302cb73eb08b90e922cc6417f135",
+        "knowledge_blob": "3d22d14c4a5365597cf3a933e2f07836dfd9c682"
       }
     }
   ],
-  "updated_at": "2026-10-30T03:26:00+08:00"
+  "updated_at": "2026-10-30T03:28:00+08:00"
 }

@@ -54,3 +54,10 @@ Environment: coherent arid rocky wadi/cliff-crevice setting with sandy scrape, l
 ```
 
 [Source index](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/20261029T1426+0800-cycle-3.md)
+
+
+### v3 actual review and iteration result
+
+Actually viewed the edited 1536×1024 full plate, a 560×650 juvenile crop and a paired 920×650 adult belly/feet crop. First render failed the stage boundary because the c.40-day juvenile had long, dark, adult-like remiges. One juvenile-only edit replaced them with shorter, very pale, softer developing feathers while preserving the older juvenile body, incomplete breast marks, closed beak and two-foot rock support. Recheck: adult short tufts/orange eyes/black bills/feathered feet pass at concept level; adults are near equal height with female only modestly fuller; upper-breast dark drops and lower-belly thin rufous crossbars are visibly zoned; juvenile and adults all have natural rock support; labels and desert-wadi context are correct. Exact feather count, juvenile sex/flightability, numeric sexual size difference and regional fine plumage remain unknown; scientific verification false.
+
+Rule status: **discovered and actually applied once; visually effective, not biologically validated as a universal rule.** When a prompt must show a partly developed juvenile wing, specify both a relative comparison and a visible endpoint (“shorter/paler than adults; ending mid-body”), then open a juvenile crop. Negative phrases alone are insufficient.

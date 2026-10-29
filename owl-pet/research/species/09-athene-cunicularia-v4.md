@@ -34,3 +34,8 @@ Avoid: ear tufts, orange eyes on adults, feathered adult toes, exaggerated sex-s
 ## Generated-image comparison checkpoint
 
 At `2026-10-30T01:28:00+08:00`, the first render was checked at full resolution and with a dedicated juvenile crop. Adult morphology and support passed the prompt boundary. The chick's folded wing showed elongated spotted vanes inconsistent with the selected approximately 14-day first-emergence boundary documented above. The image therefore requires a localized wing edit and is not scientifically passed at this checkpoint. Generated evidence: `owl-pet/production/assets/09-athene-cunicularia-v4-generated.jpg`, `owl-pet/production/assets/09-athene-cunicularia-v4-generated-juvenile-crop.jpg`.
+
+
+## Edit and recheck
+
+A single localized edit removed the chick's elongated spotted wing vanes and replaced them with a compact down-softened wing bud bearing only short brown sheath nubs. Full-frame and juvenile-crop reinspection found no remaining adult spot grid, barring, long remiges or tail fan on the chick. Adults, text, burrow and physical support were preserved. Result: `PASS_WITH_LIMITATIONS`; exact iris colour and feather count remain deliberately non-diagnostic.

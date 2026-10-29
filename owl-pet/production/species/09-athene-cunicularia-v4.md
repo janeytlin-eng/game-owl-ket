@@ -43,3 +43,8 @@ V4 不重复 v3 的 29 日龄前飞幼鸟，改用约 14 日龄首次出洞阶�
 ### IMAGE_GENERATED checkpoint
 
 First render persisted at `owl-pet/production/assets/09-athene-cunicularia-v4-generated.jpg`. Full-resolution and crop inspection found an over-mature, pale-spotted juvenile side wing. Status remains not archived; a juvenile-wing-only edit is required.
+
+
+### REVIEWED checkpoint
+
+One localized juvenile-wing edit was applied and then inspected at full resolution plus crop. The approximately 14-day chick now retains mostly cream down, patchy brown crown/back development and only short sheath nubs on a compact wing bud. Review result: `PASS_WITH_LIMITATIONS`; pending archive and remote verification.

@@ -9894,8 +9894,40 @@
       "review_crop_sha256": "742ffd66ce85b8f01082da8fa99968074918a86090c1d2474c3ff7169509f420",
       "review_crop_size_bytes": 198070,
       "archive_note": "Full 1536×1024 plate and 520×700 juvenile crop reopened after one targeted juvenile-wing edit. Existing v1–v3 and all historical user-confirmation records remain preserved.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "93485b6b9eab45f420e0ae3fbd6fea837baba612",
+      "verified_at": "2026-10-30T04:39:00+08:00",
+      "fixed_commit": "93485b6b9eab45f420e0ae3fbd6fea837baba612",
+      "verification_result": "fixed-commit readback matched exact four image path/blob/size tuples plus manifest543, source index, research, run and knowledge records",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "93485b6b9eab45f420e0ae3fbd6fea837baba612",
+        "concept": {
+          "path": "design/concepts/22-gymnasio-nudipes-v4.jpg",
+          "blob": "994905049a1c0e6baf24b1a0442dd8ad1f65563d",
+          "size_bytes": 719361
+        },
+        "generated": {
+          "path": "production/generated/22-gymnasio-nudipes-v4-generated.jpg",
+          "blob": "0f59d5d63556be92865b8c3a603bcc7dec49df65",
+          "size_bytes": 768973
+        },
+        "reviewed": {
+          "path": "production/reviewed/22-gymnasio-nudipes-v4-reviewed.jpg",
+          "blob": "994905049a1c0e6baf24b1a0442dd8ad1f65563d",
+          "size_bytes": 719361
+        },
+        "review_crop": {
+          "path": "production/reviewed/22-gymnasio-nudipes-v4-juvenile-review-crop.jpg",
+          "blob": "8b4432858026d4e4110bfe1c4e9ad218f8de512d",
+          "size_bytes": 198070
+        },
+        "source_index_blob": "fbb72a4ddff0d6991b3e3a3ad0a777908771b1b1",
+        "research_blob": "d7446cb8b7a22e6e126638a0a7c7c5812d6b7bd9",
+        "run_blob": "26d604aedd6a983c16879e2d19ef7e2dfc4ccb51",
+        "knowledge_blob": "06818624b6d357e082f64fc33260d06347a36f8c"
+      }
     }
   ],
-  "updated_at": "2026-10-30T04:38:00+08:00"
+  "updated_at": "2026-10-30T04:39:00+08:00"
 }

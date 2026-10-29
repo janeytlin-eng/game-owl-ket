@@ -12,3 +12,8 @@ SUNIA-OAK-2015 full open-access text freshly read: 13 South Korean *stictonotus*
 
 ## 2026-10-27 v2 review/archive
 One imagegen render was inspected at original resolution and passed without edit. Adults show yellow irises, dark-gray bills, small tufts, gray-brown streaking and near-equal height; female is only subtly fuller. The central late cavity young is pale and fluffy with weak diffuse marks, no conspicuous ear tufts, no adult-length layered remiges or exposed tail, and visible belly/two-foot support at a natural Zelkova cavity lip. Exact age, daily feather chronology, flight threshold and cross-subspecies transfer remain unknown. [v2 original](../../design/concepts/80-otus-sunia-v2.png); scientifically_verified=false.
+
+
+## 2026-10-29 v3 research-ready boundary
+
+SUNIA-PUKINSKY-1977's indexed field synthesis supplies a species-specific sequence (2–3 d white down; 6–7 nights tarsus-supported sitting/movement; 7–10 d remige sheaths just opening; ~2 wk grey cross-barred mesoptile; ~3 wk cavity-entrance appearance), while SUNIA-NO-DISS-2017 pp.114–115/Fig.19 and SUNIA-NO-2015 pp.415–418 give Korean growth endpoints, 23-day nestling duration and cavity/flight context. V3 selects 7–10 d, distinct from v1–v2’s older fluffy weakly barred stage: white/cream down, brownish juvenile iris, a few opening wing pins, no rectrix fan, low tarsus-supported cavity-floor sit/shuffle; no upright perch, entrance display or flight. Direct Russian page open was 403, so its indexed transcription is explicitly secondary; exact tract sequence/population transfer/sex ratio unknown, science false. Run: ../../production/runs/20261029T1158+0800-cycle-3.md.

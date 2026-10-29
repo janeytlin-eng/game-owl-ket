@@ -35,4 +35,10 @@ Environment: montane mixed conifer forest suggested softly behind, with spruce/f
 
 Exact day-specific iris colour, individual feather-growth variation and the primary Schönn page sequence remain unresolved. V4 can be `PASS_WITH_LIMITATIONS` after visual review but cannot be marked scientifically verified.
 
+## Generation checkpoint
+
+- Built-in imagegen duration: 40.6 s.
+- Generated dimensions: 1536×1024.
+- First full image and 520×680 juvenile crop actually opened; formal review is recorded in the run ledger rather than inferred from file presence.
+
 Links: [source index](../SOURCE_INDEX.md) · [run](../../production/runs/20261030T063400+0800-cycle-3.md)

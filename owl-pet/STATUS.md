@@ -2106,3 +2106,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 12:23 +08 — #83 v3 verified; batch complete
 
 #83 *Otus brucei* v3 passed fixed-commit repository readback at `5c452e18d3858353f583ca6d9ac33f9b8a5623fc`; six canonical image paths/blobs/sizes and manifest509 matched. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T1036+0800` is COMPLETE 6/6 with no active lease.
+
+
+## 2026-10-29 12:40 +08 — #85 v3 archived, verification pending
+
+#85 *Otus semitorques* v3 concept/generated/reviewed assets and research/check records are archived as manifest510. First render passed full/crop review; science remains false. Fixed-commit readback is pending, so batch remains 0/6 until verification.

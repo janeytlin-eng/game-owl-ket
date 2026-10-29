@@ -1885,3 +1885,12 @@ For a 25–28-day African Scops Owl recent fledgling, “developed wing” must 
 ### #83 v3 iteration lesson (2026-10-29)
 
 For Pallid Scops Owl, a pale bird is not a white-spotted bird: adult scapular marks must remain faint buff-grey within a pale sandy ground, while the diagnostic juvenile uses horizontal barring and woollier contour. Treat adult scapular contrast and juvenile bar direction as separate checks. This rule was applied and visually rechecked once; it does not resolve exact age/subspecies/sex differences.
+
+
+## #85 *Otus semitorques* v3 — first-winter retained-feather revision (2026-10-29T12:40 +08)
+
+- Original: [85-otus-semitorques-v3.jpg](concepts/85-otus-semitorques-v3.jpg)
+- Research: [species record](../research/species/85-otus-semitorques.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--85-otus-semitorques-v3--first-winter-retained-flight-feather-geometry)
+- Review: first render; full 1536×1024 and 560×650 juvenile crop opened; no edit warranted.
+- Boundary: first-winter retained narrow/pale/pointed flight feathers and short pale coverts, near-adult scale, fully supported; no downy-chick or iris-age transfer.
+- Scientific status: pending / false.

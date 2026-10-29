@@ -2,7 +2,7 @@
 
 - Target: [101-otus-spilocephalus-v6.jpg](concepts/101-otus-spilocephalus-v6.jpg)
 - Research: [species record](../research/101-otus-spilocephalus-v6.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--101-otus-spilocephalus-hambroecki-v6-evidence-increment)
-- Review: PASS_WITH_LIMITATIONS after two juvenile-wing edits. Taiwan-race adults remain same-plumage and near-equal; older fledgling is fluffy yellow/rufous-brown with vague markings, a short down-dominant wing and two-foot branch support. Exact age/iris/sex, flight threshold and quantified dimorphism remain unknown. Fixed-commit readback pending. Science false.
+- Review: PASS_WITH_LIMITATIONS after two juvenile-wing edits. Taiwan-race adults remain same-plumage and near-equal; older fledgling is fluffy yellow/rufous-brown with vague markings, a short down-dominant wing and two-foot branch support. Exact age/iris/sex, flight threshold and quantified dimorphism remain unknown. Fixed-commit readback passed at `1e4a9aacdc032cc5a301d3f6c7516f93050cc947`; four exact JPEG/crop path/blob/size checks passed. Science false.
 
 ### Crop review must decide whether a “shortened” wing is still adult-like
 

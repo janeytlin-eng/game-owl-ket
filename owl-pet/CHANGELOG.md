@@ -1,3 +1,4 @@
+- 2026-10-29T19:45:00+08:00: Verified fixed archive 1e4a9aacdc032cc5a301d3f6c7516f93050cc947 for #101 v6; four image paths matched exact blob and byte size, source/manifest/run records reopened, and batch advanced to 4/6.
 - 2026-10-29T19:43:00+08:00: Archived #101 *Otus spilocephalus hambroecki* v6 science revision after two juvenile-wing edits; Taiwan-race evidence boundary, source index, concept/generated/reviewed assets and crop added. Fixed readback pending; unique species unchanged; science false.
 - Fixed-commit readback verified #81 v3 at `fb066d5019a708128130e54fdd0d959eb3f2cae8`; all six image paths and manifest507 matched. Batch advanced to 4/6, next cycle5; unique remains 184/251; science false.
 

@@ -1,3 +1,4 @@
+- 2026-10-29T19:45:00+08:00: #101 *Otus spilocephalus hambroecki* v6 VERIFIED at fixed archive 1e4a9aacdc032cc5a301d3f6c7516f93050cc947; four exact JPEG/crop path/blob/size checks passed. Batch 2026-10-29T1800+0800 4/6, next cycle5; unique +0; science false.
 - 2026-10-29T19:43:00+08:00: #101 *Otus spilocephalus hambroecki* v6 ARCHIVED; two juvenile-wing edits passed full+crop review. Concept/generated/reviewed JPEG and crop plus manifest523 committed; fixed-tree readback pending; unique +0; science false.
 - 2026-10-29T17:54:00+08:00: #96 Aegolius ridgwayi v3 VERIFIED at fixed archive 91887b36ca001b17ccf6c5af445acc921c62f230; four exact JPEG/crop path/blob/size checks passed. Batch 2026-10-29T1536+0800 COMPLETE 6/6; unique +0; science false.
 - 2026-10-29T17:50:00+08:00: #96 Aegolius ridgwayi v3 ARCHIVED; first render passed full+crop review. Concept/generated/reviewed JPEG and crop committed; fixed-tree readback pending; unique +0; science false.

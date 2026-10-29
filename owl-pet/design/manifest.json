@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T19:43:00+08:00",
+  "updated": "2026-10-29T19:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8347,8 +8347,36 @@
       "review_crop_sha256": "46061093705d1f9bfa0732faf5607c3765d5cdd8b745be44404784c4d9f4e45a",
       "review_crop_size_bytes": 154426,
       "archive_note": "First render had an adult-like juvenile remex row. Edit 1 shortened/softened it but crop review still found a layered spotted fan; edit 2 removed the residual fan and dissolved the wing edge into short down-dominant coverts. Full and crop were reopened. Taiwan-race scope and unknowns are explicit.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "1e4a9aacdc032cc5a301d3f6c7516f93050cc947",
+      "fixed_commit": "1e4a9aacdc032cc5a301d3f6c7516f93050cc947",
+      "verified_at": "2026-10-29T19:45:00+08:00",
+      "verification_result": "non-truncated 1740-entry commit-pinned tree; four exact JPEG/crop path/blob/size pairs verified; manifest, run, source index and species research record reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/101-otus-spilocephalus-v6.jpg",
+          "blob": "9cf61cccf2cbd79bf1e1a7748a9d16acc77148e5",
+          "size_bytes": 654728
+        },
+        "generated_jpg": {
+          "path": "production/generated/101-otus-spilocephalus-v6-generated-master.jpg",
+          "blob": "1e91f6d8a8192eb4bba2a27a4b23ad743dc3577c",
+          "size_bytes": 736158
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/101-otus-spilocephalus-v6-reviewed-master.jpg",
+          "blob": "9cf61cccf2cbd79bf1e1a7748a9d16acc77148e5",
+          "size_bytes": 654728
+        },
+        "review_crop": {
+          "path": "production/reviewed/101-otus-spilocephalus-v6-reviewed-fledgling-crop.jpg",
+          "blob": "e9829e94a0cbbebfd2fc50509b66575a3489c774",
+          "size_bytes": 154426
+        },
+        "fixed_commit": "1e4a9aacdc032cc5a301d3f6c7516f93050cc947"
+      }
     }
   ],
-  "updated_at": "2026-10-29T19:43:00+08:00"
+  "updated_at": "2026-10-29T19:45:00+08:00"
 }

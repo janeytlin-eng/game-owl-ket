@@ -6069,3 +6069,20 @@ Reused: `SEO-MIKKOLA-2013-P512`, `SEO-USFWS-2026`, `SHEO-BTO-BIRDFACTS`, and the
 - Limitation/confidence: full text and any age/plumage details not verified; retained as a lead and not used as drawing evidence.
 
 Reused `NHO-MIKKOLA-2013-P360`, `NHO-EFAUNA-BC-2026`, `NHO-CORNELL-ID-2026`, `NHO-CORNELL-LIFE-2026`, and `NHO-NPS-NEST-2021`. Current-name mapping remains *Surnia ulula*; no old scientific-name replacement is needed. Mikkola printed pp.360–363/PDF pp.362–365 were reused from the repository's prior verified extraction; the uploaded PDF itself was not available to reread in this environment. Source facts and design inferences remain separated above.
+
+
+# 2026-10-30 · #14 *Bubo virginianus* v4 — approximately 21-day nestling wing-growth boundary
+
+## GHOW-SCHREIBER-1981
+- **Stable source ID:** `GHOW-SCHREIBER-1981`
+- **Title / author / year:** “Physiogenesis of endothermy and its relation to growth in the great horned owl, *Bubo virginianus*”; Ralph W. Schreiber; 1981.
+- **DOI / original URL:** https://doi.org/10.1016/0300-9629(81)90337-6 ; publisher page https://www.sciencedirect.com/science/article/pii/0300962981903376
+- **Accessed / source type:** 2026-10-30; peer-reviewed primary field/laboratory developmental study, 24 owls; publisher abstract actually read.
+- **Pages / stage:** Comparative Biochemistry and Physiology A 68(2):167–173; hatching to fledging.
+- **Facts:** early growth averaged 18% body mass per 48 h through day 20, declining to 4% per 48 h at days 21–44; four-week owlets reached about 90% of adult thermoregulatory capacity; advanced down/plumage aided insulation.
+- **Limits / confidence:** abstract only, with no feather plate, colour sequence, sex breakdown or individual posture. High confidence for study scope and physiological trend, low for visual geometry.
+- **Design use:** corroborates that the selected ~21-day bird is in a rapid developmental/down-insulation phase; it does not justify mature remiges, flight or exact plumage mapping.
+- **Links:** [species record](species/14-bubo-virginianus-v4.md) · [run](../production/runs/20261030T023600+0800-cycle-3.md)
+
+### Fresh reuse: GHOW-HOFFMEISTER-SETZER-1947
+Full facsimile was actually reread on 2026-10-30 at https://www.gutenberg.org/files/35118/35118-h/35118-h.htm, especially printed pp.159 and 166–170 plus figure captions pp.171–173. At the sampled 21-day stage, erupted primary averaged 10 mm and secondary 5 mm; eyes opened around days 6–9 and head carriage increased afterward. First definite self-feeding attempt was day 23. Four nestlings from two broods and one locality limit transfer; measurements are stage bounds, not a universal feather template. V4 therefore uses a low nest-supported, open-eyed, buff/gray-down nestling with very short developing wings and no flight claim. Reused Mikkola pp.262–264, IOC age chart, Cornell cam FAQ and Raptor Center adult account. New1/reused5/corrected1; `scientifically_verified=false`.

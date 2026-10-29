@@ -8043,8 +8043,36 @@
       "review_crop_blob": "20b68a0673ec9e3d45c4cb6e79fa7862768c7c47",
       "review_crop_size_bytes": 202268,
       "archive_note": "One juvenile-wing edit; edited full and crop reopened. Recent fledgling stage and support pass with limitations. Exact age/flight threshold and universal nest choice remain unknown.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "2b5be919418bd80604ee7db89663076252ac411d",
+      "fixed_commit": "2b5be919418bd80604ee7db89663076252ac411d",
+      "verified_at": "2026-10-29T17:28:00+08:00",
+      "verification_result": "four exact commit-pinned JPEG/crop path/blob/size pairs verified",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/95-pulsatrix-melanota-v3.jpg",
+          "blob": "1036de98f01568aea7c8b5e4b6f5f1768dc5bb85",
+          "size_bytes": 658578
+        },
+        "generated_jpg": {
+          "path": "production/generated/95-pulsatrix-melanota-v3-generated-master.jpg",
+          "blob": "5ae33c39580f949225f1b263238c9d1e22dcee67",
+          "size_bytes": 743160
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/95-pulsatrix-melanota-v3-reviewed-master.jpg",
+          "blob": "1036de98f01568aea7c8b5e4b6f5f1768dc5bb85",
+          "size_bytes": 658578
+        },
+        "review_crop": {
+          "path": "production/reviewed/95-pulsatrix-melanota-v3-juvenile-review-crop.jpg",
+          "blob": "20b68a0673ec9e3d45c4cb6e79fa7862768c7c47",
+          "size_bytes": 202268
+        },
+        "fixed_commit": "2b5be919418bd80604ee7db89663076252ac411d"
+      }
     }
   ],
-  "updated_at": "2026-10-29T17:24:00+08:00"
+  "updated_at": "2026-10-29T17:28:00+08:00"
 }

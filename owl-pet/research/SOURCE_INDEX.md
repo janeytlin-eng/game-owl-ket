@@ -5559,3 +5559,42 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - **Limitations:** Adult specimen plus institutional synthesis; not evidence for precise fledgling age or sex ratio.
 
 **Source accounting:** new 2 / reused 2 / corrected 1. Correction: v1–v2 hid or left age-vague the juvenile tail; v3 exposes the juvenile-type tapered/broad-fringe rectrices using direct age-determination evidence. Existing Mikkola pp.466–467 is retained as a base morphology cross-check, not used alone to invent fledgling behaviour.
+
+
+## 2026-10-29 — #93 *Aegolius harrisii iheringi* v2 — documented 24-day pre-fledging stage
+
+### HAR-BODRATI2019 — reused exact-taxon primary nest study, stage correction
+
+- **Title:** Nidificación de la Lechucita Canela (*Aegolius harrisii*) en Misiones, Argentina
+- **Authors / journal:** Alejandro Bodrati, Milka R. Gómez, Carlos A. Ferreyra & Kristina L. Cockle; *Ornitología Neotropical* 30:151–156 (2019)
+- **DOI / original URL:** https://doi.org/10.58843/ornneo.v30i0.479 · https://ornneo.ornitologianeotropical.org/index.php/ornneo/article/view/479
+- **Accessed:** full paper and Fig.1 already read/rendered for v1; actively rechecked 2026-10-29 through the journal/author-indexed record and result text
+- **Taxon/stage:** monitored *A. harrisii iheringi* nest, Misiones; hatch through fledging
+- **Facts:** old woodpecker cavity 9.6 m high in dead grapia in Atlantic Forest; entrance about 8×8 cm. Hatchlings had very sparse dark-grey natal down; facial disc began at ~10 days; developing feathers at 10–14 days; by 24 days young resembled adults; all three fledged at 35–37 days.
+- **Design correction:** V2 uses ~24 days—mostly feathered and disc-bearing but still cavity-bound/pre-flight—rather than repeating v1's neonatal proportions. The full-body cavity view is explicitly a schematic cutaway, not a literal entrance-width claim.
+- **Limitations:** One monitored regional nest; “resembled adults” is not a tract-by-tract plate; exact 24-day wing/tail lengths and sex unknown.
+
+### HAR-BODRATI-ETAL-2024 — new primary distribution/habitat synthesis
+
+- **Title:** Estatus de la Lechucita Canela (*Aegolius harrisii*) en el noreste argentino: distribución, vocalizaciones, comportamiento, hábitat y abundancia
+- **Authors / journal:** Bodrati et al.; *Nuestras Aves* 69:67–86 (2024)
+- **DOI / full PDF:** https://doi.org/10.56178/na.vi69.1049 · https://ri.conicet.gov.ar/bitstream/handle/11336/262582/CONICET_Digital_Nro.7163347f-2015-4004-a3a8-0bfb4ac8c7c5_B.pdf?isAllowed=y&sequence=2
+- **Accessed/read:** 2026-10-29; pp.67–86, especially abstract pp.67–68, distribution pp.68–69 and discussion pp.82–83
+- **Facts used:** 2003–2024 fieldwork added 36 northeastern-Argentina localities; *iheringi* is the northeastern form. In Misiones the species is often detected in degraded Atlantic Forest and appears rare in well-conserved forest.
+- **Design boundary:** The exact 2019 nest's primary-forest setting remains appropriate for that nest; the 2024 synthesis prevents claiming that all birds require pristine forest.
+- **Limitation:** Distribution/habitat synthesis, not juvenile plumage evidence.
+
+### HAR-SIB-ARGENTINA-2026 — new official morphology/subspecies account
+
+- **Institution / URL:** Argentina National Parks, Sistema de Información de Biodiversidad · https://sib.gob.ar/especies/aegolius-harrisii
+- **Accessed:** 2026-10-29; taxonomy, description, distribution and habitat
+- **Facts used:** *A. h. iheringi* in Misiones; small owl of forests, dark head, cinnamon face/forehead, black eye surrounds, paler cinnamon underparts, brown wings with white spots and dark tail with three pale/white spot rows.
+- **Limitations:** Adult summary, not a growth series.
+
+### HAR-MIK2013-447 — reused baseline morphology
+
+- **Pages:** printed p.447 / PDF p.449 (previously read)
+- **Use:** yellow eyes, no ear tufts, pale bluish-green/yellowish bill, black eye/ruff/chin pattern, plain ochre-buff underparts, bare pale-yellow toes; only modest female increase.
+- **Boundary:** It did not describe natal down and is not used to override the 2019 exact-nest sequence.
+
+**Source accounting:** new 2 / reused 2 / corrected 1. Exact individual age within the “24-day” observation, sex, tract sequence, size ratio and cutaway geometry remain unknown; science false.

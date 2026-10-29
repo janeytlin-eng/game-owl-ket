@@ -7089,23 +7089,37 @@
         "batch_id": "2026-10-29T1536+0800",
         "cycle": 3,
         "species_id": 93,
-        "heartbeat_at": "2026-10-29T16:15:00+08:00",
-        "expires_at": "2026-10-29T16:30:00+08:00"
+        "heartbeat_at": "2026-10-29T16:20:00+08:00",
+        "expires_at": "2026-10-29T16:35:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261029T1615+0800-cycle-3",
         "evidence": {
           "species_id": 93,
           "version": 2,
           "action": "SCIENCE_REVISION",
+          "sources_new": 2,
+          "sources_reused": 2,
+          "sources_corrected": 1,
+          "primary_pages": "Bodrati et al. 2019 pp.151–156/Fig.1; Bodrati et al. 2024 pp.67–86",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "species_card": "owl-pet/knowledge/species/93-aegolius-harrisii.md",
           "run_record": "owl-pet/production/runs/20261029T1615+0800-cycle-3.md",
-          "started_at": "2026-10-29T16:15:00+08:00",
+          "full_prompt_saved": true,
+          "design_boundary": "~24-day disc-bearing, broadly adult-like but smaller pre-fledging cavity nestling; supported wood floor; no flight",
+          "unknowns": [
+            "exact day",
+            "sex",
+            "tract sequence",
+            "wing/tail proportions",
+            "cutaway geometry"
+          ],
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T16:15:00+08:00",
+      "last_updated_at": "2026-10-29T16:20:00+08:00",
       "audit_notes": [
         "2026-10-29T15:36:00+08:00: cycle1 STARTED #91 Tyto javanica delicatula v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T15:39:00+08:00: cycle1 #91 v3 RESEARCH_READY; new1/reused2/corrected1; full primary pages read; late pre-fledgling wing/locomotion correction; science false.",
@@ -7120,7 +7134,8 @@
         "2026-10-29T16:07:00+08:00: cycle2 #92 v3 REVIEWED after one edit; full original and 620x700 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-29T16:10:00+08:00: cycle2 #92 v3 ARCHIVED; concept/generated/reviewed JPEG and crop plus manifest517 committed; fixed-tree readback pending; no credit.",
         "2026-10-29T16:13:00+08:00: cycle2 #92 Ninox japonica totogo v3 VERIFIED at archive 7bdc8388e8b12f6ba52a329a58993b406c04c2ad; four exact JPEG/crop path/blob/size checks passed; batch 2/6 next cycle3; lease released.",
-        "2026-10-29T16:15:00+08:00: cycle3 STARTED #93 Aegolius harrisii iheringi v2 SCIENCE_REVISION; v1 retained; 15-minute lease acquired; no credit."
+        "2026-10-29T16:15:00+08:00: cycle3 STARTED #93 Aegolius harrisii iheringi v2 SCIENCE_REVISION; v1 retained; 15-minute lease acquired; no credit.",
+        "2026-10-29T16:20:00+08:00: cycle3 #93 v2 RESEARCH_READY; new2/reused2/corrected1; exact-nest ~24-day pre-fledging stage; science false."
       ]
     }
   ],
@@ -7130,8 +7145,8 @@
     "batch_id": "2026-10-29T1536+0800",
     "cycle": 3,
     "species_id": 93,
-    "heartbeat_at": "2026-10-29T16:15:00+08:00",
-    "expires_at": "2026-10-29T16:30:00+08:00"
+    "heartbeat_at": "2026-10-29T16:20:00+08:00",
+    "expires_at": "2026-10-29T16:35:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7227,7 +7242,7 @@
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit.",
     "2026-10-29T14:26:45+08:00: batch 2026-10-29T1236+0800 cycle3 STARTED #87 Bubo ascalaphus v3; no credit."
   ],
-  "updated_at": "2026-10-29T16:15:00+08:00",
+  "updated_at": "2026-10-29T16:20:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7241,10 +7256,10 @@
     "batch_id": "2026-10-29T1536+0800",
     "cycle": 3,
     "species_id": 93,
-    "heartbeat_at": "2026-10-29T16:15:00+08:00",
-    "expires_at": "2026-10-29T16:30:00+08:00"
+    "heartbeat_at": "2026-10-29T16:20:00+08:00",
+    "expires_at": "2026-10-29T16:35:00+08:00"
   },
-  "last_updated_at": "2026-10-29T16:15:00+08:00",
+  "last_updated_at": "2026-10-29T16:20:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7416,7 +7431,8 @@
     "2026-10-29T16:07:00+08:00: #92 v3 REVIEWED; tail diagnostic visible with limitations; no credit.",
     "2026-10-29T16:10:00+08:00: #92 v3 ARCHIVED; fixed-tree verification pending; no credit.",
     "2026-10-29T16:13:00+08:00: #92 v3 fixed readback passed; batch 2/6 next cycle3.",
-    "2026-10-29T16:15:00+08:00: cycle3 #93 v2 STARTED; no credit."
+    "2026-10-29T16:15:00+08:00: cycle3 #93 v2 STARTED; no credit.",
+    "2026-10-29T16:20:00+08:00: #93 v2 RESEARCH_READY; full prompt and sources saved; no credit."
   ],
   "audit_trail": [
     {
@@ -7498,7 +7514,7 @@
     "species": "Aegolius harrisii iheringi",
     "version": 2,
     "action": "SCIENCE_REVISION",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "started_at": "2026-10-29T16:15:00+08:00",
     "run_record": "owl-pet/production/runs/20261029T1615+0800-cycle-3.md"
   }

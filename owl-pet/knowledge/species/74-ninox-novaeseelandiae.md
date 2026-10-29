@@ -1,8 +1,0 @@
-#74 Morepork · Ninox novaeseelandiae
-New Zealand nominate concept, not Australian boobook #72. Current251 taxonomy version unresolved; older broad N.novaeseelandiae boobook not counted again.
-
-Sources: MOR-STEPHENSON-MINOT-2006 Stephenson/Minot Notornis53:308–315 https://www.birdsnz.org.nz/wp-content/uploads/2021/12/Notornis_53_3_308.pdf actualpp308–311, developmentalgrey/brown down/pinsbeforelaterwhite-spottedsecondaries, smallsample; MOR-NZBO-2025 and MOR-TEARA-2009 see SOURCE_INDEX and run. Adult compact brown, noear, yellow-greeneyes, sparsewhiteupperparts, streakedbreast; external morphology cannot reliably sex, no fixed sexheight inferred. Hollowleaflitter/wooddust habitat, seatedsupport artistic inference not measuredaction. Exactstageage/featherdistribution/sexratio remainunknown. UploadedMikkola not freshlyreadthisrecovery.
-
-[Selectedv2](../../design/concepts/74-ninox-novaeseelandiae-v2.png); originaldrafts retainedlocal, threeedits, lastspatialpatchreplacement actuallyremoveslongwhite-tipwingblades. Adult/chickeyesbill/labels/support viewed; slighttexturevariation notpixelinvariant. Conceptreview only, scientifically_verified false. CompletePNG2836479bytes Git0b4b59866a940726b3e428617ad5957e7f2a3830 local/upload/remote一致; archivecommit4b005cb275255a132ba79ded6d01f598ebb729a9.
-
-[Fullprompts/failededits/review](../../production/runs/2026-10-14T1437+0800-cycle-3.md). No blanket removeallfeathers rule; stagefirst. Spatialedit demonstratedeffectivehereonly.

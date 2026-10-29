@@ -9970,8 +9970,40 @@
       "review_crop_sha256": "ca024c2f7f25f8ddd593fec2e9c160fb1a5b705c9e546b9f79c3b34de6a30a40",
       "review_crop_size_bytes": 174790,
       "archive_note": "Full 1536×1024 plate and 520×640 juvenile crop reopened after one targeted edit. Existing v1/v2, fixed roster slot and historical records remain preserved.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "ab39f49263915d2b2f7228fae955de9df08a1731",
+      "verified_at": "2026-10-30T05:45:00+08:00",
+      "fixed_commit": "ab39f49263915d2b2f7228fae955de9df08a1731",
+      "verification_result": "non-truncated 1889-entry fixed tree; exact four image path/blob/size tuples plus manifest, source index, research, run and knowledge records matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "ab39f49263915d2b2f7228fae955de9df08a1731",
+        "concept": {
+          "path": "design/concepts/25-glaucidium-brasilianum-cactorum-v3.jpg",
+          "blob": "49cb49b120c0fe0168e2194f4a4c6d2f8ecb2dad",
+          "size_bytes": 720002
+        },
+        "generated": {
+          "path": "production/generated/25-glaucidium-brasilianum-cactorum-v3-generated.jpg",
+          "blob": "3efcf1fdfce4e7f1da50a0a3fffa83b003065d47",
+          "size_bytes": 766105
+        },
+        "reviewed": {
+          "path": "production/reviewed/25-glaucidium-brasilianum-cactorum-v3-reviewed.jpg",
+          "blob": "49cb49b120c0fe0168e2194f4a4c6d2f8ecb2dad",
+          "size_bytes": 720002
+        },
+        "review_crop": {
+          "path": "production/reviewed/25-glaucidium-brasilianum-cactorum-v3-juvenile-crop.jpg",
+          "blob": "7f6e45e0c316bac3a326ab1863edc5a0af67ea9e",
+          "size_bytes": 174790
+        },
+        "source_index_blob": "62e2c8a27fcb21c2f217bd7fa193b0adf5e138c2",
+        "research_blob": "c19bdde4b11dc9ef9e1d4f4b15bc063ee39079d4",
+        "run_blob_at_archive": "550c211f261f5fac32190a9529460198fc562287",
+        "knowledge_blob": "2e1e03e1692675ae4f8df62c500e113d290342ec"
+      }
     }
   ],
-  "updated_at": "2026-10-30T05:42:00+08:00"
+  "updated_at": "2026-10-30T05:45:00+08:00"
 }

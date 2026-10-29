@@ -1,5 +1,15 @@
 # Current production review
 
+- Target: [92-ninox-japonica-v3.jpg](concepts/92-ninox-japonica-v3.jpg)
+- Research: [species card](../knowledge/species/92-ninox-japonica.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--92-ninox-japonica-totogo-v3--documented-fledging-window-and-juvenile-tail-diagnostic)
+- Current review: PASS_WITH_LIMITATIONS after one evidence-driven edit. ~25–28-day fledgling, formed wing, two-foot support and juvenile-type broad-fringed tail visible; fixed-tree verification pending. Science false.
+
+### Do not hide age-informative juvenile tails
+
+When a primary age paper provides rectrix shape and terminal-fringe evidence, make the tail visible and inspect it. Preserve uncertainty: a painterly taper/fringe is not a metric calibration.
+
+# Current production review
+
 - Target: [91-tyto-javanica-delicatula-v3.jpg](concepts/91-tyto-javanica-delicatula-v3.jpg)
 - Research: [species card](../knowledge/species/91-tyto-javanica-delicatula.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--91-tyto-javanica-delicatula-v3--late-pre-fledgling-wing-and-locomotion-correction)
 - Stage: VERIFIED at `75deb2ec07160131522f00488c55a067961a518b`; four exact JPEG/crop path/blob/size checks passed and rejected truncated PNG paths are absent. Review: PASS_WITH_LIMITATIONS after one juvenile-only edit. Science false.

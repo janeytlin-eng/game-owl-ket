@@ -42,3 +42,9 @@ Check exact count/title/labels; adult yellow eyes, white throat, same-morph sex 
 - Reused: 5
 - Corrected design assumptions: 1
 - Related run: ../../production/runs/20261030T023600+0800-cycle-3.md
+
+## Generation checkpoint
+
+- Built-in imagegen wait: 46.1 s.
+- First draft persisted as `production/generated/14-bubo-virginianus-v4-generated.jpg`.
+- Review pending at IMAGE_GENERATED checkpoint.

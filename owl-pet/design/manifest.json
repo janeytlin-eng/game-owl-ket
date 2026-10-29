@@ -8153,8 +8153,36 @@
       "review_crop_blob": "7d454af0a3b01cb6632b061c60552b905fecd7ce",
       "review_crop_size_bytes": 180619,
       "archive_note": "First render; full and juvenile crop reopened. Older flight-capable mesoptile juvenile and branch support pass with limitations; no edit warranted. Exact age/sex/flight threshold and universal nest form remain unknown.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "ea9df522341e66fad62e90134eeb292d0b4635ed",
+      "fixed_commit": "ea9df522341e66fad62e90134eeb292d0b4635ed",
+      "verified_at": "2026-10-29T17:45:00+08:00",
+      "verification_result": "four exact commit-pinned JPEG/crop path/blob/size pairs verified; tree complete and text evidence reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/97-lophostrix-cristata-v3.jpg",
+          "blob": "7737684b31c293476ec237842774527dfef0e67d",
+          "size_bytes": 698224
+        },
+        "generated_jpg": {
+          "path": "production/generated/97-lophostrix-cristata-v3-generated-master.jpg",
+          "blob": "7737684b31c293476ec237842774527dfef0e67d",
+          "size_bytes": 698224
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/97-lophostrix-cristata-v3-reviewed-master.jpg",
+          "blob": "7737684b31c293476ec237842774527dfef0e67d",
+          "size_bytes": 698224
+        },
+        "review_crop": {
+          "path": "production/reviewed/97-lophostrix-cristata-v3-juvenile-review-crop.jpg",
+          "blob": "7d454af0a3b01cb6632b061c60552b905fecd7ce",
+          "size_bytes": 180619
+        },
+        "fixed_commit": "ea9df522341e66fad62e90134eeb292d0b4635ed"
+      }
     }
   ],
-  "updated_at": "2026-10-29T17:43:00+08:00"
+  "updated_at": "2026-10-29T17:45:00+08:00"
 }

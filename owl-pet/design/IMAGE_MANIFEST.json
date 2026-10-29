@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:51:10+08:00",
+  "updated": "2026-10-30T01:51:46+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9512,9 +9512,41 @@
       "review_crop_sha256": "81c7eb1051b40060c8e4eaf9a67ea1fe9553dd4f7a4e3b5c05e89e7c8435849c",
       "review_crop_size_bytes": 78332,
       "archive_note": "Full generated and edited 1536x1024 plates plus 560x720 juvenile crops were opened. One juvenile-wing edit removed long pale-spotted adult-like feather rows and retained only compact unspotted emerging brown vanes. Adults, labels, cavity-floor support and historical v1–v3/user approval remain unchanged.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "368c596905bdd963452204cf9c373bad7af055d2",
+      "verified_at": "2026-10-30T01:51:46+08:00",
+      "fixed_commit": "368c596905bdd963452204cf9c373bad7af055d2",
+      "verification_result": "non-truncated 1850-entry fixed tree; exact five image path/blob/size tuples; manifest538, source-index, run and research matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "368c596905bdd963452204cf9c373bad7af055d2",
+        "concept": {
+          "path": "design/concepts/11-aegolius-funereus-v4.jpg",
+          "blob": "4e6cdcc6d68e1e0d52b613880891742e77f18bff",
+          "size_bytes": 267975
+        },
+        "generated": {
+          "path": "production/generated/11-aegolius-funereus-v4-generated.jpg",
+          "blob": "2bdfd59478e4b165e79cd05cd6f7aff23cf1eb40",
+          "size_bytes": 285992
+        },
+        "generated_crop": {
+          "path": "production/generated/11-aegolius-funereus-v4-juvenile-crop.jpg",
+          "blob": "8d90e509fc1c5543d510d0fc7011175d1aea7dca",
+          "size_bytes": 83788
+        },
+        "reviewed": {
+          "path": "production/reviewed/11-aegolius-funereus-v4-reviewed.jpg",
+          "blob": "4e6cdcc6d68e1e0d52b613880891742e77f18bff",
+          "size_bytes": 267975
+        },
+        "review_crop": {
+          "path": "production/reviewed/11-aegolius-funereus-v4-juvenile-crop.jpg",
+          "blob": "189699cf3c877dc843763019e56c252442778d70",
+          "size_bytes": 78332
+        },
+        "source_index_blob": "7ff350c82e2833b6a3d3617b662f9f1ebe469172"
+      }
     }
   ],
   "updated_at": "2026-10-30T01:47:00+08:00"

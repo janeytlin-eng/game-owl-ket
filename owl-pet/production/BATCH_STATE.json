@@ -7546,41 +7546,48 @@
       "batch_id": "2026-10-30T0144+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Aegolius funereus",
+          "species_no": "11",
+          "action": "SCIENCE_REVISION",
+          "version": "v4",
+          "unique_species_increment": 0,
+          "commit_sha": "368c596905bdd963452204cf9c373bad7af055d2",
+          "run_record": "owl-pet/production/runs/20261030T014448+0800-cycle-1.md",
+          "verified_at": "2026-10-30T01:51:46+08:00",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "source_counts": {
+            "new": 1,
+            "reused": 5,
+            "corrected": 0
+          }
+        }
+      ],
+      "next_cycle": 2,
       "active_lease": {
         "owner": "codex-root",
-        "run_id": "20261030T014448+0800-cycle-1",
-        "heartbeat_at": "2026-10-30T01:51:10+08:00",
-        "expires_at": "2026-10-30T02:08:00+08:00"
+        "run_id": "20261030T015100+0800-cycle-2",
+        "heartbeat_at": "2026-10-30T01:51:46+08:00",
+        "expires_at": "2026-10-30T02:06:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T0144+0800",
-        "cycle": 1,
-        "species": "Aegolius funereus",
-        "species_no": "11",
+        "cycle": 2,
+        "species": "Aegolius acadicus",
+        "species_no": "12",
         "action": "SCIENCE_REVISION",
-        "version": "v4",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261030T014448+0800-cycle-1.md",
-        "started_at": "2026-10-30T01:44:48+08:00",
-        "research_record": "owl-pet/research/species/11-aegolius-funereus-v4.md",
-        "source_counts": {
-          "new": 1,
-          "reused": 5,
-          "corrected": 0
-        },
-        "generated_path": "owl-pet/production/generated/11-aegolius-funereus-v4-generated.jpg",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "edit_count": 1,
-        "concept_path": "owl-pet/design/concepts/11-aegolius-funereus-v4.jpg"
+        "version": "v5",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261030T015100+0800-cycle-2.md",
+        "started_at": "2026-10-30T01:51:46+08:00"
       },
       "last_checkpoint": {
-        "stage": "ARCHIVED",
-        "at": "2026-10-30T01:51:10+08:00",
-        "run_record": "owl-pet/production/runs/20261030T014448+0800-cycle-1.md",
-        "concept_blob": "4e6cdcc6d68e1e0d52b613880891742e77f18bff",
-        "manifest_count": 538
+        "stage": "STARTED",
+        "at": "2026-10-30T01:51:46+08:00",
+        "run_record": "owl-pet/production/runs/20261030T015100+0800-cycle-2.md",
+        "previous_cycle_verified": "368c596905bdd963452204cf9c373bad7af055d2"
       }
     }
   ],

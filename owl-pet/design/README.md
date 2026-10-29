@@ -1,3 +1,13 @@
+# Current production review
+
+- Target: [91-tyto-javanica-delicatula-v3.jpg](concepts/91-tyto-javanica-delicatula-v3.jpg)
+- Research: [species card](../knowledge/species/91-tyto-javanica-delicatula.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--91-tyto-javanica-delicatula-v3--late-pre-fledgling-wing-and-locomotion-correction)
+- Current review: PASS_WITH_LIMITATIONS after one juvenile-only edit. Developed fresh late-pre-fledgling wings, residual down and two-foot hollow support pass; fixed-tree verification pending. Science false.
+
+### Late pre-fledgling flight readiness requires developed wings
+
+Do not reuse the short-wing correction from younger owl stages when exact-taxon evidence documents climbing, flapping and first flight from about 46 days. Preserve fresh/soft feather quality and residual down instead of shortening the remiges.
+
 ## #90 American Barn Owl — *Tyto furcata pratincola* — v4 science revision
 
 - Target: [90-tyto-furcata-v4.jpg](concepts/90-tyto-furcata-v4.jpg)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T23:38:00+08:00",
+  "updated": "2026-10-29T23:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8878,10 +8878,37 @@
       "review_crop_sha256": "2892206d96ce1e5a6a297e98d2de762217262936af5b9c69e1b42311580b6a91",
       "review_crop_size_bytes": 157773,
       "archive_note": "First render showed long dense dark juvenile shafts. One targeted imagegen edit removed them and reduced shoulder skin. Full edited image and 560x600 crop reopened; evidence boundaries remain explicit and science false.",
-      "readback_pending": true,
-      "archive_commit": "PENDING_FIXED_COMMIT",
-      "verification_result": "pending fixed-commit tree and text-record readback"
+      "readback_pending": false,
+      "archive_commit": "605918f47ffafd48f4ea3f34a61f4c84d532470a",
+      "verification_result": "non-truncated 1782-entry commit-pinned tree; four exact image path/blob/size pairs matched; manifest, run, source index, research and knowledge records reopened",
+      "fixed_commit": "605918f47ffafd48f4ea3f34a61f4c84d532470a",
+      "verified_at": "2026-10-29T23:42:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/03-bubo-bubo-v12.jpg",
+          "blob": "3db93d50efdb1dfcd1080cd718aa130587a3c534",
+          "size_bytes": 500940
+        },
+        "generated_jpg": {
+          "path": "production/generated/03-bubo-bubo-v12-generated.jpg",
+          "blob": "14fa838675973c214392068f2c92d018045b2a3b",
+          "size_bytes": 543255
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/03-bubo-bubo-v12-reviewed.jpg",
+          "blob": "3db93d50efdb1dfcd1080cd718aa130587a3c534",
+          "size_bytes": 500940
+        },
+        "review_crop": {
+          "path": "production/reviewed/03-bubo-bubo-v12-nestling-crop.jpg",
+          "blob": "9214c54f756628682a08fb266121fe2373647c62",
+          "size_bytes": 157773
+        },
+        "fixed_commit": "605918f47ffafd48f4ea3f34a61f4c84d532470a",
+        "local_git_hash_object_matches": true
+      }
     }
   ],
-  "updated_at": "2026-10-29T23:38:00+08:00"
+  "updated_at": "2026-10-29T23:42:00+08:00"
 }

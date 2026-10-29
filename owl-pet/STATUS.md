@@ -2181,3 +2181,7 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 23:38 +08 — #03 Eurasian Eagle-Owl v12 archived, verification pending
 
 #03 *Bubo bubo* v12 concept plus generated/reviewed JPEGs and nestling crop are archived as manifest530. One targeted edit removed overlong dense juvenile shafts; full image and crop passed with limitations. Revision adds no unique species; reconciled total remains 175/251. Science remains false. Fixed commit-pinned readback is pending, so the batch remains 4/6 until verification.
+
+## 2026-10-29 23:42 +08 — #03 Eurasian Eagle-Owl v12 verified; batch 5/6
+
+#03 v12 passed fixed-commit readback at `605918f47ffafd48f4ea3f34a61f4c84d532470a`: non-truncated 1782-entry tree, exact concept/generated/reviewed/crop blobs and sizes, manifest530, run, source index, research and knowledge records matched. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T2038+0800` is 5/6, next cycle6; lease released.

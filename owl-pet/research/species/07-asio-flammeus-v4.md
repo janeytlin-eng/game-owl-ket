@@ -35,3 +35,10 @@ Environment: broad treeless open marshy meadow/rough pasture, taller grass clump
 ## Review checklist
 
 Exact title/labels/count; adult tiny tufts/yellow eyes/dark patches/open-country form; sex difference restrained; juvenile 14–16-day preflight ground-walker, low complete turf support, soft developing wing and unfinished tail; shallow concealed grass nest; no flight or mature remiges.
+
+
+## Image review and iteration
+
+Initial 1536×1024 render and 610×760 juvenile crop were opened. Exact title/labels/count, adults, restrained sex difference, grassland and ground support passed. The juvenile wing failed: crisp pale spots, long layered remiges and an adult-like panel exceeded the chosen 14–16-day preflight boundary.
+
+One targeted imagegen edit changed only juvenile wing/tail maturity: compact rounded down-softened wing, diffuse mottling, only subtle emerging tips, short hidden tail. Edited full plate and crop were reopened. Both feet, low turf support, dark face, conservative transitional eyes and no-flight pose passed. Result PASS_WITH_LIMITATIONS; science false. Exact day/sex/subspecies, iris transition, secondary pattern and flight threshold remain unknown.

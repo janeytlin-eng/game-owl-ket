@@ -6161,3 +6161,10 @@ Freshly reused `PRO-BIRDSCARIB-2021` and `PRO-PEREGRINE-2026`: both actual pages
 - **Links:** [species research](species/25-glaucidium-brasilianum-cactorum-v3.md) · [run](../production/runs/20261030T053100+0800-cycle-1.md)
 
 Reused `CFPO-TAMUK-BIOLOGY-1998` (bibliography corrected in v2), `CFPO-USDA-2000`, `CFPO-FWS-TAXONOMY-2026`, `CFPO-CORNELL-ID-2026` and `CFPO-TBBA-BREEDING-2006`. V2's white juvenile crown marks, adult-like spotted/layered wings and long barred tail are corrected against the recent-fledgling boundary. New2/reused5/corrected1; Mikkola upload unavailable; science false.
+
+
+# 2026-10-30 · #26 *Glaucidium siju* v4 — full-size juvenal-plumage presentation correction
+
+Freshly reread primary sources: `CUPO-PYLE-ETAL-2004-JFO`, printed p.138/PDF p.3 (48 individuals, 127 captures, 41 specimens; downy juveniles with unmarked backs, streaked underparts and indistinct crown spots; juvenile eye cue explicitly tentative; female 95–101 mm reddish-brown versus male 84–94 mm grayish-brown with overlap); and `CUPO-GARRIDO-2002`, printed p.52/PDF p.8 (152-specimen regional series and Table 1 adult means, with female wing/tail/mass direction but geographic variation). `CUPO-OWLPAGES-PHOTO-2014` was reread for adult rounded tuftless head, yellow eyes, false eyes, barred tail, feathered tarsi, cavity nesting and semi-open habitat only.
+
+Correction: v3's small derivative visually reads its juvenile as a miniature adult despite the text evidence. V4 uses the same age-unknown juvenal-body-plumage boundary at full resolution, with low support, downy contour, plain back, streaked underparts and only indistinct crown marks. Wing/tail are partly concealed rather than assigned an unsupported precise length. Juvenile iris, sex, exact day and flight threshold remain unknown. New0/reused3/corrected1; Mikkola upload unavailable; science false. Links: [research record](species/26-glaucidium-siju-v4.md) · [run](../production/runs/20261030T054600+0800-cycle-2.md).

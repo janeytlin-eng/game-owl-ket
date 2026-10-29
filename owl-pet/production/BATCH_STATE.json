@@ -7194,35 +7194,39 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261029T1800+0800-cycle-1",
-        "heartbeat_at": "2026-10-29T18:08:00+08:00",
-        "expires_at": "2026-10-29T18:23:00+08:00"
+        "heartbeat_at": "2026-10-29T17:40:00+08:00",
+        "expires_at": "2026-10-29T17:55:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_id": "20261029T1800+0800-cycle-1",
         "species_id": 97,
         "species": "Lophostrix cristata",
         "version": 3,
         "evidence": {
-          "new_sources": 2,
-          "reused_sources": 3,
-          "corrected_sources": 1,
-          "source_ids": [
-            "CRI-SI-2014",
-            "CRI-ROCHA2014-PDF",
-            "CRI-MNHN-2010-261",
-            "CRI-ONET-GALE144450"
-          ],
-          "full_prompt_saved": true,
+          "generated_master": "owl-pet/production/generated/97-lophostrix-cristata-v3-generated-master.jpg",
+          "generated_blob": "7737684b31c293476ec237842774527dfef0e67d",
+          "generated_sha256": "97ca1a531517250ffe0e66e8de9e33252d0b98ea1cab5b1efa67f599417a4483",
+          "dimensions": "1536x1024",
+          "size_bytes": 698224,
+          "reviewed_master": "owl-pet/production/reviewed/97-lophostrix-cristata-v3-reviewed-master.jpg",
+          "review_crop": "owl-pet/production/reviewed/97-lophostrix-cristata-v3-juvenile-review-crop.jpg",
+          "review_crop_blob": "7d454af0a3b01cb6632b061c60552b905fecd7ce",
+          "review_crop_sha256": "95aa1b0caae4b4e2d302be5b79e4c5a05fa8fa6fdeb1130f021461eca6569304",
+          "inspected_full_original": true,
+          "inspected_crop_original": true,
+          "edit_count": 0,
+          "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T18:08:00+08:00",
+      "last_updated_at": "2026-10-29T17:40:00+08:00",
       "audit_notes": [
         "2026-10-29T18:00:00+08:00: cycle1 STARTED #97 Lophostrix cristata v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T18:08:00+08:00: cycle1 #97 v3 RESEARCH_READY; new2/reused3/corrected1; actual PDF pp58–60, Smithsonian landing and MNHN specimen record read; full prompt saved; science false.",
-        "2026-10-29T18:02:00+08:00: startup tree-base parsing error created a two-file intermediate tree at 72923e5; full 1716-entry tree restored at 65d17b7 before research continued; no production credit."
+        "2026-10-29T18:02:00+08:00: startup tree-base parsing error created a two-file intermediate tree at 72923e5; full 1716-entry tree restored at 65d17b7 before research continued; no production credit.",
+        "2026-10-29T17:40:00+08:00: cycle1 #97 v3 IMAGE_GENERATED and REVIEWED; 1536x1024 full image and 560x720 juvenile crop opened at original detail; first render passed, edit_count0; science false. Earlier 18:xx wall-clock labels corrected to actual GitHub commit time basis (UTC+08)."
       ]
     }
   ],
@@ -7599,6 +7603,6 @@
     "run_id": "20261029T1800+0800-cycle-1",
     "species": "Lophostrix cristata",
     "species_id": 97,
-    "stage": "RESEARCH_READY"
+    "stage": "REVIEWED"
   }
 }

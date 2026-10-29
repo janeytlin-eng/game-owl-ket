@@ -7351,8 +7351,8 @@
         "run_id": "20261029T2247+0800-cycle-5",
         "cycle": 5,
         "species_id": 3,
-        "heartbeat_at": "2026-10-29T22:57:00+08:00",
-        "expires_at": "2026-10-29T23:12:00+08:00"
+        "heartbeat_at": "2026-10-29T23:00:00+08:00",
+        "expires_at": "2026-10-29T23:15:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
@@ -7360,7 +7360,7 @@
         "species": "Bubo bubo",
         "version": 12,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "base_main_sha": "c15390823c73b737bf1ec5dda1399239f4ce4d78",
         "run_record": "owl-pet/production/runs/20261029T2247+0800-cycle-5.md",
         "prior_versions_retained": [
@@ -7397,6 +7397,20 @@
           "dimensions": "1536x1024",
           "imagegen_calls": 1,
           "review_result": "FAIL_LONG_JUVENILE_SHAFTS"
+        },
+        "review_evidence": {
+          "master_path": "owl-pet/production/reviewed/03-bubo-bubo-v12-reviewed.jpg",
+          "master_git_blob": "3db93d50efdb1dfcd1080cd718aa130587a3c534",
+          "master_size_bytes": 500940,
+          "crop_path": "owl-pet/production/reviewed/03-bubo-bubo-v12-nestling-crop.jpg",
+          "crop_git_blob": "9214c54f756628682a08fb266121fe2373647c62",
+          "crop_size_bytes": 157773,
+          "dimensions": "1536x1024",
+          "crop_dimensions": "560x600",
+          "imagegen_calls": 2,
+          "edit_count": 1,
+          "result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       },
       "in_progress": {
@@ -7404,9 +7418,9 @@
         "cycle": 5,
         "species_id": 3,
         "version": 12,
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       },
-      "last_updated_at": "2026-10-29T22:57:00+08:00",
+      "last_updated_at": "2026-10-29T23:00:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7436,7 +7450,8 @@
         "2026-10-29T22:50:00+08:00: cycle4 #02 Bubo scandiacus v6 VERIFIED at archive deccc023afb044b66cf7989d6e1465f52cf398aa; non-truncated 1776-entry fixed tree and four exact image path/blob/size pairs matched, and manifest529/run/restored source index/research/knowledge records reopened. Batch 4/6 next cycle5; unique unchanged; science false; lease released.",
         "2026-10-29T22:47:00+08:00: cycle5 STARTED #03 Bubo bubo v12 SCIENCE_REVISION; v1-v11 and historical v4 juvenile approval retained. V11 is evidence-bounded but lacks current generated/reviewed fixed-readback assets; selected for staged rebuild and new primary-source check. Fifteen-minute lease acquired; no credit.",
         "2026-10-29T22:55:00+08:00: cycle5 #03 Bubo bubo v12 RESEARCH_READY; new1/reused1/corrected0. Mikkola uploaded PDF pp.270–273/printed pp.268–271 and Penteriani et al. 2005 printed pp.159–160/Figs2–3 read. Approximately 10-day chick bounded to predominant white down, low substrate support and short localized sheaths only; full prompt saved; science false; no credit.",
-        "2026-10-29T22:57:00+08:00: cycle5 #03 v12 IMAGE_GENERATED; first 1536x1024 render opened and generated JPEG persisted. Count/text/adults/support passed, but juvenile carried long dense dark feather shafts beyond the approximately 10-day evidence boundary; targeted edit required; no credit."
+        "2026-10-29T22:57:00+08:00: cycle5 #03 v12 IMAGE_GENERATED; first 1536x1024 render opened and generated JPEG persisted. Count/text/adults/support passed, but juvenile carried long dense dark feather shafts beyond the approximately 10-day evidence boundary; targeted edit required; no credit.",
+        "2026-10-29T23:00:00+08:00: cycle5 #03 v12 REVIEWED after one targeted juvenile-feather edit. Edited 1536x1024 full master and 560x600 nestling crop reopened; long shafts removed, low support/white down/compact bill/pink feet and adult identity pass with limitations. Exact short-sheath placement, iris calibration, adult ratio and regional transfer remain unknown; science false; no credit."
       ]
     }
   ],

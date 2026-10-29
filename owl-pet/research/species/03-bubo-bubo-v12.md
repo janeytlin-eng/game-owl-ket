@@ -34,3 +34,10 @@ Environment: shallow protected rocky cliff ledge/open-forest edge with small sto
 ## Review checklist
 
 Count/text; adult orange eye/ear-tuft/bill/white throat and feathered tarsi; restrained sex-size direction; chick down/skin/sheath distribution; compact bill; eye and pink feet; belly/heel support; no adult wing/tail/tuft leakage; rocky support and open-forest context. Any failure triggers a localized ImageGen edit and a second full-image/crop inspection.
+
+## Actual generation and review
+
+- Initial render: 1536×1024. It passed count, text, adult identification, adult support and scene, but the chick carried long dense dark shafts and an oversized pink shoulder patch.
+- One targeted ImageGen edit removed the long shafts, restored predominantly matte irregular white down and reduced the exposed skin to a small shoulder window while preserving adults, labels, support and composition.
+- Edited full master and a 560×600 nestling crop were reopened at original detail. Result: `PASS_WITH_LIMITATIONS`. The chick is low and substrate-supported, predominantly white-downy, compact-billed, open-eyed and pink-footed, with no mature wing, tail or tufts. A few very short dark-grey tips remain but are subtle. Exact sheath placement/length, iris calibration, sex ratio and regional transfer remain unknown.
+- Edit count: 1. Science status remains false; no approval is inherited from v4.

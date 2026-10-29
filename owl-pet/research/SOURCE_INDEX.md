@@ -6008,3 +6008,29 @@ Reused: `SEO-MIKKOLA-2013-P512`, `SEO-USFWS-2026`, `SHEO-BTO-BIRDFACTS`, and the
 - Adult evidence reused: BUO-MIKKOLA-2013-P424 and BUO-CORNELL-OVERVIEW-2026 conflict on sex-size direction; adults remain near-equal. Mikkola pp.424–425 were available through the existing repository index and prior read, not reopened from user upload this cycle.
 - Taxonomy: current roster name remains *Athene cunicularia*; selected visual scope is western North American *A. c. hypugaea*. No old-name replacement is required.
 - Source accounting: new 1; reused 4; corrected 0.
+
+
+## 2026-10-30 · #10 *Surnia ulula* v4 — Alaska 20–22-day nest-departure boundary
+
+### NHO-ADFG-1994
+- Stable ID: `NHO-ADFG-1994`
+- Title/author/institution: “Northern Hawk Owl”; Tim Osborne; Alaska Department of Fish and Game Wildlife Notebook Series.
+- Year/access: revised and reprinted 1994; accessed 2026-10-30.
+- URL: https://www.adfg.alaska.gov/static/education/wns/northern_hawk_owl.pdf
+- Type/scope: institutional PDF; *Surnia ulula*, Alaska adults, nesting and 20–22-day departure.
+- Actual location read: PDF p.1, especially lines 10–15 and 23–31 in extracted text.
+- Source facts: medium hawk-like outline; yellow eyes; pointed wings; very long tapered tail; transversely barred underparts; broken-top/large-hole cavity without nest construction; young leave at 20–22 days well before flight.
+- Limitation/confidence: no age-sequenced juvenile plate or exact feather map; high for printed Alaska statements, moderate for wider transfer.
+- Design decision: Alaska-scoped, fully supported just-departed flightless cavity-rim juvenile; not a universal species timetable.
+- Links: [species record](species/10-surnia-ulula-v4.md) · [run](../production/runs/20261030T0136+0800-cycle-6.md)
+
+### NHO-PATRIKEEV-2006-LEAD — full text not verified
+- Stable ID: `NHO-PATRIKEEV-2006-LEAD`
+- Title/author/year: “Observations on the Nesting of the Northern Hawk Owl, *Surnia ulula*, near Timmins and Iroquois Falls, Northeastern Ontario, in 2001”; Michael Patrikeev; 2006.
+- Citation/URL: *Canadian Field-Naturalist* 120(4):433–437; DOI https://doi.org/10.22621/cfn.v120i4.351 ; BHL https://www.biodiversitylibrary.org/part/352722
+- Type/scope: primary field paper; Ontario nesting/brood.
+- Actual content read: journal metadata and abstract only. Publisher/BHL PDF returned 403 this run.
+- Source fact within read scope: the abstract reports premature fledging likely associated with a storm and nest/feeding observations.
+- Limitation/confidence: full text and any age/plumage details not verified; retained as a lead and not used as drawing evidence.
+
+Reused `NHO-MIKKOLA-2013-P360`, `NHO-EFAUNA-BC-2026`, `NHO-CORNELL-ID-2026`, `NHO-CORNELL-LIFE-2026`, and `NHO-NPS-NEST-2021`. Current-name mapping remains *Surnia ulula*; no old scientific-name replacement is needed. Mikkola printed pp.360–363/PDF pp.362–365 were reused from the repository's prior verified extraction; the uploaded PDF itself was not available to reread in this environment. Source facts and design inferences remain separated above.

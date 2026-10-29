@@ -7528,8 +7528,8 @@
       "active_lease": {
         "owner": "codex-work-20261030T0136+0800",
         "run_id": "20261030T0136+0800-cycle-6",
-        "heartbeat_at": "2026-10-30T01:36:00+08:00",
-        "expires_at": "2026-10-30T01:51:00+08:00"
+        "heartbeat_at": "2026-10-30T01:37:00+08:00",
+        "expires_at": "2026-10-30T01:52:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T0033+0800",
@@ -7537,14 +7537,21 @@
         "species": "Surnia ulula",
         "action": "SCIENCE_REVISION",
         "version": "v4",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261030T0136+0800-cycle-6.md",
         "started_at": "2026-10-30T01:36:00+08:00",
-        "heartbeat_at": "2026-10-30T01:36:00+08:00"
+        "heartbeat_at": "2026-10-30T01:37:00+08:00",
+        "research_path": "owl-pet/research/species/10-surnia-ulula-v4.md",
+        "source_counts": {
+          "new": 2,
+          "reused": 5,
+          "corrected": 0
+        },
+        "prompt_persisted": true
       },
       "last_checkpoint": {
-        "at": "2026-10-30T01:36:00+08:00",
-        "stage": "STARTED",
+        "at": "2026-10-30T01:37:00+08:00",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261030T0136+0800-cycle-6.md"
       }
     }

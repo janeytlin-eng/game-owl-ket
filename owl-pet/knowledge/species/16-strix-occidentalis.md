@@ -39,3 +39,14 @@ v1雄鸟比雌鸟高，幼鸟偏坐直，未通过内部检查，保留历史图
 保留 v1–v2 与 v2 用户确认，不转移确认状态。新读 Forsman 等 1984 原始野外专著印刷 pp.36–37/PDF pp.33–34、USFWS 2012 调查规程印刷 p.33/PDF p.32 及 Cornell 北方亚种识别。v3 改用正常离巢但弱飞的幼鸟阶段：浅褐横纹中绒羽主导，翼羽仅部分发育，头/胸保留软绒；低伏抓握粗糙树干，可用翼/喙辅助，不画成飞行或由亲鸟搬运。精确个体日龄、连续羽序、线性比例仍未知，scientifically_verified=false。
 
 来源索引：NSO-FORSMAN-1984-P36-37、NSO-USFWS-PROTOCOL-2012-P33、NSO-CORNELL-ID-2026。完整提示与阶段证据见 [cycle 6 run](../../production/runs/2026-10-27T1836+0800-cycle-6.md)。
+
+
+## v4 ten-day post-fledge revision · 2026-10-30
+
+Forsman’s 1976 Oregon State thesis was newly read at printed p.79/PDF p.109 Figure 8 and printed pp.82–83/PDF pp.112–113 Table 15. The directly captioned ten-day post-fledge bird was approximately 42–46 days old; the table describes fuzzy buff-brown mesoptile with natal-down tips, completing head/wing-covert mesoptiles, a small dark facial disk, dark-brown iris, pale watery-blue pupil, greenish-blue bill and pink cere. V4 selects this supported later stage rather than repeating v3’s generic nest-departure climber.
+
+The first render leaked a long complete adult-like wing and tail. One targeted imagegen edit shortened the developing remiges to end above the rump and hid/shortened the tail while preserving the two-foot sideways sidestep. Full plate and 560×700 crop were reopened. Exact age remains approximate and individual remex metrics are unavailable; `scientifically_verified=false`. V2 approval remains historical.
+
+![v4](../../design/concepts/16-strix-occidentalis-v4.jpg)
+
+[Research/full prompt](../../research/species/16-strix-occidentalis-v4.md) · [run](../../production/runs/20261030T031600+0800-cycle-5.md)

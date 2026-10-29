@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T03:14:00+08:00",
+  "updated": "2026-10-30T03:26:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9782,7 +9782,57 @@
         "run_blob": "5f0bcfc8e247c0700b38b7df6dd05f4490fe2ced",
         "knowledge_blob": "4efcd026c39eadda997255d86d3b6ddbc23a9917"
       }
+    },
+    {
+      "id": "16-strix-occidentalis-v4",
+      "path": "design/concepts/16-strix-occidentalis-v4.jpg",
+      "species_id": 16,
+      "scientific_name": "Strix occidentalis",
+      "design_scope": "Strix occidentalis caurina",
+      "historical_names": [],
+      "common_name": "Northern Spotted Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "eee5f59ae4834b4321e72ff77ed10dee02c34bb70bbce6deb8beeccf305ed4f8",
+      "size_bytes": 499257,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION. Directly captioned approximately ten-day post-fledge / 42–46-day-old stage from Forsman 1976 Figure 8/Table 15. Juvenile has fuzzy buff-brown mesoptile with clinging natal-down tips, small dark facial disk, pink cere/greenish-blue bill and supported sideways sidestep. First render leaked adult-length remiges and a long tail; one targeted edit shortened the wing to end above the rump and hid/shortened the tail. Adults retain dark northern morph, dark eyes, small white spots, no ear tufts and only subtle female fullness. Exact individual age, remex metrics, pupil appearance transfer, geographic variation and displayed sex ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "NSO-FORSMAN-1976-T15",
+        "NSO-FORSMAN-1984-P36-37",
+        "NSO-USFWS-PROTOCOL-2012-P33",
+        "NSO-CORNELL-ID-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--16-strix-occidentalis-caurina-v4--ten-day-post-fledge-mesoptile-boundary",
+      "research_record": "research/species/16-strix-occidentalis-v4.md",
+      "run_record": "production/runs/20261030T031600+0800-cycle-5.md",
+      "generated_path": "production/generated/16-strix-occidentalis-v4-generated.jpg",
+      "generated_blob": "decb2beda8a367a54aee09c05470ca82113f8fd6",
+      "generated_sha256": "da8622c91d68dec90c44b8b80737bed26ba4d8b17ed113dca9773a4b0823423e",
+      "generated_size_bytes": 532780,
+      "reviewed_path": "production/reviewed/16-strix-occidentalis-v4-reviewed.jpg",
+      "reviewed_blob": "37e192f0f686b08252489d080a4801e067875749",
+      "reviewed_sha256": "eee5f59ae4834b4321e72ff77ed10dee02c34bb70bbce6deb8beeccf305ed4f8",
+      "reviewed_size_bytes": 499257,
+      "review_crop_path": "production/reviewed/16-strix-occidentalis-v4-juvenile-review-crop.jpg",
+      "review_crop_blob": "73e643a855da8c44afc3515f3c3a71423440dd61",
+      "review_crop_sha256": "a49d4e7e10f6be2e8a2ec481b8428ccb15ff9f15cf5eec834b6e97053a6934de",
+      "review_crop_size_bytes": 130785,
+      "archive_note": "Full 1536×1024 plate and 560×700 juvenile crop reopened after one targeted edit. Adult-length juvenile remiges/tail were shortened while supported sidestep, mesoptile/down tips, small dark disk, cere/bill, adults, count and exact text were preserved. v1–v3 and v2 approval preserved.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "fixed_commit": null,
+      "verification_result": null,
+      "readback": {
+        "status": "PENDING"
+      }
     }
   ],
-  "updated_at": "2026-10-30T03:14:00+08:00"
+  "updated_at": "2026-10-30T03:26:00+08:00"
 }

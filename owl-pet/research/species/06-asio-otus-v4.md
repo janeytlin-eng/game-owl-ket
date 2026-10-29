@@ -28,3 +28,7 @@ Exact text/count; adult long tufts/orange eyes/same morph/restrained ratio; juve
 ## Image review and iteration
 
 Initial full image and crop passed text/count/adults/concealment/support but showed long adult-like juvenile remiges and tail. One targeted imagegen edit compacted/softened only the juvenile wing and tail while retaining a formed wing and upright concealment posture. Edited full plate and crop were reopened; PASS_WITH_LIMITATIONS, science false.
+
+## Archive verification
+
+Fixed commit `01aa13636579c17fec9905572e2f413a5d961eb4` read back as a non-truncated 1800-entry tree. The four image path/blob/size pairs and source-index blob matched; crop-size metadata was corrected before cycle credit. Result VERIFIED; science false.

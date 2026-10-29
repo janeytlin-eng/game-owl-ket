@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:10:00+08:00",
+  "updated": "2026-10-30T01:13:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9100,7 +9100,7 @@
       "git_blob": "08a3504dbb619752f918ef9ef74d137d0557a31d",
       "generated_path": "production/generated/06-asio-otus-v4-generated.jpg",
       "generated_blob": "8c9aaf5ebab9c226b90a5e30f9ad3dbb5e7a631e",
-      "generated_sha256": "f0c-placeholder",
+      "generated_sha256": "30d974ea8b2f327655b7c2f00267428f8dd2849b06ea512c4b221030ae78d84c",
       "generated_size_bytes": 697314,
       "reviewed_path": "production/reviewed/06-asio-otus-v4-reviewed.jpg",
       "reviewed_blob": "08a3504dbb619752f918ef9ef74d137d0557a31d",
@@ -9109,12 +9109,39 @@
       "review_crop_path": "production/reviewed/06-asio-otus-v4-juvenile-crop.jpg",
       "review_crop_blob": "6d24094db68b0fadddf08a27753e50f88b7bc06d",
       "review_crop_sha256": "3f6be1debfe53e38a63131fef0874891a73ab3248f35fcaa8946ad6d29e44016",
-      "review_crop_size_bytes": 147769,
+      "review_crop_size_bytes": 148358,
       "archive_note": "Initial full/crop review found long adult-like juvenile remiges and tail. One targeted edit shortened/softened them while retaining documented concealment/climbing posture and complete support. Full edited plate and crop reopened; science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verification_result": "pending fixed readback"
+      "readback_pending": false,
+      "archive_commit": "01aa13636579c17fec9905572e2f413a5d961eb4",
+      "verification_result": "non-truncated 1800-entry fixed tree; exact four image path/blob/size pairs, source index blob and text records matched; manifest crop-size placeholder corrected before credit",
+      "fixed_commit": "01aa13636579c17fec9905572e2f413a5d961eb4",
+      "verified_at": "2026-10-30T01:13:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/06-asio-otus-v4.jpg",
+          "blob": "08a3504dbb619752f918ef9ef74d137d0557a31d",
+          "size_bytes": 665181
+        },
+        "generated_jpg": {
+          "path": "production/generated/06-asio-otus-v4-generated.jpg",
+          "blob": "8c9aaf5ebab9c226b90a5e30f9ad3dbb5e7a631e",
+          "size_bytes": 697314
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/06-asio-otus-v4-reviewed.jpg",
+          "blob": "08a3504dbb619752f918ef9ef74d137d0557a31d",
+          "size_bytes": 665181
+        },
+        "review_crop": {
+          "path": "production/reviewed/06-asio-otus-v4-juvenile-crop.jpg",
+          "blob": "6d24094db68b0fadddf08a27753e50f88b7bc06d",
+          "size_bytes": 148358
+        },
+        "source_index_blob": "f16a8603a285e7a664c99ef5dd4254775c8fd454",
+        "fixed_commit": "01aa13636579c17fec9905572e2f413a5d961eb4"
+      }
     }
   ],
-  "updated_at": "2026-10-30T01:10:00+08:00"
+  "updated_at": "2026-10-30T01:13:00+08:00"
 }

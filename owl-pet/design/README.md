@@ -2102,3 +2102,5 @@ When a species-specific post-fledging study documents poor early locomotion but 
 ### Incremental rule — correct competence with behavior as well as feather length
 
 For a documented brancher, use climbing/concealment posture and complete support to communicate preflight status; retain stage-supported formed wings but remove adult-regular layering. Applied and visually rechecked on #06 v4; broader effectiveness unverified.
+
+- 2026-10-30T01:13:00+08:00 — #06 v4 fixed-tree VERIFIED at `01aa13636579c17fec9905572e2f413a5d961eb4`; four exact assets and source/review records matched; batch 2/6 next3; science false.

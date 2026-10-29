@@ -2205,3 +2205,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 01:10 +08 — #06 Long-eared Owl v4 archived, verification pending
 
 #06 v4 assets and records are archived as manifest533 after one targeted juvenile wing/tail edit. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false; fixed readback pending.
+
+- 2026-10-30T01:13:00+08:00 — #06 *Asio otus* v4 fixed-tree readback passed at `01aa13636579c17fec9905572e2f413a5d961eb4`; crop-size metadata corrected before credit. Non-truncated 1800-entry tree, four exact assets and source-index blob matched. Batch **2/6**, next cycle3; unique remains **175/251**, science false.

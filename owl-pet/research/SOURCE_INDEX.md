@@ -1,3 +1,24 @@
+# 2026-10-30 — #12 *Aegolius acadicus* v5 — juvenal plumage and supported newly fledged stage
+
+## NSWO-PROJECTOWLNET-HY-2026
+- **Title / institution / date:** “Hatching Year – Northern Saw-whet Owls” — Project Owlnet, live page, accessed 2026-10-30T01:52:44+08:00.
+- **URL:** https://www.projectowlnet.org/methods/age-determination/northern-saw-whet-owl-2/hatching-year-northern-saw-whet-owls/
+- **Type/material read:** specialist banding network age-determination page, lines 42–51 actually read.
+- **Facts:** fulvous-and-chocolate juvenal plumage is acquired in the cavity and worn for three or four months; first prebasic molt replaces body contour feathers but not rectrices/primaries/secondaries; HY flight feathers are uniform in color.
+- **Decision:** supported new fledgling with chocolate/fulvous body and uniform dark fresh flight feathers; no adult belly streaks or mixed feather generations.
+- **Limits/confidence:** high for molt/plumage direction, not an exact-day body ratio or feather map.
+
+## NSWO-ADW-YAN-2001
+- **Title / author / year:** *Aegolius acadicus* — Jia Yan, University of Michigan Animal Diversity Web, 2001.
+- **URL:** https://animaldiversity.org/accounts/Aegolius_acadicus/
+- **Accessed:** 2026-10-30T01:52:44+08:00. **Type:** institutional secondary synthesis; Physical Description and Reproduction/Development actually read.
+- **Facts:** juveniles chocolate-brown with large pale patches above bill/eyes; departure at 4–5 weeks with reasonable flight; male/female averages and length ranges point to a larger female but not a universal display ratio.
+- **Decision:** a fully supported low-branch resting fledgling and modest adult-female fullness.
+- **Limits/confidence:** secondary; exact individual day, overlap and feather geometry unresolved.
+
+### Reused IDs
+NSW-CORNELL-AAB-2026 / NSWO-CORNELL-LIFE; NSW-MIKKOLA-2013-P444; NSWO-ORI-FACTS. Selected nominate mainland context; no *brooksi* juvenile transfer. New 2 / reused 3 / corrected 0. Related [card](species/12-aegolius-acadicus-v5.md) and [run](../production/runs/20261030T015100+0800-cycle-2.md).
+
 # 2026-10-30 — #11 *Aegolius funereus* v4 — protoptile/mesoptile transition and pre-entrance climbing boundary
 
 ## BOR-ZARYBNICKA-2025-PLUMAGE

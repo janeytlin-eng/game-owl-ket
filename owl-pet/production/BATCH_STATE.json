@@ -7569,8 +7569,8 @@
       "active_lease": {
         "owner": "codex-root",
         "run_id": "20261030T015100+0800-cycle-2",
-        "heartbeat_at": "2026-10-30T01:51:46+08:00",
-        "expires_at": "2026-10-30T02:06:00+08:00"
+        "heartbeat_at": "2026-10-30T01:52:44+08:00",
+        "expires_at": "2026-10-30T02:10:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T0144+0800",
@@ -7579,15 +7579,21 @@
         "species_no": "12",
         "action": "SCIENCE_REVISION",
         "version": "v5",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261030T015100+0800-cycle-2.md",
-        "started_at": "2026-10-30T01:51:46+08:00"
+        "started_at": "2026-10-30T01:51:46+08:00",
+        "research_record": "owl-pet/research/species/12-aegolius-acadicus-v5.md",
+        "source_counts": {
+          "new": 2,
+          "reused": 3,
+          "corrected": 0
+        }
       },
       "last_checkpoint": {
-        "stage": "STARTED",
-        "at": "2026-10-30T01:51:46+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-30T01:52:44+08:00",
         "run_record": "owl-pet/production/runs/20261030T015100+0800-cycle-2.md",
-        "previous_cycle_verified": "368c596905bdd963452204cf9c373bad7af055d2"
+        "research_record": "owl-pet/research/species/12-aegolius-acadicus-v5.md"
       }
     }
   ],

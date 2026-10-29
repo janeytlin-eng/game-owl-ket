@@ -10099,10 +10099,24 @@
       "review_crop_sha256": "e6ddbe5717cd8675a692408566ae0cc477ae58510ac7f6bae0c2de0ef6049e5a",
       "review_crop_size_bytes": 212539,
       "archive_note": "Full 1536×1024 plate and 520×680 juvenile crop were opened; first render passed without edit. Existing v1–v3 and all historical records remain preserved.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verification_result": null
+      "readback_pending": false,
+      "archive_commit": "650e287a1473b46dc7cec555145ec3ca42b40af3",
+      "verified_at": "2026-10-30T06:48:00+08:00",
+      "fixed_commit": "650e287a1473b46dc7cec555145ec3ca42b40af3",
+      "verification_result": "non-truncated 1901-entry fixed tree; exact concept/generated/reviewed/crop path, blob and size tuples plus manifest, source index, research, run, knowledge, design and state records matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "650e287a1473b46dc7cec555145ec3ca42b40af3",
+        "concept": {"path": "design/concepts/27-glaucidium-passerinum-v4.jpg", "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798", "size_bytes": 740954},
+        "generated": {"path": "production/generated/27-glaucidium-passerinum-v4-generated.jpg", "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798", "size_bytes": 740954},
+        "reviewed": {"path": "production/reviewed/27-glaucidium-passerinum-v4-reviewed.jpg", "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798", "size_bytes": 740954},
+        "review_crop": {"path": "production/reviewed/27-glaucidium-passerinum-v4-juvenile-crop.jpg", "blob": "baf10926fa3cd29e9622d6a8e1d6ea08c18f3a67", "size_bytes": 212539},
+        "source_index_blob": "0d08da7290892905719ac9465bf66b57cea932f2",
+        "research_blob": "172cedfaf0f9562a2e51ce8fdc2c732adf57a052",
+        "run_blob_at_archive": "d729f7f7bb52818020fd515c905546c1442d870c",
+        "knowledge_blob": "b8f605186b490658793e77afc88bb227f5cecb65"
+      }
     }
   ],
-  "updated_at": "2026-10-30T06:46:00+08:00"
+  "updated_at": "2026-10-30T06:48:00+08:00"
 }

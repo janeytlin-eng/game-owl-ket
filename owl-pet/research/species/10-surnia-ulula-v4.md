@@ -73,3 +73,8 @@ One localized imagegen edit removed the regular bright adult-like spot row from 
 ## Archive state
 
 The reviewed v4 plate and generated/reviewed evidence pairs are archived without replacing v1-v3. The unverified Patrikeev lead remains explicitly excluded from drawing evidence. Scientific verification remains false. Fixed commit-pinned readback is pending.
+
+
+## Fixed-commit verification
+
+Archive `45290cc7957ff9e60a93727a706e76be8c71043c` passed a non-truncated 1839-entry recursive-tree readback. Five formal image paths matched expected blobs and byte sizes; manifest537, run, batch, research/card and source-index blob matched. This verifies archive integrity, not specimen-level scientific certainty.

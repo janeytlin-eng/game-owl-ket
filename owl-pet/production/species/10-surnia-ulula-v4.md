@@ -35,3 +35,8 @@ One juvenile wing/tail edit was reopened at full resolution and crop. Regular ad
 ### ARCHIVED checkpoint
 
 v4 formal concept, generated/reviewed masters and juvenile crops are archived as a science revision. Unique increment 0; science false; fixed-tree verification pending.
+
+
+### VERIFIED checkpoint
+
+Fixed archive `45290cc7957ff9e60a93727a706e76be8c71043c` passed the 1839-entry tree and exact five-asset readback. Cycle 6 is credited and the batch closes 6/6; science remains false.

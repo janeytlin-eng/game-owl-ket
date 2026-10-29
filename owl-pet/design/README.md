@@ -2156,3 +2156,5 @@ For a documented early-emergence chick, permit short localized sheath nubs suppo
 ### Incremental rule — regionally dated nest departure is not a universal flight date
 
 When an institutional regional account gives a 20–22-day departure before flight and another regional synthesis gives 23–27 days, bind the drawing and label to the selected region. Preserve stage-supported developing wing/tail feathers, but remove adult-regular pattern and length. Applied/rechecked on #10 v4; broader effectiveness unverified.
+
+- 2026-10-30T01:47:00+08:00 — #10 v4 fixed-tree VERIFIED at `45290cc7957ff9e60a93727a706e76be8c71043c`; five exact assets and source index matched; batch COMPLETE 6/6; science false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:45:00+08:00",
+  "updated": "2026-10-30T01:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9430,11 +9430,42 @@
       "review_crop_sha256": "fdc13428af337ab41d7c41c3dcfed2526b4bc8c1953e50fed2bd37f031d21b7b",
       "review_crop_size_bytes": 142478,
       "archive_note": "Full generated and edited 1536x1024 plates plus 560x640 juvenile crops were opened. One localized wing/tail edit removed adult-regular white spots and overlong crisp-barred tail while preserving a formed but short soft wing, short tail, adults, labels and complete cavity-rim support. v1-v3 and v1 user approval remain unchanged.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
-      "verification_result": null
+      "readback_pending": false,
+      "archive_commit": "45290cc7957ff9e60a93727a706e76be8c71043c",
+      "verified_at": "2026-10-30T01:47:00+08:00",
+      "verification_result": "non-truncated 1839-entry fixed tree; exact five owl-pet image path/blob/size tuples; manifest537, run, batch, research/card and source-index blob matched",
+      "fixed_commit": "45290cc7957ff9e60a93727a706e76be8c71043c",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "45290cc7957ff9e60a93727a706e76be8c71043c",
+        "concept": {
+          "path": "design/concepts/10-surnia-ulula-v4.jpg",
+          "blob": "1eb21f41c480d33fa2f4256fbe7378bdedf8e99d",
+          "size_bytes": 273913
+        },
+        "generated": {
+          "path": "production/generated/10-surnia-ulula-v4-generated.jpg",
+          "blob": "83ca014939f8381e607e90731d6ac538829d6395",
+          "size_bytes": 307690
+        },
+        "generated_crop": {
+          "path": "production/generated/10-surnia-ulula-v4-juvenile-crop.jpg",
+          "blob": "6e9fb01d6b33578f6619aa58c224d417e88d70ea",
+          "size_bytes": 162454
+        },
+        "reviewed": {
+          "path": "production/reviewed/10-surnia-ulula-v4-reviewed.jpg",
+          "blob": "1eb21f41c480d33fa2f4256fbe7378bdedf8e99d",
+          "size_bytes": 273913
+        },
+        "review_crop": {
+          "path": "production/reviewed/10-surnia-ulula-v4-juvenile-crop.jpg",
+          "blob": "dfc58a3bf19ede5fa991962058e87546727bce97",
+          "size_bytes": 142478
+        },
+        "source_index_blob": "fee1f3a1d88df6ed5eb9e638b5e6ed263e90ac0f"
+      }
     }
   ],
-  "updated_at": "2026-10-30T01:45:00+08:00"
+  "updated_at": "2026-10-30T01:47:00+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T20:05:00+08:00",
+  "updated": "2026-10-29T20:07:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8491,10 +8491,36 @@
       "review_crop_sha256": "97571de96f5568b3044656abf163530c795f88b4b169200c2880844147e0a09a",
       "review_crop_size_bytes": 191007,
       "archive_note": "One targeted edit reduced overly heavy adult lower-belly streaks and replaced the juvenile's adult-like pale wing rows/length with a shorter rounded softer formed wing. Full and crop reopened. Old-name ambiguity and unknowns explicit. First archive readback rejected a truncated generated JPEG (750061B vs local 790374B); the path was replaced with a complete 504528B re-encode before credit.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null
+      "readback_pending": false,
+      "archive_commit": "d5e93724b34c395335798a377c1fafeac5f86cfa",
+      "fixed_commit": "86e97c12f506f4da7fa633f84e7c758b7f1c11da",
+      "verified_at": "2026-10-29T20:07:00+08:00",
+      "verification_result": "non-truncated 1752-entry repaired commit-pinned tree; four exact JPEG/crop path/blob/size pairs verified after generated-path repair; manifest, run, source index and research record reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/104-asio-madagascariensis-v3.jpg",
+          "blob": "5aa0730c50f3d2956265a3f89a6cc369132ba1a1",
+          "size_bytes": 731624
+        },
+        "generated_jpg": {
+          "path": "production/generated/104-asio-madagascariensis-v3-generated-master.jpg",
+          "blob": "0f4ce542627db2461cd29939f3ff28196b389c08",
+          "size_bytes": 504528
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/104-asio-madagascariensis-v3-reviewed-master.jpg",
+          "blob": "5aa0730c50f3d2956265a3f89a6cc369132ba1a1",
+          "size_bytes": 731624
+        },
+        "review_crop": {
+          "path": "production/reviewed/104-asio-madagascariensis-v3-reviewed-mesoptile-crop.jpg",
+          "blob": "c7da6f4268aa077a84458708708783b6b4a9f27e",
+          "size_bytes": 191007
+        },
+        "fixed_commit": "86e97c12f506f4da7fa633f84e7c758b7f1c11da"
+      }
     }
   ],
-  "updated_at": "2026-10-29T20:05:00+08:00"
+  "updated_at": "2026-10-29T20:07:00+08:00"
 }

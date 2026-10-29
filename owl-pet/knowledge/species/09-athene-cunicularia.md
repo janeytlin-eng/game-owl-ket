@@ -33,3 +33,8 @@ Cornell幼鸟照片所示较大幼鸟斑纹少于成年，不将其混入本图�
 初生幼鸟翼芽修订；去除层叠羽片，灰白绒/稀疏粉皮；比例与密度仍待科学校准。按imagegen技能实际编辑并查看，原图独立远端下载/完整解码/哈希通过，scientifically_verified=false。旧v1及其用户审美确认保留，不自动转移新版。
 来源索引ID：BUOW-SDZ-2017 / BUOW-CORNELL-LIFE，本次实际读取范围与局限见SOURCE_INDEX及运行记录。概念图非测量比例。
 [v2原图](../../design/concepts/09-athene-cunicularia-v2.png) · [完整提示、检查与提交](../../production/runs/2026-10-18T2230+0800-cycle-3.md) · 图片提交adfc57c501e3ec61c3132519af8209edf63418ab。
+
+
+## 2026-10-30 v4 RESEARCH_READY
+
+V4 不重复 v3 的 29 日龄前飞幼鸟，改用约 14 日龄首次出洞阶段。Johnson 2019 已知日龄照片（实际查看 PDF p.13）显示白绒羽主导、眼已睁开、头背和短翼羽区出现斑驳棕色发育羽；SDZWA 与 FWS 支持约两周能站立/行走并短暂出洞，但远未强飞；Smithsonian 明确幼鸟缺少成鸟规则白斑/横纹。成鸟雌雄仍近等体型，因为 Mikkola 与 Cornell 冲突。精确日龄、虹膜色、羽数、地方型和洞穴几何仍未知，scientifically_verified=false。

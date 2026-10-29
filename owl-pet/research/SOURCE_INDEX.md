@@ -5980,3 +5980,31 @@ Reused: `SEO-MIKKOLA-2013-P512`, `SEO-USFWS-2026`, `SHEO-BTO-BIRDFACTS`, and the
 - Existing ORI early-nestling and FEIS synthesis entries remain valid for their stated stages but are not used to infer a daily feather map.
 - Taxonomy: current repository/251-roster name remains *Strix nebulosa*; the manifest records no historical synonym for #08. No old-name remapping is needed this cycle.
 - Source accounting: new 3; reused 2 directly in prompt boundary; corrected 0. User-uploaded Mikkola photographic guide was not accessible in this run, so no unverified page claim is added.
+
+
+## 2026-10-30 · #09 *Athene cunicularia* v4 — approximately 14-day first-emergence stage
+
+### BUOW-SMITHSONIAN-2012
+- Title: Kori Bustards and Burrowing Owls Hatch at the Smithsonian’s National Zoo
+- Institution/year: Smithsonian’s National Zoo and Conservation Biology Institute, 2012; accessed 2026-10-30
+- URL: https://nationalzoo.si.edu/news/kori-bustards-and-burrowing-owls-hatch-smithsonians-national-zoo
+- Type: institutional husbandry/development account
+- Species/stage: *Athene cunicularia*, hatchling to four-week juvenile
+- Actually read: lines 14–27 and image-gallery metadata. At 2.5 weeks chicks thermoregulate and begin emerging; at 3 weeks they jump/flap, at 4 weeks short flights begin. Juvenile plumage lacks adult white bars and spots.
+- Limits: managed birds, not a measured western wild series; article gives broad ages rather than an individual feather map.
+- Design use: reinforces no adult spot grid/barring and no flight or wing display at the selected earlier ~14-day first-emergence stage.
+- Links: [species record](species/09-athene-cunicularia-v4.md) · [run](../production/runs/20261030T0124+0800-cycle-5.md)
+
+### Reused BUO-JOHNSON-AGING-2019
+- Fresh read 2026-10-30: full introduction/methods and PDF pp. 13–14 plus PDF p. 29 known-age series. Actual PDF p. 13 screenshot viewed: day-13/14 chicks remain mostly white-downy with eyes open and patchy brown developing crown/back/wing feather tracts; the guide warns same-age condition varies with food and photographs support approximate visual aging, not exact certainty.
+- Design use: approximately 14-day label, white-down dominance, patchy short wing sheaths and no adult pattern. Exact individual age remains approximate.
+
+### Reused BUOW-SDZ-2017
+- Fresh read 2026-10-30: Hatch/Brooding and Emergence sections, lines 142–163. Western *A. c. hypugaea* chicks are mostly white-down at hatch, brooded about 14 days, then begin spending time outside while feathers continue growing.
+
+### Reused FWS Burrowing Owl account
+- Fresh read 2026-10-30: life-cycle/juvenile passages. At two weeks young can stand and walk and are seen at the burrow entrance; flight learning begins after four weeks and strong flight later. Used for locomotor boundary only.
+
+- Adult evidence reused: BUO-MIKKOLA-2013-P424 and BUO-CORNELL-OVERVIEW-2026 conflict on sex-size direction; adults remain near-equal. Mikkola pp.424–425 were available through the existing repository index and prior read, not reopened from user upload this cycle.
+- Taxonomy: current roster name remains *Athene cunicularia*; selected visual scope is western North American *A. c. hypugaea*. No old-name replacement is required.
+- Source accounting: new 1; reused 4; corrected 0.

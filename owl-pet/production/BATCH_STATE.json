@@ -7339,8 +7339,8 @@
         "run_id": "20261029T2158+0800-cycle-4",
         "cycle": 4,
         "species_id": 2,
-        "heartbeat_at": "2026-10-29T22:39:00+08:00",
-        "expires_at": "2026-10-29T22:54:00+08:00"
+        "heartbeat_at": "2026-10-29T22:43:00+08:00",
+        "expires_at": "2026-10-29T22:58:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -7348,7 +7348,7 @@
         "species": "Bubo scandiacus",
         "version": 6,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "base_main_sha": "cb8d90cfcca181779c90f1c657dad19e403e7ccc",
         "run_record": "owl-pet/production/runs/20261029T2158+0800-cycle-4.md",
         "prior_versions_retained": [
@@ -7371,16 +7371,22 @@
           "corrected": 1
         },
         "research_record": "owl-pet/research/species/02-bubo-scandiacus-v6.md",
-        "prompt_saved": true
+        "prompt_saved": true,
+        "generated_path": "owl-pet/production/generated/02-bubo-scandiacus-v6-generated.jpg",
+        "generated_blob": "38a1fe7b51e24e5315d8a7086c06ae66a2fe787a",
+        "generated_sha256": "30c75cbd52923f983c3809b5e6355b5089600d2467043bd11fd921cb99a41f01",
+        "generated_size_bytes": 410301,
+        "generation_wait_seconds": 50.4,
+        "initial_review": "exact text/count/adult dimorphism/support pass; juvenile displayed conspicuous long pale feather shafts requiring a targeted edit"
       },
       "in_progress": {
         "run_id": "20261029T2158+0800-cycle-4",
         "cycle": 4,
         "species_id": 2,
         "version": 6,
-        "stage": "RESEARCH_READY"
+        "stage": "IMAGE_GENERATED"
       },
-      "last_updated_at": "2026-10-29T22:39:00+08:00",
+      "last_updated_at": "2026-10-29T22:43:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7403,7 +7409,8 @@
         "2026-10-29T21:54:00+08:00: cycle3 #01 Tyto alba v5 VERIFIED at corrected fixed archive 4ba2de83758f1676966d7a538aa4c046ec0a79a4; non-truncated 1770-entry tree and four exact image path/blob/size pairs matched, and all text histories were restored/reopened. Batch 3/6 next cycle4; unique unchanged; science false; lease released.",
         "2026-10-29T21:58:00+08:00: cycle4 STARTED #02 Bubo scandiacus v6 SCIENCE_REVISION; v1-v5 retained. V5 uses an evidence-bounded 15–21-day stage but lacks the current staged fixed-readback record; selected for a fresh source check and current workflow. Fifteen-minute lease acquired; no credit.",
         "2026-10-29T22:39:00+08:00: expired cycle4 STARTED lease reconciled after confirming main had no later Snowy Owl stage/image commit. SOURCE_INDEX history was restored first at cb8d90cfcca181779c90f1c657dad19e403e7ccc; lease reacquired and cycle4 resumed without regeneration or duplicate credit.",
-        "2026-10-29T22:39:00+08:00: cycle4 #02 Bubo scandiacus v6 RESEARCH_READY; new2/reused1/corrected1. Holt et al. 2016 JRR 50(2):131–143 and Mikkola actual PDF pp.260–263/printed pp.258–261 read; stage bounded to 15–21 d dark-gray mesoptile with only short erupting primaries, grounded tundra support and no flight. Full prompt saved; science false; no credit."
+        "2026-10-29T22:39:00+08:00: cycle4 #02 Bubo scandiacus v6 RESEARCH_READY; new2/reused1/corrected1. Holt et al. 2016 JRR 50(2):131–143 and Mikkola actual PDF pp.260–263/printed pp.258–261 read; stage bounded to 15–21 d dark-gray mesoptile with only short erupting primaries, grounded tundra support and no flight. Full prompt saved; science false; no credit.",
+        "2026-10-29T22:43:00+08:00: cycle4 #02 v6 IMAGE_GENERATED; first 1536x1024 render opened. Count/text/adult dimorphism/foot support/tundra passed; juvenile side showed conspicuous long pale feather shafts, so targeted edit required. Generated JPEG persisted; no credit."
       ]
     }
   ],
@@ -7412,8 +7419,8 @@
     "run_id": "20261029T2158+0800-cycle-4",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 4,
-    "heartbeat_at": "2026-10-29T22:39:00+08:00",
-    "expires_at": "2026-10-29T22:54:00+08:00"
+    "heartbeat_at": "2026-10-29T22:43:00+08:00",
+    "expires_at": "2026-10-29T22:58:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7805,6 +7812,6 @@
     "species": "Bubo scandiacus",
     "species_id": 2,
     "version": 6,
-    "stage": "RESEARCH_READY"
+    "stage": "IMAGE_GENERATED"
   }
 }

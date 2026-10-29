@@ -2248,3 +2248,7 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 #29 *Glaucidium capense* v4 concept, first generated JPEG/crop, reviewed JPEG/crop and research/source/run/state records are archived. One juvenile-only edit removed repeated bright covert rows, softened the wing and shortened/concealed the tail. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0531+0800` remains 4/6 until verification.
 
 - 2026-10-30T07:07:00+08:00 — #29 *Glaucidium capense* v4 fixed-commit readback passed at `100f238467d31a5a711ac98225f5820561b20e84`: exact five image Git blobs and manifest/source/research/run/knowledge/design/status/state records matched. Batch **5/6**, next cycle 6; unique remains **175/251**, numbered IDs **185/251**, science false.
+
+## 2026-10-30 07:42 +08 — #30 Asian Barred Owlet v4 archived, verification pending
+
+#30 *Glaucidium cuculoides* v4 concept, first generated JPEG, reviewed JPEG, juvenile crop and research/source/run/state records are archived. Two juvenile-only edits removed adult-like layered white-spotted coverts and concealed the residual wing/tail while preserving exact text, adults, subtle size direction and full cavity support. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0531+0800` remains 5/6 until verification.

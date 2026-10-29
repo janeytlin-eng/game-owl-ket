@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T07:07:00+08:00",
+  "updated": "2026-10-30T07:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9631,7 +9631,54 @@
         "run_blob_at_archive": "d26434951529f0605a1aa3179ea211ee98880597",
         "knowledge_blob": "91eb00c48acf2e71351b470d67c43df19e646fe1"
       }
+    },
+    {
+      "id": "30-glaucidium-cuculoides-v4",
+      "path": "design/concepts/30-glaucidium-cuculoides-v4.jpg",
+      "species_id": 30,
+      "scientific_name": "Glaucidium cuculoides",
+      "historical_names": [
+        "Taenioglaux cuculoides",
+        "Athene cuculoides",
+        "Athene whiteleyi"
+      ],
+      "common_name": "Asian Barred Owlet",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "cf290e3197319079c094a0ab27bab36cb1a6e655c618ad7c22bf52cb362ceddc",
+      "size_bytes": 662412,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Undated Hong Kong yellow-eyed fledgling in juvenile plumage is fully cavity-supported, with spotted crown/forehead and wing/tail concealed under soft contour feathering. Two juvenile-only edits removed adult-like layered white-spotted coverts and residual mature-wing cues. Adult sexes remain near equal displayed height with the female only subtly fuller. Exact age, flight threshold, soft-part chronology, quantitative sex ratio and subspecies transfer remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "source_ids": [
+        "ASBO-YIP-HKWP-2006",
+        "ASBO-HKBWS-2024",
+        "ASBO-OWLPAGES-2020",
+        "ASBO-SANKAMETHAWEE-PIERCE-2019",
+        "ASBO-MDC-1877"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--30-glaucidium-cuculoides-v4-evidence-increment",
+      "research_record": "research/species/30-glaucidium-cuculoides-v4.md",
+      "run_record": "production/runs/20261030T070900+0800-cycle-6.md",
+      "generated_path": "production/generated/30-glaucidium-cuculoides-v4-generated.jpg",
+      "generated_blob": "3c358e678313354a48c5d0653c4dcb69dcbdbadf",
+      "generated_sha256": "f6d1bee8e6b5212f01d9b9c5090d54061138ed3007767755cf97768847c68be8",
+      "generated_size_bytes": 735369,
+      "reviewed_path": "production/reviewed/30-glaucidium-cuculoides-v4-reviewed.jpg",
+      "reviewed_blob": "a8214760b598288ec0aa09b6adf645608a773275",
+      "reviewed_sha256": "cf290e3197319079c094a0ab27bab36cb1a6e655c618ad7c22bf52cb362ceddc",
+      "reviewed_size_bytes": 662412,
+      "review_crop_path": "production/reviewed/30-glaucidium-cuculoides-v4-juvenile-crop.jpg",
+      "review_crop_blob": "8e588e5ca85dff685da1e50f1a0993b84b2cfde1",
+      "review_crop_sha256": "2068da2a25c35707fbb90e792393ddba30b1ca670c655f06f0189dbef1ba4544",
+      "review_crop_size_bytes": 196592,
+      "archive_note": "First full plate was opened; two targeted juvenile-only imagegen edits removed adult-like layered white-spotted coverts and concealed residual wing/tail. Final full plate and 520x700 crop were reopened. Exact text/count, adults, subtle size direction, spotted juvenile crown, yellow eyes and full cavity support passed. Existing v1-v3 and historical records remain retained.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T07:07:00+08:00"
+  "updated_at": "2026-10-30T07:42:00+08:00"
 }

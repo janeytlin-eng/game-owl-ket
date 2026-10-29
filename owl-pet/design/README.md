@@ -2234,3 +2234,5 @@ When a primary field study provides a multi-day entrance window but the daily fe
 
 
 - #29 *Glaucidium capense* v4 — SCIENCE_REVISION. Age-unknown older dependent juvenile/juveno-annual stage; one targeted edit removed adult-like repeated covert rows, softened remiges and shortened/concealed the tail while preserving full support. [concept](concepts/29-glaucidium-capense-v4.jpg) · [research](../research/species/29-glaucidium-capense-v4.md) · [run](../production/runs/20261030T065100+0800-cycle-5.md). Historical *ngamiense* transfer, exact age and first-flight threshold remain unknown; science pending.
+
+- #30 *Glaucidium cuculoides* v4 — SCIENCE_REVISION. Undated Hong Kong yellow-eyed fledgling in juvenile plumage, low and fully supported at a natural banyan cavity; two juvenile-only edits removed adult-like layered white-spotted coverts and concealed the residual wing/tail. [concept](concepts/30-glaucidium-cuculoides-v4.jpg) · [research](../research/species/30-glaucidium-cuculoides-v4.md) · [run](../production/runs/20261030T070900+0800-cycle-6.md). Exact age, flight threshold, soft-part chronology and quantitative sex ratio remain unknown; science pending.

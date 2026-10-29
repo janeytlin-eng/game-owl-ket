@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T19:52:00+08:00",
+  "updated": "2026-10-29T19:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8419,10 +8419,36 @@
       "review_crop_sha256": "8462d316cbeda21b0ecc20eb38460116e8f73e3fa2d5eabb2011b5a73f49cbca",
       "review_crop_size_bytes": 193441,
       "archive_note": "First render passed full and crop review without edit. Source-bounded sex colour, modest scale, long partly bare legs, ground tussock setting and the low golden captive-reference mesoptile were retained. Unverified ABSA search-result lead was excluded.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null
+      "readback_pending": false,
+      "archive_commit": "ffbbe8cb4549439bfa08118c449d3d654745f0b1",
+      "fixed_commit": "ffbbe8cb4549439bfa08118c449d3d654745f0b1",
+      "verified_at": "2026-10-29T19:54:00+08:00",
+      "verification_result": "non-truncated 1746-entry commit-pinned tree; four exact JPEG/crop path/blob/size pairs verified; manifest, run, source index and species research record reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/103-tyto-longimembris-v3.jpg",
+          "blob": "5e456321473a8c2b4d2cb3cd6421586ac341fc54",
+          "size_bytes": 638281
+        },
+        "generated_jpg": {
+          "path": "production/generated/103-tyto-longimembris-v3-generated-master.jpg",
+          "blob": "5e456321473a8c2b4d2cb3cd6421586ac341fc54",
+          "size_bytes": 638281
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/103-tyto-longimembris-v3-reviewed-master.jpg",
+          "blob": "5e456321473a8c2b4d2cb3cd6421586ac341fc54",
+          "size_bytes": 638281
+        },
+        "review_crop": {
+          "path": "production/reviewed/103-tyto-longimembris-v3-reviewed-mesoptile-crop.jpg",
+          "blob": "8dcef8d1bdc110ed9d2f4c9600ed783a2374d13f",
+          "size_bytes": 193441
+        },
+        "fixed_commit": "ffbbe8cb4549439bfa08118c449d3d654745f0b1"
+      }
     }
   ],
-  "updated_at": "2026-10-29T19:52:00+08:00"
+  "updated_at": "2026-10-29T19:54:00+08:00"
 }

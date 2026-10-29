@@ -38,3 +38,12 @@ v3 uses one brown adult morph and an approximately 29–32-day pre-flight branch
 ![v3](../../design/concepts/05-strix-aluco-v3.png)
 
 [Research](../../research/species/05-strix-aluco-v3.md) · [Run](../../production/runs/20261028T0743+0800-cycle-5.md)
+
+
+## v4 recent-fledgling locomotion revision · 2026-10-30
+
+V4 selects a first-week recent fledgling rather than a nestling. Two primary tracking studies support poor early locomotion and delayed near-full flight skill; Mikkola supports diffuse juvenile mesoptile. One targeted edit removed crisp adult-like wing spots/rows while retaining a formed folded wing, short incomplete tail, pinkish eye rims and complete low support. Exact day, sex, subspecies, wing/tail metrics, iris transition and first-flight threshold remain unknown; science false. V1 approval is preserved but not inherited.
+
+![v4](../../design/concepts/05-strix-aluco-v4.jpg)
+
+[Research](../../research/species/05-strix-aluco-v4.md) · [Run](../../production/runs/20261030T0033+0800-cycle-1.md) · [Source index](../../research/SOURCE_INDEX.md)

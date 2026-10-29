@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T23:50:00+08:00",
+  "updated": "2026-10-30T00:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8986,7 +8986,57 @@
         "fixed_commit": "a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24",
         "local_git_hash_object_matches": true
       }
+    },
+    {
+      "entry_id": 532,
+      "species_id": 5,
+      "scientific_name": "Strix aluco",
+      "common_name": "Tawny Owl",
+      "version": 4,
+      "path": "design/concepts/05-strix-aluco-v4.jpg",
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "user_approval_history": "v1 user approval dated 2026-10-10 is preserved on v1 only; it does not transfer to v4",
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 5,
+      "sha256": "06f452cf3099e535069b4141ffdb79911ad71105b66add3afbb16506c3684469",
+      "scientifically_verified": false,
+      "status": "PASS_WITH_LIMITATIONS. First-week recent fledgling is low, crouched and fully supported under dense woodland cover, with pinkish eye rims, short incomplete tail and formed folded wings whose surface is diffuse and down-softened rather than adult-regular. Adults share one brown morph and near-equal displayed height; female is only subtly fuller. Exact day, sex, subspecies, wing/tail metrics, iris transition, first-flight threshold and universal adult size ratio remain unknown.",
+      "source_ids": [
+        "TAO-MIKKOLA-2013-P315",
+        "TAO-COLES-PETTY-1997",
+        "TAO-BTO-FACTS",
+        "TAO-OVERSKAUG-1999",
+        "TAO-SUNDE-NAUNDRUP-2016"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/05-strix-aluco-v4.md",
+      "run_record": "production/runs/20261030T0033+0800-cycle-1.md",
+      "reviewed_at": "2026-10-30T00:48:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 758696,
+      "git_blob": "2ef6fb89cd37b7fcf19675d18ebb9791f0af5c38",
+      "generated_path": "production/generated/05-strix-aluco-v4-generated.jpg",
+      "generated_blob": "a19493a192f943655952c285e8f077f6efb87720",
+      "generated_sha256": "a98b83667c649d7a2a8b52ee522f7329cca10c40598bd96049e67d09e88ee815",
+      "generated_size_bytes": 674881,
+      "reviewed_path": "production/reviewed/05-strix-aluco-v4-reviewed.jpg",
+      "reviewed_blob": "2ef6fb89cd37b7fcf19675d18ebb9791f0af5c38",
+      "reviewed_sha256": "06f452cf3099e535069b4141ffdb79911ad71105b66add3afbb16506c3684469",
+      "reviewed_size_bytes": 758696,
+      "review_crop_path": "production/reviewed/05-strix-aluco-v4-juvenile-crop.jpg",
+      "review_crop_blob": "f414ba671135d5dea36aeae4bc5d939bdbd36d56",
+      "review_crop_sha256": "f5cdc0e26cbe1c20b77d25fb30e41588f561f2af089a0472d23b2054fe15a179",
+      "review_crop_size_bytes": 238374,
+      "archive_note": "Initial render passed count/text/adult/support checks but the juvenile wing carried crisp white spots and ordered adult-like remiges. One targeted imagegen edit softened only the juvenile wing to irregular diffuse juvenile texture while retaining a formed folded wing. Full image and crop were reopened. The initial generated JPEG transfer was detected as truncated before cycle credit and is replaced here by a complete 674881-byte JPEG.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verification_result": "pending fixed commit-pinned readback"
     }
   ],
-  "updated_at": "2026-10-29T23:50:00+08:00"
+  "updated_at": "2026-10-30T00:52:00+08:00"
 }

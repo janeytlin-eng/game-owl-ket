@@ -2193,3 +2193,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 23:50 +08 — #04 Little Owl v5 verified; batch complete
 
 #04 v5 passed fixed-commit readback at `a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24`: non-truncated 1788-entry tree, exact concept/generated/reviewed/crop blobs and sizes, manifest531, run, source index, research and knowledge records matched. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T2038+0800` is COMPLETE 6/6; lease and in-progress state released.
+
+
+## 2026-10-30 00:52 +08 — #05 Tawny Owl v4 archived, verification pending
+
+#05 *Strix aluco* v4 concept, complete repaired generated JPEG, reviewed JPEG and juvenile crop are archived as manifest532. One targeted edit removed crisp white spots and adult-ordered juvenile remiges while retaining a formed folded wing and complete low support. Revision adds no unique species; reconciled total remains **175/251** and numbered species IDs **185/251**. Science remains false. Fixed commit-pinned readback is pending, so batch 2026-10-30T0033+0800 remains 0/6 until verification.

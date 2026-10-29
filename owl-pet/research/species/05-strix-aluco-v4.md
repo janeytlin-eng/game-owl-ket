@@ -41,3 +41,12 @@ Environment: shaded deciduous woodland, ivy/moss and a plausible dark tree hollo
 - cautious low locomotion with complete natural support and no flight claim;
 - cavity woodland environment; no fabricated newborn detail.
 
+
+## Image review and iteration
+
+- Initial 1536×1024 render and 600×760 juvenile crop were actually opened. Exact title/labels/count, untufted dark-eyed adults, same brown morph, restrained size difference, gripping feet, low juvenile support and cavity woodland passed.
+- Problem: the juvenile folded wing had crisp white spots and orderly adult-like remige rows.
+- Evidence: Mikkola supports diffuse juvenile mesoptile; the telemetry studies support poor early locomotion, not deletion of a formed post-fledging wing.
+- Modification: one targeted imagegen edit removed regular spots/rows and softened the wing texture while preserving its folded formed structure.
+- Recheck: full edited image and crop reopened; irregular down-softened wing, short tail, fleshy eye rims, both feet/lower body support and no flight pose pass. Result `PASS_WITH_LIMITATIONS`; science false.
+- Transfer error caught before credit: initial generated JPEG blob was shorter than the local file; archive replaces it with a complete 674881-byte JPEG and fixed readback remains mandatory.

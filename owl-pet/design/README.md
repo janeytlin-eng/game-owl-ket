@@ -2076,3 +2076,17 @@ When a source supports localized emerging sheaths but a render produces long den
 ### Incremental rule — nest departure is not proof of competent flight
 
 When field guidance and telemetry show that a young owl can leave or move around the cavity before strong flight, use cavity-adjacent support and incomplete rounded wings. Do not turn “outside the nest” into an airborne or independent fledgling. Applied and visually rechecked on #04 v5; broader effectiveness remains unverified.
+
+
+## 2026-10-30 #05 Tawny Owl v4 — early post-fledging locomotion boundary
+
+- Original: [05-strix-aluco-v4.jpg](concepts/05-strix-aluco-v4.jpg)
+- Research: [species record](../research/species/05-strix-aluco-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one juvenile-wing edit; full 1536×1024 plate and 600×760 juvenile crop reopened.
+- Boundary: first-week recent fledgling with a formed folded wing, diffuse juvenile texture, short incomplete tail and complete low support; no confident flight claim.
+- Unknown: exact day/sex/subspecies, wing/tail metrics, iris transition, first-flight threshold and universal adult size ratio.
+- Scientific status: pending / false; v1 approval retained but not inherited.
+
+### Incremental rule — locomotor immaturity does not require deleting a formed wing
+
+When a species-specific post-fledging study documents poor early locomotion but the selected stage is already outside the nest, correct flight competence through pose, support, concealment and juvenile feather texture. Do not automatically shorten every wing into a nestling stub, and do not retain crisp adult pattern rows. Applied and visually rechecked on #05 v4 after one targeted edit; broader effectiveness remains unverified.

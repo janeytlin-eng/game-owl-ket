@@ -1,5 +1,18 @@
 # Current production review
 
+- Target: [08-strix-nebulosa-v5.jpg](concepts/08-strix-nebulosa-v5.jpg)
+- Research: [species record](../research/species/08-strix-nebulosa-v5.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30--08-strix-nebulosa-v5--brancher-colour-climbing-mechanics-and-bounded-sex-size-direction)
+- Review: `PASS_WITH_LIMITATIONS`, edit count 1. The just-out, still-flightless brancher is charcoal-gray above, pale below, short-winged/short-tailed and fully bark-supported by both talons; adult sexes share plumage and the female is only subtly fuller. Exact age/locality/subspecies/feather sequence/standing ratio/first-flight day remain unknown; science false.
+- Archive: manifest535; fixed commit-pinned readback pending.
+
+### A climbing brancher needs stage-correct feathering as well as support
+
+A bark-supported pose can still be developmentally wrong when image generation adds a mature fan of layered remiges and regular pale rows. For a just-out nonflying Great Gray Owl, inspect a tight crop and require the wing to remain compact, rounded and down-softened while talons, bill/wing assistance and body-to-tree contact remain plausible. Applied and visually rechecked once on #08 v5; species/stage bounded.
+
+---
+
+# Current production review
+
 - Target: [07-asio-flammeus-v4.jpg](concepts/07-asio-flammeus-v4.jpg)
 - Research: [species record](../research/species/07-asio-flammeus-v4.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30--07-asio-flammeus-v4-evidence-correction-and-increment)
 - Review: `PASS_WITH_LIMITATIONS`, edit count 1. Approximately 14–16-day preflight ground-walker is low and fully turf-supported, with dark soft face, compact down-softened wing and short hidden tail. Adult sex difference is restrained. Exact day/sex/subspecies, iris transition, secondary pattern, flight threshold and universal nest geometry remain unknown; science false.

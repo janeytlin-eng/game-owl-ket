@@ -52,3 +52,8 @@ At 2026-10-30T01:20:00+08:00, built-in imagegen produced a 1536×1024 full plate
 ## REVIEWED checkpoint
 
 The first render’s juvenile wing had long layered remiges and regular pale rows. One targeted imagegen edit changed only juvenile wing maturity. The edited 1536×1024 full plate and 610×760 crop were reopened: short rounded down-softened wing, two-talon bark grip, body-to-tree support, dark-gray-above/pale-below colour and short tail pass. Adult diagnostics, restrained female fullness, exact text and three-bird count remain. Result PASS_WITH_LIMITATIONS; edit_count 1; scientifically_verified=false.
+
+
+## ARCHIVED checkpoint
+
+At 2026-10-30T01:22:00+08:00, complete JPEG assets, manifest535, source/card/review/run records and the stage-bounded process lesson were written to main. Fixed commit-pinned readback remains required; no cycle credit yet. Scientifically_verified=false.

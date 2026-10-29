@@ -55,3 +55,10 @@ Sources new0/reused2 MARS-WESKE-1981 failedtarget, GGO-ORI-2020-0506 actualfresh
 本轮保留 v1–v4 与 v1 用户确认记录。新增读取 Bull & Henjum 1990（原始多年度野外研究）、Tornberg、Mikkola & Rytkönen 2016（83 件标本形态测量）及 NPS 实物幼鸟照片。v5 选择“刚离巢、仍不能飞、正在攀爬倾斜树”的 brancher；幼鸟改为灰黑头背、浅腹、黄眼和绒羽软化的短翼，双爪抓树并以喙/短翼辅助，避免 v4 的过浅概括。雌鸟仅轻微丰满，不把平均测量差异套成精确站高。精确日龄、地域型、逐日羽序和普适首飞日仍未知，scientifically_verified=false。
 
 来源索引：[SOURCE_INDEX](../../research/SOURCE_INDEX.md#2026-10-30--08-strix-nebulosa-v5--brancher-colour-climbing-mechanics-and-bounded-sex-size-direction)；研究档案：[08-strix-nebulosa-v5](../../research/species/08-strix-nebulosa-v5.md)；运行记录：[cycle 4](../../production/runs/20261030T0115+0800-cycle-4.md)。
+
+
+## 2026-10-30 v5 actual review and archive
+
+首图三鸟、文字、成鸟特征、幼鸟灰黑头背/浅腹与双爪抓树均通过，但幼鸟折翼有成熟层叠飞羽扇与规则浅斑。一次仅改幼鸟翼羽的 imagegen 定向修订后，短圆绒羽翼、短尾和自然攀树支撑通过；编辑全图与 610×760 局部均已实际查看。雌鸟与雄鸟同羽色，仅略更圆满，不声称精确比例。精确日龄、地域型、逐日羽序、个体性别和普适首飞日仍未知；scientifically_verified=false。
+
+图像：[v5](../../design/concepts/08-strix-nebulosa-v5.jpg)；研究：[v5 record](../../research/species/08-strix-nebulosa-v5.md)；运行：[cycle 4](../../production/runs/20261030T0115+0800-cycle-4.md)。manifest535 已归档，固定提交回读待完成。

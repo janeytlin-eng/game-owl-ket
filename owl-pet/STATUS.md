@@ -2173,3 +2173,7 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 22:48 +08 — #02 Snowy Owl v6 archived, verification pending
 
 #02 *Bubo scandiacus* v6 concept/generated/reviewed assets and research/check records are archived as manifest529. One edit replaced long pale juvenile feather shafts with short dark erupting tips; full/crop review passed with limitations. Science remains false. Fixed-commit readback is pending, so batch remains 3/6 until verification.
+
+## 2026-10-29 22:50 +08 — #02 Snowy Owl v6 verified; batch 4/6
+
+#02 *Bubo scandiacus* v6 passed fixed-commit readback at `deccc023afb044b66cf7989d6e1465f52cf398aa`: non-truncated 1776-entry tree and four canonical image path/blob/size pairs matched; manifest529, run, restored source index, research and knowledge records reopened. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T2038+0800` is 4/6, next cycle5, no active lease.

@@ -8796,9 +8796,36 @@
       "review_crop_sha256": "1779e92767575c86ff25bf3ded410cbef75890c61c0fe61ed55719f9e519c724",
       "review_crop_size_bytes": 163979,
       "archive_note": "Initial render passed count/text/adult/support checks but showed conspicuous long pale juvenile feather shafts. One targeted imagegen edit replaced them with short dark pinfeather/quill tips. Full image and 560×650 crop reopened; source and stage boundaries remain explicit.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null
+      "readback_pending": false,
+      "archive_commit": "deccc023afb044b66cf7989d6e1465f52cf398aa",
+      "fixed_commit": "deccc023afb044b66cf7989d6e1465f52cf398aa",
+      "verified_at": "2026-10-29T22:50:00+08:00",
+      "verification_result": "non-truncated 1776-entry commit-pinned tree; exact concept/generated/reviewed/crop path/blob/size pairs matched; manifest, run, restored source index, species research and knowledge records reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/02-bubo-scandiacus-v6.jpg",
+          "blob": "e06ae7b891dd39c5a9d23622beb2fa06acf9beab",
+          "size_bytes": 512603
+        },
+        "generated_jpg": {
+          "path": "production/generated/02-bubo-scandiacus-v6-generated.jpg",
+          "blob": "38a1fe7b51e24e5315d8a7086c06ae66a2fe787a",
+          "size_bytes": 410301
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/02-bubo-scandiacus-v6-reviewed.jpg",
+          "blob": "e06ae7b891dd39c5a9d23622beb2fa06acf9beab",
+          "size_bytes": 512603
+        },
+        "review_crop": {
+          "path": "production/reviewed/02-bubo-scandiacus-v6-nestling-crop.jpg",
+          "blob": "bcab8997e71d1f565693b329b729a6a5a3fd06af",
+          "size_bytes": 163979
+        },
+        "fixed_commit": "deccc023afb044b66cf7989d6e1465f52cf398aa",
+        "local_git_hash_object_matches": true
+      }
     }
   ],
   "updated_at": "2026-10-29T22:48:00+08:00"

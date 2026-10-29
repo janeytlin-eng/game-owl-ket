@@ -6700,25 +6700,28 @@
         "species_id": 76,
         "species": "Asio clamator",
         "version": 3,
-        "heartbeat_at": "2026-10-29T10:04:00+08:00",
-        "expires_at": "2026-10-29T10:19:00+08:00"
+        "heartbeat_at": "2026-10-29T10:07:00+08:00",
+        "expires_at": "2026-10-29T10:22:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261029T0950+0800-cycle-5",
         "evidence": {
-          "generated_sha256": "3f3e24a06f96ffbab04bfcbc9409aa3f11f618259c559cd9a791935a64e0a920",
-          "reviewed_sha256": "b7b7e410c94e6c2efadfb173094868d3dcd95c0c73e9e4405cf57e33b2147e8a",
-          "crop_sha256": "8b0ccb6c8c9697cdb81857f19a2599a41991980910a4c2598bee52651da841c8",
-          "actual_full_view": true,
-          "actual_crop_view": true,
-          "edit_count": 1,
-          "result": "PASS_WITH_LIMITATIONS",
+          "concept_blob": "45eb7f2347827c0b22e271d390637ae4f1624196",
+          "concept_size": 635101,
+          "generated_blob": "0355c978c922bbda4b51801ee0085615dfe7558c",
+          "generated_size": 745798,
+          "reviewed_blob": "45eb7f2347827c0b22e271d390637ae4f1624196",
+          "reviewed_size": 635101,
+          "crop_blob": "60c3b374d63f678fc0f68655197207beed809e2d",
+          "crop_size": 137773,
+          "manifest_record": 502,
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T10:04:00+08:00",
+      "last_updated_at": "2026-10-29T10:07:00+08:00",
       "audit_notes": [
         "2026-10-29T08:35:49+08:00: new batch cycle1 STARTED #72 Ninox boobook v4 SCIENCE_REVISION; v1-v3 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T08:36:22+08:00: cycle1 #72 v4 RESEARCH_READY; new3/reused3/corrected1; two primary development studies and Victorian government identification table actually read; full prompt saved; science false; no credit.",
@@ -6748,7 +6751,8 @@
         "2026-10-29T09:50:00+08:00: cycle5 STARTED #76 Asio clamator v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease; no credit.",
         "2026-10-29T09:56:00+08:00: cycle5 #76 v3 RESEARCH_READY; new2/reused3/corrected1; Formoso et al. 2025 pp121-124/Figs4-6 and Pautasso & de la Peña 2001 actually read; 25-30-day brown-down stage selected; adult contrast treated as field inference; full prompt saved; science false.",
         "2026-10-29T10:00:00+08:00: cycle5 #76 v3 IMAGE_GENERATED; 1536x1024 opened; exact text/count, adult identity/near-equal scale and brown-down juvenile support pass; juvenile wing too long/crisp/adult-patterned for 25-30 days, targeted edit required; no credit.",
-        "2026-10-29T10:04:00+08:00: cycle5 #76 v3 REVIEWED after one targeted edit; 1536x1024 and juvenile crop reopened. Adult near-equal/field-inferred contrast and 25-30-day warm-brown down, short rounded growing wing, short tail, small tufts and complete stump support pass; science false."
+        "2026-10-29T10:04:00+08:00: cycle5 #76 v3 REVIEWED after one targeted edit; 1536x1024 and juvenile crop reopened. Adult near-equal/field-inferred contrast and 25-30-day warm-brown down, short rounded growing wing, short tail, small tufts and complete stump support pass; science false.",
+        "2026-10-29T10:07:00+08:00: cycle5 #76 v3 ARCHIVED tree prepared; concept 45eb7f2347/635101B, generated 0355c978c9/745798B, crop 60c3b374d6/137773B; manifest502; readback pending; no credit."
       ]
     }
   ],
@@ -7035,7 +7039,8 @@
     "2026-10-29T09:50:00+08:00: cycle5 STARTED #76 Asio clamator v3; no credit.",
     "2026-10-29T09:56:00+08:00: cycle5 #76 v3 RESEARCH_READY; no credit.",
     "2026-10-29T10:00:00+08:00: #76 v3 IMAGE_GENERATED; edit required; no credit.",
-    "2026-10-29T10:04:00+08:00: #76 v3 REVIEWED after one edit; science false."
+    "2026-10-29T10:04:00+08:00: #76 v3 REVIEWED after one edit; science false.",
+    "2026-10-29T10:07:00+08:00: #76 v3 ARCHIVED; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-29T0835+0800",
@@ -7044,7 +7049,7 @@
     "species_id": 76,
     "species": "Asio clamator",
     "version": 3,
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261029T0950+0800-cycle-5.md"
   }
 }

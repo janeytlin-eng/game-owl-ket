@@ -2072,3 +2072,9 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - One targeted edit passed full/crop review. Exact Singapore subspecies, juvenile age, sex ratio and fine feather chronology remain unknown; scientifically_verified=false.
 
 - VERIFIED at archive `ac053b82c766f0aa28f75a999270043cbfe926f1`; concept blob `f6dfcd6ae5643d3b5c0b563ee6db2ae6ca519d3f`, generated `9faf2b02ae732da87c0d50a5ded62f435f674800`, crop `109085a479c02c5336bdd0a516f9da9b669ad949`; batch 4/6, next 5.
+
+
+## 2026-10-29 #76 *Asio clamator* v3
+
+- ARCHIVED pending readback: concept `45eb7f2347827c0b22e271d390637ae4f1624196` (635101 B), generated `0355c978c922bbda4b51801ee0085615dfe7558c` (745798 B), crop `60c3b374d63f678fc0f68655197207beed809e2d` (137773 B); manifest502.
+- Revision only; unique species remains 174/251. One edit passed full/crop review; science false.

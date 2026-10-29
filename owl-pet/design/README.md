@@ -1809,3 +1809,16 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - **Verified here:** v3 uses Singapore institutional/field evidence for adult identity, habitat and branch-dependent juvenile action; the Japanese rectrix/feeding papers are retained only as excluded leads. The edited plate and crop passed visual recheck; broader transfer still requires species-specific evidence.
 
 - 2026-10-29T09:48:00+08:00: #75 v3 fixed-commit readback VERIFIED at `ac053b82c766f0aa28f75a999270043cbfe926f1`; four image blob IDs matched; science false.
+
+
+## #76 Striped Owl — *Asio clamator* — v3 science revision
+
+- Concept: [76-asio-clamator-v3.jpg](concepts/76-asio-clamator-v3.jpg)
+- Research: [species note](../research/species/76-asio-clamator-v3.md)
+- V3 selects an estimated 25–30-day brown-down second-stage chick, distinct from v2's approximately five-week pale branch bird. One edit shortened/softened the initially adult-like juvenile wing; full and crop recheck passed. Adult colour contrast is field-inferred, not universal; science false. ARCHIVED, fixed readback pending.
+
+### Distinguish estimated juvenile stages before changing feather colour
+
+- **Observed failure:** a valid older plate used a later pale branch stage; reusing it would erase newer evidence for an earlier brown-down stage, while a first v3 render gave that earlier chick adult-length flight surfaces.
+- **Applied rule:** name the selected evidence-bounded stage, keep stage-specific body down and emerging face/tufts, and independently constrain wing/tail maturity plus support.
+- **Verified here:** #76 v3 passed full/crop recheck after shortening and softening the juvenile wing. Broader transfer remains species-specific.

@@ -1232,3 +1232,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Edited adult wing-coverts and juvenile wing edges, then reopened full image and crop. Archive phase prepared; verification pending.
 
 - Fixed-commit readback verified the #75 v3 archive at `ac053b82c766f0aa28f75a999270043cbfe926f1`; batch advanced to 4/6.
+
+
+## 2026-10-29 — #76 Striped Owl v3
+
+- Added a 25–30-day brown-down juvenile revision and cautiously field-inferred adult pair contrast.
+- Indexed two new primary sources, edited the over-mature juvenile wing and rechecked full plate plus crop. Archive readback pending.

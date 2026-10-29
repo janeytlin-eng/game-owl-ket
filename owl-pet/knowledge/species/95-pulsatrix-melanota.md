@@ -35,3 +35,7 @@ The first render was rejected for adult-like juvenile white wing rows and long l
 
 ## 2026-10-29 v3 research-ready
 Primary MEL-RIVAS2022 pp.84–85 and Figures 1–3 were reread and the stages separated: the few-days chick is light cinnamon with white throat/periocular plumage, whereas recent fledglings have cinnamon down, a black facial disc and dark irises; head down turns white when the first chest feathers begin growing. New MEL-ECUADOR-DIET-2022 section 2.13/Figure 2 independently records a recently fledged juvenile with an adult nearby. New1/reused3/corrected1. Exact age, flight threshold, wing dimensions, sex and universal nest choice remain unknown; scientifically_verified=false.
+
+
+## 2026-10-29 v3 review/archive
+The first render was rejected because the recent fledgling again inherited long layered adult-like remiges and repeated pale spot rows. One juvenile-only edit replaced them with short rounded low-contrast warm-brown developing coverts under cinnamon down; the black facial disc, dark iris, pale bill, cream crown transition, concealed tail, low crouch, belly support and two-foot grip remained. Adults retained near-equal scale and diagnostic white-X face, breast band and reddish-brown belly barring. Edited full plate and 620×700 crop were reopened. Result PASS_WITH_LIMITATIONS; exact age/sex, first-flight threshold, tract sequence, wing/tail dimensions, adult pair ratio and universal nest choice remain unknown; scientifically_verified=false. [v3 original](../../design/concepts/95-pulsatrix-melanota-v3.jpg).

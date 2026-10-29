@@ -1959,3 +1959,17 @@ Do not translate heavier mean female mass into universally taller adults when wi
 
 
 - 2026-10-29T13:42:00+08:00 — #86 *Otus elegans* v4 independently verified at archive `c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b`; concept/generated/reviewed exact blobs and sizes plus manifest511 matched. Unique total unchanged; batch 2/6 next3. Science false.
+
+
+## 2026-10-29 #95 Pulsatrix melanota v3 — recent-fledgling stage separation
+
+- Original: [95-pulsatrix-melanota-v3.jpg](concepts/95-pulsatrix-melanota-v3.jpg)
+- Research: [species record](../knowledge/species/95-pulsatrix-melanota.md) · [source index](../research/SOURCE_INDEX.md#mel-ecuador-diet-2022)
+- Review: one juvenile-wing edit; full 1536×1024 and 620×700 juvenile crop reopened.
+- Boundary: recent fledgling, age unknown; cinnamon down, black facial disc, dark iris, head down beginning to turn cream as first chest feathers emerge; short rounded soft developing wings, concealed tail, belly and both feet supported.
+- Unknown: exact age/sex, first-flight threshold, tract sequence, wing/tail dimensions, adult pair ratio and universal nest choice.
+- Scientific status: pending / false.
+
+### Incremental rule — separate same-species chick stages before borrowing detail
+
+When one primary account describes both a few-days chick and later fledglings, do not merge their traits into a generic juvenile. Label the selected stage explicitly; retain only stage-matched plumage and locomotor claims. Applied and visually rechecked on #95 v3; broader effectiveness remains unverified.

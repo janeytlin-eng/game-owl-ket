@@ -7099,8 +7099,8 @@
         "batch_id": "2026-10-29T1536+0800",
         "cycle": 4,
         "species_id": 94,
-        "heartbeat_at": "2026-10-29T16:45:00+08:00",
-        "expires_at": "2026-10-29T17:00:00+08:00"
+        "heartbeat_at": "2026-10-29T16:47:00+08:00",
+        "expires_at": "2026-10-29T17:02:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 4,
@@ -7113,10 +7113,11 @@
           "crop_blob": "6334ebbc97e0878fb0fcb53adad1fad2914f67e1",
           "crop_size_bytes": 187060,
           "fixed_readback_pending": true,
-          "scientifically_verified": false
+          "scientifically_verified": false,
+          "generated_path": "owl-pet/production/generated/94-pulsatrix-koeniswaldiana-v4-generated-master.jpg"
         }
       },
-      "last_updated_at": "2026-10-29T16:45:00+08:00",
+      "last_updated_at": "2026-10-29T16:47:00+08:00",
       "audit_notes": [
         "2026-10-29T15:36:00+08:00: cycle1 STARTED #91 Tyto javanica delicatula v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T15:39:00+08:00: cycle1 #91 v3 RESEARCH_READY; new1/reused2/corrected1; full primary pages read; late pre-fledgling wing/locomotion correction; science false.",
@@ -7141,7 +7142,8 @@
         "2026-10-29T16:37:00+08:00: cycle4 #94 v4 RESEARCH_READY; new1/reused3/corrected1; 2015 Fig.2 and 2013 nesting note read; full prompt saved; science false.",
         "2026-10-29T16:40:00+08:00: cycle4 #94 v4 IMAGE_GENERATED after one juvenile-wing edit; full edited image opened; JPEG persisted; crop review pending; science false.",
         "2026-10-29T16:42:00+08:00: cycle4 #94 v4 REVIEWED after one edit; full+crop opened; PASS_WITH_LIMITATIONS; science false.",
-        "2026-10-29T16:45:00+08:00: cycle4 #94 v4 ARCHIVED; concept/generated/reviewed JPEG and crop plus manifest committed; fixed readback pending; no credit."
+        "2026-10-29T16:45:00+08:00: cycle4 #94 v4 ARCHIVED; concept/generated/reviewed JPEG and crop plus manifest committed; fixed readback pending; no credit.",
+        "2026-10-29T16:47:00+08:00: #94 v4 pre-credit manifest path correction: actual generated master includes '-generated-'; four image blobs/sizes had passed at archive tree; reread corrected tree pending."
       ]
     }
   ],
@@ -7151,8 +7153,8 @@
     "batch_id": "2026-10-29T1536+0800",
     "cycle": 4,
     "species_id": 94,
-    "heartbeat_at": "2026-10-29T16:45:00+08:00",
-    "expires_at": "2026-10-29T17:00:00+08:00"
+    "heartbeat_at": "2026-10-29T16:47:00+08:00",
+    "expires_at": "2026-10-29T17:02:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7255,9 +7257,10 @@
     "2026-10-29T16:37:00+08:00: #94 v4 RESEARCH_READY; full prompt and sources saved; no credit.",
     "2026-10-29T16:40:00+08:00: #94 v4 IMAGE_GENERATED after one edit; no credit.",
     "2026-10-29T16:42:00+08:00: #94 v4 REVIEWED; one edit; no credit.",
-    "2026-10-29T16:45:00+08:00: #94 v4 ARCHIVED; fixed readback pending; no credit."
+    "2026-10-29T16:45:00+08:00: #94 v4 ARCHIVED; fixed readback pending; no credit.",
+    "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending."
   ],
-  "updated_at": "2026-10-29T16:45:00+08:00",
+  "updated_at": "2026-10-29T16:47:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7271,10 +7274,10 @@
     "batch_id": "2026-10-29T1536+0800",
     "cycle": 4,
     "species_id": 94,
-    "heartbeat_at": "2026-10-29T16:45:00+08:00",
-    "expires_at": "2026-10-29T17:00:00+08:00"
+    "heartbeat_at": "2026-10-29T16:47:00+08:00",
+    "expires_at": "2026-10-29T17:02:00+08:00"
   },
-  "last_updated_at": "2026-10-29T16:45:00+08:00",
+  "last_updated_at": "2026-10-29T16:47:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

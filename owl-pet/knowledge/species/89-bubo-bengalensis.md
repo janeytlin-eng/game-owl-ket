@@ -33,3 +33,13 @@ Actualeditviewed: bothadultsupperchest streaks smaller/narrower whileclearlypres
 - **Index:** [SOURCE_INDEX](../../research/SOURCE_INDEX.md)
 - **Target:** ../../design/concepts/89-bubo-bengalensis-v3.jpg
 - **Run:** ../../production/runs/20261029T1446+0800-cycle-5.md
+
+
+### v3 actual review and iteration
+
+- **Problem actually seen:** first render translated “full juvenile plumage” into adult-regular white spot rows, hard long remiges and a miniature-adult wing.
+- **Evidence boundary:** BEN-RAM2009 supports full juvenile plumage around day 35, while BEN-PANDE-DAHANUKAR2011 shows loose coupling among growth characters. Neither supports adult-regular vane pattern or flight readiness.
+- **Modification:** one juvenile-only edit replaced regular bright spot rows with irregular diffuse pale flecks, shortened/softened the folded wing and kept residual down plus a short/hidden tail; adults/text/habitat were locked.
+- **Recheck:** 1536×1024 full plate and 560×650 juvenile crop opened. Exact text/count, adult diagnostic direction and near-equal height, juvenile open eyes/soft juvenile wing/low crouch/two-foot rock support passed.
+- **Remaining unknown:** exact individual age, colour/feather-tract calibration, first-flight ability, local morph and adult sex ratio. Result PASS_WITH_LIMITATIONS; scientific verification false.
+- **Validated process lesson:** for an older juvenile, “fully feathered” and “soft/irregular” must be checked independently; a positive juvenile-wing endpoint worked for this image after a negative-only constraint failed. Do not generalise the exact pattern to other taxa.

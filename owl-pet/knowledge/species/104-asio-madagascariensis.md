@@ -14,3 +14,10 @@ Exact age, juvenile iris colour, continuous feather sequence, flight ability, to
 PNG: 1536×1024, 3,080,709 bytes; SHA256 `adf07f58364beae779c46a6f9299d55e1226ad5977e9a419fc752d00b607bcd2`.
 
 [Original](../../design/concepts/104-asio-madagascariensis-v2.png) · [run](../../production/runs/2026-10-25T0331+0800-cycle-6.md)
+
+
+## v3 staged revision — 2026-10-29
+
+[Original](../../design/concepts/104-asio-madagascariensis-v3.jpg) · [research](../../research/104-asio-madagascariensis-v3.md) · [run](../../production/runs/20261029T1955+0800-cycle-6.md)
+
+One edit reduced overly heavy adult lower-belly streaks and shortened/softened the juvenile's adult-like wing rows while retaining the photograph-supported formed mesoptile wing. Final full plate and crop passed with limitations. Scientific status remains false.

@@ -1,3 +1,4 @@
+- 2026-10-29T20:03:00+08:00: Archived #104 *Asio madagascariensis* v3 after one evidence-driven edit reduced adult lower-belly streaks and juvenile adult-pattern leakage while retaining formed mesoptile wings; manifest525; fixed readback pending.
 - 2026-10-29T19:54:00+08:00: Verified fixed archive ffbbe8cb4549439bfa08118c449d3d654745f0b1 for #103 v3; four image paths matched exact blobs and byte sizes, text evidence reopened, and batch advanced to 5/6.
 - 2026-10-29T19:52:00+08:00: Archived #103 *Tyto longimembris* v3 science revision with evidence-bounded approximately 55-day captive-reference mesoptile; first render passed full+crop review, edit_count0. Manifest524; fixed readback pending; unique unchanged; science false.
 - 2026-10-29T19:45:00+08:00: Verified fixed archive 1e4a9aacdc032cc5a301d3f6c7516f93050cc947 for #101 v6; four image paths matched exact blob and byte size, source/manifest/run records reopened, and batch advanced to 4/6.

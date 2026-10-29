@@ -2009,3 +2009,16 @@ When a regional page explicitly labels an illustration as AI-generated, use only
 ### Incremental rule — do not transfer measurements between photographed individuals
 
 When a husbandry paper shows multiple young at different ages, bind every plumage or measurement claim to the pictured individual and stage. Do not attach the 69-day bird's data to the approximately 55-day reference. Applied and visually checked on #103 v3; broader effectiveness remains unverified.
+
+
+## 2026-10-29 #104 Madagascar Long-eared Owl v3 — formed mesoptile wing retained
+
+- Original: [104-asio-madagascariensis-v3.jpg](concepts/104-asio-madagascariensis-v3.jpg)
+- Research: [species record](../knowledge/species/104-asio-madagascariensis.md) · [v3 note](../research/104-asio-madagascariensis-v3.md)
+- Review: one targeted edit; full 1536×1024 plate and 560×700 crop reopened.
+- Boundary: age-unknown older brancher, white/cream fluff, black mask, short tufts, compact formed juvenile-soft wing and two-foot support; not a newborn and not an adult-wing clone.
+- Scientific status: pending / false.
+
+### Incremental rule — retain stage-supported formed wings while removing adult pattern leakage
+
+A documented older mesoptile may legitimately show formed wings. Correction should target length, edge shape and adult-like regular markings rather than deleting the wing. Applied and visually checked on #104 v3; broader effectiveness remains unverified.

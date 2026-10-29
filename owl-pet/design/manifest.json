@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T19:54:00+08:00",
+  "updated": "2026-10-29T20:03:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8448,7 +8448,53 @@
         },
         "fixed_commit": "ffbbe8cb4549439bfa08118c449d3d654745f0b1"
       }
+    },
+    {
+      "id": "104-asio-madagascariensis-v3",
+      "path": "design/concepts/104-asio-madagascariensis-v3.jpg",
+      "species_id": 104,
+      "scientific_name": "Asio madagascariensis",
+      "historical_names": [
+        "Otus madagascariensis"
+      ],
+      "common_name": "Madagascar Long-eared Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 104,
+      "sha256": "6acbb2aede586247fb32def0873c972d0ec6664eb41de963bdbe8eaceb80dde7",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using an age-unknown older branching mesoptile. Adults retain orange irises, black bills, long widely separated tufts, feathered toes and zoned golden-brown pattern; female only modestly fuller. Juvenile has white/cream fluff, black mask, short tufts, compact formed juvenile-soft wing, modest concealed tail and two-foot branch support. Exact age, juvenile iris, flight ability, continuous feather sequence, toe boundary, nest generality and quantified sex ratio remain unknown.",
+      "source_ids": [
+        "MLO-RENEGOODMAN2003",
+        "MLO-VASSEN2013",
+        "MLO-MIK2013-509",
+        "MLO-AVIBASE2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/104-asio-madagascariensis-v3.md",
+      "run_record": "production/runs/20261029T1955+0800-cycle-6.md",
+      "reviewed_at": "2026-10-29T20:03:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 731624,
+      "git_blob": "5aa0730c50f3d2956265a3f89a6cc369132ba1a1",
+      "generated_path": "production/generated/104-asio-madagascariensis-v3-generated-master.jpg",
+      "generated_blob": "5ff87b0ae8775f2774cb6d8303867bbdabc29170",
+      "generated_sha256": "f7e15a79e1057694fe49ee42c0cb4fff6aa6ebd834179d08da708a7101c8c741",
+      "generated_size_bytes": 790374,
+      "reviewed_path": "production/reviewed/104-asio-madagascariensis-v3-reviewed-master.jpg",
+      "reviewed_blob": "5aa0730c50f3d2956265a3f89a6cc369132ba1a1",
+      "reviewed_sha256": "6acbb2aede586247fb32def0873c972d0ec6664eb41de963bdbe8eaceb80dde7",
+      "reviewed_size_bytes": 731624,
+      "review_crop_path": "production/reviewed/104-asio-madagascariensis-v3-reviewed-mesoptile-crop.jpg",
+      "review_crop_blob": "c7da6f4268aa077a84458708708783b6b4a9f27e",
+      "review_crop_sha256": "97571de96f5568b3044656abf163530c795f88b4b169200c2880844147e0a09a",
+      "review_crop_size_bytes": 191007,
+      "archive_note": "One targeted edit reduced overly heavy adult lower-belly streaks and replaced the juvenile's adult-like pale wing rows/length with a shorter rounded softer formed wing. Full and crop reopened. Old-name ambiguity and unknowns explicit.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null
     }
   ],
-  "updated_at": "2026-10-29T19:54:00+08:00"
+  "updated_at": "2026-10-29T20:03:00+08:00"
 }

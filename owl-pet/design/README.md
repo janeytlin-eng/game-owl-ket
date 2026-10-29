@@ -2140,3 +2140,5 @@ For a documented brancher, use climbing/concealment posture and complete support
 ### Incremental rule — first emergence needs a sheath boundary, not miniature adult coverts
 
 For a documented early-emergence chick, permit short localized sheath nubs supported by known-age imagery, but remove elongated vanes, regular pale spots and adult-like rows. Preserve walking support and do not infer flight from being outside the burrow. Applied and visually rechecked on #09 v4; broader effectiveness remains unverified.
+
+- 2026-10-30T01:35:00+08:00 — #09 v4 fixed-tree VERIFIED at `1d6364b3eca882d2a9866480e7f5eeee79c363db`; five exact image blobs/sizes matched, erroneous root paths absent, batch 5/6 next6; science false.

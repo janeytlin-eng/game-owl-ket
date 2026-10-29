@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:34:00+08:00",
+  "updated": "2026-10-30T01:35:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9347,11 +9347,42 @@
       "review_crop_sha256": "92981d70ee69f7bd9dcefd8d07f1e0e53f6d3a4ee31fc8e93b58f165e7266c71",
       "review_crop_size_bytes": 134725,
       "archive_note": "Full generated and edited 1536x1024 plates plus juvenile crops were opened. One juvenile-wing-only edit removed elongated pale-spotted vanes and retained only a compact down-softened wing bud with short sheath nubs. Text, adults, support and burrow were preserved. Historical v1-v3 and v1 user approval remain unchanged.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
-      "verification_result": null
+      "readback_pending": false,
+      "archive_commit": "1d6364b3eca882d2a9866480e7f5eeee79c363db",
+      "verified_at": "2026-10-30T01:35:00+08:00",
+      "verification_result": "non-truncated 1827-entry fixed tree; exact five owl-pet image path/blob/size tuples; erroneous root paths absent; manifest536, run, research/card, batch and source-index blob matched",
+      "fixed_commit": "1d6364b3eca882d2a9866480e7f5eeee79c363db",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "1d6364b3eca882d2a9866480e7f5eeee79c363db",
+        "concept": {
+          "path": "design/concepts/09-athene-cunicularia-v4.jpg",
+          "blob": "b3d4ed5a400466e3562fcd113d7e977f756bc2d2",
+          "size_bytes": 269878
+        },
+        "generated": {
+          "path": "production/generated/09-athene-cunicularia-v4-generated.jpg",
+          "blob": "9f8dc70c956b2121cd61382bd88119ed5384e326",
+          "size_bytes": 283073
+        },
+        "generated_crop": {
+          "path": "production/generated/09-athene-cunicularia-v4-juvenile-crop.jpg",
+          "blob": "d0383668a780d139be077afa5481c752d9e42ca6",
+          "size_bytes": 140022
+        },
+        "reviewed": {
+          "path": "production/reviewed/09-athene-cunicularia-v4-reviewed.jpg",
+          "blob": "b3d4ed5a400466e3562fcd113d7e977f756bc2d2",
+          "size_bytes": 269878
+        },
+        "review_crop": {
+          "path": "production/reviewed/09-athene-cunicularia-v4-juvenile-crop.jpg",
+          "blob": "a1caff7d0d2d961f3c35406fe7adb1b41a4fc695",
+          "size_bytes": 134725
+        },
+        "source_index_blob": "7557fbfd5b6d260cad771791dca62208d2798441"
+      }
     }
   ],
-  "updated_at": "2026-10-30T01:34:00+08:00"
+  "updated_at": "2026-10-30T01:35:00+08:00"
 }

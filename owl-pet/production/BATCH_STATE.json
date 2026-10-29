@@ -7514,48 +7514,24 @@
           "unique_species_increment": 0,
           "commit_sha": "aeee17b44f7b57994e2580e3761ec3d32d905104",
           "run_record": "owl-pet/production/runs/20261030T0115+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Athene cunicularia",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1d6364b3eca882d2a9866480e7f5eeee79c363db",
+          "run_record": "owl-pet/production/runs/20261030T0124+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-work-20261030T0124+0800",
-        "run_id": "20261030T0124+0800-cycle-5",
-        "heartbeat_at": "2026-10-30T01:34:00+08:00",
-        "expires_at": "2026-10-30T01:49:00+08:00"
-      },
-      "in_progress": {
-        "batch_id": "2026-10-30T0033+0800",
-        "cycle": 5,
-        "species": "Athene cunicularia",
-        "action": "SCIENCE_REVISION",
-        "version": "v4",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261030T0124+0800-cycle-5.md",
-        "started_at": "2026-10-30T01:24:00+08:00",
-        "heartbeat_at": "2026-10-30T01:34:00+08:00",
-        "research_path": "owl-pet/research/species/09-athene-cunicularia-v4.md",
-        "source_counts": {
-          "new": 1,
-          "reused": 4,
-          "corrected": 0
-        },
-        "prompt_persisted": true,
-        "generated_asset": "owl-pet/production/assets/09-athene-cunicularia-v4-generated.jpg",
-        "generated_crop": "owl-pet/production/assets/09-athene-cunicularia-v4-generated-juvenile-crop.jpg",
-        "generated_sha256": "3f8564afe8ee459cbc3eba2644f2eb65fe0e6678e1ebc74b270ad848ce2e6997",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "reviewed_asset": "owl-pet/production/assets/09-athene-cunicularia-v4-reviewed.jpg",
-        "reviewed_crop": "owl-pet/production/assets/09-athene-cunicularia-v4-reviewed-juvenile-crop.jpg",
-        "reviewed_sha256": "acd0a0f638bc2e1576b17eea27033bcdee818a340e48e9e33cf479c727cc9e0a",
-        "edit_count": 1,
-        "concept_path": "design/concepts/09-athene-cunicularia-v4.jpg",
-        "manifest_entry": 536,
-        "archive_commit_pending": true
-      },
+      "next_cycle": 6,
+      "active_lease": null,
+      "in_progress": null,
       "last_checkpoint": {
-        "at": "2026-10-30T01:34:00+08:00",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261030T0124+0800-cycle-5.md"
+        "at": "2026-10-30T01:35:00+08:00",
+        "stage": "VERIFIED",
+        "run_record": "owl-pet/production/runs/20261030T0124+0800-cycle-5.md",
+        "commit_sha": "1d6364b3eca882d2a9866480e7f5eeee79c363db"
       }
     }
   ],

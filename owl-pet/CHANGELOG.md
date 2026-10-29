@@ -1307,3 +1307,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30 01:34 +08: archived #09 *Athene cunicularia* v4 science revision. Selected an approximately 14-day first-emergence stage from known-age and institutional evidence; one juvenile-wing edit removed elongated pale-spotted vanes. Full plate and juvenile crop reopened; manifest536; fixed readback pending; science false.
+
+- Fixed-commit readback verified #09 v4 at `1d6364b3eca882d2a9866480e7f5eeee79c363db`; five assets matched under `owl-pet/`, accidental root paths were removed, and the batch advanced to 5/6.

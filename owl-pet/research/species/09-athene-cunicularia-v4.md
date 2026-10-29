@@ -44,3 +44,8 @@ A single localized edit removed the chick's elongated spotted wing vanes and rep
 ## Archive state
 
 The reviewed v4 plate and both generated/reviewed evidence pairs were archived without replacing v1-v3. Scientific verification remains false: the design is evidence-bounded but not a specimen-level reconstruction. Fixed commit-pinned readback is pending at this stage.
+
+
+## Fixed-commit verification
+
+Fixed archive `1d6364b3eca882d2a9866480e7f5eeee79c363db` passed a non-truncated 1827-entry recursive-tree readback. All five formal image paths under `owl-pet/` matched their expected blobs and byte sizes; the initial root-path mistake was corrected and the erroneous paths were absent. Manifest, run, research/card and source-index blob matched. This verifies archive integrity, not specimen-level scientific certainty.

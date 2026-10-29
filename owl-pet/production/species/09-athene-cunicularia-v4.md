@@ -53,3 +53,8 @@ One localized juvenile-wing edit was applied and then inspected at full resoluti
 ### ARCHIVED checkpoint
 
 v4 is archived as a science revision with generated and reviewed masters plus juvenile crops. Unique species increment: 0. Scientific verification: false. Fixed-tree readback remains pending.
+
+
+### VERIFIED checkpoint
+
+Fixed archive `1d6364b3eca882d2a9866480e7f5eeee79c363db` passed the 1827-entry tree and exact five-asset readback. Cycle credit is permitted; scientific verification remains false and `PASS_WITH_LIMITATIONS` is retained.

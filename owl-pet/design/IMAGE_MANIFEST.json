@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:55:41+08:00",
+  "updated": "2026-10-30T02:55:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9629,7 +9629,54 @@
         },
         "source_index_blob": "e78e57979ded8a0e2aafd9b2b98e12d1f6c4985f"
       }
+    },
+    {
+      "id": "14-bubo-virginianus-v4",
+      "path": "design/concepts/14-bubo-virginianus-v4.jpg",
+      "species_id": 14,
+      "scientific_name": "Bubo virginianus",
+      "historical_names": [],
+      "subspecies_context": "neutral gray-brown North American morph; exact subspecies not assigned",
+      "common_name": "Great Horned Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "df85bc987ed17007dcf57cdc387f999ac85b5704626fdbe10dc2cddc7f7765b0",
+      "size_bytes": 439831,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION. Approximately 21-day nest-supported juvenile with open yellow eyes, abundant buff/gray-buff secondary down, faint tufts/developing facial mask, very short emerging wing tips and hidden tail. First draft leaked long adult-like barred flight feathers; one targeted edit removed mature wing geometry and regular pale rows. Adults retain one gray-brown morph, yellow eyes, white throat, feathered toes and only subtle female fullness. Exact individual day, continuous feather map, juvenile sex, regional morph, pair ratio and universal nest geometry remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "GHOW-HOFFMEISTER-SETZER-1947",
+        "GHOW-SCHREIBER-1981",
+        "GHOW-MIKKOLA-2013",
+        "GHOW-IOC-AGECHART-2017",
+        "GHOW-CORNELL-CAM-FAQ",
+        "GHOW-RAPTOR-CENTER"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--14-bubo-virginianus-v4--approximately-21-day-nestling-wing-growth-boundary",
+      "research_record": "research/species/14-bubo-virginianus-v4.md",
+      "run_record": "production/runs/20261030T023600+0800-cycle-3.md",
+      "generated_path": "production/generated/14-bubo-virginianus-v4-generated.jpg",
+      "generated_blob": "db2930e97e949a416f9f08436cb16a92930ebcd8",
+      "generated_sha256": "5da65558d313901c7c5918e968f6123d28286c6ebbe70cbec8e6e18174941418",
+      "generated_size_bytes": 468640,
+      "reviewed_path": "production/reviewed/14-bubo-virginianus-v4-reviewed.jpg",
+      "reviewed_blob": "7095342cb9ef067094edf00823435637f2ea59c1",
+      "reviewed_sha256": "df85bc987ed17007dcf57cdc387f999ac85b5704626fdbe10dc2cddc7f7765b0",
+      "reviewed_size_bytes": 439831,
+      "review_crop_path": "production/reviewed/14-bubo-virginianus-v4-juvenile-review-crop.jpg",
+      "review_crop_blob": "6a1ded419d7e43f417a015f381038245af28c936",
+      "review_crop_sha256": "f6a457b8af36d24cd44296e2dfea908c0a18b6a2fefb9767cf492b327e2f5d52",
+      "review_crop_size_bytes": 112889,
+      "archive_note": "Full 1536×1024 plate and 560×700 juvenile crop were opened after one targeted edit. Juvenile mature barred wing leakage was removed; tiny emerging wing tip, hidden tail and belly/two-foot nest support pass. Adults/text/count/feet checked. v1–v3 and v1 approval preserved.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-30T01:47:00+08:00"
+  "updated_at": "2026-10-30T02:55:00+08:00"
 }

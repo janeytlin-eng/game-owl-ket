@@ -48,3 +48,16 @@ v1 user confirmation and v2 early-hatchling concept remain historical records; c
 ![v3](../../design/concepts/14-bubo-virginianus-v3.png)
 
 Research and full prompt: [v3 card](../../research/species/14-bubo-virginianus-v3.md). Production record: [cycle 4](../../production/runs/20261028T0733+0800-cycle-4.md).
+
+
+## v4 approximately 21-day nestling revision · 2026-10-30
+
+V4 preserves v1–v3 and the historical v1 user confirmation; approval does not transfer. Fresh rereading of Hoffmeister & Setzer (1947), printed pp.159 and 166–173, supplied a tighter approximately 21-day wing boundary: about 10 mm erupted primary and 5 mm secondary in the measured bird, open eyes and increasingly erect head, but no flight claim. Schreiber (1981), pp.167–173 abstract, supports rapid growth and developing down-based insulation but not a feather map. The first generated juvenile leaked long adult-like barred flight feathers; one targeted edit replaced them with a tiny emerging wing tip under abundant buff-gray down and a hidden tail. Final full plate and juvenile crop pass with limitations. Exact day, sex, continuous feather sequence, regional morph, quantified adult ratio and universal nest geometry remain unknown; science remains false.
+
+![v4](../../design/concepts/14-bubo-virginianus-v4.jpg)
+
+Research and complete prompt: [v4 card](../../research/species/14-bubo-virginianus-v4.md). Production record: [cycle 3](../../production/runs/20261030T023600+0800-cycle-3.md).
+
+### Applied production lesson
+
+For down-dominant 2–4-week eagle-owl nestlings, explicitly constrain visible remiges by source measurements and inspect the juvenile crop for mature barred/spot-row leakage. This rule was applied and visually verified on v4; it is not yet claimed universal beyond evidence-bounded stages.

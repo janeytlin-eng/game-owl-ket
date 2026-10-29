@@ -2,7 +2,7 @@
 
 - Concept: [80-otus-sunia-v3.jpg](concepts/80-otus-sunia-v3.jpg)
 - Research: [species card](../knowledge/species/80-otus-sunia.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--80-otus-sunia-v3--710-day-pin-feather-cavity-stage)
-- Stage: ARCHIVED; fixed readback pending. V3 selects a 7–10-day white-down, brown-eyed cavity chick with just-opening short remige sheaths and no rectrix fan. One edit removed long patterned juvenile feathers; full and crop recheck passed. Science false.
+- Stage: VERIFIED at `daf637f05014949846ea1d3c60a53117cc63c381`; recursive tree and exact blob/size pairs for concept, generated/reviewed JPEG+PNG and crop passed. V3 selects a 7–10-day white-down, brown-eyed cavity chick with just-opening short remige sheaths and no rectrix fan. One edit removed long patterned juvenile feathers; full and crop recheck passed. Science false.
 
 ### “Pin feathers beginning” forbids long patterned vane fans
 

@@ -6708,26 +6708,30 @@
         "run_id": "20261029T1012+0800-cycle-6",
         "species": "Asio stygius",
         "cycle": 6,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-29T10:28:00+08:00",
-        "expires_at": "2026-10-29T10:43:00+08:00",
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-29T10:31:00+08:00",
+        "expires_at": "2026-10-29T10:46:00+08:00",
         "run_record": "owl-pet/production/runs/20261029T1012+0800-cycle-6.md"
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "ARCHIVED",
         "run_id": "20261029T1012+0800-cycle-6",
         "evidence": {
-          "head_before": "e58c2adb7ecd00eca6913f236d34c1083232dfbe",
-          "prior_versions": [
-            "v1",
-            "v2"
-          ],
-          "action": "SCIENCE_REVISION",
+          "concept_blob": "011dea88bf6b395f30b6cdc95080cfb3d2602b55",
+          "concept_size": 634865,
+          "generated_blob": "3cea43d80e20a47000d81a91ab8dd972dd9832c2",
+          "generated_size": 669564,
+          "reviewed_blob": "011dea88bf6b395f30b6cdc95080cfb3d2602b55",
+          "reviewed_size": 634865,
+          "crop_blob": "56edd7efe5fb328c94f7f7c858cbb1230b12a0e1",
+          "crop_size": 217840,
+          "manifest_record": 503,
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T10:12:00+08:00",
+      "last_updated_at": "2026-10-29T10:31:00+08:00",
       "audit_notes": [
         "2026-10-29T08:35:49+08:00: new batch cycle1 STARTED #72 Ninox boobook v4 SCIENCE_REVISION; v1-v3 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T08:36:22+08:00: cycle1 #72 v4 RESEARCH_READY; new3/reused3/corrected1; two primary development studies and Victorian government identification table actually read; full prompt saved; science false; no credit.",
@@ -6760,7 +6764,11 @@
         "2026-10-29T10:04:00+08:00: cycle5 #76 v3 REVIEWED after one targeted edit; 1536x1024 and juvenile crop reopened. Adult near-equal/field-inferred contrast and 25-30-day warm-brown down, short rounded growing wing, short tail, small tufts and complete stump support pass; science false.",
         "2026-10-29T10:07:00+08:00: cycle5 #76 v3 ARCHIVED tree prepared; concept 45eb7f2347/635101B, generated 0355c978c9/745798B, crop 60c3b374d6/137773B; manifest502; readback pending; no credit.",
         "2026-10-29T10:10:00+08:00: cycle5 #76 Asio clamator v3 VERIFIED at d46b421e54d86f06b03a7c105dfed07ae354d376; fixed-commit four image blobs matched; manifest502; unique+0; science false; next cycle6.",
-        "2026-10-29T10:12:00+08:00: cycle6 STARTED #77 Asio stygius v3 SCIENCE_REVISION; v1-v2 retained; lease acquired; no credit."
+        "2026-10-29T10:12:00+08:00: cycle6 STARTED #77 Asio stygius v3 SCIENCE_REVISION; v1-v2 retained; lease acquired; no credit.",
+        "2026-10-29T10:19:00+08:00: cycle6 #77 v3 RESEARCH_READY; new1/reused4/corrected1; Lopes et al. 2004 pp423-426/Fig1 actually read; dated 26-27-day non-flying ground nestling selected; science false.",
+        "2026-10-29T10:23:00+08:00: cycle6 #77 v3 IMAGE_GENERATED; 1536x1024 opened; juvenile wings too long/crisp/adult-spotted for dated stage; targeted edit required; no credit.",
+        "2026-10-29T10:28:00+08:00: cycle6 #77 v3 REVIEWED after one targeted edit; full plate and 640x720 crop reopened; short growing wings, near-absent tail, ground support, exact text/count and adult identity pass; science false.",
+        "2026-10-29T10:31:00+08:00: cycle6 #77 v3 ARCHIVED tree prepared; concept 011dea88bf/634865B, generated 3cea43d80e/669564B, crop 56edd7efe5/217840B; manifest503; readback pending; no credit."
       ]
     }
   ],
@@ -7050,7 +7058,11 @@
     "2026-10-29T10:04:00+08:00: #76 v3 REVIEWED after one edit; science false.",
     "2026-10-29T10:07:00+08:00: #76 v3 ARCHIVED; no credit.",
     "2026-10-29T10:10:00+08:00: #76 v3 VERIFIED; batch5/6 next6.",
-    "2026-10-29T10:12:00+08:00: cycle6 STARTED #77 Asio stygius v3; no credit."
+    "2026-10-29T10:12:00+08:00: cycle6 STARTED #77 Asio stygius v3; no credit.",
+    "2026-10-29T10:19:00+08:00: cycle6 #77 v3 RESEARCH_READY; no credit.",
+    "2026-10-29T10:23:00+08:00: #77 v3 IMAGE_GENERATED; edit required; no credit.",
+    "2026-10-29T10:28:00+08:00: #77 v3 REVIEWED after one edit; science false.",
+    "2026-10-29T10:31:00+08:00: #77 v3 ARCHIVED; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-29T0835+0800",
@@ -7059,7 +7071,7 @@
     "species_id": 77,
     "species": "Asio stygius",
     "version": 3,
-    "stage": "STARTED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261029T1012+0800-cycle-6.md"
   }
 }

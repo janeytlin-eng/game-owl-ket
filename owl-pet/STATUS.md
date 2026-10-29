@@ -2080,3 +2080,9 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Revision only; unique species remains 174/251. One edit passed full/crop review; science false.
 
 - VERIFIED at `d46b421e54d86f06b03a7c105dfed07ae354d376`; batch 5/6, next cycle 6.
+
+
+## 2026-10-29 #77 *Asio stygius* v3
+
+- ARCHIVED pending readback: concept `011dea88bf6b395f30b6cdc95080cfb3d2602b55` (634865 B), generated `3cea43d80e20a47000d81a91ab8dd972dd9832c2` (669564 B), crop `56edd7efe5fb328c94f7f7c858cbb1230b12a0e1` (217840 B); manifest503.
+- Revision only; unique species remains 174/251. One edit passed full/crop review; science false.

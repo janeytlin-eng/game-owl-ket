@@ -1824,3 +1824,16 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - **Verified here:** #76 v3 passed full/crop recheck after shortening and softening the juvenile wing. Broader transfer remains species-specific.
 
 - #76 v3 fixed-commit readback VERIFIED at `d46b421e54d86f06b03a7c105dfed07ae354d376`; four image blobs matched; science false.
+
+
+## #77 Stygian Owl — *Asio stygius* — v3 science revision
+
+- Concept: [77-asio-stygius-v3.jpg](concepts/77-asio-stygius-v3.jpg)
+- Research: [species note](../research/species/77-asio-stygius-v3.md)
+- V3 selects a dated 26–27-day Brazilian ground stage, distinct from v2's >1-month branch-capable stage. One edit removed the initial adult-length spotted remiges and reduced the tail; full plate and crop recheck passed. Exact feather geometry and population transfer remain unknown; science false. ARCHIVED, fixed readback pending.
+
+### Treat body size and flight-feather maturity as independent age axes
+
+- **Observed failure:** the first render made a large day-26 nestling look older by giving it long, crisp, adult-spotted flight feathers.
+- **Applied rule:** preserve the evidence-supported large body while independently shortening remiges/rectrices and requiring ground support when the source explicitly says flight was impossible.
+- **Verified here:** #77 v3 passed full/crop recheck after one targeted edit; the juvenile remains large and downy with short growing wings and no branch/flight pose. This rule is not generalized without species-specific evidence.

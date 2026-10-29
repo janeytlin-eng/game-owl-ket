@@ -47,3 +47,8 @@ Exactly three birds; exact title/labels; adult yellow eyes/concentric disks/pale
 ## IMAGE_GENERATED checkpoint
 
 At 2026-10-30T01:20:00+08:00, built-in imagegen produced a 1536×1024 full plate. Full image and 610×760 juvenile crop were opened. Three birds, exact text, adult diagnostics, juvenile colour and two-talon tree support passed. The juvenile wing retained a long layered fan of mature-looking remiges and regular pale rows, so the image was not accepted. A juvenile-wing-only edit is required; science false.
+
+
+## REVIEWED checkpoint
+
+The first render’s juvenile wing had long layered remiges and regular pale rows. One targeted imagegen edit changed only juvenile wing maturity. The edited 1536×1024 full plate and 610×760 crop were reopened: short rounded down-softened wing, two-talon bark grip, body-to-tree support, dark-gray-above/pale-below colour and short tail pass. Adult diagnostics, restrained female fullness, exact text and three-bird count remain. Result PASS_WITH_LIMITATIONS; edit_count 1; scientifically_verified=false.

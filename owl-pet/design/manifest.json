@@ -7040,7 +7040,45 @@
       "review_crop_blob": "23f7f13414719cd909f29519268476e118a715b5",
       "review_crop_size_bytes": 209363,
       "archive_note": "One targeted juvenile-only edit; full and crop reopened. GitHub connector truncation of >~786 KB phase blobs was detected before credit; valid 1536x1024 connector-safe JPEG/PNG archival derivatives replace those blobs. Final reviewed JPEG and crop are exact valid files. Exact age/tract chronology/first-flight/sex ratio remain unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "a8259c009bdbea08655e0a91f819d2810e7ee5fb",
+      "fixed_commit": "a8259c009bdbea08655e0a91f819d2810e7ee5fb",
+      "verified_at": "2026-10-29T11:40:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "tree_truncated": false,
+        "concept": {
+          "path": "design/concepts/78-asio-capensis-v3.jpg",
+          "blob": "d49605cc776fa26260a90dcf147abc27134fd9b2",
+          "size_bytes": 706772
+        },
+        "generated_jpg": {
+          "path": "production/generated/78-asio-capensis-v3-generated-master.jpg",
+          "blob": "63c61820e90d473e4913f1ff6bb9b9eaa778039b",
+          "size_bytes": 588900
+        },
+        "generated_png": {
+          "path": "production/generated/78-asio-capensis-v3-generated-master.png",
+          "blob": "3842463b4583b9f98fe6670a5e1b8d4860df6077",
+          "size_bytes": 707093
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/78-asio-capensis-v3-reviewed-master.jpg",
+          "blob": "d49605cc776fa26260a90dcf147abc27134fd9b2",
+          "size_bytes": 706772
+        },
+        "reviewed_png": {
+          "path": "production/reviewed/78-asio-capensis-v3-reviewed-master.png",
+          "blob": "6b33e6bf2165922ea574b6eebd0be94a7050281c",
+          "size_bytes": 727118
+        },
+        "review_crop": {
+          "path": "production/reviewed/78-asio-capensis-v3-juvenile-review-crop.jpg",
+          "blob": "23f7f13414719cd909f29519268476e118a715b5",
+          "size_bytes": 209363
+        },
+        "fixed_commit": "a8259c009bdbea08655e0a91f819d2810e7ee5fb"
+      }
     }
   ],
   "updated_at": "2026-10-29T10:34:00+08:00"

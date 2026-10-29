@@ -2,7 +2,7 @@
 
 - Concept: [78-asio-capensis-v3.jpg](concepts/78-asio-capensis-v3.jpg)
 - Research: [source index](../research/SOURCE_INDEX.md#2026-10-29-78-asio-capensis-v3-early-fledgling-capability-and-current-taxonomy-boundary)
-- Stage: ARCHIVED; fixed readback pending. V3 uses an evidence-bounded 29–35-day early fledgling and preserves v2's 14–18-day crawler as history. One juvenile-only edit removed adult-regular wing rows/hard remiges and shortened the tail. Exact age/tract chronology/first-flight threshold/sex ratio remain unknown; science false.
+- Stage: VERIFIED at `a8259c009bdbea08655e0a91f819d2810e7ee5fb`; recursive tree and exact blob/size pairs for concept, generated/reviewed JPEG+PNG and crop passed. V3 uses an evidence-bounded 29–35-day early fledgling and preserves v2's 14–18-day crawler as history. One juvenile-only edit removed adult-regular wing rows/hard remiges and shortened the tail. Exact age/tract chronology/first-flight threshold/sex ratio remain unknown; science false.
 
 ### Separate locomotor readiness from adult-like vane patterning
 

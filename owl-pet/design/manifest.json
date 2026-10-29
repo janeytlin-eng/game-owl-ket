@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T20:53:00+08:00",
+  "updated": "2026-10-29T21:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8594,7 +8594,47 @@
         "fixed_commit": "3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5",
         "local_git_hash_object_matches": true
       }
+    },
+    {
+      "id": "143-asio-solomonensis-v2",
+      "path": "design/concepts/143-asio-solomonensis-v2.jpg",
+      "species_id": 143,
+      "scientific_name": "Asio solomonensis",
+      "historical_names": ["Nesasio solomonensis", "Pseudoptynx solomonensis"],
+      "common_name": "Fearful Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 143,
+      "sha256": "636925786156bd8a57ea45c17793d781b335b43c54cf7283e152ce9e7e86df78",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION using the species-specific rescued young in Loyn & Debus 2000. Adults are near-equal scale because no quantified sex ratio was found. Center older juvenile, exact age unknown, has long pale unbarred down, dark mask, orange-yellow eyes, blue-grey cere, black bill, grey feet and a compact emerging barred wing while securely perching. Flight, exact age/sex, continuous feather sequence and universal nest remain unknown.",
+      "source_ids": ["FEO-LOYN-DEBUS2000", "FEO-BIRDNET-2026-TAX", "FEO-OWLPAGES2020"],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/143-asio-solomonensis-v2.md",
+      "run_record": "production/runs/20261029T2055+0800-cycle-2.md",
+      "reviewed_at": "2026-10-29T21:43:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 414669,
+      "git_blob": "dd82eb732e1260d6410e19252b24a99dec994d4e",
+      "generated_path": "production/generated/143-asio-solomonensis-v2-generated.jpg",
+      "generated_blob": "3bc8c47ba16553783044d352bac8018d7da3105b",
+      "generated_sha256": "d9421541121692b822e5d307ef5355d2b02a61b049131a8c14d7faf97b9b7921",
+      "generated_size_bytes": 405126,
+      "reviewed_path": "production/reviewed/143-asio-solomonensis-v2-reviewed.jpg",
+      "reviewed_blob": "dd82eb732e1260d6410e19252b24a99dec994d4e",
+      "reviewed_sha256": "636925786156bd8a57ea45c17793d781b335b43c54cf7283e152ce9e7e86df78",
+      "reviewed_size_bytes": 414669,
+      "review_crop_path": "production/reviewed/143-asio-solomonensis-v2-juvenile-crop.jpg",
+      "review_crop_blob": "200c2b399328e72c25dcf6d1011f2a2026dff177",
+      "review_crop_sha256": "9dc44e0a4836f5eb63ab8a121b6a4c449e305397884d0e12f5fd2b8b06aa1a17",
+      "review_crop_size_bytes": 124576,
+      "archive_note": "Recovered a generated render and its one-edit derivative after an expired lease rather than regenerating. One targeted imagegen edit shortened and compacted the juvenile wing. Full image and juvenile crop were reopened. Evidence boundaries and unknowns remain explicit; science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verification_result": "pending fixed-commit readback"
     }
   ],
-  "updated_at": "2026-10-29T20:53:00+08:00"
+  "updated_at": "2026-10-29T21:47:00+08:00"
 }

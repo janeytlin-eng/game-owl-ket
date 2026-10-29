@@ -7315,12 +7315,12 @@
         "run_id": "20261029T2055+0800-cycle-2",
         "cycle": 2,
         "species_id": 143,
-        "heartbeat_at": "2026-10-29T21:43:00+08:00",
-        "expires_at": "2026-10-29T21:58:00+08:00"
+        "heartbeat_at": "2026-10-29T21:47:00+08:00",
+        "expires_at": "2026-10-29T22:02:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261029T2055+0800-cycle-2",
         "species": "Asio solomonensis",
         "species_id": 143,
@@ -7347,10 +7347,15 @@
           "juvenile_crop_git_blob": "200c2b399328e72c25dcf6d1011f2a2026dff177",
           "edit_count": 1,
           "review_result": "PASS_WITH_LIMITATIONS",
+          "concept": "owl-pet/design/concepts/143-asio-solomonensis-v2.jpg",
+          "concept_bytes": 414669,
+          "concept_git_blob": "dd82eb732e1260d6410e19252b24a99dec994d4e",
+          "manifest_entry": 527,
+          "archive_commit": "PENDING_CURRENT_COMMIT",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T21:43:00+08:00",
+      "last_updated_at": "2026-10-29T21:47:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7362,7 +7367,8 @@
         "2026-10-29T20:57:00+08:00: cycle2 #143 v2 RESEARCH_READY; new1/reused2/corrected1. Loyn & Debus 2000 printed pp.288–289 and Plate 79 re-read; current Asio name reconciled through BirdNET+; full prompt saved; science false. No production credit.",
         "2026-10-29T21:36:00+08:00: expired cycle2 lease reconciled at unchanged RESEARCH_READY main dcadf5af77ef75d98be99bba5c97734616e3805e. Recoverable local generated and edited image artifacts found; lease reacquired to inspect and persist them without regeneration. No production credit.",
         "2026-10-29T21:40:00+08:00: cycle2 #143 v2 IMAGE_GENERATED checkpoint persisted from recoverable initial render. Full 1536x1024 image had been opened; exact count/text/adult support passed, but juvenile wing required the already-produced targeted edit. No production credit.",
-        "2026-10-29T21:43:00+08:00: cycle2 #143 v2 REVIEWED after one targeted edit. Edited 1536x1024 full image and 620x760 juvenile crop reopened: three birds/text/support/near-equal adults pass; juvenile retains long pale down, dark mask, orange-yellow eyes, grey feet and short emerging barred wing. Exact age/sex/flight threshold remain unknown; science false; no credit."
+        "2026-10-29T21:43:00+08:00: cycle2 #143 v2 REVIEWED after one targeted edit. Edited 1536x1024 full image and 620x760 juvenile crop reopened: three birds/text/support/near-equal adults pass; juvenile retains long pale down, dark mask, orange-yellow eyes, grey feet and short emerging barred wing. Exact age/sex/flight threshold remain unknown; science false; no credit.",
+        "2026-10-29T21:47:00+08:00: cycle2 #143 v2 ARCHIVED; concept, generated/reviewed JPEG masters, juvenile crop, manifest527, knowledge/status and run records staged. Fixed commit-pinned readback pending; no cycle credit."
       ]
     }
   ],
@@ -7371,8 +7377,8 @@
     "run_id": "20261029T2055+0800-cycle-2",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 2,
-    "heartbeat_at": "2026-10-29T21:43:00+08:00",
-    "expires_at": "2026-10-29T21:58:00+08:00"
+    "heartbeat_at": "2026-10-29T21:47:00+08:00",
+    "expires_at": "2026-10-29T22:02:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7479,7 +7485,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T21:43:00+08:00",
+  "updated_at": "2026-10-29T21:47:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7492,10 +7498,10 @@
     "run_id": "20261029T2055+0800-cycle-2",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 2,
-    "heartbeat_at": "2026-10-29T21:43:00+08:00",
-    "expires_at": "2026-10-29T21:58:00+08:00"
+    "heartbeat_at": "2026-10-29T21:47:00+08:00",
+    "expires_at": "2026-10-29T22:02:00+08:00"
   },
-  "last_updated_at": "2026-10-29T21:43:00+08:00",
+  "last_updated_at": "2026-10-29T21:47:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7764,6 +7770,6 @@
     "species": "Asio solomonensis",
     "species_id": 143,
     "version": 2,
-    "stage": "REVIEWED"
+    "stage": "ARCHIVED"
   }
 }

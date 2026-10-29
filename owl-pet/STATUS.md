@@ -2165,3 +2165,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Counts: numbered species IDs **185/251**; reconciled unique species **175/251**; revision adds zero.
 - Research: 1 new / 2 reused / 1 corrected. Loyn & Debus 2000 printed pp.288–289 / PDF pp.1–2 and Plate 79 support the active railing-perching young, long pale unbarred down, dark mask, orange-yellow eyes, grey feet and emerging barred wing; current *Asio* name is reconciled through BirdNET+.
 - Review: one targeted edit shortened and compacted the juvenile wing. Full 1536×1024 image and 620×760 juvenile crop reopened; exact count/text/support and evidence-bounded young pass with limitations. Exact age, sex, first-flight threshold, continuous feather sequence and universal nest remain unknown; science false.
+
+- 2026-10-29T21:51:00+08:00 — #143 *Asio solomonensis* v2 fixed-tree readback passed at archive `636309f2aa7c89a224eba688005a0e2399024d88`; exact concept/generated/reviewed/crop blobs and sizes plus manifest527 matched. Batch **2/6**, next cycle 3. Unique remains **175/251** reconciled species and **185/251** numbered IDs; science false.

@@ -8630,10 +8630,20 @@
       "review_crop_sha256": "9dc44e0a4836f5eb63ab8a121b6a4c449e305397884d0e12f5fd2b8b06aa1a17",
       "review_crop_size_bytes": 124576,
       "archive_note": "Recovered a generated render and its one-edit derivative after an expired lease rather than regenerating. One targeted imagegen edit shortened and compacted the juvenile wing. Full image and juvenile crop were reopened. Evidence boundaries and unknowns remain explicit; science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verification_result": "pending fixed-commit readback"
+      "readback_pending": false,
+      "archive_commit": "636309f2aa7c89a224eba688005a0e2399024d88",
+      "fixed_commit": "636309f2aa7c89a224eba688005a0e2399024d88",
+      "verified_at": "2026-10-29T21:51:00+08:00",
+      "verification_result": "non-truncated 1764-entry commit-pinned tree; four exact JPEG/crop path/blob/size pairs matched local git hash-object; manifest, run, source index, research and knowledge records reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {"path": "design/concepts/143-asio-solomonensis-v2.jpg", "blob": "dd82eb732e1260d6410e19252b24a99dec994d4e", "size_bytes": 414669},
+        "generated_jpg": {"path": "production/generated/143-asio-solomonensis-v2-generated.jpg", "blob": "3bc8c47ba16553783044d352bac8018d7da3105b", "size_bytes": 405126},
+        "reviewed_jpg": {"path": "production/reviewed/143-asio-solomonensis-v2-reviewed.jpg", "blob": "dd82eb732e1260d6410e19252b24a99dec994d4e", "size_bytes": 414669},
+        "review_crop": {"path": "production/reviewed/143-asio-solomonensis-v2-juvenile-crop.jpg", "blob": "200c2b399328e72c25dcf6d1011f2a2026dff177", "size_bytes": 124576},
+        "fixed_commit": "636309f2aa7c89a224eba688005a0e2399024d88",
+        "local_git_hash_object_matches": true
+      }
     }
   ],
   "updated_at": "2026-10-29T21:47:00+08:00"

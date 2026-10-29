@@ -1246,3 +1246,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 - Added a dated 26–27-day non-flying ground-nestling revision from Lopes et al. (2004).
 - Edited the over-mature juvenile flight feathers, then rechecked the complete plate and juvenile crop. Archive readback pending.
+
+- Fixed-commit readback verified #77 v3 at `91fcf381020a6f9d4ff402fc7478f7e52555570a`; batch `2026-10-29T0835+0800` closed COMPLETE 6/6.

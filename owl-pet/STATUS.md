@@ -2086,3 +2086,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 - ARCHIVED pending readback: concept `011dea88bf6b395f30b6cdc95080cfb3d2602b55` (634865 B), generated `3cea43d80e20a47000d81a91ab8dd972dd9832c2` (669564 B), crop `56edd7efe5fb328c94f7f7c858cbb1230b12a0e1` (217840 B); manifest503.
 - Revision only; unique species remains 174/251. One edit passed full/crop review; science false.
+
+- VERIFIED at archive `91fcf381020a6f9d4ff402fc7478f7e52555570a`; all four image blobs/sizes and manifest503 matched. Batch `2026-10-29T0835+0800` is COMPLETE 6/6; unique species remains 174/251; science false.

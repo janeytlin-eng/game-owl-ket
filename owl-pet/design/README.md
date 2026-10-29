@@ -1837,3 +1837,5 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - **Observed failure:** the first render made a large day-26 nestling look older by giving it long, crisp, adult-spotted flight feathers.
 - **Applied rule:** preserve the evidence-supported large body while independently shortening remiges/rectrices and requiring ground support when the source explicitly says flight was impossible.
 - **Verified here:** #77 v3 passed full/crop recheck after one targeted edit; the juvenile remains large and downy with short growing wings and no branch/flight pose. This rule is not generalized without species-specific evidence.
+
+- 2026-10-29T10:34:00+08:00: #77 v3 fixed-commit readback VERIFIED at `91fcf381020a6f9d4ff402fc7478f7e52555570a`; four image paths/blobs/sizes matched, manifest503 confirmed, science false; batch COMPLETE 6/6.

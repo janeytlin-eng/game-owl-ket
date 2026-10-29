@@ -1794,3 +1794,16 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - **Observed failure:** #71 v2 used a recent-fledgling label but retained a short-winged, almost hidden-tail chick silhouette; the v3 first render then overcorrected with adult-like white spot rows.
 - **Applied rule:** if a primary study records fledglings roosting several metres high immediately after leaving the hollow, preserve developed folded wings, visible tail and firm grip. Encode youth through species-specific collar, nape, streak density and softer irregular markings rather than reducing flight surfaces or copying adult pattern rows.
 - **Verified here:** #71 *Ninox connivens* v3 passed full and crop recheck after one targeted edit. Transfer requires species-specific evidence.
+
+
+## #75 Brown Boobook — *Ninox scutulata* — v3 science revision
+
+- Concept: [75-ninox-scutulata-v3.jpg](concepts/75-ninox-scutulata-v3.jpg)
+- Research: [species note](../research/species/75-ninox-scutulata-v3.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29-75-ninox-scutulata-v3-singapore-branch-dependent-juvenile-and-taxonomy-transfer-boundary)
+- Stage: ARCHIVED; fixed readback pending. One targeted edit removed adult pale wing scallops and softened the juvenile's adult-like regular wing edges. Science false.
+
+### Taxonomic-transfer exclusion is a design rule, not missing research
+
+- **Observed failure:** older literature under broad *Ninox scutulata* can describe Japanese populations now separated from the Singapore design taxon; copying its rectrix-ageing details would falsely increase apparent precision.
+- **Applied rule:** read and index the source, map the old name, then explicitly exclude population-specific feather/stage claims from direct design transfer unless current taxonomy and geographic applicability are demonstrated.
+- **Verified here:** v3 uses Singapore institutional/field evidence for adult identity, habitat and branch-dependent juvenile action; the Japanese rectrix/feeding papers are retained only as excluded leads. The edited plate and crop passed visual recheck; broader transfer still requires species-specific evidence.

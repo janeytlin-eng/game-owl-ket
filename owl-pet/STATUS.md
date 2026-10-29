@@ -2063,3 +2063,10 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Image: [design/concepts/60-ketupa-flavipes-v3.jpg](design/concepts/60-ketupa-flavipes-v3.jpg)
 - Research: 1 new / 4 reused / 1 corrected inference. SPNP/PTS directly reports 30 d and 40 d Wuling chicks and provides a credited nest photograph; Wang 2013 gives a local 56–57 d nestling period.
 - Review: one juvenile-only edit softened adult-regular wing marks while retaining developed folded juvenile wings and a medium developing tail. Full 1536×1024 reviewed JPEG reopened; count/text/adults/yellow eyes/bare lower tarsi/Y-fork support pass. Exact feather geometry, flight threshold, sex ratio and regional variation remain unknown. Science false; readback pending.
+
+
+## 2026-10-29 #75 *Ninox scutulata* v3 science revision
+
+- ARCHIVED pending immutable readback: concept `f6dfcd6ae5643d3b5c0b563ee6db2ae6ca519d3f` (647568 B), generated `9faf2b02ae732da87c0d50a5ded62f435f674800` (697501 B), reviewed same as concept, crop `109085a479c02c5336bdd0a516f9da9b669ad949` (170051 B).
+- Unique species remains 174/251; numbered archive records become 501 after commit. This is a revision, not a new species.
+- One targeted edit passed full/crop review. Exact Singapore subspecies, juvenile age, sex ratio and fine feather chronology remain unknown; scientifically_verified=false.

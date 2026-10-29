@@ -2155,3 +2155,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Counts after archive: numbered species IDs **185/251**; reconciled unique scientific-name slugs **175/251** because ten legacy duplicate-name IDs remain preserved. This v1 adds one real species and one numeric ID.
 - Research: 3 new / 2 reused / 1 corrected decision. MNHN printed p.16 confirms a species-specific immature specimen under the old name; BirdForum says juveniles resemble adults but breeding remains unknown; Mikkola p.139 still blocks a chick stage.
 - Review: two edits shortened adult tufts/reduced broad white shoulder patches and replaced the immature's long layered remiges with a compact rounded soft formed wing. Full plate and crop reopened. Exact age, iris, feather chronology, flight and nest unknown. Science false.
+
+- 2026-10-29T20:53:00+08:00 — #179 *Otus mayottensis* v1 independently verified at archive `3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5`; exact concept/generated/reviewed/crop blobs and sizes plus manifest526 matched. Reconciled unique species is **175/251**; numbered IDs **185/251**; batch **1/6**, next cycle 2. Science false.

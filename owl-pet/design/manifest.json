@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T20:51:00+08:00",
+  "updated": "2026-10-29T20:53:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8564,8 +8564,37 @@
       "review_crop_size_bytes": 113461,
       "review_crop_sha256": "27f4470f06f87f137470fab38f80fba34b51efd4c18300ef748046b550e8f432",
       "archive_note": "Two targeted edits: first shortened adult tufts/reduced bold white shoulders and softened the immature wing; second removed residual long layered adult-like remiges from the immature only. Full image and 620×760 crop reopened. Older-immature evidence is bounded and science remains false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5",
+      "fixed_commit": "3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5",
+      "verified_at": "2026-10-29T20:53:00+08:00",
+      "verification_result": "non-truncated 1758-entry commit-pinned tree; four exact JPEG/crop path/blob/size pairs matched local git hash-object; manifest, run, source index, research and knowledge records reopened",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/179-otus-mayottensis-v1.jpg",
+          "blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
+          "size_bytes": 347947
+        },
+        "generated_jpg": {
+          "path": "production/generated/179-otus-mayottensis-v1-generated-master.jpg",
+          "blob": "254faab39a5ea0ced8a1bdd96777b1e24afd95d5",
+          "size_bytes": 409146
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/179-otus-mayottensis-v1-reviewed-master.jpg",
+          "blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
+          "size_bytes": 347947
+        },
+        "review_crop": {
+          "path": "production/reviewed/179-otus-mayottensis-v1-reviewed-immature-crop.jpg",
+          "blob": "b3535c6ad7f78ccd2880a7313e2b874e701976c2",
+          "size_bytes": 113461
+        },
+        "fixed_commit": "3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5",
+        "local_git_hash_object_matches": true
+      }
     }
   ],
-  "updated_at": "2026-10-29T20:51:00+08:00"
+  "updated_at": "2026-10-29T20:53:00+08:00"
 }

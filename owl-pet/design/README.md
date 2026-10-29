@@ -2035,3 +2035,5 @@ A documented older mesoptile may legitimately show formed wings. Correction shou
 ### Incremental rule — “juvenile unknown” can coexist with an older immature specimen, but does not authorize a chick
 
 When a guide says the juvenile is unknown but a museum paper confirms an immature specimen and a separate secondary account says juveniles resemble adults, narrow the design to an explicitly age-unknown older immature. Do not infer neonatal down, nest, iris, feather chronology or flight. Applied to #179 v1; two image edits removed adult leakage and the final crop was checked. Broader transfer requires the same evidence combination.
+
+- 2026-10-29T20:53:00+08:00 — #179 v1 fixed-tree VERIFIED at `3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5`; four path/blob/size checks and local Git hashes matched; manifest526 confirmed; science false.

@@ -1,3 +1,48 @@
+# 2026-10-29 · #89 *Bubo bengalensis* v3 — c.35-day full-juvenile-plumage, pre-flight-inference boundary
+
+## BEN-PANDE-DAHANUKAR2011
+
+- **Stable source ID:** `BEN-PANDE-DAHANUKAR2011`
+- **Title / authors / year:** “Ecological effects on morphometric development of the Indian Eagle Owl *Bubo bengalensis*”; Satish Pande & Neelesh Dahanukar; 2011.
+- **DOI / original URL:** https://doi.org/10.11609/JoTT.o2609.1677-85 ; author-uploaded article page read at https://www.researchgate.net/publication/230777101_Ecological_effects_on_morphometric_development_of_the_Indian_Eagle_Owl_Bubo_bengalensis
+- **Accessed:** 2026-10-29.
+- **Source type:** peer-reviewed primary morphometric study; Journal of Threatened Taxa 3(4):1677–1685.
+- **Taxon / stage:** *Bubo bengalensis*; 16 young aged 1–58 days.
+- **Actually read:** complete abstract and article metadata on the author-uploaded page; variables, sample and conclusions were checked against the journal citation.
+- **Source facts:** wing, tarsus, claw, beak, tail and body mass were measured across 1–58 days. Growth of characters was loosely coupled, and the authors reported geographical/environmental developmental plasticity.
+- **Limits / conflicts:** the accessible text did not expose a day-by-day colour/feather plate; n=16 and local ecology do not justify a universal flight day. Morphometric development cannot be inferred from “fully feathered” alone.
+- **Design / review decision:** v3 may use the independent 35-day plumage observation from BEN-RAM2009, but must not turn that into a flight claim or mature adult proportions; keep a grounded/crouched bird with a shorter juvenile tail and folded wings.
+- **Links:** [species card](../knowledge/species/89-bubo-bengalensis.md) · [v3 concept](../design/concepts/89-bubo-bengalensis-v3.jpg) · [run](../production/runs/20261029T1446+0800-cycle-5.md)
+
+## BEN-RAMANUJAM2015-BEHAVIOR
+
+- **Stable source ID:** `BEN-RAMANUJAM2015-BEHAVIOR`
+- **Title / author / year:** “Time Budget and Behavioral Pattern of the Indian Eagle Owl *Bubo bengalensis* during the Breeding Season”; M. E. Ramanujam; 2015.
+- **Original URL:** https://www.researchgate.net/publication/283089932_Time_Budget_and_Behavioral_Pattern_of_the_Indian_Eagle_Owl_Bubo_bengalensis_during_the_Breeding_Season
+- **Accessed:** 2026-10-29.
+- **Source type:** primary focal-family behavioural study; author-uploaded article/abstract.
+- **Taxon / stage:** one *B. bengalensis* family at the nest, January–March 2011; dependent young.
+- **Actually read:** complete abstract and full-text excerpts on the author page, including young-bird activity and nest-leaving descriptions.
+- **Source facts:** young spent most observed time resting or moving; feeding, pellet casting and wing flapping were less frequent. They became more active after about 10 days and gradually moved outside the immediate nest area at about 20 days; the account reports self-feeding on delivered prey while still dependent.
+- **Limits / conflicts:** one family and behavioural observations do not define plumage for every day or prove sustained flight; “left the nest” is not synonymous with fledging/flight.
+- **Design / review decision:** use only to diversify the c.35-day juvenile into a natural low resting/crouched pose on a supported mineral ledge. Do not show flight, aerial wing exercise or unsupported branch perching.
+- **Links:** [species card](../knowledge/species/89-bubo-bengalensis.md) · [v3 concept](../design/concepts/89-bubo-bengalensis-v3.jpg) · [run](../production/runs/20261029T1446+0800-cycle-5.md)
+
+## Reused evidence and corrected inference
+
+- **BEN-RAM2009:** full primary PDF re-read, especially printed pp.519–521 and plate sequence. It documents whitish natal down and closed eyes at 0–5 days, pin sheaths/eyes open at 7 days, onset of prejuvenile moult around 14–15 days, and full juvenile plumage by about 35 days, persisting beyond 60 days. Its Puducherry sample is preliminary; the paper warns against broad generalisation.
+- **BEN-MIK2013-274:** adult boundary reused: orange-yellow eyes, greenish-horn/slate-black bill, brown ear tufts/dark crown, tawny-brown black-mottled upperparts, small upper-breast streaks and fine/faint lower crossbars. Female wing/tail measurements are longer, but sexed masses are unavailable; do not state “female heavier.”
+- **Corrected design inference:** v1/v2 used the well-supported neonatal stage. v3 deliberately changes to the separately documented c.35-day full-juvenile-plumage stage. “Full juvenile plumage” is not “adult plumage” and not proof of flight ability; growth variables are decoupled.
+- **Unknown:** exact individual hatch date, sex, subspecies/local morph, colour calibration, and a quantified first-flight threshold. Science remains false. The user-uploaded Heimo Mikkola file was unavailable in this runtime; no page citation is invented.
+
+## Full image-generation prompt
+
+Create a landscape 3:2 natural-history concept plate in the repository’s established warm, painterly-realistic wildlife style, titled “INDIAN EAGLE-OWL” with italic subtitle “Bubo bengalensis”. Show exactly three birds, left-to-right, with exact bottom labels “ADULT MALE”, “~35-DAY JUVENILE”, “ADULT FEMALE”. Place them in a rocky semi-desert ravine at warm dawn/dusk, with mineral ledges, sparse dry scrub and natural contact shadows; no frame, UI, scale bars, prey, eggs or extra birds.
+
+Adults: near-equal visible body height; do not make the female categorically heavier. The female may have a subtly longer closed wing/tail only. Both have orange-yellow irises, a greenish-horn to slate-black bill, prominent brown ear tufts, dark crown, white brows and blackish facial ruff; tawny-brown upperparts mottled black; small narrow dark upper-breast streaks and fine faint lower-belly crossbars, not a solid dark Cape-Eagle-Owl breastplate. Feathered reddish-yellow tarsi/toes with only cautiously suggested greyer bare outer joints and dark claws. Both feet naturally supported.
+
+Centre juvenile: explicitly approximately 35 days, at the documented full juvenile plumage stage, not a neonatal chick and not a miniature adult. Rounded juvenile proportions, softer buff-grey/tawny juvenile contour plumage, folded developing wings with complete juvenile cover but no exaggerated adult-hard regular barring, shorter tail, residual softer texture around head/shoulders, orange-yellow opening-to-bright eyes and dark small bill. Resting/crouched low on a broad mineral ledge with both feet/support visible; wings closed, no airborne pose, no claim of sustained flight. Keep clear age contrast while avoiding unsupported exact feather-count or sex claims.
+
 # 2026-10-29 · #88 *Bubo capensis* v4 — approximately 45-day pre-flight nest-leaving boundary
 
 ## CAP-OGADA-KIBUTHU2012

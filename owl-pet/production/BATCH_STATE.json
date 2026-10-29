@@ -6811,33 +6811,33 @@
         "run_id": "20261029T1158+0800-cycle-3",
         "species": "Otus sunia",
         "cycle": 3,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-29T11:56:00+08:00",
-        "expires_at": "2026-10-29T12:11:00+08:00",
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-29T11:58:00+08:00",
+        "expires_at": "2026-10-29T12:13:00+08:00",
         "run_record": "owl-pet/production/runs/20261029T1158+0800-cycle-3.md"
       },
       "cycle_checkpoint": {
         "cycle": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261029T1158+0800-cycle-3",
         "evidence": {
+          "concept_blob": "2baf44d82bc49bc800cb5e640abf8697388312c2",
+          "generated_jpg_blob": "d9eada4a3faefade7f1f66761595f8f3de554102",
+          "generated_jpg_size_bytes": 478836,
+          "generated_png_blob": "fa10b631d05ea2f217ae7917782ad4677f9146de",
+          "generated_png_size_bytes": 776733,
           "reviewed_jpg_blob": "2baf44d82bc49bc800cb5e640abf8697388312c2",
           "reviewed_jpg_size_bytes": 426979,
-          "reviewed_jpg_sha256": "4e54829487eeaa4c30ecbb4507da1dc5356a4ce37948a339f826185764b6502e",
           "reviewed_png_blob": "03d29bf7ba109c143470527fb518ae39d9cf02fe",
           "reviewed_png_size_bytes": 717357,
-          "reviewed_png_sha256": "eae6dce1fc442d6d702f6f7f1dabeac4b4d08d18fd2e761176b32ac6756b3a37",
           "review_crop_blob": "f8e7b89e3f3470762695e693ce8868a4f67feef3",
           "review_crop_size_bytes": 166805,
-          "review_crop_sha256": "adac9b89caf2568a9ce38c90ac3a523888c38a1c2952bddfbc84fc491e6e44a8",
-          "dimensions": "1536x1024",
-          "crop_dimensions": "620x650",
-          "edit_count": 1,
-          "result": "PASS_WITH_LIMITATIONS; long patterned juvenile feathers replaced by short grey opening sheaths; full and crop reopened; adults/text/support unchanged",
+          "manifest_record": 506,
+          "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T11:56:00+08:00",
+      "last_updated_at": "2026-10-29T11:58:00+08:00",
       "audit_notes": [
         "2026-10-29T10:36:00+08:00: batch started cycle1 #78 Asio capensis v3 SCIENCE_REVISION; v1-v2 retained; no other open batch; 15-minute lease acquired; no credit.",
         "2026-10-29T10:41:00+08:00: cycle1 #78 v3 RESEARCH_READY; new2/reused4/corrected1; BirdLife 2025 and Hanane & Cherkaoui 2014 actually read; later early-fledgling boundary selected; science false.",
@@ -6856,7 +6856,8 @@
         "2026-10-29T11:48:00+08:00: cycle3 #80 Otus sunia v3 STARTED; v1-v2 retained; target precise stage/feather sequence/flight-threshold gaps; lease acquired; no credit.",
         "2026-10-29T11:50:00+08:00: corrected cycle3 STARTED timestamp from future-offset 11:58 to actual 11:48 before credit; #80 v3 RESEARCH_READY new2/reused2/corrected1; science false.",
         "2026-10-29T11:54:00+08:00: cycle3 #80 v3 IMAGE_GENERATED; full plate opened. Count/text/adults/support pass; juvenile dark wing feathers too long, vaned and patterned for 7–10-day just-opening sheaths; targeted juvenile-wing edit required; no credit.",
-        "2026-10-29T11:56:00+08:00: cycle3 #80 v3 REVIEWED after one juvenile-only edit; full plate and 620x650 crop reopened. Short grey opening sheaths/no tail/cream down/brown eyes/tarsus support pass; adults/text unchanged; science false; no credit."
+        "2026-10-29T11:56:00+08:00: cycle3 #80 v3 REVIEWED after one juvenile-only edit; full plate and 620x650 crop reopened. Short grey opening sheaths/no tail/cream down/brown eyes/tarsus support pass; adults/text unchanged; science false; no credit.",
+        "2026-10-29T11:58:00+08:00: cycle3 #80 v3 ARCHIVED; concept/generated/reviewed JPEG+PNG and crop stored; manifest 506 pending readback; science false; no credit."
       ]
     }
   ],
@@ -6865,9 +6866,9 @@
     "run_id": "20261029T1158+0800-cycle-3",
     "species": "Otus sunia",
     "cycle": 3,
-    "stage": "REVIEWED",
-    "heartbeat_at": "2026-10-29T11:56:00+08:00",
-    "expires_at": "2026-10-29T12:11:00+08:00",
+    "stage": "ARCHIVED",
+    "heartbeat_at": "2026-10-29T11:58:00+08:00",
+    "expires_at": "2026-10-29T12:13:00+08:00",
     "run_record": "owl-pet/production/runs/20261029T1158+0800-cycle-3.md",
     "batch_id": "2026-10-29T1036+0800",
     "species_id": 80,
@@ -6966,7 +6967,7 @@
     "2026-10-28T07:58:12.000+08:00: batch 2026-10-28T0508+0800 closes 6/6 with cycle6 #06 Asio otus v3 SCIENCE_REVISION verified at archive 474b983ccf6183426cafcc227921067188b5d7f1. Unique species remains 184/251; no active lease; science false.",
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit."
   ],
-  "updated_at": "2026-10-29T11:56:00+08:00",
+  "updated_at": "2026-10-29T11:58:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -6979,15 +6980,15 @@
     "run_id": "20261029T1158+0800-cycle-3",
     "species": "Otus sunia",
     "cycle": 3,
-    "stage": "REVIEWED",
-    "heartbeat_at": "2026-10-29T11:56:00+08:00",
-    "expires_at": "2026-10-29T12:11:00+08:00",
+    "stage": "ARCHIVED",
+    "heartbeat_at": "2026-10-29T11:58:00+08:00",
+    "expires_at": "2026-10-29T12:13:00+08:00",
     "run_record": "owl-pet/production/runs/20261029T1158+0800-cycle-3.md",
     "batch_id": "2026-10-29T1036+0800",
     "species_id": 80,
     "version": 3
   },
-  "last_updated_at": "2026-10-29T11:56:00+08:00",
+  "last_updated_at": "2026-10-29T11:58:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7124,7 +7125,8 @@
     "2026-10-29T11:58:00+08:00: cycle3 #80 STARTED.",
     "2026-10-29T11:50:00+08:00: #80 timestamp correction and RESEARCH_READY persisted; no credit.",
     "2026-10-29T11:54:00+08:00: #80 IMAGE_GENERATED persisted; targeted edit required; no credit.",
-    "2026-10-29T11:56:00+08:00: #80 REVIEWED persisted; edit_count1; no credit."
+    "2026-10-29T11:56:00+08:00: #80 REVIEWED persisted; edit_count1; no credit.",
+    "2026-10-29T11:58:00+08:00: #80 ARCHIVED; readback pending."
   ],
   "audit_trail": [
     {
@@ -7181,7 +7183,8 @@
     "2026-10-29T11:58:00+08:00: cycle3 #80 start checkpoint.",
     "2026-10-29T11:50:00+08:00: #80 RESEARCH_READY, start time corrected.",
     "2026-10-29T11:54:00+08:00: #80 IMAGE_GENERATED.",
-    "2026-10-29T11:56:00+08:00: #80 REVIEWED."
+    "2026-10-29T11:56:00+08:00: #80 REVIEWED.",
+    "2026-10-29T11:58:00+08:00: #80 ARCHIVED."
   ],
   "in_progress": {
     "batch_id": "2026-10-29T1036+0800",
@@ -7190,7 +7193,7 @@
     "species_id": 80,
     "species": "Otus sunia",
     "version": 3,
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261029T1158+0800-cycle-3.md"
   }
 }

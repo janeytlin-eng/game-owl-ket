@@ -1,3 +1,15 @@
+## #80 Oriental Scops Owl — *Otus sunia* — v3 science revision
+
+- Concept: [80-otus-sunia-v3.jpg](concepts/80-otus-sunia-v3.jpg)
+- Research: [species card](../knowledge/species/80-otus-sunia.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--80-otus-sunia-v3--710-day-pin-feather-cavity-stage)
+- Stage: ARCHIVED; fixed readback pending. V3 selects a 7–10-day white-down, brown-eyed cavity chick with just-opening short remige sheaths and no rectrix fan. One edit removed long patterned juvenile feathers; full and crop recheck passed. Science false.
+
+### “Pin feathers beginning” forbids long patterned vane fans
+
+- Discovery: imagegen turned a few opening remige sheaths into long, white-patterned vaned feathers despite the early-age prompt.
+- Applied here: require short grey sheaths hugging the wing stub, minimal soft tips, no patterned vane fan and no rectrices.
+- Verified here: edited full plate and juvenile crop passed while adults/text/support stayed stable. This is validated for #80’s selected stage only.
+
 ## #79 Collared Scops Owl — *Otus lettia* — v3 science revision
 
 - Concept: [79-otus-lettia-v3.jpg](concepts/79-otus-lettia-v3.jpg)

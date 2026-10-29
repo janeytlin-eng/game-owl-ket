@@ -1,3 +1,7 @@
+## 2026-10-29 — #80 Oriental Scops Owl v3
+
+- Added evidence-bounded 7–10-day white-down/pin-sheath cavity revision; one juvenile-wing correction passed full+crop review. V1–v2 preserved; unique remains 184/251; science false; fixed readback pending.
+
 ## 2026-10-29 — #79 Collared Scops Owl v3
 
 - Added species-specific 11–15-day cavity-nestling revision from the Thailand development sequence; full and crop review passed without edit. Fixed-tree readback passed at `731714d9ca44a9e750f413be73b28ce57676222a`; v1–v2 preserved, unique remains 184/251, science false.

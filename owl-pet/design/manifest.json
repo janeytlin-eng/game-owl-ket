@@ -6898,8 +6898,34 @@
       "review_crop_blob": "109085a479c02c5336bdd0a516f9da9b669ad949",
       "review_crop_size_bytes": 170051,
       "archive_note": "One targeted edit after actual full-image review; final full and juvenile crop reopened and passed. Exact subspecies/age/sex ratio/tract chronology unknown; Japanese split-population detail excluded; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "ac053b82c766f0aa28f75a999270043cbfe926f1",
+      "verified_at": "2026-10-29T09:48:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/75-ninox-scutulata-v3.jpg",
+          "blob": "f6dfcd6ae5643d3b5c0b563ee6db2ae6ca519d3f",
+          "size_bytes": 647568
+        },
+        "generated": {
+          "path": "production/generated/75-ninox-scutulata-v3-generated-master.jpg",
+          "blob": "9faf2b02ae732da87c0d50a5ded62f435f674800",
+          "size_bytes": 697501
+        },
+        "reviewed": {
+          "path": "production/reviewed/75-ninox-scutulata-v3-reviewed-master.jpg",
+          "blob": "f6dfcd6ae5643d3b5c0b563ee6db2ae6ca519d3f",
+          "size_bytes": 647568
+        },
+        "review_crop": {
+          "path": "production/reviewed/75-ninox-scutulata-v3-juvenile-review-crop.jpg",
+          "blob": "109085a479c02c5336bdd0a516f9da9b669ad949",
+          "size_bytes": 170051
+        },
+        "fixed_commit": "ac053b82c766f0aa28f75a999270043cbfe926f1"
+      }
     }
   ],
-  "updated_at": "2026-10-29T09:45:00+08:00"
+  "updated_at": "2026-10-29T09:48:00+08:00"
 }

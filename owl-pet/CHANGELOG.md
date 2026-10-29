@@ -1230,3 +1230,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added an evidence-bounded Singapore science revision with adult male, adult female and branch-dependent juvenile.
 - Indexed four new sources and three reused sources; explicitly excluded Japanese old-broad-name tail/feeding details from direct Singapore design transfer.
 - Edited adult wing-coverts and juvenile wing edges, then reopened full image and crop. Archive phase prepared; verification pending.
+
+- Fixed-commit readback verified the #75 v3 archive at `ac053b82c766f0aa28f75a999270043cbfe926f1`; batch advanced to 4/6.

@@ -6678,25 +6678,27 @@
           "commit_sha": "a77dcaa51fd78fb9942811ae10b59834adf6d683",
           "run_record": "owl-pet/production/runs/20261029T0904+0800-cycle-3.md",
           "verified_at": "2026-10-29T09:18:00+08:00"
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox scutulata",
+          "species_id": 75,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ac053b82c766f0aa28f75a999270043cbfe926f1",
+          "run_record": "owl-pet/production/runs/20261029T0930+0800-cycle-4.md",
+          "verified_at": "2026-10-29T09:48:00+08:00"
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "codex",
-        "run_id": "20261029T0930+0800-cycle-4",
-        "batch_id": "2026-10-29T0835+0800",
-        "cycle": 4,
-        "species_id": 75,
-        "species": "Ninox scutulata",
-        "version": 3,
-        "heartbeat_at": "2026-10-29T09:45:00+08:00",
-        "expires_at": "2026-10-29T10:00:00+08:00"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261029T0930+0800-cycle-4",
         "evidence": {
+          "archive_commit": "ac053b82c766f0aa28f75a999270043cbfe926f1",
           "concept_blob": "f6dfcd6ae5643d3b5c0b563ee6db2ae6ca519d3f",
           "concept_size": 647568,
           "generated_blob": "9faf2b02ae732da87c0d50a5ded62f435f674800",
@@ -6706,11 +6708,11 @@
           "crop_blob": "109085a479c02c5336bdd0a516f9da9b669ad949",
           "crop_size": 170051,
           "manifest_record": 501,
-          "readback_pending": true,
+          "unique_species_increment": 0,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T09:45:00+08:00",
+      "last_updated_at": "2026-10-29T09:48:00+08:00",
       "audit_notes": [
         "2026-10-29T08:35:49+08:00: new batch cycle1 STARTED #72 Ninox boobook v4 SCIENCE_REVISION; v1-v3 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T08:36:22+08:00: cycle1 #72 v4 RESEARCH_READY; new3/reused3/corrected1; two primary development studies and Victorian government identification table actually read; full prompt saved; science false; no credit.",
@@ -6735,7 +6737,8 @@
         "2026-10-29T09:36:00+08:00: cycle4 #75 v3 RESEARCH_READY; new4/reused3/corrected1; NParks and Windsor evidence applied; Japanese old-broad-name papers read but excluded from direct Singapore design transfer; full prompt saved; science false; no credit.",
         "2026-10-29T09:40:00+08:00: cycle4 #75 v3 IMAGE_GENERATED; full 1536x1024 opened; exact title/labels/count, near-equal adults and supported preening juvenile pass; adult pale wing scallops and overly regular juvenile wing edges require targeted edit; no credit.",
         "2026-10-29T09:42:00+08:00: cycle4 #75 v3 REVIEWED after one targeted edit; full 1536x1024 and 620x720 juvenile crop reopened. Adult plain chocolate wing coverts, near-equal scale, yellow eyes/blue-black bills/drop streaks; juvenile soft irregular growing wing, short tail, preening and two-foot support pass; science false.",
-        "2026-10-29T09:45:00+08:00: cycle4 #75 v3 ARCHIVED tree prepared; concept f6dfcd6ae5/647568B, generated 9faf2b02ae/697501B, reviewed f6dfcd6ae5/647568B, crop 109085a479/170051B; manifest501; fixed readback pending; no credit."
+        "2026-10-29T09:45:00+08:00: cycle4 #75 v3 ARCHIVED tree prepared; concept f6dfcd6ae5/647568B, generated 9faf2b02ae/697501B, reviewed f6dfcd6ae5/647568B, crop 109085a479/170051B; manifest501; fixed readback pending; no credit.",
+        "2026-10-29T09:48:00+08:00: cycle4 #75 Ninox scutulata v3 VERIFIED at ac053b82c766f0aa28f75a999270043cbfe926f1; fixed-commit four-path blob IDs matched expected complete JPEGs; manifest501; unique+0; science false; lease released; next cycle5."
       ]
     }
   ],
@@ -7017,16 +7020,8 @@
     "2026-10-29T09:36:00+08:00: cycle4 #75 v3 RESEARCH_READY; new4/reused3/corrected1; science false; no credit.",
     "2026-10-29T09:40:00+08:00: cycle4 #75 v3 IMAGE_GENERATED; targeted edit required; no credit.",
     "2026-10-29T09:42:00+08:00: cycle4 #75 v3 REVIEWED after one targeted edit; science false.",
-    "2026-10-29T09:45:00+08:00: cycle4 #75 v3 ARCHIVED; fixed readback pending; no credit."
+    "2026-10-29T09:45:00+08:00: cycle4 #75 v3 ARCHIVED; fixed readback pending; no credit.",
+    "2026-10-29T09:48:00+08:00: cycle4 #75 v3 VERIFIED at ac053b82; batch cumulative4/6; next cycle5."
   ],
-  "in_progress": {
-    "batch_id": "2026-10-29T0835+0800",
-    "cycle": 4,
-    "run_id": "20261029T0930+0800-cycle-4",
-    "species_id": 75,
-    "species": "Ninox scutulata",
-    "version": 3,
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261029T0930+0800-cycle-4.md"
-  }
+  "in_progress": null
 }

@@ -1807,3 +1807,5 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - **Observed failure:** older literature under broad *Ninox scutulata* can describe Japanese populations now separated from the Singapore design taxon; copying its rectrix-ageing details would falsely increase apparent precision.
 - **Applied rule:** read and index the source, map the old name, then explicitly exclude population-specific feather/stage claims from direct design transfer unless current taxonomy and geographic applicability are demonstrated.
 - **Verified here:** v3 uses Singapore institutional/field evidence for adult identity, habitat and branch-dependent juvenile action; the Japanese rectrix/feeding papers are retained only as excluded leads. The edited plate and crop passed visual recheck; broader transfer still requires species-specific evidence.
+
+- 2026-10-29T09:48:00+08:00: #75 v3 fixed-commit readback VERIFIED at `ac053b82c766f0aa28f75a999270043cbfe926f1`; four image blob IDs matched; science false.

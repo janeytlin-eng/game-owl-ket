@@ -1,3 +1,7 @@
+## 2026-10-29 — #79 Collared Scops Owl v3
+
+- Added species-specific 11–15-day cavity-nestling revision from the Thailand development sequence; full and crop review passed without edit. V1–v2 preserved; unique remains 184/251; science false; fixed readback pending.
+
 ## 2026-10-29 — #78 Marsh Owl v3
 
 - Added evidence-bounded 29–35-day early-fledgling revision; one juvenile-wing/tail edit reviewed. Detected and repaired connector-truncated over-limit phase blobs before credit. Fixed-tree readback passed at `a8259c009bdbea08655e0a91f819d2810e7ee5fb`; v1–v2 preserved, unique remains 184/251, science false.

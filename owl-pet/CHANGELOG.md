@@ -1268,3 +1268,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Edited the over-mature juvenile flight feathers, then rechecked the complete plate and juvenile crop. Archive readback pending.
 
 - Fixed-commit readback verified #77 v3 at `91fcf381020a6f9d4ff402fc7478f7e52555570a`; batch `2026-10-29T0835+0800` closed COMPLETE 6/6.
+
+
+- 2026-10-29 12:12 +08: archived #82 *Otus senegalensis* v3 concept plus generated/reviewed masters and juvenile crop; added/corrected primary development evidence; one juvenile-wing edit; manifest508; verification pending.

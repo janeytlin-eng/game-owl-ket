@@ -10,3 +10,8 @@ Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-2.md
 ## 2026-10-29 v3 research-ready correction
 
 Primary development evidence is now anchored by Riekert 1986 (printed pp.425–428; full four-page PDF opened) and Brown, Riekert & Morsbach 1987 (printed pp.58–64; institutional record and publisher abstract read). The old `SEN-BROWN1987-UNVERIFIED` lead is corrected to `SEN-BROWN-RIEKERT-MORSBACH-1987`. V3 uses a 25–28-day recent fledgling, about 75% adult size, with residual grey-white mesoptile, fresh soft-edged folded wings and short tail in a supported low branch-step beside a nest box/tree cavity. Adult mass and morph are not mapped to height or sex. Exact daily feather tracts, first-flight competence and juvenile sex remain unknown; science false.
+
+
+## 2026-10-29 v3 actual review
+
+Initial full-resolution render showed the center juvenile with adult-regular white wing rows and hard layered remiges. One juvenile-only imagegen edit softened/shortened the wing and tail, removed the regular adult rows and retained residual down, both-foot support, exact text and both adults. The edited 1536×1024 plate and 560×650 juvenile crop were actually reopened. Result: PASS_WITH_LIMITATIONS; exact daily feather tract and first-flight ability remain unknown; scientifically_verified=false. Concept: ../../design/concepts/82-otus-senegalensis-v3.jpg. Run: ../../production/runs/20261029T1205+0800-cycle-5.md.

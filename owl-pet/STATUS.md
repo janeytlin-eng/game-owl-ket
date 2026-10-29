@@ -2096,3 +2096,10 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Revision only; unique species remains 174/251. One edit passed full/crop review; science false.
 
 - VERIFIED at archive `91fcf381020a6f9d4ff402fc7478f7e52555570a`; all four image blobs/sizes and manifest503 matched. Batch `2026-10-29T0835+0800` is COMPLETE 6/6; unique species remains 174/251; science false.
+
+
+## 2026-10-29 12:12 +08 — #82 *Otus senegalensis* v3 ARCHIVED
+
+- Science revision only; unique-species count unchanged. Manifest 508.
+- One juvenile-wing edit; full plate and crop reviewed; science false.
+- Fixed-commit readback pending before cycle credit.

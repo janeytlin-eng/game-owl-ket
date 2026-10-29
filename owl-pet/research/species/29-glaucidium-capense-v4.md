@@ -42,3 +42,7 @@ The only direct older-juvenile plumage evidence is historical and scoped to *G. 
 - Complete plate and 540×720 juvenile crop were opened at original detail.
 - Pass: exact text/count, near-equal adult height, shared adult plumage, no false eyes, cavity woodland, and all six feet visibly supported.
 - Defect: the first juvenile has a dense bright repeated wing-covert row, hard adult-like remex layering and a long strongly barred tail. The chosen source permits near-complete remiges/rectrices but requires weaker incomplete covert marks; one juvenile-only edit is required.
+
+## Visual review and iteration
+
+One juvenile-only edit removed the repeated bright white covert rows, softened and compacted the folded remiges, reduced crown/back bars and shortened/concealed the strongly barred tail. The two adults, typography, cavity, support and environment were locked. The edited 1536×1024 plate and 540×720 juvenile crop were reopened at original detail. Exactly three birds, all six feet, exact text, near-equal adult height, adult shared plumage, no false eyes, juvenile dark soft body, weak irregular covert marks, formed folded wing and mostly concealed modest tail pass. Result `PASS_WITH_LIMITATIONS`; edit count 1. The wing remains formed because the source explicitly places this plumage transition near completion of remex/rectrix growth. Historical subspecies transfer and exact age remain unresolved, so science stays false.

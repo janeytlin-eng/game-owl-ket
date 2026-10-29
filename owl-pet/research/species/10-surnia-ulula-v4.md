@@ -63,3 +63,8 @@ Avoid: ear tufts, orange adult eyes, bare adult toes, unbarred adult belly, shor
 ## Generated-image comparison checkpoint
 
 The first render was opened at full resolution and as a 560×640 juvenile crop. Adult identity, text and complete cavity-rim support passed. The juvenile wing showed regular high-contrast adult-like white spots and the tail was too long/crisply barred. This conflicts with the selected 20–22-day flightless boundary, so a localized wing/tail edit is required. Evidence: `owl-pet/production/assets/10-surnia-ulula-v4-generated.jpg`, `owl-pet/production/assets/10-surnia-ulula-v4-generated-juvenile-crop.jpg`.
+
+
+## Edit and recheck
+
+One localized imagegen edit removed the regular bright adult-like spot row from the juvenile wing, shortened/softened the folded wing, and replaced the exposed long crisp-barred tail with a short body-close developing tail. Full-frame and 560×640 crop reinspection preserved both adults, every label and complete cavity-rim support. Result: `PASS_WITH_LIMITATIONS`; scientific verification remains false.

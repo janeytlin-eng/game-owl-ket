@@ -25,3 +25,8 @@ Avoid: ear tufts, orange adult eyes, bare adult toes, unbarred adult belly, shor
 ### IMAGE_GENERATED checkpoint
 
 First render persisted. Full and crop inspection found adult-like regular white wing spots and an overlong crisp-barred juvenile tail. Status remains not archived; targeted juvenile wing/tail correction required.
+
+
+### REVIEWED checkpoint
+
+One juvenile wing/tail edit was reopened at full resolution and crop. Regular adult-like white spots and the long crisp-barred juvenile tail are gone; the supported gray-mesoptile bird retains only a short soft wing and short body-close tail. `PASS_WITH_LIMITATIONS`; pending archive/readback.

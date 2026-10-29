@@ -6138,3 +6138,26 @@ Reused `NSO-FORSMAN-1984-P36-37`, `NSO-USFWS-PROTOCOL-2012-P33` and `NSO-CORNELL
 - **Limits/design use:** accessible abstract supplies no juvenile age, plumage or locomotor threshold. It proves an older mobile juvenile evidence stream exists but is deliberately not merged with the video-supported fluffy cavity nestling.
 
 Freshly reused `PRO-BIRDSCARIB-2021` and `PRO-PEREGRINE-2026`: both actual pages were reread. BirdsCaribbean describes two fluffy chicks in a nest video without age and independently supports small alert tufts; Peregrine supports round head, reddish-brown eyes, slightly larger female and severe nesting-data limits. Current name remains *Gymnasio nudipes*; *Megascops nudipes* and *Otus nudipes* are historical combinations for the same roster unit. Source accounting: new2/reused2/corrected1. Mikkola upload unavailable; no page claim added. Science false.
+
+
+# 2026-10-30 · #25 *Glaucidium brasilianum cactorum* v3 — newly fledged locomotor and plumage correction
+
+## CFPO-FWS-RECOVERY-2024-P5
+- **Stable ID:** `CFPO-FWS-RECOVERY-2024-P5`
+- **Title/institution/year:** *Recovery Outline for Cactus Ferruginous Pygmy-Owl*; U.S. Fish & Wildlife Service; September 2024.
+- **URL/access/type:** https://ecos.fws.gov/docs/recovery_plan/Cactus%20Ferruginous%20Pygmy-Owl%20Recovery%20Outline%2020241005_sgd.pdf ; accessed 2026-10-30; official recovery outline.
+- **Pages/species/stage:** printed p.6 / PDF p.5; *Glaucidium brasilianum cactorum* adults and life history.
+- **Actually read facts:** about 17 cm long; males average 58–66 g and females 70–75 g; reddish-brown with some grayish-brown variation; lightly streaked crown; white-outlined dark nape false eyes; yellow eyes; no obvious ear tufts; long barred tail, with paler male and darker rufous female interbar direction. Fledging occurs 20–28 days after hatching. Current USFWS usage retains the subspecies name.
+- **Limits/design use:** cited synthesis rather than a new morphometric series; mass direction is not converted to an exaggerated standing-height gap. Supports near-equal displayed height, subtly fuller female, adult identifiers and a broad fledging-age boundary.
+- **Links:** [species research](species/25-glaucidium-brasilianum-cactorum-v3.md) · [run](../production/runs/20261030T053100+0800-cycle-1.md)
+
+## CFPO-USDA-2000-P10-P13
+- **Stable ID:** `CFPO-USDA-2000-P10-P13`
+- **Title/editors/year:** *Ecology and Conservation of the Cactus Ferruginous Pygmy-Owl in Arizona*; Jean-Luc E. Cartron, Deborah M. Finch et al.; USDA Forest Service RMRS-GTR-43; 2000.
+- **URL/access/type:** https://www.govinfo.gov/content/pkg/GOVPUB-A13-PURL-gpo111726/pdf/GOVPUB-A13-PURL-gpo111726.pdf ; accessed 2026-10-30; agency technical monograph synthesizing monitored nests and field studies.
+- **Pages/stage:** printed p.10 / PDF p.14; printed p.11 / PDF p.15; printed p.13 / PDF p.17; recent fledgling and nest habitat.
+- **Actually read facts:** moderate-to-dense understory may be critical to fledgling survival; nests are natural/abandoned woodpecker cavities in trees or large columnar cacti and no lining is added; fledging ranges 21–30 days; initially fledglings remain near the nest in dense thorny shrubs/trees; their inexperienced, uncoordinated flight causes documented first-day hazards.
+- **Limits/design use:** the monograph does not prescribe exact wing/tail lengths or one universal posture. It supports dense thorny cover and a low, fully supported, awkward recent-fledgling balance pose; one slightly opened short wing is a labelled design inference, not a quoted observation.
+- **Links:** [species research](species/25-glaucidium-brasilianum-cactorum-v3.md) · [run](../production/runs/20261030T053100+0800-cycle-1.md)
+
+Reused `CFPO-TAMUK-BIOLOGY-1998` (bibliography corrected in v2), `CFPO-USDA-2000`, `CFPO-FWS-TAXONOMY-2026`, `CFPO-CORNELL-ID-2026` and `CFPO-TBBA-BREEDING-2006`. V2's white juvenile crown marks, adult-like spotted/layered wings and long barred tail are corrected against the recent-fledgling boundary. New2/reused5/corrected1; Mikkola upload unavailable; science false.

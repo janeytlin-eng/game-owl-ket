@@ -2231,3 +2231,6 @@ When a primary field study provides a multi-day entrance window but the daily fe
 
 
 - #28 *Glaucidium perlatum* v4 — SCIENCE_REVISION, approximately 31-day fully supported dependent fledgling hiding beside the cavity; two juvenile-only edits removed adult-like pearl rows and shortened/softened the wing and tail. [concept](concepts/28-glaucidium-perlatum-v4.jpg) · [research](../research/species/28-glaucidium-perlatum-v4.md) · [run](../production/runs/20261030T064000+0800-cycle-4.md). Exact feather and iris chronology remain unknown; science pending.
+
+
+- #29 *Glaucidium capense* v4 — SCIENCE_REVISION. Age-unknown older dependent juvenile/juveno-annual stage; one targeted edit removed adult-like repeated covert rows, softened remiges and shortened/concealed the tail while preserving full support. [concept](concepts/29-glaucidium-capense-v4.jpg) · [research](../research/species/29-glaucidium-capense-v4.md) · [run](../production/runs/20261030T065100+0800-cycle-5.md). Historical *ngamiense* transfer, exact age and first-flight threshold remain unknown; science pending.

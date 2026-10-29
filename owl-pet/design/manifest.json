@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T06:49:00+08:00",
+  "updated": "2026-10-30T07:05:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9382,7 +9382,55 @@
         "run_blob_at_archive": "3daffe7bf211b6a1cd9b143db843c896d7a26f80",
         "knowledge_blob": "d2af092b13969347277c4d0e5637e86c0af5575c"
       }
+    },
+    {
+      "id": "29-glaucidium-capense-v4",
+      "path": "design/concepts/29-glaucidium-capense-v4.jpg",
+      "species_id": 29,
+      "scientific_name": "Glaucidium capense",
+      "historical_names": [
+        "Taenioglaux capense"
+      ],
+      "common_name": "African Barred Owlet",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "ff39a67221aa6c8d734f1231e44f4da36175f1c5d612a6033321428953baec5b",
+      "size_bytes": 639960,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Age-unknown older dependent juvenile/juveno-annual bird has dark soft contour, formed folded wing and mostly concealed modest tail, with weak incomplete pale bars and full fork support. One edit removed adult-like repeated covert rows, softened remiges and shortened/concealed the tail. Adult sexes share plumage and near-equal displayed height; no false eyes. Historical ngamiense transfer, exact age, first-flight threshold and complex-wide iris chronology remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "ABOW-UPemba-1953-P220",
+        "ABOW-OWLPAGES-2020",
+        "ABOW-BIODIVEXPLORER-ROBERTS-2026",
+        "CAP-FISHPOOL-2023"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--29-glaucidium-capense-v4-evidence-increment",
+      "research_record": "research/species/29-glaucidium-capense-v4.md",
+      "run_record": "production/runs/20261030T065100+0800-cycle-5.md",
+      "generated_path": "production/generated/29-glaucidium-capense-v4-generated.jpg",
+      "generated_blob": "ef396366d4bd33cd91be4c84503378759251ede3",
+      "generated_sha256": "42ebff77cddf9e3d49c1825b5f5758dcb95ce882b5bbbe6058452a6b5403acc9",
+      "generated_size_bytes": 695936,
+      "generated_crop_path": "production/generated/29-glaucidium-capense-v4-juvenile-crop.jpg",
+      "generated_crop_blob": "97f665d89ea637668e3ca2261e60911e003318fc",
+      "generated_crop_sha256": "cb38bc064602a402977c8a32b123957bb2eab388be9ae5eaac61494a588b4c06",
+      "generated_crop_size_bytes": 216672,
+      "reviewed_path": "production/reviewed/29-glaucidium-capense-v4-reviewed.jpg",
+      "reviewed_blob": "1b0422ef2242ea125fb1dfaa8903dd3941d6c3ab",
+      "reviewed_sha256": "ff39a67221aa6c8d734f1231e44f4da36175f1c5d612a6033321428953baec5b",
+      "reviewed_size_bytes": 639960,
+      "review_crop_path": "production/reviewed/29-glaucidium-capense-v4-juvenile-crop.jpg",
+      "review_crop_blob": "15209febd90c0d2089e95ba386da61c1f339165c",
+      "review_crop_sha256": "f7e735b55cc01faae16f746b203c1300d7cd7c9b0c84698b90e2b534e4b06917",
+      "review_crop_size_bytes": 195888,
+      "archive_note": "Full generated plate and crop were opened. One juvenile-only imagegen edit removed repeated bright covert rows, softened/compacted remiges, reduced pale body bars and shortened/concealed the tail. Final full plate and crop were reopened; adults, text, support and habitat were preserved. Existing v1-v3 and history remain retained.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T06:49:00+08:00"
+  "updated_at": "2026-10-30T07:05:00+08:00"
 }

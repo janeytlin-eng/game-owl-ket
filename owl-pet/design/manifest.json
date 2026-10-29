@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T18:51:00+08:00",
+  "updated": "2026-10-29T19:43:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8301,7 +8301,54 @@
         },
         "fixed_commit": "56b0d5745680ff6c538f4109dc08911472986505"
       }
+    },
+    {
+      "id": "101-otus-spilocephalus-v6",
+      "path": "design/concepts/101-otus-spilocephalus-v6.jpg",
+      "species_id": 101,
+      "scientific_name": "Otus spilocephalus",
+      "subspecies": "Otus spilocephalus hambroecki",
+      "historical_names": [
+        "Ephialtes spilocephalus",
+        "Ephialtes Hambroecki",
+        "Otus stresemanni"
+      ],
+      "common_name": "Mountain Scops Owl",
+      "version": 6,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 184,
+      "sha256": "7b59240375f67286b7a7f0a4d783324b6f05c27a3381ec16756f7b6fed527849",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION representing the Taiwan race after Mikkola p.148, a Taiwan forestry primary report and Taiwan museum/government records were read. Adults are same-plumage and near-equal in display; center age-unknown older fledgling is fluffy yellow/rufous-brown with vague markings, short down-dominant wing, concealed tail and two-foot branch support. Two juvenile-wing edits removed persistent adult-like layered remiges and pale spot rows. Exact age/iris/sex, continuous feather sequence, first-flight threshold, quantified dimorphism and universal hollow dimensions remain unknown.",
+      "source_ids": [
+        "MOSO-MIKKOLA-2013-P148",
+        "MOSO-NTM-HAMBROECKI-2026",
+        "MSO-FOREST2005",
+        "MOSO-NMNS-DIGITAL-2026",
+        "MOSO-NPS-TAIWAN-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29--101-otus-spilocephalus-hambroecki-v6-evidence-increment",
+      "run_record": "production/runs/20261029T1934+0800-cycle-4.md",
+      "reviewed_at": "2026-10-29T19:43:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 654728,
+      "git_blob": "9cf61cccf2cbd79bf1e1a7748a9d16acc77148e5",
+      "generated_path": "production/generated/101-otus-spilocephalus-v6-generated-master.jpg",
+      "generated_blob": "1e91f6d8a8192eb4bba2a27a4b23ad743dc3577c",
+      "generated_sha256": "6fa570be6a27c52901de05b1f3e4668000bcc5d9d0d8ee94c93029799399f852",
+      "generated_size_bytes": 736158,
+      "reviewed_path": "production/reviewed/101-otus-spilocephalus-v6-reviewed-master.jpg",
+      "reviewed_blob": "9cf61cccf2cbd79bf1e1a7748a9d16acc77148e5",
+      "reviewed_sha256": "7b59240375f67286b7a7f0a4d783324b6f05c27a3381ec16756f7b6fed527849",
+      "reviewed_size_bytes": 654728,
+      "review_crop_path": "production/reviewed/101-otus-spilocephalus-v6-reviewed-fledgling-crop.jpg",
+      "review_crop_blob": "e9829e94a0cbbebfd2fc50509b66575a3489c774",
+      "review_crop_sha256": "46061093705d1f9bfa0732faf5607c3765d5cdd8b745be44404784c4d9f4e45a",
+      "review_crop_size_bytes": 154426,
+      "archive_note": "First render had an adult-like juvenile remex row. Edit 1 shortened/softened it but crop review still found a layered spotted fan; edit 2 removed the residual fan and dissolved the wing edge into short down-dominant coverts. Full and crop were reopened. Taiwan-race scope and unknowns are explicit.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T18:51:00+08:00"
+  "updated_at": "2026-10-29T19:43:00+08:00"
 }

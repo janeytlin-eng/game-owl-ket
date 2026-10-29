@@ -1,5 +1,15 @@
 # Current production review
 
+- Target: [101-otus-spilocephalus-v6.jpg](concepts/101-otus-spilocephalus-v6.jpg)
+- Research: [species record](../research/101-otus-spilocephalus-v6.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--101-otus-spilocephalus-hambroecki-v6-evidence-increment)
+- Review: PASS_WITH_LIMITATIONS after two juvenile-wing edits. Taiwan-race adults remain same-plumage and near-equal; older fledgling is fluffy yellow/rufous-brown with vague markings, a short down-dominant wing and two-foot branch support. Exact age/iris/sex, flight threshold and quantified dimorphism remain unknown. Fixed-commit readback pending. Science false.
+
+### Crop review must decide whether a “shortened” wing is still adult-like
+
+A full-frame edit can visually shorten a juvenile wing while retaining a readable fan of long layered remiges and pale spot rows. Reopen a tight crop: if the fan remains legible, remove it and require the wing boundary to dissolve into down-dominant short coverts. Applied twice and visually rechecked on #101 v6; this is a stage-specific correction, not a universal owl rule.
+
+# Current production review
+
 - Target: [94-pulsatrix-koeniswaldiana-v4.jpg](concepts/94-pulsatrix-koeniswaldiana-v4.jpg)
 - Review: PASS_WITH_LIMITATIONS after one juvenile-wing edit; age-unknown post-cavity stage and two-foot support pass; exact age/flight remain unknown. Fixed corrected-tree readback passed at `18e6c6d2770e465201cabac2c8da0043da7d1bcc`. Science false.
 

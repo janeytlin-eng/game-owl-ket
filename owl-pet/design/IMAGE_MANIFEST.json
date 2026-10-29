@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:55:08+08:00",
+  "updated": "2026-10-30T01:55:41+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9594,9 +9594,41 @@
       "review_crop_sha256": "9a67c9af3fcf25ba96680938c50eee425391a37c29b45a5701d46eee7e6805b7",
       "review_crop_size_bytes": 92583,
       "archive_note": "Full 1536×1024 plate and 560×720 juvenile crop were opened. Juvenile remained fully supported, chocolate/fulvous with pale X/Y and uniform dark folded flight feathers; adults/text/cavity checked. No edit required. v1–v4 and v1 approval preserved.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "d767a0df2d267821dbb94de4f7b60867c2fd5a11",
+      "verified_at": "2026-10-30T01:55:41+08:00",
+      "fixed_commit": "d767a0df2d267821dbb94de4f7b60867c2fd5a11",
+      "verification_result": "non-truncated 1859-entry fixed tree; exact five image path/blob/size tuples; manifest539, source-index, run and research matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "d767a0df2d267821dbb94de4f7b60867c2fd5a11",
+        "concept": {
+          "path": "design/concepts/12-aegolius-acadicus-v5.jpg",
+          "blob": "26ecaed484cb6590d892e28aa7b31f04f1f839d5",
+          "size_bytes": 318593
+        },
+        "generated": {
+          "path": "production/generated/12-aegolius-acadicus-v5-generated.jpg",
+          "blob": "26ecaed484cb6590d892e28aa7b31f04f1f839d5",
+          "size_bytes": 318593
+        },
+        "generated_crop": {
+          "path": "production/generated/12-aegolius-acadicus-v5-juvenile-crop.jpg",
+          "blob": "93057118aff1f19b00f2252798a941b583139a75",
+          "size_bytes": 92583
+        },
+        "reviewed": {
+          "path": "production/reviewed/12-aegolius-acadicus-v5-reviewed.jpg",
+          "blob": "26ecaed484cb6590d892e28aa7b31f04f1f839d5",
+          "size_bytes": 318593
+        },
+        "review_crop": {
+          "path": "production/reviewed/12-aegolius-acadicus-v5-juvenile-crop.jpg",
+          "blob": "93057118aff1f19b00f2252798a941b583139a75",
+          "size_bytes": 92583
+        },
+        "source_index_blob": "e78e57979ded8a0e2aafd9b2b98e12d1f6c4985f"
+      }
     }
   ],
   "updated_at": "2026-10-30T01:47:00+08:00"

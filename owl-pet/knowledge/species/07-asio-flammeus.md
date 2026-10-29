@@ -37,3 +37,8 @@ Mikkola printed pp.512–513 and Martínez et al. 2000 bound a dark-faced, yello
 ![v3](../../design/concepts/07-asio-flammeus-v3.png)
 
 Commit-pinned readback passed at `f47af7da2d91eea5b9b4372ca956765845f22a14`; production verification only, science false.
+
+
+## 2026-10-30 · v4 science revision
+
+Corrected the 2000 Condor paper attribution to Arroyo, De Cornulier & Bretagnolle. COSEWIC supports 12–18-day walking departure while still unable to fly; Chen et al. 2024 supports strong overlap in adult sex traits. V4 therefore uses an approximately 14–16-day low ground-walker with compact soft developing wing, no flight and complete turf support. One targeted edit removed adult-like wing spot rows/remiges. Full image and crop reopened; PASS_WITH_LIMITATIONS, science false. See [research record](../../research/species/07-asio-flammeus-v4.md).

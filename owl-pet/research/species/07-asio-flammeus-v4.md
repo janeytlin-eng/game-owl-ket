@@ -42,3 +42,8 @@ Exact title/labels/count; adult tiny tufts/yellow eyes/dark patches/open-country
 Initial 1536×1024 render and 610×760 juvenile crop were opened. Exact title/labels/count, adults, restrained sex difference, grassland and ground support passed. The juvenile wing failed: crisp pale spots, long layered remiges and an adult-like panel exceeded the chosen 14–16-day preflight boundary.
 
 One targeted imagegen edit changed only juvenile wing/tail maturity: compact rounded down-softened wing, diffuse mottling, only subtle emerging tips, short hidden tail. Edited full plate and crop were reopened. Both feet, low turf support, dark face, conservative transitional eyes and no-flight pose passed. Result PASS_WITH_LIMITATIONS; science false. Exact day/sex/subspecies, iris transition, secondary pattern and flight threshold remain unknown.
+
+
+## Archive checkpoint
+
+Complete 1536×1024 JPEG generated/reviewed files and a 610×760 JPEG juvenile crop are staged as manifest534. Oversized PNG base64 transfer was detected truncated and rejected before credit; the incomplete stage PNG paths are removed and replaced by complete JPEG blobs. Fixed commit-pinned readback remains required; science false.

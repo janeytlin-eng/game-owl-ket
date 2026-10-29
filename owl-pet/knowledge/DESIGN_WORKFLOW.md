@@ -582,3 +582,8 @@ A Git blob SHA can be stable while the stored raster is still undecodable or vis
 - 证据：`ABOW-BIODIVEXPLORER-ROBERTS-2026`给出32–33日离巢、约42日学飞；既有幼鸟照片线索只支持蓬松与不完整横斑。
 - 修改：把幼鸟保持双足与腹部支撑、禁止飞行；缩短软化折翼并隐藏长横斑尾。
 - 验证边界：1536×1024编辑图、全分辨率母版与680×453衍生图已查看。只验证动作能力边界，不证明35–39日精确羽序、虹膜或个体首飞日，科学状态false。
+
+
+### Ground-walker departure is not flight (applied once; species-bounded)
+
+For ground-nesting owls, a source saying young walk away from the nest must not be converted into a branch-perched or flight-capable “fledgling.” In #07 *Asio flammeus* v4, evidence supported 12–18-day walking departure while unable to fly. The initial render leaked crisp adult wing rows and long remiges; a targeted edit to a compact rounded down-softened wing passed full/crop recheck. This rule is discovered, applied and visually verified for #07 only; it is not automatically transferred to other species or ages without evidence.

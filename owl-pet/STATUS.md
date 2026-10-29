@@ -1,3 +1,4 @@
+- 2026-10-30T01:14:00+08:00: #07 *Asio flammeus* v4 ARCHIVED as manifest534 after one juvenile-wing edit and full/crop recheck. Truncated PNG transfer rejected and replaced with complete JPEGs. Fixed readback pending; batch remains 2/6; unique +0; science false.
 - 2026-10-29T20:07:00+08:00: #104 *Asio madagascariensis* v3 VERIFIED at repaired fixed archive 86e97c12f506f4da7fa633f84e7c758b7f1c11da; non-truncated tree and four exact image path/blob/size checks passed. Batch 2026-10-29T1800+0800 COMPLETE 6/6; unique +0; science false.
 - 2026-10-29T20:05:00+08:00: #104 v3 archive repair staged after generated JPEG byte mismatch; complete 504528B re-encode replaced the bad path. Fixed readback pending; no credit.
 - 2026-10-29T20:03:00+08:00: #104 *Asio madagascariensis* v3 ARCHIVED after one adult-belly/juvenile-wing edit and full+crop review; manifest525, assets and records committed. Fixed readback pending; batch remains 5/6; unique +0; science false.

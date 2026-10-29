@@ -1,5 +1,14 @@
 # Current production review
 
+- Target: [07-asio-flammeus-v4.jpg](concepts/07-asio-flammeus-v4.jpg)
+- Research: [species record](../research/species/07-asio-flammeus-v4.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30--07-asio-flammeus-v4-evidence-correction-and-increment)
+- Review: `PASS_WITH_LIMITATIONS`, edit count 1. Approximately 14–16-day preflight ground-walker is low and fully turf-supported, with dark soft face, compact down-softened wing and short hidden tail. Adult sex difference is restrained. Exact day/sex/subspecies, iris transition, secondary pattern, flight threshold and universal nest geometry remain unknown; science false.
+- Archive: manifest534; fixed commit-pinned readback pending.
+
+---
+
+# Current production review
+
 - Target: [01-tyto-alba-v5.jpg](concepts/01-tyto-alba-v5.jpg)
 - Research: [species record](../research/species/01-tyto-alba-v5.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--01-tyto-alba-v5--approximately-15-day-down-dominant-nestling)
 - Review: `PASS_WITH_LIMITATIONS`, edit count 0. Adult pair is near-equal height; the centre approximately 15-day nestling is white-down dominant, low on belly/heels with supported bare toes and only short emerging side sheaths. Exact day/sex/subspecies/feather count remain unknown; science false.

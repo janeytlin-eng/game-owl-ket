@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:13:00+08:00",
+  "updated": "2026-10-30T01:14:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9141,6 +9141,60 @@
         "source_index_blob": "f16a8603a285e7a664c99ef5dd4254775c8fd454",
         "fixed_commit": "01aa13636579c17fec9905572e2f413a5d961eb4"
       }
+    },
+    {
+      "entry_id": 534,
+      "species_id": 7,
+      "scientific_name": "Asio flammeus",
+      "common_name": "Short-eared Owl",
+      "version": 4,
+      "path": "design/concepts/07-asio-flammeus-v4.jpg",
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "user_approval_history": "v1-v3 and historical records preserved; no approval transferred",
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 7,
+      "sha256": "0314ea4c56ab06a61ab0a0b1bb40b48eef1342006a913e2961f0d8cbf168f09f",
+      "scientifically_verified": false,
+      "status": "PASS_WITH_LIMITATIONS. Approximately 14–16-day preflight ground-walker is outside the concealed grass scrape but remains low, fully turf-supported and unable to fly, with dark soft face, conservative transitional eyes, compact down-softened developing wing and short hidden tail. Adults overlap strongly; female is only subtly fuller/darker at near-equal displayed height. Exact day, sex, subspecies, iris transition, secondary pattern, feather metrics, first-flight threshold and universal nest geometry remain unknown.",
+      "source_ids": [
+        "SEO-MIKKOLA-2013-P512",
+        "SEO-ARROYO-CORNULIER-BRETAGNOLLE-2000",
+        "SEO-COSEWIC-2021",
+        "SEO-CHEN-ETAL-2024",
+        "SEO-CORNELL-PHOTO-GALLERY",
+        "SEO-USFWS-2026",
+        "SHEO-BTO-BIRDFACTS"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/07-asio-flammeus-v4.md",
+      "run_record": "production/runs/20261030T0104+0800-cycle-3.md",
+      "reviewed_at": "2026-10-30T01:14:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 515794,
+      "git_blob": "8eae863fa74008ce119f5d13404944220cb675eb",
+      "generated_path": "production/generated/07-asio-flammeus-v4-generated.jpg",
+      "generated_blob": "3fd1cb304286d2b8aded7389afbd1796c5e614d5",
+      "generated_sha256": "97c0a62ed5b2623cf6eec8797e424a4af33c7babb4ff34f48ee81cabc869b28d",
+      "generated_size_bytes": 379068,
+      "reviewed_path": "production/reviewed/07-asio-flammeus-v4-reviewed.jpg",
+      "reviewed_blob": "8eae863fa74008ce119f5d13404944220cb675eb",
+      "reviewed_sha256": "0314ea4c56ab06a61ab0a0b1bb40b48eef1342006a913e2961f0d8cbf168f09f",
+      "reviewed_size_bytes": 515794,
+      "review_crop_path": "production/reviewed/07-asio-flammeus-v4-juvenile-crop.jpg",
+      "review_crop_blob": "2fa71a509e76e3d7d03a7ff323644403fbe41d0c",
+      "review_crop_sha256": "0c6ffd264e16552d67549c2b9eb15b3fe173a0026f3f24990780f9e3a9bdc76d",
+      "review_crop_size_bytes": 174587,
+      "archive_note": "Initial juvenile wing had crisp pale spots and long layered adult-like remiges. One targeted imagegen edit compacted and softened only the juvenile wing/tail. Full edited plate and crop reopened. Oversize PNG base64 transfer was detected truncated and rejected; complete full-resolution JPEGs replaced it before archive credit.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verification_result": null,
+      "fixed_commit": null,
+      "verified_at": null
     }
   ],
   "updated_at": "2026-10-30T01:13:00+08:00"

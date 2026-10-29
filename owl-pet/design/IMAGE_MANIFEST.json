@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T05:42:00+08:00",
+  "updated": "2026-10-30T05:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10003,7 +10003,49 @@
         "run_blob_at_archive": "550c211f261f5fac32190a9529460198fc562287",
         "knowledge_blob": "2e1e03e1692675ae4f8df62c500e113d290342ec"
       }
+    },
+    {
+      "id": "26-glaucidium-siju-v4",
+      "path": "design/concepts/26-glaucidium-siju-v4.jpg",
+      "species_id": 26,
+      "scientific_name": "Glaucidium siju",
+      "common_name": "Cuban Pygmy-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "65f84863779a61f9aff921003eefc66fe111e048c500dce97e4889a8a6a2d6f5",
+      "size_bytes": 739126,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Direct juvenile evidence is applied without assigning an unsupported exact age: soft downy contour, unmarked back, faint crown spotting, streaked lower front, dull indeterminate iris, concealed wing/tail and complete two-foot cavity-threshold support. Adult male is gray-brown; female is redder and subtly fuller at near-equal height with a visible nape false-eye patch. Exact juvenile age, sex, iris transition, flight threshold and subspecies remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "CUPO-PYLE-ETAL-2004-JFO",
+        "CUPO-GARRIDO-2002",
+        "CUPO-OWLPAGES-PHOTO-2014"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--26-glaucidium-siju-v4--full-size-juvenal-plumage-correction",
+      "research_record": "research/species/26-glaucidium-siju-v4.md",
+      "run_record": "production/runs/20261030T054600+0800-cycle-2.md",
+      "generated_path": "production/generated/26-glaucidium-siju-v4-generated.jpg",
+      "generated_blob": "dc275f57293c98e40cab7ed763310857e6266c03",
+      "generated_sha256": "65f84863779a61f9aff921003eefc66fe111e048c500dce97e4889a8a6a2d6f5",
+      "generated_size_bytes": 739126,
+      "reviewed_path": "production/reviewed/26-glaucidium-siju-v4-reviewed.jpg",
+      "reviewed_blob": "dc275f57293c98e40cab7ed763310857e6266c03",
+      "reviewed_sha256": "65f84863779a61f9aff921003eefc66fe111e048c500dce97e4889a8a6a2d6f5",
+      "reviewed_size_bytes": 739126,
+      "review_crop_path": "production/reviewed/26-glaucidium-siju-v4-juvenile-crop.jpg",
+      "review_crop_blob": "95d2bfe493db1331dcc258e3017507697ce5ae4b",
+      "review_crop_sha256": "8f01ceeb3b77fd6b0914d582ddbb3955e057fe06da36fd4df3745eccd9915ea6",
+      "review_crop_size_bytes": 232135,
+      "archive_note": "Full 1536×1024 plate and 520×650 juvenile crop were opened; first render passed without edit. Existing v1–v3 and fixed species slot remain preserved.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-30T05:45:00+08:00"
+  "updated_at": "2026-10-30T05:58:00+08:00"
 }

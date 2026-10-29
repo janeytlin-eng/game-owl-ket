@@ -35,3 +35,10 @@ New source IDs: CUPO-GARRIDO-2002, CUPO-EBIRD-ID-2025, CUPO-BIRDSCARIBBEAN-2020 
 Pyle et al. (2004; printed p.138 / PDF p.3) directly examined/captured Cuban Pygmy-Owls and supplies the juvenile evidence missing from v2: juvenal body plumage is downy, the back unmarked, underparts streaked and crown spots indistinct. The account also supports a reddish-brown female with 95–101 mm wing chord versus a grayish-brown male at 84–94 mm, while warning that some males can be reddish-tinged. v3 therefore uses sex color only within this species evidence and keeps displayed height close; female is fuller, not automatically taller.
 
 The juvenile remains age-unknown because the study's HY window is calendar aging, not a day-specific growth series. Eye color is only a tentative age cue in the paper, and flight/tail chronology are absent. v3 uses natural branch support, no flight action and no exact tail-length claim. Science remains false.
+
+
+## v4 full-size revision — 2026-10-30
+
+Pyle et al. (2004; printed p.138/PDF p.3), Garrido (2002; printed p.52/PDF p.8) and the adult species/photo account were reopened. The primary evidence still supports a downy juvenile with unmarked back, streaked underparts and indistinct crown spots, while duller juvenile eye colour is tentative and exact age, flight and tail chronology remain unknown.
+
+V4 uses the full 1536×1024 production standard. The age-unknown juvenile is low and fully supported at a broken-palm cavity threshold: downy round body, plain back, faint crown marks, streaked lower front, dull iris, and wing/tail largely concealed rather than assigned invented lengths. The gray-brown male and redder, subtly fuller female remain close in displayed height; the female's false-eye patch is visible. The first render and a 520×650 juvenile crop were opened and passed without edit. `scientifically_verified=false`.

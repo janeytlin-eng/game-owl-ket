@@ -2200,3 +2200,17 @@ When sources describe a normally round head but short feather tufts raised durin
 ### Incremental rule — remove early-fledgling adult patterns as a bundle
 
 When a source explicitly says a recent fledgling lacks adult crown/false-eye marks and still has uncoordinated flight, review the crown, wing pattern, remex length and tail together. Fixing only one cue can leave a miniature-adult silhouette. Apply the correction only to the selected stage, preserve full natural support, and do not infer an exact day-specific feather map. Applied and visually rechecked on #25 v3; broader effectiveness remains unverified.
+
+
+## 2026-10-30 #26 Cuban Pygmy-Owl v4 — full-size juvenal-plumage correction
+
+- Original: [26-glaucidium-siju-v4.jpg](concepts/26-glaucidium-siju-v4.jpg)
+- Research: [species record](../research/species/26-glaucidium-siju-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: first 1536×1024 render passed without edit; full plate and 520×650 juvenile crop reopened.
+- Boundary: age-unknown bird still in juvenal body plumage, with downy contour, unmarked back, faint crown spotting, streaked lower front, dull iris, concealed wing/tail and full cavity-threshold support.
+- Unknown: exact age, sex, iris transition, flight threshold, feather metrics and subspecies.
+- Scientific status: pending / false; v1–v3 and fixed species slot retained.
+
+### Incremental rule — conceal unknown lengths instead of inventing them
+
+When a primary source describes juvenal body plumage but not remex, rectrix or flight chronology, make the supported body cues legible and use down/posture/cavity geometry to conceal unsupported lengths. Do not turn a broad juvenal diagnosis into a precise day-stage. Applied and visually rechecked on #26 v4; broader effectiveness remains unverified.

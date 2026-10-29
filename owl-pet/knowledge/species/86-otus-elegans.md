@@ -37,3 +37,8 @@ Sources: `ELE-SAWADA2021-ARDEA` (new), `ELE-SAWADA2021-RSD-FULL` (access correct
 ## v4 reviewed — 2026-10-29T13:37:00+08:00
 
 Full 1536×1024 plate and 560×650 crop opened after two edits. The final juvenile retains near-adult head/torso/tarsi while folded wings are short, rounded and soft, without regular adult shoulder rows; tail hidden and both feet supported. Adults remain same-plumage and near-equal in height/wing length, with no forced female enlargement. Exact day, feather/iris/tail sequence and first-flight competence remain unknown; science false. Archive readback pending.
+
+
+## v4 VERIFIED — 2026-10-29T13:42:00+08:00
+
+Fixed archive `c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b`; non-truncated recursive tree and all six image blobs/byte sizes matched. Research, prompt, review and phase evidence are durable. Science revision only, unique increment 0, scientifically_verified=false. [Original](../../design/concepts/86-otus-elegans-v4.jpg) · [Run](../../production/runs/20261029T1325+0800-cycle-2.md).

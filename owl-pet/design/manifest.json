@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T13:40:00+08:00",
+  "updated": "2026-10-29T13:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7552,12 +7552,46 @@
       "review_crop_blob": "24320060485ed803113107b07e34fad8a83f8f2a",
       "review_crop_size_bytes": 155656,
       "archive_note": "Three built-in imagegen calls and two evidence-bounded edits. Full and crop reopened; near-adult juvenile body, soft short rounded incomplete wings, hidden tail, six supported feet, same-plumage near-equal adults and Minami-daito context pass. Exact day/feather/iris/tail/first-flight sequence unknown; science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null,
-      "readback": null
+      "readback_pending": false,
+      "archive_commit": "c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b",
+      "fixed_commit": "c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b",
+      "verified_at": "2026-10-29T13:42:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "tree_truncated": false,
+        "concept": {
+          "path": "design/concepts/86-otus-elegans-v4.jpg",
+          "blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
+          "size_bytes": 613357
+        },
+        "generated_jpg": {
+          "path": "production/generated/86-otus-elegans-v4-generated-master.jpg",
+          "blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
+          "size_bytes": 613357
+        },
+        "generated_png": {
+          "path": "production/generated/86-otus-elegans-v4-generated-master.png",
+          "blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
+          "size_bytes": 77155
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/86-otus-elegans-v4-reviewed-master.jpg",
+          "blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
+          "size_bytes": 613357
+        },
+        "reviewed_png": {
+          "path": "production/reviewed/86-otus-elegans-v4-reviewed-master.png",
+          "blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
+          "size_bytes": 77155
+        },
+        "review_crop": {
+          "path": "production/reviewed/86-otus-elegans-v4-juvenile-review-crop.jpg",
+          "blob": "24320060485ed803113107b07e34fad8a83f8f2a",
+          "size_bytes": 155656
+        },
+        "fixed_commit": "c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b"
+      }
     }
   ],
-  "updated_at": "2026-10-29T13:40:00+08:00"
+  "updated_at": "2026-10-29T13:42:00+08:00"
 }

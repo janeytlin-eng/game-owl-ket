@@ -2121,3 +2121,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 13:40 +08 — #86 v4 archived, verification pending
 
 #86 *Otus elegans* v4 concept/generated/reviewed assets and research/check records are archived as manifest511. Two evidence-bounded edits corrected juvenile scale and wing maturity; science remains false. Fixed-commit readback is pending, so batch remains 1/6 until verification.
+
+
+## 2026-10-29 13:42 +08 — #86 v4 verified; batch 2/6
+
+#86 *Otus elegans* v4 passed fixed-commit repository readback at `c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b`; six canonical image paths/blobs/sizes and manifest511 matched. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T1236+0800` is 2/6, next cycle3, no active lease.

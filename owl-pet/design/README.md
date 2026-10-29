@@ -1905,3 +1905,6 @@ For Pallid Scops Owl, a pale bird is not a white-spotted bird: adult scapular ma
 ### Incremental rule — separate dimorphism by trait and late-nestling body from wing growth
 
 Do not translate heavier mean female mass into universally taller adults when wing, tarsus or head measurements differ little or reverse direction. Likewise, when species-specific growth curves show mass/tarsus near adult values before wings finish growing, depict a large-bodied supported late nestling with visibly incomplete soft wings—not a tiny fluff ball and not an adult-wing clone. Applied and visually rechecked on #86 v4; broader effectiveness remains unverified.
+
+
+- 2026-10-29T13:42:00+08:00 — #86 *Otus elegans* v4 independently verified at archive `c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b`; concept/generated/reviewed exact blobs and sizes plus manifest511 matched. Unique total unchanged; batch 2/6 next3. Science false.

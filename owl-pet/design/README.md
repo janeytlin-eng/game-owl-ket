@@ -2022,3 +2022,16 @@ When a husbandry paper shows multiple young at different ages, bind every plumag
 ### Incremental rule — retain stage-supported formed wings while removing adult pattern leakage
 
 A documented older mesoptile may legitimately show formed wings. Correction should target length, edge shape and adult-like regular markings rather than deleting the wing. Applied and visually checked on #104 v3; broader effectiveness remains unverified.
+
+
+## #179 Mayotte Scops Owl — *Otus mayottensis* — v1 new concept
+
+- Concept: [179-otus-mayottensis-v1.jpg](concepts/179-otus-mayottensis-v1.jpg)
+- Research: [species record](../research/species/179-otus-mayottensis.md)
+- Review: two targeted edits; final 1536×1024 plate and 620×760 immature crop reopened.
+- Boundary: age-unknown older immature supported by an MNHN specimen record plus a secondary “juveniles similar to adults” account; not a chick. Neutral-shadowed juvenile eyes, soft irregular adult-like contour, compact rounded wing, partly hidden tail and complete support.
+- Scientific status: pending / false.
+
+### Incremental rule — “juvenile unknown” can coexist with an older immature specimen, but does not authorize a chick
+
+When a guide says the juvenile is unknown but a museum paper confirms an immature specimen and a separate secondary account says juveniles resemble adults, narrow the design to an explicitly age-unknown older immature. Do not infer neonatal down, nest, iris, feather chronology or flight. Applied to #179 v1; two image edits removed adult leakage and the final crop was checked. Broader transfer requires the same evidence combination.

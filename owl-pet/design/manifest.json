@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T20:07:00+08:00",
+  "updated": "2026-10-29T20:51:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8520,7 +8520,52 @@
         },
         "fixed_commit": "86e97c12f506f4da7fa633f84e7c758b7f1c11da"
       }
+    },
+    {
+      "id": "179-otus-mayottensis-v1",
+      "path": "design/concepts/179-otus-mayottensis-v1.jpg",
+      "species_id": 179,
+      "scientific_name": "Otus mayottensis",
+      "historical_names": [
+        "Otus rutilus mayottensis",
+        "Scops Humbloti (nomen nudum)"
+      ],
+      "common_name": "Mayotte Scops Owl",
+      "version": 1,
+      "action": "NEW",
+      "unique_species_increment": 1,
+      "sha256": "a20a4d29c628d659ba58ac860a10670014170edcc8eb1df486945b7aac55b007",
+      "scientifically_verified": false,
+      "status": "NEW concept using an age-unknown older immature, not a chick. Adults follow Mikkola p.139: compact short-tufted grey-brown owls with sparse pale scapular flecks, yellow eyes, grey-horn bills and feathered tarsi; sexes same-plumage and near-equal body scale because only slightly longer female wing is supported. Older immature is adult-like overall but softer/less regular, with neutral-shadowed eyes, compact rounded formed wing, partly hidden tail and full branch support. Exact age, iris, feather chronology, flight threshold and nest are unknown.",
+      "source_ids": [
+        "MAYS-MIKKOLA-2013-P139",
+        "MAYS-MNHN-VOISIN-2011-P16",
+        "MAYS-BIRDFORUM-2026-JUV",
+        "MAYS-OISEAUX-2014-ADULT",
+        "MAYS-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-29--179-otus-mayottensis-v1-older-immature-boundary",
+      "research_record": "research/species/179-otus-mayottensis.md",
+      "run_record": "production/runs/20261029T2038+0800-cycle-1.md",
+      "reviewed_at": "2026-10-29T20:48:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 347947,
+      "git_blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
+      "generated_path": "production/generated/179-otus-mayottensis-v1-generated-master.jpg",
+      "generated_blob": "254faab39a5ea0ced8a1bdd96777b1e24afd95d5",
+      "generated_size_bytes": 409146,
+      "generated_sha256": "6ac2e03b5e76ee2497f7254ae2122675312df989b988cbd18e380baeddf73b35",
+      "reviewed_path": "production/reviewed/179-otus-mayottensis-v1-reviewed-master.jpg",
+      "reviewed_blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
+      "reviewed_size_bytes": 347947,
+      "reviewed_sha256": "a20a4d29c628d659ba58ac860a10670014170edcc8eb1df486945b7aac55b007",
+      "review_crop_path": "production/reviewed/179-otus-mayottensis-v1-reviewed-immature-crop.jpg",
+      "review_crop_blob": "b3535c6ad7f78ccd2880a7313e2b874e701976c2",
+      "review_crop_size_bytes": 113461,
+      "review_crop_sha256": "27f4470f06f87f137470fab38f80fba34b51efd4c18300ef748046b550e8f432",
+      "archive_note": "Two targeted edits: first shortened adult tufts/reduced bold white shoulders and softened the immature wing; second removed residual long layered adult-like remiges from the immature only. Full image and 620×760 crop reopened. Older-immature evidence is bounded and science remains false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-29T20:07:00+08:00"
+  "updated_at": "2026-10-29T20:51:00+08:00"
 }

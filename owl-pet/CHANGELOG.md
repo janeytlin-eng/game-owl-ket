@@ -1281,3 +1281,11 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-29 12:21 +08: archived #83 *Otus brucei* v3 assets and c.26-day fresh-fledgling research; one adult scapular edit; manifest509; verification pending.
+
+
+## 2026-10-29 — #179 Mayotte Scops Owl v1 archived
+
+- Added a new adult male / older immature / adult female concept plate at `design/concepts/179-otus-mayottensis-v1.jpg`.
+- Added museum/secondary/photo-source indexing and replaced the former blanket deferral with a bounded older-immature decision; no neonatal or nest detail was invented.
+- Performed two targeted image edits and reopened the final full plate plus immature crop.
+- Updated manifest to 526 images. Fixed commit-pinned verification remains pending; science false.

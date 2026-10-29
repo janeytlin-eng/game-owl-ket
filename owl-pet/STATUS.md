@@ -2146,3 +2146,12 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 13:42 +08 — #86 v4 verified; batch 2/6
 
 #86 *Otus elegans* v4 passed fixed-commit repository readback at `c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b`; six canonical image paths/blobs/sizes and manifest511 matched. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T1236+0800` is 2/6, next cycle3, no active lease.
+
+
+## 2026-10-29 #179 *Otus mayottensis* v1
+
+- Result: NEW unique species concept ARCHIVED; fixed readback pending.
+- Image: [design/concepts/179-otus-mayottensis-v1.jpg](design/concepts/179-otus-mayottensis-v1.jpg)
+- Counts after archive: numbered species IDs **185/251**; reconciled unique scientific-name slugs **175/251** because ten legacy duplicate-name IDs remain preserved. This v1 adds one real species and one numeric ID.
+- Research: 3 new / 2 reused / 1 corrected decision. MNHN printed p.16 confirms a species-specific immature specimen under the old name; BirdForum says juveniles resemble adults but breeding remains unknown; Mikkola p.139 still blocks a chick stage.
+- Review: two edits shortened adult tufts/reduced broad white shoulder patches and replaced the immature's long layered remiges with a compact rounded soft formed wing. Full plate and crop reopened. Exact age, iris, feather chronology, flight and nest unknown. Science false.

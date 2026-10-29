@@ -47,3 +47,8 @@ One targeted imagegen edit changed only juvenile wing/tail maturity: compact rou
 ## Archive checkpoint
 
 Complete 1536×1024 JPEG generated/reviewed files and a 610×760 JPEG juvenile crop are staged as manifest534. Oversized PNG base64 transfer was detected truncated and rejected before credit; the incomplete stage PNG paths are removed and replaced by complete JPEG blobs. Fixed commit-pinned readback remains required; science false.
+
+
+## Archive verification
+
+Fixed commit `f11e59018ea1e6701bb33645092d2025f601da95` read back as a non-truncated 1806-entry tree. Concept, generated JPEG, reviewed JPEG and juvenile crop matched exact paths, blobs and byte sizes. The complete source-index blob contained the v4 correction/new source markers; run/research records matched and rejected truncated PNG paths were absent. Result VERIFIED; science false.

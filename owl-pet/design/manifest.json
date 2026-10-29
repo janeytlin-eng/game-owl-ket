@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T01:14:00+08:00",
+  "updated": "2026-10-30T01:15:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9190,11 +9190,36 @@
       "review_crop_sha256": "0c6ffd264e16552d67549c2b9eb15b3fe173a0026f3f24990780f9e3a9bdc76d",
       "review_crop_size_bytes": 174587,
       "archive_note": "Initial juvenile wing had crisp pale spots and long layered adult-like remiges. One targeted imagegen edit compacted and softened only the juvenile wing/tail. Full edited plate and crop reopened. Oversize PNG base64 transfer was detected truncated and rejected; complete full-resolution JPEGs replaced it before archive credit.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verification_result": null,
-      "fixed_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "f11e59018ea1e6701bb33645092d2025f601da95",
+      "verification_result": "non-truncated 1806-entry fixed tree; exact four image path/blob/size pairs, complete source-index blob and required text markers matched; truncated stage PNG paths absent",
+      "fixed_commit": "f11e59018ea1e6701bb33645092d2025f601da95",
+      "verified_at": "2026-10-30T01:15:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/07-asio-flammeus-v4.jpg",
+          "blob": "8eae863fa74008ce119f5d13404944220cb675eb",
+          "size_bytes": 515794
+        },
+        "generated_jpg": {
+          "path": "production/generated/07-asio-flammeus-v4-generated.jpg",
+          "blob": "3fd1cb304286d2b8aded7389afbd1796c5e614d5",
+          "size_bytes": 379068
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/07-asio-flammeus-v4-reviewed.jpg",
+          "blob": "8eae863fa74008ce119f5d13404944220cb675eb",
+          "size_bytes": 515794
+        },
+        "review_crop": {
+          "path": "production/reviewed/07-asio-flammeus-v4-juvenile-crop.jpg",
+          "blob": "2fa71a509e76e3d7d03a7ff323644403fbe41d0c",
+          "size_bytes": 174587
+        },
+        "source_index_blob": "2fe7016f863692b1ccf36b6c32e3566e0fe2392d",
+        "fixed_commit": "f11e59018ea1e6701bb33645092d2025f601da95"
+      }
     }
   ],
   "updated_at": "2026-10-30T01:13:00+08:00"

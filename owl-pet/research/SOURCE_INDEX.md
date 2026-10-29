@@ -5757,3 +5757,34 @@ New sources 0, reused 4, corrected 0. V3 retains the exact photographed 55-day c
 - **Confidence:** medium.
 - **Links:** research/species/179-otus-mayottensis.md.
 
+## 2026-10-29 — #143 *Asio solomonensis* v2 evidence refresh
+
+### FEO-LOYN-DEBUS2000 (reused, original re-read)
+- **Title / authors / year:** *Description of Juvenile Fearful Owl Nesasio solomonensis* — Richard H. Loyn & S. J. S. Debus, 2000
+- **Original URL:** https://afo.birdlife.org.au/afo/index.php/afo/article/download/215/205
+- **Accessed:** 2026-10-29
+- **Type / taxon / stage:** primary field observation with Plate 79; historical *Nesasio solomonensis* = current project *Asio solomonensis*; fledgling/older juvenile, exact age unknown
+- **Location actually read:** printed pp.288–289 / PDF pp.1–2, especially p.288 lines describing the 16 July 1987 Bougainville bird and Plate 79 on p.289
+- **Source facts:** the rescued young walked and bounced on the ground and perched on railings. It had long unbarred down on head and underparts, a dark facial mask, emerging light/dark-brown barred dorsal and wing feathers, orange-yellow irides, blue-grey cere, black bill and grey feet.
+- **Limits:** one rescued individual, no known hatch date, growth curve, sex or demonstrated flight. The article relays a hollow-tree origin but does not document the intact nest. Do not generalize a railing as natural habitat or claim first flight.
+- **Supported decision:** v2 uses a railing/low-branch-supported, active older juvenile with long pale unbarred down and only emerging barred wing feathers; no mature layered remiges or adult streaked belly.
+- **Confidence:** high for this individual and stage; low for population-wide timing.
+
+### FEO-BIRDNET-2026-TAX (new)
+- **Title / institution / date:** *Fearful Owl — Asio solomonensis* — BirdNET+ Taxonomy, v0.4-Oct2026
+- **Original URL:** https://birdnet.cornell.edu/taxonomy/species/Asio%20solomonensis
+- **Accessed:** 2026-10-29
+- **Type / scope:** Cornell-hosted current taxonomic index; species identity and name only
+- **Location actually read:** page heading and taxon record, no page number
+- **Source fact:** the current record uses *Asio solomonensis* and links the same Fearful Owl taxon.
+- **Limits:** not a morphology, sex-dimorphism or development source; translated descriptive text is not used for primary evidence.
+- **Supported decision:** update the v2 title/current name to *Asio solomonensis* while retaining *Nesasio solomonensis* as the historical name attached to the 2000 paper.
+- **Confidence:** high for current database naming; not applicable to anatomy.
+
+### FEO-OWLPAGES2020 (reused)
+- **Source:** existing stable record above, specialist secondary species account, https://www.owlpages.com/owls/species.php?s=3500
+- **Reused facts:** robust earless adult, golden/orange-yellow eyes, creamy brows, warm brown upperparts, ochre underparts with dark streaks, strong bill/feet, lowland and hill forest.
+- **Limits:** no quantified sex-size ratio or juvenile chronology. Adults are displayed near equal scale; sex-specific colour is not invented.
+
+**Cycle-2 accounting:** new 1 / reused 2 / corrected 1 (the current-name display is reconciled to *Asio* while preserving the historical *Nesasio* source name). Exact juvenile age, sex, first-flight threshold, quantitative dimorphism and full feather sequence remain unknown; scientific verification stays false.
+

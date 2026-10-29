@@ -16,3 +16,8 @@ SCOPS-MARCHESI-SERGIO-2005 full Wiley article pp.176–187 supports 20–32-d fl
 ## 2026-10-29 v3 archive checkpoint
 
 First render and 620×650 crop passed with zero edits. Archived full-resolution connector-safe JPEG+PNG masters plus crop; manifest 507. Exact individual timing, sustained-flight ability, feather-width ratio and sex-size direction remain unknown; science false; fixed-commit readback pending.
+
+
+## VERIFIED 2026-10-29T12:04:00+08:00
+
+Fixed archive `fb066d5019a708128130e54fdd0d959eb3f2cae8` passed non-truncated tree and six-path exact blob/size readback. Manifest 507 is no longer pending; batch 4/6, next cycle5; unique +0; science false.

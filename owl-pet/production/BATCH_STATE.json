@@ -6815,40 +6815,40 @@
           "run_record": "owl-pet/production/runs/20261029T1158+0800-cycle-3.md",
           "verified_at": "2026-10-29T12:00:00+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species": "Otus scops",
+          "species_id": 81,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "fb066d5019a708128130e54fdd0d959eb3f2cae8",
+          "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md",
+          "verified_at": "2026-10-29T12:04:00+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "20261029T1156+0800-cycle-4",
-        "run_id": "20261029T1156+0800-cycle-4",
-        "species": "Otus scops",
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "heartbeat_at": "2026-10-29T12:01:00+08:00",
-        "expires_at": "2026-10-29T12:16:00+08:00",
-        "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "VERIFIED",
         "run_id": "20261029T1156+0800-cycle-4",
+        "archive_commit": "fb066d5019a708128130e54fdd0d959eb3f2cae8",
+        "verification_commit_pending": true,
         "evidence": {
-          "new_sources": [
-            "SCOPS-MARCHESI-SERGIO-2005",
-            "SCOPS-GRIECO-2025"
-          ],
-          "reused_sources": [
-            "SCOPS-BLASCO-UNDATED",
-            "SCOPS-OWLPAGES-2020",
-            "WHSO-MIKKOLA-2013"
-          ],
+          "tree_truncated": false,
+          "image_paths_verified": 6,
+          "manifest_record": 507,
+          "new_sources": 2,
+          "reused_sources": 3,
           "corrected_items": 1,
-          "target_stage": "approximately 21-day fresh fledgling",
-          "full_prompt_saved": true,
+          "edit_count": 0,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T12:01:00+08:00",
+      "last_updated_at": "2026-10-29T12:04:00+08:00",
       "audit_notes": [
         "2026-10-29T10:36:00+08:00: batch started cycle1 #78 Asio capensis v3 SCIENCE_REVISION; v1-v2 retained; no other open batch; 15-minute lease acquired; no credit.",
         "2026-10-29T10:41:00+08:00: cycle1 #78 v3 RESEARCH_READY; new2/reused4/corrected1; BirdLife 2025 and Hanane & Cherkaoui 2014 actually read; later early-fledgling boundary selected; science false.",
@@ -6871,23 +6871,12 @@
         "2026-10-29T11:58:00+08:00: cycle3 #80 v3 ARCHIVED; concept/generated/reviewed JPEG+PNG and crop stored; manifest 506 pending readback; science false; no credit.",
         "2026-10-29T12:00:00+08:00: cycle3 #80 v3 VERIFIED at fixed archive daf637f05014949846ea1d3c60a53117cc63c381; six paths/blobs/sizes and manifest 506/text markers passed. Batch 3/6, next cycle4; lease released; science false.",
         "2026-10-29T11:56:00+08:00: cycle4 #81 Otus scops v3 STARTED; v1-v2 retained; target precise juvenile age/feather and adult sex-ratio gaps; lease acquired; no credit.",
-        "2026-10-29T12:01:00+08:00: cycle4 #81 v3 RESEARCH_READY new2/reused3/corrected1; approx.21-day fresh fledgling; science false; no credit."
+        "2026-10-29T12:01:00+08:00: cycle4 #81 v3 RESEARCH_READY new2/reused3/corrected1; approx.21-day fresh fledgling; science false; no credit.",
+        "2026-10-29T12:04:00+08:00: cycle4 #81 v3 VERIFIED at fixed archive fb066d5019a708128130e54fdd0d959eb3f2cae8; six paths/blobs/sizes and manifest507/text markers passed. Batch 4/6, next cycle5; lease released; science false."
       ]
     }
   ],
-  "lease": {
-    "owner": "20261029T1156+0800-cycle-4",
-    "run_id": "20261029T1156+0800-cycle-4",
-    "species": "Otus scops",
-    "cycle": 4,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-29T12:03:00+08:00",
-    "expires_at": "2026-10-29T12:18:00+08:00",
-    "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md",
-    "batch_id": "2026-10-29T1036+0800",
-    "species_id": 81,
-    "version": 3
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -7207,16 +7196,8 @@
     "2026-10-29T11:59:00+08:00: #81 RESEARCH_READY.",
     "2026-10-29T12:00:00+08:00: #81 IMAGE_GENERATED in 56.4s; actual full image and juvenile crop opened; review pending.",
     "2026-10-29T12:01:00+08:00: #81 REVIEWED first render, edit_count0; full JPEG and juvenile crop reopened; PASS_WITH_LIMITATIONS; science false.",
-    "2026-10-29T12:03:00+08:00: #81 ARCHIVED; six image paths and manifest507 committed; fixed readback pending; no credit."
+    "2026-10-29T12:03:00+08:00: #81 ARCHIVED; six image paths and manifest507 committed; fixed readback pending; no credit.",
+    "2026-10-29T12:04:00+08:00: #81 VERIFIED at fixed archive fb066d5019a708128130e54fdd0d959eb3f2cae8; batch4/6 next5; lease released."
   ],
-  "in_progress": {
-    "batch_id": "2026-10-29T1036+0800",
-    "cycle": 4,
-    "run_id": "20261029T1156+0800-cycle-4",
-    "species_id": 81,
-    "species": "Otus scops",
-    "version": 3,
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261029T1156+0800-cycle-4.md"
-  }
+  "in_progress": null
 }

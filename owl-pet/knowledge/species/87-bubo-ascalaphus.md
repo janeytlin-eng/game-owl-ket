@@ -18,3 +18,39 @@ Actualv1viewtoday: adults have connected black verticalshaftstreaks continuing i
 Actualeditedimageviewed: bothadultlowerbelly blackladderbars andverticalextensions replacedwiththinrufouscrossbarring onpalesandyfeathers, upperbreastdarkdropmarksretained. Youngfluffyshortwing/upwardopenbill/twofeetrocksupport, adulteyes/bills/feet/scale anddesertretainedvisually notpixelidenticalclaim. Fineplumage/sexratio/youngageunknownsciencefalse. Lesson: adultregionaldiagnostics needzonedupperbreastversusabdomen prompts, notglobalbarredowl. Ruleactuallyapplied/visuallyeffective notbiologicalvalidation. Revisionuniqueincrement0.
 [Original](../../design/concepts/87-bubo-ascalaphus-v2.png)
 [Run](../../production/runs/2026-10-15T2034+0800-cycle-1.md)
+
+
+## 87-bubo-ascalaphus-v3 — c.40-day juvenile calibration
+
+Accessed 2026-10-29. Action: SCIENCE_REVISION; v1–v2 preserved; unique-species increment 0; science false.
+
+### New primary sources
+
+- `ASC-ALSHEIKHLY2012-40D`: Al-Sheikhly 2012, Sandgrouse 34:72–74; printed p.72/PDF p.1 text and Plate 1 plus printed p.74/PDF p.3 Plate 3/4 actually read/viewed. The c.40-day juvenile is described as creamy-sandy, distinct-faced, with yellow iris, pale newly developed flight feathers, developing breast marks, pale legs and medium dark claws; exact flight ability and sex are not reported. Wild origin: hole in a moderately elevated cliff in rocky arid wadi. Separate Plate 3 birds are only labeled full-sized but young.
+- `ASC-MOLDOVAN-SANDOR2009`: Moldován & Sándor 2009, Sandgrouse 31:73–78; printed pp.74–76/PDF pp.2–4 actually read/viewed. Primary dated nest series separates downy young, 30–33-day nestling, estimated 52–55-day nestling and fully feathered/flying older young; nest is a sand scrape in a rock crevice. Used to keep stage, wing length and action coupled rather than to infer an exact c.40-day flight state.
+- `ASC-ISLAM2014-MAHAZAT`: Islam 2014, Phoenix 30(1):12 author-uploaded article metadata/complete abstract read. Six chicks called fledglings were under a large rock with an adult nearby; no precise age/plumage/flight detail, so it supports environment/support only.
+
+### Reused sources and taxonomic mapping
+
+Reused `ASC-MIK2013-272`, `ASC-ALSHEIKHLY2020`, `ASC-ALMASAEED2024` and `ASC-HAJWAL2015-953`. Current *Bubo ascalaphus* maps to historical *Bubo bubo ascalaphus* without a second species count. Adult boundaries remain: short tufts; tawny dark-rimmed disc; yellow–orange eye; black bill; feathered feet; upper-breast dark drop marks; lower belly fine/sparse rufous barring. Female average mass difference is not converted into a fixed height ratio.
+
+### Problem → evidence → change → planned recheck
+
+- **Problem:** v2 retained an age-unknown fluffy juvenile and could not make a stage-specific wing/action claim; exact age/flightability remained unknown.
+- **Evidence:** the 2012 primary paper provides a c.40-day bird’s plumage and developing-flight-feather description, while the 2009 primary series shows that downy, partly feathered and fully feathered/flying stages must not be conflated.
+- **Change:** v3 explicitly selects the c.40-day stage, uses short pale newly developed remiges and incomplete breast markings, and forbids a flight claim; two-foot broad-rock support remains.
+- **Planned recheck:** adult upper-breast versus lower-belly zoning, juvenile remex length/paleness, incomplete breast marks, two-foot support, near-equal adult height, orange/yellow eye and rock-crevice desert setting. Any unresolved fine juvenile feather sequence remains unknown; science stays false.
+
+### Complete imagegen prompt
+
+```text
+Create one landscape 3:2 scientific character-concept plate in the already established owl-pet style: refined natural-history gouache/digital painting, warm desert light, muted ochre/sand/umber palette, clean readable silhouettes, biologically plausible feet and support, no photorealistic collage, no fantasy styling. Title: “PHARAOH EAGLE-OWL”; subtitle: “Bubo ascalaphus”. Three separate full-body individuals, left to right, each clearly labeled below: “ADULT MALE”, “c.40-DAY JUVENILE”, “ADULT FEMALE”. Keep all birds entirely inside frame with generous margins; no overlapping bodies.
+
+Adults: both unmistakably Pharaoh Eagle-Owls, same species and nearly equal standing height; female only modestly fuller/deeper-bodied, not a fixed exaggerated height ratio. Sandy tawny to warm rufous upperparts with irregular dark mottling; rounded tawny facial disc with a fine dark rim; yellow-orange to deep orange irises; short pointed ear tufts noticeably shorter than Eurasian Eagle-Owl; black bill; fully feathered tarsi and toes. Concentrate dark drop-shaped shaft streaks on upper breast. Below that, pale sandy-rufous abdomen and flanks carry fine thin rufous crossbars and sparse pencil marks only—do not continue bold black ladder bars or long vertical black streaks down the belly. Natural alert perches, closed wings, both feet visibly and anatomically gripping broad stable rock ledges.
+
+Middle juvenile: documented approximately 40-day stage, not a newborn and not a miniature adult. Creamy-sandy juvenile plumage with a distinct but still soft facial disc; yellow iris, dark bill; weak or barely emerging tufts; breast markings visibly incomplete/developing. Short, very pale newly developed flight feathers: functional-looking developing feather shafts but clearly shorter/paler and softer than adult closed wings, no long dark adult remiges, no mature tail. Pale feathered legs, medium dark claws, both feet planted on one broad low sandstone ledge; slightly crouched, balanced, wings tucked, beak closed; no flying, no prey, no begging exaggeration. Juvenile can be somewhat smaller than adults but must look like an older growing owl, not a tiny hatchling.
+
+Environment: coherent arid rocky wadi/cliff-crevice setting with sandy scrape, layered sandstone and sparse low desert shrubs; no tree cavity, no woven nest, no lush woodland. Keep habitat secondary and leave a pale clean lower band for accurate labels. Avoid eggs, cages, markets and dead prey. Accurate text only; no extra birds, captions, watermarks or logos.
+```
+
+[Source index](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/20261029T1426+0800-cycle-3.md)

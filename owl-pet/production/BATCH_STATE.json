@@ -6961,34 +6961,37 @@
           "run_record": "owl-pet/production/runs/20261029T1437+0800-cycle-4.md",
           "verified_at": "2026-10-29T14:45:43+08:00",
           "scientifically_verified": false
-        }
-      ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261029T1446+0800-cycle-5",
-        "batch_id": "2026-10-29T1236+0800",
-        "cycle": 5,
-        "species_id": 89,
-        "heartbeat_at": "2026-10-29T14:55:17.306+08:00",
-        "expires_at": "2026-10-29T15:10:17.306+08:00"
-      },
-      "cycle_checkpoint": {
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "run_id": "20261029T1446+0800-cycle-5",
-        "evidence": {
+        },
+        {
+          "cycle": 5,
+          "species": "Bubo bengalensis",
           "species_id": 89,
           "version": 3,
-          "archive_commit": "9fb54507a1d206ea182879890eae92acc451f3b5",
-          "paths": 6,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e5e27aa7dd854656a351a175ae8db53423c7d451",
+          "run_record": "owl-pet/production/runs/20261029T1446+0800-cycle-5.md",
+          "verified_at": "2026-10-29T14:57:59.864+08:00",
+          "scientifically_verified": false
+        }
+      ],
+      "next_cycle": 6,
+      "active_lease": null,
+      "cycle_checkpoint": {
+        "cycle": 5,
+        "stage": "VERIFIED",
+        "run_id": "20261029T1446+0800-cycle-5",
+        "evidence": {
+          "archive_commit": "e5e27aa7dd854656a351a175ae8db53423c7d451",
+          "manifest_verification_commit": "baa09672f6b167209b3c08170683525ee55fdbe0",
+          "tree_truncated": false,
           "manifest_record": 514,
-          "readback_pending": true,
-          "run_checkpoint_commit": "0d7a06784ebae7cc3b4b76ee67246e352d3197cc",
+          "all_six_image_paths_exact": true,
+          "readback_pending": false,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T14:55:17.306+08:00",
+      "last_updated_at": "2026-10-29T14:57:59.864+08:00",
       "audit_notes": [
         "2026-10-29T12:36:04+08:00: cycle1 STARTED #85 Otus semitorques v3 SCIENCE_REVISION; v1-v2 retained; no other open batch or active lease; 15-minute lease acquired; no production credit.",
         "2026-10-29T12:36:57+08:00: cycle1 #85 v3 RESEARCH_READY; new2/reused2/corrected1; first-winter retained-flight-feather boundary; science false.",
@@ -7019,7 +7022,8 @@
         "2026-10-29T14:49:00.898+08:00: cycle5 #89 v3 RESEARCH_READY; new2/reused2/corrected1; c.35-day full-juvenile-plumage without flight inference; science false.",
         "2026-10-29T14:52:34.484+08:00: cycle5 #89 v3 IMAGE_GENERATED after 2 calls/1 juvenile-wing edit; final 1536x1024 full plate opened; review crop next.",
         "2026-10-29T14:53:43.264+08:00: cycle5 #89 v3 REVIEWED after 1 edit; full and crop reopened; PASS_WITH_LIMITATIONS; science false.",
-        "2026-10-29T14:55:17.306+08:00: cycle5 #89 v3 ARCHIVED at 9fb54507a1d206ea182879890eae92acc451f3b5; six canonical paths+manifest514; fixed readback pending."
+        "2026-10-29T14:55:17.306+08:00: cycle5 #89 v3 ARCHIVED at 9fb54507a1d206ea182879890eae92acc451f3b5; six canonical paths+manifest514; fixed readback pending.",
+        "2026-10-29T14:57:59.864+08:00: cycle5 #89 Bubo bengalensis v3 VERIFIED at fixed archive e5e27aa7dd854656a351a175ae8db53423c7d451 after replacing truncated initial PNG; batch5/6 next6; lease released."
       ]
     }
   ],

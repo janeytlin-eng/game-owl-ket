@@ -48,3 +48,8 @@ First render persisted at `owl-pet/production/assets/09-athene-cunicularia-v4-ge
 ### REVIEWED checkpoint
 
 One localized juvenile-wing edit was applied and then inspected at full resolution plus crop. The approximately 14-day chick now retains mostly cream down, patchy brown crown/back development and only short sheath nubs on a compact wing bud. Review result: `PASS_WITH_LIMITATIONS`; pending archive and remote verification.
+
+
+### ARCHIVED checkpoint
+
+v4 is archived as a science revision with generated and reviewed masters plus juvenile crops. Unique species increment: 0. Scientific verification: false. Fixed-tree readback remains pending.

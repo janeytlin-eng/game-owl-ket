@@ -2126,3 +2126,17 @@ When a species-specific post-fledging study documents poor early locomotion but 
 For a documented brancher, use climbing/concealment posture and complete support to communicate preflight status; retain stage-supported formed wings but remove adult-regular layering. Applied and visually rechecked on #06 v4; broader effectiveness unverified.
 
 - 2026-10-30T01:13:00+08:00 — #06 v4 fixed-tree VERIFIED at `01aa13636579c17fec9905572e2f413a5d961eb4`; four exact assets and source/review records matched; batch 2/6 next3; science false.
+
+
+## 2026-10-30 #09 Burrowing Owl v4 — first-emergence chick
+
+- Original: [09-athene-cunicularia-v4.jpg](concepts/09-athene-cunicularia-v4.jpg)
+- Research: [species record](../research/species/09-athene-cunicularia-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one juvenile-wing-only edit; full 1536×1024 plate and 520×670 chick crop reopened.
+- Boundary: approximately 14-day first-emergence chick that can stand/walk but cannot fly; cream down, patchy brown crown/back tracts, compact down-covered wing bud and complete burrow-lip support.
+- Unknown: exact individual day, iris colour, feather count, locality transfer and universal emergence timing.
+- Scientific status: pending / false; v1 approval retained but not inherited.
+
+### Incremental rule — first emergence needs a sheath boundary, not miniature adult coverts
+
+For a documented early-emergence chick, permit short localized sheath nubs supported by known-age imagery, but remove elongated vanes, regular pale spots and adult-like rows. Preserve walking support and do not infer flight from being outside the burrow. Applied and visually rechecked on #09 v4; broader effectiveness remains unverified.

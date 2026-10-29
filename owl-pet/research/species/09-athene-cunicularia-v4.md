@@ -39,3 +39,8 @@ At `2026-10-30T01:28:00+08:00`, the first render was checked at full resolution 
 ## Edit and recheck
 
 A single localized edit removed the chick's elongated spotted wing vanes and replaced them with a compact down-softened wing bud bearing only short brown sheath nubs. Full-frame and juvenile-crop reinspection found no remaining adult spot grid, barring, long remiges or tail fan on the chick. Adults, text, burrow and physical support were preserved. Result: `PASS_WITH_LIMITATIONS`; exact iris colour and feather count remain deliberately non-diagnostic.
+
+
+## Archive state
+
+The reviewed v4 plate and both generated/reviewed evidence pairs were archived without replacing v1-v3. Scientific verification remains false: the design is evidence-bounded but not a specimen-level reconstruction. Fixed commit-pinned readback is pending at this stage.

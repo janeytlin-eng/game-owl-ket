@@ -2078,3 +2078,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 - ARCHIVED pending readback: concept `45eb7f2347827c0b22e271d390637ae4f1624196` (635101 B), generated `0355c978c922bbda4b51801ee0085615dfe7558c` (745798 B), crop `60c3b374d63f678fc0f68655197207beed809e2d` (137773 B); manifest502.
 - Revision only; unique species remains 174/251. One edit passed full/crop review; science false.
+
+- VERIFIED at `d46b421e54d86f06b03a7c105dfed07ae354d376`; batch 5/6, next cycle 6.

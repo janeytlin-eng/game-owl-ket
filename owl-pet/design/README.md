@@ -1822,3 +1822,5 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 - **Observed failure:** a valid older plate used a later pale branch stage; reusing it would erase newer evidence for an earlier brown-down stage, while a first v3 render gave that earlier chick adult-length flight surfaces.
 - **Applied rule:** name the selected evidence-bounded stage, keep stage-specific body down and emerging face/tufts, and independently constrain wing/tail maturity plus support.
 - **Verified here:** #76 v3 passed full/crop recheck after shortening and softening the juvenile wing. Broader transfer remains species-specific.
+
+- #76 v3 fixed-commit readback VERIFIED at `d46b421e54d86f06b03a7c105dfed07ae354d376`; four image blobs matched; science false.

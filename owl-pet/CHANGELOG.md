@@ -1238,3 +1238,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 - Added a 25–30-day brown-down juvenile revision and cautiously field-inferred adult pair contrast.
 - Indexed two new primary sources, edited the over-mature juvenile wing and rechecked full plate plus crop. Archive readback pending.
+
+- Fixed-commit readback verified #76 v3 at `d46b421e54d86f06b03a7c105dfed07ae354d376`; batch advanced to 5/6.

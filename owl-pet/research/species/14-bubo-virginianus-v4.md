@@ -72,3 +72,15 @@ Check exact count/title/labels; adult yellow eyes, white throat, same-morph sex 
 - Concept/reviewed bytes: 439831; expected Git blob equals reviewed blob 7095342cb9ef067094edf00823435637f2ea59c1.
 - Source index blob at archive base: aa709ef865fbd19658e84c8319507a78d88557a4.
 - Durable stages: STARTED ✓ · RESEARCH_READY ✓ · IMAGE_GENERATED ✓ · REVIEWED ✓ · ARCHIVED ✓ · VERIFIED
+
+## Fixed archive verification
+
+## VERIFIED — 2026-10-30T02:57:00+08:00
+
+- Fixed archive commit: d34e26653ae5e37349f6b43028a4c5844cf0b40b
+- Commit-pinned non-truncated tree: 1865 entries.
+- Exact image readback: concept 7095342cb9ef067094edf00823435637f2ea59c1 / 439831 bytes; generated db2930e97e949a416f9f08436cb16a92930ebcd8 / 468640 bytes; reviewed 7095342cb9ef067094edf00823435637f2ea59c1 / 439831 bytes; crop 6a1ded419d7e43f417a015f381038245af28c936 / 112889 bytes.
+- Manifest 540, source index aa709ef865fbd19658e84c8319507a78d88557a4, research, run and knowledge blobs matched the archive tree.
+- Result: PASS_WITH_LIMITATIONS; scientifically_verified=false; unique species increment 0.
+- Durable stages: STARTED ✓ · RESEARCH_READY ✓ · IMAGE_GENERATED ✓ · REVIEWED ✓ · ARCHIVED ✓ · VERIFIED ✓
+- Current batch: 3/6; next cycle 4/6. Lease released.

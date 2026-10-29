@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T02:55:00+08:00",
+  "updated": "2026-10-30T02:57:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9673,10 +9673,40 @@
       "review_crop_sha256": "f6a457b8af36d24cd44296e2dfea908c0a18b6a2fefb9767cf492b327e2f5d52",
       "review_crop_size_bytes": 112889,
       "archive_note": "Full 1536×1024 plate and 560×700 juvenile crop were opened after one targeted edit. Juvenile mature barred wing leakage was removed; tiny emerging wing tip, hidden tail and belly/two-foot nest support pass. Adults/text/count/feet checked. v1–v3 and v1 approval preserved.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "d34e26653ae5e37349f6b43028a4c5844cf0b40b",
+      "verified_at": "2026-10-30T02:57:00+08:00",
+      "fixed_commit": "d34e26653ae5e37349f6b43028a4c5844cf0b40b",
+      "verification_result": "non-truncated 1865-entry fixed tree; exact four image path/blob/size tuples; manifest540, source-index, run, research and knowledge matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "d34e26653ae5e37349f6b43028a4c5844cf0b40b",
+        "concept": {
+          "path": "design/concepts/14-bubo-virginianus-v4.jpg",
+          "blob": "7095342cb9ef067094edf00823435637f2ea59c1",
+          "size_bytes": 439831
+        },
+        "generated": {
+          "path": "production/generated/14-bubo-virginianus-v4-generated.jpg",
+          "blob": "db2930e97e949a416f9f08436cb16a92930ebcd8",
+          "size_bytes": 468640
+        },
+        "reviewed": {
+          "path": "production/reviewed/14-bubo-virginianus-v4-reviewed.jpg",
+          "blob": "7095342cb9ef067094edf00823435637f2ea59c1",
+          "size_bytes": 439831
+        },
+        "review_crop": {
+          "path": "production/reviewed/14-bubo-virginianus-v4-juvenile-review-crop.jpg",
+          "blob": "6a1ded419d7e43f417a015f381038245af28c936",
+          "size_bytes": 112889
+        },
+        "source_index_blob": "aa709ef865fbd19658e84c8319507a78d88557a4",
+        "research_blob": "77c9513dd7dda8d600e7c1fb72337287710d13fa",
+        "run_blob": "71bb36ad8d545fd7261b7b9a8370340030fe7939",
+        "knowledge_blob": "22b5123b537c4d6a3eff520979843f054185ad54"
+      }
     }
   ],
-  "updated_at": "2026-10-30T02:55:00+08:00"
+  "updated_at": "2026-10-30T02:57:00+08:00"
 }

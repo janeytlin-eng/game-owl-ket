@@ -7204,8 +7204,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261029T1830+0800-cycle-2",
-        "heartbeat_at": "2026-10-29T18:46:00+08:00",
-        "expires_at": "2026-10-29T19:01:00+08:00"
+        "heartbeat_at": "2026-10-29T18:40:00+08:00",
+        "expires_at": "2026-10-29T18:55:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
@@ -7215,16 +7215,23 @@
         "species": "Bubo magellanicus",
         "version": 3,
         "evidence": {
-          "concept_path": "owl-pet/design/concepts/99-bubo-magellanicus-v3.png",
-          "concept_blob": "9726f45136ea746cbcbe489bf6fe11159158a83d",
+          "concept_path": "owl-pet/design/concepts/99-bubo-magellanicus-v3.jpg",
+          "concept_blob": "fd1fca4457bbb7422cc0dabb2f5264364273ad50",
+          "generated_path": "owl-pet/production/generated/99-bubo-magellanicus-v3-generated-master.jpg",
+          "generated_blob": "b8fde8a6fb67d84bee8423915036a44b05dd920c",
+          "reviewed_path": "owl-pet/production/reviewed/99-bubo-magellanicus-v3-reviewed-master.jpg",
+          "reviewed_blob": "fd1fca4457bbb7422cc0dabb2f5264364273ad50",
+          "review_crop_path": "owl-pet/production/reviewed/99-bubo-magellanicus-v3-reviewed-chick-crop.jpg",
+          "review_crop_blob": "be31492e72fe99c76863f037a0dfe765b20c641d",
           "manifest_record": "99-bubo-magellanicus-v3",
           "manifest_entries_after": 521,
           "research_record": "owl-pet/research/99-bubo-magellanicus-v3.md",
+          "superseded_png_paths_removed": true,
           "readback_pending": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T18:46:00+08:00",
+      "last_updated_at": "2026-10-29T18:40:00+08:00",
       "audit_notes": [
         "2026-10-29T18:00:00+08:00: cycle1 STARTED #97 Lophostrix cristata v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T18:08:00+08:00: cycle1 #97 v3 RESEARCH_READY; new2/reused3/corrected1; actual PDF pp58–60, Smithsonian landing and MNHN specimen record read; full prompt saved; science false.",
@@ -7235,15 +7242,16 @@
         "2026-10-29T17:45:00+08:00: invocation checkpoint after 1 verified cycle; cycles2–6 remain. This is an execution checkpoint, not evidence of a fixed platform timeout.",
         "2026-10-29T18:34:00+08:00: cycle2 #99 Bubo magellanicus v3 RESEARCH_READY; new1/reused3/corrected0. Zambrano2022 printed pp20–21/Fig4 read: approx1-week chicks retained egg tooth, eyelids open; chicks stayed until flight feathers developed and departed at approx50–56 days. Full prompt saved; science false.",
         "2026-10-29T18:42:00+08:00: cycle2 #99 v3 IMAGE_GENERATED and REVIEWED. Full and 560x650 chick crop opened at original detail. One targeted edit extended dirty-white feathering along adult toes; chick, labels and scene preserved. PASS_WITH_LIMITATIONS; science false.",
-        "2026-10-29T18:46:00+08:00: cycle2 #99 v3 ARCHIVED paths prepared; final lossless concept PNG, generated/reviewed masters, chick crop, manifest entry521 and species research note; readback pending."
+        "2026-10-29T18:46:00+08:00: cycle2 #99 v3 ARCHIVED paths prepared; final lossless concept PNG, generated/reviewed masters, chick crop, manifest entry521 and species research note; readback pending.",
+        "2026-10-29T18:40:00+08:00: cycle2 #99 v3 archive readback found the three oversize PNG blobs did not preserve exact local byte sizes; no credit. They were superseded by complete 1536×1024 JPEG masters (generated b8fde8a6fb/709995B; reviewed+concept fd1fca4457/667980B); fixed-tree readback pending."
       ]
     }
   ],
   "lease": {
     "owner": "codex-automation",
-    "run_id": "20261029T1800+0800-cycle-1",
-    "heartbeat_at": "2026-10-29T18:08:00+08:00",
-    "expires_at": "2026-10-29T18:23:00+08:00"
+    "run_id": "20261029T1830+0800-cycle-2",
+    "heartbeat_at": "2026-10-29T18:40:00+08:00",
+    "expires_at": "2026-10-29T18:55:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7604,7 +7612,8 @@
     "2026-10-29T12:38:50+08:00: #85 IMAGE_GENERATED durable checkpoint prepared.",
     "2026-10-29T12:39:42+08:00: #85 REVIEWED; no edit warranted; science false.",
     "2026-10-29T12:40:26+08:00: #85 ARCHIVED; fixed-tree verification pending.",
-    "2026-10-29T12:41:05+08:00: #85 fixed-tree verification passed; batch advances to 1/6, next cycle2."
+    "2026-10-29T12:41:05+08:00: #85 fixed-tree verification passed; batch advances to 1/6, next cycle2.",
+    "2026-10-29T18:40:00+08:00: #99 v3 oversize PNG mismatch rejected before credit; complete JPEG repair staged; fixed readback pending."
   ],
   "in_progress": {
     "batch_id": "2026-10-29T1800+0800",

@@ -2172,3 +2172,17 @@ For a documented early-emergence chick, permit short localized sheath nubs suppo
 When an institutional regional account gives a 20–22-day departure before flight and another regional synthesis gives 23–27 days, bind the drawing and label to the selected region. Preserve stage-supported developing wing/tail feathers, but remove adult-regular pattern and length. Applied/rechecked on #10 v4; broader effectiveness unverified.
 
 - 2026-10-30T01:47:00+08:00 — #10 v4 fixed-tree VERIFIED at `45290cc7957ff9e60a93727a706e76be8c71043c`; five exact assets and source index matched; batch COMPLETE 6/6; science false.
+
+
+## 2026-10-30 #22 Puerto Rican Owl v4 — alert short-tuft correction
+
+- Original: [22-gymnasio-nudipes-v4.jpg](concepts/22-gymnasio-nudipes-v4.jpg)
+- Research: [species record](../research/species/22-gymnasio-nudipes-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one targeted juvenile-wing edit; full 1536×1024 plate and 520×700 juvenile crop reopened.
+- Boundary: relaxed round-headed male, subtly fuller alert female with only very short raised feather points, and age-unknown fluffy cavity nestling with compact down-covered wing bud and complete chest/belly/two-foot support.
+- Unknown: exact juvenile age, iris ontogeny, feather tract, first-flight threshold, sexed linear measurements and population transfer.
+- Scientific status: pending / false; v1–v3 and historical user-confirmation records preserved.
+
+### Incremental rule — bind short alarm tufts to behavior
+
+When sources describe a normally round head but short feather tufts raised during alarm, render the tufts only on the explicitly alert bird and constrain their length. Do not turn a “no true long ear tufts” statement into an absolute tuftless claim, and do not borrow large horns from related screech-owls. Applied and visually rechecked on #22 v4; broader effectiveness remains species-specific.

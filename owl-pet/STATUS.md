@@ -1,3 +1,4 @@
+- 2026-10-29T16:49:00+08:00: #94 *Pulsatrix koeniswaldiana* v4 VERIFIED at corrected archive `18e6c6d2770e465201cabac2c8da0043da7d1bcc`; four exact JPEG/crop path/blob/size checks passed. Batch `2026-10-29T1536+0800` 4/6, next cycle5; unique +0; science false.
 - 2026-10-29T16:45:00+08:00: #94 *Pulsatrix koeniswaldiana* v4 ARCHIVED; one edit passed full+crop review. Fixed readback pending; unique +0; science false.
 - 2026-10-29T16:30:00+08:00: #93 *Aegolius harrisii iheringi* v2 VERIFIED at `75c4fb39181bac0c3ef9989b60e7b96006374eaa`; four exact JPEG/crop path/blob/size checks passed. Batch `2026-10-29T1536+0800` 3/6, next cycle4; unique +0; science false.
 - 2026-10-29T16:28:00+08:00: #93 *Aegolius harrisii iheringi* v2 ARCHIVED; first render passed full+crop review. Concept/generated/reviewed JPEG and crop committed; fixed-tree readback pending; unique +0; science false.

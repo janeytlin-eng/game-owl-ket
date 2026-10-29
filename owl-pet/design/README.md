@@ -1,7 +1,7 @@
 # Current production review
 
 - Target: [94-pulsatrix-koeniswaldiana-v4.jpg](concepts/94-pulsatrix-koeniswaldiana-v4.jpg)
-- Review: PASS_WITH_LIMITATIONS after one juvenile-wing edit; age-unknown post-cavity stage and two-foot support pass; exact age/flight remain unknown. Fixed readback pending. Science false.
+- Review: PASS_WITH_LIMITATIONS after one juvenile-wing edit; age-unknown post-cavity stage and two-foot support pass; exact age/flight remain unknown. Fixed corrected-tree readback passed at `18e6c6d2770e465201cabac2c8da0043da7d1bcc`. Science false.
 
 # Current production review
 

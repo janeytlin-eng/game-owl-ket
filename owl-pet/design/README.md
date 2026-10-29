@@ -2228,3 +2228,6 @@ When a primary source describes juvenal body plumage but not remex, rectrix or f
 ### Incremental rule — prefer a direct behavior window over a secondary exact day
 
 When a primary field study provides a multi-day entrance window but the daily feather sequence is available only through a secondary citation, bind posture and locomotor claim to the primary window and keep feather/iris claims conservative. Do not convert a secondary exact day into false precision. Applied and visually rechecked on #27 v4; broader effectiveness remains unverified.
+
+
+- #28 *Glaucidium perlatum* v4 — SCIENCE_REVISION, approximately 31-day fully supported dependent fledgling hiding beside the cavity; two juvenile-only edits removed adult-like pearl rows and shortened/softened the wing and tail. [concept](concepts/28-glaucidium-perlatum-v4.jpg) · [research](../research/species/28-glaucidium-perlatum-v4.md) · [run](../production/runs/20261030T064000+0800-cycle-4.md). Exact feather and iris chronology remain unknown; science pending.

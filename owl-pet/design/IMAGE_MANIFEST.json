@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T06:46:00+08:00",
+  "updated": "2026-10-30T06:48:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10050,10 +10050,26 @@
       "readback": {
         "status": "VERIFIED",
         "fixed_commit": "b92752f0383f986b0be88a82b8c1e67673f190a8",
-        "concept": {"path": "design/concepts/26-glaucidium-siju-v4.jpg", "blob": "dc275f57293c98e40cab7ed763310857e6266c03", "size_bytes": 739126},
-        "generated": {"path": "production/generated/26-glaucidium-siju-v4-generated.jpg", "blob": "dc275f57293c98e40cab7ed763310857e6266c03", "size_bytes": 739126},
-        "reviewed": {"path": "production/reviewed/26-glaucidium-siju-v4-reviewed.jpg", "blob": "dc275f57293c98e40cab7ed763310857e6266c03", "size_bytes": 739126},
-        "review_crop": {"path": "production/reviewed/26-glaucidium-siju-v4-juvenile-crop.jpg", "blob": "95d2bfe493db1331dcc258e3017507697ce5ae4b", "size_bytes": 232135},
+        "concept": {
+          "path": "design/concepts/26-glaucidium-siju-v4.jpg",
+          "blob": "dc275f57293c98e40cab7ed763310857e6266c03",
+          "size_bytes": 739126
+        },
+        "generated": {
+          "path": "production/generated/26-glaucidium-siju-v4-generated.jpg",
+          "blob": "dc275f57293c98e40cab7ed763310857e6266c03",
+          "size_bytes": 739126
+        },
+        "reviewed": {
+          "path": "production/reviewed/26-glaucidium-siju-v4-reviewed.jpg",
+          "blob": "dc275f57293c98e40cab7ed763310857e6266c03",
+          "size_bytes": 739126
+        },
+        "review_crop": {
+          "path": "production/reviewed/26-glaucidium-siju-v4-juvenile-crop.jpg",
+          "blob": "95d2bfe493db1331dcc258e3017507697ce5ae4b",
+          "size_bytes": 232135
+        },
         "source_index_blob": "7da635006cff13b2b97f46c135c9e663fbba0989",
         "research_blob": "5d36f763531d313952cddf6ebc7e47b735dfecde",
         "run_blob_at_archive": "b7124513d8b14ef938650bbcc4ae25e365bd7f9e",
@@ -10107,15 +10123,75 @@
       "readback": {
         "status": "VERIFIED",
         "fixed_commit": "650e287a1473b46dc7cec555145ec3ca42b40af3",
-        "concept": {"path": "design/concepts/27-glaucidium-passerinum-v4.jpg", "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798", "size_bytes": 740954},
-        "generated": {"path": "production/generated/27-glaucidium-passerinum-v4-generated.jpg", "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798", "size_bytes": 740954},
-        "reviewed": {"path": "production/reviewed/27-glaucidium-passerinum-v4-reviewed.jpg", "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798", "size_bytes": 740954},
-        "review_crop": {"path": "production/reviewed/27-glaucidium-passerinum-v4-juvenile-crop.jpg", "blob": "baf10926fa3cd29e9622d6a8e1d6ea08c18f3a67", "size_bytes": 212539},
+        "concept": {
+          "path": "design/concepts/27-glaucidium-passerinum-v4.jpg",
+          "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798",
+          "size_bytes": 740954
+        },
+        "generated": {
+          "path": "production/generated/27-glaucidium-passerinum-v4-generated.jpg",
+          "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798",
+          "size_bytes": 740954
+        },
+        "reviewed": {
+          "path": "production/reviewed/27-glaucidium-passerinum-v4-reviewed.jpg",
+          "blob": "3d42ba5c5f605753bd61efbba0bcb9bcd415f798",
+          "size_bytes": 740954
+        },
+        "review_crop": {
+          "path": "production/reviewed/27-glaucidium-passerinum-v4-juvenile-crop.jpg",
+          "blob": "baf10926fa3cd29e9622d6a8e1d6ea08c18f3a67",
+          "size_bytes": 212539
+        },
         "source_index_blob": "0d08da7290892905719ac9465bf66b57cea932f2",
         "research_blob": "172cedfaf0f9562a2e51ce8fdc2c732adf57a052",
         "run_blob_at_archive": "d729f7f7bb52818020fd515c905546c1442d870c",
         "knowledge_blob": "b8f605186b490658793e77afc88bb227f5cecb65"
       }
+    },
+    {
+      "id": "28-glaucidium-perlatum-v4",
+      "path": "design/concepts/28-glaucidium-perlatum-v4.jpg",
+      "species_id": 28,
+      "scientific_name": "Glaucidium perlatum",
+      "historical_names": [],
+      "common_name": "Pearl-spotted Owlet",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "f955bd7ff4fb93c385173a8e00de63be07928c11efc03f342c62228e408086dd",
+      "size_bytes": 591577,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Approximately 31-day recently fledged juvenile is fully supported low in thorn scrub beside the cavity, remains parent-dependent and is not shown flying or hunting. Two edits removed adult-ordered pearl rows, compacted the wing, shortened/hid the tail and subdued the iris. Adults share plumage; female is only subtly fuller and shows one coherent nape false-eye pair. Exact daily feather/iris sequence and primary juvenile growth series remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "source_ids": [
+        "PSOW-OWLPAGES-2020",
+        "PSOW-BDI-2026",
+        "PSOW-SANBI-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--28-glaucidium-perlatum-v4-evidence-increment",
+      "research_record": "research/species/28-glaucidium-perlatum-v4.md",
+      "run_record": "production/runs/20261030T064000+0800-cycle-4.md",
+      "generated_path": "production/generated/28-glaucidium-perlatum-v4-generated.jpg",
+      "generated_blob": "c84ecaced9ec26ac94b26dc1d7837311db557ccf",
+      "generated_sha256": "49fa0f09afb9baded3bfa7030c0e4389d554d7ae411dcfe7e8c99777cce52231",
+      "generated_size_bytes": 652776,
+      "generated_crop_path": "production/generated/28-glaucidium-perlatum-v4-juvenile-crop.jpg",
+      "generated_crop_blob": "45a9f255e942223644a81eaf163464c03c489c81",
+      "generated_crop_size_bytes": 227816,
+      "reviewed_path": "production/reviewed/28-glaucidium-perlatum-v4-reviewed.jpg",
+      "reviewed_blob": "53f1dbbc361d56091a14cc1cab56518139b730d6",
+      "reviewed_sha256": "f955bd7ff4fb93c385173a8e00de63be07928c11efc03f342c62228e408086dd",
+      "reviewed_size_bytes": 591577,
+      "review_crop_path": "production/reviewed/28-glaucidium-perlatum-v4-juvenile-crop.jpg",
+      "review_crop_blob": "75119fdb4f68e1e9131c05f0516bad9026e8d4e3",
+      "review_crop_sha256": "c4b5c1eb59243477a13ba26fce86a4976d6b1033746d4b62172569af4cb43c0f",
+      "review_crop_size_bytes": 200320,
+      "archive_note": "Full first render and crop were opened; two targeted juvenile-only edits were then opened and compared. Final full plate and crop passed count, typography, adult identity/sex boundary, support, habitat and evidence-bounded dependent-fledgling behavior. Existing v1-v3 and historical records remain preserved.",
+      "readback_pending": true
     }
   ],
   "updated_at": "2026-10-30T06:48:00+08:00"

@@ -2234,3 +2234,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 #27 *Glaucidium passerinum* v4 concept plus generated/reviewed JPEGs and juvenile crop are archived as manifest546. The first render passed full/crop review without edit. The juvenile is an unsexed approximately 22-day cavity-entrance bird, wholly supported inside the cavity with no flight or mature-wing/tail claim. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0531+0800` remains 2/6 until verification.
 
 - 2026-10-30T06:48:00+08:00 — #27 *Glaucidium passerinum* v4 fixed-tree readback passed at `650e287a1473b46dc7cec555145ec3ca42b40af3`: non-truncated 1901-entry tree, exact four image path/blob/size tuples and manifest546/source/research/run/knowledge/design/state records matched. Batch **3/6**, next cycle4; unique remains **175/251**, numbered IDs **185/251**, science false.
+
+
+## 2026-10-30 06:48 +08 — #28 Pearl-spotted Owlet v4 archived, verification pending
+
+#28 *Glaucidium perlatum* v4 concept, first generated JPEG, reviewed JPEG and juvenile crops are archived with research/source/run/state records. Two targeted juvenile-only edits removed adult-ordered pearl rows, compacted the wing, shortened/hid the tail and subdued the iris while preserving both-foot support, adults, exact text and habitat. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0531+0800` remains 3/6 until verification.

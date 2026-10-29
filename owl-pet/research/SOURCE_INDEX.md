@@ -5190,3 +5190,12 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - **Reused:** RUF-RIDDELL-2021 primary Darwin study (44–48-day nestling, branching 2–5 Sept, first true flight 6 Sept, ~10-week dependence); RUF-OWLPAGES-2020; WHSO-MIKKOLA-2013 printed pp.448–449/PDF pp.450–451.
 - **Correction/application:** v4 combines measured nominate male-size direction with two independent field observations of branch-capable/newly fledged young. Juvenile gets developed wings/tail and natural stepping support but not adult regular barring or an exact iris claim. Exact individual age/iris/feather chronology/subspecies transfer remain unknown; science false.
 - Related: [research note](species/73-ninox-rufa-v4.md) · [v3](../design/concepts/73-ninox-rufa-v3.png) · [run](../production/runs/20261029T0849+0800-cycle-2.md).
+
+
+## 2026-10-29 — #74 *Ninox novaeseelandiae* v3 — 38–40-day short-tailed fledgling boundary
+
+- **MOR-NZBO-HANZAB-2025 (new, institutional synthesis):** New Zealand Birds Online 295_Morepork PDF, https://www.nzbirdsonline.org.nz/assets/95597/1725854541-295_morepork.pdf ; development and fledging sections actually read. Pins/feathers develop sequentially from days 8–24; at one month dorsal surface feathered while head/underparts downy; NZ fledging 38–40 days with short tail/downy head and underparts, about 90% adult mass. Multi-source synthesis, not a universal continuous series.
+- **MOR-DOC-2026 (new, official):** New Zealand Department of Conservation, https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/morepork-ruru/ ; accessed 2026-10-29. Young fledge around 37–42 days after becoming fully feathered enough to leave. Broad stage support only.
+- **Reused:** MOR-STEPHENSON-MINOT-2006 primary Mokoia study pp.308–311; MOR-TEARA-2009 institutional caption/account.
+- **Correction/application:** v2 remains an evidence-bounded earlier grey-down/pin stage. V3 deliberately changes to a recent fledgling: developed folded wings, short tail, firm perch and downy head/neck/underparts. Adults remain near-equal because field study required PCR and plumage does not reliably sex them; female only subtly fuller, no fixed ratio. Exact age/tract timing/ratio unknown; science false.
+- Related: [research note](species/74-ninox-novaeseelandiae-v3.md) · [v2](../design/concepts/74-ninox-novaeseelandiae-v2.png) · [run](../production/runs/20261029T0904+0800-cycle-3.md).

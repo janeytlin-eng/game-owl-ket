@@ -48,3 +48,17 @@ Check exact count/title/labels; adult yellow eyes, white throat, same-morph sex 
 - Built-in imagegen wait: 46.1 s.
 - First draft persisted as `production/generated/14-bubo-virginianus-v4-generated.jpg`.
 - Review pending at IMAGE_GENERATED checkpoint.
+
+## Review result
+
+## REVIEWED — 2026-10-30T02:51:00+08:00
+
+- Full 1536×1024 draft was opened at original detail.
+- Issue: the juvenile's visible right wing had long adult-like barred flight feathers and regular pale spots, conflicting with the sampled ~21-day 10 mm primary / 5 mm secondary boundary.
+- Edit: one built-in imagegen precise-object edit; observed wait 41.0 s. Adults, text, composition, nest and lighting were locked.
+- Recheck: final full image and 560×700 juvenile crop were opened. Juvenile now has abundant buff-gray down, only a tiny short dark emerging wing tip, hidden tail, belly/two-foot nest support and no flight pose. Adult count, labels, yellow eyes, white throats, same-morph sex treatment, feathered feet and branch support pass.
+- Result: PASS_WITH_LIMITATIONS; scientifically_verified=false.
+- Remaining unknown: exact individual day, feather map, sex, regional morph, quantified pair ratio and universal nest geometry.
+- Reviewed master: 439831 bytes; SHA-256 df85bc987ed17007dcf57cdc387f999ac85b5704626fdbe10dc2cddc7f7765b0.
+- Juvenile crop: 112889 bytes; SHA-256 f6a457b8af36d24cd44296e2dfea908c0a18b6a2fefb9767cf492b327e2f5d52.
+- Durable stages: STARTED ✓ · RESEARCH_READY ✓ · IMAGE_GENERATED ✓ · REVIEWED ✓ · ARCHIVED · VERIFIED

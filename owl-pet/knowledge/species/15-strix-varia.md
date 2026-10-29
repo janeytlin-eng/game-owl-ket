@@ -41,3 +41,14 @@ Adults remain untufted, dark-eyed and yellow-billed with upper-breast crossbars/
 ![v4](../../design/concepts/15-strix-varia-v4.png)
 
 [Research/full prompt](../../research/species/15-strix-varia-v4.md) · [run](../../production/runs/20261028T0840+0800-cycle-5.md)
+
+
+## v5 direct cavity-entrance revision · 2026-10-30
+
+The 2024 *Canadian Field-Naturalist* natural-cavity camera study and its supplement were actually read. Supplement Figure S2 shows nestlings at/peering from the entrance, while Table S6 bounds the earliest 2016 entrance record to an estimated oldest age of about 26 days and the last record to a youngest age of about 27 days. V5 therefore narrows v4’s generic external brancher/climber to an approximately 26-day bird wholly inside the cavity threshold with chest/belly and both feet supported; no bill-climbing or flight claim.
+
+The first render contained a crisp adult-like white-tipped juvenile covert row. One targeted imagegen edit shortened and softened the wing into diffuse down-integrated mottling; the full 1536×1024 plate and 560×700 crop were reopened. Adult identity, exact count/text and cavity support pass. The study is one cavity/two seasons and ages are estimated; exact feather map and universal timing remain unknown. `scientifically_verified=false`; v1 approval remains historical and is not transferred.
+
+![v5](../../design/concepts/15-strix-varia-v5.jpg)
+
+[Research/full prompt](../../research/species/15-strix-varia-v5.md) · [run](../../production/runs/20261030T030200+0800-cycle-4.md)

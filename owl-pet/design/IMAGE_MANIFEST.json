@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T02:57:00+08:00",
+  "updated": "2026-10-30T03:12:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9706,7 +9706,58 @@
         "run_blob": "71bb36ad8d545fd7261b7b9a8370340030fe7939",
         "knowledge_blob": "22b5123b537c4d6a3eff520979843f054185ad54"
       }
+    },
+    {
+      "id": "15-strix-varia-v5",
+      "path": "design/concepts/15-strix-varia-v5.jpg",
+      "species_id": 15,
+      "scientific_name": "Strix varia",
+      "historical_names": [],
+      "subspecies_context": "southeastern Manitoba natural-cavity development reference; adult regional subspecies not assigned",
+      "common_name": "Barred Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "e96e3de217cfba5c5c20120049a4c9f1a3b99c8ccf8991c27a10e6be7eb7e414",
+      "size_bytes": 498681,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION. Approximately 26-day natural-cavity-threshold juvenile selected from directly dated Manitoba camera-trap supplement. Bird is wholly inside cavity with chest/belly and both feet supported, dark eyes, greenish cere, short down-integrated wing and hidden/short tail. First render leaked a crisp adult-like white-tipped wing covert row; one targeted edit removed the repeated row and softened/shortened the developing wing. Adults remain untufted/dark-eyed/yellow-billed with upper-breast crossbars, lower vertical streaks and only subtle female fullness. Exact individual age, feather map, universal timing, sex ratio and cavity geometry remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "BARO-DUNCAN-2024-SUPP",
+        "BARO-DUNCAN-2024-CFN",
+        "BARO-MIKKOLA-2013-P29-P346",
+        "BARO-CORNELL-ID",
+        "BARO-CORNELL-CAM-2024"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--15-strix-varia-v5--directly-observed-natural-cavity-entrance-stage",
+      "research_record": "research/species/15-strix-varia-v5.md",
+      "run_record": "production/runs/20261030T030200+0800-cycle-4.md",
+      "generated_path": "production/generated/15-strix-varia-v5-generated.jpg",
+      "generated_blob": "3f70dad23265d11f2befb11f2f01c946e474eef6",
+      "generated_sha256": "de360b615839e8ffc16fab6ea1fb01098245bfd4b3c18a042332821109f6ae98",
+      "generated_size_bytes": 542620,
+      "reviewed_path": "production/reviewed/15-strix-varia-v5-reviewed.jpg",
+      "reviewed_blob": "dff9a5653ca3e72b9a9863971a5bfc74e2a521eb",
+      "reviewed_sha256": "e96e3de217cfba5c5c20120049a4c9f1a3b99c8ccf8991c27a10e6be7eb7e414",
+      "reviewed_size_bytes": 498681,
+      "review_crop_path": "production/reviewed/15-strix-varia-v5-juvenile-review-crop.jpg",
+      "review_crop_blob": "8c649bb249851ea7d65f6debcbbdf4ec7a78a03d",
+      "review_crop_sha256": "ecbafbc168ef74ab9e0d38bde37ce37a58fddb012d60f86184ad35a642203e0f",
+      "review_crop_size_bytes": 145012,
+      "archive_note": "Full 1536×1024 plate and 560×700 juvenile crop reopened after one targeted edit. Adult-like repeated juvenile wing row replaced with short soft diffuse wing; cavity-threshold chest/belly/two-foot support, adults, count and exact text pass. v1–v4 and v1 user approval preserved.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "fixed_commit": null,
+      "verification_result": null,
+      "readback": {
+        "status": "PENDING"
+      }
     }
   ],
-  "updated_at": "2026-10-30T02:57:00+08:00"
+  "updated_at": "2026-10-30T03:12:00+08:00"
 }

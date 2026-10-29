@@ -58,3 +58,8 @@ Composition: adults flank the cavity while the juvenile stays low at the central
 Text, exact and legible: title "10 · NORTHERN HAWK-OWL · SURNIA ULULA"; labels "ADULT MALE", "ADULT FEMALE", and "APPROX. 20–22-DAY FLIGHTLESS JUVENILE".
 Style: refined cinematic 3D with tactile needle-felted wool texture, documentary calm, realistic species markings.
 Avoid: ear tufts, orange adult eyes, bare adult toes, unbarred adult belly, short adult tail, exaggerated sex-size difference, all-white hatchling, adult-pattern juvenile, long juvenile flight feathers or tail, unsupported juvenile, flight pose, artificial nest, extra birds, misspelled scientific name, watermark.
+
+
+## Generated-image comparison checkpoint
+
+The first render was opened at full resolution and as a 560×640 juvenile crop. Adult identity, text and complete cavity-rim support passed. The juvenile wing showed regular high-contrast adult-like white spots and the tail was too long/crisply barred. This conflicts with the selected 20–22-day flightless boundary, so a localized wing/tail edit is required. Evidence: `owl-pet/production/assets/10-surnia-ulula-v4-generated.jpg`, `owl-pet/production/assets/10-surnia-ulula-v4-generated-juvenile-crop.jpg`.

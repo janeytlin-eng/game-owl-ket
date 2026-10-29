@@ -7528,8 +7528,8 @@
       "active_lease": {
         "owner": "codex-work-20261030T0136+0800",
         "run_id": "20261030T0136+0800-cycle-6",
-        "heartbeat_at": "2026-10-30T01:37:00+08:00",
-        "expires_at": "2026-10-30T01:52:00+08:00"
+        "heartbeat_at": "2026-10-30T01:40:00+08:00",
+        "expires_at": "2026-10-30T01:55:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T0033+0800",
@@ -7537,21 +7537,25 @@
         "species": "Surnia ulula",
         "action": "SCIENCE_REVISION",
         "version": "v4",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261030T0136+0800-cycle-6.md",
         "started_at": "2026-10-30T01:36:00+08:00",
-        "heartbeat_at": "2026-10-30T01:37:00+08:00",
+        "heartbeat_at": "2026-10-30T01:40:00+08:00",
         "research_path": "owl-pet/research/species/10-surnia-ulula-v4.md",
         "source_counts": {
           "new": 2,
           "reused": 5,
           "corrected": 0
         },
-        "prompt_persisted": true
+        "prompt_persisted": true,
+        "generated_asset": "owl-pet/production/assets/10-surnia-ulula-v4-generated.jpg",
+        "generated_crop": "owl-pet/production/assets/10-surnia-ulula-v4-generated-juvenile-crop.jpg",
+        "generated_sha256": "26ca64f3155246f39f9d8470730981abab4b479de3d519a78030e20e7ffc9ce9",
+        "review_result": "EDIT_REQUIRED"
       },
       "last_checkpoint": {
-        "at": "2026-10-30T01:37:00+08:00",
-        "stage": "RESEARCH_READY",
+        "at": "2026-10-30T01:40:00+08:00",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261030T0136+0800-cycle-6.md"
       }
     }

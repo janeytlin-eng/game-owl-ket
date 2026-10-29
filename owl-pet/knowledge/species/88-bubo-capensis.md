@@ -51,3 +51,10 @@ Environment: nominate southern African rocky outcrop/gorge with sheltered cave o
 ```
 
 [Source index](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/20261029T1437+0800-cycle-4.md)
+
+
+### v4 actual review and iteration result
+
+Actually viewed the edited full plate and 560×650 juvenile crop. First render transferred crisp white adult scapular spots and long pointed remiges to the ~45-day young. One juvenile-only edit removed adult white patches and replaced the wing with a shorter, rounded, soft, incompletely formed folded wing while retaining a substantial older-chick body, diffuse mesoptile bars, yellow eyes and two-foot mineral-threshold support. Adults retained orange eyes, blackish bills, coarse breastplates, barred bellies and near-equal height. Exact day/feather sequence/flight ability, juvenile sex and sex-size ratio remain unknown; science false.
+
+Rule status: actually applied and visually effective once. For pre-flight juvenile wings, specify a positive texture/endpoint and inspect a crop; do not rely on a prohibition against adult patches alone.

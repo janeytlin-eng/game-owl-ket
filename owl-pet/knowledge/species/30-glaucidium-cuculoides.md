@@ -40,3 +40,9 @@ HKBWS识别段同时说明幼鸟额顶有斑点；Owl Pages重读支持雌鸟通
 ### v3归档核验
 
 v3概念图 `design/concepts/30-glaucidium-cuculoides-v3.png` 已在固定提交 `b55d0f4a1b5f1522a04afd5e1c65e07af1f85861` 回读：680×453，195,780 bytes，SHA-256 `3d367183c60bf08cd3252ec45913e5e58e449879636c67039e880e9454d8030e`，Git blob `9dea21238c20bf00da70d975ae6949bd9b059b55`。1536×1024生成/审查母版Git blob均为 `0faf15dab096a9011327716bf464a83a7e77a700`，719,232 bytes，SHA-256 `11b44ff9d2abbb5f7604ebe5c081593dae3dcddb2b2da40478b67986f33db19c`。概念审查通过，但科学状态保持false，旧版本与旧确认记录不转移。
+
+## v4研究边界（2026-10-30）
+
+新增读取Jackie Y. Yip（2006）《A Note on the Use of Nest Boxes by Owls and other Birds in the Hong Kong Wetland Park》印刷页15–16。该机构记录独立确认斑头鸺鹠在香港湿地公园使用巢箱繁殖、每次2–6卵，并有“nestlings in a box”的图34标题；可读正文没有给出日龄或连续羽序，本轮又未能成功取得第16页图像，因此不从图34推断绒羽、虹膜、翼尾或飞行能力。
+
+V4继续采用HKBWS明确但无日龄的黄眼幼羽离巢鸟阶段：天然榕树洞口、双足和腹侧有支撑、翼短且边缘柔软、尾短并部分隐藏；雌鸟只略丰满且与雄鸟近等冠高。异常而失败的泰国地巢记录仍不得转成幼鸟场景。精确日龄、飞行阈值、幼鸟软部颜色顺序、量化性别比例与亚种级精细差异仍未知，科学状态保持false。

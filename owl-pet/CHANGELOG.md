@@ -1,3 +1,7 @@
+## 2026-10-29 — #78 Marsh Owl v3
+
+- Added evidence-bounded 29–35-day early-fledgling revision; one juvenile-wing/tail edit reviewed. Detected and repaired connector-truncated over-limit phase blobs before credit. V1–v2 preserved; unique remains 184/251; science false; fixed readback pending.
+
 ## 2026-10-28 — #18 Western Screech-Owl v3
 
 - Added late-nestling mesoptile revision with one juvenile-wing correction; v1–v2 preserved, unique remains 184/251, science false.

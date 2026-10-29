@@ -1,3 +1,15 @@
+## #78 Marsh Owl — *Asio capensis* — v3 science revision
+
+- Concept: [78-asio-capensis-v3.jpg](concepts/78-asio-capensis-v3.jpg)
+- Research: [source index](../research/SOURCE_INDEX.md#2026-10-29-78-asio-capensis-v3-early-fledgling-capability-and-current-taxonomy-boundary)
+- Stage: ARCHIVED; fixed readback pending. V3 uses an evidence-bounded 29–35-day early fledgling and preserves v2's 14–18-day crawler as history. One juvenile-only edit removed adult-regular wing rows/hard remiges and shortened the tail. Exact age/tract chronology/first-flight threshold/sex ratio remain unknown; science false.
+
+### Separate locomotor readiness from adult-like vane patterning
+
+- Discovery: an early fledgling may stand and step with developed folded wings, but the first generation converted that capability into crisp adult-regular wing rows, hard layered remiges and a mature tail.
+- Applied here: retain supported stepping and wing development while explicitly softening feather edges, making markings irregular and shortening the tail.
+- Verified here: the edited full plate and juvenile/feet crop were reopened and passed; adults, labels, habitat and support stayed unchanged. This is evidence for #78's selected stage, not a universal owl rule.
+
 ## #61 Buffy Fish Owl — *Ketupa ketupu* — v3 science revision
 
 - Concept: [61-ketupa-ketupu-v3.jpg](concepts/61-ketupa-ketupu-v3.jpg)

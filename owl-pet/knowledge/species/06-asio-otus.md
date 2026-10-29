@@ -35,3 +35,10 @@ Replaced the older generic early-nestling layout with a labeled trio board bound
 ![v3](../../design/concepts/06-asio-otus-v3.png)
 
 Commit-pinned readback passed at archive `474b983ccf6183426cafcc227921067188b5d7f1`; concept blob `73780f81462ff8b3094a7af355d674dad3782af6`. This is production verification only; scientific verification remains false.
+
+
+## v4 concealment-climbing revision · 2026-10-30
+
+V4 uses Tome 2011 and Ulmschneider 1990 to bound an early post-departure preflight brancher: upright compressed concealment posture, dark face/eyes, short tufts, compact formed wing and full fork support. One edit removed long adult-like remiges/tail. Exact age, sex, first-flight threshold and subspecies transfer remain unknown; science false.
+
+![v4](../../design/concepts/06-asio-otus-v4.jpg)

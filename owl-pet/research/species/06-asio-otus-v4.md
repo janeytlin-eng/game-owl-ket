@@ -24,3 +24,7 @@ Old abandoned corvid stick nest nearby, dense conifer/mixed woodland edge, open 
 ## Review checklist
 
 Exact text/count; adult long tufts/orange eyes/same morph/restrained ratio; juvenile dark transitional eyes, short tufts, diffuse mesoptile, formed soft folded wing, slim concealment posture, both feet plus adjacent body support, no flight; old stick nest and dense cover.
+
+## Image review and iteration
+
+Initial full image and crop passed text/count/adults/concealment/support but showed long adult-like juvenile remiges and tail. One targeted imagegen edit compacted/softened only the juvenile wing and tail while retaining a formed wing and upright concealment posture. Edited full plate and crop were reopened; PASS_WITH_LIMITATIONS, science false.

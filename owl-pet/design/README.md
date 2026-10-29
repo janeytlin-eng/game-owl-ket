@@ -2092,3 +2092,13 @@ When field guidance and telemetry show that a young owl can leave or move around
 When a species-specific post-fledging study documents poor early locomotion but the selected stage is already outside the nest, correct flight competence through pose, support, concealment and juvenile feather texture. Do not automatically shorten every wing into a nestling stub, and do not retain crisp adult pattern rows. Applied and visually rechecked on #05 v4 after one targeted edit; broader effectiveness remains unverified.
 
 - 2026-10-30T00:55:00+08:00 — #05 v4 fixed-tree VERIFIED at `afa285df8c801b83605af9038a16a03ecd8fa45e`; four exact image blobs/sizes and source/review records matched. Batch 1/6, next cycle2; science false.
+
+
+## 2026-10-30 #06 Long-eared Owl v4 — concealment/climbing behavior
+
+- Original: [06-asio-otus-v4.jpg](concepts/06-asio-otus-v4.jpg); one juvenile wing/tail edit; full and crop reopened.
+- Boundary: early post-departure preflight brancher with upright concealment posture, complete fork support and compact soft formed wing; science false.
+
+### Incremental rule — correct competence with behavior as well as feather length
+
+For a documented brancher, use climbing/concealment posture and complete support to communicate preflight status; retain stage-supported formed wings but remove adult-regular layering. Applied and visually rechecked on #06 v4; broader effectiveness unverified.

@@ -5620,3 +5620,17 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - **KOE-MIK2013-313:** adult morphology baseline; female larger stated but no fixed ratio used.
 
 **Source accounting:** new 1 / reused 3 / corrected 1. Exact age, sex, flight ability, wing/tail dimensions, toe geometry and pair ratio remain unknown; science false.
+
+
+### MEL-ECUADOR-DIET-2022
+- Title: What Do We Know about the Diet of Ecuadorian Owls?
+- Authors/institution: Héctor Cadena-Ortiz et al.; INABIO and collaborators
+- Year: 2022; DOI: https://doi.org/10.5772/intechopen.108594
+- URL: https://www.intechopen.com/chapters/84796
+- Accessed: 2026-10-29
+- Type: peer-reviewed open-access review chapter with authors' field observation
+- Taxon/stage: Pulsatrix melanota, recently fledged juvenile, Ecuador, July 2019
+- Valuable fact: section 2.13 and Figure 2 document a recently fledged juvenile with a pellet; an adult remained close and defended it. This corroborates a supported post-fledging stage but does not provide exact age, wing dimensions or a flight threshold.
+- Design use: supports labeling the central bird “recent fledgling — age unknown” and keeping an adult nearby; it does not license flight depiction or numerical development claims.
+- Limits/confidence: single field observation; diet focus; moderate confidence for stage/context, low for detailed plumage beyond the figure.
+- Links: species #95 v3; run 20261029T1702+0800-cycle-5; image version 95-pulsatrix-melanota-v3.

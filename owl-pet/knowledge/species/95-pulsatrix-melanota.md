@@ -31,3 +31,7 @@ New current Cornell Birds of the World abstract (MEL-BOW-2026) explicitly descri
 
 ## 2026-10-27 v2 review/archive
 The first render was rejected for adult-like juvenile white wing rows and long layered remiges. One targeted edit replaced them with a shorter rounded soft-brown developing wing under pale-buff/cinnamon down; dark chocolate facial disk, dark eyes, pale-yellow bill, plain belly, concealed tail and belly/two-foot fork support remained intact. Adults and labels were preserved and rechecked at original resolution. Exact juvenile age/flight threshold, universal nest type and robust sex-size ratio remain unknown. [v2 original](../../design/concepts/95-pulsatrix-melanota-v2.png); scientifically_verified=false.
+
+
+## 2026-10-29 v3 research-ready
+Primary MEL-RIVAS2022 pp.84–85 and Figures 1–3 were reread and the stages separated: the few-days chick is light cinnamon with white throat/periocular plumage, whereas recent fledglings have cinnamon down, a black facial disc and dark irises; head down turns white when the first chest feathers begin growing. New MEL-ECUADOR-DIET-2022 section 2.13/Figure 2 independently records a recently fledged juvenile with an adult nearby. New1/reused3/corrected1. Exact age, flight threshold, wing dimensions, sex and universal nest choice remain unknown; scientifically_verified=false.

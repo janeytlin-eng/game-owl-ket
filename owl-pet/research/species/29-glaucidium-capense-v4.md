@@ -35,3 +35,10 @@ Background: mature southern African riverine/miombo woodland with a large natura
 ## Remaining uncertainty
 
 The only direct older-juvenile plumage evidence is historical and scoped to *G. c. ngamiense*; it is not a continuous age series and does not date dependence or first flight. The 30–33-day departure and about-42-day flight statements are secondary syntheses. Exact population, day, iris chronology across the complex and action threshold remain unresolved. `scientifically_verified=false`.
+
+## Generation checkpoint
+
+- Built-in imagegen duration: 63.2 s; dimensions: 1536×1024.
+- Complete plate and 540×720 juvenile crop were opened at original detail.
+- Pass: exact text/count, near-equal adult height, shared adult plumage, no false eyes, cavity woodland, and all six feet visibly supported.
+- Defect: the first juvenile has a dense bright repeated wing-covert row, hard adult-like remex layering and a long strongly barred tail. The chosen source permits near-complete remiges/rectrices but requires weaker incomplete covert marks; one juvenile-only edit is required.

@@ -9,3 +9,7 @@ RID-EISERMANN-AVENDANO-2018 was newly added after actually reading the full arti
 
 ## 2026-10-27 v2 review/archive
 The first render was rejected for a long layered adult-like juvenile wing. One targeted edit produced a high-ending rounded down-overlaid developing wing while preserving the tilted head, diffuse pale facial rim, honey-amber eyes, dark horn bill, plain buff belly, concealed tail and belly/two-foot support. Adults, labels and cloud-forest scene were preserved and rechecked at original resolution. Exact age/flight threshold, nest form and robust sex ratio remain unknown. [v2 original](../../design/concepts/96-aegolius-ridgwayi-v2.png); scientifically_verified=false.
+
+
+## 2026-10-29 v3 research-ready
+New RID-ITIS-2025 maps old Cryptoglaux ridgwayi to valid Aegolius ridgwayi and prevents historical subspecies labels from being counted as extra current species. New RID-AVES-CR-2025 describes juveniles as adult-like in pattern but downier, often with only slight breast streaking; its adult photograph and text were used, while its explicitly AI illustration was excluded as evidence. Reused RID-EA-JUV, RID-EISERMANN-AVENDANO-2018 and RID-MIK2013-446. New2/reused3/corrected1. Exact age, flight threshold, wing dimensions, sex ratio and universal nest form remain unknown; scientifically_verified=false.

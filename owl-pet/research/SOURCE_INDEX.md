@@ -5634,3 +5634,26 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - Design use: supports labeling the central bird “recent fledgling — age unknown” and keeping an adult nearby; it does not license flight depiction or numerical development claims.
 - Limits/confidence: single field observation; diet focus; moderate confidence for stage/context, low for detailed plumage beyond the figure.
 - Links: species #95 v3; run 20261029T1702+0800-cycle-5; image version 95-pulsatrix-melanota-v3.
+
+
+### RID-ITIS-2025
+- Title/institution: ITIS Report — Aegolius ridgwayi; Integrated Taxonomic Information System
+- Updated basis: IOC World Bird List v15.1 acquired 2025; accessed 2026-10-29
+- URL: https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686697
+- Type: institutional nomenclatural database
+- Taxon: Aegolius ridgwayi; all life stages
+- Valuable fact: valid current species name is Aegolius ridgwayi (Alfaro, 1905); Cryptoglaux ridgwayi is the original/old combination. Historical ridgwayi, rostratus and tacanensis names are listed as synonyms in this treatment.
+- Design use: keeps repository old-name crosswalk without splitting extra current species or transferring subspecies-specific juvenile detail.
+- Limits/confidence: nomenclature only, not a morphology or development source; high confidence for name mapping.
+- Links: species #96 v3; run 20261029T1731+0800-cycle-6.
+
+### RID-AVES-CR-2025
+- Title/institution: Lechucita parda — Aves de Costa Rica
+- Author/site: Mauricio Calderón / Aves de Costa Rica; accessed 2026-10-29
+- URL: https://www.avesdecostarica.com/Aegolius-ridgwayi.html
+- Type: regional field-reference account with adult photograph; AI illustration explicitly excluded as evidence
+- Taxon/stage: Aegolius ridgwayi, adult and juvenile summary
+- Valuable fact: adults are small, large-headed and variably grey/earth brown with honey-yellow iris, dark horn bill and plain whitish-buff abdomen; juveniles resemble adults but are downier and may show slight breast streaking. Montane oak/cloud-forest edge habitat is described.
+- Design use: supports a downier older juvenile with faint irregular breast streaking, not a white neonatal chick or adult-wing clone.
+- Limits/confidence: no exact age, wing metric, flight threshold or nest structure; adult photo useful, AI illustration not used; moderate confidence.
+- Links: species #96 v3; run 20261029T1731+0800-cycle-6.

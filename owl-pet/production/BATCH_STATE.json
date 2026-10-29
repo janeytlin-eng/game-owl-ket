@@ -7118,21 +7118,27 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "20261029T1731+0800-cycle-6",
-        "heartbeat_at": "2026-10-29T17:31:00+08:00",
-        "expires_at": "2026-10-29T17:46:00+08:00"
+        "heartbeat_at": "2026-10-29T17:37:00+08:00",
+        "expires_at": "2026-10-29T17:52:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261029T1731+0800-cycle-6",
         "evidence": {
           "species_id": 96,
           "species": "Aegolius ridgwayi",
           "version": 3,
+          "source_accounting": {
+            "new_count": 2,
+            "reused": 3,
+            "corrected": 1
+          },
+          "prompt_saved": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T17:31:00+08:00",
+      "last_updated_at": "2026-10-29T17:37:00+08:00",
       "audit_notes": [
         "2026-10-29T15:36:00+08:00: cycle1 STARTED #91 Tyto javanica delicatula v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T15:39:00+08:00: cycle1 #91 v3 RESEARCH_READY; new1/reused2/corrected1; full primary pages read; late pre-fledgling wing/locomotion correction; science false.",
@@ -7166,15 +7172,16 @@
         "2026-10-29T17:20:00+08:00: cycle5 #95 v3 REVIEWED after one targeted juvenile-wing edit; edited full original and 620x700 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-29T17:24:00+08:00: cycle5 #95 v3 ARCHIVED; concept/generated draft/reviewed master/crop and manifest committed; fixed-tree readback pending; no credit.",
         "2026-10-29T17:28:00+08:00: cycle5 #95 Pulsatrix melanota v3 VERIFIED at fixed archive 2b5be919418bd80604ee7db89663076252ac411d; four exact JPEG/crop path/blob/size checks passed; batch 5/6 next cycle6; lease released.",
-        "2026-10-29T17:31:00+08:00: cycle6 STARTED #96 Aegolius ridgwayi v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit."
+        "2026-10-29T17:31:00+08:00: cycle6 STARTED #96 Aegolius ridgwayi v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
+        "2026-10-29T17:37:00+08:00: cycle6 #96 v3 RESEARCH_READY; new2/reused3/corrected1; institutional juvenile photo, Costa Rica plumage account and ITIS old-name mapping read; full prompt saved; science false."
       ]
     }
   ],
   "lease": {
     "owner": "codex-owl-production",
     "run_id": "20261029T1731+0800-cycle-6",
-    "heartbeat_at": "2026-10-29T17:31:00+08:00",
-    "expires_at": "2026-10-29T17:46:00+08:00"
+    "heartbeat_at": "2026-10-29T17:37:00+08:00",
+    "expires_at": "2026-10-29T17:52:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7281,7 +7288,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T17:31:00+08:00",
+  "updated_at": "2026-10-29T17:37:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7543,7 +7550,7 @@
     "species_id": 96,
     "species": "Aegolius ridgwayi",
     "version": 3,
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "run_id": "20261029T1731+0800-cycle-6"
   }
 }

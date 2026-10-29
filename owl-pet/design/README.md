@@ -1973,3 +1973,16 @@ Do not translate heavier mean female mass into universally taller adults when wi
 ### Incremental rule — separate same-species chick stages before borrowing detail
 
 When one primary account describes both a few-days chick and later fledglings, do not merge their traits into a generic juvenile. Label the selected stage explicitly; retain only stage-matched plumage and locomotor claims. Applied and visually rechecked on #95 v3; broader effectiveness remains unverified.
+
+
+## 2026-10-29 #96 Aegolius ridgwayi v3 — old-name mapping and older juvenile boundary
+
+- Original: [96-aegolius-ridgwayi-v3.jpg](concepts/96-aegolius-ridgwayi-v3.jpg)
+- Research: [species record](../knowledge/species/96-aegolius-ridgwayi.md) · [source index](../research/SOURCE_INDEX.md#rid-itis-2025)
+- Review: first render; full 1536×1024 and 620×700 juvenile crop opened; no edit warranted.
+- Boundary: age-unknown older fluffy juvenile, adult-like warm-brown/buff pattern but downier, faint irregular breast streaking, short high-ending down-covered wing, concealed tail, belly and both feet supported.
+- Scientific status: pending / false.
+
+### Incremental rule — exclude AI reference images even when the surrounding page is useful
+
+When a regional page explicitly labels an illustration as AI-generated, use only its independently supportable text and real photographs; never treat the synthetic illustration as morphology evidence. Applied on #96 v3; broader effectiveness remains unverified.

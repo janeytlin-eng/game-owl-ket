@@ -13,3 +13,7 @@ The first render was rejected for a long layered adult-like juvenile wing. One t
 
 ## 2026-10-29 v3 research-ready
 New RID-ITIS-2025 maps old Cryptoglaux ridgwayi to valid Aegolius ridgwayi and prevents historical subspecies labels from being counted as extra current species. New RID-AVES-CR-2025 describes juveniles as adult-like in pattern but downier, often with only slight breast streaking; its adult photograph and text were used, while its explicitly AI illustration was excluded as evidence. Reused RID-EA-JUV, RID-EISERMANN-AVENDANO-2018 and RID-MIK2013-446. New2/reused3/corrected1. Exact age, flight threshold, wing dimensions, sex ratio and universal nest form remain unknown; scientifically_verified=false.
+
+
+## 2026-10-29 v3 review/archive
+The first render and the 620×700 juvenile crop passed without an evidence-supported edit. The adults retain honey-amber eyes, dark horn bills, narrow pale facial rims, near-equal scale and plain buff abdomens. The older fluffy juvenile has a tilted head, diffuse pale rim, short high-ending down-covered developing wing, concealed tail and belly/two-foot support. Exact age/flight threshold, tract sequence, wing/tail metrics, sex ratio and nest form remain unknown. [v3 original](../../design/concepts/96-aegolius-ridgwayi-v3.jpg); scientifically_verified=false.

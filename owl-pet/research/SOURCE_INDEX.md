@@ -5485,3 +5485,37 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - **Correction/application:** v3 correctly separated near-adult body growth from immature wing growth but treated “short wing” qualitatively. V4 anchors the selected stage explicitly at the approximately 30-day late-nestling/nest-departure boundary and keeps body/tarsi near adult while wings remain clearly incomplete. Adults remain near-equal in displayed height/wing length; the female may be subtly deeper-bodied for average mass, never uniformly enlarged. Because no calibrated daily plumage series or first-flight measure was found, the juvenile retains soft developing mesoptile, shorter rounded folded wings and full cavity-lip support without a flight claim.
 - **Unknown/limits:** exact individual day, continuous feather-tract sequence, tail growth, iris development, first-flight competence, sex of the illustrated young and transfer beyond Minami-daito remain unknown. Concept remains scientifically unverified.
 - Related: [species card](../knowledge/species/86-otus-elegans.md) · [v3](../design/concepts/86-otus-elegans-v3.png) · [run](../production/runs/20261029T1325+0800-cycle-2.md).
+
+
+## 2026-10-29 — #91 *Tyto javanica delicatula* v3 — late pre-fledgling wing and locomotion correction
+
+### EBO-MCLAUGHLIN-DEBUS-2025 — full-text verification/enrichment (existing stable source ID)
+
+- **Title:** Breeding biology of the Eastern Barn Owl *Tyto javanica* in the western Riverina, New South Wales
+- **Authors:** McLaughlin & Debus
+- **Year / source type:** 2025; peer-reviewed primary field study, *Australian Field Ornithology* 42:116–124
+- **DOI / original URL:** https://doi.org/10.20938/afo42116124 · https://afo.birdlife.org.au/afo/index.php/afo/article/download/2371/2402
+- **Accessed and actually read:** 2026-10-29; printed pp.116, 118–121, 123 (PDF pages 1, 3–6, 8)
+- **Taxon / stage:** Australian *Tyto javanica*; 14 nests; nestlings from hollow-climbing through first week post-fledging
+- **Source facts:** p.116 treats the Australian taxon as *T. javanica* and cautions against uncritical transfer from other regional forms. Thirteen of 14 nests were tree hollows and one a hay shed (p.118). Young ascended inside hollows and exercised wings at the entrance at about 31–45 days; one used bill, claws and wings to climb back (pp.120–121). Earliest young outside a hollow was 46 days, oldest still inside 52 days, estimated range 46–57 days and mean about 53 days (p.119). From about 46 days young climbed, jumped, flapped or flew around the nest tree/ground, and recently fledged birds could fly reasonably well though reluctant to flush (p.121). The authors flag uncertainty in the estimated mean (p.123).
+- **Design decision:** Correct v2's short/rounded juvenile wings. V3 uses a conservative late pre-fledgling (~46–52 d) with developed fresh flight wings, residual down, near-adult scale and a two-foot supported hollow-climb/step. It does not claim an exact individual day, sex, tract sequence or universal fledging mean.
+- **Limitations / confidence:** High for the study population and behavioural range; exact pictured individual timing and plumage sequence remain unknown. Design inference is explicitly separate from source facts.
+- **Links:** [#91 species card](../knowledge/species/91-tyto-javanica-delicatula.md) · v3 run `../production/runs/20261029T1536+0800-cycle-1.md`
+
+### EBO-AUSTRALIAN-MUSEUM-2026 — reused institutional morphology/habitat account
+
+- **Institution / URL:** Australian Museum · https://australian.museum/learn/animals/birds/eastern-barn-owl/
+- **Accessed:** 2026-10-29; Identification and Habitat sections
+- **Facts used:** *Tyto javanica*; white heart-shaped disc; sandy-orange/light-grey upperparts; white/cream underparts; black spotting; females slightly larger; open often arid farm/heath/light woodland habitat.
+- **Boundary:** “Young similar to adults” is not an age sequence and was not used to invent natal-down timing.
+
+### EBO-MUSEUMSVICTORIA-B35989-2023 — new current-taxonomy specimen record
+
+- **Title / institution:** Specimen B 35989 *Tyto javanica delicatula* (Gould, 1837) · Museums Victoria Collections
+- **URL:** https://collections.museumsvictoria.com.au/specimens/2621414
+- **Year / accessed:** specimen prepared 2023; accessed 2026-10-29
+- **Source type / taxon:** museum specimen catalogue; female skin; *Tyto javanica delicatula*, preferred common name Eastern Barn Owl
+- **Fact supported:** Current subspecies mapping and common name for Australian material; supports the old-name crosswalk from *Tyto alba delicatula* retained in the card.
+- **Limitation:** Single adult dry skin; not juvenile-development evidence and not used for sex-size magnitude.
+
+**Source accounting:** new 1 / reused 2 / corrected 1. The uploaded Mikkola guide was not newly accessible in this cycle; its prior card mapping is retained but does not replace the exact-taxon juvenile evidence above.

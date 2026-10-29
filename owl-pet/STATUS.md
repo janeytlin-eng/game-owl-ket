@@ -2101,3 +2101,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 12:13 +08 — #82 v3 verified
 
 #82 *Otus senegalensis* v3 passed fixed-commit repository readback at `cd5e748e779666cb203f2f9c50ce53366fbae819`; six canonical image paths/blobs/sizes and manifest508 matched. This is a science revision with unique increment 0. Batch `2026-10-29T1036+0800` is 5/6, next cycle6. Scientific verification remains false.
+
+
+## 2026-10-29 12:21 +08 — #83 v3 archived, verification pending
+
+#83 *Otus brucei* v3 concept/generated/reviewed assets and research/check records are archived as manifest509. One adult-scapular correction was visually rechecked; science remains false. Fixed-commit readback is pending, so batch remains 5/6 until verification.

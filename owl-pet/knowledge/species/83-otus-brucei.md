@@ -18,3 +18,8 @@ Lesson: Nest substrate and cavity enclosure must be checked separately from spec
 ## 2026-10-29 v3 research-ready correction
 
 Ben Dov & Kiat 2016 was re-read through searchable full text: printed pp.151–152 place all studied nests in mature date-palm cavities 2–3 m below the canopy and give fledging at about 26 d; pp.156–157/plate 243 provide pale coloration, deep-yellow iris, pale eyebrow, horizontal juvenile bars and middle-toe feathering. Qatar e-Nature was newly read for adult/juvenile identification, and IOC v15.2 was checked for current *Otus brucei* naming. V3 therefore uses a c.26-day fresh fledgling, fully supported on the cavity lip, not an unaged nestling or flying juvenile. Exact daily feather tracts, first-flight ability, sex-size direction and subspecies remain unknown; science false.
+
+
+## 2026-10-29 v3 actual review
+
+The first full-resolution render passed count/text/date-palm cavity/juvenile horizontal-bar/deep-yellow-iris/support checks but gave both adults overly bright white scapular patches. One adult-only imagegen edit muted those marks to buff-grey and reinforced the pale sandy-grey ground with long thin dark shaft streaks. The edited 1536×1024 plate and 560×650 juvenile crop were actually reopened; the c.26-day fresh fledgling retained woolly contour, horizontal bars, fresh folded wing, short-tail impression and both-foot cavity-lip support. PASS_WITH_LIMITATIONS; exact daily feather tracts, first-flight ability, subspecies and sex-size direction remain unknown; scientifically_verified=false. Concept: ../../design/concepts/83-otus-brucei-v3.jpg. Run: ../../production/runs/20261029T1214+0800-cycle-6.md.

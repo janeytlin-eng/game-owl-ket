@@ -1271,3 +1271,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-29 12:12 +08: archived #82 *Otus senegalensis* v3 concept plus generated/reviewed masters and juvenile crop; added/corrected primary development evidence; one juvenile-wing edit; manifest508; verification pending.
+
+
+- 2026-10-29 12:21 +08: archived #83 *Otus brucei* v3 assets and c.26-day fresh-fledgling research; one adult scapular edit; manifest509; verification pending.

@@ -1880,3 +1880,8 @@ When a species source explicitly says plumage is adult-like at fledging, do not 
 ### #82 v3 iteration lesson (2026-10-29)
 
 For a 25–28-day African Scops Owl recent fledgling, “developed wing” must not be rendered as adult-regular white spot rows or hard mature remige layering. The prompt and review must independently constrain (1) residual mesoptile/down, (2) soft irregular fresh wing marks, (3) short tail, and (4) both-foot natural support. This rule was applied and visually rechecked here; it is not a substitute for an exact daily feather-tract series.
+
+
+### #83 v3 iteration lesson (2026-10-29)
+
+For Pallid Scops Owl, a pale bird is not a white-spotted bird: adult scapular marks must remain faint buff-grey within a pale sandy ground, while the diagnostic juvenile uses horizontal barring and woollier contour. Treat adult scapular contrast and juvenile bar direction as separate checks. This rule was applied and visually rechecked once; it does not resolve exact age/subspecies/sex differences.

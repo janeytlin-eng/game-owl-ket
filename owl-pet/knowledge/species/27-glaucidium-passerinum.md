@@ -29,6 +29,11 @@ A newly read Russian scientific synthesis citing Schönn (1980) provides an 8/12
 The source is secondary and the underlying primary pages were not accessible, so day-20 iris and individual variation remain uncertain. Adult female size remains subtle; the juvenile is not sexed. Science remains false.
 
 
+## v4 evidence correction — 2026-10-30
+
+Pačenovský & Šotnár's primary Slovak breeding paper was reread at printed pp.71 and 73. It directly places nestlings at the cavity entrance at 21–25 days and fledging at 27–34 days. The plate therefore selects an approximately 22-day nestling still low and fully supported inside the cavity rather than asserting an exact 20-day posture or flight ability. The 2024 molecular-sexing study confirms that juveniles cannot be sexed externally and that adult female size is moderately larger while plumage distinction is not noticeable. V4 keeps the two adults in the same plumage pattern, female only modestly fuller, and forbids a mature barred juvenile tail or ordered adult wing spots. Exact iris chronology and the primary Schönn feather pages remain unresolved; science remains false.
+
+
 ### v3 production review — 2026-10-28
 
 The first durable generated blob failed actual PNG decoding (CRC error and missing lower half), so Git SHA presence alone was not accepted as image integrity. The complete persisted prompt was regenerated. Original-resolution and 680×453 review then confirmed near-equal adults, the male nape pattern, a fully cavity-supported 20-day nestling, short soft nearly unspotted juvenile wing and no mature tail/flight claim. Primary Schönn pages and exact day-20 iris remain unresolved; science remains false.

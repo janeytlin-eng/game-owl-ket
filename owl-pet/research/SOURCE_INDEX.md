@@ -1,5 +1,22 @@
 # 2026-10-29 · #90 *Tyto furcata pratincola* v4 — documented P20 standing, down-dominant stage
 
+## 2026-10-29 · #04 *Athene noctua* v5 — cavity-threshold chick and limited-flight boundary
+
+### LIO-PERRIG-2017
+
+- **Stable source ID:** `LIO-PERRIG-2017`
+- **Title / authors / year:** “Post-fledging survival of Little Owls *Athene noctua* in relation to nestling food supply”; Marco Perrig, Martin U. Grüebler, Herbert Keil & Beat Naef-Daenzer; 2017.
+- **Original URL / DOI:** https://doi.org/10.1111/ibi.12477 ; author-uploaded full text read at https://www.researchgate.net/publication/315444346_Post-fledging_survival_of_Little_Owls_Athene_noctua_in_relation_to_nestling_food_supply
+- **Accessed:** 2026-10-29.
+- **Source type / scope:** peer-reviewed primary field experiment; 93 southern-German nests, 307 juveniles; selected design facts on article pp.534–535.
+- **Actually read facts:** fledging occurs around 30 days; first nest-box departure has limited flight capacity, young remain close and often re-enter; 239 chicks were tagged before fledging at mean 28.7 ± 2.93 days.
+- **Limits / conflicts / confidence:** survival/condition study, not a photographic plumage series. Does not determine exact wing pattern, iris, posture or universal timing. BTO’s c.25–28-day nest departure and 30–35-day fledging window is compatible but not collapsed into one exact day. High confidence for activity/support boundary, low for visual feather geometry.
+- **Design decision:** v5 center bird is an approximately 28-day cavity-threshold chick, low and fully supported immediately outside the cavity; no independent flight, distant perch, adult wing rows or long tail.
+- **Links:** [species research](species/04-athene-noctua-v5.md) · [knowledge card](../knowledge/species/04-athene-noctua.md) · [run](../production/runs/20261029T2346+0800-cycle-6.md).
+
+Reused without duplicate IDs: `LIO-MIKKOLA-2013-P427`, `LIO-BTO-MONITORING-2019`, `LIO-PEDERSEN-2013`, `LIO-BTO-OVERVIEW-2026`. Source facts and design inference remain separate; `scientifically_verified=false`.
+
+
 ## ABO-WAGNER2022-P20
 
 - **Stable source ID:** `ABO-WAGNER2022-P20`

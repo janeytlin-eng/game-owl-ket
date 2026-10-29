@@ -1894,3 +1894,14 @@ For Pallid Scops Owl, a pale bird is not a white-spotted bird: adult scapular ma
 - Review: first render; full 1536×1024 and 560×650 juvenile crop opened; no edit warranted.
 - Boundary: first-winter retained narrow/pale/pointed flight feathers and short pale coverts, near-adult scale, fully supported; no downy-chick or iris-age transfer.
 - Scientific status: pending / false.
+
+
+## 2026-10-29 #86 *Otus elegans* v4 — trait-specific RSD and body/wing decoupling
+
+- Result: SCIENCE_REVISION REVIEWED; fixed archive pending; unique species remains 174/251.
+- Research: 2 new / 3 reused / 1 corrected source access. Full primary tables show females average about 12% heavier but natural wing length is effectively equal and males can be slightly longer in head/tarsus; no uniform female-larger rule. Ninety-nine nestlings measured through day 32 support a near-adult body/tarsus around fledging while wing growth remains incomplete.
+- Review: the first render made the juvenile too small and adult-spotted; the first edit corrected body scale but restored long mature remiges; the second edit retained near-adult body, shortened/softened the folded wings, removed regular adult white rows and hid the tail. Full 1536×1024 plate and 560×650 crop were reopened. Count/text, adult identity/scale, six-foot support, cavity habitat and selected juvenile boundary pass. Exact day, daily feather tract, tail/iris sequence and first-flight competence remain unknown. Science false.
+
+### Incremental rule — separate dimorphism by trait and late-nestling body from wing growth
+
+Do not translate heavier mean female mass into universally taller adults when wing, tarsus or head measurements differ little or reverse direction. Likewise, when species-specific growth curves show mass/tarsus near adult values before wings finish growing, depict a large-bodied supported late nestling with visibly incomplete soft wings—not a tiny fluff ball and not an adult-wing clone. Applied and visually rechecked on #86 v4; broader effectiveness remains unverified.

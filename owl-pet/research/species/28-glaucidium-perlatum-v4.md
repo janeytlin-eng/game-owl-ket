@@ -35,4 +35,10 @@ Background: open mopane/acacia thorn savanna with short dry grass, scattered mut
 
 No primary day-by-day feather series or juvenile iris chronology was recovered. The 31-day locomotor and dependence boundary comes from a specialist secondary synthesis; plumage details are constrained conservatively by the independent BDI juvenile summary. V4 may pass visual review with limitations but cannot be marked scientifically verified.
 
+## Generation checkpoint
+
+- Built-in imagegen duration: 38.6 s; dimensions: 1536×1024.
+- Complete plate and 540×720 juvenile crop actually opened at original detail.
+- First render defect: juvenile carries dense ordered adult pearl rows, a long fully barred adult-like tail, crisp adult wing rows and a bright yellow iris. Support and low resting pose pass. A targeted edit is required before review.
+
 Links: [source index](../SOURCE_INDEX.md) · [run](../../production/runs/20261030T064000+0800-cycle-4.md)

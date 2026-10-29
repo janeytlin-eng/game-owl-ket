@@ -7363,8 +7363,8 @@
         "run_id": "20261029T2346+0800-cycle-6",
         "cycle": 6,
         "species_id": 4,
-        "heartbeat_at": "2026-10-29T23:54:00+08:00",
-        "expires_at": "2026-10-30T00:09:00+08:00"
+        "heartbeat_at": "2026-10-29T23:46:00+08:00",
+        "expires_at": "2026-10-30T00:01:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
@@ -7372,7 +7372,7 @@
         "species": "Athene noctua",
         "version": 5,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "base_main_sha": "e79fc89b7e4beb297bb1bcaa3eb8c8d88b7b3ec3",
         "run_record": "owl-pet/production/runs/20261029T2346+0800-cycle-6.md",
         "prior_versions_retained": [
@@ -7400,11 +7400,25 @@
         "full_prompt": "owl-pet/research/species/04-athene-noctua-v5.md",
         "generated_evidence": {
           "path": "owl-pet/production/generated/04-athene-noctua-v5-generated.jpg",
-          "git_blob": "99ab0a94eb94861b54a5bee183c5f27931c2c6df",
+          "git_blob": "da2691f6536c1fa257afc8c82a776ea2f85b970a",
           "size_bytes": 821585,
           "dimensions": "1536x1024",
           "imagegen_calls": 1,
           "review_result": "FAIL_MATURE_JUVENILE_WING"
+        },
+        "review_evidence": {
+          "master_path": "owl-pet/production/reviewed/04-athene-noctua-v5-reviewed.jpg",
+          "master_git_blob": "853ab0afecd8b8953930919f52b17eeff99fce17",
+          "master_size_bytes": 769557,
+          "crop_path": "owl-pet/production/reviewed/04-athene-noctua-v5-chick-crop.jpg",
+          "crop_git_blob": "99ab0a94eb94861b54a5bee183c5f27931c2c6df",
+          "crop_size_bytes": 190284,
+          "dimensions": "1536x1024",
+          "crop_dimensions": "560x650",
+          "imagegen_calls": 2,
+          "edit_count": 1,
+          "result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       },
       "in_progress": {
@@ -7412,9 +7426,9 @@
         "cycle": 6,
         "species_id": 4,
         "version": 5,
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       },
-      "last_updated_at": "2026-10-29T23:54:00+08:00",
+      "last_updated_at": "2026-10-29T23:46:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7449,9 +7463,10 @@
         "2026-10-29T23:34:00+08:00: expired cycle5 REVIEWED lease reconciled at unchanged main f176acac6197e1d05fa02a2575c4cc5a3fa50c49. Remote generated/reviewed/crop blobs and byte sizes still matched recoverable local evidence; same run_id resumed without regeneration or duplicate credit. Stale top-level cycle4 lease corrected.",
         "2026-10-29T23:38:00+08:00: cycle5 #03 Bubo bubo v12 ARCHIVED as manifest530 with concept plus existing generated/reviewed/crop JPEG evidence and updated research/knowledge/design/status/changelog/run records. Fixed commit-pinned readback pending; batch remains 4/6 and no credit added.",
         "2026-10-29T23:42:00+08:00: cycle5 #03 Bubo bubo v12 VERIFIED at fixed archive 605918f47ffafd48f4ea3f34a61f4c84d532470a; non-truncated 1782-entry tree and four exact image path/blob/size pairs matched, and manifest530/run/source index/research/knowledge records reopened. Batch 5/6 next cycle6; unique unchanged; science false; lease released.",
-        "2026-10-29T23:46:00+08:00: cycle6 STARTED #04 Athene noctua v5 SCIENCE_REVISION; v1-v4 retained. V4 is a 27-day cavity-threshold concept but lacks current generated/reviewed fixed-readback assets; selected for fresh primary-source check and staged rebuild. Fifteen-minute lease acquired; no credit.",
-        "2026-10-29T23:50:00+08:00: cycle6 #04 v5 RESEARCH_READY; new1/reused4/corrected0. Perrig et al. 2017 pp.534–535, BTO monitoring pp.1–2, Pedersen et al. 2013 and Mikkola pp.427–428 read. Approximately 28-day cavity-threshold chick bounded to limited flight, close cavity support and non-mature wing; full prompt saved; science false; no credit.",
-        "2026-10-29T23:54:00+08:00: cycle6 #04 v5 IMAGE_GENERATED; first 1536x1024 render opened. Count/text/adults/support passed, but chick wing was too long, regularly layered and adult-marked; one targeted juvenile-only edit required. Generated JPEG persisted; no credit."
+        "2026-10-29T23:42:00+08:00: cycle6 STARTED #04 Athene noctua v5 SCIENCE_REVISION; v1-v4 retained. V4 is a 27-day cavity-threshold concept but lacks current generated/reviewed fixed-readback assets; selected for fresh primary-source check and staged rebuild. Fifteen-minute lease acquired; no credit.",
+        "2026-10-29T23:44:00+08:00: cycle6 #04 v5 RESEARCH_READY; new1/reused4/corrected0. Perrig et al. 2017 pp.534–535, BTO monitoring pp.1–2, Pedersen et al. 2013 and Mikkola pp.427–428 read. Approximately 28-day cavity-threshold chick bounded to limited flight, close cavity support and non-mature wing; full prompt saved; science false; no credit.",
+        "2026-10-29T23:45:00+08:00: cycle6 #04 v5 IMAGE_GENERATED; first 1536x1024 render opened. Count/text/adults/support passed, but chick wing was too long, regularly layered and adult-marked; one targeted juvenile-only edit required. Generated JPEG persisted; no credit.",
+        "2026-10-29T23:46:00+08:00: cycle6 #04 v5 REVIEWED after one targeted juvenile-wing edit. Edited full 1536x1024 master and 560x650 crop reopened; compact down-softened wing, hidden long tail, all text/adults/support/cavity pass with limitations. Exact day/iris/wing-tail metrics/first-flight threshold remain unknown; science false; no credit."
       ]
     }
   ],
@@ -7568,7 +7583,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T23:54:00+08:00",
+  "updated_at": "2026-10-29T23:46:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7581,8 +7596,8 @@
     "run_id": "20261029T2346+0800-cycle-6",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 6,
-    "heartbeat_at": "2026-10-29T23:54:00+08:00",
-    "expires_at": "2026-10-30T00:09:00+08:00"
+    "heartbeat_at": "2026-10-29T23:46:00+08:00",
+    "expires_at": "2026-10-30T00:01:00+08:00"
   },
   "last_updated_at": "2026-10-29T21:58:00+08:00",
   "audit_notes": [
@@ -7853,6 +7868,6 @@
     "species": "Athene noctua",
     "species_id": 4,
     "version": 5,
-    "stage": "IMAGE_GENERATED"
+    "stage": "REVIEWED"
   }
 }

@@ -6786,27 +6786,34 @@
         "run_id": "20261029T1036+0800-cycle-1",
         "species": "Asio capensis",
         "cycle": 1,
-        "stage": "STARTED",
-        "heartbeat_at": "2026-10-29T10:36:00+08:00",
-        "expires_at": "2026-10-29T10:51:00+08:00",
+        "stage": "RESEARCH_READY",
+        "heartbeat_at": "2026-10-29T10:41:00+08:00",
+        "expires_at": "2026-10-29T10:56:00+08:00",
         "run_record": "owl-pet/production/runs/20261029T1036+0800-cycle-1.md"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261029T1036+0800-cycle-1",
         "evidence": {
-          "prior_versions": [
-            "v1",
-            "v2"
+          "new_sources": [
+            "MAR-BIRDLIFE-SA-2025",
+            "MAR-HANANE-CHERKAOUI-2014"
           ],
-          "action": "SCIENCE_REVISION",
+          "reused_sources": [
+            "MAR-ANSARA-ROSS-2008",
+            "MARSH-BIOEXP-2026",
+            "MARSH-OWLPAGES-2020",
+            "WHSO-MIKKOLA-2013"
+          ],
+          "corrected_inference": "v2 crawler retained; v3 later early fledgling; Moroccan named-form transfer excluded",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T10:36:00+08:00",
+      "last_updated_at": "2026-10-29T10:41:00+08:00",
       "audit_notes": [
-        "2026-10-29T10:36:00+08:00: batch started cycle1 #78 Asio capensis v3 SCIENCE_REVISION; v1-v2 retained; no other open batch; 15-minute lease acquired; no credit."
+        "2026-10-29T10:36:00+08:00: batch started cycle1 #78 Asio capensis v3 SCIENCE_REVISION; v1-v2 retained; no other open batch; 15-minute lease acquired; no credit.",
+        "2026-10-29T10:41:00+08:00: cycle1 #78 v3 RESEARCH_READY; new2/reused4/corrected1; BirdLife 2025 and Hanane & Cherkaoui 2014 actually read; later early-fledgling boundary selected; science false."
       ]
     }
   ],
@@ -7102,7 +7109,8 @@
     "2026-10-29T10:28:00+08:00: #77 v3 REVIEWED after one edit; science false.",
     "2026-10-29T10:31:00+08:00: #77 v3 ARCHIVED; no credit.",
     "2026-10-29T10:34:00+08:00: #77 v3 VERIFIED; batch COMPLETE 6/6.",
-    "2026-10-29T10:36:00+08:00: new batch cycle1 STARTED #78 Asio capensis v3; no credit."
+    "2026-10-29T10:36:00+08:00: new batch cycle1 STARTED #78 Asio capensis v3; no credit.",
+    "2026-10-29T10:41:00+08:00: #78 v3 RESEARCH_READY; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-29T1036+0800",
@@ -7111,7 +7119,7 @@
     "species_id": 78,
     "species": "Asio capensis",
     "version": 3,
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "run_record": "owl-pet/production/runs/20261029T1036+0800-cycle-1.md"
   }
 }

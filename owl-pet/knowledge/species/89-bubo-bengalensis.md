@@ -16,3 +16,20 @@ Conflict retained: actualprimaryplate524 Image15 adult has conspicuous cheststre
 Actualeditviewed: bothadultsupperchest streaks smaller/narrower whileclearlypresent, faintbellycrossbars retained. Neonatalclosedeyes/pinkskin/whitedownwisps/nomaturepins/prostratebellyandheadcontact retained. Primaryphoto524adultconspicuousstreaks vsbooksmallstreakwording remainsvariation/interpretationlimit, notscientificvalidation. Sexwinglengthnotcalibrated. Rulepreciselocalchangesmustretainlegitimatepatternsandrecordconflicts. Imagewait 2026-10-15T12:45:40.552Z to 2026-10-15T12:48:59.067Z; sciencefalse.
 [Original](../../design/concepts/89-bubo-bengalensis-v2.png)
 [Run](../../production/runs/2026-10-15T2034+0800-cycle-3.md)
+
+
+## 89-bubo-bengalensis-v3
+
+- **Action / state:** SCIENCE_REVISION; prior v1/v2 preserved; RESEARCH_READY.
+- **Chosen stage:** approximately 35-day juvenile. BEN-RAM2009 directly reports full juvenile plumage by about day 35; this is not adult plumage and does not establish first flight.
+- **New sources:** BEN-PANDE-DAHANUKAR2011 (16 young, 1–58 days; wing/tail/mass and other characters loosely coupled; developmental plasticity) and BEN-RAMANUJAM2015-BEHAVIOR (one-family activity/nest-leaving progression). Both were actually read at abstract/full-text-excerpt level.
+- **Reused sources:** BEN-RAM2009 full primary PDF and BEN-MIK2013-274 adult diagnosis.
+- **Taxonomy:** current list *Bubo bengalensis*; historical treatment *Bubo bubo bengalensis* retained as old-name mapping, not used to merge the species here.
+- **Adult boundary:** orange-yellow eyes; greenish-horn/slate-black bill; brown tufts/dark crown/white brows/blackish ruff; tawny-brown black-mottled upperparts; small upper-breast streaks and fine/faint belly crossbars. Near-equal visible body height; female may have subtly longer folded wing/tail, but no “female heavier” assertion.
+- **Juvenile boundary:** full juvenile plumage at c.35 days, grounded/crouched on a mineral ledge, folded developing juvenile wings and shorter tail; no mature-adult pattern regularity and no flight claim.
+- **Unknown / limitations:** exact individual age, sex, subspecies/local morph, colour calibration and quantified first-flight threshold remain unknown. Regional preliminary series and one-family behaviour cannot be universalised. Science remains false.
+- **Heimo Mikkola upload:** unavailable in this runtime; no page number invented.
+- **Full image-generation prompt:** Create a landscape 3:2 natural-history concept plate in the repository’s established warm, painterly-realistic wildlife style, titled “INDIAN EAGLE-OWL” with italic subtitle “Bubo bengalensis”. Show exactly three birds, left-to-right, with exact bottom labels “ADULT MALE”, “~35-DAY JUVENILE”, “ADULT FEMALE”. Place them in a rocky semi-desert ravine at warm dawn/dusk, with mineral ledges, sparse dry scrub and natural contact shadows; no frame, UI, scale bars, prey, eggs or extra birds. Adults: near-equal visible body height; do not make the female categorically heavier. The female may have a subtly longer closed wing/tail only. Both have orange-yellow irises, a greenish-horn to slate-black bill, prominent brown ear tufts, dark crown, white brows and blackish facial ruff; tawny-brown upperparts mottled black; small narrow dark upper-breast streaks and fine faint lower-belly crossbars, not a solid dark Cape-Eagle-Owl breastplate. Feathered reddish-yellow tarsi/toes with only cautiously suggested bare grey outer joints. Juvenile: approximately 35 days, fully in juvenile plumage but not adult-plumaged or declared flight-capable; shorter tail, softer less-regular folded juvenile wings, low resting/crouched stance with both feet naturally supported on a broad mineral ledge. No unsupported exact feather count, sex or subspecies claim.
+- **Index:** [SOURCE_INDEX](../../research/SOURCE_INDEX.md)
+- **Target:** ../../design/concepts/89-bubo-bengalensis-v3.jpg
+- **Run:** ../../production/runs/20261029T1446+0800-cycle-5.md

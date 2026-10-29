@@ -41,4 +41,8 @@ No primary day-by-day feather series or juvenile iris chronology was recovered. 
 - Complete plate and 540×720 juvenile crop actually opened at original detail.
 - First render defect: juvenile carries dense ordered adult pearl rows, a long fully barred adult-like tail, crisp adult wing rows and a bright yellow iris. Support and low resting pose pass. A targeted edit is required before review.
 
+## Visual review and iteration
+
+The first targeted edit shortened and softened the juvenile tail and wing and changed the bright yellow iris to subdued olive-ochre, but the reopened plate still carried too many ordered pale spots on the juvenile crown/back/wing. A second localized edit removed most of those spots, made the compact wing predominantly soft brown, hid the tail to a short weakly marked remnant, and preserved both-foot support, adults, exact typography and environment. The final full plate and 540×720 crop were reopened. Result `PASS_WITH_LIMITATIONS`; edit count 2. Science remains false because the external sources do not provide a primary daily plumage or iris sequence.
+
 Links: [source index](../SOURCE_INDEX.md) · [run](../../production/runs/20261030T064000+0800-cycle-4.md)

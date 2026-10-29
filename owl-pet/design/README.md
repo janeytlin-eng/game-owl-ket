@@ -2,7 +2,7 @@
 
 - Target: [90-tyto-furcata-v4.jpg](concepts/90-tyto-furcata-v4.jpg)
 - Research: [species card](../knowledge/species/90-tyto-furcata.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--90-tyto-furcata-pratincola-v4--documented-p20-standing-down-dominant-stage)
-- Current review: PASS_WITH_LIMITATIONS after one juvenile-only wing edit. Exact-taxon P20 evidence supports standing/walking while still white-down-dominant, not branch perching or flight. Science false.
+- Stage: VERIFIED at `0932faa36441386c748694150eadd2f1af54a998`; six exact image path/blob/size readbacks passed. Review: PASS_WITH_LIMITATIONS after one juvenile-only wing edit. Exact-taxon P20 evidence supports standing/walking while still white-down-dominant, not branch perching or flight. Science false.
 
 ### Locomotor readiness does not imply mature remiges
 

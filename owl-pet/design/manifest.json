@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T15:33:12+08:00",
+  "updated": "2026-10-29T15:35:02+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7814,8 +7814,47 @@
       "review_crop_blob": "48d13e3666996b0c0977576c53a10f20948ba3e6",
       "review_crop_size_bytes": 123493,
       "archive_note": "One juvenile-only edit. Full and crop reopened. P20 white-down-dominant body, short emergent wing quills, hidden tail and two-foot floor support pass. Exact individual timing/sex, wild-hand-raised transfer, tract sequence, toes and pair ratio unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "0932faa36441386c748694150eadd2f1af54a998",
+      "fixed_commit": "0932faa36441386c748694150eadd2f1af54a998",
+      "verified_at": "2026-10-29T15:35:02+08:00",
+      "verification_result": "six exact commit-pinned path/blob/size fetches passed",
+      "readback": {
+        "status": "VERIFIED",
+        "tree_truncated": false,
+        "concept": {
+          "path": "design/concepts/90-tyto-furcata-v4.jpg",
+          "blob": "2fb2c3246a5d986ace2bcd7829be2615b1cb15e6",
+          "size_bytes": 498085
+        },
+        "generated_jpg": {
+          "path": "production/generated/90-tyto-furcata-v4-generated-master.jpg",
+          "blob": "2fb2c3246a5d986ace2bcd7829be2615b1cb15e6",
+          "size_bytes": 498085
+        },
+        "generated_png": {
+          "path": "production/generated/90-tyto-furcata-v4-generated-master.png",
+          "blob": "75d8cffafff1e5aac32dfb2979888c938051f411",
+          "size_bytes": 571995
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/90-tyto-furcata-v4-reviewed-master.jpg",
+          "blob": "2fb2c3246a5d986ace2bcd7829be2615b1cb15e6",
+          "size_bytes": 498085
+        },
+        "reviewed_png": {
+          "path": "production/reviewed/90-tyto-furcata-v4-reviewed-master.png",
+          "blob": "75d8cffafff1e5aac32dfb2979888c938051f411",
+          "size_bytes": 571995
+        },
+        "review_crop": {
+          "path": "production/reviewed/90-tyto-furcata-v4-juvenile-review-crop.jpg",
+          "blob": "48d13e3666996b0c0977576c53a10f20948ba3e6",
+          "size_bytes": 123493
+        },
+        "fixed_commit": "0932faa36441386c748694150eadd2f1af54a998"
+      }
     }
   ],
-  "updated_at": "2026-10-29T15:33:12+08:00"
+  "updated_at": "2026-10-29T15:35:02+08:00"
 }

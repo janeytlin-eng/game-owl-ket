@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T15:51:00+08:00",
+  "updated": "2026-10-29T15:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7882,15 +7882,44 @@
       "review_crop_blob": "fbe4b351969f8d57e6ae42f578057333f186b3eb",
       "review_crop_size_bytes": 205988,
       "archive_note": "One juvenile-only edit. Full and crop reopened. ~46–52-day late pre-fledgling with developed fresh folded wings, residual down, visible tail and two-foot hollow-lip support passes. Exact day/sex, tract sequence and pair ratio unknown; science false. Connector PNG transfer truncated on fixed readback; invalid PNG paths removed before credit. Full-resolution JPEG masters retained.",
-      "readback_pending": true,
+      "readback_pending": false,
       "rejected_png_transfer": {
         "blob": "55407a0aeff19c242b6a0f8952a4b579737c616e",
         "readback_size_bytes": 786445,
         "expected_size_bytes": 863562,
         "expected_git_blob": "5dd56269cfc19ccc5cd81192651201fd121498b2",
         "action": "removed both PNG paths before verification"
+      },
+      "archive_commit": "75deb2ec07160131522f00488c55a067961a518b",
+      "fixed_commit": "75deb2ec07160131522f00488c55a067961a518b",
+      "verified_at": "2026-10-29T15:54:00+08:00",
+      "verification_result": "four exact JPEG/crop path/blob/size pairs verified; rejected truncated PNG paths absent at fixed commit",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/91-tyto-javanica-delicatula-v3.jpg",
+          "blob": "c2023389728818cc5465d8980e26c82bed54f0d3",
+          "size_bytes": 531100
+        },
+        "generated_jpg": {
+          "path": "production/generated/91-tyto-javanica-delicatula-v3-generated-master.jpg",
+          "blob": "c2023389728818cc5465d8980e26c82bed54f0d3",
+          "size_bytes": 531100
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/91-tyto-javanica-delicatula-v3-reviewed-master.jpg",
+          "blob": "c2023389728818cc5465d8980e26c82bed54f0d3",
+          "size_bytes": 531100
+        },
+        "review_crop": {
+          "path": "production/reviewed/91-tyto-javanica-delicatula-v3-juvenile-review-crop.jpg",
+          "blob": "fbe4b351969f8d57e6ae42f578057333f186b3eb",
+          "size_bytes": 205988
+        },
+        "rejected_png_paths_absent": true,
+        "fixed_commit": "75deb2ec07160131522f00488c55a067961a518b"
       }
     }
   ],
-  "updated_at": "2026-10-29T15:51:00+08:00"
+  "updated_at": "2026-10-29T15:54:00+08:00"
 }

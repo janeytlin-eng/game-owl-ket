@@ -2,7 +2,7 @@
 
 - Target: [93-aegolius-harrisii-v2.jpg](concepts/93-aegolius-harrisii-v2.jpg)
 - Research: [species card](../knowledge/species/93-aegolius-harrisii.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--93-aegolius-harrisii-iheringi-v2--documented-24-day-pre-fledging-stage)
-- Current review: PASS_WITH_LIMITATIONS on first render. ~24-day disc-bearing, developed but cavity-bound nestling is fully supported; schematic cutaway and exact proportions remain unknown. Fixed-tree verification pending. Science false.
+- Current review: PASS_WITH_LIMITATIONS on first render. ~24-day disc-bearing, developed but cavity-bound nestling is fully supported; schematic cutaway and exact proportions remain unknown. Fixed-tree verification passed at `75c4fb39181bac0c3ef9989b60e7b96006374eaa`. Science false.
 
 ### Do not confuse a cutaway with an entrance measurement
 

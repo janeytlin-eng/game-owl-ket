@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T16:28:00+08:00",
+  "updated": "2026-10-29T16:30:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7935,8 +7935,36 @@
       "review_crop_blob": "afb0c53c88691cd5a06efdd55df35a8f079c235e",
       "review_crop_size_bytes": 256618,
       "archive_note": "First render; full and crop reopened. Supported ~24-day cavity nestling with established disc, developed folded wing and sparse grey down passes with limitations. Schematic cutaway and exact proportions remain unverified. JPEG-only remote masters after known connector PNG truncation risk.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "75c4fb39181bac0c3ef9989b60e7b96006374eaa",
+      "fixed_commit": "75c4fb39181bac0c3ef9989b60e7b96006374eaa",
+      "verified_at": "2026-10-29T16:30:00+08:00",
+      "verification_result": "four exact JPEG/crop path/blob/size pairs verified",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/93-aegolius-harrisii-v2.jpg",
+          "blob": "f8854eb64efb3ee5f8b186db687dc59e951b1c32",
+          "size_bytes": 752047
+        },
+        "generated_jpg": {
+          "path": "production/generated/93-aegolius-harrisii-v2-generated-master.jpg",
+          "blob": "f8854eb64efb3ee5f8b186db687dc59e951b1c32",
+          "size_bytes": 752047
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/93-aegolius-harrisii-v2-reviewed-master.jpg",
+          "blob": "f8854eb64efb3ee5f8b186db687dc59e951b1c32",
+          "size_bytes": 752047
+        },
+        "review_crop": {
+          "path": "production/reviewed/93-aegolius-harrisii-v2-juvenile-review-crop.jpg",
+          "blob": "afb0c53c88691cd5a06efdd55df35a8f079c235e",
+          "size_bytes": 256618
+        },
+        "fixed_commit": "75c4fb39181bac0c3ef9989b60e7b96006374eaa"
+      }
     }
   ],
-  "updated_at": "2026-10-29T16:28:00+08:00"
+  "updated_at": "2026-10-29T16:30:00+08:00"
 }

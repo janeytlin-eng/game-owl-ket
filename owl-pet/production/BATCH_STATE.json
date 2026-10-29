@@ -6982,25 +6982,27 @@
         "batch_id": "2026-10-29T1236+0800",
         "cycle": 6,
         "species_id": 90,
-        "heartbeat_at": "2026-10-29T14:58:27.859+08:00",
-        "expires_at": "2026-10-29T15:13:27.859+08:00"
+        "heartbeat_at": "2026-10-29T15:00:35.248+08:00",
+        "expires_at": "2026-10-29T15:15:35.248+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "202610291458+0800-cycle-6",
         "evidence": {
           "species_id": 90,
           "version": 4,
-          "prior_versions": [
-            "v1",
-            "v2",
-            "v3"
-          ],
+          "new_sources": 2,
+          "reused_sources": 2,
+          "corrected_boundaries": 1,
+          "stage_boundary": "P20 standing/walking but down-dominant; no flight",
+          "source_index_commit": "1f4aad3432ba4acd84da8b0503e4fa6fa9322996",
+          "species_card_commit": "1e1fb1f62246fa5f69aa3a8c0178010a0ea2d461",
+          "run_checkpoint_commit": "205df1eb11e2f494ace06f637a3e6edd7fcd1c3d",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T14:58:27.859+08:00",
+      "last_updated_at": "2026-10-29T15:00:35.248+08:00",
       "audit_notes": [
         "2026-10-29T12:36:04+08:00: cycle1 STARTED #85 Otus semitorques v3 SCIENCE_REVISION; v1-v2 retained; no other open batch or active lease; 15-minute lease acquired; no production credit.",
         "2026-10-29T12:36:57+08:00: cycle1 #85 v3 RESEARCH_READY; new2/reused2/corrected1; first-winter retained-flight-feather boundary; science false.",
@@ -7033,7 +7035,8 @@
         "2026-10-29T14:53:43.264+08:00: cycle5 #89 v3 REVIEWED after 1 edit; full and crop reopened; PASS_WITH_LIMITATIONS; science false.",
         "2026-10-29T14:55:17.306+08:00: cycle5 #89 v3 ARCHIVED at 9fb54507a1d206ea182879890eae92acc451f3b5; six canonical paths+manifest514; fixed readback pending.",
         "2026-10-29T14:57:59.864+08:00: cycle5 #89 Bubo bengalensis v3 VERIFIED at fixed archive e5e27aa7dd854656a351a175ae8db53423c7d451 after replacing truncated initial PNG; batch5/6 next6; lease released.",
-        "2026-10-29T14:58:27.859+08:00: cycle6 STARTED #90 Tyto furcata v4 SCIENCE_REVISION; v1-v3 retained; lease acquired; no credit."
+        "2026-10-29T14:58:27.859+08:00: cycle6 STARTED #90 Tyto furcata v4 SCIENCE_REVISION; v1-v3 retained; lease acquired; no credit.",
+        "2026-10-29T15:00:35.248+08:00: cycle6 #90 v4 RESEARCH_READY; new2/reused2/corrected1; exact-taxon P20 standing/down-dominant boundary; science false."
       ]
     }
   ],

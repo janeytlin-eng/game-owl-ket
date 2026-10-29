@@ -42,3 +42,10 @@ Scene: a lowland Hong Kong woodland edge near farmland, mature banyan bark, rest
 ## Research-stage decision
 
 The new institutional source strengthens the nesting-context audit but does not resolve exact fledging age or flight ability. V4 therefore preserves the conservative stage boundary and remains `scientifically_verified=false`. No unique-species credit is added by this revision.
+
+## Image review and iteration
+
+- First 1536×1024 render: title, labels, three-bird count, round untufted adults, yellow eyes, near-equal adult crown height and cavity support passed. The juvenile had a layered white-spotted adult-like side wing, so the image failed the developmental-wing check.
+- Edit 1: shortened and softened the juvenile wing, but the 520×700 crop still showed a small crisp white-spotted covert row.
+- Edit 2: concealed the residual row and tail under soft juvenile contour feathering while preserving the spotted crown, yellow eyes, feet and cavity posture.
+- Final review: full plate and juvenile crop were reopened at original resolution. The exact text, three owls, adult phenotype, subtle sex-size direction, juvenile head pattern, natural dual-foot/belly support and hidden immature wing/tail passed. Remaining uncertainties are the undated juvenile stage, soft-part chronology, flight threshold, sexed ratio and regional transferability. Result: `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.

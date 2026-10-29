@@ -5519,3 +5519,43 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 - **Limitation:** Single adult dry skin; not juvenile-development evidence and not used for sex-size magnitude.
 
 **Source accounting:** new 1 / reused 2 / corrected 1. The uploaded Mikkola guide was not newly accessible in this cycle; its prior card mapping is retained but does not replace the exact-taxon juvenile evidence above.
+
+
+## 2026-10-29 — #92 *Ninox japonica totogo* v3 — documented 25–28-day fledging and juvenile-tail boundary
+
+### JAP-LIN2012 — full-text reuse, page-specific juvenile-stage boundary
+
+- **Title:** Breeding ecology of the Northern Boobook *Ninox japonica totogo* in central Taiwan
+- **Authors / source:** Wen-Loung Lin, Si-Min Lin & Hui-Yun Tseng; *Forktail* 28:164–166 (2012)
+- **Original URL:** https://web.ntnu.edu.tw/~treehopper/lib/publications_lib_pdf/nonox_et_al_2012.pdf
+- **Accessed/read:** 2026-10-29; all three pages, especially printed pp.164–165 / PDF pp.1–2
+- **Facts:** The paper maps the Far East form to *N. japonica* and the southern resident to *N. j. totogo* (p.164). Nine successful nests had a mean nestling period 25.9 ± 1.1 days, range 25–28 days; post-fledging observations continued every 3–7 days (p.165). Ten measured pairs showed no significant adult male–female difference; 20-day nestlings averaged 143.6 ± 11.6 g (p.165). Nest sites were tree cavities in Taiwan hardwood/secondary-forest mosaics.
+- **Design use:** V3 selects a conservative ~25–28-day just-fledged bird, formed wings/tail and supported step from a cavity; adults overlap in scale. The study does not provide a continuous plumage plate, so feather colours are cross-checked separately.
+- **Limitations:** Population/study-specific; no exact individual feather sequence or fledgling motor score.
+
+### JAP-FUKAI2016 — new primary age-determination paper
+
+- **Title:** Age determination of Brown Hawk-Owl (*Ninox scutulata*)
+- **Author / year / journal:** Norio Fukai, 2016, *Bulletin of the Japanese Bird Banding Association* 28:22–28
+- **DOI / PDF:** https://doi.org/10.14491/jbba.ms073 · https://www.jstage.jst.go.jp/article/jbba/28/1/28_MS073/_pdf
+- **Accessed/read:** 2026-10-29; PDF pp.22–28, especially pp.22–25 / PDF pp.1–4, Table 1 and Fig.1
+- **Taxon/stage:** Historic *N. s. japonica* and *N. s. totogo* (= current *N. japonica* complex); juvenile, first-winter and adult tails
+- **Facts:** Juvenile rectrices taper and have a broad pale terminal fringe approximately as wide as the inner pale bands, whereas adults have broader rounded rectrices and a narrow whiter terminal fringe (pp.22, 24–25; Fig.1). Table 1 includes three juvenile *totogo* and the discussion reports juvenile-type tails in all analysed juvenile *japonica* and *totogo* images; juvenile tail feathers persist into first winter.
+- **Design use:** V3 makes the juvenile tail visible and uses the tapered/broad-fringe diagnostic. It does not transfer adult moult timing into a precise nestling-day feather schedule.
+- **Limitations:** Tail diagnostic, not a full growth series; exceptions such as accidental replacement are noted in the paper.
+
+### JAP-TAIEOL2013 — reused Taiwan institutional account
+
+- **Institution / URL:** Taiwan Encyclopedia of Life · https://taieol.tw/pages/244954/articles
+- **Facts used:** Yellow iris, no ear tufts, dark-brown upperparts, 3–5 white shoulder patches, white underparts with broad dark longitudinal streaks, pale-cream tarsal feathers, yellow toes with sparse bristles; immature underparts pale yellow-brown; old-name mapping *N. scutulata totogo/japonica*.
+- **Limitations:** Morphology/taxonomy synthesis, not a day-by-day nestling series.
+
+### JAP-NTM-TMAV2568 — new museum collection account
+
+- **Title / institution:** Brown Hawk Owl, collection TMAV2568 · National Taiwan Museum / Ministry of Culture
+- **URL:** https://collections.culture.tw/ntm_collectionsweb/EN/Collection?GID=06M6MZ06MB
+- **Accessed:** 2026-10-29; taxonomy, description and habitat fields
+- **Facts used:** Current catalogue *Ninox japonica totogo*; adults dark brown with small interocular and shoulder white patches, yellow iris, grey-black bill, coarse ventral streaks; juvenile paler with fewer/blurry streaks; Taiwan lowland forest/plantation context.
+- **Limitations:** Adult specimen plus institutional synthesis; not evidence for precise fledgling age or sex ratio.
+
+**Source accounting:** new 2 / reused 2 / corrected 1. Correction: v1–v2 hid or left age-vague the juvenile tail; v3 exposes the juvenile-type tapered/broad-fringe rectrices using direct age-determination evidence. Existing Mikkola pp.466–467 is retained as a base morphology cross-check, not used alone to invent fledgling behaviour.

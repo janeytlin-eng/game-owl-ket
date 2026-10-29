@@ -7525,13 +7525,27 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
-      "in_progress": null,
+      "active_lease": {
+        "owner": "codex-work-20261030T0136+0800",
+        "run_id": "20261030T0136+0800-cycle-6",
+        "heartbeat_at": "2026-10-30T01:36:00+08:00",
+        "expires_at": "2026-10-30T01:51:00+08:00"
+      },
+      "in_progress": {
+        "batch_id": "2026-10-30T0033+0800",
+        "cycle": 6,
+        "species": "Surnia ulula",
+        "action": "SCIENCE_REVISION",
+        "version": "v4",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261030T0136+0800-cycle-6.md",
+        "started_at": "2026-10-30T01:36:00+08:00",
+        "heartbeat_at": "2026-10-30T01:36:00+08:00"
+      },
       "last_checkpoint": {
-        "at": "2026-10-30T01:35:00+08:00",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261030T0124+0800-cycle-5.md",
-        "commit_sha": "1d6364b3eca882d2a9866480e7f5eeee79c363db"
+        "at": "2026-10-30T01:36:00+08:00",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261030T0136+0800-cycle-6.md"
       }
     }
   ],

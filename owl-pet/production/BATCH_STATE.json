@@ -7293,7 +7293,7 @@
     },
     {
       "batch_id": "2026-10-29T2038+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -7355,24 +7355,29 @@
           "run_record": "owl-pet/production/runs/20261029T2247+0800-cycle-5.md",
           "verified_at": "2026-10-29T23:42:00+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "species": "Athene noctua",
+          "species_id": 4,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24",
+          "run_record": "owl-pet/production/runs/20261029T2346+0800-cycle-6.md",
+          "verified_at": "2026-10-29T23:50:00+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex-work-20261029T2346+0800",
-        "run_id": "20261029T2346+0800-cycle-6",
-        "cycle": 6,
-        "species_id": 4,
-        "heartbeat_at": "2026-10-29T23:48:00+08:00",
-        "expires_at": "2026-10-30T00:03:00+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "cycle_checkpoint": {
         "cycle": 6,
         "species_id": 4,
         "species": "Athene noctua",
         "version": 5,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "base_main_sha": "e79fc89b7e4beb297bb1bcaa3eb8c8d88b7b3ec3",
         "run_record": "owl-pet/production/runs/20261029T2346+0800-cycle-6.md",
         "prior_versions_retained": [
@@ -7425,17 +7430,12 @@
           "concept_blob": "853ab0afecd8b8953930919f52b17eeff99fce17",
           "concept_size_bytes": 769557,
           "manifest_entry": 531,
-          "readback_pending": true
+          "readback_pending": false,
+          "fixed_commit": "a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24"
         }
       },
-      "in_progress": {
-        "run_id": "20261029T2346+0800-cycle-6",
-        "cycle": 6,
-        "species_id": 4,
-        "version": 5,
-        "stage": "ARCHIVED"
-      },
-      "last_updated_at": "2026-10-29T23:48:00+08:00",
+      "in_progress": null,
+      "last_updated_at": "2026-10-29T23:50:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7474,7 +7474,8 @@
         "2026-10-29T23:44:00+08:00: cycle6 #04 v5 RESEARCH_READY; new1/reused4/corrected0. Perrig et al. 2017 pp.534–535, BTO monitoring pp.1–2, Pedersen et al. 2013 and Mikkola pp.427–428 read. Approximately 28-day cavity-threshold chick bounded to limited flight, close cavity support and non-mature wing; full prompt saved; science false; no credit.",
         "2026-10-29T23:45:00+08:00: cycle6 #04 v5 IMAGE_GENERATED; first 1536x1024 render opened. Count/text/adults/support passed, but chick wing was too long, regularly layered and adult-marked; one targeted juvenile-only edit required. Generated JPEG persisted; no credit.",
         "2026-10-29T23:46:00+08:00: cycle6 #04 v5 REVIEWED after one targeted juvenile-wing edit. Edited full 1536x1024 master and 560x650 crop reopened; compact down-softened wing, hidden long tail, all text/adults/support/cavity pass with limitations. Exact day/iris/wing-tail metrics/first-flight threshold remain unknown; science false; no credit.",
-        "2026-10-29T23:48:00+08:00: cycle6 #04 Athene noctua v5 ARCHIVED as manifest531 with concept plus generated/reviewed/crop JPEG evidence and updated research/knowledge/design/status/changelog/run records. Fixed commit-pinned readback pending; batch remains 5/6 and no credit added."
+        "2026-10-29T23:48:00+08:00: cycle6 #04 Athene noctua v5 ARCHIVED as manifest531 with concept plus generated/reviewed/crop JPEG evidence and updated research/knowledge/design/status/changelog/run records. Fixed commit-pinned readback pending; batch remains 5/6 and no credit added.",
+        "2026-10-29T23:50:00+08:00: cycle6 #04 Athene noctua v5 VERIFIED at fixed archive a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24; non-truncated 1788-entry tree and four exact image path/blob/size pairs matched, and manifest531/run/source index/research/knowledge records reopened. Batch COMPLETE 6/6; unique unchanged; science false; lease released."
       ]
     }
   ],
@@ -7591,7 +7592,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T23:48:00+08:00",
+  "updated_at": "2026-10-29T23:50:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7599,14 +7600,7 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-work-20261029T2346+0800",
-    "run_id": "20261029T2346+0800-cycle-6",
-    "batch_id": "2026-10-29T2038+0800",
-    "cycle": 6,
-    "heartbeat_at": "2026-10-29T23:48:00+08:00",
-    "expires_at": "2026-10-30T00:03:00+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-10-29T21:58:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -7869,13 +7863,5 @@
     "2026-10-29T18:50:00+08:00: #100 v3 ARCHIVED; fixed readback pending; no credit.",
     "2026-10-29T18:51:00+08:00: #100 v3 fixed-tree verification passed at 56b0d5745680ff6c538f4109dc08911472986505; batch3/6 next4; lease released."
   ],
-  "in_progress": {
-    "batch_id": "2026-10-29T2038+0800",
-    "cycle": 6,
-    "run_id": "20261029T2346+0800-cycle-6",
-    "species": "Athene noctua",
-    "species_id": 4,
-    "version": 5,
-    "stage": "ARCHIVED"
-  }
+  "in_progress": null
 }

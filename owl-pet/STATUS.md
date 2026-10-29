@@ -2189,3 +2189,7 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-29 23:48 +08 — #04 Little Owl v5 archived, verification pending
 
 #04 *Athene noctua* v5 concept plus generated/reviewed JPEGs and chick crop are archived as manifest531. One targeted edit shortened the chick wing, removed regular adult-style spots and hid the long tail; full image and crop passed with limitations. Revision adds no unique species; reconciled total remains 175/251. Science remains false. Fixed commit-pinned readback is pending, so the batch remains 5/6 until verification.
+
+## 2026-10-29 23:50 +08 — #04 Little Owl v5 verified; batch complete
+
+#04 v5 passed fixed-commit readback at `a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24`: non-truncated 1788-entry tree, exact concept/generated/reviewed/crop blobs and sizes, manifest531, run, source index, research and knowledge records matched. Science revision, unique increment0, scientific verification false. Batch `2026-10-29T2038+0800` is COMPLETE 6/6; lease and in-progress state released.

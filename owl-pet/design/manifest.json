@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T23:48:00+08:00",
+  "updated": "2026-10-29T23:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8956,10 +8956,37 @@
       "review_crop_sha256": "42949ee5cfb82a974e8563451728113d4a8cb49a57a954b6435566e7f60608ca",
       "review_crop_size_bytes": 190284,
       "archive_note": "First render had a long regularly layered, adult-spotted juvenile wing. One targeted imagegen edit shortened and softened it, removed regular adult-style spot rows and hid the long tail. Full image and 560x650 crop reopened; science false.",
-      "readback_pending": true,
-      "archive_commit": "PENDING_FIXED_COMMIT",
-      "verification_result": "pending fixed-commit tree and text-record readback"
+      "readback_pending": false,
+      "archive_commit": "a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24",
+      "verification_result": "non-truncated 1788-entry commit-pinned tree; four exact image path/blob/size pairs matched; manifest, run, source index, research and knowledge records reopened",
+      "fixed_commit": "a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24",
+      "verified_at": "2026-10-29T23:50:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/04-athene-noctua-v5.jpg",
+          "blob": "853ab0afecd8b8953930919f52b17eeff99fce17",
+          "size_bytes": 769557
+        },
+        "generated_jpg": {
+          "path": "production/generated/04-athene-noctua-v5-generated.jpg",
+          "blob": "da2691f6536c1fa257afc8c82a776ea2f85b970a",
+          "size_bytes": 821585
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/04-athene-noctua-v5-reviewed.jpg",
+          "blob": "853ab0afecd8b8953930919f52b17eeff99fce17",
+          "size_bytes": 769557
+        },
+        "review_crop": {
+          "path": "production/reviewed/04-athene-noctua-v5-chick-crop.jpg",
+          "blob": "99ab0a94eb94861b54a5bee183c5f27931c2c6df",
+          "size_bytes": 190284
+        },
+        "fixed_commit": "a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24",
+        "local_git_hash_object_matches": true
+      }
     }
   ],
-  "updated_at": "2026-10-29T23:48:00+08:00"
+  "updated_at": "2026-10-29T23:50:00+08:00"
 }

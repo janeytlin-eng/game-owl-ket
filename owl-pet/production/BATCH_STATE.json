@@ -7327,8 +7327,8 @@
       "run_id": "20261029T2144+0800-cycle-3",
       "cycle": 3,
       "species_id": 1,
-      "heartbeat_at": "2026-10-29T21:44:00+08:00",
-      "expires_at": "2026-10-29T21:59:00+08:00"
+      "heartbeat_at": "2026-10-29T21:46:00+08:00",
+      "expires_at": "2026-10-29T22:01:00+08:00"
     },
     "cycle_checkpoint": {
       "cycle": 3,
@@ -7336,21 +7336,26 @@
       "species": "Tyto alba",
       "version": 5,
       "action": "SCIENCE_REVISION",
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "base_main_sha": "6e968d6c7d69329727f9867f367529aaa0977e6e",
       "run_record": "owl-pet/production/runs/20261029T2144+0800-cycle-3.md",
       "prior_versions_retained": [1, 2, 3, 4],
       "user_approved_scope": "v3 juvenile look retained as a historical user-approved direction; v4 barn-interior correction retained; v5 will calibrate a source-bounded nestling stage without overwriting either record.",
-      "production_credit": false
+      "production_credit": false,
+      "source_index": "owl-pet/research/SOURCE_INDEX.md",
+      "research_record": "owl-pet/research/species/01-tyto-alba-v5.md",
+      "source_counts": {"new": 3, "reused": 3, "corrected": 1},
+      "full_prompt_saved": true,
+      "scientifically_verified": false
     },
     "in_progress": {
       "run_id": "20261029T2144+0800-cycle-3",
       "cycle": 3,
       "species_id": 1,
       "version": 5,
-      "stage": "STARTED"
+      "stage": "RESEARCH_READY"
     },
-    "last_updated_at": "2026-10-29T21:44:00+08:00",
+    "last_updated_at": "2026-10-29T21:46:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
         "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
@@ -7365,11 +7370,19 @@
         "2026-10-29T21:43:00+08:00: cycle2 #143 v2 REVIEWED after one targeted edit. Edited 1536x1024 full image and 620x760 juvenile crop reopened: three birds/text/support/near-equal adults pass; juvenile retains long pale down, dark mask, orange-yellow eyes, grey feet and short emerging barred wing. Exact age/sex/flight threshold remain unknown; science false; no credit.",
         "2026-10-29T21:47:00+08:00: cycle2 #143 v2 ARCHIVED; concept, generated/reviewed JPEG masters, juvenile crop, manifest527, knowledge/status and run records staged. Fixed commit-pinned readback pending; no cycle credit.",
       "2026-10-29T21:51:00+08:00: cycle2 #143 Asio solomonensis v2 VERIFIED at archive 636309f2aa7c89a224eba688005a0e2399024d88; non-truncated 1764-entry fixed tree and four exact image path/blob/size pairs matched local git hash-object, and run/knowledge records reopened. Batch 2/6 next cycle3; unique unchanged; science false; lease released.",
-      "2026-10-29T21:44:00+08:00: cycle3 STARTED #01 Tyto alba v5 SCIENCE_REVISION; v1-v4 retained, including user approval of the v3 juvenile look and v4 barn-interior correction. Fifteen-minute lease acquired. Candidate selected for a source-bounded early nestling recalibration under the current staged fixed-readback workflow; no production credit."
+      "2026-10-29T21:44:00+08:00: cycle3 STARTED #01 Tyto alba v5 SCIENCE_REVISION; v1-v4 retained, including user approval of the v3 juvenile look and v4 barn-interior correction. Fifteen-minute lease acquired. Candidate selected for a source-bounded early nestling recalibration under the current staged fixed-readback workflow; no production credit.",
+      "2026-10-29T21:46:00+08:00: cycle3 #01 Tyto alba v5 RESEARCH_READY; new3/reused3/corrected1. Mikkola actual PDF pp.80–82/printed pp.78–80 and two primary developmental full texts were read. Approximately P15 is bounded to open eyes, low heel/belly support and tiny emerging quill tips only. Full prompt saved; science false; no credit."
       ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-work-20261029T2144+0800",
+    "run_id": "20261029T2144+0800-cycle-3",
+    "batch_id": "2026-10-29T2038+0800",
+    "cycle": 3,
+    "heartbeat_at": "2026-10-29T21:46:00+08:00",
+    "expires_at": "2026-10-29T22:01:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -7475,7 +7488,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T21:51:00+08:00",
+  "updated_at": "2026-10-29T21:46:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7483,8 +7496,15 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-29T21:51:00+08:00",
+  "active_lease": {
+    "owner": "codex-work-20261029T2144+0800",
+    "run_id": "20261029T2144+0800-cycle-3",
+    "batch_id": "2026-10-29T2038+0800",
+    "cycle": 3,
+    "heartbeat_at": "2026-10-29T21:46:00+08:00",
+    "expires_at": "2026-10-29T22:01:00+08:00"
+  },
+  "last_updated_at": "2026-10-29T21:46:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7746,5 +7766,13 @@
     "2026-10-29T18:50:00+08:00: #100 v3 ARCHIVED; fixed readback pending; no credit.",
     "2026-10-29T18:51:00+08:00: #100 v3 fixed-tree verification passed at 56b0d5745680ff6c538f4109dc08911472986505; batch3/6 next4; lease released."
   ],
-  "in_progress": null
+  "in_progress": {
+    "batch_id": "2026-10-29T2038+0800",
+    "cycle": 3,
+    "run_id": "20261029T2144+0800-cycle-3",
+    "species": "Tyto alba",
+    "species_id": 1,
+    "version": 5,
+    "stage": "RESEARCH_READY"
+  }
 }

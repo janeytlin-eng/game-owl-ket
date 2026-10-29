@@ -1,3 +1,16 @@
+## #90 American Barn Owl — *Tyto furcata pratincola* — v4 science revision
+
+- Target: [90-tyto-furcata-v4.jpg](concepts/90-tyto-furcata-v4.jpg)
+- Research: [species card](../knowledge/species/90-tyto-furcata.md) · [source index](../research/SOURCE_INDEX.md#2026-10-29--90-tyto-furcata-pratincola-v4--documented-p20-standing-down-dominant-stage)
+- Current review: PASS_WITH_LIMITATIONS after one juvenile-only wing edit. Exact-taxon P20 evidence supports standing/walking while still white-down-dominant, not branch perching or flight. Science false.
+
+### Locomotor readiness does not imply mature remiges
+
+- Discovery: the first render converted P20 standing ability into long, layered adult-like folded remiges.
+- Evidence: Wagner et al. 2022 Figure 1 and observations show P20 standing/walking with dominant white down and only emerging dark wing feathers; flight starts near P60 in that hand-raised series.
+- Applied here: shorten and soften only the juvenile wing, keep emerging dark quills close to the body, no developed tail, preserve full floor support.
+- Verified here: edited full 1536×1024 plate and 560×650 juvenile crop reopened. This validation is limited to the selected P20 boundary and does not establish a universal wild timetable.
+
 ## #89 Indian Eagle-Owl — *Bubo bengalensis* — v3 science revision
 
 - Target: [89-bubo-bengalensis-v3.jpg](concepts/89-bubo-bengalensis-v3.jpg)

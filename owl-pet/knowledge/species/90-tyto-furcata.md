@@ -35,3 +35,8 @@ Sources new3/reused1/corrected0: `ABO-BC-SPECIES-2026`, `ABO-MONTANA-MARTI-1992`
 - **Source index:** ../../research/SOURCE_INDEX.md
 - **Target:** ../../design/concepts/90-tyto-furcata-v4.jpg
 - **Run:** ../../production/runs/202610291458+0800-cycle-6.md
+
+
+## ARCHIVED REVIEW — 2026-10-29 — 90-tyto-furcata-v4
+
+Actual first render and edited full 1536×1024 plate viewed. First render gave the P20 juvenile long layered adult-like remiges. One juvenile-only edit reduced them to short emerging dark quills/soft tips close to a white-down-dominant body; tail remains hidden, both feet support a low upright stance on the loft floor, and no branch/flight claim is made. Adult male remains paler and less spotted; adult female modestly fuller/darker/buffer and more spotted without a fixed height ratio. Full optimized image and 560×650 crop reopened; PASS_WITH_LIMITATIONS. Exact individual day/sex, wild-hand-raised transfer, tract-level sequence, toe geometry and pair ratio remain unknown. scientifically_verified=false.

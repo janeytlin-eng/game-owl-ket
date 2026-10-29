@@ -5697,3 +5697,14 @@ Links: [dossier](../knowledge/species/69-tyto-novaehollandiae.md), [v1](../desig
 | REUSE-MSO-FOREST2005 | See prepared evidence record MSO-FOREST2005 above | Taiwan Forestry Bureau / Taiwan Wild Bird Federation | 2005; indexed pages reread 2026-10-29 | Primary regional raptor survey, fledglings | Reused three natural-cavity nests and late-June adjacent-branch fledglings that mostly flapped/walked with weak flight. | Small Taiwan sample with unknown hatch dates; does not fix exact age, wing geometry or all-population nesting. |
 
 **Design decision:** v6 is explicitly a Taiwan-race representative. Adults remain same-plumage and near-equal in display. The supported older fledgling is yellow/rufous-brown and fluffy with vague stage-appropriate markings and compact formed wings, not a fully adult-patterned miniature. Scientific verification remains false.
+
+
+### 2026-10-29 cycle5 reuse audit — #103 *Tyto longimembris* v3
+
+- **EGO-DUNLOP2016** — Dunlop & Pain, JZAR 4(4):169–173, DOI 10.19227/jzar.v4i4.166. The actual journal landing page was reopened and the repository's previously read full-text notes for pp.169–172/Table 3/Fig.1 were reused. The approximately 55-day captive female is golden-brown/fluffy with partial pink face, dark eyes and pale bill. The 69-day bird and other measurements remain separate; no new wild wing formula is inferred.
+- **EGO-NSW2018** — NSW threatened-species profile actual lines 198–215 reopened 2026-10-29. Reused adult sex-colour direction, larger-female direction, mostly bare long legs, tall-grass/sedge habitat and trodden ground nest/tunnel. It does not provide juvenile chronology.
+- **EGO-MIK2013-102** — uploaded Mikkola printed pp.102–103/PDF pp.104–105 reused for adult plumage, long partly bare legs and limited female-mass direction.
+- **EGO-AVIBASE2026** — reused for current *Tyto longimembris* and historical-name mapping.
+- **Unverified lead:** an ABSA “Bird in the Hand” PDF search result exposed male/female wing and mass ranges, but the original PDF returned 404 in this run. It is not used as verified evidence or a new source ID.
+
+New sources 0, reused 4, corrected 0. V3 retains the exact photographed 55-day captive stage, keeps the wing mostly concealed by down and does not claim wild-age equivalence or scientific pass.

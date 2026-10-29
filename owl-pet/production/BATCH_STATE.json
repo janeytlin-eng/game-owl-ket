@@ -7106,26 +7106,30 @@
       "active_lease": {
         "owner": "codex-owl-production",
         "run_id": "20261029T1702+0800-cycle-5",
-        "heartbeat_at": "2026-10-29T17:15:00+08:00",
-        "expires_at": "2026-10-29T17:30:00+08:00"
+        "heartbeat_at": "2026-10-29T17:20:00+08:00",
+        "expires_at": "2026-10-29T17:35:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261029T1702+0800-cycle-5",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/95-pulsatrix-melanota-v3-generated-master.jpg",
-          "blob_sha": "5ae33c39580f949225f1b263238c9d1e22dcee67",
-          "size_bytes": 743160,
-          "sha256": "7fd7570922e163a00e98308961298881ba2325204acc6ae602c4ba0a1edc1c1b",
-          "dimensions": "1536x1024",
-          "viewed_original": true,
-          "defect": "juvenile adult-like long layered remiges and white spot rows",
-          "edit_pending": true,
+          "reviewed_path": "owl-pet/production/reviewed/95-pulsatrix-melanota-v3-reviewed-master.jpg",
+          "reviewed_blob": "1036de98f01568aea7c8b5e4b6f5f1768dc5bb85",
+          "reviewed_size_bytes": 658578,
+          "reviewed_sha256": "31e7853cfec8a7b6304d0c2361f2474aadf010724f0cdae24a205ddaf6f7aedb",
+          "crop_path": "owl-pet/production/reviewed/95-pulsatrix-melanota-v3-juvenile-review-crop.jpg",
+          "crop_blob": "20b68a0673ec9e3d45c4cb6e79fa7862768c7c47",
+          "crop_size_bytes": 202268,
+          "crop_sha256": "392986c78c8e71e1dd725d34b173884f2f1d573402f1ea34bfc99873f708beae",
+          "full_reopened": true,
+          "crop_reopened": true,
+          "result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 1,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T17:15:00+08:00",
+      "last_updated_at": "2026-10-29T17:20:00+08:00",
       "audit_notes": [
         "2026-10-29T15:36:00+08:00: cycle1 STARTED #91 Tyto javanica delicatula v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T15:39:00+08:00: cycle1 #91 v3 RESEARCH_READY; new1/reused2/corrected1; full primary pages read; late pre-fledgling wing/locomotion correction; science false.",
@@ -7155,15 +7159,16 @@
         "2026-10-29T16:49:00+08:00: cycle4 #94 Pulsatrix koeniswaldiana v4 VERIFIED at corrected archive 18e6c6d2770e465201cabac2c8da0043da7d1bcc; four exact path/blob/size checks passed; batch 4/6 next cycle5; lease released.",
         "2026-10-29T17:02:00+08:00: cycle5 STARTED #95 Pulsatrix melanota v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
         "2026-10-29T17:11:00+08:00: cycle5 #95 v3 RESEARCH_READY; new1/reused3/corrected1; primary pp.84–85 distinguishes few-days chick from cinnamon/black-disc recent fledglings; full prompt saved; science false.",
-        "2026-10-29T17:15:00+08:00: cycle5 #95 v3 IMAGE_GENERATED; first 1536x1024 render opened; adult ID passed, juvenile long layered white-spotted wing failed; generated JPEG persisted; targeted edit pending; no credit."
+        "2026-10-29T17:15:00+08:00: cycle5 #95 v3 IMAGE_GENERATED; first 1536x1024 render opened; adult ID passed, juvenile long layered white-spotted wing failed; generated JPEG persisted; targeted edit pending; no credit.",
+        "2026-10-29T17:20:00+08:00: cycle5 #95 v3 REVIEWED after one targeted juvenile-wing edit; edited full original and 620x700 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit."
       ]
     }
   ],
   "lease": {
     "owner": "codex-owl-production",
     "run_id": "20261029T1702+0800-cycle-5",
-    "heartbeat_at": "2026-10-29T17:15:00+08:00",
-    "expires_at": "2026-10-29T17:30:00+08:00"
+    "heartbeat_at": "2026-10-29T17:20:00+08:00",
+    "expires_at": "2026-10-29T17:35:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7270,7 +7275,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T17:15:00+08:00",
+  "updated_at": "2026-10-29T17:20:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7532,7 +7537,7 @@
     "species_id": 95,
     "species": "Pulsatrix melanota",
     "version": 3,
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_id": "20261029T1702+0800-cycle-5"
   }
 }

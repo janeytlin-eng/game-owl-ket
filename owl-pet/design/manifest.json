@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T21:47:00+08:00",
+  "updated": "2026-10-29T22:48:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -8600,7 +8600,10 @@
       "path": "design/concepts/143-asio-solomonensis-v2.jpg",
       "species_id": 143,
       "scientific_name": "Asio solomonensis",
-      "historical_names": ["Nesasio solomonensis", "Pseudoptynx solomonensis"],
+      "historical_names": [
+        "Nesasio solomonensis",
+        "Pseudoptynx solomonensis"
+      ],
       "common_name": "Fearful Owl",
       "version": 2,
       "action": "SCIENCE_REVISION",
@@ -8609,7 +8612,11 @@
       "sha256": "636925786156bd8a57ea45c17793d781b335b43c54cf7283e152ce9e7e86df78",
       "scientifically_verified": false,
       "status": "SCIENCE_REVISION using the species-specific rescued young in Loyn & Debus 2000. Adults are near-equal scale because no quantified sex ratio was found. Center older juvenile, exact age unknown, has long pale unbarred down, dark mask, orange-yellow eyes, blue-grey cere, black bill, grey feet and a compact emerging barred wing while securely perching. Flight, exact age/sex, continuous feather sequence and universal nest remain unknown.",
-      "source_ids": ["FEO-LOYN-DEBUS2000", "FEO-BIRDNET-2026-TAX", "FEO-OWLPAGES2020"],
+      "source_ids": [
+        "FEO-LOYN-DEBUS2000",
+        "FEO-BIRDNET-2026-TAX",
+        "FEO-OWLPAGES2020"
+      ],
       "source_index": "research/SOURCE_INDEX.md",
       "research_record": "research/species/143-asio-solomonensis-v2.md",
       "run_record": "production/runs/20261029T2055+0800-cycle-2.md",
@@ -8637,10 +8644,26 @@
       "verification_result": "non-truncated 1764-entry commit-pinned tree; four exact JPEG/crop path/blob/size pairs matched local git hash-object; manifest, run, source index, research and knowledge records reopened",
       "readback": {
         "status": "VERIFIED",
-        "concept": {"path": "design/concepts/143-asio-solomonensis-v2.jpg", "blob": "dd82eb732e1260d6410e19252b24a99dec994d4e", "size_bytes": 414669},
-        "generated_jpg": {"path": "production/generated/143-asio-solomonensis-v2-generated.jpg", "blob": "3bc8c47ba16553783044d352bac8018d7da3105b", "size_bytes": 405126},
-        "reviewed_jpg": {"path": "production/reviewed/143-asio-solomonensis-v2-reviewed.jpg", "blob": "dd82eb732e1260d6410e19252b24a99dec994d4e", "size_bytes": 414669},
-        "review_crop": {"path": "production/reviewed/143-asio-solomonensis-v2-juvenile-crop.jpg", "blob": "200c2b399328e72c25dcf6d1011f2a2026dff177", "size_bytes": 124576},
+        "concept": {
+          "path": "design/concepts/143-asio-solomonensis-v2.jpg",
+          "blob": "dd82eb732e1260d6410e19252b24a99dec994d4e",
+          "size_bytes": 414669
+        },
+        "generated_jpg": {
+          "path": "production/generated/143-asio-solomonensis-v2-generated.jpg",
+          "blob": "3bc8c47ba16553783044d352bac8018d7da3105b",
+          "size_bytes": 405126
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/143-asio-solomonensis-v2-reviewed.jpg",
+          "blob": "dd82eb732e1260d6410e19252b24a99dec994d4e",
+          "size_bytes": 414669
+        },
+        "review_crop": {
+          "path": "production/reviewed/143-asio-solomonensis-v2-juvenile-crop.jpg",
+          "blob": "200c2b399328e72c25dcf6d1011f2a2026dff177",
+          "size_bytes": 124576
+        },
         "fixed_commit": "636309f2aa7c89a224eba688005a0e2399024d88",
         "local_git_hash_object_matches": true
       }
@@ -8652,7 +8675,12 @@
       "common_name": "Western Barn Owl",
       "version": 5,
       "path": "design/concepts/01-tyto-alba-v5.jpg",
-      "prior_versions_retained": [1, 2, 3, 4],
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4
+      ],
       "user_approval_history": "v3 juvenile look was approved 2026-10-10; v4 barn-interior correction and v5 science revision do not transfer or erase that historical approval",
       "action": "SCIENCE_REVISION",
       "unique_species_increment": 0,
@@ -8660,7 +8688,14 @@
       "sha256": "a7fb60e7ce97db699aa8bad090c518a6fb5e5deb518205d48af33522f7b00f62",
       "scientifically_verified": false,
       "status": "PASS_WITH_LIMITATIONS. Approximately 15-day nestling after eye opening, white-down dominant and resting low on belly/heels with supported bare toes. Only short emerging dark side sheaths are shown; no layered remiges, adult wing pattern, tail fan, tall stance, branch perch or flight. Adults are near-equal height; female is only modestly darker/more spotted. Exact individual day, sex, subspecies, feather count and universal timing remain unknown.",
-      "source_ids": ["WBO-KOEPPL-2005", "WBO-EILAM-HAGBI-2024", "WBO-MIK2013-78-80", "WBO-BOT-IDAGE2026", "WBO-BOT-NEST2026", "WBO-BOT-BUILD2026"],
+      "source_ids": [
+        "WBO-KOEPPL-2005",
+        "WBO-EILAM-HAGBI-2024",
+        "WBO-MIK2013-78-80",
+        "WBO-BOT-IDAGE2026",
+        "WBO-BOT-NEST2026",
+        "WBO-BOT-BUILD2026"
+      ],
       "source_index": "research/SOURCE_INDEX.md",
       "research_record": "research/species/01-tyto-alba-v5.md",
       "run_record": "production/runs/20261029T2144+0800-cycle-3.md",
@@ -8688,14 +8723,83 @@
       "verification_result": "non-truncated 1770-entry commit-pinned tree; four exact JPEG/crop path/blob/size pairs matched local git hash-object; manifest, run, source index, species research, knowledge, design and changelog records reopened",
       "readback": {
         "status": "VERIFIED",
-        "concept": {"path": "design/concepts/01-tyto-alba-v5.jpg", "blob": "0171fca31ff68e59fd583cbd5c1ca5b1024c6830", "size_bytes": 335384},
-        "generated_jpg": {"path": "production/generated/01-tyto-alba-v5-generated.jpg", "blob": "53313093f98e16101fcb8e5adba029e14283ecb7", "size_bytes": 307657},
-        "reviewed_jpg": {"path": "production/reviewed/01-tyto-alba-v5-reviewed.jpg", "blob": "0171fca31ff68e59fd583cbd5c1ca5b1024c6830", "size_bytes": 335384},
-        "review_crop": {"path": "production/reviewed/01-tyto-alba-v5-nestling-crop.jpg", "blob": "7af2823c4946c6e24a46032bb91638a669fff98e", "size_bytes": 86224},
+        "concept": {
+          "path": "design/concepts/01-tyto-alba-v5.jpg",
+          "blob": "0171fca31ff68e59fd583cbd5c1ca5b1024c6830",
+          "size_bytes": 335384
+        },
+        "generated_jpg": {
+          "path": "production/generated/01-tyto-alba-v5-generated.jpg",
+          "blob": "53313093f98e16101fcb8e5adba029e14283ecb7",
+          "size_bytes": 307657
+        },
+        "reviewed_jpg": {
+          "path": "production/reviewed/01-tyto-alba-v5-reviewed.jpg",
+          "blob": "0171fca31ff68e59fd583cbd5c1ca5b1024c6830",
+          "size_bytes": 335384
+        },
+        "review_crop": {
+          "path": "production/reviewed/01-tyto-alba-v5-nestling-crop.jpg",
+          "blob": "7af2823c4946c6e24a46032bb91638a669fff98e",
+          "size_bytes": 86224
+        },
         "fixed_commit": "4ba2de83758f1676966d7a538aa4c046ec0a79a4",
         "local_git_hash_object_matches": true
       }
+    },
+    {
+      "entry_id": 529,
+      "species_id": 2,
+      "scientific_name": "Bubo scandiacus",
+      "historical_names": [
+        "Nyctea scandiaca"
+      ],
+      "common_name": "Snowy Owl",
+      "version": 6,
+      "path": "design/concepts/02-bubo-scandiacus-v6.jpg",
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "user_approval_history": "v3 juvenile look was approved 2026-10-10; v6 science revision preserves but does not inherit that approval",
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "duplicate_name_species_id": 2,
+      "sha256": "b50ba2815d2f70507795fa7704069e35351c629bed751be86cd2191d3b73846a",
+      "scientifically_verified": false,
+      "status": "PASS_WITH_LIMITATIONS. 15–21-day gray-mesoptile nestling with open eyes, grounded belly/feet support, increasingly feathered feet and only a few short dark primary tips just erupting from sheaths. Adult male mostly white; female strongly barred but similar standing height. Exact day/sex, iris progression, individual rectrix visibility, universal departure date and feather-count thresholds remain unknown.",
+      "source_ids": [
+        "SNO-HOLT-GRAY-MAPLES-KORTE-2016",
+        "SNO-MIK2013-258-261",
+        "SNO-ORI-2022GUIDE"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/02-bubo-scandiacus-v6.md",
+      "run_record": "production/runs/20261029T2158+0800-cycle-4.md",
+      "reviewed_at": "2026-10-29T22:45:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 512603,
+      "git_blob": "e06ae7b891dd39c5a9d23622beb2fa06acf9beab",
+      "generated_path": "production/generated/02-bubo-scandiacus-v6-generated.jpg",
+      "generated_blob": "38a1fe7b51e24e5315d8a7086c06ae66a2fe787a",
+      "generated_sha256": "30c75cbd52923f983c3809b5e6355b5089600d2467043bd11fd921cb99a41f01",
+      "generated_size_bytes": 410301,
+      "reviewed_path": "production/reviewed/02-bubo-scandiacus-v6-reviewed.jpg",
+      "reviewed_blob": "e06ae7b891dd39c5a9d23622beb2fa06acf9beab",
+      "reviewed_sha256": "b50ba2815d2f70507795fa7704069e35351c629bed751be86cd2191d3b73846a",
+      "reviewed_size_bytes": 512603,
+      "review_crop_path": "production/reviewed/02-bubo-scandiacus-v6-nestling-crop.jpg",
+      "review_crop_blob": "bcab8997e71d1f565693b329b729a6a5a3fd06af",
+      "review_crop_sha256": "1779e92767575c86ff25bf3ded410cbef75890c61c0fe61ed55719f9e519c724",
+      "review_crop_size_bytes": 163979,
+      "archive_note": "Initial render passed count/text/adult/support checks but showed conspicuous long pale juvenile feather shafts. One targeted imagegen edit replaced them with short dark pinfeather/quill tips. Full image and 560×650 crop reopened; source and stage boundaries remain explicit.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null
     }
   ],
-  "updated_at": "2026-10-29T21:54:00+08:00"
+  "updated_at": "2026-10-29T22:48:00+08:00"
 }

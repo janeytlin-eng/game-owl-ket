@@ -49,3 +49,12 @@ Re-read SNO-ORI-2022GUIDE and Cornell identification. The first v5 render showed
 - Git blob: `f7e1f784dff71d2dd74cb91aa64d381530823384`
 - SHA-256: `35bd8a2dec21f79753718fa4a45c1b18f27f40cf69fdcea0e32044ec5a84d318`
 - Run: [2026-10-25T1645+0800-cycle-5.md](../../production/runs/2026-10-25T1645+0800-cycle-5.md)
+
+## v6 science revision — 2026-10-29
+
+- Preserves v1–v5 and the historical v3 user approval without transferring approval to v6.
+- Current display name: *Bubo scandiacus*; Mikkola’s *Nyctea scandiaca* retained as a historical literature mapping.
+- Evidence boundary: 15–21-day nestling, predominantly gray mesoptile, eyes open, grounded low support, increasingly feathered feet, only short primaries beginning to erupt from sheaths; no flight or mature wing/tail.
+- Adult direction: male mostly white; female more heavily barred/spotted and fuller, but not mechanically taller in every dimension.
+- Review: one targeted edit removed long pale juvenile feather shafts. Full plate and 560×650 crop reopened; PASS_WITH_LIMITATIONS; scientifically_verified=false.
+- Research: [v6 species record](../../research/species/02-bubo-scandiacus-v6.md) · [source index](../../research/SOURCE_INDEX.md) · [run](../../production/runs/20261029T2158+0800-cycle-4.md)

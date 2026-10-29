@@ -2048,3 +2048,5 @@ A documented older mesoptile may legitimately show formed wings. Correction shou
 When a guide says the juvenile is unknown but a museum paper confirms an immature specimen and a separate secondary account says juveniles resemble adults, narrow the design to an explicitly age-unknown older immature. Do not infer neonatal down, nest, iris, feather chronology or flight. Applied to #179 v1; two image edits removed adult leakage and the final crop was checked. Broader transfer requires the same evidence combination.
 
 - 2026-10-29T20:53:00+08:00 — #179 v1 fixed-tree VERIFIED at `3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5`; four path/blob/size checks and local Git hashes matched; manifest526 confirmed; science false.
+
+- [#02 Snowy Owl v6](concepts/02-bubo-scandiacus-v6.jpg) — 15–21-day gray-mesoptile stage; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false.

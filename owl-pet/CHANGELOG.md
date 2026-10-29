@@ -1293,3 +1293,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Updated manifest to 526 images. Fixed commit-pinned verification remains pending; science false.
 
 - Verification: fixed archive `3a1b3bc72cfaed1ebf7a3f08aa670f2ceceea3e5`; four image path/blob/size pairs matched local Git hashes. Cycle credited; batch 1/6.
+
+- 2026-10-29: archived #02 *Bubo scandiacus* v6 science revision (15–21-day gray-mesoptile young; one targeted juvenile-wing edit); fixed readback pending.

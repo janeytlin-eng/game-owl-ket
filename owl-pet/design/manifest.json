@@ -6738,8 +6738,35 @@
       "review_crop_blob": "d1ed0400230dcc9bbf650c7fd2722e7273fd8ae9",
       "review_crop_size_bytes": 278686,
       "archive_note": "One targeted imagegen edit after full-image review; truncated PNG upload detected by fixed-tree readback before credit, then replaced with complete 1536x1024 high-quality JPEG masters. Exact age/ratio/tract chronology/geographic transfer unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "a206de675b3939ea6ce7081eb9d1f1c1fa77c45c",
+      "verified_at": "2026-10-29T08:47:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "concept": {
+          "path": "design/concepts/72-ninox-boobook-v4.jpg",
+          "blob": "95b420e9846d7d62fe775b7bead7f7a47abefc7e",
+          "size_bytes": 765298
+        },
+        "generated": {
+          "path": "production/generated/72-ninox-boobook-v4-generated-master.jpg",
+          "blob": "375b735dac137e582179ec80720c07aac928724d",
+          "size_bytes": 514326
+        },
+        "reviewed": {
+          "path": "production/reviewed/72-ninox-boobook-v4-reviewed-master.jpg",
+          "blob": "366a8db184648a8b41544d6b40b0f0011e2b26dc",
+          "size_bytes": 495141
+        },
+        "review_crop": {
+          "path": "production/reviewed/72-ninox-boobook-v4-juvenile-review-crop.jpg",
+          "blob": "d1ed0400230dcc9bbf650c7fd2722e7273fd8ae9",
+          "size_bytes": 278686
+        },
+        "tree_truncated": false,
+        "truncated_png_paths_removed": true
+      }
     }
   ],
-  "updated_at": "2026-10-29T08:45:00+08:00"
+  "updated_at": "2026-10-29T08:47:00+08:00"
 }

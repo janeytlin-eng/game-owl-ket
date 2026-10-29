@@ -6787,8 +6787,8 @@
         "species": "Asio capensis",
         "cycle": 1,
         "stage": "RESEARCH_READY",
-        "heartbeat_at": "2026-10-29T10:41:00+08:00",
-        "expires_at": "2026-10-29T10:56:00+08:00",
+        "heartbeat_at": "2026-10-29T11:32:00+08:00",
+        "expires_at": "2026-10-29T11:47:00+08:00",
         "run_record": "owl-pet/production/runs/20261029T1036+0800-cycle-1.md"
       },
       "cycle_checkpoint": {
@@ -6810,10 +6810,11 @@
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T10:41:00+08:00",
+      "last_updated_at": "2026-10-29T11:32:00+08:00",
       "audit_notes": [
         "2026-10-29T10:36:00+08:00: batch started cycle1 #78 Asio capensis v3 SCIENCE_REVISION; v1-v2 retained; no other open batch; 15-minute lease acquired; no credit.",
-        "2026-10-29T10:41:00+08:00: cycle1 #78 v3 RESEARCH_READY; new2/reused4/corrected1; BirdLife 2025 and Hanane & Cherkaoui 2014 actually read; later early-fledgling boundary selected; science false."
+        "2026-10-29T10:41:00+08:00: cycle1 #78 v3 RESEARCH_READY; new2/reused4/corrected1; BirdLife 2025 and Hanane & Cherkaoui 2014 actually read; later early-fledgling boundary selected; science false.",
+        "2026-10-29T11:32:00+08:00: expired RESEARCH_READY lease audited against unchanged main e551a9e3f4003fa91f9516a272c9beaedad53db6; same cycle1 resumed without repeating research; 15-minute lease reacquired; no credit."
       ]
     }
   ],

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T03:12:00+08:00",
+  "updated": "2026-10-30T03:14:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9749,15 +9749,40 @@
       "review_crop_sha256": "ecbafbc168ef74ab9e0d38bde37ce37a58fddb012d60f86184ad35a642203e0f",
       "review_crop_size_bytes": 145012,
       "archive_note": "Full 1536×1024 plate and 560×700 juvenile crop reopened after one targeted edit. Adult-like repeated juvenile wing row replaced with short soft diffuse wing; cavity-threshold chest/belly/two-foot support, adults, count and exact text pass. v1–v4 and v1 user approval preserved.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
-      "fixed_commit": null,
-      "verification_result": null,
+      "readback_pending": false,
+      "archive_commit": "595cefdb44fc0bfcc8774952729e5d00821deea6",
+      "verified_at": "2026-10-30T03:14:00+08:00",
+      "fixed_commit": "595cefdb44fc0bfcc8774952729e5d00821deea6",
+      "verification_result": "non-truncated 1871-entry fixed tree; exact four image path/blob/size tuples; manifest541, source-index, run, research and knowledge matched",
       "readback": {
-        "status": "PENDING"
+        "status": "VERIFIED",
+        "fixed_commit": "595cefdb44fc0bfcc8774952729e5d00821deea6",
+        "concept": {
+          "path": "design/concepts/15-strix-varia-v5.jpg",
+          "blob": "dff9a5653ca3e72b9a9863971a5bfc74e2a521eb",
+          "size_bytes": 498681
+        },
+        "generated": {
+          "path": "production/generated/15-strix-varia-v5-generated.jpg",
+          "blob": "3f70dad23265d11f2befb11f2f01c946e474eef6",
+          "size_bytes": 542620
+        },
+        "reviewed": {
+          "path": "production/reviewed/15-strix-varia-v5-reviewed.jpg",
+          "blob": "dff9a5653ca3e72b9a9863971a5bfc74e2a521eb",
+          "size_bytes": 498681
+        },
+        "review_crop": {
+          "path": "production/reviewed/15-strix-varia-v5-juvenile-review-crop.jpg",
+          "blob": "8c649bb249851ea7d65f6debcbbdf4ec7a78a03d",
+          "size_bytes": 145012
+        },
+        "source_index_blob": "e43460745faa0dcb24685fe3cf87db4f55ea2853",
+        "research_blob": "1758a30192f9d7004c38fb5282fc7cd78864ef92",
+        "run_blob": "5f0bcfc8e247c0700b38b7df6dd05f4490fe2ced",
+        "knowledge_blob": "4efcd026c39eadda997255d86d3b6ddbc23a9917"
       }
     }
   ],
-  "updated_at": "2026-10-30T03:12:00+08:00"
+  "updated_at": "2026-10-30T03:14:00+08:00"
 }

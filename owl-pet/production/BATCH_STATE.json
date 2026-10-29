@@ -7477,15 +7477,43 @@
         "2026-10-29T23:48:00+08:00: cycle6 #04 Athene noctua v5 ARCHIVED as manifest531 with concept plus generated/reviewed/crop JPEG evidence and updated research/knowledge/design/status/changelog/run records. Fixed commit-pinned readback pending; batch remains 5/6 and no credit added.",
         "2026-10-29T23:50:00+08:00: cycle6 #04 Athene noctua v5 VERIFIED at fixed archive a2a363958aa1f12fb4b3622b9154b6c2ea3bbe24; non-truncated 1788-entry tree and four exact image path/blob/size pairs matched, and manifest531/run/source index/research/knowledge records reopened. Batch COMPLETE 6/6; unique unchanged; science false; lease released."
       ]
+    },
+    {
+      "batch_id": "2026-10-30T0033+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-work-20261030T0033+0800",
+        "run_id": "20261030T0033+0800-cycle-1",
+        "batch_id": "2026-10-30T0033+0800",
+        "cycle": 1,
+        "heartbeat_at": "2026-10-30T00:33:00+08:00",
+        "expires_at": "2026-10-30T00:48:00+08:00"
+      },
+      "in_progress": {
+        "species_id": 5,
+        "species": "Strix aluco",
+        "version": 4,
+        "run_id": "20261030T0033+0800-cycle-1",
+        "stage": "STARTED",
+        "stage_evidence": {
+          "STARTED": {
+            "at": "2026-10-30T00:33:00+08:00",
+            "base_main": "93047bf38ec15be8b78280df788903aeac474072"
+          }
+        }
+      }
     }
   ],
   "lease": {
-    "owner": "codex-work-20261029T2247+0800",
-    "run_id": "20261029T2247+0800-cycle-5",
-    "batch_id": "2026-10-29T2038+0800",
-    "cycle": 5,
-    "heartbeat_at": "2026-10-29T22:47:00+08:00",
-    "expires_at": "2026-10-29T23:02:00+08:00"
+    "owner": "codex-work-20261030T0033+0800",
+    "run_id": "20261030T0033+0800-cycle-1",
+    "batch_id": "2026-10-30T0033+0800",
+    "cycle": 1,
+    "heartbeat_at": "2026-10-30T00:33:00+08:00",
+    "expires_at": "2026-10-30T00:48:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7863,5 +7891,16 @@
     "2026-10-29T18:50:00+08:00: #100 v3 ARCHIVED; fixed readback pending; no credit.",
     "2026-10-29T18:51:00+08:00: #100 v3 fixed-tree verification passed at 56b0d5745680ff6c538f4109dc08911472986505; batch3/6 next4; lease released."
   ],
-  "in_progress": null
+  "in_progress": {
+    "owner": "codex-work-20261030T0033+0800",
+    "run_id": "20261030T0033+0800-cycle-1",
+    "batch_id": "2026-10-30T0033+0800",
+    "cycle": 1,
+    "heartbeat_at": "2026-10-30T00:33:00+08:00",
+    "expires_at": "2026-10-30T00:48:00+08:00",
+    "species_id": 5,
+    "species": "Strix aluco",
+    "version": 4,
+    "stage": "STARTED"
+  }
 }

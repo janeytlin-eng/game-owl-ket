@@ -49,6 +49,6 @@ Freshly read ISO-EBIRD-ID-2026, ISO-PF-FACE-2026 and ISO-OWLPAGES-DESC-2020. All
 - Run: ../../production/runs/2026-10-25T1525+0800-cycle-3.md
 
 
-## v3 research-ready — 2026-10-29
+## v3 reviewed — 2026-10-29T12:39:42+08:00
 
-Re-read `SEM-FUKAI2017` and added `SEM-ANTIPIN2014` plus `SEM-TOKYOZOO-2026`. V3 targets a fully feathered first-winter bird, near adult scale, using retained narrow/pale/pointed remiges and rectrices plus shorter paler primary coverts as the age cue. It explicitly does not reuse the white-down nestling stage or iris colour as an age classifier. Adults remain near-equal because no quantified sex-size direction was found. Exact age/month, juvenile sex, iris, quantitative feather geometry and adult RSD remain unknown; science false.
+First generation actually opened at 1536×1024 plus a 560×650 juvenile crop. Exact three birds/text and six supported feet pass. Adult nominate traits and near-equal scale pass. The first-winter bird is near adult scale and fully feathered, with visibly narrower/paler/pointed retained flight feathers and shorter paler coverts; no iris-based age claim or white-down/chick transfer. Edit count 0. Exact age/month, juvenile sex/iris, quantitative feather thresholds and adult RSD remain unknown; science false.

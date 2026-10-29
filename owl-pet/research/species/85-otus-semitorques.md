@@ -8,6 +8,4 @@ EDIT_RETURNED 2026-10-15T07:48:04.510Z editwait 52.174s. Unique82/251.
 
 Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-4.md
 
-## 2026-10-29 v3 evidence boundary
-
-Primary age evidence: `SEM-FUKAI2017`, printed pp.25–27/Fig.1, direct full-text re-read. New breeding cross-check: `SEM-ANTIPIN2014`, p.211/plate VIII, downy chicks exact age unknown; kept separate from first-winter stage. New institutional cross-check: `SEM-TOKYOZOO-2026`, current name, forest/cavity and white-down hatchlings. Reused `SEM-MIK2013-158`. Design uses supported first-winter retained feather geometry; no iris classifier, exact age or RSD claim. Science false.
+REVIEWED 2026-10-29T12:39:42+08:00: full 1536×1024 and 560×650 crop opened. First render passed without edit: supported first-winter geometry is visible and distinct from broader/darker adult flight feathers; no downy chick or flight claim; adults near-equal. Remaining unknowns retained; science false.

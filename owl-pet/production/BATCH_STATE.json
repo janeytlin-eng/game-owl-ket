@@ -7077,36 +7077,35 @@
         "batch_id": "2026-10-29T1536+0800",
         "cycle": 2,
         "species_id": 92,
-        "heartbeat_at": "2026-10-29T16:01:00+08:00",
-        "expires_at": "2026-10-29T16:16:00+08:00"
+        "heartbeat_at": "2026-10-29T16:05:00+08:00",
+        "expires_at": "2026-10-29T16:20:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 2,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261029T1556+0800-cycle-2",
         "evidence": {
           "species_id": 92,
           "version": 3,
-          "action": "SCIENCE_REVISION",
-          "sources_new": 2,
-          "sources_reused": 2,
-          "sources_corrected": 1,
-          "primary_pages": "Lin et al. 2012 pp.164–166; Fukai 2016 pp.22–25/Table1/Fig.1",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "species_card": "owl-pet/knowledge/species/92-ninox-japonica.md",
-          "run_record": "owl-pet/production/runs/20261029T1556+0800-cycle-2.md",
-          "full_prompt_saved": true,
-          "design_boundary": "~25–28-day just-fledged; formed wings; visible tapered juvenile tail with broad terminal fringe; two-foot support",
-          "unknowns": [
-            "exact day",
-            "sex",
-            "continuous tract sequence",
-            "motor score"
+          "imagegen_calls": 2,
+          "edit_count": 1,
+          "generated_jpg_path": "owl-pet/production/generated/92-ninox-japonica-v3-generated-master.jpg",
+          "generated_jpg_blob": "ab06a5210a11db908fd269df548b9b089d025ad4",
+          "generated_jpg_size_bytes": 502917,
+          "imagegen_original_sha256": "f2433df69997f40775c4d29ecba7fd53d4bfb66ada5f23d8f707dd0df4ae6a6f",
+          "imagegen_original_size_bytes": 2957533,
+          "generation_wait_seconds": [
+            45.5,
+            40.1
           ],
+          "full_image_viewed": true,
+          "first_render_issue": "juvenile wing too abbreviated and tail age diagnostic unclear; adult forehead marks too broad",
+          "edit_applied": "extend formed folded wing, expose slightly tapered broad-fringed juvenile tail, reduce adult forehead marks",
+          "archive_format_note": "JPEG-only remote master chosen after cycle1 connector PNG truncation; full-resolution 1536x1024 retained",
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-29T16:01:00+08:00",
+      "last_updated_at": "2026-10-29T16:05:00+08:00",
       "audit_notes": [
         "2026-10-29T15:36:00+08:00: cycle1 STARTED #91 Tyto javanica delicatula v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no production credit.",
         "2026-10-29T15:39:00+08:00: cycle1 #91 v3 RESEARCH_READY; new1/reused2/corrected1; full primary pages read; late pre-fledgling wing/locomotion correction; science false.",
@@ -7116,7 +7115,8 @@
         "2026-10-29T15:51:00+08:00: #91 v3 archive readback rejected truncated PNG blob 55407a0a (786445B vs local 863562B); both PNG paths removed before credit; complete JPEG/crop retained; reread pending.",
         "2026-10-29T15:54:00+08:00: cycle1 #91 Tyto javanica delicatula v3 VERIFIED at repaired archive 75deb2ec07160131522f00488c55a067961a518b; four exact JPEG/crop path/blob/size checks passed and rejected PNG paths absent; batch 1/6 next cycle2; lease released.",
         "2026-10-29T15:56:00+08:00: cycle2 STARTED #92 Ninox japonica totogo v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease acquired; no credit.",
-        "2026-10-29T16:01:00+08:00: cycle2 #92 v3 RESEARCH_READY; new2/reused2/corrected1; 25–28-day fledging plus juvenile-tail diagnostic; science false."
+        "2026-10-29T16:01:00+08:00: cycle2 #92 v3 RESEARCH_READY; new2/reused2/corrected1; 25–28-day fledging plus juvenile-tail diagnostic; science false.",
+        "2026-10-29T16:05:00+08:00: cycle2 #92 v3 IMAGE_GENERATED after 2 calls/1 edit; full 1536x1024 output viewed; durable JPEG blob saved; formal review next; no credit."
       ]
     }
   ],
@@ -7126,8 +7126,8 @@
     "batch_id": "2026-10-29T1536+0800",
     "cycle": 2,
     "species_id": 92,
-    "heartbeat_at": "2026-10-29T16:01:00+08:00",
-    "expires_at": "2026-10-29T16:16:00+08:00"
+    "heartbeat_at": "2026-10-29T16:05:00+08:00",
+    "expires_at": "2026-10-29T16:20:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7223,7 +7223,7 @@
     "2026-10-29T01:33:00+08:00: resumed expired lease for batch 2026-10-28T2235+0800 cycle6 #50 Strix virgata v3 at persisted IMAGE_GENERATED checkpoint after confirming main had no later commit; targeted juvenile-wing edit pending; no cycle credit.",
     "2026-10-29T14:26:45+08:00: batch 2026-10-29T1236+0800 cycle3 STARTED #87 Bubo ascalaphus v3; no credit."
   ],
-  "updated_at": "2026-10-29T16:01:00+08:00",
+  "updated_at": "2026-10-29T16:05:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7237,10 +7237,10 @@
     "batch_id": "2026-10-29T1536+0800",
     "cycle": 2,
     "species_id": 92,
-    "heartbeat_at": "2026-10-29T16:01:00+08:00",
-    "expires_at": "2026-10-29T16:16:00+08:00"
+    "heartbeat_at": "2026-10-29T16:05:00+08:00",
+    "expires_at": "2026-10-29T16:20:00+08:00"
   },
-  "last_updated_at": "2026-10-29T16:01:00+08:00",
+  "last_updated_at": "2026-10-29T16:05:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7407,7 +7407,8 @@
     "2026-10-29T15:51:00+08:00: #91 v3 truncated PNG rejected and paths removed before verification; no credit.",
     "2026-10-29T15:54:00+08:00: #91 v3 fixed archive readback passed after truncated PNG removal; batch 1/6 next cycle2.",
     "2026-10-29T15:56:00+08:00: cycle2 #92 v3 STARTED; no credit.",
-    "2026-10-29T16:01:00+08:00: #92 v3 RESEARCH_READY; primary fledging/tail evidence and full prompt saved; no credit."
+    "2026-10-29T16:01:00+08:00: #92 v3 RESEARCH_READY; primary fledging/tail evidence and full prompt saved; no credit.",
+    "2026-10-29T16:05:00+08:00: #92 v3 IMAGE_GENERATED; one evidence-driven tail/wing/forehead edit; no credit."
   ],
   "audit_trail": [
     {
@@ -7489,7 +7490,7 @@
     "species": "Ninox japonica totogo",
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "started_at": "2026-10-29T15:56:00+08:00",
     "run_record": "owl-pet/production/runs/20261029T1556+0800-cycle-2.md"
   }

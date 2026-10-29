@@ -7295,27 +7295,34 @@
         "run_id": "20261029T2038+0800-cycle-1",
         "batch_id": "2026-10-29T2038+0800",
         "cycle": 1,
-        "heartbeat_at": "2026-10-29T20:42:00+08:00",
-        "expires_at": "2026-10-29T20:57:00+08:00"
+        "heartbeat_at": "2026-10-29T20:48:00+08:00",
+        "expires_at": "2026-10-29T21:03:00+08:00"
       },
       "cycle_checkpoint": {
         "cycle": 1,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_id": "20261029T2038+0800-cycle-1",
         "evidence": {
           "species_id": 179,
-          "scientific_name": "Otus mayottensis",
-          "action": "NEW",
-          "new_sources": 3,
-          "reused_sources": 2,
-          "corrected_decisions": 1,
-          "scientifically_verified": false
+          "version": 1,
+          "imagegen_calls": 3,
+          "edit_count": 2,
+          "generated_path": "owl-pet/production/generated/179-otus-mayottensis-v1-generated-master.jpg",
+          "reviewed_path": "owl-pet/production/reviewed/179-otus-mayottensis-v1-reviewed-master.jpg",
+          "review_crop_path": "owl-pet/production/reviewed/179-otus-mayottensis-v1-reviewed-immature-crop.jpg",
+          "generated_sha256": "6ac2e03b5e76ee2497f7254ae2122675312df989b988cbd18e380baeddf73b35",
+          "reviewed_sha256": "a20a4d29c628d659ba58ac860a10670014170edcc8eb1df486945b7aac55b007",
+          "crop_sha256": "27f4470f06f87f137470fab38f80fba34b51efd4c18300ef748046b550e8f432",
+          "scientifically_verified": false,
+          "review_result": "PASS_WITH_LIMITATIONS"
         }
       },
-      "last_updated_at": "2026-10-29T20:42:00+08:00",
+      "last_updated_at": "2026-10-29T20:48:00+08:00",
       "audit_notes": [
         "2026-10-29T20:38:00+08:00: cycle1 STARTED #179 Otus mayottensis v1 NEW; 15-minute lease acquired after confirming no incomplete batch or active lease. Lowest missing numeric ID selected; prior juvenile-evidence deferral will be revisited with a newly read species-specific older-juvenile record. No production credit.",
-        "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false."
+        "2026-10-29T20:42:00+08:00: cycle1 #179 v1 RESEARCH_READY; new3/reused2/corrected1. MNHN printed p.16 confirms a mounted immature specimen under the old name; BirdForum's species account says juveniles resemble adults but breeding is unknown; Oiseaux.net adult photo metadata was read. The previous blanket deferral is narrowed to an age-unknown older immature only—no chick/nest/flight claims. Full prompt saved; science false.",
+        "2026-10-29T20:45:00+08:00: cycle1 #179 v1 IMAGE_GENERATED; first 1536×1024 render opened. Count/text/adult scale/support passed; adult tufts and scapular whites were exaggerated and juvenile wing was adult-like. Generated JPEG persisted.",
+        "2026-10-29T20:48:00+08:00: cycle1 #179 v1 REVIEWED after two targeted edits. Edit1 shortened adult tufts/reduced white shoulders and softened juvenile wing; edit2 shortened only the residual layered juvenile wing. Edited full image and 620×760 crop reopened; PASS_WITH_LIMITATIONS, science false."
       ]
     }
   ],
@@ -7324,8 +7331,8 @@
     "run_id": "20261029T2038+0800-cycle-1",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 1,
-    "heartbeat_at": "2026-10-29T20:42:00+08:00",
-    "expires_at": "2026-10-29T20:57:00+08:00"
+    "heartbeat_at": "2026-10-29T20:48:00+08:00",
+    "expires_at": "2026-10-29T21:03:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7432,7 +7439,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-29T20:42:00+08:00",
+  "updated_at": "2026-10-29T20:48:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7445,10 +7452,10 @@
     "run_id": "20261029T2038+0800-cycle-1",
     "batch_id": "2026-10-29T2038+0800",
     "cycle": 1,
-    "heartbeat_at": "2026-10-29T20:42:00+08:00",
-    "expires_at": "2026-10-29T20:57:00+08:00"
+    "heartbeat_at": "2026-10-29T20:48:00+08:00",
+    "expires_at": "2026-10-29T21:03:00+08:00"
   },
-  "last_updated_at": "2026-10-29T20:42:00+08:00",
+  "last_updated_at": "2026-10-29T20:48:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -7717,9 +7724,9 @@
     "species_id": 179,
     "scientific_name": "Otus mayottensis",
     "version": 1,
-    "stage": "RESEARCH_READY",
+    "stage": "REVIEWED",
     "started_at": "2026-10-29T20:38:00+08:00",
-    "heartbeat_at": "2026-10-29T20:42:00+08:00",
-    "expires_at": "2026-10-29T20:57:00+08:00"
+    "heartbeat_at": "2026-10-29T20:48:00+08:00",
+    "expires_at": "2026-10-29T21:03:00+08:00"
   }
 }

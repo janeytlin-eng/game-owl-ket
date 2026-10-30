@@ -13,3 +13,9 @@
 Edit the supplied fixed v4 Tawny-browed Owl plate. Preserve the whole image and every biological detail exactly: adult male left, age-unknown post-cavity juvenile center, adult female right, all faces, eyes, bills, plumage, feet, branches, Atlantic Forest, subtitle “Pulsatrix koeniswaldiana”, and bottom labels. Change only the top English title from “TAWNY-BROWED OWL” to exactly “94 TAWNY-BROWED OWL” in the same centered dark serif type, spacing and size class. Do not alter bird morphology, juvenile wing length, age wording, posture, scale, supports, habitat, subtitle, labels or crop.
 
 Target: ../../design/concepts/94-pulsatrix-koeniswaldiana-v5.png
+
+## Generated/reviewed
+
+- IMAGE_GENERATED 2026-10-31T07:16:00+08:00 after 43.2 s; title-only edit.
+- REVIEWED 2026-10-31T07:17:00+08:00; full 1536×1024 plate and 620×730 juvenile crop opened; edit count 0.
+- Result: PASS_WITH_LIMITATIONS. Juvenile has residual pale down, dark face, short partly developed wing, hidden tail and bilateral branch grip. Exact age, sex and flight ability remain unknown; science=false.

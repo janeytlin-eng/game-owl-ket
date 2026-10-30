@@ -140,3 +140,41 @@
 - **AWOO-AVIBASE-2026:** prior current-name/old-combination mapping reused; ITIS now independently confirms it.
 - **Correction:** previous prompt heuristic removed adult-like juvenile remiges for the Levubu 25–30-day stage. Mikkola's same-population caption explicitly supports adult-like wing/tail on the selected later *nigricantior* young, so v4 preserves that feature while retaining partly downy underparts, folded wings and natural support.
 - **Source/design delta:** new2 / reused4 / corrected1; science false.
+
+
+## 2026-10-30 — #50 *Strix virgata* v4 post-split locality gate
+
+### MOWL-MIKKOLA-2013-P332
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Persistent file / pages:** Library `libfile_916e2244186c81918fe5a0716884b8c9`; internal PDF p.334; printed p.332.
+- **Accessed:** 2026-10-30; complete species page and captions read.
+- **Source type:** photographic species guide; adult morphs, measurements, mesoptile and distribution/subspecies summary.
+- **Facts:** 30–38 cm, 235–307 g; females over 50 g heavier; dark eyes/yellowish bill; pale morph dark-brown/rufous above with pale flecking and sparse bars, whitish/dull-yellow underparts vertically streaked brown; dark morph nearly blackish above and darker ochre below. Juvenile mesoptile dull yellow, indistinctly barred above, with whitish facial disc and pale pink bill. The page restricts Mottled Owl from eastern Panama south and separately treats northern Mexican Wood Owl.
+- **Limits / confidence:** juvenile exact age, movement and flight ability absent; 2013 taxonomic split noted as needing further study. High for directly described appearance, lower for present-day range boundary.
+- **Design decision:** pale-morph South American adult direction and age-unknown mesoptile; modal tree cavity; no precise age or locality.
+- **Linked records:** `owl-pet/research/species/50-strix-virgata-v4.md`; `owl-pet/production/runs/20261030T184300+0800-cycle-2.md`.
+
+### MOWL-GERHARDT-1991-THESIS
+- **Title / author / institution / year:** “Mottled Owls (*Ciccaba virgata*): Response to Calls, Breeding Biology, Home Range, and Food Habits” / Richard Paul Gerhardt / Boise State University / 1991.
+- **URL:** https://scholarworks.boisestate.edu/td/736/
+- **Accessed:** 2026-10-30; institutional metadata and complete abstract read.
+- **Source type:** primary MSc thesis record; Tikal, Guatemala.
+- **Facts:** seven cavity nests in 1990; mean clutch 2.14; nine young from five nests left at 27–33 days; large sexual size dimorphism observed.
+- **Limits / confidence:** thesis file unavailable on the page; abstract does not describe plumage. Northern Tikal population may fall into a later split treatment, so chronology is not transferred to the South American v4 mesoptile.
+- **Design decision:** supports retaining a real female-fullness direction and a modal cavity context, but does not date or feather-map the v4 juvenile.
+
+### MOWL-ASTORGA-2017
+- **Title / author / journal / year:** “Primer registro de nidificación sobre el suelo del Búho café (*Ciccaba virgata*), en Grecia, Costa Rica” / Juan De Dios Astorga Acuña / Huitzil 18(2):242–245 / 2017.
+- **DOI / PDF:** https://doi.org/10.28947/hrmo.2017.18.2.285 ; https://www.scielo.org.mx/pdf/huitzil/v18n2/1870-7459-huitzil-18-02-00242.pdf
+- **Accessed:** 2026-10-30; full PDF text/figure caption and site dimensions read.
+- **Source type:** primary field note.
+- **Facts:** exceptional natural ground cavity near a stream at Grecia, Costa Rica; two white eggs on 1 February 2014; two feathered young on 28 March; entrance approximately 40 cm wide and cavity 50 cm deep; surrounding riparian woodland heavily altered to coffee/sugar-cane/agriculture.
+- **Limits / confidence:** hatching date and juvenile flight ability unknown. The paper uses older *Ciccaba virgata*; Mikkola separates northern *S. squamulata*, and repository mapping is unresolved.
+- **Design decision:** indexed as a valuable exceptional nest record but quarantined from #50 v4 visual evidence pending current taxon/locality resolution.
+
+### Reused evidence and correction
+- **MOWL-ITIS-2026:** ITIS TSN 686689, https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686689; current *Strix virgata*, synonyms *Ciccaba virgata* and *Syrnium virgatum*.
+- **MOWL-GERHARDT-1994:** Wilson Bulletin 106:629–639 / BioStor https://biostor.org/reference/200595; 13 Tikal cavity nests, young left at 27–33 days; retained as northern historical-context evidence only.
+- **MOWL-GERHARDT-1997:** prior quantified adult Tikal sample reused for sex-direction context, not as a Colombian display-scale equation.
+- **Correction:** older Central American *Ciccaba virgata* records cannot automatically be painted as current South American *Strix virgata* after a possible northern split. V4 uses Mikkola's South American adult direction and age-unknown mesoptile; the Costa Rica ground-burrow record is not visualized.
+- **Source/design delta:** new3 / reused3 / corrected1; science false.

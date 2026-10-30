@@ -65,3 +65,11 @@
 
 - Archive commit: `defa5d15254d309b8d0959b1512290a2015d689e`; fixed-commit readback matched concept blob `e29e60ff4258903878b586655eb32377c7eb753e` (659,486 bytes), generated blob `344b79410b228958e108bb7208a333d90ccd137c` (3,239,568 bytes) and reviewed blob `b124588a4ddaf8c982d054857bbd7a16fce3b024` (663,485 bytes).
 - Production state: VERIFIED; batch 6/6 COMPLETE. Scientific status remains false.
+
+
+## 2026-10-30 v4 research-ready correction
+- Read Mikkola internal PDF p.334 / printed p.332, Boise State's Gerhardt thesis abstract, BioStor/JSTOR paper metadata, ITIS and Astorga 2017 full ground-nest note.
+- V4 selects a pale-morph South American adult direction and age-unknown mesoptile: dull yellow, indistinctly barred above, whitish facial disc, pale pink bill; modal tree-cavity support.
+- Taxonomic locality gate: Astorga's Costa Rica ground-burrow record and Gerhardt's Tikal records retain older *Ciccaba virgata*. Because Mikkola separates the northern Mexican Wood Owl and the repository lacks a resolved *S. squamulata* mapping, the exceptional ground nest is indexed but not used visually.
+- Female remains visibly fuller but at comparable head height; no population-specific measurement is converted into a universal linear ratio.
+- Unknowns: exact juvenile age/flight competence, continuous remex sequence, current mapping of every northern record and population-specific sex dimensions. Science false.

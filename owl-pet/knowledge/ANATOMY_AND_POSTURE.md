@@ -103,3 +103,10 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - The “short, soft, down-covered juvenile wing” rule is stage-specific, not a universal visual filter. When a directly read, same-population photographed caption explicitly states that juvenile wings and tail resemble adults, preserve that evidence instead of mechanically deleting formed remiges.
 - Gate the exception tightly: name the population and photographed stage, keep any documented residual down, use folded wings and natural bilateral support, and do not infer exact age or flight competence from formed feathers alone.
 - First applied to #49 *Strix woodfordii nigricantior* v4 from Mikkola printed p.321. The generated 1536×1024 original and 680×453 derivative were both opened: the folded adult-like barred wing/tail, partly downy lower underparts and bilateral tree-fork support passed without an edit. This validates the exception for this plate only; it is not a universal juvenile rule or scientific pass.
+
+
+## 2026-10-30 post-split locality gate — discovered/applied; validation pending
+
+- A historical species name on a primary field record does not guarantee that its locality still belongs to the repository's current species concept after a later split.
+- Before using a striking nest or juvenile record, compare locality, date/name combination, current roster and split treatment. If mapping is unresolved, keep the record indexed as valuable but quarantine it from visual evidence instead of silently assigning it.
+- Applied to #50 *Strix virgata* v4: the exceptional 2017 Costa Rica ground-burrow record remains research evidence but is not visualized because older *Ciccaba virgata* versus northern *S. squamulata* mapping is unresolved. Validation awaits actual image review.

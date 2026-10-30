@@ -1,3 +1,4 @@
+- 2026-10-30T20:46:00+08:00: #57 *Bubo nipalensis* v4 VERIFIED at fixed archive cdaa43094b9567f5c92edabdeeefddc9bad1e81d; non-truncated tree, exact three image blobs/sizes and supporting markers passed. Batch 1/6 next2; unique +0; science false.
 - 2026-10-30T20:45:00+08:00: #57 *Bubo nipalensis* v4 ARCHIVED after one juvenile-only wing edit and full+derivative review; manifest 563; fixed readback pending; unique +0; science false.
 - 2026-10-30T20:47:00+08:00: #55 *Bubo lacteus* v4 VERIFIED at fixed archive 915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d; exact three image blob/size checks and supporting markers passed. Batch COMPLETE 6/6; unique +0; science false.
 - 2026-10-30T20:43:00+08:00: #55 *Bubo lacteus* v4 ARCHIVED after one juvenile-only wing/eyelid edit and full+derivative review; manifest 562; fixed readback pending; unique +0; science false.

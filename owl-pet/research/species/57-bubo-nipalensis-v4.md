@@ -84,3 +84,7 @@ Problem: earlier v3 relied on an age-unknown juvenile composite and risked treat
 - Result: `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
 - Still unknown: exact age, continuous feather chronology, flight threshold and sexed display ratio.
 - Iteration lesson applied: “formed barred flight feathers” and “adult-perfect covert pattern” are separate checks; a developed brancher may pass the former while requiring removal of the latter. This rule is validated for this plate only.
+
+## Fixed readback — 2026-10-30 20:46 +08:00
+
+Archive commit `cdaa43094b9567f5c92edabdeeefddc9bad1e81d` returned a non-truncated recursive tree. All three image paths, Git blob SHAs and byte sizes matched, and the manifest/source/run/knowledge/status/design markers were present. Production stage is VERIFIED; scientific verification remains false because the recorded unknowns are unresolved.

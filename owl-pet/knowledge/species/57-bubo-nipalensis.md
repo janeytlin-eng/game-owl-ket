@@ -1,10 +1,10 @@
 # 57 · Spot-bellied Eagle-Owl · *Bubo nipalensis*
 
 ## Status
-- Production stage: ARCHIVED (v4 fixed readback pending)
+- Production stage: VERIFIED (v4)
 - Scientific status: pending review
 - Version target: v4
-- Batch/cycle: 2026-10-30T2039+0800 · 1/6 (pending verification)
+- Batch/cycle: 2026-10-30T2039+0800 · 1/6 VERIFIED
 
 ## Taxonomy
 Project label follows the widespread literature combination *Bubo nipalensis*. Current lists may place the same species in *Ketupa* as *Ketupa nipalensis*; both names map to one species and must not be counted twice.
@@ -94,3 +94,5 @@ Constraints: preserve exact text and exactly three birds; no prey, eggs, nestlin
 - Review: one juvenile-only edit removed an adult-like shoulder row and softened coverts while retaining supported barred flight feathers. Edited original and derivative opened; PASS_WITH_LIMITATIONS.
 - Assets: [concept](../../design/concepts/57-bubo-nipalensis-v4.png); generated and reviewed masters are retained under production directories.
 - Unknown: exact age, continuous feather chronology, flight threshold and sexed display ratio. Science remains pending.
+
+- v4 fixed archive: [`cdaa43094b9567f5c92edabdeeefddc9bad1e81d`](https://github.com/janeytlin-eng/game-owl-ket/commit/cdaa43094b9567f5c92edabdeeefddc9bad1e81d); exact image blobs/sizes and supporting records read back.

@@ -8744,19 +8744,25 @@
         "species": "Otus scops",
         "species_id": 81,
         "version": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261031T033000+0800-cycle-5",
-        "at": "2026-10-31T03:30:00+08:00",
+        "at": "2026-10-31T03:35:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T033000+0800-cycle-5.md",
         "evidence": {
-          "main_head": "37effd6c7b3b67210ed068b1e0ef7833e46d6e5e",
-          "prior_version": "v3",
-          "prior_fixed_commit": "fb066d5019a708128130e54fdd0d959eb3f2cae8",
-          "lease": "15 minutes",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "research_record": "owl-pet/research/species/81-otus-scops-v4.md",
+          "source_delta": {
+            "new": 0,
+            "reused": 5,
+            "corrected": 1
+          },
+          "full_prompt_persisted": true,
+          "active_search": "empty payloads; not credited",
+          "science": false,
           "credit": false
         }
       },
-      "last_updated_at": "2026-10-31T03:30:00+08:00",
+      "last_updated_at": "2026-10-31T03:35:00+08:00",
       "audit_notes": [
         "2026-10-31T01:34:32+08:00 cycle1 #77 Asio stygius v4 SCIENCE_REVISION STARTED; latest main/batch/v3 research/image checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T01:35:05+08:00 cycle1 #77 v4 RESEARCH_READY; new0/reused5/corrected1; v3 reopened and long layered juvenile wing panel identified as inconsistent with dated poor-remige stage; searches/direct opens empty and not credited; full prompt saved; science false; no credit.",
@@ -8768,20 +8774,21 @@
         "2026-10-31T02:28:40+08:00 cycle2 #78 v4 RESEARCH_READY; new0/reused6/corrected1; two search batches and two direct source opens returned empty error payloads and were not credited; v3 actual reviewed master opened; older dependent juvenile retained but exact 29–35-day label and adult-regular wing rows removed from design claim; full prompt saved; science false; no credit.",
         "2026-10-31T02:30:20+08:00 cycle2 #78 v4 IMAGE_GENERATED in 41.3s; 1536x1024 original opened. Exact title/count/adult identity and modest female-fullness direction pass; juvenile has natural low step support but retains repeated pale covert rows and long adult-like layered wing, so targeted edit required; science false; no credit.",
         "2026-10-31T02:32:24+08:00 cycle2 #78 v4 REVIEWED after one targeted juvenile-wing edit (61.5s); full edited master, 520x700 crop and 680x453 derivative opened. Repeated adult-like pale rows removed; older-dependent developed wing remains soft, irregular and down-fringed; short tail, exact text/count, adult identity/scale and cautious one-foot step with contralateral ground support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-31T03:30:00+08:00 cycle5 #81 Otus scops v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 retained; 15-minute lease acquired; no credit."
+        "2026-10-31T03:30:00+08:00 cycle5 #81 Otus scops v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 retained; 15-minute lease acquired; no credit.",
+        "2026-10-31T03:35:00+08:00 cycle5 #81 v4 RESEARCH_READY; new0/reused5/corrected1; exact age label removed, fresh fledgling wing boundary tightened; searches empty; full prompt saved; science false; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T033000+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T03:30:00+08:00",
-        "expires_at": "2026-10-31T03:45:00+08:00"
+        "heartbeat_at": "2026-10-31T03:35:00+08:00",
+        "expires_at": "2026-10-31T03:50:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
         "species": "Otus scops",
         "species_id": 81,
         "version": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261031T033000+0800-cycle-5"
       }
     }
@@ -8789,8 +8796,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261031T033000+0800-cycle-5",
-    "heartbeat_at": "2026-10-31T03:30:00+08:00",
-    "expires_at": "2026-10-31T03:45:00+08:00"
+    "heartbeat_at": "2026-10-31T03:35:00+08:00",
+    "expires_at": "2026-10-31T03:50:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8923,7 +8930,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T03:30:00+08:00",
+  "updated_at": "2026-10-31T03:35:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8935,10 +8942,10 @@
   "active_lease": {
     "owner": "codex-production",
     "run_id": "20261031T033000+0800-cycle-5",
-    "heartbeat_at": "2026-10-31T03:30:00+08:00",
-    "expires_at": "2026-10-31T03:45:00+08:00"
+    "heartbeat_at": "2026-10-31T03:35:00+08:00",
+    "expires_at": "2026-10-31T03:50:00+08:00"
   },
-  "last_updated_at": "2026-10-31T03:30:00+08:00",
+  "last_updated_at": "2026-10-31T03:35:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9364,14 +9371,15 @@
     "2026-10-31T02:44:31+08:00: cycle4 #80 v4 REVIEWED; full/crop/derivative opened; one direct edit; PASS_WITH_LIMITATIONS; science false; no credit.",
     "2026-10-31T02:47:06+08:00: cycle4 #80 v4 ARCHIVED legacy584/design583/production574; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-31T02:48:19+08:00: cycle4 #80 v4 VERIFIED at fixed archive 63b708a05554a32343c32828c257388ac8d8b46a; exact assets/manifests584/583/574/support records matched; batch4/6 next5; unique175/251; science false; lease released.",
-    "2026-10-31T03:30:00+08:00: cycle5 #81 v4 STARTED; lease 20261031T033000+0800-cycle-5 expires 2026-10-31T03:45:00+08:00; no cycle credit."
+    "2026-10-31T03:30:00+08:00: cycle5 #81 v4 STARTED; lease 20261031T033000+0800-cycle-5 expires 2026-10-31T03:45:00+08:00; no cycle credit.",
+    "2026-10-31T03:35:00+08:00: cycle5 #81 v4 RESEARCH_READY; evidence persisted; no cycle credit."
   ],
   "in_progress": {
     "cycle": 5,
     "species": "Otus scops",
     "species_id": 81,
     "version": 4,
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "run_id": "20261031T033000+0800-cycle-5"
   },
   "last_checkpoint": {
@@ -9379,15 +9387,21 @@
     "species": "Otus scops",
     "species_id": 81,
     "version": 4,
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "run_id": "20261031T033000+0800-cycle-5",
-    "at": "2026-10-31T03:30:00+08:00",
+    "at": "2026-10-31T03:35:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T033000+0800-cycle-5.md",
     "evidence": {
-      "main_head": "37effd6c7b3b67210ed068b1e0ef7833e46d6e5e",
-      "prior_version": "v3",
-      "prior_fixed_commit": "fb066d5019a708128130e54fdd0d959eb3f2cae8",
-      "lease": "15 minutes",
+      "source_index": "owl-pet/research/SOURCE_INDEX.md",
+      "research_record": "owl-pet/research/species/81-otus-scops-v4.md",
+      "source_delta": {
+        "new": 0,
+        "reused": 5,
+        "corrected": 1
+      },
+      "full_prompt_persisted": true,
+      "active_search": "empty payloads; not credited",
+      "science": false,
       "credit": false
     }
   }

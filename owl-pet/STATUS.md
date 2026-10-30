@@ -1,3 +1,10 @@
+## 2026-10-31 #77 *Asio stygius* v4 VERIFIED
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- [Concept original](https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/design/concepts/77-asio-stygius-v4.jpg?raw=1) · [generated master](https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/production/generated/77-asio-stygius-v4-generated-master.jpg?raw=1) · [reviewed master](https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/production/reviewed/77-asio-stygius-v4-reviewed-master.jpg?raw=1) · [juvenile crop](https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/production/review-crops/77-asio-stygius-v4-juvenile.jpg?raw=1)
+- Fixed archive [`d3c0236`](https://github.com/janeytlin-eng/game-owl-ket/commit/d3c0236ead2d984344b9ec906cf430a47171e649) returned a non-truncated 2,165-entry tree with exact blobs/sizes; manifests 581/580/571 and support records matched.
+- Batch `2026-10-31T0134+0800` is 1/6; next cycle 2; lease released.
+
 ## 2026-10-31 #77 *Asio stygius* v4 ARCHIVED — readback pending
 
 - SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

@@ -12255,17 +12255,58 @@
       "review_crop_blob": "cb1e665926e5410ad7fe6742604f885db0b4997c",
       "review_crop_size_bytes": 144472,
       "archive_note": "V1-v3 preserved. Initial v4 and one targeted juvenile-wing edit opened; full reviewed master, crop and derivative rechecked. Science false.",
-      "readback_pending": true,
-      "archive_commit": "PENDING_FIXED_COMMIT",
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "d3c0236ead2d984344b9ec906cf430a47171e649",
+      "verified_at": "2026-10-31T01:39:53+08:00",
       "git_blob": "fb72c447ce9fcf9148b4ba03bfb90b662cbc95ef",
-      "fixed_commit": null,
-      "verification_result": "ARCHIVED; fixed-tree readback pending.",
+      "fixed_commit": "d3c0236ead2d984344b9ec906cf430a47171e649",
+      "verification_result": "VERIFIED against fixed archive: non-truncated 2,165-entry tree; exact complete JPEG masters, concept and crop; manifests 581/580/571 and supporting records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "d3c0236ead2d984344b9ec906cf430a47171e649",
+        "tree_truncated": false,
+        "tree_entries": 2165,
+        "concept": {
+          "path": "owl-pet/design/concepts/77-asio-stygius-v4.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "fb72c447ce9fcf9148b4ba03bfb90b662cbc95ef",
+          "size": 142169,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/design/concepts/77-asio-stygius-v4.jpg?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/77-asio-stygius-v4-generated-master.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c0e9619fb352ff0b7b0ecc449d5dc1ac943fc183",
+          "size": 442589,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/production/generated/77-asio-stygius-v4-generated-master.jpg?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/77-asio-stygius-v4-reviewed-master.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "dcc6eacdb94c606184265d595a2df96e6e304741",
+          "size": 434264,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/production/reviewed/77-asio-stygius-v4-reviewed-master.jpg?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/review-crops/77-asio-stygius-v4-juvenile.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cb1e665926e5410ad7fe6742604f885db0b4997c",
+          "size": 144472,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/d3c0236ead2d984344b9ec906cf430a47171e649/owl-pet/production/review-crops/77-asio-stygius-v4-juvenile.jpg?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 581,
+          "design": 580,
+          "production": 571
+        },
+        "unique_species": "175/251",
         "science": false
       }
     }
   ],
-  "updated_at": "2026-10-31T01:39:15+08:00"
+  "updated_at": "2026-10-31T01:39:53+08:00"
 }

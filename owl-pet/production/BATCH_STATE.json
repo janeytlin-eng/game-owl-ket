@@ -8696,59 +8696,51 @@
       "batch_id": "2026-10-31T0134+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Asio stygius",
+          "species_no": "77",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "d3c0236ead2d984344b9ec906cf430a47171e649",
+          "run_record": "owl-pet/production/runs/20261031T013432+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Asio stygius",
         "species_id": 77,
         "version": 4,
         "run_id": "20261031T013432+0800-cycle-1",
-        "at": "2026-10-31T01:39:15+08:00",
+        "at": "2026-10-31T01:39:53+08:00",
         "run_record": "owl-pet/production/runs/20261031T013432+0800-cycle-1.md",
         "evidence": {
-          "concept": "owl-pet/design/concepts/77-asio-stygius-v4.jpg",
-          "generated": "owl-pet/production/generated/77-asio-stygius-v4-generated-master.jpg",
-          "reviewed": "owl-pet/production/reviewed/77-asio-stygius-v4-reviewed-master.jpg",
-          "crop": "owl-pet/production/review-crops/77-asio-stygius-v4-juvenile.jpg",
+          "fixed_archive_commit": "d3c0236ead2d984344b9ec906cf430a47171e649",
+          "tree_truncated": false,
+          "tree_entries": 2165,
           "manifest_counts": {
             "legacy": 581,
             "design": 580,
             "production": 571
           },
-          "readback_pending": true,
+          "exact_assets": true,
+          "support_records": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T01:39:15+08:00",
+      "last_updated_at": "2026-10-31T01:39:53+08:00",
       "audit_notes": [
         "2026-10-31T01:34:32+08:00 cycle1 #77 Asio stygius v4 SCIENCE_REVISION STARTED; latest main/batch/v3 research/image checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T01:35:05+08:00 cycle1 #77 v4 RESEARCH_READY; new0/reused5/corrected1; v3 reopened and long layered juvenile wing panel identified as inconsistent with dated poor-remige stage; searches/direct opens empty and not credited; full prompt saved; science false; no credit.",
         "2026-10-31T01:37:54+08:00 cycle1 #77 v4 IMAGE_GENERATED in 40.4s; original opened. Exact text/count, adults and support pass; juvenile retains broad layered dark wing panels inconsistent with poor-remige boundary, so targeted edit required; science false; no credit.",
         "2026-10-31T01:38:24+08:00 cycle1 #77 v4 REVIEWED after one targeted 38.7s edit; full reviewed master, crop and derivative opened; broad juvenile wing panels removed, short down-dominated wings/tail and bilateral ground support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-31T01:39:15+08:00 cycle1 #77 v4 ARCHIVED tree prepared; concept/generated/reviewed/crop, manifests and support records included; fixed readback pending; manifests 581/580/571; science false; no credit."
-      ],
-      "in_progress": {
-        "cycle": 1,
-        "species": "Asio stygius",
-        "species_id": 77,
-        "version": 4,
-        "stage": "ARCHIVED",
-        "run_id": "20261031T013432+0800-cycle-1"
-      },
-      "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T013432+0800-cycle-1",
-        "heartbeat_at": "2026-10-31T01:39:15+08:00",
-        "expires_at": "2026-10-31T01:54:15+08:00"
-      },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T013432+0800-cycle-1",
-        "heartbeat_at": "2026-10-31T01:39:15+08:00",
-        "expires_at": "2026-10-31T01:54:15+08:00"
-      }
+        "2026-10-31T01:39:15+08:00 cycle1 #77 v4 ARCHIVED tree prepared; concept/generated/reviewed/crop, manifests and support records included; fixed readback pending; manifests 581/580/571; science false; no credit.",
+        "2026-10-31T01:39:53+08:00 cycle1 #77 v4 VERIFIED against fixed archive d3c0236ead2d984344b9ec906cf430a47171e649; non-truncated 2165-entry tree, exact JPEG assets and text records matched; manifests 581/580/571; batch 1/6 next_cycle2; unique remains175/251; science false; lease released."
+      ]
     }
   ],
   "lease": {

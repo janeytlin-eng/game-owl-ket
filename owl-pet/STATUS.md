@@ -2555,3 +2555,10 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 
 - Fixed archive `0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0` returned exact concept/generated/reviewed blobs and sizes in a non-truncated 2,112-entry tree; manifests 572/571/562 and supporting records matched.
 - Batch `2026-10-30T2158+0800` is 4/6, next cycle 5. Unique remains 175/251; science false.
+
+
+## 2026-10-30 23:52:00+08:00 — #67 *Pulsatrix perspicillata* v4 archive prepared
+
+- Wetmore museum-series passage validates formed brown barred juvenile wing/tail with buffy-white down and barred pale coverts/back; v1 blanket short-wing rule corrected.
+- One juvenile-only edit replaced round covert spots with transverse bars. Concept 680x453; masters 1536x1024; PASS_WITH_LIMITATIONS.
+- Manifests 573/572/563; unique 175/251; fixed readback pending; science false.

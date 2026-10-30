@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:43:30+08:00",
+  "updated": "2026-10-30T23:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12153,7 +12153,63 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "67-pulsatrix-perspicillata-v4",
+      "path": "design/concepts/67-pulsatrix-perspicillata-v4.png",
+      "species_id": 67,
+      "scientific_name": "Pulsatrix perspicillata",
+      "historical_names": [
+        "Strix perspicillata"
+      ],
+      "common_name": "Spectacled Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "a6b3f6fb65d067045c3b06d34ad950d24f76319dea5efec979e9bbe389bca73f",
+      "size_bytes": 652833,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Wetmore 1968 pp.164–165 directly supports the species-specific first-stage exception: buffy-white body down and dark face coexist with formed adult-like brown barred wings/tail, while pale coverts/back carry brownish-gray bars. V4 corrects v1's blanket short-white-wing rule. One edit changed generated round covert spots to soft transverse bars. Exact age, feather chronology, first-flight threshold, standing-height ratio, subspecies and geographic variation remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "SPO-WETMORE-1968-P164",
+        "WHSO-MIKKOLA-2013",
+        "SPO-BOUGLOUAN-2026",
+        "SPO-PEREGRINE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--67-pulsatrix-perspicillata-v4-first-stage-wing-exception",
+      "research_record": "research/species/67-pulsatrix-perspicillata-v4.md",
+      "run_record": "production/runs/20261030T234400+0800-cycle-5.md",
+      "reviewed_at": "2026-10-30T23:50:00+08:00",
+      "generated_path": "production/generated/67-pulsatrix-perspicillata-v4-generated-master.png",
+      "generated_blob": "10728282fd215ca13f5f5bc0a5cea6bc5ba80c9b",
+      "generated_sha256": "3233b8414efe5f607b3fa2506428c7ea22a676f88c075d2ddd627482d94c9c47",
+      "generated_size_bytes": 3180987,
+      "reviewed_path": "production/reviewed/67-pulsatrix-perspicillata-v4-reviewed-master.png",
+      "reviewed_blob": "bf67cf62877d4c005cbdee444392d3649594e71c",
+      "reviewed_sha256": "6c2e005c3b29b7ff0bac31e5d233784adb3cca22c5802a7cd19586bd2f14506a",
+      "reviewed_size_bytes": 2963651,
+      "archive_note": "V1-v3 preserved. Generated/edited masters and 680x453 concept opened. One juvenile-only edit replaced round spots with transverse bars while retaining source-supported formed brown remiges/tail. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "4fbf5356c1e960b3c56f26636546652684d482b2",
+      "fixed_commit": null,
+      "verified_at": null,
+      "verification_result": "Pending fixed-commit readback.",
+      "readback": {
+        "status": "PENDING",
+        "manifest_counts": {
+          "legacy": 573,
+          "design": 572,
+          "production": 563
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T23:43:30+08:00"
+  "updated_at": "2026-10-30T23:52:00+08:00"
 }

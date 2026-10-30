@@ -8457,33 +8457,32 @@
       "next_cycle": 5,
       "last_checkpoint": {
         "cycle": 5,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Pulsatrix perspicillata",
         "species_id": 67,
         "version": 4,
         "run_id": "20261030T234400+0800-cycle-5",
-        "at": "2026-10-30T23:50:00+08:00",
+        "at": "2026-10-30T23:52:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T234400+0800-cycle-5.md",
         "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/67-pulsatrix-perspicillata-v4-reviewed-master.png",
-          "reviewed_sha256": "6c2e005c3b29b7ff0bac31e5d233784adb3cca22c5802a7cd19586bd2f14506a",
-          "dimensions": "1536x1024",
-          "bytes": 2963651,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 1,
-          "edit_wait_seconds": 36.6,
-          "inspection_tool_seconds": 3,
-          "science": false,
-          "limitations": [
-            "exact juvenile age unknown",
-            "feather chronology unknown",
-            "first-flight threshold unknown",
-            "standing-height ratio unknown",
-            "subspecies/geographic variation unknown"
-          ]
+          "concept_path": "owl-pet/design/concepts/67-pulsatrix-perspicillata-v4.png",
+          "concept_blob": "4fbf5356c1e960b3c56f26636546652684d482b2",
+          "concept_sha256": "a6b3f6fb65d067045c3b06d34ad950d24f76319dea5efec979e9bbe389bca73f",
+          "concept_dimensions": "680x453",
+          "concept_bytes": 652833,
+          "generated_blob": "10728282fd215ca13f5f5bc0a5cea6bc5ba80c9b",
+          "reviewed_blob": "bf67cf62877d4c005cbdee444392d3649594e71c",
+          "manifest_counts": {
+            "legacy": 573,
+            "design": 572,
+            "production": 563
+          },
+          "unique_species": "175/251",
+          "readback_pending": true,
+          "science": false
         }
       },
-      "last_updated_at": "2026-10-30T23:50:00+08:00",
+      "last_updated_at": "2026-10-30T23:52:00+08:00",
       "audit_notes": [
         "2026-10-30T21:58:16+08:00 cycle1 #63 Scotopelia peli v4 SCIENCE_REVISION STARTED; #156 duplicate-name history preserved; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T22:18:00+08:00: cycle1 #63 v4 RESEARCH_READY after expired STARTED lease; new1/reused2/corrected1. Brooke 1984 printed pp127–128 plus BirdLife/SANBI and BotswanaPost evidence read; long family dependence is not an exact age or feather timetable; full prompt persisted; no credit.",
@@ -8512,19 +8511,20 @@
         "2026-10-30T23:44:00+08:00: cycle5 #67 Pulsatrix perspicillata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; latest main and batch checked; 15-minute lease acquired; no credit.",
         "2026-10-30T23:46:00+08:00: cycle5 #67 v4 RESEARCH_READY; new1/reused3/corrected1. Wetmore 1968 printed pp164–165 passage plus Mikkola/Bouglouan/Peregrine evidence read/reused; v1 blanket short-white-wing rule corrected; full prompt saved; no credit.",
         "2026-10-30T23:48:00+08:00: cycle5 #67 v4 IMAGE_GENERATED after 44.5s; 1536x1024 original opened. Text/count/adults/support/cavity and juvenile white body/dark mask/formed brown wing-tail pass, but juvenile coverts show repeated round pale spots rather than soft transverse bars; targeted edit required; generated master persisted; no credit.",
-        "2026-10-30T23:50:00+08:00: cycle5 #67 v4 REVIEWED after one targeted edit. Edited master, magnified juvenile and 680x453 derivative reopened; round pale covert spots replaced by soft transverse bars while formed brown remiges/tail, white down, mask, adults, text, cavity and supports remained. PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-30T23:50:00+08:00: cycle5 #67 v4 REVIEWED after one targeted edit. Edited master, magnified juvenile and 680x453 derivative reopened; round pale covert spots replaced by soft transverse bars while formed brown remiges/tail, white down, mask, adults, text, cavity and supports remained. PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-30T23:52:00+08:00: cycle5 #67 v4 ARCHIVED tree prepared; concept/generated/reviewed and three manifests/supporting records included; manifests573/572/563; fixed readback pending; unique175/251; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-work-20261030T2330+0800",
         "run_id": "20261030T234400+0800-cycle-5",
-        "heartbeat_at": "2026-10-30T23:50:00+08:00",
-        "expires_at": "2026-10-31T00:05:00+08:00"
+        "heartbeat_at": "2026-10-30T23:52:00+08:00",
+        "expires_at": "2026-10-31T00:07:00+08:00"
       },
       "lease": {
         "owner": "codex-work-20261030T2330+0800",
         "run_id": "20261030T234400+0800-cycle-5",
-        "heartbeat_at": "2026-10-30T23:50:00+08:00",
-        "expires_at": "2026-10-31T00:05:00+08:00"
+        "heartbeat_at": "2026-10-30T23:52:00+08:00",
+        "expires_at": "2026-10-31T00:07:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -8533,7 +8533,7 @@
         "species_id": 67,
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       }
     }
   ],

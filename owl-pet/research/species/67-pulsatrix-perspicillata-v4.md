@@ -2,7 +2,7 @@
 
 - Run: 20261030T234400+0800-cycle-5; batch 2026-10-30T2158+0800; cycle 5/6.
 - Action: SCIENCE_REVISION; v1-v3 retained; unique species increment 0.
-- Status: RESEARCH_READY at 2026-10-30T23:46:00+08:00; science false.
+- Status: ARCHIVED_PENDING_READBACK at 2026-10-30T23:52:00+08:00; science false.
 
 ## Sources actually read
 
@@ -38,3 +38,10 @@ Juvenile: evidence-bounded first-stage/branching juvenile, not a newborn. Sooty-
 Behavior/support: juvenile has left the cavity but is not shown flying; it grips a broad, stable low branch with both feet close beside a spacious natural tree hollow. Adults flank it on equally secure branches. All six feet/toes are naturally supported; no hovering.
 Environment: humid lowland/gallery-forest interior with large mature tree and natural cavity, dense green foliage, soft overcast daylight. Bare wood cavity substrate only; no woven nest, eggs, grass tunnel, buildings, road or urban props.
 Composition/constraints: clean comparison plate, full birds clearly separated, exact three birds, readable exact text, no extra animals, no watermark, no unsupported subspecies claim, no exaggerated female scale, no generic anti-mature-wing correction applied to the juvenile.
+
+
+## Production check and iteration
+
+- First render issue: repeated pale round covert spots.
+- Evidence/edit: Wetmore's buffy-white coverts/back with brownish-gray bars; center-only edit converted spots to soft transverse bands while preserving formed brown remiges/tail.
+- Recheck: edited master, center crop and derivative opened; PASS_WITH_LIMITATIONS. Archive paths saved; fixed readback pending; science false.

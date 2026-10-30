@@ -22,3 +22,10 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - New1/reused3/corrected1. Wetmore's Smithsonian museum-series account (printed pp.164–165) states that juvenile wings/tail develop like adult wings/tail while first-stage coverts/back remain buffy white barred brownish gray.
 - This validates v2/v3 and corrects v1's blanket short-white-wing rule. V4 will show a supported brancher with formed brown barred folded wings/tail, white down, dark mask and barred pale coverts/back; no flight claim.
 - Complete prompt/evidence: research/species/67-pulsatrix-perspicillata-v4.md. Exact age/chronology/first-flight threshold/standing-height ratio/subspecies remain unknown; science false.
+
+
+## v4 review/archive checkpoint — 2026-10-30T23:52:00+08:00
+
+- Issue → evidence → edit: first render showed round pale covert spots; Wetmore describes buffy-white first-stage coverts/back barred brownish gray. One center-only edit produced continuous soft transverse bars while retaining formed brown barred remiges/tail.
+- Edited master, juvenile crop and 680x453 derivative opened; exact text/count, adults, dark mask/yellow eyes, wing-tail exception, cavity/branches and foot support pass. Rule validated for this image only.
+- Assets: design/concepts/67-pulsatrix-perspicillata-v4.png plus generated/reviewed masters. PASS_WITH_LIMITATIONS; exact age/chronology/first-flight/height ratio/subspecies unknown; science false; readback pending.

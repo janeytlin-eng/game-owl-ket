@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T17:45:00+08:00",
+  "updated": "2026-10-30T17:53:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10712,7 +10712,36 @@
       "readback_pending": false,
       "archive_commit": "a1887e109463cf218f698b56976f50cd6e541ab2",
       "verified_at": "2026-10-30T17:45:00+08:00"
+    },
+    {
+      "id": "46-strix-ocellata-v4",
+      "path": "design/concepts/46-strix-ocellata-v4.png",
+      "species_id": 46,
+      "scientific_name": "Strix ocellata",
+      "common_name": "Mottled Wood Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "sha256": "1a274632fd75fc37637e7f088fd4591393bbcf5a517634a8e677c58ff596cfa9",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: measured day-34–36 brancher shown walking from a modal open-top cavity to an adjacent branch with split foot support, both wings folded, compact mesoptile-dominant half-grown wing and hidden short tail. Adults remain near-equal because female size is only presumed. One exceptional abandoned-raptor-nest record is explicitly excluded from the modal scene. Daily feather chronology, exact flight day, sample transfer and quantified dimorphism remain unknown.",
+      "source_ids": [
+        "MOWL-MIKKOLA-2013-P324-325",
+        "MOWL-DESHPANDE-WOC-2022",
+        "MOWL-DESHPANDE-2018",
+        "MOWL-KUMAR-KUSHWAHA-2019-P613-614"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-46-strix-ocellata-v4-atypical-nest-boundary",
+      "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md",
+      "reviewed_at": "2026-10-30T17:51:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 668055,
+      "git_blob": "f91ffedfe50de2fe7761c5ed5f9c623c224d92a3",
+      "generated_blob": "397308825fa1b51492379e36752b5dcce8cee207",
+      "reviewed_blob": "6e57adc8d4201b17b66ef9e106c76bf0e92a1898",
+      "archive_note": "First render passed text/count/adults/cavity/split support but retained adult-like crisp spots and long layering on the juvenile folded wing. One juvenile-only edit removed the spot rows, shortened/softened the wing and preserved the cavity-to-branch step. Original and derivative passed with limitations; science false.",
+      "readback_pending": true,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-10-30T17:45:00+08:00"
+  "updated_at": "2026-10-30T17:53:00+08:00"
 }

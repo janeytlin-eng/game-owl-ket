@@ -8040,40 +8040,61 @@
       "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "ARCHIVED",
         "species": "Strix ocellata",
         "species_id": 46,
         "version": 4,
         "run_id": "20261030T174800+0800-cycle-4",
-        "at": "2026-10-30T17:47:00+08:00",
+        "at": "2026-10-30T17:53:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md",
         "research_record": "owl-pet/research/species/46-strix-ocellata-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md"
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "evidence": {
+          "concept_path": "owl-pet/design/concepts/46-strix-ocellata-v4.png",
+          "concept_blob": "f91ffedfe50de2fe7761c5ed5f9c623c224d92a3",
+          "concept_sha256": "1a274632fd75fc37637e7f088fd4591393bbcf5a517634a8e677c58ff596cfa9",
+          "concept_bytes": 668055,
+          "dimensions": "680x453",
+          "generated_path": "owl-pet/production/generated/46-strix-ocellata-v4-generated-master.png",
+          "generated_blob": "397308825fa1b51492379e36752b5dcce8cee207",
+          "generated_sha256": "3618a4a318ebba8c41909069585f76867dde67e53d7ba05f4efa622439adb956",
+          "generated_bytes": 3121139,
+          "reviewed_path": "owl-pet/production/reviewed/46-strix-ocellata-v4-reviewed-master.png",
+          "reviewed_blob": "6e57adc8d4201b17b66ef9e106c76bf0e92a1898",
+          "reviewed_sha256": "ccf96e3bbb9ef6ba1c68c0d5ca7e65ebf02781a9bfeae7069fd16affee70cb63",
+          "reviewed_bytes": 2962137,
+          "manifest_count": "553→554",
+          "readback_pending": true,
+          "scientifically_verified": false
+        }
       },
-      "last_updated_at": "2026-10-30T17:47:00+08:00",
+      "last_updated_at": "2026-10-30T17:53:00+08:00",
       "audit_notes": [
         "2026-10-30T17:41:00+08:00 cycle3 #45 v4 IMAGE_GENERATED in 63.7s; original 1536x1024 opened. Text/count/adults/support passed; juvenile wing was too long/layered with crisp adult-like spots; generated master persisted for archive; no credit.",
         "2026-10-30T17:42:00+08:00 cycle3 #45 v4 REVIEWED after one juvenile-only wing/tail edit (53.3s). One context-based edit attempt failed because no conversation image was available, then path-based edit succeeded. Edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-30T17:44:00+08:00 cycle3 #45 v4 ARCHIVED tree prepared; concept 0a338b165c, generated 767ca90115, reviewed 6d7c4e9a2f; manifest 552→553; fixed readback pending; no credit.",
         "2026-10-30T17:45:00+08:00 cycle3 #45 v4 VERIFIED against fixed archive commit a1887e109463cf218f698b56976f50cd6e541ab2; all three image paths/blob SHAs/sizes, manifest entry and run record read back; batch 3/6; next_cycle4; unique remains175/251; science false.",
         "2026-10-30T17:48:00+08:00 cycle4 #46 Strix ocellata v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
-        "2026-10-30T17:47:00+08:00 cycle4 #46 v4 RESEARCH_READY; start timestamp normalized to 17:45 from GitHub commit metadata; new1/reused3/corrected1; Mikkola printed pp324–325 and Kumar et al. pp613–614 read; rare raptor nest excluded from modal scene; full prompt saved; science false; no credit."
+        "2026-10-30T17:47:00+08:00 cycle4 #46 v4 RESEARCH_READY; start timestamp normalized to 17:45 from GitHub commit metadata; new1/reused3/corrected1; Mikkola printed pp324–325 and Kumar et al. pp613–614 read; rare raptor nest excluded from modal scene; full prompt saved; science false; no credit.",
+        "2026-10-30T17:50:00+08:00 cycle4 #46 v4 IMAGE_GENERATED in 49.7s; 1536x1024 opened. Text/count/adults/cavity/split foot support passed; juvenile folded wing retained crisp adult-like white spot rows and long layering; edit required; no credit.",
+        "2026-10-30T17:51:00+08:00 cycle4 #46 v4 REVIEWED after one juvenile-only folded-wing edit (43.4s). First direct original-size reopen failed because image transport closed; retry opened successfully. Edited original and 680x453 derivative passed with limitations; instance validates folded-step rule but not universally; science false; no credit.",
+        "2026-10-30T17:53:00+08:00 cycle4 #46 v4 ARCHIVED tree prepared; concept f91ffedfe5, generated 397308825f, reviewed 6e57adc8d4; manifest 553→554; fixed readback pending; no credit."
       ],
       "active_lease": {
         "owner": "codex-production-20261030T1748+0800",
         "run_id": "20261030T174800+0800-cycle-4",
         "cycle": 4,
         "species_id": 46,
-        "heartbeat_at": "2026-10-30T17:47:00+08:00",
-        "expires_at": "2026-10-30T18:02:00+08:00"
+        "heartbeat_at": "2026-10-30T17:53:00+08:00",
+        "expires_at": "2026-10-30T18:08:00+08:00"
       },
       "lease": {
         "owner": "codex-production-20261030T1748+0800",
         "run_id": "20261030T174800+0800-cycle-4",
         "cycle": 4,
         "species_id": 46,
-        "heartbeat_at": "2026-10-30T17:47:00+08:00",
-        "expires_at": "2026-10-30T18:02:00+08:00"
+        "heartbeat_at": "2026-10-30T17:53:00+08:00",
+        "expires_at": "2026-10-30T18:08:00+08:00"
       },
       "in_progress": {
         "run_id": "20261030T174800+0800-cycle-4",
@@ -8082,7 +8103,7 @@
         "species": "Strix ocellata",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "ARCHIVED",
         "started_at": "2026-10-30T17:45:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md",
         "research_record": "owl-pet/research/species/46-strix-ocellata-v4.md",

@@ -112,3 +112,12 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Reused serial biometry: day-34–36 brancher walks from cavity to adjacent branch; tarsus/beak ~90%, wing/tail ~50%; flight later.
 - Applied iteration: vary the juvenile to a split-supported cavity-to-branch step with both wings folded. This reduces the recurrent adult-like open-wing failure without inventing flight.
 - Full prompt and evidence are in `owl-pet/research/species/46-strix-ocellata-v4.md`. New1 / reused3 / corrected1; science false.
+
+
+## 2026-10-30 v4 production result
+
+- Concept: `design/concepts/46-strix-ocellata-v4.png`; 680×453; 668,055 bytes; SHA-256 `1a274632fd75fc37637e7f088fd4591393bbcf5a517634a8e677c58ff596cfa9`; blob `f91ffedfe50de2fe7761c5ed5f9c623c224d92a3`.
+- Generated/reviewed blobs: `397308825fa1b51492379e36752b5dcce8cee207` / `6e57adc8d4201b17b66ef9e106c76bf0e92a1898`.
+- Problem → evidence → change → recheck: first render kept crisp adult white spots and long layering on the folded juvenile wing → ~50% measured wing/tail growth plus mesoptile description disallowed that maturity → one juvenile-only edit removed spot rows, shortened/softened the folded wing and preserved the cavity-to-branch split support → full edited original and derivative passed.
+- Folded-step rule validated for this #46 instance only. Exact daily sequence, flight day, sample transfer and quantified dimorphism remain unknown; science false.
+- Archive commit/readback pending.

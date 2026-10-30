@@ -8049,27 +8049,16 @@
       ],
       "next_cycle": 5,
       "last_checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Strix ocellata",
-        "species_id": 46,
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Strix leptogrammica",
+        "species_id": 47,
         "version": 4,
-        "run_id": "20261030T174800+0800-cycle-4",
-        "at": "2026-10-30T17:55:00+08:00",
-        "commit_sha": "3f07adbc3787168e23fbc724e11278a6ae890368",
-        "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md",
-        "research_record": "owl-pet/research/species/46-strix-ocellata-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "evidence": {
-          "concept_blob": "f91ffedfe50de2fe7761c5ed5f9c623c224d92a3",
-          "generated_blob": "397308825fa1b51492379e36752b5dcce8cee207",
-          "reviewed_blob": "6e57adc8d4201b17b66ef9e106c76bf0e92a1898",
-          "manifest_count": 554,
-          "all_readback_checks": true,
-          "scientifically_verified": false
-        }
+        "run_id": "20261030T175400+0800-cycle-5",
+        "at": "2026-10-30T17:54:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md"
       },
-      "last_updated_at": "2026-10-30T17:55:00+08:00",
+      "last_updated_at": "2026-10-30T17:54:00+08:00",
       "audit_notes": [
         "2026-10-30T17:41:00+08:00 cycle3 #45 v4 IMAGE_GENERATED in 63.7s; original 1536x1024 opened. Text/count/adults/support passed; juvenile wing was too long/layered with crisp adult-like spots; generated master persisted for archive; no credit.",
         "2026-10-30T17:42:00+08:00 cycle3 #45 v4 REVIEWED after one juvenile-only wing/tail edit (53.3s). One context-based edit attempt failed because no conversation image was available, then path-based edit succeeded. Edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
@@ -8080,8 +8069,36 @@
         "2026-10-30T17:50:00+08:00 cycle4 #46 v4 IMAGE_GENERATED in 49.7s; 1536x1024 opened. Text/count/adults/cavity/split foot support passed; juvenile folded wing retained crisp adult-like white spot rows and long layering; edit required; no credit.",
         "2026-10-30T17:51:00+08:00 cycle4 #46 v4 REVIEWED after one juvenile-only folded-wing edit (43.4s). First direct original-size reopen failed because image transport closed; retry opened successfully. Edited original and 680x453 derivative passed with limitations; instance validates folded-step rule but not universally; science false; no credit.",
         "2026-10-30T17:53:00+08:00 cycle4 #46 v4 ARCHIVED tree prepared; concept f91ffedfe5, generated 397308825f, reviewed 6e57adc8d4; manifest 553→554; fixed readback pending; no credit.",
-        "2026-10-30T17:55:00+08:00 cycle4 #46 v4 VERIFIED against fixed archive commit 3f07adbc3787168e23fbc724e11278a6ae890368; all three image paths/blob SHAs/sizes, manifest entry and run record read back; batch 4/6; next_cycle5; unique remains175/251; science false."
-      ]
+        "2026-10-30T17:55:00+08:00 cycle4 #46 v4 VERIFIED against fixed archive commit 3f07adbc3787168e23fbc724e11278a6ae890368; all three image paths/blob SHAs/sizes, manifest entry and run record read back; batch 4/6; next_cycle5; unique remains175/251; science false.",
+        "2026-10-30T17:54:00+08:00 cycle5 #47 Strix leptogrammica v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit."
+      ],
+      "active_lease": {
+        "owner": "codex-production-20261030T1754+0800",
+        "run_id": "20261030T175400+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 47,
+        "heartbeat_at": "2026-10-30T17:54:00+08:00",
+        "expires_at": "2026-10-30T18:09:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-production-20261030T1754+0800",
+        "run_id": "20261030T175400+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 47,
+        "heartbeat_at": "2026-10-30T17:54:00+08:00",
+        "expires_at": "2026-10-30T18:09:00+08:00"
+      },
+      "in_progress": {
+        "run_id": "20261030T175400+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 47,
+        "species": "Strix leptogrammica",
+        "version": 4,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "started_at": "2026-10-30T17:54:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md"
+      }
     }
   ],
   "lease": {

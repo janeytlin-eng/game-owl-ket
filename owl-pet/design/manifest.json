@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T13:58:00+08:00",
+  "updated": "2026-10-30T14:46:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10346,7 +10346,57 @@
         "run_blob_at_archive": "e701fe369e4228b702a0506817251ca29f994557",
         "knowledge_blob": "30cbcd8a9d03f62beebd9ea80febfc8e9c12a3e6"
       }
+    },
+    {
+      "id": "41-glaucidium-cobanense-v4",
+      "path": "design/concepts/41-glaucidium-cobanense-v4.png",
+      "species_id": 41,
+      "scientific_name": "Glaucidium cobanense",
+      "historical_names": [
+        "Glaucidium gnoma cobanense"
+      ],
+      "common_name": "Guatemalan Pygmy-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "6d2a43dc1ab9e065601ebc8cc2cf6221677ae8cfdb299e2d20d4d9e766b7b563",
+      "size_bytes": 666391,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. AOS/NACC 2013-A supports current species treatment, both rufous and brown morphs, and humid 1,500–3,500 m highland forest. The actually observed Chelemhá pair was a rufous female and brown male; v4 depicts that one pairing without generalizing morph as sex-linked and keeps adult scale comparable because no quantitative sex-size series was found. Three targeted edits corrected male apparent scale/tail, juvenile mature wing/tail, and juvenile crown spots. Exact juvenile age, continuous feather and iris chronology, independent flight and sex measurements remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 3,
+      "source_ids": [
+        "GUPO-AOS-NACC-2013A",
+        "GUPO-ITIS-1063258-2026",
+        "SRC-BOOK-041-01",
+        "SRC-PAPER-041-02",
+        "SRC-WEB-041-03",
+        "SRC-WEB-041-04",
+        "GUPO-BSG-2026",
+        "GUPO-HOWELL-EISERMANN-2011"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-41-glaucidium-cobanense-v4-documented-mixed-morph-pair-and-current-name-crosswalk",
+      "research_record": "research/species/41-glaucidium-cobanense-v4.md",
+      "run_record": "production/runs/20261030T143100+0800-cycle-5.md",
+      "generated_path": "production/generated/41-glaucidium-cobanense-v4-generated.png",
+      "generated_blob": "cbcf6cfe3007c866e5c9e62caac5f16c8634bbdf",
+      "generated_sha256": "81ab4d268d776376abd6cc104ed21251baca55260474dfdedfe24a86e7fc8d2c",
+      "generated_size_bytes": 3473145,
+      "reviewed_path": "production/reviewed/41-glaucidium-cobanense-v4.png",
+      "reviewed_blob": "b67901caed922ee4bad010aa737d35048dcff650",
+      "reviewed_sha256": "b024674886384ec052d15c4d3f07c41105d61ee066faa1b025d29ac181e63a2c",
+      "reviewed_size_bytes": 2887806,
+      "review_crop_path": "production/review-crops/41-glaucidium-cobanense-v4-juvenile.png",
+      "review_crop_blob": "a35952d378a027e9f8064f06c972c1271c3026b1",
+      "review_crop_sha256": "4a9921d3763059d872d66c84c9224317a9a096dd1a9431467623ab1d06e9021b",
+      "review_crop_size_bytes": 646168,
+      "archive_note": "V1-v3 retained. V4 uses the documented rufous-female/brown-male pairing as an individual observation, not a sex rule. Three targeted edits; final 1536x1024, 500x700 crop and 680x453 derivative reopened. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null
     }
   ],
-  "updated_at": "2026-10-30T13:58:00+08:00"
+  "updated_at": "2026-10-30T14:46:00+08:00"
 }

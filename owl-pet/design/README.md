@@ -2340,3 +2340,12 @@ Science revision adds Wetmore 1965 printed p.167 to the complete 2008 field reco
 When a historical account explicitly describes adult sexes alike and only one female is measured, do not convert that single specimen into a population-level display ratio. Encode the shared diagnosis, keep adult scale near equal, and separate juvenile evidence from adult specimen detail. Applied and visually rechecked on #39 v4; broader effectiveness remains unverified.
 
 - 2026-10-30T13:46:00+08:00 — #39 v4 corrected fixed-tree VERIFIED at `6e9cfa528c2fb42a086843aa716aabc55f30a7e3`; exact image tuples and indexed records matched. Batch 3/6, next cycle4; science false.
+
+
+## 2026-10-30 · #41 *Glaucidium cobanense* v4
+
+Science revision uses the documented Chelemhá rufous-female/brown-male pair while explicitly refusing a universal morph-as-sex rule. Adult displayed scale stays comparable. Three targeted edits corrected male tail/proportion, juvenile mature wing/tail and an introduced crown-fleck error. Final 1536×1024 plate, 500×700 juvenile crop and 680×453 concept derivative reopened; `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
+
+### Incremental rule — an observed mixed-morph pair is not a sex-linked morph rule
+
+When one breeding pair has different morphs, reproduce that pairing only as an individual documented case. Do not generalize color morph by sex without a population series. Keep sex-size neutral when measurements are absent. Applied and visually rechecked on #41 v4; broader effectiveness remains unverified.

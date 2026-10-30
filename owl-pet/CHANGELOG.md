@@ -1358,3 +1358,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T13:58:00+08:00: verified #40 *Glaucidium nubicola* v4 at fixed archive `f158c79d345002a643e143528e869db0c69f13dd`; exact four image blobs, manifests 559/550/548 and research/run/state records matched. Batch advances to 4/6, next cycle 5; unique 175/251, numbered IDs 185/251; science false.
+
+
+- 2026-10-30T14:46:00+08:00: archived #41 *Glaucidium cobanense* v4. Added AOS/NACC 2013-A and ITIS current-name evidence, reused six sources, and corrected the observed Chelemhá pair as rufous female + brown male without treating morph as sex-linked. Three edits corrected male scale/tail, juvenile mature wing/tail, and juvenile crown flecks. Full plate, crop and derivative reopened. Manifests design560 / production551 / legacy549; fixed readback pending; science false.

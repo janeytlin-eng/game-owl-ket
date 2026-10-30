@@ -8416,38 +8416,46 @@
       "next_cycle": 1,
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Scotopelia peli",
         "species_id": 63,
         "version": 4,
         "run_id": "20261030T215816+0800-cycle-1",
-        "at": "2026-10-30T22:27:00+08:00",
+        "at": "2026-10-30T22:33:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T215816+0800-cycle-1.md",
         "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/63-scotopelia-peli-v4-reviewed-master.jpg",
-          "dimensions": "1536x1024",
-          "derivative_opened": "680x453",
-          "edit_count": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "resolved": [
-            "female now subtly fuller/heavier rather than visibly smaller",
-            "juvenile adult-like pale covert rows and long geometric remiges removed"
-          ],
-          "unknown": [
-            "exact juvenile age",
-            "feather-tract chronology",
-            "first-flight threshold",
-            "sexed juvenile traits"
-          ],
+          "concept": {
+            "path": "owl-pet/design/concepts/63-scotopelia-peli-v4.jpg",
+            "blob": "0c9b5c1196834017e7c073e461405b8e0e9fd008",
+            "size_bytes": 118139
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/63-scotopelia-peli-v4-generated-master.jpg",
+            "blob": "0eeef23979b61e20b674ff89d6bc4900e92cb695",
+            "size_bytes": 482729
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/63-scotopelia-peli-v4-reviewed-master.jpg",
+            "blob": "2998f03dd8d857f1fa361425cf456716b4638daf",
+            "size_bytes": 425509
+          },
+          "manifest_counts": {
+            "legacy": 569,
+            "design": 568,
+            "production": 559
+          },
+          "readback_pending": true,
+          "unique_species": "175/251",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T22:27:00+08:00",
+      "last_updated_at": "2026-10-30T22:33:00+08:00",
       "audit_notes": [
         "2026-10-30T21:58:16+08:00 cycle1 #63 Scotopelia peli v4 SCIENCE_REVISION STARTED; #156 duplicate-name history preserved; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T22:18:00+08:00: cycle1 #63 v4 RESEARCH_READY after expired STARTED lease; new1/reused2/corrected1. Brooke 1984 printed pp127–128 plus BirdLife/SANBI and BotswanaPost evidence read; long family dependence is not an exact age or feather timetable; full prompt persisted; no credit.",
         "2026-10-30T22:20:00+08:00: cycle1 #63 v4 IMAGE_GENERATED after 56.3s; 1536x1024 original opened. Title/count/habitat/support pass; male is visibly larger than female and juvenile wing has adult-like pale rows/regular remiges; targeted edit required; no credit.",
-        "2026-10-30T22:27:00+08:00: cycle1 #63 v4 REVIEWED after one targeted edit; edited 1536x1024 master and 680x453 derivative reopened. Female subtly fuller; juvenile adult-like pale rows/regular long remiges removed while down-softened compact formed wing retained. PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-30T22:27:00+08:00: cycle1 #63 v4 REVIEWED after one targeted edit; edited 1536x1024 master and 680x453 derivative reopened. Female subtly fuller; juvenile adult-like pale rows/regular long remiges removed while down-softened compact formed wing retained. PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-30T22:33:00+08:00: cycle1 #63 v4 ARCHIVED tree prepared; concept/generated/reviewed and three manifests plus supporting records included; fixed readback pending; unique175/251; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-work-mode",
@@ -8457,9 +8465,9 @@
         "species": "Scotopelia peli",
         "species_id": 63,
         "version": 4,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-30T22:27:00+08:00",
-        "expires_at": "2026-10-30T22:42:00+08:00",
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-30T22:33:00+08:00",
+        "expires_at": "2026-10-30T22:48:00+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T215816+0800-cycle-1.md"
@@ -8472,9 +8480,9 @@
         "species": "Scotopelia peli",
         "species_id": 63,
         "version": 4,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-30T22:27:00+08:00",
-        "expires_at": "2026-10-30T22:42:00+08:00",
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-30T22:33:00+08:00",
+        "expires_at": "2026-10-30T22:48:00+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T215816+0800-cycle-1.md"
@@ -8487,9 +8495,9 @@
         "species": "Scotopelia peli",
         "species_id": 63,
         "version": 4,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-30T22:27:00+08:00",
-        "expires_at": "2026-10-30T22:42:00+08:00",
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-30T22:33:00+08:00",
+        "expires_at": "2026-10-30T22:48:00+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T215816+0800-cycle-1.md"
@@ -9079,38 +9087,45 @@
     "species": "Scotopelia peli",
     "species_id": 63,
     "version": 4,
-    "stage": "REVIEWED",
-    "heartbeat_at": "2026-10-30T22:27:00+08:00",
-    "expires_at": "2026-10-30T22:42:00+08:00",
+    "stage": "ARCHIVED",
+    "heartbeat_at": "2026-10-30T22:33:00+08:00",
+    "expires_at": "2026-10-30T22:48:00+08:00",
     "action": "SCIENCE_REVISION",
     "unique_species_increment": 0,
     "run_record": "owl-pet/production/runs/20261030T215816+0800-cycle-1.md"
   },
   "last_checkpoint": {
     "cycle": 1,
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "species": "Scotopelia peli",
     "species_id": 63,
     "version": 4,
     "run_id": "20261030T215816+0800-cycle-1",
-    "at": "2026-10-30T22:27:00+08:00",
+    "at": "2026-10-30T22:33:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T215816+0800-cycle-1.md",
     "evidence": {
-      "reviewed_path": "owl-pet/production/reviewed/63-scotopelia-peli-v4-reviewed-master.jpg",
-      "dimensions": "1536x1024",
-      "derivative_opened": "680x453",
-      "edit_count": 1,
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "resolved": [
-        "female now subtly fuller/heavier rather than visibly smaller",
-        "juvenile adult-like pale covert rows and long geometric remiges removed"
-      ],
-      "unknown": [
-        "exact juvenile age",
-        "feather-tract chronology",
-        "first-flight threshold",
-        "sexed juvenile traits"
-      ],
+      "concept": {
+        "path": "owl-pet/design/concepts/63-scotopelia-peli-v4.jpg",
+        "blob": "0c9b5c1196834017e7c073e461405b8e0e9fd008",
+        "size_bytes": 118139
+      },
+      "generated": {
+        "path": "owl-pet/production/generated/63-scotopelia-peli-v4-generated-master.jpg",
+        "blob": "0eeef23979b61e20b674ff89d6bc4900e92cb695",
+        "size_bytes": 482729
+      },
+      "reviewed": {
+        "path": "owl-pet/production/reviewed/63-scotopelia-peli-v4-reviewed-master.jpg",
+        "blob": "2998f03dd8d857f1fa361425cf456716b4638daf",
+        "size_bytes": 425509
+      },
+      "manifest_counts": {
+        "legacy": 569,
+        "design": 568,
+        "production": 559
+      },
+      "readback_pending": true,
+      "unique_species": "175/251",
       "science": false
     }
   }

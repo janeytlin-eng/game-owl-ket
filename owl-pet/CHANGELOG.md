@@ -1415,3 +1415,8 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-30T21:55:55+08:00 — archived #62 *Ketupa sumatrana* v4. Added NUS SBR printed p.178, separated the 2017 age-unknown Pulau Ubin transitional immature from the 2018 family juvenile, and verified the first render without edit. Manifests 568/567/558; unique 175/251; readback pending; science false.
 
 - 2026-10-30T21:56:57+08:00 — verified #62 *Ketupa sumatrana* v4 at fixed archive `45afb269dc4d805ab9601859dca6263d90598cbe`; exact image paths/blobs/sizes, manifests 568/567/558 and supporting records matched. Batch `2026-10-30T2039+0800` closed COMPLETE 6/6; unique 175/251; science false.
+
+
+## 2026-10-30T22:33:00+08:00 — #63 *Scotopelia peli* v4 archive prepared
+
+Added evidence-bounded dependent post-fledging branch stage. One edit corrected adult scale direction and juvenile wing maturity; fixed readback pending; unique count unchanged.

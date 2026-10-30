@@ -45,3 +45,8 @@ Status: VERIFIED archive, image reviewed; scientific calibration pending; scient
 
 - One edit corrected the initial male-larger scale error and adult-like juvenile covert/remige rows.
 - Reopened master and derivative pass the evidence gates: subtle female fullness only; down-dominant dependent branch juvenile; compact softened formed wing; bilateral support. PASS_WITH_LIMITATIONS; science false.
+
+
+## v4 archive preparation
+
+- Concept/generated/reviewed assets and three manifests prepared after one edit; fixed-commit readback pending. Unique species unchanged; science false.

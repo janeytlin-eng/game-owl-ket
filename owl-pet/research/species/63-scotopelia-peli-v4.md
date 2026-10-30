@@ -38,3 +38,8 @@ RESEARCH_READY at 2026-10-30T22:18:00+08:00. New 1 / reused 2 / corrected 1. Ima
 ## Image review — 2026-10-30T22:27:00+08:00
 
 Initial render passed title/count/habitat/support but made the male visibly larger and gave the juvenile crisp adult-like pale covert rows with long regular layered remiges. One bounded edit corrected both issues. The edited 1536×1024 master and 680×453 derivative were reopened: female is only subtly fuller; the juvenile remains down-dominant with a compact down-fringed formed wing, short-to-medium tail and bilateral branch grip. PASS_WITH_LIMITATIONS; exact age, feather chronology and first-flight threshold remain unknown; science false.
+
+
+## Archive preparation — 2026-10-30T22:33:00+08:00
+
+Concept, generated and reviewed assets plus all three manifests were prepared. Readback remains pending; science false and no cycle credit yet.

@@ -2526,3 +2526,9 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Fixed archive `45afb269dc4d805ab9601859dca6263d90598cbe` returned exact concept/generated/reviewed assets and sizes, non-truncated tree, manifests 568/567/558 and supporting records.
 - Batch `2026-10-30T2039+0800` is COMPLETE 6/6. Unique remains 175/251; science false.
+
+
+### #63 v4 archive prepared — 2026-10-30T22:33:00+08:00
+
+- Concept 680x453 blob `0c9b5c1196`; generated/reviewed 1536x1024 blobs `0eeef23979` / `2998f03dd8`.
+- One edit corrected adult size direction and juvenile adult-like wing rows; PASS_WITH_LIMITATIONS. Manifests 569/568/559; unique 175/251; science false; fixed readback pending.

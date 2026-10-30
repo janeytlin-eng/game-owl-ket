@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:56:57+08:00",
+  "updated": "2026-10-30T22:33:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11151,7 +11151,49 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "63-scotopelia-peli-v4",
+      "path": "design/concepts/63-scotopelia-peli-v4.jpg",
+      "species_id": 63,
+      "scientific_name": "Scotopelia peli",
+      "historical_names": [
+        "Bubo peli"
+      ],
+      "common_name": "Pel's Fishing Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "1648f5d16598bf1b037b87969a703dcd4b2fe3f255f8af493c8da74b3399499c",
+      "size_bytes": 118139,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Brooke 1984 printed pp.127–128 supports ten-week nestling context, riparian clear-pool habitat and juvenile association with adults until the next breeding season; BirdLife/SANBI supports retained pale down in the first six months. V4 depicts an age-unknown dependent post-fledging branch bird. One edit corrected a male-larger scale error and removed adult-like juvenile covert rows/regular long remiges. Exact age, feather chronology, first-flight threshold and sexed juvenile traits remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "PFO-BROOKE-1984-P128",
+        "PFO-TRUST-2026",
+        "PFO-BOTSWANAPOST-2022"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--63-scotopelia-peli-v4-dependent-post-fledging-boundary",
+      "research_record": "research/species/63-scotopelia-peli-v4.md",
+      "run_record": "production/runs/20261030T215816+0800-cycle-1.md",
+      "reviewed_at": "2026-10-30T22:27:00+08:00",
+      "generated_path": "production/generated/63-scotopelia-peli-v4-generated-master.jpg",
+      "generated_blob": "0eeef23979b61e20b674ff89d6bc4900e92cb695",
+      "generated_sha256": "8262fa04fdd689514a9a772f30b9d18c6394cd97558511f2b4b6d36fbb840e55",
+      "generated_size_bytes": 482729,
+      "reviewed_path": "production/reviewed/63-scotopelia-peli-v4-reviewed-master.jpg",
+      "reviewed_blob": "2998f03dd8d857f1fa361425cf456716b4638daf",
+      "reviewed_sha256": "6576e1a6c83a44e4e40ad00b9d0b7e53065b71a4ba9e3574d476a44a3dc9c006",
+      "reviewed_size_bytes": 425509,
+      "archive_note": "V1-v3 and duplicate-name #156 preserved. Generated and edited 1536x1024 masters plus 680x453 concept were opened. One bounded edit corrected adult scale direction and juvenile wing maturity. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "0c9b5c1196834017e7c073e461405b8e0e9fd008"
     }
   ],
-  "updated_at": "2026-10-30T21:56:57+08:00"
+  "updated_at": "2026-10-30T22:33:00+08:00"
 }

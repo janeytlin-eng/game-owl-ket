@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:59:18+08:00",
+  "updated": "2026-10-31T00:59:35+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11971,17 +11971,58 @@
       "review_crop_blob": "d980e4bd903d80656702b7d301866f117359fe7b",
       "review_crop_size_bytes": 711651,
       "archive_note": "V2-v3 preserved. V3 reopened; v4 first render/full/crop/derivative passed without edit. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "53ef96c031c74e9fa6b921871a7c60eb5a44208d",
+      "verified_at": "2026-10-31T00:59:35+08:00",
       "git_blob": "91790698aba25944695805060db35e7c9606f0ce",
-      "fixed_commit": null,
-      "verification_result": "PENDING fixed-commit readback",
+      "fixed_commit": "53ef96c031c74e9fa6b921871a7c60eb5a44208d",
+      "verification_result": "VERIFIED against fixed archive: non-truncated 2147-entry tree; exact assets; manifests 578/577/568; support records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "53ef96c031c74e9fa6b921871a7c60eb5a44208d",
+        "tree_truncated": false,
+        "tree_entries": 2147,
+        "concept": {
+          "path": "owl-pet/design/concepts/74-ninox-novaeseelandiae-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "91790698aba25944695805060db35e7c9606f0ce",
+          "size": 683809,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/design/concepts/74-ninox-novaeseelandiae-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/74-ninox-novaeseelandiae-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d62be77b684a9b903550e1c345dcfe2da7a55870",
+          "size": 3435782,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/production/generated/74-ninox-novaeseelandiae-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/74-ninox-novaeseelandiae-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d62be77b684a9b903550e1c345dcfe2da7a55870",
+          "size": 3435782,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/production/reviewed/74-ninox-novaeseelandiae-v4-reviewed-master.png?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/review-crops/74-ninox-novaeseelandiae-v4-juvenile.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d980e4bd903d80656702b7d301866f117359fe7b",
+          "size": 711651,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/production/review-crops/74-ninox-novaeseelandiae-v4-juvenile.png?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 578,
+          "design": 577,
+          "production": 568
+        },
+        "unique_species": "175/251",
         "science": false
       }
     }
   ],
-  "updated_at": "2026-10-31T00:59:18+08:00"
+  "updated_at": "2026-10-31T00:59:35+08:00"
 }

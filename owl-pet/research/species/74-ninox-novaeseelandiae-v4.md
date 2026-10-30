@@ -38,3 +38,8 @@ Avoid: early pinfeather chick, tiny body, long adult-length juvenile tail, dense
 
 - Full master, 520×700 crop and 680×453 derivative opened. Near-adult torso bulk while crouched, short tail, developed wings, juvenile fluff and support passed first render; edit0; PASS_WITH_LIMITATIONS.
 - Archive concept blob `91790698aba25944695805060db35e7c9606f0ce`; fixed readback pending. Science false.
+
+
+## Fixed archive verification — 2026-10-31T00:59:35+08:00
+
+- Commit `53ef96c031c74e9fa6b921871a7c60eb5a44208d`; non-truncated 2147-entry tree; exact assets, manifests 578/577/568 and support records matched. Science false.

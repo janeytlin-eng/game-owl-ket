@@ -13,3 +13,6 @@ Sources: MOR-STEPHENSON-MINOT-2006 Stephenson/Minot Notornis53:308–315 https:/
 - Preserved v2-v3; new [concept](../../design/concepts/74-ninox-novaeseelandiae-v4.png).
 - V3 fixed original reopened. V4 gives the recent fledgling near-adult torso bulk while crouched and a clearly short tail, retaining developed wings and fluffy head/underparts.
 - First render/full/crop/derivative passed without edit. Exact dimensions, tract chronology and island transfer unknown; science false. [Research](../../research/species/74-ninox-novaeseelandiae-v4.md) · [run](../../production/runs/20261031T005625+0800-cycle-4.md).
+
+
+Verification 2026-10-31T00:59:35+08:00: fixed archive `53ef96c031c74e9fa6b921871a7c60eb5a44208d` returned exact assets/non-truncated tree; manifests 578/577/568; science false.

@@ -2625,3 +2625,8 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 
 - V3 fixed original reopened; recent fledgling corrected toward the source's approximately 90%-adult-weight, short-tail boundary while retaining juvenile fluff and developed wings.
 - First render/full/crop/derivative passed without edit; PASS_WITH_LIMITATIONS. Manifests 578/577/568; unique 175/251; fixed readback pending; science false.
+
+
+### #74 v4 VERIFIED — 2026-10-31T00:59:35+08:00
+
+- Fixed archive `53ef96c031c74e9fa6b921871a7c60eb5a44208d` returned exact assets in a non-truncated 2147-entry tree; manifests 578/577/568 matched. Batch 4/6 next5; science false.

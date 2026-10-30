@@ -2532,3 +2532,6 @@ Verification 2026-10-31T00:54:43+08:00: #71 v4 fixed archive `c770e1c38f7e30027d
 - Concept: `design/concepts/74-ninox-novaeseelandiae-v4.png`; masters/crop retained.
 - V4 expresses the 38–40-day, approximately 90%-adult-weight boundary as near-adult torso bulk while crouched, developed wings, clearly short tail and retained head/underpart fluff. Adults near-equal; female only subtly fuller.
 - Full/crop/derivative opened; edit0; PASS_WITH_LIMITATIONS. Exact dimensions/tract chronology/island transfer unknown. Science false.
+
+
+Verification 2026-10-31T00:59:35+08:00: #74 v4 fixed archive `53ef96c031c74e9fa6b921871a7c60eb5a44208d` returned exact assets and manifests 578/577/568; batch 4/6 next5; science false.

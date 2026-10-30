@@ -112,6 +112,6 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - Applied to #50 *Strix virgata* v4: the exceptional 2017 Costa Rica ground-burrow record remains research evidence but is not visualized because older *Ciccaba virgata* versus northern *S. squamulata* mapping is unresolved. The 1536×1024 original and 680×453 derivative were opened and showed the modal tree-cavity South American direction with no ground-burrow leakage. This validates the gate for this plate only, not the unresolved taxonomy.
 
 
-## 2026-10-30 within-species stage separation — discovered/applied; validation pending
+## 2026-10-30 within-species stage separation — discovered/applied; validated for #51 v4 instance
 - “Downy chick” and “mesoptile/one-month juvenile” are separate evidence stages even within one species. Do not blend later warm-buff barring or formed wings into an earlier whitish-down design.
-- Applied to #51 v4; actual-image validation pending.
+- Applied to #51 v4; original and 680×453 derivative showed a whitish downy chick without later warm-buff bars or formed remiges. Validated for this plate only.

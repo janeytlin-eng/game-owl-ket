@@ -8161,22 +8161,31 @@
       "next_cycle": 3,
       "last_checkpoint": {
         "cycle": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "species": "Strix rufipes",
         "species_id": 51,
         "version": 4,
         "run_id": "20261030T185800+0800-cycle-3",
-        "at": "2026-10-30T19:01:00+08:00",
+        "at": "2026-10-30T19:04:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T185800+0800-cycle-3.md",
         "evidence": {
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "research_record": "owl-pet/research/species/51-strix-rufipes-v4.md",
-          "new_sources": 2,
-          "reused_sources": 3,
-          "corrected_mappings": 1
+          "generated_path": "owl-pet/production/generated/51-strix-rufipes-v4-generated-master.png",
+          "reviewed_path": "owl-pet/production/reviewed/51-strix-rufipes-v4-reviewed-master.png",
+          "blob": "de3fbe86ab5cec64099c927ef11150976e98e757",
+          "size_bytes": 3333757,
+          "sha256": "c58beb5689969124ef58b8ad7d07a9b2f5f4c4885557be5d1086561773573993",
+          "generation_seconds": 58.6,
+          "derivative": {
+            "size_bytes": 683871,
+            "sha256": "697413660203f27e060274fec0e30650979bd832178d215b59a871d4ff4c350b",
+            "opened": true
+          },
+          "verdict": "PASS_WITH_LIMITATIONS",
+          "edit_count": 0,
+          "science": false
         }
       },
-      "last_updated_at": "2026-10-30T19:01:00+08:00",
+      "last_updated_at": "2026-10-30T19:04:00+08:00",
       "audit_notes": [
         "2026-10-30T18:31:00+08:00 cycle1 #49 Strix woodfordii v4 SCIENCE_REVISION STARTED; v1–v3 preserved; latest main/manifest/card checked; 15-minute lease acquired; no credit.",
         "2026-10-30T18:35:00+08:00 cycle1 #49 v4 RESEARCH_READY; new2/reused4/corrected1. Mikkola printed pp320–321, SANBI development account and ITIS current/old-name mapping read. V4 selects age-unknown later Tanzanian nigricantior young with adult-like folded wing/tail explicitly allowed by same-population caption, while underparts remain partly downy; full prompt saved; science false; no credit.",
@@ -8191,23 +8200,24 @@
         "2026-10-30T18:54:00+08:00 cycle2 #50 v4 ARCHIVED tree prepared; concept a9c5e6fdb2, generated/reviewed 511b301bc7; manifest 557→558; fixed readback pending; no credit.",
         "2026-10-30T18:56:00+08:00 cycle2 #50 v4 VERIFIED against fixed archive commit 6a6cd44e8eed35a2d75398ab26c666c1d429ce1d; image paths/blob SHAs/URLs, manifest 558 and supporting records read back; batch 2/6; next_cycle3; unique remains175/251; science false.",
         "2026-10-30T18:58:00+08:00 cycle3 #51 Strix rufipes v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
-        "2026-10-30T19:01:00+08:00 cycle3 #51 v4 RESEARCH_READY; new2/reused3/corrected1. Mikkola printed p333 and current UdeC thesis abstract read; v4 separates Mikkola whitish downy chick from v3's approximately-one-month warm-buff rehab juvenile; full prompt saved; science false; no credit."
+        "2026-10-30T19:01:00+08:00 cycle3 #51 v4 RESEARCH_READY; new2/reused3/corrected1. Mikkola printed p333 and current UdeC thesis abstract read; v4 separates Mikkola whitish downy chick from v3's approximately-one-month warm-buff rehab juvenile; full prompt saved; science false; no credit.",
+        "2026-10-30T19:04:00+08:00 cycle3 #51 v4 IMAGE_GENERATED in 58.6s and REVIEWED with no edit; original and 680x453 derivative opened. Exact text/count, dark-male/paler-female dichromatism, white-down chick with no mature wing/tail, dry cavity support and no ground-nest leakage passed; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-production-20261030T1831+0800",
         "run_id": "20261030T185800+0800-cycle-3",
         "cycle": 3,
         "species_id": 51,
-        "heartbeat_at": "2026-10-30T19:01:00+08:00",
-        "expires_at": "2026-10-30T19:16:00+08:00"
+        "heartbeat_at": "2026-10-30T19:04:00+08:00",
+        "expires_at": "2026-10-30T19:19:00+08:00"
       },
       "lease": {
         "owner": "codex-production-20261030T1831+0800",
         "run_id": "20261030T185800+0800-cycle-3",
         "cycle": 3,
         "species_id": 51,
-        "heartbeat_at": "2026-10-30T19:01:00+08:00",
-        "expires_at": "2026-10-30T19:16:00+08:00"
+        "heartbeat_at": "2026-10-30T19:04:00+08:00",
+        "expires_at": "2026-10-30T19:19:00+08:00"
       },
       "in_progress": {
         "run_id": "20261030T185800+0800-cycle-3",
@@ -8216,7 +8226,7 @@
         "species": "Strix rufipes",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T18:58:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T185800+0800-cycle-3.md",
         "research_record": "owl-pet/research/species/51-strix-rufipes-v4.md",
@@ -8235,8 +8245,8 @@
     "run_id": "20261030T185800+0800-cycle-3",
     "cycle": 3,
     "species_id": 51,
-    "heartbeat_at": "2026-10-30T19:01:00+08:00",
-    "expires_at": "2026-10-30T19:16:00+08:00"
+    "heartbeat_at": "2026-10-30T19:04:00+08:00",
+    "expires_at": "2026-10-30T19:19:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8383,10 +8393,10 @@
     "run_id": "20261030T185800+0800-cycle-3",
     "cycle": 3,
     "species_id": 51,
-    "heartbeat_at": "2026-10-30T19:01:00+08:00",
-    "expires_at": "2026-10-30T19:16:00+08:00"
+    "heartbeat_at": "2026-10-30T19:04:00+08:00",
+    "expires_at": "2026-10-30T19:19:00+08:00"
   },
-  "last_updated_at": "2026-10-30T19:01:00+08:00",
+  "last_updated_at": "2026-10-30T19:04:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8802,7 +8812,7 @@
     "species": "Strix rufipes",
     "version": 4,
     "action": "SCIENCE_REVISION",
-    "stage": "RESEARCH_READY",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T18:58:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T185800+0800-cycle-3.md",
     "research_record": "owl-pet/research/species/51-strix-rufipes-v4.md",
@@ -8816,19 +8826,28 @@
   },
   "last_checkpoint": {
     "cycle": 3,
-    "stage": "RESEARCH_READY",
+    "stage": "REVIEWED",
     "species": "Strix rufipes",
     "species_id": 51,
     "version": 4,
     "run_id": "20261030T185800+0800-cycle-3",
-    "at": "2026-10-30T19:01:00+08:00",
+    "at": "2026-10-30T19:04:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T185800+0800-cycle-3.md",
     "evidence": {
-      "source_index": "owl-pet/research/SOURCE_INDEX.md",
-      "research_record": "owl-pet/research/species/51-strix-rufipes-v4.md",
-      "new_sources": 2,
-      "reused_sources": 3,
-      "corrected_mappings": 1
+      "generated_path": "owl-pet/production/generated/51-strix-rufipes-v4-generated-master.png",
+      "reviewed_path": "owl-pet/production/reviewed/51-strix-rufipes-v4-reviewed-master.png",
+      "blob": "de3fbe86ab5cec64099c927ef11150976e98e757",
+      "size_bytes": 3333757,
+      "sha256": "c58beb5689969124ef58b8ad7d07a9b2f5f4c4885557be5d1086561773573993",
+      "generation_seconds": 58.6,
+      "derivative": {
+        "size_bytes": 683871,
+        "sha256": "697413660203f27e060274fec0e30650979bd832178d215b59a871d4ff4c350b",
+        "opened": true
+      },
+      "verdict": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "science": false
     }
   }
 }

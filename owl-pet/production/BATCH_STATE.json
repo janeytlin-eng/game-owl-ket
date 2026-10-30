@@ -8620,23 +8620,28 @@
       "next_cycle": 6,
       "last_checkpoint": {
         "cycle": 6,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Asio clamator",
         "species_id": 76,
         "version": 4,
         "run_id": "20261031T011343+0800-cycle-6",
-        "at": "2026-10-31T01:22:05+08:00",
+        "at": "2026-10-31T01:24:15+08:00",
         "run_record": "owl-pet/production/runs/20261031T011343+0800-cycle-6.md",
         "evidence": {
-          "reviewed_master": "owl-pet/production/reviewed/76-asio-clamator-v4-reviewed-master.jpg",
           "concept": "owl-pet/design/concepts/76-asio-clamator-v4.jpg",
-          "juvenile_crop": "owl-pet/production/review-crops/76-asio-clamator-v4-juvenile.jpg",
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
+          "generated": "owl-pet/production/generated/76-asio-clamator-v4-generated-master.jpg",
+          "reviewed": "owl-pet/production/reviewed/76-asio-clamator-v4-reviewed-master.jpg",
+          "crop": "owl-pet/production/review-crops/76-asio-clamator-v4-juvenile.jpg",
+          "manifest_counts": {
+            "legacy": 580,
+            "design": 579,
+            "production": 570
+          },
+          "readback_pending": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T01:22:05+08:00",
+      "last_updated_at": "2026-10-31T01:24:15+08:00",
       "audit_notes": [
         "2026-10-31T00:34:52+08:00 cycle1 #69 Tyto novaehollandiae v4 SCIENCE_REVISION STARTED; latest main/batch/species card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit.",
@@ -8672,27 +8677,28 @@
         "2026-10-31T01:13:43+08:00 cycle6 #76 Asio clamator v4 SCIENCE_REVISION STARTED; v1-v3 and latest batch checked, v4 absent; 15-minute lease acquired; no credit.",
         "2026-10-31T01:17:30+08:00 cycle6 #76 v4 RESEARCH_READY; new0/reused5/corrected1; v3 fixed original reopened; search/DOI opens empty and not credited; exact number/central stage/adult support baselines corrected; full prompt saved; science false; no credit.",
         "2026-10-31T01:20:05+08:00 cycle6 #76 v4 IMAGE_GENERATED in 66.0s; original and complete JPEG opened. Exact text/count, adult identity/near-equal scale, central warm-brown 25–30-day juvenile and bilateral supports pass initial inspection; no edit indicated; science false; no credit.",
-        "2026-10-31T01:22:05+08:00 cycle6 #76 v4 REVIEWED; full generated/reviewed master, concept and juvenile crop opened; exact text/count, adult identity/near-equal scale, bounded sex contrast, central warm-brown 25–30-day juvenile with immature wing/tail and bilateral support pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-31T01:22:05+08:00 cycle6 #76 v4 REVIEWED; full generated/reviewed master, concept and juvenile crop opened; exact text/count, adult identity/near-equal scale, bounded sex contrast, central warm-brown 25–30-day juvenile with immature wing/tail and bilateral support pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-31T01:24:15+08:00 cycle6 #76 v4 ARCHIVED tree prepared; concept/generated/reviewed/crop, manifests and support records included; fixed readback pending; manifests 580/579/570; science false; no credit."
       ],
       "in_progress": {
         "cycle": 6,
         "species": "Asio clamator",
         "species_id": 76,
         "version": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261031T011343+0800-cycle-6"
       },
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T011343+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T01:22:05+08:00",
-        "expires_at": "2026-10-31T01:37:05+08:00"
+        "heartbeat_at": "2026-10-31T01:24:15+08:00",
+        "expires_at": "2026-10-31T01:39:15+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T011343+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T01:22:05+08:00",
-        "expires_at": "2026-10-31T01:37:05+08:00"
+        "heartbeat_at": "2026-10-31T01:24:15+08:00",
+        "expires_at": "2026-10-31T01:39:15+08:00"
       }
     }
   ],

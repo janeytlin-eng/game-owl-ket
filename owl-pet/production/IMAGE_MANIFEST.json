@@ -12117,7 +12117,62 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "76-asio-clamator-v4",
+      "path": "design/concepts/76-asio-clamator-v4.jpg",
+      "species_id": 76,
+      "scientific_name": "Asio clamator",
+      "historical_names": [
+        "Pseudoscops clamator",
+        "Rhinoptynx clamator"
+      ],
+      "common_name": "Striped Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "fd63e6c8fdd8175b9ea459699afd5d8d30e79e89f7484c184b91eca89d4e7076",
+      "size_bytes": 215419,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 reopens the fixed v3 plate, preserves the evidence-bounded warm-brown 25–30-day second-stage juvenile, restores repository number 76, centers the juvenile and aligns adult supports for clearer scale comparison. Adults remain near-equal because size direction was not established; colour contrast stays subtle and field-inferred. First render passed without edit. Exact dimorphism, subspecies transfer, day-specific tract chronology and flight threshold remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "CLA-FORMOSO-ETAL-2025",
+        "CLA-PAUTASSO-DE-LA-PENA-2001",
+        "CLA-PONCE-GONZALEZ-2025",
+        "CLA-OWLPAGES-2020",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--76-asio-clamator-v4-central-second-stage-comparison-boundary",
+      "research_record": "research/species/76-asio-clamator-v4.md",
+      "run_record": "production/runs/20261031T011343+0800-cycle-6.md",
+      "reviewed_at": "2026-10-31T01:22:05+08:00",
+      "generated_path": "production/generated/76-asio-clamator-v4-generated-master.jpg",
+      "generated_blob": "b105b223eb0bc98fc862cb2a72a6c7dd2637b131",
+      "generated_sha256": "e575e1108e7d71028e02756b03a9cdbce48a60e6397b8acecc3ea606e29fdd5b",
+      "generated_size_bytes": 706294,
+      "reviewed_path": "production/reviewed/76-asio-clamator-v4-reviewed-master.jpg",
+      "reviewed_blob": "b105b223eb0bc98fc862cb2a72a6c7dd2637b131",
+      "reviewed_sha256": "e575e1108e7d71028e02756b03a9cdbce48a60e6397b8acecc3ea606e29fdd5b",
+      "reviewed_size_bytes": 706294,
+      "review_crop_path": "production/review-crops/76-asio-clamator-v4-juvenile.jpg",
+      "review_crop_blob": "a33acee5d4ce2b4a7147996ca2cb1c8fc7697bec",
+      "review_crop_size_bytes": 178889,
+      "archive_note": "V1-v3 preserved. V3 and v4 full master, juvenile crop and 680x453 derivative opened; first v4 render passed without edit. Science false.",
+      "readback_pending": true,
+      "archive_commit": "PENDING_FIXED_COMMIT",
+      "verified_at": null,
+      "git_blob": "64c7144600962c08547583432fe99b3ee0f8e1f1",
+      "fixed_commit": null,
+      "verification_result": "ARCHIVED; fixed-tree readback pending.",
+      "readback": {
+        "status": "PENDING",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T01:12:54+08:00"
+  "updated_at": "2026-10-31T01:24:15+08:00"
 }

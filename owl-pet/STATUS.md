@@ -1,3 +1,10 @@
+## 2026-10-31 #76 *Asio clamator* v4 ARCHIVED — readback pending
+
+- SCIENCE_REVISION; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/76-asio-clamator-v4.jpg](design/concepts/76-asio-clamator-v4.jpg)
+- Research: new0/reused5/corrected1; v3 reopened, number 76/central juvenile/adult support baselines corrected; exact dimorphism and tract chronology unknown.
+- Assets and manifests 580/579/570 prepared; immutable fixed-tree readback pending.
+
 ## 2026-10-31 #75 *Ninox scutulata* v4 VERIFIED
 
 - SCIENCE_REVISION; one support edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

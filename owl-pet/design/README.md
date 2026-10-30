@@ -2542,3 +2542,10 @@ Verification 2026-10-31T00:59:35+08:00: #74 v4 fixed archive `53ef96c031c74e9fa6
 - Discovery: field evidence for an active branch-dependent juvenile can support developed dark folded wing and short tail without supporting an exact age or full tract chronology.
 - Applied: #75 *Ninox scutulata* v4 kept that documented stage but required both gripping feet to read clearly on the branch; the first render failed that support gate and received one targeted edit.
 - Verified locally: edited master, crop and derivative show bilateral grip while retaining the evidence-bounded wing/tail stage. This is an instance result, not a universal owl-development rule.
+
+
+### 2026-10-31 — stage-comparison layout must not invent biology, #76 application
+
+- Discovery: a plate can move the evidence-bounded juvenile to the central comparison slot and align adult support baselines without changing age, sex or morphology claims.
+- Applied: #76 *Asio clamator* v4 restored the exact repository number, centered the already supported 25–30-day warm-brown second-stage chick, and kept adults near-equal because the field paper did not establish size direction.
+- Verified locally: full master, juvenile crop and derivative preserve bilateral support and immature wing/tail; first render passed without edit. This validates the layout procedure only, not a universal sex-dimorphism rule.

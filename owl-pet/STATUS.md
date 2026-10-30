@@ -2336,3 +2336,12 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 #41 *Glaucidium cobanense* v4 concept, generated/reviewed PNG and juvenile crop are archived. AOS/NACC current-name, two-morph and habitat evidence plus the documented rufous-female/brown-male Chelemhá pair refine v3 without generalizing morph as sex. Three targeted edits corrected male scale/tail, juvenile wing/tail and an introduced crown-fleck error. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 4/6.
 
 - 2026-10-30T14:47:00+08:00: #41 *Glaucidium cobanense* v4 fixed readback VERIFIED at [92120b38343df5572a3af1632ab95040b98397ca](https://github.com/janeytlin-eng/game-owl-ket/commit/92120b38343df5572a3af1632ab95040b98397ca); exact four image hashes, manifests 560/551/549 and source/research/run/knowledge/state matched. Batch advances to **5/6**, next cycle 6; unique **175/251**, numbered IDs **185/251**; science false.
+
+
+## 2026-10-30 — #42 *Athene brama* v4 ARCHIVED
+
+- Action: SCIENCE_REVISION; unique species remains 175/251.
+- Corrected the juvenile stage from an approximately four-week immature to a documented, supported 16–20 d cavity nestling after reading the complete Ali & Santhanakrishnan chronology.
+- Two juvenile-only edits removed mature crown/back spotting, adult white wing rows and layered remiges. Final full plate and crop were reopened; result PASS_WITH_LIMITATIONS, science false.
+- Research sources: new 1, reused 3, corrected 1. Exact individual age, iris chronology and sex-specific growth remain unknown.
+- Assets: `design/concepts/42-athene-brama-v4.png`, generated, reviewed and juvenile-crop originals are persisted; fixed-commit readback is pending.

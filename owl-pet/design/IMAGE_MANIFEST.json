@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T14:47:00+08:00",
+  "updated": "2026-10-30T15:33:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11274,7 +11274,56 @@
         "knowledge_blob": "37433037a8979e8a686152699d72ca0df3cc7ecd",
         "batch_blob_at_archive": "44ecfb6cee75fd00fdc45aeac09710a9dfceaa84"
       }
+    },
+    {
+      "id": "42-athene-brama-v4",
+      "path": "design/concepts/42-athene-brama-v4.png",
+      "species_id": 42,
+      "scientific_name": "Athene brama",
+      "historical_names": [
+        "Carine brama",
+        "Noctua indica"
+      ],
+      "common_name": "Spotted Owlet",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "28c6c5454e8a63ba8cec763f4fab2e24e0525eaa13bc90a3f1e9ecb8485f4a56",
+      "size_bytes": 657034,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. The complete Ali & Santhanakrishnan 2015 developmental chronology shows adult-like gray feathers and developed remiges/rectrices with white wing marks by 21–25 d, adult-like appearance by 26–30 d, and mean fledging at 31.4±2.67 d. V4 therefore depicts a supported 16–20 d cavity nestling rather than the earlier approximately-four-week immature. Adults remain externally alike and near-equal in displayed scale; two targeted juvenile edits removed mature crown/back spotting, white covert rows and layered remiges. Exact individual age, iris chronology and sex-specific growth remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "source_ids": [
+        "SPOT-NERLEKAR-ETHOGRAM-2014",
+        "SPOT-ALI-2015",
+        "SPOT-MIKKOLA-2013",
+        "SPOT-PANDE-2011",
+        "SPOT-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-42-athene-brama-v4-development-stage-correction",
+      "research_record": "research/species/42-athene-brama-v4.md",
+      "run_record": "production/runs/20261030T144900+0800-cycle-6.md",
+      "generated_path": "production/generated/42-athene-brama-v4-generated.png",
+      "generated_blob": "bff72e32d8b1565d3e32747bb38fa2c0f7a228ec",
+      "generated_sha256": "9765d3c040c6a28fed14f0d9dc1f03709b85b21490910a8e4f08bfbe9804fcae",
+      "generated_size_bytes": 3395469,
+      "reviewed_path": "production/reviewed/42-athene-brama-v4.png",
+      "reviewed_blob": "aaa50d00b1e68ff02f3dd91e32b65476dea5d3ff",
+      "reviewed_sha256": "305c043270e04bc0fa297b366389965c8201c3c1ad951c8258713e9536cf8e09",
+      "reviewed_size_bytes": 2914013,
+      "review_crop_path": "production/review-crops/42-athene-brama-v4-juvenile.png",
+      "review_crop_blob": "a818c632ff29b0627d97b72c4279375c6f9b9833",
+      "review_crop_sha256": "a30442b057b99fbcbcef997c6afeaeb66d64d2020dc78e5672e1681f11d038f0",
+      "review_crop_size_bytes": 706743,
+      "archive_note": "V1-v3 retained. V4 uses the documented 16–20 d supported cavity stage; two targeted juvenile-only edits; final 1536x1024, 536x720 crop and 680x453 derivative reopened. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verification_result": "pending"
     }
   ],
-  "updated_at": "2026-10-30T14:47:00+08:00"
+  "updated_at": "2026-10-30T15:33:00+08:00"
 }

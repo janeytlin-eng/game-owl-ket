@@ -2351,3 +2351,8 @@ Science revision uses the documented Chelemhá rufous-female/brown-male pair whi
 When one breeding pair has different morphs, reproduce that pairing only as an individual documented case. Do not generalize color morph by sex without a population series. Keep sex-size neutral when measurements are absent. Applied and visually rechecked on #41 v4; broader effectiveness remains unverified.
 
 - 2026-10-30T14:47:00+08:00: #41 v4 fixed-tree VERIFIED at `92120b38343df5572a3af1632ab95040b98397ca`; exact image and indexed record blobs matched. Batch 5/6, next cycle6; science false.
+
+
+### Evidence rule — juvenile chronology before appearance (applied #42 v4, 2026-10-30)
+
+When a longitudinal source shows that a later nestling age already carries adult-like remiges, rectrices or markings, do not pair that age label with an artificially undeveloped wing. Select an earlier documented stage with compatible posture and support, or leave the age uncertain. For #42 v4 this rule changed the design from an approximately-four-week immature to a supported 16–20 d cavity nestling; two edits removed mature crown/wing ordering, and the final plate/crop passed with limitations. This rule is applied and visually checked here, but it is not a cross-species developmental law.

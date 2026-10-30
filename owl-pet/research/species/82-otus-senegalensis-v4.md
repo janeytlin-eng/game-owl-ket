@@ -33,3 +33,12 @@ Scene: retain arid Namibian savanna woodland, Mopane/Acacia thorn bush and weath
 Constraints: change central juvenile and its label only except tiny consistency adjustments; preserve adult birds, title, scientific name, environment, all supports and count. Exactly three owls. No eggs, prey, extra birds, extra text, logo, border or watermark.
 Avoid: exact age claim, mass-to-height conversion, colour morph as sex, adult-clone juvenile, regular bright white juvenile wing rows, long hard adult remiges/tail, hovering or unsupported feet.
 ```
+
+
+## Generated and reviewed
+
+- Built-in imagegen direct v3→v4 revision: 38.8 s.
+- Full 1536×1024 JPEG, 560×700 crop and 680×453 derivative opened.
+- Corrected label, adult identity/scale/support, juvenile residual down, compact soft-edged fresh wing, short tail and secure two-foot thorn-fork support pass.
+- No second edit was required. PASS_WITH_LIMITATIONS; edit_count 1; scientific verification false.
+- Assets and manifests persisted; immutable readback pending.

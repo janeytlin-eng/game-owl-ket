@@ -1389,3 +1389,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 - Added `UROW-ERIKSSON-1984`; corrected day-29 wing growth and adult-versus-juvenile sex-size timing.
 - Two juvenile edits removed adult white rows/long remiges and produced a short growing wing. V2-v3 retained; unique 175/251; science false.
+
+
+- Verified #44 v4 at `ce67377ea8b6459d8c33c848134e5da77faba2c4`; batch advances to 2/6, next cycle 3.

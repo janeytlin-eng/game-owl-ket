@@ -2371,3 +2371,8 @@ Fixed archive `a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd` returned exact image bl
 - Science revision; unique species remains 175/251. New1/reused4/corrected1.
 - Adult female restrained larger; unsexed day-29 juvenile wing corrected from pin-tip-only/adult-like alternatives to 3–4 short growing vane sections.
 - Two edits; PASS_WITH_LIMITATIONS; science false. Assets and manifests 563/554/552 persisted; fixed readback pending.
+
+
+### #44 v4 VERIFIED — 2026-10-30T16:56:00+08:00
+
+Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, manifests 563/554/552 and indexed evidence. Batch 2/6, next 3; unique 175/251; science false.

@@ -2369,3 +2369,6 @@ Verification 2026-10-30T16:45:00+08:00: the equal-size adult rule was effective 
 ### 2026-10-30 — nestling feather-growth timing gate applied to #44
 
 If a known-age study shows feathers emerging early and wing/sheath length tracking age, do not depict a late nestling as pin-tip-only. Show age-consistent growing vane sections while still withholding adult-length remiges. Adult sex-size evidence must not be transferred to an unsexed chick before the documented onset. Applied and visually rechecked on #44 v4; broader validation pending.
+
+
+Verification 2026-10-30T16:56:00+08:00: #44 v4 confirms the wing-growth timing gate on this plate; whole-archive validation remains pending.

@@ -8015,75 +8015,71 @@
           "unique_species_increment": 0,
           "commit_sha": "a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd",
           "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix uralensis",
+          "species_no": "44",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ce67377ea8b6459d8c33c848134e5da77faba2c4",
+          "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "last_checkpoint": {
-        "stage": "ARCHIVED",
-        "at": "2026-10-30T16:55:00+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-30T16:56:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md",
         "evidence": {
-          "concept_path": "owl-pet/design/concepts/44-strix-uralensis-v4.png",
-          "generated_path": "owl-pet/production/generated/44-strix-uralensis-v4-generated.png",
-          "generated_blob": "5a6595617482b1591f6125d18cc321840a05b945",
-          "reviewed_path": "owl-pet/production/reviewed/44-strix-uralensis-v4.png",
-          "reviewed_blob": "932bf2b9554979fbce7712514ec79c3dc481fe15",
-          "crop_path": "owl-pet/production/review-crops/44-strix-uralensis-v4-juvenile.png",
-          "crop_blob": "50bc6b52fa4bab0d1a929c5944c8b345bdacd17e",
+          "status": "VERIFIED",
+          "fixed_commit": "ce67377ea8b6459d8c33c848134e5da77faba2c4",
+          "concept": {
+            "path": "design/concepts/44-strix-uralensis-v4.png",
+            "blob": "2de5233956facfaece5e861ae328ac5f943e035b",
+            "size_bytes": 640578
+          },
+          "generated": {
+            "path": "production/generated/44-strix-uralensis-v4-generated.png",
+            "blob": "5a6595617482b1591f6125d18cc321840a05b945"
+          },
+          "reviewed": {
+            "path": "production/reviewed/44-strix-uralensis-v4.png",
+            "blob": "932bf2b9554979fbce7712514ec79c3dc481fe15",
+            "size_bytes": 2913384
+          },
+          "review_crop": {
+            "path": "production/review-crops/44-strix-uralensis-v4-juvenile.png",
+            "blob": "50bc6b52fa4bab0d1a929c5944c8b345bdacd17e",
+            "size_bytes": 659225
+          },
+          "source_index_blob": "9722ece43184ff816577d0fb1445d76af0a5a6a1",
+          "research_blob": "1011a1c7db24d18ae3071cccd0626b2afec8037e",
+          "knowledge_blob": "84615b255256d9736145c0d608b4ad726bfac8b8",
+          "archive_run_blob": "24904b752904b19fd6bacbec08f4b12c84ebff41",
+          "archive_batch_blob": "a949b8a4bd14fc1289ea8ac335869ba5ccfc6669",
+          "manifest_blobs": {
+            "design": "10ade0d43e343e473b817f1c7e4c7ab7dce1dbd5",
+            "production": "ac9c5ff602148f6beb573cd19d49206fc0099e57",
+            "legacy": "477f0c4f858f32d140f1bda3129cea23236e9a5d"
+          },
           "manifest_counts": {
             "design": 563,
             "production": 554,
             "legacy": 552
           },
-          "source_index_blob": "9722ece43184ff816577d0fb1445d76af0a5a6a1",
-          "research_blob": "1011a1c7db24d18ae3071cccd0626b2afec8037e",
-          "knowledge_blob": "84615b255256d9736145c0d608b4ad726bfac8b8",
-          "readback": "pending",
           "unique_species": "175/251",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T16:55:00+08:00",
-      "active_lease": {
-        "owner": "codex-work-20261030T1647+0800",
-        "run_id": "20261030T164700+0800-cycle-2",
-        "cycle": 2,
-        "species_id": 44,
-        "heartbeat_at": "2026-10-30T16:55:00+08:00",
-        "expires_at": "2026-10-30T17:10:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-work-20261030T1647+0800",
-        "run_id": "20261030T164700+0800-cycle-2",
-        "cycle": 2,
-        "species_id": 44,
-        "heartbeat_at": "2026-10-30T16:55:00+08:00",
-        "expires_at": "2026-10-30T17:10:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "species": "Strix uralensis",
-        "species_no": "44",
-        "version": "v4",
-        "action": "SCIENCE_REVISION",
-        "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-30T16:47:00+08:00",
-        "research_ready_at": "2026-10-30T16:47:00+08:00",
-        "image_generated_at": "2026-10-30T16:49:00+08:00",
-        "reviewed_at": "2026-10-30T16:54:00+08:00",
-        "archived_at": "2026-10-30T16:55:00+08:00"
-      }
+      "last_updated_at": "2026-10-30T16:56:00+08:00",
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-work-20261030T1647+0800",
-    "run_id": "20261030T164700+0800-cycle-2",
-    "cycle": 2,
-    "species_id": 44,
-    "heartbeat_at": "2026-10-30T16:55:00+08:00",
-    "expires_at": "2026-10-30T17:10:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -8212,9 +8208,10 @@
     "2026-10-30T16:47:00+08:00: cycle2 #44 v4 RESEARCH_READY; new1/reused4/corrected1; Eriksson et al. 1984 wing/sheath age evidence corrects day-29 pin-tip depiction and adult/juvenile sex-cue timing; full prompt persisted; no credit.",
     "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit.",
     "2026-10-30T16:54:00+08:00: cycle2 #44 v4 REVIEWED after two juvenile-only edits; final plate and crop reopened; short growing wing now passes; PASS_WITH_LIMITATIONS; science false; no credit.",
-    "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit."
+    "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-30T16:55:00+08:00",
+  "updated_at": "2026-10-30T16:56:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8222,15 +8219,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-work-20261030T1647+0800",
-    "run_id": "20261030T164700+0800-cycle-2",
-    "cycle": 2,
-    "species_id": 44,
-    "heartbeat_at": "2026-10-30T16:55:00+08:00",
-    "expires_at": "2026-10-30T17:10:00+08:00"
-  },
-  "last_updated_at": "2026-10-30T16:55:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-30T16:56:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8455,7 +8445,8 @@
     "2026-10-30T16:47:00+08:00: cycle2 #44 v4 RESEARCH_READY; new1/reused4/corrected1; Eriksson et al. 1984 wing/sheath age evidence corrects day-29 pin-tip depiction and adult/juvenile sex-cue timing; full prompt persisted; no credit.",
     "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit.",
     "2026-10-30T16:54:00+08:00: cycle2 #44 v4 REVIEWED after two juvenile-only edits; final plate and crop reopened; short growing wing now passes; PASS_WITH_LIMITATIONS; science false; no credit.",
-    "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit."
+    "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
   "audit_trail": [
     {
@@ -8619,63 +8610,50 @@
     "2026-10-30T16:47:00+08:00: cycle2 #44 v4 RESEARCH_READY; new1/reused4/corrected1; Eriksson et al. 1984 wing/sheath age evidence corrects day-29 pin-tip depiction and adult/juvenile sex-cue timing; full prompt persisted; no credit.",
     "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit.",
     "2026-10-30T16:54:00+08:00: cycle2 #44 v4 REVIEWED after two juvenile-only edits; final plate and crop reopened; short growing wing now passes; PASS_WITH_LIMITATIONS; science false; no credit.",
-    "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit."
+    "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "in_progress": {
-    "cycle": 2,
-    "species": "Strix uralensis",
-    "species_no": "44",
-    "version": "v4",
-    "action": "SCIENCE_REVISION",
-    "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md",
-    "stage": "ARCHIVED",
-    "started_at": "2026-10-30T16:47:00+08:00",
-    "research_ready_at": "2026-10-30T16:47:00+08:00",
-    "image_generated_at": "2026-10-30T16:49:00+08:00",
-    "reviewed_at": "2026-10-30T16:54:00+08:00",
-    "archived_at": "2026-10-30T16:55:00+08:00"
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "stage": "VERIFIED",
-    "at": "2026-10-30T16:45:00+08:00",
-    "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
+    "at": "2026-10-30T16:56:00+08:00",
+    "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md",
     "evidence": {
       "status": "VERIFIED",
-      "fixed_commit": "a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd",
+      "fixed_commit": "ce67377ea8b6459d8c33c848134e5da77faba2c4",
       "concept": {
-        "path": "design/concepts/43-athene-blewitti-v4.png",
-        "blob": "6af29c3ad82bfdfee88c42d565f82c6393cdee3c",
-        "size_bytes": 611507
+        "path": "design/concepts/44-strix-uralensis-v4.png",
+        "blob": "2de5233956facfaece5e861ae328ac5f943e035b",
+        "size_bytes": 640578
       },
       "generated": {
-        "path": "production/generated/43-athene-blewitti-v4-generated.png",
-        "blob": "f7705d61f054950a605cf4402096b0be3797b2da",
-        "size_bytes": 3181705
+        "path": "production/generated/44-strix-uralensis-v4-generated.png",
+        "blob": "5a6595617482b1591f6125d18cc321840a05b945"
       },
       "reviewed": {
-        "path": "production/reviewed/43-athene-blewitti-v4.png",
-        "blob": "2a915087cc69033c25c6ca69b68fdaedaf26b257",
-        "size_bytes": 2781044
+        "path": "production/reviewed/44-strix-uralensis-v4.png",
+        "blob": "932bf2b9554979fbce7712514ec79c3dc481fe15",
+        "size_bytes": 2913384
       },
       "review_crop": {
-        "path": "production/review-crops/43-athene-blewitti-v4-juvenile.png",
-        "blob": "29cbf5248ff1861edcae95a2c7f844b61da6133a",
-        "size_bytes": 624131
+        "path": "production/review-crops/44-strix-uralensis-v4-juvenile.png",
+        "blob": "50bc6b52fa4bab0d1a929c5944c8b345bdacd17e",
+        "size_bytes": 659225
       },
-      "source_index_blob": "efcf699b1dcfbf7358a71414861e0b902c59890a",
-      "research_blob": "e2faa9bf43de4a1039709d3b031fc8845e2009d4",
-      "knowledge_blob": "d7979199b21f466f438d6884a516bd006e54a73a",
-      "archive_run_blob": "a47c66f6b6b383876177782fd2c548027b036b89",
-      "archive_batch_blob": "e97cad78c4c15b70a27daf963f3ca0f21387e6b9",
+      "source_index_blob": "9722ece43184ff816577d0fb1445d76af0a5a6a1",
+      "research_blob": "1011a1c7db24d18ae3071cccd0626b2afec8037e",
+      "knowledge_blob": "84615b255256d9736145c0d608b4ad726bfac8b8",
+      "archive_run_blob": "24904b752904b19fd6bacbec08f4b12c84ebff41",
+      "archive_batch_blob": "a949b8a4bd14fc1289ea8ac335869ba5ccfc6669",
       "manifest_blobs": {
-        "design": "76ee2f69a9b8f0b85abbb3224fc55f4bd7b5bf4c",
-        "production": "e4fe50add86188ce5aa0c3cebc44e9c38374ef53",
-        "legacy": "ff00b085a629f07cfed86f15c389a3ce7fee7f3c"
+        "design": "10ade0d43e343e473b817f1c7e4c7ab7dce1dbd5",
+        "production": "ac9c5ff602148f6beb573cd19d49206fc0099e57",
+        "legacy": "477f0c4f858f32d140f1bda3129cea23236e9a5d"
       },
       "manifest_counts": {
-        "design": 562,
-        "production": 553,
-        "legacy": 551
+        "design": 563,
+        "production": 554,
+        "legacy": 552
       },
       "unique_species": "175/251",
       "science": false

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T16:55:00+08:00",
+  "updated": "2026-10-30T16:56:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10636,11 +10636,52 @@
       "review_crop_sha256": "ebd9c82b0a8135e3420527048a3b0fa82cfc2b01f5c0106aabee64dd14341723",
       "review_crop_size_bytes": 659225,
       "archive_note": "V2-v3 retained. Two juvenile-only edits: first removed spots but left long ordered feathers; second produced a short rounded 3–4-vane growing wing. Full, crop and derivative reopened. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verification_result": "pending"
+      "readback_pending": false,
+      "archive_commit": "ce67377ea8b6459d8c33c848134e5da77faba2c4",
+      "fixed_commit": "ce67377ea8b6459d8c33c848134e5da77faba2c4",
+      "verification_result": "fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4 returned exact image blob SHAs; manifests 563/554/552 and source/research/run/knowledge/status/changelog/design-rule/state records matched",
+      "verified_at": "2026-10-30T16:56:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "ce67377ea8b6459d8c33c848134e5da77faba2c4",
+        "concept": {
+          "path": "design/concepts/44-strix-uralensis-v4.png",
+          "blob": "2de5233956facfaece5e861ae328ac5f943e035b",
+          "size_bytes": 640578
+        },
+        "generated": {
+          "path": "production/generated/44-strix-uralensis-v4-generated.png",
+          "blob": "5a6595617482b1591f6125d18cc321840a05b945"
+        },
+        "reviewed": {
+          "path": "production/reviewed/44-strix-uralensis-v4.png",
+          "blob": "932bf2b9554979fbce7712514ec79c3dc481fe15",
+          "size_bytes": 2913384
+        },
+        "review_crop": {
+          "path": "production/review-crops/44-strix-uralensis-v4-juvenile.png",
+          "blob": "50bc6b52fa4bab0d1a929c5944c8b345bdacd17e",
+          "size_bytes": 659225
+        },
+        "source_index_blob": "9722ece43184ff816577d0fb1445d76af0a5a6a1",
+        "research_blob": "1011a1c7db24d18ae3071cccd0626b2afec8037e",
+        "knowledge_blob": "84615b255256d9736145c0d608b4ad726bfac8b8",
+        "archive_run_blob": "24904b752904b19fd6bacbec08f4b12c84ebff41",
+        "archive_batch_blob": "a949b8a4bd14fc1289ea8ac335869ba5ccfc6669",
+        "manifest_blobs": {
+          "design": "10ade0d43e343e473b817f1c7e4c7ab7dce1dbd5",
+          "production": "ac9c5ff602148f6beb573cd19d49206fc0099e57",
+          "legacy": "477f0c4f858f32d140f1bda3129cea23236e9a5d"
+        },
+        "manifest_counts": {
+          "design": 563,
+          "production": 554,
+          "legacy": 552
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T16:55:00+08:00"
+  "updated_at": "2026-10-30T16:56:00+08:00"
 }

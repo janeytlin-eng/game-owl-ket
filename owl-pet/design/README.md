@@ -2,7 +2,7 @@
 
 - Concept: [46-strix-ocellata-v4.png](concepts/46-strix-ocellata-v4.png)
 - Research: [species card](../knowledge/species/46-strix-ocellata.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30-46-strix-ocellata-v4-atypical-nest-boundary)
-- Stage: ARCHIVED, fixed-commit verification pending. Day-34–36 cavity-to-branch step with folded wing; one juvenile-wing edit; v1–v3 preserved; science false.
+- Stage: VERIFIED at fixed archive commit `3f07adbc3787168e23fbc724e11278a6ae890368`. Day-34–36 cavity-to-branch step with folded wing; one juvenile-wing edit; v1–v3 preserved; science false.
 
 ## #45 Spotted Wood Owl — *Strix seloputo* — v4 science revision
 

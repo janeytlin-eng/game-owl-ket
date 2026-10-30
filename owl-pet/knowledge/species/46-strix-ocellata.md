@@ -120,4 +120,4 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Generated/reviewed blobs: `397308825fa1b51492379e36752b5dcce8cee207` / `6e57adc8d4201b17b66ef9e106c76bf0e92a1898`.
 - Problem → evidence → change → recheck: first render kept crisp adult white spots and long layering on the folded juvenile wing → ~50% measured wing/tail growth plus mesoptile description disallowed that maturity → one juvenile-only edit removed spot rows, shortened/softened the folded wing and preserved the cavity-to-branch split support → full edited original and derivative passed.
 - Folded-step rule validated for this #46 instance only. Exact daily sequence, flight day, sample transfer and quantified dimorphism remain unknown; science false.
-- Archive commit/readback pending.
+- Archive commit/readback: `3f07adbc3787168e23fbc724e11278a6ae890368`; three image paths/blob SHAs/sizes plus manifest/run markers verified.

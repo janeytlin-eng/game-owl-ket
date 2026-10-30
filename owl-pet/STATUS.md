@@ -1,10 +1,10 @@
-## 2026-10-30 #46 *Strix ocellata* v4 ARCHIVED — readback pending
+## 2026-10-30 #46 *Strix ocellata* v4 VERIFIED
 
-- Result: SCIENCE_REVISION archived; unique remains **175/251**; batch `2026-10-30T1634+0800` remains **3/6** until fixed verification.
+- Result: SCIENCE_REVISION VERIFIED; unique remains **175/251**; batch `2026-10-30T1634+0800` is **4/6**, next cycle 5.
 - Image: [design/concepts/46-strix-ocellata-v4.png](design/concepts/46-strix-ocellata-v4.png)
 - Research: 1 new / 3 reused / 1 corrected; an unusual abandoned-raptor-nest record is retained as an exception, not used as the modal scene.
 - Review: one juvenile-only folded-wing edit removed adult spot rows/layering; edited original and derivative passed with limitations. Split foot support and folded-step rule validated for this instance.
-- Archive blobs: concept `f91ffedfe5…`; generated `397308825f…`; reviewed `6e57adc8d4…`. Fixed readback pending; science false.
+- Archive blobs: concept `f91ffedfe5…`; generated `397308825f…`; reviewed `6e57adc8d4…`. Fixed readback passed at [`3f07adb`](https://github.com/janeytlin-eng/game-owl-ket/commit/3f07adbc3787168e23fbc724e11278a6ae890368); science false.
 
 ## 2026-10-30 #45 *Strix seloputo* v4 VERIFIED
 

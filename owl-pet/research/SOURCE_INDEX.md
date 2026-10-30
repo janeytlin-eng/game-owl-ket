@@ -1,3 +1,26 @@
+# 2026-10-30 — #44 *Strix uralensis* v4 — wing-growth and sex-cue timing correction
+
+## UROW-ERIKSSON-1984
+
+- **Stable ID:** UROW-ERIKSSON-1984
+- **Title:** Estimating age of Ural Owl nestlings from body part measurements
+- **Authors:** Dag Eriksson, Arne Lundberg & Björn Westman
+- **Year / publication:** 1984, *Annales Zoologici Fennici* 21:313–316
+- **Original URL:** https://www.annzool.net/PDF/anzf21/anzf21-313-316.pdf
+- **Accessed:** 2026-10-30
+- **Type:** primary nestling morphometrics study; four-page original PDF opened; search extraction of p.315 read, page screenshots failed with remote 404
+- **Species / stages:** *Strix uralensis* nestlings, known-age material from 1980–1981
+- **Pages / figures read:** pp.313–316; p.315, Fig.3 wing length and Fig.4 fourth-primary sheath length discussion
+- **Source facts:** feathers emerge around day 5; wing length and fourth-primary sheath length increase mainly with age and less with hatching order or nutrition; either estimated age with mean error about one day. Tarsus and weight were less reliable. Adult females are clearly larger, but citing Scherzinger 1980 the authors state that this dimorphism is not visible until the end of the nestling phase.
+- **Evidence limits / conflict:** the plotted regression coordinates were not readable in this run, so no numeric day-29 wing length is invented. The source nevertheless conflicts with a literal day-29 depiction showing only a few newly opened pin tips. It also forbids applying adult female-size cues to an unsexed day-29 chick.
+- **Design / review decision:** retain Scherzinger's day-29 mesoptile-dominant, supported brancher stage but show a clearly formed short juvenile wing with several emerging vane sections, still without mature adult remiges or tail. Adults may show a restrained female size direction; juvenile remains unsexed with no size cue.
+- **Linked records:** `owl-pet/research/species/44-strix-uralensis-v4.md`; `owl-pet/knowledge/species/44-strix-uralensis.md`; `owl-pet/production/runs/20261030T164700+0800-cycle-2.md`
+- **Status:** verified primary source with figure-coordinate limitation
+
+## Reused evidence for #44 v4
+
+Reused `UROW-SCHERZINGER-1980`, `UROW-MIKKOLA-2013`, `UROW-LOHMUS-2003`, and `UROW-BROMMER-2004`. The repository-recorded Mikkola pages are reused; the uploaded guide itself was not accessible this run. New1/reused4/corrected1; `scientifically_verified=false`.
+
 # 2026-10-30 — #43 *Athene blewitti* v4 — adult sex-size correction
 
 ## FOW-MEHTA-RSD-2021

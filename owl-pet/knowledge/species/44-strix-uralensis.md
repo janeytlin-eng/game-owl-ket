@@ -51,3 +51,10 @@ Scientific-educational owl electronic-pet concept sheet in the established appro
 - Check: first render's juvenile wing panel was too mature; one juvenile-only edit produced mesoptile-dominant flank with only short newly opened wing tips and no visible tail. Full image and derivative actually opened; PASS_WITH_LIMITATIONS.
 - Unknown: exact field transfer, population color, sex-specific linear ratios and universal nest geometry. `scientifically_verified=false`.
 - Archive commit: `25d90f8a8b7eb1fa3ffff7518af80e5caac2e167`; fixed commit readback passed at 2026-10-28T22:33:00+08:00.
+
+
+## v4 correction — 2026-10-30
+
+- New primary source `UROW-ERIKSSON-1984`: feathers emerge around day 5; wing and fourth-primary sheath length estimate nestling age with mean error about one day. Adult females are larger, but size dimorphism is not visibly expressed until the end of the nestling period.
+- Applied boundary: restrained larger adult female; unsexed day-29 juvenile with no sex-size cue. Replace v3's “few pin tips” with a clearly formed short soft juvenile wing containing several emerging vane sections, without adult-length remiges or visible tail.
+- Exact plotted day-29 wing length was not recoverable; science remains false.

@@ -37,3 +37,13 @@ Scene: dry-to-moist deciduous and scrub forest edge of north India, restrained l
 - Sex direction: near-equal crown height; female only subtly fuller.
 - Juvenile: older fully feathered immature, softer lower barring, compact wing, short browner-barred tail, both feet and branch support; no exact-age or flight claim.
 - Habitat: restrained north Indian scrub/deciduous forest; no nest box or prey.
+
+
+## Image review and iteration
+
+- First render inspected at 1536×1024: title, labels, bird count, adult identity, adult size direction and support passed; juvenile failed because crisp repeated white-spotted covert rows and a long mature barred tail made it too adult-like.
+- One targeted imagegen edit changed only the juvenile wing/tail. Full image and 520×700 crop were reopened. Repeated bright white spots are removed, the closed wing is softer and lower-contrast, the tail is shorter/browner, both feet grip the fork, and the text/adults/composition remain intact.
+- Review result: **PASS_WITH_LIMITATIONS**. The image is a concept-calibrated age-unknown fully feathered immature, not a scientifically verified exact stage. Exact age, flight threshold, independence, sexed measurements and population variation remain unknown.
+- Generated master: `../../production/generated/31-glaucidium-radiatum-v4-generated.png` (`726f52b0…`, 3,089,115 bytes).
+- Reviewed master: `../../production/reviewed/31-glaucidium-radiatum-v4-reviewed.png` (`984ba4df…`, 2,919,939 bytes).
+- Juvenile crop: `../../production/review-crops/31-glaucidium-radiatum-v4-juvenile.png` (`d0e703d5…`, 644,119 bytes).

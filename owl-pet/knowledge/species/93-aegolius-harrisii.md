@@ -29,3 +29,10 @@ Create a landscape 3:2 warm painterly-realistic scientific concept plate in the 
 ## V2 archived review — 2026-10-29T16:28:00+08:00
 
 First 1536×1024 render and 620×700 juvenile crop were opened. PASS_WITH_LIMITATIONS without edit: exact count/text, adult yellow eyes/no tufts/pale bills/cinnamon face/plain ochre belly/spotted wings, modest female direction, and the smaller ~24-day disc-bearing nestling with developed folded wing, sparse grey down and firm wood-floor support are visible. The large cavity is a schematic cutaway. Exact age/sex, tract sequence, wing/tail proportions, pair ratio and cutaway geometry remain unknown. scientifically_verified=false.
+
+
+## ARCHIVED REVIEW — 2026-10-31 — 93-aegolius-harrisii-v3
+
+V2 actual plate showed only missing number93. Title-only imagegen output and 620×730 crop were opened: adult identity, modest female fullness, ~24-day disc-bearing developed-wing nestling with sparse grey down and bilateral wood-floor support persisted; no second edit. Single-nest evidence limits exact day/sex/tract/proportion claims; sciencefalse; no approval transfer.
+
+[Original](../../design/concepts/93-aegolius-harrisii-v3.png) · [Research](../../research/species/93-aegolius-harrisii-v3.md) · [Run](../../production/runs/20261031T070200+0800-cycle-3.md)

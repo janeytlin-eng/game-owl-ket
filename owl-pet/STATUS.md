@@ -1,3 +1,8 @@
+## 2026-10-31 #93 *Aegolius harrisii iheringi* v3 ARCHIVED — readback pending
+
+- Number93 restored; actual full/crop review preserved the evidence-bounded ~24-day stage; edit0; sciencefalse; unique175/251.
+- [Run](production/runs/20261031T070200+0800-cycle-3.md)
+
 ## 2026-10-31 #91 *Tyto javanica delicatula* v4 VERIFIED
 
 - Fixed archive `6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d`; exact four assets and manifests 594/593/584 matched; batch 2/6.

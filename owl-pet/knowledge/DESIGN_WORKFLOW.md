@@ -597,3 +597,8 @@ A numbering-only correction is still an image edit and can drift morphology. #90
 ### 2026-10-31 #91 older-juvenile wing retention during title repair
 
 The #91 v4 title-only edit was reviewed at whole-plate and juvenile-crop scale. Evidence-supported developed fresh wings, residual down, short-to-moderate tail and bilateral hollow support were retained; no automatic short-wing rule was applied. This validates only the visual preservation in this edit, not the exact 46–52-day feather geometry.
+
+
+### 2026-10-31 #93 single-nest stage retention check
+
+The numbering repair preserved the monitored-nest ~24-day facial disc, substantial folded wing and sparse grey residual down. Whole-plate plus crop review found no drift. The primary study is one asynchronous regional brood, so the result is not generalized into a universal 24-day geometry or scientific pass.

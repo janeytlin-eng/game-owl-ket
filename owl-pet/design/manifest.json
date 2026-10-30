@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:58:00+08:00",
+  "updated": "2026-10-31T07:08:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13814,7 +13814,49 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "93-aegolius-harrisii-v3",
+      "path": "design/concepts/93-aegolius-harrisii-v3.png",
+      "species_id": 93,
+      "scientific_name": "Aegolius harrisii iheringi",
+      "historical_names": [
+        "Aegolius harrisii"
+      ],
+      "common_name": "Buff-fronted Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "48422511847352655440b1e2180fa06d481452c48bbfd72efa0a70e9690b6275",
+      "size_bytes": 3169450,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V3 restores number93 while preserving the single-nest evidence-bounded ~24-day stage: established facial disc, substantial folded wing/body plumage, sparse grey residual down and bilateral cavity-floor support. Exact day/sex, tract proportions, adult pair ratio and schematic cutaway geometry remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "HAR-BODRATI2019",
+        "HAR-MIK2013-447"
+      ],
+      "research_record": "research/species/93-aegolius-harrisii-v3.md",
+      "run_record": "production/runs/20261031T070200+0800-cycle-3.md",
+      "reviewed_at": "2026-10-31T07:05:00+08:00",
+      "generated_path": "production/generated/93-aegolius-harrisii-v3-generated-master.png",
+      "generated_blob": "1183272e9c159c05f4b430da6ee4f8cc0ed1ca45",
+      "generated_sha256": "48422511847352655440b1e2180fa06d481452c48bbfd72efa0a70e9690b6275",
+      "generated_size_bytes": 3169450,
+      "reviewed_path": "production/reviewed/93-aegolius-harrisii-v3-reviewed-master.png",
+      "reviewed_blob": "1183272e9c159c05f4b430da6ee4f8cc0ed1ca45",
+      "reviewed_size_bytes": 3169450,
+      "review_crop_path": "production/review-crops/93-aegolius-harrisii-v3-juvenile.png",
+      "review_crop_blob": "b48588033422b560af93ebcc3355ba6c7c4db887",
+      "review_crop_size_bytes": 907914,
+      "readback_pending": true,
+      "git_blob": "1183272e9c159c05f4b430da6ee4f8cc0ed1ca45",
+      "fixed_archive_commit": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T06:58:00+08:00"
+  "updated_at": "2026-10-31T07:08:00+08:00"
 }

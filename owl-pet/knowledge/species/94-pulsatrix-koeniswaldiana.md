@@ -32,3 +32,6 @@ First render and one juvenile-only edit viewed at 1536×1024; crop reopened. Adu
 ## V5 archived review — 2026-10-31T07:20:00+08:00
 
 V5 restores repository number 94 and preserves the V4 evidence-bounded biology. Full 1536×1024 plate and 620×730 juvenile crop were opened. Adult identity, modest sex direction, age-unknown post-cavity juvenile with residual pale down, dark face, short partly developed wing, hidden tail, and two-foot branch grip pass with limitations. Exact age, sex, flight ability, tract sequence and adult pair ratio remain unknown. scientifically_verified=false.
+
+
+Fixed readback 2026-10-31T07:22:00+08:00: archive `e921879e237f33dd981f528246fbb0ef7e8d4734`; exact four assets and manifests 596/595/586 matched; science remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T07:20:00+08:00",
+  "updated": "2026-10-31T07:22:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13393,11 +13393,28 @@
       "review_crop_path": "production/review-crops/94-pulsatrix-koeniswaldiana-v5-juvenile.png",
       "review_crop_blob": "fe11bfbc8eb642dcb7b736327e40323f089ff3c4",
       "review_crop_size_bytes": 773122,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "e921879e237f33dd981f528246fbb0ef7e8d4734",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T07:22:00+08:00",
+      "readback": {
+        "concept_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+        "generated_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+        "reviewed_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+        "review_crop_blob": "fe11bfbc8eb642dcb7b736327e40323f089ff3c4",
+        "manifest_counts": {
+          "legacy": 596,
+          "design": 595,
+          "production": 586
+        },
+        "tree": {
+          "entries": 2259,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T07:20:00+08:00"
+  "updated_at": "2026-10-31T07:22:00+08:00"
 }

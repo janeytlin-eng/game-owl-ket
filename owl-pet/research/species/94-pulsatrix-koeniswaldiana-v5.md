@@ -23,3 +23,7 @@ Target: ../../design/concepts/94-pulsatrix-koeniswaldiana-v5.png
 ## Archived
 
 - 2026-10-31T07:20:00+08:00: concept/generated/reviewed/crop plus manifests legacy596/design595/production586 persisted; fixed-commit readback pending.
+
+## Fixed readback
+
+- 2026-10-31T07:22:00+08:00: archive `e921879e237f33dd981f528246fbb0ef7e8d4734`; non-truncated 2259-entry tree; exact concept/generated/reviewed/crop blobs and manifests 596/595/586 matched. Cycle 4/6 verified; science=false.

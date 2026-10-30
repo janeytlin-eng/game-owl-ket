@@ -2826,4 +2826,6 @@ Verification 2026-10-31T06:32:00+08:00: #89 v4 archive [`b9c9847113bacdd0e95f16c
 
 ### 2026-10-31 #94 *Pulsatrix koeniswaldiana* v5
 
-SCIENCE_REVISION PASS_WITH_LIMITATIONS; number94 restored; age-unknown post-cavity juvenile/support retained; edit0; sciencefalse; unique175/251. [Concept](design/concepts/94-pulsatrix-koeniswaldiana-v5.png) · [Research](research/species/94-pulsatrix-koeniswaldiana-v5.md). Archive prepared at 2026-10-31T07:20:00+08:00; fixed readback pending.
+SCIENCE_REVISION PASS_WITH_LIMITATIONS; number94 restored; age-unknown post-cavity juvenile/support retained; edit0; sciencefalse; unique175/251. [Concept](design/concepts/94-pulsatrix-koeniswaldiana-v5.png) · [Research](research/species/94-pulsatrix-koeniswaldiana-v5.md). Archive prepared at 2026-10-31T07:20:00+08:00.
+
+Verification 2026-10-31T07:22:00+08:00: fixed archive [`e921879e237f33dd981f528246fbb0ef7e8d4734`](https://github.com/janeytlin-eng/game-owl-ket/commit/e921879e237f33dd981f528246fbb0ef7e8d4734) passed exact four-asset readback; tree2259 non-truncated; manifests596/595/586. Batch4/6 next5; unique175/251; sciencefalse.

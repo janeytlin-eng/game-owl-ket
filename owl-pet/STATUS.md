@@ -2398,3 +2398,8 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 - 680×453 concept plus 1536×1024 generated/reviewed masters prepared; first render passed full and derivative inspection with no edit.
 - Source-population gate applied: Sri Lankan 34-day cavity chick remains distinct from later Hong Kong `ticehursti` climbing/balance-flight and adult-type wing/tail.
 - Unique species remains 175/251; science false; cycle credit waits for fixed-commit readback.
+
+### #47 v4 fixed readback complete — 2026-10-30T18:01:00+08:00
+
+- Fixed archive `16ed484f31e8db0e4a8947d9c1e30ae28aeef62c` returned the exact concept/generated/reviewed blob SHAs and matching Manifest/run/research records.
+- Batch `2026-10-30T1634+0800` is now 5/6; next cycle 6. Unique species remains 175/251; science false.

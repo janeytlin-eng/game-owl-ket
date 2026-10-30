@@ -121,3 +121,7 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - First render and 680×453 derivative opened: exact title/count/labels, adult dark eyes/untufted head, jackfruit cavity, juvenile bilateral foot support, folded/hidden juvenile wings and no flight action passed.
 - Source-population gate held for this image: later Hong Kong `ticehursti` adult-type wings/tail and climbing/balance-flight were not imported into the Sri Lankan 34-day chick.
 - PASS_WITH_LIMITATIONS; edit count 0; exact day-34 remige geometry, cross-population timing, independent-flight threshold and display-scale female ratio remain unknown. Science false.
+
+### v4 archive verification
+
+- Fixed archive commit `16ed484f31e8db0e4a8947d9c1e30ae28aeef62c` returned the exact concept/generated/reviewed paths and blobs; Manifest 555 plus run/research records matched. Production/archive VERIFIED; science false.

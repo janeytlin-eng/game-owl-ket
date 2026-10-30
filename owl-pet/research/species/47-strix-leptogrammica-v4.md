@@ -4,7 +4,7 @@
 - Action: SCIENCE_REVISION; v1–v3 preserved; unique increment 0.
 - Current repository name: *Strix leptogrammica* Temminck, 1832.
 - Source population label: *S. l. ochrogenys* in Samarawickrama et al. 2006; Mikkola 2013 instead includes Sri Lanka under *S. l. indranee*. No synonym resolution inferred.
-- Stage: REVIEWED; PASS_WITH_LIMITATIONS; scientific verification false.
+- Stage: VERIFIED archive; PASS_WITH_LIMITATIONS; scientific verification false.
 
 ## Evidence actually read
 
@@ -48,3 +48,8 @@ Exact title/count/labels; dark-eyed untufted adults; nuchal collar and white thr
 - Generated and opened 1536×1024 original plus 680×453 derivative; first render retained, edit count 0.
 - Passed: exact title/count/labels, adult dark eyes and untufted head, moderate female fullness, jackfruit cavity, juvenile two-foot support, pale mesoptile, folded/hidden juvenile wings and no later-stage balance/flight behavior.
 - The cross-subspecies gate is validated only for this #47 v4 image instance. Exact day-34 remige geometry, cross-population timing and flight threshold remain unknown.
+
+
+## Archive verification
+
+Fixed archive commit `16ed484f31e8db0e4a8947d9c1e30ae28aeef62c` returned the exact concept/generated/reviewed blob SHAs and matching Manifest/run records. This verifies repository persistence, not scientific correctness.

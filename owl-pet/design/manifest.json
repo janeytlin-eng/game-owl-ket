@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T18:00:00+08:00",
+  "updated": "2026-10-30T18:01:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10777,8 +10777,38 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 0,
       "archive_note": "First render and derivative opened. Source-population gate held; no later-stage Hong Kong traits imported. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "16ed484f31e8db0e4a8947d9c1e30ae28aeef62c",
+      "fixed_commit": "16ed484f31e8db0e4a8947d9c1e30ae28aeef62c",
+      "verified_at": "2026-10-30T18:01:00+08:00",
+      "verification_result": "fixed archive commit returned exact concept/generated/reviewed blob SHAs; manifest count 555 and run/research records matched; unique175/251; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "16ed484f31e8db0e4a8947d9c1e30ae28aeef62c",
+        "concept": {
+          "path": "owl-pet/design/concepts/47-strix-leptogrammica-v4.png",
+          "blob": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7",
+          "size_bytes": 678262
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/47-strix-leptogrammica-v4-generated-master.png",
+          "blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+          "size_bytes": 3103772
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/47-strix-leptogrammica-v4-reviewed-master.png",
+          "blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+          "size_bytes": 3103772
+        },
+        "manifest_blob": "8c9ae6dd19410d79eae5065d986602abe6f53ee2",
+        "run_blob": "3a8651aac359cf01642107433ce4a7f5aa734a13",
+        "research_blob": "d42165f5f95560196c502b573f9847c8351402ad",
+        "batch_blob": "8e92bb9f1c503f5bbfb1e2f45ea9421b233df5aa",
+        "manifest_count": 555,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T18:00:00+08:00"
+  "updated_at": "2026-10-30T18:01:00+08:00"
 }

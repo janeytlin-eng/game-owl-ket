@@ -8045,31 +8045,55 @@
           "unique_species_increment": 0,
           "commit_sha": "3f07adbc3787168e23fbc724e11278a6ae890368",
           "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Strix leptogrammica",
+          "species_no": "47",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "16ed484f31e8db0e4a8947d9c1e30ae28aeef62c",
+          "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
+      "next_cycle": 6,
       "last_checkpoint": {
         "cycle": 5,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix leptogrammica",
         "species_id": 47,
         "version": 4,
         "run_id": "20261030T175400+0800-cycle-5",
-        "at": "2026-10-30T18:00:00+08:00",
+        "at": "2026-10-30T18:01:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md",
-        "research_record": "owl-pet/research/species/47-strix-leptogrammica-v4.md",
-        "archive_paths": {
-          "concept": "owl-pet/design/concepts/47-strix-leptogrammica-v4.png",
-          "generated": "owl-pet/production/generated/47-strix-leptogrammica-v4-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/47-strix-leptogrammica-v4-reviewed-master.png"
-        },
-        "blobs": {
-          "concept": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7",
-          "generated": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
-          "reviewed": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d"
+        "evidence": {
+          "fixed_archive_commit": "16ed484f31e8db0e4a8947d9c1e30ae28aeef62c",
+          "concept": {
+            "path": "owl-pet/design/concepts/47-strix-leptogrammica-v4.png",
+            "blob": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7",
+            "size_bytes": 678262
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/47-strix-leptogrammica-v4-generated-master.png",
+            "blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+            "size_bytes": 3103772
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/47-strix-leptogrammica-v4-reviewed-master.png",
+            "blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+            "size_bytes": 3103772
+          },
+          "manifest_blob": "8c9ae6dd19410d79eae5065d986602abe6f53ee2",
+          "run_blob": "3a8651aac359cf01642107433ce4a7f5aa734a13",
+          "research_blob": "d42165f5f95560196c502b573f9847c8351402ad",
+          "batch_blob": "8e92bb9f1c503f5bbfb1e2f45ea9421b233df5aa",
+          "manifest_count": 555,
+          "unique_species": "175/251",
+          "science": false
         }
       },
-      "last_updated_at": "2026-10-30T18:00:00+08:00",
+      "last_updated_at": "2026-10-30T18:01:00+08:00",
       "audit_notes": [
         "2026-10-30T17:41:00+08:00 cycle3 #45 v4 IMAGE_GENERATED in 63.7s; original 1536x1024 opened. Text/count/adults/support passed; juvenile wing was too long/layered with crisp adult-like spots; generated master persisted for archive; no credit.",
         "2026-10-30T17:42:00+08:00 cycle3 #45 v4 REVIEWED after one juvenile-only wing/tail edit (53.3s). One context-based edit attempt failed because no conversation image was available, then path-based edit succeeded. Edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
@@ -8085,56 +8109,15 @@
         "2026-10-30T17:57:00+08:00 cycle5 #47 v4 RESEARCH_READY; new1/reused3/corrected1; Mikkola printed pp326–327, Samarawickrama pp73–78 and KFBG 2026 chronology read; Sri Lankan source-population stage kept separate from Hong Kong ticehursti; full prompt saved; science false; no credit.",
         "2026-10-30T17:58:00+08:00 cycle5 #47 v4 IMAGE_GENERATED in 47.4s; 1536x1024 original opened. Exact title/count/labels, dark-eyed untufted adults, jackfruit cavity support, both juvenile feet, folded/hidden juvenile wings and no flight action passed; no edit required; science false; no credit.",
         "2026-10-30T17:59:00+08:00 cycle5 #47 v4 REVIEWED first render and 680x453 derivative; PASS_WITH_LIMITATIONS. Source-population gate visibly held: no later Hong Kong adult-type wing/tail or climbing/balance-flight imported. Exact day-34 remige geometry and display-scale sex ratio remain unknown; science false; no credit.",
-        "2026-10-30T18:00:00+08:00 cycle5 #47 v4 ARCHIVED tree prepared; concept f3a5ff31f3, generated/reviewed 7601f4ccbc; manifest 554→555; fixed readback pending; no credit."
+        "2026-10-30T18:00:00+08:00 cycle5 #47 v4 ARCHIVED tree prepared; concept f3a5ff31f3, generated/reviewed 7601f4ccbc; manifest 554→555; fixed readback pending; no credit.",
+        "2026-10-30T18:01:00+08:00 cycle5 #47 v4 VERIFIED against fixed archive commit 16ed484f31e8db0e4a8947d9c1e30ae28aeef62c; concept/generated/reviewed paths and blob SHAs, manifest 555, run and research records read back; batch 5/6; next_cycle6; unique remains175/251; science false."
       ],
-      "active_lease": {
-        "owner": "codex-production-20261030T1754+0800",
-        "run_id": "20261030T175400+0800-cycle-5",
-        "cycle": 5,
-        "species_id": 47,
-        "heartbeat_at": "2026-10-30T18:00:00+08:00",
-        "expires_at": "2026-10-30T18:15:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-production-20261030T1754+0800",
-        "run_id": "20261030T175400+0800-cycle-5",
-        "cycle": 5,
-        "species_id": 47,
-        "heartbeat_at": "2026-10-30T18:00:00+08:00",
-        "expires_at": "2026-10-30T18:15:00+08:00"
-      },
-      "in_progress": {
-        "run_id": "20261030T175400+0800-cycle-5",
-        "cycle": 5,
-        "species_id": 47,
-        "species": "Strix leptogrammica",
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-30T17:54:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md",
-        "research_record": "owl-pet/research/species/47-strix-leptogrammica-v4.md",
-        "source_ids": [
-          "BROW-MIKKOLA-2013-P326-327",
-          "BROW-SAMARAWICKRAMA-2006",
-          "BROW-HKBWS-2024",
-          "BROW-KFBG-2026-CHICKS"
-        ],
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "generated_blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
-        "reviewed_blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
-        "concept_blob": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7"
-      }
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-production-20261030T1754+0800",
-    "run_id": "20261030T175400+0800-cycle-5",
-    "cycle": 5,
-    "species_id": 47,
-    "heartbeat_at": "2026-10-30T18:00:00+08:00",
-    "expires_at": "2026-10-30T18:15:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -8266,7 +8249,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-30T18:00:00+08:00",
+  "updated_at": "2026-10-30T18:01:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8274,15 +8257,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-production-20261030T1754+0800",
-    "run_id": "20261030T175400+0800-cycle-5",
-    "cycle": 5,
-    "species_id": 47,
-    "heartbeat_at": "2026-10-30T18:00:00+08:00",
-    "expires_at": "2026-10-30T18:15:00+08:00"
-  },
-  "last_updated_at": "2026-10-30T18:00:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-30T18:01:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8511,7 +8487,8 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-10-30T17:58:00+08:00 cycle5 #47 v4 IMAGE_GENERATED in 47.4s; 1536x1024 original opened. Exact title/count/labels, dark-eyed untufted adults, jackfruit cavity support, both juvenile feet, folded/hidden juvenile wings and no flight action passed; no edit required; science false; no credit.",
     "2026-10-30T17:59:00+08:00 cycle5 #47 v4 REVIEWED first render and 680x453 derivative; PASS_WITH_LIMITATIONS. Source-population gate visibly held: no later Hong Kong adult-type wing/tail or climbing/balance-flight imported. Exact day-34 remige geometry and display-scale sex ratio remain unknown; science false; no credit.",
-    "2026-10-30T18:00:00+08:00 cycle5 #47 v4 ARCHIVED tree prepared; concept f3a5ff31f3, generated/reviewed 7601f4ccbc; manifest 554→555; fixed readback pending; no credit."
+    "2026-10-30T18:00:00+08:00 cycle5 #47 v4 ARCHIVED tree prepared; concept f3a5ff31f3, generated/reviewed 7601f4ccbc; manifest 554→555; fixed readback pending; no credit.",
+    "2026-10-30T18:01:00+08:00 cycle5 #47 v4 VERIFIED against fixed archive commit 16ed484f31e8db0e4a8947d9c1e30ae28aeef62c; concept/generated/reviewed paths and blob SHAs, manifest 555, run and research records read back; batch 5/6; next_cycle6; unique remains175/251; science false."
   ],
   "audit_trail": [
     {
@@ -8678,47 +8655,40 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "in_progress": {
-    "run_id": "20261030T175400+0800-cycle-5",
-    "cycle": 5,
-    "species_id": 47,
-    "species": "Strix leptogrammica",
-    "version": 4,
-    "action": "SCIENCE_REVISION",
-    "stage": "ARCHIVED",
-    "started_at": "2026-10-30T17:54:00+08:00",
-    "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md",
-    "research_record": "owl-pet/research/species/47-strix-leptogrammica-v4.md",
-    "source_ids": [
-      "BROW-MIKKOLA-2013-P326-327",
-      "BROW-SAMARAWICKRAMA-2006",
-      "BROW-HKBWS-2024",
-      "BROW-KFBG-2026-CHICKS"
-    ],
-    "review_result": "PASS_WITH_LIMITATIONS",
-    "generated_blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
-    "reviewed_blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
-    "concept_blob": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7"
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "cycle": 5,
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "species": "Strix leptogrammica",
     "species_id": 47,
     "version": 4,
     "run_id": "20261030T175400+0800-cycle-5",
-    "at": "2026-10-30T18:00:00+08:00",
+    "at": "2026-10-30T18:01:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md",
-    "research_record": "owl-pet/research/species/47-strix-leptogrammica-v4.md",
-    "archive_paths": {
-      "concept": "owl-pet/design/concepts/47-strix-leptogrammica-v4.png",
-      "generated": "owl-pet/production/generated/47-strix-leptogrammica-v4-generated-master.png",
-      "reviewed": "owl-pet/production/reviewed/47-strix-leptogrammica-v4-reviewed-master.png"
-    },
-    "blobs": {
-      "concept": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7",
-      "generated": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
-      "reviewed": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d"
+    "evidence": {
+      "fixed_archive_commit": "16ed484f31e8db0e4a8947d9c1e30ae28aeef62c",
+      "concept": {
+        "path": "owl-pet/design/concepts/47-strix-leptogrammica-v4.png",
+        "blob": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7",
+        "size_bytes": 678262
+      },
+      "generated": {
+        "path": "owl-pet/production/generated/47-strix-leptogrammica-v4-generated-master.png",
+        "blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+        "size_bytes": 3103772
+      },
+      "reviewed": {
+        "path": "owl-pet/production/reviewed/47-strix-leptogrammica-v4-reviewed-master.png",
+        "blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+        "size_bytes": 3103772
+      },
+      "manifest_blob": "8c9ae6dd19410d79eae5065d986602abe6f53ee2",
+      "run_blob": "3a8651aac359cf01642107433ce4a7f5aa734a13",
+      "research_blob": "d42165f5f95560196c502b573f9847c8351402ad",
+      "batch_blob": "8e92bb9f1c503f5bbfb1e2f45ea9421b233df5aa",
+      "manifest_count": 555,
+      "unique_species": "175/251",
+      "science": false
     }
   }
 }

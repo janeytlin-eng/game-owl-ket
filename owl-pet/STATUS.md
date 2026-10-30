@@ -1,3 +1,9 @@
+## 2026-10-31 #82 *Otus senegalensis* v4 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; one direct imagegen edit; PASS_WITH_LIMITATIONS; science false; unique175/251.
+- Population age range removed from the individual label; juvenile wing compacted and softened; adults remain near-equal in skeletal height.
+- Exact assets and manifests586/585/576 persisted; fixed readback pending.
+
 ## 2026-10-31 #81 *Otus scops* v4 VERIFIED
 
 - SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique175/251.

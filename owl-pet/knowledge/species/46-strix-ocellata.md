@@ -103,3 +103,12 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 
 
 - 2026-10-28T23:06:00+08:00 — v3 independently verified at archive `ed3a57ce0d4d1992a6124db20a10e1c8bde4e666`; binary blobs/bytes/signatures and manifest/source/card/run/state/status/design matched. Batch 2/6, next cycle 3; science false.
+
+
+## v4 research-ready（2026-10-30）
+
+- New field-note boundary: `MOWL-KUMAR-KUSHWAHA-2019-P613-614` documents one successful chick/fledging from a deserted raptor nest but explicitly calls it unusual. V4 therefore retains the modal open-top natural cavity and does not depict a stick nest.
+- Re-read Mikkola printed pp.324–325 / PDF pp.326–327: females only presumed larger; juvenile mesoptile has whiter crown and finely barred pale nape/mantle/wing coverts.
+- Reused serial biometry: day-34–36 brancher walks from cavity to adjacent branch; tarsus/beak ~90%, wing/tail ~50%; flight later.
+- Applied iteration: vary the juvenile to a split-supported cavity-to-branch step with both wings folded. This reduces the recurrent adult-like open-wing failure without inventing flight.
+- Full prompt and evidence are in `owl-pet/research/species/46-strix-ocellata-v4.md`. New1 / reused3 / corrected1; science false.

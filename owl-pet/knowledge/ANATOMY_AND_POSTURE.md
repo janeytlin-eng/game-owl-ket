@@ -74,3 +74,11 @@
 
 ## #133 actual2026-10-18 cycle2230-1
 Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualeditdarkenedadultcapandbrokeyoungshafts, whilephoto-supportedformedwingtail/yellowiris/branchgrips retained. Exactfeathermap/age/sexscaleunknown, no sciencepass. Sourceolderjuvenilealmostadultfeathering NOT reasonfornewbornfluff. Ruleappliedandlocalvisuallychecked, notmodeltrainingoruniversalimprovement. Retrospective129v2owncrownrulesnotautomaticallychanged. Candidate134primaryabstractsayslongtufts/irisNOTdiagnostic, do notinferidentityfromname; no134imageorcompletionclaimed. Fullprompts/errors/actualchecks cycle2230-1/2.
+
+
+## 2026-10-30 evidence-bounded brancher pose rule — discovered/applied, validation pending
+
+- When a species-specific source documents cavity-to-branch departure by **walking** and gives immature wing/tail growth, prefer a split-supported stepping pose with both wings folded over an invented balance-flap.
+- Preserve visible foot placement and low center of mass; do not turn “mobile brancher” into flight or a helpless hatchling.
+- A rare alternative nest record must be labeled exceptional and must not silently replace the modal nest context.
+- First applied to #46 *Strix ocellata* v4; mark validation only after the generated original and derivative pass review.

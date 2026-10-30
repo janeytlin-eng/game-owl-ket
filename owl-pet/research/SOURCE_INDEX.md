@@ -1,3 +1,22 @@
+## 2026-10-30 — #46 *Strix ocellata* v4 atypical-nest boundary
+
+### MOWL-KUMAR-KUSHWAHA-2019-P613-614
+- **Title / authors / year:** “Unusual Nesting Of Mottled Wood Owl (*Strix ocellata*) In An Abandoned Nest Of Bird Of Prey In Orchha Nature Reserve, Madhya Pradesh” / Akhilesh Kumar, Sonika Kushwaha & Abhishek Namdev / 2019.
+- **URL:** https://www.researchgate.net/publication/342658750_Unusual_Nesting_Of_Mottled_Wood_Owl_Strix_ocellata_In_An_Abandoned_Nest_Of_Bird_Of_Prey_In_Orchha_Nature_Reserve_Madhya_Pradesh
+- **Accessed:** 2026-10-30; full displayed article text read.
+- **Source type:** two-page field note; Ela Journal of Forestry and Wildlife 8(4):613–614; no DOI stated.
+- **Species / stage:** *Strix ocellata* (historical names in the repository: *Syrnium ocellatum*, *Bulaca ocellata*); chick/fledging and nest-site context.
+- **Pages / figures:** pp.613–614; Figs.1–3.
+- **Facts:** one 2018 Orchha observation found a chick in a deserted raptor nest on a teak tree; the chick fledged successfully and one parent was photographed with it. The authors explicitly call this nesting unusual, contrast it with natural hollows open to the sky in old large trees, and note mobbing pressure and loss of stout cavity trees.
+- **Limits / confidence:** single exceptional nest with chick age/plumage sequence not quantified; probable original raptor species was inferred, not confirmed. Medium confidence for occurrence, low for prevalence or developmental timing.
+- **Design decision:** do not use the abandoned stick nest as the modal v4 setting. Retain the measured open-top cavity/adjacent-branch context; use this note only to mark nest-site variability and prohibit converting a rare case into a species norm.
+- **Linked records:** `owl-pet/research/species/46-strix-ocellata-v4.md`; `owl-pet/production/runs/20261030T174800+0800-cycle-4.md`; planned `design/concepts/46-strix-ocellata-v4.png`.
+
+### Reused source mapping
+- `MOWL-MIKKOLA-2013-P324-325`: printed pp.324–325 / PDF pp.326–327 re-read; adult morphology, presumed-not-measured female size and mesoptile direction.
+- `MOWL-DESHPANDE-WOC-2022`: day-34–36 brancher walk; tarsus/beak ~90%, wing/tail ~50%; sample n=4 young/two nests, flight later.
+- `MOWL-DESHPANDE-2018`: modal mango/tamarind nesting mosaic and breeding sample; not a daily feather chronology.
+
 
 
 ## 2026-10-30 — #45 *Strix seloputo* v4 direct-page and behavior boundary

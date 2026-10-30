@@ -8040,37 +8040,40 @@
       "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Strix ocellata",
         "species_id": 46,
         "version": 4,
         "run_id": "20261030T174800+0800-cycle-4",
-        "at": "2026-10-30T17:48:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md"
+        "at": "2026-10-30T17:47:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md",
+        "research_record": "owl-pet/research/species/46-strix-ocellata-v4.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md"
       },
-      "last_updated_at": "2026-10-30T17:48:00+08:00",
+      "last_updated_at": "2026-10-30T17:47:00+08:00",
       "audit_notes": [
         "2026-10-30T17:41:00+08:00 cycle3 #45 v4 IMAGE_GENERATED in 63.7s; original 1536x1024 opened. Text/count/adults/support passed; juvenile wing was too long/layered with crisp adult-like spots; generated master persisted for archive; no credit.",
         "2026-10-30T17:42:00+08:00 cycle3 #45 v4 REVIEWED after one juvenile-only wing/tail edit (53.3s). One context-based edit attempt failed because no conversation image was available, then path-based edit succeeded. Edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-30T17:44:00+08:00 cycle3 #45 v4 ARCHIVED tree prepared; concept 0a338b165c, generated 767ca90115, reviewed 6d7c4e9a2f; manifest 552→553; fixed readback pending; no credit.",
         "2026-10-30T17:45:00+08:00 cycle3 #45 v4 VERIFIED against fixed archive commit a1887e109463cf218f698b56976f50cd6e541ab2; all three image paths/blob SHAs/sizes, manifest entry and run record read back; batch 3/6; next_cycle4; unique remains175/251; science false.",
-        "2026-10-30T17:48:00+08:00 cycle4 #46 Strix ocellata v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit."
+        "2026-10-30T17:48:00+08:00 cycle4 #46 Strix ocellata v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
+        "2026-10-30T17:47:00+08:00 cycle4 #46 v4 RESEARCH_READY; start timestamp normalized to 17:45 from GitHub commit metadata; new1/reused3/corrected1; Mikkola printed pp324–325 and Kumar et al. pp613–614 read; rare raptor nest excluded from modal scene; full prompt saved; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-production-20261030T1748+0800",
         "run_id": "20261030T174800+0800-cycle-4",
         "cycle": 4,
         "species_id": 46,
-        "heartbeat_at": "2026-10-30T17:48:00+08:00",
-        "expires_at": "2026-10-30T18:03:00+08:00"
+        "heartbeat_at": "2026-10-30T17:47:00+08:00",
+        "expires_at": "2026-10-30T18:02:00+08:00"
       },
       "lease": {
         "owner": "codex-production-20261030T1748+0800",
         "run_id": "20261030T174800+0800-cycle-4",
         "cycle": 4,
         "species_id": 46,
-        "heartbeat_at": "2026-10-30T17:48:00+08:00",
-        "expires_at": "2026-10-30T18:03:00+08:00"
+        "heartbeat_at": "2026-10-30T17:47:00+08:00",
+        "expires_at": "2026-10-30T18:02:00+08:00"
       },
       "in_progress": {
         "run_id": "20261030T174800+0800-cycle-4",
@@ -8079,9 +8082,16 @@
         "species": "Strix ocellata",
         "version": 4,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
-        "started_at": "2026-10-30T17:48:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md"
+        "stage": "RESEARCH_READY",
+        "started_at": "2026-10-30T17:45:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md",
+        "research_record": "owl-pet/research/species/46-strix-ocellata-v4.md",
+        "source_ids": [
+          "MOWL-MIKKOLA-2013-P324-325",
+          "MOWL-DESHPANDE-WOC-2022",
+          "MOWL-DESHPANDE-2018",
+          "MOWL-KUMAR-KUSHWAHA-2019-P613-614"
+        ]
       }
     }
   ],

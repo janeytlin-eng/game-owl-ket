@@ -7937,8 +7937,8 @@
         "run_id": "20261030T133100+0800-cycle-3",
         "cycle": 3,
         "species_id": 39,
-        "heartbeat_at": "2026-10-30T13:31:00+08:00",
-        "expires_at": "2026-10-30T13:46:00+08:00"
+        "heartbeat_at": "2026-10-30T13:34:00+08:00",
+        "expires_at": "2026-10-30T13:49:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -7947,21 +7947,21 @@
         "version": "v4",
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261030T133100+0800-cycle-3.md",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-10-30T13:31:00+08:00"
       },
       "last_checkpoint": {
-        "stage": "STARTED",
-        "at": "2026-10-30T13:31:00+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-30T13:34:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T133100+0800-cycle-3.md",
         "evidence": {
-          "head": "9fdace3a6fb59d2dab3702a62878ba06a552cc1a",
-          "existing_versions": [
-            "v1",
-            "v2",
-            "v3"
-          ],
-          "selected_version": "v4"
+          "research_record": "owl-pet/research/species/39-glaucidium-griseiceps-v4.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_sources": 1,
+          "reused_sources": 5,
+          "corrected_inferences": 1,
+          "prompt_saved": true,
+          "science": false
         }
       },
       "lease": {
@@ -7969,10 +7969,10 @@
         "run_id": "20261030T133100+0800-cycle-3",
         "cycle": 3,
         "species_id": 39,
-        "heartbeat_at": "2026-10-30T13:31:00+08:00",
-        "expires_at": "2026-10-30T13:46:00+08:00"
+        "heartbeat_at": "2026-10-30T13:34:00+08:00",
+        "expires_at": "2026-10-30T13:49:00+08:00"
       },
-      "last_updated_at": "2026-10-30T13:31:00+08:00"
+      "last_updated_at": "2026-10-30T13:34:00+08:00"
     }
   ],
   "lease": {
@@ -7980,8 +7980,8 @@
     "run_id": "20261030T133100+0800-cycle-3",
     "cycle": 3,
     "species_id": 39,
-    "heartbeat_at": "2026-10-30T13:31:00+08:00",
-    "expires_at": "2026-10-30T13:46:00+08:00"
+    "heartbeat_at": "2026-10-30T13:34:00+08:00",
+    "expires_at": "2026-10-30T13:49:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8095,7 +8095,7 @@
     "2026-10-30T10:43:26+08:00: cycle4 #34 v4 VERIFIED at fixed archive c937b386265f3eb048f3b1f6d90ea0f64d1528b7; exact four image tuples and indexed records matched; batch4/6 next5; unique175/251; science false; lease released.",
     "2026-10-30T10:43:58+08:00: batch cycle5 STARTED #35 Glaucidium jardinii v4 SCIENCE_REVISION; 15-minute lease acquired; v1-v3 retained; no credit."
   ],
-  "updated_at": "2026-10-30T13:31:00+08:00",
+  "updated_at": "2026-10-30T13:34:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8108,10 +8108,10 @@
     "run_id": "20261030T133100+0800-cycle-3",
     "cycle": 3,
     "species_id": 39,
-    "heartbeat_at": "2026-10-30T13:31:00+08:00",
-    "expires_at": "2026-10-30T13:46:00+08:00"
+    "heartbeat_at": "2026-10-30T13:34:00+08:00",
+    "expires_at": "2026-10-30T13:49:00+08:00"
   },
-  "last_updated_at": "2026-10-30T13:31:00+08:00",
+  "last_updated_at": "2026-10-30T13:34:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8316,7 +8316,8 @@
     "2026-10-30T09:40:00+08:00: cycle3 #33 v4 REVIEWED. Original generated blob remained preserved but connector binary read failed UTF-8 decode; prompt rebuild plus one targeted juvenile wing/tail edit passed full 1536x1024 and 520x700 crop review with limitations; no credit.",
     "2026-10-30T09:40:00+08:00: cycle3 #33 v4 ARCHIVED as design manifest552 / production manifest543 / legacy manifest541; concept/reviewed 634a127a85285440e8a2b1d0fd932f7859033b7b/3067111B, crop 4f24e38e9421f223c6695477f10546b018b4e46b/690835B; fixed readback pending; no credit.",
     "2026-10-30T09:46:00+08:00: cycle3 #33 v4 archive binary mismatch caught before credit; first 786444B blob superseded by direct image-tool Git blob ce11cf97dd408a005a1c6965fd0a734c1cbac019/2960406B; corrected fixed readback pending.",
-    "2026-10-30T09:50:00+08:00: cycle3 #33 v4 VERIFIED at corrected fixed archive 6e64c74ad52a1b7a69b9d1b8eda66074cef10122; non-truncated 1941-entry tree and exact image/text/source tuples matched. Batch 3/6, next cycle4; unique 175/251; science false; lease released."
+    "2026-10-30T09:50:00+08:00: cycle3 #33 v4 VERIFIED at corrected fixed archive 6e64c74ad52a1b7a69b9d1b8eda66074cef10122; non-truncated 1941-entry tree and exact image/text/source tuples matched. Batch 3/6, next cycle4; unique 175/251; science false; lease released.",
+    "2026-10-30T13:34:00+08:00: cycle3 #39 v4 RESEARCH_READY; new1/reused5/corrected1; full prompt saved; adult sexes alike and juvenile ground-support boundary recorded; science false."
   ],
   "audit_trail": [
     {
@@ -8467,7 +8468,7 @@
     "version": "v4",
     "action": "SCIENCE_REVISION",
     "run_record": "owl-pet/production/runs/20261030T133100+0800-cycle-3.md",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "started_at": "2026-10-30T13:31:00+08:00"
   }
 }

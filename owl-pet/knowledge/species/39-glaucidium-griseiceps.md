@@ -49,3 +49,11 @@ Pending. Exact juvenile age and continuous feather sequence, sex-specific linear
 - Scientific status remains pending; visual concept review is not scientific approval.
 
 - v3 immutable archive readback passed at commit `c22243e93daf1e9e5f7327c02e89e9a306662ba5`; all three image blobs and metadata markers matched. Verified 2026-10-28T19:39:42+08:00.
+
+
+## v4 research increment — 2026-10-30
+
+- Added `CAPO-WETMORE-1965`, printed p.167, which states adult sexes alike and supplies adult/immature diagnoses plus three-male/one-female measurements. Reused `SRC-PAPER-039-01`, `CAPO-BIRDLIFE-2026`, `CAPO-EBIRD-ID-2026`, `SRC-WEB-039-03`, and `SRC-WEB-039-04`.
+- Corrected adult-scale inference: one slightly longer-winged female specimen does not justify a generally taller female. V4 keeps adults near equal and encodes no sex-specific plumage split.
+- Juvenile boundary remains the direct 2008 observation: very wet, ground-supported after a storm, mottled head, unmarked back; exact age, flight ability, nest stage and continuous feather sequence remain unknown.
+- Full prompt and source/design split are stored in [v4 research](../../research/species/39-glaucidium-griseiceps-v4.md) and the [run](../../production/runs/20261030T133100+0800-cycle-3.md). Science remains pending / false.

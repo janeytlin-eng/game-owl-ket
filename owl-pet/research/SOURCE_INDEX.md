@@ -6335,3 +6335,20 @@ Reused `PEPO-KONIG-1991`, `PEPO-EBIRD-ID-2026`, `SRC-BOOK-037-01`, `SRC-WEB-037-
 | AUPO-IBARRA-2015 | [Ibarra et al., Historia natural y autoecología del chuncho](https://www.aveschile.cl/wp-content/uploads/2019/03/Art03-Ibarra-et-al-1.pdf) | Six-year primary field paper; printed p.36 / PDF p.8, Fig.5 and breeding text re-read 2026-10-30 | Fig.5 documents a branch-perched fledgling on 11 Feb 2013; three cavity nests produced three or more fledglings. | Exact age, plumage sequence, flight threshold and independence were not reported. The paper's 15–17 d incubation statement is superseded by AUPO-MARKS-2018. |
 
 Reused `AUPO-IBARRA-2014`, `AUPO-ALTAMIRANO-2012`, `SRC-BOOK-038-01`, `SRC-WEB-038-02`, and `SRC-WEB-038-03`. Correction: replace the knowledge card's 15–17 d incubation claim with 26–29 d and keep the juvenile design tied only to the photographed supported fledgling; do not transfer incubation length or the secondary “about one month” statement into exact image age. [Species](../knowledge/species/38-glaucidium-nana.md) · [research card](species/38-glaucidium-nana-v4.md) · [run](../production/runs/20261030T125000+0800-cycle-2.md).
+
+
+# 2026-10-30 — #39 *Glaucidium griseiceps* v4 — historical adult/immature diagnosis and sex-scale boundary
+
+## CAPO-WETMORE-1965
+- **Stable ID:** `CAPO-WETMORE-1965`
+- **Title / author / institution / year:** *The Birds of the Republic of Panama*; Alexander Wetmore; Smithsonian Institution; 1965.
+- **Original URL:** https://repository.si.edu/items/e7d46a1d-a6d9-4657-924b-c0c3a9ed5d08/full ; PDF https://repository.si.edu/bitstream/handle/10088/23810/1965%20vol%20150%20pt%202.pdf
+- **Accessed:** 2026-10-30. **Type:** historical primary specimen/plumage account.
+- **Species / old-name scope:** historical *Glaucidium minutissimum rarum*; mapped cautiously to current *G. griseiceps* and former *G. g. rarum*.
+- **Page actually read:** printed p.167.
+- **Facts:** length 140–145 mm; adult sexes alike; head/hindneck dark brownish gray with small pale dots, pale lower-nape band ending in black false-eye spots, warm-brown back/wings, black tail with three broken white bars, white eyebrow/throat/central underparts and russet sides. One male had bright yellow iris and honey-yellow bill/gape/toes. Immature crown/hindneck was brownish gray without spots. Male wings n=3 were 88.7–90.5 mm; one female wing was 93.4 mm.
+- **Limits/conflicts/confidence:** historical lower-rank treatment and extremely small sexed sample; the one female cannot define population-level dimorphism. No exact juvenile age, iris chronology, flight ability, nest stage or continuous feather sequence. High confidence for the described specimens, moderate transferability across current taxonomic treatments.
+- **Design / QA decision:** render adults near equal in height and do not invent sex colors; use the adult spot/false-eye/three-tail-bar diagnosis and immature unspotted-head boundary while retaining the later direct wet forest-floor juvenile record.
+- **Links:** [v4 card](species/39-glaucidium-griseiceps-v4.md) · [knowledge](../knowledge/species/39-glaucidium-griseiceps.md) · [run](../production/runs/20261030T133100+0800-cycle-3.md)
+
+Reused `SRC-PAPER-039-01`, `CAPO-BIRDLIFE-2026`, `CAPO-EBIRD-ID-2026`, `SRC-WEB-039-03`, and `SRC-WEB-039-04`. Correction: a single slightly longer-winged female specimen does not establish a general taller-female direction; v4 keeps adult scale near equal. The juvenile remains the directly documented very wet, age-unknown bird supported on forest-floor leaf litter/root after a storm, with mottled head and unmarked back. New1/reused5/corrected1; exact age, flight, nest and feather chronology unknown; science false.

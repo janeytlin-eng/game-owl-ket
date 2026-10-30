@@ -34,3 +34,8 @@ First render and 680×453 derivative opened. The 30-day nestling has a noticeabl
 ## Archive preparation — 2026-10-30T22:44:24+08:00
 
 Concept/generated/reviewed assets and manifest entries prepared; all three paths share the reviewed 1536×1024 master blob. Fixed readback pending; unique 175/251; science false.
+
+
+## Fixed-commit verification — 2026-10-30T22:45:04+08:00
+
+Archive `6599b8f836664889436d4544b434b8bfac7f9b97` returned exact three image paths/blob/size in a non-truncated 2107-entry tree. Manifests 571/570/561. PASS_WITH_LIMITATIONS; science false.

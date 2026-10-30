@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:44:24+08:00",
+  "updated": "2026-10-30T22:45:04+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12029,10 +12029,50 @@
       "reviewed_sha256": "8bc9a5fcdf6a97cc2b9126fd14793503209a8be82a204f6fdee94bbeb343760d",
       "reviewed_size_bytes": 3109074,
       "archive_note": "V1-v3 preserved. Original 1536x1024 and 680x453 derivative opened; no edit required. Concept/generated/reviewed share the verified master blob. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "git_blob": "40bb297558b881217e76207d7d3709cddd095ce5"
+      "readback_pending": false,
+      "archive_commit": "6599b8f836664889436d4544b434b8bfac7f9b97",
+      "git_blob": "40bb297558b881217e76207d7d3709cddd095ce5",
+      "fixed_commit": "6599b8f836664889436d4544b434b8bfac7f9b97",
+      "verified_at": "2026-10-30T22:45:04+08:00",
+      "verification_result": "VERIFIED against fixed archive: exact paths/blob/size, non-truncated tree, manifests 571/570/561, support records matched; science false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "6599b8f836664889436d4544b434b8bfac7f9b97",
+        "tree_truncated": false,
+        "tree_entries": 2107,
+        "concept": {
+          "path": "owl-pet/design/concepts/65-tyto-soumagnei-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "40bb297558b881217e76207d7d3709cddd095ce5",
+          "size": 3109074,
+          "url": "https://api.github.com/repos/janeytlin-eng/game-owl-ket/git/blobs/40bb297558b881217e76207d7d3709cddd095ce5"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/65-tyto-soumagnei-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "40bb297558b881217e76207d7d3709cddd095ce5",
+          "size": 3109074,
+          "url": "https://api.github.com/repos/janeytlin-eng/game-owl-ket/git/blobs/40bb297558b881217e76207d7d3709cddd095ce5"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/65-tyto-soumagnei-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "40bb297558b881217e76207d7d3709cddd095ce5",
+          "size": 3109074,
+          "url": "https://api.github.com/repos/janeytlin-eng/game-owl-ket/git/blobs/40bb297558b881217e76207d7d3709cddd095ce5"
+        },
+        "manifest_counts": {
+          "legacy": 571,
+          "design": 570,
+          "production": 561
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T22:44:24+08:00"
+  "updated_at": "2026-10-30T22:45:04+08:00"
 }

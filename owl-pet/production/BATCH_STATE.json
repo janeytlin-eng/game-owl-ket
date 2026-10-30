@@ -8019,35 +8019,39 @@
       ],
       "next_cycle": 2,
       "last_checkpoint": {
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-30T16:49:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-30T16:54:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md",
         "evidence": {
           "generated_path": "owl-pet/production/generated/44-strix-uralensis-v4-generated.png",
           "generated_blob": "5a6595617482b1591f6125d18cc321840a05b945",
-          "size_bytes": 3354565,
-          "dimensions": "1536x1024",
-          "generation_seconds": 75.9,
-          "review": "juvenile adult-like spotted layered wing requires edit",
+          "reviewed_path": "owl-pet/production/reviewed/44-strix-uralensis-v4.png",
+          "reviewed_blob": "932bf2b9554979fbce7712514ec79c3dc481fe15",
+          "reviewed_size_bytes": 2913384,
+          "crop_path": "owl-pet/production/review-crops/44-strix-uralensis-v4-juvenile.png",
+          "crop_blob": "50bc6b52fa4bab0d1a929c5944c8b345bdacd17e",
+          "crop_size_bytes": null,
+          "edits": 2,
+          "review": "PASS_WITH_LIMITATIONS",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T16:49:00+08:00",
+      "last_updated_at": "2026-10-30T16:54:00+08:00",
       "active_lease": {
         "owner": "codex-work-20261030T1647+0800",
         "run_id": "20261030T164700+0800-cycle-2",
         "cycle": 2,
         "species_id": 44,
-        "heartbeat_at": "2026-10-30T16:49:00+08:00",
-        "expires_at": "2026-10-30T17:04:00+08:00"
+        "heartbeat_at": "2026-10-30T16:54:00+08:00",
+        "expires_at": "2026-10-30T17:09:00+08:00"
       },
       "lease": {
         "owner": "codex-work-20261030T1647+0800",
         "run_id": "20261030T164700+0800-cycle-2",
         "cycle": 2,
         "species_id": 44,
-        "heartbeat_at": "2026-10-30T16:49:00+08:00",
-        "expires_at": "2026-10-30T17:04:00+08:00"
+        "heartbeat_at": "2026-10-30T16:54:00+08:00",
+        "expires_at": "2026-10-30T17:09:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -8056,10 +8060,11 @@
         "version": "v4",
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T16:47:00+08:00",
         "research_ready_at": "2026-10-30T16:47:00+08:00",
-        "image_generated_at": "2026-10-30T16:49:00+08:00"
+        "image_generated_at": "2026-10-30T16:49:00+08:00",
+        "reviewed_at": "2026-10-30T16:54:00+08:00"
       }
     }
   ],
@@ -8068,8 +8073,8 @@
     "run_id": "20261030T164700+0800-cycle-2",
     "cycle": 2,
     "species_id": 44,
-    "heartbeat_at": "2026-10-30T16:49:00+08:00",
-    "expires_at": "2026-10-30T17:04:00+08:00"
+    "heartbeat_at": "2026-10-30T16:54:00+08:00",
+    "expires_at": "2026-10-30T17:09:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8197,9 +8202,10 @@
     "2026-10-30T16:45:00+08:00: cycle1 #43 v4 VERIFIED at fixed archive a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd; exact image/text/source/state tuples matched; batch1/6 next2; unique175/251; science false; lease released.",
     "2026-10-30T16:47:00+08:00: batch cycle2 #44 Strix uralensis v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v2-v3 retained; no credit.",
     "2026-10-30T16:47:00+08:00: cycle2 #44 v4 RESEARCH_READY; new1/reused4/corrected1; Eriksson et al. 1984 wing/sheath age evidence corrects day-29 pin-tip depiction and adult/juvenile sex-cue timing; full prompt persisted; no credit.",
-    "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit."
+    "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit.",
+    "2026-10-30T16:54:00+08:00: cycle2 #44 v4 REVIEWED after two juvenile-only edits; final plate and crop reopened; short growing wing now passes; PASS_WITH_LIMITATIONS; science false; no credit."
   ],
-  "updated_at": "2026-10-30T16:49:00+08:00",
+  "updated_at": "2026-10-30T16:54:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8212,10 +8218,10 @@
     "run_id": "20261030T164700+0800-cycle-2",
     "cycle": 2,
     "species_id": 44,
-    "heartbeat_at": "2026-10-30T16:49:00+08:00",
-    "expires_at": "2026-10-30T17:04:00+08:00"
+    "heartbeat_at": "2026-10-30T16:54:00+08:00",
+    "expires_at": "2026-10-30T17:09:00+08:00"
   },
-  "last_updated_at": "2026-10-30T16:49:00+08:00",
+  "last_updated_at": "2026-10-30T16:54:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8438,7 +8444,8 @@
     "2026-10-30T16:45:00+08:00: cycle1 #43 v4 VERIFIED at fixed archive a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd; exact image/text/source/state tuples matched; batch1/6 next2; unique175/251; science false; lease released.",
     "2026-10-30T16:47:00+08:00: batch cycle2 #44 Strix uralensis v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v2-v3 retained; no credit.",
     "2026-10-30T16:47:00+08:00: cycle2 #44 v4 RESEARCH_READY; new1/reused4/corrected1; Eriksson et al. 1984 wing/sheath age evidence corrects day-29 pin-tip depiction and adult/juvenile sex-cue timing; full prompt persisted; no credit.",
-    "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit."
+    "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit.",
+    "2026-10-30T16:54:00+08:00: cycle2 #44 v4 REVIEWED after two juvenile-only edits; final plate and crop reopened; short growing wing now passes; PASS_WITH_LIMITATIONS; science false; no credit."
   ],
   "audit_trail": [
     {
@@ -8600,7 +8607,8 @@
     "2026-10-30T16:45:00+08:00: cycle1 #43 v4 VERIFIED at fixed archive a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd; exact image/text/source/state tuples matched; batch1/6 next2; unique175/251; science false; lease released.",
     "2026-10-30T16:47:00+08:00: batch cycle2 #44 Strix uralensis v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v2-v3 retained; no credit.",
     "2026-10-30T16:47:00+08:00: cycle2 #44 v4 RESEARCH_READY; new1/reused4/corrected1; Eriksson et al. 1984 wing/sheath age evidence corrects day-29 pin-tip depiction and adult/juvenile sex-cue timing; full prompt persisted; no credit.",
-    "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit."
+    "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit.",
+    "2026-10-30T16:54:00+08:00: cycle2 #44 v4 REVIEWED after two juvenile-only edits; final plate and crop reopened; short growing wing now passes; PASS_WITH_LIMITATIONS; science false; no credit."
   ],
   "in_progress": {
     "cycle": 2,
@@ -8609,10 +8617,11 @@
     "version": "v4",
     "action": "SCIENCE_REVISION",
     "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T16:47:00+08:00",
     "research_ready_at": "2026-10-30T16:47:00+08:00",
-    "image_generated_at": "2026-10-30T16:49:00+08:00"
+    "image_generated_at": "2026-10-30T16:49:00+08:00",
+    "reviewed_at": "2026-10-30T16:54:00+08:00"
   },
   "last_checkpoint": {
     "stage": "VERIFIED",

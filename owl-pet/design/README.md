@@ -1,3 +1,9 @@
+## #79 Collared Scops Owl — *Otus lettia* — v4 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/20419a0cd19aec7ecffa739e3b319fc3f61a95ea/owl-pet/design/concepts/79-otus-lettia-v4.jpg?raw=1)
+- [Fixed archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/20419a0cd19aec7ecffa739e3b319fc3f61a95ea)
+- PASS_WITH_LIMITATIONS; dated juvenile wing correction archive-verified; science false.
+
 ## #79 Collared Scops Owl — *Otus lettia* — v4 science revision
 
 - Concept: [79-otus-lettia-v4.jpg](concepts/79-otus-lettia-v4.jpg)

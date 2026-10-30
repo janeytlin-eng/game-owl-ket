@@ -23,3 +23,7 @@ One direct imagegen revision of v3 shortened/irregularized the 11–15 d juvenil
 
 Exact JPEG objects and supporting records persisted at ARCHIVED; fixed-commit readback pending. Science false.
 
+## 2026-10-31 v4 fixed readback
+
+Archive `20419a0cd19aec7ecffa739e3b319fc3f61a95ea` preserves the exact reviewed assets and records. The applied wing correction is archive-verified; unresolved pin geometry, sex ratio and subspecies transfer remain scientifically unverified.
+

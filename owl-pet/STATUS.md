@@ -1,3 +1,10 @@
+## 2026-10-31 #79 *Otus lettia* v4 VERIFIED
+
+- SCIENCE_REVISION; one direct imagegen revision; PASS_WITH_LIMITATIONS; science false; unique 175/251.
+- Fixed archive `20419a0cd19aec7ecffa739e3b319fc3f61a95ea`: four JPEG payloads/blobs/sizes matched; manifests 583/582/573.
+- Batch `2026-10-31T0134+0800` is 3/6; next cycle 4.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/20419a0cd19aec7ecffa739e3b319fc3f61a95ea/owl-pet/design/concepts/79-otus-lettia-v4.jpg?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/20419a0cd19aec7ecffa739e3b319fc3f61a95ea)
+
 ## 2026-10-31 #79 *Otus lettia* v4 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; one direct imagegen revision; PASS_WITH_LIMITATIONS; science false; unique remains 175/251.

@@ -13129,7 +13129,58 @@
       "review_crop_blob": "81f3578ebcfd62da9c691fa48cfc5e408ea8e6bc",
       "review_crop_size_bytes": 164276,
       "archive_note": "V1-v3 preserved. V4 is one direct targeted imagegen revision of v3; final full reviewed master, juvenile crop and 680x453 derivative rechecked. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "20419a0cd19aec7ecffa739e3b319fc3f61a95ea",
+      "verified_at": "2026-10-31T02:41:05+08:00",
+      "git_blob": "8563e1083d3026029ffa4247e602f8faba0d663d",
+      "fixed_commit": "20419a0cd19aec7ecffa739e3b319fc3f61a95ea",
+      "verification_result": "VERIFIED against immutable archive: exact complete concept/generated/reviewed/crop JPEG payloads, Git blob IDs and byte sizes matched local files; manifests 583/582/573 and support records matched. Science remains false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "20419a0cd19aec7ecffa739e3b319fc3f61a95ea",
+        "method": "immutable commit fetch_file; normalized base64 matched local persisted JPEGs",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/79-otus-lettia-v4.jpg",
+            "sha": "8563e1083d3026029ffa4247e602f8faba0d663d",
+            "size": 177108,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/20419a0cd19aec7ecffa739e3b319fc3f61a95ea/owl-pet/design/concepts/79-otus-lettia-v4.jpg?raw=1"
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/79-otus-lettia-v4-generated-master.jpg",
+            "sha": "adc2f5e808e3effeb11f947b74bcdf89db3347fe",
+            "size": 666632,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/20419a0cd19aec7ecffa739e3b319fc3f61a95ea/owl-pet/production/generated/79-otus-lettia-v4-generated-master.jpg?raw=1"
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/79-otus-lettia-v4-reviewed-master.jpg",
+            "sha": "adc2f5e808e3effeb11f947b74bcdf89db3347fe",
+            "size": 666632,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/20419a0cd19aec7ecffa739e3b319fc3f61a95ea/owl-pet/production/reviewed/79-otus-lettia-v4-reviewed-master.jpg?raw=1"
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/79-otus-lettia-v4-juvenile.jpg",
+            "sha": "81f3578ebcfd62da9c691fa48cfc5e408ea8e6bc",
+            "size": 164276,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/20419a0cd19aec7ecffa739e3b319fc3f61a95ea/owl-pet/production/review-crops/79-otus-lettia-v4-juvenile.jpg?raw=1"
+          }
+        },
+        "manifest_counts": {
+          "legacy": 583,
+          "design": 582,
+          "production": 573
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-10-31T01:39:53+08:00"

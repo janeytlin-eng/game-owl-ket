@@ -45,3 +45,7 @@ Use the attached #79 Otus lettia v3 plate as the layout/style reference. Create 
 
 - 2026-10-31T02:40:20+08:00: exact concept/generated/reviewed/crop JPEG objects and three manifest rows persisted; immutable commit readback pending.
 
+## Fixed archive verification
+
+- 2026-10-31T02:41:05+08:00: immutable archive `20419a0cd19aec7ecffa739e3b319fc3f61a95ea` returned exact complete concept/generated/reviewed/crop JPEG payloads, blob IDs and byte sizes. Manifests 583/582/573 and linked records matched. Production VERIFIED; scientific status false.
+

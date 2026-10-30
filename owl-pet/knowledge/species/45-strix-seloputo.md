@@ -73,7 +73,7 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Reviewed master: `production/reviewed/45-strix-seloputo-v3-reviewed-master.jpg`; blob `bf2a5720f6b0c63fb7a61f596a2c4f0159b6e283`.
 - Problem → evidence → modification → recheck: first render had a long layered white-spotted juvenile wing → dated 23 Feb account showed a very downy brancher with remiges still growing → one juvenile-only edit shortened/softened and embedded the wing in down → full edited original and 680×453 derivative passed exact text/count/adult direction/support checks.
 - Remaining unknowns: exact hatch age, universal feather chronology, independent-flight threshold, quantified sex dimorphism and universal nest geometry. `scientifically_verified=false`.
-- Archive commit and fixed readback: pending.
+- Archive commit and fixed readback: `a1887e109463cf218f698b56976f50cd6e541ab2`; all three image blob SHAs/sizes and manifest/run paths verified.
 
 
 - 2026-10-28T22:49:00+08:00 — v3 independently verified at archive `fe5f4c2c85ad2d1539b0170aafc3ea57d78a75cf`; concept/generated/reviewed blobs and required text records matched at the immutable commit. Batch 1/6, next cycle 2; science false.

@@ -2,7 +2,7 @@
 
 - Concept: [45-strix-seloputo-v4.png](concepts/45-strix-seloputo-v4.png)
 - Research: [species card](../knowledge/species/45-strix-seloputo.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30-45-strix-seloputo-v4-evidence-boundary)
-- Stage: ARCHIVED, fixed-commit verification pending. Dated 2–4-day post-fledging balance-walk; one juvenile wing/tail edit; v1–v3 preserved; science false.
+- Stage: VERIFIED at fixed archive commit `a1887e109463cf218f698b56976f50cd6e541ab2`. Dated 2–4-day post-fledging balance-walk; one juvenile wing/tail edit; v1–v3 preserved; science false.
 
 # Current production review
 

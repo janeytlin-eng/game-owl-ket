@@ -8025,79 +8025,46 @@
           "unique_species_increment": 0,
           "commit_sha": "ce67377ea8b6459d8c33c848134e5da77faba2c4",
           "run_record": "owl-pet/production/runs/20261030T164700+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Strix seloputo",
+          "species_no": "45",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a1887e109463cf218f698b56976f50cd6e541ab2",
+          "run_record": "owl-pet/production/runs/20261030T173300+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Strix seloputo",
         "species_id": 45,
         "version": 4,
         "run_id": "20261030T173300+0800-cycle-3",
-        "at": "2026-10-30T17:44:00+08:00",
+        "at": "2026-10-30T17:45:00+08:00",
+        "commit_sha": "a1887e109463cf218f698b56976f50cd6e541ab2",
         "run_record": "owl-pet/production/runs/20261030T173300+0800-cycle-3.md",
         "research_record": "owl-pet/research/species/45-strix-seloputo-v4.md",
         "source_index": "owl-pet/research/SOURCE_INDEX.md",
         "evidence": {
-          "concept_path": "owl-pet/design/concepts/45-strix-seloputo-v4.png",
           "concept_blob": "0a338b165c6870fa49894547b89b651fa9b69b1d",
-          "concept_sha256": "6d33c3288ab731557639a80d295cd8f25cf36c47607ea9b981c95a5652db0c86",
-          "concept_bytes": 665851,
-          "dimensions": "680x453",
-          "generated_path": "owl-pet/production/generated/45-strix-seloputo-v4-generated-master.png",
           "generated_blob": "767ca901156d4b59d49366a3a106ce39e11a687a",
-          "generated_sha256": "f0429a3819424e370a8e62f5012aeb6a4a35e12ba204694c31df0889fb61fe22",
-          "generated_bytes": 3073074,
-          "reviewed_path": "owl-pet/production/reviewed/45-strix-seloputo-v4-reviewed-master.png",
           "reviewed_blob": "6d7c4e9a2f160255c2fbf2b0e404b162431cf994",
-          "reviewed_sha256": "21dc2ccb346f201bf2082529e50e3e412c1a39a59468cf27d4f07661886cebaf",
-          "reviewed_bytes": 2936961,
-          "manifest_count": "552→553",
-          "readback_pending": true,
+          "manifest_count": 553,
+          "all_readback_checks": true,
           "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-30T17:44:00+08:00",
-      "active_lease": {
-        "owner": "codex-production-20261030T1733+0800",
-        "run_id": "20261030T173300+0800-cycle-3",
-        "cycle": 3,
-        "species_id": 45,
-        "heartbeat_at": "2026-10-30T17:44:00+08:00",
-        "expires_at": "2026-10-30T17:59:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-production-20261030T1733+0800",
-        "run_id": "20261030T173300+0800-cycle-3",
-        "cycle": 3,
-        "species_id": 45,
-        "heartbeat_at": "2026-10-30T17:44:00+08:00",
-        "expires_at": "2026-10-30T17:59:00+08:00"
-      },
-      "in_progress": {
-        "run_id": "20261030T173300+0800-cycle-3",
-        "cycle": 3,
-        "species_id": 45,
-        "species": "Strix seloputo",
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-30T17:33:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T173300+0800-cycle-3.md",
-        "research_record": "owl-pet/research/species/45-strix-seloputo-v4.md",
-        "source_ids": [
-          "SOWL-MIKKOLA-2013-P322-323",
-          "SOWL-BESG-2022-P1",
-          "SOWL-BESG-2022-P2",
-          "SOWL-NPARKS-2026",
-          "SOWL-OOI-MBR-2025-P39-40"
-        ]
-      },
+      "last_updated_at": "2026-10-30T17:45:00+08:00",
       "audit_notes": [
         "2026-10-30T17:41:00+08:00 cycle3 #45 v4 IMAGE_GENERATED in 63.7s; original 1536x1024 opened. Text/count/adults/support passed; juvenile wing was too long/layered with crisp adult-like spots; generated master persisted for archive; no credit.",
         "2026-10-30T17:42:00+08:00 cycle3 #45 v4 REVIEWED after one juvenile-only wing/tail edit (53.3s). One context-based edit attempt failed because no conversation image was available, then path-based edit succeeded. Edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-30T17:44:00+08:00 cycle3 #45 v4 ARCHIVED tree prepared; concept 0a338b165c, generated 767ca90115, reviewed 6d7c4e9a2f; manifest 552→553; fixed readback pending; no credit."
+        "2026-10-30T17:44:00+08:00 cycle3 #45 v4 ARCHIVED tree prepared; concept 0a338b165c, generated 767ca90115, reviewed 6d7c4e9a2f; manifest 552→553; fixed readback pending; no credit.",
+        "2026-10-30T17:45:00+08:00 cycle3 #45 v4 VERIFIED against fixed archive commit a1887e109463cf218f698b56976f50cd6e541ab2; all three image paths/blob SHAs/sizes, manifest entry and run record read back; batch 3/6; next_cycle4; unique remains175/251; science false."
       ]
     }
   ],

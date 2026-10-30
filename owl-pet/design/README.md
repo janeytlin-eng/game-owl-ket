@@ -2535,3 +2535,10 @@ Verification 2026-10-31T00:54:43+08:00: #71 v4 fixed archive `c770e1c38f7e30027d
 
 
 Verification 2026-10-31T00:59:35+08:00: #74 v4 fixed archive `53ef96c031c74e9fa6b921871a7c60eb5a44208d` returned exact assets and manifests 578/577/568; batch 4/6 next5; science false.
+
+
+### 2026-10-31 — dependent-juvenile support gate, #75 application
+
+- Discovery: field evidence for an active branch-dependent juvenile can support developed dark folded wing and short tail without supporting an exact age or full tract chronology.
+- Applied: #75 *Ninox scutulata* v4 kept that documented stage but required both gripping feet to read clearly on the branch; the first render failed that support gate and received one targeted edit.
+- Verified locally: edited master, crop and derivative show bilateral grip while retaining the evidence-bounded wing/tail stage. This is an instance result, not a universal owl-development rule.

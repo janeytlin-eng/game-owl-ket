@@ -1,3 +1,10 @@
+## 2026-10-31 #75 *Ninox scutulata* v4 ARCHIVED — readback pending
+
+- SCIENCE_REVISION; one support edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/75-ninox-scutulata-v4.png](design/concepts/75-ninox-scutulata-v4.png)
+- Research: new0/reused5/corrected1; active Singapore branch-dependent juvenile retained, Japanese split-population transfer excluded; exact age/tract chronology unknown.
+- Four image assets and manifests 579/578/569 prepared; fixed readback pending.
+
 ## 2026-10-31 #69 *Tyto novaehollandiae* v4 VERIFIED
 
 - SCIENCE_REVISION; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

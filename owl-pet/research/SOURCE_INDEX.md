@@ -565,3 +565,13 @@ Reused stable IDs **MOR-NZBO-HANZAB-2025**, **MOR-DOC-2026**, **MOR-STEPHENSON-M
 ## 2026-10-31 — #75 *Ninox scutulata* v4 Singapore comparison-layout boundary
 
 Reused stable IDs **SCU-BESG-2024**, **SCU-NPARKS-2025**, **SCU-ITIS-2025**, **SCU-OWLPAGES-2021**, and **WHSO-MIKKOLA-2013**; new0/reused5/corrected1. V3 fixed original reopened: morphology/support pass, but repository number 75 was absent, the branch-dependent juvenile was outside the central stage-comparison slot, and adult supports were offset. V4 preserves the Singapore field-supported active juvenile and near-equal adults, restores exact numbering/central comparison, and keeps Japanese split-population detail excluded. Three active queries returned empty payloads and received no credit. Exact age/iris trajectory/sex direction/tract chronology remain unknown; science false. [Research](species/75-ninox-scutulata-v4.md) · [Run](../production/runs/20261031T010145+0800-cycle-5.md).
+
+
+## 2026-10-31 — #75 *Ninox scutulata* v4 central dependent-juvenile and support boundary
+
+- **Action:** SCIENCE_REVISION; new 0 / reused 5 / corrected design boundary 1.
+- **Reused stable IDs:** SCU-BESG-2024, SCU-NPARKS-2025, SCU-ITIS-2025, SCU-OWLPAGES-2021, WHSO-MIKKOLA-2013. Original URLs, authorship, dates, source types and page/section limits remain in their existing entries; no duplicate source rows created.
+- **Facts reused:** Singapore adults are rounded, untufted, yellow-eyed, dark-brown above and strongly lengthwise-streaked below; the Windsor observation supports active high-branch-dependent juveniles but not exact age or tract chronology. Mikkola printed pp.464–465/PDF pp.466–467 supports adult identity. ITIS supplies current/old-name mapping *Ninox scutulata* ↔ *Strix scutulata*.
+- **Design inference:** center the documented branch-dependent stage, keep dark growing folded wing/short tail, require bilateral branch grip, and keep adult scale near-equal because published sex direction conflicts. Japanese split-population timing/rectrix evidence remains excluded.
+- **Limitations:** exact Singapore subspecies, age, iris trajectory, sex ratio and feather-tract chronology unknown; science false.
+- **Links:** [research](species/75-ninox-scutulata-v4.md) · [run](../production/runs/20261031T010145+0800-cycle-5.md) · [concept](../design/concepts/75-ninox-scutulata-v4.png)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:59:35+08:00",
+  "updated": "2026-10-31",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12705,7 +12705,57 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "75-ninox-scutulata-v4",
+      "path": "design/concepts/75-ninox-scutulata-v4.png",
+      "species_id": 75,
+      "scientific_name": "Ninox scutulata",
+      "historical_names": [
+        "Strix scutulata"
+      ],
+      "common_name": "Brown Boobook",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "ddebccdd01cb751e59b879a93eba1dea3c73a2657ae38e9e8ec01cafcd2c339d",
+      "size_bytes": 621480,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 restores exact number/title, places the active Singapore branch-dependent juvenile centrally and keeps adult supports/scales comparable without inventing the unresolved sex direction. The first render showed only one clearly readable gripping foot; one targeted edit restored bilateral branch support while preserving fluffy juvenile head/body, dark growing folded wing and short growing tail. Exact Singapore subspecies, age, iris trajectory, tract chronology and sex direction remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "SCU-BESG-2024",
+        "SCU-NPARKS-2025",
+        "SCU-ITIS-2025",
+        "SCU-OWLPAGES-2021",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--75-ninox-scutulata-v4-central-dependent-juvenile-and-support-boundary",
+      "research_record": "research/species/75-ninox-scutulata-v4.md",
+      "run_record": "production/runs/20261031T010145+0800-cycle-5.md",
+      "reviewed_at": "2026-10-31T01:09:57+08:00",
+      "generated_path": "production/generated/75-ninox-scutulata-v4-generated-master.png",
+      "generated_blob": "f8b859551899d5bb9215d242e37039c655e6d553",
+      "generated_sha256": "30d21b7f379c2e1e49a70e64960dc80cd896dae25cd2a368e1b77893293adee8",
+      "generated_size_bytes": 3040960,
+      "reviewed_path": "production/reviewed/75-ninox-scutulata-v4-reviewed-master.png",
+      "reviewed_blob": "f196b3617b29787c42494b98fcbcf09e045a4553",
+      "reviewed_sha256": "a7c3398bbf932e201e51faf8e7cdff1a25fe7883bee11df9c6f7efd2b847e43f",
+      "reviewed_size_bytes": 2836731,
+      "review_crop_path": "production/review-crops/75-ninox-scutulata-v4-juvenile.png",
+      "review_crop_blob": "ac2d82bea89b475e895dea4cad9a3b6e7ecb4508",
+      "review_crop_size_bytes": 623887,
+      "archive_note": "V1-v3 preserved. Recoverable v4 initial master and one targeted support edit were opened; full edited master, juvenile crop and derivative rechecked. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "git_blob": "0ec9795f6b54456d8b4e656d4d255975becf3180",
+      "fixed_commit": null,
+      "verification_result": "Fixed archive readback pending."
     }
   ],
-  "updated_at": "2026-10-31T00:59:35+08:00"
+  "updated_at": "2026-10-31T01:10:33+08:00"
 }

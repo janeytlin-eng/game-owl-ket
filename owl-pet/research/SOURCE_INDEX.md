@@ -1,3 +1,24 @@
+## 2026-10-30 — #58 *Ketupa coromanda* v4 Upper Assam nest-site boundary
+
+### DEO-RANADE-GHOSH-PRAKASH-2020-P93
+- **Title / authors / year:** “Recent breeding records of the Dusky Eagle Owl *Bubo coromandus* from upper Assam” / Sachin Ranade, Rounaq Ghosh & Vibhu Prakash / 2020.
+- **URL:** https://www.researchgate.net/publication/346625980_Recent_breeding_records_of_the_Dusky_Eagle_Owl_Bubo_coromandus_from_upper_Assam
+- **Accessed:** 2026-10-30; full displayed article text, Table 1 and nest discussion read.
+- **Source type:** primary multi-season field correspondence; *Indian BIRDS* 16(3).
+- **Species/stage:** current *Ketupa coromanda*; active nests, nestlings and fledglings.
+- **Pages/sections:** pp.93–94; Table 1; nest-tree discussion.
+- **Facts:** eight Upper Assam nests; large saucer platforms high in the tallest nearby trees and close to water. Seven in *Bombax ceiba*, one in *Ficus*; trees 15–21 m, nests 11–20 m. Table 1 records several 2–3 fledgling events.
+- **Limits/confidence:** opportunistic/fortnightly records, no hatch ages, plumage sequence, sex or flight tests. High confidence for repeated site/tree pattern, low for developmental timing.
+- **Design decision:** v4 uses one explicitly age-unknown, securely supported Upper Assam fledgling on a mature simul branch beside an old stick platform near water. “Fledgling” is not treated as a measured flight threshold.
+- **Linked records:** `owl-pet/research/species/58-ketupa-coromanda-v4.md`; `owl-pet/production/runs/20261030T204800+0800-cycle-2.md`; planned `design/concepts/58-ketupa-coromanda-v4.png`.
+
+### Reused/corrected source mapping
+- `DEO-REDDY-RAMACHANDRAN-2023`: pp.44–45, estimated 8–10-week branch movement; field-estimated age, not universal feather timing.
+- `DEO-MACAULAY-FLEDGLING-2011`: well-grown fledgling perched and preening; age/sex unspecified.
+- `DEO-ITIS-2025`: current *Ketupa coromanda*; synonyms *Bubo coromandus*, *Strix coromanda*.
+- **Correction:** formed juvenile wing/tail and adult-regular covert pattern are separate checks. Retain the former; reject the latter unless directly shown.
+- **Source/design delta:** new1 / reused3 / corrected1; science false.
+
 ## 2026-10-30 — #57 *Bubo nipalensis* v4 outside-nest date boundary
 
 ### SBEO-SHUKLA-2025-P28

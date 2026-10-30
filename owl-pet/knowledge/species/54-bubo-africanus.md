@@ -78,3 +78,5 @@
 - First image review found adult-bright juvenile eyes and a mature spotted wing panel. Two juvenile-only edits produced dull grey-olive/yellow eyes and continuous low-contrast mesoptile with no readable adult remiges.
 - Final full plate and crop reopened; title/count/adults/habitat/support passed. PASS_WITH_LIMITATIONS; exact age, movement and feather geometry unknown; science false.
 - Files: `design/concepts/54-bubo-africanus-v4.png` plus generated/reviewed masters; archive pending fixed readback.
+
+- Immutable v4 archive verification: commit `0598a72a5105755f47dfdb8b993c4cdc589bfb83`; concept `0dca7c587c0b18cf3d6d0a938d60cbf123c9ba06`, generated `a6d6d1da0ff31fd49a6b0b093fa8172de9b3abd3`, reviewed `587ecfa9a7ee8859e0c8a522d32124ecdf212018`; fixed-path blobs and metadata records matched. Unique remains 175/251; science false.

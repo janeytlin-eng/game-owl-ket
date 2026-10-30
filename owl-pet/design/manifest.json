@@ -11199,8 +11199,31 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 2,
       "archive_note": "Original/crops and two edits opened. Adults/text/habitat/support pass; final juvenile has dull greyish-yellow eyes and continuous low-contrast mesoptile with no adult wing panel; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "0598a72a5105755f47dfdb8b993c4cdc589bfb83",
+      "fixed_commit": "0598a72a5105755f47dfdb8b993c4cdc589bfb83",
+      "verified_at": "2026-10-30T20:03:00+08:00",
+      "verification_result": "fixed archive returned exact image blobs/URLs; manifest561 and run/research/source/knowledge/state matched; batch5/6 next6; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "0598a72a5105755f47dfdb8b993c4cdc589bfb83",
+        "concept": {
+          "blob": "0dca7c587c0b18cf3d6d0a938d60cbf123c9ba06",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/0598a72a5105755f47dfdb8b993c4cdc589bfb83/owl-pet/design/concepts/54-bubo-africanus-v4.png"
+        },
+        "generated": {
+          "blob": "a6d6d1da0ff31fd49a6b0b093fa8172de9b3abd3",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/0598a72a5105755f47dfdb8b993c4cdc589bfb83/owl-pet/production/generated/54-bubo-africanus-v4-generated-master.png"
+        },
+        "reviewed": {
+          "blob": "587ecfa9a7ee8859e0c8a522d32124ecdf212018",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/0598a72a5105755f47dfdb8b993c4cdc589bfb83/owl-pet/production/reviewed/54-bubo-africanus-v4-reviewed-master.png"
+        },
+        "manifest_count": 561,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T20:01:00+08:00"
+  "updated_at": "2026-10-30T20:03:00+08:00"
 }

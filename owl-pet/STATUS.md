@@ -2457,3 +2457,6 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 ### #54 v4 archive prepared — 2026-10-30T20:01:00+08:00
 - Concept `0dca7c587c0b18cf3d6d0a938d60cbf123c9ba06`; generated `a6d6d1da0ff31fd49a6b0b093fa8172de9b3abd3`; reviewed `587ecfa9a7ee8859e0c8a522d32124ecdf212018`; manifest 560→561. Two juvenile-only edits corrected adult-bright eyes and mature wing panel; full/crop recheck passed; unique 175/251; science false; readback pending.
+
+### #54 v4 VERIFIED — 2026-10-30T20:03:00+08:00
+- Fixed archive `0598a72a5105755f47dfdb8b993c4cdc589bfb83` returned exact image blobs/URLs; manifest 561 and supporting records matched. Batch 5/6, next cycle 6; unique 175/251; science false.

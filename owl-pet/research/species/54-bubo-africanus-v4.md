@@ -73,3 +73,6 @@ Strict negatives: no extra owl, egg or prey; no orange adult eyes; no black/brow
 - Edit 1 (62.4 s) reduced wing maturity but crop still showed saturated yellow eyes and a discrete spotted wing panel.
 - Edit 2 (57.0 s) made irises dull grey-olive/yellow and replaced the wing panel with continuous fine mesoptile.
 - Final 1536×1024 and crop reopened. PASS_WITH_LIMITATIONS; exact age/locomotion/feather geometry unknown; science false.
+
+## Archive verification
+Fixed archive `0598a72a5105755f47dfdb8b993c4cdc589bfb83` returned exact concept/generated/reviewed blob SHAs and URLs; manifest 561 and run/source-index/knowledge/state markers matched. Production workflow VERIFIED; science false.

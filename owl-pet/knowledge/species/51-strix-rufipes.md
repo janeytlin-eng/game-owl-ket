@@ -64,3 +64,9 @@
 - Technical archive status: ARCHIVED pending fixed-commit readback. Scientific status remains false for exact feather sequence, quantitative dichromatism/size, population transfer and rehabilitation-to-wild behavior.
 
 - Immutable archive verification: commit `40c34065764b33d10c44a872d4493bf5db0f8737`; concept blob `224c84642623e9f062d04124a2495fcc6ab4094d`, generated blob `93c81e877ea565f2c137ad58bb615a74f4c88424`, reviewed blob `5e8854fd0677d6bb0ccdcddcc944755479d1b704`; exact byte sizes and required text markers passed. Unique species count unchanged at 184/251; science remains false.
+
+
+## 2026-10-30 v4 research-ready
+- Mikkola printed p.333 directly separates whitish downy chick from warm-buff, indistinctly barred mesoptile; v4 selects the earlier age-unknown white-down stage and does not reuse v3's one-month rehab plumage.
+- Adult dark-male/markedly paler-female direction retained from Mikkola and MMA; female fullness does not become exaggerated height.
+- UdeC 2026 thesis abstract confirms subspecies uncertainty; no insular juvenile details are transferred. Exact chick age/movement and feather chronology remain unknown; science false.

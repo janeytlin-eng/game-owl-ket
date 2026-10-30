@@ -110,3 +110,8 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - A historical species name on a primary field record does not guarantee that its locality still belongs to the repository's current species concept after a later split.
 - Before using a striking nest or juvenile record, compare locality, date/name combination, current roster and split treatment. If mapping is unresolved, keep the record indexed as valuable but quarantine it from visual evidence instead of silently assigning it.
 - Applied to #50 *Strix virgata* v4: the exceptional 2017 Costa Rica ground-burrow record remains research evidence but is not visualized because older *Ciccaba virgata* versus northern *S. squamulata* mapping is unresolved. The 1536×1024 original and 680×453 derivative were opened and showed the modal tree-cavity South American direction with no ground-burrow leakage. This validates the gate for this plate only, not the unresolved taxonomy.
+
+
+## 2026-10-30 within-species stage separation — discovered/applied; validation pending
+- “Downy chick” and “mesoptile/one-month juvenile” are separate evidence stages even within one species. Do not blend later warm-buff barring or formed wings into an earlier whitish-down design.
+- Applied to #51 v4; actual-image validation pending.

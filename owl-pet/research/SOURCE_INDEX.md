@@ -178,3 +178,19 @@
 - **MOWL-GERHARDT-1997:** prior quantified adult Tikal sample reused for sex-direction context, not as a Colombian display-scale equation.
 - **Correction:** older Central American *Ciccaba virgata* records cannot automatically be painted as current South American *Strix virgata* after a possible northern split. V4 uses Mikkola's South American adult direction and age-unknown mesoptile; the Costa Rica ground-burrow record is not visualized.
 - **Source/design delta:** new3 / reused3 / corrected1; science false.
+
+
+## 2026-10-30 — #51 *Strix rufipes* v4 developmental-stage separation
+
+### RLO-MIKKOLA-2013-P333
+- **Source:** Heimo Mikkola, *Owls of the World*, 2nd ed. (2013), Library `libfile_916e2244186c81918fe5a0716884b8c9`, internal PDF p.335 / printed p.333; complete page read 2026-10-30.
+- **Facts:** 33–38 cm; females longer-winged and obviously heavier, no sexed weights; males generally darker; dark/pale morphs. Adult eyes dark brown, bill wax-yellow, ochre/orange-brown disc, barred cinnamon-buff underparts and feathered rufous legs. Downy chick whitish; mesoptile warm buff, indistinctly dusky-barred with tawny disc and white head flecks.
+- **Limits/design:** no chick age/movement; v4 selects age-unknown whitish downy stage with full cavity support and no mature wing/tail, explicitly separate from v3's photographed one-month mesoptile.
+
+### RLO-UDEC-2026
+- **Title/institution:** Martínez Quintana, “Filogenia, bioacústica y modelamiento de nicho ecológico de *Strix rufipes* …” / Universidad de Concepción thesis / 2026.
+- **URL:** https://repositorio.udec.cl/items/880e7500-0d9e-46d9-aa16-50a0bd7195e8
+- **Read:** institutional metadata and abstract, 2026-10-30.
+- **Fact/limit:** subspecies validity remains uncertain; insular *sanborni* was described from a juvenile specimen. Abstract supplies no chick plumage chronology, so it is a taxonomy warning only.
+- **Reused:** `RLO-MMA-2015` adult dichromatism/mature Nothofagus; `RLO-ESCOBAR-2022` limited 30-day incubation/34-day nestling context; `RLO-FIGUEROA-2017` one-month rehab juvenile.
+- **Correction:** do not merge the direct white-down chick description with the later one-month warm-buff rehab photograph. New2/reused3/corrected1; science false.

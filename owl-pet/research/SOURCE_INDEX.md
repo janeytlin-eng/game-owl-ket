@@ -540,3 +540,8 @@
 - **Visual evidence:** v3 fixed original opened via read-only raw GitHub URL; identity/support/stage pass, but scale encoding was more precise than the evidence.
 - **Limits:** exact age/size trajectory/down placement/flight threshold/universal ratio/subspecies variation unknown; science false.
 - **Related:** research/species/68-tyto-tenebricosa-v4.md; production/runs/20261030T235600+0800-cycle-6.md; knowledge/species/68-tyto-tenebricosa.md; planned image 68-tyto-tenebricosa-v4.
+
+
+## 2026-10-31 — #69 *Tyto novaehollandiae* v4 inferred-five-week nestling boundary
+
+Reused stable IDs **AMO-DEBUS-WOOD-2007**, **AMO-AUSTRALIAN-MUSEUM-2024**, **VIC-RAPTORS-2023**, and **WHSO-MIKKOLA-2013**; new0/reused4/corrected1. The original study at printed pp.49–52 / PDF pp.1–4 is applied to an inferred ~5-week single captive dark-morph nominate female: thick buff second down, developed mask, and no feathers visible through the down. Mikkola printed p.107 / PDF p.109 supplies general adult/second-down direction; Australian Museum Identification/Habitat/Breeding supplies adult dimorphism and deep-hollow substrate. The age is explicitly inferred, not exact; no cross-morph chronology or fixed sex-size ratio is claimed. Active searches/direct opens returned empty payloads this run and are not counted as sources. [Research](species/69-tyto-novaehollandiae-v4.md) · [Run](../production/runs/20261031T003452+0800-cycle-1.md).

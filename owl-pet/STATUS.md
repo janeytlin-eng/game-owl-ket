@@ -2321,3 +2321,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - 2026-10-30T13:46:00+08:00: #39 v4 first archive binary-size mismatch detected before credit; exact Git-hash-matched blobs supersede all four image paths in correction commit; fixed readback pending.
 
 - 2026-10-30T13:46:00+08:00 — #39 *Glaucidium griseiceps* v4 corrected fixed readback VERIFIED at `6e9cfa528c2fb42a086843aa716aabc55f30a7e3`; 1,978-entry non-truncated tree, exact image/research/manifest blobs and sizes matched; batch **3/6**, next cycle4; unique **175/251**, science false; lease released.
+
+
+## 2026-10-30 13:56 +08 — #40 Cloud-forest Pygmy-Owl v4 archived, verification pending
+
+#40 *Glaucidium nubicola* v4 concept, generated/reviewed PNG and juvenile crop are archived. Original-description re-read corrected the sex-sample boundary; two targeted edits corrected tail and juvenile folded-wing maturity. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 3/6.

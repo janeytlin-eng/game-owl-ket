@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T13:46:00+08:00",
+  "updated": "2026-10-30T13:56:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10270,7 +10270,53 @@
         "run_blob_at_archive": "f25c1c57b18cb35615efdb0c104d3b9be8751a2b",
         "knowledge_blob": "49339d8bd03f4a3d7b15bd465c30cb6541de83ee"
       }
+    },
+    {
+      "id": "40-glaucidium-nubicola-v4",
+      "path": "design/concepts/40-glaucidium-nubicola-v4.png",
+      "species_id": 40,
+      "scientific_name": "Glaucidium nubicola",
+      "historical_names": [],
+      "common_name": "Cloud-forest Pygmy-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "06972a3be9c7b7fa0609e11cf4e4f42fef0040150322715c9da662ed99588501",
+      "size_bytes": 2936126,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Robbins & Stiles 1999 printed pp.306–312 supports the compact short-tailed adult, sparse mantle/flank marks, bold scapular/wing spots, false eyes and wet 1,400–2,000 m cloud forest. The series had six males but only one female, an extreme rufous morph, so v4 does not generalize female color or size. Two targeted edits shortened the male to five incomplete tail bands and replaced the juvenile's mature-looking tail/primary tips with a compact soft wing and short tail. Exact juvenile plumage, age, iris chronology, nest and independent flight remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "source_ids": [
+        "CFPO-ITIS-2025",
+        "SRC-PAPER-040-02",
+        "SRC-BOOK-040-01",
+        "SRC-PAPER-040-03",
+        "CFPO-EBIRD-ID-2026",
+        "CFPO-BIRDSCOLOMBIA-IMMATURE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--40-glaucidium-nubicola-v4--current-name-and-sex-sample-correction",
+      "research_record": "research/species/40-glaucidium-nubicola-v4.md",
+      "run_record": "production/runs/20261030T134700+0800-cycle-4.md",
+      "generated_path": "production/generated/40-glaucidium-nubicola-v4-generated.png",
+      "generated_blob": "ab28f168a4700c85ca8e5de8047388f5bf0d919d",
+      "generated_sha256": "bb543d16ab48ff338f1830b254be454c668ea049d9e1d4f6b0a85cf56c0d87e5",
+      "generated_size_bytes": 3278220,
+      "reviewed_path": "production/reviewed/40-glaucidium-nubicola-v4.png",
+      "reviewed_blob": "22381bc4a4ba92e229bd460ddb968848acc0ef1b",
+      "reviewed_sha256": "06972a3be9c7b7fa0609e11cf4e4f42fef0040150322715c9da662ed99588501",
+      "reviewed_size_bytes": 2936126,
+      "review_crop_path": "production/review-crops/40-glaucidium-nubicola-v4-juvenile.png",
+      "review_crop_blob": "86947de0fcaf5bbbee7b32f8b2a14e3d74a810cd",
+      "review_crop_sha256": "fc9bc54a0027a822310996e299cb419e9f4dede0a911e85de45f49ea2b0a9355",
+      "review_crop_size_bytes": 640737,
+      "archive_note": "V1-v3 retained. Two targeted edits corrected adult tail-band count/proportion and juvenile tail/wing maturity; final 1536x1024 plate and 560x700 crop reopened. Single-female rufous morph not generalized. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null
     }
   ],
-  "updated_at": "2026-10-30T13:46:00+08:00"
+  "updated_at": "2026-10-30T13:56:00+08:00"
 }

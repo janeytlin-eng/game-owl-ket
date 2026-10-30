@@ -1352,3 +1352,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-30T13:46:00+08:00: detected and corrected #39 v4 binary transfer mismatch before credit; exact local Git hashes now stage the concept/generated/reviewed/crop paths; fixed readback pending.
 
 - 2026-10-30T13:46:00+08:00 — verified #39 v4 corrected fixed archive `6e9cfa528c2fb42a086843aa716aabc55f30a7e3`; exact image and indexed records matched after the transfer correction. Batch 3/6, next cycle4; unique +0; science false.
+
+
+- 2026-10-30T13:56:00+08:00: archived #40 *Glaucidium nubicola* v4. ITIS current name and Robbins & Stiles 1999 printed pp.306–312 added; the sole extreme-rufous female was not generalized. Two edits corrected adult tail bands/proportion and juvenile tail/wing maturity. Full plate and crop reopened. Manifests design559 / production550 / legacy548; fixed readback pending; science false.

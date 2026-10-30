@@ -79,3 +79,16 @@ ADULT MALE and ADULT FEMALE: compact heavy-bodied short-tailed pygmy-owls, round
 JUVENILE: conservative recently fledged individual on a lower mossy branch, both feet fully gripping support, lower compact posture. Its plumage, age, iris chronology and flight capacity are not described in the primary record. Use an unspotted crown only as a tentative secondary-caption boundary, plain back, soft rounded contour, compact soft folded wing without crisp adult-like spot rows, and a distinctly shorter softer tail without mature regular bars. Subdued dark olive-brown iris is a design-neutral choice, not a scientific claim. Do not depict a hatchling, nestling, unsupported branch pose, spread flight, mature wing coverts, or mature long barred tail.
 
 Habitat: steep, very wet western-Andean Chocó cloud forest at 1,400–2,000 m, moss, epiphytes, mist and dense wet greenery. Three distinct natural poses, clean anatomical separation. No prey, no nest, no extra birds, no watermark, no decorative text beyond the exact title and labels.
+
+
+### v4 image review and archive
+
+- Initial 1536×1024 render passed title, exactly-three count, adult near-equal scale, no ear tufts, male false-eye, environment and all-foot support.
+- Edit 1 shortened the male tail to five incomplete bands and softened/shortened the juvenile tail.
+- Dedicated 560×700 juvenile crop then exposed long mature-looking primary tips; edit 2 replaced them with a compact rounded soft folded wing ending above the feet.
+- Reopened final 1536×1024 plate and 560×700 crop: `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
+- Concept/reviewed: `design/concepts/40-glaucidium-nubicola-v4.png`, 2,936,126 bytes, SHA-256 `06972a3be9c7b7fa0609e11cf4e4f42fef0040150322715c9da662ed99588501`, Git blob `22381bc4a4ba92e229bd460ddb968848acc0ef1b`.
+- Initial generated: `production/generated/40-glaucidium-nubicola-v4-generated.png`, 3,278,220 bytes, Git blob `ab28f168a4700c85ca8e5de8047388f5bf0d919d`.
+- Juvenile crop: `production/review-crops/40-glaucidium-nubicola-v4-juvenile.png`, 640,737 bytes, Git blob `86947de0fcaf5bbbee7b32f8b2a14e3d74a810cd`.
+- Reusable rule verified in this plate: age-unknown fledgling review must inspect folded-wing tip length in a crop; a short tail alone does not prevent adult-like flight-feather overstatement.
+- Remaining unknowns: exact juvenile age/plumage/iris/flight/nest and population-level sex size direction.

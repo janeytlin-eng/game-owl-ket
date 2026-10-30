@@ -401,3 +401,25 @@
 ### Reused and corrected mapping
 - **Reused:** `TFO-SPNP-PNN-2026`, `TFO-WANG-2013`, `TFO-SUN-NEST-1997`.
 - **Correction:** replace the prompt's exact “upper roughly two-thirds” tarsal-feather fraction with the official, less over-precise “upper/front feathered; lower tarsus and toes bare yellow” boundary.
+
+
+## 2026-10-30 — #61 *Ketupa ketupu* v4 official adult bare-leg gate and early-fern-nestling boundary
+
+### BFOW-NPARKS-BIODIVERSITYSG-2026
+- **Stable ID:** `BFOW-NPARKS-BIODIVERSITYSG-2026`
+- **Title / institution / date:** “Buffy Fish Owl” / BiodiversitySG, National Parks Board Singapore / updated 29 May 2026.
+- **Original URL:** https://biodiversitysg.nparks.gov.sg/our-biodiversity/birds/raptors/buffy-fish-owl/
+- **Accessed:** 2026-10-30.
+- **Source type:** Singapore government biodiversity synthesis.
+- **Species/stage:** *Ketupa ketupu*; adult identification and ecology.
+- **Sections read:** identifying features; habitat and ecology; web page has no page numbers.
+- **Valuable facts:** warm buff-brown, thick dark vertical chest streaks, yellow eyes, outward ear tufts; mangroves/forested streams/reservoirs; bare featherless legs.
+- **Limits/conflicts/credibility:** no juvenile chronology or sexed measurements; high authority for Singapore adult/habitat direction, bounded for development.
+- **Design/review decision:** enforce adult bare lower legs/toes and do not invent quantified sex dimorphism.
+- **Linked records:** `owl-pet/research/species/61-ketupa-ketupu-v4.md`; `owl-pet/production/runs/20261030T214640+0800-cycle-5.md`; planned `owl-pet/design/concepts/61-ketupa-ketupu-v4.jpg`.
+
+### Reused and reopened field sources
+- **BFOW-BESG-NEST-2016:** complete 2016 fern-nest photo-sequence text/captions read; early chick down-covered, resting/shifting, adults nearby; exact age unknown.
+- **BFOW-BESG-FLEDGE-2016:** early chick estimated about two weeks and white-down; later roughly six-week bird adult-feathered on a branch; ages retrospective and not a measured series.
+- **BFOW-SBG-BREED-2016:** dated discovery-to-branch account read; “about two weeks” is since discovery, not a hatch age; short flight inferred.
+- **Correction:** later branch plumage/movement must not be transferred into the early fern nestling; adults' bare legs are independently gated by the official source.

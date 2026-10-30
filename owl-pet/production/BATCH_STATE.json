@@ -8569,45 +8569,47 @@
       "next_cycle": 1,
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Tyto novaehollandiae",
         "species_id": 69,
         "version": 4,
         "run_id": "20261031T003452+0800-cycle-1",
-        "at": "2026-10-31T00:37:20+08:00",
+        "at": "2026-10-31T00:37:40+08:00",
         "run_record": "owl-pet/production/runs/20261031T003452+0800-cycle-1.md",
         "evidence": {
-          "new_sources": 0,
-          "reused_sources": 4,
-          "corrected_applications": 1,
-          "research_record": "owl-pet/research/species/69-tyto-novaehollandiae-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "generated_path": "owl-pet/production/generated/69-tyto-novaehollandiae-v4-generated-master.png",
+          "dimensions": "1536x1024",
+          "size_bytes": 3151855,
+          "sha256": "4bbfa43688d91b2fa515d425de79458cc47f69db845080f954604bbcbd60fe75",
+          "imagegen_wait_seconds": 44.6,
+          "edit_count": 0,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T00:37:20+08:00",
+      "last_updated_at": "2026-10-31T00:37:40+08:00",
       "audit_notes": [
         "2026-10-31T00:34:52+08:00 cycle1 #69 Tyto novaehollandiae v4 SCIENCE_REVISION STARTED; latest main/batch/species card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
-        "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit."
+        "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit.",
+        "2026-10-31T00:37:40+08:00 cycle1 #69 v4 IMAGE_GENERATED in 44.6s; 1536x1024 original opened. Exact text/count, adult identity and bounded dimorphism, thick buff estimated-five-week nestling with hidden wings/tail, hollow substrate and all-foot support passed initial inspection; no edit indicated; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T003452+0800-cycle-1",
-        "heartbeat_at": "2026-10-31T00:37:20+08:00",
-        "expires_at": "2026-10-31T00:52:20+08:00"
+        "heartbeat_at": "2026-10-31T00:37:40+08:00",
+        "expires_at": "2026-10-31T00:52:40+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T003452+0800-cycle-1",
-        "heartbeat_at": "2026-10-31T00:37:20+08:00",
-        "expires_at": "2026-10-31T00:52:20+08:00"
+        "heartbeat_at": "2026-10-31T00:37:40+08:00",
+        "expires_at": "2026-10-31T00:52:40+08:00"
       },
       "in_progress": {
         "cycle": 1,
         "species": "Tyto novaehollandiae",
         "species_id": 69,
         "version": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261031T003452+0800-cycle-1"
       }
     }
@@ -8615,8 +8617,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261031T003452+0800-cycle-1",
-    "heartbeat_at": "2026-10-31T00:37:20+08:00",
-    "expires_at": "2026-10-31T00:52:20+08:00"
+    "heartbeat_at": "2026-10-31T00:37:40+08:00",
+    "expires_at": "2026-10-31T00:52:40+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9182,7 +9184,7 @@
     "species": "Tyto novaehollandiae",
     "species_id": 69,
     "version": 4,
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "run_id": "20261031T003452+0800-cycle-1"
   },
   "last_checkpoint": {

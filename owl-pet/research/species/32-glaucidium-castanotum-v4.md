@@ -46,3 +46,10 @@ Scene: Sri Lankan wet-zone evergreen rainforest resembling Sinharaja or Kitulgal
 - Adults: rich red-chestnut mantle, fewer chest bars than #31, white lower underparts with dark longitudinal streaks, yellow eyes, no ear tufts or false eyes; female only subtly fuller.
 - Juvenile: softer chestnut, muted irregular wing marks rather than crisp white rows, compact formed wing, short soft tail, both feet and natural branch support.
 - Result: **PASS_WITH_LIMITATIONS**. Exact age, flight threshold, independence, continuous feather sequence and sexed measurements remain unknown; science false.
+
+
+## Archive checkpoint
+
+- ARCHIVED at 2026-10-30T09:05:00+08:00; manifest entry `32-glaucidium-castanotum-v4`, unique increment 0.
+- Concept path `../../design/concepts/32-glaucidium-castanotum-v4.png`; reviewed binary `56321493…`, 3,108,715 bytes; crop `4699b417…`, 706,212 bytes.
+- Fixed-commit readback pending; no credit until VERIFIED.

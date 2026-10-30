@@ -7808,8 +7808,8 @@
         "run_id": "20261030T085300+0800-cycle-2",
         "cycle": 2,
         "species_no": "32",
-        "heartbeat_at": "2026-10-30T09:03:00+08:00",
-        "expires_at": "2026-10-30T09:18:00+08:00"
+        "heartbeat_at": "2026-10-30T09:05:00+08:00",
+        "expires_at": "2026-10-30T09:20:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T0830+0800",
@@ -7818,26 +7818,21 @@
         "species": "Glaucidium castanotum",
         "version": "v4",
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261030T085300+0800-cycle-2.md"
       },
       "last_checkpoint": {
-        "stage": "REVIEWED",
-        "at": "2026-10-30T09:03:00+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-10-30T09:05:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T085300+0800-cycle-2.md",
         "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/32-glaucidium-castanotum-v4-reviewed.png",
-          "reviewed_git_blob": "5599f6d607230e9e5da3174528104f44e1bc87f5",
-          "reviewed_sha256": "56321493348555b31752618dd2b9bace11b61a637afa9d81629edd08036afd12",
-          "reviewed_bytes": 3108715,
+          "concept_path": "owl-pet/design/concepts/32-glaucidium-castanotum-v4.png",
+          "concept_git_blob": "5599f6d607230e9e5da3174528104f44e1bc87f5",
+          "sha256": "56321493348555b31752618dd2b9bace11b61a637afa9d81629edd08036afd12",
+          "bytes": 3108715,
           "dimensions": "1536x1024",
-          "crop_path": "owl-pet/production/review-crops/32-glaucidium-castanotum-v4-juvenile.png",
-          "crop_git_blob": "70947e1cd3f6b370447639981941f9725945d054",
-          "crop_sha256": "4699b417b4b28aedddd3b10f62238ac27c9b490450b085adaebd6e0b0cbc99c3",
-          "crop_bytes": 706212,
-          "crop_dimensions": "520x700",
-          "edit_count": 0,
-          "result": "PASS_WITH_LIMITATIONS"
+          "manifest_id": "32-glaucidium-castanotum-v4",
+          "readback_pending": true
         }
       }
     }
@@ -7848,8 +7843,8 @@
     "run_id": "20261030T085300+0800-cycle-2",
     "cycle": 2,
     "species_no": "32",
-    "heartbeat_at": "2026-10-30T09:03:00+08:00",
-    "expires_at": "2026-10-30T09:18:00+08:00"
+    "heartbeat_at": "2026-10-30T09:05:00+08:00",
+    "expires_at": "2026-10-30T09:20:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7956,7 +7951,7 @@
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
   ],
-  "updated_at": "2026-10-30T09:03:00+08:00",
+  "updated_at": "2026-10-30T09:05:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -7970,10 +7965,10 @@
     "run_id": "20261030T085300+0800-cycle-2",
     "cycle": 2,
     "species_no": "32",
-    "heartbeat_at": "2026-10-30T09:03:00+08:00",
-    "expires_at": "2026-10-30T09:18:00+08:00"
+    "heartbeat_at": "2026-10-30T09:05:00+08:00",
+    "expires_at": "2026-10-30T09:20:00+08:00"
   },
-  "last_updated_at": "2026-10-30T09:03:00+08:00",
+  "last_updated_at": "2026-10-30T09:05:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8289,7 +8284,8 @@
     "2026-10-30T08:53:00+08:00: batch cycle2 STARTED #32 Glaucidium castanotum v4 SCIENCE_REVISION; 15-minute lease acquired; existing v1-v3 and historical user records retained; no credit.",
     "2026-10-30T08:58:00+08:00: cycle2 #32 v4 RESEARCH_READY; new1/reused5/corrected0; Ceylon Bird Club dated adult records read, IOBSL p.72 and 2014 dependent juvenile observation re-read; exact age, flight threshold, independence and sexed measurements remain unknown; no credit.",
     "2026-10-30T09:00:00+08:00: cycle2 #32 v4 IMAGE_GENERATED after 51-second imagegen wait; full 1536x1024 plate opened. Exact title/count, red chestnut adults, sparse chest bars, streaked white underparts, subtle sex direction, wet forest and supported juvenile pass at full view; crop review pending; no credit.",
-    "2026-10-30T09:03:00+08:00: cycle2 #32 v4 REVIEWED without edit. Full 1536x1024 plate and 520x700 crop reopened: juvenile wing spots are muted/irregular, formed wing and short soft tail fit selected older stage, two-foot support/text/count/adult identity pass. PASS_WITH_LIMITATIONS; exact age/flight/independence and sexed measures unknown; science false; no credit."
+    "2026-10-30T09:03:00+08:00: cycle2 #32 v4 REVIEWED without edit. Full 1536x1024 plate and 520x700 crop reopened: juvenile wing spots are muted/irregular, formed wing and short soft tail fit selected older stage, two-foot support/text/count/adult identity pass. PASS_WITH_LIMITATIONS; exact age/flight/independence and sexed measures unknown; science false; no credit.",
+    "2026-10-30T09:05:00+08:00: cycle2 #32 v4 ARCHIVED as design manifest551 / production manifest542 / legacy manifest540; concept/generated/reviewed 5599f6d607/3108715B, crop 70947e1cd3f6b370447639981941f9725945d054/706212B; fixed readback pending; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-30T0830+0800",
@@ -8298,7 +8294,7 @@
     "species": "Glaucidium castanotum",
     "version": "v4",
     "action": "SCIENCE_REVISION",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261030T085300+0800-cycle-2.md"
   }
 }

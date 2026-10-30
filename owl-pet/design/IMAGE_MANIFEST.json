@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T08:50:00+08:00",
+  "updated": "2026-10-30T09:05:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10472,7 +10472,55 @@
         "run_blob_at_archive": "54fd55fd88711340d9561d49742575350d0eb666",
         "knowledge_blob": "39792f7e373d41b00b6336087da02c4ee55b8007"
       }
+    },
+    {
+      "id": "32-glaucidium-castanotum-v4",
+      "path": "design/concepts/32-glaucidium-castanotum-v4.png",
+      "species_id": 32,
+      "scientific_name": "Glaucidium castanotum",
+      "historical_names": [
+        "Taenioglaux castanonota",
+        "Glaucidium castanonotum",
+        "Athene castanotus"
+      ],
+      "common_name": "Chestnut-backed Owlet",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "56321493348555b31752618dd2b9bace11b61a637afa9d81629edd08036afd12",
+      "size_bytes": 3108715,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Dated Sinharaja juvenile photograph and 19 July 2014 parent-associated observation support an age-unknown fully feathered older dependent bird. First render passed without edit: adults have red chestnut mantle, fewer chest bars than Jungle Owlet and streaked white lower underparts; juvenile has muted irregular wing marks, compact formed wing, short soft tail and full branch support. Exact age, flight threshold, independence, continuous feather sequence and sexed measurements remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "CBOW-CEYLONBIRDCLUB-2009",
+        "CBOW-COMMONS-ABEY2019",
+        "CBOW-EDIRISINGHE-2025",
+        "CBOW-FLICKR-KALUBOWILA-2014",
+        "CBOW-MIKKOLA-2013",
+        "CBOW-PEREGRINE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--32-glaucidium-castanotum-v4--dated-adult-photo-series",
+      "research_record": "research/species/32-glaucidium-castanotum-v4.md",
+      "run_record": "production/runs/20261030T085300+0800-cycle-2.md",
+      "generated_path": "production/generated/32-glaucidium-castanotum-v4-generated.png",
+      "generated_blob": "5599f6d607230e9e5da3174528104f44e1bc87f5",
+      "generated_sha256": "56321493348555b31752618dd2b9bace11b61a637afa9d81629edd08036afd12",
+      "generated_size_bytes": 3108715,
+      "reviewed_path": "production/reviewed/32-glaucidium-castanotum-v4-reviewed.png",
+      "reviewed_blob": "5599f6d607230e9e5da3174528104f44e1bc87f5",
+      "reviewed_sha256": "56321493348555b31752618dd2b9bace11b61a637afa9d81629edd08036afd12",
+      "reviewed_size_bytes": 3108715,
+      "review_crop_path": "production/review-crops/32-glaucidium-castanotum-v4-juvenile.png",
+      "review_crop_blob": "70947e1cd3f6b370447639981941f9725945d054",
+      "review_crop_sha256": "4699b417b4b28aedddd3b10f62238ac27c9b490450b085adaebd6e0b0cbc99c3",
+      "review_crop_size_bytes": 706212,
+      "archive_note": "First 1536x1024 full plate and 520x700 juvenile crop were opened and passed without edit. Exact text/count, species separation from #31, adult size direction, muted juvenile wing, short tail and two-foot support passed. Existing v1-v3 and historical records remain retained.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T08:50:00+08:00"
+  "updated_at": "2026-10-30T09:05:00+08:00"
 }

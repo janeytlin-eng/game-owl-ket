@@ -2638,3 +2638,10 @@ Remote verification 2026-10-31T01:39:53+08:00: #77 v4 fixed archive `d3c0236ead2
 
 
 Remote verification 2026-10-31T04:49:30+08:00: #83 v4 fixed archive `4d52a675ded909e923b8d2ce7e43bb0bb4971907` returned exact assets in a non-truncated 2,201-entry tree; manifests 587/586/577 matched. The exact-age/wing/scale correction is verified for this instance; science remains false.
+
+
+### 2026-10-31 — archive decodability is part of visual verification, #84 application
+
+- Discovery: a Git blob and dimensions are insufficient when the PNG IDAT stream cannot fully decode; older broad taxonomic labels also cannot carry developmental timing across current species splits.
+- Applied: #84 v8 preserves damaged v7 as history, rebuilds from complete v6, and limits juvenile traits to the single Patiala brood plus Mikkola adult identity.
+- Verified locally: full JPEG, crop and derivative decode and open; adult discs, juvenile evidence and supports pass. Remote fixed readback remains separate; science false.

@@ -72,3 +72,10 @@ This is a science-calibration rebuild and archive-integrity repair. Do not claim
 - `owl-pet/production/generated/84-otus-bakkamoena-v8-generated-master.jpg`
 - `owl-pet/production/reviewed/84-otus-bakkamoena-v8-reviewed-master.jpg`
 - `owl-pet/production/review-crops/84-otus-bakkamoena-v8-juvenile.jpg`
+
+
+## Actual generation and review
+
+- Full v8 rebuild from complete v6 reference: 40.3 s. 1536×1024 PNG output opened, then persisted as complete JPEG.
+- Full master, 520×700 juvenile crop and 680×453 derivative opened. Exact title/count/labels; adult continuous discs/dark eyes/tufts/support; juvenile blue-grey eyes, grey bill, bare narrow eye margin, no tufts, horizontal bars, concealed underdeveloped wings and bilateral support passed.
+- No edit required after generation; edit_count 0. PASS_WITH_LIMITATIONS; archive integrity repaired locally, not science verified.

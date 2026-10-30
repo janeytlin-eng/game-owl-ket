@@ -12845,7 +12845,55 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "84-otus-bakkamoena-v8",
+      "path": "design/concepts/84-otus-bakkamoena-v8.jpg",
+      "species_id": 84,
+      "scientific_name": "Otus bakkamoena",
+      "historical_names": [
+        "Otus bakkamoena gangeticus"
+      ],
+      "common_name": "Indian Scops Owl",
+      "version": 8,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "0fbe0d22ce52a69f8012742cad47aee6d1ee47582bf6f01d161872a5409962c6",
+      "size_bytes": 202702,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION / ARCHIVE_REPAIR; PASS_WITH_LIMITATIONS. V8 is rebuilt from complete v6 because immutable v7 PNG fails full decode. Adults have dark eyes, tufts and continuous pale facial discs; juvenile retains single-brood blue-grey eyes, grey bill/exposed nostrils, bare periocular margin, no tufts, horizontal bars, concealed underdeveloped wings and bilateral cavity support. Exact age, universal iris transition, flight threshold, subspecies and fixed sex-size ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "BAK-BRRAICH-SINGH2021",
+        "BAK-MIK2013-150"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--84-otus-bakkamoena-v8-archive-repair-and-taxonomic-transfer-boundary",
+      "research_record": "research/species/84-otus-bakkamoena-v8.md",
+      "run_record": "production/runs/20261031T045100+0800-cycle-2.md",
+      "reviewed_at": "2026-10-31T04:59:30+08:00",
+      "generated_path": "production/generated/84-otus-bakkamoena-v8-generated-master.jpg",
+      "generated_blob": "3f46f145defc083faf1ef6fefe5b360ee35f2790",
+      "generated_sha256": "15f023e7bfd3c36bb2dbb44fbbcf7faebeb05d50ae0af6bad5379188169717a7",
+      "generated_size_bytes": 746608,
+      "reviewed_path": "production/reviewed/84-otus-bakkamoena-v8-reviewed-master.jpg",
+      "reviewed_blob": "3f46f145defc083faf1ef6fefe5b360ee35f2790",
+      "reviewed_sha256": "15f023e7bfd3c36bb2dbb44fbbcf7faebeb05d50ae0af6bad5379188169717a7",
+      "reviewed_size_bytes": 746608,
+      "review_crop_path": "production/review-crops/84-otus-bakkamoena-v8-juvenile.jpg",
+      "review_crop_blob": "0174f3829512905358f09e2328a743da3358ceda",
+      "review_crop_sha256": "28153a43b5c0da73c97b323ba1df762823677de3d03f5769ceee28d6ad56aa09",
+      "review_crop_size_bytes": 183684,
+      "archive_note": "V1-v7 preserved; v7 corruption documented. Complete v6 reopened and full-JPEG v8 rebuild reviewed. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "git_blob": "0a17d5dd52cf03afd3ee031959b41a73a98c6a54",
+      "fixed_commit": null,
+      "verification_result": "PENDING fixed-commit readback."
     }
   ],
-  "updated_at": "2026-10-31T04:49:30+08:00"
+  "updated_at": "2026-10-31T05:02:00+08:00"
 }

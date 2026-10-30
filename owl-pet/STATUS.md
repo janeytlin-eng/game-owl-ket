@@ -2743,3 +2743,10 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 
 - Fixed archive `4d52a675ded909e923b8d2ce7e43bb0bb4971907` returned exact complete concept/generated/reviewed/crop payloads, expected Git blobs and sizes in a non-truncated 2,201-entry tree; manifests 587/586/577 and support records matched.
 - Batch `2026-10-31T0430+0800` is 1/6, next cycle 2. Unique remains 175/251; science false.
+
+
+## 2026-10-31T05:02:00+08:00 — #84 *Otus bakkamoena* v8 archive prepared
+
+- Preferred v7 immutable PNG was fetched but full decode failed (`IDAT: invalid distance code`); v1–v7 remain preserved. Complete v6 was reopened and used for a full JPEG rebuild.
+- Publisher pp.55–56 and Mikkola printed pp.150–151/PDF pp.152–153 were read; old broad-taxonomy northern developmental timing was excluded.
+- Full 1536×1024 master, 520×700 crop and 680×453 derivative opened; edit0; PASS_WITH_LIMITATIONS. Manifests 588/587/578; unique175/251; fixed readback pending; science false.

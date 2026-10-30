@@ -57,3 +57,12 @@ Pending. Exact juvenile age and continuous feather sequence, sex-specific linear
 - Corrected adult-scale inference: one slightly longer-winged female specimen does not justify a generally taller female. V4 keeps adults near equal and encodes no sex-specific plumage split.
 - Juvenile boundary remains the direct 2008 observation: very wet, ground-supported after a storm, mottled head, unmarked back; exact age, flight ability, nest stage and continuous feather sequence remain unknown.
 - Full prompt and source/design split are stored in [v4 research](../../research/species/39-glaucidium-griseiceps-v4.md) and the [run](../../production/runs/20261030T133100+0800-cycle-3.md). Science remains pending / false.
+
+
+## v4 image review — 2026-10-30
+
+- Initial 1536×1024 render had exactly three birds, correct title/labels and natural support, but the juvenile showed a bright yellow iris and repeated pale back/wing marks beyond the evidence boundary.
+- One juvenile-only imagegen edit changed the iris to subdued gray-brown/olive, made the back/wing plain and low contrast, softened/shortened the folded wing and hid the tail while preserving the wet forest-floor posture and adults.
+- Full plate and 560×700 juvenile crop were reopened. PASS_WITH_LIMITATIONS: count/text/support/adult identity/near-equal scale and wet mottled-head/plain-back juvenile boundary pass; exact age, iris, flight, nest and continuous feather chronology remain unknown.
+- Reviewed concept: [39-glaucidium-griseiceps-v4.png](../../design/concepts/39-glaucidium-griseiceps-v4.png), 1536×1024, 3,110,303 bytes, SHA-256 `993350c8b79314062805537e2496347341d43c3fcf3d836cb4c909837c87eb5b`, Git blob `e084659314a2c8dcfee60382167a02da9e54498c`.
+- Scientific status remains pending / false.

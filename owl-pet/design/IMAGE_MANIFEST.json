@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T13:08:00+08:00",
+  "updated": "2026-10-30T13:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11034,7 +11034,57 @@
         "run_blob_at_archive": "36a800e1b0b0aea40fd4ed7c37ab4942332479eb",
         "knowledge_blob": "12f4eaeddb28a513739623336b8b1e2a669d0785"
       }
+    },
+    {
+      "id": "39-glaucidium-griseiceps-v4",
+      "path": "design/concepts/39-glaucidium-griseiceps-v4.png",
+      "species_id": 39,
+      "scientific_name": "Glaucidium griseiceps",
+      "historical_names": [
+        "Glaucidium minutissimum rarum Griscom, 1931 (historical combination)",
+        "Glaucidium griseiceps rarum Griscom, 1931 (former lower-rank name)",
+        "Glaucidium griseiceps occultum R. T. Moore, 1947 (former lower-rank name)"
+      ],
+      "common_name": "Central American Pygmy-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "993350c8b79314062805537e2496347341d43c3fcf3d836cb4c909837c87eb5b",
+      "size_bytes": 3110303,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Wetmore 1965 printed p.167 states adult sexes alike and provides the adult/immature diagnosis; the 2008 primary field record directly supports a very wet, age-unknown forest-floor juvenile with mottled head and unmarked back. One juvenile-only edit neutralized unsupported bright iris color and removed adult-like pale back/wing markings. Exact juvenile age, iris, feather sequence, flight ability, nest position and population-level sex dimorphism remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "CAPO-WETMORE-1965",
+        "SRC-PAPER-039-01",
+        "CAPO-BIRDLIFE-2026",
+        "CAPO-EBIRD-ID-2026",
+        "SRC-WEB-039-03",
+        "SRC-WEB-039-04"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--39-glaucidium-griseiceps-v4--historical-adultimmature-diagnosis-and-sex-scale-boundary",
+      "research_record": "research/species/39-glaucidium-griseiceps-v4.md",
+      "run_record": "production/runs/20261030T133100+0800-cycle-3.md",
+      "generated_path": "production/generated/39-glaucidium-griseiceps-v4-initial.png",
+      "generated_blob": "aceeb789a3d1195f7a39210687243f6ce36c1bd2",
+      "generated_sha256": "a63bcb409c54585e5706b058f596e0a23d7a6c00702061c6523616d61de36b63",
+      "generated_size_bytes": 3344526,
+      "reviewed_path": "production/reviewed/39-glaucidium-griseiceps-v4.png",
+      "reviewed_blob": "e084659314a2c8dcfee60382167a02da9e54498c",
+      "reviewed_sha256": "993350c8b79314062805537e2496347341d43c3fcf3d836cb4c909837c87eb5b",
+      "reviewed_size_bytes": 3110303,
+      "review_crop_path": "production/review-crops/39-glaucidium-griseiceps-v4-juvenile.png",
+      "review_crop_blob": "1cb7df9580137f2749279605b3a1a4110d1d31ee",
+      "review_crop_sha256": "51002125ce4f59eec07389e79cc75d1ea815cd8938debd83451b11c715886ad4",
+      "review_crop_size_bytes": 793303,
+      "archive_note": "V1-v3 retained. One juvenile-only iris/wing-pattern edit; full 1536x1024 plate and 560x700 crop reopened. Source/design inference separated. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null
     }
   ],
-  "updated_at": "2026-10-30T13:08:00+08:00"
+  "updated_at": "2026-10-30T13:44:00+08:00"
 }

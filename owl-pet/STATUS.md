@@ -2312,3 +2312,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-30T13:08:00+08:00 — #38 *Glaucidium nana* v4 fixed readback VERIFIED at archive `19e81f4885695fcf8a835d360586d5d0b59610ad`; 1,971-entry non-truncated tree, exact image/research/manifest blobs and restored 8,710-byte knowledge card matched; batch `2026-10-30T1230+0800` is 2/6, next cycle 3. Science remains false / PASS_WITH_LIMITATIONS.
+
+
+## 2026-10-30 13:44 +08 — #39 Central American Pygmy-Owl v4 archived, verification pending
+
+#39 *Glaucidium griseiceps* v4 concept, generated/reviewed PNG and juvenile crop are archived. Wetmore 1965 printed p.167 added adult/immature diagnostics and an adult-sexes-alike boundary. One juvenile-only edit neutralized unsupported iris color and removed adult-like pale back/wing pattern. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 2/6.

@@ -9019,25 +9019,28 @@
       "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Pulsatrix koeniswaldiana",
         "species_id": 94,
         "version": 5,
         "run_id": "20261031T071300+0800-cycle-4",
-        "at": "2026-10-31T07:17:00+08:00",
+        "at": "2026-10-31T07:20:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/94-pulsatrix-koeniswaldiana-v5-generated-master.png",
-          "reviewed_path": "owl-pet/production/reviewed/94-pulsatrix-koeniswaldiana-v5-reviewed-master.png",
-          "crop_path": "owl-pet/production/review-crops/94-pulsatrix-koeniswaldiana-v5-juvenile.png",
-          "image_sha256": "d690c8fac600439c13891da23b1f933e781aadb0f7026ff5233491a0def964d6",
-          "crop_sha256": "da642095fa048ce5daf9104c9043b98df061a883e1691e158ca8396971d54043",
-          "review": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
+          "concept_path": "owl-pet/design/concepts/94-pulsatrix-koeniswaldiana-v5.png",
+          "git_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+          "sha256": "d690c8fac600439c13891da23b1f933e781aadb0f7026ff5233491a0def964d6",
+          "size_bytes": 2856775,
+          "manifest_counts": {
+            "legacy": 596,
+            "design": 595,
+            "production": 586
+          },
+          "readback_pending": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T07:17:00+08:00",
+      "last_updated_at": "2026-10-31T07:20:00+08:00",
       "audit_notes": [
         "2026-10-31T06:36:00+08:00: reconciled expired top-level orphan lease/run 20261031T043000+0800-cycle-1 after confirming batch 2026-10-31T0430+0800 already COMPLETE 6/6 and #83 fixed archive recorded; no duplicate credit.",
         "2026-10-31T06:36:00+08:00: cycle1 #90 Tyto furcata pratincola v5 SCIENCE_REVISION STARTED and RESEARCH_READY; v1-v4 preserved; v4 actual image opened; only missing repository number in title identified; 15-minute lease acquired; sources indexed new2/reused2/corrected1; no cycle credit.",
@@ -9054,19 +9057,20 @@
         "2026-10-31T07:08:00+08:00: cycle3 #93 v3 ARCHIVED; four assets/manifests595/594/585 and support records prepared; readback pending; unique175/251; sciencefalse.",
         "2026-10-31T07:10:00+08:00: cycle3 #93 v3 VERIFIED fixed archive 362281f4d87b5225fefbecfbb149ca9ee940868c; exact four assets, non-truncated 2253-entry tree and manifests 595/594/585 matched; batch3/6 next4; lease released.",
         "2026-10-31T07:13:00+08:00: cycle4 #94 Pulsatrix koeniswaldiana v5 STARTED/RESEARCH_READY; v4 actual opened, only number94 absent; adult/age-unknown post-cavity juvenile/support pass; sources index new2/reused3/corrected1; lease acquired; no credit.",
-        "2026-10-31T07:17:00+08:00: cycle4 #94 v5 IMAGE_GENERATED after 43.2s and REVIEWED edit0; full 1536x1024 plate and 620x730 crop opened. Exact numbered title/count, adults, age-unknown post-cavity juvenile, short partly developed wing, dark mask and bilateral branch support pass; PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-31T07:17:00+08:00: cycle4 #94 v5 IMAGE_GENERATED after 43.2s and REVIEWED edit0; full 1536x1024 plate and 620x730 crop opened. Exact numbered title/count, adults, age-unknown post-cavity juvenile, short partly developed wing, dark mask and bilateral branch support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-31T07:20:00+08:00: cycle4 #94 v5 ARCHIVED as legacy596/design595/production586; concept/generated/reviewed/crop and research/run/knowledge/workflow/status records persisted; fixed readback pending; unique175/251; sciencefalse; no credit."
       ],
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T071300+0800-cycle-4",
-        "heartbeat_at": "2026-10-31T07:17:00+08:00",
-        "expires_at": "2026-10-31T07:32:00+08:00"
+        "heartbeat_at": "2026-10-31T07:20:00+08:00",
+        "expires_at": "2026-10-31T07:35:00+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T071300+0800-cycle-4",
-        "heartbeat_at": "2026-10-31T07:17:00+08:00",
-        "expires_at": "2026-10-31T07:32:00+08:00"
+        "heartbeat_at": "2026-10-31T07:20:00+08:00",
+        "expires_at": "2026-10-31T07:35:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -9075,7 +9079,7 @@
         "version": 5,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T071300+0800-cycle-4",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md"
       }
     }
@@ -9083,8 +9087,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261031T071300+0800-cycle-4",
-    "heartbeat_at": "2026-10-31T07:17:00+08:00",
-    "expires_at": "2026-10-31T07:32:00+08:00"
+    "heartbeat_at": "2026-10-31T07:20:00+08:00",
+    "expires_at": "2026-10-31T07:35:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9217,7 +9221,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T07:17:00+08:00",
+  "updated_at": "2026-10-31T07:20:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9229,10 +9233,10 @@
   "active_lease": {
     "owner": "codex-production",
     "run_id": "20261031T071300+0800-cycle-4",
-    "heartbeat_at": "2026-10-31T07:17:00+08:00",
-    "expires_at": "2026-10-31T07:32:00+08:00"
+    "heartbeat_at": "2026-10-31T07:20:00+08:00",
+    "expires_at": "2026-10-31T07:35:00+08:00"
   },
-  "last_updated_at": "2026-10-31T07:17:00+08:00",
+  "last_updated_at": "2026-10-31T07:20:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9688,26 +9692,29 @@
     "version": 5,
     "action": "SCIENCE_REVISION",
     "run_id": "20261031T071300+0800-cycle-4",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md"
   },
   "last_checkpoint": {
     "cycle": 4,
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "species": "Pulsatrix koeniswaldiana",
     "species_id": 94,
     "version": 5,
     "run_id": "20261031T071300+0800-cycle-4",
-    "at": "2026-10-31T07:17:00+08:00",
+    "at": "2026-10-31T07:20:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md",
     "evidence": {
-      "generated_path": "owl-pet/production/generated/94-pulsatrix-koeniswaldiana-v5-generated-master.png",
-      "reviewed_path": "owl-pet/production/reviewed/94-pulsatrix-koeniswaldiana-v5-reviewed-master.png",
-      "crop_path": "owl-pet/production/review-crops/94-pulsatrix-koeniswaldiana-v5-juvenile.png",
-      "image_sha256": "d690c8fac600439c13891da23b1f933e781aadb0f7026ff5233491a0def964d6",
-      "crop_sha256": "da642095fa048ce5daf9104c9043b98df061a883e1691e158ca8396971d54043",
-      "review": "PASS_WITH_LIMITATIONS",
-      "edit_count": 0,
+      "concept_path": "owl-pet/design/concepts/94-pulsatrix-koeniswaldiana-v5.png",
+      "git_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+      "sha256": "d690c8fac600439c13891da23b1f933e781aadb0f7026ff5233491a0def964d6",
+      "size_bytes": 2856775,
+      "manifest_counts": {
+        "legacy": 596,
+        "design": 595,
+        "production": 586
+      },
+      "readback_pending": true,
       "science": false
     }
   }

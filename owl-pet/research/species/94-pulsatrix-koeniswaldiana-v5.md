@@ -19,3 +19,7 @@ Target: ../../design/concepts/94-pulsatrix-koeniswaldiana-v5.png
 - IMAGE_GENERATED 2026-10-31T07:16:00+08:00 after 43.2 s; title-only edit.
 - REVIEWED 2026-10-31T07:17:00+08:00; full 1536×1024 plate and 620×730 juvenile crop opened; edit count 0.
 - Result: PASS_WITH_LIMITATIONS. Juvenile has residual pale down, dark face, short partly developed wing, hidden tail and bilateral branch grip. Exact age, sex and flight ability remain unknown; science=false.
+
+## Archived
+
+- 2026-10-31T07:20:00+08:00: concept/generated/reviewed/crop plus manifests legacy596/design595/production586 persisted; fixed-commit readback pending.

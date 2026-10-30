@@ -2822,3 +2822,8 @@ Verification 2026-10-31T06:12:00+08:00: fixed archive [`572871e4f9d0882b94da3f7e
 SCIENCE_REVISION PASS_WITH_LIMITATIONS; number89 restored; ~35-day juvenile/support retained; edit0; sciencefalse; unique175/251. [Concept](design/concepts/89-bubo-bengalensis-v4.jpg) · [Research](research/species/89-bubo-bengalensis-v4.md).
 
 Verification 2026-10-31T06:32:00+08:00: #89 v4 archive [`b9c9847113bacdd0e95f16cf206f05e3454c6785`](https://github.com/janeytlin-eng/game-owl-ket/commit/b9c9847113bacdd0e95f16cf206f05e3454c6785) exact; tree2235; manifests592/591/582. Batch6/6 COMPLETE; unique175/251; sciencefalse.
+
+
+### 2026-10-31 #94 *Pulsatrix koeniswaldiana* v5
+
+SCIENCE_REVISION PASS_WITH_LIMITATIONS; number94 restored; age-unknown post-cavity juvenile/support retained; edit0; sciencefalse; unique175/251. [Concept](design/concepts/94-pulsatrix-koeniswaldiana-v5.png) · [Research](research/species/94-pulsatrix-koeniswaldiana-v5.md). Archive prepared at 2026-10-31T07:20:00+08:00; fixed readback pending.

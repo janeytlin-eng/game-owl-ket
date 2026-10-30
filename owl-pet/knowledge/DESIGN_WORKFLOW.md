@@ -602,3 +602,8 @@ The #91 v4 title-only edit was reviewed at whole-plate and juvenile-crop scale. 
 ### 2026-10-31 #93 single-nest stage retention check
 
 The numbering repair preserved the monitored-nest ~24-day facial disc, substantial folded wing and sparse grey residual down. Whole-plate plus crop review found no drift. The primary study is one asynchronous regional brood, so the result is not generalized into a universal 24-day geometry or scientific pass.
+
+
+### 2026-10-31 #94 title-number correction applied
+
+For fixed biological plates whose only verified defect is a missing inventory number, use a title-only imagegen edit, then reopen both full plate and juvenile crop. Preserve the pre-existing evidence boundary; do not use a typography correction to promote scientific status. Applied and reviewed on #94 v5; validated visually, science remains false.

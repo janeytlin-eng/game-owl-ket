@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T07:10:00+08:00",
+  "updated": "2026-10-31T07:20:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13356,7 +13356,48 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "94-pulsatrix-koeniswaldiana-v5",
+      "path": "design/concepts/94-pulsatrix-koeniswaldiana-v5.png",
+      "species_id": 94,
+      "scientific_name": "Pulsatrix koeniswaldiana",
+      "historical_names": [],
+      "common_name": "Tawny-browed Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "d690c8fac600439c13891da23b1f933e781aadb0f7026ff5233491a0def964d6",
+      "size_bytes": 2856775,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V5 restores number94 while preserving the evidence-bounded age-unknown post-cavity juvenile: residual pale down, dark face, short partly developed wing, hidden tail and bilateral branch support. Exact age/sex/flight ability, tract sequence and measured adult pair ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "KOE-PEREIRA2013",
+        "KOE-BOTTAI2013-Y",
+        "KOE-MIK2013-313"
+      ],
+      "research_record": "research/species/94-pulsatrix-koeniswaldiana-v5.md",
+      "run_record": "production/runs/20261031T071300+0800-cycle-4.md",
+      "reviewed_at": "2026-10-31T07:17:00+08:00",
+      "generated_path": "production/generated/94-pulsatrix-koeniswaldiana-v5-generated-master.png",
+      "generated_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+      "generated_sha256": "d690c8fac600439c13891da23b1f933e781aadb0f7026ff5233491a0def964d6",
+      "generated_size_bytes": 2856775,
+      "reviewed_path": "production/reviewed/94-pulsatrix-koeniswaldiana-v5-reviewed-master.png",
+      "reviewed_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+      "reviewed_size_bytes": 2856775,
+      "review_crop_path": "production/review-crops/94-pulsatrix-koeniswaldiana-v5-juvenile.png",
+      "review_crop_blob": "fe11bfbc8eb642dcb7b736327e40323f089ff3c4",
+      "review_crop_size_bytes": 773122,
+      "readback_pending": true,
+      "git_blob": "a47b76dfa673d09805c4fe4b74c5f7a9b7dd7c38",
+      "fixed_archive_commit": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T07:10:00+08:00"
+  "updated_at": "2026-10-31T07:20:00+08:00"
 }

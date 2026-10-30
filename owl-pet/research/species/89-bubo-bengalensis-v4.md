@@ -13,3 +13,7 @@ V4 changes only title to `89 INDIAN EAGLE-OWL`. Exact individual age, sex, local
 ```text
 Precise-object-edit. Change only title “INDIAN EAGLE-OWL” to exactly “89 INDIAN EAGLE-OWL”. Preserve “Bubo bengalensis” and labels “ADULT MALE”, “~35-DAY JUVENILE”, “ADULT FEMALE”. Preserve exactly three birds, adult near-equal height and diagnostic eye/bill/tuft/brow/ruff/streak/bar/foot details, central open-eyed ~35-day soft irregular juvenile plumage, short developing folded wing, short tail, low crouch and both feet supported on mineral rock; preserve ravine, light, crop, typography placement. No extra text/birds, mature juvenile wing, flight pose, logo or watermark.
 ```
+
+## Actual image review
+
+Opened full1536×1024 plate and 520×700 crop. Exact title `89 INDIAN EAGLE-OWL`, scientific/role labels and three-bird count pass. Adult diagnostics/near-equal height and central open-eyed ~35-day soft irregular plumage, short folded wing/tail, low crouch and bilateral mineral support pass. No edit required. PASS_WITH_LIMITATIONS; sciencefalse; exact age/sex/flight/feather tract/RSD unknown.

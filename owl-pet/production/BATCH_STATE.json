@@ -8694,7 +8694,7 @@
     },
     {
       "batch_id": "2026-10-31T0134+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -8746,39 +8746,51 @@
           "unique_species_increment": 0,
           "commit_sha": "908b58ab43127a62c31c1ff9b6b93d9a6a3e9441",
           "run_record": "owl-pet/production/runs/20261031T033000+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus senegalensis",
+          "species_no": "82",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e8967091ffc5fb1dfce11c1b96225a1147ae2ee4",
+          "run_record": "owl-pet/production/runs/20261031T035030+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "last_checkpoint": {
         "cycle": 6,
+        "stage": "VERIFIED",
         "species": "Otus senegalensis",
         "species_id": 82,
         "version": 4,
-        "stage": "ARCHIVED",
         "run_id": "20261031T035030+0800-cycle-6",
-        "at": "2026-10-31T04:02:30+08:00",
+        "at": "2026-10-31T04:05:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T035030+0800-cycle-6.md",
         "evidence": {
+          "fixed_archive_commit": "e8967091ffc5fb1dfce11c1b96225a1147ae2ee4",
+          "exact_asset_readback": true,
           "assets": {
             "concept": {
               "path": "owl-pet/design/concepts/82-otus-senegalensis-v4.jpg",
-              "blob": "be2ea1c77802cdc8fc60bf9c934ef21b37d185c4",
-              "size_bytes": 156448
+              "sha": "be2ea1c77802cdc8fc60bf9c934ef21b37d185c4",
+              "size": 156448
             },
             "generated": {
               "path": "owl-pet/production/generated/82-otus-senegalensis-v4-generated-master.jpg",
-              "blob": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
-              "size_bytes": 565959
+              "sha": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
+              "size": 565959
             },
             "reviewed": {
               "path": "owl-pet/production/reviewed/82-otus-senegalensis-v4-reviewed-master.jpg",
-              "blob": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
-              "size_bytes": 565959
+              "sha": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
+              "size": 565959
             },
             "review_crop": {
               "path": "owl-pet/production/review-crops/82-otus-senegalensis-v4-juvenile.jpg",
-              "blob": "68dde62f85226b210db188aa68119ae18ff96872",
-              "size_bytes": 141087
+              "sha": "68dde62f85226b210db188aa68119ae18ff96872",
+              "size": 141087
             }
           },
           "manifest_counts": {
@@ -8786,13 +8798,11 @@
             "design": 585,
             "production": 576
           },
-          "readback_pending": true,
           "unique_species": "175/251",
-          "science": false,
-          "credit": false
+          "science": false
         }
       },
-      "last_updated_at": "2026-10-31T04:02:30+08:00",
+      "last_updated_at": "2026-10-31T04:05:00+08:00",
       "audit_notes": [
         "2026-10-31T01:34:32+08:00 cycle1 #77 Asio stygius v4 SCIENCE_REVISION STARTED; latest main/batch/v3 research/image checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T01:35:05+08:00 cycle1 #77 v4 RESEARCH_READY; new0/reused5/corrected1; v3 reopened and long layered juvenile wing panel identified as inconsistent with dated poor-remige stage; searches/direct opens empty and not credited; full prompt saved; science false; no credit.",
@@ -8814,30 +8824,14 @@
         "2026-10-31T03:54:30+08:00 cycle6 #82 v4 RESEARCH_READY; new0/reused5/corrected1; range-to-individual label corrected and juvenile wing boundary tightened; searches empty; full prompt saved; science false; no credit.",
         "2026-10-31T03:57:30+08:00 cycle6 #82 v4 IMAGE_GENERATED after 38.8s direct edit; full 1536x1024 opened and persisted; text/count/adults/support/corrected label and softened juvenile wing pass initial review; crop pending; science false; no credit.",
         "2026-10-31T03:59:30+08:00 cycle6 #82 v4 REVIEWED after one direct v3-to-v4 imagegen edit; full/crop/680x453 derivative opened; corrected label, compact juvenile wing, adults and all supports pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-31T04:02:30+08:00 cycle6 #82 v4 ARCHIVED; exact concept/generated/reviewed/crop and manifests586/585/576 plus support records persisted; fixed readback pending; unique175/251; science false; no credit."
+        "2026-10-31T04:02:30+08:00 cycle6 #82 v4 ARCHIVED; exact concept/generated/reviewed/crop and manifests586/585/576 plus support records persisted; fixed readback pending; unique175/251; science false; no credit.",
+        "2026-10-31T04:05:00+08:00 cycle6 #82 v4 VERIFIED at fixed archive e8967091ffc5fb1dfce11c1b96225a1147ae2ee4; exact assets/manifests586/585/576/support records matched; batch COMPLETE 6/6; unique175/251; science false; lease released."
       ],
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T035030+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T04:02:30+08:00",
-        "expires_at": "2026-10-31T04:17:30+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "species": "Otus senegalensis",
-        "species_id": 82,
-        "version": 4,
-        "stage": "ARCHIVED",
-        "run_id": "20261031T035030+0800-cycle-6"
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T035030+0800-cycle-6",
-    "heartbeat_at": "2026-10-31T04:02:30+08:00",
-    "expires_at": "2026-10-31T04:17:30+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -8969,7 +8963,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T04:02:30+08:00",
+  "updated_at": "2026-10-31T04:05:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8978,13 +8972,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T035030+0800-cycle-6",
-    "heartbeat_at": "2026-10-31T04:02:30+08:00",
-    "expires_at": "2026-10-31T04:17:30+08:00"
-  },
-  "last_updated_at": "2026-10-31T04:02:30+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-31T04:05:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9420,46 +9409,42 @@
     "2026-10-31T03:54:30+08:00: cycle6 #82 v4 RESEARCH_READY; no credit.",
     "2026-10-31T03:57:30+08:00: cycle6 #82 v4 IMAGE_GENERATED; review pending; no credit.",
     "2026-10-31T03:59:30+08:00: cycle6 #82 v4 REVIEWED; one edit; no credit.",
-    "2026-10-31T04:02:30+08:00: cycle6 #82 v4 ARCHIVED; fixed readback pending; no credit."
+    "2026-10-31T04:02:30+08:00: cycle6 #82 v4 ARCHIVED; fixed readback pending; no credit.",
+    "2026-10-31T04:05:00+08:00: cycle6 #82 v4 VERIFIED; batch 2026-10-31T0134+0800 COMPLETE 6/6; lease released."
   ],
-  "in_progress": {
-    "cycle": 6,
-    "species": "Otus senegalensis",
-    "species_id": 82,
-    "version": 4,
-    "stage": "ARCHIVED",
-    "run_id": "20261031T035030+0800-cycle-6"
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "cycle": 6,
+    "stage": "VERIFIED",
     "species": "Otus senegalensis",
     "species_id": 82,
     "version": 4,
-    "stage": "ARCHIVED",
     "run_id": "20261031T035030+0800-cycle-6",
-    "at": "2026-10-31T04:02:30+08:00",
+    "at": "2026-10-31T04:05:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T035030+0800-cycle-6.md",
     "evidence": {
+      "fixed_archive_commit": "e8967091ffc5fb1dfce11c1b96225a1147ae2ee4",
+      "exact_asset_readback": true,
       "assets": {
         "concept": {
           "path": "owl-pet/design/concepts/82-otus-senegalensis-v4.jpg",
-          "blob": "be2ea1c77802cdc8fc60bf9c934ef21b37d185c4",
-          "size_bytes": 156448
+          "sha": "be2ea1c77802cdc8fc60bf9c934ef21b37d185c4",
+          "size": 156448
         },
         "generated": {
           "path": "owl-pet/production/generated/82-otus-senegalensis-v4-generated-master.jpg",
-          "blob": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
-          "size_bytes": 565959
+          "sha": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
+          "size": 565959
         },
         "reviewed": {
           "path": "owl-pet/production/reviewed/82-otus-senegalensis-v4-reviewed-master.jpg",
-          "blob": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
-          "size_bytes": 565959
+          "sha": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
+          "size": 565959
         },
         "review_crop": {
           "path": "owl-pet/production/review-crops/82-otus-senegalensis-v4-juvenile.jpg",
-          "blob": "68dde62f85226b210db188aa68119ae18ff96872",
-          "size_bytes": 141087
+          "sha": "68dde62f85226b210db188aa68119ae18ff96872",
+          "size": 141087
         }
       },
       "manifest_counts": {
@@ -9467,10 +9452,8 @@
         "design": 585,
         "production": 576
       },
-      "readback_pending": true,
       "unique_species": "175/251",
-      "science": false,
-      "credit": false
+      "science": false
     }
   }
 }

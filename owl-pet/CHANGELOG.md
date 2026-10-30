@@ -1,3 +1,4 @@
+- 2026-10-30T20:45:00+08:00: #57 *Bubo nipalensis* v4 ARCHIVED after one juvenile-only wing edit and full+derivative review; manifest 563; fixed readback pending; unique +0; science false.
 - 2026-10-30T20:47:00+08:00: #55 *Bubo lacteus* v4 VERIFIED at fixed archive 915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d; exact three image blob/size checks and supporting markers passed. Batch COMPLETE 6/6; unique +0; science false.
 - 2026-10-30T20:43:00+08:00: #55 *Bubo lacteus* v4 ARCHIVED after one juvenile-only wing/eyelid edit and full+derivative review; manifest 562; fixed readback pending; unique +0; science false.
 - 2026-10-30T01:55:08+08:00: Archived #12 Northern Saw-whet Owl v5 science revision. Added two sources, reused three; changed to a supported ~4–5-week juvenal branch stage. Science remains pending.

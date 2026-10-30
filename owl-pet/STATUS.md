@@ -1,3 +1,10 @@
+## 2026-10-30 #57 *Bubo nipalensis* v4 ARCHIVED
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/57-bubo-nipalensis-v4.png](design/concepts/57-bubo-nipalensis-v4.png)
+- Research: new1/reused3/corrected1; Shukla 2025 p.28 date/site is not an age or flight threshold.
+- Archive tree prepared with concept/generated/reviewed blobs; fixed commit readback pending. New batch `2026-10-30T2039+0800` remains 0/6 until VERIFIED.
+
 ## 2026-10-30 #55 *Bubo lacteus* v4 VERIFIED
 
 - SCIENCE_REVISION; one juvenile wing/eyelid edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

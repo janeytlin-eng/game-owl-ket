@@ -1,3 +1,9 @@
+## #57 Spot-bellied Eagle-Owl — *Bubo nipalensis* — v4 science revision
+
+- Concept: [57-bubo-nipalensis-v4.png](concepts/57-bubo-nipalensis-v4.png)
+- Research: [species record](../research/species/57-bubo-nipalensis-v4.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30-57-bubo-nipalensis-v4-outside-nest-date-boundary)
+- Stage: ARCHIVED, fixed readback pending. Age-unknown Pench outside-nest brancher; one juvenile-wing edit removed adult shoulder rows while retaining evidence-supported barred flight feathers; v1–v3 preserved; science false.
+
 ## #55 Verreaux's Eagle-Owl — *Bubo lacteus* — v4 science revision
 
 - Concept: [55-bubo-lacteus-v4.png](concepts/55-bubo-lacteus-v4.png)

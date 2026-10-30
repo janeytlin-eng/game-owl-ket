@@ -1,3 +1,10 @@
+## 2026-10-31 #76 *Asio clamator* v4 VERIFIED
+
+- SCIENCE_REVISION; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- [Concept original](https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/design/concepts/76-asio-clamator-v4.jpg?raw=1) · [generated master](https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/production/generated/76-asio-clamator-v4-generated-master.jpg?raw=1) · [reviewed master](https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/production/reviewed/76-asio-clamator-v4-reviewed-master.jpg?raw=1) · [juvenile crop](https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/production/review-crops/76-asio-clamator-v4-juvenile.jpg?raw=1)
+- Fixed archive [`7567203`](https://github.com/janeytlin-eng/game-owl-ket/commit/75672034f71146d4201c91e41ad710c1c987ed14) returned a non-truncated 2,159-entry tree with exact image blobs/sizes; manifests 580/579/570 and support records matched.
+- Batch `2026-10-31T0034+0800` is COMPLETE 6/6; next cycle is null and lease released.
+
 ## 2026-10-31 #76 *Asio clamator* v4 ARCHIVED — readback pending
 
 - SCIENCE_REVISION; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

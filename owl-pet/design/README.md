@@ -2549,3 +2549,6 @@ Verification 2026-10-31T00:59:35+08:00: #74 v4 fixed archive `53ef96c031c74e9fa6
 - Discovery: a plate can move the evidence-bounded juvenile to the central comparison slot and align adult support baselines without changing age, sex or morphology claims.
 - Applied: #76 *Asio clamator* v4 restored the exact repository number, centered the already supported 25–30-day warm-brown second-stage chick, and kept adults near-equal because the field paper did not establish size direction.
 - Verified locally: full master, juvenile crop and derivative preserve bilateral support and immature wing/tail; first render passed without edit. This validates the layout procedure only, not a universal sex-dimorphism rule.
+
+
+Remote verification 2026-10-31T01:21:30+08:00: #76 v4 fixed archive `75672034f71146d4201c91e41ad710c1c987ed14` returned exact assets in a non-truncated 2,159-entry tree; manifests 580/579/570 matched. The layout procedure is verified for this instance; science remains false.

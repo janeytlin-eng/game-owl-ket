@@ -2,7 +2,7 @@
 
 - Batch/cycle: `2026-10-31T0034+0800` 6/6
 - Run: `20261031T011343+0800-cycle-6`
-- Research completed: 2026-10-31T01:17:30+08:00
+- Research completed: 2026-10-31T01:16:05+08:00
 - Action: SCIENCE_REVISION; v1–v3 retained.
 - Scientific status: false; adult pair differences remain field-inferred and exact size dimorphism, subspecies transfer and full feather chronology remain unknown.
 

@@ -12679,17 +12679,58 @@
       "review_crop_blob": "a33acee5d4ce2b4a7147996ca2cb1c8fc7697bec",
       "review_crop_size_bytes": 178889,
       "archive_note": "V1-v3 preserved. V3 and v4 full master, juvenile crop and 680x453 derivative opened; first v4 render passed without edit. Science false.",
-      "readback_pending": true,
-      "archive_commit": "PENDING_FIXED_COMMIT",
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "75672034f71146d4201c91e41ad710c1c987ed14",
+      "verified_at": "2026-10-31T01:21:30+08:00",
       "git_blob": "64c7144600962c08547583432fe99b3ee0f8e1f1",
-      "fixed_commit": null,
-      "verification_result": "ARCHIVED; fixed-tree readback pending.",
+      "fixed_commit": "75672034f71146d4201c91e41ad710c1c987ed14",
+      "verification_result": "VERIFIED against fixed archive: non-truncated 2,159-entry tree; exact complete JPEG masters, concept and crop; manifests 580/579/570 and supporting records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "75672034f71146d4201c91e41ad710c1c987ed14",
+        "tree_truncated": false,
+        "tree_entries": 2159,
+        "concept": {
+          "path": "owl-pet/design/concepts/76-asio-clamator-v4.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "64c7144600962c08547583432fe99b3ee0f8e1f1",
+          "size": 215419,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/design/concepts/76-asio-clamator-v4.jpg?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/76-asio-clamator-v4-generated-master.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b105b223eb0bc98fc862cb2a72a6c7dd2637b131",
+          "size": 706294,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/production/generated/76-asio-clamator-v4-generated-master.jpg?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/76-asio-clamator-v4-reviewed-master.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b105b223eb0bc98fc862cb2a72a6c7dd2637b131",
+          "size": 706294,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/production/reviewed/76-asio-clamator-v4-reviewed-master.jpg?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/review-crops/76-asio-clamator-v4-juvenile.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a33acee5d4ce2b4a7147996ca2cb1c8fc7697bec",
+          "size": 178889,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/75672034f71146d4201c91e41ad710c1c987ed14/owl-pet/production/review-crops/76-asio-clamator-v4-juvenile.jpg?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 580,
+          "design": 579,
+          "production": 570
+        },
+        "unique_species": "175/251",
         "science": false
       }
     }
   ],
-  "updated_at": "2026-10-31T01:24:15+08:00"
+  "updated_at": "2026-10-31T01:21:30+08:00"
 }

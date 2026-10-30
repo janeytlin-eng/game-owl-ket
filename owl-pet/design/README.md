@@ -1,3 +1,10 @@
+## #82 African Scops Owl — *Otus senegalensis* — v4 science revision
+
+- Concept: [82-otus-senegalensis-v4.jpg](concepts/82-otus-senegalensis-v4.jpg)
+- Research: [82-otus-senegalensis-v4.md](../research/species/82-otus-senegalensis-v4.md)
+- Run: [20261031T035030+0800-cycle-6.md](../production/runs/20261031T035030+0800-cycle-6.md)
+- ARCHIVED; PASS_WITH_LIMITATIONS; fixed readback pending; science false.
+
 ## #81 Eurasian Scops Owl — *Otus scops* — v4 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/908b58ab43127a62c31c1ff9b6b93d9a6a3e9441/owl-pet/design/concepts/81-otus-scops-v4.jpg?raw=1)

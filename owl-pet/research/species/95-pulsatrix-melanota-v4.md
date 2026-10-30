@@ -1,0 +1,14 @@
+# 95 — Pulsatrix melanota v4 research/design boundary
+
+- Batch/cycle: 2026-10-31T0635+0800 · 5/6 · 20261031T072400+0800-cycle-5
+- Actual v3 view: inventory number 95 absent; adult white-X faces, dark irises, pale bills, brown breast bands and reddish-brown belly bars pass. Juvenile is an age-unknown recent fledgling with cinnamon-cream down, black face, short low-contrast developing wing, concealed tail and two-foot/belly support on a broad fork.
+- Active primary reread: MEL-RIVAS2022 pp.84–88/Figs.1–3. Few-days chick and recent fledglings are distinct; v4 retains the recent-fledgling boundary and one documented exposed-fork context without making it universal.
+- Active corroboration: MEL-ECUADOR-DIET-2022 section 2.13/Fig.2 records a recently fledged juvenile with an adult nearby; no exact age or feather dimensions.
+- Reused: MEL-MIK2013-314 and the v3 research/review evidence. Mikkola upload was not directly accessible in this run; repository extraction only.
+- Correction: title number only. Exact age, sex, flight threshold, tract sequence, wing/tail dimensions, adult pair ratio and universal nest choice remain unknown. science=false.
+
+## Full imagegen prompt
+
+Edit the supplied fixed v3 Band-bellied Owl plate. Preserve the whole image and every biological detail exactly: adult male left, age-unknown recent fledgling center, adult female right, all faces, dark irises, pale-yellow bills, adult white-X brows/lores, brown breast bands, reddish-brown belly bars, juvenile cinnamon-cream down, dark facial mask, short soft developing wing, concealed tail, bilateral broad-fork support, humid Andean foothill shade-coffee/plantain forest, subtitle “Pulsatrix melanota”, and all lower labels. Change only the top English title from “BAND-BELLIED OWL” to exactly “95 BAND-BELLIED OWL” in the same centered dark serif type, spacing and size class. Do not alter morphology, scale, posture, support, habitat, subtitle, labels or crop.
+
+Target: ../../design/concepts/95-pulsatrix-melanota-v4.jpg

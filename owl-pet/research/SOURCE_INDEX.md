@@ -785,3 +785,28 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actually read/viewed: metadata and image; residual pale head/collar, dark face/eyes, buff below, brown chest band, developed barred wing/tail and branch grip.
 - Limits: one undated-age image; cannot define flight ability or exact chronology.
 - Design link: #94 history and [v5 research](species/94-pulsatrix-koeniswaldiana-v5.md); shows that older young may legitimately have developed wings.
+
+
+## MEL-RIVAS2022
+
+- **Title:** Primer registro de nidificación y otras observaciones sobre el Búho Ventribandeado (*Pulsatrix melanota*)
+- **Authors / institution:** Tomás Rivas-Fuenzalida & Katherine Burgos-Andrade; Ornitología Neotropical
+- **Year / type:** 2022; primary field study
+- **URL / DOI:** https://www.researchgate.net/publication/361692223_PRIMER_REGISTRO_DE_NIDIFICACION_Y_OTRAS_OBSERVACIONES_SOBRE_EL_BUHO_VENTRIBANDEADO_PULSATRIX_MELANOTA ; https://doi.org/10.58843/ornneo.v33i1.921
+- **Accessed / location:** 2026-10-30 UTC; pp.84–88, especially pp.84–86 and Figs.1–3
+- **Species / stage:** *Pulsatrix melanota*; few-days chick and recent fledglings; Peru
+- **Facts read:** first published nest was an exposed triangular ledge on a fork of *Albizia carbonaria* in shade-coffee/plantain agroforestry. The few-days chick was light cinnamon with white throat/periocular area, yellow cere/culmen and dark iris. Other recent fledglings had cinnamon down, black facial disc and dark iris; the head became whiter as first chest feathers developed.
+- **Limits / confidence:** four young and one nest; no exact fledgling ages, flight threshold, wing dimensions or universal nest-site rule. High confidence for described individuals; do not generalize the fork to every nest.
+- **Design / links:** supports #95 v4’s age-unknown recent fledgling, cinnamon/cream down, black mask, dark iris and supported fork; rejects invented cavity and exact age. See species record and v4 concept.
+
+## MEL-ECUADOR-DIET-2022
+
+- **Title:** What Do We Know about the Diet of Ecuadorian Owls? — section 2.13 *Pulsatrix melanota*
+- **Authors / publisher:** Héctor Cadena-Ortiz and collaborators; IntechOpen
+- **Year / type:** 2022; scholarly synthesis with a documented field observation
+- **URL:** https://www.intechopen.com/chapters/84796
+- **Accessed / location:** 2026-10-30 UTC; section 2.13 and Figure 2
+- **Species / stage:** *Pulsatrix melanota*; recently fledged juvenile; Ecuador, July 2019
+- **Facts read:** Figure 2 records a recently fledged juvenile and pellet; an adult remained close and defended it. Museum stomachs and the juvenile pellet contained insects.
+- **Limits / confidence:** juvenile age and feather dimensions are not supplied; pellet details do not establish exclusive diet. Moderate confidence for stage and adult proximity, not for plumage chronology.
+- **Design / links:** corroborates a supported, non-newborn recent-fledgling scene with an adult nearby; does not authorize flight posture or exact age. See #95 v4 species record.

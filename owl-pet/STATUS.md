@@ -2306,3 +2306,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-30T12:49:00+08:00 — #37 *Glaucidium peruanum* v4 fixed readback VERIFIED at archive `fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2`; 1,965-entry non-truncated tree, exact image/research/manifest blobs and byte sizes matched; batch `2026-10-30T1230+0800` is 1/6, next cycle 2. Science remains false / PASS_WITH_LIMITATIONS.
+
+
+- 2026-10-30T13:03:00+08:00: #38 *Glaucidium nana* v4 ARCHIVED. Concept/generated/reviewed/crop and manifests 557/548/546 persisted; knowledge integrity repaired. Unique 175/251, numbered IDs 185/251; fixed readback pending; batch remains 1/6; science false.

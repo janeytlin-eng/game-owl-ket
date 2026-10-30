@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T12:49:00+08:00",
+  "updated": "2026-10-30T13:03:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10104,7 +10104,88 @@
         "run_blob_at_archive": "257ab7774c8018817edd4d53344a3b4b59307776",
         "knowledge_blob": "6731bf4361dc8d0bb3f2d1819b83fd64c8182c2d"
       }
+    },
+    {
+      "id": "38-glaucidium-nana-v4",
+      "path": "design/concepts/38-glaucidium-nana-v4.png",
+      "species_id": 38,
+      "scientific_name": "Glaucidium nana",
+      "historical_names": [
+        "Strix nana P. P. King, 1827 (original combination)",
+        "Glaucidium nanum (historical grammatical variant)"
+      ],
+      "common_name": "Austral Pygmy Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "ac170d5565e3db67872e81c410088ff7a75782897b0b5cf62e4d362e62966770",
+      "size_bytes": 3103360,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Marks et al. 2018 corrects incubation from unsupported 15–17 d to 26–29 d; Ibarra et al. 2015 Fig.5 supports a branch-perched fledgling but not exact age. One targeted edit removed adult-style juvenile wing spots, softened/shortened the wing and shortened/weakened the tail. Exact age, feather sequence, flight threshold, independence and quantified sex-size ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "AUPO-MARKS-2018",
+        "AUPO-IBARRA-2015",
+        "AUPO-IBARRA-2014",
+        "AUPO-ALTAMIRANO-2012",
+        "SRC-BOOK-038-01",
+        "SRC-WEB-038-02",
+        "SRC-WEB-038-03"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--38-glaucidium-nana-v4-evidence-correction",
+      "research_record": "research/species/38-glaucidium-nana-v4.md",
+      "run_record": "production/runs/20261030T125000+0800-cycle-2.md",
+      "generated_path": "production/generated/38-glaucidium-nana-v4-generated.png",
+      "generated_blob": "9ceaf5f857ee40ba9bb12d62d8ebdfc450dace05",
+      "generated_sha256": "6da7027349706204557ceff7906820a201a5f13cb51dbda539a5cc6d735ebf8c",
+      "generated_size_bytes": 3361296,
+      "reviewed_path": "production/reviewed/38-glaucidium-nana-v4-reviewed.png",
+      "reviewed_blob": "a191a8ba708ced398348e5022e3f33781fddf6dd",
+      "reviewed_sha256": "ac170d5565e3db67872e81c410088ff7a75782897b0b5cf62e4d362e62966770",
+      "reviewed_size_bytes": 3103360,
+      "review_crop_path": "production/review-crops/38-glaucidium-nana-v4-juvenile.jpg",
+      "review_crop_blob": "046a8f34432177a39cf4445c8d3a3eedfa69f78d",
+      "review_crop_sha256": "ac8880269a49b42c9a36a0d138ecb5f5e87fdd70568096464e92ddbc41982a92",
+      "review_crop_size_bytes": 180718,
+      "archive_note": "V1-v3 retained. One juvenile-wing/tail edit; full/crop reopened. Knowledge overwrite caught and restored before archive. Science false.",
+      "readback_pending": true,
+      "archive_commit": "PENDING_FIXED_COMMIT",
+      "fixed_commit": null,
+      "verified_at": null,
+      "verification_result": "pending fixed-commit readback",
+      "readback": {
+        "status": "PENDING",
+        "fixed_commit": null,
+        "concept": {
+          "path": "design/concepts/38-glaucidium-nana-v4.png",
+          "blob": "a191a8ba708ced398348e5022e3f33781fddf6dd",
+          "size_bytes": 3103360
+        },
+        "generated": {
+          "path": "production/generated/38-glaucidium-nana-v4-generated.png",
+          "blob": "9ceaf5f857ee40ba9bb12d62d8ebdfc450dace05",
+          "size_bytes": 3361296
+        },
+        "reviewed": {
+          "path": "production/reviewed/38-glaucidium-nana-v4-reviewed.png",
+          "blob": "a191a8ba708ced398348e5022e3f33781fddf6dd",
+          "size_bytes": 3103360
+        },
+        "review_crop": {
+          "path": "production/review-crops/38-glaucidium-nana-v4-juvenile.jpg",
+          "blob": "046a8f34432177a39cf4445c8d3a3eedfa69f78d",
+          "size_bytes": 180718
+        },
+        "source_index_blob": "3209614946e387ace9664549f0ca0e5cf06a4b65",
+        "source_index_size": 1108727,
+        "research_blob": "fa7ccb7d30995cf50af23322eae87d3f0ef78412",
+        "run_blob_at_archive": "36a800e1b0b0aea40fd4ed7c37ab4942332479eb",
+        "knowledge_blob": "12f4eaeddb28a513739623336b8b1e2a669d0785"
+      }
     }
   ],
-  "updated_at": "2026-10-30T12:49:00+08:00"
+  "updated_at": "2026-10-30T13:03:00+08:00"
 }

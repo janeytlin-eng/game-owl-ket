@@ -26,3 +26,8 @@ Environment: southern Chilean Andean temperate secondary-forest edge with old co
 - Evidence: Marks et al. 2018 documents 26–29 d; Ibarra et al. did not record laying and hatching at the same nest.
 - Change: correct biology record; do not convert incubation or a secondary “about one month” statement into juvenile image age.
 - Visual validation target: exactly three supported birds; near-equal adult scale; male false-eye view; plain-crowned, short-winged/short-tailed branch fledgling without adult spot rows.
+
+
+## Image review result
+
+The first 1536×1024 render had bright adult-like wing spots and a long regularly barred juvenile tail. One targeted edit removed the spots, softened/shortened the wing and shortened/weakened the tail. The edited full plate and 520×790 crop were reopened: exact title/count/labels, adult identity/false eyes/near-equal scale, all-foot support, juvenile plain crown and orange-tinged eyes passed. Exact age, flight threshold and independence remain unknown. PASS_WITH_LIMITATIONS; science false.

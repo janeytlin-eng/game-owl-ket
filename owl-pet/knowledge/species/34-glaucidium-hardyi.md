@@ -49,3 +49,11 @@ Deville & Ingels primary paper pp.23–26 was read. It documents an old woodpeck
 - Sex boundary corrected: one measured female overlaps male wing values, so v4 keeps adults near equal size and does not assert a general female-larger rule.
 - Full prompt and uncertainty boundary: [research card](../../research/species/34-glaucidium-hardyi-v4.md).
 - Stage: RESEARCH_READY; generation pending; science false.
+
+
+## v4 archive checkpoint — 2026-10-30T10:42:48+08:00
+
+- Concept: [34-glaucidium-hardyi-v4.png](../../design/concepts/34-glaucidium-hardyi-v4.png)
+- Research: [v4 card](../../research/species/34-glaucidium-hardyi-v4.md)
+- Review: one juvenile-only iris/wing edit; full plate plus 440×690 crop reopened; `PASS_WITH_LIMITATIONS`.
+- Fixed readback pending; scientific verification remains false.

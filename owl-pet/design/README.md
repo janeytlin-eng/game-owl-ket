@@ -2259,3 +2259,18 @@ When a source photograph labels an individual immature but does not document its
 - Rule applied and visually rechecked on #33 v4: for a known-age full-grown fledgling, inspect wing length and pattern density separately; “formed wing” alone does not authorize adult-length ordered remiges or repeated adult spot rows. Broader effectiveness remains unverified.
 
 - 2026-10-30T09:50:00+08:00 — #33 v4 corrected fixed-tree VERIFIED at `6e64c74ad52a1b7a69b9d1b8eda66074cef10122`; exact four image tuples and indexed records matched after the truncated first transfer was superseded. Batch 3/6, next cycle4; science false.
+
+
+## 2026-10-30 #34 Amazonian Pygmy Owl v4 — cavity-young and sex-scale correction
+
+- Original: [34-glaucidium-hardyi-v4.png](concepts/34-glaucidium-hardyi-v4.png)
+- Research: [species record](../research/species/34-glaucidium-hardyi-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one targeted juvenile iris/wing edit; full 1536×1024 plate and 440×690 crop reopened.
+- Boundary: published almost-full-grown young fully supported at an old woodpecker cavity entrance; neutral iris, plain crown, weaker streaking, low-contrast formed wing and no flight claim.
+- Adult scale: near equal; Vielliard's single female overlaps measured males and does not establish a general female-larger direction.
+- Unknown: exact juvenile age, iris chronology, flight threshold and continuous feather sequence.
+- Scientific status: pending / false; v1–v3 and historical user records retained.
+
+### Incremental rule — sparse sex samples do not define display direction
+
+A single sexed specimen at the edge of an overlapping range is not enough to encode population-level reverse size dimorphism. Use near-equal display until species-specific sex-stratified evidence supports direction. Applied and visually rechecked on #34 v4; broader effectiveness remains unverified.

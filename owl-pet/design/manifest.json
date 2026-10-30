@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T09:50:00+08:00",
+  "updated": "2026-10-30T10:42:48+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9785,7 +9785,54 @@
         "run_blob_at_archive": "7a5bf29b82e47c1e65f4eafb968bcfb5ebc38a22",
         "knowledge_blob": "53cf1c60b9a4be3535405fdbaf13a99751cc03f3"
       }
+    },
+    {
+      "id": "34-glaucidium-hardyi-v4",
+      "path": "design/concepts/34-glaucidium-hardyi-v4.png",
+      "species_id": 34,
+      "scientific_name": "Glaucidium hardyi",
+      "historical_names": [
+        "Glaucidium minutissimum complex (historical broad placement; not a current synonym claim)"
+      ],
+      "common_name": "Amazonian Pygmy Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "57bc789839da066c9fe5d0aadff94b631d3c227e72ff09a2fdbc6d3e6fd9eea8",
+      "size_bytes": 3128318,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Vielliard 1989 original-description measurements and Deville & Ingels 2012 almost-full-grown cavity young were re-read. Adults are displayed near equal because one female overlaps male wing measurements and does not establish a general female-larger rule. One targeted edit neutralized unsupported juvenile iris colour and removed repeated adult-like wing spots. Exact juvenile age, iris chronology, flight threshold and continuous feather sequence remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "APOW-VIELLIARD-1989",
+        "APOW-ITIS-2025",
+        "APOW-DEVILLE-2012",
+        "APOW-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#apow-vielliard-1989",
+      "research_record": "research/species/34-glaucidium-hardyi-v4.md",
+      "run_record": "production/runs/20261030T103715+0800-cycle-4.md",
+      "generated_path": "production/generated/34-glaucidium-hardyi-v4-generated.png",
+      "generated_blob": "8cb1d5accc05b2be14205731f11d7d3a1ed1fb45",
+      "generated_sha256": "b34248455c8e576859e835500f765a80de48d127fa85776cfaa98f4fb84235aa",
+      "generated_size_bytes": 3330093,
+      "reviewed_path": "production/reviewed/34-glaucidium-hardyi-v4-reviewed.png",
+      "reviewed_blob": "a721db6015ccd8130144e2808a860e6dff51af84",
+      "reviewed_sha256": "57bc789839da066c9fe5d0aadff94b631d3c227e72ff09a2fdbc6d3e6fd9eea8",
+      "reviewed_size_bytes": 3128318,
+      "review_crop_path": "production/review-crops/34-glaucidium-hardyi-v4-juvenile.png",
+      "review_crop_blob": "eb14b7dd75178a499d32562f4be190d85df506e6",
+      "review_crop_sha256": "a03bf2ca3077ea853993aee7fb8ed277d470f5ad2eee3293bb5292a44c90691b",
+      "review_crop_size_bytes": 620775,
+      "archive_note": "V1-v3 and initial generated v4 remain retained. Full plate and 440x690 crop were opened. Targeted edit changed only juvenile iris and wing pattern; cavity support, exact text/count and adults remained intact. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-30T09:50:00+08:00"
+  "updated_at": "2026-10-30T10:42:48+08:00"
 }

@@ -1316,3 +1316,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-30 01:45 +08: archived #10 *Surnia ulula* v4 science revision. Added Alaska 20–22-day departure evidence and one explicitly unverified primary lead; one juvenile wing/tail edit; full/crop reopened; manifest537; fixed readback pending; science false.
 
 - Fixed-commit readback verified #10 v4 at `45290cc7957ff9e60a93727a706e76be8c71043c`; five formal assets matched, cycle 6 credited and batch `2026-10-30T0033+0800` closed COMPLETE 6/6.
+
+
+- 2026-10-30T10:42:48+08:00: archived #34 *Glaucidium hardyi* v4 science revision. Added Vielliard 1989 original-description measurements and ITIS current-name record; re-read the Deville & Ingels 2012 almost-full-grown cavity young. One targeted juvenile iris/wing edit; full plate and crop reopened. Manifest 553; fixed readback pending; science false.

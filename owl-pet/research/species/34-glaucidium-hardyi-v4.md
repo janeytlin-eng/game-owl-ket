@@ -39,3 +39,8 @@ A single sexed female at the top of an overlapping specimen range is not populat
 - One targeted edit changed only juvenile iris and wing pattern.
 - Recheck: full plate and 440×690 crop opened. Neutral juvenile iris, plain crown, weaker streaking, low-contrast formed wing, short/concealed tail and two-foot cavity-lip support pass. Adults and exact text remained intact.
 - Result: `PASS_WITH_LIMITATIONS`; exact juvenile age, iris chronology, flight threshold and continuous feather sequence remain unknown; science false.
+
+
+## Archive checkpoint
+
+- 2026-10-30T10:42:48+08:00: concept/reviewed PNG, original generated PNG and 440×690 juvenile crop archived. Manifest counts design 553, production 544, legacy 542. Fixed readback pending; science false.

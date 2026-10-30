@@ -36,3 +36,7 @@ Opened the generated 1536×1024 master and 520×700 juvenile crop. The top title
 ## Archive checkpoint
 
 At 2026-10-31T05:45:00+08:00 the concept, generated master, reviewed master, juvenile crop, three image manifests, STATUS, design README, knowledge note and run record were committed together. Fixed-commit byte/blob readback is still required before cycle credit.
+
+## Fixed archive verification
+
+At 2026-10-31T05:49:00+08:00, commit `e2e64d496ad9cb0bf37b1262950187cf04e86e10` was re-read. All four JPEG blobs and byte sizes exactly matched local Git object hashes; recursive tree had 2223 entries and was not truncated; manifest counts were 590/589/580; batch, run, research, STATUS, design README and knowledge records were present. This verifies archival integrity only; scientific verification remains false.

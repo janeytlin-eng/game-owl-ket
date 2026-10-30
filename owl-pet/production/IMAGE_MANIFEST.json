@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T05:45:00+08:00",
+  "updated": "2026-10-31T05:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13032,9 +13032,28 @@
       "review_crop_path": "production/review-crops/87-bubo-ascalaphus-v4-juvenile.jpg",
       "review_crop_blob": "300c084c69a01213eeb72be880b7fff11f14ff31",
       "review_crop_size_bytes": 158873,
-      "readback_pending": true,
-      "git_blob": "d22b507e02434c28d7938787d66e262d0dc1f839"
+      "readback_pending": false,
+      "git_blob": "d22b507e02434c28d7938787d66e262d0dc1f839",
+      "fixed_archive_commit": "e2e64d496ad9cb0bf37b1262950187cf04e86e10",
+      "verified_at": "2026-10-31T05:49:00+08:00",
+      "exact_readback": true,
+      "readback": {
+        "concept_blob": "d22b507e02434c28d7938787d66e262d0dc1f839",
+        "generated_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
+        "reviewed_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
+        "review_crop_blob": "300c084c69a01213eeb72be880b7fff11f14ff31",
+        "manifest_counts": {
+          "legacy": 590,
+          "design": 589,
+          "production": 580
+        },
+        "tree": {
+          "entries": 2223,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T05:45:00+08:00"
+  "updated_at": "2026-10-31T05:49:00+08:00"
 }

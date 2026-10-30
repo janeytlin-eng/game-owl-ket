@@ -8864,33 +8864,61 @@
           "unique_species_increment": 0,
           "commit_sha": "630a6424081792832ee920824ef2d74ec73ebb18",
           "run_record": "owl-pet/production/runs/20261031T050600+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Bubo ascalaphus",
+          "species_no": "87",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e2e64d496ad9cb0bf37b1262950187cf04e86e10",
+          "run_record": "owl-pet/production/runs/20261031T053100+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Bubo ascalaphus",
         "species_id": 87,
         "version": 4,
         "run_id": "20261031T053100+0800-cycle-4",
-        "at": "2026-10-31T05:45:00+08:00",
+        "at": "2026-10-31T05:49:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T053100+0800-cycle-4.md",
         "evidence": {
-          "concept_blob": "d22b507e02434c28d7938787d66e262d0dc1f839",
-          "generated_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
-          "reviewed_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
-          "crop_blob": "300c084c69a01213eeb72be880b7fff11f14ff31",
+          "fixed_archive_commit": "e2e64d496ad9cb0bf37b1262950187cf04e86e10",
+          "exact_readback": true,
+          "asset_blobs": {
+            "concept_blob": "d22b507e02434c28d7938787d66e262d0dc1f839",
+            "generated_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
+            "reviewed_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
+            "review_crop_blob": "300c084c69a01213eeb72be880b7fff11f14ff31",
+            "manifest_counts": {
+              "legacy": 590,
+              "design": 589,
+              "production": 580
+            },
+            "tree": {
+              "entries": 2223,
+              "truncated": false
+            },
+            "science": false
+          },
           "manifest_counts": {
             "legacy": 590,
             "design": 589,
             "production": 580
           },
-          "fixed_readback_pending": true,
+          "tree": {
+            "entries": 2223,
+            "truncated": false
+          },
+          "unique_species": "175/251",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T05:45:00+08:00",
+      "last_updated_at": "2026-10-31T05:49:00+08:00",
       "audit_notes": [
         "2026-10-31T04:30:00+08:00 cycle1 #83 Otus brucei v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T04:38:00+08:00 cycle1 #83 v4 RESEARCH_READY; new1/reused2/corrected2; Mikkola printed pp.126–127/PDF pp.128–129 and Chandran et al. 2016 full text actually read; v3 reopened; exact individual day label, adult-like juvenile wing and unsupported adult height difference identified; full prompt saved; science false; no credit.",
@@ -8914,24 +8942,11 @@
         "2026-10-31T05:36:00+08:00 cycle4 #87 v4 RESEARCH_READY; new1/reused3/corrected1; OSME primary records and Mikkola mapping reused; DDCR2023 section4.3 newly read for habitat/support only; v3 reopened and only missing repository number identified; full text-only prompt saved; science false; no credit.",
         "2026-10-31T05:39:00+08:00 cycle4 #87 v4 IMAGE_GENERATED; imagegen precise-object edit succeeded; title changed to exact `87 PHARAOH EAGLE-OWL`; 1536x1024 JPEG persisted; biology held; no credit.",
         "2026-10-31T05:42:00+08:00 cycle4 #87 v4 REVIEWED; full and juvenile crop opened; exact numbering/text, three-bird count, adult identity, c.40-day mesoptile geometry, bilateral rock support and habitat pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-31T05:45:00+08:00 cycle4 #87 v4 ARCHIVED; assets/manifests590/589/580 and support records persisted; fixed readback pending; no credit."
+        "2026-10-31T05:45:00+08:00 cycle4 #87 v4 ARCHIVED; assets/manifests590/589/580 and support records persisted; fixed readback pending; no credit.",
+        "2026-10-31T05:49:00+08:00 cycle4 #87 v4 VERIFIED against fixed archive e2e64d496ad9cb0bf37b1262950187cf04e86e10; exact assets/blobs/sizes, non-truncated 2223-entry tree, manifests590/589/580 and support records matched; batch4/6 next5; unique175/251; science false; lease released."
       ],
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T053100+0800-cycle-4",
-        "heartbeat_at": "2026-10-31T05:45:00+08:00",
-        "expires_at": "2026-10-31T06:00:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 4,
-        "species": "Bubo ascalaphus",
-        "species_id": 87,
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T053100+0800-cycle-4",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T053100+0800-cycle-4.md"
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
   "lease": {

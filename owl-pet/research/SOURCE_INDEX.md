@@ -6286,3 +6286,31 @@ Fresh reuse: `COOW-LIN-ETAL-2014`, `COOW-OISEAUXNET-AUDEVARD-2010`, `COOW-MIKKOL
 - **Links:** [v4 research card](species/35-glaucidium-jardinii-v4.md) · [v4 run](../production/runs/20261030T104358+0800-cycle-5.md)
 
 Fresh reuse: `ANPO-BANREP-CERVANTES-2016`, `ANPO-PERUAVES-2026`, `ANPO-MIKKOLA-2013`. New1/reused3/corrected1. The institutional Banco de la República/Miguel de Cervantes record supports 15–16 cm, male 56–63 g, female 65–75 g, yellow bare parts, adult false eyes/four tail bands, and a juvenile at the end of nest life with an unmarked or very finely streaked crown/nape. The mass direction is not treated as proof of conspicuously taller females. PeruAves supplies a dated field-photo comparison but is secondary. No primary known-age development or flight-performance source was found after searches with current and historical names; exact juvenile age, continuous feather sequence and flight threshold remain unknown. Science false.
+
+
+# 2026-10-30 — #36 *Glaucidium bolivianum* v4 — original diagnosis, current name and juvenile uncertainty
+
+## YPOW-KONIG-1991
+- **Title:** Zur Taxonomie und Ökologie der Sperlingskäuze (*Glaucidium* spp.) des Andenraumes / Taxonomical and ecological studies on Pygmy Owls of the Andean Region
+- **Author / institution:** Claus König; Ökologie der Vögel 13
+- **Year:** 1991
+- **Original URL:** https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Glaucidium/Glaucidium%20bolivianum%20(Konig)%201991,%20Okologie%20der%20Vogel,%2013,%20pages%2036-45..PDF
+- **Source type:** primary taxonomic description and field ecology
+- **Taxon / stage:** *Glaucidium bolivianum* adult type material and field observations; no juvenile series
+- **Pages / figures actually read:** printed pp.36–42; diagnosis p.36; type/habitat p.37; Figures 4–5 pp.38,40; comparison p.39; measurement table p.42
+- **Useful facts:** diagnosis emphasizes much shorter/narrower tail and wings and heavier pale spotting across head/back/wing coverts than Andean congeners; whitish underparts show fine rufous-brown shaft streaks and serrated cross marks; type locality is humid Yungas mountain forest near Salta at about 1500 m. Comparison notes a short-tail/wing relationship and a strongly spotted back. Figure 4 documents brown and rufous adults.
+- **Limitations / conflicts / confidence:** primary and strong for adult diagnosis, type locality and measured museum material; no known-age juvenile, iris-development, nest-stage or flight-threshold evidence; does not establish a display-scale sex direction.
+- **Design / QA decision supported:** preserve dense adult dorsal spotting, short tail, brown/rufous adult variation and humid Yungas context; do not transfer adult spots/order to the age-unknown juvenile or invent a cavity stage.
+- **Links:** [v4 research card](species/36-glaucidium-bolivianum-v4.md) · [v4 run](../production/runs/20261030T110100+0800-cycle-6.md)
+
+## YPOW-ITIS-2025
+- **Title / institution / accessed:** ITIS Report — *Glaucidium bolivianum* C. König, 1991, TSN 555457; Integrated Taxonomic Information System; accessed 2026-10-30
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555457
+- **Source type:** authoritative taxonomic database
+- **Taxon / stage:** species nomenclature; all stages
+- **Section actually read:** Taxonomy and Nomenclature; References
+- **Useful facts:** current standing valid; English name Yungas Pygmy Owl; no synonym supplied; IOC World Bird List v15.1 listed among references.
+- **Limitations / confidence:** high confidence for current name and spelling only; no morphology or development evidence.
+- **Design / QA decision supported:** retain current title *Glaucidium bolivianum*; keep former *jardinii* complex treatment as history, not a synonym claim.
+
+Fresh reuse: `YPOW-PEREGRINE-2026`, `SRC-WEB-036-01`. New2/reused2/corrected1. Peregrine Fund keeps clutch, incubation, nestling duration and flight timing unknown and only calls woodpecker-hole use likely. The correction is therefore to avoid any cavity-stage claim: v4 selects an age-unknown, fully supported mossy-fork juvenile. Exact age, iris chronology, juvenile nape pattern, continuous feather sequence and flight ability remain unknown. Science false.

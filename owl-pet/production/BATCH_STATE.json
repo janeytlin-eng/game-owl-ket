@@ -8171,21 +8171,23 @@
       "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Strix hylophila",
         "species_id": 52,
         "version": 4,
         "run_id": "20261030T193500+0800-cycle-4",
-        "at": "2026-10-30T19:42:00+08:00",
+        "at": "2026-10-30T19:43:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T193500+0800-cycle-4.md",
         "evidence": {
-          "dimensions": "1536x1024",
-          "generation_seconds": 45.2,
-          "review_issue": "juvenile bill too vivid yellow and tan side-feather patch unsupported; targeted edit required",
+          "edit_count": 1,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "concept_sha256": "94788f196ea89ea167f82ad3bdd9fe5dfa8b9391b61bb4f51e99a52285b67edb",
+          "generated_sha256": "7fe7bad38e6631d43b8a522cd5c3cc2798f96b810066acb5739117751f77a0d0",
+          "reviewed_sha256": "0c490f7a9bed1289d56133241013314ea02ef1cd1f9a07b036dc9f8fde3debcc",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T19:42:00+08:00",
+      "last_updated_at": "2026-10-30T19:43:00+08:00",
       "audit_notes": [
         "2026-10-30T18:31:00+08:00 cycle1 #49 Strix woodfordii v4 SCIENCE_REVISION STARTED; v1–v3 preserved; latest main/manifest/card checked; 15-minute lease acquired; no credit.",
         "2026-10-30T18:35:00+08:00 cycle1 #49 v4 RESEARCH_READY; new2/reused4/corrected1. Mikkola printed pp320–321, SANBI development account and ITIS current/old-name mapping read. V4 selects age-unknown later Tanzanian nigricantior young with adult-like folded wing/tail explicitly allowed by same-population caption, while underparts remain partly downy; full prompt saved; science false; no credit.",
@@ -8205,7 +8207,8 @@
         "2026-10-30T19:06:00+08:00 cycle3 #51 v4 ARCHIVED; manifest 558→559; readback pending.",
         "2026-10-30T19:08:00+08:00 cycle3 #51 v4 VERIFIED; batch3/6; next_cycle4.",
         "2026-10-30T19:40:00+08:00 cycle4 #52 v4 RESEARCH_READY; new3/reused3/corrected1, six indexed source records. Mikkola printed p.337 plus ITIS/GBIF and field/institutional sources read; v4 separates age-unknown white-down cavity chick from v3 brancher; full prompt persisted; science false; no credit.",
-        "2026-10-30T19:42:00+08:00 cycle4 #52 v4 IMAGE_GENERATED in 45.2s; full plate and juvenile crop opened. Text/count/adults/support passed; vivid juvenile bill and tan side-feather patch require targeted juvenile-only edit; science false; no credit."
+        "2026-10-30T19:42:00+08:00 cycle4 #52 v4 IMAGE_GENERATED in 45.2s; full plate and juvenile crop opened. Text/count/adults/support passed; vivid juvenile bill and tan side-feather patch require targeted juvenile-only edit; science false; no credit.",
+        "2026-10-30T19:43:00+08:00 cycle4 #52 v4 REVIEWED after one targeted juvenile-only edit; final full plate and crop reopened. Juvenile bill neutralized and unsupported tan feather patch replaced by white down; text/count/adults/support pass; PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "active_lease": null,
       "lease": {
@@ -8216,8 +8219,8 @@
         "species": "Strix hylophila",
         "species_id": 52,
         "version": 4,
-        "heartbeat_at": "2026-10-30T19:42:00+08:00",
-        "expires_at": "2026-10-30T19:57:00+08:00"
+        "heartbeat_at": "2026-10-30T19:43:00+08:00",
+        "expires_at": "2026-10-30T19:58:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T1831+0800",
@@ -8229,10 +8232,10 @@
         "unique_species_increment": 0,
         "run_id": "20261030T193500+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261030T193500+0800-cycle-4.md",
-        "status": "IMAGE_GENERATED",
-        "stage": "IMAGE_GENERATED",
+        "status": "REVIEWED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T19:35:00+08:00",
-        "last_updated_at": "2026-10-30T19:42:00+08:00",
+        "last_updated_at": "2026-10-30T19:43:00+08:00",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261030T193500+0800-cycle-4",
@@ -8241,8 +8244,8 @@
           "species": "Strix hylophila",
           "species_id": 52,
           "version": 4,
-          "heartbeat_at": "2026-10-30T19:42:00+08:00",
-          "expires_at": "2026-10-30T19:57:00+08:00"
+          "heartbeat_at": "2026-10-30T19:43:00+08:00",
+          "expires_at": "2026-10-30T19:58:00+08:00"
         }
       }
     }
@@ -8255,8 +8258,8 @@
     "species": "Strix hylophila",
     "species_id": 52,
     "version": 4,
-    "heartbeat_at": "2026-10-30T19:42:00+08:00",
-    "expires_at": "2026-10-30T19:57:00+08:00"
+    "heartbeat_at": "2026-10-30T19:43:00+08:00",
+    "expires_at": "2026-10-30T19:58:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8829,10 +8832,10 @@
     "unique_species_increment": 0,
     "run_id": "20261030T193500+0800-cycle-4",
     "run_record": "owl-pet/production/runs/20261030T193500+0800-cycle-4.md",
-    "status": "IMAGE_GENERATED",
-    "stage": "IMAGE_GENERATED",
+    "status": "REVIEWED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T19:35:00+08:00",
-    "last_updated_at": "2026-10-30T19:42:00+08:00",
+    "last_updated_at": "2026-10-30T19:43:00+08:00",
     "lease": {
       "owner": "codex-automation",
       "run_id": "20261030T193500+0800-cycle-4",
@@ -8841,23 +8844,25 @@
       "species": "Strix hylophila",
       "species_id": 52,
       "version": 4,
-      "heartbeat_at": "2026-10-30T19:42:00+08:00",
-      "expires_at": "2026-10-30T19:57:00+08:00"
+      "heartbeat_at": "2026-10-30T19:43:00+08:00",
+      "expires_at": "2026-10-30T19:58:00+08:00"
     }
   },
   "last_checkpoint": {
     "cycle": 4,
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "species": "Strix hylophila",
     "species_id": 52,
     "version": 4,
     "run_id": "20261030T193500+0800-cycle-4",
-    "at": "2026-10-30T19:42:00+08:00",
+    "at": "2026-10-30T19:43:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T193500+0800-cycle-4.md",
     "evidence": {
-      "dimensions": "1536x1024",
-      "generation_seconds": 45.2,
-      "review_issue": "juvenile bill too vivid yellow and tan side-feather patch unsupported; targeted edit required",
+      "edit_count": 1,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "concept_sha256": "94788f196ea89ea167f82ad3bdd9fe5dfa8b9391b61bb4f51e99a52285b67edb",
+      "generated_sha256": "7fe7bad38e6631d43b8a522cd5c3cc2798f96b810066acb5739117751f77a0d0",
+      "reviewed_sha256": "0c490f7a9bed1289d56133241013314ea02ef1cd1f9a07b036dc9f8fde3debcc",
       "science": false
     }
   }

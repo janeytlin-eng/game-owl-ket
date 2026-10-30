@@ -8859,21 +8859,24 @@
       "next_cycle": 3,
       "last_checkpoint": {
         "cycle": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Otus semitorques",
         "species_id": 85,
         "version": 4,
         "run_id": "20261031T050600+0800-cycle-3",
-        "at": "2026-10-31T05:06:00+08:00",
+        "at": "2026-10-31T05:11:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T050600+0800-cycle-3.md",
         "evidence": {
-          "baseline_main": "c0937db4a491cbac8377a33cdf64a022e8df133c",
-          "prior_fixed_version": "v3",
-          "prior_fixed_commit": "8ebd20378c29614b68110c0d943709510f503f27",
+          "new_sources": 0,
+          "reused_sources": 2,
+          "corrected_boundaries": 1,
+          "mikkola_pages": "printed 158-159 / PDF 160-161",
+          "v3_reopened": true,
+          "full_prompt_saved": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T05:06:00+08:00",
+      "last_updated_at": "2026-10-31T05:11:00+08:00",
       "audit_notes": [
         "2026-10-31T04:30:00+08:00 cycle1 #83 Otus brucei v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T04:38:00+08:00 cycle1 #83 v4 RESEARCH_READY; new1/reused2/corrected2; Mikkola printed pp.126–127/PDF pp.128–129 and Chandran et al. 2016 full text actually read; v3 reopened; exact individual day label, adult-like juvenile wing and unsupported adult height difference identified; full prompt saved; science false; no credit.",
@@ -8887,13 +8890,14 @@
         "2026-10-31T04:59:30+08:00 cycle2 #84 v8 REVIEWED; full master, 520x700 juvenile crop and 680x453 derivative opened. Exact text/count, continuous adult discs/dark eyes, modest female direction, juvenile blue-grey eyes/grey bill/no tufts/horizontal bars, concealed underdeveloped wings and bilateral cavity support pass; edit0; PASS_WITH_LIMITATIONS; complete JPEG repair achieved locally; science false; no credit.",
         "2026-10-31T05:02:00+08:00 cycle2 #84 v8 ARCHIVED tree prepared; complete JPEG assets, manifests 588/587/578, source/research/run/knowledge/status records included; v7 decode fault documented; fixed readback pending; science false; no credit.",
         "2026-10-31T05:04:00+08:00 cycle2 #84 v8 VERIFIED against fixed archive 7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09; exact complete JPEG assets/blobs/sizes, non-truncated 2207-entry tree, manifests 588/587/578 and support records matched; batch2/6 next3; unique175/251; science false; lease released.",
-        "2026-10-31T05:06:00+08:00 cycle3 #85 Otus semitorques v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest/card checked; v1-v3 preserved; 15-minute lease acquired; no credit."
+        "2026-10-31T05:06:00+08:00 cycle3 #85 Otus semitorques v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest/card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
+        "2026-10-31T05:11:00+08:00 cycle3 #85 v4 RESEARCH_READY; new0/reused2/corrected1; Mikkola printed pp.158–159/PDF pp.160–161 and indexed Fukai ageing evidence reused; active search cross-species hits excluded; v3 reopened and missing repository number identified; text-only prompt saved; science false; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T050600+0800-cycle-3",
-        "heartbeat_at": "2026-10-31T05:06:00+08:00",
-        "expires_at": "2026-10-31T05:21:00+08:00"
+        "heartbeat_at": "2026-10-31T05:11:00+08:00",
+        "expires_at": "2026-10-31T05:26:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -8902,7 +8906,7 @@
         "version": 4,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T050600+0800-cycle-3",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261031T050600+0800-cycle-3.md"
       }
     }

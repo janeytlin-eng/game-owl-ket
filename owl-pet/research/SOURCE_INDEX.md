@@ -655,3 +655,8 @@ Reused stable IDs **STY-LOPES-ETAL-2004**, **STY-CADENA-2018**, **STY-SPIZAETUS-
 - **Design correction:** one continuous adult facial disc (no goggles), explicit short underdeveloped juvenile wings, modest not quantified female direction, fully supported natural cavity stage. Exact age/iris transition/flight threshold/subspecies/ratio unknown; science false.
 - **Links:** [research](species/84-otus-bakkamoena-v8.md) · [run](../production/runs/20261031T045100+0800-cycle-2.md) · planned [concept](../design/concepts/84-otus-bakkamoena-v8.jpg).
 - **Delta:** new0 / reused2 / corrected2.
+
+
+## 2026-10-31 — #85 *Otus semitorques* v4 numbering-only correction
+
+Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/PDF pp.160–161 directly read. V3 fixed image reopened: first-winter geometry and all support pass, but repository number 85 is absent. V4 changes only the title to `85 JAPANESE SCOPS OWL`. Cross-species ageing/development search hits excluded. Exact age, sex, iris, thresholds and adult RSD unknown; science false. [Research](species/85-otus-semitorques-v4.md) · [Run](../production/runs/20261031T050600+0800-cycle-3.md). New0/reused2/corrected1.

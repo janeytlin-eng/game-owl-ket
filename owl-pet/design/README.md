@@ -2411,3 +2411,10 @@ Verification 2026-10-30T18:11:00+08:00: #48 v4 fixed archive `d212c5e7985ba46090
 
 
 Verification 2026-10-30T18:42:00+08:00: #49 v4 fixed archive `ed745f19c5335164e3b0cb82bc5978d1356870ed` returned exact concept/generated/reviewed paths, blob SHAs and file URLs; manifest 557 plus run/research/source-index/status/design/state records matched. Batch 1/6, next cycle 2; science false.
+
+
+## #50 · Mottled Owl · *Strix virgata* · v4
+
+- Concept `design/concepts/50-strix-virgata-v4.png`; generated/reviewed masters retained.
+- Pale-morph South American adults; female fuller but comparable in crown height. Age-unknown dull-yellow mesoptile has a whitish disc, pale pink bill, soft folded wing and bilateral tree-cavity support.
+- The exceptional Costa Rica ground-burrow record is indexed but excluded because its older-name/current-split mapping is unresolved. Original and derivative opened; no edit; PASS_WITH_LIMITATIONS; science false.

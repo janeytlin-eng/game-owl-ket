@@ -43,3 +43,10 @@ Environment: humid lowland South American forest, preferably Colombian visual di
 Composition and rendering: adults upright and calm on separate natural supports beside the cavity; juvenile lower and clearly dependent; consistent anatomy and scale, detailed feathers without photographic collage, warm earth palette, subtle cinematic depth, clean typographic hierarchy, no border.
 
 Strict negatives: no extra owl, no egg, no prey, no ear tufts, no yellow/orange adult eyes, no adult yellow bill on the juvenile, no airborne juvenile, no spread juvenile wing, no unsupported juvenile, no exaggerated female height, no invented exact juvenile age, no ground burrow, no duplicate labels, no misspelled scientific name.
+
+
+## Actual image review
+- Generated in 44.9 s; original 1536×1024 opened; 680×453 derivative rendered and opened.
+- PASS: exact title/count/labels; pale-morph adult streaking and dark eyes; female fuller without height exaggeration; juvenile dull-yellow mesoptile, whitish disc, pale pink bill, soft folded wing, short/hidden tail and bilateral cavity support.
+- No ground-burrow leakage and no edit required.
+- PASS_WITH_LIMITATIONS; taxonomy and developmental unknowns remain; science false.

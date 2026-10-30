@@ -10955,7 +10955,49 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "50-strix-virgata-v4",
+      "path": "design/concepts/50-strix-virgata-v4.png",
+      "species_id": 50,
+      "scientific_name": "Strix virgata",
+      "historical_names": [
+        "Ciccaba virgata",
+        "Syrnium virgatum"
+      ],
+      "common_name": "Mottled Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "a2844c1e7233cccbda5042be077da2f549d6d1dbe67d4aee71e80e1bc1b40c10",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: pale-morph South American adult direction and Mikkola age-unknown mesoptile (dull yellow, indistinctly barred above, whitish disc, pale pink bill). Exceptional Costa Rica ground-burrow record is indexed but excluded because older Ciccaba virgata versus northern Strix squamulata mapping is unresolved. Female fuller at comparable crown height. Exact juvenile age/flight competence, remex sequence, every northern record's current taxon and population-specific sex dimensions remain unknown.",
+      "source_ids": [
+        "MOWL-MIKKOLA-2013-P332",
+        "MOWL-GERHARDT-1991-THESIS",
+        "MOWL-ASTORGA-2017",
+        "MOWL-ITIS-2026",
+        "MOWL-GERHARDT-1994",
+        "MOWL-GERHARDT-1997"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-50-strix-virgata-v4-post-split-locality-gate",
+      "research_record": "research/species/50-strix-virgata-v4.md",
+      "run_record": "owl-pet/production/runs/20261030T184300+0800-cycle-2.md",
+      "reviewed_at": "2026-10-30T18:52:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 670908,
+      "git_blob": "a9c5e6fdb26754527cdb28f41ddf1385c029b876",
+      "generated_blob": "511b301bc77a07ec5a060693afae0bab8a718b7d",
+      "reviewed_blob": "511b301bc77a07ec5a060693afae0bab8a718b7d",
+      "generated_sha256": "b6a84815a5a4437768a6ca207bf444e6887a17cf0bd78473e577065e93669548",
+      "reviewed_sha256": "b6a84815a5a4437768a6ca207bf444e6887a17cf0bd78473e577065e93669548",
+      "generated_size_bytes": 3295666,
+      "reviewed_size_bytes": 3295666,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "archive_note": "Original and derivative opened. Pale-morph adult morphology, evidence-bounded female fullness, pale-pink-billed mesoptile, soft folded wing and bilateral tree-cavity support passed. No ground-burrow leakage; no edit. Post-split locality gate validated for this plate only; science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T18:42:00+08:00"
+  "updated_at": "2026-10-30T18:54:00+08:00"
 }

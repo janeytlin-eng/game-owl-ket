@@ -73,3 +73,10 @@
 - Taxonomic locality gate: Astorga's Costa Rica ground-burrow record and Gerhardt's Tikal records retain older *Ciccaba virgata*. Because Mikkola separates the northern Mexican Wood Owl and the repository lacks a resolved *S. squamulata* mapping, the exceptional ground nest is indexed but not used visually.
 - Female remains visibly fuller but at comparable head height; no population-specific measurement is converted into a universal linear ratio.
 - Unknowns: exact juvenile age/flight competence, continuous remex sequence, current mapping of every northern record and population-specific sex dimensions. Science false.
+
+
+## 2026-10-30 v4 production result
+- First render required no edit; 1536×1024 original and 680×453 derivative opened.
+- Passed: exact text/count; pale-morph adults with dark eyes/yellowish bills; fuller but comparable-height female; age-unknown dull-yellow mesoptile with whitish disc, pale pink bill, soft folded wing, short/hidden tail and bilateral tree-cavity support.
+- No ground-burrow leakage occurred. Files: `design/concepts/50-strix-virgata-v4.png`, `production/generated/50-strix-virgata-v4-generated-master.png`, `production/reviewed/50-strix-virgata-v4-reviewed-master.png`.
+- PASS_WITH_LIMITATIONS; current-name locality gate visually validated for this plate only. Science false.

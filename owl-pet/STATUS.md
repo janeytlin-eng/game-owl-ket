@@ -2430,3 +2430,10 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Fixed archive `ed745f19c5335164e3b0cb82bc5978d1356870ed` returned exact concept/generated/reviewed paths and blob SHAs plus file URLs; manifest 557 and run/research/source-index/status/design/state records matched.
 - Batch `2026-10-30T1831+0800` is 1/6 and remains PARTIAL; next cycle 2. Unique species remains 175/251; science false.
+
+
+### #50 v4 archive prepared — 2026-10-30T18:54:00+08:00
+
+- Concept 680×453, 670,908 bytes, SHA-256 `a2844c1e7233cccbda5042be077da2f549d6d1dbe67d4aee71e80e1bc1b40c10`, blob `a9c5e6fdb26754527cdb28f41ddf1385c029b876`; master 1536×1024, blob `511b301bc77a07ec5a060693afae0bab8a718b7d`.
+- Original and derivative passed without edit. The South American mesoptile/pale-pink-bill boundary held; the taxonomically unresolved Costa Rica ground-burrow context did not leak into the plate.
+- Unique remains 175/251; science false; cycle credit awaits fixed readback.

@@ -36,3 +36,8 @@ First 1536×1024 render and 620×700 juvenile crop were opened. PASS_WITH_LIMITA
 V2 actual plate showed only missing number93. Title-only imagegen output and 620×730 crop were opened: adult identity, modest female fullness, ~24-day disc-bearing developed-wing nestling with sparse grey down and bilateral wood-floor support persisted; no second edit. Single-nest evidence limits exact day/sex/tract/proportion claims; sciencefalse; no approval transfer.
 
 [Original](../../design/concepts/93-aegolius-harrisii-v3.png) · [Research](../../research/species/93-aegolius-harrisii-v3.md) · [Run](../../production/runs/20261031T070200+0800-cycle-3.md)
+
+
+## VERIFIED 2026-10-31T07:10:00+08:00 — 93-aegolius-harrisii-v3
+
+Fixed archive `362281f4d87b5225fefbecfbb149ca9ee940868c`: exact four assets, non-truncated 2253-entry tree, manifests 595/594/585 and support records matched. Title-only edit0; PASS_WITH_LIMITATIONS; unique175/251; sciencefalse.

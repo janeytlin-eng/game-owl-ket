@@ -1,3 +1,8 @@
+## 2026-10-31 #93 *Aegolius harrisii iheringi* v3 VERIFIED
+
+- Fixed archive `362281f4d87b5225fefbecfbb149ca9ee940868c`; exact assets and manifests matched; batch3/6.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/362281f4d87b5225fefbecfbb149ca9ee940868c/owl-pet/design/concepts/93-aegolius-harrisii-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/362281f4d87b5225fefbecfbb149ca9ee940868c)
+
 ## 2026-10-31 #93 *Aegolius harrisii iheringi* v3 ARCHIVED — readback pending
 
 - Number93 restored; actual full/crop review preserved the evidence-bounded ~24-day stage; edit0; sciencefalse; unique175/251.

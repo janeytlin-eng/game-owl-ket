@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T07:08:00+08:00",
+  "updated": "2026-10-31T07:10:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14018,11 +14018,28 @@
       "review_crop_path": "production/review-crops/93-aegolius-harrisii-v3-juvenile.png",
       "review_crop_blob": "b48588033422b560af93ebcc3355ba6c7c4db887",
       "review_crop_size_bytes": 907914,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "1183272e9c159c05f4b430da6ee4f8cc0ed1ca45",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "362281f4d87b5225fefbecfbb149ca9ee940868c",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T07:10:00+08:00",
+      "readback": {
+        "concept_blob": "1183272e9c159c05f4b430da6ee4f8cc0ed1ca45",
+        "generated_blob": "1183272e9c159c05f4b430da6ee4f8cc0ed1ca45",
+        "reviewed_blob": "1183272e9c159c05f4b430da6ee4f8cc0ed1ca45",
+        "review_crop_blob": "b48588033422b560af93ebcc3355ba6c7c4db887",
+        "manifest_counts": {
+          "legacy": 595,
+          "design": 594,
+          "production": 585
+        },
+        "tree": {
+          "entries": 2253,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T07:08:00+08:00"
+  "updated_at": "2026-10-31T07:10:00+08:00"
 }

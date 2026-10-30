@@ -43,3 +43,9 @@ Sources: MRO-PEREGRINE-2026, MRO-ADW-2026, MRO-OWLPAGES-2020 in [source index](.
 - New source `MRO-NHM-2003-P1112` adds a distinct approximately 30-day stage: noticeable facial discs, flight feathers just emerging, and hissing/clacking when agitated.
 - V4 moves from v3’s fully feathered recent fledgling to a low, cavity-supported 30-day nestling with abundant down and only sparse short emerging feather tips. No adult wing panel, regular rows, long tail or branch-hopping pose.
 - Hatching was suspected rather than directly seen; exact feather count/length/tract chronology and sex are unknown. Science false.
+
+
+## v4 review checkpoint
+
+- 2026-10-30T22:43:41+08:00: first 1536×1024 render and 680×453 derivative reopened; no edit required. The 30-day nestling has a noticeable soft facial disc, abundant down, sparse short emerging wing tips and low dry-cavity support; adults/text/count pass.
+- PASS_WITH_LIMITATIONS; science false.

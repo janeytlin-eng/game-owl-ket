@@ -8437,31 +8437,37 @@
       "next_cycle": 3,
       "last_checkpoint": {
         "cycle": 3,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Tyto soumagnei",
         "species_id": 65,
         "version": 4,
         "run_id": "20261030T224022+0800-cycle-3",
-        "at": "2026-10-30T22:43:09+08:00",
+        "at": "2026-10-30T22:43:41+08:00",
         "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/65-tyto-soumagnei-v4-generated-master.png",
-          "generated_blob": "40bb297558b881217e76207d7d3709cddd095ce5",
+          "reviewed_path": "owl-pet/production/reviewed/65-tyto-soumagnei-v4-reviewed-master.png",
+          "reviewed_blob": "40bb297558b881217e76207d7d3709cddd095ce5",
           "dimensions": "1536x1024",
-          "opened_original": true,
-          "generation_wait_seconds": 58.9,
+          "derivative_opened": "680x453",
+          "edit_count": 0,
+          "review_result": "PASS_WITH_LIMITATIONS",
           "passed": [
             "exact title and labels",
             "exactly three owls",
-            "adult red-owl morphology and moderate female fullness",
-            "30-day nestling with noticeable disc, abundant down and sparse just-emerging wing feather tips",
-            "dry cavity support and both adult foot supports"
+            "adult red-owl morphology and subtle female fullness",
+            "30-day nestling with developed facial disc, abundant down, sparse short just-emerging wing feather tips",
+            "low dry cavity support and bilateral adult foot support"
           ],
-          "requires_edit": [],
+          "unknown": [
+            "hatch date is suspected",
+            "exact feather count and tract chronology",
+            "nestling sex",
+            "population-wide nest variation"
+          ],
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T22:43:09+08:00",
+      "last_updated_at": "2026-10-30T22:43:41+08:00",
       "audit_notes": [
         "2026-10-30T21:58:16+08:00 cycle1 #63 Scotopelia peli v4 SCIENCE_REVISION STARTED; #156 duplicate-name history preserved; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T22:18:00+08:00: cycle1 #63 v4 RESEARCH_READY after expired STARTED lease; new1/reused2/corrected1. Brooke 1984 printed pp127–128 plus BirdLife/SANBI and BotswanaPost evidence read; long family dependence is not an exact age or feather timetable; full prompt persisted; no credit.",
@@ -8477,7 +8483,8 @@
         "2026-10-30T22:39:40+08:00: cycle2 #64 v4 VERIFIED against fixed archive a3d83ba194b6432a66c53611ee0b3355e0751ffd; non-truncated tree returned exact three image blobs/sizes; manifests 570/569/560 and supporting records matched; batch2/6 next3; unique remains175/251; science false; lease released.",
         "2026-10-30T22:40:22+08:00: cycle3 #65 Tyto soumagnei v4 SCIENCE_REVISION STARTED; v1-v3 preserved; latest main/manifest/knowledge checked; 15-minute lease acquired; no credit.",
         "2026-10-30T22:41:27+08:00: cycle3 #65 v4 RESEARCH_READY; new1/reused2/corrected1. MRO-NHM-2003 printed p1112/Table12.26 extraction read; 30-day cavity nestling separated from v3 fledgling; exact hatch date/feather sequence/sex unknown; full prompt saved; no credit.",
-        "2026-10-30T22:43:09+08:00: cycle3 #65 v4 IMAGE_GENERATED in 58.9s; 1536x1024 original opened. Text/count/adult morphology/scale, 30-day nestling disc/down/sparse emerging wing tips, cavity and bilateral supports pass; no edit indicated; generated master persisted; no credit."
+        "2026-10-30T22:43:09+08:00: cycle3 #65 v4 IMAGE_GENERATED in 58.9s; 1536x1024 original opened. Text/count/adult morphology/scale, 30-day nestling disc/down/sparse emerging wing tips, cavity and bilateral supports pass; no edit indicated; generated master persisted; no credit.",
+        "2026-10-30T22:43:41+08:00: cycle3 #65 v4 REVIEWED with no edit. Original 1536x1024 and 680x453 derivative opened; exact text/count/adults, 30-day facial disc/down/sparse emerging feather tips, dry cavity and supports pass. PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-work-mode",
@@ -8487,9 +8494,9 @@
         "species": "Tyto soumagnei",
         "species_id": 65,
         "version": 4,
-        "stage": "IMAGE_GENERATED",
-        "heartbeat_at": "2026-10-30T22:43:09+08:00",
-        "expires_at": "2026-10-30T22:58:09+08:00",
+        "stage": "REVIEWED",
+        "heartbeat_at": "2026-10-30T22:43:41+08:00",
+        "expires_at": "2026-10-30T22:58:41+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md"
@@ -8502,9 +8509,9 @@
         "species": "Tyto soumagnei",
         "species_id": 65,
         "version": 4,
-        "stage": "IMAGE_GENERATED",
-        "heartbeat_at": "2026-10-30T22:43:09+08:00",
-        "expires_at": "2026-10-30T22:58:09+08:00",
+        "stage": "REVIEWED",
+        "heartbeat_at": "2026-10-30T22:43:41+08:00",
+        "expires_at": "2026-10-30T22:58:41+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md"
@@ -8517,9 +8524,9 @@
         "species": "Tyto soumagnei",
         "species_id": 65,
         "version": 4,
-        "stage": "IMAGE_GENERATED",
-        "heartbeat_at": "2026-10-30T22:43:09+08:00",
-        "expires_at": "2026-10-30T22:58:09+08:00",
+        "stage": "REVIEWED",
+        "heartbeat_at": "2026-10-30T22:43:41+08:00",
+        "expires_at": "2026-10-30T22:58:41+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md"
@@ -8534,9 +8541,9 @@
     "species": "Tyto soumagnei",
     "species_id": 65,
     "version": 4,
-    "stage": "IMAGE_GENERATED",
-    "heartbeat_at": "2026-10-30T22:43:09+08:00",
-    "expires_at": "2026-10-30T22:58:09+08:00",
+    "stage": "REVIEWED",
+    "heartbeat_at": "2026-10-30T22:43:41+08:00",
+    "expires_at": "2026-10-30T22:58:41+08:00",
     "action": "SCIENCE_REVISION",
     "unique_species_increment": 0,
     "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md"
@@ -8672,7 +8679,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-30T22:43:09+08:00",
+  "updated_at": "2026-10-30T22:43:41+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8689,14 +8696,14 @@
     "species": "Tyto soumagnei",
     "species_id": 65,
     "version": 4,
-    "stage": "IMAGE_GENERATED",
-    "heartbeat_at": "2026-10-30T22:43:09+08:00",
-    "expires_at": "2026-10-30T22:58:09+08:00",
+    "stage": "REVIEWED",
+    "heartbeat_at": "2026-10-30T22:43:41+08:00",
+    "expires_at": "2026-10-30T22:58:41+08:00",
     "action": "SCIENCE_REVISION",
     "unique_species_increment": 0,
     "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md"
   },
-  "last_updated_at": "2026-10-30T22:43:09+08:00",
+  "last_updated_at": "2026-10-30T22:43:41+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9117,36 +9124,42 @@
     "species": "Tyto soumagnei",
     "species_id": 65,
     "version": 4,
-    "stage": "IMAGE_GENERATED",
-    "heartbeat_at": "2026-10-30T22:43:09+08:00",
-    "expires_at": "2026-10-30T22:58:09+08:00",
+    "stage": "REVIEWED",
+    "heartbeat_at": "2026-10-30T22:43:41+08:00",
+    "expires_at": "2026-10-30T22:58:41+08:00",
     "action": "SCIENCE_REVISION",
     "unique_species_increment": 0,
     "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md"
   },
   "last_checkpoint": {
     "cycle": 3,
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "species": "Tyto soumagnei",
     "species_id": 65,
     "version": 4,
     "run_id": "20261030T224022+0800-cycle-3",
-    "at": "2026-10-30T22:43:09+08:00",
+    "at": "2026-10-30T22:43:41+08:00",
     "run_record": "owl-pet/production/runs/20261030T224022+0800-cycle-3.md",
     "evidence": {
-      "generated_path": "owl-pet/production/generated/65-tyto-soumagnei-v4-generated-master.png",
-      "generated_blob": "40bb297558b881217e76207d7d3709cddd095ce5",
+      "reviewed_path": "owl-pet/production/reviewed/65-tyto-soumagnei-v4-reviewed-master.png",
+      "reviewed_blob": "40bb297558b881217e76207d7d3709cddd095ce5",
       "dimensions": "1536x1024",
-      "opened_original": true,
-      "generation_wait_seconds": 58.9,
+      "derivative_opened": "680x453",
+      "edit_count": 0,
+      "review_result": "PASS_WITH_LIMITATIONS",
       "passed": [
         "exact title and labels",
         "exactly three owls",
-        "adult red-owl morphology and moderate female fullness",
-        "30-day nestling with noticeable disc, abundant down and sparse just-emerging wing feather tips",
-        "dry cavity support and both adult foot supports"
+        "adult red-owl morphology and subtle female fullness",
+        "30-day nestling with developed facial disc, abundant down, sparse short just-emerging wing feather tips",
+        "low dry cavity support and bilateral adult foot support"
       ],
-      "requires_edit": [],
+      "unknown": [
+        "hatch date is suspected",
+        "exact feather count and tract chronology",
+        "nestling sex",
+        "population-wide nest variation"
+      ],
       "science": false
     }
   }

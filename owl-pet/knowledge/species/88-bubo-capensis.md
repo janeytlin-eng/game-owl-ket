@@ -58,3 +58,9 @@ Environment: nominate southern African rocky outcrop/gorge with sheltered cave o
 Actually viewed the edited full plate and 560×650 juvenile crop. First render transferred crisp white adult scapular spots and long pointed remiges to the ~45-day young. One juvenile-only edit removed adult white patches and replaced the wing with a shorter, rounded, soft, incompletely formed folded wing while retaining a substantial older-chick body, diffuse mesoptile bars, yellow eyes and two-foot mineral-threshold support. Adults retained orange eyes, blackish bills, coarse breastplates, barred bellies and near-equal height. Exact day/feather sequence/flight ability, juvenile sex and sex-size ratio remain unknown; science false.
 
 Rule status: actually applied and visually effective once. For pre-flight juvenile wings, specify a positive texture/endpoint and inspect a crop; do not rely on a prohibition against adult patches alone.
+
+
+## 88-bubo-capensis-v5
+
+Title-only SCIENCE_REVISION: add repository number88 to fixed v4. Actual full and crop review passed adult breastplate/barred belly/feet, near-equal adult height, yellow-eyed c.45-day diffuse-mesoptile young, short rounded developing wing and bilateral mineral support. New CAP-BIODIVEXP-2026 used only for southern African rocky/scrub/sheltered scrape and c.45-day nest-leaving context. Exact age/sex/flight/feather tract/RSD remain unknown; sciencefalse.
+[Research](../../research/species/88-bubo-capensis-v5.md) · [Concept](../../design/concepts/88-bubo-capensis-v5.jpg) · [Run](../../production/runs/20261031T055200+0800-cycle-5.md)

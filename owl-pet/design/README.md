@@ -2663,3 +2663,8 @@ Remote verification 2026-10-31T05:19:30+08:00: #85 v4 fixed archive `630a6424081
 `SCIENCE_REVISION`, `PASS_WITH_LIMITATIONS`, unique increment0. Adds missing repository number only; preserves the c.40-day creamy-sandy juvenile, pale developing folded wing, incomplete marks and bilateral rock support. Scientific verification remains false. [Original](concepts/87-bubo-ascalaphus-v4.jpg) · [Research](../research/species/87-bubo-ascalaphus-v4.md).
 
 Fixed readback 2026-10-31T05:49:00+08:00: archive [`e2e64d496ad9cb0bf37b1262950187cf04e86e10`](https://github.com/janeytlin-eng/game-owl-ket/commit/e2e64d496ad9cb0bf37b1262950187cf04e86e10) passed exact four-asset blob/byte checks; manifests590/589/580; tree2223 non-truncated. Archive integrity verified; science remains false.
+
+
+### #88 Cape Eagle-Owl v5
+
+`SCIENCE_REVISION`, `PASS_WITH_LIMITATIONS`, unique increment0. Missing repository number restored; c.45-day pre-flight young and all evidence-bounded biology retained. Science false. [Original](concepts/88-bubo-capensis-v5.jpg) · [Research](../research/species/88-bubo-capensis-v5.md).

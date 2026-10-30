@@ -2774,3 +2774,8 @@ V3 reopened; v4 restores number 85 only. Mikkola printed158–159/PDF160–161 r
 SCIENCE_REVISION archived as `PASS_WITH_LIMITATIONS`: repository number 87 restored; evidence-bounded c.40-day juvenile and all supports preserved; edit0; science false. Unique species total remains 175/251. Fixed readback pending at archive checkpoint. [Concept](design/concepts/87-bubo-ascalaphus-v4.jpg) · [Research](research/species/87-bubo-ascalaphus-v4.md) · [Run](production/runs/20261031T053100+0800-cycle-4.md).
 
 Verification update 2026-10-31T05:49:00+08:00: fixed archive [`e2e64d496ad9cb0bf37b1262950187cf04e86e10`](https://github.com/janeytlin-eng/game-owl-ket/commit/e2e64d496ad9cb0bf37b1262950187cf04e86e10) re-read; four asset blobs/bytes exact, tree2223 non-truncated, manifests590/589/580 and support records present. Batch 4/6, next5; unique175/251; science false.
+
+
+### 2026-10-31 #88 *Bubo capensis* v5
+
+SCIENCE_REVISION `PASS_WITH_LIMITATIONS`: repository number 88 restored; evidence-bounded c.45-day pre-flight young and supports preserved; edit0; science false. Unique species remains175/251. Fixed readback pending. [Concept](design/concepts/88-bubo-capensis-v5.jpg) · [Research](research/species/88-bubo-capensis-v5.md) · [Run](production/runs/20261031T055200+0800-cycle-5.md).

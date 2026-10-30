@@ -29,3 +29,7 @@ Change only the visible species title from “CAPE EAGLE-OWL” to exactly “88
 ## Actual image review
 
 Opened the 1536×1024 master and 520×700 juvenile crop. Title is exactly `88 CAPE EAGLE-OWL`; scientific and role labels are correct and exactly three birds remain. Adult orange eyes, blackish bills, coarse breastplate, barred belly, feathered feet and near-equal height remain coherent. The yellow-eyed older chick retains diffuse mesoptile, a short rounded developing folded wing, short/hidden tail and bilateral mineral-threshold support. No flight pose or mature-wing substitution was introduced. Result `PASS_WITH_LIMITATIONS`, edit0, scientifically_verified=false. Exact individual age, sex, flight ability, feather tract, adult RSD and regional colour remain unknown.
+
+## Archive checkpoint
+
+At 2026-10-31T06:08:00+08:00 the four JPEG assets, three manifests and support records were committed together. Fixed-commit readback is required before cycle credit.

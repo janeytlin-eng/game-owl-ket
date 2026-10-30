@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T05:49:00+08:00",
+  "updated": "2026-10-31T06:08:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13736,7 +13736,50 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "88-bubo-capensis-v5",
+      "path": "design/concepts/88-bubo-capensis-v5.jpg",
+      "species_id": 88,
+      "scientific_name": "Bubo capensis",
+      "historical_names": [
+        "Bubo capensis mackinderi",
+        "Bubo capensis dilloni"
+      ],
+      "common_name": "Cape Eagle-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "5dcb2f5152d8a69c1b7ea7f8872550b650eec7973ed3340a144ee33c093a2747",
+      "size_bytes": 176853,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V5 restores repository number 88 while preserving the evidence-bounded approximately 45-day pre-flight young: yellow eyes, diffuse barred mesoptile, short rounded developing wing, short/hidden tail and bilateral mineral support. Adults remain near-equal height; no universal female-larger assumption. Exact age, sex, flight ability, feather tract, numeric adult RSD and regional colour remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "CAP-MIK2013-276",
+        "CAP-OGADA-KIBUTHU2012",
+        "CAP-PEREGRINE-2026",
+        "CAP-BIODIVEXP-2026"
+      ],
+      "research_record": "research/species/88-bubo-capensis-v5.md",
+      "run_record": "production/runs/20261031T055200+0800-cycle-5.md",
+      "reviewed_at": "2026-10-31T06:05:00+08:00",
+      "generated_path": "production/generated/88-bubo-capensis-v5-generated-master.jpg",
+      "generated_blob": "8c8b8726914043119dade681cdb6f28f2ecd2839",
+      "generated_sha256": "c7eb5744aaf15876d9ea009dd46db5bb7c2411d336cb69de82970136685c5726",
+      "generated_size_bytes": 698023,
+      "reviewed_path": "production/reviewed/88-bubo-capensis-v5-reviewed-master.jpg",
+      "reviewed_blob": "8c8b8726914043119dade681cdb6f28f2ecd2839",
+      "reviewed_size_bytes": 698023,
+      "review_crop_path": "production/review-crops/88-bubo-capensis-v5-juvenile.jpg",
+      "review_crop_blob": "bcda1edb7a99b65a2b184efd398ffc1a3ee9cead",
+      "review_crop_size_bytes": 174192,
+      "readback_pending": true,
+      "git_blob": "7f95d9b0e5e6406bf9663e0b597920774954d84f"
     }
   ],
-  "updated_at": "2026-10-31T05:49:00+08:00"
+  "updated_at": "2026-10-31T06:08:00+08:00"
 }

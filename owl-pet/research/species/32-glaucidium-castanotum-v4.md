@@ -53,3 +53,8 @@ Scene: Sri Lankan wet-zone evergreen rainforest resembling Sinharaja or Kitulgal
 - ARCHIVED at 2026-10-30T09:05:00+08:00; manifest entry `32-glaucidium-castanotum-v4`, unique increment 0.
 - Concept path `../../design/concepts/32-glaucidium-castanotum-v4.png`; reviewed binary `56321493…`, 3,108,715 bytes; crop `4699b417…`, 706,212 bytes.
 - Fixed-commit readback pending; no credit until VERIFIED.
+
+
+## Fixed-commit verification
+
+- 2026-10-30T09:08:00+08:00: archive commit `b44d504135d5083e53c7f22008a148d59e48f207` reread through non-truncated 1,934-entry tree. Exact image tuples and indexed text/source blobs matched. Cycle credited; science remains false.

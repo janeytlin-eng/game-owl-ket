@@ -2250,3 +2250,5 @@ When a source photograph labels an individual immature but does not document its
 
 
 - #32 *Glaucidium castanotum* v4 — SCIENCE_REVISION. Dated Sinharaja juvenile photograph and 19 July 2014 parent-associated observation support an age-unknown fully feathered older dependent bird. First render passed full/crop review without edit: red chestnut adults with fewer chest bars than #31, and a softer juvenile with muted wing marks, compact wing, short tail and full support. [concept](concepts/32-glaucidium-castanotum-v4.png) · [research](../research/species/32-glaucidium-castanotum-v4.md) · [run](../production/runs/20261030T085300+0800-cycle-2.md). Exact age, flight threshold, independence and sexed measurements remain unknown; science pending.
+
+- 2026-10-30T09:08:00+08:00 — #32 v4 fixed-tree VERIFIED at `b44d504135d5083e53c7f22008a148d59e48f207`; exact image tuples and indexed records matched; batch 2/6, next cycle3; science false.

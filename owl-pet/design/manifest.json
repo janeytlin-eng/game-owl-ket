@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T09:05:00+08:00",
+  "updated": "2026-10-30T09:08:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9672,8 +9672,41 @@
       "review_crop_sha256": "4699b417b4b28aedddd3b10f62238ac27c9b490450b085adaebd6e0b0cbc99c3",
       "review_crop_size_bytes": 706212,
       "archive_note": "First 1536x1024 full plate and 520x700 juvenile crop were opened and passed without edit. Exact text/count, species separation from #31, adult size direction, muted juvenile wing, short tail and two-foot support passed. Existing v1-v3 and historical records remain retained.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "b44d504135d5083e53c7f22008a148d59e48f207",
+      "fixed_commit": "b44d504135d5083e53c7f22008a148d59e48f207",
+      "verified_at": "2026-10-30T09:08:00+08:00",
+      "verification_result": "fixed-commit tree was non-truncated (1934 entries) and exact concept/generated/reviewed/crop Git blobs and byte sizes matched; all three manifests, source-index blob, research, run-at-archive, knowledge, design/status and state blobs matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "b44d504135d5083e53c7f22008a148d59e48f207",
+        "concept": {
+          "path": "design/concepts/32-glaucidium-castanotum-v4.png",
+          "blob": "5599f6d607230e9e5da3174528104f44e1bc87f5",
+          "size_bytes": 3108715
+        },
+        "generated": {
+          "path": "production/generated/32-glaucidium-castanotum-v4-generated.png",
+          "blob": "5599f6d607230e9e5da3174528104f44e1bc87f5",
+          "size_bytes": 3108715
+        },
+        "reviewed": {
+          "path": "production/reviewed/32-glaucidium-castanotum-v4-reviewed.png",
+          "blob": "5599f6d607230e9e5da3174528104f44e1bc87f5",
+          "size_bytes": 3108715
+        },
+        "review_crop": {
+          "path": "production/review-crops/32-glaucidium-castanotum-v4-juvenile.png",
+          "blob": "70947e1cd3f6b370447639981941f9725945d054",
+          "size_bytes": 706212
+        },
+        "source_index_marker": "CBOW-CEYLONBIRDCLUB-2009",
+        "source_index_blob": "b4807278a577492bfab8c618af85823cdaea0667",
+        "research_blob": "21ea3cf0568d4fbce361c6682f0d42883f245d77",
+        "run_blob_at_archive": "c3eea1bbda7d9b006c9eaeb53464b2903d4258cd",
+        "knowledge_blob": "b8f8b51dd9a34e598f8ddd2d891d1a42a9cd0782"
+      }
     }
   ],
-  "updated_at": "2026-10-30T09:05:00+08:00"
+  "updated_at": "2026-10-30T09:08:00+08:00"
 }

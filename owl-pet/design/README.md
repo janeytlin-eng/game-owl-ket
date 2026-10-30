@@ -2502,3 +2502,6 @@ Verification 2026-10-30T21:56:57+08:00: #62 v4 fixed archive `45afb269dc4d805ab9
 - Concept: `design/concepts/69-tyto-novaehollandiae-v4.png`; generated/reviewed masters and 520×700 juvenile crop retained.
 - V4 deliberately selects the inferred approximately-five-week single dark-morph nominate nestling from Debus & Wood 2007: thick buff/ochre second down, developed mask, hidden wings/tail and no visible feather vanes. It does not repeat v3's recent fledgling.
 - Adults are dark-eyed and untufted; female is fuller/darker with comparable crown height. Full, crop and derivative opened; edit0; PASS_WITH_LIMITATIONS. Exact hatch age, cross-morph chronology and fixed sex ratio remain unknown. Science false.
+
+
+Verification 2026-10-31T00:40:42+08:00: #69 v4 fixed archive `f9196ec751000cb450cbea3f4e6e78c140a4af8f` returned exact concept/generated/reviewed/crop paths and blobs; manifests 575/574/565 matched. Batch 1/6 next2; science false.

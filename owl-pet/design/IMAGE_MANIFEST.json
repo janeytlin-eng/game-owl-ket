@@ -12372,10 +12372,58 @@
       "review_crop_blob": "d645c8252ec5d6bdd82ce0b480151645e89f6b02",
       "review_crop_size_bytes": 648841,
       "archive_note": "V1-v3 preserved. First render, close crop and derivative opened; edit count 0. The single-bird inferred age is labeled EST. and not treated as exact. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "f9196ec751000cb450cbea3f4e6e78c140a4af8f",
+      "verified_at": "2026-10-31T00:40:42+08:00",
+      "git_blob": "04231216f08fa1a259434ed11d4090b41d01d03f",
+      "fixed_commit": "f9196ec751000cb450cbea3f4e6e78c140a4af8f",
+      "verification_result": "VERIFIED against fixed archive: non-truncated 2,129-entry tree; exact concept/generated/reviewed/crop paths, blob SHAs and sizes; manifest counts 575/574/565; supporting run/research/state records matched. Science remains false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "f9196ec751000cb450cbea3f4e6e78c140a4af8f",
+        "tree_truncated": false,
+        "tree_entries": 2129,
+        "concept": {
+          "path": "owl-pet/design/concepts/69-tyto-novaehollandiae-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "04231216f08fa1a259434ed11d4090b41d01d03f",
+          "size": 649196,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/f9196ec751000cb450cbea3f4e6e78c140a4af8f/owl-pet/design/concepts/69-tyto-novaehollandiae-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/69-tyto-novaehollandiae-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aa48c519fe6fe8eb24cd762152884cb851c68c81",
+          "size": 3151855,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/f9196ec751000cb450cbea3f4e6e78c140a4af8f/owl-pet/production/generated/69-tyto-novaehollandiae-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/69-tyto-novaehollandiae-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "aa48c519fe6fe8eb24cd762152884cb851c68c81",
+          "size": 3151855,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/f9196ec751000cb450cbea3f4e6e78c140a4af8f/owl-pet/production/reviewed/69-tyto-novaehollandiae-v4-reviewed-master.png?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/review-crops/69-tyto-novaehollandiae-v4-juvenile.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d645c8252ec5d6bdd82ce0b480151645e89f6b02",
+          "size": 648841,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/f9196ec751000cb450cbea3f4e6e78c140a4af8f/owl-pet/production/review-crops/69-tyto-novaehollandiae-v4-juvenile.png?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 575,
+          "design": 574,
+          "production": 565
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T00:39:31+08:00"
+  "updated_at": "2026-10-31T00:40:42+08:00"
 }

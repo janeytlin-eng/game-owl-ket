@@ -1,3 +1,9 @@
+## 2026-10-31 #69 *Tyto novaehollandiae* v4 VERIFIED
+
+- SCIENCE_REVISION; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/69-tyto-novaehollandiae-v4.png](design/concepts/69-tyto-novaehollandiae-v4.png)
+- Fixed readback passed at [`f9196ec`](https://github.com/janeytlin-eng/game-owl-ket/commit/f9196ec751000cb450cbea3f4e6e78c140a4af8f); exact image blobs/sizes and manifests 575/574/565 matched. Batch 1/6; next cycle 2.
+
 ## 2026-10-31 #69 *Tyto novaehollandiae* v4 ARCHIVED — readback pending
 
 - SCIENCE_REVISION; first render passed full/crop/derivative review; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

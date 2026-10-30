@@ -37,3 +37,7 @@ Avoid: extra birds, eggs, prey, ear tufts, bright eyes, adult-like juvenile wing
 ## REVIEWED / ARCHIVED checkpoint — 2026-10-31T00:39:31+08:00
 
 First 1536×1024 render, 520×700 juvenile crop and 680×453 derivative were opened. No edit required. The inferred-five-week nestling remained thick buff/ochre down with developed mask, hidden wings/tail and no visible mature feather vanes; adult sex direction and all foot supports passed. PASS_WITH_LIMITATIONS; exact age, cross-morph chronology and fixed sex ratio remain unknown. Archive fixed readback pending; science false.
+
+## Fixed-tree verification — 2026-10-31T00:40:42+08:00
+
+Archive `f9196ec751000cb450cbea3f4e6e78c140a4af8f` returned a non-truncated 2,129-entry tree. Exact concept/generated/reviewed/crop blobs and sizes plus three manifest entries and support records matched. Cycle 1 credit granted; science false.

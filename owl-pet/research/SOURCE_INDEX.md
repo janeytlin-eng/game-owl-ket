@@ -6393,3 +6393,26 @@ Reused `SRC-PAPER-040-02`, `SRC-BOOK-040-01`, `SRC-PAPER-040-03`, `CFPO-EBIRD-ID
 - **Links:** [v4 card](species/41-glaucidium-cobanense-v4.md) · [knowledge](../knowledge/species/41-glaucidium-cobanense.md) · [run](../production/runs/20261030T143100+0800-cycle-5.md)
 
 **Reused / corrected:** `SRC-BOOK-041-01`, `SRC-PAPER-041-02`, `SRC-WEB-041-03`, `SRC-WEB-041-04`, `GUPO-BSG-2026`, and `GUPO-HOWELL-EISERMANN-2011` were reused. The prior `SRC-PAPER-041-02` summary is refined from the actually read nest context: the Chelemhá female was rufous morph and the male brown morph. V4 uses that one documented pair, not a universal sex/morph rule. The Bird Studies Guatemala page identifies brown-morph juvenile and juveniles at the nest entrance; inaccessible linked pixels are not claimed as viewed. Mikkola printed p.380/PDF p.382 is repository-reused evidence, not freshly rendered this run. New2/reused6/corrected1; juvenile age, continuous feather chronology, iris chronology, flight capability and sex measurements remain unknown; `scientifically_verified=false`.
+
+
+## 2026-10-30 #42 *Athene brama* v4 — corrected 16–20-day nestling stage
+
+### SPOT-NERLEKAR-ETHOGRAM-2014
+- **Title / authors / year:** *Behavioural ethogram of Spotted Owlet Athene brama* — Ashish N. Nerlekar, Gaurang G. Gowande & Pratik S. Joshi, 2014, JBNHS 111(3):172–179.
+- **DOI / URL:** https://doi.org/10.17087/jbnhs/2014/v111i3/82356 ; https://ashishnerlekar.weebly.com/uploads/1/2/0/7/120745308/owlet_ethogram_paper_nerlekar_et_al_2015.pdf
+- **Accessed / pages read:** 2026-10-30; printed pp.172–178 / PDF pp.1–7, especially pp.172–173 and Table 2 p.178.
+- **Type / taxon / stage:** peer-reviewed field ethogram; *A. brama*, pair plus two juveniles about 20 d from hatching.
+- **Facts:** 303 h observation; juvenile sex unknown; juvenile behaviors include threat display and later flying practice.
+- **Limits:** exact feather map absent; flying-practice row is not tied to a precise day.
+- **Decision:** show the chosen young alert/reactive but not flying or fully wing-spreading.
+- **Links:** [v4 card](species/42-athene-brama-v4.md) · [knowledge](../knowledge/species/42-athene-brama.md) · [run](../production/runs/20261030T144900+0800-cycle-6.md)
+
+### Corrected SPOT-ALI-2015
+- **Title / authors / year:** *Nest trees, habitat and breeding biology of the spotted owlet Athene brama brama in human habitation and agricultural landscape of India* — Ali & Santhanakrishnan, 2015, Zoology and Ecology 25(3):211–219.
+- **DOI / URL:** https://doi.org/10.1080/21658005.2015.1061248
+- **Accessed / pages read:** complete article text read 2026-10-30; printed pp.214–216, especially developmental description pp.215–216 / lines 877–973.
+- **Correction:** prior index entry relied on metadata/abstract. Full text says 16–20 d egg tooth gone, whole body juvenile plumage, white neck pattern appearing and escape reaction; 21–25 d typical gray feathers adult-like, remiges/rectrices well developed with white wing marks; 26–30 d adult-like; mean fledging 31.4 ± 2.67 d, range 28–33.
+- **Decision:** v3's ~4-week strongly undeveloped spotless-wing direction is rejected. V4 uses a 16–20 d cavity-bound juvenile with compact developing wing and just-emerging tail.
+- **Limits:** figure pixels were not separately examined at full resolution; exact feather-by-feather map and iris chronology remain unknown.
+
+Reused `SPOT-MIKKOLA-2013`, `SPOT-PANDE-2011`, and `SPOT-AVIBASE-2026`. Mikkola printed pp.436–439 is repository-reused, not freshly rendered. New1/reused3/corrected1; `scientifically_verified=false`.

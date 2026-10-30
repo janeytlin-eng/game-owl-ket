@@ -40,3 +40,9 @@ Image generated, edited twice and reviewed; archive d4069ad1d8148391c26ec731ae76
 - Re-read `AFO-CURTI-2018` printed p.18: on 12–13 June an age-unknown young begged while perched outside the Palmchat cavity on a northwest-projecting palm frond; absence on 14 June led the authors to *assume* fledging.
 - V4 may use the documented begging/perched behavior and exact palm-frond support, but must not convert dates into age, measured flight competence or a detailed feather timetable. Folded-wing detail is intentionally obscured/softened; no mature remige rows or long tail.
 - Palmchat nest remains one exceptional documented site, not a species-wide default. Adult female gets fuller body volume only, without a fixed standing-height ratio. Science false.
+
+
+## v4 review checkpoint
+
+- 2026-10-30T22:38:18+08:00: initial render’s female scale and young wing maturity exceeded the evidence boundary. One targeted edit reduced the female to the same height class and replaced the young’s dark spotted layered panel with compact buff down-fringed developing texture.
+- Edited full master and 680×453 derivative reopened; begging pose, bilateral support, Palmchat cavity, labels and adult identity pass. PASS_WITH_LIMITATIONS; science false.

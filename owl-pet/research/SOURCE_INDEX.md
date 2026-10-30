@@ -685,3 +685,15 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actually read: lines4–8 and56–67. Rocky cliffs/outcrops/gorges and semi-desert scrub are within the southern African habitat range; scrapes occur on ground/ledges or sheltered among rocks; chicks leave the nest at about45days but remain nearby and dependent. No plumage sequence, sex-size measurement or individual-age calibration.
 - Limitation/confidence: corroborative regional context, not a primary developmental series. Used only to support mineral rock ledge/scrub support and pre-flight context, not to redraw feathers or claim exact ability.
 - Design link: #88 v5 title-only revision; biological v4 boundary unchanged.
+
+
+### BEN-PITCHANDIKULAM-2026
+- Title: Publications / Wildlife Research in Pitchandikulam Forest
+- Author/Institution: Pitchandikulam Forest, Auroville
+- URL: https://www.pitchandikulamforest.org/publication/
+- Accessed: 2026-10-31
+- Type: institution research bibliography/context page
+- Species/stage: *Bubo bengalensis*, study-program context
+- Actually read: page lists Ramanujam & Murugavel 2009 young-development paper and Ramanujam 2015 adult/young behaviour work, and states long-term local Indian Eagle-Owl research. It adds no new plumage measurements.
+- Limitation/confidence: discovery/provenance context only; not used for morphology or exact age. Primary JoTT papers remain controlling evidence.
+- Design link: #89 v4 title-only revision.

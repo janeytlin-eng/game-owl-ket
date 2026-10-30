@@ -361,3 +361,23 @@
 - **Correction:** v4 replaces v3's ~60-day nest-leaving climber with Brown's distinct ~6-week nestling and direct bare-part/plumage traits; adult female mass direction is now evidence-based but not exaggerated.
 - **Source/design delta:** new3 / reused2 / corrected2; science false.
 
+
+
+## 2026-10-30 — #59 *Ketupa zeylonensis* v4 Hong Kong brancher boundary
+
+### BFOW-KFBG-2021
+- **Stable ID:** `BFOW-KFBG-2021`
+- **Title / author / institution / date:** “What secrets can we discover at a Brown Fish Owl’s nesting site?” / Aiko Leong / Kadoorie Farm and Botanic Garden / 1 October 2021.
+- **Original URL:** https://www.kfbg.org/en/KFBG-blog/post/What-secrets-can-we-discover-at-a-Brown-Fish-Owls-nesting-site
+- **Accessed:** 2026-10-30.
+- **Source type:** conservation institution field account with captioned real-bird photographs.
+- **Species/stage:** *Ketupa zeylonensis*; one New Territories late nestling and then more-mobile juvenile exploring branches near the nest; exact age/sex/subspecies unknown.
+- **Sections/figures read:** article text; captions “nestling with well-developed feathers shortly before it left the tree nest” and “juvenile … more mobile and exploring the branches close to the nest”; no page numbers on the web article.
+- **Valuable facts:** one young fledged successfully; well-developed feathers preceded departure; the juvenile later explored branches near the nest; nest material included wood and bark fragments.
+- **Limits/conflicts/credibility:** strong for the photographed locality, stage and support; no hatch date, continuous feather series, first-flight test, sex or measurements. It does not override Kerala/Gujarat timing or identify the photographed subspecies. Institutional first-hand account; high relevance, bounded generality.
+- **Design/review decision:** supports an age-unknown, fully branch-supported Hong Kong late nestling/just-mobile brancher with formed but down-softened folded wings; forbids exact day-age and flight claims.
+- **Linked records:** `owl-pet/research/species/59-ketupa-zeylonensis-v4.md`; `owl-pet/production/runs/20261030T212800+0800-cycle-3.md`; planned `owl-pet/design/concepts/59-ketupa-zeylonensis-v4.png`.
+
+### Reused and corrected mapping
+- **Reused:** `BFOW-BINDU-BALAKRISHNAN-2015` (JBNHS 112(2), pp.97–98; 43–49-day Kerala nestling period); `BFO-INDIANBIRDS-2013` (pp.147–151; Gujarat development sequence); `BFOW-ITIS-2025` (valid current name and original *Strix zeylonensis* mapping).
+- **Correction:** the Hong Kong photographed juvenile remains age unknown; Kerala/Gujarat timing is context and is not transferred into an exact New Territories day-age or feather timetable.

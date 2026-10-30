@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T16:56:00+08:00",
+  "updated": "2026-10-30T17:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10681,7 +10681,37 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "45-strix-seloputo-v4",
+      "path": "design/concepts/45-strix-seloputo-v4.png",
+      "species_id": 45,
+      "scientific_name": "Strix seloputo",
+      "common_name": "Spotted Wood Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "sha256": "6d33c3288ab731557639a80d295cd8f25cf36c47607ea9b981c95a5652db0c86",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: evidence-bounded 2–4-days-post-fledging brancher from one dated Pasir Ris family, shown low balance-walking with both feet supported, prominent down, a short unspotted growing balance wing and very short/hidden tail. Adults are untufted, dark-eyed and near-equal scale because sex-size difference is unknown. Exact hatch age, universal chronology, independent-flight threshold, sex-specific growth and universal nest geometry remain unknown.",
+      "source_ids": [
+        "SOWL-MIKKOLA-2013-P322-323",
+        "SOWL-BESG-2022-P1",
+        "SOWL-BESG-2022-P2",
+        "SOWL-NPARKS-2026",
+        "SOWL-OOI-MBR-2025-P39-40"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-45-strix-seloputo-v4-evidence-boundary",
+      "run_record": "owl-pet/production/runs/20261030T173300+0800-cycle-3.md",
+      "reviewed_at": "2026-10-30T17:42:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 665851,
+      "git_blob": "0a338b165c6870fa49894547b89b651fa9b69b1d",
+      "generated_blob": "767ca901156d4b59d49366a3a106ce39e11a687a",
+      "reviewed_blob": "6d7c4e9a2f160255c2fbf2b0e404b162431cf994",
+      "archive_note": "First render passed text/count/adults/support but gave the juvenile an overlong layered white-spotted wing. One juvenile-only edit shortened and softened the wing, removed adult spot rows, hid the mature tail and preserved the documented low balance-walk with bilateral foot support. Edited original and derivative passed with limitations. Science false.",
+      "readback_pending": true,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-10-30T16:56:00+08:00"
+  "updated_at": "2026-10-30T17:44:00+08:00"
 }

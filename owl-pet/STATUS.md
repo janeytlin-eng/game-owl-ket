@@ -1,3 +1,11 @@
+## 2026-10-30 #45 *Strix seloputo* v4 ARCHIVED — readback pending
+
+- Result: SCIENCE_REVISION archived; unique remains **175/251**; batch `2026-10-30T1634+0800` remains **2/6** until fixed-commit verification.
+- Image: [design/concepts/45-strix-seloputo-v4.png](design/concepts/45-strix-seloputo-v4.png)
+- Research: 1 new / 4 reused / 1 corrected source decision; Mikkola pp.322–323 and a dated field chronology bound the juvenile stage.
+- Review: first render had an overlong adult-spotted juvenile wing; one juvenile-only edit produced a short down-embedded balance wing and very short/hidden tail. Edited original and derivative passed with limitations.
+- Archive blobs: concept `0a338b165c…`; generated `767ca90115…`; reviewed `6d7c4e9a2f…`. Fixed readback pending; science false.
+
 - 2026-10-30T01:55:08+08:00: #12 *Aegolius acadicus* v5 ARCHIVED. Full/crop review passed with limitations, edit 0; fixed readback pending. Unique species 175/251; numbered IDs 185/251; science verified 0.
 - 2026-10-30T01:51:10+08:00: #11 *Aegolius funereus* v4 ARCHIVED. One juvenile-wing edit; fixed readback pending. Unique species remains 175/251; numbered IDs 185/251; science verified 0.
 - 2026-10-30T01:23:00+08:00: #08 *Strix nebulosa* v5 VERIFIED at fixed archive aeee17b44f7b57994e2580e3761ec3d32d905104; non-truncated 1813-entry tree, five exact image assets and complete source-index/research/run markers passed. Batch 4/6, next cycle5; unique +0; science false.

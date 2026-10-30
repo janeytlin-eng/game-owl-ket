@@ -87,3 +87,14 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Correction: “adult-like primaries” means short formed direction, not mature length/layering or crisp spot rows.
 - Full prompt and evidence: [run](../../production/runs/20261030T173300+0800-cycle-3.md) · [research record](../../research/species/45-strix-seloputo-v4.md).
 - Science remains false.
+
+
+## 2026-10-30 v4 production result
+
+- Action: SCIENCE_REVISION; unique-species increment 0; v1–v3 preserved.
+- Concept: `design/concepts/45-strix-seloputo-v4.png`; 680×453; 665,851 bytes; SHA-256 `6d33c3288ab731557639a80d295cd8f25cf36c47607ea9b981c95a5652db0c86`; Git blob `0a338b165c6870fa49894547b89b651fa9b69b1d`.
+- Generated master: `production/generated/45-strix-seloputo-v4-generated-master.png`; blob `767ca901156d4b59d49366a3a106ce39e11a687a`.
+- Reviewed master: `production/reviewed/45-strix-seloputo-v4-reviewed-master.png`; blob `6d7c4e9a2f160255c2fbf2b0e404b162431cf994`.
+- Problem → evidence → modification → recheck: first render had an overlong layered white-spotted juvenile wing → dated 2–4-day post-fledging chronology plus Mikkola mesoptile limits disallowed mature remiges/spot rows → one juvenile-only edit shortened/softened the wing, removed adult spots, hid the mature tail and retained low balance-walking with bilateral foot support → edited original and 680×453 derivative passed.
+- Remaining unknowns: exact hatch age, universal feather chronology, independent-flight threshold, sex-specific growth and universal nest geometry. `scientifically_verified=false`.
+- Archive commit and fixed readback: pending.

@@ -1,3 +1,15 @@
+## #59 Brown Fish Owl — *Ketupa zeylonensis* — v4 science revision
+
+- Concept: [59-ketupa-zeylonensis-v4.jpg](concepts/59-ketupa-zeylonensis-v4.jpg)
+- Research: [species record](../research/species/59-ketupa-zeylonensis-v4.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30-59-ketupa-zeylonensis-v4-hong-kong-brancher-boundary)
+- Stage: ARCHIVED; fixed readback pending. One juvenile-wing edit; Hong Kong age-unknown well-feathered brancher beside tree nest; v1–v3 preserved; science false.
+
+### A locality caption supports stage, not an imported day-age
+
+When an institutional field caption shows “shortly before leaving” and later branch exploration but no hatch date, use it to bound feather maturity and support/action. Do not transfer a precise age from another population. Applied and visually rechecked on #59 v4; not yet a universal rule.
+
+---
+
 ## #58 Dusky Eagle-Owl — *Ketupa coromanda* — v4 science revision
 
 - Concept: [58-ketupa-coromanda-v4.png](concepts/58-ketupa-coromanda-v4.png)

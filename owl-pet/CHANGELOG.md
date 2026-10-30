@@ -1,3 +1,4 @@
+- 2026-10-30T21:39:00+08:00: #59 *Ketupa zeylonensis* v4 ARCHIVED after one juvenile-wing edit and full/derivative review; KFBG Hong Kong brancher evidence indexed; manifest updated; fixed readback pending; unique +0; science false.
 - 2026-10-30T20:55:00+08:00: #58 *Ketupa coromanda* v4 VERIFIED at fixed archive 671c4af4bc284133ac43af0919d4ceb4510a185a; non-truncated tree and exact three image blobs/sizes/markers passed. Batch 2/6 next3; unique +0; science false.
 - 2026-10-30T20:54:00+08:00: #58 *Ketupa coromanda* v4 ARCHIVED after two juvenile-wing edits and full+derivative review; manifest 564; fixed readback pending; unique +0; science false.
 - 2026-10-30T20:46:00+08:00: #57 *Bubo nipalensis* v4 VERIFIED at fixed archive cdaa43094b9567f5c92edabdeeefddc9bad1e81d; non-truncated tree, exact three image blobs/sizes and supporting markers passed. Batch 1/6 next2; unique +0; science false.

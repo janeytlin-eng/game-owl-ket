@@ -69,3 +69,13 @@ Do not show: a tiny chick, short wing buds, almost no tail, a fully adult third 
 - Scientific status pending: exact individual age, continuous feather-length series, quantified sex ratio and regional variation remain unknown.
 
 - Immutable archive verification passed at `8a74506bb4cc16e517f2aba168c78a62465eaeda`: concept/generated/reviewed blob IDs and byte sizes plus manifest/source/card/run/state/status/design markers matched. This verifies archival integrity, not scientific calibration.
+
+
+## v4 Hong Kong stage correction — 2026-10-30
+
+- New institutional evidence: KFBG 2021 captions a New Territories nestling with well-developed feathers shortly before leaving the tree nest and then a more-mobile juvenile exploring nearby branches.
+- Correction: Kerala/Gujarat timing remains context but is not assigned as the exact age of the Hong Kong bird.
+- V4 brancher is nearly adult-sized but lower, paler and down-fringed, with a formed irregular folded wing and short-to-medium tail; both feet grip the branch beside the tree nest; no flight claim.
+- One targeted edit removed adult-regular pale covert rows and remige layering. Edited original and derivative reopened; PASS_WITH_LIMITATIONS; science false.
+- Exact age, sex, subspecies, continuous feather chronology, first-flight threshold and quantified display ratio remain unknown.
+- Research: `owl-pet/research/species/59-ketupa-zeylonensis-v4.md`. Concept: `owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg`.

@@ -1,3 +1,10 @@
+## 2026-10-30 #59 *Ketupa zeylonensis* v4 ARCHIVED
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/59-ketupa-zeylonensis-v4.jpg](design/concepts/59-ketupa-zeylonensis-v4.jpg)
+- Research: new1/reused3/corrected1; KFBG Hong Kong stage is kept age-unknown and separate from Indian timing.
+- Archive tree prepared; fixed readback pending. Batch remains 2/6 until verification.
+
 ## 2026-10-30 #58 *Ketupa coromanda* v4 VERIFIED
 
 - SCIENCE_REVISION; two juvenile-wing edits; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

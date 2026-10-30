@@ -8301,28 +8301,39 @@
       "next_cycle": 3,
       "last_checkpoint": {
         "cycle": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Ketupa zeylonensis",
         "species_id": 59,
         "version": 4,
         "run_id": "20261030T212800+0800-cycle-3",
-        "at": "2026-10-30T21:37:00+08:00",
+        "at": "2026-10-30T21:39:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T212800+0800-cycle-3.md",
         "evidence": {
-          "reviewed_commit": "667a8cc87f2a3739222393e7e4d117f30a45ca3f",
-          "reviewed_path": "owl-pet/production/reviewed/59-ketupa-zeylonensis-v4-reviewed-master.jpg",
-          "blob": "e909211cf728aa0a14adc58cbe33c4cb8056fdb5",
-          "size_bytes": 639730,
-          "dimensions": "1536x1024",
-          "sha256": "8b6044c3863c6d792fad1f09f5553f9eec2ebc0200a7a78af17041f574fe27f4",
-          "derivative_sha256": "d8c2b128f225068cc4d61aba5f97126d2bc600ebbdd7ba59f7e316fb831803b2",
-          "edits": 1,
-          "edit_seconds": 121,
-          "review": "PASS_WITH_LIMITATIONS",
+          "concept": {
+            "path": "owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg",
+            "blob": "d9ad9b585aa786d820bde66e30d261bb0efdeb54",
+            "size_bytes": 214556
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/59-ketupa-zeylonensis-v4-generated-master.jpg",
+            "blob": "1ada79811ae05d0db3f51030bcae618bb2e028f8",
+            "size_bytes": 725481
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/59-ketupa-zeylonensis-v4-reviewed-master.jpg",
+            "blob": "e909211cf728aa0a14adc58cbe33c4cb8056fdb5",
+            "size_bytes": 639730
+          },
+          "manifest_counts": {
+            "design": 565,
+            "production": 555,
+            "legacy": 564
+          },
+          "readback_pending": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T21:37:00+08:00",
+      "last_updated_at": "2026-10-30T21:39:00+08:00",
       "audit_notes": [
         "2026-10-30T20:39:00+08:00 cycle1 #57 Bubo nipalensis v4 SCIENCE_REVISION STARTED; #56 Bubo virginianus skipped as duplicate of canonical #14 Great Horned Owl; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T20:40:00+08:00 cycle1 #57 v4 RESEARCH_READY; new1/reused3/corrected1. Shukla 2025 printed p28 plus Srinivasan 2013 pp106–107 read; date is not age/flight threshold; full prompt saved; science false; no credit.",
@@ -8339,7 +8350,8 @@
         "2026-10-30T21:28:00+08:00 cycle3 #59 Ketupa zeylonensis v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T21:31:00+08:00 cycle3 #59 v4 RESEARCH_READY; new1/reused3/corrected1. KFBG 2021 captioned field account, JBNHS pp97–98, Indian BIRDS pp147–151 and ITIS read; Hong Kong stage isolated from Indian day-age; full prompt saved; science false; no credit.",
         "2026-10-30T21:34:00+08:00 cycle3 #59 v4 IMAGE_GENERATED in 87.7s; original opened. Text/count/adults/site/support passed; juvenile wing had crisp pale covert rows and adult-regular layered remiges; targeted edit required. Full-resolution generated master persisted at 89242c8; no credit.",
-        "2026-10-30T21:37:00+08:00 cycle3 #59 v4 REVIEWED after one juvenile-only wing edit (~121s). Edited original and 680x453 derivative opened; adult-like pale covert rows/layering removed, down-fringed formed wing retained; text/adults/site/support pass; PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-30T21:37:00+08:00 cycle3 #59 v4 REVIEWED after one juvenile-only wing edit (~121s). Edited original and 680x453 derivative opened; adult-like pale covert rows/layering removed, down-fringed formed wing retained; text/adults/site/support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-30T21:39:00+08:00 cycle3 #59 v4 ARCHIVED tree prepared; concept/generated/reviewed and three manifests/supporting records included; fixed readback pending; no credit."
       ],
       "active_lease": {
         "owner": "codex-work-mode",
@@ -8349,9 +8361,9 @@
         "species": "Ketupa zeylonensis",
         "species_id": 59,
         "version": 4,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-30T21:37:00+08:00",
-        "expires_at": "2026-10-30T21:52:00+08:00"
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-30T21:39:00+08:00",
+        "expires_at": "2026-10-30T21:54:00+08:00"
       },
       "lease": {
         "owner": "codex-work-mode",
@@ -8361,9 +8373,9 @@
         "species": "Ketupa zeylonensis",
         "species_id": 59,
         "version": 4,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-30T21:37:00+08:00",
-        "expires_at": "2026-10-30T21:52:00+08:00"
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-30T21:39:00+08:00",
+        "expires_at": "2026-10-30T21:54:00+08:00"
       },
       "in_progress": {
         "owner": "codex-work-mode",
@@ -8373,9 +8385,9 @@
         "species": "Ketupa zeylonensis",
         "species_id": 59,
         "version": 4,
-        "stage": "REVIEWED",
-        "heartbeat_at": "2026-10-30T21:37:00+08:00",
-        "expires_at": "2026-10-30T21:52:00+08:00",
+        "stage": "ARCHIVED",
+        "heartbeat_at": "2026-10-30T21:39:00+08:00",
+        "expires_at": "2026-10-30T21:54:00+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T212800+0800-cycle-3.md"
@@ -8390,9 +8402,9 @@
     "species": "Ketupa zeylonensis",
     "species_id": 59,
     "version": 4,
-    "stage": "REVIEWED",
-    "heartbeat_at": "2026-10-30T21:37:00+08:00",
-    "expires_at": "2026-10-30T21:52:00+08:00"
+    "stage": "ARCHIVED",
+    "heartbeat_at": "2026-10-30T21:39:00+08:00",
+    "expires_at": "2026-10-30T21:54:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8542,9 +8554,9 @@
     "species": "Ketupa zeylonensis",
     "species_id": 59,
     "version": 4,
-    "stage": "REVIEWED",
-    "heartbeat_at": "2026-10-30T21:37:00+08:00",
-    "expires_at": "2026-10-30T21:52:00+08:00"
+    "stage": "ARCHIVED",
+    "heartbeat_at": "2026-10-30T21:39:00+08:00",
+    "expires_at": "2026-10-30T21:54:00+08:00"
   },
   "last_updated_at": "2026-10-30T20:55:00+08:00",
   "audit_notes": [
@@ -8965,9 +8977,9 @@
     "species": "Ketupa zeylonensis",
     "species_id": 59,
     "version": 4,
-    "stage": "REVIEWED",
-    "heartbeat_at": "2026-10-30T21:37:00+08:00",
-    "expires_at": "2026-10-30T21:52:00+08:00",
+    "stage": "ARCHIVED",
+    "heartbeat_at": "2026-10-30T21:39:00+08:00",
+    "expires_at": "2026-10-30T21:54:00+08:00",
     "action": "SCIENCE_REVISION",
     "unique_species_increment": 0,
     "run_record": "owl-pet/production/runs/20261030T212800+0800-cycle-3.md"

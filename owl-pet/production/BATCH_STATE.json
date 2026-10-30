@@ -8994,80 +8994,45 @@
           "unique_species_increment": 0,
           "commit_sha": "356a567510fc2e2c1870ee90578d3c4f321a6d02",
           "run_record": "owl-pet/production/runs/20261031T063600+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Tyto javanica delicatula",
+          "species_no": "91",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d",
+          "run_record": "owl-pet/production/runs/20261031T065000+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "last_checkpoint": {
         "cycle": 2,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Tyto javanica delicatula",
         "species_id": 91,
         "version": 4,
         "run_id": "20261031T065000+0800-cycle-2",
-        "at": "2026-10-31T06:56:00+08:00",
+        "at": "2026-10-31T06:58:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T065000+0800-cycle-2.md",
         "evidence": {
-          "baseline_main": "51e186e10723b8b24cd3fbc9b60aa4974117d8a3",
-          "prior_fixed_version": "v3",
-          "prior_fixed_commit": "unknown-historical-fixed",
-          "source_index_added": [
-            "EBO-MCLAUGHLIN-DEBUS-2025",
-            "EBO-AUSTRALIAN-MUSEUM-2026"
-          ],
-          "research_path": "owl-pet/research/species/91-tyto-javanica-delicatula-v4.md",
-          "full_prompt_saved": true,
-          "science": false,
-          "generated": {
-            "path": "owl-pet/production/generated/91-tyto-javanica-delicatula-v4-generated-master.png",
-            "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-            "size": 2979313,
-            "sha256": "4c72e8036a6f0956857316551e82b00186c7f870aac2c50e94696b9eb1988d8a",
-            "seconds": 34.8,
-            "actual_full_view": true
+          "status": "VERIFIED",
+          "fixed_archive_commit": "6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d",
+          "tree_truncated": false,
+          "tree_entries": 2247,
+          "manifest_counts": {
+            "legacy": 594,
+            "design": 593,
+            "production": 584
           },
-          "review": {
-            "result": "PASS_WITH_LIMITATIONS",
-            "edit_count": 0,
-            "full_view": true,
-            "crop_view": true,
-            "reviewed_path": "owl-pet/production/reviewed/91-tyto-javanica-delicatula-v4-reviewed-master.png",
-            "review_crop_path": "owl-pet/production/review-crops/91-tyto-javanica-delicatula-v4-juvenile.png",
-            "review_crop_blob": "3353ee562b3e5072a1b604f48ceddcf489b06a28",
-            "review_crop_size": 861287,
-            "science": false
-          },
-          "archive": {
-            "concept": {
-              "path": "owl-pet/design/concepts/91-tyto-javanica-delicatula-v4.png",
-              "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-              "size": 2979313
-            },
-            "generated": {
-              "path": "owl-pet/production/generated/91-tyto-javanica-delicatula-v4-generated-master.png",
-              "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-              "size": 2979313
-            },
-            "reviewed": {
-              "path": "owl-pet/production/reviewed/91-tyto-javanica-delicatula-v4-reviewed-master.png",
-              "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-              "size": 2979313
-            },
-            "review_crop": {
-              "path": "owl-pet/production/review-crops/91-tyto-javanica-delicatula-v4-juvenile.png",
-              "blob": "3353ee562b3e5072a1b604f48ceddcf489b06a28",
-              "size": 861287
-            },
-            "manifest_counts": {
-              "legacy": 594,
-              "design": 593,
-              "production": 584
-            },
-            "fixed_readback_pending": true,
-            "science": false
-          }
+          "exact_assets": true,
+          "support_records": true,
+          "unique_species": "175/251",
+          "science": false
         }
       },
-      "last_updated_at": "2026-10-31T06:56:00+08:00",
+      "last_updated_at": "2026-10-31T06:58:00+08:00",
       "audit_notes": [
         "2026-10-31T06:36:00+08:00: reconciled expired top-level orphan lease/run 20261031T043000+0800-cycle-1 after confirming batch 2026-10-31T0430+0800 already COMPLETE 6/6 and #83 fixed archive recorded; no duplicate credit.",
         "2026-10-31T06:36:00+08:00: cycle1 #90 Tyto furcata pratincola v5 SCIENCE_REVISION STARTED and RESEARCH_READY; v1-v4 preserved; v4 actual image opened; only missing repository number in title identified; 15-minute lease acquired; sources indexed new2/reused2/corrected1; no cycle credit.",
@@ -9077,38 +9042,15 @@
         "2026-10-31T06:47:00+08:00: cycle1 #90 v5 VERIFIED against fixed archive 356a567510fc2e2c1870ee90578d3c4f321a6d02; non-truncated 2241-entry tree returned exact four image paths/blobs/sizes; manifests 593/592/583 and support records matched; batch1/6 next2; unique remains175/251; science false; lease released.",
         "2026-10-31T06:50:00+08:00: cycle2 #91 Tyto javanica delicatula v4 SCIENCE_REVISION STARTED/RESEARCH_READY; v1-v3 preserved; v3 full image opened; only missing number91 confirmed; 15-minute lease acquired; sources index new2/reused2/corrected1; no credit.",
         "2026-10-31T06:53:00+08:00: cycle2 #91 v4 IMAGE_GENERATED in34.8s and REVIEWED edit0; full1536x1024 plus620x760 crop opened. Exact number/title/count, adult identity, late-pre-fledgling developed fresh wings/residual down and two-foot hollow support pass; PASS_WITH_LIMITATIONS; assets persisted; no credit.",
-        "2026-10-31T06:56:00+08:00: cycle2 #91 v4 ARCHIVED; concept/generated/reviewed/crop, manifests594/593/584 and support records prepared; fixed readback pending; unique175/251; sciencefalse; no credit."
+        "2026-10-31T06:56:00+08:00: cycle2 #91 v4 ARCHIVED; concept/generated/reviewed/crop, manifests594/593/584 and support records prepared; fixed readback pending; unique175/251; sciencefalse; no credit.",
+        "2026-10-31T06:58:00+08:00: cycle2 #91 v4 VERIFIED against fixed archive 6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d; non-truncated 2247-entry tree, exact four assets, manifests 594/593/584 and support records matched; batch2/6 next3; science false; lease released."
       ],
-      "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T065000+0800-cycle-2",
-        "heartbeat_at": "2026-10-31T06:56:00+08:00",
-        "expires_at": "2026-10-31T07:11:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T065000+0800-cycle-2",
-        "heartbeat_at": "2026-10-31T06:56:00+08:00",
-        "expires_at": "2026-10-31T07:11:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "species": "Tyto javanica delicatula",
-        "species_id": 91,
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T065000+0800-cycle-2",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T065000+0800-cycle-2.md"
-      }
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T065000+0800-cycle-2",
-    "heartbeat_at": "2026-10-31T06:56:00+08:00",
-    "expires_at": "2026-10-31T07:11:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -9240,7 +9182,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T06:56:00+08:00",
+  "updated_at": "2026-10-31T06:58:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9249,13 +9191,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T065000+0800-cycle-2",
-    "heartbeat_at": "2026-10-31T06:56:00+08:00",
-    "expires_at": "2026-10-31T07:11:00+08:00"
-  },
-  "last_updated_at": "2026-10-31T06:56:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-31T06:58:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9704,84 +9641,30 @@
       "baseline_main": "9fd8b3c7f0070082fcb499ec6a20957d6b4985e0"
     }
   ],
-  "in_progress": {
-    "cycle": 2,
-    "species": "Tyto javanica delicatula",
-    "species_id": 91,
-    "version": 4,
-    "action": "SCIENCE_REVISION",
-    "run_id": "20261031T065000+0800-cycle-2",
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261031T065000+0800-cycle-2.md"
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "cycle": 2,
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "species": "Tyto javanica delicatula",
     "species_id": 91,
     "version": 4,
     "run_id": "20261031T065000+0800-cycle-2",
-    "at": "2026-10-31T06:56:00+08:00",
+    "at": "2026-10-31T06:58:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T065000+0800-cycle-2.md",
     "evidence": {
-      "baseline_main": "51e186e10723b8b24cd3fbc9b60aa4974117d8a3",
-      "prior_fixed_version": "v3",
-      "prior_fixed_commit": "unknown-historical-fixed",
-      "source_index_added": [
-        "EBO-MCLAUGHLIN-DEBUS-2025",
-        "EBO-AUSTRALIAN-MUSEUM-2026"
-      ],
-      "research_path": "owl-pet/research/species/91-tyto-javanica-delicatula-v4.md",
-      "full_prompt_saved": true,
-      "science": false,
-      "generated": {
-        "path": "owl-pet/production/generated/91-tyto-javanica-delicatula-v4-generated-master.png",
-        "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-        "size": 2979313,
-        "sha256": "4c72e8036a6f0956857316551e82b00186c7f870aac2c50e94696b9eb1988d8a",
-        "seconds": 34.8,
-        "actual_full_view": true
+      "status": "VERIFIED",
+      "fixed_archive_commit": "6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d",
+      "tree_truncated": false,
+      "tree_entries": 2247,
+      "manifest_counts": {
+        "legacy": 594,
+        "design": 593,
+        "production": 584
       },
-      "review": {
-        "result": "PASS_WITH_LIMITATIONS",
-        "edit_count": 0,
-        "full_view": true,
-        "crop_view": true,
-        "reviewed_path": "owl-pet/production/reviewed/91-tyto-javanica-delicatula-v4-reviewed-master.png",
-        "review_crop_path": "owl-pet/production/review-crops/91-tyto-javanica-delicatula-v4-juvenile.png",
-        "review_crop_blob": "3353ee562b3e5072a1b604f48ceddcf489b06a28",
-        "review_crop_size": 861287,
-        "science": false
-      },
-      "archive": {
-        "concept": {
-          "path": "owl-pet/design/concepts/91-tyto-javanica-delicatula-v4.png",
-          "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-          "size": 2979313
-        },
-        "generated": {
-          "path": "owl-pet/production/generated/91-tyto-javanica-delicatula-v4-generated-master.png",
-          "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-          "size": 2979313
-        },
-        "reviewed": {
-          "path": "owl-pet/production/reviewed/91-tyto-javanica-delicatula-v4-reviewed-master.png",
-          "blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-          "size": 2979313
-        },
-        "review_crop": {
-          "path": "owl-pet/production/review-crops/91-tyto-javanica-delicatula-v4-juvenile.png",
-          "blob": "3353ee562b3e5072a1b604f48ceddcf489b06a28",
-          "size": 861287
-        },
-        "manifest_counts": {
-          "legacy": 594,
-          "design": 593,
-          "production": 584
-        },
-        "fixed_readback_pending": true,
-        "science": false
-      }
+      "exact_assets": true,
+      "support_records": true,
+      "unique_species": "175/251",
+      "science": false
     }
   }
 }

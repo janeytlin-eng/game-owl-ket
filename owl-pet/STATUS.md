@@ -1,3 +1,8 @@
+## 2026-10-31 #91 *Tyto javanica delicatula* v4 VERIFIED
+
+- Fixed archive `6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d`; exact four assets and manifests 594/593/584 matched; batch 2/6.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d/owl-pet/design/concepts/91-tyto-javanica-delicatula-v4.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d)
+
 ## 2026-10-31 #91 *Tyto javanica delicatula* v4 ARCHIVED — fixed readback pending
 
 - Title-only SCIENCE_REVISION; PASS_WITH_LIMITATIONS; science false; unique 175/251.

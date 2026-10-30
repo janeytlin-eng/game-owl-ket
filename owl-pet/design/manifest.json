@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:56:00+08:00",
+  "updated": "2026-10-31T06:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13793,11 +13793,28 @@
       "review_crop_path": "production/review-crops/91-tyto-javanica-delicatula-v4-juvenile.png",
       "review_crop_blob": "3353ee562b3e5072a1b604f48ceddcf489b06a28",
       "review_crop_size_bytes": 861287,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T06:58:00+08:00",
+      "readback": {
+        "concept_blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
+        "generated_blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
+        "reviewed_blob": "0ac811d639a7b0a619ce3f230013753962407d1a",
+        "review_crop_blob": "3353ee562b3e5072a1b604f48ceddcf489b06a28",
+        "manifest_counts": {
+          "legacy": 594,
+          "design": 593,
+          "production": 584
+        },
+        "tree": {
+          "entries": 2247,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T06:56:00+08:00"
+  "updated_at": "2026-10-31T06:58:00+08:00"
 }

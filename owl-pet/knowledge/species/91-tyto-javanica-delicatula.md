@@ -26,3 +26,8 @@ Actual first render and edited 1536×1024 plate were viewed. The first render's 
 V3 was reopened; only the repository number was missing. Imagegen added `91` to the title. Actual 1536×1024 output and 620×760 juvenile crop were opened: adult identity/qualitative contrast, late-pre-fledgling developed fresh wings and short tail, residual down, two-foot hollow support and Mallee setting remained intact. No second edit. Exact day/sex, tract chronology, down retention and pair ratio unknown; scientifically_verified=false. V1–v3 preserved and no approval transfers.
 
 [Original](../../design/concepts/91-tyto-javanica-delicatula-v4.png) · [Research](../../research/species/91-tyto-javanica-delicatula-v4.md) · [Run](../../production/runs/20261031T065000+0800-cycle-2.md)
+
+
+## VERIFIED 2026-10-31T06:58:00+08:00 — 91-tyto-javanica-delicatula-v4
+
+Fixed archive `6afa4012e826fd3cb0fdddb31d9eb0b829c8b60d`: non-truncated 2247-entry tree; exact concept/generated/reviewed/crop blobs and sizes, manifests 594/593/584 and support records matched. Title-only edit; PASS_WITH_LIMITATIONS; unique175/251; sciencefalse.

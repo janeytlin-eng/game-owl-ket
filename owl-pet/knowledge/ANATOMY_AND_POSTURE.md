@@ -98,8 +98,8 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - First applied to #48 *Strix nivicolum* v4 after finding the “very white Hong Kong young” caption under #155 *Strix newarensis*, not #153 *S. nivicolum*. Edited original and 680×453 derivative were reopened: the Taiwanese `yamadae` young is pale but not pure white and retains short folded wings. This validates the gate for this plate only; archive-wide back-review remains pending.
 
 
-## 2026-10-30 photographed-stage mature-wing exception — discovered/applied; validation pending
+## 2026-10-30 photographed-stage mature-wing exception — discovered/applied; validated for #49 v4 instance
 
 - The “short, soft, down-covered juvenile wing” rule is stage-specific, not a universal visual filter. When a directly read, same-population photographed caption explicitly states that juvenile wings and tail resemble adults, preserve that evidence instead of mechanically deleting formed remiges.
 - Gate the exception tightly: name the population and photographed stage, keep any documented residual down, use folded wings and natural bilateral support, and do not infer exact age or flight competence from formed feathers alone.
-- First applied to #49 *Strix woodfordii nigricantior* v4 from Mikkola printed p.321. Validation remains pending until the generated original and derivative are actually opened; it is not yet a verified general improvement.
+- First applied to #49 *Strix woodfordii nigricantior* v4 from Mikkola printed p.321. The generated 1536×1024 original and 680×453 derivative were both opened: the folded adult-like barred wing/tail, partly downy lower underparts and bilateral tree-fork support passed without an edit. This validates the exception for this plate only; it is not a universal juvenile rule or scientific pass.

@@ -2475,3 +2475,10 @@ Verification 2026-10-30T20:03:00+08:00: #54 v4 fixed archive `0598a72a5105755f47
 
 
 Verification 2026-10-30T21:45:50+08:00: #60 v4 fixed archive `876679a51830eafe12f40420589f2425015e898f` returned exact concept/generated/reviewed assets and manifests; batch 4/6, next 5; science false.
+
+
+## #61 · Buffy Fish Owl · *Ketupa ketupu* · v4
+
+- Concept: `design/concepts/61-ketupa-ketupu-v4.jpg`; full master retained under `production/`.
+- Official Singapore morphology adds the bare-leg gate. The juvenile remains the early white-down Sungei Buloh fern nestling, not the later branch bird.
+- Original and derivative opened; no edit required. PASS_WITH_LIMITATIONS; exact hatch age and continuous feather/flight chronology remain unknown. Science false.

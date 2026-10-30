@@ -39,3 +39,11 @@ v1 VERIFIED as an archived concept after adult-scale correction and remote blob/
 - One targeted edit removed the boxes and leader lines, preserved the two adults and exact bottom labels, and corrected only the juvenile to a low, fully supported, white/cream down-dominant fern nestling with no ear tufts, adult-like remiges or long tail.
 - Visual review: pass with limitations. Scientific acceptance remains false because age is estimated and no continuous feather series, quantified sex ratio, precise flight threshold or subspecies reconstruction is available.
 - v1 and v2 are retained.
+
+
+## v4 evidence, production and review — 2026-10-30
+
+- New official source `BFOW-NPARKS-BIODIVERSITYSG-2026` confirms warm buff-brown adults, yellow eyes, outward tufts, thick chest streaks, wetland-water habitat and bare featherless legs. It supplies no sexed measurements or juvenile chronology.
+- Reopened the 2016 BESG nest/fledge and Singapore Bird Group dated accounts. The early white-down chick remains deep in the fern; later adult-feathered branch behavior is not transferred backward.
+- First 1536×1024 render and 680×453 derivative opened and passed without edit: exactly three birds, near-equal adults, bare legs, low down-dominant chick, no juvenile ear tufts/formed remiges/visible tail, full fern support.
+- PASS_WITH_LIMITATIONS; exact hatch age, continuous feather sequence, first-flight threshold, sexed measurements and subspecies transfer remain unknown. Science false.

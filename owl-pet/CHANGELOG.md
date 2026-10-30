@@ -1405,3 +1405,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-30T21:44:59+08:00 — archived #60 *Ketupa flavipes* v4. Added official Taiwan morphology/nest synthesis, retained the age-known approximately-40-day Wuling boundary, corrected the over-precise tarsal feather fraction, and performed one juvenile-wing edit. Manifests 566/565/556; unique 175/251; fixed readback pending; science false.
 
 - 2026-10-30T21:45:50+08:00 — verified #60 *Ketupa flavipes* v4 at fixed archive `876679a51830eafe12f40420589f2425015e898f`; exact three image blobs/sizes, manifests 566/565/556 and supporting records matched. Batch advances to 4/6, next cycle 5; unique 175/251; science false.
+
+
+- 2026-10-30T21:50:47+08:00 — archived #61 *Ketupa ketupu* v4. Added NParks official bare-leg/adult morphology evidence, reused three Sungei Buloh field sources, kept the early chick separate from the later branch bird, and verified the first render without edit. Manifests 567/566/557; unique 175/251; readback pending; science false.

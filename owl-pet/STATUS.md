@@ -2500,3 +2500,10 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Fixed archive `876679a51830eafe12f40420589f2425015e898f` returned exact concept/generated/reviewed blobs and sizes, non-truncated tree, manifests 566/565/556 and supporting records.
 - Batch `2026-10-30T2039+0800` is 4/6, next cycle 5. Unique remains 175/251; science false.
+
+
+### #61 v4 archive prepared — 2026-10-30T21:50:47+08:00
+
+- Concept 680×453, 131,321 bytes, SHA-256 `9152816409a0d95a9f8ac5b500bdb9278a26752de2fb80b02b8801a383b20330`; master 1536×1024.
+- First render and derivative passed without edit: adult bare legs and near-equal scale, low white-down chick without tufts/formed wing/tail, fern support and wetland context.
+- Manifests 567/566/557; unique remains 175/251; science false; fixed readback pending.

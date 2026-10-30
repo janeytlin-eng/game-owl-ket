@@ -61,3 +61,15 @@ Preserve scientific uncertainty: do not add day-age labels, sex callouts, explan
 ## Iteration hypothesis
 
 The recurring failure mode is that an early down-dominant chick receives ear-like projections and a dark structured wing. The prompt therefore binds the juvenile to deep fern support and explicitly forbids both features while separately specifying the adults' official bare-leg diagnostic. Effect must be verified by opening the generated original and derivative; this is a production hypothesis until then.
+
+
+## Actual production review — 2026-10-30
+
+- IMAGE_GENERATED: 50.6 s. The 1536×1024 original was opened; exact title/count, adult diagnostics and bare legs, low white-down chick, absent juvenile tufts/formed wing/tail, fern support and wetland context passed.
+- REVIEWED: same original and 680×453 derivative opened; no edit required. PASS_WITH_LIMITATIONS; exact hatch age and continuous feather/flight chronology remain unknown.
+
+## Iteration rule result
+
+- **Hypothesis:** explicit deep-fern support plus prohibitions on juvenile ear tufts and structured wings would prevent the recurring early-chick maturity drift.
+- **Applied:** full prompt separated the early chick from the later branch bird and independently gated adult bare legs.
+- **Verified:** the first render passed at full and derivative sizes without editing. This verifies the prompt control for this plate only; it does not establish exact plumage chronology. Science false.

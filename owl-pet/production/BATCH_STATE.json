@@ -8039,33 +8039,50 @@
       ],
       "next_cycle": 4,
       "last_checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Strix seloputo",
-        "species_id": 45,
+        "cycle": 4,
+        "stage": "STARTED",
+        "species": "Strix ocellata",
+        "species_id": 46,
         "version": 4,
-        "run_id": "20261030T173300+0800-cycle-3",
-        "at": "2026-10-30T17:45:00+08:00",
-        "commit_sha": "a1887e109463cf218f698b56976f50cd6e541ab2",
-        "run_record": "owl-pet/production/runs/20261030T173300+0800-cycle-3.md",
-        "research_record": "owl-pet/research/species/45-strix-seloputo-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "evidence": {
-          "concept_blob": "0a338b165c6870fa49894547b89b651fa9b69b1d",
-          "generated_blob": "767ca901156d4b59d49366a3a106ce39e11a687a",
-          "reviewed_blob": "6d7c4e9a2f160255c2fbf2b0e404b162431cf994",
-          "manifest_count": 553,
-          "all_readback_checks": true,
-          "scientifically_verified": false
-        }
+        "run_id": "20261030T174800+0800-cycle-4",
+        "at": "2026-10-30T17:48:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md"
       },
-      "last_updated_at": "2026-10-30T17:45:00+08:00",
+      "last_updated_at": "2026-10-30T17:48:00+08:00",
       "audit_notes": [
         "2026-10-30T17:41:00+08:00 cycle3 #45 v4 IMAGE_GENERATED in 63.7s; original 1536x1024 opened. Text/count/adults/support passed; juvenile wing was too long/layered with crisp adult-like spots; generated master persisted for archive; no credit.",
         "2026-10-30T17:42:00+08:00 cycle3 #45 v4 REVIEWED after one juvenile-only wing/tail edit (53.3s). One context-based edit attempt failed because no conversation image was available, then path-based edit succeeded. Edited original and 680x453 derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-30T17:44:00+08:00 cycle3 #45 v4 ARCHIVED tree prepared; concept 0a338b165c, generated 767ca90115, reviewed 6d7c4e9a2f; manifest 552→553; fixed readback pending; no credit.",
-        "2026-10-30T17:45:00+08:00 cycle3 #45 v4 VERIFIED against fixed archive commit a1887e109463cf218f698b56976f50cd6e541ab2; all three image paths/blob SHAs/sizes, manifest entry and run record read back; batch 3/6; next_cycle4; unique remains175/251; science false."
-      ]
+        "2026-10-30T17:45:00+08:00 cycle3 #45 v4 VERIFIED against fixed archive commit a1887e109463cf218f698b56976f50cd6e541ab2; all three image paths/blob SHAs/sizes, manifest entry and run record read back; batch 3/6; next_cycle4; unique remains175/251; science false.",
+        "2026-10-30T17:48:00+08:00 cycle4 #46 Strix ocellata v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit."
+      ],
+      "active_lease": {
+        "owner": "codex-production-20261030T1748+0800",
+        "run_id": "20261030T174800+0800-cycle-4",
+        "cycle": 4,
+        "species_id": 46,
+        "heartbeat_at": "2026-10-30T17:48:00+08:00",
+        "expires_at": "2026-10-30T18:03:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-production-20261030T1748+0800",
+        "run_id": "20261030T174800+0800-cycle-4",
+        "cycle": 4,
+        "species_id": 46,
+        "heartbeat_at": "2026-10-30T17:48:00+08:00",
+        "expires_at": "2026-10-30T18:03:00+08:00"
+      },
+      "in_progress": {
+        "run_id": "20261030T174800+0800-cycle-4",
+        "cycle": 4,
+        "species_id": 46,
+        "species": "Strix ocellata",
+        "version": 4,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "started_at": "2026-10-30T17:48:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T174800+0800-cycle-4.md"
+      }
     }
   ],
   "lease": {

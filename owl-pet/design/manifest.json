@@ -11070,8 +11070,31 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 0,
       "archive_note": "Original and derivative opened; stage separation, adult dichromatism and cavity support passed with no edit; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "fc6ab6d15a23bf507972cb5b8161e042167a5a73",
+      "fixed_commit": "fc6ab6d15a23bf507972cb5b8161e042167a5a73",
+      "verified_at": "2026-10-30T19:08:00+08:00",
+      "verification_result": "fixed archive returned exact image blob SHAs/URLs; manifest 559 and run/research/state matched; batch3/6; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "fc6ab6d15a23bf507972cb5b8161e042167a5a73",
+        "concept": {
+          "blob": "618eb5ce961866dc4be4a0a564bdc2466d1f1b63",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/fc6ab6d15a23bf507972cb5b8161e042167a5a73/owl-pet/design/concepts/51-strix-rufipes-v4.png"
+        },
+        "generated": {
+          "blob": "de3fbe86ab5cec64099c927ef11150976e98e757",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/fc6ab6d15a23bf507972cb5b8161e042167a5a73/owl-pet/production/generated/51-strix-rufipes-v4-generated-master.png"
+        },
+        "reviewed": {
+          "blob": "de3fbe86ab5cec64099c927ef11150976e98e757",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/fc6ab6d15a23bf507972cb5b8161e042167a5a73/owl-pet/production/reviewed/51-strix-rufipes-v4-reviewed-master.png"
+        },
+        "manifest_count": 559,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T19:06:00+08:00"
+  "updated_at": "2026-10-30T19:08:00+08:00"
 }

@@ -21,3 +21,7 @@ Strict negatives: no extra owl, egg or prey; no ear tufts; no yellow/orange eyes
 
 ## Actual image review
 58.6 s generation; original and 680×453 derivative opened. Stage separation, adult dichromatism and cavity support passed; no edit. PASS_WITH_LIMITATIONS; science false.
+
+
+## Fixed archive verification
+`fc6ab6d15a23bf507972cb5b8161e042167a5a73` returned exact image blob SHAs/URLs and manifest 559; production complete, science false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T09:46:00+08:00",
+  "updated": "2026-10-30T09:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9751,15 +9751,41 @@
       "review_crop_sha256": "e2ca095564828c4e5adba40c3a693adaed4b3e859cc772752b8bb72f282a0cfc",
       "review_crop_size_bytes": 690835,
       "archive_note": "Original generated blob and v1-v3 remain retained. Full plate and 520x700 crop were opened. The rebuilt prompt retained exact text/count, adult false eyes, near-equal adult size and natural support; one targeted edit shortened/softened the juvenile wing and hid the adult-like tail. Known-age evidence bounds the juvenile pattern but does not establish flight ability. First binary transfer was detected truncated by fixed-tree size readback and superseded before credit by a direct image-tool-to-GitHub upload; SHA-256 was not recomputed after local execution loss, so Git blob and byte size are authoritative.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "corrected fixed-commit readback pending",
+      "readback_pending": false,
+      "archive_commit": "6e64c74ad52a1b7a69b9d1b8eda66074cef10122",
+      "fixed_commit": "6e64c74ad52a1b7a69b9d1b8eda66074cef10122",
+      "verified_at": "2026-10-30T09:50:00+08:00",
+      "verification_result": "corrected fixed-commit tree was non-truncated (1941 entries); exact concept/generated/reviewed/crop Git blobs and byte sizes matched, along with all three manifests, source-index, research, run-at-archive, knowledge, design/status and state records",
       "readback": {
-        "status": "PENDING_CORRECTED"
+        "status": "VERIFIED",
+        "fixed_commit": "6e64c74ad52a1b7a69b9d1b8eda66074cef10122",
+        "concept": {
+          "path": "design/concepts/33-taenioptynx-brodiei-v4.png",
+          "blob": "ce11cf97dd408a005a1c6965fd0a734c1cbac019",
+          "size_bytes": 2960406
+        },
+        "generated": {
+          "path": "production/generated/33-taenioptynx-brodiei-v4-generated.png",
+          "blob": "a38f6dff469b509d4a70a21b8cf5d421398be287",
+          "size_bytes": 3190800
+        },
+        "reviewed": {
+          "path": "production/reviewed/33-taenioptynx-brodiei-v4-reviewed.png",
+          "blob": "ce11cf97dd408a005a1c6965fd0a734c1cbac019",
+          "size_bytes": 2960406
+        },
+        "review_crop": {
+          "path": "production/review-crops/33-taenioptynx-brodiei-v4-juvenile.png",
+          "blob": "4f24e38e9421f223c6695477f10546b018b4e46b",
+          "size_bytes": 690835
+        },
+        "source_index_marker": "COOW-ITIS-2026",
+        "source_index_blob": "582ba9c0dd2326e9154ca11ef539498b33911ef3",
+        "research_blob": "2c5bd061c3a6fb96c31d338a4ca63b44fd88dac3",
+        "run_blob_at_archive": "7a5bf29b82e47c1e65f4eafb968bcfb5ebc38a22",
+        "knowledge_blob": "53cf1c60b9a4be3535405fdbaf13a99751cc03f3"
       }
     }
   ],
-  "updated_at": "2026-10-30T09:46:00+08:00"
+  "updated_at": "2026-10-30T09:50:00+08:00"
 }

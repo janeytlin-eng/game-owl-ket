@@ -53,3 +53,5 @@ Lin et al. primary banding/museum study adds a known-age anchor: one bird hatche
 - Concept: [33-taenioptynx-brodiei-v4.png](../../design/concepts/33-taenioptynx-brodiei-v4.png)
 - Research: [33-taenioptynx-brodiei-v4.md](../../research/species/33-taenioptynx-brodiei-v4.md)
 - Run: [20261030T091000+0800-cycle-3](../../production/runs/20261030T091000+0800-cycle-3.md)
+
+- Fixed archive verification: `6e64c74ad52a1b7a69b9d1b8eda66074cef10122` returned exact full image blobs and source/research/run records; v4 remains concept-calibrated, not scientifically verified.

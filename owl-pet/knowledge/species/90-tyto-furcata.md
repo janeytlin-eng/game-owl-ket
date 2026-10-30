@@ -52,3 +52,8 @@ V4 fixed archive `0932faa36441386c748694150eadd2f1af54a998`. Six commit-pinned i
 V4 was reopened and the only confirmed defect was the absent repository number. Imagegen added `90` to the title; no biological redraw was requested. The actual 1536×1024 output and 620×780 juvenile crop were opened. Title/subtitle/count/labels, adult identity and qualitative sex contrast, P20 white-down-dominant short-side-feather stage, hidden tail, two-foot floor support and Texas loft setting pass. No second edit was needed. Exact individual age/sex, hand-raised-to-wild timing, tract sequence, toe geometry and pair ratio remain unknown; `scientifically_verified=false`. V1–v4 and all prior approval records are preserved; no user approval transfers to v5.
 
 [Original](../../design/concepts/90-tyto-furcata-v5.png) · [Research](../../research/species/90-tyto-furcata-v5.md) · [Run](../../production/runs/20261031T063600+0800-cycle-1.md)
+
+
+## VERIFIED 2026-10-31T06:47:00+08:00 — 90-tyto-furcata-v5
+
+Fixed archive `356a567510fc2e2c1870ee90578d3c4f321a6d02`: non-truncated 2241-entry tree; concept/generated/reviewed full PNG and juvenile crop matched exact blob IDs and byte sizes; manifests 593/592/583 and research/run/status records matched. Title-only imagegen edit, edit count0 after generation, PASS_WITH_LIMITATIONS, unique species remains 175/251, scientifically_verified=false.

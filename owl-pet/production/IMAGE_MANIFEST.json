@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:45:00+08:00",
+  "updated": "2026-10-31T06:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13215,11 +13215,28 @@
       "review_crop_path": "production/review-crops/90-tyto-furcata-v5-juvenile.png",
       "review_crop_blob": "511efeb6bcc34f201f6a2f09a90546230c212ba7",
       "review_crop_size_bytes": 665499,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "134fc5c142b131d9033bcd141056272a2e85caf2",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "356a567510fc2e2c1870ee90578d3c4f321a6d02",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T06:47:00+08:00",
+      "readback": {
+        "concept_blob": "134fc5c142b131d9033bcd141056272a2e85caf2",
+        "generated_blob": "134fc5c142b131d9033bcd141056272a2e85caf2",
+        "reviewed_blob": "134fc5c142b131d9033bcd141056272a2e85caf2",
+        "review_crop_blob": "511efeb6bcc34f201f6a2f09a90546230c212ba7",
+        "manifest_counts": {
+          "legacy": 593,
+          "design": 592,
+          "production": 583
+        },
+        "tree": {
+          "entries": 2241,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T06:45:00+08:00"
+  "updated_at": "2026-10-31T06:47:00+08:00"
 }

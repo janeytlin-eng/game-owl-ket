@@ -1,3 +1,9 @@
+## 2026-10-31 #90 *Tyto furcata pratincola* v5 VERIFIED
+
+- SCIENCE_REVISION; title-only imagegen edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Fixed archive `356a567510fc2e2c1870ee90578d3c4f321a6d02`; exact four image assets and manifests 593/592/583 matched in a non-truncated 2241-entry tree.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/356a567510fc2e2c1870ee90578d3c4f321a6d02/owl-pet/design/concepts/90-tyto-furcata-v5.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/356a567510fc2e2c1870ee90578d3c4f321a6d02)
+
 ## 2026-10-31 #90 *Tyto furcata pratincola* v5 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; title-only imagegen edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

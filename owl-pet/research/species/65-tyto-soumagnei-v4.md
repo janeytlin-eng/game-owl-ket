@@ -29,3 +29,8 @@ Environment: humid Masoala rainforest, partly dead Weinmannia trunk and a deep d
 ## Visual review — 2026-10-30T22:43:41+08:00
 
 First render and 680×453 derivative opened. The 30-day nestling has a noticeable soft facial disc, abundant down and sparse short just-emerging wing feather tips without mature panel/rows/tail; adults and all supports pass. No edit required. PASS_WITH_LIMITATIONS; science false.
+
+
+## Archive preparation — 2026-10-30T22:44:24+08:00
+
+Concept/generated/reviewed assets and manifest entries prepared; all three paths share the reviewed 1536×1024 master blob. Fixed readback pending; unique 175/251; science false.

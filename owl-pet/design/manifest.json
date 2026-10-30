@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:39:40+08:00",
+  "updated": "2026-10-30T22:44:24+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11826,7 +11826,47 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "65-tyto-soumagnei-v4",
+      "path": "design/concepts/65-tyto-soumagnei-v4.png",
+      "species_id": 65,
+      "scientific_name": "Tyto soumagnei",
+      "historical_names": [],
+      "common_name": "Madagascar Red Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "8bc9a5fcdf6a97cc2b9126fd14793503209a8be82a204f6fdee94bbeb343760d",
+      "size_bytes": 3109074,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. MRO-NHM-2003-P1112 supports an approximately 30-day nestling with noticeable facial disc and flight feathers just emerging. V4 separates this cavity stage from v3's fully feathered recent fledgling. First render and 680x453 derivative passed without edit. Suspected hatch date, exact feather count/tract chronology, nestling sex and population-wide nest variation remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "MRO-NHM-2003-P1112",
+        "MRO-THORSTROM-NEST-1996",
+        "MRO-PEREGRINE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--65-tyto-soumagnei-v4-30-day-nestling-boundary",
+      "research_record": "research/species/65-tyto-soumagnei-v4.md",
+      "run_record": "production/runs/20261030T224022+0800-cycle-3.md",
+      "reviewed_at": "2026-10-30T22:43:41+08:00",
+      "generated_path": "production/generated/65-tyto-soumagnei-v4-generated-master.png",
+      "generated_blob": "40bb297558b881217e76207d7d3709cddd095ce5",
+      "generated_sha256": "8bc9a5fcdf6a97cc2b9126fd14793503209a8be82a204f6fdee94bbeb343760d",
+      "generated_size_bytes": 3109074,
+      "reviewed_path": "production/reviewed/65-tyto-soumagnei-v4-reviewed-master.png",
+      "reviewed_blob": "40bb297558b881217e76207d7d3709cddd095ce5",
+      "reviewed_sha256": "8bc9a5fcdf6a97cc2b9126fd14793503209a8be82a204f6fdee94bbeb343760d",
+      "reviewed_size_bytes": 3109074,
+      "archive_note": "V1-v3 preserved. Original 1536x1024 and 680x453 derivative opened; no edit required. Concept/generated/reviewed share the verified master blob. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "40bb297558b881217e76207d7d3709cddd095ce5"
     }
   ],
-  "updated_at": "2026-10-30T22:39:40+08:00"
+  "updated_at": "2026-10-30T22:44:24+08:00"
 }

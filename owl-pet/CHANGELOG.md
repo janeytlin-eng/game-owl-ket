@@ -1423,3 +1423,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-10-30T22:39:05+08:00 — archived #64 *Tyto glaucops* v4 preparation. Reused/corrected `AFO-CURTI-2018` printed p.18 for the outside-nest begging young; one edit corrected adult scale and juvenile wing maturity. Manifests 570/569/560; unique 175/251; fixed readback pending; science false.
+
+
+- 2026-10-30T22:44:24+08:00 — archived #65 *Tyto soumagnei* v4 preparation. Added `MRO-NHM-2003-P1112` for the 30-day facial-disc/just-emerging-flight-feather stage; first render passed. Manifests 571/570/561; unique 175/251; fixed readback pending; science false.

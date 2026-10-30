@@ -2537,3 +2537,8 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 ## 2026-10-30 22:39:05+08:00 — #64 *Tyto glaucops* v4 archive prepared
 
 Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected female scale and juvenile wing maturity. PASS_WITH_LIMITATIONS; manifests 570/569/560; unique 175/251; fixed readback pending; science false.
+
+
+## 2026-10-30 22:44:24+08:00 — #65 *Tyto soumagnei* v4 archive prepared
+
+30-day cavity nestling stage from MRO-NHM-2003-P1112; first render passed without edit. Manifests 571/570/561; unique 175/251; fixed readback pending; science false.

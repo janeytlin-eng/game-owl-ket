@@ -49,3 +49,8 @@ Sources: MRO-PEREGRINE-2026, MRO-ADW-2026, MRO-OWLPAGES-2020 in [source index](.
 
 - 2026-10-30T22:43:41+08:00: first 1536×1024 render and 680×453 derivative reopened; no edit required. The 30-day nestling has a noticeable soft facial disc, abundant down, sparse short emerging wing tips and low dry-cavity support; adults/text/count pass.
 - PASS_WITH_LIMITATIONS; science false.
+
+
+## v4 archive preparation
+
+- 2026-10-30T22:44:24+08:00: concept/generated/reviewed assets and three manifests prepared; fixed readback pending. Unique count unchanged; science false.

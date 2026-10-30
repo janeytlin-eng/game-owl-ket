@@ -14,3 +14,12 @@ Actual edited PNG viewed: adult upperwing points now irregular creamy bars; bell
 - Problem → edit → recheck: first render exaggerated the adult sex gap and made juvenile wing bars too crisp; targeted imagegen edit made adults near-equal with male only modestly fuller and softened/broadened juvenile bars while keeping developed folded wing/tail and supported feet. Full image and juvenile crop reopened and passed concept review.
 - Unknown: exact hatch age, universal linear sex ratio, day-by-day feather-tract chronology and individual variation. `scientifically_verified=false`.
 - Research: [70-ninox-strenua-v3.md](../../research/species/70-ninox-strenua-v3.md) · run: [cycle 5](../../production/runs/20261029T0734+0800-cycle-5.md).
+
+
+## v4 — 2026-10-31T00:48:19+08:00 — adult pattern and scale revision
+
+- Preserved v1-v3; new concept [70-ninox-strenua-v4.png](../../design/concepts/70-ninox-strenua-v4.png).
+- Evidence applied: Mo & Waterhouse 2015 pp.145–147/Fig.1; ABSA/HANZAB p.1; NSW Scientific Committee pp.1–2; Museums Victoria; Victorian raptor table printed p.85/PDF p.10; Mikkola printed pp.450–451/PDF pp.452–453.
+- V3 defect: adult horizontal-wave underparts and broad zebra upperwing bars. V4 uses coarse V chevrons and narrow irregular bars. One edit corrected exaggerated adult scale/support mismatch; final full/crop/derivative passed.
+- Recent fledgling retains a white/downier head and dark eye patches but developed wing/tail appropriate to the selected flight-capable stage. Exact age/sex ratio/tract chronology unknown; `scientifically_verified=false`.
+- Research: [70-ninox-strenua-v4.md](../../research/species/70-ninox-strenua-v4.md) · run: [cycle 2](../../production/runs/20261031T004150+0800-cycle-2.md).

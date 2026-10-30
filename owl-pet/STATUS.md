@@ -2593,3 +2593,10 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 
 - Fixed archive `19ddaf91a4cf11f863bed3deac623a1b1d79bfa3` returned exact concept/generated/reviewed/crop blobs and sizes in a non-truncated 2,123-entry tree; manifests 574/573/564 and support records matched.
 - Batch `2026-10-30T2158+0800` is COMPLETE 6/6. Unique remains 175/251; science false.
+
+
+## 2026-10-31T00:48:19+08:00 — #70 *Ninox strenua* v4 archive prepared
+
+- Reused six indexed sources; active external searches returned empty payloads and received no source credit. V3's adult horizontal waves and broad zebra bars were corrected to coarse V chevrons and narrow irregular dorsal bars.
+- One targeted edit corrected exaggerated adult size/support mismatch. Reviewed 1536×1024 master, 520×700 juvenile crop and 680×453 derivative opened; PASS_WITH_LIMITATIONS.
+- Manifests 576/575/566; unique 175/251; fixed readback pending; science false.

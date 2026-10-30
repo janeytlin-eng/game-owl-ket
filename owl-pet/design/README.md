@@ -2505,3 +2505,10 @@ Verification 2026-10-30T21:56:57+08:00: #62 v4 fixed archive `45afb269dc4d805ab9
 
 
 Verification 2026-10-31T00:40:42+08:00: #69 v4 fixed archive `f9196ec751000cb450cbea3f4e6e78c140a4af8f` returned exact concept/generated/reviewed/crop paths and blobs; manifests 575/574/565 matched. Batch 1/6 next2; science false.
+
+
+## #70 · Powerful Owl · *Ninox strenua* · v4
+
+- Concept: `design/concepts/70-ninox-strenua-v4.png`; generated/reviewed masters and 520×700 juvenile crop retained.
+- V4 corrects v3's adult pattern leakage to coarse V-shaped ventral chevrons and narrow irregular dorsal bars. The selected recent fledgling stays white-headed/downier yet retains developed folded wings and tail because the primary field stage could fly shortly after leaving the hollow.
+- One targeted edit made adult supports/scales comparable, with only a marginal female-smaller direction. Full, crop and derivative opened; PASS_WITH_LIMITATIONS. Exact age, universal sex ratio and tract chronology remain unknown. Science false.

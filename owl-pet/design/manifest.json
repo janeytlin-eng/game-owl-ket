@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-10-31T00:48:19+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12257,7 +12257,62 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "70-ninox-strenua-v4",
+      "path": "design/concepts/70-ninox-strenua-v4.png",
+      "species_id": 70,
+      "scientific_name": "Ninox strenua",
+      "historical_names": [
+        "Athene strenua"
+      ],
+      "common_name": "Powerful Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "5d2cb3925758264eaf3af54d432df994d826d46af6b08cf889aacadec1b2bff9",
+      "size_bytes": 715464,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 reopens v3 and corrects adult pattern leakage: coarse V-shaped dark ventral chevrons replace horizontal waves, and narrow irregular pale dorsal bars replace broad zebra bars. The selected recent fledgling remains white-headed/downier with dark eye patches but has developed folded wings and tail because the primary field stage flew shortly after leaving the hollow. One targeted edit made adult supports and scales comparable, retaining only a marginal female-smaller direction with overlap. Exact juvenile age, universal sex ratio and tract-by-tract chronology remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "POWERFUL-MO-WATERHOUSE-2015",
+        "POWERFUL-ABSA-2019",
+        "POWERFUL-NSWSC-2008",
+        "POWERFUL-MV-2026",
+        "VIC-RAPTORS-2023",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--70-ninox-strenua-v4-adult-pattern-and-size-boundary",
+      "research_record": "research/species/70-ninox-strenua-v4.md",
+      "run_record": "production/runs/20261031T004150+0800-cycle-2.md",
+      "reviewed_at": "2026-10-31T00:47:22+08:00",
+      "generated_path": "production/generated/70-ninox-strenua-v4-generated-master.png",
+      "generated_blob": "550f0e49b36641eb4994ab6c9593aa94870c9333",
+      "generated_sha256": "4dd955f84990b20014359b6a2882da160a6d2812f6466518d549655d132e0c1e",
+      "generated_size_bytes": 3539686,
+      "reviewed_path": "production/reviewed/70-ninox-strenua-v4-reviewed-master.png",
+      "reviewed_blob": "e4ede89b9f7c6c21fa85fd7b96aee274823046fe",
+      "reviewed_sha256": "a3d772b78c35cffdf0731daa0e52e063c049cde6f15b31ac744f14982c52a736",
+      "reviewed_size_bytes": 3367268,
+      "review_crop_path": "production/review-crops/70-ninox-strenua-v4-juvenile.png",
+      "review_crop_blob": "8e6e6250b3f2d521f0d5173d7375e4b6b7c68d02",
+      "review_crop_size_bytes": 689496,
+      "archive_note": "V1-v3 preserved. Original generation showed adult size/support mismatch; one targeted edit corrected it. Full reviewed master, juvenile crop and derivative opened. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "git_blob": "6e417a82ebf11499be48661676b09db5323e417d",
+      "fixed_commit": null,
+      "verification_result": "PENDING fixed-commit readback",
+      "readback": {
+        "status": "PENDING",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T00:40:42+08:00"
+  "updated_at": "2026-10-31T00:48:19+08:00"
 }

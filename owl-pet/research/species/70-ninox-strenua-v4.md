@@ -34,3 +34,11 @@ Recent fledgling: fully feathered enough to grip and capable of short flight acc
 Constraints: adults must show true V-shaped ventral chevrons and narrow irregular upperpart bars; juvenile must remain white-headed/downier and must not inherit adult chevron density or adult-dark crown.
 Avoid: extra birds, eggs, prey, ear tufts, adult white-spotted wing panels, adult broad zebra bars, horizontal belly waves, unsupported feet, exact age label, logos, borders, watermark, additional text.
 ```
+
+
+## Review and archive evidence — 2026-10-31T00:48:19+08:00
+
+- Initial master opened: adult pattern and juvenile stage passed, but the male read substantially taller/larger because support and crown heights were not comparable.
+- Targeted edit: adjusted adult supports/scales only; final adult crowns/supports are comparable and the female is only marginally smaller within overlap. Full 1536×1024 reviewed master, 520×700 juvenile crop and 680×453 derivative opened.
+- Final result: PASS_WITH_LIMITATIONS; edit count 1. Exact juvenile age, universal sex ratio and tract-by-tract chronology remain unknown. Science false.
+- Archive prepared with concept blob `6e417a82ebf11499be48661676b09db5323e417d`; fixed commit readback pending.

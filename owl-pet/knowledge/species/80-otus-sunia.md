@@ -30,3 +30,7 @@ One direct imagegen revision shortened v3's juvenile wing pins. Full/crop/deriva
 
 Exact assets and records persisted; fixed readback pending; science false.
 
+## 2026-10-31 v4 fixed readback
+
+Archive `63b708a05554a32343c32828c257388ac8d8b46a` preserves the exact correction. Archive verification does not resolve tract geometry/population transfer/sex ratio; science false.
+

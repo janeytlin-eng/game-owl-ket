@@ -12541,7 +12541,58 @@
       "review_crop_blob": "494caaa069d5ebe876dd79011963ee9ebd1d6469",
       "review_crop_size_bytes": 148596,
       "archive_note": "V1-v3 preserved. One direct targeted imagegen revision; full/crop/derivative rechecked. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "63b708a05554a32343c32828c257388ac8d8b46a",
+      "verified_at": "2026-10-31T02:48:19+08:00",
+      "git_blob": "3035d4d65661fd74bc35b658ea2d6500f563741c",
+      "fixed_commit": "63b708a05554a32343c32828c257388ac8d8b46a",
+      "verification_result": "VERIFIED: exact complete asset payloads/blob IDs/sizes and manifests 584/583/574 matched immutable archive; science false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "63b708a05554a32343c32828c257388ac8d8b46a",
+        "method": "immutable fetch_file; normalized base64 exact match",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/80-otus-sunia-v4.jpg",
+            "sha": "3035d4d65661fd74bc35b658ea2d6500f563741c",
+            "size": 169787,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/63b708a05554a32343c32828c257388ac8d8b46a/owl-pet/design/concepts/80-otus-sunia-v4.jpg?raw=1"
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/80-otus-sunia-v4-generated-master.jpg",
+            "sha": "fe48716ed97577c83302a9d019e2d6983252f850",
+            "size": 618518,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/63b708a05554a32343c32828c257388ac8d8b46a/owl-pet/production/generated/80-otus-sunia-v4-generated-master.jpg?raw=1"
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/80-otus-sunia-v4-reviewed-master.jpg",
+            "sha": "fe48716ed97577c83302a9d019e2d6983252f850",
+            "size": 618518,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/63b708a05554a32343c32828c257388ac8d8b46a/owl-pet/production/reviewed/80-otus-sunia-v4-reviewed-master.jpg?raw=1"
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/80-otus-sunia-v4-juvenile.jpg",
+            "sha": "494caaa069d5ebe876dd79011963ee9ebd1d6469",
+            "size": 148596,
+            "mode": "100644",
+            "type": "blob",
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/63b708a05554a32343c32828c257388ac8d8b46a/owl-pet/production/review-crops/80-otus-sunia-v4-juvenile.jpg?raw=1"
+          }
+        },
+        "manifest_counts": {
+          "legacy": 584,
+          "design": 583,
+          "production": 574
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-10-31T01:39:53+08:00"

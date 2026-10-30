@@ -1,3 +1,9 @@
+## 2026-10-31 #80 *Otus sunia* v4 VERIFIED
+
+- SCIENCE_REVISION; one direct edit; PASS_WITH_LIMITATIONS; science false; unique175/251.
+- Fixed archive `63b708a05554a32343c32828c257388ac8d8b46a`; exact assets and manifests584/583/574 matched. Batch4/6; next5.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/63b708a05554a32343c32828c257388ac8d8b46a/owl-pet/design/concepts/80-otus-sunia-v4.jpg?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/63b708a05554a32343c32828c257388ac8d8b46a)
+
 ## 2026-10-31 #80 *Otus sunia* v4 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; one direct edit; PASS_WITH_LIMITATIONS; science false; unique175/251.

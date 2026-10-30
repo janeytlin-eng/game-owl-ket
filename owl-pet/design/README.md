@@ -1,3 +1,9 @@
+## #80 Oriental Scops Owl — *Otus sunia* — v4 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/63b708a05554a32343c32828c257388ac8d8b46a/owl-pet/design/concepts/80-otus-sunia-v4.jpg?raw=1)
+- [Fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/63b708a05554a32343c32828c257388ac8d8b46a)
+- PASS_WITH_LIMITATIONS; science false.
+
 ## #80 Oriental Scops Owl — *Otus sunia* — v4 science revision
 
 - Concept: [80-otus-sunia-v4.jpg](concepts/80-otus-sunia-v4.jpg)

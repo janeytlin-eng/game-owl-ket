@@ -32,3 +32,7 @@ Full image, 520×700 juvenile crop and 680×453 derivative opened. The edited ju
 
 2026-10-31T02:47:06+08:00: exact four asset tuples and manifests persisted; immutable readback pending.
 
+## Fixed archive verification
+
+2026-10-31T02:48:19+08:00: immutable archive `63b708a05554a32343c32828c257388ac8d8b46a` exact asset payloads/blob IDs/sizes and manifests584/583/574 matched. Production VERIFIED; science false.
+

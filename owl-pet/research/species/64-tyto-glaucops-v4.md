@@ -41,3 +41,8 @@ Initial render passed title/count/adult identity/support but overstated female s
 ## Archive preparation — 2026-10-30T22:39:05+08:00
 
 Concept, generated and reviewed full-resolution assets plus three manifest entries prepared. Concept reuses the reviewed master blob; fixed-commit readback pending. Unique species remains 175/251; science false.
+
+
+## Fixed-commit verification — 2026-10-30T22:39:40+08:00
+
+Archive `a3d83ba194b6432a66c53611ee0b3355e0751ffd` returned exact concept/generated/reviewed blob SHAs and sizes in a non-truncated 2102-entry tree. Manifests read back at 570/569/560. Visual verdict remains PASS_WITH_LIMITATIONS; exact age, June-young identity, feather chronology and first-flight threshold remain unknown; science false.

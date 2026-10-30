@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:39:05+08:00",
+  "updated": "2026-10-30T22:39:40+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11266,10 +11266,50 @@
       "reviewed_sha256": "a728d8cfd76a9a4cf334f78702bb7304a3f9736b53dcd5604131133d03135069",
       "reviewed_size_bytes": 2843867,
       "archive_note": "V1-v3 preserved. Generated and edited 1536x1024 masters plus 680x453 delivery derivative opened. One bounded edit corrected adult scale direction and juvenile wing maturity. Concept reuses reviewed master blob. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "git_blob": "4e539488465ff67c5bb76458330e7b0555f75cec"
+      "readback_pending": false,
+      "archive_commit": "a3d83ba194b6432a66c53611ee0b3355e0751ffd",
+      "git_blob": "4e539488465ff67c5bb76458330e7b0555f75cec",
+      "fixed_commit": "a3d83ba194b6432a66c53611ee0b3355e0751ffd",
+      "verified_at": "2026-10-30T22:39:40+08:00",
+      "verification_result": "VERIFIED against fixed archive: exact concept/generated/reviewed paths, blob SHAs and sizes; non-truncated tree; manifest counts 570/569/560; supporting run/research/state records matched. Science remains false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "a3d83ba194b6432a66c53611ee0b3355e0751ffd",
+        "tree_truncated": false,
+        "tree_entries": 2102,
+        "concept": {
+          "path": "owl-pet/design/concepts/64-tyto-glaucops-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4e539488465ff67c5bb76458330e7b0555f75cec",
+          "size": 2843867,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/a3d83ba194b6432a66c53611ee0b3355e0751ffd/owl-pet/design/concepts/64-tyto-glaucops-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/64-tyto-glaucops-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ba5eb223aea515ab18ef2e5244b3d7652e02db32",
+          "size": 3111958,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/a3d83ba194b6432a66c53611ee0b3355e0751ffd/owl-pet/production/generated/64-tyto-glaucops-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/64-tyto-glaucops-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4e539488465ff67c5bb76458330e7b0555f75cec",
+          "size": 2843867,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/a3d83ba194b6432a66c53611ee0b3355e0751ffd/owl-pet/production/reviewed/64-tyto-glaucops-v4-reviewed-master.png?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 570,
+          "design": 569,
+          "production": 560
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T22:39:05+08:00"
+  "updated_at": "2026-10-30T22:39:40+08:00"
 }

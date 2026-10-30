@@ -1,3 +1,9 @@
+## 2026-10-31 #81 *Otus scops* v4 VERIFIED
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique175/251.
+- Fixed archive `908b58ab43127a62c31c1ff9b6b93d9a6a3e9441`; exact assets and manifests585/584/575 matched. Batch5/6; next6.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/908b58ab43127a62c31c1ff9b6b93d9a6a3e9441/owl-pet/design/concepts/81-otus-scops-v4.jpg?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/908b58ab43127a62c31c1ff9b6b93d9a6a3e9441)
+
 ## 2026-10-31 #81 *Otus scops* v4 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains 175/251.

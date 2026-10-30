@@ -810,3 +810,26 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Facts read:** Figure 2 records a recently fledged juvenile and pellet; an adult remained close and defended it. Museum stomachs and the juvenile pellet contained insects.
 - **Limits / confidence:** juvenile age and feather dimensions are not supplied; pellet details do not establish exclusive diet. Moderate confidence for stage and adult proximity, not for plumage chronology.
 - **Design / links:** corroborates a supported, non-newborn recent-fledgling scene with an adult nearby; does not authorize flight posture or exact age. See #95 v4 species record.
+
+
+## RID-AGUIRRE-CARDOZA-2016
+
+- **Title:** First photographic record of the Unspotted Saw-whet Owl (*Aegolius ridgwayi*) in Cerro El Pital, El Salvador
+- **Authors / institution:** Christian Aguirre Alas & Julio Cardoza; Universidad de El Salvador / Neotropical Raptor Network, Spizaetus 22
+- **Year / type:** 2016; primary sighting and photographic field note
+- **URL:** https://assets.peregrinefund.org/docs/newsletters/spizaetus-22-english-2016-12-02_094340.pdf
+- **Accessed / location:** 2026-10-30 UTC; pp.3–5 and photographs
+- **Species / stage:** *Aegolius ridgwayi*; free-perching juvenile in July; El Salvador, 2,730 m
+- **Facts read:** authors heard and photographed a juvenile in cypress/pine/oak secondary-growth edge; juvenile calls were shorter/incomplete relative to adults; sparse or pale ventral spots were reported in young but not adults. Another owl, possibly an adult, appeared and acted defensively; the juvenile perched independently.
+- **Limits / confidence:** one identified juvenile; exact age, sex, prior flight ability, wing/tail dimensions and nest are unknown. Identification partly used calls and cited older sources. Moderate-high confidence for independent perch, habitat and visible pale ventral marking; do not infer a universal juvenile plumage sequence.
+- **Design / links:** supports an older, branch-supported, non-newborn juvenile and forbids invented exact age or nest. The v4 plate remains more conservative, downy and age-unknown; science=false.
+
+## RID-ITIS-2025
+
+- **Title:** ITIS report — *Aegolius ridgwayi* TSN 686697
+- **Institution / year / type:** Integrated Taxonomic Information System; current record accessed 2026-10-30; nomenclature authority
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686697
+- **Species / life stage:** *Aegolius ridgwayi*; taxonomy only
+- **Facts read:** valid current species *Aegolius ridgwayi* (Alfaro, 1905); historical combination *Cryptoglaux ridgwayi* Alfaro, 1905; subspecies names listed but not separate current species.
+- **Limits / confidence:** no morphology, sex or development evidence. High confidence for name mapping only.
+- **Design / links:** supports current/old-name mapping for #96 and prevents subspecies double counting; cannot support plumage.

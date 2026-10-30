@@ -1,0 +1,14 @@
+# 96 — Aegolius ridgwayi v4 research/design boundary
+
+- Batch/cycle: 2026-10-31T0635+0800 · 6/6 · 20261031T073400+0800-cycle-6
+- Actual v3 view: inventory number 96 absent; adults’ honey-amber eyes, dark horn bills, narrow pale rims, plain buff abdomen and near-equal scale pass. The age-unknown older fluffy juvenile has tilted head, short high-ending down-covered wing, concealed tail, belly support and bilateral branch grip.
+- Active primary read: RID-AGUIRRE-CARDOZA-2016 pp.3–5 photographs/text. A free-perching juvenile at 2,730 m had juvenile calls and sparse/pale ventral spotting; exact age, sex, wing/tail metrics and nest unknown. This supports an older independently perched stage but not a precise feather chronology.
+- Nomenclature read: RID-ITIS-2025 maps old *Cryptoglaux ridgwayi* to valid *Aegolius ridgwayi* and keeps subspecies from being double-counted.
+- Reused: RID-EA-JUV, RID-EISERMANN-AVENDANO-2018, RID-MIK2013-446 and v3 review. Mikkola upload was not directly accessible; repository extraction only.
+- Correction: title number only. Exact age, flight threshold, tract sequence, dimensions, sex ratio and nest form remain unknown. science=false.
+
+## Full imagegen prompt
+
+Edit the supplied fixed v3 Unspotted Saw-whet Owl plate. Preserve the whole image and every biological detail exactly: adult male left, age-unknown older fluffy juvenile center, adult female right, all faces, honey-amber eyes, dark horn bills, narrow pale facial rims, warm plain brown upperparts, plain buff underparts, near-equal adult scale, juvenile tilted head, diffuse pale face rim, short high-ending down-covered developing wing, concealed tail, belly and two-foot branch support, montane pine-oak/cloud forest, subtitle “Aegolius ridgwayi”, and all lower labels. Change only the top English title from “UNSPOTTED SAW-WHET OWL” to exactly “96 UNSPOTTED SAW-WHET OWL” in the same centered dark serif type, spacing and size class. Do not alter morphology, feathering, posture, scale, support, habitat, subtitle, labels or crop.
+
+Target: ../../design/concepts/96-aegolius-ridgwayi-v4.jpg

@@ -52,3 +52,8 @@ Freshly read ISO-EBIRD-ID-2026, ISO-PF-FACE-2026 and ISO-OWLPAGES-DESC-2020. All
 ## 2026-10-31 v8 archive repair and scientific boundary
 
 Immutable v7 was refetched but fails full PNG decode (`IDAT: invalid distance code`). V1–v7 remain preserved. Complete v6 was reopened and v8 rebuilt as a complete JPEG. Publisher Brraich & Singh pp.55–56 and Mikkola printed pp.150–151/PDF pp.152–153 were read. V8 shows continuous adult facial discs, dark adult eyes/tufts, and a supported blue-grey-eyed grey-billed untufted juvenile with horizontal bars and concealed underdeveloped wings. Full/crop/derivative opened; edit0; PASS_WITH_LIMITATIONS. Exact age, universal iris transition, flight threshold, subspecies and ratio unknown; science false. Concept: ../../design/concepts/84-otus-bakkamoena-v8.jpg. Run: ../../production/runs/20261031T045100+0800-cycle-2.md.
+
+
+### VERIFIED 2026-10-31T05:04:00+08:00
+
+Fixed archive `7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09` returned exact complete JPEG assets, blobs and sizes; non-truncated tree and manifests 588/587/578 matched. Archive repair verified; science false and user confirmation not inferred.

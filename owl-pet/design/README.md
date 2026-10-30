@@ -2645,3 +2645,6 @@ Remote verification 2026-10-31T04:49:30+08:00: #83 v4 fixed archive `4d52a675ded
 - Discovery: a Git blob and dimensions are insufficient when the PNG IDAT stream cannot fully decode; older broad taxonomic labels also cannot carry developmental timing across current species splits.
 - Applied: #84 v8 preserves damaged v7 as history, rebuilds from complete v6, and limits juvenile traits to the single Patiala brood plus Mikkola adult identity.
 - Verified locally: full JPEG, crop and derivative decode and open; adult discs, juvenile evidence and supports pass. Remote fixed readback remains separate; science false.
+
+
+Remote verification 2026-10-31T05:04:00+08:00: #84 v8 fixed archive `7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09` returned exact complete JPEG assets in a non-truncated 2,207-entry tree; manifests 588/587/578 matched. Archive repair is verified; science remains false.

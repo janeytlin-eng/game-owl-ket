@@ -2750,3 +2750,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 - Preferred v7 immutable PNG was fetched but full decode failed (`IDAT: invalid distance code`); v1–v7 remain preserved. Complete v6 was reopened and used for a full JPEG rebuild.
 - Publisher pp.55–56 and Mikkola printed pp.150–151/PDF pp.152–153 were read; old broad-taxonomy northern developmental timing was excluded.
 - Full 1536×1024 master, 520×700 crop and 680×453 derivative opened; edit0; PASS_WITH_LIMITATIONS. Manifests 588/587/578; unique175/251; fixed readback pending; science false.
+
+
+### #84 v8 VERIFIED — 2026-10-31T05:04:00+08:00
+
+- Fixed archive `7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09` returned exact complete JPEG concept/generated/reviewed/crop bytes, blobs and sizes; non-truncated 2,207-entry tree; manifests 588/587/578 and support records matched.
+- Batch `2026-10-31T0430+0800` is 2/6, next cycle 3. Unique175/251; science false.

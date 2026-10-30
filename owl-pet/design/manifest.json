@@ -13404,13 +13404,51 @@
       "review_crop_sha256": "28153a43b5c0da73c97b323ba1df762823677de3d03f5769ceee28d6ad56aa09",
       "review_crop_size_bytes": 183684,
       "archive_note": "V1-v7 preserved; v7 corruption documented. Complete v6 reopened and full-JPEG v8 rebuild reviewed. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09",
+      "verified_at": "2026-10-31T05:04:00+08:00",
       "git_blob": "0a17d5dd52cf03afd3ee031959b41a73a98c6a54",
-      "fixed_commit": null,
-      "verification_result": "PENDING fixed-commit readback."
+      "fixed_commit": "7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09",
+      "verification_result": "VERIFIED: complete JPEG assets exact; blobs/sizes, non-truncated tree, manifests 588/587/578 and support records matched; science false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09",
+        "method": "immutable fetch_file; normalized base64 exact match",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/84-otus-bakkamoena-v8.jpg",
+            "sha": "0a17d5dd52cf03afd3ee031959b41a73a98c6a54",
+            "size": 202702
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/84-otus-bakkamoena-v8-generated-master.jpg",
+            "sha": "3f46f145defc083faf1ef6fefe5b360ee35f2790",
+            "size": 746608
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/84-otus-bakkamoena-v8-reviewed-master.jpg",
+            "sha": "3f46f145defc083faf1ef6fefe5b360ee35f2790",
+            "size": 746608
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/84-otus-bakkamoena-v8-juvenile.jpg",
+            "sha": "0174f3829512905358f09e2328a743da3358ceda",
+            "size": 183684
+          }
+        },
+        "manifest_counts": {
+          "legacy": 588,
+          "design": 587,
+          "production": 578
+        },
+        "tree": {
+          "truncated": false,
+          "entries": 2207
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T05:02:00+08:00"
+  "updated_at": "2026-10-31T05:04:00+08:00"
 }

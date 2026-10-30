@@ -79,3 +79,8 @@ This is a science-calibration rebuild and archive-integrity repair. Do not claim
 - Full v8 rebuild from complete v6 reference: 40.3 s. 1536×1024 PNG output opened, then persisted as complete JPEG.
 - Full master, 520×700 juvenile crop and 680×453 derivative opened. Exact title/count/labels; adult continuous discs/dark eyes/tufts/support; juvenile blue-grey eyes, grey bill, bare narrow eye margin, no tufts, horizontal bars, concealed underdeveloped wings and bilateral support passed.
 - No edit required after generation; edit_count 0. PASS_WITH_LIMITATIONS; archive integrity repaired locally, not science verified.
+
+
+## Fixed archive verification
+
+At 2026-10-31T05:04:00+08:00, immutable commit `7cf6f2ef40cb2aa784ad8a3dc3cab8e969942b09` returned exact complete JPEG concept/generated/reviewed/crop bytes; blobs/sizes, non-truncated 2,207-entry tree, manifests 588/587/578 and support records matched. VERIFIED for archive integrity, not scientific verification.

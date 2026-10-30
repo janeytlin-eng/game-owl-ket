@@ -11134,8 +11134,31 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 1,
       "archive_note": "Original, juvenile crop, targeted edit and final crop opened. Adult identity/sex direction, white-down chick and bilateral cavity support passed; exact development remains unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "8e4e7a1eae164884760b50795f80264b7717ef2a",
+      "fixed_commit": "8e4e7a1eae164884760b50795f80264b7717ef2a",
+      "verified_at": "2026-10-30T19:47:00+08:00",
+      "verification_result": "fixed archive returned exact concept/generated/reviewed blob SHAs and URLs; manifest 560 plus run/research/source/knowledge/state matched; batch4/6 next5; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "8e4e7a1eae164884760b50795f80264b7717ef2a",
+        "concept": {
+          "blob": "62a818ff847a10b07894178d0bc7a1a15b363e38",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/8e4e7a1eae164884760b50795f80264b7717ef2a/owl-pet/design/concepts/52-strix-hylophila-v4.png"
+        },
+        "generated": {
+          "blob": "93d61e9f7aa0c33004c1494bbd1579b5a0813673",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/8e4e7a1eae164884760b50795f80264b7717ef2a/owl-pet/production/generated/52-strix-hylophila-v4-generated-master.png"
+        },
+        "reviewed": {
+          "blob": "bda79570dd0708d550206aab4ae1fb695f588bbe",
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/8e4e7a1eae164884760b50795f80264b7717ef2a/owl-pet/production/reviewed/52-strix-hylophila-v4-reviewed-master.png"
+        },
+        "manifest_count": 560,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T19:46:00+08:00"
+  "updated_at": "2026-10-30T19:47:00+08:00"
 }

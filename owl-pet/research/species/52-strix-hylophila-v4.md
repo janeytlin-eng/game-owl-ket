@@ -70,3 +70,6 @@ Strict negatives: no extra owl, egg or prey; no ear tufts; no yellow/orange adul
 - Detected issue: vivid adult-yellow juvenile bill/cere and a tan side-feather patch lacked evidence for the selected white-down stage.
 - Targeted edit: 52.3 s; juvenile only. Bill/cere neutralized; side patch replaced by continuous white natal down; adults, text and environment retained.
 - Final review: full 1536×1024 and juvenile crop reopened; no readable remiges, adult bars, long tail or unsupported posture. PASS_WITH_LIMITATIONS; exact age/movement/feather chronology unknown; science false.
+
+## Archive verification
+Fixed archive `8e4e7a1eae164884760b50795f80264b7717ef2a` returned exact concept/generated/reviewed blob SHAs and URLs; manifest 560 and run/source-index/knowledge/state markers matched. V4 is archived and VERIFIED for production workflow, while scientific calibration remains false for unresolved developmental details.

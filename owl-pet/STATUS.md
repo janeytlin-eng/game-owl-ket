@@ -2450,3 +2450,7 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 ### #52 v4 archive prepared — 2026-10-30T19:46:00+08:00
 - Concept blob `62a818ff847a10b07894178d0bc7a1a15b363e38`; generated `93d61e9f7aa0c33004c1494bbd1579b5a0813673`; reviewed `bda79570dd0708d550206aab4ae1fb695f588bbe`; manifest 559→560. One juvenile-only edit removed unsupported vivid bill/side-feather detail; full/crop recheck passed; unique 175/251; science false; fixed readback pending.
+
+### #52 v4 VERIFIED — 2026-10-30T19:47:00+08:00
+- Fixed archive `8e4e7a1eae164884760b50795f80264b7717ef2a` returned exact concept/generated/reviewed blob SHAs and file URLs; manifest 560 plus run/research/source-index/knowledge/state records matched.
+- Batch `2026-10-30T1831+0800` is 4/6, next cycle 5. Unique remains 175/251; science false.

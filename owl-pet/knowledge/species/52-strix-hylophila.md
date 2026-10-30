@@ -63,3 +63,5 @@
 - Image review found an unsupported vivid juvenile bill and tan side-feather patch; one targeted imagegen edit replaced them with neutral grey-horn/continuous white down. Final 1536×1024 plate and juvenile crop reopened and passed.
 - Result: PASS_WITH_LIMITATIONS. Exact chick age, locomotion, eye/bill ontogeny and feather-growth sequence remain unknown; scientific calibration remains false.
 - Files: `design/concepts/52-strix-hylophila-v4.png`, generated and reviewed masters; archive pending fixed-commit readback.
+
+- Immutable v4 archive verification: commit `8e4e7a1eae164884760b50795f80264b7717ef2a`; concept `62a818ff847a10b07894178d0bc7a1a15b363e38`, generated `93d61e9f7aa0c33004c1494bbd1579b5a0813673`, reviewed `bda79570dd0708d550206aab4ae1fb695f588bbe`; fixed-path blobs and metadata records matched. Unique remains 175/251; science false.

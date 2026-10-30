@@ -2428,3 +2428,5 @@ Early whitish downy chick is separated from v3 one-month warm-buff mesoptile; da
 
 ## #52 · Rusty-barred Owl · *Strix hylophila* · v4
 Age-unknown white-down chick is separated from v3's later brancher and fully supported in a large Araucaria/Atlantic Forest hollow. One targeted juvenile edit neutralized unsupported bare-part colour and side-feather detail. PASS_WITH_LIMITATIONS; science false.
+
+Verification 2026-10-30T19:47:00+08:00: #52 v4 fixed archive `8e4e7a1eae164884760b50795f80264b7717ef2a` returned exact concept/generated/reviewed blob SHAs and URLs plus manifest 560 and supporting records. Batch 4/6, next cycle 5; science false.

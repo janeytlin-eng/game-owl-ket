@@ -8609,61 +8609,26 @@
       ],
       "next_cycle": 5,
       "last_checkpoint": {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "species": "Ninox novaeseelandiae",
-        "species_id": 74,
+        "cycle": 5,
+        "stage": "STARTED",
+        "species": "Ninox scutulata",
+        "species_id": 75,
         "version": 4,
-        "run_id": "20261031T005625+0800-cycle-4",
-        "at": "2026-10-31T00:59:35+08:00",
-        "run_record": "owl-pet/production/runs/20261031T005625+0800-cycle-4.md",
+        "run_id": "20261031T010145+0800-cycle-5",
+        "at": "2026-10-31T01:00:30+08:00",
+        "run_record": "owl-pet/production/runs/20261031T010145+0800-cycle-5.md",
         "evidence": {
-          "status": "VERIFIED",
-          "fixed_archive_commit": "53ef96c031c74e9fa6b921871a7c60eb5a44208d",
-          "tree_truncated": false,
-          "tree_entries": 2147,
-          "concept": {
-            "path": "owl-pet/design/concepts/74-ninox-novaeseelandiae-v4.png",
-            "mode": "100644",
-            "type": "blob",
-            "sha": "91790698aba25944695805060db35e7c9606f0ce",
-            "size": 683809,
-            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/design/concepts/74-ninox-novaeseelandiae-v4.png?raw=1"
-          },
-          "generated": {
-            "path": "owl-pet/production/generated/74-ninox-novaeseelandiae-v4-generated-master.png",
-            "mode": "100644",
-            "type": "blob",
-            "sha": "d62be77b684a9b903550e1c345dcfe2da7a55870",
-            "size": 3435782,
-            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/production/generated/74-ninox-novaeseelandiae-v4-generated-master.png?raw=1"
-          },
-          "reviewed": {
-            "path": "owl-pet/production/reviewed/74-ninox-novaeseelandiae-v4-reviewed-master.png",
-            "mode": "100644",
-            "type": "blob",
-            "sha": "d62be77b684a9b903550e1c345dcfe2da7a55870",
-            "size": 3435782,
-            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/production/reviewed/74-ninox-novaeseelandiae-v4-reviewed-master.png?raw=1"
-          },
-          "review_crop": {
-            "path": "owl-pet/production/review-crops/74-ninox-novaeseelandiae-v4-juvenile.png",
-            "mode": "100644",
-            "type": "blob",
-            "sha": "d980e4bd903d80656702b7d301866f117359fe7b",
-            "size": 711651,
-            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/53ef96c031c74e9fa6b921871a7c60eb5a44208d/owl-pet/production/review-crops/74-ninox-novaeseelandiae-v4-juvenile.png?raw=1"
-          },
-          "manifest_counts": {
-            "legacy": 578,
-            "design": 577,
-            "production": 568
-          },
-          "unique_species": "175/251",
+          "main_head": "a1d654be96ca2ec46676018033381ab2687a422d",
+          "prior_versions": [
+            "v1",
+            "v2",
+            "v3"
+          ],
+          "selection": "#75 next sequential species without v4; v3 fixed original opened",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T00:59:35+08:00",
+      "last_updated_at": "2026-10-31T01:00:30+08:00",
       "audit_notes": [
         "2026-10-31T00:34:52+08:00 cycle1 #69 Tyto novaehollandiae v4 SCIENCE_REVISION STARTED; latest main/batch/species card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit.",
@@ -8688,11 +8653,29 @@
         "2026-10-31T00:58:26+08:00 cycle4 #74 v4 IMAGE_GENERATED in 60.8s; original opened. Text/count, adult identity/overlap, near-adult-bulk crouched fledgling, developed wing, short tail, retained fluff and support pass; no edit indicated; science false; no credit.",
         "2026-10-31T00:58:31+08:00 cycle4 #74 v4 REVIEWED; full master, juvenile crop and derivative opened; near-adult torso bulk, short tail and juvenile fluff pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T00:59:18+08:00 cycle4 #74 v4 ARCHIVED tree prepared; concept/masters/crop/manifests/support records included; fixed readback pending; science false; no credit.",
-        "2026-10-31T00:59:35+08:00 cycle4 #74 v4 VERIFIED against fixed archive 53ef96c031c74e9fa6b921871a7c60eb5a44208d; non-truncated 2147-entry tree, exact assets, manifests 578/577/568 and support records matched; batch 4/6 next_cycle5; science false; lease released."
+        "2026-10-31T00:59:35+08:00 cycle4 #74 v4 VERIFIED against fixed archive 53ef96c031c74e9fa6b921871a7c60eb5a44208d; non-truncated 2147-entry tree, exact assets, manifests 578/577/568 and support records matched; batch 4/6 next_cycle5; science false; lease released.",
+        "2026-10-31T01:00:30+08:00 cycle5 #75 Ninox scutulata v4 SCIENCE_REVISION STARTED; v1-v3 and fixed v3 image/card checked; 15-minute lease acquired; no credit."
       ],
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261031T010145+0800-cycle-5",
+        "heartbeat_at": "2026-10-31T01:00:30+08:00",
+        "expires_at": "2026-10-31T01:15:30+08:00"
+      },
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "20261031T010145+0800-cycle-5",
+        "heartbeat_at": "2026-10-31T01:00:30+08:00",
+        "expires_at": "2026-10-31T01:15:30+08:00"
+      },
+      "in_progress": {
+        "cycle": 5,
+        "species": "Ninox scutulata",
+        "species_id": 75,
+        "version": 4,
+        "stage": "STARTED",
+        "run_id": "20261031T010145+0800-cycle-5"
+      }
     }
   ],
   "lease": {

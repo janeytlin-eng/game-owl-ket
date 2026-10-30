@@ -293,3 +293,29 @@
 - **Corrections:** (1) v4 adds the guide-supported subtle male-paler/female-heavier direction while retaining near-equal height because the primary sample is small/conflicting; (2) v4 moves away from v3's dated six-week explorer to a direct age-unknown mesoptile with greyish-yellow eyes and no exact wing/tail claim.
 - **Source/design delta:** new3 / reused3 / corrected2; science false.
 
+## 2026-10-30 — #55 *Bubo lacteus* v4 known-age nestling correction
+
+### VEO-MIKKOLA-2013-P286
+- **Source/pages:** Heimo Mikkola, *Owls of the World*, 2nd ed. (2013), Library `libfile_916e2244186c81918fe5a0716884b8c9`, internal PDF p.288 / printed p.286; complete species page/captions read 2026-10-30.
+- **Facts:** adult 60–65 cm, 1588–3115 g; female often ≥1 kg heavier on average; milky vermiculated plumage, dark eyes, pink upper lids, creamy-horn bill, feathered tarsi/partly feathered toes. Creamy-white chick; pale-grey finely vermiculated/dark-barred mesoptile, weak ruff and barely evident tufts.
+- **Limits/design:** no mesoptile age/movement/wing geometry. Adult female only subtly fuller at near-equal height; direct mesoptile traits inform juvenile texture.
+
+### VEO-BROWN-1965
+- **Title/author/year:** “Observations on Verreaux's Eagle Owl *Bubo lacteus* (Temminck) in Kenya” / L. H. Brown / 1965.
+- **PDF:** https://zenodo.org/records/16138079/files/bhlpart371689.pdf?download=1
+- **Read:** development and behaviour of young section, 2026-10-30.
+- **Type:** primary field study.
+- **Facts:** about-six-week young finely barred grey/white except plain white thighs, black streak each side of face, almost-black eyes/long black bristles, pale blue-grey bill, yellowish-white feet, paler orange-pink upper lids. Young stood/crouched in nest and walked/wing-flapped after dark.
+- **Limits/design:** one described known-age young; no continuous atlas or flight test. V4 chooses a resting crouch in the nest and makes no flight claim.
+
+### VEO-ITIS-1244710 / VEO-GBIF-CP2JC
+- **URLs:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1244710 ; https://www.gbif.org/taxon/CP2JC
+- **Facts:** accepted *Ketupa lactea* (Temminck, 1820); mappings include repository *Bubo lacteus*, original *Strix lactea*, *Nyctaetus lacteus* and *Bubo verreauxi*.
+- **Limits:** taxonomy only; repository plate retains historical working name and counts one species.
+
+### Reused evidence and correction
+- **VEO-BIRDLIFE-PILLANS-2019:** pp.46–49 re-read; <10-day white chick, early pink lids, rapid wing growth, persistent grey down and browner back/shoulders in an old Crowned Eagle stick nest.
+- **VEO-PF-2026:** adult diagnosis, reused large-stick nests and approximately 60-day nest departure retained as context, not applied to v4's younger stage.
+- **Correction:** v4 replaces v3's ~60-day nest-leaving climber with Brown's distinct ~6-week nestling and direct bare-part/plumage traits; adult female mass direction is now evidence-based but not exaggerated.
+- **Source/design delta:** new3 / reused2 / corrected2; science false.
+

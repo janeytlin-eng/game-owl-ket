@@ -38,3 +38,11 @@ Scene: Sri Lankan wet-zone evergreen rainforest resembling Sinharaja or Kitulgal
 - Sex direction: near-equal crown height; female only subtly fuller.
 - Juvenile: older fully feathered but softer, no crisp repeated adult wing spots, compact wing, short tail, both feet and branch support; no exact-age/flight claim.
 - Wet-zone evergreen forest; no prey or nest box.
+
+
+## Image review
+
+- First render inspected at 1536×1024 and juvenile crop at 520×700; no edit was required.
+- Adults: rich red-chestnut mantle, fewer chest bars than #31, white lower underparts with dark longitudinal streaks, yellow eyes, no ear tufts or false eyes; female only subtly fuller.
+- Juvenile: softer chestnut, muted irregular wing marks rather than crisp white rows, compact formed wing, short soft tail, both feet and natural branch support.
+- Result: **PASS_WITH_LIMITATIONS**. Exact age, flight threshold, independence, continuous feather sequence and sexed measurements remain unknown; science false.

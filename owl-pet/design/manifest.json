@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T18:10:00+08:00",
+  "updated": "2026-10-30T18:11:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10846,8 +10846,38 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 1,
       "archive_note": "First render passed title/count/adults/support but retained a long layered adult-like pale-spotted juvenile wing. One juvenile-only edit shortened/softened the wing and removed the spot row; edited original and derivative reopened. Adjacent-caption gate held for this plate. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "d212c5e7985ba460905be9e9221f33b0665e2576",
+      "fixed_commit": "d212c5e7985ba460905be9e9221f33b0665e2576",
+      "verified_at": "2026-10-30T18:11:00+08:00",
+      "verification_result": "fixed archive commit returned exact concept/generated/reviewed blob SHAs; manifest count 556 and run/research/state records matched; batch COMPLETE 6/6; unique175/251; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "d212c5e7985ba460905be9e9221f33b0665e2576",
+        "concept": {
+          "path": "owl-pet/design/concepts/48-strix-nivicolum-v4.png",
+          "blob": "1bc333fb468d601d0b4b74008f1e12d08e55ed5f",
+          "size_bytes": 692451
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/48-strix-nivicolum-v4-generated-master.png",
+          "blob": "a1f3593f3e869bb6248600185912736c5df7c296",
+          "size_bytes": 3325745
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/48-strix-nivicolum-v4-reviewed-master.png",
+          "blob": "323090cddea6e7877ebb25bf20fccb7050fdbbbc",
+          "size_bytes": 3159578
+        },
+        "manifest_blob": "6e66c997ffbad4eac5c92e6334765b706bf213d3",
+        "run_blob": "55e7166bca9bc0c52e79fd0456eec22967a11c5c",
+        "research_blob": "b9f591b3a41968991be34027ce2eb59b623d6cdf",
+        "batch_blob": "e9950b918b8303389b6ee1730290d50a0231bb2f",
+        "manifest_count": 556,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T18:10:00+08:00"
+  "updated_at": "2026-10-30T18:11:00+08:00"
 }

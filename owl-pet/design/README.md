@@ -2397,3 +2397,6 @@ Verification 2026-10-30T16:56:00+08:00: #44 v4 confirms the wing-growth timing g
 - Concept: `design/concepts/48-strix-nivicolum-v4.png`; first generated and edited reviewed masters under `production/`.
 - SCIENCE_REVISION, PASS_WITH_LIMITATIONS; Taiwanese `yamadae` juvenile is age unknown, pale cream/grey-brown with sparse white down, blurred marks, short folded wing and two-foot cavity support.
 - One edit removed a long layered adult-like pale-spotted juvenile wing. V1–v3 retained; exact age, locomotor threshold, wing/tail metrics, sexed display ratio and cross-subspecies transfer remain unknown. Science false.
+
+
+Verification 2026-10-30T18:11:00+08:00: #48 v4 fixed archive `d212c5e7985ba460905be9e9221f33b0665e2576` returned exact concept/generated/reviewed paths and blob SHAs; manifest 556 plus run/research/state records matched. Batch COMPLETE 6/6; science false.

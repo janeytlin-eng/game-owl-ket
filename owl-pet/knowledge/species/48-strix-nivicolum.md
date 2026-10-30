@@ -89,3 +89,8 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - First render passed title/count/adults/support but gave the juvenile a long layered folded wing with crisp adult-like pale spots.
 - One juvenile-only edit shortened/softened that wing and removed the spot row while preserving sparse white down, diffuse immature markings and bilateral cavity-lip support.
 - Edited 1536×1024 master and 680×453 derivative reopened; PASS_WITH_LIMITATIONS. The adjacent-caption species gate was effective on this plate only. Exact age, locomotor threshold, wing/tail metrics, sexed display ratio and cross-subspecies transfer remain unknown; science false.
+
+
+### v4 archive verification
+
+- Fixed archive commit `d212c5e7985ba460905be9e9221f33b0665e2576` returned the exact concept/generated/reviewed paths and blobs; manifest 556 plus run/research/state records matched. Production/archive VERIFIED; science false.

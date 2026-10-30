@@ -4,7 +4,7 @@
 - Action: SCIENCE_REVISION; v1–v3 preserved; unique increment 0.
 - Current repository name: *Strix nivicolum* (Blyth, 1845); historical combination *Syrnium nivicolum*.
 - Selected population: Taiwanese *S. n. yamadae*; age unknown.
-- Stage: ARCHIVED pending fixed readback; scientific verification false.
+- Stage: VERIFIED archive; PASS_WITH_LIMITATIONS; scientific verification false.
 
 ## Evidence actually read
 
@@ -50,3 +50,8 @@ Instance-level rule validation: adjacent-caption species gates must be checked a
 ## Archive checkpoint — 2026-10-30T18:10:00+08:00
 
 Concept, original generated master and edited reviewed master were written to their canonical repository paths. Manifest count planned 556. Fixed-commit readback remains required before cycle credit.
+
+
+## Archive verification
+
+Fixed archive commit `d212c5e7985ba460905be9e9221f33b0665e2576` returned the exact concept/generated/reviewed blob SHAs and matching manifest/run/state records. This verifies repository persistence, not scientific correctness.

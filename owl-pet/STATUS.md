@@ -2410,3 +2410,9 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 - Corrected the adjacent-species juvenile attribution: Mikkola's “very white” Hong Kong young belongs #155 *Strix newarensis*, not #153 *S. nivicolum*.
 - V4 selects an age-unknown Taiwanese *S. n. yamadae* juvenile: very pale but not pure white, sparse residual down, diffuse immature marks, short folded wing and bilateral cavity-lip support.
 - One juvenile-only wing edit; edited master and 680×453 derivative reopened; PASS_WITH_LIMITATIONS. Unique species remains 175/251; science false; cycle credit awaits fixed readback.
+
+
+### #48 v4 fixed readback complete — 2026-10-30T18:11:00+08:00
+
+- Fixed archive `d212c5e7985ba460905be9e9221f33b0665e2576` returned the exact concept/generated/reviewed blob SHAs and matching manifest/run/research/state records.
+- Batch `2026-10-30T1634+0800` is COMPLETE 6/6. Unique species remains 175/251; science false.

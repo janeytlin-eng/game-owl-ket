@@ -55,3 +55,11 @@ Avoid: newborn down-ball, adult clone, broad rounded adult wing panels, repeated
 - Result: PASS_WITH_LIMITATIONS; edit_count 1. Juvenile wing is more compact and adult-white rows are subdued; formed fresh feathers, residual down, short tail and a supported step remain. Adults remain near-equal in skeletal height.
 - Exact age, tract geometry, flight threshold, juvenile sex, population transfer and visible sex-size ratio remain unknown. Scientific verification remains false.
 - Assets/manifests persisted at ARCHIVED stage; immutable readback pending.
+
+
+## VERIFIED
+
+- Fixed archive: `908b58ab43127a62c31c1ff9b6b93d9a6a3e9441`.
+- Exact base64 payloads, Git blob IDs and sizes matched for concept, generated master, reviewed master and juvenile crop.
+- Manifests at the fixed archive: legacy 585 / design 584 / production 575; source, research, run and knowledge records were also read back.
+- Integrity verification does not resolve the stated scientific unknowns. `scientifically_verified=false`.

@@ -32,3 +32,9 @@ Recent fledgling: source-selected about 38–40 days and approximately 90% adult
 Constraints: exactly three birds, all feet supported, functional wing surfaces, short juvenile tail, near-adult body bulk, fluffy juvenile head/underparts.
 Avoid: early pinfeather chick, tiny body, long adult-length juvenile tail, dense adult white spotting on juvenile, flight pose, eggs, extra birds, extra text, logos, border, watermark.
 ```
+
+
+## Review and archive evidence — 2026-10-31T00:59:18+08:00
+
+- Full master, 520×700 crop and 680×453 derivative opened. Near-adult torso bulk while crouched, short tail, developed wings, juvenile fluff and support passed first render; edit0; PASS_WITH_LIMITATIONS.
+- Archive concept blob `91790698aba25944695805060db35e7c9606f0ce`; fixed readback pending. Science false.

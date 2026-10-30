@@ -2619,3 +2619,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 
 - Fixed archive `c770e1c38f7e30027d5c4e49d67becd9fc0b4d15` returned exact concept/generated/reviewed/crop blobs and sizes in a non-truncated 2141-entry tree; manifests 577/576/567 and support records matched.
 - Batch `2026-10-31T0034+0800` is 3/6, next cycle 4. Unique remains 175/251; science false.
+
+
+## 2026-10-31T00:59:18+08:00 — #74 *Ninox novaeseelandiae* v4 archive prepared
+
+- V3 fixed original reopened; recent fledgling corrected toward the source's approximately 90%-adult-weight, short-tail boundary while retaining juvenile fluff and developed wings.
+- First render/full/crop/derivative passed without edit; PASS_WITH_LIMITATIONS. Manifests 578/577/568; unique 175/251; fixed readback pending; science false.

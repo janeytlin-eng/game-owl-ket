@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:54:43+08:00",
+  "updated": "2026-10-31T00:59:18+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11930,7 +11930,58 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "74-ninox-novaeseelandiae-v4",
+      "path": "design/concepts/74-ninox-novaeseelandiae-v4.png",
+      "species_id": 74,
+      "scientific_name": "Ninox novaeseelandiae",
+      "historical_names": [],
+      "common_name": "Morepork / Ruru",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "f91f0161515e8456cdd15d5c8304f6b5351d198e17a187f14d7c3f28a225f5cf",
+      "size_bytes": 683809,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 reopens v3 and tightens the source-supported recent-fledgling boundary: about 38–40 days and approximately 90% adult body mass, expressed as near-adult torso bulk while crouched, developed folded wings and a clearly short tail, with fluffy head/neck/underparts retained. Adults remain near-equal with female only subtly fuller. First render passed without edit. Exact dimensions, individual age, tract chronology, fixed sex ratio and island transfer remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "MOR-NZBO-HANZAB-2025",
+        "MOR-DOC-2026",
+        "MOR-STEPHENSON-MINOT-2006",
+        "MOR-TEARA-2009"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--74-ninox-novaeseelandiae-v4-recent-fledgling-massshort-tail-boundary",
+      "research_record": "research/species/74-ninox-novaeseelandiae-v4.md",
+      "run_record": "production/runs/20261031T005625+0800-cycle-4.md",
+      "reviewed_at": "2026-10-31T00:58:31+08:00",
+      "generated_path": "production/generated/74-ninox-novaeseelandiae-v4-generated-master.png",
+      "generated_blob": "d62be77b684a9b903550e1c345dcfe2da7a55870",
+      "generated_sha256": "250ed811e64ff04cc09d5d997ce63aff5e433df90648140a3f311f5ea8e27a7c",
+      "generated_size_bytes": 3435782,
+      "reviewed_path": "production/reviewed/74-ninox-novaeseelandiae-v4-reviewed-master.png",
+      "reviewed_blob": "d62be77b684a9b903550e1c345dcfe2da7a55870",
+      "reviewed_sha256": "250ed811e64ff04cc09d5d997ce63aff5e433df90648140a3f311f5ea8e27a7c",
+      "reviewed_size_bytes": 3435782,
+      "review_crop_path": "production/review-crops/74-ninox-novaeseelandiae-v4-juvenile.png",
+      "review_crop_blob": "d980e4bd903d80656702b7d301866f117359fe7b",
+      "review_crop_size_bytes": 711651,
+      "archive_note": "V2-v3 preserved. V3 reopened; v4 first render/full/crop/derivative passed without edit. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "git_blob": "91790698aba25944695805060db35e7c9606f0ce",
+      "fixed_commit": null,
+      "verification_result": "PENDING fixed-commit readback",
+      "readback": {
+        "status": "PENDING",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T00:54:43+08:00"
+  "updated_at": "2026-10-31T00:59:18+08:00"
 }

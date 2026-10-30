@@ -2525,3 +2525,10 @@ Verification 2026-10-31T00:49:00+08:00: #70 v4 fixed archive `cd18932e5f0df19e09
 
 
 Verification 2026-10-31T00:54:43+08:00: #71 v4 fixed archive `c770e1c38f7e30027d5c4e49d67becd9fc0b4d15` returned exact assets and manifests 577/576/567; batch 3/6 next4; science false.
+
+
+## #74 · Morepork / Ruru · *Ninox novaeseelandiae* · v4
+
+- Concept: `design/concepts/74-ninox-novaeseelandiae-v4.png`; masters/crop retained.
+- V4 expresses the 38–40-day, approximately 90%-adult-weight boundary as near-adult torso bulk while crouched, developed wings, clearly short tail and retained head/underpart fluff. Adults near-equal; female only subtly fuller.
+- Full/crop/derivative opened; edit0; PASS_WITH_LIMITATIONS. Exact dimensions/tract chronology/island transfer unknown. Science false.

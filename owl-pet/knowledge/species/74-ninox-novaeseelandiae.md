@@ -6,3 +6,10 @@ Sources: MOR-STEPHENSON-MINOT-2006 Stephenson/Minot Notornis53:308–315 https:/
 [Selectedv2](../../design/concepts/74-ninox-novaeseelandiae-v2.png); originaldrafts retainedlocal, threeedits, lastspatialpatchreplacement actuallyremoveslongwhite-tipwingblades. Adult/chickeyesbill/labels/support viewed; slighttexturevariation notpixelinvariant. Conceptreview only, scientifically_verified false. CompletePNG2836479bytes Git0b4b59866a940726b3e428617ad5957e7f2a3830 local/upload/remote一致; archivecommit4b005cb275255a132ba79ded6d01f598ebb729a9.
 
 [Fullprompts/failededits/review](../../production/runs/2026-10-14T1437+0800-cycle-3.md). No blanket removeallfeathers rule; stagefirst. Spatialedit demonstratedeffectivehereonly.
+
+
+## v4 — 2026-10-31T00:59:18+08:00 — recent-fledgling mass/short-tail revision
+
+- Preserved v2-v3; new [concept](../../design/concepts/74-ninox-novaeseelandiae-v4.png).
+- V3 fixed original reopened. V4 gives the recent fledgling near-adult torso bulk while crouched and a clearly short tail, retaining developed wings and fluffy head/underparts.
+- First render/full/crop/derivative passed without edit. Exact dimensions, tract chronology and island transfer unknown; science false. [Research](../../research/species/74-ninox-novaeseelandiae-v4.md) · [run](../../production/runs/20261031T005625+0800-cycle-4.md).

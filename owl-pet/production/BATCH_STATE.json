@@ -8600,34 +8600,30 @@
       "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Ninox novaeseelandiae",
         "species_id": 74,
         "version": 4,
         "run_id": "20261031T005625+0800-cycle-4",
-        "at": "2026-10-31T00:58:31+08:00",
+        "at": "2026-10-31T00:59:18+08:00",
         "run_record": "owl-pet/production/runs/20261031T005625+0800-cycle-4.md",
         "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/74-ninox-novaeseelandiae-v4-reviewed-master.png",
-          "dimensions": "1536x1024",
-          "size_bytes": 3435782,
-          "sha256": "250ed811e64ff04cc09d5d997ce63aff5e433df90648140a3f311f5ea8e27a7c",
-          "git_blob": "d62be77b684a9b903550e1c345dcfe2da7a55870",
-          "crop_path": "owl-pet/production/review-crops/74-ninox-novaeseelandiae-v4-juvenile.png",
-          "crop_dimensions": "520x700",
-          "crop_size_bytes": 711651,
-          "crop_sha256": "0712b5f25a9e6eeda4901dfb008fb662c2fd67f9d97f12a307de919426df9627",
-          "crop_git_blob": "d980e4bd903d80656702b7d301866f117359fe7b",
-          "concept_derivative_path": "owl-pet/design/concepts/74-ninox-novaeseelandiae-v4.png",
-          "concept_dimensions": "680x453",
+          "concept_path": "owl-pet/design/concepts/74-ninox-novaeseelandiae-v4.png",
+          "concept_blob": "91790698aba25944695805060db35e7c9606f0ce",
           "concept_size_bytes": 683809,
-          "concept_sha256": "f91f0161515e8456cdd15d5c8304f6b5351d198e17a187f14d7c3f28a225f5cf",
-          "edit_count": 0,
-          "review_result": "PASS_WITH_LIMITATIONS",
+          "generated_blob": "d62be77b684a9b903550e1c345dcfe2da7a55870",
+          "reviewed_blob": "d62be77b684a9b903550e1c345dcfe2da7a55870",
+          "review_crop_blob": "d980e4bd903d80656702b7d301866f117359fe7b",
+          "manifest_counts": {
+            "legacy": 578,
+            "design": 577,
+            "production": 568
+          },
+          "readback_pending": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T00:58:31+08:00",
+      "last_updated_at": "2026-10-31T00:59:18+08:00",
       "audit_notes": [
         "2026-10-31T00:34:52+08:00 cycle1 #69 Tyto novaehollandiae v4 SCIENCE_REVISION STARTED; latest main/batch/species card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit.",
@@ -8650,26 +8646,27 @@
         "2026-10-31T00:55:40+08:00 cycle4 #74 Ninox novaeseelandiae v4 SCIENCE_REVISION STARTED; #72/#73 v4 presence checked, #74 v2-v3 and fixed v3 image/card checked; 15-minute lease acquired; no credit.",
         "2026-10-31T00:56:13+08:00 cycle4 #74 v4 RESEARCH_READY; new0/reused4/corrected1; active search empty/no credit; v3 fixed original reopened and recent-fledgling body-bulk/short-tail boundary tightened; full prompt saved; science false; no credit.",
         "2026-10-31T00:58:26+08:00 cycle4 #74 v4 IMAGE_GENERATED in 60.8s; original opened. Text/count, adult identity/overlap, near-adult-bulk crouched fledgling, developed wing, short tail, retained fluff and support pass; no edit indicated; science false; no credit.",
-        "2026-10-31T00:58:31+08:00 cycle4 #74 v4 REVIEWED; full master, juvenile crop and derivative opened; near-adult torso bulk, short tail and juvenile fluff pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-31T00:58:31+08:00 cycle4 #74 v4 REVIEWED; full master, juvenile crop and derivative opened; near-adult torso bulk, short tail and juvenile fluff pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-31T00:59:18+08:00 cycle4 #74 v4 ARCHIVED tree prepared; concept/masters/crop/manifests/support records included; fixed readback pending; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T005625+0800-cycle-4",
-        "heartbeat_at": "2026-10-31T00:58:31+08:00",
-        "expires_at": "2026-10-31T01:13:31+08:00"
+        "heartbeat_at": "2026-10-31T00:59:18+08:00",
+        "expires_at": "2026-10-31T01:14:18+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T005625+0800-cycle-4",
-        "heartbeat_at": "2026-10-31T00:58:31+08:00",
-        "expires_at": "2026-10-31T01:13:31+08:00"
+        "heartbeat_at": "2026-10-31T00:59:18+08:00",
+        "expires_at": "2026-10-31T01:14:18+08:00"
       },
       "in_progress": {
         "cycle": 4,
         "species": "Ninox novaeseelandiae",
         "species_id": 74,
         "version": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261031T005625+0800-cycle-4"
       }
     }

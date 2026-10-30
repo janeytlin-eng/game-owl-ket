@@ -1,3 +1,13 @@
+## 2026-10-31 — #82 *Otus senegalensis* v4 range-to-individual age correction
+
+- **Reused stable IDs:** SEN-RIEKERT-1986; SEN-BROWN-RIEKERT-MORSBACH-1987; SEN-BE-ROBERTS2005; SEN-OWLPAGES-2020; SEN-MIK2013-130.
+- **Actual-read evidence reused:** Riekert 1986 printed pp.425–428 (full four-page study previously opened) and Brown, Riekert & Morsbach 1987 printed pp.58–64 (institutional record and publisher abstract previously read) support the 25–28 d departure range and approximately 75% adult size at recent fledging; Biodiversity Explorer breeding/habitat sections support cavities and arid savanna woodland; Owl Pages supports adult identity; Mikkola printed pp.130–131 / PDF132–133 supports adult morphology, morph variation and female-heavier mass without a fixed visible height ratio.
+- **Active network research:** three system-1 queries, three system-2 queries and direct opens of Biodiversity Explorer, Owl Pages and the DOI were attempted on 2026-10-31; all returned empty connector payloads and are not counted as new evidence.
+- **Design correction:** v3's label “25–28-DAY FRESH FLEDGLING” treats a population departure range as this individual's known age. V4 uses “RECENT FLEDGLING”; it retains about three-quarter adult scale as a study-bounded design estimate, residual mesoptile and a supported branch-step, while further softening the juvenile wing and removing adult-regular pale rows. Adult mass is not converted into height.
+- **Limits/confidence:** high for removing the individual-age claim; moderate for stage/relative size/context; low for exact daily tract geometry, first-flight competence, juvenile sex, population transfer and visible adult sex-size ratio. Science false.
+- **Source/design delta:** new0 / reused5 / corrected1.
+- **Links:** [species record](species/82-otus-senegalensis-v4.md) · [run](../production/runs/20261031T035030+0800-cycle-6.md) · v1–v3 retained.
+
 ## 2026-10-31 — #81 *Otus scops* v4 age-uncertain recent-fledgling boundary
 
 - **Reused stable IDs:** SCOPS-MARCHESI-SERGIO-2005; SCOPS-GRIECO-2025; SCOPS-BLASCO-UNDATED; SCOPS-OWLPAGES-2020; WHSO-MIKKOLA-2013.

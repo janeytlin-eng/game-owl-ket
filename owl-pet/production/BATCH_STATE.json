@@ -7952,33 +7952,57 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
-      "in_progress": null,
+      "active_lease": {
+        "owner": "codex-work-20261030T1431+0800",
+        "run_id": "20261030T143100+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 41,
+        "heartbeat_at": "2026-10-30T14:31:00+08:00",
+        "expires_at": "2026-10-30T14:46:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 5,
+        "species": "Glaucidium cobanense",
+        "species_no": "41",
+        "version": "v4",
+        "action": "SCIENCE_REVISION",
+        "run_record": "owl-pet/production/runs/20261030T143100+0800-cycle-5.md",
+        "stage": "STARTED",
+        "started_at": "2026-10-30T14:31:00+08:00"
+      },
       "last_checkpoint": {
-        "stage": "VERIFIED",
-        "at": "2026-10-30T13:58:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T134700+0800-cycle-4.md",
+        "stage": "STARTED",
+        "at": "2026-10-30T14:31:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T143100+0800-cycle-5.md",
         "evidence": {
-          "fixed_archive_commit": "f158c79d345002a643e143528e869db0c69f13dd",
-          "concept_blob": "22381bc4a4ba92e229bd460ddb968848acc0ef1b",
-          "generated_blob": "ab28f168a4700c85ca8e5de8047388f5bf0d919d",
-          "reviewed_blob": "22381bc4a4ba92e229bd460ddb968848acc0ef1b",
-          "crop_blob": "86947de0fcaf5bbbee7b32f8b2a14e3d74a810cd",
-          "manifest_counts": {
-            "design": 559,
-            "production": 550,
-            "legacy": 548
-          },
-          "unique_species": "175/251",
-          "numbered_ids": "185/251",
-          "scientifically_verified": false
+          "head": "09b8c6b72ccb83985c972f770ea8c2903f238235",
+          "existing_versions": [
+            "v1",
+            "v2",
+            "v3"
+          ],
+          "selected_version": "v4"
         }
       },
-      "lease": null,
-      "last_updated_at": "2026-10-30T13:58:00+08:00"
+      "lease": {
+        "owner": "codex-work-20261030T1431+0800",
+        "run_id": "20261030T143100+0800-cycle-5",
+        "cycle": 5,
+        "species_id": 41,
+        "heartbeat_at": "2026-10-30T14:31:00+08:00",
+        "expires_at": "2026-10-30T14:46:00+08:00"
+      },
+      "last_updated_at": "2026-10-30T14:31:00+08:00"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-work-20261030T1431+0800",
+    "run_id": "20261030T143100+0800-cycle-5",
+    "cycle": 5,
+    "species_id": 41,
+    "heartbeat_at": "2026-10-30T14:31:00+08:00",
+    "expires_at": "2026-10-30T14:46:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -8091,7 +8115,7 @@
     "2026-10-30T10:43:26+08:00: cycle4 #34 v4 VERIFIED at fixed archive c937b386265f3eb048f3b1f6d90ea0f64d1528b7; exact four image tuples and indexed records matched; batch4/6 next5; unique175/251; science false; lease released.",
     "2026-10-30T10:43:58+08:00: batch cycle5 STARTED #35 Glaucidium jardinii v4 SCIENCE_REVISION; 15-minute lease acquired; v1-v3 retained; no credit."
   ],
-  "updated_at": "2026-10-30T13:58:00+08:00",
+  "updated_at": "2026-10-30T14:31:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8099,8 +8123,15 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-30T13:58:00+08:00",
+  "active_lease": {
+    "owner": "codex-work-20261030T1431+0800",
+    "run_id": "20261030T143100+0800-cycle-5",
+    "cycle": 5,
+    "species_id": 41,
+    "heartbeat_at": "2026-10-30T14:31:00+08:00",
+    "expires_at": "2026-10-30T14:46:00+08:00"
+  },
+  "last_updated_at": "2026-10-30T14:31:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8458,7 +8489,17 @@
     "2026-10-30T13:51:00+08:00: cycle4 #40 v4 IMAGE_GENERATED after 60.0-second wait; full 1536x1024 plate opened; title/count/adults/support pass; male tail too long/regularly barred and juvenile tail slightly too mature require targeted edit; no credit.",
     "2026-10-30T13:54:00+08:00: cycle4 #40 v4 REVIEWED after two targeted edits; full 1536x1024 and final 560x700 crop reopened; male tail shortened to five incomplete bands, juvenile tail softened and mature primary tips replaced by compact rounded wing; PASS_WITH_LIMITATIONS; science false; no credit.",
     "2026-10-30T13:56:00+08:00: cycle4 #40 v4 ARCHIVED; concept/generated/reviewed/crop and manifests design559/production550/legacy548 persisted; fixed readback pending; no credit; unique175/251; science false.",
-    "2026-10-30T13:58:00+08:00: cycle4 #40 v4 VERIFIED at fixed archive f158c79d345002a643e143528e869db0c69f13dd; exact concept/generated/reviewed/crop blobs and manifests 559/550/548 plus source/research/run/knowledge/state matched; batch4/6 next5; unique175/251; science false; lease released."
+    "2026-10-30T13:58:00+08:00: cycle4 #40 v4 VERIFIED at fixed archive f158c79d345002a643e143528e869db0c69f13dd; exact concept/generated/reviewed/crop blobs and manifests 559/550/548 plus source/research/run/knowledge/state matched; batch4/6 next5; unique175/251; science false; lease released.",
+    "2026-10-30T14:31:00+08:00: batch cycle5 #41 Glaucidium cobanense v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 retained; no credit."
   ],
-  "in_progress": null
+  "in_progress": {
+    "cycle": 5,
+    "species": "Glaucidium cobanense",
+    "species_no": "41",
+    "version": "v4",
+    "action": "SCIENCE_REVISION",
+    "run_record": "owl-pet/production/runs/20261030T143100+0800-cycle-5.md",
+    "stage": "STARTED",
+    "started_at": "2026-10-30T14:31:00+08:00"
+  }
 }

@@ -1,3 +1,9 @@
+## 2026-10-31 #82 *Otus senegalensis* v4 VERIFIED
+
+- SCIENCE_REVISION; one direct imagegen edit; PASS_WITH_LIMITATIONS; science false; unique175/251.
+- Fixed archive `e8967091ffc5fb1dfce11c1b96225a1147ae2ee4`; exact assets and manifests586/585/576 matched. Batch6/6 complete.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/e8967091ffc5fb1dfce11c1b96225a1147ae2ee4/owl-pet/design/concepts/82-otus-senegalensis-v4.jpg?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/e8967091ffc5fb1dfce11c1b96225a1147ae2ee4)
+
 ## 2026-10-31 #82 *Otus senegalensis* v4 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; one direct imagegen edit; PASS_WITH_LIMITATIONS; science false; unique175/251.

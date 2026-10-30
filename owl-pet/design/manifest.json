@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T08:47:00+08:00",
+  "updated": "2026-10-30T08:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9591,8 +9591,41 @@
       "review_crop_sha256": "d0e703d5ad28080ca7fbeb012ff5c73a102f67073ff4b0a999d76e77725c3bea",
       "review_crop_size_bytes": 644119,
       "archive_note": "Initial 1536x1024 render and final full plate were opened. One targeted juvenile-only edit removed repeated bright adult-like white spots, softened the folded wing and shortened the visible tail. A 520x700 crop verified the two-foot grip, softer wing, shorter tail and intact support. Exact text/count, adults, subtle size direction and habitat passed. Existing v1-v3 and historical records remain retained.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "9b2675688211790d835bfb78e1caea91f21d3f28",
+      "fixed_commit": "9b2675688211790d835bfb78e1caea91f21d3f28",
+      "verified_at": "2026-10-30T08:50:00+08:00",
+      "verification_result": "fixed-commit tree was non-truncated (1928 entries) and returned exact Git blobs and byte sizes for concept, generated, reviewed and juvenile crop; all three manifests, source-index blob, research, run-at-archive, knowledge, design/status and state blobs matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "9b2675688211790d835bfb78e1caea91f21d3f28",
+        "concept": {
+          "path": "design/concepts/31-glaucidium-radiatum-v4.png",
+          "blob": "e5d022c30dc722d5c58df857efd7788db0918093",
+          "size_bytes": 2919939
+        },
+        "generated": {
+          "path": "production/generated/31-glaucidium-radiatum-v4-generated.png",
+          "blob": "1835b60f183b35e8e56f375cb759a05e770e8e7c",
+          "size_bytes": 3089115
+        },
+        "reviewed": {
+          "path": "production/reviewed/31-glaucidium-radiatum-v4-reviewed.png",
+          "blob": "e5d022c30dc722d5c58df857efd7788db0918093",
+          "size_bytes": 2919939
+        },
+        "review_crop": {
+          "path": "production/review-crops/31-glaucidium-radiatum-v4-juvenile.png",
+          "blob": "9793f89e0883250ee9f173b447025d48bbce3d5f",
+          "size_bytes": 644119
+        },
+        "source_index_marker": "JUOW-KOPARDE-WII-2018",
+        "source_index_blob": "f3dfc1e9165e6c3d6884e39824cb8d9569e46d24",
+        "research_blob": "969a83db085bda45b125174d0b2f25155cbd90a4",
+        "run_blob_at_archive": "54fd55fd88711340d9561d49742575350d0eb666",
+        "knowledge_blob": "39792f7e373d41b00b6336087da02c4ee55b8007"
+      }
     }
   ],
-  "updated_at": "2026-10-30T08:47:00+08:00"
+  "updated_at": "2026-10-30T08:50:00+08:00"
 }

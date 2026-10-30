@@ -2245,3 +2245,5 @@ When a primary field study provides a multi-day entrance window but the daily fe
 ### Incremental rule — direct immature photos do not license an adult wing map
 
 When a source photograph labels an individual immature but does not document its age or feather sequence, use only plainly visible stage cues and avoid copying crisp repeated adult covert spots merely because the wing is fully formed. Apply a lower-contrast, age-bounded treatment and check a crop for support and feather ordering. Applied and visually rechecked on #31 v4; broader effectiveness remains unverified.
+
+- 2026-10-30T08:50:00+08:00 — #31 v4 fixed-tree VERIFIED at `9b2675688211790d835bfb78e1caea91f21d3f28`; four exact image path/blob/size tuples and all indexed records matched; batch 1/6, next cycle2; science false.

@@ -54,3 +54,8 @@ Scene: dry-to-moist deciduous and scrub forest edge of north India, restrained l
 - ARCHIVED at 2026-10-30T08:47:00+08:00; manifest entry `31-glaucidium-radiatum-v4`, unique increment 0.
 - Concept path: `../../design/concepts/31-glaucidium-radiatum-v4.png`; same reviewed binary `984ba4df…`, 2,919,939 bytes.
 - Fixed-commit path/blob/size readback remains pending; no cycle credit until VERIFIED.
+
+
+## Fixed-commit verification
+
+- 2026-10-30T08:50:00+08:00: archive commit `9b2675688211790d835bfb78e1caea91f21d3f28` reread through a non-truncated 1,928-entry tree. Exact concept/generated/reviewed/crop Git blobs and byte sizes matched. Three manifests plus source index blob `f3dfc1e…`, research, run-at-archive, knowledge, design/status and state blobs matched. Cycle credited; science remains false.

@@ -2259,3 +2259,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 08:47 +08 — #31 Jungle Owlet v4 archived, verification pending
 
 #31 *Glaucidium radiatum* v4 concept, first generated PNG, reviewed PNG, juvenile crop and research/source/run/state records are archived. One juvenile-only edit removed crisp repeated adult-like white wing spots, softened the compact folded wing and shortened/browned the tail while preserving both-foot support, adults and exact text. Revision adds zero; reconciled unique remains **175/251**, numbered IDs **185/251**; science false. Fixed commit-pinned readback is pending, so batch `2026-10-30T0830+0800` remains 0/6 until verification.
+
+- 2026-10-30T08:50:00+08:00 — #31 *Glaucidium radiatum* v4 fixed-commit readback passed at `9b2675688211790d835bfb78e1caea91f21d3f28`: non-truncated 1,928-entry tree, exact four image path/blob/size tuples and three manifests/source/research/run/knowledge/design/status/state records matched. Batch **1/6**, next cycle2; unique remains **175/251**, numbered IDs **185/251**, science false; lease released.

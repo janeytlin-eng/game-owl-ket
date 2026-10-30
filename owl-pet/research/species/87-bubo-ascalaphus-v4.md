@@ -28,3 +28,7 @@ Text (verbatim): “87 PHARAOH EAGLE-OWL”; italic scientific line “Bubo asca
 Constraints: preserve exactly three birds, all biological details, proportions, adult near-equal standing height, modestly fuller female, short adult tufts, orange-yellow eyes, black bills, feathered feet, zoned upper-breast drops/lower-belly fine bars, central creamy-sandy older juvenile with short pale developing folded wing, incomplete breast markings, short tail, two-foot rock support, desert wadi, lighting, crop and label positions. Change no bird, feather, foot, rock or habitat geometry.
 Avoid: extra birds or text, altered plumage, mature juvenile remiges, flight pose, watermark, logo.
 ```
+
+## Actual image review
+
+Opened the generated 1536×1024 master and 520×700 juvenile crop. The top title is exactly `87 PHARAOH EAGLE-OWL`; scientific and three role labels are correct; exactly three birds remain. Adult short tufts, orange-yellow eyes, black bills, feathered feet, upper-breast drops/lower-belly bars and near-equal standing height remain coherent. The central c.40-day juvenile remains creamy-sandy with incomplete breast marks, compact pale developing folded wing, short tail and bilateral rock support; no flight pose or mature wing substitution. Desert wadi/shrub context is plausible. No post-generation edit was required. Result: `PASS_WITH_LIMITATIONS`, edit count 0, scientifically_verified=false. Unknowns remain exact flight ability, sex, feather count, adult numeric RSD and regional fine plumage.

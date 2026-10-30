@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T11:12:00+08:00",
+  "updated": "2026-10-30T12:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10868,7 +10868,88 @@
         "run_blob_at_archive": "2920fb4fb1c75b0aae02e82880da7e15705c8ceb",
         "knowledge_blob": "e59237c60cf57cf639fef1f4a4aa1fe85270c417"
       }
+    },
+    {
+      "id": "37-glaucidium-peruanum-v4",
+      "path": "design/concepts/37-glaucidium-peruanum-v4.png",
+      "species_id": 37,
+      "scientific_name": "Glaucidium peruanum",
+      "historical_names": [
+        "formerly included in Glaucidium brasilianum (historical treatment; not a current synonym claim)"
+      ],
+      "common_name": "Peruvian Pygmy Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "7c590e2156bc6995343f34bb9a239d616b4fc4923863a0333831ffc569bb91af",
+      "size_bytes": 3256900,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Greeney et al. 2020 supplies a site-specific nest in a hollowed-out Pale-legged Hornero nest, while specialist summaries still leave eggs, young and departure age poorly known. A cross-species adobe-wall juvenile excerpt was excluded. Adults remain near equal display height; older age-unknown juvenile has a plain crown, no crisp adult covert rows, short tail and natural support. Exact juvenile age, feather sequence, flight threshold and independence remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "PEPO-GREENEY-2020",
+        "PEPO-LUTHI-2011",
+        "PEPO-PF-2026",
+        "PEPO-KONIG-1991",
+        "PEPO-EBIRD-ID-2026",
+        "SRC-BOOK-037-01",
+        "SRC-WEB-037-02",
+        "PEPO-MACIAS-2015"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--37-glaucidium-peruanum-v4-evidence-correction",
+      "research_record": "research/species/37-glaucidium-peruanum-v4.md",
+      "run_record": "production/runs/20261030T123000+0800-cycle-1.md",
+      "generated_path": "production/generated/37-glaucidium-peruanum-v4-generated.png",
+      "generated_blob": "9963f71ae12b8ccec886431a6c37e30b312778b3",
+      "generated_sha256": "7c590e2156bc6995343f34bb9a239d616b4fc4923863a0333831ffc569bb91af",
+      "generated_size_bytes": 3256900,
+      "reviewed_path": "production/reviewed/37-glaucidium-peruanum-v4-reviewed.png",
+      "reviewed_blob": "9963f71ae12b8ccec886431a6c37e30b312778b3",
+      "reviewed_sha256": "7c590e2156bc6995343f34bb9a239d616b4fc4923863a0333831ffc569bb91af",
+      "reviewed_size_bytes": 3256900,
+      "review_crop_path": "production/review-crops/37-glaucidium-peruanum-v4-juvenile.jpg",
+      "review_crop_blob": "e1ea90f695cfcf8d1fa9ed61e6e93a70eb567971",
+      "review_crop_sha256": "ac4650f79a98d22faf53adc00a558b714b8bfb07306b715251051e3230b252ab",
+      "review_crop_size_bytes": 186060,
+      "archive_note": "V1-v3 retained. Full plate and juvenile crop reopened. No edit required. V4 removes the transferred 26–42-day/cavity-stage assumption and uses an age-unknown supported older juvenile. Science false.",
+      "readback_pending": true,
+      "archive_commit": "PENDING_FIXED_COMMIT",
+      "fixed_commit": null,
+      "verified_at": null,
+      "verification_result": "pending fixed-commit readback",
+      "readback": {
+        "status": "PENDING",
+        "fixed_commit": null,
+        "concept": {
+          "path": "design/concepts/37-glaucidium-peruanum-v4.png",
+          "blob": "9963f71ae12b8ccec886431a6c37e30b312778b3",
+          "size_bytes": 3256900
+        },
+        "generated": {
+          "path": "production/generated/37-glaucidium-peruanum-v4-generated.png",
+          "blob": "9963f71ae12b8ccec886431a6c37e30b312778b3",
+          "size_bytes": 3256900
+        },
+        "reviewed": {
+          "path": "production/reviewed/37-glaucidium-peruanum-v4-reviewed.png",
+          "blob": "9963f71ae12b8ccec886431a6c37e30b312778b3",
+          "size_bytes": 3256900
+        },
+        "review_crop": {
+          "path": "production/review-crops/37-glaucidium-peruanum-v4-juvenile.jpg",
+          "blob": "e1ea90f695cfcf8d1fa9ed61e6e93a70eb567971",
+          "size_bytes": 186060
+        },
+        "source_index_blob": "d6c306bef0c8e17da974d0feafa8299961f9db91",
+        "source_index_size": 1106822,
+        "research_blob": "08e3e59132b84187feb7d0611e7efe966d6d9ba4",
+        "run_blob_at_archive": "ed8e9fe8ab9bf5cfda8c9bb3df0d74f059e099e9",
+        "knowledge_blob": "6731bf4361dc8d0bb3f2d1819b83fd64c8182c2d"
+      }
     }
   ],
-  "updated_at": "2026-10-30T11:29:07+08:00"
+  "updated_at": "2026-10-30T12:44:00+08:00"
 }

@@ -52,3 +52,15 @@ New `PEPO-MACIAS-2015` (printed/PDF p.147) reports white-down blind hatchlings a
 ## v4 research correction — 2026-10-30
 
 New PEPO-GREENEY-2020 (printed p.37) supplies a site-specific breeding record and a nest in a hollowed-out Pale-legged Hornero nest. New PEPO-LUTHI-2011 (PDF p.23 / printed p.49) supports deciduous/riparian forest, montane scrub, gardens, willow roosting and alarm tail-flicking; its immediately following adobe-wall juvenile observations are *Athene cunicularia* and are excluded. PEPO-PF-2026 confirms that eggs, young and nest-leaving age remain poorly known. PEPO-MACIAS-2015 is retained as a secondary catalogue but its broad 26–42-day statement is no longer used as a directly transferable species-specific stage. V4 selects an age-unknown supported juvenile with no exact-day, cavity-stage or flight claim. Science remains false.
+
+
+## v4 image review — 2026-10-30
+
+- Generated and reopened at 1536×1024; exact title, exactly three birds, labels and natural support passed.
+- Adults are near equal display height, with female only subtly fuller; male three-quarter rear view exposes one nape false-eye patch.
+- Older age-unknown juvenile has a plain crown, softer body, no repeated adult-like white covert rows, a shorter softly barred tail and two-foot branch support.
+- No edit was needed after crop review. Exact age, continuous feather sequence, flight threshold and independence remain unknown; science remains false.
+
+### Applied iteration rule
+
+A neighboring species paragraph or adjacent numbered account must not be transferred by search-snippet proximity. The adobe-wall “probably young” and juvenile observations in Lüthi 2011 are under entry 129 *Athene cunicularia*, not entry 128 *G. peruanum*. For future plates, verify the species heading and page boundary before using behavioral or juvenile text. Applied here; broader effectiveness remains unverified.

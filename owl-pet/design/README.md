@@ -2309,3 +2309,12 @@ A heavier sex should not automatically be drawn taller when species-specific lin
 A primary adult diagnosis can calibrate adult tail/spot pattern but cannot be transferred to juvenile feather order or nest stage. Applied and visually rechecked on #36 v4; broader effectiveness remains unverified.
 
 - 2026-10-30T11:29:07+08:00 — #36 *Glaucidium bolivianum* v4 fixed readback VERIFIED at archive `b89929363e3b6a0928a1673907d3ddf5197b9ee1`; 1,959-entry non-truncated tree, exact image/research/manifest blobs and byte sizes matched; batch `2026-10-30T0830+0800` closed 6/6. Science remains false / PASS_WITH_LIMITATIONS.
+
+
+## 2026-10-30 · #37 *Glaucidium peruanum* v4
+
+Science revision archived after source-boundary correction. Greeney et al. 2020 printed p.37 supports a nest in a hollowed-out Pale-legged Hornero nest; Lüthi 2011 printed p.49 supports habitat/behavior but its adjacent adobe-wall juveniles are *Athene cunicularia* and were excluded. The full 1536×1024 plate and juvenile crop were reopened; no edit was required. PASS_WITH_LIMITATIONS; scientifically_verified=false. Exact age, feather sequence and flight ability remain unknown.
+
+### Incremental rule — verify numbered account boundaries
+
+Search snippets can merge adjacent species accounts. Before transferring juvenile or nest facts, verify the printed species heading and page boundary. Applied to #37 v4 by excluding entry 129 *Athene cunicularia* observations; broader effectiveness remains unverified.

@@ -38,3 +38,8 @@ Environment: dry western Andean foothill edge with riparian willow/mesquite, tho
 - Evidence: Greeney supplies a nest substrate but no growth series; Peregrine Fund still lists young/departure timing as unknown; Lüthi's adobe-wall juveniles are Burrowing Owls, not this species.
 - Change: remove exact/broad age-window and cavity-stage claim; use age-unknown supported juvenile.
 - Validation target: exactly three birds, adult identity/sex direction, plain-crowned juvenile without mature wing/tail pattern, natural support and correct labels.
+
+
+## Image review result
+
+The first render was opened at 1536×1024 and the 520×737 juvenile crop was reopened. It passed exact title/count/labels, adult identity, subtle sex direction, male false-eye display and all-foot support. The juvenile's plain crown, soft body, absence of repeated bright adult covert rows and shorter tail fit the age-unknown older stage. No edit was made. Verdict: PASS_WITH_LIMITATIONS; science false.

@@ -1333,3 +1333,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - 2026-10-30T11:12:00+08:00: archived #36 *Glaucidium bolivianum* v4 science revision. Added König 1991 original description and ITIS; removed unsupported cavity-stage inference; one male-tail/juvenile-wing edit; full/crop reopened. Manifest design555 / production546 / legacy544; fixed readback pending; science false.
 
 - 2026-10-30T11:29:07+08:00 — #36 *Glaucidium bolivianum* v4 fixed readback VERIFIED at archive `b89929363e3b6a0928a1673907d3ddf5197b9ee1`; 1,959-entry non-truncated tree, exact image/research/manifest blobs and byte sizes matched; batch `2026-10-30T0830+0800` closed 6/6. Science remains false / PASS_WITH_LIMITATIONS.
+
+
+- 2026-10-30T12:44:00+08:00: archived #37 *Glaucidium peruanum* v4 science revision. Added Greeney 2020, Lüthi 2011 and Peregrine Fund evidence; corrected a cross-species juvenile excerpt and removed direct use of the broad 26–42-day cavity-stage inference. No image edit; full/crop reopened. Manifests design556 / production547 / legacy545; fixed readback pending; science false.

@@ -2300,3 +2300,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 #36 *Glaucidium bolivianum* v4 concept, generated/reviewed PNG and juvenile crop are archived. König 1991 original diagnosis was applied; a targeted edit shortened the overlong adult male tail and mature juvenile wing. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 5/6.
 
 - 2026-10-30T11:29:07+08:00 — #36 *Glaucidium bolivianum* v4 fixed readback VERIFIED at archive `b89929363e3b6a0928a1673907d3ddf5197b9ee1`; 1,959-entry non-truncated tree, exact image/research/manifest blobs and byte sizes matched; batch `2026-10-30T0830+0800` closed 6/6. Science remains false / PASS_WITH_LIMITATIONS.
+
+
+- 2026-10-30T12:44:00+08:00: #37 *Glaucidium peruanum* v4 ARCHIVED. Four image paths, research/source correction and manifests design556/production547/legacy545 persisted. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**. Fixed readback pending; batch remains 0/6; science false / PASS_WITH_LIMITATIONS.

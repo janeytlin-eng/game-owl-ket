@@ -2403,3 +2403,10 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Fixed archive `16ed484f31e8db0e4a8947d9c1e30ae28aeef62c` returned the exact concept/generated/reviewed blob SHAs and matching Manifest/run/research records.
 - Batch `2026-10-30T1634+0800` is now 5/6; next cycle 6. Unique species remains 175/251; science false.
+
+
+## 2026-10-30 — #48 *Strix nivicolum* v4 archived pending fixed readback
+
+- Corrected the adjacent-species juvenile attribution: Mikkola's “very white” Hong Kong young belongs #155 *Strix newarensis*, not #153 *S. nivicolum*.
+- V4 selects an age-unknown Taiwanese *S. n. yamadae* juvenile: very pale but not pure white, sparse residual down, diffuse immature marks, short folded wing and bilateral cavity-lip support.
+- One juvenile-only wing edit; edited master and 680×453 derivative reopened; PASS_WITH_LIMITATIONS. Unique species remains 175/251; science false; cycle credit awaits fixed readback.

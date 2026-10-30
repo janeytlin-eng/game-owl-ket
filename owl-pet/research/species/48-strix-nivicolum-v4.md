@@ -4,7 +4,7 @@
 - Action: SCIENCE_REVISION; v1–v3 preserved; unique increment 0.
 - Current repository name: *Strix nivicolum* (Blyth, 1845); historical combination *Syrnium nivicolum*.
 - Selected population: Taiwanese *S. n. yamadae*; age unknown.
-- Stage: REVIEWED; scientific verification false.
+- Stage: ARCHIVED pending fixed readback; scientific verification false.
 
 ## Evidence actually read
 
@@ -45,3 +45,8 @@ Avoid: extra birds, eggs, prey, ear tufts, yellow eyes, pure-white Hong Kong new
 The first render correctly separated the Taiwanese `yamadae` juvenile from Mikkola's adjacent Hong Kong `newarensis` caption, but its viewer-left folded wing remained too long/layered and carried crisp adult-like pale spots. One juvenile-only edit shortened and softened that folded wing while preserving bilateral cavity-lip support. The edited 1536×1024 master and 680×453 derivative were both actually opened. Result: PASS_WITH_LIMITATIONS; scientific verification remains false.
 
 Instance-level rule validation: adjacent-caption species gates must be checked against printed species headings before juvenile morphology is transferred. Applied and visually effective on #48 v4; broader archive validation is pending.
+
+
+## Archive checkpoint — 2026-10-30T18:10:00+08:00
+
+Concept, original generated master and edited reviewed master were written to their canonical repository paths. Manifest count planned 556. Fixed-commit readback remains required before cycle credit.

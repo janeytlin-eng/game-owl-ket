@@ -2390,3 +2390,10 @@ Verification 2026-10-30T16:56:00+08:00: #44 v4 confirms the wing-growth timing g
 - Concept: `design/concepts/47-strix-leptogrammica-v4.png`; full generated/reviewed masters under `production/`.
 - SCIENCE_REVISION, PASS_WITH_LIMITATIONS; one Sri Lankan 34-day cavity chick, not a cross-subspecies composite. Both juvenile wings remain folded/hidden and both feet grip the cavity lip. First render passed; no edit.
 - V1–v3 remain preserved; exact remige geometry, cross-population timing, flight threshold and display-scale sex ratio remain unknown. Scientific verification: false.
+
+
+### #48 Himalayan Owl — *Strix nivicolum* v4 (2026-10-30)
+
+- Concept: `design/concepts/48-strix-nivicolum-v4.png`; first generated and edited reviewed masters under `production/`.
+- SCIENCE_REVISION, PASS_WITH_LIMITATIONS; Taiwanese `yamadae` juvenile is age unknown, pale cream/grey-brown with sparse white down, blurred marks, short folded wing and two-foot cavity support.
+- One edit removed a long layered adult-like pale-spotted juvenile wing. V1–v3 retained; exact age, locomotor threshold, wing/tail metrics, sexed display ratio and cross-subspecies transfer remain unknown. Science false.

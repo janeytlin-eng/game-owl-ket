@@ -82,3 +82,10 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 - Critical correction: Mikkola’s “very white” Hong Kong young is captioned under #155 Mountain Wood Owl *Strix newarensis* (printed p.331), not #153/#48 *Strix nivicolum*. V1–v3 are preserved but that attribution is retired.
 - New current source `HIML-NTM-YAMADAE` describes Taiwanese *S. n. yamadae* juveniles as very pale with sparse white down and blurred dark ventral markings that darken/sharpen with age; no age or flight threshold is supplied.
 - V4 selects one age-unknown Taiwanese `yamadae` juvenile, keeps both wings short/folded and movement unclaimed. New1/reused3/corrected1; science false. Full prompt: `owl-pet/research/species/48-strix-nivicolum-v4.md`.
+
+
+## v4 production review（2026-10-30）
+
+- First render passed title/count/adults/support but gave the juvenile a long layered folded wing with crisp adult-like pale spots.
+- One juvenile-only edit shortened/softened that wing and removed the spot row while preserving sparse white down, diffuse immature markings and bilateral cavity-lip support.
+- Edited 1536×1024 master and 680×453 derivative reopened; PASS_WITH_LIMITATIONS. The adjacent-caption species gate was effective on this plate only. Exact age, locomotor threshold, wing/tail metrics, sexed display ratio and cross-subspecies transfer remain unknown; science false.

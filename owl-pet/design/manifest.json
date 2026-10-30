@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T18:01:00+08:00",
+  "updated": "2026-10-30T18:10:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10808,7 +10808,46 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "48-strix-nivicolum-v4",
+      "path": "design/concepts/48-strix-nivicolum-v4.png",
+      "species_id": 48,
+      "scientific_name": "Strix nivicolum",
+      "historical_names": [
+        "Syrnium nivicolum"
+      ],
+      "common_name": "Himalayan Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "1677f9fd389b87ff5cff251c714722c83d131328f8eac62f531b5792f6757d34",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: adjacent-caption correction. Mikkola #153 printed p329 describes a greyish-brown barred juvenile; the very-white Hong Kong caption is under #155 Strix newarensis on printed p331 and is excluded. V4 selects one age-unknown Taiwanese S. n. yamadae juvenile from the National Taiwan Museum description: very pale cream/light grey-brown, sparse residual white down, blurred dark ventral marks, short folded mesoptile-embedded wing, hidden tail and bilateral cavity-lip support. Exact age, locomotor/flight threshold, wing/tail metrics, sexed display ratio and cross-subspecies transfer remain unknown.",
+      "source_ids": [
+        "HIML-MIKKOLA-2013",
+        "HIML-NTM-YAMADAE",
+        "HIML-ITIS-2025",
+        "HIML-LEE-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-48-strix-nivicolum-v4-adjacent-species-caption-correction",
+      "research_record": "research/species/48-strix-nivicolum-v4.md",
+      "run_record": "owl-pet/production/runs/20261030T180200+0800-cycle-6.md",
+      "reviewed_at": "2026-10-30T18:09:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 692451,
+      "git_blob": "1bc333fb468d601d0b4b74008f1e12d08e55ed5f",
+      "generated_blob": "a1f3593f3e869bb6248600185912736c5df7c296",
+      "reviewed_blob": "323090cddea6e7877ebb25bf20fccb7050fdbbbc",
+      "generated_sha256": "eb82a3bff4eed3cf0c043148204fd73014e8c9deff872f27b7a58efd0d2ced52",
+      "reviewed_sha256": "37a7a16b253977390dd85d35835c824593400e136bbb1232d5182d3d07d25f8f",
+      "generated_size_bytes": 3325745,
+      "reviewed_size_bytes": 3159578,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "archive_note": "First render passed title/count/adults/support but retained a long layered adult-like pale-spotted juvenile wing. One juvenile-only edit shortened/softened the wing and removed the spot row; edited original and derivative reopened. Adjacent-caption gate held for this plate. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T18:01:00+08:00"
+  "updated_at": "2026-10-30T18:10:00+08:00"
 }

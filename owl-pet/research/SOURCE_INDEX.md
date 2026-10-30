@@ -723,3 +723,28 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actually read: sex-identification and chick-development sections. Females are generally larger, darker/buffer and more spotted while males are often paler, with overlap; chicks usually fledge 50–55 days; flight feathers develop broadly about 35–65 days.
 - Limit/confidence: reliable institutional synthesis but not a primary continuous molt series; sex cues overlap and cannot define a fixed standing-height ratio.
 - Design link: [#90 v5 research](species/90-tyto-furcata-v5.md); supports retaining qualitative adult contrast and prevents treating P20 as flight-ready.
+
+
+### EBO-MCLAUGHLIN-DEBUS-2025
+- Title: Breeding biology and behaviour of the Eastern Barn Owl *Tyto javanica delicatula* in north-western Victoria
+- Authors: John G. McLaughlin; S.J.S. Debus
+- Year/pages: 2025; Australian Field Ornithology 42:116–124
+- URL/DOI: https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/2371/2402 ; 10.20938/afo42116124
+- Accessed: 2026-10-31
+- Type: primary regional field study; publisher full PDF
+- Species/stage: *T. j. delicatula* breeding, nestling and fledgling stages
+- Actually read: abstract, taxonomic note and documented pp.120–123. Nestling period c.46–57 d (mean c.53); 13/14 nests were tree hollows; late young climb/jump/flap near fledging.
+- Limits: historic field observations published later; not a daily tract-level feather series and does not sex the depicted individual.
+- Design link: [#91 v4 research](species/91-tyto-javanica-delicatula-v4.md); supports retaining developed fresh wings and hollow support.
+
+
+### EBO-AUSTRALIAN-MUSEUM-2026
+- Title: Eastern Barn Owl
+- Author/Institution: Australian Museum
+- Updated: 29 July 2022; accessed 2026-10-31
+- URL: https://australian.museum/learn/animals/birds/eastern-barn-owl/
+- Type: museum species account
+- Species/stage: *Tyto javanica*, Eastern Australian adult and young
+- Actually read: identification, habitat and behaviour sections. White heart disc; sandy-orange/light-grey above; white/cream below; black spotting; young similar to adults; females slightly larger; open/arid farms and lightly wooded habitat.
+- Limits: synthesis rather than primary measurement; no exact juvenile chronology or fixed sex-size ratio.
+- Design link: [#91 v4 research](species/91-tyto-javanica-delicatula-v4.md).

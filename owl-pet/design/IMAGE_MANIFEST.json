@@ -13400,7 +13400,46 @@
       "review_crop_blob": "68dde62f85226b210db188aa68119ae18ff96872",
       "review_crop_size_bytes": 141087,
       "archive_note": "V1-v3 preserved. One direct imagegen revision; full/crop/680x453 derivative opened. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "e8967091ffc5fb1dfce11c1b96225a1147ae2ee4",
+      "verified_at": "2026-10-31T04:04:00+08:00",
+      "git_blob": "be2ea1c77802cdc8fc60bf9c934ef21b37d185c4",
+      "fixed_commit": "e8967091ffc5fb1dfce11c1b96225a1147ae2ee4",
+      "verification_result": "VERIFIED: exact complete concept/generated/reviewed/crop payloads, blob IDs, sizes and manifests 586/585/576 matched immutable archive; science false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "e8967091ffc5fb1dfce11c1b96225a1147ae2ee4",
+        "method": "immutable fetch_file; normalized base64 exact match",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/82-otus-senegalensis-v4.jpg",
+            "sha": "be2ea1c77802cdc8fc60bf9c934ef21b37d185c4",
+            "size": 156448
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/82-otus-senegalensis-v4-generated-master.jpg",
+            "sha": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
+            "size": 565959
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/82-otus-senegalensis-v4-reviewed-master.jpg",
+            "sha": "f5775bef19269afa4b0c8d8330c3cf07e0df2dc4",
+            "size": 565959
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/82-otus-senegalensis-v4-juvenile.jpg",
+            "sha": "68dde62f85226b210db188aa68119ae18ff96872",
+            "size": 141087
+          }
+        },
+        "manifest_counts": {
+          "legacy": 586,
+          "design": 585,
+          "production": 576
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-10-31T01:39:53+08:00"

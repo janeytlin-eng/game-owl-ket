@@ -64,3 +64,8 @@ New PEPO-GREENEY-2020 (printed p.37) supplies a site-specific breeding record an
 ### Applied iteration rule
 
 A neighboring species paragraph or adjacent numbered account must not be transferred by search-snippet proximity. The adobe-wall “probably young” and juvenile observations in Lüthi 2011 are under entry 129 *Athene cunicularia*, not entry 128 *G. peruanum*. For future plates, verify the species heading and page boundary before using behavioral or juvenile text. Applied here; broader effectiveness remains unverified.
+
+
+## v4 archive verification
+
+Fixed archive `fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2` returned a non-truncated 1,965-entry tree. Exact concept/generated/reviewed image blob `9963f71ae12b8ccec886431a6c37e30b312778b3` (3,256,902 bytes), juvenile crop `e1ea90f695cfcf8d1fa9ed61e6e93a70eb567971` (186,060 bytes), manifests and research records matched. Science remains false.

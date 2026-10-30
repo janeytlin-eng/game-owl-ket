@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T12:44:00+08:00",
+  "updated": "2026-10-30T12:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10232,14 +10232,16 @@
       "review_crop_sha256": "ac4650f79a98d22faf53adc00a558b714b8bfb07306b715251051e3230b252ab",
       "review_crop_size_bytes": 186060,
       "archive_note": "V1-v3 retained. Full plate and juvenile crop reopened. No edit required. V4 removes the transferred 26–42-day/cavity-stage assumption and uses an age-unknown supported older juvenile. Science false.",
-      "readback_pending": true,
-      "archive_commit": "PENDING_FIXED_COMMIT",
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "pending fixed-commit readback",
+      "readback_pending": false,
+      "archive_commit": "fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2",
+      "fixed_commit": "fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2",
+      "verified_at": "2026-10-30T12:49:00+08:00",
+      "verification_result": "fixed archive fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2 returned a non-truncated 1965-entry tree; exact concept/generated/reviewed/crop Git blobs and byte sizes matched; three manifests counted 556/547/545 and source index, research card, run-at-archive and knowledge blobs matched",
       "readback": {
-        "status": "PENDING",
-        "fixed_commit": null,
+        "status": "VERIFIED",
+        "fixed_commit": "fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2",
+        "tree_entries": 1965,
+        "truncated": false,
         "concept": {
           "path": "design/concepts/37-glaucidium-peruanum-v4.png",
           "blob": "9963f71ae12b8ccec886431a6c37e30b312778b3",
@@ -10263,10 +10265,10 @@
         "source_index_blob": "d6c306bef0c8e17da974d0feafa8299961f9db91",
         "source_index_size": 1106822,
         "research_blob": "08e3e59132b84187feb7d0611e7efe966d6d9ba4",
-        "run_blob_at_archive": "ed8e9fe8ab9bf5cfda8c9bb3df0d74f059e099e9",
+        "run_blob_at_archive": "257ab7774c8018817edd4d53344a3b4b59307776",
         "knowledge_blob": "6731bf4361dc8d0bb3f2d1819b83fd64c8182c2d"
       }
     }
   ],
-  "updated_at": "2026-10-30T12:44:00+08:00"
+  "updated_at": "2026-10-30T12:49:00+08:00"
 }

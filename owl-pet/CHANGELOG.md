@@ -1336,3 +1336,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T12:44:00+08:00: archived #37 *Glaucidium peruanum* v4 science revision. Added Greeney 2020, Lüthi 2011 and Peregrine Fund evidence; corrected a cross-species juvenile excerpt and removed direct use of the broad 26–42-day cavity-stage inference. No image edit; full/crop reopened. Manifests design556 / production547 / legacy545; fixed readback pending; science false.
+
+
+- 2026-10-30T12:49:00+08:00 — #37 *Glaucidium peruanum* v4 fixed readback VERIFIED at archive `fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2`; 1,965-entry non-truncated tree, exact image/research/manifest blobs and byte sizes matched; batch `2026-10-30T1230+0800` is 1/6, next cycle 2. Science remains false / PASS_WITH_LIMITATIONS.

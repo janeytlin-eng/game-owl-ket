@@ -26,3 +26,7 @@ V1–v3 and all prior confirmation/history are preserved. The v3 fixed image was
 - Adult scale rule applied: near-equal visible size; female only subtly fuller, not a generic exaggerated female-larger template.
 - One targeted wing edit passed full/crop/derivative review. Remaining developmental chronology is explicitly unknown; science false.
 
+## v4 fixed readback — 2026-10-31T02:35:27+08:00
+
+Archive `42fa2acf2c6c759684b02d275c6c534188bc3d2d` preserves exact concept/generated/reviewed/crop objects and all supporting records. The visual correction is verified as archived; this is not a claim that the unresolved juvenile chronology is scientifically verified.
+

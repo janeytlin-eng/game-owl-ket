@@ -1,3 +1,10 @@
+## 2026-10-31 #78 *Asio capensis* v4 VERIFIED
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique species remains 175/251.
+- Fixed archive `42fa2acf2c6c759684b02d275c6c534188bc3d2d`: four complete JPEG objects matched local originals byte-for-byte; manifests read back as 582 / 581 / 572.
+- Batch `2026-10-31T0134+0800` is now 2/6; next cycle 3.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/42fa2acf2c6c759684b02d275c6c534188bc3d2d/owl-pet/design/concepts/78-asio-capensis-v4.jpg?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/42fa2acf2c6c759684b02d275c6c534188bc3d2d)
+
 ## 2026-10-31 #78 *Asio capensis* v4 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique species remains 175/251.

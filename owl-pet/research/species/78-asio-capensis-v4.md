@@ -61,3 +61,8 @@ Constraints: exactly three birds; exact readable text; no eggs, extra birds, ext
 - Reopened reviewed master, juvenile crop and 680×453 concept derivative: PASS_WITH_LIMITATIONS. The juvenile now makes a cautious supported step; exact age, sex and feather chronology remain unknown. Science remains false.
 - ARCHIVED 2026-10-31T02:34:10+08:00: exact JPEG blobs and manifests saved; fixed-tree readback pending.
 
+## Fixed archive verification
+
+- 2026-10-31T02:35:27+08:00: immutable commit `42fa2acf2c6c759684b02d275c6c534188bc3d2d` returned all four JPEGs with exact Git blob IDs and byte sizes; normalized base64 matched the persisted local originals.
+- Three manifest counts read back as 582 / 581 / 572 and linked records were present. Production state is VERIFIED; scientific status remains false.
+

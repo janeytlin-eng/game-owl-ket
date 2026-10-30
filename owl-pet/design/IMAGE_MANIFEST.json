@@ -13034,7 +13034,58 @@
       "review_crop_blob": "bbc5a3ff94c5c9042b14c28a73a1da55ba52c559",
       "review_crop_size_bytes": 130463,
       "archive_note": "V1-v3 preserved. Initial v4 and one targeted juvenile-wing edit opened; full reviewed master, crop and 680x453 concept derivative rechecked. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "42fa2acf2c6c759684b02d275c6c534188bc3d2d",
+      "verified_at": "2026-10-31T02:35:27+08:00",
+      "git_blob": "a8b02229a33ef7c56dcda4d95b662b940e7ce1a4",
+      "fixed_commit": "42fa2acf2c6c759684b02d275c6c534188bc3d2d",
+      "verification_result": "VERIFIED against immutable archive commit: exact complete concept/generated/reviewed/crop JPEG blobs and sizes matched local persisted files; manifests 582/581/572 and supporting records matched. Science remains false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "42fa2acf2c6c759684b02d275c6c534188bc3d2d",
+        "method": "immutable commit fetch_file; base64 normalized and byte-for-byte matched local persisted JPEGs",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/78-asio-capensis-v4.jpg",
+            "mode": "100644",
+            "type": "blob",
+            "sha": "a8b02229a33ef7c56dcda4d95b662b940e7ce1a4",
+            "size": 155347,
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/42fa2acf2c6c759684b02d275c6c534188bc3d2d/owl-pet/design/concepts/78-asio-capensis-v4.jpg?raw=1"
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/78-asio-capensis-v4-generated-master.jpg",
+            "mode": "100644",
+            "type": "blob",
+            "sha": "52c164c5987b546edc37e7411afcb952d8c64400",
+            "size": 409532,
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/42fa2acf2c6c759684b02d275c6c534188bc3d2d/owl-pet/production/generated/78-asio-capensis-v4-generated-master.jpg?raw=1"
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/78-asio-capensis-v4-reviewed-master.jpg",
+            "mode": "100644",
+            "type": "blob",
+            "sha": "68ff0c6565532fe340bf557ce1c2f034056ba689",
+            "size": 401709,
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/42fa2acf2c6c759684b02d275c6c534188bc3d2d/owl-pet/production/reviewed/78-asio-capensis-v4-reviewed-master.jpg?raw=1"
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/78-asio-capensis-v4-juvenile.jpg",
+            "mode": "100644",
+            "type": "blob",
+            "sha": "bbc5a3ff94c5c9042b14c28a73a1da55ba52c559",
+            "size": 130463,
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/42fa2acf2c6c759684b02d275c6c534188bc3d2d/owl-pet/production/review-crops/78-asio-capensis-v4-juvenile.jpg?raw=1"
+          }
+        },
+        "manifest_counts": {
+          "legacy": 582,
+          "design": 581,
+          "production": 572
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-10-31T01:39:53+08:00"

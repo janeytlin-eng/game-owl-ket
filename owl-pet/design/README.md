@@ -1,3 +1,9 @@
+## #78 Marsh Owl — *Asio capensis* — v4 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/42fa2acf2c6c759684b02d275c6c534188bc3d2d/owl-pet/design/concepts/78-asio-capensis-v4.jpg?raw=1)
+- [Fixed archive commit](https://github.com/janeytlin-eng/game-owl-ket/commit/42fa2acf2c6c759684b02d275c6c534188bc3d2d)
+- PASS_WITH_LIMITATIONS; one targeted juvenile-wing edit; science false. Exact age/sex/feather chronology remains unknown.
+
 ## #78 Marsh Owl — *Asio capensis* — v4 science revision
 
 - Concept: [78-asio-capensis-v4.jpg](concepts/78-asio-capensis-v4.jpg)

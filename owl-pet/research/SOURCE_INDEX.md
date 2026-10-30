@@ -660,3 +660,16 @@ Reused stable IDs **STY-LOPES-ETAL-2004**, **STY-CADENA-2018**, **STY-SPIZAETUS-
 ## 2026-10-31 — #85 *Otus semitorques* v4 numbering-only correction
 
 Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/PDF pp.160–161 directly read. V3 fixed image reopened: first-winter geometry and all support pass, but repository number 85 is absent. V4 changes only the title to `85 JAPANESE SCOPS OWL`. Cross-species ageing/development search hits excluded. Exact age, sex, iris, thresholds and adult RSD unknown; science false. [Research](species/85-otus-semitorques-v4.md) · [Run](../production/runs/20261031T050600+0800-cycle-3.md). New0/reused2/corrected1.
+
+
+### ASC-DDCR2023
+- Title: Dubai Desert Conservation Reserve Annual Report 2022–2023 — 4.3 Monitoring of Pharaoh Eagle-Owl
+- Author/Institution: Dubai Desert Conservation Reserve
+- Year: 2023
+- URL: https://www.ddcr.org/media/qk2mj200/ddcr-annual-report-2022-23.pdf
+- Accessed: 2026-10-31
+- Type: reserve monitoring report
+- Species/stage: *Bubo ascalaphus*; eggs and unaged chicks at nest entrance
+- Actually read: section 4.3. Nest with three eggs inside broom bush found 4 March 2022; first chick camera appearance 23 March; chicks active at entrance. No calibrated chick age/plumage/flight detail.
+- Limitation/confidence: useful for habitat and support context only; not a juvenile morphology series and not used to override `ASC-ALSHEIKHLY2012-40D`.
+- Design link: #87 v4 research record; evidence boundary retained, no biological redraw.

@@ -8311,23 +8311,23 @@
       "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Ketupa flavipes",
         "species_id": 60,
         "version": 4,
         "run_id": "20261030T213800+0800-cycle-4",
-        "at": "2026-10-30T21:41:00+08:00",
+        "at": "2026-10-30T21:41:25+08:00",
         "run_record": "owl-pet/production/runs/20261030T213800+0800-cycle-4.md",
         "evidence": {
-          "research_commit": "d6f9e053f2cd3576ec8d77b5ac4284c7c7b6ddf2",
-          "new_sources": 1,
-          "reused_sources": 3,
-          "corrected_inferences": 1,
-          "complete_prompt": true,
+          "image_path": "owl-pet/production/generated/60-ketupa-flavipes-v4-generated-master.jpg",
+          "generation_seconds": 68,
+          "dimensions": "1536x1024",
+          "opened_original": true,
+          "review_finding": "Title/count/adults/site/support passed; juvenile wing retained crisp adult-like white-spotted covert rows and regular layering; targeted juvenile-only edit required.",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T21:41:00+08:00",
+      "last_updated_at": "2026-10-30T21:41:25+08:00",
       "audit_notes": [
         "2026-10-30T20:39:00+08:00 cycle1 #57 Bubo nipalensis v4 SCIENCE_REVISION STARTED; #56 Bubo virginianus skipped as duplicate of canonical #14 Great Horned Owl; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T20:40:00+08:00 cycle1 #57 v4 RESEARCH_READY; new1/reused3/corrected1. Shukla 2025 printed p28 plus Srinivasan 2013 pp106–107 read; date is not age/flight threshold; full prompt saved; science false; no credit.",
@@ -8348,7 +8348,8 @@
         "2026-10-30T21:35:17+08:00 cycle3 #59 v4 ARCHIVED tree prepared; concept/generated/reviewed and three manifests/supporting records included; fixed readback pending; no credit.",
         "2026-10-30T21:36:02+08:00 cycle3 #59 v4 VERIFIED against fixed archive 86e9c25; non-truncated tree and exact three image blobs/sizes, manifests565/564/555 and text markers matched; batch3/6 next4; unique remains175/251; science false; lease released.",
         "2026-10-30T21:38:00+08:00 cycle4 #60 Ketupa flavipes v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
-        "2026-10-30T21:41:00+08:00 cycle4 #60 v4 RESEARCH_READY; new1/reused3/corrected1. TAIEOL official morphology/nest synthesis plus SPNP/PTS/Wuling and 1997 nest evidence read; exact tarsal fraction de-precisioned; full prompt saved; science false; no credit."
+        "2026-10-30T21:41:00+08:00 cycle4 #60 v4 RESEARCH_READY; new1/reused3/corrected1. TAIEOL official morphology/nest synthesis plus SPNP/PTS/Wuling and 1997 nest evidence read; exact tarsal fraction de-precisioned; full prompt saved; science false; no credit.",
+        "2026-10-30T21:41:25+08:00 cycle4 #60 v4 IMAGE_GENERATED in 68.0s; 1536x1024 original opened. Title/count/adults/site/support passed; juvenile wing retained crisp adult-like white-spotted covert rows and regular layering, so targeted juvenile-only edit is required. Generated master persisted; no credit."
       ],
       "active_lease": {
         "owner": "codex-work-mode",
@@ -8358,9 +8359,9 @@
         "species": "Ketupa flavipes",
         "species_id": 60,
         "version": 4,
-        "stage": "RESEARCH_READY",
-        "heartbeat_at": "2026-10-30T21:41:00+08:00",
-        "expires_at": "2026-10-30T21:56:00+08:00"
+        "stage": "IMAGE_GENERATED",
+        "heartbeat_at": "2026-10-30T21:41:25+08:00",
+        "expires_at": "2026-10-30T21:56:25+08:00"
       },
       "lease": {
         "owner": "codex-work-mode",
@@ -8370,9 +8371,9 @@
         "species": "Ketupa flavipes",
         "species_id": 60,
         "version": 4,
-        "stage": "RESEARCH_READY",
-        "heartbeat_at": "2026-10-30T21:41:00+08:00",
-        "expires_at": "2026-10-30T21:56:00+08:00"
+        "stage": "IMAGE_GENERATED",
+        "heartbeat_at": "2026-10-30T21:41:25+08:00",
+        "expires_at": "2026-10-30T21:56:25+08:00"
       },
       "in_progress": {
         "owner": "codex-work-mode",
@@ -8382,9 +8383,9 @@
         "species": "Ketupa flavipes",
         "species_id": 60,
         "version": 4,
-        "stage": "RESEARCH_READY",
-        "heartbeat_at": "2026-10-30T21:41:00+08:00",
-        "expires_at": "2026-10-30T21:56:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "heartbeat_at": "2026-10-30T21:41:25+08:00",
+        "expires_at": "2026-10-30T21:56:25+08:00",
         "action": "SCIENCE_REVISION",
         "unique_species_increment": 0,
         "run_record": "owl-pet/production/runs/20261030T213800+0800-cycle-4.md"

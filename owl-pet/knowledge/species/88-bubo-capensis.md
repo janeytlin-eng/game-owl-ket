@@ -64,3 +64,5 @@ Rule status: actually applied and visually effective once. For pre-flight juveni
 
 Title-only SCIENCE_REVISION: add repository number88 to fixed v4. Actual full and crop review passed adult breastplate/barred belly/feet, near-equal adult height, yellow-eyed c.45-day diffuse-mesoptile young, short rounded developing wing and bilateral mineral support. New CAP-BIODIVEXP-2026 used only for southern African rocky/scrub/sheltered scrape and c.45-day nest-leaving context. Exact age/sex/flight/feather tract/RSD remain unknown; sciencefalse.
 [Research](../../research/species/88-bubo-capensis-v5.md) · [Concept](../../design/concepts/88-bubo-capensis-v5.jpg) · [Run](../../production/runs/20261031T055200+0800-cycle-5.md)
+
+Fixed archive `572871e4f9d0882b94da3f7ecb6e3229079c3e7b` verified 2026-10-31T06:12:00+08:00: exact four-asset blobs/bytes, tree2229 non-truncated, manifests591/590/581. Archive integrity only; sciencefalse.

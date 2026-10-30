@@ -33,3 +33,7 @@ Opened the 1536×1024 master and 520×700 juvenile crop. Title is exactly `88 CA
 ## Archive checkpoint
 
 At 2026-10-31T06:08:00+08:00 the four JPEG assets, three manifests and support records were committed together. Fixed-commit readback is required before cycle credit.
+
+## Fixed archive verification
+
+At 2026-10-31T06:12:00+08:00, fixed commit `572871e4f9d0882b94da3f7ecb6e3229079c3e7b` re-read: all four JPEG blobs/bytes matched local Git objects; recursive tree2229 non-truncated; manifests591/590/581 and support records present. Production integrity only; science remains false.

@@ -2668,3 +2668,5 @@ Fixed readback 2026-10-31T05:49:00+08:00: archive [`e2e64d496ad9cb0bf37b12629501
 ### #88 Cape Eagle-Owl v5
 
 `SCIENCE_REVISION`, `PASS_WITH_LIMITATIONS`, unique increment0. Missing repository number restored; c.45-day pre-flight young and all evidence-bounded biology retained. Science false. [Original](concepts/88-bubo-capensis-v5.jpg) · [Research](../research/species/88-bubo-capensis-v5.md).
+
+Fixed readback 2026-10-31T06:12:00+08:00: [archive `572871e4f9d0882b94da3f7ecb6e3229079c3e7b`](https://github.com/janeytlin-eng/game-owl-ket/commit/572871e4f9d0882b94da3f7ecb6e3229079c3e7b) exact assets; tree2229 non-truncated; manifests591/590/581; sciencefalse.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:08:00+08:00",
+  "updated": "2026-10-31T06:12:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13094,9 +13094,28 @@
       "review_crop_path": "production/review-crops/88-bubo-capensis-v5-juvenile.jpg",
       "review_crop_blob": "bcda1edb7a99b65a2b184efd398ffc1a3ee9cead",
       "review_crop_size_bytes": 174192,
-      "readback_pending": true,
-      "git_blob": "7f95d9b0e5e6406bf9663e0b597920774954d84f"
+      "readback_pending": false,
+      "git_blob": "7f95d9b0e5e6406bf9663e0b597920774954d84f",
+      "fixed_archive_commit": "572871e4f9d0882b94da3f7ecb6e3229079c3e7b",
+      "verified_at": "2026-10-31T06:12:00+08:00",
+      "exact_readback": true,
+      "readback": {
+        "concept_blob": "7f95d9b0e5e6406bf9663e0b597920774954d84f",
+        "generated_blob": "8c8b8726914043119dade681cdb6f28f2ecd2839",
+        "reviewed_blob": "8c8b8726914043119dade681cdb6f28f2ecd2839",
+        "review_crop_blob": "bcda1edb7a99b65a2b184efd398ffc1a3ee9cead",
+        "manifest_counts": {
+          "legacy": 591,
+          "design": 590,
+          "production": 581
+        },
+        "tree": {
+          "entries": 2229,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T06:08:00+08:00"
+  "updated_at": "2026-10-31T06:12:00+08:00"
 }

@@ -635,3 +635,12 @@ Reused stable IDs **STY-LOPES-ETAL-2004**, **STY-CADENA-2018**, **STY-SPIZAETUS-
 - **Limits/confidence:** adult identity and broad stage boundary moderate-to-high; exact day, first-flight threshold, continuous tract sequence, sexed standing-height ratio and named-form transfer unknown. Science false.
 - **Related:** `research/species/78-asio-capensis-v4.md`; `owl-pet/production/runs/20261031T022749+0800-cycle-2.md`; `knowledge/species/78-asio-capensis.md`; planned `design/concepts/78-asio-capensis-v4.jpg`.
 - **Delta:** new0 / reused6 / corrected1. External retrieval failures are attempts only.
+
+
+## 2026-10-31 — #83 *Otus brucei* v4 exact-age, wing and adult-scale boundary
+
+- **BRU-CHANDRAN-2016 (new):** Chandran, Rasmussen, Jahan & Praveen J. 2016, *Indian BIRDS* 12(2&3):56–63, author-uploaded full text https://www.researchgate.net/publication/309011014_The_Pallid_Scops_Owl_Otus_brucei_in_south-western_India_with_notes_on_its_identification . Table 1 / plates 69–76; 30 UMMZ and 16 NHMUK Pallid Scops skins plus comparative series and ~150 photographs. Supports plain pale facial disc, long thin upperpart streaks, weak narrow crossbars and buff scapular/primary markings; warns that crossbars vary and toe feathering is equivocal in the field. Adult identification only; no juvenile chronology.
+- **Reused:** BRU-BENDOV-KIAT2016 (printed pp.151–152, 156–157; official PDF https://www.dutchbirding.nl/journal/pdf/DB_2016_38_3.pdf) and BRU-MIK2013-126 (printed pp.126–127/PDF pp.128–129, user-uploaded guide actually read).
+- **Corrections:** replace exact individual `c.26-day` label with `RECENT FLEDGLING`; compact adult-like juvenile wing; express female mass direction only as subtle fullness with near-equal crown height. Exact age/flight threshold/tract geometry/subspecies/sex-height ratio remain unknown. Science false.
+- **Links:** [research](species/83-otus-brucei-v4.md) · [run](../production/runs/20261031T043000+0800-cycle-1.md) · planned [concept](../design/concepts/83-otus-brucei-v4.jpg).
+- **Delta:** new1 / reused2 / corrected2.

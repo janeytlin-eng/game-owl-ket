@@ -258,3 +258,38 @@
 - **Correction:** v3's approximately 32–35-day nest-leaving juvenile remains a valid prior concept but exact feather and locomotor thresholds were unresolved. V4 chooses the separately documented age-unknown white downy chick and removes any unsupported mature wing, adult barring, long tail, standing, hopping or flight claim.
 - **Source/design delta:** new3 / reused3 / corrected1; six source records added to this index; science false.
 
+## 2026-10-30 — #54 *Bubo africanus* v4 guide recovery and mesoptile correction
+
+### SEO-MIKKOLA-2013-P280-281
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Persistent file / pages:** Library `libfile_916e2244186c81918fe5a0716884b8c9`; internal PDF pp.282–283; printed pp.280–281.
+- **Accessed:** 2026-10-30; complete two-page species text and captions read.
+- **Source type:** photographic species guide; measurements, adult identification, juvenile plumage and geographic variation.
+- **Facts:** 40–45 cm, 487–850 g; males paler and about 100 g lighter on average. Bright-yellow eyes/black bill, conspicuous tufts, pale finely barred disc, dusky spotted upperparts, fine-barred pale underparts, nearly fully feathered toes. White downy chick; mesoptile finely barred whitish/brown with greyish-yellow eyes, becoming yellow before fledging.
+- **Limits / confidence:** no mesoptile age, movement, exact wing/tail geometry or day-by-day eye transition. High for direct morphology, lower for converting mean sex direction into a visual ratio.
+- **Design decision:** v4 uses the age-unknown mesoptile, greyish-yellow juvenile eyes and subtle adult male-paler/female-fuller direction at near-equal height.
+- **Linked records:** `owl-pet/research/species/54-bubo-africanus-v4.md`; `owl-pet/production/runs/20261030T194800+0800-cycle-5.md`.
+
+### SEO-ITIS-555408
+- **Title / institution:** *Bubo africanus* taxonomic report / Integrated Taxonomic Information System.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555408&source=to_print
+- **Accessed:** 2026-10-30.
+- **Facts:** TSN 555408; accepted *Bubo africanus* (Temminck, 1821), current standing valid and credibility verified; original *Strix africana* mapped to the accepted name.
+- **Limits:** taxonomy only.
+- **Design decision:** retain current name and persist original-combination mapping.
+
+### SEO-GBIF-NKS5
+- **Title / source:** *Bubo africanus* taxon record / GBIF, Catalogue of Life backbone.
+- **URL:** https://www.gbif.org/taxon/NKS5
+- **Accessed:** 2026-10-30.
+- **Facts:** accepted *Bubo africanus*; synonym/combination list includes *Strix africana*, *Bubo maculosus* and *Strix maculosa* plus historical subspecific usages.
+- **Limits:** taxonomy only; synonym listings do not support transferring another taxon's plumage.
+- **Design decision:** old-name map recorded, no morphology inferred.
+
+### Reused evidence and correction
+- **SEO-SANBI-2018:** current SANBI life-cycle text re-read; white down, second grey down/first feathers, six-week preflight departure with well-grown wings/half tail, and approximately seven-week flight remain valid for v3, but are not used to date v4's age-unknown mesoptile.
+- **SEO-OSTRICH-RSD-2008:** primary small-sample morphometric result re-read; only tarsus differed significantly in sampled *B. africanus*. This blocks exaggerating Mikkola's population-level mean mass direction into a universal height ratio.
+- **SEO-BDI-2022:** weaker juvenile tufts, retained down, 4–6-week exploration and cliff/nest imagery re-read as context only.
+- **Corrections:** (1) v4 adds the guide-supported subtle male-paler/female-heavier direction while retaining near-equal height because the primary sample is small/conflicting; (2) v4 moves away from v3's dated six-week explorer to a direct age-unknown mesoptile with greyish-yellow eyes and no exact wing/tail claim.
+- **Source/design delta:** new3 / reused3 / corrected2; science false.
+

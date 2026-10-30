@@ -20,3 +20,8 @@ New sources: SCU-NPARKS-2025, SCU-ITIS-2025, SCU-FUKAI-2016, SCU-MIZOTA-2020. Re
 ## v4 verified-design lesson pending fixed readback — 2026-10-31
 
 Problem: v3 omitted repository number 75 and placed the dependent juvenile outside the central comparison slot; the first v4 render also left only one gripping foot clearly readable. Evidence: Singapore field observation supports active high-branch dependency but not exact age/tract timing. Modification: restored exact title/order/comparable adult supports and applied one targeted edit for bilateral juvenile grip while preserving evidence-allowed growing wing/tail. Recheck: full edited master, 680×453 derivative and 520×700 crop pass with limitations. Rule application is validated for this instance only; science remains false.
+
+
+### v4 fixed readback — 2026-10-31T01:12:54+08:00
+
+Repaired fixed archive `5aded700e2aa94237862f86f34073bf226b31ac0` matched complete JPEG masters, concept/crop and support records; truncated PNG paths absent. PASS_WITH_LIMITATIONS; scientifically_verified=false.

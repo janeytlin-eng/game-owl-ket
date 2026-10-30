@@ -12066,13 +12066,58 @@
       "review_crop_blob": "ac2d82bea89b475e895dea4cad9a3b6e7ecb4508",
       "review_crop_size_bytes": 623887,
       "archive_note": "V1-v3 preserved. Recoverable v4 initial master and one targeted support edit were opened; full edited master, juvenile crop and derivative rechecked. Science false. First PNG transfer was rejected as truncated; complete JPEG masters replaced it before credit.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "5aded700e2aa94237862f86f34073bf226b31ac0",
+      "verified_at": "2026-10-31T01:12:54+08:00",
       "git_blob": "0ec9795f6b54456d8b4e656d4d255975becf3180",
-      "fixed_commit": null,
-      "verification_result": "Fixed archive readback pending."
+      "fixed_commit": "5aded700e2aa94237862f86f34073bf226b31ac0",
+      "verification_result": "VERIFIED against repaired fixed archive: non-truncated 2,153-entry tree; exact complete JPEG masters, concept and crop; truncated PNG paths absent; manifests 579/578/569 and supporting records matched. Science remains false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "5aded700e2aa94237862f86f34073bf226b31ac0",
+        "tree_truncated": false,
+        "tree_entries": 2153,
+        "concept": {
+          "path": "owl-pet/design/concepts/75-ninox-scutulata-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "0ec9795f6b54456d8b4e656d4d255975becf3180",
+          "size": 621480,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/5aded700e2aa94237862f86f34073bf226b31ac0/owl-pet/design/concepts/75-ninox-scutulata-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/75-ninox-scutulata-v4-generated-master.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d084581354b6bed070032b45ff7987d85d689ab4",
+          "size": 639533,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/5aded700e2aa94237862f86f34073bf226b31ac0/owl-pet/production/generated/75-ninox-scutulata-v4-generated-master.jpg?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/75-ninox-scutulata-v4-reviewed-master.jpg",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4d3b65fb3d752371df8261117aba8f7033a6ea83",
+          "size": 584484,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/5aded700e2aa94237862f86f34073bf226b31ac0/owl-pet/production/reviewed/75-ninox-scutulata-v4-reviewed-master.jpg?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/review-crops/75-ninox-scutulata-v4-juvenile.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ac2d82bea89b475e895dea4cad9a3b6e7ecb4508",
+          "size": 623887,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/5aded700e2aa94237862f86f34073bf226b31ac0/owl-pet/production/review-crops/75-ninox-scutulata-v4-juvenile.png?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 579,
+          "design": 578,
+          "production": 569
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T01:12:06+08:00"
+  "updated_at": "2026-10-31T01:12:54+08:00"
 }

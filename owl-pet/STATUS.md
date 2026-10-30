@@ -1,9 +1,9 @@
-## 2026-10-31 #75 *Ninox scutulata* v4 ARCHIVED — readback pending
+## 2026-10-31 #75 *Ninox scutulata* v4 VERIFIED
 
 - SCIENCE_REVISION; one support edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
 - Concept: [design/concepts/75-ninox-scutulata-v4.png](design/concepts/75-ninox-scutulata-v4.png)
 - Research: new0/reused5/corrected1; active Singapore branch-dependent juvenile retained, Japanese split-population transfer excluded; exact age/tract chronology unknown.
-- First readback detected truncated PNG masters; complete JPEG masters were reopened and substituted before credit. Four valid image assets and manifests 579/578/569 now await repaired fixed readback.
+- First readback rejected truncated PNG masters; complete JPEG masters replaced them. Repaired fixed readback passed at [`5aded70`](https://github.com/janeytlin-eng/game-owl-ket/commit/5aded700e2aa94237862f86f34073bf226b31ac0); exact image/text blobs and manifests 579/578/569 matched. Batch 5/6; next cycle 6.
 
 ## 2026-10-31 #69 *Tyto novaehollandiae* v4 VERIFIED
 

@@ -21,3 +21,8 @@ Primary development evidence is now anchored by Riekert 1986 (printed pp.425–4
 ## 2026-10-29 v3 actual review
 
 Initial full-resolution render showed the center juvenile with adult-regular white wing rows and hard layered remiges. One juvenile-only imagegen edit softened/shortened the wing and tail, removed the regular adult rows and retained residual down, both-foot support, exact text and both adults. The edited 1536×1024 plate and 560×650 juvenile crop were actually reopened. Result: PASS_WITH_LIMITATIONS; exact daily feather tract and first-flight ability remain unknown; scientifically_verified=false. Concept: ../../design/concepts/82-otus-senegalensis-v3.jpg. Run: ../../production/runs/20261029T1205+0800-cycle-5.md.
+
+
+## 2026-10-31 v4 range-to-individual correction
+
+Active searches/direct opens returned empty payloads and were not credited. Reused the page-pinned Riekert, Brown/Riekert/Morsbach, Biodiversity Explorer, Owl Pages and Mikkola records. V4 changes “25–28-DAY” to “RECENT FLEDGLING”, retains study-bounded recent-fledgling scale, and further compacts/softens the juvenile wing without erasing developed fresh feathers. Full/crop/680×453 derivative viewed; PASS_WITH_LIMITATIONS; exact individual age, tract geometry, flight threshold and sex-size ratio remain unknown; science false.

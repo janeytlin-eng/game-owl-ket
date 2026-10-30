@@ -2,7 +2,7 @@
 
 - Run: `20261030T233010+0800-cycle-4`; batch `2026-10-30T2158+0800`; cycle 4/6.
 - Action: SCIENCE_REVISION; v1–v3 retained; unique species increment 0.
-- Status: RESEARCH_READY at 2026-10-30T23:34:00+08:00; science false.
+- Status: ARCHIVED_PENDING_READBACK at 2026-10-30T23:42:00+08:00; science false.
 
 ## Sources actually read
 
@@ -42,3 +42,12 @@ Environment: interior of a mature, tall, dense African wetland patch dominated b
 Composition: three full birds clearly separated, all feet naturally supported with correct perspective; juvenile central and slightly lower; adults flanking it at near-equal visual height.
 Constraints: exact three birds; correct species identity; no extra chicks, text, logos, borders or watermark; no unsupported sex-size exaggeration; no mature juvenile wing pattern.
 ```
+
+
+## Production check and iteration
+
+- First render issue: center fledgling showed conspicuous pale dorsal speckles and an overly adult-regular folded-wing panel.
+- Evidence applied: BirdLife's fledgling distinction (darker, lacking adult white dorsal spots); the 2026 patch study changes habitat geometry only and does not fill plumage chronology.
+- Edit: center bird only; removed dorsal white spotting and softened/compacted the folded wing while preserving adults, text, scale, grass structure and foot support.
+- Recheck: edited 1536x1024 master, 620x760 juvenile crop and 680x453 derivative opened; PASS_WITH_LIMITATIONS. Exact age, feather chronology, first-flight threshold, range-wide sex scale and chamber geometry remain unknown; science false.
+- Archive paths: `design/concepts/66-tyto-capensis-v4.png`, `production/generated/66-tyto-capensis-v4-generated-master.png`, `production/reviewed/66-tyto-capensis-v4-reviewed-master.png`; fixed readback pending.

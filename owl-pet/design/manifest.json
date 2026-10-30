@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:45:04+08:00",
+  "updated": "2026-10-30T23:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11906,7 +11906,61 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "66-tyto-capensis-v4",
+      "path": "design/concepts/66-tyto-capensis-v4.png",
+      "species_id": 66,
+      "scientific_name": "Tyto capensis",
+      "historical_names": [],
+      "common_name": "African Grass Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "27a5d5a8727681f62948d8b0b260e9a6039d83cb1bac634dc1f8440eef6b2bd9",
+      "size_bytes": 647009,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Pretorius et al. 2026 pp.110–124 supports large older wetland patches, Imperata proximity and low development but not a neat cave-shaped chamber. V4 removes v3's explicit cave mouth. BirdLife supports a darker fledgling lacking adult dorsal white spots. One targeted edit removed white juvenile dorsal speckles and softened the overly adult-like wing panel. Exact age, feather chronology, first-flight threshold, range-wide sex scale, geographic variation and chamber geometry remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "AGO-PRETORIUS-ETAL-2026-P110",
+        "AGO-WHITTINGTON-2012",
+        "AGO-BLSA-RDB-2025",
+        "SEO-OSTRICH-RSD-2008"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--66-tyto-capensis-v4-mature-wetland-patch-boundary",
+      "research_record": "research/species/66-tyto-capensis-v4.md",
+      "run_record": "production/runs/20261030T233010+0800-cycle-4.md",
+      "reviewed_at": "2026-10-30T23:38:30+08:00",
+      "generated_path": "production/generated/66-tyto-capensis-v4-generated-master.png",
+      "generated_blob": "d2d366eacb762ab5168c50d2cefb4bcd0e9f071b",
+      "generated_sha256": "1c46d7f2b1a3b40c6f08f5690cda59b2decc2e596deff7d0afea844a5fa63949",
+      "generated_size_bytes": 3009400,
+      "reviewed_path": "production/reviewed/66-tyto-capensis-v4-reviewed-master.png",
+      "reviewed_blob": "8691948ae4fcdfe5e8af4a0faf0a1ebff9f40901",
+      "reviewed_sha256": "1546cb9ff17f8cbf43c69b6affc6e4bde6b10b4a978e983f324d915356af7420",
+      "reviewed_size_bytes": 2914328,
+      "archive_note": "V1-v3 preserved. Generated and edited 1536x1024 masters plus 680x453 concept opened. One bounded juvenile-only edit removed unsupported white dorsal spotting and mature wing regularity. New patch-scale evidence corrected the habitat geometry. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "45650b94ffff350768c7a16134b1ad6dadbcaec7",
+      "fixed_commit": null,
+      "verified_at": null,
+      "verification_result": "Pending fixed-commit readback.",
+      "readback": {
+        "status": "PENDING",
+        "manifest_counts": {
+          "legacy": 572,
+          "design": 571,
+          "production": 562
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T22:45:04+08:00"
+  "updated_at": "2026-10-30T23:42:00+08:00"
 }

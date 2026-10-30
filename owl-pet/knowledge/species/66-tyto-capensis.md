@@ -39,3 +39,11 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - New1/reused3/corrected1. New primary source AGO-PRETORIUS-ETAL-2026-P110 covers 41 nests and supports mature large *Imperata* wetland patches with low development, but not a neat visible cave mouth.
 - V4 keeps the recent fledgling’s dark unspotted dorsum and grounded folded-wing stage, while correcting the environment to a concealed runway/platform under dense old grass.
 - Complete prompt and evidence limits: [research record](../../research/species/66-tyto-capensis-v4.md). Exact age, feather chronology, first-flight threshold, universal sex scaling and chamber geometry remain unknown; science false.
+
+
+## v4 review/archive checkpoint — 2026-10-30T23:42:00+08:00
+
+- Issue → evidence → edit: first render retained white dorsal speckles and an adult-regular folded wing on the center fledgling. BirdLife identifies fledglings as darker and lacking adult white dorsal spots, so one center-bird-only imagegen edit removed the speckles and softened/compacted the wing.
+- Habitat correction: Pretorius et al. 2026 supports mature large *Imperata* wetland patches and low development, not a neat cave mouth; v4 uses a concealed grass runway/platform.
+- Recheck: edited master, magnified center crop and 680x453 derivative opened; exact text/count, adult identity, modest sex-size cue, darker unspotted supported fledgling, habitat and feet pass. Rule is verified for this image only.
+- Assets: concept `design/concepts/66-tyto-capensis-v4.png`; generated/reviewed masters under `production/`. PASS_WITH_LIMITATIONS; exact age/feather chronology/first-flight threshold/range-wide sex scale/chamber geometry unknown; science false; fixed readback pending.

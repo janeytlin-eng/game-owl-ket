@@ -2542,3 +2542,10 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 ## 2026-10-30 22:44:24+08:00 — #65 *Tyto soumagnei* v4 archive prepared
 
 30-day cavity nestling stage from MRO-NHM-2003-P1112; first render passed without edit. Manifests 571/570/561; unique 175/251; fixed readback pending; science false.
+
+
+## 2026-10-30 23:42:00+08:00 — #66 *Tyto capensis* v4 archive prepared
+
+- New 41-nest patch-scale source removed the unsupported visible cave-mouth geometry; dense old *Imperata* wetland retained.
+- One juvenile-only edit removed adult dorsal white spots and softened the overly regular wing panel. Concept 680x453; masters 1536x1024; PASS_WITH_LIMITATIONS.
+- Manifests 572/571/562; unique 175/251; fixed readback pending; science false.

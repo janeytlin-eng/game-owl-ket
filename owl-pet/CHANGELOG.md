@@ -1426,3 +1426,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-10-30T22:44:24+08:00 — archived #65 *Tyto soumagnei* v4 preparation. Added `MRO-NHM-2003-P1112` for the 30-day facial-disc/just-emerging-flight-feather stage; first render passed. Manifests 571/570/561; unique 175/251; fixed readback pending; science false.
+
+
+- 2026-10-30T23:42:00+08:00 — archived #66 *Tyto capensis* v4 preparation. Added Pretorius et al. 2026 pp.110–124, corrected v3's unsupported neat cave mouth to a concealed mature-*Imperata* setting, and made one juvenile-only edit to remove adult white dorsal spotting/wing regularity. Manifests 572/571/562; unique 175/251; fixed readback pending; science false.

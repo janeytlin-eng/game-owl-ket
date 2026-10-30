@@ -21,3 +21,8 @@ First render and 620×650 crop passed with zero edits. Archived full-resolution 
 ## VERIFIED 2026-10-29T12:04:00+08:00
 
 Fixed archive `fb066d5019a708128130e54fdd0d959eb3f2cae8` passed non-truncated tree and six-path exact blob/size readback. Manifest 507 is no longer pending; batch 4/6, next cycle5; unique +0; science false.
+
+
+## 2026-10-31 v4 age-claim and juvenile-wing correction
+
+Active web searches/direct opens returned empty payloads and were not credited. Reused the page-pinned Marchesi/Sergio, Grieco, Blasco, Owl Pages and Mikkola records. V3's “≈21-day” display claim was narrowed to “RECENT FLEDGLING”; one targeted edit compacted the adult-like juvenile wing and reduced bright regular rows while retaining a genuinely formed fresh wing, residual down, short tail and a supported step. Full master, crop and 680×453 derivative were viewed. PASS_WITH_LIMITATIONS; exact age, tract geometry, first-flight competence and sex-size ratio remain unknown; science false.

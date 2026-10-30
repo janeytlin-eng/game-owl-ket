@@ -4,7 +4,7 @@
 - Action: SCIENCE_REVISION; v1–v3 preserved; unique increment 0.
 - Current repository name: *Strix nivicolum* (Blyth, 1845); historical combination *Syrnium nivicolum*.
 - Selected population: Taiwanese *S. n. yamadae*; age unknown.
-- Stage: RESEARCH_READY; scientific verification false.
+- Stage: REVIEWED; scientific verification false.
 
 ## Evidence actually read
 
@@ -38,3 +38,10 @@ Text (verbatim): "48 · HIMALAYAN OWL · Strix nivicolum"
 Constraints: exactly three owls; exact title and labels; yamadae-specific age-unknown pale juvenile; both juvenile wings folded; natural bilateral support; no unsupported sex-size exaggeration.
 Avoid: extra birds, eggs, prey, ear tufts, yellow eyes, pure-white Hong Kong newarensis juvenile, adult-type juvenile wings/tail, airborne or balance-flapping juvenile, exaggerated female height, floating feet, watermark, clipped feet.
 ```
+
+
+## Visual review and iteration — 2026-10-30T18:09:00+08:00
+
+The first render correctly separated the Taiwanese `yamadae` juvenile from Mikkola's adjacent Hong Kong `newarensis` caption, but its viewer-left folded wing remained too long/layered and carried crisp adult-like pale spots. One juvenile-only edit shortened and softened that folded wing while preserving bilateral cavity-lip support. The edited 1536×1024 master and 680×453 derivative were both actually opened. Result: PASS_WITH_LIMITATIONS; scientific verification remains false.
+
+Instance-level rule validation: adjacent-caption species gates must be checked against printed species headings before juvenile morphology is transferred. Applied and visually effective on #48 v4; broader archive validation is pending.

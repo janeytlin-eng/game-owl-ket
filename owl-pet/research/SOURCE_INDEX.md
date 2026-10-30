@@ -1,3 +1,12 @@
+## 2026-10-31 — #79 *Otus lettia* v4 dated cavity-nestling wing boundary
+
+- **Reused stable IDs:** LET-LEADPRATHOM-2009; SUN-BSS-CURRENT; LET-HKBWS-2023; WHSO-MIKKOLA-2013.
+- **Actual-read evidence reused:** Leadprathom et al. 2009, printed p.459 (6–10 d remiges/semiplumes begin; 11–15 d bill bristles begin; 16–20 d rectrices begin; 21–25 d fully feathered/fledged); Mikkola 2013 printed p.162/PDF p.164 (sex measurements unavailable/female-greater uncertain); regional institutional identity and cavity/nest context records.
+- **Active search result:** two independent query batches returned empty connector payloads; new sources 0. These failed attempts are recorded, not counted as evidence.
+- **Design decision:** retain v3's source-supported 11–15 d cavity stage but replace long neat juvenile wing feathers with short sparse irregular growing remige tips under down; no visible rectrices; no sex-size exaggeration.
+- **Limits/confidence:** high for the cited age-sequence boundary; moderate for regional adult identity; low for exact pin geometry, subspecies transfer and sex ratio. Scientific verification remains false.
+- **Links:** [species record](species/79-otus-lettia-v4.md) · [run](../production/runs/20261031T023648+0800-cycle-3.md) · v1-v3 retained.
+
 ## 2026-10-30 — #58 *Ketupa coromanda* v4 Upper Assam nest-site boundary
 
 ### DEO-RANADE-GHOSH-PRAKASH-2020-P93

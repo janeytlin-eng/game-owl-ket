@@ -2364,3 +2364,10 @@ Fixed archive `db6268ba091584c3e3b735240f13deaa81dc815b` returned the exact four
 ### #43 v4 VERIFIED — 2026-10-30T16:45:00+08:00
 
 Fixed archive `a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd` returned exact image blobs; manifests 562/553/551 and source/research/run/knowledge/state records matched. Batch `2026-10-30T1634+0800` is 1/6 with next cycle 2; unique species remains 175/251; science false.
+
+
+## 2026-10-30 — #44 *Strix uralensis* v4 ARCHIVED
+
+- Science revision; unique species remains 175/251. New1/reused4/corrected1.
+- Adult female restrained larger; unsexed day-29 juvenile wing corrected from pin-tip-only/adult-like alternatives to 3–4 short growing vane sections.
+- Two edits; PASS_WITH_LIMITATIONS; science false. Assets and manifests 563/554/552 persisted; fixed readback pending.

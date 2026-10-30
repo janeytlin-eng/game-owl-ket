@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T16:45:00+08:00",
+  "updated": "2026-10-30T16:55:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10597,7 +10597,50 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "44-strix-uralensis-v4",
+      "path": "design/concepts/44-strix-uralensis-v4.png",
+      "species_id": 44,
+      "scientific_name": "Strix uralensis",
+      "common_name": "Ural Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "e36e1b2a95e6599984687ef2a857ff3b0a35e8b00ca410940bd403b8ea751637",
+      "size_bytes": 640578,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Eriksson et al. 1984 show feathers emerge near day 5 and wing/fourth-primary sheath growth estimate nestling age with about one-day mean error; adult females are larger, but size dimorphism is not visible until the end of the nestling phase. V4 keeps a restrained larger adult female, leaves the day-29 juvenile unsexed, and replaces v3's few pin tips with a short formed juvenile wing carrying 3–4 uneven growing vane sections without adult remiges or tail. Exact graph-derived day-29 wing length, field transfer and population color remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "source_ids": [
+        "UROW-ERIKSSON-1984",
+        "UROW-SCHERZINGER-1980",
+        "UROW-MIKKOLA-2013",
+        "UROW-LOHMUS-2003",
+        "UROW-BROMMER-2004"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-44-strix-uralensis-v4-wing-growth-and-sex-cue-timing-correction",
+      "research_record": "research/species/44-strix-uralensis-v4.md",
+      "run_record": "production/runs/20261030T164700+0800-cycle-2.md",
+      "generated_path": "production/generated/44-strix-uralensis-v4-generated.png",
+      "generated_blob": "5a6595617482b1591f6125d18cc321840a05b945",
+      "reviewed_path": "production/reviewed/44-strix-uralensis-v4.png",
+      "reviewed_blob": "932bf2b9554979fbce7712514ec79c3dc481fe15",
+      "reviewed_sha256": "f5acc68c7e6b4e292f68aa0ed63d163390f748a646645b49e34f7f81743547d2",
+      "reviewed_size_bytes": 2913384,
+      "review_crop_path": "production/review-crops/44-strix-uralensis-v4-juvenile.png",
+      "review_crop_blob": "50bc6b52fa4bab0d1a929c5944c8b345bdacd17e",
+      "review_crop_sha256": "ebd9c82b0a8135e3420527048a3b0fa82cfc2b01f5c0106aabee64dd14341723",
+      "review_crop_size_bytes": 659225,
+      "archive_note": "V2-v3 retained. Two juvenile-only edits: first removed spots but left long ordered feathers; second produced a short rounded 3–4-vane growing wing. Full, crop and derivative reopened. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verification_result": "pending"
     }
   ],
-  "updated_at": "2026-10-30T16:45:00+08:00"
+  "updated_at": "2026-10-30T16:55:00+08:00"
 }

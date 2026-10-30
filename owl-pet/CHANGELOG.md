@@ -1383,3 +1383,9 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - Verified #43 v4 at fixed archive `a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd`; exact image and indexed evidence matched. Batch advances to 1/6, next cycle 2.
+
+
+### 2026-10-30 — #44 Ural Owl v4
+
+- Added `UROW-ERIKSSON-1984`; corrected day-29 wing growth and adult-versus-juvenile sex-size timing.
+- Two juvenile edits removed adult white rows/long remiges and produced a short growing wing. V2-v3 retained; unique 175/251; science false.

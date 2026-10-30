@@ -6210,3 +6210,18 @@ Fresh reuse: `ABOW-OWLPAGES-2020`, `ABOW-BIODIVEXPLORER-ROBERTS-2026`, and `CAP-
 - **Links:** [v4 research card](species/31-glaucidium-radiatum-v4.md) · [v4 run](../production/runs/20261030T083000+0800-cycle-1.md)
 
 Fresh reuse: `JUOW-OISEAUXNET-LEBOFF-2026`, `JUOW-OISEAUXBIRDS-BOUGLOUAN-2026`, `JUOW-OWLPAGES-2020`, `JUOW-PF-2021`. New1/reused4/corrected0. The dated photo supports only an age-unknown fully feathered immature and yellow eyes in that individual; exact age, flight threshold, independence, continuous feather sequence, sex and population variation remain unknown. Mikkola upload unavailable; science false.
+
+
+# 2026-10-30 — #32 *Glaucidium castanotum* v4 — dated adult photo series
+
+## CBOW-CEYLONBIRDCLUB-2009
+- **Title / institution / date:** Chestnut-backed Owlet image records — Ceylon Bird Club; photographs dated 19 March, 22 March and 2 April 2009 (page accessed 2026-10-30).
+- **URL:** https://www.images.ceylonbirdclub.org/sri-lanka-birds-search-41
+- **Type/material read:** institutional image-record page with photographer, locality, date and adult-stage metadata.
+- **Species/stage:** *Glaucidium castanotum* adults at Kitulgala/Kithulgala and Sinharaja; page uses historical misspelling *G. castanonotum*.
+- **Facts:** the page identifies multiple adults from Sri Lankan wet-zone localities and supplies dates and photographic equipment; these records are useful real-bird adult variation references.
+- **Limits/conflicts/confidence:** image-record metadata, not morphometric or juvenile research; “vulnerable” reflects the page's older status wording. High confidence for the recorded locality/date/adult labels; no support for sex, juvenile age or feather chronology.
+- **Design decision:** anchors adult appearance and wet-zone setting without inventing sex difference or juvenile sequence; spelling is mapped to current *G. castanotum*.
+- **Links:** [v4 research card](species/32-glaucidium-castanotum-v4.md) · [v4 run](../production/runs/20261030T085300+0800-cycle-2.md)
+
+Fresh reuse: `CBOW-COMMONS-ABEY2019`, `CBOW-EDIRISINGHE-2025`, `CBOW-FLICKR-KALUBOWILA-2014`, `CBOW-MIKKOLA-2013`, `CBOW-PEREGRINE-2026`. New1/reused5/corrected0. The direct juvenile records support an age-unknown fully feathered older dependent bird, not an exact day-stage or flight threshold. Mikkola upload remained inaccessible this run; only the repository's earlier page-verified p.406 note is reused, with no new page claim. Science false.

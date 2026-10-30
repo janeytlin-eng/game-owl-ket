@@ -32,3 +32,10 @@ Status: VERIFIED archive, image reviewed; scientific calibration pending; scient
 ## v3 immutable archive verification
 
 - 2026-10-29T05:47:30.167+08:00: commit `9b80a0dc5350b70be0e256acc70820e177886427` complete-tree readback passed. Concept/generated/reviewed paths matched blobs `c7e59defff`, `1a1fc478bb`, and `07b2c23743` at 593546/496873/473154 bytes; rejected truncated PNG paths are absent. Science remains false.
+
+
+## 2026-10-30 v4 research boundary
+
+- New `PFO-BROOKE-1984-P128` (printed pp.127–128) adds riparian-clear-pool habitat, a ten-week nestling period and juvenile association with resident adults until the next breeding season.
+- V4 deliberately differs from v3: an age-unknown dependent post-fledging bird is fully branch-supported, retains dominant pale down per the current BirdLife/SANBI account, and may show a compact formed folded wing and short-to-medium tail. This is a bounded synthesis, not a measured feather timetable.
+- Long dependence does not license a miniature chick, exact age, adult-regular wing rows or a first-flight claim. Adult sex cue remains subtle only. Science false pending image review.

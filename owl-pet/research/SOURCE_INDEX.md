@@ -444,3 +444,23 @@
 - **BEOW-SGBIRDS-2026:** adult pitch-black eyes/yellow bill/outward tufts and juvenile white-with-dark-bars identification; forest habitat.
 - **BEOW-SGBIRDS-2018:** separate estimated 8–10-month late-dependent family juvenile used only as a comparator.
 - **Correction:** the 2017 Pulau Ubin bird remains age/dependence unknown and is not assigned the 2018 family bird's estimated age, behavior or adult association.
+
+
+## 2026-10-30 — #63 *Scotopelia peli* v4 dependent post-fledging boundary
+
+### PFO-BROOKE-1984-P128
+- **Stable ID:** `PFO-BROOKE-1984-P128`
+- **Title / author / institution / year:** *South African Red Data Book — Birds* / R. K. Brooke / CSIR Foundation for Research Development, Percy FitzPatrick Institute / 1984.
+- **Original URL:** https://researchspace.csir.co.za/bitstream/10204/2015/1/Brooke_1984.pdf
+- **Accessed:** 2026-10-30.
+- **Source type:** institutional red-data synthesis citing contemporary field sources.
+- **Species/stage:** *Scotopelia peli* (historical *Bubo peli* mapping retained); nesting/family-dependence context, not a plumage chronology.
+- **Pages read:** printed pp.127–128 (PDF pp.190–192), complete species account; title/copyright page also read.
+- **Valuable facts:** riparian forest over clear pools; adults resident; juveniles remain with adults until the next breeding season; normal clutch two but usually one youngster reared; incubation five weeks and nestling period ten weeks.
+- **Limits/conflicts/credibility:** 1984 regional synthesis, with several facts attributed to Liversedge 1980 and Steyn 1982; no exact post-fledging age, feather-tract series, first-flight test, sexed juvenile or photograph. Good for habitat/dependence/nesting duration; bounded for appearance.
+- **Design/review decision:** supports an age-unknown dependent post-fledging branch stage only when combined with the current BirdLife/SANBI pale-down account; formed wing/tail are conservative design synthesis, not measured timing.
+- **Linked records:** `owl-pet/research/species/63-scotopelia-peli-v4.md`; `owl-pet/production/runs/20261030T215816+0800-cycle-1.md`; planned `owl-pet/design/concepts/63-scotopelia-peli-v4.jpg`.
+
+### Reused and corrected mapping
+- **Reused:** `PFO-TRUST-2026` / current BirdLife South Africa–SANBI account; `PFO-BOTSWANAPOST-2022` brochure p.2.
+- **Correction:** long parental association and approximately ten-week/68–70-day nestling context do not yield an exact post-fledging age, first-flight threshold or feather-by-feather wing timetable.

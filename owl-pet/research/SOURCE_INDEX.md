@@ -6368,3 +6368,28 @@ Reused `SRC-PAPER-039-01`, `CAPO-BIRDLIFE-2026`, `CAPO-EBIRD-ID-2026`, `SRC-WEB-
 - **Links:** [v4 card](species/40-glaucidium-nubicola-v4.md) · [knowledge](../knowledge/species/40-glaucidium-nubicola.md) · [run](../production/runs/20261030T134700+0800-cycle-4.md)
 
 Reused `SRC-PAPER-040-02`, `SRC-BOOK-040-01`, `SRC-PAPER-040-03`, `CFPO-EBIRD-ID-2026`, and `CFPO-BIRDSCOLOMBIA-IMMATURE-2026`. Correction: Robbins & Stiles (1999), printed pp.307–308, described six males but only one female, and that female was an extreme rufous morph. V4 therefore does not generalize female color, height or size; it uses comparable brown/gray adults near equal in displayed scale. Juvenile remains a supported recent fledgling with plumage/age/iris/flight unknown; the unspotted crown is only a weak secondary-caption boundary. New1/reused5/corrected1; science false.
+
+
+## 2026-10-30 #41 *Glaucidium cobanense* v4 — documented mixed-morph pair and current-name crosswalk
+
+### GUPO-AOS-NACC-2013A
+- **Title / institution / year:** *N&MA Classification Committee: Proposals 2013-A*, proposal 2013-A-2 — American Ornithologists’ Union / North American Classification Committee, 2013.
+- **URL:** https://americanornithology.org/wp-content/uploads/2020/02/2013-A.pdf
+- **Accessed / pages actually read:** 2026-10-30; PDF pp.4–7, especially p.7 species account (lines 88–180 in retrieved text).
+- **Type / taxon / stage:** official checklist proposal; *Glaucidium cobanense* adult taxon, range and habitat.
+- **Facts:** recognizes the Chiapas–Guatemala–Honduras highland taxon; gives humid broadleaf, pine-oak and coniferous forest/edge and shaded plantations at 1,500–3,500 m; states both rufous and brown morphs; traces Sharpe’s 1875 name and Alta Verapaz syntypes.
+- **Limits / confidence:** high for nomenclature, habitat and two-morph boundary; no sex measurements or juvenile development series.
+- **Decision:** mixed-morph adults are permitted; highland pine-oak/cloud-forest context; no morph-as-sex generalization.
+- **Links:** [v4 card](species/41-glaucidium-cobanense-v4.md) · [knowledge](../knowledge/species/41-glaucidium-cobanense.md) · [run](../production/runs/20261030T143100+0800-cycle-5.md)
+
+### GUPO-ITIS-1063258-2026
+- **Title / institution / date:** *Glaucidium cobanense* TSN 1063258 — Integrated Taxonomic Information System, accessed 2026-10-30.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063258&source=to_print
+- **Sections actually read:** taxonomy/nomenclature and references, lines 6–67.
+- **Type / taxon:** authoritative taxonomic database; current and historical name.
+- **Facts:** valid species *G. cobanense* Sharpe, 1875; synonym *G. gnoma cobanense*; cites HBW/BirdLife 2022 and IOC 15.1.
+- **Limits / confidence:** high for crosswalk, none for visual traits or development.
+- **Decision:** v4 title retains *G. cobanense* and research record preserves *G. gnoma cobanense* as the old-name mapping.
+- **Links:** [v4 card](species/41-glaucidium-cobanense-v4.md) · [knowledge](../knowledge/species/41-glaucidium-cobanense.md) · [run](../production/runs/20261030T143100+0800-cycle-5.md)
+
+**Reused / corrected:** `SRC-BOOK-041-01`, `SRC-PAPER-041-02`, `SRC-WEB-041-03`, `SRC-WEB-041-04`, `GUPO-BSG-2026`, and `GUPO-HOWELL-EISERMANN-2011` were reused. The prior `SRC-PAPER-041-02` summary is refined from the actually read nest context: the Chelemhá female was rufous morph and the male brown morph. V4 uses that one documented pair, not a universal sex/morph rule. The Bird Studies Guatemala page identifies brown-morph juvenile and juveniles at the nest entrance; inaccessible linked pixels are not claimed as viewed. Mikkola printed p.380/PDF p.382 is repository-reused evidence, not freshly rendered this run. New2/reused6/corrected1; juvenile age, continuous feather chronology, iris chronology, flight capability and sex measurements remain unknown; `scientifically_verified=false`.

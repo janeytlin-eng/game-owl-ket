@@ -22,3 +22,7 @@ Target: ../../design/concepts/95-pulsatrix-melanota-v4.jpg
 ## Archived
 
 - 2026-10-31T07:30:00+08:00: concept/generated/reviewed/crop plus manifests legacy597/design596/production587 persisted; fixed-commit readback pending.
+
+## Fixed readback
+
+- 2026-10-31T07:32:00+08:00: archive `0090a021f6e578d17e9dac204e12b1691b5468a8`; non-truncated 2265-entry tree; exact concept/generated/reviewed/crop blobs and manifests 597/596/587 matched. Cycle 5/6 verified; science=false.

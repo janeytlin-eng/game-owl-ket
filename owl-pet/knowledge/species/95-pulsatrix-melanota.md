@@ -44,3 +44,6 @@ The first render was rejected because the recent fledgling again inherited long 
 ## 2026-10-31 v4 research/review/archive
 
 MEL-RIVAS2022 pp.84–88/Figs.1–3 and MEL-ECUADOR-DIET-2022 §2.13/Fig.2 were actively read. V4 restores repository number 95 and preserves V3 biology. Full plate and 620×730 juvenile crop were opened; adult white-X faces/dark irises/belly barring and the age-unknown cinnamon recent fledgling with dark mask, short soft wing, concealed tail and belly/two-foot fork support pass. Exact age/sex/flight threshold, tract sequence, dimensions, adult pair ratio and universal nest choice remain unknown. scientifically_verified=false.
+
+
+Fixed readback 2026-10-31T07:32:00+08:00: archive `0090a021f6e578d17e9dac204e12b1691b5468a8`; exact four assets and manifests 597/596/587 matched; science remains false.

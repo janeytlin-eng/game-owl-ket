@@ -2833,4 +2833,6 @@ Verification 2026-10-31T07:22:00+08:00: fixed archive [`e921879e237f33dd981f5282
 
 ### 2026-10-31 #95 *Pulsatrix melanota* v4
 
-SCIENCE_REVISION PASS_WITH_LIMITATIONS; number95 restored; age-unknown recent fledgling/fork support retained; edit0; sciencefalse; unique175/251. [Concept](design/concepts/95-pulsatrix-melanota-v4.png) · [Research](research/species/95-pulsatrix-melanota-v4.md). Archive prepared at 2026-10-31T07:30:00+08:00; fixed readback pending.
+SCIENCE_REVISION PASS_WITH_LIMITATIONS; number95 restored; age-unknown recent fledgling/fork support retained; edit0; sciencefalse; unique175/251. [Concept](design/concepts/95-pulsatrix-melanota-v4.png) · [Research](research/species/95-pulsatrix-melanota-v4.md). Archive prepared at 2026-10-31T07:30:00+08:00.
+
+Verification 2026-10-31T07:32:00+08:00: fixed archive [`0090a021f6e578d17e9dac204e12b1691b5468a8`](https://github.com/janeytlin-eng/game-owl-ket/commit/0090a021f6e578d17e9dac204e12b1691b5468a8) passed exact four-asset readback; tree2265 non-truncated; manifests597/596/587. Batch5/6 next6; unique175/251; sciencefalse.

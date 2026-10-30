@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T07:30:00+08:00",
+  "updated": "2026-10-31T07:32:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14134,11 +14134,28 @@
       "review_crop_path": "production/review-crops/95-pulsatrix-melanota-v4-juvenile.png",
       "review_crop_blob": "1cbef3b76c19e9f31a7ea8958d6e215c5a583251",
       "review_crop_size_bytes": 795720,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "59dcb92e0a703ca5fd0147a2fc6d000f85d99061",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "0090a021f6e578d17e9dac204e12b1691b5468a8",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T07:32:00+08:00",
+      "readback": {
+        "concept_blob": "59dcb92e0a703ca5fd0147a2fc6d000f85d99061",
+        "generated_blob": "59dcb92e0a703ca5fd0147a2fc6d000f85d99061",
+        "reviewed_blob": "59dcb92e0a703ca5fd0147a2fc6d000f85d99061",
+        "review_crop_blob": "1cbef3b76c19e9f31a7ea8958d6e215c5a583251",
+        "manifest_counts": {
+          "legacy": 597,
+          "design": 596,
+          "production": 587
+        },
+        "tree": {
+          "entries": 2265,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T07:30:00+08:00"
+  "updated_at": "2026-10-31T07:32:00+08:00"
 }

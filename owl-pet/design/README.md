@@ -2349,3 +2349,5 @@ Science revision uses the documented Chelemhá rufous-female/brown-male pair whi
 ### Incremental rule — an observed mixed-morph pair is not a sex-linked morph rule
 
 When one breeding pair has different morphs, reproduce that pairing only as an individual documented case. Do not generalize color morph by sex without a population series. Keep sex-size neutral when measurements are absent. Applied and visually rechecked on #41 v4; broader effectiveness remains unverified.
+
+- 2026-10-30T14:47:00+08:00: #41 v4 fixed-tree VERIFIED at `92120b38343df5572a3af1632ab95040b98397ca`; exact image and indexed record blobs matched. Batch 5/6, next cycle6; science false.

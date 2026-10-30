@@ -1361,3 +1361,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T14:46:00+08:00: archived #41 *Glaucidium cobanense* v4. Added AOS/NACC 2013-A and ITIS current-name evidence, reused six sources, and corrected the observed Chelemhá pair as rufous female + brown male without treating morph as sex-linked. Three edits corrected male scale/tail, juvenile mature wing/tail, and juvenile crown flecks. Full plate, crop and derivative reopened. Manifests design560 / production551 / legacy549; fixed readback pending; science false.
+
+- 2026-10-30T14:47:00+08:00: verified #41 *Glaucidium cobanense* v4 at fixed archive `92120b38343df5572a3af1632ab95040b98397ca`; exact image hashes, manifests 560/551/549 and indexed records matched. Batch advances to 5/6, next cycle 6; unique 175/251; science false.

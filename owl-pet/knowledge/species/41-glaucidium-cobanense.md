@@ -70,3 +70,5 @@ Scientific-educational owl electronic-pet concept sheet in the repository's esta
 - Edit 1 shortened male/juvenile tails but over-shrank the male; edit 2 corrected adult scale and juvenile wing but introduced pale crown flecks; edit 3 restored the plain diffuse gray-brown juvenile crown.
 - Final 1536×1024 and 500×700 crop plus 680×453 derivative reopened: comparable adults, compact male tail, brown-morph juvenile with unspotted crown, compact soft wing, hidden tail and two supported feet pass.
 - Result `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`. Concept blob `900e5669c9066d5b2673d78cb6cd23cf890324f9`; reviewed blob `b67901caed922ee4bad010aa737d35048dcff650`.
+
+- Immutable archive `92120b38343df5572a3af1632ab95040b98397ca` read back exact image and record blobs; v4 VERIFIED for production accounting at 2026-10-30T14:47:00+08:00, not scientifically verified.

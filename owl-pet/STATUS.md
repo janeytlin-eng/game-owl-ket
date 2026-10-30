@@ -2334,3 +2334,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 14:46 +08 — #41 Guatemalan Pygmy-Owl v4 archived, verification pending
 
 #41 *Glaucidium cobanense* v4 concept, generated/reviewed PNG and juvenile crop are archived. AOS/NACC current-name, two-morph and habitat evidence plus the documented rufous-female/brown-male Chelemhá pair refine v3 without generalizing morph as sex. Three targeted edits corrected male scale/tail, juvenile wing/tail and an introduced crown-fleck error. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 4/6.
+
+- 2026-10-30T14:47:00+08:00: #41 *Glaucidium cobanense* v4 fixed readback VERIFIED at [92120b38343df5572a3af1632ab95040b98397ca](https://github.com/janeytlin-eng/game-owl-ket/commit/92120b38343df5572a3af1632ab95040b98397ca); exact four image hashes, manifests 560/551/549 and source/research/run/knowledge/state matched. Batch advances to **5/6**, next cycle 6; unique **175/251**, numbered IDs **185/251**; science false.

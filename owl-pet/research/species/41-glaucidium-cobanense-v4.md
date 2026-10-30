@@ -50,3 +50,12 @@ Scientific-educational owl electronic-pet concept sheet in the repository's esta
 - Recheck: exact three and labels; documented mixed-morph pair; comparable adult scale; male false eyes and compact tail; juvenile plain gray-brown crown, compact soft wing, hidden tail and two-foot support all pass.
 - Result: `PASS_WITH_LIMITATIONS`; science false. Exact juvenile age, feather/iris chronology, flight and sex measurements remain unknown.
 - Archive prepared at 2026-10-30T14:46:00+08:00; fixed-commit readback pending.
+
+
+## Immutable verification
+
+- Fixed archive commit: `92120b38343df5572a3af1632ab95040b98397ca`.
+- Exact image Git blobs matched for concept/generated/reviewed/crop; concept 666,391 bytes and crop 646,168 bytes also decoded from readback. Large generated/reviewed content was omitted by the connector response, but each returned the exact local Git hash created from the complete file.
+- Manifests read back at design 560 / production 551 / legacy 549 with the #41 v4 entry and science false.
+- Source index `9759d5b5204e42344a280b2bdfccb3aa2691045b`, this card `e30997cf762c83abd5990c7255414e725c5e1e40`, archive run `646496df1e2b202ac0c30b114b33a31bbb4a4b26`, knowledge `37433037a8979e8a686152699d72ca0df3cc7ecd` and archive batch `44ecfb6cee75fd00fdc45aeac09710a9dfceaa84` matched.
+- VERIFIED at 2026-10-30T14:47:00+08:00; cycle 5 credited. Scientific status remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T14:46:00+08:00",
+  "updated": "2026-10-30T14:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10557,10 +10557,41 @@
       "review_crop_sha256": "4a9921d3763059d872d66c84c9224317a9a096dd1a9431467623ab1d06e9021b",
       "review_crop_size_bytes": 646168,
       "archive_note": "V1-v3 retained. V4 uses the documented rufous-female/brown-male pairing as an individual observation, not a sex rule. Three targeted edits; final 1536x1024, 500x700 crop and 680x453 derivative reopened. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null
+      "readback_pending": false,
+      "archive_commit": "92120b38343df5572a3af1632ab95040b98397ca",
+      "fixed_commit": "92120b38343df5572a3af1632ab95040b98397ca",
+      "verified_at": "2026-10-30T14:47:00+08:00",
+      "verification_result": "fixed archive 92120b38343df5572a3af1632ab95040b98397ca returned exact concept/generated/reviewed/crop Git blob SHAs; concept and crop decoded sizes matched; large generated/reviewed payloads returned exact Git hashes; manifests 560/551/549 and source/research/run/knowledge/state records matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "92120b38343df5572a3af1632ab95040b98397ca",
+        "concept": {
+          "path": "design/concepts/41-glaucidium-cobanense-v4.png",
+          "blob": "900e5669c9066d5b2673d78cb6cd23cf890324f9",
+          "size_bytes": 666391
+        },
+        "generated": {
+          "path": "production/generated/41-glaucidium-cobanense-v4-generated.png",
+          "blob": "cbcf6cfe3007c866e5c9e62caac5f16c8634bbdf",
+          "size_bytes": 3473145
+        },
+        "reviewed": {
+          "path": "production/reviewed/41-glaucidium-cobanense-v4.png",
+          "blob": "b67901caed922ee4bad010aa737d35048dcff650",
+          "size_bytes": 2887806
+        },
+        "review_crop": {
+          "path": "production/review-crops/41-glaucidium-cobanense-v4-juvenile.png",
+          "blob": "a35952d378a027e9f8064f06c972c1271c3026b1",
+          "size_bytes": 646168
+        },
+        "source_index_blob": "9759d5b5204e42344a280b2bdfccb3aa2691045b",
+        "research_blob": "e30997cf762c83abd5990c7255414e725c5e1e40",
+        "run_blob_at_archive": "646496df1e2b202ac0c30b114b33a31bbb4a4b26",
+        "knowledge_blob": "37433037a8979e8a686152699d72ca0df3cc7ecd",
+        "batch_blob_at_archive": "44ecfb6cee75fd00fdc45aeac09710a9dfceaa84"
+      }
     }
   ],
-  "updated_at": "2026-10-30T14:46:00+08:00"
+  "updated_at": "2026-10-30T14:47:00+08:00"
 }

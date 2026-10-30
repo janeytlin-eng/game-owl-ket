@@ -8700,46 +8700,47 @@
       "next_cycle": 1,
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Asio stygius",
         "species_id": 77,
         "version": 4,
         "run_id": "20261031T013432+0800-cycle-1",
-        "at": "2026-10-31T01:35:05+08:00",
+        "at": "2026-10-31T01:37:54+08:00",
         "run_record": "owl-pet/production/runs/20261031T013432+0800-cycle-1.md",
         "evidence": {
-          "research": "owl-pet/research/species/77-asio-stygius-v4.md",
-          "new_sources": 0,
-          "reused_sources": 5,
-          "corrected_boundaries": 1,
-          "active_search_empty": true,
+          "asset": "owl-pet/production/generated/77-asio-stygius-v4-generated-master.jpg",
+          "sha256": "892507bf55ac4c98c43518658918e89fef76966998c3a30c8d0ad952b7fac75f",
+          "dimensions": "1536x1024",
+          "generation_seconds": 40.4,
+          "initial_review": "EDIT_REQUIRED: juvenile broad layered dark wing panels",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T01:35:05+08:00",
+      "last_updated_at": "2026-10-31T01:37:54+08:00",
       "audit_notes": [
         "2026-10-31T01:34:32+08:00 cycle1 #77 Asio stygius v4 SCIENCE_REVISION STARTED; latest main/batch/v3 research/image checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
-        "2026-10-31T01:35:05+08:00 cycle1 #77 v4 RESEARCH_READY; new0/reused5/corrected1; v3 reopened and long layered juvenile wing panel identified as inconsistent with dated poor-remige stage; searches/direct opens empty and not credited; full prompt saved; science false; no credit."
+        "2026-10-31T01:35:05+08:00 cycle1 #77 v4 RESEARCH_READY; new0/reused5/corrected1; v3 reopened and long layered juvenile wing panel identified as inconsistent with dated poor-remige stage; searches/direct opens empty and not credited; full prompt saved; science false; no credit.",
+        "2026-10-31T01:37:54+08:00 cycle1 #77 v4 IMAGE_GENERATED in 40.4s; original opened. Exact text/count, adults and support pass; juvenile retains broad layered dark wing panels inconsistent with poor-remige boundary, so targeted edit required; science false; no credit."
       ],
       "in_progress": {
         "cycle": 1,
         "species": "Asio stygius",
         "species_id": 77,
         "version": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261031T013432+0800-cycle-1"
       },
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T013432+0800-cycle-1",
-        "heartbeat_at": "2026-10-31T01:35:05+08:00",
-        "expires_at": "2026-10-31T01:50:05+08:00"
+        "heartbeat_at": "2026-10-31T01:37:54+08:00",
+        "expires_at": "2026-10-31T01:52:54+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T013432+0800-cycle-1",
-        "heartbeat_at": "2026-10-31T01:35:05+08:00",
-        "expires_at": "2026-10-31T01:50:05+08:00"
+        "heartbeat_at": "2026-10-31T01:37:54+08:00",
+        "expires_at": "2026-10-31T01:52:54+08:00"
       }
     }
   ],

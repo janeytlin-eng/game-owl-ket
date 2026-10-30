@@ -96,3 +96,10 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - When a photographic guide lays adjacent species across consecutive pages, bind every caption to the printed species heading/page before transferring juvenile color, stage or locality.
 - A visually memorable caption is not evidence for the preceding species. Preserve the old image/version, record the correction, and rebuild from the correct species/subspecies source.
 - First applied to #48 *Strix nivicolum* v4 after finding the “very white Hong Kong young” caption under #155 *Strix newarensis*, not #153 *S. nivicolum*. Edited original and 680×453 derivative were reopened: the Taiwanese `yamadae` young is pale but not pure white and retains short folded wings. This validates the gate for this plate only; archive-wide back-review remains pending.
+
+
+## 2026-10-30 photographed-stage mature-wing exception — discovered/applied; validation pending
+
+- The “short, soft, down-covered juvenile wing” rule is stage-specific, not a universal visual filter. When a directly read, same-population photographed caption explicitly states that juvenile wings and tail resemble adults, preserve that evidence instead of mechanically deleting formed remiges.
+- Gate the exception tightly: name the population and photographed stage, keep any documented residual down, use folded wings and natural bilateral support, and do not infer exact age or flight competence from formed feathers alone.
+- First applied to #49 *Strix woodfordii nigricantior* v4 from Mikkola printed p.321. Validation remains pending until the generated original and derivative are actually opened; it is not yet a verified general improvement.

@@ -62,3 +62,13 @@
 - Binary QA caught two truncated master transfers before credit; this archive tree supersedes them with full-size blobs.
 - Files: `production/generated/49-strix-woodfordii-v3-generated-master.png`, `production/reviewed/49-strix-woodfordii-v3-reviewed-master.png`, `design/concepts/49-strix-woodfordii-v3.png`.
 - Result: PASS_WITH_LIMITATIONS; exact continuous feather sequence, population/subspecies transfer and quantified sex difference remain unknown; science false.
+
+
+## 2026-10-30 v4 research-ready correction
+- Directly read Mikkola internal PDF pp.322–323 (printed pp.320–321), SANBI's institutional account and ITIS current/old-name mapping.
+- Population/stage selected: age-unknown later dependent *S. w. nigricantior* young photographed with a female in a large Tanzanian tree; one representative will be shown.
+- Evidence-specific exception: Mikkola explicitly says juvenile wings and tail resemble adults while the underparts remain partly downy. V4 therefore preserves folded adult-like barred wing/tail for this photographed stage rather than reusing the v3 Levubu 25–30-day short-wing boundary.
+- Female direction is evidence-based only here: Mikkola states females average >50 g heavier. The image will encode subtle fullness, not exaggerated height or a universal owl rule.
+- Unknowns retained: exact juvenile age, flight/movement ability, day-by-day feather sequence, sexed linear dimensions, and transfer beyond *nigricantior*.
+- Sources: `AWOO-MIKKOLA-2013-P320-321`, `AWOO-ITIS-2026`; reused `AWOO-SANBI-2018`, `AWOO-AFRICAN-BIRDLIFE-2016`, `AWOO-PEREGRINE-FUND`, `AWOO-AVIBASE-2026`.
+- Full prompt and stage ledger: `owl-pet/production/runs/20261030T183100+0800-cycle-1.md`. Scientific status remains false pending image review and broader calibration.

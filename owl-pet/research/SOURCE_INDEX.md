@@ -108,3 +108,35 @@
 - **Reused and directly re-read:** 4.
 - **Corrected inference:** “adult-like primaries” means direction/incipient form only; it does not license full adult length, layering or crisp adult spot rows.
 - **Scientific status:** false; exact hatch age, universal timing, independent-flight threshold, quantified sex dimorphism and universal nest geometry remain unknown.
+
+
+## 2026-10-30 — #49 *Strix woodfordii* v4 photographed-stage exception
+
+### AWOO-MIKKOLA-2013-P320-321
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Persistent file:** ChatGPT Library `libfile_916e2244186c81918fe5a0716884b8c9`; internal PDF pp.322–323; printed pp.320–321.
+- **Accessed:** 2026-10-30; species text and all captions on both pages read.
+- **Source type:** photographic species guide; photographed population/stage plus adult description and measurements.
+- **Species / population / stage:** *Strix woodfordii*; captioned *S. w. nigricantior* adult female and later dependent juveniles in Tanzania, exact age unknown.
+- **Facts:** adult 30–35 cm; females average >50 g heavier than males; round untufted head, dark eyes, yellow bill/cere, brown/rust barred plumage. Printed p.321 states juvenile wing and tail resemble adults while underparts remain partly downy; caption shows a female *nigricantior* with two juveniles resting in a large tree in Tanzania in February.
+- **Limits / confidence:** guide caption does not give juvenile age, locomotor/flight ability or day-by-day feather chronology. High confidence for the captioned appearance/population; low for any precise developmental timing or transfer to other subspecies.
+- **Design decision:** v4 uses one age-unknown *nigricantior* juvenile resting low in a large-tree fork with folded adult-like barred wing/tail and partly downy underparts. Adult-like wing structure is an evidence-specific exception to the early-clamberer short-wing rule, not a species-wide clock.
+- **Linked records:** `owl-pet/research/species/49-strix-woodfordii-v4.md`; `owl-pet/production/runs/20261030T183100+0800-cycle-1.md`; planned `owl-pet/design/concepts/49-strix-woodfordii-v4.png`.
+
+### AWOO-ITIS-2026
+- **Title / institution / date:** *Strix woodfordii* taxonomic report / Integrated Taxonomic Information System / accessed 2026-10-30.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=Scientific_Name&search_value=Strix%20woodfordii
+- **Source type:** authoritative taxonomic database.
+- **Species / stage:** *Strix woodfordii*; all stages.
+- **Facts:** accepted current name *Strix woodfordii* (A. Smith, 1834); historical combinations include *Ciccaba woodfordii* and *Noctua woodfordii*; subspecies listed include *nigricantior*, *nuchalis*, *umbrina* and nominate.
+- **Limits / confidence:** taxonomy only; no plumage-development or behavior evidence.
+- **Design decision:** retain repository current name in title and old-name mappings in the research record; bind the photographed juvenile to *nigricantior*.
+- **Linked records:** same as above.
+
+### Reused evidence and correction
+- **AWOO-SANBI-2018:** SANBI “African Wood Owl”, https://www.sanbi.org/animal-of-the-week/african-wood-owl/; adult sexes described alike with individual variation; natural tree-hole nesting; 30–37 days in nest, about three weeks hiding near parents, and good flight at about 46 days. Re-read in full on 2026-10-30.
+- **AWOO-AFRICAN-BIRDLIFE-2016:** Levubu 25–30-day branch-clambering record retained only for v1–v3 context; not used to date v4.
+- **AWOO-PEREGRINE-FUND:** white-down hatchling/roughly one-month branching/approximately 46-day flight context reused but not transferred onto the photographed *nigricantior* stage.
+- **AWOO-AVIBASE-2026:** prior current-name/old-combination mapping reused; ITIS now independently confirms it.
+- **Correction:** previous prompt heuristic removed adult-like juvenile remiges for the Levubu 25–30-day stage. Mikkola's same-population caption explicitly supports adult-like wing/tail on the selected later *nigricantior* young, so v4 preserves that feature while retaining partly downy underparts, folded wings and natural support.
+- **Source/design delta:** new2 / reused4 / corrected1; science false.

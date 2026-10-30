@@ -1408,3 +1408,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T21:50:47+08:00 — archived #61 *Ketupa ketupu* v4. Added NParks official bare-leg/adult morphology evidence, reused three Sungei Buloh field sources, kept the early chick separate from the later branch bird, and verified the first render without edit. Manifests 567/566/557; unique 175/251; readback pending; science false.
+
+- 2026-10-30T21:51:45+08:00 — verified #61 *Ketupa ketupu* v4 at fixed archive `d1c49366e7bd9746bd91a91383619d531f23663f`; exact image paths/blobs/sizes, manifests 567/566/557 and supporting records matched. Batch advances to 5/6, next cycle 6; unique 175/251; science false.

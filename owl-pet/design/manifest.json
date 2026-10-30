@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:50:47+08:00",
+  "updated": "2026-10-30T21:51:45+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11554,10 +11554,44 @@
       "reviewed_sha256": "dd44b79724c5636b04f123d0235801db00ce161bc045796f2c98c6e47d1357a8",
       "reviewed_size_bytes": 465961,
       "archive_note": "V1-v3 preserved. Generated/reviewed 1536x1024 original and 680x453 derivative opened. No edit required; the early chick remained down-dominant, low and naturally supported, while adult bare-leg diagnostics remained visible. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "git_blob": "3cba15f0790c55920aaac2ae5d68e2aeff375971"
+      "readback_pending": false,
+      "archive_commit": "d1c49366e7bd9746bd91a91383619d531f23663f",
+      "git_blob": "3cba15f0790c55920aaac2ae5d68e2aeff375971",
+      "fixed_commit": "d1c49366e7bd9746bd91a91383619d531f23663f",
+      "verified_at": "2026-10-30T21:51:45+08:00",
+      "verification_result": "fixed archive returned a non-truncated 2,086-entry tree, exact concept/generated/reviewed blob SHAs and sizes, manifest counts 567/566/557, and research/knowledge/run/state markers; batch advanced to 5/6; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "d1c49366e7bd9746bd91a91383619d531f23663f",
+        "concept": {
+          "path": "design/concepts/61-ketupa-ketupu-v4.jpg",
+          "blob": "3cba15f0790c55920aaac2ae5d68e2aeff375971",
+          "size_bytes": 131321,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/d1c49366e7bd9746bd91a91383619d531f23663f/owl-pet/design/concepts/61-ketupa-ketupu-v4.jpg"
+        },
+        "generated": {
+          "path": "production/generated/61-ketupa-ketupu-v4-generated-master.jpg",
+          "blob": "2b5b29dc4fdb4a06ffabe9fff4d991d6bb8db3dd",
+          "size_bytes": 465961,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/d1c49366e7bd9746bd91a91383619d531f23663f/owl-pet/production/generated/61-ketupa-ketupu-v4-generated-master.jpg"
+        },
+        "reviewed": {
+          "path": "production/reviewed/61-ketupa-ketupu-v4-reviewed-master.jpg",
+          "blob": "2b5b29dc4fdb4a06ffabe9fff4d991d6bb8db3dd",
+          "size_bytes": 465961,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/d1c49366e7bd9746bd91a91383619d531f23663f/owl-pet/production/reviewed/61-ketupa-ketupu-v4-reviewed-master.jpg"
+        },
+        "manifest_counts": {
+          "design": 567,
+          "legacy": 566,
+          "production": 557
+        },
+        "tree_truncated": false,
+        "tree_entries": 2086,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T21:50:47+08:00"
+  "updated_at": "2026-10-30T21:51:45+08:00"
 }

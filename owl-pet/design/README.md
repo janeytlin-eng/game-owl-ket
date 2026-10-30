@@ -2482,3 +2482,6 @@ Verification 2026-10-30T21:45:50+08:00: #60 v4 fixed archive `876679a51830eafe12
 - Concept: `design/concepts/61-ketupa-ketupu-v4.jpg`; full master retained under `production/`.
 - Official Singapore morphology adds the bare-leg gate. The juvenile remains the early white-down Sungei Buloh fern nestling, not the later branch bird.
 - Original and derivative opened; no edit required. PASS_WITH_LIMITATIONS; exact hatch age and continuous feather/flight chronology remain unknown. Science false.
+
+
+Verification 2026-10-30T21:51:45+08:00: #61 v4 fixed archive `d1c49366e7bd9746bd91a91383619d531f23663f` returned exact concept/generated/reviewed assets and manifests; batch 5/6, next 6; science false.

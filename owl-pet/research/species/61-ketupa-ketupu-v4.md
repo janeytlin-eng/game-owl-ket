@@ -73,3 +73,5 @@ The recurring failure mode is that an early down-dominant chick receives ear-lik
 - **Hypothesis:** explicit deep-fern support plus prohibitions on juvenile ear tufts and structured wings would prevent the recurring early-chick maturity drift.
 - **Applied:** full prompt separated the early chick from the later branch bird and independently gated adult bare legs.
 - **Verified:** the first render passed at full and derivative sizes without editing. This verifies the prompt control for this plate only; it does not establish exact plumage chronology. Science false.
+
+- **Fixed readback:** archive `d1c49366e7bd9746bd91a91383619d531f23663f` returned exact image paths, blobs and sizes, a non-truncated tree and 567/566/557 manifests. Batch 5/6; science false.

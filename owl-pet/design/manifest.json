@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:57:13+08:00",
+  "updated": "2026-10-31",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12163,7 +12163,53 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "69-tyto-novaehollandiae-v4",
+      "path": "design/concepts/69-tyto-novaehollandiae-v4.png",
+      "species_id": 69,
+      "scientific_name": "Tyto novaehollandiae",
+      "historical_names": [
+        "Strix novaehollandiae"
+      ],
+      "common_name": "Australian Masked Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "8655da856e8dd5e3ec63eb47e814447cc9f09ff5a1806008618ab804a42dddca",
+      "size_bytes": 649196,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 selects the original study's more evidence-rich inferred approximately-five-week dark-morph nominate nestling rather than repeating v3's recent fledgling: thick buff/ochre second down, developed facial mask, hidden wings/tail and no visible feather vanes. Adults retain dark eyes, dark-rimmed heart face and a fuller/darker female direction without a fixed standing-height ratio. First render passed full, crop and derivative review without edit. Exact hatch age, continuous feather chronology, cross-morph/subspecies transfer and fixed sex ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "AMO-DEBUS-WOOD-2007",
+        "AMO-AUSTRALIAN-MUSEUM-2024",
+        "VIC-RAPTORS-2023",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--69-tyto-novaehollandiae-v4-inferred-five-week-nestling-boundary",
+      "research_record": "research/species/69-tyto-novaehollandiae-v4.md",
+      "run_record": "production/runs/20261031T003452+0800-cycle-1.md",
+      "reviewed_at": "2026-10-31T00:38:43+08:00",
+      "generated_path": "production/generated/69-tyto-novaehollandiae-v4-generated-master.png",
+      "generated_blob": "aa48c519fe6fe8eb24cd762152884cb851c68c81",
+      "generated_sha256": "4bbfa43688d91b2fa515d425de79458cc47f69db845080f954604bbcbd60fe75",
+      "generated_size_bytes": 3151855,
+      "reviewed_path": "production/reviewed/69-tyto-novaehollandiae-v4-reviewed-master.png",
+      "reviewed_blob": "aa48c519fe6fe8eb24cd762152884cb851c68c81",
+      "reviewed_sha256": "4bbfa43688d91b2fa515d425de79458cc47f69db845080f954604bbcbd60fe75",
+      "reviewed_size_bytes": 3151855,
+      "review_crop_path": "production/review-crops/69-tyto-novaehollandiae-v4-juvenile.png",
+      "review_crop_blob": "d645c8252ec5d6bdd82ce0b480151645e89f6b02",
+      "review_crop_size_bytes": 648841,
+      "archive_note": "V1-v3 preserved. First render, close crop and derivative opened; edit count 0. The single-bird inferred age is labeled EST. and not treated as exact. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-30T23:57:13+08:00"
+  "updated_at": "2026-10-31T00:39:31+08:00"
 }

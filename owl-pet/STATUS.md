@@ -1,3 +1,9 @@
+## 2026-10-31 #69 *Tyto novaehollandiae* v4 ARCHIVED — readback pending
+
+- SCIENCE_REVISION; first render passed full/crop/derivative review; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/69-tyto-novaehollandiae-v4.png](design/concepts/69-tyto-novaehollandiae-v4.png)
+- Research: new0/reused4/corrected1; original-study inferred ~5-week dark-morph nestling, not exact age; fixed readback pending.
+
 ## 2026-10-30 #59 *Ketupa zeylonensis* v4 VERIFIED
 
 - SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

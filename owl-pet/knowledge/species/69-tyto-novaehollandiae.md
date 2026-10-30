@@ -31,3 +31,10 @@ Concept `cb7580aaf3a5de8b11a93beec51062271cc1d984`/348592 B; master `ad1128dccb4
 ## v3 fixed-tree verification — 2026-10-29T06:59:13.345+08:00
 
 Archive `45f6711e9fc7fe117770b62494827b4b7d30877e`; exact concept/master/review/crop blobs and sizes plus all text markers passed; tree not truncated; science false.
+
+
+## v4 science revision — 2026-10-31
+
+- Reused AMO-DEBUS-WOOD-2007 printed pp.49–52 / PDF pp.1–4, AMO-AUSTRALIAN-MUSEUM-2024, VIC-RAPTORS-2023 printed pp.83–84 and Mikkola printed p.107 / PDF p.109. Active external retrieval attempts returned empty payloads and were not credited as sources.
+- V4 selects the original paper's inferred approximately-five-week dark-morph nominate nestling: thick buff/ochre woolly second down, developed mask, hidden wings/tail and no visible feather vanes. The inferred age is not exact.
+- Adults retain female-fuller/darker direction without a fixed height ratio. First render/full/crop/derivative review passed without edit; PASS_WITH_LIMITATIONS; science false. Fixed archive readback pending.

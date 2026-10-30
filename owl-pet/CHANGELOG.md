@@ -1355,3 +1355,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T13:56:00+08:00: archived #40 *Glaucidium nubicola* v4. ITIS current name and Robbins & Stiles 1999 printed pp.306–312 added; the sole extreme-rufous female was not generalized. Two edits corrected adult tail bands/proportion and juvenile tail/wing maturity. Full plate and crop reopened. Manifests design559 / production550 / legacy548; fixed readback pending; science false.
+
+
+- 2026-10-30T13:58:00+08:00: verified #40 *Glaucidium nubicola* v4 at fixed archive `f158c79d345002a643e143528e869db0c69f13dd`; exact four image blobs, manifests 559/550/548 and research/run/state records matched. Batch advances to 4/6, next cycle 5; unique 175/251, numbered IDs 185/251; science false.

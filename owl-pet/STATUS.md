@@ -2326,3 +2326,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 13:56 +08 — #40 Cloud-forest Pygmy-Owl v4 archived, verification pending
 
 #40 *Glaucidium nubicola* v4 concept, generated/reviewed PNG and juvenile crop are archived. Original-description re-read corrected the sex-sample boundary; two targeted edits corrected tail and juvenile folded-wing maturity. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 3/6.
+
+
+- 2026-10-30T13:58:00+08:00: fixed-commit readback passed for #40 v4 at [f158c79d345002a643e143528e869db0c69f13dd](https://github.com/janeytlin-eng/game-owl-ket/commit/f158c79d345002a643e143528e869db0c69f13dd); batch advances to **4/6**, next cycle 5. Scientific verification remains false because juvenile development evidence is incomplete.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T13:56:00+08:00",
+  "updated": "2026-10-30T13:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11160,10 +11160,40 @@
       "review_crop_sha256": "fc9bc54a0027a822310996e299cb419e9f4dede0a911e85de45f49ea2b0a9355",
       "review_crop_size_bytes": 640737,
       "archive_note": "V1-v3 retained. Two targeted edits corrected adult tail-band count/proportion and juvenile tail/wing maturity; final 1536x1024 plate and 560x700 crop reopened. Single-female rufous morph not generalized. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null
+      "readback_pending": false,
+      "archive_commit": "f158c79d345002a643e143528e869db0c69f13dd",
+      "fixed_commit": "f158c79d345002a643e143528e869db0c69f13dd",
+      "verified_at": "2026-10-30T13:58:00+08:00",
+      "verification_result": "fixed archive f158c79d345002a643e143528e869db0c69f13dd returned exact concept/generated/reviewed/crop Git blob SHAs; three manifests 559/550/548 and source/research/run/knowledge/state records matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "f158c79d345002a643e143528e869db0c69f13dd",
+        "concept": {
+          "path": "design/concepts/40-glaucidium-nubicola-v4.png",
+          "blob": "22381bc4a4ba92e229bd460ddb968848acc0ef1b",
+          "size_bytes": 2936126
+        },
+        "generated": {
+          "path": "production/generated/40-glaucidium-nubicola-v4-generated.png",
+          "blob": "ab28f168a4700c85ca8e5de8047388f5bf0d919d",
+          "size_bytes": 3278220
+        },
+        "reviewed": {
+          "path": "production/reviewed/40-glaucidium-nubicola-v4.png",
+          "blob": "22381bc4a4ba92e229bd460ddb968848acc0ef1b",
+          "size_bytes": 2936126
+        },
+        "review_crop": {
+          "path": "production/review-crops/40-glaucidium-nubicola-v4-juvenile.png",
+          "blob": "86947de0fcaf5bbbee7b32f8b2a14e3d74a810cd",
+          "size_bytes": 640737
+        },
+        "source_index_blob": "1e0fd87bc4296528229188ced9223bc06a963423",
+        "research_blob": "ab2fc510e4ed553fd3a4e1874313be24f2991850",
+        "run_blob_at_archive": "e701fe369e4228b702a0506817251ca29f994557",
+        "knowledge_blob": "30cbcd8a9d03f62beebd9ea80febfc8e9c12a3e6"
+      }
     }
   ],
-  "updated_at": "2026-10-30T13:56:00+08:00"
+  "updated_at": "2026-10-30T13:58:00+08:00"
 }

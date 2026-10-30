@@ -73,7 +73,7 @@ Typography exact and legible. No extra birds, eggs, prey, fish, cave, ground nes
 
 V3 used the Kerala/Indian chronology to correct an over-short late-nestling wing. V4 tests a locality-and-stage gate: a Hong Kong institutional photograph can support a well-feathered, branch-exploring young bird, while the absence of age and feather measurements forbids assigning a day-age or adult-perfect wing. A close wing/support check is required after generation.
 
-## Actual review and iteration — 2026-10-30 21:37 +08:00
+## Actual review and iteration — 2026-10-30 21:34:22 +08:00
 
 - Initial 1536×1024 render passed exact title/count/labels, adult identity and near-equal scale, New Territories stream/tree-nest context, bare tarsi and bilateral juvenile support.
 - Defect: the juvenile folded wing showed crisp pale covert rows and regular adult-like remige layering.
@@ -82,6 +82,6 @@ V3 used the Kerala/Indian chronology to correct an over-short late-nestling wing
 - Plate-level validation: locality-and-stage gating worked, but image generation still imported mature wing organization; the close wing check and single bounded edit corrected it. This does not prove a universal feather rule.
 - Unknowns remain exact age, sex, subspecies, continuous feather chronology, first-flight threshold and quantified display-size ratio.
 
-## Fixed readback — 2026-10-30 21:41 +08:00
+## Fixed readback — 2026-10-30 21:36:02 +08:00
 
 Archive `86e9c25aafc9c1a3a84a782506b6f95304a8a84c` returned a non-truncated tree; exact concept/generated/reviewed blob SHAs and sizes, manifest counts and supporting text markers matched. Production VERIFIED; scientific verification remains false.

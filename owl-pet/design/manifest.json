@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:36:02+08:00",
+  "updated": "2026-10-30T21:44:59+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11439,7 +11439,47 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "60-ketupa-flavipes-v4",
+      "path": "design/concepts/60-ketupa-flavipes-v4.jpg",
+      "species_id": 60,
+      "scientific_name": "Ketupa flavipes",
+      "common_name": "Tawny Fish Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "881cc636b62fa04b3ad72443e34fbe6f0b52d9db8245223090ab9f0a48e7c135",
+      "size_bytes": 136861,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Taiwan Encyclopedia of Life confirms yellow eyes, coarse dark streaking, monotypic stream-forest ecology, bottom-supported secondary cavities and bare yellow lower tarsi/toes without supporting an exact feathered fraction. V4 uses an approximately-40-day Wuling nestling from an age-known official record, fully supported at the cavity Y-fork. One juvenile-only edit removed crisp pale covert rows and adult-regular wing layering while retaining a developed, irregular, down-fringed folded wing and medium tail. Adults remain near-equal. Exact same-individual plumage chronology, first-flight threshold and sexed display ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "TFO-TAIEOL-2013-2024",
+        "TFO-SPNP-PNN-2026",
+        "TFO-WANG-2013",
+        "TFO-SUN-NEST-1997"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-60-ketupa-flavipes-v4-official-morphology-and-age-known-nestling-boundary",
+      "research_record": "research/species/60-ketupa-flavipes-v4.md",
+      "run_record": "production/runs/20261030T213800+0800-cycle-4.md",
+      "reviewed_at": "2026-10-30T21:43:53+08:00",
+      "generated_path": "production/generated/60-ketupa-flavipes-v4-generated-master.jpg",
+      "generated_blob": "608aae2308cc993eb30c627aac3ece2760840f7f",
+      "generated_sha256": "78a0fd89cd6c0adb5eecebff71a8e930ea14bd2666cc48f78af4ec38bde63d84",
+      "generated_size_bytes": 530896,
+      "reviewed_path": "production/reviewed/60-ketupa-flavipes-v4-reviewed-master.jpg",
+      "reviewed_blob": "6388dfd886d3511ca1f2caebcda6ed3b61e811bc",
+      "reviewed_sha256": "a7adad44965254de866f0425608b10cdc37aef3fd695b1ee4d9790c4abb7ddb3",
+      "reviewed_size_bytes": 490827,
+      "archive_note": "V1-v3 preserved. Initial and edited 1536x1024 originals plus 680x453 derivative opened. One juvenile-only wing edit removed ordered adult-like pale rows/layering while preserving the age-known developed-but-nest-supported stage and natural support. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "32ae273bc0e5a0ce9a2b85a2d0b6f95e8d707097"
     }
   ],
-  "updated_at": "2026-10-30T21:36:02+08:00"
+  "updated_at": "2026-10-30T21:44:59+08:00"
 }

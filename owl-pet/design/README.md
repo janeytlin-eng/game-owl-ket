@@ -2465,3 +2465,10 @@ Verification 2026-10-30T19:47:00+08:00: #52 v4 fixed archive `8e4e7a1eae16488476
 Recovered Mikkola pp.280–281 supports an age-unknown greyish-yellow-eyed, finely whitish/brown-barred mesoptile and a subtle male-paler/female-heavier adult direction. Two targeted juvenile edits removed adult-bright eyes and a mature spotted wing panel. PASS_WITH_LIMITATIONS; science false.
 
 Verification 2026-10-30T20:03:00+08:00: #54 v4 fixed archive `0598a72a5105755f47dfdb8b993c4cdc589bfb83` returned exact image blobs/URLs plus manifest 561 and supporting records. Batch 5/6, next cycle 6; science false.
+
+
+## #60 · Tawny Fish Owl · *Ketupa flavipes* · v4
+
+- Concept: `design/concepts/60-ketupa-flavipes-v4.jpg`; full generated/reviewed masters retained under `production/`.
+- Official Taiwan morphology keeps the lower tarsi/toes bare yellow without inventing a precise feathered fraction. The juvenile is an approximately-40-day Wuling nestling, fully supported at the cavity Y-fork.
+- One juvenile-only edit removed adult-like pale covert rows and regular layering; edited original and derivative opened. PASS_WITH_LIMITATIONS; exact plumage chronology and flight threshold remain unknown. Science false.

@@ -67,3 +67,10 @@ No extra birds, fish/prey, orange eyes, fully feathered lower tarsi, tiny chick,
 ## Iteration hypothesis
 
 V3 corrected an over-young wing-bud boundary. V4 adds an official Taiwan adult-morphology gate: lower tarsus/toes must remain bare yellow without turning the synthesis into a precise feathered fraction. The approximately-40-day juvenile remains developed but irregular and fully nest-supported.
+
+
+## Actual production review — 2026-10-30
+
+- IMAGE_GENERATED: 68.0 s. The first 1536×1024 original was opened. Title, count, near-equal adults, stream/cavity setting, bare yellow lower tarsi/toes and two-foot juvenile support passed; the juvenile wing had crisp adult-like pale covert rows and regular layering.
+- REVIEWED: one juvenile-only edit, 69.8 s. The edited 1536×1024 original and 680×453 derivative were opened. Pale rows/regular layering were removed; irregular down-fringed formed feathers and medium tail remained.
+- Result: PASS_WITH_LIMITATIONS; exact same-individual plumage chronology and first-flight threshold remain unknown. Science false.

@@ -1400,3 +1400,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - Verified #44 v4 at `ce67377ea8b6459d8c33c848134e5da77faba2c4`; batch advances to 2/6, next cycle 3.
+
+
+- 2026-10-30T21:44:59+08:00 — archived #60 *Ketupa flavipes* v4. Added official Taiwan morphology/nest synthesis, retained the age-known approximately-40-day Wuling boundary, corrected the over-precise tarsal feather fraction, and performed one juvenile-wing edit. Manifests 566/565/556; unique 175/251; fixed readback pending; science false.

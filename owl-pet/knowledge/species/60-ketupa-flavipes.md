@@ -66,3 +66,11 @@ Do not render a tiny chick, wing buds, hidden/nearly absent tail, adult-regular 
 - First v3 render passed count/text/adults/setting/support but juvenile wing markings read too adult-regular. One juvenile-only edit softened the pattern without erasing age-supported developed remiges or tail.
 - Reopened full 1536×1024 reviewed JPEG: exactly three birds and labels; yellow eyes; messy lateral tufts; near-equal adults; bare greenish-yellow lower tarsi/toes; Y-fork/stream setting; fully supported non-flying juvenile. Concept blob `ec1f604988e32c20b6c69e5e3465369c5a142330`, 408698 bytes.
 - Scientific status remains pending: exact feather geometry, continuous sequence, first-flight threshold, sex ratio and regional variation remain unknown.
+
+
+## v4 evidence, production and review — 2026-10-30
+
+- New source `TFO-TAIEOL-2013-2024` confirms the adult yellow eyes, coarse dark streaking, stream-forest/cavity context and bare yellow lower tarsi/toes, but does not justify a precise feathered fraction. V4 removes that over-precision.
+- Reused `TFO-SPNP-PNN-2026`, `TFO-WANG-2013` and `TFO-SUN-NEST-1997`; the juvenile remains an approximately-40-day Wuling nestling, developed but fully supported and non-flying.
+- Initial 1536×1024 plate passed title/count/adults/setting/support but showed crisp adult-like juvenile covert rows. One juvenile-only edit removed the pale rows and regular layering while retaining irregular formed feathers and a medium tail.
+- Edited original and 680×453 derivative reopened; PASS_WITH_LIMITATIONS. Exact same-individual feather sequence, first-flight threshold and sexed display ratio remain unknown. Scientific verification remains false.

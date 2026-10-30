@@ -2487,3 +2487,10 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 ### #54 v4 VERIFIED — 2026-10-30T20:03:00+08:00
 - Fixed archive `0598a72a5105755f47dfdb8b993c4cdc589bfb83` returned exact image blobs/URLs; manifest 561 and supporting records matched. Batch 5/6, next cycle 6; unique 175/251; science false.
+
+
+### #60 v4 archive prepared — 2026-10-30T21:44:59+08:00
+
+- Concept 680×453, 136,861 bytes, SHA-256 `881cc636b62fa04b3ad72443e34fbe6f0b52d9db8245223090ab9f0a48e7c135`; generated/reviewed masters 1536×1024.
+- One juvenile-only wing edit removed adult-like pale rows/layering; full original and derivative reopened. Lower tarsi/toes remain bare yellow and the approximately-40-day juvenile remains fully Y-fork-supported.
+- Manifests 566/565/556; unique remains 175/251; science false; fixed readback pending.

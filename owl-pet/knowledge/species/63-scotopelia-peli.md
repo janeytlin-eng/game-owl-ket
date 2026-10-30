@@ -39,3 +39,9 @@ Status: VERIFIED archive, image reviewed; scientific calibration pending; scient
 - New `PFO-BROOKE-1984-P128` (printed pp.127–128) adds riparian-clear-pool habitat, a ten-week nestling period and juvenile association with resident adults until the next breeding season.
 - V4 deliberately differs from v3: an age-unknown dependent post-fledging bird is fully branch-supported, retains dominant pale down per the current BirdLife/SANBI account, and may show a compact formed folded wing and short-to-medium tail. This is a bounded synthesis, not a measured feather timetable.
 - Long dependence does not license a miniature chick, exact age, adult-regular wing rows or a first-flight claim. Adult sex cue remains subtle only. Science false pending image review.
+
+
+## v4 review checkpoint
+
+- One edit corrected the initial male-larger scale error and adult-like juvenile covert/remige rows.
+- Reopened master and derivative pass the evidence gates: subtle female fullness only; down-dominant dependent branch juvenile; compact softened formed wing; bilateral support. PASS_WITH_LIMITATIONS; science false.

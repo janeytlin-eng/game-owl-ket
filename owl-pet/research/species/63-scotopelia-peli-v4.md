@@ -33,3 +33,8 @@ Create one horizontal 3:2 educational concept plate in the repository's establis
 ## Stage
 
 RESEARCH_READY at 2026-10-30T22:18:00+08:00. New 1 / reused 2 / corrected 1. Image not yet generated; no cycle credit.
+
+
+## Image review — 2026-10-30T22:27:00+08:00
+
+Initial render passed title/count/habitat/support but made the male visibly larger and gave the juvenile crisp adult-like pale covert rows with long regular layered remiges. One bounded edit corrected both issues. The edited 1536×1024 master and 680×453 derivative were reopened: female is only subtly fuller; the juvenile remains down-dominant with a compact down-fringed formed wing, short-to-medium tail and bilateral branch grip. PASS_WITH_LIMITATIONS; exact age, feather chronology and first-flight threshold remain unknown; science false.

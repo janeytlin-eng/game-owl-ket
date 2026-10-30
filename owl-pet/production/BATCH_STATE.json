@@ -8711,25 +8711,24 @@
       "next_cycle": 2,
       "last_checkpoint": {
         "cycle": 2,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Asio capensis",
         "species_id": 78,
         "version": 4,
         "run_id": "20261031T022749+0800-cycle-2",
-        "at": "2026-10-31T02:28:40+08:00",
+        "at": "2026-10-31T02:30:20+08:00",
         "run_record": "owl-pet/production/runs/20261031T022749+0800-cycle-2.md",
         "evidence": {
-          "source_delta": {
-            "new": 0,
-            "reused": 6,
-            "corrected": 1
-          },
-          "web_attempts": "two search batches and two direct opens returned empty error payloads; no credit",
-          "mikkola": "printed pp.518–519 / PDF pp.520–521 reused from repository record; uploaded file not directly available in this runtime",
+          "path": "owl-pet/production/generated/78-asio-capensis-v4-generated-master.jpg",
+          "size": 409532,
+          "width": 1536,
+          "height": 1024,
+          "generation_seconds": 41.3,
+          "review": "exact text/count and adult identity pass; juvenile wing retains repeated pale rows and long adult-like layering; targeted edit required",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T02:28:40+08:00",
+      "last_updated_at": "2026-10-31T02:30:20+08:00",
       "audit_notes": [
         "2026-10-31T01:34:32+08:00 cycle1 #77 Asio stygius v4 SCIENCE_REVISION STARTED; latest main/batch/v3 research/image checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T01:35:05+08:00 cycle1 #77 v4 RESEARCH_READY; new0/reused5/corrected1; v3 reopened and long layered juvenile wing panel identified as inconsistent with dated poor-remige stage; searches/direct opens empty and not credited; full prompt saved; science false; no credit.",
@@ -8738,20 +8737,21 @@
         "2026-10-31T01:39:15+08:00 cycle1 #77 v4 ARCHIVED tree prepared; concept/generated/reviewed/crop, manifests and support records included; fixed readback pending; manifests 581/580/571; science false; no credit.",
         "2026-10-31T01:39:53+08:00 cycle1 #77 v4 VERIFIED against fixed archive d3c0236ead2d984344b9ec906cf430a47171e649; non-truncated 2165-entry tree, exact JPEG assets and text records matched; manifests 581/580/571; batch 1/6 next_cycle2; unique remains175/251; science false; lease released.",
         "2026-10-31T02:27:49+08:00 cycle2 #78 Asio capensis v4 SCIENCE_REVISION STARTED; latest main/batch/v3 research/fixed v3 image checked; expired top-level #70 pointer superseded after confirming later VERIFIED #70 and current batch state; v1-v3 preserved; 15-minute lease acquired; no credit.",
-        "2026-10-31T02:28:40+08:00 cycle2 #78 v4 RESEARCH_READY; new0/reused6/corrected1; two search batches and two direct source opens returned empty error payloads and were not credited; v3 actual reviewed master opened; older dependent juvenile retained but exact 29–35-day label and adult-regular wing rows removed from design claim; full prompt saved; science false; no credit."
+        "2026-10-31T02:28:40+08:00 cycle2 #78 v4 RESEARCH_READY; new0/reused6/corrected1; two search batches and two direct source opens returned empty error payloads and were not credited; v3 actual reviewed master opened; older dependent juvenile retained but exact 29–35-day label and adult-regular wing rows removed from design claim; full prompt saved; science false; no credit.",
+        "2026-10-31T02:30:20+08:00 cycle2 #78 v4 IMAGE_GENERATED in 41.3s; 1536x1024 original opened. Exact title/count/adult identity and modest female-fullness direction pass; juvenile has natural low step support but retains repeated pale covert rows and long adult-like layered wing, so targeted edit required; science false; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T022749+0800-cycle-2",
-        "heartbeat_at": "2026-10-31T02:28:40+08:00",
-        "expires_at": "2026-10-31T02:43:40+08:00"
+        "heartbeat_at": "2026-10-31T02:30:20+08:00",
+        "expires_at": "2026-10-31T02:45:20+08:00"
       },
       "in_progress": {
         "cycle": 2,
         "species": "Asio capensis",
         "species_id": 78,
         "version": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261031T022749+0800-cycle-2"
       }
     }
@@ -8759,8 +8759,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261031T022749+0800-cycle-2",
-    "heartbeat_at": "2026-10-31T02:28:40+08:00",
-    "expires_at": "2026-10-31T02:43:40+08:00"
+    "heartbeat_at": "2026-10-31T02:30:20+08:00",
+    "expires_at": "2026-10-31T02:45:20+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8908,7 +8908,7 @@
     "heartbeat_at": "2026-10-30T23:34:00+08:00",
     "expires_at": "2026-10-30T23:49:00+08:00"
   },
-  "last_updated_at": "2026-10-31T02:28:40+08:00",
+  "last_updated_at": "2026-10-31T02:30:20+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9326,26 +9326,25 @@
     "species": "Asio capensis",
     "species_id": 78,
     "version": 4,
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "run_id": "20261031T022749+0800-cycle-2"
   },
   "last_checkpoint": {
     "cycle": 2,
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "species": "Asio capensis",
     "species_id": 78,
     "version": 4,
     "run_id": "20261031T022749+0800-cycle-2",
-    "at": "2026-10-31T02:28:40+08:00",
+    "at": "2026-10-31T02:30:20+08:00",
     "run_record": "owl-pet/production/runs/20261031T022749+0800-cycle-2.md",
     "evidence": {
-      "source_delta": {
-        "new": 0,
-        "reused": 6,
-        "corrected": 1
-      },
-      "web_attempts": "two search batches and two direct opens returned empty error payloads; no credit",
-      "mikkola": "printed pp.518–519 / PDF pp.520–521 reused from repository record; uploaded file not directly available in this runtime",
+      "path": "owl-pet/production/generated/78-asio-capensis-v4-generated-master.jpg",
+      "size": 409532,
+      "width": 1536,
+      "height": 1024,
+      "generation_seconds": 41.3,
+      "review": "exact text/count and adult identity pass; juvenile wing retains repeated pale rows and long adult-like layering; targeted edit required",
       "science": false
     }
   }

@@ -8838,35 +8838,62 @@
       "next_cycle": 1,
       "last_checkpoint": {
         "cycle": 1,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Otus brucei",
         "species_id": 83,
         "version": 4,
         "run_id": "20261031T043000+0800-cycle-1",
-        "at": "2026-10-31T04:40:00+08:00",
+        "at": "2026-10-31T04:43:30+08:00",
         "run_record": "owl-pet/production/runs/20261031T043000+0800-cycle-1.md",
         "evidence": {
-          "generated_master": "owl-pet/production/generated/83-otus-brucei-v4-generated-master.jpg",
-          "sha256": "53903199acb19656c8a91071bc8df2fcf876c74d1a3da5fee73ae2336be6b52a",
-          "size_bytes": 628438,
-          "dimensions": "1536x1024",
-          "generation_seconds": 30.7,
+          "edit_count": 1,
+          "edit_seconds": 52.4,
           "actual_full_view": true,
-          "edit_required": "juvenile wing remains long with repeated pale rows",
+          "actual_crop_view": true,
+          "actual_derivative_view": true,
+          "result": "PASS_WITH_LIMITATIONS",
+          "assets": {
+            "concept": {
+              "path": "owl-pet/design/concepts/83-otus-brucei-v4.jpg",
+              "sha256": "9ad1b557860591d62238ddb128aba6e62a70b0bf410f62051cf182a98c84235e",
+              "size": 152814,
+              "dimensions": "680x453"
+            },
+            "reviewed": {
+              "path": "owl-pet/production/reviewed/83-otus-brucei-v4-reviewed-master.jpg",
+              "sha256": "afa8a75a6e232ed529cba71be812f8764149a373777ededf01f47371ca95b38b",
+              "size": 571151,
+              "dimensions": "1536x1024"
+            },
+            "review_crop": {
+              "path": "owl-pet/production/review-crops/83-otus-brucei-v4-juvenile.jpg",
+              "sha256": "5503c744901b78a77e565b61aa67719249a67af202e99de9506aa2ca4ea7701c",
+              "size": 144428,
+              "dimensions": "520x700"
+            }
+          },
+          "unknown": [
+            "exact age",
+            "first-flight threshold",
+            "daily tract geometry",
+            "subspecies",
+            "sexed standing-height ratio"
+          ],
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T04:40:00+08:00",
+      "last_updated_at": "2026-10-31T04:43:30+08:00",
       "audit_notes": [
         "2026-10-31T04:30:00+08:00 cycle1 #83 Otus brucei v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T04:38:00+08:00 cycle1 #83 v4 RESEARCH_READY; new1/reused2/corrected2; Mikkola printed pp.126–127/PDF pp.128–129 and Chandran et al. 2016 full text actually read; v3 reopened; exact individual day label, adult-like juvenile wing and unsupported adult height difference identified; full prompt saved; science false; no credit.",
-        "2026-10-31T04:40:00+08:00 cycle1 #83 v4 IMAGE_GENERATED in 30.7s; original 1536x1024 opened. Text/count/cavity/adult support and near-equal height pass, but juvenile retains a long layered wing with repeated pale rows; targeted edit required; generated master persisted; science false; no credit."
+        "2026-10-31T04:40:00+08:00 cycle1 #83 v4 IMAGE_GENERATED in 30.7s; original 1536x1024 opened. Text/count/cavity/adult support and near-equal height pass, but juvenile retains a long layered wing with repeated pale rows; targeted edit required; generated master persisted; science false; no credit.",
+        "2026-10-31T04:43:30+08:00 cycle1 #83 v4 REVIEWED after one targeted 52.4s edit; full reviewed master, 520x700 juvenile crop and 680x453 derivative opened. Exact text/count, near-equal adult crown height, pale fine-streaked identity, compact soft juvenile wing/short tail, horizontal bars and bilateral cavity-lip support pass; PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T043000+0800-cycle-1",
-        "heartbeat_at": "2026-10-31T04:40:00+08:00",
-        "expires_at": "2026-10-31T04:55:00+08:00"
+        "heartbeat_at": "2026-10-31T04:43:30+08:00",
+        "expires_at": "2026-10-31T04:58:30+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -8875,7 +8902,7 @@
         "version": 4,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T043000+0800-cycle-1",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261031T043000+0800-cycle-1.md"
       }
     }

@@ -1,3 +1,23 @@
+## 2026-10-30 — #48 *Strix nivicolum* v4 adjacent-species correction
+
+### HIML-NTM-YAMADAE
+- **Title / institution / date:** “灰林鴞” collection record / National Taiwan Museum, Ministry of Culture collection system / undated live record; specimen accession 1945-11-13.
+- **URL:** https://collections.culture.tw/ntm_collectionsweb/Collection?GID=0WMRM60WMB
+- **Accessed:** 2026-10-30; full collection text and taxonomic fields read.
+- **Source type:** national museum collection/species account; current subspecies assignment and descriptive text.
+- **Species / stage:** *Strix nivicolum yamadae*; adult description plus age-unknown juvenile sequence.
+- **Sections / lines:** taxonomy fields; collection description; habitat description.
+- **Facts:** current record identifies *S. n. yamadae*; adults are medium, round-headed and untufted with dark/buff facial pattern, dark back, creamy scapular patches, barred wing/tail and densely feathered tarsi/toes. Juveniles are very pale with sparse white down on head/underparts and indistinct dark ventral markings; plumage darkens and the ventral pattern sharpens with age.
+- **Limits / confidence:** not a dated live-development series; the accession specimen has damaged bill/wing/tail and does not establish juvenile age, wing length or movement ability. High confidence for repository taxon and qualitative color direction, low for timing.
+- **Design decision:** v4 uses an explicitly Taiwanese, age-unknown *yamadae* juvenile with pale immature plumage, sparse residual down, diffuse markings, short folded wings and natural support. It does not borrow the “very white” Hong Kong *Strix newarensis* caption.
+- **Linked records:** `owl-pet/research/species/48-strix-nivicolum-v4.md`; `owl-pet/production/runs/20261030T180200+0800-cycle-6.md`; planned `design/concepts/48-strix-nivicolum-v4.png`.
+
+### Reused/corrected source mapping
+- `HIML-MIKKOLA-2013`: printed p.329 supports grey-brown heavily barred mesoptile/white-frosted crown for #153; adjacent printed p.331 “very white Hong Kong young” belongs #155 *Strix newarensis* and is removed from #48 evidence.
+- `HIML-ITIS-2025`: current valid *Strix nivicolum*, historical *Syrnium nivicolum*, subspecies `ma`, `nivicolum`, `yamadae`.
+- `HIML-LEE-2025`: South Korean nest-box breeding and two fledged chicks; accessible abstract has no plumage chronology, so it does not date the v4 juvenile.
+- **Source/design delta:** new1 / reused3 / corrected1; science false.
+
 ## 2026-10-30 — #47 *Strix leptogrammica* v4 source-population gate
 
 ### BROW-KFBG-2026-CHICKS

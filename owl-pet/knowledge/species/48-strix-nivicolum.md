@@ -76,3 +76,9 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 ### v3 archive verification
 
 - Fixed archive commit `65261cd3140874582f304e27500fe8b96b31e52d` was read through the commit tree; concept and identical generated/reviewed master paths matched expected Git blob IDs and byte sizes. Related text records were read back. Production/archive VERIFIED; scientific status remains false.
+
+## v4 research-ready（2026-10-30）
+
+- Critical correction: Mikkola’s “very white” Hong Kong young is captioned under #155 Mountain Wood Owl *Strix newarensis* (printed p.331), not #153/#48 *Strix nivicolum*. V1–v3 are preserved but that attribution is retired.
+- New current source `HIML-NTM-YAMADAE` describes Taiwanese *S. n. yamadae* juveniles as very pale with sparse white down and blurred dark ventral markings that darken/sharpen with age; no age or flight threshold is supplied.
+- V4 selects one age-unknown Taiwanese `yamadae` juvenile, keeps both wings short/folded and movement unclaimed. New1/reused3/corrected1; science false. Full prompt: `owl-pet/research/species/48-strix-nivicolum-v4.md`.

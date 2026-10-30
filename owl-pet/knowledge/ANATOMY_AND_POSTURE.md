@@ -90,3 +90,9 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - Do not blend a later fledgling’s adult-type wings or climbing/flight behavior into an earlier cavity chick merely because both are the same species-level taxon.
 - Preserve historical source labels and current repository canonical name separately when subspecies synonymy differs between references.
 - First applied to #47 *Strix leptogrammica* v4; full original and 680×453 derivative review validated the gate for this species instance: the earlier Sri Lankan cavity chick retained folded/hidden wings and did not acquire later Hong Kong climbing/balance-flight or adult-type wing/tail. This is not universal cross-subspecies proof.
+
+## 2026-10-30 adjacent-caption species gate — discovered/applied, validation pending
+
+- When a photographic guide lays adjacent species across consecutive pages, bind every caption to the printed species heading/page before transferring juvenile color, stage or locality.
+- A visually memorable caption is not evidence for the preceding species. Preserve the old image/version, record the correction, and rebuild from the correct species/subspecies source.
+- First applied to #48 *Strix nivicolum* v4 after finding the “very white Hong Kong young” caption under #155 *Strix newarensis*, not #153 *S. nivicolum*. Image validation pending.

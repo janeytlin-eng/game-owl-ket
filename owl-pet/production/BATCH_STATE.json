@@ -7869,8 +7869,8 @@
         "run_id": "20261030T110100+0800-cycle-6",
         "cycle": 6,
         "species_no": "36",
-        "heartbeat_at": "2026-10-30T11:06:00+08:00",
-        "expires_at": "2026-10-30T11:21:00+08:00"
+        "heartbeat_at": "2026-10-30T11:09:00+08:00",
+        "expires_at": "2026-10-30T11:24:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -7880,20 +7880,29 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261030T110100+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261030T110100+0800-cycle-6.md",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T11:01:00+08:00",
         "research_record": "owl-pet/research/species/36-glaucidium-bolivianum-v4.md",
         "generated_path": "owl-pet/production/generated/36-glaucidium-bolivianum-v4-generated.png",
-        "generated_blob": "870e7bfba9c6a4ba148207100fa9620b8ba6f9fa"
+        "generated_blob": "870e7bfba9c6a4ba148207100fa9620b8ba6f9fa",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "edit_count": 1,
+        "reviewed_path": "owl-pet/production/reviewed/36-glaucidium-bolivianum-v4-reviewed.png",
+        "reviewed_blob": "da500ad7f10a926a6e6fa2759b7c6e92a15ad08d",
+        "crop_path": "owl-pet/production/review-crops/36-glaucidium-bolivianum-v4-juvenile.jpg",
+        "crop_blob": "5d7bf8143d35133d100cd2b936c94e9d0e786e13"
       },
       "last_checkpoint": {
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-30T11:06:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-30T11:09:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T110100+0800-cycle-6.md",
         "evidence": {
-          "generated_blob": "870e7bfba9c6a4ba148207100fa9620b8ba6f9fa",
-          "generation_seconds": 81.4,
-          "review_required": "male tail too long; juvenile wing too mature"
+          "edit_count": 1,
+          "full_opened": true,
+          "crop_opened": true,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "reviewed_blob": "da500ad7f10a926a6e6fa2759b7c6e92a15ad08d",
+          "crop_blob": "5d7bf8143d35133d100cd2b936c94e9d0e786e13"
         }
       },
       "lease": {
@@ -7902,10 +7911,10 @@
         "run_id": "20261030T110100+0800-cycle-6",
         "cycle": 6,
         "species_no": "36",
-        "heartbeat_at": "2026-10-30T11:06:00+08:00",
-        "expires_at": "2026-10-30T11:21:00+08:00"
+        "heartbeat_at": "2026-10-30T11:09:00+08:00",
+        "expires_at": "2026-10-30T11:24:00+08:00"
       },
-      "last_updated_at": "2026-10-30T11:06:00+08:00"
+      "last_updated_at": "2026-10-30T11:09:00+08:00"
     }
   ],
   "lease": {
@@ -8380,7 +8389,8 @@
     "2026-10-30T11:00:00+08:00: cycle5 #35 v4 VERIFIED at fixed archive aa1663e59491666803285fae77bba6c6ca812a3d; non-truncated 1953-entry tree and exact image/text/source tuples matched; batch5/6 next6; unique175/251; science false; lease released.",
     "2026-10-30T11:01:00+08:00: batch cycle6 STARTED #36 Glaucidium bolivianum v4 SCIENCE_REVISION; 15-minute lease acquired; v1-v3 retained; no credit.",
     "2026-10-30T11:04:00+08:00: cycle6 #36 v4 RESEARCH_READY; new2/reused2/corrected1; König 1991 printed pp.36-42/Figs4-5 and ITIS current name read; cavity-stage claim removed; full prompt persisted; science false; no credit.",
-    "2026-10-30T11:06:00+08:00: cycle6 #36 v4 IMAGE_GENERATED after 81.4-second wait; full plate opened; title/count/adult forms/support pass; male tail too long and juvenile wing too mature require targeted edit; no credit."
+    "2026-10-30T11:06:00+08:00: cycle6 #36 v4 IMAGE_GENERATED after 81.4-second wait; full plate opened; title/count/adult forms/support pass; male tail too long and juvenile wing too mature require targeted edit; no credit.",
+    "2026-10-30T11:09:00+08:00: cycle6 #36 v4 REVIEWED after one targeted male-tail/juvenile-wing edit; full plate and 560x700 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-30T0830+0800",
@@ -8391,10 +8401,16 @@
     "action": "SCIENCE_REVISION",
     "run_id": "20261030T110100+0800-cycle-6",
     "run_record": "owl-pet/production/runs/20261030T110100+0800-cycle-6.md",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T11:01:00+08:00",
     "research_record": "owl-pet/research/species/36-glaucidium-bolivianum-v4.md",
     "generated_path": "owl-pet/production/generated/36-glaucidium-bolivianum-v4-generated.png",
-    "generated_blob": "870e7bfba9c6a4ba148207100fa9620b8ba6f9fa"
+    "generated_blob": "870e7bfba9c6a4ba148207100fa9620b8ba6f9fa",
+    "review_result": "PASS_WITH_LIMITATIONS",
+    "edit_count": 1,
+    "reviewed_path": "owl-pet/production/reviewed/36-glaucidium-bolivianum-v4-reviewed.png",
+    "reviewed_blob": "da500ad7f10a926a6e6fa2759b7c6e92a15ad08d",
+    "crop_path": "owl-pet/production/review-crops/36-glaucidium-bolivianum-v4-juvenile.jpg",
+    "crop_blob": "5d7bf8143d35133d100cd2b936c94e9d0e786e13"
   }
 }

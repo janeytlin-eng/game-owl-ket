@@ -12,3 +12,9 @@
 Edit the supplied fixed v3 Band-bellied Owl plate. Preserve the whole image and every biological detail exactly: adult male left, age-unknown recent fledgling center, adult female right, all faces, dark irises, pale-yellow bills, adult white-X brows/lores, brown breast bands, reddish-brown belly bars, juvenile cinnamon-cream down, dark facial mask, short soft developing wing, concealed tail, bilateral broad-fork support, humid Andean foothill shade-coffee/plantain forest, subtitle “Pulsatrix melanota”, and all lower labels. Change only the top English title from “BAND-BELLIED OWL” to exactly “95 BAND-BELLIED OWL” in the same centered dark serif type, spacing and size class. Do not alter morphology, scale, posture, support, habitat, subtitle, labels or crop.
 
 Target: ../../design/concepts/95-pulsatrix-melanota-v4.jpg
+
+## Generated/reviewed
+
+- IMAGE_GENERATED 2026-10-31T07:26:00+08:00 after 38.4 s; title-only edit.
+- REVIEWED 2026-10-31T07:27:00+08:00; full 1536×1024 plate and 620×730 juvenile crop opened; edit count 0.
+- PASS_WITH_LIMITATIONS. Recent fledgling retains cinnamon/cream down, dark face and irises, short low-contrast developing wing, concealed tail, two-foot and belly support on the broad fork. Exact age/sex/flight threshold remain unknown; science=false.

@@ -1,3 +1,9 @@
+## #81 Eurasian Scops Owl — *Otus scops* — v4 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/908b58ab43127a62c31c1ff9b6b93d9a6a3e9441/owl-pet/design/concepts/81-otus-scops-v4.jpg?raw=1)
+- [Fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/908b58ab43127a62c31c1ff9b6b93d9a6a3e9441)
+- PASS_WITH_LIMITATIONS; science false.
+
 ## #81 Eurasian Scops Owl — *Otus scops* — v4 science revision
 
 - Concept: [81-otus-scops-v4.jpg](concepts/81-otus-scops-v4.jpg)

@@ -68,3 +68,5 @@ V3 correctly represented a different late-dependent 2018 juvenile. V4 prevents c
 - **Hypothesis:** record-specific short white tufts and age-unknown wording would prevent blending with v3's separate 2018 late-dependent juvenile.
 - **Applied:** adults were gated to long dark horizontal tufts; the immature was gated to short white tufts, pale fine barring and simple high-branch support.
 - **Verified:** the first render passed at full and derivative sizes without editing. This verifies separation of the two visual stages in this plate, not a continuous moult chronology. Science false.
+
+- **Fixed readback:** archive `45afb269dc4d805ab9601859dca6263d90598cbe` returned exact image paths, blobs and sizes, a non-truncated tree and 568/567/558 manifests. Batch COMPLETE 6/6; science false.

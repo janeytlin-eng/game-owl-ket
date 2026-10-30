@@ -2492,3 +2492,6 @@ Verification 2026-10-30T21:51:45+08:00: #61 v4 fixed archive `d1c49366e7bd9746bd
 - Concept: `design/concepts/62-ketupa-sumatrana-v4.jpg`; full master retained under `production/`.
 - NUS SBR printed p.178 supports the age-unknown Pulau Ubin pale transitional immature with short white tufts; it is not assigned the separate 2018 family bird's age or behavior.
 - Original and derivative opened; no edit required. PASS_WITH_LIMITATIONS; exact age, dependence, moult and flight threshold remain unknown. Science false.
+
+
+Verification 2026-10-30T21:56:57+08:00: #62 v4 fixed archive `45afb269dc4d805ab9601859dca6263d90598cbe` returned exact assets and manifests; batch `2026-10-30T2039+0800` COMPLETE 6/6; science false.

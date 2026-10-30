@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:55:55+08:00",
+  "updated": "2026-10-30T21:56:57+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11797,10 +11797,44 @@
       "reviewed_sha256": "65a457d741b65caa36015ac81a032052ee0a40f41bbe858ecd36f2370b397a25",
       "reviewed_size_bytes": 524521,
       "archive_note": "V1-v3 preserved. Generated/reviewed 1536x1024 original and 680x453 derivative opened. No edit required; the 2017 record's pale short-tufted transition remained distinct from both adults and the separate 2018 juvenile. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "git_blob": "2588b61c7812acb9b5e90ec005aaf1677beac142"
+      "readback_pending": false,
+      "archive_commit": "45afb269dc4d805ab9601859dca6263d90598cbe",
+      "git_blob": "2588b61c7812acb9b5e90ec005aaf1677beac142",
+      "fixed_commit": "45afb269dc4d805ab9601859dca6263d90598cbe",
+      "verified_at": "2026-10-30T21:56:57+08:00",
+      "verification_result": "fixed archive returned a non-truncated 2,091-entry tree, exact concept/generated/reviewed blob SHAs and sizes, manifest counts 568/567/558, and research/knowledge/run/state markers; batch closed COMPLETE 6/6; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "45afb269dc4d805ab9601859dca6263d90598cbe",
+        "concept": {
+          "path": "design/concepts/62-ketupa-sumatrana-v4.jpg",
+          "blob": "2588b61c7812acb9b5e90ec005aaf1677beac142",
+          "size_bytes": 144961,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/45afb269dc4d805ab9601859dca6263d90598cbe/owl-pet/design/concepts/62-ketupa-sumatrana-v4.jpg"
+        },
+        "generated": {
+          "path": "production/generated/62-ketupa-sumatrana-v4-generated-master.jpg",
+          "blob": "dc123f3fd7d7833558eaba48c7b3e96e6418d1bb",
+          "size_bytes": 524521,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/45afb269dc4d805ab9601859dca6263d90598cbe/owl-pet/production/generated/62-ketupa-sumatrana-v4-generated-master.jpg"
+        },
+        "reviewed": {
+          "path": "production/reviewed/62-ketupa-sumatrana-v4-reviewed-master.jpg",
+          "blob": "dc123f3fd7d7833558eaba48c7b3e96e6418d1bb",
+          "size_bytes": 524521,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/45afb269dc4d805ab9601859dca6263d90598cbe/owl-pet/production/reviewed/62-ketupa-sumatrana-v4-reviewed-master.jpg"
+        },
+        "manifest_counts": {
+          "design": 568,
+          "legacy": 567,
+          "production": 558
+        },
+        "tree_truncated": false,
+        "tree_entries": 2091,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T21:55:55+08:00"
+  "updated_at": "2026-10-30T21:56:57+08:00"
 }

@@ -82,3 +82,11 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - Preserve visible foot placement and low center of mass; do not turn “mobile brancher” into flight or a helpless hatchling.
 - A rare alternative nest record must be labeled exceptional and must not silently replace the modal nest context.
 - First applied to #46 *Strix ocellata* v4; edited original and 680×453 derivative passed split-support/folded-wing review after one juvenile-wing correction. Validation is species-instance-specific, not universal.
+
+
+## 2026-10-30 cross-subspecies juvenile gate — discovered/applied, validation pending
+
+- When two sources describe different subspecies/populations or developmental stages, select one source population for the image and state it in the research record.
+- Do not blend a later fledgling’s adult-type wings or climbing/flight behavior into an earlier cavity chick merely because both are the same species-level taxon.
+- Preserve historical source labels and current repository canonical name separately when subspecies synonymy differs between references.
+- First applied to #47 *Strix leptogrammica* v4; validation requires full original and derivative review.

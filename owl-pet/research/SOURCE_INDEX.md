@@ -1,3 +1,22 @@
+## 2026-10-30 — #47 *Strix leptogrammica* v4 source-population gate
+
+### BROW-KFBG-2026-CHICKS
+- **Title / institution / date:** “Brown Wood Owls Successfully Breed Again at KFBG” / Kadoorie Farm and Botanic Garden / 2026-05-29.
+- **URL:** https://www.kfbg.org/en/KFBG-blog/post/Brown-Wood-Owls-Successfully-Breed-Again-at-KFBG
+- **Accessed:** 2026-10-30; article text and dated photo captions read.
+- **Source type:** institutional field-monitoring account; infrared cameras, acoustic recording and distant binocular observation.
+- **Species / stage:** *Strix leptogrammica ticehursti*; two chicks followed from an estimated ~3 weeks through nest departure/fledging.
+- **Sections / captions:** “Unexpected Discovery and Discreet Observation”; day-10 sleeping caption; day-14 climb caption; “New Hope in the Night Forest”.
+- **Facts:** chicks were fluffy white and mostly rested/peered from a bird’s-nest fern; one climbed to a higher canopy position on observation day 14, the second followed a few days later; both then stayed in the nesting tree canopy and later expanded activity while practicing balancing/flying.
+- **Limits / confidence:** ages were estimated; observation-day count is not hatch age; Hong Kong `ticehursti` and a bird’s-nest-fern site must not be transferred to Sri Lankan source birds. High confidence for this monitored family, low for universal timing.
+- **Design decision:** use as an explicit conflict/sequence boundary only. Do not give the Sri Lankan 34-day chick the later Hong Kong juvenile’s adult-type wings, canopy-climbing or balance-flight action.
+- **Linked records:** `owl-pet/research/species/47-strix-leptogrammica-v4.md`; `owl-pet/production/runs/20261030T175400+0800-cycle-5.md`; planned `design/concepts/47-strix-leptogrammica-v4.png`.
+
+### Reused source mapping
+- `BROW-MIKKOLA-2013-P326-327`: printed pp.326–327 / PDF pp.328–329 re-read; adult morphology, mass direction and mesoptile. Taxonomy differs from the 2006 source label.
+- `BROW-SAMARAWICKRAMA-2006`: full pp.73–78 re-read; Sri Lankan jackfruit cavity, 34-day labelled chick and longer dependency; source label `ochrogenys` retained historically.
+- `BROW-HKBWS-2024`: Hong Kong recently fledged `ticehursti` can retain down while already having adult-type wing/tail; confirms non-universality.
+
 ## 2026-10-30 — #46 *Strix ocellata* v4 atypical-nest boundary
 
 ### MOWL-KUMAR-KUSHWAHA-2019-P613-614

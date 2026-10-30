@@ -107,3 +107,11 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 ### v3 archive verification
 
 - Fixed archive commit `6b079199ba7ed56c9bf3f17979bcb6193b6ef1c9` was read through the commit tree; concept, generated master and reviewed master paths matched their expected Git blob IDs and byte sizes. Related text records were read back. Production/archive VERIFIED; scientific status remains false.
+
+
+## v4 research-ready（2026-10-30）
+
+- New monitored chronology: `BROW-KFBG-2026-CHICKS` follows two Hong Kong `ticehursti` chicks from estimated ~3 weeks through nest departure and later balance/flight practice.
+- Correction: this later Hong Kong sequence is not merged with the published Sri Lankan 34-day cavity chick. V4 remains a source-population-specific Sri Lankan reconstruction with both juvenile wings folded.
+- Taxonomy note: Samarawickrama 2006 calls the population `S. l. ochrogenys`; Mikkola 2013 includes Sri Lanka under `S. l. indranee`. Repository canonical stays `Strix leptogrammica`; no unverified synonym resolution.
+- New1 / reused3 / corrected1; full prompt and boundaries: `owl-pet/research/species/47-strix-leptogrammica-v4.md`; science false.

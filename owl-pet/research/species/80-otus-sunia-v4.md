@@ -28,3 +28,7 @@ Edit the attached #80 Otus sunia v3 plate in place, preserving its photorealisti
 
 Full image, 520×700 juvenile crop and 680×453 derivative opened. The edited juvenile is down-dominated with only a few tiny short irregular dark tips, low bilateral/belly support and no tail or flight posture. Adults, text and habitat remain stable. PASS_WITH_LIMITATIONS; one direct edit; science false.
 
+## Archive checkpoint
+
+2026-10-31T02:47:06+08:00: exact four asset tuples and manifests persisted; immutable readback pending.
+

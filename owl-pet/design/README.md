@@ -1,3 +1,9 @@
+## #80 Oriental Scops Owl — *Otus sunia* — v4 science revision
+
+- Concept: [80-otus-sunia-v4.jpg](concepts/80-otus-sunia-v4.jpg)
+- Research: [80-otus-sunia-v4.md](../research/species/80-otus-sunia-v4.md)
+- ARCHIVED; PASS_WITH_LIMITATIONS; readback pending; science false.
+
 ## #79 Collared Scops Owl — *Otus lettia* — v4 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/20419a0cd19aec7ecffa739e3b319fc3f61a95ea/owl-pet/design/concepts/79-otus-lettia-v4.jpg?raw=1)

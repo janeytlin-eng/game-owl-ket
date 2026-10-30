@@ -1,3 +1,9 @@
+## 2026-10-31 #80 *Otus sunia* v4 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; one direct edit; PASS_WITH_LIMITATIONS; science false; unique175/251.
+- 7–10 d juvenile now has only tiny sparse just-opening tips; no tail/perch/flight.
+- Exact assets and manifests584/583/574 persisted; readback pending.
+
 ## 2026-10-31 #79 *Otus lettia* v4 VERIFIED
 
 - SCIENCE_REVISION; one direct imagegen revision; PASS_WITH_LIMITATIONS; science false; unique 175/251.

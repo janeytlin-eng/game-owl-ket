@@ -26,3 +26,7 @@ Reused SUNIA-PUKINSKY-1977 indexed chronology, SUNIA-NO-DISS-2017 pp.114–115/F
 
 One direct imagegen revision shortened v3's juvenile wing pins. Full/crop/derivative opened: tiny sparse tips, low support, no tail/perch/flight pass. Exact tract geometry remains unknown; science false.
 
+## 2026-10-31 v4 archive checkpoint
+
+Exact assets and records persisted; fixed readback pending; science false.
+

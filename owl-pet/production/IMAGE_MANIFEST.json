@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T15:36:00+08:00",
+  "updated": "2026-10-30T16:44:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10670,7 +10670,56 @@
         "knowledge_blob": "b3b787b8872bb6d973b06de7bbbc0f3bddf32a91",
         "batch_blob_at_archive": "3ecd9d3ff92e6d66d618d5ecab9221d03ebbdaaa"
       }
+    },
+    {
+      "id": "43-athene-blewitti-v4",
+      "path": "design/concepts/43-athene-blewitti-v4.png",
+      "species_id": 43,
+      "scientific_name": "Athene blewitti",
+      "historical_names": [
+        "Heteroglaux blewitti"
+      ],
+      "common_name": "Forest Owlet",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "77871f6ab0c10a64595a805ba0a84e4cae39166905b561b60d84b7de5ad21fd9",
+      "size_bytes": 611507,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Mehta et al. 2021 measured 27 females and 19 males and found no significant sex difference in ten body measures; v4 therefore renders adults at equal apparent scale and shared plumage, using pose only. Three targeted edits reduced Spotted Owlet drift, equalized apparent adult bulk and replaced the juvenile's mature wing with a short soft wing. The juvenile remains the BNHS-supported 28–30 d recently emerged, weak/reluctant-flight stage with darker blotched ventrum, hidden stumpy tail and natural cavity-lip support. Exact individual age, iris chronology and sex-specific juvenile development remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 3,
+      "source_ids": [
+        "FOW-MEHTA-RSD-2021",
+        "FOW-JATHAR-2004",
+        "FOW-ISHTIAQ-2005",
+        "FOW-MIKKOLA-2013",
+        "FOW-KOPARDE-2018",
+        "FOW-KHAN-2023-HABITAT"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-43-athene-blewitti-v4-adult-sex-size-correction",
+      "research_record": "research/species/43-athene-blewitti-v4.md",
+      "run_record": "production/runs/20261030T163400+0800-cycle-1.md",
+      "generated_path": "production/generated/43-athene-blewitti-v4-generated.png",
+      "generated_blob": "f7705d61f054950a605cf4402096b0be3797b2da",
+      "generated_sha256": "a82b9f4678a9d195bb07f5daade697f33a56230fae8e134f662108567899a30b",
+      "generated_size_bytes": 3181705,
+      "reviewed_path": "production/reviewed/43-athene-blewitti-v4.png",
+      "reviewed_blob": "2a915087cc69033c25c6ca69b68fdaedaf26b257",
+      "reviewed_sha256": "85d3db028a2afceae606551cc7b5e2e06cec708ed498145c5a0cdaffb86f0b11",
+      "reviewed_size_bytes": 2665679,
+      "review_crop_path": "production/review-crops/43-athene-blewitti-v4-juvenile.png",
+      "review_crop_blob": "29cbf5248ff1861edcae95a2c7f844b61da6133a",
+      "review_crop_sha256": "e42348bbdacad98a2dcba02637eef7597c3dc61fa9f91572d5bbbabef6c9782f",
+      "review_crop_size_bytes": null,
+      "archive_note": "V1-v3 retained. V4 corrects unsupported visible adult sex dimorphism, preserves the evidence-supported 28–30 d recently emerged stage, and records three targeted edits. Full 1536x1024, 520x720 crop and 680x453 derivative reopened. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verification_result": "pending"
     }
   ],
-  "updated_at": "2026-10-30T15:36:00+08:00"
+  "updated_at": "2026-10-30T16:44:00+08:00"
 }

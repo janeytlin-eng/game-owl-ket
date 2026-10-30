@@ -1373,3 +1373,10 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - VERIFIED #42 v4 at fixed archive `db6268ba091584c3e3b735240f13deaa81dc815b`; exact image and text evidence matched. Closed batch `2026-10-30T1230+0800` at 6/6 without changing unique-species count (175/251).
+
+
+### 2026-10-30 — #43 Forest Owlet v4
+
+- Added an evidence-led revision after Mehta et al. 2021 found no significant sexual size dimorphism in a 46-bird live sample.
+- Removed the visible female-size / extra-barring inference, reduced adult wing spotting and shortened the 28–30 d juvenile's wing through three targeted edits.
+- Preserved v1–v3 and all historical records. Added concept, generated, reviewed and juvenile-crop assets plus source/research/run records. Unique count remains 175/251; science false.

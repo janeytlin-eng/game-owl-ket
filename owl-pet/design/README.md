@@ -2356,3 +2356,8 @@ When one breeding pair has different morphs, reproduce that pairing only as an i
 ### Evidence rule — juvenile chronology before appearance (applied #42 v4, 2026-10-30)
 
 When a longitudinal source shows that a later nestling age already carries adult-like remiges, rectrices or markings, do not pair that age label with an artificially undeveloped wing. Select an earlier documented stage with compatible posture and support, or leave the age uncertain. For #42 v4 this rule changed the design from an approximately-four-week immature to a supported 16–20 d cavity nestling; two edits removed mature crown/wing ordering, and the final plate/crop passed with limitations. This rule is applied and visually checked here, but it is not a cross-species developmental law.
+
+
+### 2026-10-30 — adult sex-dimorphism evidence gate applied to #43
+
+When a larger live-bird morphometric sample finds no statistically significant sex difference, do not preserve a visible female-size or sex-specific plumage cue from an older small-sample inference. Non-significant trends such as the Forest Owlet female talon mean (p=.071) remain research notes, not drawing rules. This rule was actually applied and visually rechecked on #43 v4: male/female apparent bulk was equalized in edit 2. Validation is limited to this plate; broader back-review is pending.

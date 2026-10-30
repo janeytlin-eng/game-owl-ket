@@ -2350,3 +2350,12 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ### #42 v4 VERIFIED — 2026-10-30 15:36 +08:00
 
 Fixed archive `db6268ba091584c3e3b735240f13deaa81dc815b` returned the exact four image blob SHAs; the 657,034-byte concept and 706,743-byte crop decoded exactly, and the large generated/reviewed objects returned their exact Git hashes. Manifests 561/552/550 plus source index, research, knowledge, run, status/changelog, design rule and batch state matched. Batch `2026-10-30T1230+0800` is COMPLETE 6/6; unique species remains 175/251; science false.
+
+
+## 2026-10-30 — #43 *Athene blewitti* v4 ARCHIVED
+
+- Science revision; unique species remains 175/251.
+- New primary evidence: `FOW-MEHTA-RSD-2021`; new1/reused5/corrected1.
+- Adults now share equal apparent scale and plumage; three edits corrected dense wing spotting, adult-size imbalance and the juvenile's mature-looking wing.
+- Final review: PASS_WITH_LIMITATIONS; science false. Exact individual age, iris chronology and sex-specific juvenile development remain unknown.
+- Assets: `owl-pet/design/concepts/43-athene-blewitti-v4.png`, `owl-pet/production/reviewed/43-athene-blewitti-v4.png`, `owl-pet/production/review-crops/43-athene-blewitti-v4-juvenile.png`; fixed readback pending.

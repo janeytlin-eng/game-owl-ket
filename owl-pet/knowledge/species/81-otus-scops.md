@@ -26,3 +26,8 @@ Fixed archive `fb066d5019a708128130e54fdd0d959eb3f2cae8` passed non-truncated tr
 ## 2026-10-31 v4 age-claim and juvenile-wing correction
 
 Active web searches/direct opens returned empty payloads and were not credited. Reused the page-pinned Marchesi/Sergio, Grieco, Blasco, Owl Pages and Mikkola records. V3's “≈21-day” display claim was narrowed to “RECENT FLEDGLING”; one targeted edit compacted the adult-like juvenile wing and reduced bright regular rows while retaining a genuinely formed fresh wing, residual down, short tail and a supported step. Full master, crop and 680×453 derivative were viewed. PASS_WITH_LIMITATIONS; exact age, tract geometry, first-flight competence and sex-size ratio remain unknown; science false.
+
+
+## 2026-10-31 v4 fixed readback
+
+Archive `908b58ab43127a62c31c1ff9b6b93d9a6a3e9441` returned exact concept/generated/reviewed/crop payloads and the expected supporting records. This verifies repository integrity, not biological completeness; exact age, flight threshold, feather-tract geometry and sex-size ratio remain unresolved.

@@ -2408,3 +2408,6 @@ Verification 2026-10-30T18:11:00+08:00: #48 v4 fixed archive `d212c5e7985ba46090
 - Exactly one adult male, one age-unknown juvenile and one adult female; darker Tanzanian *nigricantior* direction. Adults are dark-eyed and untufted; female is only subtly fuller under the source's average-mass direction.
 - Juvenile is a photographed-stage exception: Mikkola printed p.321 explicitly allows adult-like wing/tail while underparts remain partly downy. Folded wing, low bilateral tree-fork support and no flight claim are retained.
 - Original and 680×453 derivative opened; no edit required; PASS_WITH_LIMITATIONS. Exact age, movement/flight ability, remex chronology, sexed linear dimensions and cross-subspecies transfer remain unknown. Science false.
+
+
+Verification 2026-10-30T18:42:00+08:00: #49 v4 fixed archive `ed745f19c5335164e3b0cb82bc5978d1356870ed` returned exact concept/generated/reviewed paths, blob SHAs and file URLs; manifest 557 plus run/research/source-index/status/design/state records matched. Batch 1/6, next cycle 2; science false.

@@ -10918,8 +10918,44 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 0,
       "archive_note": "First render and 680x453 derivative both opened; exact title/count/labels, dark-eyed untufted adults, subtle female fullness, evidence-allowed folded adult-like juvenile wing/tail, partly downy underparts and bilateral tree-fork support passed. No edit required. Photographed-stage exception validated for this plate only; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "ed745f19c5335164e3b0cb82bc5978d1356870ed",
+      "fixed_commit": "ed745f19c5335164e3b0cb82bc5978d1356870ed",
+      "verified_at": "2026-10-30T18:42:00+08:00",
+      "verification_result": "fixed archive commit returned exact concept/generated/reviewed blob SHAs and GitHub file URLs; manifest count 557 and run/research/source-index/status/design/state records matched; batch 1/6; unique175/251; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "ed745f19c5335164e3b0cb82bc5978d1356870ed",
+        "concept": {
+          "path": "owl-pet/design/concepts/49-strix-woodfordii-v4.png",
+          "blob": "cd11a957cb29c6292cd6ed75de637c773baa644b",
+          "size_bytes": 636877,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/ed745f19c5335164e3b0cb82bc5978d1356870ed/owl-pet/design/concepts/49-strix-woodfordii-v4.png"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/49-strix-woodfordii-v4-generated-master.png",
+          "blob": "4490e1e64cb6e6c63df1626cbb00480afae34bcf",
+          "size_bytes": 3088007,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/ed745f19c5335164e3b0cb82bc5978d1356870ed/owl-pet/production/generated/49-strix-woodfordii-v4-generated-master.png"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/49-strix-woodfordii-v4-reviewed-master.png",
+          "blob": "4490e1e64cb6e6c63df1626cbb00480afae34bcf",
+          "size_bytes": 3088007,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/ed745f19c5335164e3b0cb82bc5978d1356870ed/owl-pet/production/reviewed/49-strix-woodfordii-v4-reviewed-master.png"
+        },
+        "manifest_blob": "c1873fdb335757ba78b9f830bb59174f66d7e658",
+        "run_blob": "12ce034f4f3f58fd9409edfe0834ad1b5d2ce0a5",
+        "research_blob": "a98f181960eab17c7e247fe643c2c250b09d9ca2",
+        "source_index_blob": "044b0e05a2ebe3b558d84c9a3eeee9fa7a2be024",
+        "status_blob": "e1b20c7f70072fb2996e8ac8a483bfff138a21b6",
+        "design_blob": "692ed71e70cf1a6e0c142af0d3cecc4be63e1d56",
+        "archive_batch_blob": "35042c05bf94c45303cd9ad37c62a575e48e875c",
+        "manifest_count": 557,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T18:40:00+08:00"
+  "updated_at": "2026-10-30T18:42:00+08:00"
 }

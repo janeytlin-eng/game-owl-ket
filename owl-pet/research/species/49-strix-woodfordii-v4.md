@@ -56,3 +56,8 @@ Strict negatives: no extra owl, no egg, no prey, no ear tufts, no yellow or oran
 - PASS: exact title/count/labels; dark eyes; no ear tufts; yellow bill/cere; subtly fuller female without exaggerated height; juvenile lower and dependent with bilateral tree-fork support; folded adult-like barred wing/tail; partly downy pale-rufous lower underparts; no flight action.
 - No edit was required.
 - Verdict: PASS_WITH_LIMITATIONS. Unknowns remain as defined above; scientific status false.
+
+
+## Fixed archive verification
+
+At 2026-10-30T18:42:00+08:00, fixed commit `ed745f19c5335164e3b0cb82bc5978d1356870ed` returned the exact concept blob `cd11a957cb29c6292cd6ed75de637c773baa644b` and generated/reviewed blob `4490e1e64cb6e6c63df1626cbb00480afae34bcf`, with accessible GitHub file URLs. Manifest count 557 and run/research/source-index/status/design/state records matched. This completes the production cycle but does not change the scientific status.

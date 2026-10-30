@@ -2424,3 +2424,9 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 - Generated/reviewed master: 1536×1024, 3,088,007 bytes, blob `4490e1e64cb6e6c63df1626cbb00480afae34bcf`; no edit required.
 - Mikkola printed pp.320–321 supports the selected age-unknown Tanzanian `nigricantior` photographed stage: formed folded wing/tail with partly downy underparts. Original and derivative opened; PASS_WITH_LIMITATIONS.
 - Unique species remains 175/251; science false; cycle credit awaits fixed archive readback.
+
+
+### #49 v4 fixed readback complete — 2026-10-30T18:42:00+08:00
+
+- Fixed archive `ed745f19c5335164e3b0cb82bc5978d1356870ed` returned exact concept/generated/reviewed paths and blob SHAs plus file URLs; manifest 557 and run/research/source-index/status/design/state records matched.
+- Batch `2026-10-30T1831+0800` is 1/6 and remains PARTIAL; next cycle 2. Unique species remains 175/251; science false.

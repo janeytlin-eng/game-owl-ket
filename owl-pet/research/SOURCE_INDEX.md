@@ -748,3 +748,16 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actually read: identification, habitat and behaviour sections. White heart disc; sandy-orange/light-grey above; white/cream below; black spotting; young similar to adults; females slightly larger; open/arid farms and lightly wooded habitat.
 - Limits: synthesis rather than primary measurement; no exact juvenile chronology or fixed sex-size ratio.
 - Design link: [#91 v4 research](species/91-tyto-javanica-delicatula-v4.md).
+
+
+### HAR-BODRATI2019
+- Title: Nidificación de la Lechucita Canela (*Aegolius harrisii*) en Misiones, Argentina
+- Authors: Alejandro Bodrati; Milka R. Gómez; Carlos A. Ferreyra; Kristina L. Cockle
+- Year/pages: 2019; Ornitología Neotropical 30:151–156
+- URL/DOI: https://ornneo.ornitologianeotropical.org/index.php/ornneo/article/download/479/ON%2030%20(2019)%20151-156.pdf/3323 ; 10.58843/ornneo.v30i0.479
+- Accessed: 2026-10-31
+- Type: primary monitored-nest study; full text
+- Species/stage: *A. harrisii* in Misiones; hatch to fledging
+- Actually read: abstract and pp.153–154/Fig.1 sequence. Sparse dark-grey natal down; facial disc begins around 10 d; 24-d oldest young resembles adult; fledging 35–37 d; old woodpecker cavity in dead grapia.
+- Limits: one regional nest and asynchronous brood; not a universal tract/proportion or sex-size series.
+- Design link: [#93 v3 research](species/93-aegolius-harrisii-v3.md); supports preserving the v2 ~24-d disc/formed-wing stage while correcting only the title.

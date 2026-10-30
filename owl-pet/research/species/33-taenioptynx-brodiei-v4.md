@@ -33,3 +33,5 @@ Create one 3:2 horizontal owl-pet scientific character review board in warm hand
 ## Archive checkpoint
 
 - 2026-10-30T09:40:00+08:00: final reviewed plate and juvenile crop archived; v1–v3 and original generated blob retained. Fixed-commit readback pending; science remains false.
+
+- 2026-10-30T09:46:00+08:00: archive correction. Initial final-image blob was caught truncated by fixed-tree byte-size verification before credit. A faithful direct image-tool export replaced concept/reviewed paths as Git blob `ce11cf97dd408a005a1c6965fd0a734c1cbac019` (2960406 bytes). SHA-256 is intentionally null after local execution loss; Git blob/size will be verified at the fixed corrected commit.

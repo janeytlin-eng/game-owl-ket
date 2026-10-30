@@ -2273,3 +2273,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 09:40 +08 — #33 Collared Owlet v4 archived, verification pending
 
 #33 *Taenioptynx brodiei* v4 concept, preserved generated checkpoint, rebuilt-and-edited reviewed PNG and juvenile crop are archived. One juvenile-only edit compacted the folded wing and hid the adult-like tail after full-plate inspection. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 2/6.
+
+- 2026-10-30T09:46:00+08:00: #33 v4 initial archive binary mismatch detected before credit (786,444 vs 3,067,111 intended). Direct image-tool export `ce11cf97dd408a005a1c6965fd0a734c1cbac019` (2960406 bytes) superseded concept/reviewed paths; corrected fixed readback pending. Batch remains 2/6.

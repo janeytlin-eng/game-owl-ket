@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T09:40:00+08:00",
+  "updated": "2026-10-30T09:46:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10567,10 +10567,10 @@
       "version": 4,
       "action": "SCIENCE_REVISION",
       "unique_species_increment": 0,
-      "sha256": "bbc5b8b02d422729e452d2bad7a188ceb2f8241d2999d837396157cf03faa012",
-      "size_bytes": 3067111,
+      "sha256": null,
+      "size_bytes": 2960406,
       "dimensions": "1536x1024",
-      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. ITIS maps the current name Taenioptynx brodiei to historical Glaucidium brodiei/Noctua brodiei. Lin et al. 2014 provides a known-age 56-day full-grown fledgling with fewer dorsal/crown markings and incomplete occipital pattern. Original generated checkpoint was preserved; connector binary retrieval failed UTF-8 decoding, so the saved prompt was rebuilt and one targeted juvenile-only edit compacted the wing and hid the adult-like tail. Exact flight performance, regional transfer and sex-stratified morphometrics remain unknown.",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. ITIS maps the current name Taenioptynx brodiei to historical Glaucidium brodiei/Noctua brodiei. Lin et al. 2014 provides a known-age 56-day full-grown fledgling with fewer dorsal/crown markings and incomplete occipital pattern. Original generated checkpoint was preserved; connector binary retrieval failed UTF-8 decoding, so the saved prompt was rebuilt and one targeted juvenile-only edit compacted the wing and hid the adult-like tail. Exact flight performance, regional transfer and sex-stratified morphometrics remain unknown. A fixed-tree check detected the first final-image binary transfer was truncated; direct image-tool-to-GitHub upload replaced it before cycle credit.",
       "scientifically_verified": false,
       "concept_checked": true,
       "review_result": "PASS_WITH_LIMITATIONS",
@@ -10590,23 +10590,23 @@
       "generated_sha256": "571157a9f3778b583ed6d4c441a6dd925e44c51018db95d29272d7802da5993a",
       "generated_size_bytes": 3190800,
       "reviewed_path": "production/reviewed/33-taenioptynx-brodiei-v4-reviewed.png",
-      "reviewed_blob": "634a127a85285440e8a2b1d0fd932f7859033b7b",
-      "reviewed_sha256": "bbc5b8b02d422729e452d2bad7a188ceb2f8241d2999d837396157cf03faa012",
-      "reviewed_size_bytes": 3067111,
+      "reviewed_blob": "ce11cf97dd408a005a1c6965fd0a734c1cbac019",
+      "reviewed_sha256": null,
+      "reviewed_size_bytes": 2960406,
       "review_crop_path": "production/review-crops/33-taenioptynx-brodiei-v4-juvenile.png",
       "review_crop_blob": "4f24e38e9421f223c6695477f10546b018b4e46b",
       "review_crop_sha256": "e2ca095564828c4e5adba40c3a693adaed4b3e859cc772752b8bb72f282a0cfc",
       "review_crop_size_bytes": 690835,
-      "archive_note": "Original generated blob and v1-v3 remain retained. Full plate and 520x700 crop were opened. The rebuilt prompt retained exact text/count, adult false eyes, near-equal adult size and natural support; one targeted edit shortened/softened the juvenile wing and hid the adult-like tail. Known-age evidence bounds the juvenile pattern but does not establish flight ability.",
+      "archive_note": "Original generated blob and v1-v3 remain retained. Full plate and 520x700 crop were opened. The rebuilt prompt retained exact text/count, adult false eyes, near-equal adult size and natural support; one targeted edit shortened/softened the juvenile wing and hid the adult-like tail. Known-age evidence bounds the juvenile pattern but does not establish flight ability. First binary transfer was detected truncated by fixed-tree size readback and superseded before credit by a direct image-tool-to-GitHub upload; SHA-256 was not recomputed after local execution loss, so Git blob and byte size are authoritative.",
       "readback_pending": true,
       "archive_commit": null,
       "fixed_commit": null,
       "verified_at": null,
-      "verification_result": "fixed-commit readback pending",
+      "verification_result": "corrected fixed-commit readback pending",
       "readback": {
-        "status": "PENDING"
+        "status": "PENDING_CORRECTED"
       }
     }
   ],
-  "updated_at": "2026-10-30T09:40:00+08:00"
+  "updated_at": "2026-10-30T09:46:00+08:00"
 }

@@ -43,3 +43,8 @@ Archive `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; concept `141c341dc49fe57eeba
 - V4 corrects v3's overprecise scale encoding without reversing the evidence-supported female-larger direction: adult crown heights are comparable and the female reads fuller/longer; the recent fledgling reads lower through a supported crouch rather than an asserted body ratio.
 - First master, juvenile crop and 680×453 derivative passed without edit. Developed wing/tail, small residual crown/lower-body down, old gum hollow, tree-fern gully and every foot's support were rechecked. Exact age/body trajectory/sexed standing-height ratio remain unknown; science false.
 - Concept/generated/reviewed/crop blobs: `87418d5556` / `b52ad5dc12` / `b52ad5dc12` / `9166e407b2`; fixed readback pending.
+
+
+## v4 fixed-tree verification — 2026-10-30T23:57:13+08:00
+
+Fixed archive `19ddaf91a4cf11f863bed3deac623a1b1d79bfa3` returned the exact concept/generated/reviewed/crop blobs and sizes in a non-truncated 2,123-entry tree; manifests 574/573/564 and support records matched. Batch complete 6/6; science false.

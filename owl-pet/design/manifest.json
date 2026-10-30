@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:56:19+08:00",
+  "updated": "2026-10-30T23:57:13+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12112,14 +12112,49 @@
       "review_crop_blob": "9166e407b296c0b5d9e1c4b3ab67793ec4cc9d3c",
       "review_crop_size_bytes": 685809,
       "archive_note": "V1-v3 preserved. First 1536x1024 render, 520x700 juvenile crop and 680x453 concept all opened and passed; edit count 0. The v3 overprecise height/absolute-scale encoding was corrected through comparable adult crown heights and juvenile crouch. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
+      "readback_pending": false,
+      "archive_commit": "19ddaf91a4cf11f863bed3deac623a1b1d79bfa3",
       "git_blob": "87418d5556b3a3368caa29fe0575ec3e288c3259",
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "Pending fixed-commit readback.",
+      "fixed_commit": "19ddaf91a4cf11f863bed3deac623a1b1d79bfa3",
+      "verified_at": "2026-10-30T23:57:13+08:00",
+      "verification_result": "VERIFIED against fixed archive: exact concept/generated/reviewed/crop paths, blob SHAs and sizes; non-truncated 2,123-entry tree; manifest counts 574/573/564; supporting run/research/state records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "19ddaf91a4cf11f863bed3deac623a1b1d79bfa3",
+        "tree_truncated": false,
+        "tree_entries": 2123,
+        "concept": {
+          "path": "owl-pet/design/concepts/68-tyto-tenebricosa-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "87418d5556b3a3368caa29fe0575ec3e288c3259",
+          "size": 683420,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/19ddaf91a4cf11f863bed3deac623a1b1d79bfa3/owl-pet/design/concepts/68-tyto-tenebricosa-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/68-tyto-tenebricosa-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b52ad5dc12e7bf159789e325c23093ff69b2318d",
+          "size": 3501099,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/19ddaf91a4cf11f863bed3deac623a1b1d79bfa3/owl-pet/production/generated/68-tyto-tenebricosa-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/68-tyto-tenebricosa-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "b52ad5dc12e7bf159789e325c23093ff69b2318d",
+          "size": 3501099,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/19ddaf91a4cf11f863bed3deac623a1b1d79bfa3/owl-pet/production/reviewed/68-tyto-tenebricosa-v4-reviewed-master.png?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/reviewed/68-tyto-tenebricosa-v4-juvenile-crop.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "9166e407b296c0b5d9e1c4b3ab67793ec4cc9d3c",
+          "size": 685809,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/19ddaf91a4cf11f863bed3deac623a1b1d79bfa3/owl-pet/production/reviewed/68-tyto-tenebricosa-v4-juvenile-crop.png?raw=1"
+        },
         "manifest_counts": {
           "legacy": 574,
           "design": 573,
@@ -12130,5 +12165,5 @@
       }
     }
   ],
-  "updated_at": "2026-10-30T23:56:19+08:00"
+  "updated_at": "2026-10-30T23:57:13+08:00"
 }

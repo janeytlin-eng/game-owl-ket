@@ -2575,3 +2575,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 - Reused five indexed sources and corrected v3's unsupported precise standing-height/juvenile-size encoding; three active search batches returned empty payloads and received no source credit.
 - First render, juvenile crop and 680x453 derivative passed without edit. PASS_WITH_LIMITATIONS; exact age/body ratio/sexed standing-height ratio remain unknown.
 - Manifests 574/573/564; unique 175/251; fixed readback pending; science false.
+
+
+### #68 v4 VERIFIED — 2026-10-30T23:57:13+08:00
+
+- Fixed archive `19ddaf91a4cf11f863bed3deac623a1b1d79bfa3` returned exact concept/generated/reviewed/crop blobs and sizes in a non-truncated 2,123-entry tree; manifests 574/573/564 and support records matched.
+- Batch `2026-10-30T2158+0800` is COMPLETE 6/6. Unique remains 175/251; science false.

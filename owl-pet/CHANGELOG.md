@@ -1439,3 +1439,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-10-30T23:56:19+08:00 — archived #68 *Tyto tenebricosa* v4 preparation. Reused five indexed sources, corrected v3's overprecise adult-height/juvenile-scale encoding, and passed first render plus crop/derivative without edit. Manifests 574/573/564; unique 175/251; fixed readback pending; science false.
+
+
+- 2026-10-30T23:57:13+08:00 — verified #68 *Tyto tenebricosa* v4 at fixed archive `19ddaf91a4cf11f863bed3deac623a1b1d79bfa3`; exact image paths/blobs/sizes, manifests 574/573/564 and support records matched in a non-truncated tree. Batch `2026-10-30T2158+0800` closed COMPLETE 6/6; unique 175/251; science false.

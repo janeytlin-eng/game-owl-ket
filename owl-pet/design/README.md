@@ -2418,3 +2418,6 @@ Verification 2026-10-30T18:42:00+08:00: #49 v4 fixed archive `ed745f19c5335164e3
 - Concept `design/concepts/50-strix-virgata-v4.png`; generated/reviewed masters retained.
 - Pale-morph South American adults; female fuller but comparable in crown height. Age-unknown dull-yellow mesoptile has a whitish disc, pale pink bill, soft folded wing and bilateral tree-cavity support.
 - The exceptional Costa Rica ground-burrow record is indexed but excluded because its older-name/current-split mapping is unresolved. Original and derivative opened; no edit; PASS_WITH_LIMITATIONS; science false.
+
+
+Verification 2026-10-30T18:56:00+08:00: #50 v4 fixed archive `6a6cd44e8eed35a2d75398ab26c666c1d429ce1d` returned exact image paths/blob SHAs/URLs and manifest 558 plus supporting records. Batch 2/6, next cycle 3; science false.

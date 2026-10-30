@@ -50,3 +50,7 @@ Strict negatives: no extra owl, no egg, no prey, no ear tufts, no yellow/orange 
 - PASS: exact title/count/labels; pale-morph adult streaking and dark eyes; female fuller without height exaggeration; juvenile dull-yellow mesoptile, whitish disc, pale pink bill, soft folded wing, short/hidden tail and bilateral cavity support.
 - No ground-burrow leakage and no edit required.
 - PASS_WITH_LIMITATIONS; taxonomy and developmental unknowns remain; science false.
+
+
+## Fixed archive verification
+At 2026-10-30T18:56:00+08:00, fixed commit `6a6cd44e8eed35a2d75398ab26c666c1d429ce1d` returned exact concept/generated/reviewed blob SHAs and GitHub URLs; manifest 558 and run/research/source-index/status/design/state records matched. Production cycle complete; science remains false.

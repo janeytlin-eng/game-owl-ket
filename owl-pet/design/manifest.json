@@ -10996,8 +10996,42 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 0,
       "archive_note": "Original and derivative opened. Pale-morph adult morphology, evidence-bounded female fullness, pale-pink-billed mesoptile, soft folded wing and bilateral tree-cavity support passed. No ground-burrow leakage; no edit. Post-split locality gate validated for this plate only; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "6a6cd44e8eed35a2d75398ab26c666c1d429ce1d",
+      "fixed_commit": "6a6cd44e8eed35a2d75398ab26c666c1d429ce1d",
+      "verified_at": "2026-10-30T18:56:00+08:00",
+      "verification_result": "fixed archive returned exact concept/generated/reviewed blob SHAs and file URLs; manifest 558 and run/research/source-index/status/design/state matched; batch 2/6; unique175/251; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "6a6cd44e8eed35a2d75398ab26c666c1d429ce1d",
+        "concept": {
+          "path": "owl-pet/design/concepts/50-strix-virgata-v4.png",
+          "blob": "a9c5e6fdb26754527cdb28f41ddf1385c029b876",
+          "size_bytes": 670908,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/6a6cd44e8eed35a2d75398ab26c666c1d429ce1d/owl-pet/design/concepts/50-strix-virgata-v4.png"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/50-strix-virgata-v4-generated-master.png",
+          "blob": "511b301bc77a07ec5a060693afae0bab8a718b7d",
+          "size_bytes": 3295666,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/6a6cd44e8eed35a2d75398ab26c666c1d429ce1d/owl-pet/production/generated/50-strix-virgata-v4-generated-master.png"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/50-strix-virgata-v4-reviewed-master.png",
+          "blob": "511b301bc77a07ec5a060693afae0bab8a718b7d",
+          "size_bytes": 3295666,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/6a6cd44e8eed35a2d75398ab26c666c1d429ce1d/owl-pet/production/reviewed/50-strix-virgata-v4-reviewed-master.png"
+        },
+        "manifest_blob": "88ad28fad804be784eac83539bab2167d71c48e9",
+        "run_blob": "46d67b1d32dada17f86cb919baae68d0b2af0a5a",
+        "research_blob": "6340a6f51cb4451a9fa7042e4a4f25f55b6dfcfc",
+        "source_index_blob": "cfbaa54a382f26ada65994fe8d1e1e54e36bc3b6",
+        "archive_batch_blob": "3e9dbeedd5c0521ea717bc4d86573fd5a69cd401",
+        "manifest_count": 558,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T18:54:00+08:00"
+  "updated_at": "2026-10-30T18:56:00+08:00"
 }

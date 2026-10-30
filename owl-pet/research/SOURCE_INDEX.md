@@ -530,3 +530,13 @@
 - **Limits/conflicts:** no exact age, flight threshold, full feather chronology or image-specific subspecies. Corrects v1's interpretation, not source text.
 - **Related records:** knowledge/species/67-pulsatrix-perspicillata.md; research/species/67-pulsatrix-perspicillata-v4.md; production/runs/20261030T234400+0800-cycle-5.md; planned image 67-pulsatrix-perspicillata-v4.
 - **Source/design delta:** new1 / reused3 / corrected1; science false.
+
+## 2026-10-30 — #68 *Tyto tenebricosa* v4 sex-height and fledgling-scale boundary
+
+- **Source delta:** new0 / reused5 / corrected1. Three active external search batches returned empty payloads; no search hit is counted as evidence.
+- **Reused IDs actually reread:** GSO-BILNEY-2012 (CSIRO lines 159–190), GSO-NSWSC-2008 (NSW review PDF pp.1–2), GSO-ABSA-2019, GSO-OWLPAGES-2026, WHSO-MIKKOLA-2013 printed pp.114–115.
+- **Supported facts:** nominate female larger/heavier direction; approximately three-month nest period; near-fledged birds almost fully feathered, possibly darker and with little residual down; large old-tree hollow in moist gully/rainforest setting.
+- **Correction:** mass/wing ranges do not specify a standing-height ratio. V4 holds adult crown heights comparable and expresses female direction through fullness/length. The juvenile is crouched rather than assigned an exact tiny body ratio.
+- **Visual evidence:** v3 fixed original opened via read-only raw GitHub URL; identity/support/stage pass, but scale encoding was more precise than the evidence.
+- **Limits:** exact age/size trajectory/down placement/flight threshold/universal ratio/subspecies variation unknown; science false.
+- **Related:** research/species/68-tyto-tenebricosa-v4.md; production/runs/20261030T235600+0800-cycle-6.md; knowledge/species/68-tyto-tenebricosa.md; planned image 68-tyto-tenebricosa-v4.

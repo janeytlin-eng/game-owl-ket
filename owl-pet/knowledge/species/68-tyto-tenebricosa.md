@@ -30,3 +30,9 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 ## v3 fixed-tree verification — 2026-10-29T06:52:32.841+08:00
 
 Archive `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; concept `141c341dc49fe57eeba07ac6bc0855abd382a76f`/359873 B; master `eb96cb7ffc6d8b38296d9e61ef04312275f4b21d`/449107 B; crop `eda3c94fd67d9bd490ada81820ea896c58241578`/108906 B; recursive tree and markers passed. Science false.
+
+## v4 RESEARCH_READY — 2026-10-30T23:58:00+08:00
+
+- External searches returned zero payload and are not counted. Reused five indexed sources and corrected one design inference after opening v3 fixed original.
+- V3 is identity/stage/support-correct, but its height/scale encoding is more precise than the evidence. V4 will keep adult crown heights comparable and express the nominate female direction through fullness/length; the recent fledgling will be lower by crouched posture rather than an invented tiny body ratio.
+- Complete prompt/evidence: research/species/68-tyto-tenebricosa-v4.md. Exact age/body-size trajectory/down placement/ratio/subspecies remain unknown; science false.

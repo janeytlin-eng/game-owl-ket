@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T05:19:30+08:00",
+  "updated": "2026-10-31T05:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13508,7 +13508,50 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "87-bubo-ascalaphus-v4",
+      "path": "design/concepts/87-bubo-ascalaphus-v4.jpg",
+      "species_id": 87,
+      "scientific_name": "Bubo ascalaphus",
+      "historical_names": [
+        "Bubo bubo ascalaphus",
+        "Ascalaphia ascalaphia"
+      ],
+      "common_name": "Pharaoh Eagle-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "cb99a7024aef33118bb7c7f08d0274b3f99f7eced17a5739b803658145e9ea8f",
+      "size_bytes": 184209,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 restores repository number 87 while preserving the evidence-bounded c.40-day creamy-sandy juvenile with short pale developing folded wing, incomplete breast marks, short tail and bilateral rock support. Adults remain near-equal with only a modestly fuller female; no unsupported universal female-larger rule. Exact flight ability, juvenile sex, feather count, adult numeric RSD and regional fine plumage remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "ASC-MIK2013-272",
+        "ASC-ALSHEIKHLY2012-40D",
+        "ASC-MOLDOVAN-SANDOR2009",
+        "ASC-DDCR2023"
+      ],
+      "research_record": "research/species/87-bubo-ascalaphus-v4.md",
+      "run_record": "production/runs/20261031T053100+0800-cycle-4.md",
+      "reviewed_at": "2026-10-31T05:42:00+08:00",
+      "generated_path": "production/generated/87-bubo-ascalaphus-v4-generated-master.jpg",
+      "generated_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
+      "generated_sha256": "235785e1b96419c742ba9170e0d5150ec52d19870983a22d6e7a7a064c739155",
+      "generated_size_bytes": 663749,
+      "reviewed_path": "production/reviewed/87-bubo-ascalaphus-v4-reviewed-master.jpg",
+      "reviewed_blob": "e41278d5b0a2ee6b23a2aca307438791052c9de1",
+      "reviewed_size_bytes": 663749,
+      "review_crop_path": "production/review-crops/87-bubo-ascalaphus-v4-juvenile.jpg",
+      "review_crop_blob": "300c084c69a01213eeb72be880b7fff11f14ff31",
+      "review_crop_size_bytes": 158873,
+      "readback_pending": true,
+      "git_blob": "d22b507e02434c28d7938787d66e262d0dc1f839"
     }
   ],
-  "updated_at": "2026-10-31T05:19:30+08:00"
+  "updated_at": "2026-10-31T05:45:00+08:00"
 }

@@ -32,3 +32,7 @@ Avoid: extra birds or text, altered plumage, mature juvenile remiges, flight pos
 ## Actual image review
 
 Opened the generated 1536×1024 master and 520×700 juvenile crop. The top title is exactly `87 PHARAOH EAGLE-OWL`; scientific and three role labels are correct; exactly three birds remain. Adult short tufts, orange-yellow eyes, black bills, feathered feet, upper-breast drops/lower-belly bars and near-equal standing height remain coherent. The central c.40-day juvenile remains creamy-sandy with incomplete breast marks, compact pale developing folded wing, short tail and bilateral rock support; no flight pose or mature wing substitution. Desert wadi/shrub context is plausible. No post-generation edit was required. Result: `PASS_WITH_LIMITATIONS`, edit count 0, scientifically_verified=false. Unknowns remain exact flight ability, sex, feather count, adult numeric RSD and regional fine plumage.
+
+## Archive checkpoint
+
+At 2026-10-31T05:45:00+08:00 the concept, generated master, reviewed master, juvenile crop, three image manifests, STATUS, design README, knowledge note and run record were committed together. Fixed-commit byte/blob readback is still required before cycle credit.

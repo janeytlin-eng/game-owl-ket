@@ -2656,3 +2656,8 @@ V3 evidence-bounded first-winter geometry passed; v4 changes only the missing re
 
 
 Remote verification 2026-10-31T05:19:30+08:00: #85 v4 fixed archive `630a6424081792832ee920824ef2d74ec73ebb18` returned exact assets in a non-truncated 2,214-entry tree; manifests 589/588/579 matched. Numbering correction is verified for this instance; science remains false.
+
+
+### #87 Pharaoh Eagle-Owl v4
+
+`SCIENCE_REVISION`, `PASS_WITH_LIMITATIONS`, unique increment0. Adds missing repository number only; preserves the c.40-day creamy-sandy juvenile, pale developing folded wing, incomplete marks and bilateral rock support. Scientific verification remains false. [Original](concepts/87-bubo-ascalaphus-v4.jpg) · [Research](../research/species/87-bubo-ascalaphus-v4.md).

@@ -2767,3 +2767,8 @@ V3 reopened; v4 restores number 85 only. Mikkola printed158–159/PDF160–161 r
 
 - Fixed archive `630a6424081792832ee920824ef2d74ec73ebb18` returned exact concept/generated/reviewed/crop bytes, blobs and sizes; non-truncated 2,214-entry tree; manifests 589/588/579 and support records matched.
 - Batch `2026-10-31T0430+0800` is 3/6, next cycle 4. Unique175/251; science false.
+
+
+### 2026-10-31 #87 *Bubo ascalaphus* v4
+
+SCIENCE_REVISION archived as `PASS_WITH_LIMITATIONS`: repository number 87 restored; evidence-bounded c.40-day juvenile and all supports preserved; edit0; science false. Unique species total remains 175/251. Fixed readback pending at archive checkpoint. [Concept](design/concepts/87-bubo-ascalaphus-v4.jpg) · [Research](research/species/87-bubo-ascalaphus-v4.md) · [Run](production/runs/20261031T053100+0800-cycle-4.md).

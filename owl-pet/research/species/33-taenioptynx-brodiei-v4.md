@@ -29,3 +29,7 @@ Create one 3:2 horizontal owl-pet scientific character review board in warm hand
 - Change applied: rebuilt from the saved evidence-bounded prompt, then one targeted edit shortened/softened the juvenile wing, removed repeated adult-like wing spots/bars and hid the long tail.
 - Recheck: full plate and 520×700 crop opened. Natural two-foot branch support and formed-but-compact juvenile wing pass; no complete adult false-eye pattern. Result `PASS_WITH_LIMITATIONS`, not scientific verification.
 - Reusable rule applied: for a known-age full-grown fledgling, “formed wing” does not authorize adult-length ordered remiges or adult-like repeated spot rows; inspect wing length and pattern density separately.
+
+## Archive checkpoint
+
+- 2026-10-30T09:40:00+08:00: final reviewed plate and juvenile crop archived; v1–v3 and original generated blob retained. Fixed-commit readback pending; science remains false.

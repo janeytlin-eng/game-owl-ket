@@ -7835,26 +7835,26 @@
         "species": "Taenioptynx brodiei",
         "version": "v4",
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261030T091000+0800-cycle-3.md"
       },
       "last_checkpoint": {
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "at": "2026-10-30T09:40:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T091000+0800-cycle-3.md",
         "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/33-taenioptynx-brodiei-v4-reviewed.png",
+          "concept_path": "owl-pet/design/concepts/33-taenioptynx-brodiei-v4.png",
+          "concept_blob": "634a127a85285440e8a2b1d0fd932f7859033b7b",
+          "concept_bytes": 3067111,
+          "generated_blob": "a38f6dff469b509d4a70a21b8cf5d421398be287",
           "reviewed_blob": "634a127a85285440e8a2b1d0fd932f7859033b7b",
-          "reviewed_sha256": "bbc5b8b02d422729e452d2bad7a188ceb2f8241d2999d837396157cf03faa012",
-          "reviewed_bytes": 3067111,
-          "dimensions": "1536x1024",
-          "crop_path": "owl-pet/production/reviewed/33-taenioptynx-brodiei-v4-juvenile-crop.png",
           "crop_blob": "4f24e38e9421f223c6695477f10546b018b4e46b",
-          "crop_sha256": "e2ca095564828c4e5adba40c3a693adaed4b3e859cc772752b8bb72f282a0cfc",
-          "crop_bytes": 690835,
-          "crop_dimensions": "520x700",
-          "result": "PASS_WITH_LIMITATIONS",
-          "iteration": "GitHub connector binary read failed UTF-8 decode; preserved original generated blob and rebuilt from saved prompt, then one targeted juvenile wing/tail edit; both full plate and crop opened"
+          "manifest_counts": {
+            "d": 552,
+            "p": 543,
+            "l": 541
+          },
+          "readback_pending": true
         }
       },
       "lease": {
@@ -8199,7 +8199,8 @@
     "2026-10-30T01:27:00+08:00: cycle5 #09 v4 RESEARCH_READY; new1/reused4/corrected0; ~14-day first-emergence prompt persisted; no credit.",
     "2026-10-30T07:45:00+08:00: cycle6 #30 Glaucidium cuculoides v4 VERIFIED at archive 49fd5d43268a392176bad83c0ef4e8f20363d91b; exact concept/generated/reviewed/crop blobs and sizes plus all three manifests, restored source index, research, run, knowledge, design/status and state matched. Batch 2026-10-30T0531+0800 closes COMPLETE6/6; lease released; science false; unique+0.",
     "2026-10-30T09:35:44+08:00: expired cycle3 lease reconciled at unchanged HEAD b5f9c58b1299a95a637d4ab34b13446138d691d9; same run resumed at IMAGE_GENERATED, no duplicate generation and no cycle credit.",
-    "2026-10-30T09:40:00+08:00: cycle3 #33 v4 REVIEWED. Original generated blob remained preserved but connector binary read failed UTF-8 decode; prompt rebuild plus one targeted juvenile wing/tail edit passed full 1536x1024 and 520x700 crop review with limitations; no credit."
+    "2026-10-30T09:40:00+08:00: cycle3 #33 v4 REVIEWED. Original generated blob remained preserved but connector binary read failed UTF-8 decode; prompt rebuild plus one targeted juvenile wing/tail edit passed full 1536x1024 and 520x700 crop review with limitations; no credit.",
+    "2026-10-30T09:40:00+08:00: cycle3 #33 v4 ARCHIVED as design manifest552 / production manifest543 / legacy manifest541; concept/reviewed 634a127a85285440e8a2b1d0fd932f7859033b7b/3067111B, crop 4f24e38e9421f223c6695477f10546b018b4e46b/690835B; fixed readback pending; no credit."
   ],
   "audit_trail": [
     {
@@ -8329,7 +8330,7 @@
     "species": "Taenioptynx brodiei",
     "version": "v4",
     "action": "SCIENCE_REVISION",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261030T091000+0800-cycle-3.md"
   }
 }

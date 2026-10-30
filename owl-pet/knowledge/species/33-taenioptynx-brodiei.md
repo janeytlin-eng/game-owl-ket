@@ -41,3 +41,15 @@ Lin et al. primary banding/museum study adds a known-age anchor: one bird hatche
 ### v3成图与复查
 
 最终图 `design/concepts/33-taenioptynx-brodiei-v3.png`（680×453，190159 bytes，SHA-256 `c00520cb139dc336661afd220e96fc80ee5c697ad5e63c4ddbc088d5a584ce29`）。原图复查通过：成年灰色终羽与成对假眼、雌雄近等高；约56日龄幼鸟更褐、斑纹较少、仅单侧不完整枕斑且双足支撑。首稿无需编辑；科学状态false。
+
+
+## v4 science revision — 2026-10-30
+
+- Current name: *Taenioptynx brodiei*; retained old combinations *Glaucidium brodiei* and *Noctua brodiei*.
+- New source `COOW-ITIS-2026`; reused four existing records including the Lin et al. 2014 known-age sequence.
+- Juvenile boundary: approximately 56 days, full-grown but fewer crown/back markings and incomplete occipital pattern. Formed wing does not authorize adult-length ordered remiges, flight performance or independence.
+- The original generated checkpoint showed an overly long, adult-ordered juvenile wing/tail. Connector binary retrieval failed UTF-8 decoding, so the persisted full prompt was rebuilt without overwriting the original, followed by one targeted edit. Full plate and 520×700 crop were reopened; compact wing, hidden short tail, natural two-foot support and incomplete juvenile head pattern passed.
+- Result: `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`. Regional/subspecies transfer, quantified sex-size direction and flight threshold remain unknown.
+- Concept: [33-taenioptynx-brodiei-v4.png](../../design/concepts/33-taenioptynx-brodiei-v4.png)
+- Research: [33-taenioptynx-brodiei-v4.md](../../research/species/33-taenioptynx-brodiei-v4.md)
+- Run: [20261030T091000+0800-cycle-3](../../production/runs/20261030T091000+0800-cycle-3.md)

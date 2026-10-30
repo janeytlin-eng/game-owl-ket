@@ -2268,3 +2268,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 #32 *Glaucidium castanotum* v4 concept, generated/reviewed PNG and juvenile crop are archived. First render passed without edit: adults carry the red chestnut mantle and fewer chest bars supported by the 2025 field sample; juvenile wing marks are muted/irregular, tail short/soft and both feet supported. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 1/6.
 
 - 2026-10-30T09:08:00+08:00 — #32 *Glaucidium castanotum* v4 fixed-commit readback passed at `b44d504135d5083e53c7f22008a148d59e48f207`: non-truncated 1,934-entry tree, exact four image tuples and manifests/source/research/run/knowledge/design/status/state matched. Batch **2/6**, next cycle3; unique **175/251**, numbered IDs **185/251**, science false; lease released.
+
+
+## 2026-10-30 09:40 +08 — #33 Collared Owlet v4 archived, verification pending
+
+#33 *Taenioptynx brodiei* v4 concept, preserved generated checkpoint, rebuilt-and-edited reviewed PNG and juvenile crop are archived. One juvenile-only edit compacted the folded wing and hid the adult-like tail after full-plate inspection. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 2/6.

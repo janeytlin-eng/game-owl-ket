@@ -1,3 +1,10 @@
+## 2026-10-31 #81 *Otus scops* v4 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains 175/251.
+- Exact age label removed; juvenile wing compacted and adult-white rows subdued while formed fresh feathers and supported step remain.
+- Exact assets and manifests585/584/575 persisted; immutable fixed-commit readback pending.
+- Run: [20261031T033000+0800-cycle-5.md](production/runs/20261031T033000+0800-cycle-5.md)
+
 ## 2026-10-31 #80 *Otus sunia* v4 VERIFIED
 
 - SCIENCE_REVISION; one direct edit; PASS_WITH_LIMITATIONS; science false; unique175/251.

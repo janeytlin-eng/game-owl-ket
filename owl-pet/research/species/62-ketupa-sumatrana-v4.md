@@ -56,3 +56,15 @@ Style: established owl-pet natural-history plate, richly textured painterly real
 ## Iteration hypothesis
 
 V3 correctly represented a different late-dependent 2018 juvenile. V4 prevents cross-record blending by locking the 2017 immature to short white tufts, fine wavy barring, age unknown and branch support, while adults carry the dark long-tuft diagnostic. Generated original and derivative must be opened; any dark adult-tuft drift on the immature requires targeted editing.
+
+
+## Actual production review — 2026-10-30
+
+- IMAGE_GENERATED: 33.7 s. The 1536×1024 original was opened; exact title/count, adult diagnostics, near-equal scale, center pale fine-wavy-barred immature with short white tufts, bilateral branch support and durian/regenerated forest passed.
+- REVIEWED: same original and 680×453 derivative opened; no edit required. PASS_WITH_LIMITATIONS; the subadult assessment is interpretive and exact age, sex, dependence, moult and flight threshold remain unknown.
+
+## Iteration rule result
+
+- **Hypothesis:** record-specific short white tufts and age-unknown wording would prevent blending with v3's separate 2018 late-dependent juvenile.
+- **Applied:** adults were gated to long dark horizontal tufts; the immature was gated to short white tufts, pale fine barring and simple high-branch support.
+- **Verified:** the first render passed at full and derivative sizes without editing. This verifies separation of the two visual stages in this plate, not a continuous moult chronology. Science false.

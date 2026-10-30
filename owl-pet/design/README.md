@@ -2485,3 +2485,10 @@ Verification 2026-10-30T21:45:50+08:00: #60 v4 fixed archive `876679a51830eafe12
 
 
 Verification 2026-10-30T21:51:45+08:00: #61 v4 fixed archive `d1c49366e7bd9746bd91a91383619d531f23663f` returned exact concept/generated/reviewed assets and manifests; batch 5/6, next 6; science false.
+
+
+## #62 · Barred Eagle-Owl · *Ketupa sumatrana* · v4
+
+- Concept: `design/concepts/62-ketupa-sumatrana-v4.jpg`; full master retained under `production/`.
+- NUS SBR printed p.178 supports the age-unknown Pulau Ubin pale transitional immature with short white tufts; it is not assigned the separate 2018 family bird's age or behavior.
+- Original and derivative opened; no edit required. PASS_WITH_LIMITATIONS; exact age, dependence, moult and flight threshold remain unknown. Science false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:51:45+08:00",
+  "updated": "2026-10-30T21:55:55+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11074,7 +11074,50 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "62-ketupa-sumatrana-v4",
+      "path": "design/concepts/62-ketupa-sumatrana-v4.jpg",
+      "species_id": 62,
+      "scientific_name": "Ketupa sumatrana",
+      "historical_names": [
+        "Bubo sumatranus",
+        "Strix sumatrana"
+      ],
+      "common_name": "Barred Eagle-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "d644ebf7a231dc98514766970893775f0a278e952d623b4cfc4b10f86133ce43",
+      "size_bytes": 144961,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. NUS Singapore Biodiversity Records p.178 documents an age-unknown presumed subadult high in a Pulau Ubin durian tree: short white tufts, transitional buffish-white plumage with fine wavy dark barring, soft calls and no adults seen. V4 keeps that record separate from the estimated 8–10-month 2018 family juvenile. The first render passed without edit: adults retain pitch-black eyes, yellow bills and long dark horizontal tufts; the central immature is pale, short-white-tufted and bilaterally branch-supported. Exact age, sex, origin, dependence, continuous moult and flight threshold remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "BEOW-LKC-SBR-2017-178",
+        "BEOW-SGBIRDS-2026",
+        "BEOW-SGBIRDS-2018"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--62-ketupa-sumatrana-v4-pulau-ubin-transitional-subadult-boundary",
+      "research_record": "research/species/62-ketupa-sumatrana-v4.md",
+      "run_record": "production/runs/20261030T215232+0800-cycle-6.md",
+      "reviewed_at": "2026-10-30T21:55:18+08:00",
+      "generated_path": "production/generated/62-ketupa-sumatrana-v4-generated-master.jpg",
+      "generated_blob": "dc123f3fd7d7833558eaba48c7b3e96e6418d1bb",
+      "generated_sha256": "65a457d741b65caa36015ac81a032052ee0a40f41bbe858ecd36f2370b397a25",
+      "generated_size_bytes": 524521,
+      "reviewed_path": "production/reviewed/62-ketupa-sumatrana-v4-reviewed-master.jpg",
+      "reviewed_blob": "dc123f3fd7d7833558eaba48c7b3e96e6418d1bb",
+      "reviewed_sha256": "65a457d741b65caa36015ac81a032052ee0a40f41bbe858ecd36f2370b397a25",
+      "reviewed_size_bytes": 524521,
+      "archive_note": "V1-v3 preserved. Generated/reviewed 1536x1024 original and 680x453 derivative opened. No edit required; the 2017 record's pale short-tufted transition remained distinct from both adults and the separate 2018 juvenile. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "2588b61c7812acb9b5e90ec005aaf1677beac142"
     }
   ],
-  "updated_at": "2026-10-30T21:51:45+08:00"
+  "updated_at": "2026-10-30T21:55:55+08:00"
 }

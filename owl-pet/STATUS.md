@@ -2513,3 +2513,10 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Fixed archive `d1c49366e7bd9746bd91a91383619d531f23663f` returned exact concept/generated/reviewed assets and sizes, non-truncated tree, manifests 567/566/557 and supporting records.
 - Batch `2026-10-30T2039+0800` is 5/6, next cycle 6. Unique remains 175/251; science false.
+
+
+### #62 v4 archive prepared — 2026-10-30T21:55:55+08:00
+
+- Concept 680×453, 144,961 bytes, SHA-256 `d644ebf7a231dc98514766970893775f0a278e952d623b4cfc4b10f86133ce43`; master 1536×1024.
+- First render and derivative passed without edit: adult black eyes/yellow bills/long tufts, center pale fine-barred immature with short white tufts, bilateral branch support and durian-forest context.
+- Manifests 568/567/558; unique remains 175/251; science false; fixed readback pending.

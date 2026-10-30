@@ -39,3 +39,11 @@ v1 VERIFIED as an archived concept after juvenile-wing correction and remote blo
 - This is concept-production review only. Exact hatch age, continuous moult geometry, juvenile sex, measured adult sex ratio, momentary flight threshold and subspecies transfer remain unknown; `scientifically_verified=false`.
 
 - 2026-10-29T05:38:41+08:00: immutable archive verification passed at `993341a4f47a2c17a1cc6a60173e8d8f17039710`; complete tree was non-truncated and all three image paths matched blob `c48bb4545e13eb62e40a1a7839caa179b1a21d51` and 436319 bytes. v3 production status VERIFIED; science remains false.
+
+
+## v4 evidence, production and review — 2026-10-30
+
+- New source `BEOW-LKC-SBR-2017-178` (NUS Singapore Biodiversity Records, printed p.178) documents one presumed subadult about 20 m high in a Pulau Ubin durian tree: short white tufts, transitional buffish-white/fine-wavy-barred plumage, soft calls and no adults nearby.
+- V4 does not transfer the separate 2018 family juvenile's estimated age, dependence or hunting/flight behavior into the 2017 bird. The group plate is explicitly an educational morphology composite.
+- First 1536×1024 render and 680×453 derivative opened and passed without edit: exact title/count, pitch-black adult eyes, yellow bills, long adult tufts, center pale short-white-tufted immature, two-foot branch support and former-durian-plantation context.
+- PASS_WITH_LIMITATIONS; exact age, sex, origin, dependence, continuous moult and flight threshold remain unknown. Science false.

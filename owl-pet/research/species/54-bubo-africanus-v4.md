@@ -66,3 +66,10 @@ Juvenile: use Mikkola’s directly described mesoptile, exact age unknown. One s
 Environment: open or semi-open rocky woodland/savanna edge with sparse grasses and shrubs, warm filtered dawn light; avoid dense rainforest. Adults on separate stable rocks beside the sheltered ledge. Clean labels, cinematic depth, anatomically credible feet and support.
 
 Strict negatives: no extra owl, egg or prey; no orange adult eyes; no black/brown adult eyes; no Cape Eagle-Owl-like coarse heavy blotching; no exaggerated female size; no adult-regular juvenile wing spots or long tail; no unsupported juvenile; no invented exact age or flight claim; no misspelling.
+
+## Actual image review
+- Generation 45.1 s; original and first crop opened.
+- Initial issue: juvenile eyes were adult-bright yellow and wing showed crisp white spot rows/mature remige layering.
+- Edit 1 (62.4 s) reduced wing maturity but crop still showed saturated yellow eyes and a discrete spotted wing panel.
+- Edit 2 (57.0 s) made irises dull grey-olive/yellow and replaced the wing panel with continuous fine mesoptile.
+- Final 1536×1024 and crop reopened. PASS_WITH_LIMITATIONS; exact age/locomotion/feather geometry unknown; science false.

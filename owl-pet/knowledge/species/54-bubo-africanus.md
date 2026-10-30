@@ -71,3 +71,10 @@
 
 
 - Immutable archive verification: repaired archive commit `74273cfb062a1ec990b9ef6e9bfb71ff9451af6e`; concept `584fe0767728c9df6df2a3a7a0417b978e61120c`, generated JPEG `db3b7c3afec9a542a9632ef42a2f33135d123d40`, reviewed JPEG `b6fccf9fd62a2a12b9d0e638b235b23071789911`; exact tree byte sizes and all required markers passed. The earlier truncated blob attempt received no cycle credit. Unique remains 184/251; science false.
+
+## 2026-10-30 v4 guide-recovered revision
+- Mikkola printed pp.280–281 directly supplies the missing mesoptile: fine whitish/brown barring and greyish-yellow eyes, becoming yellow before fledging; exact age and wing/tail geometry absent.
+- Adult direction is reconciled rather than generalized: Mikkola says males paler and about 100 g lighter on average, while Ansara-Ross et al. found only tarsus significantly sex-different in a small sample. V4 uses only slight male pallor/slimness and subtle female fullness at near-equal height.
+- First image review found adult-bright juvenile eyes and a mature spotted wing panel. Two juvenile-only edits produced dull grey-olive/yellow eyes and continuous low-contrast mesoptile with no readable adult remiges.
+- Final full plate and crop reopened; title/count/adults/habitat/support passed. PASS_WITH_LIMITATIONS; exact age, movement and feather geometry unknown; science false.
+- Files: `design/concepts/54-bubo-africanus-v4.png` plus generated/reviewed masters; archive pending fixed readback.

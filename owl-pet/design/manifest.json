@@ -11158,7 +11158,49 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "54-bubo-africanus-v4",
+      "path": "design/concepts/54-bubo-africanus-v4.png",
+      "species_id": 54,
+      "scientific_name": "Bubo africanus",
+      "historical_names": [
+        "Strix africana",
+        "Bubo maculosus",
+        "Strix maculosa"
+      ],
+      "common_name": "Spotted Eagle-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "7f951093f0d92df5912f424e2b359a4a1b6b3e38017bef956f42c268bfe12c43",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: guide-recovered age-unknown greyish-yellow-eyed mesoptile; adult male subtly paler/slimmer and female subtly fuller at near-equal height. Two juvenile-only edits removed adult-bright eyes and mature spotted wing. Exact age, locomotion and feather geometry unknown.",
+      "source_ids": [
+        "SEO-MIKKOLA-2013-P280-281",
+        "SEO-SANBI-2018",
+        "SEO-OSTRICH-RSD-2008",
+        "SEO-BDI-2022",
+        "SEO-ITIS-555408",
+        "SEO-GBIF-NKS5"
+      ],
+      "research_record": "research/species/54-bubo-africanus-v4.md",
+      "run_record": "owl-pet/production/runs/20261030T194800+0800-cycle-5.md",
+      "reviewed_at": "2026-10-30T19:58:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 614830,
+      "git_blob": "0dca7c587c0b18cf3d6d0a938d60cbf123c9ba06",
+      "generated_blob": "a6d6d1da0ff31fd49a6b0b093fa8172de9b3abd3",
+      "reviewed_blob": "587ecfa9a7ee8859e0c8a522d32124ecdf212018",
+      "generated_sha256": "3b7e075837a884e7125405b949df2f675872c96d77dc0ec840c78803d27b51d3",
+      "reviewed_sha256": "a8e4972c555c8d8356153b8be1d8e3c135e55cb62c265a1935c5d6f9d3ab09a6",
+      "generated_size_bytes": 2855442,
+      "reviewed_size_bytes": 2690658,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "archive_note": "Original/crops and two edits opened. Adults/text/habitat/support pass; final juvenile has dull greyish-yellow eyes and continuous low-contrast mesoptile with no adult wing panel; science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T19:47:00+08:00"
+  "updated_at": "2026-10-30T20:01:00+08:00"
 }

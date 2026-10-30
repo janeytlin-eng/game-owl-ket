@@ -2361,3 +2361,6 @@ When a longitudinal source shows that a later nestling age already carries adult
 ### 2026-10-30 — adult sex-dimorphism evidence gate applied to #43
 
 When a larger live-bird morphometric sample finds no statistically significant sex difference, do not preserve a visible female-size or sex-specific plumage cue from an older small-sample inference. Non-significant trends such as the Forest Owlet female talon mean (p=.071) remain research notes, not drawing rules. This rule was actually applied and visually rechecked on #43 v4: male/female apparent bulk was equalized in edit 2. Validation is limited to this plate; broader back-review is pending.
+
+
+Verification 2026-10-30T16:45:00+08:00: the equal-size adult rule was effective on #43 v4 after fixed-commit readback; this validates application on this plate only, not yet a whole-archive back-review.

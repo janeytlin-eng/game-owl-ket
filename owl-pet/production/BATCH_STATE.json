@@ -8005,74 +8005,72 @@
       "batch_id": "2026-10-30T1634+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Athene blewitti",
+          "species_no": "43",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd",
+          "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md"
+        }
+      ],
+      "next_cycle": 2,
       "last_checkpoint": {
-        "stage": "ARCHIVED",
-        "at": "2026-10-30T16:44:00+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-30T16:45:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
         "evidence": {
-          "concept_path": "owl-pet/design/concepts/43-athene-blewitti-v4.png",
-          "generated_path": "owl-pet/production/generated/43-athene-blewitti-v4-generated.png",
-          "generated_blob": "f7705d61f054950a605cf4402096b0be3797b2da",
-          "reviewed_path": "owl-pet/production/reviewed/43-athene-blewitti-v4.png",
-          "reviewed_blob": "2a915087cc69033c25c6ca69b68fdaedaf26b257",
-          "crop_path": "owl-pet/production/review-crops/43-athene-blewitti-v4-juvenile.png",
-          "crop_blob": "29cbf5248ff1861edcae95a2c7f844b61da6133a",
+          "status": "VERIFIED",
+          "fixed_commit": "a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd",
+          "concept": {
+            "path": "design/concepts/43-athene-blewitti-v4.png",
+            "blob": "6af29c3ad82bfdfee88c42d565f82c6393cdee3c",
+            "size_bytes": 611507
+          },
+          "generated": {
+            "path": "production/generated/43-athene-blewitti-v4-generated.png",
+            "blob": "f7705d61f054950a605cf4402096b0be3797b2da",
+            "size_bytes": 3181705
+          },
+          "reviewed": {
+            "path": "production/reviewed/43-athene-blewitti-v4.png",
+            "blob": "2a915087cc69033c25c6ca69b68fdaedaf26b257",
+            "size_bytes": 2781044
+          },
+          "review_crop": {
+            "path": "production/review-crops/43-athene-blewitti-v4-juvenile.png",
+            "blob": "29cbf5248ff1861edcae95a2c7f844b61da6133a",
+            "size_bytes": 624131
+          },
+          "source_index_blob": "efcf699b1dcfbf7358a71414861e0b902c59890a",
+          "research_blob": "e2faa9bf43de4a1039709d3b031fc8845e2009d4",
+          "knowledge_blob": "d7979199b21f466f438d6884a516bd006e54a73a",
+          "archive_run_blob": "a47c66f6b6b383876177782fd2c548027b036b89",
+          "archive_batch_blob": "e97cad78c4c15b70a27daf963f3ca0f21387e6b9",
+          "manifest_blobs": {
+            "design": "76ee2f69a9b8f0b85abbb3224fc55f4bd7b5bf4c",
+            "production": "e4fe50add86188ce5aa0c3cebc44e9c38374ef53",
+            "legacy": "ff00b085a629f07cfed86f15c389a3ce7fee7f3c"
+          },
           "manifest_counts": {
             "design": 562,
             "production": 553,
             "legacy": 551
           },
-          "source_index_blob": "efcf699b1dcfbf7358a71414861e0b902c59890a",
-          "research_blob": "e2faa9bf43de4a1039709d3b031fc8845e2009d4",
-          "knowledge_blob": "d7979199b21f466f438d6884a516bd006e54a73a",
-          "readback": "pending",
           "unique_species": "175/251",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T16:44:00+08:00",
-      "active_lease": {
-        "owner": "codex-work-20261030T1634+0800",
-        "run_id": "20261030T163400+0800-cycle-1",
-        "cycle": 1,
-        "species_id": 43,
-        "heartbeat_at": "2026-10-30T16:44:00+08:00",
-        "expires_at": "2026-10-30T16:59:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-work-20261030T1634+0800",
-        "run_id": "20261030T163400+0800-cycle-1",
-        "cycle": 1,
-        "species_id": 43,
-        "heartbeat_at": "2026-10-30T16:44:00+08:00",
-        "expires_at": "2026-10-30T16:59:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 1,
-        "species": "Athene blewitti",
-        "species_no": "43",
-        "version": "v4",
-        "action": "SCIENCE_REVISION",
-        "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-30T16:34:00+08:00",
-        "research_ready_at": "2026-10-30T16:34:00+08:00",
-        "image_generated_at": "2026-10-30T16:36:00+08:00",
-        "reviewed_at": "2026-10-30T16:42:00+08:00",
-        "archived_at": "2026-10-30T16:44:00+08:00"
-      }
+      "last_updated_at": "2026-10-30T16:45:00+08:00",
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-work-20261030T1634+0800",
-    "run_id": "20261030T163400+0800-cycle-1",
-    "cycle": 1,
-    "species_id": 43,
-    "heartbeat_at": "2026-10-30T16:44:00+08:00",
-    "expires_at": "2026-10-30T16:59:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -8195,9 +8193,10 @@
     "2026-10-30T16:34:00+08:00: cycle1 #43 v4 RESEARCH_READY; new1/reused5/corrected1; Mehta et al. 2021 live-bird sample rejects visible adult size dimorphism; full prompt persisted; no credit.",
     "2026-10-30T16:36:00+08:00: cycle1 #43 v4 IMAGE_GENERATED after 70.4-second wait; full 1536x1024 plate opened; title/count/support pass; juvenile adult-like wing/tail and excessive adult wing spotting require targeted edit; no credit.",
     "2026-10-30T16:42:00+08:00: cycle1 #43 v4 REVIEWED after three targeted edits; final 1536x1024 plate and 520x720 crop reopened; adult visible size equality and short soft juvenile wing now pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-    "2026-10-30T16:44:00+08:00: cycle1 #43 v4 ARCHIVED as design562/production553/legacy551; concept/generated/reviewed/crop and research records persisted; fixed readback pending; unique175/251; science false; no credit."
+    "2026-10-30T16:44:00+08:00: cycle1 #43 v4 ARCHIVED as design562/production553/legacy551; concept/generated/reviewed/crop and research records persisted; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:45:00+08:00: cycle1 #43 v4 VERIFIED at fixed archive a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd; exact image/text/source/state tuples matched; batch1/6 next2; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-30T16:44:00+08:00",
+  "updated_at": "2026-10-30T16:45:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8205,15 +8204,8 @@
     "2026-10-26 13:39 +0800: recovered expired cycle 5 and verified #35 Glaucidium jardinii v2; first render's adult-like juvenile white wing spots were removed and the wing shortened/softened. Archive commit 930c6054adc72a781ef676d586667bbd89c5193d, Git blob 42c941d03d7398268a4056fe1622b77fc2eef80e; verification commit 8d3c436d62824e6b28a772907258107151879e20. Unique remains 159/251; next_cycle 6.",
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6."
   ],
-  "active_lease": {
-    "owner": "codex-work-20261030T1634+0800",
-    "run_id": "20261030T163400+0800-cycle-1",
-    "cycle": 1,
-    "species_id": 43,
-    "heartbeat_at": "2026-10-30T16:44:00+08:00",
-    "expires_at": "2026-10-30T16:59:00+08:00"
-  },
-  "last_updated_at": "2026-10-30T16:44:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-30T16:45:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8432,7 +8424,8 @@
     "2026-10-30T16:34:00+08:00: cycle1 #43 v4 RESEARCH_READY; new1/reused5/corrected1; Mehta et al. 2021 live-bird sample rejects visible adult size dimorphism; full prompt persisted; no credit.",
     "2026-10-30T16:36:00+08:00: cycle1 #43 v4 IMAGE_GENERATED after 70.4-second wait; full 1536x1024 plate opened; title/count/support pass; juvenile adult-like wing/tail and excessive adult wing spotting require targeted edit; no credit.",
     "2026-10-30T16:42:00+08:00: cycle1 #43 v4 REVIEWED after three targeted edits; final 1536x1024 plate and 520x720 crop reopened; adult visible size equality and short soft juvenile wing now pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-    "2026-10-30T16:44:00+08:00: cycle1 #43 v4 ARCHIVED as design562/production553/legacy551; concept/generated/reviewed/crop and research records persisted; fixed readback pending; unique175/251; science false; no credit."
+    "2026-10-30T16:44:00+08:00: cycle1 #43 v4 ARCHIVED as design562/production553/legacy551; concept/generated/reviewed/crop and research records persisted; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:45:00+08:00: cycle1 #43 v4 VERIFIED at fixed archive a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd; exact image/text/source/state tuples matched; batch1/6 next2; unique175/251; science false; lease released."
   ],
   "audit_trail": [
     {
@@ -8590,42 +8583,52 @@
     "2026-10-30T16:34:00+08:00: cycle1 #43 v4 RESEARCH_READY; new1/reused5/corrected1; Mehta et al. 2021 live-bird sample rejects visible adult size dimorphism; full prompt persisted; no credit.",
     "2026-10-30T16:36:00+08:00: cycle1 #43 v4 IMAGE_GENERATED after 70.4-second wait; full 1536x1024 plate opened; title/count/support pass; juvenile adult-like wing/tail and excessive adult wing spotting require targeted edit; no credit.",
     "2026-10-30T16:42:00+08:00: cycle1 #43 v4 REVIEWED after three targeted edits; final 1536x1024 plate and 520x720 crop reopened; adult visible size equality and short soft juvenile wing now pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-    "2026-10-30T16:44:00+08:00: cycle1 #43 v4 ARCHIVED as design562/production553/legacy551; concept/generated/reviewed/crop and research records persisted; fixed readback pending; unique175/251; science false; no credit."
+    "2026-10-30T16:44:00+08:00: cycle1 #43 v4 ARCHIVED as design562/production553/legacy551; concept/generated/reviewed/crop and research records persisted; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:45:00+08:00: cycle1 #43 v4 VERIFIED at fixed archive a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd; exact image/text/source/state tuples matched; batch1/6 next2; unique175/251; science false; lease released."
   ],
-  "in_progress": {
-    "cycle": 1,
-    "species": "Athene blewitti",
-    "species_no": "43",
-    "version": "v4",
-    "action": "SCIENCE_REVISION",
-    "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
-    "stage": "ARCHIVED",
-    "started_at": "2026-10-30T16:34:00+08:00",
-    "research_ready_at": "2026-10-30T16:34:00+08:00",
-    "image_generated_at": "2026-10-30T16:36:00+08:00",
-    "reviewed_at": "2026-10-30T16:42:00+08:00",
-    "archived_at": "2026-10-30T16:44:00+08:00"
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "stage": "VERIFIED",
-    "at": "2026-10-30T15:36:00+08:00",
-    "run_record": "owl-pet/production/runs/20261030T144900+0800-cycle-6.md",
+    "at": "2026-10-30T16:45:00+08:00",
+    "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
     "evidence": {
-      "fixed_archive_commit": "db6268ba091584c3e3b735240f13deaa81dc815b",
-      "concept_blob": "15b20894d557d3177f9122445e42b454d8caeada",
-      "generated_blob": "bff72e32d8b1565d3e32747bb38fa2c0f7a228ec",
-      "reviewed_blob": "aaa50d00b1e68ff02f3dd91e32b65476dea5d3ff",
-      "crop_blob": "a818c632ff29b0627d97b72c4279375c6f9b9833",
-      "manifest_counts": {
-        "design": 561,
-        "production": 552,
-        "legacy": 550
+      "status": "VERIFIED",
+      "fixed_commit": "a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd",
+      "concept": {
+        "path": "design/concepts/43-athene-blewitti-v4.png",
+        "blob": "6af29c3ad82bfdfee88c42d565f82c6393cdee3c",
+        "size_bytes": 611507
       },
-      "source_index_blob": "f481c230eb46637c4239dfac9d69eca787be21be",
-      "research_blob": "60d2281b81902b48bcdd739f0ee616513b38d1bc",
-      "knowledge_blob": "b3b787b8872bb6d973b06de7bbbc0f3bddf32a91",
-      "archive_run_blob": "65b430ba410bc1b7647434a2757778f7628d0a44",
-      "archive_batch_blob": "3ecd9d3ff92e6d66d618d5ecab9221d03ebbdaaa",
+      "generated": {
+        "path": "production/generated/43-athene-blewitti-v4-generated.png",
+        "blob": "f7705d61f054950a605cf4402096b0be3797b2da",
+        "size_bytes": 3181705
+      },
+      "reviewed": {
+        "path": "production/reviewed/43-athene-blewitti-v4.png",
+        "blob": "2a915087cc69033c25c6ca69b68fdaedaf26b257",
+        "size_bytes": 2781044
+      },
+      "review_crop": {
+        "path": "production/review-crops/43-athene-blewitti-v4-juvenile.png",
+        "blob": "29cbf5248ff1861edcae95a2c7f844b61da6133a",
+        "size_bytes": 624131
+      },
+      "source_index_blob": "efcf699b1dcfbf7358a71414861e0b902c59890a",
+      "research_blob": "e2faa9bf43de4a1039709d3b031fc8845e2009d4",
+      "knowledge_blob": "d7979199b21f466f438d6884a516bd006e54a73a",
+      "archive_run_blob": "a47c66f6b6b383876177782fd2c548027b036b89",
+      "archive_batch_blob": "e97cad78c4c15b70a27daf963f3ca0f21387e6b9",
+      "manifest_blobs": {
+        "design": "76ee2f69a9b8f0b85abbb3224fc55f4bd7b5bf4c",
+        "production": "e4fe50add86188ce5aa0c3cebc44e9c38374ef53",
+        "legacy": "ff00b085a629f07cfed86f15c389a3ce7fee7f3c"
+      },
+      "manifest_counts": {
+        "design": 562,
+        "production": 553,
+        "legacy": 551
+      },
       "unique_species": "175/251",
       "science": false
     }

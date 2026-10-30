@@ -2359,3 +2359,8 @@ Fixed archive `db6268ba091584c3e3b735240f13deaa81dc815b` returned the exact four
 - Adults now share equal apparent scale and plumage; three edits corrected dense wing spotting, adult-size imbalance and the juvenile's mature-looking wing.
 - Final review: PASS_WITH_LIMITATIONS; science false. Exact individual age, iris chronology and sex-specific juvenile development remain unknown.
 - Assets: `owl-pet/design/concepts/43-athene-blewitti-v4.png`, `owl-pet/production/reviewed/43-athene-blewitti-v4.png`, `owl-pet/production/review-crops/43-athene-blewitti-v4-juvenile.png`; fixed readback pending.
+
+
+### #43 v4 VERIFIED — 2026-10-30T16:45:00+08:00
+
+Fixed archive `a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd` returned exact image blobs; manifests 562/553/551 and source/research/run/knowledge/state records matched. Batch `2026-10-30T1634+0800` is 1/6 with next cycle 2; unique species remains 175/251; science false.

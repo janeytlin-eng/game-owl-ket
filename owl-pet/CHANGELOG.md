@@ -1380,3 +1380,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added an evidence-led revision after Mehta et al. 2021 found no significant sexual size dimorphism in a 46-bird live sample.
 - Removed the visible female-size / extra-barring inference, reduced adult wing spotting and shortened the 28–30 d juvenile's wing through three targeted edits.
 - Preserved v1–v3 and all historical records. Added concept, generated, reviewed and juvenile-crop assets plus source/research/run records. Unique count remains 175/251; science false.
+
+
+- Verified #43 v4 at fixed archive `a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd`; exact image and indexed evidence matched. Batch advances to 1/6, next cycle 2.

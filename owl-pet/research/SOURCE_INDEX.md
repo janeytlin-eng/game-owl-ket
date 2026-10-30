@@ -194,3 +194,67 @@
 - **Fact/limit:** subspecies validity remains uncertain; insular *sanborni* was described from a juvenile specimen. Abstract supplies no chick plumage chronology, so it is a taxonomy warning only.
 - **Reused:** `RLO-MMA-2015` adult dichromatism/mature Nothofagus; `RLO-ESCOBAR-2022` limited 30-day incubation/34-day nestling context; `RLO-FIGUEROA-2017` one-month rehab juvenile.
 - **Correction:** do not merge the direct white-down chick description with the later one-month warm-buff rehab photograph. New2/reused3/corrected1; science false.
+
+## 2026-10-30 — #52 *Strix hylophila* v4 early-stage correction
+
+### RBO-MIKKOLA-2013-P337
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Persistent file / pages:** Library `libfile_916e2244186c81918fe5a0716884b8c9`; internal PDF p.339; printed p.337.
+- **Accessed:** 2026-10-30; complete species text read.
+- **Source type:** photographic species guide; measurements, adult morphology and direct juvenile-plumage description.
+- **Species / stage:** *Strix hylophila*; adults, white downy chick, mesoptile.
+- **Facts:** 35–36 cm, 285–395 g; females average >50 g heavier. Round untufted head; dark-brown eyes; rusty disc with dusky concentric lines; warm brown/rust-barred plumage; feathered tarsi and bare toes. Downy chick white; mesoptile buffier and without adult facial concentric lines.
+- **Limits / confidence:** no juvenile age, locomotion, flight or feather-growth schedule. High confidence for directly stated appearance; no precise developmental threshold.
+- **Design decision:** v4 uses an age-unknown white-down cavity chick with full support, no visible remiges/adult bars/long tail, and only subtle adult female fullness.
+- **Linked records:** `owl-pet/research/species/52-strix-hylophila-v4.md`; `owl-pet/production/runs/20261030T193500+0800-cycle-4.md`.
+
+### RBO-AVESRAPINA-2018
+- **Title / author / date:** “Coruja-listrada (*Strix hylophila*)” / Willian Menq / updated April 2018.
+- **URL:** https://avesderapinabrasil.com/strix_hylophila.htm
+- **Accessed:** 2026-10-30; species text and juvenile caption metadata read.
+- **Source type:** specialist secondary species account.
+- **Facts:** male 249–340 g, female 276–395 g; dark iris/yellow bill; young leaving the nest dark above, chestnut-barred cream below and lacking the dark adult facial-disc outline; high tree cavities; reported departure near 35 days; Araucaria/Atlantic Forest association.
+- **Limits / confidence:** secondary synthesis; no individual hatch date or direct movement test. Departure age is not used to date v4.
+- **Design decision:** adult mass direction and forest/cavity context only; later brancher is kept separate from the earlier white-down v4 chick.
+
+### RBO-WIKIAVES-3982971
+- **Title / observer / date:** WikiAves WA3982971 / Fabiano Geros / photographed 20 September 2020.
+- **URL:** https://www.wikiaves.com.br/3982971&s=10523
+- **Accessed:** 2026-10-30; metadata and full observer note read.
+- **Source type:** dated field-photo record.
+- **Species / stage / locality:** *Strix hylophila* chick; Teixeira Soares, Paraná; exact age unknown.
+- **Fact:** observer found the chick in a hollow tree while showing an old nest in an Araucaria.
+- **Limits / confidence:** no hatch date, locomotion, flight or measured feather chronology. Copyrighted photograph not copied.
+- **Design decision:** supports a natural Araucaria hollow only, not the exact v4 chick appearance.
+
+### RBO-EMBRAPA-520-2022-P35
+- **Title / institution / year:** *Aves de rapina diurnas e corujas no Rio Grande do Sul* / Embrapa Documentos 520 / 2022.
+- **URL:** https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1149044/1/Doc520-Aves-rapina-Rio-Grande-Sul-2022.pdf
+- **Page / access:** PDF p.35 read 2026-10-30.
+- **Source type:** institutional secondary handbook.
+- **Facts:** Atlantic Forest/Pampa species, frequent in Araucaria; preference for tall well-preserved forest; nests in hollows of large living/dead trees; up to three eggs; incubation about 30 days.
+- **Limits / confidence:** no juvenile feather or locomotor chronology.
+- **Design decision:** tall Atlantic Forest/Araucaria and large-trunk hollow context; no ground nest.
+
+### RBO-ITIS-555431
+- **Title / institution:** *Strix hylophila* taxonomic report / Integrated Taxonomic Information System.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555431&source=to_print
+- **Accessed:** 2026-10-30.
+- **Facts:** TSN 555431; *Strix hylophila* Temminck, 1825 current standing valid, credibility “verified—standards met”; record cites IOC World Bird List v15.1.
+- **Limits / confidence:** taxonomy only.
+- **Design decision:** retain repository current name and author/date mapping.
+
+### RBO-GBIF-532HH
+- **Title / source:** *Strix hylophila* taxon record / GBIF, Catalogue of Life backbone.
+- **URL:** https://www.gbif.org/taxon/532HH
+- **Accessed:** 2026-10-30.
+- **Facts:** accepted *Strix hylophila* Temminck, 1825; older combination *Ciccaba hylophila*; listed synonym *Nyctale fasciata* Bertoni & Bertoni, 1901.
+- **Limits / confidence:** taxonomy only; no design anatomy/development evidence.
+- **Design decision:** persist current-to-old-name mapping without transferring traits from another taxon.
+
+### Reused evidence and correction
+- Re-read and reused: Aves de Rapina Brasil adult/brancher summary; WikiAves WA3982971 cavity observation; Embrapa Documentos 520 p.35 habitat/nest account.
+- New evidence: Mikkola printed p.337 direct white-down/mesoptile distinction; ITIS current standing; GBIF old-combination/synonym mapping.
+- **Correction:** v3's approximately 32–35-day nest-leaving juvenile remains a valid prior concept but exact feather and locomotor thresholds were unresolved. V4 chooses the separately documented age-unknown white downy chick and removes any unsupported mature wing, adult barring, long tail, standing, hopping or flight claim.
+- **Source/design delta:** new3 / reused3 / corrected1; six source records added to this index; science false.
+

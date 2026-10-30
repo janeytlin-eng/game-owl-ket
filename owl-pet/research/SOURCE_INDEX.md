@@ -585,3 +585,15 @@ Reused stable IDs **CLA-FORMOSO-ETAL-2025**, **CLA-PAUTASSO-DE-LA-PENA-2001**, *
 ## 2026-10-31 — #77 *Asio stygius* v4 dated poor-remige boundary
 
 Reused stable IDs **STY-LOPES-ETAL-2004**, **STY-CADENA-2018**, **STY-SPIZAETUS-2018**, **STY-OWLPAGES-2020**, and **WHSO-MIKKOLA-2013**; new0/reused5/corrected1. The fixed v3 image was reopened. The primary Brazilian nest account at printed pp.423–426 states that day-26/27 remiges and rectrices were poorly developed and prevented flight; v4 therefore removes v3's long layered juvenile wing panel, retains a down-dominated wing with short emerging tips and an extremely short tail, and restores number 77. Later branch-capable Ecuador evidence is not transferred onto this dated stage. Three searches and two direct opens returned empty payloads and received no credit. Exact geometry, sex and population transfer remain unknown; science false. [Research](species/77-asio-stygius-v4.md) · [Run](../production/runs/20261031T013432+0800-cycle-1.md).
+
+
+## 2026-10-31 — #78 *Asio capensis* v4 older-dependent wing boundary
+
+- **Stable IDs reused:** MAR-ANSARA-ROSS-2008; MARSH-BIOEXP-2026; MARSH-OWLPAGES-2020; WHSO-MIKKOLA-2013; MAR-BIRDLIFE-SA-2025; MAR-HANANE-CHERKAOUI-2014.
+- **URLs actually retained:** https://www.biodiversityexplorer.info/birds/strigidae/asio_capensis.htm ; https://www.owlpages.com/owls/species.php?s=3610. Direct opens failed in this cycle and were not credited as new reads.
+- **Pages/sections:** Mikkola printed pp.518–519 / PDF pp.520–521; Hanane & Cherkaoui 2014 printed pp.46–49; Ansara-Ross 2008 sexed morphometric table as recorded in the v2 knowledge update; species-account identification/breeding sections.
+- **Species/stage:** *Asio capensis* adults and older mobile dependent juvenile; Moroccan older name `A. c. tingitanus` restricted to nest-site plasticity.
+- **Correction:** v3’s exact day label and crisp adult-regular juvenile covert/remige rows are not jointly supported by an accessible primary daily series. V4 uses an age-unknown older dependent with developed but soft wing, short tail, irregular marks and full grass support.
+- **Limits/confidence:** adult identity and broad stage boundary moderate-to-high; exact day, first-flight threshold, continuous tract sequence, sexed standing-height ratio and named-form transfer unknown. Science false.
+- **Related:** `research/species/78-asio-capensis-v4.md`; `owl-pet/production/runs/20261031T022749+0800-cycle-2.md`; `knowledge/species/78-asio-capensis.md`; planned `design/concepts/78-asio-capensis-v4.jpg`.
+- **Delta:** new0 / reused6 / corrected1. External retrieval failures are attempts only.

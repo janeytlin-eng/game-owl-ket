@@ -2317,3 +2317,5 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 13:44 +08 — #39 Central American Pygmy-Owl v4 archived, verification pending
 
 #39 *Glaucidium griseiceps* v4 concept, generated/reviewed PNG and juvenile crop are archived. Wetmore 1965 printed p.167 added adult/immature diagnostics and an adult-sexes-alike boundary. One juvenile-only edit neutralized unsupported iris color and removed adult-like pale back/wing pattern. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 2/6.
+
+- 2026-10-30T13:46:00+08:00: #39 v4 first archive binary-size mismatch detected before credit; exact Git-hash-matched blobs supersede all four image paths in correction commit; fixed readback pending.

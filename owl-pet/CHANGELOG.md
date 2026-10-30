@@ -1348,3 +1348,5 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T13:44:00+08:00: archived #39 *Glaucidium griseiceps* v4. Added Wetmore 1965 printed p.167, reused the complete 2008 wet forest-floor juvenile record, corrected adult sex-scale inference, and edited the juvenile iris/back/wing once. Full plate and crop reopened. Manifests design558 / production549 / legacy547; fixed readback pending; science false.
+
+- 2026-10-30T13:46:00+08:00: detected and corrected #39 v4 binary transfer mismatch before credit; exact local Git hashes now stage the concept/generated/reviewed/crop paths; fixed readback pending.

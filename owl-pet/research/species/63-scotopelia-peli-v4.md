@@ -43,3 +43,8 @@ Initial render passed title/count/habitat/support but made the male visibly larg
 ## Archive preparation — 2026-10-30T22:33:00+08:00
 
 Concept, generated and reviewed assets plus all three manifests were prepared. Readback remains pending; science false and no cycle credit yet.
+
+
+## Fixed-commit verification — 2026-10-30T22:32:49+08:00
+
+Archive `f5df81e3a148f2d1d41fa825b44a4d4d91785018` returned exact concept/generated/reviewed blob SHAs and sizes in a non-truncated 2097-entry tree. Manifests read back at 569/568/559. Visual verdict remains PASS_WITH_LIMITATIONS; exact juvenile age, feather-tract chronology, first-flight threshold and sexed juvenile traits remain unknown; science false.

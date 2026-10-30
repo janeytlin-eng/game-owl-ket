@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:33:00+08:00",
+  "updated": "2026-10-30T22:32:49+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11707,10 +11707,44 @@
       "reviewed_sha256": "6576e1a6c83a44e4e40ad00b9d0b7e53065b71a4ba9e3574d476a44a3dc9c006",
       "reviewed_size_bytes": 425509,
       "archive_note": "V1-v3 and duplicate-name #156 preserved. Generated and edited 1536x1024 masters plus 680x453 concept were opened. One bounded edit corrected adult scale direction and juvenile wing maturity. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "git_blob": "0c9b5c1196834017e7c073e461405b8e0e9fd008"
+      "readback_pending": false,
+      "archive_commit": "f5df81e3a148f2d1d41fa825b44a4d4d91785018",
+      "git_blob": "0c9b5c1196834017e7c073e461405b8e0e9fd008",
+      "fixed_commit": "f5df81e3a148f2d1d41fa825b44a4d4d91785018",
+      "verified_at": "2026-10-30T22:32:49+08:00",
+      "verification_result": "VERIFIED against fixed archive: exact concept/generated/reviewed paths, blob SHAs and sizes; non-truncated tree; manifest counts 569/568/559; supporting run/research/state records matched. Science remains false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "f5df81e3a148f2d1d41fa825b44a4d4d91785018",
+        "tree_truncated": false,
+        "tree_entries": 2097,
+        "concept": {
+          "path": "owl-pet/design/concepts/63-scotopelia-peli-v4.jpg",
+          "blob": "0c9b5c1196834017e7c073e461405b8e0e9fd008",
+          "size_bytes": 118139,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/f5df81e3a148f2d1d41fa825b44a4d4d91785018/owl-pet/design/concepts/63-scotopelia-peli-v4.jpg?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/63-scotopelia-peli-v4-generated-master.jpg",
+          "blob": "0eeef23979b61e20b674ff89d6bc4900e92cb695",
+          "size_bytes": 482729,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/f5df81e3a148f2d1d41fa825b44a4d4d91785018/owl-pet/production/generated/63-scotopelia-peli-v4-generated-master.jpg?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/63-scotopelia-peli-v4-reviewed-master.jpg",
+          "blob": "2998f03dd8d857f1fa361425cf456716b4638daf",
+          "size_bytes": 425509,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/f5df81e3a148f2d1d41fa825b44a4d4d91785018/owl-pet/production/reviewed/63-scotopelia-peli-v4-reviewed-master.jpg?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 569,
+          "design": 568,
+          "production": 559
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T22:33:00+08:00"
+  "updated_at": "2026-10-30T22:32:49+08:00"
 }

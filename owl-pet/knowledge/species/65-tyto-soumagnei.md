@@ -36,3 +36,10 @@ Sources: MRO-PEREGRINE-2026, MRO-ADW-2026, MRO-OWLPAGES-2020 in [source index](.
 - Concept: `53d5923c644884ade4c153ad13d87b11a895e462`, 451441 bytes.
 - Generated/reviewed: `6a134e7f78ad1123035e10d71c4849456c245031`, 747471 bytes each.
 - Recursive tree was not truncated; manifest and linked production records were reread from the fixed archive commit. Science remains false because exact sex ratio, exact juvenile chronology and single-nest generality remain unresolved.
+
+
+## 2026-10-30 v4 research boundary
+
+- New source `MRO-NHM-2003-P1112` adds a distinct approximately 30-day stage: noticeable facial discs, flight feathers just emerging, and hissing/clacking when agitated.
+- V4 moves from v3’s fully feathered recent fledgling to a low, cavity-supported 30-day nestling with abundant down and only sparse short emerging feather tips. No adult wing panel, regular rows, long tail or branch-hopping pose.
+- Hatching was suspected rather than directly seen; exact feather count/length/tract chronology and sex are unknown. Science false.

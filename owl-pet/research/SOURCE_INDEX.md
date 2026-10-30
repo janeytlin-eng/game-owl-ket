@@ -480,3 +480,18 @@
 - **Limit/conflict:** dates establish observation sequence, not hatch age; “we assume fledging” is author inference, not a measured first-flight threshold. Sex-specific adult size remains a mass-direction cue only. Scientific acceptance stays false.
 - **Related records:** `knowledge/species/64-tyto-glaucops.md`; `research/species/64-tyto-glaucops-v4.md`; `production/runs/20261030T223349+0800-cycle-2.md`; image version `64-tyto-glaucops-v4`.
 - **Lead not used as verified evidence:** Macaulay asset ML201989861 returned an anti-bot error during full-page read; its search metadata was not used for scientific pass.
+
+
+## 2026-10-30 — #65 *Tyto soumagnei* v4 30-day nestling boundary
+
+- **Stable source ID:** `MRO-NHM-2003-P1112`
+- **Title/chapter:** “Strigiformes: *Tyto soumagnei*, Madagascar Red Owl” in *The Natural History of Madagascar* bird systematic accounts
+- **Authors/editors:** Russell Thorstrom and Lily-Arison René de Roland (species account); Steven M. Goodman and Jonathan P. Benstead (eds.)
+- **Year / source type:** 2003; expert systematic account synthesizing the first intensively observed nest
+- **Original URL:** https://protectedareas.mg/content/documents/0cd9156e-e528-4293-b8da-d00aa5f5af4f/dc17b8fd22bd4c08ad8fcddd92d3ff17.pdf
+- **Pages/section actually read:** extracted printed p.1112 and adjacent Table 12.26 text returned from the original PDF; “Madagascar Red Owl” subsection. Direct full-PDF open failed because the 33 MB document exceeded the fetch limit, so page-image verification remains a limitation.
+- **Species/stage:** *Tyto soumagnei*; approximately 30-day nestlings, late nestlings, fledglings and post-fledging young
+- **Key facts:** at 30 days after suspected hatching, young had noticeable facial discs, flight feathers just emerging, and hissed/clacked when agitated; by mid-November they waited on branches near the entrance; fledging occurred at about 10 weeks and plumage then resembled adults. A measured fledgling female was 358 g versus 323 g for the adult female, demonstrating that juvenile/adult size cannot be guessed from age alone. Post-fledging young remained within 100–200 m for months.
+- **Design decision:** v4 selects the 30-day cavity nestling stage, distinct from v3’s fully feathered recent fledgling. Show facial disc plus only sparse just-emerging flight-feather tips, abundant down, low cavity support and no branch/flight pose.
+- **Limits/conflicts:** hatching date was suspected, not directly observed; “just emerging” does not supply feather count/length or tract sequence. The account is based on very few nests. Do not infer sex from v4 nestling appearance.
+- **Related records:** `knowledge/species/65-tyto-soumagnei.md`; `research/species/65-tyto-soumagnei-v4.md`; `production/runs/20261030T224022+0800-cycle-3.md`; image version `65-tyto-soumagnei-v4`.

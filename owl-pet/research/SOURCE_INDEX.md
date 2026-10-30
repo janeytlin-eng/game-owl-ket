@@ -1,3 +1,24 @@
+## 2026-10-30 — #57 *Bubo nipalensis* v4 outside-nest date boundary
+
+### SBEO-SHUKLA-2025-P28
+- **Title / authors / year:** “Spot-bellied Eagle-Owl *Ketupa nipalensis* breeding in Pench Tiger Reserve, Maharashtra” / Shukla et al. / 2025.
+- **URL:** https://indianbirds.in/wp-content/uploads/2025/05/IB_21_1_ShuklaETAL_EagleOwlKetupa.pdf
+- **Accessed:** 2026-10-30; full relevant chronology and habitat text read.
+- **Source type:** field breeding account; *Indian BIRDS* 21(1).
+- **Species / stage:** *Ketupa nipalensis* = project *Bubo nipalensis*; adult pair and age-unknown outside-nest juvenile.
+- **Page:** printed p.28 / PDF page 2.
+- **Facts:** adults were recorded 10 June 2023; a juvenile was seen outside the nest 16 June and repeatedly thereafter. The site was tall dense moist-deciduous forest; daytime roosts included mature *Terminalia arjuna* and *Ficus benghalensis*.
+- **Limits / confidence:** no hatch date, feather sequence, sex, exact flight test or measured dimensions. High confidence for dated occurrence/site; low for developmental timing. The observation date is not a hatch age.
+- **Design decision:** v4 uses an explicitly age-unknown, supported outside-nest brancher in tall moist-deciduous forest and makes no exact flight claim.
+- **Linked records:** `owl-pet/research/species/57-bubo-nipalensis-v4.md`; `owl-pet/production/runs/20261030T203900+0800-cycle-1.md`; planned `design/concepts/57-bubo-nipalensis-v4.png`.
+
+### Reused/corrected source mapping
+- `SBEO-SRINIVASAN-2013`: printed pp.106–107 re-read. Pale-yellow/light-spotted dependent juvenile, pale-yellow bill, thin V breast marks, dark heavily barred primaries/secondaries/tail, small tufts and creamy legs; not capable of sustained flight; exact age unknown.
+- `SBEO-SHARPE-BM-1875`: p.38 supports an immature barred wing/tail direction but not live timing.
+- `SBEO-MIKKOLA-2013`: uploaded guide and existing repository adult boundary reused; no exact sex ratio or juvenile age inferred.
+- **Correction:** a dated out-of-nest observation is not an age or a flight threshold. Developed juvenile wing/tail are retained only because the 2013 field bird directly supports them; crisp adult shoulder rows and adult-perfect layering remain excluded.
+- **Source/design delta:** new1 / reused3 / corrected1; science false.
+
 ## 2026-10-30 — #48 *Strix nivicolum* v4 adjacent-species correction
 
 ### HIML-NTM-YAMADAE

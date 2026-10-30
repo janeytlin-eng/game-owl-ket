@@ -23,3 +23,8 @@ V3 correctly selects 7–10 d and low cavity support, but its central juvenile h
 ## Full imagegen prompt
 
 Edit the attached #80 Otus sunia v3 plate in place, preserving its photorealistic style, exact typography, framing, adult male on left, one juvenile in center, adult female on right, and natural tree-cavity habitat. Keep exactly the title “ORIENTAL SCOPS OWL”, italic “Otus sunia”, and labels “ADULT MALE”, “7–10-DAY CAVITY NESTLING”, “ADULT FEMALE”. Preserve adult yellow irides, dark gray bills, small natural ear tufts, gray-brown streaked plumage, spotted scapulars, near-equal visible height (female only subtly fuller) and both adults’ natural branch grips. Change only the central 7–10-day nestling wing development: white/cream down-dominated body, brownish juvenile irides, belly and tarsi supported low on dry cavity floor, no visible tail or rectrix fan, no standing/perching/entrance display/flight. The wing should show only a very few tiny short dark pin-sheath tips just beginning to open, mostly buried under down, irregular and much shorter than v3; remove the neat row of long feather-like pins with bright repeated pale tips. Preserve the juvenile’s head/body/feet, the adults, text and background. Exactly three owls; no extra birds, no mature juvenile wing layers, no long tail, no labels changed.
+
+## Actual image review
+
+Full image, 520×700 juvenile crop and 680×453 derivative opened. The edited juvenile is down-dominated with only a few tiny short irregular dark tips, low bilateral/belly support and no tail or flight posture. Adults, text and habitat remain stable. PASS_WITH_LIMITATIONS; one direct edit; science false.
+

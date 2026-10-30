@@ -22,3 +22,7 @@ SUNIA-PUKINSKY-1977's indexed field synthesis supplies a species-specific sequen
 
 Reused SUNIA-PUKINSKY-1977 indexed chronology, SUNIA-NO-DISS-2017 pp.114–115/Fig.19, SUNIA-NO-2015 pp.415–418 and WHSO-MIKKOLA-2013 printed pp.152–153/PDF154–155. Active searches returned no content. V4 retains 7–10 d but changes v3's neat long wing pins to a few tiny irregular just-opening tips under down; no tail/perch/flight. New0/reused4/corrected1; science false.
 
+## 2026-10-31 v4 actual application
+
+One direct imagegen revision shortened v3's juvenile wing pins. Full/crop/derivative opened: tiny sparse tips, low support, no tail/perch/flight pass. Exact tract geometry remains unknown; science false.
+

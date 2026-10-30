@@ -47,3 +47,8 @@ New `PEPO-MACIAS-2015` (printed/PDF p.147) reports white-down blind hatchlings a
 
 ### v3成图
 概念图 680×453，647132 bytes，SHA-256 `3a8f79f50806d4942658c3ad6b845fe4c695ea200601b12ba38072a3d961ddbe`; 母版1536×1024，812503 bytes，SHA-256 `322d5bc3b3bce5b34876197a6a8a88d09a5f0dfd051ffb0877bd4bd59751dd1d`。首稿误生4只鸟，第一次编辑移除额外成鸟；第二次编辑恢复雄鸟后视假眼。最终三只、支撑、标签和幼鸟边界通过；科学false。
+
+
+## v4 research correction — 2026-10-30
+
+New PEPO-GREENEY-2020 (printed p.37) supplies a site-specific breeding record and a nest in a hollowed-out Pale-legged Hornero nest. New PEPO-LUTHI-2011 (PDF p.23 / printed p.49) supports deciduous/riparian forest, montane scrub, gardens, willow roosting and alarm tail-flicking; its immediately following adobe-wall juvenile observations are *Athene cunicularia* and are excluded. PEPO-PF-2026 confirms that eggs, young and nest-leaving age remain poorly known. PEPO-MACIAS-2015 is retained as a secondary catalogue but its broad 26–42-day statement is no longer used as a directly transferable species-specific stage. V4 selects an age-unknown supported juvenile with no exact-day, cavity-stage or flight claim. Science remains false.

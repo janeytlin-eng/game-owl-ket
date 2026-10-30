@@ -1,8 +1,8 @@
-## 2026-10-30 #55 *Bubo lacteus* v4 ARCHIVED — readback pending
+## 2026-10-30 #55 *Bubo lacteus* v4 VERIFIED
 
 - SCIENCE_REVISION; one juvenile wing/eyelid edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
 - Concept: [design/concepts/55-bubo-lacteus-v4.png](design/concepts/55-bubo-lacteus-v4.png)
-- Fixed image/tree readback pending; batch remains 5/6 until verification.
+- Fixed image/tree readback passed at [`915b7b1`](https://github.com/janeytlin-eng/game-owl-ket/commit/915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d); batch `2026-10-30T1831+0800` COMPLETE 6/6; exact three image blobs/sizes matched.
 
 ## 2026-10-30 #46 *Strix ocellata* v4 VERIFIED
 

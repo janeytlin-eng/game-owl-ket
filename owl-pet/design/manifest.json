@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T20:43:00+08:00",
+  "updated": "2026-10-30T20:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11245,7 +11245,7 @@
       "source_ids": [
         "VEO-MIKKOLA-2013-P286",
         "VEO-BROWN-1965",
-        "VEO-PILLANS-2019",
+        "VEO-BIRDLIFE-PILLANS-2019",
         "VEO-ITIS-1244710",
         "VEO-GBIF-CP2JC"
       ],
@@ -11264,8 +11264,34 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 1,
       "archive_note": "Initial and edited originals plus 680x453 derivative opened. Text/count/adults/nest/support passed; final juvenile wing compact and mesoptile-embedded with paler lids. Exact age/feather chronology/flight threshold unknown; science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d",
+      "fixed_commit": "915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d",
+      "verified_at": "2026-10-30T20:47:00+08:00",
+      "verification_result": "fixed archive returned exact concept/generated/reviewed blob SHAs and sizes; manifest562 plus run/research/source-index/knowledge/status/design/state matched; batch COMPLETE 6/6; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d",
+        "concept": {
+          "blob": "1e736a1b1c075dfdbe740960e92fef6be9bc5dbe",
+          "size_bytes": 661867,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d/owl-pet/design/concepts/55-bubo-lacteus-v4.png"
+        },
+        "generated": {
+          "blob": "0c12dd7355938d9aa4c31f53ab62558988900fc9",
+          "size_bytes": 3298442,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d/owl-pet/production/generated/55-bubo-lacteus-v4-generated-master.png"
+        },
+        "reviewed": {
+          "blob": "386a484132194826e0c0ea87085ac140516a9a55",
+          "size_bytes": 3030644,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d/owl-pet/production/reviewed/55-bubo-lacteus-v4-reviewed-master.png"
+        },
+        "manifest_count": 562,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T20:43:00+08:00"
+  "updated_at": "2026-10-30T20:47:00+08:00"
 }

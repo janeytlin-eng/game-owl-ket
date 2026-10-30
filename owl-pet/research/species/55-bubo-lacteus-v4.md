@@ -21,7 +21,7 @@ L. H. Brown, “Observations on Verreaux's Eagle Owl *Bubo lacteus* (Temminck) i
 Facts: a young bird about six weeks from hatching was finely barred grey/white all over except plain white thighs and a black streak each side of the face; eyes almost black with long black bristles; pale blue-grey bill; yellowish-white feet; upper eyelids orange-pink but paler than adult. Observed young stood/crouched in the nest, walked and wing-flapped after dark.  
 Limits: one known-age description plus behavioural notes from well-grown young; no continuous feather atlas or exact flight test.
 
-### VEO-PILLANS-2019
+### VEO-BIRDLIFE-PILLANS-2019
 John Pillans, “A helping hand for a Verreaux’s Eagle-Owl chick”, *African Birdlife* Jan/Feb 2019, pp.46–49, https://www.birdlife.org.za/wp-content/uploads/2021/03/46-49_Verreaux_s-Nest5.pdf . Field account re-read 2026-10-30.
 
 Facts: <10-day fluffy white chick; pink lids visible from first sighting; grey face/barring developed, wing feathers grew rapidly, wing exercise observed, grey down persisted and back/shoulders became browner. Old Crowned Eagle stick nest in *Erythrina*.  
@@ -53,3 +53,7 @@ Strict negatives: no extra owl, egg or prey; no yellow/orange adult irises; no b
 - Problem → evidence → change: Brown's fine-barred ~6-week nestling does not establish adult-perfect wing geometry; removed adult shoulder row/layering, compacted wing into mesoptile and muted juvenile lids.
 - Result: PASS_WITH_LIMITATIONS; adult identity, restrained female fullness, juvenile crouch and bilateral nest support pass. Exact individual age, continuous feather sequence and flight threshold remain unknown; scientifically_verified=false.
 - Image hashes: generated `0bfda1ab8525970e784ca95651de4654a257c354c6f91efd0b9f328f710d0258`; reviewed `493817d108f19dc951f72e2a8576bd2206f797e8f69ed7f863b43585fe94749e`; concept `69996d8c405c861d37af22d8a31018397430044d7d86db54c461b9864b934cfa`.
+
+## Archive verification
+
+Fixed archive `915b7b1cc4f4eb556a47a8a6562d5bc24c1cd68d` returned exact concept/generated/reviewed Git blobs and byte sizes; manifest entry 562 and supporting run/index/knowledge/state markers matched. Batch cycle 6/6 VERIFIED. Stable source ID corrected to `VEO-BIRDLIFE-PILLANS-2019`. Science remains false.

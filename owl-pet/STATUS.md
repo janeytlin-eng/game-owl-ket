@@ -2447,3 +2447,6 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 ### #51 v4 archive prepared — 2026-10-30T19:06:00+08:00
 - Concept blob `618eb5ce961866dc4be4a0a564bdc2466d1f1b63`; master `de3fbe86ab5cec64099c927ef11150976e98e757`; manifest 558→559. Original/derivative opened; no edit; unique 175/251; science false; readback pending.
+
+### #52 v4 archive prepared — 2026-10-30T19:46:00+08:00
+- Concept blob `62a818ff847a10b07894178d0bc7a1a15b363e38`; generated `93d61e9f7aa0c33004c1494bbd1579b5a0813673`; reviewed `bda79570dd0708d550206aab4ae1fb695f588bbe`; manifest 559→560. One juvenile-only edit removed unsupported vivid bill/side-feather detail; full/crop recheck passed; unique 175/251; science false; fixed readback pending.

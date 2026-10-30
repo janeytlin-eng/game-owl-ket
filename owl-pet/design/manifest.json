@@ -11094,7 +11094,48 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "52-strix-hylophila-v4",
+      "path": "design/concepts/52-strix-hylophila-v4.png",
+      "species_id": 52,
+      "scientific_name": "Strix hylophila",
+      "historical_names": [
+        "Ciccaba hylophila",
+        "Nyctale fasciata"
+      ],
+      "common_name": "Rusty-barred Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "94788f196ea89ea167f82ad3bdd9fe5dfa8b9391b61bb4f51e99a52285b67edb",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: age-unknown white-down cavity chick separated from v3 brancher; unsupported juvenile yellow bill and tan side-feather patch removed after review. Exact chick age, movement and feather chronology remain unknown.",
+      "source_ids": [
+        "RBO-MIKKOLA-2013-P337",
+        "RBO-AVESRAPINA-2018",
+        "RBO-WIKIAVES-3982971",
+        "RBO-EMBRAPA-520-2022-P35",
+        "RBO-ITIS-555431",
+        "RBO-GBIF-532HH"
+      ],
+      "research_record": "research/species/52-strix-hylophila-v4.md",
+      "run_record": "owl-pet/production/runs/20261030T193500+0800-cycle-4.md",
+      "reviewed_at": "2026-10-30T19:43:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 672300,
+      "git_blob": "62a818ff847a10b07894178d0bc7a1a15b363e38",
+      "generated_blob": "93d61e9f7aa0c33004c1494bbd1579b5a0813673",
+      "reviewed_blob": "bda79570dd0708d550206aab4ae1fb695f588bbe",
+      "generated_sha256": "7fe7bad38e6631d43b8a522cd5c3cc2798f96b810066acb5739117751f77a0d0",
+      "reviewed_sha256": "0c490f7a9bed1289d56133241013314ea02ef1cd1f9a07b036dc9f8fde3debcc",
+      "generated_size_bytes": 3369379,
+      "reviewed_size_bytes": 3168926,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "archive_note": "Original, juvenile crop, targeted edit and final crop opened. Adult identity/sex direction, white-down chick and bilateral cavity support passed; exact development remains unknown; science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T19:08:00+08:00"
+  "updated_at": "2026-10-30T19:46:00+08:00"
 }

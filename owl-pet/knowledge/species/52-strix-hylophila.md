@@ -55,3 +55,11 @@
 - Technical status: ARCHIVED pending fixed-commit readback. Science remains false for exact feather sequence, locomotor threshold, sex measurements and regional variation.
 
 - Immutable archive verification: commit `7cd30758c909a6f95bf5c02b787c74ba53a84dbf`; concept `1a5a67b2c6366bf4bf7e2ee59974e8c4f35b95fb`, generated `f1c30904ff7a54d8d2def9a9fabdef8cbd3f5e0d`, reviewed `cc6e4e75ac770f4ea5f9bb63887aaa37207be932`; exact bytes and all required metadata markers passed. Unique remains 184/251; science false.
+
+## 2026-10-30 v4 evidence-bounded revision
+- Current name remains *Strix hylophila* Temminck, 1825; historical mapping added: *Ciccaba hylophila* and *Nyctale fasciata*.
+- Mikkola printed p.337 directly supports a white downy chick but no age, movement or feather chronology. Aves de Rapina, WikiAves WA3982971 and Embrapa p.35 support high/large-tree hollow and Araucaria/Atlantic Forest context.
+- V4 deliberately depicts the earlier age-unknown white-down stage, fully supported on dry cavity debris, separate from v3's later nest-leaving/brancher concept.
+- Image review found an unsupported vivid juvenile bill and tan side-feather patch; one targeted imagegen edit replaced them with neutral grey-horn/continuous white down. Final 1536×1024 plate and juvenile crop reopened and passed.
+- Result: PASS_WITH_LIMITATIONS. Exact chick age, locomotion, eye/bill ontogeny and feather-growth sequence remain unknown; scientific calibration remains false.
+- Files: `design/concepts/52-strix-hylophila-v4.png`, generated and reviewed masters; archive pending fixed-commit readback.

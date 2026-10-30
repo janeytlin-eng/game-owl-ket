@@ -63,3 +63,10 @@ Juvenile: use only the directly described white downy-chick stage from Mikkola p
 Environment: tall, well-preserved Atlantic Forest with Araucaria, cool filtered dawn/daylight, a large natural trunk hollow; adults perched on separate branches beside the cavity. Clean labels, cinematic depth, anatomically credible feet and natural support.
 
 Strict negatives: no extra owl, egg or prey; no ear tufts; no yellow/orange adult eyes; no exaggerated female size; no mature juvenile wing/tail or adult barring; no unsupported chick; no ground nest; no invented exact age, standing, hopping or flight; no misspelling.
+
+## Actual image review
+- Built-in imagegen generation: 45.2 s; initial 1536×1024 original and 520×700 juvenile crop opened.
+- Initial pass: exact title/count/labels, untufted dark-eyed adults, subtle female fullness, Araucaria hollow and bilateral chick support passed.
+- Detected issue: vivid adult-yellow juvenile bill/cere and a tan side-feather patch lacked evidence for the selected white-down stage.
+- Targeted edit: 52.3 s; juvenile only. Bill/cere neutralized; side patch replaced by continuous white natal down; adults, text and environment retained.
+- Final review: full 1536×1024 and juvenile crop reopened; no readable remiges, adult bars, long tail or unsupported posture. PASS_WITH_LIMITATIONS; exact age/movement/feather chronology unknown; science false.

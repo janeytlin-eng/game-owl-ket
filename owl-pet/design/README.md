@@ -2425,3 +2425,6 @@ Verification 2026-10-30T18:56:00+08:00: #50 v4 fixed archive `6a6cd44e8eed35a2d7
 
 ## #51 · Rufous-legged Owl · *Strix rufipes* · v4
 Early whitish downy chick is separated from v3 one-month warm-buff mesoptile; dark male/paler fuller female and mature Nothofagus cavity support passed. No edit; science false.
+
+## #52 · Rusty-barred Owl · *Strix hylophila* · v4
+Age-unknown white-down chick is separated from v3's later brancher and fully supported in a large Araucaria/Atlantic Forest hollow. One targeted juvenile edit neutralized unsupported bare-part colour and side-feather detail. PASS_WITH_LIMITATIONS; science false.

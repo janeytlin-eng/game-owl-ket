@@ -83,3 +83,7 @@ V3 corrected an overly short juvenile wing. V4 tests a stricter two-part rule: r
 - Edited 1536×1024 original and 680×453 derivative opened; PASS_WITH_LIMITATIONS; science false.
 - Validated plate-level rule: repeat review after an edit, because “softer” is not equivalent to “adult row removed.” The second visual check caught the residual pattern.
 - Unknowns remain age, feather chronology, first-flight threshold, sexed display ratio and regional transfer.
+
+## Fixed readback — 2026-10-30 20:55 +08:00
+
+Archive `671c4af4bc284133ac43af0919d4ceb4510a185a` returned a non-truncated tree; all image paths/blob SHAs/sizes and supporting records matched. Production VERIFIED; scientific verification remains false.

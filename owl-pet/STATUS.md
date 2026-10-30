@@ -1,9 +1,9 @@
-## 2026-10-30 #58 *Ketupa coromanda* v4 ARCHIVED
+## 2026-10-30 #58 *Ketupa coromanda* v4 VERIFIED
 
 - SCIENCE_REVISION; two juvenile-wing edits; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
 - Concept: [design/concepts/58-ketupa-coromanda-v4.png](design/concepts/58-ketupa-coromanda-v4.png)
 - Research: new1/reused3/corrected1; Upper Assam multi-nest site evidence does not date age/flight.
-- Fixed archive readback pending; batch remains 1/6 until VERIFIED.
+- Fixed readback passed at [`671c4af`](https://github.com/janeytlin-eng/game-owl-ket/commit/671c4af4bc284133ac43af0919d4ceb4510a185a); exact three image blobs/sizes and markers matched. Batch 2/6; next cycle 3.
 
 ## 2026-10-30 #57 *Bubo nipalensis* v4 VERIFIED
 

@@ -2,7 +2,7 @@
 
 - Concept: [58-ketupa-coromanda-v4.png](concepts/58-ketupa-coromanda-v4.png)
 - Research: [species record](../research/species/58-ketupa-coromanda-v4.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30-58-ketupa-coromanda-v4-upper-assam-nest-site-boundary)
-- Stage: ARCHIVED; fixed readback pending. Upper Assam supported fledgling; two juvenile-wing edits; v1–v3 preserved; science false.
+- Stage: VERIFIED at fixed archive commit `671c4af4bc284133ac43af0919d4ceb4510a185a`. Upper Assam supported fledgling; two juvenile-wing edits; v1–v3 preserved; science false.
 
 ## #57 Spot-bellied Eagle-Owl — *Bubo nipalensis* — v4 science revision
 

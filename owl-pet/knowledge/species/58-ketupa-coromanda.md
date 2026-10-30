@@ -78,3 +78,5 @@ Avoid extra birds, prey, eggs, watermark, exaggerated female size, orange eyes, 
 - Review: two juvenile-wing edits; the second removed residual adult white covert rows while retaining formed flight feathers and medium tail. Original and derivative opened; PASS_WITH_LIMITATIONS.
 - Current *Ketupa coromanda* maps to legacy *Bubo coromandus* and *Strix coromanda*.
 - Asset: [v4 concept](../../design/concepts/58-ketupa-coromanda-v4.png). Science remains pending.
+
+- v4 fixed archive: [`671c4af4bc284133ac43af0919d4ceb4510a185a`](https://github.com/janeytlin-eng/game-owl-ket/commit/671c4af4bc284133ac43af0919d4ceb4510a185a); exact image blobs/sizes and supporting records read back. Batch cycle 2/6 VERIFIED.

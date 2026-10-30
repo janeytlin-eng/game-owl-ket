@@ -8286,19 +8286,32 @@
           "unique_species_increment": 0,
           "commit_sha": "cdaa43094b9567f5c92edabdeeefddc9bad1e81d",
           "run_record": "owl-pet/production/runs/20261030T203900+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ketupa coromanda",
+          "species_no": "58",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "671c4af4bc284133ac43af0919d4ceb4510a185a",
+          "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 3,
       "last_checkpoint": {
         "cycle": 2,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Ketupa coromanda",
         "species_id": 58,
         "version": 4,
         "run_id": "20261030T204800+0800-cycle-2",
-        "at": "2026-10-30T20:54:00+08:00",
+        "at": "2026-10-30T20:55:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
         "evidence": {
+          "fixed_archive_commit": "671c4af4bc284133ac43af0919d4ceb4510a185a",
+          "tree_truncated": false,
+          "tree_entries": 2071,
           "concept": {
             "path": "owl-pet/design/concepts/58-ketupa-coromanda-v4.png",
             "blob": "c3a740aa1eba5409e11ae6d7996e38ed7e7c7d4f",
@@ -8314,11 +8327,13 @@
             "blob": "5c1f67de4a81770cd9454098ffbaa97e6ac28865",
             "size_bytes": 3131969
           },
+          "manifest_blob": "3b8d2859282043698a436d1600fbba4df84194b1",
           "manifest_count": 564,
-          "readback_pending": true
+          "unique_species": "175/251",
+          "science": false
         }
       },
-      "last_updated_at": "2026-10-30T20:54:00+08:00",
+      "last_updated_at": "2026-10-30T20:55:00+08:00",
       "audit_notes": [
         "2026-10-30T20:39:00+08:00 cycle1 #57 Bubo nipalensis v4 SCIENCE_REVISION STARTED; #56 Bubo virginianus skipped as duplicate of canonical #14 Great Horned Owl; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T20:40:00+08:00 cycle1 #57 v4 RESEARCH_READY; new1/reused3/corrected1. Shukla 2025 printed p28 plus Srinivasan 2013 pp106–107 read; date is not age/flight threshold; full prompt saved; science false; no credit.",
@@ -8330,88 +8345,15 @@
         "2026-10-30T20:49:00+08:00 cycle2 #58 v4 RESEARCH_READY; new1/reused3/corrected1. Ranade et al. 2020 pp93–94/Table1, Reddy 2023 and ITIS read; multi-nest site pattern is not age/plumage timing; full prompt saved; science false; no credit.",
         "2026-10-30T20:50:00+08:00 cycle2 #58 v4 IMAGE_GENERATED in 48.1s; original opened. Title/count/adults/Bombax-water/platform/support passed; juvenile wing had crisp adult white-spotted coverts and regular layered remiges, so targeted edit required. Generated master persisted at 80276f4; no credit.",
         "2026-10-30T20:53:00+08:00 cycle2 #58 v4 REVIEWED after two juvenile-only wing edits (40.3s+44.1s). Edited original and derivative opened; second edit removed adult white covert rows while retaining subdued formed flight feathers and medium tail. Text/adults/site/support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-30T20:54:00+08:00 cycle2 #58 v4 ARCHIVED tree prepared; concept c3a740aa1e/685358B, generated 82afd7129f/3458510B, reviewed 5c1f67de4a/3131969B; manifest563→564; fixed readback pending; no credit."
+        "2026-10-30T20:54:00+08:00 cycle2 #58 v4 ARCHIVED tree prepared; concept c3a740aa1e/685358B, generated 82afd7129f/3458510B, reviewed 5c1f67de4a/3131969B; manifest563→564; fixed readback pending; no credit.",
+        "2026-10-30T20:55:00+08:00 cycle2 #58 v4 VERIFIED against fixed archive 671c4af4bc284133ac43af0919d4ceb4510a185a; non-truncated tree and exact three image blobs/sizes plus markers matched; batch2/6 next3; unique remains175/251; science false; lease released."
       ],
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "20261030T204800+0800-cycle-2",
-        "batch_id": "2026-10-30T2039+0800",
-        "cycle": 2,
-        "species": "Ketupa coromanda",
-        "species_id": 58,
-        "version": 4,
-        "heartbeat_at": "2026-10-30T20:54:00+08:00",
-        "expires_at": "2026-10-30T21:09:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-automation",
-        "run_id": "20261030T204800+0800-cycle-2",
-        "batch_id": "2026-10-30T2039+0800",
-        "cycle": 2,
-        "species": "Ketupa coromanda",
-        "species_id": 58,
-        "version": 4,
-        "heartbeat_at": "2026-10-30T20:54:00+08:00",
-        "expires_at": "2026-10-30T21:09:00+08:00"
-      },
-      "in_progress": {
-        "batch_id": "2026-10-30T2039+0800",
-        "cycle": 2,
-        "species": "Ketupa coromanda",
-        "species_id": 58,
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "run_id": "20261030T204800+0800-cycle-2",
-        "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
-        "status": "STARTED",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-30T20:48:00+08:00",
-        "last_updated_at": "2026-10-30T20:54:00+08:00",
-        "lease": {
-          "owner": "codex-automation",
-          "run_id": "20261030T204800+0800-cycle-2",
-          "batch_id": "2026-10-30T2039+0800",
-          "cycle": 2,
-          "species": "Ketupa coromanda",
-          "species_id": 58,
-          "version": 4,
-          "heartbeat_at": "2026-10-30T20:54:00+08:00",
-          "expires_at": "2026-10-30T21:09:00+08:00"
-        },
-        "evidence": {
-          "concept": {
-            "path": "owl-pet/design/concepts/58-ketupa-coromanda-v4.png",
-            "blob": "c3a740aa1eba5409e11ae6d7996e38ed7e7c7d4f",
-            "size_bytes": 685358
-          },
-          "generated": {
-            "path": "owl-pet/production/generated/58-ketupa-coromanda-v4-generated-master.png",
-            "blob": "82afd7129f2d49c9a9e3e2872347b6793de14b21",
-            "size_bytes": 3458510
-          },
-          "reviewed": {
-            "path": "owl-pet/production/reviewed/58-ketupa-coromanda-v4-reviewed-master.png",
-            "blob": "5c1f67de4a81770cd9454098ffbaa97e6ac28865",
-            "size_bytes": 3131969
-          },
-          "manifest_count": 564,
-          "readback_pending": true
-        }
-      }
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-automation",
-    "run_id": "20261030T204800+0800-cycle-2",
-    "batch_id": "2026-10-30T2039+0800",
-    "cycle": 2,
-    "species": "Ketupa coromanda",
-    "species_id": 58,
-    "version": 4,
-    "heartbeat_at": "2026-10-30T20:54:00+08:00",
-    "expires_at": "2026-10-30T21:09:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -8543,7 +8485,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-30T20:54:00+08:00",
+  "updated_at": "2026-10-30T20:55:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8552,18 +8494,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-automation",
-    "run_id": "20261030T204800+0800-cycle-2",
-    "batch_id": "2026-10-30T2039+0800",
-    "cycle": 2,
-    "species": "Ketupa coromanda",
-    "species_id": 58,
-    "version": 4,
-    "heartbeat_at": "2026-10-30T20:54:00+08:00",
-    "expires_at": "2026-10-30T21:09:00+08:00"
-  },
-  "last_updated_at": "2026-10-30T20:54:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-30T20:55:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8974,61 +8906,20 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "in_progress": {
-    "batch_id": "2026-10-30T2039+0800",
-    "cycle": 2,
-    "species": "Ketupa coromanda",
-    "species_id": 58,
-    "version": 4,
-    "action": "SCIENCE_REVISION",
-    "unique_species_increment": 0,
-    "run_id": "20261030T204800+0800-cycle-2",
-    "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
-    "status": "STARTED",
-    "stage": "ARCHIVED",
-    "started_at": "2026-10-30T20:48:00+08:00",
-    "last_updated_at": "2026-10-30T20:54:00+08:00",
-    "lease": {
-      "owner": "codex-automation",
-      "run_id": "20261030T204800+0800-cycle-2",
-      "batch_id": "2026-10-30T2039+0800",
-      "cycle": 2,
-      "species": "Ketupa coromanda",
-      "species_id": 58,
-      "version": 4,
-      "heartbeat_at": "2026-10-30T20:54:00+08:00",
-      "expires_at": "2026-10-30T21:09:00+08:00"
-    },
-    "evidence": {
-      "concept": {
-        "path": "owl-pet/design/concepts/58-ketupa-coromanda-v4.png",
-        "blob": "c3a740aa1eba5409e11ae6d7996e38ed7e7c7d4f",
-        "size_bytes": 685358
-      },
-      "generated": {
-        "path": "owl-pet/production/generated/58-ketupa-coromanda-v4-generated-master.png",
-        "blob": "82afd7129f2d49c9a9e3e2872347b6793de14b21",
-        "size_bytes": 3458510
-      },
-      "reviewed": {
-        "path": "owl-pet/production/reviewed/58-ketupa-coromanda-v4-reviewed-master.png",
-        "blob": "5c1f67de4a81770cd9454098ffbaa97e6ac28865",
-        "size_bytes": 3131969
-      },
-      "manifest_count": 564,
-      "readback_pending": true
-    }
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "cycle": 2,
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "species": "Ketupa coromanda",
     "species_id": 58,
     "version": 4,
     "run_id": "20261030T204800+0800-cycle-2",
-    "at": "2026-10-30T20:54:00+08:00",
+    "at": "2026-10-30T20:55:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
     "evidence": {
+      "fixed_archive_commit": "671c4af4bc284133ac43af0919d4ceb4510a185a",
+      "tree_truncated": false,
+      "tree_entries": 2071,
       "concept": {
         "path": "owl-pet/design/concepts/58-ketupa-coromanda-v4.png",
         "blob": "c3a740aa1eba5409e11ae6d7996e38ed7e7c7d4f",
@@ -9044,8 +8935,10 @@
         "blob": "5c1f67de4a81770cd9454098ffbaa97e6ac28865",
         "size_bytes": 3131969
       },
+      "manifest_blob": "3b8d2859282043698a436d1600fbba4df84194b1",
       "manifest_count": 564,
-      "readback_pending": true
+      "unique_species": "175/251",
+      "science": false
     }
   }
 }

@@ -2737,3 +2737,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 - V3 was reopened. V4 removes the exact individual-day label, compacts the juvenile wing and aligns adult support/crown height; one targeted edit was required.
 - Reviewed 1536×1024 master, 520×700 juvenile crop and 680×453 concept were opened; PASS_WITH_LIMITATIONS.
 - Manifests 587/586/577; unique remains 175/251; fixed readback pending; science false.
+
+
+### #83 v4 VERIFIED — 2026-10-31T04:49:30+08:00
+
+- Fixed archive `4d52a675ded909e923b8d2ce7e43bb0bb4971907` returned exact complete concept/generated/reviewed/crop payloads, expected Git blobs and sizes in a non-truncated 2,201-entry tree; manifests 587/586/577 and support records matched.
+- Batch `2026-10-31T0430+0800` is 1/6, next cycle 2. Unique remains 175/251; science false.

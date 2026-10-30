@@ -13318,13 +13318,51 @@
       "review_crop_sha256": "5503c744901b78a77e565b61aa67719249a67af202e99de9506aa2ca4ea7701c",
       "review_crop_size_bytes": 144428,
       "archive_note": "V1-v3 preserved. First v4 render inspected, then one targeted juvenile-wing edit; full/crop/680x453 derivative reopened. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "4d52a675ded909e923b8d2ce7e43bb0bb4971907",
+      "verified_at": "2026-10-31T04:49:30+08:00",
       "git_blob": "997cbfbc4d0601b4ef7984796ecbdd0047b1235e",
-      "fixed_commit": null,
-      "verification_result": "PENDING fixed-commit readback."
+      "fixed_commit": "4d52a675ded909e923b8d2ce7e43bb0bb4971907",
+      "verification_result": "VERIFIED: exact complete concept/generated/reviewed/crop payloads, Git blobs, sizes, non-truncated tree and manifests 587/586/577 matched immutable archive; science false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "4d52a675ded909e923b8d2ce7e43bb0bb4971907",
+        "method": "immutable fetch_file; normalized base64 exact match",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/83-otus-brucei-v4.jpg",
+            "sha": "997cbfbc4d0601b4ef7984796ecbdd0047b1235e",
+            "size": 152814
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/83-otus-brucei-v4-generated-master.jpg",
+            "sha": "60d9140b7ec43b566d6859c2de9eac2946b7dd2a",
+            "size": 628438
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/83-otus-brucei-v4-reviewed-master.jpg",
+            "sha": "621e362ae1b4d7642807944169e0a7cc9fed42d3",
+            "size": 571151
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/83-otus-brucei-v4-juvenile.jpg",
+            "sha": "69a6cac4dec9554bf01218b4a58b979e2100746b",
+            "size": 144428
+          }
+        },
+        "manifest_counts": {
+          "legacy": 587,
+          "design": 586,
+          "production": 577
+        },
+        "tree": {
+          "truncated": false,
+          "entries": 2201
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T04:47:00+08:00"
+  "updated_at": "2026-10-31T04:49:30+08:00"
 }

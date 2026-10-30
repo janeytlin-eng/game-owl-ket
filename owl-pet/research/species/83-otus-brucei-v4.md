@@ -88,3 +88,8 @@ The result is a scientific-calibration concept, not a claim of subspecies, exact
 - PASS: exactly three birds and exact labels; adults pale sandy-grey with fine long streaks; center fledgling has deep-yellow iris, pale eyebrow, fine horizontal bars, compact soft folded wing, short hidden tail and bilateral cavity-lip support; no flight pose.
 - Result: PASS_WITH_LIMITATIONS; edit_count 1. Exact individual age, daily tract geometry, first-flight threshold, subspecies and sexed standing-height ratio remain unknown. Science false.
 - Assets: concept SHA-256 `9ad1b557860591d62238ddb128aba6e62a70b0bf410f62051cf182a98c84235e`; generated `53903199acb19656c8a91071bc8df2fcf876c74d1a3da5fee73ae2336be6b52a`; reviewed `afa8a75a6e232ed529cba71be812f8764149a373777ededf01f47371ca95b38b`; crop `5503c744901b78a77e565b61aa67719249a67af202e99de9506aa2ca4ea7701c`.
+
+
+## Fixed archive verification
+
+At 2026-10-31T04:49:30+08:00, immutable commit `4d52a675ded909e923b8d2ce7e43bb0bb4971907` was reread. Concept, generated master, reviewed master and juvenile crop matched local base64 exactly; Git blobs and sizes matched; tree was non-truncated (2,201 entries); manifests were 587/586/577; support records matched. Result VERIFIED for archive integrity, not scientific verification.

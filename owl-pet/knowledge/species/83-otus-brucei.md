@@ -28,3 +28,8 @@ The first full-resolution render passed count/text/date-palm cavity/juvenile hor
 ## 2026-10-31 v4 research and actual review
 
 Mikkola printed pp.126–127/PDF pp.128–129 was directly read with the user-uploaded guide; Ben Dov & Kiat 2016 and Chandran et al. 2016 were also read. V3 was reopened. The exact `c.26-day` individual label, mature-looking juvenile wing and unsupported adult height difference were corrected. V4 uses `RECENT FLEDGLING`, a compact soft-edged folded wing and short tail, bilateral date-palm cavity-lip support, and near-equal adult crown height. One targeted imagegen edit was required; full master, 520×700 crop and 680×453 concept were reopened. PASS_WITH_LIMITATIONS; exact age, daily tract geometry, first-flight threshold, subspecies and sexed standing-height ratio remain unknown; scientifically_verified=false. Concept: ../../design/concepts/83-otus-brucei-v4.jpg. Run: ../../production/runs/20261031T043000+0800-cycle-1.md.
+
+
+### VERIFIED 2026-10-31T04:49:30+08:00
+
+Fixed archive `4d52a675ded909e923b8d2ce7e43bb0bb4971907` returned exact concept/generated/reviewed/crop bytes, Git blobs and sizes; non-truncated tree and manifests 587/586/577 matched. V4 is archived and visually checked; science remains false and user confirmation is not inferred.

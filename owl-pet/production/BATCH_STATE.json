@@ -7851,8 +7851,8 @@
         "run_id": "20261030T104358+0800-cycle-5",
         "cycle": 5,
         "species_no": "35",
-        "heartbeat_at": "2026-10-30T10:51:00+08:00",
-        "expires_at": "2026-10-30T11:06:00+08:00"
+        "heartbeat_at": "2026-10-30T10:54:00+08:00",
+        "expires_at": "2026-10-30T11:09:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -7862,21 +7862,29 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261030T104358+0800-cycle-5",
         "run_record": "owl-pet/production/runs/20261030T104358+0800-cycle-5.md",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T10:43:58+08:00",
         "research_record": "owl-pet/research/species/35-glaucidium-jardinii-v4.md",
         "generated_path": "owl-pet/production/generated/35-glaucidium-jardinii-v4-generated.png",
-        "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c"
+        "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "edit_count": 1,
+        "reviewed_path": "owl-pet/production/reviewed/35-glaucidium-jardinii-v4-reviewed.png",
+        "reviewed_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
+        "crop_path": "owl-pet/production/review-crops/35-glaucidium-jardinii-v4-juvenile.jpg",
+        "crop_blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4"
       },
       "last_checkpoint": {
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-30T10:51:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-30T10:54:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T104358+0800-cycle-5.md",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/35-glaucidium-jardinii-v4-generated.png",
-          "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
-          "generation_seconds": 51.1,
-          "review_required": "juvenile bright covert spots and mature long barred tail"
+          "edit_count": 1,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "full_opened": true,
+          "crop_opened": true,
+          "reviewed_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
+          "crop_blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4"
         }
       },
       "lease": {
@@ -7885,10 +7893,10 @@
         "run_id": "20261030T104358+0800-cycle-5",
         "cycle": 5,
         "species_no": "35",
-        "heartbeat_at": "2026-10-30T10:51:00+08:00",
-        "expires_at": "2026-10-30T11:06:00+08:00"
+        "heartbeat_at": "2026-10-30T10:54:00+08:00",
+        "expires_at": "2026-10-30T11:09:00+08:00"
       },
-      "last_updated_at": "2026-10-30T10:51:00+08:00"
+      "last_updated_at": "2026-10-30T10:54:00+08:00"
     }
   ],
   "lease": {
@@ -8357,7 +8365,8 @@
     "2026-10-30T09:13:00+08:00: cycle3 #33 v4 RESEARCH_READY; new1/reused4/corrected0; ITIS current-name mapping and Lin et al. 2014 known-age fledgling evidence read; no credit.",
     "2026-10-30T09:16:00+08:00: cycle3 #33 v4 IMAGE_GENERATED after 50-second wait; full plate opened. Text/count/adults and male rear false eyes pass; juvenile folded wing/tail are too long and adult-ordered for selected 56-day incomplete-pattern stage, targeted edit required; no credit.",
     "2026-10-30T10:49:00+08:00: cycle5 #35 v4 RESEARCH_READY; restored complete SOURCE_INDEX history before retaining #34 additions; new1/reused3/corrected1; full prompt persisted; exact age/flight/iris timing remain unknown; no credit.",
-    "2026-10-30T10:51:00+08:00: cycle5 #35 v4 IMAGE_GENERATED after 51.1-second wait; full 1536x1024 plate opened; exact title/count/adults/support pass; juvenile repeated bright covert spots and mature long barred tail require targeted edit; no credit."
+    "2026-10-30T10:51:00+08:00: cycle5 #35 v4 IMAGE_GENERATED after 51.1-second wait; full 1536x1024 plate opened; exact title/count/adults/support pass; juvenile repeated bright covert spots and mature long barred tail require targeted edit; no credit.",
+    "2026-10-30T10:54:00+08:00: cycle5 #35 v4 REVIEWED after one targeted juvenile-only edit; full 1536x1024 and 560x700 crop reopened; adult-like bright wing spots and mature tail removed; PASS_WITH_LIMITATIONS; science false; no credit."
   ],
   "in_progress": {
     "batch_id": "2026-10-30T0830+0800",
@@ -8368,10 +8377,16 @@
     "action": "SCIENCE_REVISION",
     "run_id": "20261030T104358+0800-cycle-5",
     "run_record": "owl-pet/production/runs/20261030T104358+0800-cycle-5.md",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T10:43:58+08:00",
     "research_record": "owl-pet/research/species/35-glaucidium-jardinii-v4.md",
     "generated_path": "owl-pet/production/generated/35-glaucidium-jardinii-v4-generated.png",
-    "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c"
+    "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
+    "review_result": "PASS_WITH_LIMITATIONS",
+    "edit_count": 1,
+    "reviewed_path": "owl-pet/production/reviewed/35-glaucidium-jardinii-v4-reviewed.png",
+    "reviewed_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
+    "crop_path": "owl-pet/production/review-crops/35-glaucidium-jardinii-v4-juvenile.jpg",
+    "crop_blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4"
   }
 }

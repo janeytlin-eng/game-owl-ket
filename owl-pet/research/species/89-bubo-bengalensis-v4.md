@@ -21,3 +21,7 @@ Opened full1536×1024 plate and 520×700 crop. Exact title `89 INDIAN EAGLE-OWL`
 ## Archive checkpoint
 
 Four assets/manifests/support committed 2026-10-31T06:28+08:00; fixed readback pending.
+
+## Fixed verification
+
+2026-10-31T06:32:00+08:00: archive `b9c9847113bacdd0e95f16cf206f05e3454c6785` exact four-asset blob/byte match; tree2235 non-truncated; manifests592/591/582/support present. Integrity only; sciencefalse.

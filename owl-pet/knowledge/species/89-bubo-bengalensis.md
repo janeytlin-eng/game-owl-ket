@@ -48,3 +48,5 @@ Actualeditviewed: bothadultsupperchest streaks smaller/narrower whileclearlypres
 ## 89-bubo-bengalensis-v4
 
 Title-only number89 correction. Full/crop review retained adult diagnostics and ~35-day soft juvenile wing/low bilateral support. BEN-PITCHANDIKULAM-2026 provenance only. Exact age/sex/flight/tract/RSD unknown; sciencefalse.
+
+Fixed archive `b9c9847113bacdd0e95f16cf206f05e3454c6785` verified 2026-10-31T06:32:00+08:00: exact four assets/tree2235/manifests592/591/582; sciencefalse.

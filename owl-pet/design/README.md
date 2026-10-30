@@ -2675,3 +2675,5 @@ Fixed readback 2026-10-31T06:12:00+08:00: [archive `572871e4f9d0882b94da3f7ecb6e
 ### #89 Indian Eagle-Owl v4
 
 Title-number correction; PASS_WITH_LIMITATIONS; unique+0; sciencefalse. [Original](concepts/89-bubo-bengalensis-v4.jpg).
+
+Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f05e3454c6785`](https://github.com/janeytlin-eng/game-owl-ket/commit/b9c9847113bacdd0e95f16cf206f05e3454c6785) exact; batch6/6 complete; sciencefalse.

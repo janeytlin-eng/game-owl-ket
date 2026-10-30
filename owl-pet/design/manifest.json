@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:28:00+08:00",
+  "updated": "2026-10-31T06:32:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13672,9 +13672,28 @@
       "review_crop_path": "production/review-crops/89-bubo-bengalensis-v4-juvenile.jpg",
       "review_crop_blob": "4e5b93c8aa9d3c2041b8e432125bbb390f369b6c",
       "review_crop_size_bytes": 162606,
-      "readback_pending": true,
-      "git_blob": "11f8d7f5c02fbb146b74d9117e6bff3388d0e354"
+      "readback_pending": false,
+      "git_blob": "11f8d7f5c02fbb146b74d9117e6bff3388d0e354",
+      "fixed_archive_commit": "b9c9847113bacdd0e95f16cf206f05e3454c6785",
+      "verified_at": "2026-10-31T06:32:00+08:00",
+      "exact_readback": true,
+      "readback": {
+        "concept_blob": "11f8d7f5c02fbb146b74d9117e6bff3388d0e354",
+        "generated_blob": "86ffc9d0b4541da5ef7f06cd36ac6206cf7ec4e6",
+        "reviewed_blob": "86ffc9d0b4541da5ef7f06cd36ac6206cf7ec4e6",
+        "review_crop_blob": "4e5b93c8aa9d3c2041b8e432125bbb390f369b6c",
+        "manifest_counts": {
+          "legacy": 592,
+          "design": 591,
+          "production": 582
+        },
+        "tree": {
+          "entries": 2235,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T06:28:00+08:00"
+  "updated_at": "2026-10-31T06:32:00+08:00"
 }

@@ -8832,7 +8832,7 @@
     },
     {
       "batch_id": "2026-10-31T0430+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -8884,32 +8884,61 @@
           "unique_species_increment": 0,
           "commit_sha": "572871e4f9d0882b94da3f7ecb6e3229079c3e7b",
           "run_record": "owl-pet/production/runs/20261031T055200+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Bubo bengalensis",
+          "species_no": "89",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b9c9847113bacdd0e95f16cf206f05e3454c6785",
+          "run_record": "owl-pet/production/runs/20261031T061500+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": 7,
       "last_checkpoint": {
         "cycle": 6,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Bubo bengalensis",
         "species_id": 89,
         "version": 4,
         "run_id": "20261031T061500+0800-cycle-6",
-        "at": "2026-10-31T06:28:00+08:00",
+        "at": "2026-10-31T06:32:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T061500+0800-cycle-6.md",
         "evidence": {
+          "fixed_archive_commit": "b9c9847113bacdd0e95f16cf206f05e3454c6785",
+          "exact_readback": true,
+          "asset_blobs": {
+            "concept_blob": "11f8d7f5c02fbb146b74d9117e6bff3388d0e354",
+            "generated_blob": "86ffc9d0b4541da5ef7f06cd36ac6206cf7ec4e6",
+            "reviewed_blob": "86ffc9d0b4541da5ef7f06cd36ac6206cf7ec4e6",
+            "review_crop_blob": "4e5b93c8aa9d3c2041b8e432125bbb390f369b6c",
+            "manifest_counts": {
+              "legacy": 592,
+              "design": 591,
+              "production": 582
+            },
+            "tree": {
+              "entries": 2235,
+              "truncated": false
+            },
+            "science": false
+          },
           "manifest_counts": {
             "legacy": 592,
             "design": 591,
             "production": 582
           },
-          "concept_blob": "11f8d7f5c02fbb146b74d9117e6bff3388d0e354",
-          "generated_blob": "86ffc9d0b4541da5ef7f06cd36ac6206cf7ec4e6",
-          "crop_blob": "4e5b93c8aa9d3c2041b8e432125bbb390f369b6c",
-          "pending": true,
+          "tree": {
+            "entries": 2235,
+            "truncated": false
+          },
+          "unique_species": "175/251",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T06:28:00+08:00",
+      "last_updated_at": "2026-10-31T06:32:00+08:00",
       "audit_notes": [
         "2026-10-31T04:30:00+08:00 cycle1 #83 Otus brucei v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T04:38:00+08:00 cycle1 #83 v4 RESEARCH_READY; new1/reused2/corrected2; Mikkola printed pp.126–127/PDF pp.128–129 and Chandran et al. 2016 full text actually read; v3 reopened; exact individual day label, adult-like juvenile wing and unsupported adult height difference identified; full prompt saved; science false; no credit.",
@@ -8945,24 +8974,11 @@
         "2026-10-31T06:19:00+08:00 cycle6 #89 v4 RESEARCH_READY; new1/reused3/corrected1; JoTT primary landing/full abstract and Pitchandikulam institutional bibliography actually read; v3 reopened; missing number only; full prompt saved; science false; no credit.",
         "2026-10-31T06:23:00+08:00 cycle6 #89 v4 IMAGE_GENERATED; exact title edit; JPEG persisted; no credit.",
         "2026-10-31T06:25:00+08:00 cycle6 #89 v4 REVIEWED; full/crop opened; title, adult diagnostics, soft ~35-day wing, low crouch and bilateral support pass; edit0; sciencefalse; no credit.",
-        "2026-10-31T06:28:00+08:00 cycle6 #89 v4 ARCHIVED; assets/manifests592/591/582/support persisted; readback pending; no credit."
+        "2026-10-31T06:28:00+08:00 cycle6 #89 v4 ARCHIVED; assets/manifests592/591/582/support persisted; readback pending; no credit.",
+        "2026-10-31T06:32:00+08:00 cycle6 #89 v4 VERIFIED against fixed archive b9c9847113bacdd0e95f16cf206f05e3454c6785; exact assets/blobs/sizes, non-truncated2235 tree, manifests592/591/582/support matched; batch6/6 COMPLETE; unique175/251; sciencefalse; lease released."
       ],
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T061500+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T06:28:00+08:00",
-        "expires_at": "2026-10-31T06:43:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "species": "Bubo bengalensis",
-        "species_id": 89,
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T061500+0800-cycle-6",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T061500+0800-cycle-6.md"
-      }
+      "lease": null,
+      "in_progress": null
     }
   ],
   "lease": {

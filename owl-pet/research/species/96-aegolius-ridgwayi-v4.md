@@ -12,3 +12,9 @@
 Edit the supplied fixed v3 Unspotted Saw-whet Owl plate. Preserve the whole image and every biological detail exactly: adult male left, age-unknown older fluffy juvenile center, adult female right, all faces, honey-amber eyes, dark horn bills, narrow pale facial rims, warm plain brown upperparts, plain buff underparts, near-equal adult scale, juvenile tilted head, diffuse pale face rim, short high-ending down-covered developing wing, concealed tail, belly and two-foot branch support, montane pine-oak/cloud forest, subtitle “Aegolius ridgwayi”, and all lower labels. Change only the top English title from “UNSPOTTED SAW-WHET OWL” to exactly “96 UNSPOTTED SAW-WHET OWL” in the same centered dark serif type, spacing and size class. Do not alter morphology, feathering, posture, scale, support, habitat, subtitle, labels or crop.
 
 Target: ../../design/concepts/96-aegolius-ridgwayi-v4.jpg
+
+## Generated/reviewed
+
+- IMAGE_GENERATED 2026-10-31T07:36:00+08:00 after 101.4 s; title-only edit.
+- REVIEWED 2026-10-31T07:37:00+08:00; full 1536×1024 plate and 620×730 juvenile crop opened; edit count 0. First persistence call was cancelled before branch update; main was confirmed unchanged and saved assets were reused.
+- PASS_WITH_LIMITATIONS. Adults retain honey-amber eyes, narrow pale rims, plain buff abdomens and near-equal scale. Older fluffy juvenile retains tilted head, short high-ending down-covered wing, concealed tail and belly/two-foot branch support. Exact age/sex/flight threshold remain unknown; science=false.

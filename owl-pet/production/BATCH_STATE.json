@@ -7833,8 +7833,8 @@
         "run_id": "20261030T103715+0800-cycle-4",
         "cycle": 4,
         "species_no": "34",
-        "heartbeat_at": "2026-10-30T10:40:00+08:00",
-        "expires_at": "2026-10-30T10:55:00+08:00"
+        "heartbeat_at": "2026-10-30T10:41:38+08:00",
+        "expires_at": "2026-10-30T10:56:38+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -7844,22 +7844,25 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261030T103715+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T10:37:15+08:00"
       },
       "last_checkpoint": {
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-10-30T10:40:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-10-30T10:41:38+08:00",
         "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/34-glaucidium-hardyi-v4-generated.png",
-          "generated_blob": "8cb1d5accc05b2be14205731f11d7d3a1ed1fb45",
-          "bytes": 3330093,
-          "dimensions": "1536x1024",
-          "visual_review": "edit_required",
-          "issues": [
-            "juvenile iris unsupported adult-yellow",
-            "repeated adult-like juvenile wing spots"
+          "edit_count": 1,
+          "result": "PASS_WITH_LIMITATIONS",
+          "reviewed_path": "owl-pet/production/reviewed/34-glaucidium-hardyi-v4-reviewed.png",
+          "reviewed_blob": "a721db6015ccd8130144e2808a860e6dff51af84",
+          "reviewed_bytes": 3128318,
+          "crop_path": "owl-pet/production/review-crops/34-glaucidium-hardyi-v4-juvenile.png",
+          "crop_blob": "eb14b7dd75178a499d32562f4be190d85df506e6",
+          "crop_bytes": 620775,
+          "inspections": [
+            "full 1536x1024",
+            "juvenile crop 440x690"
           ],
           "science": false
         }
@@ -7870,10 +7873,10 @@
         "run_id": "20261030T103715+0800-cycle-4",
         "cycle": 4,
         "species_no": "34",
-        "heartbeat_at": "2026-10-30T10:40:00+08:00",
-        "expires_at": "2026-10-30T10:55:00+08:00"
+        "heartbeat_at": "2026-10-30T10:41:38+08:00",
+        "expires_at": "2026-10-30T10:56:38+08:00"
       },
-      "last_updated_at": "2026-10-30T10:40:00+08:00"
+      "last_updated_at": "2026-10-30T10:41:38+08:00"
     }
   ],
   "lease": {
@@ -7882,8 +7885,8 @@
     "run_id": "20261030T103715+0800-cycle-4",
     "cycle": 4,
     "species_no": "34",
-    "heartbeat_at": "2026-10-30T10:40:00+08:00",
-    "expires_at": "2026-10-30T10:55:00+08:00"
+    "heartbeat_at": "2026-10-30T10:41:38+08:00",
+    "expires_at": "2026-10-30T10:56:38+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7991,7 +7994,8 @@
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5.",
     "2026-10-30T10:37:15+08:00: batch 2026-10-30T0830+0800 cycle4 STARTED #34 Glaucidium hardyi v4 SCIENCE_REVISION; expired cycle3 active_lease cleared after VERIFIED checkpoint audit; 15-minute lease acquired; no credit.",
     "2026-10-30T10:38:39+08:00: cycle4 #34 v4 RESEARCH_READY; new2/reused2/corrected1; Vielliard 1989 specimen table, Deville & Ingels 2012 nest paper and ITIS current name read; full prompt persisted; science false; no credit.",
-    "2026-10-30T10:40:00+08:00: cycle4 #34 v4 IMAGE_GENERATED; full 1536x1024 opened; text/count/adults/support pass; juvenile adult-yellow iris and repeated pale wing spots require targeted edit; no credit."
+    "2026-10-30T10:40:00+08:00: cycle4 #34 v4 IMAGE_GENERATED; full 1536x1024 opened; text/count/adults/support pass; juvenile adult-yellow iris and repeated pale wing spots require targeted edit; no credit.",
+    "2026-10-30T10:41:38+08:00: cycle4 #34 v4 REVIEWED after one targeted juvenile iris/wing edit; full 1536x1024 and 440x690 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit."
   ],
   "updated_at": "2026-10-30T09:50:00+08:00",
   "recovery_notes": [
@@ -8347,7 +8351,7 @@
     "action": "SCIENCE_REVISION",
     "run_id": "20261030T103715+0800-cycle-4",
     "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T10:37:15+08:00"
   }
 }

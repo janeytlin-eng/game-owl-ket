@@ -30,3 +30,12 @@ Check exact title/labels, exactly three birds, no ear tufts, adult gray-head/ruf
 ## Reusable rule
 
 A single sexed female at the top of an overlapping specimen range is not population-level reverse-size-dimorphism evidence. Preserve near-equal display unless species-specific sex-stratified data support direction. “Almost full-grown at a cavity entrance” supports formed wings and upright stance, but not flight performance.
+
+
+## Image review and iteration
+
+- Initial 1536×1024 render passed title/count, adult identity, near-equal scale, male false eyes and cavity support.
+- Detected issues: juvenile iris was unsupported adult-yellow; visible folded wing had repeated crisp pale spots.
+- One targeted edit changed only juvenile iris and wing pattern.
+- Recheck: full plate and 440×690 crop opened. Neutral juvenile iris, plain crown, weaker streaking, low-contrast formed wing, short/concealed tail and two-foot cavity-lip support pass. Adults and exact text remained intact.
+- Result: `PASS_WITH_LIMITATIONS`; exact juvenile age, iris chronology, flight threshold and continuous feather sequence remain unknown; science false.

@@ -19,3 +19,10 @@ Create a landscape 3:2 warm painterly-realistic scientific concept plate in the 
 ## V3 archived review — 2026-10-29T15:48:00+08:00
 
 Actual first render and edited 1536×1024 plate were viewed. The first render's juvenile had a drooped, overly regular adult-like wing and a laterally overextended foot. One juvenile-only edit retained the evidence-required developed wing length while folding it against the body, softening fresh feather edges, preserving residual crown/shoulder/flank down, and placing both feet on separate hollow-lip supports. Full image and 620×700 crop reopened; PASS_WITH_LIMITATIONS. Exact day, juvenile sex, tract sequence and pair-specific adult ratio remain unknown. scientifically_verified=false.
+
+
+## ARCHIVED REVIEW — 2026-10-31 — 91-tyto-javanica-delicatula-v4
+
+V3 was reopened; only the repository number was missing. Imagegen added `91` to the title. Actual 1536×1024 output and 620×760 juvenile crop were opened: adult identity/qualitative contrast, late-pre-fledgling developed fresh wings and short tail, residual down, two-foot hollow support and Mallee setting remained intact. No second edit. Exact day/sex, tract chronology, down retention and pair ratio unknown; scientifically_verified=false. V1–v3 preserved and no approval transfers.
+
+[Original](../../design/concepts/91-tyto-javanica-delicatula-v4.png) · [Research](../../research/species/91-tyto-javanica-delicatula-v4.md) · [Run](../../production/runs/20261031T065000+0800-cycle-2.md)

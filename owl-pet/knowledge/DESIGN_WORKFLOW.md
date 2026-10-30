@@ -592,3 +592,8 @@ For ground-nesting owls, a source saying young walk away from the nest must not 
 ### 2026-10-31 #90 content-preserving title edit check
 
 A numbering-only correction is still an image edit and can drift morphology. #90 v5 therefore reopened the fixed v4, constrained imagegen to the title line, then reopened the whole output and a juvenile crop. The adult identity, P20 down/short-feather boundary and bilateral support remained intact, so no second edit was made. This is an applied visual check, not proof that future text edits are automatically safe and not scientific validation.
+
+
+### 2026-10-31 #91 older-juvenile wing retention during title repair
+
+The #91 v4 title-only edit was reviewed at whole-plate and juvenile-crop scale. Evidence-supported developed fresh wings, residual down, short-to-moderate tail and bilateral hollow support were retained; no automatic short-wing rule was applied. This validates only the visual preservation in this edit, not the exact 46–52-day feather geometry.

@@ -1,3 +1,9 @@
+## 2026-10-31 #91 *Tyto javanica delicatula* v4 ARCHIVED — fixed readback pending
+
+- Title-only SCIENCE_REVISION; PASS_WITH_LIMITATIONS; science false; unique 175/251.
+- Number91 restored; late-pre-fledgling developed wing/residual down/two-foot hollow support preserved; no second edit.
+- [Run](production/runs/20261031T065000+0800-cycle-2.md)
+
 ## 2026-10-31 #90 *Tyto furcata pratincola* v5 VERIFIED
 
 - SCIENCE_REVISION; title-only imagegen edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

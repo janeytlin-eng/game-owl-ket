@@ -2,7 +2,7 @@
 
 - Concept: [59-ketupa-zeylonensis-v4.jpg](concepts/59-ketupa-zeylonensis-v4.jpg)
 - Research: [species record](../research/species/59-ketupa-zeylonensis-v4.md) · [source index](../research/SOURCE_INDEX.md#2026-10-30-59-ketupa-zeylonensis-v4-hong-kong-brancher-boundary)
-- Stage: ARCHIVED; fixed readback pending. One juvenile-wing edit; Hong Kong age-unknown well-feathered brancher beside tree nest; v1–v3 preserved; science false.
+- Stage: VERIFIED at fixed archive commit `86e9c25aafc9c1a3a84a782506b6f95304a8a84c`. One juvenile-wing edit; Hong Kong age-unknown well-feathered brancher beside tree nest; v1–v3 preserved; science false.
 
 ### A locality caption supports stage, not an imported day-age
 

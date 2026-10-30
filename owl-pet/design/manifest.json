@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:39:00+08:00",
+  "updated": "2026-10-30T21:41:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11403,8 +11403,43 @@
       "reviewed_sha256": "8b6044c3863c6d792fad1f09f5553f9eec2ebc0200a7a78af17041f574fe27f4",
       "reviewed_size_bytes": 639730,
       "archive_note": "V1-v3 preserved. Initial and edited 1536x1024 originals plus 680x453 derivative opened. One juvenile-wing edit removed ordered adult-like pale rows/layering while preserving the evidence-supported well-feathered brancher and natural support. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "86e9c25aafc9c1a3a84a782506b6f95304a8a84c",
+      "fixed_commit": "86e9c25aafc9c1a3a84a782506b6f95304a8a84c",
+      "verified_at": "2026-10-30T21:41:00+08:00",
+      "verification_result": "fixed archive returned a non-truncated 2,076-entry tree, exact concept/generated/reviewed blob SHAs and sizes, manifest counts 565/564/555, and source/research/run/state markers; batch advanced to 3/6; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "86e9c25aafc9c1a3a84a782506b6f95304a8a84c",
+        "concept": {
+          "path": "design/concepts/59-ketupa-zeylonensis-v4.jpg",
+          "blob": "d9ad9b585aa786d820bde66e30d261bb0efdeb54",
+          "size_bytes": 214556,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/86e9c25aafc9c1a3a84a782506b6f95304a8a84c/owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg"
+        },
+        "generated": {
+          "path": "production/generated/59-ketupa-zeylonensis-v4-generated-master.jpg",
+          "blob": "1ada79811ae05d0db3f51030bcae618bb2e028f8",
+          "size_bytes": 725481,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/86e9c25aafc9c1a3a84a782506b6f95304a8a84c/owl-pet/production/generated/59-ketupa-zeylonensis-v4-generated-master.jpg"
+        },
+        "reviewed": {
+          "path": "production/reviewed/59-ketupa-zeylonensis-v4-reviewed-master.jpg",
+          "blob": "e909211cf728aa0a14adc58cbe33c4cb8056fdb5",
+          "size_bytes": 639730,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/86e9c25aafc9c1a3a84a782506b6f95304a8a84c/owl-pet/production/reviewed/59-ketupa-zeylonensis-v4-reviewed-master.jpg"
+        },
+        "manifest_counts": {
+          "design": 565,
+          "legacy": 564,
+          "production": 555
+        },
+        "tree_truncated": false,
+        "tree_entries": 2076,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T21:39:00+08:00"
+  "updated_at": "2026-10-30T21:41:00+08:00"
 }

@@ -81,3 +81,7 @@ V3 used the Kerala/Indian chronology to correct an over-short late-nestling wing
 - Edited original and 680×453 derivative were opened. Exact text, adults, site, nest, feet/support, no flight and exactly three birds passed. PASS_WITH_LIMITATIONS; science false.
 - Plate-level validation: locality-and-stage gating worked, but image generation still imported mature wing organization; the close wing check and single bounded edit corrected it. This does not prove a universal feather rule.
 - Unknowns remain exact age, sex, subspecies, continuous feather chronology, first-flight threshold and quantified display-size ratio.
+
+## Fixed readback — 2026-10-30 21:41 +08:00
+
+Archive `86e9c25aafc9c1a3a84a782506b6f95304a8a84c` returned a non-truncated tree; exact concept/generated/reviewed blob SHAs and sizes, manifest counts and supporting text markers matched. Production VERIFIED; scientific verification remains false.

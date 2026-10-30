@@ -8296,44 +8296,60 @@
           "unique_species_increment": 0,
           "commit_sha": "671c4af4bc284133ac43af0919d4ceb4510a185a",
           "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ketupa zeylonensis",
+          "species_no": "59",
+          "version": "v4",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "86e9c25aafc9c1a3a84a782506b6f95304a8a84c",
+          "run_record": "owl-pet/production/runs/20261030T212800+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "last_checkpoint": {
         "cycle": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "species": "Ketupa zeylonensis",
         "species_id": 59,
         "version": 4,
         "run_id": "20261030T212800+0800-cycle-3",
-        "at": "2026-10-30T21:39:00+08:00",
+        "at": "2026-10-30T21:41:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T212800+0800-cycle-3.md",
         "evidence": {
+          "fixed_archive_commit": "86e9c25aafc9c1a3a84a782506b6f95304a8a84c",
+          "tree_truncated": false,
+          "tree_entries": 2076,
           "concept": {
-            "path": "owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg",
+            "path": "design/concepts/59-ketupa-zeylonensis-v4.jpg",
             "blob": "d9ad9b585aa786d820bde66e30d261bb0efdeb54",
-            "size_bytes": 214556
+            "size_bytes": 214556,
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/86e9c25aafc9c1a3a84a782506b6f95304a8a84c/owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg"
           },
           "generated": {
-            "path": "owl-pet/production/generated/59-ketupa-zeylonensis-v4-generated-master.jpg",
+            "path": "production/generated/59-ketupa-zeylonensis-v4-generated-master.jpg",
             "blob": "1ada79811ae05d0db3f51030bcae618bb2e028f8",
-            "size_bytes": 725481
+            "size_bytes": 725481,
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/86e9c25aafc9c1a3a84a782506b6f95304a8a84c/owl-pet/production/generated/59-ketupa-zeylonensis-v4-generated-master.jpg"
           },
           "reviewed": {
-            "path": "owl-pet/production/reviewed/59-ketupa-zeylonensis-v4-reviewed-master.jpg",
+            "path": "production/reviewed/59-ketupa-zeylonensis-v4-reviewed-master.jpg",
             "blob": "e909211cf728aa0a14adc58cbe33c4cb8056fdb5",
-            "size_bytes": 639730
+            "size_bytes": 639730,
+            "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/86e9c25aafc9c1a3a84a782506b6f95304a8a84c/owl-pet/production/reviewed/59-ketupa-zeylonensis-v4-reviewed-master.jpg"
           },
           "manifest_counts": {
             "design": 565,
-            "production": 555,
-            "legacy": 564
+            "legacy": 564,
+            "production": 555
           },
-          "readback_pending": true,
+          "unique_species": "175/251",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T21:39:00+08:00",
+      "last_updated_at": "2026-10-30T21:41:00+08:00",
       "audit_notes": [
         "2026-10-30T20:39:00+08:00 cycle1 #57 Bubo nipalensis v4 SCIENCE_REVISION STARTED; #56 Bubo virginianus skipped as duplicate of canonical #14 Great Horned Owl; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T20:40:00+08:00 cycle1 #57 v4 RESEARCH_READY; new1/reused3/corrected1. Shukla 2025 printed p28 plus Srinivasan 2013 pp106–107 read; date is not age/flight threshold; full prompt saved; science false; no credit.",
@@ -8351,61 +8367,15 @@
         "2026-10-30T21:31:00+08:00 cycle3 #59 v4 RESEARCH_READY; new1/reused3/corrected1. KFBG 2021 captioned field account, JBNHS pp97–98, Indian BIRDS pp147–151 and ITIS read; Hong Kong stage isolated from Indian day-age; full prompt saved; science false; no credit.",
         "2026-10-30T21:34:00+08:00 cycle3 #59 v4 IMAGE_GENERATED in 87.7s; original opened. Text/count/adults/site/support passed; juvenile wing had crisp pale covert rows and adult-regular layered remiges; targeted edit required. Full-resolution generated master persisted at 89242c8; no credit.",
         "2026-10-30T21:37:00+08:00 cycle3 #59 v4 REVIEWED after one juvenile-only wing edit (~121s). Edited original and 680x453 derivative opened; adult-like pale covert rows/layering removed, down-fringed formed wing retained; text/adults/site/support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
-        "2026-10-30T21:39:00+08:00 cycle3 #59 v4 ARCHIVED tree prepared; concept/generated/reviewed and three manifests/supporting records included; fixed readback pending; no credit."
+        "2026-10-30T21:39:00+08:00 cycle3 #59 v4 ARCHIVED tree prepared; concept/generated/reviewed and three manifests/supporting records included; fixed readback pending; no credit.",
+        "2026-10-30T21:41:00+08:00 cycle3 #59 v4 VERIFIED against fixed archive 86e9c25; non-truncated tree and exact three image blobs/sizes, manifests565/564/555 and text markers matched; batch3/6 next4; unique remains175/251; science false; lease released."
       ],
-      "active_lease": {
-        "owner": "codex-work-mode",
-        "run_id": "20261030T212800+0800-cycle-3",
-        "batch_id": "2026-10-30T2039+0800",
-        "cycle": 3,
-        "species": "Ketupa zeylonensis",
-        "species_id": 59,
-        "version": 4,
-        "stage": "ARCHIVED",
-        "heartbeat_at": "2026-10-30T21:39:00+08:00",
-        "expires_at": "2026-10-30T21:54:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-work-mode",
-        "run_id": "20261030T212800+0800-cycle-3",
-        "batch_id": "2026-10-30T2039+0800",
-        "cycle": 3,
-        "species": "Ketupa zeylonensis",
-        "species_id": 59,
-        "version": 4,
-        "stage": "ARCHIVED",
-        "heartbeat_at": "2026-10-30T21:39:00+08:00",
-        "expires_at": "2026-10-30T21:54:00+08:00"
-      },
-      "in_progress": {
-        "owner": "codex-work-mode",
-        "run_id": "20261030T212800+0800-cycle-3",
-        "batch_id": "2026-10-30T2039+0800",
-        "cycle": 3,
-        "species": "Ketupa zeylonensis",
-        "species_id": 59,
-        "version": 4,
-        "stage": "ARCHIVED",
-        "heartbeat_at": "2026-10-30T21:39:00+08:00",
-        "expires_at": "2026-10-30T21:54:00+08:00",
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "run_record": "owl-pet/production/runs/20261030T212800+0800-cycle-3.md"
-      }
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
-  "lease": {
-    "owner": "codex-work-mode",
-    "run_id": "20261030T212800+0800-cycle-3",
-    "batch_id": "2026-10-30T2039+0800",
-    "cycle": 3,
-    "species": "Ketupa zeylonensis",
-    "species_id": 59,
-    "version": 4,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-30T21:39:00+08:00",
-    "expires_at": "2026-10-30T21:54:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -8546,18 +8516,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-work-mode",
-    "run_id": "20261030T212800+0800-cycle-3",
-    "batch_id": "2026-10-30T2039+0800",
-    "cycle": 3,
-    "species": "Ketupa zeylonensis",
-    "species_id": 59,
-    "version": 4,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-30T21:39:00+08:00",
-    "expires_at": "2026-10-30T21:54:00+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-10-30T20:55:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -8969,21 +8928,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "in_progress": {
-    "owner": "codex-work-mode",
-    "run_id": "20261030T212800+0800-cycle-3",
-    "batch_id": "2026-10-30T2039+0800",
-    "cycle": 3,
-    "species": "Ketupa zeylonensis",
-    "species_id": 59,
-    "version": 4,
-    "stage": "ARCHIVED",
-    "heartbeat_at": "2026-10-30T21:39:00+08:00",
-    "expires_at": "2026-10-30T21:54:00+08:00",
-    "action": "SCIENCE_REVISION",
-    "unique_species_increment": 0,
-    "run_record": "owl-pet/production/runs/20261030T212800+0800-cycle-3.md"
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "cycle": 2,
     "stage": "VERIFIED",

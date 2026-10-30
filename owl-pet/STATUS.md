@@ -1,9 +1,9 @@
-## 2026-10-30 #59 *Ketupa zeylonensis* v4 ARCHIVED
+## 2026-10-30 #59 *Ketupa zeylonensis* v4 VERIFIED
 
 - SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
 - Concept: [design/concepts/59-ketupa-zeylonensis-v4.jpg](design/concepts/59-ketupa-zeylonensis-v4.jpg)
 - Research: new1/reused3/corrected1; KFBG Hong Kong stage is kept age-unknown and separate from Indian timing.
-- Archive tree prepared; fixed readback pending. Batch remains 2/6 until verification.
+- Fixed readback passed at [`86e9c25`](https://github.com/janeytlin-eng/game-owl-ket/commit/86e9c25aafc9c1a3a84a782506b6f95304a8a84c); exact image blobs/sizes and manifests 565/564/555 matched. Batch 3/6; next cycle 4.
 
 ## 2026-10-30 #58 *Ketupa coromanda* v4 VERIFIED
 

@@ -2345,3 +2345,8 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 - Two juvenile-only edits removed mature crown/back spotting, adult white wing rows and layered remiges. Final full plate and crop were reopened; result PASS_WITH_LIMITATIONS, science false.
 - Research sources: new 1, reused 3, corrected 1. Exact individual age, iris chronology and sex-specific growth remain unknown.
 - Assets: `design/concepts/42-athene-brama-v4.png`, generated, reviewed and juvenile-crop originals are persisted; fixed-commit readback is pending.
+
+
+### #42 v4 VERIFIED — 2026-10-30 15:36 +08:00
+
+Fixed archive `db6268ba091584c3e3b735240f13deaa81dc815b` returned the exact four image blob SHAs; the 657,034-byte concept and 706,743-byte crop decoded exactly, and the large generated/reviewed objects returned their exact Git hashes. Manifests 561/552/550 plus source index, research, knowledge, run, status/changelog, design rule and batch state matched. Batch `2026-10-30T1230+0800` is COMPLETE 6/6; unique species remains 175/251; science false.

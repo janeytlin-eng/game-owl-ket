@@ -1370,3 +1370,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 - Added the archived v4 science revision and retained v1–v3.
 - Applied the full 21–30 d developmental chronology: selected a 16–20 d supported cavity nestling and removed adult-like juvenile crown/wing traits in two edits.
 - Updated all three image manifests to 561/552/550; unique species remains 175/251; science false pending exact age/iris/sex-growth evidence.
+
+
+- VERIFIED #42 v4 at fixed archive `db6268ba091584c3e3b735240f13deaa81dc815b`; exact image and text evidence matched. Closed batch `2026-10-30T1230+0800` at 6/6 without changing unique-species count (175/251).

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T15:33:00+08:00",
+  "updated": "2026-10-30T15:36:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10472,11 +10472,41 @@
       "review_crop_sha256": "a30442b057b99fbcbcef997c6afeaeb66d64d2020dc78e5672e1681f11d038f0",
       "review_crop_size_bytes": 706743,
       "archive_note": "V1-v3 retained. V4 uses the documented 16–20 d supported cavity stage; two targeted juvenile-only edits; final 1536x1024, 536x720 crop and 680x453 derivative reopened. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verification_result": "pending"
+      "readback_pending": false,
+      "archive_commit": "db6268ba091584c3e3b735240f13deaa81dc815b",
+      "fixed_commit": "db6268ba091584c3e3b735240f13deaa81dc815b",
+      "verification_result": "fixed archive db6268ba091584c3e3b735240f13deaa81dc815b returned exact concept/generated/reviewed/crop Git blob SHAs; concept and crop decoded sizes matched; large generated/reviewed payloads returned exact Git hashes; manifests 561/552/550 and source/research/run/knowledge/status/changelog/design-rule/state records matched",
+      "verified_at": "2026-10-30T15:36:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "db6268ba091584c3e3b735240f13deaa81dc815b",
+        "concept": {
+          "path": "design/concepts/42-athene-brama-v4.png",
+          "blob": "15b20894d557d3177f9122445e42b454d8caeada",
+          "size_bytes": 657034
+        },
+        "generated": {
+          "path": "production/generated/42-athene-brama-v4-generated.png",
+          "blob": "bff72e32d8b1565d3e32747bb38fa2c0f7a228ec",
+          "size_bytes": 3395469
+        },
+        "reviewed": {
+          "path": "production/reviewed/42-athene-brama-v4.png",
+          "blob": "aaa50d00b1e68ff02f3dd91e32b65476dea5d3ff",
+          "size_bytes": 2914013
+        },
+        "review_crop": {
+          "path": "production/review-crops/42-athene-brama-v4-juvenile.png",
+          "blob": "a818c632ff29b0627d97b72c4279375c6f9b9833",
+          "size_bytes": 706743
+        },
+        "source_index_blob": "f481c230eb46637c4239dfac9d69eca787be21be",
+        "research_blob": "60d2281b81902b48bcdd739f0ee616513b38d1bc",
+        "run_blob_at_archive": "65b430ba410bc1b7647434a2757778f7628d0a44",
+        "knowledge_blob": "b3b787b8872bb6d973b06de7bbbc0f3bddf32a91",
+        "batch_blob_at_archive": "3ecd9d3ff92e6d66d618d5ecab9221d03ebbdaaa"
+      }
     }
   ],
-  "updated_at": "2026-10-30T15:33:00+08:00"
+  "updated_at": "2026-10-30T15:36:00+08:00"
 }

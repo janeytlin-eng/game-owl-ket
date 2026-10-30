@@ -15,3 +15,7 @@ New primary LET-LEADPRATHOM-2009 (Ardea 97:457–461; DOI 10.5253/078.097.0409; 
 
 Reused LET-LEADPRATHOM-2009 printed p.459 to retain the 11–15-day cavity stage while correcting only the wing: short sparse irregular growing remige tips under down; rectrices absent until the cited 16–20-day interval. Reused SUN-BSS-CURRENT, LET-HKBWS-2023 and WHSO-MIKKOLA-2013 printed p.162/PDF164. Search service returned empty payloads for both query batches; new0/reused4/corrected1. No inferred female-larger rule. Exact pin geometry, sex ratio and subspecies transfer unknown; science false. Full prompt in research/species/79-otus-lettia-v4.md.
 
+## 2026-10-31 v4 actual application
+
+One direct imagegen revision of v3 shortened/irregularized the 11–15 d juvenile wing while preserving adults, exact text and cavity support. Full image, juvenile crop and derivative were opened. PASS_WITH_LIMITATIONS; no visible tail or flight-capable posture. Exact growing-feather geometry remains unknown; science false.
+

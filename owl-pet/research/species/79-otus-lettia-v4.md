@@ -33,3 +33,11 @@ Exact individual eye-opening day, pin count/geometry, subspecies transfer, sex-s
 ## Full imagegen prompt
 
 Use the attached #79 Otus lettia v3 plate as the layout/style reference. Create one scientifically cautious photorealistic prototype group plate with exactly three Collared Scops Owls: adult male on the left, one 11–15-day cavity nestling in the center, adult female on the right. Preserve exact title “COLLARED SCOPS OWL”, italic scientific name “Otus lettia”, and labels “ADULT MALE”, “11–15-DAY CAVITY NESTLING”, “ADULT FEMALE”. Preserve the warm natural daylight, tropical broadleaf cavity, photographic depth and near-equal adult scale; do not make the female generically much larger. Adults: compact scops-owl bodies, conspicuous but natural ear tufts, dark brown irides with subdued reddish orbital rims, greenish-yellow bill, mottled bark-brown upperparts, pale hind-collar cue and sandy-buff finely black-streaked underparts, both feet naturally supported. Juvenile: retain open eyes, pale natal/early semiplume down, just-beginning bill bristles, no visible tail/rectrices, belly/sternum supported on dry cavity substrate. Correct the v3 juvenile wing treatment: depict only very short growing dark remige tips/pins under soft down, irregular and sparse, not long neat layered adult-like feathers or repeated pale bars. No standing, climbing, wing spreading or flight. Exactly three owls, no extra birds, no labels changed, no fantasy features, no mature juvenile tail or adult wing fan.
+
+## Actual image review
+
+- The v4 imagegen result was opened at 1536×1024. Title/name/labels and three-bird count are exact; adults retain dark eyes, reddish orbital rims, greenish-yellow bills, bark-brown plumage, near-equal scale and natural support.
+- Juvenile crop reopened at 520×700: open eyes, pale down, belly/sternum support, visible small feet, short sparse dark growing wing tips and no visible tail. No standing, climbing or flight.
+- 680×453 concept derivative reopened: composition and text remain legible; no new issue found.
+- Result: PASS_WITH_LIMITATIONS; one direct imagegen revision of v3; no additional edit. Science false.
+

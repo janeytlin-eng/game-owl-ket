@@ -644,3 +644,14 @@ Reused stable IDs **STY-LOPES-ETAL-2004**, **STY-CADENA-2018**, **STY-SPIZAETUS-
 - **Corrections:** replace exact individual `c.26-day` label with `RECENT FLEDGLING`; compact adult-like juvenile wing; express female mass direction only as subtle fullness with near-equal crown height. Exact age/flight threshold/tract geometry/subspecies/sex-height ratio remain unknown. Science false.
 - **Links:** [research](species/83-otus-brucei-v4.md) · [run](../production/runs/20261031T043000+0800-cycle-1.md) · planned [concept](../design/concepts/83-otus-brucei-v4.jpg).
 - **Delta:** new1 / reused2 / corrected2.
+
+
+## 2026-10-31 — #84 *Otus bakkamoena* v8 archive repair and taxonomic-transfer boundary
+
+- **Reused:** BAK-BRRAICH-SINGH2021, publisher PDF printed pp.55–56 freshly opened; BAK-MIK2013-150, user-uploaded Mikkola printed pp.150–151/PDF pp.152–153 directly read.
+- **Facts:** single 2018 Patiala brood supports grey juvenile, horizontal belly bars, bare periocular skin, no ear tufts, grey bill/exposed nostrils, blue eyes and underdeveloped wings; Mikkola supports adult dark eyes, greenish horn bill/cere, continuous pale facial disc/dark ruff, tufts/collars and a larger-female direction without a ratio.
+- **Exclusion:** developmental dates found under old broad Russian `O. bakkamoena` usage are not transferred across the current Indian vs northern collared/Japanese split.
+- **Archive correction:** v7 fixed PNG blob exists but immutable bytes fail full decode (`IDAT: invalid distance code`). Historical v7 preserved; complete v6 reopened and is the visual base for a complete-JPEG v8 rebuild.
+- **Design correction:** one continuous adult facial disc (no goggles), explicit short underdeveloped juvenile wings, modest not quantified female direction, fully supported natural cavity stage. Exact age/iris transition/flight threshold/subspecies/ratio unknown; science false.
+- **Links:** [research](species/84-otus-bakkamoena-v8.md) · [run](../production/runs/20261031T045100+0800-cycle-2.md) · planned [concept](../design/concepts/84-otus-bakkamoena-v8.jpg).
+- **Delta:** new0 / reused2 / corrected2.

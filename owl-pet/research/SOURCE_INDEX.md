@@ -381,3 +381,23 @@
 ### Reused and corrected mapping
 - **Reused:** `BFOW-BINDU-BALAKRISHNAN-2015` (JBNHS 112(2), pp.97–98; 43–49-day Kerala nestling period); `BFO-INDIANBIRDS-2013` (pp.147–151; Gujarat development sequence); `BFOW-ITIS-2025` (valid current name and original *Strix zeylonensis* mapping).
 - **Correction:** the Hong Kong photographed juvenile remains age unknown; Kerala/Gujarat timing is context and is not transferred into an exact New Territories day-age or feather timetable.
+
+
+## 2026-10-30 — #60 *Ketupa flavipes* v4 Taiwan tarsus and nest-trait correction
+
+### TFO-TAIEOL-2013-2024
+- **Stable ID:** `TFO-TAIEOL-2013-2024`
+- **Title / institution:** *Ketupa flavipes* species account / Taiwan Encyclopedia of Life; morphology from *The Avifauna of Taiwan*, nest traits updated 2024.
+- **Original URL:** https://taieol.tw/pages/73524/articles
+- **Accessed:** 2026-10-30.
+- **Source type:** official Taiwan biodiversity synthesis.
+- **Species/stage:** *Ketupa flavipes*; adult morphology, habitat, nest type and broad nestling period.
+- **Sections read:** comprehensive description, distribution, similarity, habitat, ecology, behavior, reproduction; no web page numbers.
+- **Valuable facts:** yellow eyes; coarse dark streaks; feathering high/front on tarsus with bare yellow lower tarsus/toes; monotypic treatment; intact stream forest; bottom-supported secondary tree cavity; nestling period over 50 d.
+- **Limits/credibility:** authoritative synthesis but not a sexed measurement set or continuous juvenile plumage series; exact fraction of tarsal feathering should not be over-quantified.
+- **Design/review decision:** keep bare yellow lower tarsi/toes, old-tree Y-fork/cavity and stream habitat; do not claim a precise upper-two-thirds line.
+- **Linked records:** `owl-pet/research/species/60-ketupa-flavipes-v4.md`; `owl-pet/production/runs/20261030T213800+0800-cycle-4.md`; planned `owl-pet/design/concepts/60-ketupa-flavipes-v4.jpg`.
+
+### Reused and corrected mapping
+- **Reused:** `TFO-SPNP-PNN-2026`, `TFO-WANG-2013`, `TFO-SUN-NEST-1997`.
+- **Correction:** replace the prompt's exact “upper roughly two-thirds” tarsal-feather fraction with the official, less over-precise “upper/front feathered; lower tarsus and toes bare yellow” boundary.

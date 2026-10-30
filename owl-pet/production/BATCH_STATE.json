@@ -8181,21 +8181,23 @@
       "next_cycle": 5,
       "last_checkpoint": {
         "cycle": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Bubo africanus",
         "species_id": 54,
         "version": 4,
         "run_id": "20261030T194800+0800-cycle-5",
-        "at": "2026-10-30T19:55:00+08:00",
+        "at": "2026-10-30T19:58:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T194800+0800-cycle-5.md",
         "evidence": {
-          "dimensions": "1536x1024",
-          "generation_seconds": 45.1,
-          "review_issue": "juvenile adult-bright yellow eyes and adult-regular spotted layered wing require targeted edit",
+          "edit_count": 2,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "concept_sha256": "7f951093f0d92df5912f424e2b359a4a1b6b3e38017bef956f42c268bfe12c43",
+          "generated_sha256": "3b7e075837a884e7125405b949df2f675872c96d77dc0ec840c78803d27b51d3",
+          "reviewed_sha256": "a8e4972c555c8d8356153b8be1d8e3c135e55cb62c265a1935c5d6f9d3ab09a6",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-30T19:55:00+08:00",
+      "last_updated_at": "2026-10-30T19:58:00+08:00",
       "audit_notes": [
         "2026-10-30T18:31:00+08:00 cycle1 #49 Strix woodfordii v4 SCIENCE_REVISION STARTED; v1–v3 preserved; latest main/manifest/card checked; 15-minute lease acquired; no credit.",
         "2026-10-30T18:35:00+08:00 cycle1 #49 v4 RESEARCH_READY; new2/reused4/corrected1. Mikkola printed pp320–321, SANBI development account and ITIS current/old-name mapping read. V4 selects age-unknown later Tanzanian nigricantior young with adult-like folded wing/tail explicitly allowed by same-population caption, while underparts remain partly downy; full prompt saved; science false; no credit.",
@@ -8221,7 +8223,8 @@
         "2026-10-30T19:47:00+08:00 cycle4 #52 v4 VERIFIED against fixed archive 8e4e7a1eae164884760b50795f80264b7717ef2a; exact image paths/blob SHAs/URLs and manifest560/source/research/run/knowledge matched; batch4/6 next5; unique remains175/251; science false; lease released.",
         "2026-10-30T19:48:00+08:00 cycle5 #54 Bubo africanus v4 SCIENCE_REVISION STARTED; #53 skipped as prior duplicate/no canonical unique entry; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T19:52:00+08:00 cycle5 #54 v4 RESEARCH_READY; new3/reused3/corrected2. Mikkola printed pp280–281, ITIS/GBIF, SANBI, primary morphometrics and BDI read; age-unknown greyish-yellow-eyed mesoptile and subtle adult sex direction selected; full prompt persisted; science false; no credit.",
-        "2026-10-30T19:55:00+08:00 cycle5 #54 v4 IMAGE_GENERATED in 45.1s; full plate and crop opened. Text/count/adults/habitat/support pass; juvenile bright-yellow eyes and adult-regular spotted layered wing require targeted edit; science false; no credit."
+        "2026-10-30T19:55:00+08:00 cycle5 #54 v4 IMAGE_GENERATED in 45.1s; full plate and crop opened. Text/count/adults/habitat/support pass; juvenile bright-yellow eyes and adult-regular spotted layered wing require targeted edit; science false; no credit.",
+        "2026-10-30T19:58:00+08:00 cycle5 #54 v4 REVIEWED after two juvenile-only edits; final full plate and crop reopened. Greyish-yellow eyes and continuous mesoptile pass; adult-regular juvenile wing panel removed; PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-automation",
@@ -8231,8 +8234,8 @@
         "species": "Bubo africanus",
         "species_id": 54,
         "version": 4,
-        "heartbeat_at": "2026-10-30T19:55:00+08:00",
-        "expires_at": "2026-10-30T20:10:00+08:00"
+        "heartbeat_at": "2026-10-30T19:58:00+08:00",
+        "expires_at": "2026-10-30T20:13:00+08:00"
       },
       "lease": {
         "owner": "codex-automation",
@@ -8242,8 +8245,8 @@
         "species": "Bubo africanus",
         "species_id": 54,
         "version": 4,
-        "heartbeat_at": "2026-10-30T19:55:00+08:00",
-        "expires_at": "2026-10-30T20:10:00+08:00"
+        "heartbeat_at": "2026-10-30T19:58:00+08:00",
+        "expires_at": "2026-10-30T20:13:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T1831+0800",
@@ -8255,10 +8258,10 @@
         "unique_species_increment": 0,
         "run_id": "20261030T194800+0800-cycle-5",
         "run_record": "owl-pet/production/runs/20261030T194800+0800-cycle-5.md",
-        "status": "IMAGE_GENERATED",
-        "stage": "IMAGE_GENERATED",
+        "status": "REVIEWED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T19:48:00+08:00",
-        "last_updated_at": "2026-10-30T19:55:00+08:00",
+        "last_updated_at": "2026-10-30T19:58:00+08:00",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261030T194800+0800-cycle-5",
@@ -8267,8 +8270,8 @@
           "species": "Bubo africanus",
           "species_id": 54,
           "version": 4,
-          "heartbeat_at": "2026-10-30T19:55:00+08:00",
-          "expires_at": "2026-10-30T20:10:00+08:00"
+          "heartbeat_at": "2026-10-30T19:58:00+08:00",
+          "expires_at": "2026-10-30T20:13:00+08:00"
         }
       }
     }
@@ -8281,8 +8284,8 @@
     "species": "Bubo africanus",
     "species_id": 54,
     "version": 4,
-    "heartbeat_at": "2026-10-30T19:55:00+08:00",
-    "expires_at": "2026-10-30T20:10:00+08:00"
+    "heartbeat_at": "2026-10-30T19:58:00+08:00",
+    "expires_at": "2026-10-30T20:13:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8435,7 +8438,7 @@
     "heartbeat_at": "2026-10-30T19:35:00+08:00",
     "expires_at": "2026-10-30T19:50:00+08:00"
   },
-  "last_updated_at": "2026-10-30T19:55:00+08:00",
+  "last_updated_at": "2026-10-30T19:58:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8855,10 +8858,10 @@
     "unique_species_increment": 0,
     "run_id": "20261030T194800+0800-cycle-5",
     "run_record": "owl-pet/production/runs/20261030T194800+0800-cycle-5.md",
-    "status": "IMAGE_GENERATED",
-    "stage": "IMAGE_GENERATED",
+    "status": "REVIEWED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T19:48:00+08:00",
-    "last_updated_at": "2026-10-30T19:55:00+08:00",
+    "last_updated_at": "2026-10-30T19:58:00+08:00",
     "lease": {
       "owner": "codex-automation",
       "run_id": "20261030T194800+0800-cycle-5",
@@ -8867,23 +8870,25 @@
       "species": "Bubo africanus",
       "species_id": 54,
       "version": 4,
-      "heartbeat_at": "2026-10-30T19:55:00+08:00",
-      "expires_at": "2026-10-30T20:10:00+08:00"
+      "heartbeat_at": "2026-10-30T19:58:00+08:00",
+      "expires_at": "2026-10-30T20:13:00+08:00"
     }
   },
   "last_checkpoint": {
     "cycle": 5,
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "species": "Bubo africanus",
     "species_id": 54,
     "version": 4,
     "run_id": "20261030T194800+0800-cycle-5",
-    "at": "2026-10-30T19:55:00+08:00",
+    "at": "2026-10-30T19:58:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T194800+0800-cycle-5.md",
     "evidence": {
-      "dimensions": "1536x1024",
-      "generation_seconds": 45.1,
-      "review_issue": "juvenile adult-bright yellow eyes and adult-regular spotted layered wing require targeted edit",
+      "edit_count": 2,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "concept_sha256": "7f951093f0d92df5912f424e2b359a4a1b6b3e38017bef956f42c268bfe12c43",
+      "generated_sha256": "3b7e075837a884e7125405b949df2f675872c96d77dc0ec840c78803d27b51d3",
+      "reviewed_sha256": "a8e4972c555c8d8356153b8be1d8e3c135e55cb62c265a1935c5d6f9d3ab09a6",
       "science": false
     }
   }

@@ -2568,3 +2568,10 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 
 - Fixed archive 82ba5ddf356e75b24a00b737bd02e1b5fad32565 returned exact concept/generated/reviewed blobs and sizes in a non-truncated 2,117-entry tree; manifests 573/572/563 and supporting records matched.
 - Batch 2026-10-30T2158+0800 is 5/6, next cycle 6. Unique 175/251; science false.
+
+
+## 2026-10-30T23:56:19+08:00 — #68 *Tyto tenebricosa* v4 archive prepared
+
+- Reused five indexed sources and corrected v3's unsupported precise standing-height/juvenile-size encoding; three active search batches returned empty payloads and received no source credit.
+- First render, juvenile crop and 680x453 derivative passed without edit. PASS_WITH_LIMITATIONS; exact age/body ratio/sexed standing-height ratio remain unknown.
+- Manifests 574/573/564; unique 175/251; fixed readback pending; science false.

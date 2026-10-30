@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:54:00+08:00",
+  "updated": "2026-10-30T23:56:19+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11553,7 +11553,65 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "68-tyto-tenebricosa-v4",
+      "path": "design/concepts/68-tyto-tenebricosa-v4.png",
+      "species_id": 68,
+      "scientific_name": "Tyto tenebricosa",
+      "historical_names": [],
+      "common_name": "Greater Sooty Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "63f5625103a103f21c6ed6e39ed66388c85ba1c307f24671d231051689dbc108",
+      "size_bytes": 683420,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 corrects v3's evidence-overprecise scale encoding: nominate adults retain the supported female-larger direction through fullness/length while crown heights remain comparable, and the near-fledged bird reads lower through crouched posture rather than an invented body ratio. The approximately three-month nest period, nearly complete feathering, darker juvenile possibility, limited residual down, large old-tree hollow and moist gully/rainforest setting are source-bounded. First render passed full, crop and derivative review without edit. Exact juvenile age, body-size trajectory, down placement, flight threshold, sexed standing-height ratio and subspecies variation remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "GSO-BILNEY-2012",
+        "GSO-NSWSC-2008",
+        "GSO-ABSA-2019",
+        "GSO-OWLPAGES-2026",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--68-tyto-tenebricosa-v4-sex-height-and-fledgling-scale-boundary",
+      "research_record": "research/species/68-tyto-tenebricosa-v4.md",
+      "run_record": "production/runs/20261030T235600+0800-cycle-6.md",
+      "reviewed_at": "2026-10-30T23:55:30+08:00",
+      "generated_path": "production/generated/68-tyto-tenebricosa-v4-generated-master.png",
+      "generated_blob": "b52ad5dc12e7bf159789e325c23093ff69b2318d",
+      "generated_sha256": "20e2e9dedf4fd699c6f67f67b8a6bb8e3c22f2a847ac0d5a79cd669f12099eb4",
+      "generated_size_bytes": 3501099,
+      "reviewed_path": "production/reviewed/68-tyto-tenebricosa-v4-reviewed-master.png",
+      "reviewed_blob": "b52ad5dc12e7bf159789e325c23093ff69b2318d",
+      "reviewed_sha256": "20e2e9dedf4fd699c6f67f67b8a6bb8e3c22f2a847ac0d5a79cd669f12099eb4",
+      "reviewed_size_bytes": 3501099,
+      "review_crop_path": "production/reviewed/68-tyto-tenebricosa-v4-juvenile-crop.png",
+      "review_crop_blob": "9166e407b296c0b5d9e1c4b3ab67793ec4cc9d3c",
+      "review_crop_size_bytes": 685809,
+      "archive_note": "V1-v3 preserved. First 1536x1024 render, 520x700 juvenile crop and 680x453 concept all opened and passed; edit count 0. The v3 overprecise height/absolute-scale encoding was corrected through comparable adult crown heights and juvenile crouch. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "87418d5556b3a3368caa29fe0575ec3e288c3259",
+      "fixed_commit": null,
+      "verified_at": null,
+      "verification_result": "Pending fixed-commit readback.",
+      "readback": {
+        "status": "PENDING",
+        "manifest_counts": {
+          "legacy": 574,
+          "design": 573,
+          "production": 564
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T23:54:00+08:00"
+  "updated_at": "2026-10-30T23:56:19+08:00"
 }

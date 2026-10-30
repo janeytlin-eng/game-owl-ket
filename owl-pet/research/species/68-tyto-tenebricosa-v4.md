@@ -2,7 +2,7 @@
 
 - Run: 20261030T235600+0800-cycle-6; batch 2026-10-30T2158+0800; cycle 6/6.
 - Action: SCIENCE_REVISION; v1-v3 retained; unique increment 0.
-- Status: RESEARCH_READY at 2026-10-30T23:58:00+08:00; science false.
+- Status: ARCHIVED at 2026-10-30T23:56:19+08:00; fixed-commit readback pending; science false.
 
 ## Active external search and sources
 - Three targeted web-search batches were executed for Tyto tenebricosa juvenile/fledging/nest-hollow research; the search service returned no result payload for all attempts. Empty results are not counted as sources or scientific evidence.
@@ -26,3 +26,8 @@ Adults: no ear tufts; rounded heart-shaped gray-brown facial disc with heavy dar
 Sex direction: nominate evidence supports a substantially heavier/larger female, but do not turn mass/wing ranges into a fixed standing-height ratio. Put male and female on comparable branches with comparable crown height; make the female clearly fuller, longer-bodied and slightly broader through chest/hips, not a giant or much taller bird. Female mask/underparts may be slightly lighter.
 Juvenile: recent fledgling after the approximately three-month nest period; nearly fully feathered, developed folded wings and tail, possibly darker than adults, black eyes and pale bill. Retain only a few small residual soft down tufts on crown and lower belly/thighs. Not a natal chick, no baby wing buds, no white Barn Owl face, no flight pose. Avoid an arbitrary tiny scaled-down adult: show it crouched lower at the hollow lip so posture, not invented body ratio, produces the lower silhouette.
 Support/environment: all birds naturally supported at the entrance/branch lip of a very large deep hollow in an old living smooth-barked gum in a moist southeast-Australian rainforest/eucalypt gully with tree ferns and dense mid-storey. Juvenile crouches at the hollow lip; adults flank on stable wood. Every visible foot/toe supported. No cave-only setting, no eggs, no woven nest, no extra birds, text, logo, border or watermark.
+
+## Review and archive checkpoint — 2026-10-30T23:56:19+08:00
+
+- First 1536×1024 render, 520×700 juvenile crop and 680×453 derivative were opened. Identity, comparable adult crown height/female fullness, near-fledged developed wing/tail with limited residual down, hollow/gully context, exact text/count and all-foot support passed; no edit was required.
+- Concept blob `87418d5556b3a3368caa29fe0575ec3e288c3259` / 683,420 B; generated/reviewed blob `b52ad5dc12e7bf159789e325c23093ff69b2318d` / 3,501,099 B; crop `9166e407b296c0b5d9e1c4b3ab67793ec4cc9d3c` / 685,809 B. Fixed readback pending; science false.

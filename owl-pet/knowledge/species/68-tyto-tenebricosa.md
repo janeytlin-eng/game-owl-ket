@@ -36,3 +36,10 @@ Archive `5e1c152e13b81ce96364cc1d3a162424a0901c6f`; concept `141c341dc49fe57eeba
 - External searches returned zero payload and are not counted. Reused five indexed sources and corrected one design inference after opening v3 fixed original.
 - V3 is identity/stage/support-correct, but its height/scale encoding is more precise than the evidence. V4 will keep adult crown heights comparable and express the nominate female direction through fullness/length; the recent fledgling will be lower by crouched posture rather than an invented tiny body ratio.
 - Complete prompt/evidence: research/species/68-tyto-tenebricosa-v4.md. Exact age/body-size trajectory/down placement/ratio/subspecies remain unknown; science false.
+
+
+## v4 review/archive checkpoint — 2026-10-30T23:56:19+08:00
+
+- V4 corrects v3's overprecise scale encoding without reversing the evidence-supported female-larger direction: adult crown heights are comparable and the female reads fuller/longer; the recent fledgling reads lower through a supported crouch rather than an asserted body ratio.
+- First master, juvenile crop and 680×453 derivative passed without edit. Developed wing/tail, small residual crown/lower-body down, old gum hollow, tree-fern gully and every foot's support were rechecked. Exact age/body trajectory/sexed standing-height ratio remain unknown; science false.
+- Concept/generated/reviewed/crop blobs: `87418d5556` / `b52ad5dc12` / `b52ad5dc12` / `9166e407b2`; fixed readback pending.

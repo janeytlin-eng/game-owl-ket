@@ -1,3 +1,12 @@
+## 2026-10-31 — #80 *Otus sunia* v4 just-opening remige-sheath boundary
+
+- **Reused IDs:** SUNIA-PUKINSKY-1977; SUNIA-NO-DISS-2017; SUNIA-NO-2015; WHSO-MIKKOLA-2013.
+- **Page/section evidence:** Pukinsky chronology from repository indexed transcription (direct page previously 403); No dissertation pp.114–115/Fig.19; No et al. 2015 pp.415–418; Mikkola printed pp.152–153/PDF154–155.
+- **Active search:** two query systems returned no content; new0/reused4/corrected1.
+- **Decision:** retain 7–10 d cavity-floor stage; reduce v3's neat long juvenile wing pins to a few tiny irregular just-opening tips mostly under down; no tail, perch or flight.
+- **Limits:** exact tract sequence, population transfer and sex ratio unknown; science false.
+- **Links:** [record](species/80-otus-sunia-v4.md) · [run](../production/runs/20261031T024158+0800-cycle-4.md).
+
 ## 2026-10-31 — #79 *Otus lettia* v4 dated cavity-nestling wing boundary
 
 - **Reused stable IDs:** LET-LEADPRATHOM-2009; SUN-BSS-CURRENT; LET-HKBWS-2023; WHSO-MIKKOLA-2013.

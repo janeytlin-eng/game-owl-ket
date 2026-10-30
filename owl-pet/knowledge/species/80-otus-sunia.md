@@ -17,3 +17,8 @@ One imagegen render was inspected at original resolution and passed without edit
 ## 2026-10-29 v3 research-ready boundary
 
 SUNIA-PUKINSKY-1977's indexed field synthesis supplies a species-specific sequence (2–3 d white down; 6–7 nights tarsus-supported sitting/movement; 7–10 d remige sheaths just opening; ~2 wk grey cross-barred mesoptile; ~3 wk cavity-entrance appearance), while SUNIA-NO-DISS-2017 pp.114–115/Fig.19 and SUNIA-NO-2015 pp.415–418 give Korean growth endpoints, 23-day nestling duration and cavity/flight context. V3 selects 7–10 d, distinct from v1–v2’s older fluffy weakly barred stage: white/cream down, brownish juvenile iris, a few opening wing pins, no rectrix fan, low tarsus-supported cavity-floor sit/shuffle; no upright perch, entrance display or flight. Direct Russian page open was 403, so its indexed transcription is explicitly secondary; exact tract sequence/population transfer/sex ratio unknown, science false. Run: ../../production/runs/20261029T1158+0800-cycle-3.md.
+
+## 2026-10-31 v4 research boundary
+
+Reused SUNIA-PUKINSKY-1977 indexed chronology, SUNIA-NO-DISS-2017 pp.114–115/Fig.19, SUNIA-NO-2015 pp.415–418 and WHSO-MIKKOLA-2013 printed pp.152–153/PDF154–155. Active searches returned no content. V4 retains 7–10 d but changes v3's neat long wing pins to a few tiny irregular just-opening tips under down; no tail/perch/flight. New0/reused4/corrected1; science false.
+

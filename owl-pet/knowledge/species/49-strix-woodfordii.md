@@ -72,3 +72,10 @@
 - Unknowns retained: exact juvenile age, flight/movement ability, day-by-day feather sequence, sexed linear dimensions, and transfer beyond *nigricantior*.
 - Sources: `AWOO-MIKKOLA-2013-P320-321`, `AWOO-ITIS-2026`; reused `AWOO-SANBI-2018`, `AWOO-AFRICAN-BIRDLIFE-2016`, `AWOO-PEREGRINE-FUND`, `AWOO-AVIBASE-2026`.
 - Full prompt and stage ledger: `owl-pet/production/runs/20261030T183100+0800-cycle-1.md`. Scientific status remains false pending image review and broader calibration.
+
+
+## 2026-10-30 v4 production result
+- First render required no edit. The 1536×1024 original and 680×453 derivative were both opened.
+- Passed: exact title/count/labels; dark-eyed untufted adults; subtle female fullness; one age-unknown *nigricantior* juvenile with folded adult-like barred wing/tail, visibly partly downy lower underparts and both feet supported in a tree fork.
+- Files: `design/concepts/49-strix-woodfordii-v4.png`, `production/generated/49-strix-woodfordii-v4-generated-master.png`, `production/reviewed/49-strix-woodfordii-v4-reviewed-master.png`.
+- Verdict: PASS_WITH_LIMITATIONS. The photographed-stage mature-wing exception is visually validated for this plate only. Exact age, movement/flight competence, remex chronology, sexed linear dimensions and transfer beyond *nigricantior* remain unknown; science false.

@@ -47,3 +47,12 @@ Environment: a large mature tree in humid Tanzanian woodland/forest at quiet daw
 Composition and rendering: consistent scale, expressive but anatomically credible; adults upright and calm, juvenile lower and dependent; detailed feathers without photographic collage; warm earth palette, subtle cinematic depth, clean typographic hierarchy, no border.
 
 Strict negatives: no extra owl, no egg, no prey, no ear tufts, no yellow or orange adult eyes, no airborne juvenile, no spread juvenile wing, no unsupported juvenile, no universal claim that every female is taller, no invented exact juvenile age, no duplicate labels, no misspelled scientific name.
+
+
+## Actual image review
+
+- Generated in 45.9 s; 1536×1024 original opened.
+- A 680×453 derivative was rendered and opened.
+- PASS: exact title/count/labels; dark eyes; no ear tufts; yellow bill/cere; subtly fuller female without exaggerated height; juvenile lower and dependent with bilateral tree-fork support; folded adult-like barred wing/tail; partly downy pale-rufous lower underparts; no flight action.
+- No edit was required.
+- Verdict: PASS_WITH_LIMITATIONS. Unknowns remain as defined above; scientific status false.

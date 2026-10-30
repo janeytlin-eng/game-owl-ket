@@ -2416,3 +2416,11 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Fixed archive `d212c5e7985ba460905be9e9221f33b0665e2576` returned the exact concept/generated/reviewed blob SHAs and matching manifest/run/research/state records.
 - Batch `2026-10-30T1634+0800` is COMPLETE 6/6. Unique species remains 175/251; science false.
+
+
+### #49 v4 archive prepared — 2026-10-30T18:40:00+08:00
+
+- `design/concepts/49-strix-woodfordii-v4.png`: 680×453, 636,877 bytes, SHA-256 `e5970f5ca53272e4cb12ca6971b5513731fddb350d296f02447a99c12d9b55bf`, blob `cd11a957cb29c6292cd6ed75de637c773baa644b`.
+- Generated/reviewed master: 1536×1024, 3,088,007 bytes, blob `4490e1e64cb6e6c63df1626cbb00480afae34bcf`; no edit required.
+- Mikkola printed pp.320–321 supports the selected age-unknown Tanzanian `nigricantior` photographed stage: formed folded wing/tail with partly downy underparts. Original and derivative opened; PASS_WITH_LIMITATIONS.
+- Unique species remains 175/251; science false; cycle credit awaits fixed archive readback.

@@ -2400,3 +2400,11 @@ Verification 2026-10-30T16:56:00+08:00: #44 v4 confirms the wing-growth timing g
 
 
 Verification 2026-10-30T18:11:00+08:00: #48 v4 fixed archive `d212c5e7985ba460905be9e9221f33b0665e2576` returned exact concept/generated/reviewed paths and blob SHAs; manifest 556 plus run/research/state records matched. Batch COMPLETE 6/6; science false.
+
+
+## #49 · African Wood Owl · *Strix woodfordii* · v4
+
+- Concept: `design/concepts/49-strix-woodfordii-v4.png`; generated/reviewed masters retained under `production/generated/` and `production/reviewed/`.
+- Exactly one adult male, one age-unknown juvenile and one adult female; darker Tanzanian *nigricantior* direction. Adults are dark-eyed and untufted; female is only subtly fuller under the source's average-mass direction.
+- Juvenile is a photographed-stage exception: Mikkola printed p.321 explicitly allows adult-like wing/tail while underparts remain partly downy. Folded wing, low bilateral tree-fork support and no flight claim are retained.
+- Original and 680×453 derivative opened; no edit required; PASS_WITH_LIMITATIONS. Exact age, movement/flight ability, remex chronology, sexed linear dimensions and cross-subspecies transfer remain unknown. Science false.

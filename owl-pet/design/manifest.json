@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T18:11:00+08:00",
+  "updated": "2026-10-30",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10877,7 +10877,49 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "49-strix-woodfordii-v4",
+      "path": "design/concepts/49-strix-woodfordii-v4.png",
+      "species_id": 49,
+      "scientific_name": "Strix woodfordii",
+      "historical_names": [
+        "Ciccaba woodfordii",
+        "Noctua woodfordii"
+      ],
+      "common_name": "African Wood Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "e5970f5ca53272e4cb12ca6971b5513731fddb350d296f02447a99c12d9b55bf",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: Mikkola printed pp320–321 supports a later age-unknown Tanzanian Strix woodfordii nigricantior juvenile whose folded wing and tail resemble adults while the underparts remain partly downy. V4 keeps this evidence-specific formed-wing exception, low bilateral tree-fork support and no flight claim. Female is only subtly fuller under the reported >50 g average mass direction. Exact age, movement/flight ability, remex chronology, sexed linear dimensions and cross-subspecies transfer remain unknown.",
+      "source_ids": [
+        "AWOO-MIKKOLA-2013-P320-321",
+        "AWOO-SANBI-2018",
+        "AWOO-ITIS-2026",
+        "AWOO-AFRICAN-BIRDLIFE-2016",
+        "AWOO-PEREGRINE-FUND",
+        "AWOO-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-49-strix-woodfordii-v4-photographed-stage-exception",
+      "research_record": "research/species/49-strix-woodfordii-v4.md",
+      "run_record": "owl-pet/production/runs/20261030T183100+0800-cycle-1.md",
+      "reviewed_at": "2026-10-30T18:38:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 636877,
+      "git_blob": "cd11a957cb29c6292cd6ed75de637c773baa644b",
+      "generated_blob": "4490e1e64cb6e6c63df1626cbb00480afae34bcf",
+      "reviewed_blob": "4490e1e64cb6e6c63df1626cbb00480afae34bcf",
+      "generated_sha256": "3c438e0df829b9d4eccd10426c5b3d996bb3866d48e8f0e2a6068c485d2dc389",
+      "reviewed_sha256": "3c438e0df829b9d4eccd10426c5b3d996bb3866d48e8f0e2a6068c485d2dc389",
+      "generated_size_bytes": 3088007,
+      "reviewed_size_bytes": 3088007,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "archive_note": "First render and 680x453 derivative both opened; exact title/count/labels, dark-eyed untufted adults, subtle female fullness, evidence-allowed folded adult-like juvenile wing/tail, partly downy underparts and bilateral tree-fork support passed. No edit required. Photographed-stage exception validated for this plate only; science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T18:11:00+08:00"
+  "updated_at": "2026-10-30T18:40:00+08:00"
 }

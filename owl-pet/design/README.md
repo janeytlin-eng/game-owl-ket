@@ -2472,3 +2472,6 @@ Verification 2026-10-30T20:03:00+08:00: #54 v4 fixed archive `0598a72a5105755f47
 - Concept: `design/concepts/60-ketupa-flavipes-v4.jpg`; full generated/reviewed masters retained under `production/`.
 - Official Taiwan morphology keeps the lower tarsi/toes bare yellow without inventing a precise feathered fraction. The juvenile is an approximately-40-day Wuling nestling, fully supported at the cavity Y-fork.
 - One juvenile-only edit removed adult-like pale covert rows and regular layering; edited original and derivative opened. PASS_WITH_LIMITATIONS; exact plumage chronology and flight threshold remain unknown. Science false.
+
+
+Verification 2026-10-30T21:45:50+08:00: #60 v4 fixed archive `876679a51830eafe12f40420589f2425015e898f` returned exact concept/generated/reviewed assets and manifests; batch 4/6, next 5; science false.

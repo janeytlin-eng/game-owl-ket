@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T21:44:59+08:00",
+  "updated": "2026-10-30T21:45:50+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11642,10 +11642,44 @@
       "reviewed_sha256": "a7adad44965254de866f0425608b10cdc37aef3fd695b1ee4d9790c4abb7ddb3",
       "reviewed_size_bytes": 490827,
       "archive_note": "V1-v3 preserved. Initial and edited 1536x1024 originals plus 680x453 derivative opened. One juvenile-only wing edit removed ordered adult-like pale rows/layering while preserving the age-known developed-but-nest-supported stage and natural support. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "git_blob": "32ae273bc0e5a0ce9a2b85a2d0b6f95e8d707097"
+      "readback_pending": false,
+      "archive_commit": "876679a51830eafe12f40420589f2425015e898f",
+      "git_blob": "32ae273bc0e5a0ce9a2b85a2d0b6f95e8d707097",
+      "fixed_commit": "876679a51830eafe12f40420589f2425015e898f",
+      "verified_at": "2026-10-30T21:45:50+08:00",
+      "verification_result": "fixed archive returned a non-truncated 2,081-entry tree, exact concept/generated/reviewed blob SHAs and sizes, manifest counts 566/565/556, and source/research/run/state markers; batch advanced to 4/6; science false",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "876679a51830eafe12f40420589f2425015e898f",
+        "concept": {
+          "path": "design/concepts/60-ketupa-flavipes-v4.jpg",
+          "blob": "32ae273bc0e5a0ce9a2b85a2d0b6f95e8d707097",
+          "size_bytes": 136861,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/876679a51830eafe12f40420589f2425015e898f/owl-pet/design/concepts/60-ketupa-flavipes-v4.jpg"
+        },
+        "generated": {
+          "path": "production/generated/60-ketupa-flavipes-v4-generated-master.jpg",
+          "blob": "608aae2308cc993eb30c627aac3ece2760840f7f",
+          "size_bytes": 530896,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/876679a51830eafe12f40420589f2425015e898f/owl-pet/production/generated/60-ketupa-flavipes-v4-generated-master.jpg"
+        },
+        "reviewed": {
+          "path": "production/reviewed/60-ketupa-flavipes-v4-reviewed-master.jpg",
+          "blob": "6388dfd886d3511ca1f2caebcda6ed3b61e811bc",
+          "size_bytes": 490827,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/876679a51830eafe12f40420589f2425015e898f/owl-pet/production/reviewed/60-ketupa-flavipes-v4-reviewed-master.jpg"
+        },
+        "manifest_counts": {
+          "design": 566,
+          "legacy": 565,
+          "production": 556
+        },
+        "tree_truncated": false,
+        "tree_entries": 2081,
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-30T21:44:59+08:00"
+  "updated_at": "2026-10-30T21:45:50+08:00"
 }

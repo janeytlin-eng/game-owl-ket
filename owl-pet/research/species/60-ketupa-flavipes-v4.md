@@ -74,3 +74,12 @@ V3 corrected an over-young wing-bud boundary. V4 adds an official Taiwan adult-m
 - IMAGE_GENERATED: 68.0 s. The first 1536×1024 original was opened. Title, count, near-equal adults, stream/cavity setting, bare yellow lower tarsi/toes and two-foot juvenile support passed; the juvenile wing had crisp adult-like pale covert rows and regular layering.
 - REVIEWED: one juvenile-only edit, 69.8 s. The edited 1536×1024 original and 680×453 derivative were opened. Pale rows/regular layering were removed; irregular down-fringed formed feathers and medium tail remained.
 - Result: PASS_WITH_LIMITATIONS; exact same-individual plumage chronology and first-flight threshold remain unknown. Science false.
+
+
+## Iteration rule and verification
+
+- **Problem:** late-nestling generations repeatedly acquire neat pale covert rows and adult-regular wing layering even when the prompt asks for juvenile softness.
+- **Evidence boundary:** the age-known Taiwan source supports developed folded wings/tails but does not document exact covert geometry.
+- **Applied change:** require irregular down-fringed formed feathers and explicitly forbid neat pale rows; edit only the juvenile wing so adult morphology, habitat and support remain stable.
+- **Verified effect:** the edited original and derivative lost the ordered pale rows while keeping a developed folded wing, medium tail and bilateral support. This is a verified production control for this plate, not a claim of exact plumage chronology.
+- **Archive:** fixed commit `876679a51830eafe12f40420589f2425015e898f`; exact image blobs and sizes read back; science remains false.

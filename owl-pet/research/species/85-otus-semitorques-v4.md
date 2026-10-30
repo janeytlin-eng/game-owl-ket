@@ -24,3 +24,8 @@ EDIT ONLY:
 
 DO NOT change any bird or biological detail. Keep adult fiery red-orange irises, greyish-horn bills, long tufts, grey-brown bark pattern, double collar, feathered toes and near-equal skeletal height. Keep the central first-winter bird near adult size with more yellowish-brown iris, fully formed but narrower/paler/pointed retained flight and tail feathers, shorter pale primary coverts, and stable branch grip. Do not make it a downy chick and do not invent a sex-size ratio. Exactly three birds, no extra text or anatomy.
 ```
+
+
+## Actual result
+
+One imagegen text-only revision (39.5s). Full 1536×1024, 520×700 crop and 680×453 derivative opened. Exact 85 title, three labels/birds, adults and first-winter retained-feather geometry/support pass; edit0; PASS_WITH_LIMITATIONS; science false.

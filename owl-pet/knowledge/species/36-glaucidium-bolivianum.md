@@ -52,3 +52,13 @@ The juvenile is an explicitly conservative, age-unspecified concept. No exact da
 - [Generated master](../../production/generated/36-glaucidium-bolivianum-v3-generated-master.jpg), 1536×1024, 915960 bytes, SHA-256 `3b2fe00b9389265d5299af657256394529502a5fb591e479600ba78cf4eb3434`.
 - First render problem: juvenile had adult-like white wing spots and full tail bands. Targeted edit softened/reduced spots and shortened wing/tail; actual recheck passed. Exact age/flight/cavity stage unknown; science false.
 - [Run](../../production/runs/20261028T1745+0800-cycle-4.md)
+
+
+## v4 revision — 2026-10-30
+
+- New primary source `YPOW-KONIG-1991` (printed pp.36–42, Figs 4–5) and new `YPOW-ITIS-2025`; reused `YPOW-PEREGRINE-2026` and `SRC-WEB-036-01`.
+- Primary diagnosis applied: densely pale-spotted adult head/back/wing coverts, very short narrow tail/compact wing, whitish underparts with fine rufous-brown shaft streaks and cross marks, plus documented brown and rufous adult forms in humid Yungas forest near 1500 m.
+- Correction: because institutional breeding evidence leaves nestling duration and flight timing unknown and calls woodpecker-hole use only likely, v4 removes any cavity-stage claim. The juvenile is age unknown and fully supported in a mossy branch fork.
+- Iteration: first render gave the adult male an overlong tail and the juvenile long orderly remiges. One targeted edit shortened the male tail and compacted/softened the juvenile wing while concealing its tail. Full plate and 560×700 crop reopened.
+- Result PASS_WITH_LIMITATIONS; exact juvenile age, iris chronology, nape pattern, feather sequence and flight ability remain unknown; science false.
+- [Original v4 PNG](../../design/concepts/36-glaucidium-bolivianum-v4.png) · [research](../../research/species/36-glaucidium-bolivianum-v4.md) · [run](../../production/runs/20261030T110100+0800-cycle-6.md)

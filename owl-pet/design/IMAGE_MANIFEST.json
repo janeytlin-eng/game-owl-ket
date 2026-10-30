@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T11:00:00+08:00",
+  "updated": "2026-10-30T11:12:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10789,7 +10789,82 @@
         "run_blob_at_archive": "579dda62f21d98b5c4f6370186ea223555cd3372",
         "knowledge_blob": "9f94a27297f7cd9480876df374c0a874caa90b1c"
       }
+    },
+    {
+      "id": "36-glaucidium-bolivianum-v4",
+      "path": "design/concepts/36-glaucidium-bolivianum-v4.png",
+      "species_id": 36,
+      "scientific_name": "Glaucidium bolivianum",
+      "historical_names": [
+        "formerly treated in the Glaucidium jardinii complex (historical placement; not a current synonym claim)"
+      ],
+      "common_name": "Yungas Pygmy Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "b038aad751ce81aee02c93fca26b5224db2752ddfe83eb8987f9b0d433e6a623",
+      "size_bytes": 3074495,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. König 1991 primary diagnosis and figures support dense adult dorsal spotting, very short tail, brown/rufous forms and humid Yungas habitat. One targeted edit shortened the male tail and compacted/softened the juvenile wing. Cavity-stage inference removed. Exact juvenile age, iris chronology, nape pattern, feather sequence and flight ability remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "YPOW-KONIG-1991",
+        "YPOW-ITIS-2025",
+        "YPOW-PEREGRINE-2026",
+        "SRC-WEB-036-01"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#ypow-konig-1991",
+      "research_record": "research/species/36-glaucidium-bolivianum-v4.md",
+      "run_record": "production/runs/20261030T110100+0800-cycle-6.md",
+      "generated_path": "production/generated/36-glaucidium-bolivianum-v4-generated.png",
+      "generated_blob": "870e7bfba9c6a4ba148207100fa9620b8ba6f9fa",
+      "generated_sha256": "d2890d93698f587932d3b4d3e1b4d01aa84a51c2133f09173462259cd02ab855",
+      "generated_size_bytes": 3368813,
+      "reviewed_path": "production/reviewed/36-glaucidium-bolivianum-v4-reviewed.png",
+      "reviewed_blob": "da500ad7f10a926a6e6fa2759b7c6e92a15ad08d",
+      "reviewed_sha256": "b038aad751ce81aee02c93fca26b5224db2752ddfe83eb8987f9b0d433e6a623",
+      "reviewed_size_bytes": 3074495,
+      "review_crop_path": "production/review-crops/36-glaucidium-bolivianum-v4-juvenile.jpg",
+      "review_crop_blob": "5d7bf8143d35133d100cd2b936c94e9d0e786e13",
+      "review_crop_sha256": "14925e027c6b1244ea95f7ac6823d2ea1f1a653e79453d08c834ed7ace1fc97e",
+      "review_crop_size_bytes": 229844,
+      "archive_note": "V1-v3 retained. Full plate and crop reopened. Targeted edit shortened male tail and juvenile wing; exact title/count, adult forms, false eyes, all-foot fork support and habitat remained intact. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verified_at": null,
+      "verification_result": "pending fixed commit-pinned readback",
+      "readback": {
+        "status": "PENDING",
+        "concept": {
+          "path": "design/concepts/36-glaucidium-bolivianum-v4.png",
+          "blob": "da500ad7f10a926a6e6fa2759b7c6e92a15ad08d",
+          "size_bytes": 3074495
+        },
+        "generated": {
+          "path": "production/generated/36-glaucidium-bolivianum-v4-generated.png",
+          "blob": "870e7bfba9c6a4ba148207100fa9620b8ba6f9fa",
+          "size_bytes": 3368813
+        },
+        "reviewed": {
+          "path": "production/reviewed/36-glaucidium-bolivianum-v4-reviewed.png",
+          "blob": "da500ad7f10a926a6e6fa2759b7c6e92a15ad08d",
+          "size_bytes": 3074495
+        },
+        "review_crop": {
+          "path": "production/review-crops/36-glaucidium-bolivianum-v4-juvenile.jpg",
+          "blob": "5d7bf8143d35133d100cd2b936c94e9d0e786e13",
+          "size_bytes": 229844
+        },
+        "source_index_blob": "56273192e2a95d814f26b27b5b8c44e9b3ae9f4e",
+        "research_blob": "3afe1cafe044782a2430eb219d23a7c4bae6a173",
+        "run_blob_at_archive": "2920fb4fb1c75b0aae02e82880da7e15705c8ceb",
+        "knowledge_blob": "e59237c60cf57cf639fef1f4a4aa1fe85270c417"
+      }
     }
   ],
-  "updated_at": "2026-10-30T11:00:00+08:00"
+  "updated_at": "2026-10-30T11:12:00+08:00"
 }

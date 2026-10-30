@@ -2294,3 +2294,16 @@ A heavier sex should not automatically be drawn taller when species-specific lin
 
 
 - 2026-10-30T11:00:00+08:00 — #35 v4 fixed-tree VERIFIED at `aa1663e59491666803285fae77bba6c6ca812a3d`; exact four image tuples and all indexed records matched, including restored 1,101,079-byte source index. Batch 5/6, next cycle6; science false.
+
+
+## 2026-10-30 #36 Yungas Pygmy Owl v4 — original-diagnosis and nest-boundary correction
+
+- Original: [36-glaucidium-bolivianum-v4.png](concepts/36-glaucidium-bolivianum-v4.png)
+- Research: [species record](../research/species/36-glaucidium-bolivianum-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Primary evidence: König 1991 printed pp.36–42 / Figs 4–5, applied to adult spot density, very short tail, adult color forms and Yungas setting.
+- Correction: removed cavity-stage claim because species-specific breeding timing and flight evidence remain unknown; juvenile is fully supported in a mossy fork.
+- Review: one edit shortened adult male tail and juvenile wing; full plate and 560×700 crop reopened. PASS_WITH_LIMITATIONS; science false.
+
+### Incremental rule — adult diagnosis and juvenile inference must remain separate
+
+A primary adult diagnosis can calibrate adult tail/spot pattern but cannot be transferred to juvenile feather order or nest stage. Applied and visually rechecked on #36 v4; broader effectiveness remains unverified.

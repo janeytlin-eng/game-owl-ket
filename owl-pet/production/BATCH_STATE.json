@@ -8191,12 +8191,12 @@
       "next_cycle": 6,
       "last_checkpoint": {
         "cycle": 6,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 4,
         "run_id": "20261030T200400+0800-cycle-6",
-        "at": "2026-10-30T20:34:00+08:00",
+        "at": "2026-10-30T20:40:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T200400+0800-cycle-6.md",
         "evidence": {
           "research_commit": "adaac585ae6602f640920acc435cec1b7e3f58ea",
@@ -8211,13 +8211,21 @@
           "generated_blob": "0c12dd7355938d9aa4c31f53ab62558988900fc9",
           "generation_seconds": 49.6,
           "review_findings": [
-            "juvenile folded wing retains adult-like white shoulder spots and layered remiges",
-            "juvenile upper eyelid too vivid orange"
+            "adult identity, title, exact count, sex direction, nest and support passed",
+            "edited juvenile has compact mesoptile-embedded fine-barred wing without adult shoulder row",
+            "juvenile eyelids paler than adults",
+            "exact individual age, feather chronology and flight threshold unknown"
           ],
-          "edit_required": true
+          "edit_required": true,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 1,
+          "reviewed_local_sha256": "493817d108f19dc951f72e2a8576bd2206f797e8f69ed7f863b43585fe94749e",
+          "concept_local_sha256": "69996d8c405c861d37af22d8a31018397430044d7d86db54c461b9864b934cfa",
+          "edit_seconds": 114.1,
+          "science": false
         }
       },
-      "last_updated_at": "2026-10-30T20:34:00+08:00",
+      "last_updated_at": "2026-10-30T20:40:00+08:00",
       "audit_notes": [
         "2026-10-30T18:31:00+08:00 cycle1 #49 Strix woodfordii v4 SCIENCE_REVISION STARTED; v1–v3 preserved; latest main/manifest/card checked; 15-minute lease acquired; no credit.",
         "2026-10-30T18:35:00+08:00 cycle1 #49 v4 RESEARCH_READY; new2/reused4/corrected1. Mikkola printed pp320–321, SANBI development account and ITIS current/old-name mapping read. V4 selects age-unknown later Tanzanian nigricantior young with adult-like folded wing/tail explicitly allowed by same-population caption, while underparts remain partly downy; full prompt saved; science false; no credit.",
@@ -8249,7 +8257,8 @@
         "2026-10-30T20:03:00+08:00 cycle5 #54 v4 VERIFIED against fixed archive 0598a72a5105755f47dfdb8b993c4cdc589bfb83; exact images/manifest561/source/research/run/knowledge matched; batch5/6 next6; unique175/251; science false; lease released.",
         "2026-10-30T20:04:00+08:00 cycle6 #55 Bubo lacteus v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T20:30:00+08:00 cycle6 #55 v4 RESEARCH_READY recovered after expired STARTED lease; research record adaac585 and source index 13118eb already persisted. New3/reused2/corrected2; full prompt saved; 15-minute lease renewed; no image and no cycle credit.",
-        "2026-10-30T20:34:00+08:00 cycle6 #55 v4 IMAGE_GENERATED in 49.6s; original opened. Title/count/adults/nest/support passed. Juvenile wing retained adult-like white shoulder spots/layered remiges and eyelid was too vivid orange; targeted edit required. Generated master persisted at commit 5305507; no credit."
+        "2026-10-30T20:34:00+08:00 cycle6 #55 v4 IMAGE_GENERATED in 49.6s; original opened. Title/count/adults/nest/support passed. Juvenile wing retained adult-like white shoulder spots/layered remiges and eyelid was too vivid orange; targeted edit required. Generated master persisted at commit 5305507; no credit.",
+        "2026-10-30T20:40:00+08:00 cycle6 #55 v4 REVIEWED after one juvenile-only wing/eyelid edit (114.1s). Edited 1536x1024 original and 680x453 derivative opened. Adult identity/text/sex direction/nest/support passed; juvenile wing compact/soft and eyelids paler. PASS_WITH_LIMITATIONS; exact age/feather chronology/flight threshold unknown; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-automation",
@@ -8259,8 +8268,8 @@
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 4,
-        "heartbeat_at": "2026-10-30T20:34:00+08:00",
-        "expires_at": "2026-10-30T20:49:00+08:00"
+        "heartbeat_at": "2026-10-30T20:40:00+08:00",
+        "expires_at": "2026-10-30T20:55:00+08:00"
       },
       "lease": {
         "owner": "codex-automation",
@@ -8270,8 +8279,8 @@
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 4,
-        "heartbeat_at": "2026-10-30T20:34:00+08:00",
-        "expires_at": "2026-10-30T20:49:00+08:00"
+        "heartbeat_at": "2026-10-30T20:40:00+08:00",
+        "expires_at": "2026-10-30T20:55:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T1831+0800",
@@ -8283,10 +8292,10 @@
         "unique_species_increment": 0,
         "run_id": "20261030T200400+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261030T200400+0800-cycle-6.md",
-        "status": "IMAGE_GENERATED",
-        "stage": "IMAGE_GENERATED",
+        "status": "REVIEWED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T20:04:00+08:00",
-        "last_updated_at": "2026-10-30T20:34:00+08:00",
+        "last_updated_at": "2026-10-30T20:40:00+08:00",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261030T200400+0800-cycle-6",
@@ -8295,8 +8304,8 @@
           "species": "Bubo lacteus",
           "species_id": 55,
           "version": 4,
-          "heartbeat_at": "2026-10-30T20:34:00+08:00",
-          "expires_at": "2026-10-30T20:49:00+08:00"
+          "heartbeat_at": "2026-10-30T20:40:00+08:00",
+          "expires_at": "2026-10-30T20:55:00+08:00"
         },
         "evidence": {
           "research_commit": "adaac585ae6602f640920acc435cec1b7e3f58ea",
@@ -8311,10 +8320,18 @@
           "generated_blob": "0c12dd7355938d9aa4c31f53ab62558988900fc9",
           "generation_seconds": 49.6,
           "review_findings": [
-            "juvenile folded wing retains adult-like white shoulder spots and layered remiges",
-            "juvenile upper eyelid too vivid orange"
+            "adult identity, title, exact count, sex direction, nest and support passed",
+            "edited juvenile has compact mesoptile-embedded fine-barred wing without adult shoulder row",
+            "juvenile eyelids paler than adults",
+            "exact individual age, feather chronology and flight threshold unknown"
           ],
-          "edit_required": true
+          "edit_required": true,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 1,
+          "reviewed_local_sha256": "493817d108f19dc951f72e2a8576bd2206f797e8f69ed7f863b43585fe94749e",
+          "concept_local_sha256": "69996d8c405c861d37af22d8a31018397430044d7d86db54c461b9864b934cfa",
+          "edit_seconds": 114.1,
+          "science": false
         }
       }
     }

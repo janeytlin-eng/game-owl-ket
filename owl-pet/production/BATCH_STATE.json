@@ -8620,23 +8620,23 @@
       "next_cycle": 6,
       "last_checkpoint": {
         "cycle": 6,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "species": "Asio clamator",
         "species_id": 76,
         "version": 4,
         "run_id": "20261031T011343+0800-cycle-6",
-        "at": "2026-10-31T01:17:30+08:00",
+        "at": "2026-10-31T01:20:05+08:00",
         "run_record": "owl-pet/production/runs/20261031T011343+0800-cycle-6.md",
         "evidence": {
-          "research": "owl-pet/research/species/76-asio-clamator-v4.md",
-          "new_sources": 0,
-          "reused_sources": 5,
-          "corrected_boundaries": 1,
-          "active_search_empty": true,
+          "asset": "owl-pet/production/generated/76-asio-clamator-v4-generated-master.jpg",
+          "sha256": "e575e1108e7d71028e02756b03a9cdbce48a60e6397b8acecc3ea606e29fdd5b",
+          "dimensions": "1536x1024",
+          "generation_seconds": 66,
+          "initial_review": "PASS",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T01:17:30+08:00",
+      "last_updated_at": "2026-10-31T01:20:05+08:00",
       "audit_notes": [
         "2026-10-31T00:34:52+08:00 cycle1 #69 Tyto novaehollandiae v4 SCIENCE_REVISION STARTED; latest main/batch/species card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit.",
@@ -8670,27 +8670,28 @@
         "2026-10-31T01:12:06+08:00 #75 v4 archive readback rejected truncated PNG masters (786444/786446B); complete JPEG masters substituted and reopened; truncated paths deleted; reread pending; no credit.",
         "2026-10-31T01:12:54+08:00 cycle5 #75 v4 VERIFIED against repaired fixed archive 5aded700e2aa94237862f86f34073bf226b31ac0; non-truncated 2153-entry tree, exact complete JPEG masters/concept/crop and text records matched; batch 5/6 next_cycle6; science false; lease released.",
         "2026-10-31T01:13:43+08:00 cycle6 #76 Asio clamator v4 SCIENCE_REVISION STARTED; v1-v3 and latest batch checked, v4 absent; 15-minute lease acquired; no credit.",
-        "2026-10-31T01:17:30+08:00 cycle6 #76 v4 RESEARCH_READY; new0/reused5/corrected1; v3 fixed original reopened; search/DOI opens empty and not credited; exact number/central stage/adult support baselines corrected; full prompt saved; science false; no credit."
+        "2026-10-31T01:17:30+08:00 cycle6 #76 v4 RESEARCH_READY; new0/reused5/corrected1; v3 fixed original reopened; search/DOI opens empty and not credited; exact number/central stage/adult support baselines corrected; full prompt saved; science false; no credit.",
+        "2026-10-31T01:20:05+08:00 cycle6 #76 v4 IMAGE_GENERATED in 66.0s; original and complete JPEG opened. Exact text/count, adult identity/near-equal scale, central warm-brown 25–30-day juvenile and bilateral supports pass initial inspection; no edit indicated; science false; no credit."
       ],
       "in_progress": {
         "cycle": 6,
         "species": "Asio clamator",
         "species_id": 76,
         "version": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261031T011343+0800-cycle-6"
       },
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T011343+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T01:17:30+08:00",
-        "expires_at": "2026-10-31T01:32:30+08:00"
+        "heartbeat_at": "2026-10-31T01:20:05+08:00",
+        "expires_at": "2026-10-31T01:35:05+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T011343+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T01:17:30+08:00",
-        "expires_at": "2026-10-31T01:32:30+08:00"
+        "heartbeat_at": "2026-10-31T01:20:05+08:00",
+        "expires_at": "2026-10-31T01:35:05+08:00"
       }
     }
   ],

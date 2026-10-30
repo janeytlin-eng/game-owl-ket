@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T17:55:00+08:00",
+  "updated": "2026-10-30T18:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10742,7 +10742,43 @@
       "readback_pending": false,
       "archive_commit": "3f07adbc3787168e23fbc724e11278a6ae890368",
       "verified_at": "2026-10-30T17:55:00+08:00"
+    },
+    {
+      "id": "47-strix-leptogrammica-v4",
+      "path": "design/concepts/47-strix-leptogrammica-v4.png",
+      "species_id": 47,
+      "scientific_name": "Strix leptogrammica",
+      "common_name": "Brown Wood Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "9a33f9c2f634f59f526f534232a7375e1611f29e394e451a2568247b7a47b9c1",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: one Sri Lankan 34-day cavity chick from the source population labelled S. l. ochrogenys in the 2006 paper, shown upright with two-foot cavity-lip support, pale rufous/ochre mesoptile, folded/hidden short wings and hidden tail. Later Hong Kong ticehursti climbing, balance-flight and adult-type wing/tail are explicitly excluded. Adults are dark-eyed and untufted; female is only moderately fuller because mass direction does not supply a display-height ratio. Exact remige geometry, cross-population timing, flight threshold and modern subspecies synonymy remain unknown.",
+      "source_ids": [
+        "BROW-MIKKOLA-2013-P326-327",
+        "BROW-SAMARAWICKRAMA-2006",
+        "BROW-HKBWS-2024",
+        "BROW-KFBG-2026-CHICKS"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-47-strix-leptogrammica-v4-source-population-gate",
+      "research_record": "research/species/47-strix-leptogrammica-v4.md",
+      "run_record": "owl-pet/production/runs/20261030T175400+0800-cycle-5.md",
+      "reviewed_at": "2026-10-30T17:59:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 678262,
+      "git_blob": "f3a5ff31f3cce7efdc32489e52880123e2a33ca7",
+      "generated_blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+      "reviewed_blob": "7601f4ccbcc9507b97d6c9611ff071a7cb365c5d",
+      "generated_sha256": "7875a1997b12cf4c00181f2e9626e4af87cfa2125b90f7e49ee2f5bc70296574",
+      "reviewed_sha256": "7875a1997b12cf4c00181f2e9626e4af87cfa2125b90f7e49ee2f5bc70296574",
+      "generated_size_bytes": 3103772,
+      "reviewed_size_bytes": 3103772,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "archive_note": "First render and derivative opened. Source-population gate held; no later-stage Hong Kong traits imported. Science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T17:55:00+08:00"
+  "updated_at": "2026-10-30T18:00:00+08:00"
 }

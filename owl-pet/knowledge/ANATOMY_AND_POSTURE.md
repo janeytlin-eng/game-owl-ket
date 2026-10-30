@@ -89,4 +89,4 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 - When two sources describe different subspecies/populations or developmental stages, select one source population for the image and state it in the research record.
 - Do not blend a later fledgling’s adult-type wings or climbing/flight behavior into an earlier cavity chick merely because both are the same species-level taxon.
 - Preserve historical source labels and current repository canonical name separately when subspecies synonymy differs between references.
-- First applied to #47 *Strix leptogrammica* v4; validation requires full original and derivative review.
+- First applied to #47 *Strix leptogrammica* v4; full original and 680×453 derivative review validated the gate for this species instance: the earlier Sri Lankan cavity chick retained folded/hidden wings and did not acquire later Hong Kong climbing/balance-flight or adult-type wing/tail. This is not universal cross-subspecies proof.

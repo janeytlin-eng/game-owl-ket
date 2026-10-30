@@ -2392,3 +2392,9 @@ Fixed archive `a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd` returned exact image bl
 ### #44 v4 VERIFIED — 2026-10-30T16:56:00+08:00
 
 Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, manifests 563/554/552 and indexed evidence. Batch 2/6, next 3; unique 175/251; science false.
+
+## 2026-10-30 — #47 *Strix leptogrammica* v4 archived pending fixed readback
+
+- 680×453 concept plus 1536×1024 generated/reviewed masters prepared; first render passed full and derivative inspection with no edit.
+- Source-population gate applied: Sri Lankan 34-day cavity chick remains distinct from later Hong Kong `ticehursti` climbing/balance-flight and adult-type wing/tail.
+- Unique species remains 175/251; science false; cycle credit waits for fixed-commit readback.

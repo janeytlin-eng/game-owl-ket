@@ -2384,3 +2384,9 @@ If a known-age study shows feathers emerging early and wing/sheath length tracki
 
 
 Verification 2026-10-30T16:56:00+08:00: #44 v4 confirms the wing-growth timing gate on this plate; whole-archive validation remains pending.
+
+### #47 Brown Wood Owl — *Strix leptogrammica* v4 (2026-10-30)
+
+- Concept: `design/concepts/47-strix-leptogrammica-v4.png`; full generated/reviewed masters under `production/`.
+- SCIENCE_REVISION, PASS_WITH_LIMITATIONS; one Sri Lankan 34-day cavity chick, not a cross-subspecies composite. Both juvenile wings remain folded/hidden and both feet grip the cavity lip. First render passed; no edit.
+- V1–v3 remain preserved; exact remige geometry, cross-population timing, flight threshold and display-scale sex ratio remain unknown. Scientific verification: false.

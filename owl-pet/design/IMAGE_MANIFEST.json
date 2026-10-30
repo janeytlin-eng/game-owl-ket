@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:12:00+08:00",
+  "updated": "2026-10-31T06:28:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13798,7 +13798,49 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "89-bubo-bengalensis-v4",
+      "path": "design/concepts/89-bubo-bengalensis-v4.jpg",
+      "species_id": 89,
+      "scientific_name": "Bubo bengalensis",
+      "historical_names": [
+        "Bubo bubo bengalensis"
+      ],
+      "common_name": "Indian Eagle-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "133f146cbae1d881470863cf2ac13c87a9a2f7c1a45823e920a30d0818c91b66",
+      "size_bytes": 179451,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 restores number89 while preserving ~35-day fully juvenile but soft/irregular plumage, short developing folded wing/tail, low crouch and bilateral mineral support. Adults near-equal height; no female-heavier assumption. Exact age, sex, flight, tract, local morph and RSD unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "BEN-RAM2009",
+        "BEN-PANDE-DAHANUKAR2011",
+        "BEN-MIK2013-274",
+        "BEN-PITCHANDIKULAM-2026"
+      ],
+      "research_record": "research/species/89-bubo-bengalensis-v4.md",
+      "run_record": "production/runs/20261031T061500+0800-cycle-6.md",
+      "reviewed_at": "2026-10-31T06:25:00+08:00",
+      "generated_path": "production/generated/89-bubo-bengalensis-v4-generated-master.jpg",
+      "generated_blob": "86ffc9d0b4541da5ef7f06cd36ac6206cf7ec4e6",
+      "generated_sha256": "c2d51213eeca1c642ef1996200497747cb90de080fdecf1c3358eea150b43515",
+      "generated_size_bytes": 710630,
+      "reviewed_path": "production/reviewed/89-bubo-bengalensis-v4-reviewed-master.jpg",
+      "reviewed_blob": "86ffc9d0b4541da5ef7f06cd36ac6206cf7ec4e6",
+      "reviewed_size_bytes": 710630,
+      "review_crop_path": "production/review-crops/89-bubo-bengalensis-v4-juvenile.jpg",
+      "review_crop_blob": "4e5b93c8aa9d3c2041b8e432125bbb390f369b6c",
+      "review_crop_size_bytes": 162606,
+      "readback_pending": true,
+      "git_blob": "11f8d7f5c02fbb146b74d9117e6bff3388d0e354"
     }
   ],
-  "updated_at": "2026-10-31T06:12:00+08:00"
+  "updated_at": "2026-10-31T06:28:00+08:00"
 }

@@ -17,3 +17,7 @@ Precise-object-edit. Change only title “INDIAN EAGLE-OWL” to exactly “89 I
 ## Actual image review
 
 Opened full1536×1024 plate and 520×700 crop. Exact title `89 INDIAN EAGLE-OWL`, scientific/role labels and three-bird count pass. Adult diagnostics/near-equal height and central open-eyed ~35-day soft irregular plumage, short folded wing/tail, low crouch and bilateral mineral support pass. No edit required. PASS_WITH_LIMITATIONS; sciencefalse; exact age/sex/flight/feather tract/RSD unknown.
+
+## Archive checkpoint
+
+Four assets/manifests/support committed 2026-10-31T06:28+08:00; fixed readback pending.

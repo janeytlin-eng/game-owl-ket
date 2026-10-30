@@ -43,3 +43,8 @@ Actualeditviewed: bothadultsupperchest streaks smaller/narrower whileclearlypres
 - **Recheck:** 1536×1024 full plate and 560×650 juvenile crop opened. Exact text/count, adult diagnostic direction and near-equal height, juvenile open eyes/soft juvenile wing/low crouch/two-foot rock support passed.
 - **Remaining unknown:** exact individual age, colour/feather-tract calibration, first-flight ability, local morph and adult sex ratio. Result PASS_WITH_LIMITATIONS; scientific verification false.
 - **Validated process lesson:** for an older juvenile, “fully feathered” and “soft/irregular” must be checked independently; a positive juvenile-wing endpoint worked for this image after a negative-only constraint failed. Do not generalise the exact pattern to other taxa.
+
+
+## 89-bubo-bengalensis-v4
+
+Title-only number89 correction. Full/crop review retained adult diagnostics and ~35-day soft juvenile wing/low bilateral support. BEN-PITCHANDIKULAM-2026 provenance only. Exact age/sex/flight/tract/RSD unknown; sciencefalse.

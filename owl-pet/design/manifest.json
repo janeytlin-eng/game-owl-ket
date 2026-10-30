@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:49:00+08:00",
+  "updated": "2026-10-31T00:53:50+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12353,7 +12353,60 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "71-ninox-connivens-v4",
+      "path": "design/concepts/71-ninox-connivens-v4.png",
+      "species_id": 71,
+      "scientific_name": "Ninox connivens",
+      "historical_names": [],
+      "common_name": "Barking Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "7f6cf7508f4248ab9934bb2098f9acb89d1180d9c52befe399fb7e5cb1716569",
+      "size_bytes": 678737,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 keeps the primary-study mobile recent-fledgling stage with developed folded wings, visible tail and firm grip, while correcting v3's adult-pattern leakage: a plainer juvenile crown, incomplete pale collar, mottled nape, fewer underpart streaks and sparse diffuse wing marks replace dense crisp white crown/wing spots. Adults retain vertical streaks and irregular wing spots; sex direction remains subtle. First render passed without edit. Exact day-specific feather geometry, subspecies transfer, universal sex ratio and first-flight mechanics remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "BARK-BARNES-ROSE-DEBUS-2005",
+        "BARK-VIC-WILDLIFE-2023",
+        "BARK-BULLOCK-2026",
+        "BARK-ABSA-2020",
+        "BARK-AM-2022",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--71-ninox-connivens-v4-juvenile-pattern-boundary",
+      "research_record": "research/species/71-ninox-connivens-v4.md",
+      "run_record": "production/runs/20261031T005104+0800-cycle-3.md",
+      "reviewed_at": "2026-10-31T00:53:16+08:00",
+      "generated_path": "production/generated/71-ninox-connivens-v4-generated-master.png",
+      "generated_blob": "542ee23d17ba516cb1dcda2cc6f323bc11ed97f2",
+      "generated_sha256": "eb855b07ff6f0b6a4e53f036e3bff3c5522d0299c8252ab420839e776f608674",
+      "generated_size_bytes": 3399149,
+      "reviewed_path": "production/reviewed/71-ninox-connivens-v4-reviewed-master.png",
+      "reviewed_blob": "542ee23d17ba516cb1dcda2cc6f323bc11ed97f2",
+      "reviewed_sha256": "eb855b07ff6f0b6a4e53f036e3bff3c5522d0299c8252ab420839e776f608674",
+      "reviewed_size_bytes": 3399149,
+      "review_crop_path": "production/review-crops/71-ninox-connivens-v4-juvenile.png",
+      "review_crop_blob": "3fb75d287f837adf77801d11bf9c78a2df8a7237",
+      "review_crop_size_bytes": 768643,
+      "archive_note": "V1-v3 preserved. V3 reopened; first v4 render, crop and derivative opened; edit count 0. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "git_blob": "4830cefdc8d051d8d6fd703eda05ea6cf4b47f14",
+      "fixed_commit": null,
+      "verification_result": "PENDING fixed-commit readback",
+      "readback": {
+        "status": "PENDING",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T00:49:00+08:00"
+  "updated_at": "2026-10-31T00:53:50+08:00"
 }

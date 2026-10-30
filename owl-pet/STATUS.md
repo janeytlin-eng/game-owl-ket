@@ -2606,3 +2606,10 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 
 - Fixed archive `cd18932e5f0df19e09683e05a7f1feea09fa91b5` returned exact concept/generated/reviewed/crop blobs and sizes in a non-truncated 2,135-entry tree; manifests 576/575/566 and support records matched.
 - Batch `2026-10-31T0034+0800` is 2/6, next cycle 3. Unique remains 175/251; science false.
+
+
+## 2026-10-31T00:53:50+08:00 — #71 *Ninox connivens* v4 archive prepared
+
+- V3 fixed original reopened; juvenile adult-pattern crown/wing spots corrected while preserving the primary-study mobile recent-fledgling stage with developed wing/tail.
+- First render, reviewed master, 520×700 crop and 680×453 derivative passed without edit; PASS_WITH_LIMITATIONS.
+- Manifests 577/576/567; unique 175/251; fixed readback pending; science false.

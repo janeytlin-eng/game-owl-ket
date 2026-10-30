@@ -35,3 +35,10 @@ Recent fledgling: selected day-2/day-3 post-fledging mobility stage from primary
 Constraints: juvenile must not be a miniature adult; adult spots irregular; adult underparts vertical streaks only; exact three birds and specified text only; stable support.
 Avoid: extra birds, prey, eggs, ear tufts, Powerful-Owl chevrons, adult-spotted juvenile crown/wing, exaggerated sex gap, impossible feet, logos, borders, watermark, extra text.
 ```
+
+
+## Review and archive evidence — 2026-10-31T00:53:50+08:00
+
+- Full 1536×1024 master, 520×700 juvenile crop and 680×453 derivative opened. Adult vertical streaks/irregular spots; juvenile plainer crown, incomplete collar/mottled nape, diffuse wing marks, developed wing/tail and support passed first render.
+- Result: PASS_WITH_LIMITATIONS; edit count 0. Exact day-specific feather geometry and subspecies transfer remain unknown. Science false.
+- Archive prepared with concept blob `4830cefdc8d051d8d6fd703eda05ea6cf4b47f14`; fixed readback pending.

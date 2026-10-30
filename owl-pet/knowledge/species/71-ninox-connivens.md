@@ -11,3 +11,11 @@
 - Problem → edit → recheck: v2's short-winged, near-hidden-tail fledgling was replaced by a developed folded wing/tail and firm grip; first v3 render had adult-like repeated wing spots, so one targeted edit softened/reduced marks and clarified the incomplete pale collar/mottled nape. Full image and crop reopened and passed concept review.
 - Unknown: exact day-specific feather geometry, subspecies transfer, universal ratio and first-flight mechanics. `scientifically_verified=false`.
 - Research: [71-ninox-connivens-v3.md](../../research/species/71-ninox-connivens-v3.md) · run: [cycle 6](../../production/runs/20261029T0744+0800-cycle-6.md).
+
+
+## v4 — 2026-10-31T00:53:50+08:00 — juvenile-pattern revision
+
+- Preserved v1-v3; new concept [71-ninox-connivens-v4.png](../../design/concepts/71-ninox-connivens-v4.png).
+- V3 fixed original reopened and showed dense adult-like juvenile crown/wing spots. V4 keeps developed wing/tail and firm grip from the primary day-2/day-3 mobility record, but restores plainer crown, incomplete collar, mottled nape, fewer streaks and sparse diffuse wing marks.
+- First render/full/crop/derivative passed without edit. Exact day-specific feather geometry, subspecies transfer and first-flight mechanics unknown; science false.
+- Research: [v4](../../research/species/71-ninox-connivens-v4.md) · run: [cycle 3](../../production/runs/20261031T005104+0800-cycle-3.md).

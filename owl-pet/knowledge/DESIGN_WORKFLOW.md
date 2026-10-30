@@ -607,3 +607,8 @@ The numbering repair preserved the monitored-nest ~24-day facial disc, substanti
 ### 2026-10-31 #94 title-number correction applied
 
 For fixed biological plates whose only verified defect is a missing inventory number, use a title-only imagegen edit, then reopen both full plate and juvenile crop. Preserve the pre-existing evidence boundary; do not use a typography correction to promote scientific status. Applied and reviewed on #94 v5; validated visually, science remains false.
+
+
+### 2026-10-31 #95 title-number correction validated
+
+Applied the fixed-plate title-only rule to #95 v4. Full plate and juvenile crop were reopened; the recent-fledgling boundary and one-case fork context were preserved without promoting scientific status. Result PASS_WITH_LIMITATIONS; science false.

@@ -18,3 +18,7 @@ Target: ../../design/concepts/95-pulsatrix-melanota-v4.jpg
 - IMAGE_GENERATED 2026-10-31T07:26:00+08:00 after 38.4 s; title-only edit.
 - REVIEWED 2026-10-31T07:27:00+08:00; full 1536×1024 plate and 620×730 juvenile crop opened; edit count 0.
 - PASS_WITH_LIMITATIONS. Recent fledgling retains cinnamon/cream down, dark face and irises, short low-contrast developing wing, concealed tail, two-foot and belly support on the broad fork. Exact age/sex/flight threshold remain unknown; science=false.
+
+## Archived
+
+- 2026-10-31T07:30:00+08:00: concept/generated/reviewed/crop plus manifests legacy597/design596/production587 persisted; fixed-commit readback pending.

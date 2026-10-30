@@ -39,3 +39,8 @@ Primary MEL-RIVAS2022 pp.84–85 and Figures 1–3 were reread and the stages se
 
 ## 2026-10-29 v3 review/archive
 The first render was rejected because the recent fledgling again inherited long layered adult-like remiges and repeated pale spot rows. One juvenile-only edit replaced them with short rounded low-contrast warm-brown developing coverts under cinnamon down; the black facial disc, dark iris, pale bill, cream crown transition, concealed tail, low crouch, belly support and two-foot grip remained. Adults retained near-equal scale and diagnostic white-X face, breast band and reddish-brown belly barring. Edited full plate and 620×700 crop were reopened. Result PASS_WITH_LIMITATIONS; exact age/sex, first-flight threshold, tract sequence, wing/tail dimensions, adult pair ratio and universal nest choice remain unknown; scientifically_verified=false. [v3 original](../../design/concepts/95-pulsatrix-melanota-v3.jpg).
+
+
+## 2026-10-31 v4 research/review/archive
+
+MEL-RIVAS2022 pp.84–88/Figs.1–3 and MEL-ECUADOR-DIET-2022 §2.13/Fig.2 were actively read. V4 restores repository number 95 and preserves V3 biology. Full plate and 620×730 juvenile crop were opened; adult white-X faces/dark irises/belly barring and the age-unknown cinnamon recent fledgling with dark mask, short soft wing, concealed tail and belly/two-foot fork support pass. Exact age/sex/flight threshold, tract sequence, dimensions, adult pair ratio and universal nest choice remain unknown. scientifically_verified=false.

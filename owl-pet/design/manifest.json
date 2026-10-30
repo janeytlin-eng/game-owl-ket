@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T07:22:00+08:00",
+  "updated": "2026-10-31T07:30:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13931,7 +13931,48 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "95-pulsatrix-melanota-v4",
+      "path": "design/concepts/95-pulsatrix-melanota-v4.png",
+      "species_id": 95,
+      "scientific_name": "Pulsatrix melanota",
+      "historical_names": [],
+      "common_name": "Band-bellied Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "9317958a330554462b777f2e901d5c1275fc53d7a6a99e7a8fb90445ae5d02e6",
+      "size_bytes": 2805501,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 restores number95 while preserving the evidence-bounded age-unknown recent fledgling: cinnamon-cream down, dark facial disc and irises, short low-contrast developing wing, concealed tail and belly/two-foot support on a broad documented-type fork. Exact age/sex/flight threshold, tract sequence, dimensions, adult pair ratio and universal nest choice remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "MEL-RIVAS2022",
+        "MEL-ECUADOR-DIET-2022",
+        "MEL-MIK2013-314"
+      ],
+      "research_record": "research/species/95-pulsatrix-melanota-v4.md",
+      "run_record": "production/runs/20261031T072400+0800-cycle-5.md",
+      "reviewed_at": "2026-10-31T07:27:00+08:00",
+      "generated_path": "production/generated/95-pulsatrix-melanota-v4-generated-master.png",
+      "generated_blob": "59dcb92e0a703ca5fd0147a2fc6d000f85d99061",
+      "generated_sha256": "9317958a330554462b777f2e901d5c1275fc53d7a6a99e7a8fb90445ae5d02e6",
+      "generated_size_bytes": 2805501,
+      "reviewed_path": "production/reviewed/95-pulsatrix-melanota-v4-reviewed-master.png",
+      "reviewed_blob": "59dcb92e0a703ca5fd0147a2fc6d000f85d99061",
+      "reviewed_size_bytes": 2805501,
+      "review_crop_path": "production/review-crops/95-pulsatrix-melanota-v4-juvenile.png",
+      "review_crop_blob": "1cbef3b76c19e9f31a7ea8958d6e215c5a583251",
+      "review_crop_size_bytes": 795720,
+      "readback_pending": true,
+      "git_blob": "59dcb92e0a703ca5fd0147a2fc6d000f85d99061",
+      "fixed_archive_commit": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T07:22:00+08:00"
+  "updated_at": "2026-10-31T07:30:00+08:00"
 }

@@ -2628,3 +2628,10 @@ Remote verification 2026-10-31T01:21:30+08:00: #76 v4 fixed archive `75672034f71
 
 
 Remote verification 2026-10-31T01:39:53+08:00: #77 v4 fixed archive `d3c0236ead2d984344b9ec906cf430a47171e649` returned exact assets in a non-truncated 2,165-entry tree; manifests 581/580/571 matched. The poor-remige geometry correction is verified for this instance; science remains false.
+
+
+### 2026-10-31 — population fledging estimate must not become an exact individual label, #83 application
+
+- Discovery: “fledging at about 26 days” in a small population study does not date an individual generated bird from appearance; female-heavier mass also does not provide a visible crown-height ratio.
+- Applied: #83 *Otus brucei* v4 uses RECENT FLEDGLING, a compact soft juvenile wing/short tail, bilateral cavity-lip support and near-equal adult crown height.
+- Verified locally: the first v4 render retained an adult-like repeated pale wing row; one targeted edit removed that leakage. Full master, crop and derivative passed. This validates the prompt/check rule for this instance; science remains false.

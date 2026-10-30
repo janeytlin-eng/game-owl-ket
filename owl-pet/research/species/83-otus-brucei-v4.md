@@ -79,3 +79,12 @@ The result is a scientific-calibration concept, not a claim of subspecies, exact
 - `owl-pet/production/generated/83-otus-brucei-v4-generated-master.jpg`
 - `owl-pet/production/reviewed/83-otus-brucei-v4-reviewed-master.jpg`
 - `owl-pet/production/review-crops/83-otus-brucei-v4-juvenile.jpg`
+
+
+## Actual generation, edit and review
+
+- First v4 imagegen edit: 30.7 s. Full 1536×1024 original opened. Title/name/count, adult identity, date-palm cavity, corrected RECENT FLEDGLING label, adult support and near-equal crown height passed; the juvenile wing remained long with repeated pale rows.
+- Targeted juvenile-wing edit: 52.4 s. Full edited master, 520×700 juvenile crop and 680×453 derivative opened.
+- PASS: exactly three birds and exact labels; adults pale sandy-grey with fine long streaks; center fledgling has deep-yellow iris, pale eyebrow, fine horizontal bars, compact soft folded wing, short hidden tail and bilateral cavity-lip support; no flight pose.
+- Result: PASS_WITH_LIMITATIONS; edit_count 1. Exact individual age, daily tract geometry, first-flight threshold, subspecies and sexed standing-height ratio remain unknown. Science false.
+- Assets: concept SHA-256 `9ad1b557860591d62238ddb128aba6e62a70b0bf410f62051cf182a98c84235e`; generated `53903199acb19656c8a91071bc8df2fcf876c74d1a3da5fee73ae2336be6b52a`; reviewed `afa8a75a6e232ed529cba71be812f8764149a373777ededf01f47371ca95b38b`; crop `5503c744901b78a77e565b61aa67719249a67af202e99de9506aa2ca4ea7701c`.

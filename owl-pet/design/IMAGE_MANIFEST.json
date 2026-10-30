@@ -13440,7 +13440,57 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "83-otus-brucei-v4",
+      "path": "design/concepts/83-otus-brucei-v4.jpg",
+      "species_id": 83,
+      "scientific_name": "Otus brucei",
+      "historical_names": [
+        "Otus brucei obsoletus",
+        "Otus brucei exiguus"
+      ],
+      "common_name": "Pallid Scops Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "9ad1b557860591d62238ddb128aba6e62a70b0bf410f62051cf182a98c84235e",
+      "size_bytes": 152814,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 removes the over-precise individual c.26-day label, uses RECENT FLEDGLING, compacts the juvenile folded wing and short tail, and aligns adults to near-equal visible crown height. Pale sandy-grey identity, fine shaft streaks, weak juvenile transverse bars, deep-yellow juvenile iris, bilateral cavity-lip support and mature date-palm cavity are retained. Exact individual age, daily feather tracts, first-flight threshold, subspecies and sexed standing-height ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "BRU-BENDOV-KIAT2016",
+        "BRU-MIK2013-126",
+        "BRU-CHANDRAN-2016"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--83-otus-brucei-v4-exact-age-wing-and-adult-scale-boundary",
+      "research_record": "research/species/83-otus-brucei-v4.md",
+      "run_record": "production/runs/20261031T043000+0800-cycle-1.md",
+      "reviewed_at": "2026-10-31T04:43:30+08:00",
+      "generated_path": "production/generated/83-otus-brucei-v4-generated-master.jpg",
+      "generated_blob": "60d9140b7ec43b566d6859c2de9eac2946b7dd2a",
+      "generated_sha256": "53903199acb19656c8a91071bc8df2fcf876c74d1a3da5fee73ae2336be6b52a",
+      "generated_size_bytes": 628438,
+      "reviewed_path": "production/reviewed/83-otus-brucei-v4-reviewed-master.jpg",
+      "reviewed_blob": "621e362ae1b4d7642807944169e0a7cc9fed42d3",
+      "reviewed_sha256": "afa8a75a6e232ed529cba71be812f8764149a373777ededf01f47371ca95b38b",
+      "reviewed_size_bytes": 571151,
+      "review_crop_path": "production/review-crops/83-otus-brucei-v4-juvenile.jpg",
+      "review_crop_blob": "69a6cac4dec9554bf01218b4a58b979e2100746b",
+      "review_crop_sha256": "5503c744901b78a77e565b61aa67719249a67af202e99de9506aa2ca4ea7701c",
+      "review_crop_size_bytes": 144428,
+      "archive_note": "V1-v3 preserved. First v4 render inspected, then one targeted juvenile-wing edit; full/crop/680x453 derivative reopened. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "git_blob": "997cbfbc4d0601b4ef7984796ecbdd0047b1235e",
+      "fixed_commit": null,
+      "verification_result": "PENDING fixed-commit readback."
     }
   ],
-  "updated_at": "2026-10-31T01:39:53+08:00"
+  "updated_at": "2026-10-31T04:47:00+08:00"
 }

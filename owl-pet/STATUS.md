@@ -2729,3 +2729,11 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 ### #74 v4 VERIFIED — 2026-10-31T00:59:35+08:00
 
 - Fixed archive `53ef96c031c74e9fa6b921871a7c60eb5a44208d` returned exact assets in a non-truncated 2147-entry tree; manifests 578/577/568 matched. Batch 4/6 next5; science false.
+
+
+## 2026-10-31T04:47:00+08:00 — #83 *Otus brucei* v4 archive prepared
+
+- Mikkola printed pp.126–127/PDF pp.128–129, Ben Dov & Kiat 2016 and Chandran et al. 2016 were actually read; source delta new1/reused2/corrected2.
+- V3 was reopened. V4 removes the exact individual-day label, compacts the juvenile wing and aligns adult support/crown height; one targeted edit was required.
+- Reviewed 1536×1024 master, 520×700 juvenile crop and 680×453 concept were opened; PASS_WITH_LIMITATIONS.
+- Manifests 587/586/577; unique remains 175/251; fixed readback pending; science false.

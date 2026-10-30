@@ -16,3 +16,9 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 
 ## 2026-10-14 #67v3 VERIFIED
 2026-10-14T05:39:44.404Z; [original](../../design/concepts/67-pulsatrix-perspicillata-v3.png); image commit 86c4f3287ce8a622573e7e3dffac9ec626641998. One targeted built-in imagegen edit, actual image reviewed, round pale covert tips replaced by more continuous transverse pale bands; adults, white-bodied juvenile/dark mask, support/text preserved. Full original2523926 bytes; independent local Git blob61f963e9e7025ba9aa6bc43b783c507c10624beb matches remote. Unique species increment0, remains67/251; scientific acceptancefalse. Sources new0/reused2. Complete prompt and evidence owl-pet/production/runs/2026-10-14T1334+0800-cycle-1.md. Exact feather-age/subspecies still unknown; no whole-library rule-validation claim.
+
+## v4 RESEARCH_READY — 2026-10-30T23:46:00+08:00
+
+- New1/reused3/corrected1. Wetmore's Smithsonian museum-series account (printed pp.164–165) states that juvenile wings/tail develop like adult wings/tail while first-stage coverts/back remain buffy white barred brownish gray.
+- This validates v2/v3 and corrects v1's blanket short-white-wing rule. V4 will show a supported brancher with formed brown barred folded wings/tail, white down, dark mask and barred pale coverts/back; no flight claim.
+- Complete prompt/evidence: research/species/67-pulsatrix-perspicillata-v4.md. Exact age/chronology/first-flight threshold/standing-height ratio/subspecies remain unknown; science false.

@@ -516,3 +516,17 @@
 - `SEO-OSTRICH-RSD-2008`: sample-specific female mass/body-length direction; no standing-height ratio.
 - **Correction:** patch-scale nesting evidence does not prove a visible cave-shaped chamber. Dense old wetland vegetation and concealed passage are supported; neat cave mouth is removed.
 - **Source/design delta:** new1 / reused3 / corrected1; science false.
+
+## 2026-10-30 — #67 *Pulsatrix perspicillata* v4 first-stage wing exception
+
+### SPO-WETMORE-1968-P164
+- **Title / author / year:** *The Birds of the Republic of Panama*, part 2 / Alexander Wetmore / 1968 (series repository bundle cataloged from 1965).
+- **Institution / type:** Smithsonian Institution; primary systematic museum-series account.
+- **Original URL / DOI:** https://repository.si.edu/handle/10088/23810 ; https://repository.si.edu/bitstream/handle/10088/23810/1965%20vol%20150%20pt%202.pdf ; https://doi.org/10.5962/bhl.title.69629
+- **Accessed:** 2026-10-30; printed pp.164–165 passage returned and read. Full 32.7 MB PDF direct open exceeded the fetch limit; page-image verification remains a limitation.
+- **Species / stage:** *Pulsatrix perspicillata* juvenile first plumage and adults; Panamanian races discussed.
+- **Facts:** adult sexes alike in plumage; juvenile sooty face/chin and buffy-white body down; wings/tail develop like adults, while first-stage wing coverts/back are buffy white with brownish-gray bars.
+- **Design decision:** retain formed brown barred juvenile remiges/tail and soft transverse barred pale coverts/back; do not apply a blanket short-white-wing rule. Branch posture/no flight claim remains bounded by SPO-PEREGRINE-2026.
+- **Limits/conflicts:** no exact age, flight threshold, full feather chronology or image-specific subspecies. Corrects v1's interpretation, not source text.
+- **Related records:** knowledge/species/67-pulsatrix-perspicillata.md; research/species/67-pulsatrix-perspicillata-v4.md; production/runs/20261030T234400+0800-cycle-5.md; planned image 67-pulsatrix-perspicillata-v4.
+- **Source/design delta:** new1 / reused3 / corrected1; science false.

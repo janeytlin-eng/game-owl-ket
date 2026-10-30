@@ -1,3 +1,11 @@
+## #81 Eurasian Scops Owl — *Otus scops* — v4 science revision
+
+- Concept: [81-otus-scops-v4.jpg](concepts/81-otus-scops-v4.jpg)
+- Research: [81-otus-scops-v4.md](../research/species/81-otus-scops-v4.md)
+- Run: [20261031T033000+0800-cycle-5.md](../production/runs/20261031T033000+0800-cycle-5.md)
+- ARCHIVED; PASS_WITH_LIMITATIONS; fixed readback pending; science false.
+- V4 removes an over-precise individual-age label and corrects the juvenile wing without erasing source-supported formed fresh feathers.
+
 ## #80 Oriental Scops Owl — *Otus sunia* — v4 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/63b708a05554a32343c32828c257388ac8d8b46a/owl-pet/design/concepts/80-otus-sunia-v4.jpg?raw=1)

@@ -13152,7 +13152,46 @@
       "review_crop_blob": "6ad8ef7532935a4660af085d62ff9d6c57080ac2",
       "review_crop_size_bytes": 134048,
       "archive_note": "V1-v3 preserved. One targeted juvenile-wing edit; full/crop/680x453 derivative opened. Science false.",
-      "readback_pending": true
+      "readback_pending": false,
+      "archive_commit": "908b58ab43127a62c31c1ff9b6b93d9a6a3e9441",
+      "verified_at": "2026-10-31T03:48:30+08:00",
+      "git_blob": "fc3144600a5fe0e761cbb41fc499ee643cbee7d7",
+      "fixed_commit": "908b58ab43127a62c31c1ff9b6b93d9a6a3e9441",
+      "verification_result": "VERIFIED: exact complete concept/generated/reviewed/crop payloads, blob IDs, sizes and manifests 585/584/575 matched immutable archive; science false.",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "908b58ab43127a62c31c1ff9b6b93d9a6a3e9441",
+        "method": "immutable fetch_file; normalized base64 exact match",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/81-otus-scops-v4.jpg",
+            "sha": "fc3144600a5fe0e761cbb41fc499ee643cbee7d7",
+            "size": 159938
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/81-otus-scops-v4-generated-master.jpg",
+            "sha": "600aa05d0716113ea23fd830de04aab08cae134f",
+            "size": 579870
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/81-otus-scops-v4-reviewed-master.jpg",
+            "sha": "30550fda089fd0e2f1bdadc24cc01e26be8ef586",
+            "size": 573042
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/81-otus-scops-v4-juvenile.jpg",
+            "sha": "6ad8ef7532935a4660af085d62ff9d6c57080ac2",
+            "size": 134048
+          }
+        },
+        "manifest_counts": {
+          "legacy": 585,
+          "design": 584,
+          "production": 575
+        },
+        "unique_species": "175/251",
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-10-31T01:39:53+08:00"

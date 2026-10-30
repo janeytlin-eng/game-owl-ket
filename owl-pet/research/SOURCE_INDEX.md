@@ -761,3 +761,27 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actually read: abstract and pp.153–154/Fig.1 sequence. Sparse dark-grey natal down; facial disc begins around 10 d; 24-d oldest young resembles adult; fledging 35–37 d; old woodpecker cavity in dead grapia.
 - Limits: one regional nest and asynchronous brood; not a universal tract/proportion or sex-size series.
 - Design link: [#93 v3 research](species/93-aegolius-harrisii-v3.md); supports preserving the v2 ~24-d disc/formed-wing stage while correcting only the title.
+
+
+### KOE-PEREIRA2013
+- Title: *Pulsatrix koeniswaldiana*: ocorrência e nidificação em um reflorestamento misto em Bauru, SP, Brasil
+- Authors: Guilherme F. Pereira; Anderson S. Lucindo
+- Year/pages: 2013; Revista do Instituto Florestal 25(1):123–127
+- URL/DOI: https://rif.emnuvens.com.br/revista/article/download/425/398/397 ; 10.24278/2178-5031.2013251425
+- Accessed: 2026-10-31
+- Type: primary nesting note; full PDF
+- Actually read: pp.124–126 and Fig.2. Natural cavity in *Piptadenia gonoacantha*; young shown inside and perched above nest; parental care nearby.
+- Limits: no exact young age, flight score or continuous feather sequence; context/support only.
+- Design link: [#94 v5 research](species/94-pulsatrix-koeniswaldiana-v5.md).
+
+
+### KOE-BOTTAI2013-Y
+- Title: *Pulsatrix koeniswaldiana* — Tawny-browed Owl (young)
+- Author: Hector Bottai
+- Date/URL: 16 March 2013; https://commons.wikimedia.org/wiki/File:Pulsatrix_koeniswaldiana_-_Tawny-browed_Owl_(young).jpg
+- Accessed: 2026-10-31
+- Type: direct field photograph with location/date metadata; CC BY-SA 3.0
+- Species/stage: young, São Luiz do Paraitinga, São Paulo; exact age/sex unknown
+- Actually read/viewed: metadata and image; residual pale head/collar, dark face/eyes, buff below, brown chest band, developed barred wing/tail and branch grip.
+- Limits: one undated-age image; cannot define flight ability or exact chronology.
+- Design link: #94 history and [v5 research](species/94-pulsatrix-koeniswaldiana-v5.md); shows that older young may legitimately have developed wings.

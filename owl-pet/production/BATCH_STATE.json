@@ -9018,31 +9018,27 @@
       ],
       "next_cycle": 4,
       "last_checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Aegolius harrisii iheringi",
-        "species_id": 93,
-        "version": 3,
-        "run_id": "20261031T070200+0800-cycle-3",
-        "at": "2026-10-31T07:10:00+08:00",
-        "run_record": "owl-pet/production/runs/20261031T070200+0800-cycle-3.md",
+        "cycle": 4,
+        "stage": "RESEARCH_READY",
+        "species": "Pulsatrix koeniswaldiana",
+        "species_id": 94,
+        "version": 5,
+        "run_id": "20261031T071300+0800-cycle-4",
+        "at": "2026-10-31T07:13:00+08:00",
+        "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md",
         "evidence": {
-          "status": "VERIFIED",
-          "fixed_archive_commit": "362281f4d87b5225fefbecfbb149ca9ee940868c",
-          "tree_truncated": false,
-          "tree_entries": 2253,
-          "manifest_counts": {
-            "legacy": 595,
-            "design": 594,
-            "production": 585
-          },
-          "exact_assets": true,
-          "support_records": true,
-          "unique_species": "175/251",
+          "baseline_main": "6d76ad80f6e01daf9a9622b5ea08706d4a30d802",
+          "prior_fixed_version": "v4",
+          "source_index_added": [
+            "KOE-PEREIRA2013",
+            "KOE-BOTTAI2013-Y"
+          ],
+          "research_path": "owl-pet/research/species/94-pulsatrix-koeniswaldiana-v5.md",
+          "full_prompt_saved": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T07:10:00+08:00",
+      "last_updated_at": "2026-10-31T07:13:00+08:00",
       "audit_notes": [
         "2026-10-31T06:36:00+08:00: reconciled expired top-level orphan lease/run 20261031T043000+0800-cycle-1 after confirming batch 2026-10-31T0430+0800 already COMPLETE 6/6 and #83 fixed archive recorded; no duplicate credit.",
         "2026-10-31T06:36:00+08:00: cycle1 #90 Tyto furcata pratincola v5 SCIENCE_REVISION STARTED and RESEARCH_READY; v1-v4 preserved; v4 actual image opened; only missing repository number in title identified; 15-minute lease acquired; sources indexed new2/reused2/corrected1; no cycle credit.",
@@ -9057,14 +9053,39 @@
         "2026-10-31T07:02:00+08:00: cycle3 #93 Aegolius harrisii iheringi v3 STARTED/RESEARCH_READY after #92 skipped because connector did not return viewable 2.5MB PNG; #93 v2 actually opened, number93 absent, biology retained; source new1/reused2/corrected1; lease acquired; no credit.",
         "2026-10-31T07:05:00+08:00: cycle3 #93 v3 IMAGE_GENERATED46.6s and REVIEWED edit0; full plate/crop opened. Number/title/count, adults, ~24d disc/formed folded wing/sparse grey down/two-foot cavity-floor support pass; assets persisted; sciencefalse; no credit.",
         "2026-10-31T07:08:00+08:00: cycle3 #93 v3 ARCHIVED; four assets/manifests595/594/585 and support records prepared; readback pending; unique175/251; sciencefalse.",
-        "2026-10-31T07:10:00+08:00: cycle3 #93 v3 VERIFIED fixed archive 362281f4d87b5225fefbecfbb149ca9ee940868c; exact four assets, non-truncated 2253-entry tree and manifests 595/594/585 matched; batch3/6 next4; lease released."
+        "2026-10-31T07:10:00+08:00: cycle3 #93 v3 VERIFIED fixed archive 362281f4d87b5225fefbecfbb149ca9ee940868c; exact four assets, non-truncated 2253-entry tree and manifests 595/594/585 matched; batch3/6 next4; lease released.",
+        "2026-10-31T07:13:00+08:00: cycle4 #94 Pulsatrix koeniswaldiana v5 STARTED/RESEARCH_READY; v4 actual opened, only number94 absent; adult/age-unknown post-cavity juvenile/support pass; sources index new2/reused3/corrected1; lease acquired; no credit."
       ],
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261031T071300+0800-cycle-4",
+        "heartbeat_at": "2026-10-31T07:13:00+08:00",
+        "expires_at": "2026-10-31T07:28:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "20261031T071300+0800-cycle-4",
+        "heartbeat_at": "2026-10-31T07:13:00+08:00",
+        "expires_at": "2026-10-31T07:28:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 4,
+        "species": "Pulsatrix koeniswaldiana",
+        "species_id": 94,
+        "version": 5,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T071300+0800-cycle-4",
+        "stage": "RESEARCH_READY",
+        "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md"
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-production",
+    "run_id": "20261031T071300+0800-cycle-4",
+    "heartbeat_at": "2026-10-31T07:13:00+08:00",
+    "expires_at": "2026-10-31T07:28:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -9196,7 +9217,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T07:10:00+08:00",
+  "updated_at": "2026-10-31T07:13:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9205,8 +9226,13 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-31T07:10:00+08:00",
+  "active_lease": {
+    "owner": "codex-production",
+    "run_id": "20261031T071300+0800-cycle-4",
+    "heartbeat_at": "2026-10-31T07:13:00+08:00",
+    "expires_at": "2026-10-31T07:28:00+08:00"
+  },
+  "last_updated_at": "2026-10-31T07:13:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9655,29 +9681,34 @@
       "baseline_main": "9fd8b3c7f0070082fcb499ec6a20957d6b4985e0"
     }
   ],
-  "in_progress": null,
+  "in_progress": {
+    "cycle": 4,
+    "species": "Pulsatrix koeniswaldiana",
+    "species_id": 94,
+    "version": 5,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261031T071300+0800-cycle-4",
+    "stage": "RESEARCH_READY",
+    "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md"
+  },
   "last_checkpoint": {
-    "cycle": 3,
-    "stage": "VERIFIED",
-    "species": "Aegolius harrisii iheringi",
-    "species_id": 93,
-    "version": 3,
-    "run_id": "20261031T070200+0800-cycle-3",
-    "at": "2026-10-31T07:10:00+08:00",
-    "run_record": "owl-pet/production/runs/20261031T070200+0800-cycle-3.md",
+    "cycle": 4,
+    "stage": "RESEARCH_READY",
+    "species": "Pulsatrix koeniswaldiana",
+    "species_id": 94,
+    "version": 5,
+    "run_id": "20261031T071300+0800-cycle-4",
+    "at": "2026-10-31T07:13:00+08:00",
+    "run_record": "owl-pet/production/runs/20261031T071300+0800-cycle-4.md",
     "evidence": {
-      "status": "VERIFIED",
-      "fixed_archive_commit": "362281f4d87b5225fefbecfbb149ca9ee940868c",
-      "tree_truncated": false,
-      "tree_entries": 2253,
-      "manifest_counts": {
-        "legacy": 595,
-        "design": 594,
-        "production": 585
-      },
-      "exact_assets": true,
-      "support_records": true,
-      "unique_species": "175/251",
+      "baseline_main": "6d76ad80f6e01daf9a9622b5ea08706d4a30d802",
+      "prior_fixed_version": "v4",
+      "source_index_added": [
+        "KOE-PEREIRA2013",
+        "KOE-BOTTAI2013-Y"
+      ],
+      "research_path": "owl-pet/research/species/94-pulsatrix-koeniswaldiana-v5.md",
+      "full_prompt_saved": true,
       "science": false
     }
   }

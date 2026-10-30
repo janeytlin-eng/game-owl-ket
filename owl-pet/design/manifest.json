@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T10:43:26+08:00",
+  "updated": "2026-10-30T10:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9863,7 +9863,82 @@
         "run_blob_at_archive": "f3918c5e327ce04d12825e6dc96168fa190b8c30",
         "knowledge_blob": "6fe99575a0304f4b3884646190e65f9ff9ef0750"
       }
+    },
+    {
+      "id": "35-glaucidium-jardinii-v4",
+      "path": "design/concepts/35-glaucidium-jardinii-v4.png",
+      "species_id": 35,
+      "scientific_name": "Glaucidium jardinii",
+      "historical_names": [
+        "Phalaenopsis jardinii Bonaparte, 1855 (original combination; invalid current standing)"
+      ],
+      "common_name": "Andean Pygmy Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "fac0ab7a11338985a0d0150aa184eb1c2f6380c9b0f4eaa61b184a2d6457dee2",
+      "size_bytes": 3244892,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. ITIS confirms the current name and old combination. The institutional late-nest juvenile definition and morphology were applied. Adults stay near-equal in standing height despite heavier female weights. One juvenile-only edit removed repeated bright covert spots and a mature long barred tail. Exact age, iris chronology, feather sequence, flight threshold and sexed linear dimensions remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "ANPO-ITIS-2025",
+        "ANPO-BANREP-CERVANTES-2016",
+        "ANPO-PERUAVES-2026",
+        "ANPO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#anpo-itis-2025",
+      "research_record": "research/species/35-glaucidium-jardinii-v4.md",
+      "run_record": "production/runs/20261030T104358+0800-cycle-5.md",
+      "generated_path": "production/generated/35-glaucidium-jardinii-v4-generated.png",
+      "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
+      "generated_sha256": "35164a88af5c2b7eff39023f20b0778c1313a56a3a0a623a58d7f52ef42c6375",
+      "generated_size_bytes": 3493243,
+      "reviewed_path": "production/reviewed/35-glaucidium-jardinii-v4-reviewed.png",
+      "reviewed_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
+      "reviewed_sha256": "fac0ab7a11338985a0d0150aa184eb1c2f6380c9b0f4eaa61b184a2d6457dee2",
+      "reviewed_size_bytes": 3244892,
+      "review_crop_path": "production/review-crops/35-glaucidium-jardinii-v4-juvenile.jpg",
+      "review_crop_blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4",
+      "review_crop_sha256": "0ba94a8f9098f3352a4cf8658ad8097a12ae56fc8c7e496b639968d0321a50d1",
+      "review_crop_size_bytes": 245139,
+      "archive_note": "V1-v3 retained. Full edited plate and juvenile crop reopened. One targeted edit changed only juvenile wing/tail maturity; exact title/count, adult false eyes, near-equal adult height and natural support remained intact. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verified_at": null,
+      "verification_result": "pending fixed commit-pinned readback",
+      "readback": {
+        "status": "PENDING",
+        "concept": {
+          "path": "design/concepts/35-glaucidium-jardinii-v4.png",
+          "blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
+          "size_bytes": 3244892
+        },
+        "generated": {
+          "path": "production/generated/35-glaucidium-jardinii-v4-generated.png",
+          "blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
+          "size_bytes": 3493243
+        },
+        "reviewed": {
+          "path": "production/reviewed/35-glaucidium-jardinii-v4-reviewed.png",
+          "blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
+          "size_bytes": 3244892
+        },
+        "review_crop": {
+          "path": "production/review-crops/35-glaucidium-jardinii-v4-juvenile.jpg",
+          "blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4",
+          "size_bytes": 245139
+        },
+        "source_index_blob": "e0d9a43cf4c2c7cb090cb00ad10271f516c05fb8",
+        "research_blob": "39e5422e1689034841cd0c6ff029fe93fb69666f",
+        "run_blob_at_archive": "579dda62f21d98b5c4f6370186ea223555cd3372",
+        "knowledge_blob": "9f94a27297f7cd9480876df374c0a874caa90b1c"
+      }
     }
   ],
-  "updated_at": "2026-10-30T10:43:26+08:00"
+  "updated_at": "2026-10-30T10:58:00+08:00"
 }

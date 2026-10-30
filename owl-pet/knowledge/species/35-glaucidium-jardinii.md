@@ -42,3 +42,13 @@
 - Concept: [35-glaucidium-jardinii-v3.png](../../design/concepts/35-glaucidium-jardinii-v3.png), 680×453, 675474 bytes, SHA-256 `14a25c152b99ca9586e619f76e660c01fdd79f3329758d47f16c3f4bee086d54`.
 - Master: [35-glaucidium-jardinii-v3-generated-master.jpg](../../production/generated/35-glaucidium-jardinii-v3-generated-master.jpg), 1536×1024, 948906 bytes, SHA-256 `574e8cd127d6ae0ad724f028071d46001e328c63c4831859319a12db2e93a5c5`.
 - [Run record](../../production/runs/20261028T1734+0800-cycle-3-recovery.md)
+
+
+## v4 revision — 2026-10-30
+
+- Taxonomy: new `ANPO-ITIS-2025` confirms current *Glaucidium jardinii* and maps the old combination *Phalaenopsis jardinii*; reused `ANPO-BANREP-CERVANTES-2016`, `ANPO-PERUAVES-2026`, and prior page-verified `ANPO-MIKKOLA-2013`.
+- Correction: female weights are higher in the institutional synthesis, but no sexed linear measurements justify a taller female. Adults remain near-equal crown height; the female is only subtly fuller.
+- Juvenile: age-unknown late-nest/end-of-nest-life bird, plain/extremely finely streaked crown, weak diffuse ventral marks, neutral iris, soft low-contrast wing and concealed/short tail, fully supported at a mossy natural cavity lip.
+- Iteration: first render repeated bright adult-like covert spots and supplied a long mature barred tail. One juvenile-only imagegen edit removed the spot rows and shortened/concealed the tail. Full 1536×1024 plate and 560×700 crop were reopened and passed.
+- Unknown: exact juvenile age, iris chronology, continuous feather sequence, flight threshold and sexed linear dimensions. Result PASS_WITH_LIMITATIONS; science false.
+- [Original v4 PNG](../../design/concepts/35-glaucidium-jardinii-v4.png) · [research](../../research/species/35-glaucidium-jardinii-v4.md) · [run](../../production/runs/20261030T104358+0800-cycle-5.md)

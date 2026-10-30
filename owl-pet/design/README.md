@@ -2277,3 +2277,17 @@ A single sexed specimen at the edge of an overlapping range is not enough to enc
 
 
 - 2026-10-30T10:43:26+08:00 — #34 v4 fixed-tree VERIFIED at `c937b386265f3eb048f3b1f6d90ea0f64d1528b7`; exact four image path/blob/size tuples and indexed records matched. Batch 4/6, next cycle5; science false.
+
+
+## 2026-10-30 #35 Andean Pygmy Owl v4 — late-nest juvenile and sex-scale correction
+
+- Original: [35-glaucidium-jardinii-v4.png](concepts/35-glaucidium-jardinii-v4.png)
+- Research: [species record](../research/species/35-glaucidium-jardinii-v4.md) · [source index](../research/SOURCE_INDEX.md)
+- Review: one juvenile-only edit; full 1536×1024 plate and 560×700 crop reopened.
+- Boundary: institutional synthesis defines juvenile as the end of nest life and reports crown/nape unmarked or very finely streaked; exact age, iris chronology and flight threshold remain unknown.
+- Adult scale: female weights are higher, but no sexed linear dimensions support a taller display; v4 keeps near-equal crown height and subtly fuller female body.
+- Result: PASS_WITH_LIMITATIONS; scientific status false; v1–v3 retained.
+
+### Incremental rule — mass direction is not height direction
+
+A heavier sex should not automatically be drawn taller when species-specific linear dimensions are absent. Apply mass evidence as subtle body fullness only, and keep standing crown height near equal. Applied and visually rechecked on #35 v4; broader effectiveness remains unverified.

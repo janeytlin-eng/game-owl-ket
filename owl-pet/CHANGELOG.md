@@ -1322,3 +1322,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T10:43:26+08:00: verified #34 v4 fixed archive `c937b386265f3eb048f3b1f6d90ea0f64d1528b7`; exact four assets and all indexed records matched. Batch 4/6, next cycle5; unique +0; science false.
+
+
+- 2026-10-30T10:58:00+08:00: archived #35 *Glaucidium jardinii* v4 science revision. Added ITIS current/old-name mapping; reused institutional adult/juvenile evidence; restored the complete source index; one juvenile wing/tail edit; full plate and crop reopened. Manifest design554 / production545 / legacy543; fixed readback pending; science false.

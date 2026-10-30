@@ -3,7 +3,7 @@
 - SCIENCE_REVISION; one support edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
 - Concept: [design/concepts/75-ninox-scutulata-v4.png](design/concepts/75-ninox-scutulata-v4.png)
 - Research: new0/reused5/corrected1; active Singapore branch-dependent juvenile retained, Japanese split-population transfer excluded; exact age/tract chronology unknown.
-- Four image assets and manifests 579/578/569 prepared; fixed readback pending.
+- First readback detected truncated PNG masters; complete JPEG masters were reopened and substituted before credit. Four valid image assets and manifests 579/578/569 now await repaired fixed readback.
 
 ## 2026-10-31 #69 *Tyto novaehollandiae* v4 VERIFIED
 

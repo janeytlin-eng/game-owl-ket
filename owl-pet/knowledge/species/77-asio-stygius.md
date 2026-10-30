@@ -6,3 +6,8 @@ STY-SPIZAETUS-2018 Vanegas/Rodriguez-Villamil/Chaparro-Herrera NotesStygianOwlbr
 
 2026-10-14T13:45:06.917Z Asio stygius 77-asio-stygius-v1.png ARCHIVED: Edited image actually viewed: female larger direction restored; juvenile raised wings shortened and down-covered with developing dark tips. Ground support, black mask, yellow eyes and pale horn bill retained. Exact age/subspecies unresolved, concept only scientific false. Full PNG 2804966 bytes, independently local/upload Git b09e87369bac2f1d9d7d46a7981483629d473df1, SHA256 d5a57c8d1a845dcbbeee31196ff1e99822a963b0b42a9a4917c694048d9d1b34. [Image](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/77-asio-stygius-v1.png). Uploadstart 2026-10-14T13:44:43.201Z end 2026-10-14T13:45:05.683Z. Exact stage/ratios remain pending scientific calibration.
 [Full prompts/review/run](../../production/runs/2026-10-14T2128+0800-cycle-2.md)
+
+
+## v4 evidence update — 2026-10-31
+
+Reused STY-LOPES-ETAL-2004, STY-CADENA-2018, STY-SPIZAETUS-2018, STY-OWLPAGES-2020 and WHSO-MIKKOLA-2013; new0/reused5/corrected1. V3 reopened: adult identity, setting and support passed, but the dated 26–27-day juvenile showed a long layered dark wing panel despite the primary paper's poorly developed remiges/rectrices and flight impossibility. V4 restores number 77 and keeps the same dated stage while making the wing down-dominated with only short emerging remige tips and an extremely short tail. Exact feather geometry and population transfer remain unknown; science false. [Research](../../research/species/77-asio-stygius-v4.md) · [Run](../../production/runs/20261031T013432+0800-cycle-1.md)

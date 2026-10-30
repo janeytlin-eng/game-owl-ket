@@ -77,3 +77,13 @@ Create a warm painterly semi-realistic natural-history concept board in the esta
 
 
 - 2026-10-28T22:49:00+08:00 — v3 independently verified at archive `fe5f4c2c85ad2d1539b0170aafc3ea57d78a75cf`; concept/generated/reviewed blobs and required text records matched at the immutable commit. Batch 1/6, next cycle 2; science false.
+
+
+## v4 research-ready（2026-10-30）
+
+- Mikkola printed pp.322–323 / PDF pp.324–325 directly read: adult sex-size difference unknown; whitish natal down; white/dark-brown barred mesoptile; fledgling face and primaries beginning to resemble adult while back remains distinctive.
+- Reused the dated Pasir Ris 2–4-day post-fledging brancher and selected supported balance-walking rather than repeating v3’s head-rest pose.
+- New `SOWL-OOI-MBR-2025-P39-40` is limited to age-unknown branch support/vulnerability; no age or feather-stage extrapolation.
+- Correction: “adult-like primaries” means short formed direction, not mature length/layering or crisp spot rows.
+- Full prompt and evidence: [run](../../production/runs/20261030T173300+0800-cycle-3.md) · [research record](../../research/species/45-strix-seloputo-v4.md).
+- Science remains false.

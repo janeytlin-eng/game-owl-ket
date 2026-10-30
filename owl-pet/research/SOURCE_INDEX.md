@@ -697,3 +697,29 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actually read: page lists Ramanujam & Murugavel 2009 young-development paper and Ramanujam 2015 adult/young behaviour work, and states long-term local Indian Eagle-Owl research. It adds no new plumage measurements.
 - Limitation/confidence: discovery/provenance context only; not used for morphology or exact age. Primary JoTT papers remain controlling evidence.
 - Design link: #89 v4 title-only revision.
+
+
+### ABO-WAGNER2022-P20
+- Title: Development of the horizontal optocollic reflex in juvenile barn owls (*Tyto furcata pratincola*)
+- Authors: Hermann Wagner, Ina Pappe, Sandra Brill, Hans-Ortwin Nalbach
+- Year: 2022
+- URL/DOI: https://pmc.ncbi.nlm.nih.gov/articles/PMC9250920/ ; https://doi.org/10.1007/s00359-022-01555-0
+- Accessed: 2026-10-31
+- Type: primary developmental/behavioral study; open full text
+- Species/stage: *T. f. pratincola*, hand-raised P9–P65; Fig. 1 developmental sequence
+- Actually read: abstract/introduction, Fig. 1 caption and Materials/Methods. Eyes open P10–12; head holding about P14; standing/walking around P20; flight about P60. The study used six tame hand-raised birds and posture-support apparatus.
+- Limit/confidence: high for the reported hand-raised chronology and broad motor milestones; not a wild-nest tract-by-tract plumage series. It does not fix an individual image to an exact day or justify a sex ratio.
+- Design link: [#90 v5 research](species/90-tyto-furcata-v5.md); supports retaining a supported P20 stance, not adult flight feathers.
+
+
+### FUR-CORNELL-CAM2010
+- Title: Bird Cams FAQ: Barn Owl Nest
+- Author/Institution: Cornell Lab of Ornithology
+- Year: first published 2010; page updated through later seasons
+- URL: https://www.allaboutbirds.org/news/bird-cams-faq-barn-owl-nest/
+- Accessed: 2026-10-31
+- Type: research-institution species/camera FAQ
+- Species/stage: American Barn Owl, Texas nest; adults and chicks
+- Actually read: sex-identification and chick-development sections. Females are generally larger, darker/buffer and more spotted while males are often paler, with overlap; chicks usually fledge 50–55 days; flight feathers develop broadly about 35–65 days.
+- Limit/confidence: reliable institutional synthesis but not a primary continuous molt series; sex cues overlap and cannot define a fixed standing-height ratio.
+- Design link: [#90 v5 research](species/90-tyto-furcata-v5.md); supports retaining qualitative adult contrast and prevents treating P20 as flight-ready.

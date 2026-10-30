@@ -53,3 +53,12 @@ Scientific-educational owl electronic-pet concept sheet in the established warm 
 - Concept: `design/concepts/43-athene-blewitti-v3.png`; SHA-256 `107f434ab8f45df6b5d2527a094b677c7615034b3c80a6fe45805a86af302d75`; Git blob `43d3d2d67e79cae7bdab06088c79cdaabf9de468`.
 - Reviewed master: `production/reviewed/43-athene-blewitti-v3-reviewed-master.jpg`; SHA-256 `53d9fc030ca72dc11ceea92b8afa5931f3a3b8b5b758bfd09cea2ef9595c48dc`; Git blob `fc85ee69eb4d33898b626fd5ce4d8218a840d795`.
 - Scientific status remains false; exact feather chronology, population variation and universal sexual dimorphism remain unknown.
+
+
+## v4 correction — 2026-10-30
+
+- New primary source `FOW-MEHTA-RSD-2021` measured 27 females and 19 males; none of ten body measures differed significantly at p<.05. The larger sample corrects the v3 allowance for a visibly larger or more heavily barred female.
+- v4 adult rule: equal apparent male/female scale and shared plumage; pose only. Do not exaggerate the non-significant female-talon trend (p=.071).
+- The evidence-supported 28–30 d recently emerged juvenile stage remains: weak/reluctant flight, short incomplete primaries/secondaries, stumpy tail and natural cavity-adjacent support.
+- Science remains false: exact individual age, iris chronology, sex-specific juvenile development and diagnostic adult plumage differences remain unknown.
+- Linked research: `owl-pet/research/species/43-athene-blewitti-v4.md`.

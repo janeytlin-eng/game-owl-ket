@@ -1,3 +1,26 @@
+# 2026-10-30 — #43 *Athene blewitti* v4 — adult sex-size correction
+
+## FOW-MEHTA-RSD-2021
+
+- **Stable ID:** FOW-MEHTA-RSD-2021
+- **Title:** Investigating reversed sexual size dimorphism in the Endangered Forest Owlet *Athene (Heteroglaux) blewitti*
+- **Authors:** Mehta, Anand, Sailas & Kulkarni
+- **Year / publication:** 2021, *Journal of Asian Ornithology* 37:60–65
+- **Original URL:** https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/67e409f5d4c187798c86e533/1742998006713/e-JAO-37-Forest-Owlet.pdf
+- **Accessed:** 2026-10-30
+- **Type:** primary live-bird morphometric study; open PDF actually read
+- **Species / stages:** *Athene blewitti* adults; 27 females and 19 males measured in 2013–2019 at two central-India sites
+- **Pages / tables / figures read:** pp.60–65; especially p.63 Table 1 and PCA discussion; conclusion p.64
+- **Source facts:** none of ten body measurements differed significantly by sex at p<0.05. Mean male/female mass 160.24/161.89 g (p=.679), wing chord 15.02/14.74 cm (p=.347), head-to-tail 19.36/18.88 cm (p=.074), tail 7.48/7.27 cm (p=.244), and talon 1.65/1.84 cm (p=.071). PCA showed considerable overlap. Authors found no evidence of reversed sexual size dimorphism in wing or body; the 11.4% longer mean female talon was not statistically significant and requires further study.
+- **Evidence limits / conflicts:** central-India sample only; p=.071 talon trend is not a validated visible sex marker. This larger sample supersedes the v3 design inference that the female may be shown slightly larger or more heavily barred.
+- **Design / review decision:** adult male and female must be equal in apparent scale and plumage; pose only distinguishes them. Do not exaggerate talons. Science remains false because exact individual juvenile age, iris chronology and sex-specific plumage remain incompletely documented.
+- **Linked records:** `owl-pet/research/species/43-athene-blewitti-v4.md`; `owl-pet/knowledge/species/43-athene-blewitti.md`; `owl-pet/production/runs/20261030T163400+0800-cycle-1.md`
+- **Status:** verified primary source
+
+## Reused evidence for #43 v4
+
+Reused `FOW-JATHAR-2004` (BNHS primary breeding chronology, pp.53–55), `FOW-ISHTIAQ-2005` (DOI 10.1111/j.1474-919x.2004.00389.x, pp.197–205), `FOW-MIKKOLA-2013` (repository-recorded printed pp.421–423; uploaded guide unavailable this run), `FOW-KOPARDE-2018`, and `FOW-KHAN-2023-HABITAT` (DOI 10.5751/JFO-00244-940201). New1/reused5/corrected1; `scientifically_verified=false`.
+
 # 2026-10-30 — #12 *Aegolius acadicus* v5 — juvenal plumage and supported newly fledged stage
 
 ## NSWO-PROJECTOWLNET-HY-2026

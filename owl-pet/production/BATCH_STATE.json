@@ -8008,17 +8008,20 @@
       "completed_cycles": [],
       "next_cycle": 1,
       "last_checkpoint": {
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "at": "2026-10-30T16:34:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
         "evidence": {
-          "main_head_before_start": "2612c2acbc8e5e9ccc2f39787dfaad70cc9debd3",
-          "existing_versions": [
-            "v1",
-            "v2",
-            "v3"
-          ],
-          "unique_species": "175/251",
+          "source_id": "FOW-MEHTA-RSD-2021",
+          "source_counts": {
+            "new": 1,
+            "reused": 5,
+            "corrected": 1
+          },
+          "source_facts": "46 live adults; all 10 measures nonsignificant; do not visualize female-size rule",
+          "research_path": "owl-pet/research/species/43-athene-blewitti-v4.md",
+          "knowledge_path": "owl-pet/knowledge/species/43-athene-blewitti.md",
+          "full_prompt_persisted": true,
           "science": false
         }
       },
@@ -8046,8 +8049,9 @@
         "version": "v4",
         "action": "SCIENCE_REVISION",
         "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
-        "stage": "STARTED",
-        "started_at": "2026-10-30T16:34:00+08:00"
+        "stage": "RESEARCH_READY",
+        "started_at": "2026-10-30T16:34:00+08:00",
+        "research_ready_at": "2026-10-30T16:34:00+08:00"
       }
     }
   ],
@@ -8177,7 +8181,8 @@
     "2026-10-30T14:47:00+08:00: cycle5 #41 v4 VERIFIED at fixed archive 92120b38343df5572a3af1632ab95040b98397ca; exact image hashes, manifests560/551/549 and source/research/run/knowledge/state matched; batch5/6 next6; unique175/251; science false; lease released.",
     "2026-10-30T14:49:00+08:00: batch cycle6 #42 Athene brama v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 retained; no credit.",
     "2026-10-30T14:54:00+08:00: cycle6 #42 v4 RESEARCH_READY; new1/reused3/corrected1; complete Ali 2015 chronology rejects v3 ~4-week undeveloped wing and selects 16-20d supported cavity stage; full prompt persisted; no credit.",
-    "2026-10-30T16:34:00+08:00: new batch cycle1 #43 Athene blewitti v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 and user records retained; no credit."
+    "2026-10-30T16:34:00+08:00: new batch cycle1 #43 Athene blewitti v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 and user records retained; no credit.",
+    "2026-10-30T16:34:00+08:00: cycle1 #43 v4 RESEARCH_READY; new1/reused5/corrected1; Mehta et al. 2021 live-bird sample rejects visible adult size dimorphism; full prompt persisted; no credit."
   ],
   "updated_at": "2026-10-30T16:34:00+08:00",
   "recovery_notes": [
@@ -8410,7 +8415,8 @@
     "2026-10-30T15:30:00+08:00: expired cycle6 #42 v4 lease recovered after confirming main 7734707e18efa0d7e88eda2dd6868246cc65f862 unchanged; REVIEWED evidence reused, top-level stale #41 lease reconciled to #42; no credit.",
     "2026-10-30T15:33:00+08:00: cycle6 #42 v4 ARCHIVED; concept/generated/reviewed/crop and manifests design561/production552/legacy550 persisted; fixed readback pending; no credit; unique175/251; science false.",
     "2026-10-30T15:36:00+08:00: cycle6 #42 v4 VERIFIED at fixed archive db6268ba091584c3e3b735240f13deaa81dc815b; exact image/text/source/state tuples matched; batch6/6 COMPLETE; unique175/251; science false; lease released.",
-    "2026-10-30T16:34:00+08:00: no active lease or incomplete batch at main 2612c2acbc8e5e9ccc2f39787dfaad70cc9debd3; created 2026-10-30T1634+0800, selected existing science-false #43 v3 for evidence-led revision; no image or cycle credit."
+    "2026-10-30T16:34:00+08:00: no active lease or incomplete batch at main 2612c2acbc8e5e9ccc2f39787dfaad70cc9debd3; created 2026-10-30T1634+0800, selected existing science-false #43 v3 for evidence-led revision; no image or cycle credit.",
+    "2026-10-30T16:34:00+08:00: cycle1 #43 v4 RESEARCH_READY; new1/reused5/corrected1; Mehta et al. 2021 live-bird sample rejects visible adult size dimorphism; full prompt persisted; no credit."
   ],
   "audit_trail": [
     {
@@ -8564,7 +8570,8 @@
     "2026-10-30T15:30:00+08:00: expired cycle6 #42 v4 lease recovered after confirming main 7734707e18efa0d7e88eda2dd6868246cc65f862 unchanged; REVIEWED evidence reused, top-level stale #41 lease reconciled to #42; no credit.",
     "2026-10-30T15:33:00+08:00: cycle6 #42 v4 ARCHIVED; concept/generated/reviewed/crop and manifests design561/production552/legacy550 persisted; fixed readback pending; no credit; unique175/251; science false.",
     "2026-10-30T15:36:00+08:00: cycle6 #42 v4 VERIFIED at fixed archive db6268ba091584c3e3b735240f13deaa81dc815b; exact image/text/source/state tuples matched; batch6/6 COMPLETE; unique175/251; science false; lease released.",
-    "2026-10-30T16:34:00+08:00: batch cycle1 #43 Athene blewitti v4 STARTED; 15-minute lease acquired; no credit."
+    "2026-10-30T16:34:00+08:00: batch cycle1 #43 Athene blewitti v4 STARTED; 15-minute lease acquired; no credit.",
+    "2026-10-30T16:34:00+08:00: cycle1 #43 v4 RESEARCH_READY; new1/reused5/corrected1; Mehta et al. 2021 live-bird sample rejects visible adult size dimorphism; full prompt persisted; no credit."
   ],
   "in_progress": {
     "cycle": 1,
@@ -8573,8 +8580,9 @@
     "version": "v4",
     "action": "SCIENCE_REVISION",
     "run_record": "owl-pet/production/runs/20261030T163400+0800-cycle-1.md",
-    "stage": "STARTED",
-    "started_at": "2026-10-30T16:34:00+08:00"
+    "stage": "RESEARCH_READY",
+    "started_at": "2026-10-30T16:34:00+08:00",
+    "research_ready_at": "2026-10-30T16:34:00+08:00"
   },
   "last_checkpoint": {
     "stage": "VERIFIED",

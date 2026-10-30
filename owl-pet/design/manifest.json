@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T20:45:00+08:00",
+  "updated": "2026-10-30T20:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11325,6 +11325,42 @@
       "readback_pending": false,
       "archive_commit": "cdaa43094b9567f5c92edabdeeefddc9bad1e81d",
       "verified_at": "2026-10-30T20:46:00+08:00"
+    },
+    {
+      "id": "58-ketupa-coromanda-v4",
+      "path": "design/concepts/58-ketupa-coromanda-v4.png",
+      "species_id": 58,
+      "scientific_name": "Ketupa coromanda",
+      "legacy_names": [
+        "Bubo coromandus",
+        "Strix coromanda"
+      ],
+      "common_name": "Dusky Eagle-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "sha256": "a6c5787a65001e8a30054673ef8a23710ed720903e14739d073995ab1084c037",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: one age-unknown Upper Assam fledgling on a tall Bombax branch beside an old stick platform near water. Ranade et al. 2020 supplies repeated nest/site and fledgling records but not age or plumage chronology. Two juvenile-only edits were required: the second removed residual adult white covert rows while retaining subdued formed flight feathers and a medium developing tail. Adults are yellow-eyed, upright-tufted, narrow-streaked and near-equal. Exact age, feather chronology, first-flight threshold, sexed display ratio and regional transfer remain unknown.",
+      "source_ids": [
+        "DEO-RANADE-GHOSH-PRAKASH-2020-P93",
+        "DEO-REDDY-RAMACHANDRAN-2023",
+        "DEO-MACAULAY-FLEDGLING-2011",
+        "DEO-ITIS-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30-58-ketupa-coromanda-v4-upper-assam-nest-site-boundary",
+      "research_record": "research/species/58-ketupa-coromanda-v4.md",
+      "run_record": "production/runs/20261030T204800+0800-cycle-2.md",
+      "reviewed_at": "2026-10-30T20:53:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 685358,
+      "git_blob": "c3a740aa1eba5409e11ae6d7996e38ed7e7c7d4f",
+      "generated_blob": "82afd7129f2d49c9a9e3e2872347b6793de14b21",
+      "reviewed_blob": "5c1f67de4a81770cd9454098ffbaa97e6ac28865",
+      "generated_path": "production/generated/58-ketupa-coromanda-v4-generated-master.png",
+      "reviewed_path": "production/reviewed/58-ketupa-coromanda-v4-reviewed-master.png",
+      "archive_note": "Initial juvenile wing was adult-regular. First edit softened but left bright ordered spots; second edit removed adult covert rows while preserving a developed fledgling wing/tail. Edited original and derivative opened. PASS_WITH_LIMITATIONS; science false.",
+      "readback_pending": true,
+      "archive_commit": null
     }
   ],
   "updated_at": "2026-10-30T20:47:00+08:00"

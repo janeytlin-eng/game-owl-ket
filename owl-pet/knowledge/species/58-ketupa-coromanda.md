@@ -70,3 +70,11 @@ Avoid extra birds, prey, eggs, watermark, exaggerated female size, orange eyes, 
 - Scientific status pending: first-flight competence, exact feather progression and regional juvenile variation unknown.
 
 - v3 immutable verification: archive `2752d7ffbff572999ca9823301862733b6d83b53`; exact concept/generated/reviewed blobs and all metadata markers passed. Scientific status remains pending.
+
+## v4 science revision — 2026-10-30
+
+- New primary source: Ranade, Ghosh & Prakash 2020 pp.93–94/Table 1, eight Upper Assam tall-tree platform nests near water and repeated fledgling records.
+- Boundary: age-unknown well-grown fledgling on a supported *Bombax* branch beside an old stick platform; no exact age or flight claim.
+- Review: two juvenile-wing edits; the second removed residual adult white covert rows while retaining formed flight feathers and medium tail. Original and derivative opened; PASS_WITH_LIMITATIONS.
+- Current *Ketupa coromanda* maps to legacy *Bubo coromandus* and *Strix coromanda*.
+- Asset: [v4 concept](../../design/concepts/58-ketupa-coromanda-v4.png). Science remains pending.

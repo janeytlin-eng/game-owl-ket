@@ -2552,3 +2552,10 @@ Verification 2026-10-31T00:59:35+08:00: #74 v4 fixed archive `53ef96c031c74e9fa6
 
 
 Remote verification 2026-10-31T01:21:30+08:00: #76 v4 fixed archive `75672034f71146d4201c91e41ad710c1c987ed14` returned exact assets in a non-truncated 2,159-entry tree; manifests 580/579/570 matched. The layout procedure is verified for this instance; science remains false.
+
+
+### 2026-10-31 — dated flight incapacity must control wing geometry, #77 application
+
+- Discovery: when a primary nest study states that poorly developed remiges and rectrices prevented flight at a dated stage, a compact body alone must not be paired with a long layered wing panel.
+- Applied: #77 *Asio stygius* v4 retained the large 26–27-day torso but reduced both wings to down-dominated stubs with only short dark tips and an extremely short tail.
+- Verified locally: one targeted edit passed full master, crop and derivative review with bilateral ground support. This is validated for the dated Brazilian nest stage, not transferred automatically to later branch-capable juveniles.

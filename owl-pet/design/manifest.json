@@ -12730,7 +12730,59 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "77-asio-stygius-v4",
+      "path": "design/concepts/77-asio-stygius-v4.jpg",
+      "species_id": 77,
+      "scientific_name": "Asio stygius",
+      "historical_names": [],
+      "common_name": "Stygian Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "2229e08f0e47d50e9e31c5f07ab17ff0314bf529a40846e96eec27cd3b2a69cc",
+      "size_bytes": 142169,
+      "dimensions": "680x453",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 restores number 77 and corrects v3's long layered juvenile wing panel to the primary paper's dated 26–27-day poor-remige boundary. The central ground nestling retains a large fluffy grey-buff torso, developing black mask, very short down-dominated wings with only small dark tips, an extremely short tail and bilateral ground support. Adults remain near-equal, female only subtly fuller. One targeted edit passed full/crop/derivative review. Exact feather geometry, sex, iris/bill chronology and population transfer remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "STY-LOPES-ETAL-2004",
+        "STY-CADENA-2018",
+        "STY-SPIZAETUS-2018",
+        "STY-OWLPAGES-2020",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--77-asio-stygius-v4-dated-poor-remige-boundary",
+      "research_record": "research/species/77-asio-stygius-v4.md",
+      "run_record": "production/runs/20261031T013432+0800-cycle-1.md",
+      "reviewed_at": "2026-10-31T01:38:24+08:00",
+      "generated_path": "production/generated/77-asio-stygius-v4-generated-master.jpg",
+      "generated_blob": "c0e9619fb352ff0b7b0ecc449d5dc1ac943fc183",
+      "generated_sha256": "892507bf55ac4c98c43518658918e89fef76966998c3a30c8d0ad952b7fac75f",
+      "generated_size_bytes": 442589,
+      "reviewed_path": "production/reviewed/77-asio-stygius-v4-reviewed-master.jpg",
+      "reviewed_blob": "dcc6eacdb94c606184265d595a2df96e6e304741",
+      "reviewed_sha256": "7f6f114ec557330f7fe21e3721fc21b9424537d1b7092ef09199e7edfaf452f2",
+      "reviewed_size_bytes": 434264,
+      "review_crop_path": "production/review-crops/77-asio-stygius-v4-juvenile.jpg",
+      "review_crop_blob": "cb1e665926e5410ad7fe6742604f885db0b4997c",
+      "review_crop_size_bytes": 144472,
+      "archive_note": "V1-v3 preserved. Initial v4 and one targeted juvenile-wing edit opened; full reviewed master, crop and derivative rechecked. Science false.",
+      "readback_pending": true,
+      "archive_commit": "PENDING_FIXED_COMMIT",
+      "verified_at": null,
+      "git_blob": "fb72c447ce9fcf9148b4ba03bfb90b662cbc95ef",
+      "fixed_commit": null,
+      "verification_result": "ARCHIVED; fixed-tree readback pending.",
+      "readback": {
+        "status": "PENDING",
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T01:21:30+08:00"
+  "updated_at": "2026-10-31T01:39:15+08:00"
 }

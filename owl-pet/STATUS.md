@@ -1,3 +1,10 @@
+## 2026-10-31 #77 *Asio stygius* v4 ARCHIVED — readback pending
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/77-asio-stygius-v4.jpg](design/concepts/77-asio-stygius-v4.jpg)
+- Research: new0/reused5/corrected1; dated 26–27-day poor-remige boundary applied; exact geometry/population transfer unknown.
+- Assets and manifests 581/580/571 prepared; immutable fixed-tree readback pending.
+
 ## 2026-10-31 #76 *Asio clamator* v4 VERIFIED
 
 - SCIENCE_REVISION; edit0; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

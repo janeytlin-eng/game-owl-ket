@@ -40,3 +40,12 @@ Deville & Ingels primary paper pp.23–26 was read. It documents an old woodpeck
 ### v3成图
 
 概念图 `design/concepts/34-glaucidium-hardyi-v3.png`，680×453，198499 bytes，SHA-256 `8f31bb01e7e10138ef1db3c5863e241f0c8b714481b4a3d70ef7ece5de186c89`。原图检查通过：成年灰头/褐背/假眼与幼鸟无斑头顶、柔和腹纹及洞口完整支撑；无编辑；科学false。
+
+
+## v4 research — 2026-10-30
+
+- New primary evidence: `APOW-VIELLIARD-1989` printed pp.685–693, especially Table I p.691 and diagnosis p.692; current-name check: `APOW-ITIS-2025`.
+- Deville & Ingels 2012 pp.23–26/Figs.2–4 re-read: the only published young was almost full-grown and fully supported at an old woodpecker cavity entrance; exact age and flight threshold are not reported.
+- Sex boundary corrected: one measured female overlaps male wing values, so v4 keeps adults near equal size and does not assert a general female-larger rule.
+- Full prompt and uncertainty boundary: [research card](../../research/species/34-glaucidium-hardyi-v4.md).
+- Stage: RESEARCH_READY; generation pending; science false.

@@ -7833,8 +7833,8 @@
         "run_id": "20261030T103715+0800-cycle-4",
         "cycle": 4,
         "species_no": "34",
-        "heartbeat_at": "2026-10-30T10:37:15+08:00",
-        "expires_at": "2026-10-30T10:52:15+08:00"
+        "heartbeat_at": "2026-10-30T10:38:39+08:00",
+        "expires_at": "2026-10-30T10:53:39+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -7844,17 +7844,23 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261030T103715+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-10-30T10:37:15+08:00"
       },
       "last_checkpoint": {
-        "stage": "STARTED",
-        "at": "2026-10-30T10:37:15+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-10-30T10:38:39+08:00",
         "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
         "evidence": {
-          "head_before": "b3af319bbac753eb94f5be0b8c1f300fdd533910",
-          "expired_lease_superseded": "20261030T091000+0800-cycle-3",
-          "selected_from_next_cycle": 4
+          "source_counts": {
+            "new": 2,
+            "reused": 2,
+            "corrected": 1
+          },
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "research_card": "owl-pet/research/species/34-glaucidium-hardyi-v4.md",
+          "full_prompt_saved": true,
+          "science": false
         }
       },
       "lease": {
@@ -7863,10 +7869,10 @@
         "run_id": "20261030T103715+0800-cycle-4",
         "cycle": 4,
         "species_no": "34",
-        "heartbeat_at": "2026-10-30T10:37:15+08:00",
-        "expires_at": "2026-10-30T10:52:15+08:00"
+        "heartbeat_at": "2026-10-30T10:38:39+08:00",
+        "expires_at": "2026-10-30T10:53:39+08:00"
       },
-      "last_updated_at": "2026-10-30T10:37:15+08:00"
+      "last_updated_at": "2026-10-30T10:38:39+08:00"
     }
   ],
   "lease": {
@@ -7875,8 +7881,8 @@
     "run_id": "20261030T103715+0800-cycle-4",
     "cycle": 4,
     "species_no": "34",
-    "heartbeat_at": "2026-10-30T10:37:15+08:00",
-    "expires_at": "2026-10-30T10:52:15+08:00"
+    "heartbeat_at": "2026-10-30T10:38:39+08:00",
+    "expires_at": "2026-10-30T10:53:39+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -7982,7 +7988,8 @@
     "2026-10-29T16:45:00+08:00: #94 v4 ARCHIVED; fixed readback pending; no credit.",
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
     "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5.",
-    "2026-10-30T10:37:15+08:00: batch 2026-10-30T0830+0800 cycle4 STARTED #34 Glaucidium hardyi v4 SCIENCE_REVISION; expired cycle3 active_lease cleared after VERIFIED checkpoint audit; 15-minute lease acquired; no credit."
+    "2026-10-30T10:37:15+08:00: batch 2026-10-30T0830+0800 cycle4 STARTED #34 Glaucidium hardyi v4 SCIENCE_REVISION; expired cycle3 active_lease cleared after VERIFIED checkpoint audit; 15-minute lease acquired; no credit.",
+    "2026-10-30T10:38:39+08:00: cycle4 #34 v4 RESEARCH_READY; new2/reused2/corrected1; Vielliard 1989 specimen table, Deville & Ingels 2012 nest paper and ITIS current name read; full prompt persisted; science false; no credit."
   ],
   "updated_at": "2026-10-30T09:50:00+08:00",
   "recovery_notes": [
@@ -8338,7 +8345,7 @@
     "action": "SCIENCE_REVISION",
     "run_id": "20261030T103715+0800-cycle-4",
     "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "started_at": "2026-10-30T10:37:15+08:00"
   }
 }

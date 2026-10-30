@@ -7963,24 +7963,46 @@
       ],
       "next_cycle": 6,
       "last_checkpoint": {
-        "stage": "VERIFIED",
-        "at": "2026-10-30T14:47:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T143100+0800-cycle-5.md",
+        "stage": "STARTED",
+        "at": "2026-10-30T14:49:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T144900+0800-cycle-6.md",
         "evidence": {
-          "fixed_archive": "92120b38343df5572a3af1632ab95040b98397ca",
-          "concept_blob": "900e5669c9066d5b2673d78cb6cd23cf890324f9",
-          "generated_blob": "cbcf6cfe3007c866e5c9e62caac5f16c8634bbdf",
-          "reviewed_blob": "b67901caed922ee4bad010aa737d35048dcff650",
-          "crop_blob": "a35952d378a027e9f8064f06c972c1271c3026b1",
-          "manifests": {
-            "design": 560,
-            "production": 551,
-            "legacy": 549
-          },
-          "science": false
+          "head": "38913eee17fb64f237dd02f719f6e543fada1b49",
+          "existing_versions": [
+            "v1",
+            "v2",
+            "v3"
+          ],
+          "selected_version": "v4"
         }
       },
-      "last_updated_at": "2026-10-30T14:47:00+08:00"
+      "last_updated_at": "2026-10-30T14:49:00+08:00",
+      "active_lease": {
+        "owner": "codex-work-20261030T1449+0800",
+        "run_id": "20261030T144900+0800-cycle-6",
+        "cycle": 6,
+        "species_id": 42,
+        "heartbeat_at": "2026-10-30T14:49:00+08:00",
+        "expires_at": "2026-10-30T15:04:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-work-20261030T1449+0800",
+        "run_id": "20261030T144900+0800-cycle-6",
+        "cycle": 6,
+        "species_id": 42,
+        "heartbeat_at": "2026-10-30T14:49:00+08:00",
+        "expires_at": "2026-10-30T15:04:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 6,
+        "species": "Athene brama",
+        "species_no": "42",
+        "version": "v4",
+        "action": "SCIENCE_REVISION",
+        "run_record": "owl-pet/production/runs/20261030T144900+0800-cycle-6.md",
+        "stage": "STARTED",
+        "started_at": "2026-10-30T14:49:00+08:00"
+      }
     }
   ],
   "lease": {
@@ -8106,7 +8128,8 @@
     "2026-10-30T14:38:00+08:00: cycle5 #41 v4 IMAGE_GENERATED; 63.2s wait; 1536x1024 original opened; title/count/morphs/support pass; male overlarge with long barred tail and juvenile adult-like wing layers require targeted edit; durable generated blob saved; no credit.",
     "2026-10-30T14:44:00+08:00: cycle5 #41 v4 REVIEWED after three targeted edits; final 1536x1024, 500x700 juvenile crop and 680x453 concept reopened; comparable adults, short male tail, plain juvenile crown, compact soft wing, hidden tail and two-foot support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
     "2026-10-30T14:46:00+08:00: cycle5 #41 v4 ARCHIVED; exact concept/generated/reviewed/crop blobs and manifests design560/production551/legacy549 persisted; fixed readback pending; unique175/251; science false; no credit.",
-    "2026-10-30T14:47:00+08:00: cycle5 #41 v4 VERIFIED at fixed archive 92120b38343df5572a3af1632ab95040b98397ca; exact image hashes, manifests560/551/549 and source/research/run/knowledge/state matched; batch5/6 next6; unique175/251; science false; lease released."
+    "2026-10-30T14:47:00+08:00: cycle5 #41 v4 VERIFIED at fixed archive 92120b38343df5572a3af1632ab95040b98397ca; exact image hashes, manifests560/551/549 and source/research/run/knowledge/state matched; batch5/6 next6; unique175/251; science false; lease released.",
+    "2026-10-30T14:49:00+08:00: batch cycle6 #42 Athene brama v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 retained; no credit."
   ],
   "updated_at": "2026-10-30T14:31:00+08:00",
   "recovery_notes": [
@@ -8124,7 +8147,7 @@
     "heartbeat_at": "2026-10-30T14:31:00+08:00",
     "expires_at": "2026-10-30T14:46:00+08:00"
   },
-  "last_updated_at": "2026-10-30T14:47:00+08:00",
+  "last_updated_at": "2026-10-30T14:49:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8484,5 +8507,15 @@
     "2026-10-30T13:56:00+08:00: cycle4 #40 v4 ARCHIVED; concept/generated/reviewed/crop and manifests design559/production550/legacy548 persisted; fixed readback pending; no credit; unique175/251; science false.",
     "2026-10-30T13:58:00+08:00: cycle4 #40 v4 VERIFIED at fixed archive f158c79d345002a643e143528e869db0c69f13dd; exact concept/generated/reviewed/crop blobs and manifests 559/550/548 plus source/research/run/knowledge/state matched; batch4/6 next5; unique175/251; science false; lease released.",
     "2026-10-30T14:31:00+08:00: batch cycle5 #41 Glaucidium cobanense v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 retained; no credit."
-  ]
+  ],
+  "in_progress": {
+    "cycle": 6,
+    "species": "Athene brama",
+    "species_no": "42",
+    "version": "v4",
+    "action": "SCIENCE_REVISION",
+    "run_record": "owl-pet/production/runs/20261030T144900+0800-cycle-6.md",
+    "stage": "STARTED",
+    "started_at": "2026-10-30T14:49:00+08:00"
+  }
 }

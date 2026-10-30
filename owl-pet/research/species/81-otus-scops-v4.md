@@ -46,3 +46,12 @@ Scene/backdrop: retain southern Italian Aleppo-pine edge and old Magpie twig nes
 Constraints: change the central juvenile and its label only except for small consistency adjustments; preserve adults, count, title, scientific name, environment, branch contacts and composition. Exactly three owls. No eggs, prey, extra birds, extra text, logos, border or watermark.
 Avoid: newborn down-ball, adult clone, broad rounded adult wing panels, repeated bright white juvenile wing rows, long adult tail, hovering, unsupported feet, exaggerated sex-size dimorphism.
 ```
+
+
+## Generated and reviewed evidence
+
+- Initial built-in imagegen edit: 39.9 s. Full 1536×1024 image opened; exact text/count/adults/support passed, but juvenile retained a long layered bright-spotted wing, so it was not accepted unchanged.
+- Targeted juvenile-wing edit: 40.0 s. Full reviewed master, 560×720 crop and 680×453 concept derivative opened.
+- Result: PASS_WITH_LIMITATIONS; edit_count 1. Juvenile wing is more compact and adult-white rows are subdued; formed fresh feathers, residual down, short tail and a supported step remain. Adults remain near-equal in skeletal height.
+- Exact age, tract geometry, flight threshold, juvenile sex, population transfer and visible sex-size ratio remain unknown. Scientific verification remains false.
+- Assets/manifests persisted at ARCHIVED stage; immutable readback pending.

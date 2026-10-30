@@ -8868,48 +8868,22 @@
       ],
       "next_cycle": 4,
       "last_checkpoint": {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "species": "Otus semitorques",
-        "species_id": 85,
+        "cycle": 4,
+        "stage": "STARTED",
+        "species": "Bubo ascalaphus",
+        "species_id": 87,
         "version": 4,
-        "run_id": "20261031T050600+0800-cycle-3",
-        "at": "2026-10-31T05:19:30+08:00",
-        "run_record": "owl-pet/production/runs/20261031T050600+0800-cycle-3.md",
+        "run_id": "20261031T053100+0800-cycle-4",
+        "at": "2026-10-31T05:31:00+08:00",
+        "run_record": "owl-pet/production/runs/20261031T053100+0800-cycle-4.md",
         "evidence": {
-          "fixed_archive_commit": "630a6424081792832ee920824ef2d74ec73ebb18",
-          "assets": {
-            "concept": {
-              "sha": "6670bc8d725b8335c02b2a72367f31e75e8b41e5",
-              "size": 159451
-            },
-            "generated": {
-              "sha": "82aceec81bb4b049381fe4737be6596b3a8c8d45",
-              "size": 642150
-            },
-            "reviewed": {
-              "sha": "82aceec81bb4b049381fe4737be6596b3a8c8d45",
-              "size": 642150
-            },
-            "review_crop": {
-              "sha": "04bbe6d5077d8e330a4a62a15d6483d550671691",
-              "size": 162023
-            }
-          },
-          "manifest_counts": {
-            "legacy": 589,
-            "design": 588,
-            "production": 579
-          },
-          "tree": {
-            "entries": 2214,
-            "truncated": false
-          },
-          "unique_species": "175/251",
+          "baseline_main": "f672edcba4c0e9462f174bf73560454cd09793a9",
+          "prior_fixed_version": "v3",
+          "prior_fixed_commit": "b82934e4aa4ec4d75c7954a19e7a06277077a226",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T05:19:30+08:00",
+      "last_updated_at": "2026-10-31T05:31:00+08:00",
       "audit_notes": [
         "2026-10-31T04:30:00+08:00 cycle1 #83 Otus brucei v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T04:38:00+08:00 cycle1 #83 v4 RESEARCH_READY; new1/reused2/corrected2; Mikkola printed pp.126–127/PDF pp.128–129 and Chandran et al. 2016 full text actually read; v3 reopened; exact individual day label, adult-like juvenile wing and unsupported adult height difference identified; full prompt saved; science false; no credit.",
@@ -8928,10 +8902,25 @@
         "2026-10-31T05:13:00+08:00 cycle3 #85 v4 IMAGE_GENERATED in39.5s; full image opened; exact number/title/count/adults/first-winter geometry/support pass; no edit indicated; science false; no credit.",
         "2026-10-31T05:14:30+08:00 cycle3 #85 v4 REVIEWED; full and crop opened; exact numbering, adults, first-winter retained feather geometry and all supports pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T05:16:00+08:00 cycle3 #85 v4 ARCHIVED; assets/manifests589/588/579 and support records persisted; fixed readback pending; no credit.",
-        "2026-10-31T05:19:30+08:00 cycle3 #85 v4 VERIFIED against fixed archive 630a6424081792832ee920824ef2d74ec73ebb18; exact assets/blobs/sizes, non-truncated 2214-entry tree, manifests589/588/579 and support records matched; batch3/6 next4; unique175/251; science false; lease released."
+        "2026-10-31T05:19:30+08:00 cycle3 #85 v4 VERIFIED against fixed archive 630a6424081792832ee920824ef2d74ec73ebb18; exact assets/blobs/sizes, non-truncated 2214-entry tree, manifests589/588/579 and support records matched; batch3/6 next4; unique175/251; science false; lease released.",
+        "2026-10-31T05:31:00+08:00 cycle4 #87 Bubo ascalaphus v4 SCIENCE_REVISION STARTED; #86 v4 fixed archive already verified and skipped; latest main/batch/#87 v3 research and fixed image checked; v1-v3 preserved; 15-minute lease acquired; no credit."
       ],
-      "lease": null,
-      "in_progress": null
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "20261031T053100+0800-cycle-4",
+        "heartbeat_at": "2026-10-31T05:31:00+08:00",
+        "expires_at": "2026-10-31T05:46:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 4,
+        "species": "Bubo ascalaphus",
+        "species_id": 87,
+        "version": 4,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T053100+0800-cycle-4",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261031T053100+0800-cycle-4.md"
+      }
     }
   ],
   "lease": {

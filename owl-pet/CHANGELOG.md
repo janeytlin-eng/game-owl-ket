@@ -1420,3 +1420,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 ## 2026-10-30T22:33:00+08:00 — #63 *Scotopelia peli* v4 archive prepared
 
 Added evidence-bounded dependent post-fledging branch stage. One edit corrected adult scale direction and juvenile wing maturity; fixed readback pending; unique count unchanged.
+
+
+- 2026-10-30T22:39:05+08:00 — archived #64 *Tyto glaucops* v4 preparation. Reused/corrected `AFO-CURTI-2018` printed p.18 for the outside-nest begging young; one edit corrected adult scale and juvenile wing maturity. Manifests 570/569/560; unique 175/251; fixed readback pending; science false.

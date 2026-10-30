@@ -46,3 +46,8 @@ Image generated, edited twice and reviewed; archive d4069ad1d8148391c26ec731ae76
 
 - 2026-10-30T22:38:18+08:00: initial render’s female scale and young wing maturity exceeded the evidence boundary. One targeted edit reduced the female to the same height class and replaced the young’s dark spotted layered panel with compact buff down-fringed developing texture.
 - Edited full master and 680×453 derivative reopened; begging pose, bilateral support, Palmchat cavity, labels and adult identity pass. PASS_WITH_LIMITATIONS; science false.
+
+
+## v4 archive preparation
+
+- 2026-10-30T22:39:05+08:00: concept/generated/reviewed assets and three manifests prepared after one edit; fixed-commit readback pending. Unique count unchanged; science false.

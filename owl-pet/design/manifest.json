@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T22:32:49+08:00",
+  "updated": "2026-10-30T22:39:05+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11744,7 +11744,49 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "64-tyto-glaucops-v4",
+      "path": "design/concepts/64-tyto-glaucops-v4.png",
+      "species_id": 64,
+      "scientific_name": "Tyto glaucops",
+      "historical_names": [
+        "Tyto alba glaucops"
+      ],
+      "common_name": "Ashy-faced Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "a728d8cfd76a9a4cf334f78702bb7304a3f9736b53dcd5604131133d03135069",
+      "size_bytes": 2843867,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Curti et al. 2018 printed p.18 documents an age-unknown young begging while perched outside the Palmchat cavity on a northwest-projecting palm frond. V4 separates this outside-nest behavior from v3's cavity nestling. One edit corrected excessive female scale and removed the young's adult-like dark spotted layered wing panel. Exact age, identity of the June young, feather-tract chronology, first-flight threshold, sexed juvenile traits and universal nest-site use remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "AFO-CURTI-2018",
+        "AFO-BIRDSCARIBBEAN-2023",
+        "AFO-PEREGRINE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--64-tyto-glaucops-v4-outside-nest-begging-young-boundary",
+      "research_record": "research/species/64-tyto-glaucops-v4.md",
+      "run_record": "production/runs/20261030T223349+0800-cycle-2.md",
+      "reviewed_at": "2026-10-30T22:38:18+08:00",
+      "generated_path": "production/generated/64-tyto-glaucops-v4-generated-master.png",
+      "generated_blob": "ba5eb223aea515ab18ef2e5244b3d7652e02db32",
+      "generated_sha256": "cb2bf5c73a1d88210bd34859936de0f5606738fb8ed60a7ad38d7f7a40b27405",
+      "generated_size_bytes": 3111958,
+      "reviewed_path": "production/reviewed/64-tyto-glaucops-v4-reviewed-master.png",
+      "reviewed_blob": "4e539488465ff67c5bb76458330e7b0555f75cec",
+      "reviewed_sha256": "a728d8cfd76a9a4cf334f78702bb7304a3f9736b53dcd5604131133d03135069",
+      "reviewed_size_bytes": 2843867,
+      "archive_note": "V1-v3 preserved. Generated and edited 1536x1024 masters plus 680x453 delivery derivative opened. One bounded edit corrected adult scale direction and juvenile wing maturity. Concept reuses reviewed master blob. Science false.",
+      "readback_pending": true,
+      "archive_commit": null,
+      "git_blob": "4e539488465ff67c5bb76458330e7b0555f75cec"
     }
   ],
-  "updated_at": "2026-10-30T22:32:49+08:00"
+  "updated_at": "2026-10-30T22:39:05+08:00"
 }

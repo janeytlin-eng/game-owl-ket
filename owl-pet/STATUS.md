@@ -2532,3 +2532,8 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Concept 680x453 blob `0c9b5c1196`; generated/reviewed 1536x1024 blobs `0eeef23979` / `2998f03dd8`.
 - One edit corrected adult size direction and juvenile adult-like wing rows; PASS_WITH_LIMITATIONS. Manifests 569/568/559; unique 175/251; science false; fixed readback pending.
+
+
+## 2026-10-30 22:39:05+08:00 — #64 *Tyto glaucops* v4 archive prepared
+
+Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected female scale and juvenile wing maturity. PASS_WITH_LIMITATIONS; manifests 570/569/560; unique 175/251; fixed readback pending; science false.

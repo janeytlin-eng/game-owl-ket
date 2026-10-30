@@ -36,3 +36,8 @@ Environment: base of coconut-palm fronds with the side of an active Palmchat com
 ## Visual review — 2026-10-30T22:38:18+08:00
 
 Initial render passed title/count/adult identity/support but overstated female scale and gave the young a dark spotted layered wing panel. One targeted edit reduced the female to the same height class with subtle fullness and replaced the juvenile panel with compact buff down-fringed short developing texture. Edited master and 680×453 derivative reopened; PASS_WITH_LIMITATIONS; all unknowns retained and science false.
+
+
+## Archive preparation — 2026-10-30T22:39:05+08:00
+
+Concept, generated and reviewed full-resolution assets plus three manifest entries prepared. Concept reuses the reviewed master blob; fixed-commit readback pending. Unique species remains 175/251; science false.

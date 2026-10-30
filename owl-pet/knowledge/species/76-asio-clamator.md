@@ -7,3 +7,8 @@ OldnamesPseudoscopsclamator/Rhinoptynxclamator sameunique species. CLA-AOS-2021 
 ## v3 evidence update — 2026-10-29
 
 New CLA-FORMOSO-ETAL-2025 and CLA-PAUTASSO-DE-LA-PENA-2001; reused CLA-PONCE-GONZALEZ-2025, CLA-OWLPAGES-2020 and WHSO-MIKKOLA-2013. V3 selects the newly documented estimated 25–30-day second-stage chick: warm brown down, increasingly defined face and small visible tufts, immature growing wing/tail, low broad support. It does not duplicate v2's approximately five-week pale branch stage. The Chubut pair's colour difference and sex labels are behavioural inference; no measured size difference was established, so adults remain near-equal and colour contrast stays subtle. Exact sex dimorphism/subspecies/chronology unknown; science false. [Research](../../research/species/76-asio-clamator-v3.md) · [Run](../../production/runs/20261029T0950+0800-cycle-5.md)
+
+
+## v4 evidence update — 2026-10-31
+
+Reused CLA-FORMOSO-ETAL-2025, CLA-PAUTASSO-DE-LA-PENA-2001, CLA-PONCE-GONZALEZ-2025, CLA-OWLPAGES-2020 and WHSO-MIKKOLA-2013; new0/reused5/corrected1. The fixed v3 image was reopened and passed the existing 25–30-day warm-brown second-stage boundary. V4 restores repository number 76, centers the juvenile for stage comparison, and aligns adult support baselines while retaining near-equal adults. Three active search queries and three direct DOI opens returned empty payloads and receive no source credit. Exact sex dimorphism, subspecies transfer and feather chronology remain unknown; science false. [Research](../../research/species/76-asio-clamator-v4.md) · [Run](../../production/runs/20261031T011343+0800-cycle-6.md)

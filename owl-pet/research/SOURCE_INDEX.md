@@ -575,3 +575,8 @@ Reused stable IDs **SCU-BESG-2024**, **SCU-NPARKS-2025**, **SCU-ITIS-2025**, **S
 - **Design inference:** center the documented branch-dependent stage, keep dark growing folded wing/short tail, require bilateral branch grip, and keep adult scale near-equal because published sex direction conflicts. Japanese split-population timing/rectrix evidence remains excluded.
 - **Limitations:** exact Singapore subspecies, age, iris trajectory, sex ratio and feather-tract chronology unknown; science false.
 - **Links:** [research](species/75-ninox-scutulata-v4.md) · [run](../production/runs/20261031T010145+0800-cycle-5.md) · [concept](../design/concepts/75-ninox-scutulata-v4.png)
+
+
+## 2026-10-31 — #76 *Asio clamator* v4 central second-stage comparison boundary
+
+Reused stable IDs **CLA-FORMOSO-ETAL-2025**, **CLA-PAUTASSO-DE-LA-PENA-2001**, **CLA-PONCE-GONZALEZ-2025**, **CLA-OWLPAGES-2020**, and **WHSO-MIKKOLA-2013**; new0/reused5/corrected1. V3 fixed original reopened and passed adult identity, near-equal scale, warm-brown 25–30-day second-stage morphology and low support. V4 restores number 76, centers the juvenile and aligns adult support baselines without claiming new biological evidence. Three active search queries and three DOI opens returned empty payloads and received no credit. Exact dimorphism, subspecies transfer and feather chronology remain unknown; science false. [Research](species/76-asio-clamator-v4.md) · [Run](../production/runs/20261031T011343+0800-cycle-6.md).

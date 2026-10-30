@@ -2653,3 +2653,6 @@ Remote verification 2026-10-31T05:04:00+08:00: #84 v8 fixed archive `7cf6f2ef40c
 ### 2026-10-31 — numbering correction must not redraw valid biology, #85 application
 
 V3 evidence-bounded first-winter geometry passed; v4 changes only the missing repository number. Full/crop/derivative reopened; edit0. Science false.
+
+
+Remote verification 2026-10-31T05:19:30+08:00: #85 v4 fixed archive `630a6424081792832ee920824ef2d74ec73ebb18` returned exact assets in a non-truncated 2,214-entry tree; manifests 589/588/579 matched. Numbering correction is verified for this instance; science remains false.

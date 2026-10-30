@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-10-31T05:19:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12970,9 +12970,28 @@
       "review_crop_path": "production/review-crops/85-otus-semitorques-v4-juvenile.jpg",
       "review_crop_blob": "04bbe6d5077d8e330a4a62a15d6483d550671691",
       "review_crop_size_bytes": 162023,
-      "readback_pending": true,
-      "git_blob": "6670bc8d725b8335c02b2a72367f31e75e8b41e5"
+      "readback_pending": false,
+      "git_blob": "6670bc8d725b8335c02b2a72367f31e75e8b41e5",
+      "fixed_archive_commit": "630a6424081792832ee920824ef2d74ec73ebb18",
+      "verified_at": "2026-10-31T05:19:30+08:00",
+      "exact_readback": true,
+      "readback": {
+        "concept_blob": "6670bc8d725b8335c02b2a72367f31e75e8b41e5",
+        "generated_blob": "82aceec81bb4b049381fe4737be6596b3a8c8d45",
+        "reviewed_blob": "82aceec81bb4b049381fe4737be6596b3a8c8d45",
+        "review_crop_blob": "04bbe6d5077d8e330a4a62a15d6483d550671691",
+        "manifest_counts": {
+          "legacy": 589,
+          "design": 588,
+          "production": 579
+        },
+        "tree": {
+          "entries": 2214,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T05:16:00+08:00"
+  "updated_at": "2026-10-31T05:19:30+08:00"
 }

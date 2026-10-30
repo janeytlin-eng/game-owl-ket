@@ -2761,3 +2761,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 ## 2026-10-31T05:16:00+08:00 — #85 *Otus semitorques* v4 archive prepared
 
 V3 reopened; v4 restores number 85 only. Mikkola printed158–159/PDF160–161 read; cross-species hits excluded. Full/crop/derivative pass; edit0; manifests589/588/579; fixed readback pending; science false.
+
+
+### #85 v4 VERIFIED — 2026-10-31T05:19:30+08:00
+
+- Fixed archive `630a6424081792832ee920824ef2d74ec73ebb18` returned exact concept/generated/reviewed/crop bytes, blobs and sizes; non-truncated 2,214-entry tree; manifests 589/588/579 and support records matched.
+- Batch `2026-10-31T0430+0800` is 3/6, next cycle 4. Unique175/251; science false.

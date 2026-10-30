@@ -29,3 +29,8 @@ DO NOT change any bird or biological detail. Keep adult fiery red-orange irises,
 ## Actual result
 
 One imagegen text-only revision (39.5s). Full 1536×1024, 520×700 crop and 680×453 derivative opened. Exact 85 title, three labels/birds, adults and first-winter retained-feather geometry/support pass; edit0; PASS_WITH_LIMITATIONS; science false.
+
+
+## Fixed-archive verification
+
+At 2026-10-31T05:19:30+08:00, fixed archive `630a6424081792832ee920824ef2d74ec73ebb18` returned exact concept/generated/reviewed/crop blobs and byte sizes; recursive tree contained 2,214 entries and was not truncated; manifests were 589/588/579. This verifies archive integrity only. Scientific status remains false because exact first-winter age/sex/iris thresholds and adult RSD remain unknown.

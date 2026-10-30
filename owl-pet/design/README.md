@@ -2238,3 +2238,10 @@ When a primary field study provides a multi-day entrance window but the daily fe
 - #30 *Glaucidium cuculoides* v4 — SCIENCE_REVISION. Undated Hong Kong yellow-eyed fledgling in juvenile plumage, low and fully supported at a natural banyan cavity; two juvenile-only edits removed adult-like layered white-spotted coverts and concealed the residual wing/tail. [concept](concepts/30-glaucidium-cuculoides-v4.jpg) · [research](../research/species/30-glaucidium-cuculoides-v4.md) · [run](../production/runs/20261030T070900+0800-cycle-6.md). Exact age, flight threshold, soft-part chronology and quantitative sex ratio remain unknown; science pending.
 
 - 2026-10-30T07:45:00+08:00 — #30 v4 fixed-tree VERIFIED at `49fd5d43268a392176bad83c0ef4e8f20363d91b`; four exact image path/blob/size tuples and restored source/history records matched; batch COMPLETE 6/6; science false.
+
+
+- #31 *Glaucidium radiatum* v4 — SCIENCE_REVISION. January 2026 Pīlībhīt age-unknown fully feathered immature; one juvenile-only edit removed repeated adult-like white wing spots, softened the folded wing and shortened/browned the tail while preserving both-foot branch support. [concept](concepts/31-glaucidium-radiatum-v4.png) · [research](../research/species/31-glaucidium-radiatum-v4.md) · [run](../production/runs/20261030T083000+0800-cycle-1.md). Exact age, flight threshold, independence, sexed measurements and population variation remain unknown; science pending.
+
+### Incremental rule — direct immature photos do not license an adult wing map
+
+When a source photograph labels an individual immature but does not document its age or feather sequence, use only plainly visible stage cues and avoid copying crisp repeated adult covert spots merely because the wing is fully formed. Apply a lower-contrast, age-bounded treatment and check a crop for support and feather ordering. Applied and visually rechecked on #31 v4; broader effectiveness remains unverified.

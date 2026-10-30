@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T07:45:00+08:00",
+  "updated": "2026-10-30T08:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9710,7 +9710,53 @@
         "run_blob_at_archive": "cc7a2dc2f3eff667f0e2d59ae0ab4c5d0b10e46a",
         "knowledge_blob": "d89d0844b9c6ee6269af2e6f049f3f411cdb314a"
       }
+    },
+    {
+      "id": "31-glaucidium-radiatum-v4",
+      "path": "design/concepts/31-glaucidium-radiatum-v4.png",
+      "species_id": 31,
+      "scientific_name": "Glaucidium radiatum",
+      "historical_names": [
+        "Taenioglaux radiata",
+        "Strix radiata"
+      ],
+      "common_name": "Jungle Owlet",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "984ba4df597568f750f0ce48ee08c7ef8daa783fb753623a3d04c94823bff114",
+      "size_bytes": 2919939,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. January 2026 Pīlībhīt photograph supports an age-unknown fully feathered immature with yellow eyes and natural branch support. One targeted juvenile-only edit removed crisp repeated adult-like white wing spots, softened the compact folded wing and shortened/browned the tail. Adults remain near equal displayed height with the female only subtly fuller. Exact age, flight threshold, independence, continuous feather sequence, sexed measurements and population variation remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "JUOW-KOPARDE-WII-2018",
+        "JUOW-OISEAUXNET-LEBOFF-2026",
+        "JUOW-OISEAUXBIRDS-BOUGLOUAN-2026",
+        "JUOW-OWLPAGES-2020",
+        "JUOW-PF-2021"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-30--31-glaucidium-radiatum-v4--taxonomy-and-habitat-boundary",
+      "research_record": "research/species/31-glaucidium-radiatum-v4.md",
+      "run_record": "production/runs/20261030T083000+0800-cycle-1.md",
+      "generated_path": "production/generated/31-glaucidium-radiatum-v4-generated.png",
+      "generated_blob": "1835b60f183b35e8e56f375cb759a05e770e8e7c",
+      "generated_sha256": "726f52b07d4b770394bb71dbbbc5e006851484e276c9988fb013d828f5e3b94d",
+      "generated_size_bytes": 3089115,
+      "reviewed_path": "production/reviewed/31-glaucidium-radiatum-v4-reviewed.png",
+      "reviewed_blob": "e5d022c30dc722d5c58df857efd7788db0918093",
+      "reviewed_sha256": "984ba4df597568f750f0ce48ee08c7ef8daa783fb753623a3d04c94823bff114",
+      "reviewed_size_bytes": 2919939,
+      "review_crop_path": "production/review-crops/31-glaucidium-radiatum-v4-juvenile.png",
+      "review_crop_blob": "9793f89e0883250ee9f173b447025d48bbce3d5f",
+      "review_crop_sha256": "d0e703d5ad28080ca7fbeb012ff5c73a102f67073ff4b0a999d76e77725c3bea",
+      "review_crop_size_bytes": 644119,
+      "archive_note": "Initial 1536x1024 render and final full plate were opened. One targeted juvenile-only edit removed repeated bright adult-like white spots, softened the folded wing and shortened the visible tail. A 520x700 crop verified the two-foot grip, softer wing, shorter tail and intact support. Exact text/count, adults, subtle size direction and habitat passed. Existing v1-v3 and historical records remain retained.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T07:45:00+08:00"
+  "updated_at": "2026-10-30T08:47:00+08:00"
 }

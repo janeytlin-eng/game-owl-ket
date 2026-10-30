@@ -47,3 +47,10 @@ Scene: dry-to-moist deciduous and scrub forest edge of north India, restrained l
 - Generated master: `../../production/generated/31-glaucidium-radiatum-v4-generated.png` (`726f52b0…`, 3,089,115 bytes).
 - Reviewed master: `../../production/reviewed/31-glaucidium-radiatum-v4-reviewed.png` (`984ba4df…`, 2,919,939 bytes).
 - Juvenile crop: `../../production/review-crops/31-glaucidium-radiatum-v4-juvenile.png` (`d0e703d5…`, 644,119 bytes).
+
+
+## Archive checkpoint
+
+- ARCHIVED at 2026-10-30T08:47:00+08:00; manifest entry `31-glaucidium-radiatum-v4`, unique increment 0.
+- Concept path: `../../design/concepts/31-glaucidium-radiatum-v4.png`; same reviewed binary `984ba4df…`, 2,919,939 bytes.
+- Fixed-commit path/blob/size readback remains pending; no cycle credit until VERIFIED.

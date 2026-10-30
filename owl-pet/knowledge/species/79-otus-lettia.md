@@ -19,3 +19,7 @@ Reused LET-LEADPRATHOM-2009 printed p.459 to retain the 11–15-day cavity stage
 
 One direct imagegen revision of v3 shortened/irregularized the 11–15 d juvenile wing while preserving adults, exact text and cavity support. Full image, juvenile crop and derivative were opened. PASS_WITH_LIMITATIONS; no visible tail or flight-capable posture. Exact growing-feather geometry remains unknown; science false.
 
+## 2026-10-31 v4 archive checkpoint
+
+Exact JPEG objects and supporting records persisted at ARCHIVED; fixed-commit readback pending. Science false.
+

@@ -1,3 +1,10 @@
+## #79 Collared Scops Owl — *Otus lettia* — v4 science revision
+
+- Concept: [79-otus-lettia-v4.jpg](concepts/79-otus-lettia-v4.jpg)
+- Research: [79-otus-lettia-v4.md](../research/species/79-otus-lettia-v4.md)
+- Run: [20261031T023648+0800-cycle-3.md](../production/runs/20261031T023648+0800-cycle-3.md)
+- ARCHIVED; PASS_WITH_LIMITATIONS; fixed readback pending; science false.
+
 ## #78 Marsh Owl — *Asio capensis* — v4 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/42fa2acf2c6c759684b02d275c6c534188bc3d2d/owl-pet/design/concepts/78-asio-capensis-v4.jpg?raw=1)

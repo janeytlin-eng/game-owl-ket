@@ -41,3 +41,7 @@ Use the attached #79 Otus lettia v3 plate as the layout/style reference. Create 
 - 680×453 concept derivative reopened: composition and text remain legible; no new issue found.
 - Result: PASS_WITH_LIMITATIONS; one direct imagegen revision of v3; no additional edit. Science false.
 
+## Archive checkpoint
+
+- 2026-10-31T02:40:20+08:00: exact concept/generated/reviewed/crop JPEG objects and three manifest rows persisted; immutable commit readback pending.
+

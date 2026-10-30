@@ -47,3 +47,10 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - Habitat correction: Pretorius et al. 2026 supports mature large *Imperata* wetland patches and low development, not a neat cave mouth; v4 uses a concealed grass runway/platform.
 - Recheck: edited master, magnified center crop and 680x453 derivative opened; exact text/count, adult identity, modest sex-size cue, darker unspotted supported fledgling, habitat and feet pass. Rule is verified for this image only.
 - Assets: concept `design/concepts/66-tyto-capensis-v4.png`; generated/reviewed masters under `production/`. PASS_WITH_LIMITATIONS; exact age/feather chronology/first-flight threshold/range-wide sex scale/chamber geometry unknown; science false; fixed readback pending.
+
+
+## v4 fixed-tree verification — 2026-10-30T23:43:30+08:00
+
+- Fixed archive: `0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0`; recursive tree not truncated (2,112 entries).
+- Concept `45650b94ffff350768c7a16134b1ad6dadbcaec7` / 647,009 B; generated `d2d366eacb762ab5168c50d2cefb4bcd0e9f071b` / 3,009,400 B; reviewed `8691948ae4fcdfe5e8af4a0faf0a1ebff9f40901` / 2,914,328 B.
+- All archive and indexed evidence markers reread. Science remains false for stated unknowns.

@@ -2,7 +2,7 @@
 
 - Run: `20261030T233010+0800-cycle-4`; batch `2026-10-30T2158+0800`; cycle 4/6.
 - Action: SCIENCE_REVISION; v1–v3 retained; unique species increment 0.
-- Status: ARCHIVED_PENDING_READBACK at 2026-10-30T23:42:00+08:00; science false.
+- Status: VERIFIED_ARCHIVE at 2026-10-30T23:43:30+08:00; science false.
 
 ## Sources actually read
 
@@ -51,3 +51,10 @@ Constraints: exact three birds; correct species identity; no extra chicks, text,
 - Edit: center bird only; removed dorsal white spotting and softened/compacted the folded wing while preserving adults, text, scale, grass structure and foot support.
 - Recheck: edited 1536x1024 master, 620x760 juvenile crop and 680x453 derivative opened; PASS_WITH_LIMITATIONS. Exact age, feather chronology, first-flight threshold, range-wide sex scale and chamber geometry remain unknown; science false.
 - Archive paths: `design/concepts/66-tyto-capensis-v4.png`, `production/generated/66-tyto-capensis-v4-generated-master.png`, `production/reviewed/66-tyto-capensis-v4-reviewed-master.png`; fixed readback pending.
+
+
+## Fixed archive verification
+
+- Commit: `0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0`; recursive tree non-truncated (2,112 entries).
+- Exact concept/generated/reviewed blob SHAs and sizes matched; manifests 572/571/562 each contained exactly one v4 entry; support records matched.
+- Archive verification is complete, but scientific acceptance remains false because the listed chronology/sex/chamber unknowns are unresolved.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:42:00+08:00",
+  "updated": "2026-10-30T23:43:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11944,14 +11944,41 @@
       "reviewed_sha256": "1546cb9ff17f8cbf43c69b6affc6e4bde6b10b4a978e983f324d915356af7420",
       "reviewed_size_bytes": 2914328,
       "archive_note": "V1-v3 preserved. Generated and edited 1536x1024 masters plus 680x453 concept opened. One bounded juvenile-only edit removed unsupported white dorsal spotting and mature wing regularity. New patch-scale evidence corrected the habitat geometry. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
+      "readback_pending": false,
+      "archive_commit": "0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0",
       "git_blob": "45650b94ffff350768c7a16134b1ad6dadbcaec7",
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "Pending fixed-commit readback.",
+      "fixed_commit": "0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0",
+      "verified_at": "2026-10-30T23:43:30+08:00",
+      "verification_result": "VERIFIED against fixed archive: exact concept/generated/reviewed paths, blob SHAs and sizes; non-truncated tree; manifest counts 572/571/562; supporting run/research/state records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0",
+        "tree_truncated": false,
+        "tree_entries": 2112,
+        "concept": {
+          "path": "owl-pet/design/concepts/66-tyto-capensis-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "45650b94ffff350768c7a16134b1ad6dadbcaec7",
+          "size": 647009,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0/owl-pet/design/concepts/66-tyto-capensis-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/66-tyto-capensis-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "d2d366eacb762ab5168c50d2cefb4bcd0e9f071b",
+          "size": 3009400,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0/owl-pet/production/generated/66-tyto-capensis-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/66-tyto-capensis-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8691948ae4fcdfe5e8af4a0faf0a1ebff9f40901",
+          "size": 2914328,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0/owl-pet/production/reviewed/66-tyto-capensis-v4-reviewed-master.png?raw=1"
+        },
         "manifest_counts": {
           "legacy": 572,
           "design": 571,
@@ -11962,5 +11989,5 @@
       }
     }
   ],
-  "updated_at": "2026-10-30T23:42:00+08:00"
+  "updated_at": "2026-10-30T23:43:30+08:00"
 }

@@ -2549,3 +2549,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 - New 41-nest patch-scale source removed the unsupported visible cave-mouth geometry; dense old *Imperata* wetland retained.
 - One juvenile-only edit removed adult dorsal white spots and softened the overly regular wing panel. Concept 680x453; masters 1536x1024; PASS_WITH_LIMITATIONS.
 - Manifests 572/571/562; unique 175/251; fixed readback pending; science false.
+
+
+### #66 v4 VERIFIED — 2026-10-30T23:43:30+08:00
+
+- Fixed archive `0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0` returned exact concept/generated/reviewed blobs and sizes in a non-truncated 2,112-entry tree; manifests 572/571/562 and supporting records matched.
+- Batch `2026-10-30T2158+0800` is 4/6, next cycle 5. Unique remains 175/251; science false.

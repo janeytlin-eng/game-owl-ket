@@ -1429,3 +1429,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-10-30T23:42:00+08:00 — archived #66 *Tyto capensis* v4 preparation. Added Pretorius et al. 2026 pp.110–124, corrected v3's unsupported neat cave mouth to a concealed mature-*Imperata* setting, and made one juvenile-only edit to remove adult white dorsal spotting/wing regularity. Manifests 572/571/562; unique 175/251; fixed readback pending; science false.
+
+- 2026-10-30T23:43:30+08:00 — verified #66 *Tyto capensis* v4 at fixed archive `0a6e36a7cc30840727a0ad98a8b0f66c63a6b1f0`; exact image paths/blobs/sizes, manifests 572/571/562 and supporting records matched. Batch advances to 4/6, next cycle 5; unique 175/251; science false.

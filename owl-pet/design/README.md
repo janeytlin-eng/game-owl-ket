@@ -1,3 +1,9 @@
+## #55 Verreaux's Eagle-Owl — *Bubo lacteus* — v4 science revision
+
+- Concept: [55-bubo-lacteus-v4.png](concepts/55-bubo-lacteus-v4.png)
+- Research: [species record](../research/species/55-bubo-lacteus-v4.md)
+- Stage: ARCHIVED; fixed readback pending. Brown 1965 ~6-week crouched nestling; one juvenile wing/eyelid edit; v1–v3 preserved; PASS_WITH_LIMITATIONS; science false.
+
 ## #46 Mottled Wood Owl — *Strix ocellata* — v4 science revision
 
 - Concept: [46-strix-ocellata-v4.png](concepts/46-strix-ocellata-v4.png)

@@ -1,3 +1,7 @@
+## 2026-10-30 v4 science revision
+
+Brown 1965 supplies a distinct approximately-six-week nestling: fine grey/white barring, plain white thighs, black cheek streaks, almost-black eyes, pale blue-grey bill, yellowish-white feet and paler orange-pink upper lids. V4 shows this bird crouched and fully supported in an old stick nest. One juvenile-only edit removed adult shoulder spots/layered remiges and muted the lids. Adults share plumage; the female is only subtly fuller under the reported mass direction, not taller by a fixed ratio. Exact age, feather chronology and flight threshold remain unknown; science false.
+
 # 55 · Verreaux's Eagle-Owl · *Bubo lacteus*
 
 Status: ARCHIVED / visually reviewed; scientific calibration pending

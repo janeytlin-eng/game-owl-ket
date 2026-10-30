@@ -1,3 +1,9 @@
+## 2026-10-30 #55 *Bubo lacteus* v4 ARCHIVED — readback pending
+
+- SCIENCE_REVISION; one juvenile wing/eyelid edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Concept: [design/concepts/55-bubo-lacteus-v4.png](design/concepts/55-bubo-lacteus-v4.png)
+- Fixed image/tree readback pending; batch remains 5/6 until verification.
+
 ## 2026-10-30 #46 *Strix ocellata* v4 VERIFIED
 
 - Result: SCIENCE_REVISION VERIFIED; unique remains **175/251**; batch `2026-10-30T1634+0800` is **4/6**, next cycle 5.

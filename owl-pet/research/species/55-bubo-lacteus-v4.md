@@ -45,3 +45,11 @@ Juvenile: directly evidence-bounded approximately-six-week nestling from Brown 1
 Environment: mature riverine-savanna tree, large reused raptor/crow stick nest, dry open savanna/thorn scrub beyond, warm filtered dawn light. Adults on separate stable branches beside nest. Clean labels, cinematic depth, natural support.
 
 Strict negatives: no extra owl, egg or prey; no yellow/orange adult irises; no bright adult-pink juvenile lids; no adult-dark bill on juvenile; no exaggerated female height; no mature adult-pattern juvenile wing/tail; no unsupported juvenile; no flight; no misspelling.
+
+## Actual image review and iteration
+
+- IMAGE_GENERATED: 2026-10-30T20:34:00+08:00; 49.6s. Initial full plate opened. Title/count/adults/nest/support passed; juvenile had crisp adult shoulder spots, layered remiges and overly vivid lids.
+- REVIEWED: 2026-10-30T20:40:00+08:00; one targeted juvenile-only edit, 114.1s. Edited 1536×1024 original and 680×453 derivative opened.
+- Problem → evidence → change: Brown's fine-barred ~6-week nestling does not establish adult-perfect wing geometry; removed adult shoulder row/layering, compacted wing into mesoptile and muted juvenile lids.
+- Result: PASS_WITH_LIMITATIONS; adult identity, restrained female fullness, juvenile crouch and bilateral nest support pass. Exact individual age, continuous feather sequence and flight threshold remain unknown; scientifically_verified=false.
+- Image hashes: generated `0bfda1ab8525970e784ca95651de4654a257c354c6f91efd0b9f328f710d0258`; reviewed `493817d108f19dc951f72e2a8576bd2206f797e8f69ed7f863b43585fe94749e`; concept `69996d8c405c861d37af22d8a31018397430044d7d86db54c461b9864b934cfa`.

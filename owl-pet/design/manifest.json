@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30",
+  "updated": "2026-10-30T20:43:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11223,7 +11223,49 @@
         "unique_species": "175/251",
         "science": false
       }
+    },
+    {
+      "id": "55-bubo-lacteus-v4",
+      "path": "design/concepts/55-bubo-lacteus-v4.png",
+      "species_id": 55,
+      "scientific_name": "Bubo lacteus",
+      "historical_names": [
+        "Ketupa lactea",
+        "Strix lactea",
+        "Nyctaetus lacteus",
+        "Bubo verreauxi"
+      ],
+      "common_name": "Verreaux's Eagle-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "69996d8c405c861d37af22d8a31018397430044d7d86db54c461b9864b934cfa",
+      "scientifically_verified": false,
+      "status": "SCIENCE_REVISION: Brown 1965 approximately-six-week nestling crouched fully supported in an old stick nest, with fine grey/white barring, plain white thighs, black cheek streaks, almost-black eyes, pale blue-grey bill, yellowish-white feet and paler orange-pink lids. One juvenile-only edit removed adult shoulder spots/layered remiges and muted the lids. Exact individual age, continuous feather sequence and flight threshold remain unknown.",
+      "source_ids": [
+        "VEO-MIKKOLA-2013-P286",
+        "VEO-BROWN-1965",
+        "VEO-PILLANS-2019",
+        "VEO-ITIS-1244710",
+        "VEO-GBIF-CP2JC"
+      ],
+      "research_record": "research/species/55-bubo-lacteus-v4.md",
+      "run_record": "owl-pet/production/runs/20261030T200400+0800-cycle-6.md",
+      "reviewed_at": "2026-10-30T20:40:00+08:00",
+      "dimensions": "680x453",
+      "size_bytes": 661867,
+      "git_blob": "1e736a1b1c075dfdbe740960e92fef6be9bc5dbe",
+      "generated_blob": "0c12dd7355938d9aa4c31f53ab62558988900fc9",
+      "reviewed_blob": "386a484132194826e0c0ea87085ac140516a9a55",
+      "generated_sha256": "0bfda1ab8525970e784ca95651de4654a257c354c6f91efd0b9f328f710d0258",
+      "reviewed_sha256": "493817d108f19dc951f72e2a8576bd2206f797e8f69ed7f863b43585fe94749e",
+      "generated_size_bytes": 3298442,
+      "reviewed_size_bytes": 3030644,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "archive_note": "Initial and edited originals plus 680x453 derivative opened. Text/count/adults/nest/support passed; final juvenile wing compact and mesoptile-embedded with paler lids. Exact age/feather chronology/flight threshold unknown; science false.",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-30T20:03:00+08:00"
+  "updated_at": "2026-10-30T20:43:00+08:00"
 }

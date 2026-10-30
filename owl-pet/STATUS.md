@@ -2562,3 +2562,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 - Wetmore museum-series passage validates formed brown barred juvenile wing/tail with buffy-white down and barred pale coverts/back; v1 blanket short-wing rule corrected.
 - One juvenile-only edit replaced round covert spots with transverse bars. Concept 680x453; masters 1536x1024; PASS_WITH_LIMITATIONS.
 - Manifests 573/572/563; unique 175/251; fixed readback pending; science false.
+
+
+### #67 v4 VERIFIED — 2026-10-30T23:54:00+08:00
+
+- Fixed archive 82ba5ddf356e75b24a00b737bd02e1b5fad32565 returned exact concept/generated/reviewed blobs and sizes in a non-truncated 2,117-entry tree; manifests 573/572/563 and supporting records matched.
+- Batch 2026-10-30T2158+0800 is 5/6, next cycle 6. Unique 175/251; science false.

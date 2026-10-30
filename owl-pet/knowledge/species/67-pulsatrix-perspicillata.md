@@ -29,3 +29,10 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - Issue → evidence → edit: first render showed round pale covert spots; Wetmore describes buffy-white first-stage coverts/back barred brownish gray. One center-only edit produced continuous soft transverse bars while retaining formed brown barred remiges/tail.
 - Edited master, juvenile crop and 680x453 derivative opened; exact text/count, adults, dark mask/yellow eyes, wing-tail exception, cavity/branches and foot support pass. Rule validated for this image only.
 - Assets: design/concepts/67-pulsatrix-perspicillata-v4.png plus generated/reviewed masters. PASS_WITH_LIMITATIONS; exact age/chronology/first-flight/height ratio/subspecies unknown; science false; readback pending.
+
+
+## v4 fixed-tree verification — 2026-10-30T23:54:00+08:00
+
+- Fixed archive 82ba5ddf356e75b24a00b737bd02e1b5fad32565; recursive tree not truncated (2,117 entries).
+- Concept 4fbf5356c1e960b3c56f26636546652684d482b2 / 652,833 B; generated 10728282fd215ca13f5f5bc0a5cea6bc5ba80c9b / 3,180,987 B; reviewed bf67cf62877d4c005cbdee444392d3649594e71c / 2,963,651 B.
+- All archive/index markers reread. Science remains false for listed unknowns.

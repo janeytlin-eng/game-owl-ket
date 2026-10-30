@@ -2,7 +2,7 @@
 
 - Run: 20261030T234400+0800-cycle-5; batch 2026-10-30T2158+0800; cycle 5/6.
 - Action: SCIENCE_REVISION; v1-v3 retained; unique species increment 0.
-- Status: ARCHIVED_PENDING_READBACK at 2026-10-30T23:52:00+08:00; science false.
+- Status: VERIFIED_ARCHIVE at 2026-10-30T23:54:00+08:00; science false.
 
 ## Sources actually read
 
@@ -45,3 +45,9 @@ Composition/constraints: clean comparison plate, full birds clearly separated, e
 - First render issue: repeated pale round covert spots.
 - Evidence/edit: Wetmore's buffy-white coverts/back with brownish-gray bars; center-only edit converted spots to soft transverse bands while preserving formed brown remiges/tail.
 - Recheck: edited master, center crop and derivative opened; PASS_WITH_LIMITATIONS. Archive paths saved; fixed readback pending; science false.
+
+
+## Fixed archive verification
+
+- Commit 82ba5ddf356e75b24a00b737bd02e1b5fad32565; recursive tree non-truncated (2,117 entries).
+- Exact image blobs/sizes and manifests 573/572/563 matched; scientific acceptance remains false.

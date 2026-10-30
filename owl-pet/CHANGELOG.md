@@ -1434,3 +1434,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-10-30T23:52:00+08:00 — archived #67 *Pulsatrix perspicillata* v4 preparation. Added Smithsonian Wetmore 1968 pp.164–165, corrected the v1 blanket short-white-wing rule, and made one juvenile-only edit from round spots to transverse bars. Manifests 573/572/563; unique 175/251; fixed readback pending; science false.
+
+- 2026-10-30T23:54:00+08:00 — verified #67 *Pulsatrix perspicillata* v4 at fixed archive 82ba5ddf356e75b24a00b737bd02e1b5fad32565; exact image paths/blobs/sizes, manifests 573/572/563 and support records matched. Batch 5/6, next cycle 6; unique 175/251; science false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T23:52:00+08:00",
+  "updated": "2026-10-30T23:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -11510,14 +11510,41 @@
       "reviewed_sha256": "6c2e005c3b29b7ff0bac31e5d233784adb3cca22c5802a7cd19586bd2f14506a",
       "reviewed_size_bytes": 2963651,
       "archive_note": "V1-v3 preserved. Generated/edited masters and 680x453 concept opened. One juvenile-only edit replaced round spots with transverse bars while retaining source-supported formed brown remiges/tail. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
+      "readback_pending": false,
+      "archive_commit": "82ba5ddf356e75b24a00b737bd02e1b5fad32565",
       "git_blob": "4fbf5356c1e960b3c56f26636546652684d482b2",
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "Pending fixed-commit readback.",
+      "fixed_commit": "82ba5ddf356e75b24a00b737bd02e1b5fad32565",
+      "verified_at": "2026-10-30T23:54:00+08:00",
+      "verification_result": "VERIFIED against fixed archive: exact concept/generated/reviewed paths, blob SHAs and sizes; non-truncated tree; manifest counts 573/572/563; supporting records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "82ba5ddf356e75b24a00b737bd02e1b5fad32565",
+        "tree_truncated": false,
+        "tree_entries": 2117,
+        "concept": {
+          "path": "owl-pet/design/concepts/67-pulsatrix-perspicillata-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4fbf5356c1e960b3c56f26636546652684d482b2",
+          "size": 652833,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/82ba5ddf356e75b24a00b737bd02e1b5fad32565/owl-pet/design/concepts/67-pulsatrix-perspicillata-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/67-pulsatrix-perspicillata-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "10728282fd215ca13f5f5bc0a5cea6bc5ba80c9b",
+          "size": 3180987,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/82ba5ddf356e75b24a00b737bd02e1b5fad32565/owl-pet/production/generated/67-pulsatrix-perspicillata-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/67-pulsatrix-perspicillata-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "bf67cf62877d4c005cbdee444392d3649594e71c",
+          "size": 2963651,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/82ba5ddf356e75b24a00b737bd02e1b5fad32565/owl-pet/production/reviewed/67-pulsatrix-perspicillata-v4-reviewed-master.png?raw=1"
+        },
         "manifest_counts": {
           "legacy": 573,
           "design": 572,
@@ -11528,5 +11555,5 @@
       }
     }
   ],
-  "updated_at": "2026-10-30T23:52:00+08:00"
+  "updated_at": "2026-10-30T23:54:00+08:00"
 }

@@ -6225,3 +6225,18 @@ Fresh reuse: `JUOW-OISEAUXNET-LEBOFF-2026`, `JUOW-OISEAUXBIRDS-BOUGLOUAN-2026`, 
 - **Links:** [v4 research card](species/32-glaucidium-castanotum-v4.md) · [v4 run](../production/runs/20261030T085300+0800-cycle-2.md)
 
 Fresh reuse: `CBOW-COMMONS-ABEY2019`, `CBOW-EDIRISINGHE-2025`, `CBOW-FLICKR-KALUBOWILA-2014`, `CBOW-MIKKOLA-2013`, `CBOW-PEREGRINE-2026`. New1/reused5/corrected0. The direct juvenile records support an age-unknown fully feathered older dependent bird, not an exact day-stage or flight threshold. Mikkola upload remained inaccessible this run; only the repository's earlier page-verified p.406 note is reused, with no new page claim. Science false.
+
+
+# 2026-10-30 — #33 *Taenioptynx brodiei* v4 — current-name mapping
+
+## COOW-ITIS-2026
+- **Title / institution / accessed:** ITIS Report — *Taenioptynx brodiei* (Burton, 1836), TSN 1244679; Integrated Taxonomic Information System; accessed 2026-10-30.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1244679
+- **Type/material read:** authoritative taxonomic database record.
+- **Species/stage:** species nomenclature; all stages.
+- **Facts:** accepts *Taenioptynx brodiei* as valid and maps *Glaucidium brodiei* and *Noctua brodiei* as synonyms/historical combinations.
+- **Limits/conflicts/confidence:** nomenclature only; no morphology, sex or development evidence. High confidence for the current-name mapping within ITIS.
+- **Design decision:** keeps the production title on *Taenioptynx brodiei* while preserving historical search names; does not affect plumage.
+- **Links:** [v4 research card](species/33-taenioptynx-brodiei-v4.md) · [v4 run](../production/runs/20261030T091000+0800-cycle-3.md)
+
+Fresh reuse: `COOW-LIN-ETAL-2014`, `COOW-OISEAUXNET-AUDEVARD-2010`, `COOW-MIKKOLA-2013`, `COOW-GWEE-2019`. New1/reused4/corrected0. Lin et al. directly supports the approximately 56-day full-grown fledgling with fewer dorsal/crown markings and incomplete occipital pattern; no universal regional transfer or flight-performance claim. Mikkola upload unavailable this run; only earlier page-verified material is reused. Science false.

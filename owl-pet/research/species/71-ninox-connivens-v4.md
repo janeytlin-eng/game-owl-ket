@@ -42,3 +42,8 @@ Avoid: extra birds, prey, eggs, ear tufts, Powerful-Owl chevrons, adult-spotted 
 - Full 1536×1024 master, 520×700 juvenile crop and 680×453 derivative opened. Adult vertical streaks/irregular spots; juvenile plainer crown, incomplete collar/mottled nape, diffuse wing marks, developed wing/tail and support passed first render.
 - Result: PASS_WITH_LIMITATIONS; edit count 0. Exact day-specific feather geometry and subspecies transfer remain unknown. Science false.
 - Archive prepared with concept blob `4830cefdc8d051d8d6fd703eda05ea6cf4b47f14`; fixed readback pending.
+
+
+## Fixed archive verification — 2026-10-31T00:54:43+08:00
+
+- Commit `c770e1c38f7e30027d5c4e49d67becd9fc0b4d15`; tree non-truncated, 2141 entries; exact assets, manifests 577/576/567 and support records matched. Science remains false.

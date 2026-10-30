@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:53:50+08:00",
+  "updated": "2026-10-31T00:54:43+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12396,17 +12396,58 @@
       "review_crop_blob": "3fb75d287f837adf77801d11bf9c78a2df8a7237",
       "review_crop_size_bytes": 768643,
       "archive_note": "V1-v3 preserved. V3 reopened; first v4 render, crop and derivative opened; edit count 0. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "c770e1c38f7e30027d5c4e49d67becd9fc0b4d15",
+      "verified_at": "2026-10-31T00:54:43+08:00",
       "git_blob": "4830cefdc8d051d8d6fd703eda05ea6cf4b47f14",
-      "fixed_commit": null,
-      "verification_result": "PENDING fixed-commit readback",
+      "fixed_commit": "c770e1c38f7e30027d5c4e49d67becd9fc0b4d15",
+      "verification_result": "VERIFIED against fixed archive: non-truncated 2,141-entry tree; exact concept/generated/reviewed/crop paths, blob SHAs and sizes; manifest counts 577/576/567; supporting run/research/state records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "c770e1c38f7e30027d5c4e49d67becd9fc0b4d15",
+        "tree_truncated": false,
+        "tree_entries": 2141,
+        "concept": {
+          "path": "owl-pet/design/concepts/71-ninox-connivens-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "4830cefdc8d051d8d6fd703eda05ea6cf4b47f14",
+          "size": 678737,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/c770e1c38f7e30027d5c4e49d67becd9fc0b4d15/owl-pet/design/concepts/71-ninox-connivens-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/71-ninox-connivens-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "542ee23d17ba516cb1dcda2cc6f323bc11ed97f2",
+          "size": 3399149,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/c770e1c38f7e30027d5c4e49d67becd9fc0b4d15/owl-pet/production/generated/71-ninox-connivens-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/71-ninox-connivens-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "542ee23d17ba516cb1dcda2cc6f323bc11ed97f2",
+          "size": 3399149,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/c770e1c38f7e30027d5c4e49d67becd9fc0b4d15/owl-pet/production/reviewed/71-ninox-connivens-v4-reviewed-master.png?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/review-crops/71-ninox-connivens-v4-juvenile.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "3fb75d287f837adf77801d11bf9c78a2df8a7237",
+          "size": 768643,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/c770e1c38f7e30027d5c4e49d67becd9fc0b4d15/owl-pet/production/review-crops/71-ninox-connivens-v4-juvenile.png?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 577,
+          "design": 576,
+          "production": 567
+        },
+        "unique_species": "175/251",
         "science": false
       }
     }
   ],
-  "updated_at": "2026-10-31T00:53:50+08:00"
+  "updated_at": "2026-10-31T00:54:43+08:00"
 }

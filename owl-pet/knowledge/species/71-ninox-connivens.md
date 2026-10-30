@@ -19,3 +19,6 @@
 - V3 fixed original reopened and showed dense adult-like juvenile crown/wing spots. V4 keeps developed wing/tail and firm grip from the primary day-2/day-3 mobility record, but restores plainer crown, incomplete collar, mottled nape, fewer streaks and sparse diffuse wing marks.
 - First render/full/crop/derivative passed without edit. Exact day-specific feather geometry, subspecies transfer and first-flight mechanics unknown; science false.
 - Research: [v4](../../research/species/71-ninox-connivens-v4.md) · run: [cycle 3](../../production/runs/20261031T005104+0800-cycle-3.md).
+
+
+Verification 2026-10-31T00:54:43+08:00: fixed archive `c770e1c38f7e30027d5c4e49d67becd9fc0b4d15` returned exact assets and non-truncated tree; manifests 577/576/567; science false.

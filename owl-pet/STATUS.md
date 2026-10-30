@@ -2613,3 +2613,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 - V3 fixed original reopened; juvenile adult-pattern crown/wing spots corrected while preserving the primary-study mobile recent-fledgling stage with developed wing/tail.
 - First render, reviewed master, 520×700 crop and 680×453 derivative passed without edit; PASS_WITH_LIMITATIONS.
 - Manifests 577/576/567; unique 175/251; fixed readback pending; science false.
+
+
+### #71 v4 VERIFIED — 2026-10-31T00:54:43+08:00
+
+- Fixed archive `c770e1c38f7e30027d5c4e49d67becd9fc0b4d15` returned exact concept/generated/reviewed/crop blobs and sizes in a non-truncated 2141-entry tree; manifests 577/576/567 and support records matched.
+- Batch `2026-10-31T0034+0800` is 3/6, next cycle 4. Unique remains 175/251; science false.

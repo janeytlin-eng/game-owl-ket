@@ -2522,3 +2522,6 @@ Verification 2026-10-31T00:49:00+08:00: #70 v4 fixed archive `cd18932e5f0df19e09
 - Concept: `design/concepts/71-ninox-connivens-v4.png`; generated/reviewed masters and 520×700 juvenile crop retained.
 - V4 preserves a mobile recent fledgling with developed wing/tail but removes v3 adult-pattern leakage: plainer crown, incomplete collar, mottled nape and sparse diffuse wing marks.
 - Adults keep irregular wing spots and vertical underpart streaks; sex direction subtle. Full, crop and derivative opened; edit0; PASS_WITH_LIMITATIONS. Exact day-specific feather geometry/subspecies transfer remain unknown. Science false.
+
+
+Verification 2026-10-31T00:54:43+08:00: #71 v4 fixed archive `c770e1c38f7e30027d5c4e49d67becd9fc0b4d15` returned exact assets and manifests 577/576/567; batch 3/6 next4; science false.

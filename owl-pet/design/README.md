@@ -1,3 +1,11 @@
+## #78 Marsh Owl — *Asio capensis* — v4 science revision
+
+- Concept: [78-asio-capensis-v4.jpg](concepts/78-asio-capensis-v4.jpg)
+- Research: [78-asio-capensis-v4.md](../research/species/78-asio-capensis-v4.md)
+- Run: [20261031T022749+0800-cycle-2.md](../production/runs/20261031T022749+0800-cycle-2.md)
+- Status: ARCHIVED, fixed readback pending; PASS_WITH_LIMITATIONS; science false.
+- Change: exact juvenile age claim removed; adult-like long regularly barred juvenile wing shortened and down-softened after one targeted edit.
+
 ## #59 Brown Fish Owl — *Ketupa zeylonensis* — v4 science revision
 
 - Concept: [59-ketupa-zeylonensis-v4.jpg](concepts/59-ketupa-zeylonensis-v4.jpg)

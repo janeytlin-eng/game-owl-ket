@@ -53,3 +53,11 @@ Constraints: exactly three birds; exact readable text; no eggs, extra birds, ext
 - New verified sources: 0
 - Reused sources: 6
 - Corrected design inference: 1
+
+## Final visual review and archive checkpoint
+
+- Initial full image: adult identity, labels, three-bird count and support passed; the juvenile wing retained overly regular pale rows and long layered adult-like structure.
+- Targeted edit: only the central juvenile wing was shortened, rounded and down-fringed; repeated adult-style rows were reduced to sparse irregular bars. Adults, text, feet and habitat were held stable.
+- Reopened reviewed master, juvenile crop and 680×453 concept derivative: PASS_WITH_LIMITATIONS. The juvenile now makes a cautious supported step; exact age, sex and feather chronology remain unknown. Science remains false.
+- ARCHIVED 2026-10-31T02:34:10+08:00: exact JPEG blobs and manifests saved; fixed-tree readback pending.
+

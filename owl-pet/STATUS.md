@@ -1,3 +1,10 @@
+## 2026-10-31 #78 *Asio capensis* v4 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique species remains 175/251.
+- Removed v3's exact age label and adult-like regular wing panel; retained a cautious supported step and marsh tussock context.
+- Exact concept/generated/reviewed/crop blobs and three manifest rows persisted; fixed archive tree verification pending.
+- Run: [20261031T022749+0800-cycle-2.md](production/runs/20261031T022749+0800-cycle-2.md)
+
 ## 2026-10-31 #77 *Asio stygius* v4 VERIFIED
 
 - SCIENCE_REVISION; one juvenile-wing edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.

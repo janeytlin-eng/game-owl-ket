@@ -19,3 +19,10 @@ Final `78-asio-capensis-v2.png`: exactly three labeled birds. First draft's juve
 ## 2026-10-31 v4 research-ready
 
 V1–v3 and all prior confirmation/history are preserved. The v3 fixed image was actually opened: adult identity and support remain usable, but the juvenile wing shows adult-regular pale rows and the exact 29–35-day label is more precise than the accessible evidence. V4 uses an age-unknown older mobile dependent with a developed but soft irregularly barred folded wing, short tail, dark face/ruff and bilateral grass support. Adults remain comparable in crown height; female direction is limited to modest fullness/tail length from the sexed morphometrics. New0/reused6/corrected1; web searches/direct opens returned empty error payloads and were not credited. Exact age, first-flight threshold, continuous feather sequence and universal sex ratio remain unknown; `scientifically_verified=false`.
+
+## v4 archive update — 2026-10-31T02:34:10+08:00
+
+- Applied evidence boundary: use an older dependent juvenile without claiming an exact day range; short rounded down-fringed developing wing, sparse irregular markings, very short/hidden tail and natural supported stepping posture.
+- Adult scale rule applied: near-equal visible size; female only subtly fuller, not a generic exaggerated female-larger template.
+- One targeted wing edit passed full/crop/derivative review. Remaining developmental chronology is explicitly unknown; science false.
+

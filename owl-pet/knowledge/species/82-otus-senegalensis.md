@@ -26,3 +26,8 @@ Initial full-resolution render showed the center juvenile with adult-regular whi
 ## 2026-10-31 v4 range-to-individual correction
 
 Active searches/direct opens returned empty payloads and were not credited. Reused the page-pinned Riekert, Brown/Riekert/Morsbach, Biodiversity Explorer, Owl Pages and Mikkola records. V4 changes “25–28-DAY” to “RECENT FLEDGLING”, retains study-bounded recent-fledgling scale, and further compacts/softens the juvenile wing without erasing developed fresh feathers. Full/crop/680×453 derivative viewed; PASS_WITH_LIMITATIONS; exact individual age, tract geometry, flight threshold and sex-size ratio remain unknown; science false.
+
+
+## 2026-10-31 v4 fixed readback
+
+Archive `e8967091ffc5fb1dfce11c1b96225a1147ae2ee4` returned exact concept/generated/reviewed/crop payloads and supporting records. Integrity is verified; biological unknowns remain and science stays false.

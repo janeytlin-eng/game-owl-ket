@@ -8191,15 +8191,24 @@
       "next_cycle": 6,
       "last_checkpoint": {
         "cycle": 6,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 4,
         "run_id": "20261030T200400+0800-cycle-6",
-        "at": "2026-10-30T20:04:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T200400+0800-cycle-6.md"
+        "at": "2026-10-30T20:30:00+08:00",
+        "run_record": "owl-pet/production/runs/20261030T200400+0800-cycle-6.md",
+        "evidence": {
+          "research_commit": "adaac585ae6602f640920acc435cec1b7e3f58ea",
+          "source_index_commit": "13118eb06d8dd402c75b9724f577092de64ca69d",
+          "research_record": "owl-pet/research/species/55-bubo-lacteus-v4.md",
+          "full_prompt_saved": true,
+          "new_sources": 3,
+          "reused_sources": 2,
+          "corrected_claims": 2
+        }
       },
-      "last_updated_at": "2026-10-30T20:04:00+08:00",
+      "last_updated_at": "2026-10-30T20:30:00+08:00",
       "audit_notes": [
         "2026-10-30T18:31:00+08:00 cycle1 #49 Strix woodfordii v4 SCIENCE_REVISION STARTED; v1–v3 preserved; latest main/manifest/card checked; 15-minute lease acquired; no credit.",
         "2026-10-30T18:35:00+08:00 cycle1 #49 v4 RESEARCH_READY; new2/reused4/corrected1. Mikkola printed pp320–321, SANBI development account and ITIS current/old-name mapping read. V4 selects age-unknown later Tanzanian nigricantior young with adult-like folded wing/tail explicitly allowed by same-population caption, while underparts remain partly downy; full prompt saved; science false; no credit.",
@@ -8229,7 +8238,8 @@
         "2026-10-30T19:58:00+08:00 cycle5 #54 v4 REVIEWED after two juvenile-only edits; final full plate and crop reopened. Greyish-yellow eyes and continuous mesoptile pass; adult-regular juvenile wing panel removed; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-30T20:01:00+08:00 cycle5 #54 v4 ARCHIVED; concept 0dca7c587c/614830B, generated a6d6d1da0f/2855442B, reviewed 587ecfa9a7/2690658B; manifest560→561; fixed readback pending; science false; no credit.",
         "2026-10-30T20:03:00+08:00 cycle5 #54 v4 VERIFIED against fixed archive 0598a72a5105755f47dfdb8b993c4cdc589bfb83; exact images/manifest561/source/research/run/knowledge matched; batch5/6 next6; unique175/251; science false; lease released.",
-        "2026-10-30T20:04:00+08:00 cycle6 #55 Bubo lacteus v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit."
+        "2026-10-30T20:04:00+08:00 cycle6 #55 Bubo lacteus v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
+        "2026-10-30T20:30:00+08:00 cycle6 #55 v4 RESEARCH_READY recovered after expired STARTED lease; research record adaac585 and source index 13118eb already persisted. New3/reused2/corrected2; full prompt saved; 15-minute lease renewed; no image and no cycle credit."
       ],
       "active_lease": {
         "owner": "codex-automation",
@@ -8239,8 +8249,8 @@
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 4,
-        "heartbeat_at": "2026-10-30T20:04:00+08:00",
-        "expires_at": "2026-10-30T20:19:00+08:00"
+        "heartbeat_at": "2026-10-30T20:30:00+08:00",
+        "expires_at": "2026-10-30T20:45:00+08:00"
       },
       "lease": {
         "owner": "codex-automation",
@@ -8250,8 +8260,8 @@
         "species": "Bubo lacteus",
         "species_id": 55,
         "version": 4,
-        "heartbeat_at": "2026-10-30T20:04:00+08:00",
-        "expires_at": "2026-10-30T20:19:00+08:00"
+        "heartbeat_at": "2026-10-30T20:30:00+08:00",
+        "expires_at": "2026-10-30T20:45:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T1831+0800",
@@ -8263,10 +8273,10 @@
         "unique_species_increment": 0,
         "run_id": "20261030T200400+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261030T200400+0800-cycle-6.md",
-        "status": "STARTED",
-        "stage": "STARTED",
+        "status": "RESEARCH_READY",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-10-30T20:04:00+08:00",
-        "last_updated_at": "2026-10-30T20:04:00+08:00",
+        "last_updated_at": "2026-10-30T20:30:00+08:00",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261030T200400+0800-cycle-6",
@@ -8275,8 +8285,17 @@
           "species": "Bubo lacteus",
           "species_id": 55,
           "version": 4,
-          "heartbeat_at": "2026-10-30T20:04:00+08:00",
-          "expires_at": "2026-10-30T20:19:00+08:00"
+          "heartbeat_at": "2026-10-30T20:30:00+08:00",
+          "expires_at": "2026-10-30T20:45:00+08:00"
+        },
+        "evidence": {
+          "research_commit": "adaac585ae6602f640920acc435cec1b7e3f58ea",
+          "source_index_commit": "13118eb06d8dd402c75b9724f577092de64ca69d",
+          "research_record": "owl-pet/research/species/55-bubo-lacteus-v4.md",
+          "full_prompt_saved": true,
+          "new_sources": 3,
+          "reused_sources": 2,
+          "corrected_claims": 2
         }
       }
     }

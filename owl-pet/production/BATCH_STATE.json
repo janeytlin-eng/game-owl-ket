@@ -8879,24 +8879,25 @@
       "next_cycle": 5,
       "last_checkpoint": {
         "cycle": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Bubo capensis",
         "species_id": 88,
         "version": 5,
         "run_id": "20261031T055200+0800-cycle-5",
-        "at": "2026-10-31T06:03:00+08:00",
+        "at": "2026-10-31T06:05:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T055200+0800-cycle-5.md",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/88-bubo-capensis-v5-generated-master.jpg",
-          "blob_sha": "8c8b8726914043119dade681cdb6f28f2ecd2839",
-          "bytes": 698023,
-          "sha256": "c7eb5744aaf15876d9ea009dd46db5bb7c2411d336cb69de82970136685c5726",
-          "dimensions": "1536x1024",
-          "imagegen_succeeded": true,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 0,
+          "full_opened": true,
+          "juvenile_crop_opened": true,
+          "concept_blob": "7f95d9b0e5e6406bf9663e0b597920774954d84f",
+          "reviewed_blob": "8c8b8726914043119dade681cdb6f28f2ecd2839",
+          "crop_blob": "bcda1edb7a99b65a2b184efd398ffc1a3ee9cead",
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T06:03:00+08:00",
+      "last_updated_at": "2026-10-31T06:05:00+08:00",
       "audit_notes": [
         "2026-10-31T04:30:00+08:00 cycle1 #83 Otus brucei v4 SCIENCE_REVISION STARTED; latest main/batch/v3 manifest and fixed v3 evidence checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T04:38:00+08:00 cycle1 #83 v4 RESEARCH_READY; new1/reused2/corrected2; Mikkola printed pp.126–127/PDF pp.128–129 and Chandran et al. 2016 full text actually read; v3 reopened; exact individual day label, adult-like juvenile wing and unsupported adult height difference identified; full prompt saved; science false; no credit.",
@@ -8924,13 +8925,14 @@
         "2026-10-31T05:49:00+08:00 cycle4 #87 v4 VERIFIED against fixed archive e2e64d496ad9cb0bf37b1262950187cf04e86e10; exact assets/blobs/sizes, non-truncated 2223-entry tree, manifests590/589/580 and support records matched; batch4/6 next5; unique175/251; science false; lease released.",
         "2026-10-31T05:52:00+08:00 cycle5 #88 Bubo capensis v5 SCIENCE_REVISION STARTED; latest main/batch/v4 knowledge, fixed concept and prior archive checked; v1-v4 preserved; missing repository number identified; 15-minute lease acquired; no credit.",
         "2026-10-31T05:59:00+08:00 cycle5 #88 v5 RESEARCH_READY; new1/reused3/corrected1; Biodiversity Explorer/Roberts summary and Peregrine Fund page actually read; v4 reopened; only missing repository number identified; full text-only prompt saved; science false; no credit.",
-        "2026-10-31T06:03:00+08:00 cycle5 #88 v5 IMAGE_GENERATED; imagegen precise-object edit succeeded; exact `88 CAPE EAGLE-OWL`; 1536x1024 JPEG persisted; biology held; no credit."
+        "2026-10-31T06:03:00+08:00 cycle5 #88 v5 IMAGE_GENERATED; imagegen precise-object edit succeeded; exact `88 CAPE EAGLE-OWL`; 1536x1024 JPEG persisted; biology held; no credit.",
+        "2026-10-31T06:05:00+08:00 cycle5 #88 v5 REVIEWED; full and juvenile crop opened; exact title/count, adult breastplate/barred belly/feet, yellow-eyed c.45-day soft-wing young and bilateral mineral support pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T055200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T06:03:00+08:00",
-        "expires_at": "2026-10-31T06:18:00+08:00"
+        "heartbeat_at": "2026-10-31T06:05:00+08:00",
+        "expires_at": "2026-10-31T06:20:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -8939,7 +8941,7 @@
         "version": 5,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T055200+0800-cycle-5",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261031T055200+0800-cycle-5.md"
       }
     }

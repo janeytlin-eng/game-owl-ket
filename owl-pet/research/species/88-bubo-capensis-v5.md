@@ -25,3 +25,7 @@ Asset type: owl-pet scientific species concept plate
 Input: #88 v4 is the authoritative edit target.
 Change only the visible species title from “CAPE EAGLE-OWL” to exactly “88 CAPE EAGLE-OWL”. Preserve the scientific line “Bubo capensis” and bottom labels “ADULT MALE”, “~45-DAY PRE-FLIGHT YOUNG”, “ADULT FEMALE”. Preserve exactly three birds and every biological/scene pixel direction: nominate southern African adults near equal standing height with only a modestly fuller female, orange eyes, blackish bills, coarse breastplate, barred belly, feathered feet; central yellow-eyed older chick with diffuse barred mesoptile, short rounded soft developing folded wing, short/hidden tail and both feet on mineral threshold; rocky cave/outcrop, sparse scrub, lighting and crop. Do not add birds, text, mature juvenile remiges, flight pose, logo or watermark.
 ```
+
+## Actual image review
+
+Opened the 1536×1024 master and 520×700 juvenile crop. Title is exactly `88 CAPE EAGLE-OWL`; scientific and role labels are correct and exactly three birds remain. Adult orange eyes, blackish bills, coarse breastplate, barred belly, feathered feet and near-equal height remain coherent. The yellow-eyed older chick retains diffuse mesoptile, a short rounded developing folded wing, short/hidden tail and bilateral mineral-threshold support. No flight pose or mature-wing substitution was introduced. Result `PASS_WITH_LIMITATIONS`, edit0, scientifically_verified=false. Exact individual age, sex, flight ability, feather tract, adult RSD and regional colour remain unknown.

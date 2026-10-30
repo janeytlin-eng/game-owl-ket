@@ -8291,24 +8291,35 @@
       "next_cycle": 2,
       "last_checkpoint": {
         "cycle": 2,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "species": "Ketupa coromanda",
         "species_id": 58,
         "version": 4,
         "run_id": "20261030T204800+0800-cycle-2",
-        "at": "2026-10-30T20:50:00+08:00",
+        "at": "2026-10-30T20:53:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/58-ketupa-coromanda-v4-generated-master.png",
-          "generated_blob": "82afd7129f2d49c9a9e3e2872347b6793de14b21",
-          "generated_commit": "80276f43b31b631fdf384549cd65eae53c09e63a",
-          "sha256": "4b09bbab34b4067b32bd064c4b222683ef4a9f0e25f298abf9dd64c5ebb92971",
-          "size_bytes": 3458510,
-          "generation_seconds": 48.1,
-          "visual_review": "title/count/adults/habitat/support pass; juvenile has crisp adult white-spotted coverts and overly regular layered remiges; edit required"
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 2,
+          "edited_sha256": "541cc06384acb24a53f5d59c3a7700115ef798e3c95ecf8f3c243ecdd63da558",
+          "edited_size_bytes": 3131969,
+          "concept_sha256": "a6c5787a65001e8a30054673ef8a23710ed720903e14739d073995ab1084c037",
+          "concept_size_bytes": 685358,
+          "dimensions": [
+            "1536x1024",
+            "680x453"
+          ],
+          "inspection": "original and derivative opened; second juvenile-only edit removed white adult covert rows while preserving subdued formed flight feathers; all text/adults/site/support passed",
+          "unknowns": [
+            "exact age",
+            "continuous feather chronology",
+            "first-flight threshold",
+            "sexed display ratio",
+            "regional transfer"
+          ]
         }
       },
-      "last_updated_at": "2026-10-30T20:50:00+08:00",
+      "last_updated_at": "2026-10-30T20:53:00+08:00",
       "audit_notes": [
         "2026-10-30T20:39:00+08:00 cycle1 #57 Bubo nipalensis v4 SCIENCE_REVISION STARTED; #56 Bubo virginianus skipped as duplicate of canonical #14 Great Horned Owl; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T20:40:00+08:00 cycle1 #57 v4 RESEARCH_READY; new1/reused3/corrected1. Shukla 2025 printed p28 plus Srinivasan 2013 pp106–107 read; date is not age/flight threshold; full prompt saved; science false; no credit.",
@@ -8318,7 +8329,8 @@
         "2026-10-30T20:46:00+08:00 cycle1 #57 v4 VERIFIED against fixed archive cdaa43094b9567f5c92edabdeeefddc9bad1e81d; non-truncated tree returned exact three image blob SHAs/sizes; manifest563 and supporting markers matched; batch1/6 next2; unique remains175/251; science false; lease released.",
         "2026-10-30T20:48:00+08:00 cycle2 #58 Ketupa coromanda v4 SCIENCE_REVISION STARTED; v1–v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-30T20:49:00+08:00 cycle2 #58 v4 RESEARCH_READY; new1/reused3/corrected1. Ranade et al. 2020 pp93–94/Table1, Reddy 2023 and ITIS read; multi-nest site pattern is not age/plumage timing; full prompt saved; science false; no credit.",
-        "2026-10-30T20:50:00+08:00 cycle2 #58 v4 IMAGE_GENERATED in 48.1s; original opened. Title/count/adults/Bombax-water/platform/support passed; juvenile wing had crisp adult white-spotted coverts and regular layered remiges, so targeted edit required. Generated master persisted at 80276f4; no credit."
+        "2026-10-30T20:50:00+08:00 cycle2 #58 v4 IMAGE_GENERATED in 48.1s; original opened. Title/count/adults/Bombax-water/platform/support passed; juvenile wing had crisp adult white-spotted coverts and regular layered remiges, so targeted edit required. Generated master persisted at 80276f4; no credit.",
+        "2026-10-30T20:53:00+08:00 cycle2 #58 v4 REVIEWED after two juvenile-only wing edits (40.3s+44.1s). Edited original and derivative opened; second edit removed adult white covert rows while retaining subdued formed flight feathers and medium tail. Text/adults/site/support pass; PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-automation",
@@ -8328,8 +8340,8 @@
         "species": "Ketupa coromanda",
         "species_id": 58,
         "version": 4,
-        "heartbeat_at": "2026-10-30T20:50:00+08:00",
-        "expires_at": "2026-10-30T21:05:00+08:00"
+        "heartbeat_at": "2026-10-30T20:53:00+08:00",
+        "expires_at": "2026-10-30T21:08:00+08:00"
       },
       "lease": {
         "owner": "codex-automation",
@@ -8339,8 +8351,8 @@
         "species": "Ketupa coromanda",
         "species_id": 58,
         "version": 4,
-        "heartbeat_at": "2026-10-30T20:50:00+08:00",
-        "expires_at": "2026-10-30T21:05:00+08:00"
+        "heartbeat_at": "2026-10-30T20:53:00+08:00",
+        "expires_at": "2026-10-30T21:08:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-30T2039+0800",
@@ -8353,9 +8365,9 @@
         "run_id": "20261030T204800+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
         "status": "STARTED",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-30T20:48:00+08:00",
-        "last_updated_at": "2026-10-30T20:50:00+08:00",
+        "last_updated_at": "2026-10-30T20:53:00+08:00",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261030T204800+0800-cycle-2",
@@ -8364,17 +8376,28 @@
           "species": "Ketupa coromanda",
           "species_id": 58,
           "version": 4,
-          "heartbeat_at": "2026-10-30T20:50:00+08:00",
-          "expires_at": "2026-10-30T21:05:00+08:00"
+          "heartbeat_at": "2026-10-30T20:53:00+08:00",
+          "expires_at": "2026-10-30T21:08:00+08:00"
         },
         "evidence": {
-          "generated_path": "owl-pet/production/generated/58-ketupa-coromanda-v4-generated-master.png",
-          "generated_blob": "82afd7129f2d49c9a9e3e2872347b6793de14b21",
-          "generated_commit": "80276f43b31b631fdf384549cd65eae53c09e63a",
-          "sha256": "4b09bbab34b4067b32bd064c4b222683ef4a9f0e25f298abf9dd64c5ebb92971",
-          "size_bytes": 3458510,
-          "generation_seconds": 48.1,
-          "visual_review": "title/count/adults/habitat/support pass; juvenile has crisp adult white-spotted coverts and overly regular layered remiges; edit required"
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 2,
+          "edited_sha256": "541cc06384acb24a53f5d59c3a7700115ef798e3c95ecf8f3c243ecdd63da558",
+          "edited_size_bytes": 3131969,
+          "concept_sha256": "a6c5787a65001e8a30054673ef8a23710ed720903e14739d073995ab1084c037",
+          "concept_size_bytes": 685358,
+          "dimensions": [
+            "1536x1024",
+            "680x453"
+          ],
+          "inspection": "original and derivative opened; second juvenile-only edit removed white adult covert rows while preserving subdued formed flight feathers; all text/adults/site/support passed",
+          "unknowns": [
+            "exact age",
+            "continuous feather chronology",
+            "first-flight threshold",
+            "sexed display ratio",
+            "regional transfer"
+          ]
         }
       }
     }
@@ -8387,8 +8410,8 @@
     "species": "Ketupa coromanda",
     "species_id": 58,
     "version": 4,
-    "heartbeat_at": "2026-10-30T20:50:00+08:00",
-    "expires_at": "2026-10-30T21:05:00+08:00"
+    "heartbeat_at": "2026-10-30T20:53:00+08:00",
+    "expires_at": "2026-10-30T21:08:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -8521,7 +8544,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-30T20:50:00+08:00",
+  "updated_at": "2026-10-30T20:53:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -8538,10 +8561,10 @@
     "species": "Ketupa coromanda",
     "species_id": 58,
     "version": 4,
-    "heartbeat_at": "2026-10-30T20:50:00+08:00",
-    "expires_at": "2026-10-30T21:05:00+08:00"
+    "heartbeat_at": "2026-10-30T20:53:00+08:00",
+    "expires_at": "2026-10-30T21:08:00+08:00"
   },
-  "last_updated_at": "2026-10-30T20:50:00+08:00",
+  "last_updated_at": "2026-10-30T20:53:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -8963,9 +8986,9 @@
     "run_id": "20261030T204800+0800-cycle-2",
     "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
     "status": "STARTED",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-30T20:48:00+08:00",
-    "last_updated_at": "2026-10-30T20:50:00+08:00",
+    "last_updated_at": "2026-10-30T20:53:00+08:00",
     "lease": {
       "owner": "codex-automation",
       "run_id": "20261030T204800+0800-cycle-2",
@@ -8974,36 +8997,58 @@
       "species": "Ketupa coromanda",
       "species_id": 58,
       "version": 4,
-      "heartbeat_at": "2026-10-30T20:50:00+08:00",
-      "expires_at": "2026-10-30T21:05:00+08:00"
+      "heartbeat_at": "2026-10-30T20:53:00+08:00",
+      "expires_at": "2026-10-30T21:08:00+08:00"
     },
     "evidence": {
-      "generated_path": "owl-pet/production/generated/58-ketupa-coromanda-v4-generated-master.png",
-      "generated_blob": "82afd7129f2d49c9a9e3e2872347b6793de14b21",
-      "generated_commit": "80276f43b31b631fdf384549cd65eae53c09e63a",
-      "sha256": "4b09bbab34b4067b32bd064c4b222683ef4a9f0e25f298abf9dd64c5ebb92971",
-      "size_bytes": 3458510,
-      "generation_seconds": 48.1,
-      "visual_review": "title/count/adults/habitat/support pass; juvenile has crisp adult white-spotted coverts and overly regular layered remiges; edit required"
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "edited_sha256": "541cc06384acb24a53f5d59c3a7700115ef798e3c95ecf8f3c243ecdd63da558",
+      "edited_size_bytes": 3131969,
+      "concept_sha256": "a6c5787a65001e8a30054673ef8a23710ed720903e14739d073995ab1084c037",
+      "concept_size_bytes": 685358,
+      "dimensions": [
+        "1536x1024",
+        "680x453"
+      ],
+      "inspection": "original and derivative opened; second juvenile-only edit removed white adult covert rows while preserving subdued formed flight feathers; all text/adults/site/support passed",
+      "unknowns": [
+        "exact age",
+        "continuous feather chronology",
+        "first-flight threshold",
+        "sexed display ratio",
+        "regional transfer"
+      ]
     }
   },
   "last_checkpoint": {
     "cycle": 2,
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "species": "Ketupa coromanda",
     "species_id": 58,
     "version": 4,
     "run_id": "20261030T204800+0800-cycle-2",
-    "at": "2026-10-30T20:50:00+08:00",
+    "at": "2026-10-30T20:53:00+08:00",
     "run_record": "owl-pet/production/runs/20261030T204800+0800-cycle-2.md",
     "evidence": {
-      "generated_path": "owl-pet/production/generated/58-ketupa-coromanda-v4-generated-master.png",
-      "generated_blob": "82afd7129f2d49c9a9e3e2872347b6793de14b21",
-      "generated_commit": "80276f43b31b631fdf384549cd65eae53c09e63a",
-      "sha256": "4b09bbab34b4067b32bd064c4b222683ef4a9f0e25f298abf9dd64c5ebb92971",
-      "size_bytes": 3458510,
-      "generation_seconds": 48.1,
-      "visual_review": "title/count/adults/habitat/support pass; juvenile has crisp adult white-spotted coverts and overly regular layered remiges; edit required"
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "edited_sha256": "541cc06384acb24a53f5d59c3a7700115ef798e3c95ecf8f3c243ecdd63da558",
+      "edited_size_bytes": 3131969,
+      "concept_sha256": "a6c5787a65001e8a30054673ef8a23710ed720903e14739d073995ab1084c037",
+      "concept_size_bytes": 685358,
+      "dimensions": [
+        "1536x1024",
+        "680x453"
+      ],
+      "inspection": "original and derivative opened; second juvenile-only edit removed white adult covert rows while preserving subdued formed flight feathers; all text/adults/site/support passed",
+      "unknowns": [
+        "exact age",
+        "continuous feather chronology",
+        "first-flight threshold",
+        "sexed display ratio",
+        "regional transfer"
+      ]
     }
   }
 }

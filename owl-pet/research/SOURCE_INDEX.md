@@ -495,3 +495,24 @@
 - **Design decision:** v4 selects the 30-day cavity nestling stage, distinct from v3’s fully feathered recent fledgling. Show facial disc plus only sparse just-emerging flight-feather tips, abundant down, low cavity support and no branch/flight pose.
 - **Limits/conflicts:** hatching date was suspected, not directly observed; “just emerging” does not supply feather count/length or tract sequence. The account is based on very few nests. Do not infer sex from v4 nestling appearance.
 - **Related records:** `knowledge/species/65-tyto-soumagnei.md`; `research/species/65-tyto-soumagnei-v4.md`; `production/runs/20261030T224022+0800-cycle-3.md`; image version `65-tyto-soumagnei-v4`.
+
+## 2026-10-30 — #66 *Tyto capensis* v4 mature wetland-patch boundary
+
+### AGO-PRETORIUS-ETAL-2026-P110
+- **Title / authors / year:** “African Grass Owl nest site use and nest survival in fragmented grassland landscapes” / Pretorius et al. / 2026.
+- **URL / DOI:** https://doi.org/10.3957/056.056.0110 ; author-posted full text https://www.researchgate.net/publication/405010358_African_Grass_Owl_nest_site_use_and_nest_survival_in_fragmented_grassland_landscapes
+- **Accessed:** 2026-10-30; full displayed article text, methods/results and patch metrics read.
+- **Source type:** primary multi-year nest-site study; *African Journal of Wildlife Research* 56.
+- **Species / stage:** *Tyto capensis*; 41 nests and seven tracked nesting females, Gauteng/Mpumalanga, 2009–2017.
+- **Pages / sections:** pp.110–124; abstract, study design, nest-patch and survival results.
+- **Facts:** nest patches were larger and older than matched random patches, closer to more *Imperata cylindrica*, contained more wetland and less development; daily nest survival declined with development.
+- **Limits / confidence:** high for patch-scale habitat direction; no juvenile plumage, exact nest-chamber shape, day-age or flight threshold.
+- **Design decision:** v4 retains the BirdLife-supported recent fledgling but replaces v3’s conspicuous cave opening with a concealed runway and stable low platform inside mature dense *Imperata* wetland.
+- **Linked records:** `owl-pet/research/species/66-tyto-capensis-v4.md`; `owl-pet/production/runs/20261030T233010+0800-cycle-4.md`; planned `design/concepts/66-tyto-capensis-v4.png`.
+
+### Reused/corrected source mapping
+- `AGO-WHITTINGTON-2012`: pp.19–25; six nestlings/two active nests and literature-based ~6-week fledging; no feather chronology; buff face not a reliable age key.
+- `AGO-BLSA-RDB-2025`: current adult identity; fledgling darker and lacking adult white dorsal spots.
+- `SEO-OSTRICH-RSD-2008`: sample-specific female mass/body-length direction; no standing-height ratio.
+- **Correction:** patch-scale nesting evidence does not prove a visible cave-shaped chamber. Dense old wetland vegetation and concealed passage are supported; neat cave mouth is removed.
+- **Source/design delta:** new1 / reused3 / corrected1; science false.

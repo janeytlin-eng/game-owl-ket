@@ -33,3 +33,9 @@ Sources/complete prompt/iteration: [cycle record](../../production/runs/2026-10-
 - Archive commit: `0af2270579e4e43b4f7e103372aba1772224778e`; recursive tree not truncated.
 - Concept `f89f59a09110ca5955e64352b9989717c791e794` / 339039 B; generated/reviewed `2fece942b426064065c9c40533b710d87d0e8c81` / 416328 B each; crop `6da78d92bbd4ba7aafea972ab629b0455662a23b` / 109404 B.
 - All archive and source markers reread. Science remains false for exact chronology, universal sex scaling and geographic variation.
+
+## v4 RESEARCH_READY — 2026-10-30T23:34:00+08:00
+
+- New1/reused3/corrected1. New primary source AGO-PRETORIUS-ETAL-2026-P110 covers 41 nests and supports mature large *Imperata* wetland patches with low development, but not a neat visible cave mouth.
+- V4 keeps the recent fledgling’s dark unspotted dorsum and grounded folded-wing stage, while correcting the environment to a concealed runway/platform under dense old grass.
+- Complete prompt and evidence limits: [research record](../../research/species/66-tyto-capensis-v4.md). Exact age, feather chronology, first-flight threshold, universal sex scaling and chamber geometry remain unknown; science false.

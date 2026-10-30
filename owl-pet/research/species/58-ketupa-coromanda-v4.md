@@ -74,3 +74,12 @@ Typography exact and legible. No extra birds, eggs, prey, cave, ground nest, lab
 ## Iteration hypothesis
 
 V3 corrected an overly short juvenile wing. V4 tests a stricter two-part rule: retain a formed brancher wing/tail where field evidence supports a fledgling, but separately reject adult-regular shoulder rows and remige layering. The Upper Assam source changes the nest/site boundary without pretending to add age or plumage chronology.
+
+## Actual review and iteration — 2026-10-30 20:53 +08:00
+
+- Initial render passed text, three-bird count, adult identity/scale, Upper Assam *Bombax*–water–platform setting and bilateral juvenile support; juvenile coverts/remiges were adult-regular.
+- Edit 1 softened the wing but retained bright ordered covert spots.
+- Edit 2 removed the adult white covert rows and created a continuous down-soft grey-buff upper wing while preserving subdued formed flight feathers and medium tail.
+- Edited 1536×1024 original and 680×453 derivative opened; PASS_WITH_LIMITATIONS; science false.
+- Validated plate-level rule: repeat review after an edit, because “softer” is not equivalent to “adult row removed.” The second visual check caught the residual pattern.
+- Unknowns remain age, feather chronology, first-flight threshold, sexed display ratio and regional transfer.

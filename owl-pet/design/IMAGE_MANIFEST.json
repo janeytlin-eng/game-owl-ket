@@ -10832,13 +10832,16 @@
       "review_crop_sha256": "14925e027c6b1244ea95f7ac6823d2ea1f1a653e79453d08c834ed7ace1fc97e",
       "review_crop_size_bytes": 229844,
       "archive_note": "V1-v3 retained. Full plate and crop reopened. Targeted edit shortened male tail and juvenile wing; exact title/count, adult forms, false eyes, all-foot fork support and habitat remained intact. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "pending fixed commit-pinned readback",
+      "readback_pending": false,
+      "archive_commit": "b89929363e3b6a0928a1673907d3ddf5197b9ee1",
+      "fixed_commit": "b89929363e3b6a0928a1673907d3ddf5197b9ee1",
+      "verified_at": "2026-10-30T11:29:07+08:00",
+      "verification_result": "fixed archive b89929363e3b6a0928a1673907d3ddf5197b9ee1 returned a non-truncated 1959-entry tree; exact concept/generated/reviewed/crop Git blobs and byte sizes matched, plus all three manifests, source index, research card, run-at-archive and knowledge blobs",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_commit": "b89929363e3b6a0928a1673907d3ddf5197b9ee1",
+        "tree_entries": 1959,
+        "truncated": false,
         "concept": {
           "path": "design/concepts/36-glaucidium-bolivianum-v4.png",
           "blob": "da500ad7f10a926a6e6fa2759b7c6e92a15ad08d",
@@ -10860,11 +10863,12 @@
           "size_bytes": 229844
         },
         "source_index_blob": "56273192e2a95d814f26b27b5b8c44e9b3ae9f4e",
+        "source_index_size": 1104406,
         "research_blob": "3afe1cafe044782a2430eb219d23a7c4bae6a173",
         "run_blob_at_archive": "2920fb4fb1c75b0aae02e82880da7e15705c8ceb",
         "knowledge_blob": "e59237c60cf57cf639fef1f4a4aa1fe85270c417"
       }
     }
   ],
-  "updated_at": "2026-10-30T11:12:00+08:00"
+  "updated_at": "2026-10-30T11:29:07+08:00"
 }

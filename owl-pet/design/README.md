@@ -2307,3 +2307,5 @@ A heavier sex should not automatically be drawn taller when species-specific lin
 ### Incremental rule — adult diagnosis and juvenile inference must remain separate
 
 A primary adult diagnosis can calibrate adult tail/spot pattern but cannot be transferred to juvenile feather order or nest stage. Applied and visually rechecked on #36 v4; broader effectiveness remains unverified.
+
+- 2026-10-30T11:29:07+08:00 — #36 *Glaucidium bolivianum* v4 fixed readback VERIFIED at archive `b89929363e3b6a0928a1673907d3ddf5197b9ee1`; 1,959-entry non-truncated tree, exact image/research/manifest blobs and byte sizes matched; batch `2026-10-30T0830+0800` closed 6/6. Science remains false / PASS_WITH_LIMITATIONS.

@@ -45,3 +45,10 @@ Actual first render and edited full 1536×1024 plate viewed. First render gave t
 ## VERIFIED 2026-10-29T15:35:02+08:00
 
 V4 fixed archive `0932faa36441386c748694150eadd2f1af54a998`. Six commit-pinned image paths, blob IDs and byte sizes matched. One juvenile-wing edit; full and crop reopened; PASS_WITH_LIMITATIONS. Batch complete 6/6. Unique +0; scientifically_verified=false.
+
+
+## ARCHIVED REVIEW — 2026-10-31 — 90-tyto-furcata-v5
+
+V4 was reopened and the only confirmed defect was the absent repository number. Imagegen added `90` to the title; no biological redraw was requested. The actual 1536×1024 output and 620×780 juvenile crop were opened. Title/subtitle/count/labels, adult identity and qualitative sex contrast, P20 white-down-dominant short-side-feather stage, hidden tail, two-foot floor support and Texas loft setting pass. No second edit was needed. Exact individual age/sex, hand-raised-to-wild timing, tract sequence, toe geometry and pair ratio remain unknown; `scientifically_verified=false`. V1–v4 and all prior approval records are preserved; no user approval transfers to v5.
+
+[Original](../../design/concepts/90-tyto-furcata-v5.png) · [Research](../../research/species/90-tyto-furcata-v5.md) · [Run](../../production/runs/20261031T063600+0800-cycle-1.md)

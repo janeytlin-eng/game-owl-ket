@@ -1,3 +1,10 @@
+## 2026-10-31 #90 *Tyto furcata pratincola* v5 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; title-only imagegen edit; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Restored repository number 90 while preserving adult contrast and the P20 white-down-dominant, short-side-feather, two-foot-supported juvenile.
+- Full plate and juvenile crop opened; no second edit; exact archive tree readback pending.
+- Run: [20261031T063600+0800-cycle-1.md](production/runs/20261031T063600+0800-cycle-1.md)
+
 ## 2026-10-31 #82 *Otus senegalensis* v4 VERIFIED
 
 - SCIENCE_REVISION; one direct imagegen edit; PASS_WITH_LIMITATIONS; science false; unique175/251.

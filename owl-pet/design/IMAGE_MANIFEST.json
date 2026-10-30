@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:32:00+08:00",
+  "updated": "2026-10-31T06:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13859,7 +13859,50 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "90-tyto-furcata-v5",
+      "path": "design/concepts/90-tyto-furcata-v5.png",
+      "species_id": 90,
+      "scientific_name": "Tyto furcata pratincola",
+      "historical_names": [
+        "Tyto alba pratincola"
+      ],
+      "common_name": "American Barn Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "9ef40ad47e1b1b6b33700d4643b0e427a468a2680beba5737908507f016b6e73",
+      "size_bytes": 2374022,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V5 restores repository number 90 and otherwise preserves the fixed v4 evidence boundary: pale male versus modestly fuller/darker/more-spotted female without a fixed height ratio; central P20 concept remains white-down-dominant with only short emerging side feathers, hidden tail and two-foot loft-floor support. Exact individual day/sex, hand-raised-to-wild transfer, tract sequence, toe geometry and pair ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "ABO-WAGNER2022-P20",
+        "FUR-CORNELL-CAM2010",
+        "FUR-MIK2013-82"
+      ],
+      "research_record": "research/species/90-tyto-furcata-v5.md",
+      "run_record": "production/runs/20261031T063600+0800-cycle-1.md",
+      "reviewed_at": "2026-10-31T06:42:00+08:00",
+      "generated_path": "production/generated/90-tyto-furcata-v5-generated-master.png",
+      "generated_blob": "134fc5c142b131d9033bcd141056272a2e85caf2",
+      "generated_sha256": "9ef40ad47e1b1b6b33700d4643b0e427a468a2680beba5737908507f016b6e73",
+      "generated_size_bytes": 2374022,
+      "reviewed_path": "production/reviewed/90-tyto-furcata-v5-reviewed-master.png",
+      "reviewed_blob": "134fc5c142b131d9033bcd141056272a2e85caf2",
+      "reviewed_size_bytes": 2374022,
+      "review_crop_path": "production/review-crops/90-tyto-furcata-v5-juvenile.png",
+      "review_crop_blob": "511efeb6bcc34f201f6a2f09a90546230c212ba7",
+      "review_crop_size_bytes": 665499,
+      "readback_pending": true,
+      "git_blob": "134fc5c142b131d9033bcd141056272a2e85caf2",
+      "fixed_archive_commit": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T06:32:00+08:00"
+  "updated_at": "2026-10-31T06:45:00+08:00"
 }

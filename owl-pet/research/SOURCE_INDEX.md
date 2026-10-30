@@ -6194,3 +6194,19 @@ Fresh reuse: `PSOW-BDI-2026` for reduced juvenile crown/back spotting, shorter t
 | ABOW-UPemba-1953-P220 | [*Exploration du Parc National de l'Upemba, Fascicule 19: Oiseaux*](https://biblio.naturalsciences.be/rbins-publications/institut-des-parcs-nationaux-du-congo/exploration-du-parc-national-de-lupemba/19-1953-mission-zending-g-f-de-witte-oiseaux/irscnb_p2321_rbins20024_19-part-2-red.pdf) | René Verheyen / Institut des Parcs Nationaux du Congo Belge | 1953; accessed 2026-10-30 | historical primary specimen/plumage account; digitized text actually read | historical *G. capense ngamiense*; juvenal-to-juveno-annual transition and adult measurements | Printed p.220 states the transition occurs near completion of remex/rectrix growth. Juveno-annual birds show less apparent/incomplete pale crown/nape bars, less distinct scapular/mantle/back bars, incomplete/weak double white covert rows, darker black-brown tone and yellow irides. Adult wing data overlap strongly: males 139–141 mm, females 137–145 mm. | Historical subspecies-scoped material, not a continuous age series and not universal to the complex. High confidence for the described specimens; medium-low transferability. Supports formed but unspread wing/tail, weaker irregular juvenile bars and near-equal adult display height; no exact age or flight claim. | [v4 card](species/29-glaucidium-capense-v4.md) · [v4 run](../production/runs/20261030T065100+0800-cycle-5.md) |
 
 Fresh reuse: `ABOW-OWLPAGES-2020`, `ABOW-BIODIVEXPLORER-ROBERTS-2026`, and `CAP-FISHPOOL-2023`. Correction: v3's visually precise 35–39-day short-wing/hidden-tail treatment is replaced by an age-unknown older dependent juvenile/juveno-annual presentation with formed wing/tail and weak incomplete bars. The historical subspecies boundary is explicit; no nominal subspecies, exact day, first-flight or universal iris claim is made. Fanshawe & Ngala 1994 remains a bibliographically verified but unread-PDF lead; the unrelated BirdLife Zimbabwe fledgling record was rejected. New1/reused3/corrected1; Mikkola upload unavailable; science false.
+
+
+# 2026-10-30 — #31 *Glaucidium radiatum* v4 — taxonomy and habitat boundary
+
+## JUOW-KOPARDE-WII-2018
+- **Title / author / institution / year:** *Molecular Phylogeny and Comparative Biogeography of Owlets of India* — Pankaj P. Koparde; Wildlife Institute of India / Manipal Academy of Higher Education; 2018.
+- **URL:** https://digitalrepository.wii.gov.in/server/api/core/bitstreams/94114369-10be-41b5-9700-c461b25689ab/content
+- **Accessed:** 2026-10-30.
+- **Type/material read:** PhD thesis focal-species section, printed pp.12–13 (PDF pp.29–30).
+- **Species/stage:** *Glaucidium radiatum* adults/species-level taxonomy and habitat; no juvenile sequence.
+- **Facts:** retains two described subspecies, *G. r. radiatum* and *G. r. malabaricum*, while recording a proposed revision of *malabaricum*; places the species in scrub and dry-to-moist deciduous forest and breeding in March–May.
+- **Limits/conflicts/confidence:** thesis synthesizes earlier literature and does not provide juvenile feather chronology, flight threshold or sexed measurements. High confidence for the explicit taxonomic/habitat summary; not juvenile evidence.
+- **Design decision:** supports a restrained north-Indian scrub/deciduous setting and prevents subspecies-specific plumage claims; does not alter the age-unknown immature boundary.
+- **Links:** [v4 research card](species/31-glaucidium-radiatum-v4.md) · [v4 run](../production/runs/20261030T083000+0800-cycle-1.md)
+
+Fresh reuse: `JUOW-OISEAUXNET-LEBOFF-2026`, `JUOW-OISEAUXBIRDS-BOUGLOUAN-2026`, `JUOW-OWLPAGES-2020`, `JUOW-PF-2021`. New1/reused4/corrected0. The dated photo supports only an age-unknown fully feathered immature and yellow eyes in that individual; exact age, flight threshold, independence, continuous feather sequence, sex and population variation remain unknown. Mikkola upload unavailable; science false.

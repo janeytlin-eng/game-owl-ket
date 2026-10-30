@@ -464,3 +464,19 @@
 ### Reused and corrected mapping
 - **Reused:** `PFO-TRUST-2026` / current BirdLife South Africa–SANBI account; `PFO-BOTSWANAPOST-2022` brochure p.2.
 - **Correction:** long parental association and approximately ten-week/68–70-day nestling context do not yield an exact post-fledging age, first-flight threshold or feather-by-feather wing timetable.
+
+
+## 2026-10-30 — #64 *Tyto glaucops* v4 outside-nest begging-young boundary
+
+- **Stable source ID:** `AFO-CURTI-2018` (reused and corrected/extended; no duplicate ID)
+- **Title:** First description of Ashy-faced Owl (*Tyto glaucops*) nest and first record of Ashy-faced Owl nesting in Palmchat (*Dulus dominicus*) nest on Hispaniola
+- **Authors/institution:** Marta Curti, Christine D. Hayes, Thomas I. Hayes, Misael Calcaño Silven; The Peregrine Fund / Journal of Caribbean Ornithology
+- **Year / type:** 2018; primary field research note
+- **URL / DOI:** https://www.birdscaribbean.org/wp-content/uploads/2023/05/Curti_et_al-JCO-Ashy-faced-Owl.pdf · https://doi.org/10.55431/jco.2018.31.17-19
+- **Pages read:** printed pp.17–19; especially p.18 (PDF p.3), lines 66–115 in retrieved text
+- **Species/stage:** *Tyto glaucops*; nestlings and age-unknown outside-nest young
+- **Source facts:** 1 May bird was poorly mobile, almost fully buff-down with some juvenile wing feathers; later cavity birds were larger/more developed, one partly down-covered; on 12–13 June a young bird begged while perched outside the nest on a northwest-projecting palm frond; authors did not see owls on 14 June and *assumed* fledging. The cavity was within an active Palmchat stick nest in a coconut palm; authors explicitly warn the site may not represent typical nests.
+- **Design decision:** v4 changes stage from v3’s buff-down cavity nestling to the documented outside-nest begging young. Because the source does not describe that young’s feather tracts or exact age, the image must obscure/soften folded-wing detail, avoid mature remiges/rows/tail, and must not label the bird “fledged.”
+- **Limit/conflict:** dates establish observation sequence, not hatch age; “we assume fledging” is author inference, not a measured first-flight threshold. Sex-specific adult size remains a mass-direction cue only. Scientific acceptance stays false.
+- **Related records:** `knowledge/species/64-tyto-glaucops.md`; `research/species/64-tyto-glaucops-v4.md`; `production/runs/20261030T223349+0800-cycle-2.md`; image version `64-tyto-glaucops-v4`.
+- **Lead not used as verified evidence:** Macaulay asset ML201989861 returned an anti-bot error during full-page read; its search metadata was not used for scientific pass.

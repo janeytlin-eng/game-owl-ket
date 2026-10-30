@@ -2290,3 +2290,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 10:58 +08 — #35 Andean Pygmy Owl v4 archived, verification pending
 
 #35 *Glaucidium jardinii* v4 concept, generated/reviewed PNG and juvenile crop are archived. One targeted juvenile-only edit removed repeated bright adult-like wing spots and a mature long barred tail. The complete source index was restored before appending this cycle because the current path had been truncated. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 4/6.
+
+
+- 2026-10-30T11:00:00+08:00 — #35 *Glaucidium jardinii* v4 fixed-commit readback passed at `aa1663e59491666803285fae77bba6c6ca812a3d`: non-truncated 1,953-entry tree; exact four image tuples, three manifests, restored source index, research, run, knowledge, design/status/changelog and batch records matched. Batch **5/6**, next cycle6; unique **175/251**, numbered IDs **185/251**, science false; lease released.

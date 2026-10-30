@@ -2291,3 +2291,6 @@ A single sexed specimen at the edge of an overlapping range is not enough to enc
 ### Incremental rule — mass direction is not height direction
 
 A heavier sex should not automatically be drawn taller when species-specific linear dimensions are absent. Apply mass evidence as subtle body fullness only, and keep standing crown height near equal. Applied and visually rechecked on #35 v4; broader effectiveness remains unverified.
+
+
+- 2026-10-30T11:00:00+08:00 — #35 v4 fixed-tree VERIFIED at `aa1663e59491666803285fae77bba6c6ca812a3d`; exact four image tuples and all indexed records matched, including restored 1,101,079-byte source index. Batch 5/6, next cycle6; science false.

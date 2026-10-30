@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T10:58:00+08:00",
+  "updated": "2026-10-30T11:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9906,13 +9906,16 @@
       "review_crop_sha256": "0ba94a8f9098f3352a4cf8658ad8097a12ae56fc8c7e496b639968d0321a50d1",
       "review_crop_size_bytes": 245139,
       "archive_note": "V1-v3 retained. Full edited plate and juvenile crop reopened. One targeted edit changed only juvenile wing/tail maturity; exact title/count, adult false eyes, near-equal adult height and natural support remained intact. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "pending fixed commit-pinned readback",
+      "readback_pending": false,
+      "archive_commit": "aa1663e59491666803285fae77bba6c6ca812a3d",
+      "fixed_commit": "aa1663e59491666803285fae77bba6c6ca812a3d",
+      "verified_at": "2026-10-30T11:00:00+08:00",
+      "verification_result": "non-truncated 1953-entry tree; exact concept/generated/reviewed/crop Git blobs and byte sizes matched; three manifests contained #35 pending entries with counts 554/545/543; source index 1101079 bytes, research, run-at-archive and knowledge blobs matched",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_commit": "aa1663e59491666803285fae77bba6c6ca812a3d",
+        "tree_entries": 1953,
+        "truncated": false,
         "concept": {
           "path": "design/concepts/35-glaucidium-jardinii-v4.png",
           "blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
@@ -9934,11 +9937,12 @@
           "size_bytes": 245139
         },
         "source_index_blob": "e0d9a43cf4c2c7cb090cb00ad10271f516c05fb8",
+        "source_index_size": 1101079,
         "research_blob": "39e5422e1689034841cd0c6ff029fe93fb69666f",
         "run_blob_at_archive": "579dda62f21d98b5c4f6370186ea223555cd3372",
         "knowledge_blob": "9f94a27297f7cd9480876df374c0a874caa90b1c"
       }
     }
   ],
-  "updated_at": "2026-10-30T10:58:00+08:00"
+  "updated_at": "2026-10-30T11:00:00+08:00"
 }

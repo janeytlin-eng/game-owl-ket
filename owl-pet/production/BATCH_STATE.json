@@ -7842,69 +7842,48 @@
             "reused": 2,
             "corrected": 1
           }
+        },
+        {
+          "cycle": 5,
+          "species": "Glaucidium jardinii",
+          "species_no": "35",
+          "species_id": 35,
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "aa1663e59491666803285fae77bba6c6ca812a3d",
+          "run_record": "owl-pet/production/runs/20261030T104358+0800-cycle-5.md",
+          "verified_at": "2026-10-30T11:00:00+08:00",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "source_counts": {
+            "new": 1,
+            "reused": 3,
+            "corrected": 1
+          }
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "batch_id": "2026-10-30T0830+0800",
-        "owner": "codex-work-20261030T104358+0800-cycle-5",
-        "run_id": "20261030T104358+0800-cycle-5",
-        "cycle": 5,
-        "species_no": "35",
-        "heartbeat_at": "2026-10-30T10:58:00+08:00",
-        "expires_at": "2026-10-30T11:13:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 5,
-        "species_no": "35",
-        "species": "Glaucidium jardinii",
-        "version": "v4",
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261030T104358+0800-cycle-5",
-        "run_record": "owl-pet/production/runs/20261030T104358+0800-cycle-5.md",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-30T10:43:58+08:00",
-        "research_record": "owl-pet/research/species/35-glaucidium-jardinii-v4.md",
-        "generated_path": "owl-pet/production/generated/35-glaucidium-jardinii-v4-generated.png",
-        "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "edit_count": 1,
-        "reviewed_path": "owl-pet/production/reviewed/35-glaucidium-jardinii-v4-reviewed.png",
-        "reviewed_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
-        "crop_path": "owl-pet/production/review-crops/35-glaucidium-jardinii-v4-juvenile.jpg",
-        "crop_blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4",
-        "concept_path": "owl-pet/design/concepts/35-glaucidium-jardinii-v4.png",
-        "concept_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
-        "archive_commit": null,
-        "fixed_readback": "PENDING"
-      },
+      "next_cycle": 6,
+      "active_lease": null,
+      "in_progress": null,
       "last_checkpoint": {
-        "stage": "ARCHIVED",
-        "at": "2026-10-30T10:58:00+08:00",
+        "stage": "VERIFIED",
+        "at": "2026-10-30T11:00:00+08:00",
         "run_record": "owl-pet/production/runs/20261030T104358+0800-cycle-5.md",
         "evidence": {
-          "concept_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
-          "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
-          "reviewed_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
-          "crop_blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4",
+          "fixed_commit": "aa1663e59491666803285fae77bba6c6ca812a3d",
+          "tree_entries": 1953,
+          "truncated": false,
           "manifest_counts": {
             "design": 554,
             "production": 545,
             "legacy": 543
           },
-          "fixed_readback": "PENDING"
+          "source_index_blob": "e0d9a43cf4c2c7cb090cb00ad10271f516c05fb8",
+          "review_result": "PASS_WITH_LIMITATIONS"
         }
       },
-      "lease": {
-        "batch_id": "2026-10-30T0830+0800",
-        "owner": "codex-work-20261030T104358+0800-cycle-5",
-        "run_id": "20261030T104358+0800-cycle-5",
-        "cycle": 5,
-        "species_no": "35",
-        "heartbeat_at": "2026-10-30T10:58:00+08:00",
-        "expires_at": "2026-10-30T11:13:00+08:00"
-      },
-      "last_updated_at": "2026-10-30T10:58:00+08:00"
+      "lease": null,
+      "last_updated_at": "2026-10-30T11:00:00+08:00"
     }
   ],
   "lease": {
@@ -8375,31 +8354,8 @@
     "2026-10-30T10:49:00+08:00: cycle5 #35 v4 RESEARCH_READY; restored complete SOURCE_INDEX history before retaining #34 additions; new1/reused3/corrected1; full prompt persisted; exact age/flight/iris timing remain unknown; no credit.",
     "2026-10-30T10:51:00+08:00: cycle5 #35 v4 IMAGE_GENERATED after 51.1-second wait; full 1536x1024 plate opened; exact title/count/adults/support pass; juvenile repeated bright covert spots and mature long barred tail require targeted edit; no credit.",
     "2026-10-30T10:54:00+08:00: cycle5 #35 v4 REVIEWED after one targeted juvenile-only edit; full 1536x1024 and 560x700 crop reopened; adult-like bright wing spots and mature tail removed; PASS_WITH_LIMITATIONS; science false; no credit.",
-    "2026-10-30T10:58:00+08:00: cycle5 #35 v4 ARCHIVED as design554 / production545 / legacy543; concept/reviewed e94a4ba5b2/3244892B, generated 26248cfe29/3493243B, crop fc6083ba7e/245139B; fixed readback pending; no credit."
+    "2026-10-30T10:58:00+08:00: cycle5 #35 v4 ARCHIVED as design554 / production545 / legacy543; concept/reviewed e94a4ba5b2/3244892B, generated 26248cfe29/3493243B, crop fc6083ba7e/245139B; fixed readback pending; no credit.",
+    "2026-10-30T11:00:00+08:00: cycle5 #35 v4 VERIFIED at fixed archive aa1663e59491666803285fae77bba6c6ca812a3d; non-truncated 1953-entry tree and exact image/text/source tuples matched; batch5/6 next6; unique175/251; science false; lease released."
   ],
-  "in_progress": {
-    "batch_id": "2026-10-30T0830+0800",
-    "cycle": 5,
-    "species_no": "35",
-    "species": "Glaucidium jardinii",
-    "version": "v4",
-    "action": "SCIENCE_REVISION",
-    "run_id": "20261030T104358+0800-cycle-5",
-    "run_record": "owl-pet/production/runs/20261030T104358+0800-cycle-5.md",
-    "stage": "ARCHIVED",
-    "started_at": "2026-10-30T10:43:58+08:00",
-    "research_record": "owl-pet/research/species/35-glaucidium-jardinii-v4.md",
-    "generated_path": "owl-pet/production/generated/35-glaucidium-jardinii-v4-generated.png",
-    "generated_blob": "26248cfe296573c5ba2be29257b1999f01ab1c8c",
-    "review_result": "PASS_WITH_LIMITATIONS",
-    "edit_count": 1,
-    "reviewed_path": "owl-pet/production/reviewed/35-glaucidium-jardinii-v4-reviewed.png",
-    "reviewed_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
-    "crop_path": "owl-pet/production/review-crops/35-glaucidium-jardinii-v4-juvenile.jpg",
-    "crop_blob": "fc6083ba7ea9b463a64e36dc58aa8c90b55dbab4",
-    "concept_path": "owl-pet/design/concepts/35-glaucidium-jardinii-v4.png",
-    "concept_blob": "e94a4ba5b21cb64f54823acdfc3cf001c1b36aa0",
-    "archive_commit": null,
-    "fixed_readback": "PENDING"
-  }
+  "in_progress": null
 }

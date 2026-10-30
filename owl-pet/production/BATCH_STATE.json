@@ -8590,25 +8590,25 @@
       "next_cycle": 3,
       "last_checkpoint": {
         "cycle": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Ninox connivens",
         "species_id": 71,
         "version": 4,
         "run_id": "20261031T005104+0800-cycle-3",
-        "at": "2026-10-31T00:49:31+08:00",
+        "at": "2026-10-31T00:50:41+08:00",
         "run_record": "owl-pet/production/runs/20261031T005104+0800-cycle-3.md",
         "evidence": {
-          "main_head": "2cfc967c03757db594140a22ed68160af8d16a96",
-          "prior_versions": [
-            "v1",
-            "v2",
-            "v3"
-          ],
-          "selection": "next science-revision item after verified #70; #71 v3 reopened",
+          "new_sources": 0,
+          "reused_sources": 6,
+          "corrected_boundaries": 1,
+          "active_search": "two batches/six queries returned empty payloads; no credit",
+          "v3_inspected": true,
+          "design_boundary": "mobile recent fledgling with developed wing/tail; incomplete collar/mottled nape; no dense adult crown/wing spots",
+          "prompt_persisted": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T00:49:31+08:00",
+      "last_updated_at": "2026-10-31T00:50:41+08:00",
       "audit_notes": [
         "2026-10-31T00:34:52+08:00 cycle1 #69 Tyto novaehollandiae v4 SCIENCE_REVISION STARTED; latest main/batch/species card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit.",
@@ -8622,26 +8622,27 @@
         "2026-10-31T00:47:22+08:00 cycle2 #70 v4 REVIEWED after one targeted edit (44.0s); full reviewed master, 520x700 juvenile crop and 680x453 derivative opened. Adult scales/supports now comparable with only marginal female-smaller direction; coarse V chevrons/narrow irregular bars and white-headed recent fledgling pass; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T00:48:19+08:00 cycle2 #70 v4 ARCHIVED tree prepared; concept 680x453, generated/reviewed 1536x1024 and crop 520x700 plus manifests/support records included; fixed readback pending; science false; no credit.",
         "2026-10-31T00:49:00+08:00 cycle2 #70 v4 VERIFIED against fixed archive cd18932e5f0df19e09683e05a7f1feea09fa91b5; non-truncated 2,135-entry tree, exact image paths/blobs/sizes, manifests 576/575/566 and support records matched; batch 2/6 next_cycle3; unique remains175/251; science false; lease released.",
-        "2026-10-31T00:49:31+08:00 cycle3 #71 Ninox connivens v4 SCIENCE_REVISION STARTED; v1-v3 and latest manifest/card checked; 15-minute lease acquired; no credit."
+        "2026-10-31T00:49:31+08:00 cycle3 #71 Ninox connivens v4 SCIENCE_REVISION STARTED; v1-v3 and latest manifest/card checked; 15-minute lease acquired; no credit.",
+        "2026-10-31T00:50:41+08:00 cycle3 #71 v4 RESEARCH_READY; new0/reused6/corrected1; two active search batches empty/no credit; v3 fixed original reopened and juvenile adult-pattern leakage identified; mobile fledgling stage retained with juvenile crown/wing boundary; full prompt saved; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T005104+0800-cycle-3",
-        "heartbeat_at": "2026-10-31T00:49:31+08:00",
-        "expires_at": "2026-10-31T01:04:31+08:00"
+        "heartbeat_at": "2026-10-31T00:50:41+08:00",
+        "expires_at": "2026-10-31T01:05:41+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T005104+0800-cycle-3",
-        "heartbeat_at": "2026-10-31T00:49:31+08:00",
-        "expires_at": "2026-10-31T01:04:31+08:00"
+        "heartbeat_at": "2026-10-31T00:50:41+08:00",
+        "expires_at": "2026-10-31T01:05:41+08:00"
       },
       "in_progress": {
         "cycle": 3,
         "species": "Ninox connivens",
         "species_id": 71,
         "version": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261031T005104+0800-cycle-3"
       }
     }

@@ -70,3 +70,7 @@
 - Mikkola printed p.333 directly separates whitish downy chick from warm-buff, indistinctly barred mesoptile; v4 selects the earlier age-unknown white-down stage and does not reuse v3's one-month rehab plumage.
 - Adult dark-male/markedly paler-female direction retained from Mikkola and MMA; female fullness does not become exaggerated height.
 - UdeC 2026 thesis abstract confirms subspecies uncertainty; no insular juvenile details are transferred. Exact chick age/movement and feather chronology remain unknown; science false.
+
+
+## 2026-10-30 v4 production result
+Original and derivative opened; exact text/count, dark-male/paler-female direction, whitish downy chick without formed remiges/tail and bilateral dry cavity support passed; no edit. Files: `design/concepts/51-strix-rufipes-v4.png` plus generated/reviewed masters. PASS_WITH_LIMITATIONS; science false.

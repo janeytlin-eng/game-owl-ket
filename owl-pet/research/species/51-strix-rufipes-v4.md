@@ -17,3 +17,7 @@ Juvenile: choose the directly described early downy stage from Mikkola printed p
 Environment: dense mature temperate Nothofagus forest in south-central Chile, large living tree cavity, cool filtered dawn/daylight, natural dry wood dust, adults on separate branches beside cavity. Clean labels, cinematic depth, accurate foot support.
 
 Strict negatives: no extra owl, egg or prey; no ear tufts; no yellow/orange eyes; no oversized female; no mature juvenile wing/tail or adult bars; no unsupported chick; no ground nest; no invented age/flight claim; no misspelling.
+
+
+## Actual image review
+58.6 s generation; original and 680×453 derivative opened. Stage separation, adult dichromatism and cavity support passed; no edit. PASS_WITH_LIMITATIONS; science false.

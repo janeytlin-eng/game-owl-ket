@@ -2443,3 +2443,7 @@ Fixed archive `ce67377ea8b6459d8c33c848134e5da77faba2c4` matched exact images, m
 
 - Fixed archive `6a6cd44e8eed35a2d75398ab26c666c1d429ce1d` returned exact concept/generated/reviewed paths, blob SHAs and URLs; manifest 558 and supporting records matched.
 - Batch `2026-10-30T1831+0800` is 2/6, next cycle 3. Unique remains 175/251; science false.
+
+
+### #51 v4 archive prepared — 2026-10-30T19:06:00+08:00
+- Concept blob `618eb5ce961866dc4be4a0a564bdc2466d1f1b63`; master `de3fbe86ab5cec64099c927ef11150976e98e757`; manifest 558→559. Original/derivative opened; no edit; unique 175/251; science false; readback pending.

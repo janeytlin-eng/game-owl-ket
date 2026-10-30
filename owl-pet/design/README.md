@@ -2421,3 +2421,7 @@ Verification 2026-10-30T18:42:00+08:00: #49 v4 fixed archive `ed745f19c5335164e3
 
 
 Verification 2026-10-30T18:56:00+08:00: #50 v4 fixed archive `6a6cd44e8eed35a2d75398ab26c666c1d429ce1d` returned exact image paths/blob SHAs/URLs and manifest 558 plus supporting records. Batch 2/6, next cycle 3; science false.
+
+
+## #51 · Rufous-legged Owl · *Strix rufipes* · v4
+Early whitish downy chick is separated from v3 one-month warm-buff mesoptile; dark male/paler fuller female and mature Nothofagus cavity support passed. No edit; science false.

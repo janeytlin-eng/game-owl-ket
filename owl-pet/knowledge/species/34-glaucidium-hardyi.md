@@ -57,3 +57,6 @@ Deville & Ingels primary paper pp.23–26 was read. It documents an old woodpeck
 - Research: [v4 card](../../research/species/34-glaucidium-hardyi-v4.md)
 - Review: one juvenile-only iris/wing edit; full plate plus 440×690 crop reopened; `PASS_WITH_LIMITATIONS`.
 - Fixed readback pending; scientific verification remains false.
+
+
+- 2026-10-30T10:43:26+08:00: fixed archive [c937b386265f](https://github.com/janeytlin-eng/game-owl-ket/commit/c937b386265f3eb048f3b1f6d90ea0f64d1528b7) verified exact image blobs/sizes and indexed records. V4 is archived; science false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T10:42:48+08:00",
+  "updated": "2026-10-30T10:43:26+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -9992,11 +9992,42 @@
       "review_crop_sha256": "a03bf2ca3077ea853993aee7fb8ed277d470f5ad2eee3293bb5292a44c90691b",
       "review_crop_size_bytes": 620775,
       "archive_note": "V1-v3 and initial generated v4 remain retained. Full plate and 440x690 crop were opened. Targeted edit changed only juvenile iris and wing pattern; cavity support, exact text/count and adults remained intact. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null,
-      "verified_at": null
+      "readback_pending": false,
+      "archive_commit": "c937b386265f3eb048f3b1f6d90ea0f64d1528b7",
+      "fixed_commit": "c937b386265f3eb048f3b1f6d90ea0f64d1528b7",
+      "verified_at": "2026-10-30T10:43:26+08:00",
+      "verification_result": "fixed archive `c937b386265f3eb048f3b1f6d90ea0f64d1528b7` returned non-truncated 1947-entry tree; exact concept/generated/reviewed/crop Git blobs and byte sizes matched, plus three manifests, source index, research card, run-at-archive, knowledge, design/status/changelog and batch state",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "c937b386265f3eb048f3b1f6d90ea0f64d1528b7",
+        "tree_entries": 1947,
+        "truncated": false,
+        "concept": {
+          "path": "design/concepts/34-glaucidium-hardyi-v4.png",
+          "blob": "a721db6015ccd8130144e2808a860e6dff51af84",
+          "size_bytes": 3128318
+        },
+        "generated": {
+          "path": "production/generated/34-glaucidium-hardyi-v4-generated.png",
+          "blob": "8cb1d5accc05b2be14205731f11d7d3a1ed1fb45",
+          "size_bytes": 3330093
+        },
+        "reviewed": {
+          "path": "production/reviewed/34-glaucidium-hardyi-v4-reviewed.png",
+          "blob": "a721db6015ccd8130144e2808a860e6dff51af84",
+          "size_bytes": 3128318
+        },
+        "review_crop": {
+          "path": "production/review-crops/34-glaucidium-hardyi-v4-juvenile.png",
+          "blob": "eb14b7dd75178a499d32562f4be190d85df506e6",
+          "size_bytes": 620775
+        },
+        "source_index_blob": "ee63111aa4cd94bdafe70d83d080c522761df869",
+        "research_blob": "05c8388bddb551ee5cf3d41e0ec0464aa81985b2",
+        "run_blob_at_archive": "f3918c5e327ce04d12825e6dc96168fa190b8c30",
+        "knowledge_blob": "6fe99575a0304f4b3884646190e65f9ff9ef0750"
+      }
     }
   ],
-  "updated_at": "2026-10-30T10:42:48+08:00"
+  "updated_at": "2026-10-30T10:43:26+08:00"
 }

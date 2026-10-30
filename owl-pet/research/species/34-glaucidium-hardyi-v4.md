@@ -44,3 +44,6 @@ A single sexed female at the top of an overlapping specimen range is not populat
 ## Archive checkpoint
 
 - 2026-10-30T10:42:48+08:00: concept/reviewed PNG, original generated PNG and 440×690 juvenile crop archived. Manifest counts design 553, production 544, legacy 542. Fixed readback pending; science false.
+
+
+- 2026-10-30T10:43:26+08:00: fixed archive `c937b386265f3eb048f3b1f6d90ea0f64d1528b7` returned non-truncated 1947-entry tree; exact concept/generated/reviewed/crop Git blobs and byte sizes matched, plus three manifests, source index, research card, run-at-archive, knowledge, design/status/changelog and batch state. V4 archived and cycle-credited; science false.

@@ -1319,3 +1319,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T10:42:48+08:00: archived #34 *Glaucidium hardyi* v4 science revision. Added Vielliard 1989 original-description measurements and ITIS current-name record; re-read the Deville & Ingels 2012 almost-full-grown cavity young. One targeted juvenile iris/wing edit; full plate and crop reopened. Manifest 553; fixed readback pending; science false.
+
+
+- 2026-10-30T10:43:26+08:00: verified #34 v4 fixed archive `c937b386265f3eb048f3b1f6d90ea0f64d1528b7`; exact four assets and all indexed records matched. Batch 4/6, next cycle5; unique +0; science false.

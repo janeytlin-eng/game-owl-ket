@@ -2282,3 +2282,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 ## 2026-10-30 10:42 +08 — #34 Amazonian Pygmy Owl v4 archived, verification pending
 
 #34 *Glaucidium hardyi* v4 concept, generated/reviewed PNG and juvenile crop are archived. One targeted edit neutralized unsupported juvenile iris colour and removed repeated adult-like wing spots while preserving an almost-full-grown cavity young with full support. Revision adds zero; unique remains **175/251**, numbered IDs **185/251**; science false. Fixed readback pending, so batch remains 3/6.
+
+
+- 2026-10-30T10:43:26+08:00: #34 *Glaucidium hardyi* v4 fixed-commit readback passed at `c937b386265f3eb048f3b1f6d90ea0f64d1528b7`: exact concept/generated/reviewed/crop blobs and three manifests/source/research/run/knowledge/design/status/state records matched. Batch **4/6**, next cycle5; unique **175/251**, numbered IDs **185/251**, science false; lease released.

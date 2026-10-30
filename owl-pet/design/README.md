@@ -2274,3 +2274,6 @@ When a source photograph labels an individual immature but does not document its
 ### Incremental rule — sparse sex samples do not define display direction
 
 A single sexed specimen at the edge of an overlapping range is not enough to encode population-level reverse size dimorphism. Use near-equal display until species-specific sex-stratified evidence supports direction. Applied and visually rechecked on #34 v4; broader effectiveness remains unverified.
+
+
+- 2026-10-30T10:43:26+08:00 — #34 v4 fixed-tree VERIFIED at `c937b386265f3eb048f3b1f6d90ea0f64d1528b7`; exact four image path/blob/size tuples and indexed records matched. Batch 4/6, next cycle5; science false.

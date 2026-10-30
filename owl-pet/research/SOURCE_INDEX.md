@@ -423,3 +423,24 @@
 - **BFOW-BESG-FLEDGE-2016:** early chick estimated about two weeks and white-down; later roughly six-week bird adult-feathered on a branch; ages retrospective and not a measured series.
 - **BFOW-SBG-BREED-2016:** dated discovery-to-branch account read; “about two weeks” is since discovery, not a hatch age; short flight inferred.
 - **Correction:** later branch plumage/movement must not be transferred into the early fern nestling; adults' bare legs are independently gated by the official source.
+
+
+## 2026-10-30 — #62 *Ketupa sumatrana* v4 Pulau Ubin transitional-subadult boundary
+
+### BEOW-LKC-SBR-2017-178
+- **Stable ID:** `BEOW-LKC-SBR-2017-178`
+- **Title / authors / institution / date:** “Barred eagle-owl at Pulau Ubin” / Law Ing Sind & Joseph Lin / Singapore Biodiversity Records, National University of Singapore / 28 December 2017.
+- **Original URL:** https://lkcnhm.nus.edu.sg/app/uploads/2017/06/sbr2017-178.pdf
+- **Accessed:** 2026-10-30.
+- **Source type:** one-page museum biodiversity field record with photograph.
+- **Species/stage:** historical *Bubo sumatranus* = current project *Ketupa sumatrana*; presumed subadult, age/sex/origin unknown.
+- **Page read:** printed p.178, complete record.
+- **Valuable facts:** branch about 20 m high in durian tree; former durian plantation/regenerated forest; soft calls; no adults seen; short white tufts and transitional plumage; juvenile buffish-white with fine wavy dark-brown barring versus darker adults with long brown horizontal tufts.
+- **Limits/conflicts/credibility:** subadult is author interpretation; no age, family, movement or flight test; strong for observed site/posture and photographed transitional traits.
+- **Design/review decision:** age-unknown branch-supported pale transitional immature, no dependence/flight claim; educational composite explicitly not a literal family event.
+- **Linked records:** `owl-pet/research/species/62-ketupa-sumatrana-v4.md`; `owl-pet/production/runs/20261030T215232+0800-cycle-6.md`; planned `owl-pet/design/concepts/62-ketupa-sumatrana-v4.jpg`.
+
+### Reused and corrected mapping
+- **BEOW-SGBIRDS-2026:** adult pitch-black eyes/yellow bill/outward tufts and juvenile white-with-dark-bars identification; forest habitat.
+- **BEOW-SGBIRDS-2018:** separate estimated 8–10-month late-dependent family juvenile used only as a comparator.
+- **Correction:** the 2017 Pulau Ubin bird remains age/dependence unknown and is not assigned the 2018 family bird's estimated age, behavior or adult association.

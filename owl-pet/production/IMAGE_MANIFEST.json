@@ -10398,9 +10398,42 @@
       "review_crop_sha256": "51002125ce4f59eec07389e79cc75d1ea815cd8938debd83451b11c715886ad4",
       "review_crop_size_bytes": 793303,
       "archive_note": "V1-v3 retained. One juvenile-only iris/wing-pattern edit; full 1536x1024 plate and 560x700 crop reopened. Source/design inference separated. Science false. Initial binary transfer mismatch was detected by blob-size readback before credit and superseded by exact Git-hash-matched blobs in the correction commit.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "fixed_commit": null
+      "readback_pending": false,
+      "archive_commit": "6e9cfa528c2fb42a086843aa716aabc55f30a7e3",
+      "fixed_commit": "6e9cfa528c2fb42a086843aa716aabc55f30a7e3",
+      "verified_at": "2026-10-30T13:46:00+08:00",
+      "verification_result": "fixed archive 6e9cfa528c2fb42a086843aa716aabc55f30a7e3 returned a non-truncated 1978-entry tree; exact concept/generated/reviewed/crop blobs and byte sizes, three manifests 558/549/547, source/research/run/knowledge/design/status/state records matched",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_commit": "6e9cfa528c2fb42a086843aa716aabc55f30a7e3",
+        "tree_entries": 1978,
+        "truncated": false,
+        "concept": {
+          "path": "design/concepts/39-glaucidium-griseiceps-v4.png",
+          "blob": "a0e22874c39ac493baf02dd1ed5c62fc5ea5641f",
+          "size_bytes": 3110303
+        },
+        "generated": {
+          "path": "production/generated/39-glaucidium-griseiceps-v4-initial.png",
+          "blob": "a12c4bf27d45877ea1f3238c9b55439be3a89b22",
+          "size_bytes": 3344526
+        },
+        "reviewed": {
+          "path": "production/reviewed/39-glaucidium-griseiceps-v4.png",
+          "blob": "a0e22874c39ac493baf02dd1ed5c62fc5ea5641f",
+          "size_bytes": 3110303
+        },
+        "review_crop": {
+          "path": "production/review-crops/39-glaucidium-griseiceps-v4-juvenile.png",
+          "blob": "fd9b3af231c7006f6ca4482efa0fc6d80d650b72",
+          "size_bytes": 793303
+        },
+        "source_index_blob": "0e6101720f47168d85c64375602e06d74e8537f1",
+        "source_index_size": 1111285,
+        "research_blob": "149daadf2a90c633fb8567889b91f36d65887f84",
+        "run_blob_at_archive": "f25c1c57b18cb35615efdb0c104d3b9be8751a2b",
+        "knowledge_blob": "49339d8bd03f4a3d7b15bd465c30cb6541de83ee"
+      }
     }
   ],
   "updated_at": "2026-10-30T13:46:00+08:00"

@@ -66,3 +66,6 @@ Pending. Exact juvenile age and continuous feather sequence, sex-specific linear
 - Full plate and 560×700 juvenile crop were reopened. PASS_WITH_LIMITATIONS: count/text/support/adult identity/near-equal scale and wet mottled-head/plain-back juvenile boundary pass; exact age, iris, flight, nest and continuous feather chronology remain unknown.
 - Reviewed concept: [39-glaucidium-griseiceps-v4.png](../../design/concepts/39-glaucidium-griseiceps-v4.png), 1536×1024, 3,110,303 bytes, SHA-256 `993350c8b79314062805537e2496347341d43c3fcf3d836cb4c909837c87eb5b`, Git blob `e084659314a2c8dcfee60382167a02da9e54498c`.
 - Scientific status remains pending / false.
+
+
+- v4 immutable corrected archive readback passed at `6e9cfa528c2fb42a086843aa716aabc55f30a7e3`: 1,978-entry non-truncated tree; exact concept/generated/reviewed/crop blobs and indexed records matched. Verified 2026-10-30T13:46:00+08:00; science remains false.

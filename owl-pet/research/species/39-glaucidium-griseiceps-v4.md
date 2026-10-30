@@ -47,3 +47,8 @@ Setting: well-conserved humid tropical primary forest at about 650 m in the midd
 ## Review checklist
 
 Exactly three birds and exact labels; untufted heads; adult yellow soft parts; three broken pale tail bars; adult scale near equal; juvenile wet/mottled/plain-backed; no adult juvenile spot rows; compact wing/hidden tail; all feet and juvenile body naturally supported; no unsupported nest/flight claim.
+
+
+## Production and verification
+
+One juvenile-only edit neutralized the unsupported bright iris and removed adult-like pale back/wing marks. The full 1536×1024 plate and 560×700 crop were reopened and passed with the stated unknowns. Corrected fixed archive `6e9cfa528c2fb42a086843aa716aabc55f30a7e3` returned a non-truncated 1,978-entry tree and exact image/source/record blobs; science remains false.

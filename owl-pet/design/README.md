@@ -2338,3 +2338,5 @@ Science revision adds Wetmore 1965 printed p.167 to the complete 2008 field reco
 ### Incremental rule — sparse sex measurements do not override “sexes alike”
 
 When a historical account explicitly describes adult sexes alike and only one female is measured, do not convert that single specimen into a population-level display ratio. Encode the shared diagnosis, keep adult scale near equal, and separate juvenile evidence from adult specimen detail. Applied and visually rechecked on #39 v4; broader effectiveness remains unverified.
+
+- 2026-10-30T13:46:00+08:00 — #39 v4 corrected fixed-tree VERIFIED at `6e9cfa528c2fb42a086843aa716aabc55f30a7e3`; exact image tuples and indexed records matched. Batch 3/6, next cycle4; science false.

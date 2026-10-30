@@ -6352,3 +6352,19 @@ Reused `AUPO-IBARRA-2014`, `AUPO-ALTAMIRANO-2012`, `SRC-BOOK-038-01`, `SRC-WEB-0
 - **Links:** [v4 card](species/39-glaucidium-griseiceps-v4.md) · [knowledge](../knowledge/species/39-glaucidium-griseiceps.md) · [run](../production/runs/20261030T133100+0800-cycle-3.md)
 
 Reused `SRC-PAPER-039-01`, `CAPO-BIRDLIFE-2026`, `CAPO-EBIRD-ID-2026`, `SRC-WEB-039-03`, and `SRC-WEB-039-04`. Correction: a single slightly longer-winged female specimen does not establish a general taller-female direction; v4 keeps adult scale near equal. The juvenile remains the directly documented very wet, age-unknown bird supported on forest-floor leaf litter/root after a storm, with mottled head and unmarked back. New1/reused5/corrected1; exact age, flight, nest and feather chronology unknown; science false.
+
+
+# 2026-10-30 — #40 *Glaucidium nubicola* v4 — current name and sex-sample correction
+
+## CFPO-ITIS-2025
+- **Stable ID:** `CFPO-ITIS-2025`
+- **Title / author / institution / year:** ITIS Report — *Glaucidium nubicola* Robbins & Stiles, 1999; Integrated Taxonomic Information System; current record accessed 2026-10-30.
+- **Original URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686692
+- **Accessed:** 2026-10-30. **Type:** authoritative taxonomic registry.
+- **Species / stage:** current accepted species name; all stages for nomenclature only.
+- **Record actually read:** TSN 686692, valid; no synonyms listed; cited taxonomic references include eBird/Clements 2021, HBW/BirdLife v6b 2022 and IOC 15.1 (2025).
+- **Limits/conflicts/confidence:** high confidence for current name/status; does not support morphology, dimorphism, juvenile development, nest or behaviour.
+- **Design / QA decision:** retain current *Glaucidium nubicola* and Robbins & Stiles, 1999 authorship; no visual trait inferred.
+- **Links:** [v4 card](species/40-glaucidium-nubicola-v4.md) · [knowledge](../knowledge/species/40-glaucidium-nubicola.md) · [run](../production/runs/20261030T134700+0800-cycle-4.md)
+
+Reused `SRC-PAPER-040-02`, `SRC-BOOK-040-01`, `SRC-PAPER-040-03`, `CFPO-EBIRD-ID-2026`, and `CFPO-BIRDSCOLOMBIA-IMMATURE-2026`. Correction: Robbins & Stiles (1999), printed pp.307–308, described six males but only one female, and that female was an extreme rufous morph. V4 therefore does not generalize female color, height or size; it uses comparable brown/gray adults near equal in displayed scale. Juvenile remains a supported recent fledgling with plumage/age/iris/flight unknown; the unspotted crown is only a weak secondary-caption boundary. New1/reused5/corrected1; science false.

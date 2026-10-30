@@ -60,3 +60,22 @@ Scientific-educational owl electronic-pet concept sheet in the established warm 
 - Generated master: `production/generated/40-glaucidium-nubicola-v3-generated-master.jpg`, 444,800 bytes, SHA-256 `a659754a4b7fb7917d9b13bc1ec5c50c7c7911cfc97b5ff2989a4f50ad500cf2`, Git blob `da55112dac1f6d2895adeadd36afb62b0363e4fa`.
 - Reviewed master: `production/reviewed/40-glaucidium-nubicola-v3-reviewed-master.jpg`, 412,821 bytes, SHA-256 `477a3c3e86d4f4c2da8906c70a8ece0523e62aac05cd6f0b07256ed5cf579b4b`, Git blob `00281b3dd8f947f24b0cc99eee03d0e15a95d2f3`.
 - Remaining unknowns: exact juvenile day-age, continuous feather sequence, iris chronology, nest microstructure and independent flight.
+
+
+## v4 evidence correction — 2026-10-30
+
+- Added `CFPO-ITIS-2025`; reused `SRC-PAPER-040-02`, `SRC-BOOK-040-01`, `SRC-PAPER-040-03`, `CFPO-EBIRD-ID-2026`, and `CFPO-BIRDSCOLOMBIA-IMMATURE-2026`.
+- Original description printed pp.306–312 was re-read. Adult brown/gray morphology and the steep very-wet 1,400–2,000 m cloud-forest setting are primary-source supported.
+- Correction: the type-series sex comparison is six males versus one female, and that female was an extreme rufous morph. It does not establish a general female color or larger-size rule. V4 uses comparable brown/gray adults near equal in displayed scale.
+- Juvenile remains a supported recent fledgling with exact age, plumage sequence, iris chronology, nest and independent flight unknown. Unspotted crown remains a tentative secondary-caption boundary.
+- Scientific status remains pending.
+
+### v4 complete image-generation prompt
+
+Warm hand-painted digital-gouache scientific electronic-pet concept sheet, horizontal 3:2 board, same established soft painterly semi-realistic owl style. Title exactly “40 · CLOUD-FOREST PYGMY-OWL · Glaucidium nubicola”. Exactly three full-body birds and exactly three labels: “ADULT MALE”, “ADULT FEMALE”, “JUVENILE”.
+
+ADULT MALE and ADULT FEMALE: compact heavy-bodied short-tailed pygmy-owls, round heads, absolutely no ear tufts. Use comparable brown/gray-morph adults at near-equal displayed height and bulk; the 1999 type series had only one female and she was an extreme rufous morph, so do not invent general female color or size dimorphism. Both adults: bright yellow irides, greenish-yellow bill, yellow tarsi/toes with black claws; brown crown and face with small white spots; dark brown, slightly rufous-washed mantle with very little pale marking; bold pale/white to pale-rufous scapular and upperwing-covert spots; blackish very short tail with five incomplete pale bands; white central underparts, rufous chest sides and only sparse flank marks. Show the male in rear three-quarter view to reveal white-bordered black nape false-eye patches; female front/side view. All feet visibly and naturally supported.
+
+JUVENILE: conservative recently fledged individual on a lower mossy branch, both feet fully gripping support, lower compact posture. Its plumage, age, iris chronology and flight capacity are not described in the primary record. Use an unspotted crown only as a tentative secondary-caption boundary, plain back, soft rounded contour, compact soft folded wing without crisp adult-like spot rows, and a distinctly shorter softer tail without mature regular bars. Subdued dark olive-brown iris is a design-neutral choice, not a scientific claim. Do not depict a hatchling, nestling, unsupported branch pose, spread flight, mature wing coverts, or mature long barred tail.
+
+Habitat: steep, very wet western-Andean Chocó cloud forest at 1,400–2,000 m, moss, epiphytes, mist and dense wet greenery. Three distinct natural poses, clean anatomical separation. No prey, no nest, no extra birds, no watermark, no decorative text beyond the exact title and labels.

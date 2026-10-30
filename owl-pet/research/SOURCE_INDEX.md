@@ -1,3 +1,13 @@
+## 2026-10-31 — #81 *Otus scops* v4 age-uncertain recent-fledgling boundary
+
+- **Reused stable IDs:** SCOPS-MARCHESI-SERGIO-2005; SCOPS-GRIECO-2025; SCOPS-BLASCO-UNDATED; SCOPS-OWLPAGES-2020; WHSO-MIKKOLA-2013.
+- **Actual-read evidence reused:** Marchesi & Sergio 2005, pp.176–187, supports population-level fledging in a broad 20–32 d window rather than an exact individual age; Grieco 2025, pp.103–115, reports departure around 21 d and progressive post-departure movement in one Aleppo-pine / old-Magpie-nest system; Blasco-Zumeta & Heinze manual pp.1–3 distinguishes fresh narrow pointed juvenile flight/tail feathers from broader rounded adult feathers; Owl Pages breeding/description sections support cavity nesting and climbing with bill/claws before full flight; Mikkola 2013 printed pp.122–123 / PDF124–125 supports adult identity and cautions against converting female-heavier measurements into a fixed visible height ratio.
+- **Active network research:** three system-1 queries, three system-2 queries and three direct URL/DOI opens were attempted on 2026-10-31; all returned empty connector payloads. They are logged as failed retrievals and not counted as new evidence.
+- **Design correction:** v3's visible label “≈21-DAY FRESH FLEDGLING” overstates individual precision and its juvenile wing reads too much like an adult panel. V4 uses “RECENT FLEDGLING”, retains fully formed but fresh narrow-pointed feathers, reduces regular adult-white covert/scapular rows, shortens/softens the visible wing edge, keeps residual crown/flank down and a supported cautious step; no sustained flight.
+- **Limits/confidence:** moderate for stage and habitat system; high for removing the exact-age claim; low for exact feather geometry, individual flight competence, juvenile sex and visible sex-size ratio. This is a design boundary, not scientific approval.
+- **Source/design delta:** new0 / reused5 / corrected1; science false.
+- **Links:** [species record](species/81-otus-scops-v4.md) · [run](../production/runs/20261031T033000+0800-cycle-5.md) · v1–v3 retained.
+
 ## 2026-10-31 — #80 *Otus sunia* v4 just-opening remige-sheath boundary
 
 - **Reused IDs:** SUNIA-PUKINSKY-1977; SUNIA-NO-DISS-2017; SUNIA-NO-2015; WHSO-MIKKOLA-2013.

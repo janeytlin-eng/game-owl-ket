@@ -673,3 +673,15 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actually read: section 4.3. Nest with three eggs inside broom bush found 4 March 2022; first chick camera appearance 23 March; chicks active at entrance. No calibrated chick age/plumage/flight detail.
 - Limitation/confidence: useful for habitat and support context only; not a juvenile morphology series and not used to override `ASC-ALSHEIKHLY2012-40D`.
 - Design link: #87 v4 research record; evidence boundary retained, no biological redraw.
+
+
+### CAP-BIODIVEXP-2026
+- Title: *Bubo capensis* (Cape eagle-owl)
+- Author/Institution: Biodiversity Explorer, southern Africa; breeding summary cites Hockey, Dean & Ryan (eds), Roberts Birds of Southern Africa VII (2005)
+- Year/access: page undated; accessed 2026-10-31
+- URL: https://www.biodiversityexplorer.info/birds/strigidae/bubo_capensis.htm
+- Type: regional biodiversity-institution synthesis
+- Species/stage: *Bubo capensis*, nominate/southern African habitat and nest-leaving young
+- Actually read: lines4–8 and56–67. Rocky cliffs/outcrops/gorges and semi-desert scrub are within the southern African habitat range; scrapes occur on ground/ledges or sheltered among rocks; chicks leave the nest at about45days but remain nearby and dependent. No plumage sequence, sex-size measurement or individual-age calibration.
+- Limitation/confidence: corroborative regional context, not a primary developmental series. Used only to support mineral rock ledge/scrub support and pre-flight context, not to redraw feathers or claim exact ability.
+- Design link: #88 v5 title-only revision; biological v4 boundary unchanged.

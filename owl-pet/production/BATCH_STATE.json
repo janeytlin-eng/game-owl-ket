@@ -8610,25 +8610,25 @@
       "next_cycle": 5,
       "last_checkpoint": {
         "cycle": 5,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "species": "Ninox scutulata",
         "species_id": 75,
         "version": 4,
         "run_id": "20261031T010145+0800-cycle-5",
-        "at": "2026-10-31T01:00:30+08:00",
+        "at": "2026-10-31T01:01:12+08:00",
         "run_record": "owl-pet/production/runs/20261031T010145+0800-cycle-5.md",
         "evidence": {
-          "main_head": "a1d654be96ca2ec46676018033381ab2687a422d",
-          "prior_versions": [
-            "v1",
-            "v2",
-            "v3"
-          ],
-          "selection": "#75 next sequential species without v4; v3 fixed original opened",
+          "new_sources": 0,
+          "reused_sources": 5,
+          "corrected_boundaries": 1,
+          "active_search": "three queries returned empty payloads; no credit",
+          "v3_inspected": true,
+          "design_boundary": "preserve Singapore branch-dependent juvenile; add #75; center juvenile; comparable adult supports; unresolved sex direction remains near equal",
+          "prompt_persisted": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T01:00:30+08:00",
+      "last_updated_at": "2026-10-31T01:01:12+08:00",
       "audit_notes": [
         "2026-10-31T00:34:52+08:00 cycle1 #69 Tyto novaehollandiae v4 SCIENCE_REVISION STARTED; latest main/batch/species card checked; v1-v3 preserved; 15-minute lease acquired; no credit.",
         "2026-10-31T00:37:20+08:00 cycle1 #69 v4 RESEARCH_READY; new0/reused4/corrected1; active search/open attempts returned empty payloads and were not credited; original study inferred five-week thick buff second-down stage selected; full prompt saved; science false; no credit.",
@@ -8654,26 +8654,27 @@
         "2026-10-31T00:58:31+08:00 cycle4 #74 v4 REVIEWED; full master, juvenile crop and derivative opened; near-adult torso bulk, short tail and juvenile fluff pass; edit0; PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T00:59:18+08:00 cycle4 #74 v4 ARCHIVED tree prepared; concept/masters/crop/manifests/support records included; fixed readback pending; science false; no credit.",
         "2026-10-31T00:59:35+08:00 cycle4 #74 v4 VERIFIED against fixed archive 53ef96c031c74e9fa6b921871a7c60eb5a44208d; non-truncated 2147-entry tree, exact assets, manifests 578/577/568 and support records matched; batch 4/6 next_cycle5; science false; lease released.",
-        "2026-10-31T01:00:30+08:00 cycle5 #75 Ninox scutulata v4 SCIENCE_REVISION STARTED; v1-v3 and fixed v3 image/card checked; 15-minute lease acquired; no credit."
+        "2026-10-31T01:00:30+08:00 cycle5 #75 Ninox scutulata v4 SCIENCE_REVISION STARTED; v1-v3 and fixed v3 image/card checked; 15-minute lease acquired; no credit.",
+        "2026-10-31T01:01:12+08:00 cycle5 #75 v4 RESEARCH_READY; new0/reused5/corrected1; search empty/no credit; v3 reopened, morphology passes but number/title, central stage comparison and adult support comparability corrected; full prompt saved; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T010145+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T01:00:30+08:00",
-        "expires_at": "2026-10-31T01:15:30+08:00"
+        "heartbeat_at": "2026-10-31T01:01:12+08:00",
+        "expires_at": "2026-10-31T01:16:12+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T010145+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T01:00:30+08:00",
-        "expires_at": "2026-10-31T01:15:30+08:00"
+        "heartbeat_at": "2026-10-31T01:01:12+08:00",
+        "expires_at": "2026-10-31T01:16:12+08:00"
       },
       "in_progress": {
         "cycle": 5,
         "species": "Ninox scutulata",
         "species_id": 75,
         "version": 4,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261031T010145+0800-cycle-5"
       }
     }

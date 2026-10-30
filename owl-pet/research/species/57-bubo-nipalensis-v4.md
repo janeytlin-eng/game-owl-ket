@@ -74,3 +74,13 @@ Typography must be clean, legible and exact. No extra birds, no eggs, no prey, n
 ## Self-iteration rule applied
 
 Problem: earlier v3 relied on an age-unknown juvenile composite and risked treating dated sightings as age thresholds. Evidence: the 2025 Pench note supplies dates/site but no hatch date or flight test; the 2013 field bird supplies plumage and weak sustained flight but no exact age. Modification: v4 labels age unknown, uses a supported brancher, retains evidence-backed juvenile barred wing/tail, and explicitly excludes adult shoulder rows and a flight claim. Validation must be visual, not assumed from prompt text.
+
+## Actual image review and iteration — 2026-10-30 20:44 +08:00
+
+- Initial render: title, exactly three birds, adult identity, near-equal adult scale, forest context and two-foot juvenile support passed. Juvenile coverts showed a crisp pale shoulder row and overly regular adult layering.
+- Evidence conflict: the 2013 field record supports barred primaries/secondaries/tail, but not a crisp adult shoulder pattern or adult-perfect layering.
+- Modification: one juvenile-only edit removed the pale shoulder row and softened covert layering while retaining developed barred flight feathers and modest barred tail.
+- Recheck: edited 1536×1024 original and 680×453 derivative opened; text, count, adults, habitat, support and bounded juvenile wing passed.
+- Result: `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
+- Still unknown: exact age, continuous feather chronology, flight threshold and sexed display ratio.
+- Iteration lesson applied: “formed barred flight feathers” and “adult-perfect covert pattern” are separate checks; a developed brancher may pass the former while requiring removal of the latter. This rule is validated for this plate only.

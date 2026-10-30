@@ -2309,3 +2309,6 @@ Archive [149114821a507934aadb20843a9f643b9751485f](https://github.com/janeytlin-
 
 
 - 2026-10-30T13:03:00+08:00: #38 *Glaucidium nana* v4 ARCHIVED. Concept/generated/reviewed/crop and manifests 557/548/546 persisted; knowledge integrity repaired. Unique 175/251, numbered IDs 185/251; fixed readback pending; batch remains 1/6; science false.
+
+
+- 2026-10-30T13:08:00+08:00 — #38 *Glaucidium nana* v4 fixed readback VERIFIED at archive `19e81f4885695fcf8a835d360586d5d0b59610ad`; 1,971-entry non-truncated tree, exact image/research/manifest blobs and restored 8,710-byte knowledge card matched; batch `2026-10-30T1230+0800` is 2/6, next cycle 3. Science remains false / PASS_WITH_LIMITATIONS.

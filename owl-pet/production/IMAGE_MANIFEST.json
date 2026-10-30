@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T13:03:00+08:00",
+  "updated": "2026-10-30T13:08:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -10315,14 +10315,16 @@
       "review_crop_sha256": "ac8880269a49b42c9a36a0d138ecb5f5e87fdd70568096464e92ddbc41982a92",
       "review_crop_size_bytes": 180718,
       "archive_note": "V1-v3 retained. One juvenile-wing/tail edit; full/crop reopened. Knowledge overwrite caught and restored before archive. Science false.",
-      "readback_pending": true,
-      "archive_commit": "PENDING_FIXED_COMMIT",
-      "fixed_commit": null,
-      "verified_at": null,
-      "verification_result": "pending fixed-commit readback",
+      "readback_pending": false,
+      "archive_commit": "19e81f4885695fcf8a835d360586d5d0b59610ad",
+      "fixed_commit": "19e81f4885695fcf8a835d360586d5d0b59610ad",
+      "verified_at": "2026-10-30T13:08:00+08:00",
+      "verification_result": "fixed archive 19e81f4885695fcf8a835d360586d5d0b59610ad returned a non-truncated 1971-entry tree; exact concept/generated/reviewed/crop blobs and byte sizes, three manifests 557/548/546, source/research/run and restored 8710-byte knowledge card matched",
       "readback": {
-        "status": "PENDING",
-        "fixed_commit": null,
+        "status": "VERIFIED",
+        "fixed_commit": "19e81f4885695fcf8a835d360586d5d0b59610ad",
+        "tree_entries": 1971,
+        "truncated": false,
         "concept": {
           "path": "design/concepts/38-glaucidium-nana-v4.png",
           "blob": "a191a8ba708ced398348e5022e3f33781fddf6dd",
@@ -10351,5 +10353,5 @@
       }
     }
   ],
-  "updated_at": "2026-10-30T13:03:00+08:00"
+  "updated_at": "2026-10-30T13:08:00+08:00"
 }

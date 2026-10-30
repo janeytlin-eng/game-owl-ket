@@ -2326,3 +2326,6 @@ Search snippets can merge adjacent species accounts. Before transferring juvenil
 ## 2026-10-30 · #38 *Glaucidium nana* v4
 
 Science revision archived with Marks et al. 2018 incubation correction and Ibarra et al. 2015 photographed branch-fledgling evidence. One targeted juvenile-wing/tail edit; full/crop reopened; PASS_WITH_LIMITATIONS; scientifically_verified=false. A 770-byte knowledge-card serialization error was detected before archive and the complete pre-run card was restored before appending v4 evidence.
+
+
+- 2026-10-30T13:08:00+08:00 — #38 *Glaucidium nana* v4 fixed readback VERIFIED at archive `19e81f4885695fcf8a835d360586d5d0b59610ad`; 1,971-entry non-truncated tree, exact image/research/manifest blobs and restored 8,710-byte knowledge card matched; batch `2026-10-30T1230+0800` is 2/6, next cycle 3. Science remains false / PASS_WITH_LIMITATIONS.

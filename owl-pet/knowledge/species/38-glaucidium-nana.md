@@ -69,3 +69,8 @@ First render repeated the series failure: bright adult-style juvenile wing spots
 ### Integrity correction
 
 The RESEARCH_READY commit accidentally serialized only a 770-byte replacement knowledge blob. Before archive, the complete pre-run verified knowledge blob `fa3ef102c5616e145d84f95988af04c8fa3ea0c8` was restored and this v4 section appended. No prior knowledge sections are intentionally removed.
+
+
+## v4 archive verification
+
+Fixed archive `19e81f4885695fcf8a835d360586d5d0b59610ad` returned a non-truncated 1,971-entry tree. Exact image/crop/manifests/source/research/run blobs and the restored 8,710-byte knowledge card matched. Science remains false.

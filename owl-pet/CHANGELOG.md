@@ -1342,3 +1342,6 @@ Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f;
 
 
 - 2026-10-30T13:03:00+08:00: archived #38 *Glaucidium nana* v4. Added Marks 2018 correction, reused Ibarra 2015 Fig.5, corrected incubation 15–17 d to 26–29 d, and edited juvenile wing/tail once. Restored full knowledge card after catching a 770-byte serialization overwrite. Manifests design557 / production548 / legacy546; fixed readback pending.
+
+
+- 2026-10-30T13:08:00+08:00 — #38 *Glaucidium nana* v4 fixed readback VERIFIED at archive `19e81f4885695fcf8a835d360586d5d0b59610ad`; 1,971-entry non-truncated tree, exact image/research/manifest blobs and restored 8,710-byte knowledge card matched; batch `2026-10-30T1230+0800` is 2/6, next cycle 3. Science remains false / PASS_WITH_LIMITATIONS.

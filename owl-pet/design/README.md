@@ -1,3 +1,9 @@
+## #82 African Scops Owl — *Otus senegalensis* — v4 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/e8967091ffc5fb1dfce11c1b96225a1147ae2ee4/owl-pet/design/concepts/82-otus-senegalensis-v4.jpg?raw=1)
+- [Fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/e8967091ffc5fb1dfce11c1b96225a1147ae2ee4)
+- PASS_WITH_LIMITATIONS; science false.
+
 ## #82 African Scops Owl — *Otus senegalensis* — v4 science revision
 
 - Concept: [82-otus-senegalensis-v4.jpg](concepts/82-otus-senegalensis-v4.jpg)

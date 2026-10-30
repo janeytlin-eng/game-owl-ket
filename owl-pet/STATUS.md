@@ -2600,3 +2600,9 @@ Outside-nest begging-young stage from Curti et al. 2018 p.18; one edit corrected
 - Reused six indexed sources; active external searches returned empty payloads and received no source credit. V3's adult horizontal waves and broad zebra bars were corrected to coarse V chevrons and narrow irregular dorsal bars.
 - One targeted edit corrected exaggerated adult size/support mismatch. Reviewed 1536×1024 master, 520×700 juvenile crop and 680×453 derivative opened; PASS_WITH_LIMITATIONS.
 - Manifests 576/575/566; unique 175/251; fixed readback pending; science false.
+
+
+### #70 v4 VERIFIED — 2026-10-31T00:49:00+08:00
+
+- Fixed archive `cd18932e5f0df19e09683e05a7f1feea09fa91b5` returned exact concept/generated/reviewed/crop blobs and sizes in a non-truncated 2,135-entry tree; manifests 576/575/566 and support records matched.
+- Batch `2026-10-31T0034+0800` is 2/6, next cycle 3. Unique remains 175/251; science false.

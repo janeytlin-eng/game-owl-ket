@@ -42,3 +42,10 @@ Avoid: extra birds, eggs, prey, ear tufts, adult white-spotted wing panels, adul
 - Targeted edit: adjusted adult supports/scales only; final adult crowns/supports are comparable and the female is only marginally smaller within overlap. Full 1536×1024 reviewed master, 520×700 juvenile crop and 680×453 derivative opened.
 - Final result: PASS_WITH_LIMITATIONS; edit count 1. Exact juvenile age, universal sex ratio and tract-by-tract chronology remain unknown. Science false.
 - Archive prepared with concept blob `6e417a82ebf11499be48661676b09db5323e417d`; fixed commit readback pending.
+
+
+## Fixed archive verification — 2026-10-31T00:49:00+08:00
+
+- Commit `cd18932e5f0df19e09683e05a7f1feea09fa91b5`; tree non-truncated, 2,135 entries.
+- Exact concept/generated/reviewed/crop blobs and sizes matched; manifests 576/575/566 each contained one v4 entry; support records matched.
+- Science remains false; this is a verified production archive, not scientific acceptance.

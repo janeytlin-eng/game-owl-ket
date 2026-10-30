@@ -2512,3 +2512,6 @@ Verification 2026-10-31T00:40:42+08:00: #69 v4 fixed archive `f9196ec751000cb450
 - Concept: `design/concepts/70-ninox-strenua-v4.png`; generated/reviewed masters and 520×700 juvenile crop retained.
 - V4 corrects v3's adult pattern leakage to coarse V-shaped ventral chevrons and narrow irregular dorsal bars. The selected recent fledgling stays white-headed/downier yet retains developed folded wings and tail because the primary field stage could fly shortly after leaving the hollow.
 - One targeted edit made adult supports/scales comparable, with only a marginal female-smaller direction. Full, crop and derivative opened; PASS_WITH_LIMITATIONS. Exact age, universal sex ratio and tract chronology remain unknown. Science false.
+
+
+Verification 2026-10-31T00:49:00+08:00: #70 v4 fixed archive `cd18932e5f0df19e09683e05a7f1feea09fa91b5` returned exact concept/generated/reviewed/crop paths and blobs; manifests 576/575/566 matched. Batch 2/6 next3; science false.

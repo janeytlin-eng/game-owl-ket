@@ -23,3 +23,6 @@ Actual edited PNG viewed: adult upperwing points now irregular creamy bars; bell
 - V3 defect: adult horizontal-wave underparts and broad zebra upperwing bars. V4 uses coarse V chevrons and narrow irregular bars. One edit corrected exaggerated adult scale/support mismatch; final full/crop/derivative passed.
 - Recent fledgling retains a white/downier head and dark eye patches but developed wing/tail appropriate to the selected flight-capable stage. Exact age/sex ratio/tract chronology unknown; `scientifically_verified=false`.
 - Research: [70-ninox-strenua-v4.md](../../research/species/70-ninox-strenua-v4.md) · run: [cycle 2](../../production/runs/20261031T004150+0800-cycle-2.md).
+
+
+Verification 2026-10-31T00:49:00+08:00: fixed archive `cd18932e5f0df19e09683e05a7f1feea09fa91b5` returned exact assets and non-truncated tree; manifests 576/575/566; science false.

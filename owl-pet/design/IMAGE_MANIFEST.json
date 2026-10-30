@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T00:48:19+08:00",
+  "updated": "2026-10-31T00:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -12468,17 +12468,58 @@
       "review_crop_blob": "8e6e6250b3f2d521f0d5173d7375e4b6b7c68d02",
       "review_crop_size_bytes": 689496,
       "archive_note": "V1-v3 preserved. Original generation showed adult size/support mismatch; one targeted edit corrected it. Full reviewed master, juvenile crop and derivative opened. Science false.",
-      "readback_pending": true,
-      "archive_commit": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "archive_commit": "cd18932e5f0df19e09683e05a7f1feea09fa91b5",
+      "verified_at": "2026-10-31T00:49:00+08:00",
       "git_blob": "6e417a82ebf11499be48661676b09db5323e417d",
-      "fixed_commit": null,
-      "verification_result": "PENDING fixed-commit readback",
+      "fixed_commit": "cd18932e5f0df19e09683e05a7f1feea09fa91b5",
+      "verification_result": "VERIFIED against fixed archive: non-truncated 2,135-entry tree; exact concept/generated/reviewed/crop paths, blob SHAs and sizes; manifest counts 576/575/566; supporting run/research/state records matched. Science remains false.",
       "readback": {
-        "status": "PENDING",
+        "status": "VERIFIED",
+        "fixed_archive_commit": "cd18932e5f0df19e09683e05a7f1feea09fa91b5",
+        "tree_truncated": false,
+        "tree_entries": 2135,
+        "concept": {
+          "path": "owl-pet/design/concepts/70-ninox-strenua-v4.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "6e417a82ebf11499be48661676b09db5323e417d",
+          "size": 715464,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/cd18932e5f0df19e09683e05a7f1feea09fa91b5/owl-pet/design/concepts/70-ninox-strenua-v4.png?raw=1"
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/70-ninox-strenua-v4-generated-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "550f0e49b36641eb4994ab6c9593aa94870c9333",
+          "size": 3539686,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/cd18932e5f0df19e09683e05a7f1feea09fa91b5/owl-pet/production/generated/70-ninox-strenua-v4-generated-master.png?raw=1"
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/70-ninox-strenua-v4-reviewed-master.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e4ede89b9f7c6c21fa85fd7b96aee274823046fe",
+          "size": 3367268,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/cd18932e5f0df19e09683e05a7f1feea09fa91b5/owl-pet/production/reviewed/70-ninox-strenua-v4-reviewed-master.png?raw=1"
+        },
+        "review_crop": {
+          "path": "owl-pet/production/review-crops/70-ninox-strenua-v4-juvenile.png",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "8e6e6250b3f2d521f0d5173d7375e4b6b7c68d02",
+          "size": 689496,
+          "url": "https://github.com/janeytlin-eng/game-owl-ket/blob/cd18932e5f0df19e09683e05a7f1feea09fa91b5/owl-pet/production/review-crops/70-ninox-strenua-v4-juvenile.png?raw=1"
+        },
+        "manifest_counts": {
+          "legacy": 576,
+          "design": 575,
+          "production": 566
+        },
+        "unique_species": "175/251",
         "science": false
       }
     }
   ],
-  "updated_at": "2026-10-31T00:48:19+08:00"
+  "updated_at": "2026-10-31T00:49:00+08:00"
 }

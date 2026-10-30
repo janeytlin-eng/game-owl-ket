@@ -7829,35 +7829,55 @@
       "next_cycle": 4,
       "active_lease": {
         "batch_id": "2026-10-30T0830+0800",
-        "owner": "codex-work-20261030T0830+0800",
-        "run_id": "20261030T091000+0800-cycle-3",
-        "cycle": 3,
-        "species_no": "33",
-        "heartbeat_at": "2026-10-30T09:16:00+08:00",
-        "expires_at": "2026-10-30T09:31:00+08:00"
+        "owner": "codex-work-20261030T103715+0800-cycle-4",
+        "run_id": "20261030T103715+0800-cycle-4",
+        "cycle": 4,
+        "species_no": "34",
+        "heartbeat_at": "2026-10-30T10:37:15+08:00",
+        "expires_at": "2026-10-30T10:52:15+08:00"
       },
-      "in_progress": null,
+      "in_progress": {
+        "cycle": 4,
+        "species_no": "34",
+        "species": "Glaucidium hardyi",
+        "version": "v4",
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261030T103715+0800-cycle-4",
+        "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
+        "stage": "STARTED",
+        "started_at": "2026-10-30T10:37:15+08:00"
+      },
       "last_checkpoint": {
-        "stage": "VERIFIED",
-        "at": "2026-10-30T09:50:00+08:00",
-        "run_record": "owl-pet/production/runs/20261030T091000+0800-cycle-3.md",
+        "stage": "STARTED",
+        "at": "2026-10-30T10:37:15+08:00",
+        "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
         "evidence": {
-          "fixed_commit": "6e64c74ad52a1b7a69b9d1b8eda66074cef10122",
-          "tree_entries": 1941,
-          "truncated": false,
-          "concept_blob": "ce11cf97dd408a005a1c6965fd0a734c1cbac019",
-          "concept_bytes": 2960406,
-          "generated_blob": "a38f6dff469b509d4a70a21b8cf5d421398be287",
-          "generated_bytes": 3190800,
-          "crop_blob": "4f24e38e9421f223c6695477f10546b018b4e46b",
-          "crop_bytes": 690835,
-          "source_index_blob": "582ba9c0dd2326e9154ca11ef539498b33911ef3"
+          "head_before": "b3af319bbac753eb94f5be0b8c1f300fdd533910",
+          "expired_lease_superseded": "20261030T091000+0800-cycle-3",
+          "selected_from_next_cycle": 4
         }
       },
-      "lease": null
+      "lease": {
+        "batch_id": "2026-10-30T0830+0800",
+        "owner": "codex-work-20261030T103715+0800-cycle-4",
+        "run_id": "20261030T103715+0800-cycle-4",
+        "cycle": 4,
+        "species_no": "34",
+        "heartbeat_at": "2026-10-30T10:37:15+08:00",
+        "expires_at": "2026-10-30T10:52:15+08:00"
+      },
+      "last_updated_at": "2026-10-30T10:37:15+08:00"
     }
   ],
-  "lease": null,
+  "lease": {
+    "batch_id": "2026-10-30T0830+0800",
+    "owner": "codex-work-20261030T103715+0800-cycle-4",
+    "run_id": "20261030T103715+0800-cycle-4",
+    "cycle": 4,
+    "species_no": "34",
+    "heartbeat_at": "2026-10-30T10:37:15+08:00",
+    "expires_at": "2026-10-30T10:52:15+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -7961,7 +7981,8 @@
     "2026-10-29T16:42:00+08:00: #94 v4 REVIEWED; one edit; no credit.",
     "2026-10-29T16:45:00+08:00: #94 v4 ARCHIVED; fixed readback pending; no credit.",
     "2026-10-29T16:47:00+08:00: #94 manifest generated-master path corrected before credit; reread pending.",
-    "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5."
+    "2026-10-29T16:49:00+08:00: #94 fixed corrected-tree readback passed; batch 4/6 next cycle5.",
+    "2026-10-30T10:37:15+08:00: batch 2026-10-30T0830+0800 cycle4 STARTED #34 Glaucidium hardyi v4 SCIENCE_REVISION; expired cycle3 active_lease cleared after VERIFIED checkpoint audit; 15-minute lease acquired; no credit."
   ],
   "updated_at": "2026-10-30T09:50:00+08:00",
   "recovery_notes": [
@@ -8308,5 +8329,16 @@
     "2026-10-30T09:13:00+08:00: cycle3 #33 v4 RESEARCH_READY; new1/reused4/corrected0; ITIS current-name mapping and Lin et al. 2014 known-age fledgling evidence read; no credit.",
     "2026-10-30T09:16:00+08:00: cycle3 #33 v4 IMAGE_GENERATED after 50-second wait; full plate opened. Text/count/adults and male rear false eyes pass; juvenile folded wing/tail are too long and adult-ordered for selected 56-day incomplete-pattern stage, targeted edit required; no credit."
   ],
-  "in_progress": null
+  "in_progress": {
+    "batch_id": "2026-10-30T0830+0800",
+    "cycle": 4,
+    "species_no": "34",
+    "species": "Glaucidium hardyi",
+    "version": "v4",
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261030T103715+0800-cycle-4",
+    "run_record": "owl-pet/production/runs/20261030T103715+0800-cycle-4.md",
+    "stage": "STARTED",
+    "started_at": "2026-10-30T10:37:15+08:00"
+  }
 }

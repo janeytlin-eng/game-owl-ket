@@ -42,3 +42,10 @@ Avoid: exact age claim, mass-to-height conversion, colour morph as sex, adult-cl
 - Corrected label, adult identity/scale/support, juvenile residual down, compact soft-edged fresh wing, short tail and secure two-foot thorn-fork support pass.
 - No second edit was required. PASS_WITH_LIMITATIONS; edit_count 1; scientific verification false.
 - Assets and manifests persisted; immutable readback pending.
+
+
+## VERIFIED
+
+- Fixed archive `e8967091ffc5fb1dfce11c1b96225a1147ae2ee4` returned exact base64 payloads, expected blobs and byte sizes for all four image paths.
+- Manifests 586/585/576 and source/research/run/knowledge/batch markers matched.
+- Repository verification is not scientific approval; stated unknowns remain. `scientifically_verified=false`.

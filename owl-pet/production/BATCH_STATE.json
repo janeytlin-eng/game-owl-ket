@@ -12272,6 +12272,75 @@
         }
       ],
       "completed_at": "2026-11-01T04:00:00+08:00"
+    },
+    {
+      "batch_id": "20261101T040500+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "20261101T040500+0800-cycle-1",
+        "heartbeat_at": "2026-11-01T04:05:00+08:00",
+        "expires_at": "2026-11-01T04:20:00+08:00"
+      },
+      "lease": null,
+      "in_progress": {
+        "cycle": 1,
+        "species": "Otus madagascariensis",
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261101T040500+0800-cycle-1",
+        "stage": "STARTED",
+        "stage_evidence": {
+          "started_at": "2026-11-01T04:05:00+08:00",
+          "selection": "next v1-only science-revision target after skipping #172 because v2 already exists",
+          "main_head": "800c48817a37eb8c56caf0dbb77220c05645af1e",
+          "v1_git_blob": "3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc",
+          "v1_sha256": "1c0c11c79805abcc9489602f6bc7c54d561c7e5b9729318abf19692838c4e289",
+          "unique_species": "175/251",
+          "lease_expires_at": "2026-11-01T04:20:00+08:00"
+        }
+      },
+      "last_checkpoint": {
+        "cycle": 1,
+        "run_id": "20261101T040500+0800-cycle-1",
+        "species": "Otus madagascariensis",
+        "stage": "STARTED",
+        "at": "2026-11-01T04:05:00+08:00",
+        "credited_cycle": false,
+        "evidence": {
+          "started_at": "2026-11-01T04:05:00+08:00",
+          "selection": "next v1-only science-revision target after skipping #172 because v2 already exists",
+          "main_head": "800c48817a37eb8c56caf0dbb77220c05645af1e",
+          "v1_git_blob": "3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc",
+          "v1_sha256": "1c0c11c79805abcc9489602f6bc7c54d561c7e5b9729318abf19692838c4e289",
+          "unique_species": "175/251",
+          "lease_expires_at": "2026-11-01T04:20:00+08:00"
+        }
+      },
+      "last_stage": "STARTED",
+      "updated_at": "2026-11-01T04:05:00+08:00",
+      "stage_history": [
+        {
+          "cycle": 1,
+          "run_id": "20261101T040500+0800-cycle-1",
+          "species": "Otus madagascariensis",
+          "stage": "STARTED",
+          "at": "2026-11-01T04:05:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "started_at": "2026-11-01T04:05:00+08:00",
+            "selection": "next v1-only science-revision target after skipping #172 because v2 already exists",
+            "main_head": "800c48817a37eb8c56caf0dbb77220c05645af1e",
+            "v1_git_blob": "3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc",
+            "v1_sha256": "1c0c11c79805abcc9489602f6bc7c54d561c7e5b9729318abf19692838c4e289",
+            "unique_species": "175/251",
+            "lease_expires_at": "2026-11-01T04:20:00+08:00"
+          }
+        }
+      ]
     }
   ],
   "lease": null,

@@ -9385,8 +9385,8 @@
   "lease": {
     "owner": "codex-work-mode",
     "run_id": "20261031T115700+0800-cycle-3",
-    "heartbeat_at": "2026-10-31T12:29:00+08:00",
-    "expires_at": "2026-10-31T12:44:00+08:00"
+    "heartbeat_at": "2026-10-31T12:32:00+08:00",
+    "expires_at": "2026-10-31T12:47:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9531,10 +9531,10 @@
   "active_lease": {
     "owner": "codex-work-mode",
     "run_id": "20261031T115700+0800-cycle-3",
-    "heartbeat_at": "2026-10-31T12:29:00+08:00",
-    "expires_at": "2026-10-31T12:44:00+08:00"
+    "heartbeat_at": "2026-10-31T12:32:00+08:00",
+    "expires_at": "2026-10-31T12:47:00+08:00"
   },
-  "last_updated_at": "2026-10-31T12:29:00+08:00",
+  "last_updated_at": "2026-10-31T12:32:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -10010,7 +10010,7 @@
     "version": 3,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T115700+0800-cycle-3",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "started_at": "2026-10-31T11:57:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
     "baseline_main": "5476cb9f2b3eaddcef8df63a3ab72d6be871bad3",
@@ -10027,6 +10027,11 @@
       "reused_project_source": 2,
       "partially_verified_lead": 1,
       "corrected_visual_issues": 3
+    },
+    "generated_asset": {
+      "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
+      "size": 3109184,
+      "sha256": "d414ed7e2a81ac4421d4f4ef783dbc192bb21158a29490f85b39b40bd20e64ac"
     }
   },
   "last_checkpoint": {
@@ -10036,7 +10041,7 @@
     "version": 3,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T115700+0800-cycle-3",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "started_at": "2026-10-31T11:57:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
     "baseline_main": "5476cb9f2b3eaddcef8df63a3ab72d6be871bad3",
@@ -10053,6 +10058,11 @@
       "reused_project_source": 2,
       "partially_verified_lead": 1,
       "corrected_visual_issues": 3
+    },
+    "generated_asset": {
+      "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
+      "size": 3109184,
+      "sha256": "d414ed7e2a81ac4421d4f4ef783dbc192bb21158a29490f85b39b40bd20e64ac"
     }
   },
   "history": [
@@ -10271,6 +10281,20 @@
       "partially_verified_lead": 1,
       "corrected_visual_issues": 3,
       "scientifically_verified": false
+    },
+    {
+      "at": "2026-10-31T12:32:00+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "generation_seconds": 54.6,
+      "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
+      "size": 3109184,
+      "sha256": "d414ed7e2a81ac4421d4f4ef783dbc192bb21158a29490f85b39b40bd20e64ac",
+      "review_note": "Adult dark irises, near-equal adult scale, juvenile down/short-wing/support passed. Mossy support still read as a nest-like platform; one support-environment-only edit required."
     }
   ]
 }

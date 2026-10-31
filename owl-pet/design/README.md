@@ -1,3 +1,9 @@
+## #102 Black-and-white Owl — *Strix nigrolineata* — v3 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca/owl-pet/design/concepts/102-strix-nigrolineata-v3.png?raw=1)
+- [Fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca)
+- PASS_WITH_LIMITATIONS; valid manifests 603/602/593; science false.
+
 ## #102 Black-and-white Owl — *Strix nigrolineata* — v3 science revision
 
 - Concept: [102-strix-nigrolineata-v3.png](concepts/102-strix-nigrolineata-v3.png)

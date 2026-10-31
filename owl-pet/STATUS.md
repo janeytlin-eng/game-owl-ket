@@ -1,3 +1,9 @@
+## 2026-10-31 #102 *Strix nigrolineata* v3 VERIFIED
+
+- Fixed archive `e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca`; exact concept/generated/reviewed/crop assets and valid repaired manifests 603/602/593 matched in a non-truncated 2,301-entry tree.
+- Adult dorsal over-speckling corrected; restrained female-size direction applied from one measured pair; age-unknown mesoptile preserved. PASS_WITH_LIMITATIONS; science false; unique175/251; batch5/6.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca/owl-pet/design/concepts/102-strix-nigrolineata-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca)
+
 ## 2026-10-31 #102 *Strix nigrolineata* v3 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; one evidence-led edit; PASS_WITH_LIMITATIONS; science false; unique175/251.

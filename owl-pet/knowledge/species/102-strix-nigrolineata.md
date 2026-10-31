@@ -3,7 +3,7 @@
 - Current scientific name: *Strix nigrolineata*
 - Historical name in older literature: *Ciccaba nigrolineata*
 - Concept versions: [v1](../../design/concepts/102-strix-nigrolineata-v1.png) · [v2](../../design/concepts/102-strix-nigrolineata-v2.png) · [v3](../../design/concepts/102-strix-nigrolineata-v3.png)
-- Current production status: v3 archived; fixed readback pending; scientifically_verified=false
+- Current production status: v3 fixed-archive verified; scientifically_verified=false
 
 ## Identification boundary
 

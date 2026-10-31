@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:52:00+08:00",
+  "updated": "2026-10-31T11:02:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13948,11 +13948,49 @@
       "review_crop_blob": "980c0520d9ef5571faec58a75669046949c1261a",
       "review_crop_sha256": "b5f9491094df8a0747b9ad46a023c820789c09b2bf017e8d956116373bd6f27e",
       "review_crop_size_bytes": 795757,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T11:02:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca",
+        "method": "non-truncated recursive tree plus raw fixed-commit JSON parse and exact path/blob/size tuple match",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/102-strix-nigrolineata-v3.png",
+            "sha": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
+            "size": 2914132
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png",
+            "sha": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
+            "size": 2914132
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/102-strix-nigrolineata-v3-reviewed-master.png",
+            "sha": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
+            "size": 2914132
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/102-strix-nigrolineata-v3-juvenile.png",
+            "sha": "980c0520d9ef5571faec58a75669046949c1261a",
+            "size": 795757
+          }
+        },
+        "manifest_counts": {
+          "legacy": 603,
+          "design": 602,
+          "production": 593
+        },
+        "tree": {
+          "entries": 2301,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:52:00+08:00"
+  "updated_at": "2026-10-31T11:02:00+08:00"
 }

@@ -50,3 +50,8 @@ Problem → evidence → modification → recheck: v2 had excessive white crown/
 - Concept/generated/reviewed master all use Git blob `e46a5d47ba8efb722805fc2a7143f99975c6f902`, 2,914,132 bytes; crop blob `980c0520d9ef5571faec58a75669046949c1261a`, 795,757 bytes.
 - Three remote manifests were found invalid because tool-output truncation warnings had been embedded. They were reconstructed from last valid commit `74851c0d490bfb96e69f30b6959653d38f09edac`, preserving exact verified #97/#99/#100/#101 objects and appending #102. Locally parsed counts: legacy603/design602/production593.
 - ARCHIVED; immutable fixed-commit readback pending; no cycle credit yet.
+
+
+## Verification — 2026-10-31T11:02:00+08:00
+
+Fixed archive `e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca` passed non-truncated tree and exact asset tuple readback. All three repaired manifests were downloaded and parsed as valid JSON at 603/602/593, with one matching #102 v3 row. Result remains PASS_WITH_LIMITATIONS and scientifically_verified=false.

@@ -1532,3 +1532,16 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Facts / limits:** current species *Otus rufescens* (Horsfield, 1821), with recognized *rufescens* and *malayensis* children. Taxonomy/name mapping only; not morphology or development evidence.
 
 **Mapping / delta — #140 v3:** current *Otus rufescens*; plate represents nominate light morph, while *O. r. malayensis* is retained only as a mapped subspecies comparator. New-to-index 4 / reused project facts 3 / corrected cross-subspecies boundary 1. Exact chick day age, iris, flight ability, sex-size ratio, nest materials and full feather chronology remain unknown; science=false. [Species research](species/140-otus-rufescens-v3.md) · [Run](../production/runs/20261031T213600+0800-cycle-2.md).
+
+
+### MAG-SANGSTER-2013
+- Stable ID: `MAG-SANGSTER-2013`
+- **Title:** A New Owl Species of the Genus *Otus* (Aves: Strigidae) from Lombok, Indonesia
+- **Authors / institution:** Sangster et al.; PLOS ONE
+- **Year / accessed:** 2013 / 2026-10-31
+- **Type / URL / DOI:** primary taxonomic study; https://pmc.ncbi.nlm.nih.gov/articles/PMC3572129/ ; DOI 10.1371/journal.pone.0053712
+- **Species / stages:** adult museum specimens in the *O. magicus–O. manadensis* complex; Moluccan *O. m. magicus*, *bouruensis*, *leucospilus*, *morotensis*; no juvenile-development sequence.
+- **Key facts actually read:** Morphology and Table 2 compare 21 Moluccan *O. magicus* specimens; pooled wing 175.6±7.0 mm and bill-to-skull 26.3±1.5 mm. Diagnosis states distal tarsometatarsus is bare in Moluccan forms (ranges 2–16 mm by form) and describes stronger upperpart pattern, larger white wing-covert markings and more uniform breast/belly relative to *O. jolandae*.
+- **Pages / sections:** article pp. 8–10; Morphometrics Table 2 and Diagnosis: Morphology.
+- **Limitations / confidence:** high for adult museum comparison and taxonomic boundary; pooled forms, not sex-dimorphism or juvenile timing evidence. Does not support exact chick age, iris, flight ability, nest or full feather sequence.
+- **Design decision:** preserve larger Moluccan adult proportions, partly bare distal tarsus and irregular—not repeated—light shoulder/wing marks; do not import *O. jolandae* fully feathered tarsi. Linked to [#141 v3 research](species/141-otus-magicus-v3.md) and [run](../production/runs/20261031T214500+0800-cycle-3.md).

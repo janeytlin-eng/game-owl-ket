@@ -9381,8 +9381,8 @@
   "lease": {
     "owner": "codex-work-mode",
     "run_id": "20261031T114222+0800-cycle-2",
-    "heartbeat_at": "2026-10-31T11:48:00+08:00",
-    "expires_at": "2026-10-31T12:03:00+08:00"
+    "heartbeat_at": "2026-10-31T11:53:00+08:00",
+    "expires_at": "2026-10-31T12:08:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9527,8 +9527,8 @@
   "active_lease": {
     "owner": "codex-work-mode",
     "run_id": "20261031T114222+0800-cycle-2",
-    "heartbeat_at": "2026-10-31T11:48:00+08:00",
-    "expires_at": "2026-10-31T12:03:00+08:00"
+    "heartbeat_at": "2026-10-31T11:53:00+08:00",
+    "expires_at": "2026-10-31T12:08:00+08:00"
   },
   "last_updated_at": "2026-10-31T11:02:00+08:00",
   "audit_notes": [
@@ -10006,7 +10006,7 @@
     "version": 7,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T114222+0800-cycle-2",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "started_at": "2026-10-31T11:42:22+08:00",
     "run_record": "owl-pet/production/runs/20261031T114222+0800-cycle-2.md",
     "baseline_main": "e009fc1d3d04308081bbf992afc76b0adf1590e6",
@@ -10041,6 +10041,16 @@
       "feet_crop_opened": true,
       "final_sha256": "272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92",
       "final_size": 2737203
+    },
+    "archive": {
+      "concept_path": "owl-pet/design/concepts/105-ptilopsis-granti-v7.png",
+      "concept_blob": "69f13552cb9d31883fb718dbe7700407c903e287",
+      "generated_blob": "f05d7c1c0ab1d96265c7d574b3377a6a1a151cc5",
+      "reviewed_blob": "69f13552cb9d31883fb718dbe7700407c903e287",
+      "juvenile_crop_blob": "67f7b344a87124a68c452753078ded25d150d15d",
+      "feet_crop_blob": "72495e2ce268eeea3981febc276782918b3d9e71",
+      "manifest_counts": {"legacy": 606, "design": 605, "production": 596},
+      "readback_pending": true
     }
   },
   "last_checkpoint": {
@@ -10050,7 +10060,7 @@
     "version": 7,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T114222+0800-cycle-2",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "started_at": "2026-10-31T11:42:22+08:00",
     "run_record": "owl-pet/production/runs/20261031T114222+0800-cycle-2.md",
     "baseline_main": "e009fc1d3d04308081bbf992afc76b0adf1590e6",
@@ -10085,6 +10095,16 @@
       "feet_crop_opened": true,
       "final_sha256": "272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92",
       "final_size": 2737203
+    },
+    "archive": {
+      "concept_path": "owl-pet/design/concepts/105-ptilopsis-granti-v7.png",
+      "concept_blob": "69f13552cb9d31883fb718dbe7700407c903e287",
+      "generated_blob": "f05d7c1c0ab1d96265c7d574b3377a6a1a151cc5",
+      "reviewed_blob": "69f13552cb9d31883fb718dbe7700407c903e287",
+      "juvenile_crop_blob": "67f7b344a87124a68c452753078ded25d150d15d",
+      "feet_crop_blob": "72495e2ce268eeea3981febc276782918b3d9e71",
+      "manifest_counts": {"legacy": 606, "design": 605, "production": 596},
+      "readback_pending": true
     }
   },
   "history": [
@@ -10237,6 +10257,19 @@
       "juvenile_crop_opened": true,
       "feet_crop_opened": true,
       "final_sha256": "272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92"
+    },
+    {
+      "at": "2026-10-31T11:53:00+08:00",
+      "event": "ARCHIVE_PREPARED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "version": 7,
+      "manifest_counts": {"legacy": 606, "design": 605, "production": 596},
+      "unique_species": "175/251",
+      "readback_pending": true,
+      "science": false
     }
   ]
 }

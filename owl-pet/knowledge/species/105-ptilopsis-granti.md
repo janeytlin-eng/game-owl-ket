@@ -27,3 +27,13 @@ Fresh active research read Animal Diversity Web and added `SWFO-SABISABI-2014`; 
 - Image: [105-ptilopsis-granti-v6.png](../../design/concepts/105-ptilopsis-granti-v6.png)
 - SHA-256: `124cf8f94e9d9bc8cfa035a0b94477ae781d3f3f3ca5da47516029cba2593793`
 - Run: [cycle 4](../../production/runs/2026-10-25T0128+0800-cycle-4.md)
+
+
+## v7 archive repair and science revision — 2026-10-31
+
+Repository v6 was preserved but rejected as a visual baseline: the 786,446-byte PNG could not be decoded and its SHA256 `ed4fcfab…` conflicts with the recorded `124cf8f9…`. Intact v5 was therefore used for v7. ADW morphology/development and ITIS taxonomy were actually opened; `SWFO-JWVH-2024` was reused for the older branch-supported juvenile boundary. One initial imagegen edit and one targeted correction were viewed. Final v7 shows the required three birds; adults retain black-rimmed pale facial discs, orange-red eyes, long streaked tufts, restrained sex-size difference and feathering over tarsi/basal toes; the centre age-unknown juvenile has a grey-brown face, yellow-grey eyes, short soft tufts, two-foot branch support, a shorter rounded formed wing ending above the branch and concealed tail. Residual covert regularity, exact age/flight threshold, literal toe boundary and population-wide dimorphism remain unknown. `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
+
+- Image: [105-ptilopsis-granti-v7.png](../../design/concepts/105-ptilopsis-granti-v7.png)
+- SHA-256: `272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92`
+- Research: [105-ptilopsis-granti-v7.md](../../research/105-ptilopsis-granti-v7.md)
+- Run: [cycle 2](../../production/runs/20261031T114222+0800-cycle-2.md)

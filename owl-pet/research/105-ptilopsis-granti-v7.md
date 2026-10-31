@@ -21,3 +21,7 @@ Exact age, continuous molt, flight threshold, population-wide sex ratio, literal
 ## Actual v7 review
 
 The initial v7 full plate and juvenile crop exposed adult-long juvenile remiges and overly regular pale coverts, so one targeted correction was made. The final full plate, juvenile crop and all-feet crop were opened: the juvenile wing is shorter/rounder and ends above the branch; support, face/eye direction and concealed tail pass; adult basal-toe feathering and restrained dimorphism pass. Residual covert regularity and all chronology/flight unknowns remain; `PASS_WITH_LIMITATIONS`, science false.
+## Archive checkpoint
+
+- 2026-10-31T11:53:00+08:00: corrected v7 plate, generated master, reviewed master and two opened review crops prepared for immutable archive. The archive remains scientifically unverified and does not receive cycle credit until fixed-commit readback succeeds.
+

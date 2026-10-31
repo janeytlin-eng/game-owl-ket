@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T03:40:22Z",
+  "updated": "2026-10-31T03:53:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14173,7 +14173,56 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "105-ptilopsis-granti-v7",
+      "path": "design/concepts/105-ptilopsis-granti-v7.png",
+      "species_id": 105,
+      "scientific_name": "Ptilopsis granti",
+      "historical_names": [
+        "Otus leucotis granti",
+        "Pisorhina leucotis granti"
+      ],
+      "common_name": "Southern White-faced Owl",
+      "version": 7,
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92",
+      "size_bytes": 2737203,
+      "dimensions": "1536x1024",
+      "status": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION from intact v5 because repository v6 is undecodable and conflicts with its knowledge-record SHA. One referenced-image generation plus one corrective edit shortened/rounded the older juvenile wing above the branch and reduced repeated pale covert geometry; adults retain species identity, restrained overlapping sex-size direction, basal toe feathering and exposed distal toes/claws. Full plate, juvenile crop and feet crop PASS_WITH_LIMITATIONS; exact age, flight threshold, toe-feather boundary, population-wide dimorphism and residual covert regularity remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "source_ids": [
+        "SWFO-ADW-ACCOUNT",
+        "SWFO-ITIS-686682",
+        "SWFO-JWVH-2024"
+      ],
+      "research_record": "research/105-ptilopsis-granti-v7.md",
+      "run_record": "production/runs/20261031T114222+0800-cycle-2.md",
+      "reviewed_at": "2026-10-31T03:48:00Z",
+      "generated_path": "production/generated/105-ptilopsis-granti-v7-generated-master.png",
+      "generated_blob": "f05d7c1c0ab1d96265c7d574b3377a6a1a151cc5",
+      "generated_sha256": "fdff81c6a5c200d0ed774bccc19405fbe98489f18dbbca0dcb9b4c963c4fd9fc",
+      "generated_size_bytes": 2746646,
+      "reviewed_path": "production/reviewed/105-ptilopsis-granti-v7-reviewed-master.png",
+      "reviewed_blob": "69f13552cb9d31883fb718dbe7700407c903e287",
+      "reviewed_sha256": "272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92",
+      "reviewed_size_bytes": 2737203,
+      "review_crop_path": "production/review-crops/105-ptilopsis-granti-v7-juvenile.png",
+      "review_crop_blob": "67f7b344a87124a68c452753078ded25d150d15d",
+      "review_crop_sha256": "e48fb0c7db874b19623adc81902699fb8ae4cf105b1c5e0377b3c8bcdc2ef509",
+      "review_crop_size_bytes": 624310,
+      "auxiliary_review_crop_path": "production/review-crops/105-ptilopsis-granti-v7-feet.png",
+      "auxiliary_review_crop_blob": "72495e2ce268eeea3981febc276782918b3d9e71",
+      "auxiliary_review_crop_sha256": "61fe02c5b5728f5b99f11901c489f5b72b89254bcdd93b8ac1d17396ab968aa4",
+      "auxiliary_review_crop_size_bytes": 718912,
+      "readback_pending": true,
+      "git_blob": "69f13552cb9d31883fb718dbe7700407c903e287",
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T03:40:22Z"
+  "updated_at": "2026-10-31T03:53:00Z"
 }

@@ -15971,9 +15971,18 @@
       "auxiliary_review_crop_blob": "e0c53aab4a8cefe79b89970aea6d54a124254e9f",
       "auxiliary_review_crop_sha256": "f178df37e53989cb3f4ba9a82202840fae6a73aae41890b97e62b90741bcac6b",
       "auxiliary_review_crop_size_bytes": 1273053,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1"
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
+      "fixed_archive_commit": "539b391f2ad4b8c02687b19451822e9e94cc1ded",
+      "verified_at": "2026-10-31T12:09:41.929Z",
+      "readback": {
+        "method": "immutable archive commit tree plus exact path/blob/byte and complete JSON manifest readback",
+        "archive_tree": "0ce998653a3b779f3ee4b54a77d947ac6199ba8b",
+        "tree_count": 2431,
+        "truncated": false,
+        "assets_verified": 6
+      }
     },
     {
       "id": "137-otus-alfredi-v3",

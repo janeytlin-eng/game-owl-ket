@@ -1,3 +1,9 @@
+## 2026-10-31 #131 *Megascops watsonii* v3 ARCHIVED — fixed readback pending
+
+- Narrow Guiana Shield SCIENCE_REVISION; v2 reopened and corrected after pixel review found near-clone adults and a long sleek juvenile wing reaching near the feet.
+- One recovered imagegen edit compacts the dark-eyed older young's formed wing above both feet under residual down; tail hidden, bilateral branch grip retained. Full plate plus juvenile and feet crops opened; PASS_WITH_LIMITATIONS; science false; unique remains **175/251**.
+- Sources new1/reused4/corrected2; exact juvenile age/flight/tract chronology, sex-size ratio and universal nest form remain unknown. Manifests 615/614/605; no cycle credit before immutable readback. [Research](research/species/131-megascops-watsonii-v3.md) · [Run](production/runs/20261031T181700+0800-cycle-5.md)
+
 ## 2026-10-31 #119 *Megascops centralis* v4 VERIFIED
 
 - V3 was opened and found to retain a long adult-like folded juvenile wing near the feet despite its written boundary. V4 retains documented formed barred remiges but compacts the visible wing above both feet and the cavity sill; tail remains nonprojecting and bilateral support is clear.

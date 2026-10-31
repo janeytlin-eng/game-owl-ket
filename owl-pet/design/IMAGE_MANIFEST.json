@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:14:00Z",
+  "updated": "2026-10-31",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15764,7 +15764,59 @@
         "manifest_json_valid": true,
         "science": false
       }
+    },
+    {
+      "id": "131-megascops-watsonii-v3",
+      "path": "design/concepts/131-megascops-watsonii-v3.png",
+      "species_id": 131,
+      "scientific_name": "Megascops watsonii",
+      "historical_names": [
+        "Otus watsonii (broad pre-split use; in part)",
+        "Megascops watsonii (broad pre-2021 concept; in part)"
+      ],
+      "common_name": "Tawny-bellied Screech-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "a0cf8c66450bbf0ef7364b8606877022960c43c38cee72035d53702a50eb1121",
+      "size_bytes": 2817883,
+      "dimensions": "1536x1024",
+      "status": "Narrow Guiana Shield science revision. The archived v2 was reopened and found to combine near-clone adults with a long sleek juvenile wing reaching near the feet. V3 separates the adult poses while keeping near-equal skeletal height and uses a dark-eyed, down-rich older young whose formed wing is compacted above both feet under residual fluff; tail remains hidden and bilateral branch support is visible. One recovered imagegen wing edit. Exact juvenile age, flight threshold, tract chronology, sex-size ratio and universal nest form remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "WAT-BARROS-CINTRA-2009",
+        "WAT-DANTAS-2021",
+        "WAT-DAFFONSECA-2017",
+        "WAT-SCAUP-2024",
+        "WAT-MIK2013-235"
+      ],
+      "research_record": "research/species/131-megascops-watsonii-v3.md",
+      "run_record": "production/runs/20261031T181700+0800-cycle-5.md",
+      "reviewed_at": "2026-10-31T10:37:00Z",
+      "generated_path": "production/generated/131-megascops-watsonii-v3-generated-master.png",
+      "generated_blob": "393ca1478a208be3b9b93d19190788f5a656ff61",
+      "generated_sha256": "2447c18c2a54161610b9f7ac028f444f86d3651acb8c0f7273b479f9163900e7",
+      "generated_size_bytes": 2898792,
+      "intermediate_edit_path": "production/generated/131-megascops-watsonii-v3-edit1.png",
+      "intermediate_edit_blob": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+      "reviewed_path": "production/reviewed/131-megascops-watsonii-v3-reviewed-master.png",
+      "reviewed_blob": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+      "reviewed_sha256": "a0cf8c66450bbf0ef7364b8606877022960c43c38cee72035d53702a50eb1121",
+      "reviewed_size_bytes": 2817883,
+      "review_crop_path": "production/review-crops/131-megascops-watsonii-v3-juvenile.png",
+      "review_crop_blob": "42e40ea76bd3bb03b9030e0a37a0faa3d19688ec",
+      "review_crop_sha256": "72fe4b5f685240268f8293cd55012f955cff7f379dd22a9ea0a47e32d104bd52",
+      "review_crop_size_bytes": 637444,
+      "auxiliary_review_crop_path": "production/review-crops/131-megascops-watsonii-v3-feet.png",
+      "auxiliary_review_crop_blob": "710643435ccf84f4446345214e77517e5dffda44",
+      "auxiliary_review_crop_sha256": "09674f5f10ab594a028ad5d02b0c6abeb5feeffd993bf06bc66eef000afd0c93",
+      "auxiliary_review_crop_size_bytes": 439703,
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T10:14:00Z"
+  "updated_at": "2026-10-31T10:43:00Z"
 }

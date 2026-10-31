@@ -2773,3 +2773,8 @@ Northern-nominate/Ecuador science revision: richer-brown near-equal adults, docu
 ### #130 v3 verified — 2026-10-31T18:14:00+08:00
 
 Fixed archive [`793c769923b8a255846054a8e0371b59e2989cf5`](https://github.com/janeytlin-eng/game-owl-ket/commit/793c769923b8a255846054a8e0371b59e2989cf5) passed exact six-image readback; concept fully decoded and matched SHA-256. Manifests 614/613/604; batch 4/6 next5; unique175/251; science false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/793c769923b8a255846054a8e0371b59e2989cf5/owl-pet/design/concepts/130-megascops-koepckeae-v3.png?raw=1).
+
+
+## 2026-10-31 — #131 *Megascops watsonii* v3
+
+Narrow Guiana Shield science revision. Archived v2 pixels, not its prose, established the correction target: near-clone adults and an overly long sleek juvenile wing. One recovered imagegen edit shortened the evidence-bounded older young's formed wing above both feet while retaining residual down, dark eyes, hidden tail and bilateral branch grip. Full plate plus juvenile and feet crops passed with limitations. Exact juvenile age/flight/tract chronology and sex-size ratio remain unknown; science false; unique 175/251. [Concept](concepts/131-megascops-watsonii-v3.png) · [Research](../research/species/131-megascops-watsonii-v3.md) · [Run](../production/runs/20261031T181700+0800-cycle-5.md).

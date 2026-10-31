@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:56:30Z",
+  "updated": "2026-10-31T06:58:27Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15313,11 +15313,56 @@
       "auxiliary_review_crop_blob": "c2d32bdd74b9315060d3a2ba0661f420dea19669",
       "auxiliary_review_crop_sha256": "d7ac569a76939359b8a9a929edd94cd34b5ed92654c8e25744eb198ba6dbf603",
       "auxiliary_review_crop_size_bytes": 619479,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "8ee10212086ccf3aabea70b470aeb60fbd5f1f38",
-      "exact_readback": false,
-      "fixed_archive_commit": null
+      "exact_readback": true,
+      "fixed_archive_commit": "c1f42f494e41c2e95959a8ddb988c9ce85ea85b9",
+      "verified_at": "2026-10-31T06:58:27Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "c1f42f494e41c2e95959a8ddb988c9ce85ea85b9",
+        "method": "connector commit fetch plus immutable origin/main fetch; exact path/blob/size tuples and complete raw JSON parsing",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/121-ninox-leucopsis-v3.png",
+            "sha": "8ee10212086ccf3aabea70b470aeb60fbd5f1f38",
+            "size": 2513755
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/121-ninox-leucopsis-v3-generated-master.png",
+            "sha": "d44d81f86d63d85c7c3598815ab48e5a67f1e70c",
+            "size": 2631707
+          },
+          "intermediate_edit": {
+            "path": "owl-pet/production/generated/121-ninox-leucopsis-v3-edit1.png",
+            "sha": "8ee10212086ccf3aabea70b470aeb60fbd5f1f38",
+            "size": 2513755
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/121-ninox-leucopsis-v3-reviewed-master.png",
+            "sha": "8ee10212086ccf3aabea70b470aeb60fbd5f1f38",
+            "size": 2513755
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/121-ninox-leucopsis-v3-juvenile.png",
+            "sha": "80b60ac9f7503b4cecb63afd29d59460dcc6226f",
+            "size": 527185
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/121-ninox-leucopsis-v3-feet.png",
+            "sha": "c2d32bdd74b9315060d3a2ba0661f420dea19669",
+            "size": 619479
+          }
+        },
+        "manifest_counts": {
+          "legacy": 610,
+          "design": 609,
+          "production": 600
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T06:56:30Z"
+  "updated_at": "2026-10-31T06:58:27Z"
 }

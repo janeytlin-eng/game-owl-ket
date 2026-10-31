@@ -1775,3 +1775,17 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Facts / limits:** photographer reports an immature at Farasuto was much browner than a nearby adult. Age and sex unspecified; useful for variation only, not the 35–43-day stage.
 
 **Mapping / delta — #166 v2:** current *Bubo cinerascens* ⇄ historical *Bubo africanus cinerascens*. New2 / reused1 expanded to full text / corrected2 (neutral-light colour calibration; fully feathered 35–43-day stage rather than generic fluffy fledgling). Exact within-range chronology, departure-day flight ability, universal soft parts and quantified sex-size ratio remain unknown; science=false. [Species research](species/166-bubo-cinerascens-v2.md) · [Run](../production/runs/20261101T015000+0800-cycle-1.md).
+
+## 2026-11-01 — #167 *Ketupa poensis* v2 taxonomy and stage refresh
+
+### FREO-CLEMENTS-2022-LUMP
+- **Institution / title / date / type:** Cornell Lab Clements Checklist, “Updates & Corrections — October 2022”; taxonomic authority update.
+- **URL / section read:** https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/october-2022/updates-corrections-october-2022/ ; Fraser's/Usambara Eagle-Owl lines 1050–1064; read 2026-11-01.
+- **Facts / design:** *vosseleri* lumped into Fraser's; Western *K. p. poensis* and Usambara *K. p. vosseleri* groups retained; species moved from *Bubo* to *Ketupa*. Use current name and do not double-count Usambara.
+
+### FREO-MNHN-MO-1971-66
+- **Institution / type / URL:** MNHN bird skin MO-1971-66; https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1971-66 ; page and catalog fields read 2026-11-01.
+- **Facts:** Côte d'Ivoire, Lamto, 1969, 90 m; historical *Bubo poensis poensis*; sex unknown; age “juvenile?”.
+- **Limits / design:** catalog uncertainty cannot supply exact age, flight ability or living soft parts. It supports western historical mapping and requires an age-unknown label.
+
+**Reused sources:** FREO-MIKKOLA-2013-P284 (printed p.284/PDF286) and FREO-OWLPAGES-2020 (lines 54–70 reread). **Delta:** new2, reused2, corrected2 (current lump/name boundary; full-resolution v2 with age-unknown mesoptile label). Exact age, flight threshold, continuous feather chronology, nest geometry, living juvenile soft parts and universal palette remain unknown; science=false. [Species research](species/167-ketupa-poensis-v2.md) · [Run](../production/runs/20261101T015000+0800-cycle-2.md).

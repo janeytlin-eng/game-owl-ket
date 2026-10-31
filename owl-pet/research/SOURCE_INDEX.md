@@ -1,3 +1,45 @@
+## 2026-10-31 — #133 *Megascops atricapilla* v3 evidence refresh
+
+### BCSO-DANTAS-2021
+- **Title / authors / year / type:** “Multi-character taxonomic review, systematics, and biogeography of the Black-capped/Tawny-bellied Screech Owl (*Megascops atricapilla–M. watsonii*) complex”, Sidnei M. Dantas et al., 2021, primary taxonomic study.
+- **URL / DOI:** https://doi.org/10.11646/zootaxa.4949.3.1
+- **Accessed:** 2026-10-31.
+- **Species / stages:** *Megascops atricapilla*, adults/specimens; taxonomy, range, variation.
+- **Actually read:** full article; especially printed p.429 (PDF p.29), species treatment.
+- **Valuable facts:** current-name treatment and historical combinations; Atlantic-Forest range; substantial geographic/plumage variation; north–south body-size cline. The paper does not justify a universal female-to-male standing-height multiplier.
+- **Limitations / confidence:** high for taxonomy and specimen-level variation; not a juvenile development series.
+- **Supports:** `research/species/133-megascops-atricapilla-v3.md`; v3 adult identity and “no fixed sex-height rule” boundary.
+
+### BCSO-WIKIAVES-WA2019052
+- **Title / author / date / type:** WA2019052 *Megascops atricapilla* photograph, Celso B. Almeida, photographed 2016-02-07, published 2016-02-12, field-photo record.
+- **URL:** https://www.wikiaves.com.br/2019052%26t%3Ds%26s%3D10516%26tag%3DFOTOJOVEM
+- **Accessed:** 2026-10-31.
+- **Species / stage:** *M. atricapilla*, explicitly tagged “Jovem”, sex undetermined.
+- **Actually read:** record metadata and displayed photograph.
+- **Valuable facts:** yellow iris; tiny tufts; soft head/face; formed folded wings and tail; upright two-foot branch support.
+- **Limitations / confidence:** direct single-photo evidence; no exact age, sex, fledging status, or flight ability; image not copied.
+- **Supports:** `research/species/133-megascops-atricapilla-v3.md`; v3 later-juvenile stage and support mechanics.
+
+### BCSO-MENQ-ANJOS-2015
+- **Title / authors / year / type:** “Habitat selection by owls in a seasonal semi-deciduous forest in southern Brazil”, Willian Menq & Luiz dos Anjos, 2015, primary field study.
+- **URL / DOI:** https://doi.org/10.1590/1519-6984.07614
+- **Accessed:** 2026-10-31.
+- **Species / stages:** *M. atricapilla*, habitat/occurrence.
+- **Actually read:** abstract, study context, and vegetation-association results.
+- **Valuable facts:** occurrence at Perobas Biological Reserve and association with structurally mature forest variables support a closed forest branch setting.
+- **Limitations / confidence:** high for this study site; not evidence for a particular nest site, nest material, or juvenile stage.
+- **Supports:** `research/species/133-megascops-atricapilla-v3.md`; Atlantic-Forest environment boundary.
+
+### BCSO-AVESRAPINA-2018
+- **Title / institution / year / type:** “Corujinha-sapo (*Megascops atricapilla*)”, Aves de Rapina Brasil, 2018, secondary species account.
+- **URL:** https://www.avesderapinabrasil.com/megascops_atricapilla.htm
+- **Accessed:** 2026-10-31.
+- **Species / stages:** *M. atricapilla*, adult morphology/habitat.
+- **Actually read:** morphology, habitat, and breeding sections.
+- **Valuable facts:** 22–24 cm, 115–160 g; female described qualitatively as heavier; variable adult iris; dark cap, prominent tufts, feathered tarsi; Atlantic-Forest/understory context.
+- **Limitations / confidence:** secondary synthesis; sex statement is not a standing-height formula. Nest claims are not used in this branch-perch plate.
+- **Supports:** `research/species/133-megascops-atricapilla-v3.md`; morphology cross-check and conservative sex-direction design.
+
 ## 2026-10-31 — #128 *Megascops marshalli* v8 archive repair and evidence refresh
 
 ### MARS-ARMONIA-2009-P29

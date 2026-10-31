@@ -1812,3 +1812,20 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limits / conflict:** visual observation with a poor documentary photograph; eyelid tone differs from the 2021 Atewa description. Do not encode one universal eyelid colour or use it for juvenile design.
 
 **Reused:** SHEO-MIKKOLA-2013-P288 (printed p.288/PDF290: age-unknown mesoptile has white head areas with sooty bars and adult-like remiges/rectrices; downy chick undescribed), SHEO-ITIS-2025 (current *Ketupa shelleyi* / historical *Bubo shelleyi* mapping). **Delta:** new2, reused2, corrected3 (adult diagnostic darkness/bill/bar geometry; no false pale tuft rim; v1 low-resolution review replacement). Exact juvenile age, flight ability, continuous feather chronology, nest, eyelid variation and quantified sex-size relation remain unknown; science=false. [Species research](species/169-ketupa-shelleyi-v2.md) · [Run](../production/runs/20261101T0227+0800-cycle-4.md).
+
+
+## 2026-11-01 — #170 *Glaucidium sanchezi* v2 evidence refresh
+
+### TPO-HOWELL-ROBBINS-1995-P17-18-22
+- **Title / authors / year / type:** Howell & Robbins, “Species Limits of the Least Pygmy-Owl Complex”; 1995; primary museum/species-limits study, *Wilson Bulletin* 107(1):7–25.
+- **URL / pages read:** https://sora.unm.edu/sites/default/files/journals/wilson/v107n01/p0007-p0025.pdf ; printed pp.17–18 and 22–23; accessed 2026-11-01.
+- **Facts:** recognizes *Glaucidium sanchezi* from former *G. minutissimum sanchezi*; NE Mexico c.900–2,100 m; longish tail with six pale bars and reduced crown flecks. Sexes are dichromatic: male grey-brown/olive-brown with whitish bars, female distinctly redder/cinnamon with buff-cinnamon bars. Wing chord means 87.3 mm male (n=6), 91.0 mm female (n=5).
+- **Limits / design:** small samples and no juvenile sequence. Apply only a modest female size direction and preserve sex-colour difference.
+
+### TPO-VALENCIA-ETAL-2024-P516-520
+- **Title / authors / year / type:** Valencia-Herverth et al., “Tecolote tamaulipeco (*Glaucidium sanchezi*), una especie poco conocida”; 2024; institutional chapter in CONABIO *La biodiversidad en Tamaulipas* vol.2.
+- **URL / pages read:** https://www.researchgate.net/publication/380263783_Tecolote_tamaulipeco_Glaucidium_sanchezi_una_especie_poco_conocida ; printed pp.516–518 of pp.516–520; accessed 2026-11-01.
+- **Facts:** poorly known NE Mexican endemic of mature montane cloud forest; diurnal/crepuscular activity, middle/high forest strata and use of pre-existing cavities.
+- **Limits / design:** no nest interior, chick description or development timing. Use habitat only; do not reconstruct a nest or exact-age juvenile.
+
+**Reused:** TPO-MIKKOLA-2013-P384 (repository guide notes; user upload unavailable this run) and TPO-ITIS-2026. **Mapping / delta:** current *Glaucidium sanchezi* ⇄ historical *G. minutissimum sanchezi*. New2 / reused2 / corrected3 (sex dichromatism, modest rather than exaggerated female size, age-unknown juvenile wing boundary and low-resolution v1 replacement). Exact juvenile age, flight ability, complete feather chronology and nest interior remain unknown; science=false. [Species research](species/170-glaucidium-sanchezi-v2.md) · [Run](../production/runs/20261101T0255+0800-cycle-5.md).

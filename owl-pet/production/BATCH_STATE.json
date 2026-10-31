@@ -11525,8 +11525,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T0255+0800-cycle-5",
-        "heartbeat_at": "2026-11-01T02:55:00+08:00",
-        "expires_at": "2026-11-01T03:10:00+08:00"
+        "heartbeat_at": "2026-11-01T03:00:00+08:00",
+        "expires_at": "2026-11-01T03:15:00+08:00"
       },
       "lease": null,
       "in_progress": {
@@ -11535,35 +11535,54 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T0255+0800-cycle-5",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "stage_evidence": {
-          "started_at": "2026-11-01T02:55:00+08:00"
+          "research_file": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids": [
+            "TPO-HOWELL-ROBBINS-1995-P17-18-22",
+            "TPO-VALENCIA-ETAL-2024-P516-520",
+            "TPO-MIKKOLA-2013-P384",
+            "TPO-ITIS-2026"
+          ],
+          "source_delta": {
+            "new": 2,
+            "reused": 2,
+            "corrected": 3
+          },
+          "full_prompt_saved": true,
+          "mikkola_accessible": false,
+          "juvenile_stage": "age-unknown mesoptile/juvenile; short rounded supported wing; exact age, feather sequence and flight ability unknown"
         }
       },
       "last_checkpoint": {
-        "cycle": 3,
-        "run_id": "20261101T015000+0800-cycle-3",
-        "species": "Ketupa leucosticta",
-        "stage": "VERIFIED",
-        "at": "2026-11-01T03:15:00+08:00",
-        "credited_cycle": true,
+        "cycle": 5,
+        "run_id": "20261101T0255+0800-cycle-5",
+        "species": "Glaucidium sanchezi",
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-01T03:00:00+08:00",
+        "credited_cycle": false,
         "evidence": {
-          "archive_commit": "c67b385b0b605c450a8da58807706551a30c8dab",
-          "tree_sha": "0f26cb62ad274bac402b88c310ff428cfc7ffffa",
-          "recursive_tree_truncated": false,
-          "paths_verified": 8,
-          "binary_assets_verified": 6,
-          "manifest_counts": {
-            "design_image": 636,
-            "design_legacy": 637,
-            "production": 627
+          "research_file": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids": [
+            "TPO-HOWELL-ROBBINS-1995-P17-18-22",
+            "TPO-VALENCIA-ETAL-2024-P516-520",
+            "TPO-MIKKOLA-2013-P384",
+            "TPO-ITIS-2026"
+          ],
+          "source_delta": {
+            "new": 2,
+            "reused": 2,
+            "corrected": 3
           },
-          "unique_species": "175/251",
-          "revision_increment": 1
+          "full_prompt_saved": true,
+          "mikkola_accessible": false,
+          "juvenile_stage": "age-unknown mesoptile/juvenile; short rounded supported wing; exact age, feather sequence and flight ability unknown"
         }
       },
-      "last_stage": "VERIFIED",
-      "updated_at": "2026-11-01T03:15:00+08:00",
+      "last_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-01T03:00:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -11972,6 +11991,32 @@
             },
             "unique_species": "175/251",
             "revision_increment": 1
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261101T0255+0800-cycle-5",
+          "species": "Glaucidium sanchezi",
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-01T03:00:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "research_file": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "source_ids": [
+              "TPO-HOWELL-ROBBINS-1995-P17-18-22",
+              "TPO-VALENCIA-ETAL-2024-P516-520",
+              "TPO-MIKKOLA-2013-P384",
+              "TPO-ITIS-2026"
+            ],
+            "source_delta": {
+              "new": 2,
+              "reused": 2,
+              "corrected": 3
+            },
+            "full_prompt_saved": true,
+            "mikkola_accessible": false,
+            "juvenile_stage": "age-unknown mesoptile/juvenile; short rounded supported wing; exact age, feather sequence and flight ability unknown"
           }
         }
       ]

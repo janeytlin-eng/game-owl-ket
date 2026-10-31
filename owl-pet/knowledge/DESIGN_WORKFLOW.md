@@ -687,3 +687,10 @@ When a source distinguishes a day roost from an unknown nest, the prompt must tr
 - **Evidence:** Fitzsimons 2010, printed p.143, summarizes the identification dispute and separately cites only an indirect hole-nesting report for *T. inexspectata*. Neither supplies a reliable juvenile plumage sequence or nest interior.
 - **Applied change:** v2 labels the center bird AGE-UNKNOWN OLDER YOUNG and records it as design inference. A targeted image edit removed long adult-like spotted remiges, rounded/down-softened the wing and concealed the tail while retaining adults, text and two-foot support.
 - **Verification boundary:** full plate plus juvenile and adult/support crops were opened and passed visually. This validates the evidence-demotion and image-correction workflow for #160 only; it does not establish the true juvenile appearance, exact stage, flight ability or nest structure. Science remains false.
+
+## 2026-11-01 — neutral-light calibration and stage-specific wing retention (#166 v2)
+
+- **Problem:** a warm sunset can shift a genuinely grey diagnostic palette orange. This is a presentation error even when markings are otherwise plausible.
+- **Evidence:** Barlow et al. 2022 describes the species' common greyish form and documents a 35–43-day young as fully feathered and greyish like the parents; the v1 plate itself showed the colour-cast failure.
+- **Applied:** #166 v2 uses neutral open-shade light. The same primary developmental sequence prevents a generic “short/downy juvenile” rule from removing the complete folded wings supported for this stage; wing edges are only softened/rounded and the tail shortened.
+- **Verified:** full plate and two crops passed actual visual comparison. The rule is verified for #166 v2 only; it is not a universal age template.

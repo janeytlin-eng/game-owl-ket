@@ -9189,56 +9189,22 @@
       ],
       "next_cycle": 6,
       "last_checkpoint": {
-        "cycle": 5,
-        "species": "Strix nigrolineata",
-        "species_id": 102,
-        "version": 3,
+        "cycle": 6,
+        "species": "Tyto longimembris",
+        "species_id": 103,
+        "version": 4,
         "action": "SCIENCE_REVISION",
-        "run_id": "20261031T102620+0800-cycle-5",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md",
-        "at": "2026-10-31T11:02:00+08:00",
+        "run_id": "20261031T024200Z-cycle-6",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261031T024200Z-cycle-6.md",
+        "at": "2026-10-31T02:42:00Z",
         "evidence": {
-          "fixed_archive_commit": "e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca",
-          "assets": {
-            "concept": {
-              "path": "owl-pet/design/concepts/102-strix-nigrolineata-v3.png",
-              "sha": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
-              "size": 2914132
-            },
-            "generated": {
-              "path": "owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png",
-              "sha": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
-              "size": 2914132
-            },
-            "reviewed": {
-              "path": "owl-pet/production/reviewed/102-strix-nigrolineata-v3-reviewed-master.png",
-              "sha": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
-              "size": 2914132
-            },
-            "review_crop": {
-              "path": "owl-pet/production/review-crops/102-strix-nigrolineata-v3-juvenile.png",
-              "sha": "980c0520d9ef5571faec58a75669046949c1261a",
-              "size": 795757
-            }
-          },
-          "manifest_counts": {
-            "legacy": 603,
-            "design": 602,
-            "production": 593
-          },
-          "manifest_json_valid": true,
-          "manifest_repair_baseline": "74851c0d490bfb96e69f30b6959653d38f09edac",
-          "tree": {
-            "entries": 2301,
-            "truncated": false
-          },
-          "unique_species": "175/251",
-          "scientifically_verified": false,
-          "next_cycle": 6
+          "previous_version": "v3",
+          "selection": "next missing science-calibration item after #102; v1-v3 preserved",
+          "clock_note": "host UTC clock read 2026-10-31T02:41:49Z although prior record carries a later +08 timestamp; actual host time retained"
         }
       },
-      "last_updated_at": "2026-10-31T11:02:00+08:00",
+      "last_updated_at": "2026-10-31T02:42:00Z",
       "audit_notes": [
         "2026-10-31T09:27:00+08:00: cycle1 #97 Lophostrix cristata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; v3 actual plate opened; missing repository number97 identified; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T09:34:00+08:00: cycle1 #97 v4 RESEARCH_READY; official erratum excludes Rocha2014 juvenile/flight evidence from Lophostrix; Mikkola pp358–359 and Birds of Bolivia retain white mesoptile/dark face/brown developed folded wings; sources new2/reused2/corrected1; full prompt saved; lease renewed; no credit.",
@@ -9270,11 +9236,31 @@
         "2026-10-31T10:42:00+08:00: cycle5 #102 v3 IMAGE_GENERATED after 71.1-second evidence-led edit; 1536x1024 PNG persisted as blob e46a5d47ba8efb722805fc2a7143f99975c6f902; full-frame opened; adult dorsal speckling reduced and restrained female-size direction present; detailed crop review pending; no credit.",
         "2026-10-31T10:46:00+08:00: cycle5 #102 v3 REVIEWED with no second edit. Full 1536x1024 plate and 600x760 juvenile crop opened: exact three-bird labels, reduced adult dorsal spotting, restrained female fullness, horizontal ventral bars, and juvenile bilateral/belly support with short soft wings pass. PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T10:56:00+08:00: cycle5 #102 v3 ARCHIVED with concept/generated/reviewed blob e46a5d47ba8efb722805fc2a7143f99975c6f902/2914132B and crop 980c0520d9ef5571faec58a75669046949c1261a/795757B; repaired three remote manifests from last valid 74851c0d baseline plus exact verified #97/#99/#100/#101 rows because current files contained embedded truncation warnings; valid counts legacy603/design602/production593; fixed readback pending; unique175/251; science false; no credit.",
-        "2026-10-31T11:02:00+08:00: cycle5 #102 v3 VERIFIED at fixed archive e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca; non-truncated 2301-entry tree, exact master/crop tuples and raw fixed-commit JSON manifests 603/602/593 passed. Adult calibration and age-unknown mesoptile review PASS_WITH_LIMITATIONS; science false. Batch5/6 next6; lease released."
+        "2026-10-31T11:02:00+08:00: cycle5 #102 v3 VERIFIED at fixed archive e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca; non-truncated 2301-entry tree, exact master/crop tuples and raw fixed-commit JSON manifests 603/602/593 passed. Adult calibration and age-unknown mesoptile review PASS_WITH_LIMITATIONS; science false. Batch5/6 next6; lease released.",
+        "2026-10-31T02:42:00Z: cycle6 #103 Tyto longimembris v4 SCIENCE_REVISION STARTED; v1-v3 preserved; 15-minute UTC lease acquired; host-clock discontinuity recorded; no cycle credit."
       ],
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null
+      "active_lease": {
+        "owner": "codex-work-mode",
+        "run_id": "20261031T024200Z-cycle-6",
+        "heartbeat_at": "2026-10-31T02:42:00Z",
+        "expires_at": "2026-10-31T02:57:00Z"
+      },
+      "lease": {
+        "owner": "codex-work-mode",
+        "run_id": "20261031T024200Z-cycle-6",
+        "heartbeat_at": "2026-10-31T02:42:00Z",
+        "expires_at": "2026-10-31T02:57:00Z"
+      },
+      "in_progress": {
+        "cycle": 6,
+        "species": "Tyto longimembris",
+        "species_id": 103,
+        "version": 4,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T024200Z-cycle-6",
+        "stage": "STARTED",
+        "started_at": "2026-10-31T02:42:00Z"
+      }
     }
   ],
   "lease": null,

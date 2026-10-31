@@ -17457,7 +17457,70 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "174-strix-sartorii-v2",
+      "path": "design/concepts/174-strix-sartorii-v2.png",
+      "species_id": 174,
+      "scientific_name": "Strix sartorii",
+      "historical_names": [
+        "Strix varia sartorii",
+        "Syrnium nebulosum sartorii"
+      ],
+      "common_name": "Cinereous Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 full-resolution evidence correction. Direct 2015 Nayarit observation supports an age-unknown fledgling that was seen flying and receiving food; exact age remains unknown. Adults retain cold gray-brown barred/streaked plumage, dark eyes, pale unrung faces and feathered toes. Sexes share plumage and display height; female is only subtly fuller because no quantified species-specific ratio was recovered. Initial output had conspicuous Barred-Owl-like facial rings; edit1 removed them and full/two-crop original-detail review passed. PASS_WITH_LIMITATIONS; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "CIO-PIEPLOW-ETAL-2020-P221-227",
+        "CIO-EARBIRDING-2015-FLEDGLING",
+        "CIO-AOS-2021-P263",
+        "CIO-ITIS-1063254-2026",
+        "CIO-BARROWCLOUGH-2011"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/174-strix-sartorii-v2.md",
+      "run_record": "production/runs/20261101T032800+0800-cycle-2.md",
+      "reviewed_at": "2026-11-01T03:35:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "bd90b29cde4f3705f8ccb44636039d4ff8f99ad93bc7f64ea5a8273f178badaa",
+      "size_bytes": 3072930,
+      "initial_generated_path": "production/generated/174-strix-sartorii-v2-generated-master.png",
+      "initial_generated_blob": "761cc43dd7850df49196a06e553a1764c7345975",
+      "initial_generated_sha256": "4ff8200a09bfec82b08897fd1b3192b7eb998a2bda87073889d0cce216072f8f",
+      "initial_generated_size_bytes": 3221846,
+      "generated_path": "production/generated/174-strix-sartorii-v2-edit1.png",
+      "generated_blob": "047bae8be2f90b2f253fef85222ed5c3cde8f9da",
+      "generated_sha256": "bd90b29cde4f3705f8ccb44636039d4ff8f99ad93bc7f64ea5a8273f178badaa",
+      "generated_size_bytes": 3072930,
+      "reviewed_path": "production/reviewed/174-strix-sartorii-v2-reviewed-master.png",
+      "reviewed_blob": "047bae8be2f90b2f253fef85222ed5c3cde8f9da",
+      "reviewed_sha256": "bd90b29cde4f3705f8ccb44636039d4ff8f99ad93bc7f64ea5a8273f178badaa",
+      "reviewed_size_bytes": 3072930,
+      "review_crop_path": "production/review-crops/174-strix-sartorii-v2-flight-capable-fledgling.png",
+      "review_crop_blob": "cc0d0b14f00ea45f0b1f9f12e9299d49a4e832a0",
+      "review_crop_sha256": "39cc739373b69fac1125912ee5ec7480f5c422fdc14a40648057d4809b460934",
+      "review_crop_size_bytes": 616408,
+      "auxiliary_review_crop_path": "production/review-crops/174-strix-sartorii-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "63d6984c62e4e3ccbf60235f8577894539fc35b7",
+      "auxiliary_review_crop_sha256": "781cf3f2e47cd8dddf19b76e1c17ef5530073e1c1789c49f92098375cd0b364a",
+      "auxiliary_review_crop_size_bytes": 1395891,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "047bae8be2f90b2f253fef85222ed5c3cde8f9da",
+      "v1_integrity": {
+        "git_blob": "63ed6aad79e1312b79723338b516d38280ce7b97",
+        "size_bytes": 253069,
+        "sha256": "0729338cbc9418b7cc099aa96c57a807f6fb793d7b985e252450b522cf2b89a3",
+        "archive_commit": "aae8cebfa33dc9278014eb0e6b97eb149c01314c"
+      },
+      "fixed_archive_commit": "a5abecb005b95751febd6f1cc9a0e81f39abde33"
     }
   ],
-  "updated_at": "2026-11-01T04:35:00+08:00"
+  "updated_at": "2026-11-01T03:36:00+08:00"
 }

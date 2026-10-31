@@ -1829,3 +1829,24 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limits / design:** no nest interior, chick description or development timing. Use habitat only; do not reconstruct a nest or exact-age juvenile.
 
 **Reused:** TPO-MIKKOLA-2013-P384 (repository guide notes; user upload unavailable this run) and TPO-ITIS-2026. **Mapping / delta:** current *Glaucidium sanchezi* ⇄ historical *G. minutissimum sanchezi*. New2 / reused2 / corrected3 (sex dichromatism, modest rather than exaggerated female size, age-unknown juvenile wing boundary and low-resolution v1 replacement). Exact juvenile age, flight ability, complete feather chronology and nest interior remain unknown; science=false. [Species research](species/170-glaucidium-sanchezi-v2.md) · [Run](../production/runs/20261101T0255+0800-cycle-5.md).
+
+
+## 2026-11-01 — #171 *Glaucidium palmarum* v2 evidence refresh
+
+### CPO-HOWELL-ROBBINS-1995-P17-20
+- **Title / authors / year / type:** Howell & Robbins, “Species Limits of the Least Pygmy-Owl Complex”; 1995; primary museum/species-limits study, *Wilson Bulletin* 107(1):7–25.
+- **URL / pages read:** https://sora.unm.edu/sites/default/files/journals/wilson/v107n01/p0007-p0025.pdf ; printed pp.17–20; accessed 2026-11-01.
+- **Facts:** current western-Mexican *G. palmarum* includes historical *palmarum*, *oberholseri* and *griscomi*. Pale greyish-tawny adult, extensive head spots, no bold white scapulars, six/seven pale tail bars; sexes are not dichromatic. Female wing/tail means 85.9/54.5 mm vs male 82.9/52.5 mm.
+- **Limits / design:** adult museum series, no juvenile chronology. Use one adult palette and only a modest female size direction.
+
+### CPO-BUCHANAN-1964-P104-106
+- **Title / author / year / type:** Buchanan, “The races of the Least Pygmy Owl in Middle America”; 1964; primary museum-series paper, *Condor* 66:103–112.
+- **URL / pages read:** https://sora.unm.edu/sites/default/files/journals/condor/v066n02/p0103-p0112.pdf ; printed pp.104–106; accessed 2026-11-01.
+- **Facts / limits:** series diagnostics for historical *G. minutissimum palmarum/oberholseri/griscomi*: brownish-olive to greyish-tawny upperparts, extensive pale crown spots, irregular pale scapular marks, five/six tail bars and buffy-brown streaking. Preserved adults only; not a living-soft-part or young-bird sequence.
+
+### CPO-MEDINA-ETAL-2022-P8-9
+- **Title / authors / year / type:** Medina-Estrada et al., “Nesting resource availability for cavity adopter birds in a tropical dry forest of Central Mexico”; 2022; primary habitat/cavity survey, *Revista Mexicana de Biodiversidad* 93:e933836.
+- **DOI / URL / pages:** https://doi.org/10.22201/ib.20078706e.2022.93.3836 ; https://classic.scielo.org.mx/pdf/rmbiodiv/v93/2007-8706-rmbiodiv-93-e933836.pdf ; printed pp.8–9; accessed 2026-11-01.
+- **Facts / limits:** small obligate cavity adopter, body width 5 ± 0.35 cm from five UNAM specimens; potentially suitable cavities in both deciduous and semideciduous forest. Availability study, not an occupied nest; no interior/chick/egg reconstruction.
+
+**Reused:** CPO-MIKKOLA-2013-P385-386 and CPO-BITRAN-2018-JUV (metadata re-opened; image CDN 403). **Mapping / delta:** current *Glaucidium palmarum* ⇄ historical *G. minutissimum palmarum*; Howell & Robbins include *oberholseri* and *griscomi*. New3 / reused2 / corrected3 (no sex dichromatism, evidence-based modest size direction, occupied-nest boundary and low-resolution v1 replacement). Exact juvenile age, flight ability, continuous feather chronology and nest geometry remain unknown; science=false. [Species research](species/171-glaucidium-palmarum-v2.md) · [Run](../production/runs/20261101T0330+0800-cycle-6.md).

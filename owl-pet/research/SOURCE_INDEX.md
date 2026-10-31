@@ -1580,3 +1580,25 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limits / design:** supports a leafy tree-roost context, not a nest or juvenile-stage inference. Do not add a cavity, nest material, eggs or breeding claim.
 
 **Mapping / delta — #142 v2:** current *Asio grammicus* / historical *Pseudoscops grammicus* → JAM-AOS-NACC-2021-C10 and JAM-POSSO-SALOMAO-2025 for genus treatment; JAM-MIKKOLA-2013-P500 and JAM-HOYER-BIRDSEYE for adult/juvenile boundaries; JAM-GRAVES-2007 for leafy roost context. Repository #154 is the same species under the older genus and is preserved as historical evidence without unique-species credit. New3 / reused2 / corrected1. Exact juvenile age, flight ability, iris chronology, complete feather sequence, nest details and sex-size direction remain unknown; scientific verification remains false. [Species research](species/142-asio-grammicus-v2.md) · [Run](../production/runs/20261031T223601+0800-cycle-4.md).
+
+## 2026-10-31 — #144 *Ninox spilocephala* v5 evidence refresh
+
+### LZBO-RASMUSSEN-2012-LEAD (reused; full-text refresh)
+- **Title / authors / year / type:** “Vocal Divergence and New Species in the Philippine Hawk Owl *Ninox philippensis* Complex,” Rasmussen et al.; 2012; primary museum/specimen, vocal and field-photo taxonomic study, *Forktail* 28:1–20.
+- **URL / access:** https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ; complete PDF opened 2026-10-31.
+- **Pages / sections read:** specimen methods and sex treatment pp.2–4; *spilocephala* diagnosis and immature comparison pp.13–15; range summary.
+- **Species / stages:** 43 *spilocephala* museum specimens; adults and age-unknown immature plumage.
+- **Facts:** sexes were combined because most key specimens were not sexed, and sexual dimorphism was explicitly left for future study. Adults are small, compact and short-tailed, with a tiny/absent pale superciliary patch, long filamentous auricular extensions, strong buff crown/nape/upper-mantle spotting, large white or narrow buff wing-covert marks, pale-yellow irides, pale-olive bill/cere, bright-yellow feet and mostly black claws. Underparts mix a narrow whitish throat, weak breast bars/spots and longitudinal lower marks with irregular/chevron tips. Immatures are documented only by an unspotted brown crown and a weak pale-buff-spotted upper-mantle collar.
+- **Limitations / design:** no exact age, flight threshold, complete immature wing/tail sequence or quantified sex-size direction. Adults stay near equal; young is an age-unknown, branch-supported older immature with conservative, mostly covered formed wing and no flight claim.
+
+### MINBOO-ITIS-2025
+- **Title / institution / type:** ITIS standard report for *Ninox spilocephala*; Integrated Taxonomic Information System; taxonomy aggregator.
+- **URL / access:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1178395 ; live record opened 2026-10-31.
+- **Facts:** treats *Ninox spilocephala* Tweeddale, 1879 as valid and maps historical *Ninox philippensis spilocephala*.
+- **Limitations / design:** taxonomy only; not used for visible morphology or development.
+
+### PH-REDLIST-MINBOO-LEAD (unverified)
+- **Record:** a search result located a Philippine Red List PDF account, but the original document timed out in this cycle.
+- **Status / use:** search snippet only; not counted as read evidence and not used for any scientific assertion. Retained solely as a future retrieval lead.
+
+**Mapping / delta — #144 v5:** current *Ninox spilocephala* / historical *Ninox philippensis spilocephala* → LZBO-RASMUSSEN-2012-LEAD for adult diagnosis and the narrow immature boundary; MINBOO-ITIS-2025 for name mapping; existing MINBOO-EBIRD-ID-2026 and MINBOO-AVIBASE-TAXON-2026 reused as secondary checks. New1 / reused3 / archive-integrity correction1 / unverified lead1. Exact immature age, iris chronology, flight ability, complete feather sequence, nest details and sex-size direction remain unknown; scientific verification remains false. [Species research](species/144-ninox-spilocephala-v5.md) · [Run](../production/runs/20261031T225200+0800-cycle-5.md).

@@ -1,3 +1,10 @@
+## 2026-10-31 #133 *Megascops atricapilla* v3 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; v1/v2 preserved. New4/reused2/corrected2; one imagegen juvenile-wing/tail edit after actual full/crop inspection.
+- Adults now use distinct near-equal-height poses; the female is only subtly fuller. The direct-photo later juvenile keeps yellow eyes, tiny tufts, formed wing/tail and two-foot support; regular adult-like white wing tiles were softened.
+- PASS_WITH_LIMITATIONS; exact age, flight ability, continuous juvenile feather sequence, individual iris and quantitative sex-size ratio remain unknown. Unique remains **175/251**; science false.
+- Manifests 617/616/607; immutable archive readback pending; no cycle credit yet. [Research](research/species/133-megascops-atricapilla-v3.md) · [Run](production/runs/20261031T193701+0800-cycle-1.md)
+
 ## 2026-10-31 #132 *Strix davidi* v3 VERIFIED
 
 - Fixed archive `8d309a328ef66b685c73f4c8c98f3f7b1723fc8e` returned a non-truncated 2,399-entry tree with exact five-image path/blob/byte tuples; all manifests parsed at 616/615/606 with matching #132 entries.

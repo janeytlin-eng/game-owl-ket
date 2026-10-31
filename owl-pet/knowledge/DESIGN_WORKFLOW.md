@@ -667,3 +667,9 @@ A previous record that says a relevant morphometric PDF could not be opened is a
 ### 2026-10-31 #106 — habitat noun must match substrate geometry
 
 When a source distinguishes a day roost from an unknown nest, the prompt must translate “roost” into attached living support geometry rather than loose nest-like material. The first #106 v3 render preserved the birds but produced a mossy platform; one environment-only edit replaced it with living tree-fern rachises and crown forks. Full-frame, juvenile and feet/support review verified that no nest bowl, eggs or piled nesting material remained. This rule is applied and visually validated for the documented *Strix albitarsis* tree-fern roost only; it does not infer nest architecture or juvenile age/flight ability.
+
+### 2026-10-31 #133：体重方向与站立高度分开；已形成翼尾仍检查规则度
+
+- “雌鸟较重”只能支持略丰满/略厚的体态方向，不能自动换算成更高或固定百分比。#133 v3 将成鸟放在同一自然支撑上比较冠高，改为不同姿态、近等高度，雌鸟只略丰满；这是本图的视觉应用，不是性别反向尺寸的种级测量。
+- 实拍较晚幼鸟可同时有绒感头脸与已形成翼尾，不能机械删除飞羽；但“已形成”也不等于成鸟式规则白缘羽片。#133 v3 首稿保留正确阶段却仍有过于规则的白色翼片，定向编辑为柔和不规则斑驳并保留黄眼、微小耳羽、双足支撑，已通过全图/幼鸟/足部局部复查。
+- 该规则目前只验证了提示与视觉修订流程；精确日龄、飞行能力及完整羽序仍未知，scientifically_verified=false。

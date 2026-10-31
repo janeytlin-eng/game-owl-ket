@@ -51,3 +51,11 @@ Hard constraints: no extra birds, chicks or eggs; no flying bird; no unsupported
 ## Review plan
 
 Open the complete v4 image at original resolution, then inspect a center-juvenile crop and feet/sill crop. Pass only if the juvenile wing visibly terminates above the feet and sill, remains formed but non-adult-layered, tail remains nonprojecting, two-foot support is clear, and adults/text/count are preserved. If not, perform a juvenile-only imagegen edit and repeat both checks.
+
+## Actual review — 2026-10-31T14:40:09+08:00
+
+- Opened complete 1536×1024 PNG at original resolution, then opened `119-megascops-centralis-v4-juvenile.png` (520×700) and `119-megascops-centralis-v4-feet.png` (480×320).
+- Exactly three birds; title, subtitle and all three labels are legible and correct. Adults remain near-equal, small-tufted, yellow-eyed and securely supported.
+- Juvenile folded wing is now a compact narrow remige group embedded in mesoptile. Its tip ends clearly above both feet and the cavity sill; it no longer forms a broad adult-length panel to the toes. The remiges remain visible and transversely barred, preserving the primary-study boundary. Tail is nonprojecting and both feet are fully supported.
+- No second edit required. `PASS_WITH_LIMITATIONS`: exact age, normal growth, flight ability, sex, universal iris colour and literal feather geometry remain unknown; `scientifically_verified=false`.
+- Concept/reviewed master: 3,131,939 bytes; SHA-256 `2eb9b144aa68d612e41e20ce6b06c49fb6738adf3bc49e9d37036b2d9058cfcc`.

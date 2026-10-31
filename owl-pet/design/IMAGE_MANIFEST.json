@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-10-31T19:57:29.250+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15994,7 +15994,53 @@
       "reviewed_at": "2026-10-31T19:48:53+08:00",
       "dimensions": "1536x1024",
       "size_bytes": 3302290
+    },
+    {
+      "id": "135-otus-silvicola-v3",
+      "path": "design/concepts/135-otus-silvicola-v3.png",
+      "species_id": 135,
+      "scientific_name": "Otus silvicola",
+      "historical_names": [],
+      "common_name": "Wallace's Scops-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "概念图经1次生成、1次定向编辑并实际查看全图、幼鸟与成年体型/足部局部。成鸟保留长耳羽但无白色内缘、无白领、冷灰褐上体、稀疏粗纵纹配明确横斑、白腹中线、暗橙/琥珀虹膜与覆羽跗部/趾基；雌雄羽色相同，雌鸟仅按一雌一雄标本的有限证据略显丰满/高大，不推广为固定规则。年龄未知的全羽过渡期幼鸟使用松散细横斑、少量正在显现的成鸟暗纹、已形成但柔化缩短的翼尾与双足抓枝；不声称日龄或飞行能力。精确虹膜发育、动作能力、羽鞘几何和群体性别比例未知；PASS_WITH_LIMITATIONS，scientifically_verified=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "WSC-MEES-2006",
+        "WSC-MARSHALL-1978",
+        "SLSO-SANGSTER-2013"
+      ],
+      "research_record": "research/species/135-otus-silvicola-v3.md",
+      "run_record": "production/runs/20261031T195051+0800-cycle-3.md",
+      "reviewed_at": "2026-10-31T19:56:38.824+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "e36494aee6724ece5646494acd0e6e417af7509755e43b6a2cb693ef5101df5d",
+      "size_bytes": 2890642,
+      "generated_path": "production/generated/135-otus-silvicola-v3-generated-master.png",
+      "generated_blob": "54274996ad8244212c575f262ee0bf95cf25aed9",
+      "generated_sha256": "30e6f5be1ff30239787505aa7dc73426ded9be7932c19fe229fe103ca12d4702",
+      "generated_size_bytes": 3053536,
+      "reviewed_path": "production/reviewed/135-otus-silvicola-v3-reviewed-master.png",
+      "reviewed_blob": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+      "reviewed_sha256": "e36494aee6724ece5646494acd0e6e417af7509755e43b6a2cb693ef5101df5d",
+      "reviewed_size_bytes": 2890642,
+      "review_crop_path": "production/review-crops/135-otus-silvicola-v3-juvenile.png",
+      "review_crop_blob": "2ea213ff9bb5e60762cdecdf0ef6c554a89aa30d",
+      "review_crop_sha256": "59e686b7b3ae7d6a171d86b5520afed2d6f93a3ce4764a5e7dd6d9dda4306e86",
+      "review_crop_size_bytes": 737267,
+      "auxiliary_review_crop_path": "production/review-crops/135-otus-silvicola-v3-adult-size-feet.png",
+      "auxiliary_review_crop_blob": "642f627b638e023af7c3dbbf7a659acf252d9cda",
+      "auxiliary_review_crop_sha256": "7b79f289fb07e51207e0dbfd524239b9c6235e4ed4cfafb38ca96a982a0b98c5",
+      "auxiliary_review_crop_size_bytes": 1447387,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "970af3ee271a28246fd27303df5ffbaad4d517d2"
     }
   ],
-  "updated_at": "2026-10-31T19:48:53+08:00"
+  "updated_at": "2026-10-31T19:57:29.250+08:00"
 }

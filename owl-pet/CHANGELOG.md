@@ -1509,3 +1509,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added Mikkola printed pp.294–295/PDF pp.296–297 plus a dated juvenile comparator; reused four records and corrected one age claim.
 - Generated v3, rejected the first long regular juvenile wing, performed one targeted edit, and reopened the full plate plus juvenile/support crops. `PASS_WITH_LIMITATIONS`; unique increment 0; science false.
 - Assets and manifests 612/611/602 archived; fixed readback pending.
+- Fixed archive `37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0` verified a complete 2,368-entry tree, exact six-image blob/byte tuples and parseable manifests 612/611/602. Cycle 2 credited; batch 2/6, next 3.

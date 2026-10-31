@@ -2941,3 +2941,7 @@ Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` passed exact six-image 
 - One targeted center-wing edit was reopened in the full 1536×1024 plate plus juvenile and feet/support crops. Wing tips end above both gripping feet; adults remain near equal because species-specific sex-size direction is unknown. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**.
 - Sources: Urriza et al. 2017, Ochavo 2012, user-uploaded Mikkola printed pp.294–295/PDF pp.296–297, BirdForum dated comparator, plus two prior records. [Research](research/species/124-ketupa-philippensis-v3.md) · [Run](production/runs/20261031T154616+0800-cycle-2.md).
 
+### #124 v3 verified — 2026-10-31T16:44:00+08:00
+
+Fixed archive `37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0` passed a non-truncated 2,368-entry recursive-tree readback, six exact image path/blob/byte tuples and complete parseable manifests 612/611/602. Batch `2026-10-31T1502+0800` is 2/6, next cycle 3; unique remains 175/251 and science remains false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0/owl-pet/design/concepts/124-ketupa-philippensis-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0)
+

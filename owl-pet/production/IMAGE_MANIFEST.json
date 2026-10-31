@@ -14829,8 +14829,55 @@
       "auxiliary_review_crop_blob": "61871676a9c61e507bae64a3dc0f13150a409493",
       "auxiliary_review_crop_sha256": "cb6602f9e25897d5697ff813f3dbdbb3c328b669e24ff49deed17537fe69b72a",
       "auxiliary_review_crop_size_bytes": 694233,
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "efe8cb9f913a2373097e4b573c1cbefa01109057",
+      "fixed_archive_commit": "37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0",
+      "verified_at": "2026-10-31T08:44:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0",
+        "method": "connector immutable commit tree plus complete raw JSON parsing",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/124-ketupa-philippensis-v3.png",
+            "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
+            "size": 2831579
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/124-ketupa-philippensis-v3-generated-master.png",
+            "sha": "1949fa1eaaec25efd9f23be494a0d5cee55b55fa",
+            "size": 2899032
+          },
+          "intermediate_edit": {
+            "path": "owl-pet/production/generated/124-ketupa-philippensis-v3-edit1.png",
+            "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
+            "size": 2831579
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/124-ketupa-philippensis-v3-reviewed-master.png",
+            "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
+            "size": 2831579
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-juvenile.png",
+            "sha": "a9cc140e6b1d2b857e246a9cd776b0113129041e",
+            "size": 685751
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-feet.png",
+            "sha": "61871676a9c61e507bae64a3dc0f13150a409493",
+            "size": 694233
+          }
+        },
+        "manifest_counts": {
+          "legacy": 612,
+          "design": 611,
+          "production": 602
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-10-31T06:58:27Z"

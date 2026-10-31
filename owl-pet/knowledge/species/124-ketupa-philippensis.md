@@ -13,3 +13,5 @@ NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldreco
 ### #124 *Ketupa philippensis* v3 — 2026-10-31
 
 SCIENCE_REVISION preserving v1–v2. The v2 juvenile was visibly a miniature adult. Mikkola printed pp.294–295/PDF pp.296–297 and the Luzon field records support a later, formed-wing immature with head down but do not support an exact 70-day label, adult-bright iris, adult-regular covert rows or a fixed sex-size ratio. One targeted edit shortened and softened the center wing while retaining blackish upperpart streaks, muted remiges and two-foot branch support. `PASS_WITH_LIMITATIONS`; exact age, iris chronology, continuous feather sequence and sex-size ratio remain unknown; science false. [Research](../../research/species/124-ketupa-philippensis-v3.md) · [Run](../../production/runs/20261031T154616+0800-cycle-2.md).
+
+Fixed archive `37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0` passed a non-truncated 2,368-entry tree readback, exact six-image blob/byte checks and complete manifests 612/611/602. Unique count remains 175/251; batch advances to 2/6; science false.

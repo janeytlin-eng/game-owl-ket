@@ -120,4 +120,10 @@ Style129referenceleakedbrightcrowndots/longparalleladultshaftstoyoung. Actualedi
 
 ## 2026-10-30 within-species stage separation — discovered/applied; validated for #51 v4 instance
 - “Downy chick” and “mesoptile/one-month juvenile” are separate evidence stages even within one species. Do not blend later warm-buff barring or formed wings into an earlier whitish-down design.
+
+## 2026-11-01 short-supercilium and field-class juvenile gate — discovered/applied, locally verified
+
+- When a primary diagnosis says the adult supercilia are short and separate, do not turn them into a long continuous white V merely because a stylized plate benefits from a strong facial expression. Preserve the dark ear-coverts and throat-border structure as separate identity cues.
+- A paper that classifies and radio-tracks a “juvenile” supports an older mobile field stage and habitat use, but without a photograph or plumage text it does not license crisp adult crown rows, adult covert spots, iris colour, precise age or an explicit flight threshold.
+- Applied to #148 *Ninox rumseyi* v2. First generated juvenile retained adult-like pale crown rows and a long spotted folded wing; edit1 replaced them with diffuse crown down and a short unspotted soft wing. Full image plus juvenile and adult crops were viewed. This validates the correction for this plate only, not a universal rule or scientific pass.
 - Applied to #51 v4; original and 680×453 derivative showed a whitish downy chick without later warm-buff bars or formed remiges. Validated for this plate only.

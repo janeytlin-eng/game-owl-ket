@@ -10219,14 +10219,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261031T234400+0800-cycle-6",
-        "heartbeat_at": "2026-11-01T00:00:00+08:00",
-        "expires_at": "2026-11-01T00:15:00+08:00"
+        "heartbeat_at": "2026-11-01T00:04:00+08:00",
+        "expires_at": "2026-11-01T00:19:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261031T234400+0800-cycle-6",
-        "heartbeat_at": "2026-11-01T00:00:00+08:00",
-        "expires_at": "2026-11-01T00:15:00+08:00"
+        "heartbeat_at": "2026-11-01T00:04:00+08:00",
+        "expires_at": "2026-11-01T00:19:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -10237,7 +10237,7 @@
         "unique_species_increment": 0,
         "run_id": "20261031T234400+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261031T234400+0800-cycle-6.md",
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       },
       "last_checkpoint": {
         "batch_id": "20261031T2128+0800",
@@ -10300,8 +10300,8 @@
           "batch_complete": false
         }
       },
-      "last_stage": "IMAGE_GENERATED",
-      "updated_at": "2026-11-01T00:00:00+08:00",
+      "last_stage": "REVIEWED",
+      "updated_at": "2026-11-01T00:04:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10688,6 +10688,28 @@
             "sha256": "f5e0ff2f789009a3782fe4dfa3759e58e0702778010e76d5727c0bc5daea8a19",
             "visual_review_pending": true,
             "lease_expires_at": "2026-11-01T00:15:00+08:00"
+          }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261031T234400+0800-cycle-6",
+          "species": "Ninox mindorensis",
+          "stage": "REVIEWED",
+          "at": "2026-11-01T00:04:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "reviewed_master": "owl-pet/production/reviewed/146-ninox-mindorensis-v2-reviewed-master.png",
+            "edit1": "owl-pet/production/generated/146-ninox-mindorensis-v2-edit1.png",
+            "review_crops": [
+              "owl-pet/production/review-crops/146-ninox-mindorensis-v2-juvenile.png",
+              "owl-pet/production/review-crops/146-ninox-mindorensis-v2-adult-pattern-feet.png"
+            ],
+            "reviewed_sha256": "a16f284a1b815efd229d9febb91d3a5fbc53cfb00ae4fc00229bfb07e518386e",
+            "edit_reason": "adult underpart barring was overly regular and crown marks were round-dot-like",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "juvenile_boundary": "closed eyes, wing and tail largely hidden, both feet supported; age/iris/flight not asserted",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-01T00:19:00+08:00"
           }
         }
       ]

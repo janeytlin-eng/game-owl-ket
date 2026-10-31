@@ -51,3 +51,12 @@ Keep all six feet anatomically clear and supported. No extra birds, no duplicate
 - Reused source IDs: 1 (`LZBO-RASMUSSEN-2012-LEAD`)
 - Corrected design issue: 1 (v1 juvenile maturity/iris overclaim)
 - Unverified lead: 1 (`MINDBOO-OGILVIE-1896-LEAD`)
+
+## Problem — evidence — edit — recheck
+
+- Problem found in the first generated master: both adult underparts still read as regularly repeated horizontal ladders and the crowns as round dots.
+- Evidence applied: Rasmussen et al. 2012 printed p.13 describes especially narrow fine bars below and finely broken bars/speckling on crown and nape.
+- Edit1: restricted imagegen edit to the two adults, breaking the ventral marks into finer, shorter, irregularly interrupted bars and changing crown/nape marks to broken bars/speckling. The juvenile, branch support, title and labels were explicitly preserved.
+- Recheck: full plate plus two original-resolution crops were viewed. Exactly three birds remain; title/labels are exact; all three birds have natural branch support; juvenile has closed/downcast eyes, mostly hidden wing/tail and both feet supported. Adult markings are less repetitive and closer to the read diagnosis.
+- Remaining unknowns: species-specific juvenile age, iris progression, locomotor stage and feather sequence. The plate therefore remains `PASS_WITH_LIMITATIONS` and `scientifically_verified=false`.
+- Reusable rule actually applied and visually verified here: when a source diagnoses “fine/narrow bars,” the image prompt must also require unequal lengths, breaks, variable spacing and asymmetry; “fine” alone still produced wallpaper-like repetition.

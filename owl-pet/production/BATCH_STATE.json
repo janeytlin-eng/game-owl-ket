@@ -12324,12 +12324,12 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T034300+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261101T034300+0800-cycle-4.md",
-        "stage": "ARCHIVED",
+        "stage": "ARCHIVED_REPAIR",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261101T034300+0800-cycle-4",
-          "heartbeat_at": "2026-11-01T04:34:00+08:00",
-          "expires_at": "2026-11-01T04:49:00+08:00"
+          "heartbeat_at": "2026-11-01T04:38:00+08:00",
+          "expires_at": "2026-11-01T04:53:00+08:00"
         }
       },
       "last_checkpoint": {
@@ -12944,8 +12944,8 @@
   "active_lease": {
     "owner": "codex-automation",
     "run_id": "20261101T034300+0800-cycle-4",
-    "heartbeat_at": "2026-11-01T04:34:00+08:00",
-    "expires_at": "2026-11-01T04:49:00+08:00"
+    "heartbeat_at": "2026-11-01T04:38:00+08:00",
+    "expires_at": "2026-11-01T04:53:00+08:00"
   },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
@@ -16016,10 +16016,25 @@
         "scientifically_verified": false,
         "readback_pending": true
       }
+    },
+    {
+      "batch_id": "20261101T040500+0800",
+      "cycle": 4,
+      "run_id": "20261101T034300+0800-cycle-4",
+      "species_id": 176,
+      "stage": "ARCHIVED_REPAIR",
+      "at": "2026-11-01T04:38:00+08:00",
+      "credited": false,
+      "evidence": {
+        "rejected_archive_commit": "990ba79bcf7bc66bb349b316262140b624cb1b49",
+        "repair_commit": "05b4c42144b3a1d6cde56fa0410c0e6c726081c5",
+        "reason": "connector stream truncation detected by exact size readback",
+        "full_blob_repair": true
+      }
     }
   ],
   "active_batch_id": "20261101T040500+0800",
   "active_cycle": 4,
-  "current_stage": "ARCHIVED",
+  "current_stage": "ARCHIVED_REPAIR",
   "next_cycle": 4
 }

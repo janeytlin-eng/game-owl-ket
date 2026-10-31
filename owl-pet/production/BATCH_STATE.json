@@ -11525,8 +11525,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T0255+0800-cycle-5",
-        "heartbeat_at": "2026-11-01T03:05:00+08:00",
-        "expires_at": "2026-11-01T03:20:00+08:00"
+        "heartbeat_at": "2026-11-01T03:15:00+08:00",
+        "expires_at": "2026-11-01T03:30:00+08:00"
       },
       "lease": null,
       "in_progress": {
@@ -11535,40 +11535,80 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T0255+0800-cycle-5",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "stage_evidence": {
-          "generated_master": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-generated-master.png",
-          "git_blob": "d054fdcf89ec0c642d7657f0ed799cc932abfe6a",
-          "sha256": "13e3484013d0b1be057864f5652f1133838252f8bb27e8c76e8e384c3e3d29bd",
-          "dimensions": "1536x1024",
-          "bytes": 2977978,
-          "prompt_source": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
-          "generation_result": "success",
-          "generation_wait_seconds": 40.7,
-          "review_flag": "juvenile has long hard adult-like remiges, regular wing spot rows and long fully barred tail; targeted edit required"
+          "reviewed_master": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
+          "edit_count": 1,
+          "generated_edit": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+          "crops": [
+            "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-juvenile.png",
+            "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-adult-pattern-feet.png"
+          ],
+          "blobs": {
+            "master": "3e709c195a92a02abc13f845c087be592107e9c8",
+            "juvenile_crop": "e8af362b0234d1b086547e67a0ee9d5ca9ecde61",
+            "adult_crop": "cb36054d62613b58adf60409e3ef65c166861814"
+          },
+          "checks": {
+            "species_identity": "pass: compact earless pygmy owls, yellow eyes, pale bills, reduced crown flecks and longish barred adult tails",
+            "sex_dichromatism": "pass: male grey-brown/olive-brown; female distinctly redder/cinnamon with only modest fuller size",
+            "juvenile_stage": "pass after edit: unspotted grey crown/nape, softer shorter rounded wing without regular adult spot rows, shortened supported tail",
+            "support": "pass: all feet visibly grip the same mossy branch",
+            "environment": "pass: neutral-light NE Mexican montane cloud forest; no nest reconstruction, eggs or prey",
+            "text_and_count": "pass: exact title/labels and exactly three birds"
+          },
+          "edit_result": "resolved initial adult-like juvenile hard remiges, regular spot rows and long tail",
+          "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
+          "unknowns": [
+            "exact juvenile age",
+            "flight ability",
+            "complete feather sequence",
+            "nest interior",
+            "population-wide size variation"
+          ]
         }
       },
       "last_checkpoint": {
         "cycle": 5,
         "run_id": "20261101T0255+0800-cycle-5",
         "species": "Glaucidium sanchezi",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-01T03:05:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-11-01T03:15:00+08:00",
         "credited_cycle": false,
         "evidence": {
-          "generated_master": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-generated-master.png",
-          "git_blob": "d054fdcf89ec0c642d7657f0ed799cc932abfe6a",
-          "sha256": "13e3484013d0b1be057864f5652f1133838252f8bb27e8c76e8e384c3e3d29bd",
-          "dimensions": "1536x1024",
-          "bytes": 2977978,
-          "prompt_source": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
-          "generation_result": "success",
-          "generation_wait_seconds": 40.7,
-          "review_flag": "juvenile has long hard adult-like remiges, regular wing spot rows and long fully barred tail; targeted edit required"
+          "reviewed_master": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
+          "edit_count": 1,
+          "generated_edit": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+          "crops": [
+            "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-juvenile.png",
+            "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-adult-pattern-feet.png"
+          ],
+          "blobs": {
+            "master": "3e709c195a92a02abc13f845c087be592107e9c8",
+            "juvenile_crop": "e8af362b0234d1b086547e67a0ee9d5ca9ecde61",
+            "adult_crop": "cb36054d62613b58adf60409e3ef65c166861814"
+          },
+          "checks": {
+            "species_identity": "pass: compact earless pygmy owls, yellow eyes, pale bills, reduced crown flecks and longish barred adult tails",
+            "sex_dichromatism": "pass: male grey-brown/olive-brown; female distinctly redder/cinnamon with only modest fuller size",
+            "juvenile_stage": "pass after edit: unspotted grey crown/nape, softer shorter rounded wing without regular adult spot rows, shortened supported tail",
+            "support": "pass: all feet visibly grip the same mossy branch",
+            "environment": "pass: neutral-light NE Mexican montane cloud forest; no nest reconstruction, eggs or prey",
+            "text_and_count": "pass: exact title/labels and exactly three birds"
+          },
+          "edit_result": "resolved initial adult-like juvenile hard remiges, regular spot rows and long tail",
+          "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
+          "unknowns": [
+            "exact juvenile age",
+            "flight ability",
+            "complete feather sequence",
+            "nest interior",
+            "population-wide size variation"
+          ]
         }
       },
-      "last_stage": "IMAGE_GENERATED",
-      "updated_at": "2026-11-01T03:05:00+08:00",
+      "last_stage": "REVIEWED",
+      "updated_at": "2026-11-01T03:15:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12022,6 +12062,45 @@
             "generation_result": "success",
             "generation_wait_seconds": 40.7,
             "review_flag": "juvenile has long hard adult-like remiges, regular wing spot rows and long fully barred tail; targeted edit required"
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261101T0255+0800-cycle-5",
+          "species": "Glaucidium sanchezi",
+          "stage": "REVIEWED",
+          "at": "2026-11-01T03:15:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "reviewed_master": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
+            "edit_count": 1,
+            "generated_edit": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+            "crops": [
+              "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-juvenile.png",
+              "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-adult-pattern-feet.png"
+            ],
+            "blobs": {
+              "master": "3e709c195a92a02abc13f845c087be592107e9c8",
+              "juvenile_crop": "e8af362b0234d1b086547e67a0ee9d5ca9ecde61",
+              "adult_crop": "cb36054d62613b58adf60409e3ef65c166861814"
+            },
+            "checks": {
+              "species_identity": "pass: compact earless pygmy owls, yellow eyes, pale bills, reduced crown flecks and longish barred adult tails",
+              "sex_dichromatism": "pass: male grey-brown/olive-brown; female distinctly redder/cinnamon with only modest fuller size",
+              "juvenile_stage": "pass after edit: unspotted grey crown/nape, softer shorter rounded wing without regular adult spot rows, shortened supported tail",
+              "support": "pass: all feet visibly grip the same mossy branch",
+              "environment": "pass: neutral-light NE Mexican montane cloud forest; no nest reconstruction, eggs or prey",
+              "text_and_count": "pass: exact title/labels and exactly three birds"
+            },
+            "edit_result": "resolved initial adult-like juvenile hard remiges, regular spot rows and long tail",
+            "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
+            "unknowns": [
+              "exact juvenile age",
+              "flight ability",
+              "complete feather sequence",
+              "nest interior",
+              "population-wide size variation"
+            ]
           }
         }
       ]

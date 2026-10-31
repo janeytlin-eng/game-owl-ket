@@ -59,3 +59,11 @@ Avoid ear tufts, white scapular patches, enormous female, adult crown spotting o
 4. Six pale tail bars visible without impossible tail geometry.
 5. Juvenile has unspotted grey crown/nape, no adult regular wing spot row, and no unsupported flight-capable pose.
 6. No invented nest interior, eggs, exact age or flight claim.
+
+
+## Actual image review and iteration
+
+- **Initial generated defect:** the centre juvenile had a long hard adult-like folded wing, regular adult spot rows and a long fully barred tail.
+- **Edit 1:** changed only the juvenile to a softer, shorter rounded formed wing with sparse diffuse edging and a shortened branch-supported tail; adults, title, labels, habitat and light preserved.
+- **Original-resolution review:** full plate plus juvenile and adult-pattern/feet crops viewed. Adult identity and documented sex dichromatism pass; female size difference is modest; all feet are supported; no nest/egg/flight claim.
+- **Result:** PASS_WITH_LIMITATIONS; edit count 1; science=false. Unknowns remain exact juvenile age, flight ability, complete feather sequence, nest interior and population-wide size variation.

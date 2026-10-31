@@ -1922,3 +1922,38 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Design use:** habitat corroboration; no cavity reconstruction.
 
 **Reused:** SSO-MIKKOLA-2013-P134 and SSO-ABC-2023-P2-P9-10 from the v1 record. The user-uploaded guide was unavailable this run; Mikkola page facts were rechecked through online text and not expanded beyond no sex-size evidence, three morphs and juvenile resembling adult. **Cycle delta:** new3 / reused2 / corrected2 (direct family-photo juvenile basis and explicit no-sex-size-difference handling; full-resolution replacement). Exact juvenile age/flight/iris/feather chronology and occupied nest/clutch remain unknown; science=false. [Research](species/175-otus-ireneae-v2.md) · [Run](../production/runs/20261101T033700+0800-cycle-3.md).
+
+
+## 2026-11-01 — #176 *Otus pembaensis* v2 evidence refresh
+
+### PESO-MELO-ETAL-2022-P7-S47
+- **Title / authors / year / type:** Melo et al., “A new species of scops-owl … from Príncipe Island”; 2022; peer-reviewed integrative taxonomy and museum-comparison study, *ZooKeys* 1126:1–54.
+- **DOI / URL / pages read:** https://doi.org/10.3897/zookeys.1126.87635 ; https://repositorio.ulisboa.pt/bitstream/10451/55748/1/ZK-1126-001_article-87635_en_1_compressed.pdf ; printed p.7 Table 1 and Supplementary material 4, printed p.47; accessed 2026-11-01.
+- **Species / stage / facts:** adult comparative museum material; seven Pemba specimens, available wing 150–155 mm and tail 73–80 mm; supports compact adult proportions and the Afro-Palearctic relationship.
+- **Limits / design:** most comparison specimens unsexed and sexes pooled; not evidence for a sex-size rule or juvenile development. Use compact adults, not a male/female body-height equation.
+
+### PESO-VIRANI-2005-P12
+- **Title / author / type:** Munir Virani, “Re-evaluating the Status of the Pemba Scops Owl”; 2005; direct field survey/account, *The Peregrine Fund Newsletter* 36.
+- **URL / page read:** https://assets.peregrinefund.org/docs/pdf/newsletters/newsletter-36-2005.pdf ; printed p.12; accessed 2026-11-01.
+- **Facts:** compact russet-brown adult observation; week-long transects found strongest association with indigenous Ngezi/Msitu Mkuu forest and lower density in old-growth clove forest.
+- **Limits / design:** brief survey, no juvenile or nest description. Supports habitat and adult colour direction only.
+
+### PESO-NAHONYO-ETAL-2005-P54-55
+- **Title / institution / year / type:** Nahonyo et al., *Ngezi–Vumawimbi Forest Reserves Biodiversity Inventory Report*; University of Dar es Salaam / Zanzibar forestry authorities; July 2005; institutional field inventory.
+- **URL / pages read:** https://www.coastalforests.tfcg.org/pubs/Ngezi-Biodiversity.pdf ; printed pp.54–55; accessed 2026-11-01.
+- **Facts:** calls in Ngezi forest throughout the night, from mid-canopy; dense forest, old clove plantation, mangrove and graveyard forest patches listed as habitat.
+- **Limits / design:** call survey, not an occupied-nest or development study. Use dense mid-canopy setting; do not invent a nest.
+
+### PESO-ITIS-686653-2026
+- **Title / institution / type:** ITIS report TSN 686653; current standards taxonomy.
+- **URL / access:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686653 ; accessed 2026-11-01.
+- **Facts:** valid species *Otus pembaensis*; references Clements 2021, HBW/BirdLife 2022 and IOC 15.1.
+- **Limits / design:** taxonomy only; current/historical-name crosswalk, no morphology or development claim.
+
+### PESO-IUCN-2025
+- **Title / institution / type:** BirdLife International, *Otus pembaensis*, IUCN Red List 2025 e.T22688679A208663317; institutional synthesis.
+- **DOI / access:** https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T22688679A208663317.en ; assessment 2024-09-06, read 2026-11-01.
+- **Facts:** Vulnerable; endemic resident; forest and artificial-terrestrial habitat; 2,500–3,000 mature individuals and decreasing.
+- **Limits / design:** population/habitat only; no young-stage or morphology evidence.
+
+**Reused:** PESO-MIKKOLA-2013-P135 from the v1 repository record. User-uploaded guide inaccessible this cycle; no new page claim. Existing page-backed mesoptile and adult facts retained. **Mapping / delta:** current *Otus pembaensis* ⇄ historical *O. rutilus pembaensis*. New5 / reused1 / corrected4. Exact mesoptile age, flight ability, continuous feather chronology, juvenile soft parts, occupied nest, eggs and quantified body dimorphism remain unknown; science=false. [Research](species/176-otus-pembaensis-v2.md) · [Run](../production/runs/20261101T034300+0800-cycle-4.md).

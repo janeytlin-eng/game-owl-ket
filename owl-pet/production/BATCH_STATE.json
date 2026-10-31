@@ -12336,12 +12336,12 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T044100+0800-cycle-5",
         "run_record": "owl-pet/production/runs/20261101T044100+0800-cycle-5.md",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261101T044100+0800-cycle-5",
-          "heartbeat_at": "2026-11-01T04:52:00+08:00",
-          "expires_at": "2026-11-01T05:07:00+08:00"
+          "heartbeat_at": "2026-11-01T04:54:00+08:00",
+          "expires_at": "2026-11-01T05:09:00+08:00"
         }
       },
       "last_checkpoint": {
@@ -12956,8 +12956,8 @@
   "active_lease": {
     "owner": "codex-automation",
     "run_id": "20261101T044100+0800-cycle-5",
-    "heartbeat_at": "2026-11-01T04:52:00+08:00",
-    "expires_at": "2026-11-01T05:07:00+08:00"
+    "heartbeat_at": "2026-11-01T04:54:00+08:00",
+    "expires_at": "2026-11-01T05:09:00+08:00"
   },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
@@ -16172,11 +16172,34 @@
         "review_outcome": "PASS_WITH_LIMITATIONS",
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261101T040500+0800",
+      "cycle": 5,
+      "run_id": "20261101T044100+0800-cycle-5",
+      "species_id": 177,
+      "stage": "ARCHIVED",
+      "at": "2026-11-01T04:54:00+08:00",
+      "credited": false,
+      "evidence": {
+        "concept_path": "owl-pet/design/concepts/177-otus-hartlaubi-v2.png",
+        "concept_blob": "49d0e9edcd0964b1c99999c0e611761ca8f7bf52",
+        "archive_commit": "9e4a4a015309566338b07c97e03d70c2dda40594",
+        "manifest_counts": {
+          "design_image": 644,
+          "design_legacy": 645,
+          "production": 635
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true
+      }
     }
   ],
   "active_batch_id": "20261101T040500+0800",
   "active_cycle": 5,
-  "current_stage": "REVIEWED",
+  "current_stage": "ARCHIVED",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251

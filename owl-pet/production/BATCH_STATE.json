@@ -9178,55 +9178,25 @@
       ],
       "next_cycle": 5,
       "last_checkpoint": {
-        "cycle": 4,
-        "species": "Otus spilocephalus",
-        "species_id": 101,
-        "version": 7,
+        "cycle": 5,
+        "species": "Strix nigrolineata",
+        "species_id": 102,
+        "version": 3,
         "action": "SCIENCE_REVISION",
-        "run_id": "20261031T094630+0800-cycle-4",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T094630+0800-cycle-4.md",
-        "at": "2026-10-31T10:11:00+08:00",
+        "run_id": "20261031T102620+0800-cycle-5",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md",
+        "at": "2026-10-31T10:26:20+08:00",
         "evidence": {
-          "fixed_archive_commit": "625738f254f26bb6b018b5a39f6952da8754e326",
-          "repair_of_failed_archive": "98f0e3d284a9dfe6eefb8de9a4b41ba1e592c7f4",
-          "assets": {
-            "concept": {
-              "path": "owl-pet/design/concepts/101-otus-spilocephalus-v7.png",
-              "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
-              "size": 2890356
-            },
-            "generated": {
-              "path": "owl-pet/production/generated/101-otus-spilocephalus-v7-generated-master.png",
-              "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
-              "size": 2890356
-            },
-            "reviewed": {
-              "path": "owl-pet/production/reviewed/101-otus-spilocephalus-v7-reviewed-master.png",
-              "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
-              "size": 2890356
-            },
-            "review_crop": {
-              "path": "owl-pet/production/review-crops/101-otus-spilocephalus-v7-fledgling.png",
-              "sha": "1e2061594898fed7a9ca80709a7bc6b45b62e32a",
-              "size": 711840
-            }
-          },
-          "manifest_counts": {
-            "legacy": 602,
-            "design": 601,
-            "production": 592
-          },
-          "tree": {
-            "entries": 2295,
-            "truncated": false
-          },
-          "unique_species": "175/251",
-          "scientifically_verified": false,
-          "next_cycle": 5
+          "head_before_start": "18744faaee92cb3f9c917c952593bb267dc282f3",
+          "existing_versions": [
+            "owl-pet/design/concepts/102-strix-nigrolineata-v1.png",
+            "owl-pet/design/concepts/102-strix-nigrolineata-v2.png"
+          ],
+          "unique_species_increment": 0
         }
       },
-      "last_updated_at": "2026-10-31T10:11:00+08:00",
+      "last_updated_at": "2026-10-31T10:26:20+08:00",
       "audit_notes": [
         "2026-10-31T09:27:00+08:00: cycle1 #97 Lophostrix cristata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; v3 actual plate opened; missing repository number97 identified; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T09:34:00+08:00: cycle1 #97 v4 RESEARCH_READY; official erratum excludes Rocha2014 juvenile/flight evidence from Lophostrix; Mikkola pp358–359 and Birds of Bolivia retain white mesoptile/dark face/brown developed folded wings; sources new2/reused2/corrected1; full prompt saved; lease renewed; no credit.",
@@ -9252,14 +9222,51 @@
         "2026-10-31T09:58:00+08:00: cycle4 #101 v7 REVIEWED with no further edit. Full plate and 560x760 crop opened: exact text/count, low short adult tufts, near-equal adults, dark-neutral juvenile iris, short down-dominant wing and bilateral support pass. PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T10:03:00+08:00: cycle4 #101 v7 ARCHIVED as legacy602/design601/production592; concept/generated/reviewed 444e2c3b73c4a81877067df6909f1cd68fdd58b8/2890356B, crop 1e2061594898fed7a9ca80709a7bc6b45b62e32a/711840B; fixed readback pending; unique175/251; science false; no credit.",
         "2026-10-31T10:07:00+08:00: cycle4 #101 v7 first archive fixed-tree readback rejected truncated 786446B master blob; crop intact. Full 2890356B PNG re-read in 97 checked chunks to blob 83149dc6294002c4760b6c540038bbab49c5efc3; repair archive pending; no credit.",
-        "2026-10-31T10:11:00+08:00: cycle4 #101 v7 VERIFIED at repaired fixed archive 625738f254f26bb6b018b5a39f6952da8754e326; non-truncated 2295-entry tree, exact full master/crop/manifest/support tuples passed after rejecting the truncated first transfer. Batch4/6 next5; unique175/251; science false; lease released."
+        "2026-10-31T10:11:00+08:00: cycle4 #101 v7 VERIFIED at repaired fixed archive 625738f254f26bb6b018b5a39f6952da8754e326; non-truncated 2295-entry tree, exact full master/crop/manifest/support tuples passed after rejecting the truncated first transfer. Batch4/6 next5; unique175/251; science false; lease released.",
+        "2026-10-31T10:26:20+08:00: cycle5 #102 Strix nigrolineata v3 SCIENCE_REVISION STARTED; v1-v2 preserved; 15-minute lease acquired; no cycle credit."
       ],
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null
+      "active_lease": {
+        "owner": "codex-owl-production",
+        "run_id": "20261031T102620+0800-cycle-5",
+        "cycle": 5,
+        "species": "Strix nigrolineata",
+        "species_id": 102,
+        "version": 3,
+        "heartbeat_at": "2026-10-31T10:26:20+08:00",
+        "expires_at": "2026-10-31T10:41:20+08:00"
+      },
+      "lease": {
+        "owner": "codex-owl-production",
+        "run_id": "20261031T102620+0800-cycle-5",
+        "cycle": 5,
+        "species": "Strix nigrolineata",
+        "species_id": 102,
+        "version": 3,
+        "heartbeat_at": "2026-10-31T10:26:20+08:00",
+        "expires_at": "2026-10-31T10:41:20+08:00"
+      },
+      "in_progress": {
+        "cycle": 5,
+        "species": "Strix nigrolineata",
+        "species_id": 102,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T102620+0800-cycle-5",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md"
+      }
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-owl-production",
+    "run_id": "20261031T102620+0800-cycle-5",
+    "cycle": 5,
+    "species": "Strix nigrolineata",
+    "species_id": 102,
+    "version": 3,
+    "heartbeat_at": "2026-10-31T10:26:20+08:00",
+    "expires_at": "2026-10-31T10:41:20+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -9391,7 +9398,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T10:29:00+08:00",
+  "updated_at": "2026-10-31T10:26:20+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9400,8 +9407,17 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-10-31T10:29:00+08:00",
+  "active_lease": {
+    "owner": "codex-owl-production",
+    "run_id": "20261031T102620+0800-cycle-5",
+    "cycle": 5,
+    "species": "Strix nigrolineata",
+    "species_id": 102,
+    "version": 3,
+    "heartbeat_at": "2026-10-31T10:26:20+08:00",
+    "expires_at": "2026-10-31T10:41:20+08:00"
+  },
+  "last_updated_at": "2026-10-31T10:26:20+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9870,53 +9886,33 @@
       "baseline_main": "9fd8b3c7f0070082fcb499ec6a20957d6b4985e0"
     }
   ],
-  "in_progress": null,
-  "last_checkpoint": {
-    "cycle": 3,
-    "species": "Strix huhula",
-    "species_id": 100,
-    "version": 4,
+  "in_progress": {
+    "cycle": 5,
+    "species": "Strix nigrolineata",
+    "species_id": 102,
+    "version": 3,
     "action": "SCIENCE_REVISION",
-    "run_id": "20261031T101100+0800-cycle-3",
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261031T101100+0800-cycle-3.md",
-    "at": "2026-10-31T10:29:00+08:00",
+    "run_id": "20261031T102620+0800-cycle-5",
+    "stage": "STARTED",
+    "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md"
+  },
+  "last_checkpoint": {
+    "cycle": 5,
+    "species": "Strix nigrolineata",
+    "species_id": 102,
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261031T102620+0800-cycle-5",
+    "stage": "STARTED",
+    "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md",
+    "at": "2026-10-31T10:26:20+08:00",
     "evidence": {
-      "fixed_archive_commit": "e91422cabccd0d0b6791088a21838ef44749b2b6",
-      "assets": {
-        "concept": {
-          "path": "owl-pet/design/concepts/100-strix-huhula-v4.png",
-          "sha": "7a2ba27f65953dc5830825328de7d3bdb8553a3d",
-          "size": 3096893
-        },
-        "generated": {
-          "path": "owl-pet/production/generated/100-strix-huhula-v4-generated-master.png",
-          "sha": "159d152d3d596eb942bce4303386b4b0ba032e3c",
-          "size": 3169613
-        },
-        "reviewed": {
-          "path": "owl-pet/production/reviewed/100-strix-huhula-v4-reviewed-master.png",
-          "sha": "7a2ba27f65953dc5830825328de7d3bdb8553a3d",
-          "size": 3096893
-        },
-        "review_crop": {
-          "path": "owl-pet/production/review-crops/100-strix-huhula-v4-fledgling.png",
-          "sha": "19e920195f255c4eb6a348ad3915f9954e307cce",
-          "size": 743716
-        }
-      },
-      "manifest_counts": {
-        "legacy": 601,
-        "design": 600,
-        "production": 591
-      },
-      "tree": {
-        "entries": 2289,
-        "truncated": false
-      },
-      "unique_species": "175/251",
-      "scientifically_verified": false,
-      "next_cycle": 4
+      "head_before_start": "18744faaee92cb3f9c917c952593bb267dc282f3",
+      "existing_versions": [
+        "owl-pet/design/concepts/102-strix-nigrolineata-v1.png",
+        "owl-pet/design/concepts/102-strix-nigrolineata-v2.png"
+      ],
+      "unique_species_increment": 0
     }
   }
 }

@@ -1,3 +1,8 @@
+## #134 Long-tufted Screech-Owl — *Megascops sanctaecatarinae* — v3 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/b438d55e81071b49c1a94c6b96d5765f9c9f98f7/owl-pet/design/concepts/134-megascops-sanctaecatarinae-v3.png?raw=1) · [fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/b438d55e81071b49c1a94c6b96d5765f9c9f98f7) · [research](../research/species/134-megascops-sanctaecatarinae-v3.md) · [run](../production/runs/20261031T194424+0800-cycle-2.md)
+- VERIFIED; exact six image tuples and complete manifests 618/617/608 read back; PASS_WITH_LIMITATIONS; science false; unique175/251; batch2/6 next3.
+
 ## #134 Long-tufted Screech-Owl — *Megascops sanctaecatarinae* — v3 science revision
 
 - Concept: [134-megascops-sanctaecatarinae-v3.png](concepts/134-megascops-sanctaecatarinae-v3.png)

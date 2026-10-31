@@ -1,3 +1,9 @@
+## 2026-10-31 #134 *Megascops sanctaecatarinae* v3 VERIFIED
+
+- Fixed archive `b438d55e81071b49c1a94c6b96d5765f9c9f98f7` returned a non-truncated 2,415-entry tree with exact six-image tuples; manifests 618/617/608 contain matching #134 v3 entries.
+- Neutral forest light, distinct adult poses and one female-scale edit passed full/juvenile/adult-feet review. Unsupported juvenile lower anatomy remains hidden. Unique **175/251**; science false; batch 2/6, next 3.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/b438d55e81071b49c1a94c6b96d5765f9c9f98f7/owl-pet/design/concepts/134-megascops-sanctaecatarinae-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/b438d55e81071b49c1a94c6b96d5765f9c9f98f7) · [Research](research/species/134-megascops-sanctaecatarinae-v3.md) · [Run](production/runs/20261031T194424+0800-cycle-2.md)
+
 ## 2026-10-31 #134 *Megascops sanctaecatarinae* v3 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; v1/v2 preserved. New4/reused2/corrected2; one imagegen female-scale edit after full/crop inspection.

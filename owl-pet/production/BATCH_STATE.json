@@ -11533,8 +11533,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T0330+0800-cycle-6",
-        "heartbeat_at": "2026-11-01T03:40:00+08:00",
-        "expires_at": "2026-11-01T03:55:00+08:00"
+        "heartbeat_at": "2026-11-01T03:50:00+08:00",
+        "expires_at": "2026-11-01T04:05:00+08:00"
       },
       "lease": null,
       "in_progress": {
@@ -11543,40 +11543,80 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T0330+0800-cycle-6",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "stage_evidence": {
-          "generated_master": "owl-pet/production/generated/171-glaucidium-palmarum-v2-generated-master.png",
-          "git_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
-          "sha256": "85f33a2b14392733c7c37dc7b025587937e443805fe2f6c37a39c2cde3783f12",
-          "dimensions": "1536x1024",
-          "bytes": 2803707,
-          "prompt_source": "owl-pet/research/species/171-glaucidium-palmarum-v2.md",
-          "generation_result": "success",
-          "generation_wait_seconds": 39.3,
-          "review_flag": "juvenile retains a visibly organized set of pale adult-like wing-covert spots; targeted softening edit required"
+          "reviewed_master": "owl-pet/production/reviewed/171-glaucidium-palmarum-v2-reviewed-master.png",
+          "edit_count": 1,
+          "generated_edit": "owl-pet/production/generated/171-glaucidium-palmarum-v2-edit1.png",
+          "crops": [
+            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-juvenile.png",
+            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-adult-pattern-feet.png"
+          ],
+          "blobs": {
+            "master": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+            "juvenile_crop": "529e7744053816ba49949550150ba187042cbbe6",
+            "adult_crop": "81a86ca3bb99fa4758415b096f8856ccc2b39aac"
+          },
+          "checks": {
+            "species_identity": "pass: small earless greyish-tawny pygmy owls, extensive fine crown spots, no bold scapular patches, pale-barred adult tails",
+            "sex_relation": "pass: adults share one palette; female modestly fuller only",
+            "juvenile_stage": "pass after edit: unspotted grey crown/nape, sparse forehead flecks, short soft rounded wing with diffuse irregular marks, short concealed tail",
+            "support": "pass: all six feet visibly grip branch",
+            "environment": "pass: western Mexican dry deciduous/thorn/palm habitat; no occupied nest, eggs or flight",
+            "text_and_count": "pass: exact title/labels and exactly three birds"
+          },
+          "edit_result": "resolved organized adult-like juvenile wing spots",
+          "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
+          "unknowns": [
+            "exact juvenile age",
+            "flight ability",
+            "continuous feather sequence",
+            "occupied-nest geometry",
+            "universal soft-part variation"
+          ]
         }
       },
       "last_checkpoint": {
         "cycle": 6,
         "run_id": "20261101T0330+0800-cycle-6",
         "species": "Glaucidium palmarum",
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-01T03:40:00+08:00",
+        "stage": "REVIEWED",
+        "at": "2026-11-01T03:50:00+08:00",
         "credited_cycle": false,
         "evidence": {
-          "generated_master": "owl-pet/production/generated/171-glaucidium-palmarum-v2-generated-master.png",
-          "git_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
-          "sha256": "85f33a2b14392733c7c37dc7b025587937e443805fe2f6c37a39c2cde3783f12",
-          "dimensions": "1536x1024",
-          "bytes": 2803707,
-          "prompt_source": "owl-pet/research/species/171-glaucidium-palmarum-v2.md",
-          "generation_result": "success",
-          "generation_wait_seconds": 39.3,
-          "review_flag": "juvenile retains a visibly organized set of pale adult-like wing-covert spots; targeted softening edit required"
+          "reviewed_master": "owl-pet/production/reviewed/171-glaucidium-palmarum-v2-reviewed-master.png",
+          "edit_count": 1,
+          "generated_edit": "owl-pet/production/generated/171-glaucidium-palmarum-v2-edit1.png",
+          "crops": [
+            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-juvenile.png",
+            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-adult-pattern-feet.png"
+          ],
+          "blobs": {
+            "master": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+            "juvenile_crop": "529e7744053816ba49949550150ba187042cbbe6",
+            "adult_crop": "81a86ca3bb99fa4758415b096f8856ccc2b39aac"
+          },
+          "checks": {
+            "species_identity": "pass: small earless greyish-tawny pygmy owls, extensive fine crown spots, no bold scapular patches, pale-barred adult tails",
+            "sex_relation": "pass: adults share one palette; female modestly fuller only",
+            "juvenile_stage": "pass after edit: unspotted grey crown/nape, sparse forehead flecks, short soft rounded wing with diffuse irregular marks, short concealed tail",
+            "support": "pass: all six feet visibly grip branch",
+            "environment": "pass: western Mexican dry deciduous/thorn/palm habitat; no occupied nest, eggs or flight",
+            "text_and_count": "pass: exact title/labels and exactly three birds"
+          },
+          "edit_result": "resolved organized adult-like juvenile wing spots",
+          "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
+          "unknowns": [
+            "exact juvenile age",
+            "flight ability",
+            "continuous feather sequence",
+            "occupied-nest geometry",
+            "universal soft-part variation"
+          ]
         }
       },
-      "last_stage": "IMAGE_GENERATED",
-      "updated_at": "2026-11-01T03:40:00+08:00",
+      "last_stage": "REVIEWED",
+      "updated_at": "2026-11-01T03:50:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12184,6 +12224,45 @@
             "generation_result": "success",
             "generation_wait_seconds": 39.3,
             "review_flag": "juvenile retains a visibly organized set of pale adult-like wing-covert spots; targeted softening edit required"
+          }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261101T0330+0800-cycle-6",
+          "species": "Glaucidium palmarum",
+          "stage": "REVIEWED",
+          "at": "2026-11-01T03:50:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "reviewed_master": "owl-pet/production/reviewed/171-glaucidium-palmarum-v2-reviewed-master.png",
+            "edit_count": 1,
+            "generated_edit": "owl-pet/production/generated/171-glaucidium-palmarum-v2-edit1.png",
+            "crops": [
+              "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-juvenile.png",
+              "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-adult-pattern-feet.png"
+            ],
+            "blobs": {
+              "master": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+              "juvenile_crop": "529e7744053816ba49949550150ba187042cbbe6",
+              "adult_crop": "81a86ca3bb99fa4758415b096f8856ccc2b39aac"
+            },
+            "checks": {
+              "species_identity": "pass: small earless greyish-tawny pygmy owls, extensive fine crown spots, no bold scapular patches, pale-barred adult tails",
+              "sex_relation": "pass: adults share one palette; female modestly fuller only",
+              "juvenile_stage": "pass after edit: unspotted grey crown/nape, sparse forehead flecks, short soft rounded wing with diffuse irregular marks, short concealed tail",
+              "support": "pass: all six feet visibly grip branch",
+              "environment": "pass: western Mexican dry deciduous/thorn/palm habitat; no occupied nest, eggs or flight",
+              "text_and_count": "pass: exact title/labels and exactly three birds"
+            },
+            "edit_result": "resolved organized adult-like juvenile wing spots",
+            "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
+            "unknowns": [
+              "exact juvenile age",
+              "flight ability",
+              "continuous feather sequence",
+              "occupied-nest geometry",
+              "universal soft-part variation"
+            ]
           }
         }
       ]

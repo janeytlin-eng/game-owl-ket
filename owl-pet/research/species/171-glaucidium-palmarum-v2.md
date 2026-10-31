@@ -61,3 +61,11 @@ Avoid ear tufts, bold white scapular patches, male/female colour morph split, hu
 4. Pale greyish-tawny adult palette, extensive fine crown spots, no bold scapular whites, six/seven tail bars.
 5. Juvenile unspotted grey crown, sparse forehead flecks, short soft rounded wing without adult spot rows, short supported tail.
 6. Dry western-Mexico habitat; no occupied nest, eggs, flight or exact age.
+
+
+## Actual image review and iteration
+
+- **Initial defect:** the age-unknown juvenile retained an organized set of pale adult-like wing-covert spots.
+- **Edit 1:** preserved adults/text/habitat while softening the juvenile wing into a shorter rounded down-overlaid surface with diffuse irregular marks; short tail and supported feet retained.
+- **Original-resolution review:** full plate plus juvenile and adult-pattern/feet crops viewed. Adult non-dichromatic palette, subtle female fullness, six supported feet, dry habitat and exact text/count pass.
+- **Result:** PASS_WITH_LIMITATIONS; edit count 1; science=false. Exact juvenile age, flight ability, continuous feather sequence, occupied-nest geometry and universal soft-part variation remain unknown.

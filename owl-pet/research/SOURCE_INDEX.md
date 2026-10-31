@@ -1,3 +1,36 @@
+## 2026-10-31 — #119 *Megascops centralis* v4 juvenile folded-wing correction
+
+### CHSO-REYES-ASTUDILLO-2017-PARTIAL
+- **Title / authors / year:** “Notes on the Nest, Owlets, Diet, and Parasites of the Choco Screech-Owl (*Megascops guatemalae centralis*) in Loma Alta Communal Reserve, Western Ecuador” / Enzo M. R. Reyes & Evelyng Astudillo-Sánchez / 2017.
+- **Original URL / DOI:** https://doi.org/10.1676/16-019.1 ; author-uploaded full text read at https://www.researchgate.net/publication/318171872_Notes_on_the_Nest_Owlets_Diet_and_Parasites_of_the_Choco_Screech-Owl_Megascops_guatemalae_centralis_in_Loma_Alta_Communal_Reserve_Western_Ecuador
+- **Accessed / type:** 2026-10-31; primary field study, *Wilson Journal of Ornithology* 129(2):377–381. The public publisher TOC returned 403, but the author-uploaded full displayed text was readable; no access wall bypassed.
+- **Species / stage / old name:** current *M. centralis*; paper combination *M. guatemalae centralis*; two advanced-stage owlets and one adult of unknown sex.
+- **Pages / figures / tables:** pp.377–381; especially Results pp.378–379, Fig.1–2 and Tables 1–2.
+- **Verified facts:** natural cavity in a decayed dead trunk, entrance 3.35 m above ground; two advanced-stage owlets on 7 March, both fledged before 21 March. Most juvenile plumage was gray mesoptile with fine black bars; pennaceous feathers were restricted to facial disc, rictal bristles, primaries and secondaries. Primaries/secondaries were light brown with black transverse bars and differed from adult pattern. Bills were gray with pale-yellow tip; tarsi gray/light-blue. Both owlets measured tail 0 mm on both visits. A had yellow iris, B brown. A showed defensive movement; B was lethargic. The authors explicitly caution that *Philornis* parasitism might have affected growth and B's flight-feather development.
+- **Limits / confidence:** hatch dates, exact ages, normal growth curve, flight tests and sexes unknown; n=2 in one nest and possible parasite effects. High confidence for described individuals, low for universal chronology. The record remains `PARTIAL` only because exact-age/normal-development evidence is unavailable, not because the primary text is unread.
+- **Design decision:** v4 keeps a cavity-supported, age-unknown advanced juvenile with formed barred remiges and no projecting tail, but shortens and softens the visibly folded wing so it does not read as an adult-length layered panel. It does not erase source-supported flight feathers or claim the bird was flight-capable.
+
+### CHSO-MIK2013-P242-243
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Access / source type:** user-uploaded Library PDF `libfile_916e2244186c81918fe5a0716884b8c9`, directly read 2026-10-31; photographic guide/species account.
+- **Pages:** printed pp.242–243 / internal PDF pp.244–245.
+- **Facts:** adult length 20–23 cm; mass 102–149 g; wing 152–162 mm; small owl with short ear tufts; sex-size difference explicitly unknown; gray-brown and rufous morphs; short tail, weakly bordered facial disc, greenish-to-lemon-yellow eyes, greenish-yellow bill, bare very light yellowish toes; humid lowland forest from sea level to 1000 m. The 2013 account states juvenile undescribed.
+- **Limits / confidence:** adult photographic/account evidence; its “juvenile undescribed” predates the 2017 primary study and is retained as historical state, not current evidence of absence. No adult sex ratio or juvenile chronology.
+- **Design decision:** preserve near-equal adults and short tufts; do not invent female-larger display. Juvenile design follows the later exact-species primary paper, not an adjacent screech-owl.
+
+### CHSO-ITIS-1063250
+- **Title / institution / update:** “*Megascops centralis* (Hekstra, 1982), TSN 1063250” / Integrated Taxonomic Information System / page accessed 2026-10-31; sources include IOC 15.1 acquired 2025.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063250
+- **Type / section:** official taxonomic database; Taxonomy and Nomenclature.
+- **Facts:** current valid species *Megascops centralis*; synonym/original combination listed as *Otus guatemalae centralis* Hekstra, 1982.
+- **Limits / decision:** nomenclature only; no morphology or development. Supports old-name mapping without changing the 251-species project scope.
+
+### Reused visual/context evidence and delta
+- `CHSO-JORDAN-2012`: dated adult photograph from San Tadeo, Pichincha, Ecuador; gray-brown morph, small lowered tufts, yellow eyes and pale greenish bill. Sex unknown; feet mostly hidden.
+- `CHSO-AVIBASE-MAPPING`: repository mapping of historical *M. guatemalae centralis* / *M. vermiculatus centralis* to current *M. centralis* retained; ITIS independently confirms the first old combination.
+- **Delta:** new2 (`CHSO-MIK2013-P242-243`, `CHSO-ITIS-1063250`) / reused2 / corrected1 (`CHSO-REYES-ASTUDILLO-2017-PARTIAL` now records the full author-uploaded primary text and keeps the biological limitation explicit). Exact age, normal growth, flight ability, juvenile sex, universal iris colour and literal feather geometry remain unknown. Science false.
+- **Links:** [species research](species/119-megascops-centralis-v4.md) · [run](../production/runs/20261031T143516+0800-cycle-5.md) · v1–v3 retained.
+
 ## 2026-10-31 — #117 *Otus manadensis* v9 corrupt-v8 recovery and specimen-bounded adult calibration
 
 ### SLSO-MARSHALL-1978-P13

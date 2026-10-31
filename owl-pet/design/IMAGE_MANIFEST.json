@@ -15462,6 +15462,58 @@
         "manifest_json_valid": true,
         "science": false
       }
+    },
+    {
+      "id": "124-ketupa-philippensis-v3",
+      "path": "design/concepts/124-ketupa-philippensis-v3.png",
+      "species_id": 124,
+      "scientific_name": "Ketupa philippensis",
+      "historical_names": [
+        "Bubo philippensis"
+      ],
+      "common_name": "Philippine Eagle-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "60ac31c0092d0a77e533dc145542c4e05c0e7f73011dd584c8e00425f57f8542",
+      "size_bytes": 2831579,
+      "dimensions": "1536x1024",
+      "status": "Original-resolution v2 review found the center bird was a miniature adult despite its late-nestling label. V3 replaces the unsupported exact age with age unknown, retains source-supported formed flight feathers and head down, removes adult-bright juvenile iris and adult-regular covert rows, compacts the folded wing above two gripping feet, and keeps adults near equal because species-specific sex size direction is unknown. Exact age, iris chronology, literal feather map, quantitative sex ratio and universal nest form remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "PEO-MIK2013-P294",
+        "PEO-BIRDFORUM-2012",
+        "PEO-URRIZA-2017",
+        "PEO-OCHAVO-2012",
+        "PEO-ARTUSO-2015",
+        "PEO-AVIBASE-MAPPING"
+      ],
+      "research_record": "research/species/124-ketupa-philippensis-v3.md",
+      "run_record": "production/runs/20261031T154616+0800-cycle-2.md",
+      "reviewed_at": "2026-10-31T07:54:43Z",
+      "generated_path": "production/generated/124-ketupa-philippensis-v3-generated-master.png",
+      "generated_blob": "1949fa1eaaec25efd9f23be494a0d5cee55b55fa",
+      "generated_sha256": "e892ffb08526c0a387515c94da327ddae70ca52e6f21a3b11348e628ae900760",
+      "generated_size_bytes": 2899032,
+      "intermediate_edit_path": "production/generated/124-ketupa-philippensis-v3-edit1.png",
+      "intermediate_edit_blob": "efe8cb9f913a2373097e4b573c1cbefa01109057",
+      "reviewed_path": "production/reviewed/124-ketupa-philippensis-v3-reviewed-master.png",
+      "reviewed_blob": "efe8cb9f913a2373097e4b573c1cbefa01109057",
+      "reviewed_sha256": "60ac31c0092d0a77e533dc145542c4e05c0e7f73011dd584c8e00425f57f8542",
+      "reviewed_size_bytes": 2831579,
+      "review_crop_path": "production/review-crops/124-ketupa-philippensis-v3-juvenile.png",
+      "review_crop_blob": "a9cc140e6b1d2b857e246a9cd776b0113129041e",
+      "review_crop_sha256": "bd2e6949bc2fc14d3996a524b2931f8e3f18dea2af308f2aa333ca804231a876",
+      "review_crop_size_bytes": 685751,
+      "auxiliary_review_crop_path": "production/review-crops/124-ketupa-philippensis-v3-feet.png",
+      "auxiliary_review_crop_blob": "61871676a9c61e507bae64a3dc0f13150a409493",
+      "auxiliary_review_crop_sha256": "cb6602f9e25897d5697ff813f3dbdbb3c328b669e24ff49deed17537fe69b72a",
+      "auxiliary_review_crop_size_bytes": 694233,
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
   "updated_at": "2026-10-31T06:58:27Z"

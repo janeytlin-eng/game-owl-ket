@@ -2935,3 +2935,9 @@ Fixed archive `e91422cabccd0d0b6791088a21838ef44749b2b6` passed exact recursive-
 
 Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` passed exact six-image path/blob/byte readback and complete parseable manifests 611/610/601. Batch `2026-10-31T1502+0800` is 1/6, next cycle 2; unique remains 175/251 and science remains false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/584066994e83885b3df3495fc08bbd05f33e493d/owl-pet/design/concepts/122-otus-megalotis-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/584066994e83885b3df3495fc08bbd05f33e493d)
 
+## 2026-10-31 — #124 *Ketupa philippensis* v3 archived; fixed readback pending
+
+- Original-resolution v2 inspection found a miniature-adult center juvenile despite the prior approximately-70-day label. V3 replaces the exact age with age unknown, retains source-supported formed flight feathers and head down, uses a conservative muted iris, and removes adult-regular covert rows.
+- One targeted center-wing edit was reopened in the full 1536×1024 plate plus juvenile and feet/support crops. Wing tips end above both gripping feet; adults remain near equal because species-specific sex-size direction is unknown. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**.
+- Sources: Urriza et al. 2017, Ochavo 2012, user-uploaded Mikkola printed pp.294–295/PDF pp.296–297, BirdForum dated comparator, plus two prior records. [Research](research/species/124-ketupa-philippensis-v3.md) · [Run](production/runs/20261031T154616+0800-cycle-2.md).
+

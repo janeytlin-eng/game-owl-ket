@@ -12285,53 +12285,35 @@
           "run_record": "owl-pet/production/runs/20261101T040500+0800-cycle-1.md",
           "action": "SCIENCE_REVISION",
           "version": 2
+        },
+        {
+          "cycle": 2,
+          "species": "Strix sartorii",
+          "commit_sha": "0089cdfedabc85b1b64da162d91a2ea154756580",
+          "run_record": "owl-pet/production/runs/20261101T032800+0800-cycle-2.md",
+          "action": "SCIENCE_REVISION",
+          "version": 2
         }
       ],
-      "next_cycle": 2,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "20261101T032800+0800-cycle-2",
-        "heartbeat_at": "2026-11-01T03:37:00+08:00",
-        "expires_at": "2026-11-01T03:52:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-automation",
-        "run_id": "20261101T032800+0800-cycle-2",
-        "heartbeat_at": "2026-11-01T03:37:00+08:00",
-        "expires_at": "2026-11-01T03:52:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "species": "Strix sartorii",
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261101T032800+0800-cycle-2",
-        "stage": "ARCHIVED",
-        "stage_evidence": {
-          "asset_commit": "a5abecb005b95751febd6f1cc9a0e81f39abde33",
-          "manifest_commit": "cf16287c80d85005f1dd98a6ce387bcc3ff4d300",
-          "concept": "owl-pet/design/concepts/174-strix-sartorii-v2.png",
-          "manifest_counts": {
-            "design_image": 641,
-            "design_legacy": 642,
-            "production": 632
-          },
-          "unique_species": "175/251",
-          "revision_increment": 1,
-          "readback_pending": true
-        }
-      },
+      "next_cycle": 3,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
       "last_checkpoint": {
         "cycle": 2,
         "species": "Strix sartorii",
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T032800+0800-cycle-2",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "stage_evidence": {
+          "archive_commit": "0089cdfedabc85b1b64da162d91a2ea154756580",
           "asset_commit": "a5abecb005b95751febd6f1cc9a0e81f39abde33",
-          "manifest_commit": "cf16287c80d85005f1dd98a6ce387bcc3ff4d300",
-          "concept": "owl-pet/design/concepts/174-strix-sartorii-v2.png",
+          "tree_sha": "50d4f8258fd113614e3beb0efd2a6c909bd4901a",
+          "recursive_tree_truncated": false,
+          "paths_verified": 9,
+          "binary_assets_verified": 6,
+          "master_blob": "047bae8be2f90b2f253fef85222ed5c3cde8f9da",
           "manifest_counts": {
             "design_image": 641,
             "design_legacy": 642,
@@ -12339,11 +12321,11 @@
           },
           "unique_species": "175/251",
           "revision_increment": 1,
-          "readback_pending": true
+          "rule_commit": "544bd8faa911729f1bc975af8245b53e81df048a"
         }
       },
-      "last_stage": "ARCHIVED",
-      "updated_at": "2026-11-01T03:37:00+08:00",
+      "last_stage": "VERIFIED",
+      "updated_at": "2026-11-01T03:38:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12558,16 +12540,36 @@
             "revision_increment": 1,
             "readback_pending": true
           }
+        },
+        {
+          "cycle": 2,
+          "run_id": "20261101T032800+0800-cycle-2",
+          "species": "Strix sartorii",
+          "stage": "VERIFIED",
+          "at": "2026-11-01T03:38:00+08:00",
+          "credited_cycle": true,
+          "evidence": {
+            "archive_commit": "0089cdfedabc85b1b64da162d91a2ea154756580",
+            "asset_commit": "a5abecb005b95751febd6f1cc9a0e81f39abde33",
+            "tree_sha": "50d4f8258fd113614e3beb0efd2a6c909bd4901a",
+            "recursive_tree_truncated": false,
+            "paths_verified": 9,
+            "binary_assets_verified": 6,
+            "master_blob": "047bae8be2f90b2f253fef85222ed5c3cde8f9da",
+            "manifest_counts": {
+              "design_image": 641,
+              "design_legacy": 642,
+              "production": 632
+            },
+            "unique_species": "175/251",
+            "revision_increment": 1,
+            "rule_commit": "544bd8faa911729f1bc975af8245b53e81df048a"
+          }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex-automation",
-    "run_id": "20261101T032800+0800-cycle-2",
-    "heartbeat_at": "2026-11-01T03:37:00+08:00",
-    "expires_at": "2026-11-01T03:52:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

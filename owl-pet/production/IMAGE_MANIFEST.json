@@ -16261,8 +16261,8 @@
       "auxiliary_review_crop_blob": "fd9abd80bd2f0c0aa6315b52ad57fd841141a5e1",
       "auxiliary_review_crop_sha256": "67651c13b651ff02b34c3b9ffa13e6d7abf6deaa85638a22deac152a5b150fe5",
       "auxiliary_review_crop_size_bytes": 1008286,
-      "readback_pending": true,
-      "exact_readback": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "git_blob": "45a4198db379a7ae53e610b6719db6206ca54aba",
       "v1_integrity": {
         "git_blob": "58e6b518278f2aa0a5a47a020baa299e4b0a8c92",
@@ -16271,8 +16271,23 @@
         "manifest_sha256": "c9f8555060cf7e20118195b86e8e01e84739611256a280d58081f2d90b6b269f",
         "current_export_sha256": "bfa7c3e43f2b42315dff5d28083ed90dc234ad41c699254bdd72c6846a3487d3",
         "manifest_reported_size_bytes": 2848145
+      },
+      "fixed_archive_commit": "7d6ab5ba785e8f8854359b5a1de0bcc0f6dd2fdc",
+      "rejected_truncated_commit": "1ae24533659a8c051598752a7af2a29849336f60",
+      "verified_at": "2026-11-01T01:07:00+08:00",
+      "readback": {
+        "method": "immutable repaired archive exact path/blob/size; non-truncated recursive tree; local manifest Git blobs match remote exactly; local full PNG decode and crop inspection; main-head readback",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 631,
+          "design_legacy": 632,
+          "production": 622
+        },
+        "v1_integrity_failure_preserved": true
       }
     }
   ],
-  "updated_at": "2026-11-01T01:02:00+08:00"
+  "updated_at": "2026-11-01T01:07:00+08:00"
 }

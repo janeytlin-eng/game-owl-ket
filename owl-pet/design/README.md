@@ -2713,3 +2713,9 @@ Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f
 - Run: [20261031T115700+0800-cycle-3.md](../production/runs/20261031T115700+0800-cycle-3.md)
 - ARCHIVED; PASS_WITH_LIMITATIONS; fixed readback pending; science false. The edited substrate is a living tree-fern day roost, not a nest.
 
+## #106 Rufous-banded Owl — *Strix albitarsis* — v3 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/64134725024eb744a1280179054fc1e91682c4b8/owl-pet/design/concepts/106-strix-albitarsis-v3.png?raw=1)
+- [Fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/64134725024eb744a1280179054fc1e91682c4b8)
+- PASS_WITH_LIMITATIONS; valid manifests 607/606/597; exact path/blob readback; science false.
+

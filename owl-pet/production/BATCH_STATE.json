@@ -9325,69 +9325,77 @@
           "commit_sha": "60f5bc4b3312dcf4319879728fdc6e131aaffbed",
           "run_record": "owl-pet/production/runs/20261031T114222+0800-cycle-2.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "species": "Strix albitarsis",
+          "species_id": 106,
+          "version": 3,
+          "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "64134725024eb744a1280179054fc1e91682c4b8",
+          "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "last_checkpoint": {
-        "cycle": 2,
-        "species": "Ptilopsis granti",
-        "species_id": 105,
-        "version": 7,
+        "cycle": 3,
+        "species": "Strix albitarsis",
+        "species_id": 106,
+        "version": 3,
         "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-        "run_id": "20261031T114222+0800-cycle-2",
+        "run_id": "20261031T115700+0800-cycle-3",
         "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T114222+0800-cycle-2.md",
-        "at": "2026-10-31T11:56:00+08:00",
+        "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
+        "at": "2026-10-31T12:46:00+08:00",
         "evidence": {
-          "fixed_archive_commit": "60f5bc4b3312dcf4319879728fdc6e131aaffbed",
+          "fixed_archive_commit": "64134725024eb744a1280179054fc1e91682c4b8",
           "assets": {
             "concept": {
-              "path": "owl-pet/design/concepts/105-ptilopsis-granti-v7.png",
-              "sha": "69f13552cb9d31883fb718dbe7700407c903e287",
-              "size": 2737203
+              "path": "owl-pet/design/concepts/106-strix-albitarsis-v3.png",
+              "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+              "size": 3196094
             },
             "generated": {
-              "path": "owl-pet/production/generated/105-ptilopsis-granti-v7-generated-master.png",
-              "sha": "f05d7c1c0ab1d96265c7d574b3377a6a1a151cc5",
-              "size": 2746646
+              "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
+              "sha": "99afe774d9b2a7987117bb9bafcbce85e8c7fec2",
+              "size": 3109184
             },
             "reviewed": {
-              "path": "owl-pet/production/reviewed/105-ptilopsis-granti-v7-reviewed-master.png",
-              "sha": "69f13552cb9d31883fb718dbe7700407c903e287",
-              "size": 2737203
+              "path": "owl-pet/production/reviewed/106-strix-albitarsis-v3-reviewed-master.png",
+              "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+              "size": 3196094
             },
             "juvenile_crop": {
-              "path": "owl-pet/production/review-crops/105-ptilopsis-granti-v7-juvenile.png",
-              "sha": "67f7b344a87124a68c452753078ded25d150d15d",
-              "size": 624310
+              "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-juvenile.png",
+              "sha": "88f008af146727ac018175006d153a10b31cd4ca",
+              "size": 717804
             },
             "feet_crop": {
-              "path": "owl-pet/production/review-crops/105-ptilopsis-granti-v7-feet.png",
-              "sha": "72495e2ce268eeea3981febc276782918b3d9e71",
-              "size": 718912
+              "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-feet.png",
+              "sha": "32ee989e1039b00bbbbd682f6d330f03859530a1",
+              "size": 1002864
             }
           },
           "manifest_counts": {
-            "legacy": 606,
-            "design": 605,
-            "production": 596
+            "legacy": 607,
+            "design": 606,
+            "production": 597
           },
           "manifest_json_valid": true,
+          "tree_entries": 2270,
           "path_blob_readback": true,
           "binary_body_redownloaded": false,
+          "connector_response_truncated_bytes": 786445,
           "unique_species": "175/251",
           "scientifically_verified": false,
-          "next_cycle": 3
+          "next_cycle": 4
         }
       }
     }
   ],
-  "lease": {
-    "owner": "codex-work-mode",
-    "run_id": "20261031T115700+0800-cycle-3",
-    "heartbeat_at": "2026-10-31T12:34:00+08:00",
-    "expires_at": "2026-10-31T12:49:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -9519,7 +9527,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T12:00:00+08:00",
+  "updated_at": "2026-10-31T12:46:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9528,13 +9536,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-work-mode",
-    "run_id": "20261031T115700+0800-cycle-3",
-    "heartbeat_at": "2026-10-31T12:40:00+08:00",
-    "expires_at": "2026-10-31T12:55:00+08:00"
-  },
-  "last_updated_at": "2026-10-31T12:34:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-31T12:46:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -10003,54 +10006,7 @@
       "baseline_main": "9fd8b3c7f0070082fcb499ec6a20957d6b4985e0"
     }
   ],
-  "in_progress": {
-    "cycle": 3,
-    "species": "Strix albitarsis",
-    "species_id": 106,
-    "version": 3,
-    "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-    "run_id": "20261031T115700+0800-cycle-3",
-    "stage": "ARCHIVED",
-    "started_at": "2026-10-31T11:57:00+08:00",
-    "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
-    "baseline_main": "5476cb9f2b3eaddcef8df63a3ab72d6be871bad3",
-    "recovery": {
-      "suspect_path": "owl-pet/design/concepts/106-strix-albitarsis-v2.png",
-      "suspect_size": 786445,
-      "intact_baseline": "owl-pet/design/concepts/106-strix-albitarsis-v1.png",
-      "intact_size": 3189092
-    },
-    "research_gap": "adult iris conflict plus exact juvenile age/flight and sex-size direction",
-    "research_record": "owl-pet/research/106-strix-albitarsis-v3.md",
-    "source_delta": {
-      "new_to_index": 2,
-      "reused_project_source": 2,
-      "partially_verified_lead": 1,
-      "corrected_visual_issues": 3
-    },
-    "generated_asset": {
-      "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
-      "size": 3109184,
-      "sha256": "d414ed7e2a81ac4421d4f4ef783dbc192bb21158a29490f85b39b40bd20e64ac"
-    },
-    "review": {
-      "result": "PASS_WITH_LIMITATIONS",
-      "edit_count": 1,
-      "scientifically_verified": false,
-      "final_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5"
-    },
-    "archive": {
-      "concept_path": "owl-pet/design/concepts/106-strix-albitarsis-v3.png",
-      "concept_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5",
-      "concept_size": 3196094,
-      "manifest_counts": {
-        "legacy": 607,
-        "design": 606,
-        "production": 597
-      },
-      "readback_pending": true
-    }
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "cycle": 3,
     "species": "Strix albitarsis",
@@ -10058,34 +10014,51 @@
     "version": 3,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T115700+0800-cycle-3",
-    "stage": "REVIEWED",
-    "started_at": "2026-10-31T11:57:00+08:00",
+    "stage": "VERIFIED",
     "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
-    "baseline_main": "5476cb9f2b3eaddcef8df63a3ab72d6be871bad3",
-    "recovery": {
-      "suspect_path": "owl-pet/design/concepts/106-strix-albitarsis-v2.png",
-      "suspect_size": 786445,
-      "intact_baseline": "owl-pet/design/concepts/106-strix-albitarsis-v1.png",
-      "intact_size": 3189092
-    },
-    "research_gap": "adult iris conflict plus exact juvenile age/flight and sex-size direction",
-    "research_record": "owl-pet/research/106-strix-albitarsis-v3.md",
-    "source_delta": {
-      "new_to_index": 2,
-      "reused_project_source": 2,
-      "partially_verified_lead": 1,
-      "corrected_visual_issues": 3
-    },
-    "generated_asset": {
-      "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
-      "size": 3109184,
-      "sha256": "d414ed7e2a81ac4421d4f4ef783dbc192bb21158a29490f85b39b40bd20e64ac"
-    },
-    "review": {
-      "result": "PASS_WITH_LIMITATIONS",
-      "edit_count": 1,
+    "at": "2026-10-31T12:46:00+08:00",
+    "evidence": {
+      "fixed_archive_commit": "64134725024eb744a1280179054fc1e91682c4b8",
+      "assets": {
+        "concept": {
+          "path": "owl-pet/design/concepts/106-strix-albitarsis-v3.png",
+          "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+          "size": 3196094
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
+          "sha": "99afe774d9b2a7987117bb9bafcbce85e8c7fec2",
+          "size": 3109184
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/106-strix-albitarsis-v3-reviewed-master.png",
+          "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+          "size": 3196094
+        },
+        "juvenile_crop": {
+          "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-juvenile.png",
+          "sha": "88f008af146727ac018175006d153a10b31cd4ca",
+          "size": 717804
+        },
+        "feet_crop": {
+          "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-feet.png",
+          "sha": "32ee989e1039b00bbbbd682f6d330f03859530a1",
+          "size": 1002864
+        }
+      },
+      "manifest_counts": {
+        "legacy": 607,
+        "design": 606,
+        "production": 597
+      },
+      "manifest_json_valid": true,
+      "tree_entries": 2270,
+      "path_blob_readback": true,
+      "binary_body_redownloaded": false,
+      "connector_response_truncated_bytes": 786445,
+      "unique_species": "175/251",
       "scientifically_verified": false,
-      "final_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5"
+      "next_cycle": 4
     }
   },
   "history": [
@@ -10351,7 +10324,30 @@
       "unique_species": "175/251",
       "readback_pending": true,
       "science": false
+    },
+    {
+      "at": "2026-10-31T12:46:00+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "fixed_archive_commit": "64134725024eb744a1280179054fc1e91682c4b8",
+      "tree_entries": 2270,
+      "path_blob_readback": true,
+      "binary_body_redownloaded": false,
+      "connector_response_truncated_bytes": 786445,
+      "manifest_counts": {
+        "legacy": 607,
+        "design": 606,
+        "production": 597
+      },
+      "unique_species": "175/251",
+      "science": false,
+      "next_cycle": 4,
+      "lease_released": true
     }
   ],
-  "last_updated": "2026-10-31T12:40:00+08:00"
+  "last_updated": "2026-10-31T12:46:00+08:00"
 }

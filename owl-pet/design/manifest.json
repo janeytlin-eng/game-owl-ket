@@ -14832,8 +14832,61 @@
       "auxiliary_review_crop_blob": "32ee989e1039b00bbbbd682f6d330f03859530a1",
       "auxiliary_review_crop_sha256": "d9e569cbaf72083a43ad64d9c95a9aed5dda23c903439ae36ea4b96caf483757",
       "auxiliary_review_crop_size_bytes": 1002864,
-      "readback_pending": true
+      "readback_pending": false,
+      "git_blob": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+      "exact_readback": true,
+      "fixed_archive_commit": "64134725024eb744a1280179054fc1e91682c4b8",
+      "verified_at": "2026-10-31T04:46:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "64134725024eb744a1280179054fc1e91682c4b8",
+        "method": "commit-pinned GitHub contents reads plus non-truncated local commit-tree path/blob verification",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/106-strix-albitarsis-v3.png",
+            "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+            "size": 3196094
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
+            "sha": "99afe774d9b2a7987117bb9bafcbce85e8c7fec2",
+            "size": 3109184
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/106-strix-albitarsis-v3-reviewed-master.png",
+            "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+            "size": 3196094
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-juvenile.png",
+            "sha": "88f008af146727ac018175006d153a10b31cd4ca",
+            "size": 717804
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-feet.png",
+            "sha": "32ee989e1039b00bbbbd682f6d330f03859530a1",
+            "size": 1002864
+          }
+        },
+        "manifest_counts": {
+          "legacy": 607,
+          "design": 606,
+          "production": 597
+        },
+        "tree": {
+          "entries": 2270,
+          "truncated": false
+        },
+        "raw_original": {
+          "local_size": 3196094,
+          "local_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5",
+          "git_path_blob_match": true,
+          "binary_body_redownloaded": false,
+          "connector_response_truncated_bytes": 786445
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T04:40:00Z"
+  "updated_at": "2026-10-31T04:46:00Z"
 }

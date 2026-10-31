@@ -2900,3 +2900,9 @@ Fixed archive `e91422cabccd0d0b6791088a21838ef44749b2b6` passed exact recursive-
 - Full plate, juvenile crop and feet/support crop pass with limitations; exact juvenile age, flight/iris chronology, sex-size direction and toe-feather boundary remain unknown. Science false; unique remains **175/251**.
 - [Run](production/runs/20261031T115700+0800-cycle-3.md) · [Research](research/106-strix-albitarsis-v3.md)
 
+## 2026-10-31 #106 *Strix albitarsis* v3 VERIFIED
+
+- Fixed archive `64134725024eb744a1280179054fc1e91682c4b8`; the five exact image path/blob pairs and valid manifests 607/606/597 matched in a non-truncated 2,270-entry tree.
+- The connector's binary-body response stopped at 786,445 bytes, so it was not treated as a full redownload; verification uses the immutable commit tree and exact Git blob identities/sizes. PASS_WITH_LIMITATIONS; science false; unique 175/251; current batch 3/6, next 4.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/64134725024eb744a1280179054fc1e91682c4b8/owl-pet/design/concepts/106-strix-albitarsis-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/64134725024eb744a1280179054fc1e91682c4b8)
+

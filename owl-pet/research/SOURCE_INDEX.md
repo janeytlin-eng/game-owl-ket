@@ -1850,3 +1850,11 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Facts / limits:** small obligate cavity adopter, body width 5 ± 0.35 cm from five UNAM specimens; potentially suitable cavities in both deciduous and semideciduous forest. Availability study, not an occupied nest; no interior/chick/egg reconstruction.
 
 **Reused:** CPO-MIKKOLA-2013-P385-386 and CPO-BITRAN-2018-JUV (metadata re-opened; image CDN 403). **Mapping / delta:** current *Glaucidium palmarum* ⇄ historical *G. minutissimum palmarum*; Howell & Robbins include *oberholseri* and *griscomi*. New3 / reused2 / corrected3 (no sex dichromatism, evidence-based modest size direction, occupied-nest boundary and low-resolution v1 replacement). Exact juvenile age, flight ability, continuous feather chronology and nest geometry remain unknown; science=false. [Species research](species/171-glaucidium-palmarum-v2.md) · [Run](../production/runs/20261101T0330+0800-cycle-6.md).
+
+
+## 2026-11-01 — #173 *Otus madagascariensis* v2 evidence refresh
+
+- **TSO-RENE-THORSTROM-2009-P87-88:** René de Roland & Thorstrom 2009, *Bull. ABC* 16(1):87–88, DOI https://doi.org/10.5962/p.309872 ; BHL metadata/article summary read. Exceptional Berenty ground nest with four eggs; hatching unconfirmed. Not a chick-development or default-nest source.
+- **TSO-FUCHS-ETAL-2007-P408-418:** Fuchs et al. 2007, *Condor* 109:408–418, DOI https://doi.org/10.1093/condor/109.2.408 ; abstract/indexed text read. Low mtDNA divergence and recent population split argue for lumping; dry-west form tends greyer/yellow-brown with shorter tufts/longer tail. Checklist conflict retained.
+- **TSO-ITIS-686657-2025:** ITIS TSN 686657 live page read; valid *O. madagascariensis*, synonym *Scops madagascariensis*, IOC v15.1 reference. Taxonomy only.
+- **Reused:** TSO-MIKKOLA-2013-P145 for short-tufted grey adults and age-unknown older immature. New3/reused1/corrected3 (split/lump evidence, exceptional nest boundary, older-immature not chick, low-resolution v1 replacement). Exact immature age/flight and downy chick remain unknown; science=false. [Research](species/173-otus-madagascariensis-v2.md) · [Run](../production/runs/20261101T040500+0800-cycle-1.md).

@@ -18,3 +18,9 @@ No reliable species-specific juvenile development sequence, quantified sex-size 
 ## Review and iteration
 
 The first generated juvenile had long layered adult-like remiges. A targeted edit shortened and rounded the central wing, softened its surface, shortened the tail, and retained two-foot branch support. Both adults, orange eyes, title, labels and forest scene remained intact. Exact juvenile feather geometry and all sex ratios remain unresolved; science status stays false.
+
+## v2 science revision — 2026-11-01
+
+- Current-name crosswalk corrected to *Athene jacquinoti*; historical *Ninox jacquinoti* and junior *Athene taeniata* retained.
+- Adult design uses near-equal sexes and restrained amber-yellow iris range. First image juvenile adult-like spotted wing was actively edited to compact unspotted body-blended wing; full image and juvenile/adult crops re-opened.
+- Result: `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`. Exact juvenile stage/iris/flight, sex-size direction and nest contents remain unknown. v1 preserved with manifest SHA mismatch evidence.

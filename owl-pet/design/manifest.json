@@ -16804,7 +16804,70 @@
         },
         "v1_integrity_failure_preserved": true
       }
+    },
+    {
+      "id": "151-athene-jacquinoti-v2",
+      "path": "design/concepts/151-athene-jacquinoti-v2.png",
+      "species_id": 151,
+      "scientific_name": "Athene jacquinoti",
+      "historical_names": [
+        "Ninox jacquinoti",
+        "Athene taeniata",
+        "Solomons Boobook"
+      ],
+      "common_name": "West Solomons Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2科学修订。以Cornell/ITIS固定当前Athene jacquinoti并保留Ninox jacquinoti历史映射；成鸟雌雄近等尺度、无耳羽簇、锈褐上体不规则浅斑、灰褐面盘/窄浅眉、白喉与浅色下腹、琥珀黄色眼。首图幼鸟翼长且具清晰成鸟式浅斑，edit1去斑并缩短/圆化/绒化翼缘、隐尾、双足支撑。洞口只作外部栖息线索，不编造巢材。PASS_WITH_LIMITATIONS；幼鸟发育、虹膜序列、飞行能力、性别体型方向及巢内容未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "WSO-CORNELL-CLEMENTS-2022",
+        "WSO-MNHN-VOISIN-2011-P26",
+        "WSO-MNHN-2010-270",
+        "WSO-ITIS-1063526",
+        "WSO-MACAULAY-NEST-2010",
+        "WSO-OWLPAGES-2020"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-01--151-athene-jacquinoti-v2-evidence-refresh",
+      "research_record": "research/species/151-athene-jacquinoti-v2.md",
+      "run_record": "production/runs/20261101T010800+0800-cycle-5.md",
+      "reviewed_at": "2026-11-01T01:20:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "9944757324753a978a4ddbbdee35d75fed47c29a8e93dcb2136692694a0ca714",
+      "size_bytes": 3007537,
+      "generated_path": "production/generated/151-athene-jacquinoti-v2-generated-master.png",
+      "generated_blob": "864ee2d43caa9109546ae02677ef5a39a59e338c",
+      "generated_sha256": "95c7bc2cd43558b963687ea8e554e9039d97ede091ef43c345159e2d4d1fdd77",
+      "generated_size_bytes": 3160479,
+      "intermediate_edit_path": "production/generated/151-athene-jacquinoti-v2-edit1.png",
+      "intermediate_edit_blob": "9a0c9476f051c351515aacad1f0239099fd906da",
+      "reviewed_path": "production/reviewed/151-athene-jacquinoti-v2-reviewed-master.png",
+      "reviewed_blob": "9a0c9476f051c351515aacad1f0239099fd906da",
+      "reviewed_sha256": "9944757324753a978a4ddbbdee35d75fed47c29a8e93dcb2136692694a0ca714",
+      "reviewed_size_bytes": 3007537,
+      "review_crop_path": "production/review-crops/151-athene-jacquinoti-v2-older-juvenile.png",
+      "review_crop_blob": "bd048ec3a9340ea7845bd7c5f0af1d32812e4557",
+      "review_crop_sha256": "b87c96c859e964b9ea56e6676e4f72fa1969940dc5dae42c2dae68b0c167684a",
+      "review_crop_size_bytes": 682704,
+      "auxiliary_review_crop_path": "production/review-crops/151-athene-jacquinoti-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "441090355efe8f4167bf7db29ff36285aa5a3f47",
+      "auxiliary_review_crop_sha256": "576ba0d3be803c85b12fdfefa188bf981a2bc6f7bb2b6310fbe16faed648015f",
+      "auxiliary_review_crop_size_bytes": 2163606,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "9a0c9476f051c351515aacad1f0239099fd906da",
+      "v1_integrity": {
+        "git_blob": "38b77a8a96076c3c0dea8b148f4a4aeb1b410639",
+        "size_bytes": 786444,
+        "decode": "complete",
+        "manifest_sha256": "6f1ddd23754ab6e522a21761977a04883ad6707f49b73b0ad1ecc9b506471497",
+        "current_export_sha256": "cd22a5b04a29c227bf53d63ed87add1d8e32877962ad9c81f650bad9c82533ac"
+      }
     }
   ],
-  "updated_at": "2026-11-01T01:07:00+08:00"
+  "updated_at": "2026-11-01T01:22:00+08:00"
 }

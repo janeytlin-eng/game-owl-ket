@@ -8896,7 +8896,7 @@
           "run_record": "owl-pet/production/runs/20261031T061500+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 7,
+      "next_cycle": null,
       "last_checkpoint": {
         "cycle": 6,
         "stage": "VERIFIED",
@@ -11709,7 +11709,7 @@
       "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:44:00+08:00",
+  "last_updated": "2026-10-31T18:44:43+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -11737,6 +11737,15 @@
       "run_record": "owl-pet/production/runs/20261031T183900+0800-cycle-6.md",
       "next_cycle": null,
       "batch_complete": true
+    },
+    {
+      "at": "2026-10-31T18:44:43+08:00",
+      "event": "ledger_consistency_correction",
+      "batch_id": "2026-10-31T0430+0800",
+      "field": "next_cycle",
+      "old_value": 7,
+      "new_value": null,
+      "reason": "status COMPLETE and six immutable VERIFIED cycles already recorded; no production credit added and no run record changed"
     }
   ]
 }

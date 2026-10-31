@@ -20,3 +20,9 @@ Actual built-in edit/review reduced hard juvenile cream scallopedplates to softe
 
 ### #119 v3 2026-10-27T21:54:00.000+08:00
 Actual first render failed for repeated juvenile arcs and tall adult tufts; one targeted edit passed. Reviewed concept uses irregular sparse fine dark marks on fluffy gray mesoptile, retains formed barred remiges/no projecting tail/two-foot cavity support. New0/reused3/corrected0; science false. [Original](../../design/concepts/119-megascops-centralis-v3.png) · [Run](../../production/runs/2026-10-27T2126+0800-cycle-2.md)
+
+### #119 v4 2026-10-31T14:41:04+08:00 — ARCHIVED
+
+Actual v3 re-opened at original resolution: juvenile wing still read as a long crisp adult-like panel reaching near the feet. Reyes & Astudillo-Sánchez 2017 pp.377–381 was re-read in full author-uploaded text: advanced-stage young had gray finely barred mesoptile, formed light-brown/dark-barred primaries and secondaries, but tail 0 mm; exact age/flight unknown and parasite effects may alter growth. Mikkola printed pp.242–243 supports small short-tufted adults and explicitly unknown sex-size difference; ITIS maps old *Otus guatemalae centralis* to current *M. centralis*.
+
+One built-in edit was opened whole and in juvenile/feet crops. V4 retains formed barred remiges but compacts them above the feet/sill, keeps no projecting tail and clear two-foot support. Adults remain near-equal. `PASS_WITH_LIMITATIONS`; science false; new2/reused2+/corrected1; unique175/251. Concept/reviewed SHA-256 `2eb9b144aa68d612e41e20ce6b06c49fb6738adf3bc49e9d37036b2d9058cfcc`, 3,131,939 bytes, Git blob `7fe20b04fd3b62c02ae5d571c222e1beca6df026`. Fixed readback pending. [Original](../../design/concepts/119-megascops-centralis-v4.png) · [Research](../../research/species/119-megascops-centralis-v4.md) · [Run](../../production/runs/20261031T143516+0800-cycle-5.md)

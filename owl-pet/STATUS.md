@@ -1,3 +1,9 @@
+## 2026-10-31 #119 *Megascops centralis* v4 ARCHIVED — fixed readback pending
+
+- V3 was opened and found to retain a long adult-like folded juvenile wing near the feet despite its written boundary. V4 retains documented formed barred remiges but compacts the visible wing above both feet and the cavity sill; tail remains nonprojecting and bilateral support is clear.
+- Reyes & Astudillo-Sánchez 2017 pp.377–381, Mikkola printed pp.242–243 / PDF pp.244–245 and ITIS TSN 1063250 were actually read. New2/reused2+/corrected1; old name *M. guatemalae centralis* mapped to current *M. centralis*.
+- Full frame and two crops opened; first edit `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**. Manifests 609/608/599; fixed archive readback pending. [Original](design/concepts/119-megascops-centralis-v4.png) · [Research](research/species/119-megascops-centralis-v4.md) · [Run](production/runs/20261031T143516+0800-cycle-5.md)
+
 ## 2026-10-31 #117 *Otus manadensis* v9 VERIFIED
 
 - `ARCHIVE_REPAIR_AND_SCIENCE_REVISION`; current-main v8 is a 786,446-byte viewer-invalid historical transfer and is preserved, not used as a source. Intact v7 was opened and used for a non-destructive v9 imagegen recovery.

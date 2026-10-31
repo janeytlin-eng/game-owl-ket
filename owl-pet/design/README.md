@@ -1,3 +1,13 @@
+## #119 Choco Screech-Owl — *Megascops centralis* — v4 science revision
+
+- [Original concept](concepts/119-megascops-centralis-v4.png) · [research](../research/species/119-megascops-centralis-v4.md) · [run](../production/runs/20261031T143516+0800-cycle-5.md)
+- ARCHIVED; fixed readback pending; `PASS_WITH_LIMITATIONS`; science false; unique175/251.
+- V4 keeps the primary-study-supported formed barred remiges but shortens the visible folded-wing silhouette above the feet/sill, embeds it in gray mesoptile, hides the tail and retains bilateral cavity support. Adults remain near-equal because sex-size difference is unknown.
+
+### Separate “formed” from “adult-proportioned”
+
+An advanced owl juvenile may have pennaceous primaries and secondaries while still having no measurable tail. Do not erase documented flight feathers merely because the existing drawing looks mature; instead compare silhouette length, layering regularity, tail projection and support against the exact stage evidence. Applied and crop-checked on #119 v4; not a universal chronology rule.
+
 ## #117 Sulawesi Scops-Owl — *Otus manadensis* — v9 VERIFIED archive recovery
 
 - Original: [117-otus-manadensis-v9.png](https://github.com/janeytlin-eng/game-owl-ket/blob/a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012/owl-pet/design/concepts/117-otus-manadensis-v9.png?raw=1)

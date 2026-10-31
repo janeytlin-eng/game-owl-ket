@@ -59,3 +59,7 @@ Open the complete v4 image at original resolution, then inspect a center-juvenil
 - Juvenile folded wing is now a compact narrow remige group embedded in mesoptile. Its tip ends clearly above both feet and the cavity sill; it no longer forms a broad adult-length panel to the toes. The remiges remain visible and transversely barred, preserving the primary-study boundary. Tail is nonprojecting and both feet are fully supported.
 - No second edit required. `PASS_WITH_LIMITATIONS`: exact age, normal growth, flight ability, sex, universal iris colour and literal feather geometry remain unknown; `scientifically_verified=false`.
 - Concept/reviewed master: 3,131,939 bytes; SHA-256 `2eb9b144aa68d612e41e20ce6b06c49fb6738adf3bc49e9d37036b2d9058cfcc`.
+
+## Archive checkpoint
+
+ARCHIVED at 2026-10-31T14:41:04+08:00 with concept/generated/reviewed master plus juvenile and feet/sill crops. Manifest counts are legacy 609, design 608 and production 599. Fixed-commit readback is pending; this stage alone earns no cycle credit.

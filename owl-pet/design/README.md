@@ -2706,3 +2706,10 @@ Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f
 
 
 - [#103 Eastern Grass Owl v4 science revision](concepts/103-tyto-longimembris-v4.png) — ABSA morphometrics applied as a modest darker/larger female; ~55-day captive-reference mesoptile kept down-rich, supported and non-flying. PASS_WITH_LIMITATIONS; scientifically_verified=false. Research: [v4](../research/103-tyto-longimembris-v4.md).
+## #106 Rufous-banded Owl — *Strix albitarsis* — v3 archive repair
+
+- Concept: [106-strix-albitarsis-v3.png](concepts/106-strix-albitarsis-v3.png)
+- Research: [106-strix-albitarsis-v3.md](../research/106-strix-albitarsis-v3.md)
+- Run: [20261031T115700+0800-cycle-3.md](../production/runs/20261031T115700+0800-cycle-3.md)
+- ARCHIVED; PASS_WITH_LIMITATIONS; fixed readback pending; science false. The edited substrate is a living tree-fern day roost, not a nest.
+

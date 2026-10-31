@@ -656,3 +656,8 @@ A prior status sentence is not proof that an edit is visible. Reopen the actual 
 ### 2026-10-31 #103 — reopen an unverified source lead before preserving a neutral sex-size display
 
 A previous record that says a relevant morphometric PDF could not be opened is a recoverable evidence gap, not a permanent design boundary. For #103, opening ABSA *Bird in the Hand* p.1 supplied overlapping male/female wing, tail and mass ranges and an explicit darker/larger-female direction. The applied change was therefore modest visible female fullness/size, not a universal multiplier. The existing ~55-day captive-reference mesoptile was kept down-rich and fully supported; only adult-like side wing layering was softened. Whole-frame and crop review passed for this plate only. This validates reopening the lead and applying overlapping ranges conservatively; it does not establish wild-age equivalence, flight readiness, continuous feather sequence or population-wide ratios, and scientifically_verified remains false.
+
+
+### 2026-10-31 #106 — habitat noun must match substrate geometry
+
+When a source distinguishes a day roost from an unknown nest, the prompt must translate “roost” into attached living support geometry rather than loose nest-like material. The first #106 v3 render preserved the birds but produced a mossy platform; one environment-only edit replaced it with living tree-fern rachises and crown forks. Full-frame, juvenile and feet/support review verified that no nest bowl, eggs or piled nesting material remained. This rule is applied and visually validated for the documented *Strix albitarsis* tree-fern roost only; it does not infer nest architecture or juvenile age/flight ability.

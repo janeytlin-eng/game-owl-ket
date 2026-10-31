@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T03:56:00Z",
+  "updated": "2026-10-31",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14268,7 +14268,55 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "106-strix-albitarsis-v3",
+      "path": "design/concepts/106-strix-albitarsis-v3.png",
+      "species_id": 106,
+      "scientific_name": "Strix albitarsis",
+      "historical_names": [
+        "Ciccaba albitarsis",
+        "Ciccaba albitarsus",
+        "Syrnium albitarse"
+      ],
+      "common_name": "Rufous-banded Owl",
+      "version": 3,
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5",
+      "size_bytes": 3196094,
+      "dimensions": "1536x1024",
+      "status": "Recovered from intact v1 because v2 is a suspicious 786445-byte transfer. V3 corrects bright amber adult irises to the accessible dark-eye evidence, deepens rufous/dark-brown identity and replaces a nest-like platform with the documented living tree-fern leaf-base day roost. One environment-only edit passed full, juvenile and feet/support review. Exact juvenile age, flight ability, iris chronology, toe-feather boundary and visible sex-size ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "RUFBO-GREENEY-2003",
+        "RUFBO-AVESPERU-ACCOUNT",
+        "RUFBO-ITIS-686690-LEAD"
+      ],
+      "research_record": "research/106-strix-albitarsis-v3.md",
+      "run_record": "production/runs/20261031T115700+0800-cycle-3.md",
+      "reviewed_at": "2026-10-31T04:34:00Z",
+      "generated_path": "production/generated/106-strix-albitarsis-v3-generated-master.png",
+      "generated_blob": "99afe774d9b2a7987117bb9bafcbce85e8c7fec2",
+      "generated_sha256": "d414ed7e2a81ac4421d4f4ef783dbc192bb21158a29490f85b39b40bd20e64ac",
+      "generated_size_bytes": 3109184,
+      "reviewed_path": "production/reviewed/106-strix-albitarsis-v3-reviewed-master.png",
+      "reviewed_blob": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
+      "reviewed_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5",
+      "reviewed_size_bytes": 3196094,
+      "review_crop_path": "production/review-crops/106-strix-albitarsis-v3-juvenile.png",
+      "review_crop_blob": "88f008af146727ac018175006d153a10b31cd4ca",
+      "review_crop_sha256": "0deaf7a60df16939cfd8008e6b4018bd87c48f6441c608d1e8b7d22b3bebde07",
+      "review_crop_size_bytes": 717804,
+      "auxiliary_review_crop_path": "production/review-crops/106-strix-albitarsis-v3-feet.png",
+      "auxiliary_review_crop_blob": "32ee989e1039b00bbbbd682f6d330f03859530a1",
+      "auxiliary_review_crop_sha256": "d9e569cbaf72083a43ad64d9c95a9aed5dda23c903439ae36ea4b96caf483757",
+      "auxiliary_review_crop_size_bytes": 1002864,
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-31T03:56:00Z"
+  "updated_at": "2026-10-31T04:40:00Z"
 }

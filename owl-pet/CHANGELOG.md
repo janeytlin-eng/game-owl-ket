@@ -1488,3 +1488,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Fixed archive fa1226ac8f5b95923440152c9559271293dc1eea read back with a non-truncated 2308-entry tree, exact master/crop tuples, exact raw concept blob/size and valid raw JSON manifests (legacy 604, design 603, production 594).
 - Batch 2026-10-31T0927+0800 advanced from 5/6 to COMPLETE 6/6; lease released; next_cycle=null.
 - Unique species 175/251 unchanged; one science revision completed; scientifically_verified=false.
+- 2026-10-31T12:40:00+08:00: #106 *Strix albitarsis* v3 ARCHIVED after recovery from intact v1, two evidence-led imagegen passes and full/juvenile/feet review. Adult dark irises and rufous identity were corrected; the nest-like support was replaced by the documented living tree-fern day roost. Manifests 607/606/597; fixed readback pending; unique +0; science false.

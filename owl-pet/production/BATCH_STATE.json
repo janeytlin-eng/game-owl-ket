@@ -9531,8 +9531,8 @@
   "active_lease": {
     "owner": "codex-work-mode",
     "run_id": "20261031T115700+0800-cycle-3",
-    "heartbeat_at": "2026-10-31T12:34:00+08:00",
-    "expires_at": "2026-10-31T12:49:00+08:00"
+    "heartbeat_at": "2026-10-31T12:40:00+08:00",
+    "expires_at": "2026-10-31T12:55:00+08:00"
   },
   "last_updated_at": "2026-10-31T12:34:00+08:00",
   "audit_notes": [
@@ -10010,7 +10010,7 @@
     "version": 3,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T115700+0800-cycle-3",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "started_at": "2026-10-31T11:57:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
     "baseline_main": "5476cb9f2b3eaddcef8df63a3ab72d6be871bad3",
@@ -10038,6 +10038,17 @@
       "edit_count": 1,
       "scientifically_verified": false,
       "final_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5"
+    },
+    "archive": {
+      "concept_path": "owl-pet/design/concepts/106-strix-albitarsis-v3.png",
+      "concept_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5",
+      "concept_size": 3196094,
+      "manifest_counts": {
+        "legacy": 607,
+        "design": 606,
+        "production": 597
+      },
+      "readback_pending": true
     }
   },
   "last_checkpoint": {
@@ -10323,6 +10334,24 @@
       "juvenile_crop_opened": true,
       "feet_crop_opened": true,
       "final_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5"
+    },
+    {
+      "at": "2026-10-31T12:40:00+08:00",
+      "event": "ARCHIVE_PREPARED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "manifest_counts": {
+        "legacy": 607,
+        "design": 606,
+        "production": 597
+      },
+      "unique_species": "175/251",
+      "readback_pending": true,
+      "science": false
     }
-  ]
+  ],
+  "last_updated": "2026-10-31T12:40:00+08:00"
 }

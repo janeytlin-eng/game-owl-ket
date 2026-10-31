@@ -2893,3 +2893,10 @@ V4 now visibly applies the recorded juvenile boundary: shorter rounded lower-con
 ### #100 v4 verified — 2026-10-31T10:29:00+08:00
 
 Fixed archive `e91422cabccd0d0b6791088a21838ef44749b2b6` passed exact recursive-tree asset and support readback. Batch 3/6 next 4; unique 175/251; science false.
+## 2026-10-31 #106 *Strix albitarsis* v3 ARCHIVED — fixed readback pending
+
+- Recovered from intact v1 because v2 is a suspicious 786,445-byte transfer; v1–v2 remain preserved.
+- Adult dark-irised rufous identity and a yellow-cream, age-unknown juvenile are supported by the accessible evidence. One edit replaced a nest-like platform with living tree-fern rachises at the documented day roost.
+- Full plate, juvenile crop and feet/support crop pass with limitations; exact juvenile age, flight/iris chronology, sex-size direction and toe-feather boundary remain unknown. Science false; unique remains **175/251**.
+- [Run](production/runs/20261031T115700+0800-cycle-3.md) · [Research](research/106-strix-albitarsis-v3.md)
+

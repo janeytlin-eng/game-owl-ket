@@ -1,3 +1,28 @@
+## 2026-10-31 — #128 *Megascops marshalli* v8 archive repair and evidence refresh
+
+### MARS-ARMONIA-2009-P29
+- **Title / author / year / type:** “The status of Cloud-forest Screech-owl *Megascops marshalli* in Bolivia” / Sebastian Herzog, in *Threatened Birds of Bolivia Project 2004 to 2009: Final Report* / 2009; project report summarizing the associated peer-reviewed field study.
+- **URL / access:** https://armoniabolivia.org/wp-content/uploads/2016/07/02_2009-MacLeod-FinalProjectReport.pdf ; accessed 2026-10-31; original PDF text read, not a search snippet.
+- **Pages / sections:** printed p.29, especially the complete species section and reproduced abstract; bibliography p.39.
+- **Species / stage:** current *Megascops marshalli*; adults/habitat/distribution. No juvenile series.
+- **Verified value:** reports the first Bolivian specimen and sound recordings; six known localities from Pasco, Peru to Cochabamba, Bolivia; preferred habitat is pristine to slightly disturbed wet montane forest with high structural complexity, dense understory and abundant epiphytes at 1,550–2,580 m. This independently supports the humid epiphyte-rich cloud-forest setting and rejects a generic dry woodland or invented nest scene.
+- **Limits / confidence:** the report reproduces the 2009 paper abstract rather than the full specimen table; it does not establish juvenile chronology, sex ratio or a universal plumage tone. High confidence for the quoted habitat/distribution scope, none for juvenile anatomy.
+- **Design decision:** use a supported mossy horizontal branch in dense wet montane forest; no nest, cavity or family-behaviour claim. Keep geographic crown-tone variation unresolved.
+
+### MARS-MIK2013-P234
+- **Title / author / year / type:** *Owls of the World: A Photographic Guide*, 2nd ed., species 101 / Heimo Mikkola / 2013; user-uploaded photographic guide.
+- **Access / page:** Library file `libfile_916e2244186c81918fe5a0716884b8c9`, directly read 2026-10-31; printed p.234 / PDF page 236.
+- **Species / old name / stage:** *Megascops marshalli*; adult and mesoptile text; original name *Otus marshalli* mapped through the 1981 description.
+- **Verified value:** 20–23 cm, 107–115 g, wing 152–164 mm; very short ear tufts; rich chestnut upperparts with irregular blackish barring/mottling and wavy cross-bars; broken pale scapular band; irregular ocellated lower breast/belly; rufous facial disc with broad black ruff; dark brown eyes; grayish-yellow bill; feathered tarsi to the base of grayish-fleshy toes. The downy chick is explicitly undescribed. Mesoptile is described as adult-like with ten rather than eight tail bars.
+- **Limits / confidence:** secondary synthesis, no exact age or flight ability. “Female almost 10 g heavier” is a mass direction, not a standing-height ratio; do not turn it into a visibly oversized female. The ten-bar statement is not a license to invent a fully exposed tail.
+- **Design decision:** adults near equal display height with only subtle female fullness. Use an age-unknown older immature/mesoptile direction with formed but lower-contrast folded remiges, softer body texture and largely hidden tail; do not depict a newborn chick.
+
+### Reused primary sources and mapping
+- `MARS-WESKE-1981`: Weske & Terborgh, “*Otus marshalli*, a New Species of Screech-Owl from Perú,” *The Auk* 98:1–7, DOI 10.1093/auk/98.1.1. Original description pp.1–4 reread through the SORA/Oxford text: dark-brown iris, black-rimmed rufous facial disc, short tufts, rich chestnut dorsum with irregular black wavy bars, extensively feathered tarsi and bare slender toes; prominent pale marking belongs to the hind crown and individual pale feathers retain rufous/dusky tips. Eight specimens include seven males and one female; no universal visual sex-size rule follows.
+- `MARS-HERZOG-2009`: Herzog et al., “Vocalizations, Distribution, and Ecology of the Cloud-Forest Screech Owl,” *Wilson Journal of Ornithology* 121:240–252, DOI 10.1676/08-041.1. Reused for specimen/geographic variation and wet-montane habitat; it does not provide a dated juvenile series.
+- **Current-name mapping:** *Otus marshalli* Weske & Terborgh, 1981 → *Megascops marshalli*. No scope or species-count change.
+- **Index delta:** new 1 (`MARS-ARMONIA-2009-P29`), restored/reused 3 stable source IDs, corrected 1 archive-integrity claim. Exact immature age, flight ability, literal tail-bar visibility, geographic crown tone and standing sex ratio remain unknown; scientifically verified remains false.
+
 ## 2026-10-31 — #119 *Megascops centralis* v4 juvenile folded-wing correction
 
 ### CHSO-REYES-ASTUDILLO-2017-PARTIAL

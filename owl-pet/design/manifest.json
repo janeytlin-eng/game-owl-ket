@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T07:32:00+08:00",
+  "updated": "2026-10-31T08:29:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13989,7 +13989,54 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "96-aegolius-ridgwayi-v4",
+      "path": "design/concepts/96-aegolius-ridgwayi-v4.png",
+      "species_id": 96,
+      "scientific_name": "Aegolius ridgwayi",
+      "historical_names": [
+        "Cryptoglaux ridgwayi"
+      ],
+      "common_name": "Unspotted Saw-whet Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "cd8fd3b6be45ffcdccd99b655fd7dfd6d963000b98312ce83cdde45080802c89",
+      "size_bytes": 2833846,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 restores repository number 96 while preserving the evidence-bounded age-unknown older fluffy juvenile: tilted head, short high-ending down-covered developing wing, concealed tail and belly plus two-foot branch support. Adults retain honey-amber eyes, narrow pale facial rims, plain buff bodies and near-equal scale. Exact age, sex, flight threshold, tract sequence, dimensions, measured adult sex ratio and nest form remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "RID-AGUIRRE-CARDOZA-2016",
+        "RID-ITIS-2025",
+        "RID-EA-JUV",
+        "RID-EISERMANN-AVENDANO-2018",
+        "RID-MIK2013-446"
+      ],
+      "research_record": "research/species/96-aegolius-ridgwayi-v4.md",
+      "run_record": "production/runs/20261031T073400+0800-cycle-6.md",
+      "reviewed_at": "2026-10-31T07:37:00+08:00",
+      "generated_path": "production/generated/96-aegolius-ridgwayi-v4-generated-master.png",
+      "generated_blob": "393213711db7df9fa217592b556cbb73a9e6f2be",
+      "generated_sha256": "cd8fd3b6be45ffcdccd99b655fd7dfd6d963000b98312ce83cdde45080802c89",
+      "generated_size_bytes": 2833846,
+      "reviewed_path": "production/reviewed/96-aegolius-ridgwayi-v4-reviewed-master.png",
+      "reviewed_blob": "393213711db7df9fa217592b556cbb73a9e6f2be",
+      "reviewed_sha256": "cd8fd3b6be45ffcdccd99b655fd7dfd6d963000b98312ce83cdde45080802c89",
+      "reviewed_size_bytes": 2833846,
+      "review_crop_path": "production/review-crops/96-aegolius-ridgwayi-v4-juvenile.png",
+      "review_crop_blob": "d94119f83b2560017aa7689a001071b814069df6",
+      "review_crop_sha256": "5655e04078cc62566821b68c29694d906eeae06dccc0190f2c1a33992f4e906d",
+      "review_crop_size_bytes": 739397,
+      "readback_pending": true,
+      "git_blob": "393213711db7df9fa217592b556cbb73a9e6f2be",
+      "fixed_archive_commit": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T07:32:00+08:00"
+  "updated_at": "2026-10-31T08:29:00+08:00"
 }

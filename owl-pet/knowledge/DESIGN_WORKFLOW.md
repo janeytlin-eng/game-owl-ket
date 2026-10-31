@@ -612,3 +612,8 @@ For fixed biological plates whose only verified defect is a missing inventory nu
 ### 2026-10-31 #95 title-number correction validated
 
 Applied the fixed-plate title-only rule to #95 v4. Full plate and juvenile crop were reopened; the recent-fledgling boundary and one-case fork context were preserved without promoting scientific status. Result PASS_WITH_LIMITATIONS; science false.
+
+
+## 2026-10-31 — recover reviewed assets after an expired lease
+
+When a lease expires after REVIEWED, first confirm main and the staged asset paths are unchanged, reopen the persisted master/crop, and then archive those exact blobs without regenerating. This rule was applied to #96 v4; effectiveness is not claimed until fixed-commit readback passes.

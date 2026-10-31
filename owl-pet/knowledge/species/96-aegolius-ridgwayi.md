@@ -17,3 +17,8 @@ New RID-ITIS-2025 maps old Cryptoglaux ridgwayi to valid Aegolius ridgwayi and p
 
 ## 2026-10-29 v3 review/archive
 The first render and the 620×700 juvenile crop passed without an evidence-supported edit. The adults retain honey-amber eyes, dark horn bills, narrow pale facial rims, near-equal scale and plain buff abdomens. The older fluffy juvenile has a tilted head, diffuse pale rim, short high-ending down-covered developing wing, concealed tail and belly/two-foot support. Exact age/flight threshold, tract sequence, wing/tail metrics, sex ratio and nest form remain unknown. [v3 original](../../design/concepts/96-aegolius-ridgwayi-v3.jpg); scientifically_verified=false.
+
+
+## v4 archive — 2026-10-31T08:29:00+08:00
+
+Number 96 restored. Existing reviewed plate was reopened after the lease expired; no regeneration or edit. Adults remain near-equal in scale; older fluffy juvenile keeps short down-covered wing, concealed tail and belly/two-foot branch support. PASS_WITH_LIMITATIONS; fixed readback pending; science=false.

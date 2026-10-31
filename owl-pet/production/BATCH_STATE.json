@@ -9039,25 +9039,32 @@
       "next_cycle": 6,
       "last_checkpoint": {
         "cycle": 6,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "species": "Aegolius ridgwayi",
         "species_id": 96,
         "version": 4,
         "run_id": "20261031T073400+0800-cycle-6",
-        "at": "2026-10-31T07:37:00+08:00",
+        "at": "2026-10-31T08:29:00+08:00",
         "run_record": "owl-pet/production/runs/20261031T073400+0800-cycle-6.md",
         "evidence": {
+          "recovery": "Expired 07:52 lease recovered after confirming main remained d38d2566fee4d5a05653e2be6f0de684c747140b; existing REVIEWED assets reused without regeneration.",
+          "concept_path": "owl-pet/design/concepts/96-aegolius-ridgwayi-v4.png",
+          "concept_blob": "393213711db7df9fa217592b556cbb73a9e6f2be",
           "generated_path": "owl-pet/production/generated/96-aegolius-ridgwayi-v4-generated-master.png",
           "reviewed_path": "owl-pet/production/reviewed/96-aegolius-ridgwayi-v4-reviewed-master.png",
           "crop_path": "owl-pet/production/review-crops/96-aegolius-ridgwayi-v4-juvenile.png",
           "image_sha256": "cd8fd3b6be45ffcdccd99b655fd7dfd6d963000b98312ce83cdde45080802c89",
           "crop_sha256": "5655e04078cc62566821b68c29694d906eeae06dccc0190f2c1a33992f4e906d",
-          "review": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
+          "manifest_counts": {
+            "legacy": 598,
+            "design": 597,
+            "production": 588
+          },
+          "readback_pending": true,
           "science": false
         }
       },
-      "last_updated_at": "2026-10-31T07:37:00+08:00",
+      "last_updated_at": "2026-10-31T08:29:00+08:00",
       "audit_notes": [
         "2026-10-31T06:36:00+08:00: reconciled expired top-level orphan lease/run 20261031T043000+0800-cycle-1 after confirming batch 2026-10-31T0430+0800 already COMPLETE 6/6 and #83 fixed archive recorded; no duplicate credit.",
         "2026-10-31T06:36:00+08:00: cycle1 #90 Tyto furcata pratincola v5 SCIENCE_REVISION STARTED and RESEARCH_READY; v1-v4 preserved; v4 actual image opened; only missing repository number in title identified; 15-minute lease acquired; sources indexed new2/reused2/corrected1; no cycle credit.",
@@ -9082,19 +9089,21 @@
         "2026-10-31T07:30:00+08:00: cycle5 #95 v4 ARCHIVED as legacy597/design596/production587; concept/generated/reviewed/crop and support records persisted; fixed readback pending; unique175/251; sciencefalse; no credit.",
         "2026-10-31T07:32:00+08:00: cycle5 #95 v4 VERIFIED at fixed archive 0090a021f6e578d17e9dac204e12b1691b5468a8; non-truncated 2265-entry tree, exact four assets and manifests597/596/587 matched; batch5/6 next6; unique175/251; sciencefalse; lease released.",
         "2026-10-31T07:34:00+08:00: cycle6 #96 Aegolius ridgwayi v4 STARTED/RESEARCH_READY; v3 actual image opened, only number96 absent; Aguirre Alas & Cardoza 2016 pp3–5 and ITIS TSN686697 actively read; source index new2/reused4/corrected1; lease acquired; no credit.",
-        "2026-10-31T07:37:00+08:00: cycle6 #96 v4 IMAGE_GENERATED after 101.4s and REVIEWED edit0; full 1536x1024 plate and 620x730 crop opened. Number/title/count, adult amber eyes/plain buff bodies/near-equal scale, age-unknown older fluffy juvenile short down-covered wing/concealed tail/belly+two-foot branch support pass; PASS_WITH_LIMITATIONS; sciencefalse. First review persistence call was cancelled before ref update; main confirmed unchanged and retry reused saved assets; no credit."
+        "2026-10-31T07:37:00+08:00: cycle6 #96 v4 IMAGE_GENERATED after 101.4s and REVIEWED edit0; full 1536x1024 plate and 620x730 crop opened. Number/title/count, adult amber eyes/plain buff bodies/near-equal scale, age-unknown older fluffy juvenile short down-covered wing/concealed tail/belly+two-foot branch support pass; PASS_WITH_LIMITATIONS; sciencefalse. First review persistence call was cancelled before ref update; main confirmed unchanged and retry reused saved assets; no credit.",
+        "2026-10-31T08:29:00+08:00: expired 07:52 lease recovered after confirming main unchanged at d38d2566fee4d5a05653e2be6f0de684c747140b; cycle6 #96 v4 reused persisted REVIEWED assets and was not regenerated.",
+        "2026-10-31T08:29:00+08:00: cycle6 #96 v4 ARCHIVED tree prepared; concept/generated/reviewed/crop plus manifests 598/597/588 and research/run/knowledge/workflow/status records included; fixed readback pending; unique175/251; sciencefalse; no credit."
       ],
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T073400+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T07:37:00+08:00",
-        "expires_at": "2026-10-31T07:52:00+08:00"
+        "heartbeat_at": "2026-10-31T08:29:00+08:00",
+        "expires_at": "2026-10-31T08:44:00+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T073400+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T07:37:00+08:00",
-        "expires_at": "2026-10-31T07:52:00+08:00"
+        "heartbeat_at": "2026-10-31T08:29:00+08:00",
+        "expires_at": "2026-10-31T08:44:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -9103,7 +9112,7 @@
         "version": 4,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T073400+0800-cycle-6",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261031T073400+0800-cycle-6.md"
       }
     }
@@ -9111,8 +9120,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261031T073400+0800-cycle-6",
-    "heartbeat_at": "2026-10-31T07:37:00+08:00",
-    "expires_at": "2026-10-31T07:52:00+08:00"
+    "heartbeat_at": "2026-10-31T08:29:00+08:00",
+    "expires_at": "2026-10-31T08:44:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9245,7 +9254,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T07:37:00+08:00",
+  "updated_at": "2026-10-31T08:29:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9257,10 +9266,10 @@
   "active_lease": {
     "owner": "codex-production",
     "run_id": "20261031T073400+0800-cycle-6",
-    "heartbeat_at": "2026-10-31T07:37:00+08:00",
-    "expires_at": "2026-10-31T07:52:00+08:00"
+    "heartbeat_at": "2026-10-31T08:29:00+08:00",
+    "expires_at": "2026-10-31T08:44:00+08:00"
   },
-  "last_updated_at": "2026-10-31T07:37:00+08:00",
+  "last_updated_at": "2026-10-31T08:29:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9507,7 +9516,8 @@
     "2026-10-30T20:39:00+08:00 expired stale top-level #55 STARTED lease reconciled against verified close commit c24b97a; new batch created. #56 skipped as duplicate of canonical #14; cycle1 #57 v4 STARTED.",
     "2026-10-30T22:32:49+08:00: batch 2026-10-30T2158+0800 cycle1 #63 VERIFIED at f5df81e3a148f2d1d41fa825b44a4d4d91785018; next_cycle2; lease released.",
     "2026-10-30T22:39:40+08:00: batch 2026-10-30T2158+0800 cycle2 #64 VERIFIED at a3d83ba194b6432a66c53611ee0b3355e0751ffd; next_cycle3; lease released.",
-    "2026-10-31T06:36:00+08:00: expired orphan top-level #83 STARTED fields reconciled against completed batch; new batch 2026-10-31T0635+0800 cycle1 #90 v5 began."
+    "2026-10-31T06:36:00+08:00: expired orphan top-level #83 STARTED fields reconciled against completed batch; new batch 2026-10-31T0635+0800 cycle1 #90 v5 began.",
+    "2026-10-31T08:29:00+08:00: recovered expired #96 cycle6 lease after unchanged-head check; advanced existing REVIEWED stage to ARCHIVED without regeneration."
   ],
   "audit_trail": [
     {
@@ -9716,26 +9726,33 @@
     "version": 4,
     "action": "SCIENCE_REVISION",
     "run_id": "20261031T073400+0800-cycle-6",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261031T073400+0800-cycle-6.md"
   },
   "last_checkpoint": {
     "cycle": 6,
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "species": "Aegolius ridgwayi",
     "species_id": 96,
     "version": 4,
     "run_id": "20261031T073400+0800-cycle-6",
-    "at": "2026-10-31T07:37:00+08:00",
+    "at": "2026-10-31T08:29:00+08:00",
     "run_record": "owl-pet/production/runs/20261031T073400+0800-cycle-6.md",
     "evidence": {
+      "recovery": "Expired 07:52 lease recovered after confirming main remained d38d2566fee4d5a05653e2be6f0de684c747140b; existing REVIEWED assets reused without regeneration.",
+      "concept_path": "owl-pet/design/concepts/96-aegolius-ridgwayi-v4.png",
+      "concept_blob": "393213711db7df9fa217592b556cbb73a9e6f2be",
       "generated_path": "owl-pet/production/generated/96-aegolius-ridgwayi-v4-generated-master.png",
       "reviewed_path": "owl-pet/production/reviewed/96-aegolius-ridgwayi-v4-reviewed-master.png",
       "crop_path": "owl-pet/production/review-crops/96-aegolius-ridgwayi-v4-juvenile.png",
       "image_sha256": "cd8fd3b6be45ffcdccd99b655fd7dfd6d963000b98312ce83cdde45080802c89",
       "crop_sha256": "5655e04078cc62566821b68c29694d906eeae06dccc0190f2c1a33992f4e906d",
-      "review": "PASS_WITH_LIMITATIONS",
-      "edit_count": 0,
+      "manifest_counts": {
+        "legacy": 598,
+        "design": 597,
+        "production": 588
+      },
+      "readback_pending": true,
       "science": false
     }
   }

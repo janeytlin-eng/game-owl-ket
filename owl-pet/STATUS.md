@@ -2836,3 +2836,8 @@ Verification 2026-10-31T07:22:00+08:00: fixed archive [`e921879e237f33dd981f5282
 SCIENCE_REVISION PASS_WITH_LIMITATIONS; number95 restored; age-unknown recent fledgling/fork support retained; edit0; sciencefalse; unique175/251. [Concept](design/concepts/95-pulsatrix-melanota-v4.png) · [Research](research/species/95-pulsatrix-melanota-v4.md). Archive prepared at 2026-10-31T07:30:00+08:00.
 
 Verification 2026-10-31T07:32:00+08:00: fixed archive [`0090a021f6e578d17e9dac204e12b1691b5468a8`](https://github.com/janeytlin-eng/game-owl-ket/commit/0090a021f6e578d17e9dac204e12b1691b5468a8) passed exact four-asset readback; tree2265 non-truncated; manifests597/596/587. Batch5/6 next6; unique175/251; sciencefalse.
+
+
+### 2026-10-31 #96 *Aegolius ridgwayi* v4
+
+SCIENCE_REVISION PASS_WITH_LIMITATIONS; number96 restored; age-unknown older fluffy juvenile and branch support retained; edit0; sciencefalse; unique175/251. Expired lease recovered after unchanged-head check. [Concept](design/concepts/96-aegolius-ridgwayi-v4.png) · [Research](research/species/96-aegolius-ridgwayi-v4.md) · [Run](production/runs/20261031T073400+0800-cycle-6.md). Archive prepared at 2026-10-31T08:29:00+08:00; fixed readback pending.

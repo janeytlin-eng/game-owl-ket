@@ -18,3 +18,8 @@ Target: ../../design/concepts/96-aegolius-ridgwayi-v4.jpg
 - IMAGE_GENERATED 2026-10-31T07:36:00+08:00 after 101.4 s; title-only edit.
 - REVIEWED 2026-10-31T07:37:00+08:00; full 1536×1024 plate and 620×730 juvenile crop opened; edit count 0. First persistence call was cancelled before branch update; main was confirmed unchanged and saved assets were reused.
 - PASS_WITH_LIMITATIONS. Adults retain honey-amber eyes, narrow pale rims, plain buff abdomens and near-equal scale. Older fluffy juvenile retains tilted head, short high-ending down-covered wing, concealed tail and belly/two-foot branch support. Exact age/sex/flight threshold remain unknown; science=false.
+
+
+## ARCHIVED — 2026-10-31T08:29:00+08:00
+
+Expired lease recovered only after confirming main remained `d38d2566fee4d5a05653e2be6f0de684c747140b`. The full plate and juvenile crop were reopened; review result remains PASS_WITH_LIMITATIONS, edit0, science=false. Existing generated/reviewed blobs were reused; concept and manifests 598/597/588 were prepared for fixed readback.

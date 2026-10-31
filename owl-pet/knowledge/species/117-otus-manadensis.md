@@ -52,4 +52,4 @@ The first render still had a long layered juvenile wing plus repeated pale cover
 
 New2/reused3/corrected1. Concept/reviewed SHA-256 `08bc219671c9ee16f5fa4612dd53f1c8c6bf78c718b28e688ff1380b3d859d96`, 2,801,573 bytes; Git blob `c9de3bf522a89210ec8451bcb03cdc24a01ac362`. [Concept](../../design/concepts/117-otus-manadensis-v9.png) · [Research](../../research/species/117-otus-manadensis-v9.md) · [Run](../../production/runs/20261031T133747+0800-cycle-4.md)
 
-Fixed archive `f1acc3773f93e634ddfe472a2ede24e87ffdaedb` passed exact path/blob/size checks after rejecting truncated first archive `95faf86d8ef66575de1e8c412e97925d6483b26a`. Science remains false.
+Fixed archive `a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012` is the first immutable commit with full image assets plus all three complete parseable manifests; exact image path/blob/size checks pass. The first archive `95faf86d…` had a truncated image, and `f1acc377…` restored images but still had truncated large manifest bodies. Evidence correction adds no cycle credit. Science remains false.

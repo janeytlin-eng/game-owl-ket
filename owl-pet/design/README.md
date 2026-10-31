@@ -1,7 +1,7 @@
 ## #117 Sulawesi Scops-Owl — *Otus manadensis* — v9 VERIFIED archive recovery
 
-- Original: [117-otus-manadensis-v9.png](https://github.com/janeytlin-eng/game-owl-ket/blob/f1acc3773f93e634ddfe472a2ede24e87ffdaedb/owl-pet/design/concepts/117-otus-manadensis-v9.png?raw=1)
-- Fixed archive: [f1acc3773f93e634ddfe472a2ede24e87ffdaedb](https://github.com/janeytlin-eng/game-owl-ket/commit/f1acc3773f93e634ddfe472a2ede24e87ffdaedb)
+- Original: [117-otus-manadensis-v9.png](https://github.com/janeytlin-eng/game-owl-ket/blob/a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012/owl-pet/design/concepts/117-otus-manadensis-v9.png?raw=1)
+- Fixed archive: [a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012](https://github.com/janeytlin-eng/game-owl-ket/commit/a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012) — first commit with full image assets and complete parseable manifest bodies; prior `f1acc377…` restored the images but carried truncated manifests.
 - Research: [117-otus-manadensis-v9.md](../research/species/117-otus-manadensis-v9.md)
 - Run: [20261031T133747+0800-cycle-4.md](../production/runs/20261031T133747+0800-cycle-4.md)
 - `PASS_WITH_LIMITATIONS`; edit count 2; science false; unique175/251. V8 remains preserved as a viewer-invalid archive mismatch; v7 was the intact edit baseline. The first v9 archive was also rejected as truncated; repaired archive path/blob/size readback passed.

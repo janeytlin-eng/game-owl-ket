@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T05:52:00Z",
+  "updated": "2026-10-31T06:31:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14423,12 +14423,12 @@
       "readback_pending": false,
       "git_blob": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
       "exact_readback": true,
-      "fixed_archive_commit": "f1acc3773f93e634ddfe472a2ede24e87ffdaedb",
-      "verified_at": "2026-10-31T05:52:00Z",
+      "fixed_archive_commit": "a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012",
+      "verified_at": "2026-10-31T06:31:00Z",
       "readback": {
         "status": "VERIFIED",
-        "fixed_archive_commit": "f1acc3773f93e634ddfe472a2ede24e87ffdaedb",
-        "method": "commit-pinned GitHub commit read plus non-truncated local Git commit-tree path/blob/size verification",
+        "fixed_archive_commit": "a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012",
+        "method": "current-main a1013f24 commit-tree path/blob/size verification after full manifest-body repair",
         "assets": {
           "concept": {
             "path": "owl-pet/design/concepts/117-otus-manadensis-v9.png",
@@ -14483,9 +14483,11 @@
           "observed_size": 49152,
           "credited": false
         },
-        "science": false
+        "science": false,
+        "manifest_body_repair_commit": "a1013f24c15a0c30ab75aeb2e4b3f5c1f1a33012",
+        "manifest_json_valid_at_fixed_commit": true
       }
     }
   ],
-  "updated_at": "2026-10-31T05:52:00Z"
+  "updated_at": "2026-10-31T06:31:00Z"
 }

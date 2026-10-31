@@ -11485,7 +11485,7 @@
     },
     {
       "batch_id": "20261101T015000+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -11527,56 +11527,37 @@
           "run_record": "owl-pet/production/runs/20261101T0255+0800-cycle-5.md",
           "action": "SCIENCE_REVISION",
           "version": 2
+        },
+        {
+          "cycle": 6,
+          "species": "Glaucidium palmarum",
+          "commit_sha": "655916b02c064bdb110f9b2149dcdbff2c82c824",
+          "run_record": "owl-pet/production/runs/20261101T0330+0800-cycle-6.md",
+          "action": "SCIENCE_REVISION",
+          "version": 2
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "20261101T0330+0800-cycle-6",
-        "heartbeat_at": "2026-11-01T03:55:00+08:00",
-        "expires_at": "2026-11-01T04:10:00+08:00"
-      },
+      "next_cycle": null,
+      "active_lease": null,
       "lease": null,
-      "in_progress": {
-        "cycle": 6,
-        "species": "Glaucidium palmarum",
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261101T0330+0800-cycle-6",
-        "stage": "ARCHIVED",
-        "stage_evidence": {
-          "concept": "owl-pet/design/concepts/171-glaucidium-palmarum-v2.png",
-          "generated": "owl-pet/production/generated/171-glaucidium-palmarum-v2-edit1.png",
-          "reviewed": "owl-pet/production/reviewed/171-glaucidium-palmarum-v2-reviewed-master.png",
-          "crops": [
-            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-juvenile.png",
-            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-adult-pattern-feet.png"
-          ],
-          "manifest_counts": {
-            "design_image": 639,
-            "design_legacy": 640,
-            "production": 630
-          },
-          "unique_species": "175/251",
-          "revision_increment": 1,
-          "readback_pending": true
-        }
-      },
+      "in_progress": null,
       "last_checkpoint": {
         "cycle": 6,
         "run_id": "20261101T0330+0800-cycle-6",
         "species": "Glaucidium palmarum",
-        "stage": "ARCHIVED",
-        "at": "2026-11-01T03:55:00+08:00",
-        "credited_cycle": false,
+        "stage": "VERIFIED",
+        "at": "2026-11-01T04:00:00+08:00",
+        "credited_cycle": true,
         "evidence": {
-          "concept": "owl-pet/design/concepts/171-glaucidium-palmarum-v2.png",
-          "generated": "owl-pet/production/generated/171-glaucidium-palmarum-v2-edit1.png",
-          "reviewed": "owl-pet/production/reviewed/171-glaucidium-palmarum-v2-reviewed-master.png",
-          "crops": [
-            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-juvenile.png",
-            "owl-pet/production/review-crops/171-glaucidium-palmarum-v2-adult-pattern-feet.png"
-          ],
+          "archive_commit": "655916b02c064bdb110f9b2149dcdbff2c82c824",
+          "tree_sha": "70fb758369670e91ab44a57191f14f1b6315459f",
+          "recursive_tree_truncated": false,
+          "paths_verified": 8,
+          "binary_assets_verified": 6,
+          "master_blob": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+          "initial_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
+          "juvenile_crop_blob": "529e7744053816ba49949550150ba187042cbbe6",
+          "adult_crop_blob": "81a86ca3bb99fa4758415b096f8856ccc2b39aac",
           "manifest_counts": {
             "design_image": 639,
             "design_legacy": 640,
@@ -11584,11 +11565,11 @@
           },
           "unique_species": "175/251",
           "revision_increment": 1,
-          "readback_pending": true
+          "connector_full_binary_stream_readback": false
         }
       },
-      "last_stage": "ARCHIVED",
-      "updated_at": "2026-11-01T03:55:00+08:00",
+      "last_stage": "VERIFIED",
+      "updated_at": "2026-11-01T04:00:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12261,8 +12242,36 @@
             "revision_increment": 1,
             "readback_pending": true
           }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261101T0330+0800-cycle-6",
+          "species": "Glaucidium palmarum",
+          "stage": "VERIFIED",
+          "at": "2026-11-01T04:00:00+08:00",
+          "credited_cycle": true,
+          "evidence": {
+            "archive_commit": "655916b02c064bdb110f9b2149dcdbff2c82c824",
+            "tree_sha": "70fb758369670e91ab44a57191f14f1b6315459f",
+            "recursive_tree_truncated": false,
+            "paths_verified": 8,
+            "binary_assets_verified": 6,
+            "master_blob": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+            "initial_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
+            "juvenile_crop_blob": "529e7744053816ba49949550150ba187042cbbe6",
+            "adult_crop_blob": "81a86ca3bb99fa4758415b096f8856ccc2b39aac",
+            "manifest_counts": {
+              "design_image": 639,
+              "design_legacy": 640,
+              "production": 630
+            },
+            "unique_species": "175/251",
+            "revision_increment": 1,
+            "connector_full_binary_stream_readback": false
+          }
         }
-      ]
+      ],
+      "completed_at": "2026-11-01T04:00:00+08:00"
     }
   ],
   "lease": null,

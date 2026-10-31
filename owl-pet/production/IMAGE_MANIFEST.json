@@ -16790,7 +16790,69 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "171-glaucidium-palmarum-v2",
+      "path": "design/concepts/171-glaucidium-palmarum-v2.png",
+      "species_id": 171,
+      "scientific_name": "Glaucidium palmarum",
+      "historical_names": [
+        "Glaucidium minutissimum palmarum",
+        "Glaucidium palmarum oberholseri",
+        "Glaucidium palmarum griscomi"
+      ],
+      "common_name": "Colima Pygmy-Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 full-resolution evidence correction. Howell & Robbins 1995 and Buchanan 1964 constrain the pale greyish-tawny western-Mexican adult with extensive fine head spots, no bold white scapular patches and six/seven pale tail bars. Unlike #170, the sexes are not dichromatic; the female is only subtly fuller under measured wing/tail direction. The age-unknown mesoptile has an unspotted grey crown/nape, sparse forehead flecks and, after edit1, a short soft rounded wing with diffuse irregular marks plus a short concealed supported tail. The 2022 cavity survey is habitat/resource evidence, not an occupied nest. Full plate and two crops passed after one targeted edit. PASS_WITH_LIMITATIONS; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "CPO-HOWELL-ROBBINS-1995-P17-20",
+        "CPO-BUCHANAN-1964-P104-106",
+        "CPO-MEDINA-ETAL-2022-P8-9",
+        "CPO-MIKKOLA-2013-P385-386",
+        "CPO-BITRAN-2018-JUV"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-01--171-glaucidium-palmarum-v2-evidence-refresh",
+      "research_record": "research/species/171-glaucidium-palmarum-v2.md",
+      "run_record": "production/runs/20261101T0330+0800-cycle-6.md",
+      "reviewed_at": "2026-11-01T03:50:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "c871e07112ebde97fe5e04bc74a38694cefc8501c1496c47cf1d45013e1c0867",
+      "size_bytes": 2680062,
+      "initial_generated_path": "production/generated/171-glaucidium-palmarum-v2-generated-master.png",
+      "initial_generated_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
+      "initial_generated_sha256": "85f33a2b14392733c7c37dc7b025587937e443805fe2f6c37a39c2cde3783f12",
+      "generated_path": "production/generated/171-glaucidium-palmarum-v2-edit1.png",
+      "generated_blob": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+      "generated_sha256": "c871e07112ebde97fe5e04bc74a38694cefc8501c1496c47cf1d45013e1c0867",
+      "generated_size_bytes": 2680062,
+      "reviewed_path": "production/reviewed/171-glaucidium-palmarum-v2-reviewed-master.png",
+      "reviewed_blob": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+      "reviewed_sha256": "c871e07112ebde97fe5e04bc74a38694cefc8501c1496c47cf1d45013e1c0867",
+      "reviewed_size_bytes": 2680062,
+      "review_crop_path": "production/review-crops/171-glaucidium-palmarum-v2-juvenile.png",
+      "review_crop_blob": "529e7744053816ba49949550150ba187042cbbe6",
+      "review_crop_sha256": "c771a71446b40e0d8f59794c351e1f8e2bebe171a24f09f26a9ef3bf97d90b5e",
+      "review_crop_size_bytes": 449500,
+      "auxiliary_review_crop_path": "production/review-crops/171-glaucidium-palmarum-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "81a86ca3bb99fa4758415b096f8856ccc2b39aac",
+      "auxiliary_review_crop_sha256": "c0772e3ee9dcf4d0eccd02696b87593d42a661cd53bb420db8055c61ed5007db",
+      "auxiliary_review_crop_size_bytes": 1606776,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "6735485a879a2d7a0e1590039320e1a90953a9d6",
+      "v1_integrity": {
+        "git_blob": "9992a410ae54cf579090267f6ebc9bbfa8f76e97",
+        "size_bytes": 642816,
+        "sha256": "43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34",
+        "archive_commit": "d00da082eb0608152951a1e0acefe1e67ff5fff1"
+      }
     }
   ],
-  "updated_at": "2026-11-01T03:25:00+08:00"
+  "updated_at": "2026-11-01T03:55:00+08:00"
 }

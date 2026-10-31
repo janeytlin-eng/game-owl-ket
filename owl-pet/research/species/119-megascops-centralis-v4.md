@@ -63,3 +63,5 @@ Open the complete v4 image at original resolution, then inspect a center-juvenil
 ## Archive checkpoint
 
 ARCHIVED at 2026-10-31T14:41:04+08:00 with concept/generated/reviewed master plus juvenile and feet/sill crops. Manifest counts are legacy 609, design 608 and production 599. Fixed-commit readback is pending; this stage alone earns no cycle credit.
+
+VERIFIED at 2026-10-31T14:44:37+08:00. Fixed archive `d206093f1bdc0044ec854b0740ac0b41b8efb744` was fetched through the connected repository and immutable `origin/main`; exact five path/blob/size tuples matched, all three complete raw manifests parsed at counts 609/608/599, and supporting records were present. Cycle 5 is credited; science remains false.

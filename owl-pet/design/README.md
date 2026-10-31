@@ -1,7 +1,7 @@
-## #119 Choco Screech-Owl — *Megascops centralis* — v4 science revision
+## #119 Choco Screech-Owl — *Megascops centralis* — v4 VERIFIED
 
-- [Original concept](concepts/119-megascops-centralis-v4.png) · [research](../research/species/119-megascops-centralis-v4.md) · [run](../production/runs/20261031T143516+0800-cycle-5.md)
-- ARCHIVED; fixed readback pending; `PASS_WITH_LIMITATIONS`; science false; unique175/251.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/d206093f1bdc0044ec854b0740ac0b41b8efb744/owl-pet/design/concepts/119-megascops-centralis-v4.png?raw=1) · [fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/d206093f1bdc0044ec854b0740ac0b41b8efb744) · [research](../research/species/119-megascops-centralis-v4.md) · [run](../production/runs/20261031T143516+0800-cycle-5.md)
+- VERIFIED; exact five image tuples and complete manifests 609/608/599 read back; `PASS_WITH_LIMITATIONS`; science false; unique175/251; batch5/6 next6.
 - V4 keeps the primary-study-supported formed barred remiges but shortens the visible folded-wing silhouette above the feet/sill, embeds it in gray mesoptile, hides the tail and retains bilateral cavity support. Adults remain near-equal because sex-size difference is unknown.
 
 ### Separate “formed” from “adult-proportioned”

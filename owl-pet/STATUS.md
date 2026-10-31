@@ -1,8 +1,8 @@
-## 2026-10-31 #119 *Megascops centralis* v4 ARCHIVED — fixed readback pending
+## 2026-10-31 #119 *Megascops centralis* v4 VERIFIED
 
 - V3 was opened and found to retain a long adult-like folded juvenile wing near the feet despite its written boundary. V4 retains documented formed barred remiges but compacts the visible wing above both feet and the cavity sill; tail remains nonprojecting and bilateral support is clear.
 - Reyes & Astudillo-Sánchez 2017 pp.377–381, Mikkola printed pp.242–243 / PDF pp.244–245 and ITIS TSN 1063250 were actually read. New2/reused2+/corrected1; old name *M. guatemalae centralis* mapped to current *M. centralis*.
-- Full frame and two crops opened; first edit `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**. Manifests 609/608/599; fixed archive readback pending. [Original](design/concepts/119-megascops-centralis-v4.png) · [Research](research/species/119-megascops-centralis-v4.md) · [Run](production/runs/20261031T143516+0800-cycle-5.md)
+- Full frame and two crops opened; first edit `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**. Fixed archive `d206093f1bdc0044ec854b0740ac0b41b8efb744` returned exact five image path/blob/size tuples and complete parseable manifests 609/608/599. Batch 5/6, next cycle 6. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/d206093f1bdc0044ec854b0740ac0b41b8efb744/owl-pet/design/concepts/119-megascops-centralis-v4.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/d206093f1bdc0044ec854b0740ac0b41b8efb744) · [Research](research/species/119-megascops-centralis-v4.md) · [Run](production/runs/20261031T143516+0800-cycle-5.md)
 
 ## 2026-10-31 #117 *Otus manadensis* v9 VERIFIED
 

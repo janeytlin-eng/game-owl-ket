@@ -15219,9 +15219,51 @@
       "auxiliary_review_crop_blob": "59a52acd72044590944a2c65ab3356da12a24bbd",
       "auxiliary_review_crop_sha256": "5534734d907f271d756564850c1ce713fcc6537b6ded8fef9050969fa66aa328",
       "auxiliary_review_crop_size_bytes": 295624,
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "git_blob": "7fe20b04fd3b62c02ae5d571c222e1beca6df026",
+      "exact_readback": true,
+      "fixed_archive_commit": "d206093f1bdc0044ec854b0740ac0b41b8efb744",
+      "verified_at": "2026-10-31T06:44:37Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "d206093f1bdc0044ec854b0740ac0b41b8efb744",
+        "method": "connector commit fetch plus local git fetch of immutable origin/main; exact path/blob/size tuples and full raw JSON parsing",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/119-megascops-centralis-v4.png",
+            "sha": "7fe20b04fd3b62c02ae5d571c222e1beca6df026",
+            "size": 3131939
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/119-megascops-centralis-v4-generated-master.png",
+            "sha": "7fe20b04fd3b62c02ae5d571c222e1beca6df026",
+            "size": 3131939
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/119-megascops-centralis-v4-reviewed-master.png",
+            "sha": "7fe20b04fd3b62c02ae5d571c222e1beca6df026",
+            "size": 3131939
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/119-megascops-centralis-v4-juvenile.png",
+            "sha": "4a4e5526220de502a65065dcb5c1a3c392ffc2c8",
+            "size": 683001
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/119-megascops-centralis-v4-feet.png",
+            "sha": "59a52acd72044590944a2c65ab3356da12a24bbd",
+            "size": 295624
+          }
+        },
+        "manifest_counts": {
+          "legacy": 609,
+          "design": 608,
+          "production": 599
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T06:41:04Z"
+  "updated_at": "2026-10-31T06:44:37Z"
 }

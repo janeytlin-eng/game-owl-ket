@@ -9546,9 +9546,34 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261031T183900+0800-cycle-6",
+        "batch_id": "2026-10-31T1502+0800",
+        "cycle": 6,
+        "heartbeat_at": "2026-10-31T18:39:00+08:00",
+        "expires_at": "2026-10-31T18:54:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "20261031T183900+0800-cycle-6",
+        "batch_id": "2026-10-31T1502+0800",
+        "cycle": 6,
+        "heartbeat_at": "2026-10-31T18:39:00+08:00",
+        "expires_at": "2026-10-31T18:54:00+08:00"
+      },
+      "in_progress": {
+        "batch_id": "2026-10-31T1502+0800",
+        "cycle": 6,
+        "run_id": "20261031T183900+0800-cycle-6",
+        "species": "Strix davidi",
+        "species_id": 132,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261031T183900+0800-cycle-6.md",
+        "at": "2026-10-31T18:39:00+08:00"
+      },
       "previous_checkpoint": {
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 4,

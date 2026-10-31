@@ -28,3 +28,7 @@ Text (verbatim): "99 · LESSER HORNED OWL · Bubo magellanicus"
 Composition/framing: retain the existing centered top title and all three birds.
 Constraints: change only the title line by adding "99 · " before "LESSER HORNED OWL"; preserve the adult male, approximately one-week chick, adult female, their anatomy, plumage, scale, poses, feet, documented exceptional balcony setting, dry plant support, lighting, labels, image dimensions and photographic style unchanged; exactly three birds; no new biological claims.
 Avoid: no repainting of birds, no color shift, no altered eyes or bill, no changed ear tufts, no mature wing or tail on chick, no unsupported universal female-larger exaggeration, no crop, no watermark, no extra text.
+
+## Actual image review — 2026-10-31T10:03:00+08:00
+
+The 1536×1024 v4 master and 560×680 chick crop were opened. Exact number/title and three labels pass. Adults retain the documented yellow eyes, blue-gray bills, narrow tufts, throat/barring pattern and feathered toes, while remaining near equal in skeletal height. The approximately one-week chick has open eyes, a tiny egg tooth, gray-white down, short down-covered wing buds, no mature wing/tail and full dry-substrate support. No edit was needed. Result: **PASS_WITH_LIMITATIONS**, scientifically_verified=false.

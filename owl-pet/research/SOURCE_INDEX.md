@@ -1698,3 +1698,30 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Status:** original page/PDF was not directly retrievable in this run; not counted as read morphology evidence.
 
 **Mapping / delta — #149 v2:** current *Ninox odiosa* / historical common names Russet Hawk-Owl, New Britain Hawk-Owl and Spangled Boobook. New2 / reused1 / corrected2 (v1 archive integrity and adult pattern boundary) / unverified lead1. The archived v1 blob is a 786,445-byte PNG with an `IDAT invalid distance code` decode failure and a SHA mismatch against its manifest; it is preserved but not used as a visual source. No species-specific juvenile sequence or sex-size direction was found; science=false. [Species research](species/149-ninox-odiosa-v2.md) · [Run](../production/runs/20261101T004159+0800-cycle-3.md).
+
+## 2026-11-01 — #150 *Ninox variegata* v2 evidence refresh
+
+### NIBO-MNHN-SYNTYPE-2010-279
+- **Institution / type:** Muséum national d'Histoire naturelle, Paris; authoritative type-specimen database record.
+- **URL / access:** https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-279 ; full record and image links read 2026-11-01; no page number.
+- **Species / stage:** syntype MNHN-ZO-2010-279, initial name *Noctua variegata*, New Ireland/Lamassa Bay, Astrolabe expedition, July 1827. Sex and age are explicitly indeterminate.
+- **Facts / limits / design:** anchors the current-old-name mapping, type provenance and a real preserved specimen. Eight views are available, but preservation can alter colour and the specimen cannot establish sex or juvenile appearance. Use only as an adult pattern/structure comparator.
+
+### NIBO-COMMONS-MNHN-SYNTYPE3-2026
+- **Title / creator / type:** “MNHN-ZO-2010-279 ... Syntype 3”; Muséum national d'histoire naturelle; direct specimen photograph, 3925×2023, CC BY-SA 4.0.
+- **URL / access:** https://commons.wikimedia.org/wiki/File:MNHN-ZO-2010-279_Noctua_variegata_Quoy_%26_Gaimard,_1830_Syntype_3.jpg ; metadata and displayed pixels read 2026-11-01.
+- **Facts / limits / design:** visible physical reference for barred scapular/wing direction, compact form and dark rufous-brown identity. Preserved, unsexed and age-indeterminate; not a living soft-part colour, sex-ratio or development source.
+
+### NIBO-AVIBASE-2026 (reused; content expanded)
+- **Institution / type / URL:** Birds Canada / Avibase; taxonomic crosswalk plus secondary adult summary; https://avibase.bsc-eoc.org/species.jsp?avibaseid=9564C8049624F8B9&lang=EN ; read 2026-11-01.
+- **Pages / facts:** online account, no page number. Maps current *Ninox variegata* to protonym *Noctua variegata*, Voy. Astrolabe Zool. 1 p.166, Atlas pl.1 fig.2; adult 25–30 cm, short-tailed/heavy-tarsed, dark rufous-brown above with barred scapulars, variable wing/tail marks, dark face, plain pale throat, barred upper breast/lower underparts, brown or yellow eyes and yellow bill/legs.
+- **Limits / design:** morphology paragraph is explicitly Wikipedia-derived; cross-check with the type specimen and do not turn variable iris colour into a single universal rule.
+
+### NIBO-ITIS-555490 (reused)
+- **Institution / type / URL:** ITIS valid-name record; https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555490 ; read 2026-11-01.
+- **Facts / limits:** valid *Ninox variegata*, synonym *Noctua variegata*; IOC note for English name New Ireland Boobook. Taxonomy only, not morphology/development.
+
+### NIBO-QUOY-GAIMARD-1830-LEAD (unverified)
+- Original-description lead: Voy. Astrolabe Zool. 1 pp.166–167 / Atlas Ois. pl.1 fig.2, BHL item 18512 page 224. BHL returned 403 in this run; retained as a lead and not treated as directly read evidence.
+
+**Mapping / delta — #150 v2:** current *Ninox variegata* / protonym *Noctua variegata*; historical English names Bismarck Hawk-Owl, Bismarck Boobook and Barred Boobook. New2 / reused2 / corrected2 / unverified lead1. Active searches found no reliable species-specific juvenile development or quantified sex-size direction. The exported v1 differs from its archived byte/SHA record, so v1 is preserved but excluded as an ImageGen source. Exact juvenile age, iris sequence, flight ability, complete feather chronology and nest details remain unknown; science=false. [Species research](species/150-ninox-variegata-v2.md) · [Run](../production/runs/20261101T005100+0800-cycle-4.md).

@@ -2849,3 +2849,8 @@ Verification 2026-10-31T08:31:00+08:00: #96 v4 fixed archive [`f9067ba45ed7247f4
 ## 2026-10-31 — #97 *Lophostrix cristata* v4 archived, verification pending
 
 Numbered v4 concept and review assets are archived with the corrected evidence boundary. The official erratum excludes Rocha & López-Baucells (2014) from this species because the bird was *Strix virgata*. Review is PASS_WITH_LIMITATIONS; scientific verification remains false. Unique coverage stays 175/251.
+
+
+### #97 v4 verified — 2026-10-31T09:50:00+08:00
+
+Fixed archive commit `5bf9954420a769fc4281da8d8c34a0d4a98b66d4` passed a non-truncated 2277-entry recursive-tree readback for exact concept, generated, reviewed and crop path/blob/size tuples plus all three manifests and support records. Batch 2026-10-31T0927+0800 is 1/6; next cycle 2. Unique species remain 175/251; scientific verification remains false.

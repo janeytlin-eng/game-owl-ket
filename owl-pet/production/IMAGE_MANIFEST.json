@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T09:47:00+08:00",
+  "updated": "2026-10-31T09:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13599,11 +13599,56 @@
       "review_crop_blob": "3255f8677639047479e72019c39b53c464cf0729",
       "review_crop_sha256": "d68b54047cdba3b4b6314b0c527b2a806018bb158c0ebc661359a2a634f07418",
       "review_crop_size_bytes": 789485,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "a84d4b54affa3b195e49f71cfd52aaecee1909a5",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "5bf9954420a769fc4281da8d8c34a0d4a98b66d4",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T09:50:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "5bf9954420a769fc4281da8d8c34a0d4a98b66d4",
+        "method": "fixed recursive tree exact path/blob/size readback",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/97-lophostrix-cristata-v4.png",
+            "sha": "a84d4b54affa3b195e49f71cfd52aaecee1909a5",
+            "size": 2916540
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/97-lophostrix-cristata-v4-generated-master.png",
+            "sha": "a84d4b54affa3b195e49f71cfd52aaecee1909a5",
+            "size": 2916540
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/97-lophostrix-cristata-v4-reviewed-master.png",
+            "sha": "a84d4b54affa3b195e49f71cfd52aaecee1909a5",
+            "size": 2916540
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/97-lophostrix-cristata-v4-juvenile.png",
+            "sha": "3255f8677639047479e72019c39b53c464cf0729",
+            "size": 789485
+          }
+        },
+        "manifest_counts": {
+          "legacy": 599,
+          "design": 598,
+          "production": 589
+        },
+        "tree": {
+          "entries": 2277,
+          "truncated": false
+        },
+        "support_records": [
+          "owl-pet/research/SOURCE_INDEX.md",
+          "owl-pet/research/species/97-lophostrix-cristata-v4.md",
+          "owl-pet/production/runs/20261031T092700+0800-cycle-1.md",
+          "owl-pet/knowledge/DESIGN_WORKFLOW.md",
+          "owl-pet/STATUS.md"
+        ],
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T09:47:00+08:00"
+  "updated_at": "2026-10-31T09:50:00+08:00"
 }

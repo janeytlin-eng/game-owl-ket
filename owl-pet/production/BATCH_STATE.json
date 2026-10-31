@@ -3099,14 +3099,7 @@
         }
       ],
       "next_cycle": null,
-      "active_lease": {
-        "owner": "codex-work-20261029T2055+0800",
-        "run_id": "20261029T2055+0800-cycle-2",
-        "cycle": 2,
-        "species_id": 143,
-        "heartbeat_at": "2026-10-29T20:57:00+08:00",
-        "expires_at": "2026-10-29T21:12:00+08:00"
-      },
+      "active_lease": null,
       "checkpoint": {
         "cycle": 6,
         "stage": "VERIFIED",
@@ -11704,7 +11697,7 @@
       "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:45:00+08:00",
+  "last_updated": "2026-10-31T18:45:19+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -11753,6 +11746,21 @@
         "expires_at": "2026-10-25T02:52:00+08:00"
       },
       "reason": "batch already COMPLETE 6/6; lease expired 2026-10-25 and no in_progress record; no production credit added"
+    },
+    {
+      "at": "2026-10-31T18:45:19+08:00",
+      "event": "completed_batch_stale_field_cleared",
+      "batch_id": "2026-10-26T0331+0800",
+      "field": "active_lease",
+      "old_value": {
+        "owner": "codex-work-20261029T2055+0800",
+        "run_id": "20261029T2055+0800-cycle-2",
+        "cycle": 2,
+        "species_id": 143,
+        "heartbeat_at": "2026-10-29T20:57:00+08:00",
+        "expires_at": "2026-10-29T21:12:00+08:00"
+      },
+      "reason": "batch already COMPLETE with target cycle count; expired/orphaned derived state only; no production credit or run record changed"
     }
   ]
 }

@@ -1602,3 +1602,25 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Status / use:** search snippet only; not counted as read evidence and not used for any scientific assertion. Retained solely as a future retrieval lead.
 
 **Mapping / delta — #144 v5:** current *Ninox spilocephala* / historical *Ninox philippensis spilocephala* → LZBO-RASMUSSEN-2012-LEAD for adult diagnosis and the narrow immature boundary; MINBOO-ITIS-2025 for name mapping; existing MINBOO-EBIRD-ID-2026 and MINBOO-AVIBASE-TAXON-2026 reused as secondary checks. New1 / reused3 / archive-integrity correction1 / unverified lead1. Exact immature age, iris chronology, flight ability, complete feather sequence, nest details and sex-size direction remain unknown; scientific verification remains false. [Species research](species/144-ninox-spilocephala-v5.md) · [Run](../production/runs/20261031T225200+0800-cycle-5.md).
+
+## 2026-10-31 — #146 *Ninox mindorensis* v2 evidence refresh
+
+### LZBO-RASMUSSEN-2012-LEAD (reused; *mindorensis* section refreshed)
+- **Title / authors / year / type:** Rasmussen et al., “Vocal Divergence and New Species in the Philippine Hawk Owl *Ninox philippensis* Complex”; 2012; primary museum/specimen, vocal and field-photo taxonomic study, *Forktail* 28:1–20.
+- **URL / pages / access:** https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ; complete PDF reopened 2026-10-31; printed p.13 diagnosis, p.17 relationships and p.18 habitat discussion read.
+- **Facts:** small adult with small bill, mostly feathered tarsi, small short white supercilia, pale-brown disk, short auricular filaments, broken fine head bars/speckling, large broken white scapular patches, finely barred dark-dominant wing coverts, especially narrow fine bars across variable tawny-buff underparts, mustard-yellow inner/lemon-yellow outer iris, pale dull-yellow greenish bill/cere and dull olive-yellow feet. Mindoro forest records include lowland Sablayan and Mt Halcon 1,150–1,250 m.
+- **Limits / design:** no species-specific juvenile diagnosis, exact age, iris chronology, locomotor threshold, full feather sequence or sex-size ratio. Adult identity is high confidence; the juvenile must be explicitly age unknown, softly bounded and fully supported.
+
+### MINDBOO-ITIS-2025
+- **Institution / type / URL / access:** ITIS standard report TSN 1063265; taxonomy aggregator; https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063265 ; opened 2026-10-31.
+- **Facts / use:** current valid *Ninox mindorensis* Ogilvie-Grant, 1896; synonym *Ninox philippensis mindorensis*. Name mapping only.
+
+### MINDBOO-CLEMENTS-2013
+- **Institution / type / URL / access:** Cornell/eBird Clements 2013 official checklist update; https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/overview-august-2013/updates-and-corrections-august-2013/ ; opened 2026-10-31.
+- **Facts / use:** follows the 2012 split; maps former *N. philippensis mindorensis* to Mindoro Boobook *N. mindorensis* and range Mindoro. Checklist crosswalk only, not juvenile morphology.
+
+### MINDBOO-OGILVIE-1896-LEAD (unverified)
+- **Record:** Ogilvie-Grant 1896, *Ibis* 7(2):457–477, p.463; BHL https://www.biodiversitylibrary.org/item/55020#page/519/mode/1up .
+- **Status:** BHL returned 403; not counted as directly read. Rasmussen's peer-reviewed paper quotes the adult comparison. No development claim is attributed to the inaccessible original.
+
+**Mapping / delta — #146 v2:** current *Ninox mindorensis* / historical *Ninox philippensis mindorensis* → LZBO-RASMUSSEN-2012-LEAD for adult diagnosis and habitat; MINDBOO-ITIS-2025 and MINDBOO-CLEMENTS-2013 for current/old-name mapping. New2 / reused1 / corrected1 / unverified lead1. Active searches found no reliable species-specific juvenile stage; exact juvenile age, iris, wing/tail sequence, locomotor ability, nest details and sex-size direction remain unknown; science=false. [Species research](species/146-ninox-mindorensis-v2.md) · [Run](../production/runs/20261031T234400+0800-cycle-6.md).

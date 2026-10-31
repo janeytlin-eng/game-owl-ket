@@ -10219,14 +10219,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261031T234400+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T23:44:00+08:00",
-        "expires_at": "2026-10-31T23:59:00+08:00"
+        "heartbeat_at": "2026-10-31T23:48:00+08:00",
+        "expires_at": "2026-11-01T00:03:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261031T234400+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T23:44:00+08:00",
-        "expires_at": "2026-10-31T23:59:00+08:00"
+        "heartbeat_at": "2026-10-31T23:48:00+08:00",
+        "expires_at": "2026-11-01T00:03:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -10237,7 +10237,7 @@
         "unique_species_increment": 0,
         "run_id": "20261031T234400+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261031T234400+0800-cycle-6.md",
-        "stage": "STARTED"
+        "stage": "RESEARCH_READY"
       },
       "last_checkpoint": {
         "batch_id": "20261031T2128+0800",
@@ -10300,8 +10300,8 @@
           "batch_complete": false
         }
       },
-      "last_stage": "STARTED",
-      "updated_at": "2026-10-31T23:44:00+08:00",
+      "last_stage": "RESEARCH_READY",
+      "updated_at": "2026-10-31T23:48:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10645,6 +10645,32 @@
             "v1_sha256": "b92219dc28e0cf5876aff519ee81a58a1544ae1c8042bafb736c2bc4a9165103",
             "visual_trigger": "older juvenile has adult-length crisp barred wing/tail and bright adult-yellow iris; adult barring is overly regular",
             "lease_expires_at": "2026-10-31T23:59:00+08:00"
+          }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261031T234400+0800-cycle-6",
+          "species": "Ninox mindorensis",
+          "stage": "RESEARCH_READY",
+          "at": "2026-10-31T23:48:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "research_record": "owl-pet/research/species/146-ninox-mindorensis-v2.md",
+            "source_ids": [
+              "LZBO-RASMUSSEN-2012-LEAD",
+              "MINDBOO-ITIS-2025",
+              "MINDBOO-CLEMENTS-2013"
+            ],
+            "source_delta": {
+              "new": 2,
+              "reused": 1,
+              "corrected": 1,
+              "unverified_leads": 1
+            },
+            "full_prompt_saved": true,
+            "juvenile_boundary": "age unknown; closed/downcast eyes; wing and tail largely hidden; two-foot branch support; no flight claim",
+            "lease_expires_at": "2026-11-01T00:03:00+08:00"
           }
         }
       ]

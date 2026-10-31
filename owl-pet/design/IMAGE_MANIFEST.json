@@ -17307,16 +17307,30 @@
       "review_crop_blob": "f4476b2a130b39613eb324d18890e13ff5e0a152",
       "auxiliary_review_crop_path": "production/review-crops/168-ketupa-leucosticta-v2-adult-pattern-feet.png",
       "auxiliary_review_crop_blob": "d34db46e8c0208cf4f13496234443086e7b7c826",
-      "readback_pending": true,
-      "exact_readback": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "git_blob": "29ec46d719bfd660d4dbd584a8995bdda8ef41bf",
       "v1_integrity": {
         "git_blob": "58fc42220dfaa8644c6d315a630b41256b4822da",
         "size_bytes": 654988,
         "sha256": "39b8793596b1bdcff1a713d41ea8012c2a9ccb0da9614262ea13f4797c27a13d",
         "archive_commit": "3107392986c97865986eebc1d59fe529cd53fde8"
+      },
+      "fixed_archive_commit": "c67b385b0b605c450a8da58807706551a30c8dab",
+      "verified_at": "2026-11-01T03:15:00+08:00",
+      "readback": {
+        "method": "immutable archive exact path/blob/size; non-truncated recursive tree; local full/edit/crop visual inspection",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 636,
+          "design_legacy": 637,
+          "production": 627
+        },
+        "v1_integrity_verified": true
       }
     }
   ],
-  "updated_at": "2026-11-01T03:10:00+08:00"
+  "updated_at": "2026-11-01T03:15:00+08:00"
 }

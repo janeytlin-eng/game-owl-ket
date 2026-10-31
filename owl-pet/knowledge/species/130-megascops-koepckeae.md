@@ -11,3 +11,11 @@ Actualfirstimageyoungtoosilverfacemask, editmodestlydarkened orbitalfeathers; st
 
 ## v2 targeted juvenileface correction
 Actuallyviewedexec-91d360d8-7372-4df3-948b-4e6f36639ca5: cheeksnowvisiblydarkercharcoal/slategraythanadultpaledisks, narrowwhitebrows/blackrim/yelloweyes/bluegraybill/barredfluff/headtilt/branchgrips retained. Minoradult/foliagedetaildrift, no pixelidenticalclaim. Localrelativecontrastachieved, absolutephoto-tone/age/sexscale stillunknown/sciencefalse. Priorv1preserved. Fullprompt ../../production/runs/2026-10-18T1258+0800-cycle-6.md . PNG2914159 SHA256928cffb33676457bcc8ea41539b5300ee162c438ca6606936919d6fff37f14c3 Gitblob42afa9af139b3caca722a2b07184dbd627aeab04.
+
+
+## v3 science revision — 2026-10-31
+
+- New museum-series evidence separates richer chocolate/snuff-brown nominate birds from drab gray southern *hockingi* and provides no sex-specific standing-height rule. New proceedings evidence reports about three months to adult plumage but is not a staged atlas.
+- Direct v2 review found a regularly pale-spotted adult wing and no inspectable juvenile folded wing. V3 rebuilds both adults as near-equal richer-brown nominate birds and uses the documented Loja older fledgling: gray-white barred residual down, brown chest, black face edge, white brows, yellow eyes and one compact formed folded wing ending above both feet.
+- One targeted edit shortened and softened adult/juvenile wings. Whole frame, juvenile crop and feet/support crop opened. PASS_WITH_LIMITATIONS; exact age/flight, continuous sequence, sex-size ratio, individual/subspecies limits and universal nest form unknown; science false.
+- [Concept](../../design/concepts/130-megascops-koepckeae-v3.png) · [Research](../../research/species/130-megascops-koepckeae-v3.md) · [Run](../../production/runs/20261031T175400+0800-cycle-4.md)

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T09:52:00Z",
+  "updated": "2026-10-31T10:10:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15661,7 +15661,59 @@
         "manifest_json_valid": true,
         "science": false
       }
+    },
+    {
+      "id": "130-megascops-koepckeae-v3",
+      "path": "design/concepts/130-megascops-koepckeae-v3.png",
+      "species_id": 130,
+      "scientific_name": "Megascops koepckeae",
+      "historical_names": [
+        "Otus choliba koepckei",
+        "Otus choliba koepckeae"
+      ],
+      "common_name": "Koepcke's Screech-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "88e41f1ecda9ed9cb0fc8b4b7539bdbb8f9843e79c03a5a28ffe2bcddb178b39",
+      "size_bytes": 2826705,
+      "dimensions": "1536x1024",
+      "status": "Fresh northern-nominate/Ecuador science revision. Museum-series evidence corrected v2's mixed southern-gray appearance and regular bright adult wing tiles; a documented Loja older fledgling now has residual gray-white barred down plus a compact formed folded wing ending above both supported feet. One wing-only edit. Exact age/flight, continuous feather sequence, sex-size ratio, individual/subspecies color limits and universal nest form remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "KOEP-FJELDSA-2012",
+        "KOEP-REO-2019-ABSTRACT",
+        "KOEP-ALARCON-2023",
+        "KOEP-MIK2013-222",
+        "KOEP-ORDONEZ-FREILE-2019",
+        "KOEP-PERUAVES-ADULT"
+      ],
+      "research_record": "research/species/130-megascops-koepckeae-v3.md",
+      "run_record": "production/runs/20261031T175400+0800-cycle-4.md",
+      "reviewed_at": "2026-10-31T10:07:00Z",
+      "generated_path": "production/generated/130-megascops-koepckeae-v3-generated-master.png",
+      "generated_blob": "de24340c28eae425e3d00fced07411fb890da689",
+      "generated_sha256": "a933f7b5621dea1c6ae38c79ec4134f2e7e2a57512997386b3415a4cf4817743",
+      "generated_size_bytes": 2957013,
+      "intermediate_edit_path": "production/generated/130-megascops-koepckeae-v3-edit1.png",
+      "intermediate_edit_blob": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+      "reviewed_path": "production/reviewed/130-megascops-koepckeae-v3-reviewed-master.png",
+      "reviewed_blob": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+      "reviewed_sha256": "88e41f1ecda9ed9cb0fc8b4b7539bdbb8f9843e79c03a5a28ffe2bcddb178b39",
+      "reviewed_size_bytes": 2826705,
+      "review_crop_path": "production/review-crops/130-megascops-koepckeae-v3-juvenile.png",
+      "review_crop_blob": "f6a974a4685c410d994c20d6c3785d9cd0aee17d",
+      "review_crop_sha256": "f32931491cb904cc83227bd9b5d763db71a5ca9aa6060750ce5665391f984c2d",
+      "review_crop_size_bytes": 642693,
+      "auxiliary_review_crop_path": "production/review-crops/130-megascops-koepckeae-v3-feet.png",
+      "auxiliary_review_crop_blob": "ac1a534d7e55055a883319f2932f4bfa13b99229",
+      "auxiliary_review_crop_sha256": "46e53d377ef6f72dae30690d093660ba628c7a44a26eee529531d2b97099bb7d",
+      "auxiliary_review_crop_size_bytes": 833346,
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-31T09:52:00Z"
+  "updated_at": "2026-10-31T10:10:00Z"
 }

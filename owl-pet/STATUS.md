@@ -2955,3 +2955,8 @@ Fixed archive `37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0` passed a non-truncated 
 ### #128 v8 verified — 2026-10-31T17:52:00+08:00
 
 Fixed archive [`3e343d1cb731e1642e4cf5c54b0bb17257b0c159`](https://github.com/janeytlin-eng/game-owl-ket/commit/3e343d1cb731e1642e4cf5c54b0bb17257b0c159) returned all six exact image blobs/bytes; the full concept Git object decoded as 1536×1024 PNG and matched SHA-256. Complete manifests 613/612/603; batch `2026-10-31T1502+0800` is 3/6, next cycle 4. Unique remains 175/251; science false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/3e343d1cb731e1642e4cf5c54b0bb17257b0c159/owl-pet/design/concepts/128-megascops-marshalli-v8.png?raw=1).
+
+## 2026-10-31 — #130 *Megascops koepckeae* v3 archived; fixed readback pending
+
+- 2012 museum-series study and 2019 Ecuador proceedings added; source delta new2/reused4/corrected2. V2 adult geographic/pattern overreach and invisible juvenile wing corrected.
+- One targeted edit; whole 1536×1024 plate, juvenile and feet/support crops opened. `PASS_WITH_LIMITATIONS`; science false; unique **175/251**. [Research](research/species/130-megascops-koepckeae-v3.md) · [Run](production/runs/20261031T175400+0800-cycle-4.md).

@@ -833,3 +833,49 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Facts read:** valid current species *Aegolius ridgwayi* (Alfaro, 1905); historical combination *Cryptoglaux ridgwayi* Alfaro, 1905; subspecies names listed but not separate current species.
 - **Limits / confidence:** no morphology, sex or development evidence. High confidence for name mapping only.
 - **Design / links:** supports current/old-name mapping for #96 and prevents subspecies double counting; cannot support plumage.
+
+
+## 2026-10-31 — #97 Crested Owl / *Lophostrix cristata* v4 evidence correction
+
+### CRI-SPRINGER-ERRATUM-2014
+- Stable ID: `CRI-SPRINGER-ERRATUM-2014`
+- Title: Change history / Erratum to “Opportunistic predation by Crested Owl *Lophostrix cristata*…”
+- Authors / institution: Ricardo Rocha & Adrià López-Baucells; Revista Brasileira de Ornitologia / Springer Nature
+- Year: 2014
+- Original URL / DOI: https://link.springer.com/article/10.1007/BF03544230 ; erratum DOI https://doi.org/10.1007/BF03544253
+- Accessed: 2026-10-31
+- Type: official publisher correction to a primary field note
+- Species / stage: the photographed “juvenile *Lophostrix cristata*” is corrected to *Strix virgata*; immature stage
+- Valuable fact: publisher change history states all results and conclusions attributed to *L. cristata* in the 2014 note actually concern *S. virgata*.
+- Page / section: Springer “Change history”; standalone erratum p.244
+- Limitation / confidence: high confidence for exclusion. The original paper remains useful for *S. virgata*, not #97.
+- Design decision: remove Rocha flight-on-release, juvenile photograph and diet observations from #97 evidence. Do not use that source to set #97 age, flight ability or feather geometry.
+- Links: `research/species/97-lophostrix-cristata-v4.md`; v3 historical record retained and explicitly superseded on this point.
+
+### CRI-BIRDS-BOLIVIA-2026
+- Stable ID: `CRI-BIRDS-BOLIVIA-2026`
+- Title: *Lophostrix cristata* species fact sheet
+- Author / institution: Birds of Bolivia
+- Year / date: page current at access; publication year not stated
+- Original URL: https://birdsofbolivia.org/species-fact-sheets-2/owls/lophostrix-cristata/
+- Accessed: 2026-10-31
+- Type: regional field-guide fact sheet
+- Species / stage: *Lophostrix cristata* adult and juvenile
+- Valuable fact: adult 39–42 cm with prominent white ear tufts; juvenile described as white with rufous facial disk and brownish wings.
+- Page / section: Description / Descripción
+- Limitation / confidence: useful secondary corroboration; no exact age, sex, tract sequence or flight threshold.
+- Design decision: supports retaining the white-bodied, dark/rufous-faced, brown-winged older juvenile direction but not a precise age or ability claim.
+- Links: `research/species/97-lophostrix-cristata-v4.md`; image v4 title-only revision.
+
+### CRI-STORER-1972-LEAD
+- Stable ID: `CRI-STORER-1972-LEAD`
+- Title: The Juvenal Plumage and Relationships of *Lophostrix cristata*
+- Author: Robert W. Storer
+- Year: 1972
+- URL / DOI: https://digitalcommons.usf.edu/auk/vol89/iss2/29/ ; https://doi.org/10.2307/4084227
+- Accessed: 2026-10-31
+- Type: primary museum paper metadata lead
+- Species / stage: *Lophostrix cristata* juvenal plumage
+- Verified content: title, author, journal, volume 89(2), pp.452–455 and DOI only.
+- Limitation / confidence: full PDF returned 403 in this run; no plumage sentence from this paper is treated as freshly verified evidence.
+- Design decision: retain as a follow-up lead only; do not use it to repair the Rocha error or mark science passed.

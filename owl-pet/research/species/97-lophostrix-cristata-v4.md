@@ -32,3 +32,9 @@ Text (verbatim): "97 · CRESTED OWL · Lophostrix cristata"
 Composition/framing: retain the existing centered top title and all three birds.
 Constraints: change only the title line by adding "97 · " before "CRESTED OWL"; preserve the adult male, older juvenile, adult female, their anatomy, plumage, scale, poses, feet, branch, rainforest, lighting, labels, image dimensions and photographic style unchanged; exactly three birds; no new biological claims.
 Avoid: no repainting of birds, no color shift, no altered eyes or bill, no changed ear tufts, no changed juvenile wing or tail, no crop, no watermark, no extra text.
+
+## Actual image review — 2026-10-31T09:43:00+08:00
+
+The generated 1536×1024 v4 master and a 620×760 juvenile crop were opened. The title reads exactly “97 · CRESTED OWL · Lophostrix cristata”; there are exactly three birds. The adult male and female preserve the approved visual direction without asserting a universal female-larger rule. The older juvenile has white mesoptile, a dark/rufous face, short tufts, developed folded brown barred wing and tail, and bilateral foot support on the mossy branch. No edit was needed after generation. Result: **PASS_WITH_LIMITATIONS**, scientifically_verified=false.
+
+The render is not used to restore the invalid Rocha flight claim. Exact age, sex, flight threshold, continuous tract sequence, measured adult sex-size ratio and universal nest form remain unknown.

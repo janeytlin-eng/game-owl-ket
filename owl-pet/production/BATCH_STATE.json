@@ -11530,38 +11530,49 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "20261101T0330+0800-cycle-6",
+        "heartbeat_at": "2026-11-01T03:30:00+08:00",
+        "expires_at": "2026-11-01T03:45:00+08:00"
+      },
       "lease": null,
-      "in_progress": null,
-      "last_checkpoint": {
-        "cycle": 5,
-        "run_id": "20261101T0255+0800-cycle-5",
-        "species": "Glaucidium sanchezi",
-        "stage": "VERIFIED",
-        "at": "2026-11-01T03:25:00+08:00",
-        "credited_cycle": true,
-        "evidence": {
-          "archive_commit": "d0dec0629f50bfea6ebd738d549732c2c2a7ef32",
-          "tree_sha": "7c7c9aaea445028d5e84829a4212da4215330805",
-          "recursive_tree_truncated": false,
-          "paths_verified": 8,
-          "binary_assets_verified": 6,
-          "master_blob": "3e709c195a92a02abc13f845c087be592107e9c8",
-          "initial_blob": "d054fdcf89ec0c642d7657f0ed799cc932abfe6a",
-          "juvenile_crop_blob": "e8af362b0234d1b086547e67a0ee9d5ca9ecde61",
-          "adult_crop_blob": "cb36054d62613b58adf60409e3ef65c166861814",
-          "manifest_counts": {
-            "design_image": 638,
-            "design_legacy": 639,
-            "production": 629
-          },
+      "in_progress": {
+        "cycle": 6,
+        "species": "Glaucidium palmarum",
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261101T0330+0800-cycle-6",
+        "stage": "STARTED",
+        "stage_evidence": {
+          "started_at": "2026-11-01T03:30:00+08:00",
+          "selection": "next v1-only science-revision target; existing v1 is 680×453 derivative with age-unknown juvenile and prior wing correction",
+          "main_head": "a6afbe7e68013fb79dae65773023dd61934e225d",
+          "v1_git_blob": "9992a410ae54cf579090267f6ebc9bbfa8f76e97",
+          "v1_sha256": "43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34",
           "unique_species": "175/251",
-          "revision_increment": 1,
-          "connector_full_binary_stream_readback": false
+          "lease_expires_at": "2026-11-01T03:45:00+08:00"
         }
       },
-      "last_stage": "VERIFIED",
-      "updated_at": "2026-11-01T03:25:00+08:00",
+      "last_checkpoint": {
+        "cycle": 6,
+        "run_id": "20261101T0330+0800-cycle-6",
+        "species": "Glaucidium palmarum",
+        "stage": "STARTED",
+        "at": "2026-11-01T03:30:00+08:00",
+        "credited_cycle": false,
+        "evidence": {
+          "started_at": "2026-11-01T03:30:00+08:00",
+          "selection": "next v1-only science-revision target; existing v1 is 680×453 derivative with age-unknown juvenile and prior wing correction",
+          "main_head": "a6afbe7e68013fb79dae65773023dd61934e225d",
+          "v1_git_blob": "9992a410ae54cf579090267f6ebc9bbfa8f76e97",
+          "v1_sha256": "43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34",
+          "unique_species": "175/251",
+          "lease_expires_at": "2026-11-01T03:45:00+08:00"
+        }
+      },
+      "last_stage": "STARTED",
+      "updated_at": "2026-11-01T03:30:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12106,6 +12117,23 @@
             "unique_species": "175/251",
             "revision_increment": 1,
             "connector_full_binary_stream_readback": false
+          }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261101T0330+0800-cycle-6",
+          "species": "Glaucidium palmarum",
+          "stage": "STARTED",
+          "at": "2026-11-01T03:30:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "started_at": "2026-11-01T03:30:00+08:00",
+            "selection": "next v1-only science-revision target; existing v1 is 680×453 derivative with age-unknown juvenile and prior wing correction",
+            "main_head": "a6afbe7e68013fb79dae65773023dd61934e225d",
+            "v1_git_blob": "9992a410ae54cf579090267f6ebc9bbfa8f76e97",
+            "v1_sha256": "43ae28fd07f2182a714f9f8c026900945a5ca4d36741a97a0f63da88c8718b34",
+            "unique_species": "175/251",
+            "lease_expires_at": "2026-11-01T03:45:00+08:00"
           }
         }
       ]

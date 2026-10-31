@@ -17004,16 +17004,30 @@
       "auxiliary_review_crop_blob": "eb93f5416043ef953c4af95fdc3c43a53bd91323",
       "auxiliary_review_crop_sha256": "038cc831ab0c6686911a66e51ba635f0f30e702aba8f896ec390193206732cf5",
       "auxiliary_review_crop_size_bytes": 2361481,
-      "readback_pending": true,
-      "exact_readback": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "git_blob": "4866784a62f77ef23c6ece8e1a624e164a5c3bda",
       "v1_integrity": {
         "git_blob": "d29baf733b4e8fa3cd7b53c0440724014c17ee6f",
         "size_bytes": 638686,
         "sha256": "ec9e6e65f28df6943f481f80706febac67d395612a2b993450d67b12a30813f8",
         "archive_commit": "480c1129aced33779aa7436e919fc156b3bbbc4d"
+      },
+      "fixed_archive_commit": "44e3f19f830fb0da39e600a3935addbacb130a2d",
+      "verified_at": "2026-11-01T02:15:00+08:00",
+      "readback": {
+        "method": "immutable archive exact path/blob/size; non-truncated recursive tree; local text Git blobs match remote; local full PNG decode and full/crop visual inspection; main-head readback",
+        "assets_verified": 5,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 634,
+          "design_legacy": 635,
+          "production": 625
+        },
+        "v1_integrity_verified": true
       }
     }
   ],
-  "updated_at": "2026-11-01T02:10:00+08:00"
+  "updated_at": "2026-11-01T02:15:00+08:00"
 }

@@ -1988,3 +1988,34 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Evidence:** valid species; synonym *Athene hartlaubi* Giebel, 1872; IOC 15.1 cited among checklist sources.
 - **Limits / confidence:** high for name mapping; no morphology or development evidence.
 - **Design link:** [#177 v2](species/177-otus-hartlaubi-v2.md); current/old-name mapping.
+
+### SSCO-CURRIE-ETAL-2002-P16-18
+- **Title / authors / year:** *Sexual size dimorphism in the critically endangered Seychelles Scops Owl Otus insularis* — Currie, Mateman, Lessells & Fanchette, 2002
+- **URL / DOI:** https://doi.org/10.1080/03078698.2002.9674272 ; https://www.tandfonline.com/doi/pdf/10.1080/03078698.2002.9674272
+- **Accessed:** 2026-11-01
+- **Type:** primary live-bird biometric study
+- **Species / stage:** *Otus insularis*, adults; fledgling eye-colour observation
+- **Location:** printed pp.16–18, Table 1 and Results/Discussion
+- **Evidence:** 31 adults measured, 30 molecularly sexed. Male/female mean wing 169.12/174.42 mm, tarsus 37.84/38.45 mm, mass 132.43/154.63 g; wing/mass p<0.01 but all measures overlap. Plumage/eye variation not sex-linked; some fledglings had bright yellow eyes.
+- **Limits / confidence:** high for sex means; female sample n=8. Eye-colour finding does not define a universal juvenile iris.
+- **Design link:** [#178 v2](species/178-otus-insularis-v2.md); fuller female without exaggerated height; same adult plumage; muted juvenile iris choice.
+
+### SSCO-CURRIE-ETAL-2004-P123-137
+- **Title / authors / year:** *The breeding biology of the Critically Endangered Seychelles Scops-owl Otus insularis* — Currie et al., 2004
+- **URL / DOI:** https://doi.org/10.1017/S0959270904000140 ; https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E98F97E78DD111E5C95AE52C4D68D30B/S0959270904000140a.pdf
+- **Accessed:** 2026-11-01
+- **Type:** primary 26-month field study
+- **Species / stage:** *Otus insularis* nests, recent fledglings c.8–12 wk, mature fledglings c.16–20 wk
+- **Location:** printed pp.123–137; especially pp.125–130, Table 1 and fledgling section
+- **Evidence:** eight tree-cavity nests 7–25 m; recent fledglings c.8–12 wk were fluffy, barred and clumsy fliers; mature fledglings c.16–20 wk were confident/adult-like. Fledglings left before flight, perched 3–5 m above cavities, and later flew clumsily; post-fledging care ≥3 months.
+- **Limits / confidence:** strong stage/behaviour evidence; paper does not supply detailed feather-by-feather illustrations or a universal iris state.
+- **Design link:** [#178 v2](species/178-otus-insularis-v2.md); selects recent fledgling with full support, fluffy barred chest and intermediate wing/tail.
+
+### SSCO-ITIS-202272-2026
+- **Title / institution / date:** ITIS report TSN 202272 — Integrated Taxonomic Information System, accessed 2026-11-01
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=202272
+- **Type:** authoritative nomenclatural database
+- **Species / stage:** *Otus insularis*, taxonomy only
+- **Evidence:** valid species; *Gymnoscops insularis* Tristram, 1880 recorded as synonym; IOC 15.1 cited.
+- **Limits / confidence:** high for name mapping; no morphology/development evidence.
+- **Design link:** [#178 v2](species/178-otus-insularis-v2.md).

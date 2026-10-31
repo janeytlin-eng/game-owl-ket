@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 260048)
-Total output lines: 16643
+Warning: truncated output (original token count: 260200)
+Total output lines: 16656
 
 {
   "updated": "2026-11-01",
@@ -1550,30 +1550,7 @@ Total output lines: 16643
       "path": "design/concepts/81-otus-scops-v2.png",
       "sha256": "606b4f4b54f6d3f04adf6b59e3c530eb30286b2045e8a225684202fc2c90ef82",
       "scientifically_verified": false,
-      "status": "Adultleftreduced/rightenlarged removingformerstrongmaleoverscale; rightmodestlytaller, ex…200048 tokens truncated…-master.png",
-            "sha": "7a2ba27f65953dc5830825328de7d3bdb8553a3d",
-            "size": 3096893
-          },
-          "review_crop": {
-            "path": "owl-pet/production/review-crops/100-strix-huhula-v4-fledgling.png",
-            "sha": "19e920195f255c4eb6a348ad3915f9954e307cce",
-            "size": 743716
-          }
-        },
-        "manifest_counts": {
-          "legacy": 601,
-          "design": 600,
-          "production": 591
-        },
-        "tree": {
-          "entries": 2289,
-          "truncated": false
-        },
-        "science": false
-      }
-    },
-    {
-      "id": "101-otus-spilocephalus-v7",
+      "status": "Adultleftreduced/rightenlarged removingformerstrongmaleoverscale; rightmodestlytaller, ex…200200 tokens truncated…01-otus-spilocephalus-v7",
       "path": "design/concepts/101-otus-spilocephalus-v7.png",
       "species_id": 101,
       "scientific_name": "Otus spilocephalus",
@@ -3846,10 +3823,23 @@ Total output lines: 16643
       "auxiliary_review_crop_blob": "039f221278ac2b506cee660683b352d450522b43",
       "auxiliary_review_crop_sha256": "6ecf7e9947c0bccb572a786688fa337c13f44b02364e724c22fab24281d8af7c",
       "auxiliary_review_crop_size_bytes": 1025240,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "ad1a3f17b880d9ff1f361af2adae133240727903"
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "ad1a3f17b880d9ff1f361af2adae133240727903",
+      "fixed_archive_commit": "344493ad1b09fe02747ff07e627baf1d1e3f01ab",
+      "verified_at": "2026-11-01T00:41:25+08:00",
+      "readback": {
+        "method": "immutable archive exact path/blob/size; non-truncated recursive tree; complete manifest JSON parse and remote blob readback; local original decode/crop inspection; main-head readback",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 629,
+          "design_legacy": 630,
+          "production": 620
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-01T00:40:10+08:00"
+  "updated_at": "2026-11-01T00:41:25+08:00"
 }

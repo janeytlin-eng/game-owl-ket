@@ -11525,8 +11525,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T0255+0800-cycle-5",
-        "heartbeat_at": "2026-11-01T03:00:00+08:00",
-        "expires_at": "2026-11-01T03:15:00+08:00"
+        "heartbeat_at": "2026-11-01T03:05:00+08:00",
+        "expires_at": "2026-11-01T03:20:00+08:00"
       },
       "lease": null,
       "in_progress": {
@@ -11535,54 +11535,40 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T0255+0800-cycle-5",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "stage_evidence": {
-          "research_file": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids": [
-            "TPO-HOWELL-ROBBINS-1995-P17-18-22",
-            "TPO-VALENCIA-ETAL-2024-P516-520",
-            "TPO-MIKKOLA-2013-P384",
-            "TPO-ITIS-2026"
-          ],
-          "source_delta": {
-            "new": 2,
-            "reused": 2,
-            "corrected": 3
-          },
-          "full_prompt_saved": true,
-          "mikkola_accessible": false,
-          "juvenile_stage": "age-unknown mesoptile/juvenile; short rounded supported wing; exact age, feather sequence and flight ability unknown"
+          "generated_master": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-generated-master.png",
+          "git_blob": "d054fdcf89ec0c642d7657f0ed799cc932abfe6a",
+          "sha256": "13e3484013d0b1be057864f5652f1133838252f8bb27e8c76e8e384c3e3d29bd",
+          "dimensions": "1536x1024",
+          "bytes": 2977978,
+          "prompt_source": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
+          "generation_result": "success",
+          "generation_wait_seconds": 40.7,
+          "review_flag": "juvenile has long hard adult-like remiges, regular wing spot rows and long fully barred tail; targeted edit required"
         }
       },
       "last_checkpoint": {
         "cycle": 5,
         "run_id": "20261101T0255+0800-cycle-5",
         "species": "Glaucidium sanchezi",
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-01T03:00:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-01T03:05:00+08:00",
         "credited_cycle": false,
         "evidence": {
-          "research_file": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids": [
-            "TPO-HOWELL-ROBBINS-1995-P17-18-22",
-            "TPO-VALENCIA-ETAL-2024-P516-520",
-            "TPO-MIKKOLA-2013-P384",
-            "TPO-ITIS-2026"
-          ],
-          "source_delta": {
-            "new": 2,
-            "reused": 2,
-            "corrected": 3
-          },
-          "full_prompt_saved": true,
-          "mikkola_accessible": false,
-          "juvenile_stage": "age-unknown mesoptile/juvenile; short rounded supported wing; exact age, feather sequence and flight ability unknown"
+          "generated_master": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-generated-master.png",
+          "git_blob": "d054fdcf89ec0c642d7657f0ed799cc932abfe6a",
+          "sha256": "13e3484013d0b1be057864f5652f1133838252f8bb27e8c76e8e384c3e3d29bd",
+          "dimensions": "1536x1024",
+          "bytes": 2977978,
+          "prompt_source": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
+          "generation_result": "success",
+          "generation_wait_seconds": 40.7,
+          "review_flag": "juvenile has long hard adult-like remiges, regular wing spot rows and long fully barred tail; targeted edit required"
         }
       },
-      "last_stage": "RESEARCH_READY",
-      "updated_at": "2026-11-01T03:00:00+08:00",
+      "last_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-01T03:05:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12017,6 +12003,25 @@
             "full_prompt_saved": true,
             "mikkola_accessible": false,
             "juvenile_stage": "age-unknown mesoptile/juvenile; short rounded supported wing; exact age, feather sequence and flight ability unknown"
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261101T0255+0800-cycle-5",
+          "species": "Glaucidium sanchezi",
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-01T03:05:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "generated_master": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-generated-master.png",
+            "git_blob": "d054fdcf89ec0c642d7657f0ed799cc932abfe6a",
+            "sha256": "13e3484013d0b1be057864f5652f1133838252f8bb27e8c76e8e384c3e3d29bd",
+            "dimensions": "1536x1024",
+            "bytes": 2977978,
+            "prompt_source": "owl-pet/research/species/170-glaucidium-sanchezi-v2.md",
+            "generation_result": "success",
+            "generation_wait_seconds": 40.7,
+            "review_flag": "juvenile has long hard adult-like remiges, regular wing spot rows and long fully barred tail; targeted edit required"
           }
         }
       ]

@@ -965,3 +965,22 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **BWO-MIKKOLA-2013-P339:** uploaded guide, printed p.339/PDF p.341, previously read; adult sooty dorsal plumage, barred underparts, eye/bill/tarsus/toe details and age-unknown mesoptile.
 - **Source/design delta:** new2 / reused3 / corrected1. Exact juvenile age, flight threshold, universal nest choice and population-wide dimorphism remain unknown; science false.
 - **Linked artifacts:** [research](species/102-strix-nigrolineata-v3.md), [run](../production/runs/20261031T102620+0800-cycle-5.md), concept target `design/concepts/102-strix-nigrolineata-v3.png`.
+
+
+## 2026-10-31 — #103 *Tyto longimembris* v4 evidence increment
+
+### EGO-ABSA-BIH2
+
+- **Title:** *Bird in the Hand* (Second Edition): Eastern Grass Owl
+- **Author / institution:** J. W. Hardy; Australian Bird Study Association Inc.; measurements/drawings credited to HANZAB 4 and BirdLife Australia
+- **Year / date:** edition date not printed on viewed page; repository URL path 2017/04; accessed 2026-10-31
+- **Original URL:** https://absa.asn.au/wp-content/uploads/2017/04/Eastern-Grass-Owl.pdf
+- **Source type:** professional bird-study association banding/ageing sheet; primary morphometric summary
+- **Taxon / stage:** *Tyto capensis longimembris* on source; mapped to current/project *Tyto longimembris*; adults and general juvenile ageing cues
+- **Pages / sections:** PDF p.1, Morphometrics, Ageing, Sexing, Similar species
+- **Verified facts:** male wing 305–324 mm, tail 106–125 mm, mass 256–390 g; female wing 316–346 mm, tail 109–129 mm, mass 312–478 g. Female stated larger and darker; male face white/patchy cream, female cream-buff/orange-buff; grass-owl tarsus 72.1–82.2 mm with only hair-like feathering on lower portion/toes.
+- **Design support:** v4 uses a modest visible female fullness/size direction, preserves overlapping ranges, darker female/paler male, and long partly bare legs.
+- **Limitations / confidence:** one-page compiled field sheet, not a continuous population model; does not date the selected mesoptile or establish flight ability. High for the printed ranges and qualitative sexing statement; no exact display ratio inferred.
+- **Linked records:** [#103 v4 research](103-tyto-longimembris-v4.md); [#103 knowledge](../knowledge/species/103-tyto-longimembris.md); v4 image/run pending at RESEARCH_READY.
+
+**Mapping:** *Tyto longimembris* → EGO-ABSA-BIH2, EGO-DUNLOP2016, EGO-NSW2018, EGO-MIK2013-102, EGO-AVIBASE2026. Topics: adult morphometrics, sex differences, leg feathering, captive mesoptile boundary, ground/tall-grass context. New 1 / reused 4 / corrected 1.

@@ -2680,3 +2680,6 @@ Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f
 
 
 - **#97 *Lophostrix cristata* v4** — numbered SCIENCE_REVISION plate; adult pair + age-unknown older mesoptile juvenile; official misidentification correction applied; PASS_WITH_LIMITATIONS; science false. See `concepts/97-lophostrix-cristata-v4.png` and `../research/species/97-lophostrix-cristata-v4.md`.
+
+
+- **#99 *Bubo magellanicus* v4** — numbered SCIENCE_REVISION; near-equal adult scale, approximately one-week supported chick, exceptional balcony case; PASS_WITH_LIMITATIONS; science false. See `concepts/99-bubo-magellanicus-v4.png`.

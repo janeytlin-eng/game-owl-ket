@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T09:50:00+08:00",
+  "updated": "2026-10-31T10:06:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13648,7 +13648,54 @@
         ],
         "science": false
       }
+    },
+    {
+      "id": "99-bubo-magellanicus-v4",
+      "path": "design/concepts/99-bubo-magellanicus-v4.png",
+      "species_id": 99,
+      "scientific_name": "Bubo magellanicus",
+      "historical_names": [
+        "Bubo virginianus magellanicus"
+      ],
+      "common_name": "Lesser Horned Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "70468c6973c891efe596ca7edf2e201e1d17649bd3d3b78fff1f78f5712bb872",
+      "size_bytes": 2629992,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 adds repository number 99 while retaining the documented approximately one-week chick with open eyes, tiny egg tooth, gray-white down, short down-covered wing buds, no mature wing/tail and full dry-plant support in an exceptional balcony case. Adults retain yellow eyes, blue-gray bills, narrow tufts, throat/barring pattern and feathered toes, with near-equal skeletal height because a 33-adult primary study found little/no visible sexual dimorphism and did not sex birds. Exact chick day/sex, continuous feather sequence, individual first-flight threshold, sex-specific adult measurements and universal nest form remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "MAG-JIMENEZ-CORTES-2023",
+        "MAG-ZAMBRANO-2022",
+        "MAG-MIK2013-266",
+        "S099-ORNNEO-2020-URBAN-NEST",
+        "S099-BIRDNET-TAXONOMY"
+      ],
+      "research_record": "research/species/99-bubo-magellanicus-v4.md",
+      "run_record": "production/runs/20261031T095200+0800-cycle-2.md",
+      "reviewed_at": "2026-10-31T10:03:00+08:00",
+      "generated_path": "production/generated/99-bubo-magellanicus-v4-generated-master.png",
+      "generated_blob": "d0f06a8c5a068f656af9576531a305a6d13191ac",
+      "generated_sha256": "70468c6973c891efe596ca7edf2e201e1d17649bd3d3b78fff1f78f5712bb872",
+      "generated_size_bytes": 2629992,
+      "reviewed_path": "production/reviewed/99-bubo-magellanicus-v4-reviewed-master.png",
+      "reviewed_blob": "d0f06a8c5a068f656af9576531a305a6d13191ac",
+      "reviewed_sha256": "70468c6973c891efe596ca7edf2e201e1d17649bd3d3b78fff1f78f5712bb872",
+      "reviewed_size_bytes": 2629992,
+      "review_crop_path": "production/review-crops/99-bubo-magellanicus-v4-chick.png",
+      "review_crop_blob": "e5bb6cda5d14113372e9e0ece5db33ee30b5bbe4",
+      "review_crop_sha256": "dd93363d8128965a1fac6fa38020c5880266b4c2185a7f5731e2a0dbcffcaebd",
+      "review_crop_size_bytes": 525913,
+      "readback_pending": true,
+      "git_blob": "d0f06a8c5a068f656af9576531a305a6d13191ac",
+      "fixed_archive_commit": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T09:50:00+08:00"
+  "updated_at": "2026-10-31T10:06:00+08:00"
 }

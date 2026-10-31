@@ -627,3 +627,8 @@ Applied and verified: an expired REVIEWED-stage lease was recovered only after u
 ### Evidence correction rule applied to #97 (2026-10-31)
 
 When a publisher erratum changes the species identity of a photographed juvenile, quarantine every stage, ability and diet inference derived from that observation. Retain only traits independently supported for the target species, preserve historical records, and keep scientific verification false until the remaining unknowns are resolved. Applied to *Lophostrix cristata* v4; the Rocha & López-Baucells bird is *Strix virgata*.
+
+
+### Visible sex-difference rule applied to #99 (2026-10-31)
+
+A secondary statement that females are larger must not become a fixed visual multiplier when a species-specific primary sample reports little/no visible sexual dimorphism and did not sex individuals. Keep display scale near equal, record the conflict and leave exact sex-specific measurements unknown. Applied to *Bubo magellanicus* v4.

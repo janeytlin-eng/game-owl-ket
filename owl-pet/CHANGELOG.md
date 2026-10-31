@@ -1470,3 +1470,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added `MOSO-MOA-BIRDGUIDE-2026` and `MOSO-TAIEOL-BIRDFAUNA-2013`; reused three existing sources without duplication.
 - Generated and inspected v7 plus a tight fledgling crop. Adult tufts are low/modest; adults remain near-equal; juvenile eyes are conservative dark-neutral, wings down-dominant/short and both feet supported. Science remains false.
 - Archived as `design/concepts/101-otus-spilocephalus-v7.png`; fixed-commit verification pending.
+- First archive readback caught a truncated master transfer; repaired via 97 checked 30,000-byte chunks and verified the full 2,890,356-byte PNG at archive `625738f254f26bb6b018b5a39f6952da8754e326`.

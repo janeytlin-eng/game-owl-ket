@@ -1,8 +1,8 @@
-Warning: truncated output (original token count: 230494)
-Total output lines: 14390
+Warning: truncated output (original token count: 230861)
+Total output lines: 14428
 
 {
-  "updated": "2026-10-31T10:03:00+08:00",
+  "updated": "2026-10-31T10:11:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5487,26 +5487,7 @@ Total output lines: 14390
       "action": "SCIENCE_REVISION",
       "sha256": "8f31bb01e7e10138ef1db3c5863e241f0c8b714481b4a3d70ef7ece5de186c89",
       "scientifically_verified": false,
-      "status": "SCIENCE_REVISION using the primary French Guiana nest observation: an almost full-grown young at a high old-woodpecker cavity. Adults show gray crown vs bro…30494 tokens truncated…path": "production/generated/83-otus-brucei-v3-generated-master.jpg",
-      "generated_blob": "6f3db72c123d1011b05312bc424336aa51503adb",
-      "generated_size_bytes": 422586,
-      "generated_sha256": "1ad8f8ff3214ae363344bd9d9bc3bddf4deaa57989093c87cb08731f1b761d57",
-      "generated_png_path": "production/generated/83-otus-brucei-v3-generated-master.png",
-      "generated_png_blob": "91c297bb7ac98050f7c8980e4b6644669c943165",
-      "generated_png_size_bytes": 64975,
-      "generated_png_sha256": "60ed76f99930cecb5249fc6df8a1ed6afa8e04b248277a475bfa376e0b959c9e",
-      "reviewed_path": "production/reviewed/83-otus-brucei-v3-reviewed-master.jpg",
-      "reviewed_blob": "19383af6ea16afabc097c101d702b0ed5b9e9acb",
-      "reviewed_size_bytes": 363766,
-      "reviewed_sha256": "0b4a250ae5f2877818b5e360ee0e2fcf87488fb4e4456ace0b327678ad36b592",
-      "reviewed_png_path": "production/reviewed/83-otus-brucei-v3-reviewed-master.png",
-      "reviewed_png_blob": "89aebb7f6de96e86ec043a03c145eff4ad00d15c",
-      "reviewed_png_size_bytes": 63706,
-      "reviewed_png_sha256": "8b809ecaf14301d0526c8e4750eb608948edb56dbe32ad1badd7463239b6ce46",
-      "review_crop_path": "production/reviewed/83-otus-brucei-v3-juvenile-review-crop.jpg",
-      "review_crop_blob": "f02114e757f73b51482f3a4d36cfe9a0d9b30bd7",
-      "review_crop_size_bytes": 76707,
-      "archive_note": "One adult-only plumage edit; full and crop reopened. Bright-white scapular patches muted to pale buff-grey while c.26-day juvenile horizontal bars/woolly contour/fresh wing/short-tail impression and both-foot cavity-lip support pass. Exact feather sequence/first flight/subspecies/sex-size direction unknown; science false.",
+      "status": "SCIENCE_REVISION using the primary French Guiana nest observation: an almost full-grown young at a high old-woodpecker cavity. Adults show gray crown vs bro…30861 tokens truncated…pale buff-grey while c.26-day juvenile horizontal bars/woolly contour/fresh wing/short-tail impression and both-foot cavity-lip support pass. Exact feather sequence/first flight/subspecies/sex-size direction unknown; science false.",
       "readback_pending": false,
       "archive_commit": "5c452e18d3858353f583ca6d9ac33f9b8a5623fc",
       "fixed_commit": "5c452e18d3858353f583ca6d9ac33f9b8a5623fc",
@@ -12493,11 +12474,49 @@ Total output lines: 14390
       "review_crop_blob": "1e2061594898fed7a9ca80709a7bc6b45b62e32a",
       "review_crop_sha256": "5537230a1c0f6922e50ce02b3175b7588cca3178162f538c3938bcfe2fd385f0",
       "review_crop_size_bytes": 711840,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "83149dc6294002c4760b6c540038bbab49c5efc3",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "625738f254f26bb6b018b5a39f6952da8754e326",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T10:11:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "625738f254f26bb6b018b5a39f6952da8754e326",
+        "method": "fixed recursive tree exact path/blob/size readback after chunked-transfer repair",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/101-otus-spilocephalus-v7.png",
+            "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
+            "size": 2890356
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/101-otus-spilocephalus-v7-generated-master.png",
+            "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
+            "size": 2890356
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/101-otus-spilocephalus-v7-reviewed-master.png",
+            "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
+            "size": 2890356
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/101-otus-spilocephalus-v7-fledgling.png",
+            "sha": "1e2061594898fed7a9ca80709a7bc6b45b62e32a",
+            "size": 711840
+          }
+        },
+        "manifest_counts": {
+          "legacy": 602,
+          "design": 601,
+          "production": 592
+        },
+        "tree": {
+          "entries": 2295,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:03:00+08:00"
+  "updated_at": "2026-10-31T10:11:00+08:00"
 }

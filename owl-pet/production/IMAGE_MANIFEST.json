@@ -1,8 +1,8 @@
-Warning: truncated output (original token count: 222778)
-Total output lines: 13873
+Warning: truncated output (original token count: 223144)
+Total output lines: 13911
 
 {
-  "updated": "2026-10-31T10:03:00+08:00",
+  "updated": "2026-10-31T10:11:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -5487,26 +5487,7 @@ Total output lines: 13873
       "action": "SCIENCE_REVISION",
       "sha256": "8f31bb01e7e10138ef1db3c5863e241f0c8b714481b4a3d70ef7ece5de186c89",
       "scientifically_verified": false,
-      "status": "SCIENCE_REVISION using the primary French Guiana nest observation: an almost full-grown young at a high old-woodpecker cavity. Adults show gray crown vs bro…22778 tokens truncated…es": 647568
-        },
-        "review_crop": {
-          "path": "production/reviewed/75-ninox-scutulata-v3-juvenile-review-crop.jpg",
-          "blob": "109085a479c02c5336bdd0a516f9da9b669ad949",
-          "size_bytes": 170051
-        },
-        "fixed_commit": "ac053b82c766f0aa28f75a999270043cbfe926f1"
-      }
-    },
-    {
-      "id": "76-asio-clamator-v3",
-      "path": "design/concepts/76-asio-clamator-v3.jpg",
-      "status": "SCIENCE_REVISION；依据Formoso等2025年Chubut野外记录（pp.121–124/Figs.4–6）与Ponce/González 2025巢期记录，v3不重复v2约5周龄浅色枝栖阶段，改用估计25–30日第二阶段幼鸟：暖褐绒羽、形成中的面盘与短耳簇、短圆生长翼、短尾和低树桩完整支撑。成年近等体型；野外推断雄鸟较浅/高对比、雌鸟面部更肉桂/面盘边更厚，仅轻微呈现，不作普遍两性异色结论。首稿幼鸟翼过长且成鸟式覆羽/飞羽过整齐，已定向编辑并复查。精确性别二型、亚种和连续羽序未知，科学验收false。",
-      "sha256": "b7b7e410c94e6c2efadfb173094868d3dcd95c0c73e9e4405cf57e33b2147e8a",
-      "scientifically_verified": false,
-      "unique_species_increment": 0,
-      "source_index": "research/SOURCE_INDEX.md#2026-10-29-76-asio-clamator-v3-2530-day-brown-down-stage-and-field-inferred-adult-contrast",
-      "run_record": "production/runs/20261029T0950+0800-cycle-5.md",
-      "reviewed_at": "2026-10-29T10:04:00+08:00",
+      "status": "SCIENCE_REVISION using the primary French Guiana nest observation: an almost full-grown young at a high old-woodpecker cavity. Adults show gray crown vs bro…23144 tokens truncated…04:00+08:00",
       "dimensions": "1536x1024",
       "size_bytes": 635101,
       "git_blob": "45eb7f2347827c0b22e271d390637ae4f1624196",
@@ -12446,11 +12427,49 @@ Total output lines: 13873
       "review_crop_blob": "1e2061594898fed7a9ca80709a7bc6b45b62e32a",
       "review_crop_sha256": "5537230a1c0f6922e50ce02b3175b7588cca3178162f538c3938bcfe2fd385f0",
       "review_crop_size_bytes": 711840,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "83149dc6294002c4760b6c540038bbab49c5efc3",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "625738f254f26bb6b018b5a39f6952da8754e326",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T10:11:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "625738f254f26bb6b018b5a39f6952da8754e326",
+        "method": "fixed recursive tree exact path/blob/size readback after chunked-transfer repair",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/101-otus-spilocephalus-v7.png",
+            "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
+            "size": 2890356
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/101-otus-spilocephalus-v7-generated-master.png",
+            "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
+            "size": 2890356
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/101-otus-spilocephalus-v7-reviewed-master.png",
+            "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
+            "size": 2890356
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/101-otus-spilocephalus-v7-fledgling.png",
+            "sha": "1e2061594898fed7a9ca80709a7bc6b45b62e32a",
+            "size": 711840
+          }
+        },
+        "manifest_counts": {
+          "legacy": 602,
+          "design": 601,
+          "production": 592
+        },
+        "tree": {
+          "entries": 2295,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:03:00+08:00"
+  "updated_at": "2026-10-31T10:11:00+08:00"
 }

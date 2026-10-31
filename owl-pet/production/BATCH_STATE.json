@@ -9163,9 +9163,20 @@
           "commit_sha": "e91422cabccd0d0b6791088a21838ef44749b2b6",
           "run_record": "owl-pet/production/runs/20261031T101100+0800-cycle-3.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species": "Otus spilocephalus",
+          "species_id": 101,
+          "version": 7,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "625738f254f26bb6b018b5a39f6952da8754e326",
+          "run_record": "owl-pet/production/runs/20261031T094630+0800-cycle-4.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "last_checkpoint": {
         "cycle": 4,
         "species": "Otus spilocephalus",
@@ -9173,10 +9184,12 @@
         "version": 7,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T094630+0800-cycle-4",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261031T094630+0800-cycle-4.md",
-        "at": "2026-10-31T10:07:00+08:00",
+        "at": "2026-10-31T10:11:00+08:00",
         "evidence": {
+          "fixed_archive_commit": "625738f254f26bb6b018b5a39f6952da8754e326",
+          "repair_of_failed_archive": "98f0e3d284a9dfe6eefb8de9a4b41ba1e592c7f4",
           "assets": {
             "concept": {
               "path": "owl-pet/design/concepts/101-otus-spilocephalus-v7.png",
@@ -9204,25 +9217,16 @@
             "design": 601,
             "production": 592
           },
+          "tree": {
+            "entries": 2295,
+            "truncated": false
+          },
           "unique_species": "175/251",
           "scientifically_verified": false,
-          "fixed_readback_pending": true,
-          "cycle_credit": false,
-          "transfer_correction": {
-            "failed_archive": "98f0e3d284a9dfe6eefb8de9a4b41ba1e592c7f4",
-            "observed_truncated_master": {
-              "sha": "444e2c3b73c4a81877067df6909f1cd68fdd58b8",
-              "size": 786446
-            },
-            "recovered_full_master": {
-              "sha": "83149dc6294002c4760b6c540038bbab49c5efc3",
-              "size": 2890356
-            },
-            "method": "97 checked 30000-byte chunks; base64 length 3853808"
-          }
+          "next_cycle": 5
         }
       },
-      "last_updated_at": "2026-10-31T10:07:00+08:00",
+      "last_updated_at": "2026-10-31T10:11:00+08:00",
       "audit_notes": [
         "2026-10-31T09:27:00+08:00: cycle1 #97 Lophostrix cristata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; v3 actual plate opened; missing repository number97 identified; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T09:34:00+08:00: cycle1 #97 v4 RESEARCH_READY; official erratum excludes Rocha2014 juvenile/flight evidence from Lophostrix; Mikkola pp358–359 and Birds of Bolivia retain white mesoptile/dark face/brown developed folded wings; sources new2/reused2/corrected1; full prompt saved; lease renewed; no credit.",
@@ -9247,38 +9251,12 @@
         "2026-10-31T09:55:00+08:00: cycle4 #101 v7 IMAGE_GENERATED after 42.1-second edit; 1536x1024 PNG persisted; full-frame opened and requested corrections present; crop review pending; no credit.",
         "2026-10-31T09:58:00+08:00: cycle4 #101 v7 REVIEWED with no further edit. Full plate and 560x760 crop opened: exact text/count, low short adult tufts, near-equal adults, dark-neutral juvenile iris, short down-dominant wing and bilateral support pass. PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T10:03:00+08:00: cycle4 #101 v7 ARCHIVED as legacy602/design601/production592; concept/generated/reviewed 444e2c3b73c4a81877067df6909f1cd68fdd58b8/2890356B, crop 1e2061594898fed7a9ca80709a7bc6b45b62e32a/711840B; fixed readback pending; unique175/251; science false; no credit.",
-        "2026-10-31T10:07:00+08:00: cycle4 #101 v7 first archive fixed-tree readback rejected truncated 786446B master blob; crop intact. Full 2890356B PNG re-read in 97 checked chunks to blob 83149dc6294002c4760b6c540038bbab49c5efc3; repair archive pending; no credit."
+        "2026-10-31T10:07:00+08:00: cycle4 #101 v7 first archive fixed-tree readback rejected truncated 786446B master blob; crop intact. Full 2890356B PNG re-read in 97 checked chunks to blob 83149dc6294002c4760b6c540038bbab49c5efc3; repair archive pending; no credit.",
+        "2026-10-31T10:11:00+08:00: cycle4 #101 v7 VERIFIED at repaired fixed archive 625738f254f26bb6b018b5a39f6952da8754e326; non-truncated 2295-entry tree, exact full master/crop/manifest/support tuples passed after rejecting the truncated first transfer. Batch4/6 next5; unique175/251; science false; lease released."
       ],
-      "active_lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261031T094630+0800-cycle-4",
-        "cycle": 4,
-        "species": "Otus spilocephalus",
-        "species_id": 101,
-        "version": 7,
-        "heartbeat_at": "2026-10-31T10:07:00+08:00",
-        "expires_at": "2026-10-31T10:22:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261031T094630+0800-cycle-4",
-        "cycle": 4,
-        "species": "Otus spilocephalus",
-        "species_id": 101,
-        "version": 7,
-        "heartbeat_at": "2026-10-31T10:07:00+08:00",
-        "expires_at": "2026-10-31T10:22:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 4,
-        "species": "Otus spilocephalus",
-        "species_id": 101,
-        "version": 7,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T094630+0800-cycle-4",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T094630+0800-cycle-4.md"
-      }
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
   "lease": null,

@@ -17858,7 +17858,68 @@
         "v1_integrity_verified": true,
         "archive_repair_verified": true
       }
+    },
+    {
+      "id": "177-otus-hartlaubi-v2",
+      "path": "design/concepts/177-otus-hartlaubi-v2.png",
+      "species_id": 177,
+      "scientific_name": "Otus hartlaubi",
+      "historical_names": [
+        "Athene hartlaubi"
+      ],
+      "common_name": "São Tomé Scops Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 full-resolution evidence correction. Melo et al. five-bird morphometrics support an extremely small compact adult but are unsexed, so v2 does not turn the older modest-female statement into a visible size rule. Adults remain near-equal with low tufts, yellow eyes/bill/cere, broken pale scapular areas and restrained distal tarsus exposure. The centre bird is an age/flight-unknown paler finely barred mesoptile; October fledgling timing is not used to infer mobility. Initial adult-like long spotted juvenile remiges were shortened/softened in edit1. Full plate and two original-detail crops passed. PASS_WITH_LIMITATIONS; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "STSO-MELO-ETAL-2022-P7-P27",
+        "STSO-IUCN-JONES-ETAL-1991-P72-73",
+        "STSO-ITIS-555374-2026",
+        "STSO-MIKKOLA-2013-P136",
+        "STSO-BIRDLIFE-RDB-1985-P326"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/177-otus-hartlaubi-v2.md",
+      "run_record": "production/runs/20261101T044100+0800-cycle-5.md",
+      "reviewed_at": "2026-11-01T04:52:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "99d160c4390921db05a4b71e77f8bb66ff42ab5e40959bb18e854cb70b9e64f4",
+      "size_bytes": 3036655,
+      "initial_generated_path": "production/generated/177-otus-hartlaubi-v2-generated-master.png",
+      "initial_generated_blob": "a2f1a2a7b4dcf264e5a0e7a66bd3e630863bee13",
+      "initial_generated_sha256": "faa0020cfa45317a614c58a07e4dd182faaf3cb5d19caa31277d9793d3c75aac",
+      "initial_generated_size_bytes": 3164805,
+      "generated_path": "production/generated/177-otus-hartlaubi-v2-edit1.png",
+      "generated_blob": "49d0e9edcd0964b1c99999c0e611761ca8f7bf52",
+      "generated_sha256": "99d160c4390921db05a4b71e77f8bb66ff42ab5e40959bb18e854cb70b9e64f4",
+      "generated_size_bytes": 3036655,
+      "reviewed_path": "production/reviewed/177-otus-hartlaubi-v2-reviewed-master.png",
+      "reviewed_blob": "49d0e9edcd0964b1c99999c0e611761ca8f7bf52",
+      "reviewed_sha256": "99d160c4390921db05a4b71e77f8bb66ff42ab5e40959bb18e854cb70b9e64f4",
+      "reviewed_size_bytes": 3036655,
+      "review_crop_path": "production/review-crops/177-otus-hartlaubi-v2-mesoptile.png",
+      "review_crop_blob": "4feab056d37d0ab7b0757c40507ca08bdad5fcf1",
+      "review_crop_sha256": "4ea8a6e44c1fa169da1d1797d41857c197465aa1255c95872474716bb2fc8c3b",
+      "review_crop_size_bytes": 725605,
+      "auxiliary_review_crop_path": "production/review-crops/177-otus-hartlaubi-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "6780f6dfb13982d01bc9d3df29b3b04614073bc7",
+      "auxiliary_review_crop_sha256": "6b8ed41e61c3549ffa8c51da476e03c62e5253d5408fb285c25652131272a317",
+      "auxiliary_review_crop_size_bytes": 1814462,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "49d0e9edcd0964b1c99999c0e611761ca8f7bf52",
+      "v1_integrity": {
+        "git_blob": "f8a38c7c7696418942548dd6a9df0f5fe24c5728",
+        "size_bytes": 680269,
+        "sha256": "211730793e7f02f6666264249d9ace4f1a6be0015458a6ec40c26a8dded53547",
+        "archive_commit": "c404c4ecaf832e9c39cb01ceecb750633099b6ee"
+      }
     }
   ],
-  "updated_at": "2026-11-01T04:40:00+08:00"
+  "updated_at": "2026-11-01T04:54:00+08:00"
 }

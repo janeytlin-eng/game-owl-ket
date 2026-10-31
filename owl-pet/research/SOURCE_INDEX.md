@@ -1135,3 +1135,47 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limitations / conflicts:** secondary guide; its “no data” sex statement is older than the ABSA/HANZAB synthesis showing overlapping measurements and slightly heavier females. It does not supply a day-age or wing-growth sequence. First-down colour is not applied to the later nestling selected from the 2013 field photograph.
 - **Design / review support:** adult identity baseline and an explicit warning not to convert the age-unknown later juvenile into an unsupported hatchling. Linked to `species/121-ninox-leucopsis-v3.md` and run `production/runs/20261031T144851+0800-cycle-6.md`.
 
+
+## 2026-10-31 · #122 *Otus megalotis* v3 evidence refresh
+
+### PSO-MIRANDA-2011
+
+- **Stable ID / title:** `PSO-MIRANDA-2011` — “Phylogeny and Taxonomic Review of Philippine Lowland Scops Owls (Strigiformes): Parallel Diversification of Highland and Lowland Clades.”
+- **Authors / year / type:** Hector C. Miranda Jr., Daniel M. Brooks & Robert S. Kennedy; 2011; peer-reviewed primary taxonomy and museum morphometrics.
+- **URL / access:** https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf ; accessed 2026-10-31.
+- **Species / pages read:** Luzon *Otus megalotis*, adults; printed pp.444 and 448–450 (Methods, Fig.3, Plumage and Morphometric Variation, Taxonomic Changes).
+- **Useful facts:** known-sex adult sample 11 male/10 female; Luzon unit supported as a full species; scapular stripes and tarsal feathers extending onto the upper foot diagnose nominate *megalotis*; ashy-brown underparts/brownish nape; a minority red morph. Female group measurements trend larger, but no universal standing-height ratio is supplied.
+- **Limits / decision:** museum samples and group statistics, not a development series. Use only a subtle female-fuller direction and preserve the gray-brown morph; do not infer juvenile chronology.
+- **Links:** `species/122-otus-megalotis-v3.md`; `production/runs/20261031T150240+0800-cycle-1.md`.
+
+### PSO-MIK2013-P170
+
+- **Stable ID / title:** `PSO-MIK2013-P170` — *Owls of the World: A Photographic Guide*, Luzon Lowland Scops Owl account.
+- **Author / year / type:** Heimo Mikkola; 2013; user-uploaded photographic guide.
+- **Access / page:** Library file `libfile_916e2244186c81918fe5a0716884b8c9`; directly read 2026-10-31, printed p.170 / uploaded PDF p.172.
+- **Species / stage:** *Otus megalotis* adult diagnosis and brief juvenile plumage synopsis.
+- **Useful facts:** 23–28 cm, 200–310 g, wing 165–210 mm; long ear tufts; gray/rufous morphs; warm orange-brown eyes; horn-coloured bill; feathered tarsi; dense tropical/secondary woodland. Juvenile head/neck rufous-buff and finely black-barred with rufous face and fine lower-body bars.
+- **Limits / decision:** secondary account; no exact juvenile age, flight threshold or literal folded-wing geometry. Use adult identity baseline and a barred rufous juvenile direction only.
+- **Links:** `species/122-otus-megalotis-v3.md`; v2 preserved historically.
+
+### PSO-PROJECTNOAH-2023
+
+- **Stable ID / title:** `PSO-PROJECTNOAH-2023` — “Philippine Scops Owl — *Otus megalotis*.”
+- **Author / date / type:** John B.; photographed 5 May and published 9 May 2023; first-person community field observation with photographs.
+- **URL / access:** https://projectnoah.org/spottings/philippine-scops-owl-1 ; accessed 2026-10-31; Field Notes and image captions.
+- **Species / stage:** age-unspecified baby/juvenile at a backyard mango tree, Palauig, Philippines.
+- **Useful facts:** juvenile fluttered down while controlling descent with developing wings, could not fly back to mother/sibling, later crossed the yard, climbed a mahogany trunk and was high in the tree the next day; mother reportedly continued feeding.
+- **Limits / decision:** one unsystematic observation, no measurements or verified age. Supports a mobile, supported pre-competent flyer and rejects adult flight performance, but cannot set exact wing length or chronology.
+- **Links:** `species/122-otus-megalotis-v3.md`; v3 review boundary.
+
+### PSO-OWLPAGES-2012
+
+- **Stable ID / title:** `PSO-OWLPAGES-2012` — “Philippine Scops Owl (*Otus megalotis*) juvenile.”
+- **Photographer / date / type:** Bram Demeulemeester; Mount Data, Luzon, April 2012; dated direct juvenile photograph metadata.
+- **URL / access:** https://www.owlpages.com/owls/species.php?i=82 ; accessed 2026-10-31.
+- **Useful fact:** the identified juvenile is securely perched on a moss/lichen branch; useful real-bird comparator for support and fluffy proportions.
+- **Limits / decision:** no age, sex, flight observation or measurements. Do not infer a universal feather map or ability threshold.
+- **Links:** `species/122-otus-megalotis-v3.md`; v3 review boundary.
+
+**Mapping:** *Otus megalotis* (Luzon lowland unit; historical broad treatments excluded) → PSO-MIRANDA-2011, PSO-MIK2013-P170, PSO-PROJECTNOAH-2023, PSO-OWLPAGES-2012, reused PSO-JOSEF-2012 / PSO-JOSEF-TANEDO-2013 / PSO-MACAULAY-2010. Topics: adult diagnosis, old-name/species split, restrained sex-size direction, juvenile support and limited flight ability, wing/tail maturity boundary. New-to-index 4 / reused 3 / corrected actual-image claim 1. Science remains false.
+

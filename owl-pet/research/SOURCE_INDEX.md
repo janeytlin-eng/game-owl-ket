@@ -1179,3 +1179,19 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 
 **Mapping:** *Otus megalotis* (Luzon lowland unit; historical broad treatments excluded) → PSO-MIRANDA-2011, PSO-MIK2013-P170, PSO-PROJECTNOAH-2023, PSO-OWLPAGES-2012, reused PSO-JOSEF-2012 / PSO-JOSEF-TANEDO-2013 / PSO-MACAULAY-2010. Topics: adult diagnosis, old-name/species split, restrained sex-size direction, juvenile support and limited flight ability, wing/tail maturity boundary. New-to-index 4 / reused 3 / corrected actual-image claim 1. Science remains false.
 
+### PEO-MIK2013-P294
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Access / pages:** Library `libfile_916e2244186c81918fe5a0716884b8c9`; read 2026-10-31; printed pp.294–295 / PDF pp.296–297.
+- **Type / taxon / stage:** secondary guide; *Bubo philippensis* = current *Ketupa philippensis*; adults plus photographed immature.
+- **Facts:** adult 40–43 cm, short outward tufts, yellow eyes, pale bluish bill, feathered tarsi; no sexual size/colour information. Immature has blackish upperpart streaks and natal-down remnants on head.
+- **Limits:** juvenile otherwise “undescribed”; no age, iris chronology, development series or sexed ratio. High confidence for page/caption, not a feather map.
+- **Decision:** adults near equal; later juvenile may retain head down with formed upperpart feathers; reject a clean miniature-adult head/body and exact age.
+
+### PEO-BIRDFORUM-2012
+- **Title / author / date:** “Philippine Eagle Owl (juvenile)” / martinuk / photographed 3 March 2012, posted 9 April 2012.
+- **URL / locality:** https://www.birdforum.net/gallery/philippine-eagle-owl-juvenile.410309/ ; Angono Petroglyphs, Rizal, Luzon; read 2026-10-31.
+- **Type / taxon:** community photo metadata; *Bubo philippensis philippensis* = *Ketupa philippensis philippensis*; age unknown.
+- **Value / limits:** dated real-juvenile comparator; no age, sex, measurements or behavior. Moderate metadata confidence, low development inference.
+
+**Mapping — #124 v3:** current *Ketupa philippensis* / historical *Bubo philippensis* → `PEO-MIK2013-P294` adult/head-down immature cue; `PEO-URRIZA-2017` at-least-70-day minimum; `PEO-OCHAVO-2012` later juvenile movement; `PEO-BIRDFORUM-2012` dated comparator; reused `PEO-ARTUSO-2015` and `PEO-AVIBASE-MAPPING`. New2 / reused4 / corrected1. Exact age, iris chronology, feather sequence and sex ratio unknown.
+

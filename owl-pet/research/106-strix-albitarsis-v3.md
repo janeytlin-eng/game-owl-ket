@@ -19,3 +19,11 @@ The intact v1 was opened at original resolution. It has exactly three supported 
 
 Exact juvenile age, iris chronology, wing tract sequence, flight ability, nest site, toe-feather boundary and visible sex-size ratio remain unknown. The fern-base scene is a roost, not a nest; science stays false.
 
+## Image review and iteration
+
+- **Problem found in first render:** the birds and plumage passed the evidence boundary, but the broad moss-covered loose-twig support still read as a constructed nest platform.
+- **Evidence applied:** Greeney 2003 pp.67–68 calls the documented site a day roost beside the bases of large tree-fern leaves and explicitly says nesting sites were unknown.
+- **Targeted change:** replaced only the immediate substrate with attached living tree-fern rachises and crown forks; retained all three birds, title, labels, dark irises, scale, juvenile stage and poses.
+- **Recheck:** the original-resolution plate plus juvenile and feet/support crops were reopened. All birds have natural bilateral support; no bowl, eggs or piled nesting material remains. PASS_WITH_LIMITATIONS; scientific status remains false.
+- **General rule actually applied:** habitat nouns must be checked against substrate geometry. A “day roost” cannot be illustrated with nest-like loose material when the source distinguishes roost from nest.
+

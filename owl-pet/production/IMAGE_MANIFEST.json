@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T03:38:29Z",
+  "updated": "2026-10-31T03:40:22Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14121,10 +14121,59 @@
       "auxiliary_review_crop_blob": "bccb2d52b4c8ed7aaa0bf4b6a87aed167e392a90",
       "auxiliary_review_crop_sha256": "051432c223186fedb88fe05ccfcdaa204d12a8bea4311861e922505d55b80d61",
       "auxiliary_review_crop_size_bytes": 848752,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "4b0b7c71f1b9ce39564886878450750f57afc8b2",
-      "exact_readback": false
+      "exact_readback": true,
+      "fixed_archive_commit": "199e5d01496e70d2a9bb90f6e6bce6da7e9577df",
+      "verified_at": "2026-10-31T03:40:22Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "199e5d01496e70d2a9bb90f6e6bce6da7e9577df",
+        "method": "non-truncated recursive tree, commit-pinned manifest JSON parse, exact path/blob/size match, and commit-pinned raw concept download byte comparison",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/104-asio-madagascariensis-v4.png",
+            "sha": "4b0b7c71f1b9ce39564886878450750f57afc8b2",
+            "size": 3086916
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/104-asio-madagascariensis-v4-generated-master.png",
+            "sha": "4b0b7c71f1b9ce39564886878450750f57afc8b2",
+            "size": 3086916
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/104-asio-madagascariensis-v4-reviewed-master.png",
+            "sha": "4b0b7c71f1b9ce39564886878450750f57afc8b2",
+            "size": 3086916
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/104-asio-madagascariensis-v4-juvenile.png",
+            "sha": "8ef7401f07e7e5dfd2f0b63c3dd12d2e43f5f5bd",
+            "size": 610434
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/104-asio-madagascariensis-v4-feet.png",
+            "sha": "bccb2d52b4c8ed7aaa0bf4b6a87aed167e392a90",
+            "size": 848752
+          }
+        },
+        "manifest_counts": {
+          "legacy": 605,
+          "design": 604,
+          "production": 595
+        },
+        "tree": {
+          "entries": 2315,
+          "truncated": false
+        },
+        "raw_original": {
+          "size": 3086916,
+          "sha256": "ff8fd05590d867ee0f16aecf9f0a3628c617b5c22c11e4d48c5f5cbf81cc7e1d",
+          "byte_identical": true
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T03:38:29Z"
+  "updated_at": "2026-10-31T03:40:22Z"
 }

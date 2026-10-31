@@ -1,3 +1,9 @@
+## 2026-10-31 #131 *Megascops watsonii* v3 VERIFIED
+
+- Fixed archive `7618582cbd4389179e51d65af4a901f1b2da643a` returned a non-truncated 2,392-entry tree with exact six-image path/blob/byte tuples; all three manifests parsed at 615/614/605 and contained matching #131 entries.
+- One recovered imagegen edit compacted the evidence-bounded older young's wing above both feet; full plate plus juvenile and feet crops passed with limitations. Unique remains **175/251**; science false; batch 5/6, next cycle 6.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7618582cbd4389179e51d65af4a901f1b2da643a/owl-pet/design/concepts/131-megascops-watsonii-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/7618582cbd4389179e51d65af4a901f1b2da643a) · [Research](research/species/131-megascops-watsonii-v3.md) · [Run](production/runs/20261031T181700+0800-cycle-5.md)
+
 ## 2026-10-31 #131 *Megascops watsonii* v3 ARCHIVED — fixed readback pending
 
 - Narrow Guiana Shield SCIENCE_REVISION; v2 reopened and corrected after pixel review found near-clone adults and a long sleek juvenile wing reaching near the feet.

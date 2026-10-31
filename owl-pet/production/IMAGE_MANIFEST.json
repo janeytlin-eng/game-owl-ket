@@ -15131,9 +15131,59 @@
       "auxiliary_review_crop_blob": "710643435ccf84f4446345214e77517e5dffda44",
       "auxiliary_review_crop_sha256": "09674f5f10ab594a028ad5d02b0c6abeb5feeffd993bf06bc66eef000afd0c93",
       "auxiliary_review_crop_size_bytes": 439703,
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+      "fixed_archive_commit": "7618582cbd4389179e51d65af4a901f1b2da643a",
+      "verified_at": "2026-10-31T10:47:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "7618582cbd4389179e51d65af4a901f1b2da643a",
+        "method": "immutable commit tree plus exact Git-object path/blob/byte readback and complete connector JSON parsing",
+        "tree_sha": "4f6d485c03deb77e0e1ba80b6400affa871c4743",
+        "tree_count": 2392,
+        "tree_truncated": false,
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/131-megascops-watsonii-v3.png",
+            "sha": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+            "size": 2817883
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/131-megascops-watsonii-v3-generated-master.png",
+            "sha": "393ca1478a208be3b9b93d19190788f5a656ff61",
+            "size": 2898792
+          },
+          "intermediate_edit": {
+            "path": "owl-pet/production/generated/131-megascops-watsonii-v3-edit1.png",
+            "sha": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+            "size": 2817883
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/131-megascops-watsonii-v3-reviewed-master.png",
+            "sha": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+            "size": 2817883
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/131-megascops-watsonii-v3-juvenile.png",
+            "sha": "42e40ea76bd3bb03b9030e0a37a0faa3d19688ec",
+            "size": 637444
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/131-megascops-watsonii-v3-feet.png",
+            "sha": "710643435ccf84f4446345214e77517e5dffda44",
+            "size": 439703
+          }
+        },
+        "manifest_counts": {
+          "legacy": 615,
+          "design": 614,
+          "production": 605
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:43:00Z"
+  "updated_at": "2026-10-31T10:47:00Z"
 }

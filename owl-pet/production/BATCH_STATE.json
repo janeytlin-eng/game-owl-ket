@@ -9532,110 +9532,24 @@
           "commit_sha": "793c769923b8a255846054a8e0371b59e2989cf5",
           "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops watsonii",
+          "species_id": 131,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7618582cbd4389179e51d65af4a901f1b2da643a",
+          "run_record": "owl-pet/production/runs/20261031T181700+0800-cycle-5.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T181700+0800-cycle-5",
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 5,
-        "heartbeat_at": "2026-10-31T18:43:00+08:00",
-        "expires_at": "2026-10-31T18:58:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T181700+0800-cycle-5",
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 5,
-        "heartbeat_at": "2026-10-31T18:43:00+08:00",
-        "expires_at": "2026-10-31T18:58:00+08:00"
-      },
-      "in_progress": {
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 5,
-        "run_id": "20261031T181700+0800-cycle-5",
-        "species": "Megascops watsonii",
-        "species_id": 131,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T181700+0800-cycle-5.md",
-        "at": "2026-10-31T18:43:00+08:00",
-        "recovered_edit1_sha256": "a0cf8c66450bbf0ef7364b8606877022960c43c38cee72035d53702a50eb1121",
-        "reviewed_commit": "6d5b3439b0ba5fc8d08dcb6cf0d190892df0f486",
-        "final_sha256": "a0cf8c66450bbf0ef7364b8606877022960c43c38cee72035d53702a50eb1121",
-        "fixed_archive_commit": "7618582cbd4389179e51d65af4a901f1b2da643a",
-        "manifest_counts": {
-          "legacy": 615,
-          "design": 614,
-          "production": 605
-        }
-      },
+      "next_cycle": 6,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
       "previous_checkpoint": {
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 3,
-        "species": "Megascops marshalli",
-        "species_id": 128,
-        "version": 8,
-        "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-        "run_id": "20261031T173539+0800-cycle-3",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T173539+0800-cycle-3.md",
-        "at": "2026-10-31T17:52:00+08:00",
-        "evidence": {
-          "fixed_archive_commit": "3e343d1cb731e1642e4cf5c54b0bb17257b0c159",
-          "tree_sha": "6c33809f713db6d880c1b95d82cac0f4c757670d",
-          "tree_count": 2317,
-          "tree_truncated": false,
-          "assets": {
-            "concept": {
-              "path": "owl-pet/design/concepts/128-megascops-marshalli-v8.png",
-              "sha": "9e6c080f980cea2bc724f213eefd33753cddf31e",
-              "size": 2926987
-            },
-            "generated": {
-              "path": "owl-pet/production/generated/128-megascops-marshalli-v8-generated-master.png",
-              "sha": "da987b8091c78c3f6933fbf0dd0e77794abce80e",
-              "size": 3065499
-            },
-            "intermediate_edit": {
-              "path": "owl-pet/production/generated/128-megascops-marshalli-v8-edit1.png",
-              "sha": "9e6c080f980cea2bc724f213eefd33753cddf31e",
-              "size": 2926987
-            },
-            "reviewed": {
-              "path": "owl-pet/production/reviewed/128-megascops-marshalli-v8-reviewed-master.png",
-              "sha": "9e6c080f980cea2bc724f213eefd33753cddf31e",
-              "size": 2926987
-            },
-            "immature_crop": {
-              "path": "owl-pet/production/review-crops/128-megascops-marshalli-v8-immature.png",
-              "sha": "b1549d01bdccfb71d0d7ef77622c00efdeaaf434",
-              "size": 744778
-            },
-            "feet_crop": {
-              "path": "owl-pet/production/review-crops/128-megascops-marshalli-v8-feet.png",
-              "sha": "01b27261f36ee606f2ee8905ebe10e2f77326058",
-              "size": 617115
-            }
-          },
-          "manifest_counts": {
-            "legacy": 613,
-            "design": 612,
-            "production": 603
-          },
-          "manifest_json_valid": true,
-          "path_blob_readback": true,
-          "png_full_decode": true,
-          "sha256_verified": true,
-          "unique_species": "175/251",
-          "scientifically_verified": false,
-          "next_cycle": 4,
-          "batch_complete": false
-        }
-      },
-      "last_checkpoint": {
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 4,
         "species": "Megascops koepckeae",
@@ -9695,6 +9609,69 @@
           "unique_species": "175/251",
           "scientifically_verified": false,
           "next_cycle": 5,
+          "batch_complete": false
+        }
+      },
+      "last_checkpoint": {
+        "batch_id": "2026-10-31T1502+0800",
+        "cycle": 5,
+        "species": "Megascops watsonii",
+        "species_id": 131,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T181700+0800-cycle-5",
+        "stage": "VERIFIED",
+        "run_record": "owl-pet/production/runs/20261031T181700+0800-cycle-5.md",
+        "at": "2026-10-31T18:47:00+08:00",
+        "evidence": {
+          "fixed_archive_commit": "7618582cbd4389179e51d65af4a901f1b2da643a",
+          "tree_sha": "4f6d485c03deb77e0e1ba80b6400affa871c4743",
+          "tree_count": 2392,
+          "tree_truncated": false,
+          "assets": {
+            "concept": {
+              "path": "owl-pet/design/concepts/131-megascops-watsonii-v3.png",
+              "sha": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+              "size": 2817883
+            },
+            "generated": {
+              "path": "owl-pet/production/generated/131-megascops-watsonii-v3-generated-master.png",
+              "sha": "393ca1478a208be3b9b93d19190788f5a656ff61",
+              "size": 2898792
+            },
+            "intermediate_edit": {
+              "path": "owl-pet/production/generated/131-megascops-watsonii-v3-edit1.png",
+              "sha": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+              "size": 2817883
+            },
+            "reviewed": {
+              "path": "owl-pet/production/reviewed/131-megascops-watsonii-v3-reviewed-master.png",
+              "sha": "7d8828d182bcca295cb48d0fd370e1977a8a1ae4",
+              "size": 2817883
+            },
+            "juvenile_crop": {
+              "path": "owl-pet/production/review-crops/131-megascops-watsonii-v3-juvenile.png",
+              "sha": "42e40ea76bd3bb03b9030e0a37a0faa3d19688ec",
+              "size": 637444
+            },
+            "feet_crop": {
+              "path": "owl-pet/production/review-crops/131-megascops-watsonii-v3-feet.png",
+              "sha": "710643435ccf84f4446345214e77517e5dffda44",
+              "size": 439703
+            }
+          },
+          "manifest_counts": {
+            "legacy": 615,
+            "design": 614,
+            "production": 605
+          },
+          "manifest_json_valid": true,
+          "path_blob_readback": true,
+          "png_full_decode": true,
+          "sha256_verified": true,
+          "unique_species": "175/251",
+          "scientifically_verified": false,
+          "next_cycle": 6,
           "batch_complete": false
         }
       }
@@ -11726,5 +11703,20 @@
       "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:43:00+08:00"
+  "last_updated": "2026-10-31T18:47:00+08:00",
+  "audit_log": [
+    {
+      "at": "2026-10-31T18:47:00+08:00",
+      "event": "cycle_verified",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 5,
+      "species": "Megascops watsonii",
+      "species_id": 131,
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "commit_sha": "7618582cbd4389179e51d65af4a901f1b2da643a",
+      "run_record": "owl-pet/production/runs/20261031T181700+0800-cycle-5.md",
+      "next_cycle": 6
+    }
+  ]
 }

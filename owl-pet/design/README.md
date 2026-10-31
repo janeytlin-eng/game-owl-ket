@@ -2778,3 +2778,8 @@ Fixed archive [`793c769923b8a255846054a8e0371b59e2989cf5`](https://github.com/ja
 ## 2026-10-31 — #131 *Megascops watsonii* v3
 
 Narrow Guiana Shield science revision. Archived v2 pixels, not its prose, established the correction target: near-clone adults and an overly long sleek juvenile wing. One recovered imagegen edit shortened the evidence-bounded older young's formed wing above both feet while retaining residual down, dark eyes, hidden tail and bilateral branch grip. Full plate plus juvenile and feet crops passed with limitations. Exact juvenile age/flight/tract chronology and sex-size ratio remain unknown; science false; unique 175/251. [Concept](concepts/131-megascops-watsonii-v3.png) · [Research](../research/species/131-megascops-watsonii-v3.md) · [Run](../production/runs/20261031T181700+0800-cycle-5.md).
+
+
+### #131 v3 verified — 2026-10-31T18:47:00+08:00
+
+Fixed archive [`7618582cbd4389179e51d65af4a901f1b2da643a`](https://github.com/janeytlin-eng/game-owl-ket/commit/7618582cbd4389179e51d65af4a901f1b2da643a) passed exact six-image path/blob/byte readback in a non-truncated 2,392-entry tree; manifests 615/614/605. The compact-wing correction is visually verified for this age-unknown older-young instance, not generalized as a universal developmental rule. Science remains false; batch 5/6, next cycle 6. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7618582cbd4389179e51d65af4a901f1b2da643a/owl-pet/design/concepts/131-megascops-watsonii-v3.png?raw=1).

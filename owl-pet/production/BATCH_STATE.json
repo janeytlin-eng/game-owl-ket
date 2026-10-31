@@ -12324,12 +12324,12 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T034300+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261101T034300+0800-cycle-4.md",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "lease": {
           "owner": "codex-automation",
           "run_id": "20261101T034300+0800-cycle-4",
-          "heartbeat_at": "2026-11-01T04:32:00+08:00",
-          "expires_at": "2026-11-01T04:47:00+08:00"
+          "heartbeat_at": "2026-11-01T04:34:00+08:00",
+          "expires_at": "2026-11-01T04:49:00+08:00"
         }
       },
       "last_checkpoint": {
@@ -12944,8 +12944,8 @@
   "active_lease": {
     "owner": "codex-automation",
     "run_id": "20261101T034300+0800-cycle-4",
-    "heartbeat_at": "2026-11-01T04:32:00+08:00",
-    "expires_at": "2026-11-01T04:47:00+08:00"
+    "heartbeat_at": "2026-11-01T04:34:00+08:00",
+    "expires_at": "2026-11-01T04:49:00+08:00"
   },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
@@ -15993,10 +15993,33 @@
         "review_outcome": "PASS_WITH_LIMITATIONS",
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261101T040500+0800",
+      "cycle": 4,
+      "run_id": "20261101T034300+0800-cycle-4",
+      "species_id": 176,
+      "stage": "ARCHIVED",
+      "at": "2026-11-01T04:34:00+08:00",
+      "credited": false,
+      "evidence": {
+        "concept_path": "owl-pet/design/concepts/176-otus-pembaensis-v2.png",
+        "concept_blob": "5ce10cefd72d529ccc8a708b7d9376c43302c80b",
+        "archive_commit": "990ba79bcf7bc66bb349b316262140b624cb1b49",
+        "manifest_counts": {
+          "design_image": 643,
+          "design_legacy": 644,
+          "production": 634
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true
+      }
     }
   ],
   "active_batch_id": "20261101T040500+0800",
   "active_cycle": 4,
-  "current_stage": "REVIEWED",
+  "current_stage": "ARCHIVED",
   "next_cycle": 4
 }

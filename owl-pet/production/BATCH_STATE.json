@@ -9486,7 +9486,7 @@
     },
     {
       "batch_id": "2026-10-31T1502+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -9543,118 +9543,24 @@
           "commit_sha": "7618582cbd4389179e51d65af4a901f1b2da643a",
           "run_record": "owl-pet/production/runs/20261031T181700+0800-cycle-5.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "species": "Strix davidi",
+          "species_id": 132,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8d309a328ef66b685c73f4c8c98f3f7b1723fc8e",
+          "run_record": "owl-pet/production/runs/20261031T183900+0800-cycle-6.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T183900+0800-cycle-6",
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 6,
-        "heartbeat_at": "2026-10-31T18:43:26+08:00",
-        "expires_at": "2026-10-31T18:58:30+08:00"
-      },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T183900+0800-cycle-6",
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 6,
-        "heartbeat_at": "2026-10-31T18:43:26+08:00",
-        "expires_at": "2026-10-31T18:58:30+08:00"
-      },
-      "in_progress": {
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 6,
-        "run_id": "20261031T183900+0800-cycle-6",
-        "species": "Strix davidi",
-        "species_id": 132,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T183900+0800-cycle-6.md",
-        "at": "2026-10-31T18:43:26+08:00",
-        "research_record": "owl-pet/research/species/132-strix-davidi-v3.md",
-        "new_sources": 3,
-        "reused_sources": 3,
-        "corrected_claims": 2,
-        "generated_path": "owl-pet/production/generated/132-strix-davidi-v3-generated-master.png",
-        "generated_blob": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
-        "generated_sha256": "97cc98e620426df0e67e9fe5087b9605db21e26700ce8b4fb32c28c21eac61f3",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "edit_count": 0,
-        "nestling_crop_blob": "be6522117be45b8958583082089ee34e2d90f140",
-        "feet_crop_blob": "e2f53320af19ea054e91c2ecd9886c150152ea09",
-        "fixed_archive_commit": "8d309a328ef66b685c73f4c8c98f3f7b1723fc8e",
-        "manifest_counts": {
-          "legacy": 616,
-          "design": 615,
-          "production": 606
-        }
-      },
+      "next_cycle": null,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
       "previous_checkpoint": {
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 4,
-        "species": "Megascops koepckeae",
-        "species_id": 130,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T175400+0800-cycle-4",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
-        "at": "2026-10-31T18:14:00+08:00",
-        "evidence": {
-          "fixed_archive_commit": "793c769923b8a255846054a8e0371b59e2989cf5",
-          "tree_sha": "d0ecc0ccd2c16df5bf8151979dcb787d61c433dd",
-          "tree_count": 2325,
-          "tree_truncated": false,
-          "assets": {
-            "concept": {
-              "path": "owl-pet/design/concepts/130-megascops-koepckeae-v3.png",
-              "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
-              "size": 2826705
-            },
-            "generated": {
-              "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-generated-master.png",
-              "sha": "de24340c28eae425e3d00fced07411fb890da689",
-              "size": 2957013
-            },
-            "intermediate_edit": {
-              "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-edit1.png",
-              "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
-              "size": 2826705
-            },
-            "reviewed": {
-              "path": "owl-pet/production/reviewed/130-megascops-koepckeae-v3-reviewed-master.png",
-              "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
-              "size": 2826705
-            },
-            "juvenile_crop": {
-              "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-juvenile.png",
-              "sha": "f6a974a4685c410d994c20d6c3785d9cd0aee17d",
-              "size": 642693
-            },
-            "feet_crop": {
-              "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-feet.png",
-              "sha": "ac1a534d7e55055a883319f2932f4bfa13b99229",
-              "size": 833346
-            }
-          },
-          "manifest_counts": {
-            "legacy": 614,
-            "design": 613,
-            "production": 604
-          },
-          "manifest_json_valid": true,
-          "path_blob_readback": true,
-          "png_full_decode": true,
-          "sha256_verified": true,
-          "unique_species": "175/251",
-          "scientifically_verified": false,
-          "next_cycle": 5,
-          "batch_complete": false
-        }
-      },
-      "last_checkpoint": {
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 5,
         "species": "Megascops watsonii",
@@ -9715,6 +9621,64 @@
           "scientifically_verified": false,
           "next_cycle": 6,
           "batch_complete": false
+        }
+      },
+      "last_checkpoint": {
+        "batch_id": "2026-10-31T1502+0800",
+        "cycle": 6,
+        "species": "Strix davidi",
+        "species_id": 132,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T183900+0800-cycle-6",
+        "stage": "VERIFIED",
+        "run_record": "owl-pet/production/runs/20261031T183900+0800-cycle-6.md",
+        "at": "2026-10-31T18:44:00+08:00",
+        "evidence": {
+          "fixed_archive_commit": "8d309a328ef66b685c73f4c8c98f3f7b1723fc8e",
+          "tree_sha": "33bc06afcaf1bb48c384af6a924bc84d1c381e31",
+          "tree_count": 2399,
+          "tree_truncated": false,
+          "assets": {
+            "concept": {
+              "path": "owl-pet/design/concepts/132-strix-davidi-v3.png",
+              "sha": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+              "size": 3146202
+            },
+            "generated": {
+              "path": "owl-pet/production/generated/132-strix-davidi-v3-generated-master.png",
+              "sha": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+              "size": 3146202
+            },
+            "reviewed": {
+              "path": "owl-pet/production/reviewed/132-strix-davidi-v3-reviewed-master.png",
+              "sha": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+              "size": 3146202
+            },
+            "nestling_crop": {
+              "path": "owl-pet/production/review-crops/132-strix-davidi-v3-nestling.png",
+              "sha": "be6522117be45b8958583082089ee34e2d90f140",
+              "size": 698002
+            },
+            "feet_crop": {
+              "path": "owl-pet/production/review-crops/132-strix-davidi-v3-feet.png",
+              "sha": "e2f53320af19ea054e91c2ecd9886c150152ea09",
+              "size": 429468
+            }
+          },
+          "manifest_counts": {
+            "legacy": 616,
+            "design": 615,
+            "production": 606
+          },
+          "manifest_json_valid": true,
+          "path_blob_readback": true,
+          "png_full_decode": true,
+          "sha256_verified": true,
+          "unique_species": "175/251",
+          "scientifically_verified": false,
+          "next_cycle": null,
+          "batch_complete": true
         }
       }
     }
@@ -11745,7 +11709,7 @@
       "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:43:26+08:00",
+  "last_updated": "2026-10-31T18:44:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -11759,6 +11723,20 @@
       "commit_sha": "7618582cbd4389179e51d65af4a901f1b2da643a",
       "run_record": "owl-pet/production/runs/20261031T181700+0800-cycle-5.md",
       "next_cycle": 6
+    },
+    {
+      "at": "2026-10-31T18:44:00+08:00",
+      "event": "cycle_verified",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 6,
+      "species": "Strix davidi",
+      "species_id": 132,
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "commit_sha": "8d309a328ef66b685c73f4c8c98f3f7b1723fc8e",
+      "run_record": "owl-pet/production/runs/20261031T183900+0800-cycle-6.md",
+      "next_cycle": null,
+      "batch_complete": true
     }
   ]
 }

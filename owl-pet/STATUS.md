@@ -1,3 +1,9 @@
+## 2026-10-31 #132 *Strix davidi* v3 VERIFIED
+
+- Fixed archive `8d309a328ef66b685c73f4c8c98f3f7b1723fc8e` returned a non-truncated 2,399-entry tree with exact five-image path/blob/byte tuples; all manifests parsed at 616/615/606 with matching #132 entries.
+- Fresh imagegen plate passed whole/nestling/feet review without edit. Taxonomic treatment conflict remains explicit; unique **175/251**, science false. Batch 6/6 COMPLETE.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/8d309a328ef66b685c73f4c8c98f3f7b1723fc8e/owl-pet/design/concepts/132-strix-davidi-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/8d309a328ef66b685c73f4c8c98f3f7b1723fc8e) · [Research](research/species/132-strix-davidi-v3.md) · [Run](production/runs/20261031T183900+0800-cycle-6.md)
+
 ## 2026-10-31 #132 *Strix davidi* v3 ARCHIVED — fixed readback pending
 
 - SCIENCE_REVISION; repository #132 retained while *S. davidi* / *S. uralensis davidi* treatment conflict is recorded. V2's near-clone adults were replaced by distinct near-equal poses; the directly captioned approximately-four-week artificial-box young remains down-rich with hidden wings/tail and bilateral bare-sill support.

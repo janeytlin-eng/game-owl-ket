@@ -2791,3 +2791,8 @@ Timestamp correction for #131 v3: use Git-authoritative 18:35:56+08:00 archive a
 ## 2026-10-31 — #132 *Strix davidi* v3
 
 Fresh science revision with distinct near-equal adult poses and the primary-study approximately-four-week artificial-box young. The young is gray woolly/fine-barred with tawny mask, dark eyes/pinkish lids, pale bill, hidden wings/tail and two-foot bare-sill support; no mature wing, eggs or nest material. Full/crops passed without edit. Taxonomic re-merger conflict is recorded without silently changing project ID or denominator. PASS_WITH_LIMITATIONS; science false; unique175/251. [Concept](concepts/132-strix-davidi-v3.png) · [Research](../research/species/132-strix-davidi-v3.md) · [Run](../production/runs/20261031T183900+0800-cycle-6.md).
+
+
+### #132 v3 verified — 2026-10-31T18:44:00+08:00
+
+Fixed archive [`8d309a328ef66b685c73f4c8c98f3f7b1723fc8e`](https://github.com/janeytlin-eng/game-owl-ket/commit/8d309a328ef66b685c73f4c8c98f3f7b1723fc8e) passed exact five-image path/blob/byte readback in a non-truncated 2,399-entry tree; manifests 616/615/606. The distinct-adult/artificial-box/hidden-wing nestling treatment is verified for this plate; taxonomic consensus and fine developmental timing remain unresolved. Science false; batch 6/6 complete. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/8d309a328ef66b685c73f4c8c98f3f7b1723fc8e/owl-pet/design/concepts/132-strix-davidi-v3.png?raw=1).

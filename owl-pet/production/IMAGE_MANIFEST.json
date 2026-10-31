@@ -15232,9 +15232,54 @@
       "auxiliary_review_crop_blob": "e2f53320af19ea054e91c2ecd9886c150152ea09",
       "auxiliary_review_crop_sha256": "83cd3b7cb350d5bdfcb99d1e0c2032d245560e7d4c1938445929b58618163374",
       "auxiliary_review_crop_size_bytes": 429468,
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+      "fixed_archive_commit": "8d309a328ef66b685c73f4c8c98f3f7b1723fc8e",
+      "verified_at": "2026-10-31T10:44:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "8d309a328ef66b685c73f4c8c98f3f7b1723fc8e",
+        "method": "immutable commit tree plus exact Git-object path/blob/byte readback and complete connector JSON parsing",
+        "tree_sha": "33bc06afcaf1bb48c384af6a924bc84d1c381e31",
+        "tree_count": 2399,
+        "tree_truncated": false,
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/132-strix-davidi-v3.png",
+            "sha": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+            "size": 3146202
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/132-strix-davidi-v3-generated-master.png",
+            "sha": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+            "size": 3146202
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/132-strix-davidi-v3-reviewed-master.png",
+            "sha": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+            "size": 3146202
+          },
+          "nestling_crop": {
+            "path": "owl-pet/production/review-crops/132-strix-davidi-v3-nestling.png",
+            "sha": "be6522117be45b8958583082089ee34e2d90f140",
+            "size": 698002
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/132-strix-davidi-v3-feet.png",
+            "sha": "e2f53320af19ea054e91c2ecd9886c150152ea09",
+            "size": 429468
+          }
+        },
+        "manifest_counts": {
+          "legacy": 616,
+          "design": 615,
+          "production": 606
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:43:08Z"
+  "updated_at": "2026-10-31T10:44:00Z"
 }

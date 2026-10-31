@@ -10219,14 +10219,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261031T234400+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T23:48:00+08:00",
-        "expires_at": "2026-11-01T00:03:00+08:00"
+        "heartbeat_at": "2026-11-01T00:00:00+08:00",
+        "expires_at": "2026-11-01T00:15:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261031T234400+0800-cycle-6",
-        "heartbeat_at": "2026-10-31T23:48:00+08:00",
-        "expires_at": "2026-11-01T00:03:00+08:00"
+        "heartbeat_at": "2026-11-01T00:00:00+08:00",
+        "expires_at": "2026-11-01T00:15:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -10237,7 +10237,7 @@
         "unique_species_increment": 0,
         "run_id": "20261031T234400+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261031T234400+0800-cycle-6.md",
-        "stage": "RESEARCH_READY"
+        "stage": "IMAGE_GENERATED"
       },
       "last_checkpoint": {
         "batch_id": "20261031T2128+0800",
@@ -10300,8 +10300,8 @@
           "batch_complete": false
         }
       },
-      "last_stage": "RESEARCH_READY",
-      "updated_at": "2026-10-31T23:48:00+08:00",
+      "last_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-01T00:00:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10671,6 +10671,23 @@
             "full_prompt_saved": true,
             "juvenile_boundary": "age unknown; closed/downcast eyes; wing and tail largely hidden; two-foot branch support; no flight claim",
             "lease_expires_at": "2026-11-01T00:03:00+08:00"
+          }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261031T234400+0800-cycle-6",
+          "species": "Ninox mindorensis",
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-01T00:00:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "generated_master": "owl-pet/production/generated/146-ninox-mindorensis-v2-generated-master.png",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 2552315,
+            "sha256": "f5e0ff2f789009a3782fe4dfa3759e58e0702778010e76d5727c0bc5daea8a19",
+            "visual_review_pending": true,
+            "lease_expires_at": "2026-11-01T00:15:00+08:00"
           }
         }
       ]

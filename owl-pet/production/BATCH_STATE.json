@@ -10216,9 +10216,29 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
+      "active_lease": {
+        "owner": "codex-work",
+        "run_id": "20261031T234400+0800-cycle-6",
+        "heartbeat_at": "2026-10-31T23:44:00+08:00",
+        "expires_at": "2026-10-31T23:59:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261031T234400+0800-cycle-6",
+        "heartbeat_at": "2026-10-31T23:44:00+08:00",
+        "expires_at": "2026-10-31T23:59:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 6,
+        "species": "Ninox mindorensis",
+        "species_id": 146,
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "run_id": "20261031T234400+0800-cycle-6",
+        "run_record": "owl-pet/production/runs/20261031T234400+0800-cycle-6.md",
+        "stage": "STARTED"
+      },
       "last_checkpoint": {
         "batch_id": "20261031T2128+0800",
         "cycle": 5,
@@ -10280,8 +10300,8 @@
           "batch_complete": false
         }
       },
-      "last_stage": "VERIFIED",
-      "updated_at": "2026-10-31T23:42:00+08:00",
+      "last_stage": "STARTED",
+      "updated_at": "2026-10-31T23:44:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10609,6 +10629,22 @@
             "scientifically_verified": false,
             "next_cycle": 6,
             "batch_complete": false
+          }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261031T234400+0800-cycle-6",
+          "species": "Ninox mindorensis",
+          "stage": "STARTED",
+          "at": "2026-10-31T23:44:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "selection": "next numbered archived plate after verified #145 v2; #146 has only v1",
+            "main_head": "4cff84c571424143c56f11b623274afd2424b111",
+            "v1_path": "owl-pet/design/concepts/146-ninox-mindorensis-v1.png",
+            "v1_sha256": "b92219dc28e0cf5876aff519ee81a58a1544ae1c8042bafb736c2bc4a9165103",
+            "visual_trigger": "older juvenile has adult-length crisp barred wing/tail and bright adult-yellow iris; adult barring is overly regular",
+            "lease_expires_at": "2026-10-31T23:59:00+08:00"
           }
         }
       ]

@@ -25,3 +25,8 @@ First render and 650×650 mesoptile crop were reopened; count/text, adult sex-co
 - Version: [v4](../../design/concepts/103-tyto-longimembris-v4.png)
 - Research: [v4 record](../../research/103-tyto-longimembris-v4.md)
 - Run: [cycle 6](../../production/runs/20261031T024200Z-cycle-6.md)
+
+
+## v4 verification
+
+Fixed archive [fa1226ac8f5b](https://github.com/janeytlin-eng/game-owl-ket/commit/fa1226ac8f5b95923440152c9559271293dc1eea) was read back: exact master/crop blobs and sizes, non-truncated tree, and all three JSON manifests passed. The image is reviewed/archived but not scientific truth; scientifically_verified=false.

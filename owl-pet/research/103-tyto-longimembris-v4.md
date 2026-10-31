@@ -40,3 +40,7 @@ Edit the attached #103 EASTERN GRASS OWL · Tyto longimembris plate, preserving 
 ## Actual image review
 
 The generated 1514×1039 master and a 620×760 mesoptile crop were opened. Exact title/labels/count, paler male, darker modestly fuller/larger female, long partly bare legs, adult and juvenile support, rich golden-brown down, partial pink face, dark eyes, pale bill and a down-concealed soft wing contour passed. No second edit was required. PASS_WITH_LIMITATIONS; wild-age equivalence, exact flight readiness, continuous feather sequence, population display ratio and toe geometry remain unknown. scientifically_verified=false.
+
+## Archive verification
+
+Fixed archive `fa1226ac8f5b95923440152c9559271293dc1eea` was read back through a non-truncated 2308-entry recursive tree. Concept/generated/reviewed all matched Git blob `634747c07ff26c27847ccbc22c1b956cd04fa04d` and 2,729,182 bytes; the mesoptile crop matched `2e48f07af037485d932bec1a337529669c760023` and 778,390 bytes. The raw concept download matched its Git blob/size, and all three raw fixed-commit manifests parsed as JSON with one #103 v4 row and counts 604/603/594. Final status remains PASS_WITH_LIMITATIONS and scientifically_verified=false.

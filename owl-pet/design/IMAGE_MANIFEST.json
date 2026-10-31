@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T02:48:00Z",
+  "updated": "2026-10-31T02:49:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14716,10 +14716,49 @@
       "review_crop_blob": "2e48f07af037485d932bec1a337529669c760023",
       "review_crop_sha256": "f89b113bafa5500e91b65f1d63a82e76c966a2c062957da2d72af6c6bb2b158d",
       "review_crop_size_bytes": 778390,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
-      "exact_readback": false
+      "exact_readback": true,
+      "fixed_archive_commit": "fa1226ac8f5b95923440152c9559271293dc1eea",
+      "verified_at": "2026-10-31T02:49:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "fa1226ac8f5b95923440152c9559271293dc1eea",
+        "method": "non-truncated recursive tree plus raw fixed-commit JSON parse and exact path/blob/size tuple match",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/103-tyto-longimembris-v4.png",
+            "sha": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
+            "size": 2729182
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/103-tyto-longimembris-v4-generated-master.png",
+            "sha": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
+            "size": 2729182
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/103-tyto-longimembris-v4-reviewed-master.png",
+            "sha": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
+            "size": 2729182
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/103-tyto-longimembris-v4-mesoptile.png",
+            "sha": "2e48f07af037485d932bec1a337529669c760023",
+            "size": 778390
+          }
+        },
+        "manifest_counts": {
+          "legacy": 604,
+          "design": 603,
+          "production": 594
+        },
+        "tree": {
+          "entries": 2308,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T02:48:00Z"
+  "updated_at": "2026-10-31T02:49:00Z"
 }

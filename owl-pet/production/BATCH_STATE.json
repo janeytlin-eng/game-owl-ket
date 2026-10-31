@@ -9128,7 +9128,7 @@
     },
     {
       "batch_id": "2026-10-31T0927+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -9185,9 +9185,20 @@
           "commit_sha": "e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca",
           "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "species": "Tyto longimembris",
+          "species_id": 103,
+          "version": 4,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "fa1226ac8f5b95923440152c9559271293dc1eea",
+          "run_record": "owl-pet/production/runs/20261031T024200Z-cycle-6.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "last_checkpoint": {
         "cycle": 6,
         "species": "Tyto longimembris",
@@ -9195,10 +9206,12 @@
         "version": 4,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T024200Z-cycle-6",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261031T024200Z-cycle-6.md",
-        "at": "2026-10-31T02:48:00Z",
+        "at": "2026-10-31T02:50:00Z",
         "evidence": {
+          "fixed_archive_commit": "fa1226ac8f5b95923440152c9559271293dc1eea",
+          "archive_commit_timestamp": "2026-10-31T02:48:19Z",
           "assets": {
             "concept": {
               "path": "owl-pet/design/concepts/103-tyto-longimembris-v4.png",
@@ -9226,19 +9239,22 @@
             "design": 603,
             "production": 594
           },
-          "manifest_json_valid_local": true,
-          "readback_pending": true,
+          "manifest_json_valid": true,
+          "tree": {
+            "entries": 2308,
+            "truncated": false
+          },
+          "raw_original_readback": {
+            "size": 2729182,
+            "blob": "634747c07ff26c27847ccbc22c1b956cd04fa04d"
+          },
           "unique_species": "175/251",
           "scientifically_verified": false,
-          "stage_commit_timestamps": {
-            "started": "2026-10-31T02:42:03Z",
-            "research_ready": "2026-10-31T02:43:02Z",
-            "image_generated": "2026-10-31T02:45:19Z",
-            "reviewed": "2026-10-31T02:46:02Z"
-          }
+          "batch_status": "COMPLETE",
+          "next_cycle": null
         }
       },
-      "last_updated_at": "2026-10-31T02:48:00Z",
+      "last_updated_at": "2026-10-31T02:50:00Z",
       "audit_notes": [
         "2026-10-31T09:27:00+08:00: cycle1 #97 Lophostrix cristata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; v3 actual plate opened; missing repository number97 identified; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T09:34:00+08:00: cycle1 #97 v4 RESEARCH_READY; official erratum excludes Rocha2014 juvenile/flight evidence from Lophostrix; Mikkola pp358–359 and Birds of Bolivia retain white mesoptile/dark face/brown developed folded wings; sources new2/reused2/corrected1; full prompt saved; lease renewed; no credit.",
@@ -9276,30 +9292,12 @@
         "2026-10-31T02:51:00Z: cycle6 #103 v4 IMAGE_GENERATED after 55.4-second imagegen edit; 1514x1039 PNG persisted as blob 634747c07ff26c27847ccbc22c1b956cd04fa04d; generated output opened; modest female fullness and softened mesoptile wing requested; detailed original/crop review pending; no credit.",
         "2026-10-31T02:55:00Z: cycle6 #103 v4 REVIEWED with no second edit. Generated whole frame and 620x760 mesoptile crop opened: exact text/count, paler male, darker modestly fuller/larger female, long partly bare legs, fuzzy down-concealed juvenile wing and bilateral ground support pass. PASS_WITH_LIMITATIONS; science false; no credit.",
         "2026-10-31T02:48:00Z: timing correction for cycle6 uses immutable GitHub commit dates: STARTED 02:42:03Z, RESEARCH_READY 02:43:02Z, IMAGE_GENERATED 02:45:19Z, REVIEWED 02:46:02Z; earlier logical stage labels were ahead of the observable host clock and are not platform-timeout evidence.",
-        "2026-10-31T02:48:00Z: cycle6 #103 v4 ARCHIVED as legacy604/design603/production594; concept/generated/reviewed 634747c07ff26c27847ccbc22c1b956cd04fa04d/2729182B, crop 2e48f07af037485d932bec1a337529669c760023/778390B; fixed readback pending; unique175/251; science false; no credit."
+        "2026-10-31T02:48:00Z: cycle6 #103 v4 ARCHIVED as legacy604/design603/production594; concept/generated/reviewed 634747c07ff26c27847ccbc22c1b956cd04fa04d/2729182B, crop 2e48f07af037485d932bec1a337529669c760023/778390B; fixed readback pending; unique175/251; science false; no credit.",
+        "2026-10-31T02:50:00Z: cycle6 #103 v4 VERIFIED at fixed archive fa1226ac8f5b95923440152c9559271293dc1eea; non-truncated 2308-entry tree, exact full master/crop tuples, raw concept blob/size and raw fixed-commit JSON manifests 604/603/594 passed. ABSA sex calibration and ~55-day captive-reference mesoptile review PASS_WITH_LIMITATIONS; science false. Batch6/6 COMPLETE; next null; lease released."
       ],
-      "active_lease": {
-        "owner": "codex-work-mode",
-        "run_id": "20261031T024200Z-cycle-6",
-        "heartbeat_at": "2026-10-31T02:48:00Z",
-        "expires_at": "2026-10-31T03:03:00Z"
-      },
-      "lease": {
-        "owner": "codex-work-mode",
-        "run_id": "20261031T024200Z-cycle-6",
-        "heartbeat_at": "2026-10-31T02:48:00Z",
-        "expires_at": "2026-10-31T03:03:00Z"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "species": "Tyto longimembris",
-        "species_id": 103,
-        "version": 4,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T024200Z-cycle-6",
-        "stage": "ARCHIVED",
-        "started_at": "2026-10-31T02:42:00Z"
-      }
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null
     }
   ],
   "lease": null,

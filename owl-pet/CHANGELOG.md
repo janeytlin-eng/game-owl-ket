@@ -1481,3 +1481,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Reused Dunlop & Pain 2016 approximately 55-day captive-reference mesoptile boundary without claiming wild-age equivalence or flight readiness.
 - One evidence-led imagegen edit; whole master and 620×760 mesoptile crop opened. PASS_WITH_LIMITATIONS; no second edit.
 - Concept/generated/reviewed blob 634747c07ff26c27847ccbc22c1b956cd04fa04d (2729182 B); crop 2e48f07af037485d932bec1a337529669c760023 (778390 B). Unique species unchanged at 175/251; science false.
+
+
+## 2026-10-31T02:50:00Z — #103 v4 verified; batch complete
+
+- Fixed archive fa1226ac8f5b95923440152c9559271293dc1eea read back with a non-truncated 2308-entry tree, exact master/crop tuples, exact raw concept blob/size and valid raw JSON manifests (legacy 604, design 603, production 594).
+- Batch 2026-10-31T0927+0800 advanced from 5/6 to COMPLETE 6/6; lease released; next_cycle=null.
+- Unique species 175/251 unchanged; one science revision completed; scientifically_verified=false.

@@ -45,3 +45,17 @@ Style/medium: high-detail naturalistic 3D character concept art with tactile fea
 Constraints: preserve branch support and typography; change only species anatomy/plumage/juvenile-stage details. No ear tufts. No imposed sexual dimorphism.
 Avoid: long continuous white V brow; pale gray eyes; heavy uniform underpart bars; fully feathered tarsi; pale claws; adult-like juvenile wing/tail; juvenile airborne pose; open nest cavity, eggs or hatchling; extra birds; watermarks; misspelled labels.
 ```
+
+## Actual image review and self-iteration
+
+- Generated master (1536×1024) was actually viewed. Adult scale, yellow irides, dark claws, short separate brow direction, white throat, narrow upperpart pattern and supported feet improved over v1.
+- First-pass defect: the older juvenile still carried crisp pale crown rows and a long, layered, spotted adult-like folded wing. This contradicted the no-plumage-sequence boundary.
+- Targeted edit1 preserved adults/text/environment and changed only the juvenile: crown marks became diffuse downy mottling, the wing became shorter, soft-edged, unspotted and largely buried in body fluff; eyes remained closed and both feet remained supported.
+- Recheck used the full image, a 570×720 juvenile crop and a 1020×600 adult pattern/feet crop. Result: `PASS_WITH_LIMITATIONS`. The juvenile no longer claims adult spot rows or long remiges; adult claws remain mostly dark with pale bases. Remaining stylization includes somewhat elongated adult brow arcs and a visible but soft juvenile wing edge, neither suitable as specimen geometry.
+- Still unknown: juvenile age, iris chronology, explicit flight threshold, complete wing/tail sequence and adult sex-size direction. Scientific verification remains false.
+
+## Targeted edit prompt
+
+```text
+Targeted edit of Image 1. Preserve both adult Cebu Boobooks exactly, preserve all typography, labels, title, forest, lighting, mossy branch, composition and image dimensions. Edit only the right-hand OLDER JUVENILE. Make the right-hand older juvenile more developmentally conservative and less adult-patterned: replace the crisp rows of pale crown spots with soft diffuse warm-brown down/fluff and only vague irregular mottling; remove the long layered spotted adult-like folded wing. The juvenile's wing must be short, rounded, down-softened and mostly buried under loose body fluff, with no crisp white spot rows and no long projecting remiges. Keep the tail very short and mostly hidden. Keep both juvenile feet visibly gripping and supported by the same branch, eyes gently closed, upright resting pose, exact same label. Do not add a nest, eggs, flight pose, extra birds or text changes. No changes to either adult.
+```

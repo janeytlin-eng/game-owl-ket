@@ -10815,69 +10815,46 @@
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
-      "last_checkpoint": {
+      "active_lease": {
+        "owner": "codex-root",
+        "run_id": "20261101T010800+0800-cycle-5",
+        "heartbeat_at": "2026-11-01T01:08:00+08:00",
+        "expires_at": "2026-11-01T01:23:00+08:00",
         "batch_id": "20261101T0026+0800",
-        "cycle": 4,
-        "species": "Ninox variegata",
-        "species_id": 150,
+        "cycle": 5
+      },
+      "lease": null,
+      "in_progress": {
+        "batch_id": "20261101T0026+0800",
+        "cycle": 5,
+        "species": "Athene jacquinoti",
+        "species_id": 151,
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "run_id": "20261101T005100+0800-cycle-4",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261101T005100+0800-cycle-4.md",
-        "at": "2026-11-01T01:07:00+08:00",
+        "run_id": "20261101T010800+0800-cycle-5",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261101T010800+0800-cycle-5.md",
+        "started_at": "2026-11-01T01:08:00+08:00",
+        "updated_at": "2026-11-01T01:08:00+08:00"
+      },
+      "last_checkpoint": {
+        "batch_id": "20261101T0026+0800",
+        "cycle": 5,
+        "species": "Athene jacquinoti",
+        "species_id": 151,
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261101T010800+0800-cycle-5",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261101T010800+0800-cycle-5.md",
+        "started_at": "2026-11-01T01:08:00+08:00",
+        "updated_at": "2026-11-01T01:08:00+08:00",
+        "at": "2026-11-01T01:08:00+08:00",
         "evidence": {
-          "archive_commit": "7d6ab5ba785e8f8854359b5a1de0bcc0f6dd2fdc",
-          "rejected_truncated_commit": "1ae24533659a8c051598752a7af2a29849336f60",
-          "tree_sha": "ffbca5311b509ca957558896ceb11b6c8c95ca11",
-          "tree_count": 2527,
-          "tree_truncated": false,
-          "assets": {
-            "owl-pet/design/concepts/150-ninox-variegata-v2.png": {
-              "sha": "45a4198db379a7ae53e610b6719db6206ca54aba",
-              "size": 2635332
-            },
-            "owl-pet/production/generated/150-ninox-variegata-v2-generated-master.png": {
-              "sha": "9220c76c771d1202131f307d11e6110852e985a5",
-              "size": 2739412
-            },
-            "owl-pet/production/generated/150-ninox-variegata-v2-edit1.png": {
-              "sha": "45a4198db379a7ae53e610b6719db6206ca54aba",
-              "size": 2635332
-            },
-            "owl-pet/production/reviewed/150-ninox-variegata-v2-reviewed-master.png": {
-              "sha": "45a4198db379a7ae53e610b6719db6206ca54aba",
-              "size": 2635332
-            },
-            "owl-pet/production/review-crops/150-ninox-variegata-v2-older-juvenile.png": {
-              "sha": "879b217cb6f8eb9aa72385d0be1d69df6e286ca3",
-              "size": 690719
-            },
-            "owl-pet/production/review-crops/150-ninox-variegata-v2-adult-pattern-feet.png": {
-              "sha": "fd9abd80bd2f0c0aa6315b52ad57fd841141a5e1",
-              "size": 1008286
-            }
-          },
-          "manifest_counts": {
-            "design_image": 631,
-            "design_legacy": 632,
-            "production": 622
-          },
-          "all_six_assets_present": true,
-          "manifest_json_valid": true,
-          "manifest_blob_readback": true,
-          "png_full_decode": true,
-          "sha256_verified": true,
-          "main_head_readback": true,
-          "connector_full_binary_stream_readback": false,
+          "base_head": "a16113857acda2757a17d0ad66964fa4a6bd0c05",
+          "selection": "next numbered science-revision target after verified #150; preserve #151 v1 and historical Ninox mapping",
           "unique_species": "175/251",
-          "scientifically_verified": false,
-          "next_cycle": 5,
-          "batch_complete": false,
-          "v1_integrity_failure_preserved": true
+          "v1_local_export_sha_conflict": true
         }
       },
       "last_stage": "VERIFIED",
@@ -11147,6 +11124,20 @@
             "unique_species": "175/251",
             "v1_integrity_mismatch_preserved": true
           }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261101T010800+0800-cycle-5",
+          "species": "Athene jacquinoti",
+          "stage": "STARTED",
+          "at": "2026-11-01T01:08:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "base_head": "a16113857acda2757a17d0ad66964fa4a6bd0c05",
+            "selection": "next numbered science-revision target after verified #150; preserve #151 v1 and historical Ninox mapping",
+            "unique_species": "175/251",
+            "v1_local_export_sha_conflict": true
+          }
         }
       ]
     }
@@ -11283,7 +11274,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-01T01:07:00+08:00",
+  "updated_at": "2026-11-01T01:08:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -11293,7 +11284,7 @@
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-11-01T01:07:00+08:00",
+  "last_updated_at": "2026-11-01T01:08:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

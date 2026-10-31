@@ -41,6 +41,14 @@
 - Because no species-specific juvenile record was found after searches by current name, former *N. philippensis spilonota* usage, “juvenile/fledgling/nest,” and museum terms, v2 uses an age-unknown older immature. It is fluffier and less marked, eyes closed, with a down-softened compact folded wing and hidden/very short tail. It is branch-supported and makes no exact-age, iris-development, flight or nest claim.
 - Scientific verification remains false; result may be `PASS_WITH_LIMITATIONS` only after actual image review.
 
+## Actual image review and iteration
+
+- Generated master viewed at full 1536×1024. Three-subject layout, labels/title, near-equal adults, gray-white irises, long bills, white throats and supported feet were intact.
+- Problems found: both adults retained claws that read mostly black rather than mostly pale; the older immature's folded wing remained too layered and adult-like.
+- Targeted edit1 changed adult claws to pale horn with dark tips and shortened/softened the immature wing under body fluff. Full image plus 576×720 immature crop and 1030×520 adult-pattern/feet crop were actually viewed.
+- Recheck result: effective for claws and for preventing a long projecting juvenile wing/tail; both immature feet remain supported and eyes closed. Adult underpart bars and immature wing-covert geometry remain stylized rather than specimen-mapped, so the result is `PASS_WITH_LIMITATIONS`, not a scientific pass.
+- Still unknown: exact immature age, iris chronology, flight ability, nest, sex-size direction, continuous feather sequence and exact individual pattern geometry.
+
 ## Full ImageGen edit prompt
 
 ```text

@@ -2786,3 +2786,8 @@ Fixed archive [`7618582cbd4389179e51d65af4a901f1b2da643a`](https://github.com/ja
 
 
 Timestamp correction for #131 v3: use Git-authoritative 18:35:56+08:00 archive and 18:36:48+08:00 verification times; the earlier 18:43/18:47 labels were forward-projected. Visual/scientific result unchanged.
+
+
+## 2026-10-31 — #132 *Strix davidi* v3
+
+Fresh science revision with distinct near-equal adult poses and the primary-study approximately-four-week artificial-box young. The young is gray woolly/fine-barred with tawny mask, dark eyes/pinkish lids, pale bill, hidden wings/tail and two-foot bare-sill support; no mature wing, eggs or nest material. Full/crops passed without edit. Taxonomic re-merger conflict is recorded without silently changing project ID or denominator. PASS_WITH_LIMITATIONS; science false; unique175/251. [Concept](concepts/132-strix-davidi-v3.png) · [Research](../research/species/132-strix-davidi-v3.md) · [Run](../production/runs/20261031T183900+0800-cycle-6.md).

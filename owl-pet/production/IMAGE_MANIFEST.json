@@ -15183,7 +15183,58 @@
         "manifest_json_valid": true,
         "science": false
       }
+    },
+    {
+      "id": "132-strix-davidi-v3",
+      "path": "design/concepts/132-strix-davidi-v3.png",
+      "species_id": 132,
+      "scientific_name": "Strix davidi",
+      "historical_names": [
+        "Syrnium davidi",
+        "Strix uralensis davidi"
+      ],
+      "common_name": "Sichuan Wood Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "97cc98e620426df0e67e9fe5087b9605db21e26700ce8b4fb32c28c21eac61f3",
+      "size_bytes": 3146202,
+      "dimensions": "1536x1024",
+      "status": "Fresh evidence-bounded science revision preserving repository taxon #132 while recording the live Strix davidi / Strix uralensis davidi checklist conflict. V2's evidence-compatible approximately-four-week nest-box young is retained in a higher-quality plate, while near-clone adults are replaced by distinct poses at near-equal crown height. Primary studies support dark adults with radial facial streaks, yellow bill, restrained scapular/secondary white drops, long tail, feathered feet, and a gray woolly fine-barred young with tawny mask, dark eyes, pinkish lids, hidden wings/tail and bilateral bare-sill support. Exact hatch day, tract geometry, flight threshold, population-wide sex ratio and global taxonomic consensus remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "DAV-SCHERZINGER-2014",
+        "DAV-SCHERZINGER-FANG-2006",
+        "DAV-FANG-ETAL-2009",
+        "DAV-MIK2013-348",
+        "DAV-CLEMENTS-2022",
+        "DAV-AVIBASE-2025-CONCEPT"
+      ],
+      "research_record": "research/species/132-strix-davidi-v3.md",
+      "run_record": "production/runs/20261031T183900+0800-cycle-6.md",
+      "reviewed_at": "2026-10-31T10:43:08Z",
+      "generated_path": "production/generated/132-strix-davidi-v3-generated-master.png",
+      "generated_blob": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+      "generated_sha256": "97cc98e620426df0e67e9fe5087b9605db21e26700ce8b4fb32c28c21eac61f3",
+      "generated_size_bytes": 3146202,
+      "reviewed_path": "production/reviewed/132-strix-davidi-v3-reviewed-master.png",
+      "reviewed_blob": "1d818e58cfc613e1a32e8fdf2be834bb225443e9",
+      "reviewed_sha256": "97cc98e620426df0e67e9fe5087b9605db21e26700ce8b4fb32c28c21eac61f3",
+      "reviewed_size_bytes": 3146202,
+      "review_crop_path": "production/review-crops/132-strix-davidi-v3-nestling.png",
+      "review_crop_blob": "be6522117be45b8958583082089ee34e2d90f140",
+      "review_crop_sha256": "e265aa093b0fee35a3ef744a80baf7a612e9f46a3c5b116fa98cc0a47453d65a",
+      "review_crop_size_bytes": 698002,
+      "auxiliary_review_crop_path": "production/review-crops/132-strix-davidi-v3-feet.png",
+      "auxiliary_review_crop_blob": "e2f53320af19ea054e91c2ecd9886c150152ea09",
+      "auxiliary_review_crop_sha256": "83cd3b7cb350d5bdfcb99d1e0c2032d245560e7d4c1938445929b58618163374",
+      "auxiliary_review_crop_size_bytes": 429468,
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T10:36:48Z"
+  "updated_at": "2026-10-31T10:43:08Z"
 }

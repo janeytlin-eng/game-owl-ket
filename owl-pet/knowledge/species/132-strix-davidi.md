@@ -31,3 +31,11 @@ FullPNG3155885bytes1536x1024 SHA256c34151703cf5ba90b9a95094f8531315a3ec4cd54713f
 - [Run](../../production/runs/2026-10-27T0728+0800-cycle-1.md) · [v2 original](../../design/concepts/132-strix-davidi-v2.png)
 
 - Archive repair: first remote binary was truncated and rejected by readback. Final 1513×1039 image was re-encoded as an actually viewed 64-color indexed PNG; scientific composition unchanged. Correct final is 683,823 bytes, SHA-256 `4dab1f19ee3269fc8f92869e546cb900f5a50f6a7a3fa672dd3c2016e85797f1`, Git blob `5f45f249b4a3a70c857ac707f4eee61b83b6adf3`.
+
+
+## v3 evidence correction — 2026-10-31
+
+- Reopened v2 at original resolution: its approximately-four-week nest-box mesoptile remains evidence-compatible, but the adults are near-clone front poses. V3 preserves the young stage and replaces the adult composition with distinct near-equal poses; no blanket female-larger rule is applied.
+- New primary context: DAV-SCHERZINGER-FANG-2006 pp.3–12 and DAV-FANG-ETAL-2009 pp.649–650 support high-elevation Lianhuashan conifer forest, artificial nest boxes 4–6 m high and no nest material. The box is a study context, not a universal natural cavity prescription.
+- Taxonomy: current sources conflict between species *S. davidi* and subspecies *S. uralensis davidi*. Project #132 and denominator251 are retained pending a verified roster-wide change; historical *Syrnium davidi* maps to the same unit.
+- Full master, nestling crop and feet crop opened; edit0; PASS_WITH_LIMITATIONS. Exact hatch day, flight threshold, tract geometry, population-wide sex ratio and checklist consensus remain unknown; science false. [Research](../../research/species/132-strix-davidi-v3.md) · [Run](../../production/runs/20261031T183900+0800-cycle-6.md).

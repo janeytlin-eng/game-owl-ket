@@ -1,3 +1,9 @@
+## 2026-10-31 #132 *Strix davidi* v3 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; repository #132 retained while *S. davidi* / *S. uralensis davidi* treatment conflict is recorded. V2's near-clone adults were replaced by distinct near-equal poses; the directly captioned approximately-four-week artificial-box young remains down-rich with hidden wings/tail and bilateral bare-sill support.
+- New3/reused3/corrected2. Full plate plus nestling and feet crops opened; edit0; PASS_WITH_LIMITATIONS; science false; unique **175/251**. Exact hatch day/flight/tract chronology, sex ratio and checklist consensus remain unknown.
+- Manifests 616/615/606; immutable readback pending; no cycle credit yet. [Research](research/species/132-strix-davidi-v3.md) · [Run](production/runs/20261031T183900+0800-cycle-6.md)
+
 ## 2026-10-31 #131 v3 timestamp correction
 
 - Git-authoritative archive/verification times are 18:35:56 and 18:36:48 +08:00. Earlier human-entered 18:43/18:47 labels are superseded for timing only; archive evidence and batch 5/6 credit are unchanged.

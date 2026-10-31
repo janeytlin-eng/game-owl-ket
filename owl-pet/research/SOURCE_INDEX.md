@@ -1789,3 +1789,9 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limits / design:** catalog uncertainty cannot supply exact age, flight ability or living soft parts. It supports western historical mapping and requires an age-unknown label.
 
 **Reused sources:** FREO-MIKKOLA-2013-P284 (printed p.284/PDF286) and FREO-OWLPAGES-2020 (lines 54–70 reread). **Delta:** new2, reused2, corrected2 (current lump/name boundary; full-resolution v2 with age-unknown mesoptile label). Exact age, flight threshold, continuous feather chronology, nest geometry, living juvenile soft parts and universal palette remain unknown; science=false. [Species research](species/167-ketupa-poensis-v2.md) · [Run](../production/runs/20261101T015000+0800-cycle-2.md).
+
+## 2026-11-01 — #168 *Ketupa leucosticta* v2 evidence refresh
+
+- **AKUN-TOBIAS-WILLIAMS-2022-P76-77:** Tobias & Williams 2022, Bull ABC 29(1), pp.76–77/Figs 2–3,6, PDF read 2026-11-01; diagnostic yellow eyes, white-fringed tuft tips, dark-marbled upperparts/pale flight bars and weak narrow yellowish bill. https://www.tobiaslab.net/wp-content/uploads/2022/04/Tobias-Williams-2022-Shelleys-Eagle-Owl.-Bull-ABC.pdf
+- **AKUN-MNHN-MO-1876-2027:** adult historical *Bubo leucostictus* skin from Fantee, Ghana, pre-1877; sex unknown; initial *B. shelleyi* determination corrected in 2020. https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1876-2027
+- Reused: AKUN-KING-2022-JUV (Commons file/category reread), AKUN-ITIS-2026, AKUN-MIKKOLA-2013-P278. Delta new2/reused3/corrected2: adult diagnostic calibration and neutral full-resolution v2. Exact age/flight/sequence/nest/young soft parts unknown; science=false. [Research](species/168-ketupa-leucosticta-v2.md) · [Run](../production/runs/20261101T015000+0800-cycle-3.md).

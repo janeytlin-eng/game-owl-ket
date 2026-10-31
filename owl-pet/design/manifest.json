@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31",
+  "updated": "2026-10-31T21:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -16234,7 +16234,58 @@
           "production": 613
         }
       }
+    },
+    {
+      "id": "140-otus-rufescens-v3",
+      "path": "design/concepts/140-otus-rufescens-v3.png",
+      "species_id": 140,
+      "scientific_name": "Otus rufescens",
+      "historical_names": [],
+      "common_name": "Reddish Scops Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v3 科学校准图经1次生成、1次成年比例定向编辑，并实际查看全图、绒羽幼鸟及成年体型/足部裁切。成年鸟采用指名亚种浅色型：红褐底色、不规则浅黄褐斑与稀疏暗纹、栗至琥珀褐虹膜、角白嘴；雌雄近等体型且姿态不克隆，六足有自然支撑。年龄未知绒羽幼鸟为红褐色、冠与背较深、腹/腰较浅、闭眼、无成熟飞羽或尾羽，置于浅苔藓叶片支撑中，不声明真实巢位、精确日龄、虹膜或飞行能力。PASS_WITH_LIMITATIONS，scientifically_verified=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "RFS-WARAKAGODA-RASMUSSEN-2004",
+        "RFS-MIKKOLA-2013-P178",
+        "RFS-RAFFLES-CATALOGUE-2002",
+        "RFS-ITIS-2025"
+      ],
+      "research_record": "research/species/140-otus-rufescens-v3.md",
+      "run_record": "production/runs/20261031T213600+0800-cycle-2.md",
+      "reviewed_at": "2026-10-31T21:41:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "ebe613b3cc85c4faeb7a61ec6b0616d7a4726e48222a350cd93b32f674332ee2",
+      "size_bytes": 2549171,
+      "generated_path": "production/generated/140-otus-rufescens-v3-generated-master.png",
+      "generated_blob": "5769dfaea87130af0f4b5482324dc76a83973080",
+      "generated_sha256": "db73c221b281b94273fc8ef216829bf6291f606174abefb77e3de4fab7bb9a5e",
+      "generated_size_bytes": 2722065,
+      "intermediate_edit_path": "production/generated/140-otus-rufescens-v3-edit1.png",
+      "intermediate_edit_blob": "7a374ee4d52d5de83679e9d4465751bc50c07520",
+      "reviewed_path": "production/reviewed/140-otus-rufescens-v3-reviewed-master.png",
+      "reviewed_blob": "7a374ee4d52d5de83679e9d4465751bc50c07520",
+      "reviewed_sha256": "ebe613b3cc85c4faeb7a61ec6b0616d7a4726e48222a350cd93b32f674332ee2",
+      "reviewed_size_bytes": 2549171,
+      "review_crop_path": "production/review-crops/140-otus-rufescens-v3-downy-chick.png",
+      "review_crop_blob": "3fa4877a702bf42ae3f68d58d5e8bd7c29ca0fa7",
+      "review_crop_sha256": "5a39595b39a8f53681a879357574ef50a5876b75851feb187d9199161abcfacd",
+      "review_crop_size_bytes": 592805,
+      "auxiliary_review_crop_path": "production/review-crops/140-otus-rufescens-v3-adult-size-feet.png",
+      "auxiliary_review_crop_blob": "2fc98360f227e99f67ba7a6ee232f5a978f5c34f",
+      "auxiliary_review_crop_sha256": "27e42525edfb9ef6c0a22904e6e3c679bdbed416dd3f0011fcbe6db25461bff5",
+      "auxiliary_review_crop_size_bytes": 1108057,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "7a374ee4d52d5de83679e9d4465751bc50c07520",
+      "fixed_archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-31T12:49:55.000Z"
+  "updated_at": "2026-10-31T21:42:00+08:00"
 }

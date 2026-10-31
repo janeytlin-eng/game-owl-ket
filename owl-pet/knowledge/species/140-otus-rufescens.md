@@ -8,3 +8,8 @@ Sourcefacts: Warakagoda & Rasmussen2004p102 actualNNM specimen; almostuniformruf
 
 ## #140 *Otus rufescens* v2 research boundary — 2026-10-27
 Mikkola p.178 body text was newly available/read and supersedes the earlier “book body unavailable” limitation: adult light-morph characters, reddish-brown downy chick and far-less-speckled mesoptile are now explicit. Raffles catalogue p.299 adds adult malayensis lowland/submontane context but is not transferred to nominate juvenile detail. Existing primary mesoptile and OwlPages cavity/habitat records were reused. V2 uses an age-unknown, fully supported downy chick; v1 closed eyes are not treated as observed fact. Full prompt and review remain in the cycle-6 run. Science false.
+
+
+## ARCHIVED PENDING READBACK — 2026-10-31T21:42:00+08:00
+
+#140 *Otus rufescens* v3 SCIENCE_REVISION; full/edit/crops viewed. Adult-scale error corrected to evidence-neutral near-equality. Downy chick kept reddish-brown with darker crown/mantle and paler belly/rump, no mature remiges/tail. Sources RFS-WARAKAGODA-RASMUSSEN-2004 / RFS-MIKKOLA-2013-P178 / RFS-RAFFLES-CATALOGUE-2002 / RFS-ITIS-2025. Exact age/iris/flight, nest site and sex-size ratio unknown; science=false. See [run](../../production/runs/20261031T213600+0800-cycle-2.md) and research `../../research/species/140-otus-rufescens-v3.md`. Exact immutable readback pending.

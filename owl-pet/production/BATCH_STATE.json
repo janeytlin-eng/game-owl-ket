@@ -10207,14 +10207,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T22:59:00+08:00",
-        "expires_at": "2026-10-31T23:14:00+08:00"
+        "heartbeat_at": "2026-10-31T23:34:00+08:00",
+        "expires_at": "2026-10-31T23:49:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T22:59:00+08:00",
-        "expires_at": "2026-10-31T23:14:00+08:00"
+        "heartbeat_at": "2026-10-31T23:34:00+08:00",
+        "expires_at": "2026-10-31T23:49:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -10286,7 +10286,7 @@
         }
       },
       "last_stage": "REVIEWED",
-      "updated_at": "2026-10-31T22:59:00+08:00",
+      "updated_at": "2026-10-31T23:34:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10547,6 +10547,22 @@
             "scientifically_verified": false,
             "remaining_unknown": "exact immature age, iris chronology, remex sequence and locomotor stage",
             "lease_expires_at": "2026-10-31T23:14:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261031T225200+0800-cycle-5",
+          "species": "Ninox spilocephala",
+          "stage": "REVIEWED_RESUME",
+          "at": "2026-10-31T23:34:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "remote_main": "bd6444f01cb3d8bfc8aa95ef1369e546d0c723b8",
+            "previous_lease_expired_at": "2026-10-31T23:14:00+08:00",
+            "newer_production_commit_found": false,
+            "reused_stage": "REVIEWED",
+            "regeneration_required": false,
+            "lease_expires_at": "2026-10-31T23:49:00+08:00"
           }
         }
       ]

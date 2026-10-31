@@ -11506,37 +11506,52 @@
         }
       ],
       "next_cycle": 3,
-      "active_lease": null,
+      "active_lease": {
+        "owner": "codex-root",
+        "run_id": "20261101T015000+0800-cycle-3",
+        "heartbeat_at": "2026-11-01T02:50:00+08:00",
+        "expires_at": "2026-11-01T03:05:00+08:00",
+        "batch_id": "20261101T015000+0800",
+        "cycle": 3
+      },
       "lease": null,
-      "in_progress": null,
+      "in_progress": {
+        "batch_id": "20261101T015000+0800",
+        "cycle": 3,
+        "species": "Ketupa leucosticta",
+        "species_id": 168,
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261101T015000+0800-cycle-3",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261101T015000+0800-cycle-3.md",
+        "started_at": "2026-11-01T02:50:00+08:00",
+        "updated_at": "2026-11-01T02:50:00+08:00"
+      },
       "last_checkpoint": {
-        "cycle": 2,
-        "run_id": "20261101T015000+0800-cycle-2",
-        "species": "Ketupa poensis",
-        "stage": "VERIFIED",
-        "at": "2026-11-01T02:45:00+08:00",
-        "credited_cycle": true,
+        "batch_id": "20261101T015000+0800",
+        "cycle": 3,
+        "species": "Ketupa leucosticta",
+        "species_id": 168,
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261101T015000+0800-cycle-3",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261101T015000+0800-cycle-3.md",
+        "started_at": "2026-11-01T02:50:00+08:00",
+        "updated_at": "2026-11-01T02:50:00+08:00",
+        "at": "2026-11-01T02:50:00+08:00",
         "evidence": {
-          "archive_commit": "4269be5c73a61d358d3ec26960fa32416ea96ff3",
-          "tree_sha": "e939d34355c8f38a4142fd34753e764b23bcf9d9",
-          "recursive_tree_truncated": false,
-          "paths_verified": 9,
-          "binary_assets_verified": 5,
-          "master_blob": "ca798072490db31f5947a3963cc7165f01e366c8",
-          "mesoptile_crop_blob": "050f0d7606b6b64a864f5f18c390b109ea155923",
-          "adult_crop_blob": "2319fe0b86ae25e73583b0e57c89622bb0540779",
-          "manifest_counts": {
-            "design_image": 635,
-            "design_legacy": 636,
-            "production": 626
-          },
+          "selection": "next v1-only revision; v1 only 800x533 recovery derivative and orange sunset masks adult diagnostic colours",
+          "main_head": "8a38ba27ea4ae7fd36c142dec4384540079ae095",
+          "v1_git_blob": "58fc42220dfaa8644c6d315a630b41256b4822da",
+          "v1_sha256": "39b8793596b1bdcff1a713d41ea8012c2a9ccb0da9614262ea13f4797c27a13d",
           "unique_species": "175/251",
-          "revision_increment": 1,
-          "connector_full_binary_stream_readback": false
+          "lease_expires_at": "2026-11-01T03:05:00+08:00"
         }
       },
-      "last_stage": "VERIFIED",
-      "updated_at": "2026-11-01T02:45:00+08:00",
+      "last_stage": "STARTED",
+      "updated_at": "2026-11-01T02:50:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -11821,6 +11836,22 @@
             "revision_increment": 1,
             "connector_full_binary_stream_readback": false
           }
+        },
+        {
+          "cycle": 3,
+          "run_id": "20261101T015000+0800-cycle-3",
+          "species": "Ketupa leucosticta",
+          "stage": "STARTED",
+          "at": "2026-11-01T02:50:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "selection": "next v1-only revision; v1 only 800x533 recovery derivative and orange sunset masks adult diagnostic colours",
+            "main_head": "8a38ba27ea4ae7fd36c142dec4384540079ae095",
+            "v1_git_blob": "58fc42220dfaa8644c6d315a630b41256b4822da",
+            "v1_sha256": "39b8793596b1bdcff1a713d41ea8012c2a9ccb0da9614262ea13f4797c27a13d",
+            "unique_species": "175/251",
+            "lease_expires_at": "2026-11-01T03:05:00+08:00"
+          }
         }
       ]
     }
@@ -11957,7 +11988,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-01T02:45:00+08:00",
+  "updated_at": "2026-11-01T02:50:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -11966,8 +11997,15 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-11-01T02:45:00+08:00",
+  "active_lease": {
+    "owner": "codex-root",
+    "run_id": "20261101T015000+0800-cycle-3",
+    "heartbeat_at": "2026-11-01T02:50:00+08:00",
+    "expires_at": "2026-11-01T03:05:00+08:00",
+    "batch_id": "20261101T015000+0800",
+    "cycle": 3
+  },
+  "last_updated_at": "2026-11-01T02:50:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -12726,7 +12764,19 @@
       "credited": false
     }
   ],
-  "in_progress": null,
+  "in_progress": {
+    "batch_id": "20261101T015000+0800",
+    "cycle": 3,
+    "species": "Ketupa leucosticta",
+    "species_id": 168,
+    "version": 2,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261101T015000+0800-cycle-3",
+    "stage": "STARTED",
+    "run_record": "owl-pet/production/runs/20261101T015000+0800-cycle-3.md",
+    "started_at": "2026-11-01T02:50:00+08:00",
+    "updated_at": "2026-11-01T02:50:00+08:00"
+  },
   "previous_checkpoint": {
     "batch_id": "20261101T015000+0800",
     "cycle": 1,

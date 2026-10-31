@@ -15971,10 +15971,63 @@
       "auxiliary_review_crop_blob": "e0c53aab4a8cefe79b89970aea6d54a124254e9f",
       "auxiliary_review_crop_sha256": "f178df37e53989cb3f4ba9a82202840fae6a73aae41890b97e62b90741bcac6b",
       "auxiliary_review_crop_size_bytes": 1273053,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1"
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
+      "fixed_archive_commit": "539b391f2ad4b8c02687b19451822e9e94cc1ded",
+      "verified_at": "2026-10-31T12:09:41.929Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "539b391f2ad4b8c02687b19451822e9e94cc1ded",
+        "method": "immutable archive commit tree plus exact path/blob/byte readback; local full PNG decode and crop inspection; complete manifest JSON parsing; main branch head readback",
+        "tree_sha": "0ce998653a3b779f3ee4b54a77d947ac6199ba8b",
+        "tree_count": 2431,
+        "tree_truncated": false,
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/136-megascops-petersoni-v3.png",
+            "sha": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
+            "size": 2786647
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/136-megascops-petersoni-v3-generated-master.png",
+            "sha": "641f560cc52485cae1f360ebb729fd48954b2317",
+            "size": 2959784
+          },
+          "edit": {
+            "path": "owl-pet/production/generated/136-megascops-petersoni-v3-edit1.png",
+            "sha": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
+            "size": 2786647
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/136-megascops-petersoni-v3-reviewed-master.png",
+            "sha": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
+            "size": 2786647
+          },
+          "first_year_crop": {
+            "path": "owl-pet/production/review-crops/136-megascops-petersoni-v3-first-year.png",
+            "sha": "f97d9c1911dc6d1ffb5ef5f032923aadd83ec658",
+            "size": 774228
+          },
+          "adult_size_feet_crop": {
+            "path": "owl-pet/production/review-crops/136-megascops-petersoni-v3-adult-size-feet.png",
+            "sha": "e0c53aab4a8cefe79b89970aea6d54a124254e9f",
+            "size": 1273053
+          }
+        },
+        "manifest_counts": {
+          "legacy": 620,
+          "design": 619,
+          "production": 610
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "175/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T12:09:19.964Z"
+  "updated_at": "2026-10-31T12:09:41.929Z"
 }

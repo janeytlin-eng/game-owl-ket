@@ -9707,9 +9707,21 @@
           "commit_sha": "a75895f31a905e090fcae400e2c91bb299bef4cb",
           "run_record": "owl-pet/production/runs/20261031T195051+0800-cycle-3.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species": "Megascops petersoni",
+          "species_id": 136,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "539b391f2ad4b8c02687b19451822e9e94cc1ded",
+          "run_record": "owl-pet/production/runs/20261031T195938+0800-cycle-4.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "active_lease": {
         "owner": "codex-production",
         "run_id": "20261031T195938+0800-cycle-4",
@@ -9719,27 +9731,8 @@
         "heartbeat_at": "2026-10-31T20:01:43.788+08:00",
         "expires_at": "2026-10-31T20:16:43.788+08:00"
       },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T195938+0800-cycle-4",
-        "batch_id": "20261031T1937+0800",
-        "cycle": 4,
-        "species_id": 136,
-        "heartbeat_at": "2026-10-31T12:09:19.964Z",
-        "expires_at": "2026-10-31T12:24:19.964Z"
-      },
-      "in_progress": {
-        "batch_id": "20261031T1937+0800",
-        "cycle": 4,
-        "run_id": "20261031T195938+0800-cycle-4",
-        "species": "Megascops petersoni",
-        "species_id": 136,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T195938+0800-cycle-4.md",
-        "at": "2026-10-31T12:09:19.964Z"
-      },
+      "lease": null,
+      "in_progress": null,
       "previous_checkpoint": {
         "batch_id": "20261031T1937+0800",
         "cycle": 2,
@@ -9897,6 +9890,26 @@
               "owl-pet/production/IMAGE_MANIFEST.json"
             ],
             "knowledge": "owl-pet/knowledge/species/136-megascops-petersoni.md"
+          }
+        },
+        {
+          "cycle": 4,
+          "run_id": "20261031T195938+0800-cycle-4",
+          "species": "Megascops petersoni",
+          "stage": "VERIFIED",
+          "at": "2026-10-31T12:09:41.929Z",
+          "credited_cycle": true,
+          "evidence": {
+            "archive_commit": "539b391f2ad4b8c02687b19451822e9e94cc1ded",
+            "tree_sha": "0ce998653a3b779f3ee4b54a77d947ac6199ba8b",
+            "tree_count": 2431,
+            "manifest_counts": {
+              "legacy": 620,
+              "design": 619,
+              "production": 610
+            },
+            "path_blob_readback": true,
+            "main_head_readback": true
           }
         }
       ]

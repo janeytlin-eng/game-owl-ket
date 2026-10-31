@@ -2951,3 +2951,7 @@ Fixed archive `37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0` passed a non-truncated 
 - V7 is preserved but fails full PNG decode. V8 is a fresh evidence-bounded rebuild; one targeted juvenile-wing edit removed the adult-like long, crisp and regularly spotted wing panel.
 - Full 1536×1024 plate, immature crop and feet/support crop were opened. Tail is concealed and all six feet have natural support. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**.
 - Sources: Armonía 2009 p.29; user-uploaded Mikkola printed p.234/PDF p.236; Weske & Terborgh 1981; Herzog et al. 2009. Source delta new1/reused3/corrected1. [Research](research/species/128-megascops-marshalli-v8.md) · [Run](production/runs/20261031T173539+0800-cycle-3.md).
+
+### #128 v8 verified — 2026-10-31T17:52:00+08:00
+
+Fixed archive [`3e343d1cb731e1642e4cf5c54b0bb17257b0c159`](https://github.com/janeytlin-eng/game-owl-ket/commit/3e343d1cb731e1642e4cf5c54b0bb17257b0c159) returned all six exact image blobs/bytes; the full concept Git object decoded as 1536×1024 PNG and matched SHA-256. Complete manifests 613/612/603; batch `2026-10-31T1502+0800` is 3/6, next cycle 4. Unique remains 175/251; science false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/3e343d1cb731e1642e4cf5c54b0bb17257b0c159/owl-pet/design/concepts/128-megascops-marshalli-v8.png?raw=1).

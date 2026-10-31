@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T09:48:00Z",
+  "updated": "2026-10-31T09:52:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14926,8 +14926,59 @@
       "auxiliary_review_crop_blob": "01b27261f36ee606f2ee8905ebe10e2f77326058",
       "auxiliary_review_crop_sha256": "1a0955c68e1e46718accc9dfaa0f895c42ad7b2686f75643e6d0ad970c1ef4b4",
       "auxiliary_review_crop_size_bytes": 617115,
-      "readback_pending": true
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+      "fixed_archive_commit": "3e343d1cb731e1642e4cf5c54b0bb17257b0c159",
+      "verified_at": "2026-10-31T09:52:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "3e343d1cb731e1642e4cf5c54b0bb17257b0c159",
+        "method": "immutable commit tree plus complete Git-object PNG decode and complete connector JSON parsing",
+        "tree_sha": "6c33809f713db6d880c1b95d82cac0f4c757670d",
+        "tree_count": 2317,
+        "tree_truncated": false,
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/128-megascops-marshalli-v8.png",
+            "sha": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+            "size": 2926987
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/128-megascops-marshalli-v8-generated-master.png",
+            "sha": "da987b8091c78c3f6933fbf0dd0e77794abce80e",
+            "size": 3065499
+          },
+          "intermediate_edit": {
+            "path": "owl-pet/production/generated/128-megascops-marshalli-v8-edit1.png",
+            "sha": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+            "size": 2926987
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/128-megascops-marshalli-v8-reviewed-master.png",
+            "sha": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+            "size": 2926987
+          },
+          "immature_crop": {
+            "path": "owl-pet/production/review-crops/128-megascops-marshalli-v8-immature.png",
+            "sha": "b1549d01bdccfb71d0d7ef77622c00efdeaaf434",
+            "size": 744778
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/128-megascops-marshalli-v8-feet.png",
+            "sha": "01b27261f36ee606f2ee8905ebe10e2f77326058",
+            "size": 617115
+          }
+        },
+        "manifest_counts": {
+          "legacy": 613,
+          "design": 612,
+          "production": 603
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T09:48:00Z"
+  "updated_at": "2026-10-31T09:52:00Z"
 }

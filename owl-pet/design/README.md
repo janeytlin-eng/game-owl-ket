@@ -2761,3 +2761,7 @@ Applied the same pixel-evidence check to a different large owl: the instruction 
 ## 2026-10-31 — #128 *Megascops marshalli* v8 archive repair
 
 The current v7 PNG is preserved but fails full decode. V8 is a fresh, evidence-bounded three-bird plate; one edit shortened/softened the older immature's folded wing and removed adult-regular pale spotting. Full plate plus immature and feet/support crops passed with limitations. Exact juvenile age/flight chronology and sex-size ratio remain unknown; science false; unique coverage stays 175/251. [Original](concepts/128-megascops-marshalli-v8.png) · [Research](../research/species/128-megascops-marshalli-v8.md) · [Run](../production/runs/20261031T173539+0800-cycle-3.md).
+
+### #128 v8 verified — 2026-10-31T17:52:00+08:00
+
+Fixed archive [`3e343d1cb731e1642e4cf5c54b0bb17257b0c159`](https://github.com/janeytlin-eng/game-owl-ket/commit/3e343d1cb731e1642e4cf5c54b0bb17257b0c159) passed exact six-image path/blob/byte readback; the concept Git object fully decoded and matched SHA-256. Manifests 613/612/603; batch 3/6, next cycle 4; unique 175/251; science false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/3e343d1cb731e1642e4cf5c54b0bb17257b0c159/owl-pet/design/concepts/128-megascops-marshalli-v8.png?raw=1).

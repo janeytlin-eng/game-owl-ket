@@ -679,3 +679,11 @@ When a source distinguishes a day roost from an unknown nest, the prompt must tr
 - 强烈夕阳背光会把棕色型推成橙色，不能把色偏当作种级羽色。#134 v3 改用中性林下光，并实际查看成鸟棕/灰关系；这是本图的颜色校对，不宣称得到标准化测色。
 - 直接照片只显示洞口幼鸟上半身时，完整姿态构图不应补画无证据翼尾足。#134 v3 保留炭灰色绒状上体、细碎暗纹、弱头羽丝、暗眼外观、张喙与洞口支撑，下半身继续隐藏；全图和幼鸟裁图已复查。
 - 重叠体重范围仍不能换算成站立身高。首稿雌鸟偏小，定向放大至近等冠高、略丰满后查看成年足部裁图；只验证视觉纠错流程，science false。
+
+
+### 2026-11-01 — disputed juvenile identity demotes, rather than decorates, a stage claim (#160 v2)
+
+- **Problem discovered:** the earlier plate called its center bird a documented dependent fledgling, but primary-literature review reports that the underlying two-adult-plus-juvenile identification was questioned and may represent *Tyto rosenbergii*.
+- **Evidence:** Fitzsimons 2010, printed p.143, summarizes the identification dispute and separately cites only an indirect hole-nesting report for *T. inexspectata*. Neither supplies a reliable juvenile plumage sequence or nest interior.
+- **Applied change:** v2 labels the center bird AGE-UNKNOWN OLDER YOUNG and records it as design inference. A targeted image edit removed long adult-like spotted remiges, rounded/down-softened the wing and concealed the tail while retaining adults, text and two-foot support.
+- **Verification boundary:** full plate plus juvenile and adult/support crops were opened and passed visually. This validates the evidence-demotion and image-correction workflow for #160 only; it does not establish the true juvenile appearance, exact stage, flight ability or nest structure. Science remains false.

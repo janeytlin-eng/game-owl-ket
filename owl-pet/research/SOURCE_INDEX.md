@@ -940,3 +940,28 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Links: `research/species/101-otus-spilocephalus-v7.md`; v6 remains historical.
 
 - Reused evidence: `MOSO-NTM-HAMBROECKI-2026`, `MOSO-MIKKOLA-2013-P148`, `MSO-FOREST2005`. New2/reused3/corrected1. The correction is to the actual v6 image boundary, not to taxonomy: v6's visibly long tufts conflict with the official small-tuft description, and its adult-bright juvenile iris exceeds the recorded unknown boundary. Science remains false.
+
+
+## 2026-10-31 — #102 *Strix nigrolineata* v3 adult dimorphism calibration
+
+### BWO-GERHARDT-1997 — new, primary research
+- **Title / authors / year:** “Size, Dimorphism, and Related Characteristics of *Ciccaba* Owls From Guatemala,” Richard P. Gerhardt & Dawn McAnnis Gerhardt, 1997.
+- **URL:** https://research.fs.usda.gov/treesearch/15479 ; PDF https://research.fs.usda.gov/download/treesearch/15479.pdf
+- **Accessed:** 2026-10-31. **Type:** USDA Forest Service symposium paper; full PDF actually read.
+- **Species/stage:** *Ciccaba nigrolineata* = current *Strix nigrolineata*; breeding adults, Tikal, Guatemala.
+- **Useful evidence:** pp.190–191: measured pair female 535 g, wing chord 29.3 cm, tail 18.7 cm; male 436 g, 28.6 cm, 16.5 cm. pp.192–193: other observed pairs showed a similar visible size difference, but were not captured.
+- **Limits/confidence:** only one measured pair; breeding-season mass and regional sample. Supports direction and restrained display, not a universal height ratio or all-population equation.
+- **Design decision:** v3 makes the female subtly fuller and only slightly larger; no huge standing-height difference.
+
+### BWO-ITIS-2025 — new, institutional taxonomy
+- **Institution/year/URL:** Integrated Taxonomic Information System, TSN 1063255, IOC v15.1 data acquired 2025. https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=SCR&search_topic=TSN&search_value=1063255&source=from_print
+- **Accessed:** 2026-10-31. **Type:** institutional taxonomic authority.
+- **Fact:** accepted current name *Strix nigrolineata*; synonym *Ciccaba nigrolineata*.
+- **Limits:** nomenclature only; no plumage/development evidence.
+
+### Reused evidence and decision boundary
+- **BWO-VOOUS-1964:** Voous 1964, *Zoologische Mededelingen* 39(46):471–478, pp.472–476/Tables I–II; tuftless round-headed wood-owl morphology and historic *Ciccaba* grouping.
+- **BWO-GERHARDT-1994:** Wilson Bulletin 106(4):629–639, pp.629–634, 636–637; four Tikal nests on bare orchid/bromeliad epiphytes in large live trees; detailed *C. virgata* chick chronology excluded from this species.
+- **BWO-MIKKOLA-2013-P339:** uploaded guide, printed p.339/PDF p.341, previously read; adult sooty dorsal plumage, barred underparts, eye/bill/tarsus/toe details and age-unknown mesoptile.
+- **Source/design delta:** new2 / reused3 / corrected1. Exact juvenile age, flight threshold, universal nest choice and population-wide dimorphism remain unknown; science false.
+- **Linked artifacts:** [research](species/102-strix-nigrolineata-v3.md), [run](../production/runs/20261031T102620+0800-cycle-5.md), concept target `design/concepts/102-strix-nigrolineata-v3.png`.

@@ -645,3 +645,9 @@ A prior status sentence is not proof that an edit is visible. Reopen the actual 
 - Applied modification: require “small, low, modest triangular” adult tufts that do not project high above the crown; explicitly separate adult-supported yellow iris from a subdued neutral juvenile unknown cue.
 - Actual validation: applied once to #101 v7, then checked at full 1536×1024 and on a 560×760 fledgling crop. The tall horns and adult-bright juvenile iris were removed without changing adult scale, fledgling support or wing-stage boundary.
 - Scope: validated for this plate only. Do not universalize dark juvenile eyes or the exact tuft geometry to other species; reuse the explicit adult/juvenile iris separation whenever evidence is asymmetric.
+
+
+### 2026-10-31 #102 adult body-mass evidence is not a standing-height equation
+- Gerhardt & Gerhardt 1997 measured only one *Strix nigrolineata* pair: female 535 g versus male 436 g, while wing chord differed only 29.3 versus 28.6 cm. Other pairs looked similarly different but were not captured.
+- Applied in #102 v3 as a subtly fuller, only slightly larger female. It does not justify a huge height gap or a universal percentage for all populations.
+- This is a source-bounded design correction; visual review can validate application to the plate, not population biology. Scientific verification remains false.

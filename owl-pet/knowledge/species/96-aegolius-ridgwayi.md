@@ -22,3 +22,8 @@ The first render and the 620×700 juvenile crop passed without an evidence-suppo
 ## v4 archive — 2026-10-31T08:29:00+08:00
 
 Number 96 restored. Existing reviewed plate was reopened after the lease expired; no regeneration or edit. Adults remain near-equal in scale; older fluffy juvenile keeps short down-covered wing, concealed tail and belly/two-foot branch support. PASS_WITH_LIMITATIONS; fixed readback pending; science=false.
+
+
+## v4 fixed verification — 2026-10-31T08:31:00+08:00
+
+Archive `f9067ba45ed7247f43816db2d2df48c8f9695387` passed exact concept/generated/reviewed/crop path, blob and byte checks in a non-truncated 2,271-entry tree. Manifest counts 598/597/588. Review remains PASS_WITH_LIMITATIONS; science=false.

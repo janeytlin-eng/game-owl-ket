@@ -23,3 +23,8 @@ Target: ../../design/concepts/96-aegolius-ridgwayi-v4.jpg
 ## ARCHIVED — 2026-10-31T08:29:00+08:00
 
 Expired lease recovered only after confirming main remained `d38d2566fee4d5a05653e2be6f0de684c747140b`. The full plate and juvenile crop were reopened; review result remains PASS_WITH_LIMITATIONS, edit0, science=false. Existing generated/reviewed blobs were reused; concept and manifests 598/597/588 were prepared for fixed readback.
+
+
+## VERIFIED — 2026-10-31T08:31:00+08:00
+
+Fixed archive `f9067ba45ed7247f43816db2d2df48c8f9695387` passed exact four-asset tree readback (2,271 entries, not truncated), manifests 598/597/588 and support-record checks. The batch is COMPLETE 6/6. Unique species remains 175/251; science=false.

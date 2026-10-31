@@ -2841,3 +2841,6 @@ Verification 2026-10-31T07:32:00+08:00: fixed archive [`0090a021f6e578d17e9dac20
 ### 2026-10-31 #96 *Aegolius ridgwayi* v4
 
 SCIENCE_REVISION PASS_WITH_LIMITATIONS; number96 restored; age-unknown older fluffy juvenile and branch support retained; edit0; sciencefalse; unique175/251. Expired lease recovered after unchanged-head check. [Concept](design/concepts/96-aegolius-ridgwayi-v4.png) · [Research](research/species/96-aegolius-ridgwayi-v4.md) · [Run](production/runs/20261031T073400+0800-cycle-6.md). Archive prepared at 2026-10-31T08:29:00+08:00; fixed readback pending.
+
+
+Verification 2026-10-31T08:31:00+08:00: #96 v4 fixed archive [`f9067ba45ed7247f43816db2d2df48c8f9695387`](https://github.com/janeytlin-eng/game-owl-ket/commit/f9067ba45ed7247f43816db2d2df48c8f9695387) passed exact four-asset readback; tree2271 non-truncated; manifests598/597/588. Batch `2026-10-31T0635+0800` is COMPLETE6/6; unique175/251; sciencefalse.

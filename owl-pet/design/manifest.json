@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T08:29:00+08:00",
+  "updated": "2026-10-31T08:31:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14032,11 +14032,49 @@
       "review_crop_blob": "d94119f83b2560017aa7689a001071b814069df6",
       "review_crop_sha256": "5655e04078cc62566821b68c29694d906eeae06dccc0190f2c1a33992f4e906d",
       "review_crop_size_bytes": 739397,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "393213711db7df9fa217592b556cbb73a9e6f2be",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "f9067ba45ed7247f43816db2d2df48c8f9695387",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T08:31:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "f9067ba45ed7247f43816db2d2df48c8f9695387",
+        "method": "fixed recursive tree exact path/blob/size readback",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/96-aegolius-ridgwayi-v4.png",
+            "sha": "393213711db7df9fa217592b556cbb73a9e6f2be",
+            "size": 2833846
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/96-aegolius-ridgwayi-v4-generated-master.png",
+            "sha": "393213711db7df9fa217592b556cbb73a9e6f2be",
+            "size": 2833846
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/96-aegolius-ridgwayi-v4-reviewed-master.png",
+            "sha": "393213711db7df9fa217592b556cbb73a9e6f2be",
+            "size": 2833846
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/96-aegolius-ridgwayi-v4-juvenile.png",
+            "sha": "d94119f83b2560017aa7689a001071b814069df6",
+            "size": 739397
+          }
+        },
+        "manifest_counts": {
+          "legacy": 598,
+          "design": 597,
+          "production": 588
+        },
+        "tree": {
+          "entries": 2271,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T08:29:00+08:00"
+  "updated_at": "2026-10-31T08:31:00+08:00"
 }

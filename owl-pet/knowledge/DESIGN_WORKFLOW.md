@@ -617,3 +617,8 @@ Applied the fixed-plate title-only rule to #95 v4. Full plate and juvenile crop 
 ## 2026-10-31 — recover reviewed assets after an expired lease
 
 When a lease expires after REVIEWED, first confirm main and the staged asset paths are unchanged, reopen the persisted master/crop, and then archive those exact blobs without regenerating. This rule was applied to #96 v4; effectiveness is not claimed until fixed-commit readback passes.
+
+
+### Validation of expired-lease recovery — #96 v4
+
+Applied and verified: an expired REVIEWED-stage lease was recovered only after unchanged-head and asset checks; saved assets were reopened and archived without regeneration. Fixed-commit tree readback then matched all four assets. This validates the recovery rule for the same conditions; it does not authorize reuse when head or asset blobs differ.

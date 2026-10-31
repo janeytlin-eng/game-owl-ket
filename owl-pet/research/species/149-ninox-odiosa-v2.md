@@ -31,3 +31,15 @@ Adults: compact small earless boobooks, near-equal visible scale because sex-siz
 Older juvenile: explicitly age unknown; eyes gently closed, low upright resting pose, both feet fully supported. Fluffier diffuse russet-brown body with reduced vague mottling, short rounded soft folded wing mostly buried in fluff, very short hidden tail, no crisp adult spangles or long remiges, no flight action.
 Constraints: exactly three birds, whole bodies, natural support, no nest/eggs/cavity, no imposed dimorphism, no extra birds, no watermark, no misspelled text.
 ```
+
+## Actual image review and iteration
+
+- Reconstructed 1536×1024 master viewed. Adults show orange-yellow eyes, white brows/throat, dark russet upper breast, irregular pale spangles/mottling and supported feet.
+- First-pass juvenile defect: crisp adult-like crown spangles and a long defined folded-wing edge. Edit1 changed only the juvenile to diffuse crown down and a shorter unspotted soft wing mostly buried in fluff.
+- Full final plus 570×720 juvenile and 1020×600 adult crops were viewed. Both juvenile feet grip the branch, eyes are closed and no nest/flight claim appears. Result `PASS_WITH_LIMITATIONS`; adult spangle geometry and juvenile stage remain stylized, not specimen-exact. Science=false.
+
+## Targeted edit prompt
+
+```text
+Targeted edit of Image 1. Preserve both adult New Britain Boobooks exactly, preserve all text, title, labels, forest, branch, composition, lighting and dimensions. Edit only the right-hand OLDER JUVENILE. Remove the crisp rows of adult-like pale crown spots and replace them with diffuse soft russet-brown down and only vague irregular mottling. Shorten and soften the visible folded wing so it is rounded, unspotted and mostly buried in body fluff, with no long parallel remiges or crisp coverts; keep the tail very short and mostly hidden. Keep the juvenile's eyes gently closed and both feet naturally gripping the same branch. Do not alter either adult, add birds, add a nest, or change any typography.
+```

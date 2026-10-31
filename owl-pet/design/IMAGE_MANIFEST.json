@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:31:00Z",
+  "updated": "2026-10-31T06:56:30Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15263,7 +15263,61 @@
         "manifest_json_valid": true,
         "science": false
       }
+    },
+    {
+      "id": "121-ninox-leucopsis-v3",
+      "path": "design/concepts/121-ninox-leucopsis-v3.png",
+      "species_id": 121,
+      "scientific_name": "Ninox leucopsis",
+      "historical_names": [
+        "Ninox novaeseelandiae leucopsis",
+        "Ninox boobook leucopsis"
+      ],
+      "common_name": "Tasmanian Boobook",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "fc406ab0d1f76fe3e7b8124fe9746c1c4b29acb2ec057ed6ed072be12ae8de60",
+      "size_bytes": 2513755,
+      "dimensions": "1536x1024",
+      "status": "Original-resolution v2 review found an obsolete unnumbered text contract and a long crisp white-spotted adult-like wing panel on the center older juvenile. V3 applies current exact title/labels and, after one targeted edit, shows only a compact plain remige cluster under dark fluffy mesoptile, ending well above two gripping feet, with no adult covert spots or projected tail. Adults remain near-equal because measurements overlap. Exact juvenile age, sex, flight ability, literal feather map, normal iris chronology and fixed sex-size ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "TBO-OLSEN-DEBUS-2013-FIG1",
+        "TBO-MIKKOLA-2013-P463",
+        "TBO-ABSA-AGEING-2019",
+        "TBO-AFO-TSANG-2022",
+        "TBO-BIRDLIFE-FACTSHEET"
+      ],
+      "research_record": "research/species/121-ninox-leucopsis-v3.md",
+      "run_record": "production/runs/20261031T144851+0800-cycle-6.md",
+      "reviewed_at": "2026-10-31T06:55:15Z",
+      "generated_path": "production/generated/121-ninox-leucopsis-v3-generated-master.png",
+      "generated_blob": "d44d81f86d63d85c7c3598815ab48e5a67f1e70c",
+      "generated_sha256": "c4ea8e93a5fe6d94173147e91fd1193cc4ba6f191362d8b07a57fddc58d7a33b",
+      "generated_size_bytes": 2631707,
+      "intermediate_edit_path": "production/generated/121-ninox-leucopsis-v3-edit1.png",
+      "intermediate_edit_blob": "8ee10212086ccf3aabea70b470aeb60fbd5f1f38",
+      "reviewed_path": "production/reviewed/121-ninox-leucopsis-v3-reviewed-master.png",
+      "reviewed_blob": "8ee10212086ccf3aabea70b470aeb60fbd5f1f38",
+      "reviewed_sha256": "fc406ab0d1f76fe3e7b8124fe9746c1c4b29acb2ec057ed6ed072be12ae8de60",
+      "reviewed_size_bytes": 2513755,
+      "review_crop_path": "production/review-crops/121-ninox-leucopsis-v3-juvenile.png",
+      "review_crop_blob": "80b60ac9f7503b4cecb63afd29d59460dcc6226f",
+      "review_crop_sha256": "931d352ee1757c016435f1afdae266c0649ea9b1315c81de74ebd3831643f2eb",
+      "review_crop_size_bytes": 527185,
+      "auxiliary_review_crop_path": "production/review-crops/121-ninox-leucopsis-v3-feet.png",
+      "auxiliary_review_crop_blob": "c2d32bdd74b9315060d3a2ba0661f420dea19669",
+      "auxiliary_review_crop_sha256": "d7ac569a76939359b8a9a929edd94cd34b5ed92654c8e25744eb198ba6dbf603",
+      "auxiliary_review_crop_size_bytes": 619479,
+      "readback_pending": true,
+      "git_blob": "8ee10212086ccf3aabea70b470aeb60fbd5f1f38",
+      "exact_readback": false,
+      "fixed_archive_commit": null
     }
   ],
-  "updated_at": "2026-10-31T06:44:37Z"
+  "updated_at": "2026-10-31T06:56:30Z"
 }

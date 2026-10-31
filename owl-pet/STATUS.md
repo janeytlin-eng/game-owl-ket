@@ -2919,3 +2919,9 @@ Fixed archive `e91422cabccd0d0b6791088a21838ef44749b2b6` passed exact recursive-
 - The connector's binary-body response stopped at 786,445 bytes, so it was not treated as a full redownload; verification uses the immutable commit tree and exact Git blob identities/sizes. PASS_WITH_LIMITATIONS; science false; unique 175/251; current batch 3/6, next 4.
 - [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/64134725024eb744a1280179054fc1e91682c4b8/owl-pet/design/concepts/106-strix-albitarsis-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/64134725024eb744a1280179054fc1e91682c4b8)
 
+# Production update — 2026-10-31 14:56 +0800
+
+- Batch `2026-10-31T1130+0800` cycle 6/6 is at `ARCHIVED` for #121 *Ninox leucopsis* v3; fixed-commit readback is pending, so this is not yet cycle credit.
+- Fresh evidence: Olsen & Debus 2013 pp.106–107/Fig.1 and user-uploaded Mikkola printed p.463/PDF p.465; ABSA, Tsang and BirdLife records reused. Original-resolution review required one targeted juvenile-wing edit.
+- Final plate has current title/labels, exactly three supported birds and a compact plain juvenile remige cluster under dark down. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**. [Research](research/species/121-ninox-leucopsis-v3.md) · [Run](production/runs/20261031T144851+0800-cycle-6.md)
+

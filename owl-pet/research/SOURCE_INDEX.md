@@ -1896,3 +1896,29 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Links:** [research card](species/174-strix-sartorii-v2.md) · [run](../production/runs/20261101T032800+0800-cycle-2.md)
 
 **Cycle source delta:** new 2 (survey, ITIS), reused 3 (AOS, Earbirding base record, primary genetic/historical diagnosis), corrected 2 (flight ability and current-site habitat specificity). Uploaded Mikkola file unavailable; no new page claim.
+
+
+## 2026-11-01 — #175 *Otus ireneae* v2 evidence refresh
+
+### SSO-VIRANI-1995-P24-27
+- **Title / author / year / type:** Munir Virani, “Who gives a hoot!? The Sokoke Scops Owl and its forest”; 1995; direct field/conservation account, *Swara* 18(1):24–27.
+- **URL / pages read:** https://eawildlife.org/archive/swaraonline/swaras/swaraIssues/EAWLS_SwaraMagazine_01_1995.pdf ; printed pp.24–27, especially family photograph/caption p.25; accessed 2026-11-01.
+- **Species / stage / facts:** *Otus ireneae* family; photograph explicitly captions female, male and juvenile. Article supports paired roosting in dense lower *Cynometra* canopy.
+- **Limits / confidence:** direct family photograph but no juvenile age, flight status, iris colour or feather chronology. Do not infer hatchling or fledging details.
+- **Design use:** age-unknown perched older juvenile with adult pair and natural branch support; evidence-based lower-canopy setting.
+- **Links:** [research card](species/175-otus-ireneae-v2.md) · [run](../production/runs/20261101T033700+0800-cycle-3.md)
+
+### SSO-VIRANI-2008-P6-9
+- **Title / author / year / type:** Munir Z. Virani, “Diet composition of Sokoke Scops Owl *Otus ireneae* in Arabuko-Sokoke Forest”; 2008; primary field study, *Scopus* 27:6–9.
+- **URL / pages read:** https://assets.peregrinefund.org/docs/pdf/research-library/2008/2008-Virani-sokoke.pdf ; printed pp.6–9; accessed 2026-11-01.
+- **Facts:** study site is mature *Cynometra* woodland with canopy to 15 m and dense shrub/liana/vine understorey; three pairs were radio-tracked; 99% of pellet prey items were insects and 91% Coleoptera.
+- **Limits / confidence:** strong habitat/diet field evidence; not juvenile plumage, sex-size or occupied-nest evidence.
+- **Design use:** dense lower-canopy environment only; no prey or nest depiction required.
+
+### SSO-IUCN-2025
+- **Title / institution / type:** BirdLife International/IUCN, *Otus ireneae* species account; current institutional synthesis.
+- **URL / access:** https://doi.org/10.2305/IUCN.UK.2025-2.RLTS.T22688565A259796531.en ; accessed 2026-11-01.
+- **Facts / limits:** *Cynometra* habitat and possible natural-cavity use in large/old *Brachylaena*; wording is uncertain and does not establish nest interior, eggs or young stage.
+- **Design use:** habitat corroboration; no cavity reconstruction.
+
+**Reused:** SSO-MIKKOLA-2013-P134 and SSO-ABC-2023-P2-P9-10 from the v1 record. The user-uploaded guide was unavailable this run; Mikkola page facts were rechecked through online text and not expanded beyond no sex-size evidence, three morphs and juvenile resembling adult. **Cycle delta:** new3 / reused2 / corrected2 (direct family-photo juvenile basis and explicit no-sex-size-difference handling; full-resolution replacement). Exact juvenile age/flight/iris/feather chronology and occupied nest/clutch remain unknown; science=false. [Research](species/175-otus-ireneae-v2.md) · [Run](../production/runs/20261101T033700+0800-cycle-3.md).

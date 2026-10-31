@@ -16113,10 +16113,55 @@
       "auxiliary_review_crop_blob": "ee4f28da27ba20f00caa115636a35f1b424a80bf",
       "auxiliary_review_crop_sha256": "0b817e2ab2308f16ff283b9e16f047e4ddb9057b4ed742f4187eb320caf3fc80",
       "auxiliary_review_crop_size_bytes": 1466223,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "4a57a7d0cdc08b7e69c69b903f4e7eaf38949eb7"
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "4a57a7d0cdc08b7e69c69b903f4e7eaf38949eb7",
+      "fixed_archive_commit": "4484ce533a049211312822a407a5bf24780ada01",
+      "verified_at": "2026-10-31T12:49:55.000Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "4484ce533a049211312822a407a5bf24780ada01",
+        "method": "immutable archive commit path/blob SHA readback; connector display URLs; local original-resolution full/crop inspection and full PNG decode; complete manifest JSON parsing; main head readback",
+        "tree_sha": "2a57dd031cf93b822fe552b6180483d391e12ab3",
+        "tree_count": null,
+        "tree_truncated": null,
+        "assets": {
+          "owl-pet/design/concepts/138-otus-mentawi-v3.png": {
+            "sha": "4a57a7d0cdc08b7e69c69b903f4e7eaf38949eb7",
+            "size": 3189979
+          },
+          "owl-pet/production/generated/138-otus-mentawi-v3-generated-master.png": {
+            "sha": "4a57a7d0cdc08b7e69c69b903f4e7eaf38949eb7",
+            "size": 3189979
+          },
+          "owl-pet/production/reviewed/138-otus-mentawi-v3-reviewed-master.png": {
+            "sha": "4a57a7d0cdc08b7e69c69b903f4e7eaf38949eb7",
+            "size": 3189979
+          },
+          "owl-pet/production/review-crops/138-otus-mentawi-v3-juvenile.png": {
+            "sha": "90120a9bf4c52857e8872fe1b9bcd8f2e8555568",
+            "size": 693455
+          },
+          "owl-pet/production/review-crops/138-otus-mentawi-v3-adult-size-feet.png": {
+            "sha": "ee4f28da27ba20f00caa115636a35f1b424a80bf",
+            "size": 1466223
+          }
+        },
+        "manifest_counts": {
+          "design_image": 621,
+          "design_legacy": 622,
+          "production": 612
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "connector_full_binary_stream_readback": false,
+        "connector_binary_stream_limit_bytes": 700000,
+        "png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "175/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T12:46:30.000Z"
+  "updated_at": "2026-10-31T12:49:55.000Z"
 }

@@ -2672,6 +2672,14 @@ Remote verification 2026-10-31T01:39:53+08:00: #77 v4 fixed archive `d3c0236ead2
 - Applied: #83 *Otus brucei* v4 uses RECENT FLEDGLING, a compact soft juvenile wing/short tail, bilateral cavity-lip support and near-equal adult crown height.
 - Verified locally: the first v4 render retained an adult-like repeated pale wing row; one targeted edit removed that leakage. Full master, crop and derivative passed. This validates the prompt/check rule for this instance; science remains false.
 
+### 2026-10-31 — #122 *Otus megalotis* v3 pixel-evidence reconciliation
+
+- A prior production note claimed the juvenile wing/tail had already been shortened, but opening the archived v2 at original resolution showed a long crisp adult-like wing panel and visible long tail. Text records are therefore not accepted as proof of a visual correction; each latest image must be reopened before reuse.
+- Fresh evidence supports an age-unknown mobile brancher with formed flight feathers and natural climbing/gripping support, but not an adult-performance pose or literal measured wing geometry. V3 keeps a compact softened remige cluster instead of deleting all flight feathers.
+- The initial v3 render again leaked repeated pale adult covert rows. One juvenile-only edit removed those rows, shortened/softened the wing and concealed the tail. Full master, juvenile crop and feet/support crop were reopened and passed with limitations.
+- Applied rule: correct maturity through wing length, edge softness and pattern regularity while preserving any species-specific evidence for formed remiges. This instance is visually verified; broader cross-species effectiveness remains unverified. Scientific status remains false.
+- [Concept](concepts/122-otus-megalotis-v3.png) · [research](../research/species/122-otus-megalotis-v3.md) · [run](../production/runs/20261031T150240+0800-cycle-1.md)
+
 
 Remote verification 2026-10-31T04:49:30+08:00: #83 v4 fixed archive `4d52a675ded909e923b8d2ce7e43bb0bb4971907` returned exact assets in a non-truncated 2,201-entry tree; manifests 587/586/577 matched. The exact-age/wing/scale correction is verified for this instance; science remains false.
 

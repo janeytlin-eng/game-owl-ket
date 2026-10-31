@@ -66,3 +66,10 @@ Constraints: preserve exactly three birds, adult plumage and background; do not 
 4. Both juvenile feet visibly grip natural support; no unsupported pose or adult-performance action.
 5. Keep all unknowns explicit; final status cannot be `scientifically_verified=true`.
 
+## Actual generation, correction and review
+
+- Initial v3 master was opened at 1536×1024. Exact title/count/labels, adult identity and all supports passed, but the center juvenile still carried repeated pale adult-like covert rows and a crisp articulated wing panel. This was rejected rather than inheriting the prompt text as proof.
+- One center-juvenile-only ImageGen edit removed the repeated pale rows, softened and compacted the folded wing, kept its lower edge high above both feet, and concealed the tail. Both adults, exact text, habitat and all branch contacts remained stable.
+- The edited 1536×1024 original, a 520×700 juvenile crop and a 1180×340 feet/support crop were opened and checked. Result: `PASS_WITH_LIMITATIONS`, edit count 1, science false.
+- Remaining uncertainty: the visible remige cluster is an evidence-bounded design inference, not a measured feather map; exact age, first-flight threshold, iris chronology, sex and quantitative dimorphism remain unknown.
+

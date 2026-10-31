@@ -1442,3 +1442,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-10-30T23:57:13+08:00 — verified #68 *Tyto tenebricosa* v4 at fixed archive `19ddaf91a4cf11f863bed3deac623a1b1d79bfa3`; exact image paths/blobs/sizes, manifests 574/573/564 and support records matched in a non-truncated tree. Batch `2026-10-30T2158+0800` closed COMPLETE 6/6; unique 175/251; science false.
+
+
+### 2026-10-31 — #97 Crested Owl v4
+
+- Added repository number 97 while preserving v1–v3.
+- Quarantined the misidentified Rocha & López-Baucells (2014) juvenile/flight/diet evidence following the official erratum.
+- Archived generated, reviewed and juvenile-crop evidence; PASS_WITH_LIMITATIONS, science false.

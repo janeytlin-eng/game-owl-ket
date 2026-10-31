@@ -2677,3 +2677,6 @@ Fixed readback 2026-10-31T06:12:00+08:00: [archive `572871e4f9d0882b94da3f7ecb6e
 Title-number correction; PASS_WITH_LIMITATIONS; unique+0; sciencefalse. [Original](concepts/89-bubo-bengalensis-v4.jpg).
 
 Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f05e3454c6785`](https://github.com/janeytlin-eng/game-owl-ket/commit/b9c9847113bacdd0e95f16cf206f05e3454c6785) exact; batch6/6 complete; sciencefalse.
+
+
+- **#97 *Lophostrix cristata* v4** — numbered SCIENCE_REVISION plate; adult pair + age-unknown older mesoptile juvenile; official misidentification correction applied; PASS_WITH_LIMITATIONS; science false. See `concepts/97-lophostrix-cristata-v4.png` and `../research/species/97-lophostrix-cristata-v4.md`.

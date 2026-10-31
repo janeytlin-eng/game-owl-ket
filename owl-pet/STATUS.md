@@ -2844,3 +2844,8 @@ SCIENCE_REVISION PASS_WITH_LIMITATIONS; number96 restored; age-unknown older flu
 
 
 Verification 2026-10-31T08:31:00+08:00: #96 v4 fixed archive [`f9067ba45ed7247f43816db2d2df48c8f9695387`](https://github.com/janeytlin-eng/game-owl-ket/commit/f9067ba45ed7247f43816db2d2df48c8f9695387) passed exact four-asset readback; tree2271 non-truncated; manifests598/597/588. Batch `2026-10-31T0635+0800` is COMPLETE6/6; unique175/251; sciencefalse.
+
+
+## 2026-10-31 — #97 *Lophostrix cristata* v4 archived, verification pending
+
+Numbered v4 concept and review assets are archived with the corrected evidence boundary. The official erratum excludes Rocha & López-Baucells (2014) from this species because the bird was *Strix virgata*. Review is PASS_WITH_LIMITATIONS; scientific verification remains false. Unique coverage stays 175/251.

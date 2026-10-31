@@ -622,3 +622,8 @@ When a lease expires after REVIEWED, first confirm main and the staged asset pat
 ### Validation of expired-lease recovery — #96 v4
 
 Applied and verified: an expired REVIEWED-stage lease was recovered only after unchanged-head and asset checks; saved assets were reopened and archived without regeneration. Fixed-commit tree readback then matched all four assets. This validates the recovery rule for the same conditions; it does not authorize reuse when head or asset blobs differ.
+
+
+### Evidence correction rule applied to #97 (2026-10-31)
+
+When a publisher erratum changes the species identity of a photographed juvenile, quarantine every stage, ability and diet inference derived from that observation. Retain only traits independently supported for the target species, preserve historical records, and keep scientific verification false until the remaining unknowns are resolved. Applied to *Lophostrix cristata* v4; the Rocha & López-Baucells bird is *Strix virgata*.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T08:31:00+08:00",
+  "updated": "2026-10-31T09:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -13557,7 +13557,53 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "97-lophostrix-cristata-v4",
+      "path": "design/concepts/97-lophostrix-cristata-v4.png",
+      "species_id": 97,
+      "scientific_name": "Lophostrix cristata",
+      "historical_names": [
+        "Syrnium griseatum"
+      ],
+      "common_name": "Crested Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "41e6b37dc8057d889a156d622b1ba1a7239f71f89e5727a31f2c9f0dfd99a229",
+      "size_bytes": 2916540,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. V4 adds repository number 97 and retains the evidence-bounded adult pair plus an age-unknown older mesoptile juvenile with white body, dark/rufous face, short tufts, developed folded brown barred wing and tail, and bilateral mossy-branch support. Official erratum excludes the Rocha & López-Baucells 2014 bird and all flight/diet claims because it was Strix virgata. Exact juvenile age/sex, first-flight threshold, continuous tract sequence, measured adult sex-size ratio and universal nest form remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "CRI-SPRINGER-ERRATUM-2014",
+        "CRI-BIRDS-BOLIVIA-2026",
+        "CRI-MIK2013-358",
+        "CRI-MNHN-2010-261"
+      ],
+      "research_record": "research/species/97-lophostrix-cristata-v4.md",
+      "run_record": "production/runs/20261031T092700+0800-cycle-1.md",
+      "reviewed_at": "2026-10-31T09:43:00+08:00",
+      "generated_path": "production/generated/97-lophostrix-cristata-v4-generated-master.png",
+      "generated_blob": "a84d4b54affa3b195e49f71cfd52aaecee1909a5",
+      "generated_sha256": "41e6b37dc8057d889a156d622b1ba1a7239f71f89e5727a31f2c9f0dfd99a229",
+      "generated_size_bytes": 2916540,
+      "reviewed_path": "production/reviewed/97-lophostrix-cristata-v4-reviewed-master.png",
+      "reviewed_blob": "a84d4b54affa3b195e49f71cfd52aaecee1909a5",
+      "reviewed_sha256": "41e6b37dc8057d889a156d622b1ba1a7239f71f89e5727a31f2c9f0dfd99a229",
+      "reviewed_size_bytes": 2916540,
+      "review_crop_path": "production/review-crops/97-lophostrix-cristata-v4-juvenile.png",
+      "review_crop_blob": "3255f8677639047479e72019c39b53c464cf0729",
+      "review_crop_sha256": "d68b54047cdba3b4b6314b0c527b2a806018bb158c0ebc661359a2a634f07418",
+      "review_crop_size_bytes": 789485,
+      "readback_pending": true,
+      "git_blob": "a84d4b54affa3b195e49f71cfd52aaecee1909a5",
+      "fixed_archive_commit": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T08:31:00+08:00"
+  "updated_at": "2026-10-31T09:47:00+08:00"
 }

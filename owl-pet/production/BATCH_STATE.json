@@ -12304,36 +12304,48 @@
         }
       ],
       "next_cycle": 4,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
-      "last_checkpoint": {
-        "cycle": 3,
-        "species": "Otus ireneae",
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "20261101T034300+0800-cycle-4",
+        "heartbeat_at": "2026-11-01T03:43:00+08:00",
+        "expires_at": "2026-11-01T03:58:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-automation",
+        "run_id": "20261101T034300+0800-cycle-4",
+        "heartbeat_at": "2026-11-01T03:43:00+08:00",
+        "expires_at": "2026-11-01T03:58:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 4,
+        "species": "Otus pembaensis",
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "run_id": "20261101T033700+0800-cycle-3",
-        "stage": "VERIFIED",
+        "run_id": "20261101T034300+0800-cycle-4",
+        "stage": "STARTED",
         "stage_evidence": {
-          "archive_commit": "2966ec051d8d98a51f51624e2763ad98f45787cb",
-          "asset_commit": "fc9faf9bb7f93885c76abe9bbb3861fc7ad7369a",
-          "tree_sha": "591adb4249765c79e442cf130873e2c3904c37e5",
-          "recursive_tree_truncated": false,
-          "paths_verified": 9,
-          "binary_assets_verified": 6,
-          "master_blob": "a20655d047239e95e01e5a65e5c81a72fd5229b1",
-          "manifest_counts": {
-            "design_image": 642,
-            "design_legacy": 643,
-            "production": 633
-          },
-          "unique_species": "175/251",
-          "revision_increment": 1,
-          "rule_commit": "96c7386665c3d0663233099016e59cf637618aa9"
+          "main_head": "db17fb7e6a669020eb88814d5e4b1460f1818446",
+          "v1_git_blob": "d234423aca0c5732681b8d6c0e71a9fccd3d69be",
+          "v1_sha256": "a90533605c13b9621d1293d3bb65e7f894a6de8ee29b7a89d12e37b3e5da48c2",
+          "unique_species": "175/251"
         }
       },
-      "last_stage": "VERIFIED",
-      "updated_at": "2026-11-01T03:42:00+08:00",
+      "last_checkpoint": {
+        "cycle": 4,
+        "species": "Otus pembaensis",
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261101T034300+0800-cycle-4",
+        "stage": "STARTED",
+        "stage_evidence": {
+          "main_head": "db17fb7e6a669020eb88814d5e4b1460f1818446",
+          "v1_git_blob": "d234423aca0c5732681b8d6c0e71a9fccd3d69be",
+          "v1_sha256": "a90533605c13b9621d1293d3bb65e7f894a6de8ee29b7a89d12e37b3e5da48c2",
+          "unique_species": "175/251"
+        }
+      },
+      "last_stage": "STARTED",
+      "updated_at": "2026-11-01T03:43:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12697,11 +12709,30 @@
             "revision_increment": 1,
             "rule_commit": "96c7386665c3d0663233099016e59cf637618aa9"
           }
+        },
+        {
+          "cycle": 4,
+          "run_id": "20261101T034300+0800-cycle-4",
+          "species": "Otus pembaensis",
+          "stage": "STARTED",
+          "at": "2026-11-01T03:43:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "main_head": "db17fb7e6a669020eb88814d5e4b1460f1818446",
+            "v1_git_blob": "d234423aca0c5732681b8d6c0e71a9fccd3d69be",
+            "v1_sha256": "a90533605c13b9621d1293d3bb65e7f894a6de8ee29b7a89d12e37b3e5da48c2",
+            "unique_species": "175/251"
+          }
         }
       ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-automation",
+    "run_id": "20261101T034300+0800-cycle-4",
+    "heartbeat_at": "2026-11-01T03:43:00+08:00",
+    "expires_at": "2026-11-01T03:58:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",

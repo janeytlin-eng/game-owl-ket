@@ -17533,7 +17533,70 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "175-otus-ireneae-v2",
+      "path": "design/concepts/175-otus-ireneae-v2.png",
+      "species_id": 175,
+      "scientific_name": "Otus ireneae",
+      "historical_names": [
+        "Morden's Scops Owl",
+        "Morden's Owlet"
+      ],
+      "common_name": "Sokoke Scops Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 full-resolution family-evidence correction. Virani 1995 directly photographs/captions female, male and juvenile together; exact juvenile age, flight and iris remain unknown. Adults are the same display height because Mikkola reports no evidence of sexual size difference, and morph is not encoded as sex. Initial output repeated v1's long adult-hard juvenile wing and made tufts too prominent; edit1 shortened/softened the juvenile wing and reduced all tufts. Full plate and two original-detail crops passed. PASS_WITH_LIMITATIONS; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "SSO-VIRANI-1995-P24-27",
+        "SSO-VIRANI-2008-P6-9",
+        "SSO-IUCN-2025",
+        "SSO-MIKKOLA-2013-P134",
+        "SSO-ABC-2023-P2-P9-10"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/175-otus-ireneae-v2.md",
+      "run_record": "production/runs/20261101T033700+0800-cycle-3.md",
+      "reviewed_at": "2026-11-01T03:47:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "522b3b60bafea5e9328bfa282373b6c5593f2127e4aabe5a8bac4c88662ae437",
+      "size_bytes": 2987592,
+      "initial_generated_path": "production/generated/175-otus-ireneae-v2-generated-master.png",
+      "initial_generated_blob": "1bbc8ca6dc24f388cb70faeabf431867ed12277d",
+      "initial_generated_sha256": "041a8a25915073dc430db7446d4cd3b9c25c2b745e4b3bcfcf9f57f31511a1c6",
+      "initial_generated_size_bytes": 3144827,
+      "generated_path": "production/generated/175-otus-ireneae-v2-edit1.png",
+      "generated_blob": "a20655d047239e95e01e5a65e5c81a72fd5229b1",
+      "generated_sha256": "522b3b60bafea5e9328bfa282373b6c5593f2127e4aabe5a8bac4c88662ae437",
+      "generated_size_bytes": 2987592,
+      "reviewed_path": "production/reviewed/175-otus-ireneae-v2-reviewed-master.png",
+      "reviewed_blob": "a20655d047239e95e01e5a65e5c81a72fd5229b1",
+      "reviewed_sha256": "522b3b60bafea5e9328bfa282373b6c5593f2127e4aabe5a8bac4c88662ae437",
+      "reviewed_size_bytes": 2987592,
+      "review_crop_path": "production/review-crops/175-otus-ireneae-v2-juvenile.png",
+      "review_crop_blob": "fd233ff5eb0cc17609daa7ccda912955545c82a7",
+      "review_crop_sha256": "d205f2a5e25ca6d7dc515dc088bee8d1529245b0d843d82ff5265dea8b7c65e0",
+      "review_crop_size_bytes": 666618,
+      "auxiliary_review_crop_path": "production/review-crops/175-otus-ireneae-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "8bc95b582ee5b182320d3886a786ec12ae4134c7",
+      "auxiliary_review_crop_sha256": "4335a366fab9e4906730b062b08758cd850d7814053e34f1c8b65f977178f5a5",
+      "auxiliary_review_crop_size_bytes": 1325119,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "a20655d047239e95e01e5a65e5c81a72fd5229b1",
+      "v1_integrity": {
+        "git_blob": "fb4553af5d5ee9fbc1754572e4194c71caeae4",
+        "size_bytes": 199206,
+        "sha256": "24740001de7498c0b206caf16c7bf434338fa6c804ec764b75f869a03add32aa",
+        "archive_commit": "f5f9940c02e8b9f649405be702ef0a963de099a3"
+      },
+      "fixed_archive_commit": "fc9faf9bb7f93885c76abe9bbb3861fc7ad7369a"
     }
   ],
-  "updated_at": "2026-11-01T03:38:00+08:00"
+  "updated_at": "2026-11-01T03:48:00+08:00"
 }

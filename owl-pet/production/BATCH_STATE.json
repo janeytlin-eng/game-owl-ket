@@ -9737,8 +9737,8 @@
         "batch_id": "20261031T1937+0800",
         "cycle": 5,
         "species_id": 137,
-        "heartbeat_at": "2026-10-31T12:14:14.315Z",
-        "expires_at": "2026-10-31T12:29:14.315Z"
+        "heartbeat_at": "2026-10-31T12:14:26.682Z",
+        "expires_at": "2026-10-31T12:29:26.682Z"
       },
       "in_progress": {
         "batch_id": "20261031T1937+0800",
@@ -9748,9 +9748,9 @@
         "species_id": 137,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261031T201150+0800-cycle-5.md",
-        "at": "2026-10-31T12:14:14.315Z"
+        "at": "2026-10-31T12:14:26.682Z"
       },
       "previous_checkpoint": {
         "batch_id": "20261031T1937+0800",
@@ -9977,6 +9977,24 @@
             "blob": "bd6ffa815c05250c7703af170a06d3706e79f304",
             "size": 2961138,
             "prompt_record": "owl-pet/research/species/137-otus-alfredi-v3.md"
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261031T201150+0800-cycle-5",
+          "species": "Otus alfredi",
+          "stage": "REVIEWED",
+          "at": "2026-10-31T12:14:26.682Z",
+          "credited_cycle": false,
+          "evidence": {
+            "reviewed_master": "owl-pet/production/reviewed/137-otus-alfredi-v3-reviewed-master.png",
+            "review_crops": [
+              "owl-pet/production/review-crops/137-otus-alfredi-v3-first-year.png",
+              "owl-pet/production/review-crops/137-otus-alfredi-v3-adult-size-feet.png"
+            ],
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "edit_count": 1,
+            "science_approved": false
           }
         }
       ]

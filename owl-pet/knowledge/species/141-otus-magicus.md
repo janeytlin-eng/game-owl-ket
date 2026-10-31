@@ -33,3 +33,8 @@ Pendinggeneration; no uniqueincrement untilverified.
 ## v3 ARCHIVED PENDING — 2026-10-31T21:54:00+08:00
 
 Northern-Moluccan leucospilus reference. Juvenile hard-wing error edited to short soft wing; full/crops viewed. New source MAG-SANGSTER-2013; Mikkola printed pp.189–190/PDF pp.191–192 re-read. Science=false; immutable readback pending.
+
+
+## v3 VERIFIED — 2026-10-31T21:56:00+08:00
+
+Archive `ebdcc3e94360e0576f41c4556954ed22dc64a469`; exact six tuples and manifests passed. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/ebdcc3e94360e0576f41c4556954ed22dc64a469/owl-pet/design/concepts/141-otus-magicus-v3.png?raw=1). Science=false.

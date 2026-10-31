@@ -1,3 +1,4 @@
+- 2026-10-31T21:56:00+08:00: #141 *Otus magicus* v3 VERIFIED at `ebdcc3e94360e0576f41c4556954ed22dc64a469`; exact six tuples and manifests 624/625/615 passed. Batch3/6 next4; unique175/251; science false.
 - 2026-10-31T21:54:00+08:00: #141 *Otus magicus* v3 ARCHIVED pending readback; one juvenile-wing edit; manifests 624/625/615; unique175/251; science false.
 - 2026-10-31T21:44:00+08:00: #140 *Otus rufescens* v3 VERIFIED at fixed archive `0095366a7d8f7efbcfc1063008322181f376138d`; exact six image tuples and manifests 623/624/614 passed. Batch2/6 next3; unique175/251; science false; lease released.
 - 2026-10-31T21:42:00+08:00: #140 *Otus rufescens* v3 ARCHIVED pending immutable readback. New-to-index4/reused3/corrected1; one adult-scale edit; full/downy-chick/adult-feet inspection passed with limitations. Manifests 623/624/614; unique175/251; science false; no cycle credit yet.

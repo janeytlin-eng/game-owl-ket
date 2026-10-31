@@ -1501,3 +1501,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Reopened v2 and found that its pixels still contained the long, crisp adult-like juvenile wing and projecting tail its note claimed were corrected; preserved v1–v2 and created v3.
 - Added four stable source records, reused three and corrected one pixel/evidence claim. Miranda 2011 and Mikkola p. 170 constrain adult identity; two real-juvenile records constrain a supported mobile brancher without inventing exact age or flight readiness.
 - Generated v3, rejected the first juvenile wing, performed one targeted edit and reopened the full plate plus two crops. `PASS_WITH_LIMITATIONS`; unique increment 0; science false. Assets and manifests 611/610/601 archived; fixed readback pending.
+- Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` verified all six image path/blob/byte tuples and parseable manifests 611/610/601. Cycle 1 credited; batch 1/6, next 2.

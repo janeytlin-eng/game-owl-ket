@@ -14730,11 +14730,55 @@
       "auxiliary_review_crop_blob": "2ce18d98ffe35c8f17fd777546388d592642f726",
       "auxiliary_review_crop_sha256": "c883649d03f140bcf18d8c41a959ceee74266d5aa992ef0f875f2e018a638d64",
       "auxiliary_review_crop_size_bytes": 730197,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "6c59cfcf8ea3cd9846dc40316c499569ba4e7f0b",
-      "exact_readback": false,
-      "fixed_archive_commit": null,
-      "verified_at": null
+      "exact_readback": true,
+      "fixed_archive_commit": "584066994e83885b3df3495fc08bbd05f33e493d",
+      "verified_at": "2026-10-31T07:43:04Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "584066994e83885b3df3495fc08bbd05f33e493d",
+        "method": "connector commit fetch plus immutable origin/main fetch; exact path/blob/size tuples and complete raw JSON parsing",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/122-otus-megalotis-v3.png",
+            "sha": "6c59cfcf8ea3cd9846dc40316c499569ba4e7f0b",
+            "size": 2687941
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/122-otus-megalotis-v3-generated-master.png",
+            "sha": "2f301e9ebe531afa86147b6c39ac75a39f2783da",
+            "size": 2746562
+          },
+          "intermediate_edit": {
+            "path": "owl-pet/production/generated/122-otus-megalotis-v3-edit1.png",
+            "sha": "6c59cfcf8ea3cd9846dc40316c499569ba4e7f0b",
+            "size": 2687941
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/122-otus-megalotis-v3-reviewed-master.png",
+            "sha": "6c59cfcf8ea3cd9846dc40316c499569ba4e7f0b",
+            "size": 2687941
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/122-otus-megalotis-v3-juvenile.png",
+            "sha": "a883987ba9697f5d8b57f87f025ed3f8668d5ca1",
+            "size": 569335
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/122-otus-megalotis-v3-feet.png",
+            "sha": "2ce18d98ffe35c8f17fd777546388d592642f726",
+            "size": 730197
+          }
+        },
+        "manifest_counts": {
+          "legacy": 611,
+          "design": 610,
+          "production": 601
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-10-31T06:58:27Z"

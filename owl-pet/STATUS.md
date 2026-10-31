@@ -2931,3 +2931,7 @@ Fixed archive `e91422cabccd0d0b6791088a21838ef44749b2b6` passed exact recursive-
 - Final full plate plus juvenile and feet/support crops were opened. Repeated pale adult covert rows are removed; the compact formed remige cluster remains down-softened, the tail is concealed and both feet grip the branch. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**.
 - Sources: Miranda 2011 printed pp. 444, 448–450; user-uploaded Mikkola printed p. 170/PDF p. 172; Project Noah 2023 field sequence; Owl Pages 2012 juvenile-photo metadata; three prior project sources reused. [Research](research/species/122-otus-megalotis-v3.md) · [Run](production/runs/20261031T150240+0800-cycle-1.md)
 
+### #122 v3 verified — 2026-10-31T15:43:04+08:00
+
+Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` passed exact six-image path/blob/byte readback and complete parseable manifests 611/610/601. Batch `2026-10-31T1502+0800` is 1/6, next cycle 2; unique remains 175/251 and science remains false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/584066994e83885b3df3495fc08bbd05f33e493d/owl-pet/design/concepts/122-otus-megalotis-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/584066994e83885b3df3495fc08bbd05f33e493d)
+

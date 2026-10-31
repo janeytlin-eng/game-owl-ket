@@ -2749,3 +2749,7 @@ Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f
 - [Fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/64134725024eb744a1280179054fc1e91682c4b8)
 - PASS_WITH_LIMITATIONS; valid manifests 607/606/597; exact path/blob readback; science false.
 
+### #122 *Otus megalotis* v3 verification
+
+Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` confirms exact concept/generated/edit/reviewed/crop blob identities and byte sizes; manifests 611/610/601 parse. The pixel-evidence rule was applied and verified on this plate: reopen archived pixels, then assess juvenile wing maturity by length, edge softness and pattern regularity while retaining source-supported formed remiges. Broader transfer is unverified; science remains false.
+

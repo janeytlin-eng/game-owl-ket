@@ -1248,3 +1248,17 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limitations/conflicts:** brief abstract, not a staged feather atlas; palm-frond cleft is a local observation, not a universal nest prescription. Approximate three-month statement cannot assign the 2023 fledglings an exact age.
 - **Design use:** reinforces use of an older, fully supported branch-perching young while retaining residual down and formed remiges; no nest is depicted and no exact age is claimed.
 - **Links:** [species card](species/130-megascops-koepckeae-v3.md) · [run](../production/runs/20261031T175400+0800-cycle-4.md)
+
+## WAT-BARROS-CINTRA-2009
+
+- **Title:** The effects of forest structure on occurrence and abundance of three owl species (Aves: Strigidae) in the Central Amazon forest
+- **Authors/institution:** Obed G. Barros & Renato Cintra; INPA; Zoologia
+- **Year/type:** 2009; peer-reviewed field ecology study
+- **DOI/URL:** https://doi.org/10.1590/S1984-46702009000100014 ; https://www.scielo.br/j/zool/a/6B6vkZFtbdjTnbzYfqMhFxQ/?lang=en
+- **Accessed:** 2026-10-31
+- **Species/stage:** *Megascops watsonii*; free-ranging adults/unspecified ages detected by vocalization in Reserva Ducke, Manaus
+- **Actually read:** full SciELO article text, pp.85–96; methods and species-specific results/discussion, especially article lines 103–177.
+- **Facts:** 54 individuals were recorded. Abundance was positively related to snag and forest-tree abundance and negatively related to leaf-litter depth; the study is in primary terra firme forest near Manaus. It does not describe a nest, juvenile plumage or a portrait-perch rule.
+- **Limitations:** study predates the 2021 taxonomic split, but Reserva Ducke/Manaus is compatible with the narrow Guianan/east-of-Negro unit used here. Habitat associations are population-level, not permission to fabricate a nest or snag cavity.
+- **Design use:** use dense lowland terra firme interior with abundant mature trunks/snags in the background; depict a living roost/perch branch and no nest claim.
+- **Links:** [species card](species/131-megascops-watsonii-v3.md) · [run](../production/runs/20261031T181700+0800-cycle-5.md)

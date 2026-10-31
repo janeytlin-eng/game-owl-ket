@@ -1,3 +1,31 @@
+## 2026-10-31 — #117 *Otus manadensis* v9 corrupt-v8 recovery and specimen-bounded adult calibration
+
+### SLSO-MARSHALL-1978-P13
+- **Title / author / year:** *Systematics of Smaller Asian Night Birds Based on Voice* / Joe T. Marshall / 1978.
+- **Original URL:** https://sora.unm.edu/sites/default/files/journals/om/om025.pdf
+- **Accessed / source type:** 2026-10-31; American Ornithologists' Union Ornithological Monographs No. 25; specimen-based primary systematic monograph.
+- **Species / stage:** *Otus manadensis*; adults/specimens, not juvenile development.
+- **Page / section:** printed p.13, lines 998–1019 in the accessed PDF text.
+- **Verified facts:** tarsus feathering extends over the joint with the toes; most documented irides were orange-yellow, with three brown/light-brown specimen labels; dorsal colour normally sepia/fuscous with a brownish-red phase; white posterior underparts carry bold sparse streaks plus freckled crossbar remnants on the same feathers; forest records span sea level to about 2,000 m.
+- **Limits / confidence:** historical specimen series and voice/systematics focus; no sex-specific measurements, exact toe-feather map, juvenile age, wing sequence or flight data. High confidence for the printed adult specimen characters; no fixed visible sex ratio inferred.
+- **Design support:** v9 keeps adults near-equal, brown/sepia and irregularly marked, yellow-eyed, with feathered tarsi and conservative toe-joint feathering. It does not convert the specimen exceptions into a universal brown-eye morph or import adult pattern into the juvenile.
+
+### SLSO-CLEMENTS-2022-MONOTYPIC
+- **Title / institution / date:** “Updates & Corrections – October 2022” / Cornell Lab of Ornithology, eBird/Clements Checklist / posted 25 October 2022.
+- **Original URL:** https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/october-2022/updates-corrections-october-2022/
+- **Accessed / source type:** 2026-10-31; official checklist update.
+- **Page / section:** page-164 correction, lines 275–290 in the accessed HTML.
+- **Verified fact:** Banggai *O. mendeni* is recognized separately and Kaledupa is assigned to *O. magicus kalidupae*; current Sulawesi Scops-Owl *O. manadensis* becomes monotypic. The project name therefore maps former nominate/older *O. manadensis manadensis* material to current *O. manadensis*, not to the split island taxa.
+- **Limits / confidence:** taxonomy only; no morphology or development evidence.
+
+### Reused exact-species evidence and design boundary
+- `SLSO-MANAHAMPI-2012`: dated 27 May 2012 North Sulawesi field photograph, explicitly labelled immature, Mount Masarang; actual metadata page re-opened 2026-10-31. Supports an age-unknown older immature with formed wings/tail and natural branch support, not an exact age or flight score.
+- `SLSO-EBIRD-JUV-2026`: Cornell/eBird current species account re-opened; adult small brown scops-owl with yellow eyes/ear tufts and juvenile heavier barring on crown/back; forest understory/edge from lowlands to lower mountains. No continuous feather chronology.
+- `SLSO-MIK2013-194`: prior repository transcription from Mikkola printed p.194 / PDF p.196 retained; the uploaded guide itself was unavailable in this invocation, so no new page-reading claim is made.
+- **Archive correction:** current-main v8 is 786,446 bytes and fails decoding, conflicting with its immutable run record (2,985,468 bytes and different SHA-256). Intact v7 is the v9 imagegen baseline; v8 remains preserved as a corrupt historical path and is not treated as a scientific image.
+- **Delta:** new2 / reused3 / corrected1. Exact juvenile age, locomotor/flight ability, continuous feather sequence, fixed sex-size ratio and literal juvenile ventral map remain unknown. Science false.
+- **Links:** [species research](species/117-otus-manadensis-v9.md) · [run](../production/runs/20261031T133747+0800-cycle-4.md) · v1–v8 retained.
+
 ## 2026-10-31 — #106 *Strix albitarsis* v3 archive repair and dark-iris/roost correction
 
 - **RUFBO-GREENEY-2003** — Harold F. Greeney, “Brief observations on the diet, day roost, and juveniles of the Rufous-banded Owl (*Strix albitarsis*) in eastern Ecuador,” *Lundiana* 4(1):67–68, 2003. Institutional PDF: https://periodicos.ufmg.br/index.php/lundiana/article/view/21838/17677 (accessed 2026-10-31; primary field note; printed pp.67–68). Facts: late-October juvenile had yellow-cream down and repeatedly day-roosted beside an adult near bases of large tree-fern leaves about 4 m up in primary forest/natural disturbance with *Chusquea*; February juvenile recorded sitting on a dirt road at 20:00. The paper says nest sites/breeding biology were unknown. **Design support:** yellow-cream downy, supported fern-base day-roost; never call it a nest or assign exact age/flight ability. **Confidence:** high for the described observations, low for generalization beyond them.

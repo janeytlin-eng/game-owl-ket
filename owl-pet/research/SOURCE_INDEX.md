@@ -1755,3 +1755,23 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Facts / limits:** valid *Tyto inexspectata*, synonym *Strix inexspectata*; taxonomy only.
 
 **Mapping / delta — #160 v2:** current *Tyto inexspectata* ⇄ original *Strix inexspectata*. New3 / reused4 / corrected2 (juvenile certainty and nest implication). The primary correction means exact juvenile stage, visible feather chronology, iris chronology, locomotor/flight ability and nest interior remain unknown; science=false. [Species research](species/160-tyto-inexspectata-v2.md) · [Run](../production/runs/20261101T012600+0800-cycle-6.md).
+
+## 2026-11-01 — #166 *Bubo cinerascens* v2 evidence refresh
+
+### GREO-BARLOW-2022-FULL
+- **Title / authors / year / type:** Barlow, Mikkola, Wink, Brohaugh & Brohaugh, “Molecular evidence for the taxonomic status of the Greyish Eagle Owl *Bubo cinerascens*, and a breeding study in The Gambia”; 2022; primary molecular and field breeding study, *Malimbus* 44:19–29.
+- **URL / pages read:** https://www.researchgate.net/publication/359384233_Molecular_evidence_for_the_taxonomic_status_of_the_Greyish_Eagle_Owl_Bubo_cinerascens_and_a_breeding_study_in_The_Gambia ; pp.19–20, Table 2 and pp.25–27/Figs 4–6; accessed 2026-11-01.
+- **Facts:** two ground nests; 16–24-day young ending downy stage, 30–38-day young partly feathered/turning grey, and 35–43-day young fully feathered and greyish like parents among exposed Neem roots. Brown iris; common greyish and rarer brown adult forms; mtDNA supports species split.
+- **Limits / design:** one intensively documented Gambian sequence with uncertain hatch-date range; no universal exact-day feather map or direct flight threshold. Use neutral light and a fully feathered supported 35–43-day young.
+
+### GREO-MNHN-MO-1977-180
+- **Institution / type / URL:** MNHN adult male specimen MO-1977-180; https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1977-180 ; online record read 2026-11-01.
+- **Facts:** Ethiopia, 2 Dec 1971, adult male, 500 g; field label records olive iris, black bill and brown tarsi under historical *Bubo africanus cinerascens*.
+- **Limits / design:** one specimen/field label; conflicts partly with broader living-bird summaries. Preserve dark brown-to-olive-neutral iris uncertainty and do not universalize bill/iris colour.
+
+### GREO-HOPKINS-2014-IMMATURE
+- **Title / creator / date / type:** “Greyish Eagle-Owl ... immature,” Allan Hopkins; photographed 7 Jan 2014, uploaded 25 Mar 2014; field photograph/metadata.
+- **URL / read:** https://www.flickr.com/photos/hoppy1951/13402162853/ ; page and description read 2026-11-01.
+- **Facts / limits:** photographer reports an immature at Farasuto was much browner than a nearby adult. Age and sex unspecified; useful for variation only, not the 35–43-day stage.
+
+**Mapping / delta — #166 v2:** current *Bubo cinerascens* ⇄ historical *Bubo africanus cinerascens*. New2 / reused1 expanded to full text / corrected2 (neutral-light colour calibration; fully feathered 35–43-day stage rather than generic fluffy fledgling). Exact within-range chronology, departure-day flight ability, universal soft parts and quantified sex-size ratio remain unknown; science=false. [Species research](species/166-bubo-cinerascens-v2.md) · [Run](../production/runs/20261101T015000+0800-cycle-1.md).

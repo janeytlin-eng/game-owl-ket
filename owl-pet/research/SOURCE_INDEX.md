@@ -1,3 +1,45 @@
+## 2026-10-31 — #134 *Megascops sanctaecatarinae* v3 evidence refresh
+
+### LTSC-PAGANO-2021
+- **Title / authors / year / type:** “Distribución e historia natural del Alilicucú Orejudo o Ribereño (*Megascops sanctaecatarinae*) en Argentina”, Pagano et al., 2021, peer-reviewed natural-history article.
+- **URL / DOI:** https://doi.org/10.56178/eh.v36i2.370
+- **Accessed:** 2026-10-31.
+- **Species / stages:** *M. sanctaecatarinae*, adult taxonomy, identification, distribution and habitat.
+- **Actually read:** full PDF text, especially pp.51–52; references through p.64.
+- **Valuable facts:** full-species treatment; historical *Scops sanctae-catarinae*; three adult morphs; southern Atlantic-Forest range; voice important where plumage/iris vary.
+- **Limitations / confidence:** strong current synthesis/field record; no juvenile development sequence or fixed sex-height ratio.
+- **Supports:** `research/species/134-megascops-sanctaecatarinae-v3.md`.
+
+### LTSC-KACHIMARECK-2014-WA1527488
+- **Title / author / date / type:** WikiAves WA1527488, José Kachimareck, photographed 2014-10-08, field-photo record.
+- **URL:** https://www.wikiaves.com.br/1527488
+- **Accessed:** 2026-10-31.
+- **Species / stage:** *M. sanctaecatarinae*, explicitly “Filhote”, sex indeterminate.
+- **Actually read:** metadata and displayed image.
+- **Valuable facts:** charcoal-gray soft upper body; fine diffuse dark bars/wisps; weak head wisps; dark-appearing eyes; open greenish-horn bill; bark-cavity support.
+- **Limitations / confidence:** direct single-photo evidence; lower wings/tail/feet, exact age, iris color and flight ability unseen/unknown; image not copied.
+- **Supports:** v3 juvenile stage and concealment boundary.
+
+### LTSC-MENQ-2018
+- **Title / institution / year / type:** “Corujinha-do-sul (*Megascops sanctaecatarinae*)”, Willian Menq / Aves de Rapina Brasil, 2018, secondary species account.
+- **URL:** https://avesderapinabrasil.com/megascops_sanctaecatarinae.htm
+- **Accessed:** 2026-10-31.
+- **Species / stages:** adult morphology, habitat and breeding overview.
+- **Actually read:** description, habitat/behavior sections and adult-photo captions.
+- **Valuable facts:** large/bulky form; long tufts; variable iris; greenish-horn bill; feathered tarsi; overlapping male 155–194 g / female 174–211 g ranges; southern forest/Araucaria context.
+- **Limitations / confidence:** secondary; mass ranges are not standing-height ratios.
+- **Supports:** v3 adult morphology, neutral habitat context and conservative sex direction.
+
+### LTSC-ITIS-686677
+- **Title / institution / type:** ITIS TSN 686677, authoritative nomenclatural database.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686677
+- **Accessed:** 2026-10-31.
+- **Species / stage:** taxonomy only.
+- **Actually read:** current standing and synonym fields.
+- **Valuable facts:** valid *Megascops sanctaecatarinae*; synonyms *Otus sanctaecatarinae* and *Scops sanctaecatarinae*.
+- **Limitations / confidence:** no morphology/development evidence.
+- **Supports:** current-name and old-name mapping.
+
 ## 2026-10-31 — #133 *Megascops atricapilla* v3 evidence refresh
 
 ### BCSO-DANTAS-2021

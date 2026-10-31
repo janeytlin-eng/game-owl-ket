@@ -11525,8 +11525,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T0255+0800-cycle-5",
-        "heartbeat_at": "2026-11-01T03:15:00+08:00",
-        "expires_at": "2026-11-01T03:30:00+08:00"
+        "heartbeat_at": "2026-11-01T03:20:00+08:00",
+        "expires_at": "2026-11-01T03:35:00+08:00"
       },
       "lease": null,
       "in_progress": {
@@ -11535,80 +11535,52 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T0255+0800-cycle-5",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "stage_evidence": {
-          "reviewed_master": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
-          "edit_count": 1,
-          "generated_edit": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+          "concept": "owl-pet/design/concepts/170-glaucidium-sanchezi-v2.png",
+          "generated": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+          "reviewed": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
           "crops": [
             "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-juvenile.png",
             "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-adult-pattern-feet.png"
           ],
-          "blobs": {
-            "master": "3e709c195a92a02abc13f845c087be592107e9c8",
-            "juvenile_crop": "e8af362b0234d1b086547e67a0ee9d5ca9ecde61",
-            "adult_crop": "cb36054d62613b58adf60409e3ef65c166861814"
+          "manifest_counts": {
+            "design_image": 638,
+            "design_legacy": 639,
+            "production": 629
           },
-          "checks": {
-            "species_identity": "pass: compact earless pygmy owls, yellow eyes, pale bills, reduced crown flecks and longish barred adult tails",
-            "sex_dichromatism": "pass: male grey-brown/olive-brown; female distinctly redder/cinnamon with only modest fuller size",
-            "juvenile_stage": "pass after edit: unspotted grey crown/nape, softer shorter rounded wing without regular adult spot rows, shortened supported tail",
-            "support": "pass: all feet visibly grip the same mossy branch",
-            "environment": "pass: neutral-light NE Mexican montane cloud forest; no nest reconstruction, eggs or prey",
-            "text_and_count": "pass: exact title/labels and exactly three birds"
-          },
-          "edit_result": "resolved initial adult-like juvenile hard remiges, regular spot rows and long tail",
-          "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
-          "unknowns": [
-            "exact juvenile age",
-            "flight ability",
-            "complete feather sequence",
-            "nest interior",
-            "population-wide size variation"
-          ]
+          "unique_species": "175/251",
+          "revision_increment": 1,
+          "readback_pending": true
         }
       },
       "last_checkpoint": {
         "cycle": 5,
         "run_id": "20261101T0255+0800-cycle-5",
         "species": "Glaucidium sanchezi",
-        "stage": "REVIEWED",
-        "at": "2026-11-01T03:15:00+08:00",
+        "stage": "ARCHIVED",
+        "at": "2026-11-01T03:20:00+08:00",
         "credited_cycle": false,
         "evidence": {
-          "reviewed_master": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
-          "edit_count": 1,
-          "generated_edit": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+          "concept": "owl-pet/design/concepts/170-glaucidium-sanchezi-v2.png",
+          "generated": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+          "reviewed": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
           "crops": [
             "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-juvenile.png",
             "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-adult-pattern-feet.png"
           ],
-          "blobs": {
-            "master": "3e709c195a92a02abc13f845c087be592107e9c8",
-            "juvenile_crop": "e8af362b0234d1b086547e67a0ee9d5ca9ecde61",
-            "adult_crop": "cb36054d62613b58adf60409e3ef65c166861814"
+          "manifest_counts": {
+            "design_image": 638,
+            "design_legacy": 639,
+            "production": 629
           },
-          "checks": {
-            "species_identity": "pass: compact earless pygmy owls, yellow eyes, pale bills, reduced crown flecks and longish barred adult tails",
-            "sex_dichromatism": "pass: male grey-brown/olive-brown; female distinctly redder/cinnamon with only modest fuller size",
-            "juvenile_stage": "pass after edit: unspotted grey crown/nape, softer shorter rounded wing without regular adult spot rows, shortened supported tail",
-            "support": "pass: all feet visibly grip the same mossy branch",
-            "environment": "pass: neutral-light NE Mexican montane cloud forest; no nest reconstruction, eggs or prey",
-            "text_and_count": "pass: exact title/labels and exactly three birds"
-          },
-          "edit_result": "resolved initial adult-like juvenile hard remiges, regular spot rows and long tail",
-          "science_status": "PASS_WITH_LIMITATIONS; scientifically_verified=false",
-          "unknowns": [
-            "exact juvenile age",
-            "flight ability",
-            "complete feather sequence",
-            "nest interior",
-            "population-wide size variation"
-          ]
+          "unique_species": "175/251",
+          "revision_increment": 1,
+          "readback_pending": true
         }
       },
-      "last_stage": "REVIEWED",
-      "updated_at": "2026-11-01T03:15:00+08:00",
+      "last_stage": "ARCHIVED",
+      "updated_at": "2026-11-01T03:20:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12101,6 +12073,31 @@
               "nest interior",
               "population-wide size variation"
             ]
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261101T0255+0800-cycle-5",
+          "species": "Glaucidium sanchezi",
+          "stage": "ARCHIVED",
+          "at": "2026-11-01T03:20:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/170-glaucidium-sanchezi-v2.png",
+            "generated": "owl-pet/production/generated/170-glaucidium-sanchezi-v2-edit1.png",
+            "reviewed": "owl-pet/production/reviewed/170-glaucidium-sanchezi-v2-reviewed-master.png",
+            "crops": [
+              "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-juvenile.png",
+              "owl-pet/production/review-crops/170-glaucidium-sanchezi-v2-adult-pattern-feet.png"
+            ],
+            "manifest_counts": {
+              "design_image": 638,
+              "design_legacy": 639,
+              "production": 629
+            },
+            "unique_species": "175/251",
+            "revision_increment": 1,
+            "readback_pending": true
           }
         }
       ]

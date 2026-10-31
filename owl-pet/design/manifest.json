@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:56:00+08:00",
+  "updated": "2026-10-31T22:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -16362,7 +16362,59 @@
           "production": 615
         }
       }
+    },
+    {
+      "id": "142-asio-grammicus-v2",
+      "path": "design/concepts/142-asio-grammicus-v2.png",
+      "species_id": 142,
+      "scientific_name": "Asio grammicus",
+      "historical_names": [
+        "Pseudoscops grammicus"
+      ],
+      "common_name": "Jamaican Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 科学校准修订；#154为旧属名历史重复，不重复计种。成年雌雄近等体型、姿态不同，褐色虹膜、蓝灰嘴、纵向腹纹、跗跖羽被至灰褐趾基。年龄未知绒羽幼鸟为灰褐背/暗肉桂黄褐体、短软头羽、翼尾隐藏；初图因第二足被遮及翼片偏成熟而定向编辑，复查两足支撑。PASS_WITH_LIMITATIONS；精确日龄/飞行/虹膜序列/巢位/性别体型未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "JAM-MIKKOLA-2013-P500",
+        "JAM-HOYER-BIRDSEYE",
+        "JAM-AOS-NACC-2021-C10",
+        "JAM-POSSO-SALOMAO-2025",
+        "JAM-GRAVES-2007"
+      ],
+      "research_record": "research/species/142-asio-grammicus-v2.md",
+      "run_record": "production/runs/20261031T223601+0800-cycle-4.md",
+      "reviewed_at": "2026-10-31T22:44:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "628f0bed4ef15597f41e558000c2e41839c85ac3e6eda534fbc3e3d225c426e0",
+      "size_bytes": 2914397,
+      "generated_path": "production/generated/142-asio-grammicus-v2-generated-master.png",
+      "generated_blob": "9372407397292fcb8c4a2eff2858442912c2bea6",
+      "generated_sha256": "9eba194b5fecb4dbf3ede3d40fe271d5640f24b97c8cea8e5635b1b7b68ec7fd",
+      "generated_size_bytes": 2959021,
+      "intermediate_edit_path": "production/generated/142-asio-grammicus-v2-edit1.png",
+      "intermediate_edit_blob": "49c0757cfd5d14729f9da548680917b3b760fc22",
+      "reviewed_path": "production/reviewed/142-asio-grammicus-v2-reviewed-master.png",
+      "reviewed_blob": "49c0757cfd5d14729f9da548680917b3b760fc22",
+      "reviewed_sha256": "628f0bed4ef15597f41e558000c2e41839c85ac3e6eda534fbc3e3d225c426e0",
+      "reviewed_size_bytes": 2914397,
+      "review_crop_path": "production/review-crops/142-asio-grammicus-v2-juvenile.png",
+      "review_crop_blob": "edce418a03ed494ff63075f7e939931be6cf14ec",
+      "review_crop_sha256": "851f3d66531a5f42b805f3aa14feb23cea9ea81948678cc4f5935e5efc5d7da2",
+      "review_crop_size_bytes": 800263,
+      "auxiliary_review_crop_path": "production/review-crops/142-asio-grammicus-v2-adult-size-feet.png",
+      "auxiliary_review_crop_blob": "a6b62d4450998f6cb4e00517d0555dea39e7c01b",
+      "auxiliary_review_crop_sha256": "f821e346c73e6868d18170aa18f75477b3f79b1c7842bb090c6c92b1643633e4",
+      "auxiliary_review_crop_size_bytes": 1978555,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "49c0757cfd5d14729f9da548680917b3b760fc22"
     }
   ],
-  "updated_at": "2026-10-31T21:56:00+08:00"
+  "updated_at": "2026-10-31T22:45:00+08:00"
 }

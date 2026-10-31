@@ -2823,3 +2823,11 @@ Fresh science revision with distinct near-equal adult poses and the primary-stud
 ### #132 v3 verified — 2026-10-31T18:44:00+08:00
 
 Fixed archive [`8d309a328ef66b685c73f4c8c98f3f7b1723fc8e`](https://github.com/janeytlin-eng/game-owl-ket/commit/8d309a328ef66b685c73f4c8c98f3f7b1723fc8e) passed exact five-image path/blob/byte readback in a non-truncated 2,399-entry tree; manifests 616/615/606. The distinct-adult/artificial-box/hidden-wing nestling treatment is verified for this plate; taxonomic consensus and fine developmental timing remain unresolved. Science false; batch 6/6 complete. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/8d309a328ef66b685c73f4c8c98f3f7b1723fc8e/owl-pet/design/concepts/132-strix-davidi-v3.png?raw=1).
+
+## 2026-10-31 — #142 *Asio grammicus* v2
+
+Science revision of the existing Jamaican Owl plate, with #154 retained as a historical *Pseudoscops grammicus* duplicate rather than counted twice. Near-equal adults retain hazel-brown eyes, bluish-grey bills, longitudinal underpart marks and feathered tarsi. The age-unknown down-remnant juvenile has compact hidden wings, no visible tail and two-foot branch support after one targeted edit. Full plate and two crops passed with limitations; science false; unique coverage remains 175/251. [Concept](concepts/142-asio-grammicus-v2.png) · [Research](../research/species/142-asio-grammicus-v2.md) · [Run](../production/runs/20261031T223601+0800-cycle-4.md).
+
+### Review-rule application
+
+For a juvenile partly occluded by a support branch, “natural support” is not treated as visually demonstrated unless the full frame or a crop shows two plausible contact points/feet, or the record explicitly marks the hidden foot as unresolved. This rule was discovered and applied on #142 v2: the first render was rejected, one localised foot/wing edit was made, and the refreshed juvenile crop verified bilateral support for this plate. Broader effectiveness is not yet claimed.

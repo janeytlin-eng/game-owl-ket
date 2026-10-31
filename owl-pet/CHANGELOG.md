@@ -1530,3 +1530,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 - Preserved v1–v2; added primary/guide evidence, one generated master, one targeted juvenile-wing edit, reviewed master and two review crops.
 - PASS_WITH_LIMITATIONS; unique species 175/251; scientific verification false pending fixed archive readback and later whole-set calibration.
+- 2026-10-31T22:45:00+08:00: #142 *Asio grammicus* v2 ARCHIVED pending fixed readback. New3/reused2/corrected1; one juvenile support/wing edit after full/crop inspection; #142/#154 current/old-genus duplicate boundary recorded; manifests 625/626/616; unique175/251; science false; no cycle credit yet.

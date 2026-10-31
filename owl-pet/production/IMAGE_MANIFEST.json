@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T03:53:00Z",
+  "updated": "2026-10-31T03:56:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14219,10 +14219,56 @@
       "auxiliary_review_crop_blob": "72495e2ce268eeea3981febc276782918b3d9e71",
       "auxiliary_review_crop_sha256": "61fe02c5b5728f5b99f11901c489f5b72b89254bcdd93b8ac1d17396ab968aa4",
       "auxiliary_review_crop_size_bytes": 718912,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "69f13552cb9d31883fb718dbe7700407c903e287",
-      "exact_readback": false
+      "exact_readback": true,
+      "fixed_archive_commit": "60f5bc4b3312dcf4319879728fdc6e131aaffbed",
+      "verified_at": "2026-10-31T03:56:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "60f5bc4b3312dcf4319879728fdc6e131aaffbed",
+        "method": "commit-pinned GitHub contents reads with exact path/blob match plus commit-pinned manifest JSON parse",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/105-ptilopsis-granti-v7.png",
+            "sha": "69f13552cb9d31883fb718dbe7700407c903e287",
+            "size": 2737203
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/105-ptilopsis-granti-v7-generated-master.png",
+            "sha": "f05d7c1c0ab1d96265c7d574b3377a6a1a151cc5",
+            "size": 2746646
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/105-ptilopsis-granti-v7-reviewed-master.png",
+            "sha": "69f13552cb9d31883fb718dbe7700407c903e287",
+            "size": 2737203
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/105-ptilopsis-granti-v7-juvenile.png",
+            "sha": "67f7b344a87124a68c452753078ded25d150d15d",
+            "size": 624310
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/105-ptilopsis-granti-v7-feet.png",
+            "sha": "72495e2ce268eeea3981febc276782918b3d9e71",
+            "size": 718912
+          }
+        },
+        "manifest_counts": {
+          "legacy": 606,
+          "design": 605,
+          "production": 596
+        },
+        "raw_original": {
+          "local_size": 2737203,
+          "local_sha256": "272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92",
+          "git_path_blob_match": true,
+          "binary_body_redownloaded": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T03:53:00Z"
+  "updated_at": "2026-10-31T03:56:00Z"
 }

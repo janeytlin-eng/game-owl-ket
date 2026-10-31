@@ -24,4 +24,5 @@ The initial v7 full plate and juvenile crop exposed adult-long juvenile remiges 
 ## Archive checkpoint
 
 - 2026-10-31T11:53:00+08:00: corrected v7 plate, generated master, reviewed master and two opened review crops prepared for immutable archive. The archive remains scientifically unverified and does not receive cycle credit until fixed-commit readback succeeds.
+- 2026-10-31T11:56:00+08:00: commit-pinned path/blob and manifest readback passed at `60f5bc4b3312dcf4319879728fdc6e131aaffbed`; scientific status remains false.
 

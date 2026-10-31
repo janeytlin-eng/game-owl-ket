@@ -1736,3 +1736,22 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **WSO-OWLPAGES-2020** — OwlPages account; small/medium, no ear tufts, Solomon distribution; reused secondary source under historical *Ninox*. [record](https://www.owlpages.com/owls/species.php?s=3320) · [species record](species/151-athene-jacquinoti-v2.md)
 
 **Scientific-name map:** *Athene jacquinoti* ⇄ historical *Ninox jacquinoti* ⇄ junior name *Athene taeniata*. **Topics:** taxonomy, adult specimen, external cavity cue, juvenile evidence gap. **Design link:** future `design/concepts/151-athene-jacquinoti-v2.png`. **Delta:** new 5, reused 1, corrected 2 (current genus/name chronology; iris rendered as a range rather than fixed orange).
+
+## 2026-11-01 — #160 *Tyto inexspectata* v2 evidence correction
+
+### MIN-FITZSIMONS-2010-P143
+- **Title / author / year / type:** “Notes on the roost sites of the Sulawesi Masked Owl *Tyto rosenbergii*,” James A. Fitzsimons; 2010; field-literature review in *Forktail* 26:142–145.
+- **URL / pages read:** https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c21199bcd8366c20783bfcb/1545673115702/Fitzsimons-Sulawesi-Masked-owl.pdf ; printed p.143, PDF lines 94–104; accessed 2026-11-01.
+- **Facts:** Fletcher's 1998 two-adult-plus-juvenile record high in a strangler fig was questioned by Mauro & Drijvers (2000), who suggested Sulawesi Masked-Owl. The other reported Minahasa breeding record is a pair in an *Elmerilla ovalis* hole, cited through Coates & Bishop (1997) from van Marle (1940).
+- **Limits / decision:** the juvenile account is disputed and supplies no reliable plumage chronology; the nest report is indirect and supplies no interior/chick detail. Correct v1 from “documented fledgling” to age-unknown design inference; no nest reconstruction.
+
+### MIN-SCHLEGEL-1879-NATURALIS
+- **Title / author / year / type:** “On *Strix inexspectata*,” Hermann Schlegel; 1879; original-description-era museum paper, *Notes from the Leyden Museum* 1:50–52.
+- **URL / pages read:** https://repository.naturalis.nl/pub/508556 ; repository record and exposed pp.50–52 text read 2026-11-01.
+- **Facts / limits:** anchors authorship and the original *Strix inexspectata* combination. The exposed passage also treats a *Strix rosenbergii* specimen series, so it is not extrapolated into juvenile appearance or exact living colour.
+
+### MIN-ITIS-555350
+- **Institution / type / URL:** ITIS standard report; https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555350 ; read 2026-11-01.
+- **Facts / limits:** valid *Tyto inexspectata*, synonym *Strix inexspectata*; taxonomy only.
+
+**Mapping / delta — #160 v2:** current *Tyto inexspectata* ⇄ original *Strix inexspectata*. New3 / reused4 / corrected2 (juvenile certainty and nest implication). The primary correction means exact juvenile stage, visible feather chronology, iris chronology, locomotor/flight ability and nest interior remain unknown; science=false. [Species research](species/160-tyto-inexspectata-v2.md) · [Run](../production/runs/20261101T012600+0800-cycle-6.md).

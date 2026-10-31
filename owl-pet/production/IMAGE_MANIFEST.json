@@ -16340,8 +16340,8 @@
       "auxiliary_review_crop_blob": "441090355efe8f4167bf7db29ff36285aa5a3f47",
       "auxiliary_review_crop_sha256": "576ba0d3be803c85b12fdfefa188bf981a2bc6f7bb2b6310fbe16faed648015f",
       "auxiliary_review_crop_size_bytes": 2163606,
-      "readback_pending": true,
-      "exact_readback": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "git_blob": "9a0c9476f051c351515aacad1f0239099fd906da",
       "v1_integrity": {
         "git_blob": "38b77a8a96076c3c0dea8b148f4a4aeb1b410639",
@@ -16349,8 +16349,22 @@
         "decode": "complete",
         "manifest_sha256": "6f1ddd23754ab6e522a21761977a04883ad6707f49b73b0ad1ecc9b506471497",
         "current_export_sha256": "cd22a5b04a29c227bf53d63ed87add1d8e32877962ad9c81f650bad9c82533ac"
+      },
+      "fixed_archive_commit": "c93ba6a24f113e7a36a95ccc3741b309d711398d",
+      "verified_at": "2026-11-01T01:24:00+08:00",
+      "readback": {
+        "method": "immutable archive exact path/blob/size; non-truncated recursive tree; local text Git blobs match remote exactly; local full PNG decode and crop inspection; main-head readback",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 632,
+          "design_legacy": 633,
+          "production": 623
+        },
+        "v1_integrity_failure_preserved": true
       }
     }
   ],
-  "updated_at": "2026-11-01T01:22:00+08:00"
+  "updated_at": "2026-11-01T01:24:00+08:00"
 }

@@ -701,3 +701,7 @@ When a source distinguishes a day roost from an unknown nest, the prompt must tr
 - **Evidence:** Clements 2022 lumps *vosseleri* under *Ketupa poensis*; Mikkola p.284 supports adult-like mesoptile wings/tail while leaving exact age/flight unknown.
 - **Applied:** #167 v2 depicts western nominate only, labels the center AGE-UNKNOWN MESOPTILE, retains a complete barred wing/tail with softer edges, and does not create an Usambara species count.
 - **Verified:** full plate and two crops passed. This exception is verified for #167 only and must not become a generic maturity shortcut.
+
+## 2026-11-01 — adult diagnostic comparison must not leak into mesoptile (#168 v2)
+
+Tobias & Williams 2022 sharpened adult diagnosis, but the first generated young inherited adult-spotted hard wings. Edit1 removed that leakage and restored Mikkola's nearly-white, widely barred soft mesoptile. Full/crop recheck passed for #168 only.

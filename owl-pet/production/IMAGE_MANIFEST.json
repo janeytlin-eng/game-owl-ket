@@ -15701,9 +15701,22 @@
       "auxiliary_review_crop_blob": "36239de99f0124f26306998fc865972c252b4fc4",
       "auxiliary_review_crop_sha256": "b5d0c27524c0cfd0c6bd440c13f657e5511583948384d8c087d9f8f29ba8b863",
       "auxiliary_review_crop_size_bytes": 1136067,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "3e24d1b53dcf29695f757dffd20d8d989731a7d9"
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "3e24d1b53dcf29695f757dffd20d8d989731a7d9",
+      "fixed_archive_commit": "44bf7f475697f606a578530e95aa4eb3f2be3a48",
+      "verified_at": "2026-10-31T21:35:00+08:00",
+      "readback": {
+        "method": "immutable archive commit exact path/Git-blob readback; complete manifest JSON parse; local original-resolution decode and crop inspection; main-head readback",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 622,
+          "design_legacy": 623,
+          "production": 613
+        }
+      }
     }
   ],
   "updated_at": "2026-10-31T12:49:55.000Z"

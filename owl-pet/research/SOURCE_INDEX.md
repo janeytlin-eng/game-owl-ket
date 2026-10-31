@@ -1022,3 +1022,25 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Design link:** corrects v3's broad rigid fan-shaped adult tufts while retaining their length; [#104 v4 research](104-asio-madagascariensis-v4.md).
 
 **Mapping:** *Asio madagascariensis* (historical *Otus madagascariensis*) → MLO-RDR-GOODMAN-2003, MLO-VASSEN-2013-JUV, MLO-PETERDAY-2016-JUV, MLO-FENEROLE-2006-MALE. Topics: restrained adult dimorphism, supported brancher, mesoptile wing development, adult tuft geometry. New-to-index 4 / reused-in-design 2 / new visual comparators 2 / corrected actual-image issues 2. Science remains false.
+
+
+## 2026-10-31 — #105 *Ptilopsis granti* v7 corrupt-v6 recovery
+
+### SWFO-ADW-ACCOUNT
+- **Title / author / institution:** *Ptilopsis granti* (southern white-faced owl); Amanda O'Farrill; Animal Diversity Web, University of Michigan.
+- **URL:** https://animaldiversity.org/accounts/Ptilopsis_granti/
+- **Accessed / type:** 2026-10-31; institutional secondary species account.
+- **Sections read:** Physical Description lines 57–64; Reproduction lines 88–93.
+- **Useful facts:** black-rimmed white/pale-grey adult face, orange-red eyes, long streaked tufts, pale cream bill, grey streaked/barred plumage, feathers to basal half of toes with dusky distal toes/dark claws; females generally heavier with overlapping mass ranges; chicks described downy white/yellow-grey-eyed and fledged young more adult-like but less patterned.
+- **Limits:** secondary compilation; obvious length-unit typo at lines 77–79 and development chronology not primary. Use morphology boundaries only, not exact age or flight timing.
+- **Design link:** [#105 v7 repair research](105-ptilopsis-granti-v7.md).
+
+### SWFO-ITIS-686682
+- **Title / institution:** ITIS Report — *Ptilopsis granti*, TSN 686682; Integrated Taxonomic Information System.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=SCR&search_topic=TSN&search_value=686682&source=from_print
+- **Accessed / type:** 2026-10-31; institutional taxonomic authority.
+- **Facts read:** current valid species *Ptilopsis granti*; synonyms *Otus leucotis granti* and *Pisorhina leucotis granti*.
+- **Limits:** nomenclature only; no morphology or development evidence.
+- **Design link:** prevents confusion with northern *Ptilopsis leucotis* and preserves old-name mapping for #105.
+
+**Lead only:** Macaulay 27 Jan 2017 adult/juvenile feeding video results were visible in search, but the catalog page returned an access-denied bot screen; not treated as verified evidence. New-to-index 2 / reused project source 1 / unverified lead 1 / corrected archive-integrity issue 1. Science remains false.

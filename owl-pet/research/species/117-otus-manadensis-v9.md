@@ -46,3 +46,12 @@ Taxonomy boundary: depict current monotypic Otus manadensis from Sulawesi; do no
 5. Full master plus juvenile and feet crops opened; any evidence-backed defect edited and rechecked.
 
 Research-ready conclusion: new2 / reused3 / corrected1; generation pending; science false.
+
+## Actual generation and review
+
+- First generation: 56.2 s observed; full image opened. Adults/text/support passed; juvenile retained a long layered wing panel and repeated pale outlines.
+- Edit 1: 41.0 s observed; full image reopened. Wing shortened, but crop-level U/teardrop/scallop outlines still failed.
+- Edit 2: 73.0 s observed; final full master, juvenile crop and support crop opened. Compact rounded wing, diffuse body texture, heavier crown/back barring and two-foot branch support pass.
+- Result: `PASS_WITH_LIMITATIONS`, two edits. Residual low-contrast feather edges and all chronology/dimorphism unknowns remain; science false.
+- Final concept/reviewed master: `design/concepts/117-otus-manadensis-v9.png`, 1536×1024 sRGB, 2,801,573 bytes, SHA-256 `08bc219671c9ee16f5fa4612dd53f1c8c6bf78c718b28e688ff1380b3d859d96`, Git blob `8ba8b6c3de11dc9cd8cac6d02ea8f912bdbb8e4e`.
+- Crops: juvenile SHA-256 `cfb038072ee5854824a52157321a3adf8693932ccd76337efc97ceb5288a7a89`; feet/support SHA-256 `9a6baa200650ab9c41f06bd4afd18a51128d8c6aa04278d74b9770805fdb06c4`.

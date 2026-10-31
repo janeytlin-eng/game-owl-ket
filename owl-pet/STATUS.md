@@ -1,3 +1,10 @@
+## 2026-10-31 #117 *Otus manadensis* v9 ARCHIVED — fixed readback pending
+
+- `ARCHIVE_REPAIR_AND_SCIENCE_REVISION`; current-main v8 is a 786,446-byte viewer-invalid historical transfer and is preserved, not used as a source. Intact v7 was opened and used for a non-destructive v9 imagegen recovery.
+- Marshall 1978 p.13 and Clements 2022 added; Manahampi immature photo, eBird and prior Mikkola p.194 transcription reused. New2/reused3/corrected1.
+- Two juvenile-only edits were actually viewed. Final full master, juvenile crop and feet crop pass with compact wing, diffuse non-repeating body texture and natural two-foot support. `PASS_WITH_LIMITATIONS`; science false; unique **175/251**.
+- Assets and manifests 608/607/598 prepared; immutable fixed-commit readback pending. [Run](production/runs/20261031T133747+0800-cycle-4.md)
+
 ## 2026-10-31 #102 *Strix nigrolineata* v3 VERIFIED
 
 - Fixed archive `e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca`; exact concept/generated/reviewed/crop assets and valid repaired manifests 603/602/593 matched in a non-truncated 2,301-entry tree.

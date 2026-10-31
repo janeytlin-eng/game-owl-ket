@@ -1,3 +1,14 @@
+## #117 Sulawesi Scops-Owl — *Otus manadensis* — v9 archive recovery
+
+- Concept: [117-otus-manadensis-v9.png](concepts/117-otus-manadensis-v9.png)
+- Research: [117-otus-manadensis-v9.md](../research/species/117-otus-manadensis-v9.md)
+- Run: [20261031T133747+0800-cycle-4.md](../production/runs/20261031T133747+0800-cycle-4.md)
+- `PASS_WITH_LIMITATIONS`; edit count 2; science false; unique175/251. V8 remains preserved as a viewer-invalid archive mismatch; v7 was the intact edit baseline. Final fixed readback pending.
+
+### Repair the archive source before repairing plumage
+
+If the latest binary conflicts with its immutable run size/hash and cannot be opened, do not treat a valid PNG header as a usable image. Preserve the bad path, select the latest fully decoded predecessor, record the recovery boundary, and create a new version. After generation, crop review must distinguish a shorter silhouette from persistent repeated feather outlines; #117 v9 required a second juvenile-only repaint. Applied and visually checked here; not a universal feather rule.
+
 ## #102 Black-and-white Owl — *Strix nigrolineata* — v3 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca/owl-pet/design/concepts/102-strix-nigrolineata-v3.png?raw=1)

@@ -1795,3 +1795,20 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **AKUN-TOBIAS-WILLIAMS-2022-P76-77:** Tobias & Williams 2022, Bull ABC 29(1), pp.76–77/Figs 2–3,6, PDF read 2026-11-01; diagnostic yellow eyes, white-fringed tuft tips, dark-marbled upperparts/pale flight bars and weak narrow yellowish bill. https://www.tobiaslab.net/wp-content/uploads/2022/04/Tobias-Williams-2022-Shelleys-Eagle-Owl.-Bull-ABC.pdf
 - **AKUN-MNHN-MO-1876-2027:** adult historical *Bubo leucostictus* skin from Fantee, Ghana, pre-1877; sex unknown; initial *B. shelleyi* determination corrected in 2020. https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1876-2027
 - Reused: AKUN-KING-2022-JUV (Commons file/category reread), AKUN-ITIS-2026, AKUN-MIKKOLA-2013-P278. Delta new2/reused3/corrected2: adult diagnostic calibration and neutral full-resolution v2. Exact age/flight/sequence/nest/young soft parts unknown; science=false. [Research](species/168-ketupa-leucosticta-v2.md) · [Run](../production/runs/20261101T015000+0800-cycle-3.md).
+
+
+## 2026-11-01 — #169 *Ketupa shelleyi* v2 evidence refresh
+
+### SHEO-TOBIAS-WILLIAMS-2022-P73-79
+- **Title / authors / year / type:** “An observation of Shelley’s Eagle Owl *Bubo shelleyi* in Atewa Range Forest Reserve, Ghana,” Joseph A. Tobias & Robert S. R. Williams; 2022; field observation plus NHMUK specimen comparison, *Bull. African Bird Club* 29(1):73–80.
+- **URL / pages read:** https://www.tobiaslab.net/wp-content/uploads/2022/04/Tobias-Williams-2022-Shelleys-Eagle-Owl.-Bull-ABC.pdf ; printed pp.73–79, especially pp.75–78/Figs 1–3,8–9; accessed 2026-11-01.
+- **Facts:** adult/subadult 50–60 cm estimate; very dark sooty head, dense uniformly blackish heavy tufts, dark eyes and eyelids, heavy broad pale horn bill, dark uniform upperparts, narrow regular wing/tail bars and short tail; barred whitish upper breast; NHMUK comparison supports diagnostic size and pattern.
+- **Limits / design:** one field individual plus specimens; sex unknown; not a juvenile development sequence. Use adult diagnosis only and retain age-unknown mesoptile boundary from the repository guide record.
+
+### SHEO-KIRSCHEL-ETAL-2022-P221-223
+- **Title / authors / year / type:** “A Shelley’s Eagle Owl *Bubo shelleyi* sighting from Cameroon in 2005,” Kirschel, Njabo, Sehgal & Smith; 2022; field observation, *Bull. African Bird Club* 29(2):221–223.
+- **URL / pages read:** https://www.researchgate.net/publication/366177074_A_Shelley%27s_Eagle_Owl_Bubo_shelleyi_sighting_from_Cameroon_in_2005 ; pp.221–223; accessed 2026-11-01.
+- **Facts:** very large eagle owl in mature lowland forest; dark eyes, overall dark brown colour and heavy dark-brown underpart barring; pale eyelids noted in this observation.
+- **Limits / conflict:** visual observation with a poor documentary photograph; eyelid tone differs from the 2021 Atewa description. Do not encode one universal eyelid colour or use it for juvenile design.
+
+**Reused:** SHEO-MIKKOLA-2013-P288 (printed p.288/PDF290: age-unknown mesoptile has white head areas with sooty bars and adult-like remiges/rectrices; downy chick undescribed), SHEO-ITIS-2025 (current *Ketupa shelleyi* / historical *Bubo shelleyi* mapping). **Delta:** new2, reused2, corrected3 (adult diagnostic darkness/bill/bar geometry; no false pale tuft rim; v1 low-resolution review replacement). Exact juvenile age, flight ability, continuous feather chronology, nest, eyelid variation and quantified sex-size relation remain unknown; science=false. [Species research](species/169-ketupa-shelleyi-v2.md) · [Run](../production/runs/20261101T0227+0800-cycle-4.md).

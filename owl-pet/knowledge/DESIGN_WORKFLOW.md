@@ -694,3 +694,10 @@ When a source distinguishes a day roost from an unknown nest, the prompt must tr
 - **Evidence:** Barlow et al. 2022 describes the species' common greyish form and documents a 35–43-day young as fully feathered and greyish like the parents; the v1 plate itself showed the colour-cast failure.
 - **Applied:** #166 v2 uses neutral open-shade light. The same primary developmental sequence prevents a generic “short/downy juvenile” rule from removing the complete folded wings supported for this stage; wing edges are only softened/rounded and the tail shortened.
 - **Verified:** full plate and two crops passed actual visual comparison. The rule is verified for #166 v2 only; it is not a universal age template.
+
+## 2026-11-01 — taxonomic lump plus explicit mesoptile exception (#167 v2)
+
+- **Problem:** a former species can become a subspecies, and a generic juvenile-soft-wing rule can conflict with a source that explicitly says mesoptile wings/tail resemble adults.
+- **Evidence:** Clements 2022 lumps *vosseleri* under *Ketupa poensis*; Mikkola p.284 supports adult-like mesoptile wings/tail while leaving exact age/flight unknown.
+- **Applied:** #167 v2 depicts western nominate only, labels the center AGE-UNKNOWN MESOPTILE, retains a complete barred wing/tail with softer edges, and does not create an Usambara species count.
+- **Verified:** full plate and two crops passed. This exception is verified for #167 only and must not become a generic maturity shortcut.

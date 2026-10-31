@@ -17193,7 +17193,65 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "167-ketupa-poensis-v2",
+      "path": "design/concepts/167-ketupa-poensis-v2.png",
+      "species_id": 167,
+      "scientific_name": "Ketupa poensis",
+      "historical_names": [
+        "Bubo poensis",
+        "Bubo vosseleri",
+        "Ketupa poensis vosseleri"
+      ],
+      "common_name": "Fraser’s Eagle-Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 taxonomy/resolution/stage revision. Current Clements treatment includes western poensis and eastern vosseleri under Ketupa poensis; plate depicts western nominate and prevents double count. A new 1536×1024 master replaces reliance on v1 800×533 recovery derivative while preserving v1. Center is AGE-UNKNOWN MESOPTILE: softer and rounder with weak tufts, but complete adult-patterned wing/tail retained per Mikkola. Female is fuller/heavier, consistent with species-specific mean mass evidence, without extreme height gap. Full plate and two crops viewed; PASS_WITH_LIMITATIONS; exact age, flight ability, feather sequence, nest geometry, living young soft parts and universal palette unknown; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "FREO-CLEMENTS-2022-LUMP",
+        "FREO-MNHN-MO-1971-66",
+        "FREO-OWLPAGES-2020",
+        "FREO-MIKKOLA-2013-P284"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-01--167-ketupa-poensis-v2-taxonomy-and-stage-refresh",
+      "research_record": "research/species/167-ketupa-poensis-v2.md",
+      "run_record": "production/runs/20261101T015000+0800-cycle-2.md",
+      "reviewed_at": "2026-11-01T02:35:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "aae4446e028dcbad1636a4ebe948485564edd7fcace8c5b3487c10f1fd56df2b",
+      "size_bytes": 3208310,
+      "generated_path": "production/generated/167-ketupa-poensis-v2-generated-master.png",
+      "generated_blob": "ca798072490db31f5947a3963cc7165f01e366c8",
+      "generated_sha256": "aae4446e028dcbad1636a4ebe948485564edd7fcace8c5b3487c10f1fd56df2b",
+      "generated_size_bytes": 3208310,
+      "reviewed_path": "production/reviewed/167-ketupa-poensis-v2-reviewed-master.png",
+      "reviewed_blob": "ca798072490db31f5947a3963cc7165f01e366c8",
+      "reviewed_sha256": "aae4446e028dcbad1636a4ebe948485564edd7fcace8c5b3487c10f1fd56df2b",
+      "reviewed_size_bytes": 3208310,
+      "review_crop_path": "production/review-crops/167-ketupa-poensis-v2-mesoptile.png",
+      "review_crop_blob": "050f0d7606b6b64a864f5f18c390b109ea155923",
+      "review_crop_sha256": "681e5b9ef177ab0cfb8dd5e8936d101fe6eb6e984ff01a5c62f0d9786e92fcc5",
+      "review_crop_size_bytes": 856200,
+      "auxiliary_review_crop_path": "production/review-crops/167-ketupa-poensis-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "2319fe0b86ae25e73583b0e57c89622bb0540779",
+      "auxiliary_review_crop_sha256": "f30186d0435bee3faa3e0ad1a7d6c0fa0438291f11b9dc52d94fdbff09b4f3d7",
+      "auxiliary_review_crop_size_bytes": 2316914,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "ca798072490db31f5947a3963cc7165f01e366c8",
+      "v1_integrity": {
+        "git_blob": "2a22894c9f65c31217f0168cd13df43f91dc52c7",
+        "size_bytes": 689002,
+        "sha256": "8e035c3c109d47d651f12db006da0be04f8ec0186d84a745d9ba9ed8cb393cdd",
+        "archive_commit": "9ab9adaffa1fca4fa686ec7c0ca43412a2d66f3e"
+      }
     }
   ],
-  "updated_at": "2026-11-01T02:15:00+08:00"
+  "updated_at": "2026-11-01T02:40:00+08:00"
 }

@@ -2864,3 +2864,8 @@ Numbered v4 concept and review assets archived. A 2023 primary adult study now c
 ### #99 v4 verified — 2026-10-31T10:09:00+08:00
 
 Fixed archive `26c31998af84369d7fa77c7d600b21a2bdd6691b` passed exact recursive-tree asset and support-record readback. Batch 2026-10-31T0927+0800 is 2/6, next cycle 3; unique species 175/251; science false.
+
+
+## 2026-10-31 — #100 *Strix huhula* v4 archived, verification pending
+
+V4 now visibly applies the recorded juvenile boundary: shorter rounded lower-contrast wing and mostly concealed short tail; one typography/label edit. PASS_WITH_LIMITATIONS; unique 175/251; science false.

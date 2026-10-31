@@ -632,3 +632,8 @@ When a publisher erratum changes the species identity of a photographed juvenile
 ### Visible sex-difference rule applied to #99 (2026-10-31)
 
 A secondary statement that females are larger must not become a fixed visual multiplier when a species-specific primary sample reports little/no visible sexual dimorphism and did not sex individuals. Keep display scale near equal, record the conflict and leave exact sex-specific measurements unknown. Applied to *Bubo magellanicus* v4.
+
+
+### Status-to-image consistency rule applied to #100 (2026-10-31)
+
+A prior status sentence is not proof that an edit is visible. Reopen the actual archived plate and compare the claimed correction against anatomy. If the image still violates the boundary, create a new version and preserve the old record. Applied to *Strix huhula* v4 after v3 still showed adult-proportioned juvenile wing/tail.

@@ -2683,3 +2683,6 @@ Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f
 
 
 - **#99 *Bubo magellanicus* v4** — numbered SCIENCE_REVISION; near-equal adult scale, approximately one-week supported chick, exceptional balcony case; PASS_WITH_LIMITATIONS; science false. See `concepts/99-bubo-magellanicus-v4.png`.
+
+
+- **#100 *Strix huhula* v4** — SCIENCE_REVISION with shorter rounded fledgling wing, mostly concealed tail and restored labels; PASS_WITH_LIMITATIONS; science false. See `concepts/100-strix-huhula-v4.png`.

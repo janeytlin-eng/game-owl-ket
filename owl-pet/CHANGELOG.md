@@ -1456,3 +1456,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added repository number 99 while preserving v1–v3.
 - Added primary-study evidence against visually exaggerating sex size; retained early chick and exceptional balcony boundaries.
 - Archived master and chick crop; PASS_WITH_LIMITATIONS, science false.
+
+
+### 2026-10-31 — #100 Black-banded Owl v4
+
+- Corrected the opened v3/status mismatch by actually shortening/softening the fledgling wing and concealing the long tail.
+- Performed and rechecked one typography/label edit.
+- Archived generated, reviewed and crop evidence; science false.

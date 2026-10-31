@@ -10818,8 +10818,8 @@
       "active_lease": {
         "owner": "codex-root",
         "run_id": "20261101T010800+0800-cycle-5",
-        "heartbeat_at": "2026-11-01T01:14:00+08:00",
-        "expires_at": "2026-11-01T01:29:00+08:00",
+        "heartbeat_at": "2026-11-01T01:17:00+08:00",
+        "expires_at": "2026-11-01T01:32:00+08:00",
         "batch_id": "20261101T0026+0800",
         "cycle": 5
       },
@@ -10832,10 +10832,10 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T010800+0800-cycle-5",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261101T010800+0800-cycle-5.md",
         "started_at": "2026-11-01T01:08:00+08:00",
-        "updated_at": "2026-11-01T01:14:00+08:00"
+        "updated_at": "2026-11-01T01:17:00+08:00"
       },
       "last_checkpoint": {
         "batch_id": "20261101T0026+0800",
@@ -10845,30 +10845,18 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T010800+0800-cycle-5",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261101T010800+0800-cycle-5.md",
         "started_at": "2026-11-01T01:08:00+08:00",
-        "updated_at": "2026-11-01T01:14:00+08:00",
-        "at": "2026-11-01T01:14:00+08:00",
+        "updated_at": "2026-11-01T01:17:00+08:00",
+        "at": "2026-11-01T01:17:00+08:00",
         "evidence": {
-          "research_file": "owl-pet/research/species/151-athene-jacquinoti-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids": [
-            "WSO-CORNELL-CLEMENTS-2022",
-            "WSO-MNHN-VOISIN-2011-P26",
-            "WSO-MNHN-2010-270",
-            "WSO-ITIS-1063526",
-            "WSO-MACAULAY-NEST-2010",
-            "WSO-OWLPAGES-2020"
-          ],
-          "source_delta": {
-            "new": 5,
-            "reused": 1,
-            "corrected": 2
-          },
-          "full_prompt_saved": true,
-          "mikkola_accessible": false,
-          "juvenile_stage_evidence": "unknown; conservative age-unknown older juvenile design inference"
+          "path": "owl-pet/production/generated/151-athene-jacquinoti-v2-generated-master.png",
+          "bytes": 3160479,
+          "png": "1536x1024 sRGB",
+          "sha256": "95c7bc2cd43558b963687ea8e554e9039d97ede091ef43c345159e2d4d1fdd77",
+          "actual_view": true,
+          "issue_found": "juvenile had long layered adult-like spotted wings; targeted edit required"
         }
       },
       "last_stage": "VERIFIED",
@@ -11180,6 +11168,22 @@
             "mikkola_accessible": false,
             "juvenile_stage_evidence": "unknown; conservative age-unknown older juvenile design inference"
           }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261101T010800+0800-cycle-5",
+          "species": "Athene jacquinoti",
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-01T01:17:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "path": "owl-pet/production/generated/151-athene-jacquinoti-v2-generated-master.png",
+            "bytes": 3160479,
+            "png": "1536x1024 sRGB",
+            "sha256": "95c7bc2cd43558b963687ea8e554e9039d97ede091ef43c345159e2d4d1fdd77",
+            "actual_view": true,
+            "issue_found": "juvenile had long layered adult-like spotted wings; targeted edit required"
+          }
         }
       ]
     }
@@ -11316,7 +11320,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-01T01:14:00+08:00",
+  "updated_at": "2026-11-01T01:17:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -11326,7 +11330,7 @@
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
   "active_lease": null,
-  "last_updated_at": "2026-11-01T01:14:00+08:00",
+  "last_updated_at": "2026-11-01T01:17:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",

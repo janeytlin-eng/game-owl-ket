@@ -2783,3 +2783,6 @@ Narrow Guiana Shield science revision. Archived v2 pixels, not its prose, establ
 ### #131 v3 verified — 2026-10-31T18:47:00+08:00
 
 Fixed archive [`7618582cbd4389179e51d65af4a901f1b2da643a`](https://github.com/janeytlin-eng/game-owl-ket/commit/7618582cbd4389179e51d65af4a901f1b2da643a) passed exact six-image path/blob/byte readback in a non-truncated 2,392-entry tree; manifests 615/614/605. The compact-wing correction is visually verified for this age-unknown older-young instance, not generalized as a universal developmental rule. Science remains false; batch 5/6, next cycle 6. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7618582cbd4389179e51d65af4a901f1b2da643a/owl-pet/design/concepts/131-megascops-watsonii-v3.png?raw=1).
+
+
+Timestamp correction for #131 v3: use Git-authoritative 18:35:56+08:00 archive and 18:36:48+08:00 verification times; the earlier 18:43/18:47 labels were forward-projected. Visual/scientific result unchanged.

@@ -1,3 +1,7 @@
+## 2026-10-31 #131 v3 timestamp correction
+
+- Git-authoritative archive/verification times are 18:35:56 and 18:36:48 +08:00. Earlier human-entered 18:43/18:47 labels are superseded for timing only; archive evidence and batch 5/6 credit are unchanged.
+
 ## 2026-10-31 #131 *Megascops watsonii* v3 VERIFIED
 
 - Fixed archive `7618582cbd4389179e51d65af4a901f1b2da643a` returned a non-truncated 2,392-entry tree with exact six-image path/blob/byte tuples; all three manifests parsed at 615/614/605 and contained matching #131 entries.

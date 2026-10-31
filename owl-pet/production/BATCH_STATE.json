@@ -10207,14 +10207,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T23:34:00+08:00",
-        "expires_at": "2026-10-31T23:49:00+08:00"
+        "heartbeat_at": "2026-10-31T23:38:00+08:00",
+        "expires_at": "2026-10-31T23:53:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T23:34:00+08:00",
-        "expires_at": "2026-10-31T23:49:00+08:00"
+        "heartbeat_at": "2026-10-31T23:38:00+08:00",
+        "expires_at": "2026-10-31T23:53:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -10225,7 +10225,7 @@
         "unique_species_increment": 0,
         "run_id": "20261031T225200+0800-cycle-5",
         "run_record": "owl-pet/production/runs/20261031T225200+0800-cycle-5.md",
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       },
       "last_checkpoint": {
         "batch_id": "20261031T2128+0800",
@@ -10285,8 +10285,8 @@
           "batch_complete": false
         }
       },
-      "last_stage": "REVIEWED",
-      "updated_at": "2026-10-31T23:34:00+08:00",
+      "last_stage": "ARCHIVED",
+      "updated_at": "2026-10-31T23:38:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10563,6 +10563,28 @@
             "reused_stage": "REVIEWED",
             "regeneration_required": false,
             "lease_expires_at": "2026-10-31T23:49:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261031T225200+0800-cycle-5",
+          "species": "Ninox spilocephala",
+          "stage": "ARCHIVED",
+          "at": "2026-10-31T23:38:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/144-ninox-spilocephala-v5.png",
+            "blob": "77c6de857deb3b8aadd6dd91cd9aaf5936bbbde2",
+            "size": 2458731,
+            "sha256": "ab196396c1421e2e6cf8871ae841f2b8c03a4900c948e9c31e500e959ba67f76",
+            "manifest_counts": {
+              "design_image": 626,
+              "design_legacy": 627,
+              "production": 617
+            },
+            "readback_pending": true,
+            "resume_commit": "aab508c321cb2260d441d637c3d82c70d80c4f7a",
+            "lease_expires_at": "2026-10-31T23:53:00+08:00"
           }
         }
       ]

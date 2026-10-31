@@ -25,3 +25,12 @@ Adult crownspotted, mixed upperbreastpattern corrected; immature plainbrowncrown
 - Generation/review: initial v4 failed because white rose into the adult chest and the immature wing/tail looked too mature. A targeted edit recolored both adult upper chests reddish-brown, restricted white to the streaked lower belly, shortened/rounded the central wing and reduced exposed tail. Final 1536×1024 RGB PNG passed structural review with three birds, correct text and all six feet supported.
 - Uncertainty: exact immature age, soft parts, continuous feather sequence, locomotor ability and quantified sex ratio remain unknown; scientifically_verified=false.
 - SHA-256: `719110e5a086fbf7b3a830d47c970ecfe7a36a9a6a631765e0137eef3b6432b6`.
+
+## v5 archive repair and science revision — 2026-10-31
+
+- Image: [144-ninox-spilocephala-v5.png](../../design/concepts/144-ninox-spilocephala-v5.png)
+- Trigger: current main stores the historical v4 path as only a 786,444-byte incomplete PNG despite its run record claiming 2,836,300 bytes. Intact v3 was preserved and used as the recoverable visual base; earlier originals remain unchanged.
+- Evidence: Rasmussen et al. 2012 full text was reread; it combines sexes and explicitly leaves sexual dimorphism unresolved. The adult diagnosis supports compact short-tailed form, crown/nape spotting, irregular wing marks, pale-yellow eyes, pale-olive bill/cere and yellow feet. Immature evidence is limited to a plain brown crown and weak buff-spotted upper-mantle collar. ITIS maps current *Ninox spilocephala* to historical *N. philippensis spilocephala*.
+- Iteration: first generated plate was rejected because adults retained broad white brows/chests and the immature feather layers looked too mature. A targeted edit reduced the pale brow, restored reddish-brown upper chests, restricted white to the lower belly and softened the central wing while retaining both feet on one branch.
+- Review: full plate and two diagnostic crops were opened. Result `PASS_WITH_LIMITATIONS`; exact immature age, iris chronology, remex sequence, locomotor stage and fixed sex-size direction remain unknown; `scientifically_verified=false`.
+- Research: [v5 evidence record](../../research/species/144-ninox-spilocephala-v5.md) · [cycle run](../../production/runs/20261031T225200+0800-cycle-5.md).

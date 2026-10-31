@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01T00:31:54+08:00",
+  "updated": "2026-11-01T00:32:52+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -16569,10 +16569,23 @@
       "auxiliary_review_crop_blob": "29328ae328d1befcc49893b29e46dde2272906d8",
       "auxiliary_review_crop_sha256": "ea6be6e81c364755c9505357ef9707ae92ef87649688b719563882dcee72ced2",
       "auxiliary_review_crop_size_bytes": 955888,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "034a0fc3fca12dc8309b312acdb7723b3b660c38"
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "034a0fc3fca12dc8309b312acdb7723b3b660c38",
+      "fixed_archive_commit": "afdef613a4403e9574404651491af1ff742be2eb",
+      "verified_at": "2026-11-01T00:32:52+08:00",
+      "readback": {
+        "method": "immutable archive exact path/blob/size; non-truncated recursive tree; complete manifests; local original decode/crop inspection; main-head readback",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 628,
+          "design_legacy": 629,
+          "production": 619
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-01T00:31:54+08:00"
+  "updated_at": "2026-11-01T00:32:52+08:00"
 }

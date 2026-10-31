@@ -1624,3 +1624,28 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Status:** BHL returned 403; not counted as directly read. Rasmussen's peer-reviewed paper quotes the adult comparison. No development claim is attributed to the inaccessible original.
 
 **Mapping / delta — #146 v2:** current *Ninox mindorensis* / historical *Ninox philippensis mindorensis* → LZBO-RASMUSSEN-2012-LEAD for adult diagnosis and habitat; MINDBOO-ITIS-2025 and MINDBOO-CLEMENTS-2013 for current/old-name mapping. New2 / reused1 / corrected1 / unverified lead1. Active searches found no reliable species-specific juvenile stage; exact juvenile age, iris, wing/tail sequence, locomotor ability, nest details and sex-size direction remain unknown; science=false. [Species research](species/146-ninox-mindorensis-v2.md) · [Run](../production/runs/20261031T234400+0800-cycle-6.md).
+
+## 2026-11-01 — #147 *Ninox leventisi* v2 evidence refresh
+
+### CAMBOO-RASMUSSEN-2012-FORKTAIL
+- **Title / authors / year / type:** Rasmussen et al., “Vocal divergence and new species in the Philippine Hawk Owl *Ninox philippensis* complex”; 2012; primary museum, morphometric, vocal and field-photo taxonomic study; *Forktail* 28:1–20.
+- **URL / pages read:** https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ; printed pp.3, 15–16 and 19, especially diagnosis/type description pp.15–16; accessed 2026-11-01.
+- **Facts:** large, long deep bill, full lax plumage, no pale supercilium, gray/whitish to very pale yellow-green irides, mustard/olive bill and feet, mostly pale claws with dark tips, extensive white throat, regular crown/nape bars, bold wing-coverts and broad irregular warm underpart bars. Sexes were combined and sex-size analysis deferred. Immatures were excluded for lack of data; authors only generalize that immatures are fluffier and less marked.
+- **Limits / decision:** two female specimens plus photographs; no species-specific juvenile sequence. Adults stay near equal; older immature is age unknown, eyes closed, compact/down-softened and supported.
+
+### CAMBOO-ITIS-1063268
+- **Institution / type / URL:** ITIS standard report TSN 1063268; taxonomy aggregator; https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063268&source=to_print .
+- **Read / facts:** current valid standing and official common names read 2026-11-01; IOC/Clements cross-references present. Name mapping only.
+
+### CAMBOO-COMMONS-CHUA-2025
+- **Title / author / date / type:** “Camiguin Boobook in Camiguin,” Cheta Chua, photographed 2025-09-18; direct adult field photograph, CC BY-SA 4.0.
+- **URL / read:** https://commons.wikimedia.org/wiki/File:Camiguin_Boobook.jpg ; metadata and displayed pixels viewed 2026-11-01.
+- **Visible facts:** gray-whitish iris, extensive white throat, long yellow/olive bill, barred warm-brown body, yellow feet gripping a branch, mossy forest context.
+- **Limits:** one unsexed adult; no juvenile or measured scale.
+
+### CAMBOO-BIRDLIFE-2026
+- **Institution / type / URL:** BirdLife Data Zone species factsheet; https://datazone.birdlife.org/species/factsheet/camiguin-boobook-ninox-leventisi ; conservation/taxonomy account.
+- **Read / facts:** at-a-glance, taxonomy and distribution fields read 2026-11-01; Camiguin resident/breeding endemic; Rasmussen et al. 2012 cited.
+- **Limits:** dynamic page exposed no detailed juvenile/breeding text. Range context only; no nest inference.
+
+**Mapping / delta — #147 v2:** historical Camiguin *N. philippensis spilonota* / broad *N. philippensis* → current *Ninox leventisi*. New4 / reused0 / corrected design assumptions2. Searches found no reliable species-specific juvenile record; exact juvenile age, iris chronology, wing/tail sequence, flight ability, nest details and sex-size direction remain unknown; science=false. [Species research](species/147-ninox-leventisi-v2.md) · [Run](../production/runs/20261101T002622+0800-cycle-1.md).

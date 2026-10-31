@@ -651,3 +651,8 @@ A prior status sentence is not proof that an edit is visible. Reopen the actual 
 - Gerhardt & Gerhardt 1997 measured only one *Strix nigrolineata* pair: female 535 g versus male 436 g, while wing chord differed only 29.3 versus 28.6 cm. Other pairs looked similarly different but were not captured.
 - Applied in #102 v3 as a subtly fuller, only slightly larger female. It does not justify a huge height gap or a universal percentage for all populations.
 - This is a source-bounded design correction; visual review can validate application to the plate, not population biology. Scientific verification remains false.
+
+
+### 2026-10-31 #103 — reopen an unverified source lead before preserving a neutral sex-size display
+
+A previous record that says a relevant morphometric PDF could not be opened is a recoverable evidence gap, not a permanent design boundary. For #103, opening ABSA *Bird in the Hand* p.1 supplied overlapping male/female wing, tail and mass ranges and an explicit darker/larger-female direction. The applied change was therefore modest visible female fullness/size, not a universal multiplier. The existing ~55-day captive-reference mesoptile was kept down-rich and fully supported; only adult-like side wing layering was softened. Whole-frame and crop review passed for this plate only. This validates reopening the lead and applying overlapping ranges conservatively; it does not establish wild-age equivalence, flight readiness, continuous feather sequence or population-wide ratios, and scientifically_verified remains false.

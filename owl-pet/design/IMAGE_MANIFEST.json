@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T11:02:00+08:00",
+  "updated": "2026-10-31T02:48:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14673,7 +14673,53 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "103-tyto-longimembris-v4",
+      "path": "design/concepts/103-tyto-longimembris-v4.png",
+      "species_id": 103,
+      "scientific_name": "Tyto longimembris",
+      "historical_names": [
+        "Tyto capensis longimembris"
+      ],
+      "common_name": "Eastern Grass Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "63ccf4572b26e070e930e33bf03a784ff6bb702e5f6e18c0f2da91ecf39955a8",
+      "size_bytes": 2729182,
+      "dimensions": "1514x1039",
+      "status": "SCIENCE_REVISION using the opened ABSA Bird in the Hand p.1 morphometric ranges for a darker, modestly larger/fuller female while preserving overlapping ranges; the Dunlop & Pain 2016 approximately 55-day captive-reference mesoptile remains rich golden-brown, low, fully supported and non-flying, with adult-like side wing layering softened. PASS_WITH_LIMITATIONS; wild-age equivalence, exact flight readiness, continuous feather sequence, population-wide display ratio and toe geometry remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "EGO-ABSA-BIH2",
+        "EGO-DUNLOP2016",
+        "EGO-NSW2018",
+        "EGO-MIK2013-102",
+        "EGO-AVIBASE2026"
+      ],
+      "research_record": "research/103-tyto-longimembris-v4.md",
+      "run_record": "production/runs/20261031T024200Z-cycle-6.md",
+      "reviewed_at": "2026-10-31T02:46:02Z",
+      "generated_path": "production/generated/103-tyto-longimembris-v4-generated-master.png",
+      "generated_blob": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
+      "generated_sha256": "63ccf4572b26e070e930e33bf03a784ff6bb702e5f6e18c0f2da91ecf39955a8",
+      "generated_size_bytes": 2729182,
+      "reviewed_path": "production/reviewed/103-tyto-longimembris-v4-reviewed-master.png",
+      "reviewed_blob": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
+      "reviewed_sha256": "63ccf4572b26e070e930e33bf03a784ff6bb702e5f6e18c0f2da91ecf39955a8",
+      "reviewed_size_bytes": 2729182,
+      "review_crop_path": "production/review-crops/103-tyto-longimembris-v4-mesoptile.png",
+      "review_crop_blob": "2e48f07af037485d932bec1a337529669c760023",
+      "review_crop_sha256": "f89b113bafa5500e91b65f1d63a82e76c966a2c062957da2d72af6c6bb2b158d",
+      "review_crop_size_bytes": 778390,
+      "readback_pending": true,
+      "git_blob": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T11:02:00+08:00"
+  "updated_at": "2026-10-31T02:48:00Z"
 }

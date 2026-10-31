@@ -1473,3 +1473,11 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Generated and inspected v7 plus a tight fledgling crop. Adult tufts are low/modest; adults remain near-equal; juvenile eyes are conservative dark-neutral, wings down-dominant/short and both feet supported. Science remains false.
 - Archived as `design/concepts/101-otus-spilocephalus-v7.png`; fixed-commit verification pending.
 - First archive readback caught a truncated master transfer; repaired via 97 checked 30,000-byte chunks and verified the full 2,890,356-byte PNG at archive `625738f254f26bb6b018b5a39f6952da8754e326`.
+
+
+## 2026-10-31T02:48:00Z — #103 *Tyto longimembris* v4 archived (readback pending)
+
+- Opened and read EGO-ABSA-BIH2 p.1; corrected the prior “unopened lead” status and applied overlapping sex-specific morphometrics as a modest darker/larger-female direction.
+- Reused Dunlop & Pain 2016 approximately 55-day captive-reference mesoptile boundary without claiming wild-age equivalence or flight readiness.
+- One evidence-led imagegen edit; whole master and 620×760 mesoptile crop opened. PASS_WITH_LIMITATIONS; no second edit.
+- Concept/generated/reviewed blob 634747c07ff26c27847ccbc22c1b956cd04fa04d (2729182 B); crop 2e48f07af037485d932bec1a337529669c760023 (778390 B). Unique species unchanged at 175/251; science false.

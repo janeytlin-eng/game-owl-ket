@@ -984,3 +984,41 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Linked records:** [#103 v4 research](103-tyto-longimembris-v4.md); [#103 knowledge](../knowledge/species/103-tyto-longimembris.md); [#103 v4 image](../design/concepts/103-tyto-longimembris-v4.png); [cycle-6 run](../production/runs/20261031T024200Z-cycle-6.md); fixed archive `fa1226ac8f5b95923440152c9559271293dc1eea`; exact readback verified.
 
 **Mapping:** *Tyto longimembris* → EGO-ABSA-BIH2, EGO-DUNLOP2016, EGO-NSW2018, EGO-MIK2013-102, EGO-AVIBASE2026. Topics: adult morphometrics, sex differences, leg feathering, captive mesoptile boundary, ground/tall-grass context. New 1 / reused 4 / corrected 1.
+
+
+## 2026-10-31 — #104 *Asio madagascariensis* v4 actual-image calibration
+
+### MLO-RDR-GOODMAN-2003
+- **Title / authors / year:** “*Asio madagascariensis*” in *The Natural History of Madagascar*; L.-A. Rene de Roland & S. M. Goodman; 2003.
+- **URL:** https://protectedareas.mg/content/documents/0cd9156e-e528-4293-b8da-d00aa5f5af4f/dc17b8fd22bd4c08ad8fcddd92d3ff17.pdf
+- **Accessed / type:** 2026-10-31; primary nesting account reproduced in the author's habilitation volume.
+- **Pages / stage:** printed pp.1116–1117, Fig.12.20; adults and one studied brood at 36–42 days.
+- **Facts actually read:** one female weighed 770 g and males were stated smaller without a male measurement. Two young moved around/off an epiphyte-tuft nest at 36 days, used adjacent trees, stayed within 15 m during the next week and returned to the nest for prey; first feeding away from the nest was at 42 days.
+- **Limits / confidence:** one female mass and one brood; no universal ratio, exact flight score or complete feather chronology. High confidence for the reported observations, low for generalising their schedule.
+- **Design link:** supports an active branch-supported older juvenile and only restrained female-larger direction; [#104 v4 research](104-asio-madagascariensis-v4.md).
+
+### MLO-VASSEN-2013-JUV
+- **Title / author / date:** “Juvenile Madagascar Long-eared Owl (*Asio madagascariensis*), Andasibe, Madagascar”; Frank Vassen; 4 December 2013.
+- **URL:** https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Long-eared_Owl_(Asio_madagascariensis),_Andasibe,_Madagascar.jpg
+- **Accessed / type:** 2026-10-31; dated direct field photograph with EXIF and CC BY 2.0 metadata.
+- **Stage / facts viewed:** age-unknown juvenile; white/cream fluffy mesoptile, dark mask, short tufts, formed brown folded wing and branch support.
+- **Limits / confidence:** no age, sex, iris measurement or flight observation; high for visible features of this individual only.
+- **Design link:** preserve the formed-wing, supported older mesoptile rather than invent a newborn; [#104 v4 research](104-asio-madagascariensis-v4.md).
+
+### MLO-PETERDAY-2016-JUV
+- **Title / author / date:** “Madagascar Long-eared Owl (juv)”; Peter Day; photograph taken 30 November 2016, posted 10 January 2018.
+- **URL:** https://www.birdforum.net/gallery/madagascar-long-eared-owl-juv.595811/
+- **Accessed / type:** 2026-10-31; dated direct field photograph, Vakona Forest Lodge, Madagascar.
+- **Stage / facts viewed:** age-unknown older juvenile; white/cream down, dark mask, short fuzzy tufts, dark/grey-brown-looking eyes, well-formed brown barred wings and secure branch perch.
+- **Limits / confidence:** community gallery identification and one individual; no age, sex, molt sequence or flight ability. Moderate-high for visible geometry, not chronology.
+- **Design link:** corroborates v4's supported mesoptile and formed wing; [#104 v4 research](104-asio-madagascariensis-v4.md).
+
+### MLO-FENEROLE-2006-MALE
+- **Title / author / date:** “Hibou malgache — *Asio madagascariensis*”; Jean-Michel Fenerole; December 2006.
+- **URL:** https://www.oiseaux.net/photos/jean-michel.fenerole/hibou.malgache.1.html?ctx=auteur_espece
+- **Accessed / type:** 2026-10-31; dated adult field photograph, Andasibe, labelled male by photographer.
+- **Facts viewed:** long but narrow and flexible adult ear tufts, orange iris, black bill, warm buff face and feathered lower-leg direction.
+- **Limits / confidence:** sex label not independently measured; flash changes colour and one posture cannot define all tuft angles. High for visible narrow tuft geometry, not a universal tuft pose or sex difference.
+- **Design link:** corrects v3's broad rigid fan-shaped adult tufts while retaining their length; [#104 v4 research](104-asio-madagascariensis-v4.md).
+
+**Mapping:** *Asio madagascariensis* (historical *Otus madagascariensis*) → MLO-RDR-GOODMAN-2003, MLO-VASSEN-2013-JUV, MLO-PETERDAY-2016-JUV, MLO-FENEROLE-2006-MALE. Topics: restrained adult dimorphism, supported brancher, mesoptile wing development, adult tuft geometry. New-to-index 4 / reused-in-design 2 / new visual comparators 2 / corrected actual-image issues 2. Science remains false.

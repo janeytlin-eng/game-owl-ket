@@ -1,3 +1,9 @@
+## #133 Black-capped Screech-Owl — *Megascops atricapilla* — v3 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/572d5999bc1569f6eb315467fe7440116b800bb5/owl-pet/design/concepts/133-megascops-atricapilla-v3.png?raw=1) · [fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/572d5999bc1569f6eb315467fe7440116b800bb5) · [research](../research/species/133-megascops-atricapilla-v3.md) · [run](../production/runs/20261031T193701+0800-cycle-1.md)
+- VERIFIED; exact six image tuples and complete manifests 617/616/607 read back after rejecting a 500,000-byte truncated precursor; PASS_WITH_LIMITATIONS; science false; unique175/251; batch1/6 next2.
+- Adults use distinct near-equal crown-height poses; only a subtly fuller female is claimed. The later juvenile retains formed wing/tail and bilateral support; one edit reduced adult-regular white tiles without erasing legitimate formed feathers.
+
 ## #133 Black-capped Screech-Owl — *Megascops atricapilla* — v3 science revision
 
 - Concept: [133-megascops-atricapilla-v3.png](concepts/133-megascops-atricapilla-v3.png)

@@ -1,3 +1,10 @@
+## 2026-10-31 #133 *Megascops atricapilla* v3 VERIFIED
+
+- Fixed archive `572d5999bc1569f6eb315467fe7440116b800bb5` returned a non-truncated 2,407-entry tree with exact six-image path/blob/byte tuples; manifests parsed at 617/616/607 with matching #133 v3 entries.
+- Rejected precursor `791563f9ba0300e82b0ddedd7ca1561264684cf9` exposed 500,000-byte binary truncation and was never credited; padding-safe retransmission repaired the archive.
+- One juvenile-wing/tail edit retained the photo-supported formed wing while reducing adult-regular white tiles. Full/juvenile/feet review passed with limitations. Unique **175/251**; science false; batch 1/6, next cycle 2.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/572d5999bc1569f6eb315467fe7440116b800bb5/owl-pet/design/concepts/133-megascops-atricapilla-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/572d5999bc1569f6eb315467fe7440116b800bb5) · [Research](research/species/133-megascops-atricapilla-v3.md) · [Run](production/runs/20261031T193701+0800-cycle-1.md)
+
 ## 2026-10-31 #133 *Megascops atricapilla* v3 ARCHIVE BINARY REPAIR — fixed readback pending
 
 - Rejected archive candidate `791563f9ba0300e82b0ddedd7ca1561264684cf9`: immutable tree exposed all six new PNG paths as 500,000-byte truncations. Full blobs were retransmitted; no cycle credit until a new immutable tree shows exact bytes.

@@ -1,3 +1,10 @@
+## 2026-10-31 #102 *Strix nigrolineata* v3 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; one evidence-led edit; PASS_WITH_LIMITATIONS; science false; unique175/251.
+- Adult dorsal over-speckling reduced; one-pair USDA measurement supports only restrained female-larger direction. Age-unknown mesoptile and natural epiphyte support retained.
+- Three invalid remote manifests were reconstructed from last valid baseline plus exact verified #97/#99/#100/#101 entries; valid counts 603/602/593. Fixed commit readback pending.
+- [Run](production/runs/20261031T102620+0800-cycle-5.md)
+
 ## 2026-10-31 #93 *Aegolius harrisii iheringi* v3 VERIFIED
 
 - Fixed archive `362281f4d87b5225fefbecfbb149ca9ee940868c`; exact assets and manifests matched; batch3/6.

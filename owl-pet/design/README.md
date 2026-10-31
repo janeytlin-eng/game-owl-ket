@@ -1,3 +1,11 @@
+## #102 Black-and-white Owl — *Strix nigrolineata* — v3 science revision
+
+- Concept: [102-strix-nigrolineata-v3.png](concepts/102-strix-nigrolineata-v3.png)
+- Research: [102-strix-nigrolineata-v3.md](../research/species/102-strix-nigrolineata-v3.md)
+- Run: [20261031T102620+0800-cycle-5.md](../production/runs/20261031T102620+0800-cycle-5.md)
+- ARCHIVED; PASS_WITH_LIMITATIONS; fixed readback pending; science false.
+- Adult dorsal white pattern reduced; restrained female-size direction comes from one measured pair and is not a universal height equation. Juvenile remains age-unknown mesoptile.
+
 ## #82 African Scops Owl — *Otus senegalensis* — v4 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/e8967091ffc5fb1dfce11c1b96225a1147ae2ee4/owl-pet/design/concepts/82-otus-senegalensis-v4.jpg?raw=1)

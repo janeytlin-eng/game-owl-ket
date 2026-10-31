@@ -12301,9 +12301,21 @@
           "run_record": "owl-pet/production/runs/20261101T033700+0800-cycle-3.md",
           "action": "SCIENCE_REVISION",
           "version": 2
+        },
+        {
+          "cycle": 4,
+          "species": "Otus pembaensis",
+          "species_id": 176,
+          "version": 2,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "58b4109b57113f27639f3c85f2701e5a8ba9c8ca",
+          "archive_commit": "05b4c42144b3a1d6cde56fa0410c0e6c726081c5",
+          "run_record": "owl-pet/production/runs/20261101T034300+0800-cycle-4.md"
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T034300+0800-cycle-4",
@@ -12316,22 +12328,7 @@
         "heartbeat_at": "2026-11-01T04:38:00+08:00",
         "expires_at": "2026-11-01T04:53:00+08:00"
       },
-      "in_progress": {
-        "cycle": 4,
-        "species_id": 176,
-        "species": "Otus pembaensis",
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261101T034300+0800-cycle-4",
-        "run_record": "owl-pet/production/runs/20261101T034300+0800-cycle-4.md",
-        "stage": "ARCHIVED_REPAIR",
-        "lease": {
-          "owner": "codex-automation",
-          "run_id": "20261101T034300+0800-cycle-4",
-          "heartbeat_at": "2026-11-01T04:38:00+08:00",
-          "expires_at": "2026-11-01T04:53:00+08:00"
-        }
-      },
+      "in_progress": null,
       "last_checkpoint": {
         "cycle": 4,
         "species": "Otus pembaensis",
@@ -12941,12 +12938,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-automation",
-    "run_id": "20261101T034300+0800-cycle-4",
-    "heartbeat_at": "2026-11-01T04:38:00+08:00",
-    "expires_at": "2026-11-01T04:53:00+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -16031,10 +16023,43 @@
         "reason": "connector stream truncation detected by exact size readback",
         "full_blob_repair": true
       }
+    },
+    {
+      "batch_id": "20261101T040500+0800",
+      "cycle": 4,
+      "run_id": "20261101T034300+0800-cycle-4",
+      "species_id": 176,
+      "stage": "VERIFIED",
+      "at": "2026-11-01T04:40:00+08:00",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "58b4109b57113f27639f3c85f2701e5a8ba9c8ca",
+        "archive_repair_commit": "05b4c42144b3a1d6cde56fa0410c0e6c726081c5",
+        "tree_sha": "d0a94349990a51182282bfff66b492f2a3fa6b15",
+        "tree_count": 2632,
+        "recursive_tree_truncated": false,
+        "paths_verified": 7,
+        "binary_assets_verified": 6,
+        "concept_blob": "8f9e061f276234adec4a55d67eadc25395fbc5c1",
+        "manifest_counts": {
+          "design_image": 643,
+          "design_legacy": 644,
+          "production": 634
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "next_cycle": 5,
+        "batch_complete": false,
+        "path_blob_readback": true,
+        "main_head_readback": true,
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
   "active_batch_id": "20261101T040500+0800",
-  "active_cycle": 4,
-  "current_stage": "ARCHIVED_REPAIR",
-  "next_cycle": 4
+  "active_cycle": 5,
+  "current_stage": "IDLE_BETWEEN_CYCLES",
+  "next_cycle": 5,
+  "unique_species_count": 176,
+  "total_species": 251
 }

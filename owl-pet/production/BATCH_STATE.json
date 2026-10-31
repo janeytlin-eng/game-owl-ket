@@ -2762,12 +2762,7 @@
       ],
       "next_cycle": null,
       "started_at": "2026-10-24T21:30:47+08:00",
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "2026-10-25T0230+0800-cycle-5",
-        "heartbeat_at": "2026-10-25T02:37:00+08:00",
-        "expires_at": "2026-10-25T02:52:00+08:00"
-      },
+      "lease": null,
       "last_checkpoint": {
         "cycle": 2,
         "stage": "STARTED",
@@ -11709,7 +11704,7 @@
       "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:44:43+08:00",
+  "last_updated": "2026-10-31T18:45:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -11746,6 +11741,18 @@
       "old_value": 7,
       "new_value": null,
       "reason": "status COMPLETE and six immutable VERIFIED cycles already recorded; no production credit added and no run record changed"
+    },
+    {
+      "at": "2026-10-31T18:45:00+08:00",
+      "event": "expired_orphan_lease_cleared",
+      "batch_id": "2026-10-24T2130+0800",
+      "old_lease": {
+        "owner": "codex-production",
+        "run_id": "2026-10-25T0230+0800-cycle-5",
+        "heartbeat_at": "2026-10-25T02:37:00+08:00",
+        "expires_at": "2026-10-25T02:52:00+08:00"
+      },
+      "reason": "batch already COMPLETE 6/6; lease expired 2026-10-25 and no in_progress record; no production credit added"
     }
   ]
 }

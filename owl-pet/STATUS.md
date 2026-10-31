@@ -201,6 +201,8 @@
 - 2026-10-29T19:43:00+08:00: #101 *Otus spilocephalus hambroecki* v6 ARCHIVED; two juvenile-wing edits passed full+crop review. Concept/generated/reviewed JPEG and crop plus manifest523 committed; fixed-tree readback pending; unique +0; science false.
 
 - 2026-10-31T10:03:00+08:00: #101 *Otus spilocephalus hambroecki* v7 ARCHIVED pending fixed-tree readback. Opened v6, added two official Taiwan small-tuft sources, reused three development sources, corrected long adult feather horns and unsupported adult-bright juvenile iris. Full 1536×1024 PNG and 560×760 crop pass with limitations; manifest counts legacy602/design601/production592; unique remains 175/251; science false.
+
+- 2026-10-31T10:07:00+08:00: #101 v7 first archive readback rejected: master blob was truncated to 786,446 bytes by command-output capture, while the local master is 2,890,356 bytes; crop intact. Full PNG was reread in 97 checked chunks to Git blob `83149dc6294002c4760b6c540038bbab49c5efc3`; repair archive and new fixed-tree verification pending. No cycle credit.
 - 2026-10-29T17:54:00+08:00: #96 Aegolius ridgwayi v3 VERIFIED at fixed archive 91887b36ca001b17ccf6c5af445acc921c62f230; four exact JPEG/crop path/blob/size checks passed. Batch 2026-10-29T1536+0800 COMPLETE 6/6; unique +0; science false.
 - 2026-10-29T17:50:00+08:00: #96 Aegolius ridgwayi v3 ARCHIVED; first render passed full+crop review. Concept/generated/reviewed JPEG and crop committed; fixed-tree readback pending; unique +0; science false.
 - 2026-10-29T17:28:00+08:00: #95 Pulsatrix melanota v3 VERIFIED at fixed archive 2b5be919418bd80604ee7db89663076252ac411d; four exact JPEG/crop path/blob/size checks passed. Batch 2026-10-29T1536+0800 5/6, next cycle6; unique +0; science false.

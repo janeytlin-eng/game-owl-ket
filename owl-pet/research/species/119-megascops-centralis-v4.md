@@ -1,7 +1,7 @@
 # #119 *Megascops centralis* v4 — juvenile folded-wing correction
 
 - Batch / cycle: `2026-10-31T1130+0800` · 5/6
-- Prepared: 2026-10-31T14:43:00+08:00
+- Prepared: 2026-10-31T14:37:49+08:00 (immutable GitHub commit time)
 - Action: `SCIENCE_REVISION`; v1–v3 preserved; unique increment 0
 - New sources: `CHSO-MIK2013-P242-243`, `CHSO-ITIS-1063250`
 - Reused: `CHSO-REYES-ASTUDILLO-2017-PARTIAL`, `CHSO-JORDAN-2012`, `CHSO-AVIBASE-MAPPING`

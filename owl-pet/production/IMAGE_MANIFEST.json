@@ -16767,16 +16767,30 @@
       "auxiliary_review_crop_blob": "cb36054d62613b58adf60409e3ef65c166861814",
       "auxiliary_review_crop_sha256": "b9431dddd85eabcbbee33c5f3147e6af25554479acb9e13c687dc76c458bc835",
       "auxiliary_review_crop_size_bytes": 1674582,
-      "readback_pending": true,
-      "exact_readback": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "git_blob": "3e709c195a92a02abc13f845c087be592107e9c8",
       "v1_integrity": {
         "git_blob": "968280d7bf9d7c49e605200dcaddc00cd0cb0c43",
         "size_bytes": 643945,
         "sha256": "bbf17194488c6c989152bcb6ba6187e1a284533651eaa11b7700e92eb0cd7478",
         "archive_commit": "25196c5cb8848cc6914ee4ac7b2ab20472bf4ab5"
+      },
+      "fixed_archive_commit": "d0dec0629f50bfea6ebd738d549732c2c2a7ef32",
+      "verified_at": "2026-11-01T03:25:00+08:00",
+      "readback": {
+        "method": "immutable archive exact path/blob/size; non-truncated recursive tree; local full PNG decode and full/two-crop original-detail inspection; all three manifests parsed",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 638,
+          "design_legacy": 639,
+          "production": 629
+        },
+        "v1_integrity_verified": true
       }
     }
   ],
-  "updated_at": "2026-11-01T03:20:00+08:00"
+  "updated_at": "2026-11-01T03:25:00+08:00"
 }

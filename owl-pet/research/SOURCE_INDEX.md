@@ -1449,3 +1449,34 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Design use:** preserve repository #137 and record the old genus/name without silently changing the 251-scope numbering.
 
 **Mapping — #137 v3:** current *Otus alfredi* / protonym *Pisorhina alfredi* → FLO-WIDODO-1999 morphology, juvenile and habitat boundary; FLO-AVIBASE-HARTERT-1897 name mapping. New2 / reused0 / corrected0. Exact sex-size direction, nest site, juvenile age, flight ability and development sequence unknown; science remains false.
+
+
+## MEN-TAUFIQURRAHMAN-2018
+
+- **Title / authors / year:** *First breeding record of Mentawai Scops Owl Otus mentawi, with notes on morphology and vocalisations of juveniles* / Imam Taufiqurrahman, Robertinus Saumanuk & Fiqri Setiawan / 2018.
+- **Institution / type:** BirdingASIA 29:31–32; primary field observation with photographs of a free-ranging family.
+- **URL / access:** https://swaraowa.org/wp-content/uploads/2018/05/mentawai-scops-owl.pdf ; accessed 2026-10-31.
+- **Species / stage / locality:** *Otus mentawi*; two juveniles and an attending adult, West Siberut, Mentawai Islands, May 2017.
+- **Actually read:** complete printed pp.31–32, including the dated observation sequence and juvenile morphology.
+- **Facts:** on 18 May both juveniles were slightly smaller than the adult; underparts pale greyish-brown with thin dark streaks, upperparts darker, face reddish-brown and darker than breast, bill and toes pale greyish-horn, eyes reddish-brown. Wings projected beyond a short dark tail and faint narrow flight-feather bars strengthened as the young developed. Young used low branches, sometimes 2–3 m above ground, and were fed by the adult; by 21 May they appeared larger and browner/darker.
+- **Limits:** hatch date, exact age and independent flight ability were not known. The authors' incubation/fledging estimates are comparisons with other scops owls, not measured *O. mentawi* development.
+- **Design use:** show a slightly smaller supported juvenile with visible formed wings beyond a short tail, thin streaking and species-specific soft-part colors; retain “age unknown” and make no flight claim.
+
+## MEN-MIKKOLA-2013-P166
+
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Type / pages / access:** secondary photographic field guide; printed Mentawai Scops Owl account pp.166–167, web-readable text consulted 2026-10-31. The user's uploaded copy was not separately accessible in this run.
+- **Species / stage:** *Otus mentawi* adults; juvenile described there as unknown (superseded for that point by the 2018 primary paper).
+- **Facts:** length about 20 cm, wing 157–166 mm; rufous morph dark reddish-brown, no nuchal collar, whitish outer scapulars with black marks, mottled/freckled wing coverts, reddish-brown/chestnut underparts with herringbone markings and white ocelli, paler belly, brown (sometimes yellow) eyes, yellowish-horn bill, heavily feathered tarsi, bare flesh-colored toes and dark horn claws.
+- **Limits / conflict:** no sex-size data and no juvenile sequence. The guide's “juvenile not known” reflects pre-2018 knowledge. Color morph and soft-part variation mean a single exact palette is not a universal rule.
+- **Design use:** correct v2's gray adult bills toward yellowish horn; keep adults near equal rather than impose female-larger; use rufous morph with no nuchal collar and feathered tarsi.
+
+## MEN-AVIBASE-1926
+
+- **Title / institution / type:** Avibase taxonomic concept and original-description crosswalk for Mentawai Scops Owl / Birds Canada–Avibase; taxonomy aggregator.
+- **URL / access:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=5D5D1EAA&lang=EN ; accessed 2026-10-31.
+- **Facts:** current name *Otus mentawi*; protonym *Otus bakkamoena mentawi* Chasen & Kloss, 1926; type locality Sipora, Mentawai Islands. ITIS independently lists the same historical trinomial as a synonym.
+- **Limits:** name mapping only; not a morphology or development source.
+- **Design use:** preserve repository #138 and record the old trinomial without changing the 251-species scope or numbering.
+
+**Mapping — #138 v3:** current *Otus mentawi* / protonym *Otus bakkamoena mentawi* → MEN-TAUFIQURRAHMAN-2018 juvenile morphology/support; MEN-MIKKOLA-2013-P166 adult morphology; MEN-AVIBASE-1926 name mapping. New3 / reused0 / corrected1. Exact sex-size direction, juvenile day age, flight ability and complete feather chronology remain unknown; science remains false.

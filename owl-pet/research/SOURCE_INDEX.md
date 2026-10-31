@@ -1,3 +1,26 @@
+## 2026-10-31 — #135 *Otus silvicola* v3 evidence refresh
+
+### WSC-MEES-2006
+- **Title / author / year / type:** “The avifauna of Flores (Lesser Sunda Islands)”, G. F. Mees, 2006; specimen-based taxonomic/avifaunal monograph.
+- **URL / pages read:** https://repository.naturalis.nl/pub/209703/ZM80-05.pdf ; pp.113–115, especially p.114; accessed 2026-10-31.
+- **Species / stages:** *Otus silvicola*; two adults (one each sex) and fully feathered fledgling/transitional specimens.
+- **Facts:** fledglings had remiges/rectrices basally in sheath; type retained loose, finely barred juvenile plumage with some emerging adult dark-streaked feathers. No obvious adult sex-plumage difference; limited adult specimens indicate a surprisingly large female, about 12%.
+- **Limits / decision:** n=2 adults and no exact juvenile age/flight chronology. Use only a restrained 8–10% visual female direction and an age-unknown fully feathered transitional immature; no universal sex-size formula.
+
+### WSC-MARSHALL-1978
+- **Title / author / year / type:** *Systematics of Smaller Asian Night Birds Based on Voice*, Joe T. Marshall, 1978; specimen/field-based systematic monograph.
+- **URL / page read:** https://sora.unm.edu/sites/default/files/journals/om/om025.pdf ; printed p.26; accessed 2026-10-31.
+- **Facts:** long tufts lack a white inner border; no white collar; white underparts have definite crossbars on bold sparse streaks; tarsi/proximal phalanges densely feathered; iris dull orange. Forest-ravine/high-perch records extend from lowland edges to virgin rainforest around 1,600 m.
+- **Limits / decision:** no juvenile sequence or nest record. Supports adult diagnosis, foot feathering and supported Flores forest-ravine setting; no invented nest.
+
+### SLSO-SANGSTER-2013
+- **Title / authors / year / type:** “A New Owl Species of the Genus *Otus* ... from Lombok,” George Sangster et al., 2013; peer-reviewed integrative taxonomy.
+- **URL / section read:** https://pmc.ncbi.nlm.nih.gov/articles/PMC3576389/ ; diagnostic comparison; accessed 2026-10-31.
+- **Facts:** *O. silvicola* is much larger than the Lombok taxon; cold grey-brown upperparts with broader dark shaft streaks/bars; pale grey-cinnamon/buffy-grey breast close to belly-side tone; white belly centre; feathering covers toe bases.
+- **Limits / decision:** comparative adult diagnosis, not development evidence. Supports v3 adult identity and conservative immature colour/pattern boundaries.
+
+**Mapping / delta:** project #135 remains *Otus silvicola*; no number or scope change. New-to-index 3 / reused project evidence 0 in this index / corrected design assumptions 3. Exact immature age, sex, iris chronology, flight ability and literal sheath geometry remain unknown. Scientific verification remains false. [Species research](species/135-otus-silvicola-v3.md) · [Run](../production/runs/20261031T195051+0800-cycle-3.md)
+
 ## 2026-10-31 — #134 *Megascops sanctaecatarinae* v3 evidence refresh
 
 ### LTSC-PAGANO-2021

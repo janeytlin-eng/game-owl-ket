@@ -9336,61 +9336,78 @@
           "commit_sha": "64134725024eb744a1280179054fc1e91682c4b8",
           "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species": "Otus manadensis",
+          "species_id": 117,
+          "version": 9,
+          "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f1acc3773f93e634ddfe472a2ede24e87ffdaedb",
+          "run_record": "owl-pet/production/runs/20261031T133747+0800-cycle-4.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "last_checkpoint": {
-        "cycle": 3,
-        "species": "Strix albitarsis",
-        "species_id": 106,
-        "version": 3,
+        "cycle": 4,
+        "species": "Otus manadensis",
+        "species_id": 117,
+        "version": 9,
         "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-        "run_id": "20261031T115700+0800-cycle-3",
+        "run_id": "20261031T133747+0800-cycle-4",
         "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T115700+0800-cycle-3.md",
-        "at": "2026-10-31T12:41:17+08:00",
+        "run_record": "owl-pet/production/runs/20261031T133747+0800-cycle-4.md",
+        "at": "2026-10-31T13:52:00+08:00",
         "evidence": {
-          "fixed_archive_commit": "64134725024eb744a1280179054fc1e91682c4b8",
+          "fixed_archive_commit": "f1acc3773f93e634ddfe472a2ede24e87ffdaedb",
           "assets": {
             "concept": {
-              "path": "owl-pet/design/concepts/106-strix-albitarsis-v3.png",
-              "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
-              "size": 3196094
+              "path": "owl-pet/design/concepts/117-otus-manadensis-v9.png",
+              "sha": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
+              "size": 2801573
             },
             "generated": {
-              "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
-              "sha": "99afe774d9b2a7987117bb9bafcbce85e8c7fec2",
-              "size": 3109184
+              "path": "owl-pet/production/generated/117-otus-manadensis-v9-generated-master.png",
+              "sha": "7bc2bf4604df64273c92aea90c45dba3d909bd0f",
+              "size": 2944396
+            },
+            "intermediate_edit": {
+              "path": "owl-pet/production/generated/117-otus-manadensis-v9-edit1.png",
+              "sha": "34683af4bed5bf6de966620407072e62fcced7bd",
+              "size": 2849031
             },
             "reviewed": {
-              "path": "owl-pet/production/reviewed/106-strix-albitarsis-v3-reviewed-master.png",
-              "sha": "c8678d3f9bd40e14bc0c17c6d4433664180ea7e2",
-              "size": 3196094
+              "path": "owl-pet/production/reviewed/117-otus-manadensis-v9-reviewed-master.png",
+              "sha": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
+              "size": 2801573
             },
             "juvenile_crop": {
-              "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-juvenile.png",
-              "sha": "88f008af146727ac018175006d153a10b31cd4ca",
-              "size": 717804
+              "path": "owl-pet/production/review-crops/117-otus-manadensis-v9-juvenile.png",
+              "sha": "44de91aa7ec63a6d85227819342f2c69eb3b6776",
+              "size": 621162
             },
             "feet_crop": {
-              "path": "owl-pet/production/review-crops/106-strix-albitarsis-v3-feet.png",
-              "sha": "32ee989e1039b00bbbbd682f6d330f03859530a1",
-              "size": 1002864
+              "path": "owl-pet/production/review-crops/117-otus-manadensis-v9-feet.png",
+              "sha": "1b1f2c0be204e5f359fd73aededf38bdeac8e75f",
+              "size": 273618
             }
           },
           "manifest_counts": {
-            "legacy": 607,
-            "design": 606,
-            "production": 597
+            "legacy": 608,
+            "design": 607,
+            "production": 598
           },
           "manifest_json_valid": true,
-          "tree_entries": 2270,
+          "tree_entries": 2278,
           "path_blob_readback": true,
           "binary_body_redownloaded": false,
-          "connector_response_truncated_bytes": 786445,
+          "connector_response_truncated_bytes": 49971,
+          "rejected_archive_commit": "95faf86d8ef66575de1e8c412e97925d6483b26a",
           "unique_species": "175/251",
           "scientifically_verified": false,
-          "next_cycle": 4
+          "next_cycle": 5
         }
       }
     }
@@ -9527,7 +9544,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T13:47:00+08:00",
+  "updated_at": "2026-10-31T13:52:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9536,15 +9553,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "owl-pet-production",
-    "run_id": "20261031T133747+0800-cycle-4",
-    "batch_id": "2026-10-31T1130+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-31T13:47:00+08:00",
-    "expires_at": "2026-10-31T14:02:00+08:00"
-  },
-  "last_updated_at": "2026-10-31T13:47:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-31T13:52:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -10013,19 +10023,7 @@
       "baseline_main": "9fd8b3c7f0070082fcb499ec6a20957d6b4985e0"
     }
   ],
-  "in_progress": {
-    "batch_id": "2026-10-31T1130+0800",
-    "cycle": 4,
-    "species": "Otus manadensis",
-    "species_id": 117,
-    "version": 9,
-    "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-    "run_id": "20261031T133747+0800-cycle-4",
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261031T133747+0800-cycle-4.md",
-    "started_at": "2026-10-31T13:37:47+08:00",
-    "updated_at": "2026-10-31T13:47:00+08:00"
-  },
+  "in_progress": null,
   "last_checkpoint": {
     "batch_id": "2026-10-31T1130+0800",
     "cycle": 4,
@@ -10034,25 +10032,57 @@
     "version": 9,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T133747+0800-cycle-4",
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "run_record": "owl-pet/production/runs/20261031T133747+0800-cycle-4.md",
-    "started_at": "2026-10-31T13:37:47+08:00",
-    "updated_at": "2026-10-31T13:47:00+08:00",
-    "at": "2026-10-31T13:47:00+08:00",
+    "at": "2026-10-31T13:52:00+08:00",
     "evidence": {
+      "fixed_archive_commit": "f1acc3773f93e634ddfe472a2ede24e87ffdaedb",
+      "assets": {
+        "concept": {
+          "path": "owl-pet/design/concepts/117-otus-manadensis-v9.png",
+          "sha": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
+          "size": 2801573
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/117-otus-manadensis-v9-generated-master.png",
+          "sha": "7bc2bf4604df64273c92aea90c45dba3d909bd0f",
+          "size": 2944396
+        },
+        "intermediate_edit": {
+          "path": "owl-pet/production/generated/117-otus-manadensis-v9-edit1.png",
+          "sha": "34683af4bed5bf6de966620407072e62fcced7bd",
+          "size": 2849031
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/117-otus-manadensis-v9-reviewed-master.png",
+          "sha": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
+          "size": 2801573
+        },
+        "juvenile_crop": {
+          "path": "owl-pet/production/review-crops/117-otus-manadensis-v9-juvenile.png",
+          "sha": "44de91aa7ec63a6d85227819342f2c69eb3b6776",
+          "size": 621162
+        },
+        "feet_crop": {
+          "path": "owl-pet/production/review-crops/117-otus-manadensis-v9-feet.png",
+          "sha": "1b1f2c0be204e5f359fd73aededf38bdeac8e75f",
+          "size": 273618
+        }
+      },
       "manifest_counts": {
         "legacy": 608,
         "design": 607,
         "production": 598
       },
+      "manifest_json_valid": true,
+      "tree_entries": 2278,
+      "path_blob_readback": true,
+      "binary_body_redownloaded": false,
+      "connector_response_truncated_bytes": 49971,
+      "rejected_archive_commit": "95faf86d8ef66575de1e8c412e97925d6483b26a",
       "unique_species": "175/251",
-      "readback_pending": true,
-      "science": false,
-      "concept_blob": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
-      "generated_blob": "7bc2bf4604df64273c92aea90c45dba3d909bd0f",
-      "reviewed_blob": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
-      "juvenile_crop_blob": "44de91aa7ec63a6d85227819342f2c69eb3b6776",
-      "feet_crop_blob": "1b1f2c0be204e5f359fd73aededf38bdeac8e75f"
+      "scientifically_verified": false,
+      "next_cycle": 5
     }
   },
   "history": [
@@ -10415,7 +10445,76 @@
       "unique_species": "175/251",
       "readback_pending": true,
       "science": false
+    },
+    {
+      "at": "2026-10-31T13:49:00+08:00",
+      "event": "ARCHIVE_READBACK_REJECTED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 4,
+      "run_id": "20261031T133747+0800-cycle-4",
+      "species_id": 117,
+      "version": 9,
+      "commit": "95faf86d8ef66575de1e8c412e97925d6483b26a",
+      "concept_blob": "8ba8b6c3de11dc9cd8cac6d02ea8f912bdbb8e4e",
+      "observed_size": 49152,
+      "expected_size": 2801573,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T13:52:00+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 4,
+      "run_id": "20261031T133747+0800-cycle-4",
+      "species_id": 117,
+      "version": 9,
+      "fixed_archive_commit": "f1acc3773f93e634ddfe472a2ede24e87ffdaedb",
+      "assets": {
+        "concept": {
+          "path": "owl-pet/design/concepts/117-otus-manadensis-v9.png",
+          "sha": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
+          "size": 2801573
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/117-otus-manadensis-v9-generated-master.png",
+          "sha": "7bc2bf4604df64273c92aea90c45dba3d909bd0f",
+          "size": 2944396
+        },
+        "intermediate_edit": {
+          "path": "owl-pet/production/generated/117-otus-manadensis-v9-edit1.png",
+          "sha": "34683af4bed5bf6de966620407072e62fcced7bd",
+          "size": 2849031
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/117-otus-manadensis-v9-reviewed-master.png",
+          "sha": "c9de3bf522a89210ec8451bcb03cdc24a01ac362",
+          "size": 2801573
+        },
+        "juvenile_crop": {
+          "path": "owl-pet/production/review-crops/117-otus-manadensis-v9-juvenile.png",
+          "sha": "44de91aa7ec63a6d85227819342f2c69eb3b6776",
+          "size": 621162
+        },
+        "feet_crop": {
+          "path": "owl-pet/production/review-crops/117-otus-manadensis-v9-feet.png",
+          "sha": "1b1f2c0be204e5f359fd73aededf38bdeac8e75f",
+          "size": 273618
+        }
+      },
+      "manifest_counts": {
+        "legacy": 608,
+        "design": 607,
+        "production": 598
+      },
+      "tree_entries": 2278,
+      "path_blob_readback": true,
+      "binary_body_redownloaded": false,
+      "connector_response_truncated_bytes": 49971,
+      "unique_species": "175/251",
+      "science": false,
+      "next_cycle": 5,
+      "lease_released": true
     }
   ],
-  "last_updated": "2026-10-31T13:47:00+08:00"
+  "last_updated": "2026-10-31T13:52:00+08:00"
 }

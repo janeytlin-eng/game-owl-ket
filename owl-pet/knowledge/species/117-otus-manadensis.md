@@ -44,10 +44,12 @@ Sources new2/reused3/corrected0: `SLSO-FWS-TAXONOMY-2026`, `SLSO-AVIBASE-2026`; 
 Fresh evidence-bounded rebuild reuses current institutional sources without extrapolating exact age. Actual 1536×1024 plate viewed: exactly three labelled birds; adults near-equal with yellow eyes, ear tufts and irregular brown markings; center older juvenile has source-supported heavier crown/back barring, irregular diffuse ventral mottling, compact formed wings and natural two-foot support. Exact age, feather sequence, flight ability, sex ratio and literal feather map remain unknown; scientifically_verified=false. SHA-256 b3cece60198f669dcc2cf4ed279bffa323382b3b750c8c3825462a0b37b23386. [Original](../../design/concepts/117-otus-manadensis-v8.png) · [Run](../../production/runs/2026-10-25T0431+0800-cycle-1.md)
 
 
-## ARCHIVED 2026-10-31 — 117-otus-manadensis-v9
+## VERIFIED 2026-10-31 — 117-otus-manadensis-v9
 
 Archive repair and science revision. Current-main v8 is only 786,446 bytes, fails the image viewer and conflicts with its immutable run metadata; it remains preserved but was not used as an image source. Intact v7 was opened and used for a non-destructive v9 imagegen recovery. Marshall 1978 p.13 supplies specimen-bounded adult/tarsal/underpart evidence and Clements 2022 corrects the current monotypic taxon boundary; the Masarang immature photo, eBird and prior Mikkola p.194 transcription were reused.
 
 The first render still had a long layered juvenile wing plus repeated pale covert/ventral outlines. Edit 1 shortened the wing but retained dense U/teardrop geometry and failed crop review. Edit 2 repainted the juvenile neck/body/wing as diffuse matte gray-brown mottling and a compact tucked wing. Final full master, 520×720 juvenile crop and 520×300 support crop were opened: three birds, adults, text and branch were retained; juvenile heavier crown/back barring, compact wing above branch and two-foot grip pass. Residual low-contrast feather edges remain. Exact age, flight ability, continuous sequence, literal feather map, sex and fixed dimorphism remain unknown; `scientifically_verified=false`.
 
 New2/reused3/corrected1. Concept/reviewed SHA-256 `08bc219671c9ee16f5fa4612dd53f1c8c6bf78c718b28e688ff1380b3d859d96`, 2,801,573 bytes; Git blob `c9de3bf522a89210ec8451bcb03cdc24a01ac362`. [Concept](../../design/concepts/117-otus-manadensis-v9.png) · [Research](../../research/species/117-otus-manadensis-v9.md) · [Run](../../production/runs/20261031T133747+0800-cycle-4.md)
+
+Fixed archive `f1acc3773f93e634ddfe472a2ede24e87ffdaedb` passed exact path/blob/size checks after rejecting truncated first archive `95faf86d8ef66575de1e8c412e97925d6483b26a`. Science remains false.

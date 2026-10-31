@@ -55,3 +55,7 @@ Research-ready conclusion: new2 / reused3 / corrected1; generation pending; scie
 - Result: `PASS_WITH_LIMITATIONS`, two edits. Residual low-contrast feather edges and all chronology/dimorphism unknowns remain; science false.
 - Final concept/reviewed master: `design/concepts/117-otus-manadensis-v9.png`, 1536×1024 sRGB, 2,801,573 bytes, SHA-256 `08bc219671c9ee16f5fa4612dd53f1c8c6bf78c718b28e688ff1380b3d859d96`, Git blob `c9de3bf522a89210ec8451bcb03cdc24a01ac362`.
 - Crops: juvenile SHA-256 `cfb038072ee5854824a52157321a3adf8693932ccd76337efc97ceb5288a7a89`; feet/support SHA-256 `9a6baa200650ab9c41f06bd4afd18a51128d8c6aa04278d74b9770805fdb06c4`.
+
+## Archive verification
+
+Fixed archive `f1acc3773f93e634ddfe472a2ede24e87ffdaedb` passed commit-tree path/blob/size readback for the full concept, generated master, rejected edit, reviewed master and both crops. The earlier archive `95faf86d8ef66575de1e8c412e97925d6483b26a` was rejected after its concept blob measured only 49,152 bytes and is not credited. This archive correction changes no scientific conclusion: exact juvenile chronology, flight ability, sex and fixed dimorphism remain unknown.

@@ -10207,14 +10207,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T22:54:00+08:00",
-        "expires_at": "2026-10-31T23:09:00+08:00"
+        "heartbeat_at": "2026-10-31T22:58:00+08:00",
+        "expires_at": "2026-10-31T23:13:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T22:54:00+08:00",
-        "expires_at": "2026-10-31T23:09:00+08:00"
+        "heartbeat_at": "2026-10-31T22:58:00+08:00",
+        "expires_at": "2026-10-31T23:13:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -10225,7 +10225,7 @@
         "unique_species_increment": 0,
         "run_id": "20261031T225200+0800-cycle-5",
         "run_record": "owl-pet/production/runs/20261031T225200+0800-cycle-5.md",
-        "stage": "RESEARCH_READY"
+        "stage": "IMAGE_GENERATED"
       },
       "last_checkpoint": {
         "batch_id": "20261031T2128+0800",
@@ -10285,8 +10285,8 @@
           "batch_complete": false
         }
       },
-      "last_stage": "RESEARCH_READY",
-      "updated_at": "2026-10-31T22:54:00+08:00",
+      "last_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-10-31T22:58:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10504,6 +10504,28 @@
             "full_prompt_saved": true,
             "juvenile_boundary": "older immature; exact age, flight ability, iris sequence and complete feather chronology unknown",
             "lease_expires_at": "2026-10-31T23:09:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261031T225200+0800-cycle-5",
+          "species": "Ninox spilocephala",
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-10-31T22:58:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "generated_master": "owl-pet/production/generated/144-ninox-spilocephala-v5-generated-master.png",
+            "generated_size": 2488806,
+            "generated_sha256": "749014335c80f83e51bd9522aabf601492eec847295bf4a089eaeecd99f054c5",
+            "edited_master": "owl-pet/production/generated/144-ninox-spilocephala-v5-edit1.png",
+            "edited_size": 2458731,
+            "edited_sha256": "ab196396c1421e2e6cf8871ae841f2b8c03a4900c948e9c31e500e959ba67f76",
+            "png": "1536x1024 RGB",
+            "generation_elapsed_seconds": 48.5,
+            "edit_elapsed_seconds": 70.8,
+            "generation_count": 1,
+            "edit_count": 1,
+            "lease_expires_at": "2026-10-31T23:13:00+08:00"
           }
         }
       ]

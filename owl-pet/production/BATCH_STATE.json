@@ -9696,98 +9696,24 @@
           "commit_sha": "b438d55e81071b49c1a94c6b96d5765f9c9f98f7",
           "run_record": "owl-pet/production/runs/20261031T194424+0800-cycle-2.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "species": "Otus silvicola",
+          "species_id": 135,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a75895f31a905e090fcae400e2c91bb299bef4cb",
+          "run_record": "owl-pet/production/runs/20261031T195051+0800-cycle-3.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T195051+0800-cycle-3",
-        "batch_id": "20261031T1937+0800",
-        "cycle": 3,
-        "species_id": 135,
-        "heartbeat_at": "2026-10-31T19:57:29.250+08:00",
-        "expires_at": "2026-10-31T20:12:29.250+08:00"
-      },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T195051+0800-cycle-3",
-        "batch_id": "20261031T1937+0800",
-        "cycle": 3,
-        "species_id": 135,
-        "heartbeat_at": "2026-10-31T19:57:29.250+08:00",
-        "expires_at": "2026-10-31T20:12:29.250+08:00"
-      },
-      "in_progress": {
-        "batch_id": "20261031T1937+0800",
-        "cycle": 3,
-        "run_id": "20261031T195051+0800-cycle-3",
-        "species": "Otus silvicola",
-        "species_id": 135,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T195051+0800-cycle-3.md",
-        "at": "2026-10-31T19:57:29.250+08:00"
-      },
+      "next_cycle": 4,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
       "previous_checkpoint": {
-        "batch_id": "20261031T1937+0800",
-        "cycle": 1,
-        "species": "Megascops atricapilla",
-        "species_id": 133,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T193701+0800-cycle-1",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T193701+0800-cycle-1.md",
-        "at": "2026-10-31T19:43:20+08:00",
-        "evidence": {
-          "fixed_archive_commit": "572d5999bc1569f6eb315467fe7440116b800bb5",
-          "rejected_archive_commit": "791563f9ba0300e82b0ddedd7ca1561264684cf9",
-          "tree_sha": "29d4d44eefdcde2086928cff4d5add759e39bbf3",
-          "tree_count": 2407,
-          "tree_truncated": false,
-          "assets": {
-            "owl-pet/design/concepts/133-megascops-atricapilla-v3.png": {
-              "sha": "09fa9ad197eaf4ecf6534717e78b3f623083ae93",
-              "size": 2826875
-            },
-            "owl-pet/production/generated/133-megascops-atricapilla-v3-generated-master.png": {
-              "sha": "793cdd4e7ba34f35450a9009905d00045ee68552",
-              "size": 2984999
-            },
-            "owl-pet/production/generated/133-megascops-atricapilla-v3-edit1.png": {
-              "sha": "09fa9ad197eaf4ecf6534717e78b3f623083ae93",
-              "size": 2826875
-            },
-            "owl-pet/production/reviewed/133-megascops-atricapilla-v3-reviewed-master.png": {
-              "sha": "09fa9ad197eaf4ecf6534717e78b3f623083ae93",
-              "size": 2826875
-            },
-            "owl-pet/production/review-crops/133-megascops-atricapilla-v3-juvenile.png": {
-              "sha": "6d8f6bc5ecb03850124721326f9398a86379b6ee",
-              "size": 570324
-            },
-            "owl-pet/production/review-crops/133-megascops-atricapilla-v3-feet.png": {
-              "sha": "3896281899df6b19cb210f5cf5620fb1e0171432",
-              "size": 697531
-            }
-          },
-          "manifest_counts": {
-            "legacy": 617,
-            "design": 616,
-            "production": 607
-          },
-          "manifest_json_valid": true,
-          "path_blob_readback": true,
-          "png_full_decode": true,
-          "sha256_verified": true,
-          "unique_species": "175/251",
-          "scientifically_verified": false,
-          "next_cycle": 2,
-          "batch_complete": false
-        }
-      },
-      "last_checkpoint": {
         "batch_id": "20261031T1937+0800",
         "cycle": 2,
         "species": "Megascops sanctaecatarinae",
@@ -9844,19 +9770,76 @@
           "batch_complete": false
         }
       },
-      "last_stage": "ARCHIVED",
-      "updated_at": "2026-10-31T19:57:29.250+08:00"
+      "last_checkpoint": {
+        "batch_id": "20261031T1937+0800",
+        "cycle": 3,
+        "species": "Otus silvicola",
+        "species_id": 135,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T195051+0800-cycle-3",
+        "stage": "VERIFIED",
+        "run_record": "owl-pet/production/runs/20261031T195051+0800-cycle-3.md",
+        "at": "2026-10-31T19:58:16.007+08:00",
+        "evidence": {
+          "fixed_archive_commit": "a75895f31a905e090fcae400e2c91bb299bef4cb",
+          "status": "VERIFIED",
+          "method": "immutable archive commit tree plus exact path/blob/byte readback; local full PNG decode; complete connector manifest JSON parsing; main branch head readback",
+          "tree_sha": "4ab648bdcb56abd43a35e73211b6bcf0ca8edab0",
+          "tree_count": 2423,
+          "tree_truncated": false,
+          "assets": {
+            "concept": {
+              "path": "owl-pet/design/concepts/135-otus-silvicola-v3.png",
+              "sha": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+              "size": 2890642
+            },
+            "generated": {
+              "path": "owl-pet/production/generated/135-otus-silvicola-v3-generated-master.png",
+              "sha": "54274996ad8244212c575f262ee0bf95cf25aed9",
+              "size": 3053536
+            },
+            "edit": {
+              "path": "owl-pet/production/generated/135-otus-silvicola-v3-edit1.png",
+              "sha": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+              "size": 2890642
+            },
+            "reviewed": {
+              "path": "owl-pet/production/reviewed/135-otus-silvicola-v3-reviewed-master.png",
+              "sha": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+              "size": 2890642
+            },
+            "juvenile_crop": {
+              "path": "owl-pet/production/review-crops/135-otus-silvicola-v3-juvenile.png",
+              "sha": "2ea213ff9bb5e60762cdecdf0ef6c554a89aa30d",
+              "size": 737267
+            },
+            "adult_size_feet_crop": {
+              "path": "owl-pet/production/review-crops/135-otus-silvicola-v3-adult-size-feet.png",
+              "sha": "642f627b638e023af7c3dbbf7a659acf252d9cda",
+              "size": 1447387
+            }
+          },
+          "manifest_counts": {
+            "legacy": 619,
+            "design": 618,
+            "production": 609
+          },
+          "manifest_json_valid": true,
+          "path_blob_readback": true,
+          "png_full_decode": true,
+          "sha256_verified": true,
+          "unique_species": "175/251",
+          "scientifically_verified": false,
+          "next_cycle": 4,
+          "batch_complete": false
+        }
+      },
+      "last_stage": "VERIFIED",
+      "updated_at": "2026-10-31T19:58:16.007+08:00"
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T195051+0800-cycle-3",
-    "batch_id": "20261031T1937+0800",
-    "cycle": 3,
-    "species_id": 135,
-    "heartbeat_at": "2026-10-31T19:57:29.250+08:00",
-    "expires_at": "2026-10-31T20:12:29.250+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -9988,7 +9971,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T19:57:29.250+08:00",
+  "updated_at": "2026-10-31T19:58:16.007+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9997,16 +9980,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T195051+0800-cycle-3",
-    "batch_id": "20261031T1937+0800",
-    "cycle": 3,
-    "species_id": 135,
-    "heartbeat_at": "2026-10-31T19:57:29.250+08:00",
-    "expires_at": "2026-10-31T20:12:29.250+08:00"
-  },
-  "last_updated_at": "2026-10-31T19:57:29.250+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-31T19:58:16.007+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -10765,18 +10740,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "batch_id": "20261031T1937+0800",
-    "cycle": 3,
-    "run_id": "20261031T195051+0800-cycle-3",
-    "species": "Otus silvicola",
-    "species_id": 135,
-    "version": 3,
-    "action": "SCIENCE_REVISION",
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261031T195051+0800-cycle-3.md",
-    "at": "2026-10-31T19:57:29.250+08:00"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261031T1937+0800",
     "cycle": 1,
@@ -12142,7 +12106,7 @@
       "credited": false
     }
   ],
-  "last_updated": "2026-10-31T19:57:29.250+08:00",
+  "last_updated": "2026-10-31T19:58:16.007+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -12295,6 +12259,26 @@
           "production": 609
         },
         "readback_pending": true
+      }
+    },
+    {
+      "batch_id": "20261031T1937+0800",
+      "cycle": 3,
+      "run_id": "20261031T195051+0800-cycle-3",
+      "species_id": 135,
+      "stage": "VERIFIED",
+      "at": "2026-10-31T19:58:16.007+08:00",
+      "credited": true,
+      "evidence": {
+        "fixed_archive_commit": "a75895f31a905e090fcae400e2c91bb299bef4cb",
+        "tree_sha": "4ab648bdcb56abd43a35e73211b6bcf0ca8edab0",
+        "tree_count": 2423,
+        "manifest_counts": {
+          "legacy": 619,
+          "design": 618,
+          "production": 609
+        },
+        "next_cycle": 4
       }
     }
   ]

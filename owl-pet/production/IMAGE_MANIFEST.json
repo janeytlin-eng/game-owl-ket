@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T19:57:29.250+08:00",
+  "updated": "2026-10-31T19:58:16.007+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15354,10 +15354,63 @@
       "auxiliary_review_crop_blob": "642f627b638e023af7c3dbbf7a659acf252d9cda",
       "auxiliary_review_crop_sha256": "7b79f289fb07e51207e0dbfd524239b9c6235e4ed4cfafb38ca96a982a0b98c5",
       "auxiliary_review_crop_size_bytes": 1447387,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "970af3ee271a28246fd27303df5ffbaad4d517d2"
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+      "fixed_archive_commit": "a75895f31a905e090fcae400e2c91bb299bef4cb",
+      "verified_at": "2026-10-31T19:58:16.007+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "a75895f31a905e090fcae400e2c91bb299bef4cb",
+        "method": "immutable archive commit tree plus exact path/blob/byte readback; local full PNG decode; complete connector manifest JSON parsing; main branch head readback",
+        "tree_sha": "4ab648bdcb56abd43a35e73211b6bcf0ca8edab0",
+        "tree_count": 2423,
+        "tree_truncated": false,
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/135-otus-silvicola-v3.png",
+            "sha": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+            "size": 2890642
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/135-otus-silvicola-v3-generated-master.png",
+            "sha": "54274996ad8244212c575f262ee0bf95cf25aed9",
+            "size": 3053536
+          },
+          "edit": {
+            "path": "owl-pet/production/generated/135-otus-silvicola-v3-edit1.png",
+            "sha": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+            "size": 2890642
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/135-otus-silvicola-v3-reviewed-master.png",
+            "sha": "970af3ee271a28246fd27303df5ffbaad4d517d2",
+            "size": 2890642
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/135-otus-silvicola-v3-juvenile.png",
+            "sha": "2ea213ff9bb5e60762cdecdf0ef6c554a89aa30d",
+            "size": 737267
+          },
+          "adult_size_feet_crop": {
+            "path": "owl-pet/production/review-crops/135-otus-silvicola-v3-adult-size-feet.png",
+            "sha": "642f627b638e023af7c3dbbf7a659acf252d9cda",
+            "size": 1447387
+          }
+        },
+        "manifest_counts": {
+          "legacy": 619,
+          "design": 618,
+          "production": 609
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "175/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T19:57:29.250+08:00"
+  "updated_at": "2026-10-31T19:58:16.007+08:00"
 }

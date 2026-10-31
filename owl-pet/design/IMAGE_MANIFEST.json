@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T21:44:00+08:00",
+  "updated": "2026-10-31T21:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -16462,7 +16462,62 @@
           "production": 614
         }
       }
+    },
+    {
+      "id": "141-otus-magicus-v3",
+      "path": "design/concepts/141-otus-magicus-v3.png",
+      "species_id": 141,
+      "scientific_name": "Otus magicus",
+      "historical_names": [
+        "Scops leucospilus"
+      ],
+      "common_name": "Moluccan Scops Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v3 北摩鹿加 leucospilus 科学校准图；1次生成、1次幼鸟翼部编辑。雌雄近等体型；灰褐浅色型、黄眼、灰黑嘴、远端跗跖裸露。不明龄较老幼鸟蓬松、头颈细横斑、体斑较淡，短软翼并有自然支撑。PASS_WITH_LIMITATIONS；精确日龄/虹膜/飞行/巢位/性别体型未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "MAG-SANGSTER-2013",
+        "MAG-MIK2013-189",
+        "MAG-KEULEMANS-SHARPE1875",
+        "MAG-OWLPAGES-2020",
+        "MAG-CLEMENTS2013",
+        "MAG-AVIBASE-BHL-1841"
+      ],
+      "research_record": "research/species/141-otus-magicus-v3.md",
+      "run_record": "production/runs/20261031T214500+0800-cycle-3.md",
+      "reviewed_at": "2026-10-31T21:53:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "7fcf39baf78443a8cef7d9ece458e143def27050e4ae51ab5dcdbf5d7df17aa1",
+      "size_bytes": 2729599,
+      "generated_path": "production/generated/141-otus-magicus-v3-generated-master.png",
+      "generated_blob": "a56973b7ecd659392c8e9bc16960841eccfd8fd4",
+      "generated_sha256": "3684acb0984d2cbd8aa2ed0510cc46454958686e11e9d02757f6aacc679d117c",
+      "generated_size_bytes": 2833098,
+      "intermediate_edit_path": "production/generated/141-otus-magicus-v3-edit1.png",
+      "intermediate_edit_blob": "babaf37e185b57a5d5fe48c1fc090daffff9aba2",
+      "reviewed_path": "production/reviewed/141-otus-magicus-v3-reviewed-master.png",
+      "reviewed_blob": "babaf37e185b57a5d5fe48c1fc090daffff9aba2",
+      "reviewed_sha256": "7fcf39baf78443a8cef7d9ece458e143def27050e4ae51ab5dcdbf5d7df17aa1",
+      "reviewed_size_bytes": 2729599,
+      "review_crop_path": "production/review-crops/141-otus-magicus-v3-older-juvenile.png",
+      "review_crop_blob": "6a9a6f7c181b885bceb35ae3b3b14fc3dce3aed0",
+      "review_crop_sha256": "71eb5c6562b02e2d34c00977c0a0bb0878c03a6b74ee88f4a99e5deffa394530",
+      "review_crop_size_bytes": 610405,
+      "auxiliary_review_crop_path": "production/review-crops/141-otus-magicus-v3-adult-size-feet.png",
+      "auxiliary_review_crop_blob": "36a718f9d54b1265ea943ecde5b988bece5618c6",
+      "auxiliary_review_crop_sha256": "00cb7fff2f215d69f58cdf1c890b272e0dd726782a5ac30d6e11e5726f3be179",
+      "auxiliary_review_crop_size_bytes": 1167301,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "babaf37e185b57a5d5fe48c1fc090daffff9aba2",
+      "fixed_archive_commit": null,
+      "verified_at": null
     }
   ],
-  "updated_at": "2026-10-31T21:44:00+08:00"
+  "updated_at": "2026-10-31T21:54:00+08:00"
 }

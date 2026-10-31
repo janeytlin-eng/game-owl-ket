@@ -28,3 +28,8 @@ Pendinggeneration; no uniqueincrement untilverified.
 - Image: `owl-pet/design/concepts/141-otus-magicus-v2.png`.
 - Archive commit: `5d95ccb504c05b719267d973e6239f999658b047`; immutable Git blob: `4e1365939c4d96b85a052c8e66f4eb6ce40e24ef`; 1536×1024; 722,727 bytes; SHA-256 `29a4228d516644c3de39050a8a2bae28b98be630728e886de8d7d82e274cd35f`.
 - Review: one targeted edit removed the juvenile's long hard adult-like wing, placed the unknown iris colour in soft shadow, and extended adult tarsal feathering. Exact age/iris/flight/bill colour, quantified dimorphism, nest form and feather sequence remain unknown; science false.
+
+
+## v3 ARCHIVED PENDING — 2026-10-31T21:54:00+08:00
+
+Northern-Moluccan leucospilus reference. Juvenile hard-wing error edited to short soft wing; full/crops viewed. New source MAG-SANGSTER-2013; Mikkola printed pp.189–190/PDF pp.191–192 re-read. Science=false; immutable readback pending.

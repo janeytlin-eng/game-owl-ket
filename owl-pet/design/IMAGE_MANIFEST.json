@@ -17775,7 +17775,69 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "176-otus-pembaensis-v2",
+      "path": "design/concepts/176-otus-pembaensis-v2.png",
+      "species_id": 176,
+      "scientific_name": "Otus pembaensis",
+      "historical_names": [
+        "Otus rutilus pembaensis"
+      ],
+      "common_name": "Pemba Scops Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 full-resolution evidence correction. Melo et al. adult museum measurements support compact proportions but are not sex-specific; adults therefore remain near-equal, with only a subtle male folded-wing length retained from Mikkola. The centre bird is an age/flight-unknown mesoptile, dark-irised/indeterminate and fully supported. Initial output carried a long hard regularly spotted adult-like juvenile wing; edit1 shortened and softened it into the down and shortened the tail. Dense mid-canopy forest is habitat context, not a nest claim. Full plate and two original-detail crops passed. PASS_WITH_LIMITATIONS; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "PESO-MELO-ETAL-2022-P7-S47",
+        "PESO-VIRANI-2005-P12",
+        "PESO-NAHONYO-ETAL-2005-P54-55",
+        "PESO-ITIS-686653-2026",
+        "PESO-IUCN-2025",
+        "PESO-MIKKOLA-2013-P135"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/176-otus-pembaensis-v2.md",
+      "run_record": "production/runs/20261101T034300+0800-cycle-4.md",
+      "reviewed_at": "2026-11-01T04:32:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "851d95913e7a0bd03924a372b88570e1d9efc255a398994b03d8949f4c66ba0f",
+      "size_bytes": 2964942,
+      "initial_generated_path": "production/generated/176-otus-pembaensis-v2-generated-master.png",
+      "initial_generated_blob": "c75840a36ccc391e76ad73c6d309dabfb0ab8a63",
+      "initial_generated_sha256": "088edb7e6e3573993dde8cfdc8ffadb66a5453dda91a0fd741161481d8f52e3e",
+      "initial_generated_size_bytes": 3066205,
+      "generated_path": "production/generated/176-otus-pembaensis-v2-edit1.png",
+      "generated_blob": "5ce10cefd72d529ccc8a708b7d9376c43302c80b",
+      "generated_sha256": "851d95913e7a0bd03924a372b88570e1d9efc255a398994b03d8949f4c66ba0f",
+      "generated_size_bytes": 2964942,
+      "reviewed_path": "production/reviewed/176-otus-pembaensis-v2-reviewed-master.png",
+      "reviewed_blob": "5ce10cefd72d529ccc8a708b7d9376c43302c80b",
+      "reviewed_sha256": "851d95913e7a0bd03924a372b88570e1d9efc255a398994b03d8949f4c66ba0f",
+      "reviewed_size_bytes": 2964942,
+      "review_crop_path": "production/review-crops/176-otus-pembaensis-v2-mesoptile.png",
+      "review_crop_blob": "1cb625f7bb682617cc5e5708212646e05cda944f",
+      "review_crop_sha256": "1e3986d71af984fc86a73f2f232ed808dd8db3ef06768985e6c1ab7ab7e8f059",
+      "review_crop_size_bytes": 706204,
+      "auxiliary_review_crop_path": "production/review-crops/176-otus-pembaensis-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "6562852e16d826efb4c485d4b1d5a2786c6f77e5",
+      "auxiliary_review_crop_sha256": "252f89365f076044378b82cf8bc6a36dbd8cb3f3437dc962bd08965a5fc5db7b",
+      "auxiliary_review_crop_size_bytes": 1809759,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "5ce10cefd72d529ccc8a708b7d9376c43302c80b",
+      "v1_integrity": {
+        "git_blob": "d234423aca0c5732681b8d6c0e71a9fccd3d69be",
+        "size_bytes": 670554,
+        "sha256": "a90533605c13b9621d1293d3bb65e7f894a6de8ee29b7a89d12e37b3e5da48c2",
+        "archive_commit": "b5b5e306b86e62ae9702d2d1210ad57ea952bf66"
+      }
     }
   ],
-  "updated_at": "2026-11-01T03:42:00+08:00"
+  "updated_at": "2026-11-01T04:34:00+08:00"
 }

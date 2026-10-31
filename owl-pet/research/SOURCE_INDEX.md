@@ -1504,3 +1504,31 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Use / limits:** real-adult comparator for compact facial disc, dark warm-brown identity and modest pale markings; not a sexed pair, development series or exact scale reference.
 
 **Mapping / delta — #139 v3:** current *Otus jolandae* / former broad treatment *Otus magicus* or *O. magicus albiventris* → SLSO-SANGSTER-2013 adult/retained-juvenile-feather boundary, RIN-MIKKOLA-2013-P188 adult guide and explicit juvenile gap, RIN-PLOS-FIG1-2008 adult field comparator. New1 / reused2 / corrected1. Exact juvenile age, iris, flight ability, nest details, continuous feather chronology and visible sex-size direction remain unknown; scientific verification remains false. [Species research](species/139-otus-jolandae-v3.md) · [Run](../production/runs/20261031T212811+0800-cycle-1.md).
+
+
+## 2026-10-31 — #140 *Otus rufescens* v3 evidence refresh
+
+### RFS-WARAKAGODA-RASMUSSEN-2004
+- **Title / authors / year / type:** primary museum/specimen note on a mesoptile *Otus rufescens* specimen; Deepal Warakagoda & Pamela Rasmussen; 2004.
+- **Record actually reused:** prior project transcription of p.102, National Museum specimen context; source facts rechecked against the existing #140 knowledge record on 2026-10-31.
+- **Species / stage:** *O. rufescens* age-unknown mesoptile.
+- **Facts / limits:** nearly uniform rufescent-brown young with weak rim and vague hindcrown barring; no exact age, iris, flight threshold, sex or complete wing/tail sequence. Supports reduced spotting and soft texture only, not a precise fledging calendar.
+
+### RFS-MIKKOLA-2013-P178
+- **Title / author / year / type:** *Owls of the World: A Photographic Guide*, 2nd ed.; Heimo Mikkola; 2013; user-uploaded secondary guide.
+- **Access / page:** Library `libfile_916e2244186c81918fe5a0716884b8c9`; directly read 2026-10-31, printed p.178 / PDF p.180 and adjacent p.179/PDF p.181.
+- **Facts:** 15–18 cm, 70–83 g; no sexual-size data. Light morph tawny reddish-brown with sparse black-bordered fulvous spots, cinnamon-buff disc, chestnut/amber-brown eyes, horn-white bill, buff feet feathered nearly to yellowish toe bases. Downy chick reddish-brown, darker crown/mantle and paler rump; mesoptile resembles adult but is far less speckled. Nominate occurs Sumatra/Java/Borneo; *malayensis* is more rufous above and yellowish below.
+- **Limits / design:** secondary synthesis, not a day-by-day developmental series. Choose an explicit downy-chick stage with full support and no mature remiges/tail; do not mix *malayensis* saturation into a nominate plate.
+
+### RFS-RAFFLES-CATALOGUE-2002
+- **Title / institution / year / type:** Raffles Museum / Lee Kong Chian Natural History Museum bird catalogue, Strigidae p.299; 2002; museum catalogue.
+- **URL / access:** https://lkcnhm.nus.edu.sg/app/uploads/2017/04/20brm005-299.pdf ; accessed 2026-10-31, page 299.
+- **Species / stage:** *Otus rufescens malayensis* adults, Malay Peninsula.
+- **Facts / limits:** records dense lowland/submontane jungle and very few adult specimens. It is subspecies/context evidence only, not nominate juvenile anatomy; no transfer of Malay Peninsula color direction to the nominate concept.
+
+### RFS-ITIS-2025
+- **Title / institution / type:** ITIS Standard Report for *Otus rufescens*; Integrated Taxonomic Information System; taxonomy aggregator with 2025 IOC and 2022 BirdLife references.
+- **URL / access:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=SCR&search_topic=TSN&search_value=555364&source=from_print ; accessed 2026-10-31.
+- **Facts / limits:** current species *Otus rufescens* (Horsfield, 1821), with recognized *rufescens* and *malayensis* children. Taxonomy/name mapping only; not morphology or development evidence.
+
+**Mapping / delta — #140 v3:** current *Otus rufescens*; plate represents nominate light morph, while *O. r. malayensis* is retained only as a mapped subspecies comparator. New-to-index 4 / reused project facts 3 / corrected cross-subspecies boundary 1. Exact chick day age, iris, flight ability, sex-size ratio, nest materials and full feather chronology remain unknown; science=false. [Species research](species/140-otus-rufescens-v3.md) · [Run](../production/runs/20261031T213600+0800-cycle-2.md).

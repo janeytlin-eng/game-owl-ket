@@ -11,3 +11,16 @@ Scientific verification: false. Adult sexual standing ratio unknown; near-equal 
 Actuallyviewed edited fullPNG: adultlowerbellies now visibly warmer brown/buff instead oflargeivorypatch, subtlepalergradient retained; juvenile palegraybrown/headtilt/formedwings and adultbrownirises/graybills/feathercuffs/baregraytoes/darkclaws/branchgrips preserved visually. Exactpalette/feathermap and occludedjuveniletail remainunknown; no scientificpass, oldapprovalnottransferred.
 ![image](../../design/concepts/138-otus-mentawi-v2.png)
 [Prompt/review](../../production/runs/2026-10-19T0431+0800-cycle-1.md)
+
+
+## 138-otus-mentawi-v3 2026-10-31
+
+Research-backed science revision preserving v1–v2. Adult gray bills were corrected to yellowish horn; both adults remain near-equal because no sex-size direction is documented. The age-unknown juvenile uses the 18–21 May 2017 field description: slightly smaller, pale greyish-brown and thin-streaked below, darker above, reddish-brown face/eyes, pale greyish-horn bill/toes, and formed folded wings projecting beyond a short dark tail. Full image and juvenile/adult-size-feet crops were viewed at original resolution. No edit was needed after review.
+
+Reusable rule actually applied and visually validated: when a primary juvenile source gives a wing-to-tail relation, prompt and crop-review that relation explicitly rather than hiding the tail or replacing the young with a generic miniature adult. This rule is validated here only for #138 v3, not generalized to all owls.
+
+Unknown: exact day age, independent flight ability, sex-specific standing ratio and complete feather chronology. Review result PASS_WITH_LIMITATIONS; scientific verification remains false.
+
+![v3](../../design/concepts/138-otus-mentawi-v3.png)
+
+[Research](../../research/species/138-otus-mentawi-v3.md) · [Run](../../production/runs/20261031T203540+0800-cycle-6.md)

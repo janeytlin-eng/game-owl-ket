@@ -31,3 +31,10 @@ Constraints: no extra birds, no cavity, no straw nest, no eggs, no prey, no wate
 ## Unknowns
 
 Exact juvenile age, feather sequence and flight threshold; population-wide sex ratios; universal nest choice; exact toe geometry. None may be marked scientifically passed.
+
+
+## Generation checkpoint
+
+- IMAGE_GENERATED 2026-10-31T10:42:00+08:00; built-in imagegen edit 71.1 s, edit count 1.
+- Persistent generated master: `owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png`; blob `e46a5d47ba8efb722805fc2a7143f99975c6f902`; full-frame preliminary check passed.
+- Review and any necessary targeted correction remain pending.

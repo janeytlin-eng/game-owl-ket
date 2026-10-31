@@ -42,3 +42,6 @@ Centre older immature: adult-like grey-morph pattern is allowed, but softer/fluf
 Habitat: western Madagascar dry deciduous forest with baobab-like trunks, thorny scrub and a restrained degraded village-edge cue in neutral warm daylight. No nest scene.
 
 Avoid long dramatic ear tufts, rufous morph, huge female, newborn chick, flight, ground nest, cavity, eggs, prey, unsupported feet, extra birds, extra text, decorative border or orange sunset grading.
+
+## Review and iteration
+Initial output repeated v1's overly tall ear-tuft defect. Edit1 shortened all three to low modest tufts. Full plate and older-immature/adult-pattern crops were viewed at original resolution; identity, stage, support, text and habitat passed. Root cause: generic scops-owl silhouette prior overrode the species-specific short-tuft constraint; future short-tuft taxa require a tuft-height gate at review. science=false.

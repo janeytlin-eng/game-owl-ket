@@ -17383,7 +17383,67 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "173-otus-madagascariensis-v2",
+      "path": "design/concepts/173-otus-madagascariensis-v2.png",
+      "species_id": 173,
+      "scientific_name": "Otus madagascariensis",
+      "historical_names": [
+        "Scops madagascariensis",
+        "Otus rutilus madagascariensis"
+      ],
+      "common_name": "Torotoroka Scops Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 full-resolution evidence/taxonomy refresh. Project follows IOC/ITIS species treatment while retaining the Fuchs et al. 2007 lumping evidence. Grey-morph adults have short modest ear tufts; female is moderately fuller only. The centre is an age-unknown older immature, not a chick, with softer contour, stronger-barred uppertail coverts and narrower pointed rectrix tips. Initial output repeated v1's over-tall tuft defect; edit1 shortened all three tufts and original-resolution full/crop review passed. Exceptional unhatched ground-nest record is not generalized. PASS_WITH_LIMITATIONS; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "TSO-RENE-THORSTROM-2009-P87-88",
+        "TSO-FUCHS-ETAL-2007-P408-418",
+        "TSO-ITIS-686657-2025",
+        "TSO-MIKKOLA-2013-P145"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-01--173-otus-madagascariensis-v2-evidence-refresh",
+      "research_record": "research/species/173-otus-madagascariensis-v2.md",
+      "run_record": "production/runs/20261101T040500+0800-cycle-1.md",
+      "reviewed_at": "2026-11-01T04:25:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "158b3e0b0013e85ec6177e7bdfb99e446f194add0bd76bdfcf3ab38c8d97958f",
+      "size_bytes": 3232951,
+      "initial_generated_path": "production/generated/173-otus-madagascariensis-v2-generated-master.png",
+      "initial_generated_blob": "7711404555ed2f261e5a2459372bb5fabbac905b",
+      "initial_generated_sha256": "30bca83cd3ab1d46eb0ed449a6623d78bfafb8fe2dd4a1eb2c680a8fc2a0b2fd",
+      "generated_path": "production/generated/173-otus-madagascariensis-v2-edit1.png",
+      "generated_blob": "afe4c91ef17ba4568495f8749bf5bff742fb77a1",
+      "generated_sha256": "158b3e0b0013e85ec6177e7bdfb99e446f194add0bd76bdfcf3ab38c8d97958f",
+      "generated_size_bytes": 3232951,
+      "reviewed_path": "production/reviewed/173-otus-madagascariensis-v2-reviewed-master.png",
+      "reviewed_blob": "afe4c91ef17ba4568495f8749bf5bff742fb77a1",
+      "reviewed_sha256": "158b3e0b0013e85ec6177e7bdfb99e446f194add0bd76bdfcf3ab38c8d97958f",
+      "reviewed_size_bytes": 3232951,
+      "review_crop_path": "production/review-crops/173-otus-madagascariensis-v2-older-immature.png",
+      "review_crop_blob": "e7eaaf679b3f2ec6585d01305f0e2453e8cf5e31",
+      "review_crop_sha256": "0dc6a91a44ce2efd3b9581797544c2e8b3158460f3b692a38f2b746506817da6",
+      "review_crop_size_bytes": 554276,
+      "auxiliary_review_crop_path": "production/review-crops/173-otus-madagascariensis-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "84e904a4bf0e078351e6ca4ccbdc64dfbcb5a4e7",
+      "auxiliary_review_crop_sha256": "c041e8086a8f0887c4c3b74b617ddba63ab0a779f88bde1823f01a454017eec9",
+      "auxiliary_review_crop_size_bytes": 1868984,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "afe4c91ef17ba4568495f8749bf5bff742fb77a1",
+      "v1_integrity": {
+        "git_blob": "3e8d8bde87b386d75acd7cd3fc8d85b3cb37abcc",
+        "size_bytes": 668345,
+        "sha256": "1c0c11c79805abcc9489602f6bc7c54d561c7e5b9729318abf19692838c4e289",
+        "archive_commit": "903d47aad7f74939bc49328f0b0bbdbd8d52028e"
+      }
     }
   ],
-  "updated_at": "2026-11-01T04:00:00+08:00"
+  "updated_at": "2026-11-01T04:30:00+08:00"
 }

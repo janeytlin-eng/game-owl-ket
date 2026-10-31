@@ -905,3 +905,38 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Actual content re-read: Bodrati & Cockle 2013, printed p.175 (18–27 November pale-gray-dominant barred juvenile, active walking); Muñoz-García et al. 2019, newsletter pp.16–18 (30 August low-branch replacement; 7 September short flights between branches).
 - Corrected repository inference: v3’s opened image still shows an adult-proportioned folded wing and exposed barred tail even though its status says shortened/rounded. V4 must visually apply the recorded evidence boundary; exact geometry remains unknown.
 - Links: `research/species/100-strix-huhula-v4.md`; `production/runs/20261031T101100+0800-cycle-3.md`.
+
+
+## 2026-10-31 — #101 *Otus spilocephalus hambroecki* v7 small-tuft correction
+
+### MOSO-MOA-BIRDGUIDE-2026
+- Stable ID: `MOSO-MOA-BIRDGUIDE-2026`
+- Title: 黃嘴角鴞 — 農業知識入口網鳥類圖鑑
+- Author / institution: Ministry of Agriculture, Taiwan; text excerpted from *The Avifauna of Taiwan*, 2nd ed.; photo credits listed on page
+- Year / date: page current at access; source edition date not stated on page
+- Original URL: https://kmweb.moa.gov.tw/theme_data.php?id=139&theme=bird_illustration
+- Accessed: 2026-10-31
+- Source type: official government bird-guide summary with field photographs
+- Species / stage: *Otus spilocephalus*, Taiwan race; adult morphology and habitat
+- Valuable fact: body length about 20 cm; yellow iris; pale-yellow bill; **small ear tufts**; rufous-brown flight feathers and inconspicuously barred tail; dense low- and mid-elevation broadleaf vegetation and concealed day roosts.
+- Page / section: HTML “形態特徵” and “棲地與習性”, lines 113–132 in the accessed rendering; no PDF pagination.
+- Evidence limitation / conflict / confidence: secondary institutional summary, not a development series. High confidence for the small-tuft boundary and habitat; no juvenile iris chronology or sex-size measurement.
+- Design decision: shorten v6's conspicuous adult feather horns in v7; retain yellow only as an adult-supported iris cue.
+- Links: `research/species/101-otus-spilocephalus-v7.md`; `production/runs/20261031T094630+0800-cycle-4.md`.
+
+### MOSO-TAIEOL-BIRDFAUNA-2013
+- Stable ID: `MOSO-TAIEOL-BIRDFAUNA-2013`
+- Title: *Otus spilocephalus hambroecki* (Swinhoe, 1870)
+- Authors / institution: Lin Wen-Hong and Liu Hsiao-Ju; Taiwan Encyclopedia of Life / Academia Sinica; data from *The Avifauna of Taiwan*
+- Year / date: last updated 2013-05-10
+- Original URL: https://taieol.tw/pages/75435
+- Accessed: 2026-10-31
+- Source type: institutional species account and photographs
+- Species / stage: *O. s. hambroecki* adult morphology / Taiwan subspecies taxonomy
+- Valuable fact: independently repeats small ear tufts, yellow adult iris, pale-yellow bill, feathered tarsi, bare yellow-brown toes, rufous-brown upperparts and nonuniform fine underpart vermiculations.
+- Page / section: “綜合描述”; no page number.
+- Evidence limitation / conflict / confidence: same underlying Taiwan avifauna lineage as the MOA page, so it is corroboration rather than an independent primary development study. No juvenile iris or quantified sex ratio.
+- Design decision: use only low modest adult tufts; do not extend this page to juvenile iris or exact dimorphism claims.
+- Links: `research/species/101-otus-spilocephalus-v7.md`; v6 remains historical.
+
+- Reused evidence: `MOSO-NTM-HAMBROECKI-2026`, `MOSO-MIKKOLA-2013-P148`, `MSO-FOREST2005`. New2/reused3/corrected1. The correction is to the actual v6 image boundary, not to taxonomy: v6's visibly long tufts conflict with the official small-tuft description, and its adult-bright juvenile iris exceeds the recorded unknown boundary. Science remains false.

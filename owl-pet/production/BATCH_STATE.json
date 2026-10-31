@@ -9551,16 +9551,16 @@
         "run_id": "20261031T183900+0800-cycle-6",
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 6,
-        "heartbeat_at": "2026-10-31T18:44:00+08:00",
-        "expires_at": "2026-10-31T18:59:00+08:00"
+        "heartbeat_at": "2026-10-31T18:43:26+08:00",
+        "expires_at": "2026-10-31T18:58:30+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T183900+0800-cycle-6",
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 6,
-        "heartbeat_at": "2026-10-31T18:44:00+08:00",
-        "expires_at": "2026-10-31T18:59:00+08:00"
+        "heartbeat_at": "2026-10-31T18:43:26+08:00",
+        "expires_at": "2026-10-31T18:58:30+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-31T1502+0800",
@@ -9570,9 +9570,9 @@
         "species_id": 132,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261031T183900+0800-cycle-6.md",
-        "at": "2026-10-31T18:44:00+08:00",
+        "at": "2026-10-31T18:43:26+08:00",
         "research_record": "owl-pet/research/species/132-strix-davidi-v3.md",
         "new_sources": 3,
         "reused_sources": 3,
@@ -9583,7 +9583,13 @@
         "review_result": "PASS_WITH_LIMITATIONS",
         "edit_count": 0,
         "nestling_crop_blob": "be6522117be45b8958583082089ee34e2d90f140",
-        "feet_crop_blob": "e2f53320af19ea054e91c2ecd9886c150152ea09"
+        "feet_crop_blob": "e2f53320af19ea054e91c2ecd9886c150152ea09",
+        "fixed_archive_commit": "8d309a328ef66b685c73f4c8c98f3f7b1723fc8e",
+        "manifest_counts": {
+          "legacy": 616,
+          "design": 615,
+          "production": 606
+        }
       },
       "previous_checkpoint": {
         "batch_id": "2026-10-31T1502+0800",
@@ -11739,7 +11745,7 @@
       "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:44:00+08:00",
+  "last_updated": "2026-10-31T18:43:26+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",

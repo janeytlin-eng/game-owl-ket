@@ -1495,3 +1495,9 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Unique species 175/251 unchanged; one science revision completed; scientifically_verified=false.
 - 2026-10-31T12:38:30+08:00: #106 *Strix albitarsis* v3 ARCHIVED after recovery from intact v1, two evidence-led imagegen passes and full/juvenile/feet review. Adult dark irises and rufous identity were corrected; the nest-like support was replaced by the documented living tree-fern day roost. Manifests 607/606/597; fixed readback pending; unique +0; science false.
 - 2026-10-31T12:41:17+08:00: #106 *Strix albitarsis* v3 VERIFIED at fixed archive 64134725024eb744a1280179054fc1e91682c4b8. Five exact image path/blob pairs and manifests 607/606/597 matched in a 2,270-entry tree; connector binary-body response truncated at 786,445 bytes and was not counted as a full redownload. Batch 3/6, next 4; science false.
+
+## 2026-10-31 — #122 Philippine Scops-Owl v3 science revision
+
+- Reopened v2 and found that its pixels still contained the long, crisp adult-like juvenile wing and projecting tail its note claimed were corrected; preserved v1–v2 and created v3.
+- Added four stable source records, reused three and corrected one pixel/evidence claim. Miranda 2011 and Mikkola p. 170 constrain adult identity; two real-juvenile records constrain a supported mobile brancher without inventing exact age or flight readiness.
+- Generated v3, rejected the first juvenile wing, performed one targeted edit and reopened the full plate plus two crops. `PASS_WITH_LIMITATIONS`; unique increment 0; science false. Assets and manifests 611/610/601 archived; fixed readback pending.

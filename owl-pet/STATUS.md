@@ -2925,3 +2925,9 @@ Fixed archive `e91422cabccd0d0b6791088a21838ef44749b2b6` passed exact recursive-
 - Fresh evidence: Olsen & Debus 2013 pp.106–107/Fig.1 and user-uploaded Mikkola printed p.463/PDF p.465; ABSA, Tsang and BirdLife records reused. Original-resolution review required one targeted juvenile-wing edit.
 - Final plate has current title/labels, exactly three supported birds and a compact plain juvenile remige cluster under dark down. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**. Fixed archive `c1f42f494e41c2e95959a8ddb988c9ce85ea85b9` returned exact six image tuples and complete parseable manifests 610/609/600. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/c1f42f494e41c2e95959a8ddb988c9ce85ea85b9/owl-pet/design/concepts/121-ninox-leucopsis-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/c1f42f494e41c2e95959a8ddb988c9ce85ea85b9) · [Research](research/species/121-ninox-leucopsis-v3.md) · [Run](production/runs/20261031T144851+0800-cycle-6.md)
 
+## 2026-10-31 — #122 *Otus megalotis* v3 archived; fixed readback pending
+
+- Original-resolution v2 inspection contradicted its note: the center juvenile still had a long, crisp adult-like layered wing and projecting tail. V3 applies the numbered text contract and one evidence-led juvenile-wing edit.
+- Final full plate plus juvenile and feet/support crops were opened. Repeated pale adult covert rows are removed; the compact formed remige cluster remains down-softened, the tail is concealed and both feet grip the branch. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**.
+- Sources: Miranda 2011 printed pp. 444, 448–450; user-uploaded Mikkola printed p. 170/PDF p. 172; Project Noah 2023 field sequence; Owl Pages 2012 juvenile-photo metadata; three prior project sources reused. [Research](research/species/122-otus-megalotis-v3.md) · [Run](production/runs/20261031T150240+0800-cycle-1.md)
+

@@ -1,3 +1,20 @@
+## 2026-10-31 — #136 *Megascops petersoni* v3 evidence refresh
+
+### CIN-FITZPATRICK-ONEILL-1986
+- **Title / authors / year / type:** “*Otus petersoni*, a new screech-owl from the eastern Andes ...”, John W. Fitzpatrick & John P. O’Neill, 1986; primary specimen-based species description, *Wilson Bulletin* 98(1):1–14.
+- **URL / pages read:** https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Megascops/Megascops%20petersoni%20%28Fitzpatrick%20%26%20O%27Neill%29%201986%2C%20Wilson%20Bulletin%2C%2098%2C%20pages%201-14..pdf ; pp.3–6 and comparison; accessed 2026-10-31.
+- **Species / stages / mapping:** original *Otus petersoni* → current *Megascops petersoni*; adults and one nearly adult first-year specimen.
+- **Facts:** rich warm cinnamon-buff background, virtually no white; dark-brown iris, pale grey-green bill, pale pinkish-flesh toes; tarsi feathered to within 5 mm of toes, distal feathering sparse. Sexual dimorphism slight if present. First-year specimen had paler, more heavily barred down and was nearly in adult plumage.
+- **Limits / decision:** no exact first-year age, flight test or feather sequence. Use near-equal adults and an age-unknown older first-year with residual barred down, formed but softened wing/tail, and natural support.
+
+### CIN-ALARCON-SHANEE-2022
+- **Title / authors / year / type:** “Nido de la Lechuza Canela *Megascops petersoni* ...”, Alejandro Alarcón & Sam Shanee, 2022; primary nest record, *Revista Ecuatoriana de Ornitología* 8:6–10.
+- **DOI / PDF / pages read:** https://doi.org/10.18272/reo.v8i1.1791 ; https://revistas.usfq.edu.ec/index.php/reo/en/article/download/1791/2924/18217 ; pp.6–9; accessed 2026-10-31.
+- **Facts:** adult at a natural live-tree cavity 5 m high; one off-white egg on dry *Chusquea* leaves; 1,970-m humid montane forest with dense understory, moss and epiphytes.
+- **Limits / decision:** no chick/first-year anatomy. Supports cloud-forest setting only; branch plate avoids inventing a nest family or chick stage.
+
+**Mapping / delta:** *Otus petersoni* → *Megascops petersoni*; project #136 unchanged. New-to-index 2 / reused 0 / corrected v2 review claims 2. Exact first-year age, sex, iris chronology, flight ability and molt sequence remain unknown. Scientific verification false. [Species research](species/136-megascops-petersoni-v3.md) · [Run](../production/runs/20261031T195938+0800-cycle-4.md)
+
 ## 2026-10-31 — #135 *Otus silvicola* v3 evidence refresh
 
 ### WSC-MEES-2006

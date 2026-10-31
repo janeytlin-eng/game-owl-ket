@@ -1262,3 +1262,44 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limitations:** study predates the 2021 taxonomic split, but Reserva Ducke/Manaus is compatible with the narrow Guianan/east-of-Negro unit used here. Habitat associations are population-level, not permission to fabricate a nest or snag cavity.
 - **Design use:** use dense lowland terra firme interior with abundant mature trunks/snags in the background; depict a living roost/perch branch and no nest claim.
 - **Links:** [species card](species/131-megascops-watsonii-v3.md) · [run](../production/runs/20261031T181700+0800-cycle-5.md)
+
+
+## DAV-SCHERZINGER-FANG-2006
+
+- **Title:** Field observations of the Sichuan Wood Owl *Strix uralensis davidi* in western China
+- **Authors/institution:** Wolfgang Scherzinger & Yun Fang; Acrocephalus / DOPPS
+- **Year/type:** 2006; peer-reviewed primary field-observation paper
+- **URL:** https://www.dlib.si/stream/URN:NBN:SI:DOC-PDM45HXM/2542caee-6743-4bc1-a3be-562046fb59d6/PDF
+- **Accessed:** 2026-10-31
+- **Species/stage:** project #132 *Strix davidi* = historical/subspecies treatment *S. uralensis davidi*; adults, breeding pairs, nestlings/freshly fledged young
+- **Actually read:** full article pp.3–12, especially pp.3–6 study history and habitat plus breeding/nest-box observations.
+- **Facts:** observations in Lianhuashan in 1995, 1997 and 1999; artificial nest boxes enabled the first closely observed successful brood in 2005; 2006 field work recorded three territorial males, two females and young. Habitat is a fragmented high-elevation conifer-forest relict. The paper supports an artificial-box context, not a natural square tree cavity.
+- **Limitations/confidence:** earlier taxonomic treatment as *S. uralensis davidi*; does not provide the exact plumage geometry of the selected four-week Fig.11 individual. High confidence for locality/habitat/box provenance, not for day-specific feather maps.
+- **Design use:** retain a rough artificial nest-box opening and high-elevation conifer forest; do not turn the box into a universal nest or infer exact age from habitat.
+- **Links:** [species research](species/132-strix-davidi-v3.md) · [run](../production/runs/20261031T183900+0800-cycle-6.md)
+
+## DAV-FANG-ETAL-2009
+
+- **Title:** Conservation of Tengmalm's Owl and Sichuan Wood Owl in Lianhuashan Mountain, Gansu, China
+- **Authors/institution:** Yun Fang, Song-Hua Tang, Yuan Gu & Yue-Hua Sun; Institute of Zoology, Chinese Academy of Sciences; Ardea 97(4)
+- **Year/type:** 2009; peer-reviewed project report with primary breeding records
+- **DOI/URL:** https://doi.org/10.5253/078.097.0437 ; https://bioone.org/journals/ardea/volume-97/issue-4/078.097.0437/Conservation-of-Tengmalms-Owl-and-Sichuan-Wood-Owl-in-Lianhuashan/10.5253/078.097.0437.pdf
+- **Accessed:** 2026-10-31
+- **Species/stage:** project #132 taxon; eggs, nestlings and fledglings in Lianhuashan nest boxes
+- **Actually read:** full project-review text pp.649–650.
+- **Facts:** boxes were placed 4–6 m high in conifer trees, imitated natural cavities and contained no nest material. The 2005 box held two eggs; both young fledged 21 June. A 2007 brood of three fledged by 3 June. The text documents timing and management, not the exact age of a pictured individual.
+- **Limitations/confidence:** small managed-box sample; dates cannot be converted into a universal plumage calendar or individual age without hatch dates. High confidence for box construction/context and absence of nest material.
+- **Design use:** show a bare rough-wood sill with bilateral foot support; no invented nesting material, eggs or unsupported flight action.
+- **Links:** [species research](species/132-strix-davidi-v3.md) · [run](../production/runs/20261031T183900+0800-cycle-6.md)
+
+## DAV-AVIBASE-2025-CONCEPT
+
+- **Title:** Avibase taxonomic concept page — Ural Owl (*davidi*)
+- **Institution/type:** Bird Studies Canada / Avibase; taxonomic-concept crosswalk
+- **Year/URL:** current concept viewed 2026-10-31; https://avibase.bsc-eoc.org/species.jsp?avibaseid=7C2108FD7FEE81E8&lang=EN
+- **Species/stage:** project #132; taxonomy only
+- **Actually read:** concept history and authority-treatment table.
+- **Facts:** the page maps *Strix davidi*, *Syrnium davidi* and *Strix uralensis davidi*; it shows earlier species treatments and an Avilist 2025/current re-merger as *S. uralensis davidi*. This is a live checklist conflict, not a morphological source.
+- **Limitations/confidence:** aggregator/crosswalk; does not by itself revise the repository's numbered 251-taxon production scope. High confidence for name mapping, no biological design authority.
+- **Design use:** preserve #132 and the repository label while recording the alternative current treatment; no silent renumbering or deletion.
+- **Links:** [species research](species/132-strix-davidi-v3.md) · [run](../production/runs/20261031T183900+0800-cycle-6.md)

@@ -1113,3 +1113,25 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Design link:** prevents confusion with northern *Ptilopsis leucotis* and preserves old-name mapping for #105.
 
 **Lead only:** Macaulay 27 Jan 2017 adult/juvenile feeding video results were visible in search, but the catalog page returned an access-denied bot screen; not treated as verified evidence. New-to-index 2 / reused project source 1 / unverified lead 1 / corrected archive-integrity issue 1. Science remains false.
+## 2026-10-31 · #121 *Ninox leucopsis* v3 evidence refresh
+
+### TBO-OLSEN-DEBUS-2013-FIG1
+
+- **Title / authors / year:** “Do Tasmanian Southern Boobooks migrate?”, Jerry Olsen & S. J. S. Debus, 2013.
+- **Type / URL / access:** peer-reviewed field note with primary photographs, *Australian Field Ornithology* 30:106–108; https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/386/371 ; accessed 2026-10-31.
+- **Taxon / stage / old-name mapping:** current *Ninox leucopsis*; paper uses historical *N. novaeseelandiae leucopsis*. Adult male and nestling photographed on King Island in December 2009.
+- **Pages / figure actually read:** printed pp.106–107, especially Fig.1 and caption on p.107 (PDF p.1).
+- **Source facts:** authors describe the taxon as smaller, darker and more spotted than mainland boobooks; Fig.1 identifies an adult male and a nestling. Text states juvenile *leucopsis* has dark down and yellow eyes relative to pale-down/hazel-eyed mainland juveniles.
+- **Limitations / confidence:** high for the photographed individuals and stated taxon comparison; the caption supplies no nestling age, sex, flight ability or feather chronology. It cannot support a universal literal feather map.
+- **Design / review support:** supports the darker fluffy, yellow-eyed, age-unknown juvenile and rejects the v2 center bird’s mature white-spotted covert panel. Linked to `species/121-ninox-leucopsis-v3.md`, `design/concepts/121-ninox-leucopsis-v3.png` and run `production/runs/20261031T144851+0800-cycle-6.md`.
+
+### TBO-MIKKOLA-2013-P463
+
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, Heimo Mikkola, 2013.
+- **Type / access:** user-uploaded photographic guide, Library file `libfile_916e2244186c81918fe5a0716884b8c9`; accessed 2026-10-31.
+- **Taxon / stage:** *Ninox leucopsis*, adult diagnosis plus brief first-down/mesoptile summary.
+- **Page actually read:** printed p.463 / uploaded PDF p.465, extracted text read directly; rendered page image was unavailable from the Library parser in this run.
+- **Source facts:** length 28–30 cm, wing 198–222 mm; no data stated for sexual colour/size differences; tuftless reddish-brown/chestnut adult with small whitish head spots, whitish-buff wing-covert marks, strongly ocellated rufous-orange/white underparts, golden-yellow eyes, greyish bill/cere, feathered tarsi and grey toes. First down is whitish/pale buff; mesoptile has a less distinct eye mask.
+- **Limitations / conflicts:** secondary guide; its “no data” sex statement is older than the ABSA/HANZAB synthesis showing overlapping measurements and slightly heavier females. It does not supply a day-age or wing-growth sequence. First-down colour is not applied to the later nestling selected from the 2013 field photograph.
+- **Design / review support:** adult identity baseline and an explicit warning not to convert the age-unknown later juvenile into an unsupported hatchling. Linked to `species/121-ninox-leucopsis-v3.md` and run `production/runs/20261031T144851+0800-cycle-6.md`.
+

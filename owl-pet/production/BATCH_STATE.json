@@ -9540,16 +9540,16 @@
         "run_id": "20261031T181700+0800-cycle-5",
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 5,
-        "heartbeat_at": "2026-10-31T18:25:00+08:00",
-        "expires_at": "2026-10-31T18:40:00+08:00"
+        "heartbeat_at": "2026-10-31T18:34:00+08:00",
+        "expires_at": "2026-10-31T18:49:00+08:00"
       },
       "lease": {
         "owner": "codex-production",
         "run_id": "20261031T181700+0800-cycle-5",
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 5,
-        "heartbeat_at": "2026-10-31T18:25:00+08:00",
-        "expires_at": "2026-10-31T18:40:00+08:00"
+        "heartbeat_at": "2026-10-31T18:34:00+08:00",
+        "expires_at": "2026-10-31T18:49:00+08:00"
       },
       "in_progress": {
         "batch_id": "2026-10-31T1502+0800",
@@ -9561,7 +9561,8 @@
         "action": "SCIENCE_REVISION",
         "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261031T181700+0800-cycle-5.md",
-        "at": "2026-10-31T18:25:00+08:00"
+        "at": "2026-10-31T18:34:00+08:00",
+        "recovered_edit1_sha256": "a0cf8c66450bbf0ef7364b8606877022960c43c38cee72035d53702a50eb1121"
       },
       "previous_checkpoint": {
         "batch_id": "2026-10-31T1502+0800",
@@ -11717,5 +11718,5 @@
       "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:25:00+08:00"
+  "last_updated": "2026-10-31T18:34:00+08:00"
 }

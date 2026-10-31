@@ -13,3 +13,8 @@ Mikkola p.178 body text was newly available/read and supersedes the earlier “b
 ## ARCHIVED PENDING READBACK — 2026-10-31T21:42:00+08:00
 
 #140 *Otus rufescens* v3 SCIENCE_REVISION; full/edit/crops viewed. Adult-scale error corrected to evidence-neutral near-equality. Downy chick kept reddish-brown with darker crown/mantle and paler belly/rump, no mature remiges/tail. Sources RFS-WARAKAGODA-RASMUSSEN-2004 / RFS-MIKKOLA-2013-P178 / RFS-RAFFLES-CATALOGUE-2002 / RFS-ITIS-2025. Exact age/iris/flight, nest site and sex-size ratio unknown; science=false. See [run](../../production/runs/20261031T213600+0800-cycle-2.md) and research `../../research/species/140-otus-rufescens-v3.md`. Exact immutable readback pending.
+
+
+## VERIFIED — 2026-10-31T21:44:00+08:00
+
+Immutable archive `0095366a7d8f7efbcfc1063008322181f376138d` exact six image tuples and complete manifest JSON readback passed; concept blob `7a374ee4d52d5de83679e9d4465751bc50c07520`. PASS_WITH_LIMITATIONS; science=false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/0095366a7d8f7efbcfc1063008322181f376138d/owl-pet/design/concepts/140-otus-rufescens-v3.png?raw=1).

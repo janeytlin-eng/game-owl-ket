@@ -15484,7 +15484,7 @@
       "reviewed_at": "2026-10-31T12:14:55.396Z",
       "dimensions": "1536x1024",
       "sha256": "7357c7c22ff7c1f77015ad33bef63d76cff503b0c6cf3529fc824bdb8457b27f",
-      "size_bytes": 2843399,
+      "size_bytes": 2843391,
       "generated_path": "production/generated/137-otus-alfredi-v3-generated-master.png",
       "generated_blob": "bd6ffa815c05250c7703af170a06d3706e79f304",
       "generated_sha256": "41e457c008cae18fa9d898d3267d339e65f7e479582f5c60b4ae7edcbd9f3ed8",
@@ -15492,7 +15492,7 @@
       "reviewed_path": "production/reviewed/137-otus-alfredi-v3-reviewed-master.png",
       "reviewed_blob": "6b39107b24b42c03e560ab87214af906c6f448d7",
       "reviewed_sha256": "7357c7c22ff7c1f77015ad33bef63d76cff503b0c6cf3529fc824bdb8457b27f",
-      "reviewed_size_bytes": 2843399,
+      "reviewed_size_bytes": 2843391,
       "review_crop_path": "production/review-crops/137-otus-alfredi-v3-first-year.png",
       "review_crop_blob": "5cc482e8175d1a6eb6b9c9e882a7b57ebef3201d",
       "review_crop_sha256": "5b14eed4a6680208a8f81185188a4f70fc9b0b73f42925e00beb0ffcb96f4c4f",
@@ -15500,11 +15500,58 @@
       "auxiliary_review_crop_path": "production/review-crops/137-otus-alfredi-v3-adult-size-feet.png",
       "auxiliary_review_crop_blob": "23dc9fc0f278379c266d83d969b14b3e801e3dbf",
       "auxiliary_review_crop_sha256": "cc166be7aa2c752162bb4f34a750a250650eb8b06874f25f6a202b0dcd80753d",
-      "auxiliary_review_crop_size_bytes": 1245646,
-      "readback_pending": true,
-      "exact_readback": false,
-      "git_blob": "6b39107b24b42c03e560ab87214af906c6f448d7"
+      "auxiliary_review_crop_size_bytes": 1245643,
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "6b39107b24b42c03e560ab87214af906c6f448d7",
+      "fixed_archive_commit": "cfb40f742903679382743ef4a4ee006f4623a001",
+      "verified_at": "2026-10-31T12:15:16.631Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "cfb40f742903679382743ef4a4ee006f4623a001",
+        "method": "immutable archive commit tree plus exact path/blob/byte readback; local original-resolution full/crop inspection; complete manifest JSON parsing; main head readback",
+        "tree_sha": "7f12e0d5d64d583ae9257107f41a91a88ae1a41d",
+        "tree_count": 2439,
+        "tree_truncated": false,
+        "assets": {
+          "owl-pet/design/concepts/137-otus-alfredi-v3.png": {
+            "sha": "6b39107b24b42c03e560ab87214af906c6f448d7",
+            "size": 2843391
+          },
+          "owl-pet/production/generated/137-otus-alfredi-v3-generated-master.png": {
+            "sha": "bd6ffa815c05250c7703af170a06d3706e79f304",
+            "size": 2961138
+          },
+          "owl-pet/production/generated/137-otus-alfredi-v3-edit1.png": {
+            "sha": "6b39107b24b42c03e560ab87214af906c6f448d7",
+            "size": 2843391
+          },
+          "owl-pet/production/reviewed/137-otus-alfredi-v3-reviewed-master.png": {
+            "sha": "6b39107b24b42c03e560ab87214af906c6f448d7",
+            "size": 2843391
+          },
+          "owl-pet/production/review-crops/137-otus-alfredi-v3-first-year.png": {
+            "sha": "5cc482e8175d1a6eb6b9c9e882a7b57ebef3201d",
+            "size": 784884
+          },
+          "owl-pet/production/review-crops/137-otus-alfredi-v3-adult-size-feet.png": {
+            "sha": "23dc9fc0f278379c266d83d969b14b3e801e3dbf",
+            "size": 1245643
+          }
+        },
+        "manifest_counts": {
+          "design": 620,
+          "legacy": 621,
+          "production": 611
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "175/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T12:14:55.396Z"
+  "updated_at": "2026-10-31T12:15:16.631Z"
 }

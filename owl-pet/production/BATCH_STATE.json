@@ -10006,7 +10006,7 @@
     "version": 7,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T114222+0800-cycle-2",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "started_at": "2026-10-31T11:42:22+08:00",
     "run_record": "owl-pet/production/runs/20261031T114222+0800-cycle-2.md",
     "baseline_main": "e009fc1d3d04308081bbf992afc76b0adf1590e6",
@@ -10024,6 +10024,13 @@
       "reused_project_source": 1,
       "unverified_lead": 1,
       "corrected_archive_integrity_issue": 1
+    },
+    "generated_asset": {
+      "path": "owl-pet/production/generated/105-ptilopsis-granti-v7-generated-master.png",
+      "sha256": "fdff81c6a5c200d0ed774bccc19405fbe98489f18dbbca0dcb9b4c963c4fd9fc",
+      "size": 2746646,
+      "width": 1536,
+      "height": 1024
     }
   },
   "last_checkpoint": {
@@ -10033,7 +10040,7 @@
     "version": 7,
     "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
     "run_id": "20261031T114222+0800-cycle-2",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "started_at": "2026-10-31T11:42:22+08:00",
     "run_record": "owl-pet/production/runs/20261031T114222+0800-cycle-2.md",
     "baseline_main": "e009fc1d3d04308081bbf992afc76b0adf1590e6",
@@ -10051,6 +10058,13 @@
       "reused_project_source": 1,
       "unverified_lead": 1,
       "corrected_archive_integrity_issue": 1
+    },
+    "generated_asset": {
+      "path": "owl-pet/production/generated/105-ptilopsis-granti-v7-generated-master.png",
+      "sha256": "fdff81c6a5c200d0ed774bccc19405fbe98489f18dbbca0dcb9b4c963c4fd9fc",
+      "size": 2746646,
+      "width": 1536,
+      "height": 1024
     }
   },
   "history": [
@@ -10174,6 +10188,19 @@
       "unverified_lead": 1,
       "corrected_archive_integrity_issue": 1,
       "scientifically_verified": false
+    },
+    {
+      "at": "2026-10-31T11:45:00+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "version": 7,
+      "generation_seconds": 39.8,
+      "path": "owl-pet/production/generated/105-ptilopsis-granti-v7-generated-master.png",
+      "size": 2746646,
+      "sha256": "fdff81c6a5c200d0ed774bccc19405fbe98489f18dbbca0dcb9b4c963c4fd9fc"
     }
   ]
 }

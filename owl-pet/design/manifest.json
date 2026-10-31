@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T19:58:16.007+08:00",
+  "updated": "2026-10-31",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15927,7 +15927,54 @@
         "unique_species": "175/251",
         "scientifically_verified": false
       }
+    },
+    {
+      "id": "136-megascops-petersoni-v3",
+      "path": "design/concepts/136-megascops-petersoni-v3.png",
+      "species_id": 136,
+      "scientific_name": "Megascops petersoni",
+      "historical_names": [
+        "Otus petersoni"
+      ],
+      "common_name": "Cinnamon Screech-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v3 科学校准概念图经1次生成、1次定向编辑，并实际查看全图、首年鸟及成年体型/足部裁切。成鸟为浓肉桂褐色、无白色面盘或翼斑、暗褐虹膜、浅灰绿色嘴，跗跖羽被近趾端且足趾有自然支撑；雌雄按近等体型处理，不套用雌大雄小。首年鸟依据模式描述采用接近成鸟但更淡、重横斑绒羽与较软短翼羽，不声明精确日龄或飞行能力。PASS_WITH_LIMITATIONS，scientifically_verified=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "CIN-FITZPATRICK-ONEILL-1986",
+        "CIN-ALARCON-SHANEE-2022"
+      ],
+      "research_record": "research/species/136-megascops-petersoni-v3.md",
+      "run_record": "production/runs/20261031T195938+0800-cycle-4.md",
+      "reviewed_at": "2026-10-31T12:09:19.964Z",
+      "dimensions": "1536x1024",
+      "sha256": "7b34f50e53714eef69331fdfec3f352597ff902d42799d0b4768518ac76cac55",
+      "size_bytes": 2786647,
+      "generated_path": "production/generated/136-megascops-petersoni-v3-generated-master.png",
+      "generated_blob": "641f560cc52485cae1f360ebb729fd48954b2317",
+      "generated_sha256": "0e1316a1f7e085c94b2bb96aaa556c31287415d2cf3f7c8bdd3b1f9bdb66e351",
+      "generated_size_bytes": 2959784,
+      "reviewed_path": "production/reviewed/136-megascops-petersoni-v3-reviewed-master.png",
+      "reviewed_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
+      "reviewed_sha256": "7b34f50e53714eef69331fdfec3f352597ff902d42799d0b4768518ac76cac55",
+      "reviewed_size_bytes": 2786647,
+      "review_crop_path": "production/review-crops/136-megascops-petersoni-v3-first-year.png",
+      "review_crop_blob": "f97d9c1911dc6d1ffb5ef5f032923aadd83ec658",
+      "review_crop_sha256": "fea8080d7f2fbebbef497c986a4e369768e5180137163d4ac1bfe1017b017d33",
+      "review_crop_size_bytes": 774228,
+      "auxiliary_review_crop_path": "production/review-crops/136-megascops-petersoni-v3-adult-size-feet.png",
+      "auxiliary_review_crop_blob": "e0c53aab4a8cefe79b89970aea6d54a124254e9f",
+      "auxiliary_review_crop_sha256": "f178df37e53989cb3f4ba9a82202840fae6a73aae41890b97e62b90741bcac6b",
+      "auxiliary_review_crop_size_bytes": 1273053,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1"
     }
   ],
-  "updated_at": "2026-10-31T19:58:16.007+08:00"
+  "updated_at": "2026-10-31T12:09:19.964Z"
 }

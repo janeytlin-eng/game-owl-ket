@@ -9725,8 +9725,8 @@
         "batch_id": "20261031T1937+0800",
         "cycle": 4,
         "species_id": 136,
-        "heartbeat_at": "2026-10-31T12:08:35.476Z",
-        "expires_at": "2026-10-31T12:23:35.476Z"
+        "heartbeat_at": "2026-10-31T12:09:19.964Z",
+        "expires_at": "2026-10-31T12:24:19.964Z"
       },
       "in_progress": {
         "batch_id": "20261031T1937+0800",
@@ -9736,9 +9736,9 @@
         "species_id": 136,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261031T195938+0800-cycle-4.md",
-        "at": "2026-10-31T12:08:35.476Z"
+        "at": "2026-10-31T12:09:19.964Z"
       },
       "previous_checkpoint": {
         "batch_id": "20261031T1937+0800",
@@ -9880,6 +9880,23 @@
             ],
             "review_result": "PASS_WITH_LIMITATIONS",
             "science_approved": false
+          }
+        },
+        {
+          "cycle": 4,
+          "run_id": "20261031T195938+0800-cycle-4",
+          "species": "Megascops petersoni",
+          "stage": "ARCHIVED",
+          "at": "2026-10-31T12:09:19.964Z",
+          "credited_cycle": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/136-megascops-petersoni-v3.png",
+            "manifests": [
+              "owl-pet/design/IMAGE_MANIFEST.json",
+              "owl-pet/design/manifest.json",
+              "owl-pet/production/IMAGE_MANIFEST.json"
+            ],
+            "knowledge": "owl-pet/knowledge/species/136-megascops-petersoni.md"
           }
         }
       ]

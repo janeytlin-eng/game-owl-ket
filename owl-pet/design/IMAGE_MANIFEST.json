@@ -17984,16 +17984,30 @@
       "auxiliary_review_crop_blob": "835ee474a4554923e583a0a5b82ba5e52e5a3bfa",
       "auxiliary_review_crop_sha256": "964a571102f433669005d11b7c625529616fae210155d750e002c01ee56313c2",
       "auxiliary_review_crop_size_bytes": 1181919,
-      "readback_pending": true,
-      "exact_readback": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "git_blob": "4b5c9e3bc444ec76f3cf9fd2a4d71d231c8a23c7",
       "v1_integrity": {
         "git_blob": "4ea9d2d20a880f82f187f2ed40680b9255a90729",
         "size_bytes": 705057,
         "sha256": "ae7b2e63f18030b44fdd81055845e147dcb2b63635a38c04762d0ccf4fbf45c3",
         "archive_commit": "89766ecd3c818d4ecf7ce8a243fa99afd789c6bf"
+      },
+      "fixed_archive_commit": "7c85a4972a8ffc40f35feb37ecb58297754b7687",
+      "verified_at": "2026-11-01T05:19:00+08:00",
+      "readback": {
+        "method": "immutable exact path/blob/size via non-truncated recursive tree; aligned-chunk uploads matched local git hash-object; local full PNG decode and full/two-crop original-detail inspection; all three manifests parsed",
+        "assets_verified": 7,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 645,
+          "design_legacy": 646,
+          "production": 636
+        },
+        "v1_integrity_verified": true
       }
     }
   ],
-  "updated_at": "2026-11-01T05:16:00+08:00"
+  "updated_at": "2026-11-01T05:19:00+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:06:00+08:00",
+  "updated": "2026-10-31T10:09:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14374,11 +14374,49 @@
       "review_crop_blob": "e5bb6cda5d14113372e9e0ece5db33ee30b5bbe4",
       "review_crop_sha256": "dd93363d8128965a1fac6fa38020c5880266b4c2185a7f5731e2a0dbcffcaebd",
       "review_crop_size_bytes": 525913,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "d0f06a8c5a068f656af9576531a305a6d13191ac",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "26c31998af84369d7fa77c7d600b21a2bdd6691b",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T10:09:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "26c31998af84369d7fa77c7d600b21a2bdd6691b",
+        "method": "fixed recursive tree exact path/blob/size readback",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/99-bubo-magellanicus-v4.png",
+            "sha": "d0f06a8c5a068f656af9576531a305a6d13191ac",
+            "size": 2629992
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/99-bubo-magellanicus-v4-generated-master.png",
+            "sha": "d0f06a8c5a068f656af9576531a305a6d13191ac",
+            "size": 2629992
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/99-bubo-magellanicus-v4-reviewed-master.png",
+            "sha": "d0f06a8c5a068f656af9576531a305a6d13191ac",
+            "size": 2629992
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/99-bubo-magellanicus-v4-chick.png",
+            "sha": "e5bb6cda5d14113372e9e0ece5db33ee30b5bbe4",
+            "size": 525913
+          }
+        },
+        "manifest_counts": {
+          "legacy": 600,
+          "design": 599,
+          "production": 590
+        },
+        "tree": {
+          "entries": 2283,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:06:00+08:00"
+  "updated_at": "2026-10-31T10:09:00+08:00"
 }

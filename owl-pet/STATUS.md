@@ -2859,3 +2859,8 @@ Fixed archive commit `5bf9954420a769fc4281da8d8c34a0d4a98b66d4` passed a non-tru
 ## 2026-10-31 — #99 *Bubo magellanicus* v4 archived, verification pending
 
 Numbered v4 concept and review assets archived. A 2023 primary adult study now constrains visible sex difference, so adults remain near equal rather than using a fixed female-larger multiplier. PASS_WITH_LIMITATIONS; science false; unique coverage 175/251.
+
+
+### #99 v4 verified — 2026-10-31T10:09:00+08:00
+
+Fixed archive `26c31998af84369d7fa77c7d600b21a2bdd6691b` passed exact recursive-tree asset and support-record readback. Batch 2026-10-31T0927+0800 is 2/6, next cycle 3; unique species 175/251; science false.

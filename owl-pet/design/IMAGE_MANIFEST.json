@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T06:58:27Z",
+  "updated": "2026-10-31T09:48:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15561,7 +15561,56 @@
         "manifest_json_valid": true,
         "science": false
       }
+    },
+    {
+      "id": "128-megascops-marshalli-v8",
+      "path": "design/concepts/128-megascops-marshalli-v8.png",
+      "species_id": 128,
+      "scientific_name": "Megascops marshalli",
+      "historical_names": [
+        "Otus marshalli"
+      ],
+      "common_name": "Cloud-forest Screech-Owl",
+      "version": 8,
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "7cf92974d2236de0f07ecfbf1b7557be5bb21a626c94955b5cb71894012c1187",
+      "size_bytes": 2926987,
+      "dimensions": "1536x1024",
+      "status": "Current v7 fails full PNG decode (IDAT invalid distance code) and its historical run records a byte-size/SHA-256 tuple inconsistent with the archived Git blob. V8 is a fresh evidence-bounded rebuild. One targeted edit shortened and softened the older immature's folded wing, removed adult-regular pale spotting and concealed the tail. Adults remain near equal in standing height because the source reports only a small mass difference; downy chick appearance, exact juvenile age/flight chronology, universal nest form and precise sex-size ratio remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "MARS-ARMONIA-2009-P29",
+        "MARS-MIK2013-P234",
+        "MARS-WESKE-1981",
+        "MARS-HERZOG-2009"
+      ],
+      "research_record": "research/species/128-megascops-marshalli-v8.md",
+      "run_record": "production/runs/20261031T173539+0800-cycle-3.md",
+      "reviewed_at": "2026-10-31T09:44:00Z",
+      "generated_path": "production/generated/128-megascops-marshalli-v8-generated-master.png",
+      "generated_blob": "da987b8091c78c3f6933fbf0dd0e77794abce80e",
+      "generated_sha256": "a5774abe443a202711bc2045f3db420276118c44e8107e61b2f9541b65655336",
+      "generated_size_bytes": 3065499,
+      "intermediate_edit_path": "production/generated/128-megascops-marshalli-v8-edit1.png",
+      "intermediate_edit_blob": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+      "reviewed_path": "production/reviewed/128-megascops-marshalli-v8-reviewed-master.png",
+      "reviewed_blob": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+      "reviewed_sha256": "7cf92974d2236de0f07ecfbf1b7557be5bb21a626c94955b5cb71894012c1187",
+      "reviewed_size_bytes": 2926987,
+      "review_crop_path": "production/review-crops/128-megascops-marshalli-v8-immature.png",
+      "review_crop_blob": "b1549d01bdccfb71d0d7ef77622c00efdeaaf434",
+      "review_crop_sha256": "56b52c8c9bde9ac255d3cb1a80ce038484aa8587d4f0bb1d09219be2a0815273",
+      "review_crop_size_bytes": 744778,
+      "auxiliary_review_crop_path": "production/review-crops/128-megascops-marshalli-v8-feet.png",
+      "auxiliary_review_crop_blob": "01b27261f36ee606f2ee8905ebe10e2f77326058",
+      "auxiliary_review_crop_sha256": "1a0955c68e1e46718accc9dfaa0f895c42ad7b2686f75643e6d0ad970c1ef4b4",
+      "auxiliary_review_crop_size_bytes": 617115,
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-10-31T06:58:27Z"
+  "updated_at": "2026-10-31T09:48:00Z"
 }

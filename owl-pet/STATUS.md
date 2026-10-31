@@ -2945,3 +2945,9 @@ Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` passed exact six-image 
 
 Fixed archive `37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0` passed a non-truncated 2,368-entry recursive-tree readback, six exact image path/blob/byte tuples and complete parseable manifests 612/611/602. Batch `2026-10-31T1502+0800` is 2/6, next cycle 3; unique remains 175/251 and science remains false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0/owl-pet/design/concepts/124-ketupa-philippensis-v3.png?raw=1) · [commit](https://github.com/janeytlin-eng/game-owl-ket/commit/37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0)
 
+
+## 2026-10-31 — #128 *Megascops marshalli* v8 archived; fixed readback pending
+
+- V7 is preserved but fails full PNG decode. V8 is a fresh evidence-bounded rebuild; one targeted juvenile-wing edit removed the adult-like long, crisp and regularly spotted wing panel.
+- Full 1536×1024 plate, immature crop and feet/support crop were opened. Tail is concealed and all six feet have natural support. `PASS_WITH_LIMITATIONS`; science false; unique remains **175/251**.
+- Sources: Armonía 2009 p.29; user-uploaded Mikkola printed p.234/PDF p.236; Weske & Terborgh 1981; Herzog et al. 2009. Source delta new1/reused3/corrected1. [Research](research/species/128-megascops-marshalli-v8.md) · [Run](production/runs/20261031T173539+0800-cycle-3.md).

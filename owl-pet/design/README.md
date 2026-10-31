@@ -2757,3 +2757,7 @@ Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` confirms exact concept/
 
 Applied the same pixel-evidence check to a different large owl: the instruction “not a miniature adult” did not make the first render pass. The long regular juvenile wing was rejected and edited while source-supported formed remiges, head down and support were retained. The rule is effective on two inspected plates; it remains a review heuristic, not a universal feather formula.
 
+
+## 2026-10-31 — #128 *Megascops marshalli* v8 archive repair
+
+The current v7 PNG is preserved but fails full decode. V8 is a fresh, evidence-bounded three-bird plate; one edit shortened/softened the older immature's folded wing and removed adult-regular pale spotting. Full plate plus immature and feet/support crops passed with limitations. Exact juvenile age/flight chronology and sex-size ratio remain unknown; science false; unique coverage stays 175/251. [Original](concepts/128-megascops-marshalli-v8.png) · [Research](../research/species/128-megascops-marshalli-v8.md) · [Run](../production/runs/20261031T173539+0800-cycle-3.md).

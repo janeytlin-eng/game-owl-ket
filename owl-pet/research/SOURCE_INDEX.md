@@ -1545,3 +1545,38 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Pages / sections:** article pp. 8–10; Morphometrics Table 2 and Diagnosis: Morphology.
 - **Limitations / confidence:** high for adult museum comparison and taxonomic boundary; pooled forms, not sex-dimorphism or juvenile timing evidence. Does not support exact chick age, iris, flight ability, nest or full feather sequence.
 - **Design decision:** preserve larger Moluccan adult proportions, partly bare distal tarsus and irregular—not repeated—light shoulder/wing marks; do not import *O. jolandae* fully feathered tarsi. Linked to [#141 v3 research](species/141-otus-magicus-v3.md) and [run](../production/runs/20261031T214500+0800-cycle-3.md).
+
+## 2026-10-31 — #142 *Asio grammicus* v2 evidence refresh
+
+### JAM-MIKKOLA-2013-P500 (reused)
+- **Title / author / year / type:** *Owls of the World: A Photographic Guide*, 2nd ed.; Heimo Mikkola; 2013; secondary photographic guide.
+- **Access / pages:** Library `libfile_916e2244186c81918fe5a0716884b8c9`; text directly read 2026-10-31, printed pp.500–501 / PDF pp.502–503. Embedded page photographs were not accessible in this run.
+- **Species / stages:** *Asio grammicus* (account under *Pseudoscops grammicus*); adult and older juvenile.
+- **Facts:** adult 27–34 cm, wing 197–229 mm; no sexual size/colour data. Adults have long mottled brown-black ear tufts, warm tawny-brown upperparts without white scapular spots, barred flight feathers/tail, dull yellowish underparts with long dark shaft streaks and fine brown vermiculation, hazel-brown eyes, bluish-grey bill/cere, reddish-brown feathered tarsi to toe bases, grey-brown toes and dark claws. Older juvenile is pale grey-brown above and dull cinnamon-buff elsewhere; a July Jamaican juvenile caption records down remnants on the head.
+- **Limits / design:** no exact juvenile age, flight threshold, iris chronology, nest details or continuous sequence. Keep adults near equal and use an age-unknown supported down-remnant juvenile; science remains false.
+
+### JAM-HOYER-BIRDSEYE (reused)
+- **Title / photographer / type:** BirdsEye Photography Jamaican Owl gallery; Richard C. Hoyer/WINGS; field-photograph comparator.
+- **URL / access:** https://birdseye.photo/photos/review/3591/jamaican_owl/ ; page reopened 2026-10-31.
+- **Facts:** the record labelled “Downy young,” Jamaica, November shows a fluffy cinnamon-buff, diffusely mottled young with dark-looking eyes, pale-grey bill, short head wisps, compact/mostly hidden wing and tail, upright at a naturally supporting tree fork. Adult records show tawny underparts with longitudinal dark markings, tufts and branch grip.
+- **Limits / design:** exact age, sex, flight ability, capture year and developmental sequence are unavailable. Use only the visible conservative stage and support; do not infer a hatchling, flight or chronology.
+
+### JAM-AOS-NACC-2021-C10
+- **Title / institution / year / type:** AOS NACC Proposal 2021-C-10, “Submerge *Pseudoscops* and *Nesasio* into *Asio*”; American Ornithological Society; 2021; official taxonomic proposal.
+- **URL / pages / access:** https://americanornithology.org/wp-content/uploads/2021/04/2021-C.pdf ; proposal pp.53–54 read 2026-10-31.
+- **Facts:** transfers *grammicus* and *clamator* from *Pseudoscops* to *Asio*; supports current *Asio grammicus* and old-name mapping.
+- **Limits / design:** taxonomy only; no visible morphology or development authority.
+
+### JAM-POSSO-SALOMAO-2025
+- **Title / authors / year / type:** “Phylogenetic relationships in the genus *Asio* Brisson, 1760 (Aves: Strigidae) based on osteological characters”; Posso & Salomão; 2025; peer-reviewed osteological phylogeny, *Zootaxa* 5584(3):394–408.
+- **DOI / URL / access:** https://doi.org/10.11646/zootaxa.5584.3.5 ; https://www.mapress.com/zt/article/view/zootaxa.5584.3.5 ; abstract read 2026-10-31.
+- **Facts:** 35 osteological characters, 36 specimens, seven species; supports synonymising *Pseudoscops* and *Nesasio* with *Asio* and recovers *A. grammicus* as sister to *A. clamator* in the osteological analysis.
+- **Limits / design:** abstract and osteology support taxonomy only, not plumage, sex or juvenile appearance.
+
+### JAM-GRAVES-2007
+- **Title / author / year / type:** “Observations on the Jamaican Owl (*Pseudoscops grammicus*)”; Gary R. Graves; 2007; primary field note, *Journal of Caribbean Ornithology* 20:53–55.
+- **URL / pages / access:** https://repository.si.edu/bitstreams/fb710e7c-c30a-457d-8f03-fb87e47110d5/download ; full article pp.53–55 read 2026-10-31.
+- **Facts:** an adult day-roosted in a broad-leaved tree partly shaded by a talipot palm at Hope Botanical Gardens; prey/pellet evidence included large invertebrates, frogs, lizards, rodents and passerines.
+- **Limits / design:** supports a leafy tree-roost context, not a nest or juvenile-stage inference. Do not add a cavity, nest material, eggs or breeding claim.
+
+**Mapping / delta — #142 v2:** current *Asio grammicus* / historical *Pseudoscops grammicus* → JAM-AOS-NACC-2021-C10 and JAM-POSSO-SALOMAO-2025 for genus treatment; JAM-MIKKOLA-2013-P500 and JAM-HOYER-BIRDSEYE for adult/juvenile boundaries; JAM-GRAVES-2007 for leafy roost context. Repository #154 is the same species under the older genus and is preserved as historical evidence without unique-species credit. New3 / reused2 / corrected1. Exact juvenile age, flight ability, iris chronology, complete feather sequence, nest details and sex-size direction remain unknown; scientific verification remains false. [Species research](species/142-asio-grammicus-v2.md) · [Run](../production/runs/20261031T223601+0800-cycle-4.md).

@@ -1,3 +1,11 @@
+## #134 Long-tufted Screech-Owl — *Megascops sanctaecatarinae* — v3 science revision
+
+- Concept: [134-megascops-sanctaecatarinae-v3.png](concepts/134-megascops-sanctaecatarinae-v3.png)
+- Research: [134-megascops-sanctaecatarinae-v3.md](../research/species/134-megascops-sanctaecatarinae-v3.md)
+- Run: [20261031T194424+0800-cycle-2.md](../production/runs/20261031T194424+0800-cycle-2.md)
+- ARCHIVED; fixed readback pending; PASS_WITH_LIMITATIONS; science false; unique175/251.
+- Neutral light and distinct adult poses; female corrected to near-equal crown height. Juvenile remains photo-bounded upper-body-only at a bark cavity, with hidden anatomy not invented.
+
 ## #133 Black-capped Screech-Owl — *Megascops atricapilla* — v3 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/572d5999bc1569f6eb315467fe7440116b800bb5/owl-pet/design/concepts/133-megascops-atricapilla-v3.png?raw=1) · [fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/572d5999bc1569f6eb315467fe7440116b800bb5) · [research](../research/species/133-megascops-atricapilla-v3.md) · [run](../production/runs/20261031T193701+0800-cycle-1.md)

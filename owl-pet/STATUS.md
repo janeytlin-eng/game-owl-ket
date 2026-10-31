@@ -1,3 +1,10 @@
+## 2026-10-31 #134 *Megascops sanctaecatarinae* v3 ARCHIVED — fixed readback pending
+
+- SCIENCE_REVISION; v1/v2 preserved. New4/reused2/corrected2; one imagegen female-scale edit after full/crop inspection.
+- Neutral forest light replaces the orange cast; distinct adults are near-equal crown height with only a subtly fuller female. Direct-photo juvenile remains charcoal-gray, open-billed and cavity-supported, with unsupported lower anatomy hidden.
+- PASS_WITH_LIMITATIONS; exact juvenile age, iris, flight ability, lower anatomy and quantified sex-size relation remain unknown. Unique **175/251**; science false.
+- Manifests 618/617/608; fixed readback pending; no cycle credit yet. [Research](research/species/134-megascops-sanctaecatarinae-v3.md) · [Run](production/runs/20261031T194424+0800-cycle-2.md)
+
 ## 2026-10-31 #133 *Megascops atricapilla* v3 VERIFIED
 
 - Fixed archive `572d5999bc1569f6eb315467fe7440116b800bb5` returned a non-truncated 2,407-entry tree with exact six-image path/blob/byte tuples; manifests parsed at 617/616/607 with matching #133 v3 entries.

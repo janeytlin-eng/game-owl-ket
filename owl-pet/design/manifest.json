@@ -2397,7 +2397,18 @@
       "status": "Archive repair from intact v3 plus evidence-bounded science revision. Exactly three birds; near-equal adults retain buff-spotted crown/nape, irregular wing-covert marks, pale-yellow eyes, reddish-brown upper chest and white lower belly with irregular longitudinal markings. Center age-unknown older immature has an unspotted brown crown, weak buff-spotted upper-mantle collar, softened compact formed wing, short hidden tail and two-foot branch support. Exact immature age, iris chronology, remex sequence, locomotor stage and sex-size direction remain unknown.",
       "source_index": "research/SOURCE_INDEX.md#2026-10-31--144-ninox-spilocephala-v5-evidence-refresh",
       "run_record": "production/runs/20261031T225200+0800-cycle-5.md",
-      "readback_pending": true
+      "readback_pending": false,
+      "exact_readback": true,
+      "image_commit_sha": "7793627727a7a567f60eb4ab21ec107743a3ecb8",
+      "git_blob": "77c6de857deb3b8aadd6dd91cd9aaf5936bbbde2",
+      "verified_at": "2026-10-31T23:42:00+08:00",
+      "readback": {
+        "method": "immutable commit-pinned recursive tree; exact path/blob/byte size; manifest snippet refetch; local full PNG decode",
+        "bytes": 2458731,
+        "tree_count": 2486,
+        "all_six_assets_present": true,
+        "connector_full_binary_stream_readback": false
+      }
     },
     {
       "id": "153-jubula-lettii-v1",
@@ -16445,5 +16456,5 @@
       }
     }
   ],
-  "updated_at": "2026-10-31T23:01:00+08:00"
+  "updated_at": "2026-10-31T23:42:00+08:00"
 }

@@ -10201,92 +10201,87 @@
           "run_record": "owl-pet/production/runs/20261031T223601+0800-cycle-4.md",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "species": "Ninox spilocephala",
+          "species_id": 144,
+          "version": 5,
+          "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7793627727a7a567f60eb4ab21ec107743a3ecb8",
+          "run_record": "owl-pet/production/runs/20261031T225200+0800-cycle-5.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-work",
-        "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T23:38:00+08:00",
-        "expires_at": "2026-10-31T23:53:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261031T225200+0800-cycle-5",
-        "heartbeat_at": "2026-10-31T23:38:00+08:00",
-        "expires_at": "2026-10-31T23:53:00+08:00"
-      },
-      "in_progress": {
+      "next_cycle": 6,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
+      "last_checkpoint": {
+        "batch_id": "20261031T2128+0800",
         "cycle": 5,
         "species": "Ninox spilocephala",
         "species_id": 144,
         "version": 5,
         "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-        "unique_species_increment": 0,
         "run_id": "20261031T225200+0800-cycle-5",
-        "run_record": "owl-pet/production/runs/20261031T225200+0800-cycle-5.md",
-        "stage": "ARCHIVED"
-      },
-      "last_checkpoint": {
-        "batch_id": "20261031T2128+0800",
-        "cycle": 4,
-        "species": "Asio grammicus",
-        "species_id": 142,
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T223601+0800-cycle-4",
         "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T223601+0800-cycle-4.md",
-        "at": "2026-10-31T22:50:00+08:00",
+        "run_record": "owl-pet/production/runs/20261031T225200+0800-cycle-5.md",
+        "at": "2026-10-31T23:42:00+08:00",
         "evidence": {
-          "fixed_archive_commit": "351b8a365a28fbd2b914861df8e5897cd7495827",
-          "tree_sha": "f48d6085ac18eff8af5a5a2de9780f25c82a82b6",
-          "tree_count": 2478,
+          "archive_commit": "7793627727a7a567f60eb4ab21ec107743a3ecb8",
+          "tree_sha": "9850fe81de56ae7105e639262e0267edcc28d816",
+          "tree_count": 2486,
+          "tree_truncated": false,
           "assets": {
-            "owl-pet/design/concepts/142-asio-grammicus-v2.png": {
-              "sha": "b7a561de4d40660dc10108c3a3fed782ff7d3fe7",
-              "size": 2914397
+            "owl-pet/design/concepts/144-ninox-spilocephala-v5.png": {
+              "sha": "77c6de857deb3b8aadd6dd91cd9aaf5936bbbde2",
+              "size": 2458731
             },
-            "owl-pet/production/generated/142-asio-grammicus-v2-generated-master.png": {
-              "sha": "fd4867642fb723d5a197d3aa04143e70f11d18c6",
-              "size": 2959021
+            "owl-pet/production/generated/144-ninox-spilocephala-v5-generated-master.png": {
+              "sha": "534cbab7902039ac32f9c377592000767d326d55",
+              "size": 2488806
             },
-            "owl-pet/production/generated/142-asio-grammicus-v2-edit1.png": {
-              "sha": "b7a561de4d40660dc10108c3a3fed782ff7d3fe7",
-              "size": 2914397
+            "owl-pet/production/generated/144-ninox-spilocephala-v5-edit1.png": {
+              "sha": "77c6de857deb3b8aadd6dd91cd9aaf5936bbbde2",
+              "size": 2458731
             },
-            "owl-pet/production/reviewed/142-asio-grammicus-v2-reviewed-master.png": {
-              "sha": "b7a561de4d40660dc10108c3a3fed782ff7d3fe7",
-              "size": 2914397
+            "owl-pet/production/reviewed/144-ninox-spilocephala-v5-reviewed-master.png": {
+              "sha": "77c6de857deb3b8aadd6dd91cd9aaf5936bbbde2",
+              "size": 2458731
             },
-            "owl-pet/production/review-crops/142-asio-grammicus-v2-juvenile.png": {
-              "sha": "43ad923785c71f4d8de0c76fca3df8db65eb4624",
-              "size": 800263
+            "owl-pet/production/review-crops/144-ninox-spilocephala-v5-immature.png": {
+              "sha": "e38d41716693d0792d49bc1cd74b2e88aa6fb367",
+              "size": 699643
             },
-            "owl-pet/production/review-crops/142-asio-grammicus-v2-adult-size-feet.png": {
-              "sha": "9b22b8093eda2021f2dd1b0f95011c57ae4c24af",
-              "size": 1978555
+            "owl-pet/production/review-crops/144-ninox-spilocephala-v5-adults-and-support.png": {
+              "sha": "b0494fca70d80bfee1484d3cf2de6cdb970c1ed0",
+              "size": 1791311
             }
           },
           "manifest_counts": {
-            "design_image": 625,
-            "design_legacy": 626,
-            "production": 616
+            "design_image": 626,
+            "design_legacy": 627,
+            "production": 617
           },
           "manifest_json_valid": true,
+          "manifest_snippet_refetch": true,
           "path_blob_readback": true,
           "png_full_decode": true,
           "sha256_verified": true,
           "connector_full_binary_stream_readback": false,
-          "rejected_archive_commit": "9af895dec2e471cba3c597cf7fd2f281c94c3ed5",
+          "historical_truncated_v4_commit": "1a43d9e5b2956c1c727b45fd6504c05493177b59",
+          "resume_commit": "aab508c321cb2260d441d637c3d82c70d80c4f7a",
           "unique_species": "175/251",
           "scientifically_verified": false,
-          "next_cycle": 5,
+          "next_cycle": 6,
           "batch_complete": false
         }
       },
-      "last_stage": "ARCHIVED",
-      "updated_at": "2026-10-31T23:38:00+08:00",
+      "last_stage": "VERIFIED",
+      "updated_at": "2026-10-31T23:42:00+08:00",
       "stage_history": [
         {
           "cycle": 4,
@@ -10585,6 +10580,35 @@
             "readback_pending": true,
             "resume_commit": "aab508c321cb2260d441d637c3d82c70d80c4f7a",
             "lease_expires_at": "2026-10-31T23:53:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261031T225200+0800-cycle-5",
+          "species": "Ninox spilocephala",
+          "stage": "VERIFIED",
+          "at": "2026-10-31T23:42:00+08:00",
+          "credited_cycle": true,
+          "evidence": {
+            "archive_commit": "7793627727a7a567f60eb4ab21ec107743a3ecb8",
+            "tree_sha": "9850fe81de56ae7105e639262e0267edcc28d816",
+            "tree_count": 2486,
+            "tree_truncated": false,
+            "concept_blob": "77c6de857deb3b8aadd6dd91cd9aaf5936bbbde2",
+            "concept_size": 2458731,
+            "manifest_counts": {
+              "design_image": 626,
+              "design_legacy": 627,
+              "production": 617
+            },
+            "all_six_assets_present": true,
+            "manifest_json_valid": true,
+            "manifest_snippet_refetch": true,
+            "png_full_decode": true,
+            "unique_species": "175/251",
+            "scientifically_verified": false,
+            "next_cycle": 6,
+            "batch_complete": false
           }
         }
       ]

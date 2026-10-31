@@ -1427,3 +1427,25 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limitations/confidence:** aggregator/crosswalk; does not by itself revise the repository's numbered 251-taxon production scope. High confidence for name mapping, no biological design authority.
 - **Design use:** preserve #132 and the repository label while recording the alternative current treatment; no silent renumbering or deletion.
 - **Links:** [species research](species/132-strix-davidi-v3.md) · [run](../production/runs/20261031T183900+0800-cycle-6.md)
+
+
+## FLO-WIDODO-1999
+
+- **Title / authors / year:** *Rediscovery of the Flores Scops Owl Otus alfredi on Flores, Lesser Sunda Islands, Indonesia, and reaffirmation of its specific status* / Wahyu Widodo, Jack H. Cox & Pamela C. Rasmussen / 1999.
+- **Type / URL / access:** peer-reviewed museum-comparison and primary field/specimen paper, Forktail 15:15–23; https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc23b2b6a282c991de675/1545585212532/Widodo-Flores.pdf ; accessed 2026-10-31.
+- **Species / stage:** *Otus alfredi* adults plus one juvenile male specimen mist-netted 15 May 1994 in wet montane forest at 1,400 m.
+- **Actually read:** printed pp.15–23, especially Fig.2, Tables 1–2 and pp.17–22.
+- **Facts:** adult identity combines short broad rounded solid-rufous ear tufts, fine white forehead vermiculation without heavy black streaking, bright-rufous unrimmed facial disk, orange-yellow bill, dense tarsal feathering with distal third bare, yellow feet/claws, small widely spaced pale primary triangles, nearly obsolete tertial/tail banding, yellow iris and pink/reddish orbital skin. The juvenile is smaller, retains slightly paler nearly uniform rufous natal down on neck/mantle/wing coverts/scapulars/uppertail coverts, has a few pale shaft streaks and clearer uppertail banding. Exact age and flight ability are not given.
+- **Limits / conflict:** the three 1896 type skins were sexed indirectly and Everett acknowledged uncertainty; do not infer a fixed female-larger rule. The paper says juvenile plumage was otherwise undescribed, so do not invent a hatchling or a precise feather calendar.
+- **Design use:** near-equal adults; depict a securely perched, age-unknown first-year male with residual down and formed but softened wing/tail, not a tiny down-only chick; wet montane forest branch, not a nest claim.
+- **Links:** species/137-otus-alfredi-v3.md; production/runs/20261031T201150+0800-cycle-5.md.
+
+## FLO-AVIBASE-HARTERT-1897
+
+- **Title / institution / type:** Avibase taxonomic concept and original-description crosswalk for Flores Scops Owl / Birds Canada–Avibase; taxonomy aggregator with BHL link.
+- **URL / access:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=B25E9418CB873BAF&lang=EN ; accessed 2026-10-31, original-description section.
+- **Facts:** current name *Otus alfredi*; protonym *Pisorhina alfredi* Hartert 1897, Novitates Zoologicae 4 p.527; type locality Repok Mountains above 3,500 ft, Flores. Avibase 2026 retains *Otus alfredi*.
+- **Limits:** name mapping only; not used for morphology or development. The linked historical page was not separately treated as a verified full-text developmental source.
+- **Design use:** preserve repository #137 and record the old genus/name without silently changing the 251-scope numbering.
+
+**Mapping — #137 v3:** current *Otus alfredi* / protonym *Pisorhina alfredi* → FLO-WIDODO-1999 morphology, juvenile and habitat boundary; FLO-AVIBASE-HARTERT-1897 name mapping. New2 / reused0 / corrected0. Exact sex-size direction, nest site, juvenile age, flight ability and development sequence unknown; science remains false.

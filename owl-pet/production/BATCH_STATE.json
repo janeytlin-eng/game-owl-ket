@@ -9195,22 +9195,35 @@
         "version": 4,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T024200Z-cycle-6",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261031T024200Z-cycle-6.md",
-        "at": "2026-10-31T02:51:00Z",
+        "at": "2026-10-31T02:55:00Z",
         "evidence": {
-          "generated_path": "owl-pet/production/generated/103-tyto-longimembris-v4-generated-master.png",
-          "blob": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
-          "size": 2729182,
-          "width": 1514,
-          "height": 1039,
-          "sha256": "63ccf4572b26e070e930e33bf03a784ff6bb702e5f6e18c0f2da91ecf39955a8",
-          "imagegen_wait_seconds": 55.4,
-          "opened_in_generation_output": true,
-          "review_pending": true
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 1,
+          "full_image_viewed": true,
+          "review_crop_viewed": true,
+          "generated_blob": "634747c07ff26c27847ccbc22c1b956cd04fa04d",
+          "crop_blob": "2e48f07af037485d932bec1a337529669c760023",
+          "checks": [
+            "exact title and three role labels",
+            "exactly one adult male, one mesoptile, one adult female",
+            "paler male and darker modestly fuller/larger female",
+            "long partly bare distal legs and natural grass support",
+            "~55-day captive-reference rich golden-brown down, partial pink face, dark eyes, pale bill",
+            "mesoptile wing mostly concealed by down; both feet and belly fully supported; no flight claim"
+          ],
+          "unknowns": [
+            "wild-age equivalence",
+            "precise flight readiness",
+            "continuous feather sequence",
+            "population-wide display ratio",
+            "exact toe geometry"
+          ],
+          "scientifically_verified": false
         }
       },
-      "last_updated_at": "2026-10-31T02:51:00Z",
+      "last_updated_at": "2026-10-31T02:55:00Z",
       "audit_notes": [
         "2026-10-31T09:27:00+08:00: cycle1 #97 Lophostrix cristata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; v3 actual plate opened; missing repository number97 identified; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T09:34:00+08:00: cycle1 #97 v4 RESEARCH_READY; official erratum excludes Rocha2014 juvenile/flight evidence from Lophostrix; Mikkola pp358–359 and Birds of Bolivia retain white mesoptile/dark face/brown developed folded wings; sources new2/reused2/corrected1; full prompt saved; lease renewed; no credit.",
@@ -9245,19 +9258,20 @@
         "2026-10-31T11:02:00+08:00: cycle5 #102 v3 VERIFIED at fixed archive e3c58ceed07ea89e072a1ab8ee5a6f3f8bdfcdca; non-truncated 2301-entry tree, exact master/crop tuples and raw fixed-commit JSON manifests 603/602/593 passed. Adult calibration and age-unknown mesoptile review PASS_WITH_LIMITATIONS; science false. Batch5/6 next6; lease released.",
         "2026-10-31T02:42:00Z: cycle6 #103 Tyto longimembris v4 SCIENCE_REVISION STARTED; v1-v3 preserved; 15-minute UTC lease acquired; host-clock discontinuity recorded; no cycle credit.",
         "2026-10-31T02:47:00Z: cycle6 #103 v4 RESEARCH_READY; ABSA Bird in the Hand PDF page 1 opened and replaces the prior unverified lead: male/female wing, tail and mass ranges plus darker/larger female; Dunlop2016 captive ~55-day boundary retained; new1/reused4/corrected1; full prompt saved; lease renewed; science false; no credit.",
-        "2026-10-31T02:51:00Z: cycle6 #103 v4 IMAGE_GENERATED after 55.4-second imagegen edit; 1514x1039 PNG persisted as blob 634747c07ff26c27847ccbc22c1b956cd04fa04d; generated output opened; modest female fullness and softened mesoptile wing requested; detailed original/crop review pending; no credit."
+        "2026-10-31T02:51:00Z: cycle6 #103 v4 IMAGE_GENERATED after 55.4-second imagegen edit; 1514x1039 PNG persisted as blob 634747c07ff26c27847ccbc22c1b956cd04fa04d; generated output opened; modest female fullness and softened mesoptile wing requested; detailed original/crop review pending; no credit.",
+        "2026-10-31T02:55:00Z: cycle6 #103 v4 REVIEWED with no second edit. Generated whole frame and 620x760 mesoptile crop opened: exact text/count, paler male, darker modestly fuller/larger female, long partly bare legs, fuzzy down-concealed juvenile wing and bilateral ground support pass. PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-work-mode",
         "run_id": "20261031T024200Z-cycle-6",
-        "heartbeat_at": "2026-10-31T02:51:00Z",
-        "expires_at": "2026-10-31T03:06:00Z"
+        "heartbeat_at": "2026-10-31T02:55:00Z",
+        "expires_at": "2026-10-31T03:10:00Z"
       },
       "lease": {
         "owner": "codex-work-mode",
         "run_id": "20261031T024200Z-cycle-6",
-        "heartbeat_at": "2026-10-31T02:51:00Z",
-        "expires_at": "2026-10-31T03:06:00Z"
+        "heartbeat_at": "2026-10-31T02:55:00Z",
+        "expires_at": "2026-10-31T03:10:00Z"
       },
       "in_progress": {
         "cycle": 6,
@@ -9266,7 +9280,7 @@
         "version": 4,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T024200Z-cycle-6",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-10-31T02:42:00Z"
       }
     }

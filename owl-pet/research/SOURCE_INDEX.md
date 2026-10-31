@@ -1480,3 +1480,27 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Design use:** preserve repository #138 and record the old trinomial without changing the 251-species scope or numbering.
 
 **Mapping — #138 v3:** current *Otus mentawi* / protonym *Otus bakkamoena mentawi* → MEN-TAUFIQURRAHMAN-2018 juvenile morphology/support; MEN-MIKKOLA-2013-P166 adult morphology; MEN-AVIBASE-1926 name mapping. New3 / reused0 / corrected1. Exact sex-size direction, juvenile day age, flight ability and complete feather chronology remain unknown; science remains false.
+
+
+## 2026-10-31 — #139 *Otus jolandae* v3 evidence refresh
+
+### SLSO-SANGSTER-2013 (reused; URL correction)
+- **Title / authors / year / type:** “A New Owl Species of the Genus *Otus* (Aves: Strigidae) from Lombok, Indonesia,” George Sangster, Ben F. King, Philippe Verbelen & Colin R. Trainor; 2013; peer-reviewed primary taxonomy using field observations, recordings and seven Everett museum specimens.
+- **DOI / original URLs / access:** https://doi.org/10.1371/journal.pone.0053712 ; https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053712 ; PMC https://pmc.ncbi.nlm.nih.gov/articles/PMC3572129/ ; accessed 2026-10-31. The earlier #135 index line's PMC3576389 is corrected here to PMC3572129.
+- **Pages / sections read:** PLOS ONE 8(2):e53712, pp.1–13; especially Diagnosis: Morphology, Variation in the Type Series and Habitat and Biology, printed pp.8–11; Fig.1 and Fig.S1 metadata.
+- **Species / stages:** current *Otus jolandae* adults; one female specimen AMNH 629942 with scattered retained juvenile crown/nape feathers. Historically Lombok birds had been assigned to *Otus magicus* / *O. magicus albiventris*.
+- **Facts:** adults are dark cinnamon-brown above, less boldly patterned than *O. m. albiventris*, with smaller white median/greater covert marks, warm-cinnamon breast with narrow irregular white/dark bars and a paler finely barred belly. Tarsometatarsus is fully feathered to toe bases. One female differs by scattered white–buffy juvenile crown/nape feathers, buff-based rictal bristles and barred buff chin/throat. Forest/wooded habitat spans about 25–1350 m. The paper gives no juvenile age or flight threshold and no fixed standing sex ratio.
+- **Limits / design:** the retained juvenile feathers belong to a specimen otherwise near adult and cannot define a nestling. Use an age-unknown older immature with formed wings/tail, only scattered crown/nape remnants and natural branch support. Adults stay near equal; individual female pattern differences are not a universal sex palette.
+
+### RIN-MIKKOLA-2013-P188 (new)
+- **Title / author / year / type:** *Owls of the World: A Photographic Guide*, 2nd ed.; Heimo Mikkola; 2013; user-uploaded secondary photographic guide.
+- **Access / page:** Library file `libfile_916e2244186c81918fe5a0716884b8c9`; directly read 2026-10-31, printed p.188 / uploaded PDF p.190 (PDF p.191 is the adjacent *O. magicus* account).
+- **Species / stages:** *Otus jolandae* adult account; juvenile explicitly “Undescribed” at publication.
+- **Facts:** c.23 cm and c.115 g; long ear tufts; warm-brown upperparts, whitish scapular band, broad pale primary bars, dark-cinnamon crown/nape, golden-yellow eyes, blackish-brown bill, rusty underparts with irregular pale/dark shaft marks; legs feathered to dull-ochre toe bases with dark claws; wooded/degraded forest and quiet-road habitat to 1350 m. No sexual size data.
+- **Limits / design:** secondary account predates any later juvenile evidence and cannot support hatchling anatomy, precise age, iris chronology or flight ability. Its “juvenile undescribed” reinforces keeping the older immature conservative and science=false.
+
+### RIN-PLOS-FIG1-2008 (reused)
+- **Record:** PLOS article Fig.1 field photographs of *O. jolandae*, Lombok, August 2008, Philippe Verbelen; reopened through the article/PMC figure metadata on 2026-10-31.
+- **Use / limits:** real-adult comparator for compact facial disc, dark warm-brown identity and modest pale markings; not a sexed pair, development series or exact scale reference.
+
+**Mapping / delta — #139 v3:** current *Otus jolandae* / former broad treatment *Otus magicus* or *O. magicus albiventris* → SLSO-SANGSTER-2013 adult/retained-juvenile-feather boundary, RIN-MIKKOLA-2013-P188 adult guide and explicit juvenile gap, RIN-PLOS-FIG1-2008 adult field comparator. New1 / reused2 / corrected1. Exact juvenile age, iris, flight ability, nest details, continuous feather chronology and visible sex-size direction remain unknown; scientific verification remains false. [Species research](species/139-otus-jolandae-v3.md) · [Run](../production/runs/20261031T212811+0800-cycle-1.md).

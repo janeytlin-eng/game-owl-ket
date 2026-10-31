@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:26:00+08:00",
+  "updated": "2026-10-31T10:29:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14292,11 +14292,49 @@
       "review_crop_blob": "19e920195f255c4eb6a348ad3915f9954e307cce",
       "review_crop_sha256": "686c2eb61fda61509468a92a830eca88afb13870f710be7ecb34beb6e908dba9",
       "review_crop_size_bytes": 743716,
-      "readback_pending": true,
+      "readback_pending": false,
       "git_blob": "7a2ba27f65953dc5830825328de7d3bdb8553a3d",
-      "fixed_archive_commit": null,
-      "exact_readback": false
+      "fixed_archive_commit": "e91422cabccd0d0b6791088a21838ef44749b2b6",
+      "exact_readback": true,
+      "verified_at": "2026-10-31T10:29:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "e91422cabccd0d0b6791088a21838ef44749b2b6",
+        "method": "fixed recursive tree exact path/blob/size readback",
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/100-strix-huhula-v4.png",
+            "sha": "7a2ba27f65953dc5830825328de7d3bdb8553a3d",
+            "size": 3096893
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/100-strix-huhula-v4-generated-master.png",
+            "sha": "159d152d3d596eb942bce4303386b4b0ba032e3c",
+            "size": 3169613
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/100-strix-huhula-v4-reviewed-master.png",
+            "sha": "7a2ba27f65953dc5830825328de7d3bdb8553a3d",
+            "size": 3096893
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/100-strix-huhula-v4-fledgling.png",
+            "sha": "19e920195f255c4eb6a348ad3915f9954e307cce",
+            "size": 743716
+          }
+        },
+        "manifest_counts": {
+          "legacy": 601,
+          "design": 600,
+          "production": 591
+        },
+        "tree": {
+          "entries": 2289,
+          "truncated": false
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:26:00+08:00"
+  "updated_at": "2026-10-31T10:29:00+08:00"
 }

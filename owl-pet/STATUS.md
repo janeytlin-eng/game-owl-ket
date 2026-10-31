@@ -2869,3 +2869,8 @@ Fixed archive `26c31998af84369d7fa77c7d600b21a2bdd6691b` passed exact recursive-
 ## 2026-10-31 — #100 *Strix huhula* v4 archived, verification pending
 
 V4 now visibly applies the recorded juvenile boundary: shorter rounded lower-contrast wing and mostly concealed short tail; one typography/label edit. PASS_WITH_LIMITATIONS; unique 175/251; science false.
+
+
+### #100 v4 verified — 2026-10-31T10:29:00+08:00
+
+Fixed archive `e91422cabccd0d0b6791088a21838ef44749b2b6` passed exact recursive-tree asset and support readback. Batch 3/6 next 4; unique 175/251; science false.

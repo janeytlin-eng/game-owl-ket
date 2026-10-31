@@ -12275,7 +12275,7 @@
     },
     {
       "batch_id": "20261101T040500+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -12325,9 +12325,21 @@
           "commit_sha": "cda6e0c3a3a32fe91a13514e87aa01379c662797",
           "archive_commit": "9e4a4a015309566338b07c97e03d70c2dda40594",
           "run_record": "owl-pet/production/runs/20261101T044100+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus insularis",
+          "species_id": 178,
+          "version": 2,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "ab324bfa5f18de776fd44959148491b9a201dffd",
+          "archive_commit": "7c85a4972a8ffc40f35feb37ecb58297754b7687",
+          "run_record": "owl-pet/production/runs/20261101T050000+0800-cycle-6.md"
         }
       ],
-      "next_cycle": 6,
+      "next_cycle": null,
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T034300+0800-cycle-4",
@@ -12340,22 +12352,7 @@
         "heartbeat_at": "2026-11-01T04:38:00+08:00",
         "expires_at": "2026-11-01T04:53:00+08:00"
       },
-      "in_progress": {
-        "cycle": 6,
-        "species_id": 178,
-        "species": "Otus insularis",
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261101T050000+0800-cycle-6",
-        "run_record": "owl-pet/production/runs/20261101T050000+0800-cycle-6.md",
-        "stage": "ARCHIVED",
-        "lease": {
-          "owner": "codex-automation",
-          "run_id": "20261101T050000+0800-cycle-6",
-          "heartbeat_at": "2026-11-01T05:16:00+08:00",
-          "expires_at": "2026-11-01T05:31:00+08:00"
-        }
-      },
+      "in_progress": null,
       "last_checkpoint": {
         "cycle": 4,
         "species": "Otus pembaensis",
@@ -12816,7 +12813,8 @@
             "review_flag": "mesoptile wing too long/adult-hard with regular white spots; targeted juvenile-only edit required"
           }
         }
-      ]
+      ],
+      "completed_at": "2026-11-01T05:20:00+08:00"
     }
   ],
   "lease": {
@@ -12956,7 +12954,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-01T05:16:00+08:00",
+  "updated_at": "2026-11-01T05:20:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -16360,12 +16358,43 @@
         "scientifically_verified": false,
         "readback_pending": true
       }
+    },
+    {
+      "batch_id": "20261101T040500+0800",
+      "cycle": 6,
+      "run_id": "20261101T050000+0800-cycle-6",
+      "species_id": 178,
+      "stage": "VERIFIED",
+      "at": "2026-11-01T05:19:00+08:00",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "ab324bfa5f18de776fd44959148491b9a201dffd",
+        "archive_commit": "7c85a4972a8ffc40f35feb37ecb58297754b7687",
+        "tree_sha": "c244d3c2f00379790d8a37607b2339879d7e4279",
+        "tree_count": 2648,
+        "recursive_tree_truncated": false,
+        "paths_verified": 7,
+        "binary_assets_verified": 7,
+        "concept_blob": "4b5c9e3bc444ec76f3cf9fd2a4d71d231c8a23c7",
+        "manifest_counts": {
+          "design_image": 645,
+          "design_legacy": 646,
+          "production": 636
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "next_cycle": null,
+        "batch_complete": true,
+        "path_blob_readback": true,
+        "main_head_readback": true,
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "active_batch_id": "20261101T040500+0800",
-  "active_cycle": 6,
-  "current_stage": "ARCHIVED",
-  "next_cycle": 6,
+  "active_batch_id": null,
+  "active_cycle": null,
+  "current_stage": "IDLE",
+  "next_cycle": null,
   "unique_species_count": 176,
   "total_species": 251
 }

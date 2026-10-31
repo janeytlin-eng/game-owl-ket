@@ -897,3 +897,11 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Evidence limitation / conflict / confidence: study goal was haematology, not morphometric dimorphism; the introduction repeats a secondary claim that females are larger, but no birds were sexed and no sex-specific measurements were collected. High confidence for “do not visually exaggerate”; not evidence of exact equality.
 - Design decision: keep #99 adults near equal in skeletal height and avoid a fixed female-larger multiplier. This corrects the production boundary without claiming sex can be identified visually.
 - Links: `research/species/99-bubo-magellanicus-v4.md`; `production/runs/20261031T095200+0800-cycle-2.md`; v4 plate.
+
+
+## 2026-10-31 — #100 *Strix huhula* v4 actual-image correction
+
+- Reused source IDs: `HUH-BC2013`, `HUH-MUNOZ-2019`, `HUH-MIK2013-340`; no duplicate source entries created.
+- Actual content re-read: Bodrati & Cockle 2013, printed p.175 (18–27 November pale-gray-dominant barred juvenile, active walking); Muñoz-García et al. 2019, newsletter pp.16–18 (30 August low-branch replacement; 7 September short flights between branches).
+- Corrected repository inference: v3’s opened image still shows an adult-proportioned folded wing and exposed barred tail even though its status says shortened/rounded. V4 must visually apply the recorded evidence boundary; exact geometry remains unknown.
+- Links: `research/species/100-strix-huhula-v4.md`; `production/runs/20261031T101100+0800-cycle-3.md`.

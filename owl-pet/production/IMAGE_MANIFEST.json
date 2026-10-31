@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T02:49:00Z",
+  "updated": "2026-10-31T03:38:29Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -14075,7 +14075,56 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "104-asio-madagascariensis-v4",
+      "path": "design/concepts/104-asio-madagascariensis-v4.png",
+      "species_id": 104,
+      "scientific_name": "Asio madagascariensis",
+      "historical_names": [
+        "Otus madagascariensis"
+      ],
+      "common_name": "Madagascar Long-eared Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "sha256": "ff8fd05590d867ee0f16aecf9f0a3628c617b5c22c11e4d48c5f5cbf81cc7e1d",
+      "size_bytes": 3086916,
+      "dimensions": "1536x1024",
+      "status": "SCIENCE_REVISION after actual v3 audit: one referenced-image edit narrowed broad rigid adult tuft fans, retained only modest female fullness, preserved sparse lower-belly marks and the photograph-supported formed-wing older branching mesoptile, and improved feathering over adult tarsi/proximal toe bases. Full plate plus juvenile and all-feet crops PASS_WITH_LIMITATIONS; juvenile age/sex, iris chronology, flight threshold, universal tuft pose, toe-by-toe feather boundary and population-wide dimorphism remain unknown.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "MLO-RDR-GOODMAN-2003",
+        "MLO-VASSEN-2013-JUV",
+        "MLO-PETERDAY-2016-JUV",
+        "MLO-FENEROLE-2006-MALE"
+      ],
+      "research_record": "research/104-asio-madagascariensis-v4.md",
+      "run_record": "production/runs/20261031T113052+0800-cycle-1.md",
+      "reviewed_at": "2026-10-31T03:36:24Z",
+      "generated_path": "production/generated/104-asio-madagascariensis-v4-generated-master.png",
+      "generated_blob": "4b0b7c71f1b9ce39564886878450750f57afc8b2",
+      "generated_sha256": "ff8fd05590d867ee0f16aecf9f0a3628c617b5c22c11e4d48c5f5cbf81cc7e1d",
+      "generated_size_bytes": 3086916,
+      "reviewed_path": "production/reviewed/104-asio-madagascariensis-v4-reviewed-master.png",
+      "reviewed_blob": "4b0b7c71f1b9ce39564886878450750f57afc8b2",
+      "reviewed_sha256": "ff8fd05590d867ee0f16aecf9f0a3628c617b5c22c11e4d48c5f5cbf81cc7e1d",
+      "reviewed_size_bytes": 3086916,
+      "review_crop_path": "production/review-crops/104-asio-madagascariensis-v4-juvenile.png",
+      "review_crop_blob": "8ef7401f07e7e5dfd2f0b63c3dd12d2e43f5f5bd",
+      "review_crop_sha256": "ee23721a3bd821d387113b571b3f5229998431179f92b8fab3c063b923874933",
+      "review_crop_size_bytes": 610434,
+      "auxiliary_review_crop_path": "production/review-crops/104-asio-madagascariensis-v4-feet.png",
+      "auxiliary_review_crop_blob": "bccb2d52b4c8ed7aaa0bf4b6a87aed167e392a90",
+      "auxiliary_review_crop_sha256": "051432c223186fedb88fe05ccfcdaa204d12a8bea4311861e922505d55b80d61",
+      "auxiliary_review_crop_size_bytes": 848752,
+      "readback_pending": true,
+      "git_blob": "4b0b7c71f1b9ce39564886878450750f57afc8b2",
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-10-31T02:49:00Z"
+  "updated_at": "2026-10-31T03:38:29Z"
 }

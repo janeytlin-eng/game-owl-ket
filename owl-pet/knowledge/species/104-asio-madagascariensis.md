@@ -21,3 +21,10 @@ PNG: 1536×1024, 3,080,709 bytes; SHA256 `adf07f58364beae779c46a6f9299d55e1226ad
 [Original](../../design/concepts/104-asio-madagascariensis-v3.jpg) · [research](../../research/104-asio-madagascariensis-v3.md) · [run](../../production/runs/20261029T1955+0800-cycle-6.md)
 
 One edit reduced overly heavy adult lower-belly streaks and shortened/softened the juvenile's adult-like wing rows while retaining the photograph-supported formed mesoptile wing. Final full plate and crop passed with limitations. Scientific status remains false.
+
+
+## v4 staged revision — 2026-10-31
+
+[Original](../../design/concepts/104-asio-madagascariensis-v4.png) · [research](../../research/104-asio-madagascariensis-v4.md) · [run](../../production/runs/20261031T113052+0800-cycle-1.md)
+
+The archived v3 original was opened and compared with the primary chapter plus dated adult and juvenile field photographs. One referenced-image edit narrowed the adults' rigid fan-like ear tufts into long flexible tufts, retained restrained female fullness, kept sparse lower-belly marks, preserved the older juvenile's legitimate formed brown wings and improved feathering over adult tarsi/proximal toe bases. Full plate, juvenile crop and all-feet crop passed with limitations. Exact juvenile age/sex, iris chronology, flight threshold, continuous molt, population-wide size ratio and toe-by-toe feather boundary remain unknown; `scientifically_verified=false`.

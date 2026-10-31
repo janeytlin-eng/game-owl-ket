@@ -3021,3 +3021,8 @@ Fixed archive [`3e343d1cb731e1642e4cf5c54b0bb17257b0c159`](https://github.com/ja
 ### #130 v3 verified — 2026-10-31T18:14:00+08:00
 
 Fixed archive [`793c769923b8a255846054a8e0371b59e2989cf5`](https://github.com/janeytlin-eng/game-owl-ket/commit/793c769923b8a255846054a8e0371b59e2989cf5) returned six exact image tuples; final PNG decoded at 1536×1024 and matched SHA-256. Complete manifests 614/613/604; batch 4/6 next5; unique175/251; science false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/793c769923b8a255846054a8e0371b59e2989cf5/owl-pet/design/concepts/130-megascops-koepckeae-v3.png?raw=1).
+
+
+## 2026-10-31 — #139 *Otus jolandae* v3 archived; fixed readback pending
+
+V3 preserves v1–v2, narrows over-regular pale markings and edits the age-unknown older immature wing after original-resolution review. Full plate and two review crops opened; PASS_WITH_LIMITATIONS, science false, unique remains **175/251**. Sources: Sangster et al. 2013 pp.8–11, user-uploaded Mikkola printed p.188/PDF p.190, and the PLOS Fig.1 adult comparator. Source delta new1/reused2/corrected1. [Research](research/species/139-otus-jolandae-v3.md) · [Run](production/runs/20261031T212811+0800-cycle-1.md).

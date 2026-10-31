@@ -16336,6 +16336,57 @@
         "unique_species": "175/251",
         "scientifically_verified": false
       }
+    },
+    {
+      "id": "139-otus-jolandae-v3",
+      "path": "design/concepts/139-otus-jolandae-v3.png",
+      "species_id": 139,
+      "scientific_name": "Otus jolandae",
+      "historical_names": [
+        "Otus magicus",
+        "Otus magicus albiventris"
+      ],
+      "common_name": "Rinjani Scops Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v3 科学校准图经1次生成、1次幼鸟翼部定向编辑，并实际查看全图、较老未成熟鸟及成年体型/足部裁切。成年鸟为暗肉桂褐色、金黄虹膜、黑褐嘴、较小且不规则的浅色肩/翼覆羽标记，暖肉桂胸与较浅细横斑腹部对比；雌雄近等体型且姿态不克隆，跗跖羽被到趾基、六足有自然支撑。年龄未知较老未成熟鸟闭眼、体型较小，形成但缩短软化的翼尾与散在白至浅黄褐冠颈幼羽，不声明精确日龄、虹膜或飞行能力。PASS_WITH_LIMITATIONS，scientifically_verified=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "SLSO-SANGSTER-2013",
+        "RIN-MIKKOLA-2013-P188",
+        "RIN-PLOS-FIG1-2008"
+      ],
+      "research_record": "research/species/139-otus-jolandae-v3.md",
+      "run_record": "production/runs/20261031T212811+0800-cycle-1.md",
+      "reviewed_at": "2026-10-31T21:34:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "db3380a41983be76b02e5d739d8635475ced2b3a08e21293d2dfbcb989fe5053",
+      "size_bytes": 2640467,
+      "generated_path": "production/generated/139-otus-jolandae-v3-generated-master.png",
+      "generated_blob": "20c19043387c3af97f94611e0952b34e7a60a60d",
+      "generated_sha256": "292900a6386f5e3e712b900ec2604d04111f51b8ee90b51c023f989a0a95dc21",
+      "generated_size_bytes": 2773644,
+      "intermediate_edit_path": "production/generated/139-otus-jolandae-v3-edit1.png",
+      "intermediate_edit_blob": "3e24d1b53dcf29695f757dffd20d8d989731a7d9",
+      "reviewed_path": "production/reviewed/139-otus-jolandae-v3-reviewed-master.png",
+      "reviewed_blob": "3e24d1b53dcf29695f757dffd20d8d989731a7d9",
+      "reviewed_sha256": "db3380a41983be76b02e5d739d8635475ced2b3a08e21293d2dfbcb989fe5053",
+      "reviewed_size_bytes": 2640467,
+      "review_crop_path": "production/review-crops/139-otus-jolandae-v3-older-immature.png",
+      "review_crop_blob": "2f69b88a5b1233fe107a6a11dc8f38fb52f2d293",
+      "review_crop_sha256": "1f2152a8185b7cdeae72e447e8d8e2fad0391fafbc9a13da5e190ba2ad4a50d3",
+      "review_crop_size_bytes": 624722,
+      "auxiliary_review_crop_path": "production/review-crops/139-otus-jolandae-v3-adult-size-feet.png",
+      "auxiliary_review_crop_blob": "36239de99f0124f26306998fc865972c252b4fc4",
+      "auxiliary_review_crop_sha256": "b5d0c27524c0cfd0c6bd440c13f657e5511583948384d8c087d9f8f29ba8b863",
+      "auxiliary_review_crop_size_bytes": 1136067,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "3e24d1b53dcf29695f757dffd20d8d989731a7d9"
     }
   ],
   "updated_at": "2026-10-31T12:49:55.000Z"

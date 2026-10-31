@@ -12,3 +12,14 @@ Actual v1 and v2 viewed. v2 repairs the blank lower third, cropped unsupported b
 ![image](../../design/concepts/139-otus-jolandae-v2.png)
 
 [Research/prompt/review](../../production/runs/2026-10-27T0728+0800-cycle-6.md)
+
+
+## 139-otus-jolandae-v3 2026-10-31T21:34:00+08:00
+
+Problem → evidence → change → recheck: v2 had over-pale facial disks, regular large wing marks and a miniature-adult young bird. Sangster et al. 2013 pp.8–11 and Mikkola printed p.188/PDF p.190 constrain darker cinnamon adults, smaller pale coverts, no sex-size rule and only scattered retained crown/nape juvenile feathers in one otherwise near-adult specimen. V3 keeps adults near equal but changes posture, narrows pale marks and uses a supported age-unknown older immature. One targeted edit shortened/softened the young wing. Full 1536×1024 plate plus juvenile and adult-feet crops reopened: PASS_WITH_LIMITATIONS; exact age, iris, flight, nest and continuous feather sequence unknown; science false.
+
+![image](../../design/concepts/139-otus-jolandae-v3.png)
+
+[Research](../../research/species/139-otus-jolandae-v3.md) · [Run](../../production/runs/20261031T212811+0800-cycle-1.md)
+
+Reusable rule (applied and visually verified here, scoped): when evidence is an otherwise near-adult specimen with scattered retained juvenile crown/nape feathers, do not convert it to a downy chick or copy a full mature wing; use formed but shortened/softened remiges and keep exact age/ability unknown.

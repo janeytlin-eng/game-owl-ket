@@ -1520,3 +1520,9 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Generated v3, rejected the first long regular juvenile wing, performed one targeted edit, and reopened the full plate plus juvenile/support crops. `PASS_WITH_LIMITATIONS`; unique increment 0; science false.
 - Assets and manifests 612/611/602 archived; fixed readback pending.
 - Fixed archive `37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0` verified a complete 2,368-entry tree, exact six-image blob/byte tuples and parseable manifests 612/611/602. Cycle 2 credited; batch 2/6, next 3.
+
+
+## 2026-10-31 — #139 *Otus jolandae* v3 science revision
+
+- Preserved v1–v2; added primary/guide evidence, one generated master, one targeted juvenile-wing edit, reviewed master and two review crops.
+- PASS_WITH_LIMITATIONS; unique species 175/251; scientific verification false pending fixed archive readback and later whole-set calibration.

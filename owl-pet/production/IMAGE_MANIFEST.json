@@ -15454,63 +15454,57 @@
       "auxiliary_review_crop_blob": "e0c53aab4a8cefe79b89970aea6d54a124254e9f",
       "auxiliary_review_crop_sha256": "f178df37e53989cb3f4ba9a82202840fae6a73aae41890b97e62b90741bcac6b",
       "auxiliary_review_crop_size_bytes": 1273053,
-      "readback_pending": false,
-      "exact_readback": true,
-      "git_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
-      "fixed_archive_commit": "539b391f2ad4b8c02687b19451822e9e94cc1ded",
-      "verified_at": "2026-10-31T12:09:41.929Z",
-      "readback": {
-        "status": "VERIFIED",
-        "fixed_archive_commit": "539b391f2ad4b8c02687b19451822e9e94cc1ded",
-        "method": "immutable archive commit tree plus exact path/blob/byte readback; local full PNG decode and crop inspection; complete manifest JSON parsing; main branch head readback",
-        "tree_sha": "0ce998653a3b779f3ee4b54a77d947ac6199ba8b",
-        "tree_count": 2431,
-        "tree_truncated": false,
-        "assets": {
-          "concept": {
-            "path": "owl-pet/design/concepts/136-megascops-petersoni-v3.png",
-            "sha": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
-            "size": 2786647
-          },
-          "generated": {
-            "path": "owl-pet/production/generated/136-megascops-petersoni-v3-generated-master.png",
-            "sha": "641f560cc52485cae1f360ebb729fd48954b2317",
-            "size": 2959784
-          },
-          "edit": {
-            "path": "owl-pet/production/generated/136-megascops-petersoni-v3-edit1.png",
-            "sha": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
-            "size": 2786647
-          },
-          "reviewed": {
-            "path": "owl-pet/production/reviewed/136-megascops-petersoni-v3-reviewed-master.png",
-            "sha": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1",
-            "size": 2786647
-          },
-          "first_year_crop": {
-            "path": "owl-pet/production/review-crops/136-megascops-petersoni-v3-first-year.png",
-            "sha": "f97d9c1911dc6d1ffb5ef5f032923aadd83ec658",
-            "size": 774228
-          },
-          "adult_size_feet_crop": {
-            "path": "owl-pet/production/review-crops/136-megascops-petersoni-v3-adult-size-feet.png",
-            "sha": "e0c53aab4a8cefe79b89970aea6d54a124254e9f",
-            "size": 1273053
-          }
-        },
-        "manifest_counts": {
-          "legacy": 620,
-          "design": 619,
-          "production": 610
-        },
-        "manifest_json_valid": true,
-        "path_blob_readback": true,
-        "png_full_decode": true,
-        "sha256_verified": true,
-        "unique_species": "175/251",
-        "scientifically_verified": false
-      }
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "e38d12d9d10aa21443d63dca1149ad8f4b133fa1"
+    },
+    {
+      "id": "137-otus-alfredi-v3",
+      "path": "design/concepts/137-otus-alfredi-v3.png",
+      "species_id": 137,
+      "scientific_name": "Otus alfredi",
+      "historical_names": [
+        "Pisorhina alfredi"
+      ],
+      "common_name": "Flores Scops Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v3 依据 Widodo et al. 1999 完整论文重建：近等体型成年鸟保留短圆耳羽、肉桂红体色、黄虹膜/嘴/足、白色带深褐斑肩羽和密集跗跖羽；年龄未知首年雄鸟保留较淡胎绒与更清楚尾斑。一次幼鸟定向编辑移除过度规整的成年型翼斑并缩短/遮蔽尾羽。全图与两张裁切实际查看；PASS_WITH_LIMITATIONS，scientifically_verified=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "FLO-WIDODO-1999",
+        "FLO-AVIBASE-HARTERT-1897"
+      ],
+      "research_record": "research/species/137-otus-alfredi-v3.md",
+      "run_record": "production/runs/20261031T201150+0800-cycle-5.md",
+      "reviewed_at": "2026-10-31T12:14:55.396Z",
+      "dimensions": "1536x1024",
+      "sha256": "7357c7c22ff7c1f77015ad33bef63d76cff503b0c6cf3529fc824bdb8457b27f",
+      "size_bytes": 2843399,
+      "generated_path": "production/generated/137-otus-alfredi-v3-generated-master.png",
+      "generated_blob": "bd6ffa815c05250c7703af170a06d3706e79f304",
+      "generated_sha256": "41e457c008cae18fa9d898d3267d339e65f7e479582f5c60b4ae7edcbd9f3ed8",
+      "generated_size_bytes": 2961138,
+      "reviewed_path": "production/reviewed/137-otus-alfredi-v3-reviewed-master.png",
+      "reviewed_blob": "6b39107b24b42c03e560ab87214af906c6f448d7",
+      "reviewed_sha256": "7357c7c22ff7c1f77015ad33bef63d76cff503b0c6cf3529fc824bdb8457b27f",
+      "reviewed_size_bytes": 2843399,
+      "review_crop_path": "production/review-crops/137-otus-alfredi-v3-first-year.png",
+      "review_crop_blob": "5cc482e8175d1a6eb6b9c9e882a7b57ebef3201d",
+      "review_crop_sha256": "5b14eed4a6680208a8f81185188a4f70fc9b0b73f42925e00beb0ffcb96f4c4f",
+      "review_crop_size_bytes": 784884,
+      "auxiliary_review_crop_path": "production/review-crops/137-otus-alfredi-v3-adult-size-feet.png",
+      "auxiliary_review_crop_blob": "23dc9fc0f278379c266d83d969b14b3e801e3dbf",
+      "auxiliary_review_crop_sha256": "cc166be7aa2c752162bb4f34a750a250650eb8b06874f25f6a202b0dcd80753d",
+      "auxiliary_review_crop_size_bytes": 1245646,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "6b39107b24b42c03e560ab87214af906c6f448d7"
     }
   ],
-  "updated_at": "2026-10-31T12:09:41.929Z"
+  "updated_at": "2026-10-31T12:14:55.396Z"
 }

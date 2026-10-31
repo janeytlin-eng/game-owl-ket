@@ -14,3 +14,12 @@ Actual v1 review found oversized blank white shoulder shields, repeated crisp wi
 
 ## 137-otus-alfredi-v2 archive
 First generation actual-viewed and failed missing labels plus repeated large wing spots; one targeted edit restored all labels, bounded adult scapular white to compact dark-blotched spots and softened juvenile shoulder/wing maturity cues. Edited original and indexed PNG passed actual review. Closed juvenile eyes remain a design choice; exact age/iris/flight unknown. Blob `d5248dc6b4a8c499f3370cc0bb193a169f7e0d60`, 577,955 bytes, SHA-256 `22ce5bfd6de94d59214fc1a8924abe3a573bf4e6a94f79806070b01c567faa4b`. Science false. [Original](../../design/concepts/137-otus-alfredi-v2.png) · [run](../../production/runs/2026-10-27T0728+0800-cycle-5.md).
+
+
+## v3 科学校准（2026-10-31）
+
+- 主要证据：Widodo, Cox & Rasmussen 1999, Forktail 15:15–23；旧名 *Pisorhina alfredi* 由 Avibase/Hartert 1897 映射。
+- 成年：短圆耳羽、肉桂红、黄虹膜/嘴/足、无粗黑纵纹、跗跖密羽且末端约三分之一裸；历史性别判定不稳，图中不固定雌大雄小。
+- 首年雄鸟：年龄未知；保留稍淡、近均匀肉桂色胎绒与更清楚尾斑；不声称飞行能力或精确日龄。
+- 环境：湿润山地林活枝；巢位未知，不造巢。
+- 成图：design/concepts/137-otus-alfredi-v3.png；一次幼鸟翼/尾编辑；PASS_WITH_LIMITATIONS；science=false。

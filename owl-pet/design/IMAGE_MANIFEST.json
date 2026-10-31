@@ -17933,7 +17933,67 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "178-otus-insularis-v2",
+      "path": "design/concepts/178-otus-insularis-v2.png",
+      "species_id": 178,
+      "scientific_name": "Otus insularis",
+      "historical_names": [
+        "Gymnoscops insularis"
+      ],
+      "common_name": "Seychelles Scops Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 full-resolution evidence correction. Sexed Currie et al. biometrics support a subtly fuller/heavier female on average while linear measurements overlap; adults retain the same plumage. The juvenile is the directly documented recent-fledgling stage (c.8–12 weeks), fluffy/barred and a clumsy flier, fully supported beside a natural trunk fissure. Initial adult-like juvenile primaries/tail were shortened and softened in edit1. Full plate and two original-detail crops passed. Juvenile feather-pattern rendering remains stage-level design inference rather than individual photographic calibration. PASS_WITH_LIMITATIONS; science=false.",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "SSCO-CURRIE-ETAL-2002-P16-18",
+        "SSCO-CURRIE-ETAL-2004-P123-137",
+        "SSCO-ITIS-202272-2026",
+        "SSCO-MIKKOLA-2013-P138"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/178-otus-insularis-v2.md",
+      "run_record": "production/runs/20261101T050000+0800-cycle-6.md",
+      "reviewed_at": "2026-11-01T05:14:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "d0da322d89cf885613408c3a199ea18d8d12447a8694b8da3a244f4dc6b91574",
+      "size_bytes": 3150047,
+      "initial_generated_path": "production/generated/178-otus-insularis-v2-generated-master.png",
+      "initial_generated_blob": "5463e7a65651fa993b6e7988ba66af99c5c8b601",
+      "initial_generated_sha256": "78c7f18a98554a6b69ee30278d5550a5669fbfed9e4d9a8ae3952c7e9bc00816",
+      "initial_generated_size_bytes": 3328732,
+      "generated_path": "production/generated/178-otus-insularis-v2-edit1.png",
+      "generated_blob": "4b5c9e3bc444ec76f3cf9fd2a4d71d231c8a23c7",
+      "generated_sha256": "d0da322d89cf885613408c3a199ea18d8d12447a8694b8da3a244f4dc6b91574",
+      "generated_size_bytes": 3150047,
+      "reviewed_path": "production/reviewed/178-otus-insularis-v2-reviewed-master.png",
+      "reviewed_blob": "4b5c9e3bc444ec76f3cf9fd2a4d71d231c8a23c7",
+      "reviewed_sha256": "d0da322d89cf885613408c3a199ea18d8d12447a8694b8da3a244f4dc6b91574",
+      "reviewed_size_bytes": 3150047,
+      "review_crop_path": "production/review-crops/178-otus-insularis-v2-recent-fledgling.png",
+      "review_crop_blob": "23536d2ac37d4720e19f957aac13930bb708d005",
+      "review_crop_sha256": "d9c54b4ad60a971a3ab9d72191bb8e1e37a2fd7f33b616010ea224c352dab1ca",
+      "review_crop_size_bytes": 741527,
+      "auxiliary_review_crop_path": "production/review-crops/178-otus-insularis-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "835ee474a4554923e583a0a5b82ba5e52e5a3bfa",
+      "auxiliary_review_crop_sha256": "964a571102f433669005d11b7c625529616fae210155d750e002c01ee56313c2",
+      "auxiliary_review_crop_size_bytes": 1181919,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "4b5c9e3bc444ec76f3cf9fd2a4d71d231c8a23c7",
+      "v1_integrity": {
+        "git_blob": "4ea9d2d20a880f82f187f2ed40680b9255a90729",
+        "size_bytes": 705057,
+        "sha256": "ae7b2e63f18030b44fdd81055845e147dcb2b63635a38c04762d0ccf4fbf45c3",
+        "archive_commit": "89766ecd3c818d4ecf7ce8a243fa99afd789c6bf"
+      }
     }
   ],
-  "updated_at": "2026-11-01T04:56:00+08:00"
+  "updated_at": "2026-11-01T05:16:00+08:00"
 }

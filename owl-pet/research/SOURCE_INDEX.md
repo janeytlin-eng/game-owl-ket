@@ -1858,3 +1858,41 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **TSO-FUCHS-ETAL-2007-P408-418:** Fuchs et al. 2007, *Condor* 109:408–418, DOI https://doi.org/10.1093/condor/109.2.408 ; abstract/indexed text read. Low mtDNA divergence and recent population split argue for lumping; dry-west form tends greyer/yellow-brown with shorter tufts/longer tail. Checklist conflict retained.
 - **TSO-ITIS-686657-2025:** ITIS TSN 686657 live page read; valid *O. madagascariensis*, synonym *Scops madagascariensis*, IOC v15.1 reference. Taxonomy only.
 - **Reused:** TSO-MIKKOLA-2013-P145 for short-tufted grey adults and age-unknown older immature. New3/reused1/corrected3 (split/lump evidence, exceptional nest boundary, older-immature not chick, low-resolution v1 replacement). Exact immature age/flight and downy chick remain unknown; science=false. [Research](species/173-otus-madagascariensis-v2.md) · [Run](../production/runs/20261101T040500+0800-cycle-1.md).
+
+
+## 2026-11-01 — #174 *Strix sartorii* v2 evidence refresh
+
+### CIO-PIEPLOW-ETAL-2020-P221-227
+- **Title / authors:** “Changes in the Status and Distribution of the Cinereous and Fulvous Owls in Mexico”; Pieplow, Spencer, Sanchez & Grosselet.
+- **Year / source type:** 2020; peer-reviewed field survey and status paper, *Western Birds* 51:221–227.
+- **URL / DOI:** https://doi.org/10.21199/WB51.3.3
+- **Accessed / location read:** 2026-11-01; printed pp.221–223, including abstract, habitat and methods.
+- **Species / stage:** *Strix sartorii*; adults/general distribution.
+- **Facts:** 2016/2017/2019 surveys detected the species only at Rancho La Noria/Cerro San Juan; modern site is humid pine–oak forest near 1,650 m; historical records span roughly 600–3,000 m.
+- **Limits / confidence:** strong for survey result and habitat, not development, nesting or sexual dimorphism.
+- **Design use:** Nayarit humid pine–oak setting; no juvenile or sex claim.
+- **Links:** [research card](species/174-strix-sartorii-v2.md) · [run](../production/runs/20261101T032800+0800-cycle-2.md)
+
+### CIO-EARBIRDING-2015-FLEDGLING
+- **Title / authors:** “Mexico’s Mystery Owl”; Nathan Pieplow & Andrew Spencer.
+- **Date / source type:** 2015-06-07; dated field observation with photographs and recordings.
+- **URL:** https://earbirding.com/blog/archives/4905
+- **Accessed / location read:** 2026-11-01; “The find” account and dated juvenile caption.
+- **Species / stage:** *Strix sartorii*; begging fledgling at Rancho La Noria, Nayarit, 2015-06-05.
+- **Facts:** observers explicitly identified a begging fledgling, later watched it fly out of sight and recorded apparent feeding.
+- **Correction:** v1 treated flight ability as unknown. Exact age remains unknown, but flight capability is directly observed for this photographed stage.
+- **Limits / confidence:** one individual/site; cannot support early-down sequence, nest, clutch or population-wide sex ratio.
+- **Design use:** age-unknown flight-capable fledgling with downy contour and developed but not overlong wing, shown supported rather than in flight.
+- **Links:** [research card](species/174-strix-sartorii-v2.md) · [run](../production/runs/20261101T032800+0800-cycle-2.md)
+
+### CIO-ITIS-1063254-2026
+- **Title / institution:** ITIS report TSN 1063254; Integrated Taxonomic Information System.
+- **Accessed / source type:** 2026-11-01; current standards taxonomy page.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063254&source=to_print
+- **Species / stage:** *Strix sartorii*; taxonomy only.
+- **Facts:** valid species; synonyms *Strix varia sartorii* and *Syrnium nebulosum sartorii*.
+- **Limits / confidence:** no morphology or development evidence; high confidence for name crosswalk.
+- **Design use:** preserves current/historical-name mapping without creating an additional project species.
+- **Links:** [research card](species/174-strix-sartorii-v2.md) · [run](../production/runs/20261101T032800+0800-cycle-2.md)
+
+**Cycle source delta:** new 2 (survey, ITIS), reused 3 (AOS, Earbirding base record, primary genetic/historical diagnosis), corrected 2 (flight ability and current-site habitat specificity). Uploaded Mikkola file unavailable; no new page claim.

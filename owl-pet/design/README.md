@@ -2835,3 +2835,12 @@ For a juvenile partly occluded by a support branch, “natural support” is not
 ### #142 v2 verified — 2026-10-31T22:50:00+08:00
 
 Fixed archive [`351b8a365a28fbd2b914861df8e5897cd7495827`](https://github.com/janeytlin-eng/game-owl-ket/commit/351b8a365a28fbd2b914861df8e5897cd7495827) replaced the rejected truncated transfer and passed exact six-image blob/byte checks in a non-truncated 2,478-entry tree; manifests 625/626/616 parsed. The bilateral-support rule is verified for this plate only; exact development and whole-set scientific calibration remain pending. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/351b8a365a28fbd2b914861df8e5897cd7495827/owl-pet/design/concepts/142-asio-grammicus-v2.png?raw=1).
+
+
+## 2026-11-01 — #174 *Strix sartorii* v2
+
+Full-resolution science revision of the Cinereous Owl plate. New direct-field evidence changes the selected young from “flight unknown” to an age-unknown fledgling observed flying and receiving food, without inventing a day-age or early-down stage. Adults retain dark eyes, cold gray-brown barred/streaked plumage, feathered toes and near-equal display height. One targeted edit removed conspicuous Barred-Owl-like facial rings; the final pale radial facial discs, flight-capable-stage fledgling and all foot contacts passed full/two-crop original-detail review. PASS_WITH_LIMITATIONS; science false; unique coverage remains 175/251. [Concept](concepts/174-strix-sartorii-v2.png) · [Research](../research/species/174-strix-sartorii-v2.md) · [Run](../production/runs/20261101T032800+0800-cycle-2.md).
+
+### Review-rule application
+
+For a *Strix* diagnosis calling for a pale unrung facial disc, prompt wording such as “no concentric rings” is not sufficient evidence of compliance: the full plate must be inspected for tonal annuli that visually read as Barred-Owl-like rings. This failure was discovered on #174 v2, a localized face-only edit was applied, and the refreshed full plate verified the correction for this instance. The rule is now available for later *Strix* reviews; broad effectiveness is not yet claimed.

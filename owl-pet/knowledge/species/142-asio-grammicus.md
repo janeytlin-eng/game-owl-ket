@@ -8,3 +8,7 @@ Sources JAM-HOYER-BIRDSEYE primaryphotos/new, JAM-WOODS2015-METADATA notpixels/n
 - Mikkola printed pp.500–501/PDF pp.502–503, Hoyer/BirdsEye photographs and Graves 2007 bound the adult, age-unknown down-remnant juvenile and leafy day-roost context. No sex-size direction, exact juvenile age/flight/iris sequence or nest is invented.
 - Initial v2 generation was rejected after crop review because one juvenile foot was hidden and a wing panel looked too mature. One localised edit exposed two branch-gripping feet and reduced the wing to a compact down-covered form; full frame and both crops were then reopened.
 - Result `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`. [Research](../../research/species/142-asio-grammicus-v2.md) · [Run](../../production/runs/20261031T223601+0800-cycle-4.md) · [v2 concept](../../design/concepts/142-asio-grammicus-v2.png).
+
+## v2 VERIFIED — 2026-10-31T22:50:00+08:00
+
+Fixed archive `351b8a365a28fbd2b914861df8e5897cd7495827` passed exact full image path/blob/byte checks and manifest counts 625/626/616 after rejecting truncated archive `9af895dec2e471cba3c597cf7fd2f281c94c3ed5`. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/351b8a365a28fbd2b914861df8e5897cd7495827/owl-pet/design/concepts/142-asio-grammicus-v2.png?raw=1). Science remains false.

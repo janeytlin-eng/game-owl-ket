@@ -2831,3 +2831,7 @@ Science revision of the existing Jamaican Owl plate, with #154 retained as a his
 ### Review-rule application
 
 For a juvenile partly occluded by a support branch, “natural support” is not treated as visually demonstrated unless the full frame or a crop shows two plausible contact points/feet, or the record explicitly marks the hidden foot as unresolved. This rule was discovered and applied on #142 v2: the first render was rejected, one localised foot/wing edit was made, and the refreshed juvenile crop verified bilateral support for this plate. Broader effectiveness is not yet claimed.
+
+### #142 v2 verified — 2026-10-31T22:50:00+08:00
+
+Fixed archive [`351b8a365a28fbd2b914861df8e5897cd7495827`](https://github.com/janeytlin-eng/game-owl-ket/commit/351b8a365a28fbd2b914861df8e5897cd7495827) replaced the rejected truncated transfer and passed exact six-image blob/byte checks in a non-truncated 2,478-entry tree; manifests 625/626/616 parsed. The bilateral-support rule is verified for this plate only; exact development and whole-set scientific calibration remain pending. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/351b8a365a28fbd2b914861df8e5897cd7495827/owl-pet/design/concepts/142-asio-grammicus-v2.png?raw=1).

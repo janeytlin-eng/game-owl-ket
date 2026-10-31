@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T22:48:00+08:00",
+  "updated": "2026-10-31T22:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -16577,11 +16577,25 @@
       "auxiliary_review_crop_blob": "9b22b8093eda2021f2dd1b0f95011c57ae4c24af",
       "auxiliary_review_crop_sha256": "f821e346c73e6868d18170aa18f75477b3f79b1c7842bb090c6c92b1643633e4",
       "auxiliary_review_crop_size_bytes": 1978555,
-      "readback_pending": true,
-      "exact_readback": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "git_blob": "b7a561de4d40660dc10108c3a3fed782ff7d3fe7",
-      "rejected_archive_commit": "9af895dec2e471cba3c597cf7fd2f281c94c3ed5"
+      "rejected_archive_commit": "9af895dec2e471cba3c597cf7fd2f281c94c3ed5",
+      "fixed_archive_commit": "351b8a365a28fbd2b914861df8e5897cd7495827",
+      "verified_at": "2026-10-31T22:50:00+08:00",
+      "readback": {
+        "method": "immutable corrected archive exact path/blob/size; non-truncated recursive tree; complete manifest JSON parse; local original decode and crop inspection; main-head readback",
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "connector_full_binary_stream_readback": false,
+        "manifest_counts": {
+          "design_image": 625,
+          "design_legacy": 626,
+          "production": 616
+        },
+        "rejected_archive_commit": "9af895dec2e471cba3c597cf7fd2f281c94c3ed5"
+      }
     }
   ],
-  "updated_at": "2026-10-31T22:48:00+08:00"
+  "updated_at": "2026-10-31T22:50:00+08:00"
 }

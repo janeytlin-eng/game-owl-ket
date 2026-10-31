@@ -1957,3 +1957,34 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Limits / design:** population/habitat only; no young-stage or morphology evidence.
 
 **Reused:** PESO-MIKKOLA-2013-P135 from the v1 repository record. User-uploaded guide inaccessible this cycle; no new page claim. Existing page-backed mesoptile and adult facts retained. **Mapping / delta:** current *Otus pembaensis* ⇄ historical *O. rutilus pembaensis*. New5 / reused1 / corrected4. Exact mesoptile age, flight ability, continuous feather chronology, juvenile soft parts, occupied nest, eggs and quantified body dimorphism remain unknown; science=false. [Research](species/176-otus-pembaensis-v2.md) · [Run](../production/runs/20261101T034300+0800-cycle-4.md).
+
+### STSO-MELO-ETAL-2022-P7-P27
+- **Title / authors / year:** *A new species of scops-owl ... from Príncipe Island* — Melo et al., 2022
+- **URL / DOI:** https://doi.org/10.3897/zookeys.1126.87635 ; https://repositorio.ulisboa.pt/bitstream/10451/55748/1/ZK-1126-001_article-87635_en_1_compressed.pdf
+- **Accessed:** 2026-11-01
+- **Type:** primary integrative-taxonomy paper; open PDF
+- **Species / stage:** *Otus hartlaubi*, adults (five measured birds; table entries unsexed)
+- **Location:** printed p.7 Table 1; printed p.27 diagnosis
+- **Evidence:** visible rows give wing 130–136 mm and tail 67–69 mm; diagnosis gives wing 130–139 mm. Supports very small compact adult proportions, not a sex-size direction.
+- **Limits / confidence:** high for measured dimensions; low/none for sexual dimorphism because the listed birds are not sexed; no juvenile development evidence.
+- **Design link:** [#177 v2](species/177-otus-hartlaubi-v2.md); compact near-equal adult silhouettes.
+
+### STSO-IUCN-JONES-ETAL-1991-P72-73
+- **Title / authors / year:** *Conservação dos ecossistemas florestais na República Democrática de São Tomé e Príncipe* — Jones, Burlison & Tye / IUCN, 1991
+- **URL:** https://portals.iucn.org/library/efiles/documents/FR-TF-018.pdf
+- **Accessed:** 2026-11-01
+- **Type:** institutional conservation report synthesizing historical field records
+- **Species / stage:** *Otus hartlaubi* adults; October fledglings (plumage/age not described)
+- **Location:** PDF printed pp.72–73
+- **Evidence:** highest historical density in middle-altitude secondary forest near Fortunato; insects in stomachs; October fledglings reported without developmental details; two plumage phases, very small/absent tufts and incomplete rear/distal tarsal feathering discussed.
+- **Limits / confidence:** useful habitat/timing synthesis but based partly on older secondary records; supplies no nest geometry, young plumage, exact age or mobility.
+- **Design link:** [#177 v2](species/177-otus-hartlaubi-v2.md); humid forest context, low tufts and short exposed distal tarsus; no nest/flight claim.
+
+### STSO-ITIS-555374-2026
+- **Title / institution / date:** ITIS report TSN 555374 — Integrated Taxonomic Information System, accessed 2026-11-01
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555374&source=to_print
+- **Type:** authoritative nomenclatural database
+- **Species / stage:** *Otus hartlaubi*, taxonomy only
+- **Evidence:** valid species; synonym *Athene hartlaubi* Giebel, 1872; IOC 15.1 cited among checklist sources.
+- **Limits / confidence:** high for name mapping; no morphology or development evidence.
+- **Design link:** [#177 v2](species/177-otus-hartlaubi-v2.md); current/old-name mapping.

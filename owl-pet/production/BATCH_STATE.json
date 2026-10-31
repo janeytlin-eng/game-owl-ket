@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 217803)
-Total output lines: 14075
+Warning: truncated output (original token count: 218144)
+Total output lines: 14107
 
 {
   "schema_version": 1,
@@ -1594,7 +1594,2481 @@ Total output lines: 14075
           "unique_species_increment": 0,
           "commit_sha": "bacf4cb1f78ff56907bbfa1987758fd03bcc5b69",
           "verification_commit_sha": "749696005f0efd9936b16eae736782f695686cbf",
-          "run_record": "owl-pet/production/runs/2026-10-19T…187803 tokens truncated…    {
+          "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-18T20:31:49.972Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-19T00:39:44.873Z",
+        "commit_sha": "749696005f0efd9936b16eae736782f695686cbf",
+        "run_record": "owl-pet/production/runs/2026-10-19T0431+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-19T00:39:44.873Z"
+    },
+    {
+      "batch_id": "2026-10-19T0929+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus rufescens",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "061ead00101e6f4bad1be07c92a86e527f1afaeb",
+          "verification_commit_sha": "37c18710344625acd067530a854548b926213567",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Otus scops",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7c613f6210e11fa820c3c3e10f95e5f67acff498",
+          "verification_commit_sha": "36423f976d78119be2da49435710511df8543d93",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus senegalensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1744baaba8918b2caad21e9c0d85d900e3bafb77",
+          "verification_commit_sha": "b4c39c58a6921c1747b2aee8e5b445b8a1f7f27c",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus brucei",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "d530478ae5e3a4037b5666a8d6fda2666df9df48",
+          "verification_commit_sha": "c31b21a5ed76d4648fcdca8e26f9fc781d2da266",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus bakkamoena",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b50912921398566d686ac277bd7c3cbd77756148",
+          "verification_commit_sha": "5033b15ef8e9e9b52df71c931945f3d296db35c3",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus semitorques",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ac3a735087953eea3de909d9df5c6db0f1a1ce41",
+          "verification_commit_sha": "6adfe9438c20a6a60919cc7551a36bd00a1575ec",
+          "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-19T01:29:30.823Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-19T01:47:11.942Z",
+        "commit_sha": "6adfe9438c20a6a60919cc7551a36bd00a1575ec",
+        "run_record": "owl-pet/production/runs/2026-10-19T0929+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-19T01:47:11.942Z"
+    },
+    {
+      "batch_id": "2026-10-19T1028+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus magicus",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97",
+          "verification_commit_sha": "fe56610987c1195d8b87c751f8dbd68da958822c",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Otus elegans",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "0d7a59cc11505e469d201c2d342e021cf02fe961",
+          "verification_commit_sha": "9dac893d9ec6b8552b895c0ddfb2110e545d306a",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Bubo capensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "95b58cea5be0aa4e623181ed60bafcde969f7a2c",
+          "verification_commit_sha": "99e71d653bed4faa7ffb0ca627c0e86dc7f77eb4",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Tyto furcata",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "bd3bb34f00055061473afb4f583b819738ea3cda",
+          "verification_commit_sha": "611696b5a1faa1177d466b5b1dc8dde95247cb4f",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus manadensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "83ed1daf924da5eba9f46705f1faca8c480f9d94",
+          "verification_commit_sha": "f95ff3e3678274b63425b767850896de57ddd573",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox japonica",
+          "action": "REVISION_RECOVERY",
+          "unique_species_increment": 0,
+          "commit_sha": "b0f25e7cffded0984e83a0765986ef39173050c9",
+          "verification_commit_sha": "470c7a8c4d80f43f348628e0af926df4306a1e2e",
+          "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-6.md",
+          "recovered_at": "2026-10-20T07:34:14.293Z"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-19T02:31:10.775Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "commit_sha": "470c7a8c4d80f43f348628e0af926df4306a1e2e",
+        "run_record": "owl-pet/production/runs/2026-10-19T1028+0800-cycle-6.md",
+        "at": "2026-10-20T07:34:14.293Z"
+      },
+      "completed_at": "2026-10-20T07:34:14.293Z"
+    },
+    {
+      "batch_id": "2026-10-20T1634+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Pulsatrix koeniswaldiana",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ff6e3510afeaf3f4525a6fb8b9b2bd2c6359e5e3",
+          "verification_commit_sha": "ad9a754aab0bdec892aa71d93b9be3556a304776",
+          "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix chacoensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "d7c251c7fe3b35b2272ba720bd04ec8d7d7b8d96",
+          "verification_commit_sha": "cccf820be7a6a44a082cc5c6b961ea28e973a7de",
+          "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Strix huhula",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "2c065722847b03396c8fc46c62ad80d74fb57b09",
+          "verification_commit_sha": "9260d7c937ee5d48ca7085e74a095a86d6a8763f",
+          "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus spilocephalus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "edc8d23ce4907c819cac949f55f137774ba67be7",
+          "verification_commit_sha": "6944ad5b0c35a222e1e7062c2875f99403586b47",
+          "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Ptilopsis granti",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "584d03899e33239de636e91ad4b7e434f260282c",
+          "verification_commit_sha": "41a611829eb8dfc8ac23ac66d20b7cb6bc6bd755",
+          "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Strix fulvescens",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ac94e2faade19bce441081edd81ff13199557f95",
+          "verification_commit_sha": "9a19ab30b9c008dfd13c3e384d6bfe63563fb4a0",
+          "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-20T08:37:34.615Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-20T12:35:57.658Z",
+        "commit_sha": "9a19ab30b9c008dfd13c3e384d6bfe63563fb4a0",
+        "run_record": "owl-pet/production/runs/2026-10-20T1634+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-20T12:35:57.658Z"
+    },
+    {
+      "batch_id": "2026-10-20T2133+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus spilocephalus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "42630e8af3a42a16be49fdeee0fea676c3eb1b5b",
+          "verification_commit_sha": "90f49553dc6373c4144420595775eb48659ebee2",
+          "run_record": "owl-pet/production/runs/2026-10-20T2133+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox natalis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "524e52391d01a906169f9ea201149f533afc1fff",
+          "verification_commit_sha": "0ba0e828e8ecfd118089b0cdeda0511587780983",
+          "run_record": "owl-pet/production/runs/2026-10-20T2133+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Asio grammicus",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "4c5a90bcd957561fdbc6eef394df04ff9d073a62",
+          "verification_commit_sha": "4eb48588ee29c869b8a0a55f2cba24b04071d3ff",
+          "run_record": "owl-pet/production/runs/2026-10-20T2133+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Asio solomonensis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "2e838d9ae966bee31ab7f51a15b8310ac15620c6",
+          "verification_commit_sha": "848c2dcec6e083917983f9a04b284ed6c6935bfb",
+          "run_record": "owl-pet/production/runs/2026-10-20T2133+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus gurneyi",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7ac3ac3569c8c90432b5f3efe8b215c19fed6367",
+          "verification_commit_sha": "eb41b6c00919d16f9d829ba6e65c2532df7a5bf4",
+          "run_record": "owl-pet/production/runs/2026-10-20T2133+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox philippensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "42305fdef63c77df28c20a6b1c4b1b8b11b99776",
+          "verification_commit_sha": "dc7f177bea48e661c95961b7b361716231db6795",
+          "run_record": "owl-pet/production/runs/2026-10-20T2133+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-20T13:34:32.679Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-20T14:58:20.240Z",
+        "commit_sha": "dc7f177bea48e661c95961b7b361716231db6795",
+        "run_record": "owl-pet/production/runs/2026-10-20T2133+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-20T14:58:20.240Z"
+    },
+    {
+      "batch_id": "2026-10-20T2310+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Ninox spilocephala",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "f1dabc519f6e481c1422ae8cdb9173738b81a45b",
+          "verification_commit_sha": "389b7cd70b9183bbeb5ed86de9b6ded30e5f0c22",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox philippensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "63f25fbf4a0dacbdf59de482fd557f2acb76354b",
+          "verification_commit_sha": "aaed9a652bfe047f68fd5604dee5d7652723c7e8",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Megascops marshalli",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6fb67d128759b7729d2663171b6e20f128c9fda3",
+          "verification_commit_sha": "7db2e609264c2c2f803bd7c996f2f72ecc03efe7",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus gurneyi",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "df63c6c8d7066beda3817c73d402866e9414d6fd",
+          "verification_commit_sha": "2e94ed5cbd8e463091a9ea668881d7cfe9908b43",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Ninox natalis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "bb55e7bdfa6e4783ead4eb352cf78e561bb3407a",
+          "verification_commit_sha": "62313c7d8c2dab6453007731f8d57484cca50093",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus spilocephalus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e1d4df916c4a27353ef7159d277f7175eaae70ed",
+          "verification_commit_sha": "00aeda3868130dcb543ab0e0a23fe7ef03f50b1f",
+          "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-20T15:11:45.124Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-20T20:29:54.730Z",
+        "commit_sha": "00aeda3868130dcb543ab0e0a23fe7ef03f50b1f",
+        "run_record": "owl-pet/production/runs/2026-10-20T2310+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-20T20:29:54.730Z"
+    },
+    {
+      "batch_id": "2026-10-21T0533+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus manadensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6aec025f31dc608af118bc9d7e185116369ae52f",
+          "verification_commit_sha": "b72b96ac45e6da98a103557f3892534d0b6d5dc4",
+          "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix chacoensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8c8b954099ebd09b2f05e364e39a75cbe4bb1dc2",
+          "verification_commit_sha": "3c2f86fb620a0653dc2a6827e731c4fc875835f2",
+          "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ptilopsis granti",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "c4fb5c1763dfcf6a093b2d1393b4b156a1eaaa10",
+          "verification_commit_sha": "e327104574ce5424fe9e562cb3f55a54b0dbd011",
+          "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus gurneyi",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "2b92aceaad467faef4918926fdcf0c24bc0e5682",
+          "verification_commit_sha": "ba7b4abda8814b9fc66bf47415807cf90f0e72af",
+          "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops marshalli",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7617668e91108dd70910a90ed5c1f4b84253d4b0",
+          "verification_commit_sha": "a3180093f811d4f901cb6e51e74cd59cd1f354a4",
+          "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops sanctaecatarinae",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "24bc119b982c3eb52a3df3d035b6576c5c67fb42",
+          "verification_commit_sha": "3030a3c6e4e128a2f2db7591180a49a814b0aee3",
+          "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-20T21:34:50.374Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-21T01:51:00.000Z",
+        "commit_sha": "3030a3c6e4e128a2f2db7591180a49a814b0aee3",
+        "run_record": "owl-pet/production/runs/2026-10-21T0533+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-21T01:51:00.000Z"
+    },
+    {
+      "batch_id": "2026-10-21T1134+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "338369d6db68c17f61bf0827d596ace71632d31b",
+          "verification_commit_sha": "03021995465ec04396e1e648eb4c93ed02552da2",
+          "run_record": "owl-pet/production/runs/2026-10-21T1134+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8a11a0b590cee6e629146f6228ab6eb7e8531096",
+          "verification_commit_sha": "05cc25ab4cf9724cef1454c9054ea55aaa147050",
+          "run_record": "owl-pet/production/runs/2026-10-21T1232+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a3b3cf2bd15edff17cf8448e31f3af8c2f6220fe",
+          "verification_commit_sha": "f0b5ec3978a22d7c484aa6b2418591419b4df988",
+          "run_record": "owl-pet/production/runs/2026-10-21T1326+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f2228667e2f8961007ffc8cc360dc28f48132f2e",
+          "verification_commit_sha": "5915071328b4e8d79c8d04673fd4daa75b8aafbe",
+          "run_record": "owl-pet/production/runs/2026-10-21T1433+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Bubo bubo",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ec049e7c89ed5a27a572634d1f4539ee185ddd0a",
+          "verification_commit_sha": "088245249cbccdc250185de025be2149c7f7700e",
+          "run_record": "owl-pet/production/runs/2026-10-21T1527+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus manadensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b678a1cfb9ca0acbcd8e6ac12f642374125bf456",
+          "verification_commit_sha": "7a2f6e527300bff3601cbfde7063cd281afbdc55",
+          "run_record": "owl-pet/production/runs/2026-10-21T1725+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-21T03:35:00.000Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-21T09:34:00Z",
+        "commit_sha": "7a2f6e527300bff3601cbfde7063cd281afbdc55",
+        "run_record": "owl-pet/production/runs/2026-10-21T1725+0800-cycle-6.md"
+      },
+      "lease": null,
+      "last_updated_at": "2026-10-21T09:34:00Z",
+      "completed_at": "2026-10-21T09:34:00Z"
+    },
+    {
+      "batch_id": "2026-10-21T1828+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Ninox rufa",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "3f5041ae0d804f700820f663a98a546470599348",
+          "verification_commit_sha": "dd551709554cd6973980febd2d0772a407b464bd",
+          "run_record": "owl-pet/production/runs/2026-10-21T1828+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Pulsatrix perspicillata",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "14d6343cc85e3defff3e2e94e8b5e4839d483276",
+          "verification_commit_sha": "e36d27b37de0d01c9c2ef4311156f63b64a04d23",
+          "run_record": "owl-pet/production/runs/2026-10-21T1930+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ninox spilocephala",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "46c023c32b322bb1c932f0b48126449a6cad0eb8",
+          "verification_commit_sha": "82615c0c8ba94e9c5cdc5a172e87e2da77b01241",
+          "run_record": "owl-pet/production/runs/2026-10-21T2334+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox natalis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "23d333cd57d0e93fb381df0162218b0855594d7b",
+          "run_record": "owl-pet/production/runs/2026-10-22T0031+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Otus bakkamoena",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "eda9fc4f66a5cb25448e7715d59b6267fec3820c",
+          "run_record": "owl-pet/production/runs/2026-10-22T0048+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox natalis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "2dc9296d1306a3dfcca6518ae6dbffe428fd6372",
+          "verification_commit_sha": "cf24847021f5f02e4a006bf777ed4a7cae1418d5",
+          "run_record": "owl-pet/production/runs/2026-10-22T1031+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-21T10:29:00Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-22T02:39:00Z",
+        "commit_sha": "cf24847021f5f02e4a006bf777ed4a7cae1418d5",
+        "run_record": "owl-pet/production/runs/2026-10-22T1031+0800-cycle-6.md"
+      },
+      "lease": null,
+      "last_updated_at": "2026-10-22T02:39:00Z"
+    },
+    {
+      "batch_id": "2026-10-22T1126+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Ninox philippensis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "5514fc0f750c7fa6a34444f8bbea128e62500fc5",
+          "verification_commit_sha": "19b90be4ebedc49ad48f7c5ae7c9a46b9cffc994",
+          "run_record": "owl-pet/production/runs/2026-10-22T1126+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox mindorensis",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "ae170dcd2187f495ac7a738f46158170e6e8ee2b",
+          "verification_commit_sha": "e66adf38517400af9ed4c273d88ab2b7b21cfdb0",
+          "run_record": "owl-pet/production/runs/2026-10-22T1126+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ninox leventisi",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "1de078fe164396a817dcb1df1a2ff54f1c50c916",
+          "verification_commit_sha": "24fc9d0cdb8ae8c4cf4e6a798ca06c17e0159e18",
+          "run_record": "owl-pet/production/runs/2026-10-22T1531+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox rumseyi",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "3622a673fbc853337d8994a81bb7ddf4e99d126d",
+          "verification_commit_sha": "cbfda6f15ae55d4bab178a8b54f4fe18a514fc63",
+          "run_record": "owl-pet/production/runs/2026-10-22T1531+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Ninox odiosa",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "e66c9965054444457cd3460c9c58294d231e1443",
+          "verification_commit_sha": "988b3fccb986fe23eded9322263dc3bb59b6a440",
+          "run_record": "owl-pet/production/runs/2026-10-22T1632+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Ninox variegata",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "c490f70857d9ede54795f6466bbc05c9c74f472c",
+          "verification_commit_sha": "f7c061542f455414a588cc4a5b80434c3f45bba7",
+          "run_record": "owl-pet/production/runs/2026-10-22T1728+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-22T03:29:00Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-22T09:46:00Z",
+        "commit_sha": "f7c061542f455414a588cc4a5b80434c3f45bba7",
+        "run_record": "owl-pet/production/runs/2026-10-22T1728+0800-cycle-6.md"
+      },
+      "lease": null,
+      "last_updated_at": "2026-10-22T09:46:00Z",
+      "completed_at": "2026-10-22T09:46:00Z"
+    },
+    {
+      "batch_id": "2026-10-22T1828+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Athene jacquinoti",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "d81ec404158fbf6cbd128a84c87d6bb2b46f40cd",
+          "verification_commit_sha": "6d1fd18abfdc4b154b8fb2972bae32714ff85908",
+          "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Uroglaux dimorpha",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "bbd5d093b8f32a517b077b8756246e4a84582f12",
+          "verification_commit_sha": "b032bac4a536a0f2170b140c440f74986a589cc5",
+          "run_record": "owl-pet/production/runs/2026-10-22T1828+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Jubula lettii",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "36db3a8d7c149fa29815c86861e466c0ef686031",
+          "verification_commit_sha": "0ae87bc414563900964bd5206e30fd85b55a3898",
+          "run_record": "owl-pet/production/runs/2026-10-22T2031+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Pseudoscops grammicus",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "c6ff15f2a7e147ae1c1fc567988a2737365ccdaf",
+          "verification_commit_sha": "d74aeea359dd5e8fdbe9d10be94e5fcfc26ed1ca",
+          "run_record": "owl-pet/production/runs/2026-10-22T2051+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Scotopelia ussheri",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "65ddbdb4df4af1457595a2d739645751b033b506",
+          "verification_commit_sha": "4faa218de02303dd4ef8b3d8719562eb534d887c",
+          "run_record": "owl-pet/production/runs/2026-10-22T2232+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Scotopelia peli",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "commit_sha": "4209ca0e1f1f6785452cfd5ebf517c22bd3185d1",
+          "verification_commit_sha": "c3e8980164a3116b31cd1938348107e249c88b7e",
+          "run_record": "owl-pet/production/runs/2026-10-22T2332+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-22T10:31:00Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-22T15:44:00Z",
+        "commit_sha": "c3e8980164a3116b31cd1938348107e249c88b7e",
+        "run_record": "owl-pet/production/runs/2026-10-22T2332+0800-cycle-6.md"
+      },
+      "lease": null,
+      "last_updated_at": "2026-10-22T15:44:00Z",
+      "completed_at": "2026-10-22T15:44:00Z"
+    },
+    {
+      "batch_id": "2026-10-23T0027+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Scotopelia bouvieri",
+          "commit_sha": "aaa94b4c42b2969854b223486e90bcc3d4eeeb8c",
+          "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-1.md",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "verification_commit": "13f9446f5ec37dfc3d3bdc64723c65fd5ee3cd68"
+        },
+        {
+          "cycle": 2,
+          "species": "Phodilus badius",
+          "commit_sha": "d306e8a7e23b1bce22d8e33fd34d17e6e06b1cb9",
+          "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-2.md",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "verification_commit": "a4b478f2d890c2487d6707e7fac847ef61d0924d"
+        },
+        {
+          "cycle": 3,
+          "species": "Phodilus assimilis",
+          "commit_sha": "91224bc8829ec3a5b287158871c2b8b819a90bcb",
+          "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-3.md",
+          "action": "NEW",
+          "unique_species_increment": 1,
+          "verification_commit": "4cd0c4b1f11949909c1d53dcf686984ce30b27c1"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus bakkamoena",
+          "commit_sha": "23efe6f2787571e8e4ac106072eb01abe63b3956",
+          "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-4.md",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "verification_commit": "f1410cf6739bdbe0fc43cd4342cd88256928f407"
+        },
+        {
+          "cycle": 5,
+          "species": "Ninox spilocephala",
+          "commit_sha": "2e18e7462b5edebbe4139c57e7ebdbccfbcc8c9b",
+          "run_record": "owl-pet/production/runs/2026-10-23T0027+0800-cycle-5.md",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "verification_commit": "edd7791421674c0f6d734c5793ae57075a2e779f"
+        },
+        {
+          "cycle": 6,
+          "species": "Ptilopsis leucotis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "916ae2127842f850ad08c29c623e1c2b9b1bad3b",
+          "verification_commit": "80bc30ae153df53d7a9a77547924222679ab69a8",
+          "run_record": "owl-pet/production/runs/2026-10-23T0431+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "lease": null,
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-22T22:31:00Z",
+        "commit_sha": "80bc30ae153df53d7a9a77547924222679ab69a8",
+        "run_record": "owl-pet/production/runs/2026-10-23T0431+0800-cycle-6.md"
+      },
+      "last_updated_at": "2026-10-22T22:31:00Z",
+      "completed_at": "2026-10-22T22:31:00Z"
+    },
+    {
+      "batch_id": "2026-10-23T0627+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus gurneyi",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ffb1bd9661886af510a587dfd1acbf8c5fe0e689",
+          "verification_commit": "7a04181ea90590c0805b1f15574e3e885d08ea67",
+          "run_record": "owl-pet/production/runs/2026-10-23T0627+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox philippensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "504c0e769a207f4d0aa9ce0208b7ae06455eaa76",
+          "verification_commit": "61bf3e7c098fb0f42d5c4ae4c2f9155276d9c1bb",
+          "run_record": "owl-pet/production/runs/2026-10-23T0832+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Ninox natalis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "ca4032d3618c5768c5344ee8247310b5e7b91610",
+          "verification_commit": "6a811c1feb52dc184ffcc1b67197f20119b9bcdb",
+          "run_record": "owl-pet/production/runs/2026-10-23T0832+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Megascops marshalli",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "114add3da905924d8d585c0bf02b872fb43934ea",
+          "verification_commit": "83f13bc246698182e460ae1d9cab07dd91601809",
+          "run_record": "owl-pet/production/runs/2026-10-23T0929+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Ptilopsis granti",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "d2d0c918659293d8ba36b84cf6d82c1ce298480e",
+          "verification_commit": "e49543b9eb46e566117c54821253eac20bd91ccc",
+          "run_record": "owl-pet/production/runs/2026-10-23T1031+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Otus manadensis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "2e4c2d0e711babef80174973f11473a7d8f44a6a",
+          "verification_commit": "75ff3d6ca7fc80dcac82c4a6522170cbfb3a59ba",
+          "run_record": "owl-pet/production/runs/2026-10-23T1134+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-22T22:32:00Z",
+      "lease": null,
+      "last_updated_at": "2026-10-23T03:41:15.525Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-23T03:41:15.525Z",
+        "commit_sha": "75ff3d6ca7fc80dcac82c4a6522170cbfb3a59ba",
+        "run_record": "owl-pet/production/runs/2026-10-23T1134+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-23T03:41:15.525Z"
+    },
+    {
+      "batch_id": "2026-10-23T1233+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Tyto furcata",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "4690cf7216ba8c1d573e8dfc3dbd79a2b2e488aa",
+          "verification_commit": "942ff58d8d166eb5858dce91f2fd203b6bf572e1",
+          "run_record": "owl-pet/production/runs/2026-10-23T1233+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Pulsatrix koeniswaldiana",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "74a663ac219071a9f074fb29f19918a252fbdc5b",
+          "verification_commit": "cbdccf8abbcb1dc9ae6ed2bfbcc449e3172e769f",
+          "run_record": "owl-pet/production/runs/2026-10-23T1628+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Strix fulvescens",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "fd339c6ccf35aff4cbdae03ffd9a28ca03afbf4d",
+          "verification_commit": "643aa11e93f8bb9469d412407a3eff82a930de63",
+          "run_record": "owl-pet/production/runs/2026-10-23T1726+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus spilocephalus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6332fdfee23464b183404aca3ed4e19a9c647972",
+          "verification_commit": "947119a7e833099970dc8b14e51ff0bca3982ff0",
+          "run_record": "owl-pet/production/runs/2026-10-23T2033+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Bubo magellanicus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "325b686eb1180fcdf97234430e47390b89165926",
+          "verification_commit": "fbc3aaad1ef5e8bcda712dc1e46f9712ab1f8255",
+          "run_record": "owl-pet/production/runs/2026-10-23T2127+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Aegolius harrisii",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8f1091e5912b0fa54cd62ad8159e44f9933ffb17",
+          "verification_commit": "514f4a859c576e680368e8bb9d1edbd1e184a282",
+          "run_record": "owl-pet/production/runs/2026-10-23T2230+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-23T04:35:49.308Z",
+      "lease": null,
+      "last_updated_at": "2026-10-23T14:38:00Z",
+      "last_checkpoint": {
+        "stage": "VERIFIED",
+        "at": "2026-10-23T14:38:00Z",
+        "commit_sha": "514f4a859c576e680368e8bb9d1edbd1e184a282",
+        "run_record": "owl-pet/production/runs/2026-10-23T2230+0800-cycle-6.md"
+      },
+      "completed_at": "2026-10-23T14:38:00Z"
+    },
+    {
+      "batch_id": "2026-10-23T2329+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Tyto javanica",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "965cb9a8723b110326e192571e64335b7182fdca",
+          "verification_commit": "f6039ad828e1715fb0e058ba040ec9bb18aeecb4",
+          "run_record": "owl-pet/production/runs/2026-10-23T2329+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Lophostrix cristata",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "086bdc0ba1c0ff874b397036c8002d87b69182b3",
+          "verification_commit": "a2997ea94ba264ecd716c85d7c52bd307f65db00",
+          "run_record": "owl-pet/production/runs/2026-10-24T0232+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus elegans",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8c9434eef15829e3d36fb06ccf55067bcd3933c5",
+          "verification_commit": "3021be72f53a61de64c1d6cd669ab715444f75c5",
+          "run_record": "owl-pet/production/runs/2026-10-24T0327+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Otus rutilus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f2cc4ea93f2789b744d247f95fbfc527c4aa8b60",
+          "verification_commit": "6c033e9e3821154af573a4c66c656207f3926442",
+          "run_record": "owl-pet/production/runs/2026-10-24T0429+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Ptilopsis leucotis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "c30565c893443b3af60c26f2a944e2add0f5be9d",
+          "verification_commit": "98902b85f5714bc06470e6d6bcbfbf3caaae9bc4",
+          "run_record": "owl-pet/production/runs/2026-10-24T0530+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops barbarus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a",
+          "verification_commit": "e71c1eaadfaf846162f4ac07fdb4bc2aedfad021",
+          "run_record": "owl-pet/production/runs/2026-10-24T0828+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-23T15:29:58Z",
+      "lease": null,
+      "last_checkpoint": {
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "run_id": "2026-10-24T0828+0800-cycle-6",
+        "at": "2026-10-24T08:43:00+08:00",
+        "evidence": "verification commit e71c1eaadfaf846162f4ac07fdb4bc2aedfad021; image commit 1a8b2fed294d7682c3c14a00d9c35c6c7f5c204a"
+      }
+    },
+    {
+      "batch_id": "2026-10-24T0933+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Phodilus assimilis",
+          "action": "REVISION / orphan recovery",
+          "unique_species_increment": 0,
+          "commit_sha": "9757947a64bb371838b66b9e8c403b918c3cb356",
+          "verification_commit": "d5fc38a7e9e6d8ef0de9b8d438199f08a72b8b19",
+          "run_record": "owl-pet/production/runs/2026-10-24T0933+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Megascops barbarus",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f7f294c061140a87f3bf41ca573eaa65f6c3dce0",
+          "verification_commit": "256f996b54bedf42249a3638bb55f516530a987c",
+          "run_record": "owl-pet/production/runs/2026-10-24T1431+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus manadensis",
+          "species_id": 117,
+          "action": "REVISION",
+          "version": 7,
+          "unique_increment": 0,
+          "image_commit_sha": "c4d11f90f2d37228e584fd1f44afbbad54e76997",
+          "commit_sha": "c8dcfdae9d3e70b566d23469c55148007cc95a07",
+          "run_record": "owl-pet/production/runs/2026-10-24T1535+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ninox leucopsis",
+          "species_id": 121,
+          "action": "REVISION",
+          "version": 2,
+          "unique_increment": 0,
+          "image_commit_sha": "4d0ea89ed2507a46fca1ec4a12b895ad0b766674",
+          "commit_sha": "369087727269890c62247debd615e7c57e27b8be",
+          "run_record": "owl-pet/production/runs/2026-10-24T1630+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Uroglaux dimorpha",
+          "species_id": 152,
+          "action": "REVISION",
+          "version": 2,
+          "unique_increment": 0,
+          "image_commit_sha": "88dc00b9b8a71468bb28808230972f7d003d9d25",
+          "commit_sha": "b5bf517ff791ea818439395feafcf65ebcb44871",
+          "run_record": "owl-pet/production/runs/2026-10-24T1830+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Bubo bubo",
+          "species_id": 3,
+          "action": "REVISION",
+          "version": 11,
+          "unique_increment": 0,
+          "commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204",
+          "run_record": "owl-pet/production/runs/2026-10-24T1927+0800-cycle-6.md",
+          "image_commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204",
+          "verification_commit": "bc1f6b6709240f060982f2e3f2d624816030a204",
+          "integrity_repair": {
+            "at": "2026-10-24T20:34:00+08:00",
+            "old_v10_blob": "26a054ad65a2b1673ca06d24c811857681b77092",
+            "new_v11_blob": "77df3c9257c871fd71405ddb31164c165c0c1fb8",
+            "reason": "pre-existing v10 path collision; historical v10 restored and new output moved to v11",
+            "verification_commit": "3a7be35f4f60c730f514ea2f481d420772a7d626"
+          }
+        }
+      ],
+      "next_cycle": null,
+      "lease": null,
+      "last_checkpoint": {
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "species": "Bubo bubo",
+        "run_id": "2026-10-24T1927+0800-cycle-6",
+        "updated_at": "2026-10-24T19:43:00+08:00",
+        "image_commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204",
+        "verification_commit_sha": "bc1f6b6709240f060982f2e3f2d624816030a204",
+        "version": 11,
+        "integrity_repair_pending_commit": false,
+        "integrity_repair_verification_commit": "3a7be35f4f60c730f514ea2f481d420772a7d626"
+      },
+      "last_updated_at": "2026-10-24T20:34:00+08:00"
+    },
+    {
+      "batch_id": "2026-10-24T2130+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Strix chacoensis",
+          "species_id": 98,
+          "action": "REVISION",
+          "version": 4,
+          "unique_species_increment": 0,
+          "commit_sha": "336aaf1970f09c84e9c9b18147a93809f0213765",
+          "verification_commit_sha": "446e247b3534c9cf9479a3c1a8b8f1765c0e5277",
+          "run_record": "owl-pet/production/runs/2026-10-24T2130+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Strix albitarsis",
+          "species_id": 106,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "8635da6475da028cead792159943c2dfd7e417e0",
+          "verification_commit": "160de9dfed4354cfbebd80bb72d0af20676469db",
+          "run_record": "owl-pet/production/runs/2026-10-24T2232+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Megascops trichopsis",
+          "species_id": 19,
+          "version": 4,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "248c54b94840ced153bc208e41c7cf439e6e922e",
+          "verification_commit": "a7a61b42561e4d8c3f63ee29022c698cf69adf6c",
+          "run_record": "owl-pet/production/runs/2026-10-25T0030+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Ptilopsis granti",
+          "species_id": 105,
+          "version": 6,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "0ba0703d7d08d65e65a3d10186c5e39e9e5f1c12",
+          "verification_commit": "a9b2b2fd03e8806590b31715195424f5f1bdc280",
+          "run_record": "owl-pet/production/runs/2026-10-25T0128+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops marshalli",
+          "species_id": 128,
+          "version": 7,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "504f92d317afc040f5a12172e75638abe65b7712",
+          "verification_commit": "865cc605f172e9e4d1d8443d0f9e7a0003c0e732",
+          "run_record": "owl-pet/production/runs/2026-10-25T0230+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Asio madagascariensis",
+          "species_id": 104,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "945ae44d42bd890d00c07c9b3817616200aeba11",
+          "verification_commit": "d8024c14ba302fc4a5dc12f653045614ceedc481",
+          "run_record": "owl-pet/production/runs/2026-10-25T0331+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-24T21:30:47+08:00",
+      "lease": null,
+      "last_checkpoint": {
+        "cycle": 2,
+        "stage": "STARTED",
+        "species": "Strix albitarsis",
+        "at": "2026-10-24T22:33:00+08:00"
+      },
+      "checkpoint": {
+        "cycle": 5,
+        "stage": "RESEARCH_READY",
+        "species": "Megascops marshalli",
+        "run_id": "2026-10-25T0230+0800-cycle-5",
+        "at": "2026-10-25T02:37:00+08:00",
+        "research_commit": "cf018bce5f506aeface4b7cfcb04d5ee8f089f10",
+        "source_index_commit": "c4517614df287cb5fdec2f4b9e6b00abc42aef39"
+      }
+    },
+    {
+      "batch_id": "2026-10-25T0431+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Otus manadensis",
+          "species_id": 117,
+          "version": 8,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "35d48a0b45817c14dbab044e28957bfeafde7e0c",
+          "verification_commit": "171e042ec8e79a1a7063a93273414bfdf4996ae0",
+          "run_record": "owl-pet/production/runs/2026-10-25T0431+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox spilocephala",
+          "species_id": 144,
+          "version": 4,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1a43d9e5b2956c1c727b45fd6504c05493177b59",
+          "verification_commit": "c79fffd677ba01884dfe17cf7210621afc4bfed2",
+          "run_record": "owl-pet/production/runs/2026-10-25T0532+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Jubula lettii",
+          "species_id": 153,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "90e00e0e9290d2c61d56e384275cfdca7581a7d4",
+          "verification_commit": "3e44ecaf08ef975ec3153d3ebfb11c4888f18e9b",
+          "run_record": "owl-pet/production/runs/2026-10-25T0627+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Pseudoscops grammicus",
+          "species_id": 154,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "258d44965ce491ea931c3662cdf16ef150b4672b",
+          "verification_commit": "ef19cb16a931f3be00731da64a9a83833b50d2a1",
+          "run_record": "owl-pet/production/runs/2026-10-25T0732+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Scotopelia ussheri",
+          "species_id": 155,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "4ac56a7c136cbbf0321b9fabaf5020cb63a35d09",
+          "verification_commit": "59096efdb167c46c56d9d96303781023ed9dd817",
+          "run_record": "owl-pet/production/runs/2026-10-25T0749+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Scotopelia peli",
+          "species_id": 156,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f316751d8e433eaf9db31c444c868ab5056cd39d",
+          "verification_commit": "d1aaccd1570645af8239dd325e9e41322418f22e",
+          "run_record": "owl-pet/production/runs/2026-10-25T1030+0800-cycle-6-recovery.md"
+        }
+      ],
+      "next_cycle": null,
+      "started_at": "2026-10-25T04:31:13+08:00",
+      "lease": null,
+      "checkpoint": {
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "species": "Scotopelia peli",
+        "run_id": "2026-10-25T1030+0800-cycle-6-recovery",
+        "at": "2026-10-25T10:41:00+08:00",
+        "archive_commit": "f316751d8e433eaf9db31c444c868ab5056cd39d",
+        "image_blob": "49aaa718e82a0f16a80f62af48527385f4ed5dd8",
+        "verification_commit": "d1aaccd1570645af8239dd325e9e41322418f22e"
+      }
+    },
+    {
+      "batch_id": "2026-10-25T1132+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Scotopelia bouvieri",
+          "species_id": 157,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "d4cd1bb8de4db1f8179caca1e297de8cb217a72b",
+          "verification_commit": "c32787e8efd64c281c62e1b0d8bdec2819465674",
+          "run_record": "owl-pet/production/runs/2026-10-25T1431+0800-cycle-1-recovery.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Phodilus badius",
+          "species_id": 158,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "57af90bc230605ce6cb94e65df6ba8183fae7952",
+          "verification_commit": "8d35d36060d445f2068dd674a23f84762f4d393d",
+          "run_record": "owl-pet/production/runs/2026-10-25T1445+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus bakkamoena",
+          "species_id": 84,
+          "version": 7,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "7f6f352543a09a100106f1fa395cb30d000323ba",
+          "verification_commit": "708b3dfad643ca68e1b47358f0d39f18ec6003e5",
+          "run_record": "owl-pet/production/runs/2026-10-25T1525+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Phodilus assimilis",
+          "species_id": 159,
+          "version": 3,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e7ac9d28de1ca262646aabfabe3a4cf8a116739e",
+          "verification_commit": "484571e8e508c10f1b7c2d6510e9edf2b539f4f5",
+          "run_record": "owl-pet/production/runs/2026-10-25T1628+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Bubo scandiacus",
+          "species_id": 2,
+          "version": 5,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "e17383d118b5427ebe3727b1f077fc56857ebd82",
+          "verification_commit": "493762c3bf2a65aaca84f42e5ee82cfc726d050d",
+          "run_record": "owl-pet/production/runs/2026-10-25T1645+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Surnia ulula",
+          "species_id": 10,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "1cb0e03314af160cbdd4ad91f50ce21a6811d18b",
+          "verification_commit": "b85cae0c660181a0cb54eeec706a63f8e2e0e101",
+          "run_record": "owl-pet/production/runs/2026-10-25T1932+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "checkpoint": {
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "species": "Surnia ulula",
+        "run_id": "2026-10-25T1932+0800-cycle-6",
+        "at": "2026-10-25T19:49:00+08:00",
+        "archive_commit": "1cb0e03314af160cbdd4ad91f50ce21a6811d18b",
+        "image_blob": "79de445a797eebb5d2c6b0eb2c84fec2d76618dc",
+        "verification_commit": "b85cae0c660181a0cb54eeec706a63f8e2e0e101"
+      },
+      "lease": null
+    },
+    {
+      "batch_id": "2026-10-25T2033+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Aegolius acadicus",
+          "species_id": 12,
+          "version": 3,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "97e1e14c6a18f0cf56c68eca0678776e9c36ad59",
+          "verification_commit": "3520f51beffe2619f3ceec6e149f160180460d9f",
+          "run_record": "owl-pet/production/runs/2026-10-25T2033+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Micrathene whitneyi",
+          "species_id": 13,
+          "version": 6,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "723fc2fc00b9d888f22ebaf82cc8632ff4bcea62",
+          "verification_commit": "82a3496b64abe5290a307d0fc9559694d7bad8b0",
+          "run_record": "owl-pet/production/runs/2026-10-25T2131+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Bubo virginianus",
+          "species_id": 14,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f5063d83d3577745a3d9b0a0dda8befa57ac7b7d",
+          "verification_commit": "9a3055ef45846268a555080a1392172d5cbf9808",
+          "run_record": "owl-pet/production/runs/2026-10-25T2144+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Strix varia",
+          "species_id": 15,
+          "version": 3,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "f5a57a57753b6e2b4e1fcd6bfeb52d24384dca1a",
+          "verification_commit": "aa9c68a339358948d952a85ed74e5bb32fa1129b",
+          "run_record": "owl-pet/production/runs/2026-10-25T2234+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops asio",
+          "species_id": 17,
+          "version": 4,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "bccad4774ccebdd50a97ae0f769896dcdfb4c4a1",
+          "verification_commit": "31baf91e05022715683ed6134cce6a9b175a0a1f",
+          "run_record": "owl-pet/production/runs/2026-10-26T0141+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Megascops kennicottii",
+          "species_id": 18,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "cd2e596fc04013b904d2faaf2b9fdc55026660f4",
+          "verification_commit": "c6191870d1a7b4a16d6043909d0287797e46de3c",
+          "run_record": "owl-pet/production/runs/2026-10-26T0238+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "checkpoint": {
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "species": "Megascops kennicottii",
+        "species_id": 18,
+        "version": 2,
+        "run_id": "2026-10-26T0238+0800-cycle-6",
+        "at": "2026-10-26T02:51:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26T0238+0800-cycle-6.md",
+        "commit_sha": "cd2e596fc04013b904d2faaf2b9fdc55026660f4",
+        "verification_commit": "c6191870d1a7b4a16d6043909d0287797e46de3c"
+      },
+      "lease": null,
+      "completed_at": "2026-10-26T02:52:00+08:00"
+    },
+    {
+      "batch_id": "2026-10-26T0331+0800",
+      "status": "COMPLETE",
+      "target_cycles": 6,
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Megascops trichopsis",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "fac250bb3267c78301cd1a5548c6287119bdad1c",
+          "run_record": "owl-pet/production/runs/2026-10-26T0331+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Megascops clarkii",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "adcf1dab4eccc84ce197c1b7b42cbc2a7a06a433",
+          "run_record": "owl-pet/production/runs/2026-10-26T0427+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Megascops choliba",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "30b9f04f936ec299c0fe4c90db3e2777658c3a95",
+          "run_record": "owl-pet/production/runs/2026-10-26T0632+0800-cycle-3.md"
+        },
+        {
+          "cycle": 4,
+          "species": "Gymnasio nudipes",
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "b9e2dfb021fea57e73dab4b20a860fac316ded75",
+          "run_record": "owl-pet/production/runs/2026-10-26T0726+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Psiloscops flammeolus",
+          "species_id": 23,
+          "version": 3,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "a6f77194a4c0266775bb11bdc92c63ed45ff5e40",
+          "archive_commit": "c633dfe27eb46ee232a5b3d61df37fdbdc867b19",
+          "run_record": "owl-pet/production/runs/2026-10-26T0825+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Glaucidium californicum",
+          "species_id": 24,
+          "version": 2,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "9b01b1a39a9dc2b8a6ada4a986b9709525730b28",
+          "archive_commit": "8b82bf492508b1db5b707ce8d5d0b11e8f86a467",
+          "run_record": "owl-pet/production/runs/2026-10-26T0852+0800-cycle-6.md"
+        }
+      ],
+      "next_cycle": null,
+      "active_lease": null,
+      "checkpoint": {
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "species": "Glaucidium californicum",
+        "species_id": 24,
+        "version": 2,
+        "run_id": "2026-10-26T0852+0800-cycle-6",
+        "at": "2026-10-26T09:09:00+08:00",
+        "run_record": "owl-pet/production/runs/2026-10-26…158144 tokens truncated…96 fixed readback passed; batch 2026-10-31T0635+0800 closed COMPLETE 6/6 and lease released.",
+    "2026-10-31T09:27:00+08:00: new batch 2026-10-31T0927+0800 cycle1 #97 v4 started after confirming no incomplete batch or lease.",
+    "2026-10-31T09:34:00+08:00: #97 v4 RESEARCH_READY persisted with source correction and prompt.",
+    "2026-10-31T09:40:00+08:00: #97 v4 IMAGE_GENERATED persisted as Git blob a84d4b54affa3b195e49f71cfd52aaecee1909a5; no credit.",
+    "2026-10-31T09:43:00+08:00: #97 v4 REVIEWED; crop 3255f8677639047479e72019c39b53c464cf0729/789485B; edit_count0; science false; no credit.",
+    "2026-10-31T09:47:00+08:00: #97 v4 ARCHIVED; fixed-commit readback pending; no credit.",
+    "2026-10-31T09:50:00+08:00: #97 v4 fixed readback passed; batch 2026-10-31T0927+0800 advances to 1/6 next2; lease released.",
+    "2026-10-31T09:52:00+08:00: batch 2026-10-31T0927+0800 cycle2 #99 v4 started after cycle1 verification.",
+    "2026-10-31T09:57:00+08:00: #99 v4 RESEARCH_READY persisted with primary-study sex-cue boundary; no credit.",
+    "2026-10-31T10:00:00+08:00: #99 v4 IMAGE_GENERATED persisted as d0f06a8c5a068f656af9576531a305a6d13191ac/2629992B; no credit.",
+    "2026-10-31T10:03:00+08:00: #99 v4 REVIEWED; crop e5bb6cda5d14113372e9e0ece5db33ee30b5bbe4/525913B; edit0; science false; no credit.",
+    "2026-10-31T10:06:00+08:00: #99 v4 ARCHIVED; fixed readback pending; no credit.",
+    "2026-10-31T10:09:00+08:00: #99 v4 readback passed; batch advances 2/6 next3.",
+    "2026-10-31T10:11:00+08:00: batch cycle3 #100 v4 started for visual-science correction.",
+    "2026-10-31T10:16:00+08:00: #100 v4 RESEARCH_READY persisted; corrected actual-image/status mismatch; science false.",
+    "2026-10-31T10:19:00+08:00: #100 v4 first render persisted 159d152d3d596eb942bce4303386b4b0ba032e3c/3169613B; edit required.",
+    "2026-10-31T10:23:00+08:00: #100 v4 REVIEWED master 7a2ba27f65953dc5830825328de7d3bdb8553a3d/3096893B crop 19e920195f255c4eb6a348ad3915f9954e307cce/743716B; edit1.",
+    "2026-10-31T10:26:00+08:00: #100 v4 ARCHIVED; fixed readback pending.",
+    "2026-10-31T10:29:00+08:00: #100 v4 verified; batch3/6 next4."
+  ],
+  "audit_trail": [
+    {
+      "at": "2026-10-27T16:35:30.000+08:00",
+      "action": "POST_VERIFICATION_MANIFEST_REPAIR",
+      "batch_id": "2026-10-27T1335+0800",
+      "cycle": 6,
+      "species_id": 165,
+      "detail": "Concept blob, archive commit, batch verification and run record existed, but the manifest entry was absent. Added the missing #165 record without changing completed-cycle or species counts; science remains unverified."
+    },
+    "2026-10-29T08:35:49+08:00: new batch cycle1 STARTED #72 Ninox boobook v4 SCIENCE_REVISION; v1-v3 retained; 15-minute lease acquired; no credit.",
+    "2026-10-29T08:36:22+08:00: cycle1 #72 v4 RESEARCH_READY; new3/reused3/corrected1; two primary development studies and Victorian government identification table actually read; full prompt saved; science false; no credit.",
+    "2026-10-29T08:38:11+08:00: cycle1 #72 v4 IMAGE_GENERATED; 1536x1024 output opened; exact text/count/adult identity/blue-eyed supported fledgling pass; crisp adult-like juvenile wing rows and water patch flagged for targeted edit; no credit.",
+    "2026-10-29T08:40:13+08:00: cycle1 #72 v4 REVIEWED after one targeted imagegen edit; full 1536x1024 and 650x650 crop reopened. Softer irregular juvenile wing marks, blue-grey iris, developed wing/tail, firm grip, exact text/count and dry hollow setting pass; science false; no credit.",
+    "2026-10-29T08:42:00+08:00: cycle1 #72 v4 ARCHIVED; concept 95b420e984/765298B, generated c911796398/3349060B, reviewed 17f2da0fd7/3245880B, crop d1ed040023/278686B; manifest498; fixed readback pending; no credit.",
+    "2026-10-29T08:45:00+08:00: cycle1 #72 v4 archive readback detected truncated PNG blobs in 4c2c8c931b; rejected before credit. Replaced with complete 1536x1024 JPEG masters 375b735dac/514326B and 366a8db184/495141B; second fixed readback pending.",
+    "2026-10-29T08:47:00+08:00: cycle1 #72 Ninox boobook v4 VERIFIED at repaired archive a206de675b3939ea6ce7081eb9d1f1c1fa77c45c; fixed tree and four image blobs/sizes matched, truncated PNG paths absent; manifest498; unique+0; science false; next cycle2.",
+    "2026-10-29T08:49:00+08:00: cycle2 STARTED #73 Ninox rufa v4 SCIENCE_REVISION; v1-v3 retained; 15-minute lease acquired; no credit.",
+    "2026-10-29T08:51:00+08:00: cycle2 #73 v4 RESEARCH_READY; new2/reused3/corrected1; ABSA morphometrics/ageing and Queensland field note actually read, Riddell primary study reopened; full prompt saved; science false; no credit.",
+    "2026-10-29T08:53:00+08:00: cycle2 #73 v4 IMAGE_GENERATED; full 1536x1024 opened; count/text/sex direction/fledgling stage/support pass; spotted adult and juvenile wing-coverts flagged for targeted edit to species-appropriate narrow broken bars/soft juvenile mottling; no credit.",
+    "2026-10-29T08:57:00+08:00: cycle2 #73 v4 REVIEWED after one targeted edit; full + crop reopened. Adult narrow horizontal bars, male-larger direction, juvenile soft wing/down, visible tail, stepping support and exact text/count pass; science false; no credit.",
+    "2026-10-29T08:59:00+08:00: cycle2 #73 v4 ARCHIVED; concept 4baba633ed/783143B, generated 13f9e4207a/519288B, reviewed 3c6d4619ab/494904B, crop 90512ebb08/283888B; manifest499; fixed readback pending; no credit.",
+    "2026-10-29T09:01:00+08:00: cycle2 #73 Ninox rufa v4 VERIFIED at 2ab89b08db77b36d9275748a1cac2dc9b658f183; fixed tree and four image blobs/sizes matched; manifest499; unique+0; science false; next cycle3.",
+    "2026-10-29T09:04:00+08:00: cycle3 STARTED #74 Ninox novaeseelandiae v3 SCIENCE_REVISION; v1-v2 retained; 15-minute lease; no credit.",
+    "2026-10-29T09:05:30+08:00: cycle3 #74 v3 RESEARCH_READY; new2/reused2/corrected1; NZ Birds Online development synthesis, DOC account and primary Mokoia study applied; full prompt saved; science false; no credit.",
+    "2026-10-29T09:30:30+08:00: batch 2026-10-29T0835+0800 cycle4 STARTED #75 Ninox scutulata v3 SCIENCE_REVISION; no credit.",
+    "2026-10-29T09:36:00+08:00: cycle4 #75 v3 RESEARCH_READY; new4/reused3/corrected1; science false; no credit.",
+    "2026-10-29T09:40:00+08:00: cycle4 #75 v3 IMAGE_GENERATED; targeted edit required; no credit.",
+    "2026-10-29T09:42:00+08:00: cycle4 #75 v3 REVIEWED after one targeted edit; science false.",
+    "2026-10-29T09:45:00+08:00: cycle4 #75 v3 ARCHIVED; fixed readback pending; no credit.",
+    "2026-10-29T09:48:00+08:00: cycle4 #75 v3 VERIFIED at ac053b82; batch cumulative4/6; next cycle5.",
+    "2026-10-29T09:50:00+08:00: cycle5 STARTED #76 Asio clamator v3; no credit.",
+    "2026-10-29T09:56:00+08:00: cycle5 #76 v3 RESEARCH_READY; no credit.",
+    "2026-10-29T10:00:00+08:00: #76 v3 IMAGE_GENERATED; edit required; no credit.",
+    "2026-10-29T10:04:00+08:00: #76 v3 REVIEWED after one edit; science false.",
+    "2026-10-29T10:07:00+08:00: #76 v3 ARCHIVED; no credit.",
+    "2026-10-29T10:10:00+08:00: #76 v3 VERIFIED; batch5/6 next6.",
+    "2026-10-29T10:12:00+08:00: cycle6 STARTED #77 Asio stygius v3; no credit.",
+    "2026-10-29T10:19:00+08:00: cycle6 #77 v3 RESEARCH_READY; no credit.",
+    "2026-10-29T10:23:00+08:00: #77 v3 IMAGE_GENERATED; edit required; no credit.",
+    "2026-10-29T10:28:00+08:00: #77 v3 REVIEWED after one edit; science false.",
+    "2026-10-29T10:31:00+08:00: #77 v3 ARCHIVED; no credit.",
+    "2026-10-29T10:34:00+08:00: #77 v3 VERIFIED; batch COMPLETE 6/6.",
+    "2026-10-29T10:36:00+08:00: new batch cycle1 STARTED #78 Asio capensis v3; no credit.",
+    "2026-10-29T10:41:00+08:00: #78 v3 RESEARCH_READY; no credit.",
+    "2026-10-29T11:39:00+08:00: #78 cycle1 ARCHIVED, fixed readback pending.",
+    "2026-10-29T11:40:00+08:00: fixed-tree verification passed for #78; batch advances to cycle2.",
+    "2026-10-29T11:42:00+08:00: cycle2 #79 start checkpoint created.",
+    "2026-10-29T11:44:00+08:00: #79 RESEARCH_READY.",
+    "2026-10-29T11:49:00+08:00: #79 IMAGE_GENERATED.",
+    "2026-10-29T11:51:00+08:00: #79 REVIEWED.",
+    "2026-10-29T11:53:00+08:00: #79 cycle2 ARCHIVED.",
+    "2026-10-29T11:55:00+08:00: fixed-tree verification passed for #79; batch advances to cycle3.",
+    "2026-10-29T11:58:00+08:00: cycle3 #80 start checkpoint.",
+    "2026-10-29T11:50:00+08:00: #80 RESEARCH_READY, start time corrected.",
+    "2026-10-29T11:54:00+08:00: #80 IMAGE_GENERATED.",
+    "2026-10-29T11:56:00+08:00: #80 REVIEWED.",
+    "2026-10-29T11:58:00+08:00: #80 ARCHIVED.",
+    "2026-10-29T12:00:00+08:00: #80 fixed-tree verification passed.",
+    "2026-10-29T11:56:00+08:00: cycle4 #81 start checkpoint.",
+    "2026-10-29T11:59:00+08:00: #81 RESEARCH_READY.",
+    "2026-10-29T12:00:00+08:00: #81 IMAGE_GENERATED in 56.4s; actual full image and juvenile crop opened; review pending.",
+    "2026-10-29T12:01:00+08:00: #81 REVIEWED first render, edit_count0; full JPEG and juvenile crop reopened; PASS_WITH_LIMITATIONS; science false.",
+    "2026-10-29T12:03:00+08:00: #81 ARCHIVED; six image paths and manifest507 committed; fixed readback pending; no credit.",
+    "2026-10-29T12:04:00+08:00: #81 VERIFIED at fixed archive fb066d5019a708128130e54fdd0d959eb3f2cae8; batch4/6 next5; lease released.",
+    "2026-10-29T12:05:00+08:00: cycle5 #82 STARTED; cycle4 verification commit reconciled.",
+    "2026-10-29T12:36:04+08:00: new batch cycle1 #85 STARTED; previous batch complete; no concurrent lease.",
+    "2026-10-29T12:36:57+08:00: #85 RESEARCH_READY persisted; generation pending.",
+    "2026-10-29T12:38:50+08:00: #85 IMAGE_GENERATED durable checkpoint prepared.",
+    "2026-10-29T12:39:42+08:00: #85 REVIEWED; no edit warranted; science false.",
+    "2026-10-29T12:40:26+08:00: #85 ARCHIVED; fixed-tree verification pending.",
+    "2026-10-29T12:41:05+08:00: #85 fixed-tree verification passed; batch advances to 1/6, next cycle2.",
+    "2026-10-29T18:40:00+08:00: #99 v3 oversize PNG mismatch rejected before credit; complete JPEG repair staged; fixed readback pending.",
+    "2026-10-29T18:41:00+08:00: #99 v3 fixed-tree verification passed at 7735200d31faca5081d62a06f2a3fae6d4317249; batch2/6 next3; lease released.",
+    "2026-10-29T18:42:00+08:00: batch cycle3 #100 Strix huhula v3 STARTED; no credit.",
+    "2026-10-29T18:45:00+08:00: cycle3 #100 v3 RESEARCH_READY; source index + full prompt persisted; no credit.",
+    "2026-10-29T18:48:00+08:00: #100 v3 IMAGE_GENERATED+REVIEWED after one targeted juvenile wing/tail edit; no credit.",
+    "2026-10-29T18:50:00+08:00: #100 v3 ARCHIVED; fixed readback pending; no credit.",
+    "2026-10-29T18:51:00+08:00: #100 v3 fixed-tree verification passed at 56b0d5745680ff6c538f4109dc08911472986505; batch3/6 next4; lease released.",
+    "2026-10-30T01:04:00+08:00: batch 2026-10-30T0033+0800 cycle3 #07 Asio flammeus v4 STARTED; lease acquired; no production credit.",
+    "2026-10-30T01:08:00+08:00: cycle3 #07 v4 RESEARCH_READY; new3/reused4/corrected1; full prompt persisted; no credit.",
+    "2026-10-30T01:10:00+08:00: cycle3 #07 v4 IMAGE_GENERATED; full 1536x1024 and 610x760 juvenile crop opened; adult-like juvenile wing rows/remiges require edit; no credit.",
+    "2026-10-30T01:12:00+08:00: cycle3 #07 v4 REVIEWED after one targeted juvenile-wing edit; full and 610x760 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T01:14:00+08:00: cycle3 #07 v4 ARCHIVED with complete JPEG assets after rejecting truncated stage PNG transfer; fixed commit readback pending; no credit.",
+    "2026-10-30T01:15:00+08:00: cycle3 #07 v4 fixed-tree verification passed at f11e59018ea1e6701bb33645092d2025f601da95; batch3/6 next4; lease released; science false.",
+    "2026-10-30T03:06:00+08:00: cycle4 #15 Strix varia v5 RESEARCH_READY; new1/reused4/corrected1; Manitoba natural-cavity supplement Table S6 and Figure S2 actually read; ~26-day fully cavity-supported entrance stage prompt persisted; no credit.",
+    "2026-10-30T03:08:00+08:00: cycle4 #15 v5 IMAGE_GENERATED; 1536x1024 first render opened at original resolution plus 560x700 juvenile crop. Exact text/count/adults/cavity support pass; crisp white-tipped juvenile wing-covert row flagged for targeted edit; no credit.",
+    "2026-10-30T03:10:00+08:00: cycle4 #15 v5 REVIEWED after one targeted imagegen edit; full 1536x1024 and 560x700 juvenile crop reopened. Exact text/count/adults/cavity support pass; crisp adult-like juvenile covert row replaced by short soft diffuse wing; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T03:12:00+08:00: cycle4 #15 v5 ARCHIVED as manifest541; concept/reviewed dff9a5653c/498681B, generated 3f70dad232/542620B, crop 8c649bb249/145012B; fixed-tree readback pending; no credit.",
+    "2026-10-30T03:14:00+08:00: cycle4 #15 Strix varia v5 VERIFIED at 595cefdb44fc0bfcc8774952729e5d00821deea6; non-truncated 1871-entry tree, exact four image path/blob/size tuples, manifest541, source index, research, run and knowledge matched; batch4/6 next5; lease released; science false; unique+0.",
+    "2026-10-30T03:16:00+08:00: cycle5 #16 Strix occidentalis v4 STARTED SCIENCE_REVISION; v1-v3 preserved; 15-minute lease acquired; no credit.",
+    "2026-10-30T03:20:00+08:00: cycle5 #16 Strix occidentalis v4 RESEARCH_READY; new1/reused3/corrected1; Forsman 1976 thesis PDF pp.79,82-83/Fig8/Table15 actually read; 42-46d/~10d post-fledge mesoptile prompt persisted; no credit.",
+    "2026-10-30T03:22:00+08:00: cycle5 #16 v4 IMAGE_GENERATED; full 1536x1024 and juvenile crop opened. Text/count/adults/support/mesoptile/cere pass; juvenile remiges and tail are long complete adult-like and require targeted edit; no credit.",
+    "2026-10-30T03:24:00+08:00: cycle5 #16 v4 REVIEWED after one targeted imagegen edit; full 1536x1024 and 560x700 crop reopened. Adult-length juvenile wing/tail shortened; supported sidestep, mesoptile/down tips, small dark disk, cere/bill and exact text/count pass; PASS_WITH_LIMITATIONS; no credit.",
+    "2026-10-30T03:26:00+08:00: cycle5 #16 v4 ARCHIVED as manifest542; concept/reviewed 37e192f0f6/499257B, generated decb2beda8/532780B, crop 73e643a855/130785B; fixed-tree readback pending; no credit.",
+    "2026-10-30T03:28:00+08:00: cycle5 #16 Strix occidentalis v4 VERIFIED at d1fea48c92fba85089a38386b841d2448b800256; non-truncated 1877-entry tree, four image tuples and manifest542/source/research/run/knowledge matched; batch5/6 next6; lease released; science false; unique+0.",
+    "2026-10-30T03:30:00+08:00: cycle6 #22 Gymnasio nudipes v4 STARTED SCIENCE_REVISION; v1-v3 preserved; rare-species juvenile evidence gap explicitly retained; 15-minute lease acquired; no credit.",
+    "2026-10-30T04:32:00+08:00: cycle6 #22 v4 RESEARCH_READY after expired-lease recovery; new2/reused2/corrected1; alarm-only short tufts and age-unknown fully cavity-supported fluffy nestling prompt persisted; Mikkola upload unavailable; no credit.",
+    "2026-10-30T04:34:00+08:00: cycle6 #22 v4 IMAGE_GENERATED; full 1536x1024 opened; text/count/adults/support pass; crisp adult-pattern juvenile side-wing patch requires targeted edit; no credit.",
+    "2026-10-30T04:36:00+08:00: cycle6 #22 v4 REVIEWED after one targeted juvenile-wing edit; full plate and 520x700 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T04:38:00+08:00: cycle6 #22 v4 ARCHIVED as manifest543; concept/reviewed 994905049a/719361B, generated 0f59d5d635/768973B, crop 8b44328580/198070B; fixed-commit readback pending; no credit.",
+    "2026-10-30T04:39:00+08:00: cycle6 #22 v4 VERIFIED at 93485b6b9eab45f420e0ae3fbd6fea837baba612; exact four image path/blob/size tuples plus manifest543/source/research/run/knowledge matched; batch COMPLETE6/6; lease released; science false; unique+0.",
+    "2026-10-30T07:34:00+08:00: recovered expired cycle6 #30 v4 lease at same run; RESEARCH_READY persisted with new1/reused4/corrected1 and full prompt. Restored SOURCE_INDEX from last intact 2404dc5 history plus 24 later lines after detecting the remote blob was 297811 bytes smaller and not UTF-8 readable; no image or cycle credit.",
+    "2026-10-30T07:38:00+08:00: cycle6 #30 v4 IMAGE_GENERATED; 1536x1024 full image opened at original resolution. Title/count/adults/size direction/cavity support pass; juvenile adult-like layered white-spotted wing requires targeted edit; no credit.",
+    "2026-10-30T07:40:00+08:00: cycle6 #30 v4 REVIEWED after two targeted juvenile-wing edits. Full 1536x1024 plate and 520x700 crop reopened; crisp white-spotted covert rows and mature remiges removed, wing/tail concealed, support/text/count/adults pass; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T07:42:00+08:00: cycle6 #30 v4 ARCHIVED as manifest549; concept/reviewed a8214760b5/662412B, generated 3c358e6783/735369B, crop 8e588e5ca8/196592B; fixed-commit readback pending; no credit.",
+    "2026-10-30T08:31:00+08:00: new batch cycle1 STARTED #31 Glaucidium radiatum v4 SCIENCE_REVISION; 15-minute lease acquired; existing v1-v3 and historical user records retained; no credit.",
+    "2026-10-30T08:34:00+08:00: batch cycle1 #31 v4 RESEARCH_READY; new1/reused4/corrected0; WII thesis printed pp.12-13 read, January 2026 immature image and adult/nest references re-read; exact age, flight threshold and sexed measurements remain unknown; no credit.",
+    "2026-10-30T08:40:00+08:00: cycle1 #31 v4 IMAGE_GENERATED after 71-second imagegen wait; 1536x1024 full plate opened at original resolution. Exact title/count/adults/sex direction/support pass; juvenile has crisp adult-like white-spotted wing coverts and a mature long barred tail, so targeted edit required; no credit.",
+    "2026-10-30T08:44:00+08:00: cycle1 #31 v4 REVIEWED after one targeted juvenile-wing/tail edit. Full 1536x1024 plate and 520x700 juvenile crop reopened: repeated bright white spots removed, wing softer and lower-contrast, tail shorter/browner; title/count/adults/feet/support pass. PASS_WITH_LIMITATIONS; exact juvenile age/flight status and sexed dimorphism remain unknown; science false; no credit.",
+    "2026-10-30T08:47:00+08:00: cycle1 #31 v4 ARCHIVED as design manifest550 / production manifest541 / design legacy manifest539; concept/reviewed e5d022c30dc722d5c58df857efd7788db0918093/2919939B, generated 1835b60f18/3089115B, crop 9793f89e0883250ee9f173b447025d48bbce3d5f/644119B; fixed-commit readback pending; no credit.",
+    "2026-10-30T08:50:00+08:00: cycle1 #31 v4 VERIFIED at fixed archive commit 9b2675688211790d835bfb78e1caea91f21d3f28; non-truncated 1928-entry tree and exact four image blobs/sizes plus manifests/source/research/run/knowledge/design/status/state matched. Batch 1/6, next cycle2; unique remains 175/251; science false; lease released.",
+    "2026-10-30T08:53:00+08:00: batch cycle2 STARTED #32 Glaucidium castanotum v4 SCIENCE_REVISION; 15-minute lease acquired; existing v1-v3 and historical user records retained; no credit.",
+    "2026-10-30T08:58:00+08:00: cycle2 #32 v4 RESEARCH_READY; new1/reused5/corrected0; Ceylon Bird Club dated adult records read, IOBSL p.72 and 2014 dependent juvenile observation re-read; exact age, flight threshold, independence and sexed measurements remain unknown; no credit.",
+    "2026-10-30T09:00:00+08:00: cycle2 #32 v4 IMAGE_GENERATED after 51-second imagegen wait; full 1536x1024 plate opened. Exact title/count, red chestnut adults, sparse chest bars, streaked white underparts, subtle sex direction, wet forest and supported juvenile pass at full view; crop review pending; no credit.",
+    "2026-10-30T09:03:00+08:00: cycle2 #32 v4 REVIEWED without edit. Full 1536x1024 plate and 520x700 crop reopened: juvenile wing spots are muted/irregular, formed wing and short soft tail fit selected older stage, two-foot support/text/count/adult identity pass. PASS_WITH_LIMITATIONS; exact age/flight/independence and sexed measures unknown; science false; no credit.",
+    "2026-10-30T09:05:00+08:00: cycle2 #32 v4 ARCHIVED as design manifest551 / production manifest542 / legacy manifest540; concept/generated/reviewed 5599f6d607/3108715B, crop 70947e1cd3f6b370447639981941f9725945d054/706212B; fixed readback pending; no credit.",
+    "2026-10-30T09:08:00+08:00: cycle2 #32 v4 VERIFIED at fixed archive commit b44d504135d5083e53c7f22008a148d59e48f207; non-truncated 1934-entry tree and exact image/text/source tuples matched. Batch 2/6, next cycle3; unique 175/251; science false; lease released.",
+    "2026-10-30T09:10:00+08:00: batch cycle3 STARTED #33 Taenioptynx brodiei v4 SCIENCE_REVISION; 15-minute lease acquired; v1-v3 retained; no credit.",
+    "2026-10-30T09:13:00+08:00: cycle3 #33 v4 RESEARCH_READY; new1/reused4/corrected0; ITIS current-name mapping and Lin et al. 2014 known-age fledgling evidence read; no credit.",
+    "2026-10-30T09:16:00+08:00: cycle3 #33 v4 IMAGE_GENERATED after 50-second wait; full plate opened. Text/count/adults and male rear false eyes pass; juvenile folded wing/tail are too long and adult-ordered for selected 56-day incomplete-pattern stage, targeted edit required; no credit.",
+    "2026-10-30T10:49:00+08:00: cycle5 #35 v4 RESEARCH_READY; restored complete SOURCE_INDEX history before retaining #34 additions; new1/reused3/corrected1; full prompt persisted; exact age/flight/iris timing remain unknown; no credit.",
+    "2026-10-30T10:51:00+08:00: cycle5 #35 v4 IMAGE_GENERATED after 51.1-second wait; full 1536x1024 plate opened; exact title/count/adults/support pass; juvenile repeated bright covert spots and mature long barred tail require targeted edit; no credit.",
+    "2026-10-30T10:54:00+08:00: cycle5 #35 v4 REVIEWED after one targeted juvenile-only edit; full 1536x1024 and 560x700 crop reopened; adult-like bright wing spots and mature tail removed; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T10:58:00+08:00: cycle5 #35 v4 ARCHIVED as design554 / production545 / legacy543; concept/reviewed e94a4ba5b2/3244892B, generated 26248cfe29/3493243B, crop fc6083ba7e/245139B; fixed readback pending; no credit.",
+    "2026-10-30T11:00:00+08:00: cycle5 #35 v4 VERIFIED at fixed archive aa1663e59491666803285fae77bba6c6ca812a3d; non-truncated 1953-entry tree and exact image/text/source tuples matched; batch5/6 next6; unique175/251; science false; lease released.",
+    "2026-10-30T11:01:00+08:00: batch cycle6 STARTED #36 Glaucidium bolivianum v4 SCIENCE_REVISION; 15-minute lease acquired; v1-v3 retained; no credit.",
+    "2026-10-30T11:04:00+08:00: cycle6 #36 v4 RESEARCH_READY; new2/reused2/corrected1; König 1991 printed pp.36-42/Figs4-5 and ITIS current name read; cavity-stage claim removed; full prompt persisted; science false; no credit.",
+    "2026-10-30T11:06:00+08:00: cycle6 #36 v4 IMAGE_GENERATED after 81.4-second wait; full plate opened; title/count/adult forms/support pass; male tail too long and juvenile wing too mature require targeted edit; no credit.",
+    "2026-10-30T11:09:00+08:00: cycle6 #36 v4 REVIEWED after one targeted male-tail/juvenile-wing edit; full plate and 560x700 crop reopened; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T11:12:00+08:00: cycle6 #36 v4 ARCHIVED as design555 / production546 / legacy544; fixed readback pending; no credit.",
+    "2026-10-30T12:34:00+08:00: batch cycle1 #37 v4 RESEARCH_READY; new3/reused5/corrected1; Greeney p.37 nest substrate and Lüthi p.49 cross-species correction read; exact juvenile age/flight remain unknown; full prompt persisted; no credit.",
+    "2026-10-30T12:37:00+08:00: cycle1 #37 v4 IMAGE_GENERATED after 47-second imagegen wait; full 1536x1024 plate opened at original resolution; exact title/count/labels/adults/false-eye/support pass; age-unknown plain-crowned juvenile has no crisp adult covert rows and short soft tail; crop review pending; no credit.",
+    "2026-10-30T12:40:00+08:00: cycle1 #37 v4 REVIEWED without edit; full 1536x1024 plate and 520x737 juvenile crop reopened; title/count/labels/adult false-eye/near-equal adult scale/all-foot support pass; older plain-crowned juvenile has no bright adult covert rows and short tail; PASS_WITH_LIMITATIONS; exact age/flight unknown; science false; no credit.",
+    "2026-10-30T12:44:00+08:00: cycle1 #37 v4 ARCHIVED as design556 / production547 / legacy545; concept/generated/reviewed 9963f71ae1/3256902B, crop e1ea90f695/186060B; fixed-commit readback pending; no credit.",
+    "2026-10-30T12:49:00+08:00: cycle1 #37 v4 VERIFIED at fixed archive fedf8b0a8a026d86ea5c0bf7fa19949ef7b677b2; non-truncated 1965-entry tree and exact four image blobs/sizes plus manifests/source/research/run/knowledge matched; batch1/6 next2; unique175/251; science false; lease released.",
+    "2026-10-30T12:50:00+08:00: batch cycle2 STARTED #38 Glaucidium nana v4 SCIENCE_REVISION; 15-minute lease acquired; v1-v3 retained; no credit.",
+    "2026-10-30T12:53:00+08:00: cycle2 #38 v4 RESEARCH_READY; new1/reused6/corrected1; Marks 2018 p.118 corrects incubation to 26-29 d and Ibarra 2015 p.36 branch fledgling re-read; exact juvenile age/flight remain unknown; full prompt persisted; no credit.",
+    "2026-10-30T12:56:00+08:00: cycle2 #38 v4 IMAGE_GENERATED after 68.3-second wait; full 1536x1024 plate opened; exact title/count/adults/false-eye/support pass; juvenile bright adult wing spots and long regular barred tail require targeted edit; no credit.",
+    "2026-10-30T12:59:00+08:00: cycle2 #38 v4 REVIEWED after one targeted juvenile-wing/tail edit; full 1536x1024 and 520x790 crop reopened; adult-like white wing spots removed, wing softened and tail shortened/weakened; title/count/adults/support pass; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T13:03:00+08:00: cycle2 #38 v4 ARCHIVED as design557/production548/legacy546; knowledge 770B serialization overwrite detected and restored from fa3ef102 before archive; fixed readback pending; no credit.",
+    "2026-10-30T13:08:00+08:00: cycle2 #38 v4 VERIFIED at fixed archive 19e81f4885695fcf8a835d360586d5d0b59610ad; exact images/manifests/source/research/run and restored 8710B knowledge card matched; batch2/6 next3; unique175/251; science false; lease released.",
+    "2026-10-30T13:49:00+08:00: cycle4 #40 v4 RESEARCH_READY; new1/reused5/corrected1; original description pp.306-312 and ITIS current name read; sole female extreme rufous morph not generalized; juvenile plumage/age/iris/flight unknown; full prompt persisted; no credit.",
+    "2026-10-30T13:51:00+08:00: cycle4 #40 v4 IMAGE_GENERATED after 60.0-second wait; full 1536x1024 plate opened; title/count/adults/support pass; male tail too long/regularly barred and juvenile tail slightly too mature require targeted edit; no credit.",
+    "2026-10-30T13:54:00+08:00: cycle4 #40 v4 REVIEWED after two targeted edits; full 1536x1024 and final 560x700 crop reopened; male tail shortened to five incomplete bands, juvenile tail softened and mature primary tips replaced by compact rounded wing; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T13:56:00+08:00: cycle4 #40 v4 ARCHIVED; concept/generated/reviewed/crop and manifests design559/production550/legacy548 persisted; fixed readback pending; no credit; unique175/251; science false.",
+    "2026-10-30T13:58:00+08:00: cycle4 #40 v4 VERIFIED at fixed archive f158c79d345002a643e143528e869db0c69f13dd; exact concept/generated/reviewed/crop blobs and manifests 559/550/548 plus source/research/run/knowledge/state matched; batch4/6 next5; unique175/251; science false; lease released.",
+    "2026-10-30T14:31:00+08:00: batch cycle5 #41 Glaucidium cobanense v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 retained; no credit.",
+    "2026-10-30T14:56:00+08:00: cycle6 #42 v4 IMAGE_GENERATED after 42.2-second wait; full 1536x1024 plate opened; exact title/count/adults/support pass; juvenile mature white crown and wing rows require targeted edit; no credit.",
+    "2026-10-30T14:59:00+08:00: cycle6 #42 v4 REVIEWED after two targeted juvenile edits; full 1536x1024 plate and 536x720 crop reopened; mature crown/wing traits removed; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T15:30:00+08:00: expired cycle6 #42 v4 lease recovered after confirming main 7734707e18efa0d7e88eda2dd6868246cc65f862 unchanged; REVIEWED evidence reused, top-level stale #41 lease reconciled to #42; no credit.",
+    "2026-10-30T15:33:00+08:00: cycle6 #42 v4 ARCHIVED; concept/generated/reviewed/crop and manifests design561/production552/legacy550 persisted; fixed readback pending; no credit; unique175/251; science false.",
+    "2026-10-30T15:36:00+08:00: cycle6 #42 v4 VERIFIED at fixed archive db6268ba091584c3e3b735240f13deaa81dc815b; exact image/text/source/state tuples matched; batch6/6 COMPLETE; unique175/251; science false; lease released.",
+    "2026-10-30T16:34:00+08:00: batch cycle1 #43 Athene blewitti v4 STARTED; 15-minute lease acquired; no credit.",
+    "2026-10-30T16:34:00+08:00: cycle1 #43 v4 RESEARCH_READY; new1/reused5/corrected1; Mehta et al. 2021 live-bird sample rejects visible adult size dimorphism; full prompt persisted; no credit.",
+    "2026-10-30T16:36:00+08:00: cycle1 #43 v4 IMAGE_GENERATED after 70.4-second wait; full 1536x1024 plate opened; title/count/support pass; juvenile adult-like wing/tail and excessive adult wing spotting require targeted edit; no credit.",
+    "2026-10-30T16:42:00+08:00: cycle1 #43 v4 REVIEWED after three targeted edits; final 1536x1024 plate and 520x720 crop reopened; adult visible size equality and short soft juvenile wing now pass; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T16:44:00+08:00: cycle1 #43 v4 ARCHIVED as design562/production553/legacy551; concept/generated/reviewed/crop and research records persisted; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:45:00+08:00: cycle1 #43 v4 VERIFIED at fixed archive a1ed3009abf3750f1757a8b3b7aaa49be7fc99bd; exact image/text/source/state tuples matched; batch1/6 next2; unique175/251; science false; lease released.",
+    "2026-10-30T16:47:00+08:00: batch cycle2 #44 Strix uralensis v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v2-v3 retained; no credit.",
+    "2026-10-30T16:47:00+08:00: cycle2 #44 v4 RESEARCH_READY; new1/reused4/corrected1; Eriksson et al. 1984 wing/sheath age evidence corrects day-29 pin-tip depiction and adult/juvenile sex-cue timing; full prompt persisted; no credit.",
+    "2026-10-30T16:49:00+08:00: cycle2 #44 v4 IMAGE_GENERATED after 75.9-second wait; adult identity/size/support pass; juvenile adult-like white-spotted layered wing requires targeted edit; no credit.",
+    "2026-10-30T16:54:00+08:00: cycle2 #44 v4 REVIEWED after two juvenile-only edits; final plate and crop reopened; short growing wing now passes; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
+    "2026-10-31T02:34:10+08:00: cycle2 #78 v4 ARCHIVED as legacy582/design581/production572; exact concept/generated/reviewed/crop blobs persisted; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-31T02:35:27+08:00: cycle2 #78 v4 VERIFIED at fixed archive 42fa2acf2c6c759684b02d275c6c534188bc3d2d; exact four JPEG blobs and sizes, manifests582/581/572 and support records matched; batch2/6 next3; unique175/251; science false; lease released.",
+    "2026-10-31T02:36:48+08:00: batch cycle3 #79 Otus lettia v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 and user confirmation records retained; no credit.",
+    "2026-10-31T02:37:06+08:00: cycle3 #79 v4 RESEARCH_READY; new0/reused4/corrected1; dated p.459 chronology retained, juvenile wing boundary corrected; full prompt persisted; search payloads empty; no credit.",
+    "2026-10-31T02:39:13+08:00: cycle3 #79 v4 IMAGE_GENERATED after 66.0-second imagegen edit; 1536x1024 full JPEG opened; text/count/adults/support and shortened juvenile wing pass initial review; crop/derivative review pending; no credit.",
+    "2026-10-31T02:39:37+08:00: cycle3 #79 v4 REVIEWED after one direct imagegen revision of v3; final 1536x1024, juvenile crop and 680x453 derivative opened; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-31T02:40:20+08:00: cycle3 #79 v4 ARCHIVED as legacy583/design582/production573; exact concept/generated/reviewed/crop blobs persisted; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-31T02:41:05+08:00: cycle3 #79 v4 VERIFIED at fixed archive 20419a0cd19aec7ecffa739e3b319fc3f61a95ea; exact JPEG payloads/blobs/sizes, manifests583/582/573 and support records matched; batch3/6 next4; unique175/251; science false; lease released.",
+    "2026-10-31T02:41:58+08:00: batch cycle4 #80 Otus sunia v4 SCIENCE_REVISION STARTED; 15-minute lease acquired; v1-v3 retained; no credit.",
+    "2026-10-31T02:42:47+08:00: cycle4 #80 v4 RESEARCH_READY; new0/reused4/corrected1; just-opening sheath boundary corrects v3 neat long pins; searches empty; full prompt saved; no credit.",
+    "2026-10-31T02:44:31+08:00: cycle4 #80 v4 IMAGE_GENERATED after 62.9-second direct edit; full image opened; text/count/adults/support and tiny juvenile tips pass; crop pending; no credit.",
+    "2026-10-31T02:44:31+08:00: cycle4 #80 v4 REVIEWED; full/crop/derivative opened; one direct edit; PASS_WITH_LIMITATIONS; science false; no credit.",
+    "2026-10-31T02:47:06+08:00: cycle4 #80 v4 ARCHIVED legacy584/design583/production574; fixed readback pending; unique175/251; science false; no credit.",
+    "2026-10-31T02:48:19+08:00: cycle4 #80 v4 VERIFIED at fixed archive 63b708a05554a32343c32828c257388ac8d8b46a; exact assets/manifests584/583/574/support records matched; batch4/6 next5; unique175/251; science false; lease released.",
+    "2026-10-31T03:30:00+08:00: cycle5 #81 v4 STARTED; lease 20261031T033000+0800-cycle-5 expires 2026-10-31T03:45:00+08:00; no cycle credit.",
+    "2026-10-31T03:35:00+08:00: cycle5 #81 v4 RESEARCH_READY; evidence persisted; no cycle credit.",
+    "2026-10-31T03:39:00+08:00: cycle5 #81 v4 IMAGE_GENERATED; remote JPEG persisted; review/edit pending; no credit.",
+    "2026-10-31T03:42:30+08:00: cycle5 #81 v4 REVIEWED; one edit; science false; no cycle credit.",
+    "2026-10-31T03:46:30+08:00: cycle5 #81 v4 ARCHIVED; fixed readback pending; no cycle credit.",
+    "2026-10-31T03:49:30+08:00: cycle5 #81 v4 VERIFIED; batch 5/6 next6; lease released.",
+    "2026-10-31T03:50:30+08:00: cycle6 #82 v4 STARTED; lease 20261031T035030+0800-cycle-6 expires 2026-10-31T04:05:30+08:00; no cycle credit.",
+    "2026-10-31T03:54:30+08:00: cycle6 #82 v4 RESEARCH_READY; no credit.",
+    "2026-10-31T03:57:30+08:00: cycle6 #82 v4 IMAGE_GENERATED; review pending; no credit.",
+    "2026-10-31T03:59:30+08:00: cycle6 #82 v4 REVIEWED; one edit; no credit.",
+    "2026-10-31T04:02:30+08:00: cycle6 #82 v4 ARCHIVED; fixed readback pending; no credit.",
+    "2026-10-31T04:05:00+08:00: cycle6 #82 v4 VERIFIED; batch 2026-10-31T0134+0800 COMPLETE 6/6; lease released.",
+    "2026-10-31T04:30:00+08:00: new batch 2026-10-31T0430+0800 cycle1 #83 v4 STARTED; no credit.",
+    {
+      "at": "2026-10-31T06:36:00+08:00",
+      "event": "STALE_LEASE_RECONCILED_AND_NEW_CYCLE_STARTED",
+      "expired_run_id": "20261031T043000+0800-cycle-1",
+      "batch_id": "2026-10-31T0635+0800",
+      "run_id": "20261031T063600+0800-cycle-1",
+      "baseline_main": "9fd8b3c7f0070082fcb499ec6a20957d6b4985e0"
+    },
+    {
+      "at": "2026-10-31T17:35:39+08:00",
+      "event": "STARTED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 3,
+      "run_id": "20261031T173539+0800-cycle-3",
+      "species": "Megascops marshalli",
+      "species_id": 128,
+      "version": 8,
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "baseline_main": "22947267d0242317092373260c8ba9d89570cda1",
+      "lease_expires_at": "2026-10-31T17:50:39+08:00",
+      "observed_issue": "current v7 PNG fails full decode with IDAT invalid distance code; checked-in 787051-byte binary conflicts with claimed reviewed 3313051-byte artifact",
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T17:38:30+08:00",
+      "event": "RESEARCH_READY",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 3,
+      "run_id": "20261031T173539+0800-cycle-3",
+      "species_id": 128,
+      "version": 8,
+      "new_sources": 1,
+      "reused_sources": 3,
+      "corrected_claims": 1,
+      "source_ids": [
+        "MARS-ARMONIA-2009-P29",
+        "MARS-MIK2013-P234",
+        "MARS-WESKE-1981",
+        "MARS-HERZOG-2009"
+      ],
+      "full_prompt_saved": true,
+      "lease_expires_at": "2026-10-31T17:53:30+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T17:41:00+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 3,
+      "run_id": "20261031T173539+0800-cycle-3",
+      "species_id": 128,
+      "version": 8,
+      "path": "owl-pet/production/generated/128-megascops-marshalli-v8-generated-master.png",
+      "sha256": "a5774abe443a202711bc2045f3db420276118c44e8107e61b2f9541b65655336",
+      "git_blob": "da987b8091c78c3f6933fbf0dd0e77794abce80e",
+      "size_bytes": 3065499,
+      "dimensions": "1536x1024",
+      "issue": "center immature wing too long, crisp, evenly layered and heavily pale-spotted; targeted edit required",
+      "lease_expires_at": "2026-10-31T17:56:00+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T17:44:00+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 3,
+      "run_id": "20261031T173539+0800-cycle-3",
+      "species_id": 128,
+      "version": 8,
+      "whole_frame_opened": true,
+      "immature_crop": "owl-pet/production/review-crops/128-megascops-marshalli-v8-immature.png",
+      "feet_crop": "owl-pet/production/review-crops/128-megascops-marshalli-v8-feet.png",
+      "edits_after_generation": 1,
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "final_sha256": "7cf92974d2236de0f07ecfbf1b7557be5bb21a626c94955b5cb71894012c1187",
+      "final_git_blob": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+      "lease_expires_at": "2026-10-31T17:59:00+08:00",
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T17:48:00+08:00",
+      "event": "ARCHIVED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 3,
+      "run_id": "20261031T173539+0800-cycle-3",
+      "species_id": 128,
+      "version": 8,
+      "concept_path": "owl-pet/design/concepts/128-megascops-marshalli-v8.png",
+      "git_blob": "9e6c080f980cea2bc724f213eefd33753cddf31e",
+      "size_bytes": 2926987,
+      "manifest_counts": {
+        "legacy": 613,
+        "design": 612,
+        "production": 603
+      },
+      "readback_pending": true,
+      "lease_expires_at": "2026-10-31T18:03:00+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T17:52:00+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 3,
+      "run_id": "20261031T173539+0800-cycle-3",
+      "species_id": 128,
+      "version": 8,
+      "fixed_archive_commit": "3e343d1cb731e1642e4cf5c54b0bb17257b0c159",
+      "tree_count": 2317,
+      "asset_count": 6,
+      "manifest_counts": {
+        "legacy": 613,
+        "design": 612,
+        "production": 603
+      },
+      "manifest_json_valid": true,
+      "png_full_decode": true,
+      "sha256_verified": true,
+      "unique_species": "175/251",
+      "scientifically_verified": false,
+      "next_cycle": 4,
+      "credited": true
+    },
+    {
+      "at": "2026-10-31T17:54:00+08:00",
+      "event": "STARTED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "run_id": "20261031T175400+0800-cycle-4",
+      "species_id": 130,
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "lease_expires_at": "2026-10-31T18:09:00+08:00",
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T18:00:00+08:00",
+      "event": "RESEARCH_READY",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "run_id": "20261031T175400+0800-cycle-4",
+      "species_id": 130,
+      "version": 3,
+      "new_sources": 2,
+      "reused_sources": 4,
+      "corrected_claims": 2,
+      "source_ids": [
+        "KOEP-FJELDSA-2012",
+        "KOEP-REO-2019-ABSTRACT",
+        "KOEP-ALARCON-2023",
+        "KOEP-MIK2013-222",
+        "KOEP-ORDONEZ-FREILE-2019",
+        "KOEP-PERUAVES-ADULT"
+      ],
+      "full_prompt_saved": true,
+      "lease_expires_at": "2026-10-31T18:15:00+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T18:03:00+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "run_id": "20261031T175400+0800-cycle-4",
+      "species_id": 130,
+      "version": 3,
+      "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-generated-master.png",
+      "sha256": "a933f7b5621dea1c6ae38c79ec4134f2e7e2a57512997386b3415a4cf4817743",
+      "git_blob": "de24340c28eae425e3d00fced07411fb890da689",
+      "size_bytes": 2957013,
+      "dimensions": "1536x1024",
+      "issue": "left adult wing too long/regularly pale-spotted; juvenile wing too long and mature",
+      "lease_expires_at": "2026-10-31T18:18:00+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T18:07:00+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "run_id": "20261031T175400+0800-cycle-4",
+      "species_id": 130,
+      "version": 3,
+      "whole_frame_opened": true,
+      "juvenile_crop": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-juvenile.png",
+      "feet_crop": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-feet.png",
+      "edits_after_generation": 1,
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "final_sha256": "88e41f1ecda9ed9cb0fc8b4b7539bdbb8f9843e79c03a5a28ffe2bcddb178b39",
+      "final_git_blob": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+      "lease_expires_at": "2026-10-31T18:22:00+08:00",
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T18:10:00+08:00",
+      "event": "ARCHIVED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "run_id": "20261031T175400+0800-cycle-4",
+      "species_id": 130,
+      "version": 3,
+      "concept_path": "owl-pet/design/concepts/130-megascops-koepckeae-v3.png",
+      "git_blob": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+      "size_bytes": 2826705,
+      "manifest_counts": {
+        "legacy": 614,
+        "design": 613,
+        "production": 604
+      },
+      "readback_pending": true,
+      "lease_expires_at": "2026-10-31T18:25:00+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T18:14:00+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "run_id": "20261031T175400+0800-cycle-4",
+      "species_id": 130,
+      "version": 3,
+      "fixed_archive_commit": "793c769923b8a255846054a8e0371b59e2989cf5",
+      "tree_count": 2325,
+      "asset_count": 6,
+      "manifest_counts": {
+        "legacy": 614,
+        "design": 613,
+        "production": 604
+      },
+      "manifest_json_valid": true,
+      "png_full_decode": true,
+      "sha256_verified": true,
+      "unique_species": "175/251",
+      "scientifically_verified": false,
+      "next_cycle": 5,
+      "credited": true
+    },
+    {
+      "at": "2026-10-31T18:17:00+08:00",
+      "event": "STARTED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 5,
+      "run_id": "20261031T181700+0800-cycle-5",
+      "species_id": 131,
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "lease_expires_at": "2026-10-31T18:32:00+08:00",
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T18:23:00+08:00",
+      "event": "RESEARCH_READY",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 5,
+      "run_id": "20261031T181700+0800-cycle-5",
+      "species_id": 131,
+      "version": 3,
+      "new_sources": 1,
+      "reused_sources": 4,
+      "corrected_claims": 2,
+      "source_ids": [
+        "WAT-BARROS-CINTRA-2009",
+        "WAT-DANTAS-2021",
+        "WAT-DAFFONSECA-2017",
+        "WAT-SCAUP-2024",
+        "WAT-MIK2013-235"
+      ],
+      "full_prompt_saved": true,
+      "lease_expires_at": "2026-10-31T18:38:00+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    },
+    {
+      "at": "2026-10-31T18:25:00+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 5,
+      "run_id": "20261031T181700+0800-cycle-5",
+      "species_id": 131,
+      "version": 3,
+      "path": "owl-pet/production/generated/131-megascops-watsonii-v3-generated-master.png",
+      "sha256": "2447c18c2a54161610b9f7ac028f444f86d3651acb8c0f7273b479f9163900e7",
+      "git_blob": "393ca1478a208be3b9b93d19190788f5a656ff61",
+      "size_bytes": 2898792,
+      "dimensions": "1536x1024",
+      "issue": "juvenile folded wing too long/sleek and near feet",
+      "lease_expires_at": "2026-10-31T18:40:00+08:00",
+      "scientifically_verified": false,
+      "credited": false
+    }
+  ],
+  "in_progress": null,
+  "previous_checkpoint": {
+    "batch_id": "20261031T2128+0800",
+    "cycle": 3,
+    "species": "Otus magicus",
+    "species_id": 141,
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261031T214500+0800-cycle-3",
+    "stage": "VERIFIED",
+    "run_record": "owl-pet/production/runs/20261031T214500+0800-cycle-3.md",
+    "at": "2026-10-31T21:56:00+08:00",
+    "evidence": {
+      "fixed_archive_commit": "ebdcc3e94360e0576f41c4556954ed22dc64a469",
+      "manifest_counts": {
+        "design_image": 624,
+        "design_legacy": 625,
+        "production": 615
+      },
+      "path_blob_readback": true,
+      "png_full_decode": true,
+      "sha256_verified": true,
+      "unique_species": "175/251",
+      "scientifically_verified": false,
+      "next_cycle": 4,
+      "batch_complete": false
+    }
+  },
+  "last_checkpoint": {
+    "batch_id": "20261031T2128+0800",
+    "cycle": 4,
+    "species": "Asio grammicus",
+    "species_id": 142,
+    "version": 2,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261031T223601+0800-cycle-4",
+    "stage": "VERIFIED",
+    "run_record": "owl-pet/production/runs/20261031T223601+0800-cycle-4.md",
+    "at": "2026-10-31T22:50:00+08:00",
+    "evidence": {
+      "fixed_archive_commit": "351b8a365a28fbd2b914861df8e5897cd7495827",
+      "tree_sha": "f48d6085ac18eff8af5a5a2de9780f25c82a82b6",
+      "tree_count": 2478,
+      "assets": {
+        "owl-pet/design/concepts/142-asio-grammicus-v2.png": {
+          "sha": "b7a561de4d40660dc10108c3a3fed782ff7d3fe7",
+          "size": 2914397
+        },
+        "owl-pet/production/generated/142-asio-grammicus-v2-generated-master.png": {
+          "sha": "fd4867642fb723d5a197d3aa04143e70f11d18c6",
+          "size": 2959021
+        },
+        "owl-pet/production/generated/142-asio-grammicus-v2-edit1.png": {
+          "sha": "b7a561de4d40660dc10108c3a3fed782ff7d3fe7",
+          "size": 2914397
+        },
+        "owl-pet/production/reviewed/142-asio-grammicus-v2-reviewed-master.png": {
+          "sha": "b7a561de4d40660dc10108c3a3fed782ff7d3fe7",
+          "size": 2914397
+        },
+        "owl-pet/production/review-crops/142-asio-grammicus-v2-juvenile.png": {
+          "sha": "43ad923785c71f4d8de0c76fca3df8db65eb4624",
+          "size": 800263
+        },
+        "owl-pet/production/review-crops/142-asio-grammicus-v2-adult-size-feet.png": {
+          "sha": "9b22b8093eda2021f2dd1b0f95011c57ae4c24af",
+          "size": 1978555
+        }
+      },
+      "manifest_counts": {
+        "design_image": 625,
+        "design_legacy": 626,
+        "production": 616
+      },
+      "manifest_json_valid": true,
+      "path_blob_readback": true,
+      "png_full_decode": true,
+      "sha256_verified": true,
+      "connector_full_binary_stream_readback": false,
+      "rejected_archive_commit": "9af895dec2e471cba3c597cf7fd2f281c94c3ed5",
+      "unique_species": "175/251",
+      "scientifically_verified": false,
+      "next_cycle": 5,
+      "batch_complete": false
+    }
+  },
+  "history": [
+    {
+      "at": "2026-10-31T11:30:52+08:00",
+      "event": "CYCLE_STARTED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 1,
+      "run_id": "20261031T113052+0800-cycle-1",
+      "species_id": 104,
+      "species": "Asio madagascariensis",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "baseline_main": "6065ffb4151017fe854f3b3a8591a8c44040727e",
+      "lease_expires_at": "2026-10-31T11:45:52+08:00"
+    },
+    {
+      "at": "2026-10-31T11:32:18+08:00",
+      "event": "RESEARCH_READY",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 1,
+      "run_id": "20261031T113052+0800-cycle-1",
+      "species_id": 104,
+      "version": 4,
+      "new_to_index": 4,
+      "reused_in_design": 2,
+      "new_visual_comparators": 2,
+      "corrected_actual_image_issues": 2,
+      "scientifically_verified": false
+    },
+    {
+      "at": "2026-10-31T11:34:29+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 1,
+      "run_id": "20261031T113052+0800-cycle-1",
+      "species_id": 104,
+      "version": 4,
+      "generation_seconds": 42.7,
+      "path": "owl-pet/production/generated/104-asio-madagascariensis-v4-generated-master.png",
+      "size": 3086916,
+      "sha256": "ff8fd05590d867ee0f16aecf9f0a3628c617b5c22c11e4d48c5f5cbf81cc7e1d"
+    },
+    {
+      "at": "2026-10-31T11:36:24+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 1,
+      "run_id": "20261031T113052+0800-cycle-1",
+      "species_id": 104,
+      "version": 4,
+      "result": "PASS_WITH_LIMITATIONS",
+      "edits": 1,
+      "science": false,
+      "full_opened": true,
+      "juvenile_crop_opened": true,
+      "feet_crop_opened": true
+    },
+    {
+      "at": "2026-10-31T11:38:29+08:00",
+      "event": "ARCHIVE_PREPARED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 1,
+      "run_id": "20261031T113052+0800-cycle-1",
+      "species_id": 104,
+      "version": 4,
+      "manifest_counts": {
+        "legacy": 605,
+        "design": 604,
+        "production": 595
+      },
+      "unique_species": "175/251",
+      "readback_pending": true,
+      "science": false
+    },
+    {
+      "at": "2026-10-31T11:40:22+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 1,
+      "run_id": "20261031T113052+0800-cycle-1",
+      "species_id": 104,
+      "version": 4,
+      "fixed_archive_commit": "199e5d01496e70d2a9bb90f6e6bce6da7e9577df",
+      "manifest_counts": {
+        "legacy": 605,
+        "design": 604,
+        "production": 595
+      },
+      "tree_entries": 2315,
+      "raw_original_byte_identical": true,
+      "unique_species": "175/251",
+      "science": false,
+      "next_cycle": 2,
+      "lease_released": true
+    },
+    {
+      "at": "2026-10-31T11:42:22+08:00",
+      "event": "CYCLE_STARTED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "species": "Ptilopsis granti",
+      "version": 7,
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "baseline_main": "e009fc1d3d04308081bbf992afc76b0adf1590e6",
+      "lease_expires_at": "2026-10-31T11:57:22+08:00",
+      "recovery_reason": "v6 viewer decode failed and SHA256 conflicts with knowledge record; v5 intact"
+    },
+    {
+      "at": "2026-10-31T11:45:00+08:00",
+      "event": "RESEARCH_READY",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "version": 7,
+      "new_to_index": 2,
+      "reused_project_source": 1,
+      "unverified_lead": 1,
+      "corrected_archive_integrity_issue": 1,
+      "scientifically_verified": false
+    },
+    {
+      "at": "2026-10-31T11:45:00+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "version": 7,
+      "generation_seconds": 39.8,
+      "path": "owl-pet/production/generated/105-ptilopsis-granti-v7-generated-master.png",
+      "size": 2746646,
+      "sha256": "fdff81c6a5c200d0ed774bccc19405fbe98489f18dbbca0dcb9b4c963c4fd9fc"
+    },
+    {
+      "at": "2026-10-31T11:48:00+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "version": 7,
+      "result": "PASS_WITH_LIMITATIONS",
+      "edits": 2,
+      "science": false,
+      "full_opened": true,
+      "juvenile_crop_opened": true,
+      "feet_crop_opened": true,
+      "final_sha256": "272f945174f253394287914fd3faece2019f9017eade2f04c5efb39fba12cf92"
+    },
+    {
+      "at": "2026-10-31T11:53:00+08:00",
+      "event": "ARCHIVE_PREPARED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "version": 7,
+      "manifest_counts": {
+        "legacy": 606,
+        "design": 605,
+        "production": 596
+      },
+      "unique_species": "175/251",
+      "readback_pending": true,
+      "science": false
+    },
+    {
+      "at": "2026-10-31T11:56:00+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 2,
+      "run_id": "20261031T114222+0800-cycle-2",
+      "species_id": 105,
+      "version": 7,
+      "fixed_archive_commit": "60f5bc4b3312dcf4319879728fdc6e131aaffbed",
+      "manifest_counts": {
+        "legacy": 606,
+        "design": 605,
+        "production": 596
+      },
+      "path_blob_readback": true,
+      "binary_body_redownloaded": false,
+      "unique_species": "175/251",
+      "science": false,
+      "next_cycle": 3,
+      "lease_released": true
+    },
+    {
+      "at": "2026-10-31T11:57:00+08:00",
+      "event": "CYCLE_STARTED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "species": "Strix albitarsis",
+      "version": 3,
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "baseline_main": "5476cb9f2b3eaddcef8df63a3ab72d6be871bad3",
+      "lease_expires_at": "2026-10-31T12:12:00+08:00",
+      "recovery_reason": "v2 size 786445 is suspicious; intact v1 selected; adult iris evidence conflict remains open"
+    },
+    {
+      "at": "2026-10-31T12:00:00+08:00",
+      "event": "RESEARCH_READY",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "new_to_index": 2,
+      "reused_project_source": 2,
+      "partially_verified_lead": 1,
+      "corrected_visual_issues": 3,
+      "scientifically_verified": false
+    },
+    {
+      "at": "2026-10-31T12:32:00+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "generation_seconds": 54.6,
+      "path": "owl-pet/production/generated/106-strix-albitarsis-v3-generated-master.png",
+      "size": 3109184,
+      "sha256": "d414ed7e2a81ac4421d4f4ef783dbc192bb21158a29490f85b39b40bd20e64ac",
+      "review_note": "Adult dark irises, near-equal adult scale, juvenile down/short-wing/support passed. Mossy support still read as a nest-like platform; one support-environment-only edit required."
+    },
+    {
+      "at": "2026-10-31T12:34:00+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "result": "PASS_WITH_LIMITATIONS",
+      "edits": 1,
+      "science": false,
+      "full_opened": true,
+      "juvenile_crop_opened": true,
+      "feet_crop_opened": true,
+      "final_sha256": "f25f84dc80849ce4a2700a159836f4532da2063aad2c6cce9273a98342b8b7c5"
+    },
+    {
+      "at": "2026-10-31T12:38:30+08:00",
+      "event": "ARCHIVE_PREPARED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "manifest_counts": {
+        "legacy": 607,
+        "design": 606,
+        "production": 597
+      },
+      "unique_species": "175/251",
+      "readback_pending": true,
+      "science": false
+    },
+    {
+      "at": "2026-10-31T12:41:17+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 3,
+      "run_id": "20261031T115700+0800-cycle-3",
+      "species_id": 106,
+      "version": 3,
+      "fixed_archive_commit": "64134725024eb744a1280179054fc1e91682c4b8",
+      "tree_entries": 2270,
+      "path_blob_readback": true,
+      "binary_body_redownloaded": false,
+      "connector_response_truncated_bytes": 786445,
+      "manifest_counts": {
+        "legacy": 607,
+        "design": 606,
+        "production": 597
+      },
+      "unique_species": "175/251",
+      "science": false,
+      "next_cycle": 4,
+      "lease_released": true
+    },
+    {
+      "at": "2026-10-31T13:37:47+08:00",
+      "event": "CYCLE_STARTED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 4,
+      "run_id": "20261031T133747+0800-cycle-4",
+      "species_id": 117,
+      "species": "Otus manadensis",
+      "version": 9,
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "baseline_main": "078594cb6339291c8e5cb0d4c0a39ab7866cc102",
+      "lease_expires_at": "2026-10-31T13:52:47+08:00",
+      "recovery_reason": "current-main v8 viewer-invalid and mismatches immutable v8 run record; intact v7 selected"
+    },
+    {
+      "at": "2026-10-31T13:40:00+08:00",
+      "event": "RESEARCH_READY",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 4,
+      "run_id": "20261031T133747+0800-cycle-4",
+      "species_id": 117,
+      "version": 9,
+      "new_to_index": 2,
+      "reused": 3,
+      "corrected_archive_integrity_issue": 1,
+      "scientifically_verified": false
+    },
+    {
+      "at": "2026-10-31T13:41:21+08:00",
+      "event": "IMAGE_GENERATED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 4,
+      "run_id": "20261031T133747+0800-cycle-4",
+      "species_id": 117,
+      "version": 9,
+      "generation_seconds": 56.2,
+      "path": "owl-pet/production/generated/117-otus-manadensis-v9-generated-master.png",
+      "size": 2944396,
+      "sha256": "798e8caeb5ffce506a6e3e6a9b9670458d598eb5654fc527b073680b6b657d09",
+      "edit_required": true
+    },
+    {
+      "at": "2026-10-31T13:44:49+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 4,
+      "run_id": "20261031T133747+0800-cycle-4",
+      "species_id": 117,
+      "version": 9,
+      "result": "PASS_WITH_LIMITATIONS",
+      "edits": 2,
+      "science": false,
+      "full_opened": true,
+      "juvenile_crop_opened": true,
+      "feet_crop_opened": true,
+      "final_sha256": "08bc219671c9ee16f5fa4612dd53f1c8c6bf78c718b28e688ff1380b3d859d96"
+    },
+    {
+      "at": "2026-10-31T13:47:00+08:00",
+      "event": "ARCHIVE_PREPARED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 4,
+      "run_id": "20261031T133747+0800-cycle-4",
+      "species_id": 117,
+      "version": 9,
+      "manifest_counts": {
+        "legacy": 608,
+        "design": 607,
+        "production": 598
+      },
+      "unique_species": "175/251",
+      "readback_pending": true,
+      "science": false
+    },
+    {
       "at": "2026-10-31T13:49:00+08:00",
       "event": "ARCHIVE_READBACK_REJECTED",
       "batch_id": "2026-10-31T1130+0800",

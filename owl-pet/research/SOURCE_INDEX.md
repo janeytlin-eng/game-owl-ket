@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 48623)
-Total output lines: 1675
-
 ## 2026-10-31 — #136 *Megascops petersoni* v3 evidence refresh
 
 ### CIN-FITZPATRICK-ONEILL-1986
@@ -693,7 +690,305 @@ Total output lines: 1675
 - **Accessed:** 2026-10-30.
 - **Source type:** one-page museum biodiversity field record with photograph.
 - **Species/stage:** historical *Bubo sumatranus* = current project *Ketupa sumatrana*; presumed subadult, age/sex/origin unknown.
-- **Page read:** prin…8623 tokens truncated…ity in *Piptadenia gonoacantha*; young shown inside and perched above nest; parental care nearby.
+- **Page read:** printed p.178, complete record.
+- **Valuable facts:** branch about 20 m high in durian tree; former durian plantation/regenerated forest; soft calls; no adults seen; short white tufts and transitional plumage; juvenile buffish-white with fine wavy dark-brown barring versus darker adults with long brown horizontal tufts.
+- **Limits/conflicts/credibility:** subadult is author interpretation; no age, family, movement or flight test; strong for observed site/posture and photographed transitional traits.
+- **Design/review decision:** age-unknown branch-supported pale transitional immature, no dependence/flight claim; educational composite explicitly not a literal family event.
+- **Linked records:** `owl-pet/research/species/62-ketupa-sumatrana-v4.md`; `owl-pet/production/runs/20261030T215232+0800-cycle-6.md`; planned `owl-pet/design/concepts/62-ketupa-sumatrana-v4.jpg`.
+
+### Reused and corrected mapping
+- **BEOW-SGBIRDS-2026:** adult pitch-black eyes/yellow bill/outward tufts and juvenile white-with-dark-bars identification; forest habitat.
+- **BEOW-SGBIRDS-2018:** separate estimated 8–10-month late-dependent family juvenile used only as a comparator.
+- **Correction:** the 2017 Pulau Ubin bird remains age/dependence unknown and is not assigned the 2018 family bird's estimated age, behavior or adult association.
+
+
+## 2026-10-30 — #63 *Scotopelia peli* v4 dependent post-fledging boundary
+
+### PFO-BROOKE-1984-P128
+- **Stable ID:** `PFO-BROOKE-1984-P128`
+- **Title / author / institution / year:** *South African Red Data Book — Birds* / R. K. Brooke / CSIR Foundation for Research Development, Percy FitzPatrick Institute / 1984.
+- **Original URL:** https://researchspace.csir.co.za/bitstream/10204/2015/1/Brooke_1984.pdf
+- **Accessed:** 2026-10-30.
+- **Source type:** institutional red-data synthesis citing contemporary field sources.
+- **Species/stage:** *Scotopelia peli* (historical *Bubo peli* mapping retained); nesting/family-dependence context, not a plumage chronology.
+- **Pages read:** printed pp.127–128 (PDF pp.190–192), complete species account; title/copyright page also read.
+- **Valuable facts:** riparian forest over clear pools; adults resident; juveniles remain with adults until the next breeding season; normal clutch two but usually one youngster reared; incubation five weeks and nestling period ten weeks.
+- **Limits/conflicts/credibility:** 1984 regional synthesis, with several facts attributed to Liversedge 1980 and Steyn 1982; no exact post-fledging age, feather-tract series, first-flight test, sexed juvenile or photograph. Good for habitat/dependence/nesting duration; bounded for appearance.
+- **Design/review decision:** supports an age-unknown dependent post-fledging branch stage only when combined with the current BirdLife/SANBI pale-down account; formed wing/tail are conservative design synthesis, not measured timing.
+- **Linked records:** `owl-pet/research/species/63-scotopelia-peli-v4.md`; `owl-pet/production/runs/20261030T215816+0800-cycle-1.md`; planned `owl-pet/design/concepts/63-scotopelia-peli-v4.jpg`.
+
+### Reused and corrected mapping
+- **Reused:** `PFO-TRUST-2026` / current BirdLife South Africa–SANBI account; `PFO-BOTSWANAPOST-2022` brochure p.2.
+- **Correction:** long parental association and approximately ten-week/68–70-day nestling context do not yield an exact post-fledging age, first-flight threshold or feather-by-feather wing timetable.
+
+
+## 2026-10-30 — #64 *Tyto glaucops* v4 outside-nest begging-young boundary
+
+- **Stable source ID:** `AFO-CURTI-2018` (reused and corrected/extended; no duplicate ID)
+- **Title:** First description of Ashy-faced Owl (*Tyto glaucops*) nest and first record of Ashy-faced Owl nesting in Palmchat (*Dulus dominicus*) nest on Hispaniola
+- **Authors/institution:** Marta Curti, Christine D. Hayes, Thomas I. Hayes, Misael Calcaño Silven; The Peregrine Fund / Journal of Caribbean Ornithology
+- **Year / type:** 2018; primary field research note
+- **URL / DOI:** https://www.birdscaribbean.org/wp-content/uploads/2023/05/Curti_et_al-JCO-Ashy-faced-Owl.pdf · https://doi.org/10.55431/jco.2018.31.17-19
+- **Pages read:** printed pp.17–19; especially p.18 (PDF p.3), lines 66–115 in retrieved text
+- **Species/stage:** *Tyto glaucops*; nestlings and age-unknown outside-nest young
+- **Source facts:** 1 May bird was poorly mobile, almost fully buff-down with some juvenile wing feathers; later cavity birds were larger/more developed, one partly down-covered; on 12–13 June a young bird begged while perched outside the nest on a northwest-projecting palm frond; authors did not see owls on 14 June and *assumed* fledging. The cavity was within an active Palmchat stick nest in a coconut palm; authors explicitly warn the site may not represent typical nests.
+- **Design decision:** v4 changes stage from v3’s buff-down cavity nestling to the documented outside-nest begging young. Because the source does not describe that young’s feather tracts or exact age, the image must obscure/soften folded-wing detail, avoid mature remiges/rows/tail, and must not label the bird “fledged.”
+- **Limit/conflict:** dates establish observation sequence, not hatch age; “we assume fledging” is author inference, not a measured first-flight threshold. Sex-specific adult size remains a mass-direction cue only. Scientific acceptance stays false.
+- **Related records:** `knowledge/species/64-tyto-glaucops.md`; `research/species/64-tyto-glaucops-v4.md`; `production/runs/20261030T223349+0800-cycle-2.md`; image version `64-tyto-glaucops-v4`.
+- **Lead not used as verified evidence:** Macaulay asset ML201989861 returned an anti-bot error during full-page read; its search metadata was not used for scientific pass.
+
+
+## 2026-10-30 — #65 *Tyto soumagnei* v4 30-day nestling boundary
+
+- **Stable source ID:** `MRO-NHM-2003-P1112`
+- **Title/chapter:** “Strigiformes: *Tyto soumagnei*, Madagascar Red Owl” in *The Natural History of Madagascar* bird systematic accounts
+- **Authors/editors:** Russell Thorstrom and Lily-Arison René de Roland (species account); Steven M. Goodman and Jonathan P. Benstead (eds.)
+- **Year / source type:** 2003; expert systematic account synthesizing the first intensively observed nest
+- **Original URL:** https://protectedareas.mg/content/documents/0cd9156e-e528-4293-b8da-d00aa5f5af4f/dc17b8fd22bd4c08ad8fcddd92d3ff17.pdf
+- **Pages/section actually read:** extracted printed p.1112 and adjacent Table 12.26 text returned from the original PDF; “Madagascar Red Owl” subsection. Direct full-PDF open failed because the 33 MB document exceeded the fetch limit, so page-image verification remains a limitation.
+- **Species/stage:** *Tyto soumagnei*; approximately 30-day nestlings, late nestlings, fledglings and post-fledging young
+- **Key facts:** at 30 days after suspected hatching, young had noticeable facial discs, flight feathers just emerging, and hissed/clacked when agitated; by mid-November they waited on branches near the entrance; fledging occurred at about 10 weeks and plumage then resembled adults. A measured fledgling female was 358 g versus 323 g for the adult female, demonstrating that juvenile/adult size cannot be guessed from age alone. Post-fledging young remained within 100–200 m for months.
+- **Design decision:** v4 selects the 30-day cavity nestling stage, distinct from v3’s fully feathered recent fledgling. Show facial disc plus only sparse just-emerging flight-feather tips, abundant down, low cavity support and no branch/flight pose.
+- **Limits/conflicts:** hatching date was suspected, not directly observed; “just emerging” does not supply feather count/length or tract sequence. The account is based on very few nests. Do not infer sex from v4 nestling appearance.
+- **Related records:** `knowledge/species/65-tyto-soumagnei.md`; `research/species/65-tyto-soumagnei-v4.md`; `production/runs/20261030T224022+0800-cycle-3.md`; image version `65-tyto-soumagnei-v4`.
+
+## 2026-10-30 — #66 *Tyto capensis* v4 mature wetland-patch boundary
+
+### AGO-PRETORIUS-ETAL-2026-P110
+- **Title / authors / year:** “African Grass Owl nest site use and nest survival in fragmented grassland landscapes” / Pretorius et al. / 2026.
+- **URL / DOI:** https://doi.org/10.3957/056.056.0110 ; author-posted full text https://www.researchgate.net/publication/405010358_African_Grass_Owl_nest_site_use_and_nest_survival_in_fragmented_grassland_landscapes
+- **Accessed:** 2026-10-30; full displayed article text, methods/results and patch metrics read.
+- **Source type:** primary multi-year nest-site study; *African Journal of Wildlife Research* 56.
+- **Species / stage:** *Tyto capensis*; 41 nests and seven tracked nesting females, Gauteng/Mpumalanga, 2009–2017.
+- **Pages / sections:** pp.110–124; abstract, study design, nest-patch and survival results.
+- **Facts:** nest patches were larger and older than matched random patches, closer to more *Imperata cylindrica*, contained more wetland and less development; daily nest survival declined with development.
+- **Limits / confidence:** high for patch-scale habitat direction; no juvenile plumage, exact nest-chamber shape, day-age or flight threshold.
+- **Design decision:** v4 retains the BirdLife-supported recent fledgling but replaces v3’s conspicuous cave opening with a concealed runway and stable low platform inside mature dense *Imperata* wetland.
+- **Linked records:** `owl-pet/research/species/66-tyto-capensis-v4.md`; `owl-pet/production/runs/20261030T233010+0800-cycle-4.md`; planned `design/concepts/66-tyto-capensis-v4.png`.
+
+### Reused/corrected source mapping
+- `AGO-WHITTINGTON-2012`: pp.19–25; six nestlings/two active nests and literature-based ~6-week fledging; no feather chronology; buff face not a reliable age key.
+- `AGO-BLSA-RDB-2025`: current adult identity; fledgling darker and lacking adult white dorsal spots.
+- `SEO-OSTRICH-RSD-2008`: sample-specific female mass/body-length direction; no standing-height ratio.
+- **Correction:** patch-scale nesting evidence does not prove a visible cave-shaped chamber. Dense old wetland vegetation and concealed passage are supported; neat cave mouth is removed.
+- **Source/design delta:** new1 / reused3 / corrected1; science false.
+
+## 2026-10-30 — #67 *Pulsatrix perspicillata* v4 first-stage wing exception
+
+### SPO-WETMORE-1968-P164
+- **Title / author / year:** *The Birds of the Republic of Panama*, part 2 / Alexander Wetmore / 1968 (series repository bundle cataloged from 1965).
+- **Institution / type:** Smithsonian Institution; primary systematic museum-series account.
+- **Original URL / DOI:** https://repository.si.edu/handle/10088/23810 ; https://repository.si.edu/bitstream/handle/10088/23810/1965%20vol%20150%20pt%202.pdf ; https://doi.org/10.5962/bhl.title.69629
+- **Accessed:** 2026-10-30; printed pp.164–165 passage returned and read. Full 32.7 MB PDF direct open exceeded the fetch limit; page-image verification remains a limitation.
+- **Species / stage:** *Pulsatrix perspicillata* juvenile first plumage and adults; Panamanian races discussed.
+- **Facts:** adult sexes alike in plumage; juvenile sooty face/chin and buffy-white body down; wings/tail develop like adults, while first-stage wing coverts/back are buffy white with brownish-gray bars.
+- **Design decision:** retain formed brown barred juvenile remiges/tail and soft transverse barred pale coverts/back; do not apply a blanket short-white-wing rule. Branch posture/no flight claim remains bounded by SPO-PEREGRINE-2026.
+- **Limits/conflicts:** no exact age, flight threshold, full feather chronology or image-specific subspecies. Corrects v1's interpretation, not source text.
+- **Related records:** knowledge/species/67-pulsatrix-perspicillata.md; research/species/67-pulsatrix-perspicillata-v4.md; production/runs/20261030T234400+0800-cycle-5.md; planned image 67-pulsatrix-perspicillata-v4.
+- **Source/design delta:** new1 / reused3 / corrected1; science false.
+
+## 2026-10-30 — #68 *Tyto tenebricosa* v4 sex-height and fledgling-scale boundary
+
+- **Source delta:** new0 / reused5 / corrected1. Three active external search batches returned empty payloads; no search hit is counted as evidence.
+- **Reused IDs actually reread:** GSO-BILNEY-2012 (CSIRO lines 159–190), GSO-NSWSC-2008 (NSW review PDF pp.1–2), GSO-ABSA-2019, GSO-OWLPAGES-2026, WHSO-MIKKOLA-2013 printed pp.114–115.
+- **Supported facts:** nominate female larger/heavier direction; approximately three-month nest period; near-fledged birds almost fully feathered, possibly darker and with little residual down; large old-tree hollow in moist gully/rainforest setting.
+- **Correction:** mass/wing ranges do not specify a standing-height ratio. V4 holds adult crown heights comparable and expresses female direction through fullness/length. The juvenile is crouched rather than assigned an exact tiny body ratio.
+- **Visual evidence:** v3 fixed original opened via read-only raw GitHub URL; identity/support/stage pass, but scale encoding was more precise than the evidence.
+- **Limits:** exact age/size trajectory/down placement/flight threshold/universal ratio/subspecies variation unknown; science false.
+- **Related:** research/species/68-tyto-tenebricosa-v4.md; production/runs/20261030T235600+0800-cycle-6.md; knowledge/species/68-tyto-tenebricosa.md; planned image 68-tyto-tenebricosa-v4.
+
+
+## 2026-10-31 — #69 *Tyto novaehollandiae* v4 inferred-five-week nestling boundary
+
+Reused stable IDs **AMO-DEBUS-WOOD-2007**, **AMO-AUSTRALIAN-MUSEUM-2024**, **VIC-RAPTORS-2023**, and **WHSO-MIKKOLA-2013**; new0/reused4/corrected1. The original study at printed pp.49–52 / PDF pp.1–4 is applied to an inferred ~5-week single captive dark-morph nominate female: thick buff second down, developed mask, and no feathers visible through the down. Mikkola printed p.107 / PDF p.109 supplies general adult/second-down direction; Australian Museum Identification/Habitat/Breeding supplies adult dimorphism and deep-hollow substrate. The age is explicitly inferred, not exact; no cross-morph chronology or fixed sex-size ratio is claimed. Active searches/direct opens returned empty payloads this run and are not counted as sources. [Research](species/69-tyto-novaehollandiae-v4.md) · [Run](../production/runs/20261031T003452+0800-cycle-1.md).
+
+
+## 2026-10-31 — #70 *Ninox strenua* v4 adult-pattern geometry correction
+
+Reused stable IDs **POWERFUL-MO-WATERHOUSE-2015**, **POWERFUL-ABSA-2019**, **POWERFUL-NSWSC-2008**, **POWERFUL-MV-2026**, **VIC-RAPTORS-2023**, and **WHSO-MIKKOLA-2013**; new0/reused6/corrected1. V3 was reopened: adult underparts appeared as horizontal waves and upperwings as broad zebra stripes. The evidence instead supports coarse V-shaped ventral chevrons and narrow irregular dorsal bars. The recent fledgling keeps developed folded wings/tail because Mo & Waterhouse printed pp.145–147/Fig.1 documents flight shortly after hollow departure; it remains white-headed/downier with dark eye patches and does not inherit adult chevron density. Active search returned empty payload and is not a source. [Research](species/70-ninox-strenua-v4.md) · [Run](../production/runs/20261031T004150+0800-cycle-2.md).
+
+
+## 2026-10-31 — #71 *Ninox connivens* v4 juvenile-pattern boundary
+
+Reused stable IDs **BARK-BARNES-ROSE-DEBUS-2005**, **BARK-VIC-WILDLIFE-2023**, **BARK-BULLOCK-2026**, **BARK-ABSA-2020**, **BARK-AM-2022**, and **WHSO-MIKKOLA-2013**; new0/reused6/corrected1. V3 fixed original was reopened and showed a recent fledgling with dense crisp adult-like crown flecks and repeated wing spots. Primary field evidence at printed pp.182–183, 185–186, 192–195 / PDF pp.1–2, 4–5, 9–14 supports immediate post-fledging mobility and developed wing/tail; government pp.80–81/PDF pp.4–5 and museum synthesis support an incomplete collar, mottled nape and less-streaked juvenile boundary. V4 therefore keeps the mobile stage but removes adult-pattern leakage. Two active search batches returned empty payloads and received no source credit. Exact day-specific feather geometry and subspecies transfer remain unknown; science false. [Research](species/71-ninox-connivens-v4.md) · [Run](../production/runs/20261031T005104+0800-cycle-3.md).
+
+
+## 2026-10-31 — #74 *Ninox novaeseelandiae* v4 recent-fledgling mass/short-tail boundary
+
+Reused stable IDs **MOR-NZBO-HANZAB-2025**, **MOR-DOC-2026**, **MOR-STEPHENSON-MINOT-2006**, and **MOR-TEARA-2009**; new0/reused4/corrected1. V3 fixed original was reopened. The institutional synthesis supports a 38–40-day recent fledgling at about 90% adult weight, with short tail and downy head/underparts; the primary Mokoia study printed pp.308–311 supports day-39 fledging and cavity substrate but is a two-chick sample. V4 expresses the mass boundary as near-adult torso bulk while crouched and makes the short tail explicit without inventing exact dimensions. Three active queries returned empty payloads and received no source credit. Exact tract chronology, dimensions and island transfer remain unknown; science false. [Research](species/74-ninox-novaeseelandiae-v4.md) · [Run](../production/runs/20261031T005625+0800-cycle-4.md).
+
+
+## 2026-10-31 — #75 *Ninox scutulata* v4 Singapore comparison-layout boundary
+
+Reused stable IDs **SCU-BESG-2024**, **SCU-NPARKS-2025**, **SCU-ITIS-2025**, **SCU-OWLPAGES-2021**, and **WHSO-MIKKOLA-2013**; new0/reused5/corrected1. V3 fixed original reopened: morphology/support pass, but repository number 75 was absent, the branch-dependent juvenile was outside the central stage-comparison slot, and adult supports were offset. V4 preserves the Singapore field-supported active juvenile and near-equal adults, restores exact numbering/central comparison, and keeps Japanese split-population detail excluded. Three active queries returned empty payloads and received no credit. Exact age/iris trajectory/sex direction/tract chronology remain unknown; science false. [Research](species/75-ninox-scutulata-v4.md) · [Run](../production/runs/20261031T010145+0800-cycle-5.md).
+
+
+## 2026-10-31 — #75 *Ninox scutulata* v4 central dependent-juvenile and support boundary
+
+- **Action:** SCIENCE_REVISION; new 0 / reused 5 / corrected design boundary 1.
+- **Reused stable IDs:** SCU-BESG-2024, SCU-NPARKS-2025, SCU-ITIS-2025, SCU-OWLPAGES-2021, WHSO-MIKKOLA-2013. Original URLs, authorship, dates, source types and page/section limits remain in their existing entries; no duplicate source rows created.
+- **Facts reused:** Singapore adults are rounded, untufted, yellow-eyed, dark-brown above and strongly lengthwise-streaked below; the Windsor observation supports active high-branch-dependent juveniles but not exact age or tract chronology. Mikkola printed pp.464–465/PDF pp.466–467 supports adult identity. ITIS supplies current/old-name mapping *Ninox scutulata* ↔ *Strix scutulata*.
+- **Design inference:** center the documented branch-dependent stage, keep dark growing folded wing/short tail, require bilateral branch grip, and keep adult scale near-equal because published sex direction conflicts. Japanese split-population timing/rectrix evidence remains excluded.
+- **Limitations:** exact Singapore subspecies, age, iris trajectory, sex ratio and feather-tract chronology unknown; science false.
+- **Links:** [research](species/75-ninox-scutulata-v4.md) · [run](../production/runs/20261031T010145+0800-cycle-5.md) · [concept](../design/concepts/75-ninox-scutulata-v4.png)
+
+
+## 2026-10-31 — #76 *Asio clamator* v4 central second-stage comparison boundary
+
+Reused stable IDs **CLA-FORMOSO-ETAL-2025**, **CLA-PAUTASSO-DE-LA-PENA-2001**, **CLA-PONCE-GONZALEZ-2025**, **CLA-OWLPAGES-2020**, and **WHSO-MIKKOLA-2013**; new0/reused5/corrected1. V3 fixed original reopened and passed adult identity, near-equal scale, warm-brown 25–30-day second-stage morphology and low support. V4 restores number 76, centers the juvenile and aligns adult support baselines without claiming new biological evidence. Three active search queries and three DOI opens returned empty payloads and received no credit. Exact dimorphism, subspecies transfer and feather chronology remain unknown; science false. [Research](species/76-asio-clamator-v4.md) · [Run](../production/runs/20261031T011343+0800-cycle-6.md).
+
+
+## 2026-10-31 — #77 *Asio stygius* v4 dated poor-remige boundary
+
+Reused stable IDs **STY-LOPES-ETAL-2004**, **STY-CADENA-2018**, **STY-SPIZAETUS-2018**, **STY-OWLPAGES-2020**, and **WHSO-MIKKOLA-2013**; new0/reused5/corrected1. The fixed v3 image was reopened. The primary Brazilian nest account at printed pp.423–426 states that day-26/27 remiges and rectrices were poorly developed and prevented flight; v4 therefore removes v3's long layered juvenile wing panel, retains a down-dominated wing with short emerging tips and an extremely short tail, and restores number 77. Later branch-capable Ecuador evidence is not transferred onto this dated stage. Three searches and two direct opens returned empty payloads and received no credit. Exact geometry, sex and population transfer remain unknown; science false. [Research](species/77-asio-stygius-v4.md) · [Run](../production/runs/20261031T013432+0800-cycle-1.md).
+
+
+## 2026-10-31 — #78 *Asio capensis* v4 older-dependent wing boundary
+
+- **Stable IDs reused:** MAR-ANSARA-ROSS-2008; MARSH-BIOEXP-2026; MARSH-OWLPAGES-2020; WHSO-MIKKOLA-2013; MAR-BIRDLIFE-SA-2025; MAR-HANANE-CHERKAOUI-2014.
+- **URLs actually retained:** https://www.biodiversityexplorer.info/birds/strigidae/asio_capensis.htm ; https://www.owlpages.com/owls/species.php?s=3610. Direct opens failed in this cycle and were not credited as new reads.
+- **Pages/sections:** Mikkola printed pp.518–519 / PDF pp.520–521; Hanane & Cherkaoui 2014 printed pp.46–49; Ansara-Ross 2008 sexed morphometric table as recorded in the v2 knowledge update; species-account identification/breeding sections.
+- **Species/stage:** *Asio capensis* adults and older mobile dependent juvenile; Moroccan older name `A. c. tingitanus` restricted to nest-site plasticity.
+- **Correction:** v3’s exact day label and crisp adult-regular juvenile covert/remige rows are not jointly supported by an accessible primary daily series. V4 uses an age-unknown older dependent with developed but soft wing, short tail, irregular marks and full grass support.
+- **Limits/confidence:** adult identity and broad stage boundary moderate-to-high; exact day, first-flight threshold, continuous tract sequence, sexed standing-height ratio and named-form transfer unknown. Science false.
+- **Related:** `research/species/78-asio-capensis-v4.md`; `owl-pet/production/runs/20261031T022749+0800-cycle-2.md`; `knowledge/species/78-asio-capensis.md`; planned `design/concepts/78-asio-capensis-v4.jpg`.
+- **Delta:** new0 / reused6 / corrected1. External retrieval failures are attempts only.
+
+
+## 2026-10-31 — #83 *Otus brucei* v4 exact-age, wing and adult-scale boundary
+
+- **BRU-CHANDRAN-2016 (new):** Chandran, Rasmussen, Jahan & Praveen J. 2016, *Indian BIRDS* 12(2&3):56–63, author-uploaded full text https://www.researchgate.net/publication/309011014_The_Pallid_Scops_Owl_Otus_brucei_in_south-western_India_with_notes_on_its_identification . Table 1 / plates 69–76; 30 UMMZ and 16 NHMUK Pallid Scops skins plus comparative series and ~150 photographs. Supports plain pale facial disc, long thin upperpart streaks, weak narrow crossbars and buff scapular/primary markings; warns that crossbars vary and toe feathering is equivocal in the field. Adult identification only; no juvenile chronology.
+- **Reused:** BRU-BENDOV-KIAT2016 (printed pp.151–152, 156–157; official PDF https://www.dutchbirding.nl/journal/pdf/DB_2016_38_3.pdf) and BRU-MIK2013-126 (printed pp.126–127/PDF pp.128–129, user-uploaded guide actually read).
+- **Corrections:** replace exact individual `c.26-day` label with `RECENT FLEDGLING`; compact adult-like juvenile wing; express female mass direction only as subtle fullness with near-equal crown height. Exact age/flight threshold/tract geometry/subspecies/sex-height ratio remain unknown. Science false.
+- **Links:** [research](species/83-otus-brucei-v4.md) · [run](../production/runs/20261031T043000+0800-cycle-1.md) · planned [concept](../design/concepts/83-otus-brucei-v4.jpg).
+- **Delta:** new1 / reused2 / corrected2.
+
+
+## 2026-10-31 — #84 *Otus bakkamoena* v8 archive repair and taxonomic-transfer boundary
+
+- **Reused:** BAK-BRRAICH-SINGH2021, publisher PDF printed pp.55–56 freshly opened; BAK-MIK2013-150, user-uploaded Mikkola printed pp.150–151/PDF pp.152–153 directly read.
+- **Facts:** single 2018 Patiala brood supports grey juvenile, horizontal belly bars, bare periocular skin, no ear tufts, grey bill/exposed nostrils, blue eyes and underdeveloped wings; Mikkola supports adult dark eyes, greenish horn bill/cere, continuous pale facial disc/dark ruff, tufts/collars and a larger-female direction without a ratio.
+- **Exclusion:** developmental dates found under old broad Russian `O. bakkamoena` usage are not transferred across the current Indian vs northern collared/Japanese split.
+- **Archive correction:** v7 fixed PNG blob exists but immutable bytes fail full decode (`IDAT: invalid distance code`). Historical v7 preserved; complete v6 reopened and is the visual base for a complete-JPEG v8 rebuild.
+- **Design correction:** one continuous adult facial disc (no goggles), explicit short underdeveloped juvenile wings, modest not quantified female direction, fully supported natural cavity stage. Exact age/iris transition/flight threshold/subspecies/ratio unknown; science false.
+- **Links:** [research](species/84-otus-bakkamoena-v8.md) · [run](../production/runs/20261031T045100+0800-cycle-2.md) · planned [concept](../design/concepts/84-otus-bakkamoena-v8.jpg).
+- **Delta:** new0 / reused2 / corrected2.
+
+
+## 2026-10-31 — #85 *Otus semitorques* v4 numbering-only correction
+
+Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/PDF pp.160–161 directly read. V3 fixed image reopened: first-winter geometry and all support pass, but repository number 85 is absent. V4 changes only the title to `85 JAPANESE SCOPS OWL`. Cross-species ageing/development search hits excluded. Exact age, sex, iris, thresholds and adult RSD unknown; science false. [Research](species/85-otus-semitorques-v4.md) · [Run](../production/runs/20261031T050600+0800-cycle-3.md). New0/reused2/corrected1.
+
+
+### ASC-DDCR2023
+- Title: Dubai Desert Conservation Reserve Annual Report 2022–2023 — 4.3 Monitoring of Pharaoh Eagle-Owl
+- Author/Institution: Dubai Desert Conservation Reserve
+- Year: 2023
+- URL: https://www.ddcr.org/media/qk2mj200/ddcr-annual-report-2022-23.pdf
+- Accessed: 2026-10-31
+- Type: reserve monitoring report
+- Species/stage: *Bubo ascalaphus*; eggs and unaged chicks at nest entrance
+- Actually read: section 4.3. Nest with three eggs inside broom bush found 4 March 2022; first chick camera appearance 23 March; chicks active at entrance. No calibrated chick age/plumage/flight detail.
+- Limitation/confidence: useful for habitat and support context only; not a juvenile morphology series and not used to override `ASC-ALSHEIKHLY2012-40D`.
+- Design link: #87 v4 research record; evidence boundary retained, no biological redraw.
+
+
+### CAP-BIODIVEXP-2026
+- Title: *Bubo capensis* (Cape eagle-owl)
+- Author/Institution: Biodiversity Explorer, southern Africa; breeding summary cites Hockey, Dean & Ryan (eds), Roberts Birds of Southern Africa VII (2005)
+- Year/access: page undated; accessed 2026-10-31
+- URL: https://www.biodiversityexplorer.info/birds/strigidae/bubo_capensis.htm
+- Type: regional biodiversity-institution synthesis
+- Species/stage: *Bubo capensis*, nominate/southern African habitat and nest-leaving young
+- Actually read: lines4–8 and56–67. Rocky cliffs/outcrops/gorges and semi-desert scrub are within the southern African habitat range; scrapes occur on ground/ledges or sheltered among rocks; chicks leave the nest at about45days but remain nearby and dependent. No plumage sequence, sex-size measurement or individual-age calibration.
+- Limitation/confidence: corroborative regional context, not a primary developmental series. Used only to support mineral rock ledge/scrub support and pre-flight context, not to redraw feathers or claim exact ability.
+- Design link: #88 v5 title-only revision; biological v4 boundary unchanged.
+
+
+### BEN-PITCHANDIKULAM-2026
+- Title: Publications / Wildlife Research in Pitchandikulam Forest
+- Author/Institution: Pitchandikulam Forest, Auroville
+- URL: https://www.pitchandikulamforest.org/publication/
+- Accessed: 2026-10-31
+- Type: institution research bibliography/context page
+- Species/stage: *Bubo bengalensis*, study-program context
+- Actually read: page lists Ramanujam & Murugavel 2009 young-development paper and Ramanujam 2015 adult/young behaviour work, and states long-term local Indian Eagle-Owl research. It adds no new plumage measurements.
+- Limitation/confidence: discovery/provenance context only; not used for morphology or exact age. Primary JoTT papers remain controlling evidence.
+- Design link: #89 v4 title-only revision.
+
+
+### ABO-WAGNER2022-P20
+- Title: Development of the horizontal optocollic reflex in juvenile barn owls (*Tyto furcata pratincola*)
+- Authors: Hermann Wagner, Ina Pappe, Sandra Brill, Hans-Ortwin Nalbach
+- Year: 2022
+- URL/DOI: https://pmc.ncbi.nlm.nih.gov/articles/PMC9250920/ ; https://doi.org/10.1007/s00359-022-01555-0
+- Accessed: 2026-10-31
+- Type: primary developmental/behavioral study; open full text
+- Species/stage: *T. f. pratincola*, hand-raised P9–P65; Fig. 1 developmental sequence
+- Actually read: abstract/introduction, Fig. 1 caption and Materials/Methods. Eyes open P10–12; head holding about P14; standing/walking around P20; flight about P60. The study used six tame hand-raised birds and posture-support apparatus.
+- Limit/confidence: high for the reported hand-raised chronology and broad motor milestones; not a wild-nest tract-by-tract plumage series. It does not fix an individual image to an exact day or justify a sex ratio.
+- Design link: [#90 v5 research](species/90-tyto-furcata-v5.md); supports retaining a supported P20 stance, not adult flight feathers.
+
+
+### FUR-CORNELL-CAM2010
+- Title: Bird Cams FAQ: Barn Owl Nest
+- Author/Institution: Cornell Lab of Ornithology
+- Year: first published 2010; page updated through later seasons
+- URL: https://www.allaboutbirds.org/news/bird-cams-faq-barn-owl-nest/
+- Accessed: 2026-10-31
+- Type: research-institution species/camera FAQ
+- Species/stage: American Barn Owl, Texas nest; adults and chicks
+- Actually read: sex-identification and chick-development sections. Females are generally larger, darker/buffer and more spotted while males are often paler, with overlap; chicks usually fledge 50–55 days; flight feathers develop broadly about 35–65 days.
+- Limit/confidence: reliable institutional synthesis but not a primary continuous molt series; sex cues overlap and cannot define a fixed standing-height ratio.
+- Design link: [#90 v5 research](species/90-tyto-furcata-v5.md); supports retaining qualitative adult contrast and prevents treating P20 as flight-ready.
+
+
+### EBO-MCLAUGHLIN-DEBUS-2025
+- Title: Breeding biology and behaviour of the Eastern Barn Owl *Tyto javanica delicatula* in north-western Victoria
+- Authors: John G. McLaughlin; S.J.S. Debus
+- Year/pages: 2025; Australian Field Ornithology 42:116–124
+- URL/DOI: https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/2371/2402 ; 10.20938/afo42116124
+- Accessed: 2026-10-31
+- Type: primary regional field study; publisher full PDF
+- Species/stage: *T. j. delicatula* breeding, nestling and fledgling stages
+- Actually read: abstract, taxonomic note and documented pp.120–123. Nestling period c.46–57 d (mean c.53); 13/14 nests were tree hollows; late young climb/jump/flap near fledging.
+- Limits: historic field observations published later; not a daily tract-level feather series and does not sex the depicted individual.
+- Design link: [#91 v4 research](species/91-tyto-javanica-delicatula-v4.md); supports retaining developed fresh wings and hollow support.
+
+
+### EBO-AUSTRALIAN-MUSEUM-2026
+- Title: Eastern Barn Owl
+- Author/Institution: Australian Museum
+- Updated: 29 July 2022; accessed 2026-10-31
+- URL: https://australian.museum/learn/animals/birds/eastern-barn-owl/
+- Type: museum species account
+- Species/stage: *Tyto javanica*, Eastern Australian adult and young
+- Actually read: identification, habitat and behaviour sections. White heart disc; sandy-orange/light-grey above; white/cream below; black spotting; young similar to adults; females slightly larger; open/arid farms and lightly wooded habitat.
+- Limits: synthesis rather than primary measurement; no exact juvenile chronology or fixed sex-size ratio.
+- Design link: [#91 v4 research](species/91-tyto-javanica-delicatula-v4.md).
+
+
+### HAR-BODRATI2019
+- Title: Nidificación de la Lechucita Canela (*Aegolius harrisii*) en Misiones, Argentina
+- Authors: Alejandro Bodrati; Milka R. Gómez; Carlos A. Ferreyra; Kristina L. Cockle
+- Year/pages: 2019; Ornitología Neotropical 30:151–156
+- URL/DOI: https://ornneo.ornitologianeotropical.org/index.php/ornneo/article/download/479/ON%2030%20(2019)%20151-156.pdf/3323 ; 10.58843/ornneo.v30i0.479
+- Accessed: 2026-10-31
+- Type: primary monitored-nest study; full text
+- Species/stage: *A. harrisii* in Misiones; hatch to fledging
+- Actually read: abstract and pp.153–154/Fig.1 sequence. Sparse dark-grey natal down; facial disc begins around 10 d; 24-d oldest young resembles adult; fledging 35–37 d; old woodpecker cavity in dead grapia.
+- Limits: one regional nest and asynchronous brood; not a universal tract/proportion or sex-size series.
+- Design link: [#93 v3 research](species/93-aegolius-harrisii-v3.md); supports preserving the v2 ~24-d disc/formed-wing stage while correcting only the title.
+
+
+### KOE-PEREIRA2013
+- Title: *Pulsatrix koeniswaldiana*: ocorrência e nidificação em um reflorestamento misto em Bauru, SP, Brasil
+- Authors: Guilherme F. Pereira; Anderson S. Lucindo
+- Year/pages: 2013; Revista do Instituto Florestal 25(1):123–127
+- URL/DOI: https://rif.emnuvens.com.br/revista/article/download/425/398/397 ; 10.24278/2178-5031.2013251425
+- Accessed: 2026-10-31
+- Type: primary nesting note; full PDF
+- Actually read: pp.124–126 and Fig.2. Natural cavity in *Piptadenia gonoacantha*; young shown inside and perched above nest; parental care nearby.
 - Limits: no exact young age, flight score or continuous feather sequence; context/support only.
 - Design link: [#94 v5 research](species/94-pulsatrix-koeniswaldiana-v5.md).
 
@@ -1378,3 +1673,28 @@ Total output lines: 1675
 - **Limits / decision:** single unsexed adult, no scale or development series. Used only as an adult field comparator.
 
 **Mapping / delta — #148 v2:** historic Cebu *N. philippensis spilonota* → current *Ninox rumseyi*. New2 / reused1 / corrected2 (full primary access and adult pattern/bare-part boundary). A field study confirms both a tracked juvenile and a recently hatched young existed, but supplies no visible juvenile anatomy; exact age, iris chronology, wing/tail feather sequence, flight threshold and sex-size direction remain unknown; science=false. [Species research](species/148-ninox-rumseyi-v2.md) · [Run](../production/runs/20261101T003400+0800-cycle-2.md).
+
+## 2026-11-01 — #149 *Ninox odiosa* v2 evidence refresh
+
+### NBBOO-IUCN-2018 (reused, content expanded)
+- **Institution / year / type:** IUCN Red List account for *Ninox odiosa*; 2018 assessment; institutional conservation/species account.
+- **URL / access:** https://doi.org/10.2305/IUCN.UK.2018-2.RLTS.T22689480A132060613.en ; identification/range text read from indexed original content 2026-11-01; direct DOI open returned 403.
+- **Facts:** about 22 cm; small owl with fine-spotted chocolate-brown upperparts, paler mottled white/brown underparts, conspicuous white eyebrows and throat; New Britain endemic, widespread in suitable habitat to about 1,200 m.
+- **Limits:** secondary account; no sex or juvenile development. Used for adult/range constraints only.
+
+### NBBOO-COMMONS-MALINOWSKI-2019
+- **Title / author / date / type:** “New Britain Boobook (*Ninox odiosa*) in Papua New Guinea,” Norma Malinowski; 2 September 2019; adult field photograph, CC BY 4.0.
+- **URL / access:** https://commons.wikimedia.org/wiki/File:Ninox_odiosa_50656522.jpg ; metadata read and photo pixels viewed through image retrieval 2026-11-01.
+- **Visible facts:** compact earless russet/chocolate-brown adult, orange-yellow irides, short pale brows, pale throat, small white upperpart spots, warm mottled underparts and supported branch grip in dense green vegetation.
+- **Limits:** one unsexed adult; no scale or juvenile sequence.
+
+### NBBOO-GOULD-SHARPE-1884-PL5
+- **Title / authors / year / type:** *Ninox odiosa*, Plate V in *The Birds of New Guinea and the adjacent Papuan islands*, John Gould / R. Bowdler Sharpe; 1884; historic illustrated species plate.
+- **URL / DOI / access:** https://commons.wikimedia.org/wiki/File:Ninox_odiosa_-_The_Birds_of_New_Guinea_(cropped).jpg ; BHL page 53841738; DOI 10.5962/p.322606; public-domain plate metadata and pixels read 2026-11-01. BHL article endpoint returned 403.
+- **Facts / limits:** historic adult illustration supports the dense pale spangling and warm dark palette but is not a modern colour standard, sexed comparison or juvenile source.
+
+### NBBOO-SCLATER-1877-LEAD (unverified original)
+- **Record:** Philip L. Sclater, 1877, Proceedings of the Zoological Society of London, pt.1 p.108; original description lead confirmed by BHL/Center for Biological Diversity index.
+- **Status:** original page/PDF was not directly retrievable in this run; not counted as read morphology evidence.
+
+**Mapping / delta — #149 v2:** current *Ninox odiosa* / historical common names Russet Hawk-Owl, New Britain Hawk-Owl and Spangled Boobook. New2 / reused1 / corrected2 (v1 archive integrity and adult pattern boundary) / unverified lead1. The archived v1 blob is a 786,445-byte PNG with an `IDAT invalid distance code` decode failure and a SHA mismatch against its manifest; it is preserved but not used as a visual source. No species-specific juvenile sequence or sex-size direction was found; science=false. [Species research](species/149-ninox-odiosa-v2.md) · [Run](../production/runs/20261101T004159+0800-cycle-3.md).

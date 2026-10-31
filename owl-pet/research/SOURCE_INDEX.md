@@ -1220,3 +1220,31 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 
 **Mapping — #124 v3:** current *Ketupa philippensis* / historical *Bubo philippensis* → `PEO-MIK2013-P294` adult/head-down immature cue; `PEO-URRIZA-2017` at-least-70-day minimum; `PEO-OCHAVO-2012` later juvenile movement; `PEO-BIRDFORUM-2012` dated comparator; reused `PEO-ARTUSO-2015` and `PEO-AVIBASE-MAPPING`. New2 / reused4 / corrected1. Exact age, iris chronology, feather sequence and sex ratio unknown.
 
+
+## KOEP-FJELDSA-2012
+
+- **Title:** Reappraisal of Koepcke's Screech Owl *Megascops koepckeae* and description of a new subspecies
+- **Authors/institution:** Jon Fjeldså et al.; Bulletin of the British Ornithologists' Club / Natural History Museum Library
+- **Year/type:** 2012; peer-reviewed museum-series, field-vocal and taxonomic study
+- **URL/DOI:** https://www.biodiversitylibrary.org/part/269549 ; Zenodo mirror https://doi.org/10.5281/zenodo.16198369
+- **Accessed:** 2026-10-31
+- **Species/stage:** *Megascops koepckeae koepckeae* and *M. k. hockingi*; adults
+- **Actually read:** printed pp.180–190, especially pp.182, 188–190 and Table 2; complete PDF text and page context opened.
+- **Facts:** two Peruvian populations overlap strongly in measured size. Southern *hockingi* is generally drabber gray with whiter lower underparts and a sparse grid; nominate northern birds are richer chocolate/snuff-brown with ochre-brown to cinnamon patches and a more gradual densely barred breast-to-whiter-belly transition. Eyes deep yellow; cere/bill greenish or blue-gray; feet variable gray-green/tan/pink. Historical origin: Hekstra's *Otus choliba koepckei*; Bolivia attribution unsupported.
+- **Limitations/conflicts:** specimen series does not give a sex-specific standing-height ratio or juvenile chronology; color varies individually and geographically. Do not import southern gray *hockingi* wholesale into an Ecuador/Loja nominate concept.
+- **Design use:** adults in #130 v3 use near-equal height and richer brown nominate appearance with irregular, non-wallpaper shaft/bar pattern; no fixed female-larger rule.
+- **Links:** [species card](species/130-megascops-koepckeae-v3.md) · [run](../production/runs/20261031T175400+0800-cycle-4.md)
+
+## KOEP-REO-2019-ABSTRACT
+
+- **Title:** Notas sobre la historia natural del Autillo de Koepcke *Megascops koepckeae* (Strigidae) en Ecuador
+- **Authors/institution:** Leonardo Ordóñez-Delgado, Adrián Orihuela-Torres & Juan Freile; VI Reunión Ecuatoriana de Ornitología proceedings
+- **Year/type:** 2019; conference proceedings abstract based on focal observations/rescued chicks
+- **URL/DOI:** https://www.researchgate.net/publication/333041092_Memorias_de_la_VI_Reunion_Ecuatoriana_de_Ornitologia ; https://doi.org/10.18272/reo.v0i4.1363
+- **Accessed:** 2026-10-31
+- **Species/stage:** *M. koepckeae* in Loja, Ecuador; chicks through adult-plumage transition
+- **Actually read:** proceedings text pp.88–122 in the web transcription; source document is journal vol.4, pp.1–62, abstract section headed by the title.
+- **Facts:** observations in 2015/2018; rescued young imply January–June breeding; local records include urban eucalyptus and Andean-forest edges with *Alnus*. Authors report palm-frond clefts as one nesting site and approximately three months for chick-to-adult plumage development.
+- **Limitations/conflicts:** brief abstract, not a staged feather atlas; palm-frond cleft is a local observation, not a universal nest prescription. Approximate three-month statement cannot assign the 2023 fledglings an exact age.
+- **Design use:** reinforces use of an older, fully supported branch-perching young while retaining residual down and formed remiges; no nest is depicted and no exact age is claimed.
+- **Links:** [species card](species/130-megascops-koepckeae-v3.md) · [run](../production/runs/20261031T175400+0800-cycle-4.md)

@@ -28,3 +28,7 @@ Opened the 1536×1024 archived v3 original, not only its run text. It passes spe
 ## Unknowns retained
 
 Exact juvenile age and sex, continuous molt sequence, iris chronology, flight threshold, population-wide adult size ratio, toe-by-toe feather boundary and universality of the epiphyte-tuft nest remain unknown. The concept therefore remains `scientifically_verified: false`.
+
+## Actual v4 review result
+
+The complete 1536×1024 v4 output and separate juvenile and all-feet crops were opened. One referenced-image edit was sufficient. The requested tuft narrowing, restrained adult dimorphism, formed-wing older juvenile, secure support, sparse lower-belly marks and feathered adult tarsus/proximal-toe direction are visibly present. Exact text, count and species number pass. No evidence-backed reason for a second edit was found; result is `PASS_WITH_LIMITATIONS`, not scientific approval.

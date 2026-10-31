@@ -9310,8 +9310,8 @@
   "lease": {
     "owner": "codex-work-mode",
     "run_id": "20261031T113052+0800-cycle-1",
-    "heartbeat_at": "2026-10-31T11:34:29+08:00",
-    "expires_at": "2026-10-31T11:49:29+08:00"
+    "heartbeat_at": "2026-10-31T11:36:24+08:00",
+    "expires_at": "2026-10-31T11:51:24+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9456,8 +9456,8 @@
   "active_lease": {
     "owner": "codex-work-mode",
     "run_id": "20261031T113052+0800-cycle-1",
-    "heartbeat_at": "2026-10-31T11:34:29+08:00",
-    "expires_at": "2026-10-31T11:49:29+08:00"
+    "heartbeat_at": "2026-10-31T11:36:24+08:00",
+    "expires_at": "2026-10-31T11:51:24+08:00"
   },
   "last_updated_at": "2026-10-31T11:02:00+08:00",
   "audit_notes": [
@@ -9935,7 +9935,7 @@
     "version": 4,
     "action": "SCIENCE_REVISION",
     "run_id": "20261031T113052+0800-cycle-1",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-31T11:30:52+08:00",
     "run_record": "owl-pet/production/runs/20261031T113052+0800-cycle-1.md",
     "research_record": "owl-pet/research/104-asio-madagascariensis-v4.md",
@@ -9951,6 +9951,22 @@
       "size": 3086916,
       "width": 1536,
       "height": 1024
+    },
+    "review": {
+      "result": "PASS_WITH_LIMITATIONS",
+      "edits": 1,
+      "science": false,
+      "full_opened": true,
+      "juvenile_crop_opened": true,
+      "feet_crop_opened": true,
+      "remaining_unknowns": [
+        "juvenile age",
+        "iris chronology",
+        "flight threshold",
+        "universal tuft pose",
+        "toe-by-toe feather boundary",
+        "quantified adult dimorphism"
+      ]
     }
   },
   "last_checkpoint": {
@@ -9960,7 +9976,7 @@
     "version": 4,
     "action": "SCIENCE_REVISION",
     "run_id": "20261031T113052+0800-cycle-1",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "started_at": "2026-10-31T11:30:52+08:00",
     "run_record": "owl-pet/production/runs/20261031T113052+0800-cycle-1.md",
     "research_record": "owl-pet/research/104-asio-madagascariensis-v4.md",
@@ -9976,6 +9992,22 @@
       "size": 3086916,
       "width": 1536,
       "height": 1024
+    },
+    "review": {
+      "result": "PASS_WITH_LIMITATIONS",
+      "edits": 1,
+      "science": false,
+      "full_opened": true,
+      "juvenile_crop_opened": true,
+      "feet_crop_opened": true,
+      "remaining_unknowns": [
+        "juvenile age",
+        "iris chronology",
+        "flight threshold",
+        "universal tuft pose",
+        "toe-by-toe feather boundary",
+        "quantified adult dimorphism"
+      ]
     }
   },
   "history": [
@@ -10018,6 +10050,21 @@
       "path": "owl-pet/production/generated/104-asio-madagascariensis-v4-generated-master.png",
       "size": 3086916,
       "sha256": "ff8fd05590d867ee0f16aecf9f0a3628c617b5c22c11e4d48c5f5cbf81cc7e1d"
+    },
+    {
+      "at": "2026-10-31T11:36:24+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1130+0800",
+      "cycle": 1,
+      "run_id": "20261031T113052+0800-cycle-1",
+      "species_id": 104,
+      "version": 4,
+      "result": "PASS_WITH_LIMITATIONS",
+      "edits": 1,
+      "science": false,
+      "full_opened": true,
+      "juvenile_crop_opened": true,
+      "feet_crop_opened": true
     }
   ]
 }

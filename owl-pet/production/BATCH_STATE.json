@@ -10769,14 +10769,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261101T002622+0800-cycle-1",
-        "heartbeat_at": "2026-11-01T00:30:52+08:00",
-        "expires_at": "2026-11-01T00:45:52+08:00"
+        "heartbeat_at": "2026-11-01T00:31:54+08:00",
+        "expires_at": "2026-11-01T00:46:54+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261101T002622+0800-cycle-1",
-        "heartbeat_at": "2026-11-01T00:30:52+08:00",
-        "expires_at": "2026-11-01T00:45:52+08:00"
+        "heartbeat_at": "2026-11-01T00:31:54+08:00",
+        "expires_at": "2026-11-01T00:46:54+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -10787,7 +10787,7 @@
         "unique_species_increment": 0,
         "run_id": "20261101T002622+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261101T002622+0800-cycle-1.md",
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       },
       "last_checkpoint": {
         "batch_id": "20261101T0026+0800",
@@ -10797,27 +10797,26 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T002622+0800-cycle-1",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261101T002622+0800-cycle-1.md",
-        "at": "2026-11-01T00:30:52+08:00",
+        "at": "2026-11-01T00:31:54+08:00",
         "evidence": {
-          "reviewed_master": "owl-pet/production/reviewed/147-ninox-leventisi-v2-reviewed-master.png",
-          "edited_master": "owl-pet/production/generated/147-ninox-leventisi-v2-edit1.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/147-ninox-leventisi-v2-older-immature.png",
-            "owl-pet/production/review-crops/147-ninox-leventisi-v2-adult-pattern-feet.png"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 1,
-          "edit_reason": "adult claws mostly dark; older immature wing too layered/adult-like",
-          "effective_changes": "adult claws pale horn with dark tips; immature wing compact/down-softened and ending above feet",
-          "remaining_limits": "adult bar and immature covert geometry stylized; age/iris/flight/nest/sex-size unknown",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-01T00:45:52+08:00"
+          "concept": "owl-pet/design/concepts/147-ninox-leventisi-v2.png",
+          "concept_blob": "034a0fc3fca12dc8309b312acdb7723b3b660c38",
+          "concept_size": 2684124,
+          "concept_sha256": "5243f458a49138b91d3cd4acebc0fdc9c128b3de49513dfc635c471442472a23",
+          "manifest_counts": {
+            "design_image": 628,
+            "design_legacy": 629,
+            "production": 619
+          },
+          "knowledge": "owl-pet/knowledge/species/147-ninox-leventisi.md",
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-01T00:46:54+08:00"
         }
       },
-      "last_stage": "REVIEWED",
-      "updated_at": "2026-11-01T00:30:52+08:00",
+      "last_stage": "ARCHIVED",
+      "updated_at": "2026-11-01T00:31:54+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -10899,6 +10898,28 @@
             "remaining_limits": "adult bar and immature covert geometry stylized; age/iris/flight/nest/sex-size unknown",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-01T00:45:52+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "run_id": "20261101T002622+0800-cycle-1",
+          "species": "Ninox leventisi",
+          "stage": "ARCHIVED",
+          "at": "2026-11-01T00:31:54+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/147-ninox-leventisi-v2.png",
+            "concept_blob": "034a0fc3fca12dc8309b312acdb7723b3b660c38",
+            "concept_size": 2684124,
+            "concept_sha256": "5243f458a49138b91d3cd4acebc0fdc9c128b3de49513dfc635c471442472a23",
+            "manifest_counts": {
+              "design_image": 628,
+              "design_legacy": 629,
+              "production": 619
+            },
+            "knowledge": "owl-pet/knowledge/species/147-ninox-leventisi.md",
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-01T00:46:54+08:00"
           }
         }
       ]
@@ -11036,7 +11057,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-01T00:30:52+08:00",
+  "updated_at": "2026-11-01T00:31:54+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

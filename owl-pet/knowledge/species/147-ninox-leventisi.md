@@ -3,7 +3,7 @@
 - Scientific name: *Ninox leventisi*
 - Taxonomy: Rasmussen et al. 2012; historically included in the Philippine hawk-owl complex.
 - Scope: Camiguin Island endemic; treated as a full species in the current 251-species production scope.
-- Concept: [v1](../../design/concepts/147-ninox-leventisi-v1.png)
+- Concepts: [v1](../../design/concepts/147-ninox-leventisi-v1.png) · [v2 science revision](../../design/concepts/147-ninox-leventisi-v2.png)
 - Scientific verification: false
 
 ## Evidence actually read
@@ -19,3 +19,12 @@ Adults are shown with near-equal scale because no reliable visual sexual dimorph
 ## Review
 
 Final image viewed after two targeted juvenile-wing edits. The first image had adult-like long layered remiges; v2 softened them, and the final edit shortened the folded wing further and removed crisp adult spot rows. Three birds, labels, anatomy, support and habitat are intact. Exact juvenile feather sequence, sex ratio, bill/toe variation and breeding ecology remain unknown.
+
+## 2026-11-01 v2 science-revision evidence and review
+
+- Primary Rasmussen et al. 2012 diagnosis (printed pp.15–16) was read in full for this taxon. It corrects v1 toward large, full/lax adults with long deep bills, no pale supercilium, gray/whitish to very pale yellow-green irides, extensive white throat, bold upperpart bars, broad irregular underpart bars, mustard/olive bare parts and mostly pale claws with dark tips.
+- The paper combines sexes for analysis and explicitly defers sexual-size work; v2 therefore keeps near-equal adult scale. It also excludes immatures from diagnoses because data are sparse, allowing only the general boundary “fluffier and less well marked.”
+- Adult field-photo pixels and metadata (Cheta Chua 2025, Wikimedia Commons) were viewed as a secondary appearance check; ITIS TSN 1063268 and BirdLife were used only for current-name/range context.
+- Built-in ImageGen generated v2, then one targeted edit corrected mostly dark adult claws and shortened/softened the older immature wing. Full image and two crops were actually viewed.
+- Result: `PASS_WITH_LIMITATIONS`, scientific verification false. The age-unknown older immature keeps eyes closed, tail hidden and both feet supported; exact age, iris development, flight, nest, sex-size direction and continuous feather sequence remain unknown.
+- Detailed evidence and complete prompts: [research record](../../research/species/147-ninox-leventisi-v2.md) · [run](../../production/runs/20261101T002622+0800-cycle-1.md).

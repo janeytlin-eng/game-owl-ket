@@ -9521,99 +9521,24 @@
           "commit_sha": "3e343d1cb731e1642e4cf5c54b0bb17257b0c159",
           "run_record": "owl-pet/production/runs/20261031T173539+0800-cycle-3.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species": "Megascops koepckeae",
+          "species_id": 130,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "793c769923b8a255846054a8e0371b59e2989cf5",
+          "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
-      "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T175400+0800-cycle-4",
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 4,
-        "heartbeat_at": "2026-10-31T18:10:00+08:00",
-        "expires_at": "2026-10-31T18:25:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261031T175400+0800-cycle-4",
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 4,
-        "heartbeat_at": "2026-10-31T18:10:00+08:00",
-        "expires_at": "2026-10-31T18:25:00+08:00"
-      },
-      "in_progress": {
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 4,
-        "run_id": "20261031T175400+0800-cycle-4",
-        "species": "Megascops koepckeae",
-        "species_id": 130,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
-        "at": "2026-10-31T18:10:00+08:00"
-      },
+      "next_cycle": 5,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
       "previous_checkpoint": {
-        "batch_id": "2026-10-31T1502+0800",
-        "cycle": 2,
-        "species": "Ketupa philippensis",
-        "species_id": 124,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261031T154616+0800-cycle-2",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261031T154616+0800-cycle-2.md",
-        "at": "2026-10-31T16:44:00+08:00",
-        "evidence": {
-          "fixed_archive_commit": "37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0",
-          "tree_sha": "26e013a04b3c435da3f8b0026b7eb82200009b5c",
-          "tree_count": 2368,
-          "tree_truncated": false,
-          "assets": {
-            "concept": {
-              "path": "owl-pet/design/concepts/124-ketupa-philippensis-v3.png",
-              "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
-              "size": 2831579
-            },
-            "generated": {
-              "path": "owl-pet/production/generated/124-ketupa-philippensis-v3-generated-master.png",
-              "sha": "1949fa1eaaec25efd9f23be494a0d5cee55b55fa",
-              "size": 2899032
-            },
-            "intermediate_edit": {
-              "path": "owl-pet/production/generated/124-ketupa-philippensis-v3-edit1.png",
-              "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
-              "size": 2831579
-            },
-            "reviewed": {
-              "path": "owl-pet/production/reviewed/124-ketupa-philippensis-v3-reviewed-master.png",
-              "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
-              "size": 2831579
-            },
-            "juvenile_crop": {
-              "path": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-juvenile.png",
-              "sha": "a9cc140e6b1d2b857e246a9cd776b0113129041e",
-              "size": 685751
-            },
-            "feet_crop": {
-              "path": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-feet.png",
-              "sha": "61871676a9c61e507bae64a3dc0f13150a409493",
-              "size": 694233
-            }
-          },
-          "manifest_counts": {
-            "legacy": 612,
-            "design": 611,
-            "production": 602
-          },
-          "manifest_json_valid": true,
-          "path_blob_readback": true,
-          "unique_species": "175/251",
-          "scientifically_verified": false,
-          "next_cycle": 3,
-          "batch_complete": false
-        }
-      },
-      "last_checkpoint": {
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 3,
         "species": "Megascops marshalli",
@@ -9675,17 +9600,73 @@
           "next_cycle": 4,
           "batch_complete": false
         }
+      },
+      "last_checkpoint": {
+        "batch_id": "2026-10-31T1502+0800",
+        "cycle": 4,
+        "species": "Megascops koepckeae",
+        "species_id": 130,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261031T175400+0800-cycle-4",
+        "stage": "VERIFIED",
+        "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
+        "at": "2026-10-31T18:14:00+08:00",
+        "evidence": {
+          "fixed_archive_commit": "793c769923b8a255846054a8e0371b59e2989cf5",
+          "tree_sha": "d0ecc0ccd2c16df5bf8151979dcb787d61c433dd",
+          "tree_count": 2325,
+          "tree_truncated": false,
+          "assets": {
+            "concept": {
+              "path": "owl-pet/design/concepts/130-megascops-koepckeae-v3.png",
+              "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+              "size": 2826705
+            },
+            "generated": {
+              "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-generated-master.png",
+              "sha": "de24340c28eae425e3d00fced07411fb890da689",
+              "size": 2957013
+            },
+            "intermediate_edit": {
+              "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-edit1.png",
+              "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+              "size": 2826705
+            },
+            "reviewed": {
+              "path": "owl-pet/production/reviewed/130-megascops-koepckeae-v3-reviewed-master.png",
+              "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+              "size": 2826705
+            },
+            "juvenile_crop": {
+              "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-juvenile.png",
+              "sha": "f6a974a4685c410d994c20d6c3785d9cd0aee17d",
+              "size": 642693
+            },
+            "feet_crop": {
+              "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-feet.png",
+              "sha": "ac1a534d7e55055a883319f2932f4bfa13b99229",
+              "size": 833346
+            }
+          },
+          "manifest_counts": {
+            "legacy": 614,
+            "design": 613,
+            "production": 604
+          },
+          "manifest_json_valid": true,
+          "path_blob_readback": true,
+          "png_full_decode": true,
+          "sha256_verified": true,
+          "unique_species": "175/251",
+          "scientifically_verified": false,
+          "next_cycle": 5,
+          "batch_complete": false
+        }
       }
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T175400+0800-cycle-4",
-    "batch_id": "2026-10-31T1502+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-31T18:10:00+08:00",
-    "expires_at": "2026-10-31T18:25:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -9817,7 +9798,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T18:10:00+08:00",
+  "updated_at": "2026-10-31T18:14:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9826,15 +9807,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-production",
-    "run_id": "20261031T175400+0800-cycle-4",
-    "batch_id": "2026-10-31T1502+0800",
-    "cycle": 4,
-    "heartbeat_at": "2026-10-31T18:10:00+08:00",
-    "expires_at": "2026-10-31T18:25:00+08:00"
-  },
-  "last_updated_at": "2026-10-31T18:10:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-10-31T18:14:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -10514,82 +10488,34 @@
       "lease_expires_at": "2026-10-31T18:25:00+08:00",
       "scientifically_verified": false,
       "credited": false
-    }
-  ],
-  "in_progress": {
-    "batch_id": "2026-10-31T1502+0800",
-    "cycle": 4,
-    "run_id": "20261031T175400+0800-cycle-4",
-    "species": "Megascops koepckeae",
-    "species_id": 130,
-    "version": 3,
-    "action": "SCIENCE_REVISION",
-    "stage": "ARCHIVED",
-    "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
-    "at": "2026-10-31T18:10:00+08:00"
-  },
-  "previous_checkpoint": {
-    "batch_id": "2026-10-31T1502+0800",
-    "cycle": 2,
-    "species": "Ketupa philippensis",
-    "species_id": 124,
-    "version": 3,
-    "action": "SCIENCE_REVISION",
-    "run_id": "20261031T154616+0800-cycle-2",
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261031T154616+0800-cycle-2.md",
-    "at": "2026-10-31T16:44:00+08:00",
-    "evidence": {
-      "fixed_archive_commit": "37f1c41da83c92b3ef8a3c94dc87c58cca5acbe0",
-      "tree_sha": "26e013a04b3c435da3f8b0026b7eb82200009b5c",
-      "tree_count": 2368,
-      "tree_truncated": false,
-      "assets": {
-        "concept": {
-          "path": "owl-pet/design/concepts/124-ketupa-philippensis-v3.png",
-          "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
-          "size": 2831579
-        },
-        "generated": {
-          "path": "owl-pet/production/generated/124-ketupa-philippensis-v3-generated-master.png",
-          "sha": "1949fa1eaaec25efd9f23be494a0d5cee55b55fa",
-          "size": 2899032
-        },
-        "intermediate_edit": {
-          "path": "owl-pet/production/generated/124-ketupa-philippensis-v3-edit1.png",
-          "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
-          "size": 2831579
-        },
-        "reviewed": {
-          "path": "owl-pet/production/reviewed/124-ketupa-philippensis-v3-reviewed-master.png",
-          "sha": "efe8cb9f913a2373097e4b573c1cbefa01109057",
-          "size": 2831579
-        },
-        "juvenile_crop": {
-          "path": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-juvenile.png",
-          "sha": "a9cc140e6b1d2b857e246a9cd776b0113129041e",
-          "size": 685751
-        },
-        "feet_crop": {
-          "path": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-feet.png",
-          "sha": "61871676a9c61e507bae64a3dc0f13150a409493",
-          "size": 694233
-        }
-      },
+    },
+    {
+      "at": "2026-10-31T18:14:00+08:00",
+      "event": "VERIFIED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "run_id": "20261031T175400+0800-cycle-4",
+      "species_id": 130,
+      "version": 3,
+      "fixed_archive_commit": "793c769923b8a255846054a8e0371b59e2989cf5",
+      "tree_count": 2325,
+      "asset_count": 6,
       "manifest_counts": {
-        "legacy": 612,
-        "design": 611,
-        "production": 602
+        "legacy": 614,
+        "design": 613,
+        "production": 604
       },
       "manifest_json_valid": true,
-      "path_blob_readback": true,
+      "png_full_decode": true,
+      "sha256_verified": true,
       "unique_species": "175/251",
       "scientifically_verified": false,
-      "next_cycle": 3,
-      "batch_complete": false
+      "next_cycle": 5,
+      "credited": true
     }
-  },
-  "last_checkpoint": {
+  ],
+  "in_progress": null,
+  "previous_checkpoint": {
     "batch_id": "2026-10-31T1502+0800",
     "cycle": 3,
     "species": "Megascops marshalli",
@@ -10649,6 +10575,69 @@
       "unique_species": "175/251",
       "scientifically_verified": false,
       "next_cycle": 4,
+      "batch_complete": false
+    }
+  },
+  "last_checkpoint": {
+    "batch_id": "2026-10-31T1502+0800",
+    "cycle": 4,
+    "species": "Megascops koepckeae",
+    "species_id": 130,
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261031T175400+0800-cycle-4",
+    "stage": "VERIFIED",
+    "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
+    "at": "2026-10-31T18:14:00+08:00",
+    "evidence": {
+      "fixed_archive_commit": "793c769923b8a255846054a8e0371b59e2989cf5",
+      "tree_sha": "d0ecc0ccd2c16df5bf8151979dcb787d61c433dd",
+      "tree_count": 2325,
+      "tree_truncated": false,
+      "assets": {
+        "concept": {
+          "path": "owl-pet/design/concepts/130-megascops-koepckeae-v3.png",
+          "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+          "size": 2826705
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-generated-master.png",
+          "sha": "de24340c28eae425e3d00fced07411fb890da689",
+          "size": 2957013
+        },
+        "intermediate_edit": {
+          "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-edit1.png",
+          "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+          "size": 2826705
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/130-megascops-koepckeae-v3-reviewed-master.png",
+          "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+          "size": 2826705
+        },
+        "juvenile_crop": {
+          "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-juvenile.png",
+          "sha": "f6a974a4685c410d994c20d6c3785d9cd0aee17d",
+          "size": 642693
+        },
+        "feet_crop": {
+          "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-feet.png",
+          "sha": "ac1a534d7e55055a883319f2932f4bfa13b99229",
+          "size": 833346
+        }
+      },
+      "manifest_counts": {
+        "legacy": 614,
+        "design": 613,
+        "production": 604
+      },
+      "manifest_json_valid": true,
+      "path_blob_readback": true,
+      "png_full_decode": true,
+      "sha256_verified": true,
+      "unique_species": "175/251",
+      "scientifically_verified": false,
+      "next_cycle": 5,
       "batch_complete": false
     }
   },
@@ -11610,7 +11599,20 @@
       "commit_sha": "3e343d1cb731e1642e4cf5c54b0bb17257b0c159",
       "run_record": "owl-pet/production/runs/20261031T173539+0800-cycle-3.md",
       "next_cycle": 4
+    },
+    {
+      "at": "2026-10-31T18:14:00+08:00",
+      "event": "cycle_verified",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 4,
+      "species": "Megascops koepckeae",
+      "species_id": 130,
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "commit_sha": "793c769923b8a255846054a8e0371b59e2989cf5",
+      "run_record": "owl-pet/production/runs/20261031T175400+0800-cycle-4.md",
+      "next_cycle": 5
     }
   ],
-  "last_updated": "2026-10-31T18:10:00+08:00"
+  "last_updated": "2026-10-31T18:14:00+08:00"
 }

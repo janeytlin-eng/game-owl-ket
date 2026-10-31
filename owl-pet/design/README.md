@@ -2769,3 +2769,7 @@ Fixed archive [`3e343d1cb731e1642e4cf5c54b0bb17257b0c159`](https://github.com/ja
 ## 2026-10-31 — #130 *Megascops koepckeae* v3
 
 Northern-nominate/Ecuador science revision: richer-brown near-equal adults, documented Loja older fledgling with compact formed wing under residual down, and six supported feet. One wing-only edit; full plate and two crops opened; PASS_WITH_LIMITATIONS; science false; unique 175/251. [Original](concepts/130-megascops-koepckeae-v3.png) · [Research](../research/species/130-megascops-koepckeae-v3.md) · [Run](../production/runs/20261031T175400+0800-cycle-4.md).
+
+### #130 v3 verified — 2026-10-31T18:14:00+08:00
+
+Fixed archive [`793c769923b8a255846054a8e0371b59e2989cf5`](https://github.com/janeytlin-eng/game-owl-ket/commit/793c769923b8a255846054a8e0371b59e2989cf5) passed exact six-image readback; concept fully decoded and matched SHA-256. Manifests 614/613/604; batch 4/6 next5; unique175/251; science false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/793c769923b8a255846054a8e0371b59e2989cf5/owl-pet/design/concepts/130-megascops-koepckeae-v3.png?raw=1).

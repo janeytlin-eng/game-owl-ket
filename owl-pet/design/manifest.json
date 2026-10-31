@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T10:10:00Z",
+  "updated": "2026-10-31T10:14:00Z",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -15546,8 +15546,59 @@
       "auxiliary_review_crop_blob": "ac1a534d7e55055a883319f2932f4bfa13b99229",
       "auxiliary_review_crop_sha256": "46e53d377ef6f72dae30690d093660ba628c7a44a26eee529531d2b97099bb7d",
       "auxiliary_review_crop_size_bytes": 833346,
-      "readback_pending": true
+      "readback_pending": false,
+      "exact_readback": true,
+      "git_blob": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+      "fixed_archive_commit": "793c769923b8a255846054a8e0371b59e2989cf5",
+      "verified_at": "2026-10-31T10:14:00Z",
+      "readback": {
+        "status": "VERIFIED",
+        "fixed_archive_commit": "793c769923b8a255846054a8e0371b59e2989cf5",
+        "method": "immutable commit tree plus complete Git-object PNG decode and complete connector JSON parsing",
+        "tree_sha": "d0ecc0ccd2c16df5bf8151979dcb787d61c433dd",
+        "tree_count": 2325,
+        "tree_truncated": false,
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/130-megascops-koepckeae-v3.png",
+            "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+            "size": 2826705
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-generated-master.png",
+            "sha": "de24340c28eae425e3d00fced07411fb890da689",
+            "size": 2957013
+          },
+          "intermediate_edit": {
+            "path": "owl-pet/production/generated/130-megascops-koepckeae-v3-edit1.png",
+            "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+            "size": 2826705
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/130-megascops-koepckeae-v3-reviewed-master.png",
+            "sha": "3b1a0c55bb9c9da10f9c88e895261e7b360a40b3",
+            "size": 2826705
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-juvenile.png",
+            "sha": "f6a974a4685c410d994c20d6c3785d9cd0aee17d",
+            "size": 642693
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/130-megascops-koepckeae-v3-feet.png",
+            "sha": "ac1a534d7e55055a883319f2932f4bfa13b99229",
+            "size": 833346
+          }
+        },
+        "manifest_counts": {
+          "legacy": 614,
+          "design": 613,
+          "production": 604
+        },
+        "manifest_json_valid": true,
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-10-31T10:10:00Z"
+  "updated_at": "2026-10-31T10:14:00Z"
 }

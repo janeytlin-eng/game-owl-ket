@@ -62,3 +62,7 @@ Preserve exactly three birds/supports. No *mindanensis* traits, extra birds, log
 3. Juvenile visibly retains head down, irregular/lower-contrast coverts, formed wings/tail without becoming a hatchling, and non-adult-bright iris.
 4. Both juvenile feet grip; no unsupported flight or invented nest.
 5. Exact age and science remain unknown/false.
+
+## Actual generation, edit and review
+
+The first 1536×1024 render corrected title, age label, head down and iris, but retained a long crisp miniature-adult wing with regular pale covert rows reaching the ankle. It was rejected. One center-wing-only edit shortened/softened the panel, removed repeated pale rows and kept formed muted remiges above the feet. The final full plate, 560×740 juvenile crop and 1180×340 support crop were opened. Exact text/count/adults/head-down/iris and all supports pass. Result `PASS_WITH_LIMITATIONS`, edit count 1, science false; remige geometry remains an evidence-bounded inference, not a measured sequence.

@@ -9507,16 +9507,16 @@
         "run_id": "20261031T154616+0800-cycle-2",
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 2,
-        "heartbeat_at": "2026-10-31T15:52:28+08:00",
-        "expires_at": "2026-10-31T16:07:28+08:00"
+        "heartbeat_at": "2026-10-31T16:28:00+08:00",
+        "expires_at": "2026-10-31T16:43:00+08:00"
       },
       "lease": {
         "owner": "codex",
         "run_id": "20261031T154616+0800-cycle-2",
         "batch_id": "2026-10-31T1502+0800",
         "cycle": 2,
-        "heartbeat_at": "2026-10-31T15:52:28+08:00",
-        "expires_at": "2026-10-31T16:07:28+08:00"
+        "heartbeat_at": "2026-10-31T16:28:00+08:00",
+        "expires_at": "2026-10-31T16:43:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -9525,7 +9525,7 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T154616+0800-cycle-2",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261031T154616+0800-cycle-2.md",
         "started_at": "2026-10-31T15:46:16+08:00"
       },
@@ -9595,8 +9595,8 @@
     "run_id": "20261031T154616+0800-cycle-2",
     "batch_id": "2026-10-31T1502+0800",
     "cycle": 2,
-    "heartbeat_at": "2026-10-31T15:52:28+08:00",
-    "expires_at": "2026-10-31T16:07:28+08:00"
+    "heartbeat_at": "2026-10-31T16:28:00+08:00",
+    "expires_at": "2026-10-31T16:43:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9729,7 +9729,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T15:52:28+08:00",
+  "updated_at": "2026-10-31T16:28:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9743,10 +9743,10 @@
     "run_id": "20261031T154616+0800-cycle-2",
     "batch_id": "2026-10-31T1502+0800",
     "cycle": 2,
-    "heartbeat_at": "2026-10-31T15:52:28+08:00",
-    "expires_at": "2026-10-31T16:07:28+08:00"
+    "heartbeat_at": "2026-10-31T16:28:00+08:00",
+    "expires_at": "2026-10-31T16:43:00+08:00"
   },
-  "last_updated_at": "2026-10-31T15:52:28+08:00",
+  "last_updated_at": "2026-10-31T16:28:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -10222,7 +10222,7 @@
     "version": 3,
     "action": "SCIENCE_REVISION",
     "run_id": "20261031T154616+0800-cycle-2",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261031T154616+0800-cycle-2.md",
     "started_at": "2026-10-31T15:46:16+08:00",
     "batch_id": "2026-10-31T1502+0800"
@@ -11192,7 +11192,25 @@
       "lease_expires_at": "2026-10-31T16:07:28+08:00",
       "scientifically_verified": false,
       "credited": false
+    },
+    {
+      "at": "2026-10-31T15:54:43+08:00",
+      "event": "REVIEWED",
+      "batch_id": "2026-10-31T1502+0800",
+      "cycle": 2,
+      "run_id": "20261031T154616+0800-cycle-2",
+      "species_id": 124,
+      "version": 3,
+      "whole_frame_opened": true,
+      "juvenile_crop": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-juvenile.png",
+      "feet_crop": "owl-pet/production/review-crops/124-ketupa-philippensis-v3-feet.png",
+      "edits_after_generation": 1,
+      "result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "final_sha256": "60ac31c0092d0a77e533dc145542c4e05c0e7f73011dd584c8e00425f57f8542",
+      "lease_expires_at": "2026-10-31T16:43:00+08:00",
+      "credited": false
     }
   ],
-  "last_updated": "2026-10-31T15:52:28+08:00"
+  "last_updated": "2026-10-31T16:28:00+08:00"
 }

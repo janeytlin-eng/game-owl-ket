@@ -2753,3 +2753,7 @@ Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f
 
 Fixed archive `584066994e83885b3df3495fc08bbd05f33e493d` confirms exact concept/generated/edit/reviewed/crop blob identities and byte sizes; manifests 611/610/601 parse. The pixel-evidence rule was applied and verified on this plate: reopen archived pixels, then assess juvenile wing maturity by length, edge softness and pattern regularity while retaining source-supported formed remiges. Broader transfer is unverified; science remains false.
 
+### #124 v3 rule application
+
+Applied the same pixel-evidence check to a different large owl: the instruction “not a miniature adult” did not make the first render pass. The long regular juvenile wing was rejected and edited while source-supported formed remiges, head down and support were retained. The rule is effective on two inspected plates; it remains a review heuristic, not a universal feather formula.
+

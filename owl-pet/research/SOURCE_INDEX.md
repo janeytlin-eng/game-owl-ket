@@ -879,3 +879,21 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - Verified content: title, author, journal, volume 89(2), pp.452–455 and DOI only.
 - Limitation / confidence: full PDF returned 403 in this run; no plumage sentence from this paper is treated as freshly verified evidence.
 - Design decision: retain as a follow-up lead only; do not use it to repair the Rocha error or mark science passed.
+
+
+## 2026-10-31 — #99 Lesser Horned Owl / *Bubo magellanicus* v4 sex-cue boundary
+
+### MAG-JIMENEZ-CORTES-2023
+- Stable ID: `MAG-JIMENEZ-CORTES-2023`
+- Title: Determination of Haematological Reference Values for Tucúquere (*Bubo magellanicus*) Habiting in Central Chile
+- Authors / institution: Alejandro Jimenez-Cortes, Sergio Boassi, Hernan Cañon-Jones; Universidad de Las Américas / Universidad del Alba
+- Year / publication date: 2023; 22 September 2023
+- Original URL / DOI: https://www.mdpi.com/2076-2615/13/19/3000/pdf ; https://doi.org/10.3390/ani13193000
+- Accessed: 2026-10-31
+- Source type: primary veterinary study; 33 adult rehabilitation/zoos birds
+- Species / stage: *Bubo magellanicus*, adults
+- Valuable fact: the birds were not sexed; Methods states the species has very little or no visible sexual dimorphism, and Discussion says no marked external sexual dimorphism was available for reliable sexing.
+- Page / section: PDF p.3, §2 Materials and Methods; p.5, §4 Discussion
+- Evidence limitation / conflict / confidence: study goal was haematology, not morphometric dimorphism; the introduction repeats a secondary claim that females are larger, but no birds were sexed and no sex-specific measurements were collected. High confidence for “do not visually exaggerate”; not evidence of exact equality.
+- Design decision: keep #99 adults near equal in skeletal height and avoid a fixed female-larger multiplier. This corrects the production boundary without claiming sex can be identified visually.
+- Links: `research/species/99-bubo-magellanicus-v4.md`; `production/runs/20261031T095200+0800-cycle-2.md`; v4 plate.

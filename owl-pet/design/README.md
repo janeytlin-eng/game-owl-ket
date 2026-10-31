@@ -2844,3 +2844,12 @@ Full-resolution science revision of the Cinereous Owl plate. New direct-field ev
 ### Review-rule application
 
 For a *Strix* diagnosis calling for a pale unrung facial disc, prompt wording such as “no concentric rings” is not sufficient evidence of compliance: the full plate must be inspected for tonal annuli that visually read as Barred-Owl-like rings. This failure was discovered on #174 v2, a localized face-only edit was applied, and the refreshed full plate verified the correction for this instance. The rule is now available for later *Strix* reviews; broad effectiveness is not yet claimed.
+
+
+## 2026-11-01 — #175 *Otus ireneae* v2
+
+Full-resolution family-evidence revision of the Sokoke Scops Owl. Virani’s 1995 photograph explicitly anchors a female, male and juvenile together; it does not establish the juvenile’s age, flight ability or iris colour. Adults therefore share the same display height because the species guide reports no sexual size difference, and colour morph is not encoded as sex. One targeted edit shortened/softened the juvenile wing and reduced all three ear tufts. The refreshed plate and two crops passed with limitations; science false; unique coverage remains 175/251. [Concept](concepts/175-otus-ireneae-v2.png) · [Research](../research/species/175-otus-ireneae-v2.md) · [Run](../production/runs/20261101T033700+0800-cycle-3.md).
+
+### Review-rule application
+
+When a source says a juvenile “resembles the adult,” similarity does not license long, orderly adult-hard remiges. The juvenile wing still needs stage-bounded softness, a rounded short tip and explicit support unless a more precise developmental source says otherwise. This rule was reapplied and visually verified on #175 v2 after the initial render repeated the v1 wing defect; broad effectiveness is not yet claimed.

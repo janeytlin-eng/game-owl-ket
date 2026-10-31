@@ -12307,14 +12307,14 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T034300+0800-cycle-4",
-        "heartbeat_at": "2026-11-01T03:45:00+08:00",
-        "expires_at": "2026-11-01T04:00:00+08:00"
+        "heartbeat_at": "2026-11-01T04:27:00+08:00",
+        "expires_at": "2026-11-01T04:42:00+08:00"
       },
       "lease": {
         "owner": "codex-automation",
         "run_id": "20261101T034300+0800-cycle-4",
-        "heartbeat_at": "2026-11-01T03:45:00+08:00",
-        "expires_at": "2026-11-01T04:00:00+08:00"
+        "heartbeat_at": "2026-11-01T04:27:00+08:00",
+        "expires_at": "2026-11-01T04:42:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -12339,7 +12339,10 @@
             "source-ID deduplication",
             "source index update",
             "species card and full prompt"
-          ]
+          ],
+          "resumed_from_expired_lease": true,
+          "resumed_at": "2026-11-01T04:27:00+08:00",
+          "resume_main_head": "569d50165db3a0be6d133b852d1ce77ad146eb2e"
         }
       },
       "last_checkpoint": {
@@ -12365,11 +12368,14 @@
             "source-ID deduplication",
             "source index update",
             "species card and full prompt"
-          ]
+          ],
+          "resumed_from_expired_lease": true,
+          "resumed_at": "2026-11-01T04:27:00+08:00",
+          "resume_main_head": "569d50165db3a0be6d133b852d1ce77ad146eb2e"
         }
       },
       "last_stage": "STARTED",
-      "updated_at": "2026-11-01T03:45:00+08:00",
+      "updated_at": "2026-11-01T04:27:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12747,6 +12753,19 @@
             "v1_sha256": "a90533605c13b9621d1293d3bb65e7f894a6de8ee29b7a89d12e37b3e5da48c2",
             "unique_species": "175/251"
           }
+        },
+        {
+          "cycle": 4,
+          "run_id": "20261101T034300+0800-cycle-4",
+          "species": "Otus pembaensis",
+          "stage": "STARTED_RESUMED",
+          "at": "2026-11-01T04:27:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "expired_previous_lease": "2026-11-01T04:00:00+08:00",
+            "main_head": "569d50165db3a0be6d133b852d1ce77ad146eb2e",
+            "duplicate_generation_avoided": true
+          }
         }
       ]
     }
@@ -12754,8 +12773,8 @@
   "lease": {
     "owner": "codex-automation",
     "run_id": "20261101T034300+0800-cycle-4",
-    "heartbeat_at": "2026-11-01T03:45:00+08:00",
-    "expires_at": "2026-11-01T04:00:00+08:00"
+    "heartbeat_at": "2026-11-01T04:27:00+08:00",
+    "expires_at": "2026-11-01T04:42:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -12899,9 +12918,9 @@
   ],
   "active_lease": {
     "owner": "codex-automation",
-    "run_id": "20261101T032800+0800-cycle-2",
-    "heartbeat_at": "2026-11-01T03:36:00+08:00",
-    "expires_at": "2026-11-01T03:51:00+08:00"
+    "run_id": "20261101T034300+0800-cycle-4",
+    "heartbeat_at": "2026-11-01T04:27:00+08:00",
+    "expires_at": "2026-11-01T04:42:00+08:00"
   },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
@@ -13663,30 +13682,32 @@
     }
   ],
   "in_progress": {
-    "cycle": 2,
-    "species": "Strix sartorii",
+    "cycle": 4,
+    "species": "Otus pembaensis",
     "version": 2,
     "action": "SCIENCE_REVISION",
-    "run_id": "20261101T032800+0800-cycle-2",
-    "stage": "RESEARCH_READY",
+    "run_id": "20261101T034300+0800-cycle-4",
+    "stage": "STARTED",
     "stage_evidence": {
-      "research_file": "owl-pet/research/species/174-strix-sartorii-v2.md",
-      "source_index": "owl-pet/research/SOURCE_INDEX.md",
-      "source_ids": [
-        "CIO-PIEPLOW-ETAL-2020-P221-227",
-        "CIO-EARBIRDING-2015-FLEDGLING",
-        "CIO-AOS-2021-P263",
-        "CIO-ITIS-1063254-2026",
-        "CIO-BARROWCLOUGH-2011"
+      "main_head": "db17fb7e6a669020eb88814d5e4b1460f1818446",
+      "v1_git_blob": "d234423aca0c5732681b8d6c0e71a9fccd3d69be",
+      "v1_sha256": "a90533605c13b9621d1293d3bb65e7f894a6de8ee29b7a89d12e37b3e5da48c2",
+      "unique_species": "175/251",
+      "partial_research_saved": true,
+      "partial_sources": [
+        "Melo et al. 2022/2023 PMC9836643 comparative morphology",
+        "Mikkola 2013 p.135 reused",
+        "IUCN 2025 T22688679A208663317"
       ],
-      "source_delta": {
-        "new": 2,
-        "reused": 3,
-        "corrected": 2
-      },
-      "full_prompt_saved": true,
-      "mikkola_accessible": false,
-      "juvenile_stage": "age-unknown flight-capable fledgling; observed flying and receiving food; exact age unknown"
+      "remaining_before_research_ready": [
+        "exact sections/page citation",
+        "source-ID deduplication",
+        "source index update",
+        "species card and full prompt"
+      ],
+      "resumed_from_expired_lease": true,
+      "resumed_at": "2026-11-01T04:27:00+08:00",
+      "resume_main_head": "569d50165db3a0be6d133b852d1ce77ad146eb2e"
     }
   },
   "previous_checkpoint": {

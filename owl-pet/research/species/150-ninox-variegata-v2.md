@@ -37,3 +37,11 @@ The older juvenile is explicitly age unknown: smaller, eyes gently closed, fluff
 - Adults near equal scale; juvenile distinct by softness/stage, not a miniature fully feathered adult.
 - Juvenile has short soft wing/tail, closed eyes and bilateral natural support.
 - No nest inference or unsupported flight. Science remains false until species-specific development and sex evidence exist.
+
+## Problem → evidence → change → recheck
+
+- **Problem:** first master gave the older juvenile a long pointed layered wing with crisp white adult-like marks.
+- **Evidence:** none of the read sources supplies species-specific juvenile remex geometry; the saved boundary explicitly forbids mature wing inference.
+- **Change:** one center-juvenile-only edit removed crisp spots, shortened and rounded the wing, softened it into body down and concealed the tail while preserving bilateral branch grip and closed eyes.
+- **Recheck:** full 1536×1024 image plus 570×720 juvenile and 1020×600 adult/support crops were opened. The wing now ends well above the feet and reads as compact/down-softened; title, exactly three birds, adult identity, near-equal adult scale and natural supports remain intact. `PASS_WITH_LIMITATIONS`; science remains false.
+- **Applied iteration rule:** for evidence-poor *Ninox* young, an instruction to “avoid adult remiges” is insufficient by itself; the edit prompt must also prohibit crisp pale covert rows and specify a body-blended wing edge ending above the feet. This was actually applied and visually effective here, but it is a visual-control rule—not new biological evidence—and should be checked against earlier evidence-poor juvenile plates rather than applied to species with documented formed wings.

@@ -12282,8 +12282,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T040500+0800-cycle-1",
-        "heartbeat_at": "2026-11-01T04:10:00+08:00",
-        "expires_at": "2026-11-01T04:25:00+08:00"
+        "heartbeat_at": "2026-11-01T04:15:00+08:00",
+        "expires_at": "2026-11-01T04:30:00+08:00"
       },
       "lease": null,
       "in_progress": {
@@ -12292,54 +12292,38 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T040500+0800-cycle-1",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "stage_evidence": {
-          "research_file": "owl-pet/research/species/173-otus-madagascariensis-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids": [
-            "TSO-RENE-THORSTROM-2009-P87-88",
-            "TSO-FUCHS-ETAL-2007-P408-418",
-            "TSO-ITIS-686657-2025",
-            "TSO-MIKKOLA-2013-P145"
-          ],
-          "source_delta": {
-            "new": 3,
-            "reused": 1,
-            "corrected": 3
-          },
-          "full_prompt_saved": true,
-          "mikkola_accessible": false,
-          "juvenile_stage": "age-unknown older immature with stronger-barred uppertail coverts and narrower pointed rectrix tips; not a chick; flight unknown"
+          "generated_master": "owl-pet/production/generated/173-otus-madagascariensis-v2-generated-master.png",
+          "git_blob": "7711404555ed2f261e5a2459372bb5fabbac905b",
+          "sha256": "30bca83cd3ab1d46eb0ed449a6623d78bfafb8fe2dd4a1eb2c680a8fc2a0b2fd",
+          "dimensions": "1536x1024",
+          "bytes": 3400565,
+          "generation_result": "success",
+          "generation_wait_seconds": 51.2,
+          "review_flag": "all three ear tufts are too tall/prominent for short-modest diagnosis; targeted edit required"
         }
       },
       "last_checkpoint": {
         "cycle": 1,
         "run_id": "20261101T040500+0800-cycle-1",
         "species": "Otus madagascariensis",
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-01T04:10:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-01T04:15:00+08:00",
         "credited_cycle": false,
         "evidence": {
-          "research_file": "owl-pet/research/species/173-otus-madagascariensis-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids": [
-            "TSO-RENE-THORSTROM-2009-P87-88",
-            "TSO-FUCHS-ETAL-2007-P408-418",
-            "TSO-ITIS-686657-2025",
-            "TSO-MIKKOLA-2013-P145"
-          ],
-          "source_delta": {
-            "new": 3,
-            "reused": 1,
-            "corrected": 3
-          },
-          "full_prompt_saved": true,
-          "mikkola_accessible": false,
-          "juvenile_stage": "age-unknown older immature with stronger-barred uppertail coverts and narrower pointed rectrix tips; not a chick; flight unknown"
+          "generated_master": "owl-pet/production/generated/173-otus-madagascariensis-v2-generated-master.png",
+          "git_blob": "7711404555ed2f261e5a2459372bb5fabbac905b",
+          "sha256": "30bca83cd3ab1d46eb0ed449a6623d78bfafb8fe2dd4a1eb2c680a8fc2a0b2fd",
+          "dimensions": "1536x1024",
+          "bytes": 3400565,
+          "generation_result": "success",
+          "generation_wait_seconds": 51.2,
+          "review_flag": "all three ear tufts are too tall/prominent for short-modest diagnosis; targeted edit required"
         }
       },
-      "last_stage": "RESEARCH_READY",
-      "updated_at": "2026-11-01T04:10:00+08:00",
+      "last_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-01T04:15:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12382,6 +12366,24 @@
             "full_prompt_saved": true,
             "mikkola_accessible": false,
             "juvenile_stage": "age-unknown older immature with stronger-barred uppertail coverts and narrower pointed rectrix tips; not a chick; flight unknown"
+          }
+        },
+        {
+          "cycle": 1,
+          "run_id": "20261101T040500+0800-cycle-1",
+          "species": "Otus madagascariensis",
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-01T04:15:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "generated_master": "owl-pet/production/generated/173-otus-madagascariensis-v2-generated-master.png",
+            "git_blob": "7711404555ed2f261e5a2459372bb5fabbac905b",
+            "sha256": "30bca83cd3ab1d46eb0ed449a6623d78bfafb8fe2dd4a1eb2c680a8fc2a0b2fd",
+            "dimensions": "1536x1024",
+            "bytes": 3400565,
+            "generation_result": "success",
+            "generation_wait_seconds": 51.2,
+            "review_flag": "all three ear tufts are too tall/prominent for short-modest diagnosis; targeted edit required"
           }
         }
       ]

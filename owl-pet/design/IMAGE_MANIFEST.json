@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T23:01:00+08:00",
+  "updated": "2026-11-01T00:08:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -16620,7 +16620,59 @@
         },
         "rejected_archive_commit": "9af895dec2e471cba3c597cf7fd2f281c94c3ed5"
       }
+    },
+    {
+      "id": "146-ninox-mindorensis-v2",
+      "path": "design/concepts/146-ninox-mindorensis-v2.png",
+      "species_id": 146,
+      "scientific_name": "Ninox mindorensis",
+      "historical_names": [
+        "Ninox philippensis mindorensis"
+      ],
+      "common_name": "Mindoro Boobook",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "status": "v2 科学校准修订，保留v1。成鸟雌雄近等体型；小型紧凑、短白眉、浅褐面盘、碎斑头顶、大片白肩斑、细密翼覆羽斑、黄虹膜、浅黄绿色嘴蜡膜、橄榄黄足黑爪。初图成鸟腹纹和头纹过度规则，edit1改为细窄、短断、间距不一的腹纹和碎斑头纹。幼鸟年龄未知、闭眼、翼尾基本隐藏、双足支撑，不声明虹膜、飞行或日龄。PASS_WITH_LIMITATIONS；juvenile development and sex-size direction unknown，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "LZBO-RASMUSSEN-2012-LEAD",
+        "MINDBOO-ITIS-2025",
+        "MINDBOO-CLEMENTS-2013",
+        "MINDBOO-OGILVIE-1896-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-10-31--146-ninox-mindorensis-v2-evidence-refresh",
+      "research_record": "research/species/146-ninox-mindorensis-v2.md",
+      "run_record": "production/runs/20261031T234400+0800-cycle-6.md",
+      "reviewed_at": "2026-11-01T00:04:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "a16f284a1b815efd229d9febb91d3a5fbc53cfb00ae4fc00229bfb07e518386e",
+      "size_bytes": 2544659,
+      "generated_path": "production/generated/146-ninox-mindorensis-v2-generated-master.png",
+      "generated_blob": "731fd09ab362c30bde9940875569b581c5c8cb1c",
+      "generated_sha256": "f5e0ff2f789009a3782fe4dfa3759e58e0702778010e76d5727c0bc5daea8a19",
+      "generated_size_bytes": 2552315,
+      "intermediate_edit_path": "production/generated/146-ninox-mindorensis-v2-edit1.png",
+      "intermediate_edit_blob": "e741b82531d4c4243b5d78c9183d177fc9cb6816",
+      "reviewed_path": "production/reviewed/146-ninox-mindorensis-v2-reviewed-master.png",
+      "reviewed_blob": "e741b82531d4c4243b5d78c9183d177fc9cb6816",
+      "reviewed_sha256": "a16f284a1b815efd229d9febb91d3a5fbc53cfb00ae4fc00229bfb07e518386e",
+      "reviewed_size_bytes": 2544659,
+      "review_crop_path": "production/review-crops/146-ninox-mindorensis-v2-juvenile.png",
+      "review_crop_blob": "62d084da60d539a40359bdc4f18e4135281c53e3",
+      "review_crop_sha256": "348d88fef38ad1f7860f834105d3af284ce0934fabf5de97a6227b56c251c603",
+      "review_crop_size_bytes": 353884,
+      "auxiliary_review_crop_path": "production/review-crops/146-ninox-mindorensis-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "4d5ff7e02eca42b40e2b742c318f40266f26a47f",
+      "auxiliary_review_crop_sha256": "f253df3df347471e5f2d1d3fefa5ffd536fb0f9f84f3be5fc3ea6d9c60eb2fa9",
+      "auxiliary_review_crop_size_bytes": 1637841,
+      "readback_pending": true,
+      "exact_readback": false,
+      "git_blob": "e741b82531d4c4243b5d78c9183d177fc9cb6816"
     }
   ],
-  "updated_at": "2026-10-31T23:42:00+08:00"
+  "updated_at": "2026-11-01T00:08:00+08:00"
 }

@@ -1463,3 +1463,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Corrected the opened v3/status mismatch by actually shortening/softening the fledgling wing and concealing the long tail.
 - Performed and rechecked one typography/label edit.
 - Archived generated, reviewed and crop evidence; science false.
+
+# 2026-10-31 — #101 Mountain Scops Owl v7 science revision
+
+- Opened the v6 master and found tall adult feather horns contrary to Taiwan government “small ear tuft” accounts; juvenile iris was also presented adult-bright despite being recorded as unknown.
+- Added `MOSO-MOA-BIRDGUIDE-2026` and `MOSO-TAIEOL-BIRDFAUNA-2013`; reused three existing sources without duplication.
+- Generated and inspected v7 plus a tight fledgling crop. Adult tufts are low/modest; adults remain near-equal; juvenile eyes are conservative dark-neutral, wings down-dominant/short and both feet supported. Science remains false.
+- Archived as `design/concepts/101-otus-spilocephalus-v7.png`; fixed-commit verification pending.

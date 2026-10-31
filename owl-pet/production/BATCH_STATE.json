@@ -9173,29 +9173,44 @@
         "version": 7,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T094630+0800-cycle-4",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261031T094630+0800-cycle-4.md",
-        "at": "2026-10-31T09:58:00+08:00",
+        "at": "2026-10-31T10:03:00+08:00",
         "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
-          "full_opened": true,
-          "crop_opened": true,
-          "reviewed": {
-            "path": "owl-pet/production/reviewed/101-otus-spilocephalus-v7-reviewed-master.png",
-            "bytes": 2890356,
-            "sha256": "1e48d114e2170456a3345603c9f14cdbb254b0eca1f7f4d3f82f2c58453c8f00"
+          "assets": {
+            "concept": {
+              "path": "owl-pet/design/concepts/101-otus-spilocephalus-v7.png",
+              "sha": "444e2c3b73c4a81877067df6909f1cd68fdd58b8",
+              "size": 2890356
+            },
+            "generated": {
+              "path": "owl-pet/production/generated/101-otus-spilocephalus-v7-generated-master.png",
+              "sha": "444e2c3b73c4a81877067df6909f1cd68fdd58b8",
+              "size": 2890356
+            },
+            "reviewed": {
+              "path": "owl-pet/production/reviewed/101-otus-spilocephalus-v7-reviewed-master.png",
+              "sha": "444e2c3b73c4a81877067df6909f1cd68fdd58b8",
+              "size": 2890356
+            },
+            "review_crop": {
+              "path": "owl-pet/production/review-crops/101-otus-spilocephalus-v7-fledgling.png",
+              "sha": "1e2061594898fed7a9ca80709a7bc6b45b62e32a",
+              "size": 711840
+            }
           },
-          "crop": {
-            "path": "owl-pet/production/review-crops/101-otus-spilocephalus-v7-fledgling.png",
-            "bytes": 711840,
-            "sha256": "5537230a1c0f6922e50ce02b3175b7588cca3178162f538c3938bcfe2fd385f0"
+          "manifest_counts": {
+            "legacy": 602,
+            "design": 601,
+            "production": 592
           },
+          "unique_species": "175/251",
           "scientifically_verified": false,
+          "fixed_readback_pending": true,
           "cycle_credit": false
         }
       },
-      "last_updated_at": "2026-10-31T09:58:00+08:00",
+      "last_updated_at": "2026-10-31T10:03:00+08:00",
       "audit_notes": [
         "2026-10-31T09:27:00+08:00: cycle1 #97 Lophostrix cristata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; v3 actual plate opened; missing repository number97 identified; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T09:34:00+08:00: cycle1 #97 v4 RESEARCH_READY; official erratum excludes Rocha2014 juvenile/flight evidence from Lophostrix; Mikkola pp358–359 and Birds of Bolivia retain white mesoptile/dark face/brown developed folded wings; sources new2/reused2/corrected1; full prompt saved; lease renewed; no credit.",
@@ -9218,7 +9233,8 @@
         "2026-10-31T09:46:30+08:00: cycle4 #101 Otus spilocephalus v7 SCIENCE_REVISION STARTED; v1-v6 preserved; v6 actual plate opened; adult ear tufts exceed official Taiwan small-tuft description and juvenile iris is unresolved yet adult-bright; 15-minute lease acquired; no credit.",
         "2026-10-31T09:51:00+08:00: cycle4 #101 v7 RESEARCH_READY; new2/reused3/corrected1. Official MOA and TaiEOL accounts support small adult ear tufts; juvenile iris chronology remains unknown. Full prompt/source summaries saved; lease renewed; science false; no credit.",
         "2026-10-31T09:55:00+08:00: cycle4 #101 v7 IMAGE_GENERATED after 42.1-second edit; 1536x1024 PNG persisted; full-frame opened and requested corrections present; crop review pending; no credit.",
-        "2026-10-31T09:58:00+08:00: cycle4 #101 v7 REVIEWED with no further edit. Full plate and 560x760 crop opened: exact text/count, low short adult tufts, near-equal adults, dark-neutral juvenile iris, short down-dominant wing and bilateral support pass. PASS_WITH_LIMITATIONS; science false; no credit."
+        "2026-10-31T09:58:00+08:00: cycle4 #101 v7 REVIEWED with no further edit. Full plate and 560x760 crop opened: exact text/count, low short adult tufts, near-equal adults, dark-neutral juvenile iris, short down-dominant wing and bilateral support pass. PASS_WITH_LIMITATIONS; science false; no credit.",
+        "2026-10-31T10:03:00+08:00: cycle4 #101 v7 ARCHIVED as legacy602/design601/production592; concept/generated/reviewed 444e2c3b73c4a81877067df6909f1cd68fdd58b8/2890356B, crop 1e2061594898fed7a9ca80709a7bc6b45b62e32a/711840B; fixed readback pending; unique175/251; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-owl-production",
@@ -9227,8 +9243,8 @@
         "species": "Otus spilocephalus",
         "species_id": 101,
         "version": 7,
-        "heartbeat_at": "2026-10-31T09:58:00+08:00",
-        "expires_at": "2026-10-31T10:13:00+08:00"
+        "heartbeat_at": "2026-10-31T10:03:00+08:00",
+        "expires_at": "2026-10-31T10:18:00+08:00"
       },
       "lease": {
         "owner": "codex-owl-production",
@@ -9237,8 +9253,8 @@
         "species": "Otus spilocephalus",
         "species_id": 101,
         "version": 7,
-        "heartbeat_at": "2026-10-31T09:58:00+08:00",
-        "expires_at": "2026-10-31T10:13:00+08:00"
+        "heartbeat_at": "2026-10-31T10:03:00+08:00",
+        "expires_at": "2026-10-31T10:18:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -9247,7 +9263,7 @@
         "version": 7,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T094630+0800-cycle-4",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261031T094630+0800-cycle-4.md"
       }
     }

@@ -2,7 +2,7 @@
 
 ## Current representative
 
-- Current version: [v6](../../design/concepts/101-otus-spilocephalus-v6.jpg)
+- Current version: [v7](../../design/concepts/101-otus-spilocephalus-v7.png)
 - Design scope: Taiwan subspecies *Otus spilocephalus hambroecki*
 - Historical names: *Ephialtes spilocephalus*, *Ephialtes Hambroecki*; *Otus stresemanni* appears in older taxonomic treatments.
 - Scientific status: concept reviewed, not scientifically verified.
@@ -20,4 +20,6 @@ V6 depicts one age-unknown older fledgling beside a natural hollow. It retains c
 
 ## Sources and versions
 
-See [v6 research](../../research/101-otus-spilocephalus-v6.md), [source index](../../research/SOURCE_INDEX.md#2026-10-29--101-otus-spilocephalus-hambroecki-v6-evidence-increment), and [run record](../../production/runs/20261029T1934+0800-cycle-4.md). Versions v1–v5 and duplicate-number dossier #184 remain preserved as historical records.
+V7 opened the actual v6 plate and corrected two evidence-boundary problems: the adults' tall horn-like tufts were reduced to the small ear tufts described by the Taiwan Ministry of Agriculture and Taiwan Encyclopedia of Life, and the older fledgling's unsupported adult-bright iris was changed to a conservative dark-neutral presentation. The latter is not a claim that juveniles have dark eyes; species-specific iris chronology remains unknown.
+
+See [v7 research](../../research/species/101-otus-spilocephalus-v7.md), [source index](../../research/SOURCE_INDEX.md#2026-10-31--101-otus-spilocephalus-hambroecki-v7-small-tuft-correction), and [run record](../../production/runs/20261031T094630+0800-cycle-4.md). Versions v1–v6 and duplicate-number dossier #184 remain preserved as historical records.

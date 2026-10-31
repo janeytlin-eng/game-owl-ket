@@ -637,3 +637,11 @@ A secondary statement that females are larger must not become a fixed visual mul
 ### Status-to-image consistency rule applied to #100 (2026-10-31)
 
 A prior status sentence is not proof that an edit is visible. Reopen the actual archived plate and compare the claimed correction against anatomy. If the image still violates the boundary, create a new version and preserve the old record. Applied to *Strix huhula* v4 after v3 still showed adult-proportioned juvenile wing/tail.
+
+## Verified prompt rule candidate — small-tuft species and unknown juvenile iris (2026-10-31)
+
+- Problem discovered: a prompt that says “short but visible” plus “avoid oversized” can still yield tall horn-like tufts, and a model may copy bright adult iris color onto a fledgling when the juvenile iris is unknown.
+- Evidence: Taiwan Ministry of Agriculture and Taiwan Encyclopedia of Life describe *O. s. hambroecki* as having small ear tufts; species-specific sources read in this cycle do not establish juvenile iris chronology.
+- Applied modification: require “small, low, modest triangular” adult tufts that do not project high above the crown; explicitly separate adult-supported yellow iris from a subdued neutral juvenile unknown cue.
+- Actual validation: applied once to #101 v7, then checked at full 1536×1024 and on a 560×760 fledgling crop. The tall horns and adult-bright juvenile iris were removed without changing adult scale, fledgling support or wing-stage boundary.
+- Scope: validated for this plate only. Do not universalize dark juvenile eyes or the exact tuft geometry to other species; reuse the explicit adult/juvenile iris separation whenever evidence is asymmetric.

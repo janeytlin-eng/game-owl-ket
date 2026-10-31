@@ -2686,3 +2686,5 @@ Fixed readback 2026-10-31T06:32:00+08:00: [archive `b9c9847113bacdd0e95f16cf206f
 
 
 - **#100 *Strix huhula* v4** — SCIENCE_REVISION with shorter rounded fledgling wing, mostly concealed tail and restored labels; PASS_WITH_LIMITATIONS; science false. See `concepts/100-strix-huhula-v4.png`.
+
+- **#101 *Otus spilocephalus hambroecki* v7** — SCIENCE_REVISION after opening v6: official Taiwan small-tuft evidence applied to both adults; unsupported adult-bright juvenile iris replaced by a conservative dark-neutral unknown cue. Full frame plus 560×760 fledgling crop passed; exact age/iris chronology/sex and flight threshold remain unknown; science false. See `concepts/101-otus-spilocephalus-v7.png`.

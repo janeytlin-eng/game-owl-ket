@@ -11533,8 +11533,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261101T0330+0800-cycle-6",
-        "heartbeat_at": "2026-11-01T03:35:00+08:00",
-        "expires_at": "2026-11-01T03:50:00+08:00"
+        "heartbeat_at": "2026-11-01T03:40:00+08:00",
+        "expires_at": "2026-11-01T03:55:00+08:00"
       },
       "lease": null,
       "in_progress": {
@@ -11543,56 +11543,40 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261101T0330+0800-cycle-6",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "stage_evidence": {
-          "research_file": "owl-pet/research/species/171-glaucidium-palmarum-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids": [
-            "CPO-HOWELL-ROBBINS-1995-P17-20",
-            "CPO-BUCHANAN-1964-P104-106",
-            "CPO-MEDINA-ETAL-2022-P8-9",
-            "CPO-MIKKOLA-2013-P385-386",
-            "CPO-BITRAN-2018-JUV"
-          ],
-          "source_delta": {
-            "new": 3,
-            "reused": 2,
-            "corrected": 3
-          },
-          "full_prompt_saved": true,
-          "mikkola_accessible": false,
-          "juvenile_stage": "age-unknown mesoptile with unspotted grey crown, sparse forehead flecks, soft short supported wing and mostly concealed tail; no age or flight claim"
+          "generated_master": "owl-pet/production/generated/171-glaucidium-palmarum-v2-generated-master.png",
+          "git_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
+          "sha256": "85f33a2b14392733c7c37dc7b025587937e443805fe2f6c37a39c2cde3783f12",
+          "dimensions": "1536x1024",
+          "bytes": 2803707,
+          "prompt_source": "owl-pet/research/species/171-glaucidium-palmarum-v2.md",
+          "generation_result": "success",
+          "generation_wait_seconds": 39.3,
+          "review_flag": "juvenile retains a visibly organized set of pale adult-like wing-covert spots; targeted softening edit required"
         }
       },
       "last_checkpoint": {
         "cycle": 6,
         "run_id": "20261101T0330+0800-cycle-6",
         "species": "Glaucidium palmarum",
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-01T03:35:00+08:00",
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-01T03:40:00+08:00",
         "credited_cycle": false,
         "evidence": {
-          "research_file": "owl-pet/research/species/171-glaucidium-palmarum-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "source_ids": [
-            "CPO-HOWELL-ROBBINS-1995-P17-20",
-            "CPO-BUCHANAN-1964-P104-106",
-            "CPO-MEDINA-ETAL-2022-P8-9",
-            "CPO-MIKKOLA-2013-P385-386",
-            "CPO-BITRAN-2018-JUV"
-          ],
-          "source_delta": {
-            "new": 3,
-            "reused": 2,
-            "corrected": 3
-          },
-          "full_prompt_saved": true,
-          "mikkola_accessible": false,
-          "juvenile_stage": "age-unknown mesoptile with unspotted grey crown, sparse forehead flecks, soft short supported wing and mostly concealed tail; no age or flight claim"
+          "generated_master": "owl-pet/production/generated/171-glaucidium-palmarum-v2-generated-master.png",
+          "git_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
+          "sha256": "85f33a2b14392733c7c37dc7b025587937e443805fe2f6c37a39c2cde3783f12",
+          "dimensions": "1536x1024",
+          "bytes": 2803707,
+          "prompt_source": "owl-pet/research/species/171-glaucidium-palmarum-v2.md",
+          "generation_result": "success",
+          "generation_wait_seconds": 39.3,
+          "review_flag": "juvenile retains a visibly organized set of pale adult-like wing-covert spots; targeted softening edit required"
         }
       },
-      "last_stage": "RESEARCH_READY",
-      "updated_at": "2026-11-01T03:35:00+08:00",
+      "last_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-01T03:40:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12181,6 +12165,25 @@
             "full_prompt_saved": true,
             "mikkola_accessible": false,
             "juvenile_stage": "age-unknown mesoptile with unspotted grey crown, sparse forehead flecks, soft short supported wing and mostly concealed tail; no age or flight claim"
+          }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261101T0330+0800-cycle-6",
+          "species": "Glaucidium palmarum",
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-01T03:40:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "generated_master": "owl-pet/production/generated/171-glaucidium-palmarum-v2-generated-master.png",
+            "git_blob": "fb70a05fc8c6dfbcadc36d1a70ffa128c23ba41f",
+            "sha256": "85f33a2b14392733c7c37dc7b025587937e443805fe2f6c37a39c2cde3783f12",
+            "dimensions": "1536x1024",
+            "bytes": 2803707,
+            "prompt_source": "owl-pet/research/species/171-glaucidium-palmarum-v2.md",
+            "generation_result": "success",
+            "generation_wait_seconds": 39.3,
+            "review_flag": "juvenile retains a visibly organized set of pale adult-like wing-covert spots; targeted softening edit required"
           }
         }
       ]

@@ -1,4 +1,6 @@
-## 2026-10-31 #133 *Megascops atricapilla* v3 ARCHIVED — fixed readback pending
+## 2026-10-31 #133 *Megascops atricapilla* v3 ARCHIVE BINARY REPAIR — fixed readback pending
+
+- Rejected archive candidate `791563f9ba0300e82b0ddedd7ca1561264684cf9`: immutable tree exposed all six new PNG paths as 500,000-byte truncations. Full blobs were retransmitted; no cycle credit until a new immutable tree shows exact bytes.
 
 - SCIENCE_REVISION; v1/v2 preserved. New4/reused2/corrected2; one imagegen juvenile-wing/tail edit after actual full/crop inspection.
 - Adults now use distinct near-equal-height poses; the female is only subtly fuller. The direct-photo later juvenile keeps yellow eyes, tiny tufts, formed wing/tail and two-foot support; regular adult-like white wing tiles were softened.

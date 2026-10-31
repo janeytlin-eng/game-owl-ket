@@ -9184,23 +9184,43 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T102620+0800-cycle-5",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md",
-        "at": "2026-10-31T10:42:00+08:00",
+        "at": "2026-10-31T10:46:00+08:00",
         "evidence": {
-          "image_path": "owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png",
-          "git_blob": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
-          "size_bytes": 2914132,
-          "sha256": "8a387c5d770ffdf4a72027ca2ab93b2b9eceaa5cb4300b8db7569cb6da225c48",
-          "dimensions": "1536x1024",
-          "generation_seconds": 71.1,
+          "generated": {
+            "path": "owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png",
+            "git_blob": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
+            "size": 2914132
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/102-strix-nigrolineata-v3-reviewed-master.png",
+            "git_blob": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
+            "size": 2914132
+          },
+          "review_crop": {
+            "path": "owl-pet/production/review-crops/102-strix-nigrolineata-v3-juvenile.png",
+            "git_blob": "980c0520d9ef5571faec58a75669046949c1261a",
+            "size": 795757,
+            "sha256": "b5f9491094df8a0747b9ad46a023c820789c09b2bf017e8d956116373bd6f27e"
+          },
+          "review_result": "PASS_WITH_LIMITATIONS",
           "edit_count": 1,
+          "second_edit_needed": false,
           "full_frame_opened": true,
-          "review_pending": true,
-          "scientifically_verified": false
+          "crop_opened": true,
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact juvenile age",
+            "juvenile feather sequence",
+            "flight threshold",
+            "population-wide sex ratios",
+            "universal nest choice",
+            "exact toe geometry"
+          ]
         }
       },
-      "last_updated_at": "2026-10-31T10:42:00+08:00",
+      "last_updated_at": "2026-10-31T10:46:00+08:00",
       "audit_notes": [
         "2026-10-31T09:27:00+08:00: cycle1 #97 Lophostrix cristata v4 SCIENCE_REVISION STARTED; v1-v3 preserved; v3 actual plate opened; missing repository number97 identified; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T09:34:00+08:00: cycle1 #97 v4 RESEARCH_READY; official erratum excludes Rocha2014 juvenile/flight evidence from Lophostrix; Mikkola pp358–359 and Birds of Bolivia retain white mesoptile/dark face/brown developed folded wings; sources new2/reused2/corrected1; full prompt saved; lease renewed; no credit.",
@@ -9229,7 +9249,8 @@
         "2026-10-31T10:11:00+08:00: cycle4 #101 v7 VERIFIED at repaired fixed archive 625738f254f26bb6b018b5a39f6952da8754e326; non-truncated 2295-entry tree, exact full master/crop/manifest/support tuples passed after rejecting the truncated first transfer. Batch4/6 next5; unique175/251; science false; lease released.",
         "2026-10-31T10:26:20+08:00: cycle5 #102 Strix nigrolineata v3 SCIENCE_REVISION STARTED; v1-v2 preserved; 15-minute lease acquired; no cycle credit.",
         "2026-10-31T10:34:00+08:00: cycle5 #102 v3 RESEARCH_READY; USDA Gerhardt1997 quantified one Tikal pair and reports similar visible difference in other pairs; adult scale boundary corrected to subtly fuller/slightly larger female without exaggerated height; juvenile remains age-unknown mesoptile; new2/reused3/corrected1; full edit prompt saved; lease renewed; no credit.",
-        "2026-10-31T10:42:00+08:00: cycle5 #102 v3 IMAGE_GENERATED after 71.1-second evidence-led edit; 1536x1024 PNG persisted as blob e46a5d47ba8efb722805fc2a7143f99975c6f902; full-frame opened; adult dorsal speckling reduced and restrained female-size direction present; detailed crop review pending; no credit."
+        "2026-10-31T10:42:00+08:00: cycle5 #102 v3 IMAGE_GENERATED after 71.1-second evidence-led edit; 1536x1024 PNG persisted as blob e46a5d47ba8efb722805fc2a7143f99975c6f902; full-frame opened; adult dorsal speckling reduced and restrained female-size direction present; detailed crop review pending; no credit.",
+        "2026-10-31T10:46:00+08:00: cycle5 #102 v3 REVIEWED with no second edit. Full 1536x1024 plate and 600x760 juvenile crop opened: exact three-bird labels, reduced adult dorsal spotting, restrained female fullness, horizontal ventral bars, and juvenile bilateral/belly support with short soft wings pass. PASS_WITH_LIMITATIONS; science false; no credit."
       ],
       "active_lease": {
         "owner": "codex-owl-production",
@@ -9238,8 +9259,8 @@
         "species": "Strix nigrolineata",
         "species_id": 102,
         "version": 3,
-        "heartbeat_at": "2026-10-31T10:42:00+08:00",
-        "expires_at": "2026-10-31T10:57:00+08:00"
+        "heartbeat_at": "2026-10-31T10:46:00+08:00",
+        "expires_at": "2026-10-31T11:01:00+08:00"
       },
       "lease": {
         "owner": "codex-owl-production",
@@ -9248,8 +9269,8 @@
         "species": "Strix nigrolineata",
         "species_id": 102,
         "version": 3,
-        "heartbeat_at": "2026-10-31T10:42:00+08:00",
-        "expires_at": "2026-10-31T10:57:00+08:00"
+        "heartbeat_at": "2026-10-31T10:46:00+08:00",
+        "expires_at": "2026-10-31T11:01:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -9258,7 +9279,7 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_id": "20261031T102620+0800-cycle-5",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md"
       }
     }
@@ -9270,8 +9291,8 @@
     "species": "Strix nigrolineata",
     "species_id": 102,
     "version": 3,
-    "heartbeat_at": "2026-10-31T10:42:00+08:00",
-    "expires_at": "2026-10-31T10:57:00+08:00"
+    "heartbeat_at": "2026-10-31T10:46:00+08:00",
+    "expires_at": "2026-10-31T11:01:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -9404,7 +9425,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-10-31T10:42:00+08:00",
+  "updated_at": "2026-10-31T10:46:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -9420,10 +9441,10 @@
     "species": "Strix nigrolineata",
     "species_id": 102,
     "version": 3,
-    "heartbeat_at": "2026-10-31T10:42:00+08:00",
-    "expires_at": "2026-10-31T10:57:00+08:00"
+    "heartbeat_at": "2026-10-31T10:46:00+08:00",
+    "expires_at": "2026-10-31T11:01:00+08:00"
   },
-  "last_updated_at": "2026-10-31T10:42:00+08:00",
+  "last_updated_at": "2026-10-31T10:46:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -9899,7 +9920,7 @@
     "version": 3,
     "action": "SCIENCE_REVISION",
     "run_id": "20261031T102620+0800-cycle-5",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md"
   },
   "last_checkpoint": {
@@ -9909,20 +9930,40 @@
     "version": 3,
     "action": "SCIENCE_REVISION",
     "run_id": "20261031T102620+0800-cycle-5",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261031T102620+0800-cycle-5.md",
-    "at": "2026-10-31T10:42:00+08:00",
+    "at": "2026-10-31T10:46:00+08:00",
     "evidence": {
-      "image_path": "owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png",
-      "git_blob": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
-      "size_bytes": 2914132,
-      "sha256": "8a387c5d770ffdf4a72027ca2ab93b2b9eceaa5cb4300b8db7569cb6da225c48",
-      "dimensions": "1536x1024",
-      "generation_seconds": 71.1,
+      "generated": {
+        "path": "owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png",
+        "git_blob": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
+        "size": 2914132
+      },
+      "reviewed": {
+        "path": "owl-pet/production/reviewed/102-strix-nigrolineata-v3-reviewed-master.png",
+        "git_blob": "e46a5d47ba8efb722805fc2a7143f99975c6f902",
+        "size": 2914132
+      },
+      "review_crop": {
+        "path": "owl-pet/production/review-crops/102-strix-nigrolineata-v3-juvenile.png",
+        "git_blob": "980c0520d9ef5571faec58a75669046949c1261a",
+        "size": 795757,
+        "sha256": "b5f9491094df8a0747b9ad46a023c820789c09b2bf017e8d956116373bd6f27e"
+      },
+      "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 1,
+      "second_edit_needed": false,
       "full_frame_opened": true,
-      "review_pending": true,
-      "scientifically_verified": false
+      "crop_opened": true,
+      "scientifically_verified": false,
+      "unknowns": [
+        "exact juvenile age",
+        "juvenile feather sequence",
+        "flight threshold",
+        "population-wide sex ratios",
+        "universal nest choice",
+        "exact toe geometry"
+      ]
     }
   }
 }

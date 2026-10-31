@@ -38,3 +38,8 @@ Exact juvenile age, feather sequence and flight threshold; population-wide sex r
 - IMAGE_GENERATED 2026-10-31T10:42:00+08:00; built-in imagegen edit 71.1 s, edit count 1.
 - Persistent generated master: `owl-pet/production/generated/102-strix-nigrolineata-v3-generated-master.png`; blob `e46a5d47ba8efb722805fc2a7143f99975c6f902`; full-frame preliminary check passed.
 - Review and any necessary targeted correction remain pending.
+
+
+## Review — 2026-10-31T10:46:00+08:00
+
+Problem → evidence → modification → recheck: v2 had excessive white crown/mantle/wing speckling and its near-equal adult display did not use the newly read one-pair dimorphism data. V3 reduced dorsal white pattern while retaining legitimate brow/ruff/flight/tail bars and made the female subtly fuller/slightly larger. Full frame and juvenile crop were opened; adult ID, text, stage, feet/belly support and short soft juvenile wing pass. No second edit. PASS_WITH_LIMITATIONS; scientifically_verified=false.

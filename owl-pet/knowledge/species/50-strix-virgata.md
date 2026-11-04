@@ -80,3 +80,13 @@
 - Passed: exact text/count; pale-morph adults with dark eyes/yellowish bills; fuller but comparable-height female; age-unknown dull-yellow mesoptile with whitish disc, pale pink bill, soft folded wing, short/hidden tail and bilateral tree-cavity support.
 - No ground-burrow leakage occurred. Files: `design/concepts/50-strix-virgata-v4.png`, `production/generated/50-strix-virgata-v4-generated-master.png`, `production/reviewed/50-strix-virgata-v4-reviewed-master.png`.
 - PASS_WITH_LIMITATIONS; current-name locality gate visually validated for this plate only. Science false.
+
+
+## v5 production correction (2026-11-05)
+
+- Preserves v4 and adds a full-resolution pale-morph / age-unknown-mesoptile master.
+- Added Clements v2026 and current ITIS *squamulata* mapping; re-read Gerhardt adult morphometrics and breeding study, Owl Pages identification and repository Mikkola evidence.
+- Female mass is much greater but measured wing/tail differences are c.5–6%; v5 therefore shows fullness with near-equal crown height.
+- Juvenile remains dull-yellow, pink-billed, cavity-supported, soft-winged, hidden-tailed and without locomotor claim.
+- Whole image and two crops passed on the first render; no edit required.
+- Evidence: `research/species/50-strix-virgata-v5.md`; review: `research/reviews/50-strix-virgata-v5-review.md`.

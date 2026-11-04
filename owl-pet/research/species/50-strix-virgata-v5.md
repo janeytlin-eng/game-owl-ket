@@ -83,4 +83,4 @@ Exact title/count/labels; dark-eyed untufted pale-morph adults; vertical ventral
 
 ## Stage
 
-REVIEWED; original generation passed whole-image and crop checks without edit; archive pending. PASS_WITH_LIMITATIONS; scientifically_verified=false.
+VERIFIED on immutable archive commit `089c38005e951d7c190424f7b926035df735b198`; original generation passed whole-image and crop checks without edit. PASS_WITH_LIMITATIONS; scientifically_verified=false.

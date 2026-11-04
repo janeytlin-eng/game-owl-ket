@@ -19907,7 +19907,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MOWL-CLEMENTS-2026",
         "MOWL-ITIS-SQUAMULATA-686993-2026",
@@ -19936,12 +19936,45 @@
       "juvenile_review_crop": "production/review-crops/50-strix-virgata-v5-juvenile.png",
       "juvenile_review_blob": "832a52d55cf695f184a685347edfa2a7caa25d1d",
       "reviewed_at": "2026-11-05T06:08:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 2105689,
       "adults_review_sha256": "a7fc1b201d670a6ed711052e17dfccc31b14a37e0a62dadcda72cd1eaa121597",
       "juvenile_review_size_bytes": 984190,
-      "juvenile_review_sha256": "1fabeb62a203e29e6e710a7115cedca51162eafd91da306da1c96b7789f62c4c"
+      "juvenile_review_sha256": "1fabeb62a203e29e6e710a7115cedca51162eafd91da306da1c96b7789f62c4c",
+      "archive_commit": "089c38005e951d7c190424f7b926035df735b198",
+      "archive_tree": "8a113b217f9d4034e47f367d788e22fc00b76f73",
+      "verified_at": "2026-11-05T06:15:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "089c38005e951d7c190424f7b926035df735b198",
+        "tree_sha": "8a113b217f9d4034e47f367d788e22fc00b76f73",
+        "paths_verified": 13,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/50-strix-virgata-v5.png",
+          "blob": "3b00d08a6b763d0882e32e0bce0a6c4bea1e03e0",
+          "size_bytes": 3153162
+        },
+        "adult_crop": {
+          "path": "production/review-crops/50-strix-virgata-v5-adults.png",
+          "blob": "2c661b1562599644f486f242e8d17bcaa4fbe10a",
+          "size_bytes": 2105689
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/50-strix-virgata-v5-juvenile.png",
+          "blob": "832a52d55cf695f184a685347edfa2a7caa25d1d",
+          "size_bytes": 984190
+        },
+        "manifest_counts": {
+          "design_image": 675,
+          "design_legacy": 676,
+          "production": 666
+        }
+      },
+      "verification_result": "Exact seven image path/blob tuples, three manifests and three evidence records read back from immutable archive commit."
     }
   ],
-  "updated_at": "2026-11-05T06:10:00+08:00"
+  "updated_at": "2026-11-05T06:15:00+08:00"
 }

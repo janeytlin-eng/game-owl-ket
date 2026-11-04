@@ -744,3 +744,12 @@ A report that recently fledged young occur in a month supports only a broad bree
 - **Applied:** #157 v3 retained a shallow stick platform over river water, reduced its eyrie-like mass, and used pale down-rich mesoptile with short buried wing contours and hidden tail.
 - **Verified in this cycle:** original-size plate and two review crops passed support, limb, title, adult-ID and juvenile-wing checks without an edit. This validates the rule for this asset only, not as a universal fishing-owl developmental sequence.
 - **Backcheck queue:** future reviews of other *Scotopelia*/*Ketupa* plates should compare nest type to their own evidence rather than inherit #157.
+
+
+## 2026-11-04 — Corrupt-master recovery plus nestling-evidence rule (#156 v3)
+
+- **Problem found:** a 1536×1024 PNG can have valid dimensions and a manifest hash yet still render only a narrow top strip with a blank body; metadata alone is not an image review.
+- **Evidence:** original-resolution browser inspection of #156 v2 at its immutable archive commit exposed the corruption. A primary 1889 nestling specimen note separately supports white/isabelline down and a black bill but not an exact full-body age reconstruction.
+- **Rule added:** before revising a recovered asset, render the actual pixels at original resolution. If corrupt, classify the work as archive repair plus science revision, retain the failed version, and generate a complete replacement. For partial-specimen evidence, transfer only observed traits and keep pose/age as explicit inference.
+- **Applied:** #156 v3 rebuilt the whole plate; the young is labeled older and age-unknown, fully cavity-supported, with white/isabelline down and black bill.
+- **Verified in this cycle:** complete master and two crops passed pixel-completeness, title, limb/support, adult identity and juvenile-wing checks without an edit. This validates the recovery check for #156 only.

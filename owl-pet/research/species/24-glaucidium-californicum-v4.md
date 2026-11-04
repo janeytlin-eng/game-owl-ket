@@ -37,3 +37,7 @@ Avoid: extra birds, ear tufts, yellow adult-size nape eyes instead of false-eye 
 ## Review checklist
 
 Exactly three birds/text; no ear tufts; adult yellow eyes/bill and nape eyespots; near-equal adults; juvenile smaller, fully branch-supported, reduced spotting and shorter tail; no adult-length tail, independent prey capture or open-wing flight.
+
+## Post-generation review
+
+First render's juvenile wing/tail were too adult-like. One targeted edit shortened and softened the tail/wing while preserving adults and labels. Full 1536×1024 plus adult/juvenile crops reopened; PASS_WITH_LIMITATIONS, science false. See `owl-pet/research/reviews/24-glaucidium-californicum-v4-review.md`.

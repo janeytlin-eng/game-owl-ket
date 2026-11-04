@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T15:40:00+08:00",
+  "updated": "2026-11-04T15:43:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18061,10 +18061,31 @@
       "auxiliary_review_crop_size_bytes": 1356003,
       "auxiliary_review_crop_sha256": "1360cc16c6bea310f814471dbdced471e2b8f87a1eb2fc55b83050e1d2e5fb41",
       "archive_note": "Initial full image was opened and rejected for long horn-like tufts and an adult-hard, regularly spotted juvenile wing. One targeted imagegen edit shortened all tufts and compacted/softened only the juvenile wing and tail. Final full plate and two original-detail crops were opened. Science remains false.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": "PENDING"
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "3d50d53c3112bf474b0154e1aec4e08cddf694cc",
+      "fixed_archive_commit": "3d50d53c3112bf474b0154e1aec4e08cddf694cc",
+      "verified_at": "2026-11-04T15:43:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "method": "immutable archive commit exact path/blob/size in non-truncated recursive tree; three complete manifests parsed; local original full/crop visual inspection",
+        "tree_sha": "81f83524d9292d6356ccc6acd0ff1fca56ff80c5",
+        "tree_entries": 2656,
+        "recursive_tree_truncated": false,
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/179-otus-mayottensis-v2.png",
+          "blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+          "size_bytes": 2770954
+        },
+        "manifest_counts": {
+          "design_image": 646,
+          "design_legacy": 647,
+          "production": 637
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-04T15:40:00+08:00"
+  "updated_at": "2026-11-04T15:43:00+08:00"
 }

@@ -833,3 +833,31 @@
 - Corrected boundaries: (1) South Korean fledging is not a Taiwanese age/morphology key; (2) Mikkola's adjacent *S. newarensis* very-white juvenile remains excluded.
 - Unknown: exact juvenile age, feather sequence, flight/climbing ability, sex dimensions and cross-population transfer.
 - Uploaded Mikkola guide was unavailable and was not represented as freshly read.
+
+## 2026-11-05 — #49 *Strix woodfordii* v5 — *nigricantior* later-dependent juvenile boundary
+
+### AWOO-ABC-GALLERY-2018
+- **Title / institution / accessed:** African Wood Owl image database — African Bird Club; accessed 2026-11-05.
+- **URL:** https://www.africanbirdclub.org/afbid/search/browse/species/840
+- **Type / scope:** identified field-photo metadata; young bird, young owls and East African *S. w. nigricantior*.
+- **Facts:** separately captioned young bird ready to leave a nest at Bayanga (December 2018), *nigricantior* at Lake Duluti, Tanzania (February 2017), and young owls near Arusha (February 2006).
+- **Limits:** captions do not give hatch age, sex, feather chronology or movement test; separate individuals cannot be composited as one measured sequence.
+- **Design use:** older supported-young and East African adult appearance boundaries only.
+- **Links:** `research/species/49-strix-woodfordii-v5.md`; planned concept v5; run `production/runs/20261105T052900+0800-cycle-5.md`.
+
+### AWOO-SABAP1-MENDELSOHN-P578-579
+- **Title / author / year:** Wood Owl species account — J. M. Mendelsohn, Southern African Bird Atlas.
+- **URL / pages / accessed:** https://sabap2.birdmap.africa/docs/sabap1/394.pdf ; printed pp.578–579; accessed 2026-11-05.
+- **Type / scope:** regional atlas account; habitat, nest-site use, movement and nominate distribution.
+- **Facts:** dense broadleaved, coastal, riverine and montane forest/woodland; large natural tree cavities reused; local dispersal by young; nominate range includes southern Tanzania.
+- **Limits:** ecological account, mainly southern African/nominate; no juvenile plumage sequence or sexed dimensions.
+- **Design use:** forest/cavity context only; not juvenile age or wing shape.
+
+### Re-read, mapping and correction
+- Re-read `AWOO-SANBI-2018`: adults alike, dark-eyed and untufted with yellow bill/cere; pale-rufous juvenile down may persist up to five months; 30–37 d in nest and good flight around 46 d are southern-African synthesis, not a *nigricantior* individual clock.
+- Re-read `AWOO-AVIBASE-NIGRICANTIOR-2026`: accepted *S. w. nigricantior*, protonym *Syrnium nigricantius*, type locality Mpwapwa and East African range.
+- Reused repository-indexed `AWOO-MIKKOLA-2013-P320-321`; uploaded guide was unavailable and was not represented as freshly read.
+- Corrected boundaries: adult average mass does not become a standing-height rule; retained down and formed folded wing/tail may coexist in a later juvenile only with species-specific support and do not establish flight.
+- New verified sources: 2; re-read/reused verified sources: 3; corrected boundaries: 2.
+- Unknown: exact juvenile age/sex, remex and rectrix timing, movement/flight ability, sexed linear dimensions and cross-subspecies transfer.
+

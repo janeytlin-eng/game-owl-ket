@@ -1,3 +1,9 @@
+## 2026-11-04 #127 *Megascops albogularis* v3 VERIFIED
+
+- Corrected archive `677738031740e1d1da74c3b5a4ed0c5083b437c9`; tree `eb2976c8ba019fc96b914c547abaedef8088023a` returned 2,717 non-truncated entries and exact binary path/blob/byte tuples.
+- Three manifests parsed at 654/655/645. First truncated archive was rejected before credit; cycle 3 now credited, batch 3/6, next cycle 4.
+- PASS_WITH_LIMITATIONS; science=false; unique species remains **176/251**, revision +1. Exact juvenile age, iris chronology, first-flight threshold, literal nest form, sex-size ratio and subspecies pattern limits remain unknown.
+
 ## 2026-11-04 #127 binary archive correction — verification pending
 
 - First archive `cd37f1a1c42f5745697c4ffc6b367e3fbc47c0b6` contained truncated PNG blobs and was rejected before cycle credit.

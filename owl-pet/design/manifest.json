@@ -18530,8 +18530,42 @@
       "auxiliary_review_crop_size_bytes": 1988091,
       "auxiliary_review_crop_sha256": "6d995e62e3306593da0212f052285640cfcdee0b7ffd6f2e33035704f40d4237",
       "archive_note": "One targeted edit followed original-resolution full/crop review. #126 Strix hadorami was rejected before research/image generation after duplicate audit matched existing #164. Scientific verification remains false for explicit juvenile, sex and nest unknowns. First archive commit cd37f1a1c42f5745697c4ffc6b367e3fbc47c0b6 contained truncated binary blobs and is superseded before verification; corrected blobs match local git hash-object values.",
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "677738031740e1d1da74c3b5a4ed0c5083b437c9",
+      "fixed_archive_commit": "677738031740e1d1da74c3b5a4ed0c5083b437c9",
+      "verified_at": "2026-11-04T20:51:43+08:00",
+      "archive_tree": "eb2976c8ba019fc96b914c547abaedef8088023a",
+      "readback": {
+        "commit_sha": "677738031740e1d1da74c3b5a4ed0c5083b437c9",
+        "tree_sha": "eb2976c8ba019fc96b914c547abaedef8088023a",
+        "recursive_tree_count": 2717,
+        "truncated": false,
+        "paths_verified": 14,
+        "binary_assets_verified": 6,
+        "concept": {
+          "path": "owl-pet/design/concepts/127-megascops-albogularis-v3.png",
+          "blob": "893ede92357798a63649ab82c1b6b8e6c39de625",
+          "bytes": 2821386
+        },
+        "generated": {
+          "blob": "ca726d84c67a3afb5510138fd47de1693c793f89",
+          "bytes": 2930317
+        },
+        "juvenile_crop": {
+          "blob": "9e1ef465fc5015b6765d520d1b340f660efa3c21",
+          "bytes": 798377
+        },
+        "adult_crop": {
+          "blob": "7398aad77759a21a4ee9d3963c33398dcd511a22",
+          "bytes": 1988091
+        },
+        "manifest_counts": {
+          "design_image": 654,
+          "design_legacy": 655,
+          "production": 645
+        }
+      }
     }
   ],
   "updated_at": "2026-11-04T20:51:00+08:00"

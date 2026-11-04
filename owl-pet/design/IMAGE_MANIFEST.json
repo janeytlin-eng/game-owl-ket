@@ -19803,11 +19803,16 @@
       "reviewed_path": "production/reviewed/41-glaucidium-cobanense-v5-reviewed-master.png",
       "reviewed_blob": "dc4fedf94bc7160fdc1500268b5d60fbeb1ee30b",
       "adults_review_crop": "production/review-crops/41-glaucidium-cobanense-v5-adults.png",
-      "adults_review_blob": "53842c2115e7210453ebcd031537f6a51a3fa836",
+      "adults_review_blob": "59055bc53ffe36d4012dd7d46c2225a88b133390",
       "juvenile_review_crop": "production/review-crops/41-glaucidium-cobanense-v5-juvenile.png",
-      "juvenile_review_blob": "bad1419b36797a90b5b6c53620c75dfa9e3b77c8",
+      "juvenile_review_blob": "64b5e6920d537db1d61f16b108779b53b0d7a2e4",
       "reviewed_at": "2026-11-05T01:59:00+08:00",
-      "readback_pending": true
+      "readback_pending": true,
+      "adults_review_size_bytes": 1428292,
+      "adults_review_sha256": "c8e154cdf498d66d6e6e65d2622bc4c887c89b87d0a68ef92bb883a148cbfd91",
+      "juvenile_review_size_bytes": 788949,
+      "juvenile_review_sha256": "670cdeb4d16d96dc28aff4bbcf147556cd74fc934ce3ff476a7660fd1f3f2897",
+      "archive_note": "Initial archive commit 578dc05 used truncated 65-byte crop blobs and was rejected before verification; complete chunked crop blobs replace them in this repair."
     }
   ],
   "updated_at": "2026-11-05T02:03:00+08:00"

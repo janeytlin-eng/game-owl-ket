@@ -13922,8 +13922,8 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261105T015400+0800-cycle-3",
-        "heartbeat_at": "2026-11-05T02:03:00+08:00",
-        "expires_at": "2026-11-05T02:18:00+08:00"
+        "heartbeat_at": "2026-11-05T02:05:00+08:00",
+        "expires_at": "2026-11-05T02:20:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -14118,6 +14118,15 @@
           "adults_crop_blob": "53842c2115e7210453ebcd031537f6a51a3fa836",
           "juvenile_crop_blob": "bad1419b36797a90b5b6c53620c75dfa9e3b77c8",
           "note": "Seven image paths and three manifests prepared; immutable readback pending."
+        },
+        {
+          "at": "2026-11-05T02:05:00+08:00",
+          "type": "ARCHIVE_REPAIR",
+          "cycle": 3,
+          "rejected_commit": "578dc05ab70b2086500d75ef807b8c7fa21185b6",
+          "adults_crop_blob": "59055bc53ffe36d4012dd7d46c2225a88b133390",
+          "juvenile_crop_blob": "64b5e6920d537db1d61f16b108779b53b0d7a2e4",
+          "note": "65-byte truncated crop blobs detected by immutable size readback; complete chunked uploads prepared, still uncredited."
         }
       ]
     }

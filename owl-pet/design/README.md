@@ -2925,7 +2925,7 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Mixed-morph Chelemhá pair retained only as an individual evidence trace; adult scale near-equal. One juvenile-iris edit; exact juvenile age/iris/flight remain unknown. PASS_WITH_LIMITATIONS; science false.
 
 
-## #42 Spotted Owlet — *Athene brama* — v5 ARCHIVED / readback pending
+## #42 Spotted Owlet — *Athene brama* — v5 VERIFIED
 
 - [Original](concepts/42-athene-brama-v5.png) · [Research](../research/species/42-athene-brama-v5.md) · [Review](../research/reviews/42-athene-brama-v5-review.md) · [Run](../production/runs/20261105T020900+0800-cycle-4.md)
 - V5 restores full resolution and separates adult-like 21–25 d plumage from later flight. One juvenile-iris edit; exact iris/flight chronology remains unknown. PASS_WITH_LIMITATIONS; science false.

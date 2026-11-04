@@ -19214,12 +19214,47 @@
       "juvenile_review_crop": "production/review-crops/42-athene-brama-v5-juvenile.png",
       "juvenile_review_blob": "60a0453a6ff2700ada80359472e5b659810200a6",
       "reviewed_at": "2026-11-05T02:13:30+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1432432,
       "adults_review_sha256": "dbe7c3d746022d4b7020bda2d1092c82ea10f385ba66a3de4d91cba00c19d097",
       "juvenile_review_size_bytes": 774881,
-      "juvenile_review_sha256": "ea7a68d19c115c5ab6b3268076f15d8675ac26af892bf667e573f7b9207c6ab1"
+      "juvenile_review_sha256": "ea7a68d19c115c5ab6b3268076f15d8675ac26af892bf667e573f7b9207c6ab1",
+      "archive_commit": "b4fa08cc3abec1b16f041e8f34b18a0e10147c49",
+      "archive_tree": "e7ebe0130f7a3e27f1d117c51bfed2f8c2dcbb45",
+      "verified_at": "2026-11-05T02:17:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "b4fa08cc3abec1b16f041e8f34b18a0e10147c49",
+        "tree_sha": "e7ebe0130f7a3e27f1d117c51bfed2f8c2dcbb45",
+        "tree_entry_count": 2850,
+        "tree_truncated": false,
+        "paths_verified": 7,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/42-athene-brama-v5.png",
+          "blob": "a87d777fa2bfcc9e018eed265e142b27ce9fcbf1",
+          "size_bytes": 3093057
+        },
+        "adult_crop": {
+          "path": "production/review-crops/42-athene-brama-v5-adults.png",
+          "blob": "88c3313c838bb0d02a499dfa4063f5ac8059a35e",
+          "size_bytes": 1432432
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/42-athene-brama-v5-juvenile.png",
+          "blob": "60a0453a6ff2700ada80359472e5b659810200a6",
+          "size_bytes": 774881
+        },
+        "manifest_counts": {
+          "design_image": 667,
+          "design_legacy": 668,
+          "production": 658
+        }
+      },
+      "verification_result": "Exact seven image path/blob/size tuples, three manifests, research/review/run records and workflow rule read back from a non-truncated immutable tree."
     }
   ],
-  "updated_at": "2026-11-05T02:15:00+08:00"
+  "updated_at": "2026-11-05T02:17:00+08:00"
 }

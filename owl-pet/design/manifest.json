@@ -18661,7 +18661,63 @@
         "source_ids_present": 4,
         "raw_url_check": "web fetch disabled in this environment; GitHub connector immutable-path readback succeeded"
       }
+    },
+    {
+      "id": "156-scotopelia-peli-v3",
+      "species_id": 156,
+      "scientific_name": "Scotopelia peli",
+      "historical_names": [
+        "Strix peli",
+        "Scotopelia oustaleti"
+      ],
+      "common_name": "Pel's Fishing Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/156-scotopelia-peli-v3.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V3 preserves v1-v2 but replaces the visibly corrupt v2 canvas as the review master. Primary museum evidence supports a uniformly white to faint-isabelline downy nestling head and powerful black bill; the centered older age-unknown nestling is pale, down-rich, fully cavity-supported, without adult bars, long remiges or projecting tail. Adults have dark eyes, massive orange-rufous plumage, weak facial disc, white throat, bare fishing feet and subtle evidence-bounded sex difference (male deeper rufous; female slightly fuller). Exact nestling age, full-body primary down pattern, iris chronology and flight threshold remain unknown; science=false.",
+      "source_ids": [
+        "PFOW-BUTTIKOFER-1889-P115",
+        "PFOW-BIRDLIFE-SA-2025-ECOLOGY",
+        "PFOW-SANBI-03164-2026",
+        "PFOW-NCBI-2599434-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--156-scotopelia-peli-v3--archive-repair-and-downy-nestling-boundary",
+      "research_record": "research/species/156-scotopelia-peli-v3.md",
+      "review_record": "research/reviews/156-scotopelia-peli-v3-review.md",
+      "run_record": "production/runs/20261104T214445+0800-cycle-5.md",
+      "reviewed_at": "2026-11-04T21:51:59+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3179829,
+      "sha256": "652838c7b8288884d07f0a88825c6392477acd7c2a277d3d47d61775c31d37d5",
+      "git_blob": "ab5d03618eec2e43ad742d3e51b0a3620d38e0f6",
+      "generated_path": "production/generated/156-scotopelia-peli-v3-generated.png",
+      "generated_blob": "ab5d03618eec2e43ad742d3e51b0a3620d38e0f6",
+      "generated_size_bytes": 3179829,
+      "generated_sha256": "652838c7b8288884d07f0a88825c6392477acd7c2a277d3d47d61775c31d37d5",
+      "reviewed_path": "production/reviewed/156-scotopelia-peli-v3-reviewed-master.png",
+      "reviewed_blob": "ab5d03618eec2e43ad742d3e51b0a3620d38e0f6",
+      "review_crop_path": "production/review-crops/156-scotopelia-peli-v3-juvenile.png",
+      "review_crop_blob": "9776520262d49e496d91301fdfac512fb1cce1a3",
+      "review_crop_size_bytes": 740451,
+      "review_crop_sha256": "8e27dbb6754ddb0fea04bf189255143e8537492f030492794d635cd355616092",
+      "auxiliary_review_crop_path": "production/review-crops/156-scotopelia-peli-v3-adults.png",
+      "auxiliary_review_crop_blob": "f8762e988a0bfa92c3d2f5ce7eb2f612bf339354",
+      "auxiliary_review_crop_size_bytes": 1628119,
+      "auxiliary_review_crop_sha256": "11b0176c4ff0c1a75835ee3d03a42a873207e531ceae5553e145d4cd755e68a3",
+      "archive_note": "No edit was required after original-resolution and crop inspection. V2 is retained but visibly corrupt and is not the review master. Mikkola upload was unavailable in this run. Scientific verification remains false for explicit developmental unknowns.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-11-04T21:43:30+08:00"
+  "updated_at": "2026-11-04T21:54:17+08:00"
 }

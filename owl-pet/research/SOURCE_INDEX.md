@@ -726,3 +726,38 @@
 - Corrected boundaries: (1) 18/19 February conflict is retained rather than silently resolved; (2) balance flapping and trunk scrambling are not independent flight.
 - Unknown: exact hatch age, sex-specific growth, independent-flight threshold for the 23 February individuals, universal nest geometry and population-specific plumage variation.
 - Links: `research/species/45-strix-seloputo-v5.md`; `production/runs/20261105T033723+0800-cycle-1.md`; planned concept v5.
+
+
+## 2026-11-05 — #46 *Strix ocellata* v4 — day-34–36 branch-walk versus species-wide flight boundary
+
+### MOWL-ELA-FACTFILE-2012 — new verified illustrated development reference
+- **Title / institution / year:** *Fact File: Mottled Wood Owl Strix ocellata* — Ela Foundation, 2012.
+- **URL / type / page / accessed:** https://www.elafoundation.org/ela/wp-content/uploads/2017/03/FACT-FILE_02_Mottled-wood-owl.pdf ; institutional illustrated fact sheet, single printed page; accessed 2026-11-05.
+- **Facts:** shows separately captioned two-day hatchlings, two-week nestling, three-and-a-half-week chicks, and a four-week chick being fed in a hollow. Adults have coral-red/pink eyelid rims; Strix lacks ear tufts and usually has dark irides. Typical photographed setting is a top-opening natural cavity in an old mango tree in farmland; other large trees/groves occur.
+- **Limits / design use:** captions are stage anchors, not a continuous daily feather sequence or quantified flight test. One typical cavity is contextual, not universal.
+
+### MOWL-DESHPANDE-WOC-2022 — reused indexed primary serial biometry
+- **Scope / facts:** repository-indexed field serial measurements support a day-34–36 nest-leaving bird moving from an open-top cavity to an adjacent branch by walking; tarsus and beak were about 90% of adult measures while wing and tail were about 50%.
+- **Limits / correction:** the field sample does not establish a universal first-flight day. V4 encodes branch walking, compact wing/tail and continuous support, not launch or independent flight.
+
+### MOWL-PANDE-JRR-2018 — re-read breeding population context
+- **Title / authors / year:** *Breeding Biology of the Mottled Wood-Owl (Strix ocellata) in West-central India* — Pande, Yosef, Deshpande, Pawar & Mahajan, 2018.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.3356/JRR-17-53.1 ; https://agris.fao.org/search/en/providers/122535/records/65dfb6c263b8185d9cae413d ; peer-reviewed nine-season field study, JRR 52(2):240–244; re-read 2026-11-05.
+- **Facts:** 15 pairs were studied from 2005–2016; mango and tamarind were major nest trees; habitat was a mosaic of agricultural land, scrub/deciduous forest, grassland, habitation and waterways.
+- **Limits:** aggregate breeding output and habitat; no day-specific plumage or flight threshold in the accessible record.
+
+### MOWL-OWLPAGES-ID-2020 — re-read adult identification
+- **URL / type / sections:** https://www.owlpages.com/owls/species.php?s=1530 ; secondary species account, description lines 50–80; re-read 2026-11-05.
+- **Facts:** rounded untufted head; whitish facial disc with fine concentric dark bars; dark-brown eyes; dusky pink/coral eyelids; horn-black bill; densely mottled reddish-brown/black/white/buff upperparts and barred pale/orange-buff underparts.
+- **Limits / correction:** “female likely larger” is not a quantified sex measurement and is not used as a visible size rule.
+
+### MOWL-PEREGRINE-2026 — re-read explicit knowledge gap
+- **URL / type / sections:** https://peregrinefund.org/explore-raptors-species/owls/mottled-wood-owl ; institutional overview, nests/young lines 52–57; re-read 2026-11-05.
+- **Facts / use:** natural tree hollows/cracks are used; the institution explicitly states that the age at which young fly from the nest remains poorly known. This prevents treating a branch departure as species-wide independent flight.
+
+### V4 evidence accounting
+- Reused repository-indexed Mikkola and Deshpande 2018/Kumar 2020 records; uploaded Mikkola was unavailable and not represented as freshly read.
+- Current name: *Strix ocellata* (Lesson, 1839); no replacement historical combination was introduced in this cycle.
+- New verified sources: 1; re-read/reused verified sources: 5; corrected boundaries: 2.
+- Unknown: daily plumage sequence, universal first-flight age, sex-size direction, iris/eyelid ontogeny, population transfer and universal cavity geometry.
+- Links: `research/species/46-strix-ocellata-v4.md`; `production/runs/20261105T040500+0800-cycle-2.md`; planned concept v4.

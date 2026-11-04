@@ -1,3 +1,19 @@
+## 2026-11-05 — #52 *Strix hylophila* v5 — cavity-evidence correction
+
+### RBO-COCKLE-ETAL-2024-P10
+- **Title / authors / year:** *Ecology and conservation of cavity-nesting birds in the Neotropics: Recent advances, future directions, and contributions to ornithology* — Bonaparte, Cuatianquiz Lima, Ferreira-Xavier, da Hora, Di Sallo, López, Cockle & Núñez Montellano, 2024.
+- **URL / DOI:** https://academic.oup.com/condor/article/126/4/duae042/7745762 ; https://doi.org/10.1093/ornithapp/duae042
+- **Type / accessed:** peer-reviewed evidence review, *Ornithological Applications* 126(4):duae042; accessed 2026-11-05.
+- **Scope / page:** Neotropical cavity-nesting evidence; *Strix hylophila* passage on article p.10 (indexed publisher PDF/HTML).
+- **Facts:** after 18 years of Atlantic Forest nest-web work, the authors list *S. hylophila* among species that might use cavities but whose nests have not yet been confirmed or described; they warn against equating cavity approach/shelter with nesting.
+- **Limit/conflict:** review, not a new nest description. It conflicts with secondary accounts that present high-tree-cavity nesting as settled.
+- **Design use:** the v5 hollow is only a documented shelter/observation context; omit eggs, nest cup, lining and exact nest architecture; scientific status stays false.
+- **Links:** `research/species/52-strix-hylophila-v5.md`; concept v5; run `production/runs/20261105T065000+0800-cycle-2.md`.
+
+### Reused and corrected evidence
+- Re-read `RBO-AVESRAPINA-2018`, `RBO-WIKIAVES-3982971` and `RBO-ITIS-555431`; reused page-specific `RBO-MIKKOLA-2013-P337` because the upload itself was not accessible in this execution.
+- Corrected two design claims: “confirmed high tree-cavity nest” → “single age-unknown chick observed in a hollow”; “dry wood-dust/shallow nest debris” → “plain natural hollow ledge without constructed nest material.” No source photograph is copied.
+
 ## 2026-11-04 — #195 *Otus brookii solokensis* v2 — nest, specimen and juvenile boundary
 
 ### RAJ-GOODDIE-2015-P70-81

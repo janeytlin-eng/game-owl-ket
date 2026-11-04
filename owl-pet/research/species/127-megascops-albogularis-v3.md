@@ -40,3 +40,11 @@ Create a polished 1536×1024 horizontal scientific concept plate in the already 
 - Juvenile wing compact, soft and down-obscured, ending above feet; no adult-regular white covert rows.
 - Juvenile dark iris and age-unknown label; no flight/nest claim.
 - Cloud-forest setting, not lowland or dry habitat.
+
+
+## Production result
+
+- IMAGE_GENERATED: first v3 at Git blob `6da501e8020a7d40830ee65bbca55c5801cd4ec5`; full and juvenile crop review found the folded wing too long and too adult-regular.
+- REVIEWED: one targeted edit produced Git blob `457907683604946319d539f19a5e51dab617d80a`. The compact wing now ends well above both feet, adult-regular pale rows are absent, tail is concealed, and a small irregular soft formed-feather cluster is retained.
+- Outcome: PASS_WITH_LIMITATIONS; `scientifically_verified=false`.
+- Unknowns remain: exact age, iris chronology, flight threshold, continuous feather sequence, universal nest form, quantified sex-size ratio and subspecies pattern limits.

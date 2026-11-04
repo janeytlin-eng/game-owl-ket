@@ -1,3 +1,9 @@
+## 2026-11-04 #127 *Megascops albogularis* v3 ARCHIVED — readback pending
+
+- SCIENCE_REVISION; v1-v2 preserved. Exact #127 title restored; one targeted juvenile wing/tail edit passed full, juvenile and adult/feet crop review.
+- Adults retain amber eyes, white throat and rufous belly; older age-unknown juvenile is fully supported with a compact down-obscured wing. Exact age/iris/flight/nest/sex-size remain unknown; science=false.
+- New/corrected sources 3, reused 2. Three manifests are now 654/655/645; unique species remains **176/251**, revision +1. Immutable archive verification pending.
+
 ## 2026-11-04 #152 *Uroglaux dimorpha* v3 VERIFIED
 
 - Archive commit `58c1f10f762afaf36ad76a3b0584fce722db62f0` read back at eight exact paths; concept blob `165ff514570f064c1a99af379ae22324a53d0b1c`; manifests 652/653/643 parsed.

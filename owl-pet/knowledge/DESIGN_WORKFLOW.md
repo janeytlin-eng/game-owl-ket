@@ -726,3 +726,11 @@ A report that recently fledged young occur in a month supports only a broad bree
 - Evidence: 21 sexed adults show larger female means but overlapping ranges; the ordinary ashy-brown/brownish state occurs across specimens and is not a sex code. Juvenile sources establish a perched, downy/soft-feathered direction but not exact age or flight chronology.
 - Applied: use only a subtle female direction; keep both adults in the common brown form; use a compact, down-obscured juvenile wing with full support.
 - Validation: one targeted edit; full image and two crops passed. This rule is verified only on #197 v2, not yet across earlier plates.
+
+
+## 2026-11-04 #127 v3 — verify the claimed wing correction, not only the prompt
+
+- Problem: v2's record claimed a compact juvenile wing, but original-resolution review still showed a long, regularly layered adult-like wing close to the feet.
+- Evidence boundary: the identified Piura record supports an older perched juvenile but not exact age, iris chronology, flight threshold or a literal feather map. Older juveniles may retain formed feather tips; they must not be reduced automatically to wing buds.
+- Applied: keep a small irregular cluster of soft formed tips under residual down, but remove adult-regular pale covert rows, conceal the tail and ensure the folded wing ends well above both gripping feet.
+- Verification: the first v3 generation still failed this geometry test and was edited once; full image plus juvenile and adult/feet crops then passed. The rule is verified on #127 v3 only and does not establish scientific truth for other taxa.

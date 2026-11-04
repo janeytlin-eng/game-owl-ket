@@ -2935,3 +2935,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Original](concepts/43-athene-blewitti-v5.png) · [Research](../research/species/43-athene-blewitti-v5.md) · [Review](../research/reviews/43-athene-blewitti-v5-review.md) · [Run](../production/runs/20261105T022100+0800-cycle-5.md)
 - Full-resolution v5: equal adults, 28–30 d dark-eyed supported juvenile, no edit; exact iris/flight chronology unknown. PASS_WITH_LIMITATIONS; science false.
+
+
+## #44 Ural Owl — *Strix uralensis* — v5 ARCHIVED / readback pending
+
+- [Original](concepts/44-strix-uralensis-v5.png) · [Research](../research/species/44-strix-uralensis-v5.md) · [Review](../research/reviews/44-strix-uralensis-v5-review.md) · [Run](../production/runs/20261105T023100+0800-cycle-6.md)
+- Full-resolution v5: moderately larger adult female; unsexed day-29 mesoptile brancher with short folded wing, hidden tail and continuous support. No edit; PASS_WITH_LIMITATIONS; science false.

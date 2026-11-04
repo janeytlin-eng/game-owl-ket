@@ -827,3 +827,8 @@ When a primary development series reports adult-like feathers before the fledgin
 
 ### Do not inherit adult iris colour into juveniles (validated on #43 v5)
 An adult soft-part colour is not automatically a juvenile-stage fact. If the age-specific iris transition is unknown, render a conservative age-indeterminate dark iris and record the uncertainty. #43 v5 applied this to a 28–30 d *Athene blewitti* while retaining evidence-backed dark/blotched plumage and supported weak-flight posture; full/crop review passed with no edit.
+
+
+## Brancher ability boundary — applied and checked 2026-11-05
+
+When a species-specific source documents a juvenile leaving a cavity and remaining provisioned on nearby branches, encode **support and dependence**, not independent flight. Unless flight is separately observed, keep both feet on a broad natural support, use a folded development-appropriate wing, avoid launch/open-wing poses, and label flight ability unknown. This rule was applied and crop-checked on #44 *Strix uralensis* v5; it is not a blanket scientific validation for other plates.

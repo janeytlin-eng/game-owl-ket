@@ -19342,7 +19342,63 @@
         }
       },
       "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
+    },
+    {
+      "id": "44-strix-uralensis-v5",
+      "path": "design/concepts/44-strix-uralensis-v5.png",
+      "species_id": 44,
+      "scientific_name": "Strix uralensis",
+      "common_name": "Ural Owl",
+      "historical_names": [
+        "Syrnium uralense",
+        "Syrnium uralensis"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "UROW-KAZAMA-JBBA-2005-P28-32",
+        "UROW-ERIKSSON-1984-P313-316",
+        "UROW-SCHERZINGER-1980-P45-56",
+        "UROW-MIKKOLA-2013",
+        "UROW-LOHMUS-2003",
+        "UROW-BROMMER-2004"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/44-strix-uralensis-v5.md",
+      "review_record": "research/reviews/44-strix-uralensis-v5-review.md",
+      "run_record": "production/runs/20261105T023100+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3347771,
+      "git_blob": "1f873fec785b2900c13849240e448ffad943087c",
+      "generated_path": "production/generated/44-strix-uralensis-v5-generated-master.png",
+      "generated_blob": "1f873fec785b2900c13849240e448ffad943087c",
+      "reviewed_path": "production/reviewed/44-strix-uralensis-v5-reviewed-master.png",
+      "reviewed_blob": "1f873fec785b2900c13849240e448ffad943087c",
+      "adults_review_crop": "production/review-crops/44-strix-uralensis-v5-adults.png",
+      "adults_review_blob": "aefdb8a3fe809d47cff6b1cacb3d7e8be13efc47",
+      "juvenile_review_crop": "production/review-crops/44-strix-uralensis-v5-juvenile.png",
+      "juvenile_review_blob": "418e99ab5c50f111d87e9fb52000df4f402810d1",
+      "reviewed_at": "2026-11-05T02:43:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1518714,
+      "adults_review_sha256": "631ff4e5922aefad88482e60437862700d9a505eafb710ba15a807651530341f",
+      "juvenile_review_size_bytes": 833750,
+      "juvenile_review_sha256": "97ef940ee13388691846f7f69aab0cf2d52351648be1ec2a04842423d1edc578"
     }
   ],
-  "updated_at": "2026-11-05T02:30:00+08:00"
+  "updated_at": "2026-11-05T02:50:00+08:00"
 }

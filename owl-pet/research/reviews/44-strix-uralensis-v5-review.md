@@ -22,3 +22,7 @@ No edit required. The generated juvenile wing is shorter and softer than the adu
 - Learned from sources: leaving a cavity and perching on a nearby branch does not establish independent flight.
 - Applied: low, continuously supported day-29 brancher; no open wing.
 - Verified in crop: both feet and the broad support are visible; no mature wing/tail silhouette. This rule is validated for this image only and does not retroactively scientific-verify other concepts.
+
+## Archive preparation
+- Master blob `1f873fec785b2900c13849240e448ffad943087c`; adult crop `aefdb8a3fe809d47cff6b1cacb3d7e8be13efc47`; juvenile crop `418e99ab5c50f111d87e9fb52000df4f402810d1`.
+- Readback pending; this section is not a verification claim.

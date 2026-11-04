@@ -483,3 +483,11 @@
 - Evidence sources remain `NHO-KERTELL-1986-JRR-P91-101`, `NHO-NPS-DENALI-2021-2026`, `NHO-EFAUNA-BC-2026`, plus reused Mikkola pp.360–363 and Huhtala et al. 1987. This correction adds no new biological source.
 - Design decision: approximately 20–22-day departure-stage young, fully supported and locomotion-capable; formed but soft juvenile flight/tail feathers; no inferred confident flight. Exact individual age, continuous feather sequence, flight threshold and universal timing remain unknown.
 - Links: `research/species/10-surnia-ulula-v5.md`; `research/reviews/10-surnia-ulula-v5-review.md`; `design/concepts/10-surnia-ulula-v5.png`.
+
+
+## 2026-11-04 — #18 *Megascops kennicottii* v4 — just-departed poor-flight boundary
+
+- `WESO-USFS-GEHLBACH-STOLESON-2010-P512-518` — Frederick R. Gehlbach & Scott H. Stoleson, 2010, USFS chapter, printed pp.512–518, https://www.fs.usda.gov/rm/pubs_other/rmrs_2010_gehlbach_f001.pdf. Adult identity and population-specific sex mass direction; primary synthesis/field chapter, high confidence for New Mexico, not universal.
+- `WESO-BC-CANNINGS-DAVIS-2007-P1-21` — R.J. Cannings & H. Davis, 2007, B.C. Wildlife Working Report WR-112, printed pp.1–21, https://a100.gov.bc.ca/pub/eirs/finishDownloadDocument.do?subdocumentId=7725. Similar plumage, female generally larger/heavier, riparian cavity ecology; subspecies-focused working report, moderate confidence.
+- `WESO-CORNELL-LIFE-2026` — Cornell Lab, Western Screech-Owl Life History, accessed 2026-11-04, https://www.allaboutbirds.org/guide/Western_Screech-Owl/lifehistory. Cavity/no-built-nest and young leave before flying well; institutional synthesis.
+- Reused: Mikkola printed p.204 and prior v3 sources. Design decision: ~33–35-day just-departed supported juvenile, formed but soft wing, no confident flight; female only subtly fuller/darker. Exact day/subspecies/flight threshold remain unknown.

@@ -14461,9 +14461,9 @@
         "batch_id": "20261105T033723+0800",
         "cycle": 6,
         "species_id": 50,
-        "heartbeat_at": "2026-11-05T06:02:00+08:00",
-        "expires_at": "2026-11-05T06:17:00+08:00",
-        "stage": "RESEARCH_READY"
+        "heartbeat_at": "2026-11-05T06:06:00+08:00",
+        "expires_at": "2026-11-05T06:21:00+08:00",
+        "stage": "IMAGE_GENERATED"
       },
       "in_progress": {
         "batch_id": "20261105T033723+0800",
@@ -14473,12 +14473,12 @@
         "species": "Strix virgata",
         "version": 5,
         "action": "REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "started_at": "2026-11-05T05:55:00+08:00",
         "baseline_commit": "1f96f48f0807a3ee0a12162fb32c88f8a4dec35c",
         "prior_version": "owl-pet/design/concepts/50-strix-virgata-v4.png",
-        "heartbeat_at": "2026-11-05T06:02:00+08:00",
-        "expires_at": "2026-11-05T06:17:00+08:00"
+        "heartbeat_at": "2026-11-05T06:06:00+08:00",
+        "expires_at": "2026-11-05T06:21:00+08:00"
       },
       "current_stage": "STARTED",
       "events": [
@@ -15216,9 +15216,9 @@
     "batch_id": "20261105T033723+0800",
     "cycle": 6,
     "species_id": 50,
-    "heartbeat_at": "2026-11-05T06:02:00+08:00",
-    "expires_at": "2026-11-05T06:17:00+08:00",
-    "stage": "RESEARCH_READY"
+    "heartbeat_at": "2026-11-05T06:06:00+08:00",
+    "expires_at": "2026-11-05T06:21:00+08:00",
+    "stage": "IMAGE_GENERATED"
   },
   "last_updated_at": "2026-11-05T05:55:00+08:00",
   "audit_notes": [
@@ -15989,12 +15989,12 @@
     "species": "Strix virgata",
     "version": 5,
     "action": "REVISION",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "started_at": "2026-11-05T05:55:00+08:00",
     "baseline_commit": "1f96f48f0807a3ee0a12162fb32c88f8a4dec35c",
     "prior_version": "owl-pet/design/concepts/50-strix-virgata-v4.png",
-    "heartbeat_at": "2026-11-05T06:02:00+08:00",
-    "expires_at": "2026-11-05T06:17:00+08:00"
+    "heartbeat_at": "2026-11-05T06:06:00+08:00",
+    "expires_at": "2026-11-05T06:21:00+08:00"
   },
   "previous_checkpoint": {
     "batch_id": "20261105T033723+0800",
@@ -21759,6 +21759,26 @@
         "full_prompt_saved": true,
         "mikkola_upload_accessible": false,
         "lease_expires_at": "2026-11-05T06:17:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261105T033723+0800",
+      "cycle": 6,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-05T06:06:00+08:00",
+      "run_id": "20261105T055500+0800-cycle-6",
+      "species_id": 50,
+      "credited": false,
+      "evidence": {
+        "generated_path": "owl-pet/production/generated/50-strix-virgata-v5-generated-master.png",
+        "generated_blob": "3b00d08a6b763d0882e32e0bce0a6c4bea1e03e0",
+        "dimensions": "1536x1024",
+        "bytes": 3153162,
+        "sha256": "e98509ee7ce4efba43077fb0a55041bbeb785be0ba33e763c23f300f5e1d4297",
+        "generation_seconds": 58.3,
+        "edit_count": 0,
+        "complete_prompt": "owl-pet/research/species/50-strix-virgata-v5.md",
+        "lease_expires_at": "2026-11-05T06:21:00+08:00"
       }
     }
   ],

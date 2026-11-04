@@ -541,3 +541,26 @@
 - Re-read `TSO-ACTA-NESTLING-2017`, printed pp.269–272: 18–20 d dark barred mesoptile, well-developed remiges, open yellow irides; brood remained in cavity about 30 d.
 - Reused `TSO-DIAS-LIMA-2015-WJO` and indexed Mikkola pp.218–219; upload unavailable.
 - Correction: well-developed remiges do not authorize an open-wing or flight pose at 18–20 d. Source accounting: new3/reused3/corrected1.
+
+
+## 2026-11-05 — #23 *Psiloscops flammeolus* v5 — one-week known-age feather boundary
+
+### FLOW-RICHMOND-DEWEESE-PILLMORE-1980-P35-46
+- **Title / authors / year:** *Brief Observations on the Breeding Biology of the Flammulated Owl in Colorado* — Merle L. Richmond, Lawrence R. DeWeese & Richard E. Pillmore, 1980.
+- **URL / type / pages / accessed:** https://journal.westernfieldornithologists.org/index.php/westernbirds/article/download/305/297/582 ; primary field and captive-development paper, *Western Birds* 11:35–46; printed pp.35–46; accessed 2026-11-05.
+- **Species / stages / facts:** historical name *Otus flammeolus*, current *Psiloscops flammeolus*. Printed p.37 reports reused cavities without obvious nest material except wood bits. Printed pp.40 and 44 describe/photograph young at about one and three weeks: at about one week dense down remains, white except for a few darkening primary feathers emerging as blood quills, with no evident tail; by three weeks the bird is generally gray, body juvenal-feathered, barred below, with developed wing/tail feathers but still-short tail. Printed p.44 also bounds behavior: around 25 d captive young could fly 0.5 m downward but not upward; directed flight was much later.
+- **Limits / confidence:** direct species-specific evidence but sample was small, two photographed captive nestlings had uncertain exact ages and may have been developmentally retarded after starvation; do not turn “about one week” into an exact day or universal sequence. High confidence for the visible one-week boundary, moderate for timing generalization.
+- **Design decision:** v5 selects the approximately one-week photographed stage: dense white down, only a few short dark primary blood quills, no tail, low fully supported in sparse cavity wood bits. No flight or standing inference.
+- **Links:** `research/species/23-psiloscops-flammeolus-v5.md`; `production/runs/20261105T013100+0800-cycle-1.md`; planned `design/concepts/23-psiloscops-flammeolus-v5.png`.
+
+### FLOW-BC-RISC-HAUSLEITNER-2006-P36
+- **Title / author / year:** *Inventory Methods for Owl Surveys*, Standards for Components of British Columbia's Biodiversity No. 42 — Doris Hausleitner / B.C. Ministry of Environment, revised draft 2006.
+- **URL / type / page / accessed:** https://sc.arcabc.ca/_flysystem/repo-bin/2019-02/sc_3947.pdf ; government survey standard / synthesis; printed p.36; accessed 2026-11-05.
+- **Fact / use:** adult 15–17 cm and dark-eyed; it states natal down is replaced by juvenile plumage in the first 10 days, citing McCallum 1994. This conflicts with the former v4 design phrase “11-day mostly white natal down” and triggers correction toward a directly photographed one-week stage.
+- **Limits / confidence:** secondary synthesis, not a daily photographic growth series; the exact “first 10 days” wording should not override the primary paper's sample limitations or be treated as universal to every individual/population.
+
+### Reuse, conflict correction and unknowns
+- Reused: `FLOW-POWERS-1996-JRR` for cavity dimensions/phenology (printed pp.15–20; no day-specific plumage), plus v4 institutional adult sources `FLOW-CORNELL-ID-2026`, `FLOW-CORNELL-LIFE-2026`, `FLOW-ORI-2026`.
+- Corrected boundary: v4's 11-day “mostly white natal down” claim depended on a non-peer-reviewed account and is not retained. V5 uses the original 1980 species-specific photographed approximately one-week stage.
+- Unknown: exact day within “about one week,” individual/population variance, eye-opening timing, blood-quill count/length, quantified sex-size ratio, universal cavity geometry and continuous daily feather chronology.
+- Source accounting: new verified 2; reused 4; corrected 1 major age/plumage boundary.

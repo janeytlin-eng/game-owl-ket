@@ -83,4 +83,4 @@ Exact title/count/labels; dark-eyed untufted pale-morph adults; vertical ventral
 
 ## Stage
 
-RESEARCH_READY; generation pending.
+REVIEWED; original generation passed whole-image and crop checks without edit; archive pending. PASS_WITH_LIMITATIONS; scientifically_verified=false.

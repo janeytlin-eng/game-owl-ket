@@ -12849,21 +12849,25 @@
           "action": "SCIENCE_REVISION",
           "unique_species_increment": 0,
           "revision_increment": 1
+        },
+        {
+          "cycle": 4,
+          "species": "Otus mantananensis",
+          "commit_sha": "PENDING_SELF",
+          "run_record": "owl-pet/production/runs/20261104T161400+0800-cycle-4.md",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1
         }
       ],
-      "next_cycle": 4,
+      "next_cycle": 5,
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261104T154500+0800-cycle-2",
         "heartbeat_at": "2026-11-04T15:49:00+08:00",
         "expires_at": "2026-11-04T16:04:00+08:00"
       },
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261104T161400+0800-cycle-4",
-        "heartbeat_at": "2026-11-04T16:24:00+08:00",
-        "expires_at": "2026-11-04T16:39:00+08:00"
-      },
+      "lease": null,
       "in_progress": {
         "cycle": 2,
         "species": "Otus semitorques",
@@ -16905,9 +16909,9 @@
     }
   ],
   "active_batch_id": "20261104T152800+0800",
-  "active_cycle": 4,
-  "current_stage": "ARCHIVED",
-  "next_cycle": 4,
+  "active_cycle": null,
+  "current_stage": "VERIFIED",
+  "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -17135,6 +17139,36 @@
         "revision_increment": 1,
         "scientifically_verified": false,
         "readback_pending": true
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 4,
+      "run_id": "20261104T161400+0800-cycle-4",
+      "species_id": 201,
+      "stage": "VERIFIED",
+      "at": "2026-11-04T16:26:00+08:00",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "PENDING_SELF",
+        "archive_commit": "58dee9a1768cd28d616ed81f6ad6ee984e9bffd2",
+        "tree_sha": "306636226999814809cc13aa56dfc9942ce69ff6",
+        "tree_count": 2679,
+        "recursive_tree_truncated": false,
+        "paths_verified": 11,
+        "binary_assets_verified": 5,
+        "concept_blob": "93a50a7937c3d530667157e03f3e3a195ed94224",
+        "manifest_counts": {
+          "design_image": 649,
+          "design_legacy": 650,
+          "production": 640
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "next_cycle": 5,
+        "batch_complete": false,
+        "path_blob_readback": true,
+        "main_head_readback": false
       }
     }
   ]

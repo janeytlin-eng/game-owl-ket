@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:24:00+08:00",
+  "updated": "2026-11-04T16:26:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18300,10 +18300,32 @@
       "auxiliary_review_crop_size_bytes": 1355478,
       "auxiliary_review_crop_sha256": "0bbefec18bae36376c6cf67eb8fb7b71b6525e1437ccf0cd44686547ae91ec60",
       "archive_note": "Generated master passed full-image and two original-detail crop review without edit. Adult structure/pattern/feet and fully grown juvenile support passed. Science remains false because juvenile appearance is cross-subspecies bounded and exact development/sex-size data are absent.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": "PENDING_SELF"
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "58dee9a1768cd28d616ed81f6ad6ee984e9bffd2",
+      "fixed_archive_commit": "58dee9a1768cd28d616ed81f6ad6ee984e9bffd2",
+      "verified_at": "2026-11-04T16:26:00+08:00",
+      "verification_commit": "PENDING_SELF",
+      "readback": {
+        "status": "VERIFIED",
+        "method": "immutable archive commit exact path/blob/size in non-truncated recursive tree; three complete manifests parsed; local original full/crop visual inspection",
+        "tree_sha": "306636226999814809cc13aa56dfc9942ce69ff6",
+        "tree_entries": 2679,
+        "recursive_tree_truncated": false,
+        "assets_verified": 5,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/201-otus-mantananensis-v2.png",
+          "blob": "93a50a7937c3d530667157e03f3e3a195ed94224",
+          "size_bytes": 3150873
+        },
+        "manifest_counts": {
+          "design_image": 649,
+          "design_legacy": 650,
+          "production": 640
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-04T16:24:00+08:00"
+  "updated_at": "2026-11-04T16:26:00+08:00"
 }

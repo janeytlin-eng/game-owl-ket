@@ -1,3 +1,8 @@
+## #201 Mantanani Scops Owl — *Otus mantananensis* — v2 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/58dee9a1768cd28d616ed81f6ad6ee984e9bffd2/owl-pet/design/concepts/201-otus-mantananensis-v2.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/58dee9a1768cd28d616ed81f6ad6ee984e9bffd2) · [research](../research/species/201-otus-mantananensis-v2.md) · [run](../production/runs/20261104T161400+0800-cycle-4.md)
+- VERIFIED; exact five image tuples and manifests 649/650/640 read back; PASS_WITH_LIMITATIONS; science false; unique176/251; batch4/6 next5. Verification `PENDING_SELF`.
+
 ## #201 Mantanani Scops Owl — *Otus mantananensis* — v2 science revision
 
 - Concept: [201-otus-mantananensis-v2.png](concepts/201-otus-mantananensis-v2.png)

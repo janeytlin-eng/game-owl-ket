@@ -1,3 +1,4 @@
+- 2026-11-04T16:26:00+08:00: #201 *Otus mantananensis* v2 VERIFIED at `PENDING_SELF`; immutable archive `58dee9a1768cd28d616ed81f6ad6ee984e9bffd2`, non-truncated tree and exact five image tuples passed; manifests 649/650/640; batch4/6 next5; unique176/251; science false.
 - 2026-11-04T16:24:00+08:00: #201 *Otus mantananensis* v2 ARCHIVED pending immutable readback. New3/reused4/corrected1 sources; edit0; manifests 649/650/640; unique176/251; science false.
 - 2026-11-04T16:12:00+08:00: #195 *Otus brookii solokensis* v2 VERIFIED at `0f845099c59a38b97b28003c955b60da89ffab1d`; immutable archive `55fd0c2c89202e42a91a0222d67b105e82a59b3d`, non-truncated tree and exact six image tuples passed; manifests 648/649/639; batch3/6 next4; unique176/251; science false.
 - 2026-11-04T16:10:00+08:00: #195 *Otus brookii solokensis* v2 ARCHIVED pending immutable readback. New4/reused2/corrected2 sources; one juvenile-wing/tuft edit; manifests 648/649/639; unique176/251; science false.

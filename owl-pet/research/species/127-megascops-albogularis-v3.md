@@ -44,7 +44,12 @@ Create a polished 1536×1024 horizontal scientific concept plate in the already 
 
 ## Production result
 
-- IMAGE_GENERATED: first v3 at Git blob `6da501e8020a7d40830ee65bbca55c5801cd4ec5`; full and juvenile crop review found the folded wing too long and too adult-regular.
-- REVIEWED: one targeted edit produced Git blob `457907683604946319d539f19a5e51dab617d80a`. The compact wing now ends well above both feet, adult-regular pale rows are absent, tail is concealed, and a small irregular soft formed-feather cluster is retained.
+- IMAGE_GENERATED: first v3 at Git blob `ca726d84c67a3afb5510138fd47de1693c793f89`; full and juvenile crop review found the folded wing too long and too adult-regular.
+- REVIEWED: one targeted edit produced Git blob `893ede92357798a63649ab82c1b6b8e6c39de625`. The compact wing now ends well above both feet, adult-regular pale rows are absent, tail is concealed, and a small irregular soft formed-feather cluster is retained.
 - Outcome: PASS_WITH_LIMITATIONS; `scientifically_verified=false`.
 - Unknowns remain: exact age, iris chronology, flight threshold, continuous feather sequence, universal nest form, quantified sex-size ratio and subspecies pattern limits.
+
+
+## Archive transport correction
+
+The first archive commit contained truncated PNG blobs and was rejected before verification. Final binary blobs were recreated with 399,999-byte Base64 chunks and matched local `git hash-object`: generated `ca726d84c67a3afb5510138fd47de1693c793f89`, reviewed/concept `893ede92357798a63649ab82c1b6b8e6c39de625`, juvenile crop `9e1ef465fc5015b6765d520d1b340f660efa3c21`, adult crop `7398aad77759a21a4ee9d3963c33398dcd511a22`. This is a transport correction, not a new image revision.

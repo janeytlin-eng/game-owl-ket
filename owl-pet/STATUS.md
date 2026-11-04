@@ -1,3 +1,8 @@
+## 2026-11-04 #127 binary archive correction — verification pending
+
+- First archive `cd37f1a1c42f5745697c4ffc6b367e3fbc47c0b6` contained truncated PNG blobs and was rejected before cycle credit.
+- Recreated four unique assets with 399,999-byte Base64 chunks; remote blob IDs now equal local `git hash-object`. Corrected archive readback is still pending.
+
 ## 2026-11-04 #127 *Megascops albogularis* v3 ARCHIVED — readback pending
 
 - SCIENCE_REVISION; v1-v2 preserved. Exact #127 title restored; one targeted juvenile wing/tail edit passed full, juvenile and adult/feet crop review.

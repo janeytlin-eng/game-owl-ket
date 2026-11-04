@@ -11,3 +11,4 @@
 - 2026-11-04T20:37:59+08:00 #127 IMAGE_GENERATED; juvenile wing flagged for edit.
 - 2026-11-04T20:40:40+08:00 #127 REVIEWED after one targeted wing/tail edit; PASS_WITH_LIMITATIONS.
 - 2026-11-04T20:43:00+08:00 #127 ARCHIVED; exact main/tree/path readback pending.
+- 2026-11-04T20:51:00+08:00 binary readback exposed truncated first archive; 3-byte-aligned chunk repair prepared; verification still pending.

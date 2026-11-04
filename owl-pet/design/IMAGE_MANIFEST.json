@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T22:52:12+08:00",
+  "updated": "2026-11-04T23:08:19.256+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19122,7 +19122,65 @@
         "source_ids_present": 3,
         "archive_repair": "First archive commit 474365ef00254deb2bbf534524e0dbb2ccc62dbd contained transport-truncated binaries and was rejected. Corrected archive commit uses aligned chunk uploads and exact size/hash readback."
       }
+    },
+    {
+      "id": "17-megascops-asio-v6",
+      "species_id": 17,
+      "scientific_name": "Megascops asio",
+      "historical_names": [
+        "Otus asio"
+      ],
+      "common_name": "Eastern Screech-Owl",
+      "version": 6,
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/17-megascops-asio-v6.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V6 preserves v1-v5, replaces the low-resolution v5 review master, and selects a first-days post-fledging poor flier from direct field observations. Adults are northern gray morphs with near-equal display scale; female is only subtly fuller. The fully branch-supported juvenile is fluffy finely barred gray with reduced ear tufts, short tail and one formed but softened half-open balancing wing after a poor landing. Exact age, subspecies, continuous feather chronology and quantified sexual size difference remain unknown; science=false.",
+      "source_ids": [
+        "EASO-SMITH-DEVINE-2003-P98-103",
+        "EASO-CORNELL-LIFE-2026",
+        "EASO-CORNELL-ID-2026",
+        "EASO-USFS-FEIS-1995",
+        "EASO-USGS-KOZLOWSKI-HAHN-2010"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--17-megascops-asio-v6--post-fledging-poor-flier-boundary",
+      "research_record": "research/species/17-megascops-asio-v6.md",
+      "review_record": "research/reviews/17-megascops-asio-v6-review.md",
+      "run_record": "production/runs/20261104T225412+0800-cycle-2.md",
+      "reviewed_at": "2026-11-04T23:07:08.912+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3003135,
+      "sha256": "c51a46b4d94aa9f9fc3375162cda72fd9121f13d225e1a159d9e5b06ca6c137e",
+      "git_blob": "d140fa8b4114931a872c414659fd1eee50042624",
+      "generated_path": "production/generated/17-megascops-asio-v6-generated.png",
+      "generated_blob": "d140fa8b4114931a872c414659fd1eee50042624",
+      "generated_size_bytes": 3003135,
+      "generated_sha256": "c51a46b4d94aa9f9fc3375162cda72fd9121f13d225e1a159d9e5b06ca6c137e",
+      "reviewed_path": "production/reviewed/17-megascops-asio-v6-reviewed-master.png",
+      "reviewed_blob": "d140fa8b4114931a872c414659fd1eee50042624",
+      "review_crop_path": "production/review-crops/17-megascops-asio-v6-juvenile.png",
+      "review_crop_blob": "0a10ef01c76fddce06b0bd2db4ca0dcb143bc1dc",
+      "review_crop_size_bytes": 799776,
+      "review_crop_sha256": "44b208562a143f4f4386347a4a26250fd94b9cd573bf9a28e40cc01a252e9c06",
+      "auxiliary_review_crop_path": "production/review-crops/17-megascops-asio-v6-adults.png",
+      "auxiliary_review_crop_blob": "b3cc35de671260b674aaf69ed5f019fe0895daf8",
+      "auxiliary_review_crop_size_bytes": 1340884,
+      "auxiliary_review_crop_sha256": "804f265f705689f5ff944fa4074cc951b1fc36afeb193c762492440135173bd3",
+      "archive_note": "One targeted edit shortened and softened the juvenile wing while retaining formed remiges permitted by actual first flight. V1-v5 remain intact and historical approval does not transfer. Primary Smith & Devine printed pp.98-103 plus Cornell/USFS/USGS sources were read; Mikkola pp.207-209 were reused from the existing v5 record. Scientific verification remains false.",
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-04T22:52:12+08:00"
+  "updated_at": "2026-11-04T23:08:19.256+08:00"
 }

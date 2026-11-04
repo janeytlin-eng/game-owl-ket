@@ -491,3 +491,29 @@
 - `WESO-BC-CANNINGS-DAVIS-2007-P1-21` — R.J. Cannings & H. Davis, 2007, B.C. Wildlife Working Report WR-112, printed pp.1–21, https://a100.gov.bc.ca/pub/eirs/finishDownloadDocument.do?subdocumentId=7725. Similar plumage, female generally larger/heavier, riparian cavity ecology; subspecies-focused working report, moderate confidence.
 - `WESO-CORNELL-LIFE-2026` — Cornell Lab, Western Screech-Owl Life History, accessed 2026-11-04, https://www.allaboutbirds.org/guide/Western_Screech-Owl/lifehistory. Cavity/no-built-nest and young leave before flying well; institutional synthesis.
 - Reused: Mikkola printed p.204 and prior v3 sources. Design decision: ~33–35-day just-departed supported juvenile, formed but soft wing, no confident flight; female only subtly fuller/darker. Exact day/subspecies/flight threshold remain unknown.
+
+
+## 2026-11-05 — #20 *Megascops clarkii* v5 — distal-tarsus and nest-stage boundary
+
+### BSOW-CAMACHO-2014-P3-14
+- **Title / author / year:** *¿Cómo identificar correctamente los búhos Megascops presentes en Costa Rica?* — Pablo Camacho-Varela, 2014.
+- **URL:** https://www.zeledonia.com/uploads/7/0/1/0/70104897/zeledonia_18_2.pdf
+- **Type / pages / accessed:** museum specimens + live-photo identification study; *Zeledonia* 18(2), printed pp.3–14; accessed 2026-11-05.
+- **Scope / facts:** *M. clarkii* adults in Costa Rica; distal roughly one-third of the tarsus bare; 23–25 cm and 130–190 g; ear tufts are not diagnostic alone; sex-size differences are not practical field identification; no alternate colour morph documented in Costa Rica although both phases occur in Panama.
+- **Limits / confidence:** adult identification paper, not a breeding or developmental study; regional colour statement must not be generalized across the species range.
+- **Design use:** expose only the distal third of adult tarsus, retain small relaxed ear tufts, use near-equal adults and the Costa Rican rufous-brown direction.
+- **Links:** `research/species/20-megascops-clarkii-v5.md`; planned concept v5; run `production/runs/20261105T003800+0800-cycle-5.md`.
+
+### BSOW-ITIS-686666-2026
+- **Institution / accessed:** Integrated Taxonomic Information System; accessed 2026-11-05.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686666
+- **Type / scope:** official taxonomy; current/old-name mapping.
+- **Fact:** valid *Megascops clarkii*; synonym/older combination *Otus clarkii*.
+- **Limits / design use:** taxonomy only; supports search mapping, not morphology or development.
+
+### Reused evidence, correction and unresolved items
+- Re-read and reused `BSOW-ASTORGA-2018-P85-89`: printed pp.85–89 document a mostly down-covered chick with developing primaries/secondaries on a moss/dry-leaf organic platform inside a live *Viburnum costaricanum* trunk crack.
+- Reused `BSOW-MIKKOLA-2013` (printed p.217) and `BSOW-JRR-NEST-1997`; the uploaded Mikkola file was unavailable and was not re-read this run.
+- Correction: the adult bare-tarsus boundary is now backed directly by Camacho-Varela's specimen/live-photo comparison rather than inferred from a broad “bare-shanked” label. The juvenile remains age-unknown and non-flight; “possibly left the nest” does not establish flight.
+- Unknown: exact chick age, continuous feather chronology, first-flight threshold, quantified sex size direction and universal colour-morph frequencies.
+- Source accounting: new verified 2; reused 3; corrected boundaries 2.

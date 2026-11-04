@@ -1,3 +1,8 @@
+## 2026-11-04 #152 *Uroglaux dimorpha* v3 VERIFIED
+
+- Archive commit `58c1f10f762afaf36ad76a3b0584fce722db62f0` read back at eight exact paths; concept blob `165ff514570f064c1a99af379ae22324a53d0b1c`; manifests 652/653/643 parsed.
+- PASS_WITH_LIMITATIONS; scientifically_verified false; unique species 176/251; revision +1. Batch 20261104T183100+0800 advances to cycle 2/6.
+
 ## 2026-11-04 #152 *Uroglaux dimorpha* v3 ARCHIVED
 
 - Non-destructive archive repair: v2 retained; v3 complete 1536×1024 plate archived with generated/reviewed masters and two crops.

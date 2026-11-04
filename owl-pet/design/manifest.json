@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T18:43:48.437+08:00",
+  "updated": "2026-11-04T18:45:14.253+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18369,10 +18369,31 @@
       "auxiliary_review_crop_size_bytes": 2030922,
       "auxiliary_review_crop_sha256": "fe9a0cdc05bdf64cc93f38e88cd9449d3c8b4abe8df1337969274084b0eba94d",
       "archive_note": "No edit was required after full and crop inspection. V2 remains preserved as a damaged historical artifact; v3 is the current review master. Science remains false for the explicit unknowns.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "58c1f10f762afaf36ad76a3b0584fce722db62f0",
+      "fixed_archive_commit": "58c1f10f762afaf36ad76a3b0584fce722db62f0",
+      "verified_at": "2026-11-04T18:45:14.253+08:00",
+      "verification_commit": null,
+      "readback": {
+        "status": "VERIFIED",
+        "method": "immutable archive commit exact path/blob readback; three complete manifests parsed; local full/crop visual inspection",
+        "tree_sha": "96ad900693ef8750b38c07d149d2580a1f016a31",
+        "paths_verified": 8,
+        "binary_assets_verified": 5,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/152-uroglaux-dimorpha-v3.png",
+          "blob": "165ff514570f064c1a99af379ae22324a53d0b1c",
+          "size_bytes": 2830295
+        },
+        "manifest_counts": {
+          "design_image": 652,
+          "design_legacy": 653,
+          "production": 643
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-04T18:43:48.437+08:00"
+  "updated_at": "2026-11-04T18:45:14.253+08:00"
 }

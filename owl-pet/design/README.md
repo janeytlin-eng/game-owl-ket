@@ -1,6 +1,6 @@
-## #152 Papuan Hawk-Owl — *Uroglaux dimorpha* — v3 ARCHIVED
+## #152 Papuan Hawk-Owl — *Uroglaux dimorpha* — v3 VERIFIED
 
-- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/ARCHIVE_COMMIT_PENDING/owl-pet/design/concepts/152-uroglaux-dimorpha-v3.png)
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/58c1f10f762afaf36ad76a3b0584fce722db62f0/owl-pet/design/concepts/152-uroglaux-dimorpha-v3.png)
 - V3 is a non-destructive repair of the visually incomplete v2 archive. Exactly three birds: near-equal adults and a source-bounded white-faced/white-underpart downy juvenile. Full and crop review passed with limitations; science remains false.
 - Evidence: [research card](../research/species/152-uroglaux-dimorpha-v3.md), [source index](../research/SOURCE_INDEX.md), [run record](../production/runs/20261104T183100+0800-cycle-1.md).
 

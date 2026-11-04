@@ -12861,8 +12861,8 @@
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T161400+0800-cycle-4",
-        "heartbeat_at": "2026-11-04T16:20:00+08:00",
-        "expires_at": "2026-11-04T16:35:00+08:00"
+        "heartbeat_at": "2026-11-04T16:22:00+08:00",
+        "expires_at": "2026-11-04T16:37:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -16906,7 +16906,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 4,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -17073,6 +17073,46 @@
         "sha256": "9834f5552a03d782ab99d00ea1d1377a01bacdc6b8b2808e255c954a607775d0",
         "viewed_full": true,
         "review_flags": []
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 4,
+      "run_id": "20261104T161400+0800-cycle-4",
+      "species_id": 201,
+      "stage": "REVIEWED",
+      "at": "2026-11-04T16:22:00+08:00",
+      "credited": false,
+      "evidence": {
+        "viewed_full": true,
+        "viewed_crops": [
+          "fully-grown-young",
+          "adult-pattern-feet"
+        ],
+        "edit_count": 0,
+        "assets": {
+          "owl-pet/production/reviewed/201-otus-mantananensis-v2-reviewed-master.png": {
+            "sha": "93a50a7937c3d530667157e03f3e3a195ed94224",
+            "size": 3150873
+          },
+          "owl-pet/production/review-crops/201-otus-mantananensis-v2-fully-grown-young.png": {
+            "sha": "5cbb611f66f6978f14dd1c18e3bbbff6db3b0712",
+            "size": 722167
+          },
+          "owl-pet/production/review-crops/201-otus-mantananensis-v2-adult-pattern-feet.png": {
+            "sha": "48bc96a3dbf96c75e8751ba86c92b484d6f9c1f9",
+            "size": 1355478
+          }
+        },
+        "review_outcome": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "remaining_unknowns": [
+          "nominate juvenile plumage",
+          "exact juvenile age",
+          "flight ability",
+          "sex-specific size difference",
+          "cross-subspecies generality"
+        ]
       }
     }
   ]

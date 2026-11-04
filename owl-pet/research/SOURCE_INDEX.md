@@ -637,3 +637,23 @@
 - Unknown: exact individual feather map, iris chronology, sex-specific growth, universal cavity material, and precise first-flight ability for the pictured individual.
 - Source accounting: new stable sources 0; re-read/reused verified sources 5; corrected design boundaries 2.
 - Links: `research/species/42-athene-brama-v5.md`; `production/runs/20261105T020900+0800-cycle-4.md`; planned concept v5.
+
+
+## 2026-11-05 — #43 *Athene blewitti* v5 — 28–30-day weak-flight and iris boundary
+
+### FOW-WRCS-EAST-KALIBHIT-2017-P26-28-45-46
+- **Title / authors / year:** *A Study on the Population, Demography and Ecology of the Forest Owlet Athene (Heteroglaux) blewitti in East Kalibhit Forests, Khandwa District, Madhya Pradesh* — Prachi Mehta, Akshay V. Anand & Jayant Kulkarni, 2017.
+- **URL / type / pages / accessed:** https://www.raptors.org.in/assets/pdf/projects/Ecology-in-East-Kalibhit-Forests-WRCS.pdf ; institutional long-term field technical report, printed pp.26–28 and 45–46; accessed 2026-11-05.
+- **Scope / facts:** field work Dec 2012–Apr 2017. The report profiles banded females, males and juveniles with sex/status-labeled field photographs; p.26 identifies a sex-unknown Bandababa juvenile naturally perched beside a tree trunk. Fifteen nests were located in 2013–2017; the study area includes dry, open woody vegetation and farm-land edges.
+- **Limits / design use:** the juvenile profile has no hatch date, exact age, iris chronology or feather sequence, so it cross-checks natural support/environment only and does not replace the BNHS known-stage sequence. Adult photos do not establish visible sex dimorphism.
+
+### Re-read primary evidence and corrected boundary
+- Re-read `FOW-MEHTA-RSD-2021`: 27 females and 19 males, ten measurements, none significantly different; adult display remains equal-scale/shared-plumage. The search result's PDF redirect was malformed, so the paper's indexed abstract and repository record were used, not unrelated PDF lines.
+- Re-read `FOW-ISHTIAQ-2005`, pp.197–205: four nests, three intensively monitored; chicks fledged at about 40 d and remained parent-dependent about 45 d. This is retained as study/sample variation rather than a universal day.
+- Re-read `FOW-JATHAR-2004`, breeding report pp.49–55: 28–30 d young emerged/perched nearby, darker with stumpy tail, ill-developed primaries/secondaries, highly blotched ventrum and weak reluctant flight.
+- Reused `FOW-MIKKOLA-2013`, `FOW-KOPARDE-2018` and `FOW-KHAN-2023-HABITAT`; uploaded Mikkola was unavailable and not represented as freshly read.
+- Correction: prior v4 prompt allowed a yellow juvenile iris despite the card listing iris chronology unknown. V5 uses a dark age-indeterminate iris and keeps the 28–30 d bird supported; adult-like alertness does not prove adult iris colour.
+- Current name: *Athene blewitti*; historical *Heteroglaux blewitti*.
+- Unknown: exact individual age, iris transition, daily feather chronology, population variation, universal nest geometry and any diagnostic visible adult sex character.
+- Source accounting: new verified 1; re-read/reused verified 6; corrected boundaries 2.
+- Links: `research/species/43-athene-blewitti-v5.md`; `production/runs/20261105T022100+0800-cycle-5.md`; planned concept v5.

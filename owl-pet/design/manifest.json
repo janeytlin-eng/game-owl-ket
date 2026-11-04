@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T23:27:16.871+08:00",
+  "updated": "2026-11-04T23:28:53.097+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19107,13 +19107,51 @@
       "auxiliary_review_crop_size_bytes": 1514008,
       "auxiliary_review_crop_sha256": "a2c8cf9c32c33888e94929018bfe7b56dd2a09e10d99415a97222a0d3be1b73e",
       "archive_note": "Version collision corrected before archive: v4 already exists at commit 45290cc7957ff9e60a93727a706e76be8c71043c and remains untouched; the current work is v5. One targeted edit reduced an oversized female and shortened/softened the juvenile's adult-like spotted wing. Full master plus juvenile and adult-comparison crops were reopened. Kertell 1986 pp.91-101, NPS Denali and E-Fauna BC were read; Mikkola pp.360-363 and Huhtala et al. 1987 were reused. Science remains false.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null,
-      "fixed_archive_commit": null,
-      "archive_tree": null,
-      "verified_at": null,
-      "readback": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "dd34d60ebf133e2810de5796ed81d732260b000d",
+      "fixed_archive_commit": "dd34d60ebf133e2810de5796ed81d732260b000d",
+      "archive_tree": "0c9ae5da281af52e602d660fb48bb636350ba78d",
+      "verified_at": "2026-11-04T23:28:53.097+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "GitHub connector immutable-commit exact path/blob readback at the archive commit; locally assembled manifests parsed before upload and immutable manifest blob identities matched; original and two diagnostic crops were visually inspected",
+        "commit_sha": "dd34d60ebf133e2810de5796ed81d732260b000d",
+        "tree_sha": "0c9ae5da281af52e602d660fb48bb636350ba78d",
+        "paths_verified": 15,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "owl-pet/design/concepts/10-surnia-ulula-v5.png",
+          "blob": "65bcbcdf08d8c52770da0d8f16bca0eff7aa4214",
+          "bytes": 2992277
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/10-surnia-ulula-v5-generated.png",
+          "blob": "65bcbcdf08d8c52770da0d8f16bca0eff7aa4214",
+          "bytes": 2992277
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/10-surnia-ulula-v5-reviewed-master.png",
+          "blob": "65bcbcdf08d8c52770da0d8f16bca0eff7aa4214",
+          "bytes": 2992277
+        },
+        "juvenile_crop": {
+          "blob": "a86f0d600e579e30ee7c9595fbda1e1383b86f07",
+          "bytes": 587241
+        },
+        "adult_crop": {
+          "blob": "211484c2bd162c7a081b955c93a822419748fd95",
+          "bytes": 1514008
+        },
+        "manifest_counts": {
+          "design_image": 660,
+          "design_legacy": 661,
+          "production": 651
+        },
+        "version_correction": "Existing verified v4 retained; current full-resolution revision archived as v5."
+      }
     }
   ],
   "updated_at": "2026-11-04T22:52:12+08:00"

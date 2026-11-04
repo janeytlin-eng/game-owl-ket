@@ -1,3 +1,9 @@
+## 2026-11-04 #10 *Surnia ulula* v5 VERIFIED
+
+- Final cross-manifest checking found the existing verified v4 at `45290cc7957ff9e60a93727a706e76be8c71043c`; it remains untouched. The new full-resolution work was corrected to v5 before archive.
+- Archive `dd34d60ebf133e2810de5796ed81d732260b000d`; exact immutable path/blob checks passed for 15 paths, including seven binary paths and three unique image blobs; manifests parse locally at 660/661/651.
+- One imagegen edit reduced the female scale and shortened/softened the departure-stage juvenile wing. PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**; batch 3/6, next 4.
+
 ## 2026-11-04 #127 *Megascops albogularis* v3 VERIFIED
 
 - Corrected archive `677738031740e1d1da74c3b5a4ed0c5083b437c9`; tree `eb2976c8ba019fc96b914c547abaedef8088023a` returned 2,717 non-truncated entries and exact binary path/blob/byte tuples.

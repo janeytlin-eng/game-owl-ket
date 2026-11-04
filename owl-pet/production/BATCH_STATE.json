@@ -13512,30 +13512,23 @@
           "revision_increment": 1,
           "commit_sha": "661d2cacf3703d736d7dc1f88fbdc912a69783c5",
           "run_record": "owl-pet/production/runs/20261104T225412+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Surnia ulula",
+          "species_id": 10,
+          "version": 5,
+          "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "dd34d60ebf133e2810de5796ed81d732260b000d",
+          "run_record": "owl-pet/production/runs/20261104T231133+0800-cycle-3.md"
         }
       ],
-      "next_cycle": 3,
-      "active_lease": {
-        "owner": "codex-workmode",
-        "run_id": "20261104T231133+0800-cycle-3",
-        "batch_id": "20261104T223131+0800",
-        "cycle": 3,
-        "heartbeat_at": "2026-11-04T23:27:16.871+08:00",
-        "expires_at": "2026-11-04T23:42:16.871+08:00"
-      },
-      "in_progress": {
-        "cycle": 3,
-        "run_id": "20261104T231133+0800-cycle-3",
-        "species": "Surnia ulula",
-        "species_id": 10,
-        "version": 5,
-        "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "started_at": "2026-11-04T23:11:33.617+08:00",
-        "run_record": "owl-pet/production/runs/20261104T231133+0800-cycle-3.md",
-        "heartbeat_at": "2026-11-04T23:27:16.871+08:00"
-      },
-      "current_stage": "ARCHIVED",
+      "next_cycle": 4,
+      "active_lease": null,
+      "in_progress": null,
+      "current_stage": "VERIFIED",
       "events": [
         {
           "at": "2026-11-04T23:27:16.871+08:00",
@@ -13563,6 +13556,26 @@
               661,
               651
             ]
+          }
+        },
+        {
+          "at": "2026-11-04T23:28:53.097+08:00",
+          "cycle": 3,
+          "run_id": "20261104T231133+0800-cycle-3",
+          "stage": "VERIFIED",
+          "species": "Surnia ulula",
+          "version": 5,
+          "evidence": {
+            "archive_commit": "dd34d60ebf133e2810de5796ed81d732260b000d",
+            "archive_tree": "0c9ae5da281af52e602d660fb48bb636350ba78d",
+            "paths_verified": 15,
+            "binary_paths_verified": 7,
+            "manifest_counts": [
+              660,
+              661,
+              651
+            ],
+            "exact_path_blob_readback": true
           }
         }
       ]
@@ -13707,7 +13720,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-04T23:27:16.871+08:00",
+  "updated_at": "2026-11-04T23:28:53.097+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

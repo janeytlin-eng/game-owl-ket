@@ -832,3 +832,7 @@ An adult soft-part colour is not automatically a juvenile-stage fact. If the age
 ## Brancher ability boundary — applied and checked 2026-11-05
 
 When a species-specific source documents a juvenile leaving a cavity and remaining provisioned on nearby branches, encode **support and dependence**, not independent flight. Unless flight is separately observed, keep both feet on a broad natural support, use a folded development-appropriate wing, avoid launch/open-wing poses, and label flight ability unknown. This rule was applied and crop-checked on #44 *Strix uralensis* v5; it is not a blanket scientific validation for other plates.
+
+
+### Balance flapping is not flight; preserve dated conflicts (applied on #45 v5)
+When a juvenile is documented walking, scrambling or flapping for balance, do not convert that action into independent flight. Keep natural support visible and bound the wing to the photographed developmental stage. If two parts of one chronology disagree by a day, retain the conflict and use a conservative interval rather than silently selecting a date. #45 v5 applied both rules: its first render was edited to shorten mature-looking remiges, then full/crop recheck passed with limitations. This validates the correction only, not a universal *Strix seloputo* development curve.

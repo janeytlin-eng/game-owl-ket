@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-05T03:57:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20116,7 +20116,60 @@
         }
       },
       "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
+    },
+    {
+      "id": "45-strix-seloputo-v5",
+      "path": "design/concepts/45-strix-seloputo-v5.png",
+      "species_id": 45,
+      "scientific_name": "Strix seloputo",
+      "common_name": "Spotted Wood Owl",
+      "historical_names": [],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED_READBACK_PENDING",
+      "source_ids": [
+        "SOWL-BESG-2022-P1",
+        "SOWL-BESG-2022-P2",
+        "SOWL-BESG-2018-FALLEN-OWLET",
+        "SOWL-NPARKS-FFW-2019",
+        "SOWL-MBR-OOI-2025-P39-40",
+        "SOWL-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-05--45-strix-seloputo-v5--dated-brancher-balance-flap-and-first-flight-boundary",
+      "research_record": "research/species/45-strix-seloputo-v5.md",
+      "review_record": "research/reviews/45-strix-seloputo-v5-review.md",
+      "run_record": "production/runs/20261105T033723+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2675469,
+      "git_blob": "bff90f0cc26c232ac913e029a93bc017a307c62a",
+      "generated_path": "production/generated/45-strix-seloputo-v5-generated.png",
+      "generated_blob": "bff90f0cc26c232ac913e029a93bc017a307c62a",
+      "reviewed_path": "production/reviewed/45-strix-seloputo-v5-reviewed-master.png",
+      "reviewed_blob": "bff90f0cc26c232ac913e029a93bc017a307c62a",
+      "adults_review_crop": "production/review-crops/45-strix-seloputo-v5-adults.png",
+      "adults_review_blob": "51b2572170c321473be7e7eeb510c737670e21ea",
+      "juvenile_review_crop": "production/review-crops/45-strix-seloputo-v5-juvenile.png",
+      "juvenile_review_blob": "752ed8d153321b25c1ae1011d4d932a2f895f939",
+      "reviewed_at": "2026-11-05T03:51:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1349666,
+      "adults_review_sha256": "c4c5869ee3918f463d934076dd8243ff5c17a5d94e4b597adb6b47befddc2484",
+      "juvenile_review_size_bytes": 629109,
+      "juvenile_review_sha256": "837f0bc4493e57302d1e8eecabd68e24b9744cb7cf0a129c8171f03cfded14f4"
     }
   ],
-  "updated_at": "2026-11-05T02:54:00+08:00"
+  "updated_at": "2026-11-05T03:57:00+08:00"
 }

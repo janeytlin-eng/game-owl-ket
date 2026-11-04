@@ -2941,3 +2941,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Original](concepts/44-strix-uralensis-v5.png) · [Research](../research/species/44-strix-uralensis-v5.md) · [Review](../research/reviews/44-strix-uralensis-v5-review.md) · [Run](../production/runs/20261105T023100+0800-cycle-6.md)
 - Full-resolution v5: moderately larger adult female; unsexed day-29 mesoptile brancher with short folded wing, hidden tail and continuous support. No edit; PASS_WITH_LIMITATIONS; science false.
+
+
+## #45 Spotted Wood Owl — *Strix seloputo* — v5 ARCHIVED (readback pending)
+
+- [Original](concepts/45-strix-seloputo-v5.png) · [Research](../research/species/45-strix-seloputo-v5.md) · [Review](../research/reviews/45-strix-seloputo-v5-review.md) · [Run](../production/runs/20261105T033723+0800-cycle-1.md)
+- Full-resolution v5: equal-scale adults; one-family 2–4-day post-fledging downy brancher with short balance wing, two-foot support and independent-flight uncertainty. One edit shortened overly mature remiges. PASS_WITH_LIMITATIONS; science false; readback pending.

@@ -14402,9 +14402,9 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261105T033723+0800-cycle-1",
-        "heartbeat_at": "2026-11-05T03:51:00+08:00",
-        "expires_at": "2026-11-05T04:06:00+08:00",
-        "stage": "REVIEWED"
+        "heartbeat_at": "2026-11-05T03:57:00+08:00",
+        "expires_at": "2026-11-05T04:12:00+08:00",
+        "stage": "ARCHIVED"
       },
       "in_progress": {
         "cycle": 1,
@@ -14413,9 +14413,9 @@
         "version": 5,
         "action": "REVISION",
         "run_record": "owl-pet/production/runs/20261105T033723+0800-cycle-1.md",
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       },
-      "current_stage": "REVIEWED",
+      "current_stage": "ARCHIVED",
       "events": [
         {
           "cycle": 1,
@@ -14492,6 +14492,30 @@
             "adult_crop_blob": "51b2572170c321473be7e7eeb510c737670e21ea",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-05T04:06:00+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "ARCHIVED",
+          "at": "2026-11-05T03:57:00+08:00",
+          "run_id": "20261105T033723+0800-cycle-1",
+          "species_id": 45,
+          "credited": false,
+          "evidence": {
+            "concept_blob": "bff90f0cc26c232ac913e029a93bc017a307c62a",
+            "reviewed_blob": "bff90f0cc26c232ac913e029a93bc017a307c62a",
+            "juvenile_crop_blob": "752ed8d153321b25c1ae1011d4d932a2f895f939",
+            "adult_crop_blob": "51b2572170c321473be7e7eeb510c737670e21ea",
+            "manifest_counts": {
+              "design_image": 670,
+              "design_legacy": 671,
+              "production": 661
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-05T04:12:00+08:00"
           }
         }
       ]
@@ -14636,7 +14660,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T03:51:00+08:00",
+  "updated_at": "2026-11-05T03:57:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

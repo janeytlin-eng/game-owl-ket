@@ -1,7 +1,7 @@
 ## #195 Rajah Scops Owl — *Otus brookii solokensis* — v2 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/55fd0c2c89202e42a91a0222d67b105e82a59b3d/owl-pet/design/concepts/195-otus-brookii-v2.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/55fd0c2c89202e42a91a0222d67b105e82a59b3d) · [research](../research/species/195-otus-brookii-v2.md) · [run](../production/runs/20261104T155900+0800-cycle-3.md)
-- VERIFIED; exact six image tuples and complete manifests 648/649/639 read back; PASS_WITH_LIMITATIONS; science false; unique176/251; batch3/6 next4. Verification `PENDING_SELF`.
+- VERIFIED; exact six image tuples and complete manifests 648/649/639 read back; PASS_WITH_LIMITATIONS; science false; unique176/251; batch3/6 next4. Verification `0f845099c59a38b97b28003c955b60da89ffab1d`.
 
 ## #195 Rajah Scops Owl — *Otus brookii solokensis* — v2 science revision
 

@@ -1,14 +1,11 @@
 # Owl prototype production status
 
-- Last verified: #127 *Megascops albogularis* v3; corrected archive `677738031740e1d1da74c3b5a4ed0c5083b437c9`.
+- Last verified: #13 *Micrathene whitneyi* v8; corrected archive `1c6ca7d1d5662ae2b241d2f5b1320ac5fa2fc5d9`.
 - Unique species archived: 176/251.
-- Batch `20261104T183100+0800`: 3/6 verified; next cycle 4.
-- Manifest counts: 654 / 655 / 645; science=false.
+- Batch `20261104T223131+0800`: 1/6 verified; next cycle 2.
+- Manifest counts: 658 / 659 / 649; science=false.
+- Active lease: none after verified cycle 1.
 
-- 2026-11-04T20:51:43+08:00 #127 VERIFIED after recursive-tree, exact path/blob/byte and three-manifest readback. The first truncated archive was rejected and not credited.
-- 2026-11-04T20:31:34+08:00 cycle 3 first selected #126, then duplicate audit found existing #164 *Strix hadorami*; withdrawn before research/image and no credit.
-- 2026-11-04T20:33:07+08:00 cycle 3 reselected distinct #127.
-- 2026-11-04T20:35:25+08:00 #127 RESEARCH_READY.
-- 2026-11-04T20:37:59+08:00 #127 IMAGE_GENERATED; juvenile wing flagged for edit.
-- 2026-11-04T20:40:40+08:00 #127 REVIEWED after one targeted wing/tail edit; PASS_WITH_LIMITATIONS.
-- Corrected archive tree `eb2976c8ba019fc96b914c547abaedef8088023a`: 2,717 entries, not truncated; binary sizes and hashes match local files.
+- 2026-11-04T22:52:12+08:00 #13 VERIFIED after original/crop review, two juvenile-stage edits, recursive-tree and exact path/blob/byte readback.
+- First archive `474365ef00254deb2bbf534524e0dbb2ccc62dbd` was rejected because all binary uploads were truncated by the transport cap; it received no cycle credit.
+- Corrected archive `1c6ca7d1d5662ae2b241d2f5b1320ac5fa2fc5d9` used aligned chunked uploads; remote sizes and local Git object hashes match.

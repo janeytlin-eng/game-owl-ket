@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T22:50:49+08:00",
+  "updated": "2026-11-04T22:52:12+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18910,12 +18910,53 @@
       "auxiliary_review_crop_size_bytes": 1102262,
       "auxiliary_review_crop_sha256": "bcd4c9bd355337040c34d634bf1016f3f603b4c3ea402d5cae0f6eb4087a7a09",
       "archive_note": "Two targeted edits corrected adult-like juvenile remiges and an over-downy body. V1-v7 remain intact; v5 confirmation remains historical. Mikkola pp.418-420 and ADW were reused from v7, while Ligon primary pp.34-35, Cornell ID and NPS habitat were read this run. Scientific verification remains false. First archive readback detected all five binary blobs were truncated to ~786 KB by the transport output cap; the cycle was not credited. Complete files were re-uploaded in 450,000-byte aligned chunks and the archive rebuilt before verification.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null,
-      "fixed_archive_commit": null,
-      "archive_tree": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "1c6ca7d1d5662ae2b241d2f5b1320ac5fa2fc5d9",
+      "fixed_archive_commit": "1c6ca7d1d5662ae2b241d2f5b1320ac5fa2fc5d9",
+      "archive_tree": "d0557c1501d0af7faa1c863287702119c90402b5",
+      "verified_at": "2026-11-04T22:52:12+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "GitHub connector immutable-commit recursive-tree and exact path/blob/byte readback; three manifests fetched from fixed archive commit and parsed; local Git object hashes matched remote blobs; original and two crops visually inspected",
+        "commit_sha": "1c6ca7d1d5662ae2b241d2f5b1320ac5fa2fc5d9",
+        "tree_sha": "d0557c1501d0af7faa1c863287702119c90402b5",
+        "paths_verified": 14,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "owl-pet/design/concepts/13-micrathene-whitneyi-v8.png",
+          "blob": "672b0478b3f52f5a1144dc25e4e535688349aa1a",
+          "bytes": 2605892
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/13-micrathene-whitneyi-v8-generated.png",
+          "blob": "672b0478b3f52f5a1144dc25e4e535688349aa1a",
+          "bytes": 2605892
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/13-micrathene-whitneyi-v8-reviewed-master.png",
+          "blob": "672b0478b3f52f5a1144dc25e4e535688349aa1a",
+          "bytes": 2605892
+        },
+        "juvenile_crop": {
+          "blob": "3e016c29c2009c288b16a2a6d66fe93e101e9e46",
+          "bytes": 803769
+        },
+        "adult_crop": {
+          "blob": "277e1d769873550a5fdb8bb784608e1b2359ee2d",
+          "bytes": 1102262
+        },
+        "manifest_counts": {
+          "design_image": 658,
+          "design_legacy": 659,
+          "production": 649
+        },
+        "source_ids_present": 3,
+        "archive_repair": "First archive commit 474365ef00254deb2bbf534524e0dbb2ccc62dbd contained transport-truncated binaries and was rejected. Corrected archive commit uses aligned chunk uploads and exact size/hash readback."
+      }
     }
   ],
-  "updated_at": "2026-11-04T22:50:49+08:00"
+  "updated_at": "2026-11-04T22:52:12+08:00"
 }

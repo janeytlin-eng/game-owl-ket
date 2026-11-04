@@ -1,3 +1,10 @@
+## #195 Rajah Scops Owl — *Otus brookii solokensis* — v2 science revision
+
+- Concept: [195-otus-brookii-v2.png](concepts/195-otus-brookii-v2.png)
+- Research: [195-otus-brookii-v2.md](../research/species/195-otus-brookii-v2.md)
+- Run: [20261104T155900+0800-cycle-3.md](../production/runs/20261104T155900+0800-cycle-3.md)
+- ARCHIVED; immutable readback pending; PASS_WITH_LIMITATIONS; science false; unique176/251.
+
 ## #134 Long-tufted Screech-Owl — *Megascops sanctaecatarinae* — v3 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/b438d55e81071b49c1a94c6b96d5765f9c9f98f7/owl-pet/design/concepts/134-megascops-sanctaecatarinae-v3.png?raw=1) · [fixed archive](https://github.com/janeytlin-eng/game-owl-ket/commit/b438d55e81071b49c1a94c6b96d5765f9c9f98f7) · [research](../research/species/134-megascops-sanctaecatarinae-v3.md) · [run](../production/runs/20261031T194424+0800-cycle-2.md)

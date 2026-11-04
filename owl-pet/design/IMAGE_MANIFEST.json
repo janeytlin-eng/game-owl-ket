@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T15:57:00+08:00",
+  "updated": "2026-11-04T16:10:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18164,7 +18164,66 @@
           "production": 638
         }
       }
+    },
+    {
+      "id": "195-otus-brookii-v2",
+      "species_id": 195,
+      "scientific_name": "Otus brookii",
+      "subspecies": "Otus brookii solokensis",
+      "historical_names": [
+        "Pisorhina solokensis",
+        "Otus brookii solokensis"
+      ],
+      "common_name": "Rajah Scops Owl (Sumatran subspecies)",
+      "version": 2,
+      "prior_versions_retained": [
+        1
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/195-otus-brookii-v2.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "Sumatran v2 follows direct island evidence: deep dark crown, rufous facial field, broken white supercilia/inner tufts, pale yellow-orange eyes, soft sparse enlarged pattern, feathered tarsi and basal toes, and a moss-lined natural cavity context. The age-unknown older mesoptile has a compact soft wing/tail and full branch support. One targeted edit shortened/softened juvenile wing and all tufts. Exact juvenile age/flight, quantitative sex difference and race-level morph stability remain unknown; science=false.",
+      "source_ids": [
+        "RAJ-GOODDIE-2015-P70-81",
+        "RAJ-MARSHALL-1978-P20",
+        "RAJ-HARTERT-1893-P39-40",
+        "RAJ-ITIS-686780-1063383-2026",
+        "RAJ-MIK2013-P168",
+        "RAJ-BOWMAN2014-JUV"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--195-otus-brookii-solokensis-v2--sumatran-nest-and-mesoptile-boundary",
+      "research_record": "research/species/195-otus-brookii-v2.md",
+      "run_record": "production/runs/20261104T155900+0800-cycle-3.md",
+      "reviewed_at": "2026-11-04T16:08:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3054049,
+      "sha256": "3e66d3413a974bacce91988e3ffafe68a300f235d9bad86ba3cd55636eb81bdc",
+      "git_blob": "546567292cb69c07e98243248a6125df5fd37d50",
+      "generated_path": "production/generated/195-otus-brookii-v2-generated-master.png",
+      "generated_blob": "6011cfdf75c03446ed0a0451ac671f731907ccba",
+      "generated_size_bytes": 3292694,
+      "generated_sha256": "e0a6871131fe33a15d2237cfe99fff8612efaa85c3bef4da5a1ea1edcfcf34b1",
+      "intermediate_edit_path": "production/generated/195-otus-brookii-v2-edit1.png",
+      "intermediate_edit_blob": "546567292cb69c07e98243248a6125df5fd37d50",
+      "reviewed_path": "production/reviewed/195-otus-brookii-v2-reviewed-master.png",
+      "reviewed_blob": "546567292cb69c07e98243248a6125df5fd37d50",
+      "review_crop_path": "production/review-crops/195-otus-brookii-v2-older-mesoptile.png",
+      "review_crop_blob": "3c17008aae47ffc804c1c8ef989bba3090afeffe",
+      "review_crop_size_bytes": 882364,
+      "review_crop_sha256": "6ccc4638ca79a8e3aad5c67725da10bb220bbc899f70426a14dda53114a650f9",
+      "auxiliary_review_crop_path": "production/review-crops/195-otus-brookii-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "8edfcde1297291f387e51a5832b6fbbcbed460d5",
+      "auxiliary_review_crop_size_bytes": 1383472,
+      "auxiliary_review_crop_sha256": "2ec576256d1482c99d3ebabfc1cfbb3ca059ca46a940a196d254ad9cb94eb5a3",
+      "archive_note": "Initial full image was opened and rejected for adult-hard long juvenile wing and exaggerated ear tufts. One targeted imagegen edit shortened/softened juvenile wing/tail, reduced tufts and exposed toe-base feathering. Final full plate and two original-detail crops were opened. Science remains false.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": "PENDING_SELF"
     }
   ],
-  "updated_at": "2026-11-04T15:57:00+08:00"
+  "updated_at": "2026-11-04T16:10:00+08:00"
 }

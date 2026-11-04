@@ -799,3 +799,37 @@
 ### Reuse and correction
 - Reused `BROW-MIKKOLA-2013-P326-327` from the existing #47 record; the user-uploaded file was unavailable and was not freshly read.
 - Corrected boundary: the paper's “34-day chick” and separately captioned “ready to fly” stage must not be collapsed. Adult mass/incubation direction does not justify a large display-height difference.
+
+
+## 2026-11-05 — #48 *Strix nivicolum* v5 — Taiwanese juvenile and taxonomy boundary
+
+### HIML-NTM-YAMADAE
+- **Title / institution / record:** 灰林鴞 collection record TMAV0249 — National Taiwan Museum.
+- **URL / type / section / accessed:** https://collections.culture.tw/ntm_collectionsweb/Collection?GID=0WMRM60WMB ; official museum collection/species record, lines 73–113; accessed 2026-11-05.
+- **Scope / facts:** *Strix nivicolum yamadae*; round untufted head, yellow-green bill, buff/brown feathered tarsi/toes, dark-edged tawny/brown facial disc, dark back, cream scapular patches, buff-barred wing/tail and pale crossed underparts. Juvenile is described as very pale with sparse white down on head/underparts and blurred dark ventral marks that darken/sharpen with age.
+- **Limits:** TMAV0249 has damaged wing and tail and no juvenile age or locomotor data; prose may synthesize the taxon rather than one juvenile specimen. Supports palette/identity and an age-unknown stage only.
+- **Links:** `research/species/48-strix-nivicolum-v5.md`; concept v5; run `owl-pet/production/runs/20261105T043300+0800-cycle-4.md`.
+
+### HIML-LEE-2025
+- **Title / author / year:** *Nest Box Utilization by the Himalayan Owl (Strix nivicolum) and Its Implications for Conservation Planning in South Korea* — Sang-Yeon Lee, 2025.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.22920/PNIE.2025.6.3.143 ; https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003230012 ; peer-reviewed institutional journal article, PNIE 6(3):143–147; KCI abstract read 2026-11-05.
+- **Facts:** first confirmed South Korean nest-box breeding record in the article; a pair occupied the box and two chicks fledged.
+- **Limits / design decision:** accessible abstract supplies no hatch chronology, plumage plates or flight threshold. It supports nest-box breeding context only and is not used to age or shape the Taiwanese juvenile.
+
+### HIML-TAICOL-2026-T0033094
+- **Title / institution / accessed:** `Strix nivicolum yamadae` taxon t0033094 — Catalogue of Life in Taiwan (TaiCOL), accessed 2026-11-05.
+- **URL / type / section:** https://taicol.tw/zh-hant/taxon/t0033094 ; official national taxonomy record, accepted name and nomenclatural-history lines 88–220.
+- **Facts:** accepts *Strix nivicolum yamadae* and maps earlier *Strix aluco yamadae* and *Strix nivicola yamadae*; cites Taiwan checklists through 2026.
+- **Limits / design decision:** taxonomy only, no juvenile development. Artwork title remains the repository species-level *Strix nivicolum* while old combinations remain searchable metadata.
+
+### HIML-TAIEOL-2013-YAMADAE
+- **Title / authors / institution:** *Strix nivicolum yamadae* species account — Lin Wen-Hong & Liu Ru-Xiao, Taiwan Encyclopedia of Life / Taiwan bird account, updated 2013.
+- **URL / type / sections / accessed:** https://taieol.tw/pages/75471/articles ; institutional species account, adult description/habitat/breeding sections; accessed 2026-11-05.
+- **Facts:** c.40 cm; dark eyes with thin pinkish eye ring, yellow bill, crossed ventral marks, feathered tarsi; Taiwanese records mainly above 1,800 m in conifer–broadleaf mixed forest; nests in tree holes or other birds' old nests; young leave in May–June.
+- **Limits / design decision:** source text uses older *Strix aluco yamadae* and gives no individual age or feather chronology. Supports habitat and adult identity, not an exact chick stage.
+
+### V5 evidence accounting
+- New entries added to the persistent index: 4; re-read/reused repository source: 1; corrected boundaries: 2.
+- Corrected boundaries: (1) South Korean fledging is not a Taiwanese age/morphology key; (2) Mikkola's adjacent *S. newarensis* very-white juvenile remains excluded.
+- Unknown: exact juvenile age, feather sequence, flight/climbing ability, sex dimensions and cross-population transfer.
+- Uploaded Mikkola guide was unavailable and was not represented as freshly read.

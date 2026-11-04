@@ -861,3 +861,27 @@
 - New verified sources: 2; re-read/reused verified sources: 3; corrected boundaries: 2.
 - Unknown: exact juvenile age/sex, remex and rectrix timing, movement/flight ability, sexed linear dimensions and cross-subspecies transfer.
 
+## 2026-11-05 — #50 *Strix virgata* v5 — current taxonomy gate and sex-scale correction
+
+### MOWL-CLEMENTS-2026
+- **Title / institution / year:** Clements Checklist v2026 citation and downloads — Cornell Lab of Ornithology, 2026.
+- **URL / accessed:** https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/october-2025/2026-citation-checklist-downloads/ ; accessed 2026-11-05.
+- **Type / scope:** current global checklist release and downloadable species/group/subspecies data.
+- **Facts:** 2026 checklist, eBird taxonomy and integrated checklist are released as current reference datasets.
+- **Limits:** release page is taxonomy infrastructure, not morphology/development; historical-locality rows require direct taxon mapping.
+- **Design use:** current-name gate only; no appearance or age inference.
+- **Links:** `research/species/50-strix-virgata-v5.md`; planned concept v5; run `production/runs/20261105T055500+0800-cycle-6.md`.
+
+### MOWL-ITIS-SQUAMULATA-686993-2026
+- **Institution / accessed:** ITIS, accessed 2026-11-05.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686993&source=to_print
+- **Facts:** accepts *Strix virgata squamulata*; maps *Ciccaba virgata squamulata* and *Syrnium squamulatum*; cites IOC v15.1; Mexico.
+- **Limits/design:** taxonomy only; does not transfer every old locality/photo automatically. Retains the v4 locality gate.
+
+### Re-read, reuse and correction
+- Re-read `MOWL-GERHARDT-1997` full USDA PDF pp.190–196: female mass 334.9 g vs male 239.7 g, but wing/tail means differ only c.5–6%; use fullness, not a height multiplier.
+- Re-read `MOWL-GERHARDT-1994`: 13 Tikal cavity nests, young left 27–33 d; nest departure is not a universal independent-flight threshold or a Colombian mesoptile wing key.
+- Re-read `MOWL-OWLPAGES-ID-2020`; reused `MOWL-MIKKOLA-2013-P332` from repository transcription because upload was unavailable.
+- New verified sources: 2; re-read/reused verified sources: 4; corrected boundaries: 2.
+- Unknown: selected juvenile age/sex, continuous remex/rectrix sequence, locomotor threshold, cross-population transfer and current mapping of every historical record.
+

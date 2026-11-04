@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T23:08:19.256+08:00",
+  "updated": "2026-11-04T23:10:01.220+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19178,9 +19178,54 @@
       "auxiliary_review_crop_size_bytes": 1340884,
       "auxiliary_review_crop_sha256": "804f265f705689f5ff944fa4074cc951b1fc36afeb193c762492440135173bd3",
       "archive_note": "One targeted edit shortened and softened the juvenile wing while retaining formed remiges permitted by actual first flight. V1-v5 remain intact and historical approval does not transfer. Primary Smith & Devine printed pp.98-103 plus Cornell/USFS/USGS sources were read; Mikkola pp.207-209 were reused from the existing v5 record. Scientific verification remains false.",
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "661d2cacf3703d736d7dc1f88fbdc912a69783c5",
+      "fixed_archive_commit": "661d2cacf3703d736d7dc1f88fbdc912a69783c5",
+      "archive_tree": "d4492212d01f86ee2b14ff27f166af52d60f1717",
+      "verified_at": "2026-11-04T23:10:01.220+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "GitHub connector immutable-commit recursive-tree and exact path/blob/byte readback; three manifests fetched from archive commit and parsed; local Git object hashes matched remote blobs; original and two diagnostic crops visually inspected",
+        "commit_sha": "661d2cacf3703d736d7dc1f88fbdc912a69783c5",
+        "tree_sha": "d4492212d01f86ee2b14ff27f166af52d60f1717",
+        "tree_entry_count": 2766,
+        "tree_truncated": false,
+        "paths_verified": 15,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "owl-pet/design/concepts/17-megascops-asio-v6.png",
+          "blob": "d140fa8b4114931a872c414659fd1eee50042624",
+          "bytes": 3003135
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/17-megascops-asio-v6-generated.png",
+          "blob": "d140fa8b4114931a872c414659fd1eee50042624",
+          "bytes": 3003135
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/17-megascops-asio-v6-reviewed-master.png",
+          "blob": "d140fa8b4114931a872c414659fd1eee50042624",
+          "bytes": 3003135
+        },
+        "juvenile_crop": {
+          "blob": "0a10ef01c76fddce06b0bd2db4ca0dcb143bc1dc",
+          "bytes": 799776
+        },
+        "adult_crop": {
+          "blob": "b3cc35de671260b674aaf69ed5f019fe0895daf8",
+          "bytes": 1340884
+        },
+        "manifest_counts": {
+          "design_image": 659,
+          "design_legacy": 660,
+          "production": 650
+        },
+        "source_ids_present": 5
+      }
     }
   ],
-  "updated_at": "2026-11-04T23:08:19.256+08:00"
+  "updated_at": "2026-11-04T23:10:01.220+08:00"
 }

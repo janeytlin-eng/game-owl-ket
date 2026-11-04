@@ -22054,23 +22054,23 @@
         "run_record": "owl-pet/production/runs/20261105T062700+0800-cycle-1.md",
         "archive_commit": "00e3a79e6b2a7b646cfeaeeb270a4e8aae78b4c6",
         "verification_tree": "de21042c57bd553caa39806544eb2a2e3fe8e9ff"
+      },
+      {
+        "cycle": 2,
+        "species": "Strix hylophila",
+        "species_id": 52,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "commit_sha": "acd323010268b4215627276cb23edc7df87d26f8",
+        "run_record": "owl-pet/production/runs/20261105T065000+0800-cycle-2.md",
+        "archive_commit": "394a468ba858f7948e30c0a288679979323d2747",
+        "verification_tree": "b1322a9a7debd8fac7e70ef2bdc7bf3f86fe64a5"
       }
     ],
-    "next_cycle": 2,
-    "active_lease": {
-      "owner": "codex-automation",
-      "run_id": "20261105T065000+0800-cycle-2",
-      "heartbeat_at": "2026-11-05T07:05:00+08:00",
-      "expires_at": "2026-11-05T07:20:00+08:00"
-    },
-    "in_progress": {
-      "cycle": 2,
-      "run_id": "20261105T065000+0800-cycle-2",
-      "species_id": 52,
-      "species": "Strix hylophila",
-      "stage": "ARCHIVED"
-    },
-    "current_stage": "ARCHIVED",
+    "next_cycle": 3,
+    "active_lease": null,
+    "in_progress": null,
+    "current_stage": null,
     "events": [
       {
         "cycle": 1,
@@ -22308,6 +22308,33 @@
           "scientifically_verified": false,
           "readback_pending": true,
           "lease_expires_at": "2026-11-05T07:20:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T062700+0800",
+        "cycle": 2,
+        "stage": "VERIFIED",
+        "at": "2026-11-05T07:09:00+08:00",
+        "run_id": "20261105T065000+0800-cycle-2",
+        "species_id": 52,
+        "credited": true,
+        "evidence": {
+          "archive_commit": "394a468ba858f7948e30c0a288679979323d2747",
+          "archive_tree": "50920d47e1ebc2081e358aa4c719ede92efef218",
+          "paths_verified": 16,
+          "binary_paths_verified": 7,
+          "unique_binary_blobs": 4,
+          "manifest_counts": {
+            "design_image": 677,
+            "design_legacy": 678,
+            "production": 668
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "next_cycle": 3,
+          "verification_commit": "acd323010268b4215627276cb23edc7df87d26f8",
+          "verification_tree": "b1322a9a7debd8fac7e70ef2bdc7bf3f86fe64a5"
         }
       }
     ]

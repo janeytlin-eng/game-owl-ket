@@ -1,3 +1,40 @@
+## 2026-11-05 — #57 *Bubo nipalensis* v5 / current *Ketupa nipalensis* — dependent juvenile boundary
+
+### SBEO-SRINIVASAN-2013-P106-107
+- **Title / author / year:** *Spot-bellied Eagle Owl Bubo nipalensis in northern Eastern Ghats, Andhra Pradesh, India* — Sathyanarayana Srinivasan, 2013.
+- **URL:** https://indianbirds.in/pdfs/IB_8.4_Final.pdf
+- **Type / accessed:** field/rescue observation, *Indian BIRDS* 8(4):106–107; full issue/article lines 2526–2604 re-read 2026-11-05.
+- **Species/stage/pages:** *Bubo nipalensis*; age-unknown dependent juvenile; printed pp.106–107.
+- **Facts:** large pale-yellow juvenile with light spotting, pale-yellow bill, thin V-shaped breast marks, heavily barred primaries/secondaries/tail, small tufts and creamy-yellow legs; escaped but did not fly far and was inferred not yet flying/parent-dependent.
+- **Limits/conflicts:** rescued individual; no known hatch date, continuous feather sequence or controlled flight test. “Did not fly very far” is not a species-wide threshold.
+- **Design use:** developed but immature barred folded wing/tail, full branch support, no flight action or exact age.
+- **Links:** `research/species/57-bubo-nipalensis-v5.md`; concept v5; run `production/runs/20261105T073000+0800-cycle-5.md`.
+
+### SBEO-SHUKLA-2025-P27-28
+- **Title / authors / year:** *Spot-bellied Eagle-Owl Ketupa nipalensis breeding in Pench Tiger Reserve, Maharashtra* — Shukla et al., 2025.
+- **URL:** https://indianbirds.in/wp-content/uploads/2025/05/IB_21_1_ShuklaETAL_EagleOwlKetupa.pdf
+- **Type / accessed:** field note, *Indian BIRDS* 21(1):27–28; full two-page PDF read 2026-11-05.
+- **Species/stage/pages:** *Ketupa nipalensis* adults and outside-nest juvenile; printed p.28 / PDF p.2, lines 147–169.
+- **Facts:** pair seen 10 June 2023; juvenile first recorded outside nest 16 June and afterward; tall dense moist-deciduous forest; arjun and banyan daytime roost trees.
+- **Limits/conflicts:** no hatch date, plumage sequence, sex, nest construction or flight test. Observation date is not age.
+- **Design use:** broad supported outside-nest brancher and Central Indian forest context only; Srinivasan controls juvenile plumage.
+
+### SBEO-SHARPE-BM-1875-P38
+- **Title / author / year:** *Catalogue of the Birds in the British Museum*, Vol. II — R. Bowdler Sharpe, 1875.
+- **Type / page / access:** museum catalogue, p.38; prior repository extraction reused 2026-11-05.
+- **Fact:** immature plumage may already show barred wing and tail development.
+- **Limits/design use:** museum description is not a dated live sequence; supports formed barring only, not age, motion or adult-perfect layering.
+
+### SBEO-ITIS-1244713
+- **Title / institution / year:** ITIS report TSN 1244713, sourced to IOC World Bird List v15.1 — ITIS/IOC, acquired 2025.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1244713
+- **Type / accessed:** official taxonomy registry, lines 42–100; re-read 2026-11-05.
+- **Facts:** valid *Ketupa nipalensis*; synonym *Bubo nipalensis*; two listed subspecies.
+- **Limits/design use:** taxonomy only; preserve #57/checklist title while mapping current name. No morphology/development inference.
+
+### Restored/reused boundary
+- Restored three stable source records referenced by v4 but absent from the compact index; added one current taxonomy record. Reused four verified sources, corrected two boundaries: Pench dates do not age the Srinivasan juvenile, and poor short flight is not a universal flight threshold. New1 / restored3 / reused4 / corrected2; scientific status false.
+
 ## 2026-11-05 — #55 *Bubo lacteus* v5 / current *Ketupa lactea* — restored source records and six-week boundary
 
 ### VEO-BROWN-1965-P101-104

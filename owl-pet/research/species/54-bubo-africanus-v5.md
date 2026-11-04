@@ -40,3 +40,7 @@ Exact title/count/labels; adult yellow eyes/tufts/fine barring; subtle sex direc
 - Adults: bright yellow eyes, prominent tufts, white scapular patches, finely barred underparts, near-equal crown height with only subtle female fullness.
 - Juvenile: dull greyish-yellow eye, weak tufts, fine mesoptile, soft folded wing, mostly hidden tail, full belly/two-foot rock support; exact age and locomotion remain unknown.
 - Review record: `research/reviews/54-bubo-africanus-v5-review.md`.
+
+## Immutable archive readback
+
+Archive `e68c14e176162242bc05f99e700f3a9ec66f3b74` / tree `71eee91cde16dc9ffa5c5608ee842a523f834921`: 18 required paths, seven binary paths and three unique image blobs matched. This verifies file integrity, not scientific completeness.

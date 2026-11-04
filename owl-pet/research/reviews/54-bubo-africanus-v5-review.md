@@ -22,3 +22,7 @@ No evidence-supported mandatory visual error was found. Action: no image edit. R
 ## Remaining unknowns
 
 Exact juvenile age, locomotor ability, wing/tail geometry at this mesoptile stage, population-level sexual-size effect, and nest-material choice remain unknown. They are not encoded as facts. The uploaded Mikkola file was inaccessible this execution; only the repository's page-specific p.280–281 extraction was reused.
+
+## Archive readback
+
+Immutable archive `e68c14e176162242bc05f99e700f3a9ec66f3b74` was re-read: concept, generated master, reviewed master, two review crops and their duplicate reviewed paths all matched blobs `950c5fe7…`, `1acb5d68…`, `39848d8f…`. Three manifests and evidence records were present. Integrity VERIFIED; scientific status remains false.

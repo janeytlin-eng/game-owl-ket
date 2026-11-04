@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:30:00+08:00",
+  "updated": "2026-11-05T04:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20385,7 +20385,64 @@
         }
       },
       "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
+    },
+    {
+      "id": "48-strix-nivicolum-v5",
+      "path": "design/concepts/48-strix-nivicolum-v5.png",
+      "species_id": 48,
+      "scientific_name": "Strix nivicolum",
+      "common_name": "Himalayan Owl",
+      "historical_names": [
+        "Syrnium nivicolum",
+        "Strix aluco yamadae",
+        "Strix nivicola yamadae"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "HIML-NTM-YAMADAE",
+        "HIML-LEE-2025",
+        "HIML-TAICOL-2026-T0033094",
+        "HIML-TAIEOL-2013-YAMADAE",
+        "HIML-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/48-strix-nivicolum-v5.md",
+      "review_record": "research/reviews/48-strix-nivicolum-v5-review.md",
+      "run_record": "production/runs/20261105T043300+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3127033,
+      "sha256": "c264cd723dd67e564e7bdd1c8f031ff550e25e2d38c071c789bccefd85ed7ea5",
+      "git_blob": "2e0f35ad63d6dd74020a033fcd235dae263f9985",
+      "generated_path": "production/generated/48-strix-nivicolum-v5-generated-master.png",
+      "generated_blob": "2e0f35ad63d6dd74020a033fcd235dae263f9985",
+      "reviewed_path": "production/reviewed/48-strix-nivicolum-v5-reviewed-master.png",
+      "reviewed_blob": "2e0f35ad63d6dd74020a033fcd235dae263f9985",
+      "adults_review_crop": "production/review-crops/48-strix-nivicolum-v5-adults.png",
+      "adults_review_blob": "54404a86d89745f3b4cea102a9e1447a85e2b843",
+      "juvenile_review_crop": "production/review-crops/48-strix-nivicolum-v5-juvenile.png",
+      "juvenile_review_blob": "87cc765aa4e26e308f036673124f9bed43aded6d",
+      "reviewed_at": "2026-11-05T04:47:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1327365,
+      "adults_review_sha256": "0c6d84cff130686a9f52896c4f281b1fcd573c4faf568cd91454f796ae81e8a6",
+      "juvenile_review_size_bytes": 710729,
+      "juvenile_review_sha256": "15378aab0c5268d17f0d9c13f92d603c1e676be73d751b77bcf419256a41d21a"
     }
   ],
-  "updated_at": "2026-11-05T04:30:00+08:00"
+  "updated_at": "2026-11-05T04:52:00+08:00"
 }

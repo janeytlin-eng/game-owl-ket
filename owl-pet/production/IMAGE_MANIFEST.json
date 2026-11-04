@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:26:00+08:00",
+  "updated": "2026-11-04",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -17642,7 +17642,61 @@
           "production": 640
         }
       }
+    },
+    {
+      "id": "165-ninox-punctulata-v2",
+      "species_id": 165,
+      "scientific_name": "Ninox punctulata",
+      "historical_names": [
+        "Noctua punctulata"
+      ],
+      "common_name": "Speckled Boobook",
+      "version": 2,
+      "prior_versions_retained": [
+        1
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/165-ninox-punctulata-v2.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "Adult v2 corrects iris to dark chocolate and uses deep chocolate-brown, minute whitish-buff speckling, white throat/cheeks/center and pale feathered feet without an unsupported sex-size direction. The recent young is down-rich and supported at a broad tree-base root, following a direct Buton observation; exact age, flight, nest geometry and developmental sequence remain unknown; science=false.",
+      "source_ids": [
+        "SPBO-OCONNELL-ETAL-2022-P291-292",
+        "SPBO-SHARPE-1875-P183",
+        "SPBO-MEYER-1896-INDEXED",
+        "SPBO-MNHN-2010-288-ITIS-555489",
+        "SPBO-FITZSIMONS-2012"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/165-ninox-punctulata-v2.md",
+      "run_record": "production/runs/20261104T162900+0800-cycle-5.md",
+      "reviewed_at": "2026-11-04T16:37:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3204220,
+      "sha256": "b16379097a684f1f84729c63a9ac46be5b419a103e2e8de6c6253016f5569920",
+      "git_blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
+      "generated_path": "production/generated/165-ninox-punctulata-v2-generated-master.png",
+      "generated_blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
+      "generated_size_bytes": 3204220,
+      "generated_sha256": "b16379097a684f1f84729c63a9ac46be5b419a103e2e8de6c6253016f5569920",
+      "reviewed_path": "production/reviewed/165-ninox-punctulata-v2-reviewed-master.png",
+      "reviewed_blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
+      "review_crop_path": "production/review-crops/165-ninox-punctulata-v2-recent-young.png",
+      "review_crop_blob": "d4ff7b94a419d2335cdd57df1dac5887497c93e8",
+      "review_crop_size_bytes": 662630,
+      "review_crop_sha256": "dfec43d63db0dfde6d74c0d4a7100910273173c7fe0bc7071c97b18389480068",
+      "auxiliary_review_crop_path": "production/review-crops/165-ninox-punctulata-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "1affd139f96e74d82304fb7691863d02fe066a49",
+      "auxiliary_review_crop_size_bytes": 1401417,
+      "auxiliary_review_crop_sha256": "0ab9a457f2231c346430dbfaebed40c070cf770cdf68d1eb9bce1d717cf95ad2",
+      "archive_note": "Generated master passed full-image and two original-detail crop review without edit. Adult iris/pattern/feet, near-equal scale and recent-young support passed. Science remains false because exact juvenile age/flight/nest and sex-size data are absent.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": "PENDING_SELF"
     }
   ],
-  "updated_at": "2026-11-04T16:26:00+08:00"
+  "updated_at": "2026-11-04T16:40:00+08:00"
 }

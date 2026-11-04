@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T02:03:00+08:00",
+  "updated": "2026-11-05",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19850,7 +19850,59 @@
         "repair_of": "578dc05ab70b2086500d75ef807b8c7fa21185b6"
       },
       "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from a non-truncated immutable tree after rejecting a 65-byte crop truncation."
+    },
+    {
+      "id": "42-athene-brama-v5",
+      "path": "design/concepts/42-athene-brama-v5.png",
+      "species_id": 42,
+      "scientific_name": "Athene brama",
+      "common_name": "Spotted Owlet",
+      "historical_names": [
+        "Carine brama",
+        "Noctua indica"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "Full-resolution v5 advances the juvenile to the directly photographed 21–25-day stage. Adult-like gray feathers and developed folded remiges/rectrices with early white markings are shown without implying flight: the softer, shorter-tailed juvenile remains low and supported in the cavity. Adults are externally alike and near-equal. One targeted edit replaced unsupported bright adult-yellow juvenile irises with dark age-indeterminate irises. Exact iris chronology, individual feather map, sex-specific growth and first-flight threshold remain unknown.",
+      "source_ids": [
+        "SPOT-ALI-2015",
+        "SPOT-PANDE-2011",
+        "SPOT-NERLEKAR-ETHOGRAM-2014",
+        "SPOT-MIKKOLA-2013",
+        "SPOT-AVIBASE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-05--42-athene-brama-v5--2125-day-plumage-versus-flight-boundary",
+      "research_record": "research/species/42-athene-brama-v5.md",
+      "review_record": "research/reviews/42-athene-brama-v5-review.md",
+      "run_record": "production/runs/20261105T020900+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3093057,
+      "git_blob": "a87d777fa2bfcc9e018eed265e142b27ce9fcbf1",
+      "generated_path": "production/generated/42-athene-brama-v5-generated-master.png",
+      "generated_blob": "a87d777fa2bfcc9e018eed265e142b27ce9fcbf1",
+      "reviewed_path": "production/reviewed/42-athene-brama-v5-reviewed-master.png",
+      "reviewed_blob": "a87d777fa2bfcc9e018eed265e142b27ce9fcbf1",
+      "adults_review_crop": "production/review-crops/42-athene-brama-v5-adults.png",
+      "adults_review_blob": "88c3313c838bb0d02a499dfa4063f5ac8059a35e",
+      "juvenile_review_crop": "production/review-crops/42-athene-brama-v5-juvenile.png",
+      "juvenile_review_blob": "60a0453a6ff2700ada80359472e5b659810200a6",
+      "reviewed_at": "2026-11-05T02:13:30+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1432432,
+      "adults_review_sha256": "dbe7c3d746022d4b7020bda2d1092c82ea10f385ba66a3de4d91cba00c19d097",
+      "juvenile_review_size_bytes": 774881,
+      "juvenile_review_sha256": "ea7a68d19c115c5ab6b3268076f15d8675ac26af892bf667e573f7b9207c6ab1"
     }
   ],
-  "updated_at": "2026-11-05T02:03:00+08:00"
+  "updated_at": "2026-11-05T02:15:00+08:00"
 }

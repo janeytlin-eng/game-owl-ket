@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:26:00+08:00",
+  "updated": "2026-11-05T04:30:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20152,7 +20152,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BROW-SAMARAWICKRAMA-2006-P73-78",
         "BROW-KFBG-TAN-2011-P6-7",
@@ -20179,12 +20179,47 @@
       "juvenile_review_crop": "production/review-crops/47-strix-leptogrammica-v5-juvenile.png",
       "juvenile_review_blob": "19f0a8232aedeb774bece80eb93566c0ea9345aa",
       "reviewed_at": "2026-11-05T04:21:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1195859,
       "adults_review_sha256": "936a499be02ca6f17a64dab1c19079a9277a1cb7b0dfc9af41ee5f81ed72015e",
       "juvenile_review_size_bytes": 664223,
-      "juvenile_review_sha256": "25f869bd20613c03f0354032e1c7acaa138587274ab1ecde4c11831a03f40065"
+      "juvenile_review_sha256": "25f869bd20613c03f0354032e1c7acaa138587274ab1ecde4c11831a03f40065",
+      "archive_commit": "18b11a7901a50b565a3b089318044111f7038e73",
+      "archive_tree": "16221c0a6e081c8c7d969dca5743034a93c4478c",
+      "verified_at": "2026-11-05T04:30:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "18b11a7901a50b565a3b089318044111f7038e73",
+        "tree_sha": "16221c0a6e081c8c7d969dca5743034a93c4478c",
+        "tree_entry_count": 2906,
+        "tree_truncated": false,
+        "paths_verified": 11,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/47-strix-leptogrammica-v5.png",
+          "blob": "990f728433ce6166642af764da06e6007b4467ab",
+          "size_bytes": 2683026
+        },
+        "adult_crop": {
+          "path": "production/review-crops/47-strix-leptogrammica-v5-adults.png",
+          "blob": "31166f37a098b717ed98cc015d82c1607e5a4443",
+          "size_bytes": 1195859
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/47-strix-leptogrammica-v5-juvenile.png",
+          "blob": "19f0a8232aedeb774bece80eb93566c0ea9345aa",
+          "size_bytes": 664223
+        },
+        "manifest_counts": {
+          "design_image": 672,
+          "design_legacy": 673,
+          "production": 663
+        }
+      },
+      "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
     }
   ],
-  "updated_at": "2026-11-05T04:26:00+08:00"
+  "updated_at": "2026-11-05T04:30:00+08:00"
 }

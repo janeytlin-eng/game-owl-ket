@@ -54,4 +54,4 @@ Exact title/count/labels; adult dark eyes and untufted heads; adult facial-disc/
 
 ## Stage
 
-RESEARCH_READY; generation pending.
+VERIFIED on immutable archive tree; PASS_WITH_LIMITATIONS; scientifically_verified=false. One female-proportion edit applied and rechecked.

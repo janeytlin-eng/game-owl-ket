@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:32:00+08:00",
+  "updated": "2026-11-05T04:26:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19612,7 +19612,62 @@
         }
       },
       "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
+    },
+    {
+      "id": "47-strix-leptogrammica-v5",
+      "path": "design/concepts/47-strix-leptogrammica-v5.png",
+      "species_id": 47,
+      "scientific_name": "Strix leptogrammica",
+      "common_name": "Brown Wood Owl",
+      "historical_names": [
+        "Syrnium leptogrammicum",
+        "Ciccaba leptogrammica"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "BROW-SAMARAWICKRAMA-2006-P73-78",
+        "BROW-KFBG-TAN-2011-P6-7",
+        "BROW-ITIS-555427-2026",
+        "BROW-MIKKOLA-2013-P326-327"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/47-strix-leptogrammica-v5.md",
+      "review_record": "research/reviews/47-strix-leptogrammica-v5-review.md",
+      "run_record": "production/runs/20261105T040706+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2683026,
+      "sha256": "e90dcc6c3d93a7af8fb0aff2e0897456d155cff276e10586b46ca624b2e8b840",
+      "git_blob": "990f728433ce6166642af764da06e6007b4467ab",
+      "generated_path": "production/generated/47-strix-leptogrammica-v5-generated-master.png",
+      "generated_blob": "990f728433ce6166642af764da06e6007b4467ab",
+      "reviewed_path": "production/reviewed/47-strix-leptogrammica-v5-reviewed-master.png",
+      "reviewed_blob": "990f728433ce6166642af764da06e6007b4467ab",
+      "adults_review_crop": "production/review-crops/47-strix-leptogrammica-v5-adults.png",
+      "adults_review_blob": "31166f37a098b717ed98cc015d82c1607e5a4443",
+      "juvenile_review_crop": "production/review-crops/47-strix-leptogrammica-v5-juvenile.png",
+      "juvenile_review_blob": "19f0a8232aedeb774bece80eb93566c0ea9345aa",
+      "reviewed_at": "2026-11-05T04:21:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1195859,
+      "adults_review_sha256": "936a499be02ca6f17a64dab1c19079a9277a1cb7b0dfc9af41ee5f81ed72015e",
+      "juvenile_review_size_bytes": 664223,
+      "juvenile_review_sha256": "25f869bd20613c03f0354032e1c7acaa138587274ab1ecde4c11831a03f40065"
     }
   ],
-  "updated_at": "2026-11-05T04:32:00+08:00"
+  "updated_at": "2026-11-05T04:26:00+08:00"
 }

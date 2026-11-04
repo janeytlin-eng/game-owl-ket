@@ -585,3 +585,30 @@
 - V4 drops v3's over-precise visual implication that a nine-day post-fledging plumage is directly described; it keeps only the evidenced dependency/action boundary and labels the visual as a conservative recently fledged inference.
 - Unknown: exact individual age/post-fledging day, regional juvenile spotting/tail-growth curve, iris transition, flight performance, modern species-limit mapping of broad *G. gnoma* studies and quantified sex-specific linear dimensions.
 - Source accounting: new verified 2; reused 3; corrected 1 evidence/visual boundary.
+
+
+## 2026-11-05 — #41 *Glaucidium cobanense* v5 — documented pair morph and age-unknown juvenile boundary
+
+### GUPO-HOWELL-EISERMANN-2011-P74-76 — re-read and tightened
+- **Title / authors / year:** *Guatemalan Pygmy Owl Glaucidium cobanense is a good species* — Steve N. G. Howell & Knut Eisermann, 2011.
+- **URL / type / pages / accessed:** https://neotropicalbirdingandconservation.org/wp-content/uploads/2025/07/09-neotropical-birding-10-photospot-guatemalan-pygmy-owl-glaucidium-cobanense-is-a-good-species.pdf ; primary field/taxonomic article, *Neotropical Birding* 9:74–76; re-read 2026-11-05.
+- **Facts:** printed p.75 Figure 2 documents a rufous morph at Chelemhá; Figure 3 documents a brown-morph male at a nest entrance there. Printed p.76 reports no appreciable size difference from *G. gnoma*, not a sex-size direction.
+- **Limits / correction:** the figures do not prove that rufous is female or that morph is sex-linked. V5 retains the separately documented Chelemhá mixed-morph pair only as an individual-pair trace, keeps adults near equal, and removes any universal sex/morph implication.
+
+### GUPO-BSG-NATURAL-HISTORY-2026 — re-read and tightened
+- **Title / authors / accessed:** *Natural history of Guatemalan Pygmy-Owl (Glaucidium cobanense)* — Knut Eisermann & Claudia Avendaño / Bird Studies Guatemala; accessed 2026-11-05.
+- **URL / type / sections:** https://www.bird-studies-guatemala.info/Guatemalan-Pygmy-Owl.htm ; researcher-maintained natural-history page, lines 30–73.
+- **Facts:** the authors state that they documented Guatemala's first nesting records; line 44 identifies juveniles at a nest entrance; lines 67–73 identify a brown-morph juvenile and a female with juvenile. Lines 40 and 51 identify a brown-morph male; lines 58–65 show both rufous and brown adult examples.
+- **Limits / correction:** captions do not give hatch date, feather chronology, iris timing, flight threshold or sex-specific linear measurements. The embedded juvenile pixels were not independently extracted this run. V5 therefore uses an age-unknown, supported brown juvenile at the cavity lip, not a day-labeled fledgling or miniature adult.
+
+### GUPO-AOS-NACC-2013A — reused taxonomy and habitat
+- **Institution / pages:** AOU/NACC proposal 2013-A-2, pp.259–263 of the proposal packet (PDF section lines 144–255), re-read 2026-11-05.
+- **URL:** https://americanornithology.org/wp-content/uploads/2020/02/2013-A.pdf
+- **Facts / use:** current species *G. cobanense*; historical broad treatment *G. gnoma cobanense*; humid broadleaf, pine-oak and coniferous forest/edge and shaded plantations at 1,500–3,500 m; rufous and brown morphs.
+- **Limits:** no juvenile development series or quantified sex-size direction.
+
+### V5 evidence accounting
+- New stable sources: 0; re-read/reused verified sources: 3; corrected evidence boundaries: 2.
+- The user-uploaded Mikkola guide was unavailable in this execution; repository-indexed page evidence was not represented as a fresh read.
+- Unknown: exact juvenile age, continuous wing/tail and iris chronology, independent flight, quantified sex dimorphism, and universal nest geometry.
+- Links: `research/species/41-glaucidium-cobanense-v5.md`; `production/runs/20261105T015400+0800-cycle-3.md`; planned concept v5.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T19:45:00+08:00",
+  "updated": "2026-11-04T19:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -17930,9 +17930,33 @@
       "auxiliary_review_crop_blob": "c55323d314b73981f003a9db4119b26758dd76b9",
       "auxiliary_review_crop_size_bytes": 1300293,
       "archive_note": "One targeted edit was required after original-resolution inspection. The common ashy-brown form is not sex-coded as a morph; female scale is restrained to the documented mean direction. Scientific verification remains false for explicit juvenile and nest unknowns.",
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "52cbd93dbd02ff36d506b7e18666f7f8c02fbece",
+      "fixed_archive_commit": "52cbd93dbd02ff36d506b7e18666f7f8c02fbece",
+      "verified_at": "2026-11-04T19:49:00+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "immutable archive commit exact path/blob readback; three complete manifests parsed; local full/crop visual inspection",
+        "tree_sha": "cf8024a7118094ffa0643f5ef77e3558cbcd46ed",
+        "tree_count": 2709,
+        "recursive_tree_truncated": false,
+        "paths_verified": 13,
+        "binary_assets_verified": 6,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/197-otus-megalotis-v2.png",
+          "blob": "03feea9347854020af428bad15db4bd567b825ba",
+          "size_bytes": 2601537
+        },
+        "manifest_counts": {
+          "design_image": 653,
+          "design_legacy": 654,
+          "production": 644
+        },
+        "ledger_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-04T19:45:00+08:00"
+  "updated_at": "2026-11-04T19:49:00+08:00"
 }

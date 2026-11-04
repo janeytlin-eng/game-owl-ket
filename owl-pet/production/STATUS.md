@@ -6,3 +6,4 @@
 - Manifest counts: 651 / 652 / 642; exact path/blob/byte and manifest readback true; science=false.
 
 - 2026-11-04T19:45:00+08:00 #197 Otus megalotis v2 ARCHIVED; manifests 653/654/644; verification pending.
+- 2026-11-04T19:49:00+08:00 #197 Otus megalotis v2 archive readback PASS; ledger acknowledgement pending.

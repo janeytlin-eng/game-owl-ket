@@ -22068,9 +22068,20 @@
       }
     ],
     "next_cycle": 3,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": null,
+    "active_lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T071100+0800-cycle-3",
+      "heartbeat_at": "2026-11-05T07:11:00+08:00",
+      "expires_at": "2026-11-05T07:26:00+08:00"
+    },
+    "in_progress": {
+      "cycle": 3,
+      "run_id": "20261105T071100+0800-cycle-3",
+      "species_id": 54,
+      "species": "Bubo africanus",
+      "stage": "STARTED"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
         "cycle": 1,
@@ -22335,6 +22346,20 @@
           "next_cycle": 3,
           "verification_commit": "acd323010268b4215627276cb23edc7df87d26f8",
           "verification_tree": "b1322a9a7debd8fac7e70ef2bdc7bf3f86fe64a5"
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "STARTED",
+        "at": "2026-11-05T07:11:00+08:00",
+        "run_id": "20261105T071100+0800-cycle-3",
+        "species_id": 54,
+        "credited": false,
+        "evidence": {
+          "selection": "full-resolution science/archive revision of #54 Bubo africanus v4; legacy manifest contains v4 while production/image manifest stops at v3; no v5 exists",
+          "baseline_commit": "89f2e09cb6a81a924fd7663c31ede7558283c990",
+          "prior_version": "owl-pet/design/concepts/54-bubo-africanus-v4.png",
+          "lease_expires_at": "2026-11-05T07:26:00+08:00"
         }
       }
     ]

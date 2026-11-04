@@ -3113,3 +3113,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Research new2/reused3/corrected2; exact juvenile age, flight threshold, continuous feather sequence and sex-size direction remain unknown.
 - Batch `20261104T223131+0800` is 5/6; lease released; next cycle 6.
 - [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/cd3e37f08b973a81b43738b7407ab92dc5cbe11c/owl-pet/design/concepts/20-megascops-clarkii-v5.png?raw=1)
+
+
+## 2026-11-05 #21 *Megascops choliba* v6 ARCHIVED — readback pending
+
+- Full-resolution revision, no image edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
+- Primary 18–20-day stage retained inside cavity with folded remiges and support. Manifests 663/664/654; cycle credit pending.

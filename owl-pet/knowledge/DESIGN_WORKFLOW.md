@@ -802,3 +802,8 @@ Problem: generic screech-owl generation produced an adult-spotted long wing on a
 - **Evidence:** Camacho-Varela 2014 (pp.3–14) supports bare distal roughly one-third tarsus in *M. clarkii*; Astorga-Acuña 2018 (pp.85–89) supports mostly down with developing primaries/secondaries on a supported organic platform.
 - **Applied:** one targeted edit extended adult feathering downward and reduced juvenile side feathers to short emerging tips without changing support or scene.
 - **Verified visually:** full master and both diagnostic crops passed for #20 v5 only. The exact juvenile feather map and sex-size direction remain scientifically unverified and must not be generalized.
+
+
+### 2026-11-05 — “well-developed remiges” does not imply flight (#21)
+
+Primary evidence can document well-developed flight feathers before fledging. #21 v6 therefore keeps the 18–20-day juvenile inside the cavity with folded remiges and full support; it does not turn feather maturity into an open-wing or flight pose. Full master and crop review passed once; exact flight onset remains unknown.

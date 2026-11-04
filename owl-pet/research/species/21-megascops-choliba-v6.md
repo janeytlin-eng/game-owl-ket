@@ -26,3 +26,8 @@ Create a 3:2, 1536×1024 scientific educational owl-pet plate in warm hand-paint
 ```
 
 Unknowns: exact subspecies, individual flight onset, universal sex-size ratio, continuous feather geometry and transferability of one Acre brood.
+
+
+## Post-generation review
+
+The generated 1536×1024 master and two diagnostic crops were actually inspected. Adults are near-equal and same morph with supported feet. The 18–20-day juvenile is dark-barred, yellow-eyed, cavity-supported and keeps developed remiges folded; no open-wing or flight claim. No edit was required. Result PASS_WITH_LIMITATIONS; science=false.

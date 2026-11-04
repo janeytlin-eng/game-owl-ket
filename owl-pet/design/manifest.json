@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T01:02:00+08:00",
+  "updated": "2026-11-05T01:18:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19327,7 +19327,77 @@
         },
         "connector_note": "small PNG fetch_file attempted UTF-8 decode; immutable recursive tree supplied exact path/blob/size evidence"
       }
+    },
+    {
+      "id": "21-megascops-choliba-v6",
+      "species_id": 21,
+      "scientific_name": "Megascops choliba",
+      "historical_names": [
+        "Otus choliba",
+        "Strix choliba"
+      ],
+      "common_name": "Tropical Screech-Owl",
+      "version": 6,
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/21-megascops-choliba-v6.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "Full-resolution v6 preserves v1-v5. Adults use one gray-brown morph and near-equal scale because field sexual dimorphism is not detectable. The documented 18-20-day juvenile remains fully cavity-supported with dark barred mesoptile, open yellow irides and well-developed but folded remiges. Exact subspecies, flight onset, universal sex ratio and continuous feather geometry remain unknown; science=false.",
+      "source_ids": [
+        "TSO-ACTA-NESTLING-2017",
+        "TSO-SMITHSONIAN-FOSTER-JOHNSON-2017-P13",
+        "TSO-ZOOLOGIA-2026-E25121",
+        "TSO-ITIS-686663-2026",
+        "TSO-DIAS-LIMA-2015-WJO",
+        "TSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-05--21-megascops-choliba-v6--1820-day-folded-wing-boundary",
+      "research_record": "research/species/21-megascops-choliba-v6.md",
+      "review_record": "research/reviews/21-megascops-choliba-v6-review.md",
+      "run_record": "production/runs/20261105T010600+0800-cycle-6.md",
+      "reviewed_at": "2026-11-05T01:14:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3491902,
+      "sha256": "1a917e059c23abe6457ddc862d8d581a993efb0039280b324a33d5a963d03e7a",
+      "git_blob": "2d0e42ee502e2b69d8cde2d8b65daee3f103142a",
+      "generated_path": "production/generated/21-megascops-choliba-v6-generated.png",
+      "generated_blob": "2d0e42ee502e2b69d8cde2d8b65daee3f103142a",
+      "generated_size_bytes": 3491902,
+      "generated_sha256": "1a917e059c23abe6457ddc862d8d581a993efb0039280b324a33d5a963d03e7a",
+      "reviewed_path": "production/reviewed/21-megascops-choliba-v6-reviewed-master.png",
+      "reviewed_blob": "2d0e42ee502e2b69d8cde2d8b65daee3f103142a",
+      "review_crop_path": "production/review-crops/21-megascops-choliba-v6-juvenile.png",
+      "review_crop_blob": "66f1b8411554064bcdb90f7496ef45fee5743ab0",
+      "review_crop_size_bytes": 92990,
+      "review_crop_sha256": "fb1cff5b09f6a4bd08fd1efc4c1106aa2445115bd98cb29ee569f65c5d75dc04",
+      "auxiliary_review_crop_path": "production/review-crops/21-megascops-choliba-v6-adults.png",
+      "auxiliary_review_crop_blob": "03d44f84a810908457002debe98cfd47eee4901f",
+      "auxiliary_review_crop_size_bytes": 142180,
+      "auxiliary_review_crop_sha256": "de6a884e2c038400558c69933f37398965118e1ffb3e6ea57c916571675e20fd",
+      "archive_note": "No image edit required after full master and adult/juvenile crop review. The 18-20-day juvenile remains cavity-supported with folded juvenile remiges.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null,
+      "fixed_archive_commit": null,
+      "archive_tree": null,
+      "verified_at": null,
+      "readback": {
+        "status": "PENDING",
+        "method": "immutable archive commit readback pending",
+        "paths_verified": 0,
+        "binary_paths_verified": 0
+      }
     }
   ],
-  "updated_at": "2026-11-05T01:02:00+08:00"
+  "updated_at": "2026-11-05T01:18:00+08:00"
 }

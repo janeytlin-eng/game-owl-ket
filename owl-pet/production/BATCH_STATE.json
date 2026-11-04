@@ -22071,17 +22071,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T071100+0800-cycle-3",
-      "heartbeat_at": "2026-11-05T07:11:00+08:00",
-      "expires_at": "2026-11-05T07:26:00+08:00"
+      "heartbeat_at": "2026-11-05T07:16:00+08:00",
+      "expires_at": "2026-11-05T07:31:00+08:00"
     },
     "in_progress": {
       "cycle": 3,
       "run_id": "20261105T071100+0800-cycle-3",
       "species_id": 54,
       "species": "Bubo africanus",
-      "stage": "STARTED"
+      "stage": "RESEARCH_READY"
     },
-    "current_stage": "STARTED",
+    "current_stage": "RESEARCH_READY",
     "events": [
       {
         "cycle": 1,
@@ -22360,6 +22360,31 @@
           "baseline_commit": "89f2e09cb6a81a924fd7663c31ede7558283c990",
           "prior_version": "owl-pet/design/concepts/54-bubo-africanus-v4.png",
           "lease_expires_at": "2026-11-05T07:26:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T062700+0800",
+        "cycle": 3,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-05T07:16:00+08:00",
+        "run_id": "20261105T071100+0800-cycle-3",
+        "species_id": 54,
+        "credited": false,
+        "evidence": {
+          "source_ids": [
+            "SEO-SANBI-2018",
+            "SEO-MIKKOLA-2013-P280-281",
+            "SEO-OSTRICH-RSD-2008",
+            "SEO-BDI-2022",
+            "SEO-ITIS-555408"
+          ],
+          "new_sources": 0,
+          "reused_sources": 5,
+          "corrected_sources": 1,
+          "species_card": "owl-pet/research/species/54-bubo-africanus-v5.md",
+          "full_prompt_saved": true,
+          "mikkola_upload_accessible": false,
+          "lease_expires_at": "2026-11-05T07:31:00+08:00"
         }
       }
     ]

@@ -18782,10 +18782,52 @@
       "auxiliary_review_crop_size_bytes": 1569306,
       "auxiliary_review_crop_sha256": "49a0e5d4b7bc7eb75bb19272fed0b14e4bda7e543fb05192cc1adeb458ace234",
       "archive_note": "No edit was required after original-resolution and crop inspection. V2 remains retained. Mikkola upload was unavailable in this run. Scientific verification remains false for explicit developmental and sex unknowns.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "44d2f413ad6e3202eb284ed04ad59c9f821001a0",
+      "fixed_archive_commit": "44d2f413ad6e3202eb284ed04ad59c9f821001a0",
+      "archive_tree": "305e4ee2592bb555935955201ba34f80ed72af23",
+      "verified_at": "2026-11-04T21:43:30+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "GitHub connector exact immutable-commit path/blob readback; three manifests fetched by blob and parsed; local full/crop visual inspection",
+        "commit_sha": "44d2f413ad6e3202eb284ed04ad59c9f821001a0",
+        "tree_sha": "305e4ee2592bb555935955201ba34f80ed72af23",
+        "paths_verified": 12,
+        "binary_assets_verified": 5,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "owl-pet/design/concepts/157-scotopelia-bouvieri-v3.png",
+          "blob": "0b19a1fd831cd5ae03f4f0bff63e2f9ee958d86c",
+          "bytes": 2978904
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/157-scotopelia-bouvieri-v3-generated.png",
+          "blob": "0b19a1fd831cd5ae03f4f0bff63e2f9ee958d86c",
+          "bytes": 2978904
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/157-scotopelia-bouvieri-v3-reviewed-master.png",
+          "blob": "0b19a1fd831cd5ae03f4f0bff63e2f9ee958d86c",
+          "bytes": 2978904
+        },
+        "juvenile_crop": {
+          "blob": "11ec8f7014da7e558b7d256ae2fae040cd27b2e7",
+          "bytes": 615959
+        },
+        "adult_crop": {
+          "blob": "2c07b915eab05c3454a167b46ceb77f489fb1abb",
+          "bytes": 1569306
+        },
+        "manifest_counts": {
+          "design_image": 655,
+          "design_legacy": 656,
+          "production": 646
+        },
+        "source_ids_present": 4,
+        "raw_url_check": "web fetch disabled in this environment; GitHub connector immutable-path readback succeeded"
+      }
     }
   ],
-  "updated_at": "2026-11-04T21:41:08+08:00"
+  "updated_at": "2026-11-04T21:43:30+08:00"
 }

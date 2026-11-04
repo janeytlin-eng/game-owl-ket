@@ -1,8 +1,8 @@
-# Owl prototype production status
+# Owl-pet production status
 
-- Last verified: #21 *Megascops choliba* v6; archive `b55c2090bc67f4f2b039e23e9ab00911eee711d5`.
-- Unique species archived: 176/251.
-- Batch `20261104T223131+0800`: COMPLETE 6/6.
-- Manifest counts: 663 / 664 / 654.
-- Active lease: none.
-- Science status: PASS_WITH_LIMITATIONS; scientifically_verified=false.
+- Unique species archived: 176/251
+- Latest archived concept: #23 *Psiloscops flammeolus* v5 (revision; no unique-species increment)
+- Latest stage: ARCHIVED; immutable readback pending
+- Concept manifest versions after archive: design IMAGE_MANIFEST 664; design manifest 665; production IMAGE_MANIFEST 655
+- Scientifically verified groups: 0; latest review PASS_WITH_LIMITATIONS
+- Active batch: `20261105T013100+0800`, cycle 1/6

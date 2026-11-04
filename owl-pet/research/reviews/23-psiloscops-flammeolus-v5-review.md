@@ -5,7 +5,7 @@
 - Result: PASS_WITH_LIMITATIONS
 - Science status: false
 - Edit count: 1
-- Final generated blob: `38803a33fe46edb4f24d7b907214fe658de26e7b` (1536×1024 PNG, 2,764,277 bytes local)
+- Final generated blob: `38803a33fe46edb4f24d7b907214fe658de26e7b` (1536×1024 PNG, 2,764,967 bytes local)
 - Adults crop blob: `6f1334f162db159813618c91a1b3bf720038e198` (768×400, 237,324 bytes)
 - Juvenile crop blob: `96d819236fb9232a03a7beb8bb758598c9fec447` (310×320, 80,473 bytes)
 

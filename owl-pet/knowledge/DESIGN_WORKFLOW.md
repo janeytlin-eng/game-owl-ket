@@ -807,3 +807,8 @@ Problem: generic screech-owl generation produced an adult-spotted long wing on a
 ### 2026-11-05 — “well-developed remiges” does not imply flight (#21)
 
 Primary evidence can document well-developed flight feathers before fledging. #21 v6 therefore keeps the 18–20-day juvenile inside the cavity with folded remiges and full support; it does not turn feather maturity into an open-wing or flight pose. Full master and crop review passed once; exact flight onset remains unknown.
+
+
+### Direct photographed stage outranks a conflicting derivative age label (#23 v5)
+
+When a prior concept's precise age/plumage claim conflicts with a primary paper's photographed stage and a government synthesis, do not preserve the precise label merely for continuity. Select the directly evidenced stage, state the original paper's uncertainty, and keep the science flag false. Applied to #23 v5: the v4 “11-day mostly white natal down” boundary was replaced by Richmond et al. 1980's photographed “about one week” state; the first render's four long exposed quills were shortened to tiny tips embedded in dense white down and full/crop views were rechecked. This validates the correction workflow for this output, not a universal day-by-day timetable.

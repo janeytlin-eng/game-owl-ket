@@ -612,3 +612,28 @@
 - The user-uploaded Mikkola guide was unavailable in this execution; repository-indexed page evidence was not represented as a fresh read.
 - Unknown: exact juvenile age, continuous wing/tail and iris chronology, independent flight, quantified sex dimorphism, and universal nest geometry.
 - Links: `research/species/41-glaucidium-cobanense-v5.md`; `production/runs/20261105T015400+0800-cycle-3.md`; planned concept v5.
+
+
+## 2026-11-05 — #42 *Athene brama* v5 — 21–25-day plumage versus flight boundary
+
+### SPOT-ALI-2015 — re-read primary developmental series
+- **Title / authors / year:** *Nest trees, habitat and breeding biology of the spotted owlet Athene brama brama (Temminck, 1821) in human habitation and agricultural landscape of India* — Abdul Hameed Mohamed Samsoor Ali & Ramachandran Santhanakrishnan, 2015.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.1080/21658005.2015.1061248 ; https://www.researchgate.net/publication/280385349_Nest_trees_habitat_and_breeding_biology_of_the_spotted_owletAthene_brama_bramaTemminck_1821_in_human_habitation_and_agricultural_landscape_of_India ; primary two-habitat field study, *Zoology and Ecology* 25(3):211–219, printed pp.214–216, re-read 2026-11-05.
+- **Scope / facts:** 27 nests in Madurai district. Printed pp.215–216 and Figure 6 document 21–25 d young with white neck and eyebrow plumage, typical gray feathers appearing adult-like, and well-developed remiges/rectrices with white wing markings. Young looked fully adult-like at 26–30 d; fledging averaged 31.4 ± 2.67 d, range 28–33 d. Cavities were 3–15 m high; large banyan trees were commonly used.
+- **Limits / correction:** adult-like feathers at 21–25 d do not establish flight or branch-leaving. V5 may show formed folded wings and early white markings, but keeps the bird cavity-supported and dependent.
+- **Design use:** 21–25 d cavity-lip juvenile with shorter tail, soft rounded body and folded formed wing; no open-wing threat or flight.
+
+### SPOT-PANDE-2011 — re-read growth and sex boundary
+- **Title / authors / year:** *Biometry based ageing of nestling Indian Spotted Owlets (Athene brama brama)* — Pande et al., 2011.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.3897/zookeys.132.1346 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC3208435/ ; primary known-age growth study, *ZooKeys* 132:75–88, methods and results, re-read 2026-11-05.
+- **Scope / facts:** 53 active nests; eight known-age nestlings measured from hatching through fledging, 0–32 d, with 136 measurements. Sexes were externally alike and nestlings could not be separated by sex. The paper estimates acquisition of flight from biometry rather than external resemblance.
+- **Limits / correction:** small intensive longitudinal sample and southern Indian subspecies. It supports equal external sex treatment and separating plumage maturity from locomotor ability, not a universal standing-height ratio.
+- **Design use:** adults near equal; juvenile locomotion remains conservatively bounded.
+
+### Reuse, taxonomy and unresolved items
+- Reused `SPOT-NERLEKAR-ETHOGRAM-2014`, `SPOT-MIKKOLA-2013` and `SPOT-AVIBASE-2026`; the uploaded Mikkola guide was unavailable and was not represented as freshly read.
+- Current name: *Athene brama*; historical names retained in repository mapping include *Carine brama* and *Noctua indica*.
+- Correction: v4 selected 16–20 d to avoid mature wing pattern. V5 uses the next directly photographed 21–25 d stage but explicitly decouples adult-like plumage from flight, because fledging was later (28–33 d).
+- Unknown: exact individual feather map, iris chronology, sex-specific growth, universal cavity material, and precise first-flight ability for the pictured individual.
+- Source accounting: new stable sources 0; re-read/reused verified sources 5; corrected design boundaries 2.
+- Links: `research/species/42-athene-brama-v5.md`; `production/runs/20261105T020900+0800-cycle-4.md`; planned concept v5.

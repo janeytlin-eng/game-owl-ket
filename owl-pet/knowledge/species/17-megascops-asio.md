@@ -1,0 +1,43 @@
+# 17 · 东美角鸮 Megascops asio
+研究日期：2026-10-11（Asia/Shanghai）。Eastern Screech-Owl，北方灰色型方向，中文名/完整分类名录待统一。v2待用户确认，科学核验未通过。
+
+## 来源事实
+Cornell识别：小而短壮、大头、近无可见颈、圆翼、短方尾、尖耳羽簇、黄眼，复杂树皮伪装羽纹。灰/红棕色型为个体差异，不是雌雄差。合并两性16–25cm、121–244g，不能换算站高或幼成线性比例。
+ORI：雌雄相似，小耳簇、绿黄色喙；雄166g雌194g，雄“height”16–24cm雌18–24cm。未给样本、测量定义，不据此推导精确比例。灰色弱纹幼鸟描述不套用初生。
+Cornell生活史：依赖现有洞，不自行挖洞和编巢；巢底现有木屑、枝、旧羽等碎屑形成体形浅凹。初生白绒羽闭眼，巢内26–30天；跳到邻枝/地面并扑翼攀回属于出巢阶段。
+Bent历史转录引用Sherman1911：初生白绒羽、早期轻细叫声似需求庇护/食物；两周后才描述频繁哈欠和伸展。仅采用早期叫声方向，不给初生伸展能力，也不采用关于反刍喂食的旧推测。旧观察个体/历史分类有限，不作统一发育日历。
+
+## 来源冲突
+Cornell区域段把McCall's写为Asio otus mccallii，明显混入长耳鸮属种，不复制。图注喙色描述混杂，选北方灰色方向、采用ORI绿黄角质色，仍需地域照片复核。
+Bent广义screech owl包含旧分类，不能并入现代物种范围；本次只采用明确东部幼鸟观察。未用旧材料断言现行保护状态。
+
+## 设计与版本检查
+成年同灰色型，脚下同一枝、同视距、高度接近；雌鸟略丰满，不制造明显羽色差。短尖耳簇、树皮分叉纵纹与细横纹、黄眼。
+幼鳥早期闭眼白绒羽，腹部低伏受支撑、微张嘴表现轻声呼唤，翼芽贴身、无成年耳簇/成熟飞羽。早期叫声有历史观察，抬头幅度与幼成线性比例仍为艺术推演，未赋精确日龄。
+v1雄鸟偏高、幼鸟偏坐直且长出成熟翼羽，未通过内部检查，保留历史版本。
+v2去掉幼鸟成熟翼羽，降低胸/头、腹部支撑，成年高度差收敛。雄鸟耳簇顶点仍略高，站高表达、耳簇比例和幼成大小未精确校准。v2为提交用户确认版本，审美确认不等于科学验收。
+
+## 来源
+- https://www.allaboutbirds.org/guide/Eastern_Screech-Owl/id
+- https://www.allaboutbirds.org/guide/Eastern_Screech-Owl/lifehistory
+- https://www.owlresearchinstitute.org/eastern-screech-owl
+- https://www.birdsbybent.com/ch71-80/screecho.html （历史生活史转录，含Sherman1911观察，非原扫描）
+
+## 待办
+补充早期巢内动作视频/年龄照片图谱、地域羽色与喙色核对、对应阶段的线性测量。保留213目标，但完整分类版本未定，不表示已学习213种。
+
+## 2026-10-11 · v3证据与检查
+Mikkola《Owls of the World》第二版2013，印刷207–209页（上传PDF209–211页），Megascops asio与现用学名一致。文本说明雌鸟平均较重约30g，但不证明站高比例；喙为橄榄绿带黄尖，跗跖羽毛到趾基，绒羽幼鸟白色。未采用旧书地域/亚种表作为最新分类名录。PDF文本已读；页面图片读取403，不能声称已核对照片。
+重新访问Cornell生活史及ORI物种页面；Cornell确认白绒羽闭眼孵化、现成树洞与底部碎屑，离巢扑翼攀爬不适用于初生。
+实际查看v2和生成v3：成年脚下基线收敛，雌鸟略丰满而没有制造性别羽色差；脚部羽毛过渡改善但精确边界仍待校准。幼鸟闭眼白绒羽，腹部支撑，无明显成熟飞羽或耳簇；轻抬头/张嘴幅度为概念表达，未获物种阶段视频验证。耳簇和头眼艺术夸张、幼成比例仍未通过测量核验。不赋精确日龄，不标科学通过。旧版本及确认记录均保留。
+
+
+## 2026-10-28 · v5 late-brancher revision
+
+Mikkola printed pp.207–209/PDF209–211, Cornell Life History/ID, the USDA FEIS synthesis and the USGS 22–28 d primary-study abstract were actually read. v5 deliberately changes stage from v4’s early closed-eye white-down hatchling to an approximately 27–30 d brancher. The older young is fluffy finely barred gray, grips bark with both feet and uses one short incomplete wing for balance; it is not airborne. One targeted edit shortened the first render’s long crisp adult-like wing and concealed the long tail.
+
+Both adults use northern gray morph so morph is not confused with sex; female is only subtly fuller, never assigned a fixed height ratio. Exact depicted day, continuous feather sequence, juvenile eye/cere chronology, remex/tail proportions, subspecies variation and universal cavity geometry remain unknown. `scientifically_verified=false`; v1–v4 and prior user records remain historical.
+
+![v5](../../design/concepts/17-megascops-asio-v5.png)
+
+[Research/full prompt](../../research/species/17-megascops-asio-v5.md) · [run](../../production/runs/20261028T0851+0800-cycle-6.md)

@@ -1,0 +1,14 @@
+#84 Otus bakkamoena Indian Scops Owl, NWIndia concept, possible gangeticus notconfirmed; not historicalSingaporebakkamoena=lettia. BAK-BRRAICH-SINGH2021: OnkarSinghBrraich & JagdeepSingh, An Indian Scops Owl breeding in an artificial wooden nest box, IndianBIRDS17(2):55–56, published28May2021 (RGupload2023notpublicationyear). https://indianbirds.in/pdfs/IB_17_2_HighRes2.pdf PDF25–26 actualreadandrenderedviewed: 2July2018 young grey horizontalbellybars/noear tufts/blueeyes/grey bill/underdevelopedwings; photo70 p56 rescuedjuvenile supportedfeet/chubbyfluffybody, notdetailedwingsequence. Photo69p55 adultdarkeyes/woodenbox. ArtificialboxonShishamtree, sparsewoodfloor/crumbs designinference notwovenbasket; exactageunknown. Sourcecopyrightnotcopied.
+BAK-MIK2013-150 HeimoMikkola2013 uploadedbook printed150–151/PDF152–153 freshlyreadtext: adultfemale larger/slightlyheavier, conspicuousdarkedgedtufts,darkcrown/palebrows,doublenuchalcollar,hazel-darkeyes,greenishhornbill,footfeathers tobase; juvenilefinebarredgrey. Supports modestfemale largerdirection notquantifiedheight. New2 species mappings; primary originalfieldnote+bookreuse. Primaryblueeye observation limitedonebrood; no universalageclaim. Links species/eyecolour/development/nestbox.
+
+REVIEWED 2026-10-15T07:49:19.581Z
+Actual editedimageviewed: middle bill/cere nowgrey notgreen, bluegreyiris retained, noear tufts, softshortwings notadultremiges, horizontalbarring/woodfloorandfeet support. Adultdarkbrowneyes/greenhornbills/conspicuoustufts, rightfemale modestlyfuller/larger onleveltoebaseline; exactheightnotcalibrated. Boxwoodsupportandwoodlandappropriate; no scientificpass, exactage/subspecies/toegeometrystillunknown. Cause juvenilebill copiedadultcolour, localjuvenileonlyeditvisuallyeffective; rule eyesANDbill checkedseparatelyforagestage.
+ARCHIVED fullPNG2708403bytes Gitd27c08fd3655d25f61f1f6148702c03a1cec9f07 SHA256fac19a4a0bfcc2ba6f1c8be16bd2b8244fa433d781b687149bcd8abcc7cd8ee4.
+EDIT_RETURNED 2026-10-15T07:48:04.510Z editwait 52.174s. Unique82/251.
+
+Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-4.md
+
+REVIEWED 2026-10-29T12:39:42+08:00: full 1536×1024 and 560×650 crop opened. First render passed without edit: supported first-winter geometry is visible and distinct from broader/darker adult flight feathers; no downy chick or flight claim; adults near-equal. Remaining unknowns retained; science false.
+
+
+VERIFIED 2026-10-29T12:41:05+08:00: fixed archive `8ebd20378c29614b68110c0d943709510f503f27`; six image paths exact by non-truncated recursive tree. First-winter design boundary retained; science false.

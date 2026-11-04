@@ -293,3 +293,44 @@ undefined
 - No quantified sex-size direction was found, so v3 uses near-equal adults and does not encode “female larger” as a rule.
 - The user-uploaded Mikkola guide was not accessible in this run; no new page claim was taken from it.
 - Links: `research/species/157-scotopelia-bouvieri-v3.md`; `production/runs/20261104T213333+0800-cycle-4.md`; planned concept `design/concepts/157-scotopelia-bouvieri-v3.png`.
+
+
+## 2026-11-04 — #156 *Scotopelia peli* v3 — archive repair and downy nestling boundary
+
+### PFOW-BUTTIKOFER-1889-P115
+- **Title / author / year:** *Zoological researches in Liberia. On a series of birds collected by Mr. A. T. Demery in the district of Grand Cape Mount* — J. Büttikofer, 1889, Notes from the Leyden Museum XI.
+- **URL / page:** https://repository.naturalis.nl/pub/509230/NLM1889011002006.pdf ; printed p.115.
+- **Type / scope:** primary museum specimen note.
+- **Fact read:** the collection included a nestling head in down; the down was uniform white with a faint isabelline tinge, especially along the neck, and the powerful bill was black. The same page treats *Scotopelia oustaleti* as synonymous with *S. peli*.
+- **Limits:** head only; no age, iris, body feather map, wing development, movement or nest site. It supports the down color and bill, not an exact full-body reconstruction.
+
+### PFOW-BIRDLIFE-SA-2025-ECOLOGY
+- **Title / institution / accessed:** *Pel's Fishing Owl — Regional Red Data Book* — BirdLife South Africa; accessed 2026-11-04.
+- **URL:** https://www.birdlife.org.za/red-data-book/red-list/pels-fishing-owl/
+- **Type / scope:** institution-maintained conservation synthesis citing regional atlas and breeding sources.
+- **Facts read:** river systems, pans and quiet backwaters with riparian vegetation and natural cavities; breeding in Botswana and northern South Africa peaks in the first half of the year; one chick is reared per attempt; fledglings later wander while adults are territorial.
+- **Limits:** synthesis rather than the underlying breeding papers; no plumage sequence or exact nestling age.
+- **Design use:** use a natural riverside cavity and one supported young; do not infer a detailed chronology.
+
+### PFOW-SANBI-03164-2026
+- **Title / institution / accessed:** *Scotopelia peli species status — diagnostics* — South African National Biodiversity Institute; accessed 2026-11-04.
+- **URL:** https://speciesstatus.sanbi.org/taxa/detail/03164/
+- **Type / scope:** institutional diagnostic and ecology synthesis.
+- **Facts read:** about 63 cm and 2.14 kg; massive orange-rufous owl with round head, large dark eyes and no distinct facial disc; sexes similar, male deeper rufous and female slightly larger; dark spots/bars/transverse lines; large bare tarsi and powerful feet with spiculate soles; juveniles retain much pale white down for the first six months.
+- **Limits:** cites Kemp (2005) and other sources; no measured sex sample, exact size ratio, age-specific feather map or iris chronology.
+- **Design use:** restrain sex difference to subtle color/fullness and keep an older young strongly down-dominated.
+
+### PFOW-NCBI-2599434-2026
+- **Institution / accessed:** NCBI Taxonomy Browser; accessed 2026-11-04.
+- **URL:** https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2599434
+- **Type / scope:** institutional taxonomy database.
+- **Facts:** current *Scotopelia peli* (Bonaparte, 1850); basionym *Strix peli* Bonaparte, 1850.
+- **Limits:** NCBI states its taxonomy is not an authoritative nomenclatural source; no morphology or development.
+- **Design use:** current/old-name mapping only. ITIS TSN 555422 independently returns the current combination in search results.
+
+### Correction, reuse and evidence boundary
+- Original-resolution inspection of archived v2 at commit `f316751d8e433eaf9db31c444c868ab5056cd39d` revealed a narrow title/upper-image strip and a blank gray remainder. V2 stays retained as evidence of the failure but cannot be the review master.
+- Existing source-index entry referenced by v2 was not present in the current index text; this cycle adds new stable IDs instead of claiming reuse.
+- Exact nestling age, full body feather map, iris, flight threshold and quantified sex ratio remain unknown. The display therefore uses an older age-unknown, fully cavity-supported downy nestling.
+- The user-uploaded Mikkola guide was not accessible in this run; no page claim was taken from it.
+- Links: `research/species/156-scotopelia-peli-v3.md`; `production/runs/20261104T214445+0800-cycle-5.md`; planned concept `design/concepts/156-scotopelia-peli-v3.png`.

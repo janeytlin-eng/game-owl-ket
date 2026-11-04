@@ -12870,8 +12870,8 @@
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T162900+0800-cycle-5",
-        "heartbeat_at": "2026-11-04T16:29:00+08:00",
-        "expires_at": "2026-11-04T16:44:00+08:00"
+        "heartbeat_at": "2026-11-04T16:33:00+08:00",
+        "expires_at": "2026-11-04T16:48:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -16915,7 +16915,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 5,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
@@ -17207,6 +17207,34 @@
         "v1_blob": "87ac0f12f1843c6703f890d8b3241c9804e649fa",
         "v1_size": 616088,
         "lease_expires_at": "2026-11-04T16:44:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 5,
+      "run_id": "20261104T162900+0800-cycle-5",
+      "species_id": 165,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-04T16:33:00+08:00",
+      "credited": false,
+      "evidence": {
+        "research_file": "owl-pet/research/species/165-ninox-punctulata-v2.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "source_ids": [
+          "SPBO-OCONNELL-ETAL-2022-P291-292",
+          "SPBO-SHARPE-1875-P183",
+          "SPBO-MEYER-1896-INDEXED",
+          "SPBO-MNHN-2010-288-ITIS-555489",
+          "SPBO-FITZSIMONS-2012"
+        ],
+        "source_delta": {
+          "new": 4,
+          "reused": 1,
+          "corrected": 1
+        },
+        "full_prompt_saved": true,
+        "mikkola_accessible": false,
+        "juvenile_stage": "recent young found at tree base; exact age/flight and nest unknown"
       }
     }
   ]

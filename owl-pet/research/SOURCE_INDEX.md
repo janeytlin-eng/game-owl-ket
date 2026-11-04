@@ -71,3 +71,27 @@ undefined
 ### Reused evidence and correction
 - Reused MSO-PHOTOARK-BIR070-00063, MSO-MACAULAY-615554542, MSO-EBIRD-ID-2026 and MSO-AVIBASE-ROMBLONIS-2024 from v1.
 - Correction: v2 no longer presents the photographed *romblonis* juvenile as if it were nominate-specific; it is a cross-population appearance boundary paired with Marshall's nominate fully-grown-young stage record.
+
+## 2026-11-04 — #165 *Ninox punctulata* v2 — Buton juvenile boundary
+
+### SPBO-OCONNELL-ETAL-2022-P291-292
+- **Title / authors / year:** *Breeding records of the birds of south-east Sulawesi, Indonesia* — O'Connell et al., 2022.
+- **DOI / URL:** 10.25226/bboc.v142i3.2022.a2 ; https://bioone.org/journals/bulletin-of-the-british-ornithologists-club/volume-142/issue-3/bboc.v142i3.2022.a2
+- **Type / pages / accessed:** primary field collation; printed pp.291–292; accessed 2026-11-04.
+- **Facts:** identified juvenile, Buton, 8 Aug 2013; found at base of large tree in lowland tropical forest near Labundobundo, possibly fallen from nest; Figure 3A.
+- **Limits:** exact age, flight, nest geometry and full plumage sequence absent; pixels not independently extracted this run.
+- **Design use:** recent-young stage, low natural support and lowland-forest scene; no nest.
+
+### SPBO-SHARPE-1875-P183
+- **Source:** Sharpe, *Catalogue of the Birds in the British Museum*, p.183; indexed scan text read 2026-11-04.
+- **Facts:** adult female deep chocolate-brown with minute buff-white speckles; white throat/cheeks/central underparts; chocolate chest/flank bar and faint pale tail bars.
+- **Limit:** 21 MB PDF could not be fully opened; only indexed page text used.
+
+### SPBO-MNHN-2010-288-ITIS-555489
+- **Institutions / accessed:** MNHN holotype record and ITIS; accessed 2026-11-04.
+- **Facts:** *Noctua punctulata* type from Sulawesi maps to valid *Ninox punctulata*; type sex/age indeterminate.
+- **Limit:** taxonomy only.
+
+### Reused and corrected
+- Reused SPBO-FITZSIMONS-2012 for habitat/diet context. Historical Mikkola page remains inaccessible and is not treated as read.
+- Correction: adult iris is dark chocolate in the indexed Sulawesi male specimen note, not generic yellow *Ninox* coding; juvenile remains dark-indeterminate.

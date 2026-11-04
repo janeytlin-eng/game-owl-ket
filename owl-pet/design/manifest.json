@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T07:04:00+08:00",
+  "updated": "2026-11-05T07:22:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20696,7 +20696,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "VERIFIED",
+      "status": "ARCHIVED",
       "source_ids": [
         "SEO-SANBI-2018",
         "SEO-MIKKOLA-2013-P280-281",
@@ -20724,50 +20724,68 @@
       "juvenile_review_crop": "production/review-crops/54-bubo-africanus-v5-juvenile.png",
       "juvenile_review_blob": "39848d8f859db89284def675d2eda239d18f8161",
       "reviewed_at": "2026-11-05T07:02:00+08:00",
-      "readback_pending": false,
+      "readback_pending": true,
       "adults_review_size_bytes": 2084979,
       "adults_review_sha256": "69622a0ad9944823578a94dc33858d12af24e65c098bd4dcda318a214c8a42a5",
       "juvenile_review_size_bytes": 789215,
-      "juvenile_review_sha256": "bc43a81465cbe17de47b043d30f4aa9be2d56ea55dc88245c5c71f021e1cc0f9",
-      "archive_commit": "e68c14e176162242bc05f99e700f3a9ec66f3b74",
-      "archive_tree": "71eee91cde16dc9ffa5c5608ee842a523f834921",
-      "verified_at": "2026-11-05T07:04:00+08:00",
-      "readback": {
-        "status": "VERIFIED",
-        "archive_commit": "e68c14e176162242bc05f99e700f3a9ec66f3b74",
-        "tree_sha": "71eee91cde16dc9ffa5c5608ee842a523f834921",
-        "paths_verified": 18,
-        "binary_paths_verified": 7,
-        "unique_binary_blobs": 3,
-        "all_git_blobs_match": true,
-        "concept": {
-          "path": "design/concepts/54-bubo-africanus-v5.png",
-          "blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
-          "size_bytes": 3102628
-        },
-        "generated": {
-          "path": "production/generated/54-bubo-africanus-v5-generated-master.png",
-          "blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
-          "size_bytes": 3102628
-        },
-        "adult_crop": {
-          "path": "production/review-crops/54-bubo-africanus-v5-adults.png",
-          "blob": "1acb5d6852586ebee8c8522c401d041944581ef6",
-          "size_bytes": 2084979
-        },
-        "juvenile_crop": {
-          "path": "production/review-crops/54-bubo-africanus-v5-juvenile.png",
-          "blob": "39848d8f859db89284def675d2eda239d18f8161",
-          "size_bytes": 789215
-        },
-        "manifest_counts": {
-          "design_image": 678,
-          "design_legacy": 679,
-          "production": 669
-        }
+      "juvenile_review_sha256": "bc43a81465cbe17de47b043d30f4aa9be2d56ea55dc88245c5c71f021e1cc0f9"
+    },
+    {
+      "id": "55-bubo-lacteus-v5",
+      "path": "design/concepts/55-bubo-lacteus-v5.png",
+      "species_id": 55,
+      "scientific_name": "Bubo lacteus",
+      "current_scientific_name": "Ketupa lactea",
+      "common_name": "Verreaux's Eagle-Owl",
+      "historical_names": [
+        "Bubo lacteus",
+        "Strix lactea"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 2,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "VEO-BROWN-1965-P101-104",
+        "VEO-ITIS-1244710",
+        "VEO-BIRDLIFE-PILLANS-2019",
+        "VEO-MIKKOLA-2013-P286"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/55-bubo-lacteus-v5.md",
+      "review_record": "research/reviews/55-bubo-lacteus-v5-review.md",
+      "run_record": "production/runs/20261105T070800+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
       },
-      "verification_result": "Exact seven image path/blob tuples, three manifests and eight evidence/status records read back from immutable archive commit."
+      "size_bytes": 3015952,
+      "sha256": "709c349fc06aaa2afdcc7e2d48ac467fddbed4e03b27ed3f22f288d0e6a8898a",
+      "git_blob": "6b26ae9e24764fdfb5129d05eef5ff89fc63ca68",
+      "generated_path": "production/generated/55-bubo-lacteus-v5-generated-master.png",
+      "generated_blob": "63504868f7342e914dd475819cadb2369f1ff216",
+      "reviewed_path": "production/reviewed/55-bubo-lacteus-v5-reviewed-master.png",
+      "reviewed_blob": "6b26ae9e24764fdfb5129d05eef5ff89fc63ca68",
+      "adults_review_crop": "production/review-crops/55-bubo-lacteus-v5-adults.png",
+      "adults_review_blob": "a4ac47cad9972eeb3e7a460d734086cc641356ef",
+      "juvenile_review_crop": "production/review-crops/55-bubo-lacteus-v5-juvenile.png",
+      "juvenile_review_blob": "ffe69ab72295c6f705680965b6e83fd8113aa39a",
+      "reviewed_at": "2026-11-05T07:20:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1794693,
+      "adults_review_sha256": "b221f9e55694f11b89e34685fd66439af976592b12721b10df06a5ea5c21a469",
+      "juvenile_review_size_bytes": 748649,
+      "juvenile_review_sha256": "9435566d5f1dd944fb1743c69f53cb48656069861ea433f27f5f975527590d63"
     }
   ],
-  "updated_at": "2026-11-05T07:04:00+08:00"
+  "updated_at": "2026-11-05T07:22:00+08:00"
 }

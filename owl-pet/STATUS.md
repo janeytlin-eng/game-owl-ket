@@ -3031,3 +3031,11 @@ V3 preserves v1–v2, narrows over-regular pale markings and edits the age-unkno
 ### #139 v3 verified — 2026-10-31T21:35:00+08:00
 
 Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/janeytlin-eng/game-owl-ket/commit/44bf7f475697f606a578530e95aa4eb3f2be3a48) returned all six exact binary path/blob identities; the complete manifests parse at 622/623/613. Batch `20261031T2128+0800` is 1/6, next cycle 2; unique remains 175/251 and science remains false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/44bf7f475697f606a578530e95aa4eb3f2be3a48/owl-pet/design/concepts/139-otus-jolandae-v3.png?raw=1).
+
+
+## 2026-11-04 #169 *Ketupa shelleyi* v3 ARCHIVED — readback pending
+
+- SCIENCE_REVISION; one mesoptile wing/tail edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
+- Concept: [design/concepts/169-ketupa-shelleyi-v3.png](design/concepts/169-ketupa-shelleyi-v3.png)
+- Research: new2/reused3/corrected2/unverified1; exact age/flight/nest/sex-size remain unknown.
+- Three manifests 651/652/642; immutable archive readback pending; no cycle credit yet.

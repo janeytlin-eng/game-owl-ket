@@ -18401,7 +18401,69 @@
           "production": 641
         }
       }
+    },
+    {
+      "id": "169-ketupa-shelleyi-v3",
+      "species_id": 169,
+      "scientific_name": "Ketupa shelleyi",
+      "historical_names": [
+        "Bubo shelleyi",
+        "Huhua shelleyi"
+      ],
+      "common_name": "Shelley's Eagle-Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/169-ketupa-shelleyi-v3.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "Dark adult morph uses the 2021 Atewa primary photograph and specimen comparison: dark eyes, heavy pale bill, dark shaggy tufts, broad underpart bars and short barred tail. The center age-unknown mesoptile retains source-described formed barred remiges/rectrices but v3 softens the adult-hard wing and hides the long tail. Fledgling-season reports are not converted to exact age or flight ability; no nest is drawn because none is known. Eyelid variation and quantified sex dimorphism remain unknown; science=false.",
+      "source_ids": [
+        "SHEO-TOBIAS-WILLIAMS-2022-P73-79",
+        "SHEO-OISEAUX-2026-L137-178",
+        "SHEO-IMPERIAL-2021-REDISCOVERY",
+        "SHEO-ITIS-1244711-2026",
+        "SHEO-MIKKOLA-2013-P288",
+        "SHEO-MACAULAY-615106415-UNVERIFIED"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--169-ketupa-shelleyi-v3--adult-and-mesoptile-evidence-boundary",
+      "research_record": "research/species/169-ketupa-shelleyi-v3.md",
+      "run_record": "production/runs/20261104T173200+0800-cycle-6.md",
+      "reviewed_at": "2026-11-04T17:44:30+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2797525,
+      "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f",
+      "git_blob": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+      "generated_path": "production/generated/169-ketupa-shelleyi-v3-generated-master.png",
+      "generated_blob": "0a459ab032348233bebdcb02541ef8ec412a8381",
+      "generated_size_bytes": 2968367,
+      "generated_sha256": "9dca79cc74713eb1bcf2eebb409f49998b36e8fa9f14209b7de874b36b670075",
+      "edited_path": "production/generated/169-ketupa-shelleyi-v3-edit1.png",
+      "edited_blob": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+      "reviewed_path": "production/reviewed/169-ketupa-shelleyi-v3-reviewed-master.png",
+      "reviewed_blob": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+      "review_crop_path": "production/review-crops/169-ketupa-shelleyi-v3-mesoptile.png",
+      "review_crop_blob": "b7afe786b913546fc343f5a9165efda61b35aec1",
+      "review_crop_size_bytes": 700164,
+      "review_crop_sha256": "c931c89df0dc5c858498bfbc2553de5a15c4df070249c34d0038aa0a15246e4e",
+      "auxiliary_review_crop_path": "production/review-crops/169-ketupa-shelleyi-v3-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "2c609669972059ce54240fa7128859d252b5f59a",
+      "auxiliary_review_crop_size_bytes": 2007297,
+      "auxiliary_review_crop_sha256": "cf78ceb9595ff3ad5835e79bc76b7f11b24a6216a988fe54bec368539c929bb7",
+      "archive_note": "One targeted edit softened only the mesoptile wing and concealed the overlong tail; full plate and two original-detail crops passed. Science remains false because exact juvenile chronology/flight, nest, eyelid variation and quantified sex dimorphism are unavailable.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": "PENDING_SELF",
+      "fixed_archive_commit": null,
+      "verified_at": null,
+      "verification_commit": null
     }
   ],
-  "updated_at": "2026-11-04T16:34:25+08:00"
+  "updated_at": "2026-11-04T17:51:00+08:00"
 }

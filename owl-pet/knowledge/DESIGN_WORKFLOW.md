@@ -705,3 +705,8 @@ When a source distinguishes a day roost from an unknown nest, the prompt must tr
 ## 2026-11-01 — adult diagnostic comparison must not leak into mesoptile (#168 v2)
 
 Tobias & Williams 2022 sharpened adult diagnosis, but the first generated young inherited adult-spotted hard wings. Edit1 removed that leakage and restored Mikkola's nearly-white, widely barred soft mesoptile. Full/crop recheck passed for #168 only.
+
+
+### 2026-11-04 #169 seasonal fledgling reports do not define individual age
+
+A report that recently fledged young occur in a month supports only a broad breeding boundary. It does not by itself establish exact age, flight threshold or the plumage of the individual being designed. For #169 v3, the Mikkola page-specific mesoptile description retained formed remiges/rectrices, while the first image's adult-hard wing and long tail were softened by a targeted edit and rechecked at original-detail crop scale. This rule was applied and visually verified once; exact chronology remains scientifically unverified and must not be generalized to all eagle-owls.

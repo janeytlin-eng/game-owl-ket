@@ -50,3 +50,11 @@ No watermark, extra birds, cropped feet, detached toes, malformed anatomy, text 
 
 ## Planned review
 Check exact #197 title/labels; adult gray-brown diagnosis and subtle rather than extreme female size; juvenile wing/tail/iris/support; all six feet; no invented nest. Science remains false unless every unknown is independently resolved.
+
+
+## Production review and iteration — 2026-11-04T19:45:00+08:00
+
+- Initial generated plate was viewed and failed two prompt boundaries: the female was too large for overlapping sexed ranges, and the juvenile wing remained too long/adult-hard.
+- Edit 1 reduced the female difference to a subtle direction and replaced the juvenile wing with a compact, down-obscured soft wing. Full plate plus adult/feet and juvenile crops were re-viewed.
+- Result: PASS_WITH_LIMITATIONS; all birds supported, labels exact, no nest/flight claim. Scientific verification remains false for exact age, juvenile iris/flight/chronology and nest material.
+- Reusable rule applied and visually verified on this plate: specimen mean direction is not a standing-height multiplier when ranges overlap; a common color morph must not be encoded as sex.

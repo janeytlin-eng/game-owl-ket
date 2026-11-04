@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T18:45:58.111+08:00",
+  "updated": "2026-11-04T19:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18561,7 +18561,61 @@
         "ledger_commit": "eb4f5e514592e3a4be62c32888fdadb806b22da4",
         "ledger_readback": true
       }
+    },
+    {
+      "id": "197-otus-megalotis-v2",
+      "species_id": 197,
+      "scientific_name": "Otus megalotis",
+      "historical_names": [
+        "Scops megalotis"
+      ],
+      "common_name": "Luzon Lowland Scops Owl",
+      "version": 2,
+      "prior_versions_retained": [
+        1
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/197-otus-megalotis-v2.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V2 preserves v1 and corrects its missing inventory title, adult scale and miniature-adult juvenile. Adults use a subtle female size direction only because sexed specimen means are larger while ranges overlap; both retain orange-red irides, ivory-horn bill/cere, long scapular markings and feathered tarsi. The age-unknown older juvenile is downy, dark-eyed, fully branch-supported and has a compact down-obscured wing rather than mature long remiges. Exact age, iris, flight threshold, continuous chronology and nest material remain unknown; science=false.",
+      "source_ids": [
+        "LLSO-MIRANDA-2011-P446-450",
+        "LLSO-MARSHALL-1978-P26",
+        "LLSO-SANCHEZ-2012-P98-100",
+        "LLSO-WOODS-2003-JAN-APR-P29",
+        "LLSO-AVIBASE-2026",
+        "LLSO-OWL-PAGES-2012-JUV"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--197-otus-megalotis-v2",
+      "research_record": "research/species/197-otus-megalotis-v2.md",
+      "run_record": "production/runs/20261104T192910+0800-cycle-2.md",
+      "reviewed_at": "2026-11-04T19:45:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2601537,
+      "sha256": "65988b03fdac52bb92b392e65c9308af320646b2085f5a07860e4484b1b5ffa5",
+      "git_blob": "03feea9347854020af428bad15db4bd567b825ba",
+      "generated_path": "production/generated/197-otus-megalotis-v2-generated-master.png",
+      "generated_blob": "f159bab9bb162e487d00d641a9c5bca3e44afcdd",
+      "generated_size_bytes": 2738532,
+      "generated_sha256": "46ad5d0bf9fec3e9bb8d36c9a72f6a47db312f41402604c177667b993b673ad5",
+      "edit_path": "production/generated/197-otus-megalotis-v2-edit1.png",
+      "edit_blob": "03feea9347854020af428bad15db4bd567b825ba",
+      "reviewed_path": "production/reviewed/197-otus-megalotis-v2-reviewed-master.png",
+      "reviewed_blob": "03feea9347854020af428bad15db4bd567b825ba",
+      "review_crop_path": "production/review-crops/197-otus-megalotis-v2-juvenile.png",
+      "review_crop_blob": "3b553144ba921f83a77298037a18ecd3558631a3",
+      "review_crop_size_bytes": 595964,
+      "auxiliary_review_crop_path": "production/review-crops/197-otus-megalotis-v2-adults-feet.png",
+      "auxiliary_review_crop_blob": "c55323d314b73981f003a9db4119b26758dd76b9",
+      "auxiliary_review_crop_size_bytes": 1300293,
+      "archive_note": "One targeted edit was required after original-resolution inspection. The common ashy-brown form is not sex-coded as a morph; female scale is restrained to the documented mean direction. Scientific verification remains false for explicit juvenile and nest unknowns.",
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-04T18:45:58.111+08:00"
+  "updated_at": "2026-11-04T19:45:00+08:00"
 }

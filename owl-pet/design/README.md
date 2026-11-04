@@ -2899,3 +2899,10 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Archived `concepts/188-otus-semitorques-v2.png`; v1 retained.
 - Direct Saitama evidence fixes the juvenile to a recent fledgling with extensive down and incomplete flight/tail feathers. One targeted edit removed adult-hard juvenile remiges.
 - Result: PASS_WITH_LIMITATIONS; science=false. Exact age, flight ability and quantitative sex difference remain unknown.
+
+
+### #197 Luzon Lowland Scops Owl — Otus megalotis v2 (2026-11-04T19:45:00+08:00)
+
+- Archived science-revision plate: `concepts/197-otus-megalotis-v2.png`; v1 retained.
+- Adult female size direction is subtle because sexed ranges overlap. Age-unknown older juvenile is downy, dark-eyed and fully supported with no mature long wing.
+- Review: PASS_WITH_LIMITATIONS; scientifically verified = false. See `../research/species/197-otus-megalotis-v2.md` and run `../production/runs/20261104T192910+0800-cycle-2.md`.

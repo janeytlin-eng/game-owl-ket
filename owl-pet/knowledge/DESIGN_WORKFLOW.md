@@ -718,3 +718,11 @@ A report that recently fledged young occur in a month supports only a broad bree
 - When reliable summaries conflict on sexual size direction, do not choose a direction for visual drama. Use near-equal adults and preserve the conflict in the research record.
 - A source phrase such as “downy juvenile with white face and underparts” supports that visible stage, not a precise age, flight claim, bright adult iris or mature long wing/tail. Developing soft coverts may be shown only while exact chronology stays unknown.
 - This rule was applied and visually checked on #152 v3; effectiveness is limited to preventing the identified archive/sex-size/development errors and does not make the plate scientifically verified.
+
+
+## 2026-11-04 #197 v2 — sex means, morphs, and juvenile wing boundary
+
+- Discovery: the first render amplified mean female measurements into a large visual gap and left an age-unknown juvenile with a long adult-hard folded wing.
+- Evidence: 21 sexed adults show larger female means but overlapping ranges; the ordinary ashy-brown/brownish state occurs across specimens and is not a sex code. Juvenile sources establish a perched, downy/soft-feathered direction but not exact age or flight chronology.
+- Applied: use only a subtle female direction; keep both adults in the common brown form; use a compact, down-obscured juvenile wing with full support.
+- Validation: one targeted edit; full image and two crops passed. This rule is verified only on #197 v2, not yet across earlier plates.

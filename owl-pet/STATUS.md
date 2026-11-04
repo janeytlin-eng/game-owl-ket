@@ -3057,3 +3057,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - SCIENCE_REVISION; one targeted mesoptile wing/tail edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
 - Archive `ff1ad4713240c96a08328f83ca67d72bb91da411`; non-truncated 2,694-entry tree; exact six binary path/blob/size tuples and manifests 651/652/642 matched.
 - Batch `20261104T152800+0800` is COMPLETE 6/6; lease released. Verification self-reference pending reconciliation.
+
+
+## 2026-11-04 #197 Otus megalotis v2 archived
+
+- Revision +1; unique species remains 176/251. Concept and review assets archived; exact readback pending at ARCHIVED stage.

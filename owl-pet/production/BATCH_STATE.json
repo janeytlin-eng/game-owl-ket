@@ -12825,14 +12825,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261104T152800+0800-cycle-1",
-        "heartbeat_at": "2026-11-04T15:32:00+08:00",
-        "expires_at": "2026-11-04T15:47:00+08:00"
+        "heartbeat_at": "2026-11-04T15:37:00+08:00",
+        "expires_at": "2026-11-04T15:52:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T152800+0800-cycle-1",
-        "heartbeat_at": "2026-11-04T15:32:00+08:00",
-        "expires_at": "2026-11-04T15:47:00+08:00"
+        "heartbeat_at": "2026-11-04T15:37:00+08:00",
+        "expires_at": "2026-11-04T15:52:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -12841,21 +12841,30 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T152800+0800-cycle-1",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "stage_evidence": {
-          "generated_master": "owl-pet/production/generated/179-otus-mayottensis-v2-generated-master.png",
-          "git_blob": "eddcdeea02b846b330bb79353c84b6bbf11bc56f",
-          "sha256": "701bbb6b369d8b715542b11748d061f8eb3b7addcb2bb6d010549220e935fbb1",
-          "dimensions": "1536x1024",
-          "bytes": 3096355,
-          "generation_result": "success",
-          "generation_wait_seconds": 43.7,
-          "review_flag": "all ear tufts too long/prominent; juvenile folded wing too long/adult-hard with ordered pale covert rows; targeted edit required",
-          "passes": [
-            "exactly three owls",
-            "exact title and labels",
-            "near-equal adult scale",
-            "bilateral juvenile branch support"
+          "reviewed_master": "owl-pet/production/reviewed/179-otus-mayottensis-v2-reviewed-master.png",
+          "reviewed_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+          "sha256": "482ff5bebc9d8c2607db6701eefb12f299cf9928419d5b0764ce7b13e0619947",
+          "bytes": 2770954,
+          "edit_count": 1,
+          "crops": [
+            "owl-pet/production/review-crops/179-otus-mayottensis-v2-older-immature.png",
+            "owl-pet/production/review-crops/179-otus-mayottensis-v2-adult-pattern-feet.png"
+          ],
+          "crop_blobs": [
+            "7dd74051007079a67ae40ff9b3830a7c94d51528",
+            "cd01652dade1b640aef9d12ceb256fd3d703f43a"
+          ],
+          "edit_result": "shortened all ear tufts; compacted/softened only juvenile wing and mostly concealed tail; full master and two original-detail crops rechecked",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact immature age",
+            "juvenile iris chronology",
+            "flight ability",
+            "nest site/material",
+            "population sex-size ratio beyond slight female wing-length statement"
           ]
         }
       },
@@ -12866,26 +12875,35 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T152800+0800-cycle-1",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "stage_evidence": {
-          "generated_master": "owl-pet/production/generated/179-otus-mayottensis-v2-generated-master.png",
-          "git_blob": "eddcdeea02b846b330bb79353c84b6bbf11bc56f",
-          "sha256": "701bbb6b369d8b715542b11748d061f8eb3b7addcb2bb6d010549220e935fbb1",
-          "dimensions": "1536x1024",
-          "bytes": 3096355,
-          "generation_result": "success",
-          "generation_wait_seconds": 43.7,
-          "review_flag": "all ear tufts too long/prominent; juvenile folded wing too long/adult-hard with ordered pale covert rows; targeted edit required",
-          "passes": [
-            "exactly three owls",
-            "exact title and labels",
-            "near-equal adult scale",
-            "bilateral juvenile branch support"
+          "reviewed_master": "owl-pet/production/reviewed/179-otus-mayottensis-v2-reviewed-master.png",
+          "reviewed_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+          "sha256": "482ff5bebc9d8c2607db6701eefb12f299cf9928419d5b0764ce7b13e0619947",
+          "bytes": 2770954,
+          "edit_count": 1,
+          "crops": [
+            "owl-pet/production/review-crops/179-otus-mayottensis-v2-older-immature.png",
+            "owl-pet/production/review-crops/179-otus-mayottensis-v2-adult-pattern-feet.png"
+          ],
+          "crop_blobs": [
+            "7dd74051007079a67ae40ff9b3830a7c94d51528",
+            "cd01652dade1b640aef9d12ceb256fd3d703f43a"
+          ],
+          "edit_result": "shortened all ear tufts; compacted/softened only juvenile wing and mostly concealed tail; full master and two original-detail crops rechecked",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact immature age",
+            "juvenile iris chronology",
+            "flight ability",
+            "nest site/material",
+            "population sex-size ratio beyond slight female wing-length statement"
           ]
         }
       },
-      "last_stage": "IMAGE_GENERATED",
-      "updated_at": "2026-11-04T15:32:00+08:00",
+      "last_stage": "REVIEWED",
+      "updated_at": "2026-11-04T15:37:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12954,6 +12972,39 @@
               "exact title and labels",
               "near-equal adult scale",
               "bilateral juvenile branch support"
+            ]
+          }
+        },
+        {
+          "cycle": 1,
+          "run_id": "20261104T152800+0800-cycle-1",
+          "species": "Otus mayottensis",
+          "stage": "REVIEWED",
+          "at": "2026-11-04T15:37:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "reviewed_master": "owl-pet/production/reviewed/179-otus-mayottensis-v2-reviewed-master.png",
+            "reviewed_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+            "sha256": "482ff5bebc9d8c2607db6701eefb12f299cf9928419d5b0764ce7b13e0619947",
+            "bytes": 2770954,
+            "edit_count": 1,
+            "crops": [
+              "owl-pet/production/review-crops/179-otus-mayottensis-v2-older-immature.png",
+              "owl-pet/production/review-crops/179-otus-mayottensis-v2-adult-pattern-feet.png"
+            ],
+            "crop_blobs": [
+              "7dd74051007079a67ae40ff9b3830a7c94d51528",
+              "cd01652dade1b640aef9d12ceb256fd3d703f43a"
+            ],
+            "edit_result": "shortened all ear tufts; compacted/softened only juvenile wing and mostly concealed tail; full master and two original-detail crops rechecked",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "unknowns": [
+              "exact immature age",
+              "juvenile iris chronology",
+              "flight ability",
+              "nest site/material",
+              "population sex-size ratio beyond slight female wing-length statement"
             ]
           }
         }
@@ -13097,7 +13148,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-04T15:32:00+08:00",
+  "updated_at": "2026-11-04T15:37:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -13109,8 +13160,8 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "20261104T152800+0800-cycle-1",
-    "heartbeat_at": "2026-11-04T15:32:00+08:00",
-    "expires_at": "2026-11-04T15:47:00+08:00"
+    "heartbeat_at": "2026-11-04T15:37:00+08:00",
+    "expires_at": "2026-11-04T15:52:00+08:00"
   },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
@@ -13878,21 +13929,30 @@
     "version": 2,
     "action": "SCIENCE_REVISION",
     "run_id": "20261104T152800+0800-cycle-1",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "stage_evidence": {
-      "generated_master": "owl-pet/production/generated/179-otus-mayottensis-v2-generated-master.png",
-      "git_blob": "eddcdeea02b846b330bb79353c84b6bbf11bc56f",
-      "sha256": "701bbb6b369d8b715542b11748d061f8eb3b7addcb2bb6d010549220e935fbb1",
-      "dimensions": "1536x1024",
-      "bytes": 3096355,
-      "generation_result": "success",
-      "generation_wait_seconds": 43.7,
-      "review_flag": "all ear tufts too long/prominent; juvenile folded wing too long/adult-hard with ordered pale covert rows; targeted edit required",
-      "passes": [
-        "exactly three owls",
-        "exact title and labels",
-        "near-equal adult scale",
-        "bilateral juvenile branch support"
+      "reviewed_master": "owl-pet/production/reviewed/179-otus-mayottensis-v2-reviewed-master.png",
+      "reviewed_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+      "sha256": "482ff5bebc9d8c2607db6701eefb12f299cf9928419d5b0764ce7b13e0619947",
+      "bytes": 2770954,
+      "edit_count": 1,
+      "crops": [
+        "owl-pet/production/review-crops/179-otus-mayottensis-v2-older-immature.png",
+        "owl-pet/production/review-crops/179-otus-mayottensis-v2-adult-pattern-feet.png"
+      ],
+      "crop_blobs": [
+        "7dd74051007079a67ae40ff9b3830a7c94d51528",
+        "cd01652dade1b640aef9d12ceb256fd3d703f43a"
+      ],
+      "edit_result": "shortened all ear tufts; compacted/softened only juvenile wing and mostly concealed tail; full master and two original-detail crops rechecked",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "unknowns": [
+        "exact immature age",
+        "juvenile iris chronology",
+        "flight ability",
+        "nest site/material",
+        "population sex-size ratio beyond slight female wing-length statement"
       ]
     }
   },
@@ -16542,7 +16602,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 1,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251

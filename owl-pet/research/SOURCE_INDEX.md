@@ -1,3 +1,37 @@
+## 2026-11-05 — #55 *Bubo lacteus* v5 / current *Ketupa lactea* — restored source records and six-week boundary
+
+### VEO-BROWN-1965-P101-104
+- **Title / author / year:** *Observations on Verreaux's Eagle Owl Bubo lacteus (Temminck) in Kenya* — L. H. Brown, 1965.
+- **URL:** https://zenodo.org/records/16138079/files/bhlpart371689.pdf?download=1
+- **Type / accessed:** primary multi-year field observations, *Journal of the East Africa Natural History Society and National Museum* 25(2); opened 2026-11-05.
+- **Species/stage/pages:** *Bubo lacteus*; nests and about-six-week nestling; printed pp.101–104, especially p.103; indexed lines 32–61.
+- **Facts:** reuses abandoned/commandeered stick nests; young begin pale-grey-down, then fine grey/white barring; about six weeks, plain white thighs, black cheek streaks, almost-black eyes, pale blue-grey bill, yellowish-white feet and paler orange-pink lids; daytime crouch/stand and nocturnal walking/wing flapping; one left at 50–60 days.
+- **Limits/conflicts:** small historical observation series, no measured feather plate or known hatch date for every bird; 50–60-day departure is not a universal flight threshold.
+- **Design use:** fully supported approximately-six-week nestling in an old stick nest; no flight claim or adult-like wing pattern.
+- **Links:** `research/species/55-bubo-lacteus-v5.md`; concept v5; run `production/runs/20261105T070800+0800-cycle-4.md`.
+
+### VEO-ITIS-1244710
+- **Title / institution / year:** ITIS report TSN 1244710, sourced to IOC World Bird List v15.1 — ITIS/IOC, acquired 2025.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1244710
+- **Type / accessed:** official taxonomic registry; re-read 2026-11-05.
+- **Species/section:** valid *Ketupa lactea*, lines 42–58, 67–98; synonyms *Bubo lacteus* and *Strix lactea*.
+- **Facts:** current placement in this authority is *Ketupa lactea*; repository checklist name *Bubo lacteus* is a mapped synonym, not silently overwritten.
+- **Limits:** taxonomy only; no morphology or development.
+- **Design use:** preserve #55/checklist title while recording current-name mapping in research and manifests.
+
+### VEO-BIRDLIFE-PILLANS-2019
+- **Title / author / year:** *Doubling the odds: A helping hand for a Verreaux's Eagle-Owl chick* — John Pillans, 2019.
+- **URL:** https://www.birdlife.org.za/wp-content/uploads/2021/03/46-49_Verreaux_s-Nest5.pdf
+- **Type / accessed:** field/photo account in BirdLife South Africa, pp.46–49; re-read 2026-11-05.
+- **Species/stage/section:** breeding pair/chicks; lines 19–35 document reuse of an abandoned Crowned Eagle nest in an Erythrina.
+- **Facts:** modern direct observation corroborates reuse of a large open stick nest.
+- **Limits:** not a measured ageing atlas; chick photographs/time line are site-specific.
+- **Design use:** old raptor stick-nest context only; Brown 1965 controls the six-week plumage/behaviour boundary.
+
+### Reused and corrected evidence
+- Reused repository page extraction `VEO-MIKKOLA-2013-P286`; the uploaded file was inaccessible, so no new page read is claimed.
+- Restored three stable source records that were referenced by prior manifests but absent from the current compact source index. Corrected current-name mapping and separated “nest departure” from “competent flight.” New0 / restored3 / reused2 / corrected2; scientific status false.
+
 ## 2026-11-05 — #54 *Bubo africanus* v5 — full-resolution evidence reconciliation
 
 - Re-read/reused `SEO-SANBI-2018` (updated 2025; adult identification and lines 62–69 chick chronology), `SEO-MIKKOLA-2013-P280-281`, `SEO-OSTRICH-RSD-2008`, `SEO-BDI-2022` and `SEO-ITIS-555408`; new0 / reused5 / corrected1.

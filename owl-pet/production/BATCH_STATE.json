@@ -12861,8 +12861,8 @@
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T161400+0800-cycle-4",
-        "heartbeat_at": "2026-11-04T16:14:00+08:00",
-        "expires_at": "2026-11-04T16:29:00+08:00"
+        "heartbeat_at": "2026-11-04T16:18:00+08:00",
+        "expires_at": "2026-11-04T16:33:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -16906,7 +16906,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 4,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -17025,6 +17025,36 @@
         "v1_blob": "7263eab1698dfd22fb7f60231f7d869780de17ba",
         "v1_size": 203326,
         "lease_expires_at": "2026-11-04T16:29:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 4,
+      "run_id": "20261104T161400+0800-cycle-4",
+      "species_id": 201,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-04T16:18:00+08:00",
+      "credited": false,
+      "evidence": {
+        "research_file": "owl-pet/research/species/201-otus-mantananensis-v2.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "source_ids": [
+          "MANT-MARSHALL-1978-P14-15",
+          "MANT-SHELDON-MOYLE-KENNARD-2001-P143",
+          "MANT-ITIS-555378-AVIBASE-686833-2026",
+          "MSO-PHOTOARK-BIR070-00063",
+          "MSO-MACAULAY-615554542",
+          "MSO-EBIRD-ID-2026",
+          "MSO-AVIBASE-ROMBLONIS-2024"
+        ],
+        "source_delta": {
+          "new": 3,
+          "reused": 4,
+          "corrected": 1
+        },
+        "full_prompt_saved": true,
+        "mikkola_accessible": false,
+        "juvenile_stage": "fully grown young; appearance cross-bounded by age-unknown O. m. romblonis portrait; exact age/flight and nominate plumage unknown"
       }
     }
   ]

@@ -41,3 +41,33 @@ undefined
 ### Reused evidence and correction
 - Reused `RAJ-MIK2013-P168` and `RAJ-BOWMAN2014-JUV` from v1 for Sumatran adult/older-mesoptile direction.
 - Correction applied: v2 must not exaggerate “three collars” into clean white rings because Marshall could not verify race-level morphology across the small specimen series. The Commons Gunung Gede “juvenile” photo is excluded from *solokensis* design evidence.
+
+## 2026-11-04 — #201 *Otus mantananensis* v2 — nominate adults and fully grown-young boundary
+
+### MANT-MARSHALL-1978-P14-15
+- **Title / author / year:** *Systematics of Smaller Asian Night Birds Based on Voice* — Joe T. Marshall, 1978, Ornithological Monographs 25.
+- **URL / accessed:** https://sora.unm.edu/sites/default/files/journals/om/om025.pdf ; accessed 2026-11-04.
+- **Type / pages / scope:** field + museum systematic monograph, printed pp.14–15; nominate adults, habitat and older juvenile stage.
+- **Facts:** yellow iris, feathered tarsus, rounded wing, fuscous gray-peppered nominate adult with scant rufous; natural forest/coconut/Casuarina habitat; pair accompanied by fully grown young.
+- **Limits:** young not described; exact age, plumage and flight unknown; female lower voice does not establish size dimorphism.
+- **Design use:** adult structure/pattern, habitat, and branch-perching fully grown-young stage only.
+- **Links:** research/species/201-otus-mantananensis-v2.md; concept v2; production/runs/20261104T161400+0800-cycle-4.md.
+
+### MANT-SHELDON-MOYLE-KENNARD-2001-P143
+- **Title / authors / year:** *Ornithology of Sabah* — Sheldon, Moyle & Kennard, 2001, Ornithological Monographs 52.
+- **URL / accessed:** https://sora.unm.edu/sites/default/files/journals/om/om052.pdf ; accessed 2026-11-04.
+- **Type / page / scope:** regional monograph, printed p.143; status, habitat and breeding condition.
+- **Facts:** sea-level forest, local density, duetting; March female appeared recently to have carried an egg.
+- **Limits:** no nest, egg, chick or juvenile description.
+- **Design use:** sea-level forest context; explicitly no invented nest.
+
+### MANT-ITIS-555378-AVIBASE-686833-2026
+- **Institutions / accessed:** ITIS and Birds Canada/Avibase; accessed 2026-11-04.
+- **URLs:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555378 ; https://avibase.bsc-eoc.org/species.jsp?avibaseid=BCD17A2A0691485E&lang=EN
+- **Type / scope:** current taxonomy and original-name mapping.
+- **Facts:** valid *O. mantananensis*; synonym/protonym *Scops mantananensis*; nominate/type locality Mantanani Island.
+- **Limits:** no morphology or development.
+
+### Reused evidence and correction
+- Reused MSO-PHOTOARK-BIR070-00063, MSO-MACAULAY-615554542, MSO-EBIRD-ID-2026 and MSO-AVIBASE-ROMBLONIS-2024 from v1.
+- Correction: v2 no longer presents the photographed *romblonis* juvenile as if it were nominate-specific; it is a cross-population appearance boundary paired with Marshall's nominate fully-grown-young stage record.

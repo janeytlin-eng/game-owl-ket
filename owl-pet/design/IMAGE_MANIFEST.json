@@ -18880,10 +18880,52 @@
       "auxiliary_review_crop_size_bytes": 1628119,
       "auxiliary_review_crop_sha256": "11b0176c4ff0c1a75835ee3d03a42a873207e531ceae5553e145d4cd755e68a3",
       "archive_note": "No edit was required after original-resolution and crop inspection. V2 is retained but visibly corrupt and is not the review master. Mikkola upload was unavailable in this run. Scientific verification remains false for explicit developmental unknowns.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "b75391c00fdf44807695476c90fa971f8ad01785",
+      "fixed_archive_commit": "b75391c00fdf44807695476c90fa971f8ad01785",
+      "archive_tree": "be981de895754cb9fd8148d96fa1218f8c6173b3",
+      "verified_at": "2026-11-04T21:55:58+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "GitHub connector exact immutable-commit path/blob readback; three manifests fetched by blob and parsed; local full/crop visual inspection",
+        "commit_sha": "b75391c00fdf44807695476c90fa971f8ad01785",
+        "tree_sha": "be981de895754cb9fd8148d96fa1218f8c6173b3",
+        "paths_verified": 12,
+        "binary_assets_verified": 5,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "owl-pet/design/concepts/156-scotopelia-peli-v3.png",
+          "blob": "ab5d03618eec2e43ad742d3e51b0a3620d38e0f6",
+          "bytes": 3179829
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/156-scotopelia-peli-v3-generated.png",
+          "blob": "ab5d03618eec2e43ad742d3e51b0a3620d38e0f6",
+          "bytes": 3179829
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/156-scotopelia-peli-v3-reviewed-master.png",
+          "blob": "ab5d03618eec2e43ad742d3e51b0a3620d38e0f6",
+          "bytes": 3179829
+        },
+        "juvenile_crop": {
+          "blob": "9776520262d49e496d91301fdfac512fb1cce1a3",
+          "bytes": 740451
+        },
+        "adult_crop": {
+          "blob": "f8762e988a0bfa92c3d2f5ce7eb2f612bf339354",
+          "bytes": 1628119
+        },
+        "manifest_counts": {
+          "design_image": 656,
+          "design_legacy": 657,
+          "production": 647
+        },
+        "source_ids_present": 4,
+        "raw_url_check": "web fetch disabled in this environment; GitHub connector immutable-path readback succeeded"
+      }
     }
   ],
-  "updated_at": "2026-11-04T21:54:17+08:00"
+  "updated_at": "2026-11-04T21:55:58+08:00"
 }

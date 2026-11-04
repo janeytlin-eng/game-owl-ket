@@ -1,3 +1,9 @@
+## #152 Papuan Hawk-Owl — *Uroglaux dimorpha* — v3 ARCHIVED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/ARCHIVE_COMMIT_PENDING/owl-pet/design/concepts/152-uroglaux-dimorpha-v3.png)
+- V3 is a non-destructive repair of the visually incomplete v2 archive. Exactly three birds: near-equal adults and a source-bounded white-faced/white-underpart downy juvenile. Full and crop review passed with limitations; science remains false.
+- Evidence: [research card](../research/species/152-uroglaux-dimorpha-v3.md), [source index](../research/SOURCE_INDEX.md), [run record](../production/runs/20261104T183100+0800-cycle-1.md).
+
 ## #201 Mantanani Scops Owl — *Otus mantananensis* — v2 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/58dee9a1768cd28d616ed81f6ad6ee984e9bffd2/owl-pet/design/concepts/201-otus-mantananensis-v2.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/58dee9a1768cd28d616ed81f6ad6ee984e9bffd2) · [research](../research/species/201-otus-mantananensis-v2.md) · [run](../production/runs/20261104T161400+0800-cycle-4.md)

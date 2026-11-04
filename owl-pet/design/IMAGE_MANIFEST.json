@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-04T18:43:48.437+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18482,7 +18482,63 @@
           "production": 642
         }
       }
+    },
+    {
+      "id": "152-uroglaux-dimorpha-v3",
+      "species_id": 152,
+      "scientific_name": "Uroglaux dimorpha",
+      "historical_names": [
+        "Athene dimorpha",
+        "Ninox dimorpha"
+      ],
+      "common_name": "Papuan Hawk-Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/152-uroglaux-dimorpha-v3.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V3 replaces no historical file: it preserves damaged v2 while providing a complete 1536×1024 plate. Adults use a near-equal scale because published sex-size direction conflicts; both retain the diagnostic small head, long barred tail, barred upperparts, streaked underparts and yellow iris. The center source-bounded downy juvenile has a white face/underparts, dark indeterminate iris, short soft developing coverts, no projecting long tail and full branch support. Exact age, iris, flight, continuous development, nest and quantified dimorphism remain unknown; science=false.",
+      "source_ids": [
+        "PHO-BEEHLER-PRATT-2016-P373-374",
+        "PHO-MIMIKA-GUIDE-2015-P143",
+        "PHO-BIRDLIFE-2026-ECOLOGY",
+        "PHO-ITIS-1063560-2026",
+        "PHO-SHANY-1995-P74-UNVERIFIED"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--152-uroglaux-dimorpha-v3--archive-repair-and-downy-juvenile-boundary",
+      "research_record": "research/species/152-uroglaux-dimorpha-v3.md",
+      "run_record": "production/runs/20261104T183100+0800-cycle-1.md",
+      "reviewed_at": "2026-11-04T18:43:48.437+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2830295,
+      "sha256": "25340864ffc16bad10a24b876c9b214f395082efffb99c37c5ef2d67e0f3cb64",
+      "git_blob": "165ff514570f064c1a99af379ae22324a53d0b1c",
+      "generated_path": "production/generated/152-uroglaux-dimorpha-v3-generated-master.png",
+      "generated_blob": "165ff514570f064c1a99af379ae22324a53d0b1c",
+      "generated_size_bytes": 2830295,
+      "generated_sha256": "25340864ffc16bad10a24b876c9b214f395082efffb99c37c5ef2d67e0f3cb64",
+      "reviewed_path": "production/reviewed/152-uroglaux-dimorpha-v3-reviewed-master.png",
+      "reviewed_blob": "165ff514570f064c1a99af379ae22324a53d0b1c",
+      "review_crop_path": "production/review-crops/152-uroglaux-dimorpha-v3-juvenile.png",
+      "review_crop_blob": "55e15f75fe0c6fffc051410eef84ac672767cdf5",
+      "review_crop_size_bytes": 661910,
+      "review_crop_sha256": "229e732601af378c6d52556075d195ec8d6e78e76d49cd836e4d3ee03cb92339",
+      "auxiliary_review_crop_path": "production/review-crops/152-uroglaux-dimorpha-v3-adults-feet.png",
+      "auxiliary_review_crop_blob": "363159f589daab5ac48984382ac7866ba9866217",
+      "auxiliary_review_crop_size_bytes": 2030922,
+      "auxiliary_review_crop_sha256": "fe9a0cdc05bdf64cc93f38e88cd9449d3c8b4abe8df1337969274084b0eba94d",
+      "archive_note": "No edit was required after full and crop inspection. V2 remains preserved as a damaged historical artifact; v3 is the current review master. Science remains false for the explicit unknowns.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-11-04T17:56:00+08:00"
+  "updated_at": "2026-11-04T18:43:48.437+08:00"
 }

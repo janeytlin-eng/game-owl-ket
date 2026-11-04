@@ -1,3 +1,9 @@
+## 2026-11-04 #152 *Uroglaux dimorpha* v3 ARCHIVED
+
+- Non-destructive archive repair: v2 retained; v3 complete 1536×1024 plate archived with generated/reviewed masters and two crops.
+- Review: PASS_WITH_LIMITATIONS, edit_count 0, scientifically_verified false. Unique species remains 176/251; revision +1.
+- Unknown: exact juvenile age/iris/flight and continuous development, nest, quantified sex dimorphism. Readback verification pending.
+
 ## 2026-10-31 #134 *Megascops sanctaecatarinae* v3 VERIFIED
 
 - Fixed archive `b438d55e81071b49c1a94c6b96d5765f9c9f98f7` returned a non-truncated 2,415-entry tree with exact six-image tuples; manifests 618/617/608 contain matching #134 v3 entries.

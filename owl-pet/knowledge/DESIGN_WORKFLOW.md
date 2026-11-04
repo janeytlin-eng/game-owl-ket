@@ -710,3 +710,11 @@ Tobias & Williams 2022 sharpened adult diagnosis, but the first generated young 
 ### 2026-11-04 #169 seasonal fledgling reports do not define individual age
 
 A report that recently fledged young occur in a month supports only a broad breeding boundary. It does not by itself establish exact age, flight threshold or the plumage of the individual being designed. For #169 v3, the Mikkola page-specific mesoptile description retained formed remiges/rectrices, while the first image's adult-hard wing and long tail were softened by a targeted edit and rechecked at original-detail crop scale. This rule was applied and visually verified once; exact chronology remains scientifically unverified and must not be generalized to all eagle-owls.
+
+
+### 2026-11-04 — Full-canvas integrity and conflicted dimorphism rule (applied to #152)
+
+- A file's reported dimensions and blob size do not prove a usable plate. Open the immutable/raw asset and inspect the entire canvas; a narrow rendered strip plus blank/gray remainder is an archive defect even when metadata says 1536×1024.
+- When reliable summaries conflict on sexual size direction, do not choose a direction for visual drama. Use near-equal adults and preserve the conflict in the research record.
+- A source phrase such as “downy juvenile with white face and underparts” supports that visible stage, not a precise age, flight claim, bright adult iris or mature long wing/tail. Developing soft coverts may be shown only while exact chronology stays unknown.
+- This rule was applied and visually checked on #152 v3; effectiveness is limited to preventing the identified archive/sex-size/development errors and does not make the plate scientifically verified.

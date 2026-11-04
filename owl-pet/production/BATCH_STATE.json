@@ -13121,8 +13121,8 @@
   "lease": {
     "owner": "codex-work",
     "run_id": "20261104T154500+0800-cycle-2",
-    "heartbeat_at": "2026-11-04T15:51:00+08:00",
-    "expires_at": "2026-11-04T16:06:00+08:00"
+    "heartbeat_at": "2026-11-04T15:54:00+08:00",
+    "expires_at": "2026-11-04T16:09:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -16764,11 +16764,33 @@
           "sex-specific size difference"
         ]
       }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 2,
+      "run_id": "20261104T154500+0800-cycle-2",
+      "species_id": 188,
+      "stage": "ARCHIVED",
+      "at": "2026-11-04T15:54:00+08:00",
+      "credited": false,
+      "evidence": {
+        "concept_path": "owl-pet/design/concepts/188-otus-semitorques-v2.png",
+        "concept_blob": "4577abe45b41d0d59bc7311b4edb03f79b4c981e",
+        "manifest_counts": {
+          "design_image": 647,
+          "design_legacy": 648,
+          "production": 638
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true
+      }
     }
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 2,
-  "current_stage": "REVIEWED",
+  "current_stage": "ARCHIVED",
   "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251

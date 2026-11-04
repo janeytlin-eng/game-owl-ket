@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T15:43:00+08:00",
+  "updated": "2026-11-04T15:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -17919,7 +17919,64 @@
           "production": 637
         }
       }
+    },
+    {
+      "id": "188-otus-semitorques-v2",
+      "species_id": 188,
+      "scientific_name": "Otus semitorques",
+      "historical_names": [
+        "Otus bakkamoena semitorques",
+        "Otus lempiji semitorques"
+      ],
+      "common_name": "Japanese Scops Owl",
+      "version": 2,
+      "prior_versions_retained": [
+        1
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/188-otus-semitorques-v2.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "Nominate Honshu v2 uses a direct Saitama recent-fledgling record: down-rich young with soft tufts, dark-indeterminate eyes, incomplete wing/tail and stationary fully supported branch posture. Adults remain near-equal same-plumage with orange-red eyes, nuchal collar and feathered toes. One targeted edit removed adult-hard juvenile remiges. Exact age, flight ability and quantitative sex difference remain unknown; science=false.",
+      "source_ids": [
+        "JPSO-NOHARA-HONDA-2025-P75-78",
+        "JPSO-TOYAMA-ETAL-2015-P841-847",
+        "JPSO-ITIS-1063233-1063621-2026",
+        "JPSO-TOKYO-ZOO-2026",
+        "JPSO-MIKKOLA-2013-P158"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--188-otus-semitorques-v2--honshu-recent-fledgling",
+      "research_record": "research/species/188-otus-semitorques-v2.md",
+      "run_record": "production/runs/20261104T154500+0800-cycle-2.md",
+      "reviewed_at": "2026-11-04T15:51:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2915135,
+      "sha256": "3491d7bd47d09f87831ab4f04374073baa2c0246fcfdc321c43bdda923991d98",
+      "git_blob": "4577abe45b41d0d59bc7311b4edb03f79b4c981e",
+      "generated_path": "production/generated/188-otus-semitorques-v2-generated-master.png",
+      "generated_blob": "dabd55571cf1c3a6a5e3c75f81475b4c468898d1",
+      "generated_size_bytes": 3115331,
+      "generated_sha256": "12a2a40a7f9559c757414fd8cac630408417235ce0fd0db84b3a8e1a53558f3a",
+      "intermediate_edit_path": "production/generated/188-otus-semitorques-v2-edit1.png",
+      "intermediate_edit_blob": "4577abe45b41d0d59bc7311b4edb03f79b4c981e",
+      "reviewed_path": "production/reviewed/188-otus-semitorques-v2-reviewed-master.png",
+      "reviewed_blob": "4577abe45b41d0d59bc7311b4edb03f79b4c981e",
+      "review_crop_path": "production/review-crops/188-otus-semitorques-v2-recent-fledgling.png",
+      "review_crop_blob": "0baf6f8231ccc93a84f3b28c505eda7b71239d26",
+      "review_crop_size_bytes": 705468,
+      "review_crop_sha256": "065a53bec1855642501f9b9deacfbbdce14e40ed1e097dc3992ea3d191a6352a",
+      "auxiliary_review_crop_path": "production/review-crops/188-otus-semitorques-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "b1fb51dff6e656174106e44397275e624940b5bd",
+      "auxiliary_review_crop_size_bytes": 1285148,
+      "auxiliary_review_crop_sha256": "901fb9c7fb712bae0f99522d3acd9bef5fcac3fed5373423b0c0fa10a619bb4f",
+      "archive_note": "Initial full image was opened and rejected for adult-hard layered juvenile remiges. One targeted imagegen edit shortened/softened only the juvenile wing and tail. Final full plate and two original-detail crops were opened. Science remains false.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": "PENDING_SELF"
     }
   ],
-  "updated_at": "2026-11-04T15:43:00+08:00"
+  "updated_at": "2026-11-04T15:54:00+08:00"
 }

@@ -1540,3 +1540,11 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added/updated research and source index with MNHN pp.15–16 and ITIS TSN 686656; unverified literature leads remain labeled.
 - One targeted edit corrected ear-tuft height and juvenile wing maturity; PASS_WITH_LIMITATIONS, scientifically_verified=false.
 
+
+
+## 2026-11-04 — #188 *Otus semitorques* v2
+
+- Added a researched, generated, visually inspected and edited Japanese Scops Owl adult male/adult female/recent-fledgling plate.
+- Preserved v1 and all prior numbering; unique coverage remains 176/251 and revision count increases by one.
+- Initial juvenile wing failed the direct fledgling constraint; edit1 removed long orderly remiges while preserving full branch support.
+- Research: `research/species/188-otus-semitorques-v2.md`; run: `production/runs/20261104T154500+0800-cycle-2.md`; science=false.

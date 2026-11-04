@@ -2862,3 +2862,10 @@ Science revision of the verified v1. The direct young-bird evidence remains only
 
 A museum label “immature” proves age class, not feather sequence, iris or locomotor capacity. When no dated development source exists, the image must keep those traits visually conservative and explicitly unknown. This rule was applied and visually checked on #179 v2; broader effectiveness is not yet claimed.
 
+
+
+## 2026-11-04 — #188 Japanese Scops Owl v2
+
+- Archived `concepts/188-otus-semitorques-v2.png`; v1 retained.
+- Direct Saitama evidence fixes the juvenile to a recent fledgling with extensive down and incomplete flight/tail feathers. One targeted edit removed adult-hard juvenile remiges.
+- Result: PASS_WITH_LIMITATIONS; science=false. Exact age, flight ability and quantitative sex difference remain unknown.

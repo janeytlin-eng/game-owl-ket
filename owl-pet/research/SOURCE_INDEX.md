@@ -761,3 +761,9 @@
 - New verified sources: 1; re-read/reused verified sources: 5; corrected boundaries: 2.
 - Unknown: daily plumage sequence, universal first-flight age, sex-size direction, iris/eyelid ontogeny, population transfer and universal cavity geometry.
 - Links: `research/species/46-strix-ocellata-v4.md`; `production/runs/20261105T040500+0800-cycle-2.md`; planned concept v4.
+
+
+### 2026-11-05 version correction for #46
+- Cross-manifest reconciliation found verified low-resolution v4 in `design/manifest.json` only: blob `f91ffedfe50de2fe7761c5ed5f9c623c224d92a3`, archive `3f07adbc3787168e23fbc724e11278a6ae890368`.
+- The new 1536×1024 asset is renumbered v5 before concept archive or cycle credit. Earlier v4 IMAGE_GENERATED/REVIEWED stage paths from this run remain uncounted recovery traces; final manifests and concept use v5.
+- Corrected research record: `research/species/46-strix-ocellata-v5.md`.

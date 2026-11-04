@@ -12840,53 +12840,83 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261104T154500+0800-cycle-2",
-        "heartbeat_at": "2026-11-04T15:45:00+08:00",
-        "expires_at": "2026-11-04T16:00:00+08:00"
+        "heartbeat_at": "2026-11-04T15:49:00+08:00",
+        "expires_at": "2026-11-04T16:04:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T154500+0800-cycle-2",
-        "heartbeat_at": "2026-11-04T15:45:00+08:00",
-        "expires_at": "2026-11-04T16:00:00+08:00"
+        "heartbeat_at": "2026-11-04T15:49:00+08:00",
+        "expires_at": "2026-11-04T16:04:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
-        "species": "Otus spilocephalus",
-        "species_id": 184,
+        "species": "Otus semitorques",
+        "species_id": 188,
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T154500+0800-cycle-2",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "stage_evidence": {
-          "started_at": "2026-11-04T15:45:00+08:00",
-          "selection": "next numbered v1-only science-revision target after verified #179; IDs 180–183 have no archived concept paths in current tree",
-          "main_head": "c220a448bcf196c08016cdc24b860fa1b3affbc4",
-          "v1_path": "owl-pet/design/concepts/184-otus-spilocephalus-v1.png",
-          "unique_species": "176/251",
-          "lease_expires_at": "2026-11-04T16:00:00+08:00",
-          "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
+          "research_file": "owl-pet/research/species/188-otus-semitorques-v2.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids": [
+            "JPSO-NOHARA-HONDA-2025-P75-78",
+            "JPSO-TOYAMA-ETAL-2015-P841-847",
+            "JPSO-ITIS-1063233-1063621-2026",
+            "JPSO-TOKYO-ZOO-2026",
+            "JPSO-MIKKOLA-2013-P158"
+          ],
+          "source_delta": {
+            "new": 4,
+            "reused": 1,
+            "corrected": 1
+          },
+          "full_prompt_saved": true,
+          "mikkola_accessible": false,
+          "selection_pivot": {
+            "skipped_species_id": 184,
+            "reason": "duplicate Taiwan O. s. hambroecki population already canonical at #101 v7",
+            "selected_species_id": 188
+          },
+          "juvenile_stage": "source-observed recent fledgling; full down; distinct soft tufts; incomplete remiges/tail; dark-indeterminate iris; flight unknown; stationary supported branch"
         }
       },
       "last_checkpoint": {
         "cycle": 2,
-        "species": "Otus spilocephalus",
-        "species_id": 184,
+        "species": "Otus semitorques",
+        "species_id": 188,
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T154500+0800-cycle-2",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "stage_evidence": {
-          "started_at": "2026-11-04T15:45:00+08:00",
-          "selection": "next numbered v1-only science-revision target after verified #179; IDs 180–183 have no archived concept paths in current tree",
-          "main_head": "c220a448bcf196c08016cdc24b860fa1b3affbc4",
-          "v1_path": "owl-pet/design/concepts/184-otus-spilocephalus-v1.png",
-          "unique_species": "176/251",
-          "lease_expires_at": "2026-11-04T16:00:00+08:00",
-          "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
+          "research_file": "owl-pet/research/species/188-otus-semitorques-v2.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids": [
+            "JPSO-NOHARA-HONDA-2025-P75-78",
+            "JPSO-TOYAMA-ETAL-2015-P841-847",
+            "JPSO-ITIS-1063233-1063621-2026",
+            "JPSO-TOKYO-ZOO-2026",
+            "JPSO-MIKKOLA-2013-P158"
+          ],
+          "source_delta": {
+            "new": 4,
+            "reused": 1,
+            "corrected": 1
+          },
+          "full_prompt_saved": true,
+          "mikkola_accessible": false,
+          "selection_pivot": {
+            "skipped_species_id": 184,
+            "reason": "duplicate Taiwan O. s. hambroecki population already canonical at #101 v7",
+            "selected_species_id": 188
+          },
+          "juvenile_stage": "source-observed recent fledgling; full down; distinct soft tufts; incomplete remiges/tail; dark-indeterminate iris; flight unknown; stationary supported branch"
         }
       },
-      "last_stage": "STARTED",
-      "updated_at": "2026-11-04T15:45:00+08:00",
+      "last_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-04T15:49:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -13052,6 +13082,38 @@
             "lease_expires_at": "2026-11-04T16:00:00+08:00",
             "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
           }
+        },
+        {
+          "cycle": 2,
+          "run_id": "20261104T154500+0800-cycle-2",
+          "species": "Otus semitorques",
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-04T15:49:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "research_file": "owl-pet/research/species/188-otus-semitorques-v2.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "source_ids": [
+              "JPSO-NOHARA-HONDA-2025-P75-78",
+              "JPSO-TOYAMA-ETAL-2015-P841-847",
+              "JPSO-ITIS-1063233-1063621-2026",
+              "JPSO-TOKYO-ZOO-2026",
+              "JPSO-MIKKOLA-2013-P158"
+            ],
+            "source_delta": {
+              "new": 4,
+              "reused": 1,
+              "corrected": 1
+            },
+            "full_prompt_saved": true,
+            "mikkola_accessible": false,
+            "selection_pivot": {
+              "skipped_species_id": 184,
+              "reason": "duplicate Taiwan O. s. hambroecki population already canonical at #101 v7",
+              "selected_species_id": 188
+            },
+            "juvenile_stage": "source-observed recent fledgling; full down; distinct soft tufts; incomplete remiges/tail; dark-indeterminate iris; flight unknown; stationary supported branch"
+          }
         }
       ]
     }
@@ -13193,7 +13255,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-04T15:45:00+08:00",
+  "updated_at": "2026-11-04T15:49:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -13205,8 +13267,8 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "20261104T154500+0800-cycle-2",
-    "heartbeat_at": "2026-11-04T15:45:00+08:00",
-    "expires_at": "2026-11-04T16:00:00+08:00"
+    "heartbeat_at": "2026-11-04T15:49:00+08:00",
+    "expires_at": "2026-11-04T16:04:00+08:00"
   },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
@@ -13969,20 +14031,35 @@
   ],
   "in_progress": {
     "cycle": 2,
-    "species": "Otus spilocephalus",
-    "species_id": 184,
+    "species": "Otus semitorques",
+    "species_id": 188,
     "version": 2,
     "action": "SCIENCE_REVISION",
     "run_id": "20261104T154500+0800-cycle-2",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "stage_evidence": {
-      "started_at": "2026-11-04T15:45:00+08:00",
-      "selection": "next numbered v1-only science-revision target after verified #179; IDs 180–183 have no archived concept paths in current tree",
-      "main_head": "c220a448bcf196c08016cdc24b860fa1b3affbc4",
-      "v1_path": "owl-pet/design/concepts/184-otus-spilocephalus-v1.png",
-      "unique_species": "176/251",
-      "lease_expires_at": "2026-11-04T16:00:00+08:00",
-      "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
+      "research_file": "owl-pet/research/species/188-otus-semitorques-v2.md",
+      "source_index": "owl-pet/research/SOURCE_INDEX.md",
+      "source_ids": [
+        "JPSO-NOHARA-HONDA-2025-P75-78",
+        "JPSO-TOYAMA-ETAL-2015-P841-847",
+        "JPSO-ITIS-1063233-1063621-2026",
+        "JPSO-TOKYO-ZOO-2026",
+        "JPSO-MIKKOLA-2013-P158"
+      ],
+      "source_delta": {
+        "new": 4,
+        "reused": 1,
+        "corrected": 1
+      },
+      "full_prompt_saved": true,
+      "mikkola_accessible": false,
+      "selection_pivot": {
+        "skipped_species_id": 184,
+        "reason": "duplicate Taiwan O. s. hambroecki population already canonical at #101 v7",
+        "selected_species_id": 188
+      },
+      "juvenile_stage": "source-observed recent fledgling; full down; distinct soft tufts; incomplete remiges/tail; dark-indeterminate iris; flight unknown; stationary supported branch"
     }
   },
   "previous_checkpoint": {
@@ -16631,7 +16708,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 2,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251

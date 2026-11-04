@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:52:00+08:00",
+  "updated": "2026-11-05T04:56:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20243,7 +20243,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "HIML-NTM-YAMADAE",
         "HIML-LEE-2025",
@@ -20271,12 +20271,47 @@
       "juvenile_review_crop": "production/review-crops/48-strix-nivicolum-v5-juvenile.png",
       "juvenile_review_blob": "87cc765aa4e26e308f036673124f9bed43aded6d",
       "reviewed_at": "2026-11-05T04:47:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1327365,
       "adults_review_sha256": "0c6d84cff130686a9f52896c4f281b1fcd573c4faf568cd91454f796ae81e8a6",
       "juvenile_review_size_bytes": 710729,
-      "juvenile_review_sha256": "15378aab0c5268d17f0d9c13f92d603c1e676be73d751b77bcf419256a41d21a"
+      "juvenile_review_sha256": "15378aab0c5268d17f0d9c13f92d603c1e676be73d751b77bcf419256a41d21a",
+      "archive_commit": "5d1226f1eb5cf6262fb22e5c11f6e4ae667d1443",
+      "archive_tree": "7662aa89ca42fb20e508b322bb282db962c1de44",
+      "verified_at": "2026-11-05T04:56:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "5d1226f1eb5cf6262fb22e5c11f6e4ae667d1443",
+        "tree_sha": "7662aa89ca42fb20e508b322bb282db962c1de44",
+        "tree_entry_count": 2916,
+        "tree_truncated": false,
+        "paths_verified": 11,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/48-strix-nivicolum-v5.png",
+          "blob": "2e0f35ad63d6dd74020a033fcd235dae263f9985",
+          "size_bytes": 3127033
+        },
+        "adult_crop": {
+          "path": "production/review-crops/48-strix-nivicolum-v5-adults.png",
+          "blob": "54404a86d89745f3b4cea102a9e1447a85e2b843",
+          "size_bytes": 1327365
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/48-strix-nivicolum-v5-juvenile.png",
+          "blob": "87cc765aa4e26e308f036673124f9bed43aded6d",
+          "size_bytes": 710729
+        },
+        "manifest_counts": {
+          "design_image": 673,
+          "design_legacy": 674,
+          "production": 664
+        }
+      },
+      "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
     }
   ],
-  "updated_at": "2026-11-05T04:52:00+08:00"
+  "updated_at": "2026-11-05T04:56:00+08:00"
 }

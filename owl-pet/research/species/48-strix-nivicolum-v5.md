@@ -53,4 +53,4 @@ Exact title/count/labels; dark-eyed untufted adults; yellowish bill and crossed 
 
 ## Stage
 
-RESEARCH_READY; generation pending.
+VERIFIED on immutable archive tree; PASS_WITH_LIMITATIONS; scientifically_verified=false. One juvenile-wing edit applied and rechecked.

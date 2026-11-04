@@ -127,3 +127,48 @@ undefined
 - Corrected boundary: fledgling-season statements do not justify an exact age or flight claim; female “probably larger” does not justify a conspicuously larger female.
 - SHEO-MACAULAY-615106415-UNVERIFIED was blocked by anti-bot and remains a lead only, not evidence.
 - Links: `research/species/169-ketupa-shelleyi-v3.md`; `production/runs/20261104T173200+0800-cycle-6.md`; concept v3.
+
+
+## 2026-11-04 — #152 *Uroglaux dimorpha* v3 — archive repair and downy-juvenile boundary
+
+### PHO-BEEHLER-PRATT-2016-P373-374
+- **Title / authors / year:** *Birds of New Guinea*, 2nd ed. — Bruce M. Beehler & Thane K. Pratt, 2016.
+- **URL:** https://dokumen.pub/birds-of-new-guinea-second-edition-secondnbsped-9781400865116.html
+- **Type / pages / accessed:** regional monograph; pp.373–374; accessed 2026-11-04.
+- **Scope / facts:** adult 30–33 cm, small head, long tail, streaked breast and profusely barred upperparts; downy juvenile with white face and underparts.
+- **Limits:** available page extract did not provide exact juvenile age, iris, flight threshold, full wing/tail chronology or nest.
+- **Design use:** adult proportions/pattern and conservative downy-juvenile stage.
+
+### PHO-MIMIKA-GUIDE-2015-P143
+- **Title / institution / year:** *A Guide to the Birds of the Mimika Region* — PT Freeport Indonesia, 2015.
+- **URL:** https://ptfi.co.id/site/uploads/images/6327d098712c3-a-guide-to-the-birds-of-mimika-region-papua-indonesia.pdf
+- **Type / page / accessed:** regional field guide; p.143; accessed 2026-11-04.
+- **Facts:** 32 cm; hawk-like, small head, longish tail, heavily streaked/barred; rainforest and gallery forest to 1,500 m; rare in Mimika lowlands.
+- **Limits:** no sex or juvenile development detail.
+- **Design use:** adult silhouette and lowland-rainforest context.
+
+### PHO-BIRDLIFE-2026-ECOLOGY
+- **Institution / accessed:** BirdLife International DataZone; accessed 2026-11-04.
+- **URL:** https://datazone.birdlife.org/species/factsheet/papuan-hawk-owl-uroglaux-dimorpha
+- **Type / scope:** conservation factsheet; habitat/status/ecology.
+- **Facts:** New Guinea lowland forest, generally 0–1,000 m and locally 1,500 m; gallery forest; birds, rodents and insects recorded as prey.
+- **Limits:** no juvenile description or nest geometry.
+- **Design use:** habitat only; omit prey and nest from plate.
+
+### PHO-ITIS-1063560-2026
+- **Institution / accessed:** ITIS; accessed 2026-11-04.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063560
+- **Type / scope:** official taxonomy.
+- **Fact:** accepted *Uroglaux dimorpha*; original combination *Athene dimorpha*.
+- **Limit:** no morphology/development.
+
+### PHO-SHANY-1995-P74-UNVERIFIED
+- **Title / author / year:** “Juvenile Papuan Hawk-Owl *Uroglaux dimorpha* near Vanimo” — Noem Shany, 1995, *Muruk* 7(2):74.
+- **URL:** https://journal.pngagriculture.net/index.php/muruk/issue/view/227
+- **Status:** issue title/page metadata verified; full text subscription-blocked and therefore **unverified lead only**.
+- **Design use:** none until primary text is read.
+
+### Corrections and links
+- Corrected v2 archive status: direct raw-file inspection found a narrow top strip and gray remainder despite 1536×1024 metadata; v2 is retained but not used as the current review master.
+- Corrected sex rule: published summaries conflict on whether male or female is larger; v3 encodes no direction and uses near-equal adults.
+- Links: `research/species/152-uroglaux-dimorpha-v3.md`; `production/runs/20261104T183100+0800-cycle-1.md`; concept v3 pending generation.

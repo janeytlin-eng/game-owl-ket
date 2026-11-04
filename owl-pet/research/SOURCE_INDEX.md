@@ -474,3 +474,12 @@
 - Reused v3 Mikkola printed pp.360–363 and Huhtala, Korpimäki & Pulliainen 1987 growth-study citation. The uploaded Mikkola file was not newly accessible.
 - Corrected the design statement “pre-flight 24–27-day branch-clamberer” to a more conservative Denali first-departure boundary: approximately 20–22 d, fully supported, locomotion-capable, with formed juvenile flight/tail feathers but no confident-flight claim.
 - Source accounting: new verified 3; reused 2; corrected design boundary 1. Exact individual age, continuous feather sequence, flight threshold, subspecies and universal nest form remain unknown.
+
+
+## 2026-11-04 — #10 *Surnia ulula* v5 — version-collision correction and 20–22-day boundary
+
+- Stable correction ID: `NHO-VERSION-CORRECTION-2026-11-04`
+- Repository fact: design and production manifests already contain verified #10 v4 at commit `45290cc7957ff9e60a93727a706e76be8c71043c`; the early-stage v4 label in run `20261104T231133+0800-cycle-3` was therefore superseded before archive. Existing v4 files and approval history remain untouched; the new full-resolution plate is v5.
+- Evidence sources remain `NHO-KERTELL-1986-JRR-P91-101`, `NHO-NPS-DENALI-2021-2026`, `NHO-EFAUNA-BC-2026`, plus reused Mikkola pp.360–363 and Huhtala et al. 1987. This correction adds no new biological source.
+- Design decision: approximately 20–22-day departure-stage young, fully supported and locomotion-capable; formed but soft juvenile flight/tail feathers; no inferred confident flight. Exact individual age, continuous feather sequence, flight threshold and universal timing remain unknown.
+- Links: `research/species/10-surnia-ulula-v5.md`; `research/reviews/10-surnia-ulula-v5-review.md`; `design/concepts/10-surnia-ulula-v5.png`.

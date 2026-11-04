@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T23:10:01.220+08:00",
+  "updated": "2026-11-04T23:27:16.871+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18980,7 +18980,7 @@
       "scientifically_verified": false,
       "review_result": "PASS_WITH_LIMITATIONS",
       "edit_count": 1,
-      "status": "V6 preserves v1-v5, replaces the low-resolution v5 review master, and selects a first-days post-fledging poor flier from direct field observations. Adults are northern gray morphs with near-equal display scale; female is only subtly fuller. The fully branch-supported juvenile is fluffy finely barred gray with reduced ear tufts, short tail and one formed but softened half-open balancing wing after a poor landing. Exact age, subspecies, continuous feather chronology and quantified sexual size difference remain unknown; science=false.",
+      "status": "V6 preserves v1-v5 and rebuilds the 680x453 v5 plate at full resolution. Adults are northern gray morph and near-equal in scale; the newly fledged juvenile is fully branch-supported after a poor landing with a shorter, softer half-open wing. Exact age, subspecies, feather chronology, remex/tail measurements, iris/cere chronology, quantified sexual size difference and literal cavity geometry remain unknown; science=false.",
       "source_ids": [
         "EASO-SMITH-DEVINE-2003-P98-103",
         "EASO-CORNELL-LIFE-2026",
@@ -18988,7 +18988,7 @@
         "EASO-USFS-FEIS-1995",
         "EASO-USGS-KOZLOWSKI-HAHN-2010"
       ],
-      "source_index": "research/SOURCE_INDEX.md#2026-11-04--17-megascops-asio-v6--post-fledging-poor-flier-boundary",
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--17-megascops-asio-v6--post-fledging-poor-flight-boundary",
       "research_record": "research/species/17-megascops-asio-v6.md",
       "review_record": "research/reviews/17-megascops-asio-v6-review.md",
       "run_record": "production/runs/20261104T225412+0800-cycle-2.md",
@@ -19006,12 +19006,12 @@
       "review_crop_path": "production/review-crops/17-megascops-asio-v6-juvenile.png",
       "review_crop_blob": "0a10ef01c76fddce06b0bd2db4ca0dcb143bc1dc",
       "review_crop_size_bytes": 799776,
-      "review_crop_sha256": "44b208562a143f4f4386347a4a26250fd94b9cd573bf9a28e40cc01a252e9c06",
+      "review_crop_sha256": "0d29c35909982f2f3fbd85b39b38769f54be6392ca815e90a2c86fbf3a01db41",
       "auxiliary_review_crop_path": "production/review-crops/17-megascops-asio-v6-adults.png",
       "auxiliary_review_crop_blob": "b3cc35de671260b674aaf69ed5f019fe0895daf8",
       "auxiliary_review_crop_size_bytes": 1340884,
-      "auxiliary_review_crop_sha256": "804f265f705689f5ff944fa4074cc951b1fc36afeb193c762492440135173bd3",
-      "archive_note": "One targeted edit shortened and softened the juvenile wing while retaining formed remiges permitted by actual first flight. V1-v5 remain intact and historical approval does not transfer. Primary Smith & Devine printed pp.98-103 plus Cornell/USFS/USGS sources were read; Mikkola pp.207-209 were reused from the existing v5 record. Scientific verification remains false.",
+      "auxiliary_review_crop_sha256": "0cba7da087d26c0dad587c9c0f6d68cbd7fd78ea9e1db2a8e8cc5fd8093260a3",
+      "archive_note": "One targeted imagegen edit shortened and softened the post-fledging juvenile wing. Full 1536x1024 master and both diagnostic crops were reopened. The formed wing is allowed only for the selected first-days post-fledging poor-flier stage. Mikkola pp.207-209 were reused; five sources were newly verified.",
       "readback_pending": false,
       "exact_readback": true,
       "archive_commit": "661d2cacf3703d736d7dc1f88fbdc912a69783c5",
@@ -19020,11 +19020,9 @@
       "verified_at": "2026-11-04T23:10:01.220+08:00",
       "readback": {
         "status": "VERIFIED_EVIDENCE",
-        "method": "GitHub connector immutable-commit recursive-tree and exact path/blob/byte readback; three manifests fetched from archive commit and parsed; local Git object hashes matched remote blobs; original and two diagnostic crops visually inspected",
+        "method": "GitHub connector immutable-commit recursive-tree and exact path/blob/byte readback; three manifests parsed; original and two crops visually inspected",
         "commit_sha": "661d2cacf3703d736d7dc1f88fbdc912a69783c5",
         "tree_sha": "d4492212d01f86ee2b14ff27f166af52d60f1717",
-        "tree_entry_count": 2766,
-        "tree_truncated": false,
         "paths_verified": 15,
         "binary_paths_verified": 7,
         "unique_binary_blobs": 3,
@@ -19056,10 +19054,67 @@
           "design_image": 659,
           "design_legacy": 660,
           "production": 650
-        },
-        "source_ids_present": 5
+        }
       }
+    },
+    {
+      "id": "10-surnia-ulula-v5",
+      "species_id": 10,
+      "scientific_name": "Surnia ulula",
+      "historical_names": [],
+      "common_name": "Northern Hawk Owl",
+      "version": 5,
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/10-surnia-ulula-v5.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V5 preserves v1-v4, including the existing 2026-10-30 v4, and supplies the current full-resolution evidence revision. Adults remain the same barred yellow-eyed morph and near-equal in scale. The fully supported approximately 20-22-day Denali departure-stage juvenile is gray/down-rich and locomotion-capable with formed but softened unspotted juvenile wing/tail feathers. Exact age, feather geometry, flight threshold, quantified sex ratio and universal departure timing remain unknown; science=false.",
+      "source_ids": [
+        "NHO-KERTELL-1986-JRR-P91-101",
+        "NHO-NPS-DENALI-2021-2026",
+        "NHO-EFAUNA-BC-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--10-surnia-ulula-v5--version-collision-correction-and-2022-day-boundary",
+      "research_record": "research/species/10-surnia-ulula-v5.md",
+      "review_record": "research/reviews/10-surnia-ulula-v5-review.md",
+      "run_record": "production/runs/20261104T231133+0800-cycle-3.md",
+      "reviewed_at": "2026-11-04T23:20:22.586+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2992277,
+      "sha256": "ebf282ce3d4f907bea9e9c568e0388573b5dab52b35b12a49453bb49339800f4",
+      "git_blob": "65bcbcdf08d8c52770da0d8f16bca0eff7aa4214",
+      "generated_path": "production/generated/10-surnia-ulula-v5-generated.png",
+      "generated_blob": "65bcbcdf08d8c52770da0d8f16bca0eff7aa4214",
+      "generated_size_bytes": 2992277,
+      "generated_sha256": "ebf282ce3d4f907bea9e9c568e0388573b5dab52b35b12a49453bb49339800f4",
+      "reviewed_path": "production/reviewed/10-surnia-ulula-v5-reviewed-master.png",
+      "reviewed_blob": "65bcbcdf08d8c52770da0d8f16bca0eff7aa4214",
+      "review_crop_path": "production/review-crops/10-surnia-ulula-v5-juvenile.png",
+      "review_crop_blob": "a86f0d600e579e30ee7c9595fbda1e1383b86f07",
+      "review_crop_size_bytes": 587241,
+      "review_crop_sha256": "02326cc1de5b2c49012c82eca0925819894abd662ae5157d7c99ec5b4303d9c6",
+      "auxiliary_review_crop_path": "production/review-crops/10-surnia-ulula-v5-adults.png",
+      "auxiliary_review_crop_blob": "211484c2bd162c7a081b955c93a822419748fd95",
+      "auxiliary_review_crop_size_bytes": 1514008,
+      "auxiliary_review_crop_sha256": "a2c8cf9c32c33888e94929018bfe7b56dd2a09e10d99415a97222a0d3be1b73e",
+      "archive_note": "Version collision corrected before archive: v4 already exists at commit 45290cc7957ff9e60a93727a706e76be8c71043c and remains untouched; the current work is v5. One targeted edit reduced an oversized female and shortened/softened the juvenile's adult-like spotted wing. Full master plus juvenile and adult-comparison crops were reopened. Kertell 1986 pp.91-101, NPS Denali and E-Fauna BC were read; Mikkola pp.360-363 and Huhtala et al. 1987 were reused. Science remains false.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null,
+      "fixed_archive_commit": null,
+      "archive_tree": null,
+      "verified_at": null,
+      "readback": null
     }
   ],
-  "updated_at": "2026-11-04T23:10:01.220+08:00"
+  "updated_at": "2026-11-04T22:52:12+08:00"
 }

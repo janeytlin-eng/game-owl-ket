@@ -26,3 +26,7 @@ No edit required. The generated juvenile wing is shorter and softer than the adu
 ## Archive preparation
 - Master blob `1f873fec785b2900c13849240e448ffad943087c`; adult crop `aefdb8a3fe809d47cff6b1cacb3d7e8be13efc47`; juvenile crop `418e99ab5c50f111d87e9fb52000df4f402810d1`.
 - Readback pending; this section is not a verification claim.
+
+## Immutable verification
+- Accepted archive `5fb63c8e94d3451e82d3e769b58ce2f288258839`; tree `e0ff9a57ed07bec88a4c89fb478557bfc4b85cfb`; 2,870 entries, not truncated.
+- All seven image paths and 3 unique image blobs match expected SHA and size. Manifests: 669 / 670 / 660.

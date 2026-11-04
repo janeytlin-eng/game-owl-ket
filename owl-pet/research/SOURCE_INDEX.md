@@ -1,3 +1,9 @@
+## 2026-11-05 — #54 *Bubo africanus* v5 — full-resolution evidence reconciliation
+
+- Re-read/reused `SEO-SANBI-2018` (updated 2025; adult identification and lines 62–69 chick chronology), `SEO-MIKKOLA-2013-P280-281`, `SEO-OSTRICH-RSD-2008`, `SEO-BDI-2022` and `SEO-ITIS-555408`; new0 / reused5 / corrected1.
+- Correction: SANBI's “sexes alike in colour and size” and Mikkola's male-paler/lighter direction do not justify opposite categorical claims. V5 uses near-equal crown height, only slight male pallor/slimness and subtle female fullness. The age-unknown Mikkola mesoptile is not assigned SANBI's exact six-week wing/tail proportions.
+- Links: `research/species/54-bubo-africanus-v5.md`; concept v5; run `production/runs/20261105T071100+0800-cycle-3.md`. Scientific status false.
+
 ## 2026-11-05 — #52 *Strix hylophila* v5 — cavity-evidence correction
 
 ### RBO-COCKLE-ETAL-2024-P10

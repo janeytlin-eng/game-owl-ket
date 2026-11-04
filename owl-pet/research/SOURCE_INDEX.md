@@ -885,3 +885,35 @@
 - New verified sources: 2; re-read/reused verified sources: 4; corrected boundaries: 2.
 - Unknown: selected juvenile age/sex, continuous remex/rectrix sequence, locomotor threshold, cross-population transfer and current mapping of every historical record.
 
+
+
+## 2026-11-05 — #51 *Strix rufipes* v5 — estimated ≤1-week cavity chick and adult dichromatism
+
+### RLO-VUKASOVIC-2006-P172-174
+- **Title / authors / year:** *Nesting Record of Rufous-legged Owl (Strix rufipes King) in Central Chile* — M. Angélica Vukasovic, Martín A. H. Escobar, Jorge A. Tomasevic & Cristián F. Estades, 2006.
+- **DOI / URL:** https://doi.org/10.3356/0892-1016(2006)40[172:NROROS]2.0.CO;2 ; https://levs.cl/wp-content/uploads/2023/07/25.-Vukasovic-M.-A.-M.-A.-H.-Escobar-J.-A.-Tomasevic-C.F.-Estades.-2006.-Nesting-Record-of-Rufous-legged-Owl-Strix-rufipes-King-in-central-Chile.pdf
+- **Type / pages / accessed:** primary field paper, *Journal of Raptor Research* 40(2):172–174; full article read 2026-11-05.
+- **Scope / facts:** one central-Chile owlet in a roughly 30 cm top-opening cup cavity formed by decay in a dead broken *Nothofagus glauca* trunk, 3 m above ground in second-growth hualo forest; estimated at no more than one week using other *Strix* growth patterns; brooded by day, fed at night and observed pecking cavity walls.
+- **Limits / conflict:** age was inferred, not measured from hatching; the paper does not describe iris, feather sequence or flight. One nest must not become a universal cavity geometry.
+- **Design use:** estimated ≤1-week, continuously supported, down-dominant cavity chick and gentle wall-pecking action; no flight, eggs or stored prey.
+- **Links:** `research/species/51-strix-rufipes-v5.md`; planned concept v5; `production/runs/20261105T062700+0800-cycle-1.md`.
+
+### RLO-SIMBIO-MMA-5064-2026
+- **Title / institution / accessed:** *Strix rufipes* species record — Chile Ministry of Environment SIMBIO biodiversity platform; accessed 2026-11-05.
+- **URL / type / sections:** https://simbio.mma.gob.cl/Especies/Details/5064 ; official national species/taxonomy account, taxonomy, description, habitat and reproduction sections.
+- **Facts:** current *Strix rufipes* with synonyms *Syrnium rufipes* and *Ulula rufipes*; adult 33–38 cm, round untufted head, dark eyes, broad rounded wings, rufous thighs; plumage strongly sex-linked, with a dark male and markedly paler female; dense mature forest and tree holes.
+- **Limits / design use:** synthesis rather than individual specimen series; no quantitative sexed dimensions or chick development. Supports adult identity and dichromatism, not a visible height multiplier or exact chick stage.
+
+### RLO-ESCOBAR-2022-P106-110 — re-read primary small-sample duration
+- **Title / authors / year:** *New Nesting Records and Breeding Ecology Observations of Rufous-Legged Owls in the Mediterranean Temperate Forest of Central Chile* — Escobar et al., 2022.
+- **DOI / URL:** https://doi.org/10.3356/JRR-20-116 ; https://researchers.uss.cl/es/publications/new-nesting-records-and-breeding-ecology-observations-of-rufous-l/
+- **Type / pages / accessed:** peer-reviewed primary field paper, *Journal of Raptor Research* 56(1):106–110; institutional abstract re-read 2026-11-05.
+- **Facts:** two-nest sample; 30 d incubation and 34 d nestling period in a central-Chile forestry mosaic with *Pinus radiata* and *Nothofagus* fragments.
+- **Limits / design use:** duration and ecology only; does not provide a day-by-day feather map or prove independent flight at nest departure.
+
+### Reuse, mapping and correction
+- Reused official dossier `RLO-MMA-2015` and repository-indexed Mikkola printed p.333; the uploaded guide was unavailable and was not represented as freshly read.
+- Current name: *Strix rufipes* P. P. King, 1827; searchable historical names: *Syrnium rufipes*, *Ulula rufipes*.
+- New verified source entries: 2; re-read/reused verified sources: 3; corrected boundaries: 2.
+- Corrected boundaries: (1) the ≤1-week age is an author estimate based on other *Strix*, not a known hatch date; (2) adult sexual dichromatism does not establish a large sex-size difference.
+- Unknown: exact chick hatch age/sex/iris, continuous feather sequence, locomotor threshold, quantitative sexed measurements and population transfer.

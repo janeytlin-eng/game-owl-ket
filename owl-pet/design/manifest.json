@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T23:28:53.097+08:00",
+  "updated": "2026-11-04T23:42:03.406+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19152,6 +19152,65 @@
         },
         "version_correction": "Existing verified v4 retained; current full-resolution revision archived as v5."
       }
+    },
+    {
+      "id": "18-megascops-kennicottii-v4",
+      "species_id": 18,
+      "scientific_name": "Megascops kennicottii",
+      "historical_names": [
+        "Otus kennicottii"
+      ],
+      "common_name": "Western Screech-Owl",
+      "version": 4,
+      "prior_versions_retained": [
+        1,
+        2,
+        3
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/18-megascops-kennicottii-v4.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "Full-resolution v4 preserves v1-v3. Same-morph adults; female only subtly fuller/darker because available mass direction is geographic, not universal. Approximately 33-35-day just-departed juvenile is fully supported at a cottonwood cavity lip with compact down-obscured wing and concealed tail. Exact day, subspecies, feather geometry and flight threshold remain unknown; science=false.",
+      "source_ids": [
+        "WESO-USFS-GEHLBACH-STOLESON-2010-P512-518",
+        "WESO-BC-CANNINGS-DAVIS-2007-P1-21",
+        "WESO-CORNELL-LIFE-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--18-megascops-kennicottii-v4--just-departed-poor-flight-boundary",
+      "research_record": "research/species/18-megascops-kennicottii-v4.md",
+      "review_record": "research/reviews/18-megascops-kennicottii-v4-review.md",
+      "run_record": "production/runs/20261104T233010+0800-cycle-4.md",
+      "reviewed_at": "2026-11-04T23:42:03.406+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3181166,
+      "sha256": "2d0ab1b6dc616eb9960357ec4feae1b400f7c58d3cf1c62920cfbb2495540fa3",
+      "git_blob": "824fb2e871fd974a557724baa943281b8bada29e",
+      "generated_path": "production/generated/18-megascops-kennicottii-v4-generated.png",
+      "generated_blob": "824fb2e871fd974a557724baa943281b8bada29e",
+      "generated_size_bytes": 3181166,
+      "generated_sha256": "2d0ab1b6dc616eb9960357ec4feae1b400f7c58d3cf1c62920cfbb2495540fa3",
+      "reviewed_path": "production/reviewed/18-megascops-kennicottii-v4-reviewed-master.png",
+      "reviewed_blob": "824fb2e871fd974a557724baa943281b8bada29e",
+      "review_crop_path": "production/review-crops/18-megascops-kennicottii-v4-juvenile.png",
+      "review_crop_blob": "bfb144a34bbc1d569c688fc6b3ba779b7e18b647",
+      "review_crop_size_bytes": 798167,
+      "review_crop_sha256": "6aacf7c6d8212f124bbd02c4a7f237bb84ae24b05cbad1a2f0982c6a79a61fdb",
+      "auxiliary_review_crop_path": "production/review-crops/18-megascops-kennicottii-v4-adults.png",
+      "auxiliary_review_crop_blob": "f6392f6eaee48a328240c733eb52ab9a6d559083",
+      "auxiliary_review_crop_size_bytes": 1440991,
+      "auxiliary_review_crop_sha256": "106f4bb6720e76140ab74d0378114b13e6ce105b4017533e3247111e90fa532a",
+      "archive_note": "One targeted edit corrected the juvenile's long adult-spotted wing. Full master and both crops reopened. Initial command-output binary transfers were rejected on hash mismatch; final direct image-data blobs match local Git hashes.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null,
+      "fixed_archive_commit": null,
+      "archive_tree": null,
+      "verified_at": null,
+      "readback": null
     }
   ],
   "updated_at": "2026-11-04T22:52:12+08:00"

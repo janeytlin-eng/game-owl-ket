@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:56:00+08:00",
+  "updated": "2026-11-05",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20477,7 +20477,64 @@
         }
       },
       "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
+    },
+    {
+      "id": "49-strix-woodfordii-v5",
+      "path": "design/concepts/49-strix-woodfordii-v5.png",
+      "species_id": 49,
+      "scientific_name": "Strix woodfordii",
+      "common_name": "African Wood Owl",
+      "historical_names": [
+        "Ciccaba woodfordii",
+        "Noctua woodfordii",
+        "Syrnium nigricantius"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "AWOO-ABC-GALLERY-2018",
+        "AWOO-SABAP1-MENDELSOHN-P578-579",
+        "AWOO-SANBI-2018",
+        "AWOO-AVIBASE-NIGRICANTIOR-2026",
+        "AWOO-MIKKOLA-2013-P320-321"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/49-strix-woodfordii-v5.md",
+      "review_record": "research/reviews/49-strix-woodfordii-v5-review.md",
+      "run_record": "production/runs/20261105T052900+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2855076,
+      "sha256": "047d9b355050b1f4e782907bccbc6bcfaca28f6b76a676a64af20c392ccdb7a5",
+      "git_blob": "f016b6c7f8c26ec660e41d93933604d3881c4df1",
+      "generated_path": "production/generated/49-strix-woodfordii-v5-generated-master.png",
+      "generated_blob": "f016b6c7f8c26ec660e41d93933604d3881c4df1",
+      "reviewed_path": "production/reviewed/49-strix-woodfordii-v5-reviewed-master.png",
+      "reviewed_blob": "f016b6c7f8c26ec660e41d93933604d3881c4df1",
+      "adults_review_crop": "production/review-crops/49-strix-woodfordii-v5-adults.png",
+      "adults_review_blob": "d53725add711e127eb365a39f6ebcabd0de5e810",
+      "juvenile_review_crop": "production/review-crops/49-strix-woodfordii-v5-juvenile.png",
+      "juvenile_review_blob": "041878a2620892aee2aa2c6622dbe8df26ca2d72",
+      "reviewed_at": "2026-11-05T05:43:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1931567,
+      "adults_review_sha256": "30f8996e95ab665f6778a563d21eb029014f47486f7db1d33b6220b1b497b8e7",
+      "juvenile_review_size_bytes": 858946,
+      "juvenile_review_sha256": "19e36bbdc46afda7f38322b89ab540b10847812d1e2d160e5fe2518ca9841cd3"
     }
   ],
-  "updated_at": "2026-11-05T04:56:00+08:00"
+  "updated_at": "2026-11-05T05:45:00+08:00"
 }

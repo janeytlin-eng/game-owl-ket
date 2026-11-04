@@ -12867,7 +12867,12 @@
         "heartbeat_at": "2026-11-04T15:49:00+08:00",
         "expires_at": "2026-11-04T16:04:00+08:00"
       },
-      "lease": null,
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261104T162900+0800-cycle-5",
+        "heartbeat_at": "2026-11-04T16:29:00+08:00",
+        "expires_at": "2026-11-04T16:44:00+08:00"
+      },
       "in_progress": {
         "cycle": 2,
         "species": "Otus semitorques",
@@ -16909,8 +16914,8 @@
     }
   ],
   "active_batch_id": "20261104T152800+0800",
-  "active_cycle": null,
-  "current_stage": "VERIFIED",
+  "active_cycle": 5,
+  "current_stage": "STARTED",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
@@ -17169,6 +17174,39 @@
         "batch_complete": false,
         "path_blob_readback": true,
         "main_head_readback": false
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 5,
+      "run_id": "20261104T162900+0800-cycle-5",
+      "species_id": 165,
+      "stage": "STARTED",
+      "at": "2026-11-04T16:29:00+08:00",
+      "credited": false,
+      "evidence": {
+        "selection": "remaining distinct v1-only target after duplicate-only higher IDs",
+        "duplicate_v1_only": [
+          {
+            "species_id": 184,
+            "duplicate_of": 101,
+            "taxon": "Otus spilocephalus"
+          },
+          {
+            "species_id": 190,
+            "duplicate_of": 115,
+            "taxon": "Otus lempiji"
+          },
+          {
+            "species_id": 197,
+            "duplicate_of": 122,
+            "taxon": "Otus megalotis"
+          }
+        ],
+        "baseline_commit": "bc20dc986c5086637fac609c01575944295344fc",
+        "v1_blob": "87ac0f12f1843c6703f890d8b3241c9804e649fa",
+        "v1_size": 616088,
+        "lease_expires_at": "2026-11-04T16:44:00+08:00"
       }
     }
   ]

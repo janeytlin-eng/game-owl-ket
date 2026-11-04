@@ -19254,7 +19254,60 @@
         }
       },
       "verification_result": "Exact seven image path/blob/size tuples, three manifests, research/review/run records and workflow rule read back from a non-truncated immutable tree."
+    },
+    {
+      "id": "43-athene-blewitti-v5",
+      "path": "design/concepts/43-athene-blewitti-v5.png",
+      "species_id": 43,
+      "scientific_name": "Athene blewitti",
+      "common_name": "Forest Owlet",
+      "historical_names": [
+        "Heteroglaux blewitti"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "Full-resolution v5 keeps Forest Owlet distinct from Spotted Owlet: plain crown/mantle, restrained pale wing marks, solid pectoral band, white central belly and broad flank bars. Adults are equal-scale/shared-plumage. The 28–30-day recently emerged juvenile is darker and blotched, with dark age-indeterminate iris, stumpy hidden tail, short soft incomplete folded wing, low cavity support and no flight pose. Exact iris chronology, daily feather map, individual age and universal nest geometry remain unknown.",
+      "source_ids": [
+        "FOW-WRCS-EAST-KALIBHIT-2017-P26-28-45-46",
+        "FOW-MEHTA-RSD-2021",
+        "FOW-ISHTIAQ-2005",
+        "FOW-JATHAR-2004",
+        "FOW-MIKKOLA-2013",
+        "FOW-KOPARDE-2018",
+        "FOW-KHAN-2023-HABITAT"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-05--43-athene-blewitti-v5--2830-day-weak-flight-and-iris-boundary",
+      "research_record": "research/species/43-athene-blewitti-v5.md",
+      "review_record": "research/reviews/43-athene-blewitti-v5-review.md",
+      "run_record": "production/runs/20261105T022100+0800-cycle-5.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3248854,
+      "git_blob": "3732b068cef1d8c51ba897a551cb96d0e61cca63",
+      "generated_path": "production/generated/43-athene-blewitti-v5-generated-master.png",
+      "generated_blob": "3732b068cef1d8c51ba897a551cb96d0e61cca63",
+      "reviewed_path": "production/reviewed/43-athene-blewitti-v5-reviewed-master.png",
+      "reviewed_blob": "3732b068cef1d8c51ba897a551cb96d0e61cca63",
+      "adults_review_crop": "production/review-crops/43-athene-blewitti-v5-adults.png",
+      "adults_review_blob": "30f8b36446068732e7aab8646feb0bf034b5a3d9",
+      "juvenile_review_crop": "production/review-crops/43-athene-blewitti-v5-juvenile.png",
+      "juvenile_review_blob": "c4494139cacbcec5c2f3921a9eacb48750fff6ee",
+      "reviewed_at": "2026-11-05T02:26:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1457484,
+      "adults_review_sha256": "da4349c22ae849ba064086c2d188eca4ec441f4cee59222a0ce69976c6d07584",
+      "juvenile_review_size_bytes": 801314,
+      "juvenile_review_sha256": "a1dffe08db2142630e0064059d77600bf084a038b1ac6b0b7f246514a9dce0c1"
     }
   ],
-  "updated_at": "2026-11-05T02:17:00+08:00"
+  "updated_at": "2026-11-05T02:28:00+08:00"
 }

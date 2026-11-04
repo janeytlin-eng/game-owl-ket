@@ -823,3 +823,7 @@ A study reporting hunting, parental attendance or movement at a known post-fledg
 
 ### Plumage maturity is not locomotor maturity (applied and checked on #42 v5)
 When a primary development series reports adult-like feathers before the fledging window, encode the feather maturity but keep pose/support bounded by later locomotor evidence. Do not infer flight, branch-leaving or independent action from developed remiges/rectrices alone. #42 v5 applied this rule to a 21–25 d *Athene brama*: formed folded wing and early white markings, low cavity support, no flight pose; visual recheck passed with limitations.
+
+
+### Do not inherit adult iris colour into juveniles (validated on #43 v5)
+An adult soft-part colour is not automatically a juvenile-stage fact. If the age-specific iris transition is unknown, render a conservative age-indeterminate dark iris and record the uncertainty. #43 v5 applied this to a 28–30 d *Athene blewitti* while retaining evidence-backed dark/blotched plumage and supported weak-flight posture; full/crop review passed with no edit.

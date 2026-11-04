@@ -28,4 +28,4 @@ Avoid: orange cast, Verreaux’s pink eyelids, Akun yellow eyes, Fraser’s warm
 
 ## Status
 
-RESEARCH_READY. Source delta: new 2, reused 3, corrected 2, unverified lead 1. Scientific verification remains false.
+VERIFIED as a production/archive cycle at PENDING_SELF. Source delta: new 2, reused 3, corrected 2, unverified lead 1. Visual review PASS_WITH_LIMITATIONS; scientific verification remains false.

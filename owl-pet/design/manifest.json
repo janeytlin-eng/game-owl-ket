@@ -18291,13 +18291,32 @@
       "auxiliary_review_crop_size_bytes": 2007297,
       "auxiliary_review_crop_sha256": "cf78ceb9595ff3ad5835e79bc76b7f11b24a6216a988fe54bec368539c929bb7",
       "archive_note": "One targeted edit softened only the mesoptile wing and concealed the overlong tail; full plate and two original-detail crops passed. Science remains false because exact juvenile chronology/flight, nest, eyelid variation and quantified sex dimorphism are unavailable.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": "PENDING_SELF",
-      "fixed_archive_commit": null,
-      "verified_at": null,
-      "verification_commit": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "ff1ad4713240c96a08328f83ca67d72bb91da411",
+      "fixed_archive_commit": "ff1ad4713240c96a08328f83ca67d72bb91da411",
+      "verified_at": "2026-11-04T17:56:00+08:00",
+      "verification_commit": "PENDING_SELF",
+      "readback": {
+        "status": "VERIFIED",
+        "method": "immutable archive commit exact path/blob/size in non-truncated recursive tree; three complete manifests parsed; local full/crop visual inspection",
+        "tree_sha": "a969d4516bbf4b3b0c175801b304784166d7c81a",
+        "tree_entries": 2694,
+        "recursive_tree_truncated": false,
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/169-ketupa-shelleyi-v3.png",
+          "blob": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+          "size_bytes": 2797525
+        },
+        "manifest_counts": {
+          "design_image": 651,
+          "design_legacy": 652,
+          "production": 642
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-04T17:51:00+08:00"
+  "updated_at": "2026-11-04T17:56:00+08:00"
 }

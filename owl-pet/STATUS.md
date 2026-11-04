@@ -3039,3 +3039,10 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Concept: [design/concepts/169-ketupa-shelleyi-v3.png](design/concepts/169-ketupa-shelleyi-v3.png)
 - Research: new2/reused3/corrected2/unverified1; exact age/flight/nest/sex-size remain unknown.
 - Three manifests 651/652/642; immutable archive readback pending; no cycle credit yet.
+
+
+## 2026-11-04 #169 *Ketupa shelleyi* v3 VERIFIED
+
+- SCIENCE_REVISION; one targeted mesoptile wing/tail edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
+- Archive `ff1ad4713240c96a08328f83ca67d72bb91da411`; non-truncated 2,694-entry tree; exact six binary path/blob/size tuples and manifests 651/652/642 matched.
+- Batch `20261104T152800+0800` is COMPLETE 6/6; lease released. Verification self-reference pending reconciliation.

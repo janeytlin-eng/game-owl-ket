@@ -657,3 +657,31 @@
 - Unknown: exact individual age, iris transition, daily feather chronology, population variation, universal nest geometry and any diagnostic visible adult sex character.
 - Source accounting: new verified 1; re-read/reused verified 6; corrected boundaries 2.
 - Links: `research/species/43-athene-blewitti-v5.md`; `production/runs/20261105T022100+0800-cycle-5.md`; planned concept v5.
+
+
+## 2026-11-05 — #44 *Strix uralensis* v5 — day-29 mesoptile and early brancher boundary
+
+### UROW-KAZAMA-JBBA-2005-P28-32
+- **Title / author / year:** *Notes on Breeding Ecology of Ural Owl in Niigata Prefecture* — Kazama, 2005.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.14491/jbba.AR135 ; https://www.jstage.jst.go.jp/article/jbba/19/1/19_28/_article ; primary nest-box field study, *Journal of the Japanese Bird Banding Association* 19(1):28–32; accessed 2026-11-05.
+- **Scope / facts:** fifty nest boxes were monitored, twenty were used, and 43 chicks were banded. For roughly the first two weeks after exiting the nest, fledglings remained on branches within about 30 m and were provisioned by adults.
+- **Limits / design use:** the paper supports natural branch support and continued dependence after nest exit, not exact day-29 plumage, first-flight strength, or a universal distance. The juvenile remains supported and dependent; no independent flight or hunting pose.
+
+### UROW-ERIKSSON-1984-P313-316 — re-read primary growth series
+- **Title / authors / year:** *Growth and survival of Ural Owl nestlings* — Eriksson, Lundberg & Westman, 1984.
+- **URL / type / pages / accessed:** https://www.annzool.net/PDF/anzf21/anz21-313-316.pdf ; primary multi-nest growth study, *Annales Zoologici Fennici* 21:313–316; re-read 2026-11-05.
+- **Facts:** eyes open around day 3 and feathers emerge around day 5. Wing length and fourth-primary sheath length predict age with about one-day mean error. Adult females are clearly larger, but size dimorphism is not visible until the end of the nestling period.
+- **Limits / correction:** the printed graph was not used to invent an exact day-29 wing length. Adult female size is shown moderately; the unsexed juvenile is not sex-scaled.
+
+### UROW-SCHERZINGER-1980-P45-56 — re-read captive development monograph
+- **Title / author / year:** *Zur Ethologie und Jugendentwicklung der Habichtskäuze (Strix uralensis)* — Scherzinger, 1980.
+- **URL / type / pages / accessed:** https://www.biodiversitylibrary.org/item/195813 ; captive-pair developmental monograph, pp.45–56; re-read 2026-11-05.
+- **Scope / facts:** five captive pairs and 27 young; the mesoptile begins around day 5 and covers the body by about day 16; wing quill sheaths appear around day 10, while the tail begins much later (around day 28).
+- **Limits / use:** captive chronology is a species-specific boundary but not a universal wild schedule. V5 shows a mesoptile-dominant day-29 bird with a short folded wing and little/hidden tail, not adult remiges.
+
+### Reuse, mapping and correction
+- Reused `UROW-MIKKOLA-2013`, `UROW-LOHMUS-2003`, and `UROW-BROMMER-2004` from the v4 record; the uploaded Mikkola file was unavailable and was not represented as freshly read.
+- Current name: *Strix uralensis*; historical combinations in the repository mapping include *Syrnium uralense* / *Syrnium uralensis*.
+- Corrected boundaries: branch departure does not establish independent flight, and female-larger applies to adults rather than an unsexed juvenile. Exact day-29 wing length, iris transition, first-flight performance, population colour variation and universal nest geometry remain unknown.
+- Source accounting: new verified 1; re-read/reused verified 6; corrected boundaries 2.
+- Links: `research/species/44-strix-uralensis-v5.md`; `production/runs/20261105T023100+0800-cycle-6.md`; planned concept v5.

@@ -756,3 +756,4 @@ A report that recently fledged young occur in a month supports only a broad bree
 
 ### Evidence rule — prefer the best documented action-capable juvenile stage
 When a primary field paper documents an older juvenile's body proportions, feather generation, supported perch and actual flight, prefer that stage over a less-specific captive downy bird. Preserve the paper's age estimate as an estimate, do not invent a nest, and allow formed remiges when flight and adult-like wing pattern are explicitly observed. Applied to #155 v3 on 2026-11-04; validation remains pending until image review.
+- **Applied and validated:** #155 v3, 2026-11-04T22:08:31+08:00. The primary-paper older juvenile boundary produced a secure, alert, smaller/stubbier bird with loose first-generation plumage and formed barred wing; crop inspection found no edit needed. This validates the rule for evidence-bounded stage selection, not universal age transfer.

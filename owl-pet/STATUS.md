@@ -3148,3 +3148,10 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Cross-manifest correction preserved existing low-resolution v4; current full-resolution asset is v5.
 - Day-34–36 split-supported branch walk; no edit; science=false; unique **176/251**; manifests 671/672/662; no credit before readback.
+
+
+## 2026-11-05 #46 *Strix ocellata* v5 VERIFIED
+
+- Archive `13fc6bc31768b8a5186809376c974604a7b1e15e`; non-truncated 2,896-entry tree verified seven image aliases; manifests 671/672/662.
+- Existing low-resolution v4 preserved; unique **176/251**; batch 2/6; lease released; next cycle 3.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/13fc6bc31768b8a5186809376c974604a7b1e15e/owl-pet/design/concepts/46-strix-ocellata-v5.png?raw=1)

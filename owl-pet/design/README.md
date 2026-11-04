@@ -2940,7 +2940,7 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 ## #44 Ural Owl — *Strix uralensis* — v5 VERIFIED
 
 - [Original](concepts/44-strix-uralensis-v5.png) · [Research](../research/species/44-strix-uralensis-v5.md) · [Review](../research/reviews/44-strix-uralensis-v5-review.md) · [Run](../production/runs/20261105T023100+0800-cycle-6.md)
-- Full-resolution v5: moderately larger adult female; unsexed day-29 mesoptile brancher with short folded wing, hidden tail and continuous support. No edit; PASS_WITH_LIMITATIONS; science false.
+- Full-resolution v5: moderately larger adult female; unsexed day-29 mesoptile brancher with short folded wing, hidden tail and continuous support. No edit; PASS_WITH_LIMITATIONS; science false; immutable archive readback passed.
 
 
 ## #45 Spotted Wood Owl — *Strix seloputo* — v5 VERIFIED
@@ -2949,7 +2949,7 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Full-resolution v5: equal-scale adults; one-family 2–4-day post-fledging downy brancher with short balance wing, two-foot support and independent-flight uncertainty. One edit shortened overly mature remiges. PASS_WITH_LIMITATIONS; science false; immutable archive readback passed.
 
 
-## #46 Mottled Wood Owl — *Strix ocellata* — v5 ARCHIVED (readback pending)
+## #46 Mottled Wood Owl — *Strix ocellata* — v5 VERIFIED
 
 - [Original](concepts/46-strix-ocellata-v5.png) · [Research](../research/species/46-strix-ocellata-v5.md) · [Review](../research/reviews/46-strix-ocellata-v5-review.md) · [Run](../production/runs/20261105T040500+0800-cycle-2.md)
 - Full-resolution v5 preserves verified low-resolution v4. Day-34–36 split-supported brancher; both wings folded, wing/tail about half-grown, flight age unknown. No edit; PASS_WITH_LIMITATIONS; science false.

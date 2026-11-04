@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:28:00+08:00",
+  "updated": "2026-11-05T04:32:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20227,7 +20227,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "MOWL-ELA-FACTFILE-2012",
         "MOWL-DESHPANDE-WOC-2022",
@@ -20255,12 +20255,47 @@
       "juvenile_review_crop": "production/review-crops/46-strix-ocellata-v5-juvenile.png",
       "juvenile_review_blob": "ad89347ca506d8e9c187e922ba609569568db0c7",
       "reviewed_at": "2026-11-05T04:20:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1565290,
       "adults_review_sha256": "b7f0a6f663319d370cfb213ce7872252ca84cd2271c0296f74fe5319c62188a8",
       "juvenile_review_size_bytes": 1106458,
-      "juvenile_review_sha256": "577c19adc830cbbba54b77359a4e7d24262ceacf0c2829ad1a860e6ae295bf0b"
+      "juvenile_review_sha256": "577c19adc830cbbba54b77359a4e7d24262ceacf0c2829ad1a860e6ae295bf0b",
+      "archive_commit": "13fc6bc31768b8a5186809376c974604a7b1e15e",
+      "archive_tree": "77869e30cca6ea2860bf49377f7ef262ee255397",
+      "verified_at": "2026-11-05T04:32:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "13fc6bc31768b8a5186809376c974604a7b1e15e",
+        "tree_sha": "77869e30cca6ea2860bf49377f7ef262ee255397",
+        "tree_entry_count": 2896,
+        "tree_truncated": false,
+        "paths_verified": 12,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/46-strix-ocellata-v5.png",
+          "blob": "5c4b4b52834080f79014773bb6a43cf38613b5a8",
+          "size_bytes": 3268873
+        },
+        "adult_crop": {
+          "path": "production/review-crops/46-strix-ocellata-v5-adults.png",
+          "blob": "4a40491b59239c40fbcd709efdd44484634065cc",
+          "size_bytes": 1565290
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/46-strix-ocellata-v5-juvenile.png",
+          "blob": "ad89347ca506d8e9c187e922ba609569568db0c7",
+          "size_bytes": 1106458
+        },
+        "manifest_counts": {
+          "design_image": 671,
+          "design_legacy": 672,
+          "production": 662
+        }
+      },
+      "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
     }
   ],
-  "updated_at": "2026-11-05T04:28:00+08:00"
+  "updated_at": "2026-11-05T04:32:00+08:00"
 }

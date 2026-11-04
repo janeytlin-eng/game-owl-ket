@@ -14450,9 +14450,9 @@
         "batch_id": "20261105T033723+0800",
         "cycle": 5,
         "species_id": 49,
-        "heartbeat_at": "2026-11-05T05:43:00+08:00",
-        "expires_at": "2026-11-05T05:58:00+08:00",
-        "stage": "REVIEWED"
+        "heartbeat_at": "2026-11-05T05:47:00+08:00",
+        "expires_at": "2026-11-05T06:02:00+08:00",
+        "stage": "ARCHIVED"
       },
       "in_progress": {
         "batch_id": "20261105T033723+0800",
@@ -14462,12 +14462,12 @@
         "species": "Strix woodfordii",
         "version": 5,
         "action": "REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "started_at": "2026-11-05T05:29:00+08:00",
         "baseline_commit": "9edf9473f14569eab3218e3ce4d1fa8c1e01e5d5",
         "prior_version": "owl-pet/design/concepts/49-strix-woodfordii-v4.png",
-        "heartbeat_at": "2026-11-05T05:43:00+08:00",
-        "expires_at": "2026-11-05T05:58:00+08:00"
+        "heartbeat_at": "2026-11-05T05:47:00+08:00",
+        "expires_at": "2026-11-05T06:02:00+08:00"
       },
       "current_stage": "STARTED",
       "events": [
@@ -15165,9 +15165,9 @@
     "batch_id": "20261105T033723+0800",
     "cycle": 5,
     "species_id": 49,
-    "heartbeat_at": "2026-11-05T05:43:00+08:00",
-    "expires_at": "2026-11-05T05:58:00+08:00",
-    "stage": "REVIEWED"
+    "heartbeat_at": "2026-11-05T05:47:00+08:00",
+    "expires_at": "2026-11-05T06:02:00+08:00",
+    "stage": "ARCHIVED"
   },
   "last_updated_at": "2026-11-05T05:29:00+08:00",
   "audit_notes": [
@@ -15938,12 +15938,12 @@
     "species": "Strix woodfordii",
     "version": 5,
     "action": "REVISION",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "started_at": "2026-11-05T05:29:00+08:00",
     "baseline_commit": "9edf9473f14569eab3218e3ce4d1fa8c1e01e5d5",
     "prior_version": "owl-pet/design/concepts/49-strix-woodfordii-v4.png",
-    "heartbeat_at": "2026-11-05T05:43:00+08:00",
-    "expires_at": "2026-11-05T05:58:00+08:00"
+    "heartbeat_at": "2026-11-05T05:47:00+08:00",
+    "expires_at": "2026-11-05T06:02:00+08:00"
   },
   "previous_checkpoint": {
     "batch_id": "20261105T033723+0800",
@@ -21612,6 +21612,34 @@
         "juvenile_crop_blob": "041878a2620892aee2aa2c6622dbe8df26ca2d72",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-05T05:58:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261105T033723+0800",
+      "cycle": 5,
+      "stage": "ARCHIVED",
+      "at": "2026-11-05T05:47:00+08:00",
+      "run_id": "20261105T052900+0800-cycle-5",
+      "species_id": 49,
+      "credited": false,
+      "evidence": {
+        "version": 5,
+        "concept_blob": "f016b6c7f8c26ec660e41d93933604d3881c4df1",
+        "reviewed_blob": "f016b6c7f8c26ec660e41d93933604d3881c4df1",
+        "adult_crop_blob": "d53725add711e127eb365a39f6ebcabd0de5e810",
+        "juvenile_crop_blob": "041878a2620892aee2aa2c6622dbe8df26ca2d72",
+        "archive_commit": "822f0404d0aa0f3d736ff7dfa78b4bb5507e3118",
+        "archive_tree": "fdc38310b2af018521d4102037aaabd43ec75209",
+        "manifest_counts": {
+          "design_image": 674,
+          "design_legacy": 675,
+          "production": 665
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-05T06:02:00+08:00"
       }
     }
   ],

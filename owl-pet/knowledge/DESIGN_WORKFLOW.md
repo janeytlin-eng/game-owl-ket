@@ -789,3 +789,8 @@ When a primary field paper documents an older juvenile's body proportions, feath
 - **Evidence:** Kertell 1986 pp.92, 96–97 estimates Denali departure at 20–22 d and explicitly cautions that observed adult color differences may reflect age. NPS supports walking/climbing/hopping and short horizontal bursts around three weeks. E-Fauna supports formed juvenile flight/tail feathers at 2–3 weeks but not adult-crisp pattern.
 - **Applied:** #10 v4 uses same-morph, near-equal adults and a fully supported gray mesoptile young with one formed but soft balancing wing. The first render failed both adult scale and juvenile-wing pattern; one edit corrected them.
 - **Verified visually:** full master and juvenile/adult crops passed at 2026-11-04T23:20:22.586+08:00. This validates the claim-separation check for #10 v4 only; exact individual age, feather geometry and flight threshold remain scientifically unverified.
+
+
+### 2026-11-04 — juvenile wing-age rule applied to #18
+
+Problem: generic screech-owl generation produced an adult-spotted long wing on a just-departed poor flier. Evidence: Cornell states Western Screech-Owl young leave before flying well; the regional reports support fledging near 35 d but do not supply an adult-like covert map. Modification: shorten, soften and down-obscure the wing, remove repeated white spots, conceal the tail and retain bilateral support. Validation: full master plus both diagnostic crops reopened; applied once and passed with limitations. Do not generalize this exact feather map beyond the selected stage.

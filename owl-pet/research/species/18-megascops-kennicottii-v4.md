@@ -29,3 +29,8 @@ Adult male left and adult female center: same gray-brown Western Screech-Owl mor
 Juvenile right: approximately 33–35-day just-departed young, fully supported at a natural broken-branch cottonwood cavity lip in riparian woodland. Large but still juvenile, dense alternating light and darker gray mesoptile barring, soft reduced tufts, short tail, formed but soft and less orderly juvenile wings. Both feet clearly support it on sound wood. One wing may lift slightly for balance because young leave before flying well, but it is not airborne and not confidently flying. No white hatchling down, no crisp adult scapular pattern, no long adult tail, no invented nest material.
 
 Comparative board, not literal family scene. All supports anatomically coherent. No prey, eggs, extra birds, logos, borders, measurement marks, or text beyond exact title and labels.
+
+
+## Actual image review — 2026-11-04T23:41:16.159+08:00
+
+First render had a long, orderly white-spotted juvenile wing. One targeted imagegen edit shortened and softened it, removed adult-regular spots and concealed the tail while preserving both feet and cavity support. Full 1536×1024 master and adult/juvenile crops were reopened. Result: PASS_WITH_LIMITATIONS; science=false.

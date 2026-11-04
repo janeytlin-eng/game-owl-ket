@@ -22060,17 +22060,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T065000+0800-cycle-2",
-      "heartbeat_at": "2026-11-05T06:50:00+08:00",
-      "expires_at": "2026-11-05T07:05:00+08:00"
+      "heartbeat_at": "2026-11-05T06:56:00+08:00",
+      "expires_at": "2026-11-05T07:11:00+08:00"
     },
     "in_progress": {
       "cycle": 2,
       "run_id": "20261105T065000+0800-cycle-2",
       "species_id": 52,
       "species": "Strix hylophila",
-      "stage": "STARTED"
+      "stage": "RESEARCH_READY"
     },
-    "current_stage": "STARTED",
+    "current_stage": "RESEARCH_READY",
     "events": [
       {
         "cycle": 1,
@@ -22213,6 +22213,31 @@
           "baseline_commit": "121d30014fa871b390a4c3b4666c2e4dcd1f4e77",
           "prior_version": "owl-pet/design/concepts/52-strix-hylophila-v4.png",
           "lease_expires_at": "2026-11-05T07:05:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T062700+0800",
+        "cycle": 2,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-05T06:56:00+08:00",
+        "run_id": "20261105T065000+0800-cycle-2",
+        "species_id": 52,
+        "credited": false,
+        "evidence": {
+          "source_ids": [
+            "RBO-COCKLE-ETAL-2024-P10",
+            "RBO-MIKKOLA-2013-P337",
+            "RBO-AVESRAPINA-2018",
+            "RBO-WIKIAVES-3982971",
+            "RBO-ITIS-555431"
+          ],
+          "new_sources": 1,
+          "reused_sources": 4,
+          "corrected_sources": 2,
+          "species_card": "owl-pet/research/species/52-strix-hylophila-v5.md",
+          "full_prompt_saved": true,
+          "mikkola_upload_accessible": false,
+          "lease_expires_at": "2026-11-05T07:11:00+08:00"
         }
       }
     ]

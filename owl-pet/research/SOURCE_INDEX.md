@@ -517,3 +517,27 @@
 - Correction: the adult bare-tarsus boundary is now backed directly by Camacho-Varela's specimen/live-photo comparison rather than inferred from a broad “bare-shanked” label. The juvenile remains age-unknown and non-flight; “possibly left the nest” does not establish flight.
 - Unknown: exact chick age, continuous feather chronology, first-flight threshold, quantified sex size direction and universal colour-morph frequencies.
 - Source accounting: new verified 2; reused 3; corrected boundaries 2.
+
+
+## 2026-11-05 — #21 *Megascops choliba* v6 — 18–20-day folded-wing boundary
+
+### TSO-SMITHSONIAN-FOSTER-JOHNSON-2017-P13
+- **Title / authors / year:** *The Annual Cycle and Natural History of a Subtropical Atlantic Forest Avifauna in Paraguay* — Mercedes S. Foster & Ned K. Johnson, 2017.
+- **URL / page / accessed:** https://www.govinfo.gov/content/pkg/GOVPUB-SI-PURL-gpo81028/pdf/GOVPUB-SI-PURL-gpo81028.pdf ; Smithsonian Contributions to Zoology 648, printed p.13; accessed 2026-11-05.
+- **Facts:** two males 104/114 g, two females 140/147 g; yellow iris; bill creamy-white, gray-green or greenish-yellow; feet gray to greenish-gray.
+- **Limits / use:** very small Paraguay specimen sample; supports soft-part colours and records a local mass direction, but not a universal standing-height ratio.
+
+### TSO-ZOOLOGIA-2026-E25121
+- **Title / year:** *Vocal signaling and multimodal cues in aggressive behavior in owls: Insights from Tropical Screech-Owl* — 2026, Zoologia 43, DOI 10.1590/S1984-4689.v43.e25121.
+- **URL:** https://www.scielo.br/j/zool/a/Sh7dxfJqnky3HC6wXrf5gZK/
+- **Fact / use:** sexual dimorphism was not detectable in the field; adults remain near-equal in the review plate.
+- **Limit:** behavior study, not morphometrics or development.
+
+### TSO-ITIS-686663-2026
+- ITIS, accessed 2026-11-05, https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686663
+- Valid *Megascops choliba*; synonyms *Otus choliba* and *Strix choliba*. Taxonomy only.
+
+### Reuse and correction
+- Re-read `TSO-ACTA-NESTLING-2017`, printed pp.269–272: 18–20 d dark barred mesoptile, well-developed remiges, open yellow irides; brood remained in cavity about 30 d.
+- Reused `TSO-DIAS-LIMA-2015-WJO` and indexed Mikkola pp.218–219; upload unavailable.
+- Correction: well-developed remiges do not authorize an open-wing or flight pose at 18–20 d. Source accounting: new3/reused3/corrected1.

@@ -2974,4 +2974,4 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 ## #55 Verreaux's Eagle-Owl — *Bubo lacteus* / current *Ketupa lactea* — v5
 
 - [Concept](concepts/55-bubo-lacteus-v5.png) · [Research](../research/species/55-bubo-lacteus-v5.md) · [Review](../research/reviews/55-bubo-lacteus-v5-review.md) · [Run](../production/runs/20261105T070800+0800-cycle-4.md)
-- Brown 1965 controls the approximately-six-week, fully supported stick-nest juvenile boundary. Two targeted edits softened an adult-layered juvenile wing and reduced adult pink lids to a narrow diagnostic rim. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.
+- Brown 1965 controls the approximately-six-week, fully supported stick-nest juvenile boundary. Two targeted edits softened an adult-layered juvenile wing and reduced adult pink lids to a narrow diagnostic rim. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback passed.

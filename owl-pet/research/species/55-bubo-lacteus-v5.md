@@ -43,3 +43,7 @@ Exact title/count/labels; adult almost-black eyes and vivid pink lids; pale huge
 - Edit 1 softened the juvenile wing but overcorrected the adult lid rim to near-absence. Edit 2 restored a narrow natural rose upper-lid rim while preserving the juvenile correction.
 - Final full master and adult/juvenile crops were actually inspected. Exactly three birds, stable supports, diagnostic dark eyes/lids, subtle adult scale direction, and a supported approximately-six-week juvenile passed the stated boundary.
 - Result: `PASS_WITH_LIMITATIONS`; edit count 2; `scientifically_verified=false`. Review: `research/reviews/55-bubo-lacteus-v5-review.md`.
+
+## Immutable archive readback
+
+Archive `f8909efcb67f278125c42d9750930c5ba21323b2` / tree `6511a5cf5e373ab09e01d0b56983f00e4649819b`: 18 required paths, seven binary paths and four unique image blobs matched. This verifies file integrity, not scientific completeness.

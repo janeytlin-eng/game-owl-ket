@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T07:22:00+08:00",
+  "updated": "2026-11-05T07:24:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20780,12 +20780,16 @@
       "juvenile_review_crop": "production/review-crops/55-bubo-lacteus-v5-juvenile.png",
       "juvenile_review_blob": "ffe69ab72295c6f705680965b6e83fd8113aa39a",
       "reviewed_at": "2026-11-05T07:20:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1794693,
       "adults_review_sha256": "b221f9e55694f11b89e34685fd66439af976592b12721b10df06a5ea5c21a469",
       "juvenile_review_size_bytes": 748649,
-      "juvenile_review_sha256": "9435566d5f1dd944fb1743c69f53cb48656069861ea433f27f5f975527590d63"
+      "juvenile_review_sha256": "9435566d5f1dd944fb1743c69f53cb48656069861ea433f27f5f975527590d63",
+      "verified_at": "2026-11-05T07:24:00+08:00",
+      "archive_commit": "f8909efcb67f278125c42d9750930c5ba21323b2",
+      "archive_tree": "6511a5cf5e373ab09e01d0b56983f00e4649819b",
+      "verification_result": "Exact seven image path/blob tuples, three manifests and eight evidence/status records read back from immutable archive commit."
     }
   ],
-  "updated_at": "2026-11-05T07:22:00+08:00"
+  "updated_at": "2026-11-05T07:24:00+08:00"
 }

@@ -27,4 +27,4 @@ Exact individual age within the approximate six-week class, continuous remex/rec
 
 ## Archive readback
 
-Pending immutable archive and binary/manifests readback. File integrity verification will not upgrade scientific status.
+Immutable archive `f8909efcb67f278125c42d9750930c5ba21323b2` / tree `6511a5cf5e373ab09e01d0b56983f00e4649819b` was re-read: all 18 required paths matched, including seven binary paths, four unique image blobs, three manifests and evidence/status records. Integrity VERIFIED; scientific status remains false.

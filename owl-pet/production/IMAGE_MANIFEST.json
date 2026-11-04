@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T23:43:00.244+08:00",
+  "updated": "2026-11-05T00:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18721,7 +18721,74 @@
         },
         "transport_repair": "Earlier command-output transfers mismatched local Git hashes and were rejected; final direct image-data blobs match exactly."
       }
+    },
+    {
+      "id": "20-megascops-clarkii-v5",
+      "species_id": 20,
+      "scientific_name": "Megascops clarkii",
+      "historical_names": [
+        "Otus clarkii"
+      ],
+      "common_name": "Bare-shanked Screech-Owl",
+      "version": 5,
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/20-megascops-clarkii-v5.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "Full-resolution v5 preserves v1-v4. Same-morph near-equal adults show compact bare distal tarsus after one edit. Age-unknown nest-stage juvenile is mostly downy with short developing wing tips, fully supported on the documented moss/dry-leaf platform inside a live Viburnum crack. Exact age, flight threshold, continuous feather sequence and sex-size direction remain unknown; science=false.",
+      "source_ids": [
+        "BSOW-ASTORGA-2018-P85-89",
+        "BSOW-CAMACHO-2014-P3-14",
+        "BSOW-ITIS-686666-2026",
+        "BSOW-MIKKOLA-2013",
+        "BSOW-JRR-NEST-1997"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-05--20-megascops-clarkii-v5--distal-tarsus-and-nest-stage-boundary",
+      "research_record": "research/species/20-megascops-clarkii-v5.md",
+      "review_record": "research/reviews/20-megascops-clarkii-v5-review.md",
+      "run_record": "production/runs/20261105T003800+0800-cycle-5.md",
+      "reviewed_at": "2026-11-05T00:53:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3195975,
+      "sha256": "34d10997bee686f884c14f8ca26230c77af6886d4da508c5a9aeea83ca4fdd87",
+      "git_blob": "48c16f0894b3919c9c3720711892177766c1fd31",
+      "generated_path": "production/generated/20-megascops-clarkii-v5-generated.png",
+      "generated_blob": "48c16f0894b3919c9c3720711892177766c1fd31",
+      "generated_size_bytes": 3195975,
+      "generated_sha256": "34d10997bee686f884c14f8ca26230c77af6886d4da508c5a9aeea83ca4fdd87",
+      "reviewed_path": "production/reviewed/20-megascops-clarkii-v5-reviewed-master.png",
+      "reviewed_blob": "48c16f0894b3919c9c3720711892177766c1fd31",
+      "review_crop_path": "production/review-crops/20-megascops-clarkii-v5-juvenile.png",
+      "review_crop_blob": "568bedf197c4480a15e8b2a44fae4327980f30d5",
+      "review_crop_size_bytes": 89781,
+      "review_crop_sha256": "27af42279d47f79be5fbd071b71f346f8baa87a8d818e45fa8a95815ee306af7",
+      "auxiliary_review_crop_path": "production/review-crops/20-megascops-clarkii-v5-adults.png",
+      "auxiliary_review_crop_blob": "32c84db6bf789ab2285931fac39f56aefd7ccf3b",
+      "auxiliary_review_crop_size_bytes": 136492,
+      "auxiliary_review_crop_sha256": "36fc18eedd878ddd14eca6c513521e145537c4fef6a056235a1f8e6bde473917",
+      "archive_note": "Initial render had overlong bare adult tarsi and adult-like juvenile side wings. One targeted edit corrected both; full master and two resized diagnostic crops were reopened and inspected.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null,
+      "fixed_archive_commit": null,
+      "archive_tree": null,
+      "verified_at": null,
+      "readback": {
+        "status": "PENDING",
+        "method": "immutable archive commit exact path/blob readback pending",
+        "paths_verified": 0,
+        "binary_paths_verified": 0
+      }
     }
   ],
-  "updated_at": "2026-11-04T22:52:12+08:00"
+  "updated_at": "2026-11-05T00:58:00+08:00"
 }

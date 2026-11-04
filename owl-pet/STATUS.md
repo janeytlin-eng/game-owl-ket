@@ -3096,3 +3096,11 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ## 2026-11-04 #197 v2 verified
 
 - Exact archive readback passed at `52cbd93dbd02ff36d506b7e18666f7f8c02fbece`; batch `20261104T183100+0800` is 2/6 and resumes at cycle 3. Unique species remains 176/251; revision +1; science=false for explicit juvenile/nest unknowns.
+
+
+## 2026-11-05 #20 *Megascops clarkii* v5 ARCHIVED — readback pending
+
+- ARCHIVE_REPAIR_AND_SCIENCE_REVISION; one targeted tarsus/juvenile-wing edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
+- Concept: [design/concepts/20-megascops-clarkii-v5.png](design/concepts/20-megascops-clarkii-v5.png)
+- Research: new2/reused3/corrected2; exact juvenile age/flight/continuous feather sequence/sex-size direction remain unknown.
+- Three manifests 662/663/653; immutable archive readback pending; no cycle credit yet.

@@ -794,3 +794,11 @@ When a primary field paper documents an older juvenile's body proportions, feath
 ### 2026-11-04 — juvenile wing-age rule applied to #18
 
 Problem: generic screech-owl generation produced an adult-spotted long wing on a just-departed poor flier. Evidence: Cornell states Western Screech-Owl young leave before flying well; the regional reports support fledging near 35 d but do not supply an adult-like covert map. Modification: shorten, soften and down-obscure the wing, remove repeated white spots, conceal the tail and retain bilateral support. Validation: full master plus both diagnostic crops reopened; applied once and passed with limitations. Do not generalize this exact feather map beyond the selected stage.
+
+
+### 2026-11-05 — distal-tarsus and juvenile-wing boundary applied to #20
+
+- **Problem:** a generic screech-owl render extended bare adult tarsi too far and gave an age-unknown mostly-downy nest-stage juvenile long barred adult-like side wings.
+- **Evidence:** Camacho-Varela 2014 (pp.3–14) supports bare distal roughly one-third tarsus in *M. clarkii*; Astorga-Acuña 2018 (pp.85–89) supports mostly down with developing primaries/secondaries on a supported organic platform.
+- **Applied:** one targeted edit extended adult feathering downward and reduced juvenile side feathers to short emerging tips without changing support or scene.
+- **Verified visually:** full master and both diagnostic crops passed for #20 v5 only. The exact juvenile feather map and sex-size direction remain scientifically unverified and must not be generalized.

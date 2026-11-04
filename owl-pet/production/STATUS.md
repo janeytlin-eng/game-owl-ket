@@ -7,3 +7,4 @@
 
 - 2026-11-04T19:45:00+08:00 #197 Otus megalotis v2 ARCHIVED; manifests 653/654/644; verification pending.
 - 2026-11-04T19:49:00+08:00 #197 Otus megalotis v2 archive readback PASS; ledger acknowledgement pending.
+- 2026-11-04T19:53:00+08:00 #197 Otus megalotis v2 VERIFIED; batch 20261104T183100+0800 is 2/6, next cycle 3; lease cleared.

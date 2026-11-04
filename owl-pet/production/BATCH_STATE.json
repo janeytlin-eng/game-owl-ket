@@ -13424,29 +13424,22 @@
           "revision_increment": 1,
           "commit_sha": "58c1f10f762afaf36ad76a3b0584fce722db62f0",
           "run_record": "owl-pet/production/runs/20261104T183100+0800-cycle-1.md"
+        },
+        {
+          "cycle": 2,
+          "species": "Otus megalotis",
+          "species_id": 197,
+          "version": 2,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "52cbd93dbd02ff36d506b7e18666f7f8c02fbece",
+          "run_record": "owl-pet/production/runs/20261104T192910+0800-cycle-2.md"
         }
       ],
-      "next_cycle": 2,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "20261104T192910+0800-cycle-2",
-        "heartbeat_at": "2026-11-04T19:45:00+08:00",
-        "expires_at": "2026-11-04T20:00:00+08:00"
-      },
-      "in_progress": {
-        "batch_id": "20261104T183100+0800",
-        "cycle": 2,
-        "run_id": "20261104T192910+0800-cycle-2",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "started_at": "2026-11-04T19:29:10+08:00",
-        "run_record": "owl-pet/production/runs/20261104T192910+0800-cycle-2.md",
-        "baseline_commit": "b7b7e6da52a1b8503c7c26026dab9d1ec0a26dd6",
-        "heartbeat_at": "2026-11-04T19:45:00+08:00"
-      }
+      "next_cycle": 3,
+      "active_lease": null,
+      "in_progress": null
     }
   ],
   "lease": null,
@@ -14355,20 +14348,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "batch_id": "20261104T183100+0800",
-    "cycle": 2,
-    "run_id": "20261104T192910+0800-cycle-2",
-    "species_id": 197,
-    "species": "Otus megalotis",
-    "version": 2,
-    "action": "SCIENCE_REVISION",
-    "stage": "ARCHIVED",
-    "started_at": "2026-11-04T19:29:10+08:00",
-    "run_record": "owl-pet/production/runs/20261104T192910+0800-cycle-2.md",
-    "baseline_commit": "b7b7e6da52a1b8503c7c26026dab9d1ec0a26dd6",
-    "heartbeat_at": "2026-11-04T19:45:00+08:00"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261101T015000+0800",
     "cycle": 2,
@@ -17261,12 +17241,53 @@
         "readback_pending": true,
         "lease_expires_at": "2026-11-04T20:00:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261104T183100+0800",
+      "cycle": 2,
+      "run_id": "20261104T192910+0800-cycle-2",
+      "species_id": 197,
+      "stage": "VERIFIED",
+      "at": "2026-11-04T19:53:00+08:00",
+      "credited": true,
+      "evidence": {
+        "archive_commit": "52cbd93dbd02ff36d506b7e18666f7f8c02fbece",
+        "verification_commit": "52d8343b981e67610765b7da7641cd757d88b352",
+        "tree_sha": "cf8024a7118094ffa0643f5ef77e3558cbcd46ed",
+        "tree_count": 2709,
+        "recursive_tree_truncated": false,
+        "paths_verified": 13,
+        "binary_assets_verified": 6,
+        "concept_blob": "03feea9347854020af428bad15db4bd567b825ba",
+        "manifest_counts": {
+          "design_image": 653,
+          "design_legacy": 654,
+          "production": 644
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "next_cycle": 3,
+        "batch_complete": false,
+        "path_blob_readback": true,
+        "main_head_readback": true,
+        "ledger_readback": true,
+        "timing": {
+          "research_seconds": 103,
+          "generation_phase_seconds": 147,
+          "generation_wait_seconds": 54.3,
+          "review_phase_seconds": 400,
+          "edit_wait_seconds": 51.2,
+          "archive_phase_seconds": 300,
+          "verification_phase_seconds": 240
+        },
+        "actual_errors": []
+      }
     }
   ],
   "active_batch_id": "20261104T183100+0800",
-  "active_cycle": 2,
+  "active_cycle": 3,
   "current_stage": "IMAGE_GENERATED",
-  "next_cycle": 2,
+  "next_cycle": 3,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [

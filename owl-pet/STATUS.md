@@ -3062,3 +3062,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ## 2026-11-04 #197 Otus megalotis v2 archived
 
 - Revision +1; unique species remains 176/251. Concept and review assets archived; exact readback pending at ARCHIVED stage.
+
+
+## 2026-11-04 #197 v2 verified
+
+- Exact archive readback passed at `52cbd93dbd02ff36d506b7e18666f7f8c02fbece`; batch `20261104T183100+0800` is 2/6 and resumes at cycle 3. Unique species remains 176/251; revision +1; science=false for explicit juvenile/nest unknowns.

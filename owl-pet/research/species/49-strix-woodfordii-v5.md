@@ -86,4 +86,4 @@ Exact title/count/labels; adults dark-eyed, untufted and yellow-billed; near-equ
 
 ## Stage
 
-RESEARCH_READY; generation pending.
+REVIEWED; one juvenile-wing edit applied and rechecked; archive pending. PASS_WITH_LIMITATIONS; scientifically_verified=false.

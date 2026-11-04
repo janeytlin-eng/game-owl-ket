@@ -69,3 +69,7 @@ Exact chick age, movement, eye/bill ontogeny, feather chronology, and confirmed 
 - Final full plate, 1536×700 adult crop and 520×700 chick crop were opened. Title/count/labels, untufted dark-eyed adults, near-equal sex height, dense warm barring, plain hollow ledge, continuous white down and full chick support passed.
 - Result: PASS_WITH_LIMITATIONS; `scientifically_verified=false`. Exact chick age, movement, eye/bill development, feather chronology and nest architecture remain unknown.
 - Review record: `research/reviews/52-strix-hylophila-v5-review.md`.
+
+## Immutable archive verification
+
+Archive `394a468ba858f7948e30c0a288679979323d2747` (tree `50920d47e1ebc2081e358aa4c719ede92efef218`) returned the exact concept/generated/reviewed/crop blob SHAs, manifest counts 677/678/668, source-index entry, research/review/run markers and ARCHIVED ledger state. Production status is VERIFIED; scientific calibration remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T07:05:00+08:00",
+  "updated": "2026-11-05T07:08:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20769,7 +20769,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 2,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "RBO-COCKLE-ETAL-2024-P10",
         "RBO-MIKKOLA-2013-P337",
@@ -20797,12 +20797,50 @@
       "juvenile_review_crop": "production/review-crops/52-strix-hylophila-v5-chick.png",
       "juvenile_review_blob": "82df9fe6db021ce85f779c06df5e7aee873364e0",
       "reviewed_at": "2026-11-05T07:00:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1833936,
       "adults_review_sha256": "49a83007d2ed4af81392e8274ddd396020c02d8e4cfd5638e5688592f467c7bb",
       "juvenile_review_size_bytes": 624622,
-      "juvenile_review_sha256": "a9e38352634d3624d38410d6f3b5ef0e53b023fbd3d10355006f4a1a1f408e78"
+      "juvenile_review_sha256": "a9e38352634d3624d38410d6f3b5ef0e53b023fbd3d10355006f4a1a1f408e78",
+      "archive_commit": "394a468ba858f7948e30c0a288679979323d2747",
+      "archive_tree": "50920d47e1ebc2081e358aa4c719ede92efef218",
+      "verified_at": "2026-11-05T07:08:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "394a468ba858f7948e30c0a288679979323d2747",
+        "tree_sha": "50920d47e1ebc2081e358aa4c719ede92efef218",
+        "paths_verified": 16,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 4,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/52-strix-hylophila-v5.png",
+          "blob": "02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab",
+          "size_bytes": 2725893
+        },
+        "generated": {
+          "path": "production/generated/52-strix-hylophila-v5-generated-master.png",
+          "blob": "ba1d092a9dccbeba6dc74dc581664b907f06a2c8",
+          "size_bytes": 3012264
+        },
+        "adult_crop": {
+          "path": "production/review-crops/52-strix-hylophila-v5-adults.png",
+          "blob": "b15ae9028a5ee10ce8e109a39eceb9fbba4ab1d4",
+          "size_bytes": 1833936
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/52-strix-hylophila-v5-chick.png",
+          "blob": "82df9fe6db021ce85f779c06df5e7aee873364e0",
+          "size_bytes": 624622
+        },
+        "manifest_counts": {
+          "design_image": 677,
+          "design_legacy": 678,
+          "production": 668
+        }
+      },
+      "verification_result": "Exact seven image path/blob tuples, three manifests and six evidence/status records read back from immutable archive commit."
     }
   ],
-  "updated_at": "2026-11-05T07:05:00+08:00"
+  "updated_at": "2026-11-05T07:08:00+08:00"
 }

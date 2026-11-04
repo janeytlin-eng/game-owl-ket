@@ -65,3 +65,11 @@
 - Files: `design/concepts/52-strix-hylophila-v4.png`, generated and reviewed masters; archive pending fixed-commit readback.
 
 - Immutable v4 archive verification: commit `8e4e7a1eae164884760b50795f80264b7717ef2a`; concept `62a818ff847a10b07894178d0bc7a1a15b363e38`, generated `93d61e9f7aa0c33004c1494bbd1579b5a0813673`, reviewed `bda79570dd0708d550206aab4ae1fb695f588bbe`; fixed-path blobs and metadata records matched. Unique remains 175/251; science false.
+
+
+## 2026-11-05 v5 primary-evidence correction
+
+- Bonaparte et al. 2024 (DOI 10.1093/ornithapp/duae042, article p.10) explicitly says *S. hylophila* nests have not been confirmed or described. Earlier repository wording that treated high tree cavities and debris as settled nest architecture is corrected.
+- WikiAves WA3982971 supports only an age-unknown chick observed in a hollow tree; Mikkola p.337 supports white down but no age, movement or eye chronology. V5 therefore uses a plain natural hollow ledge with no nest cup, lining, eggs or exact-age claim.
+- Initial amber chick eyes required two bounded edits; final near-black neutral irises, continuous white down, no mature wing/tail and complete natural support passed full and crop review.
+- Immutable archive `394a468ba858f7948e30c0a288679979323d2747`, concept blob `02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab`, generated blob `ba1d092a9dccbeba6dc74dc581664b907f06a2c8`, adult crop `b15ae9028a5ee10ce8e109a39eceb9fbba4ab1d4`, chick crop `82df9fe6db021ce85f779c06df5e7aee873364e0`; 7/7 binary aliases and manifests 677/678/668 passed. Production VERIFIED, science false.

@@ -33,3 +33,7 @@
 ## Remaining unknowns
 
 Exact chick age, locomotor threshold, eye/bill ontogeny, feather chronology, and confirmed nest substrate/architecture remain unknown. This is a concept plate calibrated to bounded evidence, not a scientific verification.
+
+## Immutable archive readback
+
+At 2026-11-05T07:08:00+08:00, archive `394a468ba858f7948e30c0a288679979323d2747` / tree `50920d47e1ebc2081e358aa4c719ede92efef218` returned 7/7 expected binary path/blob tuples and all nine text records. Three manifests contained the v5 ARCHIVED entry at counts 677/678/668. Readback passed; science remains false.

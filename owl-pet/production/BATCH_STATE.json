@@ -12837,35 +12837,56 @@
         }
       ],
       "next_cycle": 2,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
-      "last_checkpoint": {
-        "cycle": 1,
-        "species": "Otus mayottensis",
+      "active_lease": {
+        "owner": "codex-work",
+        "run_id": "20261104T154500+0800-cycle-2",
+        "heartbeat_at": "2026-11-04T15:45:00+08:00",
+        "expires_at": "2026-11-04T16:00:00+08:00"
+      },
+      "lease": {
+        "owner": "codex-work",
+        "run_id": "20261104T154500+0800-cycle-2",
+        "heartbeat_at": "2026-11-04T15:45:00+08:00",
+        "expires_at": "2026-11-04T16:00:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 2,
+        "species": "Otus spilocephalus",
+        "species_id": 184,
         "version": 2,
         "action": "SCIENCE_REVISION",
-        "run_id": "20261104T152800+0800-cycle-1",
-        "stage": "VERIFIED",
+        "run_id": "20261104T154500+0800-cycle-2",
+        "stage": "STARTED",
         "stage_evidence": {
-          "archive_commit": "3d50d53c3112bf474b0154e1aec4e08cddf694cc",
-          "tree_sha": "81f83524d9292d6356ccc6acd0ff1fca56ff80c5",
-          "recursive_tree_truncated": false,
-          "tree_entries": 2656,
-          "paths_verified": 10,
-          "binary_assets_verified": 6,
-          "master_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
-          "manifest_counts": {
-            "design_image": 646,
-            "design_legacy": 647,
-            "production": 637
-          },
+          "started_at": "2026-11-04T15:45:00+08:00",
+          "selection": "next numbered v1-only science-revision target after verified #179; IDs 180–183 have no archived concept paths in current tree",
+          "main_head": "c220a448bcf196c08016cdc24b860fa1b3affbc4",
+          "v1_path": "owl-pet/design/concepts/184-otus-spilocephalus-v1.png",
           "unique_species": "176/251",
-          "revision_increment": 1
+          "lease_expires_at": "2026-11-04T16:00:00+08:00",
+          "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
         }
       },
-      "last_stage": "VERIFIED",
-      "updated_at": "2026-11-04T15:43:00+08:00",
+      "last_checkpoint": {
+        "cycle": 2,
+        "species": "Otus spilocephalus",
+        "species_id": 184,
+        "version": 2,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261104T154500+0800-cycle-2",
+        "stage": "STARTED",
+        "stage_evidence": {
+          "started_at": "2026-11-04T15:45:00+08:00",
+          "selection": "next numbered v1-only science-revision target after verified #179; IDs 180–183 have no archived concept paths in current tree",
+          "main_head": "c220a448bcf196c08016cdc24b860fa1b3affbc4",
+          "v1_path": "owl-pet/design/concepts/184-otus-spilocephalus-v1.png",
+          "unique_species": "176/251",
+          "lease_expires_at": "2026-11-04T16:00:00+08:00",
+          "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
+        }
+      },
+      "last_stage": "STARTED",
+      "updated_at": "2026-11-04T15:45:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -13014,6 +13035,23 @@
             "unique_species": "176/251",
             "revision_increment": 1
           }
+        },
+        {
+          "cycle": 2,
+          "run_id": "20261104T154500+0800-cycle-2",
+          "species": "Otus spilocephalus",
+          "stage": "STARTED",
+          "at": "2026-11-04T15:45:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "started_at": "2026-11-04T15:45:00+08:00",
+            "selection": "next numbered v1-only science-revision target after verified #179; IDs 180–183 have no archived concept paths in current tree",
+            "main_head": "c220a448bcf196c08016cdc24b860fa1b3affbc4",
+            "v1_path": "owl-pet/design/concepts/184-otus-spilocephalus-v1.png",
+            "unique_species": "176/251",
+            "lease_expires_at": "2026-11-04T16:00:00+08:00",
+            "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
+          }
         }
       ]
     }
@@ -13155,7 +13193,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-04T15:43:00+08:00",
+  "updated_at": "2026-11-04T15:45:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -13164,7 +13202,12 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
+  "active_lease": {
+    "owner": "codex-work",
+    "run_id": "20261104T154500+0800-cycle-2",
+    "heartbeat_at": "2026-11-04T15:45:00+08:00",
+    "expires_at": "2026-11-04T16:00:00+08:00"
+  },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -13924,7 +13967,24 @@
       "credited": false
     }
   ],
-  "in_progress": null,
+  "in_progress": {
+    "cycle": 2,
+    "species": "Otus spilocephalus",
+    "species_id": 184,
+    "version": 2,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261104T154500+0800-cycle-2",
+    "stage": "STARTED",
+    "stage_evidence": {
+      "started_at": "2026-11-04T15:45:00+08:00",
+      "selection": "next numbered v1-only science-revision target after verified #179; IDs 180–183 have no archived concept paths in current tree",
+      "main_head": "c220a448bcf196c08016cdc24b860fa1b3affbc4",
+      "v1_path": "owl-pet/design/concepts/184-otus-spilocephalus-v1.png",
+      "unique_species": "176/251",
+      "lease_expires_at": "2026-11-04T16:00:00+08:00",
+      "duplicate_watch": "project also retains #101 Otus spilocephalus hambroecki; do not merge or count without taxonomy evidence"
+    }
+  },
   "previous_checkpoint": {
     "batch_id": "20261101T015000+0800",
     "cycle": 2,
@@ -16570,8 +16630,8 @@
     }
   ],
   "active_batch_id": "20261104T152800+0800",
-  "active_cycle": null,
-  "current_stage": "IDLE",
+  "active_cycle": 2,
+  "current_stage": "STARTED",
   "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251

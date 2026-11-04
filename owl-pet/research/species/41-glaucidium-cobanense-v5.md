@@ -29,7 +29,7 @@ Scientific-educational owl electronic-pet concept sheet in the repository's esta
 
 ## Stage ledger
 - RESEARCH_READY: 2026-11-05T01:56:00+08:00
-- IMAGE_GENERATED: pending
+- IMAGE_GENERATED: 2026-11-05T01:58:00+08:00 — initial blob `96dca76562496bc5025981ce7ac0a506290803a9`; 1536×1024; 57.2 s; juvenile bright yellow iris exceeds unknown-evidence boundary, targeted edit required
 - REVIEWED: pending
 - ARCHIVED: pending
 - VERIFIED: pending

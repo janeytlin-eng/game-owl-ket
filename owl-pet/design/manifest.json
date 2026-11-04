@@ -19641,12 +19641,49 @@
       "juvenile_review_crop": "production/review-crops/41-glaucidium-cobanense-v5-juvenile.png",
       "juvenile_review_blob": "64b5e6920d537db1d61f16b108779b53b0d7a2e4",
       "reviewed_at": "2026-11-05T01:59:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1428292,
       "adults_review_sha256": "c8e154cdf498d66d6e6e65d2622bc4c887c89b87d0a68ef92bb883a148cbfd91",
       "juvenile_review_size_bytes": 788949,
       "juvenile_review_sha256": "670cdeb4d16d96dc28aff4bbcf147556cd74fc934ce3ff476a7660fd1f3f2897",
-      "archive_note": "Initial archive commit 578dc05 used truncated 65-byte crop blobs and was rejected before verification; complete chunked crop blobs replace them in this repair."
+      "archive_note": "Initial archive commit 578dc05 used truncated 65-byte crop blobs and was rejected before verification; complete chunked crop blobs replace them in this repair.",
+      "archive_commit": "aad7bbab10f6f99ca991814838447d23461817e0",
+      "fixed_archive_commit": "aad7bbab10f6f99ca991814838447d23461817e0",
+      "archive_tree": "49c6c009f5d0b19d771fe315c90a6dd7388a66b1",
+      "verified_at": "2026-11-05T02:07:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "aad7bbab10f6f99ca991814838447d23461817e0",
+        "tree_sha": "49c6c009f5d0b19d771fe315c90a6dd7388a66b1",
+        "tree_entry_count": 2840,
+        "tree_truncated": false,
+        "paths_verified": 7,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/41-glaucidium-cobanense-v5.png",
+          "blob": "dc4fedf94bc7160fdc1500268b5d60fbeb1ee30b",
+          "size_bytes": 3159806
+        },
+        "adult_crop": {
+          "path": "production/review-crops/41-glaucidium-cobanense-v5-adults.png",
+          "blob": "59055bc53ffe36d4012dd7d46c2225a88b133390",
+          "size_bytes": 1428292
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/41-glaucidium-cobanense-v5-juvenile.png",
+          "blob": "64b5e6920d537db1d61f16b108779b53b0d7a2e4",
+          "size_bytes": 788949
+        },
+        "manifest_counts": {
+          "design_image": 666,
+          "design_legacy": 667,
+          "production": 657
+        },
+        "repair_of": "578dc05ab70b2086500d75ef807b8c7fa21185b6"
+      },
+      "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from a non-truncated immutable tree after rejecting a 65-byte crop truncation."
     }
   ],
   "updated_at": "2026-11-05T02:03:00+08:00"

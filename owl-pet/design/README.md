@@ -2918,3 +2918,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/30c71b67ca2b89443faf1bc44489cc693f41620b/owl-pet/design/concepts/24-glaucidium-californicum-v4.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/30c71b67ca2b89443faf1bc44489cc693f41620b) · [research](../research/species/24-glaucidium-californicum-v4.md) · [review](../research/reviews/24-glaucidium-californicum-v4-review.md) · [run](../production/runs/20261105T014100+0800-cycle-2.md)
 - V4 restores 1536×1024 and corrects the juvenile's adult-like wing/tail after one edit. Recently fledged dependency is evidence-backed, exact day/plumage remains unknown. PASS_WITH_LIMITATIONS; science false; unique 176/251; batch 2/6 next 3.
+
+## #41 Guatemalan Pygmy-Owl — *Glaucidium cobanense* — v5 VERIFIED
+
+- [Original](concepts/41-glaucidium-cobanense-v5.png) · [Research](../research/species/41-glaucidium-cobanense-v5.md) · [Review](../research/reviews/41-glaucidium-cobanense-v5-review.md) · [Run](../production/runs/20261105T015400+0800-cycle-3.md)
+- Mixed-morph Chelemhá pair retained only as an individual evidence trace; adult scale near-equal. One juvenile-iris edit; exact juvenile age/iris/flight remain unknown. PASS_WITH_LIMITATIONS; science false.

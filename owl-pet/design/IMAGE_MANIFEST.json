@@ -19632,9 +19632,50 @@
       "juvenile_review_crop": "production/review-crops/23-psiloscops-flammeolus-v5-juvenile.png",
       "juvenile_review_blob": "96d819236fb9232a03a7beb8bb758598c9fec447",
       "reviewed_at": "2026-11-05T01:36:30+08:00",
-      "archive_commit": null,
-      "readback_pending": true
+      "archive_commit": "9616cf4ad2f0353b5b0f2302b6884f2d5781f57b",
+      "readback_pending": false,
+      "verified_at": "2026-11-05T01:41:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "9616cf4ad2f0353b5b0f2302b6884f2d5781f57b",
+        "tree_sha": "1730afd40a924ed80d67b7bb2db48645e75ee23d",
+        "concept": {
+          "path": "design/concepts/23-psiloscops-flammeolus-v5.png",
+          "blob": "38803a33fe46edb4f24d7b907214fe658de26e7b",
+          "size_bytes": 2764967
+        },
+        "generated": {
+          "path": "production/generated/23-psiloscops-flammeolus-v5-generated-master.png",
+          "blob": "38803a33fe46edb4f24d7b907214fe658de26e7b",
+          "size_bytes": 2764967
+        },
+        "reviewed": {
+          "path": "production/reviewed/23-psiloscops-flammeolus-v5-reviewed-master.png",
+          "blob": "38803a33fe46edb4f24d7b907214fe658de26e7b",
+          "size_bytes": 2764967
+        },
+        "adults_crop": {
+          "path": "production/review-crops/23-psiloscops-flammeolus-v5-adults.png",
+          "blob": "6f1334f162db159813618c91a1b3bf720038e198",
+          "size_bytes": 237324
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/23-psiloscops-flammeolus-v5-juvenile.png",
+          "blob": "96d819236fb9232a03a7beb8bb758598c9fec447",
+          "size_bytes": 80473
+        },
+        "source_index_blob": "3d78938733fb25b961f5cd435b8b7f3be5f132cf",
+        "research_blob": "6e73b7eaafda8622f00861ae9aa8f6b959a5834b",
+        "review_blob": "88799056480e14228507cb537193fc5e6f6b74eb",
+        "run_blob": "ef6ea6cdc857b75af88a383e853ebe9e3206b61c",
+        "manifest_counts": {
+          "design_image_manifest": 664,
+          "design_manifest": 665,
+          "production_image_manifest": 655
+        }
+      },
+      "verification_result": "Exact seven image path/blob/size tuples, three full manifests, source index, research, review, run and batch record read back from non-truncated immutable archive tree."
     }
   ],
-  "updated_at": "2026-11-05T01:38:00+08:00"
+  "updated_at": "2026-11-05T01:41:00+08:00"
 }

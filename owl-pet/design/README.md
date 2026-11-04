@@ -2906,3 +2906,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Archived science-revision plate: `concepts/197-otus-megalotis-v2.png`; v1 retained.
 - Adult female size direction is subtle because sexed ranges overlap. Age-unknown older juvenile is downy, dark-eyed and fully supported with no mature long wing.
 - Review: PASS_WITH_LIMITATIONS; scientifically verified = false. See `../research/species/197-otus-megalotis-v2.md` and run `../production/runs/20261104T192910+0800-cycle-2.md`.
+
+
+## #23 Flammulated Owl — *Psiloscops flammeolus* — v5 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/9616cf4ad2f0353b5b0f2302b6884f2d5781f57b/owl-pet/design/concepts/23-psiloscops-flammeolus-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/9616cf4ad2f0353b5b0f2302b6884f2d5781f57b) · [research](../research/species/23-psiloscops-flammeolus-v5.md) · [review](../research/reviews/23-psiloscops-flammeolus-v5-review.md) · [run](../production/runs/20261105T013100+0800-cycle-1.md)
+- V5 restores a full 1536×1024 master and corrects the former 11-day mostly-white claim to a primary-paper photographed approximately one-week stage. One targeted edit shortened overlong exposed quills; full and crops reopened. PASS_WITH_LIMITATIONS; science false; unique 176/251; batch 1/6, next 2.

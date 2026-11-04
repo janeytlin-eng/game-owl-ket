@@ -37,3 +37,7 @@ Avoid: a fourth bird, eggs, adult facial pattern on chick, open wings, long or n
 ## Review checklist
 
 Exactly three birds; exact text; dark adult eyes; short tufts; similar adults; chick remains down-dominant with only short early primaries, no tail; full body/foot support; no extra birds/eggs. Scientific status remains false even if visual review passes.
+
+## Post-generation review
+
+One targeted edit shortened four overly conspicuous black primary quills to a couple of tiny dark tips embedded in dense white down. Full 1536×1024 and adult/juvenile crops were reopened. Result: PASS_WITH_LIMITATIONS; exact labels/three birds/support/diagnostics passed, stated unknowns remain, science false. See `research/reviews/23-psiloscops-flammeolus-v5-review.md`.

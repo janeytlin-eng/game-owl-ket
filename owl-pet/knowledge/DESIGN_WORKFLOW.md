@@ -778,3 +778,6 @@ When a primary field paper documents an older juvenile's body proportions, feath
 - **Rule added:** name the action state explicitly. For a post-fledging poor flier, formed juvenile remiges are allowed, but show full foot support, failed/poor-landing recovery and no airborne confidence. Do not force every brancher into uniformly incomplete wings.
 - **Applied:** #17 v6 prompt uses the first-days post-fledging state with two-foot branch grip and one balancing half-open wing.
 - **Validation state:** pending image and crop review.
+
+
+- **Applied and visually checked:** #17 v6 at 2026-11-04T23:07:08.912+08:00. The initial post-fledging wing was still too broad and adult-regular; one targeted edit shortened and softened it without erasing formed remiges. Full image plus juvenile/adult crops passed as a fully supported poor-landing recovery. This validates the pre-flight/post-fledging distinction for detecting and correcting this asset only; exact age and feather chronology remain scientifically unverified.

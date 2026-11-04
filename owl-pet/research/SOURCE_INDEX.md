@@ -2019,3 +2019,12 @@ Reused **SEM-FUKAI-2017** and **SEM-MIK2013-158**; Mikkola printed pp.158–159/
 - **Evidence:** valid species; *Gymnoscops insularis* Tristram, 1880 recorded as synonym; IOC 15.1 cited.
 - **Limits / confidence:** high for name mapping; no morphology/development evidence.
 - **Design link:** [#178 v2](species/178-otus-insularis-v2.md).
+
+## 2026-11-04 — #179 *Otus mayottensis* v2 — immature evidence boundary
+
+- **MAYS-MNHN-VOISIN-2011-P15-16** — Claire Voisin & Jean-François Voisin, “List of type specimens of birds … 21. Strigiformes”, *Journal of the National Museum* 180(2):9–30 (2011), printed pp.15–16, PDF lines 275–292. URL: https://publikace.nm.cz/file/e6d69a0d1788f9c0bd61bea0c6af0058/16751/180-2011-02-Voisin-Strigidae.pdf. Accessed 2026-11-04. Primary museum catalogue. Confirms C.G.1884-2066 was identified by Rasmussen as an immature *O. rutilus mayottensis*; provides no age, plumage, iris, feather-development, mobility or nest data. High confidence for specimen/status; no developmental calibration. Supports only the older-immature evidence boundary in [research/species/179-otus-mayottensis-v2.md](species/179-otus-mayottensis-v2.md).
+- **MAYS-ITIS-686656-2026** — Integrated Taxonomic Information System, TSN 686656, accessed 2026-11-04. URL: https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686656&source=to_print. Official database. Treats *Otus mayottensis* Benson, 1960 as valid and cites IOC 15.1; supports current-name mapping, not morphology or development. High confidence for name status.
+- **MAYS-BENSON-1960-P60-66-LEAD** — C. W. Benson, original description, *Ibis* 103b(1):60–66, DOI https://doi.org/10.1111/j.1474-919X.1960.tb03677.x. Located 2026-11-04 through Avibase metadata; full text not read. **Unverified lead only; not used as morphology evidence.**
+- **MAYS-LEWIS-1998-P33-34-LEAD** — Alan Lewis, “Mayotte Scops Owl, *Otus rutilus mayottensis*”, *Bulletin of the African Bird Club* 5(1):33–34, DOI https://doi.org/10.5962/p.309541. BHL metadata read 2026-11-04; article body blocked/not read. **Unverified lead only; not used as design evidence.**
+- Reused without duplicate entries: **MAYS-MIKKOLA-2013-P139**, **MAYS-AVIBASE-2026**, **MAYS-BIRDFORUM-2026-JUV**. The Mikkola upload was unavailable in this run; repository page citation was preserved. Secondary “juveniles similar” remains medium-low confidence and cannot establish age, iris, flight or nest.
+

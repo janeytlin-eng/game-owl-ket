@@ -12825,14 +12825,14 @@
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261104T152800+0800-cycle-1",
-        "heartbeat_at": "2026-11-04T15:28:00+08:00",
-        "expires_at": "2026-11-04T15:43:00+08:00"
+        "heartbeat_at": "2026-11-04T15:30:00+08:00",
+        "expires_at": "2026-11-04T15:45:00+08:00"
       },
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T152800+0800-cycle-1",
-        "heartbeat_at": "2026-11-04T15:28:00+08:00",
-        "expires_at": "2026-11-04T15:43:00+08:00"
+        "heartbeat_at": "2026-11-04T15:30:00+08:00",
+        "expires_at": "2026-11-04T15:45:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -12841,15 +12841,27 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T152800+0800-cycle-1",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "stage_evidence": {
-          "started_at": "2026-11-04T15:28:00+08:00",
-          "selection": "next numbered v1-only science-revision target after verified #178",
-          "main_head": "63cce6607350bd640eb5c4f5ae64791380062180",
-          "v1_path": "owl-pet/design/concepts/179-otus-mayottensis-v1.jpg",
-          "v1_git_blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
-          "unique_species": "176/251",
-          "lease_expires_at": "2026-11-04T15:43:00+08:00"
+          "research_file": "owl-pet/research/species/179-otus-mayottensis-v2.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids": [
+            "MAYS-MNHN-VOISIN-2011-P15-16",
+            "MAYS-ITIS-686656-2026",
+            "MAYS-MIKKOLA-2013-P139",
+            "MAYS-AVIBASE-2026",
+            "MAYS-BIRDFORUM-2026-JUV"
+          ],
+          "source_delta": {
+            "new": 2,
+            "reused": 3,
+            "unverified_leads": 2,
+            "corrected": 1
+          },
+          "full_prompt_saved": true,
+          "mikkola_accessible": false,
+          "juvenile_stage": "age-unknown older immature; museum specimen confirmed; plumage chronology, iris, flight and nest unknown",
+          "adult_sex_boundary": "near-equal body scale; subtle female folded-wing length only"
         }
       },
       "last_checkpoint": {
@@ -12859,19 +12871,31 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T152800+0800-cycle-1",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "stage_evidence": {
-          "started_at": "2026-11-04T15:28:00+08:00",
-          "selection": "next numbered v1-only science-revision target after verified #178",
-          "main_head": "63cce6607350bd640eb5c4f5ae64791380062180",
-          "v1_path": "owl-pet/design/concepts/179-otus-mayottensis-v1.jpg",
-          "v1_git_blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
-          "unique_species": "176/251",
-          "lease_expires_at": "2026-11-04T15:43:00+08:00"
+          "research_file": "owl-pet/research/species/179-otus-mayottensis-v2.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "source_ids": [
+            "MAYS-MNHN-VOISIN-2011-P15-16",
+            "MAYS-ITIS-686656-2026",
+            "MAYS-MIKKOLA-2013-P139",
+            "MAYS-AVIBASE-2026",
+            "MAYS-BIRDFORUM-2026-JUV"
+          ],
+          "source_delta": {
+            "new": 2,
+            "reused": 3,
+            "unverified_leads": 2,
+            "corrected": 1
+          },
+          "full_prompt_saved": true,
+          "mikkola_accessible": false,
+          "juvenile_stage": "age-unknown older immature; museum specimen confirmed; plumage chronology, iris, flight and nest unknown",
+          "adult_sex_boundary": "near-equal body scale; subtle female folded-wing length only"
         }
       },
-      "last_stage": "STARTED",
-      "updated_at": "2026-11-04T15:28:00+08:00",
+      "last_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-04T15:30:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -12888,6 +12912,35 @@
             "v1_git_blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
             "unique_species": "176/251",
             "lease_expires_at": "2026-11-04T15:43:00+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "run_id": "20261104T152800+0800-cycle-1",
+          "species": "Otus mayottensis",
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-04T15:30:00+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "research_file": "owl-pet/research/species/179-otus-mayottensis-v2.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "source_ids": [
+              "MAYS-MNHN-VOISIN-2011-P15-16",
+              "MAYS-ITIS-686656-2026",
+              "MAYS-MIKKOLA-2013-P139",
+              "MAYS-AVIBASE-2026",
+              "MAYS-BIRDFORUM-2026-JUV"
+            ],
+            "source_delta": {
+              "new": 2,
+              "reused": 3,
+              "unverified_leads": 2,
+              "corrected": 1
+            },
+            "full_prompt_saved": true,
+            "mikkola_accessible": false,
+            "juvenile_stage": "age-unknown older immature; museum specimen confirmed; plumage chronology, iris, flight and nest unknown",
+            "adult_sex_boundary": "near-equal body scale; subtle female folded-wing length only"
           }
         }
       ]
@@ -13030,7 +13083,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-04T15:28:00+08:00",
+  "updated_at": "2026-11-04T15:30:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -13042,8 +13095,8 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "20261104T152800+0800-cycle-1",
-    "heartbeat_at": "2026-11-04T15:28:00+08:00",
-    "expires_at": "2026-11-04T15:43:00+08:00"
+    "heartbeat_at": "2026-11-04T15:30:00+08:00",
+    "expires_at": "2026-11-04T15:45:00+08:00"
   },
   "last_updated_at": "2026-11-01T03:36:00+08:00",
   "audit_notes": [
@@ -13811,15 +13864,27 @@
     "version": 2,
     "action": "SCIENCE_REVISION",
     "run_id": "20261104T152800+0800-cycle-1",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "stage_evidence": {
-      "started_at": "2026-11-04T15:28:00+08:00",
-      "selection": "next numbered v1-only science-revision target after verified #178",
-      "main_head": "63cce6607350bd640eb5c4f5ae64791380062180",
-      "v1_path": "owl-pet/design/concepts/179-otus-mayottensis-v1.jpg",
-      "v1_git_blob": "c24fa961ff2b31be32a2892920556e71e2a5031e",
-      "unique_species": "176/251",
-      "lease_expires_at": "2026-11-04T15:43:00+08:00"
+      "research_file": "owl-pet/research/species/179-otus-mayottensis-v2.md",
+      "source_index": "owl-pet/research/SOURCE_INDEX.md",
+      "source_ids": [
+        "MAYS-MNHN-VOISIN-2011-P15-16",
+        "MAYS-ITIS-686656-2026",
+        "MAYS-MIKKOLA-2013-P139",
+        "MAYS-AVIBASE-2026",
+        "MAYS-BIRDFORUM-2026-JUV"
+      ],
+      "source_delta": {
+        "new": 2,
+        "reused": 3,
+        "unverified_leads": 2,
+        "corrected": 1
+      },
+      "full_prompt_saved": true,
+      "mikkola_accessible": false,
+      "juvenile_stage": "age-unknown older immature; museum specimen confirmed; plumage chronology, iris, flight and nest unknown",
+      "adult_sex_boundary": "near-equal body scale; subtle female folded-wing length only"
     }
   },
   "previous_checkpoint": {
@@ -16468,7 +16533,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 1,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251

@@ -172,3 +172,53 @@ undefined
 - Corrected v2 archive status: direct raw-file inspection found a narrow top strip and gray remainder despite 1536×1024 metadata; v2 is retained but not used as the current review master.
 - Corrected sex rule: published summaries conflict on whether male or female is larger; v3 encodes no direction and uses near-equal adults.
 - Links: `research/species/152-uroglaux-dimorpha-v3.md`; `production/runs/20261104T183100+0800-cycle-1.md`; concept v3 pending generation.
+
+
+## 2026-11-04 — #197 *Otus megalotis* v2 — adult morphometrics and older-juvenile boundary
+
+### LLSO-MIRANDA-2011-P446-450
+- **Title/authors/year:** *Phylogeny and Taxonomic Review of Philippine Lowland Scops Owls* — Miranda, Brooks & Kennedy, 2011.
+- **URL:** https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf
+- **Type/pages/accessed:** primary museum-series/genetic study; printed pp.446, 450; accessed 2026-11-04.
+- **Facts:** 21 sexed adult *megalotis*; female mean wing/tail/culmen/tarsus exceed male means but ranges overlap; scapular stripes and tarsal feathers onto upper foot; typical ashy-brown/brownish form; red morph 2/21.
+- **Limits/design:** adult-only sample; supports subtle female length/fullness, not a fixed height multiplier; common morph, not sex-coded red morph.
+
+### LLSO-MARSHALL-1978-P26
+- **Title/author/year:** *Systematics of Smaller Asian Night Birds Based on Voice* — Joe T. Marshall, 1978.
+- **URL:** https://sora.unm.edu/sites/default/files/journals/om/om025.pdf
+- **Type/page:** field + museum systematic monograph, printed p.26.
+- **Facts:** rufous juvenile holotype; nest in large *Ficus* in wooded ravine; lowland/farm/village/montane occurrence.
+- **Limits/design:** no continuous development or exact age; nest fact is not used as a detailed nest interior.
+
+### LLSO-SANCHEZ-2012-P98-100
+- **Title/author/year:** *Relative Abundance of the Philippine Scops-Owl...* — Michael S. Sanchez, 2012.
+- **URL:** https://citeseerx.ist.psu.edu/document?doi=8264d81298a04051a2e00b774e1aea544d619d6c&repid=rep1&type=pdf
+- **Type/pages:** regional research article; printed pp.98–100.
+- **Facts:** labeled adult/juvenile Figure 1; adult gray/red morph and soft-part description; tarsus feathered to toes.
+- **Limits:** breeding/chick synthesis includes broader/captive sources; not an exact wild feather chronology.
+
+### LLSO-WOODS-2003-JAN-APR-P29
+- **Title/year:** Philippines Jan–Apr trip report — Woods, 2003.
+- **URL:** https://www.joerl.se/philippines/woods2003.pdf
+- **Type/page:** field observation report, printed p.29.
+- **Fact/design:** two juveniles perched high in trees with an adult; supports supported older arboreal juvenile only.
+- **Limits:** no exact age, plumage sequence or flight threshold.
+
+### LLSO-AVIBASE-2026
+- **Institution/accessed:** Birds Canada/Avibase, 2026-11-04.
+- **URL:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=7D1ACC3EF48A7128&lang=EN
+- **Fact:** current *Otus megalotis*; protonym *Scops megalotis*; Walden 1875 p.145; Greater Luzon.
+- **Limit:** taxonomy only; linked original page blocked this run.
+
+### LLSO-OWL-PAGES-2012-JUV
+- **Title/contributor/date:** juvenile *Otus megalotis* — Bram Demeulemeester, Mount Data, April 2012.
+- **URL:** https://www.owlpages.com/owls/species.php?i=82
+- **Type/scope:** identified field photograph record.
+- **Fact/design:** older juvenile naturally supported on moss/lichen branch.
+- **Limit:** no exact age, iris chronology, sex or locomotor threshold.
+
+### Reuse/correction/lead
+- Reused LLSO-MIKKOLA-2013-P170 and LLSO-PROJECTNOAH-2013-JUV; uploaded guide unavailable this run.
+- Corrected v1 adult morph overstatement and miniature-adult juvenile wing/iris. Exact juvenile age, iris, feather sequence, flight and quantified standing-height ratio remain unknown.
+- Macaulay ML201585161 direct page was bot-blocked; metadata only, not pixel evidence.
+- Links: owl-pet/research/species/197-otus-megalotis-v2.md; owl-pet/production/runs/20261104T192910+0800-cycle-2.md; planned concept v2.

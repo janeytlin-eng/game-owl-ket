@@ -840,3 +840,11 @@ When a juvenile is documented walking, scrambling or flapping for balance, do no
 
 ### Reconcile all manifests before choosing the next version (applied on #46 v5)
 A version absent from the primary manifest can still exist in a legacy manifest. Before archiving, search every active manifest and the concept path. #46 uncovered a verified low-resolution v4 only in `design/manifest.json`; the new full-resolution work was corrected to v5 before concept archive or credit. Morphological near-adult traits still do not prove flight: the day-34–36 bird remains split-supported with both wings folded.
+
+
+### 2026-11-05 — Adult eyebrow/moustachial marks are not a continuous facial ring (#51 v5)
+
+- **Problem found:** even when a prompt asks for white brows and moustachial marks, the first render can join them into a broad white annulus that reads as a generic Barred Owl diagnostic.
+- **Evidence:** the Chile MMA/SIMBIO descriptions support white brows and moustachial marks with a rusty-grey facial disc; they do not support a clean continuous white concentric ring.
+- **Applied:** #51 v5 used a face-only edit to break the annulus while preserving the dark male/markedly paler female palette, dark eyes, body, text, chick and support.
+- **Verified visually:** edited full master and adult crop were reopened and passed. This validates the check for #51 v5 only; it is not a universal facial-disc rule for all *Strix*.

@@ -20514,7 +20514,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "RLO-VUKASOVIC-2006-P172-174",
         "RLO-SIMBIO-MMA-5064-2026",
@@ -20542,12 +20542,45 @@
       "juvenile_review_crop": "production/review-crops/51-strix-rufipes-v5-chick.png",
       "juvenile_review_blob": "a1c1d85652b417980914eb047407489c61281f65",
       "reviewed_at": "2026-11-05T06:40:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1956368,
       "adults_review_sha256": "2f7461ef27d4dc059810ccab95baf0b947bade57fa1d8edda87e857368b148f4",
       "juvenile_review_size_bytes": 928762,
-      "juvenile_review_sha256": "b32a326a615aa42307be8bbb4960e96d95a88c4b339f7b46b6c791ccdf44e381"
+      "juvenile_review_sha256": "b32a326a615aa42307be8bbb4960e96d95a88c4b339f7b46b6c791ccdf44e381",
+      "archive_commit": "00e3a79e6b2a7b646cfeaeeb270a4e8aae78b4c6",
+      "archive_tree": "6268445c06d1119c3a2020aee4e26e1c689fc29e",
+      "verified_at": "2026-11-05T06:48:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "00e3a79e6b2a7b646cfeaeeb270a4e8aae78b4c6",
+        "tree_sha": "6268445c06d1119c3a2020aee4e26e1c689fc29e",
+        "paths_verified": 14,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/51-strix-rufipes-v5.png",
+          "blob": "07982ed3e19f919086fe20ed766423472b9a9fcb",
+          "size_bytes": 2935917
+        },
+        "adult_crop": {
+          "path": "production/review-crops/51-strix-rufipes-v5-adults.png",
+          "blob": "cceaca9dcf104bb231d3464ac2aca9d9e1093f65",
+          "size_bytes": 1956368
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/51-strix-rufipes-v5-chick.png",
+          "blob": "a1c1d85652b417980914eb047407489c61281f65",
+          "size_bytes": 928762
+        },
+        "manifest_counts": {
+          "design_image": 676,
+          "design_legacy": 677,
+          "production": 667
+        }
+      },
+      "verification_result": "Exact seven image path/blob tuples, three manifests and four evidence records read back from immutable archive commit."
     }
   ],
-  "updated_at": "2026-11-05T06:45:00+08:00"
+  "updated_at": "2026-11-05T06:48:00+08:00"
 }

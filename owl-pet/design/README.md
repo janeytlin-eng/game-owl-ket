@@ -2953,3 +2953,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Original](concepts/46-strix-ocellata-v5.png) · [Research](../research/species/46-strix-ocellata-v5.md) · [Review](../research/reviews/46-strix-ocellata-v5-review.md) · [Run](../production/runs/20261105T040500+0800-cycle-2.md)
 - Full-resolution v5 preserves verified low-resolution v4. Day-34–36 split-supported brancher; both wings folded, wing/tail about half-grown, flight age unknown. No edit; PASS_WITH_LIMITATIONS; science false.
+
+
+## #51 Rufous-legged Owl — *Strix rufipes* — v5 VERIFIED
+
+- [Original](concepts/51-strix-rufipes-v5.png) · [Research](../research/species/51-strix-rufipes-v5.md) · [Review](../research/reviews/51-strix-rufipes-v5-review.md) · [Run](../production/runs/20261105T062700+0800-cycle-1.md)
+- Full-resolution v5 uses the primary-paper author-estimated ≤1-week chick in a top-opening dead-hualo cavity. Adult male is dark and female markedly paler without an invented height ratio. One face-only edit removed continuous white annuli; full and crop review passed. PASS_WITH_LIMITATIONS; science false; unique remains 176/251.

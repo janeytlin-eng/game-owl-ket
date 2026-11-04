@@ -74,3 +74,12 @@
 
 ## 2026-10-30 v4 production result
 Original and derivative opened; exact text/count, dark-male/paler-female direction, whitish downy chick without formed remiges/tail and bilateral dry cavity support passed; no edit. Files: `design/concepts/51-strix-rufipes-v4.png` plus generated/reviewed masters. PASS_WITH_LIMITATIONS; science false.
+
+
+## 2026-11-05 v5 full-resolution verified revision
+
+- Preserved v1–v4 and added full-resolution 1536×1024 v5.
+- Primary Vukasovic et al. 2006 pp.172–174 anchors an author-estimated ≤1-week chick in a top-opening dead *Nothofagus glauca* cavity; the estimate is indirect and not a known hatch date.
+- Official Chilean evidence retains a dark male and markedly paler female at comparable height; no quantified sex-height ratio was invented.
+- First render's continuous white facial rings were corrected to broken white brows and moustachial marks. Full master and both crops passed with limitations.
+- Archive: `00e3a79e6b2a7b646cfeaeeb270a4e8aae78b4c6`; master blob `07982ed3e19f919086fe20ed766423472b9a9fcb`; science remains false for exact chick age/iris/feather sequence, locomotor threshold, quantitative sex measurements and population transfer.

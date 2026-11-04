@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T01:18:00+08:00",
+  "updated": "2026-11-05T01:21:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19551,19 +19551,40 @@
       "auxiliary_review_crop_size_bytes": 142180,
       "auxiliary_review_crop_sha256": "de6a884e2c038400558c69933f37398965118e1ffb3e6ea57c916571675e20fd",
       "archive_note": "No image edit required after full master and adult/juvenile crop review. The 18-20-day juvenile remains cavity-supported with folded juvenile remiges.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null,
-      "fixed_archive_commit": null,
-      "archive_tree": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "b55c2090bc67f4f2b039e23e9ab00911eee711d5",
+      "fixed_archive_commit": "b55c2090bc67f4f2b039e23e9ab00911eee711d5",
+      "archive_tree": "2c7af128ea718ea3326c86114c22a46b297f198a",
+      "verified_at": "2026-11-05T01:21:00+08:00",
       "readback": {
-        "status": "PENDING",
-        "method": "immutable archive commit readback pending",
-        "paths_verified": 0,
-        "binary_paths_verified": 0
+        "status": "VERIFIED_EVIDENCE",
+        "method": "immutable non-truncated recursive tree exact path/blob/size readback plus manifest parse",
+        "commit_sha": "b55c2090bc67f4f2b039e23e9ab00911eee711d5",
+        "tree_sha": "2c7af128ea718ea3326c86114c22a46b297f198a",
+        "paths_verified": 16,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "blob": "2d0e42ee502e2b69d8cde2d8b65daee3f103142a",
+          "bytes": 3491902
+        },
+        "adult_crop": {
+          "blob": "03d44f84a810908457002debe98cfd47eee4901f",
+          "bytes": 142180
+        },
+        "juvenile_crop": {
+          "blob": "66f1b8411554064bcdb90f7496ef45fee5743ab0",
+          "bytes": 92990
+        },
+        "manifest_counts": {
+          "design_image": 663,
+          "design_legacy": 664,
+          "production": 654
+        }
       }
     }
   ],
-  "updated_at": "2026-11-05T01:18:00+08:00"
+  "updated_at": "2026-11-05T01:21:00+08:00"
 }

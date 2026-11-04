@@ -3119,3 +3119,11 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Full-resolution revision, no image edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
 - Primary 18–20-day stage retained inside cavity with folded remiges and support. Manifests 663/664/654; cycle credit pending.
+
+
+## 2026-11-05 #21 *Megascops choliba* v6 VERIFIED
+
+- Full-resolution revision; no image edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
+- Archive `b55c2090bc67f4f2b039e23e9ab00911eee711d5`; non-truncated 2810-entry tree verified all seven binary paths; manifests parse at 663/664/654.
+- Batch `20261104T223131+0800` COMPLETE 6/6; lease released.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/b55c2090bc67f4f2b039e23e9ab00911eee711d5/owl-pet/design/concepts/21-megascops-choliba-v6.png?raw=1)

@@ -222,3 +222,35 @@ undefined
 - Corrected v1 adult morph overstatement and miniature-adult juvenile wing/iris. Exact juvenile age, iris, feather sequence, flight and quantified standing-height ratio remain unknown.
 - Macaulay ML201585161 direct page was bot-blocked; metadata only, not pixel evidence.
 - Links: owl-pet/research/species/197-otus-megalotis-v2.md; owl-pet/production/runs/20261104T192910+0800-cycle-2.md; planned concept v2.
+
+## 2026-11-04 — #127 *Megascops albogularis* v3 — older juvenile wing boundary and current-name mapping
+
+### WTSO-PERUAVES-2026-L2088-2110
+- **Title / institution / accessed:** *White-throated Screech-Owl (Megascops albogularis)* — Peru Aves; accessed 2026-11-04.
+- **URL:** https://www.peruaves.org/strigidae/white-throated-screech-owl_megascops-albogularis/
+- **Type / scope:** curated field-photo species account; adults and an identified juvenile from NW Peru, Piura.
+- **Lines / facts read:** page lines 2088–2110 identify two Colombian adults, one Piura juvenile and one Cuzco adult; lines 2105–2106 describe c.26 cm, dusky adult plumage, amber iris, white throat, rufous belly and humid montane forest at 1,800–2,700 m; lines 2109–2110 list Peruvian subspecies ranges.
+- **Limits:** no juvenile age, sex, iris chronology, flight ability or literal feather map; photo label supports an older naturally perched juvenile stage, not an exact age.
+- **Design use:** retain adult amber iris/white throat/rufous belly and cloud-forest context; juvenile remains age-unknown, fully supported and only generally Piura-photo-like.
+- **Links:** `research/species/127-megascops-albogularis-v3.md`; concept v3; run `production/runs/20261104T203100+0800-cycle-3.md`.
+
+### WTSO-BOW-HOLT-2022-V1.1
+- **Title / authors / year:** *White-throated Screech-Owl (Megascops albogularis), version 1.1* — Holt et al., Cornell Lab of Ornithology, 2022.
+- **DOI / URL:** https://doi.org/10.2173/bow.whtsco1.01.1
+- **Type / scope:** institution-maintained species account; adult identification, distribution and habitat.
+- **Facts read:** accessible DOI/search record states large-headed, long-tailed, generally dark-plumaged Andean owl with obvious white throat patch; published 25 Oct 2022; Macaulay holdings include photo/video evidence.
+- **Limits:** full account redirect was not accessible in this run; no juvenile detail or sex-size direction was taken from it.
+- **Design use:** adult identity/proportion cross-check only; not juvenile chronology.
+
+### WTSO-NCBI-714938-2026
+- **Institution / accessed:** NCBI Taxonomy Browser; accessed 2026-11-04.
+- **URL / lines:** https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=714938 ; lines 4–20.
+- **Type / scope:** institutional taxonomy database.
+- **Facts:** current name *Megascops albogularis* (Cassin, 1849); basionym *Syrnium albo-gularis*; homotypic synonym *Otus albogularis*.
+- **Limits:** NCBI itself cautions that its taxonomy is not an authoritative nomenclatural source; no morphology or development.
+- **Design use:** current/old-name mapping only.
+
+### Reuse, correction and evidence boundary
+- Reused previously indexed `WTSO-MIK2013-249` and `WTSO-MACAULAY-1980` from the v2 record; the uploaded Mikkola guide itself was not accessible in this run, so no new page claim was added.
+- Corrected the v2 archive claim after original-resolution review: the center juvenile still has a long, regularly layered adult-like folded wing with repeated pale covert marks and the plate title lacks inventory number #127.
+- V3 boundary: one older, fully supported, age-unknown juvenile with warm buff/gray mesoptile, dark uncertain iris and a compact soft wing ending well above the feet; no exact age, flight threshold, nest form or fixed sex-size ratio.

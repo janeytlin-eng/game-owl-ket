@@ -22060,17 +22060,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T065000+0800-cycle-2",
-      "heartbeat_at": "2026-11-05T06:56:00+08:00",
-      "expires_at": "2026-11-05T07:11:00+08:00"
+      "heartbeat_at": "2026-11-05T07:00:00+08:00",
+      "expires_at": "2026-11-05T07:15:00+08:00"
     },
     "in_progress": {
       "cycle": 2,
       "run_id": "20261105T065000+0800-cycle-2",
       "species_id": 52,
       "species": "Strix hylophila",
-      "stage": "RESEARCH_READY"
+      "stage": "REVIEWED"
     },
-    "current_stage": "RESEARCH_READY",
+    "current_stage": "REVIEWED",
     "events": [
       {
         "cycle": 1,
@@ -22238,6 +22238,49 @@
           "full_prompt_saved": true,
           "mikkola_upload_accessible": false,
           "lease_expires_at": "2026-11-05T07:11:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T062700+0800",
+        "cycle": 2,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-05T06:59:00+08:00",
+        "run_id": "20261105T065000+0800-cycle-2",
+        "species_id": 52,
+        "credited": false,
+        "evidence": {
+          "generated_path": "owl-pet/production/generated/52-strix-hylophila-v5-generated-master.png",
+          "generated_blob": "ba1d092a9dccbeba6dc74dc581664b907f06a2c8",
+          "reviewed_blob": "02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab",
+          "dimensions": "1536x1024",
+          "bytes": 2725893,
+          "sha256": "522fc599a38db3cae9d4c1f71e71c92bd3bbcc7ec72ea3e4791146b6b1e1d551",
+          "generation_seconds": 56.5,
+          "edit_seconds": 83.7,
+          "edit_count": 2,
+          "complete_prompt": "owl-pet/research/species/52-strix-hylophila-v5.md",
+          "lease_expires_at": "2026-11-05T07:14:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T062700+0800",
+        "cycle": 2,
+        "stage": "REVIEWED",
+        "at": "2026-11-05T07:00:00+08:00",
+        "run_id": "20261105T065000+0800-cycle-2",
+        "species_id": 52,
+        "credited": false,
+        "evidence": {
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "image_edit_required": true,
+          "edit_count": 2,
+          "review_path": "owl-pet/research/reviews/52-strix-hylophila-v5-review.md",
+          "adult_crop": "owl-pet/production/review-crops/52-strix-hylophila-v5-adults.png",
+          "adult_crop_blob": "b15ae9028a5ee10ce8e109a39eceb9fbba4ab1d4",
+          "juvenile_crop": "owl-pet/production/review-crops/52-strix-hylophila-v5-chick.png",
+          "juvenile_crop_blob": "82df9fe6db021ce85f779c06df5e7aee873364e0",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-05T07:15:00+08:00"
         }
       }
     ]

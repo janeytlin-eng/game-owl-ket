@@ -734,3 +734,13 @@ A report that recently fledged young occur in a month supports only a broad bree
 - Evidence boundary: the identified Piura record supports an older perched juvenile but not exact age, iris chronology, flight threshold or a literal feather map. Older juveniles may retain formed feather tips; they must not be reduced automatically to wing buds.
 - Applied: keep a small irregular cluster of soft formed tips under residual down, but remove adult-regular pale covert rows, conceal the tail and ensure the folded wing ends well above both gripping feet.
 - Verification: the first v3 generation still failed this geometry test and was edited once; full image plus juvenile and adult/feet crops then passed. The rule is verified on #127 v3 only and does not establish scientific truth for other taxa.
+
+
+## 2026-11-04 — River-fishing owl nest and juvenile-stage rule (#157 v3)
+
+- **Problem found:** an open stick nest can look suspicious beside generic owl cavity imagery, while a dark fluffy juvenile can silently drift toward a miniature-adult template.
+- **Evidence:** primary Gabon field records for *Scotopelia bouvieri* explicitly support low stick platforms above water and circa-40-day young with very slow down loss.
+- **Rule added:** never “correct” an unusual nest type from generic owl expectations. Preserve a species-specific nest when primary evidence supports it; separately constrain platform scale, height/context and material. For a down-retaining young, define wing/tail limits and support before color/pattern.
+- **Applied:** #157 v3 retained a shallow stick platform over river water, reduced its eyrie-like mass, and used pale down-rich mesoptile with short buried wing contours and hidden tail.
+- **Verified in this cycle:** original-size plate and two review crops passed support, limb, title, adult-ID and juvenile-wing checks without an edit. This validates the rule for this asset only, not as a universal fishing-owl developmental sequence.
+- **Backcheck queue:** future reviews of other *Scotopelia*/*Ketupa* plates should compare nest type to their own evidence rather than inherit #157.

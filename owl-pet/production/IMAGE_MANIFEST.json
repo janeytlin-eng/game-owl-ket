@@ -19974,7 +19974,63 @@
         }
       },
       "verification_result": "Exact seven image path/blob tuples, three manifests and three evidence records read back from immutable archive commit."
+    },
+    {
+      "id": "51-strix-rufipes-v5",
+      "path": "design/concepts/51-strix-rufipes-v5.png",
+      "species_id": 51,
+      "scientific_name": "Strix rufipes",
+      "common_name": "Rufous-legged Owl",
+      "historical_names": [
+        "Syrnium rufipes",
+        "Ulula rufipes"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "RLO-VUKASOVIC-2006-P172-174",
+        "RLO-SIMBIO-MMA-5064-2026",
+        "RLO-ESCOBAR-2022-P106-110",
+        "RLO-MMA-2015",
+        "RLO-MIKKOLA-2013-P333"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/51-strix-rufipes-v5.md",
+      "review_record": "research/reviews/51-strix-rufipes-v5-review.md",
+      "run_record": "production/runs/20261105T062700+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2935917,
+      "sha256": "6b3e7a8180d087045b92430ff0746473acc97ee247432384d71c7c6f4468afcd",
+      "git_blob": "07982ed3e19f919086fe20ed766423472b9a9fcb",
+      "generated_path": "production/generated/51-strix-rufipes-v5-generated-master.png",
+      "generated_blob": "07982ed3e19f919086fe20ed766423472b9a9fcb",
+      "reviewed_path": "production/reviewed/51-strix-rufipes-v5-reviewed-master.png",
+      "reviewed_blob": "07982ed3e19f919086fe20ed766423472b9a9fcb",
+      "adults_review_crop": "production/review-crops/51-strix-rufipes-v5-adults.png",
+      "adults_review_blob": "cceaca9dcf104bb231d3464ac2aca9d9e1093f65",
+      "juvenile_review_crop": "production/review-crops/51-strix-rufipes-v5-chick.png",
+      "juvenile_review_blob": "a1c1d85652b417980914eb047407489c61281f65",
+      "reviewed_at": "2026-11-05T06:40:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1956368,
+      "adults_review_sha256": "2f7461ef27d4dc059810ccab95baf0b947bade57fa1d8edda87e857368b148f4",
+      "juvenile_review_size_bytes": 928762,
+      "juvenile_review_sha256": "b32a326a615aa42307be8bbb4960e96d95a88c4b339f7b46b6c791ccdf44e381"
     }
   ],
-  "updated_at": "2026-11-05T06:15:00+08:00"
+  "updated_at": "2026-11-05T06:45:00+08:00"
 }

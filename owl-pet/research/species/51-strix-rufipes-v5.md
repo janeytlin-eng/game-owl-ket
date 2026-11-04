@@ -5,7 +5,7 @@
 - Action: full-resolution science/archive revision; v4 is retained
 - Working taxonomy: *Strix rufipes* P. P. King, 1827
 - Historical names retained for search: *Syrnium rufipes*, *Ulula rufipes*
-- Status at this checkpoint: RESEARCH_READY
+- Status at this checkpoint: ARCHIVED — immutable readback pending
 - Science gate: `scientifically_verified=false`
 
 ## Sources actually read
@@ -60,3 +60,10 @@ Avoid: generic Barred Owl concentric facial rings, yellow adult eyes, exaggerate
 ## Remaining unknowns
 
 Exact hatch age, iris ontogeny, continuous feather sequence, sexed linear measurements, chick movement/flight threshold, geographic plumage variation and transfer from the central-Chile record to the whole species remain unresolved.
+
+## Production result — v5 ARCHIVED
+
+- Final full-resolution master: 1536×1024; 2,935,917 bytes; SHA-256 `6b3e7a8180d087045b92430ff0746473acc97ee247432384d71c7c6f4468afcd`; Git blob `07982ed3e19f919086fe20ed766423472b9a9fcb`.
+- One targeted edit removed continuous adult white facial rings while preserving broken brows/moustachial marks.
+- Full master and adult/chick crops passed with limitations; science remains false.
+- Archive commit and immutable readback are pending at this checkpoint.

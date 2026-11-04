@@ -3134,3 +3134,11 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Full-resolution revision; one edit shortened the juvenile's overly mature remiges and retained a supported balance-flap pose.
 - New/re-read/corrected sources: 1/5/2; the 18/19 February fledging-date conflict is preserved.
 - PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**; manifests prepared at 670/671/661; no cycle credit before readback.
+
+
+## 2026-11-05 #45 *Strix seloputo* v5 VERIFIED
+
+- Archive `12701d7984f3f0f121b7f40fdd802c0909d8b00a`; non-truncated 2,882-entry immutable tree matched nine image paths and all three unique image blobs; manifests parse at 670/671/661.
+- One edit shortened adult-like juvenile remiges; full and crop recheck passed with limitations. Balance flapping remains distinct from independent flight.
+- Unique remains **176/251**; batch `20261105T033723+0800` is 1/6; lease released; next cycle 2.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/12701d7984f3f0f121b7f40fdd802c0909d8b00a/owl-pet/design/concepts/45-strix-seloputo-v5.png?raw=1)

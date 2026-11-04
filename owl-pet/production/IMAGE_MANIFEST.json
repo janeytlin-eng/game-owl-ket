@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T03:57:00+08:00",
+  "updated": "2026-11-05T04:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19453,7 +19453,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "SOWL-BESG-2022-P1",
         "SOWL-BESG-2022-P2",
@@ -19481,12 +19481,47 @@
       "juvenile_review_crop": "production/review-crops/45-strix-seloputo-v5-juvenile.png",
       "juvenile_review_blob": "752ed8d153321b25c1ae1011d4d932a2f895f939",
       "reviewed_at": "2026-11-05T03:51:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1349666,
       "adults_review_sha256": "c4c5869ee3918f463d934076dd8243ff5c17a5d94e4b597adb6b47befddc2484",
       "juvenile_review_size_bytes": 629109,
-      "juvenile_review_sha256": "837f0bc4493e57302d1e8eecabd68e24b9744cb7cf0a129c8171f03cfded14f4"
+      "juvenile_review_sha256": "837f0bc4493e57302d1e8eecabd68e24b9744cb7cf0a129c8171f03cfded14f4",
+      "archive_commit": "12701d7984f3f0f121b7f40fdd802c0909d8b00a",
+      "archive_tree": "9df44d712386e10b96fc0fadd11046591ceb1d5a",
+      "verified_at": "2026-11-05T04:00:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "12701d7984f3f0f121b7f40fdd802c0909d8b00a",
+        "tree_sha": "9df44d712386e10b96fc0fadd11046591ceb1d5a",
+        "tree_entry_count": 2882,
+        "tree_truncated": false,
+        "paths_verified": 14,
+        "binary_paths_verified": 9,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/45-strix-seloputo-v5.png",
+          "blob": "bff90f0cc26c232ac913e029a93bc017a307c62a",
+          "size_bytes": 2675469
+        },
+        "adult_crop": {
+          "path": "production/review-crops/45-strix-seloputo-v5-adults.png",
+          "blob": "51b2572170c321473be7e7eeb510c737670e21ea",
+          "size_bytes": 1349666
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/45-strix-seloputo-v5-juvenile.png",
+          "blob": "752ed8d153321b25c1ae1011d4d932a2f895f939",
+          "size_bytes": 629109
+        },
+        "manifest_counts": {
+          "design_image": 670,
+          "design_legacy": 671,
+          "production": 661
+        }
+      },
+      "verification_result": "Non-truncated immutable tree returned exact image path/blob/size identities; all three manifests and evidence records parsed from the archive tree."
     }
   ],
-  "updated_at": "2026-11-05T03:57:00+08:00"
+  "updated_at": "2026-11-05T04:00:00+08:00"
 }

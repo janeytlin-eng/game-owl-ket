@@ -2853,3 +2853,12 @@ Full-resolution family-evidence revision of the Sokoke Scops Owl. Virani’s 199
 ### Review-rule application
 
 When a source says a juvenile “resembles the adult,” similarity does not license long, orderly adult-hard remiges. The juvenile wing still needs stage-bounded softness, a rounded short tip and explicit support unless a more precise developmental source says otherwise. This rule was reapplied and visually verified on #175 v2 after the initial render repeated the v1 wing defect; broad effectiveness is not yet claimed.
+
+## 2026-11-04 — #179 *Otus mayottensis* v2
+
+Science revision of the verified v1. The direct young-bird evidence remains only a museum specimen identified as immature, so v2 keeps an age-unknown older immature rather than inventing a chick or fledgling. One targeted edit shortened all ear tufts and removed adult-hard juvenile wing layering. Full plate plus juvenile and adult/feet crops passed with limitations; science remains false. [Concept](concepts/179-otus-mayottensis-v2.png) · [Research](../research/species/179-otus-mayottensis-v2.md) · [Run](../production/runs/20261104T152800+0800-cycle-1.md).
+
+### Review-rule application
+
+A museum label “immature” proves age class, not feather sequence, iris or locomotor capacity. When no dated development source exists, the image must keep those traits visually conservative and explicitly unknown. This rule was applied and visually checked on #179 v2; broader effectiveness is not yet claimed.
+

@@ -1533,3 +1533,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-10-31T22:45:00+08:00: #142 *Asio grammicus* v2 ARCHIVED pending fixed readback. New3/reused2/corrected1; one juvenile support/wing edit after full/crop inspection; #142/#154 current/old-genus duplicate boundary recorded; manifests 625/626/616; unique175/251; science false; no cycle credit yet.
 - 2026-10-31T22:48:00+08:00: #142 v2 archive repair. Rejected `9af895dec2e471cba3c597cf7fd2f281c94c3ed5` after its non-truncated tree exposed all six new PNG paths as ~786KB truncations; rebuilt four unique full blobs from validated 300,000-byte Base64 blocks. Fixed replacement/readback pending; no cycle credit.
 - 2026-10-31T22:50:00+08:00: #142 *Asio grammicus* v2 VERIFIED at fixed archive `351b8a365a28fbd2b914861df8e5897cd7495827`; non-truncated 2,478-entry tree, six exact full image tuples and parseable manifests 625/626/616 passed. Batch4/6 next5; unique175/251; science false; lease released.
+
+## 2026-11-04 — #179 *Otus mayottensis* v2 science revision
+
+- Preserved v1; added an evidence-bounded adult male/adult female/older immature plate.
+- Added/updated research and source index with MNHN pp.15–16 and ITIS TSN 686656; unverified literature leads remain labeled.
+- One targeted edit corrected ear-tuft height and juvenile wing maturity; PASS_WITH_LIMITATIONS, scientifically_verified=false.
+

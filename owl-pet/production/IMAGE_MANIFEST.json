@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-01",
+  "updated": "2026-11-04T15:40:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -17324,7 +17324,64 @@
         },
         "v1_integrity_verified": true
       }
+    },
+    {
+      "id": "179-otus-mayottensis-v2",
+      "species_id": 179,
+      "scientific_name": "Otus mayottensis",
+      "historical_names": [
+        "Otus rutilus mayottensis",
+        "Scops humbloti (nomen nudum)"
+      ],
+      "common_name": "Mayotte Scops Owl",
+      "version": 2,
+      "prior_versions_retained": [
+        1
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/179-otus-mayottensis-v2.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V2 science revision preserves near-equal adult body scale with only a subtle female folded-wing-length cue. A museum-confirmed but undated older immature is shown adult-like yet softer and less regular, with a compact rounded wing, mostly hidden tail, dark-indeterminate eyes and full branch support. One targeted edit shortened all tufts and removed adult-hard juvenile wing layering. Exact age, iris chronology, flight, nest and feather sequence remain unknown; science=false.",
+      "source_ids": [
+        "MAYS-MIKKOLA-2013-P139",
+        "MAYS-MNHN-VOISIN-2011-P15-16",
+        "MAYS-ITIS-686656-2026",
+        "MAYS-AVIBASE-2026",
+        "MAYS-BIRDFORUM-2026-JUV"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--179-otus-mayottensis-v2--immature-evidence-boundary",
+      "research_record": "research/species/179-otus-mayottensis-v2.md",
+      "run_record": "production/runs/20261104T152800+0800-cycle-1.md",
+      "reviewed_at": "2026-11-04T15:40:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2770954,
+      "sha256": "482ff5bebc9d8c2607db6701eefb12f299cf9928419d5b0764ce7b13e0619947",
+      "git_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+      "generated_path": "production/generated/179-otus-mayottensis-v2-generated-master.png",
+      "generated_blob": "eddcdeea02b846b330bb79353c84b6bbf11bc56f",
+      "generated_size_bytes": 3096355,
+      "generated_sha256": "701bbb6b369d8b715542b11748d061f8eb3b7addcb2bb6d010549220e935fbb1",
+      "intermediate_edit_path": "production/generated/179-otus-mayottensis-v2-edit1.png",
+      "intermediate_edit_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+      "reviewed_path": "production/reviewed/179-otus-mayottensis-v2-reviewed-master.png",
+      "reviewed_blob": "bc65717ce8c676b78ba1ec50c461e9e4512515ce",
+      "review_crop_path": "production/review-crops/179-otus-mayottensis-v2-older-immature.png",
+      "review_crop_blob": "7dd74051007079a67ae40ff9b3830a7c94d51528",
+      "review_crop_size_bytes": 732468,
+      "review_crop_sha256": "6cd3a82650401d8cfcb5a9879875d81341b456ca5215133e79a956210654dadf",
+      "auxiliary_review_crop_path": "production/review-crops/179-otus-mayottensis-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "cd01652dade1b640aef9d12ceb256fd3d703f43a",
+      "auxiliary_review_crop_size_bytes": 1356003,
+      "auxiliary_review_crop_sha256": "1360cc16c6bea310f814471dbdced471e2b8f87a1eb2fc55b83050e1d2e5fb41",
+      "archive_note": "Initial full image was opened and rejected for long horn-like tufts and an adult-hard, regularly spotted juvenile wing. One targeted imagegen edit shortened all tufts and compacted/softened only the juvenile wing and tail. Final full plate and two original-detail crops were opened. Science remains false.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": "PENDING"
     }
   ],
-  "updated_at": "2026-11-01T05:19:00+08:00"
+  "updated_at": "2026-11-04T15:40:00+08:00"
 }

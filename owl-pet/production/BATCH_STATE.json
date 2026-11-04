@@ -13934,17 +13934,31 @@
           "species": "Athene brama",
           "species_id": 42,
           "version": 5,
-          "commit_sha": "b4fa08cc3abec1b16f041e8f34b18a0e10147c49",
+          "commit_sha": "dd224fde3527b10b7fbad0d21843142fe36b2a99",
           "archive_commit": "b4fa08cc3abec1b16f041e8f34b18a0e10147c49",
           "run_record": "owl-pet/production/runs/20261105T020900+0800-cycle-4.md",
           "result": "VERIFIED",
-          "verified_at": "2026-11-05T02:17:00+08:00"
+          "verified_at": "2026-11-05T02:17:00+08:00",
+          "verification_commit": "dd224fde3527b10b7fbad0d21843142fe36b2a99"
         }
       ],
       "next_cycle": 5,
-      "active_lease": null,
-      "in_progress": null,
-      "current_stage": "IDLE",
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "20261105T022100+0800-cycle-5",
+        "heartbeat_at": "2026-11-05T02:21:00+08:00",
+        "expires_at": "2026-11-05T02:36:00+08:00",
+        "stage": "STARTED"
+      },
+      "in_progress": {
+        "cycle": 5,
+        "species": "Athene blewitti",
+        "species_id": 43,
+        "version": 5,
+        "run_record": "owl-pet/production/runs/20261105T022100+0800-cycle-5.md",
+        "stage": "STARTED"
+      },
+      "current_stage": "STARTED",
       "events": [
         {
           "at": "2026-11-05T01:31:00+08:00",
@@ -14216,6 +14230,14 @@
             658
           ],
           "note": "Exact paths/blobs/sizes and evidence records read back; batch 4/6, next 5."
+        },
+        {
+          "at": "2026-11-05T02:21:00+08:00",
+          "type": "STARTED",
+          "cycle": 5,
+          "species": "Athene blewitti",
+          "run_id": "20261105T022100+0800-cycle-5",
+          "note": "Cycle 4 verification commit normalized; #43 latest v4 concept is 680x453 while prior reviewed asset is unreliable/size-inconsistent, so create fresh full-resolution v5 after evidence check."
         }
       ]
     }
@@ -14359,7 +14381,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T02:17:00+08:00",
+  "updated_at": "2026-11-05T02:21:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

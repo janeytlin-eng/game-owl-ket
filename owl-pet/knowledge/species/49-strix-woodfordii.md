@@ -79,3 +79,13 @@
 - Passed: exact title/count/labels; dark-eyed untufted adults; subtle female fullness; one age-unknown *nigricantior* juvenile with folded adult-like barred wing/tail, visibly partly downy lower underparts and both feet supported in a tree fork.
 - Files: `design/concepts/49-strix-woodfordii-v4.png`, `production/generated/49-strix-woodfordii-v4-generated-master.png`, `production/reviewed/49-strix-woodfordii-v4-reviewed-master.png`.
 - Verdict: PASS_WITH_LIMITATIONS. The photographed-stage mature-wing exception is visually validated for this plate only. Exact age, movement/flight competence, remex chronology, sexed linear dimensions and transfer beyond *nigricantior* remain unknown; science false.
+
+
+## v5 production correction (2026-11-05)
+
+- Preserves v4 and adds a full-resolution *S. w. nigricantior* concept master.
+- Re-read SANBI institutional development summary and Avibase mapping; added African Bird Club identified-photo metadata and SABAP1 ecology.
+- Adult sexes remain near-equal in standing height; average mass is not converted to a display-height rule.
+- Selected age-unknown later dependent juvenile retains pale-rufous down with short formed folded wing/tail, continuous branch support and no flight claim.
+- First generation's adult-like juvenile wing/tail was edited, then whole-image and crop inspections passed.
+- Evidence: `research/species/49-strix-woodfordii-v5.md`; review: `research/reviews/49-strix-woodfordii-v5-review.md`.

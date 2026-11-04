@@ -20501,7 +20501,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "AWOO-ABC-GALLERY-2018",
         "AWOO-SABAP1-MENDELSOHN-P578-579",
@@ -20529,12 +20529,45 @@
       "juvenile_review_crop": "production/review-crops/49-strix-woodfordii-v5-juvenile.png",
       "juvenile_review_blob": "041878a2620892aee2aa2c6622dbe8df26ca2d72",
       "reviewed_at": "2026-11-05T05:43:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1931567,
       "adults_review_sha256": "30f8996e95ab665f6778a563d21eb029014f47486f7db1d33b6220b1b497b8e7",
       "juvenile_review_size_bytes": 858946,
-      "juvenile_review_sha256": "19e36bbdc46afda7f38322b89ab540b10847812d1e2d160e5fe2518ca9841cd3"
+      "juvenile_review_sha256": "19e36bbdc46afda7f38322b89ab540b10847812d1e2d160e5fe2518ca9841cd3",
+      "archive_commit": "822f0404d0aa0f3d736ff7dfa78b4bb5507e3118",
+      "archive_tree": "fdc38310b2af018521d4102037aaabd43ec75209",
+      "verified_at": "2026-11-05T05:50:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "822f0404d0aa0f3d736ff7dfa78b4bb5507e3118",
+        "tree_sha": "fdc38310b2af018521d4102037aaabd43ec75209",
+        "paths_verified": 13,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/49-strix-woodfordii-v5.png",
+          "blob": "f016b6c7f8c26ec660e41d93933604d3881c4df1",
+          "size_bytes": 2855076
+        },
+        "adult_crop": {
+          "path": "production/review-crops/49-strix-woodfordii-v5-adults.png",
+          "blob": "d53725add711e127eb365a39f6ebcabd0de5e810",
+          "size_bytes": 1931567
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/49-strix-woodfordii-v5-juvenile.png",
+          "blob": "041878a2620892aee2aa2c6622dbe8df26ca2d72",
+          "size_bytes": 858946
+        },
+        "manifest_counts": {
+          "design_image": 674,
+          "design_legacy": 675,
+          "production": 665
+        }
+      },
+      "verification_result": "Exact seven image path/blob tuples, three manifests and three evidence records read back from immutable archive commit."
     }
   ],
-  "updated_at": "2026-11-05T05:45:00+08:00"
+  "updated_at": "2026-11-05T05:50:00+08:00"
 }

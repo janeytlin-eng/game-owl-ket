@@ -86,4 +86,4 @@ Exact title/count/labels; adults dark-eyed, untufted and yellow-billed; near-equ
 
 ## Stage
 
-REVIEWED; one juvenile-wing edit applied and rechecked; archive pending. PASS_WITH_LIMITATIONS; scientifically_verified=false.
+VERIFIED on immutable archive commit `822f0404d0aa0f3d736ff7dfa78b4bb5507e3118`; one juvenile-wing edit applied and rechecked. PASS_WITH_LIMITATIONS; scientifically_verified=false.

@@ -60,3 +60,12 @@ Strict negatives: no extra owl; no ear tufts; no yellow/orange adult eyes; no ex
 ## Remaining uncertainty
 
 Exact chick age, movement, eye/bill ontogeny, feather chronology, and confirmed nest substrate/architecture remain unknown. Production acceptance can be PASS_WITH_LIMITATIONS only; `scientifically_verified=false`.
+
+## Actual image generation and review
+
+- Initial generation: 56.5 s; 1536×1024 original inspected.
+- Issue 1: chick irises were conspicuously amber despite unknown eye ontogeny. Edit 1 (42.4 s) reduced saturation but the 520×700 crop still showed a gold-brown ring.
+- Edit 2 (41.3 s) was restricted to both chick irises and removed all amber/gold, producing near-black neutral charcoal-brown eyes.
+- Final full plate, 1536×700 adult crop and 520×700 chick crop were opened. Title/count/labels, untufted dark-eyed adults, near-equal sex height, dense warm barring, plain hollow ledge, continuous white down and full chick support passed.
+- Result: PASS_WITH_LIMITATIONS; `scientifically_verified=false`. Exact chick age, movement, eye/bill development, feather chronology and nest architecture remain unknown.
+- Review record: `research/reviews/52-strix-hylophila-v5-review.md`.

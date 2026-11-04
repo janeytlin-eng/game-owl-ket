@@ -769,3 +769,12 @@ When a primary field paper documents an older juvenile's body proportions, feath
 
 
 - **Applied and reviewed:** #13 v8 at 2026-11-04T22:47:18+08:00. The first render failed by showing adult-like juvenile remiges; the first edit then failed by retaining a uniformly plush body. A second edit produced a body with emerged contour feathers, retained head down, prominent upper coverts and shorter partly sheathed remiges. Original image plus juvenile/adult crops passed as an evidence-bounded concept with limitations. This validates the quantitative-sheath checklist for detecting and correcting this asset, not exact painted feather measurements or universal timing.
+
+
+## 2026-11-04 — Separate pre-flight branchers from post-fledging poor fliers (#17 v6)
+
+- **Problem found:** “brancher” can collapse two distinct evidence states: a bird that leaves before flight and a newly fledged bird making short, poor flights.
+- **Evidence:** Smith & Devine 2003 printed pp. 98–103 directly observed first flights as short with poor landings, followed by scrambling, clinging and climbing; Cornell separately describes feet-plus-wing climbing at fledging.
+- **Rule added:** name the action state explicitly. For a post-fledging poor flier, formed juvenile remiges are allowed, but show full foot support, failed/poor-landing recovery and no airborne confidence. Do not force every brancher into uniformly incomplete wings.
+- **Applied:** #17 v6 prompt uses the first-days post-fledging state with two-foot branch grip and one balancing half-open wing.
+- **Validation state:** pending image and crop review.

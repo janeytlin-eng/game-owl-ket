@@ -407,3 +407,42 @@
 - Reused the v7 Mikkola pp. 418–420 extract and ADW synthesis; the uploaded guide was not newly accessible in this run.
 - Corrected the v7 evidence state: its `Ligon 1968` item was only an unverified lead. V8 read the original monograph and replaces that lead with `ELWO-LIGON-1968-UMMZ-P34-35`.
 - Source accounting: new verified sources 3; reused sources 2; corrected leads 1.
+
+
+## 2026-11-04 — #17 *Megascops asio* v6 — first-days post-fledging support boundary
+
+### EASO-SMITH-DEVINE-2003-P98-103
+- **Title / authors / year:** “Eastern Screech-Owl Nesting Cycle: Care and Feeding of Young” — Dwight G. Smith and Arnold Devine, 2003.
+- **Source / URL / pages:** *Connecticut Warbler* 23(3); https://ctbirding.org/wp-content/uploads/2017/01/CTWarblerVolume23.pdf ; printed pp. 98–103; accessed 2026-11-04; primary field observations from 16 active nests.
+- **Facts read:** regional fledging chronology; in the first days after fledging young perched in nest/nearby trees; first flights were short and landings poor or misjudged, followed by scrambling, clinging and climbing to upright perch; flight improved within days.
+- **Limits:** Connecticut sample plus literature comparisons; no fine feather plate or exact age for each pictured bird.
+- **Design use:** newly fledged, fully branch-supported juvenile using both feet and a half-open balancing wing after a poor landing; formed but softer/less orderly juvenile remiges are allowed. Links: `research/species/17-megascops-asio-v6.md`; run `production/runs/20261104T225412+0800-cycle-2.md`.
+
+### EASO-CORNELL-LIFE-2026
+- **Institution / URL / accessed:** Cornell Lab; https://www.allaboutbirds.org/guide/Eastern_Screech-Owl/lifehistory ; accessed 2026-11-04.
+- **Facts read:** 26–30 d nestling period; young may first hop to ground or branches and climb with feet plus fluttering wings; cavity/nest-box placement.
+- **Limits:** institutional secondary synthesis, no quantitative feather map.
+- **Design use:** action, support and cavity context.
+
+### EASO-CORNELL-ID-2026
+- **Institution / URL / accessed:** Cornell Lab; https://www.allaboutbirds.org/guide/Eastern_Screech-Owl/id ; accessed 2026-11-04.
+- **Facts read:** northern juveniles fluffy gray and finely barred; adult size/shape, ear tufts, yellow eyes and gray/rufous morph context.
+- **Limits:** photo-identification account; no exact juvenile age.
+- **Design use:** adult identity and juvenile surface pattern.
+
+### EASO-USFS-FEIS-1995
+- **Institution / DOI / accessed:** USDA Forest Service FEIS; 10.2737/feis-species-review-meas; accessed 2026-11-04.
+- **Facts read:** current *Megascops asio*, synonym *Otus asio*; eyes normally open by day 20, flight feathers begin around day 25, nest stay 4–5 weeks.
+- **Limits:** 1995 secondary synthesis.
+- **Design use:** taxonomy and timing cross-check.
+
+### EASO-USGS-KOZLOWSKI-HAHN-2010
+- **Authors / source:** Kozlowski & Hahn 2010, *Wilson Journal of Ornithology* 122:755–761; USGS record https://pubs.usgs.gov/publication/70003571.
+- **Facts read:** primary developmental study included 22–28 d nestlings.
+- **Limits:** hormone study; no plumage inference.
+- **Design use:** stage sampling context only.
+
+### Reuse and correction
+- Reused v5 Mikkola printed pp. 207–209 for adult and mesoptile traits; upload not newly reopened.
+- Corrected v5's approximate 27–30 d “brancher before competent flight” into a first-days post-fledging field-observation boundary: formed wing permitted, but poor landing, clinging and full branch support are mandatory.
+- Source accounting: new verified 5; reused 1; corrected design boundary 1.

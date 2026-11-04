@@ -13127,8 +13127,8 @@
   "lease": {
     "owner": "codex-work",
     "run_id": "20261104T155900+0800-cycle-3",
-    "heartbeat_at": "2026-11-04T15:59:00+08:00",
-    "expires_at": "2026-11-04T16:14:00+08:00"
+    "heartbeat_at": "2026-11-04T16:03:00+08:00",
+    "expires_at": "2026-11-04T16:18:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -16843,11 +16843,40 @@
         "v1_size": 669421,
         "lease_expires_at": "2026-11-04T16:14:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 3,
+      "run_id": "20261104T155900+0800-cycle-3",
+      "species_id": 195,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-04T16:03:00+08:00",
+      "credited": false,
+      "evidence": {
+        "research_file": "owl-pet/research/species/195-otus-brookii-v2.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "source_ids": [
+          "RAJ-GOODDIE-2015-P70-81",
+          "RAJ-MARSHALL-1978-P20",
+          "RAJ-HARTERT-1893-P39-40",
+          "RAJ-ITIS-686780-1063383-2026",
+          "RAJ-MIK2013-P168",
+          "RAJ-BOWMAN2014-JUV"
+        ],
+        "source_delta": {
+          "new": 4,
+          "reused": 2,
+          "corrected": 2
+        },
+        "full_prompt_saved": true,
+        "mikkola_accessible": false,
+        "juvenile_stage": "age-unknown older Sumatran mesoptile; formed soft wing/tail and orange-yellow eyes; exact age/flight unknown"
+      }
     }
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 3,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 3,
   "unique_species_count": 176,
   "total_species": 251

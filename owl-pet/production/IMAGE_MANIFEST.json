@@ -17673,7 +17673,7 @@
       "source_index": "research/SOURCE_INDEX.md",
       "research_record": "research/species/165-ninox-punctulata-v2.md",
       "run_record": "production/runs/20261104T162900+0800-cycle-5.md",
-      "reviewed_at": "2026-11-04T16:37:00+08:00",
+      "reviewed_at": "2026-11-04T16:30:46+08:00",
       "dimensions": "1536x1024",
       "size_bytes": 3204220,
       "sha256": "b16379097a684f1f84729c63a9ac46be5b419a103e2e8de6c6253016f5569920",
@@ -17693,10 +17693,32 @@
       "auxiliary_review_crop_size_bytes": 1401417,
       "auxiliary_review_crop_sha256": "0ab9a457f2231c346430dbfaebed40c070cf770cdf68d1eb9bce1d717cf95ad2",
       "archive_note": "Generated master passed full-image and two original-detail crop review without edit. Adult iris/pattern/feet, near-equal scale and recent-young support passed. Science remains false because exact juvenile age/flight/nest and sex-size data are absent.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": "PENDING_SELF"
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "f62e4e9b9110f297655fd1031b1f84689cf571f3",
+      "fixed_archive_commit": "f62e4e9b9110f297655fd1031b1f84689cf571f3",
+      "verified_at": "2026-11-04T16:34:00+08:00",
+      "verification_commit": "PENDING_SELF",
+      "readback": {
+        "status": "VERIFIED",
+        "method": "immutable archive commit exact path/blob/size in non-truncated recursive tree; three complete manifests parsed; local original full/crop visual inspection",
+        "tree_sha": "814d3315c13006a0b2143dd01da4d91d35488437",
+        "tree_entries": 2686,
+        "recursive_tree_truncated": false,
+        "assets_verified": 5,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/165-ninox-punctulata-v2.png",
+          "blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
+          "size_bytes": 3204220
+        },
+        "manifest_counts": {
+          "design_image": 650,
+          "design_legacy": 651,
+          "production": 641
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-04T16:40:00+08:00"
+  "updated_at": "2026-11-04T16:34:00+08:00"
 }

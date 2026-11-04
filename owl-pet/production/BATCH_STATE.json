@@ -12858,43 +12858,26 @@
           "action": "SCIENCE_REVISION",
           "unique_species_increment": 0,
           "revision_increment": 1
+        },
+        {
+          "cycle": 5,
+          "species": "Ninox punctulata",
+          "species_id": 165,
+          "version": 2,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "PENDING_SELF",
+          "archive_commit": "f62e4e9b9110f297655fd1031b1f84689cf571f3",
+          "run_record": "owl-pet/production/runs/20261104T162900+0800-cycle-5.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-work",
-        "run_id": "20261104T154500+0800-cycle-2",
-        "heartbeat_at": "2026-11-04T15:49:00+08:00",
-        "expires_at": "2026-11-04T16:04:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261104T162900+0800-cycle-5",
-        "heartbeat_at": "2026-11-04T16:40:00+08:00",
-        "expires_at": "2026-11-04T16:55:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 5,
-        "species": "Ninox punctulata",
-        "species_id": 165,
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "run_id": "20261104T162900+0800-cycle-5",
-        "stage": "ARCHIVED",
-        "stage_evidence": {
-          "concept_path": "owl-pet/design/concepts/165-ninox-punctulata-v2.png",
-          "concept_blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
-          "manifest_counts": {
-            "design_image": 650,
-            "design_legacy": 651,
-            "production": 641
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true
-        }
-      },
+      "next_cycle": 6,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
       "last_checkpoint": {
         "cycle": 5,
         "species": "Ninox punctulata",
@@ -12902,9 +12885,15 @@
         "version": 2,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T162900+0800-cycle-5",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "stage_evidence": {
-          "concept_path": "owl-pet/design/concepts/165-ninox-punctulata-v2.png",
+          "verification_commit": "PENDING_SELF",
+          "archive_commit": "f62e4e9b9110f297655fd1031b1f84689cf571f3",
+          "tree_sha": "814d3315c13006a0b2143dd01da4d91d35488437",
+          "tree_count": 2686,
+          "recursive_tree_truncated": false,
+          "paths_verified": 11,
+          "binary_assets_verified": 5,
           "concept_blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
           "manifest_counts": {
             "design_image": 650,
@@ -12913,12 +12902,20 @@
           },
           "unique_species": "176/251",
           "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true
+          "next_cycle": 6,
+          "batch_complete": false,
+          "path_blob_readback": true,
+          "main_head_readback": false,
+          "timestamp_correction": {
+            "generation_commit_at": "2026-11-04T16:29:37+08:00",
+            "review_commit_at": "2026-11-04T16:30:46+08:00",
+            "archive_commit_at": "2026-11-04T16:32:43+08:00",
+            "reason": "authoritative Git commit timestamps replace forward-projected human stage labels"
+          }
         }
       },
-      "last_stage": "ARCHIVED",
-      "updated_at": "2026-11-04T16:40:00+08:00",
+      "last_stage": "VERIFIED",
+      "updated_at": "2026-11-04T16:34:00+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -13199,16 +13196,46 @@
             "scientifically_verified": false,
             "readback_pending": true
           }
+        },
+        {
+          "cycle": 5,
+          "run_id": "20261104T162900+0800-cycle-5",
+          "species": "Ninox punctulata",
+          "stage": "VERIFIED",
+          "at": "2026-11-04T16:34:00+08:00",
+          "credited_cycle": true,
+          "evidence": {
+            "verification_commit": "PENDING_SELF",
+            "archive_commit": "f62e4e9b9110f297655fd1031b1f84689cf571f3",
+            "tree_sha": "814d3315c13006a0b2143dd01da4d91d35488437",
+            "tree_count": 2686,
+            "recursive_tree_truncated": false,
+            "paths_verified": 11,
+            "binary_assets_verified": 5,
+            "concept_blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
+            "manifest_counts": {
+              "design_image": 650,
+              "design_legacy": 651,
+              "production": 641
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "next_cycle": 6,
+            "batch_complete": false,
+            "path_blob_readback": true,
+            "main_head_readback": false,
+            "timestamp_correction": {
+              "generation_commit_at": "2026-11-04T16:29:37+08:00",
+              "review_commit_at": "2026-11-04T16:30:46+08:00",
+              "archive_commit_at": "2026-11-04T16:32:43+08:00",
+              "reason": "authoritative Git commit timestamps replace forward-projected human stage labels"
+            }
+          }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex-work",
-    "run_id": "20261104T162900+0800-cycle-5",
-    "heartbeat_at": "2026-11-04T16:40:00+08:00",
-    "expires_at": "2026-11-04T16:55:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -16975,9 +17002,9 @@
     }
   ],
   "active_batch_id": "20261104T152800+0800",
-  "active_cycle": 5,
-  "current_stage": "ARCHIVED",
-  "next_cycle": 5,
+  "active_cycle": null,
+  "current_stage": "VERIFIED",
+  "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -17382,6 +17409,42 @@
         "revision_increment": 1,
         "scientifically_verified": false,
         "readback_pending": true
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 5,
+      "run_id": "20261104T162900+0800-cycle-5",
+      "species_id": 165,
+      "stage": "VERIFIED",
+      "at": "2026-11-04T16:34:00+08:00",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "PENDING_SELF",
+        "archive_commit": "f62e4e9b9110f297655fd1031b1f84689cf571f3",
+        "tree_sha": "814d3315c13006a0b2143dd01da4d91d35488437",
+        "tree_count": 2686,
+        "recursive_tree_truncated": false,
+        "paths_verified": 11,
+        "binary_assets_verified": 5,
+        "concept_blob": "cfdc9b6c9f597f840399bda7e3b9da64d4cb9c25",
+        "manifest_counts": {
+          "design_image": 650,
+          "design_legacy": 651,
+          "production": 641
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "next_cycle": 6,
+        "batch_complete": false,
+        "path_blob_readback": true,
+        "main_head_readback": false,
+        "timestamp_correction": {
+          "generation_commit_at": "2026-11-04T16:29:37+08:00",
+          "review_commit_at": "2026-11-04T16:30:46+08:00",
+          "archive_commit_at": "2026-11-04T16:32:43+08:00",
+          "reason": "authoritative Git commit timestamps replace forward-projected human stage labels"
+        }
       }
     }
   ]

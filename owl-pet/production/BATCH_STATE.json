@@ -12840,21 +12840,25 @@
           "species": "Otus semitorques",
           "commit_sha": "c4b01f40e061b4df187471fdc67695e9c3382922",
           "run_record": "owl-pet/production/runs/20261104T154500+0800-cycle-2.md"
+        },
+        {
+          "cycle": 3,
+          "species": "Otus brookii solokensis",
+          "commit_sha": "PENDING_SELF",
+          "run_record": "owl-pet/production/runs/20261104T155900+0800-cycle-3.md",
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1
         }
       ],
-      "next_cycle": 3,
+      "next_cycle": 4,
       "active_lease": {
         "owner": "codex-work",
         "run_id": "20261104T154500+0800-cycle-2",
         "heartbeat_at": "2026-11-04T15:49:00+08:00",
         "expires_at": "2026-11-04T16:04:00+08:00"
       },
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261104T155900+0800-cycle-3",
-        "heartbeat_at": "2026-11-04T16:10:00+08:00",
-        "expires_at": "2026-11-04T16:25:00+08:00"
-      },
+      "lease": null,
       "in_progress": {
         "cycle": 2,
         "species": "Otus semitorques",
@@ -16896,9 +16900,9 @@
     }
   ],
   "active_batch_id": "20261104T152800+0800",
-  "active_cycle": 3,
-  "current_stage": "ARCHIVED",
-  "next_cycle": 3,
+  "active_cycle": null,
+  "current_stage": "VERIFIED",
+  "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -16965,6 +16969,36 @@
         "revision_increment": 1,
         "scientifically_verified": false,
         "readback_pending": true
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 3,
+      "run_id": "20261104T155900+0800-cycle-3",
+      "species_id": 195,
+      "stage": "VERIFIED",
+      "at": "2026-11-04T16:12:00+08:00",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "PENDING_SELF",
+        "archive_commit": "55fd0c2c89202e42a91a0222d67b105e82a59b3d",
+        "tree_sha": "8d916f364cd61b23edc79d7c476c287559076b28",
+        "tree_count": 2672,
+        "recursive_tree_truncated": false,
+        "paths_verified": 12,
+        "binary_assets_verified": 6,
+        "concept_blob": "546567292cb69c07e98243248a6125df5fd37d50",
+        "manifest_counts": {
+          "design_image": 648,
+          "design_legacy": 649,
+          "production": 639
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "next_cycle": 4,
+        "batch_complete": false,
+        "path_blob_readback": true,
+        "main_head_readback": false
       }
     }
   ]

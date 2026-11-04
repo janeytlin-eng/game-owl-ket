@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:10:00+08:00",
+  "updated": "2026-11-04T16:12:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -17537,10 +17537,32 @@
       "auxiliary_review_crop_size_bytes": 1383472,
       "auxiliary_review_crop_sha256": "2ec576256d1482c99d3ebabfc1cfbb3ca059ca46a940a196d254ad9cb94eb5a3",
       "archive_note": "Initial full image was opened and rejected for adult-hard long juvenile wing and exaggerated ear tufts. One targeted imagegen edit shortened/softened juvenile wing/tail, reduced tufts and exposed toe-base feathering. Final full plate and two original-detail crops were opened. Science remains false.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": "PENDING_SELF"
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "55fd0c2c89202e42a91a0222d67b105e82a59b3d",
+      "fixed_archive_commit": "55fd0c2c89202e42a91a0222d67b105e82a59b3d",
+      "verified_at": "2026-11-04T16:12:00+08:00",
+      "verification_commit": "PENDING_SELF",
+      "readback": {
+        "status": "VERIFIED",
+        "method": "immutable archive commit exact path/blob/size in non-truncated recursive tree; three complete manifests parsed; local original full/crop visual inspection",
+        "tree_sha": "8d916f364cd61b23edc79d7c476c287559076b28",
+        "tree_entries": 2672,
+        "recursive_tree_truncated": false,
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/195-otus-brookii-v2.png",
+          "blob": "546567292cb69c07e98243248a6125df5fd37d50",
+          "size_bytes": 3054049
+        },
+        "manifest_counts": {
+          "design_image": 648,
+          "design_legacy": 649,
+          "production": 639
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-04T16:10:00+08:00"
+  "updated_at": "2026-11-04T16:12:00+08:00"
 }

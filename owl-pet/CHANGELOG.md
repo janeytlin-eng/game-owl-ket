@@ -1,3 +1,4 @@
+- 2026-11-04T16:12:00+08:00: #195 *Otus brookii solokensis* v2 VERIFIED at `PENDING_SELF`; immutable archive `55fd0c2c89202e42a91a0222d67b105e82a59b3d`, non-truncated tree and exact six image tuples passed; manifests 648/649/639; batch3/6 next4; unique176/251; science false.
 - 2026-11-04T16:10:00+08:00: #195 *Otus brookii solokensis* v2 ARCHIVED pending immutable readback. New4/reused2/corrected2 sources; one juvenile-wing/tuft edit; manifests 648/649/639; unique176/251; science false.
 - 2026-10-31T21:56:00+08:00: #141 *Otus magicus* v3 VERIFIED at `ebdcc3e94360e0576f41c4556954ed22dc64a469`; exact six tuples and manifests 624/625/615 passed. Batch3/6 next4; unique175/251; science false.
 - 2026-10-31T21:54:00+08:00: #141 *Otus magicus* v3 ARCHIVED pending readback; one juvenile-wing edit; manifests 624/625/615; unique175/251; science false.

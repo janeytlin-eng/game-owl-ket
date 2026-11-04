@@ -564,3 +564,24 @@
 - Corrected boundary: v4's 11-day “mostly white natal down” claim depended on a non-peer-reviewed account and is not retained. V5 uses the original 1980 species-specific photographed approximately one-week stage.
 - Unknown: exact day within “about one week,” individual/population variance, eye-opening timing, blood-quill count/length, quantified sex-size ratio, universal cavity geometry and continuous daily feather chronology.
 - Source accounting: new verified 2; reused 4; corrected 1 major age/plumage boundary.
+
+
+## 2026-11-05 — #24 *Glaucidium californicum* v4 — recently fledged dependency boundary
+
+### NPO-DESHLER-MURPHY-2012-CONDOR-P314-322
+- **Title / authors / year:** *The Breeding Biology of the Northern Pygmy Owl: Do the Smallest of the Small Have an Advantage?* — John F. Deshler & Michael T. Murphy, 2012.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.1525/cond.2012.100140 ; https://academic.oup.com/condor/article/114/2/314/5152768 ; primary breeding study, *The Condor* 114(2):314–322; accessed 2026-11-05.
+- **Scope / facts:** 24 initial nests in northwestern Oregon, 2007–2009. Incubation about 30 d; nestling period averaged 27 d; broods left over 2.3±0.2 d (range 1.5–5). Small females sometimes bred earlier and fledged more young; the paper does not justify converting body-size patterns into a fixed standing-height ratio.
+- **Limits / use:** paper uses broad *Glaucidium gnoma* and does not publish a daily plumage series. It supports a recently fledged, still-dependent stage and cautions against simplistic “larger female” display claims, not exact juvenile feather geometry.
+
+### NPO-MACAULAY-588486171-2023
+- **Institution / record / date:** Cornell Lab Macaulay Library ML588486171, John Patterson field video, 23 June 2023.
+- **URL / type / accessed:** https://macaulaylibrary.org/asset/588486171 ; institutional field media with observer notes; accessed 2026-11-05.
+- **Facts / use:** two fledglings outside a known cavity; one was a less able flyer, perched in spruce, moved outward on the branch, received food from adults and then flew. Supports branch grip, parental dependence and limited but real post-fledging movement.
+- **Limits:** hatch date, exact age, sex and plumage measurements are not supplied; do not label an exact day or depict independent hunting.
+
+### Reuse and correction
+- Reused `NPO-FRYE-JAGEMAN-2012-WJO` (16 nesting attempts; adults attended broods for weeks; earliest observed hunting 9 d postfledging), `NPO-CORNELL-ID-2026`, and `NPO-CORNELL-OVERVIEW-2026`.
+- V4 drops v3's over-precise visual implication that a nine-day post-fledging plumage is directly described; it keeps only the evidenced dependency/action boundary and labels the visual as a conservative recently fledged inference.
+- Unknown: exact individual age/post-fledging day, regional juvenile spotting/tail-growth curve, iris transition, flight performance, modern species-limit mapping of broad *G. gnoma* studies and quantified sex-specific linear dimensions.
+- Source accounting: new verified 2; reused 3; corrected 1 evidence/visual boundary.

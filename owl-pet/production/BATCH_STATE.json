@@ -14461,9 +14461,9 @@
         "batch_id": "20261105T033723+0800",
         "cycle": 6,
         "species_id": 50,
-        "heartbeat_at": "2026-11-05T06:08:00+08:00",
-        "expires_at": "2026-11-05T06:23:00+08:00",
-        "stage": "REVIEWED"
+        "heartbeat_at": "2026-11-05T06:12:00+08:00",
+        "expires_at": "2026-11-05T06:27:00+08:00",
+        "stage": "ARCHIVED"
       },
       "in_progress": {
         "batch_id": "20261105T033723+0800",
@@ -14473,12 +14473,12 @@
         "species": "Strix virgata",
         "version": 5,
         "action": "REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "started_at": "2026-11-05T05:55:00+08:00",
         "baseline_commit": "1f96f48f0807a3ee0a12162fb32c88f8a4dec35c",
         "prior_version": "owl-pet/design/concepts/50-strix-virgata-v4.png",
-        "heartbeat_at": "2026-11-05T06:08:00+08:00",
-        "expires_at": "2026-11-05T06:23:00+08:00"
+        "heartbeat_at": "2026-11-05T06:12:00+08:00",
+        "expires_at": "2026-11-05T06:27:00+08:00"
       },
       "current_stage": "STARTED",
       "events": [
@@ -15216,9 +15216,9 @@
     "batch_id": "20261105T033723+0800",
     "cycle": 6,
     "species_id": 50,
-    "heartbeat_at": "2026-11-05T06:08:00+08:00",
-    "expires_at": "2026-11-05T06:23:00+08:00",
-    "stage": "REVIEWED"
+    "heartbeat_at": "2026-11-05T06:12:00+08:00",
+    "expires_at": "2026-11-05T06:27:00+08:00",
+    "stage": "ARCHIVED"
   },
   "last_updated_at": "2026-11-05T05:55:00+08:00",
   "audit_notes": [
@@ -15989,12 +15989,12 @@
     "species": "Strix virgata",
     "version": 5,
     "action": "REVISION",
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "started_at": "2026-11-05T05:55:00+08:00",
     "baseline_commit": "1f96f48f0807a3ee0a12162fb32c88f8a4dec35c",
     "prior_version": "owl-pet/design/concepts/50-strix-virgata-v4.png",
-    "heartbeat_at": "2026-11-05T06:08:00+08:00",
-    "expires_at": "2026-11-05T06:23:00+08:00"
+    "heartbeat_at": "2026-11-05T06:12:00+08:00",
+    "expires_at": "2026-11-05T06:27:00+08:00"
   },
   "previous_checkpoint": {
     "batch_id": "20261105T033723+0800",
@@ -21800,6 +21800,34 @@
         "juvenile_crop_blob": "832a52d55cf695f184a685347edfa2a7caa25d1d",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-05T06:23:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261105T033723+0800",
+      "cycle": 6,
+      "stage": "ARCHIVED",
+      "at": "2026-11-05T06:12:00+08:00",
+      "run_id": "20261105T055500+0800-cycle-6",
+      "species_id": 50,
+      "credited": false,
+      "evidence": {
+        "version": 5,
+        "concept_blob": "3b00d08a6b763d0882e32e0bce0a6c4bea1e03e0",
+        "reviewed_blob": "3b00d08a6b763d0882e32e0bce0a6c4bea1e03e0",
+        "adult_crop_blob": "2c661b1562599644f486f242e8d17bcaa4fbe10a",
+        "juvenile_crop_blob": "832a52d55cf695f184a685347edfa2a7caa25d1d",
+        "archive_commit": "089c38005e951d7c190424f7b926035df735b198",
+        "archive_tree": "8a113b217f9d4034e47f367d788e22fc00b76f73",
+        "manifest_counts": {
+          "design_image": 675,
+          "design_legacy": 676,
+          "production": 666
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-05T06:27:00+08:00"
       }
     }
   ],

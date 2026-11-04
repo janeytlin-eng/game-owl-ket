@@ -753,3 +753,6 @@ A report that recently fledged young occur in a month supports only a broad bree
 - **Rule added:** before revising a recovered asset, render the actual pixels at original resolution. If corrupt, classify the work as archive repair plus science revision, retain the failed version, and generate a complete replacement. For partial-specimen evidence, transfer only observed traits and keep pose/age as explicit inference.
 - **Applied:** #156 v3 rebuilt the whole plate; the young is labeled older and age-unknown, fully cavity-supported, with white/isabelline down and black bill.
 - **Verified in this cycle:** complete master and two crops passed pixel-completeness, title, limb/support, adult identity and juvenile-wing checks without an edit. This validates the recovery check for #156 only.
+
+### Evidence rule — prefer the best documented action-capable juvenile stage
+When a primary field paper documents an older juvenile's body proportions, feather generation, supported perch and actual flight, prefer that stage over a less-specific captive downy bird. Preserve the paper's age estimate as an estimate, do not invent a nest, and allow formed remiges when flight and adult-like wing pattern are explicitly observed. Applied to #155 v3 on 2026-11-04; validation remains pending until image review.

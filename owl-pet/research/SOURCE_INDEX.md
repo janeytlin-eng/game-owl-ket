@@ -1,5 +1,3 @@
-undefined
-
 ## 2026-11-04 — #195 *Otus brookii solokensis* v2 — nest, specimen and juvenile boundary
 
 ### RAJ-GOODDIE-2015-P70-81
@@ -334,3 +332,47 @@ undefined
 - Exact nestling age, full body feather map, iris, flight threshold and quantified sex ratio remain unknown. The display therefore uses an older age-unknown, fully cavity-supported downy nestling.
 - The user-uploaded Mikkola guide was not accessible in this run; no page claim was taken from it.
 - Links: `research/species/156-scotopelia-peli-v3.md`; `production/runs/20261104T214445+0800-cycle-5.md`; planned concept `design/concepts/156-scotopelia-peli-v3.png`.
+
+## 2026-11-04 — #155 *Scotopelia ussheri* v3 — field-documented flying juvenile and adult separation
+
+### RFO-MONTICELLI-KOROMA-BANNAH-2015-P183-188
+- **Title / authors / year:** *Observations of Rufous Fishing Owl Scotopelia ussheri in Sierra Leone* — David Monticelli, Alusein P. Koroma & Denis Bannah, 2015.
+- **URL:** https://www.researchgate.net/publication/281632427_Observations_of_Rufous_Fishing_Owl_Scotopelia_ussheri_in_Sierra_Leone
+- **Type / accessed:** primary field observations with photographs; accessed 2026-11-04.
+- **Scope / pages / figures:** adults and juvenile/immature; Bulletin of the African Bird Club 22(2), printed pp.183–188, especially pp.185–188 and Figs.1, 3–5.
+- **Facts:** adult observed on raffia palm over a narrow slow river channel; upperparts are plain/mixed rufous, creamy-buff and white rather than uniformly finely barred; underparts finely dark-shaft streaked; bill bluish-grey with yellowish cere; unfeathered tarsi and toes yellowish-orange. The photographed juvenile was substantially smaller and stubbier, fluffier and slightly paler, had loose first-generation feathers, flew twice, and showed virtually adult-like uniformly dusky-barred rufous wings. Authors estimated 4–5 months if the assumed laying period is correct.
+- **Limits / confidence:** high confidence for the photographed individual and behaviour; age is explicitly an inference, not a known hatch date; no sex-specific measurements and no nest description.
+- **Design use:** center a smaller, stubby, pale-rufous, loose-feathered older juvenile with formed barred wings, natural two-foot branch grip and no helpless-chick pose; do not invent a nest. Adults remain near-equal because sex direction is unsupported.
+- **Links:** `research/species/155-scotopelia-ussheri-v3.md`; concept v3; run `owl-pet/production/runs/20261104T220156+0800-cycle-6.md`.
+
+### RFO-KOPPETSCH-BOHME-2022-P97-98
+- **Title / authors / year:** *Juvenile Rufous Fishing Owl Scotopelia ussheri in Guinea* — Thore Koppetsch & Wolfgang Böhme, 2022.
+- **URL:** https://www.researchgate.net/publication/359798544_Juvenile_Rufous_Fishing_Owl_Scotopelia_ussheri_in_Guinea
+- **Type / accessed:** photographic historical record; accessed 2026-11-04.
+- **Scope / pages / figures:** one captive juvenile photographed 6 October 1993 and again six months later; Bulletin of the African Bird Club 29(1), printed pp.97–98, Figs.1–3.
+- **Facts:** first photographs showed whitish downy plumage; the same individual had adult plumage six months later. The paper distinguishes this young downy stage from Monticelli et al.'s free-living pale-rufous juvenile.
+- **Limits / confidence:** exact age at capture, locomotor capacity and intervening feather chronology are unknown; captive setting is not nest evidence.
+- **Design use:** cross-check that pale/whitish juvenile stages exist, but use the better-behaviour-documented Monticelli older juvenile for v3 rather than inventing a downy nestling.
+
+### RFO-IUCN-BIRDLIFE-2021-ID-ECOLOGY
+- **Title / institution / year:** *Scotopelia ussheri — Rufous Fishing-owl* — BirdLife International / IUCN Red List, assessed 2021.
+- **URL / DOI:** https://doi.org/10.2305/IUCN.UK.2021-3.RLTS.T22689038A180213988.en
+- **Type / accessed:** institutional assessment; accessed 2026-11-04.
+- **Scope / section:** Identification; Habitat and Ecology.
+- **Facts:** 46–51 cm, large orange owl, dark eyes, no ear tufts, uniform orangey-brown upperparts, paler buff finely streaked underparts; smaller and less uniformly barred above than *S. peli*. Preferred habitats are riverine rainforest and mangroves, including small shady streams and gallery forest; overhanging branches serve as fishing posts.
+- **Limits / confidence:** synthesis rather than primary developmental research; no sex-specific size or juvenile chronology.
+- **Design use:** adult silhouette/colour and shaded gallery-river setting; avoid Pel's Fishing Owl's uniformly barred upperparts.
+
+### RFO-GBIF-COL-4VY2L-2026
+- **Title / institution / accessed:** *Scotopelia ussheri* taxon record — GBIF / Catalogue of Life, accessed 2026-11-04.
+- **URL:** https://www.gbif.org/taxon/4VY2L
+- **Type / scope:** current taxonomic mapping.
+- **Fact:** accepted *Scotopelia ussheri* Sharpe, 1871; equivalent historical combination *Bubo ussheri*.
+- **Limits:** taxonomy only; no morphology or development.
+- **Design use:** current/old-name mapping, not a visual source.
+
+### Reused evidence, correction and unresolved items
+- Reused existing v2 concept only as a style/composition reference; no existing dedicated #155 source entry was present in the current persistent index.
+- Correction: v2's age-unknown whitish downy juvenile is not the strongest available action-capable stage. V3 uses the primary-paper's free-living, flying, estimated 4–5-month pale-rufous juvenile and explicitly keeps the age estimate uncertain.
+- Still unknown: sex-specific size direction, exact hatch date, continuous feather sequence, universal first-flight timing, nest site/material, and how broadly one individual's wing pattern transfers.
+- The uploaded Heimo Mikkola file was not accessible in this run; no new Mikkola page claim was made.

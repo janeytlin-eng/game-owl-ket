@@ -19720,9 +19720,50 @@
       "juvenile_review_crop": "production/review-crops/24-glaucidium-californicum-v4-juvenile.png",
       "juvenile_review_blob": "03835e3ae3c0af68845edfb56316f9565fd3ef68",
       "reviewed_at": "2026-11-05T01:48:00+08:00",
-      "archive_commit": null,
-      "readback_pending": true
+      "archive_commit": "30c71b67ca2b89443faf1bc44489cc693f41620b",
+      "readback_pending": false,
+      "verified_at": "2026-11-05T01:52:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "30c71b67ca2b89443faf1bc44489cc693f41620b",
+        "tree_sha": "895d6e60754cdb04e17b32262598d4b78793d33e",
+        "concept": {
+          "path": "design/concepts/24-glaucidium-californicum-v4.png",
+          "blob": "b01221f019feee1f1db1fd4049ecd403263a9a9b",
+          "size_bytes": 3020880
+        },
+        "generated": {
+          "path": "production/generated/24-glaucidium-californicum-v4-generated-master.png",
+          "blob": "b01221f019feee1f1db1fd4049ecd403263a9a9b",
+          "size_bytes": 3020880
+        },
+        "reviewed": {
+          "path": "production/reviewed/24-glaucidium-californicum-v4-reviewed-master.png",
+          "blob": "b01221f019feee1f1db1fd4049ecd403263a9a9b",
+          "size_bytes": 3020880
+        },
+        "adults_crop": {
+          "path": "production/review-crops/24-glaucidium-californicum-v4-adults.png",
+          "blob": "f791f752d4f1076e1fcdfc2983c35026d9983a6b",
+          "size_bytes": 232986
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/24-glaucidium-californicum-v4-juvenile.png",
+          "blob": "03835e3ae3c0af68845edfb56316f9565fd3ef68",
+          "size_bytes": 76886
+        },
+        "source_index_blob": "5f4acbdc1c6c9d629f3fc07d63562ce8df427466",
+        "research_blob": "82460956f61e03ad5b5507f14ac8b600e86b3ac7",
+        "review_blob": "87753d352054c85b3b2690ae969bba34ab41ba79",
+        "run_blob": "1dd62a391afff1fc16df26234ea3af11ff0f3ece",
+        "manifest_counts": {
+          "design_image_manifest": 665,
+          "design_manifest": 666,
+          "production_image_manifest": 656
+        }
+      },
+      "verification_result": "Exact seven image path/blob/size tuples and all evidence records read back from non-truncated immutable tree."
     }
   ],
-  "updated_at": "2026-11-05T01:50:00+08:00"
+  "updated_at": "2026-11-05T01:52:00+08:00"
 }

@@ -2912,3 +2912,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/9616cf4ad2f0353b5b0f2302b6884f2d5781f57b/owl-pet/design/concepts/23-psiloscops-flammeolus-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/9616cf4ad2f0353b5b0f2302b6884f2d5781f57b) · [research](../research/species/23-psiloscops-flammeolus-v5.md) · [review](../research/reviews/23-psiloscops-flammeolus-v5-review.md) · [run](../production/runs/20261105T013100+0800-cycle-1.md)
 - V5 restores a full 1536×1024 master and corrects the former 11-day mostly-white claim to a primary-paper photographed approximately one-week stage. One targeted edit shortened overlong exposed quills; full and crops reopened. PASS_WITH_LIMITATIONS; science false; unique 176/251; batch 1/6, next 2.
+
+
+## #24 Northern Pygmy-Owl — *Glaucidium californicum* — v4 VERIFIED
+
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/30c71b67ca2b89443faf1bc44489cc693f41620b/owl-pet/design/concepts/24-glaucidium-californicum-v4.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/30c71b67ca2b89443faf1bc44489cc693f41620b) · [research](../research/species/24-glaucidium-californicum-v4.md) · [review](../research/reviews/24-glaucidium-californicum-v4-review.md) · [run](../production/runs/20261105T014100+0800-cycle-2.md)
+- V4 restores 1536×1024 and corrects the juvenile's adult-like wing/tail after one edit. Recently fledged dependency is evidence-backed, exact day/plumage remains unknown. PASS_WITH_LIMITATIONS; science false; unique 176/251; batch 2/6 next 3.

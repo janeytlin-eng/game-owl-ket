@@ -14450,9 +14450,9 @@
         "batch_id": "20261105T033723+0800",
         "cycle": 5,
         "species_id": 49,
-        "heartbeat_at": "2026-11-05T05:36:00+08:00",
-        "expires_at": "2026-11-05T05:51:00+08:00",
-        "stage": "RESEARCH_READY"
+        "heartbeat_at": "2026-11-05T05:40:00+08:00",
+        "expires_at": "2026-11-05T05:55:00+08:00",
+        "stage": "IMAGE_GENERATED"
       },
       "in_progress": {
         "batch_id": "20261105T033723+0800",
@@ -14462,12 +14462,12 @@
         "species": "Strix woodfordii",
         "version": 5,
         "action": "REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "started_at": "2026-11-05T05:29:00+08:00",
         "baseline_commit": "9edf9473f14569eab3218e3ce4d1fa8c1e01e5d5",
         "prior_version": "owl-pet/design/concepts/49-strix-woodfordii-v4.png",
-        "heartbeat_at": "2026-11-05T05:36:00+08:00",
-        "expires_at": "2026-11-05T05:51:00+08:00"
+        "heartbeat_at": "2026-11-05T05:40:00+08:00",
+        "expires_at": "2026-11-05T05:55:00+08:00"
       },
       "current_stage": "STARTED",
       "events": [
@@ -15165,9 +15165,9 @@
     "batch_id": "20261105T033723+0800",
     "cycle": 5,
     "species_id": 49,
-    "heartbeat_at": "2026-11-05T05:36:00+08:00",
-    "expires_at": "2026-11-05T05:51:00+08:00",
-    "stage": "RESEARCH_READY"
+    "heartbeat_at": "2026-11-05T05:40:00+08:00",
+    "expires_at": "2026-11-05T05:55:00+08:00",
+    "stage": "IMAGE_GENERATED"
   },
   "last_updated_at": "2026-11-05T05:29:00+08:00",
   "audit_notes": [
@@ -15938,12 +15938,12 @@
     "species": "Strix woodfordii",
     "version": 5,
     "action": "REVISION",
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "started_at": "2026-11-05T05:29:00+08:00",
     "baseline_commit": "9edf9473f14569eab3218e3ce4d1fa8c1e01e5d5",
     "prior_version": "owl-pet/design/concepts/49-strix-woodfordii-v4.png",
-    "heartbeat_at": "2026-11-05T05:36:00+08:00",
-    "expires_at": "2026-11-05T05:51:00+08:00"
+    "heartbeat_at": "2026-11-05T05:40:00+08:00",
+    "expires_at": "2026-11-05T05:55:00+08:00"
   },
   "previous_checkpoint": {
     "batch_id": "20261105T033723+0800",
@@ -21570,6 +21570,27 @@
         "full_prompt_saved": true,
         "mikkola_upload_accessible": false,
         "lease_expires_at": "2026-11-05T05:51:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261105T033723+0800",
+      "cycle": 5,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-05T05:40:00+08:00",
+      "run_id": "20261105T052900+0800-cycle-5",
+      "species_id": 49,
+      "credited": false,
+      "evidence": {
+        "generated_path": "owl-pet/production/generated/49-strix-woodfordii-v5-generated-master.png",
+        "generated_blob": "f016b6c7f8c26ec660e41d93933604d3881c4df1",
+        "dimensions": "1536x1024",
+        "bytes": 2855076,
+        "sha256": "047d9b355050b1f4e782907bccbc6bcfaca28f6b76a676a64af20c392ccdb7a5",
+        "generation_seconds": 42.8,
+        "edit_seconds": 54.9,
+        "edit_count": 1,
+        "complete_prompt": "owl-pet/research/species/49-strix-woodfordii-v5.md",
+        "lease_expires_at": "2026-11-05T05:55:00+08:00"
       }
     }
   ],

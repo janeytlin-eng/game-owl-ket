@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T15:54:00+08:00",
+  "updated": "2026-11-04T15:57:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18139,10 +18139,32 @@
       "auxiliary_review_crop_size_bytes": 1285148,
       "auxiliary_review_crop_sha256": "901fb9c7fb712bae0f99522d3acd9bef5fcac3fed5373423b0c0fa10a619bb4f",
       "archive_note": "Initial full image was opened and rejected for adult-hard layered juvenile remiges. One targeted imagegen edit shortened/softened only the juvenile wing and tail. Final full plate and two original-detail crops were opened. Science remains false.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": "PENDING_SELF"
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "9f8418716ea10c1c05d6c0ec82d6d10833cca0fc",
+      "fixed_archive_commit": "9f8418716ea10c1c05d6c0ec82d6d10833cca0fc",
+      "verified_at": "2026-11-04T15:57:00+08:00",
+      "verification_commit": "PENDING_SELF",
+      "readback": {
+        "status": "VERIFIED",
+        "method": "immutable archive commit exact path/blob/size in non-truncated recursive tree; three complete manifests parsed; local original full/crop visual inspection",
+        "tree_sha": "01558f9a45514190e634ffb821b724ddc5fc59aa",
+        "tree_entries": 2664,
+        "recursive_tree_truncated": false,
+        "assets_verified": 6,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/188-otus-semitorques-v2.png",
+          "blob": "4577abe45b41d0d59bc7311b4edb03f79b4c981e",
+          "size_bytes": 2915135
+        },
+        "manifest_counts": {
+          "design_image": 647,
+          "design_legacy": 648,
+          "production": 638
+        }
+      }
     }
   ],
-  "updated_at": "2026-11-04T15:54:00+08:00"
+  "updated_at": "2026-11-04T15:57:00+08:00"
 }

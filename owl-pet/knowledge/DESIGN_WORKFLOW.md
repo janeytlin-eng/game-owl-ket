@@ -817,3 +817,5 @@ When a prior concept's precise age/plumage claim conflicts with a primary paper'
 ### Separate post-fledging behavior evidence from exact plumage claims (#24 v4)
 
 A study reporting hunting, parental attendance or movement at a known post-fledging day does not automatically describe the bird's exact wing/tail pattern that day. Combine behavioral studies with stage-bounded field media, label any remaining plumage as conservative inference, and keep exact day unknown when the image record lacks a hatch date. Applied on #24 v4: the first juvenile wing/tail looked adult-patterned, then one targeted edit softened the wing and shortened/partly hid the tail; full/crops were reopened. This validates the visual correction only, not a universal tail-growth curve.
+
+- **Documented colour-morph pairs are individual evidence, not sex rules.** When a field record documents one brown male with one rufous female, preserve the trace only if useful, state that it is not universal, and keep sex size independent unless measured. Applied and crop-checked on #41 v5; juvenile iris was separately corrected to an unknown boundary.

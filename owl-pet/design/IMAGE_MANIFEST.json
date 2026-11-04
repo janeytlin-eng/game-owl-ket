@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-05T02:03:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19763,7 +19763,52 @@
         }
       },
       "verification_result": "Exact seven image path/blob/size tuples and all evidence records read back from non-truncated immutable tree."
+    },
+    {
+      "id": "41-glaucidium-cobanense-v5",
+      "path": "design/concepts/41-glaucidium-cobanense-v5.png",
+      "species_id": 41,
+      "scientific_name": "Glaucidium cobanense",
+      "common_name": "Guatemalan Pygmy-Owl",
+      "historical_names": [
+        "Glaucidium gnoma cobanense"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "Full-resolution v5 preserves the documented Chelemhá mixed-morph pair as an individual trace rather than a sex-linked rule. Adults remain near-equal in visible scale. The age-unknown brown-morph juvenile is cavity-lip supported with grayish crown, soft compact folded wing and hidden short tail; one targeted edit replaced unsupported bright yellow juvenile irises with muted age-indeterminate dark irises. Exact age, iris and feather chronology, flight threshold, sex metrics and universal nest geometry remain unknown.",
+      "source_ids": [
+        "GUPO-HOWELL-EISERMANN-2011-P74-76",
+        "GUPO-BSG-NATURAL-HISTORY-2026",
+        "GUPO-AOS-NACC-2013A"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-05--41-glaucidium-cobanense-v5--documented-pair-morph-and-age-unknown-juvenile-boundary",
+      "research_record": "research/species/41-glaucidium-cobanense-v5.md",
+      "review_record": "research/reviews/41-glaucidium-cobanense-v5-review.md",
+      "run_record": "production/runs/20261105T015400+0800-cycle-3.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3159806,
+      "git_blob": "dc4fedf94bc7160fdc1500268b5d60fbeb1ee30b",
+      "generated_path": "production/generated/41-glaucidium-cobanense-v5-generated-master.png",
+      "generated_blob": "dc4fedf94bc7160fdc1500268b5d60fbeb1ee30b",
+      "reviewed_path": "production/reviewed/41-glaucidium-cobanense-v5-reviewed-master.png",
+      "reviewed_blob": "dc4fedf94bc7160fdc1500268b5d60fbeb1ee30b",
+      "adults_review_crop": "production/review-crops/41-glaucidium-cobanense-v5-adults.png",
+      "adults_review_blob": "53842c2115e7210453ebcd031537f6a51a3fa836",
+      "juvenile_review_crop": "production/review-crops/41-glaucidium-cobanense-v5-juvenile.png",
+      "juvenile_review_blob": "bad1419b36797a90b5b6c53620c75dfa9e3b77c8",
+      "reviewed_at": "2026-11-05T01:59:00+08:00",
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-11-05T01:52:00+08:00"
+  "updated_at": "2026-11-05T02:03:00+08:00"
 }

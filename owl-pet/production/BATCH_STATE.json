@@ -14414,9 +14414,9 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261105T040500+0800-cycle-2",
-        "heartbeat_at": "2026-11-05T04:05:00+08:00",
-        "expires_at": "2026-11-05T04:20:00+08:00",
-        "stage": "STARTED"
+        "heartbeat_at": "2026-11-05T04:10:00+08:00",
+        "expires_at": "2026-11-05T04:25:00+08:00",
+        "stage": "RESEARCH_READY"
       },
       "in_progress": {
         "cycle": 2,
@@ -14425,9 +14425,9 @@
         "version": 4,
         "action": "REVISION",
         "run_record": "owl-pet/production/runs/20261105T040500+0800-cycle-2.md",
-        "stage": "STARTED"
+        "stage": "RESEARCH_READY"
       },
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "events": [
         {
           "cycle": 1,
@@ -14568,6 +14568,32 @@
             "baseline_commit": "66ddff12d7b1a67e353ebb0196fd0baac4175b98",
             "prior_version": "owl-pet/design/concepts/46-strix-ocellata-v3.png",
             "lease_expires_at": "2026-11-05T04:20:00+08:00"
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-05T04:10:00+08:00",
+          "run_id": "20261105T040500+0800-cycle-2",
+          "species_id": 46,
+          "credited": false,
+          "evidence": {
+            "source_ids": [
+              "MOWL-ELA-FACTFILE-2012",
+              "MOWL-DESHPANDE-WOC-2022",
+              "MOWL-PANDE-JRR-2018",
+              "MOWL-OWLPAGES-ID-2020",
+              "MOWL-PEREGRINE-2026",
+              "MOWL-MIKKOLA-2013-P324-325"
+            ],
+            "new_sources": 1,
+            "reused_sources": 5,
+            "corrected_sources": 2,
+            "species_card": "owl-pet/research/species/46-strix-ocellata-v4.md",
+            "full_prompt_saved": true,
+            "orphaned_checkpoint_reused": true,
+            "mikkola_upload_accessible": false,
+            "lease_expires_at": "2026-11-05T04:25:00+08:00"
           }
         }
       ]
@@ -14712,7 +14738,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T04:05:00+08:00",
+  "updated_at": "2026-11-05T04:10:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

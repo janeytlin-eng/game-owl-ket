@@ -12851,9 +12851,9 @@
       },
       "lease": {
         "owner": "codex-work",
-        "run_id": "20261104T154500+0800-cycle-2",
-        "heartbeat_at": "2026-11-04T15:49:00+08:00",
-        "expires_at": "2026-11-04T16:04:00+08:00"
+        "run_id": "20261104T155900+0800-cycle-3",
+        "heartbeat_at": "2026-11-04T16:08:00+08:00",
+        "expires_at": "2026-11-04T16:23:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -16897,8 +16897,53 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 3,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 3,
   "unique_species_count": 176,
-  "total_species": 251
+  "total_species": 251,
+  "stage_events": [
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 3,
+      "run_id": "20261104T155900+0800-cycle-3",
+      "species_id": 195,
+      "stage": "REVIEWED",
+      "at": "2026-11-04T16:08:00+08:00",
+      "credited": false,
+      "evidence": {
+        "viewed_full": true,
+        "viewed_crops": [
+          "older-mesoptile",
+          "adult-pattern-feet"
+        ],
+        "edit_count": 1,
+        "assets": {
+          "owl-pet/production/generated/195-otus-brookii-v2-edit1.png": {
+            "sha": "546567292cb69c07e98243248a6125df5fd37d50",
+            "size": 3054049
+          },
+          "owl-pet/production/reviewed/195-otus-brookii-v2-reviewed-master.png": {
+            "sha": "546567292cb69c07e98243248a6125df5fd37d50",
+            "size": 3054049
+          },
+          "owl-pet/production/review-crops/195-otus-brookii-v2-older-mesoptile.png": {
+            "sha": "3c17008aae47ffc804c1c8ef989bba3090afeffe",
+            "size": 882364
+          },
+          "owl-pet/production/review-crops/195-otus-brookii-v2-adult-pattern-feet.png": {
+            "sha": "8edfcde1297291f387e51a5832b6fbbcbed460d5",
+            "size": 1383472
+          }
+        },
+        "review_outcome": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "remaining_unknowns": [
+          "exact juvenile age",
+          "flight ability",
+          "sex-specific size difference",
+          "race-level morph variation"
+        ]
+      }
+    }
+  ]
 }

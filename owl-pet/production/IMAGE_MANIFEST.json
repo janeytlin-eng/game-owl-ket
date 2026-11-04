@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-05T07:05:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20063,7 +20063,63 @@
         }
       },
       "verification_result": "Exact seven image path/blob tuples, three manifests and four evidence records read back from immutable archive commit."
+    },
+    {
+      "id": "52-strix-hylophila-v5",
+      "path": "design/concepts/52-strix-hylophila-v5.png",
+      "species_id": 52,
+      "scientific_name": "Strix hylophila",
+      "common_name": "Rusty-barred Owl",
+      "historical_names": [
+        "Ciccaba hylophila",
+        "Nyctale fasciata"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 2,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "RBO-COCKLE-ETAL-2024-P10",
+        "RBO-MIKKOLA-2013-P337",
+        "RBO-AVESRAPINA-2018",
+        "RBO-WIKIAVES-3982971",
+        "RBO-ITIS-555431"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/52-strix-hylophila-v5.md",
+      "review_record": "research/reviews/52-strix-hylophila-v5-review.md",
+      "run_record": "production/runs/20261105T065000+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2725893,
+      "sha256": "522fc599a38db3cae9d4c1f71e71c92bd3bbcc7ec72ea3e4791146b6b1e1d551",
+      "git_blob": "02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab",
+      "generated_path": "production/generated/52-strix-hylophila-v5-generated-master.png",
+      "generated_blob": "ba1d092a9dccbeba6dc74dc581664b907f06a2c8",
+      "reviewed_path": "production/reviewed/52-strix-hylophila-v5-reviewed-master.png",
+      "reviewed_blob": "02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab",
+      "adults_review_crop": "production/review-crops/52-strix-hylophila-v5-adults.png",
+      "adults_review_blob": "b15ae9028a5ee10ce8e109a39eceb9fbba4ab1d4",
+      "juvenile_review_crop": "production/review-crops/52-strix-hylophila-v5-chick.png",
+      "juvenile_review_blob": "82df9fe6db021ce85f779c06df5e7aee873364e0",
+      "reviewed_at": "2026-11-05T07:00:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1833936,
+      "adults_review_sha256": "49a83007d2ed4af81392e8274ddd396020c02d8e4cfd5638e5688592f467c7bb",
+      "juvenile_review_size_bytes": 624622,
+      "juvenile_review_sha256": "a9e38352634d3624d38410d6f3b5ef0e53b023fbd3d10355006f4a1a1f408e78"
     }
   ],
-  "updated_at": "2026-11-05T06:48:00+08:00"
+  "updated_at": "2026-11-05T07:05:00+08:00"
 }

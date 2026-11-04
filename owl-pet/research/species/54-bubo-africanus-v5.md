@@ -33,3 +33,10 @@ Negatives: no extra bird, egg or prey; no orange/dark adult eyes; no Cape Eagle-
 ## Validation
 
 Exact title/count/labels; adult yellow eyes/tufts/fine barring; subtle sex direction only; juvenile greyish-yellow eyes, fine mesoptile, weak tufts, no mature wing/tail, full support; rocky savanna. PASS_WITH_LIMITATIONS only; exact age, locomotion and feather geometry unknown.
+
+## Actual image review
+
+- Generated master and adult/juvenile crops were inspected at full available resolution. Result: `PASS_WITH_LIMITATIONS`; edit count 0; `scientifically_verified=false`.
+- Adults: bright yellow eyes, prominent tufts, white scapular patches, finely barred underparts, near-equal crown height with only subtle female fullness.
+- Juvenile: dull greyish-yellow eye, weak tufts, fine mesoptile, soft folded wing, mostly hidden tail, full belly/two-foot rock support; exact age and locomotion remain unknown.
+- Review record: `research/reviews/54-bubo-africanus-v5-review.md`.

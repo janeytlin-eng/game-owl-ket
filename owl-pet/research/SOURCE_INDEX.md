@@ -767,3 +767,35 @@
 - Cross-manifest reconciliation found verified low-resolution v4 in `design/manifest.json` only: blob `f91ffedfe50de2fe7761c5ed5f9c623c224d92a3`, archive `3f07adbc3787168e23fbc724e11278a6ae890368`.
 - The new 1536×1024 asset is renumbered v5 before concept archive or cycle credit. Earlier v4 IMAGE_GENERATED/REVIEWED stage paths from this run remain uncounted recovery traces; final manifests and concept use v5.
 - Corrected research record: `research/species/46-strix-ocellata-v5.md`.
+
+
+## 2026-11-05 — #47 *Strix leptogrammica* v5 — Sri Lankan day-34 cavity-chick boundary
+
+### BROW-SAMARAWICKRAMA-2006-P73-78
+- **Title / authors / year:** *Observations on the nesting of the Brown Wood Owl, Strix leptogrammica ochrogenys in Gannoruwa Forest Reserve, Sri Lanka* — V.A.M.P.K. Samarawickrama, K.B. Ranawana & V.A.P. Samarawickrama, 2006.
+- **URL / accessed:** https://citeseerx.ist.psu.edu/document?doi=0e0e59e777e7dd4edd5a36ae4d4ba1fe2aa34e85&repid=rep1&type=pdf ; accessed 2026-11-05.
+- **Type / pages / scope:** primary four-year nest study; *Ceylon Journal of Science* 35(1), printed pp.73–78; Sri Lankan population labelled *S. l. ochrogenys*; adults, nest and chick development.
+- **Key facts:** adults described with red-brown facial disc and wide dark border, brown-striped upperparts, white throat, pale chocolate-barred underparts and brown eyes; jackfruit-tree cavity about 10 m high, c.45 cm wide, 60 cm long and 90 cm deep; female-only incubation 25–30 d; young dependent nearly two months. Figure 2 separately labels 24-day, 34-day, ready-to-fly and nine-week stages.
+- **Limits / conflict:** text does not give a day-34 remige measurement, independent-flight date or quantified sex-size ratio. The 2006 population label conflicts with later guide treatments and is preserved as source wording, not silently modernized.
+- **Design decision:** select the explicitly labelled 34-day cavity chick; retain full cavity support, folded short wing and no flight claim. Exclude eggs/prey from the three-age plate.
+- **Links:** `research/species/47-strix-leptogrammica-v5.md`; concept v5; run `production/runs/20261105T040706+0800-cycle-3.md`.
+
+### BROW-KFBG-TAN-2011-P6-7
+- **Title / authors / year:** *Post Release Monitoring of a Rehabilitated Brown Wood Owl in Hong Kong SAR, China* — Tan Kit Sun et al., Kadoorie Farm and Botanic Garden Publication Series 7, 2011.
+- **URL / accessed:** https://www.kfbg.org/upload/Documents/Free-Resources-Download/Report-and-Document/BrownWoodOwlReport_2011Nov.pdf ; accessed 2026-11-05.
+- **Type / pages / scope:** institutional rehabilitation and post-release report; printed pp.6–7, Figure 4; Hong Kong nestling, fledgling and immature stages.
+- **Key facts:** Figure 4 distinguishes nestling (16 Apr 2009), fledgling (21 May 2009, including wing view) and immature (May 2010) plumages; release assessment later required good flight and prey capture.
+- **Limits / conflict:** rescued bird age and Hong Kong subspecies were not securely known; later-stage plumage and locomotion cannot be transferred to the Sri Lankan day-34 source population.
+- **Design decision:** use only as a conflict gate: do not give the selected Sri Lankan cavity chick the later Hong Kong fledgling's adult-type wing/tail or flight posture.
+
+### BROW-ITIS-555427-2026
+- **Institution / accessed:** Integrated Taxonomic Information System; accessed 2026-11-05.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555427&source=to_print
+- **Type / scope:** official taxonomy; species and subspecies name mapping.
+- **Facts:** *Strix leptogrammica* Temminck, 1832 is valid; listed direct children include *S. l. ochrogenys* and *S. l. indranee* as separate subspecies.
+- **Limits:** no morphology or development; does not resolve how the 2006 Sri Lankan population label maps to every later checklist.
+- **Design decision:** retain repository canonical species name and preserve the paper's source-population label in research metadata, not on the artwork title.
+
+### Reuse and correction
+- Reused `BROW-MIKKOLA-2013-P326-327` from the existing #47 record; the user-uploaded file was unavailable and was not freshly read.
+- Corrected boundary: the paper's “34-day chick” and separately captioned “ready to fly” stage must not be collapsed. Adult mass/incubation direction does not justify a large display-height difference.

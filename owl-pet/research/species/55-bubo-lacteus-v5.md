@@ -36,3 +36,10 @@ Negatives: no yellow/orange adult irises; no missing pink lids; no huge ear tuft
 ## Validation
 
 Exact title/count/labels; adult almost-black eyes and vivid pink lids; pale huge eagle-owl structure and subtle sex direction only; juvenile approximately six weeks with Brown's fine barring/plain thighs/cheek streak/pale bill/feet/paler lids, compact soft wing, hidden tail and full stick-nest support. PASS_WITH_LIMITATIONS only; exact individual age, continuous feather sequence, flight threshold and adult sex ratio remain unknown.
+
+## Actual image review
+
+- Initial image was inspected at full available resolution; adult pink lids were too thick/cosmetic and the juvenile folded wing too crisp/adult-layered.
+- Edit 1 softened the juvenile wing but overcorrected the adult lid rim to near-absence. Edit 2 restored a narrow natural rose upper-lid rim while preserving the juvenile correction.
+- Final full master and adult/juvenile crops were actually inspected. Exactly three birds, stable supports, diagnostic dark eyes/lids, subtle adult scale direction, and a supported approximately-six-week juvenile passed the stated boundary.
+- Result: `PASS_WITH_LIMITATIONS`; edit count 2; `scientifically_verified=false`. Review: `research/reviews/55-bubo-lacteus-v5-review.md`.

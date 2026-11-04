@@ -15394,7 +15394,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T07:18:00+08:00",
+  "updated_at": "2026-11-05T07:20:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -22082,17 +22082,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T070800+0800-cycle-4",
-      "heartbeat_at": "2026-11-05T07:18:00+08:00",
-      "expires_at": "2026-11-05T07:33:00+08:00"
+      "heartbeat_at": "2026-11-05T07:20:00+08:00",
+      "expires_at": "2026-11-05T07:35:00+08:00"
     },
     "in_progress": {
       "cycle": 4,
       "run_id": "20261105T070800+0800-cycle-4",
       "species_id": 55,
       "species": "Bubo lacteus",
-      "stage": "IMAGE_GENERATED"
+      "stage": "REVIEWED"
     },
-    "current_stage": "IMAGE_GENERATED",
+    "current_stage": "REVIEWED",
     "events": [
       {
         "cycle": 1,
@@ -22555,6 +22555,26 @@
           "edit_count": 2,
           "complete_prompt": "owl-pet/research/species/55-bubo-lacteus-v5.md",
           "lease_expires_at": "2026-11-05T07:33:00+08:00"
+        }
+      },
+      {
+        "cycle": 4,
+        "stage": "REVIEWED",
+        "at": "2026-11-05T07:20:00+08:00",
+        "run_id": "20261105T070800+0800-cycle-4",
+        "species_id": 55,
+        "credited": false,
+        "evidence": {
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "image_edit_required": true,
+          "edit_count": 2,
+          "review_path": "owl-pet/research/reviews/55-bubo-lacteus-v5-review.md",
+          "adult_crop": "owl-pet/production/review-crops/55-bubo-lacteus-v5-adults.png",
+          "adult_crop_blob": "a4ac47cad9972eeb3e7a460d734086cc641356ef",
+          "juvenile_crop": "owl-pet/production/review-crops/55-bubo-lacteus-v5-juvenile.png",
+          "juvenile_crop_blob": "ffe69ab72295c6f705680965b6e83fd8113aa39a",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-05T07:35:00+08:00"
         }
       }
     ]

@@ -1,3 +1,9 @@
+## 2026-11-04 #18 *Megascops kennicottii* v4 VERIFIED
+
+- Archive `a6c1c75d75984212c0ac0ca4e20fb84fbada68b9`; exact immutable checks passed for 15 paths and seven binary paths; manifests 661/662/652.
+- One edit removed the juvenile's adult-spotted long wing; direct image-data retransmission repaired earlier command-output truncation before archive.
+- PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**; batch 4/6, next 5.
+
 ## 2026-11-04 #10 *Surnia ulula* v5 VERIFIED
 
 - Final cross-manifest checking found the existing verified v4 at `45290cc7957ff9e60a93727a706e76be8c71043c`; it remains untouched. The new full-resolution work was corrected to v5 before archive.

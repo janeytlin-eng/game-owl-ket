@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T23:42:03.406+08:00",
+  "updated": "2026-11-04T23:43:00.244+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19370,13 +19370,40 @@
       "auxiliary_review_crop_size_bytes": 1440991,
       "auxiliary_review_crop_sha256": "106f4bb6720e76140ab74d0378114b13e6ce105b4017533e3247111e90fa532a",
       "archive_note": "One targeted edit corrected the juvenile's long adult-spotted wing. Full master and both crops reopened. Initial command-output binary transfers were rejected on hash mismatch; final direct image-data blobs match local Git hashes.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null,
-      "fixed_archive_commit": null,
-      "archive_tree": null,
-      "verified_at": null,
-      "readback": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "a6c1c75d75984212c0ac0ca4e20fb84fbada68b9",
+      "fixed_archive_commit": "a6c1c75d75984212c0ac0ca4e20fb84fbada68b9",
+      "archive_tree": "a5194ef3336cd10e613710feb366157df3aba189",
+      "verified_at": "2026-11-04T23:43:00.244+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "immutable commit fetch_file exact path/blob readback; three locally assembled manifests parsed before upload; full master and both diagnostic crops visually inspected",
+        "commit_sha": "a6c1c75d75984212c0ac0ca4e20fb84fbada68b9",
+        "tree_sha": "a5194ef3336cd10e613710feb366157df3aba189",
+        "paths_verified": 15,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "blob": "824fb2e871fd974a557724baa943281b8bada29e",
+          "bytes": 3181166
+        },
+        "juvenile_crop": {
+          "blob": "bfb144a34bbc1d569c688fc6b3ba779b7e18b647",
+          "bytes": 798167
+        },
+        "adult_crop": {
+          "blob": "f6392f6eaee48a328240c733eb52ab9a6d559083",
+          "bytes": 1440991
+        },
+        "manifest_counts": {
+          "design_image": 661,
+          "design_legacy": 662,
+          "production": 652
+        },
+        "transport_repair": "Earlier command-output transfers mismatched local Git hashes and were rejected; final direct image-data blobs match exactly."
+      }
     }
   ],
   "updated_at": "2026-11-04T22:52:12+08:00"

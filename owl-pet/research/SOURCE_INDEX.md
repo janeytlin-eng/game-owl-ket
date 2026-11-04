@@ -95,3 +95,35 @@ undefined
 ### Reused and corrected
 - Reused SPBO-FITZSIMONS-2012 for habitat/diet context. Historical Mikkola page remains inaccessible and is not treated as read.
 - Correction: adult iris is dark chocolate in the indexed Sulawesi male specimen note, not generic yellow *Ninox* coding; juvenile remains dark-indeterminate.
+
+
+## 2026-11-04 — #169 *Ketupa shelleyi* v3 — adult and mesoptile evidence boundary
+
+### SHEO-OISEAUX-2026-L137-178
+- **Title / institution / accessed:** Grand-duc de Shelley — Oiseaux.net; accessed 2026-11-04.
+- **URL:** https://www.oiseaux.net/oiseaux/grand-duc.de.shelley.html
+- **Type / scope:** specialist secondary synthesis; lines 137–178; adult morphology, sex boundary, mesoptile, breeding limits.
+- **Facts:** adults dark-eyed with cream-horn bill and almost fully feathered feet; female only probably larger; chick undescribed; mesoptile brown/white barred with adult-like remiges/rectrices; recently fledged young reported early April and mature juveniles September; no nest found.
+- **Limits:** secondary synthesis and no individual juvenile photograph or exact age; dates do not establish morphology or flight threshold.
+- **Design use:** retain age-unknown mesoptile with formed but soft barred wing; no nest; near-equal adult scale.
+
+### SHEO-IMPERIAL-2021-REDISCOVERY
+- **Title / institution / date:** Owl unseen for 150 years photographed in the wild for the first time — Imperial College London, 2021.
+- **URL:** https://www.imperial.ac.uk/news/231335/owl-unseen-150-years-photographed-wild/
+- **Type / scope:** institutional expedition summary; adult rediscovery context.
+- **Facts:** 2021 Atewa observation was the first identifiable wild photograph; giant scale and rarity of live-image evidence.
+- **Limits:** no juvenile morphology, sex or breeding data.
+- **Design use:** supports adult scale/context only.
+
+### SHEO-ITIS-1244711-2026
+- **Institution / accessed:** ITIS; accessed 2026-11-04.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1244711&source=to_print
+- **Type / scope:** official taxonomy.
+- **Fact:** valid *Ketupa shelleyi*; synonyms *Bubo shelleyi* and *Huhua shelleyi*.
+- **Limit:** no morphology or development.
+
+### Reused evidence, correction and unverified lead
+- Reused SHEO-TOBIAS-WILLIAMS-2022-P73-79, SHEO-MIKKOLA-2013-P288 and SHEO-ITIS-2025; the user upload was unavailable and Mikkola was not re-read.
+- Corrected boundary: fledgling-season statements do not justify an exact age or flight claim; female “probably larger” does not justify a conspicuously larger female.
+- SHEO-MACAULAY-615106415-UNVERIFIED was blocked by anti-bot and remains a lead only, not evidence.
+- Links: `research/species/169-ketupa-shelleyi-v3.md`; `production/runs/20261104T173200+0800-cycle-6.md`; concept v3.

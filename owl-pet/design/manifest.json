@@ -18811,10 +18811,52 @@
       "auxiliary_review_crop_size_bytes": 2450525,
       "auxiliary_review_crop_sha256": "501ff52239410dca1d78ebd7836d5f7e0ef358d498f1ca0b7fd7df1449045ba6",
       "archive_note": "No image edit was required after original-resolution and crop inspection. V1-v2 retained. Mikkola upload unavailable. Start-stage base-tree omission was detected and fully restored before production continued; recorded in run log.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "2a0a8dba8a3fa7c94e34cbf598a291c59c13bf2d",
+      "fixed_archive_commit": "2a0a8dba8a3fa7c94e34cbf598a291c59c13bf2d",
+      "archive_tree": "a752454738fd97658355a4d42501e06897e3465c",
+      "verified_at": "2026-11-04T22:10:51+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "GitHub connector exact immutable-commit path/blob readback; three manifests fetched by blob and parsed; local full/crop visual inspection",
+        "commit_sha": "2a0a8dba8a3fa7c94e34cbf598a291c59c13bf2d",
+        "tree_sha": "a752454738fd97658355a4d42501e06897e3465c",
+        "paths_verified": 12,
+        "binary_assets_verified": 5,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "owl-pet/design/concepts/155-scotopelia-ussheri-v3.png",
+          "blob": "d1c5c3f76c030cdcf781c58332a5b61571a1f8ac",
+          "bytes": 3227781
+        },
+        "generated": {
+          "path": "owl-pet/production/generated/155-scotopelia-ussheri-v3-generated.png",
+          "blob": "d1c5c3f76c030cdcf781c58332a5b61571a1f8ac",
+          "bytes": 3227781
+        },
+        "reviewed": {
+          "path": "owl-pet/production/reviewed/155-scotopelia-ussheri-v3-reviewed-master.png",
+          "blob": "d1c5c3f76c030cdcf781c58332a5b61571a1f8ac",
+          "bytes": 3227781
+        },
+        "juvenile_crop": {
+          "blob": "a64b1c678a7142b9ae80446381b0fde8fa13f8fe",
+          "bytes": 735223
+        },
+        "adult_crop": {
+          "blob": "326e726a70d91997299896798a36103d95a6549c",
+          "bytes": 2450525
+        },
+        "manifest_counts": {
+          "design_image": 657,
+          "design_legacy": 658,
+          "production": 648
+        },
+        "source_ids_present": 4,
+        "source_index_leading_undefined_removed": true
+      }
     }
   ],
-  "updated_at": "2026-11-04T22:09:21+08:00"
+  "updated_at": "2026-11-04T22:10:51+08:00"
 }

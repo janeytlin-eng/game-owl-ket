@@ -446,3 +446,31 @@
 - Reused v5 Mikkola printed pp. 207–209 for adult and mesoptile traits; upload not newly reopened.
 - Corrected v5's approximate 27–30 d “brancher before competent flight” into a first-days post-fledging field-observation boundary: formed wing permitted, but poor landing, clinging and full branch support are mandatory.
 - Source accounting: new verified 5; reused 1; corrected design boundary 1.
+
+
+## 2026-11-04 — #10 *Surnia ulula* v4 — 20–22-day nest departure without inferred flight confidence
+
+### NHO-KERTELL-1986-JRR-P91-101
+- **Title / author / year:** “Reproductive Biology of Northern Hawk-Owls in Denali National Park, Alaska” — Kenneth Kertell, 1986.
+- **Source / URL / pages:** *Raptor Research* 20(3/4):91–101; original PDF https://sora.unm.edu/sites/default/files/journals/jrr/v020n03-04/p00091-p00101.pdf ; printed pp. 91–101; accessed 2026-11-04.
+- **Species / population / stage:** *Surnia ulula* in Denali, Alaska; two 1980 nesting pairs plus supplementary fledgling observations.
+- **Facts read:** printed p.92 reports adult barring differences between sexed pair members but explicitly notes they may be age-related; pp.96–97 describe hollow broken-top white-spruce nests on decomposed sapwood, white closed-eye young at an estimated first week, and nest departure at approximately 20–22 d.
+- **Limits / confidence:** primary field evidence, high for the observed Denali nests; hatching age was estimated, sample small, no continuous feather plate, and adult color difference is not secure sexual dimorphism.
+- **Design / review use:** use near-equal same-morph adults; show a newly nest-departed 20–22-day youngster fully supported on a broken-spruce surface; do not infer confident flight from nest departure. Links: `research/species/10-surnia-ulula-v4.md`; run `production/runs/20261104T231133+0800-cycle-3.md`.
+
+### NHO-NPS-DENALI-2021-2026
+- **Institution / URL / accessed:** U.S. National Park Service, Denali; https://home.nps.gov/articles/northern-hawk-owl.htm ; article dated 2021, accessed 2026-11-04.
+- **Facts read:** in Alaska young leave at about three weeks and can walk, climb, hop and make short horizontal flight bursts but cannot fly long distances; hollow broken trees/cavities are typical; adults are long-tailed, pointed-winged, yellow-eyed and female averages are only modestly larger.
+- **Limits:** institutional synthesis rather than a feather chronology; “about three weeks” is not an exact individual age.
+- **Design use:** supported locomotor boundary and conservative female fullness; no long-distance or confident flight pose.
+
+### NHO-EFAUNA-BC-2026
+- **Institution / author / URL / accessed:** E-Fauna BC, species account by Jamie Fenneman; https://linnet.geog.ubc.ca/efauna/Atlas/Atlas.aspx?noTransfer=1&sciname=Surnia+ulula ; accessed 2026-11-04.
+- **Facts read:** adult dark gray-brown upperparts with white scapular/wing spots, long narrowly barred tail, heavily barred white underparts, bordered pale face, yellow iris/bill and feathered feet; at 2–3 weeks young gain gray mesoptile plus adult-like flight and tail feathers, with nest departure around 23–27 d; young crown is gray and largely unspotted, facial disc dark/poorly defined and barring faint.
+- **Limits:** curated secondary account; timing differs slightly from Kertell's estimated 20–22 d Denali boundary and does not provide a measured feather map.
+- **Design use:** surface plumage and formed-but-not-adult-crisp wing/tail boundary; retain uncertainty instead of forcing one universal day.
+
+### Reuse, correction and evidence boundary
+- Reused v3 Mikkola printed pp.360–363 and Huhtala, Korpimäki & Pulliainen 1987 growth-study citation. The uploaded Mikkola file was not newly accessible.
+- Corrected the design statement “pre-flight 24–27-day branch-clamberer” to a more conservative Denali first-departure boundary: approximately 20–22 d, fully supported, locomotion-capable, with formed juvenile flight/tail feathers but no confident-flight claim.
+- Source accounting: new verified 3; reused 2; corrected design boundary 1. Exact individual age, continuous feather sequence, flight threshold, subspecies and universal nest form remain unknown.

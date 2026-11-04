@@ -685,3 +685,44 @@
 - Corrected boundaries: branch departure does not establish independent flight, and female-larger applies to adults rather than an unsexed juvenile. Exact day-29 wing length, iris transition, first-flight performance, population colour variation and universal nest geometry remain unknown.
 - Source accounting: new verified 1; re-read/reused verified 6; corrected boundaries 2.
 - Links: `research/species/44-strix-uralensis-v5.md`; `production/runs/20261105T023100+0800-cycle-6.md`; planned concept v5.
+
+
+## 2026-11-05 — #45 *Strix seloputo* v5 — dated brancher, balance-flap and first-flight boundary
+
+### SOWL-BESG-2022-P1 — re-read dated family record
+- **Title / author / year:** *Spotted wood owl (Strix seloputo) family at Pasir Ris Park, Singapore: Part 1* — LW Teo / Bird Ecology Study Group, 2022.
+- **URL / type / sections / accessed:** https://besgroup.org/2022/02/27/spotted-wood-owl-strix-seloputo-family-at-pasir-ris-park-singapore-part-1/ ; dated field-photography chronology, paragraphs 19–27 and photo captions; re-read 2026-11-05.
+- **Facts:** one pair nested in a bird's-nest fern about 5 m up a rain tree. Part 1 dates the first fledging to 18 February and the second to 21 February 2022. The owlets moved precariously along branches and flapped while walking to maintain balance; parents watched from nearby branches.
+- **Limits / design use:** one family and one site. The fern/rain-tree setting is contextual, not universal nest architecture. Balance flapping is not independent flight.
+
+### SOWL-BESG-2022-P2 — re-read growth and locomotion chronology
+- **Title / author / year:** *Spotted wood owl (Strix seloputo) family at Pasir Ris Park, Singapore: Part 2* — LW Teo / Bird Ecology Study Group, 2022.
+- **URL / type / sections / accessed:** https://besgroup.org/2022/04/01/spotted-wood-owl-strix-seloputo-family-at-pasir-ris-park-singapore-part-2/ ; dated follow-up field chronology, paragraphs 18–24 and captions/video notes; re-read 2026-11-05.
+- **Facts:** on fledging the owlets were about half adult size; remiges lengthened over weeks while rectrices remained shorter. A 23 February video shows branch walking with wing flaps for balance. By 11 March they were observed flying branch-to-branch; by 24 March their patterns were adult-like while down remained visible on the head.
+- **Conflict / correction:** Part 2 dates the first fledging to 19 February, one day later than Part 1. The design therefore uses the conservative label “2–4 days post-fledging in one documented family” for the 23 February observation and does not assert an exact hatch age.
+
+### SOWL-BESG-2018-FALLEN-OWLET — new verified behavior boundary
+- **Title / author / year:** *An owlet fell from its nest…* — YC Wee / Bird Ecology Study Group, 2018.
+- **URL / type / sections / accessed:** https://besgroup.org/2018/05/04/an-owlet-fell-from-its-nest/ ; dated field observation and rescue note, paragraphs 27–42; accessed 2026-11-05.
+- **Facts:** an age-unknown *S. seloputo* chick walked, flapped and scrambled up a trunk but was unable to fly; after losing grip it fell, and was moved to a stable raised surface.
+- **Limits / design use:** no age or feather chronology. It supports the requirement for visible support and the inference boundary that flapping/scrambling does not prove flight.
+
+### SOWL-NPARKS-FFW-2019 — re-read adult identification and current name
+- **Institution / updated:** NParks Flora & Fauna Web; species record updated 21 August 2019, page re-read 2026-11-05.
+- **URL / type / sections:** https://www.nparks.gov.sg/florafaunaweb/fauna/2/6/269 ; Singapore government species account, description and habitat.
+- **Facts:** current name *Strix seloputo* Horsfield, 1821; earless head, bold black-barred buffy underparts, dark brown upperparts with white spots, dark brown eyes, grey bill and feathered tarsi; forest/woodland.
+- **Limits:** adult account; no sex-size direction or juvenile developmental sequence.
+
+### SOWL-MBR-OOI-2025-P39-40 — re-read age-unknown juvenile support evidence
+- **Title / author / year:** *Crested Goshawk Attacking a Juvenile Spotted Wood-Owl* — Winnie Ooi, 2025.
+- **URL / type / pages / accessed:** https://malaysianbird.report/wp-content/uploads/9-Juvenile-Spotted-Wood-Owl-Malaysian-Bird-Report-Sept-2025.pdf ; field note, Malaysian Bird Report 3/2025, pp.39–40; re-read 2026-11-05.
+- **Facts:** an age-unknown juvenile was perched in a tree and nearly lost balance during an attack; both adults chased the goshawk.
+- **Limits:** no hatch date, locomotor stage or plumage chronology; support/context only.
+
+### V5 evidence accounting and mapping
+- Reused indexed Mikkola printed pp.322–323 (PDF pp.324–325): adult sex-size difference unknown; pale fledgling with face/primaries beginning to resemble the adult while the back remains distinctive. The uploaded guide was unavailable in this execution and was not represented as freshly read.
+- Current name: *Strix seloputo* Horsfield, 1821; no replacement old combination was introduced this cycle.
+- New verified sources: 1; re-read/reused verified sources: 5; corrected evidence boundaries: 2.
+- Corrected boundaries: (1) 18/19 February conflict is retained rather than silently resolved; (2) balance flapping and trunk scrambling are not independent flight.
+- Unknown: exact hatch age, sex-specific growth, independent-flight threshold for the 23 February individuals, universal nest geometry and population-specific plumage variation.
+- Links: `research/species/45-strix-seloputo-v5.md`; `production/runs/20261105T033723+0800-cycle-1.md`; planned concept v5.

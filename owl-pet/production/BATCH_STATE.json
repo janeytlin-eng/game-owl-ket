@@ -12861,8 +12861,8 @@
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T161400+0800-cycle-4",
-        "heartbeat_at": "2026-11-04T16:18:00+08:00",
-        "expires_at": "2026-11-04T16:33:00+08:00"
+        "heartbeat_at": "2026-11-04T16:20:00+08:00",
+        "expires_at": "2026-11-04T16:35:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -16906,7 +16906,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 4,
-  "current_stage": "RESEARCH_READY",
+  "current_stage": "IMAGE_GENERATED",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -17055,6 +17055,24 @@
         "full_prompt_saved": true,
         "mikkola_accessible": false,
         "juvenile_stage": "fully grown young; appearance cross-bounded by age-unknown O. m. romblonis portrait; exact age/flight and nominate plumage unknown"
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 4,
+      "run_id": "20261104T161400+0800-cycle-4",
+      "species_id": 201,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-04T16:20:00+08:00",
+      "credited": false,
+      "evidence": {
+        "path": "owl-pet/production/generated/201-otus-mantananensis-v2-generated-master.png",
+        "blob_sha": "93a50a7937c3d530667157e03f3e3a195ed94224",
+        "bytes": 3150873,
+        "png": "1536x1024 sRGB",
+        "sha256": "9834f5552a03d782ab99d00ea1d1377a01bacdc6b8b2808e255c954a607775d0",
+        "viewed_full": true,
+        "review_flags": []
       }
     }
   ]

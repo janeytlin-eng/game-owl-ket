@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T20:51:00+08:00",
+  "updated": "2026-11-04",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18049,7 +18049,60 @@
           "production": 645
         }
       }
+    },
+    {
+      "id": "157-scotopelia-bouvieri-v3",
+      "species_id": 157,
+      "scientific_name": "Scotopelia bouvieri",
+      "historical_names": [],
+      "common_name": "Vermiculated Fishing Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/157-scotopelia-bouvieri-v3.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V3 preserves v1-v2 and adds source-linked calibration. Primary Gabon field evidence supports a modest open stick platform about 2.5–3 m above a large river and circa-40-day young with unusually prolonged juvenile down. Adults use dark eyes, yellowish bill, weak facial disc, fine black vermiculation, pale scapular accents, sandy longitudinally streaked underparts and bare fishing feet. The centered young is pale, down-rich, fully nest-supported, with short soft wing contours and hidden tail; no flight claim. No quantified sex-size direction was found, so adults remain near-equal. Exact 40-day feather map, juvenile iris chronology, flight threshold and sex-size ratio remain unknown; science=false.",
+      "source_ids": [
+        "VFO-BROSSET-ERARD-1986-P63",
+        "VFO-OISEAUXNET-2026-ID",
+        "VFO-NIKBORROW-2022-IMMATURE",
+        "VFO-ITIS-555424-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--157-scotopelia-bouvieri-v3--riverine-stick-nest-and-down-rich-young",
+      "research_record": "research/species/157-scotopelia-bouvieri-v3.md",
+      "review_record": "research/reviews/157-scotopelia-bouvieri-v3-review.md",
+      "run_record": "production/runs/20261104T213333+0800-cycle-4.md",
+      "reviewed_at": "2026-11-04T21:39:42+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2978904,
+      "sha256": "df9a13c4b76186a049714faf40d6592a82fae06ec01cee55d80ad78396c8e257",
+      "git_blob": "0b19a1fd831cd5ae03f4f0bff63e2f9ee958d86c",
+      "generated_path": "production/generated/157-scotopelia-bouvieri-v3-generated.png",
+      "generated_blob": "0b19a1fd831cd5ae03f4f0bff63e2f9ee958d86c",
+      "generated_size_bytes": 2978904,
+      "generated_sha256": "df9a13c4b76186a049714faf40d6592a82fae06ec01cee55d80ad78396c8e257",
+      "reviewed_path": "production/reviewed/157-scotopelia-bouvieri-v3-reviewed-master.png",
+      "reviewed_blob": "0b19a1fd831cd5ae03f4f0bff63e2f9ee958d86c",
+      "review_crop_path": "production/review-crops/157-scotopelia-bouvieri-v3-juvenile.png",
+      "review_crop_blob": "11ec8f7014da7e558b7d256ae2fae040cd27b2e7",
+      "review_crop_size_bytes": 615959,
+      "review_crop_sha256": "a649a7f047acc87fd94d7be0d5752181d33c9cdc28faac34d922f905411e581e",
+      "auxiliary_review_crop_path": "production/review-crops/157-scotopelia-bouvieri-v3-adults.png",
+      "auxiliary_review_crop_blob": "2c07b915eab05c3454a167b46ceb77f489fb1abb",
+      "auxiliary_review_crop_size_bytes": 1569306,
+      "auxiliary_review_crop_sha256": "49a0e5d4b7bc7eb75bb19272fed0b14e4bda7e543fb05192cc1adeb458ace234",
+      "archive_note": "No edit was required after original-resolution and crop inspection. V2 remains retained. Mikkola upload was unavailable in this run. Scientific verification remains false for explicit developmental and sex unknowns.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-11-04T20:51:00+08:00"
+  "updated_at": "2026-11-04T21:41:08+08:00"
 }

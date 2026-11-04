@@ -812,3 +812,8 @@ Primary evidence can document well-developed flight feathers before fledging. #2
 ### Direct photographed stage outranks a conflicting derivative age label (#23 v5)
 
 When a prior concept's precise age/plumage claim conflicts with a primary paper's photographed stage and a government synthesis, do not preserve the precise label merely for continuity. Select the directly evidenced stage, state the original paper's uncertainty, and keep the science flag false. Applied to #23 v5: the v4 “11-day mostly white natal down” boundary was replaced by Richmond et al. 1980's photographed “about one week” state; the first render's four long exposed quills were shortened to tiny tips embedded in dense white down and full/crop views were rechecked. This validates the correction workflow for this output, not a universal day-by-day timetable.
+
+
+### Separate post-fledging behavior evidence from exact plumage claims (#24 v4)
+
+A study reporting hunting, parental attendance or movement at a known post-fledging day does not automatically describe the bird's exact wing/tail pattern that day. Combine behavioral studies with stage-bounded field media, label any remaining plumage as conservative inference, and keep exact day unknown when the image record lacks a hatch date. Applied on #24 v4: the first juvenile wing/tail looked adult-patterned, then one targeted edit softened the wing and shortened/partly hid the tail; full/crops were reopened. This validates the visual correction only, not a universal tail-growth curve.

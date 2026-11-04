@@ -1,9 +1,8 @@
 # Owl-pet production status
 
 - Unique species archived: 176/251
-- Latest verified concept: #23 *Psiloscops flammeolus* v5 (revision; no unique-species increment)
-- Latest archive commit: `9616cf4ad2f0353b5b0f2302b6884f2d5781f57b`
-- Latest result: VERIFIED / PASS_WITH_LIMITATIONS / scientifically_verified=false
-- Manifest versions: design IMAGE_MANIFEST 664; design manifest 665; production IMAGE_MANIFEST 655
-- Scientifically verified groups: 0
-- Active batch: `20261105T013100+0800`, completed 1/6, next cycle 2; no active lease
+- Latest archived concept: #24 *Glaucidium californicum* v4 (revision; no unique increment)
+- Latest stage: ARCHIVED; immutable readback pending
+- Manifest versions after archive: 665 / 666 / 656
+- Scientifically verified groups: 0; latest PASS_WITH_LIMITATIONS
+- Active batch: `20261105T013100+0800`, completed 1/6, cycle 2 archive pending verification

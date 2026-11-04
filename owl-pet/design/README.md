@@ -2965,3 +2965,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Original](concepts/52-strix-hylophila-v5.png) · [Research](../research/species/52-strix-hylophila-v5.md) · [Review](../research/reviews/52-strix-hylophila-v5-review.md) · [Run](../production/runs/20261105T065000+0800-cycle-2.md)
 - Evidence rule applied: a chick observed in a hollow is not by itself a confirmed nest description. V5 removes invented nest cup/lining/debris, retains a fully supported age-unknown white-down chick, and required two eye-only edits to remove unsupported amber irises. PASS_WITH_LIMITATIONS; science false; unique remains 176/251.
+
+## #54 *Bubo africanus* v5 — 2026-11-05
+
+- [Concept](concepts/54-bubo-africanus-v5.png) · [Research](../research/species/54-bubo-africanus-v5.md) · [Review](../research/reviews/54-bubo-africanus-v5-review.md) · [Run](../production/runs/20261105T071100+0800-cycle-3.md)
+- Evidence rule applied: reconcile “sexes alike” with only a slight population-level male-paler/lighter tendency by keeping crown height equal and dimorphism subtle. The juvenile is an age-unknown mesoptile, not an invented exact six-week stage. PASS_WITH_LIMITATIONS; science false; unique remains 176/251.

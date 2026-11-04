@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T07:08:00+08:00",
+  "updated": "2026-11-05T07:03:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20840,7 +20840,62 @@
         }
       },
       "verification_result": "Exact seven image path/blob tuples, three manifests and six evidence/status records read back from immutable archive commit."
+    },
+    {
+      "id": "54-bubo-africanus-v5",
+      "path": "design/concepts/54-bubo-africanus-v5.png",
+      "species_id": 54,
+      "scientific_name": "Bubo africanus",
+      "common_name": "Spotted Eagle-Owl",
+      "historical_names": [
+        "Strix africana"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SEO-SANBI-2018",
+        "SEO-MIKKOLA-2013-P280-281",
+        "SEO-OSTRICH-RSD-2008",
+        "SEO-BDI-2022",
+        "SEO-ITIS-555408"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/54-bubo-africanus-v5.md",
+      "review_record": "research/reviews/54-bubo-africanus-v5-review.md",
+      "run_record": "production/runs/20261105T071100+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3102628,
+      "sha256": "cde61ddadd433363b541430292efbf247fd2aee6990149bc8efce90d1a22bda6",
+      "git_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
+      "generated_path": "production/generated/54-bubo-africanus-v5-generated-master.png",
+      "generated_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
+      "reviewed_path": "production/reviewed/54-bubo-africanus-v5-reviewed-master.png",
+      "reviewed_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
+      "adults_review_crop": "production/review-crops/54-bubo-africanus-v5-adults.png",
+      "adults_review_blob": "1acb5d6852586ebee8c8522c401d041944581ef6",
+      "juvenile_review_crop": "production/review-crops/54-bubo-africanus-v5-juvenile.png",
+      "juvenile_review_blob": "39848d8f859db89284def675d2eda239d18f8161",
+      "reviewed_at": "2026-11-05T07:02:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 2084979,
+      "adults_review_sha256": "69622a0ad9944823578a94dc33858d12af24e65c098bd4dcda318a214c8a42a5",
+      "juvenile_review_size_bytes": 789215,
+      "juvenile_review_sha256": "bc43a81465cbe17de47b043d30f4aa9be2d56ea55dc88245c5c71f021e1cc0f9"
     }
   ],
-  "updated_at": "2026-11-05T07:08:00+08:00"
+  "updated_at": "2026-11-05T07:03:00+08:00"
 }

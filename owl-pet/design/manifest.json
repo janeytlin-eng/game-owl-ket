@@ -18759,7 +18759,62 @@
         "source_ids_present": 4,
         "raw_url_check": "web fetch disabled in this environment; GitHub connector immutable-path readback succeeded"
       }
+    },
+    {
+      "id": "155-scotopelia-ussheri-v3",
+      "species_id": 155,
+      "scientific_name": "Scotopelia ussheri",
+      "historical_names": [
+        "Bubo ussheri"
+      ],
+      "common_name": "Rufous Fishing Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/155-scotopelia-ussheri-v3.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "V3 preserves v1-v2 and replaces the weaker age-unknown downy juvenile boundary with the primary-paper's free-living estimated 4–5-month juvenile: substantially smaller, shorter and stubbier than the adult; loose/fluffy first-generation plumage; slightly paler; formed dusky-barred rufous wing; secure branch grip and observed flight capability. Adults are near-equal because no sex-specific measurements were found, with dark eyes, no ear tufts, bluish-grey bill/yellow cere, bare yellow-orange fishing feet, plain/mixed rufous-cream-white upperparts and finely streaked underparts. River/raffia setting is supported; no nest is invented. Exact age, continuous feather chronology, first-flight threshold, nest and sex-size direction remain unknown; science=false.",
+      "source_ids": [
+        "RFO-MONTICELLI-KOROMA-BANNAH-2015-P183-188",
+        "RFO-KOPPETSCH-BOHME-2022-P97-98",
+        "RFO-IUCN-BIRDLIFE-2021-ID-ECOLOGY",
+        "RFO-GBIF-COL-4VY2L-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--155-scotopelia-ussheri-v3--field-documented-flying-juvenile-and-adult-separation",
+      "research_record": "research/species/155-scotopelia-ussheri-v3.md",
+      "review_record": "research/reviews/155-scotopelia-ussheri-v3-review.md",
+      "run_record": "production/runs/20261104T220156+0800-cycle-6.md",
+      "reviewed_at": "2026-11-04T22:08:31+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3227781,
+      "sha256": "350ed654b6a1148bfccc7fcfe95abb36c7c27973b8c297196ad36f4d099f9904",
+      "git_blob": "d1c5c3f76c030cdcf781c58332a5b61571a1f8ac",
+      "generated_path": "production/generated/155-scotopelia-ussheri-v3-generated.png",
+      "generated_blob": "d1c5c3f76c030cdcf781c58332a5b61571a1f8ac",
+      "generated_size_bytes": 3227781,
+      "generated_sha256": "350ed654b6a1148bfccc7fcfe95abb36c7c27973b8c297196ad36f4d099f9904",
+      "reviewed_path": "production/reviewed/155-scotopelia-ussheri-v3-reviewed-master.png",
+      "reviewed_blob": "d1c5c3f76c030cdcf781c58332a5b61571a1f8ac",
+      "review_crop_path": "production/review-crops/155-scotopelia-ussheri-v3-juvenile.png",
+      "review_crop_blob": "a64b1c678a7142b9ae80446381b0fde8fa13f8fe",
+      "review_crop_size_bytes": 735223,
+      "review_crop_sha256": "ce328540cce18cf8cf9a6e14f4be4f747881de40dacfed42b4b3cea9a152673b",
+      "auxiliary_review_crop_path": "production/review-crops/155-scotopelia-ussheri-v3-adults.png",
+      "auxiliary_review_crop_blob": "326e726a70d91997299896798a36103d95a6549c",
+      "auxiliary_review_crop_size_bytes": 2450525,
+      "auxiliary_review_crop_sha256": "501ff52239410dca1d78ebd7836d5f7e0ef358d498f1ca0b7fd7df1449045ba6",
+      "archive_note": "No image edit was required after original-resolution and crop inspection. V1-v2 retained. Mikkola upload unavailable. Start-stage base-tree omission was detected and fully restored before production continued; recorded in run log.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": null
     }
   ],
-  "updated_at": "2026-11-04T21:55:58+08:00"
+  "updated_at": "2026-11-04T22:09:21+08:00"
 }

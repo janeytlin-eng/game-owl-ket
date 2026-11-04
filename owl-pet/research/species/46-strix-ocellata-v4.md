@@ -43,3 +43,10 @@ Avoid: extra birds, eggs, prey, ear tufts, yellow irises, bright yellow bill, ab
 ## Planned checks
 
 Exact title/count/labels; adult untufted/dark-eyed/concentric disc; no large sex gap; juvenile white crown/fine mesoptile bars; folded compact half-grown wing/tail; one foot rim plus one foot branch; no floating or flight; open-top cavity rather than exceptional stick nest.
+
+
+## 2026-11-05 continuation — batch `20261105T033723+0800` cycle 2
+
+The earlier v4 RESEARCH_READY checkpoint had no archived v4 concept and no active batch lease, so this run reuses it rather than creating v5 or duplicating v4. New reading adds `MOWL-ELA-FACTFILE-2012` and re-reads the adult/habitat/knowledge-gap sources listed in the source index. The original complete prompt above remains the production prompt because it is more conservative: both juvenile wings folded and one foot on the cavity rim plus one on the adjacent branch. Adult “female likely/presumably larger” remains unquantified; display stays near-equal. Exact independent-flight age remains unknown.
+
+Source delta this continuation: new verified 1 / re-read or reused 5 / corrected boundaries 2. Uploaded Mikkola was unavailable this execution; its indexed printed pp.324–325 / PDF pp.326–327 were reused without claiming a fresh read.

@@ -12861,8 +12861,8 @@
       "lease": {
         "owner": "codex-work",
         "run_id": "20261104T161400+0800-cycle-4",
-        "heartbeat_at": "2026-11-04T16:22:00+08:00",
-        "expires_at": "2026-11-04T16:37:00+08:00"
+        "heartbeat_at": "2026-11-04T16:24:00+08:00",
+        "expires_at": "2026-11-04T16:39:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -16906,7 +16906,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 4,
-  "current_stage": "REVIEWED",
+  "current_stage": "ARCHIVED",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -17113,6 +17113,28 @@
           "sex-specific size difference",
           "cross-subspecies generality"
         ]
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 4,
+      "run_id": "20261104T161400+0800-cycle-4",
+      "species_id": 201,
+      "stage": "ARCHIVED",
+      "at": "2026-11-04T16:24:00+08:00",
+      "credited": false,
+      "evidence": {
+        "concept_path": "owl-pet/design/concepts/201-otus-mantananensis-v2.png",
+        "concept_blob": "93a50a7937c3d530667157e03f3e3a195ed94224",
+        "manifest_counts": {
+          "design_image": 649,
+          "design_legacy": 650,
+          "production": 640
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true
       }
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T16:12:00+08:00",
+  "updated": "2026-11-04T16:24:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -17562,7 +17562,65 @@
           "production": 639
         }
       }
+    },
+    {
+      "id": "201-otus-mantananensis-v2",
+      "species_id": 201,
+      "scientific_name": "Otus mantananensis",
+      "historical_names": [
+        "Scops mantananensis",
+        "Otus romblonis",
+        "Otus scops romblonis"
+      ],
+      "common_name": "Mantanani Scops Owl",
+      "version": 2,
+      "prior_versions_retained": [
+        1
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/201-otus-mantananensis-v2.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "status": "Nominate-adult v2 uses yellow iris, short feathered tarsi, rounded wing, fuscous gray-peppered upperparts with scant rufous and short tufts in a sea-level forest/coconut/Casuarina setting. Marshall directly observed a Mantanani pair with fully grown young but did not describe juvenile plumage; the older juvenile appearance is cross-bounded by an identified age-unknown O. m. romblonis portrait, not claimed as nominate-specific. Exact age, flight, nominate juvenile plumage and sex-size direction remain unknown; science=false.",
+      "source_ids": [
+        "MANT-MARSHALL-1978-P14-15",
+        "MANT-SHELDON-MOYLE-KENNARD-2001-P143",
+        "MANT-ITIS-555378-AVIBASE-686833-2026",
+        "MSO-PHOTOARK-BIR070-00063",
+        "MSO-MACAULAY-615554542",
+        "MSO-EBIRD-ID-2026",
+        "MSO-AVIBASE-ROMBLONIS-2024"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--201-otus-mantananensis-v2--nominate-adults-and-fully-grown-young-boundary",
+      "research_record": "research/species/201-otus-mantananensis-v2.md",
+      "run_record": "production/runs/20261104T161400+0800-cycle-4.md",
+      "reviewed_at": "2026-11-04T16:22:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 3150873,
+      "sha256": "9834f5552a03d782ab99d00ea1d1377a01bacdc6b8b2808e255c954a607775d0",
+      "git_blob": "93a50a7937c3d530667157e03f3e3a195ed94224",
+      "generated_path": "production/generated/201-otus-mantananensis-v2-generated-master.png",
+      "generated_blob": "93a50a7937c3d530667157e03f3e3a195ed94224",
+      "generated_size_bytes": 3150873,
+      "generated_sha256": "9834f5552a03d782ab99d00ea1d1377a01bacdc6b8b2808e255c954a607775d0",
+      "reviewed_path": "production/reviewed/201-otus-mantananensis-v2-reviewed-master.png",
+      "reviewed_blob": "93a50a7937c3d530667157e03f3e3a195ed94224",
+      "review_crop_path": "production/review-crops/201-otus-mantananensis-v2-fully-grown-young.png",
+      "review_crop_blob": "5cbb611f66f6978f14dd1c18e3bbbff6db3b0712",
+      "review_crop_size_bytes": 722167,
+      "review_crop_sha256": "871aeafb53f3912095aedec1a6fd1a754b03464a99ef0cbc5f2b8c8e1c043a2d",
+      "auxiliary_review_crop_path": "production/review-crops/201-otus-mantananensis-v2-adult-pattern-feet.png",
+      "auxiliary_review_crop_blob": "48bc96a3dbf96c75e8751ba86c92b484d6f9c1f9",
+      "auxiliary_review_crop_size_bytes": 1355478,
+      "auxiliary_review_crop_sha256": "0bbefec18bae36376c6cf67eb8fb7b71b6525e1437ccf0cd44686547ae91ec60",
+      "archive_note": "Generated master passed full-image and two original-detail crop review without edit. Adult structure/pattern/feet and fully grown juvenile support passed. Science remains false because juvenile appearance is cross-subspecies bounded and exact development/sex-size data are absent.",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_commit": "PENDING_SELF"
     }
   ],
-  "updated_at": "2026-11-04T16:12:00+08:00"
+  "updated_at": "2026-11-04T16:24:00+08:00"
 }

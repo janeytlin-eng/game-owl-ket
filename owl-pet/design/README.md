@@ -1,3 +1,10 @@
+## #201 Mantanani Scops Owl — *Otus mantananensis* — v2 science revision
+
+- Concept: [201-otus-mantananensis-v2.png](concepts/201-otus-mantananensis-v2.png)
+- Research: [201-otus-mantananensis-v2.md](../research/species/201-otus-mantananensis-v2.md)
+- Run: [20261104T161400+0800-cycle-4.md](../production/runs/20261104T161400+0800-cycle-4.md)
+- ARCHIVED; immutable readback pending; PASS_WITH_LIMITATIONS; science false; unique176/251.
+
 ## #195 Rajah Scops Owl — *Otus brookii solokensis* — v2 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/55fd0c2c89202e42a91a0222d67b105e82a59b3d/owl-pet/design/concepts/195-otus-brookii-v2.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/55fd0c2c89202e42a91a0222d67b105e82a59b3d) · [research](../research/species/195-otus-brookii-v2.md) · [run](../production/runs/20261104T155900+0800-cycle-3.md)

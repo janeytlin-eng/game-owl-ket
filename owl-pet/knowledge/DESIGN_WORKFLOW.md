@@ -781,3 +781,11 @@ When a primary field paper documents an older juvenile's body proportions, feath
 
 
 - **Applied and visually checked:** #17 v6 at 2026-11-04T23:07:08.912+08:00. The initial post-fledging wing was still too broad and adult-regular; one targeted edit shortened and softened it without erasing formed remiges. Full image plus juvenile/adult crops passed as a fully supported poor-landing recovery. This validates the pre-flight/post-fledging distinction for detecting and correcting this asset only; exact age and feather chronology remain scientifically unverified.
+
+
+## 2026-11-04 — Nest departure, wing maturity and pair-specific color are separate claims (#10 v4)
+
+- **Problem found:** a nest-departure age can be misread as either “pre-flight down ball” or “fully fledged miniature adult”; pair-level barring differences can also be overpromoted into sexual dichromatism.
+- **Evidence:** Kertell 1986 pp.92, 96–97 estimates Denali departure at 20–22 d and explicitly cautions that observed adult color differences may reflect age. NPS supports walking/climbing/hopping and short horizontal bursts around three weeks. E-Fauna supports formed juvenile flight/tail feathers at 2–3 weeks but not adult-crisp pattern.
+- **Applied:** #10 v4 uses same-morph, near-equal adults and a fully supported gray mesoptile young with one formed but soft balancing wing. The first render failed both adult scale and juvenile-wing pattern; one edit corrected them.
+- **Verified visually:** full master and juvenile/adult crops passed at 2026-11-04T23:20:22.586+08:00. This validates the claim-separation check for #10 v4 only; exact individual age, feather geometry and flight threshold remain scientifically unverified.

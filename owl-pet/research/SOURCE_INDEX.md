@@ -376,3 +376,34 @@
 - Correction: v2's age-unknown whitish downy juvenile is not the strongest available action-capable stage. V3 uses the primary-paper's free-living, flying, estimated 4–5-month pale-rufous juvenile and explicitly keeps the age estimate uncertain.
 - Still unknown: sex-specific size direction, exact hatch date, continuous feather sequence, universal first-flight timing, nest site/material, and how broadly one individual's wing pattern transfers.
 - The uploaded Heimo Mikkola file was not accessible in this run; no new Mikkola page claim was made.
+
+
+## 2026-11-04 — #13 *Micrathene whitneyi* v8 — quantitative 21–22-day feather boundary
+
+### ELWO-LIGON-1968-UMMZ-P34-35
+- **Title / author / year:** *The Biology of the Elf Owl, Micrathene whitneyi* — J. David Ligon, 1968.
+- **Institution / source type:** University of Michigan Museum of Zoology, Miscellaneous Publications No. 136; original monograph.
+- **URL / accessed:** https://deepblue.lib.umich.edu/bitstream/2027.42/56380/1/MP136.pdf ; accessed 2026-11-04.
+- **Species / stage / pages:** *Micrathene whitneyi*; nestling development 0–28+ d; printed pp. 34–35, Figure 8.
+- **Facts read:** nestling period 28–33 d; at 17–18 d body contour feathers are present, upper wing coverts exceed the exposed remiges, feet are almost bare, head down remains; at 21–22 d first flight attempts occur, tail is about 1.7 cm and mostly sheathed, and longest primary is 3.8 cm with 2.1 cm still sheathed; 25–26 d birds still fly ineffectively and capable flight appears around 27–28 d.
+- **Limits / confidence:** high for the reported Arizona sequence and measurements; not a color plate and not proof of identical timing in every individual/subspecies.
+- **Design / review use:** juvenile at approximately 21–22 d, completely supported, with retained head down, mostly contoured body, nearly bare feet, upper coverts prominent, short partly sheathed remiges and an extremely short mostly sheathed tail. Links: `research/species/13-micrathene-whitneyi-v8.md`; concept v8; run `production/runs/20261104T223131+0800-cycle-1.md`.
+
+### ELWO-CORNELL-ID-2026
+- **Institution / accessed:** Cornell Lab of Ornithology; accessed 2026-11-04.
+- **URL / type:** https://www.allaboutbirds.org/guide/Elf_Owl/id ; institution-maintained identification account and photo reference.
+- **Facts read:** tiny round-headed owl, no ear tufts, yellow eyes, white eyebrow, diffuse gray-brown/rufous/white spotting and streaking; juveniles are grayer and less buff/brown.
+- **Limits:** secondary identification synthesis; no quantitative nestling sequence.
+- **Design use:** adult identity and juvenile color-boundary cross-check only.
+
+### ELWO-NPS-SAGUARO-2026
+- **Institution / accessed:** National Park Service, Saguaro National Park; accessed 2026-11-04.
+- **URL / type:** https://www.nps.gov/sagu/learn/nature/birds.htm ; institutional habitat and nesting summary.
+- **Facts read:** Elf Owls use former woodpecker holes/cavities in trees and saguaros in Sonoran desert habitat.
+- **Limits:** no detailed juvenile morphology or exact cavity geometry.
+- **Design use:** saguaro-cavity context only.
+
+### Reuse, correction and evidence boundary
+- Reused the v7 Mikkola pp. 418–420 extract and ADW synthesis; the uploaded guide was not newly accessible in this run.
+- Corrected the v7 evidence state: its `Ligon 1968` item was only an unverified lead. V8 read the original monograph and replaces that lead with `ELWO-LIGON-1968-UMMZ-P34-35`.
+- Source accounting: new verified sources 3; reused sources 2; corrected leads 1.

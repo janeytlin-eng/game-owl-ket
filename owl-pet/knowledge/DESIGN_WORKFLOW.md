@@ -757,3 +757,12 @@ A report that recently fledged young occur in a month supports only a broad bree
 ### Evidence rule — prefer the best documented action-capable juvenile stage
 When a primary field paper documents an older juvenile's body proportions, feather generation, supported perch and actual flight, prefer that stage over a less-specific captive downy bird. Preserve the paper's age estimate as an estimate, do not invent a nest, and allow formed remiges when flight and adult-like wing pattern are explicitly observed. Applied to #155 v3 on 2026-11-04; validation remains pending until image review.
 - **Applied and validated:** #155 v3, 2026-11-04T22:08:31+08:00. The primary-paper older juvenile boundary produced a secure, alert, smaller/stubbier bird with loose first-generation plumage and formed barred wing; crop inspection found no edit needed. This validates the rule for evidence-bounded stage selection, not universal age transfer.
+
+
+## 2026-11-04 — Quantitative sheath rule for pre-flight juveniles (#13 v8)
+
+- **Problem found:** a generic "short developing wing" prompt can still drift toward either a plush hatchling or a fully layered adult wing.
+- **Evidence:** Ligon 1968 printed pp. 34–35 gives a 21–22-day Elf Owl boundary: first flight attempts, tail about 1.7 cm and mostly sheathed, longest primary 3.8 cm with 2.1 cm ensheathed; upper wing coverts were already more exposed than remiges by 17–18 days.
+- **Rule added:** when a primary source provides measured sheath exposure, explicitly encode (1) relative covert/remex visibility, (2) which regions retain down, (3) foot feather state, (4) tail projection, and (5) demonstrated action ability. Do not replace partially sheathed feathers with either mature layered remiges or a featureless down ball.
+- **Applied:** #13 v8 prompt uses an approximately 21–22-day, fully supported cavity bird making an ineffective wing stretch with retained head down, mostly contoured body, nearly bare feet, upper coverts prominent, short partly sheathed remiges and an extremely short tail.
+- **Validation state:** application recorded at RESEARCH_READY; effectiveness remains pending original-size image and crop review.

@@ -2947,3 +2947,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Original](concepts/45-strix-seloputo-v5.png) · [Research](../research/species/45-strix-seloputo-v5.md) · [Review](../research/reviews/45-strix-seloputo-v5-review.md) · [Run](../production/runs/20261105T033723+0800-cycle-1.md)
 - Full-resolution v5: equal-scale adults; one-family 2–4-day post-fledging downy brancher with short balance wing, two-foot support and independent-flight uncertainty. One edit shortened overly mature remiges. PASS_WITH_LIMITATIONS; science false; immutable archive readback passed.
+
+
+## #46 Mottled Wood Owl — *Strix ocellata* — v5 ARCHIVED (readback pending)
+
+- [Original](concepts/46-strix-ocellata-v5.png) · [Research](../research/species/46-strix-ocellata-v5.md) · [Review](../research/reviews/46-strix-ocellata-v5-review.md) · [Run](../production/runs/20261105T040500+0800-cycle-2.md)
+- Full-resolution v5 preserves verified low-resolution v4. Day-34–36 split-supported brancher; both wings folded, wing/tail about half-grown, flight age unknown. No edit; PASS_WITH_LIMITATIONS; science false.

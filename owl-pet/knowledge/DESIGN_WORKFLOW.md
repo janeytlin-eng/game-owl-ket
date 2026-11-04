@@ -836,3 +836,7 @@ When a species-specific source documents a juvenile leaving a cavity and remaini
 
 ### Balance flapping is not flight; preserve dated conflicts (applied on #45 v5)
 When a juvenile is documented walking, scrambling or flapping for balance, do not convert that action into independent flight. Keep natural support visible and bound the wing to the photographed developmental stage. If two parts of one chronology disagree by a day, retain the conflict and use a conservative interval rather than silently selecting a date. #45 v5 applied both rules: its first render was edited to shorten mature-looking remiges, then full/crop recheck passed with limitations. This validates the correction only, not a universal *Strix seloputo* development curve.
+
+
+### Reconcile all manifests before choosing the next version (applied on #46 v5)
+A version absent from the primary manifest can still exist in a legacy manifest. Before archiving, search every active manifest and the concept path. #46 uncovered a verified low-resolution v4 only in `design/manifest.json`; the new full-resolution work was corrected to v5 before concept archive or credit. Morphological near-adult traits still do not prove flight: the day-34–36 bird remains split-supported with both wings folded.

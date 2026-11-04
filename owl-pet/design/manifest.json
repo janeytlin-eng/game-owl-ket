@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T04:00:00+08:00",
+  "updated": "2026-11-05T04:28:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20038,7 +20038,63 @@
         }
       },
       "verification_result": "Non-truncated immutable tree returned exact image path/blob/size identities; all three manifests and evidence records parsed from the archive tree."
+    },
+    {
+      "id": "46-strix-ocellata-v5",
+      "path": "design/concepts/46-strix-ocellata-v5.png",
+      "species_id": 46,
+      "scientific_name": "Strix ocellata",
+      "common_name": "Mottled Wood Owl",
+      "historical_names": [
+        "Syrnium ocellatum",
+        "Bulaca ocellata"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED_READBACK_PENDING",
+      "source_ids": [
+        "MOWL-ELA-FACTFILE-2012",
+        "MOWL-DESHPANDE-WOC-2022",
+        "MOWL-PANDE-JRR-2018",
+        "MOWL-OWLPAGES-ID-2020",
+        "MOWL-PEREGRINE-2026",
+        "MOWL-MIKKOLA-2013-P324-325"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/46-strix-ocellata-v5.md",
+      "review_record": "research/reviews/46-strix-ocellata-v5-review.md",
+      "run_record": "production/runs/20261105T040500+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3268873,
+      "git_blob": "5c4b4b52834080f79014773bb6a43cf38613b5a8",
+      "generated_path": "production/generated/46-strix-ocellata-v5-generated-master.png",
+      "generated_blob": "5c4b4b52834080f79014773bb6a43cf38613b5a8",
+      "reviewed_path": "production/reviewed/46-strix-ocellata-v5-reviewed-master.png",
+      "reviewed_blob": "5c4b4b52834080f79014773bb6a43cf38613b5a8",
+      "adults_review_crop": "production/review-crops/46-strix-ocellata-v5-adults.png",
+      "adults_review_blob": "4a40491b59239c40fbcd709efdd44484634065cc",
+      "juvenile_review_crop": "production/review-crops/46-strix-ocellata-v5-juvenile.png",
+      "juvenile_review_blob": "ad89347ca506d8e9c187e922ba609569568db0c7",
+      "reviewed_at": "2026-11-05T04:20:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1565290,
+      "adults_review_sha256": "b7f0a6f663319d370cfb213ce7872252ca84cd2271c0296f74fe5319c62188a8",
+      "juvenile_review_size_bytes": 1106458,
+      "juvenile_review_sha256": "577c19adc830cbbba54b77359a4e7d24262ceacf0c2829ad1a860e6ae295bf0b"
     }
   ],
-  "updated_at": "2026-11-05T04:00:00+08:00"
+  "updated_at": "2026-11-05T04:28:00+08:00"
 }

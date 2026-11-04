@@ -3142,3 +3142,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - One edit shortened adult-like juvenile remiges; full and crop recheck passed with limitations. Balance flapping remains distinct from independent flight.
 - Unique remains **176/251**; batch `20261105T033723+0800` is 1/6; lease released; next cycle 2.
 - [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/12701d7984f3f0f121b7f40fdd802c0909d8b00a/owl-pet/design/concepts/45-strix-seloputo-v5.png?raw=1)
+
+
+## 2026-11-05 #46 *Strix ocellata* v5 ARCHIVED — readback pending
+
+- Cross-manifest correction preserved existing low-resolution v4; current full-resolution asset is v5.
+- Day-34–36 split-supported branch walk; no edit; science=false; unique **176/251**; manifests 671/672/662; no credit before readback.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T00:58:00+08:00",
+  "updated": "2026-11-05T01:02:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -19459,19 +19459,41 @@
       "auxiliary_review_crop_size_bytes": 136492,
       "auxiliary_review_crop_sha256": "36fc18eedd878ddd14eca6c513521e145537c4fef6a056235a1f8e6bde473917",
       "archive_note": "Initial render had overlong bare adult tarsi and adult-like juvenile side wings. One targeted edit corrected both; full master and two resized diagnostic crops were reopened and inspected.",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_commit": null,
-      "fixed_archive_commit": null,
-      "archive_tree": null,
-      "verified_at": null,
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "cd3e37f08b973a81b43738b7407ab92dc5cbe11c",
+      "fixed_archive_commit": "cd3e37f08b973a81b43738b7407ab92dc5cbe11c",
+      "archive_tree": "7a2492e0c107f634be5999d989849dd7165fead6",
+      "verified_at": "2026-11-05T01:02:00+08:00",
       "readback": {
-        "status": "PENDING",
-        "method": "immutable archive commit exact path/blob readback pending",
-        "paths_verified": 0,
-        "binary_paths_verified": 0
+        "status": "VERIFIED_EVIDENCE",
+        "method": "immutable archive commit exact path/blob readback; recursive 2800-entry tree for small PNG paths after fetch_file UTF-8 decode limitation; three manifests parsed from archive blobs",
+        "commit_sha": "cd3e37f08b973a81b43738b7407ab92dc5cbe11c",
+        "tree_sha": "7a2492e0c107f634be5999d989849dd7165fead6",
+        "paths_verified": 16,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "blob": "48c16f0894b3919c9c3720711892177766c1fd31",
+          "bytes": 3195975
+        },
+        "juvenile_crop": {
+          "blob": "568bedf197c4480a15e8b2a44fae4327980f30d5",
+          "bytes": 89781
+        },
+        "adult_crop": {
+          "blob": "32c84db6bf789ab2285931fac39f56aefd7ccf3b",
+          "bytes": 136492
+        },
+        "manifest_counts": {
+          "design_image": 662,
+          "design_legacy": 663,
+          "production": 653
+        },
+        "connector_note": "small PNG fetch_file attempted UTF-8 decode; immutable recursive tree supplied exact path/blob/size evidence"
       }
     }
   ],
-  "updated_at": "2026-11-05T00:58:00+08:00"
+  "updated_at": "2026-11-05T01:02:00+08:00"
 }

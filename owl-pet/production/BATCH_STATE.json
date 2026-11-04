@@ -13534,30 +13534,23 @@
           "revision_increment": 1,
           "commit_sha": "a6c1c75d75984212c0ac0ca4e20fb84fbada68b9",
           "run_record": "owl-pet/production/runs/20261104T233010+0800-cycle-4.md"
+        },
+        {
+          "cycle": 5,
+          "species": "Megascops clarkii",
+          "species_id": 20,
+          "version": 5,
+          "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "cd3e37f08b973a81b43738b7407ab92dc5cbe11c",
+          "run_record": "owl-pet/production/runs/20261105T003800+0800-cycle-5.md"
         }
       ],
-      "next_cycle": 5,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "20261105T003800+0800-cycle-5",
-        "batch_id": "20261104T223131+0800",
-        "cycle": 5,
-        "heartbeat_at": "2026-11-05T00:58:00+08:00",
-        "expires_at": "2026-11-05T01:18:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 5,
-        "run_id": "20261105T003800+0800-cycle-5",
-        "species": "Megascops clarkii",
-        "species_id": 20,
-        "version": 5,
-        "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
-        "stage": "ARCHIVED",
-        "started_at": "2026-11-05T00:38:00+08:00",
-        "run_record": "owl-pet/production/runs/20261105T003800+0800-cycle-5.md",
-        "heartbeat_at": "2026-11-05T00:58:00+08:00"
-      },
-      "current_stage": "ARCHIVED",
+      "next_cycle": 6,
+      "active_lease": null,
+      "in_progress": null,
+      "current_stage": "VERIFIED",
       "events": [
         {
           "at": "2026-11-04T23:27:16.871+08:00",
@@ -13770,6 +13763,26 @@
             ],
             "readback_pending": true
           }
+        },
+        {
+          "at": "2026-11-05T01:02:00+08:00",
+          "cycle": 5,
+          "run_id": "20261105T003800+0800-cycle-5",
+          "stage": "VERIFIED",
+          "species": "Megascops clarkii",
+          "version": 5,
+          "evidence": {
+            "archive_commit": "cd3e37f08b973a81b43738b7407ab92dc5cbe11c",
+            "archive_tree": "7a2492e0c107f634be5999d989849dd7165fead6",
+            "paths_verified": 16,
+            "binary_paths_verified": 7,
+            "manifest_counts": [
+              662,
+              663,
+              653
+            ],
+            "exact_path_blob_readback": true
+          }
         }
       ]
     }
@@ -13913,7 +13926,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T00:58:00+08:00",
+  "updated_at": "2026-11-05T01:02:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

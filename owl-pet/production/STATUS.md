@@ -1,13 +1,11 @@
 # Owl prototype production status
 
-- Last verified: #17 *Megascops asio* v6; archive `661d2cacf3703d736d7dc1f88fbdc912a69783c5`.
+- Last verified: #20 *Megascops clarkii* v5; archive `cd3e37f08b973a81b43738b7407ab92dc5cbe11c`.
 - Unique species archived: 176/251.
-- Batch `20261104T223131+0800`: 1/6 verified; next cycle 2.
-- Manifest counts: 659 / 660 / 650.
-- Active lease: none after verified cycle 1.
+- Batch `20261104T223131+0800`: 5/6 verified; next cycle 6.
+- Manifest counts: 662 / 663 / 653.
+- Active lease: none after verified cycle 5.
+- Science status: concept PASS_WITH_LIMITATIONS; scientifically_verified=false.
 
-- 2026-11-04T22:52:12+08:00 #13 VERIFIED after original/crop review, two juvenile-stage edits, recursive-tree and exact path/blob/byte readback.
-- First archive `474365ef00254deb2bbf534524e0dbb2ccc62dbd` was rejected because all binary uploads were truncated by the transport cap; it received no cycle credit.
-- Corrected archive `1c6ca7d1d5662ae2b241d2f5b1320ac5fa2fc5d9` used aligned chunked uploads; remote sizes and local Git object hashes match.
-
-- #17 v6 verified 2026-11-04T23:10:01.220+08:00: post-fledging poor-flier stage, one wing-softening edit; science=false.
+- 2026-11-05T01:02:00+08:00 #20 VERIFIED after one tarsus/juvenile-wing edit, full/crop review, manifest parse and exact immutable tree path/blob/size readback.
+- Ordinary fetch_file attempted to UTF-8 decode the small PNG crops; the non-truncated 2,800-entry archive tree supplied exact verification instead.

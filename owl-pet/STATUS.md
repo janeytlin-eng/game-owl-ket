@@ -3104,3 +3104,12 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Concept: [design/concepts/20-megascops-clarkii-v5.png](design/concepts/20-megascops-clarkii-v5.png)
 - Research: new2/reused3/corrected2; exact juvenile age/flight/continuous feather sequence/sex-size direction remain unknown.
 - Three manifests 662/663/653; immutable archive readback pending; no cycle credit yet.
+
+
+## 2026-11-05 #20 *Megascops clarkii* v5 VERIFIED
+
+- ARCHIVE_REPAIR_AND_SCIENCE_REVISION; one targeted adult-tarsus/juvenile-wing edit; PASS_WITH_LIMITATIONS; science=false; unique remains **176/251**.
+- Archive `cd3e37f08b973a81b43738b7407ab92dc5cbe11c`; complete 2,800-entry immutable tree returned exact seven binary path/blob/size identities; manifests parse at 662/663/653.
+- Research new2/reused3/corrected2; exact juvenile age, flight threshold, continuous feather sequence and sex-size direction remain unknown.
+- Batch `20261104T223131+0800` is 5/6; lease released; next cycle 6.
+- [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/cd3e37f08b973a81b43738b7407ab92dc5cbe11c/owl-pet/design/concepts/20-megascops-clarkii-v5.png?raw=1)

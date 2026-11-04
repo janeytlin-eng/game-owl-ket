@@ -2931,7 +2931,7 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - V5 restores full resolution and separates adult-like 21–25 d plumage from later flight. One juvenile-iris edit; exact iris/flight chronology remains unknown. PASS_WITH_LIMITATIONS; science false.
 
 
-## #43 Forest Owlet — *Athene blewitti* — v5 ARCHIVED / readback pending
+## #43 Forest Owlet — *Athene blewitti* — v5 VERIFIED
 
 - [Original](concepts/43-athene-blewitti-v5.png) · [Research](../research/species/43-athene-blewitti-v5.md) · [Review](../research/reviews/43-athene-blewitti-v5-review.md) · [Run](../production/runs/20261105T022100+0800-cycle-5.md)
 - Full-resolution v5: equal adults, 28–30 d dark-eyed supported juvenile, no edit; exact iris/flight chronology unknown. PASS_WITH_LIMITATIONS; science false.

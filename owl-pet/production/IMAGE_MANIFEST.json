@@ -19302,12 +19302,47 @@
       "juvenile_review_crop": "production/review-crops/43-athene-blewitti-v5-juvenile.png",
       "juvenile_review_blob": "c4494139cacbcec5c2f3921a9eacb48750fff6ee",
       "reviewed_at": "2026-11-05T02:26:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1457484,
       "adults_review_sha256": "da4349c22ae849ba064086c2d188eca4ec441f4cee59222a0ce69976c6d07584",
       "juvenile_review_size_bytes": 801314,
-      "juvenile_review_sha256": "a1dffe08db2142630e0064059d77600bf084a038b1ac6b0b7f246514a9dce0c1"
+      "juvenile_review_sha256": "a1dffe08db2142630e0064059d77600bf084a038b1ac6b0b7f246514a9dce0c1",
+      "archive_commit": "6d2e0cc96bd3c9bc596586d1cb3340f48cb95d95",
+      "archive_tree": "1c7db3cb6145e5323d06f9a7d609eb5f4630d5aa",
+      "verified_at": "2026-11-05T02:30:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "6d2e0cc96bd3c9bc596586d1cb3340f48cb95d95",
+        "tree_sha": "1c7db3cb6145e5323d06f9a7d609eb5f4630d5aa",
+        "tree_entry_count": 2860,
+        "tree_truncated": false,
+        "paths_verified": 7,
+        "binary_paths_verified": 7,
+        "unique_binary_blobs": 3,
+        "all_git_blobs_match": true,
+        "concept": {
+          "path": "design/concepts/43-athene-blewitti-v5.png",
+          "blob": "3732b068cef1d8c51ba897a551cb96d0e61cca63",
+          "size_bytes": 3248854
+        },
+        "adult_crop": {
+          "path": "production/review-crops/43-athene-blewitti-v5-adults.png",
+          "blob": "30f8b36446068732e7aab8646feb0bf034b5a3d9",
+          "size_bytes": 1457484
+        },
+        "juvenile_crop": {
+          "path": "production/review-crops/43-athene-blewitti-v5-juvenile.png",
+          "blob": "c4494139cacbcec5c2f3921a9eacb48750fff6ee",
+          "size_bytes": 801314
+        },
+        "manifest_counts": {
+          "design_image": 668,
+          "design_legacy": 669,
+          "production": 659
+        }
+      },
+      "verification_result": "Exact seven image path/blob/size tuples, three manifests and evidence records read back from non-truncated immutable tree."
     }
   ],
-  "updated_at": "2026-11-05T02:28:00+08:00"
+  "updated_at": "2026-11-05T02:30:00+08:00"
 }

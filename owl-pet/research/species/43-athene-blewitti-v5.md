@@ -27,4 +27,4 @@ Scientific-educational owl electronic-pet concept sheet in the repository's esta
 - IMAGE_GENERATED: 2026-11-05T02:25:00+08:00 — 1536×1024, SHA-256 `b5cff844558e1a0d5ca1c345d700f393968d041e9d45caf945aac5bd08d29691`.
 - REVIEWED: 2026-11-05T02:26:00+08:00 — no edit required; PASS_WITH_LIMITATIONS; final blob `3732b068cef1d8c51ba897a551cb96d0e61cca63`; science false.
 - ARCHIVED: 2026-11-05T02:28:00+08:00 — image paths/manifests/review/workflow prepared; readback pending.
-- VERIFIED: pending.
+- VERIFIED: 2026-11-05T02:30:00+08:00 — accepted archive `6d2e0cc96bd3c9bc596586d1cb3340f48cb95d95`; exact master/crops/manifests read back.

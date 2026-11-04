@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04",
+  "updated": "2026-11-04T22:48:39+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -18339,7 +18339,63 @@
         "source_ids_present": 4,
         "source_index_leading_undefined_removed": true
       }
+    },
+    {
+      "id": "13-micrathene-whitneyi-v8",
+      "species_id": 13,
+      "scientific_name": "Micrathene whitneyi",
+      "historical_names": [],
+      "common_name": "Elf Owl",
+      "version": 8,
+      "prior_versions_retained": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "action": "ARCHIVE_REPAIR_AND_SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/13-micrathene-whitneyi-v8.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "status": "V8 preserves v1-v7 and the user-confirmed v5 record, replaces the low-resolution v7 review master, and applies Ligon 1968 printed pp.34-35. Adults are near-equal, no-ear-tuft, yellow-eyed Elf Owls. The approximately 21-22-day cavity juvenile is fully supported with retained head down, emerged body contour feathers, nearly bare feet, upper coverts more visible than short partly sheathed remiges, and an ineffective wing stretch; tail is extremely short/concealed. Exact age, subspecies, on-image feather measurements and live cavity geometry remain unknown; science=false.",
+      "source_ids": [
+        "ELWO-LIGON-1968-UMMZ-P34-35",
+        "ELWO-CORNELL-ID-2026",
+        "ELWO-NPS-SAGUARO-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-04--13-micrathene-whitneyi-v8--quantitative-2122-day-feather-boundary",
+      "research_record": "research/species/13-micrathene-whitneyi-v8.md",
+      "review_record": "research/reviews/13-micrathene-whitneyi-v8-review.md",
+      "run_record": "production/runs/20261104T223131+0800-cycle-1.md",
+      "reviewed_at": "2026-11-04T22:47:18+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 2605892,
+      "sha256": "c11ae432f7609313e97400f727cc7611ce565802a44f106c0383edcc90934338",
+      "git_blob": "ffbce993639680fb863509febc7e88939d69941d",
+      "generated_path": "production/generated/13-micrathene-whitneyi-v8-generated.png",
+      "generated_blob": "ffbce993639680fb863509febc7e88939d69941d",
+      "generated_size_bytes": 2605892,
+      "generated_sha256": "c11ae432f7609313e97400f727cc7611ce565802a44f106c0383edcc90934338",
+      "reviewed_path": "production/reviewed/13-micrathene-whitneyi-v8-reviewed-master.png",
+      "reviewed_blob": "ffbce993639680fb863509febc7e88939d69941d",
+      "review_crop_path": "production/review-crops/13-micrathene-whitneyi-v8-juvenile.png",
+      "review_crop_blob": "2f076d1ba2b9591fa33bef5738dbd12724988add",
+      "review_crop_size_bytes": 803769,
+      "review_crop_sha256": "07dd5080e791bee916ac2d89f9fd8fa8221c63191af9d23b2615fc83c91ebf34",
+      "auxiliary_review_crop_path": "production/review-crops/13-micrathene-whitneyi-v8-adults.png",
+      "auxiliary_review_crop_blob": "49e2e15350e33433147fa07eec751450108eee6f",
+      "auxiliary_review_crop_size_bytes": 1102262,
+      "auxiliary_review_crop_sha256": "bcd4c9bd355337040c34d634bf1016f3f603b4c3ea402d5cae0f6eb4087a7a09",
+      "archive_note": "Two targeted edits corrected adult-like juvenile remiges and an over-downy body. V1-v7 remain intact; v5 confirmation remains historical. Mikkola pp.418-420 and ADW were reused from v7, while Ligon primary pp.34-35, Cornell ID and NPS habitat were read this run. Scientific verification remains false.",
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-04T22:10:51+08:00"
+  "updated_at": "2026-11-04T22:48:39+08:00"
 }

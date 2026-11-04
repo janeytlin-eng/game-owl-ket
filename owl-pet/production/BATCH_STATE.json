@@ -13454,8 +13454,8 @@
         "run_id": "20261104T213333+0800-cycle-4",
         "batch_id": "20261104T183100+0800",
         "cycle": 4,
-        "heartbeat_at": "2026-11-04T21:33:33+08:00",
-        "expires_at": "2026-11-04T21:48:33+08:00"
+        "heartbeat_at": "2026-11-04T21:35:10+08:00",
+        "expires_at": "2026-11-04T21:50:10+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -13464,9 +13464,10 @@
         "species_id": 157,
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-11-04T21:33:33+08:00",
-        "run_record": "owl-pet/production/runs/20261104T213333+0800-cycle-4.md"
+        "run_record": "owl-pet/production/runs/20261104T213333+0800-cycle-4.md",
+        "heartbeat_at": "2026-11-04T21:35:10+08:00"
       }
     }
   ],
@@ -13475,8 +13476,8 @@
     "run_id": "20261104T213333+0800-cycle-4",
     "batch_id": "20261104T183100+0800",
     "cycle": 4,
-    "heartbeat_at": "2026-11-04T21:33:33+08:00",
-    "expires_at": "2026-11-04T21:48:33+08:00"
+    "heartbeat_at": "2026-11-04T21:35:10+08:00",
+    "expires_at": "2026-11-04T21:50:10+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -13609,7 +13610,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-04T21:33:33+08:00",
+  "updated_at": "2026-11-04T21:35:10+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -13623,8 +13624,8 @@
     "run_id": "20261104T213333+0800-cycle-4",
     "batch_id": "20261104T183100+0800",
     "cycle": 4,
-    "heartbeat_at": "2026-11-04T21:33:33+08:00",
-    "expires_at": "2026-11-04T21:48:33+08:00"
+    "heartbeat_at": "2026-11-04T21:35:10+08:00",
+    "expires_at": "2026-11-04T21:50:10+08:00"
   },
   "last_updated_at": "2026-11-04T20:51:43+08:00",
   "audit_notes": [
@@ -14392,9 +14393,10 @@
     "species_id": 157,
     "version": 3,
     "action": "SCIENCE_REVISION",
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "started_at": "2026-11-04T21:33:33+08:00",
-    "run_record": "owl-pet/production/runs/20261104T213333+0800-cycle-4.md"
+    "run_record": "owl-pet/production/runs/20261104T213333+0800-cycle-4.md",
+    "heartbeat_at": "2026-11-04T21:35:10+08:00"
   },
   "previous_checkpoint": {
     "batch_id": "20261101T015000+0800",
@@ -17606,11 +17608,41 @@
         "selection_reason": "existing v2 is archived but lacks a species research card and source-linked scientific calibration; revision targets documented riverine stick-nest context, adult vermiculation, and a supported circa-40-day down-rich juvenile",
         "lease_expires_at": "2026-11-04T21:48:33+08:00"
       }
+    },
+    {
+      "batch_id": "20261104T183100+0800",
+      "cycle": 4,
+      "run_id": "20261104T213333+0800-cycle-4",
+      "species_id": 157,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-04T21:35:10+08:00",
+      "credited": false,
+      "evidence": {
+        "source_ids": [
+          "VFO-BROSSET-ERARD-1986-P63",
+          "VFO-OISEAUXNET-2026-ID",
+          "VFO-NIKBORROW-2022-IMMATURE",
+          "VFO-ITIS-555424-2026"
+        ],
+        "new_sources": 4,
+        "reused_sources": 0,
+        "corrected_sources": 0,
+        "species_card": "owl-pet/research/species/157-scotopelia-bouvieri-v3.md",
+        "full_prompt_saved": true,
+        "unknowns": [
+          "exact 40-day feather map",
+          "juvenile iris chronology",
+          "flight threshold",
+          "quantified sex-size direction"
+        ],
+        "mikkola_upload_accessible": false,
+        "lease_expires_at": "2026-11-04T21:50:10+08:00"
+      }
     }
   ],
   "active_batch_id": "20261104T183100+0800",
   "active_cycle": 4,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,

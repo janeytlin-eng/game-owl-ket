@@ -254,3 +254,42 @@ undefined
 - Reused previously indexed `WTSO-MIK2013-249` and `WTSO-MACAULAY-1980` from the v2 record; the uploaded Mikkola guide itself was not accessible in this run, so no new page claim was added.
 - Corrected the v2 archive claim after original-resolution review: the center juvenile still has a long, regularly layered adult-like folded wing with repeated pale covert marks and the plate title lacks inventory number #127.
 - V3 boundary: one older, fully supported, age-unknown juvenile with warm buff/gray mesoptile, dark uncertain iris and a compact soft wing ending well above the feet; no exact age, flight threshold, nest form or fixed sex-size ratio.
+
+
+## 2026-11-04 — #157 *Scotopelia bouvieri* v3 — riverine stick nest and down-rich young
+
+### VFO-BROSSET-ERARD-1986-P63
+- **Title / authors / year:** *Les oiseaux des régions forestières du Nord-Est du Gabon. I. Ecologie et comportement des espèces* — André Brosset & Christian Erard, 1986.
+- **DOI / URL:** https://doi.org/10.3406/revec.1986.5179 ; https://www.persee.fr/doc/revec_1168-3651_1986_sup_41_3_5179?pageId=T1_63
+- **Type / page / accessed:** primary long-term field account; species account navigated at Persée page view T1_63 (article pp.4–289); accessed 2026-11-04.
+- **Facts read:** the species was associated with large rivers in NE Gabon; August nests were stick platforms in trees roughly 2.5–3 m above water, with only a few adult feathers; observed broods included one or two young around 40 days; another nest reused an old *Lampribis rara* nest; growth was unusually slow and one young estimated at 35 days still retained juvenile down about three months later.
+- **Limits:** the account does not give a color plate, sexed adult comparison, exact 40-day feather map, eye chronology or locomotor threshold.
+- **Design use:** retain an open stick platform above water; show a supported, down-rich circa-40-day young and make no flight claim.
+
+### VFO-OISEAUXNET-2026-ID
+- **Title / institution / accessed:** *Chouette pêcheuse de Bouvier — Scotopelia bouvieri* — Oiseaux.net; accessed 2026-11-04.
+- **URL:** https://www.oiseaux.net/oiseaux/chouette.pecheuse.de.bouvier.html
+- **Type / scope:** edited secondary species synthesis, adult identity and juvenile overview.
+- **Facts read:** adults have dark eyes, a short yellowish bill, no ear tufts, brown upperparts with black vermiculation and pale scapular accents, pale sandy underparts with dark streaks, an indistinct facial disc, and bare tarsi/feet; the juvenile is described as pale mesoptile, sometimes with a cinnamon wash; listed length about 51 cm and species monotypic.
+- **Limits:** secondary synthesis; no primary sample, exact age, sex-size effect or motion threshold. Juvenile color is used only as a cautious boundary alongside the primary down-retention record.
+- **Design use:** calibrate adult vermiculation/soft parts and prevent the juvenile from becoming a miniature adult.
+
+### VFO-NIKBORROW-2022-IMMATURE
+- **Title / photographer / date:** *Vermiculated Fishing Owl Scotopelia bouvieri* — Nik Borrow; photographed 2022-08-24.
+- **URL:** https://www.flickr.com/photos/nikborrow/52340778682/
+- **Type / scope:** identified field photograph with locality metadata; immature at Akaka, Loango National Park, Gabon.
+- **Facts/design:** supports a naturally perched older immature from Gabon and provides a real-bird comparison outside the nestling stage.
+- **Limits:** no exact age, sex, growth sequence or nest context; used as a general plausibility check, not as a literal circa-40-day template.
+
+### VFO-ITIS-555424-2026
+- **Institution / accessed:** Integrated Taxonomic Information System; accessed 2026-11-04.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555424
+- **Type / scope:** official taxonomy database.
+- **Fact:** accepts *Scotopelia bouvieri* Sharpe, 1875 as a species (TSN 555424).
+- **Limits/design:** taxonomy only. The current inventory name matches the cited combination; no different historical combination was asserted without a read source.
+
+### Reuse, correction and evidence boundary
+- Existing v2 was inspected at original resolution. Its open stick nest is supported, not removed; the revision narrows the platform scale and corrects the juvenile from dark, adult-patterned fluff toward a pale down-rich supported stage.
+- No quantified sex-size direction was found, so v3 uses near-equal adults and does not encode “female larger” as a rule.
+- The user-uploaded Mikkola guide was not accessible in this run; no new page claim was taken from it.
+- Links: `research/species/157-scotopelia-bouvieri-v3.md`; `production/runs/20261104T213333+0800-cycle-4.md`; planned concept `design/concepts/157-scotopelia-bouvieri-v3.png`.

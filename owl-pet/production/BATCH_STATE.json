@@ -12878,14 +12878,14 @@
       "active_lease": {
         "owner": "codex-work-production",
         "run_id": "20261104T173200+0800-cycle-6",
-        "heartbeat_at": "2026-11-04T17:39:30+08:00",
-        "expires_at": "2026-11-04T17:54:30+08:00"
+        "heartbeat_at": "2026-11-04T17:46:30+08:00",
+        "expires_at": "2026-11-04T18:01:30+08:00"
       },
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261104T173200+0800-cycle-6",
-        "heartbeat_at": "2026-11-04T17:39:30+08:00",
-        "expires_at": "2026-11-04T17:54:30+08:00"
+        "heartbeat_at": "2026-11-04T17:46:30+08:00",
+        "expires_at": "2026-11-04T18:01:30+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -12894,19 +12894,51 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T173200+0800-cycle-6",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "stage_evidence": {
-          "path": "owl-pet/production/generated/169-ketupa-shelleyi-v3-generated-master.png",
-          "blob_sha": "0a459ab032348233bebdcb02541ef8ec412a8381",
-          "bytes": 2968367,
-          "png": "1536x1024 RGB",
-          "sha256": "9dca79cc74713eb1bcf2eebb409f49998b36e8fa9f14209b7de874b36b670075",
           "viewed_full": true,
-          "generation_wait_seconds": 55.6,
-          "review_flags": [
-            "center mesoptile has overly long adult-hard layered folded wings",
-            "center tail length and regular barring too adult-like; targeted edit required"
-          ]
+          "viewed_crops": [
+            "age-unknown-mesoptile",
+            "adult-pattern-feet"
+          ],
+          "edit_count": 1,
+          "assets": {
+            "owl-pet/production/generated/169-ketupa-shelleyi-v3-edit1.png": {
+              "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+              "size": 2797525,
+              "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+            },
+            "owl-pet/production/reviewed/169-ketupa-shelleyi-v3-reviewed-master.png": {
+              "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+              "size": 2797525,
+              "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+            },
+            "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-mesoptile.png": {
+              "sha": "b7afe786b913546fc343f5a9165efda61b35aec1",
+              "size": 700164,
+              "sha256": "c931c89df0dc5c858498bfbc2553de5a15c4df070249c34d0038aa0a15246e4e"
+            },
+            "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-adult-pattern-feet.png": {
+              "sha": "2c609669972059ce54240fa7128859d252b5f59a",
+              "size": 2007297,
+              "sha256": "cf78ceb9595ff3ad5835e79bc76b7f11b24a6216a988fe54bec368539c929bb7"
+            }
+          },
+          "edit_result": "softened and modestly shortened only the mesoptile folded wing, reduced rigid repeated adult rows, and concealed the long tail; retained formed barred feathers, exact labels, adults and support",
+          "review_outcome": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "remaining_unknowns": [
+            "exact juvenile age",
+            "juvenile flight ability",
+            "continuous feather chronology",
+            "nest site/material",
+            "population eyelid variation",
+            "quantified sex-specific size difference"
+          ],
+          "timing": {
+            "generation_wait_seconds": 55.6,
+            "edit_wait_seconds": 50.5
+          }
         }
       },
       "last_checkpoint": {
@@ -12916,23 +12948,55 @@
         "version": 3,
         "action": "SCIENCE_REVISION",
         "run_id": "20261104T173200+0800-cycle-6",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "stage_evidence": {
-          "path": "owl-pet/production/generated/169-ketupa-shelleyi-v3-generated-master.png",
-          "blob_sha": "0a459ab032348233bebdcb02541ef8ec412a8381",
-          "bytes": 2968367,
-          "png": "1536x1024 RGB",
-          "sha256": "9dca79cc74713eb1bcf2eebb409f49998b36e8fa9f14209b7de874b36b670075",
           "viewed_full": true,
-          "generation_wait_seconds": 55.6,
-          "review_flags": [
-            "center mesoptile has overly long adult-hard layered folded wings",
-            "center tail length and regular barring too adult-like; targeted edit required"
-          ]
+          "viewed_crops": [
+            "age-unknown-mesoptile",
+            "adult-pattern-feet"
+          ],
+          "edit_count": 1,
+          "assets": {
+            "owl-pet/production/generated/169-ketupa-shelleyi-v3-edit1.png": {
+              "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+              "size": 2797525,
+              "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+            },
+            "owl-pet/production/reviewed/169-ketupa-shelleyi-v3-reviewed-master.png": {
+              "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+              "size": 2797525,
+              "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+            },
+            "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-mesoptile.png": {
+              "sha": "b7afe786b913546fc343f5a9165efda61b35aec1",
+              "size": 700164,
+              "sha256": "c931c89df0dc5c858498bfbc2553de5a15c4df070249c34d0038aa0a15246e4e"
+            },
+            "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-adult-pattern-feet.png": {
+              "sha": "2c609669972059ce54240fa7128859d252b5f59a",
+              "size": 2007297,
+              "sha256": "cf78ceb9595ff3ad5835e79bc76b7f11b24a6216a988fe54bec368539c929bb7"
+            }
+          },
+          "edit_result": "softened and modestly shortened only the mesoptile folded wing, reduced rigid repeated adult rows, and concealed the long tail; retained formed barred feathers, exact labels, adults and support",
+          "review_outcome": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "remaining_unknowns": [
+            "exact juvenile age",
+            "juvenile flight ability",
+            "continuous feather chronology",
+            "nest site/material",
+            "population eyelid variation",
+            "quantified sex-specific size difference"
+          ],
+          "timing": {
+            "generation_wait_seconds": 55.6,
+            "edit_wait_seconds": 50.5
+          }
         }
       },
-      "last_stage": "IMAGE_GENERATED",
-      "updated_at": "2026-11-04T17:39:30+08:00",
+      "last_stage": "REVIEWED",
+      "updated_at": "2026-11-04T17:46:30+08:00",
       "stage_history": [
         {
           "cycle": 1,
@@ -13312,6 +13376,59 @@
               "center tail length and regular barring too adult-like; targeted edit required"
             ]
           }
+        },
+        {
+          "cycle": 6,
+          "run_id": "20261104T173200+0800-cycle-6",
+          "species": "Ketupa shelleyi",
+          "stage": "REVIEWED",
+          "at": "2026-11-04T17:46:30+08:00",
+          "credited_cycle": false,
+          "evidence": {
+            "viewed_full": true,
+            "viewed_crops": [
+              "age-unknown-mesoptile",
+              "adult-pattern-feet"
+            ],
+            "edit_count": 1,
+            "assets": {
+              "owl-pet/production/generated/169-ketupa-shelleyi-v3-edit1.png": {
+                "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+                "size": 2797525,
+                "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+              },
+              "owl-pet/production/reviewed/169-ketupa-shelleyi-v3-reviewed-master.png": {
+                "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+                "size": 2797525,
+                "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+              },
+              "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-mesoptile.png": {
+                "sha": "b7afe786b913546fc343f5a9165efda61b35aec1",
+                "size": 700164,
+                "sha256": "c931c89df0dc5c858498bfbc2553de5a15c4df070249c34d0038aa0a15246e4e"
+              },
+              "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-adult-pattern-feet.png": {
+                "sha": "2c609669972059ce54240fa7128859d252b5f59a",
+                "size": 2007297,
+                "sha256": "cf78ceb9595ff3ad5835e79bc76b7f11b24a6216a988fe54bec368539c929bb7"
+              }
+            },
+            "edit_result": "softened and modestly shortened only the mesoptile folded wing, reduced rigid repeated adult rows, and concealed the long tail; retained formed barred feathers, exact labels, adults and support",
+            "review_outcome": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "remaining_unknowns": [
+              "exact juvenile age",
+              "juvenile flight ability",
+              "continuous feather chronology",
+              "nest site/material",
+              "population eyelid variation",
+              "quantified sex-specific size difference"
+            ],
+            "timing": {
+              "generation_wait_seconds": 55.6,
+              "edit_wait_seconds": 50.5
+            }
+          }
         }
       ]
     }
@@ -13319,8 +13436,8 @@
   "lease": {
     "owner": "codex-work-production",
     "run_id": "20261104T173200+0800-cycle-6",
-    "heartbeat_at": "2026-11-04T17:39:30+08:00",
-    "expires_at": "2026-11-04T17:54:30+08:00"
+    "heartbeat_at": "2026-11-04T17:46:30+08:00",
+    "expires_at": "2026-11-04T18:01:30+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -13453,7 +13570,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-04T17:39:30+08:00",
+  "updated_at": "2026-11-04T17:46:30+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -14234,19 +14351,51 @@
     "version": 3,
     "action": "SCIENCE_REVISION",
     "run_id": "20261104T173200+0800-cycle-6",
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "stage_evidence": {
-      "path": "owl-pet/production/generated/169-ketupa-shelleyi-v3-generated-master.png",
-      "blob_sha": "0a459ab032348233bebdcb02541ef8ec412a8381",
-      "bytes": 2968367,
-      "png": "1536x1024 RGB",
-      "sha256": "9dca79cc74713eb1bcf2eebb409f49998b36e8fa9f14209b7de874b36b670075",
       "viewed_full": true,
-      "generation_wait_seconds": 55.6,
-      "review_flags": [
-        "center mesoptile has overly long adult-hard layered folded wings",
-        "center tail length and regular barring too adult-like; targeted edit required"
-      ]
+      "viewed_crops": [
+        "age-unknown-mesoptile",
+        "adult-pattern-feet"
+      ],
+      "edit_count": 1,
+      "assets": {
+        "owl-pet/production/generated/169-ketupa-shelleyi-v3-edit1.png": {
+          "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+          "size": 2797525,
+          "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+        },
+        "owl-pet/production/reviewed/169-ketupa-shelleyi-v3-reviewed-master.png": {
+          "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+          "size": 2797525,
+          "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+        },
+        "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-mesoptile.png": {
+          "sha": "b7afe786b913546fc343f5a9165efda61b35aec1",
+          "size": 700164,
+          "sha256": "c931c89df0dc5c858498bfbc2553de5a15c4df070249c34d0038aa0a15246e4e"
+        },
+        "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-adult-pattern-feet.png": {
+          "sha": "2c609669972059ce54240fa7128859d252b5f59a",
+          "size": 2007297,
+          "sha256": "cf78ceb9595ff3ad5835e79bc76b7f11b24a6216a988fe54bec368539c929bb7"
+        }
+      },
+      "edit_result": "softened and modestly shortened only the mesoptile folded wing, reduced rigid repeated adult rows, and concealed the long tail; retained formed barred feathers, exact labels, adults and support",
+      "review_outcome": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "remaining_unknowns": [
+        "exact juvenile age",
+        "juvenile flight ability",
+        "continuous feather chronology",
+        "nest site/material",
+        "population eyelid variation",
+        "quantified sex-specific size difference"
+      ],
+      "timing": {
+        "generation_wait_seconds": 55.6,
+        "edit_wait_seconds": 50.5
+      }
     }
   },
   "previous_checkpoint": {
@@ -17078,7 +17227,7 @@
   ],
   "active_batch_id": "20261104T152800+0800",
   "active_cycle": 6,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
@@ -17587,6 +17736,60 @@
           "center mesoptile has overly long adult-hard layered folded wings",
           "center tail length and regular barring too adult-like; targeted edit required"
         ]
+      }
+    },
+    {
+      "batch_id": "20261104T152800+0800",
+      "cycle": 6,
+      "run_id": "20261104T173200+0800-cycle-6",
+      "species_id": 169,
+      "stage": "REVIEWED",
+      "at": "2026-11-04T17:46:30+08:00",
+      "credited": false,
+      "evidence": {
+        "viewed_full": true,
+        "viewed_crops": [
+          "age-unknown-mesoptile",
+          "adult-pattern-feet"
+        ],
+        "edit_count": 1,
+        "assets": {
+          "owl-pet/production/generated/169-ketupa-shelleyi-v3-edit1.png": {
+            "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+            "size": 2797525,
+            "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+          },
+          "owl-pet/production/reviewed/169-ketupa-shelleyi-v3-reviewed-master.png": {
+            "sha": "a6ee3adc1f21802f0f3222b73c1eaf1f4733fca7",
+            "size": 2797525,
+            "sha256": "d8bbaf6de53993e42beee89b8416ca30e46bc287c4828d444ed1e92685d1518f"
+          },
+          "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-mesoptile.png": {
+            "sha": "b7afe786b913546fc343f5a9165efda61b35aec1",
+            "size": 700164,
+            "sha256": "c931c89df0dc5c858498bfbc2553de5a15c4df070249c34d0038aa0a15246e4e"
+          },
+          "owl-pet/production/review-crops/169-ketupa-shelleyi-v3-adult-pattern-feet.png": {
+            "sha": "2c609669972059ce54240fa7128859d252b5f59a",
+            "size": 2007297,
+            "sha256": "cf78ceb9595ff3ad5835e79bc76b7f11b24a6216a988fe54bec368539c929bb7"
+          }
+        },
+        "edit_result": "softened and modestly shortened only the mesoptile folded wing, reduced rigid repeated adult rows, and concealed the long tail; retained formed barred feathers, exact labels, adults and support",
+        "review_outcome": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "remaining_unknowns": [
+          "exact juvenile age",
+          "juvenile flight ability",
+          "continuous feather chronology",
+          "nest site/material",
+          "population eyelid variation",
+          "quantified sex-specific size difference"
+        ],
+        "timing": {
+          "generation_wait_seconds": 55.6,
+          "edit_wait_seconds": 50.5
+        }
       }
     }
   ]

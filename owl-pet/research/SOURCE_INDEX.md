@@ -1074,3 +1074,45 @@
 - Current name *Ketupa zeylonensis*; historical/original combination *Strix zeylonensis*. Uploaded Mikkola guide unavailable; no fresh page claim.
 - Unknown: exact juvenile age/sex/subspecies, continuous feather chronology, first-flight competence, quantified sex dimensions and cross-population transfer. Scientific status remains false.
 
+## 2026-11-05 — #60 *Ketupa flavipes* v5 — living-tree nest and older-nestling boundary
+
+### TFO-NTM-TMAV0148-2026
+- **Title / institution:** Tawny Fish Owl collection record TMAV0148 — National Taiwan Museum / Ministry of Culture.
+- **URL:** https://collections.culture.tw/ntm_collectionsweb/EN/Collection?GID=04MRMA0WMB
+- **Type / accessed:** institutional specimen/species page, including description and 11 linked figures; read 2026-11-05; no printed page.
+- **Species/stage:** *Ketupa flavipes* adult and general juvenile direction, Taiwan.
+- **Facts:** sexes described as alike in appearance; adults have bright-yellow iris, black bill, yellow feet, long loose ear tufts, white lores/throat, dark upperparts with yellow-brown margins, coarse ventral streaks and sparse pale tail bands. Juveniles are much paler yellow-brown with finer, less conspicuous dark streaks that darken/broaden with age.
+- **Limits/conflicts:** not a sexed mass series or dated juvenile feather sequence; “sexes alike” does not establish identical dimensions.
+- **Design use:** near-equal adult presentation; pale, fine-streaked older nestling without adult-perfect coarse pattern.
+- **Links:** `research/species/60-ketupa-flavipes-v5.md`; planned concept v5; run `production/runs/20261105T105535+0800-cycle-2.md`.
+
+### TFO-SPNP-NPUST-2026-L8-20
+- **Title / institution / date:** “揭開暗夜王者的育雛祕密！” — Shei-Pa National Park Administration with NPUST bird-ecology team, 2026-04-29.
+- **URL:** https://www.spnp.gov.tw/ch/specialreport/latest-news/3717
+- **Type / accessed:** official field-team announcement, lines 8–20; read 2026-11-05; no printed page.
+- **Species/stage:** two Wuling nestlings, approximately 40 and 30 days.
+- **Facts:** 1.5 m-diameter living *Magnolia compressa*; hollow Y-fork with humus/epiphytic ferns; larger chick 1,212 g/about 40 days, smaller 899 g/about 30 days; approximate 60-day rearing period used only to estimate departure.
+- **Limits/conflicts:** site-specific approximate ages; no feather-tract plate, sex, first-flight test or universal threshold.
+- **Design use:** large but lower approximately-40-day nestling, fully supported in the documented living-tree Y-fork; no flight claim.
+
+### TFO-PTS-SPNP-2026-L38-47
+- **Title / source / date:** “雪霸國家公園直播黃魚鴞育雛 完整記錄親鳥照顧2幼鳥” — Public Television Service, 2026-05-03.
+- **URL:** https://news.pts.org.tw/article/806544
+- **Type / accessed:** public-service report carrying Shei-Pa/NPUST comments, lines 38–47; read 2026-11-05; no printed page.
+- **Species/stage:** older Wuling nestling approaching nest departure.
+- **Facts:** larger young climbed about 5 m above its original nest; researcher described supported trunk exploration near departure as normal.
+- **Limits/conflicts:** reporter's “practice flight” language is not a flight test and does not age the v5 illustrated bird.
+- **Design use:** supported standing/preening/low clamber only; no launch or unsupported flight.
+
+### TFO-TAIEOL-2013-2024 (re-read)
+- **Title / institution:** *Ketupa flavipes* species account — Taiwan Encyclopedia of Life / *The Avifauna of Taiwan*; nest traits updated 2024.
+- **URL:** https://taieol.tw/pages/73524/articles
+- **Type / accessed:** institutional synthesis; description, similarity, habitat, ecology and reproduction re-read 2026-11-05; no printed page.
+- **Facts:** adult diagnostic plumage; feathering only upper/front tarsus with bare-yellow lower tarsus/toes; monotypic treatment; historical *Bubo flavipes*; stream forest, supported secondary cavity and >50-day Taiwan nestling period.
+- **Limits/design use:** no sexed size or continuous juvenile series; adult morphology/nest support only, with no first-flight inference.
+
+### Reused, corrected and unverified
+- Reused `TFO-WANG-2013` and `TFO-SUN-NEST-1997`; BHL blocked the latter with 403 in this run, so no false re-read claim. Mikkola upload unavailable; no new page claim.
+- NDLTD blocked `TFO-LIU-2015-UNVERIFIED` with CAPTCHA; its indexed abstract remains a lead only, not verified design evidence.
+- Corrections: “sexes alike” is not a measured size ratio; a >50/approximately-60-day nest period is not a 40-day flight threshold; supported trunk exploration is not flight competence. New3 / re-read1 / reused2 / corrected3; scientific status false.
+

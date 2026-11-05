@@ -3091,3 +3091,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Immutable archive verification 2026-11-05T22:47:00+08:00: commit `3f81a4d7a1ca2e87875734f4060fbd1d04151b44`, tree `403437218d67c409a272c8d742de2e1adb2595fe`; non-truncated 3,136 entries, 14 required paths and five exact binary blob/size tuples passed. Manifests 698/699/689; ledger credit pending.
 - Ledger credit 2026-11-05T22:50:00+08:00: verification commit `2e00e2305ffde868103511122969ec1701440870`, tree `de4df1d6759f1e669d6498f69ab84434b7f807d7`; batch cumulative 5/6, next cycle 6, lease released. Science false.
 
+## #76 Striped Owl — *Asio clamator* — v5
+
+- [Concept](concepts/76-asio-clamator-v5.png) · [Research](../research/species/76-asio-clamator-v5.md) · [Review](../research/reviews/76-asio-clamator-v5-review.md) · [Run](../production/runs/20261105T225332+0800-cycle-6.md)
+- V5 preserves v1–v4 and replaces the static adult-spotted juvenile wing with an evidence-bounded approximately 25–30-day supported exercise pose. Warm brown down, forming disc, short emerging tufts and growing non-adult remiges remain; adults stay near-equal because sex-size direction is unresolved. Full and crop review passed without edit. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable archive readback pending.
+

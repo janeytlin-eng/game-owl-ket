@@ -200,5 +200,11 @@
 
 - Verification commit `56158a470ff153c2ad2da7024f1a8fbc9f347865`, tree `d46bd6a3a107239f7d2f0ec634a1afa00b95bce1`, credited exactly once. Batch next cycle is 5; lease released. Unique 176/251; revision +1; science false.
 
+## 2026-11-05 #76 *Asio clamator* v5 ARCHIVED — readback pending
+
+- Batch `20261105T183434+0800`, cycle 6/6. New primary development sequence 1, re-read 4 and corrected design boundaries 2; v1–v4 preserved.
+- The first successful generated master was recovered after context interruption without duplicate generation. Full 1536×1024 plus adult/group and juvenile/support crops were opened; supported pre-flight exercise and non-adult wing finish pass without edit.
+- Manifests prepared at 699/700/690; unique remains 176/251; revision +1; `PASS_WITH_LIMITATIONS`; science false. No cycle credit before immutable archive readback.
+
 
 

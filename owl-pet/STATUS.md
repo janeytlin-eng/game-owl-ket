@@ -3355,3 +3355,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Verification commit `2e00e2305ffde868103511122969ec1701440870`, tree `de4df1d6759f1e669d6498f69ab84434b7f807d7`, is credited exactly once. Batch `20261105T183434+0800` advances to cycle 6, lease released. Unique 176/251; revision +1; science false.
 
+## 2026-11-05 #76 *Asio clamator* v5 ARCHIVED — readback pending
+
+- New primary development sequence 1, re-read 4 and corrected design boundaries 2; v1–v4 preserved. Full and crop inspection passed the supported 25–30-day pre-flight exercise boundary without edit.
+- Manifests prepared at 699/700/690; unique remains 176/251; revision +1; `PASS_WITH_LIMITATIONS`; science false. Cycle 6 receives no credit before immutable readback.
+

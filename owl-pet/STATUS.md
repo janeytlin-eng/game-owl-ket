@@ -3272,3 +3272,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Corrected archive `46621a84d69e59e1c3783333eeb12d98ffd789f0`, tree `08cc01195ae4032c0b6b7586023e749221e37a18`, passed non-truncated 17-path readback with five exact full-size binary tuples after rejecting `ad9acbecf9cfbcef6b5539fb38db547d802347e4`.
 - Manifests 693/694/684; PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit pending.
+
+### #70 v5 LEDGER_CREDITED — batch COMPLETE 6/6
+
+- Verification commit `dcf9d169bf08bf527f277f7367c4d5fc1731961d`, tree `a534e677f90ada2ef4c1358b24e9944f6bd91ab8`, is credited exactly once. Batch `20261105T153530+0800` is COMPLETE 6/6; lease released. Unique 176/251; revision +1; science false.

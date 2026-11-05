@@ -125,3 +125,7 @@
 
 - Corrected archive `46621a84d69e59e1c3783333eeb12d98ffd789f0`, tree `08cc01195ae4032c0b6b7586023e749221e37a18`, passed non-truncated 17-path and exact five-binary-tuple readback.
 - Manifests 693/694/684; unique 176/251; science false. Ledger credit pending.
+
+### #70 v5 LEDGER_CREDITED — batch COMPLETE 6/6
+
+- Verification commit `dcf9d169bf08bf527f277f7367c4d5fc1731961d` and tree `a534e677f90ada2ef4c1358b24e9944f6bd91ab8` were read back. Cycle 6 is credited once; batch `20261105T153530+0800` is COMPLETE 6/6 and the lease is released. Unique remains 176/251; revision +1; science false.

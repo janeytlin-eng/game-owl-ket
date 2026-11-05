@@ -3276,3 +3276,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #70 v5 LEDGER_CREDITED — batch COMPLETE 6/6
 
 - Verification commit `dcf9d169bf08bf527f277f7367c4d5fc1731961d`, tree `a534e677f90ada2ef4c1358b24e9944f6bd91ab8`, is credited exactly once. Batch `20261105T153530+0800` is COMPLETE 6/6; lease released. Unique 176/251; revision +1; science false.
+
+## 2026-11-05 #71 *Ninox connivens* v5 ARCHIVED — readback pending
+
+- Bullock 2026’s complete field sequence replaces a generic recent fledgling with a directly dated Day-30 object-play juvenile: formed wing/tail proportions, downy collar/thighs, white tail tips and full branch support.
+- One imagegen edit softened crisp adult-like juvenile wing spots. Edited full frame and both crops passed; adults retain only a restrained overlapping male-larger direction.
+- Manifests 694/695/685; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false. Cycle 1 receives no credit before immutable readback.

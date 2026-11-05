@@ -129,3 +129,8 @@
 ### #70 v5 LEDGER_CREDITED — batch COMPLETE 6/6
 
 - Verification commit `dcf9d169bf08bf527f277f7367c4d5fc1731961d` and tree `a534e677f90ada2ef4c1358b24e9944f6bd91ab8` were read back. Cycle 6 is credited once; batch `20261105T153530+0800` is COMPLETE 6/6 and the lease is released. Unique remains 176/251; revision +1; science false.
+
+## #71 *Ninox connivens* v5 ARCHIVED — readback pending
+
+- First render blob `cbd9b9cd4e47878885e518985e7b26c41db5b7ff` is preserved. Final concept/edit/reviewed blob `7b7f55ae351d197b0857a032e78b3de042bacb24`; adult crop `bcc47678ad2e1dde16ec55d02e13fb4fac589e1e`; juvenile crop `4dfe7a783bfc9e3607d07953f6b33fd9defc01f1`.
+- One juvenile-wing texture edit passed full/crop review. Manifests 694/695/685; unique 176/251; revision +1; science false. No cycle credit before fixed-commit readback.

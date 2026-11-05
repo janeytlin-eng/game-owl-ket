@@ -22,3 +22,11 @@
 
 
 Verification 2026-10-31T00:54:43+08:00: fixed archive `c770e1c38f7e30027d5c4e49d67becd9fc0b4d15` returned exact assets and non-truncated tree; manifests 577/576/567; science false.
+
+## v5 — 2026-11-05 — Day-30 object-play juvenile revision
+
+- V1–v4 and all historical user-confirmation records are preserved; new concept: [71-ninox-connivens-v5.png](../../design/concepts/71-ninox-connivens-v5.png).
+- Bullock 2026 pp.172–184 supplies a directly observed post-fledging sequence. V5 selects Day 30: one juvenile manipulating paperbark between bill and foot; by Day 33 juveniles had adult-like wing/tail proportions but retained downy collar/thighs and white rectrix tips.
+- First render had several crisp adult-like juvenile wing spots. One targeted edit softened them to diffuse juvenile mottling while preserving formed wing/tail, down, tail tips, object-play pose, foot support, adults, text and scene.
+- Adults remain similar and overlapping in size; male only subtly longer/fuller. Full frame and both crops passed with limitations. Exact feather counts, juvenile sex/hatch age, subspecies transfer and population-wide timing remain unknown; science false.
+- [Research](../../research/species/71-ninox-connivens-v5.md) · [Review](../../research/reviews/71-ninox-connivens-v5-review.md) · [Run](../../production/runs/20261105T183434+0800-cycle-1.md).

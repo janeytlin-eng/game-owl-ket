@@ -3059,3 +3059,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/70-ninox-strenua-v5.png) · [Research](../research/species/70-ninox-strenua-v5.md) · [Review](../research/reviews/70-ninox-strenua-v5-review.md) · [Run](../production/runs/20261105T173620+0800-cycle-6.md)
 - V5 preserves v1–v4 and replaces a conspicuous adult size gap with Cooke et al. 2020's comparable-scale direct-alert cues. The recent fledgling retains developed folded wings/tail but remains fully supported at the hollow lip with no polished-flight claim. No edit; PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+
+## #71 Barking Owl — *Ninox connivens* — v5
+
+- [Concept](concepts/71-ninox-connivens-v5.png) · [Research](../research/species/71-ninox-connivens-v5.md) · [Review](../research/reviews/71-ninox-connivens-v5-review.md) · [Run](../production/runs/20261105T183434+0800-cycle-1.md)
+- V5 preserves v1–v4 and selects Bullock 2026’s directly dated Day-30 post-fledging stage. The juvenile keeps formed wing/tail proportions, downy collar/thighs and white tail tips while manipulating paperbark with bill and one foot. One edit softened adult-like white wing spots; full and crop review passed. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback pending.

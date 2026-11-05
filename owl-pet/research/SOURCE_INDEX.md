@@ -1345,3 +1345,16 @@
 - New1 / re-read3 / reused2 / corrected3. Adult bars must remain fine/narrow/broken rather than broad zebra bands; male-larger morphometrics are not a fixed illustrated height ratio; directly observed branch walking/wing stretching supports formed juvenile wings but not adult-perfect bar rows or a universal flight threshold.
 - One web lead was rejected because its prose and mass table contradict each other and its wingspan is implausible. Uploaded Mikkola guide unavailable; no fresh page claim. Exact age/sex, juvenile iris, feather chronology, action transfer and subspecies transfer remain unknown; science false.
 
+# MOR-STEPHENSON-THESIS-1998
+
+- Title: *The ecology and breeding biology of morepork, Ninox novaeseelandiae, and their risk from secondary poisoning, in New Zealand*
+- Author/institution/year: Brent Mark Stephenson; Massey University; 1998
+- URL: http://hdl.handle.net/10179/9851 ; full PDF https://mro.massey.ac.nz/server/api/core/bitstreams/a71313ab-b6a0-46b5-84fa-a07309da4b89/content
+- Accessed: 2026-11-05
+- Type: primary MSc thesis / field capture, telemetry and breeding study
+- Taxon/stage: New Zealand *Ninox novaeseelandiae*; adults and immatures; Mokoia Island population
+- Pages/sections read: abstract; printed pp.30–33 (plumage, immatures, moult, sex morphology); chapter map for printed pp.91–115
+- Source fact: external plumage/morphometrics usually could not sex captured birds; known pairs looked alike in the field; immatures had a less distinct disc but broadly similar plumage. Captured females had significantly longer wing/bill width and higher mass.
+- Design support: near-equal displayed adult height with only restrained female fullness/wing direction; softer juvenile facial disc. Does not support a fixed visible sex ratio or day-by-day feather geometry.
+- Limits/confidence: strong primary evidence for the studied Mokoia sample; population transfer and exact visual ratios remain unknown. Linked to `research/species/74-ninox-novaeseelandiae-v5.md`, v5 image/review and batch cycle 4.
+

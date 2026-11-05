@@ -1,3 +1,8 @@
+## 2026-11-06 #86 *Otus elegans interpositus* v4 LEDGER_CREDITED — batch 3/6
+
+- Verification commit `6d093d6631f14b68a89a3155281cf914b65f6aec`, tree `7891ad93ddcd9eee38b75fa4d780f09f60e77c05`, passed after fixed archive `ea2d8ccba32ee0ed9f84b83759bf56242b60e638`. Cycle 3 credited once; batch next cycle 4; lease released.
+- Unique species remains 176/251; revision +1; `scientifically_verified=false`.
+
 ## 2026-11-06 #86 *Otus elegans interpositus* v4 VERIFIED — ledger credit pending
 
 - Initial archive `44ecc905` exposed five truncated large-binary transfers and was superseded before credit. Fixed archive `ea2d8ccba32ee0ed9f84b83759bf56242b60e638`, tree `65019e61a97cbfbfa876acb9d8787039c84d716e`, returned 3,222 non-truncated entries, all 17 required paths and six exact binary path/blob/byte tuples.

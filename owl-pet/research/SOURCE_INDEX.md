@@ -1,3 +1,32 @@
+## 2026-11-06 — #83 *Otus brucei* v5 — Jordan recent-fledgling boundary and current/old-name mapping
+
+### BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287
+- **Title / authors / year:** “The first breeding record of Pallid Scops Owl *Otus brucei* in Jordan” — Fares Khoury, Mohammed Alshamlih & Ahmad Dheib, 2021.
+- **URL / pages / accessed:** https://www.researchgate.net/publication/357327177_The_first_breeding_record_of_Pallid_Scops_Owl_Otus_brucei_in_Jordan ; author-uploaded full text, *Sandgrouse* 43:286–287, especially printed p.287; read 2026-11-06.
+- **Type / species / stage:** primary field record; two recently fledged *O. brucei* juveniles in mature Jordan Valley palm plantation.
+- **Facts:** little ear tufts, rather short tail, fine breast/belly cross-bars without streaks, hissing/begging calls; birds observed together above the observers.
+- **Limits/conflicts:** short night observation and low-quality plate; no hatch date, sex, measured feather geometry or sustained-flight test.
+- **Design/check decision:** supported RECENT FLEDGLING, little tufts, short tail, fine transverse underpart bars and open-beak begging; no exact age or flight threshold.
+- **Links:** `owl-pet/research/species/83-otus-brucei-v5.md`; planned v5; `owl-pet/production/runs/20261106T043000+0800-cycle-1.md`.
+
+### BRU-ITIS-555375-2026
+- **Title / institution:** ITIS report TSN 555375 — Integrated Taxonomic Information System.
+- **URL / accessed / type:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555375 ; opened 2026-11-06; official taxonomy registry.
+- **Facts:** valid *Otus brucei* (Hume, 1872); synonym/original combination *Ephialtes brucei* Hume, 1872; four listed subspecies.
+- **Limits/design use:** taxonomy mapping only; no morphology or development inference.
+
+### BRU-SANGHA-MALIK-2010-P176-177
+- **Title / authors / year:** “Observations on wintering Pallid Scops Owl *Otus brucei* at Zainabad” — Harkirat Singh Sangha & Dhanraj Malik, 2010.
+- **URL / pages / accessed:** https://indianbirds.in/pdfs/IB_5.6.176-177.pdf ; full two-page PDF text, printed pp.176–177, read 2026-11-06.
+- **Type / stage:** field observation; wintering nominate adults, sex unknown.
+- **Facts:** creamy/grey birds with fine sharp dark streaks; relaxed versus sleeked posture and tuft position change apparent shape.
+- **Limits/design use:** no sex inference; posture/roundness is not mapped to male/female size.
+
+### Reused evidence and corrected boundaries
+- Re-read `BRU-BENDOV-KIAT2016`; reused `BRU-CHANDRAN-2016` and repository-pinned `BRU-MIK2013-126`. Uploaded Mikkola file was not mounted, so no fresh page claim is made.
+- Corrected boundaries: population fledging estimate is not an individual age; begging/branch presence is not proof of sustained flight; posture variation is not sex dimorphism; regional palm nesting is not universal geometry. New3 / re-read1 / reused2 / corrected4; science false.
+
+
 ## 2026-11-05 — #65 *Tyto soumagnei* v5 — no-visible-sex-dimorphism / down-only nestling boundary
 
 ### MRO-RAMAMONJISOA-2014-P56-57-75-77

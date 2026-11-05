@@ -3066,3 +3066,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - V5 preserves v1–v4 and selects Bullock 2026’s directly dated Day-30 post-fledging stage. The juvenile keeps formed wing/tail proportions, downy collar/thighs and white tail tips while manipulating paperbark with bill and one foot. One edit softened adult-like white wing spots; full and crop review passed. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback pending.
 - Immutable archive verification 2026-11-05T18:54:06+08:00: commit `af281d79f90023fb789c550155364ab0df62f8b8`, tree `304f89695b4aef8659d2def40b64c1c240f3aa73`, returned all 18 required paths and exact six-binary SHA/size tuples. Ledger credit pending; science false.
 - Ledger credit 2026-11-05T18:56:38+08:00: verification commit `0ac22e04f07f951a00141d5dd5e23ba8dfe81691`, tree `a54e541ee0d67ea448633cf71548c8552f211dc8`; batch 1/6, next cycle 2, lease released. Science false.
+
+## #72 Australian Boobook — *Ninox boobook* — v5
+
+- [Concept](concepts/72-ninox-boobook-v5.png) · [Research](../research/species/72-ninox-boobook-v5.md) · [Review](../research/reviews/72-ninox-boobook-v5-review.md) · [Run](../production/runs/20261105T193722+0800-cycle-2.md)
+- V5 preserves v1–v4 and corrects three evidence-bounded issues: adult irises are muted yellow-green/green-hazel rather than uniformly neon lemon, the rufous belly carries narrow white vertical streaks, and the blue-eyed recent fledgling retains formed wings/tail without adult-perfect spot rows. One juvenile-only edit passed full/crop recheck. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback pending.

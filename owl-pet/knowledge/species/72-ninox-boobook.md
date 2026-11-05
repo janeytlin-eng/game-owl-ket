@@ -8,3 +8,9 @@ Existing imagegen edit recovered, viewed again: nearly equal adult heights at ne
 
 ## v3 cycle4
 ABSA2019 pp1–2 actualAgeing re-read: downywhitejuvenile powderblue→strawyellow iris, no exacttransitionage. v3bothjuvenileirisesbluegrey andAustraliancommonnamecorrected; actualviewtargetpass, adultplumage/support/labelsvisuallyretained notpixelidentity. OlderMikkolahazelirisconflictretained, exactage unknown, sciencefalse. [v3](../../design/concepts/72-ninox-boobook-v3.png) complete2580469bytes local/upload/remoteGit43023853c03fbec656a7c2c96b3f157272f93e75. Imagecommit7e3d2bd33e5e0c530157123b864e9113461fdbb8. New0/reusedBOO-ABSA-2019, irisstagecheck appliedeffectivehereonly.
+
+## v5 science revision — 2026-11-05
+
+[Concept](../../design/concepts/72-ninox-boobook-v5.png) · [Research](../../research/species/72-ninox-boobook-v5.md) · [Review](../../research/reviews/72-ninox-boobook-v5-review.md) · [Run](../../production/runs/20261105T193722+0800-cycle-2.md)
+
+V1–v4 and confirmation history remain preserved. Goodwin 2018 corrects uniform saturated adult yellow eyes to a bounded muted yellow-green/green-hazel direction while keeping darker Perth variation regional and tentative. Official morphology restores a clearly white-streaked rufous belly. The recent fledgling retains blue-grey eyes, streaked pale crown, downy pale belly and formed folded wings/tail; one targeted edit removed unsupported adult-perfect spot rows without erasing legitimate wing formation. Full frame and diagnostic crops passed with limitations. Exact age/sex, daily feather chronology, universal iris frequency, first-flight competence and subspecies transfer remain unknown; `scientifically_verified=false`.

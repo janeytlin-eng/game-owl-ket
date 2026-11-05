@@ -147,3 +147,8 @@
 ### #71 ledger JSON repair VERIFIED
 
 - Single-segment connector transfer truncated four large JSON files in commit `8d072e1440f9fe2813469e88f5b9ad91e893a9be`; no image blob was affected. Chunked repair commit `3f573a3e561b23c81dd905dcbaab43a619068bc0`, tree `f30f77c5f6926c33f5550a8c854017adc05c19eb`, passed exact 4/4 blob-size and 4/4 JSON-parse readback. Batch remains 1/6 with no duplicate credit.
+
+## #72 *Ninox boobook* v5 ARCHIVED — readback pending
+
+- Original generated master blob `54a3254afcc707ac153cd5399f6a5ab1fe5ebeae` is preserved. Final concept/edit/reviewed blob `ab9b217876a440b781115266d431d6c933faa57b`; adult/support crop `bc6ad5cb2ca8bdfbdc2ae65d0d90ab5da85ab08a`; juvenile crop `696718e9befe2bddc9e7db826b12961f7f1098fa`.
+- One juvenile-wing pattern edit passed full/crop review. Manifests 695/696/686; unique 176/251; revision +1; science false. No cycle credit before fixed-commit readback.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T18:54:06+08:00",
+  "updated": "2026-11-05",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21896,7 +21896,72 @@
       "archive_commit": "af281d79f90023fb789c550155364ab0df62f8b8",
       "archive_tree": "304f89695b4aef8659d2def40b64c1c240f3aa73",
       "verification_result": "PASS: immutable archive tree non-truncated; all 18 required text/image paths present; six binary paths match exact Git blob SHA and byte size"
+    },
+    {
+      "id": "72-ninox-boobook-v5",
+      "path": "design/concepts/72-ninox-boobook-v5.png",
+      "species_id": 72,
+      "scientific_name": "Ninox boobook",
+      "current_scientific_name": "Ninox boobook",
+      "common_name": "Australian Boobook",
+      "historical_names": [
+        "Ninox novaeseelandiae boobook",
+        "Southern Boobook"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "BOO-GOODWIN-2018-P113-116",
+        "BOO-OLSEN-JUDGE-TROST-2015",
+        "BOO-OLSEN-TROST-FUENTES-DEBUS-2020",
+        "BOO-VIC-REHAB-2023",
+        "BOO-ABSA-2019",
+        "BOO-AM-2022",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/72-ninox-boobook-v5.md",
+      "review_record": "research/reviews/72-ninox-boobook-v5-review.md",
+      "run_record": "production/runs/20261105T193722+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3076227,
+      "sha256": "9289b34b4c8531da11da6cb424a94c21081d7033598840d7427c5e7f276e09f9",
+      "git_blob": "ab9b217876a440b781115266d431d6c933faa57b",
+      "generated_path": "production/generated/72-ninox-boobook-v5-generated-master.png",
+      "generated_blob": "54a3254afcc707ac153cd5399f6a5ab1fe5ebeae",
+      "generated_sha256": "a35794017daa049d1bed7c2076986f301efdcacded7fcaff08d58e693b11e697",
+      "generated_size_bytes": 3239849,
+      "edit_path": "production/generated/72-ninox-boobook-v5-edit1.png",
+      "edit_blob": "ab9b217876a440b781115266d431d6c933faa57b",
+      "reviewed_path": "production/reviewed/72-ninox-boobook-v5-reviewed-master.png",
+      "reviewed_blob": "ab9b217876a440b781115266d431d6c933faa57b",
+      "adults_review_crop": "production/review-crops/72-ninox-boobook-v5-adults.png",
+      "adults_review_blob": "bc6ad5cb2ca8bdfbdc2ae65d0d90ab5da85ab08a",
+      "adults_review_size_bytes": 2115840,
+      "adults_review_sha256": "387096b7d34b791f532a7bdf04edc54dc063f3d346e4fbfa15bf82742ee4b497",
+      "juvenile_review_crop": "production/review-crops/72-ninox-boobook-v5-juvenile.png",
+      "juvenile_review_blob": "696718e9befe2bddc9e7db826b12961f7f1098fa",
+      "juvenile_review_size_bytes": 765086,
+      "juvenile_review_sha256": "618f8797e52a1e1b3cb3d8f35513001662b8abb9244b108e3a615c29c6ff122f",
+      "reviewed_at": "2026-11-05T19:45:02+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4, replaces uniform saturated adult irises with evidence-bounded muted yellow-green/green-hazel, strengthens the documented white-streaked belly, and retains a fully supported recent fledgling with formed wings/tail. One targeted edit removed adult-like juvenile spot rows while preserving stage-appropriate wing formation. Full and crop review passed. Exact age/sex, daily feather chronology, iris frequencies, first-flight competence, subspecies transfer and hollow geometry remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-05T18:54:06+08:00"
+  "updated_at": "2026-11-05T19:48:00+08:00"
 }

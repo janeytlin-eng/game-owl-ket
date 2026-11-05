@@ -3294,3 +3294,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #71 ledger JSON repair VERIFIED
 
 - Four large JSON blobs in ledger commit `8d072e1440f9fe2813469e88f5b9ad91e893a9be` were truncated by a single-segment connector transfer. Images were unaffected. Chunked repair commit `3f573a3e561b23c81dd905dcbaab43a619068bc0`, tree `f30f77c5f6926c33f5550a8c854017adc05c19eb`, passed exact 4/4 blob-size and 4/4 JSON-parse readback. Batch remains credited once at 1/6.
+
+## 2026-11-05 #72 *Ninox boobook* v5 ARCHIVED — readback pending
+
+- New primary regional eye-colour evidence and re-read development/identification sources correct adult iris saturation, belly streak geometry and juvenile wing-pattern maturity while preserving all earlier versions.
+- One targeted juvenile-wing edit passed full 1536×1024 plus adult/support and juvenile crop inspection. Manifests 695/696/686; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
+- Cycle 2 remains uncredited until the fixed archive commit and image/text paths are read back.

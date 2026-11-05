@@ -234,3 +234,6 @@
 
 2026-11-06T02:45:00+08:00 #80 Otus sunia v5 ARCHIVED; readback pending; batch 20261105T233209+0800 cycle 4/6; no credit yet; manifests 704/703/694; unique 176/251; science false.
 
+
+
+2026-11-06T03:39:00+08:00 #81 Otus scops v5 ARCHIVED; batch 20261105T233209+0800 cycle5/6; full and two crops viewed after one edit; manifests 705/704/695; immutable readback and cycle credit pending; unique 176/251; revision +1; science false.

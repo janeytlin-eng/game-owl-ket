@@ -3121,3 +3121,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/79-otus-lettia-v5.png) · [Research](../research/species/79-otus-lettia-v5.md) · [Review](../research/reviews/79-otus-lettia-v5-review.md) · [Run](../production/runs/20261106T013300+0800-cycle-3.md)
 - V5 preserves v1–v4 and replaces v4's undocumented exact-day wing-panel geometry with a directly photographed age-unknown older brancher. One targeted edit removed long crisp adult-like juvenile primaries and repeated pale spots; full and two crop views passed. Adults remain near-equal because no read source establishes a species-wide sex-size direction. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable archive readback pending.
+
+
+## #81 Eurasian Scops Owl — *Otus scops* — v5
+
+- [Concept](concepts/81-otus-scops-v5.png) · [Research](../research/species/81-otus-scops-v5.md) · [Review](../research/reviews/81-otus-scops-v5-review.md) · [Run](../production/runs/20261106T025000+0800-cycle-5.md)
+- V5 preserves v1–v4 and replaces any fixed sex-height assumption with a subtle direction supported by overlapping genetically sexed adult measurements. One juvenile-only edit shortened and down-softened the folded wing, reduced adult-like spots and shortened the tail while retaining a formed fresh wing, residual down and supported step. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback pending.

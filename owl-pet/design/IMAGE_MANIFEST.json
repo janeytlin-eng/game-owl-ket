@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T02:47:00+08:00",
+  "updated": "2026-11-06T03:39:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22533,7 +22533,76 @@
       "archive_tree": "7e957b396cc7211186c8bc9af2566fabc55043bc",
       "verified_at": "2026-11-06T02:47:00+08:00",
       "verification_result": "PASS: immutable non-truncated 3,179-entry tree; all 18 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 704/703/694"
+    },
+    {
+      "id": "81-otus-scops-v5",
+      "path": "design/concepts/81-otus-scops-v5.png",
+      "species_id": 81,
+      "scientific_name": "Otus scops",
+      "current_scientific_name": "Otus scops",
+      "common_name": "Eurasian Scops Owl",
+      "historical_names": [
+        "Strix scops"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SCOPS-BOANO-ETAL-2020",
+        "SCOPS-ITIS-555376-2026",
+        "SCOPS-MARCHESI-SERGIO-2005",
+        "SCOPS-GRIECO-2025",
+        "SCOPS-BLASCO-UNDATED",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/81-otus-scops-v5.md",
+      "review_record": "research/reviews/81-otus-scops-v5-review.md",
+      "run_record": "production/runs/20261106T025000+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3091404,
+      "sha256": "67fcd07c2db37f94ea37d936482b7f8b8eefec77a90d49994617ffca8564144b",
+      "git_blob": "266a289dd284c248e60abadde8e308b70bfcbaf3",
+      "generated_path": "production/generated/81-otus-scops-v5-generated-master.png",
+      "generated_blob": "616a47b3b570902ceb882c635dca4f1804ee9cf7",
+      "generated_sha256": "e1dfff5d243b0499985bdd057322847d56bc237c3a9f90721fb9cea0eaadd361",
+      "generated_size_bytes": 3239362,
+      "edit_path": "production/generated/81-otus-scops-v5-edit1.png",
+      "edit_blob": "266a289dd284c248e60abadde8e308b70bfcbaf3",
+      "edit_paths": [
+        "production/generated/81-otus-scops-v5-edit1.png"
+      ],
+      "edit_blobs": [
+        "266a289dd284c248e60abadde8e308b70bfcbaf3"
+      ],
+      "reviewed_path": "production/reviewed/81-otus-scops-v5-reviewed-master.png",
+      "reviewed_blob": "266a289dd284c248e60abadde8e308b70bfcbaf3",
+      "adults_review_crop": "production/review-crops/81-otus-scops-v5-adults-support.png",
+      "adults_review_blob": "b5c6e947326e40e14a3cf4799be1b70a59713f5e",
+      "adults_review_size_bytes": 1955753,
+      "adults_review_sha256": "eca764ec1764a94f37d3009906a9427f9f1dbaa11ae980a4767efd518e8dd56e",
+      "juvenile_review_crop": "production/review-crops/81-otus-scops-v5-juvenile.png",
+      "juvenile_review_blob": "f161a460dc043cacb0ecd7c997263570764940a5",
+      "juvenile_review_size_bytes": 680684,
+      "juvenile_review_sha256": "818d9838bc36393428a22946c6037c4d32612bbce413df34c68f6c81e8211f7a",
+      "reviewed_at": "2026-11-06T03:36:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4. Genetically sexed adult measurements support only a subtle female-average wing/tail/fullness direction because ranges overlap; crown heights remain close and no colour cue is assigned. One juvenile-only edit shortened and down-softened the folded wing, subdued repeated adult-like spots and shortened the tail while retaining formed fresh feathers, residual down and a supported cautious step. Exact juvenile age, sex, subspecies, tract chronology and flight threshold remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T02:47:00+08:00"
+  "updated_at": "2026-11-06T03:39:00+08:00"
 }

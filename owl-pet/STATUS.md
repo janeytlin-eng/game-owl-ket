@@ -3408,3 +3408,10 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #79 v5 LEDGER_CREDITED — batch 3/6
 
 - Verification commit `c772a1f1c0b2af6a25a72b0bdc76c7b5904ebcc1`, tree `7af6b34a8896faf9f57432ef27fdd37559336093`, is credited once. Batch `20261105T233209+0800` advances to 3/6, next cycle 4 and lease released. Unique 176/251; revision +1; science false.
+
+
+## 2026-11-06 #81 *Otus scops* v5 ARCHIVED — readback pending
+
+- Two new sources, two re-read sources and three reused sources constrain adult sex-size and juvenile stage; v1–v4 preserved.
+- One juvenile-only edit passed full, juvenile/support and adult/support inspection. Manifests 705/704/695; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
+- Exact juvenile age/sex/subspecies, tract chronology, first-flight threshold, population transfer and universal adult sex ratio remain unknown. No cycle credit before immutable readback.

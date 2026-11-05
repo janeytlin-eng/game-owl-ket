@@ -1010,3 +1010,33 @@
 - New verified source entries: 2; re-read/reused verified sources: 3; corrected boundaries: 2.
 - Corrected boundaries: (1) the ≤1-week age is an author estimate based on other *Strix*, not a known hatch date; (2) adult sexual dichromatism does not establish a large sex-size difference.
 - Unknown: exact chick hatch age/sex/iris, continuous feather sequence, locomotor threshold, quantitative sexed measurements and population transfer.
+## 2026-11-05 — #58 *Ketupa coromanda* v5 — estimated 8–10-week branch-moving boundary
+
+### DEO-REDDY-RAMACHANDRAN-2023-P44-47
+- **Title / authors / year:** *Breeding of the Dusky Eagle Owl Ketupa coromanda in Telangana, and its status in southern India* — Sriram Reddy & Gopalakrishna Ramachandran, 2023.
+- **URL / pages / accessed:** https://indianbirds.in/pdfs/IB_19_2_HighRes.pdf ; *Indian BIRDS* 19(2), printed pp.44–47; official full PDF read 2026-11-05.
+- **Type / scope:** primary breeding field report; adults, nest/site and one juvenile.
+- **Facts:** juvenile attempted to move among neighbouring branches while parents watched; authors estimated 8–10 weeks from appearance/behaviour. Adults/nest were c.20 m high in a tall *Dalbergia paniculata*; observations were by large waterbodies adjoining wooded forest and rice cultivation. Mating behaviour identified a slightly larger female.
+- **Limits:** estimated age, one juvenile and one sexed pair; no controlled flight test, continuous feather chronology or universal size ratio.
+- **Design decision:** estimated-stage label, cautious supported branch step with folded formed-but-immature wings; near-equal adults with only subtle female fullness.
+- **Links:** `research/species/58-ketupa-coromanda-v5.md`; planned concept v5; run `production/runs/20261105T085600+0800-cycle-6.md`.
+
+### DEO-RANADE-GHOSH-PRAKASH-2020-P93-94
+- **Title / authors / year:** *Recent breeding records of the Dusky Eagle Owl Bubo coromandus from upper Assam* — Sachin Ranade, Rounaq Ghosh & Vibhu Prakash, 2020.
+- **URL / pages / accessed:** https://www.researchgate.net/publication/346625980_Recent_breeding_records_of_the_Dusky_Eagle_Owl_Bubo_coromandus_from_upper_Assam ; *Indian BIRDS* 16(3):93–94; full displayed text/Table 1 read 2026-11-05.
+- **Type / scope:** primary field correspondence; eight nests and repeated fledgling records.
+- **Facts:** large saucer platforms in tallest nearby trees close to water; seven *Bombax ceiba*, one *Ficus*; tree height 15–21 m, nest height 11–20 m; old raptor nests reused.
+- **Limits:** opportunistic/fortnightly observations; no age, feather series, sex measurements or flight test.
+- **Design decision:** high old stick-platform and branch-support context only; does not date the selected juvenile.
+
+### DEO-ITIS-1244714
+- **Institution / accessed:** Integrated Taxonomic Information System, accessed 2026-11-05.
+- **URL / type:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1244714&source=to_print ; official taxonomy record.
+- **Facts:** valid *Ketupa coromanda*; synonyms *Bubo coromandus* and *Strix coromanda*; IOC v15.1 source.
+- **Limits / design decision:** taxonomy only; supports current/legacy name mapping, not morphology or juvenile development.
+
+### V5 accounting and unknowns
+- New persistent source-index entries: 3; fresh re-reads: 3; corrected boundaries: 2.
+- Corrections: field-estimated 8–10 weeks is not a known hatch age; branch movement and formed remiges do not prove sustained flight. One pair's slightly larger female is not a universal height multiplier.
+- Uploaded Mikkola guide unavailable; no fresh page claim.
+- Unknown: exact age, continuous feather sequence, first-flight competence, universal sex-size ratio and regional transfer.

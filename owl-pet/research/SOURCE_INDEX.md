@@ -1388,3 +1388,17 @@
 - Re-read `SCU-BESG-2024`, `SCU-NPARKS-2025`, `SCU-ITIS-2025`, `SCU-OWLPAGES-2021` and repository extraction `WHSO-MIKKOLA-2013` printed pp.464–465/PDF pp.466–467. The uploaded guide itself was not mounted in this run, so no fresh page transcription is claimed.
 - New3 / re-read5 / corrected3. V4’s central bird had an overly short, uniformly layered wing/tail for the now-opened direct-photo stage. V5 retains a formed wing and barred tail with residual down and an active but fully supported pose. Conflicting unquantified adult sex-size directions remain unresolved, so displayed adults stay near-equal. Exact age, juvenile sex, flight threshold, current Singapore subspecies and continuous feather chronology remain unknown; scientific status false.
 
+## 2026-11-05 — #76 *Asio clamator* v5 — dated pre-flight development and supported wing exercise
+
+### CLA-AGUIAR-NAIFF-2009-L50-54
+- **Title / authors / year:** “Aspectos reprodutivos e dieta alimentar dos ninhegos de *Rhinoptynx clamator*” — Kurazo Mateus Okada Aguiar & Rafael Homobono Naiff, 2009, *Acta Amazonica* 39(1).
+- **URL / section / accessed:** https://acta.inpa.gov.br/fasciculos/39-1/BODY/v39n1a24.html ; Results lines 44–64 and Discussion lines 71–74 read 2026-11-05; HTML has no printed-page locator.
+- **Type / species / stage:** primary field study with daily observations, dated hatch events and chick measurements; Amapá, Brazil; old combination *Rhinoptynx clamator* = *Asio clamator*.
+- **Facts:** hatchlings had closed eyes/fine white down; remex/rectrix sheaths and facial disc appeared at day 13; young left the nest at dusk and exercised wings at day 20; head tufts appeared day 25; sleeping outside began day 26; approximately one-month young were well feathered but still unable to fly; first low flight for the older chick occurred later, summarized as day 38. The nest was on the ground at a palm base with sparse grass/twigs.
+- **Limits / confidence:** one brood in Amapá; table formatting has an apparent wing-length transcription anomaly, so no numeric wing length is used. Timing is not transferred as a universal clock and does not establish sex or subspecies differences.
+- **Design/check decision:** v5 may use a supported wing-exercise pose for an approximately 25–30-day dependent young with emerging remiges/tufts, but must keep it low, two-foot/abdomen supported and explicitly pre-flight. Adult-perfect spot rows remain unsupported.
+
+### Re-read/reused and corrected boundary
+- Re-read `CLA-PONCE-GONZALEZ-2025`, `CLA-PAUTASSO-DE-LA-PENA-2001`; reused `CLA-FORMOSO-ETAL-2025` and repository extraction `WHSO-MIKKOLA-2013`. New1 / re-read4 / corrected2.
+- V4's static center bird and crisp repeated wing spots are not required by the selected 25–30-day stage. V5 retains brown down/emerging disc/tufts, adds evidence-supported low wing exercise and softens the growing wing to non-adult pattern. Exact universal chronology, juvenile sex, current subspecies transfer and adult sex-size direction remain unknown; science false.
+

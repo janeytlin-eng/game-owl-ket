@@ -3078,3 +3078,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - `design/concepts/73-ninox-rufa-v5.png` preserves earlier versions and applies the documented male-larger direction, finer broken adult barring and a branch-supported recent fledgling.
 - Two juvenile-only edits removed adult-like wing/tail order; full and crop review passed with explicit age/iris/chronology/subspecies limits. PASS_WITH_LIMITATIONS; science false; immutable readback pending.
 
+## 2026-11-05 — #74 Morepork / Ruru — *Ninox novaeseelandiae* — v5
+
+- [Concept](concepts/74-ninox-novaeseelandiae-v5.png) · [Research](../research/species/74-ninox-novaeseelandiae-v5.md) · [Review](../research/reviews/74-ninox-novaeseelandiae-v5-review.md) · [Run](../production/runs/20261105T210000+0800-cycle-4.md)
+- V5 preserves v2–v4 and replaces adult-perfect repeated juvenile wing rows with a formed but sparse, irregularly spotted wing under residual dark down. Adults stay near equal in scale because field appearance did not reliably sex known pairs. Full original and both crops passed without image edit. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.
+

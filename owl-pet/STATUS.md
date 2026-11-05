@@ -3324,5 +3324,11 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Verification commit `6276580d51158079d7c3fa260f31e13bb4eb8106`, tree `7aec01e723f0193bc09583d9eee67590ba319f2c`, is credited exactly once. Batch `20261105T183434+0800` advances to 3/6; next cycle 4 and lease released. Unique remains 176/251; revision +1; science false.
 
+## 2026-11-05 #74 *Ninox novaeseelandiae* v5 ARCHIVED — readback pending
+
+- Science revision preserves v2–v4. New source 1, re-read 3, reused 2 and corrected boundaries 3; uploaded Mikkola guide was unavailable in this execution and was not expanded.
+- The recovered 1536×1024 source and fresh adult/juvenile crops were opened. Sparse irregular juvenile secondary marks, residual dark down, short tail, near-equal adults and all foot support pass without image edit. Manifests 697/698/688; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
+- Exact fledgling age, continuous tract chronology, external sex cues or fixed ratio, island transfer and flight competence remain unknown. Cycle 4 receives no credit before immutable readback.
+
 
 

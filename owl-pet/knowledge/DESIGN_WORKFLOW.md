@@ -880,3 +880,9 @@ A version absent from the primary manifest can still exist in a legacy manifest.
 ### 2026-11-05 — Observation interval is not hatch age (#61 v5)
 
 If a caption says a chick was photographed “about two weeks after discovery”, do not convert that interval into a two-week hatch age. Label exact age unknown, retain the directly photographed down/support state, and keep later branch/flight observations separate. Applied and visually checked on #61 v5: full image and crops passed without edit. This validates the label correction for this asset only; the continuous chronology remains unknown.
+
+### 2026-11-05 — Formed fledgling wing does not imply adult-perfect row order (#74 v5)
+
+- **Evidence boundary:** Morepork secondaries carried white spots by day 25 and the day-39 fledgling retained dark down on breast, head and back. The evidence supports formed spotted wing feathers and residual down together, not a clean adult miniature.
+- **Applied:** #74 v5 uses sparse irregular secondary marks, down-softened covert edges, a short tail and low supported crouch. Near-equal adult scale is retained because external appearance did not reliably sex known pairs.
+- **Verified visually:** the recovered full-resolution source plus adult and juvenile crops were reopened and passed without image edit. This validates the prompt/check for #74 v5 only; it is not a universal fledgling timetable or sex-ratio rule.

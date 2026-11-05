@@ -21357,7 +21357,71 @@
       "archive_commit": "bd2ed6ee8f121dab1b130fba7f00fbee751e2fcd",
       "archive_tree": "82c0489b4b95261a315e065da980c5612949b47a",
       "verification_result": "PASS: non-truncated 3,120-entry immutable tree; all 15 required paths present; seven image paths match exact Git blob SHA and byte size; manifests parse at 696/697/687"
+    },
+    {
+      "id": "74-ninox-novaeseelandiae-v5",
+      "path": "design/concepts/74-ninox-novaeseelandiae-v5.png",
+      "species_id": 74,
+      "scientific_name": "Ninox novaeseelandiae",
+      "current_scientific_name": "Ninox novaeseelandiae",
+      "common_name": "Morepork / Ruru",
+      "historical_names": [
+        "Ninox novaeseelandiae novaeseelandiae"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MOR-STEPHENSON-THESIS-1998",
+        "MOR-STEPHENSON-MINOT-2006",
+        "MOR-NZBO-HANZAB-2025",
+        "MOR-NZBO-2025",
+        "MOR-DOC-2026",
+        "MOR-TEARA-2009"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/74-ninox-novaeseelandiae-v5.md",
+      "review_record": "research/reviews/74-ninox-novaeseelandiae-v5-review.md",
+      "run_record": "production/runs/20261105T210000+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3313492,
+      "sha256": "aabc7da05d30ab3af68a5f3f97b1ae76f360d73f065c696b2ee08afbd01bbf3e",
+      "git_blob": "79932dc8ab4b0508fdef5b837add325d03eb394e",
+      "generated_path": "production/generated/74-ninox-novaeseelandiae-v5-generated-master.png",
+      "generated_blob": "79932dc8ab4b0508fdef5b837add325d03eb394e",
+      "generated_sha256": "aabc7da05d30ab3af68a5f3f97b1ae76f360d73f065c696b2ee08afbd01bbf3e",
+      "generated_size_bytes": 3313492,
+      "edit_path": null,
+      "edit_blob": null,
+      "edit_paths": [],
+      "edit_blobs": [],
+      "reviewed_path": "production/reviewed/74-ninox-novaeseelandiae-v5-reviewed-master.png",
+      "reviewed_blob": "79932dc8ab4b0508fdef5b837add325d03eb394e",
+      "adults_review_crop": "production/review-crops/74-ninox-novaeseelandiae-v5-adults.png",
+      "adults_review_blob": "73245975e897bb48ef0799c326a6b445b9c0c4c7",
+      "adults_review_size_bytes": 1703936,
+      "adults_review_sha256": "a1b07b26b610b4fbd6562146e6b6c031b2b2457df1fa574d7de0f44096fd710f",
+      "juvenile_review_crop": "production/review-crops/74-ninox-novaeseelandiae-v5-juvenile.png",
+      "juvenile_review_blob": "83d5758aeabbd6f3feb6144ea13fae3960e2c953",
+      "juvenile_review_size_bytes": 800125,
+      "juvenile_review_sha256": "4f89d33b554fddfdb03649125fdd22c83784095d7e941419e87e9e4564edd48f",
+      "reviewed_at": "2026-11-05T21:39:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v2-v4 and replaces the adult-perfect juvenile wing rows with a formed but irregularly spotted, down-overlapped fledgling wing. Adults remain near equal in scale because external sexing is unreliable; all feet and the low cavity/fork posture are supported. No image edit was required. Exact age, continuous feather chronology, fixed sex ratio, island transfer and flight competence remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-05T20:52:00+08:00"
+  "updated_at": "2026-11-05T21:45:00+08:00"
 }

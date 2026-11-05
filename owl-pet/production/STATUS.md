@@ -173,5 +173,10 @@
 
 - Verification commit `6276580d51158079d7c3fa260f31e13bb4eb8106`, tree `7aec01e723f0193bc09583d9eee67590ba319f2c`, credited exactly once. Batch next cycle is 4; lease released. Unique 176/251; revision +1; science false.
 
+## 2026-11-05 #74 *Ninox novaeseelandiae* v5 ARCHIVED — readback pending
+
+- Batch `20261105T183434+0800`, cycle 4/6. The committed original was recovered after lease expiry, hash-matched, fully opened, cropped and reviewed without duplicate generation.
+- Concept/reviewed master blob `79932dc8ab4b0508fdef5b837add325d03eb394e`; adult crop `73245975e897bb48ef0799c326a6b445b9c0c4c7`; juvenile crop `83d5758aeabbd6f3feb6144ea13fae3960e2c953`. Manifests prepared at 697/698/688; unique 176/251; revision +1; science false. No cycle credit before fixed-commit readback.
+
 
 

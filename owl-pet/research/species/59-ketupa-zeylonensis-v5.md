@@ -85,4 +85,5 @@ Open the full generated master, then inspect adult comparison and juvenile wing/
 - Final master and juvenile/adult-support crops were reopened. The modification is visibly effective and all checklist boundaries pass with limitations. Exact age, flight ability, sex ratio and continuous feather sequence remain unknown; `scientifically_verified=false`.
 - Full review: `owl-pet/research/reviews/59-ketupa-zeylonensis-v5-review.md`.
 - Archive prepared at 2026-11-05T10:48:14+08:00 with manifests 682/683/673; immutable readback is still pending at this stage, so no cycle credit is claimed here.
+- Immutable archive readback passed at 2026-11-05T10:51:35+08:00 for archive `882fc3754b75a4851ed73ba7a2843702088883f4`, tree `ffff7346aa11b1c808765076fa4149ab4224457b`: exact five image paths, four unique blobs and sizes matched; all three manifests parsed at 682/683/673. Scientific status remains false.
 

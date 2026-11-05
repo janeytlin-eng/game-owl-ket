@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T10:48:14+08:00",
+  "updated": "2026-11-05T10:51:35+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20936,7 +20936,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BFOW-HKBWS-AVIFAUNA-2026",
         "BFOW-KFBG-2021",
@@ -20969,9 +20969,13 @@
       "juvenile_review_size_bytes": 1582091,
       "juvenile_review_sha256": "78f6086b89877c4494df9cafd3aa60fcbf2335ee2cde535b9719168ec8071659",
       "reviewed_at": "2026-11-05T10:45:59+08:00",
-      "readback_pending": true,
-      "archive_note": "The first full-resolution render repeated v4's adult-perfect juvenile remige stack and mature tail. One juvenile-only edit retained a formed wing but shortened, rounded and down-softened its silhouette, replaced regular rows with irregular juvenile coverts and subdued emerging remiges, and shortened/obscured the tail. Full master and juvenile/adult-support crops reopened; science remains false."
+      "readback_pending": false,
+      "archive_note": "The first full-resolution render repeated v4's adult-perfect juvenile remige stack and mature tail. One juvenile-only edit retained a formed wing but shortened, rounded and down-softened its silhouette, replaced regular rows with irregular juvenile coverts and subdued emerging remiges, and shortened/obscured the tail. Full master and juvenile/adult-support crops reopened; science remains false.",
+      "verified_at": "2026-11-05T10:51:35+08:00",
+      "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
+      "archive_tree": "ffff7346aa11b1c808765076fa4149ab4224457b",
+      "verification_result": "Immutable archive readback matched five required binary path/blob tuples, four unique image blobs and exact byte sizes; all three manifests were complete and parseable at counts 682/683/673; source, research, review, workflow, run, status and ARCHIVED ledger markers were present."
     }
   ],
-  "updated_at": "2026-11-05T10:48:14+08:00"
+  "updated_at": "2026-11-05T10:51:35+08:00"
 }

@@ -17,3 +17,8 @@
 - Full-resolution concept/reviewed master `d5221b48cceeb4d5cd47723d9e7cde7277781dc9`; generated master is the same unchanged first render.
 - New SANParks p.6 large-downy-chick river-roost evidence; full plate plus adult and juvenile crops passed without edit.
 - Manifest counts 686 / 687 / 677; unique remains 176/251; science false. Cycle 5 is not credited before immutable readback.
+
+### #63 v5 VERIFIED
+
+- Archive `c06d60fc0a60e1d690d766dfb5ff898ceceda59a`, tree `4fe0015ae0e78624c85dade070736202e0ef9358`; thirteen paths, five binary path/blob tuples, three unique image blobs and exact byte sizes passed.
+- Manifests parse at 686 / 687 / 677; PASS_WITH_LIMITATIONS; unique remains 176/251; science false. Ledger credit pending.

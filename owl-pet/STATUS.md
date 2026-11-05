@@ -3168,3 +3168,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - V1–v4 and duplicate-name #156 remain preserved; v5 restores a 1536×1024 concept.
 - SANParks PDF p.6 supports an adult with a large downy chick along the Luvuvhu; BirdLife/SANBI supports prolonged pale down and modest adult sex cues. Exact age, action capacity and universal sex dimensions remain unknown.
 - First render passed actual full-frame and adult/juvenile crop review without edit. Manifests 686 / 687 / 677; unique 176/251; science false; no cycle credit before immutable readback.
+
+### #63 v5 VERIFIED
+
+- Archive `c06d60fc0a60e1d690d766dfb5ff898ceceda59a`, tree `4fe0015ae0e78624c85dade070736202e0ef9358`; exact concept/generated/reviewed and crop blobs/sizes plus JSON/manifests read back.
+- PASS_WITH_LIMITATIONS; unique 176/251; science false; ledger credit pending.

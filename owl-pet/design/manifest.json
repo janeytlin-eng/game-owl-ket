@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T02:45:00+08:00",
+  "updated": "2026-11-06T02:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22318,7 +22318,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "SUNIA-ASAHIYAMA-ZOO-2023",
         "SUNIA-ZUKAN-165925-2023",
@@ -22361,9 +22361,13 @@
       "juvenile_review_size_bytes": 683885,
       "juvenile_review_sha256": "02e81d46a2da1efa3455a19e3fdabbb39b8dcc47da53b5ef8bd205226003140f",
       "reviewed_at": "2026-11-06T02:38:57+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and replaces the secondary-only exact 7-10-day pin-feather claim with a directly viewed, explicitly age-unknown recent brancher. One targeted edit removed repeated adult-like pale wing spots and shortened the tail while retaining compact formed wing, residual down, amber iris, small tufts and two-foot branch support. Adults remain near-equal because standing-height sex direction is unresolved. Exact age, sex, subspecies, iris transition, flight threshold and continuous feather sequence remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and replaces the secondary-only exact 7-10-day pin-feather claim with a directly viewed, explicitly age-unknown recent brancher. One targeted edit removed repeated adult-like pale wing spots and shortened the tail while retaining compact formed wing, residual down, amber iris, small tufts and two-foot branch support. Adults remain near-equal because standing-height sex direction is unresolved. Exact age, sex, subspecies, iris transition, flight threshold and continuous feather sequence remain unknown; science false.",
+      "archive_commit": "bb4179e0f532004fc3d4f1bc131d9638b81c86ce",
+      "archive_tree": "7e957b396cc7211186c8bc9af2566fabc55043bc",
+      "verified_at": "2026-11-06T02:47:00+08:00",
+      "verification_result": "PASS: immutable non-truncated 3,179-entry tree; all 18 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 704/703/694"
     }
   ],
-  "updated_at": "2026-11-06T02:45:00+08:00"
+  "updated_at": "2026-11-06T02:47:00+08:00"
 }

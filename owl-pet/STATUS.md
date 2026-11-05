@@ -1,3 +1,8 @@
+## 2026-11-06 #80 *Otus sunia* v5 VERIFIED — ledger credit pending
+
+- Archive `bb4179e0f532004fc3d4f1bc131d9638b81c86ce`, tree `7e957b396cc7211186c8bc9af2566fabc55043bc`, returned 3,179 non-truncated entries, all 18 required paths, six exact binary path/blob/byte tuples and three parseable manifests at 704/703/694.
+- One juvenile-only wing/tail correction passed full and crop review. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251. Ledger credit pending.
+
 ## 2026-11-06 #80 *Otus sunia* v5 ARCHIVED — readback pending
 
 - V5 preserves v1–v4. New/restored detailed sources 4, reused 2, corrected design boundaries 3; current/original-name mapping `Otus sunia = Scops sunia Hodgson, 1836`.

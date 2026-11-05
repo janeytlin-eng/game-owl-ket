@@ -228,5 +228,7 @@
 
 
 
+2026-11-06T02:47:00+08:00 #80 Otus sunia v5 VERIFIED; archive bb4179e0/tree7e957b3; 18/18 paths and 6/6 binary tuples exact; manifests 704/703/694 parse; ledger credit pending; unique 176/251; science false.
+
 2026-11-06T02:45:00+08:00 #80 Otus sunia v5 ARCHIVED; readback pending; batch 20261105T233209+0800 cycle 4/6; no credit yet; manifests 704/703/694; unique 176/251; science false.
 

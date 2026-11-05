@@ -1,5 +1,11 @@
 # Owl-pet production status
 
+## 2026-11-05 #66 *Tyto capensis* v5 ARCHIVED — readback pending
+
+- Full-resolution concept/generated/reviewed master blob `54e9f7d331c1c783ce3167e6b15ad7defb678e09`; first render passed full and crop inspection without edit.
+- The adult female is only modestly fuller/longer at close crown height and carries a warm-buff face as documented adult variation, not a universal sex/age colour. The recent fledgling is grounded, supported and lacks adult dorsal white tips.
+- Manifests 689/690/680; unique remains 176/251; science false. Cycle 2 is not credited before immutable readback.
+
 ## 2026-11-05 #65 *Tyto soumagnei* v5 VERIFIED — ledger credit pending
 
 - Archive `3db4bde798c5d362917f574162abaee6da68e9e9`, tree `13e2cb4deaaef57677ed122ad6da69e9632c2e08`, passed non-truncated 13-path exact blob/size readback. Manifests 688/689/679; unique 176/251; science false. Ledger credit pending.

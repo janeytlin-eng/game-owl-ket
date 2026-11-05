@@ -1,3 +1,9 @@
+## 2026-11-05 #66 *Tyto capensis* v5 ARCHIVED — readback pending
+
+- V5 preserves v1–v4 and corrects two repository-flagged boundaries: a small Gauteng sample supports modest female mass/body-length direction with overlapping ranges, not fixed standing height; breeding records show warm tawny-buff face can occur in adult females and is not a reliable age key.
+- The grounded recent fledgling lacks the adults' white dorsal tips and remains age unknown. Full master and two crops passed without edit; PASS_WITH_LIMITATIONS, science false.
+- Manifests 689/690/680; unique species remains 176/251; revision +1. No cycle credit before immutable readback.
+
 ## 2026-11-05 #65 *Tyto soumagnei* v5 VERIFIED — ledger credit pending
 
 - Archive `3db4bde798c5d362917f574162abaee6da68e9e9`, tree `13e2cb4deaaef57677ed122ad6da69e9632c2e08`, passed non-truncated 13-path exact blob/size readback. Manifests 688/689/679; unique 176/251; science false. Ledger credit pending.

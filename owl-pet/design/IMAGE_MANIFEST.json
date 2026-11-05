@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T14:53:05+08:00",
+  "updated": "2026-11-05",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21517,7 +21517,63 @@
       "archive_commit": "3db4bde798c5d362917f574162abaee6da68e9e9",
       "archive_tree": "13e2cb4deaaef57677ed122ad6da69e9632c2e08",
       "verification_result": "Non-truncated 3,052-entry immutable tree matched all 13 required paths, exact Git blobs and true sizes; manifests parse at 688/689/679."
+    },
+    {
+      "id": "66-tyto-capensis-v5",
+      "path": "design/concepts/66-tyto-capensis-v5.png",
+      "species_id": 66,
+      "scientific_name": "Tyto capensis",
+      "current_scientific_name": "Tyto capensis",
+      "common_name": "African Grass Owl",
+      "historical_names": [],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SEO-OSTRICH-RSD-2008",
+        "AGO-WHITTINGTON-2012",
+        "AGO-PRETORIUS-ETAL-2026-P110",
+        "AGO-BLSA-RDB-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/66-tyto-capensis-v5.md",
+      "review_record": "research/reviews/66-tyto-capensis-v5-review.md",
+      "run_record": "production/runs/20261105T155500+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3124663,
+      "sha256": "acfb2bddbd1ad6d98ca18bcdd277d082580742e13ccb127ef733075875a99b35",
+      "git_blob": "54e9f7d331c1c783ce3167e6b15ad7defb678e09",
+      "generated_path": "production/generated/66-tyto-capensis-v5-generated-master.png",
+      "generated_blob": "54e9f7d331c1c783ce3167e6b15ad7defb678e09",
+      "generated_sha256": "acfb2bddbd1ad6d98ca18bcdd277d082580742e13ccb127ef733075875a99b35",
+      "generated_size_bytes": 3124663,
+      "reviewed_path": "production/reviewed/66-tyto-capensis-v5-reviewed-master.png",
+      "reviewed_blob": "54e9f7d331c1c783ce3167e6b15ad7defb678e09",
+      "adults_review_crop": "production/review-crops/66-tyto-capensis-v5-adults.png",
+      "adults_review_blob": "6118e75602b23ba3bdcba7b7ca9cfb807b8dc44b",
+      "adults_review_size_bytes": 2187478,
+      "adults_review_sha256": "43d90b3e85a13c4e5fad7c11c3ae46fbe51fe63613f5a2e4184b46a9f7920188",
+      "juvenile_review_crop": "production/review-crops/66-tyto-capensis-v5-juvenile.png",
+      "juvenile_review_blob": "639da8fbf549638892a7b7f0e19e8e4ebc3ed9d4",
+      "juvenile_review_size_bytes": 955352,
+      "juvenile_review_sha256": "7fc842b08641ebcf7a73c0b96d8556d4a88e12c0543ac5161e065cb2036e94ec",
+      "reviewed_at": "2026-11-05T16:37:30+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4 and applies two evidence-bounded corrections: overlapping female mass/body-length direction is not converted into fixed crown height, and a warm-buff breeding female demonstrates that face colour is neither a universal sex nor sole age key. The grounded recent fledgling lacks adult dorsal white tips. Full and crop review passed without edit. Exact age, feather chronology, first competent flight, frequency of buff adult females, range-wide sex scale and chamber geometry remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-05T14:53:05+08:00"
+  "updated_at": "2026-11-05T16:40:00+08:00"
 }

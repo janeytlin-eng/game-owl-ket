@@ -178,5 +178,9 @@
 - Batch `20261105T183434+0800`, cycle 4/6. The committed original was recovered after lease expiry, hash-matched, fully opened, cropped and reviewed without duplicate generation.
 - Concept/reviewed master blob `79932dc8ab4b0508fdef5b837add325d03eb394e`; adult crop `73245975e897bb48ef0799c326a6b445b9c0c4c7`; juvenile crop `83d5758aeabbd6f3feb6144ea13fae3960e2c953`. Manifests prepared at 697/698/688; unique 176/251; revision +1; science false. No cycle credit before fixed-commit readback.
 
+### #74 v5 VERIFIED — ledger credit pending
+
+- Archive `1f8e6d6b096cd2762d109c7121139f1da945be9a`, tree `f27f31288660153cbd3d5871bc6cbc0eedb0e9ac`: 11 immutable paths fetched; five exact image byte/SHA-256 checks and three manifest parses passed at 697/698/688. Ledger credit pending; science false.
+
 
 

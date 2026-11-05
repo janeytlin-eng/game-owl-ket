@@ -3330,5 +3330,10 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - The recovered 1536×1024 source and fresh adult/juvenile crops were opened. Sparse irregular juvenile secondary marks, residual dark down, short tail, near-equal adults and all foot support pass without image edit. Manifests 697/698/688; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
 - Exact fledgling age, continuous tract chronology, external sex cues or fixed ratio, island transfer and flight competence remain unknown. Cycle 4 receives no credit before immutable readback.
 
+### #74 v5 VERIFIED — ledger credit pending
+
+- Archive `1f8e6d6b096cd2762d109c7121139f1da945be9a`, tree `f27f31288660153cbd3d5871bc6cbc0eedb0e9ac`, passed immutable readback: 11 required paths fetched, five image paths exact by byte size and SHA-256, and manifests parse at 697/698/688.
+- PASS_WITH_LIMITATIONS; unique remains 176/251; science false. Ledger credit is a separate step.
+
 
 

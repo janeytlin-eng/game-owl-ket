@@ -21897,7 +21897,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MOR-STEPHENSON-THESIS-1998",
         "MOR-STEPHENSON-MINOT-2006",
@@ -21936,9 +21936,13 @@
       "juvenile_review_size_bytes": 800125,
       "juvenile_review_sha256": "4f89d33b554fddfdb03649125fdd22c83784095d7e941419e87e9e4564edd48f",
       "reviewed_at": "2026-11-05T21:39:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v2-v4 and replaces the adult-perfect juvenile wing rows with a formed but irregularly spotted, down-overlapped fledgling wing. Adults remain near equal in scale because external sexing is unreliable; all feet and the low cavity/fork posture are supported. No image edit was required. Exact age, continuous feather chronology, fixed sex ratio, island transfer and flight competence remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v2-v4 and replaces the adult-perfect juvenile wing rows with a formed but irregularly spotted, down-overlapped fledgling wing. Adults remain near equal in scale because external sexing is unreliable; all feet and the low cavity/fork posture are supported. No image edit was required. Exact age, continuous feather chronology, fixed sex ratio, island transfer and flight competence remain unknown; science false.",
+      "verified_at": "2026-11-05T21:50:00+08:00",
+      "archive_commit": "1f8e6d6b096cd2762d109c7121139f1da945be9a",
+      "archive_tree": "f27f31288660153cbd3d5871bc6cbc0eedb0e9ac",
+      "verification_result": "PASS: immutable commit readback; 11 required paths fetched; five image paths match exact byte size and SHA-256; manifests parse at 697/698/688"
     }
   ],
-  "updated_at": "2026-11-05T21:45:00+08:00"
+  "updated_at": "2026-11-05T21:50:00+08:00"
 }

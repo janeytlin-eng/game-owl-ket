@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T03:57:00+08:00",
+  "updated": "2026-11-06T03:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21947,7 +21947,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "SEN-RIEKERT-1986-P425-428",
         "SEN-ITIS-1063416-2026",
@@ -21991,9 +21991,13 @@
       "juvenile_review_size_bytes": 858700,
       "juvenile_review_sha256": "fd33612be5e4ae2236bb454c876fbd2026e2dde07a2b3dd452174c39b4333442",
       "reviewed_at": "2026-11-06T03:54:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and replaces the generic recent-fledgling brancher with a Riekert-1986 documented day-22 study-stage nestling at a nest-box entrance. One targeted edit shortened/down-softened the juvenile wing, removed regular adult-like rows and shortened the tail while retaining formed fresh feathers, residual down, calling action and two-foot sill support. Adults remain equal height/wing length; female only subtly fuller because one measured pair had equal 140 mm wing chords but higher female mass. Exact tract geometry, juvenile sex, flight threshold, population transfer and universal ratio remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and replaces the generic recent-fledgling brancher with a Riekert-1986 documented day-22 study-stage nestling at a nest-box entrance. One targeted edit shortened/down-softened the juvenile wing, removed regular adult-like rows and shortened the tail while retaining formed fresh feathers, residual down, calling action and two-foot sill support. Adults remain equal height/wing length; female only subtly fuller because one measured pair had equal 140 mm wing chords but higher female mass. Exact tract geometry, juvenile sex, flight threshold, population transfer and universal ratio remain unknown; science false.",
+      "archive_commit": "7b6c95709870fc5f95e267c767f54a1a569962d7",
+      "archive_tree": "b79972fe13988088f6149b4ff9b8bd77c2186125",
+      "verified_at": "2026-11-06T03:58:00+08:00",
+      "verification_result": "PASS: immutable non-truncated 3,197-entry tree; all 15 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 706/705/696"
     }
   ],
-  "updated_at": "2026-11-06T03:57:00+08:00"
+  "updated_at": "2026-11-06T03:58:00+08:00"
 }

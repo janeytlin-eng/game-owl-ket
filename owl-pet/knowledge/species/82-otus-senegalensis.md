@@ -41,3 +41,7 @@ Riekert 1986 printed pp.425–428 was reopened in full. At day 22, body feathers
 ## 2026-11-06 v5 visual review
 
 The initial day-22 nestling wing was too long and carried a hard adult-like layered/spot pattern. One center-only edit shortened and down-softened the folded wing, removed regular pale rows and shortened the tail while retaining a formed fresh wing. The edited full plate and juvenile/support plus adult/support crops were opened. Equal adult crown/wing height, slight female fullness, documented nest box, calling action and two-foot sill support pass. Rule validated for this plate: a primary dated milestone can be labelled as a study stage, but undocumented tract geometry, juvenile sex, flight threshold and population transfer remain unknown; science false.
+
+## 2026-11-06 v5 fixed archive readback
+
+Archive `7b6c95709870fc5f95e267c767f54a1a569962d7` and tree `b79972fe13988088f6149b4ff9b8bd77c2186125` passed non-truncated path, exact binary tuple and manifest verification. This verifies preservation and addressability, not biological completeness; unresolved tract geometry, juvenile sex, flight threshold, cross-population timing and universal adult ratio remain.

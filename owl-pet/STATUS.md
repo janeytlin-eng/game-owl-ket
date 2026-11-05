@@ -3430,3 +3430,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - One primary development record restored/read in full, two new sources, one re-read source, three reused sources and four corrected boundaries; v1–v4 preserved.
 - One juvenile-only wing/tail edit passed full, juvenile/support and adult/support inspection. Manifests 706/705/696; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
 - Exact feather-tract geometry, juvenile sex/subspecies, sustained flight, cross-population timing and universal adult mass ratio remain unknown. No cycle credit before immutable readback.
+
+### #82 v5 VERIFIED — ledger credit pending
+
+- Archive `7b6c95709870fc5f95e267c767f54a1a569962d7`, tree `b79972fe13988088f6149b4ff9b8bd77c2186125`, passed non-truncated 3,197-entry readback: 15 required paths, six exact image blob/size tuples and remotely parsed manifests 706/705/696. Unique 176/251; science false. Ledger credit remains separate.

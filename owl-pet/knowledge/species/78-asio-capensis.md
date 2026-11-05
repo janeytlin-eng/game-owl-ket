@@ -30,3 +30,7 @@ V1–v3 and all prior confirmation/history are preserved. The v3 fixed image was
 
 Archive `42fa2acf2c6c759684b02d275c6c534188bc3d2d` preserves exact concept/generated/reviewed/crop objects and all supporting records. The visual correction is verified as archived; this is not a claim that the unresolved juvenile chronology is scientifically verified.
 
+## 2026-11-06 v5 research-ready
+
+Directly opened `MAR-COMMONS-MURRAY-2020`: two age-unknown Marsh Owl young sit low in tall grass with buff-brown woolly down, very dark faces/discs, dark eyes and black bills; only restrained darker shoulder/back feather areas are visible and wings/tails are largely concealed. Re-read `MAR-ANSARA-ROSS-2008`, `MARSH-BIOEXP-2026` and `MARSH-OWLPAGES-2020`; reused `WHSO-MIKKOLA-2013` printed pp.518–519/PDF pp.520–521. V5 switches from the v4 older-dependent stage to an `AGE-UNKNOWN OWLET` controlled by the opened photograph: low ground/grass support, down-rich body, wings/tail concealed, no action or exact-age claim. Adults remain comparable in height; female only subtly fuller/longer-tailed. Exact age, sex, locality, movement ability, feather chronology, universal sex ratio and subspecies transfer remain unknown; `scientifically_verified=false`.
+

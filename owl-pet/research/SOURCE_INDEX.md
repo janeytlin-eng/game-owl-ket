@@ -1425,3 +1425,18 @@
 ### Reused morphology / access boundary
 - Repository extraction `WHSO-MIKKOLA-2013` printed pp.502–503 / PDF pp.504–505 was reused for adult/mesoptile cross-check. The uploaded guide was not mounted in this run, so no fresh transcription is claimed. New index entries 2 / reused extraction 1 / corrected stage-transfer boundary 1; science false.
 
+## 2026-11-06 — #78 *Asio capensis* v5 — photographed down-rich owlet boundary
+
+### MAR-COMMONS-MURRAY-2020
+- **Title / creator / date:** “Baby Marsh Owls” — Danelle Murray, 18 April 2020.
+- **URL / locator / accessed:** https://commons.wikimedia.org/wiki/File:Baby_Marsh_Owls.jpg ; file page and original full-size image actually opened 2026-11-06; no printed page.
+- **Type / species / stage:** licensed field photograph; two species-identified *Asio capensis* young; exact age, sex and locality absent.
+- **Facts:** both young sit low in tall grass with buff-brown woolly down, very dark facial masks/discs, dark irides and black bills. Darker emerging feather areas occur around shoulders/back; wings and tails are mostly hidden by down, body position and vegetation.
+- **Limits / confidence:** one photograph without age, scale, locality, sex, action test or complete view of feet/wings. It does not support a day label, adult-style remiges, flight ability or universal plumage chronology.
+- **Design/check decision:** v5 uses an `AGE-UNKNOWN OWLET`, low and naturally grass/ground supported, with down-rich body and mostly concealed wings/tail. No walking, wing display or flight claim.
+- **Links:** `research/species/78-asio-capensis-v5.md`; planned concept v5; run `production/runs/20261106T003403+0800-cycle-2.md`.
+
+### Re-read, reused and corrected boundaries
+- Re-read primary `MAR-ANSARA-ROSS-2008` DOI `10.2989/OSTRICH.2008.79.1.11.366`, `MARSH-BIOEXP-2026` and `MARSH-OWLPAGES-2020`; reused repository extraction `WHSO-MIKKOLA-2013` printed pp.518–519/PDF pp.520–521.
+- New1 / re-read3 / reused1 / corrected3. Adult sex direction is restrained to modest female fullness/tail rather than fixed height; the newly opened photo controls the chosen young's visible stage; institutional summaries provide broader ground-dependence context but do not date that photo. Uploaded Mikkola guide was unavailable, so no fresh page transcription. Exact age, juvenile sex/locality, movement ability, daily feather chronology, universal adult ratio and subspecies transfer remain unknown; science false.
+

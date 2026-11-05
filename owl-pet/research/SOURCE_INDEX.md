@@ -1506,3 +1506,26 @@
 
 - Reused `SUNIA-NO-2015` and `WHSO-MIKKOLA-2013`; uploaded Mikkola file unavailable, so only repository-pinned printed pp.152–153/PDF154–155 reused.
 - New/restored detailed records 4 / reused 2 / corrected boundaries 3. V4 exact-day pin geometry is not deleted, but v5 does not depend on it. Exact age, sex, subspecies, iris transition, flight and continuous feather chronology remain unknown; science false.
+
+## 2026-11-06 — #81 *Otus scops* v5 — overlapping adult morphometrics and recent-fledgling boundary
+
+### SCOPS-BOANO-ETAL-2020
+
+- **Title / authors / year:** “Sex identification of Eurasian Scops Owl *Otus scops* using morphometric analysis” — G. Boano et al., 2020, *Ringing & Migration* 34(1):45–51.
+- **URL / DOI / accessed:** https://doi.org/10.1080/03078698.2019.1759914 ; publisher full PDF read 2026-11-06; Methods, Results, Table 1 and Discussion.
+- **Type / species / stages:** primary morphometric study; 105 genetically sexed *Otus scops*, including 33 juveniles and 68 adults.
+- **Facts:** juvenile biometric sex differences were not significant. Adult females averaged longer wing (161.9 vs 156.4 mm), eighth primary (119.1 vs 115.5 mm), tail (71.4 vs 68.8 mm) and higher mass (92.0 vs 79.2 g), but ranges overlapped; bill and tarsus were not significantly different. The study provides no colour/plumage sex cue.
+- **Limits / confidence:** strong sample-specific morphometric evidence, but region/season and overlap prevent a fixed visible standing-height ratio or individual sex assignment from the plate alone.
+- **Design decision:** keep adult crown heights close; allow only a restrained female fullness and folded-wing/tail direction. Do not map colour morph to sex.
+- **Links:** `research/species/81-otus-scops-v5.md`; v5 concept/review; `production/runs/20261106T025000+0800-cycle-5.md`.
+
+### SCOPS-ITIS-555376-2026
+
+- **Title / institution / accessed:** ITIS reports TSN 555376 and TSN 1063309 — Integrated Taxonomic Information System; read 2026-11-06.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555376&source=to_print
+- **Facts/use:** valid *Otus scops* (Linnaeus, 1758); *Strix scops* Linnaeus, 1758 is the original combination. Taxonomy only; no morphology or development inference.
+
+### Re-read, reused and corrected boundaries
+
+- Re-read `SCOPS-GRIECO-2025`; reused `SCOPS-MARCHESI-SERGIO-2005`, `SCOPS-BLASCO-UNDATED` and repository extraction `WHSO-MIKKOLA-2013` printed pp.122–123/PDF pp.124–125.
+- New2 / re-read2 / reused3 / corrected3. V5 adds a restrained evidence-based adult female direction while keeping overlapping heights, preserves the recent-fledgling stage, and explicitly checks narrow/pointed fresh wing geometry, short tail and continuous support. Uploaded Mikkola guide unavailable; no fresh-page claim. Exact age, juvenile sex/subspecies, tract chronology, flight threshold and universal adult visual ratio remain unknown; science false.

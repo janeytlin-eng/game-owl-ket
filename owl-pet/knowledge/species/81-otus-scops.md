@@ -31,3 +31,7 @@ Active web searches/direct opens returned empty payloads and were not credited. 
 ## 2026-10-31 v4 fixed readback
 
 Archive `908b58ab43127a62c31c1ff9b6b93d9a6a3e9441` returned exact concept/generated/reviewed/crop payloads and the expected supporting records. This verifies repository integrity, not biological completeness; exact age, flight threshold, feather-tract geometry and sex-size ratio remain unresolved.
+
+## 2026-11-06 v5 sex-size and action boundary
+
+`SCOPS-BOANO-ETAL-2020` is now the primary sex-size source. Genetically sexed adults show female-average wing/eighth-primary/tail/mass direction, but ranges overlap; juveniles showed no significant biometric sex difference and no plumage colour cue was established. Apply only subtle female fullness/longer folded-wing-tail while keeping crown heights close. Keep the recent fledgling as an age-uncertain, supported brancher with residual down, compact narrow/pointed fresh wing and short tail. No exact age, sex, sustained flight or scientific approval. Current/old name: *Otus scops* = original *Strix scops* Linnaeus, 1758.

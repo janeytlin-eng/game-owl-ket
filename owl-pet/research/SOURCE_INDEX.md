@@ -1300,3 +1300,18 @@
 - New1 / re-read3 / reused2 / corrected3: sex-scale becomes near-equal with a subtle facial diagnostic; leaving a hollow is not polished flight competence; the recent fledgling keeps white/downier juvenile plumage rather than adult chevrons.
 - Uploaded Mikkola guide unavailable in this execution; no fresh page claim. Unknown: exact hatch age, depicted juvenile sex, daily feather chronology, universal first-flight competence and stylised transfer of photograph ratios. Scientific status remains false.
 
+## 2026-11-05 — #71 *Ninox connivens* v5 — Day-30 object-play juvenile
+
+### BARK-BULLOCK-2026-P172-184
+- **Title / author / year:** “Breeding and diet of a family of Barking Owls *Ninox connivens* on the mid-north coast of New South Wales” — Trevor Bullock, 2026.
+- **DOI / URL:** https://doi.org/10.20938/afo43172184 ; https://afo.birdlife.org.au/afo/index.php/afo/article/download/2416/2452
+- **Type / pages / accessed:** primary multi-season field/camera study, *Australian Field Ornithology* 43:172–184; full article and Figures 1, 3–6 read 2026-11-05.
+- **Species/stage/facts:** *Ninox connivens*; observed post-fledging sequence. Young were clumsy on the first days, stronger by Day 14; one Day-30 juvenile manipulated paperbark between bill and foot; by Day 33 wing/tail proportions were adult-like but collar and thighs remained downy and rectrices retained white tips; adult-like ventral plumage emerged around Day 41.
+- **Limits/conflicts/credibility:** one family and one object-play observation; days are counted from fledging rather than hatch. Adult-like proportions do not support adult-perfect spot geometry or universal timing across subspecies.
+- **Design/check decision:** depict the Day-30 juvenile fully branch-supported in the documented object-play pose, with formed wing/tail but juvenile downy collar/thighs, white tail tips and sparse diffuse rather than crisp adult wing marks. Do not transfer Day-41 ventral maturity backward.
+- **Links:** `research/species/71-ninox-connivens-v5.md`; planned concept v5; run `production/runs/20261105T183434+0800-cycle-1.md`.
+
+### Re-read, reused and corrected boundaries
+- Re-read `BARK-BARNES-ROSE-DEBUS-2005`, `BARK-ABSA-2020`, `BARK-VIC-WILDLIFE-2023` and `BARK-AM-2022`; reused repository extraction `WHSO-MIKKOLA-2013` printed pp.452–453/PDF pp.454–455.
+- New1 / re-read4 / reused1 / corrected3. Male-larger direction is restrained because measurements overlap; the juvenile’s adult-like wing/tail proportions are not adult-perfect markings; a single object-play record is not universal behavior. Uploaded Mikkola guide was unavailable, so no fresh page claim is made. Exact feather counts, juvenile sex/hatch age, subspecies transfer and population-wide timing remain unknown; science false.
+

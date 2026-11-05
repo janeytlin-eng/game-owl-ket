@@ -1589,3 +1589,32 @@
 
 - Re-read `SEN-BROWN-RIEKERT-MORSBACH-1987` (publisher/EIS abstract: two pairs, 25–28-day nestling period) and reused `SEN-BE-ROBERTS2005`, `SEN-OWLPAGES-2020`, and repository extraction `SEN-MIK2013-130` printed pp.130–131/PDF pp.132–133.
 - Restored/detailed primary source1 / new sources2 / re-read1 / reused3 / corrected boundaries4. V5 replaces an age-uncertain generic brancher with a day-22 study-stage nestling whose action and broad feather state are directly documented. Exact tract geometry, juvenile sex, sustained-flight ability, cross-population departure age and universal adult mass ratio remain unknown; science false.
+
+
+## #85 *Otus semitorques* — v5 additions (2026-11-06)
+
+### SEM-NOHARA-HONDA-2025-P75-78
+
+- **Title/authors/year:** “A Reliable Breeding Record of Collared Scops Owl in Saitama Prefecture, Japan” — Kiyoshi Nohara & Rina Honda, 2025, *Bulletin of the Saitama Museum of Natural History* 19:75–78.
+- **URL/DOI/accessed:** https://www.jstage.jst.go.jp/article/smnh/19/0/19_75/_pdf/-char/en ; https://doi.org/10.24715/smnh.19.0_75 ; full PDF read 2026-11-06.
+- **Type/species/stage:** primary field breeding record; *Otus semitorques* adult and very recent fledgling.
+- **Facts/pages/figures:** pp.75–76, fig.3: adult orange iris, feathered toes, ear tufts and brownish-white nuchal patch; young on cedar at 9–10 m on two days, little movement, whole body downy, clear tufts, flight/tail feathers not fully grown; authors infer very recent fledging. Iris not resolved; nest not found.
+- **Limits/design decision:** one event, no hatch date/continuous atlas. Supports a two-foot-supported downy recent fledgling with incomplete wing/tail and little movement; does not support exact age, juvenile iris, flight or a shown cavity.
+- **Links:** `research/species/85-otus-semitorques-v5.md`; planned v5 concept/review; run `production/runs/20261106T050000+0800-cycle-2.md`.
+
+### SEM-ITIS-1063233-2026
+
+- **Institution/accessed:** ITIS TSN 1063233, opened 2026-11-06.
+- **URL/section:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063233&source=to_print ; taxonomy/nomenclature lines 6–50 and references lines 75–85.
+- **Facts/use:** valid current *Otus semitorques* Temminck & Schlegel, 1845, three subspecies; historical Collared Scops Owl treatment under *Otus bakkamoena* is present in the cited Deignan reference. Taxonomy only.
+
+### SEM-TOKYO-ZOO-2026
+
+- **Institution/accessed:** Tokyo Zoological Park Society, Tama Zoo species page, opened 2026-11-06.
+- **URL/section:** https://www.tokyo-zoo.net/en/tama/encyclopedia/japanese-scops-owl/index.html ; species account lines 159–176.
+- **Facts/use:** forest/tree-hollow ecology, bark camouflage, raised-tuft threat posture, May–July breeding and white-down hatchlings.
+- **Limits:** institutional overview, no measured age sequence. Corroborates early down only; does not replace the primary recent-fledgling record.
+
+### Reuse and correction
+
+- Reused `SEM-FUKAI-2017` for first-winter contrast and repository-pinned `SEM-MIK2013-158` printed pp.158–159/PDF pp.160–161 for adult identification. New3/reused2/corrected5. V5 changes the center bird from a near-adult first-winter individual to the directly documented very recent fledgling; exact age, sex, iris, flight threshold, nest geometry and adult RSD remain unknown; science false.

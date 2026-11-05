@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T17:52:00+08:00",
+  "updated": "2026-11-05T17:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21624,7 +21624,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "POWERFUL-COOKE-ETAL-2020",
         "POWERFUL-MO-WATERHOUSE-2015",
@@ -21659,9 +21659,13 @@
       "juvenile_review_size_bytes": 808542,
       "juvenile_review_sha256": "74d4af3bb256776db760f05ba2519c32a5d48c7093d7ec3a22f0c50be69fd0ba",
       "reviewed_at": "2026-11-05T17:48:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and applies Cooke et al. 2020's direct-alert photographic boundary: comparable adult crown/support height, a subtly broader male, and female facial-mask feathers reaching the head contour more than the male's. Mo & Waterhouse 2015 constrains the recent fledgling to developed folded wings/tail, full wood support and no claim of polished first-flight competence. Full and crop review passed without edit. Exact age/sex, daily feather chronology, universal first-flight competence, ratio transfer and hollow geometry remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and applies Cooke et al. 2020's direct-alert photographic boundary: comparable adult crown/support height, a subtly broader male, and female facial-mask feathers reaching the head contour more than the male's. Mo & Waterhouse 2015 constrains the recent fledgling to developed folded wings/tail, full wood support and no claim of polished first-flight competence. Full and crop review passed without edit. Exact age/sex, daily feather chronology, universal first-flight competence, ratio transfer and hollow geometry remain unknown; science false.",
+      "verified_at": "2026-11-05T17:54:00+08:00",
+      "archive_commit": "46621a84d69e59e1c3783333eeb12d98ffd789f0",
+      "archive_tree": "08cc01195ae4032c0b6b7586023e749221e37a18",
+      "verification_result": "Non-truncated 3,092-entry immutable tree matched all 17 required paths, five binary path/blob/size tuples and exact true sizes after rejecting the truncated first archive; remote manifests parse at 693/694/684."
     }
   ],
-  "updated_at": "2026-11-05T17:52:00+08:00"
+  "updated_at": "2026-11-05T17:54:00+08:00"
 }

@@ -3267,3 +3267,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - V1–v4 remain preserved. Adult scale/mask cues and the fully supported recent-fledgling action boundary were actively refreshed from primary and institutional evidence.
 - Full frame plus adult and fledgling crops passed opened review without edit. Exact age/sex, daily feather chronology, universal first-flight competence, photo-ratio transfer and hollow geometry remain unknown.
 - Manifests 693/694/684; unique remains 176/251; revision +1; science false. Cycle 6 receives no credit before immutable readback.
+
+### #70 v5 VERIFIED — ledger credit pending
+
+- Corrected archive `46621a84d69e59e1c3783333eeb12d98ffd789f0`, tree `08cc01195ae4032c0b6b7586023e749221e37a18`, passed non-truncated 17-path readback with five exact full-size binary tuples after rejecting `ad9acbecf9cfbcef6b5539fb38db547d802347e4`.
+- Manifests 693/694/684; PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit pending.

@@ -120,3 +120,8 @@
 - Manifests 693/694/684; unique 176/251; cycle 6 remains uncredited until fixed-commit readback.
 
 - #70 archive repair: `ad9acbecf9cfbcef6b5539fb38db547d802347e4` failed fixed-tree byte-size checks because connector input was truncated; full-size chunk-safe blobs replaced all five image paths. Repair readback pending.
+
+### #70 v5 VERIFIED — ledger credit pending
+
+- Corrected archive `46621a84d69e59e1c3783333eeb12d98ffd789f0`, tree `08cc01195ae4032c0b6b7586023e749221e37a18`, passed non-truncated 17-path and exact five-binary-tuple readback.
+- Manifests 693/694/684; unique 176/251; science false. Ledger credit pending.

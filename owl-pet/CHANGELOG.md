@@ -1585,3 +1585,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 - 2026-11-06T03:57:00+08:00: #82 *Otus senegalensis* v5 ARCHIVED pending immutable readback. Primary-restored1/new2/re-read1/reused3/corrected4; one juvenile wing/tail edit; full and two crops passed; manifests 706/705/696; unique176/251; science false.
 - 2026-11-06T03:58:00+08:00: #82 v5 VERIFIED at archive `7b6c95709870fc5f95e267c767f54a1a569962d7`, tree `b79972fe13988088f6149b4ff9b8bd77c2186125`; 15 paths, six binary tuples and manifests 706/705/696 passed; ledger credit pending; science false.
+- 2026-11-06T03:59:22+08:00: #82 *Otus senegalensis* v5 LEDGER_CREDITED at verification `719832fcb74c8e35929938112d07e8efc6b1af91`; batch `20261105T233209+0800` COMPLETE 6/6, next cycle null, lease released; unique176/251; science false.

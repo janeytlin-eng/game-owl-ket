@@ -17480,9 +17480,26 @@
         }
       ],
       "next_cycle": 6,
-      "active_lease": null,
-      "in_progress": null,
-      "current_stage": null,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "20261105T225332+0800-cycle-6",
+        "heartbeat_at": "2026-11-05T22:53:32+08:00",
+        "expires_at": "2026-11-05T23:08:32+08:00"
+      },
+      "in_progress": {
+        "batch_id": "20261105T183434+0800",
+        "cycle": 6,
+        "run_id": "20261105T225332+0800-cycle-6",
+        "species_id": 76,
+        "species": "Asio clamator",
+        "action": "SCIENCE_REVISION",
+        "version": 5,
+        "current_stage": "STARTED",
+        "started_at": "2026-11-05T22:53:32+08:00",
+        "baseline_commit": "8893d8748c06393e7041d36914c6ce0045fcc05d",
+        "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md"
+      },
+      "current_stage": "STARTED",
       "events": [
         {
           "batch_id": "20261105T183434+0800",
@@ -18106,14 +18123,40 @@
             "scientifically_verified": false,
             "lease_released": true
           }
+        },
+        {
+          "batch_id": "20261105T183434+0800",
+          "cycle": 6,
+          "stage": "STARTED",
+          "at": "2026-11-05T22:53:32+08:00",
+          "run_id": "20261105T225332+0800-cycle-6",
+          "species_id": 76,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #76 Asio clamator v4; preserve v1-v4 and add active evidence without inventing sex-size or day-specific tract geometry",
+            "baseline_commit": "8893d8748c06393e7041d36914c6ce0045fcc05d",
+            "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md",
+            "prior_version": "owl-pet/design/concepts/76-asio-clamator-v4.jpg",
+            "lease_expires_at": "2026-11-05T23:08:32+08:00"
+          }
         }
       ],
-      "lease": null,
-      "updated_at": "2026-11-05T22:50:00+08:00",
+      "lease": {
+        "owner": "codex-automation",
+        "run_id": "20261105T225332+0800-cycle-6",
+        "heartbeat_at": "2026-11-05T22:53:32+08:00",
+        "expires_at": "2026-11-05T23:08:32+08:00"
+      },
+      "updated_at": "2026-11-05T22:53:32+08:00",
       "ledger_credit_pending": false
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-automation",
+    "run_id": "20261105T225332+0800-cycle-6",
+    "heartbeat_at": "2026-11-05T22:53:32+08:00",
+    "expires_at": "2026-11-05T23:08:32+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -18254,8 +18297,13 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-11-05T22:50:00+08:00",
+  "active_lease": {
+    "owner": "codex-automation",
+    "run_id": "20261105T225332+0800-cycle-6",
+    "heartbeat_at": "2026-11-05T22:53:32+08:00",
+    "expires_at": "2026-11-05T23:08:32+08:00"
+  },
+  "last_updated_at": "2026-11-05T22:53:32+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -19016,7 +19064,19 @@
     "2026-11-05T04:31:00+08:00: batch 20261105T033723+0800 cycle3 #47 v5 VERIFIED; archive and seven binary paths read back; batch 3/6 next4; unique176/251; science false; lease released.",
     "2026-11-05T04:57:00+08:00: batch 20261105T033723+0800 cycle4 #48 v5 VERIFIED; batch 4/6 next5; unique176/251; science false; lease released."
   ],
-  "in_progress": null,
+  "in_progress": {
+    "batch_id": "20261105T183434+0800",
+    "cycle": 6,
+    "run_id": "20261105T225332+0800-cycle-6",
+    "species_id": 76,
+    "species": "Asio clamator",
+    "action": "SCIENCE_REVISION",
+    "version": 5,
+    "current_stage": "STARTED",
+    "started_at": "2026-11-05T22:53:32+08:00",
+    "baseline_commit": "8893d8748c06393e7041d36914c6ce0045fcc05d",
+    "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md"
+  },
   "previous_checkpoint": {
     "batch_id": "20261105T183434+0800",
     "cycle": 5,
@@ -20314,7 +20374,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-05T22:50:00+08:00",
+  "last_updated": "2026-11-05T22:53:32+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -22822,7 +22882,7 @@
   ],
   "active_batch_id": "20261105T183434+0800",
   "active_cycle": 6,
-  "current_stage": null,
+  "current_stage": "STARTED",
   "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
@@ -25717,9 +25777,26 @@
       }
     ],
     "next_cycle": 6,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": null,
+    "active_lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T225332+0800-cycle-6",
+      "heartbeat_at": "2026-11-05T22:53:32+08:00",
+      "expires_at": "2026-11-05T23:08:32+08:00"
+    },
+    "in_progress": {
+      "batch_id": "20261105T183434+0800",
+      "cycle": 6,
+      "run_id": "20261105T225332+0800-cycle-6",
+      "species_id": 76,
+      "species": "Asio clamator",
+      "action": "SCIENCE_REVISION",
+      "version": 5,
+      "current_stage": "STARTED",
+      "started_at": "2026-11-05T22:53:32+08:00",
+      "baseline_commit": "8893d8748c06393e7041d36914c6ce0045fcc05d",
+      "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
         "batch_id": "20261105T183434+0800",
@@ -26343,10 +26420,31 @@
           "scientifically_verified": false,
           "lease_released": true
         }
+      },
+      {
+        "batch_id": "20261105T183434+0800",
+        "cycle": 6,
+        "stage": "STARTED",
+        "at": "2026-11-05T22:53:32+08:00",
+        "run_id": "20261105T225332+0800-cycle-6",
+        "species_id": 76,
+        "credited": false,
+        "evidence": {
+          "selection": "science revision of #76 Asio clamator v4; preserve v1-v4 and add active evidence without inventing sex-size or day-specific tract geometry",
+          "baseline_commit": "8893d8748c06393e7041d36914c6ce0045fcc05d",
+          "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md",
+          "prior_version": "owl-pet/design/concepts/76-asio-clamator-v4.jpg",
+          "lease_expires_at": "2026-11-05T23:08:32+08:00"
+        }
       }
     ],
-    "lease": null,
-    "updated_at": "2026-11-05T22:50:00+08:00",
+    "lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T225332+0800-cycle-6",
+      "heartbeat_at": "2026-11-05T22:53:32+08:00",
+      "expires_at": "2026-11-05T23:08:32+08:00"
+    },
+    "updated_at": "2026-11-05T22:53:32+08:00",
     "ledger_credit_pending": false
   },
   "events": [
@@ -26812,6 +26910,22 @@
         "revision_increment": 1,
         "scientifically_verified": false,
         "lease_released": true
+      }
+    },
+    {
+      "batch_id": "20261105T183434+0800",
+      "cycle": 6,
+      "stage": "STARTED",
+      "at": "2026-11-05T22:53:32+08:00",
+      "run_id": "20261105T225332+0800-cycle-6",
+      "species_id": 76,
+      "credited": false,
+      "evidence": {
+        "selection": "science revision of #76 Asio clamator v4; preserve v1-v4 and add active evidence without inventing sex-size or day-specific tract geometry",
+        "baseline_commit": "8893d8748c06393e7041d36914c6ce0045fcc05d",
+        "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md",
+        "prior_version": "owl-pet/design/concepts/76-asio-clamator-v4.jpg",
+        "lease_expires_at": "2026-11-05T23:08:32+08:00"
       }
     }
   ]

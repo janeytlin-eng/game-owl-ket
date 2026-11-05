@@ -1,5 +1,11 @@
 # Owl-pet production status
 
+## 20261106T003403+0800 cycle 2 — #78 *Asio capensis* v5 ARCHIVED
+
+- Concept/generated/reviewed master expected blob `64dd84bf2de4bc12591c20358bf908decd70c8ed`; adult/support crop `1d727b6a5596b19b131a0da6ffd67605a0b7c783`; juvenile crop `4ff1421a19b3d31bfbf4003c0798507559576c17`.
+- Full image and both crops passed without edit. `PASS_WITH_LIMITATIONS`; science false; unique 176/251; revision +1.
+- Manifests 701/702/692. Cycle 2 is not credited before immutable archive readback.
+
 ## 20261105T233209+0800 cycle 1 — #77 *Asio stygius* v5
 
 - Stage: LEDGER_CREDITED; archive `71a6ddf87b71ffebe5ae864713bac53b6d43abc3`, verification `0cd4c24c0366f5c04eaea8b54bee1b635a4acb68`; batch 1/6, next 2, lease released.

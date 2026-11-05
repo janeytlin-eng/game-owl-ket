@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T11:16:00+08:00",
+  "updated": "2026-11-05T11:19:06+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20757,7 +20757,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 2,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "VEO-BROWN-1965-P101-104",
         "VEO-ITIS-1244710",
@@ -21026,9 +21026,13 @@
       "juvenile_review_size_bytes": 1071344,
       "juvenile_review_sha256": "c4c0e4285082120c58ed4f619a6d576eb7b1d65f8ca1b0c867ffe44856b28945",
       "reviewed_at": "2026-11-05T11:12:41+08:00",
-      "readback_pending": true,
-      "archive_note": "The initial juvenile repeated adult-ordered pale wing rows and hid the tail. Two centre-only edits shortened, rounded and down-fringed the wing while preserving both adults, text, bilateral support and the Wuling living-tree/stream scene. The tail remains mostly obscured and is retained as a limitation; science remains false."
+      "readback_pending": false,
+      "archive_note": "The initial juvenile repeated adult-ordered pale wing rows and hid the tail. Two centre-only edits shortened, rounded and down-fringed the wing while preserving both adults, text, bilateral support and the Wuling living-tree/stream scene. The tail remains mostly obscured and is retained as a limitation; science remains false.",
+      "verified_at": "2026-11-05T11:19:06+08:00",
+      "archive_commit": "a1b8d80d57d7ace67eacd6faec0854d392502387",
+      "archive_tree": "494afeb0d8b0226b2ba1ca4baf0653b37551e0a8",
+      "verification_result": "Immutable archive readback matched five required binary path/blob tuples, four unique image blobs and exact byte sizes; all three manifests parsed at counts 683/684/674; source index, research, review, workflow, run, status and ARCHIVED ledger markers were present."
     }
   ],
-  "updated_at": "2026-11-05T11:16:00+08:00"
+  "updated_at": "2026-11-05T11:19:06+08:00"
 }

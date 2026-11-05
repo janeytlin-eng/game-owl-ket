@@ -3152,3 +3152,5 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/85-otus-semitorques-v5.png) · [Research](../research/species/85-otus-semitorques-v5.md) · [Review](../research/reviews/85-otus-semitorques-v5-review.md) · [Run](../production/runs/20261106T050000+0800-cycle-2.md)
 - V5 preserves v1–v4 and replaces the first-winter center bird with Nohara & Honda's directly observed Saitama very recent fledgling: whole-body down, clear tufts, incomplete wing/tail, little movement and cedar-branch support; no invented nest or iris. One juvenile-only edit removed adult-like hard feathers. PASS_WITH_LIMITATIONS; science false; unique 176/251; readback pending.
+
+- Immutable archive verification 2026-11-06T05:25:00+08:00: commit `f943e1c4777511275ce2a5bd262e55009a81a338`, tree `07788f5ae425d8f875ffc416436515a6fec3e6e3`; 15 required paths and six binary tuples passed. Manifests 708/707/698; ledger credit pending.

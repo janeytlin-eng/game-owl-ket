@@ -22094,7 +22094,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "SEM-NOHARA-HONDA-2025-P75-78",
         "SEM-ITIS-1063233-2026",
@@ -22136,13 +22136,13 @@
       "juvenile_review_size_bytes": 724340,
       "juvenile_review_sha256": "d8d8a4a47492f4df5973973733c7a96fed16dced3b0b4094e6ecc4b052a22413",
       "reviewed_at": "2026-11-06T05:15:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "archive_note": "V5 replaces a first-winter center bird with the directly observed 2024 Saitama very recent fledgling: whole-body down, clear tufts, incomplete flight/tail feathers, little movement and cedar support. One edit removed adult-like long wing/tail feathers. No juvenile iris, exact age, flight, nest, sex-size ratio or scientific sign-off is claimed.",
-      "archive_commit": null,
-      "archive_tree": null,
-      "verified_at": null,
-      "verification_result": null
+      "archive_commit": "f943e1c4777511275ce2a5bd262e55009a81a338",
+      "archive_tree": "07788f5ae425d8f875ffc416436515a6fec3e6e3",
+      "verified_at": "2026-11-06T05:25:00+08:00",
+      "verification_result": "PASS: immutable archive commit returned 15 required paths; six binary paths match exact Git blobs; remote manifests parse at 708/707/698 with #85 v5 tails; research/review/run text readable"
     }
   ],
-  "updated_at": "2026-11-06T05:20:00+08:00"
+  "updated_at": "2026-11-06T05:25:00+08:00"
 }

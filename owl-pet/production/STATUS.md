@@ -1,5 +1,9 @@
 # Owl-pet production status
 
+## 2026-11-05 #65 *Tyto soumagnei* v5 VERIFIED — ledger credit pending
+
+- Archive `3db4bde798c5d362917f574162abaee6da68e9e9`, tree `13e2cb4deaaef57677ed122ad6da69e9632c2e08`, passed non-truncated 13-path exact blob/size readback. Manifests 688/689/679; unique 176/251; science false. Ledger credit pending.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

@@ -20795,7 +20795,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MRO-RAMAMONJISOA-2014-P56-57-75-77",
         "MRO-MNHN-HOLOTYPE-2026",
@@ -20828,8 +20828,12 @@
       "juvenile_review_size_bytes": 962665,
       "juvenile_review_sha256": "a1c8305e8d551dc3fcecdb2e726cc9a95c7b7a053495c816bd5b5989edbf0500",
       "reviewed_at": "2026-11-05T15:46:30+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and corrects a visible female-size direction using the 2014 thesis: mean mass differs, but mean wingspan is nearly equal and no size/colour/form dimorphism is visually detectable. It separately depicts an age-unknown down-only nestling low in a documented deep Bemanevika tree cavity. Full and crop review passed without edit. Exact age/sex/feather chronology/locomotor threshold/population-wide transfer remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and corrects a visible female-size direction using the 2014 thesis: mean mass differs, but mean wingspan is nearly equal and no size/colour/form dimorphism is visually detectable. It separately depicts an age-unknown down-only nestling low in a documented deep Bemanevika tree cavity. Full and crop review passed without edit. Exact age/sex/feather chronology/locomotor threshold/population-wide transfer remain unknown; science false.",
+      "verified_at": "2026-11-05T15:54:00+08:00",
+      "archive_commit": "3db4bde798c5d362917f574162abaee6da68e9e9",
+      "archive_tree": "13e2cb4deaaef57677ed122ad6da69e9632c2e08",
+      "verification_result": "Non-truncated 3,052-entry immutable tree matched all 13 required paths, exact Git blobs and true sizes; manifests parse at 688/689/679."
     }
   ],
   "updated_at": "2026-11-05T14:53:05+08:00"

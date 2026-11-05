@@ -45,3 +45,7 @@ Problem: earlier prompts converted a population mean mass difference into visibl
 ## Visual review — 2026-11-05T15:46:30+08:00
 
 Full master, adult/support crop and juvenile/cavity crop opened. Exactly three owls, correct labels, equal adult silhouette, all support contacts, down-only age-unknown nestling and deep-cavity boundary pass. No edit required. PASS_WITH_LIMITATIONS; science false.
+
+## Fixed-commit verification — 2026-11-05T15:54:00+08:00
+
+Archive `3db4bde798c5d362917f574162abaee6da68e9e9`, tree `13e2cb4deaaef57677ed122ad6da69e9632c2e08`, returned all 13 required paths with exact full-size blobs and byte sizes in a non-truncated 3,052-entry tree. Manifests parse at 688/689/679. PASS_WITH_LIMITATIONS; science false.

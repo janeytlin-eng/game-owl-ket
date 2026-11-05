@@ -16289,26 +16289,73 @@
           "run_record": "owl-pet/production/runs/20261105T153530+0800-cycle-1.md",
           "archive_commit": "3db4bde798c5d362917f574162abaee6da68e9e9",
           "verification_tree": "684bf778a9e40419feff4bd768104c8ae3894c85"
+        },
+        {
+          "cycle": 2,
+          "species": "Tyto capensis",
+          "species_id": 66,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "6415ef6e203b4e6924fbf65142ef626bea8a7945",
+          "run_record": "owl-pet/production/runs/20261105T155500+0800-cycle-2.md",
+          "archive_commit": "90b45c082941345610dff9a49341da07e6ffeec5",
+          "verification_tree": "e5e13399f5405ee2e37b7fef0d8aa59fcc46d584"
+        },
+        {
+          "cycle": 3,
+          "species": "Pulsatrix perspicillata",
+          "species_id": 67,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "3f4d8a2a64a7355523a94011304fb05e68f63308",
+          "run_record": "owl-pet/production/runs/20261105T164500+0800-cycle-3.md",
+          "archive_commit": "a462f51b1ff42f80f673ab9faa835b641e9ef23c",
+          "verification_tree": "4378ff0bb8b7075c64d3114d99b14a7ae8f1ab11"
+        },
+        {
+          "cycle": 4,
+          "species": "Tyto tenebricosa",
+          "species_id": 68,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "702d4ef95ffbc00db4ede4abb3f66592b4b50823",
+          "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md",
+          "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
+          "verification_tree": "6b39ed9fde5848c9e640ee7806593a3ec3cf45be"
+        },
+        {
+          "cycle": 5,
+          "species": "Tyto novaehollandiae",
+          "species_id": 69,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "5ad592b2bbaad37c9ea2c87af29b133733d3b547",
+          "run_record": "owl-pet/production/runs/20261105T171900+0800-cycle-5.md",
+          "archive_commit": "a3fc35485b97d026cf1f5388cd938209f8d26bfb",
+          "verification_tree": "e0023b09d0727bca3f0b6777e85f0657ff7be805"
         }
       ],
-      "next_cycle": 2,
+      "next_cycle": 6,
       "active_lease": {
-        "owner": "codex-production",
-        "run_id": "20261105T155500+0800-cycle-2",
-        "batch_id": "20261105T153530+0800",
-        "cycle": 2,
-        "species_id": 66,
-        "heartbeat_at": "2026-11-05T15:55:00+08:00",
-        "expires_at": "2026-11-05T16:10:00+08:00"
+        "owner": "codex-automation",
+        "run_id": "20261105T173620+0800-cycle-6",
+        "heartbeat_at": "2026-11-05T17:50:00+08:00",
+        "expires_at": "2026-11-05T18:05:00+08:00"
       },
       "in_progress": {
+        "batch_id": "20261105T153530+0800",
         "cycle": 6,
         "run_id": "20261105T173620+0800-cycle-6",
         "species_id": 70,
-        "stage": "REVIEWED",
-        "started_at": "2026-11-05T17:36:20+08:00"
+        "species": "Ninox strenua",
+        "action": "SCIENCE_REVISION",
+        "version": 5,
+        "current_stage": "ARCHIVED",
+        "started_at": "2026-11-05T17:36:20+08:00",
+        "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
+        "run_record": "owl-pet/production/runs/20261105T173620+0800-cycle-6.md"
       },
-      "current_stage": "STARTED",
+      "current_stage": "ARCHIVED",
       "events": [
         {
           "batch_id": "20261105T153530+0800",
@@ -16494,24 +16541,833 @@
             "prior_version": "owl-pet/design/concepts/66-tyto-capensis-v4.png",
             "lease_expires_at": "2026-11-05T16:10:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 2,
+          "stage": "RESUMED",
+          "at": "2026-11-05T16:30:30+08:00",
+          "run_id": "20261105T155500+0800-cycle-2",
+          "species_id": 66,
+          "credited": false,
+          "evidence": {
+            "expired_lease_checked": true,
+            "remote_head": "21eabd760d570bc565b8adcc565c23d8c94ebeb7",
+            "duplicate_artifact_found": false,
+            "lease_expires_at": "2026-11-05T16:45:30+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 2,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-05T16:34:00+08:00",
+          "run_id": "20261105T155500+0800-cycle-2",
+          "species_id": 66,
+          "credited": false,
+          "evidence": {
+            "source_ids": [
+              "SEO-OSTRICH-RSD-2008",
+              "AGO-WHITTINGTON-2012",
+              "AGO-PRETORIUS-ETAL-2026-P110",
+              "AGO-BLSA-RDB-2025"
+            ],
+            "new_sources": 0,
+            "reread_sources": 2,
+            "reused_sources": 2,
+            "corrected_boundaries": 3,
+            "species_card": "owl-pet/research/species/66-tyto-capensis-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_saved": true,
+            "material_change_from_v4": "warm-buff adult female as documented individual variation plus explicit overlapping sex scale; recent fledgling remains grounded and age-unknown",
+            "mikkola_upload_accessible": false,
+            "lease_expires_at": "2026-11-05T16:49:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 2,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-05T16:35:15+08:00",
+          "run_id": "20261105T155500+0800-cycle-2",
+          "species_id": 66,
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/66-tyto-capensis-v5-generated-master.png",
+            "dimensions": "1536x1024",
+            "bytes": 3124663,
+            "sha256": "acfb2bddbd1ad6d98ca18bcdd277d082580742e13ccb127ef733075875a99b35",
+            "generation_seconds": 64.9,
+            "edit_count": 0,
+            "complete_prompt": "owl-pet/research/species/66-tyto-capensis-v5.md",
+            "lease_expires_at": "2026-11-05T16:50:15+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 2,
+          "stage": "REVIEWED",
+          "at": "2026-11-05T16:37:30+08:00",
+          "run_id": "20261105T155500+0800-cycle-2",
+          "species_id": 66,
+          "credited": false,
+          "evidence": {
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "image_edit_required": false,
+            "edit_count": 0,
+            "generation_seconds": 64.9,
+            "final_path": "owl-pet/design/concepts/66-tyto-capensis-v5.png",
+            "final_sha256": "acfb2bddbd1ad6d98ca18bcdd277d082580742e13ccb127ef733075875a99b35",
+            "final_bytes": 3124663,
+            "review_path": "owl-pet/research/reviews/66-tyto-capensis-v5-review.md",
+            "adult_crop": "owl-pet/production/review-crops/66-tyto-capensis-v5-adults.png",
+            "adult_crop_sha256": "43d90b3e85a13c4e5fad7c11c3ae46fbe51fe63613f5a2e4184b46a9f7920188",
+            "juvenile_crop": "owl-pet/production/review-crops/66-tyto-capensis-v5-juvenile.png",
+            "juvenile_crop_sha256": "7fc842b08641ebcf7a73c0b96d8556d4a88e12c0543ac5161e065cb2036e94ec",
+            "scientifically_verified": false,
+            "unknowns": [
+              "exact individual age",
+              "continuous feather chronology",
+              "first competent flight",
+              "frequency of adult-female buff colour",
+              "range-wide sex scale",
+              "nest-chamber geometry"
+            ],
+            "lease_expires_at": "2026-11-05T16:52:30+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 2,
+          "stage": "ARCHIVED",
+          "at": "2026-11-05T16:40:00+08:00",
+          "run_id": "20261105T155500+0800-cycle-2",
+          "species_id": 66,
+          "credited": false,
+          "evidence": {
+            "version": 5,
+            "concept_blob": "54e9f7d331c1c783ce3167e6b15ad7defb678e09",
+            "generated_blob": "54e9f7d331c1c783ce3167e6b15ad7defb678e09",
+            "reviewed_blob": "54e9f7d331c1c783ce3167e6b15ad7defb678e09",
+            "adults_crop_blob": "6118e75602b23ba3bdcba7b7ca9cfb807b8dc44b",
+            "juvenile_crop_blob": "639da8fbf549638892a7b7f0e19e8e4ebc3ed9d4",
+            "manifest_counts": {
+              "design_image": 689,
+              "design_legacy": 690,
+              "production": 680
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-05T16:55:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 2,
+          "stage": "VERIFIED",
+          "at": "2026-11-05T16:43:00+08:00",
+          "run_id": "20261105T155500+0800-cycle-2",
+          "species_id": 66,
+          "credited": false,
+          "evidence": {
+            "archive_commit": "90b45c082941345610dff9a49341da07e6ffeec5",
+            "archive_tree": "1f03d4cc5de0dc784445be4b12224bdce4ba3a54",
+            "paths_verified": 16,
+            "binary_paths_verified": 5,
+            "unique_binary_blobs": 3,
+            "manifest_counts": {
+              "design_image": 689,
+              "design_legacy": 690,
+              "production": 680
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-05T16:58:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-05T16:43:30+08:00",
+          "run_id": "20261105T155500+0800-cycle-2",
+          "species_id": 66,
+          "credited": true,
+          "evidence": {
+            "archive_commit": "90b45c082941345610dff9a49341da07e6ffeec5",
+            "verification_commit": "6415ef6e203b4e6924fbf65142ef626bea8a7945",
+            "verification_tree": "e5e13399f5405ee2e37b7fef0d8aa59fcc46d584",
+            "manifest_counts": {
+              "design_image": 689,
+              "design_legacy": 690,
+              "production": 680
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "next_cycle": 3,
+            "batch_status": "PARTIAL"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 3,
+          "stage": "STARTED",
+          "at": "2026-11-05T16:45:00+08:00",
+          "run_id": "20261105T164500+0800-cycle-3",
+          "species_id": 67,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #67 Pulsatrix perspicillata v4; preserve species-specific barred mesoptile wings while correcting branch-stage action to a dated cavity-stage chick documented stretching/flapping without takeoff",
+            "baseline_commit": "db7cab3040d433c5df2a51304691a143a6c649ef",
+            "prior_version": "owl-pet/design/concepts/67-pulsatrix-perspicillata-v4.png",
+            "lease_expires_at": "2026-11-05T17:00:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 3,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-05T16:50:00+08:00",
+          "run_id": "20261105T164500+0800-cycle-3",
+          "species_id": 67,
+          "credited": false,
+          "evidence": {
+            "source_ids": [
+              "SPO-GOMES-ETAL-2011-P4-5",
+              "SPO-CORREA-2016-P55-56-179-187",
+              "SPO-WETMORE-1968-P164",
+              "SPO-BOUGLOUAN-2026",
+              "SPO-PEREGRINE-2026"
+            ],
+            "new_sources": 2,
+            "reused_sources": 3,
+            "corrected_boundaries": 2,
+            "species_card": "owl-pet/research/species/67-pulsatrix-perspicillata-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_saved": true,
+            "material_change_from_v4": "replace branch-perching implication with supported in-cavity wing practice without takeoff; add modest female length/fullness direction while preserving barred juvenile wing exception",
+            "mikkola_upload_accessible": false,
+            "lease_expires_at": "2026-11-05T17:05:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 3,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-05T16:51:00+08:00",
+          "run_id": "20261105T164500+0800-cycle-3",
+          "species_id": 67,
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/67-pulsatrix-perspicillata-v5-generated-master.png",
+            "dimensions": "1536x1024",
+            "bytes": 3237058,
+            "sha256": "71222f42b9dd27f2f16af32007cd4ac0979c1cd665d958a33b7fa8ae1e97406a",
+            "generation_seconds": 68.6,
+            "edit_count": 0,
+            "inspection_issue": null,
+            "complete_prompt": "owl-pet/research/species/67-pulsatrix-perspicillata-v5.md",
+            "lease_expires_at": "2026-11-05T17:06:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-05T16:53:00+08:00",
+          "run_id": "20261105T164500+0800-cycle-3",
+          "species_id": 67,
+          "credited": false,
+          "evidence": {
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "image_edit_required": false,
+            "edit_count": 0,
+            "generation_seconds": 68.6,
+            "final_path": "owl-pet/design/concepts/67-pulsatrix-perspicillata-v5.png",
+            "final_sha256": "71222f42b9dd27f2f16af32007cd4ac0979c1cd665d958a33b7fa8ae1e97406a",
+            "final_bytes": 3237058,
+            "review_path": "owl-pet/research/reviews/67-pulsatrix-perspicillata-v5-review.md",
+            "adult_crop": "owl-pet/production/review-crops/67-pulsatrix-perspicillata-v5-adults.png",
+            "adult_crop_sha256": "c7039703af462f6c6b8b6a00e885c7a9cf64d8c33903a8699575bec9df8f3962",
+            "juvenile_crop": "owl-pet/production/review-crops/67-pulsatrix-perspicillata-v5-juvenile.png",
+            "juvenile_crop_sha256": "4f1c2813fd8fea54eac8e6c3b57cbc480a588ebb9ee7bee9616e1b301440ed31",
+            "scientifically_verified": false,
+            "unknowns": [
+              "exact depicted age, sex and subspecies",
+              "continuous feather chronology",
+              "first takeoff and competent flight",
+              "range-wide adult standing-height ratio",
+              "nest geometry universality",
+              "exact equivalence of monitored day-stage and Wetmore first-stage specimen"
+            ],
+            "lease_expires_at": "2026-11-05T17:08:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 3,
+          "stage": "ARCHIVED",
+          "at": "2026-11-05T16:56:00+08:00",
+          "run_id": "20261105T164500+0800-cycle-3",
+          "species_id": 67,
+          "credited": false,
+          "evidence": {
+            "version": 5,
+            "concept_blob": "5f24590794411b4115857130c9ca9388f7fa57d0",
+            "generated_blob": "5f24590794411b4115857130c9ca9388f7fa57d0",
+            "reviewed_blob": "5f24590794411b4115857130c9ca9388f7fa57d0",
+            "adults_crop_blob": "ad847354225b9dd3cc9c6fd0b751da5c132ab586",
+            "juvenile_crop_blob": "a4c6f6efc6577f189f54485eb67b32f848c66ef9",
+            "manifest_counts": {
+              "design_image": 690,
+              "design_legacy": 691,
+              "production": 681
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-05T17:11:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 3,
+          "stage": "VERIFIED",
+          "at": "2026-11-05T16:58:00+08:00",
+          "run_id": "20261105T164500+0800-cycle-3",
+          "species_id": 67,
+          "credited": false,
+          "evidence": {
+            "archive_commit": "a462f51b1ff42f80f673ab9faa835b641e9ef23c",
+            "archive_tree": "e2a5bc2bf29abda4a77f58858069e744bcc16186",
+            "paths_verified": 16,
+            "binary_paths_verified": 5,
+            "unique_binary_blobs": 3,
+            "manifest_counts": {
+              "design_image": 690,
+              "design_legacy": 691,
+              "production": 681
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-05T17:13:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 3,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-05T16:59:00+08:00",
+          "run_id": "20261105T164500+0800-cycle-3",
+          "species_id": 67,
+          "credited": true,
+          "evidence": {
+            "archive_commit": "a462f51b1ff42f80f673ab9faa835b641e9ef23c",
+            "verification_commit": "3f4d8a2a64a7355523a94011304fb05e68f63308",
+            "verification_tree": "4378ff0bb8b7075c64d3114d99b14a7ae8f1ab11",
+            "manifest_counts": {
+              "design_image": 690,
+              "design_legacy": 691,
+              "production": 681
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "next_cycle": 4,
+            "batch_status": "PARTIAL"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 4,
+          "stage": "STARTED",
+          "at": "2026-11-05T17:03:00+08:00",
+          "run_id": "20261105T170300+0800-cycle-4",
+          "species_id": 68,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #68 Tyto tenebricosa v4; restore public concept to full resolution while refreshing juvenile-stage and adult-scale evidence without inventing exact age/height",
+            "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
+            "prior_version": "owl-pet/design/concepts/68-tyto-tenebricosa-v4.png",
+            "lease_expires_at": "2026-11-05T17:18:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 4,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-05T17:06:00+08:00",
+          "run_id": "20261105T170300+0800-cycle-4",
+          "species_id": 68,
+          "credited": false,
+          "evidence": {
+            "source_ids": [
+              "GSO-HYEM-1979-P20-22",
+              "GSO-ABSA-2019",
+              "GSO-NSWSC-2008",
+              "GSO-BILNEY-2012",
+              "WHSO-MIKKOLA-2013"
+            ],
+            "new_sources": 1,
+            "reread_sources": 3,
+            "reused_sources": 1,
+            "corrected_boundaries": 2,
+            "species_card": "owl-pet/research/species/68-tyto-tenebricosa-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_saved": true,
+            "material_change_from_v4": "use the directly documented approximately-six-week sooty-grey cavity stage with defined facial discs and emerging wing/tail feathers; remove fixed visible female-larger direction despite morphometric dimorphism",
+            "mikkola_upload_accessible": false,
+            "lease_expires_at": "2026-11-05T17:21:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 4,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-05T17:08:00+08:00",
+          "run_id": "20261105T170300+0800-cycle-4",
+          "species_id": 68,
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/68-tyto-tenebricosa-v5-generated-master.png",
+            "dimensions": "1536x1024",
+            "bytes": 3621537,
+            "sha256": "de2d8ff18da65a3c9c1066f381fba08fd3f16ed5d3f7deef44aed7e37c0a384c",
+            "generation_seconds": 70.8,
+            "edit_count": 0,
+            "inspection_issue": null,
+            "complete_prompt": "owl-pet/research/species/68-tyto-tenebricosa-v5.md",
+            "lease_expires_at": "2026-11-05T17:23:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 4,
+          "stage": "REVIEWED",
+          "at": "2026-11-05T17:10:00+08:00",
+          "run_id": "20261105T170300+0800-cycle-4",
+          "species_id": 68,
+          "credited": false,
+          "evidence": {
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "image_edit_required": false,
+            "edit_count": 0,
+            "generation_seconds": 70.8,
+            "final_path": "owl-pet/design/concepts/68-tyto-tenebricosa-v5.png",
+            "final_sha256": "de2d8ff18da65a3c9c1066f381fba08fd3f16ed5d3f7deef44aed7e37c0a384c",
+            "final_bytes": 3621537,
+            "review_path": "owl-pet/research/reviews/68-tyto-tenebricosa-v5-review.md",
+            "adult_crop": "owl-pet/production/review-crops/68-tyto-tenebricosa-v5-adults.png",
+            "adult_crop_sha256": "be56fd5098aedfe8bb10977d7c336edfa4d115eefcaf42276695fefcc14fc7b8",
+            "juvenile_crop": "owl-pet/production/review-crops/68-tyto-tenebricosa-v5-juvenile.png",
+            "juvenile_crop_sha256": "000ce150e2f4a72a0fde5b191812b00bf7e10626d6a81ce47a2516eab59080c9",
+            "scientifically_verified": false,
+            "unknowns": [
+              "exact age/sex of the feather-emergence chick",
+              "continuous feather chronology",
+              "locomotor competence at approximately six weeks",
+              "population-wide visible sex ratio",
+              "universal cavity geometry"
+            ],
+            "lease_expires_at": "2026-11-05T17:25:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 4,
+          "stage": "ARCHIVED",
+          "at": "2026-11-05T17:13:00+08:00",
+          "run_id": "20261105T170300+0800-cycle-4",
+          "species_id": 68,
+          "credited": false,
+          "evidence": {
+            "version": 5,
+            "concept_blob": "188d3a5633061ddc6696408643a49cea9665fcd8",
+            "generated_blob": "188d3a5633061ddc6696408643a49cea9665fcd8",
+            "reviewed_blob": "188d3a5633061ddc6696408643a49cea9665fcd8",
+            "adults_crop_blob": "730124de618bb080ca9c852da2a625060a1e93d0",
+            "juvenile_crop_blob": "0660bc2a18f94b9cd654543e6eb305389965de13",
+            "manifest_counts": {
+              "design_image": 691,
+              "design_legacy": 692,
+              "production": 682
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-05T17:28:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 4,
+          "stage": "VERIFIED",
+          "at": "2026-11-05T17:15:00+08:00",
+          "run_id": "20261105T170300+0800-cycle-4",
+          "species_id": 68,
+          "credited": false,
+          "evidence": {
+            "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
+            "archive_tree": "b768f20caaa5db8026af0637cd8c03d821358715",
+            "paths_verified": 16,
+            "binary_paths_verified": 5,
+            "unique_binary_blobs": 3,
+            "manifest_counts": {
+              "design_image": 691,
+              "design_legacy": 692,
+              "production": 682
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-05T17:30:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 4,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-05T17:17:00+08:00",
+          "run_id": "20261105T170300+0800-cycle-4",
+          "species_id": 68,
+          "credited": true,
+          "evidence": {
+            "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
+            "verification_commit": "702d4ef95ffbc00db4ede4abb3f66592b4b50823",
+            "verification_tree": "6b39ed9fde5848c9e640ee7806593a3ec3cf45be",
+            "manifest_counts": {
+              "design_image": 691,
+              "design_legacy": 692,
+              "production": 682
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "next_cycle": 5,
+            "batch_status": "PARTIAL"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 5,
+          "stage": "STARTED",
+          "at": "2026-11-05T17:19:00+08:00",
+          "run_id": "20261105T171900+0800-cycle-5",
+          "species_id": 69,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #69 Tyto novaehollandiae v4; restore a full-resolution concept while separating the primary paper's inferred approximately-four-week developing-mask stage from v4's five-week and v3's fledgling stages",
+            "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
+            "prior_version": "owl-pet/design/concepts/69-tyto-novaehollandiae-v4.png",
+            "lease_expires_at": "2026-11-05T17:34:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 5,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-05T17:22:00+08:00",
+          "run_id": "20261105T171900+0800-cycle-5",
+          "species_id": 69,
+          "credited": false,
+          "evidence": {
+            "source_ids": [
+              "AMO-DEBUS-WOOD-2007-P49-52",
+              "AMO-ABSA-2019-P1-2",
+              "AMO-AUSTRALIAN-MUSEUM-2024",
+              "VIC-RAPTORS-2023",
+              "WHSO-MIKKOLA-2013"
+            ],
+            "new_sources": 1,
+            "reread_sources": 2,
+            "reused_sources": 3,
+            "corrected_boundaries": 3,
+            "species_card": "owl-pet/research/species/69-tyto-novaehollandiae-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_saved": true,
+            "material_change_from_v4": "separate the primary sequence's inferred approximately-four-week developing-mask stage from v4's five-week well-developed-mask chick and v3's fledgling; restore full-resolution concept",
+            "mikkola_upload_accessible": false,
+            "lease_expires_at": "2026-11-05T17:37:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 5,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-05T17:24:00+08:00",
+          "run_id": "20261105T171900+0800-cycle-5",
+          "species_id": 69,
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/69-tyto-novaehollandiae-v5-generated-master.png",
+            "dimensions": "1536x1024",
+            "bytes": 3252155,
+            "sha256": "b0ba6d48e440bde0d2c4920c0ed7f0b3ff28ae07dc09925e66789f44c683bfdc",
+            "generation_seconds": 67.7,
+            "edit_count": 0,
+            "inspection_issue": null,
+            "complete_prompt": "owl-pet/research/species/69-tyto-novaehollandiae-v5.md",
+            "lease_expires_at": "2026-11-05T17:39:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 5,
+          "stage": "REVIEWED",
+          "at": "2026-11-05T17:27:00+08:00",
+          "run_id": "20261105T171900+0800-cycle-5",
+          "species_id": 69,
+          "credited": false,
+          "evidence": {
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "image_edit_required": false,
+            "edit_count": 0,
+            "generation_seconds": 67.7,
+            "final_path": "owl-pet/design/concepts/69-tyto-novaehollandiae-v5.png",
+            "final_sha256": "b0ba6d48e440bde0d2c4920c0ed7f0b3ff28ae07dc09925e66789f44c683bfdc",
+            "final_bytes": 3252155,
+            "review_path": "owl-pet/research/reviews/69-tyto-novaehollandiae-v5-review.md",
+            "adult_crop": "owl-pet/production/review-crops/69-tyto-novaehollandiae-v5-adults.png",
+            "adult_crop_sha256": "289b45ea89ed1e7f5d08e4884ba010aec7f718072de7f44a93ac0f50acf09ec4",
+            "juvenile_crop": "owl-pet/production/review-crops/69-tyto-novaehollandiae-v5-juvenile.png",
+            "juvenile_crop_sha256": "3bfe23be8758f74a37365af2fe0c679fbab0bbaee6a3b637d7cd8351c3c54c50",
+            "scientifically_verified": false,
+            "unknowns": [
+              "exact hatch age",
+              "wild growth rate",
+              "continuous feather chronology",
+              "locomotor competence",
+              "morph/subspecies transfer",
+              "universal sex-scale ratio"
+            ],
+            "lease_expires_at": "2026-11-05T17:42:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-05T17:30:00+08:00",
+          "run_id": "20261105T171900+0800-cycle-5",
+          "species_id": 69,
+          "credited": false,
+          "evidence": {
+            "version": 5,
+            "concept_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+            "generated_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+            "reviewed_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+            "adults_crop_blob": "532ef490d7643e3030669c4c134db51675918443",
+            "juvenile_crop_blob": "564abf5e28e334bd3373dac7275193ba7a9076ee",
+            "manifest_counts": {
+              "design_image": 692,
+              "design_legacy": 693,
+              "production": 683
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-05T17:45:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 5,
+          "stage": "VERIFIED",
+          "at": "2026-11-05T17:33:00+08:00",
+          "run_id": "20261105T171900+0800-cycle-5",
+          "species_id": 69,
+          "credited": false,
+          "evidence": {
+            "archive_commit": "a3fc35485b97d026cf1f5388cd938209f8d26bfb",
+            "archive_tree": "da56e0ba770dbc047823213508587cbae04d5a4f",
+            "paths_verified": 16,
+            "binary_paths_verified": 5,
+            "unique_binary_blobs": 3,
+            "manifest_counts": {
+              "design_image": 692,
+              "design_legacy": 693,
+              "production": 683
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-05T17:48:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 5,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-05T17:35:00+08:00",
+          "run_id": "20261105T171900+0800-cycle-5",
+          "species_id": 69,
+          "credited": true,
+          "evidence": {
+            "archive_commit": "a3fc35485b97d026cf1f5388cd938209f8d26bfb",
+            "verification_commit": "5ad592b2bbaad37c9ea2c87af29b133733d3b547",
+            "verification_tree": "e0023b09d0727bca3f0b6777e85f0657ff7be805",
+            "manifest_counts": {
+              "design_image": 692,
+              "design_legacy": 693,
+              "production": 683
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "next_cycle": 6,
+            "batch_status": "PARTIAL"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 6,
+          "stage": "STARTED",
+          "at": "2026-11-05T17:36:20+08:00",
+          "run_id": "20261105T173620+0800-cycle-6",
+          "species_id": 70,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #70 Ninox strenua v4; investigate juvenile development/locomotor boundary, adult sex-scale direction, adult pattern geometry and natural hollow support before generation",
+            "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
+            "prior_version": "owl-pet/design/concepts/70-ninox-strenua-v4.png",
+            "lease_expires_at": "2026-11-05T17:51:20+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 6,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-05T17:44:00+08:00",
+          "run_id": "20261105T173620+0800-cycle-6",
+          "species_id": 70,
+          "credited": false,
+          "evidence": {
+            "source_ids": [
+              "POWERFUL-COOKE-ETAL-2020",
+              "POWERFUL-MO-WATERHOUSE-2015",
+              "POWERFUL-ABSA-2019",
+              "POWERFUL-NSWSC-2008",
+              "POWERFUL-MV-2026",
+              "WHSO-MIKKOLA-2013"
+            ],
+            "new_sources": 1,
+            "reread_sources": 3,
+            "reused_sources": 2,
+            "corrected_boundaries": 3,
+            "species_card": "owl-pet/research/species/70-ninox-strenua-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_saved": true,
+            "material_change_from_v4": "apply primary photographic sex boundary with comparable adult scale and subtle face-mask edge cue; preserve a fully supported first-flight-stage fledgling without implying polished flight competence",
+            "mikkola_upload_accessible": false,
+            "lease_expires_at": "2026-11-05T17:59:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-05T17:46:00+08:00",
+          "run_id": "20261105T173620+0800-cycle-6",
+          "species_id": 70,
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/70-ninox-strenua-v5-generated-master.png",
+            "dimensions": "1536x1024",
+            "bytes": 3437471,
+            "sha256": "c97e2c52a609df1c261525e49ee34e6f0548822fdc8dabeef48b80c8fbffc4c4",
+            "generation_seconds": 70.9,
+            "edit_count": 0,
+            "inspection_issue": null,
+            "complete_prompt": "owl-pet/research/species/70-ninox-strenua-v5.md",
+            "lease_expires_at": "2026-11-05T18:01:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-05T17:48:00+08:00",
+          "run_id": "20261105T173620+0800-cycle-6",
+          "species_id": 70,
+          "credited": false,
+          "evidence": {
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "image_edit_required": false,
+            "edit_count": 0,
+            "generation_seconds": 70.9,
+            "final_path": "owl-pet/design/concepts/70-ninox-strenua-v5.png",
+            "final_sha256": "c97e2c52a609df1c261525e49ee34e6f0548822fdc8dabeef48b80c8fbffc4c4",
+            "final_bytes": 3437471,
+            "review_path": "owl-pet/research/reviews/70-ninox-strenua-v5-review.md",
+            "adult_crop": "owl-pet/production/review-crops/70-ninox-strenua-v5-adults.png",
+            "adult_crop_sha256": "3d5965091d9baa4304b7a08e7d9a3025f233940103f789330263c3dc740280a1",
+            "juvenile_crop": "owl-pet/production/review-crops/70-ninox-strenua-v5-juvenile.png",
+            "juvenile_crop_sha256": "74d4af3bb256776db760f05ba2519c32a5d48c7093d7ec3a22f0c50be69fd0ba",
+            "scientifically_verified": false,
+            "unknowns": [
+              "exact hatch age",
+              "juvenile sex",
+              "daily feather chronology",
+              "universal first-flight competence",
+              "population transfer of photographic ratios",
+              "universal hollow geometry"
+            ],
+            "lease_expires_at": "2026-11-05T18:03:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 6,
+          "stage": "ARCHIVED",
+          "at": "2026-11-05T17:50:00+08:00",
+          "run_id": "20261105T173620+0800-cycle-6",
+          "species_id": 70,
+          "credited": false,
+          "evidence": {
+            "version": 5,
+            "concept_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+            "generated_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+            "reviewed_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+            "adults_crop_blob": "12ff38961f13e7477247187a89ebf7abd1f4602d",
+            "juvenile_crop_blob": "db12606c6a27115f5c36f1e81fe74eda757ac9a4",
+            "manifest_counts": {
+              "design_image": 693,
+              "design_legacy": 694,
+              "production": 684
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-05T18:05:00+08:00"
+          }
         }
       ],
       "lease": {
         "owner": "codex-automation",
         "run_id": "20261105T173620+0800-cycle-6",
-        "heartbeat_at": "2026-11-05T17:48:00+08:00",
-        "expires_at": "2026-11-05T18:03:00+08:00"
+        "heartbeat_at": "2026-11-05T17:50:00+08:00",
+        "expires_at": "2026-11-05T18:05:00+08:00"
       }
     }
   ],
   "lease": {
-    "owner": "codex-production",
-    "run_id": "20261105T170300+0800-cycle-4",
-    "batch_id": "20261105T153530+0800",
-    "cycle": 4,
-    "species_id": 68,
-    "heartbeat_at": "2026-11-05T17:03:00+08:00",
-    "expires_at": "2026-11-05T17:18:00+08:00"
+    "owner": "codex-automation",
+    "run_id": "20261105T173620+0800-cycle-6",
+    "heartbeat_at": "2026-11-05T17:50:00+08:00",
+    "expires_at": "2026-11-05T18:05:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -16644,7 +17500,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T17:44:00+08:00",
+  "updated_at": "2026-11-05T17:50:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -16654,15 +17510,12 @@
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
   "active_lease": {
-    "owner": "codex-production",
-    "run_id": "20261105T155500+0800-cycle-2",
-    "batch_id": "20261105T153530+0800",
-    "cycle": 2,
-    "species_id": 66,
-    "heartbeat_at": "2026-11-05T15:55:00+08:00",
-    "expires_at": "2026-11-05T16:10:00+08:00"
+    "owner": "codex-automation",
+    "run_id": "20261105T173620+0800-cycle-6",
+    "heartbeat_at": "2026-11-05T17:50:00+08:00",
+    "expires_at": "2026-11-05T18:05:00+08:00"
   },
-  "last_updated_at": "2026-11-05T15:55:00+08:00",
+  "last_updated_at": "2026-11-05T17:50:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -17425,16 +18278,16 @@
   ],
   "in_progress": {
     "batch_id": "20261105T153530+0800",
-    "cycle": 4,
-    "run_id": "20261105T170300+0800-cycle-4",
-    "species_id": 68,
-    "species": "Tyto tenebricosa",
+    "cycle": 6,
+    "run_id": "20261105T173620+0800-cycle-6",
+    "species_id": 70,
+    "species": "Ninox strenua",
     "action": "SCIENCE_REVISION",
     "version": 5,
-    "current_stage": "STARTED",
-    "started_at": "2026-11-05T17:03:00+08:00",
-    "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
-    "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md"
+    "current_stage": "ARCHIVED",
+    "started_at": "2026-11-05T17:36:20+08:00",
+    "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
+    "run_record": "owl-pet/production/runs/20261105T173620+0800-cycle-6.md"
   },
   "previous_checkpoint": {
     "batch_id": "20261105T033723+0800",
@@ -21241,9 +22094,9 @@
     }
   ],
   "active_batch_id": "20261105T153530+0800",
-  "active_cycle": 2,
-  "current_stage": "STARTED",
-  "next_cycle": 2,
+  "active_cycle": 6,
+  "current_stage": "ARCHIVED",
+  "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -23868,6 +24721,33 @@
         ],
         "lease_expires_at": "2026-11-05T18:03:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261105T153530+0800",
+      "cycle": 6,
+      "stage": "ARCHIVED",
+      "at": "2026-11-05T17:50:00+08:00",
+      "run_id": "20261105T173620+0800-cycle-6",
+      "species_id": 70,
+      "credited": false,
+      "evidence": {
+        "version": 5,
+        "concept_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+        "generated_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+        "reviewed_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+        "adults_crop_blob": "12ff38961f13e7477247187a89ebf7abd1f4602d",
+        "juvenile_crop_blob": "db12606c6a27115f5c36f1e81fe74eda757ac9a4",
+        "manifest_counts": {
+          "design_image": 693,
+          "design_legacy": 694,
+          "production": 684
+        },
+        "unique_species": "176/251",
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-05T18:05:00+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261105T103554+0800",
@@ -23936,8 +24816,8 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T173620+0800-cycle-6",
-      "heartbeat_at": "2026-11-05T17:44:00+08:00",
-      "expires_at": "2026-11-05T17:59:00+08:00"
+      "heartbeat_at": "2026-11-05T17:50:00+08:00",
+      "expires_at": "2026-11-05T18:05:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23947,12 +24827,12 @@
       "species": "Ninox strenua",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "RESEARCH_READY",
+      "current_stage": "ARCHIVED",
       "started_at": "2026-11-05T17:36:20+08:00",
       "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
       "run_record": "owl-pet/production/runs/20261105T173620+0800-cycle-6.md"
     },
-    "current_stage": "RESEARCH_READY",
+    "current_stage": "ARCHIVED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24869,6 +25749,86 @@
           "material_change_from_v4": "apply primary photographic sex boundary with comparable adult scale and subtle face-mask edge cue; preserve a fully supported first-flight-stage fledgling without implying polished flight competence",
           "mikkola_upload_accessible": false,
           "lease_expires_at": "2026-11-05T17:59:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 6,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-05T17:46:00+08:00",
+        "run_id": "20261105T173620+0800-cycle-6",
+        "species_id": 70,
+        "credited": false,
+        "evidence": {
+          "generated_path": "owl-pet/production/generated/70-ninox-strenua-v5-generated-master.png",
+          "dimensions": "1536x1024",
+          "bytes": 3437471,
+          "sha256": "c97e2c52a609df1c261525e49ee34e6f0548822fdc8dabeef48b80c8fbffc4c4",
+          "generation_seconds": 70.9,
+          "edit_count": 0,
+          "inspection_issue": null,
+          "complete_prompt": "owl-pet/research/species/70-ninox-strenua-v5.md",
+          "lease_expires_at": "2026-11-05T18:01:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 6,
+        "stage": "REVIEWED",
+        "at": "2026-11-05T17:48:00+08:00",
+        "run_id": "20261105T173620+0800-cycle-6",
+        "species_id": 70,
+        "credited": false,
+        "evidence": {
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "image_edit_required": false,
+          "edit_count": 0,
+          "generation_seconds": 70.9,
+          "final_path": "owl-pet/design/concepts/70-ninox-strenua-v5.png",
+          "final_sha256": "c97e2c52a609df1c261525e49ee34e6f0548822fdc8dabeef48b80c8fbffc4c4",
+          "final_bytes": 3437471,
+          "review_path": "owl-pet/research/reviews/70-ninox-strenua-v5-review.md",
+          "adult_crop": "owl-pet/production/review-crops/70-ninox-strenua-v5-adults.png",
+          "adult_crop_sha256": "3d5965091d9baa4304b7a08e7d9a3025f233940103f789330263c3dc740280a1",
+          "juvenile_crop": "owl-pet/production/review-crops/70-ninox-strenua-v5-juvenile.png",
+          "juvenile_crop_sha256": "74d4af3bb256776db760f05ba2519c32a5d48c7093d7ec3a22f0c50be69fd0ba",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact hatch age",
+            "juvenile sex",
+            "daily feather chronology",
+            "universal first-flight competence",
+            "population transfer of photographic ratios",
+            "universal hollow geometry"
+          ],
+          "lease_expires_at": "2026-11-05T18:03:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 6,
+        "stage": "ARCHIVED",
+        "at": "2026-11-05T17:50:00+08:00",
+        "run_id": "20261105T173620+0800-cycle-6",
+        "species_id": 70,
+        "credited": false,
+        "evidence": {
+          "version": 5,
+          "concept_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+          "generated_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+          "reviewed_blob": "f36e1fc21f03d457a47a91faee63ce3056b65bea",
+          "adults_crop_blob": "12ff38961f13e7477247187a89ebf7abd1f4602d",
+          "juvenile_crop_blob": "db12606c6a27115f5c36f1e81fe74eda757ac9a4",
+          "manifest_counts": {
+            "design_image": 693,
+            "design_legacy": 694,
+            "production": 684
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-05T18:05:00+08:00"
         }
       }
     ]

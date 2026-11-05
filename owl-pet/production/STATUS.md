@@ -112,3 +112,9 @@
 - The age-unknown juvenile is based on separately documented Bemanevika chicks still covered only in down and unable to escape a deep tree cavity; v3/v4 stages are not merged. Full master and two crops passed without edit.
 - Manifests 688/689/679; unique 176/251; revision +1; science false. No cycle credit before immutable readback.
 
+
+## #70 *Ninox strenua* v5 ARCHIVED — readback pending
+
+- Full-resolution concept/generated/reviewed master blob `f36e1fc21f03d457a47a91faee63ce3056b65bea`; adult crop `12ff38961f13e7477247187a89ebf7abd1f4602d`; fledgling crop `db12606c6a27115f5c36f1e81fe74eda757ac9a4`.
+- Near-equal adult scale, subtle male-broader/female-mask-edge cues and a fully supported recent fledgling passed full/crop review without edit. PASS_WITH_LIMITATIONS; science false.
+- Manifests 693/694/684; unique 176/251; cycle 6 remains uncredited until fixed-commit readback.

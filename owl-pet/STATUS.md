@@ -3261,3 +3261,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.
 - Full 1536×1024 master, adult/support crop and juvenile/cavity crop were opened; PASS_WITH_LIMITATIONS, edit0. Manifests 688/689/679; unique 176/251; science false; no cycle credit before immutable readback.
 
+
+## 2026-11-05 #70 *Ninox strenua* v5 ARCHIVED — readback pending
+
+- V1–v4 remain preserved. Adult scale/mask cues and the fully supported recent-fledgling action boundary were actively refreshed from primary and institutional evidence.
+- Full frame plus adult and fledgling crops passed opened review without edit. Exact age/sex, daily feather chronology, universal first-flight competence, photo-ratio transfer and hollow geometry remain unknown.
+- Manifests 693/694/684; unique remains 176/251; revision +1; science false. Cycle 6 receives no credit before immutable readback.

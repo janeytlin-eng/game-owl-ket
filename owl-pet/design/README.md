@@ -3054,3 +3054,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - [Concept](concepts/69-tyto-novaehollandiae-v5.png) · [Research](../research/species/69-tyto-novaehollandiae-v5.md) · [Review](../research/reviews/69-tyto-novaehollandiae-v5-review.md) · [Run](../production/runs/20261105T171900+0800-cycle-5.md)
 - V5 preserves v1–v4, restores full resolution and selects the primary sequence's distinct inferred approximately-four-week stage: buff/ochre woolly down, developing mask, hidden wings/tail and no visible feather vanes. The label retains “INFERRED”; v4 five-week and v3 fledgling traits are not blended backward. No edit; PASS_WITH_LIMITATIONS; science false; immutable readback pending.
 
+
+## #70 Powerful Owl — *Ninox strenua* — v5
+
+- [Concept](concepts/70-ninox-strenua-v5.png) · [Research](../research/species/70-ninox-strenua-v5.md) · [Review](../research/reviews/70-ninox-strenua-v5-review.md) · [Run](../production/runs/20261105T173620+0800-cycle-6.md)
+- V5 preserves v1–v4 and replaces a conspicuous adult size gap with Cooke et al. 2020's comparable-scale direct-alert cues. The recent fledgling retains developed folded wings/tail but remains fully supported at the hollow lip with no polished-flight claim. No edit; PASS_WITH_LIMITATIONS; science false; immutable readback pending.

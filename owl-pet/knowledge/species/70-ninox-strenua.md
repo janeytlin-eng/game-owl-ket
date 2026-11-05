@@ -26,3 +26,12 @@ Actual edited PNG viewed: adult upperwing points now irregular creamy bars; bell
 
 
 Verification 2026-10-31T00:49:00+08:00: fixed archive `cd18932e5f0df19e09683e05a7f1feea09fa91b5` returned exact assets and non-truncated tree; manifests 576/575/566; science false.
+
+
+## v5 — 2026-11-05 — photographic-sex and fledgling-support revision
+
+- Preserved v1–v4; new concept [70-ninox-strenua-v5.png](../../design/concepts/70-ninox-strenua-v5.png).
+- Cooke et al. 2020 supports comparable-scale adult presentation, a subtly broader male head/body and a female facial-mask edge reaching the head contour more than the male's; the paper explicitly describes extremely limited apparent dimorphism.
+- Mo & Waterhouse 2015 supports a recent-fledgling boundary with developed wings/tail and early flight attempts, but v5 keeps the bird fully supported at the hollow lip and does not claim universally polished first-flight competence.
+- Full master and adult/fledgling crops opened and passed without edit. Exact hatch age, juvenile sex, daily feather chronology, population transfer of photo ratios and universal hollow geometry remain unknown; `scientifically_verified=false`.
+- Research: [70-ninox-strenua-v5.md](../../research/species/70-ninox-strenua-v5.md) · review: [70-ninox-strenua-v5-review.md](../../research/reviews/70-ninox-strenua-v5-review.md) · run: [cycle 6](../../production/runs/20261105T173620+0800-cycle-6.md).

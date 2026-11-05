@@ -1747,3 +1747,34 @@
 ### Reuse and unknowns
 - Reused repository-pinned Mikkola 2013 printed pp.91–92/PDF pp.93–94; uploaded file unavailable in this run, so no fresh-upload reading claimed.
 - Unknown: exact individual age, sex, tract chronology, pair-specific adult ratio, precise flight threshold and transfer beyond north-western Victoria.
+
+
+## 2026-11-06 — #92 *Ninox japonica* v3 — age, sex-size and recent-fledgling boundary
+
+### JAP-FUKAI-2016-PP22-28
+- **Title/author/year:** “Age determination of Brown Hawk-Owl (*Ninox scutulata*)” — Norio Fukai, 2016, *Bulletin of the Japanese Bird Banding Association* 28:22–28.
+- **URL/DOI/accessed:** https://www.jstage.jst.go.jp/article/jbba/28/1/28_MS073/_pdf ; full PDF read 2026-11-06.
+- **Pages/species/stages:** printed pp.22–26; Japanese *N. s. japonica*, juvenile, first-winter and adult specimens/captures/photos.
+- **Facts:** external sexing and size-only sexing unreliable because plumage and measurements overlap; juvenile rectrices taper and carry a broad pale terminal fringe comparable with inner pale bands, while adults have broader rounded rectrices and a narrow whiter tip; juvenile body/covert molt begins before flight feathers finish growing.
+- **Limits/design use:** tail character supports a formed but juvenile-finished recent fledgling; it does not supply exact day, flight ability or continuous tract chronology. High confidence; older name maps to current *N. japonica*.
+- **Links:** `research/species/92-ninox-japonica-v3.md`; v3 concept/review; `production/runs/20261106T073000+0800-cycle-1.md`.
+
+### JAP-LIN-LIN-TSENG-2012-PP164-166
+- **Title/authors/year:** “Breeding ecology of the Northern Boobook *Ninox japonica totogo* in central Taiwan” — Wen-Loung Lin, Si-Min Lin & Hui-Yun Tseng, 2012, *Forktail* 28:164–166.
+- **URL/accessed:** https://web.ntnu.edu.tw/~treehopper/lib/publications_lib_pdf/nonox_et_al_2012.pdf ; full author-hosted PDF read 2026-11-06.
+- **Pages/species/stages:** printed pp.164–166, Tables 1–3; breeding adults, nestlings and nest sites of resident Taiwan *totogo*.
+- **Facts:** ten tree-cavity nests; 25–28 day nestling period; no significant male–female difference in measured bill, head, wing, tail, tarsus or mass. Paper explicitly maps the old *N. scutulata* complex to split *N. japonica* and contrasts *japonica* and *totogo*.
+- **Limits/design use:** Taiwan population cannot establish a precise Japanese pair ratio. Supports near-equal visible adult scale and no universal female-larger template. High confidence.
+- **Links:** same #92 v3 records.
+
+### JAP-ZUKAN-ASADA-2023-166264
+- **Title/author/date:** identified *N. scutulata japonica* field-photo record — Masahiro Asada, photographed 2023-07-19, posted 2023-07-27.
+- **URL/accessed:** https://zukan.com/jbirds/leaf166264 ; opened 2026-11-06.
+- **Stage/locality:** recent fledgling, Mie Prefecture, Japan; old shrine tree/cavity.
+- **Facts:** page states three young fledged that morning from a repeatedly used old tree cavity.
+- **Limits/design use:** reliable for action/support and recent-fledgling context, not measured age or complete plumage chronology. Medium confidence.
+- **Links:** same #92 v3 records.
+
+### Reuse and correction
+- Reused repository-pinned `JAP-MIK2013-466`, `JAP-TAIEOL2013` and v1/v2 visual/recovery history. New3/reused3/corrected5.
+- V3 preserves near-equal adults and continuous support, but replaces the generic center bird with an explicitly age-unknown recent fledgling; uses the primary juvenile tail boundary and forbids adult-perfect wing/tail or unsupported flight. Science remains false.

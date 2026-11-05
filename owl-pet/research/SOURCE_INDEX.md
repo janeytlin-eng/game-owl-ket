@@ -1,3 +1,25 @@
+## 2026-11-05 — #65 *Tyto soumagnei* v5 — no-visible-sex-dimorphism / down-only nestling boundary
+
+### MRO-RAMAMONJISOA-2014-P56-57-75-77
+- **Title / author / year:** *Étude de la biologie et de l’écologie d’Effraie de Soumagne Tyto soumagnei (Grandidier, 1878) dans la Nouvelle Aire Protégée de Bemanevika, Bealanana* — Juliot Carl Ramamonjisoa, Université d’Antananarivo doctoral thesis, defended 2014.
+- **URL / pages / accessed:** https://protectedareas.mg/content/documents/ff1f419c-05a9-4910-88d5-22fde787ce37/f49d347156d2438f97d2c6b8df277bc1.pdf ; printed pp.56–57 and 75–77, plus Annex I; full PDF text and relevant passages read 2026-11-05.
+- **Type / species / stages:** primary multi-year field thesis; eight sexed adults and three tree-hole nests, including down-covered nestlings of unknown exact age.
+- **Facts:** the thesis explicitly states that no size, colour or form difference is visually detectable between male and female. In the measured sample, mean wingspan was nearly equal (male 771.5 ± 10.9 mm, female 769.5 ± 20.4 mm; n=4 each), while mean mass differed (male 298 ± 5.7 g, female 337.5 ± 10.4 g). Three nests were tree holes; entrances were 16–20 m high and internal depth 45–117 cm. In 2014, two chicks disappeared while still covered only in down and could not escape the cavity.
+- **Limits / conflicts:** small adult sample; sexing used mass plus cloacal protuberance, not genetic sexing. The down-only chicks lack exact age, measurements, photographs in the extracted passage and feather chronology. Mass difference does not license a visible crown-height or silhouette ratio; inability to escape does not establish an exact locomotor threshold.
+- **Design/check decision:** adults share equal display height and essentially the same silhouette/plumage; label sex without coding colour as sex. Depict one age-unknown down-covered nestling low on a deep cavity floor, with no long remiges, tail or branch/flight pose. The Bemanevika tree hole is a documented example, not universal habitat.
+- **Links:** `research/species/65-tyto-soumagnei-v5.md`; planned concept v5; run `production/runs/20261105T153530+0800-cycle-1.md`.
+
+### MRO-MNHN-HOLOTYPE-2026
+- **Title / institution:** holotype specimen MNHN-ZO-MO-1888-640 — Muséum national d’Histoire naturelle, Paris.
+- **URL / accessed / type:** https://science.mnhn.fr/institution/mnhn/collection/zo/item/mo-1888-640 ; institutional collection record and specimen images page read 2026-11-05; no printed page.
+- **Taxonomy facts:** original combination/determination *Heliodilus soumagnei* Milne-Edwards, 1877; current determination *Tyto soumagnei* (A. Grandidier, 1878). Adult, sex undetermined, Toamasina type specimen.
+- **Limits/design use:** taxonomy/name mapping and adult specimen identity only; it cannot support sex differences or juvenile development.
+
+### Reuse, correction and unavailable material
+- Reused `MRO-NHM-2003-P1112` for the separate approximately-30-day stage and `MRO-THORSTROM-NEST-1996` for the first-nest/fledging sequence. Those stages remain preserved in v4/v3 and are not merged into the age-unknown down-only Bemanevika nestlings.
+- Corrected boundaries: a mean mass difference is not a visible height ratio; “covered only in down” does not license exact wing-pin counts; one documented deep tree cavity is not a universal nest template. New2 / reused2 / corrected3; scientific status false.
+- Uploaded Mikkola guide was unavailable in this run, so no new page claim was made. Exact nestling age/sex, feather chronology and first locomotor competence remain unknown.
+
 ## 2026-11-05 — #62 *Ketupa sumatrana* v5 — Johor day-27 nestling boundary
 
 ### BEOW-FOLEY-2013-P34-37

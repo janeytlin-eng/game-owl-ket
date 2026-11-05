@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T07:25:00+08:00",
+  "updated": "2026-11-06T07:37:30.698+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22873,7 +22873,68 @@
       "archive_tree": "16b705e388c6f6312749ab75e2dfeb1a3fc7efd1",
       "verified_at": "2026-11-06T07:25:00+08:00",
       "verification_result": "PASS: immutable archive tree returned 3,250 non-truncated entries; all 13 required #91 paths were present; six binary paths matched exact Git blobs and byte sizes; three manifests parsed at 711/710/701 with #91 v5 tails."
+    },
+    {
+      "id": "92-ninox-japonica-v3",
+      "path": "design/concepts/92-ninox-japonica-v3.png",
+      "species_id": 92,
+      "scientific_name": "Ninox japonica",
+      "current_scientific_name": "Ninox japonica",
+      "common_name": "Northern Boobook",
+      "historical_names": [
+        "Ninox scutulata japonica",
+        "Ninox scutulata"
+      ],
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "JAP-FUKAI-2016-PP22-28",
+        "JAP-LIN-LIN-TSENG-2012-PP164-166",
+        "JAP-ZUKAN-ASADA-2023-166264",
+        "JAP-MIK2013-466",
+        "JAP-TAIEOL2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/92-ninox-japonica-v3.md",
+      "review_record": "research/reviews/92-ninox-japonica-v3-review.md",
+      "run_record": "production/runs/20261106T073000+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2874593,
+      "sha256": "90a7932a14fc01a66eaa8fd0907ec5c485a18550ed001abb7dc67746a3512ea8",
+      "git_blob": "856dd38645e50bd8e1f38850e9afb401943665e3",
+      "generated_path": "production/generated/92-ninox-japonica-v3-generated-master.png",
+      "generated_blob": "7162918d33421ac854986caa60206fc5b60a303a",
+      "generated_sha256": "3d3e50e89eda8e04b7e987ffd61cceb6ac71b53132ab2068603b4e5b37d37d29",
+      "generated_size_bytes": 3044083,
+      "edit_path": "production/reviewed/92-ninox-japonica-v3-reviewed-master.png",
+      "edit_blob": "856dd38645e50bd8e1f38850e9afb401943665e3",
+      "reviewed_path": "production/reviewed/92-ninox-japonica-v3-reviewed-master.png",
+      "reviewed_blob": "856dd38645e50bd8e1f38850e9afb401943665e3",
+      "adults_review_crop": "production/review-crops/92-ninox-japonica-v3-adults-support.png",
+      "adults_review_blob": "0f4da108f9812b822d4bd00a3919a6eec486c575",
+      "adults_review_size_bytes": 1306829,
+      "adults_review_sha256": "61641328cd08adbfcf1e72701d897b5ae1c3b5427163911ac33e28e5de2944c7",
+      "juvenile_review_crop": "production/review-crops/92-ninox-japonica-v3-juvenile.png",
+      "juvenile_review_blob": "805ce7b6f42a407a0fbad0bacb12f9a332fe53e9",
+      "juvenile_review_size_bytes": 837418,
+      "juvenile_review_sha256": "6bffde2342eac98bb344100bc49e7e68c371a2c790ce1b3f150b5941261001f1",
+      "reviewed_at": "2026-11-06T07:36:07.840+08:00",
+      "readback_pending": true,
+      "archive_note": "V3 preserves v1-v2. One targeted juvenile-only edit shortened and softened the wing, removed adult-like shoulder spots and reduced the tail while preserving labels, both adults, cavity and continuous support. Adult scale remains near-equal. Exact age, sex, flight ability and fine population variation remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T07:25:00+08:00"
+  "updated_at": "2026-11-06T07:37:30.698+08:00"
 }

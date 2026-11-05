@@ -60,3 +60,7 @@ Avoid: extra birds, eggs, prey, nest cavity, watermark, border, exact age/day, a
 ## Planned review
 
 Open the full image and check exact title/name/count/labels, adult orange eyes/feathered toes/nuchal collar, near-equal adult scale, juvenile whole-body down/little tufts/incomplete wing and tail/no mature flight rows, continuous support, and absence of an invented nest. Edit and re-open if any boundary fails.
+
+## Generated result and self-revision
+
+The initial plate was opened. It passed text/count/adult identity/near-equal adult scale/Cryptomeria setting/whole-body down and support, but retained a few long hard juvenile flight/tail feathers. A targeted center-only edit shortened, rounded and down-obscured the wings and concealed the tail. The full plate and two crops were reopened; the very recent fledgling boundary now passes. Final SHA-256 `414f79f2c8716fe4b13354d6ad9feb9dac3f80d8a500128b4e12704b7cf46baa`; Git blob `efd69ae41e23ca9054c2c31cebb74bdcbe65035c`. PASS_WITH_LIMITATIONS; exact age, iris, flight threshold, sex and universal morphology remain unknown; science false.

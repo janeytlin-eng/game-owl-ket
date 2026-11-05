@@ -57,3 +57,8 @@ First generation actually opened at 1536×1024 plus a 560×650 juvenile crop. Ex
 ## v3 VERIFIED — 2026-10-29T12:41:05+08:00
 
 Fixed archive `8ebd20378c29614b68110c0d943709510f503f27`; recursive tree not truncated; six canonical image paths/blobs/sizes and manifest510 matched. Science revision only, unique increment0, scientifically_verified=false. [Original](../../design/concepts/85-otus-semitorques-v3.jpg) · [Run](../../production/runs/20261029T1236+0800-cycle-1.md).
+
+
+## 2026-11-06 v5 direct recent-fledgling correction
+
+Nohara & Honda 2025 printed pp.75–78/fig.3 was read in full. Their 2024 Saitama young perched 9–10 m on cedar on two days, moved little, was covered over its whole body in down, had clear tufts, and had flight/tail feathers not fully grown; iris was unresolved and no nest was found. V5 therefore replaces v4's first-winter center bird with a very recent fledgling, shows no cavity, and does not assign juvenile iris colour. One center-only edit removed long hard adult-like wing/tail feathers. Full plate and two crops pass with limitations. ITIS TSN 1063233 confirms current *Otus semitorques*; historical *Otus bakkamoena semitorques* is retained only as old treatment. Science false.

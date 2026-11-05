@@ -22587,7 +22587,79 @@
       "archive_tree": "3b8966e40cf35a92c29c2ef2ce54963b4532994f",
       "verified_at": "2026-11-06T04:52:00+08:00",
       "verification_result": "PASS: immutable archive commit returned 15 required paths; all six binary paths match exact Git blobs; three remote manifests parse at 707/706/697 with #83 v5 tails; research/review/run text is readable"
+    },
+    {
+      "id": "85-otus-semitorques-v5",
+      "path": "design/concepts/85-otus-semitorques-v5.png",
+      "species_id": 85,
+      "scientific_name": "Otus semitorques",
+      "current_scientific_name": "Otus semitorques",
+      "common_name": "Japanese Scops Owl",
+      "historical_names": [
+        "Otus bakkamoena semitorques"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SEM-NOHARA-HONDA-2025-P75-78",
+        "SEM-ITIS-1063233-2026",
+        "SEM-TOKYO-ZOO-2026",
+        "SEM-FUKAI-2017",
+        "SEM-MIK2013-158"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/85-otus-semitorques-v5.md",
+      "review_record": "research/reviews/85-otus-semitorques-v5-review.md",
+      "run_record": "production/runs/20261106T050000+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2870970,
+      "sha256": "414f79f2c8716fe4b13354d6ad9feb9dac3f80d8a500128b4e12704b7cf46baa",
+      "git_blob": "efd69ae41e23ca9054c2c31cebb74bdcbe65035c",
+      "generated_path": "production/generated/85-otus-semitorques-v5-generated-master.png",
+      "generated_blob": "efb7af510270b9ad30fd4fa159cb158a48a2b477",
+      "generated_sha256": "784c88c6bab647a4175d78b4725c2692917d3fa3a7e8a2ab0b4cd545f39571a9",
+      "generated_size_bytes": 3058279,
+      "edit_path": "production/generated/85-otus-semitorques-v5-edit1.png",
+      "edit_blob": "efd69ae41e23ca9054c2c31cebb74bdcbe65035c",
+      "edit_paths": [
+        "production/generated/85-otus-semitorques-v5-edit1.png"
+      ],
+      "edit_blobs": [
+        "efd69ae41e23ca9054c2c31cebb74bdcbe65035c"
+      ],
+      "reviewed_path": "production/reviewed/85-otus-semitorques-v5-reviewed-master.png",
+      "reviewed_blob": "efd69ae41e23ca9054c2c31cebb74bdcbe65035c",
+      "adults_review_crop": "production/review-crops/85-otus-semitorques-v5-adults-support.png",
+      "adults_review_blob": "00681ec50daeca13fa521cd22cac9f6f783b409f",
+      "adults_review_size_bytes": 2065537,
+      "adults_review_sha256": "00837020ae1ce39b368ba0d8aad6b6c1fb9a6e44d7cdf72120c0f7af8f8214b0",
+      "juvenile_review_crop": "production/review-crops/85-otus-semitorques-v5-juvenile.png",
+      "juvenile_review_blob": "6b7b39fa9dc5da1b3ff01f9cfa5eebdb2441b1b1",
+      "juvenile_review_size_bytes": 724340,
+      "juvenile_review_sha256": "d8d8a4a47492f4df5973973733c7a96fed16dced3b0b4094e6ecc4b052a22413",
+      "reviewed_at": "2026-11-06T05:15:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 replaces a first-winter center bird with the directly observed 2024 Saitama very recent fledgling: whole-body down, clear tufts, incomplete flight/tail feathers, little movement and cedar support. One edit removed adult-like long wing/tail feathers. No juvenile iris, exact age, flight, nest, sex-size ratio or scientific sign-off is claimed.",
+      "archive_commit": null,
+      "archive_tree": null,
+      "verified_at": null,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-11-06T04:52:00+08:00"
+  "updated_at": "2026-11-06T05:20:00+08:00"
 }

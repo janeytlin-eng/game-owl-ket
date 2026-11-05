@@ -3146,3 +3146,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Immutable archive verification 2026-11-06T04:52:00+08:00: commit `8db903507df5a7989d46b25e21fed46efe85b2c5`, tree `3b8966e40cf35a92c29c2ef2ce54963b4532994f`; 15 required paths and six exact binary tuples passed. Manifests 707/706/697; ledger credit pending.
 
 - Ledger credit 2026-11-06T04:54:00+08:00: verification commit `e63f68d280f5c533ff94b637481a0694bb69faf9`, tree `86575aa4e1d8d3b582f7e7e19bde230d1ac0d4b0`; batch cumulative 1/6, next cycle 2, lease released. Science false.
+
+
+## #85 Japanese Scops Owl — *Otus semitorques* — v5
+
+- [Concept](concepts/85-otus-semitorques-v5.png) · [Research](../research/species/85-otus-semitorques-v5.md) · [Review](../research/reviews/85-otus-semitorques-v5-review.md) · [Run](../production/runs/20261106T050000+0800-cycle-2.md)
+- V5 preserves v1–v4 and replaces the first-winter center bird with Nohara & Honda's directly observed Saitama very recent fledgling: whole-body down, clear tufts, incomplete wing/tail, little movement and cedar-branch support; no invented nest or iris. One juvenile-only edit removed adult-like hard feathers. PASS_WITH_LIMITATIONS; science false; unique 176/251; readback pending.

@@ -1,6 +1,3 @@
-Warning: truncated output (original token count: 81746)
-Total output lines: 3016
-
 ## #62 Barred Eagle-Owl — *Ketupa sumatrana* — v5 VERIFIED
 
 - Concept: [62-ketupa-sumatrana-v5.png](concepts/62-ketupa-sumatrana-v5.png)
@@ -1207,7 +1204,644 @@ New0/reused2 BSO-EISERMANN-FIELD originalpage/ownfamilyphotopixels reread/viewed
 ### 118-megascops-cooperi-v2 2026-10-16T11:57:30.131Z
 Actualedited/viewed adultupperwing excessivebrightVrows reduced, truewhitescapulargroup AND secondclosedwingpaleband retained. Some repeatedgeometry remains pending. Youngdefensiveformedbarredwings/graybarredbody/yelloweyes/bill/twofeetgroundsupport retained but finecrown/browfeathermap incidentally highercontrast, NOT pixelidentical despitepreserveprompt; pendingcalibration. Adultheadtufts/tarsi/grips/labels retained. Unique117/251unchanged. Sciencefalse; age/sexscale/feathergeometry pending. Original 9b55f0463f3260366b78bbc982e9bef9c2522d3a size2977729 SHA256 de773ec742e1c92d990c8c590be633660819c0225d5377501463376be79f1932 Gitblob 1d825783827687659548f8d2fc5289ca6c892d75; independently downloaded full PNG decoded and size/hash matched.
 New0/reused3 PSC-MERLE-2019 actualprimarypage/pixels, PSC-OWLPAGES-2020 Description refreshed, PSC-KOMAR-STUFKENS-2012 knownyoungpose unchanged. Research prevented erroneous removal of validsecondband beforeedit; visual outputbothbandsretained but no universalsciencepass. Index39ea21a90e3a0ae2f1631debab4414eea55e45ea readback.
-[Original](http…21746 tokens truncated…10-27T1636+0800-cycle-1.md)
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/118-megascops-cooperi-v2.png)
+
+
+### #120 Megascops ingens verified 2026-10-16T14:40:25.310Z
+NEW unique117→118/251; actualgenerated/edited/viewed juvenilecovertcontrast reduced, formedremiges/ageunknown retained. Brownirises/shortadulttufts/olivebills/featheredtarsi/baretoegrips/stumpcavitysupport andlabels checked. Finefeathergeometry/age/sexscale unknownsciencefalse. Sources RIS-ORDONEZ-2022-LEAD correctedoriginaltextp302/Fig1visualgap; RIS-OWLPAGES-2020 and RIS-ITIS-MAPPING new2. Originalimagecommit c6658d5eb8740838127b068ebc3d98595d0fbac3;3069948bytes SHA2563f11bfc3998d28ad8876c3ac6c98e3efe565ce4df6f8010781fef1b39308f48a blobfbf72c57cae4c082d892e60bec0c650a82911466. IndependentlydownloadedimmutablePNGfullydecoded1536x1024/hashmatched. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/120-megascops-ingens-v1.png); [prompts/stages](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T2029+0800-cycle-2.md).
+
+
+### 111-otus-cyprius-v2 2026-10-16T14:43:21.910Z
+Actualedit/view centralyoung breast/belly now diffusegraybrown transversebars replacinglongadultshafts; winglength/formedremiges/barredtail andlegitimatepalewingmarks retained. Yelloweyes/darkbills/grayfaces/tufts/footgrips/olivebranch andalllabels checked; adults visuallypreserved notpixelidentityclaim. Finebarspacing/age/sexscale remainunvalidatedsciencefalse.
+Sources CYSO-SOUNDAPPROACH-2013PHOTOS actualfreshpage/ownpixels, CYSO-FLINT-2015 priorp309/310 reused;new0/reused2. Original design/concepts/111-otus-cyprius-v2.png imagecommit b5f57023750f719d375a18c883f798d33b5ec4fc;2961946 bytes SHA256 b3a74b91361662f05690b39bee33ad2194581caa3ab4e75b50c6fe331b748cf9 Gitblob 9fdbd33085375df3f06a1f95400b192f74bd98cb. IndependentlydownloadedimmutablePNGfullPILdecoded1536x1024/hashmatched. Unique118/251unchanged. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/111-otus-cyprius-v2.png); [Completeprompts/research/stages](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T2029+0800-cycle-3.md).
+
+
+### 113-ninox-natalis-v2 2026-10-16T14:46:22.885Z
+Actualedited/viewed youngcrown nowmoreuniformrussetbrown withfewerpalecream flecks, smallremainingtips retained notabsolutezero. Shortwhitelores/yelloweyes/graybill/roundtuftlesshead/headtilt/barredbody/formedwingtail/yellowfootgrips andadultwingwhitespots/alllabels retainedvisually. Exactheadpattern/colorunderillumination/age/sexscale remainunknownsciencefalse.
+Sources CIB-MONTGOMERY-2006 primarycaption/pixels; CIB-WAM-FACTS section317–356 refreshed;new0/reused2. Original design/concepts/113-ninox-natalis-v2.png imagecommit f8526a6c934164862ce8ada0dc9b62b185dbb43e;2618503 bytes SHA256 b1dea33fc084634c4042d92340af6e6ef1430a18d49ae45cdec05323eb22dcbb Gitblob d92a63536aa13141282c4705b33255550863efe4. IndependentlydownloadedimmutablePNGfullPILdecoded1536x1024/hashmatched. Unique118/251unchanged. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/113-ninox-natalis-v2.png); [Completeprompts/research/stages](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T2029+0800-cycle-4.md).
+
+
+### 114-otus-insularis-v2 2026-10-16T14:49:13.443Z
+Actualedited/viewed bothadultcrowns darkerbrown/blackmottling withsubstantiallylessbrightivorydotcontrast; smallmutedtipsremain. Tinyadulttufts/goldeneyes/grayhornbills/broadventralshafts/truepalescapularbands/barelegboundary/footgrips/olderjuvenileformedwingtail andalllabels retainedvisually. Legcolor andexactcrown/feathergeometry/age/sexscale unknown; sciencefalse. Primarylowlight notabsolutecolorstandard.
+Sources SSO-BOUGLOUAN-CARD freshDescription, SSO-BAKKER-2024 primarycaption/pixels, SSO-MIK2013-138 priorbooktext;new0/reused3. Original design/concepts/114-otus-insularis-v2.png imagecommit 902698b6deada76acdc6993a0bc7d9ca059ea832;2763683 bytes SHA256 dbbeff2a9d5e707a0984479c083c64cccca5ea9706b41cfc9a717d2d6cab92e5 Gitblob 7479ea37a5608cdc246032584889a647b9393292. IndependentlydownloadedimmutablePNGfullPILdecoded1536x1024/hashmatched. Unique118/251unchanged. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/114-otus-insularis-v2.png); [Completeprompts/research/stages](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T2029+0800-cycle-5.md).
+
+
+### #115 v2 recovered/reviewed 2026-10-17T21:32:41.765Z
+Juvenile crown adult-like cream V reduced; adults/older formed wings and support preserved visually. Unknown age/sexscale/feather geometry, sciencefalse. Unique118/251 unchanged. Sources new0/reused3/corrected0; SUN-AKBAR-2013 and SUN-JORDAN-2018 refreshed, SUN-MIK2013-162 prior p162/PDF164 reused.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/5f6389dd29e4a19b2de85b50bbcf0a5edb4ad790/owl-pet/design/concepts/115-otus-lempiji-v2.png); [research/prompt/recovery/review/integrity evidence](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-16T2029+0800-cycle-6.md).
+
+
+### #120 v2 2026-10-17T21:35:42.723Z
+Actual built-in face edit reviewed: juvenile facial disks modestly deepened, still warm rim; whitishforehead/darkbrowniris/graybilltip/down/formedwing/footgrips/adults/labels preserved visually. Not exact source color or sciencepass. Source RIS-ORDONEZ-2022-LEAD Results p302/Fig1b refreshed; new0/reused1. Unique118/251 unchanged. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/aa377734ac413c6fcd2488f062202bf418ebbcad/owl-pet/design/concepts/120-megascops-ingens-v2.png); [prompt/stages/errors/verification](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-18T0528+0800-cycle-1.md).
+
+
+### #119 v2 2026-10-17T22:35:44.597Z
+Actual built-in edit/review reduced hard juvenile cream scallopedplates to softer gray mesoptile/darkbars; adultspots/baretarsi andyoungformedremiges/notail/cavitysupport retainedvisually. Some repeateddarkgeometry remainsunresolved, sciencefalse. Sources CHSO-REYES-ASTUDILLO-2017-PARTIAL freshResultspp378–379/Table1, CHSO-AVIBASE-MAPPING reusedprior; new0/reused2/corrected0. Unique118/251unchanged.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/f963ff9dabf83c0b890a96cdb0a3eeb1db5ab38e/owl-pet/design/concepts/119-megascops-centralis-v2.png); [prompt/stages/review/integrity](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-18T0528+0800-cycle-2.md).
+
+
+### #110 v3 2026-10-18T00:38:45.697Z
+Two built-in edits actually viewed: first introduced white spots (rejected); second reduced upper-covert spots and tile contrast. Repeated fine scalloping remains pending. Legitimate older juvenile remiges/branch grips/adults/labels retained visually, sciencefalse; exact age and sex scale unknown. Unique118/251 unchanged. Sources new0/reused2; one excluded non-owl lead corrected. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/0171f82805d2e079fb7d07c686a053dc7ac065ab/owl-pet/design/concepts/110-megascops-barbarus-v3.png); [research/full prompts/actual checks](../production/runs/2026-10-18T0528+0800-cycle-3.md). Independently downloaded original2915991bytes, PNG1536x1024 fully decoded, SHA25691eabaa2ab1cbefff32b5eafce28e559537f7b5e065f37262d66d35ff841812c, Gitblob6e2883ad732a79d256bfb3e15542f8779cf3149c matches local.
+
+
+### #109v4 attempted revision 2026-10-18T00:41:57.977Z
+Two actual built-in edits and reviews completed. Female proximal toe collar fuller, but target basal-half coverage remains unverified/not demonstrably achieved; male toe extent unresolved. Not an effective anatomical fix or scientific pass. Minor face/bill detail drift recorded. Older juvenile formed remiges and branch grips retained. Archive preserved for audit, no unique-species increment;118/251 unchanged. Sources new0/reused2 NWFO-OWLPAGES-2020 (fresh Description) and NWFO-HEUCLIN-TOGO (prior primary pixels, not freshly viewed). [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/a1c4cbe595f1cb8e8022f6f189beda4bb544c7d7/owl-pet/design/concepts/109-ptilopsis-leucotis-v4.png). [Full prompts, review and continuation](../production/runs/2026-10-18T0528+0800-cycle-4.md). PNG2637899bytes1536x1024 independent immutable download/full decode SHA256c837e1e769b63d56694185bf65137b8e258ba536108ce9ae03b51e957d81ad9d Gitblob9454bda37c0ed7576b7a5dbae0901bf054890285 matcheslocal.
+
+
+### #121 Ninox leucopsis v1 2026-10-18T00:47:34.315Z
+NEW unique119/251. Later feathered juvenile, ageunknown, not invented newborn; initial adultlike breast droplets softened in actual edit and reviewed. Adult fine spot geometry/exactage/sexheight/irisstage stillpending, scientifically_verifiedfalse. HistoricalN.novaeseelandiaeleucopsis mapped, not#72mainlandboobook or#74NZduplicate. Sourcesnew3 TAS-ABSA-2019/TAS-HANZAB-1999/TAS-HARRISON-PHOTO; rawsourcefacts vsdesign inference and conflict saved. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7ec11966e72c79b2382a527d124f56c108cb5b68/owl-pet/design/concepts/121-ninox-leucopsis-v1.png); [Fullprompts/review/integrity](../production/runs/2026-10-18T0528+0800-cycle-4.md). PNG2661216bytes1536x1024 independent full decode SHA256e34e651d2feeed3cb0a6d8a0fc6badb53afd4187d4e94d8ea4584724314c8814 Gitblob5e008aa4067476e4146d7d69e249dde654b9ba58 matcheslocal.
+
+
+### #122 Otus megalotis v1 2026-10-18T00:51:55.207Z
+NEW unique120/251; Luzonlowlandunit only, oldnominatename mapped noteveretti/nigrorum. Actualfirstimageview: rustybrownfledgedyoung/formedwing/twofootgrips andadultshaftbars/scapularstripe/tufts retained; exactage/irisdevelopment/footextent/sexheight stillunknown, sciencefalse. Primary WBCP2012/2013fieldimages and Miranda2011 authorfulltext used, new3IDs. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/43ffb8b9c6b2d39306476ae6c7b1fc6f23ec1ead/owl-pet/design/concepts/122-otus-megalotis-v1.png); [Fullresearch/prompt/checks](../production/runs/2026-10-18T0528+0800-cycle-5.md). Independentlydownloaded PNG2696142bytes1536x1024 full decode SHA25686e2758ad087bbad6161e37f2399e795a2a5d74b5e0d87321907ebfe76dddf03 Gitblobca25ac039758669b25645ee79889561126b9987d matcheslocal.
+
+
+### #123 Otus gurneyi v1 2026-10-18T00:56:24.034Z
+NEW unique121/251. Photo-supported older graybrownjuvenile, exactageunknown/captivephoto limits explicit. Actualedit occluded unverified longbarredyoungtail; formedwings andforkfootgrips retained; finecovertgeometry/toecovering/sexheight pending/sciencefalse. New3GSOsourceIDs/reusedPSO-MIRANDA-2011. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/597254274913561cb7667308cef0e87cd5f21518/owl-pet/design/concepts/123-otus-gurneyi-v1.png); [Sources/fullprompts/stages](../production/runs/2026-10-18T0528+0800-cycle-6.md). IndependentrawPNG2581684bytes1536x1024 fullydecoded SHA256207be6afee664a4ca3f7af723fed731ad8aa31bf744519a99e44ee07a17fd5b5 Gitblob05272b1de6514508f1cf5edc02cbc1c6560776bb matcheslocal.
+
+
+### #124 Ketupa philippensis v1 2026-10-18T01:00:51.324Z
+NEW unique122/251. Laterflight-capableyoung/unknownage fromprimaryLuzonfieldrecords; adultsnear-equaldisplay nosexratioassumed. Actualview retainedwarmer/fainteryoungstreaks, formedwingtail, footsupport, shorttufts/graybills; exacteye/coverts/sexheight pending/sciencefalse. New3PEOsourceIDs. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/08dab32247854136d336748278629503b3a1fa24/owl-pet/design/concepts/124-ketupa-philippensis-v1.png); [Research/prompt/review](../production/runs/2026-10-18T0857+0800-cycle-1.md). Independentlydownloaded fullPNG2856062bytes1536x1024 SHA256cea2700cb05891981d29f8b83aac1c2114bdf2c3091515c3dd0d0452c0795ba4 Gitblob2bd2ae81a95e8fa780ab62b8e91daf3cb516f954 matcheslocal.
+
+## 2026-10-18 batch1258 complete6/6
+新增#128M.marshalli/#129M.hoyi/#130M.koepckeae/#131M.watsonii，修订#126v2/#130v2。129/251种，188版本，原图逐张下载完整解码及SHA256/Gitblob核验完成，科学通过0。历史编号/版本/确认不改；3处旧提示追加恢复。来源新增14条/复用4次；仍未知精确羽龄/比例/羽纹。 [完整研究、提示、逐图检查与提交入口](../production/runs/2026-10-18T1258+0800-summary.md)。
+
+
+## 05 Strix aluco v2
+幼鸟肩翼由硬质羽片改为不规则短灰绒，实际编辑查看；保留v1及其用户确认，不转移批准。细羽纹/日龄/比例待科学校准。
+![v2](concepts/05-strix-aluco-v2.png)
+[研究及实际检查](../production/runs/2026-10-18T2230+0800-cycle-2.md)
+
+
+## 2026-10-18 五项v2集中入口
+[05灰林鸮](concepts/05-strix-aluco-v2.png) · [09穴小鸮](concepts/09-athene-cunicularia-v2.png) · [12北美锯鸮](concepts/12-aegolius-acadicus-v2.png) · [08大灰鸮](concepts/08-strix-nebulosa-v2.png) · [15横斑林鸮](concepts/15-strix-varia-v2.png)。均实际编辑查看和远端完整解码哈希核验，仍待科学校准。旧用户批准不自动覆盖新版。 [研究、提示及复查提交](../production/runs/2026-10-18T2230+0800-resume-2328-summary.md)。
+
+## 134-megascops-sanctaecatarinae-v1
+Actual rebuilt and edited PNG viewed: female display height raised toward male on branch, still posture/baseline differences; not measured sexratio. Juvenile charcoal-gray fine diffuse bars/tinywisps/open horn-green bill, no adultblackcap or leafplates; lowerbody/wing/feet concealed in supportedcavity. Primaryphoto freshly downloaded/viewed again confirms short graymesoptile; sourcechestbars finer/darker than concept, eye appearance not iris measurement. Adult tufts/crown spotcontrast, precise羽纹/日龄/性别尺度/趾序 remain pending. Scientificfalse, no approvaltransfer.
+![134](concepts/134-megascops-sanctaecatarinae-v1.png)
+
+## 135-otus-silvicola-v1
+Actual edited PNG viewed: young forehead V/whitecrownspots reduced, finelybarred fluffy head/chest dominates with fewer verticalshafts; formed foldedwings retained, crouchedbody/twofeetbranch supported. Adults yelloweyes/graybills/palegraybuffbreast/whitebellycenter/basaltoe feathering retained visually; mild detaildrift notpixelidentity. Exact youngage/iris/color/finebars/sexheight unvalidated. Type's fullyfeatheredimmature selected NOTnewborn; grayscaleFig8 notknownage. Scientificfalse.
+![原图](concepts/135-otus-silvicola-v1.png)
+
+## 08-strix-nebulosa-v3
+Actual edited fullPNG viewed: modest diffuse gray around chickcheeks/rearhead now visible vswhiteforehead; still muchsubtler than primarycamframe, exactextent/agegeometrypending. Halfopeneyes/hornyellowbill/whitebody/shortdownywing/noadulttail, bellyfloor/tuckedfeet support retained. Adults facialrings/yelloweyes/barring/labels preserved visually, slightdetaildrift. Scientificfalse; oldapprovalnottransferred. Prior128v3twofailedcrownedits remainauditnotcredited.
+![原图](concepts/08-strix-nebulosa-v3.png)
+
+## 136-megascops-petersoni-v1
+Actual newPNG viewed: cinnamonbrown adultground/darkirises/palegraygreenbills/shortmoderate tufts/duskyfaceedges, faintbarredshaft underparts, warmbuffscapularpatches notbrightwhite, sparsebarelowerleg/baretoes/branchcontacts. Olderfirstyear fluffier/palerbuffbarredbody withformedwing/tail andheadtilt retained; notneonate. Near-equaladultdisplay notsexratio. No grossstage/supportproblem requiringadditionaledit; exactpalehighlightcolor/feathermap/firstyearage/sexscale/toeextent stillpending sciencefalse. Generationwaitms60702,edit0.
+![原图](concepts/136-megascops-petersoni-v1.png)
+
+## 137-otus-alfredi-v1
+Actual final edited image viewed: short bare orange lower tarsi retained, claws now orange-yellow rather than gray; adult posterior crown flecks reduced, forehead flecks retained. Rusty plain back/no blackshaft pattern, short rounded tufts, yellow adult irises/orange bills, supported branch grips; later feathered juvenile with residual down, closed resting eyes and hidden tail preserved. Exact feather map, crown limits, auricular filaments, juvenile unknown iris/age, adult sex ratio remain pending. No scientific pass.
+![Original](concepts/137-otus-alfredi-v1.png)
+
+## 138-otus-mentawi-v1
+Actual final edit2 viewed: adult gray scaly vertical tarsal shafts replaced with buffbrown feather cuffs to toe bases, baregraytoes/darkclaws/grips retained. Edit1 reduced juvenile boldwhiteocelli/strongfishbones to palergraybrown fluffy chest/thin diffuse shafts and subdued wingmarks; formed foldedwings retained. Adultbellies only modestly warmer, stillverypale and need palettecalibration. Short juveniletail largelyoccluded so wingtip/tailprojection cannot be fully verified; unknown dayage and adultsexualstandingratio. Brownirises/grayhornbills/subduedtufts/mottledchestnutadult retained. No claim all finefeathermap correct or scientificpass. Newthree sources indexed, completeprompt/edit history inrun.
+![Original](concepts/138-otus-mentawi-v1.png)
+
+## 138-otus-mentawi-v2
+Actuallyviewed edited fullPNG: adultlowerbellies now visibly warmer brown/buff instead oflargeivorypatch, subtlepalergradient retained; juvenile palegraybrown/headtilt/formedwings and adultbrownirises/graybills/feathercuffs/baregraytoes/darkclaws/branchgrips preserved visually. Exactpalette/feathermap and occludedjuveniletail remainunknown; no scientificpass, oldapprovalnottransferred.
+![image](concepts/138-otus-mentawi-v2.png)
+
+## 139-otus-jolandae-v1
+Actuallyviewed finaledit: broadarcs reduced to thinner morebroken darkbars andslendershafts, juvenilepale cap reduced to scatteredremnants. Threebirds/labels/adultgoldirises/brownbills/faceborder/warmercinnamonbreast-palerbellycontrast/formedwings/feathered tarsi reachingtoebase/bareochretoes/darkclaws and supportedrest maintained. No exactstandingscale/dayage, youngirisunknownclosedrestdesign; finefeatherdensity/colors stillunvalidated, sciencefalse. Uploadedbookfindresolvedtitleandcontentsp188butactualPDFpage190read403, nobookbodyused.
+![image](concepts/139-otus-jolandae-v1.png)
+
+## 23-psiloscops-flammeolus-v2
+Actual editedPNG1254x1254 viewed: leftadult reduced/middleenlarged, near-equal crownheight onbranch, slightposturedifference retained. Darkeyes/shorttufts/rust-graypattern and grips retained visually, finefeatherdrift notpixelidentity. Newbornstilllowbellysupported/closedeyes/finewhitedown/woodchipsupport/openbill/noadultwing; no11daygray transferred. Neutraldisplay notbiologicalsexratio/sciencepass. Exactnewborn proportions and nestcutaway remainpending.
+![image](concepts/23-psiloscops-flammeolus-v2.png)
+
+## 21-megascops-choliba-v3
+ActualeditedPNGviewed: thickloosechipheap reduced to a muchbarercavityfloor withfewflatbarkpieces. Chickbelly/feetstillcontactfloor, openeyes/whitefinefluff/shortdarkemergingwingpins retained; adults/yelloweyes/greengraybills/blackfacediskborder/labels/palmwalls unchangedvisually. Nest43cmdepthnotrepresented asmeasurement; exposedcavity isartcutaway. Finepinlength/irisage/sexscale stillpending, sciencefalse.
+![image](concepts/21-megascops-choliba-v3.png)
+
+## 2026-10-19 cycle5 resumed
+#19v3 adult underparts edited to shorter irregular blotches, actual view effective; juvenile/eye/bill/support preserved visually. Sciencefalse, eyequoteconflict/toefeathers/precisegeometry pending. Image commit cdc4431e19d92758244d3e42571f2a60eec16783; independent remote PNG full decode1536x1024,2750169bytes,SHA256275922b0f7499402ef2079cab879f55e7966ff606308bbacde67959ef9d7eca2,Gitblob650443968d50b7634be9562e618486ae25cab34f matcheslocal. New0,reused1 WHSO-CORNELL-ID-2026 freshly actualread; prior cycle5 sourceindex f9c97ccc already saved2IDs/onewordingcorrection. Single-region shortshaft edit visibly effective here, no blanket validation. Unique137/251 unchanged. [Original](../design/concepts/19-megascops-trichopsis-v3.png). ARCHIVED and VERIFIED 2026-10-19T00:36:58.415Z
+
+## 2026-10-19 #22v2
+Adultirises correctedfrombrightgold to reddishbrown basedfreshPRO-PEREGRINE-2026 +newPRO-OWLPAGES-2020; oldABCorange-yellowattribution unsubstantiatedcurrentbody, historicaltextretainedaserrornotfact. Juvenileirisunknown notchanged. Actualbuiltin edit/view retainedwhitebrows/bills/barelegs/support/young/text, finegeometry/scalepending scientifically_verifiedfalse. Lesson: recheckattributedsourcewords beforeassumingstylecolors, adultirisfacts notjuveniledevelopmentfacts. ARCHIVED bacf4cb1f78ff56907bbfa1987758fd03bcc5b69; VERIFIED independentremote fulldecode1254x1254,2794868bytes SHA2567509e739370f6b5f15c709d6ff6411e2e2525a731c0dc0f0e7f1ad7e45e28cf5 Gitblob2dd1004d3e521a99170f01e3ac837e235384ee09 local==remote. Sourceindex2df91b2c6340471fb2850c7ad6bf2c0a8934af1d new1/reuse1/correct1oldattribution. Unique137/251unchanged,214versions. Verificationat 2026-10-19T00:39:38.927Z
+
+## VERIFIED 2026-10-19T01:34:08.440Z
+140-otus-rufescens-v1 NEW; Actualgenerated+edited+viewed; young soft uniformrufescentbrown/closedrest/support retained, longwingblades obscured and adultirisesbrown; exactage/youngiris/tuftdevelopment/sexheight/patterncalibrationunknown. Sciencefalse. ARCHIVED 061ead00101e6f4bad1be07c92a86e527f1afaeb; independentimmutable remote fullPNGdecode 1536x1024 2741077bytes SHA2563e723f0e259a7fb1bdc0590586f014ded3cf92e530f199b3fe54abbe15bc5c3f Gitblob144d5561b9ce8a874b406435697a08c3e535f222 local==remote. Sources new2/reused0/corrected0 RFS-WARAKAGODA-RASMUSSEN-2004/RFS-OWLPAGES-2020 indexaf52afa9d9c17aa15a15fdb61dbdcfa58bd3343b. [Run](production/runs/2026-10-19T0929+0800-cycle-1.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/061ead00101e6f4bad1be07c92a86e527f1afaeb/owl-pet/design/concepts/140-otus-rufescens-v1.png). Unique138/251.
+Lesson: Museum mesoptile description supports texture/color, not precise day or flightability; avoid importing unknown Serendib juvenile prediction.
+
+## VERIFIED 2026-10-19T01:36:39.614Z
+81-otus-scops-v2 REVISION; Adultleftreduced/rightenlarged removingformerstrongmaleoverscale; rightmodestlytaller, exactneutral/sexratio pending. Juvenileformedwings/climbinggrips retained. Sciencefalse. ARCHIVED 7c613f6210e11fa820c3c3e10f95e5f67acff498; independentimmutable remote fullPNGdecode 1536x1024 3151116bytes SHA256606b4f4b54f6d3f04adf6b59e3c530eb30286b2045e8a225684202fc2c90ef82 Gitblob2d2f006550a1e6532d56f99dc7f6d93265619281 local==remote. Sources new0/reuse1 SCOPS-BLASCO-UNDATED index632f9b4ba50707446610e14f17a08c9e833701be. [Run](production/runs/2026-10-19T0929+0800-cycle-2.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7c613f6210e11fa820c3c3e10f95e5f67acff498/owl-pet/design/concepts/81-otus-scops-v2.png). Unique138/251.
+Lesson: Neutral scale edits can overshoot; do not label resulting display as measured sex ratio; retain legitimate older juvenile feathers.
+
+## VERIFIED 2026-10-19T01:39:15.408Z
+82-otus-senegalensis-v2 REVISION; Adulttoesduskygraybrown edited/viewed, juvenilecolourunchangedunknown; toegrips/claws/cuffs retained. Exactfeetgeometry andcolourpending. Sciencefalse. ARCHIVED 1744baaba8918b2caad21e9c0d85d900e3bafb77; independentimmutable remote fullPNGdecode 1536x1024 2983972bytes SHA256861f64d05584f2f7eb97c02ac8ac0a1d4146503d8426c118a66260d5ee3df191 Gitblob3c9da739e825d70cc77b06253b7b934c6289dddc local==remote. Sources new SEN-OWLPAGES-2020; reused SEN-BE-ROBERTS2005 indexd0799a7832328c109d61bc538fbb67688160416c. [Run](production/runs/2026-10-19T0929+0800-cycle-3.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/1744baaba8918b2caad21e9c0d85d900e3bafb77/owl-pet/design/concepts/82-otus-senegalensis-v2.png). Unique138/251.
+Lesson: Toe skin color independent from feathercoverage and juvenile age; do not generalize adultcolor to chick.
+
+## VERIFIED 2026-10-19T01:41:53.222Z
+83-otus-brucei-v2 REVISION; Datepalmcontinuouscavitywalls/darkrecess replacebasketcontext, actualviewyoungfloor/feet/adultsretained; artisticcutawaynotmeasurednestgeometry/materialcount. Sciencefalse. ARCHIVED d530478ae5e3a4037b5666a8d6fda2666df9df48; independentimmutable remote fullPNGdecode 1536x1024 3245034bytes SHA2567735ae055dde091e8ec28ea863be329f815ada0e39145989c9422968fa72dea8 Gitblob60bf4937552e42b2bb75746076f802b2ed61d9f2 local==remote. Sources new0/reuse1 BRU-BENDOV-KIAT2016 indexee51dde0dc3fa60a0c263881438a07b082a53614. [Run](production/runs/2026-10-19T0929+0800-cycle-4.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/d530478ae5e3a4037b5666a8d6fda2666df9df48/owl-pet/design/concepts/83-otus-brucei-v2.png). Unique138/251.
+Lesson: Nest substrate and cavity enclosure must be checked separately from species plumage; retain explicit cutaway boundary.
+
+## VERIFIED 2026-10-19T01:45:26.785Z
+84-otus-bakkamoena-v2 REVISION; Narrowgrayeye marginslightlymoreexposed, whitefeatherlinerreducedsubtly; fullperiocularfeatherlossnotestablished remainsprioritycheck. Blueeyes/graybill/noear tufts/shortwings/supportretained. No scientificpass. Sciencefalse. ARCHIVED b50912921398566d686ac277bd7c3cbd77756148; independentimmutable remote fullPNGdecode 1536x1024 2655367bytes SHA256668f1d511671b286168fc877952f294e2365dd39e260d1e51318dbe8083259cb Gitblob96aa6a077eeaa0cf0d20b5bbdb5fb2e38ad6224d local==remote. Sources new0/reuse1 BAK-BRRAICH-SINGH2021 indexe456e8c6222c9d87ddef254fd4eb8091b8ebce03. [Run](production/runs/2026-10-19T0929+0800-cycle-5.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/b50912921398566d686ac277bd7c3cbd77756148/owl-pet/design/concepts/84-otus-bakkamoena-v2.png). Unique138/251.
+Lesson: Source explicit absence needs local visual verification; subtle reduction not equivalent full absence and must remain unresolved.
+
+## VERIFIED 2026-10-19T01:47:07.431Z
+85-otus-semitorques-v2 REVISION; Adultbillgrayhorn edited/viewed, juvenilebill/formedlongpointedwings unchanged; feet/redorangeeyes/grips retained. Exactpalette/age/sexscale pending. Sciencefalse. ARCHIVED ac3a735087953eea3de909d9df5c6db0f1a1ce41; independentimmutable remote fullPNGdecode 1536x1024 2769094bytes SHA256b733bd9b6a3856d8b4332e9c6e68bbf4a2aeb14c1eefd847b0c0cebbc28d3bb8 Gitblob51a6c83383fad94d16a5f585f163b81aff80cc9a local==remote. Sources new0/reuse2 SEM-MIK2013-158/SEM-FUKAI2017 index66b70965913ac9986dfba1ca2566986eaf2a92f7. [Run](production/runs/2026-10-19T0929+0800-cycle-6.md) [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/ac3a735087953eea3de909d9df5c6db0f1a1ce41/owl-pet/design/concepts/85-otus-semitorques-v2.png). Unique138/251.
+Lesson: Use age-specific field notes and nominate mapping; adultbill correction must not erase firstwinter feathers or importpryeri baretoes.
+
+
+## 2026-10-19T02:34:47.006Z batch1028 cycle1 PARTIAL
+84 v3 FAILED_EDIT audit only: two actual edits/viewed, requested bare periocular patches not achieved, pale feather liner remains; minor adult drift. Not effective correction or completed cycle; sciencefalse. Unique138/251 unchanged. Image c47589d68bba0eb88a5d3d6f3c25424f0a2fd527; independently downloaded full PNG1536x1024,2591984bytes SHA2566ff3fdb851e4e13ead13fa794b550840aa2fd1474a9dc2ec9e1a07b8f62de39a Gitblob072b67fa52758c486d28a974d2e03d84a471c6ad exactly local==remote. New0/reuse1/correct0 sources BAK-BRRAICH-SINGH2021 publisher p55 fresh read. Research/prompt index6d1179f5ee482adcf91bea23095d041477f2b13f.
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md)
+
+
+## 2026-10-19T03:33:16.626Z resume1130 PARTIAL
+84-otus-bakkamoena-v4 FAILED_EDIT audit only. Actual builtin generation from style reference/view failed bare-periocular target, pale feather liner persists. No effective revision / no complete cycle / scientifically_verifiedfalse. Unique138/251 unchanged. Image commit c1e8077ec3333cde02e7cc37d1c2c3315875b68d. Independent immutable remote full PNG decode1536x1024,2683935bytes SHA256c1d2b6ac2584ab1079d5ee897a551b5172b69f99ce077f8bc1de7e7e0401d42d Gitblob7a5e662c8078f559f4a1bae43ba0089f53c1e584 matches local exactly. Source new0/reuse1/correct0 BAK-BRRAICH-SINGH2021 p55 actual fresh read. Rebuild with triptych reference did not overcome retention of incorrect eye liner; stronger text alone unproven. Actual generation-target failure, not permission/network/confirmed platform limit.
+[Full prompt and actual checks](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md)
+
+
+## VERIFIED 2026-10-19T05:41:01.763Z
+141-otus-magicus-v1 NEW actual generated/edited/viewed; young covertspots reduced and diffusehead/bodybars, formedwing/supportretained, adultgrayblackbills corrected. Juvenilebilldarkening/sexdisplayheight/warmtone/footextent/preciseage remainunknown sciencefalse. Archived 6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97; independentimmutable remote fullPNG1536x1024,2874184bytes SHA2566e2a8f76796ba029dc1f25a1d3924e108d9fdbd2edb77127bde0de00d7b40327 Gitblob77a5450861bcab718c00051b52e65f9d810fd5a1 local==remote. Unique139/251. Sources3newexternalIDs +1newsectionofexistingMikkolabook; no biologicalsciencepass.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6b61d3c9ac54f2c9dcb2ccc859904ea66a03df97/owl-pet/design/concepts/141-otus-magicus-v1.png) [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-1.md)
+
+
+## VERIFIED 2026-10-19T05:45:16.335Z
+86-otus-elegans-v2 Adultbaretoesgray corrected/viewed; juvenileagecolorunchanged, support/bills/eyes/patternretained; precisegeometry/age/sexscale pending. Lesson ageboundedcolorcorrectionvisuallyeffective notalltoevalidation. Sciencefalse. Original 0d7a59cc11505e469d201c2d342e021cf02fe961; independentimmutable remote fullPNG1536x1024 2924611bytes SHA25688317c306db37e56bcdc8ea1204878e2c29432332a39a6c8943f18e499b94de2 Gitblob38b5bfd503dc98a7869c8611d8d18cd0fbabb931 local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 ELE-AKATANI2011-BR
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-2.md)
+
+
+## VERIFIED 2026-10-19T05:48:34.802Z
+88-bubo-capensis-v3 Woodchips replacedmineralgrit/pebbles, actualviewyoungsupport/adultplumageandlabelsretained. Exactsubstrate/age/sexscaleunknown; unlinedscrape artinference notnestmaterialmeasurement. Lesson substrate checked separately from plumage. Sciencefalse. Original 95b58cea5be0aa4e623181ed60bafcde969f7a2c; independentimmutable remote fullPNG1536x1024 2914032bytes SHA256090df95064a4a84bae60f57d68afc81c6fa38a009a148fb0bd917d310093efb7 Gitblobb42fe856210da8e1b1b923c7d8ee6dd4ff09bdea local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 CAP-TIPPETT2024
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-3.md)
+
+
+## VERIFIED 2026-10-19T05:53:35.117Z
+90-tyto-furcata-v2 Male display silhouette reduced; female fuller, juvenile formedwings preserved. Qualitativeconceptnotcalibratedratio; editovershoot noted, footgeometry/exactage unresolved. Sciencefalse. Original bd3bb34f00055061473afb4f583b819738ea3cda; independentimmutable remote fullPNG1536x1024 2499112bytes SHA256d281734c108027471b01339718588d8213a613509e1b76b83a517dba77dae161 Gitbloba2618cdb16db52b85539cca5cb4749406ce43afb local==remote. Unique139/251 unchanged. Sources new0/reuse1/correct0 FUR-CORNELL-CAM2010
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-4.md)
+
+
+## VERIFIED 2026-10-19T05:59:07.904Z
+117-otus-manadensis-v3 Juvenilefront brightedges reduced aftertwoactualedits, residualscallopedgeometry remainspriorityqueue; limitedimprovementnotfullcorrection. Adults/formedwings/grips retained. Sciencefalse. Original 83ed1daf924da5eba9f46705f1faca8c480f9d94; independentimmutable remote fullPNG1536x1024 2717256bytes SHA2564b9e2a94b20255a79274a5b5de6a476312a357d6fe2f036f2dffc032b9f4a54d Gitblobe22d4f69eef1178f98ccee2578042638a5240681 local==remote. Unique139/251 unchanged. Sources new0/reuse1 SLSO-MANAHAMPI-2012 actualphoto
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-5.md)
+
+
+## 2026-10-20T07:33:45.128Z #92v2 recovery
+#92 Ninox japonica v2 recovered and VERIFIED 2026-10-20T07:33:45.128Z. Original imagecommit b0f25e7cffded0984e83a0765986ef39173050c9. Independent immutable remote downloaded2026-10-20 and fully decoded PNG1536x1024,2498746bytes; SHA2566a0d0c12178f9eb2cf077d9717baed9323a779ce9e72f938dc90527292447ea5, Gitblob1f22e0f13c6554cb85585cde86fb89fe87830c25; local==remote. Actual freshview: bothadultdarkbrownhornbills/palertips, juvenilegraybill unchanged; yelloweyes, palecream tarsi/yellowtoes/grips, brownadultstreaks/palebufffluffyolderjuvenile/formedwings andlabels retained. Scientificfalse; exactage/feathergeometry/foreheadextent/sexratio remainunverified. Original2builtin edits performed2026-10-19 (44.911+43.908swaits), recoveredwithoutnewgeneration. FreshsourceJAP-TAIEOL2013 re-read2026-10-20 morphology: regionaladultdarkbrownbill/palertip; immaturepalebuff; nojuvenilebillstageinference. New0/reuse1/correct0. Pairededitmissedfemaleinitially; secondindividualtargetvisuallyeffective, noall-futureguarantee. Recoveryphase07:31–2026-10-20T07:33:45.128Z; interruptioncauseunknown, nofixedplatformtimeoutclaim. Unique139/251unchanged.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/b0f25e7cffded0984e83a0765986ef39173050c9/owl-pet/design/concepts/92-ninox-japonica-v2.png) · [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-19T1028+0800-cycle-6.md)
+
+
+## VERIFIED 2026-10-20T08:41:40.555Z
+94-pulsatrix-koeniswaldiana-v2 Juvenilepectoralband softer/morecontinuous, formedwing/supportpreserved; exactage/sexratio/geometrypending. Original1312x1199 preserved. Sciencefalse. Originalff6e3510afeaf3f4525a6fb8b9b2bd2c6359e5e3 independentfullPNG2514159bytes SHA2569fea6fd64ae9cb3c3c6ebc4b11f5547939c5058e7ec02d0a9a3d4cab7a20c942 Gitblob98e11e5431b80512c33aa63e02b6b7f90f22fbfa local==remote. Unique139/251 unchanged. Sourcesnew0/reuse1 KOE-BOTTAI2013-Y
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-1.md)
+
+
+## VERIFIED 2026-10-20T08:49:35.110Z
+98-strix-chacoensis-v2 Adult iris darkened after rejected first edit; juvenile/labels/feet support retained. Bill-source conflict and proximal toe feather review unresolved; no calibrated eye hue or exact age/sex ratio. Sciencefalse. Originald7c251c7fe3b35b2272ba720bd04ec8d7d7b8d96 independentfullPNG2666005bytes SHA2565763b462a4f4300f465bc8ffcf41de29956b5003aba580f913d0a076e13c4388 Gitblob7de65dd0c9f0f32f9ced8142698ece11ea4df735 local==remote. Unique139/251 unchanged. Sourcesnew0/reuse1 CHA-SANTANDER2013
+[Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-2.md)
+
+
+## VERIFIED 2026-10-20T11:40:59.000Z
+#100v2 adultiris darkened/pinkeyelids preserved, juvenileunchanged; exacthue/age/sexratio/winggeometryunknown sciencefalse. FullPNG1536x1024 3196349bytes SHA2566372fc5dbc54d926eb526a0db0528edb1445ec47012aefdb9553610c4874c31e Gitblobf646c76d07bc4f8decf3d8172875370667993249 independentimmutable rawdownload full decode local==remote. Imagecommit 2c065722847b03396c8fc46c62ad80d74fb57b09. Unique139/251unchanged; cycle3REVISION. New1/reuse2/correct0 sources indexed562e1081b2f094c492a1c69d4009dd9a7a3a278a. [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-3.md).
+
+
+## VERIFIED 2026-10-20T11:45:21.522Z
+101-otus-spilocephalus-v2 Adultventral finebackgroundthreads increased retaining sparseblackshafts; residualparallelregularity/sexscale/juvenileage unknown, formedbalancingwing retained. sciencefalse; unique139/251 unchanged. Imagecommit edc8d23ce4907c819cac949f55f137774ba67be7 independentimmutable raw fullPNG1536x1024 2892292bytes SHA25680a3edccc6c52aff6409b00e3c28d14e1b74530b196ea0a881c0791b3caed46c Gitblob9307fe7aacdb8ad8d99e4422a7da44a2fa4e4ade local==remote. Sources new0/reuse1 MSO-MOA-TW2 indexf7dfcafdcd3ab5d2e1ebee0225607fa7b49b40b3 [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-4.md).
+
+
+## VERIFIED 2026-10-20T11:55:05.825Z
+105-ptilopsis-granti-v3 Actual two edits viewed: central olderjuvenile brown irregular chestchevrons increased, bright ivory U-shaped covert edges substantially subdued in secondedit; residual scallopgeometry/patterncalibration pending. Formedlowerremiges, headturn, eyes/bill/feet/support and bothadults/alllabels retainedvisually. Exactage/sexratio/calibratedcolor/toeanatomy unknown; concept scientificfalse. Rule coverts contrast separate from legitimate flightfeathers applied and visually improved, no broadvalidation. sciencefalse; unique139/251 unchanged. Imagecommit 584d03899e33239de636e91ad4b7e434f260282c independentimmutable raw fullPNG1536x1024 2707248bytes SHA256e54f9c854805366681d0715280a195804c85289ecd6828a0aa4ab2fa2f83e062 Gitblobe1f37df6c185e16184f00feaf0166df1c962f5a3 local==remote. Sources new0/reuse1 SWFO-JWVH-2024 fresh p16 photo/text; index56ef3cce454f389c201f58e28aa18a928fb680af [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T1634+0800-cycle-5.md).
+
+
+## 107v2 VERIFIED 2026-10-20T12:35:06.326Z
+Actualeditedimageviewed: juvenil eexposedlongwingarea reduced, fluffybarredcoverts increased, narrowformedtips retained; typo correction juvenile. Adults/labels/support retainedvisually, exactage/feathergeometry/sexratio unknown, scientificfalse. Originalv1andhistoricalapproval retainednottransferred. Independentimmutable rawPNG fullydecoded1536x1024,2783331bytes SHA2568a6bea91703a59211e428c41c241b2e87f05135d04f5fecaf7f30069001c1f3a Gitblobaf5d3f93b09debcdcdd249f8b85ca1cffb038bad local==remote. Imagecommit ac94e2faade19bce441081edd81ff13199557f95. Unique139/251 unchanged. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/ac94e2faade19bce441081edd81ff13199557f95/owl-pet/design/concepts/107-strix-fulvescens-v2.png), [prompt/research/review](production/runs/2026-10-20T1634+0800-cycle-6.md).
+
+
+## VERIFIED 2026-10-20T13:38:51.324Z 101-otus-spilocephalus-v3
+Actualview: bothadultbellythreads visibly winding/irregular instead ofparallelrows, sparseblackshafts retainedbutlegibilitylower in densepattern. Exactpatternfinegeometry/shaftscontraststillpending. Adultfaces/yelloweyes/palebills/wings/tiny tufts/footgrips/labels/support andcentralbrancherbalancingwing retainedvisually. No pixelidentityclaim; age/sexratio unknownsciencefalse. Rule applied visuallyimproved irregularity here, notglobalpatternvalidation.
+Imagecommit 42630e8af3a42a16be49fdeee0fea676c3eb1b5b independentrawfullPNG1536x1024 2752067bytes SHA256e2efb886ebbf020e442d6d11f50e686842b640500b20e63fac17867b61b0e081 Gitblob5a79d8d91ef4895889663ffcb0b1e0852b96dabb local==remote. Unique139/251unchanged, sciencefalse. [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-1.md).
+
+
+## VERIFIED 2026-10-20T13:45:03.916Z 113-ninox-natalis-v3
+Actualview: centralyoungrufousground increased, whiteventralbars narrower; stilloverregularandsculptedfeathertexture, exactpatternpending. Genuinepalejuvenilewingpatches/formedwingtail retained; eyes/bills/toes/headtilt/adults/labels/support preservedvisually. Exactage/sexratio/feathermapunknownsciencefalse. Rule successfullyavoidedfalseuniversalpatchremoval, onlyvisualdirectionverified.
+Imagecommit 524e52391d01a906169f9ea201149f533afc1fff independentrawfullPNG1536x1024 2618237bytes SHA2560c6e11dc375611f08b8c0752b9c24f575d163d282c09b2d5345bbd94cd8ec418 Gitblobe0ac7254e2eb4512e0cf3d14689a6067bca54001 local==remote. Unique139/251unchanged, sciencefalse. [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-2.md).
+
+
+## 142 Jamaican Owl VERIFIED 2026-10-20
+Adult graybrown toes/feathered reddish tarsi edited and actually reviewed; juvenile photographed fluffy perching stage retained; exact age/sex ratio/iris/pattern geometry unknown, scientificfalse. Unique140/251,237versions; imagecommit 4c5a90bcd957561fdbc6eef394df04ff9d073a62; independentPNG hashmatched. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/4c5a90bcd957561fdbc6eef394df04ff9d073a62/owl-pet/design/concepts/142-asio-grammicus-v1.png) / [fullresearch and prompt](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-3.md). Source indexnew2(1metadataonly)/reused2/corrected0. Single-regionfootedit visuallyeffectivehere, notglobalvalidation; prior113legitimatejuvenilewingpatches notautomaticallyremoved. No historicalapprovaltransfer.
+
+
+##143 Fearful Owl VERIFIED
+Secondactualedit replaced adultpinkscalytarsi with shaggytawnyfeathers; graybaretoes and juvenileunbarredpalecreamfluff/darkmask/orangeeyes/formedwings retained. Exactage/sexratio/feathermap/palette pending sciencefalse. Unique141/251,238versions; [original](https://github.com/janeytlin-eng/game-owl-ket/blob/2e838d9ae966bee31ab7f51a15b8310ac15620c6/owl-pet/design/concepts/143-asio-solomonensis-v1.png)/[research,prompts,iteration](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-4.md). IndependentrawPNGfull decode/hashmatched. Rule: concreteprojectingfeatherfibers correctedfailedsemanticcuffhereonly; no universalvalidation. New3sourceIDs. No userapprovaltransfer.
+
+
+VERIFIED 2026-10-20T14:52:38.845Z 123-otus-gurneyi-v2
+Actualbodyedit increased diffusehorizontalbrown bars, repeatedarc edges remain prioritycalibration. Olderformedwings/hidden tail/forkgrips/eyesbill/adultslabels retainedvisually. Limitedimprovement NOTfullcorrection, exactage/sexratio unknown sciencefalse. Source0new/2targetreuse+3readonlydiagnosticreuse. Rulebodybarcorrectionmustnoteraseformedremiges, appliedpartialonly.
+Imagecommit 7ac3ac3569c8c90432b5f3efe8b215c19fed6367; independentimmutable raw fullPNG1536x1024 2463219bytes SHA2565729df84c0e6fe6a350c7d290d859b2b4da1cfa1acd6bcaf565c9a8f5441a882 Gitblob87a05abadca6ee41eec743c094589f32299e6b82 local==remote fullydecoded. Unique141/251, scientifically_verifiedfalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/7ac3ac3569c8c90432b5f3efe8b215c19fed6367/owl-pet/design/concepts/123-otus-gurneyi-v2.png) [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-5.md).
+
+
+VERIFIED 2026-10-20T14:58:13.361Z 125-ninox-philippensis-v2
+Adultcrownflecks modestlysubdued but residualtexturehighlightsremain; FULLunmarkedtargetNOTproven, prioritycalibration. Wingwhitepatches/whitebrows/streaks/yelloweyesbilltoes/juvenileformedwings/support/text retainedvisually. Limitedimprovement notfullcorrection, sciencefalse. New0/reuse1target+1readonlydiagnostic. Actualprimaryadultdiagnosis appliednotjuvenileage; no approvaltransfer.
+Imagecommit 42305fdef63c77df28c20a6b1c4b1b8b11b99776; independentimmutable raw fullPNG1536x1024 2372024bytes SHA2560d0d21cca3ae1c915e8197789d47e2437e4d75238edeb5de7ed0cabc778eea6a Gitblob0fb51f46b58c542c5ccc33dbe76ee205599d31a4 local==remote fullydecoded. Unique141/251, scientifically_verifiedfalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/42305fdef63c77df28c20a6b1c4b1b8b11b99776/owl-pet/design/concepts/125-ninox-philippensis-v2.png) [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2133+0800-cycle-6.md).
+
+
+VERIFIED #144 Ninox spilocephala v1 2026-10-20T15:43Z
+Adult crownspotted, mixed upperbreastpattern corrected; immature plainbrowncrown and reducedbuffcollar, unsupportedregions occluded. Exactage/sexratio/patterncalibration unresolved; scientifically_verified=false. Newunique142/251; versions241. Imagecommit f1dabc519f6e481c1422ae8cdb9173738b81a45b; independent immutable raw decoded1536x1024,2428236bytes,local==remote SHA256 d30bdbd06f36050f7f0e35840c193cf49556257a7d378f247084f69d988bade0; Gitblob cd9334d84df891c539071f795677e2d2b6fb5c13. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/f1dabc519f6e481c1422ae8cdb9173738b81a45b/owl-pet/design/concepts/144-ninox-spilocephala-v1.png). [Run](../production/runs/2026-10-20T2310+0800-cycle-1.md).
+
+
+VERIFIED 2026-10-20T15:45:50.223Z 125-ninox-philippensis-v3
+Actualview: bothadultcrowns noticeably matte/plainbrown with palehighlightflecks reduced further thanv2. Somebrownfeathertexture remains; no calibratedpixel-levelabsenceclaim. Whitebrows/wingpatches/streaks and juvenileformedwing/grips/labels retainedvisually. Newrenderingstrategy visiblyimproved crowncontrast only; no universalvalidation. Exactage/sexratio/fineanatomypending.
+Imagecommit 63f25fbf4a0dacbdf59de482fd557f2acb76354b; independentimmutable raw fullPNG 1536,1024 2317159bytes SHA256 fbf2279c65e28116115b269fd308691231cc7cd6f3a7c3b3c47621dc361fec11 Gitblob 2a89f7a523d39118ec9e5e95e14c1f39d3e20dfd local==remote fullydecoded. Unique142/251 sciencefalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/63f25fbf4a0dacbdf59de482fd557f2acb76354b/owl-pet/design/concepts/125-ninox-philippensis-v3.png). [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2310+0800-cycle-2.md).
+
+
+VERIFIED 2026-10-20T15:49:58.608Z 128-megascops-marshalli-v4
+Actualview: femalehead rotatedright exposing posteriorcrown pale band withbrown speckledtips, no foreheadV added. Exactbandextent/featherplacementnotvalidated; stylizedbroadbandneedsfinecalibration. Darkeyes/rufousblackrimface/shorttufts andolderimmatureformedwing/otherbirdsgrips/labels retainedvisually. Hypothesis angleexposure applied andinspectable, notglobalanatomyvalidation. Versioncollision foundbeforecredit: historicalv3 failedattemptalreadyexists, accidentalpathoverwrite restoredfromparent and thisnewasset renamedv4; oldmanifestentrypreserved.
+Imagecommit 6fb67d128759b7729d2663171b6e20f128c9fda3; independentimmutable raw fullPNG 1536,1024 2711235bytes SHA256 d1a4ae11a47bceb9d2d99ebabbbd8b4e287ccb452a5fcb180289728084c9741f Gitblob 0fe809f88265c25b1ee9fb6768399f9501ba5443 local==remote fullydecoded. Unique142/251 sciencefalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6fb67d128759b7729d2663171b6e20f128c9fda3/owl-pet/design/concepts/128-megascops-marshalli-v4.png). [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2310+0800-cycle-3.md).
+
+
+VERIFIED 2026-10-20T15:55:00.703Z 123-otus-gurneyi-v3
+Thirdactualreconstruction removed curledbodytiles, finegraybrownfluff/diffusemarksvisible. Firsttwoattemptsfailed. Photo-basedyoungmorephotographicthanadults, styleblendpending; headangle/footposechanged, bothfeet supportedfork, wingedge/tailhidden retained. Age/sexratio/pattern/geometryunknown sciencefalse. Source shankars2013 CC BY2.0 https://commons.wikimedia.org/wiki/File:Giant_scops_owl_juvenile_(9105615728).jpg https://creativecommons.org/licenses/by/2.0/; AIderived/repositioned, noendorsement. Referencefirststrongerrebuild effectivehereonly notgenericvalidation.
+Imagecommit df63c6c8d7066beda3817c73d402866e9414d6fd; independentimmutable raw fullPNG 1536,1024 2509524bytes SHA256 f8c78a5c6796f21d106ef7b0f93c25c792d3e457ec484327d59725199b05d599 Gitblob f09d9b4387677f6448467833dffd6cc8e820b270 local==remote fullydecoded. Unique142/251 sciencefalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/df63c6c8d7066beda3817c73d402866e9414d6fd/owl-pet/design/concepts/123-otus-gurneyi-v3.png). [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2310+0800-cycle-4.md).
+
+
+VERIFIED 2026-10-20T15:57:13.622Z 113-ninox-natalis-v4
+Actualview: centraljuvenilecrown visiblysmoother/matte/unspottedrusset, palehighlightflecksreduced. Shortlores/graybill/yelloweyes/headtilt/wingwhitepatches/formedbarredwingtail/ventralbars/yellowfootgrips/adultslabels retainedvisually. Finepattern/age/sexratio stillunknownsciencefalse. Mattehighlightstrategy visiblyhelpedsecondcase, notglobalvalidation.
+Imagecommit bb55e7bdfa6e4783ead4eb352cf78e561bb3407a; independentimmutable raw fullPNG 1536,1024 2555302bytes SHA256 7ccb2de86ba4e0b5976abb6159eef086d8a1263dae6fd0aa645e883b28760c3b Gitblob 668fd61174f63db0ccdf98d8aa2ce30572b9b2fb local==remote fullydecoded. Unique142/251 sciencefalse. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/bb55e7bdfa6e4783ead4eb352cf78e561bb3407a/owl-pet/design/concepts/113-ninox-natalis-v4.png). [Run](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/production/runs/2026-10-20T2310+0800-cycle-5.md).
+
+
+## VERIFIED recovery 2026-10-20T20:29:36.207Z — #101 Otus spilocephalus hambroecki v4
+Existing image e1d4df916c4a27353ef7159d277f7175eaae70ed independently downloaded this invocation and fully decoded with PIL:1536x1024,2612562bytes,SHA256 0bd19e0b9b4f36a07c493b9e331f8e89e01035ca7bf514ff4b76961bc77b8f82,Gitblob43fdd70b1b8a4d94c4ab08f8cfe665c26b590159. Recovered original and independent immutable download match. Actual image viewed this invocation: sparse short tapered blackbrown shaftmarks readable through both adults' mid/lower bellies, fine winding brown background retained. Young formed balancing wing and both feet gripping branch retained. Fine pattern still stylized; exact feather map, juvenile age and sex size ratio unknown. Scientifically_verified=false. No additional edit warranted by this inspection.
+Freshly read existing source MSO-MOA-TW2 https://kmweb.moa.gov.tw/theme_data.php?id=139&theme=bird_illustration Morphology/Habitat/source attribution sections: Taiwan adult fine brown vermiculations PLUS sparse dark longitudinal shafts; not juvenile/sex-ratio evidence. New0/reused1/corrected0 source IDs; uploaded Mikkola not accessed this invocation. Lesson: increasing shaft contrast can overelongate marks; prior second edit shortened them, current actual review confirms qualitative improvement only, not full scientific calibration.
+This invocation generation0/edit0; recovered existing IMAGE_GENERATED/REVIEWED/ARCHIVED phases, independently verified binary and image now. Prior 97670ms generation/edit wait belongs to earlier invocation, not this one. Remote verification and source reading occurred before metadata checkpoint; no platform timeout telemetry. Recovery start20:26Z UTC2026-10-20; end checkpoint 2026-10-20T20:29:36.207Z. This completes one previously interrupted production cycle, not six cycles this invocation. Unique species remains142/251. Previous failure records and prompts retained.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/e1d4df916c4a27353ef7159d277f7175eaae70ed/owl-pet/design/concepts/101-otus-spilocephalus-v4.png).
+
+
+## VERIFIED 2026-10-20T21:38:49.968Z — 117-otus-manadensis-v4
+Actual targeted edit/view: center older juvenile's repeated bright semicircular chest/belly/wing-covert edges are substantially reduced; surface is softer, more diffuse and irregular. Formed short folded wings, barred tail, yellow eyes and both-feet branch grip retained. Adults, labels, title, poses and forest retained visually. Residual low-contrast small scallops, exact feather geometry, age and sex ratio remain unknown; scientifically_verified=false. This is a limited correction, not a scientific pass.
+Sources new0/reused2/corrected0: SLSO-MANAHAMPI-2012 and SLSO-MIK2013-194; fresh search found no stronger primary juvenile source and no adjacent-taxon anatomy was transferred. Full prompt and evidence boundaries are in the cycle record.
+Complete remote original: image commit 6aec025f31dc608af118bc9d7e185116369ae52f; independent immutable download fully decoded 1536x1024, 2699035 bytes, SHA256 5ff0de6565f99fca35593455d3b5fb479c4bdb8190ccf30f2fcb077783c02c67, Git blob 9638bb92f2fdbebd1c9f3e42739b9c44123269ca; local==remote byte-for-byte. An interim truncated blob commit 4bb0e4e2ed1a7685d67a6af90e2a9b43caeca81c was detected before credit and superseded by the complete PNG.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/6aec025f31dc608af118bc9d7e185116369ae52f/owl-pet/design/concepts/117-otus-manadensis-v4.png) · [Cycle](../production/runs/2026-10-21T0533+0800-cycle-1.md)
+
+
+## #153 · Maned Owl — *Jubula lettii* v1
+
+[Original PNG](concepts/153-jubula-lettii-v1.png) · [species record](../knowledge/species/153-jubula-lettii.md) · [cycle record](../production/runs/2026-10-22T2031+0800-cycle-3.md)
+
+Adult male, adult female and one age-unknown older immature. Adults keep near-equal visible scale because sex-specific measurements were not found. The initial juvenile had adult-like long layered remiges and a long barred tail; the archived edit shortens/softens both while retaining white juvenile facial feathers and two-foot branch support. Actual edited PNG re-viewed; concept only, pending user confirmation and scientific calibration.
+
+
+## #154 · Jamaican Owl — *Pseudoscops grammicus* v1
+
+[Original PNG](concepts/154-pseudoscops-grammicus-v1.png) · [species record](../knowledge/species/154-pseudoscops-grammicus.md) · [cycle record](../production/runs/2026-10-22T2051+0800-cycle-4.md)
+
+Adult male, adult female and age-unknown downy young. Full image viewed: adult diagnostics and three labels present; juvenile has short soft wings and hidden/very short tail with both feet on cavity substrate. No edit required. Pending user confirmation and scientific validation.
+
+
+## 155 · Rufous Fishing Owl · *Scotopelia ussheri* v1
+![155-scotopelia-ussheri-v1](concepts/155-scotopelia-ussheri-v1.png)
+
+Adult male, adult female and evidence-bounded older juvenile in Upper Guinea river forest. Actual image reviewed; complete PNG verified. Exact juvenile age, sexual size ratio and fine feather geometry remain pending scientific calibration.
+
+
+## #109 · Northern White-faced Owl — *Ptilopsis leucotis* v6
+[Original PNG](concepts/109-ptilopsis-leucotis-v6.png) · [species record](../knowledge/species/109-ptilopsis-leucotis.md) · [cycle record](../production/runs/2026-10-23T0431+0800-cycle-6.md)
+
+Revision replaces repeated bright juvenile wing scallops with shorter, softer gray-brown developing wings while retaining formed tips and full branch support. Actual targeted edit passed limited review; age, continuous feather sequence, sex ratio and toe-feather extent remain pending, with no scientific pass transferred.
+
+
+## #123 · Giant Scops Owl — *Otus gurneyi* v4
+[Original PNG](concepts/123-otus-gurneyi-v4.png) · [species record](../knowledge/species/123-otus-gurneyi.md) · [cycle record](../production/runs/2026-10-23T0627+0800-cycle-1.md)
+
+Revision of the older photographed-stage juvenile: an initial resumed render again exposed long folded remiges reaching the feet, so a targeted edit concealed the long wing and tail beneath soft gray-brown juvenile plumage while keeping two-foot support. Adults, brown eyes, black-spotted tufts, labels and habitat remain. Scientific calibration is still pending.
+
+
+## #125 · Luzon Boobook — *Ninox philippensis* v4
+[Original PNG](concepts/125-ninox-philippensis-v4.png) · [species record](../knowledge/species/125-ninox-philippensis.md) · [cycle record](../production/runs/2026-10-23T0832+0800-cycle-2.md)
+
+Revision rebuilds both adults with plain unmarked matte-brown crowns while preserving legitimate white wing spots. The first juvenile render was too mature; the reviewed edit shortens and rounds its formed wing, hides the tail and retains residual buff down plus two-foot branch support. Scientific calibration remains pending.
+
+
+## #113 · Christmas Island Boobook — *Ninox natalis* v5
+[Original PNG](concepts/113-ninox-natalis-v5.png) · [cycle record](../production/runs/2026-10-23T0832+0800-cycle-3.md)
+
+Revision replaces the initial adult-length juvenile wing and long tail with a shorter rounded formed wing, concealed tail, irregular ventral markings and natural two-foot support. Scientific calibration remains pending.
+
+
+## #128 · Cloud-forest Screech-Owl — *Megascops marshalli* v6
+[Original PNG](concepts/128-megascops-marshalli-v6.png) · [species record](../knowledge/species/128-megascops-marshalli.md) · [cycle record](../production/runs/2026-10-23T0929+0800-cycle-4.md)
+
+Revision narrows and lowers the contrast of the middle adult female's hind-crown band, breaking it into individually tipped posterior feathers instead of a bright continuous arc. Actual full plate reviewed; no forehead V, cap or collar, and the other two birds, older-immature formed wings, supports and labels remain. Scientific calibration remains pending.
+
+
+## #105 · Southern White-faced Owl — *Ptilopsis granti* v5
+[Original PNG](concepts/105-ptilopsis-granti-v5.png) · [species record](../knowledge/species/105-ptilopsis-granti.md) · [cycle record](../production/runs/2026-10-23T1031+0800-cycle-5.md)
+
+Revision changes the older juvenile's face from adult-white to gray-brown and reduces bright decorative body/covert edges. Actual plate reviewed: developing wing remains formed but shorter than adults, tail concealed, both feet supported; adults and labels intact. Scientific calibration remains pending.
+
+
+## #117 · Sulawesi Scops Owl — *Otus manadensis* v6
+[Original PNG](concepts/117-otus-manadensis-v6.png) · [species record](../knowledge/species/117-otus-manadensis.md) · [cycle record](../production/runs/2026-10-23T1134+0800-cycle-6.md)
+
+Revision preserves the orphan v5 and follows one rejected draft with a second targeted juvenile-only edit. Actual final plate reviewed: broad softer irregular gray-brown ventral bars replace most bright regular scallop rows while heavier crown/mantle barring, short formed wings, barred tail and branch support remain. Residual fine low-contrast arcs and exact developmental calibration remain pending; scientific verification is false.
+
+
+## #90 · American Barn Owl — *Tyto furcata* v3
+[Original PNG](concepts/90-tyto-furcata-v3.png) · [species record](../knowledge/species/90-tyto-furcata.md) · [cycle record](../production/runs/2026-10-23T1233+0800-cycle-1.md)
+
+Revision corrects the v2 overshoot in sex-size display: the right adult female is now only modestly taller and fuller than the male while retaining darker, more spotted plumage. Actual plate reviewed; juvenile stage, supports, labels and environment remain intact. Exact ratio and scientific calibration remain pending.
+
+
+## #159 · Sri Lanka Bay Owl — *Phodilus assimilis* v2
+[Original PNG](concepts/159-phodilus-assimilis-v2.png) · [species record](../knowledge/species/159-phodilus-assimilis.md) · [cycle record](../production/runs/2026-10-24T0933+0800-cycle-1.md)
+
+Recovery revision preserves the previously orphaned v1 and registers both versions. Actual full-resolution v2 review confirms the juvenile folded wing is shorter, rounder and more down-covered, with no exposed long tail and both feet supported; adults, labels and cavity habitat remain stable. Exact age, continuous feather sequence, flight ability and fixed sex ratio remain unknown, so scientific verification is false.
+
+
+## 03-bubo-bubo-v11
+
+状态：约10日龄幼鸟白绒闭环/钩针状重复纹理重建修订；实际查看通过，待科学校准。历史 v10 已从父提交逐字节恢复，本图另存 v11，旧版及历史确认保留且不自动转移。
+
+![03-bubo-bubo-v11](concepts/03-bubo-bubo-v11.png)
+
+
+## #98 · Chaco Owl — *Strix chacoensis* v4
+[Original PNG](concepts/98-strix-chacoensis-v4.png) · [cycle record](../production/runs/2026-10-24T2130+0800-cycle-1.md)
+
+Revision resolves the documented bill and proximal-toe boundary direction: yellowish bill/cere, blackish-brown irises, and pale featherlets continuing onto the proximal toe shafts while distal toes and claws remain bare. The older juvenile retains short rounded formed wings and supported feet. Exact age, feather sequence, toe-feather count and fixed sex ratio remain pending; scientific verification is false.
+
+
+## #117 · Sulawesi Scops-Owl — *Otus manadensis* v8
+[Original PNG](concepts/117-otus-manadensis-v8.png) · [species record](../knowledge/species/117-otus-manadensis.md) · [cycle record](../production/runs/2026-10-25T0431+0800-cycle-1.md)
+
+Fresh rebuild removes the residual mechanical juvenile ventral pattern direction while retaining source-supported heavy crown/back barring, compact formed wings and natural support. Scientific calibration remains pending.
+
+
+## 13-micrathene-whitneyi-v6
+
+证据边界重建：三鸟与标签、无耳羽短尾成年、黄眼灰喙、闭眼白绒低伏幼鸟及不规则仙人掌洞支撑已实际复查。v5历史用户确认保留，不自动迁移到v6；精确日龄、羽序和巢腔尺寸仍待科学校准。
+
+![13-micrathene-whitneyi-v6](concepts/13-micrathene-whitneyi-v6.png)
+
+
+## 14-bubo-virginianus-v2
+
+证据边界重建：成年诊断、同基线近等比例、早期闭眼白绒幼鸟及旧枝巢支撑已实际复查。v1用户确认保留但不迁移；仍待精确日龄、羽序和比例科学校准。
+
+![14-bubo-virginianus-v2](concepts/14-bubo-virginianus-v2.png)
+
+
+## 15-strix-varia-v3
+
+证据边界重建：成鸟暗褐眼、黄喙、无耳羽、上胸横斑与下胸纵纹，同基线近等展示，雌鸟仅略丰满；中央年龄未知、尚未攀枝的白绒幼鸟采用短圆绒羽翼芽、隐藏尾部，腹部与双足由不规则腐朽树洞底承托。精确日龄、连续羽序、量化雌雄差异及巢腔几何仍待科学校准；旧v2保留。
+
+![15-strix-varia-v3](concepts/15-strix-varia-v3.png)
+
+
+## 19-megascops-trichopsis-v5
+
+证据边界重建：三鸟及标签正确；成鸟保留橙调虹膜、黄橄榄色喙、短耳簇、须状脸羽和不规则粗斑，雌鸟仅略丰满；中央年龄未知的较大幼鸟具蓬松中雏羽、短圆发育翼、隐藏尾部和双足枝条支撑。精确日龄、连续羽序、趾羽边界、量化雌雄差异及细斑几何仍待科学校准；旧版本保留。
+
+![19-megascops-trichopsis-v5](concepts/19-megascops-trichopsis-v5.png)
+
+
+## 20-megascops-clarkii-v3
+
+证据边界重建并修订幼鸟翼部：成鸟红褐云雾林形态、黄眼、灰绿色喙及不过度拉长的下段裸露跗跖通过复查；约三周龄但年龄仍不精确的幼鸟以白绒为主，仅见少量短小桂皮色发育羽尖，无长层叠飞羽或可见尾羽，腹部与双足由天然树洞底承托。连续羽序、裸跗跖边界、分性别测量与普遍巢腔几何仍待科学校准。
+
+![20-megascops-clarkii-v3](concepts/20-megascops-clarkii-v3.png)
+
+
+## 21-megascops-choliba-v4
+
+证据边界重建并修订幼鸟翼部：同色型成年黄眼、浅绿灰喙、黑缘脸盘、羽跗和近等展示高度已复查；中央11–13日龄幼鸟以白绒为主，仅见少量贴身极短羽轴，无长层叠飞羽、尾羽或耳簇，腹部与双足由近乎裸露的枯棕榈洞底承托。精确羽轴长度、连续羽序、参考亚种、量化雌雄差异及普遍巢腔几何仍待科学校准。
+
+![21-megascops-choliba-v4](concepts/21-megascops-choliba-v4.png)
+
+
+## 22-gymnasio-nudipes-v3
+
+证据边界重建：同棕色型成年赤褐虹膜、绿黄喙、显著白眉、白底棕纹、自然裸露下腿和近等尺度通过复查；中央年龄未定幼鸟以灰米色蓬松幼羽为主，短圆翼芽藏于绒羽下，无成熟翼尾或成年白眉，腹部和双足由洞底承托。精确日龄、幼鸟虹膜、连续羽序、飞行能力、量化性别差异及精细裸腿几何仍待科学校准。
+
+![22-gymnasio-nudipes-v3](concepts/22-gymnasio-nudipes-v3.png)
+
+
+## 28-glaucidium-perlatum-v2
+
+证据边界修订：成年黄眼、浅绿黄色喙蜡膜、肉桂褐底整齐白色珠斑、白底棕色纵纹及雌雄近等展示通过复查；成年雌鸟后转展示成对白边黑色假眼。中央年龄未定离巢幼鸟更小、更蓬松，头背珠斑明显减少、短圆折翼、无成熟横斑长尾，双足由低矮金合欢枝承托。精确日龄、逐日羽区与虹膜发育、连续翼尾生长及量化性别差异仍待科学校准。
+
+![28-glaucidium-perlatum-v2](concepts/28-glaucidium-perlatum-v2.png)
+
+
+## 29-glaucidium-capense-v2
+
+证据边界修订并定向修正幼鸟：成年细横斑、白色肩带、黄眼浅绿喙、腹部深色羽端斑、无后颈假眼及近等尺度通过复查；中央近期离巢幼鸟改为弥散不完整横纹、短软折翼、无醒目成年肩斑和短尾尖，双足自然支撑。精确日龄、连续羽序、亚种及量化性别差异仍待校准。
+
+![29-glaucidium-capense-v2](concepts/29-glaucidium-capense-v2.png)
+
+
+- `30-glaucidium-cuculoides-v2.png` — #30 *Glaucidium cuculoides* v2 revision; final center nestling uses the undated gray-down/open-eye stage with short emerging sheaths after rejecting and editing a draft with mature layered remiges. Adults, three labels and natural cavity support were reviewed. Exact age, feather sequence, sex-size ratio and geographic variation remain unknown; scientifically verified: no. Image commit: `055ab38d0dcf7fb1605bf75eaeef69fcbb6e6100`; [run](../production/runs/2026-10-26T1146+0800-cycle-6.md).
+
+
+- `31-glaucidium-radiatum-v2.png` — #31 *Glaucidium radiatum* v2 revision; targeted edit removed the cavity chick’s residual long dark remiges, leaving gray-white down and a short rounded wing bud. Adults, three labels, no-false-eye diagnosis and natural supports were reviewed. Exact juvenile age/sequence, sex-size ratio and subspecies detail remain unknown; scientifically verified: no. Image commit: `12827b8ab8ac4ae94d4177f20551d2e4ce38e7f0`; [run](../production/runs/2026-10-26T1128+0800-cycle-1.md).
+
+
+- `32-glaucidium-castanotum-v2.png` — #32 *Glaucidium castanotum* v2; targeted juvenile edit removed crisp adult wing spots/long remiges and softened the middle-juvenile pattern. Exact age, sequence and sex-size ratio remain unknown; scientifically verified: no. Image commit `495c1bf335d5e61dbc10d986502980b2ef69aafc`; [run](../production/runs/2026-10-26T1153+0800-cycle-2.md).
+
+
+- `33-taenioptynx-brodiei-v2.png` — #33 *Taenioptynx brodiei* v2 revision; original-resolution review passed without edit. Male nape false eyes, adult untufted form, yellow eyes/green-yellow bills, barred plumage and near-equal scale were retained; center older immature has stronger vertical head streaking, softer body pattern, shorter wings/tail and full two-foot support. Exact immature age, continuous feather sequence, flight ability and quantified sex difference remain unknown; scientifically verified: no. Image commit: `081ea81c554da8ed8e8b719498c392f112ba841c`; [run](../production/runs/2026-10-26T1215+0800-cycle-3.md).
+
+
+- `34-glaucidium-hardyi-v2.png` — #34 *Glaucidium hardyi* v2 revision, reviewed without edit. Male nape false eyes are visible; adults retain the gray spotted crown/rufous mantle contrast and near-equal scale; center older juvenile has an unspotted crown, diffuse weak streaking, soft wings and no mature-tail claim. Exact age, continuous feather sequence, flight ability and sex measurements remain unknown; scientifically verified: no. Image commit `e7474fc3f3c6645c283f1726eb52eb41952ee589`; [run](../production/runs/2026-10-26T1229+0800-cycle-4.md).
+
+
+- `35-glaucidium-jardinii-v2.png` — #35 *Glaucidium jardinii* v2 revision; one targeted edit removed adult-like white wing spots from the age-unknown middle juvenile and softened/shortened its wing. Adult male nape false eyes, adult spotted crowns, white throat/chest, near-equal adult scale, three labels and natural supports were reviewed at original resolution. Exact age, continuous feather sequence and flight ability remain unknown; scientifically verified: no. Image commit `930c6054adc72a781ef676d586667bbd89c5193d`; [run](../production/runs/2026-10-26T1245+0800-cycle-5.md).
+
+
+## #36 Yungas Pygmy-Owl v2 — 2026-10-26
+
+- Original: [36-glaucidium-bolivianum-v2.png](concepts/36-glaucidium-bolivianum-v2.png)
+- Taxon: *Glaucidium bolivianum*
+- Unit: adult male, adult female and one age-unknown older juvenile.
+- Review: one targeted edit removed crisp adult-like juvenile wing spots and shortened/softened the folded wing; second original-resolution inspection passed.
+- Science: concept reviewed, not scientifically verified; juvenile age/sequence, flight ability, nape pattern and sex-specific measurements remain unknown.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-26-36-glaucidium-bolivianum-v2-evidence-increment) · [run record](../production/runs/2026-10-26T1341+0800-cycle-6.md)
+
+
+## #43 · Forest Owlet — *Athene blewitti* v2
+[Original PNG](concepts/43-athene-blewitti-v2.png) · [species record](../knowledge/species/43-athene-blewitti.md) · [cycle record](../production/runs/2026-10-26T1639+0800-cycle-1.md)
+
+Evidence-bounded revision preserves equal-scale adults, near-plain crown/back, solid pectoral band and open central-Indian large-tree habitat. One targeted edit removed the approximately 40-day fledgling's adult-style white wing rows and mature layered remiges while retaining rufous ventral barring and full cavity-lip support. Scientific calibration remains pending.
+
+## #52 · Rusty-barred Owl — *Strix hylophila* v2
+
+[Original PNG](concepts/52-strix-hylophila-v2.png) · [species record](../knowledge/species/52-strix-hylophila.md) · [cycle record](../production/runs/2026-10-26T1929+0800-cycle-4.md)
+
+Evidence-bounded revision preserves untufted dark-eyed adults, yellowish bills, rusty concentric facial discs, dense rusty/buff/white barring and near-equal adult scale. One targeted edit replaced the recently fledged juvenile's adult-like long spotted remiges with short rounded down-softened wings; both feet remain supported near the cavity. Exact juvenile feather sequence, individual age and quantified sex-size ratio remain unknown, so scientific calibration remains pending.
+
+
+## #61 Sunda Buffy Fish Owl / *Ketupa ketupu* v2
+
+![#61 Sunda Buffy Fish Owl v2](concepts/61-ketupa-ketupu-v2.png)
+
+- Review: PASS_NO_EDIT at original 1536×1024 resolution.
+- Evidence: BFOW-INDIANBIRDS-2015; reused BFOW-BESG-NEST-2016, BFOW-BESG-FLEDGE-2024 and BFOW-NPARKS-2026.
+- Boundary: the down-covered juvenile rests inside a living bird's-nest fern; exact hatch age, feather chronology, subspecies color and sex measurements remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #62 Barred Eagle-Owl / *Ketupa sumatrana* v2
+
+![#62 Barred Eagle-Owl v2](concepts/62-ketupa-sumatrana-v2.png)
+
+- Review: PASS_AFTER_ONE_EDIT at original resolution; juvenile wing shortened/softened and tail concealed.
+- Evidence: BEOW-SGBIRDS-BREED-2018; reused BEOW-SGBIRDS-2026, BEOW-BESG-JUV-2010, BEOW-NPARKS-2026 and BEOW-AVIBASE-2026.
+- Boundary: older dependent branch-perched juvenile with whitish head/tufts and developing dark bars; conditional age estimate is not treated as exact. This is a concept image, not a scientifically verified plate.
+
+
+## #63 Pel's Fishing Owl / *Scotopelia peli* v2
+
+![#63 Pel's Fishing Owl v2](concepts/63-scotopelia-peli-v2.png)
+
+- Review: PASS_AFTER_ONE_EDIT at original resolution; the juvenile's adult-like long layered remiges were replaced by a short rounded down-softened developing wing and the tail was concealed.
+- Evidence: new PFO-BOTSWANAPOST-2022; reused PFO-TRUST-2026, PFO-OWLPAGES-2020, PFO-OUZMAN-JUV and PFO-BOUGLOUAN-2026.
+- Boundary: adults are dark-eyed, ear-tuft-free rufous fishing owls in old-tree riparian habitat; the supported pale juvenile is deliberately age-unknown. Exact age, continuous feather sequence and fixed sex ratio remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #64 Ashy-faced Owl / *Tyto glaucops* v2
+
+![#64 Ashy-faced Owl v2](concepts/64-tyto-glaucops-v2.png)
+
+- Review: PASS_AFTER_ONE_EDIT at original resolution; crisp adult-like pattern was removed from the nestling's wing sprouts.
+- Evidence: new AFO-BIRDSCARIBBEAN-2023; reused primary AFO-CURTI-2018 and institutional AFO-PEREGRINE-2026.
+- Boundary: gray-faced, black-eyed buff adults flank one poorly mobile ochre-down nestling inside the documented Palmchat-nest cavity example. Exact nestling age, continuous feather chronology, fixed standing-height ratio and generality of this nest type remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #65 Madagascar Red Owl / *Tyto soumagnei* v2
+
+![#65 Madagascar Red Owl v2](concepts/65-tyto-soumagnei-v2.png)
+
+- Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
+- Evidence: new primary MRO-THORSTROM-NEST-1996; reused MRO-PEREGRINE-2026, MRO-ADW-2026 and MRO-OWLPAGES-2020.
+- Boundary: one fully feathered but browner recent fledgling is naturally supported outside the high humid-forest cavity observed in the first nest study. Daily feather chronology, population-wide generality and a fixed standing-height ratio remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #68 Greater Sooty Owl / *Tyto tenebricosa* v2
+
+![#68 Greater Sooty Owl v2](concepts/68-tyto-tenebricosa-v2.png)
+
+- Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
+- Evidence: new GSO-ABSA-2019 institutional ageing/morphometrics profile; corroborated with NSW government habitat, nest and identification material.
+- Boundary: adults show black eyes, dark-rimmed grey heart discs, sooty white-spotted plumage and feathered feet; the female is fuller and slightly paler. The darker near-fledged juvenile is almost fully feathered with compact developed wings, little residual down and natural two-foot support at an old eucalypt hollow. Exact daily plumage chronology, pictured age and population-wide subspecies generality remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #69 Australian Masked Owl / *Tyto novaehollandiae* v2
+
+![#69 Australian Masked Owl v2](concepts/69-tyto-novaehollandiae-v2.png)
+
+- Review: PASS_FIRST_RENDER at original resolution; no imagegen edit was required.
+- Evidence: re-read primary AMO-DEBUS-WOOD-2007 growth sequence and Australian Museum profile; added current AMO-NSW-2024 government habitat/identification source.
+- Boundary: mainland nominate dark morph; larger/darker female and an older, darker, heavily marked near-fledgling with developed wings and only residual down, naturally supported at a deep eucalypt hollow. Exact age, captive-to-wild growth transfer and colour across morphs/subspecies remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+## #71 Barking Owl / *Ninox connivens* v2
+
+![#71 Barking Owl v2](concepts/71-ninox-connivens-v2.png)
+
+- Review: PASS_AFTER_EDIT at original archival resolution; one targeted juvenile-wing edit was required.
+- Evidence: reused Australian Museum `BARK-AM-2022`, ABSA `BARK-ABSA-2020` and Mikkola `WHSO-MIKKOLA-2013`; added Bullock’s 2026 primary breeding study `BARK-BULLOCK-2026`.
+- Boundary: yellow-eyed, vertically streaked, white-wing-spotted adults with the male only modestly larger; a supported recent fledgling has less ventral streaking, a pale mottled nape and shorter, softer wings at a debris-lined eucalypt hollow. Exact age, continuous feather sequence, regional variation and a fixed sex ratio remain unresolved. This is a concept image, not a scientifically verified plate.
+
+
+### #76 Striped Owl — *Asio clamator* v2 (2026-10-27)
+
+![#76 Striped Owl v2](concepts/76-asio-clamator-v2.png)
+
+Revision generated and visually reviewed after one juvenile-wing edit. Adults retain brown-cinnamon eyes, black bill/claws, long dark ear tufts, dark-bordered white facial discs, bold vertical streaking and near-equal display height. The approximately five-week brancher has warm yellowish-white/buff body plumage, a defined face and short tufts, a shorter rounded developing wing with diffuse bars, a short tail and two-foot support. A rudimentary grassland ground nest uses straw, leaves and feathers. Exact age, continuous feather sequence, fixed sex ratio and subspecies transfer remain unknown; `scientifically_verified=false`. Sources: `CLA-PONCE-GONZALEZ-2025`, `CLA-OWLPAGES-2020`, `CLA-AOS-2021`, `WHSO-MIKKOLA-2013`. [Run record](../production/runs/2026-10-27T0334+0800-cycle-1.md).
+
+
+### #77 Stygian Owl — *Asio stygius* v2 (2026-10-27)
+
+![#77 Stygian Owl v2](concepts/77-asio-stygius-v2.png)
+
+Revision generated and visually reviewed after one juvenile-wing edit. A 35-day Ecuador field observation supports an older-than-one-month brancher with yellow eyes, black facial disc, small tufts, pale rear-head feathers, scattered residual down, barred belly, developing herringbone chest lines and branch-changing behavior. The final juvenile has a shorter, softer formed wing rather than adult-length crisp remiges; dark yellow-eyed adults share a common branch baseline with only a modestly fuller female. Exact age, flight threshold, subspecies transfer and sex ratio remain unknown; `scientifically_verified=false`. Sources: `STY-CADENA-2018`, `STY-AMARO-2024`, `STY-SPIZAETUS-2018`, `STY-OWLPAGES-2020`, `WHSO-MIKKOLA-2013`. [Run record](../production/runs/2026-10-27T0334+0800-cycle-2.md).
+
+
+## 78 · Marsh Owl · *Asio capensis* v2
+- [Original PNG](concepts/78-asio-capensis-v2.png) · 1350×900 · 624,973 bytes · SHA-256 `047833e884e801bc021c1caabd1cd62e814c79a28c06c29df74024fe76048699`
+- Revision: evidence-bounded southern African concept; adult sexes remain alike, with only modest female fullness and subtle tail direction; center juvenile is the directly supported mobile 14–18-day preflight stage in a ground-level tall-grass tunnel/depression.
+- Review: first draft had juvenile ear tufts and long layered adult-like remiges. One targeted edit removed the tufts, shortened/softened the wing and concealed the tail. Exactly three labeled owls, dark eyes, small adult tufts, feathered legs, text, wetland setting and all foot supports were rechecked. Scientific calibration remains pending.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-78-asio-capensis-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-3.md)
+
+
+## 80 · Oriental Scops-Owl · *Otus sunia stictonotus* v2
+- [Original PNG](concepts/80-otus-sunia-v2.png) · 1350×900 · 700,099 bytes · SHA-256 `1c0406ceed67a38f37e672dba1fc8b827d5c271fecd44c8fe7df1ff06e88ac37`
+- Revision: South Korean gray-morph concept grounded in the 13-nest breeding study; natural Zelkova cavity, near-equal adult display height and only a subtly fuller female.
+- Review: the first render passed original-resolution review without editing. Exactly three labeled owls are present. The central late cavity young has fluffy weakly marked mesoptile, no conspicuous tufts, no adult-length layered remiges or exposed tail, and full belly/two-foot support.
+- Limits: exact individual age, daily feather chronology, flight threshold and cross-subspecies transfer remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-80-otus-sunia-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-4.md)
+
+
+## 95 · Band-bellied Owl · *Pulsatrix melanota* v2
+- [Original PNG](concepts/95-pulsatrix-melanota-v2.png) · 1350×900 · 673,505 bytes · SHA-256 `c70f82213a3604ed9b14a95457ed66e0e9ed5fab1aabedf43782f1c6f9c52438`
+- Revision: current Cornell account and two primary field sources bound the adults, pale-buff/cinnamon juvenile and one documented exposed-fork nest; no cavity or universal nest claim.
+- Review: first draft's juvenile had adult-like long layered remiges and crisp white wing rows. One targeted edit produced a short rounded soft-brown developing wing under down; exactly three labels, both supported adults, juvenile belly/two-foot contact and unchanged text were rechecked at original resolution.
+- Limits: exact juvenile age/flight threshold, universal nest type and reliable sex-size ratio remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-95-pulsatrix-melanota-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-5.md)
+
+
+## 96 · Unspotted Saw-whet Owl · *Aegolius ridgwayi* v2
+- [Original PNG](concepts/96-aegolius-ridgwayi-v2.png) · 1350×900 · 621,172 bytes · SHA-256 `07a25002fe02bc54c18f3e57334a3b9ad9c987110670a8a4d718d7b787c3f3b9`
+- Revision: Guatemalan highland context grounded in the 2018 inventory; resting branch avoids turning probable cavity nesting into fact.
+- Review: first draft's central juvenile had an adult-length layered wing. One targeted edit shortened it to a rounded down-overlaid developing wing; exactly three labels, both adults, eye/bill colors, juvenile belly/two-foot support and unchanged text were rechecked at original resolution.
+- Limits: exact juvenile age/flight threshold, nest type and robust sex-size ratio remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-96-aegolius-ridgwayi-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0334+0800-cycle-6.md)
+
+
+## 102 · Black-and-white Owl · *Strix nigrolineata* v2
+- [Original PNG](concepts/102-strix-nigrolineata-v2.png) · 1536×1024 · 3,139,343 bytes · SHA-256 `d6805d96dbc49c0ad278daacb182de6ed581d37b492f255b1c85bbc60f8b08eb`
+- Revision: current-name/historical-name mapping is retained; adults are evidence-bounded dark, tuftless and horizontally barred, while the documented Tikal substrate is shown as a bare living epiphyte platform rather than a cavity or constructed nest.
+- Review: the first render’s juvenile had long adult-like side remiges. One targeted edit produced short rounded down-covered developing wings; exactly three labeled owls, adult diagnostics, near-equal adult height, juvenile belly/two-foot support and all text were rechecked at original resolution.
+- Limits: exact juvenile age/flight threshold, sexed linear dimensions, universal nest choice and precise toe geometry remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-102-strix-nigrolineata-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-1.md)
+
+
+## 103 · Eastern Grass Owl · *Tyto longimembris* v2
+- [Original PNG](concepts/103-tyto-longimembris-v2.png) · 1536×1024 · 2,882,053 bytes · SHA-256 `de6471aff936cf0b592ea952c34d6ff293b0bcc0da83f5d8cb899f5d944268ee`
+- Revision: nominate Australian adult/ground habitat direction; 55-day juvenile is explicitly a captive-reference mesoptile, not a wild-age or flight claim.
+- Review: first render had long adult-patterned juvenile remiges. One targeted edit produced short high-ending down-covered wing buds; adults, bare distal tarsi/toes, sex-color direction, support and labels were rechecked at original resolution.
+- Limits: captive-to-wild equivalence, exact wing readiness/body geometry and universal sex ratio remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#2026-10-27-103-tyto-longimembris-v2-evidence-increment) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-2.md)
+
+
+## 112 · Abyssinian Owl · *Asio abyssinicus* v2
+- [Original PNG](concepts/112-asio-abyssinicus-v2.png) · 1536×1024 · 3,048,516 bytes · SHA-256 `f1e3894b5c9b83dfc690c5b23d1b59bc1ad712549bf045e48ea0d9dec4554d6a`
+- Revision: adult proportions and separation from *A. otus* are grounded in the 2019 museum/taxonomic analysis; the Bale Mountains tree-platform scene follows a first-hand observation rather than a universal habitat claim.
+- Review: first render passed original-resolution review. Exactly three role-bearing birds are present; adult sex difference is subtle and the single chick remains a compact, mostly concealed white-down mound without invented eyes, bill, feet, wings or tail.
+- Limits: exact chick age/anatomy, quantitative sex ratio, fine feather geometry and habitat generality remain unknown; `scientifically_verified=false`.
+- Evidence/run: [source index](../research/SOURCE_INDEX.md#abo-collar-boesman-2019) · [cycle record](../production/runs/2026-10-27T0533+0800-cycle-3.md)
+
+
+## 160 · Minahasa Masked-Owl · *Tyto inexspectata* v1
+
+- [Original PNG](concepts/160-tyto-inexspectata-v1.png) · 1536×1024 · 696,628 bytes · SHA-256 `447259e0c1634a7dd525c9b966f893e35b1d946ef85b874d56c5970af8ebe4f5`
+- Git blob: `3f6a6a83fb04033d4b0f99cb5e04f05d83cb41ef`
+- NEW concept. First output's juvenile carried crisp adult-style white wing spots and hard layered primaries; one targeted edit retained a formed fledgling wing while making it browner, shorter/rounder and softer with diffuse flecks. Adults, labels and rainforest support were rechecked. Exact juvenile age/iris/flight, continuous feather sequence, nest geometry and quantified sex ratio remain unknown; science pending.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [run](../production/runs/2026-10-27T1034+0800-cycle-1.md)
+
+- #164 Desert Owl — *Strix hadorami* v1: [concept](concepts/164-strix-hadorami-v1.png). NEW; source-bounded adult diagnosis and pale mesoptile; one juvenile-wing edit; scientific verification pending.
+
+
+## 165 · Speckled Boobook · *Ninox punctulata* v1
+
+- [Original PNG](concepts/165-ninox-punctulata-v1.png) · 1536×1024 · 616,088 bytes · SHA-256 `d2ef263bbb2e53cf2c85c9e0606c35d91558d22f5fff4fb8d1fbafa8c928c2d1`
+- Git blob: `87ac0f12f1843c6703f890d8b3241c9804e649fa`
+- NEW concept. Three actually-read sources ground the adult identity, Sulawesi stream/forest-edge habitat and mesoptile. First render and indexed archive derivative both passed actual original-resolution review without editing.
+- Iteration evidence: the normal “remove adult-like juvenile remiges” safeguard was deliberately *not* applied, because Mikkola explicitly states that this species’ mesoptile wing and tail feathers are as adult. The validated rule is to override a generic juvenile safeguard only with direct species-specific evidence, while retaining juvenile body softness and a fully supported non-flight posture.
+- Limits: exact mesoptile age, flight threshold, juvenile iris, nest site and robust sex-size ratio remain unknown; `scientifically_verified=false`.
+- Evidence: [source index](../research/SOURCE_INDEX.md) · [research card](../research/species/165-ninox-punctulata.md) · [run](../production/runs/2026-10-27T1335+0800-cycle-6.md)
+
+
+### #166 Greyish Eagle-Owl · *Bubo cinerascens* · v1
+
+- Original: [166-bubo-cinerascens-v1.png](concepts/166-bubo-cinerascens-v1.png)
+- Group: adult male, 35–43 day fledgling, adult female; one continuous open-savanna ground-ledge scene.
+- Review: one targeted juvenile-wing edit; archive derivative re-viewed at 1536×1024. Scientific verification remains pending.
+- Research: [species card](../research/species/166-bubo-cinerascens.md) · [run](../production/runs/2026-10-27T1636+0800-cycle-1.md)
 
 
 ### #167 Fraser’s Eagle-Owl · *Ketupa poensis* · v1
@@ -2380,3 +3014,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/58-ketupa-coromanda-v5.png) · [Research](../research/species/58-ketupa-coromanda-v5.md) · [Review](../research/reviews/58-ketupa-coromanda-v5-review.md) · [Run](../production/runs/20261105T085600+0800-cycle-6.md)
 - Full-resolution v5 maps legacy *Bubo coromandus*/*Strix coromanda* to the current name. The field-estimated 8–10-week branch-moving juvenile remains fully supported beside a high old stick nest; one edit shortened and softened overly adult-ordered wing/tail layering. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive commit/tree and all binary/manifests read back successfully.
+
+## #63 Pel's Fishing Owl — *Scotopelia peli* — v5
+
+- [Concept](concepts/63-scotopelia-peli-v5.png) · [Research](../research/species/63-scotopelia-peli-v5.md) · [Review](../research/reviews/63-scotopelia-peli-v5-review.md) · [Run](../production/runs/20261105T133651+0800-cycle-5.md)
+- Full-resolution v5 preserves v1–v4 and duplicate-name #156. SANParks PDF p.6 supports an adult with a large downy chick along the Luvuvhu; the image keeps exact age/action unknown, uses full fork support, near-equal adults and no mature juvenile wing rows. First render passed full/crop review without edit. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.

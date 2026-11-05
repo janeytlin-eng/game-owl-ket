@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05",
+  "updated": "2026-11-05T13:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21165,7 +21165,66 @@
       "archive_commit": "1cded830a548943ffe326d985a72402d38f9f138",
       "archive_tree": "79f031f7b530973e794ec9321b368c4ee8c420bb",
       "verification_result": "Immutable archive readback matched thirteen required paths, five binary path/blob tuples, four unique image blobs and exact byte sizes; all three manifests parsed at counts 685/686/676; source index, research, review, run and batch records were present."
+    },
+    {
+      "id": "63-scotopelia-peli-v5",
+      "path": "design/concepts/63-scotopelia-peli-v5.png",
+      "species_id": 63,
+      "scientific_name": "Scotopelia peli",
+      "current_scientific_name": "Scotopelia peli",
+      "common_name": "Pel’s Fishing Owl",
+      "historical_names": [
+        "Strix peli",
+        "Bubo peli"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "PFOW-SANPARKS-KRUGER-2007-P6",
+        "PFOW-BIRDLIFE-SA-2025-ECOLOGY",
+        "PFOW-SANBI-03164-2026",
+        "PFO-BROOKE-1984-P128"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/63-scotopelia-peli-v5.md",
+      "review_record": "research/reviews/63-scotopelia-peli-v5-review.md",
+      "run_record": "production/runs/20261105T133651+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3205819,
+      "sha256": "1cc9b6f7c1fa49d3a63498b4c7741df8e9f6563a4c2fd352edf2dad54456e6e0",
+      "git_blob": "d5221b48cceeb4d5cd47723d9e7cde7277781dc9",
+      "generated_path": "production/generated/63-scotopelia-peli-v5-generated-master.png",
+      "generated_blob": "d5221b48cceeb4d5cd47723d9e7cde7277781dc9",
+      "generated_sha256": "1cc9b6f7c1fa49d3a63498b4c7741df8e9f6563a4c2fd352edf2dad54456e6e0",
+      "generated_size_bytes": 3205819,
+      "reviewed_path": "production/reviewed/63-scotopelia-peli-v5-reviewed-master.png",
+      "reviewed_blob": "d5221b48cceeb4d5cd47723d9e7cde7277781dc9",
+      "adults_review_crop": "production/review-crops/63-scotopelia-peli-v5-adults.png",
+      "adults_review_blob": "e9c9e7026593d1d9f762962c69d33936adf8e8a6",
+      "adults_review_size_bytes": 1547854,
+      "adults_review_sha256": "86c50f9ee5de162fc3f5f7ebec9ad1f797097b6086c9bfde912891a11a85dde5",
+      "juvenile_review_crop": "production/review-crops/63-scotopelia-peli-v5-juvenile.png",
+      "juvenile_review_blob": "3068fb75d936206e2bfdec92c4ad53064008106e",
+      "juvenile_review_size_bytes": 629282,
+      "juvenile_review_sha256": "8498db31ac5a6f49bc6e2e729c839855d7ed96dfa6ec07134bb745bdb90e87c4",
+      "reviewed_at": "2026-11-05T13:48:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4 and duplicate-name #156, restores a 1536×1024 concept and applies a newly read SANParks p.6 large-downy-chick river-roost boundary. First render passed full and crop review without edit. Exact juvenile age/sex, feather chronology, locomotor competence, perch geometry and universal sex dimensions remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-05T13:02:00+08:00"
+  "updated_at": "2026-11-05T13:52:00+08:00"
 }

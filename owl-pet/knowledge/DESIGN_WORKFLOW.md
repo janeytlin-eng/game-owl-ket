@@ -876,3 +876,7 @@ A version absent from the primary manifest can still exist in a legacy manifest.
 - **Problem/evidence:** #60's official field record supplies approximate 30/40-day ages and a nest substrate, while the museum account supplies paler/finer-streaked juvenile direction. Neither supplies a continuous feather-tract plate or exact tail length. The first render nonetheless produced crisp adult-like wing rows and hid the tail.
 - **Applied:** two centre-only edits shortened, rounded and down-fringed the wing while preserving both adults, text, feet/support and scene. The second edit attempted a softer short tail, but the tail remained mostly obscured.
 - **Verified scope:** full master and adult/support and juvenile crops were reopened. The repeated adult-row failure was reduced, validating the audit for this third asset. Tail visibility remains a recorded limitation; do not force a visible tail or claim an exact 40-day feather map when the source does not provide one.
+
+### 2026-11-05 — Observation interval is not hatch age (#61 v5)
+
+If a caption says a chick was photographed “about two weeks after discovery”, do not convert that interval into a two-week hatch age. Label exact age unknown, retain the directly photographed down/support state, and keep later branch/flight observations separate. Applied and visually checked on #61 v5: full image and crops passed without edit. This validates the label correction for this asset only; the continuous chronology remains unknown.

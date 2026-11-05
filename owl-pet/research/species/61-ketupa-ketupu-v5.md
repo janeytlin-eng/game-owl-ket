@@ -48,3 +48,7 @@ Scene: humid Sungei Buloh mangrove/stream edge; living fern mounted in a rain-tr
 ## Iteration gate
 
 The v4 visual control prevented juvenile ear tufts/structured wings but its full master omitted role labels. V5 must preserve the successful early-down/support boundary while restoring exact three-role labels and changing the age label to “exact age unknown”. Generated output must be opened; any formed juvenile wing/tail or missing label requires correction.
+
+## Production review — 2026-11-05
+
+Built-in imagegen completed in 49.2 s. Full 1536×1024 output plus adult/support and juvenile crops were opened. Count, title/labels, adult identity/feet, near-equal sex scale, early down-only chick and fern support passed on the first render; edit count 0. `PASS_WITH_LIMITATIONS`, science false. Archive/readback remain pending.

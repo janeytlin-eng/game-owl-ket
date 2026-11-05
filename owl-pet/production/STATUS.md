@@ -165,3 +165,8 @@
 - Batch `20261105T183434+0800`, cycle 3/6. Original master plus two evidence-bounded juvenile edits and full/crop review are persisted; `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`.
 - Manifests prepared at 696/697/687; unique remains 176/251; revision +1. Immutable archive verification and ledger credit are still pending.
 
+### #73 v5 VERIFIED — ledger credit pending
+
+- Archive `bd2ed6ee8f121dab1b130fba7f00fbee751e2fcd`, tree `82c0489b4b95261a315e065da980c5612949b47a`: non-truncated 3,120 entries, 15 required paths and seven exact image path/blob/size tuples passed. Manifests 696/697/687; ledger credit pending.
+
+

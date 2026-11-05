@@ -21823,7 +21823,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 2,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "RUF-MV-HLW5298-2026",
         "RUF-RIDDELL-2021-P221-228",
@@ -21868,9 +21868,13 @@
       "juvenile_review_size_bytes": 738505,
       "juvenile_review_sha256": "eb49d0baee630c90519552c6f69b858135c89622d96f16e2acb045582225cd1e",
       "reviewed_at": "2026-11-05T20:40:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, replaces broad uniform zebra-like adult bands with finer irregular broken pale bars, retains the documented male-longer/robust direction without a fixed ratio, and uses a branch-supported recent fledgling bounded to the directly observed event. Two juvenile-only edits softened adult-like wing and tail order. Exact age, iris, continuous feather chronology, universal ratios, subspecies transfer and hollow geometry remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, replaces broad uniform zebra-like adult bands with finer irregular broken pale bars, retains the documented male-longer/robust direction without a fixed ratio, and uses a branch-supported recent fledgling bounded to the directly observed event. Two juvenile-only edits softened adult-like wing and tail order. Exact age, iris, continuous feather chronology, universal ratios, subspecies transfer and hollow geometry remain unknown; science false.",
+      "verified_at": "2026-11-05T20:52:00+08:00",
+      "archive_commit": "bd2ed6ee8f121dab1b130fba7f00fbee751e2fcd",
+      "archive_tree": "82c0489b4b95261a315e065da980c5612949b47a",
+      "verification_result": "PASS: non-truncated 3,120-entry immutable tree; all 15 required paths present; seven image paths match exact Git blob SHA and byte size; manifests parse at 696/697/687"
     }
   ],
-  "updated_at": "2026-11-05T20:47:00+08:00"
+  "updated_at": "2026-11-05T20:52:00+08:00"
 }

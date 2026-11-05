@@ -3315,3 +3315,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Two juvenile-only edits softened the adult-like folded wing and tail. Full 1536×1024 plus adult and juvenile crops passed actual opened inspection. Manifests 696/697/687; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
 - Exact depicted age, iris, continuous feather chronology, universal sex ratio, subspecies transfer and hollow geometry remain unknown. Cycle 3 receives no credit before immutable readback.
 
+### #73 v5 VERIFIED — ledger credit pending
+
+- Archive `bd2ed6ee8f121dab1b130fba7f00fbee751e2fcd`, tree `82c0489b4b95261a315e065da980c5612949b47a`, passed a non-truncated 3,120-entry readback. All 15 required paths and seven exact image path/blob/size tuples passed; manifests parse at 696/697/687.
+- PASS_WITH_LIMITATIONS; unique remains 176/251; science false. Ledger credit is a separate step.
+
+

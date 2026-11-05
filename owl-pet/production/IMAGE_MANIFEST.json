@@ -20547,7 +20547,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BFOW-NPARKS-BIODIVERSITYSG-2026",
         "BFOW-BESG-NEST-2016",
@@ -20580,9 +20580,13 @@
       "juvenile_review_size_bytes": 994158,
       "juvenile_review_sha256": "4f5584e35e15c5c60369a56b00c98fbd2e618bb0d4a7c48b436948282468a509",
       "reviewed_at": "2026-11-05T11:34:00+08:00",
-      "readback_pending": true,
-      "archive_note": "The discovery-relative two-week phrase was removed as a hatch-age claim. V5 retains exact three-role labels, near-equal bare-legged adults and one down-only, fully supported early nestling of exact age unknown in a living bird-s-nest fern. No edit was required after full and crop review; science remains false."
+      "readback_pending": false,
+      "archive_note": "The discovery-relative two-week phrase was removed as a hatch-age claim. V5 retains exact three-role labels, near-equal bare-legged adults and one down-only, fully supported early nestling of exact age unknown in a living bird-s-nest fern. No edit was required after full and crop review; science remains false.",
+      "verified_at": "2026-11-05T12:38:00+08:00",
+      "archive_commit": "4c13c4d7c86cbf9811042462ec0f616d1c08da33",
+      "archive_tree": "cead158ef10ae7fe6ca62c34c07927eb83a45db8",
+      "verification_result": "Immutable archive readback matched five required binary path/blob tuples, three unique image blobs and exact byte sizes; all three manifests parsed at counts 684/685/675; source index, research, review, run and status records were present."
     }
   ],
-  "updated_at": "2026-11-05T12:35:00+08:00"
+  "updated_at": "2026-11-05T12:38:00+08:00"
 }

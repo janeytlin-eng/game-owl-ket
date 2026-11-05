@@ -1270,3 +1270,16 @@
 ### Reused and corrected evidence
 - Reused `GSO-ABSA-2019`, `GSO-NSWSC-2008`, `GSO-BILNEY-2012` and the repository extraction `WHSO-MIKKOLA-2013`; new1 / re-read3 / reused1 / corrected2. Measured mass is not fixed standing height; the v5 earlier cavity stage is separate from the adult-like fledgling stage. Uploaded Mikkola guide unavailable, so no fresh page claim. Unknowns remain exact chick age/sex, continuous feather chronology, locomotor competence, subspecies transfer and universal cavity geometry; science false.
 
+## 2026-11-05 — #69 *Tyto novaehollandiae* v5 — one-individual sequence and inferred-age gate
+
+### AMO-DEBUS-WOOD-2007-P49-52
+- **Title / authors / year:** “Growth of a Captive Nestling Masked Owl *Tyto novaehollandiae*” — S. J. S. Debus & C. Wood, 2007.
+- **URL / type / pages / accessed:** https://afo.birdlife.org.au/afo/index.php/afo/article/viewFile/610/596 ; primary captive developmental sequence, *Australian Field Ornithology* 24:49–53; pp.49–52 and Plates 11–12 read 2026-11-05.
+- **Species/stage/facts:** one female dark-morph nominate chick followed from mesoptile down to fledging. Upper Plate 11 was inferred around four weeks: downy with developing mask. Lower Plate 11 was inferred around five weeks: thick down, well-developed mask, no feathers visible through down. At inferred approximately eleven weeks the same fully grown fledgling was darker/heavier marked than its parents and retained traces of down on head, facial ruff and underparts.
+- **Limits/conflicts/credibility:** precise laying/hatching dates were absent; ages were inferred by comparison; one captive individual had unlimited food. Strong within-individual stage evidence, but not a wild population growth curve or universal morph/subspecies chronology.
+- **Design/check decision:** v5 uses only the earlier inferred approximately-four-week stage, with buff/ochre woolly down, developing mask, hidden wings/tail and no visible feather vanes; label retains “inferred.” V4 five-week and v3 fledgling traits are not transferred backward.
+- **Links:** `research/species/69-tyto-novaehollandiae-v5.md`; planned concept v5; run `production/runs/20261105T171900+0800-cycle-5.md`.
+
+### Reused and corrected evidence
+- Re-read `AMO-ABSA-2019-P1-2`; reused `AMO-AUSTRALIAN-MUSEUM-2024`, `VIC-RAPTORS-2023` and repository extraction `WHSO-MIKKOLA-2013`. New1 / re-read2 / reused3 / corrected3. Inferred age is not a known hatch age; natural hollow context is not the captive Plate 11 setting; female-larger morphometrics are not a fixed illustrated standing-height ratio. Uploaded Mikkola guide unavailable; no fresh page claim. Science false.
+

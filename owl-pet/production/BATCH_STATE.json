@@ -23875,8 +23875,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 5,
       "species_id": 69,
-      "heartbeat_at": "2026-11-05T17:19:00+08:00",
-      "expires_at": "2026-11-05T17:34:00+08:00"
+      "heartbeat_at": "2026-11-05T17:22:00+08:00",
+      "expires_at": "2026-11-05T17:37:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23886,12 +23886,12 @@
       "species": "Tyto novaehollandiae",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "started_at": "2026-11-05T17:19:00+08:00",
       "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
       "run_record": "owl-pet/production/runs/20261105T171900+0800-cycle-5.md"
     },
-    "current_stage": "STARTED",
+    "current_stage": "RESEARCH_READY",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24594,6 +24594,28 @@
           "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
           "prior_version": "owl-pet/design/concepts/69-tyto-novaehollandiae-v4.png",
           "lease_expires_at": "2026-11-05T17:34:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 5,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-05T17:22:00+08:00",
+        "run_id": "20261105T171900+0800-cycle-5",
+        "species_id": 69,
+        "credited": false,
+        "evidence": {
+          "source_ids": ["AMO-DEBUS-WOOD-2007-P49-52", "AMO-ABSA-2019-P1-2", "AMO-AUSTRALIAN-MUSEUM-2024", "VIC-RAPTORS-2023", "WHSO-MIKKOLA-2013"],
+          "new_sources": 1,
+          "reread_sources": 2,
+          "reused_sources": 3,
+          "corrected_boundaries": 3,
+          "species_card": "owl-pet/research/species/69-tyto-novaehollandiae-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "full_prompt_saved": true,
+          "material_change_from_v4": "separate the primary sequence's inferred approximately-four-week developing-mask stage from v4's five-week well-developed-mask chick and v3's fledgling; restore full-resolution concept",
+          "mikkola_upload_accessible": false,
+          "lease_expires_at": "2026-11-05T17:37:00+08:00"
         }
       }
     ]

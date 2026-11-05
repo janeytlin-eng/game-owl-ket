@@ -156,3 +156,7 @@
 ### #72 v5 VERIFIED — ledger credit pending
 
 - Archive commit `c9881377f8243e08aed6e592df29f0235b884d08`, tree `c71aa61a68211cb182dc3ee2b4f66a995ca0135f`, passed non-truncated 3,110-entry fixed-tree readback and exact six-binary SHA/size checks. Manifests 695/696/686; unique 176/251; science false.
+
+### #72 v5 LEDGER_CREDITED — batch 2/6
+
+- Verification commit `6d944f598adb165ca89f7ed6d28656c3714aa1b8`, tree `bf3917f25ce39cbe6237d8de4a2d42cf2f7599bd`, is credited once. Batch `20261105T183434+0800` is 2/6; `next_cycle=3`; lease released. Unique 176/251; revision +1; science false.

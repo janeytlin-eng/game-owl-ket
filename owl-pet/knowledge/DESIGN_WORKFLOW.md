@@ -886,3 +886,10 @@ If a caption says a chick was photographed “about two weeks after discovery”
 - **Evidence boundary:** Morepork secondaries carried white spots by day 25 and the day-39 fledgling retained dark down on breast, head and back. The evidence supports formed spotted wing feathers and residual down together, not a clean adult miniature.
 - **Applied:** #74 v5 uses sparse irregular secondary marks, down-softened covert edges, a short tail and low supported crouch. Near-equal adult scale is retained because external appearance did not reliably sex known pairs.
 - **Verified visually:** the recovered full-resolution source plus adult and juvenile crops were reopened and passed without image edit. This validates the prompt/check for #74 v5 only; it is not a universal fledgling timetable or sex-ratio rule.
+
+### 2026-11-06 #86 older-juvenile body/wing decoupling — applied and visually rechecked
+
+- **Problem:** #86 v4 initial output respected a large fluffy late nestling body but still produced two hard, long adult-like wing tips.
+- **Evidence:** Sawada’s 99-chick growth summary states that at about 30-day fledging body mass and tarsus are near adult while wing length remains in growth; the 770-individual RSD study does not justify a fixed female-taller composition.
+- **Modification:** center-only edit removed the two hard tips and replaced them with a compact rounded down-obscured wing; tail remained concealed and both feet stayed supported. Adult scale was held near equal with a subtly fuller female.
+- **Recheck/result:** full edited plate plus final juvenile and adult/support crops were opened; geometry and all invariants passed. This validates the prompt/review rule on #86 only; it does not prove an exact day-specific feather sequence or a universal rule for other species.

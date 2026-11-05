@@ -3156,3 +3156,10 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Immutable archive verification 2026-11-06T05:25:00+08:00: commit `f943e1c4777511275ce2a5bd262e55009a81a338`, tree `07788f5ae425d8f875ffc416436515a6fec3e6e3`; 15 required paths and six binary tuples passed. Manifests 708/707/698; ledger credit pending.
 
 - Ledger credit 2026-11-06T05:27:00+08:00: verification commit `2b9e5bde8a8f3673a6b5fe86a87f963f84efdead`, tree `2ddf39955fad3f6fe37720e54ac7f5bdff641781`; batch cumulative 2/6, next cycle 3, lease released. Science false.
+
+## #86 *Otus elegans interpositus* v4 — ARCHIVED, readback pending (2026-11-06T05:50:00+08:00)
+
+- Preserved v1–v3 and current numbering. Current/old mapping: *Otus elegans* = *Ephialtes elegans* Cassin, 1852.
+- Primary adult study shows RSD varies by trait and year; the plate keeps near-equal crown heights and only a subtly fuller female.
+- Growth evidence supports a near-adult body/tarsus near fledging while wings remain in growth. One center-only edit removed two hard adult-like juvenile wing tips; final compact rounded wing, hidden/short tail and cavity-lip support passed full/crop review.
+- `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`; exact age/sex, tract chronology, flight threshold, juvenile iris and quantified standing-height ratio remain unknown. Manifests 709/708/699; immutable readback pending.

@@ -1,3 +1,9 @@
+## 2026-11-06 #86 *Otus elegans interpositus* v4 ARCHIVED — readback pending
+
+- V4 preserves v1–v3 and uses five newly detailed/re-read sources plus two reused records. It retains a late nestling/pre-fledging stage with near-adult body/tarsus but visibly incomplete wing, not a mature small adult.
+- One center-only edit removed two long hard juvenile wing tips. Full 1536×1024 plate and two final crops were opened; title/count/labels, adult identity/near-equal scale, bare toes, cavity/cane habitat and all three supports passed.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; unique species remains 176/251; revision +1. Manifests expected 709/708/699. Immutable readback pending; no cycle credit yet.
+
 ## 2026-11-06 #80 *Otus sunia* v5 LEDGER_CREDITED — batch 4/6
 
 - Verification commit `6e10ae0a6cfe4a3a5dba690a036cb10da624fa01`, tree `5d103e817863d81de300093cce98fc2d70bc9885`, was read back after immutable archive verification. Cycle 4 is credited once; batch `20261105T233209+0800` is 4/6, next cycle 5, lease released.

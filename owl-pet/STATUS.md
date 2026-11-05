@@ -3282,3 +3282,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Bullock 2026’s complete field sequence replaces a generic recent fledgling with a directly dated Day-30 object-play juvenile: formed wing/tail proportions, downy collar/thighs, white tail tips and full branch support.
 - One imagegen edit softened crisp adult-like juvenile wing spots. Edited full frame and both crops passed; adults retain only a restrained overlapping male-larger direction.
 - Manifests 694/695/685; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false. Cycle 1 receives no credit before immutable readback.
+
+### #71 v5 VERIFIED — ledger credit pending
+
+- Archive commit `af281d79f90023fb789c550155364ab0df62f8b8`, tree `304f89695b4aef8659d2def40b64c1c240f3aa73`, passed a non-truncated 18-path readback and exact six-binary SHA/size checks. Manifests remain 694/695/685; unique 176/251; science false. Ledger credit is still separate.

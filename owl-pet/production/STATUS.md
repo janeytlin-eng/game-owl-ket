@@ -134,3 +134,8 @@
 
 - First render blob `cbd9b9cd4e47878885e518985e7b26c41db5b7ff` is preserved. Final concept/edit/reviewed blob `7b7f55ae351d197b0857a032e78b3de042bacb24`; adult crop `bcc47678ad2e1dde16ec55d02e13fb4fac589e1e`; juvenile crop `4dfe7a783bfc9e3607d07953f6b33fd9defc01f1`.
 - One juvenile-wing texture edit passed full/crop review. Manifests 694/695/685; unique 176/251; revision +1; science false. No cycle credit before fixed-commit readback.
+
+### #71 v5 VERIFIED — ledger credit pending
+
+- Archive commit `af281d79f90023fb789c550155364ab0df62f8b8`, tree `304f89695b4aef8659d2def40b64c1c240f3aa73`, passed non-truncated 18-path readback and exact six-binary SHA/size verification.
+- Manifests 694/695/685; unique 176/251; revision +1; science false. Ledger credit remains pending.

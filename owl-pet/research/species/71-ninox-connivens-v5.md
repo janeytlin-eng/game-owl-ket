@@ -60,3 +60,10 @@ Avoid: extra birds, ear tufts, heart-shaped facial discs, Powerful-Owl chevrons,
 - The edited full frame and adult/support plus juvenile crops were opened. Final result `PASS_WITH_LIMITATIONS`; edit count 1; science false.
 - Final concept/reviewed blob before remote upload: local Git blob `7b7f55ae351d197b0857a032e78b3de042bacb24`; adults crop `bcc47678ad2e1dde16ec55d02e13fb4fac589e1e`; juvenile crop `4dfe7a783bfc9e3607d07953f6b33fd9defc01f1`.
 - Remaining unknowns are unchanged. Archive and immutable readback are pending; no cycle credit.
+
+## Immutable archive verification — 2026-11-05T18:54:06+08:00
+
+- Archive commit `af281d79f90023fb789c550155364ab0df62f8b8`, tree `304f89695b4aef8659d2def40b64c1c240f3aa73`, was read back directly from GitHub.
+- The recursive tree was not truncated (3,101 entries); all 18 required image, research, review, run, knowledge, status, manifest and batch-state paths were present.
+- The six binary paths matched exact Git blob SHA and byte size: original generation, edited master, reviewed master, final concept, adult crop and juvenile crop.
+- Visual review remains `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`. Exact feather counts, juvenile sex/hatch age, subspecies transfer and population-wide timing remain unknown.

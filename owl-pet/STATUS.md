@@ -1,3 +1,7 @@
+### #66 v5 LEDGER_CREDITED — batch 2/6
+
+- Verification commit `6415ef6e203b4e6924fbf65142ef626bea8a7945`, tree `e5e13399f5405ee2e37b7fef0d8aa59fcc46d584`, was read back. Cycle 2 is credited once; batch `20261105T153530+0800` is 2/6, next cycle 3, lease released. Unique 176/251; revision +1; science false.
+
 ## 2026-11-05 #66 *Tyto capensis* v5 VERIFIED — ledger credit pending
 
 - Archive `90b45c082941345610dff9a49341da07e6ffeec5`, tree `1f03d4cc5de0dc784445be4b12224bdce4ba3a54`, returned 3,060 non-truncated entries and all 16 required path/blob/size tuples. Manifests parse at 689/690/680; unique 176/251; science false. Ledger credit pending.

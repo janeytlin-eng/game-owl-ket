@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-06T02:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22460,7 +22460,76 @@
       "archive_tree": "56db7aa21b529c1d64fa9b2d6948106e397fbcda",
       "verified_at": "2026-11-06T01:50:00+08:00",
       "verification_result": "PASS: immutable non-truncated 3,170-entry tree; all 16 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 703/702/693"
+    },
+    {
+      "id": "80-otus-sunia-v5",
+      "path": "design/concepts/80-otus-sunia-v5.png",
+      "species_id": 80,
+      "scientific_name": "Otus sunia",
+      "current_scientific_name": "Otus sunia",
+      "common_name": "Oriental Scops Owl",
+      "historical_names": [
+        "Scops sunia"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SUNIA-ASAHIYAMA-ZOO-2023",
+        "SUNIA-ZUKAN-165925-2023",
+        "SUNIA-NANET-NO-2017-TOC",
+        "SUNIA-ITIS-177882-2026",
+        "SUNIA-NO-2015",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/80-otus-sunia-v5.md",
+      "review_record": "research/reviews/80-otus-sunia-v5-review.md",
+      "run_record": "production/runs/20261106T015400+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3000797,
+      "sha256": "408c11dd464df0d6b85928eaa661d92a88400184c3fe030c32231e03a7b9109a",
+      "git_blob": "9ab38328481b63d70bfcc41da989d327c90ccabd",
+      "generated_path": "production/generated/80-otus-sunia-v5-generated-master.png",
+      "generated_blob": "3ff50005170424da5d590850343b5fcd57bcd212",
+      "generated_sha256": "ca7b0fd50a092394dec09022c7d974ae27b1b0695029c7c46830f3143b23d230",
+      "generated_size_bytes": 3118805,
+      "edit_path": "production/generated/80-otus-sunia-v5-edit1.png",
+      "edit_blob": "9ab38328481b63d70bfcc41da989d327c90ccabd",
+      "edit_paths": [
+        "production/generated/80-otus-sunia-v5-edit1.png"
+      ],
+      "edit_blobs": [
+        "9ab38328481b63d70bfcc41da989d327c90ccabd"
+      ],
+      "reviewed_path": "production/reviewed/80-otus-sunia-v5-reviewed-master.png",
+      "reviewed_blob": "9ab38328481b63d70bfcc41da989d327c90ccabd",
+      "adults_review_crop": "production/review-crops/80-otus-sunia-v5-adults-support.png",
+      "adults_review_blob": "00969cfadf695f2d95e93e27b334c6c3b1dee597",
+      "adults_review_size_bytes": 1955852,
+      "adults_review_sha256": "601adbf9f703f233a41ad2967605e255c85be4c3b2fe2078293c5d0a9f4732ec",
+      "juvenile_review_crop": "production/review-crops/80-otus-sunia-v5-juvenile.png",
+      "juvenile_review_blob": "cf5ce8180fe18d82adf56b8e3461e892043bf406",
+      "juvenile_review_size_bytes": 683885,
+      "juvenile_review_sha256": "02e81d46a2da1efa3455a19e3fdabbb39b8dcc47da53b5ef8bd205226003140f",
+      "reviewed_at": "2026-11-06T02:38:57+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4 and replaces the secondary-only exact 7-10-day pin-feather claim with a directly viewed, explicitly age-unknown recent brancher. One targeted edit removed repeated adult-like pale wing spots and shortened the tail while retaining compact formed wing, residual down, amber iris, small tufts and two-foot branch support. Adults remain near-equal because standing-height sex direction is unresolved. Exact age, sex, subspecies, iris transition, flight threshold and continuous feather sequence remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T01:50:00+08:00"
+  "updated_at": "2026-11-06T02:45:00+08:00"
 }

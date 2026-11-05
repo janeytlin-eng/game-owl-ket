@@ -38,3 +38,7 @@ Archive `63b708a05554a32343c32828c257388ac8d8b46a` preserves the exact correctio
 ## 2026-11-06 v5 research-ready boundary
 
 V4's exact 7–10-day pin geometry still relies on secondary indexed chronology. New official zoo evidence says roughly one-month fledglings can be adult-sized with juvenile plumage, while a directly viewed identified field photo constrains an age-unknown recent brancher: gray-brown fluffy/barred mesoptile, formed compact wing, short tail, amber-orange iris, small tufts and two-foot support. V5 switches stage rather than inventing pins. Current *Otus sunia* maps to *Scops sunia* Hodgson, 1836. Exact age/sex/subspecies/flight/iris chronology and sex-size ratio unknown; science false.
+
+## 2026-11-06 v5 review/archive
+
+The initial juvenile carried repeated adult-like pale wing spots and an over-long tail. One targeted edit softened the formed folded wing into diffuse down-fringed bars and shortened the tail while retaining amber irides, small tufts, gray-brown fluffy mesoptile and bilateral branch support. Full image and adult/support plus juvenile crops were reopened. `PASS_WITH_LIMITATIONS`; exact age, sex, subspecies, iris transition, flight threshold, continuous feather sequence and adult sex-size ratio remain unknown; science false.

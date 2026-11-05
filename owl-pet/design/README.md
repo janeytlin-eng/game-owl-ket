@@ -1,3 +1,9 @@
+## #80 Oriental Scops Owl — *Otus sunia* — v5 ARCHIVED
+
+- Concept: [80-otus-sunia-v5.png](concepts/80-otus-sunia-v5.png)
+- Research: [80-otus-sunia-v5.md](../research/species/80-otus-sunia-v5.md) · [review](../research/reviews/80-otus-sunia-v5-review.md) · [run](../production/runs/20261106T015400+0800-cycle-4.md)
+- V5 preserves v1–v4 and replaces the secondary-only exact 7–10-day pin-feather claim with a directly viewed, explicitly age-unknown recent brancher. One juvenile-only edit removed repeated adult-like pale wing spots and shortened the tail while retaining compact formed wing, residual down, amber iris, small tufts and bilateral branch support. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251. Immutable readback pending.
+
 ## #78 Marsh Owl — *Asio capensis* — v5 VERIFIED
 
 - Concept: [78-asio-capensis-v5.png](concepts/78-asio-capensis-v5.png)

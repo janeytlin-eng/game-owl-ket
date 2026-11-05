@@ -1,3 +1,9 @@
+## 2026-11-06 #80 *Otus sunia* v5 ARCHIVED — readback pending
+
+- V5 preserves v1–v4. New/restored detailed sources 4, reused 2, corrected design boundaries 3; current/original-name mapping `Otus sunia = Scops sunia Hodgson, 1836`.
+- One targeted juvenile-only edit removed repeated adult-like pale wing spots and shortened the tail. Full 1536×1024 image plus adult/support and juvenile crops were opened; `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`.
+- Exact juvenile age, sex, subspecies, iris-transition timing, flight threshold, continuous feather sequence and quantified adult sex-size ratio remain unknown. Manifests 704/703/694; unique remains 176/251; revision +1. Immutable readback pending; no cycle credit yet.
+
 ## 2026-11-06 #78 *Asio capensis* v5 LEDGER_CREDITED — batch 2/6
 
 - V5 preserves v1–v4. One new directly opened species photograph controls an `AGE-UNKNOWN OWLET`: down-rich body, dark face/eyes, concealed wing/tail and continuous ground/grass support; no day label or action claim.

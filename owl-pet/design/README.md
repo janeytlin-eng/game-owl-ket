@@ -3082,4 +3082,5 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/74-ninox-novaeseelandiae-v5.png) · [Research](../research/species/74-ninox-novaeseelandiae-v5.md) · [Review](../research/reviews/74-ninox-novaeseelandiae-v5-review.md) · [Run](../production/runs/20261105T210000+0800-cycle-4.md)
 - V5 preserves v2–v4 and replaces adult-perfect repeated juvenile wing rows with a formed but sparse, irregularly spotted wing under residual dark down. Adults stay near equal in scale because field appearance did not reliably sex known pairs. Full original and both crops passed without image edit. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.
+- Immutable archive verification: commit `1f8e6d6b096cd2762d109c7121139f1da945be9a`, tree `f27f31288660153cbd3d5871bc6cbc0eedb0e9ac`; 11 paths, five image byte/SHA-256 checks and manifests 697/698/688 passed. Ledger credit commit `56158a470ff153c2ad2da7024f1a8fbc9f347865`, tree `d46bd6a3a107239f7d2f0ec634a1afa00b95bce1`; batch 4/6, next cycle 5, lease released.
 

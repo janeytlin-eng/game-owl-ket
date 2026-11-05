@@ -182,5 +182,9 @@
 
 - Archive `1f8e6d6b096cd2762d109c7121139f1da945be9a`, tree `f27f31288660153cbd3d5871bc6cbc0eedb0e9ac`: 11 immutable paths fetched; five exact image byte/SHA-256 checks and three manifest parses passed at 697/698/688. Ledger credit pending; science false.
 
+### #74 v5 LEDGER_CREDITED — batch 4/6
+
+- Verification commit `56158a470ff153c2ad2da7024f1a8fbc9f347865`, tree `d46bd6a3a107239f7d2f0ec634a1afa00b95bce1`, credited exactly once. Batch next cycle is 5; lease released. Unique 176/251; revision +1; science false.
+
 
 

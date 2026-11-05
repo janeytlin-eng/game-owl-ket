@@ -23864,8 +23864,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 4,
       "species_id": 68,
-      "heartbeat_at": "2026-11-05T17:06:00+08:00",
-      "expires_at": "2026-11-05T17:21:00+08:00"
+      "heartbeat_at": "2026-11-05T17:08:00+08:00",
+      "expires_at": "2026-11-05T17:23:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23875,12 +23875,12 @@
       "species": "Tyto tenebricosa",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "RESEARCH_READY",
+      "current_stage": "IMAGE_GENERATED",
       "started_at": "2026-11-05T17:03:00+08:00",
       "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
       "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md"
     },
-    "current_stage": "RESEARCH_READY",
+    "current_stage": "IMAGE_GENERATED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24451,6 +24451,26 @@
           "material_change_from_v4": "use the directly documented approximately-six-week sooty-grey cavity stage with defined facial discs and emerging wing/tail feathers; remove fixed visible female-larger direction despite morphometric dimorphism",
           "mikkola_upload_accessible": false,
           "lease_expires_at": "2026-11-05T17:21:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 4,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-05T17:08:00+08:00",
+        "run_id": "20261105T170300+0800-cycle-4",
+        "species_id": 68,
+        "credited": false,
+        "evidence": {
+          "generated_path": "owl-pet/production/generated/68-tyto-tenebricosa-v5-generated-master.png",
+          "dimensions": "1536x1024",
+          "bytes": 3621537,
+          "sha256": "de2d8ff18da65a3c9c1066f381fba08fd3f16ed5d3f7deef44aed7e37c0a384c",
+          "generation_seconds": 70.8,
+          "edit_count": 0,
+          "inspection_issue": null,
+          "complete_prompt": "owl-pet/research/species/68-tyto-tenebricosa-v5.md",
+          "lease_expires_at": "2026-11-05T17:23:00+08:00"
         }
       }
     ]

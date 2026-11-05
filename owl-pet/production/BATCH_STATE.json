@@ -18340,14 +18340,14 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261106T015400+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T02:01:00+08:00",
-        "expires_at": "2026-11-06T02:16:00+08:00"
+        "heartbeat_at": "2026-11-06T02:30:00+08:00",
+        "expires_at": "2026-11-06T02:45:00+08:00"
       },
       "lease": {
         "owner": "codex-automation",
         "run_id": "20261106T015400+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T02:01:00+08:00",
-        "expires_at": "2026-11-06T02:16:00+08:00"
+        "heartbeat_at": "2026-11-06T02:30:00+08:00",
+        "expires_at": "2026-11-06T02:45:00+08:00"
       },
       "in_progress": {
         "batch_id": "20261105T233209+0800",
@@ -18985,6 +18985,20 @@
             "inspection_issue": "full image opened: exact text/count, adults and support pass; juvenile is supported with correct iris/body stage, but its wing has crisp repeated adult-like pale spots and the tail projects too long for the direct-photo boundary; targeted juvenile-only edit required",
             "lease_expires_at": "2026-11-06T02:16:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261105T233209+0800",
+          "cycle": 4,
+          "stage": "LEASE_RENEWED",
+          "at": "2026-11-06T02:30:00+08:00",
+          "run_id": "20261106T015400+0800-cycle-4",
+          "species_id": 80,
+          "credited": false,
+          "evidence": {
+            "reason": "expired lease reconciled against unchanged main head be8861580273063217752e6e0c625dd5f28e62d2; resume persisted IMAGE_GENERATED without regenerating",
+            "baseline_commit": "be8861580273063217752e6e0c625dd5f28e62d2",
+            "lease_expires_at": "2026-11-06T02:45:00+08:00"
+          }
         }
       ],
       "updated_at": "2026-11-06T02:01:00+08:00",
@@ -18995,9 +19009,9 @@
   ],
   "lease": {
     "owner": "codex-automation",
-    "run_id": "20261106T013300+0800-cycle-3",
-    "heartbeat_at": "2026-11-06T01:39:30+08:00",
-    "expires_at": "2026-11-06T01:54:30+08:00"
+    "run_id": "20261106T015400+0800-cycle-4",
+    "heartbeat_at": "2026-11-06T02:30:00+08:00",
+    "expires_at": "2026-11-06T02:45:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -19130,7 +19144,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-06T02:01:00+08:00",
+  "updated_at": "2026-11-06T02:30:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -19141,11 +19155,11 @@
   ],
   "active_lease": {
     "owner": "codex-automation",
-    "run_id": "20261106T013300+0800-cycle-3",
-    "heartbeat_at": "2026-11-06T01:39:30+08:00",
-    "expires_at": "2026-11-06T01:54:30+08:00"
+    "run_id": "20261106T015400+0800-cycle-4",
+    "heartbeat_at": "2026-11-06T02:30:00+08:00",
+    "expires_at": "2026-11-06T02:45:00+08:00"
   },
-  "last_updated_at": "2026-11-06T01:39:30+08:00",
+  "last_updated_at": "2026-11-06T02:30:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -19908,16 +19922,16 @@
   ],
   "in_progress": {
     "batch_id": "20261105T233209+0800",
-    "cycle": 3,
-    "run_id": "20261106T013300+0800-cycle-3",
-    "species_id": 79,
-    "species": "Otus lettia",
+    "cycle": 4,
+    "run_id": "20261106T015400+0800-cycle-4",
+    "species_id": 80,
+    "species": "Otus sunia",
     "action": "SCIENCE_REVISION",
     "version": 5,
     "current_stage": "IMAGE_GENERATED",
-    "started_at": "2026-11-06T01:33:00+08:00",
-    "baseline_commit": "46970b9a68eb36f89532486f42bb5d9d5bb9a926",
-    "run_record": "owl-pet/production/runs/20261106T013300+0800-cycle-3.md"
+    "started_at": "2026-11-06T01:54:00+08:00",
+    "baseline_commit": "643c303c7abae633bf59ecaad2610c4b3f3e78ec",
+    "run_record": "owl-pet/production/runs/20261106T015400+0800-cycle-4.md"
   },
   "previous_checkpoint": {
     "batch_id": "20261105T233209+0800",
@@ -21216,7 +21230,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-06T01:39:30+08:00",
+  "last_updated": "2026-11-06T02:30:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -23723,9 +23737,9 @@
     }
   ],
   "active_batch_id": "20261105T233209+0800",
-  "active_cycle": 3,
+  "active_cycle": 4,
   "current_stage": "IMAGE_GENERATED",
-  "next_cycle": 3,
+  "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -26574,34 +26588,48 @@
         "verification_tree": "f366905ad6b6b1f4c54897d50e8e5b4c8872e35d",
         "completed_at": "2026-11-06T00:54:20+08:00",
         "scientifically_verified": false
+      },
+      {
+        "cycle": 3,
+        "species": "Otus lettia",
+        "species_id": 79,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "c772a1f1c0b2af6a25a72b0bdc76c7b5904ebcc1",
+        "run_record": "owl-pet/production/runs/20261106T013300+0800-cycle-3.md",
+        "archive_commit": "074c4f3acd3ee5e1a578e2e6b45d022199bc1a17",
+        "verification_tree": "7af6b34a8896faf9f57432ef27fdd37559336093",
+        "completed_at": "2026-11-06T01:52:00+08:00",
+        "scientifically_verified": false
       }
     ],
-    "next_cycle": 3,
-    "active_cycle": 3,
+    "next_cycle": 4,
+    "active_cycle": 4,
     "active_lease": {
       "owner": "codex-automation",
-      "run_id": "20261106T013300+0800-cycle-3",
-      "heartbeat_at": "2026-11-06T01:39:30+08:00",
-      "expires_at": "2026-11-06T01:54:30+08:00"
+      "run_id": "20261106T015400+0800-cycle-4",
+      "heartbeat_at": "2026-11-06T02:30:00+08:00",
+      "expires_at": "2026-11-06T02:45:00+08:00"
     },
     "lease": {
       "owner": "codex-automation",
-      "run_id": "20261106T013300+0800-cycle-3",
-      "heartbeat_at": "2026-11-06T01:39:30+08:00",
-      "expires_at": "2026-11-06T01:54:30+08:00"
+      "run_id": "20261106T015400+0800-cycle-4",
+      "heartbeat_at": "2026-11-06T02:30:00+08:00",
+      "expires_at": "2026-11-06T02:45:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T233209+0800",
-      "cycle": 3,
-      "run_id": "20261106T013300+0800-cycle-3",
-      "species_id": 79,
-      "species": "Otus lettia",
+      "cycle": 4,
+      "run_id": "20261106T015400+0800-cycle-4",
+      "species_id": 80,
+      "species": "Otus sunia",
       "action": "SCIENCE_REVISION",
       "version": 5,
       "current_stage": "IMAGE_GENERATED",
-      "started_at": "2026-11-06T01:33:00+08:00",
-      "baseline_commit": "46970b9a68eb36f89532486f42bb5d9d5bb9a926",
-      "run_record": "owl-pet/production/runs/20261106T013300+0800-cycle-3.md"
+      "started_at": "2026-11-06T01:54:00+08:00",
+      "baseline_commit": "643c303c7abae633bf59ecaad2610c4b3f3e78ec",
+      "run_record": "owl-pet/production/runs/20261106T015400+0800-cycle-4.md"
     },
     "current_stage": "IMAGE_GENERATED",
     "events": [
@@ -27036,12 +27064,216 @@
           "inspection_issue": "full image opened: text/count/adult identity/support pass, but juvenile folded wings carry long crisp adult-like primary rows and repeated pale spots; targeted juvenile-only edit required",
           "lease_expires_at": "2026-11-06T01:54:30+08:00"
         }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 3,
+        "stage": "REVIEWED",
+        "at": "2026-11-06T01:44:00+08:00",
+        "run_id": "20261106T013300+0800-cycle-3",
+        "species_id": 79,
+        "credited": false,
+        "evidence": {
+          "version": 5,
+          "result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 1,
+          "review_file": "owl-pet/research/reviews/79-otus-lettia-v5-review.md",
+          "reviewed_path": "owl-pet/production/reviewed/79-otus-lettia-v5-reviewed-master.png",
+          "concept_path": "owl-pet/design/concepts/79-otus-lettia-v5.png",
+          "adults_crop": "owl-pet/production/review-crops/79-otus-lettia-v5-adults-support.png",
+          "juvenile_crop": "owl-pet/production/review-crops/79-otus-lettia-v5-juvenile.png",
+          "reviewed_sha256": "a733aac0ab0f74909ff4c04b3552219d1b81390437ef3c47e38b8f7bb51eb851",
+          "reviewed_blob_local": "4c17b095d182efb6d3714b12bd4ca634239320d3",
+          "adults_crop_blob_local": "a0b8f7c5f15f436789c2fc6bc16e937ba10c6473",
+          "juvenile_crop_blob_local": "387e835eb6aac083ff6b27e16a21d57b82fd15a5",
+          "inspection": "initial full master opened; one juvenile-wing edit; edited full master, juvenile/support crop and adults/support crop opened separately; pass with limitations",
+          "unresolved": [
+            "exact juvenile age/sex/subspecies",
+            "iris-transition timing",
+            "flight ability",
+            "continuous feather geometry",
+            "species-wide adult sex-size direction"
+          ],
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-06T01:59:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 3,
+        "stage": "ARCHIVED",
+        "at": "2026-11-06T01:47:00+08:00",
+        "run_id": "20261106T013300+0800-cycle-3",
+        "species_id": 79,
+        "credited": false,
+        "evidence": {
+          "version": 5,
+          "concept": "owl-pet/design/concepts/79-otus-lettia-v5.png",
+          "concept_blob": "4c17b095d182efb6d3714b12bd4ca634239320d3",
+          "generated_blob": "eaba0e626b37702ef3511a04e486275ee4c33bb0",
+          "edit_blob": "4c17b095d182efb6d3714b12bd4ca634239320d3",
+          "reviewed_blob": "4c17b095d182efb6d3714b12bd4ca634239320d3",
+          "adults_crop_blob": "a0b8f7c5f15f436789c2fc6bc16e937ba10c6473",
+          "juvenile_crop_blob": "387e835eb6aac083ff6b27e16a21d57b82fd15a5",
+          "manifests": {
+            "legacy": 703,
+            "design": 702,
+            "production": 693
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "readback_pending": true,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-06T02:02:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 3,
+        "stage": "VERIFIED",
+        "at": "2026-11-06T01:50:00+08:00",
+        "run_id": "20261106T013300+0800-cycle-3",
+        "species_id": 79,
+        "credited": false,
+        "evidence": {
+          "archive_commit": "074c4f3acd3ee5e1a578e2e6b45d022199bc1a17",
+          "archive_tree": "56db7aa21b529c1d64fa9b2d6948106e397fbcda",
+          "tree_count": 3170,
+          "truncated": false,
+          "paths_checked": 16,
+          "binary_paths_verified": 6,
+          "unique_binary_blobs": 4,
+          "binary_tuples": {
+            "initial": {
+              "blob": "eaba0e626b37702ef3511a04e486275ee4c33bb0",
+              "size": 2986244
+            },
+            "final": {
+              "blob": "4c17b095d182efb6d3714b12bd4ca634239320d3",
+              "size": 2857684
+            },
+            "adult_crop": {
+              "blob": "a0b8f7c5f15f436789c2fc6bc16e937ba10c6473",
+              "size": 2291575
+            },
+            "juvenile_crop": {
+              "blob": "387e835eb6aac083ff6b27e16a21d57b82fd15a5",
+              "size": 715498
+            }
+          },
+          "manifest_counts": {
+            "legacy": 703,
+            "design": 702,
+            "production": 693
+          },
+          "local_blob_hashes_match": true,
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-06T02:05:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 3,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-06T01:52:00+08:00",
+        "run_id": "20261106T013300+0800-cycle-3",
+        "species_id": 79,
+        "credited": true,
+        "evidence": {
+          "commit_sha": "c772a1f1c0b2af6a25a72b0bdc76c7b5904ebcc1",
+          "verification_tree": "7af6b34a8896faf9f57432ef27fdd37559336093",
+          "archive_commit": "074c4f3acd3ee5e1a578e2e6b45d022199bc1a17",
+          "batch_progress": "3/6",
+          "next_cycle": 4,
+          "batch_status": "PARTIAL",
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "lease_released": true
+        }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 4,
+        "stage": "STARTED",
+        "at": "2026-11-06T01:54:00+08:00",
+        "run_id": "20261106T015400+0800-cycle-4",
+        "species_id": 80,
+        "credited": false,
+        "evidence": {
+          "selection": "science revision of #80 Otus sunia v4; preserve v1-v4, re-open the secondary-only exact 7-10-day wing geometry and switch to a directly evidenced stage if the primary/image gap cannot be closed",
+          "baseline_commit": "643c303c7abae633bf59ecaad2610c4b3f3e78ec",
+          "run_record": "owl-pet/production/runs/20261106T015400+0800-cycle-4.md",
+          "prior_version": "owl-pet/design/concepts/80-otus-sunia-v4.jpg",
+          "lease_expires_at": "2026-11-06T02:09:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 4,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-06T01:59:00+08:00",
+        "run_id": "20261106T015400+0800-cycle-4",
+        "species_id": 80,
+        "credited": false,
+        "evidence": {
+          "research_file": "owl-pet/research/species/80-otus-sunia-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_sources": 4,
+          "reread_sources": 4,
+          "reused_sources": 2,
+          "corrected_boundaries": 3,
+          "selected_stage": "directly viewed age-unknown recent brancher with gray-brown fluffy/barred mesoptile, compact formed wing, short tail, amber-orange iris, small tufts and two-foot slender-branch support; no exact age or flight claim",
+          "current_old_name_mapping": "Otus sunia = Scops sunia Hodgson, 1836",
+          "mikkola_upload_accessible": false,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-06T02:14:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 4,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-06T02:01:00+08:00",
+        "run_id": "20261106T015400+0800-cycle-4",
+        "species_id": 80,
+        "credited": false,
+        "evidence": {
+          "generated_master": "owl-pet/production/generated/80-otus-sunia-v5-generated-master.png",
+          "width": 1536,
+          "height": 1024,
+          "format": "PNG",
+          "bytes": 3118805,
+          "sha256": "ca7b0fd50a092394dec09022c7d974ae27b1b0695029c7c46830f3143b23d230",
+          "generation_seconds": 55.1,
+          "edit_count": 0,
+          "imagegen_prompt": "owl-pet/research/species/80-otus-sunia-v5.md#full-imagegen-prompt",
+          "inspection_issue": "full image opened: exact text/count, adults and support pass; juvenile is supported with correct iris/body stage, but its wing has crisp repeated adult-like pale spots and the tail projects too long for the direct-photo boundary; targeted juvenile-only edit required",
+          "lease_expires_at": "2026-11-06T02:16:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 4,
+        "stage": "LEASE_RENEWED",
+        "at": "2026-11-06T02:30:00+08:00",
+        "run_id": "20261106T015400+0800-cycle-4",
+        "species_id": 80,
+        "credited": false,
+        "evidence": {
+          "reason": "expired lease reconciled against unchanged main head be8861580273063217752e6e0c625dd5f28e62d2; resume persisted IMAGE_GENERATED without regenerating",
+          "baseline_commit": "be8861580273063217752e6e0c625dd5f28e62d2",
+          "lease_expires_at": "2026-11-06T02:45:00+08:00"
+        }
       }
     ],
-    "updated_at": "2026-11-06T01:39:30+08:00",
+    "updated_at": "2026-11-06T02:01:00+08:00",
     "ledger_credit_pending": false,
-    "last_updated_at": "2026-11-06T01:39:30+08:00",
-    "last_updated": "2026-11-06T01:39:30+08:00"
+    "last_updated_at": "2026-11-06T02:01:00+08:00",
+    "last_updated": "2026-11-06T02:01:00+08:00"
   },
   "events": [
     {
@@ -28099,6 +28331,20 @@
         "imagegen_prompt": "owl-pet/research/species/79-otus-lettia-v5.md#full-imagegen-prompt",
         "inspection_issue": "full image opened: text/count/adult identity/support pass, but juvenile folded wings carry long crisp adult-like primary rows and repeated pale spots; targeted juvenile-only edit required",
         "lease_expires_at": "2026-11-06T01:54:30+08:00"
+      }
+    },
+    {
+      "batch_id": "20261105T233209+0800",
+      "cycle": 4,
+      "stage": "LEASE_RENEWED",
+      "at": "2026-11-06T02:30:00+08:00",
+      "run_id": "20261106T015400+0800-cycle-4",
+      "species_id": 80,
+      "credited": false,
+      "evidence": {
+        "reason": "expired lease reconciled against unchanged main head be8861580273063217752e6e0c625dd5f28e62d2; resume persisted IMAGE_GENERATED without regenerating",
+        "baseline_commit": "be8861580273063217752e6e0c625dd5f28e62d2",
+        "lease_expires_at": "2026-11-06T02:45:00+08:00"
       }
     }
   ],

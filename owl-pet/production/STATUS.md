@@ -115,6 +115,8 @@
 
 ## #70 *Ninox strenua* v5 ARCHIVED — readback pending
 
-- Full-resolution concept/generated/reviewed master blob `f36e1fc21f03d457a47a91faee63ce3056b65bea`; adult crop `12ff38961f13e7477247187a89ebf7abd1f4602d`; fledgling crop `db12606c6a27115f5c36f1e81fe74eda757ac9a4`.
+- Full-resolution concept/generated/reviewed master blob `f14680b667ec10359e4f1f018cc31b8d29812648`; adult crop `d51d672e9ffc17e071723c1e72d5461a181b225d`; fledgling crop `afb2da84f9d6701fc170526cc11d378b0fabf115`.
 - Near-equal adult scale, subtle male-broader/female-mask-edge cues and a fully supported recent fledgling passed full/crop review without edit. PASS_WITH_LIMITATIONS; science false.
 - Manifests 693/694/684; unique 176/251; cycle 6 remains uncredited until fixed-commit readback.
+
+- #70 archive repair: `ad9acbecf9cfbcef6b5539fb38db547d802347e4` failed fixed-tree byte-size checks because connector input was truncated; full-size chunk-safe blobs replaced all five image paths. Repair readback pending.

@@ -856,3 +856,11 @@ A version absent from the primary manifest can still exist in a legacy manifest.
 - **Evidence:** Srinivasan 2013 pp.106–107 supports developed barred primaries, secondaries and tail together with a bird that escaped but did not fly far and remained parent-dependent; it does not provide an exact age or sustained-flight test.
 - **Applied:** one juvenile-only edit retained the developed barring, softened adult-perfect feather edges and lowered the ventral body mass into a broad two-foot branch fork.
 - **Verified visually:** final full master and juvenile crop were reopened; support and folded-wing boundaries passed with limitations. This validates the visual check for #57 v5 only, not a universal feather/flight timetable.
+
+
+### 2026-11-05 — Audit feather silhouette separately from branch-moving ability (#58 v5)
+
+- **Problem found:** a field-estimated older juvenile can be correctly down-covered and supported while its folded wing rows and tail still read as an adult-perfect miniature.
+- **Evidence:** Reddy & Ramachandran 2023, printed pp.44–47, observed an estimated 8–10-week *Ketupa coromanda* attempting to move among neighbouring branches. That supports the action and support boundary, not a measured feather sequence or sustained flight.
+- **Rule added:** for an older branch-moving juvenile, preserve formed remiges when appropriate but separately audit wing/tail silhouette length, row regularity, down overlap and bilateral natural support. Do not convert branch movement into sustained-flight competence.
+- **Applied and checked:** #58 v5 received one juvenile-only edit to shorten and soften the wing/tail silhouette, add down overlap and lower the body into a broad two-foot fork. Full image and juvenile crop were reopened and passed with limitations. This validates the correction for this asset only, not a universal eagle-owl timetable.

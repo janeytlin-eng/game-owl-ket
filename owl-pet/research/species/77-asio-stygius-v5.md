@@ -53,3 +53,9 @@ Constraints: exact number/title/order; exactly three owls; coherent feet and con
 
 - Verify exact three birds/text/order; adult identity; comparable adult crown height; juvenile yellow iris, black disc, small tufts, residual down, formed-but-nonadult wings/tail; both feet gripping a branch; wing gesture reads as supported intimidation rather than flight.
 - Unknown: exact age, juvenile sex, exact feather geometry and branch-to-flight threshold; cross-population transfer; adult linear sex-size ratio; bill/iris chronology. These prevent scientific approval.
+
+## Production result
+
+- Initial generation passed identity/action/support but its extended juvenile wing was too long and perfectly graduated. One targeted edit shortened and softened only that wing; final full image and two crops passed with limitations.
+- Concept/reviewed master: 1536×1024 PNG, 2,840,596 bytes; SHA-256 `310a22ffa328c88539a874fe27a2a533433c0568e1ec3efadd28cb2a98e51fdd`; Git blob `d61c329a97937b85020f93ce1e099c807eaa62db`.
+- Initial generated master remains preserved separately; edit count 1; unique coverage unchanged at 176/251; revision +1; immutable archive readback pending; science false.

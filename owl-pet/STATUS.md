@@ -1,3 +1,8 @@
+## 2026-11-05 #77 *Asio stygius* v5 archive pending verification
+
+- New batch `20261105T233209+0800`, cycle 1/6; one science revision, unique +0, revision +1; unique coverage remains 176/251.
+- Research, generation, one targeted juvenile-wing edit and full/crop review complete. Fixed-tree archive/readback is pending; do not count the cycle until `VERIFIED`.
+
 ### #66 v5 LEDGER_CREDITED — batch 2/6
 
 - Verification commit `6415ef6e203b4e6924fbf65142ef626bea8a7945`, tree `e5e13399f5405ee2e37b7fef0d8aa59fcc46d584`, was read back. Cycle 2 is credited once; batch `20261105T153530+0800` is 2/6, next cycle 3, lease released. Unique 176/251; revision +1; science false.

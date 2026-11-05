@@ -1,3 +1,9 @@
+## #77 Stygian Owl — *Asio stygius* — v5 ARCHIVED, readback pending
+
+- Concept: [77-asio-stygius-v5.png](concepts/77-asio-stygius-v5.png)
+- Research: [77-asio-stygius-v5.md](../research/species/77-asio-stygius-v5.md) · [review](../research/reviews/77-asio-stygius-v5-review.md) · [run](../production/runs/20261105T233209+0800-cycle-1.md)
+- V5 preserves v1–v4, switches from the dated non-flying ground stage to a separately evidenced older Nayón branch-active juvenile, and applies one wing-only correction. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
+
 ## #66 African Grass Owl — *Tyto capensis* — v5 science revision
 
 - Concept: [66-tyto-capensis-v5.png](concepts/66-tyto-capensis-v5.png)

@@ -1,5 +1,11 @@
 # Owl-pet production status
 
+## 20261105T233209+0800 cycle 1 — #77 *Asio stygius* v5
+
+- Stage: ARCHIVED preparation; immutable readback pending.
+- Result: `PASS_WITH_LIMITATIONS`; edit count 1; science false; unique 176/251; revision +1.
+- Recovery: if interrupted, verify the archive commit/tree and exact six image tuples before ledger credit; do not regenerate v5 unless those files are absent.
+
 ## 2026-11-05 #75 *Ninox scutulata* v5 ARCHIVED — readback pending
 
 - Concept/generated/reviewed master blob `b353c40b812f05ce744e44cdb2c71c3c885e83d9`; adult/group crop `9cbddf16d1b8039f83b3be07da3a4c1cf3fc3b3a`; juvenile/support crop `c702d1ba53b5962c34c2713facb0a0b8f9de77a7`.

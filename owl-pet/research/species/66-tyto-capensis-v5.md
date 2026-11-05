@@ -39,3 +39,7 @@ Environment: tall rank wetland grass and sedges with mature *Imperata cylindrica
 - Recent fledgling is darker, lacks adult dorsal white tips, has compact folded wings and no unsupported flight ability.
 - Habitat is concealed mature wetland grass without a fabricated cave mouth.
 - Repeated-error rule applied: do not convert mean mass into standing height, and do not use a colour that occurs in adults as a sole age key. This rule is not verified for v5 until the full master and crops are opened.
+
+## Visual review — 2026-11-05T16:37:30+08:00
+
+The 1536×1024 master, 1536×760 adult/feet crop and 720×720 fledgling crop were opened. Exactly three owls, near-equal adult crown height, modest female fullness, adult-female buff individual variation, grounded unspotted fledgling, all supports and concealed wetland runway pass. No edit required. PASS_WITH_LIMITATIONS; science false.

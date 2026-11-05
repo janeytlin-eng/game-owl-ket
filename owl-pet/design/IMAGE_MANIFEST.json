@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T06:45:00+08:00",
+  "updated": "2026-11-06T06:55:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22896,7 +22896,77 @@
       "archive_tree": "5dfb2902187eec9fe469c4c72732ea4d455560a1",
       "verified_at": "2026-11-06T06:45:00+08:00",
       "verification_result": "PASS: immutable archive commit returned all eight required paths; five binary paths match exact Git blobs and byte sizes; research/review/run text paths are present. Manifest parse/readback recorded in subsequent verification."
+    },
+    {
+      "id": "89-bubo-bengalensis-v5",
+      "path": "design/concepts/89-bubo-bengalensis-v5.png",
+      "species_id": 89,
+      "scientific_name": "Bubo bengalensis",
+      "current_scientific_name": "Bubo bengalensis",
+      "common_name": "Indian Eagle-Owl",
+      "historical_names": [
+        "Bubo bubo bengalensis",
+        "Otus bengalensis"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 2,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "BEN-RAMANUJAM-MURUGAVEL-2009-P519-524",
+        "BEN-PANDE-DAHANUKAR-2011-P1677-1685",
+        "BEN-ITIS-555405-2026",
+        "BEN-MIKKOLA-2013-P274-275"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/89-bubo-bengalensis-v5.md",
+      "review_record": "research/reviews/89-bubo-bengalensis-v5-review.md",
+      "run_record": "production/runs/20261106T062800+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3033109,
+      "sha256": "e395336ebb3d53b0b8a966dbdb321b929828a6fb4763bfc4b07a87ed9019c3b0",
+      "git_blob": "7369e3ff3b90f000a07b464e952f2eea5ae56989",
+      "generated_path": "production/generated/89-bubo-bengalensis-v5-generated-master.png",
+      "generated_blob": "152c384d97480466e946df3293bac04a44e284f9",
+      "generated_sha256": "cc2451480874f7997bc1c39133de54fd0dd5fef3bad5322b4834c2e7f1940b03",
+      "generated_size_bytes": 3291153,
+      "edit_path": "production/generated/89-bubo-bengalensis-v5-edit2.png",
+      "edit_blob": "7369e3ff3b90f000a07b464e952f2eea5ae56989",
+      "edit_paths": [
+        "production/generated/89-bubo-bengalensis-v5-edit1-rejected.png",
+        "production/generated/89-bubo-bengalensis-v5-edit2.png"
+      ],
+      "edit_blobs": [
+        "7d89ece68f29622b829bdfa0ed885098b924d0eb",
+        "7369e3ff3b90f000a07b464e952f2eea5ae56989"
+      ],
+      "reviewed_path": "production/reviewed/89-bubo-bengalensis-v5-reviewed-master.png",
+      "reviewed_blob": "7369e3ff3b90f000a07b464e952f2eea5ae56989",
+      "adults_review_crop": "production/review-crops/89-bubo-bengalensis-v5-adults-support.png",
+      "adults_review_blob": "ad90ebadfc98d12525cbe33599c26fd73502fc30",
+      "adults_review_size_bytes": 2046614,
+      "adults_review_sha256": "6c8af995d1555c0d3ceed98283fc4e24328ceafd6c949b34f7f1b38dadabb54f",
+      "juvenile_review_crop": "production/review-crops/89-bubo-bengalensis-v5-juvenile.png",
+      "juvenile_review_blob": "df7006851d75cf8b3373101fc28febfa72b975b2",
+      "juvenile_review_size_bytes": 686568,
+      "juvenile_review_sha256": "500dde16b4d6016b6bf7615a1935e472ace36c6d994bbdfeb4068adf6947d02d",
+      "reviewed_at": "2026-11-06T06:50:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4. Generated plate was inspected; edit1 was rejected after deleting the title and changing canvas, then edit2 from the original passed full/crop reinspection. Adult scale is near-equal; c.35-day juvenile is rock-supported with softened developing wing. Juvenile sex, individual flight competence, exact height ratio, regional fine plumage and scientific sign-off remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T06:45:00+08:00"
+  "updated_at": "2026-11-06T06:55:00+08:00"
 }

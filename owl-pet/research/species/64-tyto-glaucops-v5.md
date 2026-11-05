@@ -48,3 +48,7 @@ Composition and exclusions: exactly three owls, spacious readable triangular gro
 
 Full render, adults crop and juvenile crop reopened. PASS_WITH_LIMITATIONS, zero edits. Adult identity, restrained sex scale, exact count/text, bilateral support, juvenile stage boundary and pine context pass. Scientific status remains false because the juvenile source is a user-submitted caption without known age/sex/subspecies or locomotor history. Review: `owl-pet/research/reviews/64-tyto-glaucops-v5-review.md`.
 
+## ARCHIVED — 2026-11-05T14:45:00+08:00
+
+Concept, generated/reviewed full-resolution masters, two opened review crops, research/review/run records and all three manifests prepared on main. Manifest counts 687/688/678; unique remains 176/251; science false. Immutable archive readback pending.
+

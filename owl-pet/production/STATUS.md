@@ -23,3 +23,9 @@
 - Archive `c06d60fc0a60e1d690d766dfb5ff898ceceda59a`, tree `4fe0015ae0e78624c85dade070736202e0ef9358`; thirteen paths, five binary path/blob tuples, three unique image blobs and exact byte sizes passed.
 - Manifests parse at 686 / 687 / 677; PASS_WITH_LIMITATIONS; unique remains 176/251; science false. Ledger credit pending.
 - Verification commit `af1d96998cb82a564760544ef4c6fa460f9bae96` recorded once; batch `20261105T103554+0800` is 5/6, next cycle 6, lease released.
+
+## 2026-11-05 #64 *Tyto glaucops* v5 ARCHIVED — readback pending
+
+- Full-resolution concept/generated/reviewed master blob `cf928a8547192d6a72318f5e46fc120d6843f508`; first render passed opened full and crop review without edit.
+- The selected older juvenile uses a directly viewed pine-perch field-photo boundary, while v4's Palmchat-nest young remains a separate historical version. Unknown age/sex/subspecies/flight and caption-level identification keep science false.
+- Manifest counts 687 / 688 / 678; unique remains 176/251. Cycle 6 is not credited before immutable readback.

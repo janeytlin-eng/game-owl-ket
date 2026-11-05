@@ -3174,3 +3174,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Archive `c06d60fc0a60e1d690d766dfb5ff898ceceda59a`, tree `4fe0015ae0e78624c85dade070736202e0ef9358`; exact concept/generated/reviewed and crop blobs/sizes plus JSON/manifests read back.
 - PASS_WITH_LIMITATIONS; unique 176/251; science false; ledger credit pending.
 - Verification commit `af1d96998cb82a564760544ef4c6fa460f9bae96` recorded once; current batch is 5/6, next cycle 6, lease released.
+
+## 2026-11-05 #64 *Tyto glaucops* v5 ARCHIVED — readback pending
+
+- V1–v4 remain preserved. The opened 2008 identified field photograph supports a materially different, age-unknown older juvenile on a Sierra de Bahoruco pine perch, separated from v4's Palmchat-nest begging-young event.
+- First render passed full-frame and adult/juvenile crop review without edit: exactly three owls, restrained adult sex scale, dark-eyed ash faces and all six supported feet. Exact juvenile age/sex/subspecies, feather chronology, locomotor capacity and habitat generality remain unknown.
+- Manifests 687 / 688 / 678; unique 176/251; science false; no cycle credit before immutable readback.

@@ -3020,3 +3020,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - [Concept](concepts/63-scotopelia-peli-v5.png) · [Research](../research/species/63-scotopelia-peli-v5.md) · [Review](../research/reviews/63-scotopelia-peli-v5-review.md) · [Run](../production/runs/20261105T133651+0800-cycle-5.md)
 - Full-resolution v5 preserves v1–v4 and duplicate-name #156. SANParks PDF p.6 supports an adult with a large downy chick along the Luvuvhu; the image keeps exact age/action unknown, uses full fork support, near-equal adults and no mature juvenile wing rows. First render passed full/crop review without edit. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.
 - Immutable archive `c06d60fc0a60e1d690d766dfb5ff898ceceda59a` / tree `4fe0015ae0e78624c85dade070736202e0ef9358` returned the exact concept/generated/reviewed and two crop blobs/sizes; manifests 686 / 687 / 677. Science remains pending.
+
+## #64 Ashy-faced Owl — *Tyto glaucops* — v5
+
+- [Concept](concepts/64-tyto-glaucops-v5.png) · [Research](../research/species/64-tyto-glaucops-v5.md) · [Review](../research/reviews/64-tyto-glaucops-v5-review.md) · [Run](../production/runs/20261105T135847+0800-cycle-6.md)
+- V5 preserves v1–v4 and separates a captioned older juvenile photographed on a high-elevation Sierra de Bahoruco pine perch from v4's Palmchat-nest begging-young event. Full-resolution first render passed actual full/crop inspection without edit. Exact age/sex/subspecies, locomotor threshold and habitat generality remain unknown. PASS_WITH_LIMITATIONS; science false; immutable readback pending.

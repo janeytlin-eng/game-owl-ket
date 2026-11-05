@@ -45,3 +45,4 @@ Environment: humid lowland/gallery forest with a dead tree cavity, moss, vines a
 - Opened full frame and adult/juvenile crops. All three birds and their supports are present. Adult identity and overlapping-scale direction pass. The cavity juvenile is white/dark-faced, fully supported and raising one transversely barred formed wing without takeoff.
 - The mature-looking wing was not edited into generic white buds because Wetmore and Corrêa specifically support formed barred juvenile wings in this species. The exact age-stage synthesis remains uncertain, so this is `PASS_WITH_LIMITATIONS`, not scientific approval.
 - Review record: `owl-pet/research/reviews/67-pulsatrix-perspicillata-v5-review.md`.
+- Immutable archive verification: commit `a462f51b1ff42f80f673ab9faa835b641e9ef23c`, tree `e2a5bc2bf29abda4a77f58858069e744bcc16186`; non-truncated 3,068-entry readback matched all 16 required paths and exact full/crop blobs and byte sizes.

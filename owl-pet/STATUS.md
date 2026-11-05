@@ -3217,6 +3217,11 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - V1–v4 remain preserved. New primary nest monitoring replaces v4's branch-stage implication with an age-unknown cavity-stage juvenile practising a supported wing stretch/flap without takeoff.
 - The white/dark-faced juvenile retains formed transversely barred wings because this overlap is specifically documented for the species; it is not generalized to other nestlings. Adults use only a modest overlapping female length/fullness direction.
 - Full 1536×1024 master plus adult and juvenile crops passed opened review without edit. Manifests 690/691/681; unique 176/251; science false; no cycle credit before immutable readback.
+
+### #67 v5 VERIFIED — ledger credit pending
+
+- Archive `a462f51b1ff42f80f673ab9faa835b641e9ef23c`, tree `e2a5bc2bf29abda4a77f58858069e744bcc16186`, returned a non-truncated 3,068-entry tree. All 16 required paths and five binary path/blob/size tuples matched; manifests parse at 690/691/681.
+- PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit remains a separate step.
 ## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
 
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.

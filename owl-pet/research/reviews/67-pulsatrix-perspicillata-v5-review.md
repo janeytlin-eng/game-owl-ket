@@ -27,3 +27,7 @@
 
 Exact depicted age, sex and subspecies; continuous feather chronology; first takeoff and competent-flight date; range-wide adult standing-height ratio; universality of the nest geometry; exact equivalence between the monitored day-stage and Wetmore's first-stage specimen. These keep `scientifically_verified=false`.
 
+## Archive verification
+
+Commit `a462f51b1ff42f80f673ab9faa835b641e9ef23c` / tree `e2a5bc2bf29abda4a77f58858069e744bcc16186` returned a non-truncated 3,068-entry immutable tree. Sixteen required paths were present; concept/generated/reviewed masters shared the expected blob `5f24590794411b4115857130c9ca9388f7fa57d0` at 3,237,058 bytes, and both review crops matched their expected blobs and true sizes.
+

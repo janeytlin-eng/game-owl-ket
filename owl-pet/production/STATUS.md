@@ -29,6 +29,11 @@
 - The barred juvenile wing is a species-specific evidence exception, while exact age-stage equivalence, first competent flight and population-wide adult scale remain unknown.
 - Manifests 690/691/681; unique 176/251; science false. Cycle 3 is not credited before immutable readback.
 
+### #67 v5 VERIFIED — ledger credit pending
+
+- Archive `a462f51b1ff42f80f673ab9faa835b641e9ef23c`, tree `e2a5bc2bf29abda4a77f58858069e744bcc16186`: non-truncated readback matched 16 required paths and the exact full/crop image blobs and sizes.
+- Manifests 690/691/681; PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit pending.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

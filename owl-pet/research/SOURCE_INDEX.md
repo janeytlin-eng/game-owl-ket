@@ -1529,3 +1529,34 @@
 
 - Re-read `SCOPS-GRIECO-2025`; reused `SCOPS-MARCHESI-SERGIO-2005`, `SCOPS-BLASCO-UNDATED` and repository extraction `WHSO-MIKKOLA-2013` printed pp.122–123/PDF pp.124–125.
 - New2 / re-read2 / reused3 / corrected3. V5 adds a restrained evidence-based adult female direction while keeping overlapping heights, preserves the recent-fledgling stage, and explicitly checks narrow/pointed fresh wing geometry, short tail and continuous support. Uploaded Mikkola guide unavailable; no fresh-page claim. Exact age, juvenile sex/subspecies, tract chronology, flight threshold and universal adult visual ratio remain unknown; science false.
+
+## 2026-11-06 — #82 *Otus senegalensis* v5 — documented day-22 nest-box stage
+
+### SEN-RIEKERT-1986-P425-428
+
+- **Title / author / year:** “Some observations on the breeding biology of the African Scops Owl” — B. R. Riekert, 1986, *Madoqua* 14(4):425–428.
+- **URL / pages / accessed:** https://the-eis.com/elibrary/sites/default/files/downloads/literature/Riekert_1986_Madoqua_14_4_African_Scops_Owl.pdf ; complete four-page PDF and page images read 2026-11-06; printed pp.425–428, especially pp.425–426.
+- **Type / species / stage:** primary nest-box field study near Windhoek; one measured adult pair and several broods, with daily development notes.
+- **Facts:** the measured pair had equal 140 mm wing chords while the female weighed 110 g and male 70 g; plumage was described as almost identical (p.425). Wing feathers emerged from sheaths at about day 14; by day 22 body feathers, including the tail, had largely emerged, and young called and scratched at the nest-box entrance; one brood left at day 23 (p.426). Nest boxes were used because cavities were limited in the arid woodland.
+- **Limits / conflicts:** one adult pair cannot establish a universal mass or visible-size ratio. The study text does not provide a continuous photographic feather atlas, individual sex, or sustained-flight threshold. A later two-pair study reported a 25–28-day nestling period, so departure age varies and is not transferred to every bird.
+- **Design decision:** depict a clearly labelled day-22 **study stage** on a broad nest-box sill, both feet supported, calling/scratching at the entrance; residual down plus largely emerged body/tail feathers, compact non-adult wing and no flight. Keep adult wing length/height equal; female may be subtly fuller in body mass but not taller.
+- **Links:** `research/species/82-otus-senegalensis-v5.md`; planned v5 concept/review; run `production/runs/20261106T034111+0800-cycle-6.md`.
+
+### SEN-ITIS-1063416-2026
+
+- **Title / institution / accessed:** ITIS report TSN 1063416 — Integrated Taxonomic Information System; report read 2026-11-06.
+- **URL / section:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063416 ; taxonomy and nomenclature lines 42–60.
+- **Facts/use:** *Scops senegalensis* Swainson, 1837 is the invalid original combination; valid name is *Otus senegalensis* (Swainson, 1837). Taxonomy only; no morphology or development inference.
+
+### SEN-MELO-ETAL-2022
+
+- **Title / authors / year:** “A new species of scops-owl … from Príncipe Island and novel insights into the systematic affinities within *Otus*” — Melo et al., 2022, *ZooKeys* 1126:1–54.
+- **URL / DOI / accessed:** https://pmc.ncbi.nlm.nih.gov/articles/PMC9836643/ ; https://doi.org/10.3897/zookeys.1126.87635 ; full article, specimen table and phylogenetic discussion read 2026-11-06.
+- **Type / species/stage:** peer-reviewed integrative taxonomy; museum specimens of mainland *O. s. senegalensis* plus molecular/phylogenetic sampling; adults/age not uniformly stated.
+- **Facts:** the article treats mainland African *O. senegalensis* as part of the African subclade and lists 15 geographically broad museum specimens with wing lengths about 103–145 mm and tail lengths 40–65 mm.
+- **Limits / design use:** unsexed/uneven museum specimens cannot calibrate adult sex difference or juvenile growth. Use only for current mainland taxon scope and broad adult variation.
+
+### Re-read, reuse and correction
+
+- Re-read `SEN-BROWN-RIEKERT-MORSBACH-1987` (publisher/EIS abstract: two pairs, 25–28-day nestling period) and reused `SEN-BE-ROBERTS2005`, `SEN-OWLPAGES-2020`, and repository extraction `SEN-MIK2013-130` printed pp.130–131/PDF pp.132–133.
+- Restored/detailed primary source1 / new sources2 / re-read1 / reused3 / corrected boundaries4. V5 replaces an age-uncertain generic brancher with a day-22 study-stage nestling whose action and broad feather state are directly documented. Exact tract geometry, juvenile sex, sustained-flight ability, cross-population departure age and universal adult mass ratio remain unknown; science false.

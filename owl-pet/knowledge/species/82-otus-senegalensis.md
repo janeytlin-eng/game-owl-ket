@@ -31,3 +31,8 @@ Active searches/direct opens returned empty payloads and were not credited. Reus
 ## 2026-10-31 v4 fixed readback
 
 Archive `e8967091ffc5fb1dfce11c1b96225a1147ae2ee4` returned exact concept/generated/reviewed/crop payloads and supporting records. Integrity is verified; biological unknowns remain and science stays false.
+
+
+## 2026-11-06 v5 documented day-22 study stage
+
+Riekert 1986 printed pp.425–428 was reopened in full. At day 22, body feathers including the tail had largely emerged and young called/scratched at the nest-box entrance; one brood left at day 23. A later two-pair record gives 25–28 days, so v5 labels the center bird “22-DAY STUDY NESTLING” rather than making a universal fledging-age claim. The measured adult pair had equal 140 mm wing chords and nearly identical plumage; female mass was higher, which supports only subtle body fullness, not taller display height. Current/old name: *Otus senegalensis* = *Scops senegalensis* Swainson, 1837. Exact wing-tract geometry, juvenile sex, sustained flight, cross-population timing and universal adult ratio remain unknown; science false.

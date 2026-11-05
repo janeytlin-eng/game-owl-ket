@@ -3095,4 +3095,5 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/76-asio-clamator-v5.png) · [Research](../research/species/76-asio-clamator-v5.md) · [Review](../research/reviews/76-asio-clamator-v5-review.md) · [Run](../production/runs/20261105T225332+0800-cycle-6.md)
 - V5 preserves v1–v4 and replaces the static adult-spotted juvenile wing with an evidence-bounded approximately 25–30-day supported exercise pose. Warm brown down, forming disc, short emerging tufts and growing non-adult remiges remain; adults stay near-equal because sex-size direction is unresolved. Full and crop review passed without edit. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable archive readback pending.
+- Immutable archive verification 2026-11-05T23:12:00+08:00: commit `3382d92bd97fa27f36fdbc38e91406563dc4763f`, tree `a667361032deae3eee0d06e8974b19ab5a50454a`; non-truncated 3,144 entries, 18 required paths and five exact binary blob/size tuples passed. Manifests 699/700/690; ledger credit pending.
 

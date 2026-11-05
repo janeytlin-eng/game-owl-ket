@@ -21524,7 +21524,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "CLA-AGUIAR-NAIFF-2009-L50-54",
         "CLA-PONCE-GONZALEZ-2025",
@@ -21563,9 +21563,13 @@
       "juvenile_review_size_bytes": 1184521,
       "juvenile_review_sha256": "ae00d8568f4fa97dc6ee9e1975a5bf95d581b915a0aa6adf447cd78660a6c27c",
       "reviewed_at": "2026-11-05T23:04:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and replaces the static adult-spotted juvenile wing with an evidence-bounded approximately 25–30-day supported wing exercise. Warm brown down, forming facial disc, short emerging tufts and growing non-adult remiges remain; adults stay near-equal because sex-size direction is unresolved. The age interval is not universal, and exact subspecies transfer, juvenile sex and continuous tract geometry remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and replaces the static adult-spotted juvenile wing with an evidence-bounded approximately 25–30-day supported wing exercise. Warm brown down, forming facial disc, short emerging tufts and growing non-adult remiges remain; adults stay near-equal because sex-size direction is unresolved. The age interval is not universal, and exact subspecies transfer, juvenile sex and continuous tract geometry remain unknown; science false.",
+      "verified_at": "2026-11-05T23:12:00+08:00",
+      "archive_commit": "3382d92bd97fa27f36fdbc38e91406563dc4763f",
+      "archive_tree": "a667361032deae3eee0d06e8974b19ab5a50454a",
+      "verification_result": "PASS: immutable non-truncated 3,144-entry tree; all 18 required paths present; five binary paths match exact Git blob and byte size; manifests parse at 699/700/690"
     }
   ],
-  "updated_at": "2026-11-05T23:08:00+08:00"
+  "updated_at": "2026-11-05T23:12:00+08:00"
 }

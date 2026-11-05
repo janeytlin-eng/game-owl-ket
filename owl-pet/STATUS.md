@@ -3360,3 +3360,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - New primary development sequence 1, re-read 4 and corrected design boundaries 2; v1–v4 preserved. Full and crop inspection passed the supported 25–30-day pre-flight exercise boundary without edit.
 - Manifests prepared at 699/700/690; unique remains 176/251; revision +1; `PASS_WITH_LIMITATIONS`; science false. Cycle 6 receives no credit before immutable readback.
 
+### #76 v5 VERIFIED — ledger credit pending
+
+- Archive `3382d92bd97fa27f36fdbc38e91406563dc4763f`, tree `a667361032deae3eee0d06e8974b19ab5a50454a`, passed non-truncated 3,144-entry immutable readback: 18 required paths, five exact image tuples and manifests 699/700/690. Science false; ledger credit remains separate.
+

@@ -206,5 +206,9 @@
 - The first successful generated master was recovered after context interruption without duplicate generation. Full 1536×1024 plus adult/group and juvenile/support crops were opened; supported pre-flight exercise and non-adult wing finish pass without edit.
 - Manifests prepared at 699/700/690; unique remains 176/251; revision +1; `PASS_WITH_LIMITATIONS`; science false. No cycle credit before immutable archive readback.
 
+### #76 v5 VERIFIED — ledger credit pending
+
+- Archive `3382d92bd97fa27f36fdbc38e91406563dc4763f`, tree `a667361032deae3eee0d06e8974b19ab5a50454a`: non-truncated 3,144 entries, 18 required paths, five exact image path/blob/size tuples and three manifest parses at 699/700/690 passed. Ledger credit pending; science false.
+
 
 

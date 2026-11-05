@@ -15085,7 +15085,7 @@
     },
     {
       "batch_id": "20261105T062700+0800",
-      "status": "PARTIAL",
+      "status": "SUPERSEDED_DUPLICATE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -15100,21 +15100,10 @@
           "verification_tree": "de21042c57bd553caa39806544eb2a2e3fe8e9ff"
         }
       ],
-      "next_cycle": 2,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "20261105T065000+0800-cycle-2",
-        "heartbeat_at": "2026-11-05T06:50:00+08:00",
-        "expires_at": "2026-11-05T07:05:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "run_id": "20261105T065000+0800-cycle-2",
-        "species_id": 52,
-        "species": "Strix hylophila",
-        "stage": "STARTED"
-      },
-      "current_stage": "STARTED",
+      "next_cycle": null,
+      "active_lease": null,
+      "in_progress": null,
+      "current_stage": "RECONCILED",
       "events": [
         {
           "cycle": 1,
@@ -15257,6 +15246,51 @@
             "baseline_commit": "121d30014fa871b390a4c3b4666c2e4dcd1f4e77",
             "prior_version": "owl-pet/design/concepts/52-strix-hylophila-v4.png",
             "lease_expires_at": "2026-11-05T07:05:00+08:00"
+          }
+        }
+      ],
+      "reconciled_at": "2026-11-05T10:35:54+08:00",
+      "reconciliation": {
+        "reason": "Historical duplicate snapshot of the same batch_id; authoritative .active_batch is COMPLETE 6/6 and all six verification commits are present.",
+        "authoritative_status": "COMPLETE",
+        "authoritative_verification_commit": "b2110bcad57a724ff821e432928869ec6c9ccc7b",
+        "lease_expired_at": "2026-11-05T07:05:00+08:00",
+        "preserved_for_audit": true
+      }
+    },
+    {
+      "batch_id": "20261105T103554+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "20261105T103554+0800-cycle-1",
+        "heartbeat_at": "2026-11-05T10:35:54+08:00",
+        "expires_at": "2026-11-05T10:50:54+08:00"
+      },
+      "in_progress": {
+        "cycle": 1,
+        "run_id": "20261105T103554+0800-cycle-1",
+        "species_id": 59,
+        "species": "Ketupa zeylonensis",
+        "stage": "STARTED"
+      },
+      "current_stage": "STARTED",
+      "events": [
+        {
+          "cycle": 1,
+          "stage": "STARTED",
+          "at": "2026-11-05T10:35:54+08:00",
+          "run_id": "20261105T103554+0800-cycle-1",
+          "species_id": 59,
+          "credited": false,
+          "evidence": {
+            "selection": "full-resolution science/archive revision of #59 Ketupa zeylonensis v4; verified v4 is a 680x453 derivative and no v5 exists on current main",
+            "baseline_commit": "acede2909642706dda514adb5ecfd9a689f52f86",
+            "prior_version": "owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg",
+            "lease_expires_at": "2026-11-05T10:50:54+08:00"
           }
         }
       ]
@@ -22040,899 +22074,38 @@
   ],
   "last_completed_batch_id": "20261105T062700+0800",
   "active_batch": {
-    "batch_id": "20261105T062700+0800",
-    "status": "COMPLETE",
-    "completed_at": "2026-11-05T09:49:00+08:00",
+    "batch_id": "20261105T103554+0800",
+    "status": "PARTIAL",
     "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Strix rufipes",
-        "species_id": 51,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "9466a8d167776434716afafb726b9e941709c71c",
-        "run_record": "owl-pet/production/runs/20261105T062700+0800-cycle-1.md",
-        "archive_commit": "00e3a79e6b2a7b646cfeaeeb270a4e8aae78b4c6",
-        "verification_tree": "de21042c57bd553caa39806544eb2a2e3fe8e9ff"
-      },
-      {
-        "cycle": 2,
-        "species": "Strix hylophila",
-        "species_id": 52,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "acd323010268b4215627276cb23edc7df87d26f8",
-        "run_record": "owl-pet/production/runs/20261105T065000+0800-cycle-2.md",
-        "archive_commit": "394a468ba858f7948e30c0a288679979323d2747",
-        "verification_tree": "b1322a9a7debd8fac7e70ef2bdc7bf3f86fe64a5"
-      },
-      {
-        "cycle": 3,
-        "species": "Bubo africanus",
-        "species_id": 54,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "0beae30903dec267f1e443e2d585a1b5db58a38a",
-        "run_record": "owl-pet/production/runs/20261105T071100+0800-cycle-3.md",
-        "archive_commit": "e68c14e176162242bc05f99e700f3a9ec66f3b74",
-        "verification_tree": "72abe677fc96d65b0318fe31ea5131493a659082"
-      },
-      {
-        "cycle": 4,
-        "species": "Bubo lacteus",
-        "species_id": 55,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "d0f7a1dcbd7b804ed48c8acb219b6e9628b826f4",
-        "run_record": "owl-pet/production/runs/20261105T070800+0800-cycle-4.md",
-        "archive_commit": "f8909efcb67f278125c42d9750930c5ba21323b2",
-        "verification_tree": "874ad54f9ca300890d047b1d014c74d4957ac854"
-      },
-      {
-        "cycle": 5,
-        "species": "Bubo nipalensis",
-        "species_id": 57,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "4516985582acd362c58fcd15936c9822a2ad6786",
-        "run_record": "owl-pet/production/runs/20261105T073000+0800-cycle-5.md",
-        "archive_commit": "4a13d7cd28862e6d6e4e4e966de83f6be539fcd9",
-        "verification_tree": "fc1299104574cb9fdce80cfc093c5036b96e8b38"
-      },
-      {
-        "cycle": 6,
-        "species": "Ketupa coromanda",
-        "species_id": 58,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "b2110bcad57a724ff821e432928869ec6c9ccc7b",
-        "run_record": "owl-pet/production/runs/20261105T085600+0800-cycle-6.md",
-        "archive_commit": "ff33ec8b477d482cf92b98428acdaa5aa8395f46",
-        "verification_tree": "9219f1fde9fbf6e88e7b72eea70161cd13826bb2"
-      }
-    ],
-    "next_cycle": null,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": "VERIFIED",
+    "completed_cycles": [],
+    "next_cycle": 1,
+    "active_lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T103554+0800-cycle-1",
+      "heartbeat_at": "2026-11-05T10:35:54+08:00",
+      "expires_at": "2026-11-05T10:50:54+08:00"
+    },
+    "in_progress": {
+      "cycle": 1,
+      "run_id": "20261105T103554+0800-cycle-1",
+      "species_id": 59,
+      "species": "Ketupa zeylonensis",
+      "stage": "STARTED"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
         "cycle": 1,
         "stage": "STARTED",
-        "at": "2026-11-05T06:27:00+08:00",
-        "run_id": "20261105T062700+0800-cycle-1",
-        "species_id": 51,
+        "at": "2026-11-05T10:35:54+08:00",
+        "run_id": "20261105T103554+0800-cycle-1",
+        "species_id": 59,
         "credited": false,
         "evidence": {
-          "selection": "full-resolution science/archive revision of #51 Strix rufipes v4; legacy manifest contains verified v4 at 680x453 while production/image manifest stops at v3; no v5 exists",
-          "baseline_commit": "5927d35ba103fe1f5cf8ed0709ace80f15e863c7",
-          "prior_version": "owl-pet/design/concepts/51-strix-rufipes-v4.png",
-          "lease_expires_at": "2026-11-05T06:42:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T06:33:00+08:00",
-        "run_id": "20261105T062700+0800-cycle-1",
-        "species_id": 51,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "RLO-VUKASOVIC-2006-P172-174",
-            "RLO-SIMBIO-MMA-5064-2026",
-            "RLO-ESCOBAR-2022-P106-110",
-            "RLO-MMA-2015",
-            "RLO-MIKKOLA-2013-P333"
-          ],
-          "new_sources": 2,
-          "reused_sources": 3,
-          "corrected_sources": 2,
-          "species_card": "owl-pet/research/species/51-strix-rufipes-v5.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T06:48:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T06:38:00+08:00",
-        "run_id": "20261105T062700+0800-cycle-1",
-        "species_id": 51,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/51-strix-rufipes-v5-generated-master.png",
-          "generated_blob": "07982ed3e19f919086fe20ed766423472b9a9fcb",
-          "dimensions": "1536x1024",
-          "bytes": 2935917,
-          "sha256": "6b3e7a8180d087045b92430ff0746473acc97ee247432384d71c7c6f4468afcd",
-          "generation_seconds": 60.3,
-          "edit_seconds": 47.8,
-          "edit_count": 1,
-          "complete_prompt": "owl-pet/research/species/51-strix-rufipes-v5.md",
-          "lease_expires_at": "2026-11-05T06:53:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T06:40:00+08:00",
-        "run_id": "20261105T062700+0800-cycle-1",
-        "species_id": 51,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 1,
-          "review_path": "owl-pet/research/reviews/51-strix-rufipes-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/51-strix-rufipes-v5-adults.png",
-          "adult_crop_blob": "cceaca9dcf104bb231d3464ac2aca9d9e1093f65",
-          "chick_crop": "owl-pet/production/review-crops/51-strix-rufipes-v5-chick.png",
-          "chick_crop_blob": "a1c1d85652b417980914eb047407489c61281f65",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T06:55:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T06:45:00+08:00",
-        "run_id": "20261105T062700+0800-cycle-1",
-        "species_id": 51,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "07982ed3e19f919086fe20ed766423472b9a9fcb",
-          "reviewed_blob": "07982ed3e19f919086fe20ed766423472b9a9fcb",
-          "adult_crop_blob": "cceaca9dcf104bb231d3464ac2aca9d9e1093f65",
-          "juvenile_crop_blob": "a1c1d85652b417980914eb047407489c61281f65",
-          "manifest_counts": {
-            "design_image": 676,
-            "design_legacy": 677,
-            "production": 667
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T07:00:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T06:48:00+08:00",
-        "run_id": "20261105T062700+0800-cycle-1",
-        "species_id": 51,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "00e3a79e6b2a7b646cfeaeeb270a4e8aae78b4c6",
-          "archive_tree": "6268445c06d1119c3a2020aee4e26e1c689fc29e",
-          "paths_verified": 14,
-          "binary_paths_verified": 7,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 676,
-            "design_legacy": 677,
-            "production": 667
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 2,
-          "verification_commit": "9466a8d167776434716afafb726b9e941709c71c",
-          "verification_tree": "de21042c57bd553caa39806544eb2a2e3fe8e9ff"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-05T06:50:00+08:00",
-        "run_id": "20261105T065000+0800-cycle-2",
-        "species_id": 52,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #52 Strix hylophila v4; legacy manifest contains verified v4 at 680x453 while production/image manifest stops at v3; no v5 exists",
-          "baseline_commit": "121d30014fa871b390a4c3b4666c2e4dcd1f4e77",
-          "prior_version": "owl-pet/design/concepts/52-strix-hylophila-v4.png",
-          "lease_expires_at": "2026-11-05T07:05:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T06:56:00+08:00",
-        "run_id": "20261105T065000+0800-cycle-2",
-        "species_id": 52,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "RBO-COCKLE-ETAL-2024-P10",
-            "RBO-MIKKOLA-2013-P337",
-            "RBO-AVESRAPINA-2018",
-            "RBO-WIKIAVES-3982971",
-            "RBO-ITIS-555431"
-          ],
-          "new_sources": 1,
-          "reused_sources": 4,
-          "corrected_sources": 2,
-          "species_card": "owl-pet/research/species/52-strix-hylophila-v5.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T07:11:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T06:59:00+08:00",
-        "run_id": "20261105T065000+0800-cycle-2",
-        "species_id": 52,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/52-strix-hylophila-v5-generated-master.png",
-          "generated_blob": "ba1d092a9dccbeba6dc74dc581664b907f06a2c8",
-          "reviewed_blob": "02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab",
-          "dimensions": "1536x1024",
-          "bytes": 2725893,
-          "sha256": "522fc599a38db3cae9d4c1f71e71c92bd3bbcc7ec72ea3e4791146b6b1e1d551",
-          "generation_seconds": 56.5,
-          "edit_seconds": 83.7,
-          "edit_count": 2,
-          "complete_prompt": "owl-pet/research/species/52-strix-hylophila-v5.md",
-          "lease_expires_at": "2026-11-05T07:14:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T07:00:00+08:00",
-        "run_id": "20261105T065000+0800-cycle-2",
-        "species_id": 52,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 2,
-          "review_path": "owl-pet/research/reviews/52-strix-hylophila-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/52-strix-hylophila-v5-adults.png",
-          "adult_crop_blob": "b15ae9028a5ee10ce8e109a39eceb9fbba4ab1d4",
-          "juvenile_crop": "owl-pet/production/review-crops/52-strix-hylophila-v5-chick.png",
-          "juvenile_crop_blob": "82df9fe6db021ce85f779c06df5e7aee873364e0",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T07:15:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T07:05:00+08:00",
-        "run_id": "20261105T065000+0800-cycle-2",
-        "species_id": 52,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab",
-          "generated_blob": "ba1d092a9dccbeba6dc74dc581664b907f06a2c8",
-          "reviewed_blob": "02b0b15e8f70cbd309fbd5c3c7f23657c01e54ab",
-          "adult_crop_blob": "b15ae9028a5ee10ce8e109a39eceb9fbba4ab1d4",
-          "juvenile_crop_blob": "82df9fe6db021ce85f779c06df5e7aee873364e0",
-          "manifest_counts": {
-            "design_image": 677,
-            "design_legacy": 678,
-            "production": 668
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T07:20:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T07:09:00+08:00",
-        "run_id": "20261105T065000+0800-cycle-2",
-        "species_id": 52,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "394a468ba858f7948e30c0a288679979323d2747",
-          "archive_tree": "50920d47e1ebc2081e358aa4c719ede92efef218",
-          "paths_verified": 16,
-          "binary_paths_verified": 7,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 677,
-            "design_legacy": 678,
-            "production": 668
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 3,
-          "verification_commit": "acd323010268b4215627276cb23edc7df87d26f8",
-          "verification_tree": "b1322a9a7debd8fac7e70ef2bdc7bf3f86fe64a5"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-05T07:11:00+08:00",
-        "run_id": "20261105T071100+0800-cycle-3",
-        "species_id": 54,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #54 Bubo africanus v4; legacy manifest contains v4 while production/image manifest stops at v3; no v5 exists",
-          "baseline_commit": "89f2e09cb6a81a924fd7663c31ede7558283c990",
-          "prior_version": "owl-pet/design/concepts/54-bubo-africanus-v4.png",
-          "lease_expires_at": "2026-11-05T07:26:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T07:16:00+08:00",
-        "run_id": "20261105T071100+0800-cycle-3",
-        "species_id": 54,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "SEO-SANBI-2018",
-            "SEO-MIKKOLA-2013-P280-281",
-            "SEO-OSTRICH-RSD-2008",
-            "SEO-BDI-2022",
-            "SEO-ITIS-555408"
-          ],
-          "new_sources": 0,
-          "reused_sources": 5,
-          "corrected_sources": 1,
-          "species_card": "owl-pet/research/species/54-bubo-africanus-v5.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T07:31:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T07:01:00+08:00",
-        "run_id": "20261105T071100+0800-cycle-3",
-        "species_id": 54,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/54-bubo-africanus-v5-generated-master.png",
-          "generated_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
-          "reviewed_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
-          "dimensions": "1536x1024",
-          "bytes": 3102628,
-          "sha256": "cde61ddadd433363b541430292efbf247fd2aee6990149bc8efce90d1a22bda6",
-          "generation_seconds": null,
-          "generation_timing_note": "image completed; elapsed telemetry unavailable because tool result was truncated during context transfer",
-          "edit_seconds": 0,
-          "edit_count": 0,
-          "complete_prompt": "owl-pet/research/species/54-bubo-africanus-v5.md",
-          "lease_expires_at": "2026-11-05T07:16:00+08:00",
-          "timestamp_note": "prior run timestamps 07:11–07:16 were ahead of observed execution wall clock; this stage records observed clock and preserves sequence"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T07:02:00+08:00",
-        "run_id": "20261105T071100+0800-cycle-3",
-        "species_id": 54,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": false,
-          "edit_count": 0,
-          "review_path": "owl-pet/research/reviews/54-bubo-africanus-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/54-bubo-africanus-v5-adults.png",
-          "adult_crop_blob": "1acb5d6852586ebee8c8522c401d041944581ef6",
-          "juvenile_crop": "owl-pet/production/review-crops/54-bubo-africanus-v5-juvenile.png",
-          "juvenile_crop_blob": "39848d8f859db89284def675d2eda239d18f8161",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T07:17:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T07:03:00+08:00",
-        "run_id": "20261105T071100+0800-cycle-3",
-        "species_id": 54,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
-          "generated_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
-          "reviewed_blob": "950c5fe7f3b0845c5589081f6873666ec584becb",
-          "adult_crop_blob": "1acb5d6852586ebee8c8522c401d041944581ef6",
-          "juvenile_crop_blob": "39848d8f859db89284def675d2eda239d18f8161",
-          "manifest_counts": {
-            "design_image": 678,
-            "design_legacy": 679,
-            "production": 669
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T07:18:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T07:05:00+08:00",
-        "run_id": "20261105T071100+0800-cycle-3",
-        "species_id": 54,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "e68c14e176162242bc05f99e700f3a9ec66f3b74",
-          "archive_tree": "71eee91cde16dc9ffa5c5608ee842a523f834921",
-          "paths_verified": 18,
-          "binary_paths_verified": 7,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 678,
-            "design_legacy": 679,
-            "production": 669
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 4,
-          "verification_commit": "0beae30903dec267f1e443e2d585a1b5db58a38a",
-          "verification_tree": "72abe677fc96d65b0318fe31ea5131493a659082"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-05T07:08:00+08:00",
-        "run_id": "20261105T070800+0800-cycle-4",
-        "species_id": 55,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #55 Bubo lacteus v4; legacy manifest contains verified 680x453 v4 while production/image manifest stops at v3; no v5 exists",
-          "baseline_commit": "d7e77c5117e056042cf9e4442990d5a329211dce",
-          "prior_version": "owl-pet/design/concepts/55-bubo-lacteus-v4.png",
-          "lease_expires_at": "2026-11-05T07:23:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T062700+0800",
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T07:12:00+08:00",
-        "run_id": "20261105T070800+0800-cycle-4",
-        "species_id": 55,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "VEO-BROWN-1965-P101-104",
-            "VEO-ITIS-1244710",
-            "VEO-BIRDLIFE-PILLANS-2019",
-            "VEO-MIKKOLA-2013-P286"
-          ],
-          "new_sources": 0,
-          "restored_sources": 3,
-          "reused_sources": 2,
-          "corrected_sources": 2,
-          "species_card": "owl-pet/research/species/55-bubo-lacteus-v5.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T07:27:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T07:18:00+08:00",
-        "run_id": "20261105T070800+0800-cycle-4",
-        "species_id": 55,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/55-bubo-lacteus-v5-generated-master.png",
-          "generated_blob": "63504868f7342e914dd475819cadb2369f1ff216",
-          "final_blob": "6b26ae9e24764fdfb5129d05eef5ff89fc63ca68",
-          "dimensions": "1536x1024",
-          "bytes": 3015952,
-          "sha256": "709c349fc06aaa2afdcc7e2d48ac467fddbed4e03b27ed3f22f288d0e6a8898a",
-          "generation_seconds": 57.8,
-          "edit_seconds": 99.2,
-          "edit_count": 2,
-          "complete_prompt": "owl-pet/research/species/55-bubo-lacteus-v5.md",
-          "lease_expires_at": "2026-11-05T07:33:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T07:20:00+08:00",
-        "run_id": "20261105T070800+0800-cycle-4",
-        "species_id": 55,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 2,
-          "review_path": "owl-pet/research/reviews/55-bubo-lacteus-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/55-bubo-lacteus-v5-adults.png",
-          "adult_crop_blob": "a4ac47cad9972eeb3e7a460d734086cc641356ef",
-          "juvenile_crop": "owl-pet/production/review-crops/55-bubo-lacteus-v5-juvenile.png",
-          "juvenile_crop_blob": "ffe69ab72295c6f705680965b6e83fd8113aa39a",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T07:35:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T07:22:00+08:00",
-        "run_id": "20261105T070800+0800-cycle-4",
-        "species_id": 55,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "6b26ae9e24764fdfb5129d05eef5ff89fc63ca68",
-          "generated_blob": "63504868f7342e914dd475819cadb2369f1ff216",
-          "reviewed_blob": "6b26ae9e24764fdfb5129d05eef5ff89fc63ca68",
-          "adult_crop_blob": "a4ac47cad9972eeb3e7a460d734086cc641356ef",
-          "juvenile_crop_blob": "ffe69ab72295c6f705680965b6e83fd8113aa39a",
-          "manifest_counts": {
-            "design_image": 679,
-            "design_legacy": 680,
-            "production": 670
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T07:37:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T07:25:00+08:00",
-        "run_id": "20261105T070800+0800-cycle-4",
-        "species_id": 55,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "f8909efcb67f278125c42d9750930c5ba21323b2",
-          "archive_tree": "6511a5cf5e373ab09e01d0b56983f00e4649819b",
-          "paths_verified": 18,
-          "binary_paths_verified": 7,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 679,
-            "design_legacy": 680,
-            "production": 670
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 5,
-          "verification_commit": "d0f7a1dcbd7b804ed48c8acb219b6e9628b826f4",
-          "verification_tree": "874ad54f9ca300890d047b1d014c74d4957ac854"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-05T07:30:00+08:00",
-        "run_id": "20261105T073000+0800-cycle-5",
-        "species_id": 57,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #57 Bubo nipalensis v4; #56 has no distinct canonical task entry; no v5 exists",
-          "baseline_commit": "a02a1611bb727721fcaa6b479e9d7ed4d35be83c",
-          "prior_version": "owl-pet/design/concepts/57-bubo-nipalensis-v4.png",
-          "lease_expires_at": "2026-11-05T07:45:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T07:34:00+08:00",
-        "run_id": "20261105T073000+0800-cycle-5",
-        "species_id": 57,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "SBEO-SRINIVASAN-2013-P106-107",
-            "SBEO-SHUKLA-2025-P27-28",
-            "SBEO-SHARPE-BM-1875-P38",
-            "SBEO-ITIS-1244713"
-          ],
-          "new_sources": 1,
-          "restored_sources": 3,
-          "reused_sources": 4,
-          "corrected_sources": 2,
-          "species_card": "owl-pet/research/species/57-bubo-nipalensis-v5.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T07:49:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "LEASE_RENEWED",
-        "at": "2026-11-05T08:37:00+08:00",
-        "run_id": "20261105T073000+0800-cycle-5",
-        "species_id": 57,
-        "credited": false,
-        "evidence": {
-          "expired_lease_at": "2026-11-05T07:49:00+08:00",
-          "remote_v5_image_found": false,
-          "remote_cycle_completion_found": false,
-          "resume_stage": "RESEARCH_READY",
-          "lease_expires_at": "2026-11-05T08:52:00+08:00",
-          "note": "Expired lease audited against main; research card and run record exist, but no #57 v5 image/archive/verification evidence exists. Resuming the same run without duplicate credit."
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T08:40:00+08:00",
-        "run_id": "20261105T073000+0800-cycle-5",
-        "species_id": 57,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/57-bubo-nipalensis-v5-generated-master.png",
-          "generated_blob": "0bbbab8e03604c00c17a95403a688196e888fe74",
-          "dimensions": "1536x1024",
-          "bytes": 3227055,
-          "sha256": "ca50a8a9dce75b0b9e9b4a5470fc2f2cfecbee4427002efba07e65a6c2fa808c",
-          "generation_seconds": 62.0,
-          "edit_seconds": 0,
-          "edit_count": 0,
-          "complete_prompt": "owl-pet/research/species/57-bubo-nipalensis-v5.md",
-          "lease_expires_at": "2026-11-05T08:55:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T08:44:00+08:00",
-        "run_id": "20261105T073000+0800-cycle-5",
-        "species_id": 57,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 1,
-          "edit_seconds": 60.9,
-          "reviewed_path": "owl-pet/production/reviewed/57-bubo-nipalensis-v5-reviewed-master.png",
-          "reviewed_blob": "685f9986b60520f2e1ab8a6d91f5696b84efbac4",
-          "review_path": "owl-pet/research/reviews/57-bubo-nipalensis-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/57-bubo-nipalensis-v5-adults.png",
-          "adult_crop_blob": "3e142b7851f861f815a734070b0b2a1d5986e290",
-          "juvenile_crop": "owl-pet/production/review-crops/57-bubo-nipalensis-v5-juvenile.png",
-          "juvenile_crop_blob": "b329dc0e3e81b55bfdabf4d37945e732a258e4fa",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T08:59:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T08:47:00+08:00",
-        "run_id": "20261105T073000+0800-cycle-5",
-        "species_id": 57,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "685f9986b60520f2e1ab8a6d91f5696b84efbac4",
-          "generated_blob": "0bbbab8e03604c00c17a95403a688196e888fe74",
-          "reviewed_blob": "685f9986b60520f2e1ab8a6d91f5696b84efbac4",
-          "adult_crop_blob": "3e142b7851f861f815a734070b0b2a1d5986e290",
-          "juvenile_crop_blob": "b329dc0e3e81b55bfdabf4d37945e732a258e4fa",
-          "manifest_counts": {
-            "design_image": 680,
-            "design_legacy": 681,
-            "production": 671
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T09:02:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T08:53:00+08:00",
-        "run_id": "20261105T073000+0800-cycle-5",
-        "species_id": 57,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "4a13d7cd28862e6d6e4e4e966de83f6be539fcd9",
-          "archive_tree": "1b08cf33a5243c02d9c971c74aadfbd0070711e3",
-          "paths_verified": 18,
-          "binary_paths_verified": 7,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 680,
-            "design_legacy": 681,
-            "production": 671
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 6,
-          "verification_commit": "4516985582acd362c58fcd15936c9822a2ad6786",
-          "verification_tree": "fc1299104574cb9fdce80cfc093c5036b96e8b38"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-05T08:56:00+08:00",
-        "run_id": "20261105T085600+0800-cycle-6",
-        "species_id": 58,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #58 Ketupa coromanda v4; legacy manifest contains verified 680x453 v4 while production/design image manifests stop at v3; no v5 exists",
-          "baseline_commit": "e8e6b922712020f370d9108969d0e571cdf4e1d2",
-          "prior_version": "owl-pet/design/concepts/58-ketupa-coromanda-v4.png",
-          "lease_expires_at": "2026-11-05T09:11:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T08:58:00+08:00",
-        "run_id": "20261105T085600+0800-cycle-6",
-        "species_id": 58,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "DEO-REDDY-RAMACHANDRAN-2023-P44-47",
-            "DEO-RANADE-GHOSH-PRAKASH-2020-P93-94",
-            "DEO-ITIS-1244714"
-          ],
-          "new_index_entries": 3,
-          "freshly_read_sources": 3,
-          "reused_sources": 3,
-          "corrected_boundaries": 2,
-          "species_card": "owl-pet/research/species/58-ketupa-coromanda-v5.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T09:13:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T09:03:00+08:00",
-        "run_id": "20261105T085600+0800-cycle-6",
-        "species_id": 58,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/58-ketupa-coromanda-v5-generated-master.png",
-          "generated_blob": "1eb73346e50f6031db07e02d783ccac6cffbe024",
-          "dimensions": "1536x1024",
-          "bytes": 3380038,
-          "sha256": "a76371fed2dbb8d730e0ff442d7d9e3ddab9cfa5db74f22d1ce9a83550e93882",
-          "generation_seconds": 64.0,
-          "edit_seconds": 0,
-          "edit_count": 0,
-          "complete_prompt": "owl-pet/research/species/58-ketupa-coromanda-v5.md",
-          "initial_review": "Juvenile is supported and distinctly smaller, but folded wing rows and tail remain too adult-ordered; preserve original and perform a bounded edit.",
-          "lease_expires_at": "2026-11-05T09:50:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T09:39:30+08:00",
-        "run_id": "20261105T085600+0800-cycle-6",
-        "species_id": 58,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 1,
-          "edit_seconds": 52.0,
-          "reviewed_path": "owl-pet/production/reviewed/58-ketupa-coromanda-v5-reviewed-master.png",
-          "reviewed_blob": "27125dd19f3fd39604eaa145fe1ee9ab11224b4e",
-          "review_path": "owl-pet/research/reviews/58-ketupa-coromanda-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/58-ketupa-coromanda-v5-adults.png",
-          "adult_crop_blob": "eb843e59a3955e0acd80f14f6a39830e049c1469",
-          "juvenile_crop": "owl-pet/production/review-crops/58-ketupa-coromanda-v5-juvenile.png",
-          "juvenile_crop_blob": "2170acc15c17018561f069363cfb2dce8389ea27",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T09:54:30+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T09:42:00+08:00",
-        "run_id": "20261105T085600+0800-cycle-6",
-        "species_id": 58,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "27125dd19f3fd39604eaa145fe1ee9ab11224b4e",
-          "generated_blob": "1eb73346e50f6031db07e02d783ccac6cffbe024",
-          "reviewed_blob": "27125dd19f3fd39604eaa145fe1ee9ab11224b4e",
-          "adult_crop_blob": "eb843e59a3955e0acd80f14f6a39830e049c1469",
-          "juvenile_crop_blob": "2170acc15c17018561f069363cfb2dce8389ea27",
-          "manifest_counts": {
-            "design_image": 681,
-            "design_legacy": 682,
-            "production": 672
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T09:57:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T09:49:00+08:00",
-        "run_id": "20261105T085600+0800-cycle-6",
-        "species_id": 58,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "ff33ec8b477d482cf92b98428acdaa5aa8395f46",
-          "archive_tree": "3f97a80cfd237c94adc563020826967599d5d6b2",
-          "paths_verified": 18,
-          "binary_paths_verified": 7,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 681,
-            "design_legacy": 682,
-            "production": 672
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": null,
-          "batch_status": "COMPLETE",
-          "verification_commit": "b2110bcad57a724ff821e432928869ec6c9ccc7b",
-          "verification_tree": "9219f1fde9fbf6e88e7b72eea70161cd13826bb2"
+          "selection": "full-resolution science/archive revision of #59 Ketupa zeylonensis v4; verified v4 is a 680x453 derivative and no v5 exists on current main",
+          "baseline_commit": "acede2909642706dda514adb5ecfd9a689f52f86",
+          "prior_version": "owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg",
+          "lease_expires_at": "2026-11-05T10:50:54+08:00"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T11:19:06+08:00",
+  "updated": "2026-11-05",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20989,7 +20989,12 @@
       ],
       "version": 5,
       "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
-      "previous_versions": [1, 2, 3, 4],
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
       "scientifically_verified": false,
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
@@ -21007,7 +21012,10 @@
       "research_record": "research/species/60-ketupa-flavipes-v5.md",
       "review_record": "research/reviews/60-ketupa-flavipes-v5-review.md",
       "run_record": "production/runs/20261105T105535+0800-cycle-2.md",
-      "dimensions": {"width": 1536, "height": 1024},
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
       "size_bytes": 3313716,
       "sha256": "1b9c51cc839b226097c5799c759dfdf155e34ad00b5cc770f15492deb4c109dd",
       "git_blob": "781048fe3878b98ac7053fc75e9d52cee368c263",
@@ -21032,7 +21040,66 @@
       "archive_commit": "a1b8d80d57d7ace67eacd6faec0854d392502387",
       "archive_tree": "494afeb0d8b0226b2ba1ca4baf0653b37551e0a8",
       "verification_result": "Immutable archive readback matched five required binary path/blob tuples, four unique image blobs and exact byte sizes; all three manifests parsed at counts 683/684/674; source index, research, review, workflow, run, status and ARCHIVED ledger markers were present."
+    },
+    {
+      "id": "61-ketupa-ketupu-v5",
+      "path": "design/concepts/61-ketupa-ketupu-v5.png",
+      "species_id": 61,
+      "scientific_name": "Ketupa ketupu",
+      "current_scientific_name": "Ketupa ketupu",
+      "common_name": "Buffy Fish Owl",
+      "historical_names": [
+        "Bubo ketupu",
+        "Strix ketupu"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "BFOW-NPARKS-BIODIVERSITYSG-2026",
+        "BFOW-BESG-NEST-2016",
+        "BFOW-SBG-BREED-2016",
+        "BFOW-BESG-FLEDGE-2016"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/61-ketupa-ketupu-v5.md",
+      "review_record": "research/reviews/61-ketupa-ketupu-v5-review.md",
+      "run_record": "production/runs/20261105T112500+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3209634,
+      "sha256": "ea1c312e705e0c6a3914cddb8dc6a6cd7bce8c8b44fff3282c8c2a188e409147",
+      "git_blob": "bf856218e6ada541d04775279c745f608d08d717",
+      "generated_path": "production/generated/61-ketupa-ketupu-v5-generated-master.png",
+      "generated_blob": "bf856218e6ada541d04775279c745f608d08d717",
+      "generated_sha256": "ea1c312e705e0c6a3914cddb8dc6a6cd7bce8c8b44fff3282c8c2a188e409147",
+      "generated_size_bytes": 3209634,
+      "reviewed_path": "production/reviewed/61-ketupa-ketupu-v5-reviewed-master.png",
+      "reviewed_blob": "bf856218e6ada541d04775279c745f608d08d717",
+      "adults_review_crop": "production/review-crops/61-ketupa-ketupu-v5-adults.png",
+      "adults_review_blob": "48511271fbb55d1d78a28334ed2d3b65311da33c",
+      "adults_review_size_bytes": 2258674,
+      "adults_review_sha256": "3eb1e235dcbab21cf0b2177ac40058f7740c60fc488d9354ce63aa567b801673",
+      "juvenile_review_crop": "production/review-crops/61-ketupa-ketupu-v5-juvenile.png",
+      "juvenile_review_blob": "1530a94cc9646e82bb62e5a3dd0c5906dd4b74c7",
+      "juvenile_review_size_bytes": 994158,
+      "juvenile_review_sha256": "4f5584e35e15c5c60369a56b00c98fbd2e618bb0d4a7c48b436948282468a509",
+      "reviewed_at": "2026-11-05T11:34:00+08:00",
+      "readback_pending": true,
+      "archive_note": "The discovery-relative two-week phrase was removed as a hatch-age claim. V5 retains exact three-role labels, near-equal bare-legged adults and one down-only, fully supported early nestling of exact age unknown in a living bird-s-nest fern. No edit was required after full and crop review; science remains false."
     }
   ],
-  "updated_at": "2026-11-05T11:19:06+08:00"
+  "updated_at": "2026-11-05T12:35:00+08:00"
 }

@@ -1,3 +1,9 @@
+## #61 Buffy Fish Owl — *Ketupa ketupu* — v5 archive revision
+
+- Concept: [61-ketupa-ketupu-v5.png](concepts/61-ketupa-ketupu-v5.png)
+- Research: [61-ketupa-ketupu-v5.md](../research/species/61-ketupa-ketupu-v5.md) · [review](../research/reviews/61-ketupa-ketupu-v5-review.md) · [run](../production/runs/20261105T112500+0800-cycle-3.md)
+- Full-resolution v5 preserves v1–v4 and corrects the age boundary from “about two weeks” to an early nestling of exact age unknown. Adults remain near-equal, bare-legged Buffy Fish Owls; the down-only chick rests inside a living bird's-nest fern with continuous support and no flight claim. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
+
 ## #60 Tawny Fish Owl — *Ketupa flavipes* — v5 VERIFIED
 
 - Concept: [60-ketupa-flavipes-v5.png](concepts/60-ketupa-flavipes-v5.png)

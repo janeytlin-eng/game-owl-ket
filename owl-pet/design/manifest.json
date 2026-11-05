@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T06:06:00+08:00",
+  "updated": "2026-11-06T06:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22659,7 +22659,78 @@
       "archive_tree": "07788f5ae425d8f875ffc416436515a6fec3e6e3",
       "verified_at": "2026-11-06T05:25:00+08:00",
       "verification_result": "PASS: immutable archive commit returned 15 required paths; six binary paths match exact Git blobs; remote manifests parse at 708/707/698 with #85 v5 tails; research/review/run text readable"
+    },
+    {
+      "id": "87-bubo-ascalaphus-v5",
+      "path": "design/concepts/87-bubo-ascalaphus-v5.png",
+      "species_id": 87,
+      "scientific_name": "Bubo ascalaphus",
+      "current_scientific_name": "Bubo ascalaphus",
+      "common_name": "Pharaoh Eagle-Owl",
+      "historical_names": [
+        "Bubo bubo ascalaphus"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "VERIFIED",
+      "source_ids": [
+        "ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020",
+        "ASC-ALSHEIKHLY-2012-SANDGROUSE",
+        "ASC-ITIS-555406-2026",
+        "ASC-MIK2013-272"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/87-bubo-ascalaphus-v5.md",
+      "review_record": "research/reviews/87-bubo-ascalaphus-v5-review.md",
+      "run_record": "production/runs/20261106T061500+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3056914,
+      "sha256": "b179d8e7bbcc3958ad88cd92a9d05618aa269cb60207cc32218afa2df270b0e6",
+      "git_blob": "cf5e17fa7999cb9cf5c50cbb5f0a0cfce25e4fd8",
+      "generated_path": "production/generated/87-bubo-ascalaphus-v5-generated-master.png",
+      "generated_blob": "f6b9b265e5b889db9a47e7a865e4b5483ed14b3f",
+      "generated_sha256": "e3d23ee8125c77776b3d3a63fe750a615f5b443f74b6e721cdf947032219ea5e",
+      "generated_size_bytes": 3390514,
+      "edit_path": "production/generated/87-bubo-ascalaphus-v5-edit1.png",
+      "edit_blob": "cf5e17fa7999cb9cf5c50cbb5f0a0cfce25e4fd8",
+      "edit_paths": [
+        "production/generated/87-bubo-ascalaphus-v5-edit1.png"
+      ],
+      "edit_blobs": [
+        "cf5e17fa7999cb9cf5c50cbb5f0a0cfce25e4fd8"
+      ],
+      "reviewed_path": "production/reviewed/87-bubo-ascalaphus-v5-reviewed-master.png",
+      "reviewed_blob": "cf5e17fa7999cb9cf5c50cbb5f0a0cfce25e4fd8",
+      "adults_review_crop": "production/review-crops/87-bubo-ascalaphus-v5-adults-support.png",
+      "adults_review_blob": "26393da1ac57d37d0d444eaad5e66f6ba1ac044f",
+      "adults_review_size_bytes": 2009874,
+      "adults_review_sha256": "95ad37470906a2e65383be71d56203cf8789875994270c96c4c2554d69a9bb99",
+      "juvenile_review_crop": "production/review-crops/87-bubo-ascalaphus-v5-juvenile.png",
+      "juvenile_review_blob": "6c7a92e4130bd56694f9d9d4811f25fb68af6b03",
+      "juvenile_review_size_bytes": 835430,
+      "juvenile_review_sha256": "083253f8351756799b849c710c9ef01169daab1124c16811161c452e4cf8d37b",
+      "reviewed_at": "2026-11-06T06:36:00+08:00",
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4. One targeted edit differentiated the adult female pose and clarified adult tarsal/toe-base feathering. Adult morphology and sex direction are evidence-bounded; the center bird remains the separately described c.40-day creamy-sandy juvenile with two-foot rock support. Juvenile sex, exact tract chronology, flight threshold, standing-height ratio and scientific sign-off remain unknown; science false.",
+      "archive_commit": "23f3cdcf6c0b0a52be1663ee7016f49200d9e154",
+      "archive_tree": "5dfb2902187eec9fe469c4c72732ea4d455560a1",
+      "verified_at": "2026-11-06T06:45:00+08:00",
+      "verification_result": "PASS: immutable archive commit returned all eight required paths; five binary paths match exact Git blobs and byte sizes; research/review/run text paths are present. Manifest parse/readback recorded in subsequent verification."
     }
   ],
-  "updated_at": "2026-11-06T06:06:00+08:00"
+  "updated_at": "2026-11-06T06:45:00+08:00"
 }

@@ -16644,7 +16644,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T17:36:20+08:00",
+  "updated_at": "2026-11-05T17:44:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -23883,8 +23883,8 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T173620+0800-cycle-6",
-      "heartbeat_at": "2026-11-05T17:36:20+08:00",
-      "expires_at": "2026-11-05T17:51:20+08:00"
+      "heartbeat_at": "2026-11-05T17:44:00+08:00",
+      "expires_at": "2026-11-05T17:59:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23894,12 +23894,12 @@
       "species": "Ninox strenua",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "started_at": "2026-11-05T17:36:20+08:00",
       "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
       "run_record": "owl-pet/production/runs/20261105T173620+0800-cycle-6.md"
     },
-    "current_stage": "STARTED",
+    "current_stage": "RESEARCH_READY",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24787,6 +24787,35 @@
           "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
           "prior_version": "owl-pet/design/concepts/70-ninox-strenua-v4.png",
           "lease_expires_at": "2026-11-05T17:51:20+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 6,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-05T17:44:00+08:00",
+        "run_id": "20261105T173620+0800-cycle-6",
+        "species_id": 70,
+        "credited": false,
+        "evidence": {
+          "source_ids": [
+            "POWERFUL-COOKE-ETAL-2020",
+            "POWERFUL-MO-WATERHOUSE-2015",
+            "POWERFUL-ABSA-2019",
+            "POWERFUL-NSWSC-2008",
+            "POWERFUL-MV-2026",
+            "WHSO-MIKKOLA-2013"
+          ],
+          "new_sources": 1,
+          "reread_sources": 3,
+          "reused_sources": 2,
+          "corrected_boundaries": 3,
+          "species_card": "owl-pet/research/species/70-ninox-strenua-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "full_prompt_saved": true,
+          "material_change_from_v4": "apply primary photographic sex boundary with comparable adult scale and subtle face-mask edge cue; preserve a fully supported first-flight-stage fledgling without implying polished flight competence",
+          "mikkola_upload_accessible": false,
+          "lease_expires_at": "2026-11-05T17:59:00+08:00"
         }
       }
     ]

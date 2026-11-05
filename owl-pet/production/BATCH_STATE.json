@@ -23875,8 +23875,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 5,
       "species_id": 69,
-      "heartbeat_at": "2026-11-05T17:22:00+08:00",
-      "expires_at": "2026-11-05T17:37:00+08:00"
+      "heartbeat_at": "2026-11-05T17:24:00+08:00",
+      "expires_at": "2026-11-05T17:39:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23886,12 +23886,12 @@
       "species": "Tyto novaehollandiae",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "RESEARCH_READY",
+      "current_stage": "IMAGE_GENERATED",
       "started_at": "2026-11-05T17:19:00+08:00",
       "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
       "run_record": "owl-pet/production/runs/20261105T171900+0800-cycle-5.md"
     },
-    "current_stage": "RESEARCH_READY",
+    "current_stage": "IMAGE_GENERATED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24616,6 +24616,26 @@
           "material_change_from_v4": "separate the primary sequence's inferred approximately-four-week developing-mask stage from v4's five-week well-developed-mask chick and v3's fledgling; restore full-resolution concept",
           "mikkola_upload_accessible": false,
           "lease_expires_at": "2026-11-05T17:37:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 5,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-05T17:24:00+08:00",
+        "run_id": "20261105T171900+0800-cycle-5",
+        "species_id": 69,
+        "credited": false,
+        "evidence": {
+          "generated_path": "owl-pet/production/generated/69-tyto-novaehollandiae-v5-generated-master.png",
+          "dimensions": "1536x1024",
+          "bytes": 3252155,
+          "sha256": "b0ba6d48e440bde0d2c4920c0ed7f0b3ff28ae07dc09925e66789f44c683bfdc",
+          "generation_seconds": 67.7,
+          "edit_count": 0,
+          "inspection_issue": null,
+          "complete_prompt": "owl-pet/research/species/69-tyto-novaehollandiae-v5.md",
+          "lease_expires_at": "2026-11-05T17:39:00+08:00"
         }
       }
     ]

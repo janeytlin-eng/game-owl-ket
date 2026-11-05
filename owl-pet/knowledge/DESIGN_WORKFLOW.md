@@ -848,3 +848,11 @@ A version absent from the primary manifest can still exist in a legacy manifest.
 - **Evidence:** the Chile MMA/SIMBIO descriptions support white brows and moustachial marks with a rusty-grey facial disc; they do not support a clean continuous white concentric ring.
 - **Applied:** #51 v5 used a face-only edit to break the annulus while preserving the dark male/markedly paler female palette, dark eyes, body, text, chick and support.
 - **Verified visually:** edited full master and adult crop were reopened and passed. This validates the check for #51 v5 only; it is not a universal facial-disc rule for all *Strix*.
+
+
+### 2026-11-05 — Judge an age-unknown brancher by support and locomotor evidence, not remex presence (#57 v5)
+
+- **Problem found:** the first render gave a documented dependent poor-flier developed barred remiges but left its belly visually above the fork, making the pose read more competent than the evidence.
+- **Evidence:** Srinivasan 2013 pp.106–107 supports developed barred primaries, secondaries and tail together with a bird that escaped but did not fly far and remained parent-dependent; it does not provide an exact age or sustained-flight test.
+- **Applied:** one juvenile-only edit retained the developed barring, softened adult-perfect feather edges and lowered the ventral body mass into a broad two-foot branch fork.
+- **Verified visually:** final full master and juvenile crop were reopened; support and folded-wing boundaries passed with limitations. This validates the visual check for #57 v5 only, not a universal feather/flight timetable.

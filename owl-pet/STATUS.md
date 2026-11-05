@@ -3237,6 +3237,10 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Archive `0317c22783051947ae9ee527f503f918599b720b`, tree `b768f20caaa5db8026af0637cd8c03d821358715`, returned a non-truncated 3,076-entry tree. All 16 required paths and five binary path/blob/size tuples matched; remote manifests parse at 691/692/682.
 - PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit remains a separate step.
+
+### #68 v5 LEDGER_CREDITED — batch 4/6
+
+- Verification commit `702d4ef95ffbc00db4ede4abb3f66592b4b50823`, tree `6b39ed9fde5848c9e640ee7806593a3ec3cf45be`, is credited exactly once. Batch `20261105T153530+0800` is 4/6; next cycle 5 and the lease is released. Unique remains 176/251; revision +1; science false.
 ## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
 
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.

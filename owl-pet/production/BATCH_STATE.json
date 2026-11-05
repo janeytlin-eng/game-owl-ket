@@ -23855,32 +23855,23 @@
         "run_record": "owl-pet/production/runs/20261105T164500+0800-cycle-3.md",
         "archive_commit": "a462f51b1ff42f80f673ab9faa835b641e9ef23c",
         "verification_tree": "4378ff0bb8b7075c64d3114d99b14a7ae8f1ab11"
+      },
+      {
+        "cycle": 4,
+        "species": "Tyto tenebricosa",
+        "species_id": 68,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "commit_sha": "702d4ef95ffbc00db4ede4abb3f66592b4b50823",
+        "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md",
+        "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
+        "verification_tree": "6b39ed9fde5848c9e640ee7806593a3ec3cf45be"
       }
     ],
-    "next_cycle": 4,
-    "active_lease": {
-      "owner": "codex-production",
-      "run_id": "20261105T170300+0800-cycle-4",
-      "batch_id": "20261105T153530+0800",
-      "cycle": 4,
-      "species_id": 68,
-      "heartbeat_at": "2026-11-05T17:15:00+08:00",
-      "expires_at": "2026-11-05T17:30:00+08:00"
-    },
-    "in_progress": {
-      "batch_id": "20261105T153530+0800",
-      "cycle": 4,
-      "run_id": "20261105T170300+0800-cycle-4",
-      "species_id": 68,
-      "species": "Tyto tenebricosa",
-      "action": "SCIENCE_REVISION",
-      "version": 5,
-      "current_stage": "VERIFIED",
-      "started_at": "2026-11-05T17:03:00+08:00",
-      "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
-      "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md"
-    },
-    "current_stage": "VERIFIED",
+    "next_cycle": 5,
+    "active_lease": null,
+    "in_progress": null,
+    "current_stage": "LEDGER_CREDITED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24548,6 +24539,26 @@
           "scientifically_verified": false,
           "ledger_credit_pending": true,
           "lease_expires_at": "2026-11-05T17:30:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 4,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-05T17:17:00+08:00",
+        "run_id": "20261105T170300+0800-cycle-4",
+        "species_id": 68,
+        "credited": true,
+        "evidence": {
+          "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
+          "verification_commit": "702d4ef95ffbc00db4ede4abb3f66592b4b50823",
+          "verification_tree": "6b39ed9fde5848c9e640ee7806593a3ec3cf45be",
+          "manifest_counts": {"design_image": 691, "design_legacy": 692, "production": 682},
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "next_cycle": 5,
+          "batch_status": "PARTIAL"
         }
       }
     ]

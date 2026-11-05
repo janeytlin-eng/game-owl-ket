@@ -49,6 +49,10 @@
 - Archive `0317c22783051947ae9ee527f503f918599b720b`, tree `b768f20caaa5db8026af0637cd8c03d821358715`, passed non-truncated 16-path readback with exact five binary path/blob/size tuples and remote manifests 691/692/682.
 - PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit pending.
 
+### #68 v5 LEDGER_CREDITED — batch 4/6
+
+- Verification commit `702d4ef95ffbc00db4ede4abb3f66592b4b50823`, tree `6b39ed9fde5848c9e640ee7806593a3ec3cf45be`, is credited once. Batch `20261105T153530+0800` is 4/6; next cycle 5; lease released. Unique 176/251; revision +1; science false.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

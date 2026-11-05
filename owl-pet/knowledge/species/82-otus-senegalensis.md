@@ -36,3 +36,8 @@ Archive `e8967091ffc5fb1dfce11c1b96225a1147ae2ee4` returned exact concept/genera
 ## 2026-11-06 v5 documented day-22 study stage
 
 Riekert 1986 printed pp.425–428 was reopened in full. At day 22, body feathers including the tail had largely emerged and young called/scratched at the nest-box entrance; one brood left at day 23. A later two-pair record gives 25–28 days, so v5 labels the center bird “22-DAY STUDY NESTLING” rather than making a universal fledging-age claim. The measured adult pair had equal 140 mm wing chords and nearly identical plumage; female mass was higher, which supports only subtle body fullness, not taller display height. Current/old name: *Otus senegalensis* = *Scops senegalensis* Swainson, 1837. Exact wing-tract geometry, juvenile sex, sustained flight, cross-population timing and universal adult ratio remain unknown; science false.
+
+
+## 2026-11-06 v5 visual review
+
+The initial day-22 nestling wing was too long and carried a hard adult-like layered/spot pattern. One center-only edit shortened and down-softened the folded wing, removed regular pale rows and shortened the tail while retaining a formed fresh wing. The edited full plate and juvenile/support plus adult/support crops were opened. Equal adult crown/wing height, slight female fullness, documented nest box, calling action and two-foot sill support pass. Rule validated for this plate: a primary dated milestone can be labelled as a study stage, but undocumented tract geometry, juvenile sex, flight threshold and population transfer remain unknown; science false.

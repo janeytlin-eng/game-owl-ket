@@ -48,3 +48,9 @@ Central juvenile: one approximately six-week cavity chick, low inside the hollow
 Support/environment: old living smooth-barked gum with a very large roomy natural hollow in a moist southeast-Australian rainforest/eucalypt gully with tree ferns, moss, damp bark and dense mid-storey. The two adults flank the entrance on stable wood; the chick is visibly inside the roomy cavity. Exact hollow depth is not diagrammed. Every visible foot/toe is supported. No eggs, woven nest, prey, humans, extra birds, border, logo or watermark.
 
 Composition/check targets: species identity must not drift toward Barn Owl; exactly three birds; all labels readable; central chick must retain sooty-grey down plus emerging short wing/tail feathers; adult sex contrast subtle and non-categorical; all support physically plausible.
+
+## Generation and opened review — 2026-11-05
+
+- Imagegen produced a 1536×1024 PNG (3,621,537 B; SHA-256 `de2d8ff18da65a3c9c1066f381fba08fd3f16ed5d3f7deef44aed7e37c0a384c`) in 70.8 s.
+- Full frame, adult/support crop and juvenile/cavity crop were opened. Exact count/text, species identity, adult non-categorical scale, sooty-grey down plus emerging juvenile wing feathers, cavity posture, forest context and all visible supports passed.
+- No image edit was required. `PASS_WITH_LIMITATIONS`; science remains false. See `research/reviews/68-tyto-tenebricosa-v5-review.md`.

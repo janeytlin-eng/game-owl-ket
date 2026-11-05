@@ -23864,8 +23864,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 4,
       "species_id": 68,
-      "heartbeat_at": "2026-11-05T17:08:00+08:00",
-      "expires_at": "2026-11-05T17:23:00+08:00"
+      "heartbeat_at": "2026-11-05T17:10:00+08:00",
+      "expires_at": "2026-11-05T17:25:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23875,12 +23875,12 @@
       "species": "Tyto tenebricosa",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "IMAGE_GENERATED",
+      "current_stage": "REVIEWED",
       "started_at": "2026-11-05T17:03:00+08:00",
       "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
       "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md"
     },
-    "current_stage": "IMAGE_GENERATED",
+    "current_stage": "REVIEWED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24471,6 +24471,38 @@
           "inspection_issue": null,
           "complete_prompt": "owl-pet/research/species/68-tyto-tenebricosa-v5.md",
           "lease_expires_at": "2026-11-05T17:23:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 4,
+        "stage": "REVIEWED",
+        "at": "2026-11-05T17:10:00+08:00",
+        "run_id": "20261105T170300+0800-cycle-4",
+        "species_id": 68,
+        "credited": false,
+        "evidence": {
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "image_edit_required": false,
+          "edit_count": 0,
+          "generation_seconds": 70.8,
+          "final_path": "owl-pet/design/concepts/68-tyto-tenebricosa-v5.png",
+          "final_sha256": "de2d8ff18da65a3c9c1066f381fba08fd3f16ed5d3f7deef44aed7e37c0a384c",
+          "final_bytes": 3621537,
+          "review_path": "owl-pet/research/reviews/68-tyto-tenebricosa-v5-review.md",
+          "adult_crop": "owl-pet/production/review-crops/68-tyto-tenebricosa-v5-adults.png",
+          "adult_crop_sha256": "be56fd5098aedfe8bb10977d7c336edfa4d115eefcaf42276695fefcc14fc7b8",
+          "juvenile_crop": "owl-pet/production/review-crops/68-tyto-tenebricosa-v5-juvenile.png",
+          "juvenile_crop_sha256": "000ce150e2f4a72a0fde5b191812b00bf7e10626d6a81ce47a2516eab59080c9",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact age/sex of the feather-emergence chick",
+            "continuous feather chronology",
+            "locomotor competence at approximately six weeks",
+            "population-wide visible sex ratio",
+            "universal cavity geometry"
+          ],
+          "lease_expires_at": "2026-11-05T17:25:00+08:00"
         }
       }
     ]

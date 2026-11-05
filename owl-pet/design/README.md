@@ -3137,3 +3137,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - V5 preserves v1–v4 and uses Riekert's documented day-22 nest-box study stage: residual down, largely emerged body/tail feathers, calling at the entrance and two-foot sill support. One edit removed hard adult-like wing rows. Adults stay equal height/wing length with only slight female fullness. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.
 - Immutable archive verification 2026-11-06T03:58:00+08:00: commit `7b6c95709870fc5f95e267c767f54a1a569962d7`, tree `b79972fe13988088f6149b4ff9b8bd77c2186125`; non-truncated 3,197 entries, 15 required paths and six exact binary tuples passed. Manifests 706/705/696; ledger credit pending.
 - Ledger credit 2026-11-06T03:59:22+08:00: verification commit `719832fcb74c8e35929938112d07e8efc6b1af91`, tree `d95544493ac480ce451aa66a6ac0971b38365ee9`; batch cumulative 6/6 COMPLETE, next cycle null and lease released. Science false.
+
+
+## #83 Pallid Scops Owl — *Otus brucei* — v5
+
+- [Concept](concepts/83-otus-brucei-v5.png) · [Research](../research/species/83-otus-brucei-v5.md) · [Review](../research/reviews/83-otus-brucei-v5-review.md) · [Run](../production/runs/20261106T043000+0800-cycle-1.md)
+- V5 preserves v1–v4 and changes the center bird to the directly observed Jordan recent-fledgling boundary: little tufts, short tail, fine transverse bars and open-beak begging, with continuous palm-cavity support. One juvenile-only edit removed adult-like repeated wing spots/hard layers. Adults stay near-equal height/wing length; female only subtly fuller. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.

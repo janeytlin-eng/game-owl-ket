@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T03:58:00+08:00",
+  "updated": "2026-11-06",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21997,7 +21997,80 @@
       "archive_tree": "b79972fe13988088f6149b4ff9b8bd77c2186125",
       "verified_at": "2026-11-06T03:58:00+08:00",
       "verification_result": "PASS: immutable non-truncated 3,197-entry tree; all 15 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 706/705/696"
+    },
+    {
+      "id": "83-otus-brucei-v5",
+      "path": "design/concepts/83-otus-brucei-v5.png",
+      "species_id": 83,
+      "scientific_name": "Otus brucei",
+      "current_scientific_name": "Otus brucei",
+      "common_name": "Pallid Scops Owl",
+      "historical_names": [
+        "Ephialtes brucei"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287",
+        "BRU-ITIS-555375-2026",
+        "BRU-SANGHA-MALIK-2010-P176-177",
+        "BRU-BENDOV-KIAT2016",
+        "BRU-CHANDRAN-2016",
+        "BRU-MIK2013-126"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/83-otus-brucei-v5.md",
+      "review_record": "research/reviews/83-otus-brucei-v5-review.md",
+      "run_record": "production/runs/20261106T043000+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2643789,
+      "sha256": "0ffb4853bf8316a5d2ffd4f0ea20e256590072b5cc123f8cf1be6ba97a9b50fa",
+      "git_blob": "ebf17798627df485a1682d3c23b209f7b9307901",
+      "generated_path": "production/generated/83-otus-brucei-v5-generated-master.png",
+      "generated_blob": "d4fca0e3a05fd421ce298aacd14a3faaeaffafc0",
+      "generated_sha256": "7e173387a8df0ba0015a45f11b160252c195b57288815616d14ac9ed8ced620d",
+      "generated_size_bytes": 2831806,
+      "edit_path": "production/generated/83-otus-brucei-v5-edit1.png",
+      "edit_blob": "ebf17798627df485a1682d3c23b209f7b9307901",
+      "edit_paths": [
+        "production/generated/83-otus-brucei-v5-edit1.png"
+      ],
+      "edit_blobs": [
+        "ebf17798627df485a1682d3c23b209f7b9307901"
+      ],
+      "reviewed_path": "production/reviewed/83-otus-brucei-v5-reviewed-master.png",
+      "reviewed_blob": "ebf17798627df485a1682d3c23b209f7b9307901",
+      "adults_review_crop": "production/review-crops/83-otus-brucei-v5-adults-support.png",
+      "adults_review_blob": "5d45d8a81d4b9d6edaec3558da5812d3ae76b90d",
+      "adults_review_size_bytes": 1876481,
+      "adults_review_sha256": "3fcf6ea7db1c04601e70f871c6f3cefa4905c9002d19b8f9505847316d86edb5",
+      "juvenile_review_crop": "production/review-crops/83-otus-brucei-v5-juvenile.png",
+      "juvenile_review_blob": "ee4a634178de7649062cca81d77abb75c85a6372",
+      "juvenile_review_size_bytes": 721227,
+      "juvenile_review_sha256": "1addaa5d0cd61c18868161b42066d90ed04eb7d328dd19be062069ddc4b90738",
+      "reviewed_at": "2026-11-06T04:43:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4. A Jordan field record directly supports little tufts, short tail, fine unstreaked transverse underpart bars and begging/hissing in recent fledglings. One center-only edit removed repeated adult-like pale wing spots and hard layers while preserving full support and action. Adults remain near-equal height/wing length; female only subtly fuller. Exact age, flight threshold, sex, subspecies, universal palm nesting and independent scientific sign-off remain unknown; science false.",
+      "archive_commit": null,
+      "archive_tree": null,
+      "verified_at": null,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-11-06T03:58:00+08:00"
+  "updated_at": "2026-11-06T04:47:00+08:00"
 }

@@ -33,3 +33,8 @@ Mikkola printed pp.126–127/PDF pp.128–129 was directly read with the user-up
 ### VERIFIED 2026-10-31T04:49:30+08:00
 
 Fixed archive `4d52a675ded909e923b8d2ce7e43bb0bb4971907` returned exact concept/generated/reviewed/crop bytes, Git blobs and sizes; non-truncated tree and manifests 587/586/577 matched. V4 is archived and visually checked; science remains false and user confirmation is not inferred.
+
+
+## 2026-11-06 v5 evidence-bounded recent fledgling
+
+Fresh field evidence changed the selected juvenile action rather than inventing a rarer downy stage. Khoury, Alshamlih & Dheib 2021 printed pp.286–287 directly support a recent fledgling with little tufts, short tail, fine breast/belly cross-bars and begging/hissing; ITIS TSN 555375 confirms current *Otus brucei* and old combination *Ephialtes brucei*; Sangha & Malik 2010 pp.176–177 supports pale grey/creamy-grey adults with fine sharp streaks and warns through posture variation against treating apparent roundness as sex. V5 keeps adults near-equal in height/wing length and only a subtly fuller female. One juvenile-wing-only edit removed adult-like repeated pale spots and hard layers. Full plate and two crops were reopened; support, stage and action pass with limitations. Exact age, flight threshold, sex, subspecies, universal palm nesting and independently signed science approval remain unknown; `scientifically_verified=false`.

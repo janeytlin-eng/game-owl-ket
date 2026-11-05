@@ -75,3 +75,9 @@ Avoid: extra birds, eggs, prey, watermark, border, exact day claim, hovering, fl
 ## Planned review
 
 Open the full image and check exact text/count, adult pallid identity, near-equal scale, juvenile fine horizontal bars/little tufts/short tail/open-beak begging, compact fresh wing and uninterrupted toe support. Edit any mature juvenile wing rows, long tail, adult streaking on the juvenile, oversized tufts, sex-height exaggeration or unsupported foot before archive.
+
+## Generated result and self-revision
+
+The initial 1536×1024 render was opened. It passed text/count/adult identity/near-equal adult scale/palm cavity/support and the juvenile's begging/short-tail/transverse-bar boundary, but the juvenile folded wing retained repeated pale adult-like spots and a hard layered primary panel. A targeted second image-generation pass changed only that wing and tail edge. The final plate and two diagnostic crops were reopened: the juvenile is now shorter-winged, rounder, softly fresh/down-obscured and supported; the evidence-bounded stage/action remain intact. Final SHA-256: `0ffb4853bf8316a5d2ffd4f0ea20e256590072b5cc123f8cf1be6ba97a9b50fa`; Git blob `ebf17798627df485a1682d3c23b209f7b9307901`.
+
+PASS_WITH_LIMITATIONS. Exact age, sustained-flight threshold, sex, subspecies, universal palm-nesting geometry and independently signed science approval remain unknown; `scientifically_verified=false`.

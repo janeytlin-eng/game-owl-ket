@@ -6,6 +6,8 @@
 - Juvenile crop: `owl-pet/production/review-crops/83-otus-brucei-v5-juvenile.png`
 - Adults/support crop: `owl-pet/production/review-crops/83-otus-brucei-v5-adults-support.png`
 - Final dimensions: 1536×1024 PNG
+- Final size: 2,643,789 bytes
+- Final SHA-256: `0ffb4853bf8316a5d2ffd4f0ea20e256590072b5cc123f8cf1be6ba97a9b50fa`
 - Final Git blob: `ebf17798627df485a1682d3c23b209f7b9307901`
 
 ## Problem → evidence → edit → re-check

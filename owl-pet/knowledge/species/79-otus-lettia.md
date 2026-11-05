@@ -27,3 +27,7 @@ Exact JPEG objects and supporting records persisted at ARCHIVED; fixed-commit re
 
 Archive `20419a0cd19aec7ecffa739e3b319fc3f61a95ea` preserves the exact reviewed assets and records. The applied wing correction is archive-verified; unresolved pin geometry, sex ratio and subspecies transfer remain scientifically unverified.
 
+## 2026-11-06 v5 research-ready boundary
+
+Primary `LET-LEADPRATHOM-2009-P457-461` was freshly opened in the publisher PDF: adult measurements are explicitly from sex-unknown birds, so no female-larger display ratio is licensed; its 11–15-day band begins bill bristles but does not photograph exact remige geometry. A separately viewed Cornell/Macaulay image (`LET-BOW-2024-ML339711461`) shows age-unknown older juveniles as soft gray, dark-eyed, short-tufted branchers with compact down-softened folded wings and continuous branch support. V5 therefore replaces the v4 exact-day cavity nestling with one photo-bounded `AGE-UNKNOWN OLDER JUVENILE`, without assigning day, sex, subspecies or flight ability. ITIS maps current *Otus lettia* to old *Scops lettia*; National Taiwan Museum TMAV2952 is a one-female *glabripes* record and does not establish species-wide sex size. New/restored4, reused2, corrected3; science false. Full prompt: `research/species/79-otus-lettia-v5.md`.
+

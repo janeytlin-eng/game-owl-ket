@@ -1440,3 +1440,36 @@
 - Re-read primary `MAR-ANSARA-ROSS-2008` DOI `10.2989/OSTRICH.2008.79.1.11.366`, `MARSH-BIOEXP-2026` and `MARSH-OWLPAGES-2020`; reused repository extraction `WHSO-MIKKOLA-2013` printed pp.518–519/PDF pp.520–521.
 - New1 / re-read3 / reused1 / corrected3. Adult sex direction is restrained to modest female fullness/tail rather than fixed height; the newly opened photo controls the chosen young's visible stage; institutional summaries provide broader ground-dependence context but do not date that photo. Uploaded Mikkola guide was unavailable, so no fresh page transcription. Exact age, juvenile sex/locality, movement ability, daily feather chronology, universal adult ratio and subspecies transfer remain unknown; science false.
 
+## 2026-11-06 — #79 *Otus lettia* v5 — photographed older-juvenile boundary
+
+### LET-LEADPRATHOM-2009-P457-461
+- **Title / authors / year:** *Nesting Ecology of the Collared Scops Owl Otus lettia in Thailand* — Kumron Leadprathom, Vijak Chimchome & Sara Bumrungsri, 2009.
+- **URL / DOI / pages / accessed:** https://bioone.org/journals/ardea/volume-97/issue-4/078.097.0409/Nesting-Ecology-of-the-Collared-Scops-Owl-Otus-lettia-in/10.5253/078.097.0409.pdf ; https://doi.org/10.5253/078.097.0409 ; *Ardea* 97(4):457–461; publisher PDF opened and pp.457–461 read 2026-11-06.
+- **Type / species / stage:** primary field study; *Otus lettia* in Chanthaburi, Thailand; hatching through fledging plus adults of unknown sex.
+- **Facts:** hatchlings semi-altricial with closed eyes, natal down and egg tooth; remiges/semiplumes begin 6–10 d; eyes open at mean 6 ± 2.8 d; bill bristles begin 11–15 d; rectrices begin 16–20 d as remiges/semiplumes become fully developed; 21–25 d fully feathered/fledged. Twelve measured adults were explicitly sex unknown. Nest sites included cavities and several other documented substrates.
+- **Limits / design use:** the paper gives age bands but no feather-pin photograph or sexed adult dimensions. It controls chronology and prohibits an invented adult sex ratio or exact 11–15-day wing geometry; it does not determine the age of the separate photographed branchers.
+- **Links:** `research/species/79-otus-lettia-v5.md`; planned v5 concept; run `production/runs/20261106T013300+0800-cycle-3.md`.
+
+### LET-BOW-2024-ML339711461
+- **Title / institution / year:** *Collared Scops-Owl (Otus lettia)*, version 1.2 — Holt et al., Cornell Lab of Ornithology Birds of the World, 2024; linked Macaulay Library photo asset ML339711461.
+- **URL / section / accessed:** https://birdsoftheworld.org/bow/species/cosowl1/cur/introduction?media=photos ; account lines 70–77, 118–124, 249–270 and linked photo actually viewed 2026-11-06; DOI https://doi.org/10.2173/bow.cosowl1.01.2.
+- **Type / species / stage:** institutional species account plus verifiable wildlife photograph; several age-unknown older juveniles/branchers.
+- **Facts actually visible:** dark eyes; soft gray down/mesoptile; short inconspicuous tufts; compact formed wings softened by residual down; several juveniles continuously supported on a lichen-covered branch.
+- **Limits / design use:** image is not a dated development series and the accessible view does not establish exact subspecies, sex, flight ability or feather measurements. It supports one age-unknown older juvenile brancher with natural support and compact down-softened wings, not an exact day or flight claim.
+
+### LET-ITIS-1063232-2026
+- **Title / institution:** ITIS report TSN 1063232 — Integrated Taxonomic Information System.
+- **URL / accessed:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063232&source=to_print ; lines 6–18 and 29–56 read 2026-11-06.
+- **Facts:** valid species *Otus lettia* (Hodgson, 1836); synonym/original combination *Scops lettia* Hodgson, 1836; six listed subspecies.
+- **Limits / design use:** taxonomy and old-name mapping only; no morphology, sex-size or development inference.
+
+### LET-NTM-TMAV2952-2026
+- **Title / institution / specimen:** Collared Scops Owl specimen TMAV2952 — National Taiwan Museum; adult female *Otus lettia glabripes*.
+- **URL / accessed / section:** https://collections.culture.tw/ntm_collectionsweb/Collection?GID=0FMSMF06MB ; specimen and description lines 96–135 read 2026-11-06; no printed page.
+- **Facts:** female specimen wing 165.54 mm, tail 89.93 mm; institutional description calls the Taiwan subspecies externally sexually alike and records dark-red iris/pink eye-ring, feathered tarsus and tree-cavity use.
+- **Limits / design use:** one female specimen and a different subspecies cannot establish a species-wide size ratio or transfer exact Taiwanese plumage to Thailand/Bangladesh. It supports the conservative near-equal display boundary only.
+
+### Reuse and correction
+- Reused `SUN-BSS-CURRENT` and repository extraction `WHSO-MIKKOLA-2013` printed p.162/PDF p.164. The uploaded guide itself was inaccessible, so no fresh page-view claim is made.
+- New/restored detailed source records 4 / reused 2 / corrected boundaries 3. V5 changes from a chronology-bounded but visually approximate 11–15-day wing to a directly photographed age-unknown older brancher. Exact age, sex, subspecies, flight threshold, feather sequence and population sex-size direction remain unknown; science false.
+

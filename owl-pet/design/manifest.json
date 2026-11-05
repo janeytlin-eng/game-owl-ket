@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T06:55:00+08:00",
+  "updated": "2026-11-06T07:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22755,7 +22755,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 2,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BEN-RAMANUJAM-MURUGAVEL-2009-P519-524",
         "BEN-PANDE-DAHANUKAR-2011-P1677-1685",
@@ -22798,9 +22798,13 @@
       "juvenile_review_size_bytes": 686568,
       "juvenile_review_sha256": "500dde16b4d6016b6bf7615a1935e472ace36c6d994bbdfeb4068adf6947d02d",
       "reviewed_at": "2026-11-06T06:50:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4. Generated plate was inspected; edit1 was rejected after deleting the title and changing canvas, then edit2 from the original passed full/crop reinspection. Adult scale is near-equal; c.35-day juvenile is rock-supported with softened developing wing. Juvenile sex, individual flight competence, exact height ratio, regional fine plumage and scientific sign-off remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4. Generated plate was inspected; edit1 was rejected after deleting the title and changing canvas, then edit2 from the original passed full/crop reinspection. Adult scale is near-equal; c.35-day juvenile is rock-supported with softened developing wing. Juvenile sex, individual flight competence, exact height ratio, regional fine plumage and scientific sign-off remain unknown; science false.",
+      "archive_commit": "85bec926a7577f4f3b486e778740cb1b5ced7475",
+      "archive_tree": "f066d8802c5920f6497c92b24b440a99002af580",
+      "verified_at": "2026-11-06T07:00:00+08:00",
+      "verification_result": "PASS: immutable archive tree returned 3,241 non-truncated entries; all seven #89 binary paths and three research/review/run text paths were present; exact blobs/byte sizes matched; manifests parsed at 710/709/700 with #89 v5 tail."
     }
   ],
-  "updated_at": "2026-11-06T06:55:00+08:00"
+  "updated_at": "2026-11-06T07:00:00+08:00"
 }

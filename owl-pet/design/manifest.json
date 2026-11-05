@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T07:00:00+08:00",
+  "updated": "2026-11-06T07:23:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22804,7 +22804,72 @@
       "archive_tree": "f066d8802c5920f6497c92b24b440a99002af580",
       "verified_at": "2026-11-06T07:00:00+08:00",
       "verification_result": "PASS: immutable archive tree returned 3,241 non-truncated entries; all seven #89 binary paths and three research/review/run text paths were present; exact blobs/byte sizes matched; manifests parsed at 710/709/700 with #89 v5 tail."
+    },
+    {
+      "id": "91-tyto-javanica-delicatula-v5",
+      "path": "design/concepts/91-tyto-javanica-delicatula-v5.png",
+      "species_id": 91,
+      "scientific_name": "Tyto javanica delicatula",
+      "current_scientific_name": "Tyto javanica delicatula",
+      "common_name": "Eastern Barn Owl",
+      "historical_names": [
+        "Tyto alba delicatula",
+        "Strix delicatulus",
+        "Tyto delicatula",
+        "Tyto delicatula delicatula"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "JAV-MCLAUGHLIN-DEBUS-2025-P116-123",
+        "JAV-AUSTRALIAN-MUSEUM-2022",
+        "JAV-ABSA-BIRD-IN-HAND-2E-P1",
+        "JAV-ITIS-1063605-2026",
+        "JAV-MIKKOLA-2013-P91-92"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/91-tyto-javanica-delicatula-v5.md",
+      "review_record": "research/reviews/91-tyto-javanica-delicatula-v5-review.md",
+      "run_record": "production/runs/20261106T070500+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3049584,
+      "sha256": "3455ad6c2c5f51872f472e88cbc1d35ae6a80039881d7b3d764f64e12683541b",
+      "git_blob": "74a7af72e60afd48601f8341985f6c3ad47e6134",
+      "generated_path": "production/generated/91-tyto-javanica-delicatula-v5-generated-master.png",
+      "generated_blob": "cee5d79227237b2a5bc9d30ce9758091a74ffdc8",
+      "generated_sha256": "5e340b1ea8ca11e0c7c1b2a074f6409db4468f9d34ebdbcb7220be2df1096c42",
+      "generated_size_bytes": 3376414,
+      "edit_path": "production/generated/91-tyto-javanica-delicatula-v5-edit1.png",
+      "edit_blob": "74a7af72e60afd48601f8341985f6c3ad47e6134",
+      "reviewed_path": "production/reviewed/91-tyto-javanica-delicatula-v5-reviewed-master.png",
+      "reviewed_blob": "74a7af72e60afd48601f8341985f6c3ad47e6134",
+      "adults_review_crop": "production/review-crops/91-tyto-javanica-delicatula-v5-adults-support.png",
+      "adults_review_blob": "eb8c9b8412b6a4af020723d36846d85bbe8da9e6",
+      "adults_review_size_bytes": 2375628,
+      "adults_review_sha256": "261e9672428a018935814fc710e4f27c3595f9a5191c8df5c2e8f271cbf8ac94",
+      "juvenile_review_crop": "production/review-crops/91-tyto-javanica-delicatula-v5-juvenile.png",
+      "juvenile_review_blob": "53306f228007112ca27cda9d24077b1a55ffc36a",
+      "juvenile_review_size_bytes": 854487,
+      "juvenile_review_sha256": "429cfab8801217e0130da0aec66a358c36c3d77ad5776b2fac6901c1f82b44e6",
+      "reviewed_at": "2026-11-06T07:21:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4. Generated plate and crops were inspected; one targeted juvenile-only edit shortened/softened the outer wing/tail and restored mesoptile overlap while preserving title, adults, hollow and support. Adult scale is near-equal with qualitative colour/spotting contrast only. Exact individual age, fledging date, regional variation and external scientific sign-off remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T07:00:00+08:00"
+  "updated_at": "2026-11-06T07:23:00+08:00"
 }

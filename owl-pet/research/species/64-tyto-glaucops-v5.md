@@ -52,3 +52,7 @@ Full render, adults crop and juvenile crop reopened. PASS_WITH_LIMITATIONS, zero
 
 Concept, generated/reviewed full-resolution masters, two opened review crops, research/review/run records and all three manifests prepared on main. Manifest counts 687/688/678; unique remains 176/251; science false. Immutable archive readback pending.
 
+## VERIFIED — 2026-11-05T14:53:05+08:00
+
+Initial archive `2e4b9f9b6990b392d80e7bd13a1fc82111c0fc30` was rejected because immutable tree sizes exposed truncated large blobs. Chunk-repaired archive `d65b04f9537d08688eeadfd5d7392c285a137d90`, tree `365fb544c4509d521eb2eba8dbfbe3f1d27e391e`, returned a non-truncated 3,044-entry tree with all 13 required paths, exact local Git blob SHAs and true sizes. Visual verdict remains PASS_WITH_LIMITATIONS; science false.
+

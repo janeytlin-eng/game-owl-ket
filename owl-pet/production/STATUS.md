@@ -29,3 +29,8 @@
 - Full-resolution concept/generated/reviewed master blob `39310c62e82b0bba9de81cb1098a2465a91edc5f`; first render passed opened full and crop review without edit.
 - The selected older juvenile uses a directly viewed pine-perch field-photo boundary, while v4's Palmchat-nest young remains a separate historical version. Unknown age/sex/subspecies/flight and caption-level identification keep science false.
 - Manifest counts 687 / 688 / 678; unique remains 176/251. Cycle 6 is not credited before immutable readback.
+
+### #64 v5 VERIFIED — ledger credit pending
+
+- Corrected archive `d65b04f9537d08688eeadfd5d7392c285a137d90`, tree `365fb544c4509d521eb2eba8dbfbe3f1d27e391e`, passed non-truncated 13-path blob/size readback after rejecting the initial truncated archive.
+- Manifests 687/688/678; unique 176/251; PASS_WITH_LIMITATIONS; science false. Ledger credit pending.

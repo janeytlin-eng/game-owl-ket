@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T14:45:00+08:00",
+  "updated": "2026-11-05T14:53:05+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21410,7 +21410,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": ["AFO-BIRDFORUM-2008-JUV", "AFO-CURTI-2018", "AFO-MACAULAY-ML201989861", "AFO-CLEMENTS-2024-SPECIES", "AFO-ITIS-555358-2026"],
       "source_index": "research/SOURCE_INDEX.md",
       "research_record": "research/species/64-tyto-glaucops-v5.md",
@@ -21435,9 +21435,13 @@
       "juvenile_review_size_bytes": 896684,
       "juvenile_review_sha256": "5567079ab3f836663b47a57852e1ad899846b987288b77fc6f4280d13a2eac8c",
       "reviewed_at": "2026-11-05T14:42:49+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and separates the 2008 captioned older juvenile on a Sierra de Bahoruco pine perch from v4's Palmchat-nest begging-young event. First render passed full and crop review without edit. Exact age/sex/subspecies, feather chronology, locomotor competence, sexed dimensions and habitat generality remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and separates the 2008 captioned older juvenile on a Sierra de Bahoruco pine perch from v4's Palmchat-nest begging-young event. First render passed full and crop review without edit. Exact age/sex/subspecies, feather chronology, locomotor competence, sexed dimensions and habitat generality remain unknown; science false.",
+      "verified_at": "2026-11-05T14:53:05+08:00",
+      "archive_commit": "d65b04f9537d08688eeadfd5d7392c285a137d90",
+      "archive_tree": "365fb544c4509d521eb2eba8dbfbe3f1d27e391e",
+      "verification_result": "Non-truncated 3,044-entry immutable tree matched 13 required paths, exact Git blobs and true sizes after chunk-repair of the initial truncated archive; manifests parse locally at 687/688/678."
     }
   ],
-  "updated_at": "2026-11-05T14:45:00+08:00"
+  "updated_at": "2026-11-05T14:53:05+08:00"
 }

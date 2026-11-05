@@ -3180,3 +3180,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - V1–v4 remain preserved. The opened 2008 identified field photograph supports a materially different, age-unknown older juvenile on a Sierra de Bahoruco pine perch, separated from v4's Palmchat-nest begging-young event.
 - First render passed full-frame and adult/juvenile crop review without edit: exactly three owls, restrained adult sex scale, dark-eyed ash faces and all six supported feet. Exact juvenile age/sex/subspecies, feather chronology, locomotor capacity and habitat generality remain unknown.
 - Manifests 687 / 688 / 678; unique 176/251; science false; no cycle credit before immutable readback.
+
+### #64 v5 VERIFIED — ledger credit pending
+
+- Initial archive `2e4b9f9b6990b392d80e7bd13a1fc82111c0fc30` was rejected for truncated large blobs. Corrected archive `d65b04f9537d08688eeadfd5d7392c285a137d90`, tree `365fb544c4509d521eb2eba8dbfbe3f1d27e391e`, returned all 13 paths with exact true sizes and Git hashes.
+- PASS_WITH_LIMITATIONS; manifests 687/688/678; unique 176/251; science false. Ledger credit pending.

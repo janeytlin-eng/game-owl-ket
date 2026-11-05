@@ -22663,8 +22663,8 @@
       "batch_id": "20261105T103554+0800",
       "cycle": 6,
       "species_id": 64,
-      "heartbeat_at": "2026-11-05T14:45:00+08:00",
-      "expires_at": "2026-11-05T15:00:00+08:00"
+      "heartbeat_at": "2026-11-05T15:27:40+08:00",
+      "expires_at": "2026-11-05T15:42:40+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T103554+0800",
@@ -22674,12 +22674,12 @@
       "species": "Tyto glaucops",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "ARCHIVED",
+      "current_stage": "VERIFIED",
       "started_at": "2026-11-05T13:58:47+08:00",
       "baseline_commit": "81e20e2c18be45299e6d954970aec621a8478c0c",
       "run_record": "owl-pet/production/runs/20261105T135847+0800-cycle-6.md"
     },
-    "current_stage": "ARCHIVED",
+    "current_stage": "VERIFIED",
     "events": [
       {
         "cycle": 1,
@@ -23561,6 +23561,29 @@
           "scientifically_verified": false,
           "readback_pending": true,
           "lease_expires_at": "2026-11-05T15:00:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T103554+0800",
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "at": "2026-11-05T14:53:05+08:00",
+        "run_id": "20261105T135847+0800-cycle-6",
+        "species_id": 64,
+        "credited": false,
+        "evidence": {
+          "archive_commit": "d65b04f9537d08688eeadfd5d7392c285a137d90",
+          "archive_tree": "365fb544c4509d521eb2eba8dbfbe3f1d27e391e",
+          "rejected_archive": "2e4b9f9b6990b392d80e7bd13a1fc82111c0fc30",
+          "paths_verified": 13,
+          "binary_paths_verified": 5,
+          "unique_binary_blobs": 3,
+          "manifest_counts": {"design_image": 687, "design_legacy": 688, "production": 678},
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-05T15:08:05+08:00"
         }
       }
     ]

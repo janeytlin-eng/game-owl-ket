@@ -3025,3 +3025,4 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/64-tyto-glaucops-v5.png) · [Research](../research/species/64-tyto-glaucops-v5.md) · [Review](../research/reviews/64-tyto-glaucops-v5-review.md) · [Run](../production/runs/20261105T135847+0800-cycle-6.md)
 - V5 preserves v1–v4 and separates a captioned older juvenile photographed on a high-elevation Sierra de Bahoruco pine perch from v4's Palmchat-nest begging-young event. Full-resolution first render passed actual full/crop inspection without edit. Exact age/sex/subspecies, locomotor threshold and habitat generality remain unknown. PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+- Corrected immutable archive `d65b04f9537d08688eeadfd5d7392c285a137d90` / tree `365fb544c4509d521eb2eba8dbfbe3f1d27e391e` returned exact true-size blobs after the first truncated archive was rejected. Ledger credit pending.

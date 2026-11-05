@@ -1138,3 +1138,20 @@
 - NParks lines 19–47 support adult morphology, bare legs and water-associated habitat. BESG lines 11–47 directly support a down-covered, mostly resting/occasionally shifting chick in living *Asplenium nidus*. Singapore Bird Group lines 11–32 state that 25 March was about two weeks after **discovery**, not a known hatch date; the later branch bird and inferred short flight are not transferred backward.
 - Design decision: early nestling, exact age unknown, full fern support, no formed remiges/tail/flight; adult sexes near-equal absent measurements. Source facts and design inference are separated in [species card](species/61-ketupa-ketupu-v5.md). Mikkola unavailable; science false.
 
+## 2026-11-05 — #63 *Scotopelia peli* v5 — large downy river-roost juvenile boundary
+
+### PFOW-SANPARKS-KRUGER-2007-P6
+- **Title / author / institution / year:** *Kruger National Park — Rare Bird Sightings 2007*, Pafuri report by Martin Benadie — South African National Parks, 2007.
+- **URL / page / accessed:** https://www.sanparks.org/wp-content/uploads/2021/03/2007-kruger.pdf ; PDF p.6, “Pafuri Area — 3 to 6 June 2007”; full page and text read 2026-11-05.
+- **Type / scope:** first-hand institutional field report; one adult with one “large downy chick” along the Luvuvhu east, plus another adult on the Luvuvhu west.
+- **Facts:** the adult and large downy chick were found roosting along the river in riparian woodland. The report independently anchors a large, still-downy juvenile outside a fabricated detailed hatchling sequence.
+- **Limits / conflicts / credibility:** no hatch date, sex, dimensions, feather-tract chronology, exact perch description or flight test; a single June observation cannot define all populations. High credibility for occurrence, stage wording and riverine context; insufficient for exact age/action.
+- **Design decision:** depict an age-unknown large downy juvenile low and fully supported on a broad riverine tree fork, with only compact down-softened folded wing contours and no flight pose. The fork is a conservative support synthesis, not a claimed photographed nest or universal roost.
+- **Links:** `research/species/63-scotopelia-peli-v5.md`; planned concept v5; run `production/runs/20261105T133651+0800-cycle-5.md`.
+
+### Reused and corrected boundaries
+- Re-read `PFOW-BIRDLIFE-SA-2025-ECOLOGY` and `PFOW-SANBI-03164-2026`: adults are similar; male deeper rufous, female only slightly larger; dark eyes, no distinct facial disc, bare powerful tarsi/feet; juveniles retain much pale white down through the first six months. Reused `PFO-BROOKE-1984-P128`: riparian forest over clear pools, ten-week nestling period and prolonged family association.
+- Current name: *Scotopelia peli* (Bonaparte, 1850); basionym/old mapping *Strix peli* Bonaparte, 1850; historical *Bubo peli* references map to the same species.
+- New verified sources: 1; re-read verified sources: 3; corrected boundaries: 3. “Large downy chick” is not an exact age; roosting does not prove independent flight; “female slightly larger” is not a fixed height multiplier.
+- Uploaded Mikkola guide was unavailable in this run; no fresh page claim. Unknown: exact juvenile age/sex, continuous feather chronology, locomotor ability, perch geometry, universal sex-size ratio and cross-population transfer. Scientific status remains false.
+

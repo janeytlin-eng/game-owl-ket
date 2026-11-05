@@ -15262,22 +15262,23 @@
       "batch_id": "20261105T103554+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_lease": {
-        "owner": "codex-automation",
-        "run_id": "20261105T103554+0800-cycle-1",
-        "heartbeat_at": "2026-11-05T10:35:54+08:00",
-        "expires_at": "2026-11-05T10:50:54+08:00"
-      },
-      "in_progress": {
-        "cycle": 1,
-        "run_id": "20261105T103554+0800-cycle-1",
-        "species_id": 59,
-        "species": "Ketupa zeylonensis",
-        "stage": "STARTED"
-      },
-      "current_stage": "STARTED",
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species": "Ketupa zeylonensis",
+          "species_id": 59,
+          "action": "REVISION",
+          "unique_species_increment": 0,
+          "commit_sha": "14d889dddbb247bc9d2b3ce83b98bbd4628498d4",
+          "run_record": "owl-pet/production/runs/20261105T103554+0800-cycle-1.md",
+          "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
+          "verification_tree": "3e679f9c0a692244a894190bde77c7f3469e04a1"
+        }
+      ],
+      "next_cycle": 2,
+      "active_lease": null,
+      "in_progress": null,
+      "current_stage": "VERIFIED",
       "events": [
         {
           "cycle": 1,
@@ -15291,6 +15292,133 @@
             "baseline_commit": "acede2909642706dda514adb5ecfd9a689f52f86",
             "prior_version": "owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg",
             "lease_expires_at": "2026-11-05T10:50:54+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-05T10:39:25+08:00",
+          "run_id": "20261105T103554+0800-cycle-1",
+          "species_id": 59,
+          "credited": false,
+          "evidence": {
+            "source_ids": [
+              "BFOW-HKBWS-AVIFAUNA-2026",
+              "BFOW-KFBG-2021",
+              "BFO-INDIANBIRDS-2013-P147-151",
+              "BFOW-BINDU-BALAKRISHNAN-2015-P97-98"
+            ],
+            "new_or_restored_sources": 4,
+            "reused_sources": 4,
+            "corrected_boundaries": 3,
+            "species_card": "owl-pet/research/species/59-ketupa-zeylonensis-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_saved": true,
+            "mikkola_upload_accessible": false,
+            "lease_expires_at": "2026-11-05T10:54:25+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-05T10:42:08+08:00",
+          "run_id": "20261105T103554+0800-cycle-1",
+          "species_id": 59,
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/59-ketupa-zeylonensis-v5-generated-master.png",
+            "dimensions": "1536x1024",
+            "bytes": 3659324,
+            "sha256": "9dffe35fc994b42fbe95c68887af2a66eb214c44590d3ed6a4d9cd1ccc51cd2a",
+            "generation_seconds": 67.4,
+            "edit_count": 0,
+            "inspection_issue": "juvenile exposed folded flight feathers too long, regularly layered and adult-like; bounded juvenile-only edit required",
+            "complete_prompt": "owl-pet/research/species/59-ketupa-zeylonensis-v5.md",
+            "lease_expires_at": "2026-11-05T10:57:08+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "REVIEWED",
+          "at": "2026-11-05T10:45:59+08:00",
+          "run_id": "20261105T103554+0800-cycle-1",
+          "species_id": 59,
+          "credited": false,
+          "evidence": {
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "image_edit_required": true,
+            "edit_count": 1,
+            "generation_seconds": 67.4,
+            "edit_seconds": 52.0,
+            "final_path": "owl-pet/design/concepts/59-ketupa-zeylonensis-v5.png",
+            "final_sha256": "e87004112b7ccea3c8f75617e0639e493d4254fe65935639ff0de91a107c30a5",
+            "final_bytes": 3419316,
+            "review_path": "owl-pet/research/reviews/59-ketupa-zeylonensis-v5-review.md",
+            "adult_crop": "owl-pet/production/review-crops/59-ketupa-zeylonensis-v5-adults.png",
+            "adult_crop_sha256": "532bc16709e3eab803b3c744296089c57d5f6e4e2ba6905de469268485068ee6",
+            "juvenile_crop": "owl-pet/production/review-crops/59-ketupa-zeylonensis-v5-juvenile.png",
+            "juvenile_crop_sha256": "78f6086b89877c4494df9cafd3aa60fcbf2335ee2cde535b9719168ec8071659",
+            "scientifically_verified": false,
+            "unknowns": [
+              "exact juvenile age/sex/subspecies",
+              "continuous feather chronology",
+              "first-flight competence",
+              "quantitative sex dimensions",
+              "cross-population transfer"
+            ],
+            "lease_expires_at": "2026-11-05T11:00:59+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "ARCHIVED",
+          "at": "2026-11-05T10:48:14+08:00",
+          "run_id": "20261105T103554+0800-cycle-1",
+          "species_id": 59,
+          "credited": false,
+          "evidence": {
+            "version": 5,
+            "concept_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
+            "generated_blob": "c38b2bc2d8971d293547ab8f709c8c23b4b63576",
+            "reviewed_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
+            "adult_crop_blob": "ea627648fa7b10f8142aebe2bd51e87f213672c2",
+            "juvenile_crop_blob": "37e8a5a4c6cc00c84455f214d7c4611331968432",
+            "manifest_counts": {
+              "design_image": 682,
+              "design_legacy": 683,
+              "production": 673
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-05T11:03:14+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "VERIFIED",
+          "at": "2026-11-05T10:53:08+08:00",
+          "run_id": "20261105T103554+0800-cycle-1",
+          "species_id": 59,
+          "credited": true,
+          "evidence": {
+            "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
+            "archive_tree": "ffff7346aa11b1c808765076fa4149ab4224457b",
+            "paths_verified": 12,
+            "binary_paths_verified": 5,
+            "unique_binary_blobs": 4,
+            "manifest_counts": {
+              "design_image": 682,
+              "design_legacy": 683,
+              "production": 673
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "next_cycle": 2,
+            "verification_commit": "14d889dddbb247bc9d2b3ce83b98bbd4628498d4",
+            "verification_tree": "3e679f9c0a692244a894190bde77c7f3469e04a1"
           }
         }
       ]
@@ -22077,22 +22205,23 @@
     "batch_id": "20261105T103554+0800",
     "status": "PARTIAL",
     "target_cycles": 6,
-    "completed_cycles": [],
-    "next_cycle": 1,
-    "active_lease": {
-      "owner": "codex-automation",
-      "run_id": "20261105T103554+0800-cycle-1",
-      "heartbeat_at": "2026-11-05T10:48:14+08:00",
-      "expires_at": "2026-11-05T11:03:14+08:00"
-    },
-    "in_progress": {
-      "cycle": 1,
-      "run_id": "20261105T103554+0800-cycle-1",
-      "species_id": 59,
-      "species": "Ketupa zeylonensis",
-      "stage": "ARCHIVED"
-    },
-    "current_stage": "ARCHIVED",
+    "completed_cycles": [
+      {
+        "cycle": 1,
+        "species": "Ketupa zeylonensis",
+        "species_id": 59,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "commit_sha": "14d889dddbb247bc9d2b3ce83b98bbd4628498d4",
+        "run_record": "owl-pet/production/runs/20261105T103554+0800-cycle-1.md",
+        "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
+        "verification_tree": "3e679f9c0a692244a894190bde77c7f3469e04a1"
+      }
+    ],
+    "next_cycle": 2,
+    "active_lease": null,
+    "in_progress": null,
+    "current_stage": "VERIFIED",
     "events": [
       {
         "cycle": 1,
@@ -22207,6 +22336,32 @@
           "scientifically_verified": false,
           "readback_pending": true,
           "lease_expires_at": "2026-11-05T11:03:14+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "VERIFIED",
+        "at": "2026-11-05T10:53:08+08:00",
+        "run_id": "20261105T103554+0800-cycle-1",
+        "species_id": 59,
+        "credited": true,
+        "evidence": {
+          "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
+          "archive_tree": "ffff7346aa11b1c808765076fa4149ab4224457b",
+          "paths_verified": 12,
+          "binary_paths_verified": 5,
+          "unique_binary_blobs": 4,
+          "manifest_counts": {
+            "design_image": 682,
+            "design_legacy": 683,
+            "production": 673
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "next_cycle": 2,
+          "verification_commit": "14d889dddbb247bc9d2b3ce83b98bbd4628498d4",
+          "verification_tree": "3e679f9c0a692244a894190bde77c7f3469e04a1"
         }
       }
     ]

@@ -1040,3 +1040,37 @@
 - Corrections: field-estimated 8–10 weeks is not a known hatch age; branch movement and formed remiges do not prove sustained flight. One pair's slightly larger female is not a universal height multiplier.
 - Uploaded Mikkola guide unavailable; no fresh page claim.
 - Unknown: exact age, continuous feather sequence, first-flight competence, universal sex-size ratio and regional transfer.
+## 2026-11-05 — #59 *Ketupa zeylonensis* v5 — Hong Kong brancher and full-resolution boundary
+
+### BFOW-HKBWS-AVIFAUNA-2026
+- **Title / institution / accessed:** Brown Fish Owl species account — *The Avifauna of Hong Kong*, Hong Kong Bird Watching Society; accessed 2026-11-05.
+- **URL / type / sections:** https://avifauna.hkbws.org.hk/species/0190/027400 ; institutional regional avifauna; Identification, Distribution & Habitat Preference and Breeding sections; no page numbers.
+- **Species/stage/facts:** *Ketupa zeylonensis* adults and Hong Kong young. Adults 48–55 cm with loose ear tufts, usually yellow eyes, grey bill, long unfeathered legs/pale-yellow feet, white throat and heavily streaked/crossbarred plumage. Some juveniles are paler on mantle/coverts/scapulars, with narrower/sparser breast streaks and smaller tufts. Seven nest sites included roofs, ledges, buttress roots and a natural hollow; date ranges distinguish downy chicks, unfledged juveniles, first flight and post-fledging dependency.
+- **Limits/conflicts/credibility:** institutional synthesis from regional records, not a known-age feather series; dates overlap, light angle alters apparent iris colour and no sexed measurements are supplied. High value for Hong Kong identity/habitat/stage boundaries; not an exact-age or universal-nest source.
+- **Design/check decision:** bare tarsi, local waterside woodland, paler smaller-tuft juvenile and nest-form diversity; no exact age, universal nest or adult size multiplier.
+- **Links:** `research/species/59-ketupa-zeylonensis-v5.md`; planned concept v5; run `production/runs/20261105T103554+0800-cycle-1.md`.
+
+### BFOW-KFBG-2021
+- **Title / author / institution / year:** “What secrets can we discover at a Brown Fish Owl’s nesting site?” — Aiko Leong, Kadoorie Farm and Botanic Garden, 2021.
+- **URL / type / sections:** https://www.kfbg.org/en/KFBG-blog/post/What-secrets-can-we-discover-at-a-Brown-Fish-Owls-nesting-site ; institutional field/photo account, article lines 45–64 and two juvenile captions; no page numbers; re-read 2026-11-05.
+- **Facts:** one New Territories pair reared one young; the well-feathered nestling was photographed shortly before nest departure, later mobile and exploring nearby branches; wood/bark material occurred at the nest site.
+- **Limits/design:** no hatch date, sex, feather measurements or flight test; one site does not define all nests. Supports an age-unknown, bilaterally supported just-mobile brancher beside a tree nest, not flight.
+
+### BFO-INDIANBIRDS-2013-P147-151
+- **Title / authors / year:** “Notes on the breeding of the Brown Fish Owl *Ketupa zeylonensis*” — Raju Vyas, Kartik Upadhayay, Mital R. Patel, Rahul D. Bhatt & Pritesh Patel, 2013.
+- **URL / type / pages:** https://indianbirds.in/pdfs/IB_8.6_HighRes.pdf ; primary breeding observations, *Indian BIRDS* 8(6):147–151; full article re-read 2026-11-05.
+- **Facts:** active fluffy-faced 15–20-day chicks had smaller body/wing feathers; ear tufts developed later. Near departure the two young were almost adult-sized, stayed 4–6 days in the same tree canopy and remained parent-dependent. Paired adults could sometimes be separated by size when together.
+- **Limits/design:** Gujarat sequence does not date a Hong Kong individual; no universal sex ratio or controlled flight threshold. Supports developed-but-immature folded wing/tail and only restrained adult fullness difference.
+
+### BFOW-BINDU-BALAKRISHNAN-2015-P97-98
+- **Title / authors / year:** “Observations on the Breeding of the Brown Fish-Owl *Ketupa zeylonensis* in Kerala, Southern India” — T. N. Bindu & Peroth Balakrishnan, 2015.
+- **DOI / URL / type / pages:** https://doi.org/10.17087/jbnhs/2015/v112i2/104938 ; primary nine-year field note, *JBNHS* 112(2):97–98; full text re-read 2026-11-05.
+- **Facts:** nine attempts reused a mango-tree crevice 5.2 m high within 30 m of a pond; nestling period 43–49 days, mean 46±3, n=3.
+- **Limits/design:** small Kerala sample, one reused site, no day-by-day feather plate. Broad developmental context only; no exact Hong Kong age or universal nest form.
+
+### V5 accounting and unknowns
+- New persistent source records: 4 (one new institutional source; three restored/re-read records previously referenced by v4 but absent from the compact index); reused4; corrected boundaries3.
+- Corrections: (1) nest departure/branch movement does not prove sustained flight; (2) paired-size observation is not a universal height ratio; (3) Kerala/Gujarat timing does not assign a Hong Kong individual an exact age.
+- Current name *Ketupa zeylonensis*; historical/original combination *Strix zeylonensis*. Uploaded Mikkola guide unavailable; no fresh page claim.
+- Unknown: exact juvenile age/sex/subspecies, continuous feather chronology, first-flight competence, quantified sex dimensions and cross-population transfer. Scientific status remains false.
+

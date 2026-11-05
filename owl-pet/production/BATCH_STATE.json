@@ -22082,17 +22082,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T103554+0800-cycle-1",
-      "heartbeat_at": "2026-11-05T10:35:54+08:00",
-      "expires_at": "2026-11-05T10:50:54+08:00"
+      "heartbeat_at": "2026-11-05T10:39:25+08:00",
+      "expires_at": "2026-11-05T10:54:25+08:00"
     },
     "in_progress": {
       "cycle": 1,
       "run_id": "20261105T103554+0800-cycle-1",
       "species_id": 59,
       "species": "Ketupa zeylonensis",
-      "stage": "STARTED"
+      "stage": "RESEARCH_READY"
     },
-    "current_stage": "STARTED",
+    "current_stage": "RESEARCH_READY",
     "events": [
       {
         "cycle": 1,
@@ -22106,6 +22106,30 @@
           "baseline_commit": "acede2909642706dda514adb5ecfd9a689f52f86",
           "prior_version": "owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg",
           "lease_expires_at": "2026-11-05T10:50:54+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-05T10:39:25+08:00",
+        "run_id": "20261105T103554+0800-cycle-1",
+        "species_id": 59,
+        "credited": false,
+        "evidence": {
+          "source_ids": [
+            "BFOW-HKBWS-AVIFAUNA-2026",
+            "BFOW-KFBG-2021",
+            "BFO-INDIANBIRDS-2013-P147-151",
+            "BFOW-BINDU-BALAKRISHNAN-2015-P97-98"
+          ],
+          "new_or_restored_sources": 4,
+          "reused_sources": 4,
+          "corrected_boundaries": 3,
+          "species_card": "owl-pet/research/species/59-ketupa-zeylonensis-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "full_prompt_saved": true,
+          "mikkola_upload_accessible": false,
+          "lease_expires_at": "2026-11-05T10:54:25+08:00"
         }
       }
     ]

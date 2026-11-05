@@ -34,3 +34,7 @@
 
 - Corrected archive `d65b04f9537d08688eeadfd5d7392c285a137d90`, tree `365fb544c4509d521eb2eba8dbfbe3f1d27e391e`, passed non-truncated 13-path blob/size readback after rejecting the initial truncated archive.
 - Manifests 687/688/678; unique 176/251; PASS_WITH_LIMITATIONS; science false. Ledger credit pending.
+
+### #64 v5 LEDGER_CREDITED — batch COMPLETE 6/6
+
+- Verification commit `aa96230570c9b19f4acadddefda1b1bcee8897c8` and tree `75158c7cb9aa2bf0d43b570fa82edcddc4814282` were read back after the repaired archive. Cycle 6 is credited exactly once; batch `20261105T103554+0800` is COMPLETE 6/6 and the lease is released. Unique species remains 176/251; revision +1; scientific verification remains false.

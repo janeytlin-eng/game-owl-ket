@@ -93,3 +93,11 @@ Do not add extra birds, eggs, prey, orange eyes, fully feathered lower tarsi, a 
 ## Iteration hypothesis
 
 V4 verified a juvenile-only edit that removed neat pale covert rows. V5 combines that control with the new National Taiwan Museum juvenile colour/streak direction and the official 2026 living-tree Y-fork measurements. The repeat-error gate is: a late nestling may have formed wings and tail, but generated regular adult rows/rigid stacks must be edited without changing adults, text or support.
+
+## Production review — 2026-11-05
+
+- Initial generation: 62.7 s. It passed species count, labels, adults, feet/support and setting, but failed the juvenile maturity gate because of crisp adult-style wing rows and a hidden developing tail.
+- Edit 1: 56.7 s. The centre juvenile became more down-fringed and irregular, but the maturity silhouette and tail boundary remained too weak.
+- Edit 2: 53.1 s. The wing became shorter, rounder and less regularly layered; both feet/support remained intact. The tail is still mostly obscured, so it is recorded as unresolved rather than invented.
+- Final visual result: `PASS_WITH_LIMITATIONS`; scientifically verified remains `false`. Full master and separate adult/support and juvenile crops were reopened.
+- Verified effect: the asset-level maturity-cue audit detected and reduced a repeated adult-row failure. It did not establish an exact 40-day wing/tail map or first-flight competence.

@@ -16305,7 +16305,7 @@
         "cycle": 6,
         "run_id": "20261105T173620+0800-cycle-6",
         "species_id": 70,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-11-05T17:36:20+08:00"
       },
       "current_stage": "STARTED",
@@ -16499,8 +16499,8 @@
       "lease": {
         "owner": "codex-automation",
         "run_id": "20261105T173620+0800-cycle-6",
-        "heartbeat_at": "2026-11-05T17:46:00+08:00",
-        "expires_at": "2026-11-05T18:01:00+08:00"
+        "heartbeat_at": "2026-11-05T17:48:00+08:00",
+        "expires_at": "2026-11-05T18:03:00+08:00"
       }
     }
   ],
@@ -23827,13 +23827,46 @@
       "evidence": {
         "generated_path": "owl-pet/production/generated/70-ninox-strenua-v5-generated-master.png",
         "dimensions": "1536x1024",
-        "bytes": 3437455,
-        "sha256": "55f092af09b7c149f9be116669fe8a0f50f37d17ab98a462f9130652d6ae282c",
+        "bytes": 3437471,
+        "sha256": "c97e2c52a609df1c261525e49ee34e6f0548822fdc8dabeef48b80c8fbffc4c4",
         "generation_seconds": 70.9,
         "edit_count": 0,
         "inspection_issue": null,
         "complete_prompt": "owl-pet/research/species/70-ninox-strenua-v5.md",
         "lease_expires_at": "2026-11-05T18:01:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261105T153530+0800",
+      "cycle": 6,
+      "stage": "REVIEWED",
+      "at": "2026-11-05T17:48:00+08:00",
+      "run_id": "20261105T173620+0800-cycle-6",
+      "species_id": 70,
+      "credited": false,
+      "evidence": {
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "image_edit_required": false,
+        "edit_count": 0,
+        "generation_seconds": 70.9,
+        "final_path": "owl-pet/design/concepts/70-ninox-strenua-v5.png",
+        "final_sha256": "c97e2c52a609df1c261525e49ee34e6f0548822fdc8dabeef48b80c8fbffc4c4",
+        "final_bytes": 3437471,
+        "review_path": "owl-pet/research/reviews/70-ninox-strenua-v5-review.md",
+        "adult_crop": "owl-pet/production/review-crops/70-ninox-strenua-v5-adults.png",
+        "adult_crop_sha256": "3d5965091d9baa4304b7a08e7d9a3025f233940103f789330263c3dc740280a1",
+        "juvenile_crop": "owl-pet/production/review-crops/70-ninox-strenua-v5-juvenile.png",
+        "juvenile_crop_sha256": "74d4af3bb256776db760f05ba2519c32a5d48c7093d7ec3a22f0c50be69fd0ba",
+        "scientifically_verified": false,
+        "unknowns": [
+          "exact hatch age",
+          "juvenile sex",
+          "daily feather chronology",
+          "universal first-flight competence",
+          "population transfer of photographic ratios",
+          "universal hollow geometry"
+        ],
+        "lease_expires_at": "2026-11-05T18:03:00+08:00"
       }
     }
   ],

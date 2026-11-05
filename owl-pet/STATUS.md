@@ -3211,6 +3211,12 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #64 v5 LEDGER_CREDITED — batch COMPLETE 6/6
 
 - Verification commit `aa96230570c9b19f4acadddefda1b1bcee8897c8` and tree `75158c7cb9aa2bf0d43b570fa82edcddc4814282` were read back after the repaired archive. Cycle 6 is credited exactly once; batch `20261105T103554+0800` is COMPLETE 6/6 and the lease is released. Unique species remains 176/251; revision +1; scientific verification remains false.
+
+## 2026-11-05 #67 *Pulsatrix perspicillata* v5 ARCHIVED — readback pending
+
+- V1–v4 remain preserved. New primary nest monitoring replaces v4's branch-stage implication with an age-unknown cavity-stage juvenile practising a supported wing stretch/flap without takeoff.
+- The white/dark-faced juvenile retains formed transversely barred wings because this overlap is specifically documented for the species; it is not generalized to other nestlings. Adults use only a modest overlapping female length/fullness direction.
+- Full 1536×1024 master plus adult and juvenile crops passed opened review without edit. Manifests 690/691/681; unique 176/251; science false; no cycle credit before immutable readback.
 ## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
 
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.

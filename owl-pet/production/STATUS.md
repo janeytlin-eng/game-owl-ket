@@ -23,6 +23,12 @@
 
 - Verification commit `fccee9e8d61dfcc50a5d80977efa3a47d3c6fb27`, tree `684bf778a9e40419feff4bd768104c8ae3894c85`, was read back. Cycle 1 is credited once; batch `20261105T153530+0800` is 1/6, next cycle 2, lease released. Unique 176/251; revision +1; science false.
 
+## 2026-11-05 #67 *Pulsatrix perspicillata* v5 ARCHIVED — readback pending
+
+- First render passed full and crop review without edit: exactly three supported birds, correct adult spectacles/bib and one white/dark-faced cavity juvenile raising a formed transversely barred wing without takeoff.
+- The barred juvenile wing is a species-specific evidence exception, while exact age-stage equivalence, first competent flight and population-wide adult scale remain unknown.
+- Manifests 690/691/681; unique 176/251; science false. Cycle 3 is not credited before immutable readback.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

@@ -3039,3 +3039,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Applied: #65 v5 keeps adult male/female equal in visible height and silhouette; sex remains in labels only. It separately depicts an age-unknown down-only nestling low in a documented deep tree cavity, without importing the approximately-30-day or fledgling stages from v4/v3.
 - Verified on this plate: full frame plus adult and juvenile crops passed without edit. This is not a universal owl rule and scientific status remains false.
 
+## #67 Spectacled Owl — *Pulsatrix perspicillata* — v5
+
+- [Concept](concepts/67-pulsatrix-perspicillata-v5.png) · [Research](../research/species/67-pulsatrix-perspicillata-v5.md) · [Review](../research/reviews/67-pulsatrix-perspicillata-v5-review.md) · [Run](../production/runs/20261105T164500+0800-cycle-3.md)
+- V5 preserves the species-specific juvenile exception documented in specimen work: a white/downy body and dark face may coexist with formed barred wing/tail feathers. New nest monitoring corrects the action boundary to a supported in-cavity practice stretch/flap without takeoff. Adults retain close crown height with only modest overlapping female length/fullness. No edit; PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+

@@ -23875,8 +23875,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 5,
       "species_id": 69,
-      "heartbeat_at": "2026-11-05T17:24:00+08:00",
-      "expires_at": "2026-11-05T17:39:00+08:00"
+      "heartbeat_at": "2026-11-05T17:27:00+08:00",
+      "expires_at": "2026-11-05T17:42:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23886,12 +23886,12 @@
       "species": "Tyto novaehollandiae",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "IMAGE_GENERATED",
+      "current_stage": "REVIEWED",
       "started_at": "2026-11-05T17:19:00+08:00",
       "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
       "run_record": "owl-pet/production/runs/20261105T171900+0800-cycle-5.md"
     },
-    "current_stage": "IMAGE_GENERATED",
+    "current_stage": "REVIEWED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24636,6 +24636,32 @@
           "inspection_issue": null,
           "complete_prompt": "owl-pet/research/species/69-tyto-novaehollandiae-v5.md",
           "lease_expires_at": "2026-11-05T17:39:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 5,
+        "stage": "REVIEWED",
+        "at": "2026-11-05T17:27:00+08:00",
+        "run_id": "20261105T171900+0800-cycle-5",
+        "species_id": 69,
+        "credited": false,
+        "evidence": {
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "image_edit_required": false,
+          "edit_count": 0,
+          "generation_seconds": 67.7,
+          "final_path": "owl-pet/design/concepts/69-tyto-novaehollandiae-v5.png",
+          "final_sha256": "b0ba6d48e440bde0d2c4920c0ed7f0b3ff28ae07dc09925e66789f44c683bfdc",
+          "final_bytes": 3252155,
+          "review_path": "owl-pet/research/reviews/69-tyto-novaehollandiae-v5-review.md",
+          "adult_crop": "owl-pet/production/review-crops/69-tyto-novaehollandiae-v5-adults.png",
+          "adult_crop_sha256": "289b45ea89ed1e7f5d08e4884ba010aec7f718072de7f44a93ac0f50acf09ec4",
+          "juvenile_crop": "owl-pet/production/review-crops/69-tyto-novaehollandiae-v5-juvenile.png",
+          "juvenile_crop_sha256": "3bfe23be8758f74a37365af2fe0c679fbab0bbaee6a3b637d7cd8351c3c54c50",
+          "scientifically_verified": false,
+          "unknowns": ["exact hatch age", "wild growth rate", "continuous feather chronology", "locomotor competence", "morph/subspecies transfer", "universal sex-scale ratio"],
+          "lease_expires_at": "2026-11-05T17:42:00+08:00"
         }
       }
     ]

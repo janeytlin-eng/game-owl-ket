@@ -49,3 +49,9 @@ Central juvenile: one dark-morph nominate nestling at the primary paper's inferr
 Support/environment: natural large deep old-eucalypt hollow in mainland Australian forest, soft soil/sand/wood mulch on the chamber floor. This is species context rather than the original captive aviary floor. Two adults flank the hollow on stable wood; chick is inside on mulch. Every visible foot/toe is supported. No eggs, prey, extra birds, ear tufts, bright irises, border, logo or watermark.
 
 Composition/check targets: exactly three birds; exact readable labels; adult dark-morph identity; female difference moderate, not giant; nestling remains buff/ochre woolly down with only a developing mask and no visible feather vanes; all support physically plausible.
+
+## Generation and opened review — 2026-11-05
+
+- Imagegen produced a 1536×1024 PNG (3,252,155 B; SHA-256 `b0ba6d48e440bde0d2c4920c0ed7f0b3ff28ae07dc09925e66789f44c683bfdc`) in 67.7 s.
+- Full frame, adult/support crop and juvenile/hollow crop were opened. Exact count/text, adult identity/non-fixed scale, buff woolly down, developing mask, hidden wings/tail, hollow mulch and all supports passed.
+- No edit required. `PASS_WITH_LIMITATIONS`; science remains false. See `research/reviews/69-tyto-novaehollandiae-v5-review.md`.

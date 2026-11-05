@@ -1257,3 +1257,16 @@
 ### Reused and corrected evidence
 - Reused `SPO-WETMORE-1968-P164`, `SPO-BOUGLOUAN-2026` and `SPO-PEREGRINE-2026`; new2 / reused3 / corrected2. V5 changes action/support and adult scale, not the already-correct species-specific barred juvenile wing exception. Scientific status false.
 
+## 2026-11-05 — #68 *Tyto tenebricosa* v5 — six-week cavity stage and variable apparent pair size
+
+### GSO-HYEM-1979-P20-22
+- **Title / author / year:** “Observations on Owls in the Upper Manning River District, N.S.W.” — E. L. Hyem, 1979.
+- **URL / type / pages / accessed:** https://absa.asn.au/wp-content/uploads/2021/07/Corella-3-2-17-25.pdf ; primary field observations, *Corella* 3(2):17–25; pp.20–22 read 2026-11-05.
+- **Species/stage/facts:** *Tyto tenebricosa* adults and nestlings. Two young in one hollow were estimated at about six weeks and clothed in sooty-grey down; a separately described chick had well-defined facial discs and wing/tail feathers showing through the sooty-grey down. Recorded hollows ranged from about 40 cm to 5 m deep; one Blue Gum hollow was over 3 m deep and about 22 m high. Direct pair observations varied: one female appeared smaller, other pairs showed no visible difference, and at least two females appeared larger.
+- **Limits/conflicts/credibility:** first-hand primary observations but not a controlled known-hatch-age feather series or morphometric study; the two chick descriptions may not be the same individual. Visual pair judgments conflict with a universal apparent female-larger rule and do not negate measured reversed sexual dimorphism. Individual hollow examples are not universal dimensions.
+- **Design/check decision:** show an approximately-six-week, fully supported cavity chick in sooty-grey down with defined face and only emerging short wing/tail feathers; no flight or branch claim. Adults have comparable apparent crown height with only cautious fullness variation. Use a large roomy hollow without copying one exact geometry.
+- **Links:** `research/species/68-tyto-tenebricosa-v5.md`; planned concept v5; run `production/runs/20261105T170300+0800-cycle-4.md`.
+
+### Reused and corrected evidence
+- Reused `GSO-ABSA-2019`, `GSO-NSWSC-2008`, `GSO-BILNEY-2012` and the repository extraction `WHSO-MIKKOLA-2013`; new1 / re-read3 / reused1 / corrected2. Measured mass is not fixed standing height; the v5 earlier cavity stage is separate from the adult-like fledgling stage. Uploaded Mikkola guide unavailable, so no fresh page claim. Unknowns remain exact chick age/sex, continuous feather chronology, locomotor competence, subspecies transfer and universal cavity geometry; science false.
+

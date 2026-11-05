@@ -23864,8 +23864,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 4,
       "species_id": 68,
-      "heartbeat_at": "2026-11-05T17:03:00+08:00",
-      "expires_at": "2026-11-05T17:18:00+08:00"
+      "heartbeat_at": "2026-11-05T17:06:00+08:00",
+      "expires_at": "2026-11-05T17:21:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23875,12 +23875,12 @@
       "species": "Tyto tenebricosa",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "started_at": "2026-11-05T17:03:00+08:00",
       "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
       "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md"
     },
-    "current_stage": "STARTED",
+    "current_stage": "RESEARCH_READY",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24423,6 +24423,34 @@
           "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
           "prior_version": "owl-pet/design/concepts/68-tyto-tenebricosa-v4.png",
           "lease_expires_at": "2026-11-05T17:18:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 4,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-05T17:06:00+08:00",
+        "run_id": "20261105T170300+0800-cycle-4",
+        "species_id": 68,
+        "credited": false,
+        "evidence": {
+          "source_ids": [
+            "GSO-HYEM-1979-P20-22",
+            "GSO-ABSA-2019",
+            "GSO-NSWSC-2008",
+            "GSO-BILNEY-2012",
+            "WHSO-MIKKOLA-2013"
+          ],
+          "new_sources": 1,
+          "reread_sources": 3,
+          "reused_sources": 1,
+          "corrected_boundaries": 2,
+          "species_card": "owl-pet/research/species/68-tyto-tenebricosa-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "full_prompt_saved": true,
+          "material_change_from_v4": "use the directly documented approximately-six-week sooty-grey cavity stage with defined facial discs and emerging wing/tail feathers; remove fixed visible female-larger direction despite morphometric dimorphism",
+          "mikkola_upload_accessible": false,
+          "lease_expires_at": "2026-11-05T17:21:00+08:00"
         }
       }
     ]

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T07:37:30.698+08:00",
+  "updated": "2026-11-06T07:38:21.649+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22896,7 +22896,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "JAP-FUKAI-2016-PP22-28",
         "JAP-LIN-LIN-TSENG-2012-PP164-166",
@@ -22932,9 +22932,13 @@
       "juvenile_review_size_bytes": 837418,
       "juvenile_review_sha256": "6bffde2342eac98bb344100bc49e7e68c371a2c790ce1b3f150b5941261001f1",
       "reviewed_at": "2026-11-06T07:36:07.840+08:00",
-      "readback_pending": true,
-      "archive_note": "V3 preserves v1-v2. One targeted juvenile-only edit shortened and softened the wing, removed adult-like shoulder spots and reduced the tail while preserving labels, both adults, cavity and continuous support. Adult scale remains near-equal. Exact age, sex, flight ability and fine population variation remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V3 preserves v1-v2. One targeted juvenile-only edit shortened and softened the wing, removed adult-like shoulder spots and reduced the tail while preserving labels, both adults, cavity and continuous support. Adult scale remains near-equal. Exact age, sex, flight ability and fine population variation remain unknown; science false.",
+      "archive_commit": "a6e839f0523e29fed8fefff60eeadc4397eca130",
+      "archive_tree": "5c85902f71ed8b843b195ac085b8d040cea0e439",
+      "verified_at": "2026-11-06T07:38:21.649+08:00",
+      "verification_result": "PASS: immutable archive tree returned 3,258 non-truncated entries; all 13 required #92 paths were present; five binary paths matched exact Git blobs; three manifests parsed at 712/711/702 with #92 v3 tails."
     }
   ],
-  "updated_at": "2026-11-06T07:37:30.698+08:00"
+  "updated_at": "2026-11-06T07:38:21.649+08:00"
 }

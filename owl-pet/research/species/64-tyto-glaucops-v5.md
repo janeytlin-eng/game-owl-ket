@@ -38,3 +38,9 @@ CENTER young: an age-unknown older juvenile based on the opened 2008 identified 
 
 Composition and exclusions: exactly three owls, spacious readable triangular grouping, all feet and perches visible enough to verify support, natural pine trunks/branches/needles and distant montane forest, no Palmchat stick nest or cavity in this version, no generic white Barn Owl faces, no yellow eyes, no ear tufts, no extreme size dimorphism, no extra birds, eggs, prey, humans, logos, borders or watermark. Preserve the established series palette and friendly natural-history presentation.
 
+## IMAGE_GENERATED — 2026-11-05T14:41:11+08:00
+
+- Built-in image generation completed in 46.5 s; generated master saved at `owl-pet/production/generated/64-tyto-glaucops-v5-generated-master.png`.
+- 1536×1024 PNG, 3,107,007 bytes, SHA-256 `ce3b0bb47b220e017daabd939c0e4c39401105125b415a831d11d1a108e3963d`.
+- Full image was opened after generation. Initial inspection: exact count/title/labels pass; ash-grey warm-rim adult faces and dark eyes pass; adults remain near-equal in height; all six feet grip branches; young is visibly rounder/down-softened with formed compact folded wing/tail and no flight action. No targeted edit indicated before crop review.
+

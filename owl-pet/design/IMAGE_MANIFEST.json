@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T07:23:00+08:00",
+  "updated": "2026-11-06T07:25:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22997,7 +22997,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "JAV-MCLAUGHLIN-DEBUS-2025-P116-123",
         "JAV-AUSTRALIAN-MUSEUM-2022",
@@ -23033,9 +23033,13 @@
       "juvenile_review_size_bytes": 854487,
       "juvenile_review_sha256": "429cfab8801217e0130da0aec66a358c36c3d77ad5776b2fac6901c1f82b44e6",
       "reviewed_at": "2026-11-06T07:21:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4. Generated plate and crops were inspected; one targeted juvenile-only edit shortened/softened the outer wing/tail and restored mesoptile overlap while preserving title, adults, hollow and support. Adult scale is near-equal with qualitative colour/spotting contrast only. Exact individual age, fledging date, regional variation and external scientific sign-off remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4. Generated plate and crops were inspected; one targeted juvenile-only edit shortened/softened the outer wing/tail and restored mesoptile overlap while preserving title, adults, hollow and support. Adult scale is near-equal with qualitative colour/spotting contrast only. Exact individual age, fledging date, regional variation and external scientific sign-off remain unknown; science false.",
+      "archive_commit": "fad820e25923f000c61528be7b6d4474f5bddc78",
+      "archive_tree": "16b705e388c6f6312749ab75e2dfeb1a3fc7efd1",
+      "verified_at": "2026-11-06T07:25:00+08:00",
+      "verification_result": "PASS: immutable archive tree returned 3,250 non-truncated entries; all 13 required #91 paths were present; six binary paths matched exact Git blobs and byte sizes; three manifests parsed at 711/710/701 with #91 v5 tails."
     }
   ],
-  "updated_at": "2026-11-06T07:23:00+08:00"
+  "updated_at": "2026-11-06T07:25:00+08:00"
 }

@@ -1576,4 +1576,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Preserved v1–v4; archived one source-bounded science revision with one juvenile wing/tail edit.
 - Added research/review/run records, generated/edit/reviewed masters, two inspection crops and three manifest entries. Unique species remains 176/251; science false.
 - Immutable archive `bb4179e0f532004fc3d4f1bc131d9638b81c86ce` passed non-truncated tree, 18-path, six-binary-tuple and three-manifest verification; ledger credit remains pending.
+- Verification `6e10ae0a6cfe4a3a5dba690a036cb10da624fa01` was credited once as batch cycle 4/6; next cycle 5 and lease released.
 

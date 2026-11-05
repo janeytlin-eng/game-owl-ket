@@ -1,3 +1,8 @@
+## 2026-11-06 #80 *Otus sunia* v5 LEDGER_CREDITED — batch 4/6
+
+- Verification commit `6e10ae0a6cfe4a3a5dba690a036cb10da624fa01`, tree `5d103e817863d81de300093cce98fc2d70bc9885`, was read back after immutable archive verification. Cycle 4 is credited once; batch `20261105T233209+0800` is 4/6, next cycle 5, lease released.
+- Unique species remains 176/251; revision +1; `scientifically_verified=false`.
+
 ## 2026-11-06 #80 *Otus sunia* v5 VERIFIED — ledger credit pending
 
 - Archive `bb4179e0f532004fc3d4f1bc131d9638b81c86ce`, tree `7e957b396cc7211186c8bc9af2566fabc55043bc`, returned 3,179 non-truncated entries, all 18 required paths, six exact binary path/blob/byte tuples and three parseable manifests at 704/703/694.

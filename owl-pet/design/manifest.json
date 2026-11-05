@@ -21969,7 +21969,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "SCU-SGRAPTOR-2024-P2",
         "SCU-BESG-2024-PHOTOS",
@@ -22010,8 +22010,12 @@
       "juvenile_review_size_bytes": 1082082,
       "juvenile_review_sha256": "fe46efac2c0344a9a09d1cedbe171a16997c94695fcb89f529b6edbe5e1e6854",
       "reviewed_at": "2026-11-05T22:41:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and corrects the selected photographed Singapore dependent stage: residual pale down is retained together with evidence-supported long formed remiges and a developed barred tail. The supported one-wing stretch uses two-foot branch contact; adults remain near-equal because sex-size direction is unresolved. Exact age, juvenile sex, flight threshold, current Singapore subspecies and continuous feather chronology remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and corrects the selected photographed Singapore dependent stage: residual pale down is retained together with evidence-supported long formed remiges and a developed barred tail. The supported one-wing stretch uses two-foot branch contact; adults remain near-equal because sex-size direction is unresolved. Exact age, juvenile sex, flight threshold, current Singapore subspecies and continuous feather chronology remain unknown; science false.",
+      "verified_at": "2026-11-05T22:47:00+08:00",
+      "archive_commit": "3f81a4d7a1ca2e87875734f4060fbd1d04151b44",
+      "archive_tree": "403437218d67c409a272c8d742de2e1adb2595fe",
+      "verification_result": "PASS: immutable non-truncated 3,136-entry tree; all 14 required paths present; five binary paths match exact Git blob and byte size; manifests parse at 698/699/689"
     }
   ],
   "updated_at": "2026-11-05T21:50:00+08:00"

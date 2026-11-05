@@ -6,6 +6,10 @@
 - Full image and both crops passed without edit. The juvenile preserves directly photographed formed wing/tail development, residual down and bilateral branch support; adult scale avoids an unresolved sex-size direction. `PASS_WITH_LIMITATIONS`; science false.
 - Manifests 698/699/689; unique remains 176/251; revision +1. Cycle 5 is not credited before immutable readback.
 
+### #75 v5 VERIFIED — ledger credit pending
+
+- Archive `3f81a4d7a1ca2e87875734f4060fbd1d04151b44`, tree `403437218d67c409a272c8d742de2e1adb2595fe`: non-truncated 3,136-entry readback matched all 14 required paths and five exact binary blob/size tuples. Manifests parse at 698/699/689; unique 176/251; science false. Ledger credit pending.
+
 ### #66 v5 LEDGER_CREDITED — batch 2/6
 
 - Verification commit `6415ef6e203b4e6924fbf65142ef626bea8a7945`, tree `e5e13399f5405ee2e37b7fef0d8aa59fcc46d584`, was read back. Cycle 2 is credited exactly once; batch `20261105T153530+0800` is 2/6, next cycle 3, lease released. Unique 176/251; revision +1; science false.

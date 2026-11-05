@@ -3347,3 +3347,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Adults remain near-equal because sex direction is unresolved. Full/group/juvenile crops passed without edit; `PASS_WITH_LIMITATIONS`; science false.
 - Manifests 698/699/689; unique remains 176/251; revision +1. No cycle credit before immutable readback.
 
+### #75 v5 VERIFIED — ledger credit pending
+
+- Archive `3f81a4d7a1ca2e87875734f4060fbd1d04151b44`, tree `403437218d67c409a272c8d742de2e1adb2595fe`: non-truncated 3,136-entry readback matched all 14 required paths and five exact binary blob/size tuples. Manifests parse at 698/699/689; unique 176/251; science false. Ledger credit remains separate.
+

@@ -3088,4 +3088,5 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/75-ninox-scutulata-v5.png) · [Research](../research/species/75-ninox-scutulata-v5.md) · [Review](../research/reviews/75-ninox-scutulata-v5-review.md) · [Run](../production/runs/20261105T223048+0800-cycle-5.md)
 - V5 preserves v1–v4 and corrects the selected photographed Windsor dependent stage: residual pale down coexists with long formed wings and a developed barred tail. The juvenile performs a one-wing stretch with both feet supported; adults remain near-equal because sex-size direction is unresolved. No edit; `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable archive readback pending.
+- Immutable archive verification 2026-11-05T22:47:00+08:00: commit `3f81a4d7a1ca2e87875734f4060fbd1d04151b44`, tree `403437218d67c409a272c8d742de2e1adb2595fe`; non-truncated 3,136 entries, 14 required paths and five exact binary blob/size tuples passed. Manifests 698/699/689; ledger credit pending.
 

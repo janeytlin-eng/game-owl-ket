@@ -41,3 +41,7 @@ Environment: a documented Bemanevika tree-hole nest example with a visibly deep 
 ## Iteration rule
 
 Problem: earlier prompts converted a population mean mass difference into visible female size. Evidence: the same primary thesis reports higher mean female mass but nearly equal mean wingspan and no visually detectable size/colour/form difference. Change: display adults at equal height/silhouette and retain sex only in labels. This rule is applied to #65 v5 and is not considered verified until the generated full frame and adult crop are inspected.
+
+## Visual review — 2026-11-05T15:46:30+08:00
+
+Full master, adult/support crop and juvenile/cavity crop opened. Exactly three owls, correct labels, equal adult silhouette, all support contacts, down-only age-unknown nestling and deep-cavity boundary pass. No edit required. PASS_WITH_LIMITATIONS; science false.

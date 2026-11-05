@@ -3,7 +3,7 @@
 - Concept: [61-ketupa-ketupu-v5.png](concepts/61-ketupa-ketupu-v5.png)
 - Research: [61-ketupa-ketupu-v5.md](../research/species/61-ketupa-ketupu-v5.md) · [review](../research/reviews/61-ketupa-ketupu-v5-review.md) · [run](../production/runs/20261105T112500+0800-cycle-3.md)
 - Full-resolution v5 preserves v1–v4 and corrects the age boundary from “about two weeks” to an early nestling of exact age unknown. Adults remain near-equal, bare-legged Buffy Fish Owls; the down-only chick rests inside a living bird's-nest fern with continuous support and no flight claim. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
-- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/4c13c4d7c86cbf9811042462ec0f616d1c08da33/owl-pet/design/concepts/61-ketupa-ketupu-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/4c13c4d7c86cbf9811042462ec0f616d1c08da33)
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/4c13c4d7c86cbf9811042462ec0f616d1c08da33/owl-pet/design/concepts/61-ketupa-ketupu-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/4c13c4d7c86cbf9811042462ec0f616d1c08da33) · [verification](https://github.com/janeytlin-eng/game-owl-ket/commit/e2e47fd3584a76cb0a54058e4c46c672c78f94af)
 
 ## #60 Tawny Fish Owl — *Ketupa flavipes* — v5 VERIFIED
 

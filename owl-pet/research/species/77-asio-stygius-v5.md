@@ -59,3 +59,7 @@ Constraints: exact number/title/order; exactly three owls; coherent feet and con
 - Initial generation passed identity/action/support but its extended juvenile wing was too long and perfectly graduated. One targeted edit shortened and softened only that wing; final full image and two crops passed with limitations.
 - Concept/reviewed master: 1536×1024 PNG, 2,840,596 bytes; SHA-256 `310a22ffa328c88539a874fe27a2a533433c0568e1ec3efadd28cb2a98e51fdd`; Git blob `d61c329a97937b85020f93ce1e099c807eaa62db`.
 - Initial generated master remains preserved separately; edit count 1; unique coverage unchanged at 176/251; revision +1; immutable archive readback pending; science false.
+
+### Immutable archive verification
+
+Archive commit `71a6ddf87b71ffebe5ae864713bac53b6d43abc3`, tree `4095e921a692ba61c7fe3023aa54915c85449873`, returned all required paths and exact image blob/size tuples in a non-truncated 3,153-entry tree. Manifests parsed at 700/701/691 with this entry last. `PASS_WITH_LIMITATIONS`; scientific status remains false.

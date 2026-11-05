@@ -2,9 +2,9 @@
 
 ## 20261105T233209+0800 cycle 1 — #77 *Asio stygius* v5
 
-- Stage: ARCHIVED preparation; immutable readback pending.
+- Stage: VERIFIED at archive `71a6ddf87b71ffebe5ae864713bac53b6d43abc3`; ledger credit pending.
 - Result: `PASS_WITH_LIMITATIONS`; edit count 1; science false; unique 176/251; revision +1.
-- Recovery: if interrupted, verify the archive commit/tree and exact six image tuples before ledger credit; do not regenerate v5 unless those files are absent.
+- Recovery: immutable tree/path/blob/size and manifest checks passed; if interrupted, resume only ledger credit and do not regenerate v5.
 
 ## 2026-11-05 #75 *Ninox scutulata* v5 ARCHIVED — readback pending
 

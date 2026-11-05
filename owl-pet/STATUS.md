@@ -1,7 +1,7 @@
-## 2026-11-06 #78 *Asio capensis* v5 ARCHIVED — readback pending
+## 2026-11-06 #78 *Asio capensis* v5 VERIFIED — ledger credit pending
 
 - V5 preserves v1–v4. One new directly opened species photograph controls an `AGE-UNKNOWN OWLET`: down-rich body, dark face/eyes, concealed wing/tail and continuous ground/grass support; no day label or action claim.
-- Full image and two review crops passed without edit. Manifests 701/702/692; unique coverage remains 176/251; revision +1; science false. No cycle credit before immutable readback.
+- Full image and two review crops passed without edit. Initial truncated transfer was rejected before credit; repaired archive `5b4829adb390ee1fc15452246a7d73f18e3d41c0` / tree `7b924260751cdf71c648a2c47b7d0c7603dd9133` returned all full sizes and manifests 701/702/692. Unique 176/251; revision +1; science false. Ledger credit pending.
 
 ## 2026-11-05 #77 *Asio stygius* v5 LEDGER_CREDITED — batch 1/6
 

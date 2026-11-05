@@ -67,3 +67,7 @@ Constraints: exact number/title/order; exactly three owls; no generic female-muc
 - Concept/reviewed master: 1536×1024 RGB PNG, 2,922,411 bytes; SHA-256 `ad3ed1912b94bb58bf27a1230843c2aeef50ccb0579ac4a319dd0dd106793461`.
 - Review: `research/reviews/78-asio-capensis-v5-review.md`; result `PASS_WITH_LIMITATIONS`; scientific status remains false.
 
+### Immutable archive verification
+
+After rejecting one truncated connector transfer, repaired archive `5b4829adb390ee1fc15452246a7d73f18e3d41c0` / tree `7b924260751cdf71c648a2c47b7d0c7603dd9133` returned all required paths and exact full-size image blob/size tuples in a non-truncated 3,161-entry tree. Manifests parse at 701/702/692. The visual revision is verified as archived; unresolved biology remains science false.
+

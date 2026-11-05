@@ -1,8 +1,8 @@
-## #78 Marsh Owl — *Asio capensis* — v5 ARCHIVED
+## #78 Marsh Owl — *Asio capensis* — v5 VERIFIED
 
 - Concept: [78-asio-capensis-v5.png](concepts/78-asio-capensis-v5.png)
 - Research: [78-asio-capensis-v5.md](../research/species/78-asio-capensis-v5.md) · [review](../research/reviews/78-asio-capensis-v5-review.md) · [run](../production/runs/20261106T003403+0800-cycle-2.md)
-- V5 preserves v1–v4 and replaces the over-specific older dependent stage with a directly photographed, age-unknown, down-rich owlet. Wings/tail remain concealed and no action is invented; adults keep dark eyes and near-equal height with only restrained female fullness/tail. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251. Immutable readback pending.
+- V5 preserves v1–v4 and replaces the over-specific older dependent stage with a directly photographed, age-unknown, down-rich owlet. Wings/tail remain concealed and no action is invented; adults keep dark eyes and near-equal height with only restrained female fullness/tail. Repaired archive `5b4829adb390ee1fc15452246a7d73f18e3d41c0` returned exact full-size image tuples and manifests 701/702/692. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
 
 ## #77 Stygian Owl — *Asio stygius* — v5 VERIFIED
 

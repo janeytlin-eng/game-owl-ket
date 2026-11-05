@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T05:50:00+08:00",
+  "updated": "2026-11-06T05:58:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7534,76 +7534,72 @@
     },
     {
       "id": "86-otus-elegans-v4",
-      "path": "design/concepts/86-otus-elegans-v4.jpg",
-      "status": "SCIENCE_REVISION；v4依据Sawada等99只雏鸟0–32日龄成长曲线和770只成鸟17年体尺数据，采用约30日龄的近离巢阶段：头、躯干与跗跖接近成鸟尺度，折翼仍明显未成熟；成年雌雄同羽色、近等身高和翼长，雌鸟仅略显丰满，不把平均体重差机械转成整体更高。首图幼鸟过小且翼斑过度成鸟化；第一次编辑体量通过但长硬飞羽复发；第二次编辑保留近成鸟体量并缩短软化折翼、去掉规则白斑列、隐藏尾部。全图与560×650裁切复查通过。精确日龄、连续羽区、虹膜/尾羽序列和首次飞行能力未知，科学验收false。",
-      "sha256": "0fe238819946237b41518e61cdd2e65b4cea386474081a1cad7cacd851363b81",
+      "path": "design/concepts/86-otus-elegans-v4.png",
+      "species_id": 86,
+      "scientific_name": "Otus elegans",
+      "current_scientific_name": "Otus elegans",
+      "subspecies_context": "Otus elegans interpositus",
+      "common_name": "Ryukyu Scops Owl",
+      "historical_names": [
+        "Ephialtes elegans"
+      ],
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
       "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
-      "source_index": "research/SOURCE_INDEX.md#2026-10-29--86-otus-elegans-v4--30-day-bodywing-growth-decoupling-and-trait-specific-rsd",
-      "run_record": "production/runs/20261029T1325+0800-cycle-2.md",
-      "reviewed_at": "2026-10-29T13:37:00+08:00",
-      "dimensions": "1536x1024",
-      "size_bytes": 613357,
-      "git_blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
-      "generated_path": "production/generated/86-otus-elegans-v4-generated-master.jpg",
-      "generated_blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
-      "generated_size_bytes": 613357,
-      "generated_sha256": "0fe238819946237b41518e61cdd2e65b4cea386474081a1cad7cacd851363b81",
-      "generated_png_path": "production/generated/86-otus-elegans-v4-generated-master.png",
-      "generated_png_blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
-      "generated_png_size_bytes": 77155,
-      "generated_png_sha256": "cf0e34803eb05c370c3e2f516f959a48e9c6c9e8c463d1fc2325470c051a9090",
-      "reviewed_path": "production/reviewed/86-otus-elegans-v4-reviewed-master.jpg",
-      "reviewed_blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
-      "reviewed_size_bytes": 613357,
-      "reviewed_sha256": "0fe238819946237b41518e61cdd2e65b4cea386474081a1cad7cacd851363b81",
-      "reviewed_png_path": "production/reviewed/86-otus-elegans-v4-reviewed-master.png",
-      "reviewed_png_blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
-      "reviewed_png_size_bytes": 77155,
-      "reviewed_png_sha256": "cf0e34803eb05c370c3e2f516f959a48e9c6c9e8c463d1fc2325470c051a9090",
-      "review_crop_path": "production/reviewed/86-otus-elegans-v4-juvenile-review-crop.jpg",
-      "review_crop_blob": "24320060485ed803113107b07e34fad8a83f8f2a",
-      "review_crop_size_bytes": 155656,
-      "archive_note": "Three built-in imagegen calls and two evidence-bounded edits. Full and crop reopened; near-adult juvenile body, soft short rounded incomplete wings, hidden tail, six supported feet, same-plumage near-equal adults and Minami-daito context pass. Exact day/feather/iris/tail/first-flight sequence unknown; science false.",
-      "readback_pending": false,
-      "archive_commit": "c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b",
-      "fixed_commit": "c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b",
-      "verified_at": "2026-10-29T13:42:00+08:00",
-      "readback": {
-        "status": "VERIFIED",
-        "tree_truncated": false,
-        "concept": {
-          "path": "design/concepts/86-otus-elegans-v4.jpg",
-          "blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
-          "size_bytes": 613357
-        },
-        "generated_jpg": {
-          "path": "production/generated/86-otus-elegans-v4-generated-master.jpg",
-          "blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
-          "size_bytes": 613357
-        },
-        "generated_png": {
-          "path": "production/generated/86-otus-elegans-v4-generated-master.png",
-          "blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
-          "size_bytes": 77155
-        },
-        "reviewed_jpg": {
-          "path": "production/reviewed/86-otus-elegans-v4-reviewed-master.jpg",
-          "blob": "87e84e782b5bcaf1795825fd05a210f848adb084",
-          "size_bytes": 613357
-        },
-        "reviewed_png": {
-          "path": "production/reviewed/86-otus-elegans-v4-reviewed-master.png",
-          "blob": "960ae57409cb6f0ae1dd5923c97ad67da5bdb30a",
-          "size_bytes": 77155
-        },
-        "review_crop": {
-          "path": "production/reviewed/86-otus-elegans-v4-juvenile-review-crop.jpg",
-          "blob": "24320060485ed803113107b07e34fad8a83f8f2a",
-          "size_bytes": 155656
-        },
-        "fixed_commit": "c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b"
-      }
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "ELE-SAWADA-IWASAKI-ETAL-2021-RSD",
+        "ELE-AKATANI-MATSUO-TAKAGI-2011-JRR",
+        "ELE-BIRD-RESEARCH-NEWS-2011-P1-2",
+        "ELE-SAWADA-AUTHOR-GROWTH-2021",
+        "ELE-ITIS-555377-2026",
+        "ELE-MIK2013-160"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/86-otus-elegans-v4.md",
+      "review_record": "research/reviews/86-otus-elegans-v4-review.md",
+      "run_record": "production/runs/20261106T053000+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2848698,
+      "sha256": "6e243dcff80d044e50eb35980ddd2a98e2f64be19349ed93b4359b747a83fe0c",
+      "git_blob": "0447b694161ea49ebdfca08c698fa9e3604c25ce",
+      "generated_path": "production/generated/86-otus-elegans-v4-generated-master.png",
+      "generated_blob": "1d90d643bdbc73aa11a87570e70892880de90c3a",
+      "generated_sha256": "75286183b89922424bb86733cfd55028cd999d610f58cda33b565a0f3b6a08d9",
+      "generated_size_bytes": 3397059,
+      "edit_path": "production/generated/86-otus-elegans-v4-edit1.png",
+      "edit_blob": "0447b694161ea49ebdfca08c698fa9e3604c25ce",
+      "edit_paths": [
+        "production/generated/86-otus-elegans-v4-edit1.png"
+      ],
+      "edit_blobs": [
+        "0447b694161ea49ebdfca08c698fa9e3604c25ce"
+      ],
+      "reviewed_path": "production/reviewed/86-otus-elegans-v4-reviewed-master.png",
+      "reviewed_blob": "0447b694161ea49ebdfca08c698fa9e3604c25ce",
+      "adults_review_crop": "production/review-crops/86-otus-elegans-v4-adults-support.png",
+      "adults_review_blob": "2685a90d375624ce780224b3bd8e6ee40cf044b1",
+      "adults_review_size_bytes": 2100528,
+      "adults_review_sha256": "3295e3f7bc5af670ed9463b98d7808c7d610c8d3572f3301ac588c6d0d9fc5ff",
+      "juvenile_review_crop": "production/review-crops/86-otus-elegans-v4-juvenile.png",
+      "juvenile_review_blob": "023f09a895bf37c416397037a43c0960832d1cf4",
+      "juvenile_review_size_bytes": 720800,
+      "juvenile_review_sha256": "188e0f1d3c6316cde93e499d3ac336f2b1becdc7ff1c885892e6c19f5ef90049",
+      "reviewed_at": "2026-11-06T05:46:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V4 preserves v1-v3. Body/tarsus may approach adult near fledging while wing length remains in growth; one center-only edit removed two hard adult-like tips. Adult RSD is trait-specific/year-variable, so standing heights remain near equal. Exact age/sex, feather chronology, sustained flight, juvenile iris and standing-height ratio remain unknown; science false."
     },
     {
       "id": "87-bubo-ascalaphus-v3",
@@ -22827,5 +22823,5 @@
       "verification_result": "PASS: immutable archive commit returned 15 required paths; six binary paths match exact Git blobs; remote manifests parse at 708/707/698 with #85 v5 tails; research/review/run text readable"
     }
   ],
-  "updated_at": "2026-11-06T05:50:00+08:00"
+  "updated_at": "2026-11-06T05:58:00+08:00"
 }

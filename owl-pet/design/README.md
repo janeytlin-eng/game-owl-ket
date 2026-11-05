@@ -3129,3 +3129,9 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - V5 preserves v1–v4 and replaces any fixed sex-height assumption with a subtle direction supported by overlapping genetically sexed adult measurements. One juvenile-only edit shortened and down-softened the folded wing, reduced adult-like spots and shortened the tail while retaining a formed fresh wing, residual down and supported step. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback pending.
 - Immutable archive verification 2026-11-06T03:42:00+08:00: commit `ad12cb07bb7591fe180f359144b57dac5d3afd3b`, tree `67754fa73d8c038a4f12af9a05cc983b02a8f06f`; non-truncated 3,188 entries, 15 required paths and six exact binary tuples passed. Manifests 705/704/695; ledger credit pending.
 - Ledger credit 2026-11-06T03:44:00+08:00: verification commit `4ebbc4bb4649306f768b0b2f9819a8be1c94a8b2`, tree `685b2fc7a8279a9e25073e953b8dadb29e6576da`; batch cumulative 5/6, next cycle 6, lease released. Science false.
+
+
+## #82 African Scops Owl — *Otus senegalensis* — v5
+
+- [Concept](concepts/82-otus-senegalensis-v5.png) · [Research](../research/species/82-otus-senegalensis-v5.md) · [Review](../research/reviews/82-otus-senegalensis-v5-review.md) · [Run](../production/runs/20261106T034111+0800-cycle-6.md)
+- V5 preserves v1–v4 and uses Riekert's documented day-22 nest-box study stage: residual down, largely emerged body/tail feathers, calling at the entrance and two-foot sill support. One edit removed hard adult-like wing rows. Adults stay equal height/wing length with only slight female fullness. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.

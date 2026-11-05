@@ -239,3 +239,4 @@
 2026-11-06T03:39:00+08:00 #81 Otus scops v5 ARCHIVED; batch 20261105T233209+0800 cycle5/6; full and two crops viewed after one edit; manifests 705/704/695; immutable readback and cycle credit pending; unique 176/251; revision +1; science false.
 2026-11-06T03:42:00+08:00 #81 Otus scops v5 VERIFIED; archive ad12cb07/tree67754fa; 15/15 paths and 6/6 binary tuples exact; manifests 705/704/695 parse; ledger credit pending; unique 176/251; science false.
 2026-11-06T03:44:00+08:00 #81 Otus scops v5 LEDGER_CREDITED; batch 20261105T233209+0800 now 5/6, next cycle 6, lease released; verification 4ebbc4bb/tree685b2fc; unique 176/251; revision +1; science false.
+2026-11-06T03:57:00+08:00 #82 Otus senegalensis v5 ARCHIVED; batch 20261105T233209+0800 cycle6/6; full and two crops viewed after one edit; manifests 706/705/696; immutable readback and cycle credit pending; unique176/251; science false.

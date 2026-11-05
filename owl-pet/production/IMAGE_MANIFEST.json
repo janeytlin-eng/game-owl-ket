@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T03:42:00+08:00",
+  "updated": "2026-11-06T03:57:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21923,7 +21923,77 @@
       "archive_tree": "67754fa73d8c038a4f12af9a05cc983b02a8f06f",
       "verified_at": "2026-11-06T03:42:00+08:00",
       "verification_result": "PASS: immutable non-truncated 3,188-entry tree; all 15 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 705/704/695"
+    },
+    {
+      "id": "82-otus-senegalensis-v5",
+      "path": "design/concepts/82-otus-senegalensis-v5.png",
+      "species_id": 82,
+      "scientific_name": "Otus senegalensis",
+      "current_scientific_name": "Otus senegalensis",
+      "common_name": "African Scops Owl",
+      "historical_names": [
+        "Scops senegalensis"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SEN-RIEKERT-1986-P425-428",
+        "SEN-ITIS-1063416-2026",
+        "SEN-MELO-ETAL-2022",
+        "SEN-BROWN-RIEKERT-MORSBACH-1987",
+        "SEN-BE-ROBERTS2005",
+        "SEN-OWLPAGES-2020",
+        "SEN-MIK2013-130"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/82-otus-senegalensis-v5.md",
+      "review_record": "research/reviews/82-otus-senegalensis-v5-review.md",
+      "run_record": "production/runs/20261106T034111+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3046240,
+      "sha256": "5a67366f19aaa0f77ac384819d777ab3d234a3d8fb5dd00133afd81cf476153a",
+      "git_blob": "73e63dfe5505311fd5ff7a80da72eab4b58de987",
+      "generated_path": "production/generated/82-otus-senegalensis-v5-generated-master.png",
+      "generated_blob": "6cfaa467dbf5b92976eb4e94f5007c6a530e0f0b",
+      "generated_sha256": "4f9d1d215504e406da3302ef79c272e1c4f067f1b62a462a0642344c8acee960",
+      "generated_size_bytes": 3201732,
+      "edit_path": "production/generated/82-otus-senegalensis-v5-edit1.png",
+      "edit_blob": "73e63dfe5505311fd5ff7a80da72eab4b58de987",
+      "edit_paths": [
+        "production/generated/82-otus-senegalensis-v5-edit1.png"
+      ],
+      "edit_blobs": [
+        "73e63dfe5505311fd5ff7a80da72eab4b58de987"
+      ],
+      "reviewed_path": "production/reviewed/82-otus-senegalensis-v5-reviewed-master.png",
+      "reviewed_blob": "73e63dfe5505311fd5ff7a80da72eab4b58de987",
+      "adults_review_crop": "production/review-crops/82-otus-senegalensis-v5-adults-support.png",
+      "adults_review_blob": "754941a0ae3517ad449dca66cd975c845ce1c4f7",
+      "adults_review_size_bytes": 2232336,
+      "adults_review_sha256": "42a74bded2b9708a4e15b44bdda2273e95e5522119a288ad3d8c0fe631943a09",
+      "juvenile_review_crop": "production/review-crops/82-otus-senegalensis-v5-juvenile.png",
+      "juvenile_review_blob": "53a2a558fe0da55aded1b7245081d666eb52b48c",
+      "juvenile_review_size_bytes": 858700,
+      "juvenile_review_sha256": "fd33612be5e4ae2236bb454c876fbd2026e2dde07a2b3dd452174c39b4333442",
+      "reviewed_at": "2026-11-06T03:54:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4 and replaces the generic recent-fledgling brancher with a Riekert-1986 documented day-22 study-stage nestling at a nest-box entrance. One targeted edit shortened/down-softened the juvenile wing, removed regular adult-like rows and shortened the tail while retaining formed fresh feathers, residual down, calling action and two-foot sill support. Adults remain equal height/wing length; female only subtly fuller because one measured pair had equal 140 mm wing chords but higher female mass. Exact tract geometry, juvenile sex, flight threshold, population transfer and universal ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T03:42:00+08:00"
+  "updated_at": "2026-11-06T03:57:00+08:00"
 }

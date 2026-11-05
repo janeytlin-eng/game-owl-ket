@@ -3423,3 +3423,10 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #81 v5 LEDGER_CREDITED — batch 5/6
 
 - Verification commit `4ebbc4bb4649306f768b0b2f9819a8be1c94a8b2`, tree `685b2fc7a8279a9e25073e953b8dadb29e6576da`, is credited once. Batch `20261105T233209+0800` advances to 5/6, next cycle 6 and lease released. Unique 176/251; revision +1; science false.
+
+
+## 2026-11-06 #82 *Otus senegalensis* v5 ARCHIVED — readback pending
+
+- One primary development record restored/read in full, two new sources, one re-read source, three reused sources and four corrected boundaries; v1–v4 preserved.
+- One juvenile-only wing/tail edit passed full, juvenile/support and adult/support inspection. Manifests 706/705/696; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
+- Exact feather-tract geometry, juvenile sex/subspecies, sustained flight, cross-population timing and universal adult mass ratio remain unknown. No cycle credit before immutable readback.

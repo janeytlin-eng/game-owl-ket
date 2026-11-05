@@ -1232,3 +1232,28 @@
 - Reused `AGO-PRETORIUS-ETAL-2026-P110` and `AGO-BLSA-RDB-2025`; the uploaded Mikkola file was inaccessible, so only the repository's prior page-specific extraction is reused.
 - New0 / re-read2 / reused2 / corrected3: mean mass is not standing height; buff adult female colour is not universal female dichromatism; buff face alone is not an age key. Scientific status remains false.
 
+## 2026-11-05 — #67 *Pulsatrix perspicillata* v5 — cavity-stage wing practice
+
+### SPO-GOMES-ETAL-2011-P4-5
+- **Title / authors / year:** *Acompanhamento do desenvolvimento de ninhego de Pulsatrix perspicillata (Strigiformes: Strigidae) durante processo de supressão de vegetação em aproveitamento hidrelétrico* — Gomes, Santos, Machado & Moura, 2011.
+- **URL:** https://www.academia.edu/3209097/Acompanhamento_do_desenvolvimento_de_ninhego_de_Pulsatrix_perspicillata_Strigiformes_Strigidae_durante_processo_de_supress%C3%A3o_de_vegeta%C3%A7%C3%A3o_em_aproveitamento_hidrel%C3%A9trico
+- **Type / accessed:** primary field-monitoring note, *Atualidades Ornitológicas* 163:4–5; full two-page text and figure captions read 2026-11-05.
+- **Species/stage/pages:** one *P. perspicillata* chick, hatch through about 51 days, pp.4–5, figures 4–8.
+- **Facts:** dead-tree cavity 2.20 m high, 60 cm diameter, 80 cm deep; chick stayed inside during roughly 50 days of monitoring, stretched/flapped wings but did not take off; captions mark about 20, 23, 44 and 51 days.
+- **Limits/conflict:** one disturbed-site nest and one surviving chick; no universal cavity or flight threshold. The text supplies action/setting, not a complete feather-tract atlas.
+- **Design use:** age-unknown cavity-stage juvenile with supported wing practice and no takeoff/branching claim.
+- **Links:** `research/species/67-pulsatrix-perspicillata-v5.md`; concept v5; run `production/runs/20261105T164500+0800-cycle-3.md`.
+
+### SPO-CORREA-2016-P55-56-179-187
+- **Title / author / year:** *Taxonomia e distribuição geográfica dos representantes do gênero Pulsatrix Kaup, 1848* — Aline Henrique Corrêa, 2016.
+- **URL:** https://teses.usp.br/teses/disponiveis/41/41133/tde-15122016-115143/publico/Correa_2016_versao_corrigida.pdf
+- **Type / accessed:** University of São Paulo MSc thesis; pp.55–56, 179 and 186–187 read 2026-11-05.
+- **Species/stage:** adult and juvenile museum/captive *P. perspicillata*.
+- **Facts:** females significantly longer in wing, tail and culmen in the analysed adult specimens; tarsus/supercilium not significant and ranges overlap. Juveniles can retain white down/dark face while carrying definitive flight feathers and barred first-generation coverts; age and geography also affect barring.
+- **Limits/conflict:** skins/captive comparison and heterogeneous provenance do not yield standing height, mass ratio, or a universal individual colour rule.
+- **Design use:** modest female fullness/length only; preserve formed transversely barred juvenile wing rather than generic white buds or hard round spots.
+- **Links:** `research/species/67-pulsatrix-perspicillata-v5.md`; concept v5; run `production/runs/20261105T164500+0800-cycle-3.md`.
+
+### Reused and corrected evidence
+- Reused `SPO-WETMORE-1968-P164`, `SPO-BOUGLOUAN-2026` and `SPO-PEREGRINE-2026`; new2 / reused3 / corrected2. V5 changes action/support and adult scale, not the already-correct species-specific barred juvenile wing exception. Scientific status false.
+

@@ -1,12 +1,11 @@
 # Owl-pet production status
 
 - Unique species archived: 176/251
-- Latest staged concept: #57 *Bubo nipalensis* v5 (revision; immutable readback pending)
-- Latest verified concept: #55 *Bubo lacteus* v5 (revision; no unique increment)
-- Accepted archive: `f8909efcb67f278125c42d9750930c5ba21323b2`
-- Verification commit: `d0f7a1dcbd7b804ed48c8acb219b6e9628b826f4`
-- Ledger credit commit: `f9ed387c827d520af87f7ac81a9340f254c2e386`
+- Latest verified concept: #57 *Bubo nipalensis* v5 (revision; no unique increment)
+- Accepted archive: `4a13d7cd28862e6d6e4e4e966de83f6be539fcd9`
+- Verification commit: `4516985582acd362c58fcd15936c9822a2ad6786`
+- Ledger credit: recorded in `BATCH_STATE.json` completed cycle 5
 - Result: VERIFIED / PASS_WITH_LIMITATIONS / scientifically_verified=false
-- Manifest counts staged: 680 / 681 / 671
+- Manifest counts: 680 / 681 / 671
 - Scientifically verified groups: 0
-- Batch `20261105T062700+0800`: PARTIAL 4/6; cycle 5 ARCHIVED/readback pending; next verified cycle remains 5
+- Batch `20261105T062700+0800`: PARTIAL 5/6; no active lease; next cycle 6

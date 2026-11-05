@@ -1,8 +1,8 @@
-## #57 Spot-bellied Eagle-Owl — *Bubo nipalensis* / current *Ketupa nipalensis* — v5 ARCHIVED
+## #57 Spot-bellied Eagle-Owl — *Bubo nipalensis* / current *Ketupa nipalensis* — v5 VERIFIED
 
-- Concept: [57-bubo-nipalensis-v5.png](concepts/57-bubo-nipalensis-v5.png)
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/4a13d7cd28862e6d6e4e4e966de83f6be539fcd9/owl-pet/design/concepts/57-bubo-nipalensis-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/4a13d7cd28862e6d6e4e4e966de83f6be539fcd9)
 - Research: [57-bubo-nipalensis-v5.md](../research/species/57-bubo-nipalensis-v5.md) · [review](../research/reviews/57-bubo-nipalensis-v5-review.md) · [run](../production/runs/20261105T073000+0800-cycle-5.md)
-- One juvenile-only edit lowered the age-unknown dependent bird into a broad supported fork and softened adult-perfect wing edges while retaining documented barred remiges/tail. PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+- One juvenile-only edit lowered the age-unknown dependent bird into a broad supported fork and softened adult-perfect wing edges while retaining documented barred remiges/tail. All 18 paths and seven binary tuples read back at verification `4516985582acd362c58fcd15936c9822a2ad6786`; PASS_WITH_LIMITATIONS; science false.
 
 ## #152 Papuan Hawk-Owl — *Uroglaux dimorpha* — v3 VERIFIED
 

@@ -1155,3 +1155,32 @@
 - New verified sources: 1; re-read verified sources: 3; corrected boundaries: 3. “Large downy chick” is not an exact age; roosting does not prove independent flight; “female slightly larger” is not a fixed height multiplier.
 - Uploaded Mikkola guide was unavailable in this run; no fresh page claim. Unknown: exact juvenile age/sex, continuous feather chronology, locomotor ability, perch geometry, universal sex-size ratio and cross-population transfer. Scientific status remains false.
 
+## 2026-11-05 — #64 *Tyto glaucops* v5 — photographed older-juvenile pine-perch boundary
+
+### AFO-BIRDFORUM-2008-JUV
+- **Title / contributor / date:** “Ashy faced owl (juvenile)” — BirdForum gallery, contributor `caribemotion`, uploaded 26 November 2008.
+- **URL / type / accessed:** https://www.birdforum.net/gallery/ashy-faced-owl.223103/ ; identified field-photo page and full-resolution image; page caption and image opened 2026-11-05; no printed page.
+- **Species/stage/locality:** captioned juvenile *Tyto glaucops*, Sierra de Bahoruco, Dominican Republic, c.1,800 m, perched in a c.20 m pine.
+- **Facts actually visible:** pale ash-grey heart-shaped face with dark rim/eyes; warm buff-tawny finely mottled body; formed compact folded wing/tail contours; natural pine-branch and long-needle support.
+- **Limits/conflicts/credibility:** user-submitted identified field photo, not an institutional specimen or known-hatch-age sequence; exact age, sex, subspecies, locomotor history and identification method are absent. Medium confidence for the photographed appearance/support and captioned locality; insufficient for exact age or flight.
+- **Design/check decision:** choose an age-unknown older juvenile with formed but softly patterned folded feathers, firmly supported on pine; do not infer independent flight or transfer the v4 Palmchat-nest event into this photograph.
+- **Links:** `research/species/64-tyto-glaucops-v5.md`; planned concept v5; run `production/runs/20261105T135847+0800-cycle-6.md`.
+
+### AFO-CURTI-2018 — re-read primary boundary
+- **Title / authors / year:** “First description of Ashy-faced Owl nest and nestlings in a Palmchat nest” — Curti, Hayes, Hayes & Calcaño Silven, 2018.
+- **DOI / URL / pages:** https://doi.org/10.55431/jco.2018.31.17-19 ; https://jco.birdscaribbean.org/index.php/jco/article/view/444 ; *Journal of Caribbean Ornithology* 31:17–19; official article page re-read 2026-11-05, repository PDF pp.17–19 previously read.
+- **Facts:** one coconut-palm/Palmchat-cavity breeding sequence included buff-down nestlings, a partly down-covered larger young and age-unknown begging young outside the nest.
+- **Limits/design:** a single first nest record; no continuous feather chronology or flight threshold. It remains the v4 event and is not merged with the 2008 pine-perch juvenile.
+
+### AFO-MACAULAY-ML201989861
+- **Title / institution / date:** Ashy-faced Owl ML201989861 — Macaulay Library, Cornell Lab of Ornithology, 22 April 2010.
+- **URL / type / accessed:** https://macaulaylibrary.org/asset/201989861 ; institutional media metadata, search result and metadata read 2026-11-05; protected media not opened.
+- **Facts:** age/sex-unspecified individual reported at the mouth of a nest in a dead Royal Palm trunk at Los Patos, Barahona, elevation c.76 m.
+- **Limits/design:** metadata does not identify a juvenile or expose plumage/feather chronology. Nest-site diversity gate only; not direct v5 morphology evidence.
+
+### Taxonomy mapping, reuse and correction
+- `AFO-CLEMENTS-2024-SPECIES`: Clements October 2024 update retains *Tyto glaucops* as a separate species in a conservative barn-owl treatment; taxonomy only.
+- `AFO-ITIS-555358-2026`: ITIS TSN 555358 confirms current scientific name *Tyto glaucops*; taxonomy only.
+- New persistent source record: 1; re-read/reused verified sources: 4; corrected boundaries: 3. The Palmchat nest is not universal; the photographed older juvenile is not a known-age or proven-flight bird; adults lack evidence for a large standing-height difference.
+- Uploaded Mikkola guide unavailable; no fresh page claim. Unknown: exact juvenile age/sex/subspecies, continuous feather chronology, locomotor threshold, sexed dimensions and habitat generality. Scientific status remains false.
+

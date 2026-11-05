@@ -26,4 +26,4 @@ Exact juvenile age, continuous feather sequence, sustained-flight threshold, qua
 
 ## Archive readback
 
-Pending immutable archive and verification commits. Visual review is complete, but scientific verification remains false.
+Immutable archive `4a13d7cd28862e6d6e4e4e966de83f6be539fcd9` / tree `1b08cf33a5243c02d9c971c74aadfbd0070711e3` was re-read: all 18 required paths matched, including seven binary paths, four unique image blobs, three parseable manifests and complete research/review/run/workflow/status records. Integrity VERIFIED; scientific status remains false.

@@ -16302,17 +16302,11 @@
         "expires_at": "2026-11-05T16:10:00+08:00"
       },
       "in_progress": {
-        "batch_id": "20261105T153530+0800",
-        "cycle": 2,
-        "run_id": "20261105T155500+0800-cycle-2",
-        "species_id": 66,
-        "species": "Tyto capensis",
-        "action": "SCIENCE_REVISION",
-        "version": 5,
-        "current_stage": "STARTED",
-        "started_at": "2026-11-05T15:55:00+08:00",
-        "baseline_commit": "73da54578477f8ba60b505ddd6eb60adac597bab",
-        "run_record": "owl-pet/production/runs/20261105T155500+0800-cycle-2.md"
+        "cycle": 6,
+        "run_id": "20261105T173620+0800-cycle-6",
+        "species_id": 70,
+        "stage": "IMAGE_GENERATED",
+        "started_at": "2026-11-05T17:36:20+08:00"
       },
       "current_stage": "STARTED",
       "events": [
@@ -16501,7 +16495,13 @@
             "lease_expires_at": "2026-11-05T16:10:00+08:00"
           }
         }
-      ]
+      ],
+      "lease": {
+        "owner": "codex-automation",
+        "run_id": "20261105T173620+0800-cycle-6",
+        "heartbeat_at": "2026-11-05T17:46:00+08:00",
+        "expires_at": "2026-11-05T18:01:00+08:00"
+      }
     }
   ],
   "lease": {
@@ -23814,6 +23814,26 @@
         "baseline_commit": "73da54578477f8ba60b505ddd6eb60adac597bab",
         "prior_version": "owl-pet/design/concepts/66-tyto-capensis-v4.png",
         "lease_expires_at": "2026-11-05T16:10:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261105T153530+0800",
+      "cycle": 6,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-05T17:46:00+08:00",
+      "run_id": "20261105T173620+0800-cycle-6",
+      "species_id": 70,
+      "credited": false,
+      "evidence": {
+        "generated_path": "owl-pet/production/generated/70-ninox-strenua-v5-generated-master.png",
+        "dimensions": "1536x1024",
+        "bytes": 3437455,
+        "sha256": "55f092af09b7c149f9be116669fe8a0f50f37d17ab98a462f9130652d6ae282c",
+        "generation_seconds": 70.9,
+        "edit_count": 0,
+        "inspection_issue": null,
+        "complete_prompt": "owl-pet/research/species/70-ninox-strenua-v5.md",
+        "lease_expires_at": "2026-11-05T18:01:00+08:00"
       }
     }
   ],

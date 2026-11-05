@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T05:58:00+08:00",
+  "updated": "2026-11-06T06:06:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -7555,7 +7555,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "ELE-SAWADA-IWASAKI-ETAL-2021-RSD",
         "ELE-AKATANI-MATSUO-TAKAGI-2011-JRR",
@@ -7598,8 +7598,12 @@
       "juvenile_review_size_bytes": 720800,
       "juvenile_review_sha256": "188e0f1d3c6316cde93e499d3ac336f2b1becdc7ff1c885892e6c19f5ef90049",
       "reviewed_at": "2026-11-06T05:46:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V4 preserves v1-v3. Body/tarsus may approach adult near fledging while wing length remains in growth; one center-only edit removed two hard adult-like tips. Adult RSD is trait-specific/year-variable, so standing heights remain near equal. Exact age/sex, feather chronology, sustained flight, juvenile iris and standing-height ratio remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V4 preserves v1-v3. Body/tarsus may approach adult near fledging while wing length remains in growth; one center-only edit removed two hard adult-like tips. Adult RSD is trait-specific/year-variable, so standing heights remain near equal. Exact age/sex, feather chronology, sustained flight, juvenile iris and standing-height ratio remain unknown; science false.",
+      "archive_commit": "ea2d8ccba32ee0ed9f84b83759bf56242b60e638",
+      "archive_tree": "65019e61a97cbfbfa876acb9d8787039c84d716e",
+      "verified_at": "2026-11-06T06:06:00+08:00",
+      "verification_result": "PASS: fixed immutable archive returned 3,222 non-truncated entries; 17 required text/index paths were present; six binary paths match exact blobs and byte sizes; manifests parse at 708/707/698 with complete #86 v4 entry; research/review/run text is readable. Truncated archive 44ecc905 retained as superseded evidence."
     },
     {
       "id": "87-bubo-ascalaphus-v3",
@@ -22657,5 +22661,5 @@
       "verification_result": "PASS: immutable archive commit returned 15 required paths; six binary paths match exact Git blobs; remote manifests parse at 708/707/698 with #85 v5 tails; research/review/run text readable"
     }
   ],
-  "updated_at": "2026-11-06T05:58:00+08:00"
+  "updated_at": "2026-11-06T06:06:00+08:00"
 }

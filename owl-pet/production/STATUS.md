@@ -2,9 +2,9 @@
 
 ## 20261105T233209+0800 cycle 1 — #77 *Asio stygius* v5
 
-- Stage: VERIFIED at archive `71a6ddf87b71ffebe5ae864713bac53b6d43abc3`; ledger credit pending.
+- Stage: LEDGER_CREDITED; archive `71a6ddf87b71ffebe5ae864713bac53b6d43abc3`, verification `0cd4c24c0366f5c04eaea8b54bee1b635a4acb68`; batch 1/6, next 2, lease released.
 - Result: `PASS_WITH_LIMITATIONS`; edit count 1; science false; unique 176/251; revision +1.
-- Recovery: immutable tree/path/blob/size and manifest checks passed; if interrupted, resume only ledger credit and do not regenerate v5.
+- Recovery: immutable tree/path/blob/size and manifest checks passed and cycle credit is present. Resume batch cycle 2; do not regenerate #77 v5.
 
 ## 2026-11-05 #75 *Ninox scutulata* v5 ARCHIVED — readback pending
 

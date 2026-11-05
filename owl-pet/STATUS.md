@@ -1,7 +1,7 @@
-## 2026-11-05 #77 *Asio stygius* v5 VERIFIED — ledger credit pending
+## 2026-11-05 #77 *Asio stygius* v5 LEDGER_CREDITED — batch 1/6
 
 - New batch `20261105T233209+0800`, cycle 1/6; one science revision, unique +0, revision +1; unique coverage remains 176/251.
-- Research, generation, one targeted juvenile-wing edit and full/crop review complete. Fixed archive `71a6ddf87b71ffebe5ae864713bac53b6d43abc3` passed immutable readback. Ledger credit remains separate.
+- Research, generation, one targeted juvenile-wing edit and full/crop review complete. Fixed archive `71a6ddf87b71ffebe5ae864713bac53b6d43abc3` and verification `0cd4c24c0366f5c04eaea8b54bee1b635a4acb68` passed immutable readback. Cycle credited once; batch 1/6, next 2, lease released.
 
 ### #66 v5 LEDGER_CREDITED — batch 2/6
 

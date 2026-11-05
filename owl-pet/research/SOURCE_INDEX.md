@@ -1283,3 +1283,20 @@
 ### Reused and corrected evidence
 - Re-read `AMO-ABSA-2019-P1-2`; reused `AMO-AUSTRALIAN-MUSEUM-2024`, `VIC-RAPTORS-2023` and repository extraction `WHSO-MIKKOLA-2013`. New1 / re-read2 / reused3 / corrected3. Inferred age is not a known hatch age; natural hollow context is not the captive Plate 11 setting; female-larger morphometrics are not a fixed illustrated standing-height ratio. Uploaded Mikkola guide unavailable; no fresh page claim. Science false.
 
+## 2026-11-05 — #70 *Ninox strenua* v5 — photographic sex boundary and first-flight restraint
+
+### POWERFUL-COOKE-ETAL-2020
+- **Title / authors / year:** “Photography can determine the sex of a predator with limited sexual dimorphism: A case study of the powerful owl” — Cooke, Rendall, Weston, Porch, Bradsworth & White, 2020.
+- **DOI / URL:** https://doi.org/10.1016/j.gecco.2020.e00959 ; https://www.researchgate.net/publication/339096218_Photography_can_determine_the_sex_of_a_predator_with_limited_sexual_dimorphism_A_case_study_of_the_powerful_owl
+- **Type / pages / accessed:** open-access peer-reviewed primary photographic-morphometric study, *Global Ecology and Conservation* 22:e00959, pp.1–8, especially pp.2–6 and Figs.1–6; full article text read 2026-11-05.
+- **Species/stage/facts:** adult *Ninox strenua*. Sixty-three known-sex front-facing alert photographs supplied the measured model; the head-width/inter-nostril ratio was larger in males. In 82 assessable images, female facemask feathers reached or slightly exceeded the horizontal head contour whereas male facemask feathers stopped short. Overall sexual dimorphism was described as extremely limited.
+- **Limits/conflicts/credibility:** the method requires direct forward alert posture and image ratios; posture, angle and feather fluff distort measurement, and the male mask-to-contour gap can be small. Strong primary evidence for a restrained front-view diagnostic, not a fixed stylised pixel ratio or conspicuous height difference.
+- **Design/check decision:** keep adult crown/support height comparable; use only a subtly broader male head/body and a female mask edge reaching the head contour. Do not exaggerate scale or invent dichromatism.
+- **Links:** `research/species/70-ninox-strenua-v5.md`; planned concept v5; run `production/runs/20261105T173620+0800-cycle-6.md`.
+
+### Re-read, reused and corrected boundaries
+- Re-read `POWERFUL-MO-WATERHOUSE-2015` pp.145–146/Fig.1: two owlets left on 5/14 August, the second flew out then crashed, and both were first seen flying on 17 August. A recent fledgling can have developed folded wings/tail but must not be shown as universally competent in flight.
+- Re-read `POWERFUL-ABSA-2019` p.1 and `POWERFUL-NSWSC-2008` pp.1–2; reused `POWERFUL-MV-2026` and repository extraction `WHSO-MIKKOLA-2013` printed pp.450–451/PDF pp.452–453.
+- New1 / re-read3 / reused2 / corrected3: sex-scale becomes near-equal with a subtle facial diagnostic; leaving a hollow is not polished flight competence; the recent fledgling keeps white/downier juvenile plumage rather than adult chevrons.
+- Uploaded Mikkola guide unavailable in this execution; no fresh page claim. Unknown: exact hatch age, depicted juvenile sex, daily feather chronology, universal first-flight competence and stylised transfer of photograph ratios. Scientific status remains false.
+

@@ -3173,3 +3173,4 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Archive `c06d60fc0a60e1d690d766dfb5ff898ceceda59a`, tree `4fe0015ae0e78624c85dade070736202e0ef9358`; exact concept/generated/reviewed and crop blobs/sizes plus JSON/manifests read back.
 - PASS_WITH_LIMITATIONS; unique 176/251; science false; ledger credit pending.
+- Verification commit `af1d96998cb82a564760544ef4c6fa460f9bae96` recorded once; current batch is 5/6, next cycle 6, lease released.

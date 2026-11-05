@@ -22,3 +22,4 @@
 
 - Archive `c06d60fc0a60e1d690d766dfb5ff898ceceda59a`, tree `4fe0015ae0e78624c85dade070736202e0ef9358`; thirteen paths, five binary path/blob tuples, three unique image blobs and exact byte sizes passed.
 - Manifests parse at 686 / 687 / 677; PASS_WITH_LIMITATIONS; unique remains 176/251; science false. Ledger credit pending.
+- Verification commit `af1d96998cb82a564760544ef4c6fa460f9bae96` recorded once; batch `20261105T103554+0800` is 5/6, next cycle 6, lease released.

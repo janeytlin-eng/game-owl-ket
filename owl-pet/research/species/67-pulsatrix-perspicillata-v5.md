@@ -38,3 +38,10 @@ Environment: humid lowland/gallery forest with a dead tree cavity, moss, vines a
 - Correct v4's branch-perching implication: selected juvenile remains in-cavity and wing practice never becomes takeoff.
 - Female may be modestly fuller/longer but never a fixed giant. Labels, not plumage, encode sex.
 - Verify exactly three birds, readable text, adult spectacles/bib, juvenile white body/dark face, transverse bars rather than spots, and all feet/body supports.
+
+## Actual image review — 2026-11-05
+
+- Generated master: `owl-pet/production/generated/67-pulsatrix-perspicillata-v5-generated-master.png`; 1536×1024; 3,237,058 bytes; SHA-256 `71222f42b9dd27f2f16af32007cd4ac0979c1cd665d958a33b7fa8ae1e97406a`; imagegen wait 68.6 s; edit count 0.
+- Opened full frame and adult/juvenile crops. All three birds and their supports are present. Adult identity and overlapping-scale direction pass. The cavity juvenile is white/dark-faced, fully supported and raising one transversely barred formed wing without takeoff.
+- The mature-looking wing was not edited into generic white buds because Wetmore and Corrêa specifically support formed barred juvenile wings in this species. The exact age-stage synthesis remains uncertain, so this is `PASS_WITH_LIMITATIONS`, not scientific approval.
+- Review record: `owl-pet/research/reviews/67-pulsatrix-perspicillata-v5-review.md`.

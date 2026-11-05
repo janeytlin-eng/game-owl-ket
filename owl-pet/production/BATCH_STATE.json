@@ -18340,14 +18340,14 @@
       "active_lease": {
         "owner": "codex-automation",
         "run_id": "20261106T015400+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T01:59:00+08:00",
-        "expires_at": "2026-11-06T02:14:00+08:00"
+        "heartbeat_at": "2026-11-06T02:01:00+08:00",
+        "expires_at": "2026-11-06T02:16:00+08:00"
       },
       "lease": {
         "owner": "codex-automation",
         "run_id": "20261106T015400+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T01:59:00+08:00",
-        "expires_at": "2026-11-06T02:14:00+08:00"
+        "heartbeat_at": "2026-11-06T02:01:00+08:00",
+        "expires_at": "2026-11-06T02:16:00+08:00"
       },
       "in_progress": {
         "batch_id": "20261105T233209+0800",
@@ -18357,12 +18357,12 @@
         "species": "Otus sunia",
         "action": "SCIENCE_REVISION",
         "version": 5,
-        "current_stage": "RESEARCH_READY",
+        "current_stage": "IMAGE_GENERATED",
         "started_at": "2026-11-06T01:54:00+08:00",
         "baseline_commit": "643c303c7abae633bf59ecaad2610c4b3f3e78ec",
         "run_record": "owl-pet/production/runs/20261106T015400+0800-cycle-4.md"
       },
-      "current_stage": "RESEARCH_READY",
+      "current_stage": "IMAGE_GENERATED",
       "events": [
         {
           "batch_id": "20261105T233209+0800",
@@ -18963,12 +18963,34 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-06T02:14:00+08:00"
           }
+        },
+        {
+          "batch_id": "20261105T233209+0800",
+          "cycle": 4,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-06T02:01:00+08:00",
+          "run_id": "20261106T015400+0800-cycle-4",
+          "species_id": 80,
+          "credited": false,
+          "evidence": {
+            "generated_master": "owl-pet/production/generated/80-otus-sunia-v5-generated-master.png",
+            "width": 1536,
+            "height": 1024,
+            "format": "PNG",
+            "bytes": 3118805,
+            "sha256": "ca7b0fd50a092394dec09022c7d974ae27b1b0695029c7c46830f3143b23d230",
+            "generation_seconds": 55.1,
+            "edit_count": 0,
+            "imagegen_prompt": "owl-pet/research/species/80-otus-sunia-v5.md#full-imagegen-prompt",
+            "inspection_issue": "full image opened: exact text/count, adults and support pass; juvenile is supported with correct iris/body stage, but its wing has crisp repeated adult-like pale spots and the tail projects too long for the direct-photo boundary; targeted juvenile-only edit required",
+            "lease_expires_at": "2026-11-06T02:16:00+08:00"
+          }
         }
       ],
-      "updated_at": "2026-11-06T01:59:00+08:00",
+      "updated_at": "2026-11-06T02:01:00+08:00",
       "ledger_credit_pending": false,
-      "last_updated_at": "2026-11-06T01:59:00+08:00",
-      "last_updated": "2026-11-06T01:59:00+08:00"
+      "last_updated_at": "2026-11-06T02:01:00+08:00",
+      "last_updated": "2026-11-06T02:01:00+08:00"
     }
   ],
   "lease": {
@@ -19108,7 +19130,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-06T01:59:00+08:00",
+  "updated_at": "2026-11-06T02:01:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

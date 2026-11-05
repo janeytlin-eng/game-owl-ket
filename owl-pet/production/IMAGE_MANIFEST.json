@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T07:24:00+08:00",
+  "updated": "2026-11-05T08:47:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20207,11 +20207,15 @@
       "juvenile_review_crop": "production/review-crops/54-bubo-africanus-v5-juvenile.png",
       "juvenile_review_blob": "39848d8f859db89284def675d2eda239d18f8161",
       "reviewed_at": "2026-11-05T07:02:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 2084979,
       "adults_review_sha256": "69622a0ad9944823578a94dc33858d12af24e65c098bd4dcda318a214c8a42a5",
       "juvenile_review_size_bytes": 789215,
-      "juvenile_review_sha256": "bc43a81465cbe17de47b043d30f4aa9be2d56ea55dc88245c5c71f021e1cc0f9"
+      "juvenile_review_sha256": "bc43a81465cbe17de47b043d30f4aa9be2d56ea55dc88245c5c71f021e1cc0f9",
+      "verified_at": "2026-11-05T07:05:00+08:00",
+      "archive_commit": "e68c14e176162242bc05f99e700f3a9ec66f3b74",
+      "archive_tree": "71eee91cde16dc9ffa5c5608ee842a523f834921",
+      "verification_result": "Immutable archive and verification commits read back all seven image paths and evidence records; legacy pending flag corrected during cycle 5."
     },
     {
       "id": "55-bubo-lacteus-v5",
@@ -20272,7 +20276,63 @@
       "archive_commit": "f8909efcb67f278125c42d9750930c5ba21323b2",
       "archive_tree": "6511a5cf5e373ab09e01d0b56983f00e4649819b",
       "verification_result": "Exact seven image path/blob tuples, three manifests and eight evidence/status records read back from immutable archive commit."
+    },
+    {
+      "id": "57-bubo-nipalensis-v5",
+      "path": "design/concepts/57-bubo-nipalensis-v5.png",
+      "species_id": 57,
+      "scientific_name": "Bubo nipalensis",
+      "current_scientific_name": "Ketupa nipalensis",
+      "common_name": "Spot-bellied Eagle-Owl",
+      "historical_names": [
+        "Bubo nipalensis"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SBEO-SRINIVASAN-2013-P106-107",
+        "SBEO-SHUKLA-2025-P27-28",
+        "SBEO-SHARPE-BM-1875-P38",
+        "SBEO-ITIS-1244713"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/57-bubo-nipalensis-v5.md",
+      "review_record": "research/reviews/57-bubo-nipalensis-v5-review.md",
+      "run_record": "production/runs/20261105T073000+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3045349,
+      "sha256": "8ab4e0e4eacc2adaa10cc9cb4d81dada49e5026fb51a23d99be59d4aaf823059",
+      "git_blob": "685f9986b60520f2e1ab8a6d91f5696b84efbac4",
+      "generated_path": "production/generated/57-bubo-nipalensis-v5-generated-master.png",
+      "generated_blob": "0bbbab8e03604c00c17a95403a688196e888fe74",
+      "reviewed_path": "production/reviewed/57-bubo-nipalensis-v5-reviewed-master.png",
+      "reviewed_blob": "685f9986b60520f2e1ab8a6d91f5696b84efbac4",
+      "adults_review_crop": "production/review-crops/57-bubo-nipalensis-v5-adults.png",
+      "adults_review_blob": "3e142b7851f861f815a734070b0b2a1d5986e290",
+      "juvenile_review_crop": "production/review-crops/57-bubo-nipalensis-v5-juvenile.png",
+      "juvenile_review_blob": "b329dc0e3e81b55bfdabf4d37945e732a258e4fa",
+      "reviewed_at": "2026-11-05T08:44:00+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1806293,
+      "adults_review_sha256": "6d32d49fef70806c61f59ffb30e2b66c7750af05fb7810e21f79dcd0f408d7c3",
+      "juvenile_review_size_bytes": 739628,
+      "juvenile_review_sha256": "8b430444fde49c57c028ef5c129a68cc7e4238c8eb739cfcbf0be2e93c8223ea",
+      "archive_note": "The first render preserved adult identity and the documented developed barred juvenile wing/tail, but its ventral body read above the fork and wing edges were too polished. One juvenile-only edit lowered the belly into a broad two-foot fork and softened adult-perfect layering while preserving evidence-backed barring. Full master and crops reopened; science remains false."
     }
   ],
-  "updated_at": "2026-11-05T07:24:00+08:00"
+  "updated_at": "2026-11-05T08:47:00+08:00"
 }

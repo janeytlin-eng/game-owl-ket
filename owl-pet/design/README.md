@@ -1,3 +1,9 @@
+## #57 Spot-bellied Eagle-Owl — *Bubo nipalensis* / current *Ketupa nipalensis* — v5 ARCHIVED
+
+- Concept: [57-bubo-nipalensis-v5.png](concepts/57-bubo-nipalensis-v5.png)
+- Research: [57-bubo-nipalensis-v5.md](../research/species/57-bubo-nipalensis-v5.md) · [review](../research/reviews/57-bubo-nipalensis-v5-review.md) · [run](../production/runs/20261105T073000+0800-cycle-5.md)
+- One juvenile-only edit lowered the age-unknown dependent bird into a broad supported fork and softened adult-perfect wing edges while retaining documented barred remiges/tail. PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+
 ## #152 Papuan Hawk-Owl — *Uroglaux dimorpha* — v3 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/58c1f10f762afaf36ad76a3b0584fce722db62f0/owl-pet/design/concepts/152-uroglaux-dimorpha-v3.png)

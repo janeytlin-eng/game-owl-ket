@@ -1,8 +1,9 @@
-## #60 Tawny Fish Owl — *Ketupa flavipes* — v5 ARCHIVED (readback pending)
+## #60 Tawny Fish Owl — *Ketupa flavipes* — v5 VERIFIED
 
 - Concept: [60-ketupa-flavipes-v5.png](concepts/60-ketupa-flavipes-v5.png)
 - Research: [60-ketupa-flavipes-v5.md](../research/species/60-ketupa-flavipes-v5.md) · [review](../research/reviews/60-ketupa-flavipes-v5-review.md) · [run](../production/runs/20261105T105535+0800-cycle-2.md)
 - Full-resolution v5 preserves v1–v4. Two juvenile-only edits reduced adult-ordered pale wing rows while retaining a paler, fine-streaked approximately-40-day Wuling nestling with bilateral support. Its tail remains mostly obscured and is explicitly limited rather than invented. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/a1b8d80d57d7ace67eacd6faec0854d392502387/owl-pet/design/concepts/60-ketupa-flavipes-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/a1b8d80d57d7ace67eacd6faec0854d392502387) · [verification](https://github.com/janeytlin-eng/game-owl-ket/commit/3470dbf1ccdc2bd9043933fc4dc045ecba94273c)
 
 ## #59 Brown Fish Owl — *Ketupa zeylonensis* — v5 VERIFIED
 

@@ -22291,23 +22291,23 @@
         "run_record": "owl-pet/production/runs/20261105T103554+0800-cycle-1.md",
         "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
         "verification_tree": "3e679f9c0a692244a894190bde77c7f3469e04a1"
+      },
+      {
+        "cycle": 2,
+        "species": "Ketupa flavipes",
+        "species_id": 60,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "commit_sha": "3470dbf1ccdc2bd9043933fc4dc045ecba94273c",
+        "run_record": "owl-pet/production/runs/20261105T105535+0800-cycle-2.md",
+        "archive_commit": "a1b8d80d57d7ace67eacd6faec0854d392502387",
+        "verification_tree": "d5a798099bba20d9b53ba34327d8dd6edefc8a43"
       }
     ],
-    "next_cycle": 2,
-    "active_lease": {
-      "owner": "codex-automation",
-      "run_id": "20261105T105535+0800-cycle-2",
-      "heartbeat_at": "2026-11-05T11:16:00+08:00",
-      "expires_at": "2026-11-05T11:31:00+08:00"
-    },
-    "in_progress": {
-      "cycle": 2,
-      "run_id": "20261105T105535+0800-cycle-2",
-      "species_id": 60,
-      "species": "Ketupa flavipes",
-      "stage": "ARCHIVED"
-    },
-    "current_stage": "ARCHIVED",
+    "next_cycle": 3,
+    "active_lease": null,
+    "in_progress": null,
+    "current_stage": "VERIFIED",
     "events": [
       {
         "cycle": 1,
@@ -22563,6 +22563,32 @@
           "scientifically_verified": false,
           "readback_pending": true,
           "lease_expires_at": "2026-11-05T11:31:00+08:00"
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "VERIFIED",
+        "at": "2026-11-05T11:22:12+08:00",
+        "run_id": "20261105T105535+0800-cycle-2",
+        "species_id": 60,
+        "credited": true,
+        "evidence": {
+          "archive_commit": "a1b8d80d57d7ace67eacd6faec0854d392502387",
+          "archive_tree": "494afeb0d8b0226b2ba1ca4baf0653b37551e0a8",
+          "paths_verified": 16,
+          "binary_paths_verified": 5,
+          "unique_binary_blobs": 4,
+          "manifest_counts": {
+            "design_image": 683,
+            "design_legacy": 684,
+            "production": 674
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "next_cycle": 3,
+          "verification_commit": "3470dbf1ccdc2bd9043933fc4dc045ecba94273c",
+          "verification_tree": "d5a798099bba20d9b53ba34327d8dd6edefc8a43"
         }
       }
     ]

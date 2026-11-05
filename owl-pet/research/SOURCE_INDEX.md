@@ -1714,3 +1714,36 @@
 - Reused repository-pinned `BEN-MIKKOLA-2013-P274-275` (printed pp.274–275); the uploaded Heimo Mikkola file itself was not accessible in this run, so no fresh-upload reading is claimed.
 - Adult sex cue remains near-equal standing height with at most subtle female fullness/longer folded wing-tail; no blanket female-larger rule.
 - Unknown: juvenile sex, individual c.35-day flight competence, exact standing-height ratio, regional fine-plumage variation and precise outer-toe feather exposure.
+
+
+## 2026-11-06 — #91 *Tyto javanica delicatula* v5 — c.40-day hollow-lookout stage and sex-cue conflict
+
+### JAV-MCLAUGHLIN-DEBUS-2025-P116-123
+- **Title / authors / year:** “Breeding biology and behaviour of the Eastern Barn Owl *Tyto javanica delicatula* in north-western Victoria” — John G. McLaughlin & S.J.S. Debus, 2025.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.20938/afo42116124 ; https://afo.birdlife.org.au/afo/index.php/afo/article/download/2371/2402 ; primary field study, *Australian Field Ornithology* 42:116–124, publisher PDF read 2026-11-06.
+- **Scope/stage:** 14 nests in semi-arid Victorian Mallee wheat-belt; 13/14 in tree hollows; estimated nestling period c.46–57 d.
+- **Facts:** printed pp.117–118: recent fledglings retain mesoptile down and adult-like plumage; sex differences slight and unmarked birds were not confidently sexed. Printed pp.120–121: by c.40 d chicks ascend the hollow, look out, back down when fed and exercise wings; displaced chick climbed back using bill/claws/possibly wings. From c.46 d young may climb/jump/flap out and fly. Printed p.123 cautions against transferring other continental populations uncritically.
+- **Limits/design use:** ages approximate because of asynchronous hatching and study fledging definition. Select supported c.40-day hollow-lookout/food-soliciting nestling with residual down, fresh folded wings and short tail; no flight claim.
+- **Links:** `owl-pet/research/species/91-tyto-javanica-delicatula-v5.md`; planned v5.
+
+### JAV-AUSTRALIAN-MUSEUM-2022
+- **Title / institution / date:** “Eastern Barn Owl” — Australian Museum; updated 29 July 2022.
+- **URL / type / accessed:** https://australian.museum/learn/animals/birds/eastern-barn-owl/ ; institutional identification page, opened 2026-11-06.
+- **Facts:** white heart disc; sandy-orange/light-grey above; white/cream below; black spotting; young similar; females described qualitatively as slightly larger.
+- **Limits/design use:** overview, not quantified sexing evidence; combined with ABSA overlap data, adults remain near-equal in visible height.
+
+### JAV-ABSA-BIRD-IN-HAND-2E-P1
+- **Title / institution:** “Eastern Barn Owl — Bird in the Hand (Second Edition)” — Australian Bird Study Association Inc., compiled by J.W. Hardy from HANZAB/BirdLife Australia.
+- **URL / type / pages / accessed:** https://absa.asn.au/wp-content/uploads/2017/04/Eastern-Barn-Owl.pdf ; one-page banding guide, full PDF read 2026-11-06.
+- **Facts:** male/female wing, tail and mass ranges overlap; text states no significant measurement differences. Males tend paler, females darker/buffer; flecks vary, with females tending larger/more leg and underwing-coverts flecks. Australian subspecies ageing data are incomplete.
+- **Conflict/design use:** corrects a rigid “female larger” rendering. Use near-equal height, slight qualitative colour/spotting contrast only; no reliable visual sexing claim.
+
+### JAV-ITIS-1063605-2026
+- **Title / institution:** ITIS report TSN 1063605 — Integrated Taxonomic Information System.
+- **URL / accessed / type:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063605 ; opened 2026-11-06; official taxonomy registry.
+- **Facts:** valid current *Tyto javanica delicatula*; synonyms *Tyto alba delicatula*, *Strix delicatulus*, *Tyto delicatula* and *Tyto delicatula delicatula*.
+- **Limits/design use:** taxonomy mapping only; not extra production species and no morphology inference.
+
+### Reuse and unknowns
+- Reused repository-pinned Mikkola 2013 printed pp.91–92/PDF pp.93–94; uploaded file unavailable in this run, so no fresh-upload reading claimed.
+- Unknown: exact individual age, sex, tract chronology, pair-specific adult ratio, precise flight threshold and transfer beyond north-western Victoria.

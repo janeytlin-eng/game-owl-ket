@@ -1580,3 +1580,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 
 - 2026-11-06T03:39:00+08:00: #81 *Otus scops* v5 ARCHIVED pending immutable readback. New2/re-read2/reused3/corrected3; one juvenile-only wing/tail edit; full and two crops passed; manifests 705/704/695; unique176/251; science false.
+- 2026-11-06T03:42:00+08:00: #81 v5 VERIFIED at archive `ad12cb07bb7591fe180f359144b57dac5d3afd3b`, tree `67754fa73d8c038a4f12af9a05cc983b02a8f06f`; 15 paths, six binary tuples and manifests 705/704/695 passed; ledger credit pending; science false.

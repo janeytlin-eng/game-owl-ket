@@ -39,3 +39,7 @@ Archive `908b58ab43127a62c31c1ff9b6b93d9a6a3e9441` returned exact concept/genera
 ## 2026-11-06 v5 visual review
 
 The initial juvenile wing was too long and carried repeated adult-like pale spots. One juvenile-only edit shortened and down-softened the folded wing, subdued regular spots and shortened the tail while retaining formed fresh feathers and a naturally supported step. Full image plus juvenile and adult/support crops passed visual review with limitations. Rule verified for this image: overlapping adult morphometric means guide only a restrained directional cue; they do not establish a fixed display ratio or colour map. Exact juvenile age, sex, subspecies, feather-tract chronology and flight threshold remain unknown; science false.
+
+## 2026-11-06 v5 fixed archive readback
+
++Archive `ad12cb07bb7591fe180f359144b57dac5d3afd3b` and tree `67754fa73d8c038a4f12af9a05cc983b02a8f06f` passed non-truncated path, exact binary tuple and manifest verification. This verifies preservation and addressability, not biological completeness; unresolved juvenile age/sex/subspecies, feather chronology and flight threshold remain.

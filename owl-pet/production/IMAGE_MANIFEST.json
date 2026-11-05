@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T03:39:00+08:00",
+  "updated": "2026-11-06T03:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21874,7 +21874,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "SCOPS-BOANO-ETAL-2020",
         "SCOPS-ITIS-555376-2026",
@@ -21917,9 +21917,13 @@
       "juvenile_review_size_bytes": 680684,
       "juvenile_review_sha256": "818d9838bc36393428a22946c6037c4d32612bbce413df34c68f6c81e8211f7a",
       "reviewed_at": "2026-11-06T03:36:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4. Genetically sexed adult measurements support only a subtle female-average wing/tail/fullness direction because ranges overlap; crown heights remain close and no colour cue is assigned. One juvenile-only edit shortened and down-softened the folded wing, subdued repeated adult-like spots and shortened the tail while retaining formed fresh feathers, residual down and a supported cautious step. Exact juvenile age, sex, subspecies, tract chronology and flight threshold remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4. Genetically sexed adult measurements support only a subtle female-average wing/tail/fullness direction because ranges overlap; crown heights remain close and no colour cue is assigned. One juvenile-only edit shortened and down-softened the folded wing, subdued repeated adult-like spots and shortened the tail while retaining formed fresh feathers, residual down and a supported cautious step. Exact juvenile age, sex, subspecies, tract chronology and flight threshold remain unknown; science false.",
+      "archive_commit": "ad12cb07bb7591fe180f359144b57dac5d3afd3b",
+      "archive_tree": "67754fa73d8c038a4f12af9a05cc983b02a8f06f",
+      "verified_at": "2026-11-06T03:42:00+08:00",
+      "verification_result": "PASS: immutable non-truncated 3,188-entry tree; all 15 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 705/704/695"
     }
   ],
-  "updated_at": "2026-11-06T03:39:00+08:00"
+  "updated_at": "2026-11-06T03:42:00+08:00"
 }

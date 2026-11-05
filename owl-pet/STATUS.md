@@ -3415,3 +3415,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Two new sources, two re-read sources and three reused sources constrain adult sex-size and juvenile stage; v1–v4 preserved.
 - One juvenile-only edit passed full, juvenile/support and adult/support inspection. Manifests 705/704/695; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
 - Exact juvenile age/sex/subspecies, tract chronology, first-flight threshold, population transfer and universal adult sex ratio remain unknown. No cycle credit before immutable readback.
+
+### #81 v5 VERIFIED — ledger credit pending
+
+- Archive `ad12cb07bb7591fe180f359144b57dac5d3afd3b`, tree `67754fa73d8c038a4f12af9a05cc983b02a8f06f`, passed non-truncated 3,188-entry readback: 15 required paths, six exact image blob/size tuples and remotely parsed manifests 705/704/695. Unique 176/251; science false. Ledger credit remains separate.

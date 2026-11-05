@@ -1473,3 +1473,36 @@
 - Reused `SUN-BSS-CURRENT` and repository extraction `WHSO-MIKKOLA-2013` printed p.162/PDF p.164. The uploaded guide itself was inaccessible, so no fresh page-view claim is made.
 - New/restored detailed source records 4 / reused 2 / corrected boundaries 3. V5 changes from a chronology-bounded but visually approximate 11–15-day wing to a directly photographed age-unknown older brancher. Exact age, sex, subspecies, flight threshold, feather sequence and population sex-size direction remain unknown; science false.
 
+## 2026-11-06 — #80 *Otus sunia* v5 — directly viewed age-unknown brancher
+
+### SUNIA-ASAHIYAMA-ZOO-2023
+
+- Title/author/institution/year: “オオコノハズク生まれています,” Asahiyama Zoo / Asahikawa City, keeper Akihiro Ouchi, 2023-08-28.
+- URL: https://www.city.asahikawa.hokkaido.jp/asahiyamazoo/news-blog/blog/siiku-blog/d078076.html (accessed 2026-11-06); institutional husbandry page.
+- Species/stage/section: *Otus sunia*, captive young, lines 87–102. Two young fledged at about one month and were adult-sized while juvenile plumage still differed; caption says left and middle are that year's young.
+- Limit/design use: page image was not exposed by text fetch; supports approximate stage and relative size, not exact plumage geometry. Supports switching away from an undocumented exact 7–10-day pin configuration.
+
+### SUNIA-ZUKAN-165925-2023
+
+- Title/author/year: “オオコノハズク,” photo record no.165925, o.masashi / Japan Bird Identification Encyclopedia, photographed 2023-06-19, posted 2023-07-08.
+- URL: https://zukan.com/jbirds/leaf165925 (accessed 2026-11-06); identified field-photo record.
+- Species/stage/figure: *Otus sunia*, age unknown. Image result actually viewed; page lines 19–45 opened. Visible gray-brown fluffy/barred juvenile, compact formed wing, short tail, amber-orange iris, small tufts and two-foot slender-branch support.
+- Limit/design use: no exact age/sex/subspecies/flight evidence. Constrains only visible juvenile morphology and support; moderate confidence.
+
+### SUNIA-NANET-NO-2017-TOC
+
+- Title/author/year: “Studies on ecological characteristics and conservation plan of Oriental Scops Owl (*Otus sunia*) in South Korea,” No Sun-ho, doctoral dissertation, 2017, 222 pp.; Republic of Korea National Assembly Library catalogue.
+- URL: https://dl.nanet.go.kr/detail/KDMT1201763633 (accessed 2026-11-06); dissertation catalogue/contents.
+- Pages/chapters: chick growth printed p.114, breeding period p.116, chick measurement diagram p.48; catalogue and contents opened.
+- Limit/design use: full page text/images not exposed in this run, so locator only and not new tract evidence. High-confidence bibliographic location, unverified content beyond catalogue.
+
+### SUNIA-ITIS-177882-2026
+
+- Title/institution: ITIS Report, *Otus sunia*, TSN 177882; accessed 2026-11-06.
+- URL: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=177882
+- Fact/use: valid *Otus sunia*; synonym/original combination *Scops sunia* Hodgson, 1836. Taxonomy only; no morphology or age inference.
+
+### Reuse and correction
+
+- Reused `SUNIA-NO-2015` and `WHSO-MIKKOLA-2013`; uploaded Mikkola file unavailable, so only repository-pinned printed pp.152–153/PDF154–155 reused.
+- New/restored detailed records 4 / reused 2 / corrected boundaries 3. V4 exact-day pin geometry is not deleted, but v5 does not depend on it. Exact age, sex, subspecies, iris transition, flight and continuous feather chronology remain unknown; science false.

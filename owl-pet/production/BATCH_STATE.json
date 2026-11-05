@@ -23869,9 +23869,29 @@
       }
     ],
     "next_cycle": 5,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": "LEDGER_CREDITED",
+    "active_lease": {
+      "owner": "codex-production",
+      "run_id": "20261105T171900+0800-cycle-5",
+      "batch_id": "20261105T153530+0800",
+      "cycle": 5,
+      "species_id": 69,
+      "heartbeat_at": "2026-11-05T17:19:00+08:00",
+      "expires_at": "2026-11-05T17:34:00+08:00"
+    },
+    "in_progress": {
+      "batch_id": "20261105T153530+0800",
+      "cycle": 5,
+      "run_id": "20261105T171900+0800-cycle-5",
+      "species_id": 69,
+      "species": "Tyto novaehollandiae",
+      "action": "SCIENCE_REVISION",
+      "version": 5,
+      "current_stage": "STARTED",
+      "started_at": "2026-11-05T17:19:00+08:00",
+      "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
+      "run_record": "owl-pet/production/runs/20261105T171900+0800-cycle-5.md"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24559,6 +24579,21 @@
           "scientifically_verified": false,
           "next_cycle": 5,
           "batch_status": "PARTIAL"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 5,
+        "stage": "STARTED",
+        "at": "2026-11-05T17:19:00+08:00",
+        "run_id": "20261105T171900+0800-cycle-5",
+        "species_id": 69,
+        "credited": false,
+        "evidence": {
+          "selection": "science revision of #69 Tyto novaehollandiae v4; restore a full-resolution concept while separating the primary paper's inferred approximately-four-week developing-mask stage from v4's five-week and v3's fledgling stages",
+          "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
+          "prior_version": "owl-pet/design/concepts/69-tyto-novaehollandiae-v4.png",
+          "lease_expires_at": "2026-11-05T17:34:00+08:00"
         }
       }
     ]

@@ -26,6 +26,6 @@
 
 ## 2026-11-05 #64 *Tyto glaucops* v5 ARCHIVED — readback pending
 
-- Full-resolution concept/generated/reviewed master blob `cf928a8547192d6a72318f5e46fc120d6843f508`; first render passed opened full and crop review without edit.
+- Full-resolution concept/generated/reviewed master blob `39310c62e82b0bba9de81cb1098a2465a91edc5f`; first render passed opened full and crop review without edit.
 - The selected older juvenile uses a directly viewed pine-perch field-photo boundary, while v4's Palmchat-nest young remains a separate historical version. Unknown age/sex/subspecies/flight and caption-level identification keep science false.
 - Manifest counts 687 / 688 / 678; unique remains 176/251. Cycle 6 is not credited before immutable readback.

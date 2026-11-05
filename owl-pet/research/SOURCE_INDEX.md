@@ -1206,3 +1206,29 @@
 - New persistent source record: 1; re-read/reused verified sources: 4; corrected boundaries: 3. The Palmchat nest is not universal; the photographed older juvenile is not a known-age or proven-flight bird; adults lack evidence for a large standing-height difference.
 - Uploaded Mikkola guide unavailable; no fresh page claim. Unknown: exact juvenile age/sex/subspecies, continuous feather chronology, locomotor threshold, sexed dimensions and habitat generality. Scientific status remains false.
 
+# 2026-11-05 — #66 *Tyto capensis* v5 — sex overlap and face-colour conflict
+
+### SEO-OSTRICH-RSD-2008
+- **Title / authors / year:** *Sexual dimorphism of four owl species in South Africa* — Ansara-Ross, Wepener, Mundy & Wepener, 2008.
+- **URL / DOI:** https://doi.org/10.2989/OSTRICH.2008.79.1.11.366
+- **Type / accessed:** peer-reviewed primary morphometric study; author copy Methods, Results and Tables 1–2 re-read 2026-11-05.
+- **Species/stage:** adult *Tyto capensis*; nine males and nine females among road-killed intact carcases collected in Gauteng in 2002–2003.
+- **Facts:** male/female mean mass 412.59/469.05 g and mean body length 390.0/416.7 mm; significant p=.003/.048; the reported ranges overlap.
+- **Limits/conflict:** one regional dead-carcase sample; it does not supply a fixed standing-height ratio, universal range-wide rule, or plumage sex key. Female mean mass must not be rendered as categorical height.
+- **Design use:** modest female fullness/length only, close crown height, no universal “female larger” template.
+- **Links:** `research/species/66-tyto-capensis-v5.md`; concept v5; run `production/runs/20261105T155500+0800-cycle-2.md`.
+
+### AGO-WHITTINGTON-2012
+- **Title / authors / year:** *Monitoring of African Grass-Owl and Marsh Owl populations on the eastern and southern Johannesburg urban edge, 2010–2011* — Whittington-Jones et al., 2011.
+- **URL:** https://www.ewt.org/wp-content/uploads/2020/04/Whittington-Jones-et-al-2012.pdf
+- **Type / accessed:** field-monitoring report, *GABAR* 22:19–25; pp.19–25 re-read 2026-11-05.
+- **Species/stage:** *Tyto capensis* adults, six nestlings in two active nests, recently fledged birds and rank-grass wetland nesting habitat.
+- **Facts:** roughly one month incubation and another month before leaving the nest; literature-based fledging about six weeks. Tawny-buff face/underparts is not a reliable immature key because similarly coloured adult females bred repeatedly.
+- **Limits/conflict:** no measured feather-tract chronology or exact known-age plate; “about six weeks” is not an individual flight-competence guarantee.
+- **Design use:** age-unknown recent fledgling, supported and grounded; warm-buff adult female variation allowed, never treated as a universal sex or age code.
+- **Links:** `research/species/66-tyto-capensis-v5.md`; concept v5; run `production/runs/20261105T155500+0800-cycle-2.md`.
+
+### Reused and corrected evidence
+- Reused `AGO-PRETORIUS-ETAL-2026-P110` and `AGO-BLSA-RDB-2025`; the uploaded Mikkola file was inaccessible, so only the repository's prior page-specific extraction is reused.
+- New0 / re-read2 / reused2 / corrected3: mean mass is not standing height; buff adult female colour is not universal female dichromatism; buff face alone is not an age key. Scientific status remains false.
+

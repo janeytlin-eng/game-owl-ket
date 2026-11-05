@@ -3388,3 +3388,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #79 v5 VERIFIED — ledger credit pending
 
 - Archive `074c4f3acd3ee5e1a578e2e6b45d022199bc1a17`, tree `56db7aa21b529c1d64fa9b2d6948106e397fbcda`, passed non-truncated 3,170-entry readback: 16 required paths, six exact image blob/size tuples and remotely parsed manifests 703/702/693. Unique 176/251; science false. Ledger credit remains separate.
+
+### #79 v5 LEDGER_CREDITED — batch 3/6
+
+- Verification commit `c772a1f1c0b2af6a25a72b0bdc76c7b5904ebcc1`, tree `7af6b34a8896faf9f57432ef27fdd37559336093`, is credited once. Batch `20261105T233209+0800` advances to 3/6, next cycle 4 and lease released. Unique 176/251; revision +1; science false.

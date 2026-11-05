@@ -1570,3 +1570,4 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 - 2026-11-06T01:47:00+08:00: #79 *Otus lettia* v5 ARCHIVED pending immutable readback. New/restored4/reused2/corrected3 sources; one juvenile-only edit removed adult-like primaries/spots; full and two crops passed; manifests 703/702/693; unique176/251; science false.
 - 2026-11-06T01:50:00+08:00: #79 v5 VERIFIED at archive `074c4f3acd3ee5e1a578e2e6b45d022199bc1a17`; 16 paths, six binary tuples and manifests 703/702/693 passed; ledger credit pending; science false.
+- 2026-11-06T01:52:00+08:00: #79 *Otus lettia* v5 LEDGER_CREDITED at verification `c772a1f1c0b2af6a25a72b0bdc76c7b5904ebcc1`; batch 3/6, next cycle4, lease released; unique176/251; science false.

@@ -1618,3 +1618,41 @@
 ### Reuse and correction
 
 - Reused `SEM-FUKAI-2017` for first-winter contrast and repository-pinned `SEM-MIK2013-158` printed pp.158–159/PDF pp.160–161 for adult identification. New3/reused2/corrected5. V5 changes the center bird from a near-adult first-winter individual to the directly documented very recent fledgling; exact age, sex, iris, flight threshold, nest geometry and adult RSD remain unknown; science false.
+
+## 2026-11-06 — #86 *Otus elegans interpositus* v4 — growth, RSD and Minami-daito cavity boundary
+
+### ELE-SAWADA-IWASAKI-ETAL-2021-RSD
+- **Title/authors/year:** “Reversed sexual size dimorphism in the Ryukyu Scops Owl *Otus elegans* on Minami-daito Island” — Sawada, Iwasaki, Matsuo, Akatani & Takagi, 2021, *Ornithological Science* 20:15–26.
+- **URL/DOI/accessed:** https://www.jstage.jst.go.jp/article/osj/20/1/20_15/_pdf ; https://doi.org/10.2326/osj.20.15 ; full PDF read 2026-11-06.
+- **Pages/species/stages:** printed pp.15–18; 770 *O. e. interpositus* individuals across 17 years; adults plus breeding-cycle context.
+- **Facts:** females larger in mass, culmen, bill depth/width, tail and flattened wing; males larger in tarsus/head; several RSD directions/degrees vary among years. Incubation 26–30 d and fledging 28–32 d.
+- **Limits/design use:** population statistics do not provide an individual standing-height ratio. Keep adults near equal height, female subtly fuller; do not apply a universal female-larger template. High confidence.
+- **Links:** `research/species/86-otus-elegans-v4.md`; v4 concept/review; `production/runs/20261106T053000+0800-cycle-3.md`.
+
+### ELE-AKATANI-MATSUO-TAKAGI-2011-JRR
+- **Title/authors/year:** “Breeding Ecology and Habitat Use of the Daito Scops Owl (*Otus elegans interpositus*) on an Oceanic Island” — Akatani, Matsuo & Takagi, 2011, *Journal of Raptor Research* 45(4):315–323.
+- **URL/DOI/accessed:** https://bioone.org/journals/journal-of-raptor-research/volume-45/issue-4/JRR-10-82.1/Breeding-Ecology-and-Habitat-Use-of-the-Daito-Scops-Owl/10.3356/JRR-10-82.1.pdf ; https://doi.org/10.3356/JRR-10-82.1 ; full PDF read 2026-11-06.
+- **Facts/pages:** pp.315–316: 30 nests in introduced *Casuarina* cavities and two vertical broken fan-palm hollows; pp.316–319: shelterbelt/cane-field habitat and cavity measurements.
+- **Limits/design use:** primary nest/environment evidence, not juvenile feather geometry or exact age. Supports a broad *Casuarina* cavity lip and Minami-daito mosaic. High confidence.
+
+### ELE-BIRD-RESEARCH-NEWS-2011-P1-2
+- **Title/institution/year:** “Ryukyu Scops Owl *Otus elegans*,” Bird Research News 8(7), 2011.
+- **URL/pages/accessed:** https://www.bird-research.jp/1/seitai/8_7elegans.pdf ; complete printed pp.1–2 read 2026-11-06.
+- **Facts:** p.1 gives overlapping adult wing ranges and modestly higher female mean mass for Minami-daito, same-coloured sexes, gray disc/rufous edge, yellow-brown iris, dark-gray bill, white scapular spots and bare gray-white toes; pp.1–2 summarize cavity/shelterbelt habitat.
+- **Limits/design use:** institutional synthesis; primary studies control where available. Supports identity and conservative adult scale, not juvenile day-specific geometry. Moderate-high confidence.
+
+### ELE-SAWADA-AUTHOR-GROWTH-2021
+- **Title/author/year:** Akira Sawada author summary for Sawada, Akatani & Takagi 2021, “Growth curves of Ryukyu Scops Owl nestlings…,” *Ardea* 109.
+- **URL/section/accessed:** https://sites.google.com/view/akirasawada/%E8%AB%96%E6%96%87%E7%B4%B9%E4%BB%8B/%E3%83%92%E3%83%8A%E3%81%AE%E6%88%90%E9%95%B7 ; sections “結果：リュウキュウコノハズクの成長” and growth figure read 2026-11-06.
+- **Facts:** 99 chicks measured 2004–2008; at about 30 d/fledging, mass and tarsus were near adult while wing length remained in growth.
+- **Limits/design use:** author summary rather than full article pages; no printed-page claim or new plumage geometry. Supports retaining near-adult body with visibly incomplete wing. Moderate confidence.
+
+### ELE-ITIS-555377-2026
+- **Institution/accessed:** ITIS TSN 555377, report read 2026-11-06.
+- **URL/section:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555377&source=to_print ; taxonomy/nomenclature lines 6–54.
+- **Facts/use:** valid current *Otus elegans* (Cassin, 1852); synonym/original combination *Ephialtes elegans* Cassin, 1852; recognizes *O. e. interpositus*. Taxonomy only.
+
+### Reuse, correction and unknowns
+- Reused prior #86 v3 run/concept and repository-pinned Mikkola printed pp.160–161; uploaded original unavailable, so no fresh-read claim.
+- New detailed sources5 / reused2 / corrected boundaries4. V4 preserves the age-unknown older juvenile but makes the research boundary explicit: body/tarsus may approach adult near fledging while wing length still grows; no exact-day plumage or flight claim. Adult scale uses trait-specific/time-variable RSD, not a universal female-larger rule. Exact individual age/sex, tract chronology, flight threshold, juvenile iris, standing-height ratio and fine toe geometry remain unknown; science false.
+

@@ -3044,3 +3044,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - [Concept](concepts/67-pulsatrix-perspicillata-v5.png) · [Research](../research/species/67-pulsatrix-perspicillata-v5.md) · [Review](../research/reviews/67-pulsatrix-perspicillata-v5-review.md) · [Run](../production/runs/20261105T164500+0800-cycle-3.md)
 - V5 preserves the species-specific juvenile exception documented in specimen work: a white/downy body and dark face may coexist with formed barred wing/tail feathers. New nest monitoring corrects the action boundary to a supported in-cavity practice stretch/flap without takeoff. Adults retain close crown height with only modest overlapping female length/fullness. No edit; PASS_WITH_LIMITATIONS; science false. Immutable archive `a462f51b1ff42f80f673ab9faa835b641e9ef23c` / tree `e2a5bc2bf29abda4a77f58858069e744bcc16186` passed all 16 path checks.
 
+## #68 Greater Sooty Owl — *Tyto tenebricosa* — v5
+
+- [Concept](concepts/68-tyto-tenebricosa-v5.png) · [Research](../research/species/68-tyto-tenebricosa-v5.md) · [Review](../research/reviews/68-tyto-tenebricosa-v5-review.md) · [Run](../production/runs/20261105T170300+0800-cycle-4.md)
+- V5 preserves v1–v4, restores the public concept at 1536×1024 and selects the separately documented approximately-six-week cavity stage: sooty-grey down, defined facial discs and emerging wing/tail feathers, with full cavity support and no flight inference. Adult pair observations varied in apparent size direction, so measured reversed dimorphism is not converted into a fixed crown-height ratio. No edit; PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+

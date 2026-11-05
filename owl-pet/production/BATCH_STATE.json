@@ -23864,8 +23864,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 4,
       "species_id": 68,
-      "heartbeat_at": "2026-11-05T17:10:00+08:00",
-      "expires_at": "2026-11-05T17:25:00+08:00"
+      "heartbeat_at": "2026-11-05T17:13:00+08:00",
+      "expires_at": "2026-11-05T17:28:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23875,12 +23875,12 @@
       "species": "Tyto tenebricosa",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "REVIEWED",
+      "current_stage": "ARCHIVED",
       "started_at": "2026-11-05T17:03:00+08:00",
       "baseline_commit": "bcdd4606893c55afa527bcc9475d30b30250bffb",
       "run_record": "owl-pet/production/runs/20261105T170300+0800-cycle-4.md"
     },
-    "current_stage": "REVIEWED",
+    "current_stage": "ARCHIVED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24503,6 +24503,29 @@
             "universal cavity geometry"
           ],
           "lease_expires_at": "2026-11-05T17:25:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 4,
+        "stage": "ARCHIVED",
+        "at": "2026-11-05T17:13:00+08:00",
+        "run_id": "20261105T170300+0800-cycle-4",
+        "species_id": 68,
+        "credited": false,
+        "evidence": {
+          "version": 5,
+          "concept_blob": "188d3a5633061ddc6696408643a49cea9665fcd8",
+          "generated_blob": "188d3a5633061ddc6696408643a49cea9665fcd8",
+          "reviewed_blob": "188d3a5633061ddc6696408643a49cea9665fcd8",
+          "adults_crop_blob": "730124de618bb080ca9c852da2a625060a1e93d0",
+          "juvenile_crop_blob": "0660bc2a18f94b9cd654543e6eb305389965de13",
+          "manifest_counts": {"design_image": 691, "design_legacy": 692, "production": 682},
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-05T17:28:00+08:00"
         }
       }
     ]

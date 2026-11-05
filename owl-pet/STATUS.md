@@ -3226,6 +3226,12 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #67 v5 LEDGER_CREDITED — batch 3/6
 
 - Verification commit `3f4d8a2a64a7355523a94011304fb05e68f63308`, tree `4378ff0bb8b7075c64d3114d99b14a7ae8f1ab11`, was recorded once. Batch `20261105T153530+0800` is 3/6; next cycle 4 and the lease is released. Unique remains 176/251; revision +1; science false.
+
+## 2026-11-05 #68 *Tyto tenebricosa* v5 ARCHIVED — readback pending
+
+- V1–v4 remain preserved; v5 restores the public concept to 1536×1024 and uses Hyem 1979 pp.20–22 for an approximately-six-week, sooty-grey-down cavity chick with defined facial discs and emerging short wing/tail feathers.
+- Hyem's adult pairs varied in apparent size direction, so the strongly dimorphic mass ranges were not converted into a fixed visible crown-height ratio. Full frame and adult/juvenile crops passed opened review without edit.
+- Manifests 691/692/682; unique remains 176/251; revision +1; science false. Cycle 4 receives no credit before immutable readback.
 ## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
 
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.

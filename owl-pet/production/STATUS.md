@@ -38,6 +38,12 @@
 
 - Verification commit `3f4d8a2a64a7355523a94011304fb05e68f63308`, tree `4378ff0bb8b7075c64d3114d99b14a7ae8f1ab11`, is credited exactly once. Batch `20261105T153530+0800` is 3/6, next cycle 4, lease released. Unique 176/251; revision +1; science false.
 
+## #68 *Tyto tenebricosa* v5 ARCHIVED — readback pending
+
+- Full-resolution concept/generated/reviewed master blob `188d3a5633061ddc6696408643a49cea9665fcd8`; adult crop `730124de618bb080ca9c852da2a625060a1e93d0`; juvenile crop `0660bc2a18f94b9cd654543e6eb305389965de13`.
+- The primary-field approximately-six-week cavity stage and variable apparent adult pair-size boundary were applied. Full/crop review passed without edit; PASS_WITH_LIMITATIONS; science false.
+- Manifests 691/692/682; unique 176/251; cycle 4 remains uncredited until fixed-commit readback.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

@@ -1330,3 +1330,18 @@
 - Re-read `BOO-OLSEN-JUDGE-TROST-2015`, `BOO-OLSEN-TROST-FUENTES-DEBUS-2020`, `BOO-VIC-REHAB-2023` and `BOO-ABSA-2019`; reused `BOO-AM-2022` and repository extraction `WHSO-MIKKOLA-2013` printed pp.455–456/PDF pp.457–458.
 - New1 / re-read4 / reused2 / corrected3. Adult eyes are not universally saturated lemon-yellow; the official white-streaked belly should not become broad drop-shaped blotches; a recent fledgling may have formed wings/tail without adult-perfect repeated spot rows. Uploaded Mikkola guide was unavailable, so no fresh page claim. Exact age/sex, daily feather chronology, iris frequencies, first-flight competence and subspecies transfer remain unknown; science false.
 
+## 2026-11-05 — #73 *Ninox rufa* v5 — fine-bar gate and observed branch-walk action
+
+### RUF-MV-HLW5298-2026
+- **Title / institution / record:** “Specimen HLW 5298 *Ninox rufa rufa*” — Museums Victoria, record 449096.
+- **URL / accessed:** https://collections.museumsvictoria.com.au/specimens/449096 ; full record read 2026-11-05.
+- **Type/species/stage:** institutional dry-skin metadata; one male, immature, nominate *N. r. rufa*, King River NT, collected 17 October 1915 by W. R. McLennan.
+- **Facts and limits:** traceable immature nominate specimen and locality; no image-based plumage measurements, known age, iris or action evidence on the page. The specimen is not on display.
+- **Design use:** taxonomy/provenance only; it cannot authorize v5 feather geometry.
+- **Links:** `research/species/73-ninox-rufa-v5.md`; planned concept v5; run `production/runs/20261105T195519+0800-cycle-3.md`.
+
+### Re-read, reused and corrected boundaries
+- Re-read full `RUF-RIDDELL-2021-P221-228`, `RUF-ABSA-2019` and `RUF-NIELSEN-1995`; reused `RUF-OWLPAGES-2020` and repository extraction `WHSO-MIKKOLA-2013` printed pp.448–449/PDF pp.450–451.
+- New1 / re-read3 / reused2 / corrected3. Adult bars must remain fine/narrow/broken rather than broad zebra bands; male-larger morphometrics are not a fixed illustrated height ratio; directly observed branch walking/wing stretching supports formed juvenile wings but not adult-perfect bar rows or a universal flight threshold.
+- One web lead was rejected because its prose and mass table contradict each other and its wingspan is implausible. Uploaded Mikkola guide unavailable; no fresh page claim. Exact age/sex, juvenile iris, feather chronology, action transfer and subspecies transfer remain unknown; science false.
+

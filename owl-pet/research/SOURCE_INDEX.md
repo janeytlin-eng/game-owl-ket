@@ -1656,3 +1656,31 @@
 - Reused prior #86 v3 run/concept and repository-pinned Mikkola printed pp.160–161; uploaded original unavailable, so no fresh-read claim.
 - New detailed sources5 / reused2 / corrected boundaries4. V4 preserves the age-unknown older juvenile but makes the research boundary explicit: body/tarsus may approach adult near fledging while wing length still grows; no exact-day plumage or flight claim. Adult scale uses trait-specific/time-variable RSD, not a universal female-larger rule. Exact individual age/sex, tract chronology, flight threshold, juvenile iris, standing-height ratio and fine toe geometry remain unknown; science false.
 
+
+
+## 2026-11-06 — #87 *Bubo ascalaphus* v5 — adult identity, sex-size direction and c.40-day juvenile boundary
+
+### ASC-ALSHEIKHLY-MIKKOLA-MOUSAVI-2020
+- **Title/authors/year:** “Pharaoh Eagle-Owl *Bubo ascalaphus* (Savigny, 1809), the ‘shrouded in mystery’ owl of Iraq and Iran” — Al-Sheikhly, Mikkola & Mousavi, 2020, *Bulletin of the Iraq Natural History Museum* 16(2):219–230.
+- **URL/DOI/accessed:** https://jnhm.uobaghdad.edu.iq/index.php/BINHM/article/download/473/317/1258 ; https://doi.org/10.26842/binhm.7.2020.16.2.0219 ; full PDF read 2026-11-06.
+- **Pages/species/stages:** printed pp.219–221; adult *B. ascalaphus* field identity, adult wing series and desert habitat.
+- **Facts:** pp.219–220 place the species in deserts, arid plains, wadis and rocky cliffs and distinguish it from sympatric *B. bubo*; p.221 reports short barred ear tufts, pale rufous-sandy plumage, orange-yellow eyes with a broad pale ring, dark-grey bill, prominent dark facial-disc line with white rim, abundant white throat, upper-breast-restricted streaking, clearer rufous barring below, and pale feathered tarsi/toes. Table 1 gives female wing 340–390 mm (mean 367, n=20) and male 325–368 mm (mean 346.5, n=20).
+- **Limits/design use:** wing means establish female-larger direction at population level but not a rigid standing-height ratio. Show adults near equal visible height with female modestly fuller/longer-winged; do not exaggerate. High confidence for cited characters and sample.
+- **Links:** `research/species/87-bubo-ascalaphus-v5.md`; v5 concept/review; `production/runs/20261106T061500+0800-cycle-4.md`.
+
+### ASC-ALSHEIKHLY-2012-SANDGROUSE
+- **Title/author/year:** “Breeding of Pharaoh Eagle Owl *Bubo ascalaphus* in Iraq” — Omar F. Al-Sheikhly, 2012, *Sandgrouse* 34:72–74.
+- **URL/accessed:** https://www.osme.org/wp-content/uploads/2019/10/I_Al-Sheikhly_Sandgrouse34-1-compr.pdf ; full PDF read 2026-11-06.
+- **Pages/species/stages:** printed pp.72–74; one approximately 40-day juvenile, adults, nest site, two later full-sized young.
+- **Facts:** p.72 describes the c.40-day owl with creamy-sandy plumage, very pale newly developed flight feathers, developing breast markings, large yellow irides, pale legs and medium dark claws; its nest was a hole in a moderate-elevation cliff in an arid rocky wadi. Adults were pale rusty with barred lower breast/belly and a dark-lined disc around orange eyes. pp.73–74 separately document two full-sized young, so the stages must not be conflated.
+- **Limits/design use:** the c.40-day age is an expert estimate; sex, exact feather count and independent-flight ability are not reported. Use a rock-supported older nestling with short pale developing folded wings, short tail and incomplete breast marks; no flight pose or mature remiges. High confidence for the photographed/described individual, moderate for exact age.
+
+### ASC-ITIS-555406-2026
+- **Institution/accessed:** Integrated Taxonomic Information System, TSN 555406, report read 2026-11-06.
+- **URL/section:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555406&source=to_print ; taxonomy/nomenclature and reference sections.
+- **Facts/use:** valid current species *Bubo ascalaphus* Savigny, 1809; IOC 15.1 and HBW/BirdLife are among listed sources. Taxonomy only; the report lists no synonym. Historical *Bubo bubo ascalaphus* treatment is retained as a literature cross-reference from the 2020 paper’s lumping discussion, not as the current name.
+
+### Reuse, correction and unknowns
+- Reused repository-pinned `ASC-MIK2013-272` (printed pp.272–273) and v4 research/concept. The user-uploaded original was not mounted in this execution, so no fresh-read claim is made.
+- New detailed sources3 / reused2 / corrected boundaries4. V5 applies measured female-larger wing direction conservatively, sharpens adult field characters and preserves the directly described c.40-day juvenile stage without importing the later full-sized-young plumage.
+- Exact juvenile sex, exact-day feather chronology, flight threshold, numeric standing-height ratio, regional plumage variation and individual toe geometry remain unknown. Scientific verification remains false.

@@ -152,3 +152,7 @@
 
 - Original generated master blob `54a3254afcc707ac153cd5399f6a5ab1fe5ebeae` is preserved. Final concept/edit/reviewed blob `ab9b217876a440b781115266d431d6c933faa57b`; adult/support crop `bc6ad5cb2ca8bdfbdc2ae65d0d90ab5da85ab08a`; juvenile crop `696718e9befe2bddc9e7db826b12961f7f1098fa`.
 - One juvenile-wing pattern edit passed full/crop review. Manifests 695/696/686; unique 176/251; revision +1; science false. No cycle credit before fixed-commit readback.
+
+### #72 v5 VERIFIED — ledger credit pending
+
+- Archive commit `c9881377f8243e08aed6e592df29f0235b884d08`, tree `c71aa61a68211cb182dc3ee2b4f66a995ca0135f`, passed non-truncated 3,110-entry fixed-tree readback and exact six-binary SHA/size checks. Manifests 695/696/686; unique 176/251; science false.

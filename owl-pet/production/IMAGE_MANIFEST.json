@@ -21238,7 +21238,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BOO-GOODWIN-2018-P113-116",
         "BOO-OLSEN-JUDGE-TROST-2015",
@@ -21276,9 +21276,13 @@
       "juvenile_review_size_bytes": 765086,
       "juvenile_review_sha256": "618f8797e52a1e1b3cb3d8f35513001662b8abb9244b108e3a615c29c6ff122f",
       "reviewed_at": "2026-11-05T19:45:02+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, replaces uniform saturated adult irises with evidence-bounded muted yellow-green/green-hazel, strengthens the documented white-streaked belly, and retains a fully supported recent fledgling with formed wings/tail. One targeted edit removed adult-like juvenile spot rows while preserving stage-appropriate wing formation. Full and crop review passed. Exact age/sex, daily feather chronology, iris frequencies, first-flight competence, subspecies transfer and hollow geometry remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, replaces uniform saturated adult irises with evidence-bounded muted yellow-green/green-hazel, strengthens the documented white-streaked belly, and retains a fully supported recent fledgling with formed wings/tail. One targeted edit removed adult-like juvenile spot rows while preserving stage-appropriate wing formation. Full and crop review passed. Exact age/sex, daily feather chronology, iris frequencies, first-flight competence, subspecies transfer and hollow geometry remain unknown; science false.",
+      "verified_at": "2026-11-05T19:51:00+08:00",
+      "archive_commit": "c9881377f8243e08aed6e592df29f0235b884d08",
+      "archive_tree": "c71aa61a68211cb182dc3ee2b4f66a995ca0135f",
+      "verification_result": "PASS: non-truncated 3,110-entry immutable tree; all 12 required text/JSON paths present; six image paths match exact Git blob SHA and byte size; manifests parse at 695/696/686"
     }
   ],
-  "updated_at": "2026-11-05T19:48:00+08:00"
+  "updated_at": "2026-11-05T19:51:00+08:00"
 }

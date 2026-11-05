@@ -3300,3 +3300,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - New primary regional eye-colour evidence and re-read development/identification sources correct adult iris saturation, belly streak geometry and juvenile wing-pattern maturity while preserving all earlier versions.
 - One targeted juvenile-wing edit passed full 1536×1024 plus adult/support and juvenile crop inspection. Manifests 695/696/686; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
 - Cycle 2 remains uncredited until the fixed archive commit and image/text paths are read back.
+
+### #72 v5 VERIFIED — ledger credit pending
+
+- Archive `c9881377f8243e08aed6e592df29f0235b884d08`, tree `c71aa61a68211cb182dc3ee2b4f66a995ca0135f`, passed non-truncated 3,110-entry tree readback, all 12 required text/JSON paths, six exact image path/blob/size tuples and three manifest parses at 695/696/686.
+- PASS_WITH_LIMITATIONS; unique remains 176/251; science false. Ledger credit remains a separate step.

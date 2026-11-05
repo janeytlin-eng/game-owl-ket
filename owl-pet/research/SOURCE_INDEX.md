@@ -1684,3 +1684,33 @@
 - Reused repository-pinned `ASC-MIK2013-272` (printed pp.272–273) and v4 research/concept. The user-uploaded original was not mounted in this execution, so no fresh-read claim is made.
 - New detailed sources3 / reused2 / corrected boundaries4. V5 applies measured female-larger wing direction conservatively, sharpens adult field characters and preserves the directly described c.40-day juvenile stage without importing the later full-sized-young plumage.
 - Exact juvenile sex, exact-day feather chronology, flight threshold, numeric standing-height ratio, regional plumage variation and individual toe geometry remain unknown. Scientific verification remains false.
+
+
+## 2026-11-06 — #89 *Bubo bengalensis* v5 — development, action boundary and old-name mapping
+
+### BEN-RAMANUJAM-MURUGAVEL-2009-P519-524
+- **Title / authors / year:** “Development of young Indian Eagle Owl *Bubo bengalensis*” — M.E. Ramanujam & T. Murugavel, 2009.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.11609/JoTT.o1762.519-24 ; https://www.threatenedtaxa.org/index.php/JoTT/article/download/436/722/793 ; primary regional development study, *Journal of Threatened Taxa* 1(10):519–524, full PDF read 2026-11-06.
+- **Scope/stage:** nine chicks around Puducherry, measured/photographed at 10–60 days; authors describe the study as preliminary.
+- **Facts:** printed p.519: whitish natal down; prejuvenile moult around days 14–15; full juvenile plumage by day 35 and retained beyond day 60. Printed pp.519–520: after day 35 chicks could glide/flap away; day 60 treated as fully able to fly. Printed pp.519–520 and figs.1–3: wing/bill growth, early tarsal growth and a days 35–45 mass plateau are not synchronized. Sex differences were not tested (p.520).
+- **Limits/conflict:** regional small sample; one measurement cannot establish exact age. “Could glide” is not universal individual sustained-flight proof.
+- **Design use:** c.35-day full-juvenile-plumage bird on broad rock, closed short rounded wings and cautious grounded step; neither “flightless” nor fully flying.
+- **Links:** `owl-pet/research/species/89-bubo-bengalensis-v5.md`; `owl-pet/design/concepts/89-bubo-bengalensis-v5.png`.
+
+### BEN-PANDE-DAHANUKAR-2011-P1677-1685
+- **Title / authors / year:** “Ecological effects on morphometric development of the Indian Eagle Owl *Bubo bengalensis*” — S. Pande & N. Dahanukar, 2011.
+- **DOI / URL / type / pages / accessed:** https://doi.org/10.11609/JoTT.o2609.1677-85 ; https://threatenedtaxa.org/index.php/JoTT/article/view/676 ; primary morphometric study, *Journal of Threatened Taxa* 3(4):1677–1685, article abstract/metadata read 2026-11-06.
+- **Scope/stage:** 16 Deccan Plateau individuals aged 1–58 days; wing, tarsus, claw, bill, tail and mass.
+- **Facts:** traits show different growth patterns and are loosely coupled; comparison with southern India indicates geographic developmental plasticity.
+- **Limits/design use:** no exact-day, flight or proportion inference from one visible trait; juvenile geometry remains stage-bounded and conservative.
+
+### BEN-ITIS-555405-2026
+- **Title / institution:** ITIS report TSN 555405 — Integrated Taxonomic Information System.
+- **URL / accessed / type:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555405 ; opened 2026-11-06; official taxonomy registry.
+- **Facts:** current valid *Bubo bengalensis* (Franklin, 1831); synonyms include *Bubo bubo bengalensis* and original combination *Otus bengalensis*.
+- **Limits/design use:** taxonomy mapping only; no morphology or development inference.
+
+### Reused evidence and explicit unknowns
+- Reused repository-pinned `BEN-MIKKOLA-2013-P274-275` (printed pp.274–275); the uploaded Heimo Mikkola file itself was not accessible in this run, so no fresh-upload reading is claimed.
+- Adult sex cue remains near-equal standing height with at most subtle female fullness/longer folded wing-tail; no blanket female-larger rule.
+- Unknown: juvenile sex, individual c.35-day flight competence, exact standing-height ratio, regional fine-plumage variation and precise outer-toe feather exposure.

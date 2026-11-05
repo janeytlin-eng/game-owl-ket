@@ -18286,9 +18286,68 @@
       "lease": null,
       "updated_at": "2026-11-05T23:16:00+08:00",
       "ledger_credit_pending": false
+    },
+    {
+      "batch_id": "20261105T233209+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_cycle": 1,
+      "active_lease": {
+        "owner": "codex-automation",
+        "run_id": "20261105T233209+0800-cycle-1",
+        "heartbeat_at": "2026-11-05T23:32:09+08:00",
+        "expires_at": "2026-11-05T23:47:09+08:00"
+      },
+      "lease": {
+        "owner": "codex-automation",
+        "run_id": "20261105T233209+0800-cycle-1",
+        "heartbeat_at": "2026-11-05T23:32:09+08:00",
+        "expires_at": "2026-11-05T23:47:09+08:00"
+      },
+      "in_progress": {
+        "batch_id": "20261105T233209+0800",
+        "cycle": 1,
+        "run_id": "20261105T233209+0800-cycle-1",
+        "species_id": 77,
+        "species": "Asio stygius",
+        "action": "SCIENCE_REVISION",
+        "version": 5,
+        "current_stage": "STARTED",
+        "started_at": "2026-11-05T23:32:09+08:00",
+        "baseline_commit": "0394776deb146652930c4f2e34b6a53c6746446d",
+        "run_record": "owl-pet/production/runs/20261105T233209+0800-cycle-1.md"
+      },
+      "current_stage": "STARTED",
+      "events": [
+        {
+          "batch_id": "20261105T233209+0800",
+          "cycle": 1,
+          "stage": "STARTED",
+          "at": "2026-11-05T23:32:09+08:00",
+          "run_id": "20261105T233209+0800-cycle-1",
+          "species_id": 77,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #77 Asio stygius v4; preserve v1-v4 and use the directly observed >1-month Nayón branch-active stage so action is evidence-bounded rather than invented for the 26–27-day non-flying stage",
+            "baseline_commit": "0394776deb146652930c4f2e34b6a53c6746446d",
+            "run_record": "owl-pet/production/runs/20261105T233209+0800-cycle-1.md",
+            "prior_version": "owl-pet/design/concepts/77-asio-stygius-v4.jpg",
+            "lease_expires_at": "2026-11-05T23:47:09+08:00"
+          }
+        }
+      ],
+      "updated_at": "2026-11-05T23:32:09+08:00",
+      "ledger_credit_pending": false
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-automation",
+    "run_id": "20261105T233209+0800-cycle-1",
+    "heartbeat_at": "2026-11-05T23:32:09+08:00",
+    "expires_at": "2026-11-05T23:47:09+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -18429,8 +18488,13 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-11-05T23:16:00+08:00",
+  "active_lease": {
+    "owner": "codex-automation",
+    "run_id": "20261105T233209+0800-cycle-1",
+    "heartbeat_at": "2026-11-05T23:32:09+08:00",
+    "expires_at": "2026-11-05T23:47:09+08:00"
+  },
+  "last_updated_at": "2026-11-05T23:32:09+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -19191,7 +19255,19 @@
     "2026-11-05T04:31:00+08:00: batch 20261105T033723+0800 cycle3 #47 v5 VERIFIED; archive and seven binary paths read back; batch 3/6 next4; unique176/251; science false; lease released.",
     "2026-11-05T04:57:00+08:00: batch 20261105T033723+0800 cycle4 #48 v5 VERIFIED; batch 4/6 next5; unique176/251; science false; lease released."
   ],
-  "in_progress": null,
+  "in_progress": {
+    "batch_id": "20261105T233209+0800",
+    "cycle": 1,
+    "run_id": "20261105T233209+0800-cycle-1",
+    "species_id": 77,
+    "species": "Asio stygius",
+    "action": "SCIENCE_REVISION",
+    "version": 5,
+    "current_stage": "STARTED",
+    "started_at": "2026-11-05T23:32:09+08:00",
+    "baseline_commit": "0394776deb146652930c4f2e34b6a53c6746446d",
+    "run_record": "owl-pet/production/runs/20261105T233209+0800-cycle-1.md"
+  },
   "previous_checkpoint": {
     "batch_id": "20261105T183434+0800",
     "cycle": 6,
@@ -20489,7 +20565,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-05T23:16:00+08:00",
+  "last_updated": "2026-11-05T23:32:09+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -22995,10 +23071,10 @@
       "batch_id": "20261105T033723+0800"
     }
   ],
-  "active_batch_id": null,
-  "active_cycle": null,
-  "current_stage": null,
-  "next_cycle": null,
+  "active_batch_id": "20261105T233209+0800",
+  "active_cycle": 1,
+  "current_stage": "STARTED",
+  "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -25816,887 +25892,57 @@
   ],
   "last_completed_batch_id": "20261105T183434+0800",
   "active_batch": {
-    "batch_id": "20261105T183434+0800",
-    "status": "COMPLETE",
+    "batch_id": "20261105T233209+0800",
+    "status": "PARTIAL",
     "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Ninox connivens",
-        "species_id": 71,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "0ac22e04f07f951a00141d5dd5e23ba8dfe81691",
-        "run_record": "owl-pet/production/runs/20261105T183434+0800-cycle-1.md",
-        "archive_commit": "af281d79f90023fb789c550155364ab0df62f8b8",
-        "verification_tree": "a54e541ee0d67ea448633cf71548c8552f211dc8",
-        "completed_at": "2026-11-05T18:56:38+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "species": "Ninox boobook",
-        "species_id": 72,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "6d944f598adb165ca89f7ed6d28656c3714aa1b8",
-        "run_record": "owl-pet/production/runs/20261105T193722+0800-cycle-2.md",
-        "archive_commit": "c9881377f8243e08aed6e592df29f0235b884d08",
-        "verification_tree": "bf3917f25ce39cbe6237d8de4a2d42cf2f7599bd",
-        "completed_at": "2026-11-05T19:54:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "species": "Ninox rufa",
-        "species_id": 73,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "6276580d51158079d7c3fa260f31e13bb4eb8106",
-        "run_record": "owl-pet/production/runs/20261105T195519+0800-cycle-3.md",
-        "archive_commit": "bd2ed6ee8f121dab1b130fba7f00fbee751e2fcd",
-        "verification_tree": "7aec01e723f0193bc09583d9eee67590ba319f2c",
-        "completed_at": "2026-11-05T20:57:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "species": "Ninox novaeseelandiae",
-        "species_id": 74,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "56158a470ff153c2ad2da7024f1a8fbc9f347865",
-        "run_record": "owl-pet/production/runs/20261105T210000+0800-cycle-4.md",
-        "archive_commit": "1f8e6d6b096cd2762d109c7121139f1da945be9a",
-        "verification_tree": "d46bd6a3a107239f7d2f0ec634a1afa00b95bce1",
-        "completed_at": "2026-11-05T21:55:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "species": "Ninox scutulata",
-        "species_id": 75,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "2e00e2305ffde868103511122969ec1701440870",
-        "run_record": "owl-pet/production/runs/20261105T223048+0800-cycle-5.md",
-        "archive_commit": "3f81a4d7a1ca2e87875734f4060fbd1d04151b44",
-        "verification_tree": "de4df1d6759f1e669d6498f69ab84434b7f807d7",
-        "completed_at": "2026-11-05T22:50:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "species": "Asio clamator",
-        "species_id": 76,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "445e45b36b38ccbe0400517c7506f911e9e8b88e",
-        "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md",
-        "archive_commit": "3382d92bd97fa27f36fdbc38e91406563dc4763f",
-        "verification_tree": "24442b4674c067f66d6821547ceaef720ca1bb4e",
-        "completed_at": "2026-11-05T23:16:00+08:00",
-        "scientifically_verified": false
-      }
-    ],
-    "next_cycle": null,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": "VERIFIED",
+    "completed_cycles": [],
+    "next_cycle": 1,
+    "active_cycle": 1,
+    "active_lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T233209+0800-cycle-1",
+      "heartbeat_at": "2026-11-05T23:32:09+08:00",
+      "expires_at": "2026-11-05T23:47:09+08:00"
+    },
+    "lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T233209+0800-cycle-1",
+      "heartbeat_at": "2026-11-05T23:32:09+08:00",
+      "expires_at": "2026-11-05T23:47:09+08:00"
+    },
+    "in_progress": {
+      "batch_id": "20261105T233209+0800",
+      "cycle": 1,
+      "run_id": "20261105T233209+0800-cycle-1",
+      "species_id": 77,
+      "species": "Asio stygius",
+      "action": "SCIENCE_REVISION",
+      "version": 5,
+      "current_stage": "STARTED",
+      "started_at": "2026-11-05T23:32:09+08:00",
+      "baseline_commit": "0394776deb146652930c4f2e34b6a53c6746446d",
+      "run_record": "owl-pet/production/runs/20261105T233209+0800-cycle-1.md"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 2,
+        "batch_id": "20261105T233209+0800",
+        "cycle": 1,
         "stage": "STARTED",
-        "at": "2026-11-05T19:37:22+08:00",
-        "run_id": "20261105T193722+0800-cycle-2",
-        "species_id": 72,
+        "at": "2026-11-05T23:32:09+08:00",
+        "run_id": "20261105T233209+0800-cycle-1",
+        "species_id": 77,
         "credited": false,
         "evidence": {
-          "baseline_commit": "5d386ac859a7c13a550c9292237118fd955d62de",
-          "run_record": "owl-pet/production/runs/20261105T193722+0800-cycle-2.md",
-          "prior_version": "owl-pet/design/concepts/72-ninox-boobook-v4.jpg",
-          "lease_expires_at": "2026-11-05T19:52:22+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T19:43:30+08:00",
-        "run_id": "20261105T193722+0800-cycle-2",
-        "species_id": 72,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/72-ninox-boobook-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 1,
-          "reread_sources": 4,
-          "reused_sources": 2,
-          "corrected_boundaries": 3,
-          "selected_stage": "recent fledgling within documented 33-50-day field range; no exact individual age",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T19:58:30+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T19:45:00+08:00",
-        "run_id": "20261105T193722+0800-cycle-2",
-        "species_id": 72,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "generated_path": "owl-pet/production/generated/72-ninox-boobook-v5-generated-master.png",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 3239849,
-          "sha256": "a35794017daa049d1bed7c2076986f301efdcacded7fcaff08d58e693b11e697",
-          "git_blob_local": "54a3254afcc707ac153cd5399f6a5ab1fe5ebeae",
-          "generation_seconds": 45.4,
-          "edit_count": 0,
-          "inspection_issue": "juvenile folded wing retains too-crisp adult-like feather structure and repeated white marks; targeted edit required",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T20:00:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T19:45:02+08:00",
-        "run_id": "20261105T193722+0800-cycle-2",
-        "species_id": 72,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 1,
-          "review_file": "owl-pet/research/reviews/72-ninox-boobook-v5-review.md",
-          "reviewed_path": "owl-pet/production/reviewed/72-ninox-boobook-v5-reviewed-master.png",
-          "edit_path": "owl-pet/production/generated/72-ninox-boobook-v5-edit1.png",
-          "adults_crop": "owl-pet/production/review-crops/72-ninox-boobook-v5-adults.png",
-          "juvenile_crop": "owl-pet/production/review-crops/72-ninox-boobook-v5-juvenile.png",
-          "reviewed_blob_local": "ab9b217876a440b781115266d431d6c933faa57b",
-          "adults_crop_blob_local": "bc6ad5cb2ca8bdfbdc2ae65d0d90ab5da85ab08a",
-          "juvenile_crop_blob_local": "696718e9befe2bddc9e7db826b12961f7f1098fa",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T20:00:02+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T19:50:00+08:00",
-        "run_id": "20261105T193722+0800-cycle-2",
-        "species_id": 72,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "ab9b217876a440b781115266d431d6c933faa57b",
-          "generated_blob": "54a3254afcc707ac153cd5399f6a5ab1fe5ebeae",
-          "edit_blob": "ab9b217876a440b781115266d431d6c933faa57b",
-          "reviewed_blob": "ab9b217876a440b781115266d431d6c933faa57b",
-          "adults_crop_blob": "bc6ad5cb2ca8bdfbdc2ae65d0d90ab5da85ab08a",
-          "juvenile_crop_blob": "696718e9befe2bddc9e7db826b12961f7f1098fa",
-          "manifest_counts": {
-            "design_image": 695,
-            "design_legacy": 696,
-            "production": 686
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T20:05:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T19:51:00+08:00",
-        "run_id": "20261105T193722+0800-cycle-2",
-        "species_id": 72,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "c9881377f8243e08aed6e592df29f0235b884d08",
-          "archive_tree": "c71aa61a68211cb182dc3ee2b4f66a995ca0135f",
-          "tree_entries": 3110,
-          "tree_truncated": false,
-          "paths_verified": 12,
-          "binary_paths_verified": 6,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 695,
-            "design_legacy": 696,
-            "production": 686
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T20:06:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T19:54:00+08:00",
-        "run_id": "20261105T193722+0800-cycle-2",
-        "species_id": 72,
-        "credited": true,
-        "evidence": {
-          "commit_sha": "6d944f598adb165ca89f7ed6d28656c3714aa1b8",
-          "verification_tree": "bf3917f25ce39cbe6237d8de4a2d42cf2f7599bd",
-          "archive_commit": "c9881377f8243e08aed6e592df29f0235b884d08",
-          "batch_progress": "2/6",
-          "next_cycle": 3,
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "lease_released": true
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-05T19:55:19+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": false,
-        "evidence": {
-          "baseline_commit": "d93fa8e72fd12a3a68ec6a6fb67e3029c8e7a204",
-          "run_record": "owl-pet/production/runs/20261105T195519+0800-cycle-3.md",
-          "prior_version": "owl-pet/design/concepts/73-ninox-rufa-v4.jpg",
-          "lease_expires_at": "2026-11-05T20:10:19+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T19:58:00+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/73-ninox-rufa-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 1,
-          "reread_sources": 3,
-          "reused_sources": 2,
-          "corrected_boundaries": 3,
-          "selected_stage": "2–3 days after leaving the hollow; branch-walk/wing-stretch; not universal exact age",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T20:13:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "RESEARCH_READY_RESUMED",
-        "at": "2026-11-05T20:32:00+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": false,
-        "evidence": {
-          "recovered_stage": "RESEARCH_READY",
-          "unchanged_remote_head": "def96f56915c251fc0c45b8d84a0f6dfac980312",
-          "prior_lease_expired_at": "2026-11-05T20:13:00+08:00",
-          "research_reused_without_duplicate_credit": true,
-          "lease_expires_at": "2026-11-05T20:47:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T20:34:00+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "generated_path": "owl-pet/production/generated/73-ninox-rufa-v5-generated-master.png",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 3294577,
-          "sha256": "2a2902e707bbb827d76b58e693fb1a8918cb72515c3cdb04642dd89860895fde",
-          "git_blob_local": "070d5086738621c58309de22fc9ad488bc4ef83e",
-          "generation_seconds": 59.3,
-          "edit_count": 0,
-          "inspection_issue": "recent fledgling folded wing has long sharply layered adult-like remiges and repeated pale marks; juvenile-only edit required",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T20:49:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T20:40:00+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 2,
-          "review_file": "owl-pet/research/reviews/73-ninox-rufa-v5-review.md",
-          "reviewed_path": "owl-pet/production/reviewed/73-ninox-rufa-v5-reviewed-master.png",
-          "edit1_path": "owl-pet/production/generated/73-ninox-rufa-v5-edit1.png",
-          "edit2_path": "owl-pet/production/generated/73-ninox-rufa-v5-edit2.png",
-          "adults_crop": "owl-pet/production/review-crops/73-ninox-rufa-v5-adults.png",
-          "juvenile_crop": "owl-pet/production/review-crops/73-ninox-rufa-v5-juvenile.png",
-          "reviewed_blob_local": "ae27bd5c54dc5246a894a94893dc132fc115a603",
-          "adults_crop_blob_local": "c11785d61cfaf2e96ff8bb46cf8e95d3f91b8f02",
-          "juvenile_crop_blob_local": "692d2471b6bc6c3d40b348eee286a85c6336d624",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T20:55:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T20:47:00+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "ae27bd5c54dc5246a894a94893dc132fc115a603",
-          "generated_blob": "070d5086738621c58309de22fc9ad488bc4ef83e",
-          "edit1_blob": "bfd13ede4bc68ce2c6740ce3514e135c64e9f60c",
-          "edit2_blob": "ae27bd5c54dc5246a894a94893dc132fc115a603",
-          "reviewed_blob": "ae27bd5c54dc5246a894a94893dc132fc115a603",
-          "adults_crop_blob": "c11785d61cfaf2e96ff8bb46cf8e95d3f91b8f02",
-          "juvenile_crop_blob": "692d2471b6bc6c3d40b348eee286a85c6336d624",
-          "manifest_counts": {
-            "design_image": 696,
-            "design_legacy": 697,
-            "production": 687
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T21:02:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T20:52:00+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "bd2ed6ee8f121dab1b130fba7f00fbee751e2fcd",
-          "archive_tree": "82c0489b4b95261a315e065da980c5612949b47a",
-          "tree_entries": 3120,
-          "tree_truncated": false,
-          "paths_verified": 15,
-          "binary_paths_verified": 7,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 696,
-            "design_legacy": 697,
-            "production": 687
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T21:07:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T20:57:00+08:00",
-        "run_id": "20261105T195519+0800-cycle-3",
-        "species_id": 73,
-        "credited": true,
-        "evidence": {
-          "commit_sha": "6276580d51158079d7c3fa260f31e13bb4eb8106",
-          "verification_tree": "7aec01e723f0193bc09583d9eee67590ba319f2c",
-          "archive_commit": "bd2ed6ee8f121dab1b130fba7f00fbee751e2fcd",
-          "batch_progress": "3/6",
-          "next_cycle": 4,
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "lease_released": true
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-05T21:00:00+08:00",
-        "run_id": "20261105T210000+0800-cycle-4",
-        "species_id": 74,
-        "credited": false,
-        "evidence": {
-          "baseline_commit": "c2f89b51a9943c8f58e998d88ecdf8dad337fd51",
-          "run_record": "owl-pet/production/runs/20261105T210000+0800-cycle-4.md",
-          "prior_version": "owl-pet/design/concepts/74-ninox-novaeseelandiae-v4.png",
-          "lease_expires_at": "2026-11-05T21:15:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T21:04:00+08:00",
-        "run_id": "20261105T210000+0800-cycle-4",
-        "species_id": 74,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/74-ninox-novaeseelandiae-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 1,
-          "reread_sources": 3,
-          "reused_sources": 2,
-          "corrected_boundaries": 3,
-          "selected_stage": "recent fledgling bounded by day-39 Mokoia event; formed spotted secondaries plus residual dark down; no exact-age label",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T21:19:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T21:06:00+08:00",
-        "run_id": "20261105T210000+0800-cycle-4",
-        "species_id": 74,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "generated_path": "owl-pet/production/generated/74-ninox-novaeseelandiae-v5-generated-master.png",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 3313492,
-          "sha256": "aabc7da05d30ab3af68a5f3f97b1ae76f360d73f065c696b2ee08afbd01bbf3e",
-          "git_blob_local": "79932dc8ab4b0508fdef5b837add325d03eb394e",
-          "edit_count": 0,
-          "preliminary_inspection": "exact count/text, near-equal adults, sparse irregular juvenile secondary spots, residual down, short tail and full support pass; full/crop review pending",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T21:21:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T21:45:00+08:00",
-        "run_id": "20261105T210000+0800-cycle-4",
-        "species_id": 74,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "79932dc8ab4b0508fdef5b837add325d03eb394e",
-          "generated_blob": "79932dc8ab4b0508fdef5b837add325d03eb394e",
-          "reviewed_blob": "79932dc8ab4b0508fdef5b837add325d03eb394e",
-          "adults_crop_blob": "73245975e897bb48ef0799c326a6b445b9c0c4c7",
-          "juvenile_crop_blob": "83d5758aeabbd6f3feb6144ea13fae3960e2c953",
-          "manifest_counts": {
-            "design_image": 697,
-            "design_legacy": 698,
-            "production": 688
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T22:00:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T21:50:00+08:00",
-        "run_id": "20261105T210000+0800-cycle-4",
-        "species_id": 74,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "1f8e6d6b096cd2762d109c7121139f1da945be9a",
-          "archive_tree": "f27f31288660153cbd3d5871bc6cbc0eedb0e9ac",
-          "paths_verified": 11,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 697,
-            "design_legacy": 698,
-            "production": 688
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T22:05:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T21:55:00+08:00",
-        "run_id": "20261105T210000+0800-cycle-4",
-        "species_id": 74,
-        "credited": true,
-        "evidence": {
-          "commit_sha": "56158a470ff153c2ad2da7024f1a8fbc9f347865",
-          "verification_tree": "d46bd6a3a107239f7d2f0ec634a1afa00b95bce1",
-          "archive_commit": "1f8e6d6b096cd2762d109c7121139f1da945be9a",
-          "batch_progress": "4/6",
-          "next_cycle": 5,
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "lease_released": true
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-05T22:30:48+08:00",
-        "run_id": "20261105T223048+0800-cycle-5",
-        "species_id": 75,
-        "credited": false,
-        "evidence": {
-          "selection": "science revision of #75 Ninox scutulata v4; retain v1-v4 and resolve remaining adult/juvenile evidence boundaries without borrowing Japanese split-population development",
-          "baseline_commit": "00d548b37eec07f2ae8c55a4478f8eed5caedb1c",
-          "run_record": "owl-pet/production/runs/20261105T223048+0800-cycle-5.md",
-          "prior_version": "owl-pet/design/concepts/75-ninox-scutulata-v4.png",
-          "lease_expires_at": "2026-11-05T22:45:48+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T22:34:00+08:00",
-        "run_id": "20261105T223048+0800-cycle-5",
-        "species_id": 75,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/75-ninox-scutulata-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 3,
-          "reread_sources": 5,
-          "reused_sources": 5,
-          "corrected_boundaries": 3,
-          "selected_stage": "age-unknown photographed Singapore active dependent juvenile with residual pale down, formed wing and developed barred tail; supported wing stretch, no flight claim",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T22:49:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T22:39:34+08:00",
-        "run_id": "20261105T223048+0800-cycle-5",
-        "species_id": 75,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "generated_path": "owl-pet/production/generated/75-ninox-scutulata-v5-generated-master.png",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 2860077,
-          "sha256": "416682607db967fffee7c81e01f0ebf79478578486827e7318ef27a541d28402",
-          "git_blob_local": "b353c40b812f05ce744e44cdb2c71c3c885e83d9",
-          "generation_seconds": 60.7,
-          "edit_count": 0,
-          "generation_error": "first attempt requested 5 recent images but only 1 was available; no asset produced",
-          "preliminary_inspection": "three birds, exact labels, near-equal adults, supported active dependent juvenile with residual down, formed wing and barred tail; formal review pending",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T22:54:34+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T22:41:00+08:00",
-        "run_id": "20261105T223048+0800-cycle-5",
-        "species_id": 75,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
-          "review_file": "owl-pet/research/reviews/75-ninox-scutulata-v5-review.md",
-          "reviewed_path": "owl-pet/production/reviewed/75-ninox-scutulata-v5-reviewed-master.png",
-          "adults_crop": "owl-pet/production/review-crops/75-ninox-scutulata-v5-adults.png",
-          "juvenile_crop": "owl-pet/production/review-crops/75-ninox-scutulata-v5-juvenile.png",
-          "reviewed_blob_local": "b353c40b812f05ce744e44cdb2c71c3c885e83d9",
-          "adults_crop_blob_local": "9cbddf16d1b8039f83b3be07da3a4c1cf3fc3b3a",
-          "juvenile_crop_blob_local": "c702d1ba53b5962c34c2713facb0a0b8f9de77a7",
-          "inspection": "full, adult/group crop and juvenile/support crop opened; pass with limitations; no edit justified",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T22:56:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T22:44:00+08:00",
-        "run_id": "20261105T223048+0800-cycle-5",
-        "species_id": 75,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "b353c40b812f05ce744e44cdb2c71c3c885e83d9",
-          "generated_blob": "b353c40b812f05ce744e44cdb2c71c3c885e83d9",
-          "reviewed_blob": "b353c40b812f05ce744e44cdb2c71c3c885e83d9",
-          "adults_crop_blob": "9cbddf16d1b8039f83b3be07da3a4c1cf3fc3b3a",
-          "juvenile_crop_blob": "c702d1ba53b5962c34c2713facb0a0b8f9de77a7",
-          "manifest_counts": {
-            "design_image": 698,
-            "design_legacy": 699,
-            "production": 689
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T22:59:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T22:47:00+08:00",
-        "run_id": "20261105T223048+0800-cycle-5",
-        "species_id": 75,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "3f81a4d7a1ca2e87875734f4060fbd1d04151b44",
-          "archive_tree": "403437218d67c409a272c8d742de2e1adb2595fe",
-          "tree_entries": 3136,
-          "tree_truncated": false,
-          "paths_verified": 14,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 698,
-            "design_legacy": 699,
-            "production": 689
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T23:02:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T22:50:00+08:00",
-        "run_id": "20261105T223048+0800-cycle-5",
-        "species_id": 75,
-        "credited": true,
-        "evidence": {
-          "commit_sha": "2e00e2305ffde868103511122969ec1701440870",
-          "verification_tree": "de4df1d6759f1e669d6498f69ab84434b7f807d7",
-          "archive_commit": "3f81a4d7a1ca2e87875734f4060fbd1d04151b44",
-          "batch_progress": "5/6",
-          "next_cycle": 6,
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "lease_released": true
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-05T22:53:32+08:00",
-        "run_id": "20261105T225332+0800-cycle-6",
-        "species_id": 76,
-        "credited": false,
-        "evidence": {
-          "selection": "science revision of #76 Asio clamator v4; preserve v1-v4 and add active evidence without inventing sex-size or day-specific tract geometry",
-          "baseline_commit": "8893d8748c06393e7041d36914c6ce0045fcc05d",
-          "run_record": "owl-pet/production/runs/20261105T225332+0800-cycle-6.md",
-          "prior_version": "owl-pet/design/concepts/76-asio-clamator-v4.jpg",
-          "lease_expires_at": "2026-11-05T23:08:32+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T22:57:00+08:00",
-        "run_id": "20261105T225332+0800-cycle-6",
-        "species_id": 76,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/76-asio-clamator-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 1,
-          "reread_sources": 4,
-          "reused_sources": 4,
-          "corrected_boundaries": 2,
-          "selected_stage": "approximately 25–30-day dependent young; low supported wing exercise; pre-flight; non-adult remiges",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T23:12:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T23:01:00+08:00",
-        "run_id": "20261105T225332+0800-cycle-6",
-        "species_id": 76,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "generated_path": "owl-pet/production/generated/76-asio-clamator-v5-generated-master.png",
-          "width": 1536,
-          "height": 1024,
-          "bytes": 3483177,
-          "sha256": "52ba451de2175362bd8088defb5a28f4c23efa7813d4b63b60f6fc8037030070",
-          "git_blob_local": "dfb263db6f047cd0fec6d65e89a01e1a5cdc96ac",
-          "generation_output_at": "2026-11-05T22:57:51.595+08:00",
-          "generation_seconds": null,
-          "generation_timing_note": "exact internal wait not separately instrumented across context recovery",
-          "edit_count": 0,
-          "preliminary_inspection": "exact count/text, near-equal adults, supported pre-flight juvenile wing exercise with extensive down and growing non-adult remiges; formal crop review pending",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T23:16:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T23:04:00+08:00",
-        "run_id": "20261105T225332+0800-cycle-6",
-        "species_id": 76,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
-          "review_file": "owl-pet/research/reviews/76-asio-clamator-v5-review.md",
-          "reviewed_path": "owl-pet/production/reviewed/76-asio-clamator-v5-reviewed-master.png",
-          "adults_crop": "owl-pet/production/review-crops/76-asio-clamator-v5-adults.png",
-          "juvenile_crop": "owl-pet/production/review-crops/76-asio-clamator-v5-juvenile.png",
-          "reviewed_blob_local": "dfb263db6f047cd0fec6d65e89a01e1a5cdc96ac",
-          "adults_crop_blob_local": "8529f4fc24eb0c7bcd790a7165a47598b9bca10f",
-          "juvenile_crop_blob_local": "ee632c39aa693444d8e14ea15ca030303a1780cc",
-          "inspection": "full, adult/group crop and juvenile/support crop opened; pass with limitations; no edit justified",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-05T23:19:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T23:08:00+08:00",
-        "run_id": "20261105T225332+0800-cycle-6",
-        "species_id": 76,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "dfb263db6f047cd0fec6d65e89a01e1a5cdc96ac",
-          "generated_blob": "dfb263db6f047cd0fec6d65e89a01e1a5cdc96ac",
-          "reviewed_blob": "dfb263db6f047cd0fec6d65e89a01e1a5cdc96ac",
-          "adults_crop_blob": "8529f4fc24eb0c7bcd790a7165a47598b9bca10f",
-          "juvenile_crop_blob": "ee632c39aa693444d8e14ea15ca030303a1780cc",
-          "manifest_counts": {
-            "design_image": 699,
-            "design_legacy": 700,
-            "production": 690
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T23:23:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T23:12:00+08:00",
-        "run_id": "20261105T225332+0800-cycle-6",
-        "species_id": 76,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "3382d92bd97fa27f36fdbc38e91406563dc4763f",
-          "archive_tree": "a667361032deae3eee0d06e8974b19ab5a50454a",
-          "tree_entries": 3144,
-          "tree_truncated": false,
-          "paths_verified": 18,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 699,
-            "design_legacy": 700,
-            "production": 690
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T23:27:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T183434+0800",
-        "cycle": 6,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T23:16:00+08:00",
-        "run_id": "20261105T225332+0800-cycle-6",
-        "species_id": 76,
-        "credited": true,
-        "evidence": {
-          "commit_sha": "445e45b36b38ccbe0400517c7506f911e9e8b88e",
-          "verification_tree": "24442b4674c067f66d6821547ceaef720ca1bb4e",
-          "archive_commit": "3382d92bd97fa27f36fdbc38e91406563dc4763f",
-          "batch_progress": "6/6",
-          "next_cycle": null,
-          "batch_status": "COMPLETE",
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "lease_released": true
+          "selection": "science revision of #77 Asio stygius v4; preserve v1-v4 and use the directly observed >1-month Nayón branch-active stage so action is evidence-bounded rather than invented for the 26–27-day non-flying stage",
+          "baseline_commit": "0394776deb146652930c4f2e34b6a53c6746446d",
+          "run_record": "owl-pet/production/runs/20261105T233209+0800-cycle-1.md",
+          "prior_version": "owl-pet/design/concepts/77-asio-stygius-v4.jpg",
+          "lease_expires_at": "2026-11-05T23:47:09+08:00"
         }
       }
     ],
-    "lease": null,
-    "updated_at": "2026-11-05T23:16:00+08:00",
+    "updated_at": "2026-11-05T23:32:09+08:00",
     "ledger_credit_pending": false
   },
   "events": [
@@ -27323,6 +26569,22 @@
         "revision_increment": 1,
         "scientifically_verified": false,
         "lease_released": true
+      }
+    },
+    {
+      "batch_id": "20261105T233209+0800",
+      "cycle": 1,
+      "stage": "STARTED",
+      "at": "2026-11-05T23:32:09+08:00",
+      "run_id": "20261105T233209+0800-cycle-1",
+      "species_id": 77,
+      "credited": false,
+      "evidence": {
+        "selection": "science revision of #77 Asio stygius v4; preserve v1-v4 and use the directly observed >1-month Nayón branch-active stage so action is evidence-bounded rather than invented for the 26–27-day non-flying stage",
+        "baseline_commit": "0394776deb146652930c4f2e34b6a53c6746446d",
+        "run_record": "owl-pet/production/runs/20261105T233209+0800-cycle-1.md",
+        "prior_version": "owl-pet/design/concepts/77-asio-stygius-v4.jpg",
+        "lease_expires_at": "2026-11-05T23:47:09+08:00"
       }
     }
   ]

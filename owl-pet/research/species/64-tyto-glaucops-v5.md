@@ -44,3 +44,7 @@ Composition and exclusions: exactly three owls, spacious readable triangular gro
 - 1536×1024 PNG, 3,107,007 bytes, SHA-256 `ce3b0bb47b220e017daabd939c0e4c39401105125b415a831d11d1a108e3963d`.
 - Full image was opened after generation. Initial inspection: exact count/title/labels pass; ash-grey warm-rim adult faces and dark eyes pass; adults remain near-equal in height; all six feet grip branches; young is visibly rounder/down-softened with formed compact folded wing/tail and no flight action. No targeted edit indicated before crop review.
 
+## REVIEWED — 2026-11-05T14:42:49+08:00
+
+Full render, adults crop and juvenile crop reopened. PASS_WITH_LIMITATIONS, zero edits. Adult identity, restrained sex scale, exact count/text, bilateral support, juvenile stage boundary and pine context pass. Scientific status remains false because the juvenile source is a user-submitted caption without known age/sex/subspecies or locomotor history. Review: `owl-pet/research/reviews/64-tyto-glaucops-v5-review.md`.
+

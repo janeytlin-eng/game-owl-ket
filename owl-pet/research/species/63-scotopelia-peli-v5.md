@@ -31,3 +31,4 @@ Create one high-resolution 1536×1024 landscape educational natural-history conc
 ## Stage
 
 - `RESEARCH_READY` — 2026-11-05T13:43:00+08:00. New 1 / re-read 3 / corrected boundaries 3; full prompt and unknowns persisted. Image generation, inspection, any edit, archive and immutable readback remain pending.
+- `IMAGE_GENERATED` — 2026-11-05T13:45:00+08:00. Initial 1536×1024 plate generated in 40.5 s and saved unchanged as `production/generated/63-scotopelia-peli-v5-generated-master.png`. Preliminary full-frame view passes count, identity, title/labels, sex restraint, downy-stage silhouette and natural support. Crop review remains required; science remains false.

@@ -1315,3 +1315,18 @@
 - Re-read `BARK-BARNES-ROSE-DEBUS-2005`, `BARK-ABSA-2020`, `BARK-VIC-WILDLIFE-2023` and `BARK-AM-2022`; reused repository extraction `WHSO-MIKKOLA-2013` printed pp.452–453/PDF pp.454–455.
 - New1 / re-read4 / reused1 / corrected3. Male-larger direction is restrained because measurements overlap; the juvenile’s adult-like wing/tail proportions are not adult-perfect markings; a single object-play record is not universal behavior. Uploaded Mikkola guide was unavailable, so no fresh page claim is made. Exact feather counts, juvenile sex/hatch age, subspecies transfer and population-wide timing remain unknown; science false.
 
+## 2026-11-05 — #72 *Ninox boobook* v5 — iris variation and recent-fledgling pattern restraint
+
+### BOO-GOODWIN-2018-P113-116
+- **Title / author / year:** “Is there a link between eye colour and haemoparasite infection in the Southern Boobook *Ninox boobook* in the Perth Metropolitan Area?” — Warren Goodwin, 2018.
+- **DOI / URL:** https://doi.org/10.20938/afo35113116 ; https://afo.birdlife.org.au/afo/index.php/afo/article/download/2123/2145
+- **Type / pages / accessed:** peer-reviewed primary regional observation/review, *Australian Field Ornithology* 35:113–116; full pp.113–116 read 2026-11-05.
+- **Species/stage/facts:** adults and other ages of *N. boobook*. Both sexes and all age classes commonly show yellowish to greenish or greenish-hazel irides; a relatively high proportion of Perth birds identified as *ocellata* have dark greenish-brown to dark brown eyes.
+- **Limits/conflicts/credibility:** the proposed genetic polymorphism, signalling role and parasite-related selection are tentative; regional frequency cannot be transferred across mainland populations. The study does not support sex-specific adult eye colour or a causal parasite rule.
+- **Design/check decision:** use muted yellow-green/greenish-hazel adult irises for the generic mainland plate, not uniform saturated lemon-yellow; record darker Perth variation as regional context only.
+- **Links:** `research/species/72-ninox-boobook-v5.md`; planned concept v5; run `production/runs/20261105T193722+0800-cycle-2.md`.
+
+### Re-read, reused and corrected boundaries
+- Re-read `BOO-OLSEN-JUDGE-TROST-2015`, `BOO-OLSEN-TROST-FUENTES-DEBUS-2020`, `BOO-VIC-REHAB-2023` and `BOO-ABSA-2019`; reused `BOO-AM-2022` and repository extraction `WHSO-MIKKOLA-2013` printed pp.455–456/PDF pp.457–458.
+- New1 / re-read4 / reused2 / corrected3. Adult eyes are not universally saturated lemon-yellow; the official white-streaked belly should not become broad drop-shaped blotches; a recent fledgling may have formed wings/tail without adult-perfect repeated spot rows. Uploaded Mikkola guide was unavailable, so no fresh page claim. Exact age/sex, daily feather chronology, iris frequencies, first-flight competence and subspecies transfer remain unknown; science false.
+

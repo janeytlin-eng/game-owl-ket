@@ -39,3 +39,7 @@ Primary `LET-LEADPRATHOM-2009-P457-461` was freshly opened in the publisher PDF:
 ## 2026-11-06 v5 archive checkpoint
 
 Reviewed v5 assets and evidence prepared at ARCHIVED; fixed-commit path/blob/byte readback pending. Science false.
+
+## 2026-11-06 v5 fixed readback
+
+Archive `074c4f3acd3ee5e1a578e2e6b45d022199bc1a17`, tree `56db7aa21b529c1d64fa9b2d6948106e397fbcda`, preserves exact reviewed assets and records; 16 paths and six binary path/blob/byte tuples passed. Applied juvenile-wing correction verified; scientific unknowns remain.

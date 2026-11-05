@@ -21728,7 +21728,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "LET-LEADPRATHOM-2009-P457-461",
         "LET-BOW-2024-ML339711461",
@@ -21771,9 +21771,13 @@
       "juvenile_review_size_bytes": 715498,
       "juvenile_review_sha256": "a5b73e5ec40735e667459dd15811f57bd0f954fdf153026502e8fdc14abc80f6",
       "reviewed_at": "2026-11-06T01:44:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and replaces the undocumented exact 11-15-day wing-panel geometry with a separately photographed age-unknown older brancher: dark eyes, soft gray mesoptile, short tufts, compact down-softened wings and two-foot branch support. One targeted edit removed long crisp adult-like primaries and repeated pale spots. Adults remain near-equal because sex-size direction is unresolved. Exact juvenile age/sex/subspecies, iris transition, flight ability and continuous feather geometry remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and replaces the undocumented exact 11-15-day wing-panel geometry with a separately photographed age-unknown older brancher: dark eyes, soft gray mesoptile, short tufts, compact down-softened wings and two-foot branch support. One targeted edit removed long crisp adult-like primaries and repeated pale spots. Adults remain near-equal because sex-size direction is unresolved. Exact juvenile age/sex/subspecies, iris transition, flight ability and continuous feather geometry remain unknown; science false.",
+      "archive_commit": "074c4f3acd3ee5e1a578e2e6b45d022199bc1a17",
+      "archive_tree": "56db7aa21b529c1d64fa9b2d6948106e397fbcda",
+      "verified_at": "2026-11-06T01:50:00+08:00",
+      "verification_result": "PASS: immutable non-truncated 3,170-entry tree; all 16 required paths present; six binary paths match exact Git blob and byte size; remote manifests parse at 703/702/693"
     }
   ],
-  "updated_at": "2026-11-06T01:47:00+08:00"
+  "updated_at": "2026-11-06T01:50:00+08:00"
 }

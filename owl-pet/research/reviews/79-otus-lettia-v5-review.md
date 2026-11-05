@@ -46,3 +46,7 @@ When an exact-day nestling stage lacks photographic wing-geometry evidence, do n
 ## Archive checkpoint
 
 At 2026-11-06T01:47:00+08:00, the reviewed concept and evidence files were prepared for ARCHIVED with manifests 703/702/693. Immutable fixed-commit readback remains pending; no scientific approval or cycle credit is implied.
+
+## Immutable archive verification
+
+Fixed archive `074c4f3acd3ee5e1a578e2e6b45d022199bc1a17`, tree `56db7aa21b529c1d64fa9b2d6948106e397fbcda`, returned a non-truncated 3,170-entry tree. Six binary paths and all ten supporting text/JSON paths matched; remote manifests parse at 703/702/693. Visual result remains PASS_WITH_LIMITATIONS and science false.

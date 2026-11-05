@@ -3384,3 +3384,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - Four detailed source records added/restored, two sources reused and three design boundaries corrected. The publisher development study, current taxonomy, a sexed museum specimen and a directly viewed Cornell/Macaulay older-juvenile image are linked in the source index.
 - One targeted juvenile-wing edit passed full/group/juvenile inspection. Manifests 703/702/693; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
 - Exact age/sex/subspecies, iris transition, flight ability, continuous feather geometry and adult sex-size direction remain unknown. No cycle credit before immutable readback.
+
+### #79 v5 VERIFIED — ledger credit pending
+
+- Archive `074c4f3acd3ee5e1a578e2e6b45d022199bc1a17`, tree `56db7aa21b529c1d64fa9b2d6948106e397fbcda`, passed non-truncated 3,170-entry readback: 16 required paths, six exact image blob/size tuples and remotely parsed manifests 703/702/693. Unique 176/251; science false. Ledger credit remains separate.

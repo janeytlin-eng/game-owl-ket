@@ -23875,8 +23875,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 5,
       "species_id": 69,
-      "heartbeat_at": "2026-11-05T17:30:00+08:00",
-      "expires_at": "2026-11-05T17:45:00+08:00"
+      "heartbeat_at": "2026-11-05T17:33:00+08:00",
+      "expires_at": "2026-11-05T17:48:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23886,12 +23886,12 @@
       "species": "Tyto novaehollandiae",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "ARCHIVED",
+      "current_stage": "VERIFIED",
       "started_at": "2026-11-05T17:19:00+08:00",
       "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
       "run_record": "owl-pet/production/runs/20261105T171900+0800-cycle-5.md"
     },
-    "current_stage": "ARCHIVED",
+    "current_stage": "VERIFIED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24685,6 +24685,28 @@
           "scientifically_verified": false,
           "readback_pending": true,
           "lease_expires_at": "2026-11-05T17:45:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 5,
+        "stage": "VERIFIED",
+        "at": "2026-11-05T17:33:00+08:00",
+        "run_id": "20261105T171900+0800-cycle-5",
+        "species_id": 69,
+        "credited": false,
+        "evidence": {
+          "archive_commit": "a3fc35485b97d026cf1f5388cd938209f8d26bfb",
+          "archive_tree": "da56e0ba770dbc047823213508587cbae04d5a4f",
+          "paths_verified": 16,
+          "binary_paths_verified": 5,
+          "unique_binary_blobs": 3,
+          "manifest_counts": {"design_image": 692, "design_legacy": 693, "production": 683},
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-05T17:48:00+08:00"
         }
       }
     ]

@@ -59,6 +59,11 @@
 - The inferred approximately-four-week stage remains all buff/ochre woolly down with a developing mask and hidden wings/tail; full/crop review passed without edit. PASS_WITH_LIMITATIONS; science false.
 - Manifests 692/693/683; unique 176/251; cycle 5 remains uncredited until fixed-commit readback.
 
+### #69 v5 VERIFIED — ledger credit pending
+
+- Archive `a3fc35485b97d026cf1f5388cd938209f8d26bfb`, tree `da56e0ba770dbc047823213508587cbae04d5a4f`, passed non-truncated 16-path readback with exact five binary tuples and remote manifests 692/693/683.
+- PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit pending.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

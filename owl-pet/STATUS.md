@@ -3247,6 +3247,11 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - V1–v4 remain preserved; v5 restores 1536×1024 and uses the one-individual primary sequence's inferred approximately-four-week downy/developing-mask stage without importing v4 five-week or v3 fledgling traits.
 - Full frame and adult/juvenile crops passed opened review without edit. Exact hatch age, wild growth, feather chronology, locomotion and morph transfer remain unknown.
 - Manifests 692/693/683; unique remains 176/251; revision +1; science false. Cycle 5 receives no credit before immutable readback.
+
+### #69 v5 VERIFIED — ledger credit pending
+
+- Archive `a3fc35485b97d026cf1f5388cd938209f8d26bfb`, tree `da56e0ba770dbc047823213508587cbae04d5a4f`, returned a non-truncated 3,084-entry tree. All 16 paths and five binary tuples matched; remote manifests parse at 692/693/683.
+- PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit pending.
 ## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
 
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.

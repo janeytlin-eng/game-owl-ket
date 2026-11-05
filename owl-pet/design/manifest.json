@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T17:30:00+08:00",
+  "updated": "2026-11-05T17:33:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21561,7 +21561,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "AMO-DEBUS-WOOD-2007-P49-52",
         "AMO-ABSA-2019-P1-2",
@@ -21595,9 +21595,13 @@
       "juvenile_review_size_bytes": 740569,
       "juvenile_review_sha256": "3bfe23be8758f74a37365af2fe0c679fbab0bbaee6a3b637d7cd8351c3c54c50",
       "reviewed_at": "2026-11-05T17:27:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, restores a full-resolution public concept and applies the primary one-individual sequence's distinct inferred approximately-four-week stage: buff/ochre woolly down, developing mask, hidden wings/tail and no visible feather vanes. The inferred age is explicit; v4 five-week and v3 fledgling traits are not transferred backward. Adult female direction remains moderate rather than a fixed height ratio. Full and crop review passed without edit. Exact age, wild growth, chronology, locomotion, morph transfer and chamber geometry remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, restores a full-resolution public concept and applies the primary one-individual sequence's distinct inferred approximately-four-week stage: buff/ochre woolly down, developing mask, hidden wings/tail and no visible feather vanes. The inferred age is explicit; v4 five-week and v3 fledgling traits are not transferred backward. Adult female direction remains moderate rather than a fixed height ratio. Full and crop review passed without edit. Exact age, wild growth, chronology, locomotion, morph transfer and chamber geometry remain unknown; science false.",
+      "verified_at": "2026-11-05T17:33:00+08:00",
+      "archive_commit": "a3fc35485b97d026cf1f5388cd938209f8d26bfb",
+      "archive_tree": "da56e0ba770dbc047823213508587cbae04d5a4f",
+      "verification_result": "Non-truncated 3,084-entry immutable tree matched all 16 required paths, five binary path/blob tuples and exact sizes; remote manifests parse at 692/693/683."
     }
   ],
-  "updated_at": "2026-11-05T17:30:00+08:00"
+  "updated_at": "2026-11-05T17:33:00+08:00"
 }

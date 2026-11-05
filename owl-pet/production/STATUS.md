@@ -1,5 +1,6 @@
 # Owl-pet production status
 
+- Pending verification: #62 *Ketupa sumatrana* v5 is archived as a full-resolution science revision; one juvenile-only edit removed a too-mature layered wing. Manifests 685 / 686 / 676; immutable readback and ledger credit pending.
 - Unique species archived: 176/251
 - Latest verified concept: #61 *Ketupa ketupu* v5 (revision; no unique increment)
 - Accepted archive: `4c13c4d7c86cbf9811042462ec0f616d1c08da33`

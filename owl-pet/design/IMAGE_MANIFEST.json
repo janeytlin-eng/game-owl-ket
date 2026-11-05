@@ -21269,7 +21269,65 @@
       "archive_commit": "4c13c4d7c86cbf9811042462ec0f616d1c08da33",
       "archive_tree": "cead158ef10ae7fe6ca62c34c07927eb83a45db8",
       "verification_result": "Immutable archive readback matched five required binary path/blob tuples, three unique image blobs and exact byte sizes; all three manifests parsed at counts 684/685/675; source index, research, review, run and status records were present."
+    },
+    {
+      "id": "62-ketupa-sumatrana-v5",
+      "path": "design/concepts/62-ketupa-sumatrana-v5.png",
+      "species_id": 62,
+      "scientific_name": "Ketupa sumatrana",
+      "current_scientific_name": "Ketupa sumatrana",
+      "common_name": "Barred Eagle-Owl",
+      "historical_names": [
+        "Bubo sumatranus",
+        "Strix sumatrana"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED_READBACK_PENDING",
+      "source_ids": [
+        "BEOW-FOLEY-2013-P34-37",
+        "BEOW-LKC-SBR-2017-178",
+        "BEOW-SGBIRDS-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/62-ketupa-sumatrana-v5.md",
+      "review_record": "research/reviews/62-ketupa-sumatrana-v5-review.md",
+      "run_record": "production/runs/20261105T124400+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3275668,
+      "sha256": "70b48f23a165664b6cb1ca9f9c78357fc02bddaf0d3200279fd9a7e93c0efa87",
+      "git_blob": "6264d5c372b78b7eb9b7c289be9c480666cad1da",
+      "generated_path": "production/generated/62-ketupa-sumatrana-v5-generated-master.png",
+      "generated_blob": "cc335266a0df77eba3d6604ee8d9793615881bd5",
+      "generated_sha256": "e49d977090f3b718dfc42af4a7686962e9437730b8df65e26d92eab15c633795",
+      "generated_size_bytes": 3496990,
+      "reviewed_path": "production/reviewed/62-ketupa-sumatrana-v5-reviewed-master.png",
+      "reviewed_blob": "6264d5c372b78b7eb9b7c289be9c480666cad1da",
+      "adults_review_crop": "production/review-crops/62-ketupa-sumatrana-v5-adults.png",
+      "adults_review_blob": "c6b72e8d097192565cbf5353a6f54337ae5dd072",
+      "adults_review_size_bytes": 2508828,
+      "adults_review_sha256": "7677220bee1f4c24f97eda2b66e99465476fc48cfe5860d6cf8328ec2275327f",
+      "juvenile_review_crop": "production/review-crops/62-ketupa-sumatrana-v5-juvenile.png",
+      "juvenile_review_blob": "247dd800f5b2233a2a40175addac34a80c619c2b",
+      "juvenile_review_size_bytes": 934102,
+      "juvenile_review_sha256": "3c4301acfec4ec863b92280ed4a3ce5105324939f1c64c6fae5ca390ef664cad",
+      "reviewed_at": "2026-11-05T12:55:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4, restores full resolution and selects the source-dated approximately day-27 upright/preening-but-stationary boundary. One juvenile-only edit removed the initial long layered wing; planter soil/roots provide support. Exact feather chronology, sex/subspecies and population transfer remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-05T12:38:00+08:00"
+  "updated_at": "2026-11-05T12:58:00+08:00"
 }

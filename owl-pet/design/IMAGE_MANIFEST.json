@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T17:15:00+08:00",
+  "updated": "2026-11-05T17:30:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21704,7 +21704,66 @@
       "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
       "archive_tree": "b768f20caaa5db8026af0637cd8c03d821358715",
       "verification_result": "Non-truncated 3,076-entry immutable tree matched all 16 required paths, five binary path/blob tuples and exact sizes; remote manifests parse at 691/692/682."
+    },
+    {
+      "id": "69-tyto-novaehollandiae-v5",
+      "path": "design/concepts/69-tyto-novaehollandiae-v5.png",
+      "species_id": 69,
+      "scientific_name": "Tyto novaehollandiae",
+      "current_scientific_name": "Tyto novaehollandiae",
+      "common_name": "Australian Masked Owl",
+      "historical_names": [
+        "Strix novaehollandiae"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "AMO-DEBUS-WOOD-2007-P49-52",
+        "AMO-ABSA-2019-P1-2",
+        "AMO-AUSTRALIAN-MUSEUM-2024",
+        "VIC-RAPTORS-2023",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/69-tyto-novaehollandiae-v5.md",
+      "review_record": "research/reviews/69-tyto-novaehollandiae-v5-review.md",
+      "run_record": "production/runs/20261105T171900+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3252155,
+      "sha256": "b0ba6d48e440bde0d2c4920c0ed7f0b3ff28ae07dc09925e66789f44c683bfdc",
+      "git_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+      "generated_path": "production/generated/69-tyto-novaehollandiae-v5-generated-master.png",
+      "generated_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+      "generated_sha256": "b0ba6d48e440bde0d2c4920c0ed7f0b3ff28ae07dc09925e66789f44c683bfdc",
+      "generated_size_bytes": 3252155,
+      "reviewed_path": "production/reviewed/69-tyto-novaehollandiae-v5-reviewed-master.png",
+      "reviewed_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+      "adults_review_crop": "production/review-crops/69-tyto-novaehollandiae-v5-adults.png",
+      "adults_review_blob": "532ef490d7643e3030669c4c134db51675918443",
+      "adults_review_size_bytes": 2185307,
+      "adults_review_sha256": "289b45ea89ed1e7f5d08e4884ba010aec7f718072de7f44a93ac0f50acf09ec4",
+      "juvenile_review_crop": "production/review-crops/69-tyto-novaehollandiae-v5-juvenile.png",
+      "juvenile_review_blob": "564abf5e28e334bd3373dac7275193ba7a9076ee",
+      "juvenile_review_size_bytes": 740569,
+      "juvenile_review_sha256": "3bfe23be8758f74a37365af2fe0c679fbab0bbaee6a3b637d7cd8351c3c54c50",
+      "reviewed_at": "2026-11-05T17:27:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4, restores a full-resolution public concept and applies the primary one-individual sequence's distinct inferred approximately-four-week stage: buff/ochre woolly down, developing mask, hidden wings/tail and no visible feather vanes. The inferred age is explicit; v4 five-week and v3 fledgling traits are not transferred backward. Adult female direction remains moderate rather than a fixed height ratio. Full and crop review passed without edit. Exact age, wild growth, chronology, locomotion, morph transfer and chamber geometry remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-05T17:15:00+08:00"
+  "updated_at": "2026-11-05T17:30:00+08:00"
 }

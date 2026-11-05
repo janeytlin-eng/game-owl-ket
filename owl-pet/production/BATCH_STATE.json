@@ -23875,8 +23875,8 @@
       "batch_id": "20261105T153530+0800",
       "cycle": 5,
       "species_id": 69,
-      "heartbeat_at": "2026-11-05T17:27:00+08:00",
-      "expires_at": "2026-11-05T17:42:00+08:00"
+      "heartbeat_at": "2026-11-05T17:30:00+08:00",
+      "expires_at": "2026-11-05T17:45:00+08:00"
     },
     "in_progress": {
       "batch_id": "20261105T153530+0800",
@@ -23886,12 +23886,12 @@
       "species": "Tyto novaehollandiae",
       "action": "SCIENCE_REVISION",
       "version": 5,
-      "current_stage": "REVIEWED",
+      "current_stage": "ARCHIVED",
       "started_at": "2026-11-05T17:19:00+08:00",
       "baseline_commit": "03e00424ca1aff7960ea3d8bcc0f182d3486c3e2",
       "run_record": "owl-pet/production/runs/20261105T171900+0800-cycle-5.md"
     },
-    "current_stage": "REVIEWED",
+    "current_stage": "ARCHIVED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24662,6 +24662,29 @@
           "scientifically_verified": false,
           "unknowns": ["exact hatch age", "wild growth rate", "continuous feather chronology", "locomotor competence", "morph/subspecies transfer", "universal sex-scale ratio"],
           "lease_expires_at": "2026-11-05T17:42:00+08:00"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 5,
+        "stage": "ARCHIVED",
+        "at": "2026-11-05T17:30:00+08:00",
+        "run_id": "20261105T171900+0800-cycle-5",
+        "species_id": 69,
+        "credited": false,
+        "evidence": {
+          "version": 5,
+          "concept_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+          "generated_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+          "reviewed_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
+          "adults_crop_blob": "532ef490d7643e3030669c4c134db51675918443",
+          "juvenile_crop_blob": "564abf5e28e334bd3373dac7275193ba7a9076ee",
+          "manifest_counts": {"design_image": 692, "design_legacy": 693, "production": 683},
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-05T17:45:00+08:00"
         }
       }
     ]

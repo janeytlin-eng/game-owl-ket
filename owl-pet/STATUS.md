@@ -3241,6 +3241,12 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #68 v5 LEDGER_CREDITED — batch 4/6
 
 - Verification commit `702d4ef95ffbc00db4ede4abb3f66592b4b50823`, tree `6b39ed9fde5848c9e640ee7806593a3ec3cf45be`, is credited exactly once. Batch `20261105T153530+0800` is 4/6; next cycle 5 and the lease is released. Unique remains 176/251; revision +1; science false.
+
+## 2026-11-05 #69 *Tyto novaehollandiae* v5 ARCHIVED — readback pending
+
+- V1–v4 remain preserved; v5 restores 1536×1024 and uses the one-individual primary sequence's inferred approximately-four-week downy/developing-mask stage without importing v4 five-week or v3 fledgling traits.
+- Full frame and adult/juvenile crops passed opened review without edit. Exact hatch age, wild growth, feather chronology, locomotion and morph transfer remain unknown.
+- Manifests 692/693/683; unique remains 176/251; revision +1; science false. Cycle 5 receives no credit before immutable readback.
 ## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
 
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.

@@ -3049,3 +3049,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - [Concept](concepts/68-tyto-tenebricosa-v5.png) · [Research](../research/species/68-tyto-tenebricosa-v5.md) · [Review](../research/reviews/68-tyto-tenebricosa-v5-review.md) · [Run](../production/runs/20261105T170300+0800-cycle-4.md)
 - V5 preserves v1–v4, restores the public concept at 1536×1024 and selects the separately documented approximately-six-week cavity stage: sooty-grey down, defined facial discs and emerging wing/tail feathers, with full cavity support and no flight inference. Adult pair observations varied in apparent size direction, so measured reversed dimorphism is not converted into a fixed crown-height ratio. No edit; PASS_WITH_LIMITATIONS; science false; immutable readback pending.
 
+## #69 Australian Masked Owl — *Tyto novaehollandiae* — v5
+
+- [Concept](concepts/69-tyto-novaehollandiae-v5.png) · [Research](../research/species/69-tyto-novaehollandiae-v5.md) · [Review](../research/reviews/69-tyto-novaehollandiae-v5-review.md) · [Run](../production/runs/20261105T171900+0800-cycle-5.md)
+- V5 preserves v1–v4, restores full resolution and selects the primary sequence's distinct inferred approximately-four-week stage: buff/ochre woolly down, developing mask, hidden wings/tail and no visible feather vanes. The label retains “INFERRED”; v4 five-week and v3 fledgling traits are not blended backward. No edit; PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+

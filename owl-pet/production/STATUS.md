@@ -53,6 +53,12 @@
 
 - Verification commit `702d4ef95ffbc00db4ede4abb3f66592b4b50823`, tree `6b39ed9fde5848c9e640ee7806593a3ec3cf45be`, is credited once. Batch `20261105T153530+0800` is 4/6; next cycle 5; lease released. Unique 176/251; revision +1; science false.
 
+## #69 *Tyto novaehollandiae* v5 ARCHIVED — readback pending
+
+- Full-resolution concept/generated/reviewed master blob `19f6024e05f1a3c4377b999aa6ae7640d97de77c`; adult crop `532ef490d7643e3030669c4c134db51675918443`; juvenile crop `564abf5e28e334bd3373dac7275193ba7a9076ee`.
+- The inferred approximately-four-week stage remains all buff/ochre woolly down with a developing mask and hidden wings/tail; full/crop review passed without edit. PASS_WITH_LIMITATIONS; science false.
+- Manifests 692/693/683; unique 176/251; cycle 5 remains uncredited until fixed-commit readback.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

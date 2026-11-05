@@ -34,3 +34,7 @@ Archive `42fa2acf2c6c759684b02d275c6c534188bc3d2d` preserves exact concept/gener
 
 Directly opened `MAR-COMMONS-MURRAY-2020`: two age-unknown Marsh Owl young sit low in tall grass with buff-brown woolly down, very dark faces/discs, dark eyes and black bills; only restrained darker shoulder/back feather areas are visible and wings/tails are largely concealed. Re-read `MAR-ANSARA-ROSS-2008`, `MARSH-BIOEXP-2026` and `MARSH-OWLPAGES-2020`; reused `WHSO-MIKKOLA-2013` printed pp.518–519/PDF pp.520–521. V5 switches from the v4 older-dependent stage to an `AGE-UNKNOWN OWLET` controlled by the opened photograph: low ground/grass support, down-rich body, wings/tail concealed, no action or exact-age claim. Adults remain comparable in height; female only subtly fuller/longer-tailed. Exact age, sex, locality, movement ability, feather chronology, universal sex ratio and subspecies transfer remain unknown; `scientifically_verified=false`.
 
+## 2026-11-06 v5 review
+
+The generated v5 full image and juvenile/support crops were actually opened. It passed exact count/text/order, dark-eyed adult identity, comparable adult height, restrained female fullness/tail, photo-bounded down-rich juvenile, concealed immature wing/tail and continuous natural support. No edit was required. Verified local rule: when the best species-specific young photograph hides the wing/tail and has no age metadata, preserve that concealment and label age unknown rather than manufacturing a dated miniature adult. This application passed for #78 only; science remains false.
+

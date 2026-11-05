@@ -60,3 +60,10 @@ Constraints: exact number/title/order; exactly three owls; no generic female-muc
 - Verify exact three birds/text/order; adult dark eyes/tiny tufts/dark-rimmed pale discs; comparable adult height; restrained female fullness/tail; juvenile dark face/dark eyes/down-rich body/concealed wings and tail; continuous ground/grass support.
 - Unknown: photographed juveniles' age, sex, location, exact feather geometry and action ability; universal sex ratio; subspecies-specific proportions; daily developmental sequence. These prevent scientific approval.
 
+## Production result
+
+- Initial generation passed the count/text, adult identity and restrained sex-direction gates. The central `AGE-UNKNOWN OWLET` is down-rich and dark-faced with mostly concealed wing/tail and bilateral ground/grass support.
+- Full image and juvenile/support crops were actually opened. No edit was scientifically necessary; edit count 0.
+- Concept/reviewed master: 1536×1024 RGB PNG, 2,922,411 bytes; SHA-256 `ad3ed1912b94bb58bf27a1230843c2aeef50ccb0579ac4a319dd0dd106793461`.
+- Review: `research/reviews/78-asio-capensis-v5-review.md`; result `PASS_WITH_LIMITATIONS`; scientific status remains false.
+

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T10:51:35+08:00",
+  "updated": "2026-11-05T11:16:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20975,7 +20975,60 @@
       "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
       "archive_tree": "ffff7346aa11b1c808765076fa4149ab4224457b",
       "verification_result": "Immutable archive readback matched five required binary path/blob tuples, four unique image blobs and exact byte sizes; all three manifests were complete and parseable at counts 682/683/673; source, research, review, workflow, run, status and ARCHIVED ledger markers were present."
+    },
+    {
+      "id": "60-ketupa-flavipes-v5",
+      "path": "design/concepts/60-ketupa-flavipes-v5.png",
+      "species_id": 60,
+      "scientific_name": "Ketupa flavipes",
+      "current_scientific_name": "Ketupa flavipes",
+      "common_name": "Tawny Fish Owl",
+      "historical_names": [
+        "Bubo flavipes",
+        "Cultrunguis flavipes"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [1, 2, 3, 4],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 2,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "TFO-NTM-TMAV0148-2026",
+        "TFO-SPNP-NPUST-2026-L8-20",
+        "TFO-PTS-SPNP-2026-L38-47",
+        "TFO-TAIEOL-2013-2024",
+        "TFO-WANG-2013",
+        "TFO-SUN-NEST-1997"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/60-ketupa-flavipes-v5.md",
+      "review_record": "research/reviews/60-ketupa-flavipes-v5-review.md",
+      "run_record": "production/runs/20261105T105535+0800-cycle-2.md",
+      "dimensions": {"width": 1536, "height": 1024},
+      "size_bytes": 3313716,
+      "sha256": "1b9c51cc839b226097c5799c759dfdf155e34ad00b5cc770f15492deb4c109dd",
+      "git_blob": "781048fe3878b98ac7053fc75e9d52cee368c263",
+      "generated_path": "production/generated/60-ketupa-flavipes-v5-generated-master.png",
+      "generated_blob": "05dcdd4bc625bc2e5325d652a18fa0d48d54ead5",
+      "generated_sha256": "ce7815b884c252ee27dbf05791cc14bedded819df6023ab80aa845e30fedc3e3",
+      "generated_size_bytes": 3795938,
+      "reviewed_path": "production/reviewed/60-ketupa-flavipes-v5-reviewed-master.png",
+      "reviewed_blob": "781048fe3878b98ac7053fc75e9d52cee368c263",
+      "adults_review_crop": "production/review-crops/60-ketupa-flavipes-v5-adults.png",
+      "adults_review_blob": "d48240173869f03d3c053bf042e1f0ab4aea19ef",
+      "adults_review_size_bytes": 2273424,
+      "adults_review_sha256": "678c550488c69020177e48560a7188215da60c257898179721380b516f63dbd4",
+      "juvenile_review_crop": "production/review-crops/60-ketupa-flavipes-v5-juvenile.png",
+      "juvenile_review_blob": "374782a95afe59accd376a65baf518e1f7562b66",
+      "juvenile_review_size_bytes": 1071344,
+      "juvenile_review_sha256": "c4c0e4285082120c58ed4f619a6d576eb7b1d65f8ca1b0c867ffe44856b28945",
+      "reviewed_at": "2026-11-05T11:12:41+08:00",
+      "readback_pending": true,
+      "archive_note": "The initial juvenile repeated adult-ordered pale wing rows and hid the tail. Two centre-only edits shortened, rounded and down-fringed the wing while preserving both adults, text, bilateral support and the Wuling living-tree/stream scene. The tail remains mostly obscured and is retained as a limitation; science remains false."
     }
   ],
-  "updated_at": "2026-11-05T10:51:35+08:00"
+  "updated_at": "2026-11-05T11:16:00+08:00"
 }

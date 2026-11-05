@@ -84,4 +84,5 @@ Open the full generated master, then inspect adult comparison and juvenile wing/
 - One 52.0 s juvenile-only edit shortened/rounded the folded wing, replaced regular adult layering with irregular rufous-buff down-fringed coverts and subdued emerging remiges, and shortened/obscured the tail. Adults, text, scene and support were locked.
 - Final master and juvenile/adult-support crops were reopened. The modification is visibly effective and all checklist boundaries pass with limitations. Exact age, flight ability, sex ratio and continuous feather sequence remain unknown; `scientifically_verified=false`.
 - Full review: `owl-pet/research/reviews/59-ketupa-zeylonensis-v5-review.md`.
+- Archive prepared at 2026-11-05T10:48:14+08:00 with manifests 682/683/673; immutable readback is still pending at this stage, so no cycle credit is claimed here.
 

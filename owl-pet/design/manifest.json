@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T09:46:00+08:00",
+  "updated": "2026-11-05T10:48:14+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20913,7 +20913,65 @@
       "archive_commit": "ff33ec8b477d482cf92b98428acdaa5aa8395f46",
       "archive_tree": "3f97a80cfd237c94adc563020826967599d5d6b2",
       "verification_result": "Immutable archive readback matched all 18 required paths, seven binary path/blob tuples, four unique image blobs, exact binary sizes, three parseable manifests and complete evidence/status records."
+    },
+    {
+      "id": "59-ketupa-zeylonensis-v5",
+      "path": "design/concepts/59-ketupa-zeylonensis-v5.png",
+      "species_id": 59,
+      "scientific_name": "Ketupa zeylonensis",
+      "current_scientific_name": "Ketupa zeylonensis",
+      "common_name": "Brown Fish Owl",
+      "historical_names": [
+        "Strix zeylonensis"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "BFOW-HKBWS-AVIFAUNA-2026",
+        "BFOW-KFBG-2021",
+        "BFO-INDIANBIRDS-2013-P147-151",
+        "BFOW-BINDU-BALAKRISHNAN-2015-P97-98"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/59-ketupa-zeylonensis-v5.md",
+      "review_record": "research/reviews/59-ketupa-zeylonensis-v5-review.md",
+      "run_record": "production/runs/20261105T103554+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3419316,
+      "sha256": "e87004112b7ccea3c8f75617e0639e493d4254fe65935639ff0de91a107c30a5",
+      "git_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
+      "generated_path": "production/generated/59-ketupa-zeylonensis-v5-generated-master.png",
+      "generated_blob": "c38b2bc2d8971d293547ab8f709c8c23b4b63576",
+      "generated_sha256": "9dffe35fc994b42fbe95c68887af2a66eb214c44590d3ed6a4d9cd1ccc51cd2a",
+      "generated_size_bytes": 3659324,
+      "reviewed_path": "production/reviewed/59-ketupa-zeylonensis-v5-reviewed-master.png",
+      "reviewed_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
+      "adults_review_crop": "production/review-crops/59-ketupa-zeylonensis-v5-adults.png",
+      "adults_review_blob": "ea627648fa7b10f8142aebe2bd51e87f213672c2",
+      "adults_review_size_bytes": 2392780,
+      "adults_review_sha256": "532bc16709e3eab803b3c744296089c57d5f6e4e2ba6905de469268485068ee6",
+      "juvenile_review_crop": "production/review-crops/59-ketupa-zeylonensis-v5-juvenile.png",
+      "juvenile_review_blob": "37e8a5a4c6cc00c84455f214d7c4611331968432",
+      "juvenile_review_size_bytes": 1582091,
+      "juvenile_review_sha256": "78f6086b89877c4494df9cafd3aa60fcbf2335ee2cde535b9719168ec8071659",
+      "reviewed_at": "2026-11-05T10:45:59+08:00",
+      "readback_pending": true,
+      "archive_note": "The first full-resolution render repeated v4's adult-perfect juvenile remige stack and mature tail. One juvenile-only edit retained a formed wing but shortened, rounded and down-softened its silhouette, replaced regular rows with irregular juvenile coverts and subdued emerging remiges, and shortened/obscured the tail. Full master and juvenile/adult-support crops reopened; science remains false."
     }
   ],
-  "updated_at": "2026-11-05T09:46:00+08:00"
+  "updated_at": "2026-11-05T10:48:14+08:00"
 }

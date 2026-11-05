@@ -1,3 +1,9 @@
+## #59 Brown Fish Owl — *Ketupa zeylonensis* — v5 ARCHIVED, readback pending
+
+- Concept: [59-ketupa-zeylonensis-v5.png](concepts/59-ketupa-zeylonensis-v5.png)
+- Research: [59-ketupa-zeylonensis-v5.md](../research/species/59-ketupa-zeylonensis-v5.md) · [review](../research/reviews/59-ketupa-zeylonensis-v5-review.md) · [run](../production/runs/20261105T103554+0800-cycle-1.md)
+- Full-resolution v5 preserves v1–v4. One juvenile-only edit removed the initial long adult-perfect remige stack and mature tail while retaining a formed, down-fringed wing, paler smaller-tuft Hong Kong brancher, bilateral support and exact three-bird labels. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
+
 ## #57 Spot-bellied Eagle-Owl — *Bubo nipalensis* / current *Ketupa nipalensis* — v5 VERIFIED
 
 - [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/4a13d7cd28862e6d6e4e4e966de83f6be539fcd9/owl-pet/design/concepts/57-bubo-nipalensis-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/4a13d7cd28862e6d6e4e4e966de83f6be539fcd9)

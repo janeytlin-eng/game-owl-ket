@@ -22082,17 +22082,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T103554+0800-cycle-1",
-      "heartbeat_at": "2026-11-05T10:45:59+08:00",
-      "expires_at": "2026-11-05T11:00:59+08:00"
+      "heartbeat_at": "2026-11-05T10:48:14+08:00",
+      "expires_at": "2026-11-05T11:03:14+08:00"
     },
     "in_progress": {
       "cycle": 1,
       "run_id": "20261105T103554+0800-cycle-1",
       "species_id": 59,
       "species": "Ketupa zeylonensis",
-      "stage": "REVIEWED"
+      "stage": "ARCHIVED"
     },
-    "current_stage": "REVIEWED",
+    "current_stage": "ARCHIVED",
     "events": [
       {
         "cycle": 1,
@@ -22181,6 +22181,32 @@
             "cross-population transfer"
           ],
           "lease_expires_at": "2026-11-05T11:00:59+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "ARCHIVED",
+        "at": "2026-11-05T10:48:14+08:00",
+        "run_id": "20261105T103554+0800-cycle-1",
+        "species_id": 59,
+        "credited": false,
+        "evidence": {
+          "version": 5,
+          "concept_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
+          "generated_blob": "c38b2bc2d8971d293547ab8f709c8c23b4b63576",
+          "reviewed_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
+          "adult_crop_blob": "ea627648fa7b10f8142aebe2bd51e87f213672c2",
+          "juvenile_crop_blob": "37e8a5a4c6cc00c84455f214d7c4611331968432",
+          "manifest_counts": {
+            "design_image": 682,
+            "design_legacy": 683,
+            "production": 673
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-05T11:03:14+08:00"
         }
       }
     ]

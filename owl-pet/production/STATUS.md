@@ -1,11 +1,12 @@
 # Owl-pet production status
 
 - Unique species archived: 176/251
-- Latest verified concept: #58 *Ketupa coromanda* v5 (revision; no unique increment)
-- Accepted archive: `ff33ec8b477d482cf92b98428acdaa5aa8395f46`
-- Verification commit: `b2110bcad57a724ff821e432928869ec6c9ccc7b`
-- Ledger credit: recorded once in `BATCH_STATE.json` completed cycle 6
-- Result: VERIFIED / PASS_WITH_LIMITATIONS / scientifically_verified=false
-- Manifest counts: 681 / 682 / 672
+- Latest archived concept: #59 *Ketupa zeylonensis* v5 (revision; no unique increment)
+- Accepted archive: pending immutable readback
+- Verification commit: pending immutable readback
+- Ledger credit: none until VERIFIED
+- Result: ARCHIVED / PASS_WITH_LIMITATIONS / scientifically_verified=false / readback pending
+- Manifest counts: 682 / 683 / 673
 - Scientifically verified groups: 0
-- Batch `20261105T062700+0800`: COMPLETE 6/6; lease released; no child cycle remains
+- Batch `20261105T103554+0800`: 0/6 credited; cycle 1 at ARCHIVED pending readback
+- Previous batch `20261105T062700+0800`: COMPLETE 6/6; its stale historical duplicate was preserved and marked superseded

@@ -42,3 +42,13 @@ Avoid: extra birds, eggs, prey, cage/market props, Eurasian Eagle-Owl features, 
 ## Unknowns and scientific status
 
 Exact juvenile sex, exact-day tract chronology, flight threshold, numeric adult standing-height ratio, regional fine-plumage variation and individual toe geometry remain unknown. The result will therefore be a concept image pending scientific calibration, not a scientifically verified plate.
+
+
+## Actual image review — 2026-11-06
+
+- First render issue: adult poses were too similar and adult toe-base feathering was not clear enough.
+- Evidence-led edit: adult female changed to a three-quarter posture; tawny feathering over adult tarsi/toe bases clarified without obscuring dark claws.
+- Recheck: PASS_WITH_LIMITATIONS at original resolution. Adult diagnostics, near-equal height boundary, c.40-day juvenile, cliff-hole setting and natural support all retained.
+- Final master: `owl-pet/design/concepts/87-bubo-ascalaphus-v5.png`, SHA-256 `b179d8e7bbcc3958ad88cd92a9d05618aa269cb60207cc32218afa2df270b0e6`.
+- Review record: `owl-pet/research/reviews/87-bubo-ascalaphus-v5-review.md`.
+- Remaining unknowns and scientific-status boundary are unchanged; science remains false.

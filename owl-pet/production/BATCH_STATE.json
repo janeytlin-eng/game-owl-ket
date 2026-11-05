@@ -22038,10 +22038,11 @@
       }
     }
   ],
-  "last_completed_batch_id": "20261105T033723+0800",
+  "last_completed_batch_id": "20261105T062700+0800",
   "active_batch": {
     "batch_id": "20261105T062700+0800",
-    "status": "PARTIAL",
+    "status": "COMPLETE",
+    "completed_at": "2026-11-05T09:49:00+08:00",
     "target_cycles": 6,
     "completed_cycles": [
       {
@@ -22098,23 +22099,23 @@
         "run_record": "owl-pet/production/runs/20261105T073000+0800-cycle-5.md",
         "archive_commit": "4a13d7cd28862e6d6e4e4e966de83f6be539fcd9",
         "verification_tree": "fc1299104574cb9fdce80cfc093c5036b96e8b38"
+      },
+      {
+        "cycle": 6,
+        "species": "Ketupa coromanda",
+        "species_id": 58,
+        "action": "REVISION",
+        "unique_species_increment": 0,
+        "commit_sha": "b2110bcad57a724ff821e432928869ec6c9ccc7b",
+        "run_record": "owl-pet/production/runs/20261105T085600+0800-cycle-6.md",
+        "archive_commit": "ff33ec8b477d482cf92b98428acdaa5aa8395f46",
+        "verification_tree": "9219f1fde9fbf6e88e7b72eea70161cd13826bb2"
       }
     ],
-    "next_cycle": 6,
-    "active_lease": {
-      "owner": "codex-automation",
-      "run_id": "20261105T085600+0800-cycle-6",
-      "heartbeat_at": "2026-11-05T09:42:00+08:00",
-      "expires_at": "2026-11-05T09:57:00+08:00"
-    },
-    "in_progress": {
-      "cycle": 6,
-      "run_id": "20261105T085600+0800-cycle-6",
-      "species_id": 58,
-      "species": "Ketupa coromanda",
-      "stage": "ARCHIVED"
-    },
-    "current_stage": "ARCHIVED",
+    "next_cycle": null,
+    "active_lease": null,
+    "in_progress": null,
+    "current_stage": "VERIFIED",
     "events": [
       {
         "cycle": 1,
@@ -22905,6 +22906,33 @@
           "scientifically_verified": false,
           "readback_pending": true,
           "lease_expires_at": "2026-11-05T09:57:00+08:00"
+        }
+      },
+      {
+        "cycle": 6,
+        "stage": "VERIFIED",
+        "at": "2026-11-05T09:49:00+08:00",
+        "run_id": "20261105T085600+0800-cycle-6",
+        "species_id": 58,
+        "credited": true,
+        "evidence": {
+          "archive_commit": "ff33ec8b477d482cf92b98428acdaa5aa8395f46",
+          "archive_tree": "3f97a80cfd237c94adc563020826967599d5d6b2",
+          "paths_verified": 18,
+          "binary_paths_verified": 7,
+          "unique_binary_blobs": 4,
+          "manifest_counts": {
+            "design_image": 681,
+            "design_legacy": 682,
+            "production": 672
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "next_cycle": null,
+          "batch_status": "COMPLETE",
+          "verification_commit": "b2110bcad57a724ff821e432928869ec6c9ccc7b",
+          "verification_tree": "9219f1fde9fbf6e88e7b72eea70161cd13826bb2"
         }
       }
     ]

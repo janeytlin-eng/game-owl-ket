@@ -3163,3 +3163,5 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Primary adult study shows RSD varies by trait and year; the plate keeps near-equal crown heights and only a subtly fuller female.
 - Growth evidence supports a near-adult body/tarsus near fledging while wings remain in growth. One center-only edit removed two hard adult-like juvenile wing tips; final compact rounded wing, hidden/short tail and cavity-lip support passed full/crop review.
 - `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`; exact age/sex, tract chronology, flight threshold, juvenile iris and quantified standing-height ratio remain unknown. Manifests 709/708/699; immutable readback pending.
+
+- #86 v4 immutable verification 2026-11-06T06:06:00+08:00: first archive `44ecc905` was rejected for five 786,446-byte truncated binaries. Fixed archive `ea2d8ccba32ee0ed9f84b83759bf56242b60e638` (tree `65019e61a97cbfbfa876acb9d8787039c84d716e`) passed 17 paths, six exact binary tuples and manifests 708/707/698. Ledger credit pending; science false.

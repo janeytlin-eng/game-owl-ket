@@ -1,3 +1,8 @@
+## 2026-11-06 #86 *Otus elegans interpositus* v4 VERIFIED — ledger credit pending
+
+- Initial archive `44ecc905` exposed five truncated large-binary transfers and was superseded before credit. Fixed archive `ea2d8ccba32ee0ed9f84b83759bf56242b60e638`, tree `65019e61a97cbfbfa876acb9d8787039c84d716e`, returned 3,222 non-truncated entries, all 17 required paths and six exact binary path/blob/byte tuples.
+- Three manifests parse at 708/707/698 and contain the complete #86 v4 verified entry; research/review/run text is readable. PASS_WITH_LIMITATIONS; science false; unique remains 176/251. Ledger credit pending.
+
 ## 2026-11-06 #86 *Otus elegans interpositus* v4 ARCHIVED — readback pending
 
 - V4 preserves v1–v3 and uses five newly detailed/re-read sources plus two reused records. It retains a late nestling/pre-fledging stage with near-adult body/tarsus but visibly incomplete wing, not a mature small adult.

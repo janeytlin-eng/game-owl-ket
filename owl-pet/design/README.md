@@ -2985,4 +2985,4 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 ## #58 Dusky Eagle-Owl — *Ketupa coromanda* — v5
 
 - [Concept](concepts/58-ketupa-coromanda-v5.png) · [Research](../research/species/58-ketupa-coromanda-v5.md) · [Review](../research/reviews/58-ketupa-coromanda-v5-review.md) · [Run](../production/runs/20261105T085600+0800-cycle-6.md)
-- Full-resolution v5 maps legacy *Bubo coromandus*/*Strix coromanda* to the current name. The field-estimated 8–10-week branch-moving juvenile remains fully supported beside a high old stick nest; one edit shortened and softened overly adult-ordered wing/tail layering. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.
+- Full-resolution v5 maps legacy *Bubo coromandus*/*Strix coromanda* to the current name. The field-estimated 8–10-week branch-moving juvenile remains fully supported beside a high old stick nest; one edit shortened and softened overly adult-ordered wing/tail layering. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive commit/tree and all binary/manifests read back successfully.

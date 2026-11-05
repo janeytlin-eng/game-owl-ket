@@ -31,4 +31,7 @@
 
 ## Archive readback
 
-Pending immutable GitHub commit/tree readback. This section must be updated before cycle credit.
+- Archive commit: `ff33ec8b477d482cf92b98428acdaa5aa8395f46`; tree: `3f97a80cfd237c94adc563020826967599d5d6b2`.
+- Read back 18 required paths from the immutable commit. Seven binary path/blob tuples matched four unique blobs: final/reviewed `27125dd19f3fd39604eaa145fe1ee9ab11224b4e`, original `1eb73346e50f6031db07e02d783ccac6cffbe024`, adult crop `eb843e59a3955e0acd80f14f6a39830e049c1469`, juvenile crop `2170acc15c17018561f069363cfb2dce8389ea27`.
+- Git object sizes matched 3,208,931 / 3,380,038 / 1,918,455 / 825,929 bytes. All three manifests parsed at 681 / 682 / 672 entries and pointed #58 v5 to the final blob.
+- Verification result: PASS. This verifies archive integrity, not the unresolved biological unknowns above.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T09:42:00+08:00",
+  "updated": "2026-11-05T09:46:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20696,7 +20696,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "SEO-SANBI-2018",
         "SEO-MIKKOLA-2013-P280-281",
@@ -20877,7 +20877,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "DEO-REDDY-RAMACHANDRAN-2023-P44-47",
         "DEO-RANADE-GHOSH-PRAKASH-2020-P93-94",
@@ -20903,13 +20903,17 @@
       "juvenile_review_crop": "production/review-crops/58-ketupa-coromanda-v5-juvenile.png",
       "juvenile_review_blob": "2170acc15c17018561f069363cfb2dce8389ea27",
       "reviewed_at": "2026-11-05T09:39:30+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "adults_review_size_bytes": 1918455,
       "adults_review_sha256": "13e75bc0700b931f5b161a946c9f3cdbe60afef3c15137cf3b642ff328b9328f",
       "juvenile_review_size_bytes": 825929,
       "juvenile_review_sha256": "ecec0c1dddec3505b2f69d339694b64fedbd0a859b1a4d61af4a9277015e8804",
-      "archive_note": "The first render's estimated 8–10-week juvenile had overly adult-ordered folded wing rows and tail. One juvenile-only edit increased down overlap, shortened and softened the wing/tail silhouette and lowered the bird into a broad two-foot fork. Full master and juvenile crop were reopened; branch movement was not treated as sustained-flight evidence; science remains false."
+      "archive_note": "The first render's estimated 8–10-week juvenile had overly adult-ordered folded wing rows and tail. One juvenile-only edit increased down overlap, shortened and softened the wing/tail silhouette and lowered the bird into a broad two-foot fork. Full master and juvenile crop were reopened; branch movement was not treated as sustained-flight evidence; science remains false.",
+      "verified_at": "2026-11-05T09:46:00+08:00",
+      "archive_commit": "ff33ec8b477d482cf92b98428acdaa5aa8395f46",
+      "archive_tree": "3f97a80cfd237c94adc563020826967599d5d6b2",
+      "verification_result": "Immutable archive readback matched all 18 required paths, seven binary path/blob tuples, four unique image blobs, exact binary sizes, three parseable manifests and complete evidence/status records."
     }
   ],
-  "updated_at": "2026-11-05T09:42:00+08:00"
+  "updated_at": "2026-11-05T09:46:00+08:00"
 }

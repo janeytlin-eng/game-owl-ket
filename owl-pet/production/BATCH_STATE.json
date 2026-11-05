@@ -22082,17 +22082,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T103554+0800-cycle-1",
-      "heartbeat_at": "2026-11-05T10:42:08+08:00",
-      "expires_at": "2026-11-05T10:57:08+08:00"
+      "heartbeat_at": "2026-11-05T10:45:59+08:00",
+      "expires_at": "2026-11-05T11:00:59+08:00"
     },
     "in_progress": {
       "cycle": 1,
       "run_id": "20261105T103554+0800-cycle-1",
       "species_id": 59,
       "species": "Ketupa zeylonensis",
-      "stage": "IMAGE_GENERATED"
+      "stage": "REVIEWED"
     },
-    "current_stage": "IMAGE_GENERATED",
+    "current_stage": "REVIEWED",
     "events": [
       {
         "cycle": 1,
@@ -22149,6 +22149,38 @@
           "inspection_issue": "juvenile exposed folded flight feathers too long, regularly layered and adult-like; bounded juvenile-only edit required",
           "complete_prompt": "owl-pet/research/species/59-ketupa-zeylonensis-v5.md",
           "lease_expires_at": "2026-11-05T10:57:08+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "REVIEWED",
+        "at": "2026-11-05T10:45:59+08:00",
+        "run_id": "20261105T103554+0800-cycle-1",
+        "species_id": 59,
+        "credited": false,
+        "evidence": {
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "image_edit_required": true,
+          "edit_count": 1,
+          "generation_seconds": 67.4,
+          "edit_seconds": 52.0,
+          "final_path": "owl-pet/design/concepts/59-ketupa-zeylonensis-v5.png",
+          "final_sha256": "e87004112b7ccea3c8f75617e0639e493d4254fe65935639ff0de91a107c30a5",
+          "final_bytes": 3419316,
+          "review_path": "owl-pet/research/reviews/59-ketupa-zeylonensis-v5-review.md",
+          "adult_crop": "owl-pet/production/review-crops/59-ketupa-zeylonensis-v5-adults.png",
+          "adult_crop_sha256": "532bc16709e3eab803b3c744296089c57d5f6e4e2ba6905de469268485068ee6",
+          "juvenile_crop": "owl-pet/production/review-crops/59-ketupa-zeylonensis-v5-juvenile.png",
+          "juvenile_crop_sha256": "78f6086b89877c4494df9cafd3aa60fcbf2335ee2cde535b9719168ec8071659",
+          "scientifically_verified": false,
+          "unknowns": [
+            "exact juvenile age/sex/subspecies",
+            "continuous feather chronology",
+            "first-flight competence",
+            "quantitative sex dimensions",
+            "cross-population transfer"
+          ],
+          "lease_expires_at": "2026-11-05T11:00:59+08:00"
         }
       }
     ]

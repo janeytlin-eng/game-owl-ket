@@ -864,3 +864,9 @@ A version absent from the primary manifest can still exist in a legacy manifest.
 - **Evidence:** Reddy & Ramachandran 2023, printed pp.44–47, observed an estimated 8–10-week *Ketupa coromanda* attempting to move among neighbouring branches. That supports the action and support boundary, not a measured feather sequence or sustained flight.
 - **Rule added:** for an older branch-moving juvenile, preserve formed remiges when appropriate but separately audit wing/tail silhouette length, row regularity, down overlap and bilateral natural support. Do not convert branch movement into sustained-flight competence.
 - **Applied and checked:** #58 v5 received one juvenile-only edit to shorten and soften the wing/tail silhouette, add down overlap and lower the body into a broad two-foot fork. Full image and juvenile crop were reopened and passed with limitations. This validates the correction for this asset only, not a universal eagle-owl timetable.
+
+### 2026-11-05 — Second checked application of the branch-moving maturity-cue audit (#59 v5)
+
+- **Problem/evidence:** #59's New Territories evidence supports a well-feathered, later mobile brancher but no exact age, feather series or flight test. The first v5 render nonetheless repeated v4's long, rigid adult-perfect remige stack and banded tail.
+- **Applied:** one centre-only edit retained a formed wing while shortening/rounding its silhouette, replacing regular adult rows with irregular down-fringed juvenile coverts and subdued emerging remiges, and shortening/obscuring the tail. Both-foot support and begging/step action remained intact.
+- **Verified scope:** full master plus juvenile and adult/support crops were reopened and passed with limitations. This is a second independent asset-level validation that the #58 checklist catches this failure mode; it still does not establish a universal fish-owl feather timetable, exact age or sustained-flight ability.

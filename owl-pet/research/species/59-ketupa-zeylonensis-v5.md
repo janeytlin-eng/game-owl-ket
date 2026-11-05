@@ -77,3 +77,11 @@ Typography exact and legible. No extra birds, eggs, prey, fish, cave, ground nes
 
 Open the full generated master, then inspect adult comparison and juvenile wing/feet crops. Check exact three-bird count, title/labels, yellow eyes, loose tufts, white throat, bare tarsi, restrained adult size direction, paler smaller-tuft juvenile, residual down, irregular immature wing, bilateral grip and coherent waterside tree-nest support. Any failed bounded item requires imagegen edit and re-open before archive.
 
+## Actual generation, edit and recheck
+
+- Initial built-in generation: 67.4 s, 1536×1024. Exact title/count/labels, adult identity, yellow eyes, bare tarsi, tree/stream context and bilateral support passed.
+- Detected defect: juvenile had a long, rigid, regularly layered exposed flight-feather stack and mature-looking banded tail, repeating the v4 maturity-cue defect.
+- One 52.0 s juvenile-only edit shortened/rounded the folded wing, replaced regular adult layering with irregular rufous-buff down-fringed coverts and subdued emerging remiges, and shortened/obscured the tail. Adults, text, scene and support were locked.
+- Final master and juvenile/adult-support crops were reopened. The modification is visibly effective and all checklist boundaries pass with limitations. Exact age, flight ability, sex ratio and continuous feather sequence remain unknown; `scientifically_verified=false`.
+- Full review: `owl-pet/research/reviews/59-ketupa-zeylonensis-v5-review.md`.
+

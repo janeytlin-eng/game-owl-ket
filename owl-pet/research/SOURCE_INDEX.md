@@ -1402,3 +1402,26 @@
 - Re-read `CLA-PONCE-GONZALEZ-2025`, `CLA-PAUTASSO-DE-LA-PENA-2001`; reused `CLA-FORMOSO-ETAL-2025` and repository extraction `WHSO-MIKKOLA-2013`. New1 / re-read4 / corrected2.
 - V4's static center bird and crisp repeated wing spots are not required by the selected 25–30-day stage. V5 retains brown down/emerging disc/tufts, adds evidence-supported low wing exercise and softens the growing wing to non-adult pattern. Exact universal chronology, juvenile sex, current subspecies transfer and adult sex-size direction remain unknown; science false.
 
+## 2026-11-05 — #77 *Asio stygius* v5 — older branch-active juvenile boundary
+
+### STY-CADENA-ORTIZ-2018-P23-25-F2-T3
+- **Title / authors / year:** “Notas sobre la dieta, desarrollo de jóvenes y distribución del Búho Estigio *Asio stygius* (Strigiformes: Strigidae) en Ecuador” — Héctor Cadena-Ortiz, Jorge Bedoya, Glenda M. Pozo-Zamora, Julie Watson & Jorge Brito, 2018.
+- **URL / DOI / pages / accessed:** https://revistas.usfq.edu.ec/index.php/reo/article/download/773/1244 ; https://doi.org/10.18272/reo.v0i3.773 ; printed pp.23–25, Table 3 and Figure 2; direct journal PDF text opened and printed-p.23 figure page rendered 2026-11-05.
+- **Type / species / stage:** primary repeated field observations and photo sequence; two *Asio stygius* juveniles at Nayón, Pichincha, Ecuador; branch-active older juveniles inferred by authors as older than one month.
+- **Facts:** the young retained scattered body down, black facial discs, small ear tufts, yellow irides, barred bellies and pale hind-crown feathers; later belly plumage darkened and early adult-like parallel/herringbone chest lines appeared. On 20 May they moved rapidly among branches in one tree and one extended its wings, interpreted by the observers as intimidation.
+- **Limits / conflicts / confidence:** age is inferred, not hatch-dated; n=2 at one locality; no continuous measured feather chronology, flight threshold or juvenile sex. Do not transfer the branch behavior to the 26–27-day Brazilian ground stage.
+- **Design/check decision:** select an “OLDER JUVENILE” with residual down and formed but non-adult wing/tail, two-foot branch grip and one low sideways wing extension. No exact age label, takeoff or flight claim. Adults stay near-equal because this source does not quantify sex size.
+- **Links:** `research/species/77-asio-stygius-v5.md`; planned concept v5; run `production/runs/20261105T233209+0800-cycle-1.md`.
+
+### STY-LOPES-ETAL-2004-P423-425-F1
+- **Title / authors / year:** “Observations on a nest of the Stygian Owl (*Asio stygius*) in the central Brazilian cerrado” — Leonardo Esteves Lopes, Ricardo Goes, Samuel Souza & Renata de Melo Ferreira, 2004.
+- **URL / pages / accessed:** https://sora.unm.edu/sites/default/files/journals/on/v015n03/p0423-p0428.pdf ; printed pp.423–425 and Fig.1; direct SORA PDF text opened 2026-11-05.
+- **Type / species / stage:** primary hatch-dated nest monitoring; central Brazilian cerrado; 10-day Fig.1 and 26–27-day final ground-nestling observation.
+- **Facts:** 17 cm × 3 cm shallow ground depression below a shrub under 70 cm; the 26–27-day young were slightly over two-thirds adult body size, with poorly developed remiges/rectrices that entirely prevented flight attempts.
+- **Limits / conflicts / confidence:** one brood; final stage not a measured continuous plumage series; does not support branch movement. It directly constrains v4 and corrects any attempt to animate that same stage.
+- **Design/check decision:** preserve v4 as the dated ground-stage concept; for v5 action, explicitly change to the older Ecuador stage rather than invent movement for this non-flying stage.
+- **Links:** `research/species/77-asio-stygius-v4.md`; `research/species/77-asio-stygius-v5.md`; v4 and planned v5.
+
+### Reused morphology / access boundary
+- Repository extraction `WHSO-MIKKOLA-2013` printed pp.502–503 / PDF pp.504–505 was reused for adult/mesoptile cross-check. The uploaded guide was not mounted in this run, so no fresh transcription is claimed. New index entries 2 / reused extraction 1 / corrected stage-transfer boundary 1; science false.
+

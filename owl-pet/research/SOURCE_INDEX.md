@@ -1358,3 +1358,33 @@
 - Design support: near-equal displayed adult height with only restrained female fullness/wing direction; softer juvenile facial disc. Does not support a fixed visible sex ratio or day-by-day feather geometry.
 - Limits/confidence: strong primary evidence for the studied Mokoia sample; population transfer and exact visual ratios remain unknown. Linked to `research/species/74-ninox-novaeseelandiae-v5.md`, v5 image/review and batch cycle 4.
 
+## 2026-11-05 — #75 *Ninox scutulata* v5 — photographed Singapore active-fledgling boundary
+
+### SCU-SGRAPTOR-2024-P2
+- **Title / authorship / year:** *Singapore Raptor Report: Late Spring Migration, April–June 2024* — Singapore Bird Group, 2024.
+- **URL / page / accessed:** https://singaporebirdgroup.wordpress.com/wp-content/uploads/2024/08/singapore-raptor-report-late-spring-migration-apr-jun-2024.pdf ; printed/PDF p.2, lines 26–28; full relevant page read 2026-11-05.
+- **Type / species / stage:** regional field-report compilation; *Ninox scutulata* family at Windsor Nature Park, 7 June 2024.
+- **Facts:** the report records one family with two adults and two chicks at Windsor. This independently fixes family composition, locality and post-nest family context near the dated photographs.
+- **Limits / conflict:** “chicks” is a report category, not a known hatch age or plumage description; the report supplies no sex, measurements, flight test or feather sequence.
+- **Design/check decision:** use a Singapore dependent-young context and exactly one juvenile in the comparison plate, but do not infer age or juvenile sex. The photographs below, not this wording alone, control wing/tail maturity.
+
+### SCU-BESG-2024-PHOTOS
+- **Title / author / year:** “Brown Hawk Owl juveniles” — Andy Chew / Bird Ecology Study Group, 14 June 2024.
+- **URL / figures / accessed:** https://besgroup.org/2024/06/14/brown-hawk-owl-juveniles/ ; text lines 19–32 and gallery images 224–227 actually opened 2026-11-05; no printed page.
+- **Type / species / stage:** dated Singapore field observation and photographic series; two dependent post-fledging juveniles at Windsor Nature Park, 13 June 2024.
+- **Facts:** four birds were high in the canopy; the two juveniles disturbed a parent and performed multiple “stunts.” Opened photographs show pale down retained over crown, face and much of the underbody while long, fully formed brown wing feathers and a developed barred tail are present. One juvenile stretches a formed wing laterally and braces on a fork; another leans head-down while gripping a branch.
+- **Limits / conflict:** exact age, sex, individual identity across frames, flight competence and daily feather chronology are absent. The gallery is one family and cannot define all Singapore young. Existing v4 underrepresented the photographed formed wing/tail by treating them as merely short growing feathers.
+- **Design/check decision:** v5 selects the photographed age-unknown active dependent stage: formed but juvenile-irregular wing/tail, residual pale down, one restrained wing-stretch, and clear bilateral branch support. Do not regress this stage into a short-wing hatchling or polish it into an adult-patterned miniature.
+
+### SCU-GIBSONHILL-1949-P103-104
+- **Title / author / year:** *An Annotated Checklist of the Birds of Malaya* — C. A. Gibson-Hill, 1949.
+- **URL / pages / accessed:** https://lkcnhm.nus.edu.sg/app/uploads/2017/04/20brm005-299.pdf ; printed pp.103–104 / extracted lines 2559–2575 read 2026-11-05.
+- **Type / taxonomy:** historical Raffles Museum checklist; *Ninox scutulata* complex in Malaya and Singapore.
+- **Facts:** it maps the original combination *Strix scutulata* and historical names *Ninox burmanica* and *Athene malaccensis*; it lists *N. s. malaccensis* as the resident lowland form occurring on Singapore.
+- **Limits / conflict:** 1949 taxonomy predates modern Brown/Northern/Chocolate Boobook splits and cannot settle the current subspecies of the photographed family. The historical name/locality mapping is nomenclatural, not a license to borrow Japanese developmental criteria.
+- **Design/check decision:** retain current repository name *Ninox scutulata*, record *Athene malaccensis* / *N. s. malaccensis* as historical Singapore mapping, and continue to exclude Japanese *japonica* age/rectrix evidence from direct design transfer.
+
+### Re-read, reused and corrected boundaries
+- Re-read `SCU-BESG-2024`, `SCU-NPARKS-2025`, `SCU-ITIS-2025`, `SCU-OWLPAGES-2021` and repository extraction `WHSO-MIKKOLA-2013` printed pp.464–465/PDF pp.466–467. The uploaded guide itself was not mounted in this run, so no fresh page transcription is claimed.
+- New3 / re-read5 / corrected3. V4’s central bird had an overly short, uniformly layered wing/tail for the now-opened direct-photo stage. V5 retains a formed wing and barred tail with residual down and an active but fully supported pose. Conflicting unquantified adult sex-size directions remain unresolved, so displayed adults stay near-equal. Exact age, juvenile sex, flight threshold, current Singapore subspecies and continuous feather chronology remain unknown; scientific status false.
+

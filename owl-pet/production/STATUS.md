@@ -1,5 +1,10 @@
 # Owl-pet production status
 
+## 2026-11-05 #66 *Tyto capensis* v5 VERIFIED — ledger credit pending
+
+- Archive `90b45c082941345610dff9a49341da07e6ffeec5`, tree `1f03d4cc5de0dc784445be4b12224bdce4ba3a54`: non-truncated 3,060-entry readback matched all 16 required paths, five binary path/blob tuples and exact sizes.
+- Manifests parse at 689/690/680; PASS_WITH_LIMITATIONS; unique remains 176/251; science false. Cycle credit remains separate.
+
 ## 2026-11-05 #66 *Tyto capensis* v5 ARCHIVED — readback pending
 
 - Full-resolution concept/generated/reviewed master blob `54e9f7d331c1c783ce3167e6b15ad7defb678e09`; first render passed full and crop inspection without edit.

@@ -43,3 +43,7 @@ Environment: tall rank wetland grass and sedges with mature *Imperata cylindrica
 ## Visual review — 2026-11-05T16:37:30+08:00
 
 The 1536×1024 master, 1536×760 adult/feet crop and 720×720 fledgling crop were opened. Exactly three owls, near-equal adult crown height, modest female fullness, adult-female buff individual variation, grounded unspotted fledgling, all supports and concealed wetland runway pass. No edit required. PASS_WITH_LIMITATIONS; science false.
+
+## Fixed archive verification — 2026-11-05T16:43:00+08:00
+
+Archive `90b45c082941345610dff9a49341da07e6ffeec5`, tree `1f03d4cc5de0dc784445be4b12224bdce4ba3a54`, returned 3,060 non-truncated entries. All 16 required paths, exact master/crop blobs and byte sizes matched; manifests parse at 689/690/680. PASS_WITH_LIMITATIONS; science false.

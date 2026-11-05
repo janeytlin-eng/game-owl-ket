@@ -2,7 +2,8 @@
 
 - Concept: [66-tyto-capensis-v5.png](concepts/66-tyto-capensis-v5.png)
 - Research: [66-tyto-capensis-v5.md](../research/species/66-tyto-capensis-v5.md) · [review](../research/reviews/66-tyto-capensis-v5-review.md) · [run](../production/runs/20261105T155500+0800-cycle-2.md)
-- V5 preserves v1–v4. It encodes the measured sex result as modest female fullness/length with close crown height and uses a warm-buff breeding-female face only as individual variation. The central recent fledgling is grounded, supported and lacks adult dorsal white tips. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251. Immutable archive readback is pending.
+- V5 preserves v1–v4. It encodes the measured sex result as modest female fullness/length with close crown height and uses a warm-buff breeding-female face only as individual variation. The central recent fledgling is grounded, supported and lacks adult dorsal white tips. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/90b45c082941345610dff9a49341da07e6ffeec5/owl-pet/design/concepts/66-tyto-capensis-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/90b45c082941345610dff9a49341da07e6ffeec5)
 
 ## #62 Barred Eagle-Owl — *Ketupa sumatrana* — v5 VERIFIED
 

@@ -1,3 +1,7 @@
+## 2026-11-05 #66 *Tyto capensis* v5 VERIFIED — ledger credit pending
+
+- Archive `90b45c082941345610dff9a49341da07e6ffeec5`, tree `1f03d4cc5de0dc784445be4b12224bdce4ba3a54`, returned 3,060 non-truncated entries and all 16 required path/blob/size tuples. Manifests parse at 689/690/680; unique 176/251; science false. Ledger credit pending.
+
 ## 2026-11-05 #66 *Tyto capensis* v5 ARCHIVED — readback pending
 
 - V5 preserves v1–v4 and corrects two repository-flagged boundaries: a small Gauteng sample supports modest female mass/body-length direction with overlapping ranges, not fixed standing height; breeding records show warm tawny-buff face can occur in adult females and is not a reliable age key.

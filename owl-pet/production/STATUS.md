@@ -160,3 +160,8 @@
 ### #72 v5 LEDGER_CREDITED — batch 2/6
 
 - Verification commit `6d944f598adb165ca89f7ed6d28656c3714aa1b8`, tree `bf3917f25ce39cbe6237d8de4a2d42cf2f7599bd`, is credited once. Batch `20261105T183434+0800` is 2/6; `next_cycle=3`; lease released. Unique 176/251; revision +1; science false.
+## 2026-11-05 #73 *Ninox rufa* v5 ARCHIVED — readback pending
+
+- Batch `20261105T183434+0800`, cycle 3/6. Original master plus two evidence-bounded juvenile edits and full/crop review are persisted; `PASS_WITH_LIMITATIONS`, `scientifically_verified=false`.
+- Manifests prepared at 696/697/687; unique remains 176/251; revision +1. Immutable archive verification and ledger credit are still pending.
+

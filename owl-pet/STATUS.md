@@ -3309,3 +3309,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #72 v5 LEDGER_CREDITED — batch 2/6
 
 - Verification commit `6d944f598adb165ca89f7ed6d28656c3714aa1b8`, tree `bf3917f25ce39cbe6237d8de4a2d42cf2f7599bd`, is credited exactly once. Batch `20261105T183434+0800` advances to 2/6; next cycle 3 and lease released. Unique remains 176/251; revision +1; science false.
+## 2026-11-05 #73 *Ninox rufa* v5 ARCHIVED — readback pending
+
+- Science revision preserves v1–v4. New institutional provenance source 1, re-read 3, reused 2, corrected boundaries 3; one internally inconsistent lead excluded.
+- Two juvenile-only edits softened the adult-like folded wing and tail. Full 1536×1024 plus adult and juvenile crops passed actual opened inspection. Manifests 696/697/687; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
+- Exact depicted age, iris, continuous feather chronology, universal sex ratio, subspecies transfer and hollow geometry remain unknown. Cycle 3 receives no credit before immutable readback.
+

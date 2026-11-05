@@ -21799,7 +21799,78 @@
       "archive_commit": "c9881377f8243e08aed6e592df29f0235b884d08",
       "archive_tree": "c71aa61a68211cb182dc3ee2b4f66a995ca0135f",
       "verification_result": "PASS: non-truncated 3,110-entry immutable tree; all 12 required text/JSON paths present; six image paths match exact Git blob SHA and byte size; manifests parse at 695/696/686"
+    },
+    {
+      "id": "73-ninox-rufa-v5",
+      "path": "design/concepts/73-ninox-rufa-v5.png",
+      "species_id": 73,
+      "scientific_name": "Ninox rufa",
+      "current_scientific_name": "Ninox rufa",
+      "common_name": "Rufous Owl",
+      "historical_names": [
+        "Ninox rufae"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 2,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "RUF-MV-HLW5298-2026",
+        "RUF-RIDDELL-2021-P221-228",
+        "RUF-ABSA-2019",
+        "RUF-NIELSEN-1995",
+        "RUF-OWLPAGES-2020",
+        "WHSO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/73-ninox-rufa-v5.md",
+      "review_record": "research/reviews/73-ninox-rufa-v5-review.md",
+      "run_record": "production/runs/20261105T195519+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2855064,
+      "sha256": "8bd9e4890f5bb856e2088c0068b47fcf441848152320598ebac627bbdc7fd18a",
+      "git_blob": "ae27bd5c54dc5246a894a94893dc132fc115a603",
+      "generated_path": "production/generated/73-ninox-rufa-v5-generated-master.png",
+      "generated_blob": "070d5086738621c58309de22fc9ad488bc4ef83e",
+      "generated_sha256": "2a2902e707bbb827d76b58e693fb1a8918cb72515c3cdb04642dd89860895fde",
+      "generated_size_bytes": 3294577,
+      "edit_path": "production/generated/73-ninox-rufa-v5-edit2.png",
+      "edit_blob": "ae27bd5c54dc5246a894a94893dc132fc115a603",
+      "edit_paths": [
+        "production/generated/73-ninox-rufa-v5-edit1.png",
+        "production/generated/73-ninox-rufa-v5-edit2.png"
+      ],
+      "edit_blobs": [
+        "bfd13ede4bc68ce2c6740ce3514e135c64e9f60c",
+        "ae27bd5c54dc5246a894a94893dc132fc115a603"
+      ],
+      "reviewed_path": "production/reviewed/73-ninox-rufa-v5-reviewed-master.png",
+      "reviewed_blob": "ae27bd5c54dc5246a894a94893dc132fc115a603",
+      "adults_review_crop": "production/review-crops/73-ninox-rufa-v5-adults.png",
+      "adults_review_blob": "c11785d61cfaf2e96ff8bb46cf8e95d3f91b8f02",
+      "adults_review_size_bytes": 2047068,
+      "adults_review_sha256": "a3c33c1733c6037d6ba14ff6a0b761060385adbaa0b8009b9d45ca74cda7490b",
+      "juvenile_review_crop": "production/review-crops/73-ninox-rufa-v5-juvenile.png",
+      "juvenile_review_blob": "692d2471b6bc6c3d40b348eee286a85c6336d624",
+      "juvenile_review_size_bytes": 738505,
+      "juvenile_review_sha256": "eb49d0baee630c90519552c6f69b858135c89622d96f16e2acb045582225cd1e",
+      "reviewed_at": "2026-11-05T20:40:00+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4, replaces broad uniform zebra-like adult bands with finer irregular broken pale bars, retains the documented male-longer/robust direction without a fixed ratio, and uses a branch-supported recent fledgling bounded to the directly observed event. Two juvenile-only edits softened adult-like wing and tail order. Exact age, iris, continuous feather chronology, universal ratios, subspecies transfer and hollow geometry remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-05T19:51:00+08:00"
+  "updated_at": "2026-11-05T20:47:00+08:00"
 }

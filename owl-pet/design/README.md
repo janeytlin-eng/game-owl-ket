@@ -3073,3 +3073,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - V5 preserves v1–v4 and corrects three evidence-bounded issues: adult irises are muted yellow-green/green-hazel rather than uniformly neon lemon, the rufous belly carries narrow white vertical streaks, and the blue-eyed recent fledgling retains formed wings/tail without adult-perfect spot rows. One juvenile-only edit passed full/crop recheck. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback pending.
 - Immutable archive verification 2026-11-05T19:51:00+08:00: commit `c9881377f8243e08aed6e592df29f0235b884d08`, tree `c71aa61a68211cb182dc3ee2b4f66a995ca0135f`, returned a non-truncated 3,110-entry tree, all 12 required text/JSON paths and six exact image blob/size tuples. Ledger credit remains separate; science false.
 - Ledger credit 2026-11-05T19:54:00+08:00: verification commit `6d944f598adb165ca89f7ed6d28656c3714aa1b8`, tree `bf3917f25ce39cbe6237d8de4a2d42cf2f7599bd`; batch cumulative 2/6, next cycle 3, lease released. Science false.
+## 2026-11-05 — #73 *Ninox rufa* v5
+
+- `design/concepts/73-ninox-rufa-v5.png` preserves earlier versions and applies the documented male-larger direction, finer broken adult barring and a branch-supported recent fledgling.
+- Two juvenile-only edits removed adult-like wing/tail order; full and crop review passed with explicit age/iris/chronology/subspecies limits. PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+

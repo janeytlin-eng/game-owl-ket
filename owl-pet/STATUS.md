@@ -1,3 +1,9 @@
+## 2026-11-05 #62 *Ketupa sumatrana* v5 VERIFIED
+
+- Archive `1cded830a548943ffe326d985a72402d38f9f138`, tree `79f031f7b530973e794ec9321b368c4ee8c420bb`; 13 required paths and five binary path/blob tuples read back, with exact binary sizes. Manifests parse at 685/686/676.
+- One bounded juvenile-only edit replaced a too-mature layered wing with short down-covered wings while retaining the source-dated approximately-day-27 upright/preening posture and soil/root support in the documented planter context.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; unique remains **176/251**; exact hatch date, feather chronology, juvenile sex/subspecies and population-wide sex dimensions remain unknown.
+
 ## 2026-11-04 #18 *Megascops kennicottii* v4 VERIFIED
 
 - Archive `a6c1c75d75984212c0ac0ca4e20fb84fbada68b9`; exact immutable checks passed for 15 paths and seven binary paths; manifests 661/662/652.

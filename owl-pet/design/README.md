@@ -1,3 +1,10 @@
+## #62 Barred Eagle-Owl — *Ketupa sumatrana* — v5 VERIFIED
+
+- Concept: [62-ketupa-sumatrana-v5.png](concepts/62-ketupa-sumatrana-v5.png)
+- Research: [62-ketupa-sumatrana-v5.md](../research/species/62-ketupa-sumatrana-v5.md) · [review](../research/reviews/62-ketupa-sumatrana-v5-review.md) · [run](../production/runs/20261105T124400+0800-cycle-4.md)
+- Full-resolution v5 preserves v1–v4 and selects the source-dated approximately-day-27 upright/preening-but-stationary boundary. One juvenile-only edit shortened the initial long layered wing; the chick remains fully supported on soil/roots in the documented planter context. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251.
+- [Original concept](https://github.com/janeytlin-eng/game-owl-ket/blob/1cded830a548943ffe326d985a72402d38f9f138/owl-pet/design/concepts/62-ketupa-sumatrana-v5.png?raw=1) · [archive](https://github.com/janeytlin-eng/game-owl-ket/commit/1cded830a548943ffe326d985a72402d38f9f138)
+
 ## #61 Buffy Fish Owl — *Ketupa ketupu* — v5 VERIFIED
 
 - Concept: [61-ketupa-ketupu-v5.png](concepts/61-ketupa-ketupu-v5.png)

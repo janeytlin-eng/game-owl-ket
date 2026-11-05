@@ -21127,7 +21127,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 1,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "BEOW-FOLEY-2013-P34-37",
         "BEOW-LKC-SBR-2017-178",
@@ -21159,9 +21159,13 @@
       "juvenile_review_size_bytes": 934102,
       "juvenile_review_sha256": "3c4301acfec4ec863b92280ed4a3ce5105324939f1c64c6fae5ca390ef664cad",
       "reviewed_at": "2026-11-05T12:55:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, restores full resolution and selects the source-dated approximately day-27 upright/preening-but-stationary boundary. One juvenile-only edit removed the initial long layered wing; planter soil/roots provide support. Exact feather chronology, sex/subspecies and population transfer remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, restores full resolution and selects the source-dated approximately day-27 upright/preening-but-stationary boundary. One juvenile-only edit removed the initial long layered wing; planter soil/roots provide support. Exact feather chronology, sex/subspecies and population transfer remain unknown; science false.",
+      "verified_at": "2026-11-05T13:02:00+08:00",
+      "archive_commit": "1cded830a548943ffe326d985a72402d38f9f138",
+      "archive_tree": "79f031f7b530973e794ec9321b368c4ee8c420bb",
+      "verification_result": "Immutable archive readback matched thirteen required paths, five binary path/blob tuples, four unique image blobs and exact byte sizes; all three manifests parsed at counts 685/686/676; source index, research, review, run and batch records were present."
     }
   ],
-  "updated_at": "2026-11-05T12:58:00+08:00"
+  "updated_at": "2026-11-05T13:02:00+08:00"
 }

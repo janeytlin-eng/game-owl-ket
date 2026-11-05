@@ -3232,6 +3232,11 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 - V1–v4 remain preserved; v5 restores the public concept to 1536×1024 and uses Hyem 1979 pp.20–22 for an approximately-six-week, sooty-grey-down cavity chick with defined facial discs and emerging short wing/tail feathers.
 - Hyem's adult pairs varied in apparent size direction, so the strongly dimorphic mass ranges were not converted into a fixed visible crown-height ratio. Full frame and adult/juvenile crops passed opened review without edit.
 - Manifests 691/692/682; unique remains 176/251; revision +1; science false. Cycle 4 receives no credit before immutable readback.
+
+### #68 v5 VERIFIED — ledger credit pending
+
+- Archive `0317c22783051947ae9ee527f503f918599b720b`, tree `b768f20caaa5db8026af0637cd8c03d821358715`, returned a non-truncated 3,076-entry tree. All 16 required paths and five binary path/blob/size tuples matched; remote manifests parse at 691/692/682.
+- PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit remains a separate step.
 ## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
 
 - Primary thesis evidence removes visible adult scale dimorphism while retaining the reported mean mass difference as non-visual metadata. The down-only age-unknown nestling remains low and bilaterally supported in one documented Bemanevika tree-hole context.

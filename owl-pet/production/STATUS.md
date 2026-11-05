@@ -44,6 +44,11 @@
 - The primary-field approximately-six-week cavity stage and variable apparent adult pair-size boundary were applied. Full/crop review passed without edit; PASS_WITH_LIMITATIONS; science false.
 - Manifests 691/692/682; unique 176/251; cycle 4 remains uncredited until fixed-commit readback.
 
+### #68 v5 VERIFIED — ledger credit pending
+
+- Archive `0317c22783051947ae9ee527f503f918599b720b`, tree `b768f20caaa5db8026af0637cd8c03d821358715`, passed non-truncated 16-path readback with exact five binary path/blob/size tuples and remote manifests 691/692/682.
+- PASS_WITH_LIMITATIONS; unique 176/251; science false. Ledger credit pending.
+
 - Latest verified concept: #62 *Ketupa sumatrana* v5 (revision; no unique increment)
 - Accepted archive: `1cded830a548943ffe326d985a72402d38f9f138`
 - Archive tree: `79f031f7b530973e794ec9321b368c4ee8c420bb`

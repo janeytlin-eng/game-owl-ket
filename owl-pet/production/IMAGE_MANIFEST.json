@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T17:13:00+08:00",
+  "updated": "2026-11-05T17:15:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -20981,7 +20981,7 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "GSO-HYEM-1979-P20-22",
         "GSO-ABSA-2019",
@@ -21015,9 +21015,13 @@
       "juvenile_review_size_bytes": 843040,
       "juvenile_review_sha256": "000ce150e2f4a72a0fde5b191812b00bf7e10626d6a81ce47a2516eab59080c9",
       "reviewed_at": "2026-11-05T17:10:00+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, restores a full-resolution public concept and uses Hyem's approximately-six-week sooty-grey cavity stage with defined facial discs and emerging wing/tail feathers. Direct pair observations varied in apparent size direction, so morphometric reversed dimorphism was not converted into fixed crown height. Full and crop review passed without edit. Exact chick age/sex, feather chronology, locomotor competence, population-wide visual sex ratio and cavity geometry remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, restores a full-resolution public concept and uses Hyem's approximately-six-week sooty-grey cavity stage with defined facial discs and emerging wing/tail feathers. Direct pair observations varied in apparent size direction, so morphometric reversed dimorphism was not converted into fixed crown height. Full and crop review passed without edit. Exact chick age/sex, feather chronology, locomotor competence, population-wide visual sex ratio and cavity geometry remain unknown; science false.",
+      "verified_at": "2026-11-05T17:15:00+08:00",
+      "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
+      "archive_tree": "b768f20caaa5db8026af0637cd8c03d821358715",
+      "verification_result": "Non-truncated 3,076-entry immutable tree matched all 16 required paths, five binary path/blob tuples and exact sizes; remote manifests parse at 691/692/682."
     }
   ],
-  "updated_at": "2026-11-05T17:13:00+08:00"
+  "updated_at": "2026-11-05T17:15:00+08:00"
 }

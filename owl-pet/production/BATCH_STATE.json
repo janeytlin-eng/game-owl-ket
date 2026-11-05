@@ -15404,7 +15404,7 @@
             "image_edit_required": true,
             "edit_count": 1,
             "generation_seconds": 67.4,
-            "edit_seconds": 52.0,
+            "edit_seconds": 52,
             "final_path": "owl-pet/design/concepts/59-ketupa-zeylonensis-v5.png",
             "final_sha256": "e87004112b7ccea3c8f75617e0639e493d4254fe65935639ff0de91a107c30a5",
             "final_bytes": 3419316,
@@ -16644,7 +16644,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T15:55:00+08:00",
+  "updated_at": "2026-11-05T17:36:20+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -23880,9 +23880,26 @@
       }
     ],
     "next_cycle": 6,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": "LEDGER_CREDITED",
+    "active_lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T173620+0800-cycle-6",
+      "heartbeat_at": "2026-11-05T17:36:20+08:00",
+      "expires_at": "2026-11-05T17:51:20+08:00"
+    },
+    "in_progress": {
+      "batch_id": "20261105T153530+0800",
+      "cycle": 6,
+      "run_id": "20261105T173620+0800-cycle-6",
+      "species_id": 70,
+      "species": "Ninox strenua",
+      "action": "SCIENCE_REVISION",
+      "version": 5,
+      "current_stage": "STARTED",
+      "started_at": "2026-11-05T17:36:20+08:00",
+      "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
+      "run_record": "owl-pet/production/runs/20261105T173620+0800-cycle-6.md"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
         "batch_id": "20261105T153530+0800",
@@ -24522,7 +24539,11 @@
           "reviewed_blob": "188d3a5633061ddc6696408643a49cea9665fcd8",
           "adults_crop_blob": "730124de618bb080ca9c852da2a625060a1e93d0",
           "juvenile_crop_blob": "0660bc2a18f94b9cd654543e6eb305389965de13",
-          "manifest_counts": {"design_image": 691, "design_legacy": 692, "production": 682},
+          "manifest_counts": {
+            "design_image": 691,
+            "design_legacy": 692,
+            "production": 682
+          },
           "unique_species": "176/251",
           "revision_increment": 1,
           "scientifically_verified": false,
@@ -24544,7 +24565,11 @@
           "paths_verified": 16,
           "binary_paths_verified": 5,
           "unique_binary_blobs": 3,
-          "manifest_counts": {"design_image": 691, "design_legacy": 692, "production": 682},
+          "manifest_counts": {
+            "design_image": 691,
+            "design_legacy": 692,
+            "production": 682
+          },
           "unique_species": "176/251",
           "revision_increment": 1,
           "scientifically_verified": false,
@@ -24564,7 +24589,11 @@
           "archive_commit": "0317c22783051947ae9ee527f503f918599b720b",
           "verification_commit": "702d4ef95ffbc00db4ede4abb3f66592b4b50823",
           "verification_tree": "6b39ed9fde5848c9e640ee7806593a3ec3cf45be",
-          "manifest_counts": {"design_image": 691, "design_legacy": 692, "production": 682},
+          "manifest_counts": {
+            "design_image": 691,
+            "design_legacy": 692,
+            "production": 682
+          },
           "unique_species": "176/251",
           "revision_increment": 1,
           "scientifically_verified": false,
@@ -24596,7 +24625,13 @@
         "species_id": 69,
         "credited": false,
         "evidence": {
-          "source_ids": ["AMO-DEBUS-WOOD-2007-P49-52", "AMO-ABSA-2019-P1-2", "AMO-AUSTRALIAN-MUSEUM-2024", "VIC-RAPTORS-2023", "WHSO-MIKKOLA-2013"],
+          "source_ids": [
+            "AMO-DEBUS-WOOD-2007-P49-52",
+            "AMO-ABSA-2019-P1-2",
+            "AMO-AUSTRALIAN-MUSEUM-2024",
+            "VIC-RAPTORS-2023",
+            "WHSO-MIKKOLA-2013"
+          ],
           "new_sources": 1,
           "reread_sources": 2,
           "reused_sources": 3,
@@ -24651,7 +24686,14 @@
           "juvenile_crop": "owl-pet/production/review-crops/69-tyto-novaehollandiae-v5-juvenile.png",
           "juvenile_crop_sha256": "3bfe23be8758f74a37365af2fe0c679fbab0bbaee6a3b637d7cd8351c3c54c50",
           "scientifically_verified": false,
-          "unknowns": ["exact hatch age", "wild growth rate", "continuous feather chronology", "locomotor competence", "morph/subspecies transfer", "universal sex-scale ratio"],
+          "unknowns": [
+            "exact hatch age",
+            "wild growth rate",
+            "continuous feather chronology",
+            "locomotor competence",
+            "morph/subspecies transfer",
+            "universal sex-scale ratio"
+          ],
           "lease_expires_at": "2026-11-05T17:42:00+08:00"
         }
       },
@@ -24670,7 +24712,11 @@
           "reviewed_blob": "19f6024e05f1a3c4377b999aa6ae7640d97de77c",
           "adults_crop_blob": "532ef490d7643e3030669c4c134db51675918443",
           "juvenile_crop_blob": "564abf5e28e334bd3373dac7275193ba7a9076ee",
-          "manifest_counts": {"design_image": 692, "design_legacy": 693, "production": 683},
+          "manifest_counts": {
+            "design_image": 692,
+            "design_legacy": 693,
+            "production": 683
+          },
           "unique_species": "176/251",
           "revision_increment": 1,
           "scientifically_verified": false,
@@ -24692,7 +24738,11 @@
           "paths_verified": 16,
           "binary_paths_verified": 5,
           "unique_binary_blobs": 3,
-          "manifest_counts": {"design_image": 692, "design_legacy": 693, "production": 683},
+          "manifest_counts": {
+            "design_image": 692,
+            "design_legacy": 693,
+            "production": 683
+          },
           "unique_species": "176/251",
           "revision_increment": 1,
           "scientifically_verified": false,
@@ -24712,12 +24762,31 @@
           "archive_commit": "a3fc35485b97d026cf1f5388cd938209f8d26bfb",
           "verification_commit": "5ad592b2bbaad37c9ea2c87af29b133733d3b547",
           "verification_tree": "e0023b09d0727bca3f0b6777e85f0657ff7be805",
-          "manifest_counts": {"design_image": 692, "design_legacy": 693, "production": 683},
+          "manifest_counts": {
+            "design_image": 692,
+            "design_legacy": 693,
+            "production": 683
+          },
           "unique_species": "176/251",
           "revision_increment": 1,
           "scientifically_verified": false,
           "next_cycle": 6,
           "batch_status": "PARTIAL"
+        }
+      },
+      {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 6,
+        "stage": "STARTED",
+        "at": "2026-11-05T17:36:20+08:00",
+        "run_id": "20261105T173620+0800-cycle-6",
+        "species_id": 70,
+        "credited": false,
+        "evidence": {
+          "selection": "science revision of #70 Ninox strenua v4; investigate juvenile development/locomotor boundary, adult sex-scale direction, adult pattern geometry and natural hollow support before generation",
+          "baseline_commit": "e59be85a5cf77910ebda1e920b90c27ba518a20e",
+          "prior_version": "owl-pet/design/concepts/70-ninox-strenua-v4.png",
+          "lease_expires_at": "2026-11-05T17:51:20+08:00"
         }
       }
     ]

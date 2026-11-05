@@ -35,3 +35,7 @@ Primary `LET-LEADPRATHOM-2009-P457-461` was freshly opened in the publisher PDF:
 ## 2026-11-06 v5 actual application and review
 
 +Initial generation was opened and rejected at review because its older juvenile carried long crisp adult-like primary rows and repeated pale wing spots. One targeted juvenile-only imagegen edit replaced those with compact down-softened folded wings while preserving adults, text and support. Edited full master plus juvenile/support and adults/support crops were opened separately. PASS_WITH_LIMITATIONS: dark-eyed gray older brancher, short tufts, both feet supported; adults near-equal. Exact age/sex/subspecies, iris transition, flight ability, continuous feather geometry and adult sex-size direction remain unknown. Science false. Archive/readback pending.
+
+## 2026-11-06 v5 archive checkpoint
+
+Reviewed v5 assets and evidence prepared at ARCHIVED; fixed-commit path/blob/byte readback pending. Science false.

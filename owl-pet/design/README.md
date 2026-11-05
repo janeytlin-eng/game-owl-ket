@@ -3110,3 +3110,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Immutable archive verification 2026-11-05T23:12:00+08:00: commit `3382d92bd97fa27f36fdbc38e91406563dc4763f`, tree `a667361032deae3eee0d06e8974b19ab5a50454a`; non-truncated 3,144 entries, 18 required paths and five exact binary blob/size tuples passed. Manifests 699/700/690; ledger credit pending.
 - Ledger credit 2026-11-05T23:16:00+08:00: verification commit `445e45b36b38ccbe0400517c7506f911e9e8b88e`, tree `24442b4674c067f66d6821547ceaef720ca1bb4e`; batch cumulative 6/6 COMPLETE, next cycle null and lease released. Science false.
 
+
+## #79 Collared Scops Owl — *Otus lettia* — v5
+
+- [Concept](concepts/79-otus-lettia-v5.png) · [Research](../research/species/79-otus-lettia-v5.md) · [Review](../research/reviews/79-otus-lettia-v5-review.md) · [Run](../production/runs/20261106T013300+0800-cycle-3.md)
+- V5 preserves v1–v4 and replaces v4's undocumented exact-day wing-panel geometry with a directly photographed age-unknown older brancher. One targeted edit removed long crisp adult-like juvenile primaries and repeated pale spots; full and two crop views passed. Adults remain near-equal because no read source establishes a species-wide sex-size direction. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable archive readback pending.

@@ -1567,3 +1567,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-11-05T23:12:00+08:00: #76 v5 VERIFIED at archive `3382d92bd97fa27f36fdbc38e91406563dc4763f`, tree `a667361032deae3eee0d06e8974b19ab5a50454a`; non-truncated 3,144 entries, 18 required paths, five exact binary tuples and manifests 699/700/690 passed; ledger credit pending; science false.
 - 2026-11-05T23:16:00+08:00: #76 *Asio clamator* v5 LEDGER_CREDITED at verification commit `445e45b36b38ccbe0400517c7506f911e9e8b88e`; batch `20261105T183434+0800` COMPLETE 6/6, next cycle null, lease released; unique176/251; science false.
 
+
+- 2026-11-06T01:47:00+08:00: #79 *Otus lettia* v5 ARCHIVED pending immutable readback. New/restored4/reused2/corrected3 sources; one juvenile-only edit removed adult-like primaries/spots; full and two crops passed; manifests 703/702/693; unique176/251; science false.

@@ -42,3 +42,7 @@
 ## Reusable rule
 
 When an exact-day nestling stage lacks photographic wing-geometry evidence, do not synthesize regular adult-like primaries from chronology alone. Switch to a separately photographed, explicitly age-unknown stage; retain natural support and label the uncertainty. This rule was applied and visually verified here, but is not yet claimed universal across owls.
+
+## Archive checkpoint
+
+At 2026-11-06T01:47:00+08:00, the reviewed concept and evidence files were prepared for ARCHIVED with manifests 703/702/693. Immutable fixed-commit readback remains pending; no scientific approval or cycle credit is implied.

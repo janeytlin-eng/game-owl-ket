@@ -3378,3 +3378,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 - Verification commit `445e45b36b38ccbe0400517c7506f911e9e8b88e`, tree `24442b4674c067f66d6821547ceaef720ca1bb4e`, is credited once. Batch `20261105T183434+0800` is COMPLETE 6/6, `next_cycle=null`, and lease is released. Unique 176/251; revision +1; science false.
 
+
+## 2026-11-06 #79 *Otus lettia* v5 ARCHIVED — readback pending
+
+- Four detailed source records added/restored, two sources reused and three design boundaries corrected. The publisher development study, current taxonomy, a sexed museum specimen and a directly viewed Cornell/Macaulay older-juvenile image are linked in the source index.
+- One targeted juvenile-wing edit passed full/group/juvenile inspection. Manifests 703/702/693; unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false.
+- Exact age/sex/subspecies, iris transition, flight ability, continuous feather geometry and adult sex-size direction remain unknown. No cycle credit before immutable readback.

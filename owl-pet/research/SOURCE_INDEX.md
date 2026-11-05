@@ -1,3 +1,19 @@
+## 2026-11-05 — #62 *Ketupa sumatrana* v5 — Johor day-27 nestling boundary
+
+### BEOW-FOLEY-2013-P34-37
+- **Title / authors / year:** *Breeding Barred Eagle Owl Bubo sumatranus sumatranus in Johor, Malaysia* — Con Foley, Lau Weng Thor, Lau Jia Sheng & Tan Kok Hui, 2013.
+- **URL:** https://www.orientalbirdclub.org/birdingasia-19 ; observer's complete field account: https://confoley.com/barred-eagle-owl/
+- **Type / accessed:** primary 24/7 video/field study, *BirdingASIA* 19, printed pp.34–37; OBC contents lines 94–105 and the complete observer account read 2026-11-05.
+- **Species/stage/pages:** historical *Bubo sumatranus sumatranus*; one Johor chick from estimated hatch through day-60 departure; printed pp.34–37.
+- **Facts:** the monitored chick was still in its hatch position on day 27 but could stand upright and preen; it was no longer being continuously brooded. It began moving a few feet around the planter by day 34, ranged along the planter and flapped strongly by day 50, and departed at day 60 by a half-hop/half-flight to an overhanging branch. The urban resort planter contained soil and bougainvillea; adults avoided the nest when disturbed.
+- **Limits/conflicts:** one pair and an estimated hatch date; the observer explicitly cautions that the reported adult plumage/size differences are sample size one. The unusual planter nest is a documented site, not a universal nest template. Day 27 posture does not support flight, branch movement or adult-proportioned remiges.
+- **Design use:** day-27, soil/vegetation-supported upright-preening nestling at the original nest position; no flight, branch or precise cross-population feather claim. Adults remain near-equal rather than imposing one-pair dimorphism.
+- **Links:** `research/species/62-ketupa-sumatrana-v5.md`; planned concept v5; run `production/runs/20261105T124400+0800-cycle-4.md`.
+
+### Reused and corrected evidence
+- Re-read `BEOW-LKC-SBR-2017-178` printed p.178 for the separate age-unknown pale transitional Pulau Ubin immature and `BEOW-SGBIRDS-2026` for current *Ketupa sumatrana* name/adult and broad juvenile identification.
+- Corrected boundary: v5 does not transfer the 2017 presumed-subadult white tufts or the 2018 estimated 8–10-month hunting/flight behavior onto the day-27 Johor chick. New1 / re-read2 / corrected2; science false.
+
 ## 2026-11-05 — #57 *Bubo nipalensis* v5 / current *Ketupa nipalensis* — dependent juvenile boundary
 
 ### SBEO-SRINIVASAN-2013-P106-107

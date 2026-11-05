@@ -22704,7 +22704,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287",
         "BRU-ITIS-555375-2026",
@@ -22747,13 +22747,13 @@
       "juvenile_review_size_bytes": 721227,
       "juvenile_review_sha256": "1addaa5d0cd61c18868161b42066d90ed04eb7d328dd19be062069ddc4b90738",
       "reviewed_at": "2026-11-06T04:43:00+08:00",
-      "readback_pending": true,
+      "readback_pending": false,
       "archive_note": "V5 preserves v1-v4. A Jordan field record directly supports little tufts, short tail, fine unstreaked transverse underpart bars and begging/hissing in recent fledglings. One center-only edit removed repeated adult-like pale wing spots and hard layers while preserving full support and action. Adults remain near-equal height/wing length; female only subtly fuller. Exact age, flight threshold, sex, subspecies, universal palm nesting and independent scientific sign-off remain unknown; science false.",
-      "archive_commit": null,
-      "archive_tree": null,
-      "verified_at": null,
-      "verification_result": null
+      "archive_commit": "8db903507df5a7989d46b25e21fed46efe85b2c5",
+      "archive_tree": "3b8966e40cf35a92c29c2ef2ce54963b4532994f",
+      "verified_at": "2026-11-06T04:52:00+08:00",
+      "verification_result": "PASS: immutable archive commit returned 15 required paths; all six binary paths match exact Git blobs; three remote manifests parse at 707/706/697 with #83 v5 tails; research/review/run text is readable"
     }
   ],
-  "updated_at": "2026-11-06T04:47:00+08:00"
+  "updated_at": "2026-11-06T04:52:00+08:00"
 }

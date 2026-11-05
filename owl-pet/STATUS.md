@@ -3341,3 +3341,9 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 
 
+## 2026-11-05 #75 *Ninox scutulata* v5 ARCHIVED — readback pending
+
+- The directly opened Windsor juvenile photographs supersede v4's short/uniform wing boundary for the selected older dependent stage. V5 retains residual pale down with a long formed wing and developed barred tail, plus two-foot branch support and no flight claim.
+- Adults remain near-equal because sex direction is unresolved. Full/group/juvenile crops passed without edit; `PASS_WITH_LIMITATIONS`; science false.
+- Manifests 698/699/689; unique remains 176/251; revision +1. No cycle credit before immutable readback.
+

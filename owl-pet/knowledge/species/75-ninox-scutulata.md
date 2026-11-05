@@ -25,3 +25,7 @@ Problem: v3 omitted repository number 75 and placed the dependent juvenile outsi
 ### v4 fixed readback — 2026-10-31T01:12:54+08:00
 
 Repaired fixed archive `5aded700e2aa94237862f86f34073bf226b31ac0` matched complete JPEG masters, concept/crop and support records; truncated PNG paths absent. PASS_WITH_LIMITATIONS; scientifically_verified=false.
+
+## v5 photographed Singapore stage correction — 2026-11-05
+
+V5 preserves v1–v4 and replaces the v4 short/uniform juvenile wing boundary for the selected older dependent stage. The actually opened Windsor photographs show residual pale down together with long formed brown wings, a developed barred tail and supported active maneuvers. V5 therefore uses a central two-foot-supported juvenile with one restrained wing stretch; it does not claim exact age or flight competence. Adults remain near-equal because published sex-size direction conflicts. Historical Singapore mappings *Strix scutulata*, *Athene malaccensis* and *N. s. malaccensis* are indexed without treating 1949 taxonomy as the current subspecies. [Research](../../research/species/75-ninox-scutulata-v5.md) · [Review](../../research/reviews/75-ninox-scutulata-v5-review.md) · [Run](../../production/runs/20261105T223048+0800-cycle-5.md). `PASS_WITH_LIMITATIONS`; science false; immutable readback pending.

@@ -1,5 +1,11 @@
 # Owl-pet production status
 
+## 2026-11-05 #75 *Ninox scutulata* v5 ARCHIVED — readback pending
+
+- Concept/generated/reviewed master blob `b353c40b812f05ce744e44cdb2c71c3c885e83d9`; adult/group crop `9cbddf16d1b8039f83b3be07da3a4c1cf3fc3b3a`; juvenile/support crop `c702d1ba53b5962c34c2713facb0a0b8f9de77a7`.
+- Full image and both crops passed without edit. The juvenile preserves directly photographed formed wing/tail development, residual down and bilateral branch support; adult scale avoids an unresolved sex-size direction. `PASS_WITH_LIMITATIONS`; science false.
+- Manifests 698/699/689; unique remains 176/251; revision +1. Cycle 5 is not credited before immutable readback.
+
 ### #66 v5 LEDGER_CREDITED — batch 2/6
 
 - Verification commit `6415ef6e203b4e6924fbf65142ef626bea8a7945`, tree `e5e13399f5405ee2e37b7fef0d8aa59fcc46d584`, was read back. Cycle 2 is credited exactly once; batch `20261105T153530+0800` is 2/6, next cycle 3, lease released. Unique 176/251; revision +1; science false.

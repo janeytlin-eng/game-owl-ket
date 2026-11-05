@@ -1559,3 +1559,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Preserved v1 and all prior numbering; unique coverage remains 176/251 and revision count increases by one.
 - Initial juvenile wing failed the direct fledgling constraint; edit1 removed long orderly remiges while preserving full branch support.
 - Research: `research/species/188-otus-semitorques-v2.md`; run: `production/runs/20261104T154500+0800-cycle-2.md`; science=false.
+- 2026-11-05T22:44:00+08:00: #75 *Ninox scutulata* v5 ARCHIVED pending immutable readback. New3/re-read5/corrected3 sources; direct Windsor photographs corrected the selected dependent stage to residual down plus formed long wing and barred tail; edit0; full/group/juvenile review passed; manifests 698/699/689; unique176/251; science false.
+

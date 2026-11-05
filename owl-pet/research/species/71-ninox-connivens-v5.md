@@ -52,3 +52,11 @@ Avoid: extra birds, ear tufts, heart-shaped facial discs, Powerful-Owl chevrons,
 - Prompt and design boundary prepared before generation.
 - The new primary source replaces a generic recent-fledgling guess with a directly dated, behaviorally grounded Day-30 juvenile.
 - Generation, visual review, archive and immutable readback remain pending. No cycle credit.
+
+## Image generation and review — 2026-11-05T18:43:45+08:00
+
+- First 1536×1024 render completed in 50.8 s. It passed count, text, support, adult identity, object-play action and environment, but the juvenile folded wing retained several crisp adult-like white spots.
+- One targeted imagegen edit softened only the juvenile wing marks to sparse diffuse mottling while preserving the formed wing/tail, downy collar/thighs, white tail tips, bark manipulation, all feet, adults, text and scene.
+- The edited full frame and adult/support plus juvenile crops were opened. Final result `PASS_WITH_LIMITATIONS`; edit count 1; science false.
+- Final concept/reviewed blob before remote upload: local Git blob `7b7f55ae351d197b0857a032e78b3de042bacb24`; adults crop `bcc47678ad2e1dde16ec55d02e13fb4fac589e1e`; juvenile crop `4dfe7a783bfc9e3607d07953f6b33fd9defc01f1`.
+- Remaining unknowns are unchanged. Archive and immutable readback are pending; no cycle credit.

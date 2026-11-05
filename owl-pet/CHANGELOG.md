@@ -1564,4 +1564,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-11-05T22:50:00+08:00: #75 *Ninox scutulata* v5 LEDGER_CREDITED at verification commit `2e00e2305ffde868103511122969ec1701440870`; batch 5/6, next cycle6, lease released; unique176/251; science false.
 - 2026-11-05T23:08:00+08:00: #76 *Asio clamator* v5 ARCHIVED pending immutable readback. New1/re-read4/corrected2; supported approximately 25–30-day pre-flight wing exercise replaces the static adult-spotted v4 juvenile wing; edit0; full/group/juvenile review passed; manifests 699/700/690; unique176/251; science false.
 - 2026-11-05T23:12:00+08:00: #76 v5 VERIFIED at archive `3382d92bd97fa27f36fdbc38e91406563dc4763f`, tree `a667361032deae3eee0d06e8974b19ab5a50454a`; non-truncated 3,144 entries, 18 required paths, five exact binary tuples and manifests 699/700/690 passed; ledger credit pending; science false.
+- 2026-11-05T23:16:00+08:00: #76 *Asio clamator* v5 LEDGER_CREDITED at verification commit `445e45b36b38ccbe0400517c7506f911e9e8b88e`; batch `20261105T183434+0800` COMPLETE 6/6, next cycle null, lease released; unique176/251; science false.
 

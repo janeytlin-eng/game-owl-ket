@@ -210,5 +210,9 @@
 
 - Archive `3382d92bd97fa27f36fdbc38e91406563dc4763f`, tree `a667361032deae3eee0d06e8974b19ab5a50454a`: non-truncated 3,144 entries, 18 required paths, five exact image path/blob/size tuples and three manifest parses at 699/700/690 passed. Ledger credit pending; science false.
 
+### #76 v5 LEDGER_CREDITED — batch COMPLETE 6/6
+
+- Verification commit `445e45b36b38ccbe0400517c7506f911e9e8b88e`, tree `24442b4674c067f66d6821547ceaef720ca1bb4e`, is credited exactly once. Batch `20261105T183434+0800` is COMPLETE 6/6; `next_cycle=null`; lease released. Unique 176/251; revision +1; science false.
+
 
 

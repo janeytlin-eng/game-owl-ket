@@ -22305,9 +22305,20 @@
       }
     ],
     "next_cycle": 3,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": "VERIFIED",
+    "active_lease": {
+      "owner": "codex-automation",
+      "run_id": "20261105T112500+0800-cycle-3",
+      "heartbeat_at": "2026-11-05T11:25:00+08:00",
+      "expires_at": "2026-11-05T11:40:00+08:00"
+    },
+    "in_progress": {
+      "cycle": 3,
+      "run_id": "20261105T112500+0800-cycle-3",
+      "species_id": 61,
+      "species": "Ketupa ketupu",
+      "stage": "STARTED"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
         "cycle": 1,
@@ -22589,6 +22600,20 @@
           "next_cycle": 3,
           "verification_commit": "3470dbf1ccdc2bd9043933fc4dc045ecba94273c",
           "verification_tree": "d5a798099bba20d9b53ba34327d8dd6edefc8a43"
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "STARTED",
+        "at": "2026-11-05T11:25:00+08:00",
+        "run_id": "20261105T112500+0800-cycle-3",
+        "species_id": 61,
+        "credited": false,
+        "evidence": {
+          "selection": "full-resolution science/archive revision of #61 Ketupa ketupu v4; verified v4 concept is a 680x453 derivative and no v5 exists on current main",
+          "baseline_commit": "bf3a9d3709e2a4584cb754b383e06e9ae18b6436",
+          "prior_version": "owl-pet/design/concepts/61-ketupa-ketupu-v4.jpg",
+          "lease_expires_at": "2026-11-05T11:40:00+08:00"
         }
       }
     ]

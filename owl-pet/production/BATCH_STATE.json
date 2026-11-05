@@ -16273,9 +16273,64 @@
           }
         }
       ]
+    },
+    {
+      "batch_id": "20261105T153530+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261105T153530+0800-cycle-1",
+        "batch_id": "20261105T153530+0800",
+        "cycle": 1,
+        "species_id": 65,
+        "heartbeat_at": "2026-11-05T15:35:30+08:00",
+        "expires_at": "2026-11-05T15:50:30+08:00"
+      },
+      "in_progress": {
+        "batch_id": "20261105T153530+0800",
+        "cycle": 1,
+        "run_id": "20261105T153530+0800-cycle-1",
+        "species_id": 65,
+        "species": "Tyto soumagnei",
+        "action": "SCIENCE_REVISION",
+        "version": 5,
+        "current_stage": "STARTED",
+        "started_at": "2026-11-05T15:35:30+08:00",
+        "baseline_commit": "da070726d3943cf237afcdef48393c5cf5dbca35",
+        "run_record": "owl-pet/production/runs/20261105T153530+0800-cycle-1.md"
+      },
+      "current_stage": "STARTED",
+      "events": [
+        {
+          "batch_id": "20261105T153530+0800",
+          "cycle": 1,
+          "stage": "STARTED",
+          "at": "2026-11-05T15:35:30+08:00",
+          "run_id": "20261105T153530+0800-cycle-1",
+          "species_id": 65,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #65 Tyto soumagnei v4; verify primary-thesis conflict between visible female mass direction and stated absence of apparent sexual dimorphism, plus separate down-only nestling evidence",
+            "baseline_commit": "da070726d3943cf237afcdef48393c5cf5dbca35",
+            "prior_version": "owl-pet/design/concepts/65-tyto-soumagnei-v4.png",
+            "lease_expires_at": "2026-11-05T15:50:30+08:00"
+          }
+        }
+      ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-production",
+    "run_id": "20261105T153530+0800-cycle-1",
+    "batch_id": "20261105T153530+0800",
+    "cycle": 1,
+    "species_id": 65,
+    "heartbeat_at": "2026-11-05T15:35:30+08:00",
+    "expires_at": "2026-11-05T15:50:30+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -16407,7 +16462,7 @@
     "2026-10-30T16:55:00+08:00: cycle2 #44 v4 ARCHIVED as design563/production554/legacy552; fixed readback pending; unique175/251; science false; no credit.",
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released."
   ],
-  "updated_at": "2026-11-05T15:34:00+08:00",
+  "updated_at": "2026-11-05T15:35:30+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -16416,8 +16471,16 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-11-05T15:34:00+08:00",
+  "active_lease": {
+    "owner": "codex-production",
+    "run_id": "20261105T153530+0800-cycle-1",
+    "batch_id": "20261105T153530+0800",
+    "cycle": 1,
+    "species_id": 65,
+    "heartbeat_at": "2026-11-05T15:35:30+08:00",
+    "expires_at": "2026-11-05T15:50:30+08:00"
+  },
+  "last_updated_at": "2026-11-05T15:35:30+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -17178,7 +17241,19 @@
     "2026-11-05T04:31:00+08:00: batch 20261105T033723+0800 cycle3 #47 v5 VERIFIED; archive and seven binary paths read back; batch 3/6 next4; unique176/251; science false; lease released.",
     "2026-11-05T04:57:00+08:00: batch 20261105T033723+0800 cycle4 #48 v5 VERIFIED; batch 4/6 next5; unique176/251; science false; lease released."
   ],
-  "in_progress": null,
+  "in_progress": {
+    "batch_id": "20261105T153530+0800",
+    "cycle": 1,
+    "run_id": "20261105T153530+0800-cycle-1",
+    "species_id": 65,
+    "species": "Tyto soumagnei",
+    "action": "SCIENCE_REVISION",
+    "version": 5,
+    "current_stage": "STARTED",
+    "started_at": "2026-11-05T15:35:30+08:00",
+    "baseline_commit": "da070726d3943cf237afcdef48393c5cf5dbca35",
+    "run_record": "owl-pet/production/runs/20261105T153530+0800-cycle-1.md"
+  },
   "previous_checkpoint": {
     "batch_id": "20261105T033723+0800",
     "cycle": 6,
@@ -17191,14 +17266,14 @@
     "verified_at": "2026-11-05T06:16:00+08:00"
   },
   "last_checkpoint": {
-    "batch_id": "20261105T103554+0800",
-    "cycle": 6,
-    "run_id": "20261105T135847+0800-cycle-6",
-    "stage": "LEDGER_CREDITED",
-    "at": "2026-11-05T15:34:00+08:00",
-    "species_id": 64,
-    "species": "Tyto glaucops",
-    "credited": true
+    "batch_id": "20261105T153530+0800",
+    "cycle": 1,
+    "run_id": "20261105T153530+0800-cycle-1",
+    "stage": "STARTED",
+    "at": "2026-11-05T15:35:30+08:00",
+    "species_id": 65,
+    "species": "Tyto soumagnei",
+    "credited": false
   },
   "history": [
     {
@@ -18477,7 +18552,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-05T15:34:00+08:00",
+  "last_updated": "2026-11-05T15:35:30+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -20983,10 +21058,10 @@
       "batch_id": "20261105T033723+0800"
     }
   ],
-  "active_batch_id": "20261105T103554+0800",
-  "active_cycle": null,
-  "current_stage": null,
-  "next_cycle": null,
+  "active_batch_id": "20261105T153530+0800",
+  "active_cycle": 1,
+  "current_stage": "STARTED",
+  "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -23373,1021 +23448,67 @@
         "next_cycle": null,
         "batch_status": "COMPLETE"
       }
+    },
+    {
+      "batch_id": "20261105T153530+0800",
+      "cycle": 1,
+      "stage": "STARTED",
+      "at": "2026-11-05T15:35:30+08:00",
+      "run_id": "20261105T153530+0800-cycle-1",
+      "species_id": 65,
+      "credited": false,
+      "evidence": {
+        "selection": "science revision of #65 Tyto soumagnei v4; verify primary-thesis conflict between visible female mass direction and stated absence of apparent sexual dimorphism, plus separate down-only nestling evidence",
+        "baseline_commit": "da070726d3943cf237afcdef48393c5cf5dbca35",
+        "prior_version": "owl-pet/design/concepts/65-tyto-soumagnei-v4.png",
+        "lease_expires_at": "2026-11-05T15:50:30+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261105T103554+0800",
   "active_batch": {
-    "batch_id": "20261105T103554+0800",
-    "status": "COMPLETE",
+    "batch_id": "20261105T153530+0800",
+    "status": "PARTIAL",
     "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Ketupa zeylonensis",
-        "species_id": 59,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "14d889dddbb247bc9d2b3ce83b98bbd4628498d4",
-        "run_record": "owl-pet/production/runs/20261105T103554+0800-cycle-1.md",
-        "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
-        "verification_tree": "3e679f9c0a692244a894190bde77c7f3469e04a1"
-      },
-      {
-        "cycle": 2,
-        "species": "Ketupa flavipes",
-        "species_id": 60,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "3470dbf1ccdc2bd9043933fc4dc045ecba94273c",
-        "run_record": "owl-pet/production/runs/20261105T105535+0800-cycle-2.md",
-        "archive_commit": "a1b8d80d57d7ace67eacd6faec0854d392502387",
-        "verification_tree": "d5a798099bba20d9b53ba34327d8dd6edefc8a43"
-      },
-      {
-        "cycle": 3,
-        "species": "Ketupa ketupu",
-        "species_id": 61,
-        "action": "REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "e2e47fd3584a76cb0a54058e4c46c672c78f94af",
-        "run_record": "owl-pet/production/runs/20261105T112500+0800-cycle-3.md",
-        "archive_commit": "4c13c4d7c86cbf9811042462ec0f616d1c08da33",
-        "verification_tree": "e9f36ec420c46c34120db1aa9925f89a8c24b567"
-      },
-      {
-        "cycle": 4,
-        "species": "Ketupa sumatrana",
-        "species_id": 62,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "53f7d84325e160f25b325dd247c46f56489db426",
-        "run_record": "owl-pet/production/runs/20261105T124400+0800-cycle-4.md",
-        "archive_commit": "1cded830a548943ffe326d985a72402d38f9f138",
-        "verification_tree": "3a8d7a49fa609112193b1b903e8130aad4177009"
-      },
-      {
-        "cycle": 5,
-        "species": "Scotopelia peli",
-        "species_id": 63,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "af1d96998cb82a564760544ef4c6fa460f9bae96",
-        "run_record": "owl-pet/production/runs/20261105T133651+0800-cycle-5.md",
-        "archive_commit": "c06d60fc0a60e1d690d766dfb5ff898ceceda59a",
-        "verification_tree": "33a649aa6dbe7a8e5713ffbf6505a607df07e80b"
-      },
-      {
-        "cycle": 6,
-        "species": "Tyto glaucops",
-        "species_id": 64,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "commit_sha": "aa96230570c9b19f4acadddefda1b1bcee8897c8",
-        "run_record": "owl-pet/production/runs/20261105T135847+0800-cycle-6.md",
-        "archive_commit": "d65b04f9537d08688eeadfd5d7392c285a137d90",
-        "verification_tree": "75158c7cb9aa2bf0d43b570fa82edcddc4814282"
-      }
-    ],
-    "next_cycle": null,
-    "active_lease": null,
-    "in_progress": null,
-    "current_stage": null,
+    "completed_cycles": [],
+    "next_cycle": 1,
+    "active_lease": {
+      "owner": "codex-production",
+      "run_id": "20261105T153530+0800-cycle-1",
+      "batch_id": "20261105T153530+0800",
+      "cycle": 1,
+      "species_id": 65,
+      "heartbeat_at": "2026-11-05T15:35:30+08:00",
+      "expires_at": "2026-11-05T15:50:30+08:00"
+    },
+    "in_progress": {
+      "batch_id": "20261105T153530+0800",
+      "cycle": 1,
+      "run_id": "20261105T153530+0800-cycle-1",
+      "species_id": 65,
+      "species": "Tyto soumagnei",
+      "action": "SCIENCE_REVISION",
+      "version": 5,
+      "current_stage": "STARTED",
+      "started_at": "2026-11-05T15:35:30+08:00",
+      "baseline_commit": "da070726d3943cf237afcdef48393c5cf5dbca35",
+      "run_record": "owl-pet/production/runs/20261105T153530+0800-cycle-1.md"
+    },
+    "current_stage": "STARTED",
     "events": [
       {
+        "batch_id": "20261105T153530+0800",
         "cycle": 1,
         "stage": "STARTED",
-        "at": "2026-11-05T10:35:54+08:00",
-        "run_id": "20261105T103554+0800-cycle-1",
-        "species_id": 59,
+        "at": "2026-11-05T15:35:30+08:00",
+        "run_id": "20261105T153530+0800-cycle-1",
+        "species_id": 65,
         "credited": false,
         "evidence": {
-          "selection": "full-resolution science/archive revision of #59 Ketupa zeylonensis v4; verified v4 is a 680x453 derivative and no v5 exists on current main",
-          "baseline_commit": "acede2909642706dda514adb5ecfd9a689f52f86",
-          "prior_version": "owl-pet/design/concepts/59-ketupa-zeylonensis-v4.jpg",
-          "lease_expires_at": "2026-11-05T10:50:54+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T10:39:25+08:00",
-        "run_id": "20261105T103554+0800-cycle-1",
-        "species_id": 59,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "BFOW-HKBWS-AVIFAUNA-2026",
-            "BFOW-KFBG-2021",
-            "BFO-INDIANBIRDS-2013-P147-151",
-            "BFOW-BINDU-BALAKRISHNAN-2015-P97-98"
-          ],
-          "new_or_restored_sources": 4,
-          "reused_sources": 4,
-          "corrected_boundaries": 3,
-          "species_card": "owl-pet/research/species/59-ketupa-zeylonensis-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T10:54:25+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T10:42:08+08:00",
-        "run_id": "20261105T103554+0800-cycle-1",
-        "species_id": 59,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/59-ketupa-zeylonensis-v5-generated-master.png",
-          "dimensions": "1536x1024",
-          "bytes": 3659324,
-          "sha256": "9dffe35fc994b42fbe95c68887af2a66eb214c44590d3ed6a4d9cd1ccc51cd2a",
-          "generation_seconds": 67.4,
-          "edit_count": 0,
-          "inspection_issue": "juvenile exposed folded flight feathers too long, regularly layered and adult-like; bounded juvenile-only edit required",
-          "complete_prompt": "owl-pet/research/species/59-ketupa-zeylonensis-v5.md",
-          "lease_expires_at": "2026-11-05T10:57:08+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T10:45:59+08:00",
-        "run_id": "20261105T103554+0800-cycle-1",
-        "species_id": 59,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 1,
-          "generation_seconds": 67.4,
-          "edit_seconds": 52.0,
-          "final_path": "owl-pet/design/concepts/59-ketupa-zeylonensis-v5.png",
-          "final_sha256": "e87004112b7ccea3c8f75617e0639e493d4254fe65935639ff0de91a107c30a5",
-          "final_bytes": 3419316,
-          "review_path": "owl-pet/research/reviews/59-ketupa-zeylonensis-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/59-ketupa-zeylonensis-v5-adults.png",
-          "adult_crop_sha256": "532bc16709e3eab803b3c744296089c57d5f6e4e2ba6905de469268485068ee6",
-          "juvenile_crop": "owl-pet/production/review-crops/59-ketupa-zeylonensis-v5-juvenile.png",
-          "juvenile_crop_sha256": "78f6086b89877c4494df9cafd3aa60fcbf2335ee2cde535b9719168ec8071659",
-          "scientifically_verified": false,
-          "unknowns": [
-            "exact juvenile age/sex/subspecies",
-            "continuous feather chronology",
-            "first-flight competence",
-            "quantitative sex dimensions",
-            "cross-population transfer"
-          ],
-          "lease_expires_at": "2026-11-05T11:00:59+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T10:48:14+08:00",
-        "run_id": "20261105T103554+0800-cycle-1",
-        "species_id": 59,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
-          "generated_blob": "c38b2bc2d8971d293547ab8f709c8c23b4b63576",
-          "reviewed_blob": "d19ccc9cba530460e62c67e2c761706b2f7ba9d7",
-          "adult_crop_blob": "ea627648fa7b10f8142aebe2bd51e87f213672c2",
-          "juvenile_crop_blob": "37e8a5a4c6cc00c84455f214d7c4611331968432",
-          "manifest_counts": {
-            "design_image": 682,
-            "design_legacy": 683,
-            "production": 673
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T11:03:14+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T10:53:08+08:00",
-        "run_id": "20261105T103554+0800-cycle-1",
-        "species_id": 59,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "882fc3754b75a4851ed73ba7a2843702088883f4",
-          "archive_tree": "ffff7346aa11b1c808765076fa4149ab4224457b",
-          "paths_verified": 12,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 682,
-            "design_legacy": 683,
-            "production": 673
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 2,
-          "verification_commit": "14d889dddbb247bc9d2b3ce83b98bbd4628498d4",
-          "verification_tree": "3e679f9c0a692244a894190bde77c7f3469e04a1"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-05T10:55:35+08:00",
-        "run_id": "20261105T105535+0800-cycle-2",
-        "species_id": 60,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #60 Ketupa flavipes v4; verified v4 is a 680x453 derivative and no v5 exists on current main",
-          "baseline_commit": "c7bded9e6c771b415158f3bfa12eca6cf76e8859",
-          "prior_version": "owl-pet/design/concepts/60-ketupa-flavipes-v4.jpg",
-          "lease_expires_at": "2026-11-05T11:10:35+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T11:00:32+08:00",
-        "run_id": "20261105T105535+0800-cycle-2",
-        "species_id": 60,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "TFO-NTM-TMAV0148-2026",
-            "TFO-SPNP-NPUST-2026-L8-20",
-            "TFO-PTS-SPNP-2026-L38-47",
-            "TFO-TAIEOL-2013-2024",
-            "TFO-WANG-2013",
-            "TFO-SUN-NEST-1997"
-          ],
-          "new_sources": 3,
-          "reread_sources": 1,
-          "reused_sources": 2,
-          "corrected_boundaries": 3,
-          "unverified_leads": [
-            "TFO-LIU-2015-UNVERIFIED"
-          ],
-          "species_card": "owl-pet/research/species/60-ketupa-flavipes-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T11:15:32+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T11:05:03+08:00",
-        "run_id": "20261105T105535+0800-cycle-2",
-        "species_id": 60,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/60-ketupa-flavipes-v5-generated-master.png",
-          "dimensions": "1536x1024",
-          "bytes": 3795938,
-          "sha256": "ce7815b884c252ee27dbf05791cc14bedded819df6023ab80aa845e30fedc3e3",
-          "generation_seconds": 62.7,
-          "edit_count": 0,
-          "inspection_issue": "juvenile folded wing has crisp pale adult-style rows and developing tail is hidden; bounded centre-juvenile edit required",
-          "complete_prompt": "owl-pet/research/species/60-ketupa-flavipes-v5.md",
-          "lease_expires_at": "2026-11-05T11:20:03+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T11:12:41+08:00",
-        "run_id": "20261105T105535+0800-cycle-2",
-        "species_id": 60,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 2,
-          "generation_seconds": 62.7,
-          "edit_seconds": [
-            56.7,
-            53.1
-          ],
-          "final_path": "owl-pet/design/concepts/60-ketupa-flavipes-v5.png",
-          "final_sha256": "1b9c51cc839b226097c5799c759dfdf155e34ad00b5cc770f15492deb4c109dd",
-          "final_bytes": 3313716,
-          "review_path": "owl-pet/research/reviews/60-ketupa-flavipes-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/60-ketupa-flavipes-v5-adults.png",
-          "adult_crop_sha256": "678c550488c69020177e48560a7188215da60c257898179721380b516f63dbd4",
-          "juvenile_crop": "owl-pet/production/review-crops/60-ketupa-flavipes-v5-juvenile.png",
-          "juvenile_crop_sha256": "c4c0e4285082120c58ed4f619a6d576eb7b1d65f8ca1b0c867ffe44856b28945",
-          "scientifically_verified": false,
-          "remaining_limitation": "developing tail remains mostly obscured; exact 40-day tail visibility and feather chronology are unknown",
-          "lease_expires_at": "2026-11-05T11:27:41+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T11:16:00+08:00",
-        "run_id": "20261105T105535+0800-cycle-2",
-        "species_id": 60,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "781048fe3878b98ac7053fc75e9d52cee368c263",
-          "generated_blob": "05dcdd4bc625bc2e5325d652a18fa0d48d54ead5",
-          "reviewed_blob": "781048fe3878b98ac7053fc75e9d52cee368c263",
-          "adult_crop_blob": "d48240173869f03d3c053bf042e1f0ab4aea19ef",
-          "juvenile_crop_blob": "374782a95afe59accd376a65baf518e1f7562b66",
-          "manifest_counts": {
-            "design_image": 683,
-            "design_legacy": 684,
-            "production": 674
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T11:31:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T11:22:12+08:00",
-        "run_id": "20261105T105535+0800-cycle-2",
-        "species_id": 60,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "a1b8d80d57d7ace67eacd6faec0854d392502387",
-          "archive_tree": "494afeb0d8b0226b2ba1ca4baf0653b37551e0a8",
-          "paths_verified": 16,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 683,
-            "design_legacy": 684,
-            "production": 674
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 3,
-          "verification_commit": "3470dbf1ccdc2bd9043933fc4dc045ecba94273c",
-          "verification_tree": "d5a798099bba20d9b53ba34327d8dd6edefc8a43"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-05T11:25:00+08:00",
-        "run_id": "20261105T112500+0800-cycle-3",
-        "species_id": 61,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #61 Ketupa ketupu v4; verified v4 concept is a 680x453 derivative and no v5 exists on current main",
-          "baseline_commit": "bf3a9d3709e2a4584cb754b383e06e9ae18b6436",
-          "prior_version": "owl-pet/design/concepts/61-ketupa-ketupu-v4.jpg",
-          "lease_expires_at": "2026-11-05T11:40:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T11:30:00+08:00",
-        "run_id": "20261105T112500+0800-cycle-3",
-        "species_id": 61,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "BFOW-NPARKS-BIODIVERSITYSG-2026",
-            "BFOW-BESG-NEST-2016",
-            "BFOW-SBG-BREED-2016",
-            "BFOW-BESG-FLEDGE-2016"
-          ],
-          "new_sources": 0,
-          "reread_sources": 3,
-          "reused_sources": 1,
-          "corrected_boundaries": 1,
-          "species_card": "owl-pet/research/species/61-ketupa-ketupu-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T11:45:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T11:33:00+08:00",
-        "run_id": "20261105T112500+0800-cycle-3",
-        "species_id": 61,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/61-ketupa-ketupu-v5-generated-master.png",
-          "dimensions": "1536x1024",
-          "bytes": 3209634,
-          "sha256": "ea1c312e705e0c6a3914cddb8dc6a6cd7bce8c8b44fff3282c8c2a188e409147",
-          "generation_seconds": 49.2,
-          "edit_count": 0
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T11:34:00+08:00",
-        "run_id": "20261105T112500+0800-cycle-3",
-        "species_id": 61,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
-          "final_path": "owl-pet/design/concepts/61-ketupa-ketupu-v5.png",
-          "final_sha256": "ea1c312e705e0c6a3914cddb8dc6a6cd7bce8c8b44fff3282c8c2a188e409147",
-          "final_bytes": 3209634,
-          "review_path": "owl-pet/research/reviews/61-ketupa-ketupu-v5-review.md",
-          "scientifically_verified": false,
-          "archive_pending": true,
-          "lease_released_for_resume": true
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T12:35:00+08:00",
-        "run_id": "20261105T112500+0800-cycle-3",
-        "species_id": 61,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "bf856218e6ada541d04775279c745f608d08d717",
-          "generated_blob": "bf856218e6ada541d04775279c745f608d08d717",
-          "reviewed_blob": "bf856218e6ada541d04775279c745f608d08d717",
-          "adults_crop_blob": "48511271fbb55d1d78a28334ed2d3b65311da33c",
-          "juvenile_crop_blob": "1530a94cc9646e82bb62e5a3dd0c5906dd4b74c7",
-          "manifest_counts": {
-            "design_image": 684,
-            "design_legacy": 685,
-            "production": 675
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T12:50:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T12:38:00+08:00",
-        "run_id": "20261105T112500+0800-cycle-3",
-        "species_id": 61,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "4c13c4d7c86cbf9811042462ec0f616d1c08da33",
-          "archive_tree": "cead158ef10ae7fe6ca62c34c07927eb83a45db8",
-          "paths_verified": 15,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 684,
-            "design_legacy": 685,
-            "production": 675
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 4,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T12:53:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T12:40:00+08:00",
-        "run_id": "20261105T112500+0800-cycle-3",
-        "species_id": 61,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "4c13c4d7c86cbf9811042462ec0f616d1c08da33",
-          "verification_commit": "e2e47fd3584a76cb0a54058e4c46c672c78f94af",
-          "verification_tree": "e9f36ec420c46c34120db1aa9925f89a8c24b567",
-          "manifest_counts": {
-            "design_image": 684,
-            "design_legacy": 685,
-            "production": 675
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 4
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-05T12:44:00+08:00",
-        "run_id": "20261105T124400+0800-cycle-4",
-        "species_id": 62,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #62 Ketupa sumatrana v4; verified v4 concept is a 680x453 derivative and no v5 exists on current main",
-          "baseline_commit": "f736756efecf689e80983353e33eb381f8b27240",
-          "prior_version": "owl-pet/design/concepts/62-ketupa-sumatrana-v4.jpg",
-          "lease_expires_at": "2026-11-05T12:59:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T12:50:00+08:00",
-        "run_id": "20261105T124400+0800-cycle-4",
-        "species_id": 62,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "BEOW-FOLEY-2013-P34-37",
-            "BEOW-LKC-SBR-2017-178",
-            "BEOW-SGBIRDS-2026"
-          ],
-          "new_sources": 1,
-          "reread_sources": 2,
-          "corrected_boundaries": 2,
-          "species_card": "owl-pet/research/species/62-ketupa-sumatrana-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T13:05:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T12:52:00+08:00",
-        "run_id": "20261105T124400+0800-cycle-4",
-        "species_id": 62,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/62-ketupa-sumatrana-v5-generated-master.png",
-          "dimensions": "1536x1024",
-          "bytes": 3496990,
-          "sha256": "e49d977090f3b718dfc42af4a7686962e9437730b8df65e26d92eab15c633795",
-          "generation_seconds": 63.7,
-          "edit_count": 0,
-          "inspection_issue": "centre juvenile visible wing was too long and regularly layered for the conservative approximately day-27 boundary; bounded juvenile-only edit required",
-          "complete_prompt": "owl-pet/research/species/62-ketupa-sumatrana-v5.md",
-          "lease_expires_at": "2026-11-05T13:07:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T12:55:00+08:00",
-        "run_id": "20261105T124400+0800-cycle-4",
-        "species_id": 62,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": true,
-          "edit_count": 1,
-          "generation_seconds": 63.7,
-          "edit_seconds": 48.8,
-          "final_path": "owl-pet/design/concepts/62-ketupa-sumatrana-v5.png",
-          "final_sha256": "70b48f23a165664b6cb1ca9f9c78357fc02bddaf0d3200279fd9a7e93c0efa87",
-          "final_bytes": 3275668,
-          "review_path": "owl-pet/research/reviews/62-ketupa-sumatrana-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/62-ketupa-sumatrana-v5-adults.png",
-          "adult_crop_sha256": "7677220bee1f4c24f97eda2b66e99465476fc48cfe5860d6cf8328ec2275327f",
-          "juvenile_crop": "owl-pet/production/review-crops/62-ketupa-sumatrana-v5-juvenile.png",
-          "juvenile_crop_sha256": "3c4301acfec4ec863b92280ed4a3ce5105324939f1c64c6fae5ca390ef664cad",
-          "scientifically_verified": false,
-          "unknowns": [
-            "estimated rather than witnessed hatch date",
-            "exact day-27 feather chronology",
-            "juvenile sex/subspecies",
-            "population-wide sex dimensions",
-            "universality of resort-planter nest"
-          ],
-          "lease_expires_at": "2026-11-05T13:10:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T12:58:00+08:00",
-        "run_id": "20261105T124400+0800-cycle-4",
-        "species_id": 62,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "6264d5c372b78b7eb9b7c289be9c480666cad1da",
-          "generated_blob": "cc335266a0df77eba3d6604ee8d9793615881bd5",
-          "reviewed_blob": "6264d5c372b78b7eb9b7c289be9c480666cad1da",
-          "adults_crop_blob": "c6b72e8d097192565cbf5353a6f54337ae5dd072",
-          "juvenile_crop_blob": "247dd800f5b2233a2a40175addac34a80c619c2b",
-          "manifest_counts": {
-            "design_image": 685,
-            "design_legacy": 686,
-            "production": 676
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T13:13:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T13:02:00+08:00",
-        "run_id": "20261105T124400+0800-cycle-4",
-        "species_id": 62,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "1cded830a548943ffe326d985a72402d38f9f138",
-          "archive_tree": "79f031f7b530973e794ec9321b368c4ee8c420bb",
-          "paths_verified": 13,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 4,
-          "manifest_counts": {
-            "design_image": 685,
-            "design_legacy": 686,
-            "production": 676
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 5,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T13:17:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T13:05:00+08:00",
-        "run_id": "20261105T124400+0800-cycle-4",
-        "species_id": 62,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "1cded830a548943ffe326d985a72402d38f9f138",
-          "verification_commit": "53f7d84325e160f25b325dd247c46f56489db426",
-          "verification_tree": "3a8d7a49fa609112193b1b903e8130aad4177009",
-          "manifest_counts": {
-            "design_image": 685,
-            "design_legacy": 686,
-            "production": 676
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 5
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-05T13:36:51+08:00",
-        "run_id": "20261105T133651+0800-cycle-5",
-        "species_id": 63,
-        "credited": false,
-        "evidence": {
-          "selection": "full-resolution science/archive revision of #63 Scotopelia peli v4; verified v4 concept is a 680x453 derivative and no v5 exists on current main",
-          "baseline_commit": "f7aff2f22adad95304f70e718ce7cc3320a6b4df",
-          "prior_version": "owl-pet/design/concepts/63-scotopelia-peli-v4.jpg",
-          "lease_expires_at": "2026-11-05T13:51:51+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T13:43:00+08:00",
-        "run_id": "20261105T133651+0800-cycle-5",
-        "species_id": 63,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "PFOW-SANPARKS-KRUGER-2007-P6",
-            "PFOW-BIRDLIFE-SA-2025-ECOLOGY",
-            "PFOW-SANBI-03164-2026",
-            "PFO-BROOKE-1984-P128"
-          ],
-          "new_sources": 1,
-          "reread_sources": 3,
-          "corrected_boundaries": 3,
-          "species_card": "owl-pet/research/species/63-scotopelia-peli-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_saved": true,
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T13:58:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T13:45:00+08:00",
-        "run_id": "20261105T133651+0800-cycle-5",
-        "species_id": 63,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/63-scotopelia-peli-v5-generated-master.png",
-          "dimensions": "1536x1024",
-          "bytes": 3205819,
-          "sha256": "1cc9b6f7c1fa49d3a63498b4c7741df8e9f6563a4c2fd352edf2dad54456e6e0",
-          "generation_seconds": 40.5,
-          "edit_count": 0,
-          "preliminary_inspection": "exactly three birds; adult identity/near-equal scale/bare fishing feet and juvenile down/support pass; crop review pending",
-          "complete_prompt": "owl-pet/research/species/63-scotopelia-peli-v5.md",
-          "lease_expires_at": "2026-11-05T14:00:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T13:48:00+08:00",
-        "run_id": "20261105T133651+0800-cycle-5",
-        "species_id": 63,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": false,
-          "edit_count": 0,
-          "generation_seconds": 40.5,
-          "final_path": "owl-pet/design/concepts/63-scotopelia-peli-v5.png",
-          "final_sha256": "1cc9b6f7c1fa49d3a63498b4c7741df8e9f6563a4c2fd352edf2dad54456e6e0",
-          "final_bytes": 3205819,
-          "review_path": "owl-pet/research/reviews/63-scotopelia-peli-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/63-scotopelia-peli-v5-adults.png",
-          "adult_crop_sha256": "86c50f9ee5de162fc3f5f7ebec9ad1f797097b6086c9bfde912891a11a85dde5",
-          "juvenile_crop": "owl-pet/production/review-crops/63-scotopelia-peli-v5-juvenile.png",
-          "juvenile_crop_sha256": "8498db31ac5a6f49bc6e2e729c839855d7ed96dfa6ec07134bb745bdb90e87c4",
-          "scientifically_verified": false,
-          "unknowns": [
-            "exact juvenile age and sex",
-            "continuous feather chronology",
-            "locomotor and flight capacity",
-            "exact Pafuri perch geometry",
-            "population-wide sex dimensions",
-            "cross-population transfer"
-          ],
-          "lease_expires_at": "2026-11-05T14:03:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T13:52:00+08:00",
-        "run_id": "20261105T133651+0800-cycle-5",
-        "species_id": 63,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "d5221b48cceeb4d5cd47723d9e7cde7277781dc9",
-          "generated_blob": "d5221b48cceeb4d5cd47723d9e7cde7277781dc9",
-          "reviewed_blob": "d5221b48cceeb4d5cd47723d9e7cde7277781dc9",
-          "adults_crop_blob": "e9c9e7026593d1d9f762962c69d33936adf8e8a6",
-          "juvenile_crop_blob": "3068fb75d936206e2bfdec92c4ad53064008106e",
-          "manifest_counts": {
-            "design_image": 686,
-            "design_legacy": 687,
-            "production": 677
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T14:07:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T13:55:00+08:00",
-        "run_id": "20261105T133651+0800-cycle-5",
-        "species_id": 63,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "c06d60fc0a60e1d690d766dfb5ff898ceceda59a",
-          "archive_tree": "4fe0015ae0e78624c85dade070736202e0ef9358",
-          "paths_verified": 13,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 686,
-            "design_legacy": 687,
-            "production": 677
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 6,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T14:10:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T13:57:00+08:00",
-        "run_id": "20261105T133651+0800-cycle-5",
-        "species_id": 63,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "c06d60fc0a60e1d690d766dfb5ff898ceceda59a",
-          "verification_commit": "af1d96998cb82a564760544ef4c6fa460f9bae96",
-          "verification_tree": "33a649aa6dbe7a8e5713ffbf6505a607df07e80b",
-          "manifest_counts": {
-            "design_image": 686,
-            "design_legacy": 687,
-            "production": 677
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": 6
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-05T13:58:47+08:00",
-        "run_id": "20261105T135847+0800-cycle-6",
-        "species_id": 64,
-        "credited": false,
-        "evidence": {
-          "selection": "conditional evidence-backed science revision of #64 Tyto glaucops v4; current batch sequence reaches #64, science false and no v5 exists; generation only if new research adds a material boundary",
-          "baseline_commit": "81e20e2c18be45299e6d954970aec621a8478c0c",
-          "prior_version": "owl-pet/design/concepts/64-tyto-glaucops-v4.png",
-          "lease_expires_at": "2026-11-05T14:13:47+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-05T14:38:40+08:00",
-        "run_id": "20261105T135847+0800-cycle-6",
-        "species_id": 64,
-        "credited": false,
-        "evidence": {
-          "source_ids": [
-            "AFO-BIRDFORUM-2008-JUV",
-            "AFO-CURTI-2018",
-            "AFO-MACAULAY-ML201989861",
-            "AFO-CLEMENTS-2024-SPECIES",
-            "AFO-ITIS-555358-2026"
-          ],
-          "new_sources": 1,
-          "reread_or_reused_sources": 4,
-          "corrected_boundaries": 3,
-          "species_card": "owl-pet/research/species/64-tyto-glaucops-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_saved": true,
-          "material_change_from_v4": "older photographed juvenile on a high-elevation pine perch; not the age-unknown begging young beside one Palmchat nest",
-          "mikkola_upload_accessible": false,
-          "lease_expires_at": "2026-11-05T14:53:40+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-05T14:41:11+08:00",
-        "run_id": "20261105T135847+0800-cycle-6",
-        "species_id": 64,
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/64-tyto-glaucops-v5-generated-master.png",
-          "dimensions": "1536x1024",
-          "bytes": 3107007,
-          "sha256": "ce3b0bb47b220e017daabd939c0e4c39401105125b415a831d11d1a108e3963d",
-          "generation_seconds": 46.5,
-          "edit_count": 0,
-          "inspection_issue": null,
-          "complete_prompt": "owl-pet/research/species/64-tyto-glaucops-v5.md",
-          "lease_expires_at": "2026-11-05T14:56:11+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-05T14:42:49+08:00",
-        "run_id": "20261105T135847+0800-cycle-6",
-        "species_id": 64,
-        "credited": false,
-        "evidence": {
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "image_edit_required": false,
-          "edit_count": 0,
-          "generation_seconds": 46.5,
-          "final_path": "owl-pet/design/concepts/64-tyto-glaucops-v5.png",
-          "final_sha256": "ce3b0bb47b220e017daabd939c0e4c39401105125b415a831d11d1a108e3963d",
-          "final_bytes": 3107007,
-          "review_path": "owl-pet/research/reviews/64-tyto-glaucops-v5-review.md",
-          "adult_crop": "owl-pet/production/review-crops/64-tyto-glaucops-v5-adults.png",
-          "adult_crop_sha256": "880d51944346c1ad51695ae6ad8c430b9760752932172cf44fd2302372b48860",
-          "juvenile_crop": "owl-pet/production/review-crops/64-tyto-glaucops-v5-juvenile.png",
-          "juvenile_crop_sha256": "5567079ab3f836663b47a57852e1ad899846b987288b77fc6f4280d13a2eac8c",
-          "scientifically_verified": false,
-          "unknowns": [
-            "exact juvenile age, sex and subspecies",
-            "continuous feather chronology",
-            "first-flight and climbing competence",
-            "quantitative sexed dimensions",
-            "habitat generality"
-          ],
-          "lease_expires_at": "2026-11-05T14:57:49+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-05T14:45:00+08:00",
-        "run_id": "20261105T135847+0800-cycle-6",
-        "species_id": 64,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "concept_blob": "39310c62e82b0bba9de81cb1098a2465a91edc5f",
-          "generated_blob": "39310c62e82b0bba9de81cb1098a2465a91edc5f",
-          "reviewed_blob": "39310c62e82b0bba9de81cb1098a2465a91edc5f",
-          "adults_crop_blob": "8ddc92381ede1dd0301304276bf130b1824d0679",
-          "juvenile_crop_blob": "1768ce4f7639a4336056498b8e7525bb8da19834",
-          "manifest_counts": {
-            "design_image": 687,
-            "design_legacy": 688,
-            "production": 678
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-05T15:00:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-05T14:53:05+08:00",
-        "run_id": "20261105T135847+0800-cycle-6",
-        "species_id": 64,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "d65b04f9537d08688eeadfd5d7392c285a137d90",
-          "archive_tree": "365fb544c4509d521eb2eba8dbfbe3f1d27e391e",
-          "rejected_archive": "2e4b9f9b6990b392d80e7bd13a1fc82111c0fc30",
-          "paths_verified": 13,
-          "binary_paths_verified": 5,
-          "unique_binary_blobs": 3,
-          "manifest_counts": {
-            "design_image": 687,
-            "design_legacy": 688,
-            "production": 678
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-05T15:08:05+08:00"
-        }
-      },
-      {
-        "batch_id": "20261105T103554+0800",
-        "cycle": 6,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-05T15:34:00+08:00",
-        "run_id": "20261105T135847+0800-cycle-6",
-        "species_id": 64,
-        "credited": true,
-        "evidence": {
-          "archive_commit": "d65b04f9537d08688eeadfd5d7392c285a137d90",
-          "verification_commit": "aa96230570c9b19f4acadddefda1b1bcee8897c8",
-          "verification_tree": "75158c7cb9aa2bf0d43b570fa82edcddc4814282",
-          "manifest_counts": {
-            "design_image": 687,
-            "design_legacy": 688,
-            "production": 678
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "next_cycle": null,
-          "batch_status": "COMPLETE"
+          "selection": "science revision of #65 Tyto soumagnei v4; verify primary-thesis conflict between visible female mass direction and stated absence of apparent sexual dimorphism, plus separate down-only nestling evidence",
+          "baseline_commit": "da070726d3943cf237afcdef48393c5cf5dbca35",
+          "prior_version": "owl-pet/design/concepts/65-tyto-soumagnei-v4.png",
+          "lease_expires_at": "2026-11-05T15:50:30+08:00"
         }
       }
     ]

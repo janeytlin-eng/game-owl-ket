@@ -21239,18 +21239,32 @@
       "historical_names": [],
       "version": 5,
       "action": "SCIENCE_REVISION",
-      "previous_versions": [1, 2, 3, 4],
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
       "scientifically_verified": false,
       "review_result": "PASS_WITH_LIMITATIONS",
       "unique_species_increment": 0,
       "edit_count": 0,
       "status": "VERIFIED",
-      "source_ids": ["AFO-BIRDFORUM-2008-JUV", "AFO-CURTI-2018", "AFO-MACAULAY-ML201989861", "AFO-CLEMENTS-2024-SPECIES", "AFO-ITIS-555358-2026"],
+      "source_ids": [
+        "AFO-BIRDFORUM-2008-JUV",
+        "AFO-CURTI-2018",
+        "AFO-MACAULAY-ML201989861",
+        "AFO-CLEMENTS-2024-SPECIES",
+        "AFO-ITIS-555358-2026"
+      ],
       "source_index": "research/SOURCE_INDEX.md",
       "research_record": "research/species/64-tyto-glaucops-v5.md",
       "review_record": "research/reviews/64-tyto-glaucops-v5-review.md",
       "run_record": "production/runs/20261105T135847+0800-cycle-6.md",
-      "dimensions": {"width": 1536, "height": 1024},
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
       "size_bytes": 3107007,
       "sha256": "ce3b0bb47b220e017daabd939c0e4c39401105125b415a831d11d1a108e3963d",
       "git_blob": "39310c62e82b0bba9de81cb1098a2465a91edc5f",
@@ -21275,6 +21289,64 @@
       "archive_commit": "d65b04f9537d08688eeadfd5d7392c285a137d90",
       "archive_tree": "365fb544c4509d521eb2eba8dbfbe3f1d27e391e",
       "verification_result": "Non-truncated 3,044-entry immutable tree matched 13 required paths, exact Git blobs and true sizes after chunk-repair of the initial truncated archive; manifests parse locally at 687/688/678."
+    },
+    {
+      "id": "65-tyto-soumagnei-v5",
+      "path": "design/concepts/65-tyto-soumagnei-v5.png",
+      "species_id": 65,
+      "scientific_name": "Tyto soumagnei",
+      "current_scientific_name": "Tyto soumagnei",
+      "common_name": "Madagascar Red Owl",
+      "historical_names": [
+        "Heliodilus soumagnei"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MRO-RAMAMONJISOA-2014-P56-57-75-77",
+        "MRO-MNHN-HOLOTYPE-2026",
+        "MRO-NHM-2003-P1112",
+        "MRO-THORSTROM-NEST-1996"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/65-tyto-soumagnei-v5.md",
+      "review_record": "research/reviews/65-tyto-soumagnei-v5-review.md",
+      "run_record": "production/runs/20261105T153530+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3147491,
+      "sha256": "30243ecf003c23b37a0c6672c358948702c675a754faea37c8e887596ab7bd23",
+      "git_blob": "302790e817f0cb55738fa9239267cb96148c8add",
+      "generated_path": "production/generated/65-tyto-soumagnei-v5-generated-master.png",
+      "generated_blob": "302790e817f0cb55738fa9239267cb96148c8add",
+      "generated_sha256": "30243ecf003c23b37a0c6672c358948702c675a754faea37c8e887596ab7bd23",
+      "generated_size_bytes": 3147491,
+      "reviewed_path": "production/reviewed/65-tyto-soumagnei-v5-reviewed-master.png",
+      "reviewed_blob": "302790e817f0cb55738fa9239267cb96148c8add",
+      "adults_review_crop": "production/review-crops/65-tyto-soumagnei-v5-adults.png",
+      "adults_review_blob": "a4f324d8283db9f534d24b4b97450545e7561ddb",
+      "adults_review_size_bytes": 2192454,
+      "adults_review_sha256": "ce00ac41f0fa28e6921d14313fdf0088d6cfdbdee9806a7d15e3e9e43f6806cb",
+      "juvenile_review_crop": "production/review-crops/65-tyto-soumagnei-v5-juvenile.png",
+      "juvenile_review_blob": "8e0a0f92a68d162d8a5ae3405ed6892df920e15b",
+      "juvenile_review_size_bytes": 962665,
+      "juvenile_review_sha256": "a1c8305e8d551dc3fcecdb2e726cc9a95c7b7a053495c816bd5b5989edbf0500",
+      "reviewed_at": "2026-11-05T15:46:30+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4 and corrects a visible female-size direction using the 2014 thesis: mean mass differs, but mean wingspan is nearly equal and no size/colour/form dimorphism is visually detectable. It separately depicts an age-unknown down-only nestling low in a documented deep Bemanevika tree cavity. Full and crop review passed without edit. Exact age/sex/feather chronology/locomotor threshold/population-wide transfer remain unknown; science false."
     }
   ],
   "updated_at": "2026-11-05T14:53:05+08:00"

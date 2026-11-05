@@ -38,3 +38,9 @@
 ### #64 v5 LEDGER_CREDITED — batch COMPLETE 6/6
 
 - Verification commit `aa96230570c9b19f4acadddefda1b1bcee8897c8` and tree `75158c7cb9aa2bf0d43b570fa82edcddc4814282` were read back after the repaired archive. Cycle 6 is credited exactly once; batch `20261105T103554+0800` is COMPLETE 6/6 and the lease is released. Unique species remains 176/251; revision +1; scientific verification remains false.
+## 2026-11-05 #65 *Tyto soumagnei* v5 ARCHIVED — readback pending
+
+- The 2014 thesis corrects the visible adult-size direction: higher mean female mass coexists with nearly equal mean wingspan and an explicit statement that size/colour/form dimorphism is not visually detectable. V5 therefore uses equal adult silhouettes.
+- The age-unknown juvenile is based on separately documented Bemanevika chicks still covered only in down and unable to escape a deep tree cavity; v3/v4 stages are not merged. Full master and two crops passed without edit.
+- Manifests 688/689/679; unique 176/251; revision +1; science false. No cycle credit before immutable readback.
+

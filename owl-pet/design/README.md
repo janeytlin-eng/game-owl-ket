@@ -2981,3 +2981,8 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 - [Concept](concepts/55-bubo-lacteus-v5.png) · [Research](../research/species/55-bubo-lacteus-v5.md) · [Review](../research/reviews/55-bubo-lacteus-v5-review.md) · [Run](../production/runs/20261105T070800+0800-cycle-4.md)
 - Brown 1965 controls the approximately-six-week, fully supported stick-nest juvenile boundary. Two targeted edits softened an adult-layered juvenile wing and reduced adult pink lids to a narrow diagnostic rim. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable archive readback passed.
+
+## #58 Dusky Eagle-Owl — *Ketupa coromanda* — v5
+
+- [Concept](concepts/58-ketupa-coromanda-v5.png) · [Research](../research/species/58-ketupa-coromanda-v5.md) · [Review](../research/reviews/58-ketupa-coromanda-v5-review.md) · [Run](../production/runs/20261105T085600+0800-cycle-6.md)
+- Full-resolution v5 maps legacy *Bubo coromandus*/*Strix coromanda* to the current name. The field-estimated 8–10-week branch-moving juvenile remains fully supported beside a high old stick nest; one edit shortened and softened overly adult-ordered wing/tail layering. PASS_WITH_LIMITATIONS; science false; unique remains 176/251; immutable readback pending.

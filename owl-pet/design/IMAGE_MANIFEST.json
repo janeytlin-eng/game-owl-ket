@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T08:53:00+08:00",
+  "updated": "2026-11-05T09:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -21019,7 +21019,63 @@
       "archive_commit": "4a13d7cd28862e6d6e4e4e966de83f6be539fcd9",
       "archive_tree": "1b08cf33a5243c02d9c971c74aadfbd0070711e3",
       "verification_result": "Immutable archive readback matched all 18 required paths, seven binary path/blob tuples, four unique image blobs, three parseable manifests and complete evidence/status records."
+    },
+    {
+      "id": "58-ketupa-coromanda-v5",
+      "path": "design/concepts/58-ketupa-coromanda-v5.png",
+      "species_id": 58,
+      "scientific_name": "Ketupa coromanda",
+      "current_scientific_name": "Ketupa coromanda",
+      "common_name": "Dusky Eagle-Owl",
+      "historical_names": [
+        "Bubo coromandus",
+        "Strix coromanda"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION_AND_RESOLUTION_REPAIR",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "DEO-REDDY-RAMACHANDRAN-2023-P44-47",
+        "DEO-RANADE-GHOSH-PRAKASH-2020-P93-94",
+        "DEO-ITIS-1244714"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/58-ketupa-coromanda-v5.md",
+      "review_record": "research/reviews/58-ketupa-coromanda-v5-review.md",
+      "run_record": "production/runs/20261105T085600+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3208931,
+      "sha256": "71a8eeddcbea076331b8c5647f34f10fbb0b4625d81a547e1ca1fd2f1060fef2",
+      "git_blob": "27125dd19f3fd39604eaa145fe1ee9ab11224b4e",
+      "generated_path": "production/generated/58-ketupa-coromanda-v5-generated-master.png",
+      "generated_blob": "1eb73346e50f6031db07e02d783ccac6cffbe024",
+      "reviewed_path": "production/reviewed/58-ketupa-coromanda-v5-reviewed-master.png",
+      "reviewed_blob": "27125dd19f3fd39604eaa145fe1ee9ab11224b4e",
+      "adults_review_crop": "production/review-crops/58-ketupa-coromanda-v5-adults.png",
+      "adults_review_blob": "eb843e59a3955e0acd80f14f6a39830e049c1469",
+      "juvenile_review_crop": "production/review-crops/58-ketupa-coromanda-v5-juvenile.png",
+      "juvenile_review_blob": "2170acc15c17018561f069363cfb2dce8389ea27",
+      "reviewed_at": "2026-11-05T09:39:30+08:00",
+      "readback_pending": true,
+      "adults_review_size_bytes": 1918455,
+      "adults_review_sha256": "13e75bc0700b931f5b161a946c9f3cdbe60afef3c15137cf3b642ff328b9328f",
+      "juvenile_review_size_bytes": 825929,
+      "juvenile_review_sha256": "ecec0c1dddec3505b2f69d339694b64fedbd0a859b1a4d61af4a9277015e8804",
+      "archive_note": "The first render's estimated 8–10-week juvenile had overly adult-ordered folded wing rows and tail. One juvenile-only edit increased down overlap, shortened and softened the wing/tail silhouette and lowered the bird into a broad two-foot fork. Full master and juvenile crop were reopened; branch movement was not treated as sustained-flight evidence; science remains false."
     }
   ],
-  "updated_at": "2026-11-05T08:53:00+08:00"
+  "updated_at": "2026-11-05T09:42:00+08:00"
 }

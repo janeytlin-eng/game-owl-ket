@@ -22104,17 +22104,17 @@
     "active_lease": {
       "owner": "codex-automation",
       "run_id": "20261105T085600+0800-cycle-6",
-      "heartbeat_at": "2026-11-05T09:39:30+08:00",
-      "expires_at": "2026-11-05T09:54:30+08:00"
+      "heartbeat_at": "2026-11-05T09:42:00+08:00",
+      "expires_at": "2026-11-05T09:57:00+08:00"
     },
     "in_progress": {
       "cycle": 6,
       "run_id": "20261105T085600+0800-cycle-6",
       "species_id": 58,
       "species": "Ketupa coromanda",
-      "stage": "REVIEWED"
+      "stage": "ARCHIVED"
     },
-    "current_stage": "REVIEWED",
+    "current_stage": "ARCHIVED",
     "events": [
       {
         "cycle": 1,
@@ -22879,6 +22879,32 @@
           "juvenile_crop_blob": "2170acc15c17018561f069363cfb2dce8389ea27",
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-05T09:54:30+08:00"
+        }
+      },
+      {
+        "cycle": 6,
+        "stage": "ARCHIVED",
+        "at": "2026-11-05T09:42:00+08:00",
+        "run_id": "20261105T085600+0800-cycle-6",
+        "species_id": 58,
+        "credited": false,
+        "evidence": {
+          "version": 5,
+          "concept_blob": "27125dd19f3fd39604eaa145fe1ee9ab11224b4e",
+          "generated_blob": "1eb73346e50f6031db07e02d783ccac6cffbe024",
+          "reviewed_blob": "27125dd19f3fd39604eaa145fe1ee9ab11224b4e",
+          "adult_crop_blob": "eb843e59a3955e0acd80f14f6a39830e049c1469",
+          "juvenile_crop_blob": "2170acc15c17018561f069363cfb2dce8389ea27",
+          "manifest_counts": {
+            "design_image": 681,
+            "design_legacy": 682,
+            "production": 672
+          },
+          "unique_species": "176/251",
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-05T09:57:00+08:00"
         }
       }
     ]

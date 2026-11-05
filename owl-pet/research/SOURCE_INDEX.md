@@ -1116,3 +1116,9 @@
 - NDLTD blocked `TFO-LIU-2015-UNVERIFIED` with CAPTCHA; its indexed abstract remains a lead only, not verified design evidence.
 - Corrections: “sexes alike” is not a measured size ratio; a >50/approximately-60-day nest period is not a 40-day flight threshold; supported trunk exploration is not flight competence. New3 / re-read1 / reused2 / corrected3; scientific status false.
 
+# 2026-11-05 — #61 *Ketupa ketupu* v5 — discovery interval is not hatch age
+
+- **Re-read:** `BFOW-NPARKS-BIODIVERSITYSG-2026`, `BFOW-BESG-NEST-2016`, `BFOW-SBG-BREED-2016`; **reused:** `BFOW-BESG-FLEDGE-2016`; new 0, corrected boundary 1.
+- NParks lines 19–47 support adult morphology, bare legs and water-associated habitat. BESG lines 11–47 directly support a down-covered, mostly resting/occasionally shifting chick in living *Asplenium nidus*. Singapore Bird Group lines 11–32 state that 25 March was about two weeks after **discovery**, not a known hatch date; the later branch bird and inferred short flight are not transferred backward.
+- Design decision: early nestling, exact age unknown, full fern support, no formed remiges/tail/flight; adult sexes near-equal absent measurements. Source facts and design inference are separated in [species card](species/61-ketupa-ketupu-v5.md). Mikkola unavailable; science false.
+

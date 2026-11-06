@@ -1617,3 +1617,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 - 2026-11-06T12:55:30+08:00: verified #107 *Strix fulvescens* v5 at archive `8f5991f374e65cbefa870124388491724a0a4597`, tree `7f82d3c3f32aa8f393cf7356b4c006de727dd822`; 3,359 non-truncated entries, five exact image tuples and manifests 723/724/714 passed. Unique 176/251; science false; ledger credit pending.
 
+- 2026-11-06T12:57:00+08:00: #107 *Strix fulvescens* v5 LEDGER_CREDITED after verification `d33edbcd1b70ffa23f7efcedf33389f7c488d225`; active batch 1/6, next cycle 2, lease released. Unique 176/251; revision +1; science false.
+

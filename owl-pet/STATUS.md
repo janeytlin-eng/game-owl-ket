@@ -3526,7 +3526,7 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 ### #82 v5 LEDGER_CREDITED — batch COMPLETE 6/6
 
 - Verification commit `719832fcb74c8e35929938112d07e8efc6b1af91`, tree `d95544493ac480ce451aa66a6ac0971b38365ee9`, is credited once. Batch `20261105T233209+0800` is COMPLETE 6/6, `next_cycle=null`, and lease is released. Unique 176/251; revision +1; science false.
-## 2026-11-06 — #107 *Strix fulvescens* v5 immutable archive verified
+## 2026-11-06 — #107 *Strix fulvescens* v5 LEDGER_CREDITED — batch 1/6
 
-New active batch `20261106T123716+0800`, cycle 1/6. Two new source IDs, one re-read source and two reused repository records; one imagegen revision; full plus two crop inspections pass. Archive `8f5991f374e65cbefa870124388491724a0a4597`, tree `7f82d3c3f32aa8f393cf7356b4c006de727dd822`, 3,359 non-truncated entries, five exact image tuples and manifests 723/724/714 passed. Unique species remain 176/251 because this is a revision. Scientific verification remains false; ledger credit pending.
+New active batch `20261106T123716+0800`, cycle 1/6. Two new source IDs, one re-read source and two reused repository records; one imagegen revision; full plus two crop inspections pass. Archive `8f5991f374e65cbefa870124388491724a0a4597`, tree `7f82d3c3f32aa8f393cf7356b4c006de727dd822`, 3,359 non-truncated entries, five exact image tuples and manifests 723/724/714 passed. Verification commit `d33edbcd1b70ffa23f7efcedf33389f7c488d225` was read back; cycle credited once and next cycle is 2. Unique species remain 176/251 because this is a revision. Scientific verification remains false.
 

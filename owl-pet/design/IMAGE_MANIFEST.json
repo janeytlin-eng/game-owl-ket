@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-06T16:36:47+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -24435,7 +24435,67 @@
       "verified_at": "2026-11-06T15:45:00.000+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable d520ffa8 readback found all 14 required paths in a non-truncated 3392-entry tree. Six image path/blob/byte tuples matched; the original-resolution concept was downloaded by immutable commit and matched 2,934,410 bytes plus SHA-256 d7d497db…. Remote manifests parsed at 727/728/718 and ended with #120 v4. Science remains false."
+    },
+    {
+      "id": "123-otus-gurneyi-v5",
+      "path": "design/concepts/123-otus-gurneyi-v5.png",
+      "species_id": 123,
+      "scientific_name": "Otus gurneyi",
+      "historical_names": [
+        "Mimizuku gurneyi"
+      ],
+      "common_name": "Giant Scops Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "GSO-SHANKAR-2013-YOUNG-CORR",
+        "GSO-MIRANDA-2011",
+        "GSO-OWLPAGES-2020"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/123-otus-gurneyi-v5.md",
+      "review_record": "research/reviews/123-otus-gurneyi-v5-review.md",
+      "run_record": "production/runs/20261106T154600+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2958852,
+      "sha256": "db3edfa87638bc262e6e2c11d6a070ca3d20d0bf7b4017e7f315978c366cc2a6",
+      "git_blob": "0def6c80eb1e4230d7d5471621697d4ea4497357",
+      "generated_path": "production/generated/123-otus-gurneyi-v5-generated-master.png",
+      "generated_blob": "0def6c80eb1e4230d7d5471621697d4ea4497357",
+      "generated_sha256": "db3edfa87638bc262e6e2c11d6a070ca3d20d0bf7b4017e7f315978c366cc2a6",
+      "generated_size_bytes": 2958852,
+      "edit_path": "production/edits/123-otus-gurneyi-v5-edit1.png",
+      "edit_blob": "0def6c80eb1e4230d7d5471621697d4ea4497357",
+      "reviewed_path": "production/reviewed/123-otus-gurneyi-v5-reviewed-master.png",
+      "reviewed_blob": "0def6c80eb1e4230d7d5471621697d4ea4497357",
+      "juvenile_review_crop": "production/review-crops/123-otus-gurneyi-v5-juvenile.png",
+      "juvenile_review_blob": "ca281bf686d4567be3f6b9d062e0ebc960255e9d",
+      "juvenile_review_size_bytes": 894242,
+      "juvenile_review_sha256": "5a9e0c101a5509cfbaef851fc4dff4cbdac0f011de9fca84380d6041e9e1b94d",
+      "adults_review_crop": "production/review-crops/123-otus-gurneyi-v5-adults-support.png",
+      "adults_review_blob": "e5b8aa2fbd9e6cfacc697f8de2b862262238c638",
+      "adults_review_size_bytes": 1761166,
+      "adults_review_sha256": "a9cde57f23b860a5afcff4fca4a0339728b7372344b7d60a34c6df86aca0bc19",
+      "reviewed_at": "2026-11-06T15:58:00.000+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V5 preserves v1-v4 and corrects v4 over-concealment: the full-resolution Shankar juvenile photograph supports narrow dark formed, down-veiled side flight-feather panels while the tail remains concealed. Adult sex differentiation remains deliberately restrained; exact juvenile age, chick sex, flight competence and population-wide sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T15:45:00.000+08:00"
+  "updated_at": "2026-11-06T16:36:47+08:00"
 }

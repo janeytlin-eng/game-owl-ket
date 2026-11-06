@@ -1778,3 +1778,28 @@
 ### Reuse and correction
 - Reused repository-pinned `JAP-MIK2013-466`, `JAP-TAIEOL2013` and v1/v2 visual/recovery history. New3/reused3/corrected5.
 - V3 preserves near-equal adults and continuous support, but replaces the generic center bird with an explicitly age-unknown recent fledgling; uses the primary juvenile tail boundary and forbids adult-perfect wing/tail or unsupported flight. Science remains false.
+
+
+## 2026-11-06 — #93 *Aegolius harrisii iheringi* v4 — monitored 24-day nestling and name mapping
+
+### HAR-BODRATI-ETAL-2019-151-156
+- **Title/authors/year:** “Nidificación de la Lechucita Canela (*Aegolius harrisii*) en Misiones, Argentina” — Bodrati, Gómez, Ferreyra & Cockle, 2019, *Ornitología Neotropical* 30:151–156.
+- **DOI/URL/accessed:** https://doi.org/10.58843/ornneo.v30i0.479 ; https://www.researchgate.net/publication/335456226_NIDIFICACION_DE_LA_LECHUCITA_CANELA_AEGOLIUS_HARRISII_EN_MISIONES_ARGENTINA ; primary paper/author-uploaded full text and figures read 2026-11-06.
+- **Pages/species/stage:** printed pp.151–156; monitored *A. harrisii* nest, hatching through 35–37 d fledging.
+- **Facts:** old Lineated Woodpecker cavity 9.6 m high in a dead garapa in primary Atlantic Forest, Misiones; hatchlings had sparse dark-grey natal down, facial-disc development began by 10 d, and at 24 d young resembled adults; fledging at 35–37 d. Sex roles remain unresolved.
+- **Limits/design use:** single monitored nest; “resembled adults” does not prove adult-perfect remiges/tail or flight at 24 d. Render a supported 24-day cavity-floor nestling with adult-like disc, residual sparse down, fresh shorter folded wings and concealed short tail; no flight pose. High confidence for reported facts.
+- **Links:** `owl-pet/research/species/93-aegolius-harrisii-v4.md`; planned v4 concept/review; `owl-pet/production/runs/20261106T083000+0800-cycle-2.md`.
+
+### HAR-ITIS-555474-2026
+- **Institution/accessed:** ITIS TSN 555474, report read 2026-11-06.
+- **URL/section:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555474 ; taxonomy/nomenclature and references.
+- **Facts/use:** valid species *Aegolius harrisii*; synonym *Nyctale harrisii*; direct child *A. h. iheringi*. Taxonomy only.
+
+### HAR-AVIBASE-IHERINGI-2026
+- **Institution/accessed:** Birds Canada/Avibase taxon record, read 2026-11-06.
+- **URL/section:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=9C9B1C5CC52200CC ; original-description and checklist-concept sections.
+- **Facts/use:** current *A. h. iheringi* concept; Sharpe 1899; protonym *Gisella iheringi*; type locality São Paulo. Taxonomy/range mapping only.
+
+### Reuse, correction and unknowns
+- Reused repository-pinned Mikkola printed p.447/PDF p.449 and #93 v3 research; uploaded original unavailable, so no fresh-upload claim.
+- New detailed sources3 / reused2 / corrected boundaries4. Adult scale remains near-equal; labels do not assert visually diagnosable sex. Exact nestling sex, tract chronology, 24-day flight competence, pair ratio and fine toe geometry remain unknown. Scientific verification remains false.

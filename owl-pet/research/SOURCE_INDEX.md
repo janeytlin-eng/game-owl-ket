@@ -2703,3 +2703,33 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 ### MEN-CHASEN-KLOSS-1926-DOI — metadata-only historical lead
 - **Citation:** Chasen & Kloss, 1926, “Spolia Mentawiensis.—Birds”, *Ibis* 68:269–306. DOI: https://doi.org/10.1111/j.1474-919X.1926.tb07583.x
 - **Verification state:** publisher metadata and page range read 2026-11-07; full original species text was not available in this run. Do not use this entry as direct morphology evidence.
+
+
+## 2026-11-07 — #139 *Otus jolandae* v4 source delta
+
+### RIN-SANGSTER-2013-P8-11 — verified primary description
+- **Title / authors / year:** “A New Owl Species of the Genus *Otus* (Aves: Strigidae) from Lombok, Indonesia”, George Sangster, Ben F. King, Philippe Verbelen & Colin R. Trainor, 2013.
+- **URL / DOI:** https://doi.org/10.1371/journal.pone.0053712 ; open full text: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0053712
+- **Access / type / pages:** read 2026-11-07; peer-reviewed open primary species description, pp.8–11 and diagnosis/holotype sections; species and one specimen retaining juvenile feathers.
+- **Useful source facts:** current species was separated from the Lombok population long treated as *O. magicus albiventris*; adults are dark cinnamon-brown and less boldly patterned, with warm cinnamon breast and paler finely barred belly; holotype label records golden-yellow iris, brown bill and dull-ochre feet. Female AMNH 629942 retained scattered white to buffy-white juvenile feathers with brown spots/bars on crown and nape. The paper documents degraded/secondary forest and elevations 25–1350 m.
+- **Limits / confidence:** seven historical specimens and field adult photographs; the retained juvenile feathers occur on one female specimen and do not define a complete juvenile stage, exact age, iris chronology, flight ability or population sex-size relation. High confidence for diagnosis and historical-name context; limited for development.
+- **Design decision:** render an age-unknown older immature, not a chick: smaller/fluffier, formed but softened wing and short tail, with only scattered pale retained crown/nape feathers. Keep adults comparable in displayed scale and avoid repeated bright covert spots.
+- **Links:** `research/species/139-otus-jolandae-v4.md`; target `design/concepts/139-otus-jolandae-v4.png`.
+
+### RIN-MIKKOLA-2013-P188 — re-read uploaded photographic guide
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed., Heimo Mikkola, 2013.
+- **Library file / access:** user-uploaded PDF `libfile_363b879863d48191adc5747cea29008e`; read 2026-11-07.
+- **Type / pages / scope:** photographic species account; PDF p.190 / printed p.188; adult *Otus jolandae*.
+- **Useful source facts:** about 23 cm, 115 g, wing 148–157 mm; no sexual-size data; relatively long ear tufts, warm-brown upperparts, whitish scapular band, golden-yellow eyes, blackish-brown bill, rusty underparts with irregular pale/rich-brown marks, legs feathered to dull-ochre toe bases; forested and degraded habitats to 1350 m.
+- **Limits / confidence:** explicitly says juvenile undescribed; pre-publication photographic synthesis, not a developmental study. High for adult/habitat boundary, none for a complete juvenile atlas.
+- **Design decision:** preserve adult soft parts and comparable display size; the older immature must be constrained by the one primary specimen cue rather than inferred from the related *O. magicus* juvenile account on the next page.
+- **Links:** `research/species/139-otus-jolandae-v4.md`; previous v1–v3 retained.
+
+### RIN-ITIS-1063240-2026 — current-name verification
+- **Institution / access:** Integrated Taxonomic Information System, TSN 1063240; accessed 2026-11-07.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063240
+- **Type / scope:** authoritative taxonomy record; species-level current standing.
+- **Useful source facts:** *Otus jolandae* Sangster, B. F. King, Verbelen & Trainor, 2013 is a valid species; English common name Rinjani Scops Owl.
+- **Historical-name note:** the primary description documents former assignment of the Lombok material to *Pisorhina albiventris*, *Scops albiventris* and *Otus magicus albiventris*; these are historical specimen assignments, not ITIS-listed synonyms.
+- **Limits / confidence:** taxonomy only; not used for morphology, sex, development, behaviour or nest claims.
+- **Design decision:** retain roster name *Otus jolandae* and record the historical assignments without altering the 251-species scope.

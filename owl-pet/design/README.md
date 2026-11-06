@@ -3274,3 +3274,6 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/139-otus-jolandae-v4.png) · [Research](../research/species/139-otus-jolandae-v4.md) · [Review](../research/reviews/139-otus-jolandae-v4-review.md) · [Run](../production/runs/20261107T014600+0800-cycle-2.md)
 - V4 preserves v1–v3, re-reads the 2013 primary description, Mikkola printed p.188 and ITIS current standing. One edit shortened/softened the older-immature wing and reduced repeated adult pale marks. Full/crop review is PASS_WITH_LIMITATIONS; complete juvenile development remains unknown; science false; unique remains 176/251 pending immutable readback.
+
+
+- V4 preserves v1–v3 and uses the northern-Moluccan *O. m. leucospilus* boundary. One targeted edit extended adult leg feathering to leave only a narrow distal bare-tarsus band and replaced the age-unknown older juvenile's long hard wing with a shorter soft fluff-edged wing and mostly concealed tail. Full plate and two crops passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending. Original: [141-otus-magicus-v4.png](concepts/141-otus-magicus-v4.png).

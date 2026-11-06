@@ -387,3 +387,6 @@ Archive `10ab4198d6d295925336d18e8d716d0d70c3263e`, tree `d3ce448a9eda9951da0a24
 ### #139 v4 LEDGER_CREDITED — batch PARTIAL 2/6
 
 Verification `459e5511c6924eb0d39c4e25a38024d2db7b0162` read back after archive `10ab4198d6d295925336d18e8d716d0d70c3263e`. Cycle 2 credited once; batch next_cycle=3; lease released. Unique 176/251; revision +1; science false.
+
+
+2026-11-07T03:08:00+08:00 #141 *Otus magicus* v4 ARCHIVED; northern-Moluccan leucospilus science revision; one targeted tarsus/juvenile-wing edit; full and two crops opened; manifests 751/750/741; unique 176/251; revision +1; PASS_WITH_LIMITATIONS; science false; immutable readback pending.

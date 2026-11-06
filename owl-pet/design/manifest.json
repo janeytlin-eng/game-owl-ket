@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T02:39:30+08:00",
+  "updated": "2026-11-07T03:08:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26008,7 +26008,78 @@
       "verification_tree": "d001e626276e2a534535d11816af9eb60a32e3db",
       "batch_status": "PARTIAL",
       "ledger_credited_at": "2026-11-07T02:39:30+08:00"
+    },
+    {
+      "id": "141-otus-magicus-v4",
+      "path": "design/concepts/141-otus-magicus-v4.png",
+      "species_id": 141,
+      "scientific_name": "Otus magicus",
+      "historical_names": [
+        "Strix magica",
+        "Scops magicus",
+        "Scops leucospilus"
+      ],
+      "common_name": "Moluccan Scops Owl",
+      "scope": "northern-Moluccan Otus magicus leucospilus reference; pale adults and an age-unknown older feathered juvenile; adult sexual-size direction unresolved",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MAG-MIKKOLA-2013-P189-190",
+        "MAG-SHARPE-1875-P70-PLVI",
+        "MAG-SANGSTER-2013",
+        "MAG-ITIS-555379-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/141-otus-magicus-v4.md",
+      "review_record": "research/reviews/141-otus-magicus-v4-review.md",
+      "run_record": "production/runs/20261107T024000+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2479194,
+      "sha256": "e0b133a418c0a49448ffaa524ff989c88117a853bac8bb67cb7db7b28ee6b78c",
+      "git_blob": "7936a591cd9c6bd4ef1a0fffdda64a8d3e39c65d",
+      "generated_path": "production/generated/141-otus-magicus-v4-generated-master.png",
+      "generated_blob": "34e5ebed7770796e06df051dd1f7f059efcc8f06",
+      "generated_sha256": "9977712c84ca589c7b600190dbede62629c55145e5b274870ac567217a4ec6f2",
+      "generated_size_bytes": 2523439,
+      "edit_paths": [
+        "production/generated/141-otus-magicus-v4-edit1.png"
+      ],
+      "edit_blobs": [
+        "7936a591cd9c6bd4ef1a0fffdda64a8d3e39c65d"
+      ],
+      "reviewed_path": "production/reviewed/141-otus-magicus-v4-reviewed-master.png",
+      "reviewed_blob": "7936a591cd9c6bd4ef1a0fffdda64a8d3e39c65d",
+      "juvenile_review_crop": "production/review-crops/141-otus-magicus-v4-older-juvenile.png",
+      "juvenile_review_blob": "c3bcda098d8500e1477cd4f5fa70aea6bc48f5f2",
+      "juvenile_review_size_bytes": 573125,
+      "juvenile_review_sha256": "78fd799ac1a7d3efc56c68fbe438749fe9e4dd05ae18804bf3eecc085831d252",
+      "adult_review_crop": "production/review-crops/141-otus-magicus-v4-adults-support.png",
+      "adult_review_blob": "0818368899620121af2172dd195feeb95cca78a3",
+      "adult_review_size_bytes": 1217583,
+      "adult_review_sha256": "773e50dcc731a448ee5aa9a0eb7dbd122d16919b3c1d8a6d8d93579bb7e903ed",
+      "batch_id": "20261107T012800+0800",
+      "cycle": 4,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T03:08:00+08:00",
+      "exact_readback": false,
+      "archive_commit": null,
+      "archive_tree": null,
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T01:55:07+08:00"
+  "updated_at": "2026-11-07T03:08:00+08:00"
 }

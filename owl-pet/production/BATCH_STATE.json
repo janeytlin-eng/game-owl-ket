@@ -26210,20 +26210,20 @@
       "lease": {
         "owner": "codex",
         "run_id": "20261107T012800+0800-cycle-1",
-        "heartbeat_at": "2026-11-07T01:33:27+08:00",
-        "expires_at": "2026-11-07T01:48:27+08:00"
+        "heartbeat_at": "2026-11-07T01:40:12+08:00",
+        "expires_at": "2026-11-07T01:55:12+08:00"
       },
       "in_progress": {
         "cycle": 1,
         "species_id": 138,
         "species": "Otus mentawi",
         "version": 4,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261107T012800+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T012800+0800-cycle-1.md"
       },
       "started_at": "2026-11-07T01:28:01+08:00",
-      "updated_at": "2026-11-07T01:33:27+08:00",
+      "updated_at": "2026-11-07T01:40:12+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -26262,17 +26262,31 @@
           "generation_wait_seconds": 69,
           "edit_required": true,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 1,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T01:40:12+08:00",
+          "species_id": 138,
+          "species": "Otus mentawi",
+          "edit_count": 2,
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "review_record": "owl-pet/research/reviews/138-otus-mentawi-v4-review.md",
+          "full_image_opened": true,
+          "juvenile_crop_opened": true,
+          "adult_support_crop_opened": true,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "b90975358b2dacb74fdb3d0ce8b23a7e9b39619b",
-      "current_stage": "IMAGE_GENERATED"
+      "current_stage": "REVIEWED"
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "20261107T012800+0800-cycle-1",
-    "heartbeat_at": "2026-11-07T01:33:27+08:00",
-    "expires_at": "2026-11-07T01:48:27+08:00"
+    "heartbeat_at": "2026-11-07T01:40:12+08:00",
+    "expires_at": "2026-11-07T01:55:12+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -26418,8 +26432,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261107T012800+0800-cycle-1",
-    "heartbeat_at": "2026-11-07T01:33:27+08:00",
-    "expires_at": "2026-11-07T01:48:27+08:00"
+    "heartbeat_at": "2026-11-07T01:40:12+08:00",
+    "expires_at": "2026-11-07T01:55:12+08:00"
   },
   "last_updated_at": "2026-11-07T01:33:27+08:00",
   "audit_notes": [
@@ -27223,7 +27237,7 @@
     "species_id": 138,
     "species": "Otus mentawi",
     "version": 4,
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_id": "20261107T012800+0800-cycle-1",
     "run_record": "owl-pet/production/runs/20261107T012800+0800-cycle-1.md"
   },
@@ -31459,7 +31473,7 @@
   ],
   "active_batch_id": "20261107T012800+0800",
   "active_cycle": 1,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,

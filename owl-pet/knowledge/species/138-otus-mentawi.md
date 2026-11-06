@@ -24,3 +24,8 @@ Unknown: exact day age, independent flight ability, sex-specific standing ratio 
 ![v3](../../design/concepts/138-otus-mentawi-v3.png)
 
 [Research](../../research/species/138-otus-mentawi-v3.md) · [Run](../../production/runs/20261031T203540+0800-cycle-6.md)
+
+
+## 2026-11-07 — v4 truncation repair / juvenile evidence revision
+
+v4 preserves v1–v3 and replaces the repeated 700,000-byte v3 archive-risk image with a fresh complete render. The initial v4 juvenile inverted the field-record wing/tail relation. Two targeted edits removed the long tail and retained only a subtle short dark tail fringe beneath a longer folded wing. Full image and juvenile/adult crops were opened. Result: PASS_WITH_LIMITATIONS; exact age, flight competence, population sexual-size relation and a fully unobscured wing-tip/tail-tip comparison remain unknown. Scientific status remains false. See [research](../../research/species/138-otus-mentawi-v4.md) and [review](../../research/reviews/138-otus-mentawi-v4-review.md).

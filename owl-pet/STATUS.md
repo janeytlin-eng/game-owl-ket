@@ -3599,3 +3599,8 @@ New species +0; revision +1; unique archived species 176/251. One imagegen edit 
 ### #116 v4 LEDGER_CREDITED — batch 1/6
 
 Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back after immutable archive `7d64eac996988a3338333c7e8d9ed49e78274113` / tree `8f636341494071888bb436a8d1acdac4e86128c7`. Cycle 1 is credited exactly once; batch `20261106T193155+0800` is 1/6, next cycle 2, lease released. Unique remains 176/251; revision +1; science false.
+
+
+## 2026-11-06 22:52 +08 — #131 v4 archived, readback pending
+
+- Revision only; unique count remains 176/251. Full plate, initial generation, edit 1, reviewed master and two inspection crops archived. One edit corrected the juvenile's overlong adult-like wing. Scientific verification remains false.

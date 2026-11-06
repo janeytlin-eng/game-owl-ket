@@ -998,3 +998,8 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** for #56 v2's c.44–46-day brancher, retain visibly formed but irregular, down-overlapped flight feathers and a short tail; keep both feet on the branch and treat a raised wing only as balance.
 - **Verified in use:** full plate plus juvenile and adult-support crops passed without an edit. This corrects v1's tiny-wing overcorrection for this evidence-defined stage; it is not a universal owl age schedule.
 - Evidence: `owl-pet/research/reviews/56-bubo-virginianus-v2-review.md`.
+
+
+### 2026-11-06 — photographed young does not license an exposed adult wing
+
+When a species guide says “juvenile not known” but a regional field photograph shows an older young, bind the design to visible facts only: residual down, eye/bill appearance, supported posture and only the portion of formed wing actually visible. Treat a long clean primary panel as an error even if the bird is otherwise plausible. Apply a juvenile crop review and shorten/occlude the wing before archive.

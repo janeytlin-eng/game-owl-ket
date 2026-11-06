@@ -25260,7 +25260,76 @@
       "verified_at": "2026-11-06T22:50:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable readback returned 3,520 non-truncated entries; all 16 required paths and 5 exact image blob/size tuples passed after repairing a truncated first binary upload. Full original/reviewed/concept 2,789,447 bytes; manifests 741/742/732; science false."
+    },
+    {
+      "id": "131-megascops-watsonii-v4",
+      "path": "design/concepts/131-megascops-watsonii-v4.png",
+      "species_id": 131,
+      "scientific_name": "Megascops watsonii",
+      "historical_names": [
+        "Otus watsonii",
+        "Ephialtes watsonii"
+      ],
+      "common_name": "Tawny-bellied Screech-Owl",
+      "scope": "narrow Guiana Shield / east-of-Branco–Negro unit; age-unknown Manaus older young",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "WAT-SACC-937-2022",
+        "WAT-ITIS-686672-2026",
+        "WAT-DANTAS-2021",
+        "WAT-MIK2013-235",
+        "WAT-DAFFONSECA-2017",
+        "WAT-SCAUP-2024",
+        "WAT-BARROS-CINTRA-2009"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/131-megascops-watsonii-v4.md",
+      "review_record": "research/reviews/131-megascops-watsonii-v4-review.md",
+      "run_record": "production/runs/20261106T225300+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2861919,
+      "sha256": "96ff2d07da53b5675faf47dcd311f8ec46e711cbe2e25724a6ad9911bbb6ade9",
+      "git_blob": "6b7685c01d57998e7866047a7df123b7d7dd08a1",
+      "generated_path": "production/generated/131-megascops-watsonii-v4-generated-master.png",
+      "generated_blob": "6b7685c01d57998e7866047a7df123b7d7dd08a1",
+      "generated_sha256": "96ff2d07da53b5675faf47dcd311f8ec46e711cbe2e25724a6ad9911bbb6ade9",
+      "generated_size_bytes": 2861919,
+      "initial_generation_path": "production/generated/131-megascops-watsonii-v4-generation-1.png",
+      "initial_generation_blob": "0728de2eaff7fc416045aeaadd7fcc8c3f020472",
+      "initial_generation_size_bytes": 3029498,
+      "initial_generation_sha256": "0733dfd4fc29b9728c872e32062a540820a8dfdd2d1720734f3fd02f2b62c88f",
+      "edited_path": "production/generated/131-megascops-watsonii-v4-edit1.png",
+      "edited_blob": "6b7685c01d57998e7866047a7df123b7d7dd08a1",
+      "reviewed_path": "production/reviewed/131-megascops-watsonii-v4-reviewed-master.png",
+      "reviewed_blob": "6b7685c01d57998e7866047a7df123b7d7dd08a1",
+      "juvenile_review_crop": "production/review-crops/131-megascops-watsonii-v4-juvenile.png",
+      "juvenile_review_blob": "dc51c8d748086d6b5fb467ce88f7e15a20fee102",
+      "juvenile_review_size_bytes": 739401,
+      "juvenile_review_sha256": "07e19f9243cb17c3e97dd055df34420f1c3ac1e37c50a087bdca9263e270baeb",
+      "adults_review_crop": "production/review-crops/131-megascops-watsonii-v4-adults-support.png",
+      "adults_review_blob": "5dc47def2f576b67b51a312ef8aba2798e1b2ea0",
+      "adults_review_size_bytes": 1321915,
+      "adults_review_sha256": "25802ecbd4f4204bc242a4f1629c56335bcd90057366d61e809f5d7f20b53f26",
+      "reviewed_at": "2026-11-06T22:50:00+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. Uploaded Mikkola p.237/printed p.235, taxonomy dispute, current name and photographed age-unknown young were re-read. One imagegen edit shortened the juvenile adult-like wing panel. Exact age/flight/sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T22:50:00+08:00"
+  "updated_at": "2026-11-06T22:52:00+08:00"
 }

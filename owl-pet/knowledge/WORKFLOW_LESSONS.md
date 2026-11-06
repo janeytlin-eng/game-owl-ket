@@ -1021,3 +1021,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** compare the wing endpoint with the feet and support, then shorten it to an irregular plain-brown remige cluster mostly buried by down; keep the tail concealed and action stationary.
 - **Verified in use:** #121 *Ninox leucopsis* v4 edit 1 passed the full plate plus juvenile and adults/support crop review. This validates the correction for this asset only, not a universal owl feather schedule.
 - Evidence: `owl-pet/research/reviews/121-ninox-leucopsis-v4-review.md`.
+
+
+## 2026-11-06 — #131 wing-occlusion rule, applied and checked
+
+- **Problem:** first #131 v4 generation retained a long, adult-like juvenile wing panel despite the age-unknown photographed-stage boundary.
+- **Evidence:** Mikkola printed p.235 says juvenile unknown; WAT-DAFFONSECA-2017 shows a fluffy older young with formed wing largely hidden.
+- **Change:** imagegen edit 1 replaced the long panel with a compact emerging-covert cluster and down overlap, ending well above both feet.
+- **Validation:** edited whole plate plus juvenile and support crops opened; six contacts, hidden tail and compact wing passed. This is evidence of one successful application, not a universal developmental timetable.

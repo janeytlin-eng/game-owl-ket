@@ -17,3 +17,11 @@ ActualnewPNGviewed, noadditionaledit requiredforgrossstage/support: darkfluffyph
 - Young boundary: WAT-DAFFONSECA-2017 supports an age-unknown dark-eyed, fluffy barred older young with pale bill and stable support. V3 keeps residual down, a compact formed folded wing wholly above the feet, concealed tail and bilateral branch grip; exact age, flight threshold and tract chronology are unknown.
 - Habitat: WAT-BARROS-CINTRA-2009 pp.85–96 supports primary terra firme forest context and snag/tree association at Reserva Ducke; it does not support a nest depiction. V3 therefore uses a living mossy forest branch and makes no nest claim.
 - Review: initial v3 wing reached near the feet. One imagegen edit compacted it under down. Whole frame and two crops opened; PASS_WITH_LIMITATIONS; science false. Research: [v3](../../research/species/131-megascops-watsonii-v3.md). Run: [cycle 5](../../production/runs/20261031T181700+0800-cycle-5.md).
+
+
+## #131 *Megascops watsonii* narrow Guiana Shield unit — v4, 2026-11-06
+
+- Re-read uploaded Mikkola PDF p.237 / printed p.235: adults 19–23 cm, sexual size differences not documented, dusty dark gray-brown without white scapular outer webs, amber to brownish-orange eyes, greenish-gray bill; juvenile explicitly unknown.
+- Added WAT-SACC-937-2022 and WAT-ITIS-686672-2026. The taxonomic split remains disputed; current/old names are *M. watsonii*, *Otus watsonii* and *Ephialtes watsonii*.
+- V3 had near-cloned adults, wire-like texture and an exposed mature juvenile wing. Fresh v4 separated poses and matte texture; edit 1 shortened and down-obscured the young wing. Whole frame plus two crops passed with limitations.
+- Unknowns retained: exact young age, flight, full feather sequence, sex ratio and universal narrow-unit color. Science false. Research: [v4](../../research/species/131-megascops-watsonii-v4.md). Review: [v4](../../research/reviews/131-megascops-watsonii-v4-review.md). Run: [cycle 2](../../production/runs/20261106T225300+0800-cycle-2.md).

@@ -315,3 +315,8 @@ Stages RESEARCH_READY, IMAGE_GENERATED, REVIEWED, ARCHIVED and VERIFIED are pers
 ### #116 v4 LEDGER_CREDITED — batch 1/6
 
 Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back after immutable archive `7d64eac996988a3338333c7e8d9ed49e78274113` / tree `8f636341494071888bb436a8d1acdac4e86128c7`. Cycle 1 is credited exactly once; batch `20261106T193155+0800` is 1/6, next cycle 2, lease released. Unique remains 176/251; revision +1; science false.
+
+
+## 2026-11-06 22:52 +08 — batch 20261106T222600+0800 cycle 2 ARCHIVED
+
+- #131 *Megascops watsonii* v4; manifests 742 / 743 / 733; exact remote readback pending. Unique 176/251; revision +1; science false.

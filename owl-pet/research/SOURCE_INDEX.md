@@ -2259,3 +2259,41 @@
 - Deane Lewis, Owl Pages, “Giant Scops Owl (*Otus gurneyi*),” updated 2020-10-02: https://www.owlpages.com/owls/species.php?s=290
 - Description, Size, Breeding and Habitat sections read. Useful only for a generic lowland rainforest/secondary-growth context and the explicit statement that breeding biology is virtually unknown. It cannot support a nest, natal stage or exact sex ratio. Moderate confidence secondary source.
 
+
+
+## 2026-11-06 — #125 *Ninox philippensis* v5
+
+### NPH-RASMUSSEN-2012
+- **Title / authors / year:** Vocal divergence and new species in the Philippine Hawk Owl *Ninox philippensis* complex — Rasmussen et al., 2012.
+- **URL:** https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf
+- **Accessed:** 2026-11-06.
+- **Type / scope:** primary taxonomic and specimen-morphology study; modern *N. philippensis* sensu stricto, adults/specimens.
+- **Actually read:** pp.1–2, 11–14; diagnosis, Fig.6a and Tables 5/7.
+- **Value:** seven-species split; compact plain-crowned/streak-breasted adult identity, soft-part colours and pooled morphometrics.
+- **Limitations/conflict:** measurements are pooled, not a sex-specific growth or RSD series; no juvenile chronology.
+- **Design support:** adult species boundary and near-equal sex display; links to `research/species/125-ninox-philippensis-v5.md`.
+
+### NPH-SHARPE-1875
+- **Title / author / year:** *Catalogue of the Birds in the British Museum*, vol.2 — R. B. Sharpe, 1875.
+- **URL:** https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf
+- **Accessed:** 2026-11-06.
+- **Type / scope:** museum catalogue; *Ninox philippensis* young plumage.
+- **Actually read:** printed pp.167–168, species account “5. *Ninox philippensis*,” Young.
+- **Value:** rufous-chocolate mostly uniform upperparts, few pale outer-scapular bars, limited greater-covert spots and formed notched dark quills.
+- **Limitations/conflict:** exact age, sex, iris, locality, action capacity and modern split assignment are absent; treat the described feather state conservatively.
+- **Design support:** age-unknown supported young rather than invented hatchling; links to v5 record.
+
+### NPH-ITIS-2025
+- **Title / institution / date:** ITIS report TSN 555484 — Integrated Taxonomic Information System; accessed 2026-11-06.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555484&source=to_print
+- **Type / scope:** authoritative taxonomy aggregator; current name/common names.
+- **Value:** valid *Ninox philippensis* Bonaparte, 1855; Luzon Boobook and historical English names; cites IOC v15.1.
+- **Limitations:** no morphology, sex or development evidence.
+- **Design support:** current-name/old-common-name mapping.
+
+### NPH-PROJECTNOAH-2012 — unverified lead
+- **Title / date:** “owl,” Mark Ebersole / Project Noah, 8 June 2012.
+- **URL:** https://projectnoah.org/spottings/owl-3
+- **Type / scope:** community observation/photograph; possible Peñablanca juvenile.
+- **Status:** original page read, but species/age are community assertions without expert determination; **not verified evidence**.
+- **Use:** retained as a research lead only; does not support anatomy, age, iris or flight claims.

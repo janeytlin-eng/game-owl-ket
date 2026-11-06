@@ -62,3 +62,8 @@ Avoid: bright orange/yellow/gray adult irises, recoloring the juvenile eye, adde
 - The branch is support, not a nest. Nest site and construction remain unknown.
 - Scientific verification remains false.
 
+## Review result
+
+The generated plate was opened at full resolution plus fledgling and adults/support crops. The renderer changed more than eye pixels, so every identity, stage, proportion, text and support invariant was rechecked. Adult irises now pass as deep dark brown; exactly three supported birds, near-equal adult scale, compact down-softened fledgling wings, concealed juvenile tail and non-nest branch support all pass. No second edit was required. Result `PASS_WITH_LIMITATIONS`; unresolved biological fields remain unknown and science stays false.
+
+

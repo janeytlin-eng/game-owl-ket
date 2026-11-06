@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T09:49:04.213+08:00",
+  "updated": "2026-11-06T09:50:05.886+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22575,7 +22575,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "RID-CARMAN-SILES-ANGULO-2025-P127-128",
         "RID-EISERMANN-AVENDANO-2018-P178",
@@ -22604,9 +22604,13 @@
       "reviewed_path": "production/reviewed/96-aegolius-ridgwayi-v5-reviewed-master.png",
       "reviewed_blob": "dc16fbaf30fbf893a129689ebe53232f5c82c52f",
       "reviewed_at": "2026-11-06T09:49:04.213+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, uses an age-unknown recent fledgling at an evidence-supported natural decay-cavity threshold, and after one juvenile-only edit removes the long hard primary panel, shortens/softens the wing and conceals the tail. Exact age/sex/flight and fixed adult sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, uses an age-unknown recent fledgling at an evidence-supported natural decay-cavity threshold, and after one juvenile-only edit removes the long hard primary panel, shortens/softens the wing and conceals the tail. Exact age/sex/flight and fixed adult sex ratio remain unknown; science false.",
+      "archive_commit": "e3ba7ab74798e8f3171ff9656055cfc851ecdffc",
+      "archive_tree": "a373b2f103ee5da3f65f0f61218e2897c4a52714",
+      "verified_at": "2026-11-06T09:50:05.886+08:00",
+      "verification_result": "PASS: immutable archive e3ba7ab74798e8f3171ff9656055cfc851ecdffc returned all 10 required #96 paths; four binary paths matched expected Git blobs; three manifests parsed at 715/714/705 with #96 v5 tails."
     }
   ],
-  "updated_at": "2026-11-06T09:49:04.213+08:00"
+  "updated_at": "2026-11-06T09:50:05.886+08:00"
 }

@@ -134,3 +134,12 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Verification `a1324392ee72514fc053f0bcf09e60e349c53d2e` / tree `d2790e4d373c0ea58f15e393b5ff1db6195f68bc` read back after archive `ae92217d2c5028fe76a0dfef7257b0fbec35fbb9`.
 - Cycle 1 credited once; batch 1/6, next 2; unique 176/251; revision +1; scientifically_verified=false.
+
+
+## 2026-11-07 — #153 *Jubula lettii* v3 research-ready
+
+- Naturalis printed p.154 confirms adult holotype RMNH 88316 and the *Bubo lettii* → *Jubula lettii* crosswalk, but supplies neither sex nor juvenile evidence.
+- Actual Cornell/Macaulay adult-like image ML609410210 calibrates rufous, shaggy long-tufted living appearance; its age/sex are unspecified.
+- ML531449801 supplies the key developmental constraint: an immature retained white juvenile facial feathers, flew a short distance and perched.
+- Adults remain near equal. The juvenile is therefore an older supported immature, not a downy nestling and not an adult clone. Nest architecture remains unknown.
+- Full prompt: `production/PROMPTS_FULL.md`; research: `research/species/153-jubula-lettii-v3.md`. Pixel review pending; scientifically_verified=false.

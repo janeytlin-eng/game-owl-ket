@@ -39,3 +39,10 @@ undefined
 - One juvenile-only edit explicitly removed long remige tips and crisp rows, moved the wing edge high above the feet, and concealed the tail.
 - Full plate plus juvenile and adults/support crops were opened; the correction passed while adult identity, text and six supports stayed intact.
 - This validates the explicit wing-edge/topology instruction for #151 v3 only. It does not establish a species-specific juvenile timetable; science remains false.
+
+
+## 2026-11-07 — #153 stage-by-ability rule (application pending)
+
+- A rare-species juvenile need not be forced into a helpless downy stage when a read field record documents retained juvenile facial feathering together with short flight and perching.
+- Translate the evidence into an older mobile immature: open eyes, natural two-foot support, intermediate wing/tail structure and the documented juvenile face; do not add nest, age-in-days or hatchling detail.
+- Applied to the #153 v3 prompt. Effectiveness is not claimed until full/crop review.

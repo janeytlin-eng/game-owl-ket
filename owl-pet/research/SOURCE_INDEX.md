@@ -3050,3 +3050,39 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Accessed: 2026-11-07. Type: original-description lead.
 - Status: UNVERIFIED TEXT — ITIS/Avibase citation read; BHL page returned 403, so no morphology claim is attributed to unread text.
 - Use: nomenclatural locator only; current design does not depend on it.
+
+
+## 2026-11-07 — #153 *Jubula lettii* v3 evidence refresh
+
+### MANED-NATURALIS-TYPECAT-1997-P154
+- **Title / institution / year:** *Type-specimens of birds in the National Museum of Natural History, Leiden. Part 1. Non-Passerines*; Naturalis/NNM; 1997.
+- **URL:** https://repository.naturalis.nl/pub/216191/TB01.pdf
+- **Actually read:** printed p.154, PDF lines 6524–6530; accessed 2026-11-07.
+- **Type / applies to:** museum type catalogue; adult holotype RMNH 88316, *Bubo lettii* → *Jubula lettii*.
+- **Facts / use:** collected 3 Dec 1887 at Du Queah River, Liberia; sex unstated; establishes old-name/current-name crosswalk and specimen identity.
+- **Limits / confidence:** high for catalogue metadata; no living colour, sex difference or juvenile stage.
+- **Decision link:** research/species/153-jubula-lettii-v3.md; design/concepts/153-jubula-lettii-v3.png.
+
+### MANED-ML-609410210-2023
+- **Title / institution / year:** Maned Owl, ML609410210; Cornell Lab/Macaulay Library; photographed 2023.
+- **URL:** https://macaulaylibrary.org/asset/609410210
+- **Actually read/opened:** metadata and actual 1200-px image; accessed 2026-11-07.
+- **Applies to:** living adult-like individual; Gabon; age and sex not specified.
+- **Facts / use:** rufous/chestnut body, shaggy head/long ear tufts, orange irides, pale buff finely streaked underparts, barred tail and branch support.
+- **Limits / confidence:** high for visible characters; no dimorphism or exact-age inference.
+- **Decision:** adult visual calibration only; adults remain near equal.
+
+### MANED-ML-531449801-2023
+- **Title / institution / year:** Maned Owl, ML531449801; Cornell Lab/Macaulay Library; photographed 2023.
+- **URL:** https://macaulaylibrary.org/asset/531449801
+- **Actually read/opened:** observation narrative, metadata and actual 1200-px image; accessed 2026-11-07.
+- **Applies to:** linked three-bird observation in true primary forest/wetland edge, including one immature.
+- **Facts / use:** immature flew a short distance and perched and retained white juvenile facial feathers; sandy/rufous upperparts, big ear tufts, orange eyes, yellowish feet, red-washed upper breast, fine black flank streaks and long-ish barred tail recorded.
+- **Limits / confidence:** strong field observation, but asset age/sex fields are formally unspecified and exact age is unknown.
+- **Decision:** use a supported older mobile immature with retained white facial feathering; not a helpless nestling.
+
+### MANED-BUTTIKOFER-1889-P34-LEAD
+- **Title / author / year:** original description of *Bubo lettii*; J. Büttikofer; 1889; *Notes from the Leyden Museum* 11:34.
+- **URL:** https://www.biodiversitylibrary.org/item/37330#page/46/mode/1up
+- **Status:** UNVERIFIED TEXT — BHL returned HTTP 403 on 2026-11-07.
+- **Use:** nomenclatural locator only; no unread morphology is treated as evidence.

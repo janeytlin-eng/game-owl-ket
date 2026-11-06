@@ -67,3 +67,18 @@ Older juvenile is a conservative design inference because no species-specific se
 
 Avoid ear tufts, heart-shaped barn-owl face, bright white continuous V brow, neat repeated spots, plain unbarred adult belly, exaggerated dimorphism, mature juvenile wing/tail, unsupported feet, extra birds/limbs/text, border, logo or watermark.
 ```
+
+
+## #153 v3 — *Jubula lettii* — batch 20261107T062903+0800 cycle 2/6
+
+### Generation
+
+```text
+Create one polished 1536×1024 landscape species concept plate in the approved owl electronic-pet visual language: tactile semi-realistic 3D character art, rounded but anatomically credible proportions, individually layered feathers, restrained humid-primary-forest light, clean typography, no watermark. Exactly three complete Maned Owls (*Jubula lettii*) on one continuous naturally forked mossy branch: ADULT MALE left, ADULT FEMALE right, OLDER IMMATURE lower centre. Title exactly “MANED OWL”; italic line “Jubula lettii”; exact labels only.
+
+Adults are near equal in standing height and palette because sex-specific size and plumage evidence is absent. Both have a light athletic owl build; warm sandy-rufous to chestnut crown, back and wings; a very shaggy mane-like head and neck outline with long prominent ear tufts; orange irides; small horn bill; pale buff face and underparts with a restrained red-rufous upper-breast wash and fine irregular dark vertical streaks concentrated on lower breast/flanks; yellowish feet and dark claws; long but not exaggerated tail with subdued bars. Give different natural head turns without implying sex-linked traits. All four adult feet visibly grip the branch.
+
+The older immature is directly bounded by the 2023 Equatorial Guinea field observation: smaller, open-eyed and alert, perched stably on both feet after demonstrated short flight; retained white juvenile facial feathers forming a soft irregular pale mask around the eyes and bill, while crown/body are already sandy-rufous with large ear tufts. Wings and tail are functional but intermediate: softer less organized coverts, no crisp adult clone pattern, slightly shorter/rounder folded wing and a modest barred tail; no downy hatchling, no helpless crouch, no flight pose. Humid true primary lowland forest with a subtle wetland-edge floor blur; no nest, cavity, eggs or invented substrate.
+
+Avoid female-larger assumption, sexual colour contrast, dark eyes, horned-eagle-owl bulk, heart-shaped barn-owl face, white adult facial mask, mature adult-clone juvenile, tiny downy nestling, unsupported/floating feet, extra birds/limbs/text, border, logo or watermark.
+```

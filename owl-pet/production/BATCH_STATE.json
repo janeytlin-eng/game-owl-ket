@@ -23883,30 +23883,29 @@
           "run_record": "owl-pet/production/runs/20261106T180525+0800-cycle-3.md",
           "completed_at": "2026-11-06T18:15:00+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species_id": 134,
+          "species": "Megascops sanctaecatarinae",
+          "action": "SCIENCE_REVISION",
+          "version": 4,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "9b9e62a95325cf8feddc2ba897776842597aa4b4",
+          "archive_commit": "8644c48300dce2fa7cf9209b03dcf468a395c976",
+          "verification_tree": "a61992c1a08a22955ece73535dee5cd670454fc1",
+          "run_record": "owl-pet/production/runs/20261106T181547+0800-cycle-4.md",
+          "completed_at": "2026-11-06T18:31:00+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
-      "active_cycle": 4,
-      "active_lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T181547+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T18:30:00+08:00",
-        "expires_at": "2026-11-06T18:45:00+08:00"
-      },
-      "lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T181547+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T18:30:00+08:00",
-        "expires_at": "2026-11-06T18:45:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 4,
-        "run_id": "20261106T181547+0800-cycle-4",
-        "species_id": 134,
-        "stage": "VERIFIED",
-        "started_at": "2026-11-06T18:15:47+08:00"
-      },
-      "current_stage": "VERIFIED",
+      "next_cycle": 5,
+      "active_cycle": null,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
+      "current_stage": "LEDGER_CREDITED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24586,6 +24585,28 @@
             "scientifically_verified": false,
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-06T18:45:00+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 4,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-06T18:31:00+08:00",
+          "run_id": "20261106T181547+0800-cycle-4",
+          "species_id": 134,
+          "credited": true,
+          "evidence": {
+            "verification_commit": "9b9e62a95325cf8feddc2ba897776842597aa4b4",
+            "verification_tree": "a61992c1a08a22955ece73535dee5cd670454fc1",
+            "archive_commit": "8644c48300dce2fa7cf9209b03dcf468a395c976",
+            "archive_tree": "3b095be9012b2e6ee199ddafb26c638230c9e7b7",
+            "batch_progress": "4/6",
+            "next_cycle": 5,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false
           }
         }
       ]

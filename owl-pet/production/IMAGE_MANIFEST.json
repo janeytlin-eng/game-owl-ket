@@ -24767,7 +24767,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "WAT-SACC-937-2022",
         "WAT-ITIS-686672-2026",
@@ -24809,10 +24809,19 @@
       "adults_review_size_bytes": 1321915,
       "adults_review_sha256": "25802ecbd4f4204bc242a4f1629c56335bcd90057366d61e809f5d7f20b53f26",
       "reviewed_at": "2026-11-06T22:50:00+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3. Uploaded Mikkola p.237/printed p.235, taxonomy dispute, current name and photographed age-unknown young were re-read. One imagegen edit shortened the juvenile adult-like wing panel. Exact age/flight/sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3. Uploaded Mikkola p.237/printed p.235, taxonomy dispute, current name and photographed age-unknown young were re-read. One imagegen edit shortened the juvenile adult-like wing panel. Exact age/flight/sex ratio remain unknown; science false.",
+      "archive_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06",
+      "archive_tree": "19d157497b4ef50b1faaa3bdbab61e453df8211a",
+      "archive_tree_entries": 3530,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 17,
+      "exact_binary_paths_verified": 7,
+      "verified_at": "2026-11-06T22:53:00+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable archive tree returned 3,530 non-truncated entries; 17 required paths and seven exact image blob/size tuples passed. Final master 2,861,919 bytes, initial generation 3,029,498 bytes, crops matched; manifests 742/743/733; science false."
     }
   ],
-  "updated_at": "2026-11-06T22:52:00+08:00"
+  "updated_at": "2026-11-06T22:53:00+08:00"
 }

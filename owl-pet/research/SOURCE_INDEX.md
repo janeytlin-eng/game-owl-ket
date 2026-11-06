@@ -1,3 +1,25 @@
+## 2026-11-07 — #148 *Ninox rumseyi* v3 — sex-size correction and current-name authority
+
+### CEB-ITIS-1063267-2026 — newly indexed taxonomy authority
+- **Title / institution:** ITIS report, TSN 1063267, Integrated Taxonomic Information System.
+- **Year / accessed:** current database; accessed 2026-11-07.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063267&source=to_print
+- **Type / scope:** government-partner taxonomic database; *Ninox rumseyi*, current name.
+- **Actually read:** lines 6–34 and 70–73. It lists *N. rumseyi* as valid, credibility “verified - standards met,” and cites IOC World Bird List v15.1.
+- **Design support:** nomenclature/current common-name mapping only; no morphology, sex, age or development inference.
+- **Limitations / confidence:** high for naming; no specimen or developmental evidence.
+- **Links:** [#148 v3 research](species/148-ninox-rumseyi-v3.md); v3 image pending.
+
+### CEB-JAKOSALEM-COLLAR-GILL-2012 — corrected interpretation of reused primary study
+- **Title / authors / year:** “Habitat selection and conservation status of the endemic *Ninox* hawk-owl on Cebu, Philippines,” P. G. C. Jakosalem, N. J. Collar & J. A. Gill, 2012/2013.
+- **DOI / URL:** 10.1017/S0959270912000317; https://www.cambridge.org/core/journals/bird-conservation-international/article/habitat-selection-and-conservation-status-of-the-endemic-ninox-hawkowl-on-cebu-philippines/632843592EFE90CC32B1279D61BE1BFE
+- **Type / stage:** primary telemetry/habitat study; nine adults plus one field-classified juvenile.
+- **Actually read this cycle:** methods/results lines 528–532 and 596–602.
+- **Evidence correction:** four brood-patch adults were consistently smaller than five others and were assumed female; wing 175–181 vs 184–190 mm, tail 91–99 vs 100–109 mm, mass 120–129 vs 124–142 g. The juvenile was measured but not plumage-described.
+- **Design decision:** replace v2 near-equal pair with subtle male-larger direction; keep inference cautious because sex assignment was not genetic. Juvenile remains AGE UNKNOWN.
+- **Limitations / confidence:** high for measurements and authors' assumption; medium for sex assignment; no juvenile feather map or flight threshold.
+- **Links:** [#148 v3 research](species/148-ninox-rumseyi-v3.md); supersedes the v2 no-direction design inference.
+
 ## 2026-11-06 — #112 *Asio abyssinicus* v3 — nominate-adult identity and older-juvenile stage
 
 ### ABY-ITIS-555498-2026 — newly indexed current/old-name record

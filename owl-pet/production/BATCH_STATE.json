@@ -26973,7 +26973,7 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:34:00+08:00",
+      "updated_at": "2026-11-07T05:39:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27172,23 +27172,34 @@
           "species": "Ninox leventisi",
           "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md",
           "baseline_main": "bfa1506e06ec0ca5f3b803ed68a18d3d11de8715"
+        },
+        {
+          "cycle": 3,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T05:39:00+08:00",
+          "species_id": 147,
+          "species": "Ninox leventisi",
+          "research_file": "owl-pet/research/species/147-ninox-leventisi-v3.md",
+          "new_sources": 1,
+          "reused_sources": 2,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T053400+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T05:34:00+08:00",
-        "expires_at": "2026-11-07T05:49:00+08:00"
+        "heartbeat_at": "2026-11-07T05:39:00+08:00",
+        "expires_at": "2026-11-07T05:54:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
         "species_id": 147,
         "species": "Ninox leventisi",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T053400+0800-cycle-3",
         "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md"
       }
@@ -32537,6 +32548,26 @@
         "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md",
         "baseline_main": "bfa1506e06ec0ca5f3b803ed68a18d3d11de8715",
         "lease_expires_at": "2026-11-07T05:49:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261107T043300+0800",
+      "cycle": 3,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-07T05:39:00+08:00",
+      "run_id": "20261107T053400+0800-cycle-3",
+      "species_id": 147,
+      "species": "Ninox leventisi",
+      "credited": false,
+      "evidence": {
+        "research_file": "owl-pet/research/species/147-ninox-leventisi-v3.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_sources": 1,
+        "reused_sources": 2,
+        "selected_stage": "age-unknown fluffy juvenile; closed/downcast eyes; concealed wing/tail; bilateral support",
+        "adult_boundary": "large full/lax adults, long deep bill, pale iris, white throat, barred crown/coverts; near-equal sexes",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T05:54:00+08:00"
       }
     }
   ],

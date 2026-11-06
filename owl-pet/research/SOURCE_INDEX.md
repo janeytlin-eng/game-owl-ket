@@ -2932,3 +2932,18 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Reused: `LZBO-RASMUSSEN-2012-LEAD`, `MINDBOO-ITIS-2025`, `MINDBOO-CLEMENTS-2013` from the v2 record.
 - Searches under current name, historical *N. philippensis mindorensis* and specimen terms found no verified species-specific juvenile account. The juvenile remains an explicitly age-unknown conservative placeholder; science false.
 - User-uploaded Mikkola guide was inaccessible in this execution; no fresh page claim.
+
+
+### CAMBOO-ZOBODAT-2014-P108
+
+- **Stable ID:** CAMBOO-ZOBODAT-2014-P108
+- **Title:** Die im Jahre 2012 beschriebenen neuen Taxa rezenter Vögel
+- **Author/institution:** Deutsche Ornithologen-Gesellschaft; ZOBODAT archive
+- **Year:** 2014
+- **URL:** https://www.zobodat.at/pdf/Vogelwarte_52_2014_0089-0110.pdf
+- **Accessed:** 2026-11-07
+- **Type/pages:** nomenclatural digest, printed p.108
+- **Species/stage:** *Ninox leventisi*; adult type material
+- **Read fact:** holotype female collected 17 June 1968 around 450 m; paratype female collected 13 June 1969 around 950 m; both in FMNH. It independently repeats the long/deep bill and full/lax plumage diagnosis.
+- **Use:** supports type-sex/locality/altitude metadata and prevents inventing a measured male/female size difference.
+- **Limit/confidence:** secondary digest, not development evidence; high confidence for nomenclatural metadata, lower priority than Rasmussen et al. 2012 for morphology.

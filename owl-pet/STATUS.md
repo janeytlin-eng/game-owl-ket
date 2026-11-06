@@ -1,3 +1,8 @@
+## 2026-11-06 #99 *Bubo magellanicus* v5 LEDGER_CREDITED — batch COMPLETE 6/6
+
+- Verification commit `76d3e4941802d9d91c896fb82e98130de178780d` was read back after archive `2946479a5dcf1921c78e75160b2bd4450ba797d2`. Cycle 6 credited once; batch `20261106T073000+0800` is COMPLETE 6/6; lease released.
+- Unique species remains 176/251; revision +1; `scientifically_verified=false`.
+
 ## 2026-11-06 #99 *Bubo magellanicus* v5 VERIFIED — ledger credit pending
 
 - Archive `2946479a5dcf1921c78e75160b2bd4450ba797d2`, tree `e12148efdddb6a3f6a6e5e10641b9d42958d01e0`, returned 3,298 non-truncated entries; all 17 required paths and six exact binary tuples passed. Manifests parse at 717/716/707 and concept fetch returns blob `0d03b9b9ef08feaa679fdb92e2cff74164610625`.

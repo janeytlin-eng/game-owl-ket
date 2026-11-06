@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T08:40:56+08:00",
+  "updated": "2026-11-06T08:43:12+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -23128,7 +23128,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "HAR-BODRATI-ETAL-2019-151-156",
         "HAR-ITIS-555474-2026",
@@ -23163,9 +23163,13 @@
       "juvenile_review_size_bytes": 926826,
       "juvenile_review_sha256": "d97ec10aa590acb58abe2859db3e9db722e58a508ff380dfa4028c2849a6003b",
       "reviewed_at": "2026-11-06T08:40:56+08:00",
-      "readback_pending": true,
-      "archive_note": "V4 preserves v1-v3 and corrects the overly mature 24-day wing/tail geometry. Actual full plate and two crops passed without edit: residual grey down, shorter rounded soft wing, concealed tail, continuous cavity-floor support, near-equal adults, exact text/count. Exact age/sex/flight ability and external scientific sign-off remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V4 preserves v1-v3 and corrects the overly mature 24-day wing/tail geometry. Actual full plate and two crops passed without edit: residual grey down, shorter rounded soft wing, concealed tail, continuous cavity-floor support, near-equal adults, exact text/count. Exact age/sex/flight ability and external scientific sign-off remain unknown; science false.",
+      "archive_commit": "646df00fe4970b8f18e05ea2f0d2917dec6cf749",
+      "archive_tree": "adfaab2cc2ade2d243ec8a78cde41ef00d7979fc",
+      "verified_at": "2026-11-06T08:43:12+08:00",
+      "verification_result": "PASS: immutable archive tree returned 3,266 non-truncated entries; all 13 required #93 paths were present; five binary paths matched exact Git blobs; three manifests parsed at 713/712/703 with #93 v4 tails."
     }
   ],
-  "updated_at": "2026-11-06T08:40:56+08:00"
+  "updated_at": "2026-11-06T08:43:12+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T19:40:45+08:00",
+  "updated": "2026-11-06T19:42:46+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -24941,7 +24941,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BLO-KIRKCONNELL-WILEY-2017",
         "BLO-SUAREZ-2022-CATALOGUE",
@@ -24979,10 +24979,19 @@
       "adults_review_size_bytes": 1608463,
       "adults_review_sha256": "3cb3ed082ffe19213848e6dd06413309c1164c68768edf3ff714d3a83867753c",
       "reviewed_at": "2026-11-06T19:39:08+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3. New Zapata field evidence supports a natural standing-palm cavity setting; Suárez's museum review documents broad Cuban variation and old-name mapping but no universal sex-size ratio. One targeted juvenile-only edit shortened/softened the originally adult-like wing and obscured the short tail while preserving adults, labels and all supports. Exact juvenile age/sex/flight, feather chronology, tip map, cavity interior and quantitative sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3. New Zapata field evidence supports a natural standing-palm cavity setting; Suárez's museum review documents broad Cuban variation and old-name mapping but no universal sex-size ratio. One targeted juvenile-only edit shortened/softened the originally adult-like wing and obscured the short tail while preserving adults, labels and all supports. Exact juvenile age/sex/flight, feather chronology, tip map, cavity interior and quantitative sex ratio remain unknown; science false.",
+      "archive_commit": "7d64eac996988a3338333c7e8d9ed49e78274113",
+      "archive_tree": "8f636341494071888bb436a8d1acdac4e86128c7",
+      "archive_tree_entries": 3465,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 6,
+      "verified_at": "2026-11-06T19:42:46+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable archive commit 7d64eac996988a3338333c7e8d9ed49e78274113 resolved all 16 required paths in a non-truncated 3,465-entry recursive tree. Six image path/blob/byte tuples matched: concept/edit/reviewed = 04e25c97… (2,958,647 bytes), original generation = cdfc106e… (3,265,107 bytes), and both crop blobs/bytes matched. Archive manifests parsed at 735/736/726 and ended with #116 v4. Science remains false."
     }
   ],
-  "updated_at": "2026-11-06T19:40:45+08:00"
+  "updated_at": "2026-11-06T19:42:46+08:00"
 }

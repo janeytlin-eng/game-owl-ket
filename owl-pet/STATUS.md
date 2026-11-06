@@ -3577,3 +3577,8 @@ New species +0; revision +1; unique archived species 176/251. One imagegen edit 
 
 - New primary field source 1, peer-reviewed museum source 1, reused repository records 5; one targeted juvenile-wing edit; full plate and two crops reopened.
 - Manifests prepared at 735/736/726; unique remains 176/251; revision +1; `PASS_WITH_LIMITATIONS`; science false. Immutable archive verification and ledger credit are still pending.
+
+
+### #116 v4 VERIFIED — ledger credit pending
+
+- Archive `7d64eac996988a3338333c7e8d9ed49e78274113`, tree `8f636341494071888bb436a8d1acdac4e86128c7`, passed non-truncated 3,465-entry readback, 16/16 required paths, six exact binary tuples and manifests 735/736/726. Unique remains 176/251; science false; ledger credit pending.

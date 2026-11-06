@@ -24849,7 +24849,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "TBO-ABSA-AGEING-2019",
         "TBO-AFO-TSANG-2022",
@@ -24886,9 +24886,18 @@
       "adults_review_size_bytes": 2290271,
       "adults_review_sha256": "514485d506743e39543aa7d0de55764329e666dda8b5757855176decec26e4c4",
       "reviewed_at": "2026-11-06T19:53:20+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3. AFD/ALA and ITIS stabilize current/old-name mapping; ABSA overlapping adult measurements prevent a fixed female-larger scale. One targeted edit shortened and softened the original young wing while retaining a photo/handbook-supported dark fluffy, yellow-eyed later juvenile with bilateral cavity support. Exact young age/sex/flight, iris chronology, literal feather map, universal cavity geometry and fixed sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3. AFD/ALA and ITIS stabilize current/old-name mapping; ABSA overlapping adult measurements prevent a fixed female-larger scale. One targeted edit shortened and softened the original young wing while retaining a photo/handbook-supported dark fluffy, yellow-eyed later juvenile with bilateral cavity support. Exact young age/sex/flight, iris chronology, literal feather map, universal cavity geometry and fixed sex ratio remain unknown; science false.",
+      "archive_commit": "c6e932503696a975d610d00c326736a887b633c4",
+      "archive_tree": "3459701a168369de7dc3f1fa096902711d26e160",
+      "archive_tree_entries": 3476,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 18,
+      "exact_binary_paths_verified": 8,
+      "verified_at": "2026-11-06T20:38:08.084+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable archive commit/tree readback returned 3,476 non-truncated entries; all 18 required paths and 8 exact image blob/byte tuples matched. Three remote manifests parsed at 736/737/727. Scientific calibration remains false because the recorded age/sex/flight/iris/feather-map limits remain unresolved."
     }
   ],
   "updated_at": "2026-11-06T19:55:10+08:00"

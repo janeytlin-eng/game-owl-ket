@@ -2161,3 +2161,65 @@
 - **Conflict excluded:** its generic cavity/egg/incubation paragraph is probabilistic and is not used against the 2018 “nest undescribed” statement.
 - **Linked decision:** `research/species/107-strix-fulvescens-v5.md`; planned v5 darkens only adult irises. New2 / re-read1 / reused2+ / corrected2; science false.
 
+## 2026-11-06 — #113 Ninox natalis v7 evidence refresh
+
+### CIB-DCCEEW-HILL-2004
+- Title: National Recovery Plan for the Christmas Island Hawk-Owl Ninox natalis
+- Author/institution/year: Richard Hill / Birds Australia for Australian Government Department of the Environment and Heritage / 2004
+- URL: https://www.dcceew.gov.au/sites/default/files/documents/n-natalis.pdf
+- Accessed: 2026-11-06
+- Type: government recovery plan synthesising field studies
+- Species/stage/topic: Ninox natalis; adult habitat, nesting, independent-young evidence gap
+- Pages/sections actually read: printed pp.1–3 (PDF pp.5–7), Taxonomic status, Habitat, Habitat Critical to Survival
+- Facts: full species after Norman et al.; primary/marginal rainforest; four recorded nests were tree hollows, all in Syzygium nervosum; no data on independent-young ranging.
+- Limits/conflict: recovery synthesis, not a feather-development series; modern hollow record supersedes using the 1900 screw-pine/twig report as definitive.
+- Design support: rainforest and tree-hollow ecology; conservative branch support; no precise juvenile action claim.
+
+### CIB-WAM-JOHNSTONE-2016
+- Title: Information Sheet — Christmas Island Hawk-Owl Ninox natalis
+- Author/institution/year: Ron Johnstone, Department of Terrestrial Vertebrates, Western Australian Museum / 2016
+- URL: https://museum.wa.gov.au/sites/default/files/Information%20sheet%20-%20Christmas%20Island%20Hawk-Owl_EN_MS_ZH_0.pdf
+- Accessed: 2026-11-06
+- Type: museum institutional species account with photographs
+- Pages actually read: English p.1
+- Facts: 26–29 cm; rufous-brown; small white upper-wing-covert spots; darker barred wing/tail; white lores/short supercilium/chin; yellow eyes, blue-grey bill, pale-yellow legs/feet; female described as slightly larger; juvenile paler/downier.
+- Limits/conflict: no measurements or exact juvenile age; “female slightly larger” is not converted to a fixed ratio and is checked against overlapping historical wing ranges.
+
+### CIB-ANDREWS-1900
+- Title: A Monograph of Christmas Island (Indian Ocean)
+- Author/institution/year: C. W. Andrews / British Museum / 1900
+- URL: https://flow.hemiptera-databases.org/flowpdf/484.pdf
+- Accessed: 2026-11-06
+- Type: historical primary specimen/field monograph
+- Pages actually read: printed pp.47–48 (PDF extraction lines 1193–1204)
+- Facts: sexes alike in colour; male wing 7.6–7.8 in and female 7.4–7.8 in overlap; iris/feet bright lemon-yellow.
+- Limits/conflict: historical screw-pine/twig nest was not personally found and conflicts with modern four-hollow record; retained as uncertainty, not used as design.
+
+### CIB-MONTGOMERY-2006-JUV
+- Title: Photo of juvenile Christmas Island Hawk-Owl, image ID 39760
+- Author/year: Ian Montgomery / photographed 2006; gallery revised 2016
+- URL: https://www.birdway.com.au/strigidae/christmas_island_hawk_owl/source/christmas_is_hawkowl_39760.php
+- Accessed: 2026-11-06
+- Type: species-labelled primary field photograph
+- Image/caption actually read/viewed: image 4 of 4; caption, pixel metadata and actual displayed image
+- Facts visible: rufous face/yellow iris, loose pale down on head/body, formed short rounded wing with irregular small pale markings, branch support.
+- Limits: exact age, sex, tail length and flight capacity absent; pixels do not provide a feather chronology.
+
+### CIB-NORMAN-1998
+- Title: Molecular Data Confirms the Species Status of the Christmas Island Hawk-Owl Ninox natalis
+- Author/year: Norman et al. / 1998
+- DOI/URL: https://doi.org/10.1071/MU98028
+- Accessed: 2026-11-06
+- Type: primary molecular study; publisher abstract read
+- Facts: mitochondrial ND2 comparisons support separate species status for natalis versus the former N. squamipila complex.
+- Limits: full text access-blocked; taxonomy only, not morphology.
+
+### CIB-ITIS-2025
+- Title: ITIS report — Ninox natalis Lister, 1889, TSN 686701
+- Institution/source: Integrated Taxonomic Information System; IOC World Bird List v15.1 source acquired 2025
+- URL: https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686701
+- Accessed: 2026-11-06
+- Type: authoritative taxonomy database
+- Facts: Ninox natalis valid species; Christmas Boobook / Christmas Island Boobook.
+- Limits: nomenclature only.
+

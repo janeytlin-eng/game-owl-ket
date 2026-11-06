@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T08:55:07+08:00",
+  "updated": "2026-11-06T09:49:04.213+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22551,7 +22551,62 @@
       "archive_tree": "32837dd7e713ea0a97ab2fdddf5b1c624aca2b72",
       "verified_at": "2026-11-06T08:55:07+08:00",
       "verification_result": "PASS: immutable archive tree returned 3,275 non-truncated entries; all 15 required #95 paths were present; six binary paths matched exact Git blobs; three manifests parsed at 714/713/704 with #95 v5 tails."
+    },
+    {
+      "id": "96-aegolius-ridgwayi-v5",
+      "path": "design/concepts/96-aegolius-ridgwayi-v5.png",
+      "species_id": 96,
+      "scientific_name": "Aegolius ridgwayi",
+      "current_scientific_name": "Aegolius ridgwayi",
+      "common_name": "Unspotted Saw-whet Owl",
+      "historical_names": [
+        "Cryptoglaux ridgwayi"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "RID-CARMAN-SILES-ANGULO-2025-P127-128",
+        "RID-EISERMANN-AVENDANO-2018-P178",
+        "RID-ITIS-686697-2026",
+        "RID-AVIBASE-RIDGWAYI-2026",
+        "RID-CAYAYA-EISERMANN-JUV-PHOTO-2026",
+        "RID-MIK2013-446"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/96-aegolius-ridgwayi-v5.md",
+      "review_record": "research/reviews/96-aegolius-ridgwayi-v5-review.md",
+      "run_record": "production/runs/20261106T093650+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2960114,
+      "sha256": "683c16bd8dc55f498cd2948c0198008187b3674208cb3bf921e97c95615ab5c0",
+      "git_blob": "dc16fbaf30fbf893a129689ebe53232f5c82c52f",
+      "generated_path": "production/generated/96-aegolius-ridgwayi-v5-generated-master.png",
+      "generated_blob": "a5118689fec7b897593eaa8c59a6076fc3552a8c",
+      "generated_sha256": "65c446a71abe5fb76d16d8be9902d76ac7eb90a3cd45e17369e09d6dd126a0c9",
+      "generated_size_bytes": 3175860,
+      "edit_path": "production/generated/96-aegolius-ridgwayi-v5-edit1.png",
+      "edit_blob": "dc16fbaf30fbf893a129689ebe53232f5c82c52f",
+      "reviewed_path": "production/reviewed/96-aegolius-ridgwayi-v5-reviewed-master.png",
+      "reviewed_blob": "dc16fbaf30fbf893a129689ebe53232f5c82c52f",
+      "reviewed_at": "2026-11-06T09:49:04.213+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4, uses an age-unknown recent fledgling at an evidence-supported natural decay-cavity threshold, and after one juvenile-only edit removes the long hard primary panel, shortens/softens the wing and conceals the tail. Exact age/sex/flight and fixed adult sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T08:55:07+08:00"
+  "updated_at": "2026-11-06T09:49:04.213+08:00"
 }

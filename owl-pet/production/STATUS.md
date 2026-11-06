@@ -378,3 +378,8 @@ Verification commit `928734acfc4c105e942605761b75e6b84213e5da` was read back aft
 ### #139 v4 VERIFIED — ledger credit pending
 
 Archive `10ab4198d6d295925336d18e8d716d0d70c3263e`, tree `d3ce448a9eda9951da0a24bb5e8c5d4f9451df9d`, 3,584 non-truncated entries; 15/15 paths and six binary tuples matched. Manifests 748/749/739 parsed. Unique 176/251; PASS_WITH_LIMITATIONS; science false.
+
+
+### #139 v4 LEDGER_CREDITED — batch PARTIAL 2/6
+
+Verification `459e5511c6924eb0d39c4e25a38024d2db7b0162` read back after archive `10ab4198d6d295925336d18e8d716d0d70c3263e`. Cycle 2 credited once; batch next_cycle=3; lease released. Unique 176/251; revision +1; science false.

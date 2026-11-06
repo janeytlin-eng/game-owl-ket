@@ -23,3 +23,12 @@
 
 - Archive `47459717548a53b8242aeb64e34444de1694da5f`; blob `8b30765e66ce8dc35538a43a0982692a054d177e`; unique increment 0, total 163/251.
 - Both image paths and manifest/run/ledger readback passed; science false.
+
+## v3 science revision — 2026-11-07T04:49:00+08:00
+
+- Primary adult diagnosis newly read: `LZBO-RASMUSSEN-2012-P13-14` (printed pp.13–14, Fig.6a); taxonomy/current-concept mapping: `LZBO-ITIS-555484-2026`, `LZBO-CLEMENTS-2013-SPLIT`.
+- Reused v2 evidence `LZBO-MIKKOLA-2013-P473` for the age-unknown fledgling because the uploaded guide was unavailable in this execution; no fresh page claim.
+- One targeted edit corrected an overlong, over-white-marked juvenile wing. Whole plate plus fledgling and adults/support crops passed.
+- Result: `PASS_WITH_LIMITATIONS`; science false. Unknown: exact age/iris/flight/continuous sequence, quantitative sex-size ratio and universal nest.
+- Files: `design/concepts/145-ninox-philippensis-v3.png`; `research/species/145-ninox-philippensis-v3.md`; `research/reviews/145-ninox-philippensis-v3-review.md`.
+- Archive readback pending at this checkpoint; unique total remains 176/251; revision +1.

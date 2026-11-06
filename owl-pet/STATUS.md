@@ -3664,3 +3664,11 @@ Verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` read back after archive 
 
 
 - #142 *Asio grammicus* v3 archived as a science revision. One edit corrected a long adult-like juvenile wing; full plate plus two crops passed. #154 remains an old-genus duplicate. Manifests 752/751/742; unique 176/251; science false; immutable readback pending.
+
+
+## 2026-11-07 — #145 *Ninox philippensis* v3 ARCHIVED — readback pending
+
+- Science revision only; v1/v2 retained; unique species remains 176/251, revision +1.
+- Three newly indexed sources actually read plus one repository Mikkola record reused; uploaded guide inaccessible in this execution.
+- One targeted edit shortened/softened the fledgling wing and removed repeated adult-like white marks. Whole plate and two crops reopened; `PASS_WITH_LIMITATIONS`; science false.
+- Manifests prepared at 753/754/744. Immutable readback and cycle credit pending.

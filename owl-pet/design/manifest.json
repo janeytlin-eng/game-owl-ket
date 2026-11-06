@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T03:51:00+08:00",
+  "updated": "2026-11-07T04:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26288,7 +26288,69 @@
       "verification_tree": "7668fa10120942321d48511de974ebfae34c87af",
       "ledger_credited": true,
       "ledger_credited_at": "2026-11-07T03:51:00+08:00"
+    },
+    {
+      "id": "145-ninox-philippensis-v3",
+      "path": "design/concepts/145-ninox-philippensis-v3.png",
+      "species_id": 145,
+      "scientific_name": "Ninox philippensis",
+      "historical_names": [
+        "Ninox philippensis proxima",
+        "Ninox philippensis centralis",
+        "Ninox philippensis ticaoensis"
+      ],
+      "common_name": "Luzon Boobook",
+      "scope": "Luzon species concept retaining philippensis/ticaoensis/centralis; adult pair plus an evidence-bounded age/sex/flight-unknown older fledgling; generic forest branch, not a nest reconstruction",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "LZBO-RASMUSSEN-2012-P13-14",
+        "LZBO-ITIS-555484-2026",
+        "LZBO-CLEMENTS-2013-SPLIT",
+        "LZBO-MIKKOLA-2013-P473"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/145-ninox-philippensis-v3.md",
+      "review_record": "research/reviews/145-ninox-philippensis-v3-review.md",
+      "run_record": "production/runs/20261107T043300+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2344448,
+      "sha256": "8e7ebfce5ac6e27c6ea1a8e447bb4c1f581468cac913504f2efff5609b4469ff",
+      "git_blob": "4b99914d3aaae28e5595a2d8cd84e5e75ff0cfcc",
+      "generated_path": "production/generated/145-ninox-philippensis-v3-generated-master.png",
+      "generated_blob": "4b99914d3aaae28e5595a2d8cd84e5e75ff0cfcc",
+      "generated_sha256": "8e7ebfce5ac6e27c6ea1a8e447bb4c1f581468cac913504f2efff5609b4469ff",
+      "generated_size_bytes": 2344448,
+      "reviewed_path": "production/reviewed/145-ninox-philippensis-v3-reviewed-master.png",
+      "reviewed_blob": "4b99914d3aaae28e5595a2d8cd84e5e75ff0cfcc",
+      "juvenile_review_crop": "production/review-crops/145-ninox-philippensis-v3-fledgling.png",
+      "juvenile_review_blob": "806e2627e328c876f170125dbf1a26ada0b56793",
+      "juvenile_review_size_bytes": 627834,
+      "juvenile_review_sha256": "7ca2279d0eddf58bffd66b06afc77162a6161abbc1583cd89e7b63da9d15d59f",
+      "adult_review_crop": "production/review-crops/145-ninox-philippensis-v3-adults-support.png",
+      "adult_review_blob": "d7e619b4d7d5fd4be4420540e0abeb36454bc892",
+      "adult_review_size_bytes": 1203773,
+      "adult_review_sha256": "8e8cf98b73c3f0a95d29058b9e3e3edc2670670cb199891ae4a4d23eff58f4c5",
+      "batch_id": "20261107T043300+0800",
+      "cycle": 1,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T04:49:00+08:00",
+      "archive_commit_pending": true,
+      "evidence_limit": "Mikkola p.473 fledgling facts reused from repository because upload was inaccessible; exact age, iris, flight, sequence, quantitative dimorphism and universal nest remain unknown."
     }
   ],
-  "updated_at": "2026-11-07T03:51:00+08:00"
+  "updated_at": "2026-11-07T04:49:00+08:00"
 }

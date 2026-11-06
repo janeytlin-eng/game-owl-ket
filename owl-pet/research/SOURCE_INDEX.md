@@ -1,3 +1,22 @@
+## 2026-11-07 — #149 *Ninox odiosa* v3 — sexed adult specimen text and current name
+
+### NBBOO-GOULD-SHARPE-1884-TEXT — newly read public-domain specimen account
+- **Title / authors / year:** *The Birds of New Guinea and the Adjacent Papuan Islands*, vol. 1, “Ninox odiosa,” John Gould / R. Bowdler Sharpe, 1884.
+- **URL:** https://upload.wikimedia.org/wikipedia/commons/c/cf/The_birds_of_New_Guinea_and_the_adjacent_Papuan_islands_-_including_many_new_species_recently_discovered_in_Australia_%28IA_birdsnewguineaa1goul%29.pdf
+- **Type / specimen:** historical primary specimen account; sexed adult male collected 30 July 1879; life-size plate.
+- **Actually read:** OCR lines 4186–4304, accessed 2026-11-07.
+- **Valuable facts:** pale chocolate upperparts; irregular white scapular/greater-coverts marks; narrow pale crown bars; broad separate white brows; dark-edged white throat; mostly white underbody with narrow brown center-streaks; chocolate breast sides mottled white; yellow iris, ash bill, drab feet; total 10 in, wing 6.4, tail 4.2, tarsus 1.3.
+- **Decision:** correct v2's solid broad chest-band reading and use a pale streaked underside; do not infer female or juvenile.
+- **Limitations/confidence:** high for the described male; historical prepared specimen and OCR; no female/development.
+- **Links:** [#149 v3 research](species/149-ninox-odiosa-v3.md).
+
+### NBBOO-ITIS-555491-2026 — newly indexed taxonomy authority
+- **Institution / accessed:** ITIS, TSN 555491, accessed 2026-11-07.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555491
+- **Actually read:** lines 42–72, 107–110.
+- **Fact / use:** valid *Ninox odiosa*, verified standards met, IOC v15.1; New Britain Boobook.
+- **Limitations:** naming only; no morphology, sex or development evidence.
+
 ## 2026-11-07 — #148 *Ninox rumseyi* v3 — sex-size correction and current-name authority
 
 ### CEB-ITIS-1063267-2026 — newly indexed taxonomy authority

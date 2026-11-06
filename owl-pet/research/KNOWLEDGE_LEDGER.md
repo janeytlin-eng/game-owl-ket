@@ -1,3 +1,10 @@
+## 2026-11-07 — #149 *Ninox odiosa* v3 historic text corrected a modern-summary simplification
+
+**Problem:** v2 translated general summaries into a broad full-width dark upper-breast band.
+**Evidence:** the sexed 1879 adult male account instead describes a white, narrowly brown-streaked underside with chocolate breast sides mottled white.
+**Applied rule:** when a full specimen account becomes available, prefer its localized pattern map over a generalized secondary summary; preserve field-photo color range but do not transfer unsupported sex/juvenile traits.
+**Validation state:** applied to v3 prompt; pixel review pending.
+
 ## 2026-11-07 — #148 *Ninox rumseyi* v3 sex-size correction
 
 **Problem:** v2 treated the adults as near-equal because the species description lacked a quantified sex ratio.

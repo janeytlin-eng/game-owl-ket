@@ -25,3 +25,19 @@ Targeted scientific correction of the attached #148 Cebu Boobook triptych. Prese
 ```
 
 > Earlier production prompts remain preserved inside their per-species research and run records. This centralized file was introduced with #148 v3.
+
+
+## #149 v3 — *Ninox odiosa* — batch 20261107T043300+0800 cycle 5/6
+
+### Generation
+
+```text
+Use case: scientific-educational.
+Create a new 1536×1024 landscape owl-pet triptych for #149 New Britain Boobook, Ninox odiosa. Exactly three whole birds on one naturally forked mossy rainforest branch: ADULT MALE left, ADULT FEMALE center, OLDER JUVENILE right. Readable title NEW BRITAIN BOOBOOK, italic Ninox odiosa, and exact bottom labels only.
+
+Adults: compact small earless boobooks, near-equal visible scale because no sexed measurement series or female plumage account was found. Base the adult identity on the 1884 sexed male specimen and modern field photo: pale chocolate to warm russet-brown upperparts, head/nape dull umber with many narrow brownish-white bars/spots, broad separate white streak above each eye (not joined into a V), whitish below-eye feathers, chocolate ear-coverts with darker bars and whitish shaft lines, white throat with blackish-tipped side feathers forming a dark-edged disk. Scapulars and greater wing coverts show conspicuous irregular ovate white marks; other wing coverts are mostly uniform with only a few small white spots. Underbody predominantly creamy white with narrow brown shaft-streaks, widening modestly near feather tips; chocolate-brown breast sides mottled white, not a solid full-width chest band. Yellow to orange-yellow irides; ash/pale horn bill; drab-to-yellowish feet with dark curved claws. No ear tufts.
+Older juvenile: species-specific juvenile plumage and chronology remain unknown. Show an age-unknown older juvenile at rest with eyes gently closed, two feet fully supported, diffuse soft russet-brown down and vague irregular mottling, short rounded wing mostly buried in fluff, very short hidden tail, no crisp adult spangles or long remiges, no flight action.
+Environment: dense New Britain lowland/foothill rainforest, subdued dawn light, vines/epiphytes and natural support. No nest, cavity, eggs or hatchling reconstruction.
+Style: match approved tactile high-detail naturalistic 3D owl-pet concept art, scientifically restrained.
+Avoid: imposed dimorphism, female-larger stereotype, long joined V brows, solid dark chest band, neat repeated white wing rows, adult-like juvenile wing/tail, open juvenile eyes, extra birds/limbs, unsupported feet, text errors, watermark.
+```

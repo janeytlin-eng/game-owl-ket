@@ -1,3 +1,58 @@
+## 2026-11-06 — #104 *Asio madagascariensis* v5 — full primary chapter plus dated stage photographs
+
+### MLO-RDR-GOODMAN2003 — newly indexed, original chapter read
+- Title: “*Asio madagascariensis*, Madagascar Long-eared Owl”
+- Authors/institution: L.-A. Rene de Roland & S. M. Goodman; in *The Natural History of Madagascar*
+- Year/source type: 2003; primary breeding-study chapter
+- URL: https://protectedareas.mg/content/documents/0cd9156e-e528-4293-b8da-d00aa5f5af4f/dc17b8fd22bd4c08ad8fcddd92d3ff17.pdf
+- Accessed: 2026-11-06
+- Species/stage: *Asio madagascariensis*; adults, eggs, nestlings, branching young
+- Pages/figure: printed pp.1116–1117; Fig.12.20
+- Read facts: one female weighed 770 g; no male weights, only “smaller than females”; one complete 2000 breeding cycle used an epiphyte tuft about 9 m high; young self-fed at 25 days, moved around/off the nest into adjacent trees at 36 days, remained near and returned for prey, first fed away from the nest at 42 days, moved 50–70 m thereafter and dispersed at 64 days. Fig.12.20 is a separate Tsinjoarivo fledgling molting from white nestling to dark adult plumage.
+- Evidence boundary/conflict: the one 770 g female plus unquantified male statement does not support a fixed display ratio. The figure is not the measured Ambanizana brood; do not assign its plumage photograph an exact age or turn branch movement into demonstrated sustained flight.
+- Design/check use: near-equal adult height with only modest female fullness; epiphyte fork as a recorded case; age-unknown older branch-supported mesoptile with compact formed wings, no flight pose.
+- Confidence: high for cited study facts; limited to one followed pair/brood and one separate figure.
+
+### MLO-VASSEN2013-COMMONS — newly indexed, dated field photograph page opened
+- Title/author: “Juvenile Madagascar Long-eared Owl (*Asio madagascariensis*), Andasibe, Madagascar”; Frank Vassen
+- Date/source type: 4 Dec 2013; dated field photograph metadata, CC BY 2.0
+- URL: https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Long-eared_Owl_(Asio_madagascariensis),_Andasibe,_Madagascar.jpg
+- Accessed: 2026-11-06
+- Species/stage: juvenile; exact age/sex unknown
+- Page/figure: file page and original 4478×3358 image
+- Read facts: page identifies juvenile, Andasibe locality, date and author. The opened photograph supports white/cream fluff, dark facial mask, short tufts, formed brown folded wings and branch grip.
+- Limitations: no hatch age, sex, iris chronology, molt series or flight test; image evidence is stage direction, not a timetable.
+- Design/check use: retain formed but juvenile-soft wings and continuous branch support; label age unknown.
+- Confidence: medium-high for visible form and metadata.
+
+### MLO-PETERDAY2016-BF — newly indexed, dated field photograph page opened
+- Title/author: “Madagascar Long-eared Owl (juv)”; Peter Day
+- Date/source type: photograph taken 30 Nov 2016; BirdForum gallery
+- URL: https://www.birdforum.net/gallery/madagascar-long-eared-owl-juv.595811/
+- Accessed: 2026-11-06
+- Species/stage/locality: *Asio madagascariensis* juvenile; Vakona Forest Lodge; forest
+- Page/figure: full-frame gallery image and metadata
+- Read facts: the page explicitly identifies species, juvenile stage, forest, locality and date. The image supports a very fluffy white/cream older juvenile, dark mask, short fuzzy tufts, formed brown wings and secure perch.
+- Limitations: uploader identification/photograph, not an ageing study; exact age, sex, iris chronology, flight threshold and feather sequence unknown.
+- Design/check use: cross-check the same age-unknown mesoptile direction and two-foot branch support.
+- Confidence: medium for visible form; low for unmeasured biology.
+
+### MLO-FENEROLE2006-MALE — newly indexed, dated adult photograph page opened
+- Title/author: “Hibou malgache – *Asio madagascariensis*”; Jean-Michel Fenerole
+- Date/source type: Dec 2006; adult field photograph metadata
+- URL: https://www.oiseaux.net/photos/jean-michel.fenerole/hibou.malgache.1.html
+- Accessed: 2026-11-06
+- Species/sex/stage: adult male as labelled by source; Andasibe, Madagascar
+- Page/figure: O.Net reference jefe29275
+- Read facts: page identifies male adult, locality/date and flash. Visible form supports long narrow flexible ear tufts, orange iris, black bill, warm facial disc and feathered lower legs.
+- Limitations: source sex label is not independently measured; flash alters colour and one pose cannot define universal tuft geometry.
+- Design/check use: avoid broad rigid fan-shaped tufts; keep warm adult identity and feathered tarsus direction.
+- Confidence: medium for visible morphology and metadata.
+
+- Current-name mapping: *Asio madagascariensis*; historical original combination *Otus madagascariensis* must not be confused with the Western Malagasy Scops Owl now also using *Otus madagascariensis*.
+- Mikkola: repository extraction p.509 reused; user-uploaded guide unavailable in this run.
+- This section indexes four actually opened sources; no scientific sign-off is claimed.
+
 ## 2026-11-06 — #103 *Tyto longimembris* v5 — expanded primary development reading
 
 ### EGO-DUNLOP2016 — corrected/expanded existing record

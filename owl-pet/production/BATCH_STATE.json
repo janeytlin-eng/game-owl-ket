@@ -21743,8 +21743,8 @@
         "batch_id": "20261106T105700+0800",
         "cycle": 5,
         "species_id": 104,
-        "heartbeat_at": "2026-11-06T12:23:00.000+08:00",
-        "expires_at": "2026-11-06T12:38:00.000+08:00"
+        "heartbeat_at": "2026-11-06T12:27:00.000+08:00",
+        "expires_at": "2026-11-06T12:42:00.000+08:00"
       },
       "lease": {
         "owner": "codex-production",
@@ -21752,8 +21752,8 @@
         "batch_id": "20261106T105700+0800",
         "cycle": 5,
         "species_id": 104,
-        "heartbeat_at": "2026-11-06T12:23:00.000+08:00",
-        "expires_at": "2026-11-06T12:38:00.000+08:00"
+        "heartbeat_at": "2026-11-06T12:27:00.000+08:00",
+        "expires_at": "2026-11-06T12:42:00.000+08:00"
       },
       "in_progress": {
         "batch_id": "20261106T105700+0800",
@@ -21762,10 +21762,10 @@
         "species": "Asio madagascariensis",
         "planned_version": 5,
         "run_id": "20261106T105700+0800-cycle-5",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-11-06T12:23:00.000+08:00"
       },
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "events": [
         {
           "batch_id": "20261106T105700+0800",
@@ -22388,6 +22388,27 @@
             "prior_version": "owl-pet/design/concepts/104-asio-madagascariensis-v4.png",
             "lease_expires_at": "2026-11-06T12:38:00.000+08:00"
           }
+        },
+        {
+          "batch_id": "20261106T105700+0800",
+          "cycle": 5,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-06T12:27:00.000+08:00",
+          "run_id": "20261106T105700+0800-cycle-5",
+          "species_id": 104,
+          "credited": false,
+          "evidence": {
+            "research_file": "owl-pet/research/104-asio-madagascariensis-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_sources": 4,
+            "reused_sources": 1,
+            "corrected_boundaries": 4,
+            "selected_stage": "age-unknown older branching mesoptile: white/cream fluff, dark mask, short tufts, formed juvenile-soft brown wing, mostly concealed tail and supported branch step; no flight",
+            "current_old_name_mapping": "Asio madagascariensis; historical Otus madagascariensis is ambiguous with Western Malagasy Scops Owl and must be contextualized",
+            "mikkola_upload_accessible": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-06T12:42:00.000+08:00"
+          }
         }
       ],
       "started_at": "2026-11-06T10:57:00.000+08:00",
@@ -22536,7 +22557,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-06T12:23:00.000+08:00",
+  "updated_at": "2026-11-06T12:27:00.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",

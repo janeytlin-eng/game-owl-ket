@@ -2881,3 +2881,37 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Reused the archived #143 v2 research record and its already extracted adult boundary; no unverified adult sex-size ratio was added.
 - User-uploaded Mikkola guide was not accessible in this execution and is not cited as freshly read.
 - New indexed sources: 3; reused repository record: 1. Exact age, sex, first-flight timing, quantitative dimorphism, continuous feather sequence and universal nest geometry remain unknown; `scientifically_verified=false`.
+
+
+## 2026-11-07 — #145 *Ninox philippensis* v3 — adult diagnosis, taxon mapping and constrained fledgling reuse
+
+### LZBO-RASMUSSEN-2012-P13-14
+- **Title/authors/year:** “Vocal divergence and new species in the Philippine hawk owl *Ninox philippensis* complex” — Pamela C. Rasmussen et al., 2012, *Forktail* 28:1–20.
+- **URL/accessed/type:** https://www.asianscientist.com/wp-content/uploads/2012/08/Vocal-divergence-and-new-species.pdf ; publication landing https://www.orientalbirdclub.org/forktail28/ ; accessed 2026-11-07; peer-reviewed primary taxonomic/morphology paper.
+- **Pages/figure actually read:** printed pp.13–14; Fig.6a adult from Dolores, Quezon, Luzon.
+- **Facts/design use:** small compact sleek boobook; small buff-white supercilium; plain dark auriculars with filamentous extensions; poorly defined disc; uniform brown crown-rump without barring/speckling; large white/pale-buff dark-edged scapular patch; one/two large white outer-covert spots without barring; weak narrow pale tail bands; narrow white finely streaked throat; prominent narrow elongated brown/rufescent ventral streaks; yellow iris with paler outer ring, pale olive-yellow cere/bill, yellow tarsi/toes and mostly black claws.
+- **Taxon scope:** philippensis/proxima/centralis/ticaoensis treated as one species; subspecific divisions weak and Siquijor centralis retained pending further study.
+- **Limits/conflict:** individual attribution can be problematic and the paper does not provide a juvenile chronology or fixed sex-size display ratio. High confidence for adult diagnosis and concept; none for ageing.
+
+### LZBO-ITIS-555484-2026
+- **Institution/title:** Integrated Taxonomic Information System — *Ninox philippensis*, TSN 555484.
+- **URL/accessed/type:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555484&source=to_print ; accessed 2026-11-07; authoritative taxonomy database.
+- **Section actually read:** nomenclature, common names and direct children.
+- **Facts/design use:** valid *Ninox philippensis*; common names Luzon Boobook, Philippine Hawk-Owl and Luzon Hawk-Owl; direct subspecies *centralis*, *philippensis* and *ticaoensis*.
+- **Limits:** taxonomy only; no morphology, sex or development inference.
+
+### LZBO-CLEMENTS-2013-SPLIT
+- **Institution/title/year:** Cornell Lab of Ornithology, Clements Checklist August 2013 updates and corrections.
+- **URL/accessed/type:** https://www.birds.cornell.edu/clementschecklist/introduction/updateindex/overview-august-2013/updates-and-corrections-august-2013/ ; accessed 2026-11-07; official checklist update.
+- **Section actually read:** Philippine Hawk-Owl complex split entry.
+- **Facts/design use:** records the split into five species and retains philippensis/ticaoensis/centralis within Luzon Boobook *N. philippensis*. Supports current-concept mapping.
+- **Limits:** checklist taxonomy/range mapping only; no morphology or development.
+
+### LZBO-MIKKOLA-2013-P473 — reused repository evidence
+- **Title/author/year:** *Owls of the World: A Photographic Guide*, 2nd ed. — Heimo Mikkola, 2013.
+- **Locator:** printed p.473 / uploaded PDF p.475, as extracted in the archived #145 v2 research record.
+- **Facts reused:** white natal down; age-unknown fledgling nearly uniform dark brown above with few buff-white scapular bars, darker ochre-spotted wings/white outer webs and white underparts broadly streaked by fawn centres.
+- **Access/limit:** the user-uploaded guide was not accessible in this execution; no fresh page claim. The record supplies a conservative supported fledgling phenotype but not exact age, sex, iris, flight capacity, full feather sequence or nest geometry.
+- **Links:** `owl-pet/knowledge/species/145-ninox-philippensis.md`; `owl-pet/research/species/145-ninox-philippensis-v3.md`.
+
+**Run synthesis:** three newly indexed sources actually opened/read and one repository source reused. Adult sex-size direction, exact fledgling age/iris/flight/sequence and universal nest remain unknown; `scientifically_verified=false`.

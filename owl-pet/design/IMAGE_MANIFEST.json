@@ -24714,7 +24714,67 @@
       "verified_at": "2026-11-06T18:14:20+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive commit f8ed7565 resolved all 16 required paths in a non-truncated 3,427-entry recursive tree. Six image path/blob/byte tuples matched; concept/edit/reviewed resolve to 4ff93c1b… (2,690,853 bytes), original generation to cefe45c1… (2,857,100 bytes), and both crop blobs/bytes match. Archive manifest snapshots parsed at 731/732/722 and ended with #133 v4. An adults-crop byte-count transcription was corrected from 1,382,608 to 1,383,438 in this verification commit. Science remains false."
+    },
+    {
+      "id": "134-megascops-sanctaecatarinae-v4",
+      "path": "design/concepts/134-megascops-sanctaecatarinae-v4.png",
+      "species_id": 134,
+      "scientific_name": "Megascops sanctaecatarinae",
+      "historical_names": [
+        "Scops sanctaecatarinae",
+        "Otus sanctaecatarinae"
+      ],
+      "common_name": "Long-tufted Screech-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "LTSC-PAGANO-2021",
+        "LTSC-KACHIMARECK-2014-WA1527488",
+        "LTSC-ITIS-686677"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/134-megascops-sanctaecatarinae-v4.md",
+      "review_record": "research/reviews/134-megascops-sanctaecatarinae-v4-review.md",
+      "run_record": "production/runs/20261106T181547+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3216478,
+      "sha256": "2e7622d656dda04042cc12e88d542d68a3cd3b0ddf5bb828f282c0444f6d4e06",
+      "git_blob": "76203bc060929dd2d7a29a509a6f2563006cc2b3",
+      "generated_path": "production/generated/134-megascops-sanctaecatarinae-v4-generated-master.png",
+      "generated_blob": "e85c1781640e7b77da427f08a8d309026b222cde",
+      "generated_sha256": "f27b2cc760de67b02c65fc31ed00789326b812cd98809621e6e5e7e3670de77a",
+      "generated_size_bytes": 3392418,
+      "edit_path": "production/edits/134-megascops-sanctaecatarinae-v4-edit1.png",
+      "edit_blob": "76203bc060929dd2d7a29a509a6f2563006cc2b3",
+      "reviewed_path": "production/reviewed/134-megascops-sanctaecatarinae-v4-reviewed-master.png",
+      "reviewed_blob": "76203bc060929dd2d7a29a509a6f2563006cc2b3",
+      "juvenile_review_crop": "production/review-crops/134-megascops-sanctaecatarinae-v4-juvenile-cavity.png",
+      "juvenile_review_blob": "aafe0f204f89f8c6bb7dcf5101ac6ccea04594ab",
+      "juvenile_review_size_bytes": 749943,
+      "juvenile_review_sha256": "9f2ed094d6ae1e88a9e5b3f98232b833acd42d164cb388562a055410ba3de9af",
+      "adults_review_crop": "production/review-crops/134-megascops-sanctaecatarinae-v4-adults-feet.png",
+      "adults_review_blob": "6c9c754bfbd99257d93ecb9207ef0e3d77d7b2f0",
+      "adults_review_size_bytes": 1502972,
+      "adults_review_sha256": "e1a32f8348fcc27a9cba9fc6091bc7e3097eed48ccc771bb9251727043aff794",
+      "reviewed_at": "2026-11-06T18:25:10+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3 and repairs #134's absence from all current manifests. One targeted edit corrected an unsupported conspicuously smaller/lower female to near-equal crown height with subtle fullness. The juvenile is bounded to direct-photo visible grey upper body at a tree cavity with open bill; hidden lower anatomy stays hidden. Exact age/sex/fledging/flight, hidden lower feathering, quantitative sex-size ratio and population iris distribution remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T18:14:20+08:00"
+  "updated_at": "2026-11-06T18:28:05+08:00"
 }

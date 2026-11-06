@@ -1,3 +1,23 @@
+## 2026-11-06 — #108 *Otus rutilus* v4 — eastern taxon and direct juvenile/adult identity correction
+
+### RUT-ITIS-202268-2026 — newly indexed taxonomy record
+- ITIS TSN 202268, accessed 2026-11-06: https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=202268
+- Current valid *Otus rutilus*; older/synonym mapping *Scops rutilus* and *Otus rutilus rutilus*. Taxonomy only; no morphology/development inference. High confidence for naming.
+
+### RUT-RASMUSSEN-ETAL-2000 — newly indexed primary taxonomic/morphology study
+- Rasmussen, Schulenberg, Hawkins & Voninavoko (2000), BBOC 120:75–102: https://www.biodiversitylibrary.org/part/76650
+- Species/geography: historical *O. rutilus* complex; eastern humid-forest *rutilus* diagnostic proposal versus western dry-forest population. Useful facts: eastern birds tend deeper rufous/dark brown; colour, voice and subtle measurements vary. Limits: later mtDNA work disputed species rank; no sex-diagnostic colour or fixed ratio. Design use: Andasibe plate stays eastern and does not borrow western phenotype.
+
+### RUT-VASSEN-2013-ANDASIBE-JUV — corrected/re-read dated juvenile photograph
+- Frank Vassen, 4 Dec 2013, Andasibe, Commons/Flickr CC BY 2.0: https://commons.wikimedia.org/wiki/File:Juvenile_Madagascar_Scops_Owl_(Otus_rutilus),_Andasibe,_Madagascar.jpg
+- Original 3670×2679 opened. Visible age-unknown juvenile: loose brown down, dark mask, pale brow/crown down, yellow-brown iris, pink lower eyelid, dark bill, short wisps, hidden tail and two-foot branch support. No hatch age, sex, feather timetable or flight test. Medium-high for visible form/locality/date.
+
+### RUT-CORNELL-ADULT-PHOTOS-2026 — newly indexed institutional adult-image cross-check
+- Cornell Lab / Birds of the World multimedia: https://birdsoftheworld.org/bow/species/madsco1/cur/multimedia?media=photos
+- Adult assets 192444291 and 300287281 opened. Visible compact small scops identity, small short tufts, yellow eyes, cryptic rufous/dark-brown plumage and compact feet. Limits: sex/scale unmeasured; a cavity roost is not evidence of a nest. Medium-high for adult visual identity.
+
+- Reused: `MSC-OWLPAGES-2020`, `MSC-GIERSBERGEN-2019`; user-uploaded guide not mounted, so no new page claim. Detailed facts, conflict boundaries, complete prompt and revision link: `research/species/108-otus-rutilus-v4.md`. Scientific verification remains false.
+
 ## 2026-11-06 — #105 *Ptilopsis granti* v8 — morphology/taxonomy re-read
 
 ### SWFO-ADW-2014 — newly indexed, institutional secondary account opened

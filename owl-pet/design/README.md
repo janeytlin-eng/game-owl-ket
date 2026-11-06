@@ -1,3 +1,7 @@
+## Latest concept: #105 *Ptilopsis granti* v8
+
+`design/concepts/105-ptilopsis-granti-v8.png` preserves v1-v7 and passes full/crop review with overlapping-sex-mass, basal-toe and age-unknown juvenile boundaries. Science false.
+
 ## Latest concept: #104 *Asio madagascariensis* v5
 
 `design/concepts/104-asio-madagascariensis-v5.png` preserves v1-v4 and explicitly separates the measured brood timeline from a different photographed fledgling. One evidence correction softened the juvenile wing and improved adult proximal toe feathering; full/crop review passed with limitations. Scientific verification remains false.

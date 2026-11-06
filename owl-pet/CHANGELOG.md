@@ -1,3 +1,7 @@
+## 2026-11-06 — #105 *Ptilopsis granti* v8
+
+Science revision preserving v1-v7; reopened ADW/ITIS, applied overlapping-mass and basal-toe boundaries, passed full/crops without edit; science false.
+
 ## 2026-11-06 — #104 *Asio madagascariensis* v5
 
 Archived a science revision preserving v1-v4. Newly indexed the full original breeding chapter and three dated field-photo pages. One referenced edit shortened/down-fringed the juvenile wing, concealed its tail and extended adult feathering over proximal toe bases. Full image, juvenile crop and feet crop passed with limitations. Exact juvenile timetable/flight, toe map and population sex ratio remain unknown; scientific verification is false.

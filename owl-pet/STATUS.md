@@ -1,3 +1,7 @@
+## 2026-11-06 — #105 *Ptilopsis granti* v8 archived, verification pending
+
+Cycle 6/6 archive writes concept/generated/reviewed/crops and manifests 723/722/713. Unique species remain 176/251; science false.
+
 ## 2026-11-06 — #104 *Asio madagascariensis* v5 archived, verification pending
 
 Cycle 5/6 archive writes the concept, generated/edit/reviewed masters, two visual-review crops, research/review/run records and manifest counts 722/721/712. Unique archived species remain 176/251 because this is a science revision preserving v1-v4. One evidence correction was applied and rechecked; scientific verification is false.

@@ -31,3 +31,11 @@ undefined
 - When a secondary account says a belly is “unmarked” or “mostly plain” but an identified specimen photograph shows substantial irregular barring, preserve both by mapping the pale ground and the actual barred zones instead of flattening either source into an all-plain or all-barred adult.
 - Do not infer eye colour from a damaged museum specimen, and do not infer sex or juvenile stage from an unsexed living photograph.
 - Applied to the #151 v3 generation prompt; effectiveness is not claimed until full/crop review.
+
+
+## 2026-11-07 — #151 v3 validated image correction
+
+- Initial generation retained a long, layered juvenile wing despite “compact” wording.
+- One juvenile-only edit explicitly removed long remige tips and crisp rows, moved the wing edge high above the feet, and concealed the tail.
+- Full plate plus juvenile and adults/support crops were opened; the correction passed while adult identity, text and six supports stayed intact.
+- This validates the explicit wing-edge/topology instruction for #151 v3 only. It does not establish a species-specific juvenile timetable; science remains false.

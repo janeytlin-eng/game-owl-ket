@@ -1,3 +1,7 @@
+### #130 v4 LEDGER_CREDITED — active batch 1/6
+
+Verification `3223778e04444f1fa0f24ce9f7fd30b93e6d1215` credited once after the repaired full-size archive `3583e719`. Next cycle 2; lease released; unique 176/251; revision +1; science false.
+
 ### #130 *Megascops koepckeae* v4 — immutable archive VERIFIED
 
 Archive `3583e7191007ed49a964b51bf922289de4ec115d` / tree `3b13d6fe3193c7fd56be8988707ee6620fd59b22` passed a 3,520-entry non-truncated readback after repairing the first truncated binary upload. Sixteen required paths and five full-size image tuples passed; manifests 741/742/732. PASS_WITH_LIMITATIONS; science false; ledger credit pending.

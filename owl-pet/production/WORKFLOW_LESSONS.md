@@ -18,3 +18,10 @@ For taxa diagnosed by absence of white, write the negative as a whole-body ident
 ## 2026-11-07 — #139 v4 single-specimen juvenile cue
 
 **Problem:** an image model expanded “retained juvenile feathers on one specimen” into a generally mature, long-winged small adult. **Evidence:** the primary description supports only scattered pale juvenile crown/nape feathers; the guide explicitly says juvenile undescribed. **Change applied:** constrain the figure to an age-unknown older immature, close the eyes, shorten/soften the formed wing, conceal most of the tail, and inspect a dedicated crop. **Observed validation:** the long hard wing/tail impression was reduced while natural support and the one evidenced juvenile cue remained. Rule validated for production: a single specimen cue must remain local to its feather tract and must not be generalized into an invented whole-stage plumage.
+
+
+## 2026-11-07 — #140 *Otus rufescens* v4
+- **Problem observed across earlier versions:** juvenile descriptions often establish color/texture but not day age, flight capacity or full feather chronology.
+- **Evidence rule:** when a source explicitly documents a downy chick and color zones but not chronology, select a fully supported resting pose, conceal mature remiges/tail, and label age unknown; do not infer a cavity or fixed sex-size direction.
+- **Applied:** #140 v4 used near-equal adults and a moss/leaf-supported downy chick with no mature wing/tail claim.
+- **Verified in this image:** full plate plus adult/support and chick crops were opened; all contacts and juvenile boundaries passed without edit. This validates the prompt/check rule for this case only, not all owl species.

@@ -18,3 +18,8 @@ Mikkola p.178 body text was newly available/read and supersedes the earlier “b
 ## VERIFIED — 2026-10-31T21:44:00+08:00
 
 Immutable archive `0095366a7d8f7efbcfc1063008322181f376138d` exact six image tuples and complete manifest JSON readback passed; concept blob `7a374ee4d52d5de83679e9d4465751bc50c07520`. PASS_WITH_LIMITATIONS; science=false. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/0095366a7d8f7efbcfc1063008322181f376138d/owl-pet/design/concepts/140-otus-rufescens-v3.png?raw=1).
+
+
+## #140 *Otus rufescens* v4 REVIEWED — 2026-11-07T02:34:00+08:00
+
+V4 preserves v1–v3 and applies the currently readable evidence boundary: nominate light-morph adults, near-equal sex display because Mikkola explicitly reports no sexual-size data, and an age-unknown reddish-brown downy chick darker on crown/mantle and paler below. Full image and two crops were opened; adult support, brown eyes, irregular markings, chick down/closed eyes/concealed mature wing and tail all passed. No edit was required. Exact age/iris/flight/nest/sex-size remain unknown; PASS_WITH_LIMITATIONS; science=false.

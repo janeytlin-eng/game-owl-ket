@@ -1,3 +1,7 @@
+## 2026-11-06 — #102 *Strix nigrolineata* v4 archived, verification pending
+
+Cycle 3/6 archive was written with concept, generated master, one corrected edit, reviewed master, two review crops, research/review/run records and manifest counts 720/719/710. Unique archived species remains 176/251 because this is a revision. Scientific verification remains false until immutable archive readback.
+
 ## 2026-11-06 #101 *Otus spilocephalus* v8 LEDGER_CREDITED — batch 2/6
 
 - Verification commit `8a6c68aa28e19a00884ac046f2090ce4909be3e9` and tree `9b03f3f12e6597974a0cc932a416dd36bb33a739` were read back. Cycle 2 credited once; batch next cycle 3; lease released.

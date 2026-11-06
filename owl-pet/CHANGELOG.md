@@ -1,3 +1,7 @@
+## 2026-11-06 — #102 *Strix nigrolineata* v4
+
+Archived a science revision preserving v1-v3. Added two read source records, reused two repository sources, generated one plate, corrected the center juvenile's adult-like wing/tail once, and passed full/crop reinspection with limitations. Awaiting immutable archive verification; science false.
+
 - 2026-11-06T11:45:50.000+08:00: #101 *Otus spilocephalus* v8 LEDGER_CREDITED at verification `8a6c68aa28e19a00884ac046f2090ce4909be3e9`; batch 2/6, next cycle 3, lease released; unique176/251; science false.
 - 2026-11-06T11:44:54.000+08:00: verified #101 *Otus spilocephalus* v8 at archive `0c049e8d3203106a7f159eb4ee2b5684bd66cf89`, tree `0190a45af7fd9a642fd69c718077c1ca2aa94af6`; 3,317 non-truncated entries, six exact binary tuples and manifests 719/718/709 passed. Ledger credit pending; unique176/251; science false.
 - 2026-11-06T11:43:27.000+08:00: archived #101 *Otus spilocephalus* v8 preparation. New/read4, reused3, corrected4; one immature-wing edit; full and two crops passed; manifests 719/718/709; unique176/251; science false; immutable readback pending.

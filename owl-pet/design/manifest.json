@@ -23467,7 +23467,66 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "102-strix-nigrolineata-v4",
+      "path": "design/concepts/102-strix-nigrolineata-v4.png",
+      "species_id": 102,
+      "scientific_name": "Strix nigrolineata",
+      "historical_names": [
+        "Ciccaba nigrolineata"
+      ],
+      "common_name": "Black-and-white Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "BWO-GERHARDT-1994-JSTOR",
+        "BWO-AVESCR-2025",
+        "BWO-GERHARDT-1997",
+        "BWO-MIKKOLA-2013-P339"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/102-strix-nigrolineata-v4.md",
+      "review_record": "research/reviews/102-strix-nigrolineata-v4-review.md",
+      "run_record": "production/runs/20261106T105700+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3114352,
+      "sha256": "a0a90d3a628f1163b3d3eff9763cfb3f446857daf3b2a6049d90b98cfda0656f",
+      "git_blob": "e20380b242e51aada6394fa696824442423f6724",
+      "generated_path": "production/generated/102-strix-nigrolineata-v4-generated-master.png",
+      "generated_blob": "df726ce7ddb92951e61553b802176f61865fc9cf",
+      "generated_sha256": "a1e90cff6643b47df2d1353946b1e36ca07cb10dcccb60ccff8060ef1fc56f48",
+      "generated_size_bytes": 3279987,
+      "edit_path": "production/edits/102-strix-nigrolineata-v4-edit1.png",
+      "edit_blob": "e20380b242e51aada6394fa696824442423f6724",
+      "reviewed_path": "production/reviewed/102-strix-nigrolineata-v4-reviewed-master.png",
+      "reviewed_blob": "e20380b242e51aada6394fa696824442423f6724",
+      "juvenile_review_crop": "production/review-crops/102-strix-nigrolineata-v4-juvenile.png",
+      "juvenile_review_blob": "22bc3dad42fe5a63db0baa4e27e15317664d5754",
+      "juvenile_review_size_bytes": 612447,
+      "juvenile_review_sha256": "b8651164f1b080d9143a161cdb0796e07c448101cd340c3166e7e1144f367435",
+      "adults_review_crop": "production/review-crops/102-strix-nigrolineata-v4-adults-support.png",
+      "adults_review_blob": "62ba8baebf267bba56e4c7508d3413c77bc3cba7",
+      "adults_review_size_bytes": 1931886,
+      "adults_review_sha256": "c955d7b0e133457d0e27bc97361dba1366d112b402e51fa0bfbf465099de3900",
+      "reviewed_at": "2026-11-06T11:55:30.000+08:00",
+      "readback_pending": true,
+      "archive_note": "V4 preserves v1-v3, adds two newly read source records and reuses two. One center-only edit replaces adult-like juvenile remiges and long tail with a short rounded soft wing and concealed tail. Full plate and two crops pass. Exact juvenile age/sex/feather sequence/flight threshold, population dimorphism and universal nest choice remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T11:18:00.000+08:00"
+  "updated_at": "2026-11-06T11:57:00.000+08:00"
 }

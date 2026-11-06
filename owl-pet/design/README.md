@@ -1,3 +1,7 @@
+## Latest concept: #102 *Strix nigrolineata* v4
+
+`design/concepts/102-strix-nigrolineata-v4.png` is a research-bounded revision with an age-unknown older juvenile. One targeted edit shortened unsupported mature remiges/tail; scientific verification remains false.
+
 ## #101 Mountain Scops Owl — *Otus spilocephalus* — v8 VERIFIED
 
 - Concept: [101-otus-spilocephalus-v8.png](concepts/101-otus-spilocephalus-v8.png)

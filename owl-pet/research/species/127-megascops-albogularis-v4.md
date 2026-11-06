@@ -36,3 +36,8 @@ Create a polished 1536×1024 horizontal scientific concept plate in the establis
 - Juvenile buff-white/downy with fine diffuse bars; compact rounded wing ending above feet; no adult white covert rows or long tail.
 - All six feet contact the same plausible mossy branch; no unsupported floating or mature-flight action.
 - Cloud-forest environment and uncertainty label present.
+
+## IMAGE_GENERATED — 2026-11-06T21:14:17.481+08:00
+
+- Original generated evidence: `owl-pet/production/generated/127-megascops-albogularis-v4-generated-master.png` (1536×1024; 2,920,084 bytes; SHA-256 `71e8e8ff2f3b85bf8cba1084ad87ac24c71e09f542c63f292412277944a1cf8e`).
+- Preliminary comparison: adult identity, pair scale, text, habitat and six-foot support pass. The older juvenile's visible wing is longer and more adult-layered than the saved conservative design boundary; edit required. This is a design defect, not evidence for a mature wing stage.

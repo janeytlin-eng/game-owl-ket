@@ -2381,3 +2381,41 @@
 - **Species:** current *Bubo virginianus* (Gmelin, 1788); synonym *Strix virginiana*
 - **Limits / confidence:** taxonomy only; no plumage/development evidence.
 - **Decision links:** name mapping for #56 v2.
+
+
+## 2026-11-06 — #115 *Otus lempiji* v3
+
+### SUN-LOK-2009
+- **Title / authors / year:** The Biology of *Otus lempiji cnephaeus* in Singapore / A. F. S. Lok, T. K. Lee & K. C. Lim / 2009.
+- **URL:** https://lkcnhm.nus.edu.sg/wp-content/uploads/sites/10/app/uploads/2017/06/2009nis031-038.pdf
+- **Accessed / type:** 2026-11-06 / institutional natural-history paper, *Nature in Singapore* 2:31–38.
+- **Species / stage:** *O. lempiji cnephaeus*; adults, nesting and young.
+- **Useful evidence:** pp.31–38; authors describe a small dark-eyed scops owl of wooded Singapore habitats and report nesting in natural tree holes or hollow stumps, typically 3–9 m high, with no nest lining; clutch 1–2.
+- **Limits / confidence:** Singapore subspecies, not Java/Bali nominate; no complete sexed morphometrics or day-by-day juvenile feather series. High for reported nest structure in the studied subspecies, bounded for plate transfer.
+- **Decision links:** #115 v3 uses a shallow natural cavity/branch setting and does not invent a lined nest or exact age.
+
+### SUN-BIRDFORUM-YOGYA-2013
+- **Title / contributor / year:** “Young Night Stalker” / Jon Anderson / 2013.
+- **URL:** https://www.birdforum.net/gallery/young-night-stalker.456646/
+- **Accessed / type:** 2026-11-06 / direct field photograph with locality and juvenile identification.
+- **Species / stage:** *Otus lempiji*; age-unknown juvenile, Condongcatur, Yogyakarta, Java.
+- **Useful evidence:** displayed bird is explicitly identified as a juvenile and supplies a conservative, locality-relevant visible-stage reference: soft gray-brown juvenile cover, formed but compact folded wing, short tail and supported stationary posture.
+- **Limits / confidence:** no exact age, sex, measurements, fledging date or flight test; single image. Medium-high for visible features only.
+- **Decision links:** #115 v3 juvenile is an older age-unknown supported bird, not a reconstructed hatchling.
+
+### SUN-TROPENMUSEUM-10006597
+- **Title / institution:** Two young ear-owls at Dampar Renes, East Java / Tropenmuseum collection no. 10006597.
+- **URL:** https://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Twee_jonge_ooruilen_(otus_bakkamoena_lempiji)_te_Dampar_Renes_Oost-Java_TMnr_10006597.jpg
+- **Accessed / type:** 2026-11-06 / historical museum photograph metadata and image surfaced through Wikimedia Commons category.
+- **Species / stage:** two young under the historical name *Otus bakkamoena lempiji*, Dampar Renes, East Java.
+- **Useful evidence:** directly supports the existence of photographed, locality-specific young under the older broad-name usage; image can constrain a fluffy young/juvenile endpoint without assigning age.
+- **Limits / confidence:** date and developmental age not established here; the direct file page failed to reopen in the retrieval tool after category inspection. Metadata is useful, but no fine feather geometry is inferred from the failed reopen.
+- **Decision links:** old-name mapping and age-unknown juvenile boundary for #115 v3.
+
+### SUN-ITIS-1063234
+- **Title / institution:** ITIS Report — *Otus lempiji*, TSN 1063234 / Integrated Taxonomic Information System.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063234
+- **Accessed / type:** 2026-11-06 / taxonomic authority record.
+- **Species / names:** valid *Otus lempiji* (Horsfield, 1821); synonym *Strix lempiji*. ITIS nominate-subspecies record maps historical *Otus bakkamoena lempiji* to *Otus lempiji lempiji*.
+- **Limits / confidence:** taxonomy only; no morphology, sex-size or development evidence.
+- **Decision links:** current/old-name mapping for #115 v3.

@@ -23921,24 +23921,24 @@
       "active_lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:37:23+08:00",
-        "expires_at": "2026-11-06T18:52:23+08:00"
+        "heartbeat_at": "2026-11-06T18:40:07+08:00",
+        "expires_at": "2026-11-06T18:55:07+08:00"
       },
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:37:23+08:00",
-        "expires_at": "2026-11-06T18:52:23+08:00"
+        "heartbeat_at": "2026-11-06T18:40:07+08:00",
+        "expires_at": "2026-11-06T18:55:07+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "run_id": "20261106T183723+0800-cycle-6",
         "species_id": 115,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "started_at": "2026-11-06T18:37:23+08:00",
         "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md"
       },
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24830,6 +24830,28 @@
             "prior_version": "owl-pet/design/concepts/115-otus-lempiji-v2.png",
             "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md",
             "lease_expires_at": "2026-11-06T18:52:23+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 6,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-06T18:40:07+08:00",
+          "run_id": "20261106T183723+0800-cycle-6",
+          "species_id": 115,
+          "credited": false,
+          "evidence": {
+            "research_file": "owl-pet/research/species/115-otus-lempiji-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_sources": 4,
+            "reused_sources": 1,
+            "excluded_leads": 1,
+            "selected_stage": "Java direct-photo age-unknown older juvenile; soft gray-brown cover, compact formed irregular wing, short tail, stationary two-foot branch/cavity support",
+            "adult_boundary": "small dark-eyed Java/Bali Sunda Scops-Owl; near-equal adult display because quantitative sex-size direction was not established",
+            "current_name_mapping": "Strix lempiji / historical Otus bakkamoena lempiji = Otus lempiji; nominate mapping retained",
+            "mikkola_upload_accessible": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-06T18:55:07+08:00"
           }
         }
       ]

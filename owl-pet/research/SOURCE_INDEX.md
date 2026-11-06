@@ -2310,3 +2310,21 @@
 - Amir Ben Dov, Aviam Atar, Erez Baruchi, Kochav Levi & Nir Sapir, 2017, “Breeding biology of Desert Owl in Israel,” *Dutch Birding* 39:285–307. Full text: https://www.researchgate.net/publication/320517643_Breeding_Biology_of_Desert_Owl_in_Israel ; institutional record: https://cris.haifa.ac.il/en/publications/breeding-biology-of-desert-owl-in-israel/
 - Accessed 2026-11-06; primary field study. Actually read pp.285–289, 292–301, Table 4 and plate captions 392, 394–398, 406–421. Directly supports rock/nest-shelf fledglings, observed first flight at estimated c30 days, mobile c35-day fledglings and fresh breast feathers at c70–75 days. The authors explicitly say development evidence was limited and partly calibrated with Tawny Owl; age is estimated, exact hatch date/iris/feather map and continuous flight competence are not proven. High confidence for support/habitat and moderate for estimated stage.
 - Mappings: *Strix hadorami*; c35-day fledgling; rock ledge; residual down plus formed wing; behaviour/development. Applied to `research/species/126-strix-hadorami-v3.md` and v3 review.
+
+
+## 2026-11-06 — #133 *Megascops atricapilla* v4 — manifest-chain repair
+
+### BCSO-DANTAS-2021 — newly indexed primary taxonomy
+- Sidnei M. Dantas, Jason D. Weckstein, John Bates, Joiciane N. Oliveira, Therese A. Catanach & Alexandre Aleixo, 2021, “Multi-character taxonomic review, systematics, and biogeography of the Black-capped/Tawny-bellied Screech Owl (*Megascops atricapilla–M. watsonii*) complex,” *Zootaxa* 4949(3):401–444. DOI: https://doi.org/10.11646/zootaxa.4949.3.1
+- Accessed 2026-11-06. Primary taxonomy/morphometrics. Journal article and abstract read; the project-linked printed p.429 species treatment was cross-checked. The study used 252 specimens, reports high plumage variation, and did not detect significant morphometric separation among complex clades. It supports the current Atlantic-Forest unit and cautions against diagnosing the unit from a single rigid plumage pattern. It does not establish a universal sex-height ratio or juvenile chronology.
+- Mappings: *Megascops atricapilla*; historical *Strix atricapilla* / *Otus atricapilla*; adult variation. Applied to `research/species/133-megascops-atricapilla-v4.md`.
+
+### BCSO-WIKIAVES-WA2019052 — newly indexed direct young record
+- Celso B. Almeida, WA2019052, photographed 2016-02-07, Florianópolis/SC; https://www.wikiaves.com.br/2019052
+- Accessed 2026-11-06. Reliable field-photo record with metadata “Sexo: Indeterminado” and “Idade: Jovem.” Displayed image supports yellow iris, tiny tufts, soft head/face, formed short wing/tail and bilateral branch support. It does not supply exact age, sex, fledging status, flight ability or a continuous plumage sequence; image is linked, not copied.
+- Mappings: *Megascops atricapilla*; later juvenile; direct support. Applied to v4.
+
+### BCSO-NATURALIS-TYPES-2023 — newly indexed nomenclatural primary catalogue
+- Steven D. van der Mije, Pepijn Kamminga & René W. R. J. Dekker, 2023, “Type specimens of non-passerines in Naturalis Biodiversity Center (Animalia, Aves),” *ZooKeys* 1155:1–311. DOI: https://doi.org/10.3897/zookeys.1155.98097
+- Accessed 2026-11-06; printed pp.182–183 read. The catalogue maps *Strix atricapilla* Temminck, 1822 to *Megascops atricapilla* and identifies NMW 40468 as the original single Natterer specimen. Later RMNH specimens received under *Otus decussatus* do not have type status. High confidence for name/type provenance only; no morphology, sex or development support.
+- Mappings: current/old name, type provenance. Applied to v4 name mapping.

@@ -947,3 +947,7 @@ For older juveniles, direct photographs can support both loose down and a formed
 ### Evidence-bounded developed flight feathers (applied #120 v4, 2026-11-06)
 
 When a primary source describes primaries, secondaries and tertials as considerably developed in a still down-rich chick, do not render either a tiny wing bud or an adult-perfect folded wing. Use a bounded, down-veiled cluster and separately check its endpoint relative to the feet, tail concealment, support and documented action ability. Applied and visually verified for #120 v4 only; broader effectiveness remains untested.
+## Evidence-bounded correction: do not erase photographed formed juvenile side feathers
+
+When an age-unknown, down-rich owl juvenile is directly photographed with narrow formed side flight-feather panels, “avoid adult wings” does not mean hiding every panel into a cylindrical all-down silhouette. Preserve the photographed panel as a simple, down-veiled, non-adult structure and keep its actual support/extent; separately retain unknown age and flight ability. This rule was discovered and applied to #123 *Otus gurneyi* v5, then verified on the full plate and juvenile crop. It is not yet validated as a cross-species rule.
+

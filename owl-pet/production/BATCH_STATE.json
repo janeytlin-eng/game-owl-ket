@@ -26973,7 +26973,7 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:35:00+08:00",
+      "updated_at": "2026-11-07T05:39:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27228,25 +27228,39 @@
           "revision_increment": 1,
           "readback_pending": true,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T05:39:00+08:00",
+          "species_id": 147,
+          "species": "Ninox leventisi",
+          "archive_commit": "26db941a0a53cc277fcd41ac86aba0311153eca8",
+          "archive_tree": "ef17a4abc2fff919376524e2e004d2bd99c41727",
+          "required_paths": 15,
+          "exact_binary_paths": 5,
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "ledger_credit_pending": true,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "in_progress": {
         "cycle": 3,
         "species_id": 147,
         "species": "Ninox leventisi",
         "version": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261107T053400+0800-cycle-3",
         "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md"
       },
       "lease": {
         "owner": "codex",
         "run_id": "20261107T053400+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T05:35:00+08:00",
-        "expires_at": "2026-11-07T05:50:00+08:00"
+        "heartbeat_at": "2026-11-07T05:39:00+08:00",
+        "expires_at": "2026-11-07T05:54:00+08:00"
       }
     }
   ],
@@ -32680,6 +32694,34 @@
         "readback_pending": true,
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T05:50:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261107T043300+0800",
+      "cycle": 3,
+      "stage": "VERIFIED",
+      "at": "2026-11-07T05:39:00+08:00",
+      "run_id": "20261107T053400+0800-cycle-3",
+      "species_id": 147,
+      "species": "Ninox leventisi",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "26db941a0a53cc277fcd41ac86aba0311153eca8",
+        "archive_tree": "ef17a4abc2fff919376524e2e004d2bd99c41727",
+        "required_paths": 15,
+        "exact_binary_paths": 5,
+        "remote_original_blob": "cdf02e5446f1372027db00bc0b7e9aabc652790c",
+        "remote_original_bytes": 2597814,
+        "remote_original_sha256": "de24cd183d37c72704e054a315f5b5c0149525cf8e5a75a22b2c6c84f9d41a37",
+        "manifest_counts": {
+          "design_image": 755,
+          "design_legacy": 756,
+          "production": 746
+        },
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-07T05:54:00+08:00"
       }
     }
   ],
@@ -44236,7 +44278,7 @@
       }
     }
   ],
-  "ledger_credit_pending": false,
+  "ledger_credit_pending": true,
   "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
   "completed_cycles": 2
 }

@@ -3694,3 +3694,5 @@ Verification commit `dfbc353bc7a6fb890675f9aa94f7c8181ccd0dce` was read back aft
 Verification commit `c655ae6389f7a3a8f84238bfe47830b82176389b` was read back after immutable archive `c5c422c15b729a231a5d6c5c193a228951fe4b4d` / tree `55b51cc55f0dd0f07ed1a4973b7f5e4eb74daef6`. Cycle 2 is credited exactly once; batch `20261107T043300+0800` is PARTIAL 2/6 with next_cycle=3 and lease released. Unique species remains 176/251; revision +1; science false.
 
 - 2026-11-07 #147 *Ninox leventisi* v3 ARCHIVED in batch `20261107T043300+0800` cycle 3: concept/master/crops/manifests persisted; unique remains 176/251, revision +1, readback pending, science false.
+
+- #147 v3 VERIFIED: archive `26db941a0a53cc277fcd41ac86aba0311153eca8` / tree `ef17a4abc2fff919376524e2e004d2bd99c41727`; 15 required paths and 5 exact binary paths passed. Ledger pending; science false.

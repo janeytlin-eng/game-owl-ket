@@ -36,3 +36,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 - Full plate and two crops passed: long deep bills, pale irides, white throats, barred coverts, pale claws/dark tips, and all supports visible. Juvenile remains AGE UNKNOWN with wing/tail concealed.
 - PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=0.
 - Research: `research/species/147-ninox-leventisi-v3.md`; review: `research/reviews/147-ninox-leventisi-v3-review.md`; concept: `design/concepts/147-ninox-leventisi-v3.png`.
+
+
+## v3 verification
+
+- Immutable archive `26db941a0a53cc277fcd41ac86aba0311153eca8` / tree `ef17a4abc2fff919376524e2e004d2bd99c41727` read back by exact paths; concept/generated/reviewed resolve to `cdf02e5446f1372027db00bc0b7e9aabc652790c`; crop and text paths resolved.
+- PASS_WITH_LIMITATIONS; science false; ledger pending.

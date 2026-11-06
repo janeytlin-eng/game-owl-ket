@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:35:00+08:00",
+  "updated": "2026-11-07T05:39:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26459,7 +26459,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "CAMBOO-RASMUSSEN-2012-FORKTAIL",
         "CAMBOO-ZOBODAT-2014-P108",
@@ -26492,11 +26492,20 @@
       "adult_review_sha256": "3d79db1ff36a03b9ebe537ea1975db73b17257bc91c9f92123151d95f12c363c",
       "batch_id": "20261107T043300+0800",
       "cycle": 3,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T05:35:00+08:00",
-      "archive_commit_pending": true,
-      "evidence_limit": "Primary paper excludes immatures because data are sparse. Exact juvenile age, iris, flight, feather sequence, nest and sex-size ratio remain unknown."
+      "archive_commit_pending": false,
+      "evidence_limit": "Primary paper excludes immatures because data are sparse. Exact juvenile age, iris, flight, feather sequence, nest and sex-size ratio remain unknown.",
+      "exact_readback": true,
+      "archive_commit": "26db941a0a53cc277fcd41ac86aba0311153eca8",
+      "archive_tree": "ef17a4abc2fff919376524e2e004d2bd99c41727",
+      "required_paths_verified": 15,
+      "exact_binary_paths_verified": 5,
+      "recursive_tree_listing_available": false,
+      "binary_content_fetch_available": false,
+      "verified_at": "2026-11-07T05:39:00+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T05:35:00+08:00"
+  "updated_at": "2026-11-07T05:39:00+08:00"
 }

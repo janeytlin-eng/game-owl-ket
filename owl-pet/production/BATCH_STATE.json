@@ -25534,34 +25534,29 @@
           "run_record": "owl-pet/production/runs/20261106T2301180800-cycle-3.md",
           "completed_at": "2026-11-06T23:13:10+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "action": "SCIENCE_REVISION",
+          "version": 4,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "d529c45921d0ec1147671daa773d2e46cc8741f2",
+          "archive_commit": "6ac23e5cf581f413d66af40845935d5be4c53037",
+          "verification_tree": "1d99268c9d9274072f134784678e3d492978c959",
+          "run_record": "owl-pet/production/runs/20261106T2313560800-cycle-4.md",
+          "completed_at": "2026-11-06T23:30:00+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
-      "active_cycle": 4,
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261106T2313560800-cycle-4",
-        "heartbeat_at": "2026-11-06T23:29:00+08:00",
-        "expires_at": "2026-11-06T23:44:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 4,
-        "run_id": "20261106T2313560800-cycle-4",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "stage": "VERIFIED",
-        "started_at": "2026-11-06T23:13:56+08:00",
-        "run_record": "owl-pet/production/runs/20261106T2313560800-cycle-4.md",
-        "research_record": "owl-pet/research/species/135-otus-silvicola-v4.md",
-        "prompt_persisted": true,
-        "new_sources": 2,
-        "reused_sources": 3,
-        "archive_pending_verification": true,
-        "archive_commit": "6ac23e5cf581f413d66af40845935d5be4c53037",
-        "archive_tree": "1d99268c9d9274072f134784678e3d492978c959"
-      },
+      "next_cycle": 5,
+      "active_cycle": null,
+      "lease": null,
+      "in_progress": null,
       "started_at": "2026-11-06T22:26:00+08:00",
-      "updated_at": "2026-11-06T23:29:00+08:00",
+      "updated_at": "2026-11-06T23:30:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -25946,17 +25941,23 @@
           "exact_binary_paths_verified": 5,
           "result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-06T23:30:00+08:00",
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "verification_commit": "d529c45921d0ec1147671daa773d2e46cc8741f2",
+          "archive_commit": "6ac23e5cf581f413d66af40845935d5be4c53037",
+          "next_cycle": 5,
+          "scientifically_verified": false
         }
       ],
-      "last_verified_commit": "3223778e04444f1fa0f24ce9f7fd30b93e6d1215"
+      "last_verified_commit": "d529c45921d0ec1147671daa773d2e46cc8741f2"
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "20261106T2313560800-cycle-4",
-    "heartbeat_at": "2026-11-06T23:29:00+08:00",
-    "expires_at": "2026-11-06T23:44:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -26900,22 +26901,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 4,
-    "run_id": "20261106T2313560800-cycle-4",
-    "species_id": 135,
-    "species": "Otus silvicola",
-    "stage": "VERIFIED",
-    "started_at": "2026-11-06T23:13:56+08:00",
-    "run_record": "owl-pet/production/runs/20261106T2313560800-cycle-4.md",
-    "research_record": "owl-pet/research/species/135-otus-silvicola-v4.md",
-    "prompt_persisted": true,
-    "new_sources": 2,
-    "reused_sources": 3,
-    "archive_pending_verification": true,
-    "archive_commit": "6ac23e5cf581f413d66af40845935d5be4c53037",
-    "archive_tree": "1d99268c9d9274072f134784678e3d492978c959"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -41720,5 +41706,5 @@
     }
   ],
   "ledger_credit_pending": false,
-  "last_verified_commit": "66289ffe84fbe668d948252f66faa9f1c30f07b9"
+  "last_verified_commit": "d529c45921d0ec1147671daa773d2e46cc8741f2"
 }

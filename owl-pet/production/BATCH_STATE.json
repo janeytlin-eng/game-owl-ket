@@ -23899,31 +23899,29 @@
           "completed_at": "2026-11-06T18:27:33+08:00",
           "scientifically_verified": false,
           "timestamp_correction": "Stage times normalized to GitHub commit timestamps (UTC converted to +08:00); earlier projected minute labels superseded."
+        },
+        {
+          "cycle": 5,
+          "species_id": 56,
+          "species": "Bubo virginianus",
+          "action": "SCIENCE_REVISION",
+          "version": 2,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "5acb657ed678b9f1388127575de22a7f4f9a51c3",
+          "archive_commit": "abccfcdd73d173efa9c05859786bb0dce642eb4b",
+          "verification_tree": "2251602876d407c0316a6f9181ad7fc68200e2e6",
+          "run_record": "owl-pet/production/runs/20261106T182939+0800-cycle-5.md",
+          "completed_at": "2026-11-06T18:36:42+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 5,
-      "active_cycle": 5,
-      "active_lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T182939+0800-cycle-5",
-        "heartbeat_at": "2026-11-06T18:35:58+08:00",
-        "expires_at": "2026-11-06T18:50:58+08:00"
-      },
-      "lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T182939+0800-cycle-5",
-        "heartbeat_at": "2026-11-06T18:35:58+08:00",
-        "expires_at": "2026-11-06T18:50:58+08:00"
-      },
-      "in_progress": {
-        "cycle": 5,
-        "run_id": "20261106T182939+0800-cycle-5",
-        "species_id": 56,
-        "stage": "VERIFIED",
-        "started_at": "2026-11-06T18:29:39+08:00",
-        "run_record": "owl-pet/production/runs/20261106T182939+0800-cycle-5.md"
-      },
-      "current_stage": "VERIFIED",
+      "next_cycle": 6,
+      "active_cycle": null,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
+      "current_stage": "LEDGER_CREDITED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24777,6 +24775,28 @@
             "scientifically_verified": false,
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-06T18:50:58+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 5,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-06T18:36:42+08:00",
+          "run_id": "20261106T182939+0800-cycle-5",
+          "species_id": 56,
+          "credited": true,
+          "evidence": {
+            "verification_commit": "5acb657ed678b9f1388127575de22a7f4f9a51c3",
+            "verification_tree": "2251602876d407c0316a6f9181ad7fc68200e2e6",
+            "archive_commit": "abccfcdd73d173efa9c05859786bb0dce642eb4b",
+            "archive_tree": "a40aee76a8173f704d7d011cd7528bce685c2d0b",
+            "batch_progress": "5/6",
+            "next_cycle": 6,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false
           }
         }
       ]

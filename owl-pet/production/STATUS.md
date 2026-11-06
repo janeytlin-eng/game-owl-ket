@@ -242,3 +242,6 @@
 2026-11-06T03:57:00+08:00 #82 Otus senegalensis v5 ARCHIVED; batch 20261105T233209+0800 cycle6/6; full and two crops viewed after one edit; manifests 706/705/696; immutable readback and cycle credit pending; unique176/251; science false.
 2026-11-06T03:58:00+08:00 #82 Otus senegalensis v5 VERIFIED; archive 7b6c9570/treeb79972f; 15/15 paths and 6/6 binary tuples exact; manifests 706/705/696 parse; ledger credit pending; unique176/251; science false.
 2026-11-06T03:59:22+08:00 #82 Otus senegalensis v5 LEDGER_CREDITED; batch 20261105T233209+0800 COMPLETE 6/6, next cycle null, lease released; verification 719832fc/treed955444; unique176/251; revision +1; science false.
+
+
+2026-11-06T08:44:04+08:00 #93 *Aegolius harrisii iheringi* v4 LEDGER_CREDITED; batch 20261106T073000+0800 now 2/6, next cycle 3, lease released; archive 646df00fe4970b8f18e05ea2f0d2917dec6cf749/treeadfaab2cc2ade2d243ec8a78cde41ef00d7979fc; verification 907ec9a7b5309a2b6e51f66afd64c48811f9804c; manifests 713/712/703; unique176/251; revision +1; science false.

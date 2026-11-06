@@ -1,3 +1,7 @@
+## Latest concept: #104 *Asio madagascariensis* v5
+
+`design/concepts/104-asio-madagascariensis-v5.png` preserves v1-v4 and explicitly separates the measured brood timeline from a different photographed fledgling. One evidence correction softened the juvenile wing and improved adult proximal toe feathering; full/crop review passed with limitations. Scientific verification remains false.
+
 ## Latest concept: #103 *Tyto longimembris* v5
 
 `design/concepts/103-tyto-longimembris-v5.png` is a research-bounded science revision preserving v1-v4. It uses an approximately-55-day captive-reference golden mesoptile, explicitly avoids interpolating blank day-57 wing/tail cells, and passed full/crop review without edit. Scientific verification remains false.

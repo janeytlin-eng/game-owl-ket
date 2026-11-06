@@ -1,3 +1,7 @@
+## 2026-11-06 — #104 *Asio madagascariensis* v5
+
+Archived a science revision preserving v1-v4. Newly indexed the full original breeding chapter and three dated field-photo pages. One referenced edit shortened/down-fringed the juvenile wing, concealed its tail and extended adult feathering over proximal toe bases. Full image, juvenile crop and feet crop passed with limitations. Exact juvenile timetable/flight, toe map and population sex ratio remain unknown; scientific verification is false.
+
 ## 2026-11-06 — #103 *Tyto longimembris* v5
 
 Archived a science revision preserving v1-v4. Expanded the full original captive-development paper, added one opened museum record and reused three repository sources. The approximately-55-day female is depicted in rich golden second down with no invented day-57 wing/tail interpolation or flight claim; adults retain long partly bare legs and restrained sex scale. Full plate and two crops passed without image edit. Scientific verification remains false.

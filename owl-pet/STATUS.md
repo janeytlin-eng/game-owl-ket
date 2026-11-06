@@ -1,3 +1,7 @@
+### #151 v3 LEDGER_CREDITED — active batch 1/6
+
+Verification `a1324392ee72514fc053f0bcf09e60e349c53d2e` was read back after archive `ae92217d2c5028fe76a0dfef7257b0fbec35fbb9`. Cycle 1 credited once; next cycle 2; lease released. Unique 176/251; revision +1; science false.
+
 ### #151 *Athene jacquinoti* v3 archived — immutable readback pending
 
 Batch `20261107T062903+0800` cycle 1/6. Two new image sources were actually viewed; one juvenile-wing edit passed full/crop review. Concept plus generated/edit/reviewed masters and crops archived; manifests 759/760/750. Unique remains 176/251; science false; no cycle credit before readback.

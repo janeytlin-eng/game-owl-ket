@@ -128,3 +128,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Archive `ae92217d2c5028fe76a0dfef7257b0fbec35fbb9` / tree `f9fb81d80f500381e8e13e2159c103cf24b95be6` resolved 17 required paths; six binary paths matched exact expected Git blobs. The juvenile crop required a full base64 retry after metadata-only read omission, then matched `dbf7e990f82a09403eb9b95291e78f123d0e06a4`.
 - Manifests parsed 759/760/750 with one #151 v3 entry each. PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.
+
+
+## #151 v3 ledger
+
+- Verification `a1324392ee72514fc053f0bcf09e60e349c53d2e` / tree `d2790e4d373c0ea58f15e393b5ff1db6195f68bc` read back after archive `ae92217d2c5028fe76a0dfef7257b0fbec35fbb9`.
+- Cycle 1 credited once; batch 1/6, next 2; unique 176/251; revision +1; scientifically_verified=false.

@@ -26968,12 +26968,25 @@
           "archive_commit": "c5c422c15b729a231a5d6c5c193a228951fe4b4d",
           "run_record": "owl-pet/production/runs/20261107T050200+0800-cycle-2.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "species": "Ninox leventisi",
+          "species_id": 147,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "4d0273366ec170d90b45b0820cdf029396acbf8d",
+          "archive_commit": "26db941a0a53cc277fcd41ac86aba0311153eca8",
+          "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 3,
-      "active_cycle": 3,
+      "next_cycle": 4,
+      "active_cycle": null,
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:39:00+08:00",
+      "updated_at": "2026-11-07T05:43:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27242,26 +27255,26 @@
           "verification_result": "PASS_WITH_LIMITATIONS",
           "ledger_credit_pending": true,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T05:43:00+08:00",
+          "species_id": 147,
+          "species": "Ninox leventisi",
+          "verification_commit": "4d0273366ec170d90b45b0820cdf029396acbf8d",
+          "archive_commit": "26db941a0a53cc277fcd41ac86aba0311153eca8",
+          "batch_progress": "3/6",
+          "next_cycle": 4,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "in_progress": {
-        "cycle": 3,
-        "species_id": 147,
-        "species": "Ninox leventisi",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T053400+0800-cycle-3",
-        "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md"
-      },
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T053400+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T05:39:00+08:00",
-        "expires_at": "2026-11-07T05:54:00+08:00"
-      }
+      "last_verified_commit": "4d0273366ec170d90b45b0820cdf029396acbf8d",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false
     }
   ],
   "lease": {
@@ -32723,12 +32736,35 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T05:54:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261107T043300+0800",
+      "cycle": 3,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T05:43:00+08:00",
+      "run_id": "20261107T053400+0800-cycle-3",
+      "species_id": 147,
+      "species": "Ninox leventisi",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "4d0273366ec170d90b45b0820cdf029396acbf8d",
+        "verification_tree": "3f77afab743a1028bf49fb528c349cb9e553e541",
+        "archive_commit": "26db941a0a53cc277fcd41ac86aba0311153eca8",
+        "archive_tree": "ef17a4abc2fff919376524e2e004d2bd99c41727",
+        "batch_progress": "3/6",
+        "next_cycle": 4,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
   "active_batch_id": "20261107T043300+0800",
   "active_cycle": 2,
   "current_stage": "RESEARCH_READY",
-  "next_cycle": 3,
+  "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -44278,7 +44314,7 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
-  "completed_cycles": 2
+  "ledger_credit_pending": false,
+  "last_verified_commit": "4d0273366ec170d90b45b0820cdf029396acbf8d",
+  "completed_cycles": 3
 }

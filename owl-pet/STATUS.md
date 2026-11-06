@@ -3696,3 +3696,8 @@ Verification commit `c655ae6389f7a3a8f84238bfe47830b82176389b` was read back aft
 - 2026-11-07 #147 *Ninox leventisi* v3 ARCHIVED in batch `20261107T043300+0800` cycle 3: concept/master/crops/manifests persisted; unique remains 176/251, revision +1, readback pending, science false.
 
 - #147 v3 VERIFIED: archive `26db941a0a53cc277fcd41ac86aba0311153eca8` / tree `ef17a4abc2fff919376524e2e004d2bd99c41727`; 15 required paths and 5 exact binary paths passed. Ledger pending; science false.
+
+
+### #147 v3 LEDGER_CREDITED — batch 3/6
+
+Verification `4d0273366ec170d90b45b0820cdf029396acbf8d` read back after archive `26db941a0a53cc277fcd41ac86aba0311153eca8` / tree `ef17a4abc2fff919376524e2e004d2bd99c41727`. Cycle 3 credited once; batch PARTIAL 3/6, next_cycle=4, lease released. Unique 176/251; revision +1; science false.

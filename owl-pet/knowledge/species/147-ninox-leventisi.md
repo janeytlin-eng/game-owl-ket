@@ -42,3 +42,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Immutable archive `26db941a0a53cc277fcd41ac86aba0311153eca8` / tree `ef17a4abc2fff919376524e2e004d2bd99c41727` read back by exact paths; concept/generated/reviewed resolve to `cdf02e5446f1372027db00bc0b7e9aabc652790c`; crop and text paths resolved.
 - PASS_WITH_LIMITATIONS; science false; ledger pending.
+
+
+## v3 ledger
+
+- Verification `4d0273366ec170d90b45b0820cdf029396acbf8d` read back after archive `26db941a0a53cc277fcd41ac86aba0311153eca8` / tree `ef17a4abc2fff919376524e2e004d2bd99c41727`.
+- Cycle 3 credited once; batch 3/6, next 4; unique 176/251; science false.

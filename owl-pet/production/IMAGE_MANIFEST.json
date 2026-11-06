@@ -24893,7 +24893,67 @@
       "verified_at": "2026-11-06T23:12:20+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive tree returned 3,538 non-truncated entries; 17 required paths and 5 exact image blob/size tuples passed. Full concept/generated/reviewed 2,867,643 bytes and both crops matched; manifests 743/744/734; science false."
+    },
+    {
+      "id": "135-otus-silvicola-v4",
+      "path": "design/concepts/135-otus-silvicola-v4.png",
+      "species_id": 135,
+      "scientific_name": "Otus silvicola",
+      "historical_names": [
+        "Scops silvicola"
+      ],
+      "common_name": "Wallace's Scops-Owl",
+      "scope": "Flores/Sumbawa; fully feathered transitional immature; adult sex-size direction unresolved",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "VERIFIED",
+      "source_ids": [
+        "WSC-MEES-2006",
+        "WSC-MARSHALL-1978",
+        "SLSO-SANGSTER-2013",
+        "WSC-MIK2013-183",
+        "WSC-ITIS-555386-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/135-otus-silvicola-v4.md",
+      "review_record": "research/reviews/135-otus-silvicola-v4-review.md",
+      "run_record": "production/runs/20261106T2313560800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3014702,
+      "sha256": "db54f80b0fc0c215e109efed769a869e56c3cb7521c9572c89d10b58211374f8",
+      "git_blob": "6acdd2e66f7bd71fe3fe2643c6b2e4d5fba715a3",
+      "generated_path": "production/generated/135-otus-silvicola-v4-generated-master.png",
+      "generated_blob": "6acdd2e66f7bd71fe3fe2643c6b2e4d5fba715a3",
+      "generated_sha256": "db54f80b0fc0c215e109efed769a869e56c3cb7521c9572c89d10b58211374f8",
+      "generated_size_bytes": 3014702,
+      "reviewed_path": "production/reviewed/135-otus-silvicola-v4-reviewed-master.png",
+      "reviewed_blob": "6acdd2e66f7bd71fe3fe2643c6b2e4d5fba715a3",
+      "juvenile_review_crop": "production/review-crops/135-otus-silvicola-v4-immature.png",
+      "juvenile_review_blob": "f774e1698cfa51c7452937561f3d4ea7383aa4bf",
+      "juvenile_review_size_bytes": 766228,
+      "juvenile_review_sha256": "d853037893f8d1a2a294fc838d12bfe4c5bab303b537627cb98861b4d1a55b0c",
+      "adult_review_crop": "production/review-crops/135-otus-silvicola-v4-adults-support.png",
+      "adult_review_blob": "a3847f383cbb7be2b137d7c6dc0e2091ecbea728",
+      "adult_review_size_bytes": 1489962,
+      "adult_review_sha256": "7f74afec8bbb23f3460ca6e8d742a36b7da80997074bb986105d7fdfb9c4c732",
+      "batch_id": "20261106T222600+0800",
+      "cycle": 4,
+      "archive_commit": null,
+      "verification_commit": null
     }
   ],
-  "updated_at": "2026-11-06T23:12:20+08:00"
+  "updated_at": "2026-11-06T23:27:00+08:00"
 }

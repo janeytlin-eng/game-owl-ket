@@ -25541,24 +25541,25 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261106T2313560800-cycle-4",
-        "heartbeat_at": "2026-11-06T23:23:00+08:00",
-        "expires_at": "2026-11-06T23:38:00+08:00"
+        "heartbeat_at": "2026-11-06T23:27:00+08:00",
+        "expires_at": "2026-11-06T23:42:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
         "run_id": "20261106T2313560800-cycle-4",
         "species_id": 135,
         "species": "Otus silvicola",
-        "stage": "RESEARCH_READY",
+        "stage": "ARCHIVED",
         "started_at": "2026-11-06T23:13:56+08:00",
         "run_record": "owl-pet/production/runs/20261106T2313560800-cycle-4.md",
         "research_record": "owl-pet/research/species/135-otus-silvicola-v4.md",
         "prompt_persisted": true,
         "new_sources": 2,
-        "reused_sources": 3
+        "reused_sources": 3,
+        "archive_pending_verification": true
       },
       "started_at": "2026-11-06T22:26:00+08:00",
-      "updated_at": "2026-11-06T23:23:00+08:00",
+      "updated_at": "2026-11-06T23:27:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -25883,6 +25884,51 @@
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "mikkola_pages": "printed p.183",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-06T23:25:00+08:00",
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "path": "owl-pet/production/generated/135-otus-silvicola-v4-generated-master.png",
+          "blob": "6acdd2e66f7bd71fe3fe2643c6b2e4d5fba715a3",
+          "sha256": "db54f80b0fc0c215e109efed769a869e56c3cb7521c9572c89d10b58211374f8",
+          "size_bytes": 3014702,
+          "dimensions": "1536x1024",
+          "generation_wait_seconds": 74,
+          "edit_required": false,
+          "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "stage": "REVIEWED",
+          "at": "2026-11-06T23:26:00+08:00",
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "review_file": "owl-pet/research/reviews/135-otus-silvicola-v4-review.md",
+          "edit_count": 0,
+          "result": "PASS_WITH_LIMITATIONS",
+          "full_and_crops_opened": true,
+          "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "stage": "ARCHIVED",
+          "at": "2026-11-06T23:27:00+08:00",
+          "species_id": 135,
+          "species": "Otus silvicola",
+          "concept_path": "owl-pet/design/concepts/135-otus-silvicola-v4.png",
+          "concept_blob": "6acdd2e66f7bd71fe3fe2643c6b2e4d5fba715a3",
+          "manifest_counts": {
+            "design_image": 744,
+            "design_legacy": 745,
+            "production": 735
+          },
+          "unique_species_count": 176,
+          "total_scope": 251,
+          "readback_pending": true,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "3223778e04444f1fa0f24ce9f7fd30b93e6d1215"
@@ -25891,8 +25937,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261106T2313560800-cycle-4",
-    "heartbeat_at": "2026-11-06T23:23:00+08:00",
-    "expires_at": "2026-11-06T23:38:00+08:00"
+    "heartbeat_at": "2026-11-06T23:27:00+08:00",
+    "expires_at": "2026-11-06T23:42:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -26842,13 +26888,14 @@
     "run_id": "20261106T2313560800-cycle-4",
     "species_id": 135,
     "species": "Otus silvicola",
-    "stage": "RESEARCH_READY",
+    "stage": "ARCHIVED",
     "started_at": "2026-11-06T23:13:56+08:00",
     "run_record": "owl-pet/production/runs/20261106T2313560800-cycle-4.md",
     "research_record": "owl-pet/research/species/135-otus-silvicola-v4.md",
     "prompt_persisted": true,
     "new_sources": 2,
-    "reused_sources": 3
+    "reused_sources": 3,
+    "archive_pending_verification": true
   },
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",

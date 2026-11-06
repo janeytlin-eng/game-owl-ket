@@ -3612,3 +3612,6 @@ Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back aft
 - Current checklist crosswalk: project *Strix davidi* = current IOC/ITIS *Strix uralensis davidi*; roster ID retained.
 - Result: PASS_WITH_LIMITATIONS, scientifically_verified=false, edit_count=0; immutable tree verified.
 - Original: `design/concepts/132-strix-davidi-v4.png`; research/review/run records linked in manifests.
+
+
+- 2026-11-06 23:27 +08: #135 *Otus silvicola* v4 archived as a science revision; unique roster remains 176/251; PASS_WITH_LIMITATIONS; science false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:40:20+08:00",
+  "updated": "2026-11-07T06:56:20+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26977,7 +26977,68 @@
       "verification_commit": "a1324392ee72514fc053f0bcf09e60e349c53d2e",
       "verification_tree": "d2790e4d373c0ea58f15e393b5ff1db6195f68bc",
       "ledger_credited_at": "2026-11-07T06:40:20+08:00"
+    },
+    {
+      "id": "153-jubula-lettii-v3",
+      "path": "design/concepts/153-jubula-lettii-v3.png",
+      "species_id": 153,
+      "scientific_name": "Jubula lettii",
+      "historical_names": [
+        "Bubo lettii",
+        "Scops lettii",
+        "Lophostrix lettii"
+      ],
+      "common_name": "Maned Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新读Naturalis正模目录与Cornell/Macaulay两组实物影像/观察：成鸟锈栗色、鬃状长羽簇、橙眼及浅腹细纵纹；雌雄近等尺度，未套用雌大规则。现场记录支持白色幼羽脸、能短距飞行并停栖的较成熟幼鸟。首图幼鸟翼尾过度成体化，edit1仅缩短并软化翼尾；整图与两裁图复查通过。PASS_WITH_LIMITATIONS；精确日龄、早期绒羽序列、雌雄方向和巢结构未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "MANED-NATURALIS-TYPECAT-1997-P154",
+        "MANED-ML-609410210-2023",
+        "MANED-ML-531449801-2023"
+      ],
+      "unverified_leads": [
+        "MANED-BUTTIKOFER-1889-P34-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--153-jubula-lettii-v3-evidence-refresh",
+      "research_record": "research/species/153-jubula-lettii-v3.md",
+      "run_record": "production/runs/20261107T064131+0800-cycle-2.md",
+      "review_record": "research/reviews/153-jubula-lettii-v3-review.md",
+      "reviewed_at": "2026-11-07T06:56:20+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "1806713af70f09b0f090a592f99b69190a6988e481eb0744f29f747efe349849",
+      "size_bytes": 2620679,
+      "git_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
+      "generated_path": "production/generated/153-jubula-lettii-v3-generated-master.png",
+      "generated_blob": "263f3f690a3260f5f93e67d7bb4faa38c03c4cc6",
+      "generated_sha256": "75a96991d2d42b315d4f91c61ee88dfa719f7f7eef67fc3604e45fa5a49e2280",
+      "generated_size_bytes": 2720633,
+      "intermediate_edit_path": "production/generated/153-jubula-lettii-v3-edit1.png",
+      "intermediate_edit_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
+      "reviewed_path": "production/reviewed/153-jubula-lettii-v3-reviewed-master.png",
+      "reviewed_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
+      "reviewed_sha256": "1806713af70f09b0f090a592f99b69190a6988e481eb0744f29f747efe349849",
+      "reviewed_size_bytes": 2620679,
+      "review_crop_path": "production/review-crops/153-jubula-lettii-v3-older-immature.png",
+      "review_crop_blob": "183e5ccdfb0d34b1e235960bf0f2dd456ede47bf",
+      "review_crop_sha256": "0560bb08bf86fd59052fb11db2c5ef29563bcfd526cf0667d30a5cb0370f23e8",
+      "review_crop_size_bytes": 641675,
+      "auxiliary_review_crop_path": "production/review-crops/153-jubula-lettii-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "0c44f3bc9932dbcd0ac94f9c0b54ebb6bb21d8a5",
+      "auxiliary_review_crop_sha256": "b459b0aebe33724d723a2bdc5579e99586035ccf96963c6bbe76bdeb86e145de",
+      "auxiliary_review_crop_size_bytes": 1767728,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Holotype catalogue lacks sex; living adult image has unspecified age/sex. Older-immature ability/white face are supported by a linked field narrative, but exact age, early down sequence, sex-size/plumage direction, nest architecture and unread original-description prose remain unknown."
     }
   ],
-  "updated_at": "2026-11-07T06:40:20+08:00"
+  "updated_at": "2026-11-07T06:56:20+08:00"
 }

@@ -1656,3 +1656,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added evidence-indexed v3 preserving v1/v2; holotype photograph corrected the adult belly from near-plain to cream with irregular brown barring.
 - One targeted juvenile-wing edit, full/crop review, new research/review records and staged run evidence.
 - Manifests 759/760/750; unique 176/251; scientifically_verified=false; immutable readback pending.
+
+
+## 2026-11-07 — #153 *Jubula lettii* v3 archive pending verification
+
+- Added Naturalis type-catalogue crosswalk and two actually viewed Cornell/Macaulay assets, including an immature documented to retain white juvenile facial feathers while capable of short flight and perching.
+- One targeted juvenile wing/tail edit; full plate and two crops passed with limitations.
+- Manifests 760/761/751; unique 176/251; scientifically_verified=false; immutable readback pending.

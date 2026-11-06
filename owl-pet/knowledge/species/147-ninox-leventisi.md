@@ -28,3 +28,11 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 - Built-in ImageGen generated v2, then one targeted edit corrected mostly dark adult claws and shortened/softened the older immature wing. Full image and two crops were actually viewed.
 - Result: `PASS_WITH_LIMITATIONS`, scientific verification false. The age-unknown older immature keeps eyes closed, tail hidden and both feet supported; exact age, iris development, flight, nest, sex-size direction and continuous feather sequence remain unknown.
 - Detailed evidence and complete prompts: [research record](../../research/species/147-ninox-leventisi-v2.md) · [run](../../production/runs/20261101T002622+0800-cycle-1.md).
+
+
+## v3 — 2026-11-07 science revision
+
+- Rasmussen et al. 2012 pp.15–16 re-read; ZOBODAT 2014 p.108 added for type metadata. Adults remain near equal because types are female and no sex-size ratio is established.
+- Full plate and two crops passed: long deep bills, pale irides, white throats, barred coverts, pale claws/dark tips, and all supports visible. Juvenile remains AGE UNKNOWN with wing/tail concealed.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=0.
+- Research: `research/species/147-ninox-leventisi-v3.md`; review: `research/reviews/147-ninox-leventisi-v3-review.md`; concept: `design/concepts/147-ninox-leventisi-v3.png`.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:31:00+08:00",
+  "updated": "2026-11-07T05:35:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25919,7 +25919,67 @@
       "verification_tree": "99c1c9395383076781054f8cf35f99ba83f9e6c2",
       "ledger_credited": true,
       "ledger_credited_at": "2026-11-07T05:31:00+08:00"
+    },
+    {
+      "id": "147-ninox-leventisi-v3",
+      "path": "design/concepts/147-ninox-leventisi-v3.png",
+      "species_id": 147,
+      "scientific_name": "Ninox leventisi",
+      "historical_names": [
+        "Ninox philippensis spilonota",
+        "Ninox philippensis"
+      ],
+      "common_name": "Camiguin Boobook",
+      "scope": "Adult pair from primary description and photographs; conservative age-unknown juvenile because primary paper excludes sparse immatures; humid Camiguin montane forest branch, no nest reconstruction",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "CAMBOO-RASMUSSEN-2012-FORKTAIL",
+        "CAMBOO-ZOBODAT-2014-P108",
+        "CAMBOO-COMMONS-CHUA-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/147-ninox-leventisi-v3.md",
+      "review_record": "research/reviews/147-ninox-leventisi-v3-review.md",
+      "run_record": "production/runs/20261107T053400+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2597814,
+      "sha256": "de24cd183d37c72704e054a315f5b5c0149525cf8e5a75a22b2c6c84f9d41a37",
+      "git_blob": "cdf02e5446f1372027db00bc0b7e9aabc652790c",
+      "generated_path": "production/generated/147-ninox-leventisi-v3-generated-master.png",
+      "generated_blob": "cdf02e5446f1372027db00bc0b7e9aabc652790c",
+      "generated_sha256": "de24cd183d37c72704e054a315f5b5c0149525cf8e5a75a22b2c6c84f9d41a37",
+      "generated_size_bytes": 2597814,
+      "reviewed_path": "production/reviewed/147-ninox-leventisi-v3-reviewed-master.png",
+      "reviewed_blob": "cdf02e5446f1372027db00bc0b7e9aabc652790c",
+      "juvenile_review_crop": "production/review-crops/147-ninox-leventisi-v3-juvenile.png",
+      "juvenile_review_blob": "fbfd372671caaefa0a63d3144dbb7095537a66e9",
+      "juvenile_review_size_bytes": 601815,
+      "juvenile_review_sha256": "0faf3463deccff57c657c5e1b46737cb98d0ad3b2c693d94690f571520ca525f",
+      "adult_review_crop": "production/review-crops/147-ninox-leventisi-v3-adults-support.png",
+      "adult_review_blob": "eea54e59b89d7b5a2d9ec42ff7084aa89921c794",
+      "adult_review_size_bytes": 1257847,
+      "adult_review_sha256": "3d79db1ff36a03b9ebe537ea1975db73b17257bc91c9f92123151d95f12c363c",
+      "batch_id": "20261107T043300+0800",
+      "cycle": 3,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T05:35:00+08:00",
+      "archive_commit_pending": true,
+      "evidence_limit": "Primary paper excludes immatures because data are sparse. Exact juvenile age, iris, flight, feather sequence, nest and sex-size ratio remain unknown."
     }
   ],
-  "updated_at": "2026-11-07T05:31:00+08:00"
+  "updated_at": "2026-11-07T05:35:00+08:00"
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:46:00+08:00",
+  "updated": "2026-11-07T05:49:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26532,7 +26532,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "CEB-RASMUSSEN-2012-FORKTAIL",
         "CEB-JAKOSALEM-COLLAR-GILL-2012",
@@ -26566,11 +26566,20 @@
       "adult_review_sha256": "8c668f6af4abd5bb2bbe0b69987684af1af2dad94089b6436f3ecf008f40f266",
       "batch_id": "20261107T043300+0800",
       "cycle": 4,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T05:46:00+08:00",
-      "archive_commit_pending": true,
-      "evidence_limit": "Measured sex-size direction uses authors' assumed female/male classes; juvenile age, iris chronology, exact feather sequence and flight threshold remain unknown; recently hatched nest young was not described."
+      "archive_commit_pending": false,
+      "evidence_limit": "Measured sex-size direction uses authors' assumed female/male classes; juvenile age, iris chronology, exact feather sequence and flight threshold remain unknown; recently hatched nest young was not described.",
+      "exact_readback": true,
+      "archive_commit": "d0b2dd3df3faa0ed0b9406c18b1ea96a90e7681b",
+      "archive_tree": "b3f179de1af795c3aa317e6b6d5b4d7158767b6c",
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 5,
+      "recursive_tree_listing_available": false,
+      "binary_content_fetch_available": false,
+      "verified_at": "2026-11-07T05:49:00+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T05:46:00+08:00"
+  "updated_at": "2026-11-07T05:49:00+08:00"
 }

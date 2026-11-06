@@ -3704,3 +3704,5 @@ Verification `4d0273366ec170d90b45b0820cdf029396acbf8d` read back after archive 
 
 
 - 2026-11-07 #148 *Ninox rumseyi* v3 ARCHIVED in batch `20261107T043300+0800` cycle 4: one targeted edit shortened adult supercilia and reduced exaggerated sex-size contrast; concept/original/reviewed/crops/manifests persisted. Unique remains 176/251, revision +1, readback pending, science false.
+
+- #148 v3 VERIFIED: archive `d0b2dd3df3faa0ed0b9406c18b1ea96a90e7681b` / tree `b3f179de1af795c3aa317e6b6d5b4d7158767b6c`; 16 required paths and five exact binary tree targets passed immutable readback. Manifests 756/757/747 parsed. Binary body decoding is unavailable for one crop through the connector, but path plus exact archive-tree blob assignment were verified. Ledger credit pending; science false.

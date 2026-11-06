@@ -1,3 +1,4 @@
+- 2026-11-06T11:45:50.000+08:00: #101 *Otus spilocephalus* v8 LEDGER_CREDITED at verification `8a6c68aa28e19a00884ac046f2090ce4909be3e9`; batch 2/6, next cycle 3, lease released; unique176/251; science false.
 - 2026-11-06T11:44:54.000+08:00: verified #101 *Otus spilocephalus* v8 at archive `0c049e8d3203106a7f159eb4ee2b5684bd66cf89`, tree `0190a45af7fd9a642fd69c718077c1ca2aa94af6`; 3,317 non-truncated entries, six exact binary tuples and manifests 719/718/709 passed. Ledger credit pending; unique176/251; science false.
 - 2026-11-06T11:43:27.000+08:00: archived #101 *Otus spilocephalus* v8 preparation. New/read4, reused3, corrected4; one immature-wing edit; full and two crops passed; manifests 719/718/709; unique176/251; science false; immutable readback pending.
 - 2026-11-06T11:34:00.000+08:00: #100 *Strix huhula* v5 LEDGER_CREDITED at verification `b5c2d7eef6ae05c945bcf3f200353ef062ddd503`; batch 1/6, next cycle 2, lease released; unique 176/251; science false.

@@ -393,3 +393,6 @@ Verification `459e5511c6924eb0d39c4e25a38024d2db7b0162` read back after archive 
 
 
 2026-11-07T03:11:00+08:00 #141 *Otus magicus* v4 VERIFIED; archive `797b5dbbdf6d129abaec3e8cd8ff425b33431c0a` / tree `e563ba872780291453afee57d12a8858f5a61e86`; 19/19 paths, 6/6 exact image tuples and manifests 751/750/741 passed; ledger credit pending; unique 176/251; science false.
+
+
+2026-11-07T03:13:00+08:00 #141 *Otus magicus* v4 LEDGER_CREDITED; verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` / tree `446561d1cdb8d26eb9e7b224fd6219a4dfd34435`; batch `20261107T012800+0800` now 4/6, next_cycle=5, lease released; unique 176/251; revision +1; science false.

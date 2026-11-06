@@ -3642,3 +3642,6 @@ Verification commit `b90975358b2dacb74fdb3d0ce8b23a7e9b39619b` was read back aft
 
 
 Archive `797b5dbbdf6d129abaec3e8cd8ff425b33431c0a`, tree `e563ba872780291453afee57d12a8858f5a61e86`, 3601 non-truncated entries; 19/19 required paths, 6 exact binary tuples and manifests 751/750/741 passed for #141 *Otus magicus* v4. Unique remains 176/251; science false; ledger credit pending.
+
+
+Verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` read back after archive `797b5dbbdf6d129abaec3e8cd8ff425b33431c0a` / tree `e563ba872780291453afee57d12a8858f5a61e86`. Cycle 4 is credited exactly once; batch `20261107T012800+0800` is PARTIAL 4/6 with next_cycle=5 and lease released. Unique remains 176/251; revision +1; science false.

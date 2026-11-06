@@ -43,3 +43,8 @@ Archive `ebdcc3e94360e0576f41c4556954ed22dc64a469`; exact six tuples and manifes
 ## v4 REVIEWED — 2026-11-07T03:04:00+08:00
 
 One targeted edit corrected two model overclaims: adult tarsi changed from mostly bare to feathered almost to the toes with only a narrow distal band exposed; the older juvenile's long hard wing changed to a shorter soft fluff-edged formed wing with most tail concealed. Full plate plus adult/support and juvenile crops were opened. Result PASS_WITH_LIMITATIONS; science remains false because stage chronology and other listed fields remain unknown.
+
+
+## v4 VERIFIED — 2026-11-07T03:13:00+08:00
+
+Archive `797b5dbbdf6d129abaec3e8cd8ff425b33431c0a` / tree `e563ba872780291453afee57d12a8858f5a61e86` passed a 3,601-entry non-truncated readback with 19/19 required paths, six exact binary tuples and manifests 751/750/741. Verification commit `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` was read back; cycle credited once. Unique remains 176/251; PASS_WITH_LIMITATIONS; scientific verification false.

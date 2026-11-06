@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T03:45:00+08:00",
+  "updated": "2026-11-07T03:48:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26233,7 +26233,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "FEO-LOYN-DEBUS-2000-P288-289",
         "FEO-ITIS-1244693-2026",
@@ -26272,11 +26272,19 @@
       "adult_review_sha256": "ffb59d4e2efc449106e77643d34f35480d50b9293ed2aaff1c9e5d308c383e5a",
       "batch_id": "20261107T012800+0800",
       "cycle": 6,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T03:45:00+08:00",
-      "exact_readback": false,
-      "evidence_limit": "One described rescued juvenile; exact age, sex, flight status, sequence and population generality unknown. Mikkola upload inaccessible in this execution."
+      "exact_readback": true,
+      "evidence_limit": "One described rescued juvenile; exact age, sex, flight status, sequence and population generality unknown. Mikkola upload inaccessible in this execution.",
+      "archive_commit": "270e1331af485c9a64785ba23401f39d06aaa160",
+      "archive_tree": "ba568d56cc1e09da86e9311e371b5d1843e99b80",
+      "archive_tree_count": 3619,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 17,
+      "exact_binary_paths_verified": 6,
+      "verified_at": "2026-11-07T03:48:00+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T03:45:00+08:00"
+  "updated_at": "2026-11-07T03:48:00+08:00"
 }

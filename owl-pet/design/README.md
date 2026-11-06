@@ -1,4 +1,4 @@
-## #101 Mountain Scops Owl — *Otus spilocephalus* — v8 ARCHIVED (readback pending)
+## #101 Mountain Scops Owl — *Otus spilocephalus* — v8 VERIFIED
 
 - Concept: [101-otus-spilocephalus-v8.png](concepts/101-otus-spilocephalus-v8.png)
 - Research: [101-otus-spilocephalus-v8.md](../research/species/101-otus-spilocephalus-v8.md)

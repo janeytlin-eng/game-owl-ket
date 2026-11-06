@@ -1,3 +1,8 @@
+## 2026-11-06 #101 *Otus spilocephalus* v8 VERIFIED — ledger credit pending
+
+- Archive `0c049e8d3203106a7f159eb4ee2b5684bd66cf89`, tree `0190a45af7fd9a642fd69c718077c1ca2aa94af6`, returned 3,317 non-truncated entries; six exact binary path/blob/byte tuples passed. Manifests parse at 719/718/709 and the concept path returns blob `35022d129b7299aad1885df4322d763fa8889cac`.
+- One juvenile-wing edit passed full/crop review. PASS_WITH_LIMITATIONS; science false; unique remains 176/251. Ledger credit pending.
+
 ## 2026-11-06 #101 *Otus spilocephalus* v8 ARCHIVED — immutable readback pending
 
 - Batch `20261106T105700+0800`, cycle 2/6. Four new/read sources plus three reused records; one targeted immature-wing edit; full image and two crops opened.

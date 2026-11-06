@@ -23543,7 +23543,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "MOSO-NTM-TMAV3451-2026",
         "MOSO-NTM-TMAV4405-2026",
@@ -23581,8 +23581,58 @@
       "adults_review_size_bytes": 2172535,
       "adults_review_sha256": "9d2a9b1a6ec15ae6a25d9ea5c104ad16848f7da3f25671653e157d461db2d11d",
       "reviewed_at": "2026-11-06T11:42:06.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V8 preserves v1-v7 and applies four newly read source records plus three reused records. One center-only edit replaces an orderly juvenile wing with a short down-dominant contour. Full plate and two crops pass. Exact immature age/sex/iris chronology, feather sequence, first-flight threshold, measured hollow dimensions and population dimorphism remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V8 preserves v1-v7 and applies four newly read source records plus three reused records. One center-only edit replaces an orderly juvenile wing with a short down-dominant contour. Full plate and two crops pass. Exact immature age/sex/iris chronology, feather sequence, first-flight threshold, measured hollow dimensions and population dimorphism remain unknown; science false.",
+      "archive_commit": "0c049e8d3203106a7f159eb4ee2b5684bd66cf89",
+      "archive_tree": "0190a45af7fd9a642fd69c718077c1ca2aa94af6",
+      "verified_at": "2026-11-06T11:44:54.000+08:00",
+      "verification_result": "archive tree returned 3317 non-truncated entries; concept/generated/edit/reviewed and two review crops matched exact path/blob/byte tuples; three manifests parsed at 719/718/709; research/review/run/source/workflow text and concept blob were readable",
+      "exact_readback": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "0c049e8d3203106a7f159eb4ee2b5684bd66cf89",
+        "archive_tree": "0190a45af7fd9a642fd69c718077c1ca2aa94af6",
+        "tree_entries": 3317,
+        "truncated": false,
+        "manifest_counts": {
+          "design": 719,
+          "legacy": 718,
+          "production": 709
+        },
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/101-otus-spilocephalus-v8.png",
+            "blob": "35022d129b7299aad1885df4322d763fa8889cac",
+            "size_bytes": 2906119
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/101-otus-spilocephalus-v8-generated-master.png",
+            "blob": "2b1e362adc4a560eaf476ca67c52d1a4274db28f",
+            "size_bytes": 3182139
+          },
+          "edit": {
+            "path": "owl-pet/production/edits/101-otus-spilocephalus-v8-edit1.png",
+            "blob": "35022d129b7299aad1885df4322d763fa8889cac",
+            "size_bytes": 2906119
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/101-otus-spilocephalus-v8-reviewed-master.png",
+            "blob": "35022d129b7299aad1885df4322d763fa8889cac",
+            "size_bytes": 2906119
+          },
+          "immature_crop": {
+            "path": "owl-pet/production/review-crops/101-otus-spilocephalus-v8-immature.png",
+            "blob": "aebe2f07f743042c62a44fc490ec03d723439c8e",
+            "size_bytes": 799909
+          },
+          "adults_support_crop": {
+            "path": "owl-pet/production/review-crops/101-otus-spilocephalus-v8-adults-support.png",
+            "blob": "685d8fdfd6846808ba8a6adced3d1f7a2024a1b3",
+            "size_bytes": 2172535
+          }
+        },
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-11-06T11:18:00.000+08:00"

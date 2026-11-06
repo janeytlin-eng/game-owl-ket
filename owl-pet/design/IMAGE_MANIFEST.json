@@ -24804,7 +24804,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "GHO-HOFFMEISTER-SETZER-1947",
         "GHO-MCGILLIVRAY-1989",
@@ -24837,10 +24837,19 @@
       "adults_review_size_bytes": 1496428,
       "adults_review_sha256": "ff37f7d78023d56976e9f9ed703b54f9a11c25b7d80876687c66920f204f5d1a",
       "reviewed_at": "2026-11-06T18:33:41+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V2 preserves v1 and repairs #56's absence from all current manifests. Primary postnatal evidence corrects v1's tiny-wing overcorrection: the c.44–46-day brancher retains down but has substantial irregularly layered flight feathers, short tail and two-foot branch support. Female is moderately fuller/slightly taller per species-level reverse size dimorphism, not a universal owl rule. Exact individual age/sex/flight, continuous feather sequence, subspecies colour and pair ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V2 preserves v1 and repairs #56's absence from all current manifests. Primary postnatal evidence corrects v1's tiny-wing overcorrection: the c.44–46-day brancher retains down but has substantial irregularly layered flight feathers, short tail and two-foot branch support. Female is moderately fuller/slightly taller per species-level reverse size dimorphism, not a universal owl rule. Exact individual age/sex/flight, continuous feather sequence, subspecies colour and pair ratio remain unknown; science false.",
+      "archive_commit": "abccfcdd73d173efa9c05859786bb0dce642eb4b",
+      "archive_tree": "a40aee76a8173f704d7d011cd7528bce685c2d0b",
+      "archive_tree_entries": 3444,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 15,
+      "exact_binary_paths_verified": 5,
+      "verified_at": "2026-11-06T18:35:58+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable archive commit abccfcdd resolved all 15 required paths in a non-truncated 3,444-entry recursive tree. Five image path/blob/byte tuples matched; concept/generated/reviewed resolve to 8f285aa6… (3,548,324 bytes), and both crop blobs/bytes match. Archive manifests parsed at 733/734/724 and ended with #56 v2. Science remains false."
     }
   ],
-  "updated_at": "2026-11-06T18:34:51+08:00"
+  "updated_at": "2026-11-06T18:35:58+08:00"
 }

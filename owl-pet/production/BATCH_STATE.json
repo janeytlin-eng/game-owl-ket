@@ -23906,24 +23906,24 @@
       "active_lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T182939+0800-cycle-5",
-        "heartbeat_at": "2026-11-06T18:34:51+08:00",
-        "expires_at": "2026-11-06T18:49:51+08:00"
+        "heartbeat_at": "2026-11-06T18:35:58+08:00",
+        "expires_at": "2026-11-06T18:50:58+08:00"
       },
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T182939+0800-cycle-5",
-        "heartbeat_at": "2026-11-06T18:34:51+08:00",
-        "expires_at": "2026-11-06T18:49:51+08:00"
+        "heartbeat_at": "2026-11-06T18:35:58+08:00",
+        "expires_at": "2026-11-06T18:50:58+08:00"
       },
       "in_progress": {
         "cycle": 5,
         "run_id": "20261106T182939+0800-cycle-5",
         "species_id": 56,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "started_at": "2026-11-06T18:29:39+08:00",
         "run_record": "owl-pet/production/runs/20261106T182939+0800-cycle-5.md"
       },
-      "current_stage": "ARCHIVED",
+      "current_stage": "VERIFIED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24746,6 +24746,37 @@
             "scientifically_verified": false,
             "readback_pending": true,
             "lease_expires_at": "2026-11-06T18:49:51+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 5,
+          "stage": "VERIFIED",
+          "at": "2026-11-06T18:35:58+08:00",
+          "run_id": "20261106T182939+0800-cycle-5",
+          "species_id": 56,
+          "credited": false,
+          "evidence": {
+            "archive_commit": "abccfcdd73d173efa9c05859786bb0dce642eb4b",
+            "archive_tree": "a40aee76a8173f704d7d011cd7528bce685c2d0b",
+            "required_paths": 15,
+            "exact_binary_paths": 5,
+            "recursive_tree_listing_available": true,
+            "tree_entries": 3444,
+            "truncated": false,
+            "remote_original_blob": "8f285aa60c1e7a4806eac7603c4593f9b05476b8",
+            "remote_original_bytes": 3548324,
+            "remote_original_sha256": "4824ef0396692189fb8c0814cd2f73b0d5483752274518918ca4465fb63d35fc",
+            "manifest_counts": {
+              "design_image": 733,
+              "design_legacy": 734,
+              "production": 724
+            },
+            "run_record": "owl-pet/production/runs/20261106T182939+0800-cycle-5.md",
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-06T18:50:58+08:00"
           }
         }
       ]

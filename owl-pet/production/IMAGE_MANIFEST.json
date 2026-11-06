@@ -23568,7 +23568,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "ABY-ITIS-555498-2026",
         "ABY-COLLAR-BOESMAN-2019",
@@ -23602,8 +23602,16 @@
       "adults_review_size_bytes": 1941617,
       "adults_review_sha256": "72586068ae4c32376501ec8f4e19f387e3bc50b3b8332866525b66cc879b7794",
       "reviewed_at": "2026-11-06T13:44:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V3 preserves v1-v2 and selects an actually viewed age-unknown older Ethiopian juvenile. One center-only edit reduced uniform curls, shortened/concealed the developing wing and hid the tail. Adults use nominate morphology and near-equal scale; nest/age/flight/sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V3 preserves v1-v2 and selects an actually viewed age-unknown older Ethiopian juvenile. One center-only edit reduced uniform curls, shortened/concealed the developing wing and hid the tail. Adults use nominate morphology and near-equal scale; nest/age/flight/sex ratio remain unknown; science false.",
+      "verified_at": "2026-11-06T13:50:00.000+08:00",
+      "archive_commit": "1ccce9ffc76d063962c6129564318bef5fbd8e57",
+      "archive_tree": "aa8032137777b2396b930a3d8ad2ef755d0f2a42",
+      "archive_tree_entries": 3375,
+      "archive_tree_truncated": false,
+      "exact_readback": true,
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable tree readback matched thirteen required paths, five exact image tuples and remotely parsed manifest counts 725/726/716; science remains false."
     }
   ],
   "updated_at": "2026-11-06T12:55:30.000+08:00"

@@ -2,6 +2,8 @@
 
 Science revision preserving v1–v2. Indexed five new/corrected source records and reused two history records. One targeted edit corrected the center juvenile’s adult-like wing and uniform curls; final full/crop review `PASS_WITH_LIMITATIONS`. Manifests 725/726/716; unique 176/251; science false; immutable readback pending.
 
+- Verified immutable archive `1ccce9ffc76d063962c6129564318bef5fbd8e57` / tree `aa8032137777b2396b930a3d8ad2ef755d0f2a42`: 3,375 non-truncated entries, thirteen paths, five image tuples and manifests 725/726/716 passed; ledger credit pending.
+
 ## 2026-11-06 — #108 *Otus rutilus* v4 ARCHIVED, readback pending
 
 Science revision preserving v1–v3. Indexed four new/corrected source records and reused two. Two image edits corrected adult compactness/facial colour/feet and juvenile down-stage identity. Final full/crop review `PASS_WITH_LIMITATIONS`; manifests 724/725/715; unique 176/251; science false; immutable readback pending.

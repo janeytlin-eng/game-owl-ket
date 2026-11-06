@@ -1,3 +1,8 @@
+## 2026-11-06 #100 *Strix huhula* v5 LEDGER_CREDITED — batch 1/6
+
+- Verification commit `b5c2d7eef6ae05c945bcf3f200353ef062ddd503` and tree `17fe87860850f306eeca33c4ddc0f7a703b9d7d2` were read back. Cycle 1 credited once; batch next cycle 2; lease released.
+- Unique species remains 176/251; revision +1; `scientifically_verified=false`.
+
 ## 2026-11-06 #100 *Strix huhula* v5 VERIFIED — ledger credit pending
 
 - Archive `3ba1bcd30552a2f217743d8645d8604c8c6835fc`, tree `bdb2f54d903bc807793f4e063ec1ca81216f412a`, returned 3,306 non-truncated entries; five exact binary path/blob/byte tuples passed. Manifests parse at 718/717/708 and the concept path returns blob `9dab2aeafb308c366b3025f743abd1d8dbc31e61`.

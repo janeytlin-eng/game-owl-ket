@@ -1665,3 +1665,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Manifests 760/761/751; unique 176/251; scientifically_verified=false; immutable readback pending.
 
 - 2026-11-07T06:58:20+08:00: #153 v3 VERIFIED at archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd`, tree `8dfe17c657c749a822c2714905b3808854bd0d70`; 19 paths, six exact binary identities and manifests 760/761/751 passed; ledger credit pending; science false.
+
+- 2026-11-07T07:00:05+08:00: #153 *Jubula lettii* v3 LEDGER_CREDITED after verification `8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0`; batch 2/6, next cycle 3, lease released; unique176/251; science false.

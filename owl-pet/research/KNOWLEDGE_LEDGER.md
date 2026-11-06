@@ -156,3 +156,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd` / tree `8dfe17c657c749a822c2714905b3808854bd0d70` resolved 19 required paths; six binary paths matched exact expected Git blobs. Manifests parsed 760/761/751 with one #153 v3 entry each.
 - PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.
+
+
+## #153 v3 ledger
+
+- Verification `8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0` / tree `b0fcf1343267d2fb35fe4fee5647f235827ee631` read back after archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd`.
+- Cycle 2 credited once; batch 2/6, next 3; unique 176/251; revision +1; scientifically_verified=false.

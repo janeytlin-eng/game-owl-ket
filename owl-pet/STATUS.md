@@ -3750,3 +3750,8 @@ Verification `92df887e6da967619a4b6aa9780627e99bbdd7d6` was read back after arch
 
 
 - #153 v3 VERIFIED: archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd` / tree `8dfe17c657c749a822c2714905b3808854bd0d70`; 19 paths and six exact image blobs passed. Manifests 760/761/751. Ledger pending; science false.
+
+
+### #153 v3 LEDGER_CREDITED — batch 2/6
+
+Verification `8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0` was read back after archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd` / tree `8dfe17c657c749a822c2714905b3808854bd0d70`. Cycle 2 credited once; batch PARTIAL 2/6, next_cycle=3, lease released. Unique 176/251; revision +1; science false.

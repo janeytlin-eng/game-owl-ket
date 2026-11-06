@@ -2223,3 +2223,25 @@
 - Facts: Ninox natalis valid species; Christmas Boobook / Christmas Island Boobook.
 - Limits: nomenclature only.
 
+## 2026-11-06 — #120 *Megascops ingens* v4 — primary-paper reread and juvenile-wing correction
+
+### RIS-ORDONEZ-2022-LEAD
+- **Title/authors/year/type:** “Primer registro del polluelo y nuevos datos del nido del Autillo Rojizo (*Megascops ingens*)…” — L. Ordóñez-Delgado, F. Ramon Castillo & A. Pineda Díaz, 2022, *Neotropical Biodiversity* 8(1):301–304; primary field report.
+- **DOI/URL/accessed:** https://doi.org/10.1080/23766808.2022.2123729 ; author-uploaded full text at https://www.researchgate.net/publication/364265788 ; reread 2026-11-06.
+- **Pages/figures actually read:** printed pp.301–304, especially p.302 and Fig.1; repository landing page and displayed full-text extraction.
+- **Facts/design use:** one southeast-Ecuador chick, age estimated rather than known at 20–30 d; light-beige base, dark-brown face/eye contour, whitish forehead, faint brown bands and residual white natal down; primaries/secondaries/tertials already considerably developed and barred light/dark brown; gray bill with pale-yellow egg-tooth vestige, dark-brown iris; perched at a simple bare dead-stump cavity rim in lower-montane evergreen forest edge. The observed threat response included slight wing opening and bill-clapping, not demonstrated flight.
+- **Limits/conflict:** single chick and one observed nest; no hatch date, sustained-flight test, sex or continuous feather tract sequence. Supports a visibly formed but folded, bounded juvenile flight-feather cluster—not wing buds and not an adult-perfect wing.
+- **Links:** `owl-pet/research/species/120-megascops-ingens-v4.md`; planned v4 concept/review; `owl-pet/production/runs/20261106T151000+0800-cycle-5.md`.
+
+### RIS-ITIS-686668-2026
+- **Institution/URL/section:** ITIS TSN 686668, https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686668 ; taxonomy/nomenclature and direct children; read 2026-11-06.
+- **Facts/use:** valid *Megascops ingens*; original synonym *Scops ingens*; current species contains listed subspecies including nominate *M. i. ingens*. Taxonomy only.
+
+### RIS-ITIS-686872-2026
+- **Institution/URL/section:** ITIS TSN 686872, https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686872&source=to_print ; taxonomy/nomenclature; read 2026-11-06.
+- **Facts/use:** valid nominate *M. i. ingens*; historical combinations *Otus ingens* and *Megascops albogularis aequatorialis*. Taxonomy/locality mapping only.
+
+### Reuse and corrected boundary
+- Reused `RIS-MIKKOLA-2013-P229` from the archived #120 v3 record (printed p.229 / uploaded PDF p.231): small adult tufts, honey-brown eyes, olive-yellow bill/cere, 25–28 cm, 134–223 g and females averaging 28 g heavier. The upload was not accessible in this execution, so this is explicitly a repository-pinned reuse rather than a fresh page claim.
+- New/corrected sources: 2 taxonomy records; primary field paper reread: 1; repository source reused: 1. V3 visually underplays the paper's “considerably developed” barred remiges, so v4 must enlarge the juvenile's formed folded flight-feather cluster while retaining down, no tufts and full support. Exact age, flight ability, literal feather map and fixed sex-size ratio remain unknown; science=false.
+

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T09:59:00.021+08:00",
+  "updated": "2026-11-06T09:59:58.396+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -22634,7 +22634,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "CHAO-SMITH-ETAL-2024-P44-46",
         "CHAO-SIB-ARGENTINA-2026",
@@ -22661,9 +22661,13 @@
       "reviewed_path": "production/reviewed/98-strix-chacoensis-v5-reviewed-master.png",
       "reviewed_blob": "31c602ab7fea7cc48e1e24aabfbf9db060160dba",
       "reviewed_at": "2026-11-06T09:59:00.021+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, adds the documented one-off male frog courtship approach, and after one targeted edit shortens/softens the mesoptile wing-tail and restores proximal adult toe feathering. Exact juvenile age/flight, display frequency, nest and robust sex ratio unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, adds the documented one-off male frog courtship approach, and after one targeted edit shortens/softens the mesoptile wing-tail and restores proximal adult toe feathering. Exact juvenile age/flight, display frequency, nest and robust sex ratio unknown; science false.",
+      "archive_commit": "3f103cb54b4408055c368698d5c84ce6053dcc4c",
+      "archive_tree": "2fc60b87598f18c3ddb0be66247436357d7bfa20",
+      "verified_at": "2026-11-06T09:59:58.396+08:00",
+      "verification_result": "PASS: immutable archive 3f103cb54b4408055c368698d5c84ce6053dcc4c returned all 10 required #98 paths; four binary paths matched expected Git blobs; three manifests parsed at 716/715/706 with #98 v5 tails."
     }
   ],
-  "updated_at": "2026-11-06T09:59:00.021+08:00"
+  "updated_at": "2026-11-06T09:59:58.396+08:00"
 }

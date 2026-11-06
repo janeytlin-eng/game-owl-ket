@@ -25021,8 +25021,8 @@
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T194601+0800-cycle-2",
-        "heartbeat_at": "2026-11-06T19:50:30+08:00",
-        "expires_at": "2026-11-06T20:05:30+08:00",
+        "heartbeat_at": "2026-11-06T19:52:45+08:00",
+        "expires_at": "2026-11-06T20:07:45+08:00",
         "batch_id": "20261106T193155+0800",
         "cycle": 2
       },
@@ -25033,13 +25033,13 @@
         "species": "Ninox leucopsis",
         "action": "SCIENCE_REVISION",
         "version": 4,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261106T194601+0800-cycle-2.md",
         "started_at": "2026-11-06T19:46:01+08:00"
       },
       "started_at": "2026-11-06T19:31:55+08:00",
       "last_verified_commit": "05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba",
-      "updated_at": "2026-11-06T19:50:30+08:00"
+      "updated_at": "2026-11-06T19:52:45+08:00"
     }
   ],
   "lease": {
@@ -35823,6 +35823,18 @@
       "new_sources": 2,
       "reused_sources": 4,
       "scientifically_verified": false
+    },
+    {
+      "at": "2026-11-06T19:52:45+08:00",
+      "batch_id": "20261106T193155+0800",
+      "cycle": 2,
+      "stage": "IMAGE_GENERATED",
+      "species_id": 121,
+      "path": "owl-pet/production/generated/121-ninox-leucopsis-v4-generated-master.png",
+      "bytes": 3197312,
+      "sha256": "aa4a552687024f2ce9cb45e717bbec83d8b590fd14037799e81699e7e05fb337",
+      "preliminary_inspection": "Exact three birds, title/subtitle/labels, adult identity, near-equal adults, cavity support and all feet pass. Young is downy but its visible folded wing is too long, too fully exposed and too regularly layered for the conservative later age-unknown boundary; targeted edit required.",
+      "edit_needed": true
     }
   ],
   "last_completed_batch_id": "20261106T173000+0800",

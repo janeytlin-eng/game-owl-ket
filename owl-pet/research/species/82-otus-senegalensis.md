@@ -1,0 +1,17 @@
+#82 Otus senegalensis; southern African nominate concept. Mikkola 2013 printed130–131 (PDF132–133) freshly read text: female average24g heavier (mass not height), grey/brown morph variation not sex variation, yellow eyes blackish-horn bill, feathered tarsi/dusky toes, adult shoulder white band; downy whitish and mesoptile fluffy less marked. Rendered page images returned as pointers, not directly inspected pixels: do not claim photo inspection. BiodiversityExplorer https://www.biodiversityexplorer.info/birds/strigidae/otus_senegalensis.htm Breeding/Habitat actually opened2026-10-15: natural tree cavities, arid savanna woodland, young leave25–28days; no transfer of exact day to painted chick. Brown/Riekert/Morsbach1987 DOI10.1080/00306525.1987.9634144 pp58–64 abstract search-only; directopenfailed, not verified fullpaper. Use an alert mesoptile cavity chick, body supported on cavity floor, short developing downcovered wings; no neonatal anatomy claims. Slight fuller female same skeletalheight designinference, not24gconvertedtoheight. Stable source IDs SEN-MIK2013-130, SEN-BE-ROBERTS2005; DOI lead SEN-BROWN1987-UNVERIFIED. Full taxonomy all251 notresolved; restrictnominate avoids historicfeae islandassignment. No existing senegalensis manifest match verified.
+
+REVIEWED 2026-10-15T07:40:35.559Z
+Actual editedimageviewed: juvenile white adultlike spotrows and long layered remiges replaced with shorter soft grey-buff developingwing, body stillfluffy with lessdistinctmarkings, feet/cavityfloor supported. Female nowfuller, nearadultsameheight notmass-to-heightcalibration; yelloweyes/darkbills/tufts/adultwhiteshoulders/treecavityaridsavanna retained. Finejuvenilefeatherage/sexratios/toegeometrystillunresolved, sciencefalse. Repeatedcause model borrows adult wings onto fluffybody; explicitnegativeandlocaledit reducedvisibleartifact, notbiologicalvalidation.
+ARCHIVED fullPNG3043383bytes Git8a2e5bcd71826a8bd5bd659d02aa186b52b968e2 SHA256c1ee88ad875c85c9439c934139e3d25b665d99d5f86aec31708f6874092df138.
+IMAGE_GENERATED 2026-10-15T07:38:08.425Z; EDIT_RETURNED 2026-10-15T07:39:35.826Z; edit wait 64.55s. Unique80/251.
+
+Run: owl-pet/production/runs/2026-10-15T1529+0800-cycle-2.md
+
+## 2026-10-29 v3 research-ready correction
+
+Primary development evidence is now anchored by Riekert 1986 (printed pp.425–428; full four-page PDF opened) and Brown, Riekert & Morsbach 1987 (printed pp.58–64; institutional record and publisher abstract read). The old `SEN-BROWN1987-UNVERIFIED` lead is corrected to `SEN-BROWN-RIEKERT-MORSBACH-1987`. V3 uses a 25–28-day recent fledgling, about 75% adult size, with residual grey-white mesoptile, fresh soft-edged folded wings and short tail in a supported low branch-step beside a nest box/tree cavity. Adult mass and morph are not mapped to height or sex. Exact daily feather tracts, first-flight competence and juvenile sex remain unknown; science false.
+
+
+## 2026-10-29 v3 actual review
+
+Initial full-resolution render showed the center juvenile with adult-regular white wing rows and hard layered remiges. One juvenile-only imagegen edit softened/shortened the wing and tail, removed the regular adult rows and retained residual down, both-foot support, exact text and both adults. The edited 1536×1024 plate and 560×650 juvenile crop were actually reopened. Result: PASS_WITH_LIMITATIONS; exact daily feather tract and first-flight ability remain unknown; scientifically_verified=false. Concept: ../../design/concepts/82-otus-senegalensis-v3.jpg. Run: ../../production/runs/20261029T1205+0800-cycle-5.md.

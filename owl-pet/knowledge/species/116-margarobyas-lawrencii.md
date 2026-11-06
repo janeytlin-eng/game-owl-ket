@@ -1,0 +1,24 @@
+# Margarobyas lawrencii
+
+Reused5 CBLO-MIK2013-252, CBLO-SHERONY-2006, CBLO-SHARP-2016, CBLO-AOU-2013A11, CBLO-BOUGLOUAN-CARD. New0 this recovery. Sourcebook text printed252–253/PDF254–255 previously actually read; external secondary original refreshed this invocation. Unknown juvenile exact age/flight and sexed ratios; no scientific approval. Existing old Gymnoglaux lawrencii mapped same Cuban unit, not #22 Gymnasio nudipes.
+
+Recovered older image and new built-in targeted edit actually viewed: young upperbreast warmed/wingcoverts predominantly sienna with fewer bright spots than adults; small crown pale flecks persist despite absolute removal prompt, priority scientific-calibration item. Adults bare tarsi/bare gripping toes, dark eyes, tuftless heads, wood cavity sill support and labels retained. Not neonatal reconstruction. Unique113→114/251. Sciencefalse; age, sexed proportions and feather geometry unverified. Original commit b86864a0933c92ca227e282928493ca0b2c3daa0 size 3002073 SHA256 3f902a2bff162b00d141e0753399225ea936657f908fe26ddabb9b9b958330b4 Gitblob d206d7a26d12e3a2d721e49ac194f1fab765316d; independently downloaded immutable raw PNG fully decoded and size/hash matched.
+[Original](../../design/concepts/116-margarobyas-lawrencii-v1.png) · [Sources](../../research/SOURCE_INDEX.md) · [Full prompts and phases](../../production/runs/2026-10-16T1345+0800-cycle-5.md)
+
+
+### 116-margarobyas-lawrencii-v2 2026-10-16T11:38:59.332Z
+First targetededit insufficient; second actualview shows crowncap mostly muted sienna/brown and visibly fewer brightivoryteardrops, fainttipsremain. Bothadultspottedupperparts/darkeyes/baretarsi-toes/grips, youngformedwings/face/warmbreast/palebelly/cavitysillsupport andlabels retained. No exactfeathermap or agepass; unique116/251unchanged. Sciencefalse; age/sexscale/feathergeometry pending. Original 890776f909465f3a938a69acf90cd64a0f561331 size2864460 SHA256 95e4da8016bff72860dc7baadb9ee720f9dd4b5e249bcde6eccc844208b77163 Gitblob 76c346fc20b4b4e7b96d808bfb6ff2c60914417f; independently downloaded full PNG decoded and size/hash matched.
+New0/reused2 CBLO-BOUGLOUAN-CARD actualDescription/Reproduction refreshed, CBLO-MIK2013-252 priorprinted252–253/PDF254–255 evidence reused. Zero pale spots is not a biological requirement; lowcontrast sparse tips are conservative design inference. Sourceindex3246d3cbd11e436fb8e7d65089ac9fb4c814034a readback.
+[Original](https://github.com/janeytlin-eng/game-owl-ket/blob/main/owl-pet/design/concepts/116-margarobyas-lawrencii-v2.png)
+
+
+### 116-margarobyas-lawrencii-v3 · 2026-10-27T21:39:00.000+08:00
+
+Science-calibration revision, unique-species increment 0. Actual 1536×1024 image viewed: adults remain round-headed, untufted, dark-eyed and bare-legged/toed with natural grips and near-equal display scale. The supported age-unknown older juvenile retains formed compact wings and a paler belly; its crown is now predominantly continuous sienna-brown with only sparse low-contrast pale tips, without the v2 residual bright repeated ivory teardrop rows. No edit call was required.
+
+Sources: new 0, reused 5 (`CBLO-MIK2013-252`, `CBLO-SHERONY-2006`, `CBLO-SHARP-2016`, `CBLO-BOUGLOUAN-CARD`, `CBLO-AOU-2013A11`), corrected 0. Fresh web research was deduplicated. The uploaded guide was located but pages 254–255 yielded no readable content in this invocation, so only the prior actually-read indexed transcription is reused. Exact age, flight ability, continuous feather sequence, fixed sex-size ratio, exact crown feather map and subspecies limits remain unknown; `scientifically_verified=false`.
+
+[Original](../../design/concepts/116-margarobyas-lawrencii-v3.png) · [Research and full prompt](../../research/species/116-margarobyas-lawrencii-v3.md) · [Run](../../production/runs/2026-10-27T2126+0800-cycle-1.md)
+
+
+- 2026-10-27T21:42:00.000+08:00 — v3 independently verified at archive commit `b9667425eed465cccce15ee20bcc535182c927c5`; concept and durable master both resolve to Git blob `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`. Unique species remains 174/251; science remains false.

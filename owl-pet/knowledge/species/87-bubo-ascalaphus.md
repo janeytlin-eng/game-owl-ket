@@ -1,0 +1,63 @@
+#87 Bubo ascalaphus — Pharaoh Eagle-Owl
+Accessed2026-10-15.
+ASC-MIK2013-272: Heimo Mikkola, Owls of the World2013, uploaded book printed272–273/PDF274–275 text actually read. Sandy tawny/rufous upperparts dark mottling, rounded tawny face finely dark-rimmed, yellow to deeporange iris, blackbill, feathered tarsi/toes, shorter pointed tufts than B.bubo; upperbreast dark drop shaftstreaks, fine abdominal markings. Female averages400g heavier (not a height ratio). Whitish down with dull yellow, fluffy mesoptile barred above, slight upperbreast barring/weak tufts. Book monotypic; historical desertorum pale regional variation noted, no new taxon/count inferred. Photo caption juvenile EgyptFebruary notpixelsinspected.
+ASC-ALMASAEED2024: Matar Al-Masaeed, Omar Al-Hazza’a, Nader Al-Ghiath, Tareq Qaneer,Nashat Hamidan/RSCN, Breeding Record of Pharaoh Eagle-Owl (Bubo ascalaphus) in the Eastern Desert of Jordan, Jordan Journal of Natural History11(2),2024 pp142–143 (contents141 disagrees witharticleheading). https://www.rscn.org.jo/uploaded_files/journal/679098e3881271737529571.pdf fullPDF downloaded/textread; printed142/PDF72 actually rendered/viewed. Nest at margin gully/runoff EasternRisha,3eggs15March2024; Figure1 shows ground scrape beside shrub/rock not woven nest; earlyApril3chickshatched, flashfloodkilledall. Does NOT establish juvenile appearance or flightability. Primary wild nest record.
+ASC-HAJWAL2015-953: Faisal Hajwal, Pharaoh Eagle Owl juvenile with prey, SaudiArabiaApril2015; original photo and caption actually read/viewed https://www.owlpages.com/owls/species.php?i=953 . Fuzzy ochre/tawny juvenile, yelloweyes darkbill, faint bars, weak/no tufts; gripping rock and holding small lizard. Exactage,sex,flightability unknown; one photograph not developmental series. No reproduction of photo inrepo.
+Design inference: similarsexplumage, female modestlyfuller notfixedheight ratio; middle fuzzy mesoptilejuvenile onbroadrock gripping naturally, noage/flightclaim, tinybeakopen upwardsolicitation withoutprey copying. Desertwadiusable notcavitytree/wovennest. Preserve uncertainty in exactfeathersequence/toes/sexratio; sciencefalse. Newexternal2, existingbookreuse1 newsectionmapping1. Sourceindex map Buboascalaphus→ASC IDs; historical B.buboascalaphus same species no double count.
+
+## Actual review
+Actually viewed edited image: juvenile long dark barred remiges replaced with shorter soft tawny developing wing, faint diffuse shoulder barring/fluff retained. Both feet and belly supported onrock; yellow eyes/darkbill/upwardopenbill retained. Adults orangeeyes/blackbill/featheredtoes/shorttufts/upperbreastshaftmarks, female fuller with nearheight, desertwadioffsetrockground correct at conceptlevel. Exactsexratio, juvenileage/flightability/toegeometry and fineplumage remainunknown; scientificverificationfalse. Lesson applied and visually verified: even explicit firstprompt negative failed to prevent adultwingborrowing; targeted wing-only edit reduced artifact without erasing all legitimate developing feathers. Adult abdominal barring still somewhatbold, queued for quantitative species calibration rather than claimed scientificpass.
+Original: ../../design/concepts/87-bubo-ascalaphus-v1.png
+Run: ../../production/runs/2026-10-15T1602+0800-cycle-1.md
+
+## 87-bubo-ascalaphus-v2
+## #87 Bubo ascalaphus v2 修订依据
+ASC-ALSHEIKHLY2020: Omar F. Al-Sheikhly, Heimo Mikkola, Seyd B. Mousavi (21Dec2020), Pharaoh Eagle-Owl… Iraq and Iran, Bulletin IraqNaturalHistoryMuseum16(2):219–230, DOI10.26842/binhm.7.2020.16.2.0219, https://jnhm.uobaghdad.edu.iq/index.php/BINHM/article/download/473/317/1258 . Access2026-10-15 actualpublisherPDFtext read pp219–226, especially221 Fieldidentification/Table1 and222Plate1caption. Sourcefacts: adult lowerparts unstreakedrufousbarredbelly; darkbreaststreaks restrictedupperbreast, lowerflank finer/lessdensepencilbarring; sexwingdata compilednotnewmeasurements. JuvenileIran2014identificationexplicitlyinconclusive, DONOTuseasconfirmedjuvenileage. Primaryfield/specimencomparativepaper, geographyIraq/Iran notallpopulations; platecaptionread notpixelsinspected. Sourcesupports adultlowerbellyreduction noteraseallbars.
+Reuse ASC-MIK2013-272 freshlyread uploadedMikkola2013printed272–273/PDF274–275: abdomenfine markings andbarringlessprominentthanB.bubo, mesoptilebarredabove/slightlyupperbreast/weak tufts. ReuseASC-HAJWAL2015-953 previouslyviewedyoung only to preservechosenstage, notnewreadclaim.
+Actualv1viewtoday: adults have connected black verticalshaftstreaks continuing into conspicuous dark abdominalcrossbars, overstateslowerbelly vs sources. Editonlybothadultlowerbreast/belly/flanks to palersandy withmuchfiner/thinnerrufouscrossbarring, breaklongblackverticalextensions belowupperbreast. Retainupperbreastdropmarks, feet/near-equalheightfemalevolume/youngwings+supportedpose/title/desert. No numericsexratioclaim/sciencefalse. Newexternal1/reusedexisting2IDs (Mikkola+youngphoto). Existingbookworknotduplicated. Timingstart12:36:43Z, researchreadyatstagecommit.
+Actualeditedimageviewed: bothadultlowerbelly blackladderbars andverticalextensions replacedwiththinrufouscrossbarring onpalesandyfeathers, upperbreastdarkdropmarksretained. Youngfluffyshortwing/upwardopenbill/twofeetrocksupport, adulteyes/bills/feet/scale anddesertretainedvisually notpixelidenticalclaim. Fineplumage/sexratio/youngageunknownsciencefalse. Lesson: adultregionaldiagnostics needzonedupperbreastversusabdomen prompts, notglobalbarredowl. Ruleactuallyapplied/visuallyeffective notbiologicalvalidation. Revisionuniqueincrement0.
+[Original](../../design/concepts/87-bubo-ascalaphus-v2.png)
+[Run](../../production/runs/2026-10-15T2034+0800-cycle-1.md)
+
+
+## 87-bubo-ascalaphus-v3 — c.40-day juvenile calibration
+
+Accessed 2026-10-29. Action: SCIENCE_REVISION; v1–v2 preserved; unique-species increment 0; science false.
+
+### New primary sources
+
+- `ASC-ALSHEIKHLY2012-40D`: Al-Sheikhly 2012, Sandgrouse 34:72–74; printed p.72/PDF p.1 text and Plate 1 plus printed p.74/PDF p.3 Plate 3/4 actually read/viewed. The c.40-day juvenile is described as creamy-sandy, distinct-faced, with yellow iris, pale newly developed flight feathers, developing breast marks, pale legs and medium dark claws; exact flight ability and sex are not reported. Wild origin: hole in a moderately elevated cliff in rocky arid wadi. Separate Plate 3 birds are only labeled full-sized but young.
+- `ASC-MOLDOVAN-SANDOR2009`: Moldován & Sándor 2009, Sandgrouse 31:73–78; printed pp.74–76/PDF pp.2–4 actually read/viewed. Primary dated nest series separates downy young, 30–33-day nestling, estimated 52–55-day nestling and fully feathered/flying older young; nest is a sand scrape in a rock crevice. Used to keep stage, wing length and action coupled rather than to infer an exact c.40-day flight state.
+- `ASC-ISLAM2014-MAHAZAT`: Islam 2014, Phoenix 30(1):12 author-uploaded article metadata/complete abstract read. Six chicks called fledglings were under a large rock with an adult nearby; no precise age/plumage/flight detail, so it supports environment/support only.
+
+### Reused sources and taxonomic mapping
+
+Reused `ASC-MIK2013-272`, `ASC-ALSHEIKHLY2020`, `ASC-ALMASAEED2024` and `ASC-HAJWAL2015-953`. Current *Bubo ascalaphus* maps to historical *Bubo bubo ascalaphus* without a second species count. Adult boundaries remain: short tufts; tawny dark-rimmed disc; yellow–orange eye; black bill; feathered feet; upper-breast dark drop marks; lower belly fine/sparse rufous barring. Female average mass difference is not converted into a fixed height ratio.
+
+### Problem → evidence → change → planned recheck
+
+- **Problem:** v2 retained an age-unknown fluffy juvenile and could not make a stage-specific wing/action claim; exact age/flightability remained unknown.
+- **Evidence:** the 2012 primary paper provides a c.40-day bird’s plumage and developing-flight-feather description, while the 2009 primary series shows that downy, partly feathered and fully feathered/flying stages must not be conflated.
+- **Change:** v3 explicitly selects the c.40-day stage, uses short pale newly developed remiges and incomplete breast markings, and forbids a flight claim; two-foot broad-rock support remains.
+- **Planned recheck:** adult upper-breast versus lower-belly zoning, juvenile remex length/paleness, incomplete breast marks, two-foot support, near-equal adult height, orange/yellow eye and rock-crevice desert setting. Any unresolved fine juvenile feather sequence remains unknown; science stays false.
+
+### Complete imagegen prompt
+
+```text
+Create one landscape 3:2 scientific character-concept plate in the already established owl-pet style: refined natural-history gouache/digital painting, warm desert light, muted ochre/sand/umber palette, clean readable silhouettes, biologically plausible feet and support, no photorealistic collage, no fantasy styling. Title: “PHARAOH EAGLE-OWL”; subtitle: “Bubo ascalaphus”. Three separate full-body individuals, left to right, each clearly labeled below: “ADULT MALE”, “c.40-DAY JUVENILE”, “ADULT FEMALE”. Keep all birds entirely inside frame with generous margins; no overlapping bodies.
+
+Adults: both unmistakably Pharaoh Eagle-Owls, same species and nearly equal standing height; female only modestly fuller/deeper-bodied, not a fixed exaggerated height ratio. Sandy tawny to warm rufous upperparts with irregular dark mottling; rounded tawny facial disc with a fine dark rim; yellow-orange to deep orange irises; short pointed ear tufts noticeably shorter than Eurasian Eagle-Owl; black bill; fully feathered tarsi and toes. Concentrate dark drop-shaped shaft streaks on upper breast. Below that, pale sandy-rufous abdomen and flanks carry fine thin rufous crossbars and sparse pencil marks only—do not continue bold black ladder bars or long vertical black streaks down the belly. Natural alert perches, closed wings, both feet visibly and anatomically gripping broad stable rock ledges.
+
+Middle juvenile: documented approximately 40-day stage, not a newborn and not a miniature adult. Creamy-sandy juvenile plumage with a distinct but still soft facial disc; yellow iris, dark bill; weak or barely emerging tufts; breast markings visibly incomplete/developing. Short, very pale newly developed flight feathers: functional-looking developing feather shafts but clearly shorter/paler and softer than adult closed wings, no long dark adult remiges, no mature tail. Pale feathered legs, medium dark claws, both feet planted on one broad low sandstone ledge; slightly crouched, balanced, wings tucked, beak closed; no flying, no prey, no begging exaggeration. Juvenile can be somewhat smaller than adults but must look like an older growing owl, not a tiny hatchling.
+
+Environment: coherent arid rocky wadi/cliff-crevice setting with sandy scrape, layered sandstone and sparse low desert shrubs; no tree cavity, no woven nest, no lush woodland. Keep habitat secondary and leave a pale clean lower band for accurate labels. Avoid eggs, cages, markets and dead prey. Accurate text only; no extra birds, captions, watermarks or logos.
+```
+
+[Source index](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/20261029T1426+0800-cycle-3.md)
+
+
+### v3 actual review and iteration result
+
+Actually viewed the edited 1536×1024 full plate, a 560×650 juvenile crop and a paired 920×650 adult belly/feet crop. First render failed the stage boundary because the c.40-day juvenile had long, dark, adult-like remiges. One juvenile-only edit replaced them with shorter, very pale, softer developing feathers while preserving the older juvenile body, incomplete breast marks, closed beak and two-foot rock support. Recheck: adult short tufts/orange eyes/black bills/feathered feet pass at concept level; adults are near equal height with female only modestly fuller; upper-breast dark drops and lower-belly thin rufous crossbars are visibly zoned; juvenile and adults all have natural rock support; labels and desert-wadi context are correct. Exact feather count, juvenile sex/flightability, numeric sexual size difference and regional fine plumage remain unknown; scientific verification false.
+
+Rule status: **discovered and actually applied once; visually effective, not biologically validated as a universal rule.** When a prompt must show a partly developed juvenile wing, specify both a relative comparison and a visible endpoint (“shorter/paler than adults; ending mid-body”), then open a juvenile crop. Negative phrases alone are insufficient.

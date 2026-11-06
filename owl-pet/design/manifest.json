@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T19:55:10+08:00",
+  "updated": "2026-11-06",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25047,7 +25047,72 @@
       "verified_at": "2026-11-06T21:01:33.153+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable readback returned 3,494 non-truncated entries; 16 required paths and 6 exact image tuples passed; manifests 738/739/729; concept blob matched. Science false."
+    },
+    {
+      "id": "127-megascops-albogularis-v4",
+      "path": "design/concepts/127-megascops-albogularis-v4.png",
+      "species_id": 127,
+      "scientific_name": "Megascops albogularis",
+      "historical_names": [
+        "Syrnium albo-gularis",
+        "Syrnium albogularis",
+        "Otus albogularis"
+      ],
+      "common_name": "White-throated Screech-Owl",
+      "scope": "species-level Andean montane concept; regional juvenile evidence from Sibundoy/Piura with conflict retained",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "WTSO-SIBUNDOY-2013-P142",
+        "WTSO-PERUAVES-PHOTOS2019",
+        "WTSO-ITIS-686679-2026",
+        "WTSO-NCBI714938-MAPPING",
+        "WTSO-MACAULAY-1980",
+        "WTSO-MIK2013-249"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/127-megascops-albogularis-v4.md",
+      "review_record": "research/reviews/127-megascops-albogularis-v4-review.md",
+      "run_record": "production/runs/20261106T210254+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2611864,
+      "sha256": "b2fbfcb318686b6a9e40036a22fa8105cbd53bfc6bddccc9f2eba573d7211464",
+      "git_blob": "85d50e80c0ede5b619d08417b22c691a4eb8b5f5",
+      "generated_path": "production/generated/127-megascops-albogularis-v4-generated-master.png",
+      "generated_blob": "62faa09e52460021cb4e152fd573fa16648fcd35",
+      "generated_sha256": "71e8e8ff2f3b85bf8cba1084ad87ac24c71e09f542c63f292412277944a1cf8e",
+      "generated_size_bytes": 2920084,
+      "edit_path": "production/edits/127-megascops-albogularis-v4-edit1.png",
+      "edit_blob": "85d50e80c0ede5b619d08417b22c691a4eb8b5f5",
+      "reviewed_path": "production/reviewed/127-megascops-albogularis-v4-reviewed-master.png",
+      "reviewed_blob": "85d50e80c0ede5b619d08417b22c691a4eb8b5f5",
+      "juvenile_review_crop": "production/review-crops/127-megascops-albogularis-v4-juvenile.png",
+      "juvenile_review_blob": "2f9967c635876db441977ccd2ee15b9e3c95c744",
+      "juvenile_review_size_bytes": 752718,
+      "juvenile_review_sha256": "2f97c422646ff91c0c467774f6398f799ecdf5188dfdfad22597dafb03171c8f",
+      "adults_review_crop": "production/review-crops/127-megascops-albogularis-v4-adults-support.png",
+      "adults_review_blob": "f2c130c6ae33b1a9eef2dc3bc1dec5b5cfe377d6",
+      "adults_review_size_bytes": 1774776,
+      "adults_review_sha256": "df3a43b842341ddb39a76a8852f92f2289e5469f8d50eed4d9b06f71a545c03a",
+      "reviewed_at": "2026-11-06T21:20:07.354+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. One targeted juvenile-wing edit removed long exposed adult-like remiges while retaining down-dominant supported posture. Exact age, iris/down/remige chronology, first flight, sex ratio and universal regional pattern remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T19:55:10+08:00"
+  "updated_at": "2026-11-06T21:20:07.354+08:00"
 }

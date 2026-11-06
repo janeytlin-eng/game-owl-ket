@@ -3245,3 +3245,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/124-ketupa-philippensis-v4.png) · [Research](../research/species/124-ketupa-philippensis-v4.md) · [Review](../research/reviews/124-ketupa-philippensis-v4-review.md) · [Run](../production/runs/20261106T205254+0800-cycle-4.md)
 - V4 preserves v1-v3 and the nominate Luzon boundary. One juvenile-wing edit passed full/crop review. `PASS_WITH_LIMITATIONS`; science false; unique 176/251; readback pending.
+
+
+## #127 White-throated Screech-Owl — *Megascops albogularis* — v4
+
+- [Concept](concepts/127-megascops-albogularis-v4.png) · [Research](../research/species/127-megascops-albogularis-v4.md) · [Review](../research/reviews/127-megascops-albogularis-v4-review.md) · [Run](../production/runs/20261106T210254+0800-cycle-5.md)
+- V4 preserves v1-v3, uses directly read Andean adult/juvenile evidence and current/old-name mapping. One juvenile-wing edit removed long adult-like remiges; full/crop review passed. PASS_WITH_LIMITATIONS; science false; unique 176/251; immutable readback pending.

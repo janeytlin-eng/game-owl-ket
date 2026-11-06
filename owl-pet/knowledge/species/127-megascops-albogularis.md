@@ -4,3 +4,8 @@ SourcesWTSO-PERUAVES-PHOTOS2019 /WTSO-NCBI714938-MAPPING /WTSO-MIK2013-249 inres
 Designfieldphotojuvenilebufffluff/diffusebars/darkorbitalface/graybill/formedbarredwings; mostlydarkpupilwithsmallmutedirisnotblackirisassertion. Supportedmontaneforestperchnotnest/flightclaim. Adults duskybrown/ambereyes/whiteovalsthroat/rufousbarredbelly/longbarredtails. Actualeditremovedadultprojectinghorns andcenterdisplaynear-equalized; notbiologyratio. Allfeetgrips/labels/legitimatejuvenilewingschecked. Sciencefalse; no userapprovaltransfer.
 Lessonnewbookaccessafterfirstdraftcanfindspeciesfeatureerror; actualapplicationandvisualreviewverifiedonly, no universalmodelcorrectionclaim. Prior#125/#126bookretrospectivefactsretained inindex, #126displaystillpriorityrevision.
 Fullprompts/stages ../../production/runs/2026-10-18T0857+0800-cycle-6.md .
+
+
+## v4 — 2026-11-06
+
+Preserves v1-v3. Directly read Sibundoy printed p.142 and Peru Aves adult/Piura juvenile records; ITIS maps current Megascops albogularis to old Syrnium albogularis and Otus albogularis. Adults are shown near-equal because no quantified sex ratio was found. Selected an older age-unknown buff-white finely barred juvenile with stationary bilateral support; no flight or nest claim. Generated wing was too long/adult-layered, so one edit shortened and down-obscured it; full and crop reinspection passed. Exact age, iris/down/remige chronology, first flight, sex-size direction and universal regional juvenile pattern remain unknown. PASS_WITH_LIMITATIONS; science false. Research: ../../research/species/127-megascops-albogularis-v4.md; review: ../../research/reviews/127-megascops-albogularis-v4-review.md; run: ../../production/runs/20261106T210254+0800-cycle-5.md.

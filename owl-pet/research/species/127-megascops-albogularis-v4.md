@@ -47,3 +47,8 @@ Create a polished 1536×1024 horizontal scientific concept plate in the establis
 - Problem → evidence → modification → recheck: the generated juvenile had a long exposed regular barred wing inconsistent with the selected down-dominant age-unknown boundary → edited only that wing to a compact rounded patch largely buried under down → reopened full image and juvenile/adult-support crops; wing now ends above the feet and does not imply mature remiges.
 - Adult identity, neutral sex scale, exact text/count, six-foot support and humid Andean setting remained intact.
 - Result: PASS_WITH_LIMITATIONS; no scientific verification claimed.
+
+## ARCHIVED — 2026-11-06T21:20:07.354+08:00
+
+- Concept: `owl-pet/design/concepts/127-megascops-albogularis-v4.png`; reviewed bytes 2,611,864; SHA-256 `b2fbfcb318686b6a9e40036a22fa8105cbd53bfc6bddccc9f2eba573d7211464`.
+- v1-v3 preserved. This is one revision, no unique-species increment. Immutable readback is still pending; science remains false.

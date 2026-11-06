@@ -25066,8 +25066,8 @@
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T210254+0800-cycle-5",
-        "heartbeat_at": "2026-11-06T21:16:50.017+08:00",
-        "expires_at": "2026-11-06T21:31:50.017+08:00",
+        "heartbeat_at": "2026-11-06T21:20:07.354+08:00",
+        "expires_at": "2026-11-06T21:35:07.354+08:00",
         "batch_id": "20261106T193155+0800",
         "cycle": 5
       },
@@ -25078,15 +25078,15 @@
         "species": "Megascops albogularis",
         "action": "SCIENCE_REVISION",
         "version": 4,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261106T210254+0800-cycle-5.md",
         "started_at": "2026-11-06T21:02:54.645+08:00",
         "research_record": "owl-pet/research/species/127-megascops-albogularis-v4.md",
-        "updated_at": "2026-11-06T21:16:50.017+08:00"
+        "updated_at": "2026-11-06T21:20:07.354+08:00"
       },
       "started_at": "2026-11-06T19:31:55+08:00",
       "last_verified_commit": "0d9f0ec18399e8129b4ae190e4a33a7ffb75d4ee",
-      "updated_at": "2026-11-06T21:16:50.017+08:00",
+      "updated_at": "2026-11-06T21:20:07.354+08:00",
       "stage_events": [
         {
           "cycle": 2,
@@ -25333,6 +25333,24 @@
           "reviewed_size_bytes": 2611864,
           "full_and_crops_opened": true,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-06T21:20:07.354+08:00",
+          "species_id": 127,
+          "species": "Megascops albogularis",
+          "concept_path": "owl-pet/design/concepts/127-megascops-albogularis-v4.png",
+          "concept_blob": "85d50e80c0ede5b619d08417b22c691a4eb8b5f5",
+          "manifest_counts": {
+            "design_image": 739,
+            "design_legacy": 740,
+            "production": 730
+          },
+          "unique_species_count": 176,
+          "total_scope": 251,
+          "readback_pending": true,
+          "scientifically_verified": false
         }
       ]
     }
@@ -25340,8 +25358,8 @@
   "lease": {
     "owner": "codex-20261106-owl-production",
     "run_id": "20261106T210254+0800-cycle-5",
-    "heartbeat_at": "2026-11-06T21:16:50.017+08:00",
-    "expires_at": "2026-11-06T21:31:50.017+08:00",
+    "heartbeat_at": "2026-11-06T21:20:07.354+08:00",
+    "expires_at": "2026-11-06T21:35:07.354+08:00",
     "batch_id": "20261106T193155+0800",
     "cycle": 5
   },
@@ -25477,7 +25495,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-06T21:16:50.017+08:00",
+  "updated_at": "2026-11-06T21:20:07.354+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -25489,12 +25507,12 @@
   "active_lease": {
     "owner": "codex-20261106-owl-production",
     "run_id": "20261106T210254+0800-cycle-5",
-    "heartbeat_at": "2026-11-06T21:16:50.017+08:00",
-    "expires_at": "2026-11-06T21:31:50.017+08:00",
+    "heartbeat_at": "2026-11-06T21:20:07.354+08:00",
+    "expires_at": "2026-11-06T21:35:07.354+08:00",
     "batch_id": "20261106T193155+0800",
     "cycle": 5
   },
-  "last_updated_at": "2026-11-06T21:16:50.017+08:00",
+  "last_updated_at": "2026-11-06T21:20:07.354+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -26297,11 +26315,11 @@
     "species": "Megascops albogularis",
     "action": "SCIENCE_REVISION",
     "version": 4,
-    "stage": "REVIEWED",
+    "stage": "ARCHIVED",
     "run_record": "owl-pet/production/runs/20261106T210254+0800-cycle-5.md",
     "started_at": "2026-11-06T21:02:54.645+08:00",
     "research_record": "owl-pet/research/species/127-megascops-albogularis-v4.md",
-    "updated_at": "2026-11-06T21:16:50.017+08:00"
+    "updated_at": "2026-11-06T21:20:07.354+08:00"
   },
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
@@ -27597,7 +27615,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-06T21:16:50.017+08:00",
+  "last_updated": "2026-11-06T21:20:07.354+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -30237,7 +30255,7 @@
   ],
   "active_batch_id": "20261106T193155+0800",
   "active_cycle": 5,
-  "current_stage": "REVIEWED",
+  "current_stage": "ARCHIVED",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
@@ -36227,6 +36245,38 @@
         ],
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-06T21:31:50.017+08:00"
+      }
+    },
+    {
+      "batch_id": "20261106T193155+0800",
+      "cycle": 5,
+      "stage": "ARCHIVED",
+      "at": "2026-11-06T21:20:07.354+08:00",
+      "run_id": "20261106T210254+0800-cycle-5",
+      "species_id": 127,
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/127-megascops-albogularis-v4.png",
+        "concept_blob": "85d50e80c0ede5b619d08417b22c691a4eb8b5f5",
+        "generated": "owl-pet/production/generated/127-megascops-albogularis-v4-generated-master.png",
+        "edited": "owl-pet/production/edits/127-megascops-albogularis-v4-edit1.png",
+        "reviewed": "owl-pet/production/reviewed/127-megascops-albogularis-v4-reviewed-master.png",
+        "review_crops": [
+          "owl-pet/production/review-crops/127-megascops-albogularis-v4-juvenile.png",
+          "owl-pet/production/review-crops/127-megascops-albogularis-v4-adults-support.png"
+        ],
+        "manifest_counts": {
+          "design_image": 739,
+          "design_legacy": 740,
+          "production": 730
+        },
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-06T21:35:07.354+08:00"
       }
     }
   ],

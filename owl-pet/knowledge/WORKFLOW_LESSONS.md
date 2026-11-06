@@ -1,3 +1,10 @@
+## 2026-11-07 — #143 *Asio solomonensis* v3 validated application
+
+- **Observed failure:** “emerging barred wing feathers” was expanded by the generator into a long, hard, adult-layered wing.
+- **Evidence boundary:** Loyn & Debus (2000), printed pp. 288–289 and Plate 79, supports long unbarred down plus emerging barred dorsal/wing feathers in one age/sex/flight-unknown rescued juvenile; it does not establish adult-length exposed remiges.
+- **Applied change:** constrain the juvenile wing to one short, compact, down-veiled barred patch ending well above the feet, then inspect a dedicated juvenile crop.
+- **Validation:** one targeted edit removed the adult-length wing while retaining the documented mask, eye/cere/bill/foot colors and supported perching. This rule is validated for #143 v3 only and remains a review guardrail, not a universal owl-development claim.
+
 ## 2026-11-06 — #130 *Megascops koepckeae* v4 validated application
 
 - **Observed failure:** a species can retain a compact formed fledgling wing while the prompt still over-organizes adult and juvenile wing surfaces into repeated pale tiles.

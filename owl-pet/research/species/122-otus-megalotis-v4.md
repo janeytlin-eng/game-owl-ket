@@ -56,3 +56,10 @@ Do not import Everett’s or Negros Scops-Owl traits; no newborn chick; no unifo
 3. Juvenile: rust-brown fuzzy body, reduced tufts, compact irregular formed wing ending high above feet, no repeated adult covert rows, tail short/concealed.
 4. All birds have continuous natural branch support; no nest/cavity or unsupported action.
 5. Unknowns remain explicit; cannot mark `scientifically_verified=true`.
+
+## Actual generation, edit and review
+
+- Initial 1536×1024 master was opened. Text/count/adults/support passed, but the juvenile carried a long fully exposed orderly flight panel; this was rejected.
+- One juvenile-wing edit replaced it with a compact rounded, irregular plain-brown remige cluster under down, ending well above the feet; tail stayed concealed and both feet retained branch contact.
+- The edited full plate, 620×720 juvenile crop and 1536×710 adults/support crop were opened. Exact text/count, adult identity, near-equal scale, six supports, habitat and corrected juvenile wing passed.
+- Result: `PASS_WITH_LIMITATIONS`; edit count 1; `scientifically_verified=false`. Remaining unknowns are unchanged.

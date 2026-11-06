@@ -25036,8 +25036,8 @@
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T204018+0800-cycle-3",
-        "heartbeat_at": "2026-11-06T20:44:36.629+08:00",
-        "expires_at": "2026-11-06T20:59:36.629+08:00",
+        "heartbeat_at": "2026-11-06T20:48:58.635+08:00",
+        "expires_at": "2026-11-06T21:03:58.635+08:00",
         "batch_id": "20261106T193155+0800",
         "cycle": 3
       },
@@ -25048,7 +25048,7 @@
         "species": "Otus megalotis",
         "action": "SCIENCE_REVISION",
         "version": 4,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261106T204018+0800-cycle-3.md",
         "started_at": "2026-11-06T20:40:18.156+08:00",
         "research_record": "owl-pet/research/species/122-otus-megalotis-v4.md",
@@ -25068,11 +25068,18 @@
         "generated_path": "owl-pet/production/generated/122-otus-megalotis-v4-generated-master.png",
         "generated_sha256": "7aaabbf60943f40e89ad84dbc730e88acc27c230c36e6074efa1fee74709eaa5",
         "generated_size_bytes": 2900411,
-        "first_inspection_issue": "Juvenile folded wing is too long, fully exposed and regularly layered for the selected age-unknown down-rich brancher; targeted edit required."
+        "first_inspection_issue": "Juvenile folded wing is too long, fully exposed and regularly layered for the selected age-unknown down-rich brancher; targeted edit required.",
+        "edit_count": 1,
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "reviewed_path": "owl-pet/production/reviewed/122-otus-megalotis-v4-reviewed-master.png",
+        "reviewed_sha256": "9f1136f85586a0c4dee5c13bc389c4fdddb267c104d5ed3f46e6fe7644d9c045",
+        "reviewed_size_bytes": 2555151,
+        "review_record": "owl-pet/research/reviews/122-otus-megalotis-v4-review.md",
+        "scientifically_verified": false
       },
       "started_at": "2026-11-06T19:31:55+08:00",
       "last_verified_commit": "9c011359b9fe57e02b7ba13d8ac6a51c31b04e64",
-      "updated_at": "2026-11-06T20:44:36.629+08:00",
+      "updated_at": "2026-11-06T20:48:58.635+08:00",
       "stage_events": [
         {
           "cycle": 2,
@@ -25134,6 +25141,20 @@
           "dimensions": "1536x1024",
           "generation_wait_seconds": 104,
           "edit_required": true
+        },
+        {
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-06T20:48:58.635+08:00",
+          "species_id": 122,
+          "species": "Otus megalotis",
+          "edit_count": 1,
+          "result": "PASS_WITH_LIMITATIONS",
+          "reviewed_sha256": "9f1136f85586a0c4dee5c13bc389c4fdddb267c104d5ed3f46e6fe7644d9c045",
+          "reviewed_size_bytes": 2555151,
+          "edit_wait_seconds": 154,
+          "full_and_crops_opened": true,
+          "scientifically_verified": false
         }
       ]
     }
@@ -25141,8 +25162,8 @@
   "lease": {
     "owner": "codex-20261106-owl-production",
     "run_id": "20261106T204018+0800-cycle-3",
-    "heartbeat_at": "2026-11-06T20:44:36.629+08:00",
-    "expires_at": "2026-11-06T20:59:36.629+08:00",
+    "heartbeat_at": "2026-11-06T20:48:58.635+08:00",
+    "expires_at": "2026-11-06T21:03:58.635+08:00",
     "batch_id": "20261106T193155+0800",
     "cycle": 3
   },
@@ -25278,7 +25299,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-06T20:44:36.629+08:00",
+  "updated_at": "2026-11-06T20:48:58.635+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -26098,7 +26119,7 @@
     "species": "Otus megalotis",
     "action": "SCIENCE_REVISION",
     "version": 4,
-    "stage": "IMAGE_GENERATED",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261106T204018+0800-cycle-3.md",
     "started_at": "2026-11-06T20:40:18.156+08:00",
     "research_record": "owl-pet/research/species/122-otus-megalotis-v4.md",
@@ -26118,7 +26139,14 @@
     "generated_path": "owl-pet/production/generated/122-otus-megalotis-v4-generated-master.png",
     "generated_sha256": "7aaabbf60943f40e89ad84dbc730e88acc27c230c36e6074efa1fee74709eaa5",
     "generated_size_bytes": 2900411,
-    "first_inspection_issue": "Juvenile folded wing is too long, fully exposed and regularly layered for the selected age-unknown down-rich brancher; targeted edit required."
+    "first_inspection_issue": "Juvenile folded wing is too long, fully exposed and regularly layered for the selected age-unknown down-rich brancher; targeted edit required.",
+    "edit_count": 1,
+    "review_result": "PASS_WITH_LIMITATIONS",
+    "reviewed_path": "owl-pet/production/reviewed/122-otus-megalotis-v4-reviewed-master.png",
+    "reviewed_sha256": "9f1136f85586a0c4dee5c13bc389c4fdddb267c104d5ed3f46e6fe7644d9c045",
+    "reviewed_size_bytes": 2555151,
+    "review_record": "owl-pet/research/reviews/122-otus-megalotis-v4-review.md",
+    "scientifically_verified": false
   },
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",

@@ -95,3 +95,10 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 - Adult visual boundary reuses the secondary barred/short-tailed/heavy-tarsus synthesis, but type records do not justify sex direction or juvenile traits.
 - Adults therefore remain near equal. Juvenile is AGE UNKNOWN, closed-eyed, supported, with mature wing/tail topology suppressed.
 - Full prompt: `production/PROMPTS_FULL.md`; research: `research/species/150-ninox-variegata-v3.md`.
+
+
+## #150 v3 visual review
+
+- Full 1536×1024 plate plus juvenile and adults/support crops were viewed. Adult barred identity, near-equal scale, exact labels/count and all six support contacts passed.
+- Juvenile is AGE UNKNOWN, eyes closed, down-soft, short-winged/body-blended and tail-concealed. No edit required.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=0.

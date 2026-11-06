@@ -37,3 +37,10 @@ Older juvenile is age unknown and resting: smaller, eyes gently closed, two feet
 - Adults near equal; juvenile stage not a miniature fully feathered adult.
 - Juvenile: closed eyes, short mostly hidden unspotted wing, hidden tail, two-foot support, no flight claim.
 - No nest inference. Scientific verification remains false until sex-linked and developmental evidence exists.
+
+
+## Actual generation and review — 2026-11-07T06:08:42+08:00
+
+The 1536×1024 generated plate, a 540×700 juvenile crop and a 1460×780 adults/support crop were viewed. Title/name/count/labels are correct. Adults are near equal, earless and compact, with dark faces, restrained amber-yellow irides, barred scapulars and broad irregular underpart bars; all four adult feet grip the branch. The age-unknown juvenile has closed eyes, down-soft brown/rufous texture, a short body-blended wing without crisp pale rows, concealed tail and two supported feet. No nest or flight claim appears. No edit was required. Result PASS_WITH_LIMITATIONS; sex direction, exact juvenile age, iris chronology, feather sequence and flight threshold remain unknown.
+
+Binary evidence: generated/reviewed master 2,777,983 bytes, SHA-256 `36cfd20f763fc9642d3240a8b5e0981820566ba79f295948865edcca99cbe54e`, blob `46340abae8f32b7a509e15e9413a0e8beaf083f9`; juvenile crop 643,574 bytes, SHA-256 `a95370187f81d405f405395c2ba0be0eeb8493be6046e0341191624158360f4f`, blob `cdf0801163f570f96b17c083608ed7d188b6fb98`; adults/support crop 1,965,413 bytes, SHA-256 `c491395888bbc63da41ad8264787e107511970386073309fbc54abc30046f25e`, blob `370fc72300b441e065b561ca970a6c1c9de25068`.

@@ -24784,7 +24784,63 @@
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive commit 8644c483 resolved all 15 required paths in a non-truncated 3,436-entry recursive tree. Six image path/blob/byte tuples matched: concept/edit/reviewed resolve to 76203bc0… (3,216,478 bytes), original generation to e85c1781… (3,392,418 bytes), and both crop blobs/bytes match. Archive manifest snapshots parsed at 732/733/723 and ended with #134 v4. Science remains false.",
       "timestamp_correction": "Stage times normalized to immutable GitHub commit timestamps; earlier projected minute labels superseded."
+    },
+    {
+      "id": "56-bubo-virginianus-v2",
+      "path": "design/concepts/56-bubo-virginianus-v2.png",
+      "species_id": 56,
+      "scientific_name": "Bubo virginianus",
+      "historical_names": [
+        "Strix virginiana J. F. Gmelin, 1788"
+      ],
+      "common_name": "Great Horned Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "GHO-HOFFMEISTER-SETZER-1947",
+        "GHO-MCGILLIVRAY-1989",
+        "GHO-CORNELL-CAM-2022",
+        "GHO-ITIS-177884"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/56-bubo-virginianus-v2.md",
+      "review_record": "research/reviews/56-bubo-virginianus-v2-review.md",
+      "run_record": "production/runs/20261106T182939+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3548324,
+      "sha256": "4824ef0396692189fb8c0814cd2f73b0d5483752274518918ca4465fb63d35fc",
+      "git_blob": "8f285aa60c1e7a4806eac7603c4593f9b05476b8",
+      "generated_path": "production/generated/56-bubo-virginianus-v2-generated-master.png",
+      "generated_blob": "8f285aa60c1e7a4806eac7603c4593f9b05476b8",
+      "generated_sha256": "4824ef0396692189fb8c0814cd2f73b0d5483752274518918ca4465fb63d35fc",
+      "generated_size_bytes": 3548324,
+      "reviewed_path": "production/reviewed/56-bubo-virginianus-v2-reviewed-master.png",
+      "reviewed_blob": "8f285aa60c1e7a4806eac7603c4593f9b05476b8",
+      "juvenile_review_crop": "production/review-crops/56-bubo-virginianus-v2-juvenile-brancher.png",
+      "juvenile_review_blob": "a4d9c35fc37a08890f10916dc9a58eeb36df2756",
+      "juvenile_review_size_bytes": 783013,
+      "juvenile_review_sha256": "5bb5d53074358bef154cf56b6ae4e9da490a2ed23e57cb4e4b44bea14aff0945",
+      "adults_review_crop": "production/review-crops/56-bubo-virginianus-v2-adults-feet.png",
+      "adults_review_blob": "e994cfc5d61106e7648d034a294dd669c4ecc394",
+      "adults_review_size_bytes": 1496428,
+      "adults_review_sha256": "ff37f7d78023d56976e9f9ed703b54f9a11c25b7d80876687c66920f204f5d1a",
+      "reviewed_at": "2026-11-06T18:33:41+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V2 preserves v1 and repairs #56's absence from all current manifests. Primary postnatal evidence corrects v1's tiny-wing overcorrection: the c.44–46-day brancher retains down but has substantial irregularly layered flight feathers, short tail and two-foot branch support. Female is moderately fuller/slightly taller per species-level reverse size dimorphism, not a universal owl rule. Exact individual age/sex/flight, continuous feather sequence, subspecies colour and pair ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T18:27:10+08:00"
+  "updated_at": "2026-11-06T18:34:51+08:00"
 }

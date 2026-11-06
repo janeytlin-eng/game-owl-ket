@@ -32,3 +32,10 @@
 - Result: `PASS_WITH_LIMITATIONS`; science false. Unknown: exact age/iris/flight/continuous sequence, quantitative sex-size ratio and universal nest.
 - Files: `design/concepts/145-ninox-philippensis-v3.png`; `research/species/145-ninox-philippensis-v3.md`; `research/reviews/145-ninox-philippensis-v3-review.md`.
 - Archive readback pending at this checkpoint; unique total remains 176/251; revision +1.
+
+## v3 immutable readback — 2026-11-07T04:54:00+08:00
+
+- Archive commit `a727778f577fb44e52eb57bfcc163f5c8c8dd146`; tree `14b3f922997be529ca69dc1f52c3728130c8578b`.
+- Fourteen required paths returned exact blob identities. Concept, generated and reviewed originals all equal Git blob `4b99914d3aaae28e5595a2d8cd84e5e75ff0cfcc`; local `git hash-object` matches the remote blob. Crops also match their expected blobs.
+- Large binary/text bodies were not returned by the connector, so verification is blob-identity/readability rather than a second byte-stream SHA-256 calculation; manifest blob identities and locally parsed counts 753/754/744 match the committed objects.
+- Result `PASS_WITH_LIMITATIONS`; ledger credit pending; science false.

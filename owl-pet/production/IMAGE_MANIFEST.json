@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T04:49:00+08:00",
+  "updated": "2026-11-07T04:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25795,7 +25795,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "LZBO-RASMUSSEN-2012-P13-14",
         "LZBO-ITIS-555484-2026",
@@ -25829,11 +25829,20 @@
       "adult_review_sha256": "8e8cf98b73c3f0a95d29058b9e3e3edc2670670cb199891ae4a4d23eff58f4c5",
       "batch_id": "20261107T043300+0800",
       "cycle": 1,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T04:49:00+08:00",
-      "archive_commit_pending": true,
-      "evidence_limit": "Mikkola p.473 fledgling facts reused from repository because upload was inaccessible; exact age, iris, flight, sequence, quantitative dimorphism and universal nest remain unknown."
+      "archive_commit_pending": false,
+      "evidence_limit": "Mikkola p.473 fledgling facts reused from repository because upload was inaccessible; exact age, iris, flight, sequence, quantitative dimorphism and universal nest remain unknown.",
+      "exact_readback": true,
+      "archive_commit": "a727778f577fb44e52eb57bfcc163f5c8c8dd146",
+      "archive_tree": "14b3f922997be529ca69dc1f52c3728130c8578b",
+      "required_paths_verified": 14,
+      "exact_binary_paths_verified": 5,
+      "recursive_tree_listing_available": false,
+      "binary_content_fetch_available": false,
+      "verified_at": "2026-11-07T04:54:00+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T04:49:00+08:00"
+  "updated_at": "2026-11-07T04:54:00+08:00"
 }

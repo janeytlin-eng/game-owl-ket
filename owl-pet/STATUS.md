@@ -3672,3 +3672,9 @@ Verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` read back after archive 
 - Three newly indexed sources actually read plus one repository Mikkola record reused; uploaded guide inaccessible in this execution.
 - One targeted edit shortened/softened the fledgling wing and removed repeated adult-like white marks. Whole plate and two crops reopened; `PASS_WITH_LIMITATIONS`; science false.
 - Manifests prepared at 753/754/744. Immutable readback and cycle credit pending.
+
+
+### #145 v3 VERIFIED — ledger credit pending
+
+- Archive `a727778f577fb44e52eb57bfcc163f5c8c8dd146`, tree `14b3f922997be529ca69dc1f52c3728130c8578b`; 14 required paths and five exact binary path/blob tuples passed. Original concept/generated/reviewed image is Git blob `4b99914d3aaae28e5595a2d8cd84e5e75ff0cfcc`, 2,344,448 bytes locally, SHA-256 `8e7ebfce5ac6e27c6ea1a8e447bb4c1f581468cac913504f2efff5609b4469ff`.
+- Connector did not return large bodies or a recursive tree listing; exact Git blob identities plus immutable-path fetches were used. Manifest counts 753/754/744; unique remains 176/251; science false; ledger credit pending.

@@ -2297,3 +2297,16 @@
 - **Type / scope:** community observation/photograph; possible Peñablanca juvenile.
 - **Status:** original page read, but species/age are community assertions without expert determination; **not verified evidence**.
 - **Use:** retained as a research lead only; does not support anatomy, age, iris or flight claims.
+
+
+## 2026-11-06 — #126 *Strix hadorami* v3 — taxon and c35-day fledgling boundary
+
+### DESO-KIRWAN-2015 — newly indexed primary taxonomic description
+- Guy M. Kirwan, Manuel Schweizer & José Luis Copete, 2015, “Multiple lines of evidence confirm that Hume's Owl *Strix butleri* … is two species, with description of an unnamed species,” *Zootaxa* 3904(1):28–50. DOI: https://doi.org/10.11646/zootaxa.3904.1.2 ; author PDF: https://nnhc.huji.ac.il/sites/default/files/nnhc/files/15-zootaxa-kirwan_schweizer_copete_compressed.pdf
+- Accessed 2026-11-06; primary taxonomy/museum study. Actually read pp.28, 36–41 and 43, Diagnosis, holotype, specimen and variation sections. Supports western *S. hadorami* boundary; pale grey-white disc; sandy-buff/cinnamon-grey mottling; light-rufous underpart cross-barring; no pronounced sex dimorphism, with females only slightly larger on average. It does not set a pair-specific display ratio or juvenile stage. High confidence for adult identity/taxonomy.
+- Mappings: *Strix hadorami*; historical western *Strix butleri*; adult morphology; sex scale. Applied to `research/species/126-strix-hadorami-v3.md` and v3 review.
+
+### DESO-BENDOV-2017 — newly indexed primary breeding/development study
+- Amir Ben Dov, Aviam Atar, Erez Baruchi, Kochav Levi & Nir Sapir, 2017, “Breeding biology of Desert Owl in Israel,” *Dutch Birding* 39:285–307. Full text: https://www.researchgate.net/publication/320517643_Breeding_Biology_of_Desert_Owl_in_Israel ; institutional record: https://cris.haifa.ac.il/en/publications/breeding-biology-of-desert-owl-in-israel/
+- Accessed 2026-11-06; primary field study. Actually read pp.285–289, 292–301, Table 4 and plate captions 392, 394–398, 406–421. Directly supports rock/nest-shelf fledglings, observed first flight at estimated c30 days, mobile c35-day fledglings and fresh breast feathers at c70–75 days. The authors explicitly say development evidence was limited and partly calibrated with Tawny Owl; age is estimated, exact hatch date/iris/feather map and continuous flight competence are not proven. High confidence for support/habitat and moderate for estimated stage.
+- Mappings: *Strix hadorami*; c35-day fledgling; rock ledge; residual down plus formed wing; behaviour/development. Applied to `research/species/126-strix-hadorami-v3.md` and v3 review.

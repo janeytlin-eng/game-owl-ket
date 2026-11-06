@@ -23082,7 +23082,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "EGO-DUNLOP2016",
         "EGO-MV-HLW6386-2026",
@@ -23116,8 +23116,53 @@
       "adults_review_size_bytes": 2040069,
       "adults_review_sha256": "e1ffe4e2eb173bb6f83bfb919945b3bc27a9f39c1722b90cb30184cd5f050ca0",
       "reviewed_at": "2026-11-06T12:12:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, expands the full original captive-development paper and adds one opened museum record. The approximately-55-day female is bounded to rich golden second down, partial pink face, compact down-concealed wing and tail with no day-57 interpolation or flight claim. Adults retain long partly bare legs; female is warmer and only modestly fuller. Full plate and two crops pass without edit. Wild timetable, exact wing/tail measures, first flight and population-wide dimorphism remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, expands the full original captive-development paper and adds one opened museum record. The approximately-55-day female is bounded to rich golden second down, partial pink face, compact down-concealed wing and tail with no day-57 interpolation or flight claim. Adults retain long partly bare legs; female is warmer and only modestly fuller. Full plate and two crops pass without edit. Wild timetable, exact wing/tail measures, first flight and population-wide dimorphism remain unknown; science false.",
+      "archive_commit": "62a8da26ce3f116455ebb04bb9e3c69a2e33ee03",
+      "archive_tree": "1561d57e0b752451ddae2612b0685cac5a6bf76a",
+      "verified_at": "2026-11-06T12:18:00.000+08:00",
+      "verification_result": "archive tree returned 3334 non-truncated entries; concept/generated/reviewed and two review crops matched exact path/blob/byte tuples; three manifest blobs matched exact committed SHAs with expected parsed counts 721/720/711",
+      "exact_readback": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "62a8da26ce3f116455ebb04bb9e3c69a2e33ee03",
+        "archive_tree": "1561d57e0b752451ddae2612b0685cac5a6bf76a",
+        "tree_entries": 3334,
+        "truncated": false,
+        "manifest_counts": {
+          "design": 721,
+          "legacy": 720,
+          "production": 711
+        },
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/103-tyto-longimembris-v5.png",
+            "blob": "19662506dd7ffe0c8459c65ebe334cc200870617",
+            "size_bytes": 3088740
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/103-tyto-longimembris-v5-generated-master.png",
+            "blob": "19662506dd7ffe0c8459c65ebe334cc200870617",
+            "size_bytes": 3088740
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/103-tyto-longimembris-v5-reviewed-master.png",
+            "blob": "19662506dd7ffe0c8459c65ebe334cc200870617",
+            "size_bytes": 3088740
+          },
+          "mesoptile_crop": {
+            "path": "owl-pet/production/review-crops/103-tyto-longimembris-v5-mesoptile.png",
+            "blob": "8c7ab22ad49b1c9ea394353a76cef67af82bd0ed",
+            "size_bytes": 687320
+          },
+          "adults_support_crop": {
+            "path": "owl-pet/production/review-crops/103-tyto-longimembris-v5-adults-support.png",
+            "blob": "80456072b4334992a582ee16806f8fb10bb31863",
+            "size_bytes": 2040069
+          }
+        },
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-11-06T11:57:00.000+08:00"

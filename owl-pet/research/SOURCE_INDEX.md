@@ -1,3 +1,21 @@
+## 2026-11-06 — #98 *Strix chacoensis* v5 — documented courtship pose and mesoptile boundary
+
+### CHAO-SMITH-ETAL-2024-P44-46
+- **Title / authors / year:** “Observation of attempted courtship feeding in the Chaco Owl *Strix chacoensis*” — Paul Smith, Julie Fisher, Robert Naumoff & Francisco Rojas, 2024.
+- **URL / DOI / pages / accessed:** https://ornitologia.org/mm/file/queoferim/divulgacio/publicacions/rco/05_Chaco%20Owl_online.pdf ; DOI 10.62102/2340-3764.2024.1.5; *Revista Catalana d'Ornitologia* 40:44–46; full PDF read 2026-11-06.
+- **Type / facts:** primary field note, Fortín Toledo, Paraguay. Male approached female with a frog while making ritualized head movements; no wing movements or vocalizations observed. First amphibian diet record; authors emphasize breeding behavior is almost undocumented.
+- **Limits / design use:** one encounter; supports a male three-quarter approach with frog only. Does not support nest geometry, chick interaction, display frequency or a species-wide rule.
+
+### CHAO-SIB-ARGENTINA-2026
+- **Institution / URL / accessed:** Sistema de Información de Biodiversidad, Administración de Parques Nacionales, Argentina; https://sib.gob.ar/especies/strix-chacoensis ; read 2026-11-06.
+- **Type / use:** institutional occurrence/reference index for Argentina and dry-Chaco context.
+- **Limits:** not a juvenile ageing or plumage-sequence study.
+
+### Reuse and corrected boundaries
+- Reused `CHAO-NBO-2013` for adult bare parts, proximal-toe feathering, tiny historical sex samples and the directly described fluffy pale gray-brown/buff-suffused mesoptile; reused `CHAO-FWS-TAXON-2026` for current/historical name mapping.
+- Corrected four boundaries: single courtship event ≠ universal display; frog prey ≠ chick feeding; tiny sex samples ≠ fixed female ratio; fluffy mesoptile ≠ known flight competence. New2 / reused2 / corrected4; science false.
+- Links: `research/species/98-strix-chacoensis-v5.md`; planned v5; run `production/runs/20261106T095100+0800-cycle-5.md`.
+
 
 
 ## 2026-11-06 — #96 *Aegolius ridgwayi* v5 — recent-fledgling / natural-cavity boundary

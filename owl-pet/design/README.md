@@ -3206,5 +3206,5 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 - Ledger credit 2026-11-06T06:12:00+08:00: #86 v4 verification commit `6d093d6631f14b68a89a3155281cf914b65f6aec`, tree `7891ad93ddcd9eee38b75fa4d780f09f60e77c05`; batch cumulative 3/6, next cycle 4, lease released. Science false.
 ## Latest concept: #107 *Strix fulvescens* v5
 
-`design/concepts/107-strix-fulvescens-v5.png` preserves v1–v4 and applies a source-led adult-iris correction. The full plate plus fledgling and adults/support crops passed after the edit engine’s broader re-render was explicitly re-audited. The young is a directly photographed fledgling of exact age/flight ability unknown; the branch is support, not a nest. `PASS_WITH_LIMITATIONS`; science false; immutable archive readback pending.
+`design/concepts/107-strix-fulvescens-v5.png` preserves v1–v4 and applies a source-led adult-iris correction. The full plate plus fledgling and adults/support crops passed after the edit engine’s broader re-render was explicitly re-audited. The young is a directly photographed fledgling of exact age/flight ability unknown; the branch is support, not a nest. `PASS_WITH_LIMITATIONS`; science false. Immutable archive `8f5991f374e65cbefa870124388491724a0a4597` / tree `7f82d3c3f32aa8f393cf7356b4c006de727dd822` returned 3,359 non-truncated entries and exact image/manifest tuples.
 

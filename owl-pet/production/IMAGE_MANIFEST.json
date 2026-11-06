@@ -23398,7 +23398,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "FVO-EISERMANN-AVENDANO-2018-P177-F20",
         "FVO-ITIS-555430-2026",
@@ -23432,9 +23432,54 @@
       "adults_review_size_bytes": 1686344,
       "adults_review_sha256": "3393b3895083bae91fbfb0e1fbdc8c01d5f866aaa1038e8eebdf36738eefcb44",
       "reviewed_at": "2026-11-06T12:50:30.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, adds the dated adult+fledgling p.177/Fig.20 and ITIS mapping, excludes generic cavity/egg chronology, corrects adult irises, and passes full plus two crop review after renderer drift re-audit. Exact sex ratio, juvenile age/iris/flight and nest remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, adds the dated adult+fledgling p.177/Fig.20 and ITIS mapping, excludes generic cavity/egg chronology, corrects adult irises, and passes full plus two crop review after renderer drift re-audit. Exact sex ratio, juvenile age/iris/flight and nest remain unknown; science false.",
+      "archive_commit": "8f5991f374e65cbefa870124388491724a0a4597",
+      "archive_tree": "7f82d3c3f32aa8f393cf7356b4c006de727dd822",
+      "verified_at": "2026-11-06T12:55:30.000+08:00",
+      "verification_result": "archive tree returned 3359 non-truncated entries; concept/generated/reviewed and two review crops matched exact path/blob/byte tuples; three manifest blobs matched exact committed SHAs with parsed counts 723/724/714",
+      "exact_readback": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "8f5991f374e65cbefa870124388491724a0a4597",
+        "archive_tree": "7f82d3c3f32aa8f393cf7356b4c006de727dd822",
+        "tree_entries": 3359,
+        "truncated": false,
+        "manifest_counts": {
+          "design_image": 723,
+          "design_legacy": 724,
+          "production": 714
+        },
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/107-strix-fulvescens-v5.png",
+            "blob": "9e54ff4f08867fcaecc4becfe56b4408c89fa991",
+            "size_bytes": 2728683
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/107-strix-fulvescens-v5-generated-master.png",
+            "blob": "9e54ff4f08867fcaecc4becfe56b4408c89fa991",
+            "size_bytes": 2728683
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/107-strix-fulvescens-v5-reviewed-master.png",
+            "blob": "9e54ff4f08867fcaecc4becfe56b4408c89fa991",
+            "size_bytes": 2728683
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/107-strix-fulvescens-v5-juvenile.png",
+            "blob": "380ecf7b25b207fc6c27b1a490968fd0405c486e",
+            "size_bytes": 700559
+          },
+          "adults_support_crop": {
+            "path": "owl-pet/production/review-crops/107-strix-fulvescens-v5-adults-support.png",
+            "blob": "e094b9f270057b76dd297a4e4cf324b1051202ad",
+            "size_bytes": 1686344
+          }
+        },
+        "science": false
+      }
     }
   ],
-  "updated_at": "2026-11-06T12:53:30.000+08:00"
+  "updated_at": "2026-11-06T12:55:30.000+08:00"
 }

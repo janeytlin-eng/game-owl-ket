@@ -1,3 +1,7 @@
+### #120 v4 LEDGER_CREDITED — active batch 5/6
+
+Verification `39e914fffe146b7faa3ac2fc199aafedaf712d83` / tree `368044a2eab0bded7c8cd92b1b6114d17cacc617` credited once after archive `d520ffa8`. Next cycle 6; lease released; unique 176/251; science false.
+
 ### #120 v4 immutable archive verified — ledger credit pending
 
 Archive `d520ffa8681b41b7dec03ed3367c784c59700ea8` / tree `22245a2a8d51df0a914e01fe5cf9f1ad6e3a3b7f` returned 3,392 non-truncated entries. Fourteen required paths, six image tuples, immutable original PNG size/hash and remotely parsed manifests 727/728/718 passed; science false.

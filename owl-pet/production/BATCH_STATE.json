@@ -22685,16 +22685,71 @@
       "updated_at": "2026-11-06T11:48:14.000+08:00",
       "ledger_credit_pending": false,
       "completed_at": "2026-11-06T13:10:00.000+08:00"
+    },
+    {
+      "batch_id": "20261106T123716+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_cycle": 1,
+      "active_lease": {
+        "owner": "codex-production",
+        "run_id": "20261106T123716+0800-cycle-1",
+        "batch_id": "20261106T123716+0800",
+        "cycle": 1,
+        "species_id": 107,
+        "heartbeat_at": "2026-11-06T12:37:16.000+08:00",
+        "expires_at": "2026-11-06T12:52:16.000+08:00"
+      },
+      "lease": {
+        "owner": "codex-production",
+        "run_id": "20261106T123716+0800-cycle-1",
+        "batch_id": "20261106T123716+0800",
+        "cycle": 1,
+        "species_id": 107,
+        "heartbeat_at": "2026-11-06T12:37:16.000+08:00",
+        "expires_at": "2026-11-06T12:52:16.000+08:00"
+      },
+      "in_progress": {
+        "batch_id": "20261106T123716+0800",
+        "cycle": 1,
+        "species_id": 107,
+        "species": "Strix fulvescens",
+        "planned_version": 5,
+        "run_id": "20261106T123716+0800-cycle-1",
+        "stage": "STARTED",
+        "started_at": "2026-11-06T12:37:16.000+08:00"
+      },
+      "current_stage": "STARTED",
+      "events": [
+        {
+          "batch_id": "20261106T123716+0800",
+          "cycle": 1,
+          "stage": "STARTED",
+          "at": "2026-11-06T12:37:16.000+08:00",
+          "run_id": "20261106T123716+0800-cycle-1",
+          "species_id": 107,
+          "credited": false,
+          "evidence": {
+            "selection": "sequential science revision of #107 Strix fulvescens v4; preserve v1-v4 and reopen adult identity, sex-size evidence, juvenile wing/tail/action boundary, support, habitat and taxonomy mapping",
+            "baseline_commit": "2937373b54498d770c4ed1669a59f50cb06afdab",
+            "prior_version": "owl-pet/design/concepts/107-strix-fulvescens-v4.png",
+            "run_record": "owl-pet/production/runs/20261106T123716+0800-cycle-1.md",
+            "lease_expires_at": "2026-11-06T12:52:16.000+08:00"
+          }
+        }
+      ]
     }
   ],
   "lease": {
     "owner": "codex-production",
-    "run_id": "20261106T105700+0800-cycle-4",
-    "batch_id": "20261106T105700+0800",
-    "cycle": 4,
-    "species_id": 103,
-    "heartbeat_at": "2026-11-06T12:08:00.000+08:00",
-    "expires_at": "2026-11-06T12:23:00.000+08:00"
+    "run_id": "20261106T123716+0800-cycle-1",
+    "batch_id": "20261106T123716+0800",
+    "cycle": 1,
+    "species_id": 107,
+    "heartbeat_at": "2026-11-06T12:37:16.000+08:00",
+    "expires_at": "2026-11-06T12:52:16.000+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -22828,7 +22883,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-06T13:10:00.000+08:00",
+  "updated_at": "2026-11-06T12:37:16.000+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -22839,14 +22894,14 @@
   ],
   "active_lease": {
     "owner": "codex-production",
-    "run_id": "20261106T105700+0800-cycle-4",
-    "batch_id": "20261106T105700+0800",
-    "cycle": 4,
-    "species_id": 103,
-    "heartbeat_at": "2026-11-06T12:08:00.000+08:00",
-    "expires_at": "2026-11-06T12:23:00.000+08:00"
+    "run_id": "20261106T123716+0800-cycle-1",
+    "batch_id": "20261106T123716+0800",
+    "cycle": 1,
+    "species_id": 107,
+    "heartbeat_at": "2026-11-06T12:37:16.000+08:00",
+    "expires_at": "2026-11-06T12:52:16.000+08:00"
   },
-  "last_updated_at": "2026-11-06T12:08:00.000+08:00",
+  "last_updated_at": "2026-11-06T12:37:16.000+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -23643,14 +23698,14 @@
     }
   ],
   "in_progress": {
-    "batch_id": "20261106T105700+0800",
-    "cycle": 4,
-    "species_id": 103,
-    "species": "Tyto longimembris",
+    "batch_id": "20261106T123716+0800",
+    "cycle": 1,
+    "species_id": 107,
+    "species": "Strix fulvescens",
     "planned_version": 5,
-    "run_id": "20261106T105700+0800-cycle-4",
-    "stage": "IMAGE_GENERATED",
-    "started_at": "2026-11-06T12:01:00.000+08:00"
+    "run_id": "20261106T123716+0800-cycle-1",
+    "stage": "STARTED",
+    "started_at": "2026-11-06T12:37:16.000+08:00"
   },
   "previous_checkpoint": {
     "batch_id": "20261105T233209+0800",
@@ -24947,7 +25002,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-06T12:08:00.000+08:00",
+  "last_updated": "2026-11-06T12:37:16.000+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -27585,10 +27640,10 @@
       }
     }
   ],
-  "active_batch_id": "20261106T105700+0800",
-  "active_cycle": 4,
-  "current_stage": "IMAGE_GENERATED",
-  "next_cycle": 4,
+  "active_batch_id": "20261106T123716+0800",
+  "active_cycle": 1,
+  "current_stage": "STARTED",
+  "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -32445,421 +32500,79 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-06T12:23:00.000+08:00"
       }
+    },
+    {
+      "batch_id": "20261106T123716+0800",
+      "cycle": 1,
+      "stage": "STARTED",
+      "at": "2026-11-06T12:37:16.000+08:00",
+      "run_id": "20261106T123716+0800-cycle-1",
+      "species_id": 107,
+      "credited": false,
+      "evidence": {
+        "selection": "sequential science revision of #107 Strix fulvescens v4; preserve v1-v4 and reopen adult identity, sex-size evidence, juvenile wing/tail/action boundary, support, habitat and taxonomy mapping",
+        "baseline_commit": "2937373b54498d770c4ed1669a59f50cb06afdab",
+        "prior_version": "owl-pet/design/concepts/107-strix-fulvescens-v4.png",
+        "run_record": "owl-pet/production/runs/20261106T123716+0800-cycle-1.md",
+        "lease_expires_at": "2026-11-06T12:52:16.000+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261106T043000+0800",
   "active_batch": {
-    "batch_id": "20261106T105700+0800",
+    "batch_id": "20261106T123716+0800",
     "status": "PARTIAL",
     "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species_id": 100,
-        "species": "Strix huhula",
-        "action": "SCIENCE_REVISION",
-        "version": 5,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "b5c2d7eef6ae05c945bcf3f200353ef062ddd503",
-        "archive_commit": "3ba1bcd30552a2f217743d8645d8604c8c6835fc",
-        "verification_tree": "17fe87860850f306eeca33c4ddc0f7a703b9d7d2",
-        "run_record": "owl-pet/production/runs/20261106T105700+0800-cycle-1.md",
-        "completed_at": "2026-11-06T11:34:00.000+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "species_id": 101,
-        "species": "Otus spilocephalus",
-        "action": "SCIENCE_REVISION",
-        "version": 8,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "8a6c68aa28e19a00884ac046f2090ce4909be3e9",
-        "archive_commit": "0c049e8d3203106a7f159eb4ee2b5684bd66cf89",
-        "verification_tree": "9b03f3f12e6597974a0cc932a416dd36bb33a739",
-        "run_record": "owl-pet/production/runs/20261106T105700+0800-cycle-2.md",
-        "completed_at": "2026-11-06T11:45:50.000+08:00",
-        "scientifically_verified": false
-      }
-    ],
-    "next_cycle": 3,
-    "active_cycle": 3,
+    "completed_cycles": [],
+    "next_cycle": 1,
+    "active_cycle": 1,
     "active_lease": {
       "owner": "codex-production",
-      "run_id": "20261106T105700+0800-cycle-3",
-      "batch_id": "20261106T105700+0800",
-      "cycle": 3,
-      "species_id": 102,
-      "heartbeat_at": "2026-11-06T11:48:14.000+08:00",
-      "expires_at": "2026-11-06T12:03:14.000+08:00"
+      "run_id": "20261106T123716+0800-cycle-1",
+      "batch_id": "20261106T123716+0800",
+      "cycle": 1,
+      "species_id": 107,
+      "heartbeat_at": "2026-11-06T12:37:16.000+08:00",
+      "expires_at": "2026-11-06T12:52:16.000+08:00"
     },
     "lease": {
       "owner": "codex-production",
-      "run_id": "20261106T105700+0800-cycle-3",
-      "batch_id": "20261106T105700+0800",
-      "cycle": 3,
-      "species_id": 102,
-      "heartbeat_at": "2026-11-06T11:48:14.000+08:00",
-      "expires_at": "2026-11-06T12:03:14.000+08:00"
+      "run_id": "20261106T123716+0800-cycle-1",
+      "batch_id": "20261106T123716+0800",
+      "cycle": 1,
+      "species_id": 107,
+      "heartbeat_at": "2026-11-06T12:37:16.000+08:00",
+      "expires_at": "2026-11-06T12:52:16.000+08:00"
     },
     "in_progress": {
-      "batch_id": "20261106T105700+0800",
-      "cycle": 3,
-      "species_id": 102,
-      "species": "Strix nigrolineata",
-      "planned_version": 4,
-      "run_id": "20261106T105700+0800-cycle-3",
-      "stage": "RESEARCH_READY",
-      "started_at": "2026-11-06T11:46:56.000+08:00"
+      "batch_id": "20261106T123716+0800",
+      "cycle": 1,
+      "species_id": 107,
+      "species": "Strix fulvescens",
+      "planned_version": 5,
+      "run_id": "20261106T123716+0800-cycle-1",
+      "stage": "STARTED",
+      "started_at": "2026-11-06T12:37:16.000+08:00"
     },
-    "current_stage": "RESEARCH_READY",
+    "current_stage": "STARTED",
     "events": [
       {
-        "batch_id": "20261106T105700+0800",
+        "batch_id": "20261106T123716+0800",
         "cycle": 1,
         "stage": "STARTED",
-        "at": "2026-11-06T10:57:00.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-1",
-        "species_id": 100,
+        "at": "2026-11-06T12:37:16.000+08:00",
+        "run_id": "20261106T123716+0800-cycle-1",
+        "species_id": 107,
         "credited": false,
         "evidence": {
-          "selection": "science revision of #100 Strix huhula v4; preserve v1-v4 and reopen adult identity/sex uncertainty, juvenile stage/wing-tail geometry, support, nest context and current/old-name mapping before generation",
-          "baseline_commit": "56cdfc5ce7c459e6916d031e2af634b789c9d100",
-          "run_record": "owl-pet/production/runs/20261106T105700+0800-cycle-1.md",
-          "prior_version": "owl-pet/design/concepts/100-strix-huhula-v4.png",
-          "lease_expires_at": "2026-11-06T11:12:00.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T11:06:00.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-1",
-        "species_id": 100,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/100-strix-huhula-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 3,
-          "reused_sources": 1,
-          "corrected_boundaries": 5,
-          "selected_stage": "directly described exact-age-unknown late nest young: pale-grey-dominant body/wings, horizontal black bars, black heart mask with white border, yellow bill/legs, active standing/walking; compact soft wing, mostly concealed tail, continuous fork support; no flight",
-          "current_old_name_mapping": "Strix huhula = Ciccaba huhula; primary paper: Ciccaba huhula albomarginata",
-          "mikkola_upload_accessible": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-06T11:21:00.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-06T11:12:00.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-1",
-        "species_id": 100,
-        "credited": false,
-        "evidence": {
-          "version": 5,
-          "generated_path": "owl-pet/production/generated/100-strix-huhula-v5-generated-master.png",
-          "width": 1536,
-          "height": 1024,
-          "format": "PNG",
-          "bytes": 3456295,
-          "sha256": "bc3e5fa256cf46f4d9153b31087c9581d3d358524ff41145a216af4e7618230a",
-          "git_blob_remote": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
-          "persistence_commit": "efe0b3c805c9e6c8743f1b38ce43dee9f89c2bc5",
-          "persistence_tree": "9fc56def76e2e6614a42cf3e9c97fd5af855be87",
-          "preliminary_inspection": "exact title/count/labels; round untufted dark-eyed adults with fine pale waves and near-equal scale; pale-grey-dominant barred heart-mask young with short soft wing, concealed tail and continuous support; no edit required",
-          "recovery": "sparse intermediate da7a9dfa immediately superseded by full-tree efe0b3c8; 3301 non-truncated paths read back",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-06T11:27:00.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-06T11:15:00.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-1",
-        "species_id": 100,
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/100-strix-huhula-v5-reviewed-master.png",
-          "reviewed_blob": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
-          "edit_count": 0,
-          "review_record": "owl-pet/research/reviews/100-strix-huhula-v5-review.md",
-          "review_record_blob": "f86ec2b6194d3b4c6d1ae59862b755c2e2978c5b",
-          "juvenile_crop": "owl-pet/production/review-crops/100-strix-huhula-v5-juvenile.png",
-          "juvenile_blob": "e97a97b83ad34c2042272aacd7c8208c8cc0672c",
-          "adults_support_crop": "owl-pet/production/review-crops/100-strix-huhula-v5-adults-support.png",
-          "adults_blob": "e7589c7fd5a3260a630d8835ebdd00356d69a5c3",
-          "reinspection": "full plate and two crops opened; exact text/count, adult identity/equal scale, late-nest-young feather boundary and continuous support pass; no edit required",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-06T11:30:00.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-06T11:18:00.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-1",
-        "species_id": 100,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "3ba1bcd30552a2f217743d8645d8604c8c6835fc",
-          "archive_tree": "bdb2f54d903bc807793f4e063ec1ca81216f412a",
-          "concept": "owl-pet/design/concepts/100-strix-huhula-v5.png",
-          "manifest_counts": {
-            "design": 718,
-            "legacy": 717,
-            "production": 708
-          },
-          "scientifically_verified": false,
-          "readback_pending": true
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-06T11:32:57.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-1",
-        "species_id": 100,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "3ba1bcd30552a2f217743d8645d8604c8c6835fc",
-          "archive_tree": "bdb2f54d903bc807793f4e063ec1ca81216f412a",
-          "tree_entries": 3306,
-          "truncated": false,
-          "exact_binary_tuples": 5,
-          "manifest_counts": {
-            "design": 718,
-            "legacy": 717,
-            "production": 708
-          },
-          "run_record": "owl-pet/production/runs/20261106T105700+0800-cycle-1.md",
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-06T11:47:57.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 1,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-06T11:34:00.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-1",
-        "species_id": 100,
-        "credited": true,
-        "evidence": {
-          "verification_commit": "b5c2d7eef6ae05c945bcf3f200353ef062ddd503",
-          "verification_tree": "17fe87860850f306eeca33c4ddc0f7a703b9d7d2",
-          "archive_commit": "3ba1bcd30552a2f217743d8645d8604c8c6835fc",
-          "batch_progress": "1/6",
-          "next_cycle": 2,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-06T11:35:12.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-2",
-        "species_id": 101,
-        "credited": false,
-        "evidence": {
-          "selection": "sequential science revision after verified #100; preserve #101 v1-v7 and reopen Taiwan-race adult identity/sex uncertainty, juvenile stage/iris/wing support, habitat and current/old-name mapping before generation",
-          "baseline_commit": "9501f08b571d14f9e015d5de232a086540fa22bd",
-          "run_record": "owl-pet/production/runs/20261106T105700+0800-cycle-2.md",
-          "prior_version": "owl-pet/design/concepts/101-otus-spilocephalus-v7.png",
-          "lease_expires_at": "2026-11-06T11:50:12.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T11:37:19.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-2",
-        "species_id": 101,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/101-otus-spilocephalus-v8.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 4,
-          "reused_sources": 3,
-          "corrected_boundaries": 4,
-          "selected_stage": "age-unknown yellow-brown immature with vague markings, dark-neutral unresolved iris, short down-dominant wing, concealed tail and continuous hollow-lip support; no flight",
-          "current_old_name_mapping": "Otus spilocephalus; Taiwan race O. s. hambroecki; protonym Ephialtes Hambroecki",
-          "mikkola_upload_accessible": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-06T11:52:19.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-06T11:39:23.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-2",
-        "species_id": 101,
-        "credited": false,
-        "evidence": {
-          "version": 8,
-          "generated_path": "owl-pet/production/generated/101-otus-spilocephalus-v8-generated-master.png",
-          "width": 1536,
-          "height": 1024,
-          "format": "PNG",
-          "bytes": 3182139,
-          "sha256": "018e30f1dd9807e0ed620a42d70b6fdaab13495f2fc6c50c684e2a06e05d62c2",
-          "git_blob_remote": "2b1e362adc4a560eaf476ca67c52d1a4274db28f",
-          "preliminary_inspection": "title/count/labels, adult identity/scale, hollow and supports pass; juvenile folded wing too orderly/long and requires targeted edit",
-          "edit_required": true,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-06T11:54:23.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-06T11:42:06.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-2",
-        "species_id": 101,
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/101-otus-spilocephalus-v8-reviewed-master.png",
-          "reviewed_blob": "35022d129b7299aad1885df4322d763fa8889cac",
-          "edit_count": 1,
-          "review_record": "owl-pet/research/reviews/101-otus-spilocephalus-v8-review.md",
-          "immature_crop": "owl-pet/production/review-crops/101-otus-spilocephalus-v8-immature.png",
-          "immature_blob": "aebe2f07f743042c62a44fc490ec03d723439c8e",
-          "adults_support_crop": "owl-pet/production/review-crops/101-otus-spilocephalus-v8-adults-support.png",
-          "adults_blob": "685d8fdfd6846808ba8a6adced3d1f7a2024a1b3",
-          "reinspection": "full edited plate plus immature and adults/support crops opened; exact text/count, adult identity/near-equal scale, age-unknown immature wing/tail boundary and continuous support pass",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-06T11:57:06.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-06T11:43:27.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-2",
-        "species_id": 101,
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/101-otus-spilocephalus-v8.png",
-          "concept_blob": "35022d129b7299aad1885df4322d763fa8889cac",
-          "manifest_counts": {
-            "design": 719,
-            "legacy": 718,
-            "production": 709
-          },
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-06T11:58:27.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-06T11:44:54.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-2",
-        "species_id": 101,
-        "credited": false,
-        "evidence": {
-          "archive_commit": "0c049e8d3203106a7f159eb4ee2b5684bd66cf89",
-          "archive_tree": "0190a45af7fd9a642fd69c718077c1ca2aa94af6",
-          "tree_entries": 3317,
-          "truncated": false,
-          "exact_binary_paths": 6,
-          "manifest_counts": {
-            "design": 719,
-            "legacy": 718,
-            "production": 709
-          },
-          "run_record": "owl-pet/production/runs/20261106T105700+0800-cycle-2.md",
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-06T11:59:54.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-06T11:45:50.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-2",
-        "species_id": 101,
-        "credited": true,
-        "evidence": {
-          "verification_commit": "8a6c68aa28e19a00884ac046f2090ce4909be3e9",
-          "verification_tree": "9b03f3f12e6597974a0cc932a416dd36bb33a739",
-          "archive_commit": "0c049e8d3203106a7f159eb4ee2b5684bd66cf89",
-          "batch_progress": "2/6",
-          "next_cycle": 3,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-06T11:46:56.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-3",
-        "species_id": 102,
-        "credited": false,
-        "evidence": {
-          "selection": "sequential science revision after #101; preserve #102 v1-v3 and reopen adult dimorphism sample limits, older mesoptile wing/tail/support and regional Tikal epiphyte-nest scope",
-          "baseline_commit": "8c23f95210aa6e386ef93a048a3a0da26afb183b",
-          "prior_version": "owl-pet/design/concepts/102-strix-nigrolineata-v3.png",
-          "run_record": "owl-pet/production/runs/20261106T105700+0800-cycle-3.md",
-          "lease_expires_at": "2026-11-06T12:01:56.000+08:00"
-        }
-      },
-      {
-        "batch_id": "20261106T105700+0800",
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T11:48:14.000+08:00",
-        "run_id": "20261106T105700+0800-cycle-3",
-        "species_id": 102,
-        "credited": false,
-        "evidence": {
-          "research_file": "owl-pet/research/species/102-strix-nigrolineata-v4.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 2,
-          "reused_sources": 3,
-          "corrected_boundaries": 4,
-          "selected_stage": "age-unknown older juvenile; white/dirty cream, tight dark barring, short soft wing/tail, supported on epiphyte platform; no flight",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-06T12:03:14.000+08:00"
+          "selection": "sequential science revision of #107 Strix fulvescens v4; preserve v1-v4 and reopen adult identity, sex-size evidence, juvenile wing/tail/action boundary, support, habitat and taxonomy mapping",
+          "baseline_commit": "2937373b54498d770c4ed1669a59f50cb06afdab",
+          "prior_version": "owl-pet/design/concepts/107-strix-fulvescens-v4.png",
+          "run_record": "owl-pet/production/runs/20261106T123716+0800-cycle-1.md",
+          "lease_expires_at": "2026-11-06T12:52:16.000+08:00"
         }
       }
-    ],
-    "started_at": "2026-11-06T10:57:00.000+08:00",
-    "updated_at": "2026-11-06T11:48:14.000+08:00",
-    "ledger_credit_pending": false
+    ]
   },
   "events": [
     {
@@ -35593,6 +35306,22 @@
         "edit_required": false,
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-06T12:23:00.000+08:00"
+      }
+    },
+    {
+      "batch_id": "20261106T123716+0800",
+      "cycle": 1,
+      "stage": "STARTED",
+      "at": "2026-11-06T12:37:16.000+08:00",
+      "run_id": "20261106T123716+0800-cycle-1",
+      "species_id": 107,
+      "credited": false,
+      "evidence": {
+        "selection": "sequential science revision of #107 Strix fulvescens v4; preserve v1-v4 and reopen adult identity, sex-size evidence, juvenile wing/tail/action boundary, support, habitat and taxonomy mapping",
+        "baseline_commit": "2937373b54498d770c4ed1669a59f50cb06afdab",
+        "prior_version": "owl-pet/design/concepts/107-strix-fulvescens-v4.png",
+        "run_record": "owl-pet/production/runs/20261106T123716+0800-cycle-1.md",
+        "lease_expires_at": "2026-11-06T12:52:16.000+08:00"
       }
     }
   ],

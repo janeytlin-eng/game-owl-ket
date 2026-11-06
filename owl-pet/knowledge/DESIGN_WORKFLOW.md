@@ -1,3 +1,7 @@
+## 2026-11-06 verified prompt/check rule — qualitative juvenile records
+
+When an institutional source says only that juveniles are paler/low-contrast and lacks an exact age or feather chronology, label the bird `AGE-UNKNOWN IMMATURE`, use the qualitative colour/contrast fact, and keep wing/tail/action conservative. Do not convert an adult specimen measurement or one unsexed specimen into a sex-size rule. This rule was applied to #101 v8: the first render's orderly juvenile wing was edited to a short down-dominant contour and passed full/crop reinspection; it remains a design-validation rule, not scientific sign-off.
+
 # 证据状态与复用
 
 仅研究前三个物种；事实、设计与待核验分开。来源适用范围见下文。总纲为初始快照；以后以各专题档案及更新日志为准。

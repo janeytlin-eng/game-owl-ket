@@ -1,3 +1,7 @@
+### #130 *Megascops koepckeae* v4 — immutable archive VERIFIED
+
+Archive `3583e7191007ed49a964b51bf922289de4ec115d` / tree `3b13d6fe3193c7fd56be8988707ee6620fd59b22` passed a 3,520-entry non-truncated readback after repairing the first truncated binary upload. Sixteen required paths and five full-size image tuples passed; manifests 741/742/732. PASS_WITH_LIMITATIONS; science false; ledger credit pending.
+
 ### #130 *Megascops koepckeae* v4 — ARCHIVED, readback pending
 
 Fresh science revision after actual Mikkola PDF 224–225 / print 222–223 reread and external source cross-check. Full plate and two crops opened; zero edits; irregular adult wing pattern, compact down-veiled older-fledgling wing and six supports pass with limitations. Manifests 741/742/732; unique remains 176/251; science false. Immutable readback and cycle credit pending.

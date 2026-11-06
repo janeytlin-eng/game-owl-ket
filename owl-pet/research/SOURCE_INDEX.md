@@ -1,3 +1,29 @@
+## 2026-11-06 — #100 *Strix huhula* v5 — directly described nestling/brancher boundary
+
+### HUH-BC2013
+- **Title / authors / year:** “Distribution, nesting, and vocalizations of the Black-banded Owl (*Ciccaba huhula albomarginata*) in Argentina” — Alejandro Bodrati & Kristina Cockle, 2013.
+- **URL / pages / accessed:** https://sora.unm.edu/sites/default/files/ON%2024%282%29%20169-182%20NEW.pdf ; *Ornitología Neotropical* 24:169–182; printed pp.169–182, especially p.175; full PDF re-read 2026-11-06.
+- **Type / species / stage / facts:** primary nest monitoring of the Atlantic-forest subspecies under the historical combination *Ciccaba huhula albomarginata*. At the live angico tree fork, 15.2 m high and enclosed by vertical branches plus epiphytes, the 18 November nestling was mostly pale grey on body and wings with horizontal black barring, a black heart-shaped mask with white border, and yellow bill/legs; it walked actively. Pale grey still dominated on 27 November.
+- **Limits / design use:** observations from one nest and one young; exact hatch date and continuous feather-tract measurements are absent. Supports a pale-grey-dominant, actively standing branch/nest-floor young with short soft-looking wing/tail geometry and continuous plant/branch support, not an exact-age or flight claim.
+
+### HUH-MUNOZ-2019
+- **Title / authors / year:** “Breeding records and notes on parental care of Black-and-White Owl (*Ciccaba huhula*) in Colombia” — Jorge Muñoz-García, Cristian Camilo Castaño Vargas, Sergio Reyes-Bueno & David Ricardo Rodríguez-Villamil, 2019.
+- **URL / pages / accessed:** https://ufdcimages.uflib.ufl.edu/UF/00/10/09/58/00058/Spizaetus-28-%20English.pdf ; *Spizaetus* Issue 28, pp.14–19, especially printed pp.16–17/Figs.3–5; full article re-read 2026-11-06.
+- **Type / stage / facts:** primary field record. A young found on the ground on 30 August was placed on a low branch; both parents attended and provisioned it. By 7 September it was in the canopy making short flights between branches.
+- **Limits / design use:** exact age, sex and feather dimensions were not measured; the one-week observation interval does not establish first-flight age. Supports a branch-capable age-unknown older fledgling only, not a precise chronology or universal periurban nest context.
+
+### HUH-ITIS-1063256-2026
+- **Institution / title / year:** Integrated Taxonomic Information System, “*Strix huhula* (Daudin, 1800), TSN 1063256,” current record read 2026-11-06.
+- **URL / section:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063256 ; Taxonomy and Nomenclature.
+- **Type / facts:** institutional taxonomy index. Current valid name *Strix huhula*; synonym *Ciccaba huhula*; recognized subspecies include *S. h. albomarginata* and *S. h. huhula*.
+- **Limits / design use:** taxonomy mapping only; no morphology, sex, age, behavior or nest evidence.
+
+### Reuse and corrected boundaries
+- Reused repository extraction `HUH-MIK2013-340` for adult identity (round head/no tufts, dark iris, yellow bill, fine pale waves); the user-uploaded guide itself was unavailable in this execution, so no fresh page read is claimed.
+- Corrected five boundaries: one monitored nest ≠ universal nest form; stage dates ≠ exact hatch age; active walking ≠ flight competence; one-week later short flights ≠ first-flight date; adult labels ≠ visible sex diagnosis or fixed female-larger ratio.
+- New3 / reused1 / corrected5; selected design stage is the directly described pale-grey-dominant 18–27 November nest young, shown standing with both feet continuously supported and no flight. Scientific sign-off remains false.
+- Links: `research/species/100-strix-huhula-v5.md`; planned v5; run `production/runs/20261106T105700+0800-cycle-1.md`.
+
 ## 2026-11-06 — #99 *Bubo magellanicus* v5 — approximately-20-day balcony nestling boundary
 
 ### MAG-NOVOA-BLANCO-2020-P31-33

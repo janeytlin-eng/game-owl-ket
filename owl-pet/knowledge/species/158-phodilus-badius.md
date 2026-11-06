@@ -33,3 +33,17 @@ Fresh access reused OBO-OWLPAGES-2020, OBO-WOT-2023, OBO-VNWILDLIFE-2025, OBO-FG
 - Image commit: `57af90bc230605ce6cb94e65df6ba8183fae7952`
 - Git blob: `a17830282c371307daccbbdd14895ad218d54ecb`
 - SHA-256: `bab7f076ad2b2986c15a7aefc7804f5cafd8090b1747e13b6788b56ba20589de`
+
+
+## v3 science revision — 2026-11-07
+
+Fresh research read Marcot 1995 pp.5–6, Oberholser 1924 p.302, three Cornell/Macaulay adult field-photo records and the Penang Bird Park institutional summary, while reusing the archived v2 evidence. The adults are shown near equal because no quantitative sex comparison was verified. The initial v3 render had an overlong, layered juvenile wing; one targeted edit shortened and down-veiled the developing wing and concealed the tail. Full plate plus juvenile/adults-support crops were reopened and passed with limitations.
+
+- Image: [158-phodilus-badius-v3.png](../../design/concepts/158-phodilus-badius-v3.png)
+- Research: [158-phodilus-badius-v3.md](../../research/species/158-phodilus-badius-v3.md)
+- Review: [158-phodilus-badius-v3-review.md](../../research/reviews/158-phodilus-badius-v3-review.md)
+- Git blob: `1dc8ac940e618f31b92ff750bc4b393041022263`
+- SHA-256: `48e4ffb52f4bd44fd6e50ad798e9be3864bc7450bc838f79cb515d9fbd2335a6`
+- Result: PASS_WITH_LIMITATIONS
+- Remaining unknown: exact juvenile age/feather sequence/first-flight, quantitative dimorphism, population-wide subspecies colour.
+- scientifically_verified: false

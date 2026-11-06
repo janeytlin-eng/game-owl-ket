@@ -25503,35 +25503,29 @@
           "run_record": "owl-pet/production/runs/20261106T222600+0800-cycle-1.md",
           "completed_at": "2026-11-06T22:52:00+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "species_id": 131,
+          "species": "Megascops watsonii",
+          "action": "SCIENCE_REVISION",
+          "version": 4,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "c87abe2c4eddbeb1ea15c0fb6c9215554af2cb59",
+          "archive_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06",
+          "verification_tree": "19d157497b4ef50b1faaa3bdbab61e453df8211a",
+          "run_record": "owl-pet/production/runs/20261106T225300+0800-cycle-2.md",
+          "completed_at": "2026-11-06T22:54:00+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
-      "lease": {
-        "owner": "codex-production",
-        "run_id": "20261106T225300+0800-cycle-2",
-        "batch_id": "20261106T222600+0800",
-        "cycle": 2,
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "heartbeat_at": "2026-11-06T22:53:00+08:00",
-        "expires_at": "2026-11-06T23:08:00+08:00"
-      },
-      "in_progress": {
-        "run_id": "20261106T225300+0800-cycle-2",
-        "cycle": 2,
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "stage": "VERIFIED",
-        "started_at": "2026-11-06T22:53:00+08:00",
-        "research_ready_at": "2026-11-06T22:44:00+08:00",
-        "image_generated_at": "2026-11-06T22:49:00+08:00",
-        "reviewed_at": "2026-11-06T22:50:00+08:00",
-        "archived_at": "2026-11-06T22:52:00+08:00",
-        "verified_at": "2026-11-06T22:53:00+08:00"
-      },
+      "next_cycle": 3,
+      "active_cycle": null,
+      "lease": null,
+      "in_progress": null,
       "started_at": "2026-11-06T22:26:00+08:00",
-      "updated_at": "2026-11-06T22:53:00+08:00",
+      "updated_at": "2026-11-06T22:54:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -25722,21 +25716,23 @@
           "exact_binary_paths_verified": 7,
           "result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-06T22:54:00+08:00",
+          "species_id": 131,
+          "species": "Megascops watsonii",
+          "verification_commit": "c87abe2c4eddbeb1ea15c0fb6c9215554af2cb59",
+          "archive_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06",
+          "next_cycle": 3,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "3223778e04444f1fa0f24ce9f7fd30b93e6d1215"
     }
   ],
-  "lease": {
-    "owner": "codex-production",
-    "run_id": "20261106T225300+0800-cycle-2",
-    "batch_id": "20261106T222600+0800",
-    "cycle": 2,
-    "species_id": 131,
-    "species": "Megascops watsonii",
-    "heartbeat_at": "2026-11-06T22:53:00+08:00",
-    "expires_at": "2026-11-06T23:08:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -26684,19 +26680,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "run_id": "20261106T225300+0800-cycle-2",
-    "cycle": 2,
-    "species_id": 131,
-    "species": "Megascops watsonii",
-    "stage": "VERIFIED",
-    "started_at": "2026-11-06T22:53:00+08:00",
-    "research_ready_at": "2026-11-06T22:44:00+08:00",
-    "image_generated_at": "2026-11-06T22:49:00+08:00",
-    "reviewed_at": "2026-11-06T22:50:00+08:00",
-    "archived_at": "2026-11-06T22:52:00+08:00",
-    "verified_at": "2026-11-06T22:53:00+08:00"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -30745,6 +30729,28 @@
         "scientifically_verified": false,
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-06T23:08:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261106T222600+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-06T22:54:00+08:00",
+      "run_id": "20261106T225300+0800-cycle-2",
+      "species_id": 131,
+      "credited": true,
+      "evidence": {
+        "verification_commit": "c87abe2c4eddbeb1ea15c0fb6c9215554af2cb59",
+        "archive_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06",
+        "archive_tree": "19d157497b4ef50b1faaa3bdbab61e453df8211a",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "batch_status": "PARTIAL",
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false
       }
     }
   ],
@@ -41166,6 +41172,6 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06"
+  "ledger_credit_pending": false,
+  "last_verified_commit": "c87abe2c4eddbeb1ea15c0fb6c9215554af2cb59"
 }

@@ -320,3 +320,8 @@ Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back aft
 ## 2026-11-06 22:52 +08 — batch 20261106T222600+0800 cycle 2 ARCHIVED
 
 - #131 *Megascops watsonii* v4; manifests 742 / 743 / 733; exact remote readback pending. Unique 176/251; revision +1; science false.
+
+
+## 2026-11-06 22:54 +08 — batch 20261106T222600+0800 now 2/6
+
+- Cycle 2 #131 v4 verified and credited. Next cycle: 3. Unique species 176/251; revision +1; science false; lease released.

@@ -24,3 +24,10 @@ undefined
 - **Generation check:** the first plate already kept the juvenile wing short/body-blended and all six feet supported, so no edit was forced.
 - **Verified result:** full plate plus two crops passed with limitations.
 - **Reusable rule:** when type metadata is indeterminate, use it to audit nomenclature/specimen identity and uncertainty—not to assign sex, age or development.
+
+
+## 2026-11-07 — #151 adult pattern zone rule (application pending)
+
+- When a secondary account says a belly is “unmarked” or “mostly plain” but an identified specimen photograph shows substantial irregular barring, preserve both by mapping the pale ground and the actual barred zones instead of flattening either source into an all-plain or all-barred adult.
+- Do not infer eye colour from a damaged museum specimen, and do not infer sex or juvenile stage from an unsexed living photograph.
+- Applied to the #151 v3 generation prompt; effectiveness is not claimed until full/crop review.

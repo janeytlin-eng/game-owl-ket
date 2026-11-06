@@ -52,3 +52,18 @@ Adults near equal scale and palette; no unsupported sex dimorphism. Earless roun
 
 Older juvenile is age unknown and resting: smaller, eyes gently closed, two feet fully supported, fluffy down-softened crown/body, muted diffuse brown/rufous mottling, compact short rounded wing mostly buried in fluff with no crisp pale covert rows or long layered remiges, very short hidden tail, no flight or begging. Do not call it nestling or fledgling. Soft-focus humid forest with epiphytes and vines; no nest, cavity, eggs or invented hatchling detail. Exactly three birds; no ear tufts, prominent white brows, adult-like juvenile wing/tail, extra limbs, fused toes, floating feet, text errors, watermark.
 ```
+
+
+## #151 v3 — *Athene jacquinoti* — batch 20261107T062903+0800 cycle 1/6
+
+### Generation
+
+```text
+Create one polished 1536×1024 landscape species concept plate in the approved owl electronic-pet visual language: high-end tactile semi-realistic 3D character art, rounded but anatomically credible proportions, individually layered feathers, restrained humid-rainforest light, clean typography, no watermark. Exactly three complete West Solomons Owls (*Athene jacquinoti*) on one continuous naturally forked mossy branch outside—never inside—a living-tree cavity: ADULT MALE left, ADULT FEMALE right, OLDER JUVENILE · AGE UNKNOWN lower centre. Title exactly “WEST SOLOMONS OWL”; italic line “Athene jacquinoti”; exact labels only.
+
+Adult evidence boundary: compact earless rounded owl, rusty/chestnut-brown crown and upperparts, sparse irregular buff-white spots and short broken bars rather than geometric rows; gray-brown face with restrained narrow pale brow arcs; broad white throat patch; creamy-white underparts with irregular broad soft brown bars concentrated on upper breast, flanks and lower belly, leaving some paler central space. Amber-orange living eyes, gray-horn bill, yellowish feet with dark claws. The male holotype photo supports adult plumage only and has missing/damaged eyes; do not copy museum-mount posture or use it for eye colour. Show adults near equal standing height and palette, with only different natural head turns; no quantified sex-size or sex-plumage claim.
+
+Older juvenile is a conservative design inference because no species-specific sequence was found: eyes gently closed, low stable crouch, both feet visibly supported by the branch, loose brown-gray down and diffuse reduced mottling, compact short rounded wing edge mostly buried in body fluff and ending above the feet, tail concealed, no crisp adult spot rows, no long layered remiges, no standing/flight/begging claim. Exterior cavity and wet western Solomon forest vegetation are habitat cues only; no eggs, nest contents, invented substrate or hatchling detail.
+
+Avoid ear tufts, heart-shaped barn-owl face, bright white continuous V brow, neat repeated spots, plain unbarred adult belly, exaggerated dimorphism, mature juvenile wing/tail, unsupported feet, extra birds/limbs/text, border, logo or watermark.
+```

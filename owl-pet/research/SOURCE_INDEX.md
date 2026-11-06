@@ -3021,3 +3021,32 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Actually rechecked:** current record, accessed 2026-11-07.
 - **Fact / use:** valid *Ninox variegata*; synonym *Noctua variegata*; common-name mapping.
 - **Limitations:** taxonomy only.
+
+
+## 2026-11-07 — #151 *Athene jacquinoti* v3 evidence refresh
+
+### WSO-MNHN-HOLOTYPE-PHOTO-2026
+- Title/institution/year: “MNHN-ZO-2010-270 Athene jacquinoti Bonaparte,1850 Holotype 1.jpg”; Muséum national d’Histoire naturelle via Wikimedia Commons; image produced 2014, uploaded 2026.
+- URL: https://commons.wikimedia.org/wiki/File:MNHN-ZO-2010-270_Athene_jacquinoti_Bonaparte,1850_Holotype_1.jpg
+- Accessed: 2026-11-07. Type: museum specimen photograph, actual 960-px image opened.
+- Applies to: *A. j. jacquinoti* adult male holotype; life stage indeterminate.
+- Valuable facts: warm rusty/chestnut adult ground, sparse irregular pale upperpart marks, broad pale throat and cream underparts with irregular brown barring.
+- Location/figure: full specimen view; specimen MNHN-ZO-2010-270.
+- Limits/confidence: high specimen identity; museum mount/damaged eyes prevent live posture or iris use; no female or juvenile inference.
+- Decision: restore irregular adult ventral barring in #151 v3; link: research/species/151-athene-jacquinoti-v3.md and design/concepts/151-athene-jacquinoti-v3.png.
+
+### WSO-EBIRD-IMAGE-262766631
+- Title/institution/year: West Solomons Owl species image, Cornell Lab/eBird/Macaulay asset 262766631; date not surfaced in the viewed response.
+- URL: https://cdn.download.ams.birds.cornell.edu/api/v2/asset/262766631/900 ; https://ebird.org/species/solboo1
+- Accessed: 2026-11-07. Type: living field photograph, actual image opened.
+- Applies to: species-level living adult-like appearance; sex/age/subspecies not surfaced.
+- Valuable facts: compact earless owl; amber-orange living eye; warm brown lightly spotted upperparts; paler underparts; mossy-branch support.
+- Limits/confidence: reliable species presentation, but unknown individual metadata blocks dimorphism, age and subspecies claims.
+- Decision: living colour/stance check only; not a juvenile or sex source.
+
+### WSO-BONAPARTE-1850-P42-LEAD
+- Title/author/year: *Conspectus generum avium* 1:42; C. L. Bonaparte; 1850.
+- URL: https://www.biodiversitylibrary.org/page/43559996
+- Accessed: 2026-11-07. Type: original-description lead.
+- Status: UNVERIFIED TEXT — ITIS/Avibase citation read; BHL page returned 403, so no morphology claim is attributed to unread text.
+- Use: nomenclatural locator only; current design does not depend on it.

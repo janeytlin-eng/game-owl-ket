@@ -114,3 +114,11 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Verification `92df887e6da967619a4b6aa9780627e99bbdd7d6` read back after archive `99735154d84ff945a4c9ab5d21b59bb80434156a` / tree `f20fbb806bf8e03b04880371edae46205cfc265e`.
 - Cycle 6 credited once; batch 6/6 COMPLETE; unique 176/251; revision +1; scientifically_verified=false.
+
+
+## 2026-11-07 — #151 *Athene jacquinoti* v3: type photograph corrects “plain belly” simplification
+
+**Problem:** v2 compressed secondary descriptions into a nearly plain cream belly.
+**Evidence:** the actual male holotype image (MNHN-ZO-2010-270, age indeterminate) visibly retains substantial irregular brown barring across cream-white underparts; a living eBird image supports orange eyes and compact support but has no sex/age metadata.
+**Applied rule:** specimen photographs can correct zone and irregularity of adult pattern, but museum mounts and unsexed field images cannot establish live posture, sex contrast or development.
+**Validation state:** applied to the v3 prompt; pixel review pending. Scientific verification remains false.

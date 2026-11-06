@@ -1,3 +1,5 @@
+- Credited active batch cycle 3/6 for #102 v4; next cycle 4; unique species remains 176/251.
+
 - Verified #102 v4 immutable archive at `a3d87e62a3df45a5c27bb7b4dcf43c3c23c3a3b0`: exact six binary tuples, manifests 720/719/710, non-truncated tree. Science remains false.
 
 ## 2026-11-06 — #102 *Strix nigrolineata* v4

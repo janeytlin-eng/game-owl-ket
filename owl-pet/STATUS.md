@@ -1,3 +1,7 @@
+## 2026-11-06 — active batch 3/6 credited
+
+#102 *Strix nigrolineata* v4 has verified archive evidence and is credited as a revision. Unique archived species remains 176/251; next cycle is 4. Science remains false.
+
 ## 2026-11-06 — #102 *Strix nigrolineata* v4 immutable archive verified
 
 Archive `a3d87e62a3df45a5c27bb7b4dcf43c3c23c3a3b0` / tree `cc5844da2e84591ed9254278077bf59883a60685` returned 3,326 non-truncated entries; six binary paths matched exact blob/size tuples and manifests parsed at 720/719/710. Result PASS_WITH_LIMITATIONS; science false; ledger credit pending.

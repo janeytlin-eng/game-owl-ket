@@ -2765,3 +2765,44 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 
 - Reused project records: `research/species/140-otus-rufescens-v3.md`, `production/runs/2026-10-19T0929+0800-cycle-1.md`.
 - Correction: historical v3 metadata claimed four new index rows, but those rows were absent from the current index; this v4 inserts three actually read stable entries and does not recreate unverified lines.
+
+
+## 2026-11-07 — #141 *Otus magicus* v4 research delta
+
+### MAG-MIKKOLA-2013-P189-190 — uploaded guide directly re-read
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Locator:** printed pp.189–190; user-uploaded PDF pp.191–192; directly read 2026-11-07.
+- **Species/stage:** *Otus magicus*, including northern-Moluccan *O. m. leucospilus*; adult and older feathered juvenile.
+- **Facts:** no sexual-size data; extensive grey-brown to rufous morph variation; yellow adult iris; pale greyish-black bill/cere; strong feet with distal tarsus bare 6–9 mm; juvenile described as fluffy/adult-like with narrow dark-brown crossbars on head, crown and neck and fainter spots/freckles. The leucospilus account is paler than nominate birds.
+- **Limit:** no exact juvenile day age, iris, flight ability, bill colour, quantified sex ratio, nest construction or continuous feather chronology.
+- **Design use:** adults displayed near equal size; older supported juvenile with short soft folded wing and unknown iris not asserted; no nest claim.
+
+### MAG-SHARPE-1875-P70-PLVI — historical primary catalogue and plate
+- **Title / author / year:** *Catalogue of the Birds in the British Museum*, vol. 2 / R. B. Sharpe / 1875.
+- **URL:** https://www.biodiversitylibrary.org/page/34374448
+- **Locator/read:** p.70 and Plate VI, directly read 2026-11-07.
+- **Species/stage:** historical *Scops magicus* / *Scops leucospilus* material; adult female description and historical adult/juvenile plate.
+- **Facts:** adult female described as dark sandy buff with strong irregular barring; barred wing and tail are visible in the account/plate.
+- **Limit:** historical artwork is not a dated field-development sequence and cannot establish exact juvenile age, flight capacity or iris.
+- **Design use:** broad barred-pattern comparator only; juvenile stage remains age unknown.
+
+### MAG-SANGSTER-2013 — museum-based complex boundary, re-read
+- **Title / authors / year:** “A new owl species of the genus *Otus* from Lombok, Indonesia” / Sangster, King, Verbelen & Trainor / 2013.
+- **DOI / URL:** https://doi.org/10.1371/journal.pone.0053745 ; https://pmc.ncbi.nlm.nih.gov/articles/PMC3564762/
+- **Locator/read:** specimen comparisons and taxonomic discussion (pp.8–11 in article PDF), directly re-read 2026-11-07.
+- **Species/stage:** *Otus magicus* complex adults; Lombok population boundary.
+- **Facts:** museum comparison of 115 specimens; Lombok birds formerly included in broad *O. magicus* are treated as *O. jolandae*. Adult pattern differences support keeping northern-Moluccan leucospilus separate from the Lombok concept.
+- **Limit:** not a developmental study and does not fill chick/juvenile chronology.
+- **Design use:** exclude Lombok *O. jolandae* traits from #141.
+
+### MAG-ITIS-555379-2026 — current and original-name mapping
+- **Title / institution:** ITIS Report — *Otus magicus*, TSN 555379 / Integrated Taxonomic Information System.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555379
+- **Accessed/read:** taxonomy, nomenclature and direct children, 2026-11-07.
+- **Facts:** valid *Otus magicus* (S. Müller, 1841); synonym/original combination *Strix magica* S. Müller, 1841; *O. m. leucospilus* listed among direct subspecies. Current English name Moluccan Scops Owl.
+- **Limit/use:** nomenclature and subspecies mapping only; no morphology or development.
+
+### MAG-LODGE-YOUNG-LEAD-2026 — unverified/excluded lead
+- Search located a lodge page captioned “young Moluccan Scops Owl,” but location/context appear to concern southern/Flores material and the source is non-institutional. The underlying age, taxon and image provenance were not verified. It is excluded from v4 design evidence and retained only as a future lead.
+
+**Run synthesis:** four source records added to the central index (three biological/taxonomic sources plus one uploaded-guide section); Mikkola and Sangster are evidence reused from v3 but directly re-read. Exact juvenile age/iris/flight/bill, sex-size ratio, nest form and full feather chronology remain unknown. Scientific verification remains false.

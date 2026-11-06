@@ -2328,3 +2328,20 @@
 - Steven D. van der Mije, Pepijn Kamminga & René W. R. J. Dekker, 2023, “Type specimens of non-passerines in Naturalis Biodiversity Center (Animalia, Aves),” *ZooKeys* 1155:1–311. DOI: https://doi.org/10.3897/zookeys.1155.98097
 - Accessed 2026-11-06; printed pp.182–183 read. The catalogue maps *Strix atricapilla* Temminck, 1822 to *Megascops atricapilla* and identifies NMW 40468 as the original single Natterer specimen. Later RMNH specimens received under *Otus decussatus* do not have type status. High confidence for name/type provenance only; no morphology, sex or development support.
 - Mappings: current/old name, type provenance. Applied to v4 name mapping.
+
+
+## 2026-11-06 — #134 *Megascops sanctaecatarinae* v4 — manifest-chain repair
+
+### LTSC-PAGANO-2021 — newly indexed primary natural-history synthesis
+- Luis G. Pagano et al., 2021, “Distribución e historia natural del Alilicucú Orejudo o Ribereño (*Megascops sanctaecatarinae*) en Argentina,” *El Hornero* 36(2):51–64. DOI: https://doi.org/10.56178/eh.v36i2.370
+- Accessed 2026-11-06; article abstract, identification/habitat statements and references read. Forty-one records from 18 Misiones localities; voice is key, body size/breast scaling can help, while tuft length and iris colour are not diagnostic. Stream-associated records came from degraded/recovering forest or forest strips in this dataset.
+- Limitation: not a juvenile development series or fixed sex-height formula. Applied to `research/species/134-megascops-sanctaecatarinae-v4.md`.
+
+### LTSC-KACHIMARECK-2014-WA1527488 — newly indexed direct chick record
+- José Kachimareck, WA1527488, photographed 2014-10-08, Curitiba/PR; https://www.wikiaves.com.br/1527488
+- Accessed 2026-11-06. Record metadata explicitly gives sex indeterminate and age “Filhote”; displayed image supports charcoal-gray soft upper body, fine diffuse dark marks, weak head wisps, dark-appearing eyes, open greenish-horn bill and cavity support.
+- Limitation: lower wings/tail/feet, exact age, iris colour, fledging status and flight ability are unseen/unknown. Image linked, not copied.
+
+### LTSC-ITIS-686677 — newly indexed taxonomy mapping
+- Integrated Taxonomic Information System, TSN 686677, accessed 2026-11-06: https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686677&source=to_print
+- Current valid *Megascops sanctaecatarinae*; synonyms *Otus sanctaecatarinae* and *Scops sanctaecatarinae*; English Long-tufted Screech Owl. High confidence for names only; no morphology or development support.

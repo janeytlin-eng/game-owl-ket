@@ -41,3 +41,10 @@
 
 - Immutable archive `c5c422c15b729a231a5d6c5c193a228951fe4b4d` / tree `55b51cc55f0dd0f07ed1a4973b7f5e4eb74daef6` was read back by exact paths. Concept/generated/reviewed master resolve to blob `425e41e155eba3c0626fde0a81219237d8276511`; both crop blobs and all research/review/run/index/manifest/status/batch paths resolved.
 - Result remains PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.
+
+
+## v3 ledger
+
+- Verification commit `c655ae6389f7a3a8f84238bfe47830b82176389b` was read back after archive `c5c422c15b729a231a5d6c5c193a228951fe4b4d` / tree `55b51cc55f0dd0f07ed1a4973b7f5e4eb74daef6`.
+- Cycle 2 credited exactly once; batch `20261107T043300+0800` is 2/6, next cycle 3; lease released.
+- Unique remains 176/251; revision +1; science false.

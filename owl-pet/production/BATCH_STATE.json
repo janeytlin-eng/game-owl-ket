@@ -26955,27 +26955,25 @@
           "archive_commit": "a727778f577fb44e52eb57bfcc163f5c8c8dd146",
           "run_record": "owl-pet/production/runs/20261107T043300+0800-cycle-1.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "species": "Ninox mindorensis",
+          "species_id": 146,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "c655ae6389f7a3a8f84238bfe47830b82176389b",
+          "archive_commit": "c5c422c15b729a231a5d6c5c193a228951fe4b4d",
+          "run_record": "owl-pet/production/runs/20261107T050200+0800-cycle-2.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T050200+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T05:27:00+08:00",
-        "expires_at": "2026-11-07T05:42:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "species_id": 146,
-        "species": "Ninox mindorensis",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T050200+0800-cycle-2",
-        "run_record": "owl-pet/production/runs/20261107T050200+0800-cycle-2.md"
-      },
+      "next_cycle": 3,
+      "active_cycle": null,
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:27:00+08:00",
+      "updated_at": "2026-11-07T05:31:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27150,11 +27148,26 @@
           "verification_result": "PASS_WITH_LIMITATIONS",
           "ledger_credit_pending": true,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T05:31:00+08:00",
+          "species_id": 146,
+          "species": "Ninox mindorensis",
+          "verification_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
+          "archive_commit": "c5c422c15b729a231a5d6c5c193a228951fe4b4d",
+          "batch_progress": "2/6",
+          "next_cycle": 3,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       ],
-      "last_verified_commit": "dfbc353bc7a6fb890675f9aa94f7c8181ccd0dce",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true
+      "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false
     }
   ],
   "lease": {
@@ -32463,12 +32476,35 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T05:42:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261107T043300+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T05:31:00+08:00",
+      "run_id": "20261107T050200+0800-cycle-2",
+      "species_id": 146,
+      "species": "Ninox mindorensis",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
+        "verification_tree": "99c1c9395383076781054f8cf35f99ba83f9e6c2",
+        "archive_commit": "c5c422c15b729a231a5d6c5c193a228951fe4b4d",
+        "archive_tree": "55b51cc55f0dd0f07ed1a4973b7f5e4eb74daef6",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
   "active_batch_id": "20261107T043300+0800",
   "active_cycle": 2,
   "current_stage": "RESEARCH_READY",
-  "next_cycle": 2,
+  "next_cycle": 3,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -44018,7 +44054,7 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "dfbc353bc7a6fb890675f9aa94f7c8181ccd0dce",
-  "completed_cycles": 1
+  "ledger_credit_pending": false,
+  "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
+  "completed_cycles": 2
 }

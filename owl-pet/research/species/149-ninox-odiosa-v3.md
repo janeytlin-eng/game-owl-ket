@@ -47,3 +47,10 @@ Environment: dense New Britain lowland/foothill rainforest, subdued dawn light, 
 Style: match approved tactile high-detail naturalistic 3D owl-pet concept art, scientifically restrained.
 Avoid: imposed dimorphism, female-larger stereotype, long joined V brows, solid dark chest band, neat repeated white wing rows, adult-like juvenile wing/tail, open juvenile eyes, extra birds/limbs, unsupported feet, text errors, watermark.
 ```
+
+
+## Actual generation, edit and review — 2026-11-07T05:57:11+08:00
+
+The generated full plate was viewed. Title, scientific name, exact three-bird count, adult identity, near-equal adult scale and support passed, but the older juvenile showed a long crisp white-spotted folded wing resembling adult remiges. One targeted edit preserved adults, text, forest and support while replacing only that juvenile wing/tail with short, unspotted down-soft contours mostly hidden in fluff. The edited master, juvenile crop and adults/support crop were viewed again. Juvenile eyes remain closed and both feet are fully supported; adults keep separate white brows, yellow irides, pale narrow-streaked underparts and four supported feet. Result PASS_WITH_LIMITATIONS; no claim of exact age, sex-specific plumage, flight ability or full juvenile sequence.
+
+Binary evidence: reviewed master 2,878,850 bytes, SHA-256 `2aaf15ae69a158ad1a21c77155d17fb6443d1efa9d371c4a0d876ffd957dc9ab`, blob `734636d20166ea267a0d419b842b8bf060e22a40`; juvenile crop 652,396 bytes, SHA-256 `bba11ffa080e12f6e598b8ad71e9a862fc5e74053eed240282d0ed5c3e9dccc9`, blob `aa6cbdbd62b21ce11f5e6c913a273e576140efdb`; adults/support crop 1,213,791 bytes, SHA-256 `ea25badf094286189857efa3822a5019064fdbf49cb09cff797e6b896ee7bda5`, blob `fa61bf084e8ee1f302eef803830ff2a09dcc0f77`.

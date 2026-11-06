@@ -65,3 +65,13 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Verification `4d0273366ec170d90b45b0820cdf029396acbf8d` read back after archive `26db941a0a53cc277fcd41ac86aba0311153eca8` / tree `ef17a4abc2fff919376524e2e004d2bd99c41727`.
 - Cycle 3 credited once; batch 3/6, next 4; unique 176/251; science false.
+
+
+## #149 *Ninox odiosa* v3 — 2026-11-07 science revision
+
+- Gould & Sharpe 1884 sexed-male specimen account was read and corrects the generalized dark chest-band shorthand: underbody is predominantly pale with narrow brown shaft-streaks and chocolate breast sides mottled white; separate white brows, yellow iris and irregular scapular/covert white marks are retained.
+- ITIS TSN 555491 records the current name. IUCN and an adult field photograph were reused for range/appearance context.
+- Female size/plumage and the juvenile sequence remain unknown; adults were kept near equal and the juvenile age is not assigned.
+- Initial generated juvenile wing was too long, crisp and adult-spotted. One targeted edit shortened and softened it; edited full image and two crops were viewed.
+- Result: PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=1.
+- Research: `research/species/149-ninox-odiosa-v3.md`; review: `research/reviews/149-ninox-odiosa-v3-review.md`.

@@ -1054,3 +1054,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied correction:** explicitly request a shorter/soft folded wing, short/concealed tail, and removal of repeated white rows while preserving only sparse muted hints.
 - **Verification:** one targeted edit was opened at whole-plate and 560×720 crop scale; wing maturity/mark density improved while all six supports, adults and labels remained intact.
 - **Reuse rule:** for an age-unknown older fledgling, specify both wing length/maturity **and** maximum contrast/density of pale marks; do not infer exact age or flight ability from a visually formed wing.
+
+
+## 2026-11-07 — #146 mistaken-age phrase guard (applied and verified)
+
+- **Problem:** historical specimen prose may contain “young bird” as the collector’s rejected first impression, not a juvenile determination.
+- **Evidence:** McGregor 1904 pp.16–17 immediately identifies the specimen as an adult male and compares it with the female type.
+- **Applied rule:** preserve the quoted context in research, prohibit it as juvenile evidence, and render an explicitly age-unknown juvenile only with closed/downcast eyes, concealed wing/tail and bilateral support.
+- **Verification:** whole plate and two crops were opened; the final image avoided a mature juvenile wing/tail and kept all six foot contacts. This validates one asset-level use, not the species’ unknown juvenile chronology.

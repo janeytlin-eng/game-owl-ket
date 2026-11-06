@@ -23612,7 +23612,70 @@
       "exact_readback": true,
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable tree readback matched thirteen required paths, five exact image tuples and remotely parsed manifest counts 725/726/716; science remains false."
+    },
+    {
+      "id": "113-ninox-natalis-v7",
+      "path": "design/concepts/113-ninox-natalis-v7.png",
+      "species_id": 113,
+      "scientific_name": "Ninox natalis",
+      "historical_names": [
+        "Ninox squamipila natalis",
+        "Ninox forbesi natalis"
+      ],
+      "common_name": "Christmas Island Boobook",
+      "version": 7,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "CIB-DCCEEW-HILL-2004",
+        "CIB-WAM-JOHNSTONE-2016",
+        "CIB-ANDREWS-1900",
+        "CIB-MONTGOMERY-2006-JUV",
+        "CIB-NORMAN-1998",
+        "CIB-ITIS-2025"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/113-ninox-natalis-v7.md",
+      "review_record": "research/reviews/113-ninox-natalis-v7-review.md",
+      "run_record": "production/runs/20261106T143600+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2708588,
+      "sha256": "3466f8460f3eb51263ec41179490d7b6ff8549492e03862392a5346414d363ef",
+      "git_blob": "73e130c555ab1facbe7804e40ad2d82a9ec5bdef",
+      "generated_path": "production/generated/113-ninox-natalis-v7-generated-master.png",
+      "generated_blob": "73e130c555ab1facbe7804e40ad2d82a9ec5bdef",
+      "generated_sha256": "3466f8460f3eb51263ec41179490d7b6ff8549492e03862392a5346414d363ef",
+      "generated_size_bytes": 2708588,
+      "reviewed_path": "production/reviewed/113-ninox-natalis-v7-reviewed-master.png",
+      "reviewed_blob": "73e130c555ab1facbe7804e40ad2d82a9ec5bdef",
+      "juvenile_review_crop": "production/review-crops/113-ninox-natalis-v7-juvenile.png",
+      "juvenile_review_blob": "b387276fbd1c3c4f229ba8456bd75b0d2c8d36c6",
+      "juvenile_review_size_bytes": 719196,
+      "juvenile_review_sha256": "0a0eb5c636ab2af03ced73cb795032e7bf6448b51a1b59edbde26ce593ef170b",
+      "adults_review_crop": "production/review-crops/113-ninox-natalis-v7-adults-support.png",
+      "adults_review_blob": "3bd65183553a037c653e053ab4ae8ee0468ee3d7",
+      "adults_review_size_bytes": 2019807,
+      "adults_review_sha256": "ff9de9b8ae24c035fcdcafe1df5789358736d74331908a923c1cf2181c766ea5",
+      "reviewed_at": "2026-11-06T14:54:00.000+08:00",
+      "readback_pending": true,
+      "archive_note": "V7 preserves v1-v6 and resolves the duplicated conflicting v5 hashes/v6 missing archive chain by creating one unambiguous new version. Adult spots are smaller and sexes remain near equal because measured wing ranges overlap. The direct-photo older juvenile is down-rich with a formed short rounded wing and natural branch support. Exact age, flight threshold, sex ratio and feather map remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T12:55:30.000+08:00"
+  "updated_at": "2026-11-06T14:56:00.000+08:00"
 }

@@ -24,3 +24,12 @@ Imagecommit bb55e7bdfa6e4783ead4eb352cf78e561bb3407a; independentimmutable raw f
 
 ## VERIFIED 2026-10-23 — v5
 Freshly re-read Christmas Island National Park identification and Australian Government recovery-plan habitat account; no stronger continuous juvenile series found. Initial generated juvenile had an adult-length layered wing and long barred tail. Targeted edit shortened/rounded the wing, concealed the tail, retained short formed pale-spotted tips, smooth russet crown, irregular narrow ventral marks and two-foot support. Actual final image reviewed. Exact age, feather sequence, sex ratio and fine pattern remain unknown; scientifically_verified=false. New/reused/corrected sources 0/2/0. Image commit ca4032d3618c5768c5344ee8247310b5e7b91610; 1536×1024 RGB PNG, 2922711 bytes; SHA256 5488d152517a585de99ed85ee1ad2243cb59864e9a23b9f672674eb08a59cd5e; Git blob 0ac539880511a5a55230a2a6a81ad0084b439035. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/ca4032d3618c5768c5344ee8247310b5e7b91610/owl-pet/design/concepts/113-ninox-natalis-v5.png).
+
+## 2026-11-06 — v7 archive reconciliation and science revision
+
+The manifests contain two conflicting v5 SHA-256 entries and v6 had no coherent archive/readback chain. V7 preserves every old path and creates one unambiguous new version. Freshly read evidence: DCCEEW recovery plan printed pp.1–3; WAM information sheet p.1; Andrews 1900 printed pp.47–48; Montgomery juvenile photo actual pixels/caption; Norman 1998 abstract; ITIS TSN 686701.
+
+Adult sexes remain near equal in displayed height because WAM's qualitative “female slightly larger” is not a fixed ratio and Andrews' sexed wing ranges overlap. Adult wing spots are smaller. The centre older juvenile follows Montgomery's actual photo: loose pale down plus a formed short/rounded wing, few irregular pale marks and two-foot branch support. Exact age, sustained flight, sex ratio and feather map remain unknown; scientifically_verified=false. Full/crop review result PASS_WITH_LIMITATIONS.
+
+[Original](../../design/concepts/113-ninox-natalis-v7.png) · [Research](../../research/species/113-ninox-natalis-v7.md) · [Review](../../research/reviews/113-ninox-natalis-v7-review.md) · [Run](../../production/runs/20261106T143600+0800-cycle-4.md)
+

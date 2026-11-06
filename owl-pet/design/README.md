@@ -3218,3 +3218,7 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 `design/concepts/107-strix-fulvescens-v5.png` preserves v1–v4 and applies a source-led adult-iris correction. The full plate plus fledgling and adults/support crops passed after the edit engine’s broader re-render was explicitly re-audited. The young is a directly photographed fledgling of exact age/flight ability unknown; the branch is support, not a nest. `PASS_WITH_LIMITATIONS`; science false. Immutable archive `8f5991f374e65cbefa870124388491724a0a4597` / tree `7f82d3c3f32aa8f393cf7356b4c006de727dd822` returned 3,359 non-truncated entries and exact image/manifest tuples.
 
+## #113 · Christmas Island Boobook — Ninox natalis v7
+
+Science revision and archive reconciliation. V7 preserves v1–v6, resolves conflicting duplicate v5 hashes and the missing v6 archive chain, uses near-equal adult scale because sexed historical wing ranges overlap, reduces oversized adult wing spots, and makes the directly photographed older juvenile down-rich while retaining a formed short rounded wing. Full plate plus juvenile/adults-support crops viewed; PASS_WITH_LIMITATIONS, scientifically_verified=false. Unique species remains 176/251; revision +1. Original: [113-ninox-natalis-v7.png](concepts/113-ninox-natalis-v7.png). Research/review/run: [evidence](../research/species/113-ninox-natalis-v7.md), [review](../research/reviews/113-ninox-natalis-v7-review.md), [cycle 4](../production/runs/20261106T143600+0800-cycle-4.md).
+

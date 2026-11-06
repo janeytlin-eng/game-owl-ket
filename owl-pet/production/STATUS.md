@@ -271,3 +271,7 @@
 
 #107 *Strix fulvescens* v5 archive `8f5991f374e65cbefa870124388491724a0a4597` / tree `7f82d3c3f32aa8f393cf7356b4c006de727dd822` returned 3,359 non-truncated entries; five image tuples and three manifest blobs/counts 723/724/714 passed. Verification commit `d33edbcd1b70ffa23f7efcedf33389f7c488d225` was read back; batch 1/6, next cycle 2, lease released. Unique species 176/251; science false.
 
+## Batch 20261106T123716+0800 cycle 4 — #113 Ninox natalis v7
+
+Stages RESEARCH_READY, IMAGE_GENERATED and REVIEWED are persisted. ARCHIVED metadata prepared at manifest counts 726/727/717; unique species remains 176/251 and revision increment is 1. Full/crop review result PASS_WITH_LIMITATIONS; scientific verification false. Remote archive commit/readback is pending.
+

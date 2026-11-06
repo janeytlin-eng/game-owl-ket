@@ -1635,3 +1635,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 
 - 2026-11-06T12:57:00+08:00: #107 *Strix fulvescens* v5 LEDGER_CREDITED after verification `d33edbcd1b70ffa23f7efcedf33389f7c488d225`; active batch 1/6, next cycle 2, lease released. Unique 176/251; revision +1; science false.
 
+## 2026-11-06 — #113 Ninox natalis v7
+
+- Preserved v1–v6 and created an unambiguous v7 after detecting conflicting duplicate v5 hashes and a missing v6 archive chain.
+- Added/updated six indexed sources, including actual pages and the Montgomery juvenile image; recorded current and historical names.
+- Generated and opened one revised trio plus juvenile and adults/support crops. Adult spots are smaller; adult scale is near equal; the older juvenile is down-rich but retains a formed short rounded wing and natural support.
+- Unique species count unchanged at 176/251; revision +1; scientific verification remains false.
+

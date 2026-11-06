@@ -936,3 +936,9 @@ If a caption says a chick was photographed “about two weeks after discovery”
 ### 2026-11-06 — Overlapping sex-mass ranges block a fixed height formula (#105 v8)
 
 ADW lists overlapping male/female mass ranges, so “female generally heavier” does not license a mechanically taller female. #105 v8 keeps near-equal display height with only subtle fullness. Full plate and juvenile/feet crops also passed the basal-toe feathering and age-unknown formed-wing juvenile checks without edit. This is local visual validation, not a population ratio or scientific sign-off.
+### 2026-11-06 — qualitative sex-size claims versus overlapping measurements
+
+When a secondary institutional account says one sex is “slightly larger” but a primary specimen series shows overlapping sexed measurements, do not turn the qualitative sentence into a fixed height ratio. Use a neutral near-equal display, record the conflict, and reserve any subtle fullness difference as presentation rather than biological measurement. Applied to #113 v7 using WAM 2016 and Andrews 1900; the generated plate was reopened at full and crop scale and the near-equal adult display passed. This validates the conflict-handling workflow for this image, not a universal no-dimorphism rule.
+
+For older juveniles, direct photographs can support both loose down and a formed wing. Do not erase the formed wing merely because the body is fluffy; instead constrain its length, edge softness and marking regularity to the photographed stage. Applied and visually checked in #113 v7; exact age and flight competence remain unknown.
+

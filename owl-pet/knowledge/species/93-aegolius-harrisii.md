@@ -41,3 +41,14 @@ V2 actual plate showed only missing number93. Title-only imagegen output and 620
 ## VERIFIED 2026-10-31T07:10:00+08:00 — 93-aegolius-harrisii-v3
 
 Fixed archive `362281f4d87b5225fefbecfbb149ca9ee940868c`: exact four assets, non-truncated 2253-entry tree, manifests 595/594/585 and support records matched. Title-only edit0; PASS_WITH_LIMITATIONS; unique175/251; sciencefalse.
+
+
+## V4 science revision — 2026-11-06T08:39:48+08:00
+
+- **Problem:** v3's ~24-day nestling looked too mature in long hard wing/tail geometry and repeated pale spot rhythm.
+- **Evidence:** Bodrati et al. 2019, printed pp.151–156, documents sparse dark-grey natal down, adult-like appearance by 24 d and first fledging only at 35–37 d; the same paper leaves sex roles unresolved.
+- **Applied change:** regenerated the whole plate with a 24-day cavity-floor nestling retaining grey down, a shorter/rounder/softer folded wing, concealed short tail, no adult-perfect spot pattern and bilateral support; adults are near equal visible height.
+- **Actual verification:** 1536×1024 plate and two crops opened; exact title/name/count/labels, adult identity, adult support, juvenile stage/support and no-flight boundary passed; edit count 0.
+- **Rule status:** “adult-like by 24 d” may guide face/body identity but must not be expanded into adult-perfect remiges, long tail or flight. Applied and visually verified for v4; external scientific approval remains false.
+
+[Research](../../research/species/93-aegolius-harrisii-v4.md) · [Review](../../research/reviews/93-aegolius-harrisii-v4-review.md)

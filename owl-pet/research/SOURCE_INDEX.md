@@ -2613,3 +2613,22 @@
 - **Decision:** current/old-name mapping only.
 
 **Reused and freshly re-read:** DAV-SCHERZINGER-2014 (Ornithol. Anz. 53:54–93; especially pp.54–55, 59–63, 68–69, 74–76 and Figs.2,5,11,13), DAV-MIK2013-348 (uploaded PDF pp.350–351 / printed pp.348–349), DAV-SCHERZINGER-FANG-2006, DAV-FANG-ETAL-2009. The primary 2014 paper overrides Mikkola’s bold concentric-face depiction and the unsupported “always much larger” female wording; it directly supports the about-four-week nest-box young. Full design boundary: `research/species/132-strix-davidi-v4.md`. Science remains false.
+
+
+## 2026-11-06 — #135 *Otus silvicola* v4 — direct guide conflict and nomenclature
+
+### WSC-MIK2013-183 — new
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Location actually read:** printed p.183; searchable text lines 2972–2977.
+- **Species / stages:** *Otus silvicola*; adult and juvenile.
+- **Evidence:** no data on sexual size differences; long tufts without white inner borders; no pale collar; cold grey-brown upperparts; sparse bold ventral streaks/cross-bars; dull orange-yellow eyes; greyish-horn bill/cere; densely feathered tarsi/toe bases. Juvenile paler/fluffier, more reddish-brown and less distinctly patterned.
+- **Limits:** secondary synthesis; no exact juvenile age, flight threshold or continuous feather sequence. Its “no data” statement conflicts with over-generalizing Mees’s one-pair size direction.
+- **Decision:** v4 uses pose asymmetry but no fixed female-larger ratio; fully feathered transitional immature is bounded by Mees.
+
+### WSC-ITIS-555386-2026 — new
+- **Institution / record:** Integrated Taxonomic Information System, TSN 555386; accessed 2026-11-06.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555386&source=to_print
+- **Evidence:** current valid *Otus silvicola*; synonym/original combination *Scops silvicola*.
+- **Limits / decision:** taxonomy only; supports name mapping, no visual fact.
+
+**Reused and freshly reread:** `WSC-MEES-2006` (printed pp.113–115, especially p.114), `WSC-MARSHALL-1978`, `SLSO-SANGSTER-2013`. Full design boundary and prompt: `research/species/135-otus-silvicola-v4.md`. Science remains false.

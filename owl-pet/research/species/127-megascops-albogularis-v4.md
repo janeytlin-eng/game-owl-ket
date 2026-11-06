@@ -41,3 +41,9 @@ Create a polished 1536×1024 horizontal scientific concept plate in the establis
 
 - Original generated evidence: `owl-pet/production/generated/127-megascops-albogularis-v4-generated-master.png` (1536×1024; 2,920,084 bytes; SHA-256 `71e8e8ff2f3b85bf8cba1084ad87ac24c71e09f542c63f292412277944a1cf8e`).
 - Preliminary comparison: adult identity, pair scale, text, habitat and six-foot support pass. The older juvenile's visible wing is longer and more adult-layered than the saved conservative design boundary; edit required. This is a design defect, not evidence for a mature wing stage.
+
+## REVIEWED — 2026-11-06T21:16:50.017+08:00
+
+- Problem → evidence → modification → recheck: the generated juvenile had a long exposed regular barred wing inconsistent with the selected down-dominant age-unknown boundary → edited only that wing to a compact rounded patch largely buried under down → reopened full image and juvenile/adult-support crops; wing now ends above the feet and does not imply mature remiges.
+- Adult identity, neutral sex scale, exact text/count, six-foot support and humid Andean setting remained intact.
+- Result: PASS_WITH_LIMITATIONS; no scientific verification claimed.

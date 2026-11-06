@@ -23902,11 +23902,28 @@
         }
       ],
       "next_cycle": 5,
-      "active_cycle": null,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
-      "current_stage": "LEDGER_CREDITED",
+      "active_cycle": 5,
+      "active_lease": {
+        "owner": "codex-20261106-owl-production",
+        "run_id": "20261106T182939+0800-cycle-5",
+        "heartbeat_at": "2026-11-06T18:29:39+08:00",
+        "expires_at": "2026-11-06T18:44:39+08:00"
+      },
+      "lease": {
+        "owner": "codex-20261106-owl-production",
+        "run_id": "20261106T182939+0800-cycle-5",
+        "heartbeat_at": "2026-11-06T18:29:39+08:00",
+        "expires_at": "2026-11-06T18:44:39+08:00"
+      },
+      "in_progress": {
+        "cycle": 5,
+        "run_id": "20261106T182939+0800-cycle-5",
+        "species_id": 56,
+        "stage": "STARTED",
+        "started_at": "2026-11-06T18:29:39+08:00",
+        "run_record": "owl-pet/production/runs/20261106T182939+0800-cycle-5.md"
+      },
+      "current_stage": "STARTED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24608,6 +24625,22 @@
             "unique_species_increment": 0,
             "revision_increment": 1,
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 5,
+          "stage": "STARTED",
+          "at": "2026-11-06T18:29:39+08:00",
+          "run_id": "20261106T182939+0800-cycle-5",
+          "species_id": 56,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision #56 Bubo virginianus v2; preserve v1, repair absence from current manifests, retain evidence-backed female size direction without treating it as a universal owl rule, and recalibrate a supported 6–7-week brancher from primary development evidence",
+            "baseline_commit": "70715da2f8e5810ceb073f36699f9a78e314dd75",
+            "prior_version": "owl-pet/design/concepts/56-bubo-virginianus-v1.png",
+            "run_record": "owl-pet/production/runs/20261106T182939+0800-cycle-5.md",
+            "lease_expires_at": "2026-11-06T18:44:39+08:00"
           }
         }
       ]

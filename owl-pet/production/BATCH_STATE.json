@@ -23921,24 +23921,24 @@
       "active_lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:42:26+08:00",
-        "expires_at": "2026-11-06T18:57:26+08:00"
+        "heartbeat_at": "2026-11-06T18:44:37+08:00",
+        "expires_at": "2026-11-06T18:59:37+08:00"
       },
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:42:26+08:00",
-        "expires_at": "2026-11-06T18:57:26+08:00"
+        "heartbeat_at": "2026-11-06T18:44:37+08:00",
+        "expires_at": "2026-11-06T18:59:37+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "run_id": "20261106T183723+0800-cycle-6",
         "species_id": 115,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-11-06T18:37:23+08:00",
         "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md"
       },
-      "current_stage": "IMAGE_GENERATED",
+      "current_stage": "REVIEWED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24876,6 +24876,37 @@
             "edit_needed": null,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-06T18:57:26+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-06T18:44:37+08:00",
+          "run_id": "20261106T183723+0800-cycle-6",
+          "species_id": 115,
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/115-otus-lempiji-v3-reviewed-master.png",
+            "reviewed_blob": "5a2d22e741d2ca2ad4538083325aaa05057e958d",
+            "edit_path": "owl-pet/production/edits/115-otus-lempiji-v3-edit1.png",
+            "edit_count": 1,
+            "review_record": "owl-pet/research/reviews/115-otus-lempiji-v3-review.md",
+            "juvenile_crop": "owl-pet/production/review-crops/115-otus-lempiji-v3-juvenile-cavity.png",
+            "adults_support_crop": "owl-pet/production/review-crops/115-otus-lempiji-v3-adults-feet.png",
+            "reinspection": "edited full plate plus juvenile/cavity and adults/feet crops opened; exact text/count, near-equal dark-eyed adults, all six feet supported, compact irregular down-veiled juvenile wing and unlined natural cavity pass",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "unresolved": [
+              "exact juvenile age",
+              "juvenile sex",
+              "fledging status",
+              "individual flight ability",
+              "nominate feather chronology",
+              "quantitative sex-size direction",
+              "precise subspecific colour"
+            ],
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-06T18:59:37+08:00"
           }
         }
       ]

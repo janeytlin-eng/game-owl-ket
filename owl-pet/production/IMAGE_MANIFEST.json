@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T04:57:00+08:00",
+  "updated": "2026-11-07T05:23:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25846,7 +25846,67 @@
       "verification_tree": "693f84cce146fc7eaeaf90e82d13e012f6980159",
       "ledger_credited": true,
       "ledger_credited_at": "2026-11-07T04:57:00+08:00"
+    },
+    {
+      "id": "146-ninox-mindorensis-v3",
+      "path": "design/concepts/146-ninox-mindorensis-v3.png",
+      "species_id": 146,
+      "scientific_name": "Ninox mindorensis",
+      "historical_names": [
+        "Ninox philippensis mindorensis"
+      ],
+      "common_name": "Mindoro Boobook",
+      "scope": "Adult male and female based on historic Mindoro specimens; conservative age-unknown juvenile with chronology/iris/flight/feather map explicitly unresolved; humid forest branch, not a nest reconstruction",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MINDBOO-MCGREGOR-1904-P16-17",
+        "LZBO-RASMUSSEN-2012-LEAD",
+        "MINDBOO-ITIS-2025",
+        "MINDBOO-CLEMENTS-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/146-ninox-mindorensis-v3.md",
+      "review_record": "research/reviews/146-ninox-mindorensis-v3-review.md",
+      "run_record": "production/runs/20261107T050200+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2383201,
+      "sha256": "f00bb01b9e410937a622c688e97ce6f5514e6e1a26248288d8315d1afcbdd4b4",
+      "git_blob": "425e41e155eba3c0626fde0a81219237d8276511",
+      "generated_path": "production/generated/146-ninox-mindorensis-v3-generated-master.png",
+      "generated_blob": "425e41e155eba3c0626fde0a81219237d8276511",
+      "generated_sha256": "f00bb01b9e410937a622c688e97ce6f5514e6e1a26248288d8315d1afcbdd4b4",
+      "generated_size_bytes": 2383201,
+      "reviewed_path": "production/reviewed/146-ninox-mindorensis-v3-reviewed-master.png",
+      "reviewed_blob": "425e41e155eba3c0626fde0a81219237d8276511",
+      "juvenile_review_crop": "production/review-crops/146-ninox-mindorensis-v3-juvenile.png",
+      "juvenile_review_blob": "45740a585e04dacd294c241de829bf5dd4b140d5",
+      "juvenile_review_size_bytes": 614547,
+      "juvenile_review_sha256": "5d604fbce89d9e39d238c2867b07baf707e7ed1ed0b3ecc655921a276ae825c7",
+      "adult_review_crop": "production/review-crops/146-ninox-mindorensis-v3-adults-support.png",
+      "adult_review_blob": "4e62da05e95fd933fbf859ee63dc0e36bdcc2678",
+      "adult_review_size_bytes": 1274342,
+      "adult_review_sha256": "18927b46776204ed86226f600c20a4cbba7853299b850cde5b8256b21245d14e",
+      "batch_id": "20261107T043300+0800",
+      "cycle": 2,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T05:23:00+08:00",
+      "archive_commit_pending": true,
+      "evidence_limit": "McGregor 1904 supports adult male and sexes-similar comparison; its 'young bird' phrase is explicitly rejected as juvenile evidence. Juvenile chronology, iris, flight, exact feather map, pair-specific sex ratio and nest site remain unknown."
     }
   ],
-  "updated_at": "2026-11-07T04:57:00+08:00"
+  "updated_at": "2026-11-07T05:23:00+08:00"
 }

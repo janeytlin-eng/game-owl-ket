@@ -26,3 +26,12 @@
 - Run: `production/runs/20261031T234400+0800-cycle-6.md`
 - Reviewed master: `production/reviewed/146-ninox-mindorensis-v2-reviewed-master.png`
 - Review crops: `production/review-crops/146-ninox-mindorensis-v2-juvenile.png`, `production/review-crops/146-ninox-mindorensis-v2-adult-pattern-feet.png`
+
+
+## v3 — 2026-11-07 science revision
+
+- Primary adult evidence added: Richard C. McGregor, 1904, *Bulletin of the Philippine Museum* no.3, printed pp.16–17. The adult male has narrow buff barring, dark throat shaft-stripes, large white throat-side/scapular areas, tawny-buff barred underparts, white undertail and a narrowly buff-barred dark tail; comparison says sexes are similar.
+- The same source's initial “young bird” impression is rejected by the author’s adult determination and is not used as juvenile evidence.
+- Final v3 uses a closed-eyed, wing/tail-concealed, age-unknown juvenile on bilateral branch support. Exact chronology, iris, flight and feather map remain unknown.
+- Review: PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=0.
+- Research: `research/species/146-ninox-mindorensis-v3.md`; review: `research/reviews/146-ninox-mindorensis-v3-review.md`; concept: `design/concepts/146-ninox-mindorensis-v3.png`.

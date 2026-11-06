@@ -26962,20 +26962,20 @@
       "lease": {
         "owner": "codex",
         "run_id": "20261107T050200+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T05:19:00+08:00",
-        "expires_at": "2026-11-07T05:34:00+08:00"
+        "heartbeat_at": "2026-11-07T05:23:00+08:00",
+        "expires_at": "2026-11-07T05:38:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
         "species_id": 146,
         "species": "Ninox mindorensis",
         "version": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261107T050200+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T050200+0800-cycle-2.md"
       },
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:19:00+08:00",
+      "updated_at": "2026-11-07T05:23:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27118,10 +27118,28 @@
           "edit_count": 0,
           "review_record": "owl-pet/research/reviews/146-ninox-mindorensis-v3-review.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T05:23:00+08:00",
+          "species_id": 146,
+          "species": "Ninox mindorensis",
+          "concept": "owl-pet/design/concepts/146-ninox-mindorensis-v3.png",
+          "manifest_counts": {
+            "design_image": 754,
+            "design_legacy": 755,
+            "production": 745
+          },
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "readback_pending": true,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "dfbc353bc7a6fb890675f9aa94f7c8181ccd0dce",
-      "current_stage": "REVIEWED",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false
     }
   ],
@@ -32377,6 +32395,31 @@
         "full_and_crops_opened": true,
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T05:34:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261107T043300+0800",
+      "cycle": 2,
+      "stage": "ARCHIVED",
+      "at": "2026-11-07T05:23:00+08:00",
+      "run_id": "20261107T050200+0800-cycle-2",
+      "species_id": 146,
+      "species": "Ninox mindorensis",
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/146-ninox-mindorensis-v3.png",
+        "concept_blob": "425e41e155eba3c0626fde0a81219237d8276511",
+        "manifest_counts": {
+          "design_image": 754,
+          "design_legacy": 755,
+          "production": 745
+        },
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "readback_pending": true,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T05:38:00+08:00"
       }
     }
   ],

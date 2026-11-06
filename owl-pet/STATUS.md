@@ -3683,3 +3683,5 @@ Verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` read back after archive 
 ### #145 v3 LEDGER_CREDITED — batch 1/6
 
 Verification commit `dfbc353bc7a6fb890675f9aa94f7c8181ccd0dce` was read back after immutable archive `a727778f577fb44e52eb57bfcc163f5c8c8dd146` / tree `14b3f922997be529ca69dc1f52c3728130c8578b`. Cycle 1 is credited exactly once; batch `20261107T043300+0800` is PARTIAL 1/6 with next_cycle=2 and lease released. Unique species remains 176/251; revision +1; science false.
+
+- 2026-11-07 #146 *Ninox mindorensis* v3 ARCHIVED in batch `20261107T043300+0800` cycle 2: concept/master/crops and manifests persisted; unique species remains 176/251, revision +1, readback pending, science false.

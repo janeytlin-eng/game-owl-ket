@@ -2419,3 +2419,24 @@
 - **Species / names:** valid *Otus lempiji* (Horsfield, 1821); synonym *Strix lempiji*. ITIS nominate-subspecies record maps historical *Otus bakkamoena lempiji* to *Otus lempiji lempiji*.
 - **Limits / confidence:** taxonomy only; no morphology, sex-size or development evidence.
 - **Decision links:** current/old-name mapping for #115 v3.
+
+
+## 2026-11-06 — #116 *Margarobyas lawrencii* v4
+
+### BLO-KIRKCONNELL-WILEY-2017
+- **Title / authors / year:** *Zapata Peninsula: important breeding sites for Cuban endemic birds are endangered!* / Arturo Kirkconnell & James W. Wiley / 2017.
+- **URL:** https://www.neotropicalbirdclub.org/cotinga/C39_online/Kirkconnell%20%26%20Wiley.pdf
+- **Accessed / type:** 2026-11-06 / primary multi-year field survey, *Cotinga* 39:10–23.
+- **Species / stage:** *Margarobyas lawrencii*; breeding pairs and active cavities, 2006–12.
+- **Useful evidence:** printed pp.11, 13–15, Tables 1–2; Bare-legged Owl was recorded breeding in active cavities at Bermeja and Mera-Molina in seasonally inundated forest with sabal palm savanna. Loss of standing cavity-bearing palms reduced available nest sites.
+- **Limits / confidence:** population/cavity-habitat evidence, not a nestling morphology or sex-size study; palm cavity is locally supported, not universal. High for the surveyed sites.
+- **Decision links:** #116 v4 uses a natural standing-palm cavity entrance and no constructed nest; exact cavity geometry remains unknown. Applied to `research/species/116-margarobyas-lawrencii-v4.md`.
+
+### BLO-SUAREZ-2022-CATALOGUE
+- **Title / author / year:** *Catalogue of Cuban fossil and subfossil birds* / William Suárez / 2022.
+- **DOI / URL:** https://doi.org/10.25226/bboc.v142i1.2022.a3 / https://bioone.org/journals/bulletin-of-the-british-ornithologists-club/volume-142/issue-1/bboc.v142i1.2022.a3
+- **Accessed / type:** 2026-11-06 / peer-reviewed museum catalogue and comparative osteology review.
+- **Species / stage:** *Margarobyas lawrencii*; modern/fossil adults, taxonomic history.
+- **Useful evidence:** printed pp.59–60; comparisons included >30 modern individuals, documented broad size/osteological and external variation, treated western `exsul` as invalid, and mapped historical `Gymnoglaux` material to *Margarobyas lawrencii*.
+- **Limits / confidence:** no living sexed body-size table or juvenile feather sequence; does not justify a plate-ready male/female ratio. High for name mapping and variability boundary.
+- **Decision links:** v4 keeps adults near-equal and does not assign a rigid subspecies morph or universal female-larger rule.

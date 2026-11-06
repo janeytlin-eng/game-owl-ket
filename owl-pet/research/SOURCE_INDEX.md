@@ -2593,3 +2593,23 @@
 - **Decision:** v4 current/old-name mapping only.
 
 **Reused/re-read:** WAT-DANTAS-2021 (journal page; prior PDF pp.402, 406–407, 427–428), WAT-MIK2013-235 (uploaded PDF p.237 / printed p.235), WAT-DAFFONSECA-2017, WAT-SCAUP-2024, WAT-BARROS-CINTRA-2009. The uploaded guide explicitly says the juvenile is not known; the v4 young therefore remains the directly photographed age-unknown Manaus stage. Full prompt and boundaries: `research/species/131-megascops-watsonii-v4.md`. Science remains false.
+
+
+## 2026-11-06 — #132 *Strix davidi* v4 — primary revision and current lumped-name mapping
+
+### DAV-IOC-15.1-LUMP-2026 — new
+- **Title / institution / version:** IOC World Bird List, Species Updates / International Ornithologists’ Union / v15.1; accessed 2026-11-06.
+- **URL:** https://www.worldbirdnames.org/new/updates/species-updates/
+- **Actually read:** current species-update table and the Pere David’s Owl change entry. IOC deleted separate *Strix davidi* and accepted treatment under Ural Owl because the published material shows broad plumage and vocal overlap with *S. uralensis*.
+- **Species / stage:** davidi taxon; nomenclature only.
+- **Limits / confidence:** current checklist decision, not juvenile morphology. High for IOC treatment; it does not erase the repository’s historical project ID.
+- **Decision:** #132 remains stable for the 251-item roster, while the research record maps current name *Strix uralensis davidi* and historical *Strix davidi* / *Syrnium davidi*.
+
+### DAV-ITIS-686975-2026 — new
+- **Institution / record:** Integrated Taxonomic Information System, TSN 686975; accessed 2026-11-06.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686975
+- **Actually read:** lines 42–103. Valid subspecies *Strix uralensis davidi*; synonyms *Strix davidi* and original *Syrnium davidi*; ITIS cites IOC v15.1 and HBW/BirdLife.
+- **Limits / confidence:** taxonomy only; no plumage, sex-size or development claim. High for name crosswalk.
+- **Decision:** current/old-name mapping only.
+
+**Reused and freshly re-read:** DAV-SCHERZINGER-2014 (Ornithol. Anz. 53:54–93; especially pp.54–55, 59–63, 68–69, 74–76 and Figs.2,5,11,13), DAV-MIK2013-348 (uploaded PDF pp.350–351 / printed pp.348–349), DAV-SCHERZINGER-FANG-2006, DAV-FANG-ETAL-2009. The primary 2014 paper overrides Mikkola’s bold concentric-face depiction and the unsupported “always much larger” female wording; it directly supports the about-four-week nest-box young. Full design boundary: `research/species/132-strix-davidi-v4.md`. Science remains false.

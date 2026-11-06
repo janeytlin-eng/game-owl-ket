@@ -2522,3 +2522,26 @@
 - **Decision links:** v4 retains the current name while recording both older combinations; no visual trait is derived.
 
 - Reused after direct re-read: `WTSO-PERUAVES-PHOTOS2019` (adult and Piura juvenile photo labels; c.26 cm, dusky adult, amber iris, white throat, rufous belly, humid montane forest 1,800–2,700 m), `WTSO-NCBI714938-MAPPING`, and `WTSO-MACAULAY-1980`. Prior Mikkola extraction `WTSO-MIK2013-249` was reused; the uploaded guide itself was not mounted in this execution. Full prompt and uncertainty boundary: `research/species/127-megascops-albogularis-v4.md`. Science remains false.
+
+
+## 2026-11-06 — #129 *Megascops hoyi* v4 — original description, taxonomy, adult and fledged-young boundary
+
+### HOY-KS1989-P4 — newly indexed primary original description
+- Claus König & Roberto J. Straneck, 1989, original description of *Otus hoyi*, *Stuttgarter Beiträge zur Naturkunde*, Serie A (Biologie) 428, printed p.4; PDF page screenshot actually viewed: https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Megascops/Megascops%20hoyi%20(Konig%20&%20Straneck)%201989,%20Stuttgarter%20Beitrage%20zur%20Naturkunde,%20ser.%20A_%20Biologie,%20No.PDF
+- Brown-morph male/female type descriptions support short tufts, pale-yellow iris, gray-green bill/cere, yellowish-gray toes, irregular dark shaft lines with 2–3 branches, two spade-tip breast rows, pale scapular shoulder marks and measurements/weights. A single type pair cannot define a universal sex-size ratio. High confidence for type morphology; adult only.
+
+### HOY-ITIS-686675-2026 — newly indexed current/old-name mapping
+- Integrated Taxonomic Information System, TSN 686675, accessed 2026-11-06: https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686675&source=to_print
+- Current valid *Megascops hoyi*; synonym/original combination *Otus hoyi*. Taxonomy only; no morphology or development inference. High confidence for nomenclature.
+
+### HOY-KOENIG-2000 — directly re-read adult field photograph
+- Claus König, brown-morph male vocalising in montane forest near Salta, northern Argentina, c.1500 m, September 2000: https://www.owlpages.com/owls/species.php?i=232
+- Adult identity and montane context only; posture and lighting are not universal, and this is not juvenile evidence.
+
+### HOY-SIB-ARG — directly re-read institutional species record
+- Administración de Parques Nacionales Argentina, SIB species page, accessed 2026-11-06: https://sib.gob.ar/especies/megascops-hoyi
+- Current name/authorship, *Otus hoyi* synonym and protected-area presence. Taxonomy/distribution only.
+
+### HOY-MIK2013-228 — prior uploaded-guide extraction reused with explicit limit
+- Heimo Mikkola, *Owls of the World* (2013), printed p.228 / uploaded PDF p.230; prior repository extraction reused because the upload was not mounted this run.
+- Supports fledged young as adult-like but fluffier and without visible ear tufts; no exact age, wing length, flight threshold or continuous development sequence. Secondary specialist synthesis; not a replacement for missing primary development research.

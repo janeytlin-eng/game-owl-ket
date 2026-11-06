@@ -23869,7 +23869,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MLO-RDR-GOODMAN2003",
         "MLO-VASSEN2013-COMMONS",
@@ -23905,8 +23905,58 @@
       "adults_review_size_bytes": 844275,
       "adults_review_sha256": "58ccd182b9810f02490c0aaa57838ff32f289076392be3bfb9eadffc5dad5dc3",
       "reviewed_at": "2026-11-06T12:37:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, newly indexes the full original chapter plus three dated photo pages. One edit shortens/down-fringes the older mesoptile wing, conceals the tail and extends adult feathering over proximal toe bases. Full plate and juvenile/feet crops pass. The figure is separate from the measured brood; exact juvenile age/sex/iris/molt/flight, toe map, population size ratio and nest generality remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, newly indexes the full original chapter plus three dated photo pages. One edit shortens/down-fringes the older mesoptile wing, conceals the tail and extends adult feathering over proximal toe bases. Full plate and juvenile/feet crops pass. The figure is separate from the measured brood; exact juvenile age/sex/iris/molt/flight, toe map, population size ratio and nest generality remain unknown; science false.",
+      "archive_commit": "5136bfaebec9ee8b71d6581cc6d7b50fd134c523",
+      "archive_tree": "28c58d7f2a7cd1d37e81a1b8634fa76e0bb28c74",
+      "verified_at": "2026-11-06T12:43:00.000+08:00",
+      "verification_result": "archive tree returned 3343 non-truncated entries; concept/generated/edit/reviewed and two review crops matched exact path/blob/byte tuples; three manifest blobs matched exact committed SHAs with expected parsed counts 722/721/712",
+      "exact_readback": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "5136bfaebec9ee8b71d6581cc6d7b50fd134c523",
+        "archive_tree": "28c58d7f2a7cd1d37e81a1b8634fa76e0bb28c74",
+        "tree_entries": 3343,
+        "truncated": false,
+        "manifest_counts": {
+          "design": 722,
+          "legacy": 721,
+          "production": 712
+        },
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/104-asio-madagascariensis-v5.png",
+            "blob": "6917bd324d0693d2c7c98f94b57d0ddec6aa363e",
+            "size_bytes": 2653492
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/104-asio-madagascariensis-v5-generated-master.png",
+            "blob": "161e1eaea00b852b03d6d2f62b131898bfd3d45d",
+            "size_bytes": 2818787
+          },
+          "edit": {
+            "path": "owl-pet/production/edits/104-asio-madagascariensis-v5-edit1.png",
+            "blob": "6917bd324d0693d2c7c98f94b57d0ddec6aa363e",
+            "size_bytes": 2653492
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/104-asio-madagascariensis-v5-reviewed-master.png",
+            "blob": "6917bd324d0693d2c7c98f94b57d0ddec6aa363e",
+            "size_bytes": 2653492
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/104-asio-madagascariensis-v5-juvenile.png",
+            "blob": "4c8b26027af901382ea3cee3bc9f4e093da75293",
+            "size_bytes": 642712
+          },
+          "feet_crop": {
+            "path": "owl-pet/production/review-crops/104-asio-madagascariensis-v5-feet.png",
+            "blob": "acff88e4ebd0dbb3ad3469860d05befd31745121",
+            "size_bytes": 844275
+          }
+        },
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-11-06T11:57:00.000+08:00"

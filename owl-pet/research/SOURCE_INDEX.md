@@ -1,3 +1,39 @@
+
+
+## 2026-11-06 — #96 *Aegolius ridgwayi* v5 — recent-fledgling / natural-cavity boundary
+
+### RID-CARMAN-SILES-ANGULO-2025-P127-128
+- **Title / authors / year:** “Nesting ecology of the Unspotted Saw-whet Owl (*Aegolius ridgwayi*) in Costa Rica” — Carman, Siles & Angulo-Irola, 2025 conference abstract.
+- **URL / pages / accessed:** https://www.raptorresearchfoundation.org/wp-content/uploads/2025/10/FINAL-2025-RRF-CONFERENCE-PROGRAM.pdf ; printed pp.127–128; read 2026-11-06.
+- **Type / species / stage:** primary 2014–2024 nest monitoring summary; adults, eggs and nestling period.
+- **Facts:** 11 active nests at 2,800–3,200 m; nine natural damage/decay cavities (seven *Escallonia myrtilloides*, two *Quercus costaricensis*) and two boxes; natural sites 4–15 m high; clutch two; incubation 28–30 d; nestling period 30–32 d.
+- **Limits / design use:** conference abstract without individual plumage chronology; the population nestling period cannot age a photographed juvenile. Supports a natural-decay cavity/highland context and an age-unknown post-cavity stage only.
+
+### RID-EISERMANN-AVENDANO-2018-P178
+- **Title / authors / year:** *The owls of Guatemala* — Knut Eisermann & Claudia Avendaño, 2018.
+- **URL / page / accessed:** https://www.biodiversitylibrary.org/page/56222494 ; BBOC 138, printed p.178; read 2026-11-06.
+- **Type / facts:** peer-reviewed regional synthesis with breeding records; mainly Guatemala highlands 1,900–3,700 m and first breeding records in 2008–2015.
+- **Limits / design use:** distribution/breeding context, not a juvenile ageing source.
+
+### RID-ITIS-686697-2026
+- **Institution / URL / accessed:** ITIS, TSN 686697; https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686697 ; accessed 2026-11-06.
+- **Facts:** valid *Aegolius ridgwayi*; synonym/name records include *Cryptoglaux ridgwayi* and historical infraspecific combinations.
+- **Limits / design use:** taxonomy mapping only.
+
+### RID-AVIBASE-RIDGWAYI-2026
+- **Institution / URL / accessed:** Birds Canada/Avibase; https://avibase.bsc-eoc.org/species.jsp?avibaseid=2FE709CA54EADE7E ; accessed 2026-11-06.
+- **Facts:** protonym *Cryptoglaux ridgwayi* Alfaro, 1905; type locality near Escazú, Costa Rica.
+- **Limits / design use:** nomenclature only.
+
+### RID-CAYAYA-EISERMANN-JUV-PHOTO-2026
+- **Title / author / URL / accessed:** juvenile *Aegolius ridgwayi* photograph — Knut Eisermann / Bird Studies Guatemala (Cayaya Birding); https://www.cayaya-birding.com/juvenile-unspotted-saw-whet-owl-aegolius-ridgwayi/ ; image viewed 2026-11-06.
+- **Type / stage / facts:** reliable field photograph; age-unknown down-rich older juvenile/recent fledgling with warm-brown body, pale facial markings, bright yellow eyes, compact short/hidden wing-tail geometry and natural branch support.
+- **Limits / design use:** no exact date, age, sex or flight test; visual boundary only, not proof of 30–32 d age or flight ability.
+
+### Reuse and corrected boundaries
+- Reused repository extract `RID-MIK2013-446`; uploaded guide itself was unavailable, so no fresh page read is claimed.
+- Corrected four boundaries: nestling-period mean ≠ individual age; branch presence ≠ flight competence; one Costa Rican cavity sample ≠ universal nest template; adult labels ≠ visible sex-dimorphism proof. New5 / reused1 / corrected4; scientific status false.
+- Links: `research/species/96-aegolius-ridgwayi-v5.md`; planned v5; run `production/runs/20261106T093650+0800-cycle-4.md`.
 ## 2026-11-06 — #83 *Otus brucei* v5 — Jordan recent-fledgling boundary and current/old-name mapping
 
 ### BRU-KHOURY-ALSHAMLIH-DHEIB-2021-P286-287

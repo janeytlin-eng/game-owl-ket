@@ -150,3 +150,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 - The initial plate passed adult identity, labels/count and support, but the juvenile wing/tail read too adult-like.
 - One targeted edit shortened/softened only the juvenile wing and tail while retaining its documented white juvenile face, open eyes and stable perch.
 - Edited full image plus juvenile and adults/support crops were opened. PASS_WITH_LIMITATIONS; scientifically_verified=false.
+
+
+## #153 v3 immutable archive verification
+
+- Archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd` / tree `8dfe17c657c749a822c2714905b3808854bd0d70` resolved 19 required paths; six binary paths matched exact expected Git blobs. Manifests parsed 760/761/751 with one #153 v3 entry each.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.

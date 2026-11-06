@@ -1663,3 +1663,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added Naturalis type-catalogue crosswalk and two actually viewed Cornell/Macaulay assets, including an immature documented to retain white juvenile facial feathers while capable of short flight and perching.
 - One targeted juvenile wing/tail edit; full plate and two crops passed with limitations.
 - Manifests 760/761/751; unique 176/251; scientifically_verified=false; immutable readback pending.
+
+- 2026-11-07T06:58:20+08:00: #153 v3 VERIFIED at archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd`, tree `8dfe17c657c749a822c2714905b3808854bd0d70`; 19 paths, six exact binary identities and manifests 760/761/751 passed; ledger credit pending; science false.

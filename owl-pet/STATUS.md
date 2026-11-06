@@ -3747,3 +3747,6 @@ Verification `92df887e6da967619a4b6aa9780627e99bbdd7d6` was read back after arch
 
 
 - 2026-11-07 #153 *Jubula lettii* v3 ARCHIVED in batch `20261107T062903+0800` cycle 2: one juvenile-only wing/tail edit; concept/original/reviewed/crops/manifests persisted. Unique remains 176/251, revision +1, readback pending, science false.
+
+
+- #153 v3 VERIFIED: archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd` / tree `8dfe17c657c749a822c2714905b3808854bd0d70`; 19 paths and six exact image blobs passed. Manifests 760/761/751. Ledger pending; science false.

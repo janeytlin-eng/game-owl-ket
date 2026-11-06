@@ -39,3 +39,9 @@
 - Fourteen required paths returned exact blob identities. Concept, generated and reviewed originals all equal Git blob `4b99914d3aaae28e5595a2d8cd84e5e75ff0cfcc`; local `git hash-object` matches the remote blob. Crops also match their expected blobs.
 - Large binary/text bodies were not returned by the connector, so verification is blob-identity/readability rather than a second byte-stream SHA-256 calculation; manifest blob identities and locally parsed counts 753/754/744 match the committed objects.
 - Result `PASS_WITH_LIMITATIONS`; ledger credit pending; science false.
+
+## v3 LEDGER_CREDITED — 2026-11-07T04:57:00+08:00
+
+- Verification commit `dfbc353bc7a6fb890675f9aa94f7c8181ccd0dce` was read back after archive `a727778f577fb44e52eb57bfcc163f5c8c8dd146` / tree `14b3f922997be529ca69dc1f52c3728130c8578b`.
+- Cycle 1 credited exactly once; batch `20261107T043300+0800` is 1/6, next cycle 2; lease released.
+- Unique remains 176/251; revision +1; science false.

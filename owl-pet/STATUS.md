@@ -3678,3 +3678,8 @@ Verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` read back after archive 
 
 - Archive `a727778f577fb44e52eb57bfcc163f5c8c8dd146`, tree `14b3f922997be529ca69dc1f52c3728130c8578b`; 14 required paths and five exact binary path/blob tuples passed. Original concept/generated/reviewed image is Git blob `4b99914d3aaae28e5595a2d8cd84e5e75ff0cfcc`, 2,344,448 bytes locally, SHA-256 `8e7ebfce5ac6e27c6ea1a8e447bb4c1f581468cac913504f2efff5609b4469ff`.
 - Connector did not return large bodies or a recursive tree listing; exact Git blob identities plus immutable-path fetches were used. Manifest counts 753/754/744; unique remains 176/251; science false; ledger credit pending.
+
+
+### #145 v3 LEDGER_CREDITED — batch 1/6
+
+Verification commit `dfbc353bc7a6fb890675f9aa94f7c8181ccd0dce` was read back after immutable archive `a727778f577fb44e52eb57bfcc163f5c8c8dd146` / tree `14b3f922997be529ca69dc1f52c3728130c8578b`. Cycle 1 is credited exactly once; batch `20261107T043300+0800` is PARTIAL 1/6 with next_cycle=2 and lease released. Unique species remains 176/251; revision +1; science false.

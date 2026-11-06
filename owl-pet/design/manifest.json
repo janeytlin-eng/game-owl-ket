@@ -24923,7 +24923,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "PSO-SANCHEZ-2012",
         "PSO-GMA-PENRO-2015",
@@ -24961,9 +24961,18 @@
       "adults_review_size_bytes": 1775379,
       "adults_review_sha256": "958bf41a7ef088813c76c920c4c831dd8fed04370f94576fcab0ee7527c99a18",
       "reviewed_at": "2026-11-06T20:48:58.635+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3. New primary survey evidence refines lowland habitat, ivory/horn bill, subdued warm eye and feathered-tarsus boundaries; a rescue report is used only to prevent a competent-flight inference. One juvenile-wing edit removed the long orderly adult-like panel. Exact age/sex/healthy flight/iris chronology/literal feather sequence/standing-height ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3. New primary survey evidence refines lowland habitat, ivory/horn bill, subdued warm eye and feathered-tarsus boundaries; a rescue report is used only to prevent a competent-flight inference. One juvenile-wing edit removed the long orderly adult-like panel. Exact age/sex/healthy flight/iris chronology/literal feather sequence/standing-height ratio remain unknown; science false.",
+      "archive_commit": "74f06c07cb7e30050cbbf8dbee256d4ad6a3a942",
+      "archive_tree": "9a81599dcd5c333b3dae4df975b0f3db2d045c31",
+      "archive_tree_entries": 3485,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 6,
+      "verified_at": "2026-11-06T20:51:39.123+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable archive commit/tree readback returned 3,485 non-truncated entries; all 16 required paths and 6 exact image blob/byte tuples matched. Three manifests parsed at 737/738/728; concept fetch returned the expected master blob. Scientific status remains false."
     }
   ],
   "updated_at": "2026-11-06T19:55:10+08:00"

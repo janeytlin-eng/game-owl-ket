@@ -23818,7 +23818,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "SWFO-ADW-2014",
         "SWFO-ITIS-686682",
@@ -23850,8 +23850,48 @@
       "adults_review_size_bytes": 879642,
       "adults_review_sha256": "d618f70cb1afafa211a989014cd03fc9a6f2b2868fc10fff0859167b87fbad42",
       "reviewed_at": "2026-11-06T13:01:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V8 preserves v1-v7, newly indexes reopened ADW/ITIS and reuses the hospital older-juvenile record. Full and two crops pass without edit: adults near-equal with basal-toe feathering; age-unknown juvenile has compact down-fringed wing, concealed tail and support. Exact chronology/flight/ratio/toe map unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V8 preserves v1-v7, newly indexes reopened ADW/ITIS and reuses the hospital older-juvenile record. Full and two crops pass without edit: adults near-equal with basal-toe feathering; age-unknown juvenile has compact down-fringed wing, concealed tail and support. Exact chronology/flight/ratio/toe map unknown; science false.",
+      "archive_commit": "40d4d92ff586f5bba1af258219313780ed749c3a",
+      "archive_tree": "8bc669683cb6468e93faec2355940c2b5cee0c89",
+      "verified_at": "2026-11-06T13:08:00.000+08:00",
+      "verification_result": "archive tree returned 3351 non-truncated entries; concept/generated/reviewed and two review crops matched exact path/blob/byte tuples; manifests expected counts 723/722/713",
+      "exact_readback": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "40d4d92ff586f5bba1af258219313780ed749c3a",
+        "archive_tree": "8bc669683cb6468e93faec2355940c2b5cee0c89",
+        "tree_entries": 3351,
+        "truncated": false,
+        "manifest_counts": {
+          "design": 723,
+          "legacy": 722,
+          "production": 713
+        },
+        "assets": {
+          "owl-pet/design/concepts/105-ptilopsis-granti-v8.png": {
+            "blob": "eb7ee7200e7cffcc1100cfaf5bb9a8b32268966c",
+            "size_bytes": 2989090
+          },
+          "owl-pet/production/generated/105-ptilopsis-granti-v8-generated-master.png": {
+            "blob": "eb7ee7200e7cffcc1100cfaf5bb9a8b32268966c",
+            "size_bytes": 2989090
+          },
+          "owl-pet/production/reviewed/105-ptilopsis-granti-v8-reviewed-master.png": {
+            "blob": "eb7ee7200e7cffcc1100cfaf5bb9a8b32268966c",
+            "size_bytes": 2989090
+          },
+          "owl-pet/production/review-crops/105-ptilopsis-granti-v8-juvenile.png": {
+            "blob": "6815b07dfeb6610e3f4f0a8825a314cf717a1580",
+            "size_bytes": 578859
+          },
+          "owl-pet/production/review-crops/105-ptilopsis-granti-v8-feet.png": {
+            "blob": "fb3f46bb7ac020ea7e3e6f975a25d2e186267685",
+            "size_bytes": 879642
+          }
+        },
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-11-06T11:57:00.000+08:00"

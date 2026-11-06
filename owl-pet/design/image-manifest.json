@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:11:39+08:00",
+  "updated": "2026-11-07T06:37:21+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26735,7 +26735,72 @@
       "verification_commit": "92df887e6da967619a4b6aa9780627e99bbdd7d6",
       "verification_tree": "36b1cea170115fb9c191581fc85411bd6dae4899",
       "ledger_credited_at": "2026-11-07T06:11:39+08:00"
+    },
+    {
+      "id": "151-athene-jacquinoti-v3",
+      "path": "design/concepts/151-athene-jacquinoti-v3.png",
+      "species_id": 151,
+      "scientific_name": "Athene jacquinoti",
+      "historical_names": [
+        "Ninox jacquinoti",
+        "Athene taeniata",
+        "Solomons Boobook"
+      ],
+      "common_name": "West Solomons Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新增并实际查看MNHN雄性正模照片与Cornell/eBird活体影像；成鸟锈褐上体、稀疏不规则浅斑、白喉及奶油色腹面不规则褐纹，橙眼；雌雄近等尺度，未套用雌大规则。首图幼鸟翼过长且分层清晰，edit1仅缩短/绒化幼鸟翼并隐尾；整图及两裁图复查通过。洞口线索被省略但未编造巢材。PASS_WITH_LIMITATIONS；幼鸟日龄/羽序/飞行、雌雄体型方向、亚种差异及巢内容未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "WSO-CORNELL-CLEMENTS-2022",
+        "WSO-MNHN-VOISIN-2011-P26",
+        "WSO-MNHN-2010-270",
+        "WSO-ITIS-1063526",
+        "WSO-MACAULAY-NEST-2010",
+        "WSO-MNHN-HOLOTYPE-PHOTO-2026",
+        "WSO-EBIRD-IMAGE-262766631"
+      ],
+      "unverified_leads": [
+        "WSO-BONAPARTE-1850-P42-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--151-athene-jacquinoti-v3-evidence-refresh",
+      "research_record": "research/species/151-athene-jacquinoti-v3.md",
+      "run_record": "production/runs/20261107T062903+0800-cycle-1.md",
+      "review_record": "research/reviews/151-athene-jacquinoti-v3-review.md",
+      "reviewed_at": "2026-11-07T06:37:21+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "6a9163bf7116c7b3aeb160b7aa2ddf33e0133a7e2f39d01cb19b41f3e447b124",
+      "size_bytes": 2591495,
+      "git_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
+      "generated_path": "production/generated/151-athene-jacquinoti-v3-generated-master.png",
+      "generated_blob": "d1b29bf3608001020ab126033bab58e13c4a582d",
+      "generated_sha256": "bc0ed49402f16d44306e538a7474e7d69bc51a6445af7431f958886b3d7ca19f",
+      "generated_size_bytes": 2844522,
+      "intermediate_edit_path": "production/generated/151-athene-jacquinoti-v3-edit1.png",
+      "intermediate_edit_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
+      "reviewed_path": "production/reviewed/151-athene-jacquinoti-v3-reviewed-master.png",
+      "reviewed_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
+      "reviewed_sha256": "6a9163bf7116c7b3aeb160b7aa2ddf33e0133a7e2f39d01cb19b41f3e447b124",
+      "reviewed_size_bytes": 2591495,
+      "review_crop_path": "production/review-crops/151-athene-jacquinoti-v3-older-juvenile.png",
+      "review_crop_blob": "dbf7e990f82a09403eb9b95291e78f123d0e06a4",
+      "review_crop_sha256": "e9ac4a70e94ceb6715965514168efc3f5eea098da36138c87ec8ff4b80781d0c",
+      "review_crop_size_bytes": 651920,
+      "auxiliary_review_crop_path": "production/review-crops/151-athene-jacquinoti-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "47553fd9e1b512576dbec064af954bdfee104461",
+      "auxiliary_review_crop_sha256": "8460e6cf2c207d5257b9b7b723154517954a7efa75516df6d0c56965d300c53f",
+      "auxiliary_review_crop_size_bytes": 1557006,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Female plumage/size, exact juvenile age and feather chronology, flight threshold, subspecies-specific pattern, nest contents and original-description prose remain unknown; BHL text could not be opened."
     }
   ],
-  "updated_at": "2026-11-07T06:11:39+08:00"
+  "updated_at": "2026-11-07T06:37:21+08:00"
 }

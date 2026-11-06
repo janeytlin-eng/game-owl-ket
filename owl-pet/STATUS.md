@@ -1,3 +1,7 @@
+### #151 *Athene jacquinoti* v3 archived — immutable readback pending
+
+Batch `20261107T062903+0800` cycle 1/6. Two new image sources were actually viewed; one juvenile-wing edit passed full/crop review. Concept plus generated/edit/reviewed masters and crops archived; manifests 759/760/750. Unique remains 176/251; science false; no cycle credit before readback.
+
 ### Batch 20261107T012800+0800 COMPLETE 6/6
 
 Cycle 6 #143 v3 ledger credited from verification `166167870b15e89684913e5dcd4c0a9e2c5be71c` after immutable archive `270e1331af485c9a64785ba23401f39d06aaa160`. Six revisions completed; unique ledger remains 176/251; no active lease and no next batch started.

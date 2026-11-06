@@ -23,3 +23,7 @@ Immutable archive `0095366a7d8f7efbcfc1063008322181f376138d` exact six image tup
 ## #140 *Otus rufescens* v4 REVIEWED — 2026-11-07T02:34:00+08:00
 
 V4 preserves v1–v3 and applies the currently readable evidence boundary: nominate light-morph adults, near-equal sex display because Mikkola explicitly reports no sexual-size data, and an age-unknown reddish-brown downy chick darker on crown/mantle and paler below. Full image and two crops were opened; adult support, brown eyes, irregular markings, chick down/closed eyes/concealed mature wing and tail all passed. No edit was required. Exact age/iris/flight/nest/sex-size remain unknown; PASS_WITH_LIMITATIONS; science=false.
+
+## #140 v4 immutable archive VERIFIED — 2026-11-07T02:38:10+08:00
+
+Archive `aefa6991a30aa33c7ef90da39b722627154cb483` / tree `74de191c10a35034a20c29b42e65376eed59f345` returned 3,592 non-truncated entries. Sixteen required paths and five exact binary tuples passed; manifests 750/749/740. PASS_WITH_LIMITATIONS; science=false; ledger credit pending. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/aefa6991a30aa33c7ef90da39b722627154cb483/owl-pet/design/concepts/140-otus-rufescens-v4.png?raw=1).

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T02:36:10+08:00",
+  "updated": "2026-11-07T02:38:10+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26086,7 +26086,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "RFS-MIKKOLA-2013-P178",
         "RFS-WARAKAGODA-RASMUSSEN-2004-P102",
@@ -26121,9 +26121,55 @@
       "adult_review_sha256": "477b01ab0dc4163d1b2c618ccfb34f3f96e3d430e452f0b419596f8eadf7f5bd",
       "batch_id": "20261107T012800+0800",
       "cycle": 3,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T02:36:10+08:00",
-      "exact_readback": false
+      "exact_readback": true,
+      "archive_commit": "aefa6991a30aa33c7ef90da39b722627154cb483",
+      "archive_tree": "74de191c10a35034a20c29b42e65376eed59f345",
+      "verified_at": "2026-11-07T02:38:10+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "aefa6991a30aa33c7ef90da39b722627154cb483",
+        "tree_sha": "74de191c10a35034a20c29b42e65376eed59f345",
+        "tree_count": 3592,
+        "tree_truncated": false,
+        "required_paths_verified": 16,
+        "exact_binary_paths_verified": 5,
+        "assets": {
+          "owl-pet/design/concepts/140-otus-rufescens-v4.png": {
+            "sha": "2ae54c97b1d91db3153dec70afbe2dc326f68605",
+            "size": 2735257
+          },
+          "owl-pet/production/generated/140-otus-rufescens-v4-generated-master.png": {
+            "sha": "2ae54c97b1d91db3153dec70afbe2dc326f68605",
+            "size": 2735257
+          },
+          "owl-pet/production/reviewed/140-otus-rufescens-v4-reviewed-master.png": {
+            "sha": "2ae54c97b1d91db3153dec70afbe2dc326f68605",
+            "size": 2735257
+          },
+          "owl-pet/production/review-crops/140-otus-rufescens-v4-downy-chick.png": {
+            "sha": "2c90d785bae10b6d78b6177e0dcd2fee0523a683",
+            "size": 647298
+          },
+          "owl-pet/production/review-crops/140-otus-rufescens-v4-adults-support.png": {
+            "sha": "a4f033cbd28617f2c0965a5b2e832294e97c867b",
+            "size": 1314903
+          }
+        },
+        "manifest_counts": {
+          "design": 750,
+          "legacy": 749,
+          "production": 740
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
   "updated_at": "2026-11-07T01:55:07+08:00"

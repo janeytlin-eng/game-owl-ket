@@ -358,3 +358,8 @@ Verification commit `b90975358b2dacb74fdb3d0ce8b23a7e9b39619b` was read back aft
 ### #138 v4 ARCHIVED — readback pending
 
 - Batch `20261107T012800+0800` cycle 1/6. Fresh concept/reviewed master is 2,938,851 bytes (SHA-256 `e9fc78a51b5a68d6ad73114a4e779a76c94cc28e7fb907455b09546bb6ede1f6`). Two edits corrected the juvenile long-tail inversion; result PASS_WITH_LIMITATIONS, science false. Three manifests staged at 747/748/738; immutable tree/path/blob-size readback and ledger credit still required.
+
+
+### #138 v4 VERIFIED — ledger credit pending
+
+Archive `4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221`, tree `147dc6a03e54bc7f93e521602219c57e7543f5f6`, 3,575 non-truncated entries; 16/16 required paths and seven exact binary tuples matched. Manifests 747/748/738 parsed and reference the full 2,938,851-byte final blob. Unique remains 176/251; PASS_WITH_LIMITATIONS; science false.

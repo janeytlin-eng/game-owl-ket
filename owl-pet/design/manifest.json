@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T01:42:13+08:00",
+  "updated": "2026-11-07T01:43:32+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25672,7 +25672,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 2,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "MEN-TAUFIQURRAHMAN-2018-P31-32",
         "MEN-MIKKOLA-2013-P166-167",
@@ -25714,9 +25714,64 @@
       "adult_review_sha256": "ad9af90d1b01c36e02501a78ad390fd2436055721bf85156437f95df8e147cf8",
       "batch_id": "20261107T012800+0800",
       "cycle": 1,
-      "readback_pending": true,
-      "archived_at": "2026-11-07T01:42:13+08:00"
+      "readback_pending": false,
+      "archived_at": "2026-11-07T01:42:13+08:00",
+      "exact_readback": true,
+      "archive_commit": "4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221",
+      "archive_tree": "147dc6a03e54bc7f93e521602219c57e7543f5f6",
+      "verified_at": "2026-11-07T01:43:32+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221",
+        "tree_sha": "147dc6a03e54bc7f93e521602219c57e7543f5f6",
+        "tree_count": 3575,
+        "tree_truncated": false,
+        "required_paths_verified": 16,
+        "exact_binary_paths_verified": 7,
+        "assets": {
+          "owl-pet/design/concepts/138-otus-mentawi-v4.png": {
+            "sha": "158022a996b66e6038f28ce400ba568a3914180b",
+            "size": 2938851
+          },
+          "owl-pet/production/generated/138-otus-mentawi-v4-generated-master.png": {
+            "sha": "6245a1ac80c0e01d6192a6b98981d41642c79f50",
+            "size": 3255010
+          },
+          "owl-pet/production/generated/138-otus-mentawi-v4-edit1.png": {
+            "sha": "c214ed13bdd16bd33c90a39cc25391705df9fc6c",
+            "size": 3074451
+          },
+          "owl-pet/production/generated/138-otus-mentawi-v4-edit2.png": {
+            "sha": "158022a996b66e6038f28ce400ba568a3914180b",
+            "size": 2938851
+          },
+          "owl-pet/production/reviewed/138-otus-mentawi-v4-reviewed-master.png": {
+            "sha": "158022a996b66e6038f28ce400ba568a3914180b",
+            "size": 2938851
+          },
+          "owl-pet/production/review-crops/138-otus-mentawi-v4-juvenile.png": {
+            "sha": "cea0f845843bcde981d2f75631cea2ae1621ac1d",
+            "size": 655139
+          },
+          "owl-pet/production/review-crops/138-otus-mentawi-v4-adults-support.png": {
+            "sha": "6c0ce53f339e7a3702d5059ee56dcd361c743633",
+            "size": 1272988
+          }
+        },
+        "manifest_counts": {
+          "design": 747,
+          "legacy": 748,
+          "production": 738
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T01:42:13+08:00"
+  "updated_at": "2026-11-07T01:43:32+08:00"
 }

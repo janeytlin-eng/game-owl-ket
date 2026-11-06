@@ -81,3 +81,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Immutable archive `7176fb71b2990e89b73582ada698b40853b87f6d` / tree `7270e082effd7f0f906a3b9f8cabcd312cb38326` resolved 16 required paths; five image paths matched exact expected blobs and the three manifests parsed at 757/758/748.
 - PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.
+
+
+## #149 v3 ledger
+
+- Verification `a0ef5804bea7730c21a105ce93a626a0d9f51b04` was read back after immutable archive `7176fb71b2990e89b73582ada698b40853b87f6d` / tree `7270e082effd7f0f906a3b9f8cabcd312cb38326`.
+- Cycle 5 credited once; batch 5/6, next 6; unique 176/251; revision +1; scientifically_verified=false.

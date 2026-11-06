@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T09:59:58.396+08:00",
+  "updated": "2026-11-06",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -23184,7 +23184,61 @@
       "archive_tree": "2fc60b87598f18c3ddb0be66247436357d7bfa20",
       "verified_at": "2026-11-06T09:59:58.396+08:00",
       "verification_result": "PASS: immutable archive 3f103cb54b4408055c368698d5c84ce6053dcc4c returned all 10 required #98 paths; four binary paths matched expected Git blobs; three manifests parsed at 716/715/706 with #98 v5 tails."
+    },
+    {
+      "id": "99-bubo-magellanicus-v5",
+      "path": "design/concepts/99-bubo-magellanicus-v5.png",
+      "species_id": 99,
+      "scientific_name": "Bubo magellanicus",
+      "current_scientific_name": "Bubo magellanicus",
+      "common_name": "Lesser Horned Owl",
+      "historical_names": [
+        "Bubo virginianus magellanicus"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MAG-NOVOA-BLANCO-2020-P31-33",
+        "MAG-ZAMBRANO-2022-P20-21",
+        "MAG-JIMENEZ-CORTES-2023",
+        "MAG-MIK2013-266",
+        "S099-BIRDNET-TAXONOMY"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/99-bubo-magellanicus-v5.md",
+      "review_record": "research/reviews/99-bubo-magellanicus-v5-review.md",
+      "run_record": "production/runs/20261106T100000+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2899141,
+      "sha256": "a85e38620e2f253ea667f999929f6195bd239f5e6da700100508b3e715a374f0",
+      "git_blob": "0d03b9b9ef08feaa679fdb92e2cff74164610625",
+      "generated_path": "production/generated/99-bubo-magellanicus-v5-generated-master.png",
+      "generated_blob": "50b339901d3d85845718e542e285e27cc3875d2d",
+      "generated_sha256": "569ee454eb6c106d5e964c0b17835625cda90ddc853288326930aaf104c78a20",
+      "generated_size_bytes": 3266361,
+      "edit_path": "production/generated/99-bubo-magellanicus-v5-edit1.png",
+      "edit_blob": "0d03b9b9ef08feaa679fdb92e2cff74164610625",
+      "reviewed_path": "production/reviewed/99-bubo-magellanicus-v5-reviewed-master.png",
+      "reviewed_blob": "0d03b9b9ef08feaa679fdb92e2cff74164610625",
+      "reviewed_at": "2026-11-06T10:44:00.000+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4 and replaces the one-week chick with an approximately-20-day, directly documented exceptional balcony nestling. One targeted juvenile-wing edit removed elongated hard feather tips, leaving a short rounded down-covered wing bud, concealed tail and full dry-plant support. Exact age/sex/flight, robust adult dimorphism and generality of balcony nesting remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T09:59:58.396+08:00"
+  "updated_at": "2026-11-06T10:48:00.000+08:00"
 }

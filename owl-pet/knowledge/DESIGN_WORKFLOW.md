@@ -893,3 +893,10 @@ If a caption says a chick was photographed “about two weeks after discovery”
 - **Evidence:** Sawada’s 99-chick growth summary states that at about 30-day fledging body mass and tarsus are near adult while wing length remains in growth; the 770-individual RSD study does not justify a fixed female-taller composition.
 - **Modification:** center-only edit removed the two hard tips and replaced them with a compact rounded down-obscured wing; tail remained concealed and both feet stayed supported. Adult scale was held near equal with a subtly fuller female.
 - **Recheck/result:** full edited plate plus final juvenile and adult/support crops were opened; geometry and all invariants passed. This validates the prompt/review rule on #86 only; it does not prove an exact day-specific feather sequence or a universal rule for other species.
+
+
+## 2026-11-06 exceptional-site plus age-boundary gate — discovered/applied; validation pending
+
+- A directly documented anthropogenic nest site may be visualized only when labeled and framed as an exceptional recorded case; it must not replace the species' modal nest ecology.
+- For an approximately aged nestling, use only the feather/action detail supported at that stage. “Down dominant” with early pins does not license elongated hard layered remiges; a generated wing that crosses this boundary requires a juvenile-only edit while preserving the documented site and support.
+- First applied to #99 *Bubo magellanicus* v5. The edited full plate and two crops visually passed the short down-covered wing, concealed tail and continuous dry-plant support checks. This is a local concept-plate validation, not a universal feather schedule or scientific sign-off.

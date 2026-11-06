@@ -1,3 +1,9 @@
+## 2026-11-06 #99 *Bubo magellanicus* v5 ARCHIVED — readback pending
+
+- V5 preserves v1–v4. Three detailed sources were read and two records reused; current/old-name mapping and approximately-20-day exceptional balcony stage are explicit.
+- Initial juvenile wing tips were too long/hard; one targeted edit produced a short rounded down-covered wing bud with tiny pins, concealed tail and continuous dry-plant support. Full plate and two crops were opened.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; unique remains 176/251; revision +1. Manifests expected 717/716/707; immutable readback and cycle credit pending.
+
 ## 2026-11-06 #86 *Otus elegans interpositus* v4 LEDGER_CREDITED — batch 3/6
 
 - Verification commit `6d093d6631f14b68a89a3155281cf914b65f6aec`, tree `7891ad93ddcd9eee38b75fa4d780f09f60e77c05`, passed after fixed archive `ea2d8ccba32ee0ed9f84b83759bf56242b60e638`. Cycle 3 credited once; batch next cycle 4; lease released.

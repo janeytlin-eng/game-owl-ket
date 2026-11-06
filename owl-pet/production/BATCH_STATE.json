@@ -23921,24 +23921,24 @@
       "active_lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:40:07+08:00",
-        "expires_at": "2026-11-06T18:55:07+08:00"
+        "heartbeat_at": "2026-11-06T18:42:26+08:00",
+        "expires_at": "2026-11-06T18:57:26+08:00"
       },
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:40:07+08:00",
-        "expires_at": "2026-11-06T18:55:07+08:00"
+        "heartbeat_at": "2026-11-06T18:42:26+08:00",
+        "expires_at": "2026-11-06T18:57:26+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "run_id": "20261106T183723+0800-cycle-6",
         "species_id": 115,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "started_at": "2026-11-06T18:37:23+08:00",
         "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md"
       },
-      "current_stage": "RESEARCH_READY",
+      "current_stage": "IMAGE_GENERATED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24852,6 +24852,30 @@
             "mikkola_upload_accessible": false,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-06T18:55:07+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-06T18:42:26+08:00",
+          "run_id": "20261106T183723+0800-cycle-6",
+          "species_id": 115,
+          "credited": false,
+          "evidence": {
+            "version": 3,
+            "generated_path": "owl-pet/production/generated/115-otus-lempiji-v3-generated-master.png",
+            "generated_blob": "15fce85069f1bebb1f445f9a53147c753d442625",
+            "width": 1536,
+            "height": 1024,
+            "format": "PNG",
+            "bytes": 3423984,
+            "sha256": "cb0b699e02b8323e4097b3cbee52e308ff76ebb563022894fd9b2098bdc15a86",
+            "imagegen_prompt": "owl-pet/research/species/115-otus-lempiji-v3.md#complete-imagegen-prompt",
+            "preliminary_inspection": "exact title/count/labels; near-equal dark-eyed adults with supported feet; cavity-supported downy juvenile with formed irregular wing and short tail; explicit local crop review pending",
+            "edit_needed": null,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-06T18:57:26+08:00"
           }
         }
       ]

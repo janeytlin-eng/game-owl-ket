@@ -1,3 +1,7 @@
+## 2026-11-07 #142 *Asio grammicus* v3 immutable archive VERIFIED — ledger credit pending
+
+Archive `ff33879ce61199d8296a1163dbf6b8da098736d0` / tree `6b9a58e4b18787a3ac182a3fecb269886b49686e` returned 3610 non-truncated entries. Thirteen required paths, six exact binary path/blob/byte tuples and manifests 752/751/742 passed. PASS_WITH_LIMITATIONS; science false; ledger credit pending.
+
 ## 2026-11-07 #140 *Otus rufescens* v4 archived pending readback
 
 V4 research and visual review complete; no edit required after full/crop inspection. Concept and three manifests archived; immutable verification pending. Scientific verification remains false.

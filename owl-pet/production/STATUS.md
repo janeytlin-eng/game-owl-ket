@@ -1,3 +1,9 @@
+## 20261107T031700+0800 cycle 5 — #142 *Asio grammicus* v3 VERIFIED, ledger credit pending
+
+- Archive `ff33879ce61199d8296a1163dbf6b8da098736d0` / tree `6b9a58e4b18787a3ac182a3fecb269886b49686e` returned 3610 entries, truncated=false.
+- Thirteen required paths and six exact binary tuples passed; manifests 752/751/742.
+- PASS_WITH_LIMITATIONS; science false; unique remains 176/251; ledger credit pending.
+
 ### #140 *Otus rufescens* v4 — ARCHIVED, readback pending
 
 Research, original generation and full/crop inspection completed. No evidence-backed edit required. Concept uses near-equal adults and a supported age-unknown downy chick. Manifests 750/749/740; science false; immutable readback pending.

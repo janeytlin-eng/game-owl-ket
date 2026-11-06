@@ -26153,7 +26153,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "JAM-MIKKOLA-2013-P500-501",
         "JAM-HOYER-BIRDSEYE",
@@ -26195,12 +26195,17 @@
       "adult_review_sha256": "86d9478098fd6350cf90b1415f164e0d5605647db7d9e354219c5ffcc5f8776e",
       "batch_id": "20261107T012800+0800",
       "cycle": 5,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T03:34:00+08:00",
-      "exact_readback": false,
-      "archive_commit": null,
-      "archive_tree": null,
-      "verification_commit_pending": true
+      "exact_readback": true,
+      "archive_commit": "ff33879ce61199d8296a1163dbf6b8da098736d0",
+      "archive_tree": "6b9a58e4b18787a3ac182a3fecb269886b49686e",
+      "verification_commit_pending": true,
+      "archive_tree_count": 3610,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 13,
+      "exact_binary_paths_verified": 6,
+      "verified_at": "2026-11-07T03:27:00+08:00"
     }
   ],
   "updated_at": "2026-11-07T03:34:00+08:00"

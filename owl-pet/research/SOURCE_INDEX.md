@@ -2245,3 +2245,17 @@
 - Reused `RIS-MIKKOLA-2013-P229` from the archived #120 v3 record (printed p.229 / uploaded PDF p.231): small adult tufts, honey-brown eyes, olive-yellow bill/cere, 25–28 cm, 134–223 g and females averaging 28 g heavier. The upload was not accessible in this execution, so this is explicitly a repository-pinned reuse rather than a fresh page claim.
 - New/corrected sources: 2 taxonomy records; primary field paper reread: 1; repository source reused: 1. V3 visually underplays the paper's “considerably developed” barred remiges, so v4 must enlarge the juvenile's formed folded flight-feather cluster while retaining down, no tufts and full support. Exact age, flight ability, literal feather map and fixed sex-size ratio remain unknown; science=false.
 
+## 2026-11-06 — #123 *Otus gurneyi* v5 — corrected photographed juvenile wing boundary
+
+### GSO-SHANKAR-2013-YOUNG-CORR — corrected full-resolution juvenile photograph record
+- Shankar S., “Giant scops owl juvenile,” Davao, Philippines, May 2013; Wikimedia Commons transfer from Flickr, CC BY 2.0: https://commons.wikimedia.org/wiki/File:Giant_scops_owl_juvenile_(9105615728).jpg
+- File description, metadata and original 4608×3072 JPEG actually opened. The supported age-unknown older juvenile has loose gray-brown down, short broad fuzzy ear tufts, dark bill/eyes, pink-purple eyelid margins and narrow dark formed flight-feather side panels; the visible right panel approaches branch/foot level while the tail is not projected. This corrects v4's over-concealment of formed side feathers. Exact age, sex, hatch plumage, wild nest and sustained flight remain unknown; captive Davao context cannot establish natural nest habitat. High confidence for visible morphology, low for developmental timing.
+
+### GSO-MIRANDA-2011 — newly indexed primary phylogeny and museum measurements
+- Hector C. Miranda Jr., Daniel M. Brooks & Robert S. Kennedy, 2011, “Phylogeny and Taxonomic Review of Philippine Lowland Scops Owls (Strigiformes),” *Wilson Journal of Ornithology* 123(3):441–453, DOI 10.1676/10-185.1: https://blog.hmns.org/wp-content/uploads/2023/10/PhilippineScopsEprint.pdf
+- Full paper actually read. Printed p.446, Table 2 reports *Mimizuku gurneyi* male wing range 213–230 mm (n=5) and female 242–285 mm (n=2); this supports only a cautious female-larger direction, not a fixed ratio. Printed p.451 proposes *Otus gurneyi* because separate-genus status is not phylogenetically warranted. High confidence for taxonomy/measurements; no juvenile development support.
+
+### GSO-OWLPAGES-2020 — reused secondary habitat/breeding boundary
+- Deane Lewis, Owl Pages, “Giant Scops Owl (*Otus gurneyi*),” updated 2020-10-02: https://www.owlpages.com/owls/species.php?s=290
+- Description, Size, Breeding and Habitat sections read. Useful only for a generic lowland rainforest/secondary-growth context and the explicit statement that breeding biology is virtually unknown. It cannot support a nest, natal stage or exact sex ratio. Moderate confidence secondary source.
+

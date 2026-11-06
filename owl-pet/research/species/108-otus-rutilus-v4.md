@@ -76,3 +76,7 @@ All six feet must visibly contact and grip a continuous natural branch. No nest 
 - Visible juvenile eye/eyelid and down facts are from one dated photograph; they are not a universal timetable.
 - The branch is support, not a nest; nest site/material remain unresolved for this revision.
 - Scientific verification remains false.
+
+## Review result
+
+The first generated pass was opened and rejected for still-tall adults, pale facial discs and overly regular curly juvenile down. A second targeted edit was generated, then the full image, juvenile crop and adults/support crop were opened. The final plate materially resolves the v3 whole-body identity error: compact warm-faced adults with small tufts/feet, near-equal sex display, and a down-rich dark-mask juvenile with hidden tail and continuous two-foot support. Exactly three roles and all text pass. Result `PASS_WITH_LIMITATIONS`; exact sex ratio, juvenile age/chronology/flight and nest remain unknown; scientific verification remains false.

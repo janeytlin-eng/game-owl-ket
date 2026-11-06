@@ -12,3 +12,9 @@ Actual edited PNG viewed: bothadultventralpatterns replacedregularfinechevrons w
 NewMSC-GIERSBERGEN-2019 Mantadia primaryadultphotoplumage; reusedMSC-VASSEN-2013 youngreference andMSC-OWLPAGES-2020 description. Oldv1 remains, noapprovaltransfer.
 [Originalv2](../../design/concepts/108-otus-rutilus-v2.png)
 [Cycle6](../../production/runs/2026-10-16T0857+0800-cycle-6.md)
+
+## v4 2026-11-06 — whole-body identity and juvenile-stage correction
+
+Actual v3 and both v4 edit passes were opened. Adult compactness, warm/dark facial discs, small short tufts, shortened feet and eastern humid-forest rufous/dark-brown direction were corrected from ITIS/current-name mapping, the 2000 east/west diagnostic study and opened Cornell/Macaulay adult photographs. The centre young follows Frank Vassen’s 2013 Andasibe photograph: loose brown down, dark mask, pale crown/brow, yellow-brown iris/pink lower eyelid, dark bill, hidden tail and branch support. Two edits; final full image plus juvenile and adults/support crops passed with limitations. Exact age, feather/iris chronology, flight threshold, adult sex-size ratio and nest facts remain unknown; science false.
+
+[Original v4](../../design/concepts/108-otus-rutilus-v4.png) · [Research](../../research/species/108-otus-rutilus-v4.md) · [Review](../../research/reviews/108-otus-rutilus-v4-review.md)

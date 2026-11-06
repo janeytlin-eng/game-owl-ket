@@ -9,6 +9,8 @@
 
 - Immutable archive `1ccce9ffc76d063962c6129564318bef5fbd8e57` / tree `aa8032137777b2396b930a3d8ad2ef755d0f2a42` passed 3,375-entry non-truncated readback, thirteen required paths, five exact image tuples and remote manifest parsing at 725/726/716. Ledger credit pending.
 
+- Verification `f262de3435c33e830246112cfb6822bb983bdeec` / tree `83806fe2e10eaf4e018e5bd9f8479555be77947d` credited cycle 3 once. Batch 3/6, next cycle 4, lease released; unique 176/251; science false.
+
 ## 20261106T130000+0800 cycle 2 — #108 *Otus rutilus* v4 ARCHIVED, readback pending
 
 - Exactly three roles; full image and two crops opened after two edits. Final adults are compact/warm-faced with small tufts/feet; juvenile follows the direct Andasibe photo boundary with loose brown down, dark mask, pale brow/crown and hidden tail.

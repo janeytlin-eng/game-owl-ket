@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:51:00+08:00",
+  "updated": "2026-11-07T05:59:32+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26066,7 +26066,71 @@
       "verification_tree": "254b7fa0f71ffcd021baa88baa0b828498351dbc",
       "ledger_credited": true,
       "ledger_credited_at": "2026-11-07T05:51:00+08:00"
+    },
+    {
+      "id": "149-ninox-odiosa-v3",
+      "path": "design/concepts/149-ninox-odiosa-v3.png",
+      "species_id": 149,
+      "scientific_name": "Ninox odiosa",
+      "historical_names": [
+        "Russet Hawk-Owl",
+        "New Britain Hawk-Owl",
+        "Spangled Boobook"
+      ],
+      "common_name": "New Britain Boobook",
+      "scope": "Adult pair calibrated to the sexed 1879 male specimen: pale chocolate upperparts, separate white brows, irregular scapular/greater-covert white marks, white throat and pale narrow-streaked underbody; adults near equal because female evidence is absent; age-unknown older juvenile is down-dominant with mature wing/tail suppressed; humid New Britain rainforest, no nest reconstruction",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "NBBOO-GOULD-SHARPE-1884-TEXT",
+        "NBBOO-ITIS-555491-2026",
+        "NBBOO-IUCN-2018",
+        "NBBOO-COMMONS-MALINOWSKI-2019"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/149-ninox-odiosa-v3.md",
+      "review_record": "research/reviews/149-ninox-odiosa-v3-review.md",
+      "run_record": "production/runs/20261107T054830+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2878850,
+      "sha256": "2aaf15ae69a158ad1a21c77155d17fb6443d1efa9d371c4a0d876ffd957dc9ab",
+      "git_blob": "734636d20166ea267a0d419b842b8bf060e22a40",
+      "generated_path": "production/generated/149-ninox-odiosa-v3-generated-master.png",
+      "generated_blob": "c368379fac390b3f1560ab49dead85a2fc810d0b",
+      "generated_sha256": "76d36e43556bfa6240c5516a7c4b723043233b896d15d0eceb0ee8d558ec933f",
+      "generated_size_bytes": 3007046,
+      "reviewed_path": "production/reviewed/149-ninox-odiosa-v3-reviewed-master.png",
+      "reviewed_blob": "734636d20166ea267a0d419b842b8bf060e22a40",
+      "juvenile_review_crop": "production/review-crops/149-ninox-odiosa-v3-juvenile.png",
+      "juvenile_review_blob": "aa6cbdbd62b21ce11f5e6c913a273e576140efdb",
+      "juvenile_review_size_bytes": 652396,
+      "juvenile_review_sha256": "bba11ffa080e12f6e598b8ad71e9a862fc5e74053eed240282d0ed5c3e9dccc9",
+      "adult_review_crop": "production/review-crops/149-ninox-odiosa-v3-adults-support.png",
+      "adult_review_blob": "fa61bf084e8ee1f302eef803830ff2a09dcc0f77",
+      "adult_review_size_bytes": 1213791,
+      "adult_review_sha256": "ea25badf094286189857efa3822a5019064fdbf49cb09cff797e6b896ee7bda5",
+      "batch_id": "20261107T043300+0800",
+      "cycle": 5,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T05:59:32+08:00",
+      "archive_commit_pending": true,
+      "evidence_limit": "Adult description directly covers a sexed male; female plumage/size, juvenile exact age, iris sequence, feather chronology and flight threshold remain unknown. Juvenile is intentionally age-unknown and non-flight-capable by depiction.",
+      "exact_readback": false,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-07T05:51:00+08:00"
+  "updated_at": "2026-11-07T05:59:32+08:00"
 }

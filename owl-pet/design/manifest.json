@@ -24501,7 +24501,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "BCSO-DANTAS-2021",
         "BCSO-WIKIAVES-WA2019052",
@@ -24533,13 +24533,22 @@
       "juvenile_review_sha256": "901d3fa4dc01a33824db2b0debabcf4bf4aa61f2c558a19adcea86ff812a8d52",
       "adults_review_crop": "production/review-crops/133-megascops-atricapilla-v4-adults-support.png",
       "adults_review_blob": "268524c58bd0071051adc479caf6de6b97aa2669",
-      "adults_review_size_bytes": 1382608,
+      "adults_review_size_bytes": 1383438,
       "adults_review_sha256": "5278c8d64c073e9c4b0d578e3ce49d14e197411594fc471b98f2d51319969d52",
       "reviewed_at": "2026-11-06T18:11:32+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3 and repairs #133's absence from all current manifests. One targeted imagegen edit shortened and softened the direct-photo-bounded later juvenile wing while retaining yellow iris, tiny tufts, formed short tail and bilateral support. Adults stay near-equal height with subtle female fullness. Exact juvenile age/sex/fledging/flight, feather chronology, population iris distribution and quantitative sex-size ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3 and repairs #133's absence from all current manifests. One targeted imagegen edit shortened and softened the direct-photo-bounded later juvenile wing while retaining yellow iris, tiny tufts, formed short tail and bilateral support. Adults stay near-equal height with subtle female fullness. Exact juvenile age/sex/fledging/flight, feather chronology, population iris distribution and quantitative sex-size ratio remain unknown; science false.",
+      "archive_commit": "f8ed756504f0f42c1ce9b5940ae9e8bdc7df8e62",
+      "archive_tree": "90ccf77f8c18ff4037ffc65b725d3b1225b80e80",
+      "archive_tree_entries": 3427,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 6,
+      "verified_at": "2026-11-06T18:14:20+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable archive commit f8ed7565 resolved all 16 required paths in a non-truncated 3,427-entry recursive tree. Six image path/blob/byte tuples matched; concept/edit/reviewed resolve to 4ff93c1b… (2,690,853 bytes), original generation to cefe45c1… (2,857,100 bytes), and both crop blobs/bytes match. Archive manifest snapshots parsed at 731/732/722 and ended with #133 v4. An adults-crop byte-count transcription was corrected from 1,382,608 to 1,383,438 in this verification commit. Science remains false."
     }
   ],
-  "updated_at": "2026-11-06T18:12:54+08:00"
+  "updated_at": "2026-11-06T18:14:20+08:00"
 }

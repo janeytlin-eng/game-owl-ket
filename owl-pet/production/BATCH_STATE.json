@@ -23836,7 +23836,7 @@
     },
     {
       "batch_id": "20261106T173000+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -23914,31 +23914,29 @@
           "run_record": "owl-pet/production/runs/20261106T182939+0800-cycle-5.md",
           "completed_at": "2026-11-06T18:36:42+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "species_id": 115,
+          "species": "Otus lempiji",
+          "action": "SCIENCE_REVISION",
+          "version": 3,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "206ad91dc4a53a27d166a2595280d2a9b5a93edc",
+          "archive_commit": "30ebe95cbd27f6a0dd41ec8962de359b53fdf50a",
+          "verification_tree": "71536c25650737dd1af2659c0a31bfa2b55c8ce0",
+          "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md",
+          "completed_at": "2026-11-06T18:48:22+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
-      "active_lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:47:42+08:00",
-        "expires_at": "2026-11-06T19:02:42+08:00"
-      },
-      "lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:47:42+08:00",
-        "expires_at": "2026-11-06T19:02:42+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "run_id": "20261106T183723+0800-cycle-6",
-        "species_id": 115,
-        "stage": "VERIFIED",
-        "started_at": "2026-11-06T18:37:23+08:00",
-        "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md"
-      },
-      "current_stage": "VERIFIED",
+      "next_cycle": null,
+      "active_cycle": null,
+      "active_lease": null,
+      "lease": null,
+      "in_progress": null,
+      "current_stage": "LEDGER_CREDITED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24971,8 +24969,31 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-06T19:02:42+08:00"
           }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-06T18:48:22+08:00",
+          "run_id": "20261106T183723+0800-cycle-6",
+          "species_id": 115,
+          "credited": true,
+          "evidence": {
+            "verification_commit": "206ad91dc4a53a27d166a2595280d2a9b5a93edc",
+            "verification_tree": "71536c25650737dd1af2659c0a31bfa2b55c8ce0",
+            "archive_commit": "30ebe95cbd27f6a0dd41ec8962de359b53fdf50a",
+            "archive_tree": "ebfd323871b6776a38d79f7578c633b60a232e1a",
+            "batch_progress": "6/6",
+            "next_cycle": null,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
-      ]
+      ],
+      "completed_at": "2026-11-06T18:48:22+08:00"
     }
   ],
   "lease": null,

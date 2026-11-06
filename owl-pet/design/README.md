@@ -3263,3 +3263,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/138-otus-mentawi-v4.png) · [Research](../research/species/138-otus-mentawi-v4.md) · [Review](../research/reviews/138-otus-mentawi-v4-review.md) · [Run](../production/runs/20261107T012800+0800-cycle-1.md)
 - V4 preserves v1–v3 and replaces the repeated 700,000-byte v3 archive-risk copy with a fresh 2,938,851-byte reviewed original. It applies Taufiqurrahman et al. 2018 printed pp.31–32, Mikkola 2013 printed pp.166–167 and ITIS current/old-name mapping. Two evidence-led edits corrected the juvenile wing–tail relation; full/crop review is PASS_WITH_LIMITATIONS. Science false; unique remains 176/251 pending immutable readback.
+
+
+## #139 Rinjani Scops Owl — *Otus jolandae* — v4
+
+- [Concept](concepts/139-otus-jolandae-v4.png) · [Research](../research/species/139-otus-jolandae-v4.md) · [Review](../research/reviews/139-otus-jolandae-v4-review.md) · [Run](../production/runs/20261107T014600+0800-cycle-2.md)
+- V4 preserves v1–v3, re-reads the 2013 primary description, Mikkola printed p.188 and ITIS current standing. One edit shortened/softened the older-immature wing and reduced repeated adult pale marks. Full/crop review is PASS_WITH_LIMITATIONS; complete juvenile development remains unknown; science false; unique remains 176/251 pending immutable readback.

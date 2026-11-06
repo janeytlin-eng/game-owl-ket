@@ -368,3 +368,8 @@ Archive `4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221`, tree `147dc6a03e54bc7f93e521
 ### #138 v4 LEDGER_CREDITED — batch PARTIAL 1/6
 
 Verification commit `928734acfc4c105e942605761b75e6b84213e5da` was read back after immutable archive `4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221` / tree `147dc6a03e54bc7f93e521602219c57e7543f5f6`. Cycle 1 is credited exactly once; batch `20261107T012800+0800` is PARTIAL 1/6 with next_cycle=2 and lease released. Unique species remains 176/251; revision +1; science false.
+
+
+### #139 v4 ARCHIVED — readback pending
+
+- Batch `20261107T012800+0800` cycle 2/6. Final concept/reviewed master is 2,916,813 bytes (SHA-256 `ef0f14cce9ff26aa297a63c1d399aab8c8a862742889ad04a325a86068a5ce75`). One edit corrected older-immature wing/tail maturity and adult pale-mark repetition; PASS_WITH_LIMITATIONS, science false. Manifests staged at 748/749/739; immutable readback and ledger credit remain required.

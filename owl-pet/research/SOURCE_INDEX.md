@@ -2499,3 +2499,26 @@
 - **Decision:** supports continuity of the reused 2017 article; it does not add a development claim.
 
 - Reused/freshly reread: `PEO-URRIZA-2017`, `PEO-OCHAVO-2012`, `PEO-MIK2013-P294`, `PEO-ARTUSO-2015`, `PEO-AVIBASE-MAPPING`. Full boundaries/prompt: `research/species/124-ketupa-philippensis-v4.md`. Science false.
+
+
+## 2026-11-06 — #127 *Megascops albogularis* v4 — direct juvenile description and name mapping
+
+### WTSO-SIBUNDOY-2013-P142
+- **Title / authors / year:** *Aves del Valle de Sibundoy, Alto Putumayo, Colombia: Guía de Campo* / E. A. Gutiérrez Zamora, J. J. Mueses-Cisneros, M. C. Ramírez-Enríquez & I. V. Perdomo-Castillo; editor F. G. Stiles / 2013.
+- **URL:** https://www.birds.cornell.edu/latam/wp-content/uploads/2023/09/Aves-de-sibundoy-2014-1.pdf
+- **Accessed / type:** 2026-11-06 / Cornell-hosted institutional regional field guide.
+- **Species / stage:** *Megascops albogularis*; adult and juvenile, Colombian Andes.
+- **Actually read:** printed p.142, PDF-extracted lines 3788–3818.
+- **Useful evidence:** 185 g, 26 cm; adult very dark brown above, buff-cinnamon below with dark streaking/coarse vermiculation, white throat band and yellow-orange eye; juvenile described as buff-white with fine, uniform dark barring; rare/local forest and edge bird at 2,000–3,500 m in Colombia.
+- **Limits / confidence:** guide does not state juvenile age, sex, flight competence or continuous feather sequence; the regional description must not be universalized across all subspecies/stages. High for the printed identification account, moderate for application to one concept stage.
+- **Decision links:** v4 uses an older age-unknown, naturally supported juvenile with buff-white down and fine diffuse barring, compact down-obscured wing and no asserted flight; adult pair remains near-equal because no sexed ratio was found.
+
+### WTSO-ITIS-686679-2026
+- **Institution / record:** Integrated Taxonomic Information System, TSN 686679; accessed 2026-11-06.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686679&source=to_print
+- **Species / stage:** *Megascops albogularis*; nomenclature only.
+- **Actually read:** current species record and synonym table; *Syrnium albogularis* is listed as a synonym. Cross-checked ITIS TSN 555402 for invalid later combination *Otus albogularis* and NCBI Taxonomy 714938 for the hyphenated basionym *Syrnium albo-gularis*.
+- **Limits / confidence:** taxonomy only; supplies no plumage, size, sex or development claim. High for database mapping.
+- **Decision links:** v4 retains the current name while recording both older combinations; no visual trait is derived.
+
+- Reused after direct re-read: `WTSO-PERUAVES-PHOTOS2019` (adult and Piura juvenile photo labels; c.26 cm, dusky adult, amber iris, white throat, rufous belly, humid montane forest 1,800–2,700 m), `WTSO-NCBI714938-MAPPING`, and `WTSO-MACAULAY-1980`. Prior Mikkola extraction `WTSO-MIK2013-249` was reused; the uploaded guide itself was not mounted in this execution. Full prompt and uncertainty boundary: `research/species/127-megascops-albogularis-v4.md`. Science remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T03:08:00+08:00",
+  "updated": "2026-11-07T03:11:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26033,7 +26033,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MAG-MIKKOLA-2013-P189-190",
         "MAG-SHARPE-1875-P70-PLVI",
@@ -26073,13 +26073,60 @@
       "adult_review_sha256": "773e50dcc731a448ee5aa9a0eb7dbd122d16919b3c1d8a6d8d93579bb7e903ed",
       "batch_id": "20261107T012800+0800",
       "cycle": 4,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T03:08:00+08:00",
-      "exact_readback": false,
-      "archive_commit": null,
-      "archive_tree": null,
-      "verification_commit_pending": true
+      "exact_readback": true,
+      "archive_commit": "797b5dbbdf6d129abaec3e8cd8ff425b33431c0a",
+      "archive_tree": "e563ba872780291453afee57d12a8858f5a61e86",
+      "verification_commit_pending": true,
+      "verified_at": "2026-11-07T03:11:00+08:00",
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "797b5dbbdf6d129abaec3e8cd8ff425b33431c0a",
+        "tree_sha": "e563ba872780291453afee57d12a8858f5a61e86",
+        "tree_count": 3601,
+        "tree_truncated": false,
+        "required_paths_verified": 19,
+        "exact_binary_paths_verified": 6,
+        "assets": {
+          "owl-pet/design/concepts/141-otus-magicus-v4.png": {
+            "sha": "7936a591cd9c6bd4ef1a0fffdda64a8d3e39c65d",
+            "size": 2479194
+          },
+          "owl-pet/production/generated/141-otus-magicus-v4-generated-master.png": {
+            "sha": "34e5ebed7770796e06df051dd1f7f059efcc8f06",
+            "size": 2523439
+          },
+          "owl-pet/production/generated/141-otus-magicus-v4-edit1.png": {
+            "sha": "7936a591cd9c6bd4ef1a0fffdda64a8d3e39c65d",
+            "size": 2479194
+          },
+          "owl-pet/production/reviewed/141-otus-magicus-v4-reviewed-master.png": {
+            "sha": "7936a591cd9c6bd4ef1a0fffdda64a8d3e39c65d",
+            "size": 2479194
+          },
+          "owl-pet/production/review-crops/141-otus-magicus-v4-older-juvenile.png": {
+            "sha": "c3bcda098d8500e1477cd4f5fa70aea6bc48f5f2",
+            "size": 573125
+          },
+          "owl-pet/production/review-crops/141-otus-magicus-v4-adults-support.png": {
+            "sha": "0818368899620121af2172dd195feeb95cca78a3",
+            "size": 1217583
+          }
+        },
+        "manifest_counts": {
+          "design": 751,
+          "legacy": 750,
+          "production": 741
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T03:08:00+08:00"
+  "updated_at": "2026-11-07T03:11:00+08:00"
 }

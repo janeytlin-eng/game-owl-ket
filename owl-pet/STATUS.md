@@ -3639,3 +3639,6 @@ Verification commit `b90975358b2dacb74fdb3d0ce8b23a7e9b39619b` was read back aft
 
 
 - #141 *Otus magicus* v4 archived as a science revision. One edit corrected over-bare adult tarsi and an adult-like juvenile wing; full plate plus two crops passed. Manifests 751/750/741; unique remains 176/251; scientific verification false; immutable readback pending.
+
+
+Archive `797b5dbbdf6d129abaec3e8cd8ff425b33431c0a`, tree `e563ba872780291453afee57d12a8858f5a61e86`, 3601 non-truncated entries; 19/19 required paths, 6 exact binary tuples and manifests 751/750/741 passed for #141 *Otus magicus* v4. Unique remains 176/251; science false; ledger credit pending.

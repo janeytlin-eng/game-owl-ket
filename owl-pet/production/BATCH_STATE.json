@@ -26256,20 +26256,20 @@
       "lease": {
         "owner": "codex",
         "run_id": "20261107T024000+0800-cycle-4",
-        "heartbeat_at": "2026-11-07T03:08:00+08:00",
-        "expires_at": "2026-11-07T03:23:00+08:00"
+        "heartbeat_at": "2026-11-07T03:11:00+08:00",
+        "expires_at": "2026-11-07T03:26:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
         "species_id": 141,
         "species": "Otus magicus",
         "version": 4,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261107T024000+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261107T024000+0800-cycle-4.md"
       },
       "started_at": "2026-11-07T01:28:01+08:00",
-      "updated_at": "2026-11-07T03:08:00+08:00",
+      "updated_at": "2026-11-07T03:11:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -26653,18 +26653,39 @@
           "readback_pending": true,
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-07T03:23:00+08:00"
+        },
+        {
+          "cycle": 4,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T03:11:00+08:00",
+          "species_id": 141,
+          "species": "Otus magicus",
+          "archive_commit": "797b5dbbdf6d129abaec3e8cd8ff425b33431c0a",
+          "archive_tree": "e563ba872780291453afee57d12a8858f5a61e86",
+          "tree_count": 3601,
+          "tree_truncated": false,
+          "required_paths_verified": 19,
+          "exact_binary_paths_verified": 6,
+          "manifest_counts": {
+            "design": 751,
+            "legacy": 750,
+            "production": 741
+          },
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-07T03:26:00+08:00"
         }
       ],
-      "last_verified_commit": "459e5511c6924eb0d39c4e25a38024d2db7b0162",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false
+      "last_verified_commit": null,
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true
     }
   ],
   "lease": {
     "owner": "codex",
     "run_id": "20261107T024000+0800-cycle-4",
-    "heartbeat_at": "2026-11-07T03:08:00+08:00",
-    "expires_at": "2026-11-07T03:23:00+08:00"
+    "heartbeat_at": "2026-11-07T03:11:00+08:00",
+    "expires_at": "2026-11-07T03:26:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -26799,7 +26820,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T03:08:00+08:00",
+  "updated_at": "2026-11-07T03:11:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -27615,7 +27636,7 @@
     "species_id": 141,
     "species": "Otus magicus",
     "version": 4,
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "run_id": "20261107T024000+0800-cycle-4",
     "run_record": "owl-pet/production/runs/20261107T024000+0800-cycle-4.md"
   },
@@ -38999,6 +39020,31 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T03:23:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261107T012800+0800",
+      "cycle": 4,
+      "stage": "VERIFIED",
+      "at": "2026-11-07T03:11:00+08:00",
+      "run_id": "20261107T024000+0800-cycle-4",
+      "species_id": 141,
+      "credited": false,
+      "evidence": {
+        "archive_commit": "797b5dbbdf6d129abaec3e8cd8ff425b33431c0a",
+        "archive_tree": "e563ba872780291453afee57d12a8858f5a61e86",
+        "tree_count": 3601,
+        "tree_truncated": false,
+        "required_paths_verified": 19,
+        "exact_binary_paths_verified": 6,
+        "manifest_counts": {
+          "design": 751,
+          "legacy": 750,
+          "production": 741
+        },
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-07T03:26:00+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261106T222600+0800",
@@ -42992,6 +43038,6 @@
       }
     }
   ],
-  "ledger_credit_pending": false,
+  "ledger_credit_pending": true,
   "last_verified_commit": "4dcca930aa8f0fe185a591f138157950a584dc6f"
 }

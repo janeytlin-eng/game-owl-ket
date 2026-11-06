@@ -23921,24 +23921,24 @@
       "active_lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:44:37+08:00",
-        "expires_at": "2026-11-06T18:59:37+08:00"
+        "heartbeat_at": "2026-11-06T18:45:59+08:00",
+        "expires_at": "2026-11-06T19:00:59+08:00"
       },
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T183723+0800-cycle-6",
-        "heartbeat_at": "2026-11-06T18:44:37+08:00",
-        "expires_at": "2026-11-06T18:59:37+08:00"
+        "heartbeat_at": "2026-11-06T18:45:59+08:00",
+        "expires_at": "2026-11-06T19:00:59+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "run_id": "20261106T183723+0800-cycle-6",
         "species_id": 115,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "started_at": "2026-11-06T18:37:23+08:00",
         "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md"
       },
-      "current_stage": "REVIEWED",
+      "current_stage": "ARCHIVED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24907,6 +24907,38 @@
             ],
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-06T18:59:37+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 6,
+          "stage": "ARCHIVED",
+          "at": "2026-11-06T18:45:59+08:00",
+          "run_id": "20261106T183723+0800-cycle-6",
+          "species_id": 115,
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/115-otus-lempiji-v3.png",
+            "concept_blob": "5a2d22e741d2ca2ad4538083325aaa05057e958d",
+            "generated": "owl-pet/production/generated/115-otus-lempiji-v3-generated-master.png",
+            "edited": "owl-pet/production/edits/115-otus-lempiji-v3-edit1.png",
+            "reviewed": "owl-pet/production/reviewed/115-otus-lempiji-v3-reviewed-master.png",
+            "review_crops": [
+              "owl-pet/production/review-crops/115-otus-lempiji-v3-juvenile-cavity.png",
+              "owl-pet/production/review-crops/115-otus-lempiji-v3-adults-feet.png"
+            ],
+            "manifest_counts": {
+              "design_image": 734,
+              "design_legacy": 735,
+              "production": 725
+            },
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-06T19:00:59+08:00"
           }
         }
       ]

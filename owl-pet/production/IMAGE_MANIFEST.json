@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06",
+  "updated": "2026-11-06T18:45:59+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -24166,7 +24166,67 @@
       "verified_at": "2026-11-06T18:35:58+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive commit abccfcdd resolved all 15 required paths in a non-truncated 3,444-entry recursive tree. Five image path/blob/byte tuples matched; concept/generated/reviewed resolve to 8f285aa6… (3,548,324 bytes), and both crop blobs/bytes match. Archive manifests parsed at 733/734/724 and ended with #56 v2. Science remains false."
+    },
+    {
+      "id": "115-otus-lempiji-v3",
+      "path": "design/concepts/115-otus-lempiji-v3.png",
+      "species_id": 115,
+      "scientific_name": "Otus lempiji",
+      "historical_names": [
+        "Strix lempiji",
+        "Otus bakkamoena lempiji"
+      ],
+      "common_name": "Sunda Scops-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "SUN-LOK-2009",
+        "SUN-BIRDFORUM-YOGYA-2013",
+        "SUN-TROPENMUSEUM-10006597",
+        "SUN-ITIS-1063234"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/115-otus-lempiji-v3.md",
+      "review_record": "research/reviews/115-otus-lempiji-v3-review.md",
+      "run_record": "production/runs/20261106T183723+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3163926,
+      "sha256": "581e2fc2e3205477eca4056b390e1f17c3ec5bebd6dd73e57ab54e3eabd18704",
+      "git_blob": "5a2d22e741d2ca2ad4538083325aaa05057e958d",
+      "generated_path": "production/generated/115-otus-lempiji-v3-generated-master.png",
+      "generated_blob": "15fce85069f1bebb1f445f9a53147c753d442625",
+      "generated_sha256": "cb0b699e02b8323e4097b3cbee52e308ff76ebb563022894fd9b2098bdc15a86",
+      "generated_size_bytes": 3423984,
+      "edit_path": "production/edits/115-otus-lempiji-v3-edit1.png",
+      "edit_blob": "5a2d22e741d2ca2ad4538083325aaa05057e958d",
+      "reviewed_path": "production/reviewed/115-otus-lempiji-v3-reviewed-master.png",
+      "reviewed_blob": "5a2d22e741d2ca2ad4538083325aaa05057e958d",
+      "juvenile_review_crop": "production/review-crops/115-otus-lempiji-v3-juvenile-cavity.png",
+      "juvenile_review_blob": "618ba5fb30b81451383c70f55cc2f54ccfd09087",
+      "juvenile_review_size_bytes": 803824,
+      "juvenile_review_sha256": "06d721bc06c5c63e16dbfb7beac9580c2f2d3b4a6edb90973c34493600d56283",
+      "adults_review_crop": "production/review-crops/115-otus-lempiji-v3-adults-feet.png",
+      "adults_review_blob": "3034cce3c50f54dae9919d93ab7a75a5a486392d",
+      "adults_review_size_bytes": 1497183,
+      "adults_review_sha256": "2efa7162a816d018f2f2de5ed264ab0a3ec14a6a9c88ff3e96e476c4aca1920c",
+      "reviewed_at": "2026-11-06T18:44:37+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V3 preserves v1-v2 and repairs #115's absence from all current manifests. Direct Java juvenile imagery and an East Java historical young record bound an older age-unknown, supported juvenile; one targeted edit replaced the original long, orderly adult-like primary run with a compact irregular down-veiled wing and obscured short tail. Adults are near-equal because no quantitative sex-size direction was established. Exact juvenile age/sex/fledging/flight, nominate feather chronology, sex-size direction and precise subspecific colour remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T18:35:58+08:00"
+  "updated_at": "2026-11-06T18:45:59+08:00"
 }

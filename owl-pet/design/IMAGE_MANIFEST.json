@@ -25712,7 +25712,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 2,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "FLO-WIDODO-1999",
         "FLO-HUTCHINSON-2007",
@@ -25753,9 +25753,64 @@
       "adult_review_sha256": "440d29446ffcbbd51735fb58e04e968efecf34cc6326af8623605d005142e5a9",
       "batch_id": "20261106T222600+0800",
       "cycle": 6,
-      "readback_pending": true,
+      "readback_pending": false,
       "binary_repair_at": "2026-11-07T00:40:00+08:00",
-      "binary_repair_reason": "first archive upload of files above connector output limit was truncated; replaced before verification/credit"
+      "binary_repair_reason": "first archive upload of files above connector output limit was truncated; replaced before verification/credit",
+      "exact_readback": true,
+      "archive_commit": "4dae5e8cc994e2d50302b8e1b975fe7ca393f483",
+      "archive_tree": "6987612f535f4c16e0c4f938b6fef566041fe79d",
+      "verified_at": "2026-11-07T00:42:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "4dae5e8cc994e2d50302b8e1b975fe7ca393f483",
+        "tree_sha": "6987612f535f4c16e0c4f938b6fef566041fe79d",
+        "tree_count": 3565,
+        "tree_truncated": false,
+        "required_paths_verified": 15,
+        "exact_binary_paths_verified": 7,
+        "assets": {
+          "owl-pet/design/concepts/137-otus-alfredi-v4.png": {
+            "sha": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
+            "size": 2703740
+          },
+          "owl-pet/production/generated/137-otus-alfredi-v4-generated-master.png": {
+            "sha": "2aaeac968cfd2c95bdd198f3fe8d852b50a98d49",
+            "size": 3001707
+          },
+          "owl-pet/production/generated/137-otus-alfredi-v4-edit1.png": {
+            "sha": "1fcb72e75a12c895855d7a9d073772092bea04b6",
+            "size": 2849313
+          },
+          "owl-pet/production/generated/137-otus-alfredi-v4-edit2.png": {
+            "sha": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
+            "size": 2703740
+          },
+          "owl-pet/production/reviewed/137-otus-alfredi-v4-reviewed-master.png": {
+            "sha": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
+            "size": 2703740
+          },
+          "owl-pet/production/review-crops/137-otus-alfredi-v4-juvenile.png": {
+            "sha": "e7c2e219af29929be2ebbdf74247b7f641825305",
+            "size": 713367
+          },
+          "owl-pet/production/review-crops/137-otus-alfredi-v4-adults-support.png": {
+            "sha": "f062d7c740d440487adecee143dd106bf38378f6",
+            "size": 1836066
+          }
+        },
+        "manifest_counts": {
+          "design": 746,
+          "legacy": 747,
+          "production": 737
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
   "updated_at": "2026-11-07T00:37:00+08:00"

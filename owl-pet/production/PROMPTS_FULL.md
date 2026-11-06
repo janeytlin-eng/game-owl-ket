@@ -97,3 +97,18 @@ Composition/framing: header parchment at top; three birds large and unobstructed
 Text (verbatim): header “158 ORIENTAL BAY OWL · Phodilus badius”
 Constraints: exactly three birds; preserve scientific uncertainty by not depicting a precise juvenile age; no sexual size claim; no extra birds; no flying juvenile; no unsupported feet; no watermark.
 Avoid: barn-owl pure white heart face, long horn-like ear tufts, yellow/orange eyes, exaggerated female size, mature juvenile flight feathers, artificial nest material, duplicate/cloned adults, text errors.
+
+
+## 2026-11-07 — #160 *Tyto inexspectata* v3 — batch 20261107T062903+0800 cycle 4
+
+Edit the provided #160 Minahasa Masked-Owl (Tyto inexspectata) v2 plate into a v3 science-revision plate while preserving its confirmed realistic wildlife-photography style, 1536×1024 landscape composition, dense Sulawesi rainforest, exactly three birds, natural mossy branch, adult male left and adult female right.
+
+Header text exactly: “160 MINAHASA MASKED-OWL · Tyto inexspectata”
+Bottom labels exactly: “ADULT MALE”, “JUVENILE”, “ADULT FEMALE”.
+
+Adults: keep distinct individuals at near-equal displayed size; do not impose a female-larger rule. Preserve dark eyes, pale horn bill, warm rufous-buff facial disc, golden-rufous/grey-brown upperparts with restrained dark and pale spotting, ochre-barred short wings/tail, fine dark spotting on pale warm underparts, feathered legs, and visibly supported feet. Avoid turning them into the much larger darker Tyto rosenbergii.
+
+Center juvenile: this is explicitly an AGE-UNKNOWN OLDER-YOUNG DESIGN INFERENCE because the published visible juvenile identification was disputed. Make the face less structured than adults: smaller, softer rufous-grey down-softened disc without a crisp mature heart outline. Keep residual loose grey-buff down around crown, shoulders and flanks; only limited warm contour emergence. Wings must be very short, rounded and down-veiled, ending well above the feet, with no long layered remiges, no mature white spot rows and no adult barred flight feathers. Tail mostly concealed. Both feet must grip the mossy branch. Alert, non-flying posture; do not show a hatchling or assign an exact age.
+
+Preserve: realistic light, rainforest depth, adult anatomy, exactly three birds and all supports.
+Do not add: cavity interior, eggs, feeding, artificial nest material, extra birds, ear tufts, watermark, unsupported feet, exact-age claim or scientific-verification claim.

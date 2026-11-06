@@ -3128,3 +3128,31 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Current-name mapping remains *Phodilus badius*; historical spelling *Photodilus badius* is retained as an old-name locator only.
 - Species-specific juvenile age, feather timetable, iris chronology and flight threshold remain unknown. The v3 juvenile is therefore an explicitly age-unknown older nestling at a natural cavity rim, down-dominant with wings mostly concealed and no claim of flight.
 - The user-uploaded Mikkola guide was not mounted in this execution; no fresh page claim is made. Scientific verification remains false.
+
+
+## 2026-11-07 — #160 *Tyto inexspectata* v3 — lectotype correction and living-adult cross-check
+
+### MIN-NATURALIS-TYPECAT-2023-P175
+- **Title/authors/year:** “Type specimens of non-passerines in Naturalis Biodiversity Center (Animalia, Aves)” — van der Mije, Kamminga & Dekker, 2023, *ZooKeys* 1155.
+- **DOI/URL:** 10.3897/zookeys.1155.98097; https://zenodo.org/records/7771436/files/ZK_article_98097.pdf
+- **Actually read:** printed p.175, lines 4524–4528, accessed 2026-11-07.
+- **Facts/design use:** *Strix inexspectata* = *Tyto inexspectata*; RMNH.AVES.88273 is an adult female mounted skin from Minahassa, 1878, now a lectotype rather than the previously reported holotype. Schlegel did not state the number of specimens; no other types are present in RMNH.
+- **Limits/confidence:** high for type history/sex/locality; a single mounted female does not establish dimorphism or live colour and is not juvenile evidence.
+
+### MIN-COMMONS-GODON-2022-229399656
+- **Title/author/date:** “Tyto inexspectata 229399656”; Roland Godon, 11 Sep 2022.
+- **URL:** https://commons.wikimedia.org/wiki/File:Tyto_inexspectata_229399656.jpg
+- **Actually read/opened:** file page, metadata and preview; 2048×1365 living field photograph, coordinates 1.509959, 125.142724; accessed 2026-11-07.
+- **Facts/design use:** living adult identity cross-check for compact barn-owl form, dark eye, warm rufous-buff face/upperparts and pale spotted underside in North Sulawesi forest.
+- **Limits/confidence:** iNaturalist-derived field photograph; sex and age not specified, one lighting/pose; no development evidence. Medium-high for visible adult identity only.
+
+### MIN-MACAULAY-625386016-2024
+- **Institution/asset:** Cornell Lab/Macaulay Library ML625386016; Juan Camilo Rodriguez; 17 Sep 2024; Tangkoko Batuangus NR, North Sulawesi.
+- **URL:** https://macaulaylibrary.org/asset/625386016
+- **Verification status:** search/catalogue metadata read; direct page blocked automated access. Age and sex are “not specified.”
+- **Use/limit:** locality/date/species metadata lead only; not used for plumage, sex or juvenile claims.
+
+### Reuse and boundary
+- Reused MIN-FITZSIMONS-2010-P143, MIN-SCHLEGEL-1879-NATURALIS, MIN-ITIS-555350, MIN-IOC15-2-2026, MIN-EBIRD-2025 and MIN-OWLPAGES-2020 from the v2 record.
+- Fitzsimons remains decisive: the published two-adult-plus-juvenile observation was questioned as possible *Tyto rosenbergii*. The v3 juvenile therefore remains an explicitly age-unknown older-young design inference, not a documented species-specific fledgling.
+- Exact juvenile age, plumage sequence, iris chronology, flight threshold, nest interior and quantitative sex-size direction remain unknown. Mikkola upload was not mounted. Scientific verification remains false.

@@ -1,3 +1,26 @@
+## 2026-11-06 — #99 *Bubo magellanicus* v5 — approximately-20-day balcony nestling boundary
+
+### MAG-NOVOA-BLANCO-2020-P31-33
+- **Title / authors / year:** “First Report of a Magellanic Horned Owl (*Bubo magellanicus*) Nesting in a Balcony” — Fernando J. Novoa & José Blanco, 2020.
+- **URL / pages / accessed:** https://www.researchgate.net/publication/342751803_First_Report_of_a_Magellanic_Horned_Owl_Buho_magellanicus_Nesting_in_a_Balcony_Novoa_y_Blanco ; *Ornitología Neotropical* 31:31–33; full text read 2026-11-06.
+- **Type / stage / facts:** primary monitored breeding record. Figure 1A identifies balcony nestlings at about 20 days; two young later departed after roughly 41 and 52 days in the nest; adults provisioned rodents/rabbits.
+- **Limits / design use:** one exceptional human-made site; supports a down-dominant approx.-20-day nestling on a dry supported balcony substrate. Does not universalize balcony nesting, exact fledging thresholds or sex ratio.
+
+### MAG-ZAMBRANO-2022-P20-21
+- **Title / author / year:** “Aves rapaces que nidifican en entornos urbanos y periurbanos de Santiago” — Brayan Zambrano, 2022.
+- **URL / pages / accessed:** https://aveschile.cl/wp-content/uploads/2023/06/3.-Aves-rapaces-que-nidifican-en-entornos-urbanos-y-periurbanos-de-Santiago-Chile-central.pdf ; printed pp.20–21/Fig.4; re-read 2026-11-06.
+- **Facts / limits:** one balcony pair raised two young; images show different chick stages and dry vegetation. Site/stage context only; no universal nest or complete feather chronology.
+
+### MAG-JIMENEZ-CORTES-2023
+- **Title / authors / year:** “Determination of Haematological Reference Values for Tucúquere (*Bubo magellanicus*) Habiting in Central Chile” — Jimenez-Cortes et al., 2023.
+- **URL / DOI / accessed:** https://pmc.ncbi.nlm.nih.gov/articles/PMC10571869/ ; DOI 10.3390/ani13193000; full article read 2026-11-06.
+- **Facts / limits:** 33 adults sampled for hematology; not a sexed morphometric study. Cannot support a fixed visible female-larger ratio.
+
+### Reuse and corrected boundaries
+- Reused `MAG-MIK2013-266` and `S099-BIRDNET-TAXONOMY`.
+- Corrected four boundaries: approx. 20 days ≠ exact hatch chronology; one balcony ≠ universal nest; later nest departure ≠ flight threshold; unsexed adult sample ≠ sex dimorphism. New3 / reused2 / corrected4; science false.
+- Links: `research/species/99-bubo-magellanicus-v5.md`; planned v5; run `production/runs/20261106T100000+0800-cycle-6.md`.
+
 ## 2026-11-06 — #98 *Strix chacoensis* v5 — documented courtship pose and mesoptile boundary
 
 ### CHAO-SMITH-ETAL-2024-P44-46

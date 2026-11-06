@@ -41,3 +41,8 @@ Avoid: yellow irises; feathered tarsi; repeated pearl/teardrop/scallop grids; ad
 ## Planned visual checks
 
 Exactly three correct labels; adults untufted/dark-eyed/bare-legged and near-equal; all feet visibly supported; juvenile has sienna-brown continuous head/body with sparse non-grid tips, down-softened compact wing and short tail; cavity is palm wood rather than woven nest; no unsupported age, sex or flight claim.
+
+
+## Actual visual iteration
+
+The first generated master was opened at full size and as juvenile/adults-feet crops. The juvenile wing was too long and orderly for the conservative evidence boundary. A single targeted edit made the wing shorter, rounder and down-overlapped while retaining a formed wing and all locked adult/text/support invariants. The edited full plate and both crops were reopened and passed. Exact feather mapping and developmental age remain unknown.

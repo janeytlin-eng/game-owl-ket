@@ -999,3 +999,10 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** compare wing length, taper and feather regularity together; shorten/soften the wing, retain irregular short tips under down and keep the tail obscured when sources do not establish the adult endpoint.
 - **Verified in use:** #115 *Otus lempiji* v3 edit 1 passed edited full-plate and juvenile/adults-support crop inspection. This validates the correction for this asset only, not a universal owl schedule.
 - Evidence: `owl-pet/research/reviews/115-otus-lempiji-v3-review.md`.
+
+
+## 2026-11-06 — older mesoptile wing calibration (#116)
+- **Observed failure:** a prompt that said “formed compact wing” still produced a long, orderly remige stack that visually implied a more mature flight-capable juvenile.
+- **Evidence-based correction:** when exact age/flight is unknown, pair “formed” with “short rounded outline, irregular down overlap, short partly hidden tail, both feet supported, no flight claim.”
+- **Applied:** one targeted #116 v4 juvenile-only edit; adults/text/cavity/support locked.
+- **Validated:** edited full plate plus juvenile and adults/feet crops were reopened; wing maturity and support improved without drift. One-species validation only; future plates still require individual review.

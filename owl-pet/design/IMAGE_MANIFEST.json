@@ -23408,7 +23408,69 @@
       "archive_tree": "e12148efdddb6a3f6a6e5e10641b9d42958d01e0",
       "verified_at": "2026-11-06T10:53:00.000+08:00",
       "verification_result": "PASS: immutable archive 2946479a5dcf1921c78e75160b2bd4450ba797d2 returned 3,298 non-truncated tree entries; all 17 required #99 paths were present; six binary paths matched exact Git blobs and byte sizes; three manifests parsed at 717/716/707 with #99 v5 tails; concept fetch returned the expected blob and display URL."
+    },
+    {
+      "id": "100-strix-huhula-v5",
+      "path": "design/concepts/100-strix-huhula-v5.png",
+      "species_id": 100,
+      "scientific_name": "Strix huhula",
+      "current_scientific_name": "Strix huhula",
+      "common_name": "Black-banded Owl",
+      "historical_names": [
+        "Ciccaba huhula",
+        "Ciccaba huhula albomarginata"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "HUH-BC2013",
+        "HUH-MUNOZ-2019",
+        "HUH-ITIS-1063256-2026",
+        "HUH-MIK2013-340"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/100-strix-huhula-v5.md",
+      "review_record": "research/reviews/100-strix-huhula-v5-review.md",
+      "run_record": "production/runs/20261106T105700+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3456295,
+      "sha256": "bc3e5fa256cf46f4d9153b31087c9581d3d358524ff41145a216af4e7618230a",
+      "git_blob": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
+      "generated_path": "production/generated/100-strix-huhula-v5-generated-master.png",
+      "generated_blob": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
+      "generated_sha256": "bc3e5fa256cf46f4d9153b31087c9581d3d358524ff41145a216af4e7618230a",
+      "generated_size_bytes": 3456295,
+      "edit_path": null,
+      "edit_blob": null,
+      "reviewed_path": "production/reviewed/100-strix-huhula-v5-reviewed-master.png",
+      "reviewed_blob": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
+      "adults_review_crop": "production/review-crops/100-strix-huhula-v5-adults-support.png",
+      "adults_review_blob": "e7589c7fd5a3260a630d8835ebdd00356d69a5c3",
+      "adults_review_size_bytes": 2430329,
+      "adults_review_sha256": "c3c5b5ef808fe8a5cba3b5d1c487052fb61e11efbd3de1cf13b8f5f985786335",
+      "juvenile_review_crop": "production/review-crops/100-strix-huhula-v5-juvenile.png",
+      "juvenile_review_blob": "e97a97b83ad34c2042272aacd7c8208c8cc0672c",
+      "juvenile_review_size_bytes": 864937,
+      "juvenile_review_sha256": "190ea4541f16f41d7601e6c0c300565dde4a86ae049eba39f6740336717cc38c",
+      "reviewed_at": "2026-11-06T11:13:00.000+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4 and uses the directly described exact-age-unknown late nest stage: pale-grey-dominant down/mesoptile, horizontal black bars, heart mask with white border, yellow bill/feet, active supported standing, compact soft wing and concealed tail. Full plate and two crops passed without edit. Exact age/sex, tract chronology, first-flight date, robust adult dimorphism and generality of the recorded angico-fork nest remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T10:53:00.000+08:00"
+  "updated_at": "2026-11-06T11:18:00.000+08:00"
 }

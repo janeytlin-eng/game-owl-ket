@@ -1,3 +1,9 @@
+## 2026-11-06 #100 *Strix huhula* v5 ARCHIVED — immutable readback pending
+
+- New active batch `20261106T105700+0800`, cycle 1/6. Research, generated master, actual full/crop inspection and archive paths are present; no image edit was required.
+- Selected exact-age-unknown late nest young: pale-grey-dominant, horizontally barred, heart-mask/white-border, yellow bill/feet, compact soft wing, concealed tail, active supported standing. Recorded live angico fork with epiphytes is not generalized.
+- New3 / reused1 / corrected5; science false; unique remains 176/251; revision credit pending readback.
+
 ## 2026-11-06 #99 *Bubo magellanicus* v5 LEDGER_CREDITED — batch COMPLETE 6/6
 
 - Verification commit `76d3e4941802d9d91c896fb82e98130de178780d` was read back after archive `2946479a5dcf1921c78e75160b2bd4450ba797d2`. Cycle 6 credited once; batch `20261106T073000+0800` is COMPLETE 6/6; lease released.

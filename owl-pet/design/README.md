@@ -1,3 +1,11 @@
+## #100 Black-banded Owl — *Strix huhula* — v5 ARCHIVED (readback pending)
+
+- Concept: [100-strix-huhula-v5.png](concepts/100-strix-huhula-v5.png)
+- Research: [100-strix-huhula-v5.md](../research/species/100-strix-huhula-v5.md) · [review](../research/reviews/100-strix-huhula-v5-review.md) · [run](../production/runs/20261106T105700+0800-cycle-1.md)
+- V5 preserves v1–v4 and selects the directly described exact-age-unknown late nest stage. Pale grey dominates, horizontal black bars and heart mask/white border are retained, and the compact soft wing, concealed tail and continuous tree-fork support passed full/crop review without edit.
+- Adults remain near-equal in visible scale; no fixed dimorphism claim. The angico fork/epiphyte setting is one recorded nest, not a universal template.
+- `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`; unique remains 176/251; revision +1 after immutable verification.
+
 ## #99 Lesser Horned Owl — *Bubo magellanicus* — v5 VERIFIED
 
 - Concept: [99-bubo-magellanicus-v5.png](concepts/99-bubo-magellanicus-v5.png)

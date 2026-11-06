@@ -902,3 +902,11 @@ If a caption says a chick was photographed “about two weeks after discovery”
 - First applied to #99 *Bubo magellanicus* v5. The edited full plate and two crops visually passed the short down-covered wing, concealed tail and continuous dry-plant support checks. This is a local concept-plate validation, not a universal feather schedule or scientific sign-off.
 
 - For #99 *Bubo magellanicus* v5, the rule was visibly validated after one targeted edit: the exceptional balcony context remained explicit while the approximately-20-day nestling's elongated hard wing tips were replaced by a short down-covered wing bud. This is local visual validation, not a universal nest rule or scientific sign-off.
+
+
+### Directly described nest stage outranks inferred fledging chronology — locally validated on #100
+
+- When one primary study directly describes plumage, bare parts and locomotion of a nest young but does not provide exact hatch age, use the described stage without assigning an age.
+- A later field record of branch-to-branch short flights can bound capability for an older young, but must not be back-projected onto the earlier nest stage or treated as a first-flight date.
+- A detailed single nest site may be shown as a recorded case only. Keep adult sex labels at near-equal scale unless robust visible dimorphism evidence exists.
+- Applied and visually checked on #100 *Strix huhula* v5: full plate and two crops passed without edit. This is local concept validation, not a universal feather schedule, nest rule or scientific sign-off.

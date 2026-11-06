@@ -1,3 +1,7 @@
+## 2026-11-06 — #103 *Tyto longimembris* v5
+
+Archived a science revision preserving v1-v4. Expanded the full original captive-development paper, added one opened museum record and reused three repository sources. The approximately-55-day female is depicted in rich golden second down with no invented day-57 wing/tail interpolation or flight claim; adults retain long partly bare legs and restrained sex scale. Full plate and two crops passed without image edit. Scientific verification remains false.
+
 - Credited active batch cycle 3/6 for #102 v4; next cycle 4; unique species remains 176/251.
 
 - Verified #102 v4 immutable archive at `a3d87e62a3df45a5c27bb7b4dcf43c3c23c3a3b0`: exact six binary tuples, manifests 720/719/710, non-truncated tree. Science remains false.

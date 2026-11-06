@@ -3251,3 +3251,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/127-megascops-albogularis-v4.png) · [Research](../research/species/127-megascops-albogularis-v4.md) · [Review](../research/reviews/127-megascops-albogularis-v4-review.md) · [Run](../production/runs/20261106T210254+0800-cycle-5.md)
 - V4 preserves v1-v3, uses directly read Andean adult/juvenile evidence and current/old-name mapping. One juvenile-wing edit removed long adult-like remiges; full/crop review passed. PASS_WITH_LIMITATIONS; science false; unique 176/251; immutable tree/path/blob-size readback passed.
+
+
+## #129 Yungas Screech-Owl — *Megascops hoyi* — v4
+
+- [Concept](concepts/129-megascops-hoyi-v4.png) · [Research](../research/species/129-megascops-hoyi-v4.md) · [Review](../research/reviews/129-megascops-hoyi-v4-review.md) · [Run](../production/runs/20261106T212300+0800-cycle-6.md)
+- V4 preserves v1-v3, uses the original description p.4 plus current/old-name mapping and a conservative fledged-young boundary. Full/crop review passed with 0 edits. PASS_WITH_LIMITATIONS; science false; unique 176/251; immutable readback pending.

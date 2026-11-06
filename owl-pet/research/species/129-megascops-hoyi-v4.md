@@ -44,3 +44,8 @@ Create a polished 1536×1024 horizontal scientific concept plate in the establis
 
 - Full image and two crops opened. The generated plate already met the evidence boundary; no edit was warranted. The fledgling has formed but softened wing/tail, a clearly fluffy tuftless body and stationary bilateral support. Adults retain the original-description colour/marking cues without a fixed size ratio.
 - PASS_WITH_LIMITATIONS; science remains false.
+
+## ARCHIVED — 2026-11-06T21:30:03.061+08:00
+
+- Concept: `owl-pet/design/concepts/129-megascops-hoyi-v4.png`; 2,827,115 bytes; SHA-256 `2a6bd1c2a95c5a8f67c6ac5a4ca0d2fb62c72a515ee0da9da31d8ada9b570950`.
+- v1-v3 preserved; revision +1, unique increment 0. Immutable readback pending; science false.

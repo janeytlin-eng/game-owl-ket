@@ -14,3 +14,8 @@ Actualfirstimageadulttuftstoolong/billgreenexaggerated; built-in edit actuallyvi
 
 Actual v2 view plus fresh Mikkola printed p.228/PDF p.230 text/page view and current adult field-photo pages. First render passed original-resolution review: exactly three supported birds; adult short tufts, yellow eyes, greenish-yellow bill/cere, black facial-side ruff, broken shoulder band and branched shafts; fledgling adult-like but fluffy and tuftless. No edit: formed wing/tail retained because the species-specific source describes fledged young as adult-like. Exact age/sequence/flight/sex-specific linear ratio/individual pattern unknown; scientifically_verified=false.
 [Original](../../design/concepts/129-megascops-hoyi-v3.png) · [Research](../../research/species/129-megascops-hoyi-v3.md) · [Run](../../production/runs/2026-10-27T2126+0800-cycle-6.md)
+
+
+### 129-megascops-hoyi-v4 — 2026-11-06
+
+Preserves v1-v3. Original description printed p.4 and ITIS mapping were newly read/indexed; SIB, König adult field photo and prior Mikkola p.228 fledged-young extraction were reused. Adults stay near-equal with only subtle female fullness; a single type pair is not a universal ratio. The age-unknown fledgling is fluffy and tuftless with softened formed wing/tail and stationary bilateral support. Full and crop review found no edit defect. Exact age, iris chronology, first flight, continuous feather sequence and universal sex/morph pattern remain unknown. PASS_WITH_LIMITATIONS; science false. Research ../../research/species/129-megascops-hoyi-v4.md; review ../../research/reviews/129-megascops-hoyi-v4-review.md; run ../../production/runs/20261106T212300+0800-cycle-6.md.

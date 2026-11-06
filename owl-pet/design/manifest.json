@@ -25121,7 +25121,67 @@
       "verified_at": "2026-11-06T21:21:29.273+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable readback returned 3,503 non-truncated entries; 16 required paths and 6 exact image blob/size tuples passed; manifests 739/740/730; concept blob matched. Binary body fetch was unavailable; science false."
+    },
+    {
+      "id": "129-megascops-hoyi-v4",
+      "path": "design/concepts/129-megascops-hoyi-v4.png",
+      "species_id": 129,
+      "scientific_name": "Megascops hoyi",
+      "historical_names": [
+        "Otus hoyi"
+      ],
+      "common_name": "Yungas Screech-Owl",
+      "scope": "northwest Argentina/Bolivia Yungas; brown-morph adults and age-unknown fledged juvenile",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "HOY-KS1989-P4",
+        "HOY-ITIS-686675-2026",
+        "HOY-KOENIG-2000",
+        "HOY-SIB-ARG",
+        "HOY-MIK2013-228"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/129-megascops-hoyi-v4.md",
+      "review_record": "research/reviews/129-megascops-hoyi-v4-review.md",
+      "run_record": "production/runs/20261106T212300+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2827115,
+      "sha256": "2a6bd1c2a95c5a8f67c6ac5a4ca0d2fb62c72a515ee0da9da31d8ada9b570950",
+      "git_blob": "761a11e848bbc73d2bf09d1550b25d10c834cd48",
+      "generated_path": "production/generated/129-megascops-hoyi-v4-generated-master.png",
+      "generated_blob": "761a11e848bbc73d2bf09d1550b25d10c834cd48",
+      "generated_sha256": "2a6bd1c2a95c5a8f67c6ac5a4ca0d2fb62c72a515ee0da9da31d8ada9b570950",
+      "generated_size_bytes": 2827115,
+      "reviewed_path": "production/reviewed/129-megascops-hoyi-v4-reviewed-master.png",
+      "reviewed_blob": "761a11e848bbc73d2bf09d1550b25d10c834cd48",
+      "juvenile_review_crop": "production/review-crops/129-megascops-hoyi-v4-fledgling.png",
+      "juvenile_review_blob": "61f6bcaf634490296c5e9820ee02c4aa4d575d1f",
+      "juvenile_review_size_bytes": 874761,
+      "juvenile_review_sha256": "17e2387b45b468ce0ffe211b859cc46f91a38f8aa855bf5a2d59b37c12a817b4",
+      "adults_review_crop": "production/review-crops/129-megascops-hoyi-v4-adults-support.png",
+      "adults_review_blob": "f9220267107fc1df58d0d46a14a02ec6dd2ce824",
+      "adults_review_size_bytes": 1902426,
+      "adults_review_sha256": "28fbabb6471199ab9b087f9cd0c99c31d2226a3e53695465b9d20b7e76e6a46c",
+      "reviewed_at": "2026-11-06T21:30:03.061+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. Original-description adult morphology and conservative fledged-young limits applied. No edit defect; exact age/development/sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T21:21:29.273+08:00"
+  "updated_at": "2026-11-06T21:30:03.061+08:00"
 }

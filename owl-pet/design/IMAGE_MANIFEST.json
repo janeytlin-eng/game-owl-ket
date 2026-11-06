@@ -25356,7 +25356,68 @@
       "verified_at": "2026-11-06T21:31:15.279+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable readback returned 3,511 non-truncated entries; 15 required paths and 5 exact image blob/size tuples passed; manifests 740/741/731; concept blob matched. Binary body fetch unavailable; science false."
+    },
+    {
+      "id": "130-megascops-koepckeae-v4",
+      "path": "design/concepts/130-megascops-koepckeae-v4.png",
+      "species_id": 130,
+      "scientific_name": "Megascops koepckeae",
+      "historical_names": [
+        "Otus choliba koepckei",
+        "Otus koepckeae"
+      ],
+      "common_name": "Koepcke's Screech-Owl",
+      "scope": "northern nominate/Ecuador context; Loja age-unknown older fledgling",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "KOEP-ITIS-686665-2026",
+        "KOEP-MACAULAY-200950241",
+        "KOEP-MIK2013-222",
+        "KOEP-ALARCON-2023",
+        "KOEP-ORDONEZ-FREILE-2019"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/130-megascops-koepckeae-v4.md",
+      "review_record": "research/reviews/130-megascops-koepckeae-v4-review.md",
+      "run_record": "production/runs/20261106T222600+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2789447,
+      "sha256": "8d7960366c50b421b55f36065491304270ba19bfe16e4df2d08c2d8c9048af16",
+      "git_blob": "b0edab3a50e91113dfd18fb64ba7021e8e299a75",
+      "generated_path": "production/generated/130-megascops-koepckeae-v4-generated-master.png",
+      "generated_blob": "b0edab3a50e91113dfd18fb64ba7021e8e299a75",
+      "generated_sha256": "8d7960366c50b421b55f36065491304270ba19bfe16e4df2d08c2d8c9048af16",
+      "generated_size_bytes": 2789447,
+      "reviewed_path": "production/reviewed/130-megascops-koepckeae-v4-reviewed-master.png",
+      "reviewed_blob": "b0edab3a50e91113dfd18fb64ba7021e8e299a75",
+      "juvenile_review_crop": "production/review-crops/130-megascops-koepckeae-v4-juvenile.png",
+      "juvenile_review_blob": "4947d4976a5ff09f29179b7157e6a906bc86fd71",
+      "juvenile_review_size_bytes": 812580,
+      "juvenile_review_sha256": "cbd54ab01770a93b6ecf225a1e6e7c9611cca262735e668f4ed6866a2fd10ed0",
+      "adults_review_crop": "production/review-crops/130-megascops-koepckeae-v4-adults-support.png",
+      "adults_review_blob": "efca35a9c719b978af31f38e3ea55833bde588bf",
+      "adults_review_size_bytes": 2031219,
+      "adults_review_sha256": "77dd45f82f927c05521a793f73759660bc10b0dc8e1d548e4964a416b829b6fb",
+      "reviewed_at": "2026-11-06T22:45:00+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. Uploaded Mikkola pp.224-225 and primary Loja fledgling evidence were re-read. Adult wing wallpaper pattern and juvenile wing maturity were corrected by a fresh generation; zero edits; exact age/flight/sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T21:31:15.279+08:00"
+  "updated_at": "2026-11-06T22:45:00+08:00"
 }

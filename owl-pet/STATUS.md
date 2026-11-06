@@ -1,3 +1,7 @@
+### #130 *Megascops koepckeae* v4 — ARCHIVED, readback pending
+
+Fresh science revision after actual Mikkola PDF 224–225 / print 222–223 reread and external source cross-check. Full plate and two crops opened; zero edits; irregular adult wing pattern, compact down-veiled older-fledgling wing and six supports pass with limitations. Manifests 741/742/732; unique remains 176/251; science false. Immutable readback and cycle credit pending.
+
 ### #120 v4 LEDGER_CREDITED — active batch 5/6
 
 Verification `39e914fffe146b7faa3ac2fc199aafedaf712d83` / tree `368044a2eab0bded7c8cd92b1b6114d17cacc617` credited once after archive `d520ffa8`. Next cycle 6; lease released; unique 176/251; science false.

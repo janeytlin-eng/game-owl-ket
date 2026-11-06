@@ -19,3 +19,11 @@ Actuallyviewedexec-91d360d8-7372-4df3-948b-4e6f36639ca5: cheeksnowvisiblydarkerc
 - Direct v2 review found a regularly pale-spotted adult wing and no inspectable juvenile folded wing. V3 rebuilds both adults as near-equal richer-brown nominate birds and uses the documented Loja older fledgling: gray-white barred residual down, brown chest, black face edge, white brows, yellow eyes and one compact formed folded wing ending above both feet.
 - One targeted edit shortened and softened adult/juvenile wings. Whole frame, juvenile crop and feet/support crop opened. PASS_WITH_LIMITATIONS; exact age/flight, continuous sequence, sex-size ratio, individual/subspecies limits and universal nest form unknown; science false.
 - [Concept](../../design/concepts/130-megascops-koepckeae-v3.png) · [Research](../../research/species/130-megascops-koepckeae-v3.md) · [Run](../../production/runs/20261031T175400+0800-cycle-4.md)
+
+
+## v4 science revision — 2026-11-06
+- Uploaded Mikkola PDF pp.224–225 / printed 222–223 was actually re-read with Alarcón et al. 2023 Fig.1c/species text, Ordóñez-Delgado & Freile 2019, ITIS TSN 686665 and Macaulay asset ML200950241.
+- V3 showed repeated pale adult-wing scallops and a coherent adult-like juvenile panel. V4 uses irregular adult shaft streaks/transverse patches and an age-unknown Loja fledgling with gray-white barred residual down and one compact down-veiled formed wing.
+- Adults remain near equal in displayed height because no sex-specific ratio is established. Six supported feet, correct text and no invented nest pass actual full/crop review.
+- Zero edits; PASS_WITH_LIMITATIONS. Exact age, continuous feather sequence, first-flight threshold, sex ratio and universal nest form remain unknown; scientifically_verified=false.
+- [Concept](../../design/concepts/130-megascops-koepckeae-v4.png) · [Research](../../research/species/130-megascops-koepckeae-v4.md) · [Review](../../research/reviews/130-megascops-koepckeae-v4-review.md) · [Run](../../production/runs/20261106T222600+0800-cycle-1.md)

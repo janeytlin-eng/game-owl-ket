@@ -1,3 +1,10 @@
+## 2026-11-06 — #130 *Megascops koepckeae* v4 validated application
+
+- **Observed failure:** a species can retain a compact formed fledgling wing while the prompt still over-organizes adult and juvenile wing surfaces into repeated pale tiles.
+- **Evidence boundary:** Alarcón et al. 2023 documents residual nessoptiles and the visible older-fledgling phenotype but not exact age or first flight; Mikkola separates adult pattern from pale-gray nestling down and gives no sex-size rule.
+- **Applied change:** specify adult broad ill-defined shaft streaks and irregular transverse branches separately from the juvenile's single compact, down-veiled formed wing. Do not erase all juvenile remiges merely because down remains.
+- **Validation:** full plate plus juvenile and adult/support crops passed on #130 v4 with zero edits. This validates the prompt distinction for this image only, not a universal owl fledgling rule.
+
 ## 2026-11-06 — #102 *Strix nigrolineata* v4 validated application
 
 - **Observed failure:** a prompt that said “blackish wing coverts with a few pale bars” still produced a complete adult-like folded wing.

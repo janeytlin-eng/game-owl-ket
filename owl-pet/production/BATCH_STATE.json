@@ -27652,38 +27652,30 @@
           "archive_commit": "36a01f385a6f32501ddaff3076c13d551b5aa5fd",
           "run_record": "owl-pet/production/runs/20261107T064131+0800-cycle-2.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "species": "Phodilus badius",
+          "species_id": 158,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
+          "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
+          "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 3,
-      "active_cycle": 3,
+      "next_cycle": 4,
+      "active_cycle": null,
       "started_at": "2026-11-07T06:29:03+08:00",
-      "updated_at": "2026-11-07T07:52:40+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T07:52:40+08:00",
-        "expires_at": "2026-11-07T08:07:40+08:00"
-      },
-      "in_progress": {
-        "cycle": 3,
-        "species_id": 158,
-        "species": "Phodilus badius",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md"
-      },
-      "active": {
-        "cycle": 3,
-        "species_id": 158,
-        "species": "Phodilus badius",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T070200+0800-cycle-3",
-        "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md"
-      },
+      "updated_at": "2026-11-07T07:55:20+08:00",
+      "current_stage": "IDLE",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -28074,16 +28066,32 @@
             "scientifically_verified": false,
             "ledger_credit_pending": true
           }
+        },
+        {
+          "cycle": 3,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T07:55:20+08:00",
+          "run_id": "20261107T070200+0800-cycle-3",
+          "species_id": 158,
+          "species": "Phodilus badius",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
+            "verification_tree": "04b9b8f39ebba0dfd8b0b6a6763d6eb165c444ea",
+            "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
+            "archive_tree": "fd16cd946c9b5df3f591968e3a7614d6386aeee3",
+            "batch_progress": "3/6",
+            "next_cycle": 4,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261107T070200+0800-cycle-3",
-    "heartbeat_at": "2026-11-07T07:52:40+08:00",
-    "expires_at": "2026-11-07T08:07:40+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -28217,7 +28225,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T07:52:40+08:00",
+  "updated_at": "2026-11-07T07:55:20+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -28226,13 +28234,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261107T070200+0800-cycle-3",
-    "heartbeat_at": "2026-11-07T07:26:30+08:00",
-    "expires_at": "2026-11-07T07:41:30+08:00"
-  },
-  "last_updated_at": "2026-11-07T07:26:30+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-07T07:55:20+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -29028,15 +29031,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 3,
-    "species_id": 158,
-    "species": "Phodilus badius",
-    "version": 3,
-    "stage": "STARTED",
-    "run_id": "20261107T070200+0800-cycle-3",
-    "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -33593,9 +33588,9 @@
     }
   ],
   "active_batch_id": "20261107T062903+0800",
-  "active_cycle": 3,
-  "current_stage": "VERIFIED",
-  "next_cycle": 3,
+  "active_cycle": null,
+  "current_stage": "IDLE",
+  "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -41698,7 +41693,474 @@
     }
   ],
   "last_completed_batch_id": "20261107T043300+0800",
-  "active_batch": "20261107T062903+0800",
+  "active_batch": {
+    "batch_id": "20261107T062903+0800",
+    "status": "PARTIAL",
+    "target_cycles": 6,
+    "completed_cycles": [
+      {
+        "cycle": 1,
+        "species": "Athene jacquinoti",
+        "species_id": 151,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "a1324392ee72514fc053f0bcf09e60e349c53d2e",
+        "archive_commit": "ae92217d2c5028fe76a0dfef7257b0fbec35fbb9",
+        "run_record": "owl-pet/production/runs/20261107T062903+0800-cycle-1.md",
+        "scientifically_verified": false
+      },
+      {
+        "cycle": 2,
+        "species": "Jubula lettii",
+        "species_id": 153,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0",
+        "archive_commit": "36a01f385a6f32501ddaff3076c13d551b5aa5fd",
+        "run_record": "owl-pet/production/runs/20261107T064131+0800-cycle-2.md",
+        "scientifically_verified": false
+      },
+      {
+        "cycle": 3,
+        "species": "Phodilus badius",
+        "species_id": 158,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
+        "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
+        "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
+        "scientifically_verified": false
+      }
+    ],
+    "next_cycle": 4,
+    "active_cycle": null,
+    "started_at": "2026-11-07T06:29:03+08:00",
+    "updated_at": "2026-11-07T07:55:20+08:00",
+    "current_stage": "IDLE",
+    "ledger_credit_pending": false,
+    "lease": null,
+    "in_progress": null,
+    "active": null,
+    "stage_events": [
+      {
+        "cycle": 1,
+        "stage": "STARTED",
+        "at": "2026-11-07T06:29:03+08:00",
+        "species_id": 151,
+        "species": "Athene jacquinoti",
+        "run_id": "20261107T062903+0800-cycle-1",
+        "run_record": "owl-pet/production/runs/20261107T062903+0800-cycle-1.md",
+        "baseline_main": "224c3146a3460a7be5c10c8e44784c132678b273",
+        "lease_expires_at": "2026-11-07T06:44:03+08:00",
+        "scientifically_verified": false
+      },
+      {
+        "cycle": 1,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-07T06:30:44+08:00",
+        "run_id": "20261107T062903+0800-cycle-1",
+        "species_id": 151,
+        "species": "Athene jacquinoti",
+        "credited": false,
+        "evidence": {
+          "research_file": "owl-pet/research/species/151-athene-jacquinoti-v3.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_sources": 2,
+          "reused_sources": 5,
+          "unverified_leads": 1,
+          "mikkola_upload_accessible": false,
+          "design_boundary": "adults near-equal; holotype-based irregular underpart barring; age-unknown supported juvenile with compact down-soft wing and concealed tail",
+          "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T06:45:44+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-07T06:33:47+08:00",
+        "run_id": "20261107T062903+0800-cycle-1",
+        "species_id": 151,
+        "species": "Athene jacquinoti",
+        "credited": false,
+        "evidence": {
+          "generated_path": "owl-pet/production/generated/151-athene-jacquinoti-v3-generated-master.png",
+          "image_blob": "d1b29bf3608001020ab126033bab58e13c4a582d",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 2844522,
+          "sha256": "bc0ed49402f16d44306e538a7474e7d69bc51a6445af7431f958886b3d7ca19f",
+          "preliminary_inspection": "exact title/name/count/labels; adults near-equal with rust upperparts, white throat and brown-barred cream underparts; six feet supported; juvenile has overly long visibly layered left wing and needs targeted correction",
+          "edit_required": true,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T06:48:47+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "REVIEWED",
+        "at": "2026-11-07T06:35:51+08:00",
+        "run_id": "20261107T062903+0800-cycle-1",
+        "species_id": 151,
+        "species": "Athene jacquinoti",
+        "credited": false,
+        "evidence": {
+          "reviewed_path": "owl-pet/production/reviewed/151-athene-jacquinoti-v3-reviewed-master.png",
+          "reviewed_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
+          "edit_path": "owl-pet/production/generated/151-athene-jacquinoti-v3-edit1.png",
+          "edit_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
+          "edit_count": 1,
+          "review_record": "owl-pet/research/reviews/151-athene-jacquinoti-v3-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-older-juvenile.png",
+            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-adults-support.png"
+          ],
+          "crop_blobs": [
+            "dbf7e990f82a09403eb9b95291e78f123d0e06a4",
+            "47553fd9e1b512576dbec064af954bdfee104461"
+          ],
+          "reinspection": "edited full plate plus juvenile and adults/support crops opened; juvenile wing short/down-soft/tail hidden; adults and six supports preserved; exterior cavity cue omitted but no nest detail invented",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T06:50:51+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "ARCHIVED",
+        "at": "2026-11-07T06:37:21+08:00",
+        "run_id": "20261107T062903+0800-cycle-1",
+        "species_id": 151,
+        "species": "Athene jacquinoti",
+        "credited": false,
+        "evidence": {
+          "concept": "owl-pet/design/concepts/151-athene-jacquinoti-v3.png",
+          "concept_blob": "4094b03fd76dca1bdbaed75e42d9f398af857553",
+          "generated": "owl-pet/production/generated/151-athene-jacquinoti-v3-generated-master.png",
+          "reviewed": "owl-pet/production/reviewed/151-athene-jacquinoti-v3-reviewed-master.png",
+          "review_crops": [
+            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-older-juvenile.png",
+            "owl-pet/production/review-crops/151-athene-jacquinoti-v3-adults-support.png"
+          ],
+          "manifest_counts": {
+            "design_image": 759,
+            "design_legacy": 760,
+            "production": 750
+          },
+          "unique_species_count": 176,
+          "total_species": 251,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-07T06:52:21+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "VERIFIED",
+        "at": "2026-11-07T06:39:27+08:00",
+        "run_id": "20261107T062903+0800-cycle-1",
+        "species_id": 151,
+        "species": "Athene jacquinoti",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "ae92217d2c5028fe76a0dfef7257b0fbec35fbb9",
+          "archive_tree": "f9fb81d80f500381e8e13e2159c103cf24b95be6",
+          "required_paths": 17,
+          "exact_binary_paths": 6,
+          "manifest_counts": {
+            "design_image": 759,
+            "design_legacy": 760,
+            "production": 750
+          },
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-07T06:54:27+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-07T06:40:20+08:00",
+        "run_id": "20261107T062903+0800-cycle-1",
+        "species_id": 151,
+        "species": "Athene jacquinoti",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "a1324392ee72514fc053f0bcf09e60e349c53d2e",
+          "verification_tree": "d2790e4d373c0ea58f15e393b5ff1db6195f68bc",
+          "archive_commit": "ae92217d2c5028fe76a0dfef7257b0fbec35fbb9",
+          "batch_progress": "1/6",
+          "next_cycle": 2,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "scientifically_verified": false
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "STARTED",
+        "at": "2026-11-07T06:41:31+08:00",
+        "run_id": "20261107T064131+0800-cycle-2",
+        "species_id": 153,
+        "species": "Jubula lettii",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261107T064131+0800-cycle-2.md",
+          "baseline_main": "de38d7e16df071fc94067facf91adbb5fe01f643",
+          "selection_note": "#152 already has verified v3 science revision; next unresolved numbered v3 is #153",
+          "lease_expires_at": "2026-11-07T06:56:31+08:00"
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-07T06:48:20+08:00",
+        "run_id": "20261107T064131+0800-cycle-2",
+        "species_id": 153,
+        "species": "Jubula lettii",
+        "credited": false,
+        "evidence": {
+          "research_file": "owl-pet/research/species/153-jubula-lettii-v3.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_sources": 3,
+          "reused_sources": 0,
+          "unverified_leads": 1,
+          "mikkola_upload_accessible": false,
+          "design_boundary": "adult sexes near-equal because no sex-specific evidence; rufous shaggy head and long ear tufts; supported older immature with retained white juvenile facial feathers and demonstrated short-flight/perching ability",
+          "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T07:03:20+08:00"
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-07T06:50:10+08:00",
+        "run_id": "20261107T064131+0800-cycle-2",
+        "species_id": 153,
+        "species": "Jubula lettii",
+        "credited": false,
+        "evidence": {
+          "generated_path": "owl-pet/production/generated/153-jubula-lettii-v3-generated-master.png",
+          "image_blob": "263f3f690a3260f5f93e67d7bb4faa38c03c4cc6",
+          "width": 1536,
+          "height": 1024,
+          "bytes": 2720633,
+          "sha256": "75a96991d2d42b315d4f91c61ee88dfa719f7f7eef67fc3604e45fa5a49e2280",
+          "preliminary_inspection": "exact title, italic scientific name, exact three labels/count; adults near-equal and rufous with shaggy long tufts, orange eyes, fine ventral streaks and six supported feet; immature has white juvenile facial mask but folded wing and tail remain too adult-long/crisp, so targeted edit required",
+          "edit_required": true,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T07:05:10+08:00"
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "REVIEWED",
+        "at": "2026-11-07T06:53:10+08:00",
+        "run_id": "20261107T064131+0800-cycle-2",
+        "species_id": 153,
+        "species": "Jubula lettii",
+        "credited": false,
+        "evidence": {
+          "reviewed_path": "owl-pet/production/reviewed/153-jubula-lettii-v3-reviewed-master.png",
+          "reviewed_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
+          "edit_path": "owl-pet/production/generated/153-jubula-lettii-v3-edit1.png",
+          "edit_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
+          "edit_count": 1,
+          "review_record": "owl-pet/research/reviews/153-jubula-lettii-v3-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/153-jubula-lettii-v3-older-immature.png",
+            "owl-pet/production/review-crops/153-jubula-lettii-v3-adults-support.png"
+          ],
+          "crop_blobs": [
+            "183e5ccdfb0d34b1e235960bf0f2dd456ede47bf",
+            "0c44f3bc9932dbcd0ac94f9c0b54ebb6bb21d8a5"
+          ],
+          "reinspection": "edited full 1536x1024 plate plus juvenile and adults/support crops opened; juvenile white facial feathers preserved, wing edge shortened/softened above feet, tail modest and functional; adult identity, exact text/count and six supports preserved",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T07:08:10+08:00"
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "ARCHIVED",
+        "at": "2026-11-07T06:56:20+08:00",
+        "run_id": "20261107T064131+0800-cycle-2",
+        "species_id": 153,
+        "species": "Jubula lettii",
+        "credited": false,
+        "evidence": {
+          "concept": "owl-pet/design/concepts/153-jubula-lettii-v3.png",
+          "concept_blob": "482cab6ee1382ebb119b8dbc179454a4dc47e16e",
+          "generated": "owl-pet/production/generated/153-jubula-lettii-v3-generated-master.png",
+          "reviewed": "owl-pet/production/reviewed/153-jubula-lettii-v3-reviewed-master.png",
+          "review_crops": [
+            "owl-pet/production/review-crops/153-jubula-lettii-v3-older-immature.png",
+            "owl-pet/production/review-crops/153-jubula-lettii-v3-adults-support.png"
+          ],
+          "manifest_counts": {
+            "design_image": 760,
+            "design_legacy": 761,
+            "production": 751
+          },
+          "unique_species_count": 176,
+          "total_species": 251,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "scientifically_verified": false,
+          "readback_pending": true,
+          "lease_expires_at": "2026-11-07T07:11:20+08:00"
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "VERIFIED",
+        "at": "2026-11-07T06:58:20+08:00",
+        "run_id": "20261107T064131+0800-cycle-2",
+        "species_id": 153,
+        "species": "Jubula lettii",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "36a01f385a6f32501ddaff3076c13d551b5aa5fd",
+          "archive_tree": "8dfe17c657c749a822c2714905b3808854bd0d70",
+          "required_paths": 19,
+          "exact_binary_paths": 6,
+          "manifest_counts": {
+            "design_image": 760,
+            "design_legacy": 761,
+            "production": 751
+          },
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-07T07:13:20+08:00"
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-07T07:00:05+08:00",
+        "run_id": "20261107T064131+0800-cycle-2",
+        "species_id": 153,
+        "species": "Jubula lettii",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0",
+          "verification_tree": "b0fcf1343267d2fb35fe4fee5647f235827ee631",
+          "archive_commit": "36a01f385a6f32501ddaff3076c13d551b5aa5fd",
+          "archive_tree": "8dfe17c657c749a822c2714905b3808854bd0d70",
+          "batch_progress": "2/6",
+          "next_cycle": 3,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "scientifically_verified": false
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "STARTED",
+        "at": "2026-11-07T07:02:00+08:00",
+        "run_id": "20261107T070200+0800-cycle-3",
+        "species_id": 154,
+        "species": "Pseudoscops grammicus",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
+          "baseline_main": "e57dc0f8bb662e8d451c1df0b8529e434f6cdc93",
+          "selection_note": "#154 has v1/v2 but no v3; #155-157 already have later v3 revisions",
+          "lease_expires_at": "2026-11-07T07:17:00+08:00"
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "STARTED",
+        "at": "2026-11-07T07:04:05+08:00",
+        "run_id": "20261107T070200+0800-cycle-3",
+        "species_id": 158,
+        "species": "Phodilus badius",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
+          "baseline_main": "59f87b64fa746ba92c9c3a52994a0e13c9c0913d",
+          "selection_correction": "#154 Pseudoscops grammicus is a synonym-duplicate of completed #142 Asio grammicus and was skipped before research/image generation; #158 Phodilus badius has archived v1/v2 but no v3",
+          "skipped_species_id": 154,
+          "skipped_reason": "synonym duplicate; no image generated; no credit",
+          "lease_expires_at": "2026-11-07T07:19:05+08:00"
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "LEASE_RENEWED",
+        "at": "2026-11-07T07:26:30+08:00",
+        "run_id": "20261107T070200+0800-cycle-3",
+        "species_id": 158,
+        "species": "Phodilus badius",
+        "credited": false,
+        "evidence": {
+          "previous_lease_expired_at": "2026-11-07T07:19:05+08:00",
+          "lease_expires_at": "2026-11-07T07:41:30+08:00",
+          "resume_from": "STARTED",
+          "baseline_main": "628caf27f1c9567eac3fe1b3b71c41dcc50377de"
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "VERIFIED",
+        "at": "2026-11-07T07:52:40+08:00",
+        "run_id": "20261107T070200+0800-cycle-3",
+        "species_id": 158,
+        "species": "Phodilus badius",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
+          "archive_tree": "fd16cd946c9b5df3f591968e3a7614d6386aeee3",
+          "required_paths": 16,
+          "exact_binary_paths": 6,
+          "manifest_counts": {
+            "design_image": 761,
+            "design_legacy": 762,
+            "production": 752
+          },
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-07T07:55:20+08:00",
+        "run_id": "20261107T070200+0800-cycle-3",
+        "species_id": 158,
+        "species": "Phodilus badius",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
+          "verification_tree": "04b9b8f39ebba0dfd8b0b6a6763d6eb165c444ea",
+          "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
+          "archive_tree": "fd16cd946c9b5df3f591968e3a7614d6386aeee3",
+          "batch_progress": "3/6",
+          "next_cycle": 4,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "scientifically_verified": false
+        }
+      }
+    ]
+  },
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -46390,25 +46852,45 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T08:07:40+08:00"
       }
+    },
+    {
+      "batch_id": "20261107T062903+0800",
+      "cycle": 3,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T07:55:20+08:00",
+      "run_id": "20261107T070200+0800-cycle-3",
+      "species_id": 158,
+      "species": "Phodilus badius",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
+        "verification_tree": "04b9b8f39ebba0dfd8b0b6a6763d6eb165c444ea",
+        "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
+        "archive_tree": "fd16cd946c9b5df3f591968e3a7614d6386aeee3",
+        "batch_progress": "3/6",
+        "next_cycle": 4,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
-  "completed_cycles": 2,
-  "updated": "2026-11-07T07:52:40+08:00",
-  "stage": "VERIFIED",
+  "ledger_credit_pending": false,
+  "last_verified_commit": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
+  "completed_cycles": 3,
+  "updated": "2026-11-07T07:55:20+08:00",
+  "stage": "IDLE",
   "stage_evidence": {
+    "verification_commit": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
+    "verification_tree": "04b9b8f39ebba0dfd8b0b6a6763d6eb165c444ea",
     "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
     "archive_tree": "fd16cd946c9b5df3f591968e3a7614d6386aeee3",
-    "required_paths": 16,
-    "exact_binary_paths": 6,
-    "manifest_counts": {
-      "design_image": 761,
-      "design_legacy": 762,
-      "production": 752
-    },
-    "verification_result": "PASS_WITH_LIMITATIONS",
-    "scientifically_verified": false,
-    "ledger_credit_pending": true
+    "batch_progress": "3/6",
+    "next_cycle": 4,
+    "unique_species_count": 176,
+    "total_species": 251,
+    "revision_increment": 1,
+    "scientifically_verified": false
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T00:37:00+08:00",
+  "updated": "2026-11-07T01:42:13+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25132,7 +25132,74 @@
       "verification_tree": "7009fb622204f8c0a866bbe488ef0bb1f3e441c1",
       "batch_status": "COMPLETE",
       "ledger_credited_at": "2026-11-07T00:45:00+08:00"
+    },
+    {
+      "id": "138-otus-mentawi-v4",
+      "path": "design/concepts/138-otus-mentawi-v4.png",
+      "species_id": 138,
+      "scientific_name": "Otus mentawi",
+      "historical_names": [
+        "Otus bakkamoena mentawi"
+      ],
+      "common_name": "Mentawai Scops Owl",
+      "scope": "Mentawai/Siberut lowland rainforest and village edge; 18–21 May 2017 branch-stage age-unknown juvenile; adult sexual-size direction unresolved",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 2,
+      "status": "ARCHIVED_READBACK_PENDING",
+      "source_ids": [
+        "MEN-TAUFIQURRAHMAN-2018-P31-32",
+        "MEN-MIKKOLA-2013-P166-167",
+        "MEN-ITIS-555383-2026",
+        "MEN-CHASEN-KLOSS-1926-DOI"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/138-otus-mentawi-v4.md",
+      "review_record": "research/reviews/138-otus-mentawi-v4-review.md",
+      "run_record": "production/runs/20261107T012800+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2938851,
+      "sha256": "e9fc78a51b5a68d6ad73114a4e779a76c94cc28e7fb907455b09546bb6ede1f6",
+      "git_blob": "158022a996b66e6038f28ce400ba568a3914180b",
+      "generated_path": "production/generated/138-otus-mentawi-v4-generated-master.png",
+      "generated_blob": "6245a1ac80c0e01d6192a6b98981d41642c79f50",
+      "generated_sha256": "e530456f614eb0ebfa5fe58ee9b625b1fa618fe18695b6fd0d930bfe0c602768",
+      "generated_size_bytes": 3255010,
+      "edit_paths": [
+        "production/generated/138-otus-mentawi-v4-edit1.png",
+        "production/generated/138-otus-mentawi-v4-edit2.png"
+      ],
+      "edit_blobs": [
+        "c214ed13bdd16bd33c90a39cc25391705df9fc6c",
+        "158022a996b66e6038f28ce400ba568a3914180b"
+      ],
+      "reviewed_path": "production/reviewed/138-otus-mentawi-v4-reviewed-master.png",
+      "reviewed_blob": "158022a996b66e6038f28ce400ba568a3914180b",
+      "juvenile_review_crop": "production/review-crops/138-otus-mentawi-v4-juvenile.png",
+      "juvenile_review_blob": "cea0f845843bcde981d2f75631cea2ae1621ac1d",
+      "juvenile_review_size_bytes": 655139,
+      "juvenile_review_sha256": "9368ef88236750ba30d49525afb065b8defaee658e6d23ab4b20d18bbb7bcb5a",
+      "adult_review_crop": "production/review-crops/138-otus-mentawi-v4-adults-support.png",
+      "adult_review_blob": "6c0ce53f339e7a3702d5059ee56dcd361c743633",
+      "adult_review_size_bytes": 1272988,
+      "adult_review_sha256": "ad9af90d1b01c36e02501a78ad390fd2436055721bf85156437f95df8e147cf8",
+      "batch_id": "20261107T012800+0800",
+      "cycle": 1,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T01:42:13+08:00"
     }
   ],
-  "updated_at": "2026-11-07T00:37:00+08:00"
+  "updated_at": "2026-11-07T01:42:13+08:00"
 }

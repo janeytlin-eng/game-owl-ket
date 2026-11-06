@@ -353,3 +353,8 @@ Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back aft
 ### #137 v4 LEDGER_CREDITED — batch COMPLETE 6/6
 
 Verification commit `b90975358b2dacb74fdb3d0ce8b23a7e9b39619b` was read back after immutable archive `4dae5e8cc994e2d50302b8e1b975fe7ca393f483` / tree `6987612f535f4c16e0c4f938b6fef566041fe79d`. Cycle 6 is credited exactly once; batch `20261106T222600+0800` is COMPLETE 6/6 and the lease is released. Unique species remains 176/251; revision +1; science false.
+
+
+### #138 v4 ARCHIVED — readback pending
+
+- Batch `20261107T012800+0800` cycle 1/6. Fresh concept/reviewed master is 2,938,851 bytes (SHA-256 `e9fc78a51b5a68d6ad73114a4e779a76c94cc28e7fb907455b09546bb6ede1f6`). Two edits corrected the juvenile long-tail inversion; result PASS_WITH_LIMITATIONS, science false. Three manifests staged at 747/748/738; immutable tree/path/blob-size readback and ledger credit still required.

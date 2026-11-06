@@ -3257,3 +3257,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/129-megascops-hoyi-v4.png) · [Research](../research/species/129-megascops-hoyi-v4.md) · [Review](../research/reviews/129-megascops-hoyi-v4-review.md) · [Run](../production/runs/20261106T212300+0800-cycle-6.md)
 - V4 preserves v1-v3, uses the original description p.4 plus current/old-name mapping and a conservative fledged-young boundary. Full/crop review passed with 0 edits. PASS_WITH_LIMITATIONS; science false; unique 176/251; immutable tree/path/blob-size readback passed.
+
+
+## #138 Mentawai Scops Owl — *Otus mentawi* — v4
+
+- [Concept](concepts/138-otus-mentawi-v4.png) · [Research](../research/species/138-otus-mentawi-v4.md) · [Review](../research/reviews/138-otus-mentawi-v4-review.md) · [Run](../production/runs/20261107T012800+0800-cycle-1.md)
+- V4 preserves v1–v3 and replaces the repeated 700,000-byte v3 archive-risk copy with a fresh 2,938,851-byte reviewed original. It applies Taufiqurrahman et al. 2018 printed pp.31–32, Mikkola 2013 printed pp.166–167 and ITIS current/old-name mapping. Two evidence-led edits corrected the juvenile wing–tail relation; full/crop review is PASS_WITH_LIMITATIONS. Science false; unique remains 176/251 pending immutable readback.

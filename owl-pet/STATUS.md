@@ -1,3 +1,7 @@
+## 2026-11-06 — #102 *Strix nigrolineata* v4 immutable archive verified
+
+Archive `a3d87e62a3df45a5c27bb7b4dcf43c3c23c3a3b0` / tree `cc5844da2e84591ed9254278077bf59883a60685` returned 3,326 non-truncated entries; six binary paths matched exact blob/size tuples and manifests parsed at 720/719/710. Result PASS_WITH_LIMITATIONS; science false; ledger credit pending.
+
 ## 2026-11-06 — #102 *Strix nigrolineata* v4 archived, verification pending
 
 Cycle 3/6 archive was written with concept, generated master, one corrected edit, reviewed master, two review crops, research/review/run records and manifest counts 720/719/710. Unique archived species remains 176/251 because this is a revision. Scientific verification remains false until immutable archive readback.

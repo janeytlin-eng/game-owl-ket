@@ -22972,7 +22972,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "BWO-GERHARDT-1994-JSTOR",
         "BWO-AVESCR-2025",
@@ -23007,8 +23007,58 @@
       "adults_review_size_bytes": 1931886,
       "adults_review_sha256": "c955d7b0e133457d0e27bc97361dba1366d112b402e51fa0bfbf465099de3900",
       "reviewed_at": "2026-11-06T11:55:30.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V4 preserves v1-v3, adds two newly read source records and reuses two. One center-only edit replaces adult-like juvenile remiges and long tail with a short rounded soft wing and concealed tail. Full plate and two crops pass. Exact juvenile age/sex/feather sequence/flight threshold, population dimorphism and universal nest choice remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V4 preserves v1-v3, adds two newly read source records and reuses two. One center-only edit replaces adult-like juvenile remiges and long tail with a short rounded soft wing and concealed tail. Full plate and two crops pass. Exact juvenile age/sex/feather sequence/flight threshold, population dimorphism and universal nest choice remain unknown; science false.",
+      "archive_commit": "a3d87e62a3df45a5c27bb7b4dcf43c3c23c3a3b0",
+      "archive_tree": "cc5844da2e84591ed9254278077bf59883a60685",
+      "verified_at": "2026-11-06T12:00:00.000+08:00",
+      "verification_result": "archive tree returned 3326 non-truncated entries; concept/generated/edit/reviewed and two review crops matched exact path/blob/byte tuples; three manifests parsed at 720/719/710; concept blob was readable",
+      "exact_readback": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "a3d87e62a3df45a5c27bb7b4dcf43c3c23c3a3b0",
+        "archive_tree": "cc5844da2e84591ed9254278077bf59883a60685",
+        "tree_entries": 3326,
+        "truncated": false,
+        "manifest_counts": {
+          "design": 720,
+          "legacy": 719,
+          "production": 710
+        },
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/102-strix-nigrolineata-v4.png",
+            "blob": "e20380b242e51aada6394fa696824442423f6724",
+            "size_bytes": 3114352
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/102-strix-nigrolineata-v4-generated-master.png",
+            "blob": "df726ce7ddb92951e61553b802176f61865fc9cf",
+            "size_bytes": 3279987
+          },
+          "edit": {
+            "path": "owl-pet/production/edits/102-strix-nigrolineata-v4-edit1.png",
+            "blob": "e20380b242e51aada6394fa696824442423f6724",
+            "size_bytes": 3114352
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/102-strix-nigrolineata-v4-reviewed-master.png",
+            "blob": "e20380b242e51aada6394fa696824442423f6724",
+            "size_bytes": 3114352
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/102-strix-nigrolineata-v4-juvenile.png",
+            "blob": "22bc3dad42fe5a63db0baa4e27e15317664d5754",
+            "size_bytes": 612447
+          },
+          "adults_support_crop": {
+            "path": "owl-pet/production/review-crops/102-strix-nigrolineata-v4-adults-support.png",
+            "blob": "62ba8baebf267bba56e4c7508d3413c77bc3cba7",
+            "size_bytes": 1931886
+          }
+        },
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-11-06T11:57:00.000+08:00"

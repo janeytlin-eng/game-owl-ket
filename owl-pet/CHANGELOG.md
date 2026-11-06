@@ -1,3 +1,5 @@
+- Verified #102 v4 immutable archive at `a3d87e62a3df45a5c27bb7b4dcf43c3c23c3a3b0`: exact six binary tuples, manifests 720/719/710, non-truncated tree. Science remains false.
+
 ## 2026-11-06 — #102 *Strix nigrolineata* v4
 
 Archived a science revision preserving v1-v3. Added two read source records, reused two repository sources, generated one plate, corrected the center juvenile's adult-like wing/tail once, and passed full/crop reinspection with limitations. Awaiting immutable archive verification; science false.

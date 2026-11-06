@@ -47,3 +47,8 @@ Fresh research read Marcot 1995 pp.5–6, Oberholser 1924 p.302, three Cornell/M
 - Result: PASS_WITH_LIMITATIONS
 - Remaining unknown: exact juvenile age/feather sequence/first-flight, quantitative dimorphism, population-wide subspecies colour.
 - scientifically_verified: false
+
+
+### v3 archive transport note
+
+The first binary archive attempt was detected as truncated during Git-tree readback and was not accepted. The committed v3 concept is a reopened full-resolution 1536×1024 indexed-PNG archival derivative used to ensure a complete connector transfer; exact transport sizes/hashes and the failed attempt are recorded in the cycle run. This changes palette precision only, not the reviewed composition or scientific boundary.

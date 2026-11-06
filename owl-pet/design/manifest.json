@@ -25144,7 +25144,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "HOY-KS1989-P4",
         "HOY-ITIS-686675-2026",
@@ -25178,10 +25178,19 @@
       "adults_review_size_bytes": 1902426,
       "adults_review_sha256": "28fbabb6471199ab9b087f9cd0c99c31d2226a3e53695465b9d20b7e76e6a46c",
       "reviewed_at": "2026-11-06T21:30:03.061+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3. Original-description adult morphology and conservative fledged-young limits applied. No edit defect; exact age/development/sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3. Original-description adult morphology and conservative fledged-young limits applied. No edit defect; exact age/development/sex ratio remain unknown; science false.",
+      "archive_commit": "fec0800c8e380f004ff4fb12e7e82eac269b695c",
+      "archive_tree": "f6ebf4d3b538751f8aca659bbf3bf447ef3e4ff3",
+      "archive_tree_entries": 3511,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 15,
+      "exact_binary_paths_verified": 5,
+      "verified_at": "2026-11-06T21:31:15.279+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable readback returned 3,511 non-truncated entries; 15 required paths and 5 exact image blob/size tuples passed; manifests 740/741/731; concept blob matched. Binary body fetch unavailable; science false."
     }
   ],
-  "updated_at": "2026-11-06T21:30:03.061+08:00"
+  "updated_at": "2026-11-06T21:31:15.279+08:00"
 }

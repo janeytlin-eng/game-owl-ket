@@ -49,3 +49,7 @@ Create a polished 1536×1024 horizontal scientific concept plate in the establis
 
 - Concept: `owl-pet/design/concepts/129-megascops-hoyi-v4.png`; 2,827,115 bytes; SHA-256 `2a6bd1c2a95c5a8f67c6ac5a4ca0d2fb62c72a515ee0da9da31d8ada9b570950`.
 - v1-v3 preserved; revision +1, unique increment 0. Immutable readback pending; science false.
+
+## VERIFIED — 2026-11-06T21:31:15.279+08:00
+
+- Immutable tree `f6ebf4d3b538751f8aca659bbf3bf447ef3e4ff3` is non-truncated (3,511 entries); 15 required paths and five exact image blob/size tuples pass; manifests parse 740/741/731. Binary-body SHA recomputation was unavailable, so status remains PASS_WITH_LIMITATIONS and science false.

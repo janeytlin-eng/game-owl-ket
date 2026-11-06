@@ -1,3 +1,8 @@
+## Latest concept: #140 Reddish Scops Owl — *Otus rufescens* v4
+
+- [Concept](concepts/140-otus-rufescens-v4.png) · [Research](../research/species/140-otus-rufescens-v4.md) · [Review](../research/reviews/140-otus-rufescens-v4-review.md) · [Run](../production/runs/20261107T015800+0800-cycle-3.md)
+- V4 preserves v1–v3, uses nominate light-morph adults at evidence-neutral near-equal size, and a documented age-unknown reddish-brown downy chick with no mature wing/tail claim. Full image and two crops opened; no edit required. `PASS_WITH_LIMITATIONS`; science false; immutable readback pending.
+
 ## Latest concept: #112 Abyssinian Owl — *Asio abyssinicus* v3
 
 - [Concept](concepts/112-asio-abyssinicus-v3.png) · [Research](../research/species/112-asio-abyssinicus-v3.md) · [Review](../research/reviews/112-asio-abyssinicus-v3-review.md) · [Run](../production/runs/20261106T133000+0800-cycle-3.md)

@@ -1,3 +1,7 @@
+### #140 *Otus rufescens* v4 — ARCHIVED, readback pending
+
+Research, original generation and full/crop inspection completed. No evidence-backed edit required. Concept uses near-equal adults and a supported age-unknown downy chick. Manifests 750/749/740; science false; immutable readback pending.
+
 ### #130 v4 LEDGER_CREDITED — active batch 1/6
 
 Verification `3223778e04444f1fa0f24ce9f7fd30b93e6d1215` credited once after the repaired full-size archive `3583e719`. Next cycle 2; lease released; unique 176/251; revision +1; science false.

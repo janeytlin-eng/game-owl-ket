@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T01:55:07+08:00",
+  "updated": "2026-11-07T02:36:10+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26062,6 +26062,68 @@
       "verification_tree": "ea4a31f7a4f082556eda7b2b7f969e7bc1b0bd11",
       "batch_status": "PARTIAL",
       "ledger_credited_at": "2026-11-07T01:55:07+08:00"
+    },
+    {
+      "id": "140-otus-rufescens-v4",
+      "path": "design/concepts/140-otus-rufescens-v4.png",
+      "species_id": 140,
+      "scientific_name": "Otus rufescens",
+      "historical_names": [
+        "Strix rufescens",
+        "Strix mantis"
+      ],
+      "common_name": "Reddish Scops Owl",
+      "scope": "nominate light morph in Southeast Asian lowland evergreen forest; documented age-unknown downy chick; adult sexual-size direction unresolved",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "RFS-MIKKOLA-2013-P178",
+        "RFS-WARAKAGODA-RASMUSSEN-2004-P102",
+        "RFS-ITIS-555364-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/140-otus-rufescens-v4.md",
+      "review_record": "research/reviews/140-otus-rufescens-v4-review.md",
+      "run_record": "production/runs/20261107T015800+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2735257,
+      "sha256": "ebb0967cc8c9db2338cabef08a2c54b25042cc77cc52e38b3fe16d699de78457",
+      "git_blob": "2ae54c97b1d91db3153dec70afbe2dc326f68605",
+      "generated_path": "production/generated/140-otus-rufescens-v4-generated-master.png",
+      "generated_blob": "2ae54c97b1d91db3153dec70afbe2dc326f68605",
+      "generated_sha256": "ebb0967cc8c9db2338cabef08a2c54b25042cc77cc52e38b3fe16d699de78457",
+      "generated_size_bytes": 2735257,
+      "edit_paths": [],
+      "edit_blobs": [],
+      "reviewed_path": "production/reviewed/140-otus-rufescens-v4-reviewed-master.png",
+      "reviewed_blob": "2ae54c97b1d91db3153dec70afbe2dc326f68605",
+      "juvenile_review_crop": "production/review-crops/140-otus-rufescens-v4-downy-chick.png",
+      "juvenile_review_blob": "2c90d785bae10b6d78b6177e0dcd2fee0523a683",
+      "juvenile_review_size_bytes": 647298,
+      "juvenile_review_sha256": "647d89760db5bda9cc9acc06e78ea142bc9bb2df66b9dfa247c2c108faf4b6c1",
+      "adult_review_crop": "production/review-crops/140-otus-rufescens-v4-adults-support.png",
+      "adult_review_blob": "a4f033cbd28617f2c0965a5b2e832294e97c867b",
+      "adult_review_size_bytes": 1314903,
+      "adult_review_sha256": "477b01ab0dc4163d1b2c618ccfb34f3f96e3d430e452f0b419596f8eadf7f5bd",
+      "batch_id": "20261107T012800+0800",
+      "cycle": 3,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T02:36:10+08:00",
+      "exact_readback": false
     }
   ],
   "updated_at": "2026-11-07T01:55:07+08:00"

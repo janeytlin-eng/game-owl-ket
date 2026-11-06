@@ -1,18 +1,21 @@
 # 56 · Great Horned Owl · *Bubo virginianus*
 
 Status: ARCHIVED / visually reviewed; scientific calibration pending
-Accessed: 2026-10-14
 
-## Evidence facts and design boundary
-- Adult: prominent ear tufts, yellow eyes, dark bill, white throat patch, mottled brown/gray upperparts and barred pale underparts.
-- Sex: female average mass about 1.7 kg versus male about 1.3 kg in the accessible academic synthesis; render moderate female fullness, not a uniform owl rule.
-- Juvenile stage: 42-day/6-week brancher at the Cornell nestling-period boundary, down-softened and short-winged; no confident flight pose.
-- Nest: reused stick nest in tree; mixed woodland/open-edge setting.
-- Geographic/subspecies color variation is real; use a neutral mid-brown North American direction and do not claim a specific subspecies.
-- Sources: GHO-CORNELL-2026, GHO-ADW-2026, GHO-AUDUBON-2026.
-- Archived asset: `owl-pet/design/concepts/56-bubo-virginianus-v1.png`
-- 1536×1024 PNG; 655662 bytes; SHA-256 `a2b43fdc4954bedc663841d183cc5e47316010eef87729ea6d7cc2d2db09ff47`
-- Git blob `0346e1374a5125daa97190271ecc8af80b847e79`; archive commit `456e6136320eb086a7871b5b2ea107e03f6f0636`
+## v1 preserved
 
-## Review
-First image had a long, strongly barred adult-like juvenile wing. One targeted edit shortened and down-softened it. Recheck: exact three birds/title, adult yellow eyes/tufts/white throats, moderate female size, juvenile short immature wing, secure nest-branch support and non-flight pose passed. Subspecies and continuous feather sequence remain pending.
+Original v1 and its review remain at `owl-pet/design/concepts/56-bubo-virginianus-v1.png`. It used a short-winged brancher direction and remains historical evidence, not overwritten.
+
+## v2 evidence revision · 2026-11-06
+
+- Current name *Bubo virginianus* (Gmelin, 1788); historical *Strix virginiana* (ITIS TSN 177884).
+- Hoffmeister & Setzer (1947), pp.165–166, show 43–49-day nest departure/early flight variation and substantial erupted remiges by the late nestling stage. A 44–46-day brancher therefore needs formed flight feathers as well as immature down; tiny all-down wing buds are an overcorrection.
+- McGillivray (1989) assessed 18 variables in 418 specimens: reverse size dimorphism was consistent while overall size varied geographically. V2 shows a moderately fuller/slightly taller female without assigning a numeric ratio or subspecies.
+- Cornell's 2022 camera chronology supports fully branch-supported behavior at 46 days and later short flight at 55 days.
+
+## v2 review
+
+No edit was required. Full plate and two crops were opened: exactly three labeled birds; adult identity and moderate female direction; all four adult feet and both juvenile feet supported; short juvenile tail; retained down; substantial irregularly layered immature wing feathers; reused stick nest and woodland edge passed. Exact juvenile age/sex/flight ability, continuous plumage sequence, regional colour and pair ratio remain unknown. scientifically_verified=false.
+
+- Research: `owl-pet/research/species/56-bubo-virginianus-v2.md`
+- Review: `owl-pet/research/reviews/56-bubo-virginianus-v2-review.md`

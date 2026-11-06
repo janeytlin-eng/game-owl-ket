@@ -983,3 +983,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** compare crown height, foot baseline and visible body envelope together; when quantitative sex-size evidence is absent, edit the display to overlapping mass rather than preserving a generic dimorphism cue.
 - **Verified in use:** #134 *Megascops sanctaecatarinae* v4 edit 1 passed full-plate and adults/feet-crop inspection. This is one asset-level correction, not a cross-species size rule.
 - Evidence: `owl-pet/research/reviews/134-megascops-sanctaecatarinae-v4-review.md`.
+
+
+### 2026-11-06 — “Avoid adult wings” must not erase measured late-brancher remiges (#56 v2)
+
+- **Found:** primary measurements can show substantial erupted primaries/secondaries by 37–39 days even when coordinated flight remains incomplete around 43–45 days.
+- **Applied:** for #56 v2's c.44–46-day brancher, retain visibly formed but irregular, down-overlapped flight feathers and a short tail; keep both feet on the branch and treat a raised wing only as balance.
+- **Verified in use:** full plate plus juvenile and adult-support crops passed without an edit. This corrects v1's tiny-wing overcorrection for this evidence-defined stage; it is not a universal owl age schedule.
+- Evidence: `owl-pet/research/reviews/56-bubo-virginianus-v2-review.md`.

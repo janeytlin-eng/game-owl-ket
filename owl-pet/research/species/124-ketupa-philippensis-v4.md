@@ -52,3 +52,7 @@ Do not import mindanensis traits; no exact 70-day label; no adult-identical juve
 3. Juvenile: head down, compact irregular soft wing, short tail, muted iris, warmer/lower-contrast body; not a hatchling or miniature adult.
 4. Six continuous support contacts; no invented nest or flight.
 5. Unknowns explicit; science remains false.
+
+## Actual generation, edit and review
+
+Initial full image passed text/count/adults/support but failed the juvenile-wing gate: a long orderly miniature-adult panel. One juvenile-only edit produced a compact rounded irregular wing under down, ending above the feet while retaining head down, brown iris, short tail and bilateral branch contact. Full image and two crops were opened; `PASS_WITH_LIMITATIONS`, edit count 1, science false.

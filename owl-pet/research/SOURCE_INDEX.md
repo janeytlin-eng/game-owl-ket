@@ -2669,3 +2669,37 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 ### FLO-BIRDLIFE-FACTSHEET-2026 — unverified lead
 - **Institution / URL / accessed:** BirdLife International DataZone; https://datazone.birdlife.org/species/factsheet/flores-scops-owl-otus-alfredi ; accessed 2026-11-06 UTC.
 - **Status:** dynamic full text was not readable in this execution; retained only as a range/status lead. It is not used for morphology, sex, age, behaviour or the science pass.
+
+
+## 2026-11-07 — #138 *Otus mentawi* v4 — complete-image recovery and juvenile-stage recheck
+
+### MEN-TAUFIQURRAHMAN-2018-P31-32 — newly indexed primary field-development record
+- **Title / authors / year:** “First breeding record of Mentawai Scops Owl *Otus mentawi*, with notes on the morphology and vocalisations of juveniles”, Imam Taufiqurrahman, Ismael Saumanuk & Arif Setiawan, 2018.
+- **URL / access:** https://swaraowa.org/wp-content/uploads/2018/05/mentawai-scops-owl.pdf ; accessed 2026-11-07.
+- **Type / pages / scope:** primary field observation; BirdingASIA 29, printed pp.31–32; west Siberut adults and two dated, branch-using juveniles observed 12–21 May 2017.
+- **Useful source facts:** the adult usually called high while a juvenile called from a lower branch, sometimes 2–3 m above ground; by 18 May two juveniles were slightly smaller than the adult. They had pale greyish-brown underparts with thin dark streaks, darker upperparts, reddish-brown faces and eyes, pale greyish-horn bills/toes, short dark tails, and folded wings projecting beyond the tail with faint narrow bars that strengthened by 21 May.
+- **Limits / confidence:** exact hatch dates were not known; the paper’s roughly 25-day incubation/fledging chronology is explicitly comparative and only a reasonable estimate. It does not document sex-specific standing-size ratio or continuous flight ability. High confidence for the photographed dated plumage/support stage.
+- **Design decision:** use the later documented juvenile stage on a natural lower branch with both feet supported; retain formed but non-adult wings beyond a short tail, and do not label exact age or flight competence.
+- **Links:** `research/species/138-otus-mentawi-v4.md`; target `design/concepts/138-otus-mentawi-v4.png`.
+
+### MEN-MIKKOLA-2013-P166-167 — newly re-read uploaded guide account
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed., Heimo Mikkola, 2013.
+- **Library file / access:** user-uploaded PDF `libfile_363b879863d48191adc5747cea29008e`; read 2026-11-07.
+- **Type / pages / scope:** photographic species account; PDF pages 168–169 / printed pp.166–167; adult *Otus mentawi*.
+- **Useful source facts:** length about 20 cm, wing 157–166 mm; no data on sexual size differences; rufous adults have dark reddish-brown upperparts, no nuchal collar, a whitish-and-black scapular row, mottled dark-brown wing coverts, reddish-brown/chestnut underparts with herringbone marks and white ocelli, brown (sometimes yellow) eyes, yellowish-horn bill, fully feathered tarsi and bare flesh-coloured toes with powerful dark claws. Lowland rainforest plus secondary growth/villages are within habitat.
+- **Limits / confidence:** the guide said juvenile unknown before the 2018 field paper; one photographic account cannot define every individual palette. High confidence for adult identity and the absence of quantified sex-size direction.
+- **Design decision:** keep adults near equal apparent size, select brown eyes and yellowish-horn bills, feather tarsi to the toe bases, and use village-edge lowland rainforest without inventing a nest.
+- **Links:** `research/species/138-otus-mentawi-v4.md`; v1–v3 retained.
+
+### MEN-ITIS-555383-2026 — newly indexed current/old-name crosswalk
+- **Institution / access:** Integrated Taxonomic Information System, TSN 555383; accessed 2026-11-07.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555383
+- **Type / scope:** authoritative taxonomy record; species-level nomenclature.
+- **Useful source facts:** valid current name *Otus mentawi* Chasen & Kloss, 1926; listed synonym *Otus bakkamoena mentawi* Chasen & Kloss, 1926.
+- **Limits / confidence:** taxonomy only; not used for plumage, sex, age, behaviour or nest claims. High confidence for this name mapping.
+- **Design decision:** retain roster label *Otus mentawi* and record the historical trinomial without changing the 251-species scope.
+- **Links:** `knowledge/species/138-otus-mentawi.md`; `research/species/138-otus-mentawi-v4.md`.
+
+### MEN-CHASEN-KLOSS-1926-DOI — metadata-only historical lead
+- **Citation:** Chasen & Kloss, 1926, “Spolia Mentawiensis.—Birds”, *Ibis* 68:269–306. DOI: https://doi.org/10.1111/j.1474-919X.1926.tb07583.x
+- **Verification state:** publisher metadata and page range read 2026-11-07; full original species text was not available in this run. Do not use this entry as direct morphology evidence.

@@ -2806,3 +2806,48 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Search located a lodge page captioned “young Moluccan Scops Owl,” but location/context appear to concern southern/Flores material and the source is non-institutional. The underlying age, taxon and image provenance were not verified. It is excluded from v4 design evidence and retained only as a future lead.
 
 **Run synthesis:** four source records added to the central index (three biological/taxonomic sources plus one uploaded-guide section); Mikkola and Sangster are evidence reused from v3 but directly re-read. Exact juvenile age/iris/flight/bill, sex-size ratio, nest form and full feather chronology remain unknown. Scientific verification remains false.
+
+
+## 2026-11-07 — #142 *Asio grammicus* v3 research delta
+
+### JAM-MIKKOLA-2013-P500-501 — uploaded guide directly re-read
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. / Heimo Mikkola / 2013.
+- **Locator:** printed pp.500–501; uploaded PDF pp.502–503; directly read 2026-11-07.
+- **Species/stage:** historical *Pseudoscops grammicus*, current *Asio grammicus*; adult, white first down, older juvenile.
+- **Facts:** adult length 27–34 cm, wing 197–229 mm; no known sexual size/colour difference; long mottled brown-black tufts; warm tawny-brown upperparts without white scapular spots; barred flight feathers/tail; dull yellowish underparts with long dark shaft streaks and fine brown vermiculation; hazel-brown eyes; bluish-grey bill/cere; reddish-brown tarsal feathering to toe bases; grey-brown toes and dark claws. Juvenile is lighter above with pale grey-brown back and dull cinnamon-buff remainder; a July caption notes down remnants on the head.
+- **Limits/use:** no exact juvenile age, flight threshold, iris chronology, sex-size direction, nest construction or continuous feather sequence. Supports an age-unknown, supported down-remnant juvenile, not a hatchling.
+
+### JAM-HOYER-BIRDSEYE — photographic comparator re-opened
+- **Title/contributor:** BirdsEye Photography Jamaican Owl gallery; Richard C. Hoyer/WINGS.
+- **URL:** https://birdseye.photo/photos/review/3591/jamaican_owl/
+- **Read:** page and variant metadata re-opened 2026-11-07.
+- **Facts:** gallery labels a November Jamaican image “Downy young”; comparator appears cinnamon-buff/fluffy with diffuse mottling and compact mostly hidden wing/tail at a tree support.
+- **Limits/use:** exact age, sex, year, flight ability and developmental sequence are not provided; photo comparator only.
+
+### JAM-ITIS-1244691-2026 — current/original/old-name mapping
+- **Institution/URL:** ITIS TSN 1244691; https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1244691&source=to_print
+- **Accessed/read:** taxonomy and nomenclature, 2026-11-07.
+- **Facts:** valid *Asio grammicus* (Gosse, 1847); synonyms *Pseudoscops grammicus* and original *Ephialtes grammicus*; English Jamaican Owl.
+- **Limit/use:** nomenclature only; #154 old-genus archive is historical duplicate, not another living species.
+
+### JAM-MACAULAY-201649681-2016 — juvenile-vocalization metadata
+- **Institution/URL:** Macaulay Library / Cornell Lab; https://macaulaylibrary.org/asset/201649681
+- **Date/location:** 28 March 2016, Orange Hall Estate, Saint Ann, Jamaica; metadata read 2026-11-07.
+- **Facts:** adult vocalizing while another bird and a high-pitched juvenile call are audible.
+- **Limits/use:** no juvenile image, age, sex or flight information; behavioral presence only, not plumage evidence.
+
+### JAM-AOS-NACC-2021-C10 — reused taxonomic proposal
+- **Institution/title/year:** AOS NACC proposal 2021-C-10, “Submerge *Pseudoscops* and *Nesasio* into *Asio*,” 2021.
+- **URL/locator:** https://americanornithology.org/wp-content/uploads/2021/04/2021-C.pdf , pp.53–54.
+- **Use/limit:** supports transfer of *grammicus* to *Asio*; taxonomy only. Reused from the archived v2 research record.
+
+### JAM-GRAVES-2007 — reused Smithsonian roost context
+- **Author/title/year:** Gary R. Graves, “Prey remains of the Jamaican Owl (*Pseudoscops grammicus*),” 2007, *Journal of Caribbean Ornithology* 20:53–55.
+- **URL:** https://repository.si.edu/bitstreams/fb710e7c-c30a-457d-8f03-fb87e47110d5/download
+- **Facts/use:** adult day roost in a broad-leaved tree partly shaded by talipot palm; generalist diet. Supports leafy Jamaican tree-perch context only.
+- **Limit:** no nest or juvenile development.
+
+### JAM-SUTTON-1988-JUVENILE-FROG — unverified lead
+- A 1988 Gosse Bird Club/BirdsCaribbean citation “Jamaican Owl feeds juvenile on frog” was located, but the underlying note was not recovered and read. It remains an unverified behavioral lead and is not used to specify juvenile age, posture, plumage or nest.
+
+**Run synthesis:** six central-index records added (four directly read/re-opened this run; two preserved prior reads), one unverified lead retained but excluded from design. Exact juvenile age/iris/flight/sequence, nest form, and sex-size direction remain unknown; scientific verification remains false.

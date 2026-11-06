@@ -12,3 +12,8 @@ Sources JAM-HOYER-BIRDSEYE primaryphotos/new, JAM-WOODS2015-METADATA notpixels/n
 ## v2 VERIFIED — 2026-10-31T22:50:00+08:00
 
 Fixed archive `351b8a365a28fbd2b914861df8e5897cd7495827` passed exact full image path/blob/byte checks and manifest counts 625/626/616 after rejecting truncated archive `9af895dec2e471cba3c597cf7fd2f281c94c3ed5`. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/351b8a365a28fbd2b914861df8e5897cd7495827/owl-pet/design/concepts/142-asio-grammicus-v2.png?raw=1). Science remains false.
+
+
+## v3 RESEARCH_READY — 2026-11-07T03:22:00+08:00
+
+Uploaded Mikkola pp.500–501 / PDF pp.502–503 was directly re-read; BirdsEye juvenile metadata, ITIS TSN 1244691 and Macaulay ML201649681 were re-opened/read, with AOS and Graves prior full reads reused. Current *Asio grammicus* maps original *Ephialtes grammicus* and later *Pseudoscops grammicus*; #154 remains a historical duplicate. V3 uses near-equal adults and an age-unknown, two-foot-supported down-remnant juvenile with pale grey-brown back, dull cinnamon-buff body, soft head/shoulder down and concealed tail. Exact age/iris/flight/sequence/nest/dimorphism remain unknown; science false. Full prompt: `research/species/142-asio-grammicus-v3.md`.

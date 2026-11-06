@@ -26199,9 +26199,51 @@
       ],
       "last_verified_commit": "f56471bbd29c15f520ee23615f99ae76502e9647",
       "completed_at": "2026-11-07T00:45:00+08:00"
+    },
+    {
+      "batch_id": "20261107T012800+0800",
+      "status": "PARTIAL",
+      "target_cycles": 6,
+      "completed_cycles": [],
+      "next_cycle": 1,
+      "active_cycle": 1,
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261107T012800+0800-cycle-1",
+        "heartbeat_at": "2026-11-07T01:28:01+08:00",
+        "expires_at": "2026-11-07T01:43:01+08:00"
+      },
+      "in_progress": {
+        "cycle": 1,
+        "species_id": 138,
+        "species": "Otus mentawi",
+        "version": 4,
+        "stage": "STARTED",
+        "run_id": "20261107T012800+0800-cycle-1",
+        "run_record": "owl-pet/production/runs/20261107T012800+0800-cycle-1.md"
+      },
+      "started_at": "2026-11-07T01:28:01+08:00",
+      "updated_at": "2026-11-07T01:28:01+08:00",
+      "stage_events": [
+        {
+          "cycle": 1,
+          "stage": "STARTED",
+          "at": "2026-11-07T01:28:01+08:00",
+          "species_id": 138,
+          "species": "Otus mentawi",
+          "run_record": "owl-pet/production/runs/20261107T012800+0800-cycle-1.md",
+          "baseline_main": "3eecdb9e0707506e57f47993702784a0f5506f94"
+        }
+      ],
+      "last_verified_commit": "b90975358b2dacb74fdb3d0ce8b23a7e9b39619b"
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex",
+    "run_id": "20261107T012800+0800-cycle-1",
+    "heartbeat_at": "2026-11-07T01:28:01+08:00",
+    "expires_at": "2026-11-07T01:43:01+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -26334,7 +26376,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-07T00:45:00+08:00",
+  "updated_at": "2026-11-07T01:28:01+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -26343,8 +26385,13 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-11-07T00:45:00+08:00",
+  "active_lease": {
+    "owner": "codex",
+    "run_id": "20261107T012800+0800-cycle-1",
+    "heartbeat_at": "2026-11-07T01:28:01+08:00",
+    "expires_at": "2026-11-07T01:43:01+08:00"
+  },
+  "last_updated_at": "2026-11-07T01:28:01+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -27140,7 +27187,16 @@
       "credited": false
     }
   ],
-  "in_progress": null,
+  "in_progress": {
+    "batch_id": "20261107T012800+0800",
+    "cycle": 1,
+    "species_id": 138,
+    "species": "Otus mentawi",
+    "version": 4,
+    "stage": "STARTED",
+    "run_id": "20261107T012800+0800-cycle-1",
+    "run_record": "owl-pet/production/runs/20261107T012800+0800-cycle-1.md"
+  },
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -28435,7 +28491,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T00:45:00+08:00",
+  "last_updated": "2026-11-07T01:28:01+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -31371,10 +31427,10 @@
       }
     }
   ],
-  "active_batch_id": null,
-  "active_cycle": null,
-  "current_stage": "LEDGER_CREDITED",
-  "next_cycle": null,
+  "active_batch_id": "20261107T012800+0800",
+  "active_cycle": 1,
+  "current_stage": "STARTED",
+  "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -38134,725 +38190,25 @@
         "revision_increment": 1,
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261107T012800+0800",
+      "cycle": 1,
+      "stage": "STARTED",
+      "at": "2026-11-07T01:28:01+08:00",
+      "run_id": "20261107T012800+0800-cycle-1",
+      "species_id": 138,
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261107T012800+0800-cycle-1.md",
+        "baseline_main": "3eecdb9e0707506e57f47993702784a0f5506f94",
+        "lease_expires_at": "2026-11-07T01:43:01+08:00",
+        "selection": "science revision/archive repair because v3 concept/generated/reviewed blobs are each exactly 700000 bytes"
+      }
     }
   ],
   "last_completed_batch_id": "20261106T222600+0800",
-  "active_batch": {
-    "batch_id": "20261106T222600+0800",
-    "status": "COMPLETE",
-    "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "3223778e04444f1fa0f24ce9f7fd30b93e6d1215",
-        "archive_commit": "3583e7191007ed49a964b51bf922289de4ec115d",
-        "verification_tree": "3b13d6fe3193c7fd56be8988707ee6620fd59b22",
-        "run_record": "owl-pet/production/runs/20261106T222600+0800-cycle-1.md",
-        "completed_at": "2026-11-06T22:52:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "c87abe2c4eddbeb1ea15c0fb6c9215554af2cb59",
-        "archive_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06",
-        "verification_tree": "19d157497b4ef50b1faaa3bdbab61e453df8211a",
-        "run_record": "owl-pet/production/runs/20261106T225300+0800-cycle-2.md",
-        "completed_at": "2026-11-06T22:54:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "species_id": 132,
-        "species": "Strix davidi",
-        "current_name_mapping": "Strix uralensis davidi",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "66289ffe84fbe668d948252f66faa9f1c30f07b9",
-        "archive_commit": "a2fb4d0d954d54d8fe00fec47b6d286fa68ccc33",
-        "verification_tree": "f135b9bbe002c4001dd2803afb1200b6005e38c7",
-        "run_record": "owl-pet/production/runs/20261106T2301180800-cycle-3.md",
-        "completed_at": "2026-11-06T23:13:10+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "d529c45921d0ec1147671daa773d2e46cc8741f2",
-        "archive_commit": "6ac23e5cf581f413d66af40845935d5be4c53037",
-        "verification_tree": "1d99268c9d9274072f134784678e3d492978c959",
-        "run_record": "owl-pet/production/runs/20261106T2313560800-cycle-4.md",
-        "completed_at": "2026-11-06T23:30:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "f56471bbd29c15f520ee23615f99ae76502e9647",
-        "archive_commit": "b935e0cef0fbca9c8ebcc1b89d50eb183973e5a5",
-        "verification_tree": "b8b4ae047d48ef473a34dc9126b284fd056d8396",
-        "run_record": "owl-pet/production/runs/20261106T2331000800-cycle-5.md",
-        "completed_at": "2026-11-06T23:42:00+08:00",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "b90975358b2dacb74fdb3d0ce8b23a7e9b39619b",
-        "archive_commit": "4dae5e8cc994e2d50302b8e1b975fe7ca393f483",
-        "verification_tree": "6987612f535f4c16e0c4f938b6fef566041fe79d",
-        "run_record": "owl-pet/production/runs/20261106T2343000800-cycle-6.md",
-        "completed_at": "2026-11-07T00:45:00+08:00",
-        "scientifically_verified": false
-      }
-    ],
-    "next_cycle": null,
-    "active_cycle": null,
-    "lease": null,
-    "in_progress": null,
-    "started_at": "2026-11-06T22:26:00+08:00",
-    "updated_at": "2026-11-07T00:45:00+08:00",
-    "stage_events": [
-      {
-        "cycle": 1,
-        "stage": "STARTED",
-        "at": "2026-11-06T22:26:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "run_record": "owl-pet/production/runs/20261106T222600+0800-cycle-1.md",
-        "baseline_main": "5d6fe5a8392b575ddd22268df902be5e956abae9"
-      },
-      {
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T22:32:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "new_sources": 2,
-        "reused_sources": 3,
-        "research_record": "owl-pet/research/species/130-megascops-koepckeae-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-06T22:37:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "path": "owl-pet/production/generated/130-megascops-koepckeae-v4-generated-master.png",
-        "sha256": "8d7960366c50b421b55f36065491304270ba19bfe16e4df2d08c2d8c9048af16",
-        "size_bytes": 2789447,
-        "dimensions": "1536x1024",
-        "generation_wait_seconds": 225,
-        "edit_required": false,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-06T22:41:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "edit_count": 0,
-        "result": "PASS_WITH_LIMITATIONS",
-        "reviewed_sha256": "8d7960366c50b421b55f36065491304270ba19bfe16e4df2d08c2d8c9048af16",
-        "reviewed_size_bytes": 2789447,
-        "full_and_crops_opened": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-06T22:45:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "concept_path": "owl-pet/design/concepts/130-megascops-koepckeae-v4.png",
-        "concept_blob": "b0edab3a50e91113dfd18fb64ba7021e8e299a75",
-        "manifest_counts": {
-          "design_image": 741,
-          "design_legacy": 742,
-          "production": 732
-        },
-        "unique_species_count": 176,
-        "total_scope": 251,
-        "readback_pending": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 1,
-        "stage": "BINARY_REPAIR",
-        "at": "2026-11-06T22:48:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "reason": "first GitHub binary upload truncated",
-        "repaired_blobs": {
-          "master": "353e949e802eb3a5a2dc9b809734196b121dd21e",
-          "juvenile_crop": "216e5f7c4327436f04a32ddb2f333dd112c76891",
-          "adults_crop": "737567e99a5fe4a1c24f1b2ba3ffa46967c440de"
-        },
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-06T22:50:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "archive_commit": "3583e7191007ed49a964b51bf922289de4ec115d",
-        "archive_tree": "3b13d6fe3193c7fd56be8988707ee6620fd59b22",
-        "archive_tree_entries": 3520,
-        "archive_tree_truncated": false,
-        "required_paths_verified": 16,
-        "exact_binary_paths_verified": 5,
-        "result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 1,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-06T22:52:00+08:00",
-        "species_id": 130,
-        "species": "Megascops koepckeae",
-        "verification_commit": "3223778e04444f1fa0f24ce9f7fd30b93e6d1215",
-        "archive_commit": "3583e7191007ed49a964b51bf922289de4ec115d",
-        "next_cycle": 2,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-06T22:53:00+08:00",
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "run_record": "owl-pet/production/runs/20261106T225300+0800-cycle-2.md",
-        "baseline_main": "00dc5e963a93eab4f34fd5057dc90c3a83499eac"
-      },
-      {
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T22:44:00+08:00",
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "new_sources": 2,
-        "reused_sources": 5,
-        "research_record": "owl-pet/research/species/131-megascops-watsonii-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "mikkola_pages": "PDF 237 / printed 235",
-        "timestamp_correction": "STARTED 22:53 label was ahead of executor clock; this observed 22:44 stage supersedes timing only",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-06T22:49:00+08:00",
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "path": "owl-pet/production/generated/131-megascops-watsonii-v4-generated-master.png",
-        "sha256": "96ff2d07da53b5675faf47dcd311f8ec46e711cbe2e25724a6ad9911bbb6ade9",
-        "size_bytes": 2861919,
-        "dimensions": "1536x1024",
-        "generation_wait_seconds": 83,
-        "edit_wait_seconds": 90,
-        "edit_count": 1,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-06T22:50:00+08:00",
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "edit_count": 1,
-        "result": "PASS_WITH_LIMITATIONS",
-        "reviewed_sha256": "96ff2d07da53b5675faf47dcd311f8ec46e711cbe2e25724a6ad9911bbb6ade9",
-        "reviewed_size_bytes": 2861919,
-        "full_and_crops_opened": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-06T22:52:00+08:00",
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "concept_path": "owl-pet/design/concepts/131-megascops-watsonii-v4.png",
-        "concept_blob": "6b7685c01d57998e7866047a7df123b7d7dd08a1",
-        "manifest_counts": {
-          "design_image": 742,
-          "design_legacy": 743,
-          "production": 733
-        },
-        "unique_species_count": 176,
-        "total_scope": 251,
-        "readback_pending": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-06T22:53:00+08:00",
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "archive_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06",
-        "archive_tree": "19d157497b4ef50b1faaa3bdbab61e453df8211a",
-        "archive_tree_entries": 3530,
-        "archive_tree_truncated": false,
-        "required_paths_verified": 17,
-        "exact_binary_paths_verified": 7,
-        "result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-06T22:54:00+08:00",
-        "species_id": 131,
-        "species": "Megascops watsonii",
-        "verification_commit": "c87abe2c4eddbeb1ea15c0fb6c9215554af2cb59",
-        "archive_commit": "9beba01a6f0e1cbd2bc79f53a100a2d3ce26cf06",
-        "next_cycle": 3,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-06T23:01:18+08:00",
-        "species_id": 132,
-        "species": "Strix davidi",
-        "run_record": "owl-pet/production/runs/20261106T2301180800-cycle-3.md",
-        "baseline_main": "61076d8da59efdd40e99f6e3fbad8935ffc8a17e"
-      },
-      {
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T23:05:16+08:00",
-        "species_id": 132,
-        "species": "Strix davidi",
-        "new_sources": 2,
-        "reused_sources": 4,
-        "research_record": "owl-pet/research/species/132-strix-davidi-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "mikkola_pages": "PDF 350–351 / printed 348–349",
-        "current_name_mapping": "IOC v15.1, ITIS and Avilist treat as Strix uralensis davidi; project #132 Strix davidi retained as stable roster identity",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-06T23:08:02+08:00",
-        "species_id": 132,
-        "species": "Strix davidi",
-        "path": "owl-pet/production/generated/132-strix-davidi-v4-generated-master.png",
-        "blob": "31e94975740d5765e0fa8970ea67d513fc29f1f6",
-        "sha256": "f3428814ac5ce6a71d78f22171e9b944110545332e337c9a4e25856878cd2532",
-        "size_bytes": 2867643,
-        "dimensions": "1536x1024",
-        "generation_wait_seconds": 88,
-        "edit_required": false,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-06T23:09:19+08:00",
-        "species_id": 132,
-        "species": "Strix davidi",
-        "review_file": "owl-pet/research/reviews/132-strix-davidi-v4-review.md",
-        "reviewed_path": "owl-pet/production/reviewed/132-strix-davidi-v4-reviewed-master.png",
-        "review_crops": [
-          "owl-pet/production/review-crops/132-strix-davidi-v4-nestling.png",
-          "owl-pet/production/review-crops/132-strix-davidi-v4-adults-support.png"
-        ],
-        "edit_count": 0,
-        "result": "PASS_WITH_LIMITATIONS",
-        "reviewed_sha256": "f3428814ac5ce6a71d78f22171e9b944110545332e337c9a4e25856878cd2532",
-        "reviewed_size_bytes": 2867643,
-        "full_and_crops_opened": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-06T23:11:14+08:00",
-        "species_id": 132,
-        "species": "Strix davidi",
-        "concept_path": "owl-pet/design/concepts/132-strix-davidi-v4.png",
-        "concept_blob": "31e94975740d5765e0fa8970ea67d513fc29f1f6",
-        "manifest_counts": {
-          "design_image": 743,
-          "design_legacy": 744,
-          "production": 734
-        },
-        "unique_species_count": 176,
-        "total_scope": 251,
-        "readback_pending": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-06T23:12:20+08:00",
-        "species_id": 132,
-        "species": "Strix davidi",
-        "archive_commit": "a2fb4d0d954d54d8fe00fec47b6d286fa68ccc33",
-        "archive_tree": "f135b9bbe002c4001dd2803afb1200b6005e38c7",
-        "archive_tree_entries": 3538,
-        "archive_tree_truncated": false,
-        "required_paths_verified": 17,
-        "exact_binary_paths_verified": 5,
-        "result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-06T23:13:10+08:00",
-        "species_id": 132,
-        "species": "Strix davidi",
-        "verification_commit": "66289ffe84fbe668d948252f66faa9f1c30f07b9",
-        "archive_commit": "a2fb4d0d954d54d8fe00fec47b6d286fa68ccc33",
-        "next_cycle": 4,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-06T23:13:56+08:00",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "run_record": "owl-pet/production/runs/20261106T2313560800-cycle-4.md",
-        "baseline_main": "578c64f5baf65c95e4b778560f56cae08c3e00e5"
-      },
-      {
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T23:23:00+08:00",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "new_sources": 2,
-        "reused_sources": 3,
-        "research_record": "owl-pet/research/species/135-otus-silvicola-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "mikkola_pages": "printed p.183",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-06T23:25:00+08:00",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "path": "owl-pet/production/generated/135-otus-silvicola-v4-generated-master.png",
-        "blob": "6acdd2e66f7bd71fe3fe2643c6b2e4d5fba715a3",
-        "sha256": "db54f80b0fc0c215e109efed769a869e56c3cb7521c9572c89d10b58211374f8",
-        "size_bytes": 3014702,
-        "dimensions": "1536x1024",
-        "generation_wait_seconds": 74,
-        "edit_required": false,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "stage": "REVIEWED",
-        "at": "2026-11-06T23:26:00+08:00",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "review_file": "owl-pet/research/reviews/135-otus-silvicola-v4-review.md",
-        "edit_count": 0,
-        "result": "PASS_WITH_LIMITATIONS",
-        "full_and_crops_opened": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-06T23:27:00+08:00",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "concept_path": "owl-pet/design/concepts/135-otus-silvicola-v4.png",
-        "concept_blob": "6acdd2e66f7bd71fe3fe2643c6b2e4d5fba715a3",
-        "manifest_counts": {
-          "design_image": 744,
-          "design_legacy": 745,
-          "production": 735
-        },
-        "unique_species_count": 176,
-        "total_scope": 251,
-        "readback_pending": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-06T23:29:00+08:00",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "archive_commit": "6ac23e5cf581f413d66af40845935d5be4c53037",
-        "archive_tree": "1d99268c9d9274072f134784678e3d492978c959",
-        "archive_tree_entries": 3547,
-        "archive_tree_truncated": false,
-        "required_paths_verified": 13,
-        "exact_binary_paths_verified": 5,
-        "result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-06T23:30:00+08:00",
-        "species_id": 135,
-        "species": "Otus silvicola",
-        "verification_commit": "d529c45921d0ec1147671daa773d2e46cc8741f2",
-        "archive_commit": "6ac23e5cf581f413d66af40845935d5be4c53037",
-        "next_cycle": 5,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-06T23:31:00+08:00",
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "run_record": "owl-pet/production/runs/20261106T2331000800-cycle-5.md",
-        "baseline_main": "b892e3a23eff786a43ba0786636e827b75f0d0eb"
-      },
-      {
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-06T23:33:00+08:00",
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "new_sources": 2,
-        "reused_sources": 2,
-        "research_record": "owl-pet/research/species/136-megascops-petersoni-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-06T23:37:00+08:00",
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "path": "owl-pet/production/generated/136-megascops-petersoni-v4-generated-master.png",
-        "blob": "292e51f9bb868dabfd5f836e0adc86fc9126cf8a",
-        "sha256": "8a713c7f01deb064a1db7f76b971f3e5f235f205af7d93620ace36db897e32fc",
-        "size_bytes": 3131931,
-        "dimensions": "1536x1024",
-        "generation_wait_seconds": 129,
-        "edit_required": false,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-06T23:38:00+08:00",
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "review_file": "owl-pet/research/reviews/136-megascops-petersoni-v4-review.md",
-        "edit_count": 0,
-        "result": "PASS_WITH_LIMITATIONS",
-        "full_and_crops_opened": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-06T23:39:00+08:00",
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "concept_path": "owl-pet/design/concepts/136-megascops-petersoni-v4.png",
-        "concept_blob": "292e51f9bb868dabfd5f836e0adc86fc9126cf8a",
-        "manifest_counts": {
-          "design_image": 745,
-          "design_legacy": 746,
-          "production": 736
-        },
-        "unique_species_count": 176,
-        "total_scope": 251,
-        "readback_pending": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-06T23:41:00+08:00",
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "archive_commit": "b935e0cef0fbca9c8ebcc1b89d50eb183973e5a5",
-        "archive_tree": "b8b4ae047d48ef473a34dc9126b284fd056d8396",
-        "archive_tree_entries": 3555,
-        "archive_tree_truncated": false,
-        "required_paths_verified": 8,
-        "exact_binary_paths_verified": 5,
-        "result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-06T23:42:00+08:00",
-        "species_id": 136,
-        "species": "Megascops petersoni",
-        "verification_commit": "f56471bbd29c15f520ee23615f99ae76502e9647",
-        "archive_commit": "b935e0cef0fbca9c8ebcc1b89d50eb183973e5a5",
-        "next_cycle": 6,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-06T23:43:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "run_record": "owl-pet/production/runs/20261106T2343000800-cycle-6.md",
-        "baseline_main": "b2ddca59a43850c3d0949aa6cb419275478edeb2"
-      },
-      {
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T00:30:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "new_sources": 1,
-        "reused_sources": 1,
-        "unverified_leads": 1,
-        "research_record": "owl-pet/research/species/137-otus-alfredi-v4.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "mikkola_upload_accessible": false,
-        "juvenile_stage": "museum specimen, age unknown, 185 mm total length; retained natal down and clearer tail banding",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T00:35:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "path": "owl-pet/production/generated/137-otus-alfredi-v4-generated-master.png",
-        "blob": "b7c362ad955ead9a20f6f4eb844f89f53b022440",
-        "sha256": "c025c331b4e6a1e96dce349face2995927dc27c8f985145cc08690c9429d4532",
-        "size_bytes": 3001707,
-        "dimensions": "1536x1024",
-        "generation_wait_seconds": 46,
-        "edit_count": 2,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T00:36:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "review_file": "owl-pet/research/reviews/137-otus-alfredi-v4-review.md",
-        "reviewed_path": "owl-pet/production/reviewed/137-otus-alfredi-v4-reviewed-master.png",
-        "review_crops": [
-          "owl-pet/production/review-crops/137-otus-alfredi-v4-juvenile.png",
-          "owl-pet/production/review-crops/137-otus-alfredi-v4-adults-support.png"
-        ],
-        "edit_count": 2,
-        "result": "PASS_WITH_LIMITATIONS",
-        "reviewed_sha256": "f8a34b722de82ce586a72b240c134fab4a6f0c97a5a0af32e6d84ef81fa5b4dc",
-        "reviewed_size_bytes": 2703740,
-        "full_and_crops_opened": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T00:37:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "concept_path": "owl-pet/design/concepts/137-otus-alfredi-v4.png",
-        "concept_blob": "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b",
-        "manifest_counts": {
-          "design_image": 746,
-          "design_legacy": 747,
-          "production": 737
-        },
-        "unique_species_count": 176,
-        "total_scope": 251,
-        "readback_pending": true,
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "stage": "BINARY_REPAIR",
-        "at": "2026-11-07T00:40:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "reason": "first archive upload of files above connector output limit was truncated; replaced before verification/credit",
-        "repaired_blobs": {
-          "master": "2aaeac968cfd2c95bdd198f3fe8d852b50a98d49",
-          "edit1": "1fcb72e75a12c895855d7a9d073772092bea04b6",
-          "edit2": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
-          "reviewed": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
-          "concept": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
-          "adults_crop": "f062d7c740d440487adecee143dd106bf38378f6",
-          "juvenile_crop": "e7c2e219af29929be2ebbdf74247b7f641825305"
-        },
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T00:42:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "archive_commit": "4dae5e8cc994e2d50302b8e1b975fe7ca393f483",
-        "archive_tree": "6987612f535f4c16e0c4f938b6fef566041fe79d",
-        "archive_tree_entries": 3565,
-        "archive_tree_truncated": false,
-        "required_paths_verified": 15,
-        "exact_binary_paths_verified": 7,
-        "result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false
-      },
-      {
-        "cycle": 6,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T00:45:00+08:00",
-        "species_id": 137,
-        "species": "Otus alfredi",
-        "verification_commit": "b90975358b2dacb74fdb3d0ce8b23a7e9b39619b",
-        "archive_commit": "4dae5e8cc994e2d50302b8e1b975fe7ca393f483",
-        "next_cycle": null,
-        "batch_status": "COMPLETE",
-        "scientifically_verified": false
-      }
-    ],
-    "last_verified_commit": "f56471bbd29c15f520ee23615f99ae76502e9647",
-    "completed_at": "2026-11-07T00:45:00+08:00"
-  },
+  "active_batch": "20261107T012800+0800",
   "events": [
     {
       "batch_id": "20261105T183434+0800",

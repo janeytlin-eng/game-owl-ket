@@ -23917,11 +23917,28 @@
         }
       ],
       "next_cycle": 6,
-      "active_cycle": null,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
-      "current_stage": "LEDGER_CREDITED",
+      "active_cycle": 6,
+      "active_lease": {
+        "owner": "codex-20261106-owl-production",
+        "run_id": "20261106T183723+0800-cycle-6",
+        "heartbeat_at": "2026-11-06T18:37:23+08:00",
+        "expires_at": "2026-11-06T18:52:23+08:00"
+      },
+      "lease": {
+        "owner": "codex-20261106-owl-production",
+        "run_id": "20261106T183723+0800-cycle-6",
+        "heartbeat_at": "2026-11-06T18:37:23+08:00",
+        "expires_at": "2026-11-06T18:52:23+08:00"
+      },
+      "in_progress": {
+        "cycle": 6,
+        "run_id": "20261106T183723+0800-cycle-6",
+        "species_id": 115,
+        "stage": "STARTED",
+        "started_at": "2026-11-06T18:37:23+08:00",
+        "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md"
+      },
+      "current_stage": "STARTED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24797,6 +24814,22 @@
             "unique_species_increment": 0,
             "revision_increment": 1,
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 6,
+          "stage": "STARTED",
+          "at": "2026-11-06T18:37:23+08:00",
+          "run_id": "20261106T183723+0800-cycle-6",
+          "species_id": 115,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision #115 Otus lempiji v3; preserve v1-v2, repair absence from all current manifests, recheck Java/Bali adult identity and evidence-bounded older juvenile formed wing/tail without repeated ornament geometry",
+            "baseline_commit": "9a29802ed6da3252467c4aaa9618b2537b2a54ed",
+            "prior_version": "owl-pet/design/concepts/115-otus-lempiji-v2.png",
+            "run_record": "owl-pet/production/runs/20261106T183723+0800-cycle-6.md",
+            "lease_expires_at": "2026-11-06T18:52:23+08:00"
           }
         }
       ]

@@ -41,3 +41,14 @@ Environment: dense New Britain lowland/foothill rainforest, subdued dawn light, 
 Style: match approved tactile high-detail naturalistic 3D owl-pet concept art, scientifically restrained.
 Avoid: imposed dimorphism, female-larger stereotype, long joined V brows, solid dark chest band, neat repeated white wing rows, adult-like juvenile wing/tail, open juvenile eyes, extra birds/limbs, unsupported feet, text errors, watermark.
 ```
+
+
+## #150 *Ninox variegata* v3 — cycle 6
+
+```text
+Create one polished 1536×1024 landscape species concept plate in the approved owl electronic-pet visual language: high-end tactile semi-realistic 3D character art, rounded but anatomically credible owls, layered feathers, restrained colour, warm diffuse natural light, clean typography, no watermark. Show exactly three complete New Ireland Boobooks (*Ninox variegata*) on one continuous mossy branch in humid New Ireland forest: adult male left, adult female right, one age-unknown older juvenile lower centre. Add only title "NEW IRELAND BOOBOOK", italic line "Ninox variegata", and labels "ADULT MALE", "ADULT FEMALE", "OLDER JUVENILE · AGE UNKNOWN".
+
+Adults near equal scale and palette; no unsupported sex dimorphism. Earless rounded heads, compact short-tailed forms, heavy partly feathered tarsi. Dark rufous/chocolate-brown upperparts; irregular pale buff/whitish bars on scapulars and restrained variable wing/tail barring, not neat fine spangles. Dark brown faces without conspicuous white eyebrows; small plain pale throat; darker irregularly barred upper breast and rufous bars across paler whitish lower underparts. Subdued amber-yellow irides (not a universal saturated rule), yellowish-horn bills, yellow feet and dark horn claws. All four adult feet naturally grip the branch. Give adults slightly different alert poses without implying sex-linked plumage.
+
+Older juvenile is age unknown and resting: smaller, eyes gently closed, two feet fully supported, fluffy down-softened crown/body, muted diffuse brown/rufous mottling, compact short rounded wing mostly buried in fluff with no crisp pale covert rows or long layered remiges, very short hidden tail, no flight or begging. Do not call it nestling or fledgling. Soft-focus humid forest with epiphytes and vines; no nest, cavity, eggs or invented hatchling detail. Exactly three birds; no ear tufts, prominent white brows, adult-like juvenile wing/tail, extra limbs, fused toes, floating feet, text errors, watermark.
+```

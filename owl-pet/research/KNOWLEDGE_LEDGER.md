@@ -87,3 +87,11 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 
 - Verification `a0ef5804bea7730c21a105ce93a626a0d9f51b04` was read back after immutable archive `7176fb71b2990e89b73582ada698b40853b87f6d` / tree `7270e082effd7f0f906a3b9f8cabcd312cb38326`.
 - Cycle 5 credited once; batch 5/6, next 6; unique 176/251; revision +1; scientifically_verified=false.
+
+
+## #150 *Ninox variegata* v3 research-ready — 2026-11-07
+
+- Voisin & Voisin 2011 printed p.25 was read: the type series contains two New Ireland syntypes, MNHN 2010-278 and 2010-279, not one. MNHN 2010-278 metadata records sex and age as indeterminate.
+- Adult visual boundary reuses the secondary barred/short-tailed/heavy-tarsus synthesis, but type records do not justify sex direction or juvenile traits.
+- Adults therefore remain near equal. Juvenile is AGE UNKNOWN, closed-eyed, supported, with mature wing/tail topology suppressed.
+- Full prompt: `production/PROMPTS_FULL.md`; research: `research/species/150-ninox-variegata-v3.md`.

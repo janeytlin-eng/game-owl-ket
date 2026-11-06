@@ -2988,3 +2988,36 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Read fact:** holotype female collected 17 June 1968 around 450 m; paratype female collected 13 June 1969 around 950 m; both in FMNH. It independently repeats the long/deep bill and full/lax plumage diagnosis.
 - **Use:** supports type-sex/locality/altitude metadata and prevents inventing a measured male/female size difference.
 - **Limit/confidence:** secondary digest, not development evidence; high confidence for nomenclatural metadata, lower priority than Rasmussen et al. 2012 for morphology.
+
+
+## 2026-11-07 — #150 *Ninox variegata* v3 — two-syntype audit and indeterminate sex/age boundary
+
+### NIBO-VOISIN-2011-TYPES — newly read primary museum type catalogue
+- **Title / authors / year:** “List of type specimens of birds in the collections of the Muséum national d’Histoire naturelle (Paris, France). 21. Strigiformes,” Claire Voisin & Jean-François Voisin, 2011.
+- **Journal / pages:** *Journal of the National Museum (Prague)* 180(2):9–30; species account printed p.25, OCR lines 667–678.
+- **URL:** https://publikace.nm.cz/file/e6d69a0d1788f9c0bd61bea0c6af0058/16751/180-2011-02-Voisin-Strigidae.pdf
+- **Accessed / type:** 2026-11-07; primary museum type-catalogue paper.
+- **Facts:** current *Ninox variegata*; two syntypes MNHN 2010-278 and 2010-279, New Ireland; Hâvre Carteret and plate 1 fig.2 provenance.
+- **Decision:** preserve protonym/current-name mapping and recognize a two-specimen type series; do not treat a single mount as sex evidence.
+- **Limitations / confidence:** high for type history; no plumage measurements, sex, age or development.
+- **Links:** [#150 v3 research](species/150-ninox-variegata-v3.md).
+
+### NIBO-MNHN-2010-278-2026 — newly read institutional syntype record
+- **Institution / record:** MNHN Birds, specimen MNHN-ZO-2010-278, syntype of *Noctua variegata*.
+- **URL:** https://science.mnhn.fr/institution/mnhn/collection/zo/item/2010-278
+- **Accessed / location:** 2026-11-07; lines 12–154; New Ireland, Namatanai, Lamassa Bay; Astrolabe expedition; 5–19 July 1827.
+- **Facts:** sex **indeterminate**, age **indeterminate**, current determination *Ninox variegata*.
+- **Decision:** adults stay near equal; no juvenile stage or sex is inferred from the type mount.
+- **Limitations / confidence:** high for metadata; mounted specimen is not a living colour or developmental standard.
+
+### NIBO-AVIBASE-2026 — reused secondary adult description/current-concept crosswalk
+- **URL:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=9564C8049624F8B9&lang=EN
+- **Actually rechecked:** lines 35–94 on 2026-11-07.
+- **Facts / use:** 25–30 cm; dark rufous-brown upperparts; barred scapulars; variable wing/tail marking; pale throat; barred breast/underparts; short tail/heavy tarsi; protonym/type-locality crosswalk.
+- **Limitations:** morphology is explicitly Wikipedia-derived; used only as secondary synthesis, not sex/development proof.
+
+### NIBO-ITIS-555490 — reused name authority
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555490&source=to_print
+- **Actually rechecked:** current record, accessed 2026-11-07.
+- **Fact / use:** valid *Ninox variegata*; synonym *Noctua variegata*; common-name mapping.
+- **Limitations:** taxonomy only.

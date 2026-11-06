@@ -932,3 +932,7 @@ If a caption says a chick was photographed “about two weeks after discovery”
 - **Problem/evidence:** the primary chapter measures one brood's movements at 36/42/64 days, but Fig.12.20 is a different fledgling found elsewhere. The initial render combined the valid older-mesoptile direction with an overlong adult-like wing.
 - **Applied:** #104 v5 keeps the young explicitly age unknown and branch-supported. One edit shortened/rounded the formed wing, disrupted regular remige rows with down overlap, concealed the tail and improved adult proximal toe feathering without inventing a toe-by-toe map.
 - **Visually checked:** full plate plus juvenile and all-feet crops passed. This validates the figure/separate-timeline audit for this asset only; branch movement still does not prove sustained flight or a universal schedule.
+
+### 2026-11-06 — Overlapping sex-mass ranges block a fixed height formula (#105 v8)
+
+ADW lists overlapping male/female mass ranges, so “female generally heavier” does not license a mechanically taller female. #105 v8 keeps near-equal display height with only subtle fullness. Full plate and juvenile/feet crops also passed the basal-toe feathering and age-unknown formed-wing juvenile checks without edit. This is local visual validation, not a population ratio or scientific sign-off.

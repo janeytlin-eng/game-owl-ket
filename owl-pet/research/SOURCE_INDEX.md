@@ -2440,3 +2440,19 @@
 - **Useful evidence:** printed pp.59–60; comparisons included >30 modern individuals, documented broad size/osteological and external variation, treated western `exsul` as invalid, and mapped historical `Gymnoglaux` material to *Margarobyas lawrencii*.
 - **Limits / confidence:** no living sexed body-size table or juvenile feather sequence; does not justify a plate-ready male/female ratio. High for name mapping and variability boundary.
 - **Decision links:** v4 keeps adults near-equal and does not assign a rigid subspecies morph or universal female-larger rule.
+
+
+## 2026-11-06 — #121 *Ninox leucopsis* v4 — taxonomy and overlap boundary
+
+### TBO-AFD-ALA-2026 — newly indexed AFD/ALA taxonomy record
+- Atlas of Living Australia / Australian Faunal Directory, *Ninox (Ninox) leucopsis*, accessed 2026-11-06: https://bie.ala.org.au/species/https%3A/biodiversity.org.au/afd/taxa/31997dc6-f697-4619-8bd1-aee3fb870807
+- Names/source table actually read. Current accepted *Ninox (Ninox) leucopsis*; mapped synonyms include *N. novaeseelandiae leucopsis*, *N. boobook leucopsis*, *Athene leucopsis* and older *Spiloglaux* combinations.
+- Taxonomy only; no morphology, sex-size or development inference. High confidence for AFD-linked nomenclature.
+- Decision: old-name mapping for #121 v4; no visual detail derived.
+
+### TBO-ITIS-1244677-2026 — newly indexed current-name record
+- Integrated Taxonomic Information System, TSN 1244677, accessed 2026-11-06: https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1244677&source=to_print
+- Current valid *Ninox leucopsis*; synonyms *N. novaeseelandiae leucopsis* and *Athene leucopsis*.
+- Taxonomy only; no morphology or development inference. High confidence for current/synonym mapping.
+
+- Reused after direct re-read: `TBO-ABSA-AGEING-2019` p.1 (strongly overlapping adult measurements; downy juvenile-to-first-immature moult c.3 months after fledging) and `TBO-AFO-TSANG-2022` (DNA-confirmed adult male, dark brown with clean-white spotting). Also reused `TBO-OLSEN-DEBUS-2013-FIG1` and prior Mikkola extraction `TBO-MIKKOLA-2013-P463`; the uploaded guide itself was not mounted in this execution. Detailed boundaries and full prompt: `research/species/121-ninox-leucopsis-v4.md`. Science remains false.

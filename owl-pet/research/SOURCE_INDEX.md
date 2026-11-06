@@ -1,3 +1,25 @@
+## 2026-11-06 — #102 *Strix nigrolineata* v4 — juvenile plumage and nest-scope cross-check
+
+### BWO-GERHARDT-1994-JSTOR
+- **Title/authors:** Breeding Biology and Home Range of Two Ciccaba Owls; Gerhardt et al.; 1994.
+- **URL/DOI:** https://www.jstor.org/stable/4163480 · 10.2307/4163480
+- **Accessed:** 2026-11-06
+- **Type:** primary paper record/abstract; Tikal nests.
+- **Location:** Wilson Bulletin 106(4):629–639; abstract.
+- **Useful facts:** four Black-and-white Owl nests, all in epiphytes in large live trees; mean 20.5 m; one egg each.
+- **Limits/conflict:** 27–33 d fledging in the same abstract is Mottled Owl, excluded here. High confidence for abstract facts.
+- **Design use:** regional epiphyte platform only; no fledging-age inference.
+
+### BWO-AVESCR-2025
+- **Title/institution:** Ciccaba nigrolineata; Aves de Costa Rica.
+- **URL:** https://www.avesdecostarica.com/Ciccaba-nigrolineata.html
+- **Accessed:** 2026-11-06
+- **Type:** regional bird account with adult photo and juvenile plumage text.
+- **Location:** web lines 38–44.
+- **Useful facts:** sooty adult upperparts, narrow tail/flight bars, orange-brown/chestnut iris, orange-yellow bare parts; juvenile white/buff-white with tight dark barring and black wing coverts with some white bars; December adult+juvenile observation.
+- **Limits:** no exact age/sex/flight data; site notes AI-generated illustrations, so text and listed real photo are used cautiously. Moderate confidence.
+- **Design use:** age-unknown older juvenile plumage, not development timing.
+
 ## 2026-11-06 — #101 *Otus spilocephalus* v8 — Taiwan adult/immature boundary
 
 ### MOSO-NTM-TMAV3451-2026

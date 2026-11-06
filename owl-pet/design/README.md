@@ -3277,3 +3277,6 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 
 - V4 preserves v1–v3 and uses the northern-Moluccan *O. m. leucospilus* boundary. One targeted edit extended adult leg feathering to leave only a narrow distal bare-tarsus band and replaced the age-unknown older juvenile's long hard wing with a shorter soft fluff-edged wing and mostly concealed tail. Full plate and two crops passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending. Original: [141-otus-magicus-v4.png](concepts/141-otus-magicus-v4.png).
+
+
+- #142 *Asio grammicus* v3 preserves v1–v2 and the #154 old-genus duplicate boundary. One juvenile-only edit removed a long hard adult-barred wing and restored a compact down-remnant stage with two-foot fork support. Full plate and two crops passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending. Original: [142-asio-grammicus-v3.png](concepts/142-asio-grammicus-v3.png).

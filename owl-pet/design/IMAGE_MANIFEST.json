@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T03:13:00+08:00",
+  "updated": "2026-11-07T03:34:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26296,7 +26296,78 @@
       "verification_tree": "446561d1cdb8d26eb9e7b224fd6219a4dfd34435",
       "batch_status": "PARTIAL",
       "ledger_credited_at": "2026-11-07T03:13:00+08:00"
+    },
+    {
+      "id": "142-asio-grammicus-v3",
+      "path": "design/concepts/142-asio-grammicus-v3.png",
+      "species_id": 142,
+      "scientific_name": "Asio grammicus",
+      "historical_names": [
+        "Pseudoscops grammicus",
+        "Ephialtes grammicus"
+      ],
+      "common_name": "Jamaican Owl",
+      "scope": "Jamaica; warm tawny adults and an age-unknown supported down-remnant juvenile; #154 is a historical old-genus duplicate",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "JAM-MIKKOLA-2013-P500-501",
+        "JAM-HOYER-BIRDSEYE",
+        "JAM-ITIS-1244691-2026",
+        "JAM-MACAULAY-201649681-2016",
+        "JAM-AOS-NACC-2021-C10",
+        "JAM-GRAVES-2007"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/142-asio-grammicus-v3.md",
+      "review_record": "research/reviews/142-asio-grammicus-v3-review.md",
+      "run_record": "production/runs/20261107T031700+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2691847,
+      "sha256": "aef92ff22d76378575b8b5fc443bedfb6e41c3a0df2c5c325472edce86186201",
+      "git_blob": "6e45d0136aed5e4ee44ad1d8e155b90ba0b5b12c",
+      "generated_path": "production/generated/142-asio-grammicus-v3-generated-master.png",
+      "generated_blob": "c9b33ea41f9c6410d3f3e43f8b0b9c38f8581e96",
+      "generated_sha256": "757f6219e6df05504a330d237e8e90a329ed7c6ca07215d2b8eb49c792888e2e",
+      "generated_size_bytes": 2810782,
+      "edit_paths": [
+        "production/generated/142-asio-grammicus-v3-edit1.png"
+      ],
+      "edit_blobs": [
+        "6e45d0136aed5e4ee44ad1d8e155b90ba0b5b12c"
+      ],
+      "reviewed_path": "production/reviewed/142-asio-grammicus-v3-reviewed-master.png",
+      "reviewed_blob": "6e45d0136aed5e4ee44ad1d8e155b90ba0b5b12c",
+      "juvenile_review_crop": "production/review-crops/142-asio-grammicus-v3-juvenile.png",
+      "juvenile_review_blob": "d2cae141d45706b0bf3784315beb760e1f02de59",
+      "juvenile_review_size_bytes": 622664,
+      "juvenile_review_sha256": "ada91e96b9dbfd919ee3014ae8a4703e99f73255cba1aaadcf26589775a56264",
+      "adult_review_crop": "production/review-crops/142-asio-grammicus-v3-adults-support.png",
+      "adult_review_blob": "035aa47b8392cecfc6bb3694483b5bec89d4ed26",
+      "adult_review_size_bytes": 1791719,
+      "adult_review_sha256": "86d9478098fd6350cf90b1415f164e0d5605647db7d9e354219c5ffcc5f8776e",
+      "batch_id": "20261107T012800+0800",
+      "cycle": 5,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T03:34:00+08:00",
+      "exact_readback": false,
+      "archive_commit": null,
+      "archive_tree": null,
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T03:13:00+08:00"
+  "updated_at": "2026-11-07T03:34:00+08:00"
 }

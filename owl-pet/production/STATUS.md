@@ -396,3 +396,6 @@ Verification `459e5511c6924eb0d39c4e25a38024d2db7b0162` read back after archive 
 
 
 2026-11-07T03:13:00+08:00 #141 *Otus magicus* v4 LEDGER_CREDITED; verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` / tree `446561d1cdb8d26eb9e7b224fd6219a4dfd34435`; batch `20261107T012800+0800` now 4/6, next_cycle=5, lease released; unique 176/251; revision +1; science false.
+
+
+2026-11-07T03:34:00+08:00 #142 *Asio grammicus* v3 ARCHIVED; one juvenile-wing/eye edit; full and two crops opened; manifests 752/751/742; unique 176/251; revision +1; PASS_WITH_LIMITATIONS; science false; immutable readback pending.

@@ -3645,3 +3645,6 @@ Archive `797b5dbbdf6d129abaec3e8cd8ff425b33431c0a`, tree `e563ba872780291453afee
 
 
 Verification `c99b26bb70c953cb3158f96f3554c4f4ab6ec07f` read back after archive `797b5dbbdf6d129abaec3e8cd8ff425b33431c0a` / tree `e563ba872780291453afee57d12a8858f5a61e86`. Cycle 4 is credited exactly once; batch `20261107T012800+0800` is PARTIAL 4/6 with next_cycle=5 and lease released. Unique remains 176/251; revision +1; science false.
+
+
+- #142 *Asio grammicus* v3 archived as a science revision. One edit corrected a long adult-like juvenile wing; full plate plus two crops passed. #154 remains an old-genus duplicate. Manifests 752/751/742; unique 176/251; science false; immutable readback pending.

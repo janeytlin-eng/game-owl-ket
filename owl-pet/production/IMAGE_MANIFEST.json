@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T03:34:00+08:00",
+  "updated": "2026-11-07T03:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25693,7 +25693,73 @@
       "verification_tree": "e0bda83247de19ecc4301757220994aabc68a0ff",
       "ledger_credited": true,
       "ledger_credited_at": "2026-11-07T03:30:00+08:00"
+    },
+    {
+      "id": "143-asio-solomonensis-v3",
+      "path": "design/concepts/143-asio-solomonensis-v3.png",
+      "species_id": 143,
+      "scientific_name": "Asio solomonensis",
+      "historical_names": [
+        "Nesasio solomonensis",
+        "Pseudoptynx solomonensis"
+      ],
+      "common_name": "Fearful Owl",
+      "scope": "Bougainville/Solomon Islands; adult pair and one evidence-bounded age/sex/flight-unknown older juvenile translated from a rescued perching bird, not a nest reconstruction",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED_READBACK_PENDING",
+      "source_ids": [
+        "FEO-LOYN-DEBUS-2000-P288-289",
+        "FEO-ITIS-1244693-2026",
+        "FEO-AVIBASE-8251FDDB-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/143-asio-solomonensis-v3.md",
+      "review_record": "research/reviews/143-asio-solomonensis-v3-review.md",
+      "run_record": "production/runs/20261107T033200+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3041228,
+      "sha256": "876b5a75ba88f2d2c3a35e75c9609e010a9f9d3cb904d83d1937f803e0f12e4d",
+      "git_blob": "ce96370d79af9653e9f0a13b5f12ae50adfb1ea8",
+      "generated_path": "production/generated/143-asio-solomonensis-v3-generated-master.png",
+      "generated_blob": "64a4781fad57465f810a4e93f5122959e2d75e95",
+      "generated_sha256": "3afbdc8dd22581eca34bb0de026be684b94bd8b50784705b93e41f85e5d89860",
+      "generated_size_bytes": 3242992,
+      "edit_paths": [
+        "production/generated/143-asio-solomonensis-v3-edit1.png"
+      ],
+      "edit_blobs": [
+        "ce96370d79af9653e9f0a13b5f12ae50adfb1ea8"
+      ],
+      "reviewed_path": "production/reviewed/143-asio-solomonensis-v3-reviewed-master.png",
+      "reviewed_blob": "ce96370d79af9653e9f0a13b5f12ae50adfb1ea8",
+      "juvenile_review_crop": "production/review-crops/143-asio-solomonensis-v3-juvenile.png",
+      "juvenile_review_blob": "4bad26aeb685c36738c55cf8b64d548e0872eac8",
+      "juvenile_review_size_bytes": 704166,
+      "juvenile_review_sha256": "43164771c774836912e4d8528cd34524b973fbfbd75180bd05708c9e1e6db2b0",
+      "adult_review_crop": "production/review-crops/143-asio-solomonensis-v3-adults-support.png",
+      "adult_review_blob": "9044a56e1c5335b00abd620d961e3686c4734de8",
+      "adult_review_size_bytes": 1870545,
+      "adult_review_sha256": "ffb59d4e2efc449106e77643d34f35480d50b9293ed2aaff1c9e5d308c383e5a",
+      "batch_id": "20261107T012800+0800",
+      "cycle": 6,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T03:45:00+08:00",
+      "exact_readback": false,
+      "evidence_limit": "One described rescued juvenile; exact age, sex, flight status, sequence and population generality unknown. Mikkola upload inaccessible in this execution."
     }
   ],
-  "updated_at": "2026-11-07T03:34:00+08:00"
+  "updated_at": "2026-11-07T03:45:00+08:00"
 }

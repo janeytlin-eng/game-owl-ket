@@ -1,3 +1,7 @@
+## 2026-11-07 #143 *Asio solomonensis* v3 archived — immutable readback pending
+
+Cycle 6 research, generation, one juvenile-wing edit and three-view review completed. Final blob `ce96370d79af9653e9f0a13b5f12ae50adfb1ea8`, 3041228 bytes, SHA-256 `876b5a75ba88f2d2c3a35e75c9609e010a9f9d3cb904d83d1937f803e0f12e4d`; manifests 752/753/743. PASS_WITH_LIMITATIONS; science false; ledger credit pending.
+
 ### #142 v3 LEDGER_CREDITED — active batch 5/6
 
 Verification `512fc1b20b93294388db04aa9e44723620508a44` / tree `e0bda83247de19ecc4301757220994aabc68a0ff` credited once after archive `ff33879c`. Next cycle 6; lease released; unique 176/251; science false.

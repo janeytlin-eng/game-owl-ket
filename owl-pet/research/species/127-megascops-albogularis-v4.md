@@ -57,3 +57,7 @@ Create a polished 1536×1024 horizontal scientific concept plate in the establis
 
 - Immutable archive tree `5105538f28203eafcd68443eadff990da24bf123` is non-truncated (3,503 entries). Six image paths match the expected Git blobs/sizes; 16 required paths are present; manifests parse 739/740/730.
 - Binary body retrieval is unavailable through the connector for this PNG, so remote SHA-256 was not independently recomputed. Blob/size and upload-derived SHA-256 are retained; verification is PASS_WITH_LIMITATIONS, not scientific approval.
+
+## LEDGER_CREDITED — 2026-11-06T21:22:10.242+08:00
+
+- Cycle 5/6 credited at verification commit `eafe235b91601c462a34b33f975e6358cabbeef9`; revision +1, unique increment 0. Next cycle is 6/6.

@@ -920,3 +920,9 @@ If a caption says a chick was photographed “about two weeks after discovery”
 - A later field record of branch-to-branch short flights can bound capability for an older young, but must not be back-projected onto the earlier nest stage or treated as a first-flight date.
 - A detailed single nest site may be shown as a recorded case only. Keep adult sex labels at near-equal scale unless robust visible dimorphism evidence exists.
 - Applied and visually checked on #100 *Strix huhula* v5: full plate and two crops passed without edit. This is local concept validation, not a universal feather schedule, nest rule or scientific sign-off.
+
+### 2026-11-06 — Missing growth-table cells are not interpolation permission (#103 v5)
+
+- **Problem/evidence:** the source directly describes rich golden-brown second down and illustrates a female at 55/69 days, but its day-57 table leaves wing and tail blank. A missing measurement is not evidence for adult remiges, a visible tail or flight ability.
+- **Applied:** #103 v5 keeps the approximately-55-day young as a compact golden powder-puff mesoptile with partial pink face, down-concealed wing and tail, and full ground support. Adult scale is restrained; sex-colour direction is used without a universal female-larger formula.
+- **Visually checked:** full plate plus mesoptile and adults/support crops passed without edit. This validates the no-interpolation gate for this asset only; it does not establish a wild timetable or scientific sign-off.

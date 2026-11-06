@@ -2545,3 +2545,28 @@
 ### HOY-MIK2013-228 — prior uploaded-guide extraction reused with explicit limit
 - Heimo Mikkola, *Owls of the World* (2013), printed p.228 / uploaded PDF p.230; prior repository extraction reused because the upload was not mounted this run.
 - Supports fledged young as adult-like but fluffier and without visible ear tufts; no exact age, wing length, flight threshold or continuous development sequence. Secondary specialist synthesis; not a replacement for missing primary development research.
+
+
+## 2026-11-06 — #130 *Megascops koepckeae* v4 — current name and subspecies-limited fledgling evidence
+
+### KOEP-ITIS-686665-2026 — new
+- **Title / institution:** ITIS Report — *Megascops koepckeae*, Integrated Taxonomic Information System.
+- **Date/accessed:** current record; accessed 2026-11-06.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686665
+- **Type / section:** government-backed taxonomic database; Taxonomy and Nomenclature.
+- **Species/stage:** *M. koepckeae*; nomenclature only.
+- **Fact:** valid species name *Megascops koepckeae*; synonym *Otus choliba koepckei*.
+- **Limit:** no morphology, sex or development evidence.
+- **Decision:** supports current title and old-name mapping for #130 v4.
+
+### KOEP-MACAULAY-200950241 — new, limited
+- **Title / institution:** Macaulay Library asset ML200950241, Cornell Lab of Ornithology.
+- **Date/accessed:** recorded 2018-08-07; accessed 2026-11-06.
+- **URL:** https://macaulaylibrary.org/asset/200950241
+- **Type / section:** institutional media metadata and contributor notes.
+- **Species/stage:** *M. koepckeae hockingi*, fledgling.
+- **Fact:** notes describe an older fledgling perched in a tree and flying away while calling.
+- **Limit/conflict:** single southern-subspecies observation; age, sex and measurements absent. It cannot be transferred to the Loja nominate juvenile or used as a universal first-flight threshold.
+- **Decision:** confirms that some older *hockingi* fledglings can perch/fly, but #130 v4 deliberately makes no flight claim.
+
+**Reused/re-read:** KOEP-MIK2013-222 (PDF 224–225 / print 222–223), KOEP-ALARCON-2023 (pp.93–114, species section/Fig.1c), KOEP-ORDONEZ-FREILE-2019 (pp.25–29). See [species v4 record](species/130-megascops-koepckeae-v4.md).

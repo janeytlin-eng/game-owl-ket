@@ -13,3 +13,8 @@ Actual built-in face edit reviewed: juvenile facial disks modestly deepened, sti
 ### #120 v3 · 2026-10-27
 
 SCIENCE_REVISION; unique archived total remains 174/251. Publisher PDF printed pp.301–304 and Figure 1 were fully read/viewed, correcting the earlier partial-access limitation; uploaded Mikkola printed p.229/PDF p.231 was also read/viewed. New1/reused2/corrected1 source entries. Initial generated juvenile had a complete adult-like folded wing; edit 1 retained only a bounded cluster of the paper's explicitly developed barred primaries/secondaries/tertials under natal down. Edit 2 reduced adult tufts, darkened irises and replaced overly regular decorative patterning with restrained irregular vermiculation. Exact age within the authors' 20–30-day estimate, individual/subspecies variation, continuous feather sequence and quantitative sex dimorphism remain unknown; `scientifically_verified: false`. [Concept](../../design/concepts/120-megascops-ingens-v3.png) · [full master](../../production/assets/2026-10-27T2126+0800-cycle-3/reviewed-master.jpg) · [research](../../research/species/120-megascops-ingens-v3.md) · [run](../../production/runs/2026-10-27T2126+0800-cycle-3.md)
+
+
+## 2026-11-06 v4 production boundary
+
+Primary pp.301–304/Fig.1 supports a 20–30 d estimate, abundant residual down and considerably developed barred primaries/secondaries/tertials, but not exact age or flight. V4 therefore uses a compact down-veiled formed cluster ending above both feet, concealed tail and full cavity-rim support. Adult visible scale remains near equal; the average-mass note is not converted into a fixed height ratio. See `research/species/120-megascops-ingens-v4.md` and its review record. Scientific verification remains false.

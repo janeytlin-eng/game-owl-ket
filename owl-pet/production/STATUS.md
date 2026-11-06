@@ -1,3 +1,7 @@
+## 2026-11-06 — #120 *Megascops ingens* v4 archived, verification pending
+
+Batch `20261106T123716+0800` cycle 5/6. The recovered first candidate had a long adult-like juvenile wing; one center-only edit replaced it with a compact down-veiled barred feather cluster above the feet, with tail concealed and continuous stump support. Full plate plus juvenile and adults/support crops pass with limitations. Manifests 727/728/718; unique remains 176/251; science false; immutable readback pending.
+
 # Owl-pet production status
 
 ## 20261106T133000+0800 cycle 3 — #112 *Asio abyssinicus* v3 ARCHIVED, readback pending

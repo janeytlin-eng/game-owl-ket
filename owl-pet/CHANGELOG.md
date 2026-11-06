@@ -1,3 +1,7 @@
+## 2026-11-06 — #120 *Megascops ingens* v4 archived, verification pending
+
+Batch `20261106T123716+0800` cycle 5/6. The recovered first candidate had a long adult-like juvenile wing; one center-only edit replaced it with a compact down-veiled barred feather cluster above the feet, with tail concealed and continuous stump support. Full plate plus juvenile and adults/support crops pass with limitations. Manifests 727/728/718; unique remains 176/251; science false; immutable readback pending.
+
 ## 2026-11-06 — #112 *Asio abyssinicus* v3 ARCHIVED, readback pending
 
 Science revision preserving v1–v2. Indexed five new/corrected source records and reused two history records. One targeted edit corrected the center juvenile’s adult-like wing and uniform curls; final full/crop review `PASS_WITH_LIMITATIONS`. Manifests 725/726/716; unique 176/251; science false; immutable readback pending.

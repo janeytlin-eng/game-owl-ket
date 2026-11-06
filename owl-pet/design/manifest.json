@@ -24200,7 +24200,68 @@
       "exact_readback": true,
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable c658cdd6 tree readback found 13 required paths in a non-truncated 3383-entry tree. Original-resolution PNG downloaded by immutable commit matched 2708588 bytes and SHA-256; remote manifests parsed at 726/727/717. Science remains false."
+    },
+    {
+      "id": "120-megascops-ingens-v4",
+      "path": "design/concepts/120-megascops-ingens-v4.png",
+      "species_id": 120,
+      "scientific_name": "Megascops ingens",
+      "historical_names": [
+        "Scops ingens",
+        "Otus ingens",
+        "Megascops albogularis aequatorialis"
+      ],
+      "common_name": "Rufescent Screech-Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "RIS-ORDONEZ-2022-LEAD",
+        "RIS-ITIS-686668-2026",
+        "RIS-ITIS-686872-2026",
+        "RIS-MIKKOLA-2013-P229"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/120-megascops-ingens-v4.md",
+      "review_record": "research/reviews/120-megascops-ingens-v4-review.md",
+      "run_record": "production/runs/20261106T151000+0800-cycle-5.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2934410,
+      "sha256": "d7d497db5cc5a3aad9f7bf26155612e7794b67c2fbbc6b144478fe10251b7c3a",
+      "git_blob": "09ba1b126d2dab5feda26bf83bc5001391a9fbc9",
+      "generated_path": "production/generated/120-megascops-ingens-v4-generated-master.png",
+      "generated_blob": "b1976c84888ff37fe81fe5dffa937a08d91694b3",
+      "generated_sha256": "750d8db7d36518ca9c32455954820da2d9fb4dd7f334ea7cd99ee2c53b4bbfaf",
+      "generated_size_bytes": 3025606,
+      "edit_path": "production/edits/120-megascops-ingens-v4-edit1.png",
+      "edit_blob": "09ba1b126d2dab5feda26bf83bc5001391a9fbc9",
+      "reviewed_path": "production/reviewed/120-megascops-ingens-v4-reviewed-master.png",
+      "reviewed_blob": "09ba1b126d2dab5feda26bf83bc5001391a9fbc9",
+      "juvenile_review_crop": "production/review-crops/120-megascops-ingens-v4-juvenile.png",
+      "juvenile_review_blob": "3422438ecd11446b86b77046880b1f1ff16af4ce",
+      "juvenile_review_size_bytes": 833546,
+      "juvenile_review_sha256": "310878aac315234970cb457d380f3963323a80f0add7f4a0f5cb83af55e9e5dc",
+      "adults_review_crop": "production/review-crops/120-megascops-ingens-v4-adults-support.png",
+      "adults_review_blob": "6508403af225a8c3af07242652bd355e5b13bfb6",
+      "adults_review_size_bytes": 2149981,
+      "adults_review_sha256": "b4d0ae88cfb7ba82a203232e95d9f5c25dc30ac68f44866b636944c7664ae040",
+      "reviewed_at": "2026-11-06T15:40:00.000+08:00",
+      "readback_pending": true,
+      "archive_note": "V4 preserves v1-v3 and repairs v3's missing exact-readback chain. The recovered first candidate overcorrected the paper-described developed flight feathers into a long adult-like wing. One center-only imagegen edit produced a compact rounded barred cluster partly veiled by down, ending above both feet with tail concealed. Exact age, flight competence, continuous feather chronology, chick sex and population-wide sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T15:03:00.000+08:00"
+  "updated_at": "2026-11-06T15:43:00.000+08:00"
 }

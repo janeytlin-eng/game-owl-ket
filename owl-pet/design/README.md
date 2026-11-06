@@ -3222,3 +3222,6 @@ A museum label “immature” proves age class, not feather sequence, iris or lo
 
 Science revision and archive reconciliation. V7 preserves v1–v6, resolves conflicting duplicate v5 hashes and the missing v6 archive chain, uses near-equal adult scale because sexed historical wing ranges overlap, reduces oversized adult wing spots, and makes the directly photographed older juvenile down-rich while retaining a formed short rounded wing. Full plate plus juvenile/adults-support crops viewed; PASS_WITH_LIMITATIONS, scientifically_verified=false. Unique species remains 176/251; revision +1. Original: [113-ninox-natalis-v7.png](concepts/113-ninox-natalis-v7.png). Research/review/run: [evidence](../research/species/113-ninox-natalis-v7.md), [review](../research/reviews/113-ninox-natalis-v7-review.md), [cycle 4](../production/runs/20261106T143600+0800-cycle-4.md).
 
+
+
+- #120 *Megascops ingens* v4 — science revision; compact evidence-bounded 20–30 d estimate feather cluster after one edit; PASS_WITH_LIMITATIONS; science false; archive readback pending.

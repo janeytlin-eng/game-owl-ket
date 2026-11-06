@@ -951,3 +951,11 @@ When a primary source describes primaries, secondaries and tertials as considera
 
 When an age-unknown, down-rich owl juvenile is directly photographed with narrow formed side flight-feather panels, “avoid adult wings” does not mean hiding every panel into a cylindrical all-down silhouette. Preserve the photographed panel as a simple, down-veiled, non-adult structure and keep its actual support/extent; separately retain unknown age and flight ability. This rule was discovered and applied to #123 *Otus gurneyi* v5, then verified on the full plate and juvenile crop. It is not yet validated as a cross-species rule.
 
+
+
+### 2026-11-06 — Formed juvenile quills do not imply an adult wing silhouette
+
+- **Found:** a historical museum account may state that a young owl already has formed/notched quills while leaving age, tail state and flight competence unknown.
+- **Applied:** preserve the supported feather formation, but bound wing length, layering regularity, tail exposure, action and support independently. Do not turn “formed quills” into a long, perfectly layered adult wing.
+- **Verified in use:** #125 *Ninox philippensis* v5 edit 1 shortened the young wing and made pale notches sparse and irregular; full plate and crop reinspection passed. This is one applied case, not yet a cross-species validation.
+- Evidence: `owl-pet/research/reviews/125-ninox-philippensis-v5-review.md`.

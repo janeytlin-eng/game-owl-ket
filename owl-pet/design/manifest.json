@@ -24224,7 +24224,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "RIS-ORDONEZ-2022-LEAD",
         "RIS-ITIS-686668-2026",
@@ -24259,9 +24259,17 @@
       "adults_review_size_bytes": 2149981,
       "adults_review_sha256": "b4d0ae88cfb7ba82a203232e95d9f5c25dc30ac68f44866b636944c7664ae040",
       "reviewed_at": "2026-11-06T15:40:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V4 preserves v1-v3 and repairs v3's missing exact-readback chain. The recovered first candidate overcorrected the paper-described developed flight feathers into a long adult-like wing. One center-only imagegen edit produced a compact rounded barred cluster partly veiled by down, ending above both feet with tail concealed. Exact age, flight competence, continuous feather chronology, chick sex and population-wide sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V4 preserves v1-v3 and repairs v3's missing exact-readback chain. The recovered first candidate overcorrected the paper-described developed flight feathers into a long adult-like wing. One center-only imagegen edit produced a compact rounded barred cluster partly veiled by down, ending above both feet with tail concealed. Exact age, flight competence, continuous feather chronology, chick sex and population-wide sex ratio remain unknown; science false.",
+      "exact_readback": true,
+      "archive_commit": "d520ffa8681b41b7dec03ed3367c784c59700ea8",
+      "archive_tree": "22245a2a8d51df0a914e01fe5cf9f1ad6e3a3b7f",
+      "archive_tree_entries": 3392,
+      "archive_tree_truncated": false,
+      "verified_at": "2026-11-06T15:45:00.000+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable d520ffa8 readback found all 14 required paths in a non-truncated 3392-entry tree. Six image path/blob/byte tuples matched; the original-resolution concept was downloaded by immutable commit and matched 2,934,410 bytes plus SHA-256 d7d497db…. Remote manifests parsed at 727/728/718 and ended with #120 v4. Science remains false."
     }
   ],
-  "updated_at": "2026-11-06T15:43:00.000+08:00"
+  "updated_at": "2026-11-06T15:45:00.000+08:00"
 }

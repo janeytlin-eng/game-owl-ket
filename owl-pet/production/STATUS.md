@@ -1,3 +1,7 @@
+### #120 v4 immutable archive verified — ledger credit pending
+
+Archive `d520ffa8681b41b7dec03ed3367c784c59700ea8` / tree `22245a2a8d51df0a914e01fe5cf9f1ad6e3a3b7f` returned 3,392 non-truncated entries. Fourteen required paths, six image tuples, immutable original PNG size/hash and remotely parsed manifests 727/728/718 passed; science false.
+
 ## 2026-11-06 — #120 *Megascops ingens* v4 archived, verification pending
 
 Batch `20261106T123716+0800` cycle 5/6. The recovered first candidate had a long adult-like juvenile wing; one center-only edit replaced it with a compact down-veiled barred feather cluster above the feet, with tail concealed and continuous stump support. Full plate plus juvenile and adults/support crops pass with limitations. Manifests 727/728/718; unique remains 176/251; science false; immutable readback pending.

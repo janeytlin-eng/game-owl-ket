@@ -959,3 +959,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** preserve the supported feather formation, but bound wing length, layering regularity, tail exposure, action and support independently. Do not turn “formed quills” into a long, perfectly layered adult wing.
 - **Verified in use:** #125 *Ninox philippensis* v5 edit 1 shortened the young wing and made pale notches sparse and irregular; full plate and crop reinspection passed. This is one applied case, not yet a cross-species validation.
 - Evidence: `owl-pet/research/reviews/125-ninox-philippensis-v5-review.md`.
+
+
+### 2026-11-06 — Comparative ageing must remain visibly estimated
+
+- **Found:** a field study can directly photograph a juvenile stage while estimating day-age partly from a related species' development schedule.
+- **Applied:** select the photographed support/action stage, keep the label explicitly “(EST.)”, and do not convert the comparison into a known hatch date or continuous flight threshold.
+- **Verified in use:** #126 *Strix hadorami* v3 used a photographed shelf-stage fledgling labelled c35 days estimated; full plate and crop review passed without an edit. This is one applied case, not a universal chronology rule.
+- Evidence: `owl-pet/research/reviews/126-strix-hadorami-v3-review.md`.

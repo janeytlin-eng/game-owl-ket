@@ -24846,7 +24846,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "DAV-SCHERZINGER-2014",
         "DAV-MIK2013-348",
@@ -24881,10 +24881,19 @@
       "adults_review_size_bytes": 2052242,
       "adults_review_sha256": "68ef8bc3e578c81d52217edb677896e36b754a8e566fdec91dd7265c1755d8e7",
       "reviewed_at": "2026-11-06T23:11:14+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3. Primary Scherzinger et al. 2014 and uploaded Mikkola pp.350-351 were re-read; current IOC/ITIS subspecies mapping recorded. Adult mirror posing was corrected through fresh generation; four-week mesoptile remains evidence-bounded. Exact hatch day, flight threshold, feather sequence, sex ratio and final species/subspecies consensus remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3. Primary Scherzinger et al. 2014 and uploaded Mikkola pp.350-351 were re-read; current IOC/ITIS subspecies mapping recorded. Adult mirror posing was corrected through fresh generation; four-week mesoptile remains evidence-bounded. Exact hatch day, flight threshold, feather sequence, sex ratio and final species/subspecies consensus remain unknown; science false.",
+      "archive_commit": "a2fb4d0d954d54d8fe00fec47b6d286fa68ccc33",
+      "archive_tree": "f135b9bbe002c4001dd2803afb1200b6005e38c7",
+      "archive_tree_entries": 3538,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 17,
+      "exact_binary_paths_verified": 5,
+      "verified_at": "2026-11-06T23:12:20+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable archive tree returned 3,538 non-truncated entries; 17 required paths and 5 exact image blob/size tuples passed. Full concept/generated/reviewed 2,867,643 bytes and both crops matched; manifests 743/744/734; science false."
     }
   ],
-  "updated_at": "2026-11-06T23:11:14+08:00"
+  "updated_at": "2026-11-06T23:12:20+08:00"
 }

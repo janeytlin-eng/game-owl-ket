@@ -3606,9 +3606,9 @@ Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back aft
 - Revision only; unique count remains 176/251. Full plate, initial generation, edit 1, reviewed master and two inspection crops archived. One edit corrected the juvenile's overlong adult-like wing. Scientific verification remains false.
 
 
-## 2026-11-06 — #132 *Strix davidi* v4 archived pending immutable readback
+## 2026-11-06 — #132 *Strix davidi* v4 archived and immutable-readback verified
 
 - Science revision; unique species total remains 176/251. Preserves v1–v3.
 - Current checklist crosswalk: project *Strix davidi* = current IOC/ITIS *Strix uralensis davidi*; roster ID retained.
-- Result: PASS_WITH_LIMITATIONS, scientifically_verified=false, edit_count=0.
+- Result: PASS_WITH_LIMITATIONS, scientifically_verified=false, edit_count=0; immutable tree verified.
 - Original: `design/concepts/132-strix-davidi-v4.png`; research/review/run records linked in manifests.

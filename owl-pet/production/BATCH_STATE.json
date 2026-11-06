@@ -25556,22 +25556,23 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261106T2331000800-cycle-5",
-        "heartbeat_at": "2026-11-06T23:33:00+08:00",
-        "expires_at": "2026-11-06T23:48:00+08:00"
+        "heartbeat_at": "2026-11-06T23:39:00+08:00",
+        "expires_at": "2026-11-06T23:54:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
         "run_id": "20261106T2331000800-cycle-5",
         "species_id": 136,
         "species": "Megascops petersoni",
-        "stage": "RESEARCH_READY",
+        "stage": "ARCHIVED",
         "started_at": "2026-11-06T23:31:00+08:00",
         "run_record": "owl-pet/production/runs/20261106T2331000800-cycle-5.md",
         "research_record": "owl-pet/research/species/136-megascops-petersoni-v4.md",
-        "prompt_persisted": true
+        "prompt_persisted": true,
+        "archive_pending_verification": true
       },
       "started_at": "2026-11-06T22:26:00+08:00",
-      "updated_at": "2026-11-06T23:33:00+08:00",
+      "updated_at": "2026-11-06T23:39:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -25988,6 +25989,51 @@
           "research_record": "owl-pet/research/species/136-megascops-petersoni-v4.md",
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-06T23:37:00+08:00",
+          "species_id": 136,
+          "species": "Megascops petersoni",
+          "path": "owl-pet/production/generated/136-megascops-petersoni-v4-generated-master.png",
+          "blob": "292e51f9bb868dabfd5f836e0adc86fc9126cf8a",
+          "sha256": "8a713c7f01deb064a1db7f76b971f3e5f235f205af7d93620ace36db897e32fc",
+          "size_bytes": 3131931,
+          "dimensions": "1536x1024",
+          "generation_wait_seconds": 129,
+          "edit_required": false,
+          "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "stage": "REVIEWED",
+          "at": "2026-11-06T23:38:00+08:00",
+          "species_id": 136,
+          "species": "Megascops petersoni",
+          "review_file": "owl-pet/research/reviews/136-megascops-petersoni-v4-review.md",
+          "edit_count": 0,
+          "result": "PASS_WITH_LIMITATIONS",
+          "full_and_crops_opened": true,
+          "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-06T23:39:00+08:00",
+          "species_id": 136,
+          "species": "Megascops petersoni",
+          "concept_path": "owl-pet/design/concepts/136-megascops-petersoni-v4.png",
+          "concept_blob": "292e51f9bb868dabfd5f836e0adc86fc9126cf8a",
+          "manifest_counts": {
+            "design_image": 745,
+            "design_legacy": 746,
+            "production": 736
+          },
+          "unique_species_count": 176,
+          "total_scope": 251,
+          "readback_pending": true,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "d529c45921d0ec1147671daa773d2e46cc8741f2"
@@ -25996,8 +26042,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261106T2331000800-cycle-5",
-    "heartbeat_at": "2026-11-06T23:33:00+08:00",
-    "expires_at": "2026-11-06T23:48:00+08:00"
+    "heartbeat_at": "2026-11-06T23:39:00+08:00",
+    "expires_at": "2026-11-06T23:54:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -26947,11 +26993,12 @@
     "run_id": "20261106T2331000800-cycle-5",
     "species_id": 136,
     "species": "Megascops petersoni",
-    "stage": "RESEARCH_READY",
+    "stage": "ARCHIVED",
     "started_at": "2026-11-06T23:31:00+08:00",
     "run_record": "owl-pet/production/runs/20261106T2331000800-cycle-5.md",
     "research_record": "owl-pet/research/species/136-megascops-petersoni-v4.md",
-    "prompt_persisted": true
+    "prompt_persisted": true,
+    "archive_pending_verification": true
   },
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",

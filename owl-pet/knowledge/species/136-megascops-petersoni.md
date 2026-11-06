@@ -19,3 +19,8 @@ First render actual-viewed at 1536×1024 and indexed candidate actual-viewed; no
 - 首年鸟：采用原始描述“近成鸟羽、较淡且横斑绒羽更多”的可证阶段；精确日龄与飞行能力未知。
 - 巢位：天然活树洞、干竹叶、湿润苔藓/附生植物山地林；不据此虚构雏鸟解剖。
 - 成图：design/concepts/136-megascops-petersoni-v3.png；PASS_WITH_LIMITATIONS；scientifically_verified=false。
+
+
+## 2026-11-06 v4
+
+Primary-description boundary was retained and cross-checked against BHL provenance plus a regional guide: rich cinnamon, dark irides, no white, near-equal adults, nearly-adult first-year with residual barred down. Full and cropped review passed with limitations; exact age, flight and molt sequence remain unknown. [Original](../../design/concepts/136-megascops-petersoni-v4.png).

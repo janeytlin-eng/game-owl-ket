@@ -1,3 +1,10 @@
+## #101 Mountain Scops Owl — *Otus spilocephalus* — v8 ARCHIVED (readback pending)
+
+- Concept: [101-otus-spilocephalus-v8.png](concepts/101-otus-spilocephalus-v8.png)
+- Research: [101-otus-spilocephalus-v8.md](../research/species/101-otus-spilocephalus-v8.md)
+- Review: [101-otus-spilocephalus-v8-review.md](../research/reviews/101-otus-spilocephalus-v8-review.md)
+- One targeted immature-wing edit; full plate and two crops opened. PASS_WITH_LIMITATIONS; science false; v1–v7 preserved.
+
 ## #100 Black-banded Owl — *Strix huhula* — v5 ARCHIVED (readback pending)
 
 - Concept: [100-strix-huhula-v5.png](concepts/100-strix-huhula-v5.png)

@@ -1,3 +1,9 @@
+## 2026-11-06 #101 *Otus spilocephalus* v8 ARCHIVED — immutable readback pending
+
+- Batch `20261106T105700+0800`, cycle 2/6. Four new/read sources plus three reused records; one targeted immature-wing edit; full image and two crops opened.
+- Adults are same-plumage/near-equal; center age-unknown immature is yellow-brown/low-contrast with dark-neutral unresolved iris, short down-dominant wing, concealed tail and continuous hollow-lip support.
+- Manifests expected 719/718/709; unique remains 176/251; science false; no cycle credit before immutable readback.
+
 ## 2026-11-06 #100 *Strix huhula* v5 LEDGER_CREDITED — batch 1/6
 
 - Verification commit `b5c2d7eef6ae05c945bcf3f200353ef062ddd503` and tree `17fe87860850f306eeca33c4ddc0f7a703b9d7d2` were read back. Cycle 1 credited once; batch next cycle 2; lease released.

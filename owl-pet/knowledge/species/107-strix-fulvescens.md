@@ -1,5 +1,14 @@
 # 107 · Strix fulvescens
 
+## 2026-11-06 v5 science revision
+
+- Preserves v1–v4 and corrects the two adult irises from light gray/amber to blackish-brown using the reopened adult account.
+- 2018 BBOC printed p.177/Fig.20 directly documents an adult with a fledgling at Finca El Pilar on 26 April 2017 and explicitly says the nest was undescribed. V5 therefore uses a supported exact-age-unknown fledgling and does not invent a nest, eggs or chronology.
+- Full plate plus fledgling and adults/support crops were opened. Exactly three birds, adult identity/near-equal scale, compact formed/down-softened fledgling wings, concealed tail, all six foot contacts, title/labels and cloud-forest setting pass.
+- Exact visible sex-size ratio, juvenile iris/age/continuous feather sequence/flight threshold and nest site remain unknown. `PASS_WITH_LIMITATIONS`; `scientifically_verified=false`.
+- [V5 concept](../../design/concepts/107-strix-fulvescens-v5.png) · [research](../../research/species/107-strix-fulvescens-v5.md) · [review](../../research/reviews/107-strix-fulvescens-v5-review.md) · [run](../../production/runs/20261106T123716+0800-cycle-1.md)
+
+
 Actual edited PNG viewed: young graycream fluff/closedrestingeyes/darkmask/yellowbill/twofootstumpgrip; wing pale rows softened, legitimate formed narrowbrown tips retained, longbarredtail hidden. Adults darkeyes/graydisc/upperbars/lowerverticalstreaks/longbarredtail/noeartufts preserved. Adultmale apparent height is display not measured sexratio; young exactage/feathergeometry unknownsciencefalse. Rule visuallychecked: olderjuvenile wings not erased wholesale.
 Eisermann/Avendaño field website actualtext and both directphotos inspected; Guatemala humidforests above2000m, roostnotinventednest. Sourceauthor unsexedadult and unknownyoungage, no precise agelabel. Full251versionedlist remainsunavailable targetunchanged.
 [Original](../../design/concepts/107-strix-fulvescens-v1.png)

@@ -23375,7 +23375,66 @@
         },
         "science": false
       }
+    },
+    {
+      "id": "107-strix-fulvescens-v5",
+      "path": "design/concepts/107-strix-fulvescens-v5.png",
+      "species_id": 107,
+      "scientific_name": "Strix fulvescens",
+      "historical_names": [
+        "Syrnium fulvescens"
+      ],
+      "common_name": "Fulvous Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "FVO-EISERMANN-AVENDANO-2018-P177-F20",
+        "FVO-ITIS-555430-2026",
+        "FVO-OWLPAGES-2020-L64-75",
+        "FVO-EISERMANN-FIELD2026",
+        "S107-CAYAYA-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/107-strix-fulvescens-v5.md",
+      "review_record": "research/reviews/107-strix-fulvescens-v5-review.md",
+      "run_record": "production/runs/20261106T123716+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2728683,
+      "sha256": "cae65e5a79be2ff975339878ecc22661223f4ff4ec68114de53c4cf10365cb9c",
+      "git_blob": "9e54ff4f08867fcaecc4becfe56b4408c89fa991",
+      "generated_path": "production/generated/107-strix-fulvescens-v5-generated-master.png",
+      "generated_blob": "9e54ff4f08867fcaecc4becfe56b4408c89fa991",
+      "generated_sha256": "cae65e5a79be2ff975339878ecc22661223f4ff4ec68114de53c4cf10365cb9c",
+      "generated_size_bytes": 2728683,
+      "reviewed_path": "production/reviewed/107-strix-fulvescens-v5-reviewed-master.png",
+      "reviewed_blob": "9e54ff4f08867fcaecc4becfe56b4408c89fa991",
+      "juvenile_review_crop": "production/review-crops/107-strix-fulvescens-v5-juvenile.png",
+      "juvenile_review_blob": "380ecf7b25b207fc6c27b1a490968fd0405c486e",
+      "juvenile_review_size_bytes": 700559,
+      "juvenile_review_sha256": "75d965fbb3a24db83290f602ec235d873deaf6ed69a335b42a90755267e5bc2b",
+      "adults_review_crop": "production/review-crops/107-strix-fulvescens-v5-adults-support.png",
+      "adults_review_blob": "e094b9f270057b76dd297a4e4cf324b1051202ad",
+      "adults_review_size_bytes": 1686344,
+      "adults_review_sha256": "3393b3895083bae91fbfb0e1fbdc8c01d5f866aaa1038e8eebdf36738eefcb44",
+      "reviewed_at": "2026-11-06T12:50:30.000+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4, adds the dated adult+fledgling p.177/Fig.20 and ITIS mapping, excludes generic cavity/egg chronology, corrects adult irises, and passes full plus two crop review after renderer drift re-audit. Exact sex ratio, juvenile age/iris/flight and nest remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T11:57:00.000+08:00"
+  "updated_at": "2026-11-06T12:53:30.000+08:00"
 }

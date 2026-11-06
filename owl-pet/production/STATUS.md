@@ -245,3 +245,7 @@
 
 
 2026-11-06T08:44:04+08:00 #93 *Aegolius harrisii iheringi* v4 LEDGER_CREDITED; batch 20261106T073000+0800 now 2/6, next cycle 3, lease released; archive 646df00fe4970b8f18e05ea2f0d2917dec6cf749/treeadfaab2cc2ade2d243ec8a78cde41ef00d7979fc; verification 907ec9a7b5309a2b6e51f66afd64c48811f9804c; manifests 713/712/703; unique176/251; revision +1; science false.
+## 2026-11-06 — batch `20261106T123716+0800` cycle 1/6 archive pending verification
+
+#107 *Strix fulvescens* v5 concept/generated/reviewed/crops, research, review, run and manifests are archived. Expected manifest counts: design IMAGE 723, design legacy 724, production 714. Unique species 176/251; cycle credit withheld until immutable readback; science false.
+

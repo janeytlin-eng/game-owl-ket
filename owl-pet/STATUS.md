@@ -3620,3 +3620,5 @@ Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back aft
 ## 2026-11-07 — #137 *Otus alfredi* v4 ARCHIVED — readback pending
 
 - Science revision only; unique species remains 176/251. One initial generation plus two targeted edits; full plate and two crops opened. Juvenile long tail/adult white-spot repetition and unsupported juvenile yellow iris were corrected. PASS_WITH_LIMITATIONS; science false. Manifests prepared at 746/747/737. Research checkpoint tree omission was repaired in `0bab005158f6950c78b106f2146ef6eb1d105d2d`; immutable archive readback is still pending.
+
+- 2026-11-07T00:40:00+08:00: #137 v4 binary repair replaced truncated large PNG blobs before verification; exact immutable readback pending, no cycle credit yet.

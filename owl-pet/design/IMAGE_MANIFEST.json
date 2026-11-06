@@ -25728,9 +25728,9 @@
       },
       "size_bytes": 2703740,
       "sha256": "f8a34b722de82ce586a72b240c134fab4a6f0c97a5a0af32e6d84ef81fa5b4dc",
-      "git_blob": "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b",
+      "git_blob": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
       "generated_path": "production/generated/137-otus-alfredi-v4-generated-master.png",
-      "generated_blob": "b7c362ad955ead9a20f6f4eb844f89f53b022440",
+      "generated_blob": "2aaeac968cfd2c95bdd198f3fe8d852b50a98d49",
       "generated_sha256": "c025c331b4e6a1e96dce349face2995927dc27c8f985145cc08690c9429d4532",
       "generated_size_bytes": 3001707,
       "edit_paths": [
@@ -25738,22 +25738,24 @@
         "production/generated/137-otus-alfredi-v4-edit2.png"
       ],
       "edit_blobs": [
-        "3a3699ea4c847dee387388cebe9ab281127c42c0",
-        "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b"
+        "1fcb72e75a12c895855d7a9d073772092bea04b6",
+        "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd"
       ],
       "reviewed_path": "production/reviewed/137-otus-alfredi-v4-reviewed-master.png",
-      "reviewed_blob": "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b",
+      "reviewed_blob": "4a3ecd81d8a54fcac61bb4ddcf0d95d513080abd",
       "juvenile_review_crop": "production/review-crops/137-otus-alfredi-v4-juvenile.png",
       "juvenile_review_blob": "e7c2e219af29929be2ebbdf74247b7f641825305",
       "juvenile_review_size_bytes": 713367,
       "juvenile_review_sha256": "d8174636854720d8451ef1f1509fd983bd5123c8a7ee35c7ebdbff9ff7332819",
       "adult_review_crop": "production/review-crops/137-otus-alfredi-v4-adults-support.png",
-      "adult_review_blob": "c82ca4aedfb417801d74e7a198866d465ad1f988",
+      "adult_review_blob": "f062d7c740d440487adecee143dd106bf38378f6",
       "adult_review_size_bytes": 1836066,
       "adult_review_sha256": "440d29446ffcbbd51735fb58e04e968efecf34cc6326af8623605d005142e5a9",
       "batch_id": "20261106T222600+0800",
       "cycle": 6,
-      "readback_pending": true
+      "readback_pending": true,
+      "binary_repair_at": "2026-11-07T00:40:00+08:00",
+      "binary_repair_reason": "first archive upload of files above connector output limit was truncated; replaced before verification/credit"
     }
   ],
   "updated_at": "2026-11-07T00:37:00+08:00"

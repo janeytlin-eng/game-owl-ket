@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:23:00+08:00",
+  "updated": "2026-11-07T05:27:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25868,7 +25868,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MINDBOO-MCGREGOR-1904-P16-17",
         "LZBO-RASMUSSEN-2012-LEAD",
@@ -25902,11 +25902,20 @@
       "adult_review_sha256": "18927b46776204ed86226f600c20a4cbba7853299b850cde5b8256b21245d14e",
       "batch_id": "20261107T043300+0800",
       "cycle": 2,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T05:23:00+08:00",
-      "archive_commit_pending": true,
-      "evidence_limit": "McGregor 1904 supports adult male and sexes-similar comparison; its 'young bird' phrase is explicitly rejected as juvenile evidence. Juvenile chronology, iris, flight, exact feather map, pair-specific sex ratio and nest site remain unknown."
+      "archive_commit_pending": false,
+      "evidence_limit": "McGregor 1904 supports adult male and sexes-similar comparison; its 'young bird' phrase is explicitly rejected as juvenile evidence. Juvenile chronology, iris, flight, exact feather map, pair-specific sex ratio and nest site remain unknown.",
+      "exact_readback": true,
+      "archive_commit": "c5c422c15b729a231a5d6c5c193a228951fe4b4d",
+      "archive_tree": "55b51cc55f0dd0f07ed1a4973b7f5e4eb74daef6",
+      "required_paths_verified": 15,
+      "exact_binary_paths_verified": 5,
+      "recursive_tree_listing_available": false,
+      "binary_content_fetch_available": false,
+      "verified_at": "2026-11-07T05:27:00+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T05:23:00+08:00"
+  "updated_at": "2026-11-07T05:27:00+08:00"
 }

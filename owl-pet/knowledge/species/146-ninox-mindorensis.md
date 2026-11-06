@@ -35,3 +35,9 @@
 - Final v3 uses a closed-eyed, wing/tail-concealed, age-unknown juvenile on bilateral branch support. Exact chronology, iris, flight and feather map remain unknown.
 - Review: PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=0.
 - Research: `research/species/146-ninox-mindorensis-v3.md`; review: `research/reviews/146-ninox-mindorensis-v3-review.md`; concept: `design/concepts/146-ninox-mindorensis-v3.png`.
+
+
+## v3 verification
+
+- Immutable archive `c5c422c15b729a231a5d6c5c193a228951fe4b4d` / tree `55b51cc55f0dd0f07ed1a4973b7f5e4eb74daef6` was read back by exact paths. Concept/generated/reviewed master resolve to blob `425e41e155eba3c0626fde0a81219237d8276511`; both crop blobs and all research/review/run/index/manifest/status/batch paths resolved.
+- Result remains PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.

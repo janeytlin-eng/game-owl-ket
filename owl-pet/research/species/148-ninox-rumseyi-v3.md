@@ -49,3 +49,22 @@ Environment: low-wind Cebu secondary forest edge with tall native trees, underst
 Style: approved tactile high-detail naturalistic 3D character concept art, cinematic restrained dawn light, consistent trio scale and legibility.
 Avoid: ear tufts, long continuous V brow, gray eyes, heavy uniform belly bars, fully feathered tarsi, wholly pale claws, exaggerated sexual size dimorphism, adult-like juvenile wing/tail, unsupported juvenile iris/age, airborne pose, extra birds, misspelled text, watermarks.
 ```
+
+
+## Actual generation, edit and recheck
+
+The generated 1536×1024 plate was actually viewed. It correctly showed exactly three supported birds, the subtle male-larger direction, adult identity, and a closed-eye down-dominant juvenile. Crop inspection exposed two correctable issues: the adults' white brow arcs remained too long and the size contrast read more strongly than the measured wing/tail differences. One targeted edit shortened the separate supercilia and reduced the scale contrast without changing the juvenile. The edited full plate and both crops were viewed again. Result: **PASS_WITH_LIMITATIONS**; edit count 1; scientific verification false.
+
+### Targeted edit prompt
+
+```text
+Targeted scientific correction of the attached #148 Cebu Boobook triptych. Preserve the entire composition, exact 1536x1024 canvas, title "CEBU BOOBOOK", italic "Ninox rumseyi", all three labels, forest, branch, lighting, juvenile, feet, irises, bill, feather colors and every other detail.
+
+Edit only two adult attributes:
+1) Shorten the white supercilium on BOTH adult birds. Each adult must have two short, separate compact whitish brow dashes restricted to the inner-to-middle upper edge of each eye. Do not let either white mark sweep broadly over the whole eye; do not connect the left and right marks into a V.
+2) Reduce the visible sex-size contrast. Keep the adult male left only subtly larger/longer-bodied than the adult female center, approximately a cautious 5–8% linear difference, not a pronounced contrast.
+
+Absolutely no changes to the older juvenile, no change to adult plumage pattern, no extra birds, no text changes or misspellings, no nest, no watermark.
+```
+
+Remaining unknowns: exact juvenile age, iris chronology, complete feather sequence, flight threshold, and genetically confirmed sex assignment for the measured adults.

@@ -6,7 +6,7 @@
 
 **Applied rule:** when species-specific primary measurements give a direction, use it cautiously even when it reverses a common owl stereotype; encode a subtle male-larger direction and record the sexing method. Do not generalize across taxa.
 
-**Validation state:** applied in the v3 prompt; pixel validation pending. Juvenile chronology remains unknown.
+**Validation state:** applied and visually checked after one targeted edit. The corrected plate retains a subtle male-larger direction; PASS_WITH_LIMITATIONS, not scientific verification. Juvenile chronology remains unknown.
 
 #147 卡米金鹰鸮 / Camiguin Boobook
 

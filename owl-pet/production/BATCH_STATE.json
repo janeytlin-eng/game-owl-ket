@@ -20709,8 +20709,8 @@
         "batch_id": "20261106T073000+0800",
         "cycle": 6,
         "species_id": 99,
-        "heartbeat_at": "2026-11-06T10:40:00.000+08:00",
-        "expires_at": "2026-11-06T10:55:00.000+08:00"
+        "heartbeat_at": "2026-11-06T10:44:00.000+08:00",
+        "expires_at": "2026-11-06T10:59:00.000+08:00"
       },
       "lease": {
         "owner": "codex-production",
@@ -20718,8 +20718,8 @@
         "batch_id": "20261106T073000+0800",
         "cycle": 6,
         "species_id": 99,
-        "heartbeat_at": "2026-11-06T10:40:00.000+08:00",
-        "expires_at": "2026-11-06T10:55:00.000+08:00"
+        "heartbeat_at": "2026-11-06T10:44:00.000+08:00",
+        "expires_at": "2026-11-06T10:59:00.000+08:00"
       },
       "in_progress": {
         "batch_id": "20261106T073000+0800",
@@ -20728,10 +20728,10 @@
         "species": "Bubo magellanicus",
         "planned_version": 5,
         "run_id": "20261106T100000+0800-cycle-6",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-11-06T10:01:38.378+08:00"
       },
-      "current_stage": "IMAGE_GENERATED",
+      "current_stage": "REVIEWED",
       "events": [
         {
           "batch_id": "20261106T073000+0800",
@@ -21566,18 +21566,44 @@
             "blob_sha": "50b339901d3d85845718e542e285e27cc3875d2d",
             "width": 1536,
             "height": 1024,
-            "size_bytes": 3266359,
+            "size_bytes": 3266361,
             "generation_attempts": 1,
             "edit_attempts": 0,
             "prompt_record": "owl-pet/research/species/99-bubo-magellanicus-v5.md",
             "initial_review": "exact title/name/count/labels, near-equal adults, balcony context and continuous support passed; center approximately-20-day nestling remained down-dominant but showed several elongated hard dark wing tips, triggering one juvenile-wing-only edit",
             "scientifically_verified": false,
-            "lease_expires_at": "2026-11-06T10:52:00.000+08:00"
+            "lease_expires_at": "2026-11-06T10:52:00.000+08:00",
+            "sha256": "569ee454eb6c106d5e964c0b17835625cda90ddc853288326930aaf104c78a20"
+          }
+        },
+        {
+          "batch_id": "20261106T073000+0800",
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-06T10:44:00.000+08:00",
+          "run_id": "20261106T100000+0800-cycle-6",
+          "species_id": 99,
+          "credited": false,
+          "evidence": {
+            "review_result": "PASS_AS_CONCEPT_WITH_EXPLICIT_SCIENCE_UNCERTAINTY",
+            "edit_count": 1,
+            "generated_blob": "50b339901d3d85845718e542e285e27cc3875d2d",
+            "final_blob": "0d03b9b9ef08feaa679fdb92e2cff74164610625",
+            "final_sha256": "a85e38620e2f253ea667f999929f6195bd239f5e6da700100508b3e715a374f0",
+            "reviewed_path": "owl-pet/production/reviewed/99-bubo-magellanicus-v5-reviewed-master.png",
+            "review_record": "owl-pet/research/reviews/99-bubo-magellanicus-v5-review.md",
+            "juvenile_crop": "owl-pet/production/review-crops/99-bubo-magellanicus-v5-juvenile.png",
+            "juvenile_crop_blob": "d3cef16fa6a6f1946bfe88fe27105a20484cda43",
+            "adults_support_crop": "owl-pet/production/review-crops/99-bubo-magellanicus-v5-adults-support.png",
+            "adults_support_blob": "ce0314cc584c1ced93e24cb303733806c15885d6",
+            "reinspection": "full 1536x1024 plate and two crops opened; exact title/name/count/labels, near-equal adult scale, adult diagnostic traits and support, approximately-20-day down-dominant nestling with short rounded down-covered wing bud, concealed tail and continuous dry-plant support passed",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-06T10:59:00.000+08:00"
           }
         }
       ],
       "started_at": "2026-11-06T07:30:00+08:00",
-      "updated_at": "2026-11-06T10:40:00.000+08:00",
+      "updated_at": "2026-11-06T10:44:00.000+08:00",
       "ledger_credit_pending": false
     }
   ],

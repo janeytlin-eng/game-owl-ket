@@ -348,3 +348,8 @@ Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back aft
 ### #137 v4 VERIFIED — ledger credit pending
 
 - Archive `4dae5e8cc994e2d50302b8e1b975fe7ca393f483`, tree `6987612f535f4c16e0c4f938b6fef566041fe79d`, 3,565 non-truncated entries; 15/15 required paths and seven exact binary tuples matched. Manifests 746/747/737 parsed and reference the repaired full-size blobs. Unique remains 176/251; PASS_WITH_LIMITATIONS; science false.
+
+
+### #137 v4 LEDGER_CREDITED — batch COMPLETE 6/6
+
+Verification commit `b90975358b2dacb74fdb3d0ce8b23a7e9b39619b` was read back after immutable archive `4dae5e8cc994e2d50302b8e1b975fe7ca393f483` / tree `6987612f535f4c16e0c4f938b6fef566041fe79d`. Cycle 6 is credited exactly once; batch `20261106T222600+0800` is COMPLETE 6/6 and the lease is released. Unique species remains 176/251; revision +1; science false.

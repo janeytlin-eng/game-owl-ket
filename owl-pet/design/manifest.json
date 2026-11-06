@@ -25594,7 +25594,7 @@
       "archive_commit": "4dae5e8cc994e2d50302b8e1b975fe7ca393f483",
       "archive_tree": "6987612f535f4c16e0c4f938b6fef566041fe79d",
       "verified_at": "2026-11-07T00:42:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "status": "VERIFIED",
         "archive_commit": "4dae5e8cc994e2d50302b8e1b975fe7ca393f483",
@@ -25644,7 +25644,11 @@
         "sha256_verified": true,
         "unique_species": "176/251",
         "scientifically_verified": false
-      }
+      },
+      "verification_commit": "b90975358b2dacb74fdb3d0ce8b23a7e9b39619b",
+      "verification_tree": "7009fb622204f8c0a866bbe488ef0bb1f3e441c1",
+      "batch_status": "COMPLETE",
+      "ledger_credited_at": "2026-11-07T00:45:00+08:00"
     }
   ],
   "updated_at": "2026-11-07T00:37:00+08:00"

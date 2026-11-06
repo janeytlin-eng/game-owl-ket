@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:02:16+08:00",
+  "updated": "2026-11-07T06:09:30+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26141,7 +26141,73 @@
       "verification_commit": "a0ef5804bea7730c21a105ce93a626a0d9f51b04",
       "verification_tree": "cce7882b17adefc82cc3304af7e829418860be43",
       "ledger_credited_at": "2026-11-07T06:02:16+08:00"
+    },
+    {
+      "id": "150-ninox-variegata-v3",
+      "path": "design/concepts/150-ninox-variegata-v3.png",
+      "species_id": 150,
+      "scientific_name": "Ninox variegata",
+      "historical_names": [
+        "Noctua variegata",
+        "Ninox solomonis",
+        "Bismarck Boobook",
+        "Bismarck Hawk-Owl",
+        "Barred Boobook"
+      ],
+      "common_name": "New Ireland Boobook",
+      "scope": "Adults constrained to dark rufous barred, short-tailed heavy-tarsus identity and near-equal scale because type sex is indeterminate; age-unknown closed-eyed down-soft juvenile with short body-blended wing, hidden tail and support; humid New Ireland forest, no nest claim",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "NIBO-VOISIN-2011-TYPES",
+        "NIBO-MNHN-2010-278-2026",
+        "NIBO-AVIBASE-2026",
+        "NIBO-ITIS-555490"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/150-ninox-variegata-v3.md",
+      "review_record": "research/reviews/150-ninox-variegata-v3-review.md",
+      "run_record": "production/runs/20261107T060316+0800-cycle-6.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2777983,
+      "sha256": "36cfd20f763fc9642d3240a8b5e0981820566ba79f295948865edcca99cbe54e",
+      "git_blob": "46340abae8f32b7a509e15e9413a0e8beaf083f9",
+      "generated_path": "production/generated/150-ninox-variegata-v3-generated-master.png",
+      "generated_blob": "46340abae8f32b7a509e15e9413a0e8beaf083f9",
+      "generated_sha256": "36cfd20f763fc9642d3240a8b5e0981820566ba79f295948865edcca99cbe54e",
+      "generated_size_bytes": 2777983,
+      "reviewed_path": "production/reviewed/150-ninox-variegata-v3-reviewed-master.png",
+      "reviewed_blob": "46340abae8f32b7a509e15e9413a0e8beaf083f9",
+      "juvenile_review_crop": "production/review-crops/150-ninox-variegata-v3-juvenile.png",
+      "juvenile_review_blob": "cdf0801163f570f96b17c083608ed7d188b6fb98",
+      "juvenile_review_size_bytes": 643574,
+      "juvenile_review_sha256": "a95370187f81d405f405395c2ba0be0eeb8493be6046e0341191624158360f4f",
+      "adult_review_crop": "production/review-crops/150-ninox-variegata-v3-adults-support.png",
+      "adult_review_blob": "370fc72300b441e065b561ca970a6c1c9de25068",
+      "adult_review_size_bytes": 1965413,
+      "adult_review_sha256": "c491395888bbc63da41ad8264787e107511970386073309fbc54abc30046f25e",
+      "batch_id": "20261107T043300+0800",
+      "cycle": 6,
+      "readback_pending": true,
+      "archived_at": "2026-11-07T06:09:30+08:00",
+      "archive_commit_pending": true,
+      "evidence_limit": "Both named syntypes lack sex/age data. Adult account partly relies on secondary synthesis; sex direction, exact juvenile age, iris/remex/tail chronology, flight threshold and nest details remain unknown.",
+      "exact_readback": false,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-07T06:02:16+08:00"
+  "updated_at": "2026-11-07T06:09:30+08:00"
 }

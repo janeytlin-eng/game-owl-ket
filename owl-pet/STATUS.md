@@ -3722,3 +3722,6 @@ Verification `2247ee543ebbfafaae0c5eda7c77e6f4e3ddda3e` was read back after immu
 ### #149 v3 LEDGER_CREDITED — batch 5/6
 
 Verification `a0ef5804bea7730c21a105ce93a626a0d9f51b04` was read back after archive `7176fb71b2990e89b73582ada698b40853b87f6d` / tree `7270e082effd7f0f906a3b9f8cabcd312cb38326`. Cycle 5 credited once; batch PARTIAL 5/6, next_cycle=6, lease released. Unique 176/251; revision +1; science false.
+
+
+- 2026-11-07 #150 *Ninox variegata* v3 ARCHIVED in batch `20261107T043300+0800` cycle 6: no edit required after full/crop review; type-series uncertainty preserved. Unique 176/251, revision +1, readback pending, science false.

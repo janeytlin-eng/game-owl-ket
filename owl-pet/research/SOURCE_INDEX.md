@@ -2915,3 +2915,20 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Links:** `owl-pet/knowledge/species/145-ninox-philippensis.md`; `owl-pet/research/species/145-ninox-philippensis-v3.md`.
 
 **Run synthesis:** three newly indexed sources actually opened/read and one repository source reused. Adult sex-size direction, exact fledgling age/iris/flight/sequence and universal nest remain unknown; `scientifically_verified=false`.
+
+
+## 2026-11-07 — #146 *Ninox mindorensis* v3 — historic adult pair evidence and juvenile misreading guard
+
+### MINDBOO-MCGREGOR-1904-P16-17
+- **Author/title/year:** Richard C. McGregor, *Bulletin of the Philippine Museum* no.3, “On birds from Luzon, Mindoro, Masbate, Ticao, Cuyo, Culion, Cagayan Sulu, and Palawan,” 1904.
+- **URL/accessed/type:** https://upload.wikimedia.org/wikipedia/commons/5/50/Bulletin_of_the_Philippine_Museum_%28IA_acx3431.0001.001.umich.edu%29.pdf ; accessed 2026-11-07; primary museum specimen account.
+- **Pages/lines actually read:** printed pp.16–17; scan text lines 5166–5252.
+- **Specimen/facts:** adult male no.1767, Puerto Galera, Mindoro, 2 Dec 1902; narrowly buff-barred head/neck, broad dark throat shaft stripes, white lateral throat areas, tawny-buff narrowly barred underparts, white undertail coverts, large white scapular/greater-covert spots, dark tail with about eight narrow buff bars, hair-tipped decomposed auricular feathers; wing 6.30 in, tail 3.50 in, tarsus 1.19 in, culmen 0.76 in. Comparison with Grant’s female type says the sexes are similar.
+- **Critical limit:** the author initially mistook this confirmed adult male for a young bird because it differed from *N. philippensis*. That sentence is not juvenile evidence and must not be used to invent a developmental stage.
+- **Design use/confidence:** high for the described historic male and near-equal sex direction; no juvenile chronology, iris, flight or feather sequence.
+- **Links:** `owl-pet/research/species/146-ninox-mindorensis-v3.md`; target v3 concept.
+
+### Reuse and search result
+- Reused: `LZBO-RASMUSSEN-2012-LEAD`, `MINDBOO-ITIS-2025`, `MINDBOO-CLEMENTS-2013` from the v2 record.
+- Searches under current name, historical *N. philippensis mindorensis* and specimen terms found no verified species-specific juvenile account. The juvenile remains an explicitly age-unknown conservative placeholder; science false.
+- User-uploaded Mikkola guide was inaccessible in this execution; no fresh page claim.

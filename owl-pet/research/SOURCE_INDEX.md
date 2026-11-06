@@ -3086,3 +3086,45 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **URL:** https://www.biodiversitylibrary.org/item/37330#page/46/mode/1up
 - **Status:** UNVERIFIED TEXT — BHL returned HTTP 403 on 2026-11-07.
 - **Use:** nomenclatural locator only; no unread morphology is treated as evidence.
+
+
+## 2026-11-07 — #158 *Phodilus badius* v3 — adult diagnosis, historical subspecies and conservative juvenile boundary
+
+### OBO-USDA-MARCOT-1995-P5-6
+- **Title/author/year:** *Owls of Old Forests of the World* — Bruce G. Marcot, USDA Forest Service, 1995, Gen. Tech. Rep. PNW-GTR-343.
+- **URL/accessed/type:** https://www.srs.fs.usda.gov/pubs/gtr/gtr_pnw343.pdf ; accessed 2026-11-07; institutional literature review.
+- **Pages actually read:** printed pp.5–6.
+- **Facts/design use:** small bay owl with short ear tufts, fully feathered legs, compressed bill and short wings; dense evergreen foothill forest; daytime tree hollows; unlined hollow in trunk or rotten stump 2–5 m high, with reuse and pellets/casts; hunts through dense understory.
+- **Limits/confidence:** secondary synthesis and explicitly notes natural history is little known; no juvenile chronology or quantitative dimorphism. Medium-high for habitat/nest summary.
+
+### OBO-OBERHOLSER-1924-P302
+- **Title/author/year:** “Descriptions of new Treronidae and other non-passerine birds from the East Indies” — Harry C. Oberholser, 1924.
+- **URL/accessed/type:** https://repository.si.edu/bitstreams/e4292d3f-dd1f-4134-ac0b-8032e0563c7e/download ; accessed 2026-11-07; primary museum taxonomic description.
+- **Page/specimen actually read:** printed p.302; adult type of *Phodilus badius abbotti*, USNM 172948, Province Wellesley, 1899; sex unknown.
+- **Facts/design use:** light vinaceous-fawn/buff face and forehead; tawny/russet-brown crown/back/rump with dark-brown spotting; russet tail with black bars; ochraceous-tawny and dark spotting on wings; reddish-mars-brown eye fringe; creamy-white throat collar; yellow-ochre/ochraceous-buff lower parts. Measurements: wing 192 mm, tail 85, culmen 26, bill height 17, tarsus 42, middle toe 33.
+- **Limits/confidence:** historical subspecies specimen, not a species-wide colour standard; sex unknown, so it cannot support dimorphism. High for the described specimen.
+
+### OBO-MACAULAY-ADULT-GRID-2026
+- **Institution/title:** Cornell Lab, Macaulay Library, Oriental Bay-Owl media grid.
+- **URL/accessed/type:** https://search.macaulaylibrary.org/catalog?sort=rating_rank_desc&taxonCode=orbowl1&view=grid ; accessed 2026-11-07; institutional field-photo catalogue.
+- **Assets actually opened/read:** ML621804119 (Chiang Dao, Thailand, 10 Oct 2021), ML67799751 (Sabah, Malaysia, 28 Aug 2016), ML499661781 (Kaeng Krachan, Thailand, 31 Oct 2022).
+- **Facts/design use:** cross-checks living adult’s huge dark eyes, broad divided pale V/U facial disc, chestnut eye bands, very short rounded plumicorn corners and warm spotted upperparts.
+- **Limits/confidence:** age/sex metadata absent or unspecified and localities span regional variation; no scale or development. High for visible adult identity, none for dimorphism.
+
+### OBO-MACAULAY-CAVITY-201656251
+- **Institution/title/contributor:** Cornell Lab/Macaulay Library video 201656251; Martin Kennewell.
+- **URL/metadata:** https://macaulaylibrary.org/video/201656251 ; 4 Nov 2016, Kinabatangan Wildlife Sanctuary, Sabah; *P. b. badius*; notes “calling from nesting cavity.”
+- **Verification status:** catalogue/search metadata read on 2026-11-07; direct media page denied automated access. Treat as metadata-only lead.
+- **Use/limit:** supports only that the recorded adult was associated with a cavity; not juvenile morphology, age, sex or universal nest geometry.
+
+### OBO-PENANG-BIRDPARK-2012
+- **Institution/title:** Penang Bird Park, Oriental Bay Owl education/conservation page.
+- **URL/accessed:** https://penangbirdpark.com.my/education&conservation/details.php?id=23 ; accessed 2026-11-07.
+- **Facts/design use:** 22.5–29 cm, 255–308 g; whitish-vinaceous divided U-shaped disc with broad chestnut-brown zone through each eye; dense evergreen forest; tree-hole/rotten-trunk/stump/cavity nesting; roosting in hollows/rattan/palm.
+- **Limits/confidence:** institutional secondary page, not a primary study; no juvenile feather sequence or quantified sex comparison. Medium.
+
+### Reuse and boundary
+- Reused repository records OBO-OWLPAGES-2020, OBO-WOT-2023, OBO-FG-2014, OBO-VNWILDLIFE-2025 and OBO-BIRDLIFE-2026 from `knowledge/species/158-phodilus-badius.md`.
+- Current-name mapping remains *Phodilus badius*; historical spelling *Photodilus badius* is retained as an old-name locator only.
+- Species-specific juvenile age, feather timetable, iris chronology and flight threshold remain unknown. The v3 juvenile is therefore an explicitly age-unknown older nestling at a natural cavity rim, down-dominant with wings mostly concealed and no claim of flight.
+- The user-uploaded Mikkola guide was not mounted in this execution; no fresh page claim is made. Scientific verification remains false.

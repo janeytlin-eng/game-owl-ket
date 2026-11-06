@@ -82,3 +82,18 @@ The older immature is directly bounded by the 2023 Equatorial Guinea field obser
 
 Avoid female-larger assumption, sexual colour contrast, dark eyes, horned-eagle-owl bulk, heart-shaped barn-owl face, white adult facial mask, mature adult-clone juvenile, tiny downy nestling, unsupported/floating feet, extra birds/limbs/text, border, logo or watermark.
 ```
+
+
+## 2026-11-07 — #158 *Phodilus badius* v3 — batch 20261107T062903+0800 cycle 3
+
+Use case: stylized-concept
+Asset type: owl electronic-pet scientific prototype plate
+Primary request: Create one 1536x1024 landscape realistic wildlife-photography-style triptych for species #158 Oriental Bay Owl (Phodilus badius), showing exactly three birds in one coherent rainforest scene: adult male left, age-unknown older nestling/juvenile center at a natural rotten-tree cavity rim, adult female right.
+Scene/backdrop: dense humid evergreen foothill forest; mossy rotten trunk with unlined natural hollow; all feet visibly and naturally supported; no fabricated nest lining.
+Subject: both adults near-equal size, no forced female-larger rule. Small tytonid proportions; huge dark brown/black eyes; pale horn bill; elongated pale vinaceous-buff facial disc strongly divided into a broad V/U, broad chestnut band through each eye and dark fine rim; extremely short rounded plumicorn corners, not long ear tufts; tawny/russet crown and upperparts with irregular dark-brown and ochraceous spots; pale ochraceous-buff underparts with fine dark marks; feathered tarsi and strong long toes; short rounded wings. Adults must be distinct individuals, not mirrored clones.
+Juvenile: conservative age-unknown older nestling supported on cavity rim, alert but not flying; soft pale grey-buff down with only limited emerging warm contour feathers; face division beginning but softer than adults; dark eyes; very short down-veiled developing wings, no long layered adult remiges, no mature spotted flight feathers, tail concealed; feet naturally supported.
+Style/medium: high-detail naturalistic wildlife photograph matching the existing confirmed owl plates, not illustration, not plush/toy.
+Composition/framing: header parchment at top; three birds large and unobstructed; labels at bottom exactly “ADULT MALE”, “JUVENILE”, “ADULT FEMALE”.
+Text (verbatim): header “158 ORIENTAL BAY OWL · Phodilus badius”
+Constraints: exactly three birds; preserve scientific uncertainty by not depicting a precise juvenile age; no sexual size claim; no extra birds; no flying juvenile; no unsupported feet; no watermark.
+Avoid: barn-owl pure white heart face, long horn-like ear tufts, yellow/orange eyes, exaggerated female size, mature juvenile flight feathers, artificial nest material, duplicate/cloned adults, text errors.

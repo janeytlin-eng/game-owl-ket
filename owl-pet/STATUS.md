@@ -1,3 +1,7 @@
+## 2026-11-06 — #108 *Otus rutilus* v4 archived, verification pending
+
+Batch `20261106T123716+0800` cycle 2/6. Four new/corrected source records and two reused records; two image edits corrected v3’s tall horned-owl proportions, pale facial discs, oversized feet and uniform curly juvenile. Final full image plus juvenile and adults/support crops pass with limitations. Manifests 724/725/715; unique remains 176/251; science false; immutable readback pending.
+
 ## 2026-11-06 — #105 *Ptilopsis granti* v8 archived, verification pending
 
 Cycle 6/6 archive writes concept/generated/reviewed/crops and manifests 723/722/713. Unique species remain 176/251; science false.

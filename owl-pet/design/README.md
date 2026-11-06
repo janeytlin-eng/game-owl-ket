@@ -1,3 +1,8 @@
+## Latest concept: #108 Madagascar Scops Owl — *Otus rutilus* v4
+
+- [Concept](concepts/108-otus-rutilus-v4.png) · [Research](../research/species/108-otus-rutilus-v4.md) · [Review](../research/reviews/108-otus-rutilus-v4-review.md) · [Run](../production/runs/20261106T130000+0800-cycle-2.md)
+- V4 preserves v1–v3 and corrects the v3 whole-body identity error after two edits: compact warm-faced adults with small tufts/feet and a direct-photo-bounded Andasibe juvenile with loose brown down, dark mask, pale brow/crown, hidden tail and bilateral branch support. Adults remain near-equal; exact juvenile age/flight, sex-size ratio and nest remain unknown. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.
+
 ## Latest concept: #105 *Ptilopsis granti* v8
 
 `design/concepts/105-ptilopsis-granti-v8.png` preserves v1-v7 and passes full/crop review with overlapping-sex-mass, basal-toe and age-unknown juvenile boundaries. Science false.

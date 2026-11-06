@@ -1,5 +1,12 @@
 # Owl-pet production status
 
+## 20261106T130000+0800 cycle 2 — #108 *Otus rutilus* v4 ARCHIVED, readback pending
+
+- Exactly three roles; full image and two crops opened after two edits. Final adults are compact/warm-faced with small tufts/feet; juvenile follows the direct Andasibe photo boundary with loose brown down, dark mask, pale brow/crown and hidden tail.
+- `PASS_WITH_LIMITATIONS`; science false; unique 176/251; revision +1 after verification.
+- Concept/generated/reviewed expected blob `d6e9655bf3bee342d98de5f15e5d482bb5e93d79`; juvenile crop `5284a515cf5ed463e759f792ffb096eaf0b07207`; adults/support crop `68d8ca684d15050b60f05572dca4202543f9f8aa`.
+- Manifests 724/725/715; immutable readback pending; no cycle credit yet.
+
 ## 20261106T003403+0800 cycle 2 — #78 *Asio capensis* v5 VERIFIED
 
 - Concept/generated/reviewed master expected blob `64dd84bf2de4bc12591c20358bf908decd70c8ed`; adult/support crop `1d727b6a5596b19b131a0da6ffd67605a0b7c783`; juvenile crop `4ff1421a19b3d31bfbf4003c0798507559576c17`.

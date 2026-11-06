@@ -26971,9 +26971,9 @@
         }
       ],
       "next_cycle": 3,
-      "active_cycle": null,
+      "active_cycle": 3,
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:31:00+08:00",
+      "updated_at": "2026-11-07T05:34:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27163,11 +27163,35 @@
           "total_species": 251,
           "revision_increment": 1,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "stage": "STARTED",
+          "at": "2026-11-07T05:34:00+08:00",
+          "species_id": 147,
+          "species": "Ninox leventisi",
+          "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md",
+          "baseline_main": "bfa1506e06ec0ca5f3b803ed68a18d3d11de8715"
         }
       ],
       "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
-      "current_stage": "LEDGER_CREDITED",
-      "ledger_credit_pending": false
+      "current_stage": "STARTED",
+      "ledger_credit_pending": false,
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261107T053400+0800-cycle-3",
+        "heartbeat_at": "2026-11-07T05:34:00+08:00",
+        "expires_at": "2026-11-07T05:49:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 3,
+        "species_id": 147,
+        "species": "Ninox leventisi",
+        "version": 3,
+        "stage": "STARTED",
+        "run_id": "20261107T053400+0800-cycle-3",
+        "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md"
+      }
     }
   ],
   "lease": {
@@ -32498,6 +32522,21 @@
         "unique_species_increment": 0,
         "revision_increment": 1,
         "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261107T043300+0800",
+      "cycle": 3,
+      "stage": "STARTED",
+      "at": "2026-11-07T05:34:00+08:00",
+      "run_id": "20261107T053400+0800-cycle-3",
+      "species_id": 147,
+      "species": "Ninox leventisi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md",
+        "baseline_main": "bfa1506e06ec0ca5f3b803ed68a18d3d11de8715",
+        "lease_expires_at": "2026-11-07T05:49:00+08:00"
       }
     }
   ],

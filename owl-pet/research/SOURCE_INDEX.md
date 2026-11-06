@@ -1,3 +1,27 @@
+## 2026-11-06 — #112 *Asio abyssinicus* v3 — nominate-adult identity and older-juvenile stage
+
+### ABY-ITIS-555498-2026 — newly indexed current/old-name record
+- Integrated Taxonomic Information System, TSN 555498, accessed 2026-11-06: https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555498&source=to_print
+- Current valid *Asio abyssinicus*; original/invalid combination *Otus abyssinicus*. Two subspecies are listed: nominate *A. a. abyssinicus* and *A. a. graueri*. Taxonomy only; no morphology/development inference. High confidence for naming.
+
+### ABY-COLLAR-BOESMAN-2019 — newly indexed primary museum/taxonomy study
+- N. J. Collar & Peter Boesman, 2019, “The taxonomy of certain *Asio* and *Bubo* owl species in Africa and Arabia,” *Bulletin of the African Bird Club* 26(2):155–169: https://www.researchgate.net/publication/335292194_The_taxonomy_of_certain_Asio_and_Bubo_owl_species_in_Africa_and_Arabia
+- Pages 158–161, Figs. 1–3, Tables 1–2 actually read. Compared with *A. otus*, *A. abyssinicus* has broader/fused dark upperpart markings, a denser net of underpart panels, curve-shaped pale spots rather than fine barring on secondaries/tail, and substantially larger bill/wing/tail means. Nominate birds tend more ochre-buff than smaller, greyer *graueri*. Sexes were pooled and only approximately balanced; this source does not support a fixed female-larger display. High confidence for specimen morphology; not a development source.
+
+### ABY-MATON-1989-JUV — newly indexed species-labelled field photograph
+- Peter Maton, “African Long-eared Owl (juv) (*Asio abyssinicus*),” photographed Ethiopia 1989; scanned slide uploaded 2011: https://www.flickr.com/photos/34579661@N04/5424426357
+- Page and full browser image actually opened. Visible age-unknown older juvenile has charcoal/gray-brown loose down, a very dark face, orange irises, a dark bill with a narrow pale midface highlight, short emerging tufts, down-softened sides, concealed tail and branch/foliage support. The crop does not establish hatch age, sex, wing/tail chronology, foot anatomy or sustained flight. Medium confidence for visible stage and source label; not an ageing study.
+
+### ABY-OGADA-MURIITHI-2017 — corrected/re-read field-project habitat limits
+- Darcy Ogada & Paul Muriithi, 2017, African Bird Club final report, “Is the Abyssinian Owl on Mt Kenya dependent on declining heath forest habitat?”: https://www.africanbirdclub.org/sites/default/files/2016_Abyssinian_Owl.pdf
+- Pages 1–5 actually read. The report documents extreme-highland distribution, a 1961 Kenya museum specimen from Hagenia woodland, preliminary suspected observations/roost evidence in heath and the authors’ explicit uncertainty about breeding/natural history. Design use is a generic montane-highland woodland/heath context only; suspected Mt Kenya roost/pellets cannot be turned into a confirmed nest or universal habitat. Medium-high for the project’s stated limits, low for species assignment of unconfirmed signs.
+
+### ABY-ONET-LANNELUC-2018 — newly indexed dated adult photograph
+- Catherine & Bernard Lanneluc, adult *A. abyssinicus*, Nov. 2018, Dinsho, Bale Mountains National Park, Ethiopia: https://www.oiseaux.net/photos/catherine.et.bernard.lanneluc/hibou.d.abyssinie.1.html
+- Full field photograph and metadata opened. Supports nominate adult’s orange iris, black bill, tall but flexible central tufts, dark-rimmed warm facial disc, robust dark-gold streaked/barred body and feathered tarsi. One pose and lighting do not define universal colour, sex or tuft angle. Medium confidence for visible identity.
+
+- Reused repository records: `ABO-COLLAR-BOESMAN-2019`, `ABO-OGADA-MURIITHI-2017` where present in v2 history; this update adds stable IDs without duplicating unsupported facts. User-uploaded Mikkola guide was not mounted in this execution, so no new page claim. Detailed boundaries and complete prompt: `research/species/112-asio-abyssinicus-v3.md`. Science remains false.
+
 ## 2026-11-06 — #108 *Otus rutilus* v4 — eastern taxon and direct juvenile/adult identity correction
 
 ### RUT-ITIS-202268-2026 — newly indexed taxonomy record

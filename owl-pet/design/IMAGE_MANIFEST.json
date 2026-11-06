@@ -24230,6 +24230,63 @@
       "exact_readback": true,
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable tree readback matched ten required paths, five exact image blob/size tuples and remotely parsed manifest counts 724/725/715; scientific verification remains false."
+    },
+    {
+      "id": "112-asio-abyssinicus-v3",
+      "path": "design/concepts/112-asio-abyssinicus-v3.png",
+      "species_id": 112,
+      "scientific_name": "Asio abyssinicus",
+      "historical_names": [
+        "Otus abyssinicus"
+      ],
+      "common_name": "Abyssinian Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED_PENDING_READBACK",
+      "source_ids": [
+        "ABY-ITIS-555498-2026",
+        "ABY-COLLAR-BOESMAN-2019",
+        "ABY-MATON-1989-JUV",
+        "ABY-OGADA-MURIITHI-2017",
+        "ABY-ONET-LANNELUC-2018"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/112-asio-abyssinicus-v3.md",
+      "review_record": "research/reviews/112-asio-abyssinicus-v3-review.md",
+      "run_record": "production/runs/20261106T133000+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2801372,
+      "sha256": "0b95490a57ca21e88813ccbd8e0e5a02eb2ca0639aea79d687da298308f61030",
+      "git_blob": "22bf44b206771a13f673d6ac6936bfa478394ae5",
+      "generated_path": "production/generated/112-asio-abyssinicus-v3-generated-master.png",
+      "generated_blob": "22bf44b206771a13f673d6ac6936bfa478394ae5",
+      "generated_sha256": "0b95490a57ca21e88813ccbd8e0e5a02eb2ca0639aea79d687da298308f61030",
+      "generated_size_bytes": 2801372,
+      "reviewed_path": "production/reviewed/112-asio-abyssinicus-v3-reviewed-master.png",
+      "reviewed_blob": "22bf44b206771a13f673d6ac6936bfa478394ae5",
+      "juvenile_review_crop": "production/review-crops/112-asio-abyssinicus-v3-juvenile.png",
+      "juvenile_review_blob": "13b99c5d7c498a01f4b3004db6e324a2b614f5ef",
+      "juvenile_review_size_bytes": 723604,
+      "juvenile_review_sha256": "fd0bc2daa5c613dc20207d8ed1a3623c03f57bd4b33b60d8edf9c7828c470812",
+      "adults_review_crop": "production/review-crops/112-asio-abyssinicus-v3-adults-support.png",
+      "adults_review_blob": "3768d182806f9f887c8739c8d3d9b1e25a8c5bac",
+      "adults_review_size_bytes": 1941617,
+      "adults_review_sha256": "72586068ae4c32376501ec8f4e19f387e3bc50b3b8332866525b66cc879b7794",
+      "reviewed_at": "2026-11-06T13:44:00.000+08:00",
+      "readback_pending": true,
+      "archive_note": "V3 preserves v1-v2 and selects an actually viewed age-unknown older Ethiopian juvenile. One center-only edit reduced uniform curls, shortened/concealed the developing wing and hid the tail. Adults use nominate morphology and near-equal scale; nest/age/flight/sex ratio remain unknown; science false."
     }
   ],
   "updated_at": "2026-11-06T12:55:30.000+08:00"

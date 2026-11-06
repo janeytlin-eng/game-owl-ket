@@ -1,3 +1,7 @@
+## 2026-11-06 — #112 *Asio abyssinicus* v3 archived, verification pending
+
+Batch `20261106T123716+0800` cycle 3/6. Five new/corrected source records and two reused history records; one center-only image edit replaced the initial adult-like juvenile wing and uniform curls with a compact down-softened wing, hidden tail and mixed loose down. Full plus juvenile and adults/support crops pass with limitations. Manifests 725/726/716; unique remains 176/251; science false; immutable readback pending.
+
 ## 2026-11-06 — #108 *Otus rutilus* v4 archived, verification pending
 
 Batch `20261106T123716+0800` cycle 2/6. Four new/corrected source records and two reused records; two image edits corrected v3’s tall horned-owl proportions, pale facial discs, oversized feet and uniform curly juvenile. Final full image plus juvenile and adults/support crops pass with limitations. Manifests 724/725/715; unique remains 176/251; science false; immutable readback pending.

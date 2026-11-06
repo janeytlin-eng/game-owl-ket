@@ -1,3 +1,8 @@
+## Latest concept: #112 Abyssinian Owl — *Asio abyssinicus* v3
+
+- [Concept](concepts/112-asio-abyssinicus-v3.png) · [Research](../research/species/112-asio-abyssinicus-v3.md) · [Review](../research/reviews/112-asio-abyssinicus-v3-review.md) · [Run](../production/runs/20261106T133000+0800-cycle-3.md)
+- V3 preserves v1–v2 and uses an actually opened, species-labelled Ethiopian older juvenile rather than inferring visible anatomy from v2’s concealed chick. One targeted edit compacted/concealed the juvenile wing, hid the tail and loosened the down. Adults remain near-equal because the primary series pooled sexes. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.
+
 ## Latest concept: #108 Madagascar Scops Owl — *Otus rutilus* v4
 
 - [Concept](concepts/108-otus-rutilus-v4.png) · [Research](../research/species/108-otus-rutilus-v4.md) · [Review](../research/reviews/108-otus-rutilus-v4-review.md) · [Run](../production/runs/20261106T130000+0800-cycle-2.md)

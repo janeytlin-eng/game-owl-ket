@@ -1,5 +1,12 @@
 # Owl-pet production status
 
+## 20261106T133000+0800 cycle 3 — #112 *Asio abyssinicus* v3 ARCHIVED, readback pending
+
+- Exactly three roles; initial and edited full images plus two final crops opened. One juvenile-only edit shortened/concealed the developing wing, hid the tail and reduced uniform curls.
+- `PASS_WITH_LIMITATIONS`; science false; unique 176/251; revision +1 after verification.
+- Concept/generated/reviewed expected blob `22bf44b206771a13f673d6ac6936bfa478394ae5`; juvenile crop `13b99c5d7c498a01f4b3004db6e324a2b614f5ef`; adults/support crop `3768d182806f9f887c8739c8d3d9b1e25a8c5bac`.
+- Manifests 725/726/716; immutable readback pending; no cycle credit yet.
+
 ## 20261106T130000+0800 cycle 2 — #108 *Otus rutilus* v4 ARCHIVED, readback pending
 
 - Exactly three roles; full image and two crops opened after two edits. Final adults are compact/warm-faced with small tufts/feet; juvenile follows the direct Andasibe photo boundary with loose brown down, dark mask, pale brow/crown and hidden tail.

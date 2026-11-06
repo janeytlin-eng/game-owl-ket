@@ -2098,3 +2098,22 @@
 
 ### Reuse and unknowns
 - Reused Mikkola repository extraction and v4 records; upload unavailable. Re-read1/new2/reused2/corrected3. Exact fledgling age/sex/flight, tract sequence, adult pair ratio and universal nest choice unknown; science false.
+## 2026-11-06 — #107 *Strix fulvescens* v5 — fledgling/nest boundary and adult iris correction
+
+### FVO-EISERMANN-AVENDANO-2018-P177-F20
+- **Title/authors/year/type:** “An updated checklist of the birds of Guatemala” — Knut Eisermann & Claudia Avendaño, 2018; open-access regional paper with dated field photograph.
+- **URL/page:** https://boc-online.org/bulletins/downloads/BBOC1383-PDFa.pdf ; printed p.177, Fig.20; extraction lines 1197–1205; read 2026-11-06.
+- **Facts:** cloud forest above 1,800 m; nest explicitly undescribed; adult with fledgling photographed at Finca El Pilar on 26 April 2017, second documented Guatemalan breeding record.
+- **Limits/design:** no hatch date, sex, feather chronology or sustained-flight test. Supports an exact-age-unknown, branch-supported fledgling and forbids inventing a nest/eggs. High confidence for caption and explicit text.
+
+### FVO-ITIS-555430-2026
+- **Institution/URL/section:** ITIS TSN 555430; https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555430&source=to_print ; lines 6–33, 47–48; read 2026-11-06.
+- **Facts:** valid *Strix fulvescens*; synonym/protonym *Syrnium fulvescens*.
+- **Limits/design:** taxonomy only. High confidence for name mapping.
+
+### FVO-OWLPAGES-2020-L64-75 — re-read/corrected boundary
+- **Institution/URL/section:** The Owl Pages / Deane Lewis; https://www.owlpages.com/owls/species.php?s=1730 ; lines 64–75; re-read 2026-11-06.
+- **Facts used:** blackish-brown adult iris; corn-yellow bill; rufous-brown barred/flecked upperparts; fulvous barred/streaked underparts; barred tail; basal toe feathering.
+- **Conflict excluded:** its generic cavity/egg/incubation paragraph is probabilistic and is not used against the 2018 “nest undescribed” statement.
+- **Linked decision:** `research/species/107-strix-fulvescens-v5.md`; planned v5 darkens only adult irises. New2 / re-read1 / reused2+ / corrected2; science false.
+

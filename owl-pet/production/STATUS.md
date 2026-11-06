@@ -287,3 +287,9 @@ Batch `20261106T123716+0800` cycle 5/6. The recovered first candidate had a long
 
 Stages RESEARCH_READY, IMAGE_GENERATED, REVIEWED, ARCHIVED and VERIFIED are persisted. Immutable archive c658cdd686751efe6dee870d09497e82cc06d742 matched 13 required paths, the original-resolution PNG and parsed manifests 726/727/717. Unique species remains 176/251 and revision increment is 1. Full/crop review result PASS_WITH_LIMITATIONS; scientific verification false. Ledger credit pending.
 
+
+
+## 2026-11-06 #116 *Margarobyas lawrencii* v4 ARCHIVED — readback pending
+
+- New primary field source 1, peer-reviewed museum source 1, reused repository records 5; one targeted juvenile-wing edit; full plate and two crops reopened.
+- Manifests prepared at 735/736/726; unique remains 176/251; revision +1; `PASS_WITH_LIMITATIONS`; science false. Immutable archive verification and ledger credit are still pending.

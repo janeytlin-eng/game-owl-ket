@@ -3225,3 +3225,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 
 - #120 *Megascops ingens* v4 — science revision; compact evidence-bounded 20–30 d estimate feather cluster after one edit; PASS_WITH_LIMITATIONS; science false; archive readback pending.
+
+
+## #116 Bare-legged Owl — *Margarobyas lawrencii* — v4
+
+- [Concept](concepts/116-margarobyas-lawrencii-v4.png) · [Research](../research/species/116-margarobyas-lawrencii-v4.md) · [Review](../research/reviews/116-margarobyas-lawrencii-v4-review.md) · [Run](../production/runs/20261106T193155+0800-cycle-1.md)
+- V4 preserves v1-v3. A natural standing-palm cavity is supported for surveyed Zapata breeding sites; adults stay near-equal because no universal sex-size ratio is established. One juvenile-only edit replaced long orderly remiges with a compact down-overlapped wing and short obscured tail. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.

@@ -22,3 +22,10 @@ Sources: new 0, reused 5 (`CBLO-MIK2013-252`, `CBLO-SHERONY-2006`, `CBLO-SHARP-2
 
 
 - 2026-10-27T21:42:00.000+08:00 — v3 independently verified at archive commit `b9667425eed465cccce15ee20bcc535182c927c5`; concept and durable master both resolve to Git blob `49d4e1e15d4f9edeaf056a9016dc73e6878835e4`. Unique species remains 174/251; science remains false.
+
+
+### 116-margarobyas-lawrencii-v4 · 2026-11-06T19:40:45+08:00
+
+Science-calibration revision; unique increment 0. New Zapata field evidence supports a natural standing-palm cavity setting. A peer-reviewed museum catalogue confirms broad Cuban size/external variation and maps historical `Gymnoglaux lawrencii` to `Margarobyas lawrencii`, but does not establish a universal adult sex-size ratio. One targeted edit shortened and down-softened the older juvenile's originally orderly wing; full plate and two crops were reopened. Adults remain near-equal, dark-eyed, untufted and bare-legged; all birds grip one continuous cavity sill. Exact juvenile age/sex/flight, feather chronology, cavity interior and quantitative sex ratio remain unknown; `PASS_WITH_LIMITATIONS`, science false.
+
+[Concept](../../design/concepts/116-margarobyas-lawrencii-v4.png) · [Research](../../research/species/116-margarobyas-lawrencii-v4.md) · [Review](../../research/reviews/116-margarobyas-lawrencii-v4-review.md) · [Run](../../production/runs/20261106T193155+0800-cycle-1.md)

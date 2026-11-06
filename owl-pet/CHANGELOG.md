@@ -1646,3 +1646,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Generated and opened one revised trio plus juvenile and adults/support crops. Adult spots are smaller; adult scale is near equal; the older juvenile is down-rich but retains a formed short rounded wing and natural support.
 - Unique species count unchanged at 176/251; revision +1; scientific verification remains false.
 
+
+
+- 2026-11-06T19:40:45+08:00 — #116 *Margarobyas lawrencii* v4 archived as a science revision: two new indexed sources, one juvenile-only edit, full/crop review pass with limitations; old versions preserved; immutable readback pending.

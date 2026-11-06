@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T18:47:42+08:00",
+  "updated": "2026-11-06T19:40:45+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -24235,7 +24235,71 @@
       "verified_at": "2026-11-06T18:47:42+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive commit 30ebe95c resolved all 16 required paths in a non-truncated 3,454-entry recursive tree. Six image path/blob/byte tuples matched: concept/edit/reviewed = 5a2d22e7… (3,163,926 bytes), original generation = 15fce850… (3,423,984 bytes), and both crop blobs/bytes matched. Archive manifest snapshots parsed at 734/735/725 and ended with #115 v3. Science remains false."
+    },
+    {
+      "id": "116-margarobyas-lawrencii-v4",
+      "path": "design/concepts/116-margarobyas-lawrencii-v4.png",
+      "species_id": 116,
+      "scientific_name": "Margarobyas lawrencii",
+      "historical_names": [
+        "Gymnoglaux lawrencii",
+        "Otus lawrencii"
+      ],
+      "common_name": "Bare-legged Owl",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "BLO-KIRKCONNELL-WILEY-2017",
+        "BLO-SUAREZ-2022-CATALOGUE",
+        "CBLO-MIK2013-252",
+        "CBLO-SHERONY-2006",
+        "CBLO-SHARP-2016",
+        "CBLO-BOUGLOUAN-CARD",
+        "CBLO-AOU-2013A11"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/116-margarobyas-lawrencii-v4.md",
+      "review_record": "research/reviews/116-margarobyas-lawrencii-v4-review.md",
+      "run_record": "production/runs/20261106T193155+0800-cycle-1.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2958647,
+      "sha256": "2780b6652b6f3c129ca2540de3cde3a8d402de8f1c1b8d5ac46c670b6dd099ec",
+      "git_blob": "04e25c97ab650715074db54a7938cf08a93a21ea",
+      "generated_path": "production/generated/116-margarobyas-lawrencii-v4-generated-master.png",
+      "generated_blob": "cdfc106e7cfd790f39891b559f82a715d96f5c46",
+      "generated_sha256": "1b56a7322754f3dba170fe61f1a2be68bf9d247e92b004fa1d73dbc1d8764ae0",
+      "generated_size_bytes": 3265107,
+      "edit_path": "production/edits/116-margarobyas-lawrencii-v4-edit1.png",
+      "edit_blob": "04e25c97ab650715074db54a7938cf08a93a21ea",
+      "reviewed_path": "production/reviewed/116-margarobyas-lawrencii-v4-reviewed-master.png",
+      "reviewed_blob": "04e25c97ab650715074db54a7938cf08a93a21ea",
+      "juvenile_review_crop": "production/review-crops/116-margarobyas-lawrencii-v4-juvenile.png",
+      "juvenile_review_blob": "91ffbd5f41cdfd05ffb1b2c4ad5fc6bfe28b446f",
+      "juvenile_review_size_bytes": 708557,
+      "juvenile_review_sha256": "e7c13d51615103c4f9b8c08e72ef5c6e386f9fb64d161e2f4b32f185e8350983",
+      "adults_review_crop": "production/review-crops/116-margarobyas-lawrencii-v4-adults-feet.png",
+      "adults_review_blob": "741e83300e0ac873883de51870155bca8af9c623",
+      "adults_review_size_bytes": 1608463,
+      "adults_review_sha256": "3cb3ed082ffe19213848e6dd06413309c1164c68768edf3ff714d3a83867753c",
+      "reviewed_at": "2026-11-06T19:39:08+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. New Zapata field evidence supports a natural standing-palm cavity setting; Suárez's museum review documents broad Cuban variation and old-name mapping but no universal sex-size ratio. One targeted juvenile-only edit shortened/softened the originally adult-like wing and obscured the short tail while preserving adults, labels and all supports. Exact juvenile age/sex/flight, feather chronology, tip map, cavity interior and quantitative sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T18:47:42+08:00"
+  "updated_at": "2026-11-06T19:40:45+08:00"
 }

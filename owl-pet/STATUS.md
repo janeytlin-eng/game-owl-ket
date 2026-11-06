@@ -3571,3 +3571,9 @@ New active batch `20261106T123716+0800`, cycle 1/6. Two new source IDs, one re-r
 New species +0; revision +1; unique archived species 176/251. One imagegen edit produced a 1536×1024 trio and was actually inspected as a full plate and two crops. Adult identity, near-equal sex display, small wing spots, down-rich formed-wing juvenile and six branch contacts pass with limitations. Exact juvenile age/flight, sex ratio and feather geometry remain unknown; science false. Research index: research/SOURCE_INDEX.md (5 new/corrected, 1 reused). Immutable archive c658cdd686751efe6dee870d09497e82cc06d742 readback matched 13 paths, original PNG size/hash and manifest counts 726/727/717. Ledger credit pending.
 
 
+
+
+## 2026-11-06 #116 *Margarobyas lawrencii* v4 ARCHIVED — readback pending
+
+- New primary field source 1, peer-reviewed museum source 1, reused repository records 5; one targeted juvenile-wing edit; full plate and two crops reopened.
+- Manifests prepared at 735/736/726; unique remains 176/251; revision +1; `PASS_WITH_LIMITATIONS`; science false. Immutable archive verification and ledger credit are still pending.

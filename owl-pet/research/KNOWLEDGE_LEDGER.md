@@ -122,3 +122,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 **Evidence:** the actual male holotype image (MNHN-ZO-2010-270, age indeterminate) visibly retains substantial irregular brown barring across cream-white underparts; a living eBird image supports orange eyes and compact support but has no sex/age metadata.
 **Applied rule:** specimen photographs can correct zone and irregularity of adult pattern, but museum mounts and unsexed field images cannot establish live posture, sex contrast or development.
 **Validation state:** applied to the v3 prompt; pixel review pending. Scientific verification remains false.
+
+
+## #151 v3 immutable archive verification
+
+- Archive `ae92217d2c5028fe76a0dfef7257b0fbec35fbb9` / tree `f9fb81d80f500381e8e13e2159c103cf24b95be6` resolved 17 required paths; six binary paths matched exact expected Git blobs. The juvenile crop required a full base64 retry after metadata-only read omission, then matched `dbf7e990f82a09403eb9b95291e78f123d0e06a4`.
+- Manifests parsed 759/760/750 with one #151 v3 entry each. PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.

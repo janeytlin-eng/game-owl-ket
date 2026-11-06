@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:37:21+08:00",
+  "updated": "2026-11-07T06:39:27+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26795,12 +26795,20 @@
       "auxiliary_review_crop_blob": "47553fd9e1b512576dbec064af954bdfee104461",
       "auxiliary_review_crop_sha256": "8460e6cf2c207d5257b9b7b723154517954a7efa75516df6d0c56965d300c53f",
       "auxiliary_review_crop_size_bytes": 1557006,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
-      "evidence_limit": "Female plumage/size, exact juvenile age and feather chronology, flight threshold, subspecies-specific pattern, nest contents and original-description prose remain unknown; BHL text could not be opened."
+      "evidence_limit": "Female plumage/size, exact juvenile age and feather chronology, flight threshold, subspecies-specific pattern, nest contents and original-description prose remain unknown; BHL text could not be opened.",
+      "archive_commit": "ae92217d2c5028fe76a0dfef7257b0fbec35fbb9",
+      "archive_tree": "f9fb81d80f500381e8e13e2159c103cf24b95be6",
+      "required_paths_verified": 17,
+      "exact_binary_paths_verified": 6,
+      "recursive_tree_listing_available": false,
+      "binary_content_fetch_available": "partial: crop full base64; large images path/blob",
+      "verified_at": "2026-11-07T06:39:27+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T06:37:21+08:00"
+  "updated_at": "2026-11-07T06:39:27+08:00"
 }

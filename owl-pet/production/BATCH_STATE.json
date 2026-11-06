@@ -24999,70 +24999,33 @@
       "batch_id": "20261106T193155+0800",
       "status": "PARTIAL",
       "target_cycles": 6,
-      "completed_cycles": [],
-      "next_cycle": 1,
-      "active_cycle": 1,
-      "lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T193155+0800-cycle-1",
-        "heartbeat_at": "2026-11-06T19:42:46+08:00",
-        "expires_at": "2026-11-06T19:57:46+08:00",
-        "batch_id": "20261106T193155+0800",
-        "cycle": 1
-      },
-      "in_progress": {
-        "batch_id": "20261106T193155+0800",
-        "cycle": 1,
-        "species_id": 116,
-        "species": "Margarobyas lawrencii",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261106T193155+0800-cycle-1.md",
-        "started_at": "2026-11-06T19:31:55+08:00",
-        "research_record": "owl-pet/research/species/116-margarobyas-lawrencii-v4.md",
-        "source_ids": [
-          "BLO-KIRKCONNELL-WILEY-2017",
-          "BLO-SUAREZ-2022-CATALOGUE"
-        ],
-        "prompt": "Use case: scientific-educational\nAsset type: owl electronic-pet species concept plate, version 4, matching the repository's established softly modeled natural-history illustration style\nPrimary request: Create one landscape three-bird concept plate for #116 Bare-legged Owl, Margarobyas lawrencii. Exactly three birds: adult male left, age-unknown older juvenile center, adult female right.\nScene/backdrop: shaded Cuban Zapata swamp forest at the entrance of a natural cavity in a standing dead sabal palm; one continuous rough palm-wood sill/branch supports all six feet. Subtle seasonally inundated forest vegetation beyond. No woven nest, grass cup, eggs, prey, extra birds or decorative props.\nAdult identity: small compact round-headed owls, no ear tufts, dark brown irises, pale eyebrows and softly pale facial framing, gray-yellow bill. Brown upperparts with irregular isolated whitish tips and spots; cream-buff underparts with sparse irregular dark drop-shaped shaft marks. Long yellow-brown tarsi and toes completely bare and visibly gripping. The two adults are near-equal in crown height and wing length; female may be only subtly fuller. Do not claim a fixed female-larger rule or rigid subspecies morph.\nJuvenile: one older age-unknown mesoptile juvenile, calm low crouch on both feet at the cavity lip, body fully supported, not airborne. Sienna-brown crown, nape, upperparts and upper breast; paler belly; soft face; formed but compact rounded folded wings and short modest tail. Clearly fewer and smaller pale tips than the adults, sparse and low contrast, with irregular down overlap. Do not give it adult-density white teardrop rows, hard layered primaries, long adult tail, flight pose, exact age or sex.\nComposition/framing: 3:2 landscape; male left and female right facing slightly inward; juvenile centered and lower; all faces, complete bare tarsi/toes, claws and the supporting sill visible; clean non-overlapping silhouettes.\nLighting/mood: soft filtered forest light, calm observational mood, natural muted browns, creams and palm gray.\nText (verbatim): title \"BARE-LEGGED OWL\"; subtitle \"Margarobyas lawrencii\"; labels \"ADULT MALE\", \"OLDER JUVENILE — AGE UNKNOWN\", \"ADULT FEMALE\".\nConstraints: exactly three birds; correct readable text; preserve no ear tufts, dark eyes, fully bare legs/toes and natural grip; adults near-equal; juvenile stage bounded as older but age unknown; no scientific-approval badge; no watermark.\nAvoid: yellow irises; feathered tarsi; repeated pearl/teardrop/scallop grids; adult-perfect juvenile remiges; floating or hidden feet; unsupported sex-size difference; exposed hatchling; flying juvenile; nest basket.",
-        "original_path": "owl-pet/production/generated/116-margarobyas-lawrencii-v4-generated-master.png",
-        "original_blob": "cdfc106e7cfd790f39891b559f82a715d96f5c46",
-        "original_bytes": 3265107,
-        "sha256": "1b56a7322754f3dba170fe61f1a2be68bf9d247e92b004fa1d73dbc1d8764ae0",
-        "edit_count": 1,
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "review_record": "owl-pet/research/reviews/116-margarobyas-lawrencii-v4-review.md",
-        "final_blob": "04e25c97ab650715074db54a7938cf08a93a21ea",
-        "final_bytes": 2958647,
-        "final_sha256": "2780b6652b6f3c129ca2540de3cde3a8d402de8f1c1b8d5ac46c670b6dd099ec",
-        "concept_path": "owl-pet/design/concepts/116-margarobyas-lawrencii-v4.png",
-        "manifest_counts": {
-          "design_image_manifest": 735,
-          "design_legacy_manifest": 736,
-          "production_image_manifest": 726
-        },
-        "archive_readback_pending": false,
-        "archive_commit": "7d64eac996988a3338333c7e8d9ed49e78274113",
-        "archive_tree": "8f636341494071888bb436a8d1acdac4e86128c7",
-        "archive_tree_entries": 3465,
-        "archive_tree_truncated": false,
-        "required_paths_verified": 16,
-        "exact_binary_paths_verified": 6,
-        "verified_at": "2026-11-06T19:42:46+08:00"
-      },
-      "started_at": "2026-11-06T19:31:55+08:00"
+      "completed_cycles": [
+        {
+          "cycle": 1,
+          "species_id": 116,
+          "species": "Margarobyas lawrencii",
+          "action": "SCIENCE_REVISION",
+          "version": 4,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba",
+          "archive_commit": "7d64eac996988a3338333c7e8d9ed49e78274113",
+          "verification_tree": "8f636341494071888bb436a8d1acdac4e86128c7",
+          "run_record": "owl-pet/production/runs/20261106T193155+0800-cycle-1.md",
+          "completed_at": "2026-11-06T19:43:53+08:00",
+          "scientifically_verified": false
+        }
+      ],
+      "next_cycle": 2,
+      "active_cycle": null,
+      "lease": null,
+      "in_progress": null,
+      "started_at": "2026-11-06T19:31:55+08:00",
+      "last_verified_commit": "05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba",
+      "updated_at": "2026-11-06T19:43:53+08:00"
     }
   ],
-  "lease": {
-    "owner": "codex-20261106-owl-production",
-    "run_id": "20261106T193155+0800-cycle-1",
-    "heartbeat_at": "2026-11-06T19:42:46+08:00",
-    "expires_at": "2026-11-06T19:57:46+08:00",
-    "batch_id": "20261106T193155+0800",
-    "cycle": 1
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -25195,7 +25158,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-06T19:42:46+08:00",
+  "updated_at": "2026-11-06T19:43:53+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -25204,15 +25167,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-20261106-owl-production",
-    "run_id": "20261106T193155+0800-cycle-1",
-    "heartbeat_at": "2026-11-06T19:42:46+08:00",
-    "expires_at": "2026-11-06T19:57:46+08:00",
-    "batch_id": "20261106T193155+0800",
-    "cycle": 1
-  },
-  "last_updated_at": "2026-11-06T19:42:46+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-06T19:43:53+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -26008,48 +25964,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "batch_id": "20261106T193155+0800",
-    "cycle": 1,
-    "species_id": 116,
-    "species": "Margarobyas lawrencii",
-    "action": "SCIENCE_REVISION",
-    "version": 4,
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261106T193155+0800-cycle-1.md",
-    "started_at": "2026-11-06T19:31:55+08:00",
-    "research_record": "owl-pet/research/species/116-margarobyas-lawrencii-v4.md",
-    "source_ids": [
-      "BLO-KIRKCONNELL-WILEY-2017",
-      "BLO-SUAREZ-2022-CATALOGUE"
-    ],
-    "prompt": "Use case: scientific-educational\nAsset type: owl electronic-pet species concept plate, version 4, matching the repository's established softly modeled natural-history illustration style\nPrimary request: Create one landscape three-bird concept plate for #116 Bare-legged Owl, Margarobyas lawrencii. Exactly three birds: adult male left, age-unknown older juvenile center, adult female right.\nScene/backdrop: shaded Cuban Zapata swamp forest at the entrance of a natural cavity in a standing dead sabal palm; one continuous rough palm-wood sill/branch supports all six feet. Subtle seasonally inundated forest vegetation beyond. No woven nest, grass cup, eggs, prey, extra birds or decorative props.\nAdult identity: small compact round-headed owls, no ear tufts, dark brown irises, pale eyebrows and softly pale facial framing, gray-yellow bill. Brown upperparts with irregular isolated whitish tips and spots; cream-buff underparts with sparse irregular dark drop-shaped shaft marks. Long yellow-brown tarsi and toes completely bare and visibly gripping. The two adults are near-equal in crown height and wing length; female may be only subtly fuller. Do not claim a fixed female-larger rule or rigid subspecies morph.\nJuvenile: one older age-unknown mesoptile juvenile, calm low crouch on both feet at the cavity lip, body fully supported, not airborne. Sienna-brown crown, nape, upperparts and upper breast; paler belly; soft face; formed but compact rounded folded wings and short modest tail. Clearly fewer and smaller pale tips than the adults, sparse and low contrast, with irregular down overlap. Do not give it adult-density white teardrop rows, hard layered primaries, long adult tail, flight pose, exact age or sex.\nComposition/framing: 3:2 landscape; male left and female right facing slightly inward; juvenile centered and lower; all faces, complete bare tarsi/toes, claws and the supporting sill visible; clean non-overlapping silhouettes.\nLighting/mood: soft filtered forest light, calm observational mood, natural muted browns, creams and palm gray.\nText (verbatim): title \"BARE-LEGGED OWL\"; subtitle \"Margarobyas lawrencii\"; labels \"ADULT MALE\", \"OLDER JUVENILE — AGE UNKNOWN\", \"ADULT FEMALE\".\nConstraints: exactly three birds; correct readable text; preserve no ear tufts, dark eyes, fully bare legs/toes and natural grip; adults near-equal; juvenile stage bounded as older but age unknown; no scientific-approval badge; no watermark.\nAvoid: yellow irises; feathered tarsi; repeated pearl/teardrop/scallop grids; adult-perfect juvenile remiges; floating or hidden feet; unsupported sex-size difference; exposed hatchling; flying juvenile; nest basket.",
-    "original_path": "owl-pet/production/generated/116-margarobyas-lawrencii-v4-generated-master.png",
-    "original_blob": "cdfc106e7cfd790f39891b559f82a715d96f5c46",
-    "original_bytes": 3265107,
-    "sha256": "1b56a7322754f3dba170fe61f1a2be68bf9d247e92b004fa1d73dbc1d8764ae0",
-    "edit_count": 1,
-    "review_result": "PASS_WITH_LIMITATIONS",
-    "scientifically_verified": false,
-    "review_record": "owl-pet/research/reviews/116-margarobyas-lawrencii-v4-review.md",
-    "final_blob": "04e25c97ab650715074db54a7938cf08a93a21ea",
-    "final_bytes": 2958647,
-    "final_sha256": "2780b6652b6f3c129ca2540de3cde3a8d402de8f1c1b8d5ac46c670b6dd099ec",
-    "concept_path": "owl-pet/design/concepts/116-margarobyas-lawrencii-v4.png",
-    "manifest_counts": {
-      "design_image_manifest": 735,
-      "design_legacy_manifest": 736,
-      "production_image_manifest": 726
-    },
-    "archive_readback_pending": false,
-    "archive_commit": "7d64eac996988a3338333c7e8d9ed49e78274113",
-    "archive_tree": "8f636341494071888bb436a8d1acdac4e86128c7",
-    "archive_tree_entries": 3465,
-    "archive_tree_truncated": false,
-    "required_paths_verified": 16,
-    "exact_binary_paths_verified": 6,
-    "verified_at": "2026-11-06T19:42:46+08:00"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -27344,7 +27259,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-06T19:42:46+08:00",
+  "last_updated": "2026-11-06T19:43:53+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -29983,9 +29898,9 @@
     }
   ],
   "active_batch_id": "20261106T193155+0800",
-  "active_cycle": 1,
-  "current_stage": "VERIFIED",
-  "next_cycle": 1,
+  "active_cycle": null,
+  "current_stage": null,
+  "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -35838,6 +35753,15 @@
       "archive_tree": "8f636341494071888bb436a8d1acdac4e86128c7",
       "required_paths_verified": 16,
       "exact_binary_paths_verified": 6
+    },
+    {
+      "at": "2026-11-06T19:43:53+08:00",
+      "batch_id": "20261106T193155+0800",
+      "cycle": 1,
+      "stage": "LEDGER_CREDITED",
+      "species_id": 116,
+      "verification_commit": "05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba",
+      "next_cycle": 2
     }
   ],
   "last_completed_batch_id": "20261106T173000+0800",
@@ -35845,9 +35769,25 @@
     "batch_id": "20261106T193155+0800",
     "status": "PARTIAL",
     "target_cycles": 6,
-    "completed_cycles": [],
-    "next_cycle": 1,
-    "active_cycle": 1
+    "completed_cycles": [
+      {
+        "cycle": 1,
+        "species_id": 116,
+        "species": "Margarobyas lawrencii",
+        "action": "SCIENCE_REVISION",
+        "version": 4,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba",
+        "archive_commit": "7d64eac996988a3338333c7e8d9ed49e78274113",
+        "verification_tree": "8f636341494071888bb436a8d1acdac4e86128c7",
+        "run_record": "owl-pet/production/runs/20261106T193155+0800-cycle-1.md",
+        "completed_at": "2026-11-06T19:43:53+08:00",
+        "scientifically_verified": false
+      }
+    ],
+    "next_cycle": 2,
+    "active_cycle": null
   },
   "events": [
     {
@@ -39646,5 +39586,5 @@
       }
     }
   ],
-  "ledger_credit_pending": true
+  "ledger_credit_pending": false
 }

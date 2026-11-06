@@ -1,3 +1,45 @@
+## 2026-11-06 — #101 *Otus spilocephalus* v8 — Taiwan adult/immature boundary
+
+### MOSO-NTM-TMAV3451-2026
+- **Title / institution:** 黃嘴角鴞 specimen TMAV3451; National Taiwan Museum collection system.
+- **URL:** https://collections.culture.tw/ntm_collectionsweb/Collection?GID=MFMQMRMFMNMAMRMLME
+- **Accessed:** 2026-11-06
+- **Type:** institutional specimen record and synthesis; Taiwan race; adult female specimen plus qualitative juvenile description.
+- **Location:** specimen fields and description, web lines 80–118 (no printed pagination).
+- **Useful facts:** female specimen measurements; sexes alike; yellow adult iris, cream bill, feathered tarsi/bare pink-brown toes; tea-brown vermiculated/barred adult; juveniles yellow-brown with vague markings that darken/sharpen; natural hollows and broadleaf-forest edge.
+- **Limits/confidence:** one sexed specimen is not a dimorphism sample; juvenile exact age/iris/ability absent. High for catalog fields, moderate for summary scope.
+- **Design use:** near-equal adults; low-contrast age-unknown immature; no fixed female-larger rule. Linked: `research/species/101-otus-spilocephalus-v8.md` and planned `design/concepts/101-otus-spilocephalus-v8.png`.
+
+### MOSO-NTM-TMAV4405-2026
+- **Title / institution:** 黃嘴角鴞 specimen TMAV4405; National Taiwan Museum collection system.
+- **URL:** https://collections.culture.tw/ntm_collectionsweb/Collection?GID=MSMPMEMRMQMAMRMLME
+- **Accessed:** 2026-11-06
+- **Type:** institutional specimen record; Taiwan race; sex not listed.
+- **Location:** specimen fields, web lines 19–55.
+- **Useful facts:** wing 138.72 mm, tail 80.74 mm, tarsus 36.71 mm.
+- **Limits/confidence:** age, sex and preparation effects unspecified; cannot support sex-size direction. High for catalog fields.
+- **Design use:** explicit warning against inferring population dimorphism from TMAV3451 alone.
+
+### MOSO-NMNS-CATALOG-2026
+- **Title / institution:** 黃嘴角鴞 knowledge unit; National Museum of Natural Science / Taiwan digital archives.
+- **URL:** https://catalog.digitalarchives.tw/item/00/6e/d9/35.html
+- **Accessed:** 2026-11-06
+- **Type:** institutional knowledge-unit summary.
+- **Location:** web lines 35–84.
+- **Useful facts:** no obvious sex difference; Taiwan broadleaf/mixed forest, roughly 400–2300 m; breeding unrecorded in that knowledge unit.
+- **Limits/conflict:** older institutional summary; not a developmental study and not proof that later breeding records do not exist. Moderate confidence for design boundary.
+- **Design use:** adults near-equal; habitat; hollow not rendered as measured universal nest.
+
+### MOSO-COMMONS-JUV-2018
+- **Title / author:** Mountain scops owl juv.jpg; Atoano44, 2018.
+- **URL:** https://commons.wikimedia.org/wiki/File:Mountain_scops_owl_juv.jpg
+- **Accessed:** 2026-11-06
+- **Type:** dated real-bird photograph; Sattal, India; CC BY-SA 4.0.
+- **Location:** file summary / metadata, web lines 102–142 and 173–216.
+- **Useful facts:** directly photographed juvenile comparator.
+- **Limits/confidence:** self-identified photograph, non-Taiwan race, exact age/sex/capability absent; visual comparator only, not developmental proof.
+- **Design use:** confirms a real juvenile reference exists but does not justify Taiwan-race colour, iris or flight chronology.
+
 ## 2026-11-06 — #100 *Strix huhula* v5 — directly described nestling/brancher boundary
 
 ### HUH-BC2013

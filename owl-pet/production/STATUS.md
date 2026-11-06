@@ -1,3 +1,7 @@
+### #142 v3 LEDGER_CREDITED — active batch 5/6
+
+Verification `512fc1b20b93294388db04aa9e44723620508a44` credited cycle 5 once. Batch next cycle 6; lease released; unique 176/251; revision +1; science false.
+
 ## 20261107T031700+0800 cycle 5 — #142 *Asio grammicus* v3 VERIFIED, ledger credit pending
 
 - Archive `ff33879ce61199d8296a1163dbf6b8da098736d0` / tree `6b9a58e4b18787a3ac182a3fecb269886b49686e` returned 3610 entries, truncated=false.

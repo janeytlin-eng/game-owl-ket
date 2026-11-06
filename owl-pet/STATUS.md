@@ -1,3 +1,7 @@
+### #142 v3 LEDGER_CREDITED — active batch 5/6
+
+Verification `512fc1b20b93294388db04aa9e44723620508a44` / tree `e0bda83247de19ecc4301757220994aabc68a0ff` credited once after archive `ff33879c`. Next cycle 6; lease released; unique 176/251; science false.
+
 ## 2026-11-07 #142 *Asio grammicus* v3 immutable archive VERIFIED — ledger credit pending
 
 Archive `ff33879ce61199d8296a1163dbf6b8da098736d0` / tree `6b9a58e4b18787a3ac182a3fecb269886b49686e` returned 3610 non-truncated entries. Thirteen required paths, six exact binary path/blob/byte tuples and manifests 752/751/742 passed. PASS_WITH_LIMITATIONS; science false; ledger credit pending.

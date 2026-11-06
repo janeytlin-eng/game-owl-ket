@@ -17,3 +17,8 @@ Fixed archive `351b8a365a28fbd2b914861df8e5897cd7495827` passed exact full image
 ## v3 RESEARCH_READY — 2026-11-07T03:22:00+08:00
 
 Uploaded Mikkola pp.500–501 / PDF pp.502–503 was directly re-read; BirdsEye juvenile metadata, ITIS TSN 1244691 and Macaulay ML201649681 were re-opened/read, with AOS and Graves prior full reads reused. Current *Asio grammicus* maps original *Ephialtes grammicus* and later *Pseudoscops grammicus*; #154 remains a historical duplicate. V3 uses near-equal adults and an age-unknown, two-foot-supported down-remnant juvenile with pale grey-brown back, dull cinnamon-buff body, soft head/shoulder down and concealed tail. Exact age/iris/flight/sequence/nest/dimorphism remain unknown; science false. Full prompt: `research/species/142-asio-grammicus-v3.md`.
+
+
+## v3 REVIEWED — 2026-11-07T03:30:00+08:00
+
+One juvenile-only edit replaced the long hard adult-barred wing with a short soft mostly concealed wing, kept the tail hidden and normalized the two dark-neutral eyes. Full plate, juvenile crop and adult/support crop opened; two-foot support and all adult leg/foot contacts pass. Result PASS_WITH_LIMITATIONS; science false.

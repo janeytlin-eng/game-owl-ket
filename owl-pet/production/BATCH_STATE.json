@@ -25014,35 +25014,30 @@
           "run_record": "owl-pet/production/runs/20261106T193155+0800-cycle-1.md",
           "completed_at": "2026-11-06T19:43:53+08:00",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "species_id": 121,
+          "species": "Ninox leucopsis",
+          "action": "SCIENCE_REVISION",
+          "version": 4,
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "9c011359b9fe57e02b7ba13d8ac6a51c31b04e64",
+          "archive_commit": "c6e932503696a975d610d00c326736a887b633c4",
+          "verification_tree": "3459701a168369de7dc3f1fa096902711d26e160",
+          "run_record": "owl-pet/production/runs/20261106T194601+0800-cycle-2.md",
+          "completed_at": "2026-11-06T20:38:46.645+08:00",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
-      "lease": {
-        "owner": "codex-20261106-owl-production",
-        "run_id": "20261106T194601+0800-cycle-2",
-        "heartbeat_at": "2026-11-06T20:38:08.084+08:00",
-        "expires_at": "2026-11-06T20:53:08.084+08:00",
-        "batch_id": "20261106T193155+0800",
-        "cycle": 2
-      },
-      "in_progress": {
-        "batch_id": "20261106T193155+0800",
-        "cycle": 2,
-        "species_id": 121,
-        "species": "Ninox leucopsis",
-        "action": "SCIENCE_REVISION",
-        "version": 4,
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261106T194601+0800-cycle-2.md",
-        "started_at": "2026-11-06T19:46:01+08:00",
-        "verified_at": "2026-11-06T20:38:08.084+08:00",
-        "archive_commit": "c6e932503696a975d610d00c326736a887b633c4",
-        "archive_tree": "3459701a168369de7dc3f1fa096902711d26e160"
-      },
+      "next_cycle": 3,
+      "active_cycle": null,
+      "lease": null,
+      "in_progress": null,
       "started_at": "2026-11-06T19:31:55+08:00",
-      "last_verified_commit": "05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba",
-      "updated_at": "2026-11-06T20:38:08.084+08:00",
+      "last_verified_commit": "9c011359b9fe57e02b7ba13d8ac6a51c31b04e64",
+      "updated_at": "2026-11-06T20:38:46.645+08:00",
       "stage_events": [
         {
           "cycle": 2,
@@ -25058,18 +25053,22 @@
           "exact_binary_paths_verified": 8,
           "result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-06T20:38:46.645+08:00",
+          "species_id": 121,
+          "species": "Ninox leucopsis",
+          "verification_commit": "9c011359b9fe57e02b7ba13d8ac6a51c31b04e64",
+          "archive_commit": "c6e932503696a975d610d00c326736a887b633c4",
+          "next_cycle": 3,
+          "scientifically_verified": false
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex-20261106-owl-production",
-    "run_id": "20261106T194601+0800-cycle-2",
-    "heartbeat_at": "2026-11-06T20:38:08.084+08:00",
-    "expires_at": "2026-11-06T20:53:08.084+08:00",
-    "batch_id": "20261106T193155+0800",
-    "cycle": 2
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -25202,7 +25201,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-06T20:38:08.084+08:00",
+  "updated_at": "2026-11-06T20:38:46.645+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -26015,20 +26014,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "batch_id": "20261106T193155+0800",
-    "cycle": 2,
-    "species_id": 121,
-    "species": "Ninox leucopsis",
-    "action": "SCIENCE_REVISION",
-    "version": 4,
-    "stage": "VERIFIED",
-    "run_record": "owl-pet/production/runs/20261106T194601+0800-cycle-2.md",
-    "started_at": "2026-11-06T19:46:01+08:00",
-    "verified_at": "2026-11-06T20:38:08.084+08:00",
-    "archive_commit": "c6e932503696a975d610d00c326736a887b633c4",
-    "archive_tree": "3459701a168369de7dc3f1fa096902711d26e160"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -39707,5 +39693,6 @@
       }
     }
   ],
-  "ledger_credit_pending": false
+  "ledger_credit_pending": false,
+  "last_verified_commit": "9c011359b9fe57e02b7ba13d8ac6a51c31b04e64"
 }

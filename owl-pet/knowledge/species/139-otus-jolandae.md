@@ -23,3 +23,8 @@ Problem → evidence → change → recheck: v2 had over-pale facial disks, regu
 [Research](../../research/species/139-otus-jolandae-v3.md) · [Run](../../production/runs/20261031T212811+0800-cycle-1.md)
 
 Reusable rule (applied and visually verified here, scoped): when evidence is an otherwise near-adult specimen with scattered retained juvenile crown/nape feathers, do not convert it to a downy chick or copy a full mature wing; use formed but shortened/softened remiges and keep exact age/ability unknown.
+
+
+## 2026-11-07 — v4 primary-description revision
+
+V4 preserves v1–v3 and uses Sangster et al. 2013 plus Mikkola printed p.188 and ITIS TSN 1063240. One edit shortened/softened the older immature wing and hid most of the tail while retaining closed eyes and scattered pale crown/nape juvenile feathers; it also reduced adult pale wing marks. Full frame and older-immature/adult crops were opened. PASS_WITH_LIMITATIONS; the complete juvenile stage, exact age/iris/flight/sex and population dimorphism remain unknown. Scientific status remains false. See [research](../../research/species/139-otus-jolandae-v4.md) and [review](../../research/reviews/139-otus-jolandae-v4-review.md).

@@ -13,3 +13,8 @@ For taxa diagnosed by absence of white, write the negative as a whole-body ident
 ## 2026-11-07 — #138 v4 wing–tail relation verified application
 
 **Problem:** a first render inverted a primary juvenile field mark by extending the tail beyond the folded wing; a first edit then hid the tail too completely to review the relation. **Evidence:** the dated 2017 field account says formed wings projected beyond a short dark tail. **Change applied:** use a relation-specific edit—retain a small short dark tail fringe ending before the folded wing tip—then open both the full frame and juvenile crop. **Observed validation:** the long-tail inversion is removed and natural branch support remains. Because the boundary is partly occluded, record PASS_WITH_LIMITATIONS and keep scientific status false. This is a verified production/checking rule: relational morphology needs a dedicated crop, and “not visibly wrong” is not the same as “fully verified.”
+
+
+## 2026-11-07 — #139 v4 single-specimen juvenile cue
+
+**Problem:** an image model expanded “retained juvenile feathers on one specimen” into a generally mature, long-winged small adult. **Evidence:** the primary description supports only scattered pale juvenile crown/nape feathers; the guide explicitly says juvenile undescribed. **Change applied:** constrain the figure to an age-unknown older immature, close the eyes, shorten/soften the formed wing, conceal most of the tail, and inspect a dedicated crop. **Observed validation:** the long hard wing/tail impression was reduced while natural support and the one evidenced juvenile cue remained. Rule validated for production: a single specimen cue must remain local to its feather tract and must not be generalized into an invented whole-stage plumage.

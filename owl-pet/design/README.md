@@ -3239,3 +3239,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/122-otus-megalotis-v4.png) · [Research](../research/species/122-otus-megalotis-v4.md) · [Review](../research/reviews/122-otus-megalotis-v4-review.md) · [Run](../production/runs/20261106T204018+0800-cycle-3.md)
 - V4 preserves v1-v3, restricts the plate to the Luzon lowland unit and refines adult bill/iris/tarsus boundaries from directly read evidence. One juvenile-wing edit removed a long adult-like panel; full and two crop views passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable archive readback pending.
+
+
+## #124 Philippine Eagle-Owl — *Ketupa philippensis* — v4
+
+- [Concept](concepts/124-ketupa-philippensis-v4.png) · [Research](../research/species/124-ketupa-philippensis-v4.md) · [Review](../research/reviews/124-ketupa-philippensis-v4-review.md) · [Run](../production/runs/20261106T205254+0800-cycle-4.md)
+- V4 preserves v1-v3 and the nominate Luzon boundary. One juvenile-wing edit passed full/crop review. `PASS_WITH_LIMITATIONS`; science false; unique 176/251; readback pending.

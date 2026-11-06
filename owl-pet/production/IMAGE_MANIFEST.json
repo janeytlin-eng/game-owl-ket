@@ -24456,6 +24456,71 @@
       "verified_at": "2026-11-06T20:51:39.123+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive commit/tree readback returned 3,485 non-truncated entries; all 16 required paths and 6 exact image blob/byte tuples matched. Three manifests parsed at 737/738/728; concept fetch returned the expected master blob. Scientific status remains false."
+    },
+    {
+      "id": "124-ketupa-philippensis-v4",
+      "path": "design/concepts/124-ketupa-philippensis-v4.png",
+      "species_id": 124,
+      "scientific_name": "Ketupa philippensis",
+      "historical_names": [
+        "Bubo philippensis",
+        "Pseudoptynx philippensis"
+      ],
+      "common_name": "Philippine Eagle-Owl",
+      "scope": "nominate/northern Luzon unit",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "PEO-ITIS-1244715-2026",
+        "PEO-NMP-AR2015-P110",
+        "PEO-URRIZA-2017",
+        "PEO-OCHAVO-2012",
+        "PEO-MIK2013-P294",
+        "PEO-ARTUSO-2015",
+        "PEO-AVIBASE-MAPPING"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/124-ketupa-philippensis-v4.md",
+      "review_record": "research/reviews/124-ketupa-philippensis-v4-review.md",
+      "run_record": "production/runs/20261106T205254+0800-cycle-4.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2745957,
+      "sha256": "45a78f202246eab3a5bb42919d8df2a53ac3ce835cbd9d745e2ec2a2a8eb62cc",
+      "git_blob": "dd95943ab31a036051e694d8dc49ea496b5221ca",
+      "generated_path": "production/generated/124-ketupa-philippensis-v4-generated-master.png",
+      "generated_blob": "78bf46c40225938326a1244f66d2a99ee99b2b39",
+      "generated_sha256": "4c4b44d0ddf48b52da5b3346c2049733b1a4f90265194cc7949c71c265f213d7",
+      "generated_size_bytes": 2930250,
+      "edit_path": "production/edits/124-ketupa-philippensis-v4-edit1.png",
+      "edit_blob": "dd95943ab31a036051e694d8dc49ea496b5221ca",
+      "reviewed_path": "production/reviewed/124-ketupa-philippensis-v4-reviewed-master.png",
+      "reviewed_blob": "dd95943ab31a036051e694d8dc49ea496b5221ca",
+      "juvenile_review_crop": "production/review-crops/124-ketupa-philippensis-v4-juvenile.png",
+      "juvenile_review_blob": "0f6d2dc1ffbc4bd2b5fd8ad5a98bd9f1ed3b5f23",
+      "juvenile_review_size_bytes": 749876,
+      "juvenile_review_sha256": "4e1c41e14bee92184482240f135f07bd167f18a2a7f252e1e9735955190f88ea",
+      "adults_review_crop": "production/review-crops/124-ketupa-philippensis-v4-adults-support.png",
+      "adults_review_blob": "07715f111bde4a1188283c5ce7381a0813412b33",
+      "adults_review_size_bytes": 1842096,
+      "adults_review_sha256": "18a3e050c228a009bc1b1f288c3569b354870c08b50a5ecf0f455fc305d9212d",
+      "reviewed_at": "2026-11-06T20:59:11.202+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3, uses ITIS current-name mapping and National Museum study provenance, and retains at-least-70-days as a minimum rather than an exact label. One juvenile-wing edit removed a long adult-like panel. Exact age/sex, iris/down/remige chronology and sex ratio remain unknown; science false."
     }
   ],
   "updated_at": "2026-11-06T19:55:10+08:00"

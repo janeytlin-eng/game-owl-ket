@@ -2632,3 +2632,17 @@
 - **Limits / decision:** taxonomy only; supports name mapping, no visual fact.
 
 **Reused and freshly reread:** `WSC-MEES-2006` (printed pp.113–115, especially p.114), `WSC-MARSHALL-1978`, `SLSO-SANGSTER-2013`. Full design boundary and prompt: `research/species/135-otus-silvicola-v4.md`. Science remains false.
+
+
+## 2026-11-06 — #136 *Megascops petersoni* v4 — archival provenance and regional identity
+
+### CIN-BHL-242281-2026 — new
+- BHL article record for Fitzpatrick & O'Neill (1986), *Wilson Bulletin* 98(1):1–14: https://www.biodiversitylibrary.org/part/242281
+- Actually read: article metadata, identifiers and access route. Bibliographic provenance only; no new visual fact.
+
+### CIN-BIRDS-PERU-2010 — new
+- Schulenberg et al., *Birds of Peru*, revised edition, Cinnamon Screech-Owl account: https://dokumen.pub/birds-of-peru-revised-and-updated-edition-revised-and-updated-9781400834495.html
+- Actually read: 23–24 cm; uncommon humid eastern-Andean forest at 1,700–2,450 m; completely lacks white versus Rufescent Screech-Owl.
+- Limit: secondary regional field guide, adult identity/habitat only; no juvenile development claim.
+
+Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record: `research/species/136-megascops-petersoni-v4.md`. Science false.

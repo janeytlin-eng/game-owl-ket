@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T08:53:55+08:00",
+  "updated": "2026-11-06T08:55:07+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -23193,7 +23193,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
         "MEL-ITIS-555443-2026",
@@ -23228,9 +23228,13 @@
       "juvenile_review_size_bytes": 882212,
       "juvenile_review_sha256": "7939e1ae40c3bbad816ed10450b7b227a2bfa6dd0cb14ff579d7f861ca7bbcb2",
       "reviewed_at": "2026-11-06T08:53:55+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4, makes the documented cinnamon-to-white crown transition explicit, and after one juvenile-only edit removes the long hard primary panel, shortens/softens the wing and conceals the tail. Full plate and two crops passed; exact age/sex/flight, tract chronology, pair ratio and universal nest choice unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4, makes the documented cinnamon-to-white crown transition explicit, and after one juvenile-only edit removes the long hard primary panel, shortens/softens the wing and conceals the tail. Full plate and two crops passed; exact age/sex/flight, tract chronology, pair ratio and universal nest choice unknown; science false.",
+      "archive_commit": "c9c376ff6d89a95ebf42245c7395c88051c65cb0",
+      "archive_tree": "32837dd7e713ea0a97ab2fdddf5b1c624aca2b72",
+      "verified_at": "2026-11-06T08:55:07+08:00",
+      "verification_result": "PASS: immutable archive tree returned 3,275 non-truncated entries; all 15 required #95 paths were present; six binary paths matched exact Git blobs; three manifests parsed at 714/713/704 with #95 v5 tails."
     }
   ],
-  "updated_at": "2026-11-06T08:53:55+08:00"
+  "updated_at": "2026-11-06T08:55:07+08:00"
 }

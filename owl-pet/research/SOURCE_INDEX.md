@@ -2646,3 +2646,26 @@
 - Limit: secondary regional field guide, adult identity/habitat only; no juvenile development claim.
 
 Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record: `research/species/136-megascops-petersoni-v4.md`. Science false.
+
+
+## 2026-11-07 — #137 *Otus alfredi* v4 — montane-habitat and juvenile-specimen calibration
+
+### FLO-HUTCHINSON-2007
+- **Title / authors / year:** “Observations of Flores Scops Owl *Otus alfredi* on Flores, Indonesia” — R. Hutchinson, J.A. Eaton, B. Demeulemeester & D.R.C. Buzzetti, 2007.
+- **URL / type / pages / accessed:** https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c20f94f4d7a9c6cf87abdf2/1545664849106/Hutchinson-FloresScops.pdf ; primary field observations, *Forktail* 23:184–187; printed pp.184–187; accessed 2026-11-06 UTC.
+- **Species / stages / facts:** current *Otus alfredi*; adults small and compact with short rounded tufts, solid-rufous unrimmed face, distinct white brows, yellow eyes/legs/feet, finely vermiculated lower flanks and belly without black streaks, solid-rufous upperparts, localized white scapular marks and small well-spaced pale primary notches. Records principally in primary montane forest; one roadside encounter involved remnant large trees beside scrub/tall grass.
+- **Limits / confidence:** no dated juvenile sequence or quantified sexual dimorphism; high confidence for adult field appearance and habitat, not for young.
+- **Design decision:** retain near-equal adults and primary montane forest; do not invent sex differences or juvenile timing.
+- **Links:** `research/species/137-otus-alfredi-v4.md`; planned `design/concepts/137-otus-alfredi-v4.png`.
+
+### FLO-WIDODO-1999 — reused and page-calibrated
+- **Title / authors / year:** “Rediscovery of the Flores Scops Owl *Otus alfredi* on Flores, Indonesia, and reaffirmation of its specific status” — W. Widodo, J.H. Cox & P.C. Rasmussen, 1999.
+- **URL / type / pages / accessed:** https://static1.squarespace.com/static/5c1a9e03f407b482a158da87/t/5c1fc23b2b6a282c991de675/1545585212532/Widodo-Flores.pdf ; peer-reviewed museum/field study, *Forktail* 15:15–23; Table 1, Table 2, Figs.1–2 and printed pp.15–23; re-read 2026-11-06 UTC.
+- **Species / names / facts:** current *Otus alfredi*; protonym *Pisorhina alfredi*. Adults 192–207 mm total length; MZB juvenile 185 mm total length. The age-unknown 1994 juvenile from 1,400 m wet montane forest retained slightly paler nearly uniform rufous natal down across neck, mantle, wing coverts, scapulars and uppertail coverts, with a few pale shaft streaks and clearer tail banding. Historical type-series sex assignments are uncertain.
+- **Limits / confidence:** one juvenile cannot establish age, flight threshold, iris colour or general sex-size rule; high confidence for that specimen’s visible plumage and measurements.
+- **Design decision:** depict a smaller, bilaterally supported, down-retaining, compact-winged age-unknown juvenile; adults remain near equal.
+- **Links:** `research/species/137-otus-alfredi-v4.md`; previous `research/species/137-otus-alfredi-v3.md`.
+
+### FLO-BIRDLIFE-FACTSHEET-2026 — unverified lead
+- **Institution / URL / accessed:** BirdLife International DataZone; https://datazone.birdlife.org/species/factsheet/flores-scops-owl-otus-alfredi ; accessed 2026-11-06 UTC.
+- **Status:** dynamic full text was not readable in this execution; retained only as a range/status lead. It is not used for morphology, sex, age, behaviour or the science pass.

@@ -23890,23 +23890,23 @@
       "active_lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T181547+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T18:23:25+08:00",
-        "expires_at": "2026-11-06T18:38:25+08:00"
+        "heartbeat_at": "2026-11-06T18:25:10+08:00",
+        "expires_at": "2026-11-06T18:40:10+08:00"
       },
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T181547+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T18:23:25+08:00",
-        "expires_at": "2026-11-06T18:38:25+08:00"
+        "heartbeat_at": "2026-11-06T18:25:10+08:00",
+        "expires_at": "2026-11-06T18:40:10+08:00"
       },
       "in_progress": {
         "cycle": 4,
         "run_id": "20261106T181547+0800-cycle-4",
         "species_id": 134,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "started_at": "2026-11-06T18:15:47+08:00"
       },
-      "current_stage": "IMAGE_GENERATED",
+      "current_stage": "REVIEWED",
       "events": [
         {
           "batch_id": "20261106T173000+0800",
@@ -24492,6 +24492,37 @@
             "edit_needed": true,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-06T18:38:25+08:00"
+          }
+        },
+        {
+          "batch_id": "20261106T173000+0800",
+          "cycle": 4,
+          "stage": "REVIEWED",
+          "at": "2026-11-06T18:25:10+08:00",
+          "run_id": "20261106T181547+0800-cycle-4",
+          "species_id": 134,
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/134-megascops-sanctaecatarinae-v4-reviewed-master.png",
+            "reviewed_blob": "76203bc060929dd2d7a29a509a6f2563006cc2b3",
+            "edit_path": "owl-pet/production/edits/134-megascops-sanctaecatarinae-v4-edit1.png",
+            "edit_count": 1,
+            "review_record": "owl-pet/research/reviews/134-megascops-sanctaecatarinae-v4-review.md",
+            "juvenile_crop": "owl-pet/production/review-crops/134-megascops-sanctaecatarinae-v4-juvenile-cavity.png",
+            "adults_support_crop": "owl-pet/production/review-crops/134-megascops-sanctaecatarinae-v4-adults-feet.png",
+            "reinspection": "full edited plate plus juvenile cavity and adults/feet crops opened; exact text/count, adult identity, near-equal crown height with subtly fuller female, all four adult feet supported, upper-body-only grey cavity juvenile and hidden lower anatomy pass",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "unresolved": [
+              "exact juvenile age",
+              "juvenile sex",
+              "fledging status",
+              "flight competence",
+              "hidden lower-body feathering",
+              "quantitative sex-size ratio",
+              "individual iris variability"
+            ],
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-06T18:40:10+08:00"
           }
         }
       ]

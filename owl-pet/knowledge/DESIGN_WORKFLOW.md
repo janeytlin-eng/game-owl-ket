@@ -975,3 +975,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** the first #133 v4 render's long aligned remiges were shortened and rounded, with irregular down overlap, without erasing the photo-supported formed wing.
 - **Verified in use:** full edited plate plus juvenile and adults/support crops passed. This validates the endpoint/regularity check for this asset only; it is not a cross-species feather schedule.
 - Evidence: `owl-pet/research/reviews/133-megascops-atricapilla-v4-review.md`.
+
+
+### 2026-11-06 — Overlapping adult body mass is not a license for a smaller female (#134 v4)
+
+- **Found:** a prompt can request “near-equal height, subtly fuller female” yet generation may still produce a conspicuously smaller/lower female because of pose and framing.
+- **Applied:** compare crown height, foot baseline and visible body envelope together; when quantitative sex-size evidence is absent, edit the display to overlapping mass rather than preserving a generic dimorphism cue.
+- **Verified in use:** #134 *Megascops sanctaecatarinae* v4 edit 1 passed full-plate and adults/feet-crop inspection. This is one asset-level correction, not a cross-species size rule.
+- Evidence: `owl-pet/research/reviews/134-megascops-sanctaecatarinae-v4-review.md`.

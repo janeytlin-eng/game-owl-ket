@@ -1045,3 +1045,12 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** v4 keeps near-equal structural crown height but gives the adults different head/body angles; pose is treated as individual behavior, not sexual diagnosis.
 - **Checked:** full plate and adults/support crop reopened; adult identity, six supports and near-equal display height passed. One asset-level application only; not a catalog-wide validation.
 - Evidence: `owl-pet/research/reviews/132-strix-davidi-v4-review.md`.
+
+
+## 2026-11-07 — #145 older-fledgling white-mark density rule (applied and verified)
+
+- **Observed repeat error:** a prompt that says “formed but compact wing” can still produce an adult-length folded wing with repeated bright covert marks.
+- **Evidence boundary:** #145’s archived Mikkola p.473 extraction supports only a few buff-white scapular bars plus restrained ochre wing spots/white outer-web hints; no complete feather timetable.
+- **Applied correction:** explicitly request a shorter/soft folded wing, short/concealed tail, and removal of repeated white rows while preserving only sparse muted hints.
+- **Verification:** one targeted edit was opened at whole-plate and 560×720 crop scale; wing maturity/mark density improved while all six supports, adults and labels remained intact.
+- **Reuse rule:** for an age-unknown older fledgling, specify both wing length/maturity **and** maximum contrast/density of pale marks; do not infer exact age or flight ability from a visually formed wing.

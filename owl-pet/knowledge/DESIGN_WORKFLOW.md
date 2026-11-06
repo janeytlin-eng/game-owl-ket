@@ -967,3 +967,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Applied:** select the photographed support/action stage, keep the label explicitly “(EST.)”, and do not convert the comparison into a known hatch date or continuous flight threshold.
 - **Verified in use:** #126 *Strix hadorami* v3 used a photographed shelf-stage fledgling labelled c35 days estimated; full plate and crop review passed without an edit. This is one applied case, not a universal chronology rule.
 - Evidence: `owl-pet/research/reviews/126-strix-hadorami-v3-review.md`.
+
+
+### 2026-11-06 — A direct “young” photograph supports a formed wing, not its adult endpoint (#133 v4)
+
+- **Found:** a field record labelled only “Jovem” can support formed wing/tail, tiny tufts, iris colour and bilateral support, while leaving exact age and flight capacity unknown.
+- **Applied:** the first #133 v4 render's long aligned remiges were shortened and rounded, with irregular down overlap, without erasing the photo-supported formed wing.
+- **Verified in use:** full edited plate plus juvenile and adults/support crops passed. This validates the endpoint/regularity check for this asset only; it is not a cross-species feather schedule.
+- Evidence: `owl-pet/research/reviews/133-megascops-atricapilla-v4-review.md`.

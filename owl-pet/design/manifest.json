@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T08:43:12+08:00",
+  "updated": "2026-11-06T08:53:55+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -23003,7 +23003,68 @@
       "archive_tree": "adfaab2cc2ade2d243ec8a78cde41ef00d7979fc",
       "verified_at": "2026-11-06T08:43:12+08:00",
       "verification_result": "PASS: immutable archive tree returned 3,266 non-truncated entries; all 13 required #93 paths were present; five binary paths matched exact Git blobs; three manifests parsed at 713/712/703 with #93 v4 tails."
+    },
+    {
+      "id": "95-pulsatrix-melanota-v5",
+      "path": "design/concepts/95-pulsatrix-melanota-v5.png",
+      "species_id": 95,
+      "scientific_name": "Pulsatrix melanota",
+      "current_scientific_name": "Pulsatrix melanota",
+      "common_name": "Band-bellied Owl",
+      "historical_names": [
+        "Noctua melanota"
+      ],
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88",
+        "MEL-ITIS-555443-2026",
+        "MEL-CORREA-USP-2016",
+        "MEL-MIK2013-314"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/95-pulsatrix-melanota-v5.md",
+      "review_record": "research/reviews/95-pulsatrix-melanota-v5-review.md",
+      "run_record": "production/runs/20261106T084500+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3317823,
+      "sha256": "8854cb2b0adf8f657ee62d9d3f35c84c65eb3e69d4c9f4e1b0fb9e2be0d54e51",
+      "git_blob": "9049f9c58418dbcbd95ea7de91c32879ac8a649b",
+      "generated_path": "production/generated/95-pulsatrix-melanota-v5-generated-master.png",
+      "generated_blob": "e325075613d56ec61879922ee39895d54e2dee95",
+      "generated_sha256": "64f5ecc0298ccb5525ccc0a1b60bdf02284473bfd6f10be5a980d190874cc4f9",
+      "generated_size_bytes": 3542327,
+      "edit_path": "production/generated/95-pulsatrix-melanota-v5-edit1.png",
+      "edit_blob": "9049f9c58418dbcbd95ea7de91c32879ac8a649b",
+      "reviewed_path": "production/reviewed/95-pulsatrix-melanota-v5-reviewed-master.png",
+      "reviewed_blob": "9049f9c58418dbcbd95ea7de91c32879ac8a649b",
+      "adults_review_crop": "production/review-crops/95-pulsatrix-melanota-v5-adults-support.png",
+      "adults_review_blob": "79f8540a4d2f12137b372b564fd4761b43225be7",
+      "adults_review_size_bytes": 2333892,
+      "adults_review_sha256": "f9a168883ea41e118cbcf5f2f0317dcdc3d1b7c6587ffdc7a390f4b2e4342c97",
+      "juvenile_review_crop": "production/review-crops/95-pulsatrix-melanota-v5-juvenile.png",
+      "juvenile_review_blob": "8237201a33e7b9d482c1b60010c05f73e42ffc7e",
+      "juvenile_review_size_bytes": 882212,
+      "juvenile_review_sha256": "7939e1ae40c3bbad816ed10450b7b227a2bfa6dd0cb14ff579d7f861ca7bbcb2",
+      "reviewed_at": "2026-11-06T08:53:55+08:00",
+      "readback_pending": true,
+      "archive_note": "V5 preserves v1-v4, makes the documented cinnamon-to-white crown transition explicit, and after one juvenile-only edit removes the long hard primary panel, shortens/softens the wing and conceals the tail. Full plate and two crops passed; exact age/sex/flight, tract chronology, pair ratio and universal nest choice unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T08:43:12+08:00"
+  "updated_at": "2026-11-06T08:53:55+08:00"
 }

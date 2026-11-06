@@ -373,3 +373,8 @@ Verification commit `928734acfc4c105e942605761b75e6b84213e5da` was read back aft
 ### #139 v4 ARCHIVED — readback pending
 
 - Batch `20261107T012800+0800` cycle 2/6. Final concept/reviewed master is 2,916,813 bytes (SHA-256 `ef0f14cce9ff26aa297a63c1d399aab8c8a862742889ad04a325a86068a5ce75`). One edit corrected older-immature wing/tail maturity and adult pale-mark repetition; PASS_WITH_LIMITATIONS, science false. Manifests staged at 748/749/739; immutable readback and ledger credit remain required.
+
+
+### #139 v4 VERIFIED — ledger credit pending
+
+Archive `10ab4198d6d295925336d18e8d716d0d70c3263e`, tree `d3ce448a9eda9951da0a24bb5e8c5d4f9451df9d`, 3,584 non-truncated entries; 15/15 paths and six binary tuples matched. Manifests 748/749/739 parsed. Unique 176/251; PASS_WITH_LIMITATIONS; science false.

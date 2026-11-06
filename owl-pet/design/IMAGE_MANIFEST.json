@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T01:53:19+08:00",
+  "updated": "2026-11-07T01:54:23+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -25966,7 +25966,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED_READBACK_PENDING",
+      "status": "VERIFIED",
       "source_ids": [
         "RIN-SANGSTER-2013-P8-11",
         "RIN-MIKKOLA-2013-P188",
@@ -26005,9 +26005,60 @@
       "adult_review_sha256": "e7fb38783d41676dcf9d905043c21d94802f577a4e5fdf5d8ac1efbd2a2b389d",
       "batch_id": "20261107T012800+0800",
       "cycle": 2,
-      "readback_pending": true,
-      "archived_at": "2026-11-07T01:53:19+08:00"
+      "readback_pending": false,
+      "archived_at": "2026-11-07T01:53:19+08:00",
+      "exact_readback": true,
+      "archive_commit": "10ab4198d6d295925336d18e8d716d0d70c3263e",
+      "archive_tree": "d3ce448a9eda9951da0a24bb5e8c5d4f9451df9d",
+      "verified_at": "2026-11-07T01:54:23+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "10ab4198d6d295925336d18e8d716d0d70c3263e",
+        "tree_sha": "d3ce448a9eda9951da0a24bb5e8c5d4f9451df9d",
+        "tree_count": 3584,
+        "tree_truncated": false,
+        "required_paths_verified": 15,
+        "exact_binary_paths_verified": 6,
+        "assets": {
+          "owl-pet/design/concepts/139-otus-jolandae-v4.png": {
+            "sha": "c141fde05af4d23243f218c5bb1f1a8af6c30bdd",
+            "size": 2916813
+          },
+          "owl-pet/production/generated/139-otus-jolandae-v4-generated-master.png": {
+            "sha": "d6aa68dd670a2d20b5e2edada997ca91c8d71108",
+            "size": 3059304
+          },
+          "owl-pet/production/generated/139-otus-jolandae-v4-edit1.png": {
+            "sha": "c141fde05af4d23243f218c5bb1f1a8af6c30bdd",
+            "size": 2916813
+          },
+          "owl-pet/production/reviewed/139-otus-jolandae-v4-reviewed-master.png": {
+            "sha": "c141fde05af4d23243f218c5bb1f1a8af6c30bdd",
+            "size": 2916813
+          },
+          "owl-pet/production/review-crops/139-otus-jolandae-v4-immature.png": {
+            "sha": "b99aaaef6f5747899b55214c708a689acc31cc26",
+            "size": 677315
+          },
+          "owl-pet/production/review-crops/139-otus-jolandae-v4-adults-support.png": {
+            "sha": "2a495133fa3c4c0aecb2eabc5b3661729f8eea88",
+            "size": 1374001
+          }
+        },
+        "manifest_counts": {
+          "design": 748,
+          "legacy": 749,
+          "production": 739
+        },
+        "manifest_json_valid": true,
+        "path_blob_readback": true,
+        "local_png_full_decode": true,
+        "sha256_verified": true,
+        "unique_species": "176/251",
+        "scientifically_verified": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T01:53:19+08:00"
+  "updated_at": "2026-11-07T01:54:23+08:00"
 }

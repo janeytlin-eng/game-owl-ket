@@ -24898,6 +24898,72 @@
       "verified_at": "2026-11-06T20:38:08.084+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive commit/tree readback returned 3,476 non-truncated entries; all 18 required paths and 8 exact image blob/byte tuples matched. Three remote manifests parsed at 736/737/727. Scientific calibration remains false because the recorded age/sex/flight/iris/feather-map limits remain unresolved."
+    },
+    {
+      "id": "122-otus-megalotis-v4",
+      "path": "design/concepts/122-otus-megalotis-v4.png",
+      "species_id": 122,
+      "scientific_name": "Otus megalotis",
+      "historical_names": [
+        "Otus bakkamoena megalotis",
+        "Lempijus megalotis",
+        "Scops whiteheadi"
+      ],
+      "common_name": "Philippine Scops-Owl",
+      "scope": "Luzon lowland unit",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "PSO-SANCHEZ-2012",
+        "PSO-GMA-PENRO-2015",
+        "PSO-MIRANDA-2011",
+        "PSO-JOSEF-2012",
+        "PSO-PROJECTNOAH-2023",
+        "PSO-OWLPAGES-2012",
+        "PSO-MIK2013-P170"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/122-otus-megalotis-v4.md",
+      "review_record": "research/reviews/122-otus-megalotis-v4-review.md",
+      "run_record": "production/runs/20261106T204018+0800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2555151,
+      "sha256": "9f1136f85586a0c4dee5c13bc389c4fdddb267c104d5ed3f46e6fe7644d9c045",
+      "git_blob": "168344d543e55984a7c0c6e5e1ebe11ab2aec3da",
+      "generated_path": "production/generated/122-otus-megalotis-v4-generated-master.png",
+      "generated_blob": "e99b630afb80a0f1b781a2d19739ed45403dcdba",
+      "generated_sha256": "7aaabbf60943f40e89ad84dbc730e88acc27c230c36e6074efa1fee74709eaa5",
+      "generated_size_bytes": 2900411,
+      "edit_path": "production/edits/122-otus-megalotis-v4-edit1.png",
+      "edit_blob": "168344d543e55984a7c0c6e5e1ebe11ab2aec3da",
+      "reviewed_path": "production/reviewed/122-otus-megalotis-v4-reviewed-master.png",
+      "reviewed_blob": "168344d543e55984a7c0c6e5e1ebe11ab2aec3da",
+      "juvenile_review_crop": "production/review-crops/122-otus-megalotis-v4-juvenile.png",
+      "juvenile_review_blob": "a258b016a12cbc15d9d3c1491f940373183438bc",
+      "juvenile_review_size_bytes": 684171,
+      "juvenile_review_sha256": "04e89d2b5b4f0e92e4c8da934acf8d6b451e7d2c56f3c8285cecab440c784438",
+      "adults_review_crop": "production/review-crops/122-otus-megalotis-v4-adults-support.png",
+      "adults_review_blob": "0c41c8653c8639bc6449cb8e2940e8e1a5612e0e",
+      "adults_review_size_bytes": 1775379,
+      "adults_review_sha256": "958bf41a7ef088813c76c920c4c831dd8fed04370f94576fcab0ee7527c99a18",
+      "reviewed_at": "2026-11-06T20:48:58.635+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. New primary survey evidence refines lowland habitat, ivory/horn bill, subdued warm eye and feathered-tarsus boundaries; a rescue report is used only to prevent a competent-flight inference. One juvenile-wing edit removed the long orderly adult-like panel. Exact age/sex/healthy flight/iris chronology/literal feather sequence/standing-height ratio remain unknown; science false."
     }
   ],
   "updated_at": "2026-11-06T19:55:10+08:00"

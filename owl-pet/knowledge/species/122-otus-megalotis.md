@@ -15,3 +15,8 @@ NEW unique120/251; Luzonlowlandunit only, oldnominatename mapped noteveretti/nig
 ## V3 evidence reconciliation — 2026-10-31
 
 Original-resolution v2 pixels overruled the prior production note: its age-unknown fuzzy juvenile retained a long crisp adult-like layered wing and long visible tail. V3 uses the Luzon lowland unit only, preserves formed remiges supported by field evidence, but compacts/softens them under body down, removes repeated pale adult covert rows, conceals the tail and keeps bilateral branch support. Adults stay near equal, with only a subtly fuller female because sexed museum measurements overlap. Exact juvenile age, first-flight threshold, iris chronology, literal feather map and universal sex-size ratio remain unknown. Sources and complete prompt: [v3 research](../../research/species/122-otus-megalotis-v3.md); [run](../../production/runs/20261031T150240+0800-cycle-1.md). Science false.
+
+
+## V4 evidence refinement — 2026-11-06
+
+V4 preserves v1-v3 and adds directly read Sanchez 2012 pp.96–100/Fig.1 plus a separately read PENRO-attributed rescue report. Adults retain near-equal crown height, gray-brown morph, subdued amber-orange eyes, ivory/horn bills and feathered tarsi; sexed museum overlap prevents a fixed visible ratio. The age-unknown rust-brown brancher has compact irregular down-veiled remiges, concealed tail and bilateral living-branch support after one targeted edit. Exact age/sex, healthy flight threshold, iris chronology, literal feather sequence and standing-height ratio remain unknown. [Research](../../research/species/122-otus-megalotis-v4.md) · [Review](../../research/reviews/122-otus-megalotis-v4-review.md) · [Run](../../production/runs/20261106T204018+0800-cycle-3.md). Science false; immutable readback pending.

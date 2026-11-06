@@ -3233,3 +3233,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 - V4 preserves v1-v3. A natural standing-palm cavity is supported for surveyed Zapata breeding sites; adults stay near-equal because no universal sex-size ratio is established. One juvenile-only edit replaced long orderly remiges with a compact down-overlapped wing and short obscured tail. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.
 
 - #116 v4 immutable archive verification: commit `7d64eac996988a3338333c7e8d9ed49e78274113`, tree `8f636341494071888bb436a8d1acdac4e86128c7`; 16 paths, six exact image blob/byte tuples and manifests 735/736/726 passed. Ledger verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba`; batch 1/6, next cycle 2.
+
+
+## #122 Philippine Scops-Owl — *Otus megalotis* — v4
+
+- [Concept](concepts/122-otus-megalotis-v4.png) · [Research](../research/species/122-otus-megalotis-v4.md) · [Review](../research/reviews/122-otus-megalotis-v4-review.md) · [Run](../production/runs/20261106T204018+0800-cycle-3.md)
+- V4 preserves v1-v3, restricts the plate to the Luzon lowland unit and refines adult bill/iris/tarsus boundaries from directly read evidence. One juvenile-wing edit removed a long adult-like panel; full and two crop views passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable archive readback pending.

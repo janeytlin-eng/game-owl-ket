@@ -23208,7 +23208,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "MAG-NOVOA-BLANCO-2020-P31-33",
         "MAG-ZAMBRANO-2022-P20-21",
@@ -23236,9 +23236,13 @@
       "reviewed_path": "production/reviewed/99-bubo-magellanicus-v5-reviewed-master.png",
       "reviewed_blob": "0d03b9b9ef08feaa679fdb92e2cff74164610625",
       "reviewed_at": "2026-11-06T10:44:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and replaces the one-week chick with an approximately-20-day, directly documented exceptional balcony nestling. One targeted juvenile-wing edit removed elongated hard feather tips, leaving a short rounded down-covered wing bud, concealed tail and full dry-plant support. Exact age/sex/flight, robust adult dimorphism and generality of balcony nesting remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and replaces the one-week chick with an approximately-20-day, directly documented exceptional balcony nestling. One targeted juvenile-wing edit removed elongated hard feather tips, leaving a short rounded down-covered wing bud, concealed tail and full dry-plant support. Exact age/sex/flight, robust adult dimorphism and generality of balcony nesting remain unknown; science false.",
+      "archive_commit": "2946479a5dcf1921c78e75160b2bd4450ba797d2",
+      "archive_tree": "e12148efdddb6a3f6a6e5e10641b9d42958d01e0",
+      "verified_at": "2026-11-06T10:53:00.000+08:00",
+      "verification_result": "PASS: immutable archive 2946479a5dcf1921c78e75160b2bd4450ba797d2 returned 3,298 non-truncated tree entries; all 17 required #99 paths were present; six binary paths matched exact Git blobs and byte sizes; three manifests parsed at 717/716/707 with #99 v5 tails; concept fetch returned the expected blob and display URL."
     }
   ],
-  "updated_at": "2026-11-06T10:48:00.000+08:00"
+  "updated_at": "2026-11-06T10:53:00.000+08:00"
 }

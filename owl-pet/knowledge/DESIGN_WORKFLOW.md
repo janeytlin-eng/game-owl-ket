@@ -895,8 +895,10 @@ If a caption says a chick was photographed “about two weeks after discovery”
 - **Recheck/result:** full edited plate plus final juvenile and adult/support crops were opened; geometry and all invariants passed. This validates the prompt/review rule on #86 only; it does not prove an exact day-specific feather sequence or a universal rule for other species.
 
 
-## 2026-11-06 exceptional-site plus age-boundary gate — discovered/applied; validation pending
+## 2026-11-06 exceptional-site plus age-boundary gate — discovered/applied; locally validated for #99
 
 - A directly documented anthropogenic nest site may be visualized only when labeled and framed as an exceptional recorded case; it must not replace the species' modal nest ecology.
 - For an approximately aged nestling, use only the feather/action detail supported at that stage. “Down dominant” with early pins does not license elongated hard layered remiges; a generated wing that crosses this boundary requires a juvenile-only edit while preserving the documented site and support.
 - First applied to #99 *Bubo magellanicus* v5. The edited full plate and two crops visually passed the short down-covered wing, concealed tail and continuous dry-plant support checks. This is a local concept-plate validation, not a universal feather schedule or scientific sign-off.
+
+- For #99 *Bubo magellanicus* v5, the rule was visibly validated after one targeted edit: the exceptional balcony context remained explicit while the approximately-20-day nestling's elongated hard wing tips were replaced by a short down-covered wing bud. This is local visual validation, not a universal nest rule or scientific sign-off.

@@ -1,3 +1,8 @@
+## 2026-11-06 #99 *Bubo magellanicus* v5 VERIFIED — ledger credit pending
+
+- Archive `2946479a5dcf1921c78e75160b2bd4450ba797d2`, tree `e12148efdddb6a3f6a6e5e10641b9d42958d01e0`, returned 3,298 non-truncated entries; all 17 required paths and six exact binary tuples passed. Manifests parse at 717/716/707 and concept fetch returns blob `0d03b9b9ef08feaa679fdb92e2cff74164610625`.
+- One juvenile-wing edit passed full/crop review. PASS_WITH_LIMITATIONS; science false; unique remains 176/251. Ledger credit pending.
+
 ## 2026-11-06 #99 *Bubo magellanicus* v5 ARCHIVED — readback pending
 
 - V5 preserves v1–v4. Three detailed sources were read and two records reused; current/old-name mapping and approximately-20-day exceptional balcony stage are explicit.

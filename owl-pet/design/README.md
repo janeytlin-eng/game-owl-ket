@@ -1,8 +1,8 @@
-## #99 Lesser Horned Owl — *Bubo magellanicus* — v5 ARCHIVED, readback pending
+## #99 Lesser Horned Owl — *Bubo magellanicus* — v5 VERIFIED
 
 - Concept: [99-bubo-magellanicus-v5.png](concepts/99-bubo-magellanicus-v5.png)
 - Research: [99-bubo-magellanicus-v5.md](../research/species/99-bubo-magellanicus-v5.md) · [review](../research/reviews/99-bubo-magellanicus-v5-review.md) · [run](../production/runs/20261106T100000+0800-cycle-6.md)
-- V5 preserves v1–v4 and selects the directly documented approximately-20-day exceptional balcony nestling. One juvenile-wing-only edit removed elongated hard feather tips; the final bird remains down dominant, low, tail-concealed and continuously supported. Adults remain near equal in visible height. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251. Immutable readback pending.
+- V5 preserves v1–v4 and selects the directly documented approximately-20-day exceptional balcony nestling. One juvenile-wing-only edit removed elongated hard feather tips; the final bird remains down dominant, low, tail-concealed and continuously supported. Adults remain near equal in visible height. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251. Archive `2946479a5dcf1921c78e75160b2bd4450ba797d2`, tree `e12148efdddb6a3f6a6e5e10641b9d42958d01e0`, returned 3,298 non-truncated entries, all 17 required paths and six exact binary path/blob/byte tuples; manifests parse at 717/716/707.
 
 ## #80 Oriental Scops Owl — *Otus sunia* — v5 VERIFIED
 

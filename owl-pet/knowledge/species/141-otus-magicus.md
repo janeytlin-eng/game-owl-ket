@@ -40,10 +40,6 @@ Northern-Moluccan leucospilus reference. Juvenile hard-wing error edited to shor
 Archive `ebdcc3e94360e0576f41c4556954ed22dc64a469`; exact six tuples and manifests passed. [Original](https://github.com/janeytlin-eng/game-owl-ket/blob/ebdcc3e94360e0576f41c4556954ed22dc64a469/owl-pet/design/concepts/141-otus-magicus-v3.png?raw=1). Science=false.
 
 
-## v4 RESEARCH_READY — 2026-11-07T02:53:00+08:00
+## v4 REVIEWED — 2026-11-07T03:04:00+08:00
 
-- Directly re-read uploaded Mikkola printed pp.189–190 / PDF pp.191–192, Sharpe 1875 p.70/Plate VI, Sangster et al. 2013 specimen-comparison sections, and ITIS TSN 555379.
-- Current/original-name mapping: valid *Otus magicus* (S. Müller, 1841); original combination *Strix magica*; historical *Scops leucospilus* maps to current northern-Moluccan *O. m. leucospilus*.
-- V4 design boundary: adults near equal display size; pale leucospilus palette; older feathered juvenile with narrow soft head/crown/neck bars, fainter body marks, short soft wing and short/concealed tail; unknown iris not asserted; branch support and no nest claim.
-- Unknown: exact juvenile age/iris/flight/bill, quantified dimorphism, nest form and continuous feather sequence. Science remains false.
-- Full prompt and source details: `owl-pet/research/species/141-otus-magicus-v4.md`.
+One targeted edit corrected two model overclaims: adult tarsi changed from mostly bare to feathered almost to the toes with only a narrow distal band exposed; the older juvenile's long hard wing changed to a shorter soft fluff-edged formed wing with most tail concealed. Full plate plus adult/support and juvenile crops were opened. Result PASS_WITH_LIMITATIONS; science remains false because stage chronology and other listed fields remain unknown.

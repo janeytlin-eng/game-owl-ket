@@ -25,3 +25,8 @@ For taxa diagnosed by absence of white, write the negative as a whole-body ident
 - **Evidence rule:** when a source explicitly documents a downy chick and color zones but not chronology, select a fully supported resting pose, conceal mature remiges/tail, and label age unknown; do not infer a cavity or fixed sex-size direction.
 - **Applied:** #140 v4 used near-equal adults and a moss/leaf-supported downy chick with no mature wing/tail claim.
 - **Verified in this image:** full plate plus adult/support and chick crops were opened; all contacts and juvenile boundaries passed without edit. This validates the prompt/check rule for this case only, not all owl species.
+
+
+## 2026-11-07 — #141 partial-tarsus and juvenile-wing correction
+
+**Problem:** the initial model expanded “distal 6–9 mm bare” into a mostly bare adult tarsus and gave an age-unknown juvenile a long hard adult-like folded wing. **Evidence:** Mikkola restricts the bare adult portion to the distal tarsus and describes the juvenile only as fluffy/adult-like with narrow head/crown/neck bars. **Change applied:** extend adult leg feathering almost to the toes, leave only a narrow distal band bare, shorten/soften the juvenile wing and conceal most of its tail. **Observed validation:** the full plate and dedicated adult/support and juvenile crops were opened; both overclaims were removed while all feet remained supported. Production rule validated for this case: numeric partial-feathering limits must be stated as a visible anatomical boundary, and unknown flight stage requires soft short wing language plus crop review.

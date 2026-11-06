@@ -2480,3 +2480,22 @@
 - **Decision links:** formed wing does not imply competent flight; v4 remains supported and age unknown rather than assigning a healthy flight stage.
 
 - Reused 5: `PSO-MIRANDA-2011`, `PSO-JOSEF-2012`, `PSO-PROJECTNOAH-2023`, `PSO-OWLPAGES-2012`, `PSO-MIK2013-P170`. DENR Bicol 2026 was a search lead but returned 403 during direct open; it remains unverified and supplies no design fact.
+
+
+## 2026-11-06 — #124 *Ketupa philippensis* v4 — current name and study provenance
+
+### PEO-ITIS-1244715-2026
+- **Institution / record:** Integrated Taxonomic Information System, TSN 1244715; accessed 2026-11-06.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1244715
+- **Actually read:** lines 42–102. Current valid *Ketupa philippensis*; synonyms *Bubo philippensis* and *Pseudoptynx philippensis*; nominate and *mindanensis* listed separately; source IOC v15.1.
+- **Limits / confidence:** taxonomy only; no morphology or development. High for current/synonym mapping.
+- **Decision:** v4 title/current name and old-name mapping; no visual trait derived.
+
+### PEO-NMP-AR2015-P110
+- **Title / institution / year:** *2015 Annual Report* / National Museum of the Philippines / 2015, p.110.
+- **URL:** https://www.nationalmuseum.gov.ph/wp-content/uploads/2021/07/2015-NM-Annual-Report.pdf
+- **Actually read:** PDF lines 1109–1111. The Urriza/Sanchez/Balatibat Philippine Eagle-Owl post-breeding manuscript was recorded as completed and under revision for the National Museum journal.
+- **Limits / confidence:** institutional provenance and work status only; no plumage or age fact. High for provenance, none for design geometry.
+- **Decision:** supports continuity of the reused 2017 article; it does not add a development claim.
+
+- Reused/freshly reread: `PEO-URRIZA-2017`, `PEO-OCHAVO-2012`, `PEO-MIK2013-P294`, `PEO-ARTUSO-2015`, `PEO-AVIBASE-MAPPING`. Full boundaries/prompt: `research/species/124-ketupa-philippensis-v4.md`. Science false.

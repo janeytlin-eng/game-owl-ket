@@ -25051,8 +25051,8 @@
       "lease": {
         "owner": "codex-20261106-owl-production",
         "run_id": "20261106T205254+0800-cycle-4",
-        "heartbeat_at": "2026-11-06T21:00:26.049+08:00",
-        "expires_at": "2026-11-06T21:15:26.049+08:00",
+        "heartbeat_at": "2026-11-06T21:01:33.153+08:00",
+        "expires_at": "2026-11-06T21:16:33.153+08:00",
         "batch_id": "20261106T193155+0800",
         "cycle": 4
       },
@@ -25063,7 +25063,7 @@
         "species": "Ketupa philippensis",
         "action": "SCIENCE_REVISION",
         "version": 4,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261106T205254+0800-cycle-4.md",
         "started_at": "2026-11-06T20:52:54.448+08:00",
         "research_record": "owl-pet/research/species/124-ketupa-philippensis-v4.md",
@@ -25097,11 +25097,15 @@
           "design_manifest": 739,
           "production_image_manifest": 729
         },
-        "readback_pending": true
+        "readback_pending": false,
+        "verified_at": "2026-11-06T21:01:33.153+08:00",
+        "archive_commit": "d79933f34ddca34c091d5377c054ac79f0297eb0",
+        "archive_tree": "9eaf71b7e84dd8a0735b9df2a2d5f4e2a4234b1f",
+        "exact_readback": true
       },
       "started_at": "2026-11-06T19:31:55+08:00",
       "last_verified_commit": "7568e181099dd135a7c5412d438c47eeee9baef9",
-      "updated_at": "2026-11-06T21:00:26.049+08:00",
+      "updated_at": "2026-11-06T21:01:33.153+08:00",
       "stage_events": [
         {
           "cycle": 2,
@@ -25287,6 +25291,21 @@
           "total_scope": 251,
           "readback_pending": true,
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "stage": "VERIFIED",
+          "at": "2026-11-06T21:01:33.153+08:00",
+          "species_id": 124,
+          "species": "Ketupa philippensis",
+          "archive_commit": "d79933f34ddca34c091d5377c054ac79f0297eb0",
+          "archive_tree": "9eaf71b7e84dd8a0735b9df2a2d5f4e2a4234b1f",
+          "archive_tree_entries": 3494,
+          "archive_tree_truncated": false,
+          "required_paths_verified": 16,
+          "exact_binary_paths_verified": 6,
+          "result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false
         }
       ]
     }
@@ -25294,8 +25313,8 @@
   "lease": {
     "owner": "codex-20261106-owl-production",
     "run_id": "20261106T205254+0800-cycle-4",
-    "heartbeat_at": "2026-11-06T21:00:26.049+08:00",
-    "expires_at": "2026-11-06T21:15:26.049+08:00",
+    "heartbeat_at": "2026-11-06T21:01:33.153+08:00",
+    "expires_at": "2026-11-06T21:16:33.153+08:00",
     "batch_id": "20261106T193155+0800",
     "cycle": 4
   },
@@ -25431,7 +25450,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-06T21:00:26.049+08:00",
+  "updated_at": "2026-11-06T21:01:33.153+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -26251,7 +26270,7 @@
     "species": "Ketupa philippensis",
     "action": "SCIENCE_REVISION",
     "version": 4,
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "run_record": "owl-pet/production/runs/20261106T205254+0800-cycle-4.md",
     "started_at": "2026-11-06T20:52:54.448+08:00",
     "research_record": "owl-pet/research/species/124-ketupa-philippensis-v4.md",
@@ -26285,7 +26304,11 @@
       "design_manifest": 739,
       "production_image_manifest": 729
     },
-    "readback_pending": true
+    "readback_pending": false,
+    "verified_at": "2026-11-06T21:01:33.153+08:00",
+    "archive_commit": "d79933f34ddca34c091d5377c054ac79f0297eb0",
+    "archive_tree": "9eaf71b7e84dd8a0735b9df2a2d5f4e2a4234b1f",
+    "exact_readback": true
   },
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",

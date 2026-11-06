@@ -25163,7 +25163,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "PEO-ITIS-1244715-2026",
         "PEO-NMP-AR2015-P110",
@@ -25201,9 +25201,18 @@
       "adults_review_size_bytes": 1842096,
       "adults_review_sha256": "18a3e050c228a009bc1b1f288c3569b354870c08b50a5ecf0f455fc305d9212d",
       "reviewed_at": "2026-11-06T20:59:11.202+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3, uses ITIS current-name mapping and National Museum study provenance, and retains at-least-70-days as a minimum rather than an exact label. One juvenile-wing edit removed a long adult-like panel. Exact age/sex, iris/down/remige chronology and sex ratio remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3, uses ITIS current-name mapping and National Museum study provenance, and retains at-least-70-days as a minimum rather than an exact label. One juvenile-wing edit removed a long adult-like panel. Exact age/sex, iris/down/remige chronology and sex ratio remain unknown; science false.",
+      "archive_commit": "d79933f34ddca34c091d5377c054ac79f0297eb0",
+      "archive_tree": "9eaf71b7e84dd8a0735b9df2a2d5f4e2a4234b1f",
+      "archive_tree_entries": 3494,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 6,
+      "verified_at": "2026-11-06T21:01:33.153+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable readback returned 3,494 non-truncated entries; 16 required paths and 6 exact image tuples passed; manifests 738/739/729; concept blob matched. Science false."
     }
   ],
   "updated_at": "2026-11-06T19:55:10+08:00"

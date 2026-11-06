@@ -1,3 +1,28 @@
+## 2026-11-06 — #105 *Ptilopsis granti* v8 — morphology/taxonomy re-read
+
+### SWFO-ADW-2014 — newly indexed, institutional secondary account opened
+- Title/author/institution: *Ptilopsis granti*; Amanda O'Farrill; Animal Diversity Web / University of Michigan
+- Updated/year/type: 2014 account; institutional secondary synthesis
+- URL: https://animaldiversity.org/accounts/Ptilopsis_granti/
+- Accessed: 2026-11-06
+- Read sections: Physical Description lines 57–64; Reproduction lines 87–119
+- Facts used: white/pale-grey black-rimmed face, orange-red eyes, long streaked tufts, pale cream bill, grey streaked plumage; leg feathers extend to basal half of toes with dusky distal toes/dark claws; male 185–240 g and female 215–275 g ranges overlap; downy-white chicks/yellow-grey eyes and less strongly patterned fledged young.
+- Limits/conflicts: secondary chronology and an obvious length-unit typo at lines 77–79; do not use its exact age schedule or fixed height ratio. Overlapping mass ranges forbid mechanical female-larger composition.
+- Design use: near-equal adult height with subtly fuller female; basal-toe feathering; older juvenile less patterned with yellow-grey eyes.
+- Confidence: medium for synthesis; lower for chronology.
+
+### SWFO-ITIS-686682 — newly indexed, taxonomy record opened
+- Title/institution: ITIS report *Ptilopsis granti*, TSN 686682
+- URL: https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686682
+- Accessed: 2026-11-06
+- Type/sections: authoritative taxonomy database; lines 42–111
+- Facts: current valid *Ptilopsis granti*; synonyms *Otus leucotis granti* and *Pisorhina leucotis granti*; separate from *Ptilopsis leucotis*.
+- Limits: taxonomy only; no morphology/development inference.
+- Design use: exact current/legacy label mapping.
+- Confidence: high for taxonomy.
+- Reused: SWFO-JWVH-2024 hospital p.16/PDF17 older-juvenile photograph record; exact age/flight remains unknown. Featherbase timed out and was not used.
+- Mikkola upload unavailable; no new claim. Science false.
+
 ## 2026-11-06 — #104 *Asio madagascariensis* v5 — full primary chapter plus dated stage photographs
 
 ### MLO-RDR-GOODMAN2003 — newly indexed, original chapter read

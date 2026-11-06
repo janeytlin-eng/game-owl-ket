@@ -942,3 +942,8 @@ When a secondary institutional account says one sex is “slightly larger” but
 
 For older juveniles, direct photographs can support both loose down and a formed wing. Do not erase the formed wing merely because the body is fluffy; instead constrain its length, edge softness and marking regularity to the photographed stage. Applied and visually checked in #113 v7; exact age and flight competence remain unknown.
 
+
+
+### Evidence-bounded developed flight feathers (applied #120 v4, 2026-11-06)
+
+When a primary source describes primaries, secondaries and tertials as considerably developed in a still down-rich chick, do not render either a tiny wing bud or an adult-perfect folded wing. Use a bounded, down-veiled cluster and separately check its endpoint relative to the feet, tail concealment, support and documented action ability. Applied and visually verified for #120 v4 only; broader effectiveness remains untested.

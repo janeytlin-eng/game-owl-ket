@@ -7,6 +7,8 @@
 - Concept/generated/reviewed expected blob `d6e9655bf3bee342d98de5f15e5d482bb5e93d79`; juvenile crop `5284a515cf5ed463e759f792ffb096eaf0b07207`; adults/support crop `68d8ca684d15050b60f05572dca4202543f9f8aa`.
 - Manifests 724/725/715; immutable readback pending; no cycle credit yet.
 
+- Immutable archive `64942c9c1f8b544323a4229c1b3de0452b586bbc` / tree `30632885ac2de145ba2d873fab689be8a8650432` passed 3,367-entry non-truncated readback, ten required paths, five exact image tuples and remote manifest parsing at 724/725/715. Ledger credit pending.
+
 ## 20261106T003403+0800 cycle 2 — #78 *Asio capensis* v5 VERIFIED
 
 - Concept/generated/reviewed master expected blob `64dd84bf2de4bc12591c20358bf908decd70c8ed`; adult/support crop `1d727b6a5596b19b131a0da6ffd67605a0b7c783`; juvenile crop `4ff1421a19b3d31bfbf4003c0798507559576c17`.

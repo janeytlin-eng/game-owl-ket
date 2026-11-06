@@ -2,6 +2,10 @@
 
 Batch `20261106T123716+0800` cycle 2/6. Four new/corrected source records and two reused records; two image edits corrected v3’s tall horned-owl proportions, pale facial discs, oversized feet and uniform curly juvenile. Final full image plus juvenile and adults/support crops pass with limitations. Manifests 724/725/715; unique remains 176/251; science false; immutable readback pending.
 
+### #108 v4 immutable archive verified — ledger credit pending
+
+Archive `64942c9c1f8b544323a4229c1b3de0452b586bbc` / tree `30632885ac2de145ba2d873fab689be8a8650432` returned 3,367 non-truncated entries. Ten required paths, all five image tuples and remotely parsed manifests 724/725/715 passed; science false.
+
 ## 2026-11-06 — #105 *Ptilopsis granti* v8 archived, verification pending
 
 Cycle 6/6 archive writes concept/generated/reviewed/crops and manifests 723/722/713. Unique species remain 176/251; science false.

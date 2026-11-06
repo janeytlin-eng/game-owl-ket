@@ -2,6 +2,8 @@
 
 Science revision preserving v1–v3. Indexed four new/corrected source records and reused two. Two image edits corrected adult compactness/facial colour/feet and juvenile down-stage identity. Final full/crop review `PASS_WITH_LIMITATIONS`; manifests 724/725/715; unique 176/251; science false; immutable readback pending.
 
+- Verified immutable archive `64942c9c1f8b544323a4229c1b3de0452b586bbc` / tree `30632885ac2de145ba2d873fab689be8a8650432`: 3,367 non-truncated entries, ten required paths, five exact image tuples and manifests 724/725/715 passed; ledger credit pending.
+
 ## 2026-11-06 — #105 *Ptilopsis granti* v8
 
 Science revision preserving v1-v7; reopened ADW/ITIS, applied overlapping-mass and basal-toe boundaries, passed full/crops without edit; science false.

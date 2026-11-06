@@ -24185,7 +24185,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 2,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "RUT-ITIS-202268-2026",
         "RUT-RASMUSSEN-ETAL-2000",
@@ -24220,8 +24220,16 @@
       "adults_review_size_bytes": 1983529,
       "adults_review_sha256": "d831ff8256da1c176ff817f584b419618acb0e3b600780fa8c96a68891578be9",
       "reviewed_at": "2026-11-06T13:18:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V4 preserves v1-v3 and corrects whole-body identity after two edits: compact warm-faced eastern adults with small tufts/feet and a direct-photo-bounded Andasibe juvenile with loose brown down, dark mask, pale brow/crown, hidden tail and continuous support. Exact age/flight/sex ratio/nest unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V4 preserves v1-v3 and corrects whole-body identity after two edits: compact warm-faced eastern adults with small tufts/feet and a direct-photo-bounded Andasibe juvenile with loose brown down, dark mask, pale brow/crown, hidden tail and continuous support. Exact age/flight/sex ratio/nest unknown; science false.",
+      "verified_at": "2026-11-06T13:24:00.000+08:00",
+      "archive_commit": "64942c9c1f8b544323a4229c1b3de0452b586bbc",
+      "archive_tree": "30632885ac2de145ba2d873fab689be8a8650432",
+      "archive_tree_entries": 3367,
+      "archive_tree_truncated": false,
+      "exact_readback": true,
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable tree readback matched ten required paths, five exact image blob/size tuples and remotely parsed manifest counts 724/725/715; scientific verification remains false."
     }
   ],
   "updated_at": "2026-11-06T12:55:30.000+08:00"

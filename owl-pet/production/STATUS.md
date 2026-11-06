@@ -9,6 +9,8 @@
 
 - Immutable archive `64942c9c1f8b544323a4229c1b3de0452b586bbc` / tree `30632885ac2de145ba2d873fab689be8a8650432` passed 3,367-entry non-truncated readback, ten required paths, five exact image tuples and remote manifest parsing at 724/725/715. Ledger credit pending.
 
+- Verification commit `0a684d936bc74c96145bc31dfa4a68af7a0941f0` / tree `6a9444b9aa54424a76ed264cad07df337d11f78b` credited cycle 2 once. Batch 2/6, next cycle 3, lease released; unique 176/251; science false.
+
 ## 20261106T003403+0800 cycle 2 — #78 *Asio capensis* v5 VERIFIED
 
 - Concept/generated/reviewed master expected blob `64dd84bf2de4bc12591c20358bf908decd70c8ed`; adult/support crop `1d727b6a5596b19b131a0da6ffd67605a0b7c783`; juvenile crop `4ff1421a19b3d31bfbf4003c0798507559576c17`.

@@ -4,6 +4,8 @@ Science revision preserving v1–v3. Indexed four new/corrected source records a
 
 - Verified immutable archive `64942c9c1f8b544323a4229c1b3de0452b586bbc` / tree `30632885ac2de145ba2d873fab689be8a8650432`: 3,367 non-truncated entries, ten required paths, five exact image tuples and manifests 724/725/715 passed; ledger credit pending.
 
+- Credited #108 v4 verification `0a684d936bc74c96145bc31dfa4a68af7a0941f0` once; active batch is 2/6, next cycle 3, lease released. Unique 176/251; revision +1; science false.
+
 ## 2026-11-06 — #105 *Ptilopsis granti* v8
 
 Science revision preserving v1-v7; reopened ADW/ITIS, applied overlapping-mass and basal-toe boundaries, passed full/crops without edit; science false.

@@ -6,6 +6,10 @@ Batch `20261106T123716+0800` cycle 2/6. Four new/corrected source records and tw
 
 Archive `64942c9c1f8b544323a4229c1b3de0452b586bbc` / tree `30632885ac2de145ba2d873fab689be8a8650432` returned 3,367 non-truncated entries. Ten required paths, all five image tuples and remotely parsed manifests 724/725/715 passed; science false.
 
+### #108 v4 LEDGER_CREDITED — active batch 2/6
+
+Verification commit `0a684d936bc74c96145bc31dfa4a68af7a0941f0` / tree `6a9444b9aa54424a76ed264cad07df337d11f78b` is credited once. Next cycle is 3; lease released; unique remains 176/251; science false.
+
 ## 2026-11-06 — #105 *Ptilopsis granti* v8 archived, verification pending
 
 Cycle 6/6 archive writes concept/generated/reviewed/crops and manifests 723/722/713. Unique species remain 176/251; science false.

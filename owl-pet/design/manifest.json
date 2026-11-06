@@ -25338,7 +25338,70 @@
       "verified_at": "2026-11-06T22:53:00+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive tree returned 3,530 non-truncated entries; 17 required paths and seven exact image blob/size tuples passed. Final master 2,861,919 bytes, initial generation 3,029,498 bytes, crops matched; manifests 742/743/733; science false."
+    },
+    {
+      "id": "132-strix-davidi-v4",
+      "path": "design/concepts/132-strix-davidi-v4.png",
+      "species_id": 132,
+      "scientific_name": "Strix davidi",
+      "current_name_mapping": "Strix uralensis davidi",
+      "historical_names": [
+        "Syrnium davidi",
+        "Strix uralensis davidi"
+      ],
+      "common_name": "Sichuan Wood Owl / Pere David's Owl",
+      "scope": "davidi unit; Lianhuashan approximately four-week nest-box young; project taxon retained while IOC v15.1 treats it as Ural Owl subspecies",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 0,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "DAV-SCHERZINGER-2014",
+        "DAV-MIK2013-348",
+        "DAV-SCHERZINGER-FANG-2006",
+        "DAV-FANG-ETAL-2009",
+        "DAV-IOC-15.1-LUMP-2026",
+        "DAV-ITIS-686975-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/132-strix-davidi-v4.md",
+      "review_record": "research/reviews/132-strix-davidi-v4-review.md",
+      "run_record": "production/runs/20261106T2301180800-cycle-3.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 2867643,
+      "sha256": "f3428814ac5ce6a71d78f22171e9b944110545332e337c9a4e25856878cd2532",
+      "git_blob": "31e94975740d5765e0fa8970ea67d513fc29f1f6",
+      "generated_path": "production/generated/132-strix-davidi-v4-generated-master.png",
+      "generated_blob": "31e94975740d5765e0fa8970ea67d513fc29f1f6",
+      "generated_sha256": "f3428814ac5ce6a71d78f22171e9b944110545332e337c9a4e25856878cd2532",
+      "generated_size_bytes": 2867643,
+      "reviewed_path": "production/reviewed/132-strix-davidi-v4-reviewed-master.png",
+      "reviewed_blob": "31e94975740d5765e0fa8970ea67d513fc29f1f6",
+      "juvenile_review_crop": "production/review-crops/132-strix-davidi-v4-nestling.png",
+      "juvenile_review_blob": "e202ea3618940040385e04902d4d797652645fa6",
+      "juvenile_review_size_bytes": 643676,
+      "juvenile_review_sha256": "711d576b8809d9b07f3f957880a9c945251f8a6a898fdc6198168779ad5730a1",
+      "adults_review_crop": "production/review-crops/132-strix-davidi-v4-adults-support.png",
+      "adults_review_blob": "96a746be51d523f49af2be03b2cf8d765062c9f9",
+      "adults_review_size_bytes": 2052242,
+      "adults_review_sha256": "68ef8bc3e578c81d52217edb677896e36b754a8e566fdec91dd7265c1755d8e7",
+      "reviewed_at": "2026-11-06T23:11:14+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. Primary Scherzinger et al. 2014 and uploaded Mikkola pp.350-351 were re-read; current IOC/ITIS subspecies mapping recorded. Adult mirror posing was corrected through fresh generation; four-week mesoptile remains evidence-bounded. Exact hatch day, flight threshold, feather sequence, sex ratio and final species/subspecies consensus remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T22:53:00+08:00"
+  "updated_at": "2026-11-06T23:11:14+08:00"
 }

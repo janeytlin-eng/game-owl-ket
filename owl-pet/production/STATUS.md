@@ -325,3 +325,11 @@ Verification commit `05ae9e740d80a6a8ddb3a7af732ce65e0ceb55ba` was read back aft
 ## 2026-11-06 22:54 +08 — batch 20261106T222600+0800 now 2/6
 
 - Cycle 2 #131 v4 verified and credited. Next cycle: 3. Unique species 176/251; revision +1; science false; lease released.
+
+
+## 2026-11-06 — cycle 3/6 #132 *Strix davidi* v4
+
+- Stage: ARCHIVED; immutable readback and ledger credit pending.
+- Full original/reviewed 1536×1024, 2,867,643 bytes; concept/generated/reviewed blob `31e94975740d5765e0fa8970ea67d513fc29f1f6`.
+- Review crops opened; no edit required; PASS_WITH_LIMITATIONS; science false.
+- Manifest projections now 743 / 744 / 734; unique species stays 176/251.

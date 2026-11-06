@@ -39,3 +39,14 @@ FullPNG3155885bytes1536x1024 SHA256c34151703cf5ba90b9a95094f8531315a3ec4cd54713f
 - New primary context: DAV-SCHERZINGER-FANG-2006 pp.3–12 and DAV-FANG-ETAL-2009 pp.649–650 support high-elevation Lianhuashan conifer forest, artificial nest boxes 4–6 m high and no nest material. The box is a study context, not a universal natural cavity prescription.
 - Taxonomy: current sources conflict between species *S. davidi* and subspecies *S. uralensis davidi*. Project #132 and denominator251 are retained pending a verified roster-wide change; historical *Syrnium davidi* maps to the same unit.
 - Full master, nestling crop and feet crop opened; edit0; PASS_WITH_LIMITATIONS. Exact hatch day, flight threshold, tract geometry, population-wide sex ratio and checklist consensus remain unknown; science false. [Research](../../research/species/132-strix-davidi-v3.md) · [Run](../../production/runs/20261031T183900+0800-cycle-6.md).
+
+
+## v4 science revision — 2026-11-06
+
+- Existing v3 opened at full resolution: adult and young morphology broadly passed, but adult staging remained close to mirrored front poses.
+- Primary `DAV-SCHERZINGER-2014` was re-read at pp.54–55, 59–63, 68–69, 74–76 and Figs.2,5,11,13. It rejects bold concentric facial rings, supports radial streaks/dark adults/long tails and directly documents the about-four-week woolly barred mesoptile.
+- Uploaded `DAV-MIK2013-348` was re-read at PDF pp.350–351 / printed pp.348–349. Its broad identity/habitat account was retained, while “always much larger” female and bold face rings were not encoded because they conflict with the newer field series.
+- Current IOC v15.1 / ITIS mapping is *Strix uralensis davidi*; historical *Strix davidi* and *Syrnium davidi* remain the same repository #132 unit. No denominator change.
+- Fresh v4 generation opened in full and as two crops. Three owls, six natural contacts, dark-eyed radial-face adults, down-rich supported four-week young and bare artificial box sill pass; edit0; PASS_WITH_LIMITATIONS; science false.
+- Exact hatch day, flight threshold, complete feather sequence, population-wide sex-size ratio and final taxonomic consensus remain unknown.
+- [Research](../../research/species/132-strix-davidi-v4.md) · [Review](../../research/reviews/132-strix-davidi-v4-review.md) · [v4 original](../../design/concepts/132-strix-davidi-v4.png)

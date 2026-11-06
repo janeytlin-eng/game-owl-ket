@@ -1029,3 +1029,12 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Evidence:** Mikkola printed p.235 says juvenile unknown; WAT-DAFFONSECA-2017 shows a fluffy older young with formed wing largely hidden.
 - **Change:** imagegen edit 1 replaced the long panel with a compact emerging-covert cluster and down overlap, ending well above both feet.
 - **Validation:** edited whole plate plus juvenile and support crops opened; six contacts, hidden tail and compact wing passed. This is evidence of one successful application, not a universal developmental timetable.
+
+
+### 2026-11-06 — pose asymmetry must not become invented sex dimorphism (#132 v4)
+
+- **Found:** replacing mirror-clone adults can accidentally encode the new pose as a sex rule or exaggerate female size.
+- **Evidence:** the primary davidi series supports posture-dependent facial presentation and limited sex cues, while the sample is too small for a fixed visible size ratio; Mikkola’s “always much larger” claim is not adopted.
+- **Applied:** v4 keeps near-equal structural crown height but gives the adults different head/body angles; pose is treated as individual behavior, not sexual diagnosis.
+- **Checked:** full plate and adults/support crop reopened; adult identity, six supports and near-equal display height passed. One asset-level application only; not a catalog-wide validation.
+- Evidence: `owl-pet/research/reviews/132-strix-davidi-v4-review.md`.

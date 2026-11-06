@@ -2851,3 +2851,33 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - A 1988 Gosse Bird Club/BirdsCaribbean citation “Jamaican Owl feeds juvenile on frog” was located, but the underlying note was not recovered and read. It remains an unverified behavioral lead and is not used to specify juvenile age, posture, plumage or nest.
 
 **Run synthesis:** six central-index records added (four directly read/re-opened this run; two preserved prior reads), one unverified lead retained but excluded from design. Exact juvenile age/iris/flight/sequence, nest form, and sex-size direction remain unknown; scientific verification remains false.
+
+
+## 2026-11-07 — #143 *Asio solomonensis* v3 — juvenile source reread and current-name mapping
+
+### FEO-LOYN-DEBUS-2000-P288-289
+- **Title/authors/year:** “Description of Juvenile Fearful Owl *Nesasio solomonensis*” — Richard H. Loyn & S. J. S. Debus, 2000, *Australian Bird Watcher* 18(7):288–289.
+- **URL/accessed/type:** https://afo.birdlife.org.au/afo/index.php/afo/article/download/215/205 ; accessed 2026-11-07; primary field paper and photographs.
+- **Pages/figure actually read:** printed pp.288–289; Plate 79 and caption.
+- **Facts/design use:** the Bougainville young was lively, walked and bounced on the ground and perched on railings; it had long unbarred down on head and underparts, a dark facial mask, emerging barred light/dark-brown dorsal and wing feathers, orange-yellow irides, blue-grey cere, black bill and grey feet. The only reported natal site was a hollow tree in lowland forest.
+- **Limits/conflict:** a single rescued bird of unknown age and sex; no flight test or full feather sequence. The railing is documented temporary care context, not a universal nest. High confidence for visible juvenile morphology and supported locomotion; low for chronology/generalization.
+- **Supports:** `owl-pet/research/species/143-asio-solomonensis-v3.md`; v3 prompt/review.
+
+### FEO-ITIS-1244693-2026
+- **Institution/title:** Integrated Taxonomic Information System — *Asio solomonensis* TSN 1244693.
+- **URL/accessed/type:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1244693&source=to_print ; accessed 2026-11-07; authoritative taxonomy database.
+- **Section actually read:** taxonomy/nomenclature, lines 6–33 and source notes lines 57–65.
+- **Facts/design use:** *Asio solomonensis* is valid; *Nesasio solomonensis* and *Pseudoptynx solomonensis* are mapped synonyms; common name Fearful Owl.
+- **Limits:** nomenclature only; no morphology or development support.
+
+### FEO-AVIBASE-8251FDDB-2026
+- **Institution/title:** Avibase — Fearful Owl, taxonomic concept 8251FDDB.
+- **URL/accessed/type:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=8251FDDB47459E76&lang=EN ; accessed 2026-11-07; taxonomic crosswalk/database.
+- **Sections actually read:** classification, original description, range and taxonomy-concept timeline.
+- **Facts/design use:** current concept uses *Asio solomonensis*; protonym *Pseudoptynx solomonensis*; historical and BirdLife treatments retain *Nesasio solomonensis*; range Bougainville, Choiseul and Isabel.
+- **Limits:** database aggregation; no juvenile morphology support. Used only to prevent old/current-name mismatch.
+
+### Reuse and design decision
+- Reused the archived #143 v2 research record and its already extracted adult boundary; no unverified adult sex-size ratio was added.
+- User-uploaded Mikkola guide was not accessible in this execution and is not cited as freshly read.
+- New indexed sources: 3; reused repository record: 1. Exact age, sex, first-flight timing, quantitative dimorphism, continuous feather sequence and universal nest geometry remain unknown; `scientifically_verified=false`.

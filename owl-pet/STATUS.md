@@ -3554,7 +3554,8 @@ Fixed archive [`44bf7f475697f606a578530e95aa4eb3f2be3a48`](https://github.com/ja
 
 New active batch `20261106T123716+0800`, cycle 1/6. Two new source IDs, one re-read source and two reused repository records; one imagegen revision; full plus two crop inspections pass. Archive `8f5991f374e65cbefa870124388491724a0a4597`, tree `7f82d3c3f32aa8f393cf7356b4c006de727dd822`, 3,359 non-truncated entries, five exact image tuples and manifests 723/724/714 passed. Verification commit `d33edbcd1b70ffa23f7efcedf33389f7c488d225` was read back; cycle credited once and next cycle is 2. Unique species remain 176/251 because this is a revision. Scientific verification remains false.
 
-## 2026-11-06 #113 Ninox natalis v7 — ARCHIVED, readback pending
+## 2026-11-06 #113 Ninox natalis v7 — VERIFIED
 
-New species +0; revision +1; unique archived species 176/251. One imagegen edit produced a 1536×1024 trio and was actually inspected as a full plate and two crops. Adult identity, near-equal sex display, small wing spots, down-rich formed-wing juvenile and six branch contacts pass with limitations. Exact juvenile age/flight, sex ratio and feather geometry remain unknown; science false. Research index: research/SOURCE_INDEX.md (5 new/corrected, 1 reused). Archive verification and ledger credit are pending.
+New species +0; revision +1; unique archived species 176/251. One imagegen edit produced a 1536×1024 trio and was actually inspected as a full plate and two crops. Adult identity, near-equal sex display, small wing spots, down-rich formed-wing juvenile and six branch contacts pass with limitations. Exact juvenile age/flight, sex ratio and feather geometry remain unknown; science false. Research index: research/SOURCE_INDEX.md (5 new/corrected, 1 reused). Immutable archive c658cdd686751efe6dee870d09497e82cc06d742 readback matched 13 paths, original PNG size/hash and manifest counts 726/727/717. Ledger credit pending.
+
 

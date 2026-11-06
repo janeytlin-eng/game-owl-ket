@@ -273,5 +273,5 @@
 
 ## Batch 20261106T123716+0800 cycle 4 — #113 Ninox natalis v7
 
-Stages RESEARCH_READY, IMAGE_GENERATED and REVIEWED are persisted. ARCHIVED metadata prepared at manifest counts 726/727/717; unique species remains 176/251 and revision increment is 1. Full/crop review result PASS_WITH_LIMITATIONS; scientific verification false. Remote archive commit/readback is pending.
+Stages RESEARCH_READY, IMAGE_GENERATED, REVIEWED, ARCHIVED and VERIFIED are persisted. Immutable archive c658cdd686751efe6dee870d09497e82cc06d742 matched 13 required paths, the original-resolution PNG and parsed manifests 726/727/717. Unique species remains 176/251 and revision increment is 1. Full/crop review result PASS_WITH_LIMITATIONS; scientific verification false. Ledger credit pending.
 

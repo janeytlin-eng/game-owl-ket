@@ -24155,7 +24155,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "CIB-DCCEEW-HILL-2004",
         "CIB-WAM-JOHNSTONE-2016",
@@ -24190,9 +24190,17 @@
       "adults_review_size_bytes": 2019807,
       "adults_review_sha256": "ff9de9b8ae24c035fcdcafe1df5789358736d74331908a923c1cf2181c766ea5",
       "reviewed_at": "2026-11-06T14:54:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V7 preserves v1-v6 and resolves the duplicated conflicting v5 hashes/v6 missing archive chain by creating one unambiguous new version. Adult spots are smaller and sexes remain near equal because measured wing ranges overlap. The direct-photo older juvenile is down-rich with a formed short rounded wing and natural branch support. Exact age, flight threshold, sex ratio and feather map remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V7 preserves v1-v6 and resolves the duplicated conflicting v5 hashes/v6 missing archive chain by creating one unambiguous new version. Adult spots are smaller and sexes remain near equal because measured wing ranges overlap. The direct-photo older juvenile is down-rich with a formed short rounded wing and natural branch support. Exact age, flight threshold, sex ratio and feather map remain unknown; science false.",
+      "archive_commit": "c658cdd686751efe6dee870d09497e82cc06d742",
+      "archive_tree": "bb43ec5d3d1106fceb291f096293df1b10b5c63f",
+      "archive_tree_entries": 3383,
+      "archive_tree_truncated": false,
+      "verified_at": "2026-11-06T15:03:00.000+08:00",
+      "exact_readback": true,
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable c658cdd6 tree readback found 13 required paths in a non-truncated 3383-entry tree. Original-resolution PNG downloaded by immutable commit matched 2708588 bytes and SHA-256; remote manifests parsed at 726/727/717. Science remains false."
     }
   ],
-  "updated_at": "2026-11-06T14:56:00.000+08:00"
+  "updated_at": "2026-11-06T15:03:00.000+08:00"
 }

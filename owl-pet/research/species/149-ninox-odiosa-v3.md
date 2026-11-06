@@ -59,3 +59,8 @@ Binary evidence: reviewed master 2,878,850 bytes, SHA-256 `2aaf15ae69a158ad1a21c
 ## Archive checkpoint — 2026-11-07T05:59:32+08:00
 
 Concept, original generation, edited reviewed master, two review crops, research/review records and three manifests were persisted. Unique species remains 176/251; this is revision +1 and awaits immutable readback.
+
+
+## Immutable readback — 2026-11-07T06:01:18+08:00
+
+Archive `7176fb71b2990e89b73582ada698b40853b87f6d` / tree `7270e082effd7f0f906a3b9f8cabcd312cb38326` was read by 16 exact paths. Five image paths matched the expected blobs, and all three manifests parsed with counts 757/758/748 and #149 v3 as the last entry. PASS_WITH_LIMITATIONS; ledger credit pending; scientifically_verified=false.

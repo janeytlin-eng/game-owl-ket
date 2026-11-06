@@ -75,3 +75,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 - Initial generated juvenile wing was too long, crisp and adult-spotted. One targeted edit shortened and softened it; edited full image and two crops were viewed.
 - Result: PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=1.
 - Research: `research/species/149-ninox-odiosa-v3.md`; review: `research/reviews/149-ninox-odiosa-v3-review.md`.
+
+
+## #149 v3 verification
+
+- Immutable archive `7176fb71b2990e89b73582ada698b40853b87f6d` / tree `7270e082effd7f0f906a3b9f8cabcd312cb38326` resolved 16 required paths; five image paths matched exact expected blobs and the three manifests parsed at 757/758/748.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.

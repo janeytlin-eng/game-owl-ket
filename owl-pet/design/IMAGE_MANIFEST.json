@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T05:59:32+08:00",
+  "updated": "2026-11-07T06:01:18+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26773,7 +26773,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "NBBOO-GOULD-SHARPE-1884-TEXT",
         "NBBOO-ITIS-555491-2026",
@@ -26807,13 +26807,21 @@
       "adult_review_sha256": "ea25badf094286189857efa3822a5019064fdbf49cb09cff797e6b896ee7bda5",
       "batch_id": "20261107T043300+0800",
       "cycle": 5,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T05:59:32+08:00",
-      "archive_commit_pending": true,
+      "archive_commit_pending": false,
       "evidence_limit": "Adult description directly covers a sexed male; female plumage/size, juvenile exact age, iris sequence, feather chronology and flight threshold remain unknown. Juvenile is intentionally age-unknown and non-flight-capable by depiction.",
-      "exact_readback": false,
-      "ledger_credited": false
+      "exact_readback": true,
+      "ledger_credited": false,
+      "archive_commit": "7176fb71b2990e89b73582ada698b40853b87f6d",
+      "archive_tree": "7270e082effd7f0f906a3b9f8cabcd312cb38326",
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 5,
+      "recursive_tree_listing_available": false,
+      "binary_content_fetch_available": false,
+      "verified_at": "2026-11-07T06:01:18+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T05:59:32+08:00"
+  "updated_at": "2026-11-07T06:01:18+08:00"
 }

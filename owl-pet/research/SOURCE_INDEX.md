@@ -1,3 +1,29 @@
+## 2026-11-06 — #103 *Tyto longimembris* v5 — expanded primary development reading
+
+### EGO-DUNLOP2016 — corrected/expanded existing record
+- Title: Reproduction, social behaviour and captive husbandry in the eastern grass owl (*Tyto longimembris*)
+- Authors: Ric Dunlop; Philip Pain
+- Year/source: 2016, *Journal of Zoo and Aquarium Research* 4(4):169–173
+- DOI/URL: https://doi.org/10.19227/jzar.v4i4.166 ; https://jzar.org/jzar/article/download/166/117/1250
+- Accessed: 2026-11-06
+- Type: original captive study; open full text actually read
+- Species/stage: Australian *T. longimembris*; nestlings, approximately 55–69 day mesoptile/first plumage, captive adults
+- Pages/figures/tables: pp.169–173; p.171 Table 1; p.172 Fig.1 and plumage section; p.172–173 Table 3
+- Facts: natal down dries cream-white; rich golden-brown powder-puff mesoptile appears from about day 55 through day 65; later first plumage is dark tawny above with white tips and mid-tawny below, and the face at down-loss is dark tawny with white tips. Fig.1 identifies a female chick at 55 and 69 days. Table 3 reports unsexed-chick measurements at days 1/46/57/69 but has no wing/tail value at day 57; wing is 116 mm at day 46 and 215 mm at day 69, tail 35 and 67 mm. The paper explicitly cautions about captive observations.
+- Decision: retain the day-55 captive-reference label, rich golden second down and partial emerging facial feathers; do not interpolate day-57 wing/tail or claim fledging/flight.
+- Limits/confidence: high for the described captive birds/stages; limited generalization to wild timing or population-wide development.
+- Links: research/103-tyto-longimembris-v5.md; design/concepts/103-tyto-longimembris-v5.png
+
+### EGO-MV-HLW6386-2026 — new institutional specimen record
+- Title/institution: Specimen HLW 6386 *Tyto longimembris*, Museums Victoria
+- Date/URL: record accessed 2026-11-06; https://collections.museumsvictoria.com.au/specimens/450023
+- Type: museum catalog, dry skin
+- Scope: adult-stage unspecified male, Queensland (Banks/Moa Island, Torres Strait), collected 28 Nov 1919
+- Facts: current catalog name *Tyto longimembris*, sex male, Australian Queensland locality.
+- Decision: supports current-name and Australian-male provenance only; no measurements or visible plumage were supplied, so it does not create new colour/size claims.
+- Limits/confidence: authoritative catalog metadata; not a developmental or morphometric source.
+- Links: research/103-tyto-longimembris-v5.md
+
 ## 2026-11-06 — #102 *Strix nigrolineata* v4 — juvenile plumage and nest-scope cross-check
 
 ### BWO-GERHARDT-1994-JSTOR

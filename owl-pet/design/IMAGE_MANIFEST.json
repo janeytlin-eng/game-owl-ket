@@ -25238,7 +25238,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 1,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "WTSO-SIBUNDOY-2013-P142",
         "WTSO-PERUAVES-PHOTOS2019",
@@ -25275,10 +25275,19 @@
       "adults_review_size_bytes": 1774776,
       "adults_review_sha256": "df3a43b842341ddb39a76a8852f92f2289e5469f8d50eed4d9b06f71a545c03a",
       "reviewed_at": "2026-11-06T21:20:07.354+08:00",
-      "readback_pending": true,
-      "exact_readback": false,
-      "archive_note": "V4 preserves v1-v3. One targeted juvenile-wing edit removed long exposed adult-like remiges while retaining down-dominant supported posture. Exact age, iris/down/remige chronology, first flight, sex ratio and universal regional pattern remain unknown; science false."
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_note": "V4 preserves v1-v3. One targeted juvenile-wing edit removed long exposed adult-like remiges while retaining down-dominant supported posture. Exact age, iris/down/remige chronology, first flight, sex ratio and universal regional pattern remain unknown; science false.",
+      "archive_commit": "82cec449a7ddac3624663abe4446306ffd293ac6",
+      "archive_tree": "5105538f28203eafcd68443eadff990da24bf123",
+      "archive_tree_entries": 3503,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 6,
+      "verified_at": "2026-11-06T21:21:29.273+08:00",
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "verification_note": "Immutable readback returned 3,503 non-truncated entries; 16 required paths and 6 exact image blob/size tuples passed; manifests 739/740/730; concept blob matched. Binary body fetch was unavailable; science false."
     }
   ],
-  "updated_at": "2026-11-06T21:20:07.354+08:00"
+  "updated_at": "2026-11-06T21:21:29.273+08:00"
 }

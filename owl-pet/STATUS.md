@@ -3725,3 +3725,6 @@ Verification `a0ef5804bea7730c21a105ce93a626a0d9f51b04` was read back after arch
 
 
 - 2026-11-07 #150 *Ninox variegata* v3 ARCHIVED in batch `20261107T043300+0800` cycle 6: no edit required after full/crop review; type-series uncertainty preserved. Unique 176/251, revision +1, readback pending, science false.
+
+
+- #150 v3 VERIFIED: archive `99735154d84ff945a4c9ab5d21b59bb80434156a` / tree `f20fbb806bf8e03b04880371edae46205cfc265e`; 16 paths and five exact image blobs passed. Manifests 758/759/749 parsed. Ledger pending; science false.

@@ -102,3 +102,9 @@ Final image viewed after two targeted juvenile-wing edits. The first image had a
 - Full 1536×1024 plate plus juvenile and adults/support crops were viewed. Adult barred identity, near-equal scale, exact labels/count and all six support contacts passed.
 - Juvenile is AGE UNKNOWN, eyes closed, down-soft, short-winged/body-blended and tail-concealed. No edit required.
 - PASS_WITH_LIMITATIONS; scientifically_verified=false; edit_count=0.
+
+
+## #150 v3 verification
+
+- Immutable archive `99735154d84ff945a4c9ab5d21b59bb80434156a` / tree `f20fbb806bf8e03b04880371edae46205cfc265e` resolved 16 required paths; five image blobs matched and manifests parsed 758/759/749.
+- PASS_WITH_LIMITATIONS; scientifically_verified=false; ledger credit pending.

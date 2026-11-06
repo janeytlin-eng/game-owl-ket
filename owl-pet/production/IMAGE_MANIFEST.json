@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T06:09:30+08:00",
+  "updated": "2026-11-07T06:10:28+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26167,7 +26167,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED",
+      "status": "VERIFIED",
       "source_ids": [
         "NIBO-VOISIN-2011-TYPES",
         "NIBO-MNHN-2010-278-2026",
@@ -26201,13 +26201,21 @@
       "adult_review_sha256": "c491395888bbc63da41ad8264787e107511970386073309fbc54abc30046f25e",
       "batch_id": "20261107T043300+0800",
       "cycle": 6,
-      "readback_pending": true,
+      "readback_pending": false,
       "archived_at": "2026-11-07T06:09:30+08:00",
-      "archive_commit_pending": true,
+      "archive_commit_pending": false,
       "evidence_limit": "Both named syntypes lack sex/age data. Adult account partly relies on secondary synthesis; sex direction, exact juvenile age, iris/remex/tail chronology, flight threshold and nest details remain unknown.",
-      "exact_readback": false,
-      "ledger_credited": false
+      "exact_readback": true,
+      "ledger_credited": false,
+      "archive_commit": "99735154d84ff945a4c9ab5d21b59bb80434156a",
+      "archive_tree": "f20fbb806bf8e03b04880371edae46205cfc265e",
+      "required_paths_verified": 16,
+      "exact_binary_paths_verified": 5,
+      "recursive_tree_listing_available": false,
+      "binary_content_fetch_available": false,
+      "verified_at": "2026-11-07T06:10:28+08:00",
+      "verification_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T06:09:30+08:00"
+  "updated_at": "2026-11-07T06:10:28+08:00"
 }

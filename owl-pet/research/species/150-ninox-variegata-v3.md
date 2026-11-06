@@ -49,3 +49,8 @@ Binary evidence: generated/reviewed master 2,777,983 bytes, SHA-256 `36cfd20f763
 ## Archive checkpoint — 2026-11-07T06:09:30+08:00
 
 Concept, generated/reviewed master, two crops, research/review records and three manifests persisted. Unique 176/251; revision +1; immutable readback pending.
+
+
+## Immutable readback — 2026-11-07T06:10:28+08:00
+
+Archive `99735154d84ff945a4c9ab5d21b59bb80434156a` / tree `f20fbb806bf8e03b04880371edae46205cfc265e` resolved 16 required paths; five image paths matched expected blobs, and manifests parsed 758/759/749 with #150 v3 last. PASS_WITH_LIMITATIONS; ledger pending; science false.

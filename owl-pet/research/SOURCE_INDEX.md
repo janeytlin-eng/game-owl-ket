@@ -2456,3 +2456,27 @@
 - Taxonomy only; no morphology or development inference. High confidence for current/synonym mapping.
 
 - Reused after direct re-read: `TBO-ABSA-AGEING-2019` p.1 (strongly overlapping adult measurements; downy juvenile-to-first-immature moult c.3 months after fledging) and `TBO-AFO-TSANG-2022` (DNA-confirmed adult male, dark brown with clean-white spotting). Also reused `TBO-OLSEN-DEBUS-2013-FIG1` and prior Mikkola extraction `TBO-MIKKOLA-2013-P463`; the uploaded guide itself was not mounted in this execution. Detailed boundaries and full prompt: `research/species/121-ninox-leucopsis-v4.md`. Science remains false.
+
+
+## 2026-11-06 — #122 *Otus megalotis* v4 — habitat and conservative flight boundary
+
+### PSO-SANCHEZ-2012
+- **Title / author / year:** *Relative Abundance of the Philippine Scops-Owl Otus megalotis megalotis (Walden) in Marinduque and Mt. Makiling, Philippines* / Michael S. Sanchez / 2012.
+- **URL:** https://citeseerx.ist.psu.edu/document?doi=8264d81298a04051a2e00b774e1aea544d619d6c&repid=rep1&type=pdf
+- **Accessed / type:** 2026-11-06 / peer-reviewed field survey paper with compiled morphology.
+- **Species / stage:** Luzon/Marinduque lowland *O. megalotis* under an older taxonomic frame; adult plus undated juvenile figure.
+- **Actually read:** printed pp.96–100, especially Fig.1 p.99 and adult/habitat text pp.99–100.
+- **Useful evidence:** lowland/secondary-forest settings; gray adult baseline, blackish crown, pale eyebrow, orange-red eyes, ivory-horn bill, heavily feathered tarsus; adult/juvenile comparator.
+- **Limits / confidence:** predates later splits; much morphology is secondary; generic owl hatch timing is not species-specific and is not used. High for surveyed habitat, moderate for compiled adult colors, low for development.
+- **Decision links:** v4 lowland secondary-forest branch setting and adult bill/iris/tarsus boundary; no exact-age juvenile claim. See `research/species/122-otus-megalotis-v4.md`.
+
+### PSO-GMA-PENRO-2015
+- **Title / institution / date:** “Baby Scops Owl rescued in La Union” / GMA News Online with PENRO attribution / 2015-05-29.
+- **URL:** https://www.gmanetwork.com/news/scitech/science/495242/baby-scops-owl-rescued-in-la-union/story/
+- **Accessed / type:** 2026-11-06 / agency-attributed rescue report.
+- **Species / stage:** *O. megalotis*, weakened young bird; exact age unknown.
+- **Actually read:** article lines 3–31; short wings and difficulty flying were reported, with custody transferred to PENRO.
+- **Limits / confidence:** displayed image is an archive adult; weakened condition confounds flight; “under one year” is broad; no measurements. Moderate for this rescue event, low for general development.
+- **Decision links:** formed wing does not imply competent flight; v4 remains supported and age unknown rather than assigning a healthy flight stage.
+
+- Reused 5: `PSO-MIRANDA-2011`, `PSO-JOSEF-2012`, `PSO-PROJECTNOAH-2023`, `PSO-OWLPAGES-2012`, `PSO-MIK2013-P170`. DENR Bicol 2026 was a search lead but returned 403 during direct open; it remains unverified and supplies no design fact.

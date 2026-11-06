@@ -20709,8 +20709,8 @@
         "batch_id": "20261106T073000+0800",
         "cycle": 6,
         "species_id": 99,
-        "heartbeat_at": "2026-11-06T10:02:57.523+08:00",
-        "expires_at": "2026-11-06T10:17:57.523+08:00"
+        "heartbeat_at": "2026-11-06T10:33:45.000+08:00",
+        "expires_at": "2026-11-06T10:48:45.000+08:00"
       },
       "lease": {
         "owner": "codex-production",
@@ -20718,8 +20718,8 @@
         "batch_id": "20261106T073000+0800",
         "cycle": 6,
         "species_id": 99,
-        "heartbeat_at": "2026-11-06T10:02:57.523+08:00",
-        "expires_at": "2026-11-06T10:17:57.523+08:00"
+        "heartbeat_at": "2026-11-06T10:33:45.000+08:00",
+        "expires_at": "2026-11-06T10:48:45.000+08:00"
       },
       "in_progress": {
         "batch_id": "20261106T073000+0800",
@@ -21536,10 +21536,26 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-06T10:17:57.523+08:00"
           }
+        },
+        {
+          "batch_id": "20261106T073000+0800",
+          "cycle": 6,
+          "stage": "RESUMED",
+          "at": "2026-11-06T10:33:45.000+08:00",
+          "run_id": "20261106T100000+0800-cycle-6",
+          "species_id": 99,
+          "credited": false,
+          "evidence": {
+            "resume_from": "RESEARCH_READY",
+            "previous_lease_expired_at": "2026-11-06T10:17:57.523+08:00",
+            "baseline_commit": "6de78f57c4368e670169089c91a99d9d35a2c595",
+            "run_record": "owl-pet/production/runs/20261106T100000+0800-cycle-6.md",
+            "lease_expires_at": "2026-11-06T10:48:45.000+08:00"
+          }
         }
       ],
       "started_at": "2026-11-06T07:30:00+08:00",
-      "updated_at": "2026-11-06T09:36:50+08:00",
+      "updated_at": "2026-11-06T10:33:45.000+08:00",
       "ledger_credit_pending": false
     }
   ],

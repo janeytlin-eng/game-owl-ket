@@ -1,6 +1,6 @@
 # #126 *Strix hadorami* v3 visual review
 
-- Review time: 2026-11-06 18:14–18:16 +08:00
+- Review time: 2026-11-06 17:58 +08:00
 - Action: science revision of v2; v1–v2 preserved
 - Result: **PASS_WITH_LIMITATIONS**
 - Image edits: 0

@@ -25571,22 +25571,24 @@
       "lease": {
         "owner": "codex-production",
         "run_id": "20261106T2343000800-cycle-6",
-        "heartbeat_at": "2026-11-07T00:30:00+08:00",
-        "expires_at": "2026-11-07T00:45:00+08:00"
+        "heartbeat_at": "2026-11-07T00:37:00+08:00",
+        "expires_at": "2026-11-07T00:52:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "run_id": "20261106T2343000800-cycle-6",
         "species_id": 137,
         "species": "Otus alfredi",
-        "stage": "RESEARCH_READY",
+        "stage": "ARCHIVED",
         "started_at": "2026-11-06T23:43:00+08:00",
         "run_record": "owl-pet/production/runs/20261106T2343000800-cycle-6.md",
         "resumed_at": "2026-11-07T00:30:00+08:00",
-        "research_record": "owl-pet/research/species/137-otus-alfredi-v4.md"
+        "research_record": "owl-pet/research/species/137-otus-alfredi-v4.md",
+        "edit_count": 2,
+        "review_result": "PASS_WITH_LIMITATIONS"
       },
       "started_at": "2026-11-06T22:26:00+08:00",
-      "updated_at": "2026-11-07T00:30:00+08:00",
+      "updated_at": "2026-11-07T00:37:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -26098,6 +26100,58 @@
           "mikkola_upload_accessible": false,
           "juvenile_stage": "museum specimen, age unknown, 185 mm total length; retained natal down and clearer tail banding",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T00:35:00+08:00",
+          "species_id": 137,
+          "species": "Otus alfredi",
+          "path": "owl-pet/production/generated/137-otus-alfredi-v4-generated-master.png",
+          "blob": "b7c362ad955ead9a20f6f4eb844f89f53b022440",
+          "sha256": "c025c331b4e6a1e96dce349face2995927dc27c8f985145cc08690c9429d4532",
+          "size_bytes": 3001707,
+          "dimensions": "1536x1024",
+          "generation_wait_seconds": 46,
+          "edit_count": 2,
+          "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T00:36:00+08:00",
+          "species_id": 137,
+          "species": "Otus alfredi",
+          "review_file": "owl-pet/research/reviews/137-otus-alfredi-v4-review.md",
+          "reviewed_path": "owl-pet/production/reviewed/137-otus-alfredi-v4-reviewed-master.png",
+          "review_crops": [
+            "owl-pet/production/review-crops/137-otus-alfredi-v4-juvenile.png",
+            "owl-pet/production/review-crops/137-otus-alfredi-v4-adults-support.png"
+          ],
+          "edit_count": 2,
+          "result": "PASS_WITH_LIMITATIONS",
+          "reviewed_sha256": "f8a34b722de82ce586a72b240c134fab4a6f0c97a5a0af32e6d84ef81fa5b4dc",
+          "reviewed_size_bytes": 2703740,
+          "full_and_crops_opened": true,
+          "scientifically_verified": false
+        },
+        {
+          "cycle": 6,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T00:37:00+08:00",
+          "species_id": 137,
+          "species": "Otus alfredi",
+          "concept_path": "owl-pet/design/concepts/137-otus-alfredi-v4.png",
+          "concept_blob": "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b",
+          "manifest_counts": {
+            "design_image": 746,
+            "design_legacy": 747,
+            "production": 737
+          },
+          "unique_species_count": 176,
+          "total_scope": 251,
+          "readback_pending": true,
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "f56471bbd29c15f520ee23615f99ae76502e9647"
@@ -26106,8 +26160,8 @@
   "lease": {
     "owner": "codex-production",
     "run_id": "20261106T2343000800-cycle-6",
-    "heartbeat_at": "2026-11-07T00:30:00+08:00",
-    "expires_at": "2026-11-07T00:45:00+08:00"
+    "heartbeat_at": "2026-11-07T00:37:00+08:00",
+    "expires_at": "2026-11-07T00:52:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -26241,7 +26295,7 @@
     "2026-10-30T16:56:00+08:00: cycle2 #44 v4 VERIFIED at fixed archive ce67377ea8b6459d8c33c848134e5da77faba2c4; batch2/6 next3; unique175/251; science false; lease released.",
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released."
   ],
-  "updated_at": "2026-11-07T00:30:00+08:00",
+  "updated_at": "2026-11-07T00:37:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -26253,10 +26307,10 @@
   "active_lease": {
     "owner": "codex-production",
     "run_id": "20261106T2343000800-cycle-6",
-    "heartbeat_at": "2026-11-07T00:30:00+08:00",
-    "expires_at": "2026-11-07T00:45:00+08:00"
+    "heartbeat_at": "2026-11-07T00:37:00+08:00",
+    "expires_at": "2026-11-07T00:52:00+08:00"
   },
-  "last_updated_at": "2026-11-07T00:30:00+08:00",
+  "last_updated_at": "2026-11-07T00:37:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -27057,11 +27111,13 @@
     "run_id": "20261106T2343000800-cycle-6",
     "species_id": 137,
     "species": "Otus alfredi",
-    "stage": "RESEARCH_READY",
+    "stage": "ARCHIVED",
     "started_at": "2026-11-06T23:43:00+08:00",
     "run_record": "owl-pet/production/runs/20261106T2343000800-cycle-6.md",
     "resumed_at": "2026-11-07T00:30:00+08:00",
-    "research_record": "owl-pet/research/species/137-otus-alfredi-v4.md"
+    "research_record": "owl-pet/research/species/137-otus-alfredi-v4.md",
+    "edit_count": 2,
+    "review_result": "PASS_WITH_LIMITATIONS"
   },
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
@@ -28357,7 +28413,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T00:30:00+08:00",
+  "last_updated": "2026-11-07T00:37:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -31295,7 +31351,7 @@
   ],
   "active_batch_id": "20261106T222600+0800",
   "active_cycle": 6,
-  "current_stage": "RESEARCH_READY",
+  "current_stage": "ARCHIVED",
   "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
@@ -37895,6 +37951,88 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T00:45:00+08:00"
       }
+    },
+    {
+      "batch_id": "20261106T222600+0800",
+      "cycle": 6,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-07T00:35:00+08:00",
+      "run_id": "20261106T2343000800-cycle-6",
+      "species_id": 137,
+      "credited": false,
+      "evidence": {
+        "version": 4,
+        "generated_path": "owl-pet/production/generated/137-otus-alfredi-v4-generated-master.png",
+        "generated_blob": "b7c362ad955ead9a20f6f4eb844f89f53b022440",
+        "width": 1536,
+        "height": 1024,
+        "format": "PNG",
+        "bytes": 3001707,
+        "sha256": "c025c331b4e6a1e96dce349face2995927dc27c8f985145cc08690c9429d4532",
+        "imagegen_prompt": "owl-pet/research/species/137-otus-alfredi-v4.md#complete-imagegen-prompt",
+        "edit_count": 2,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T00:52:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261106T222600+0800",
+      "cycle": 6,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T00:36:00+08:00",
+      "run_id": "20261106T2343000800-cycle-6",
+      "species_id": 137,
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/137-otus-alfredi-v4-reviewed-master.png",
+        "reviewed_blob": "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b",
+        "edit_count": 2,
+        "review_record": "owl-pet/research/reviews/137-otus-alfredi-v4-review.md",
+        "juvenile_crop": "owl-pet/production/review-crops/137-otus-alfredi-v4-juvenile.png",
+        "adults_support_crop": "owl-pet/production/review-crops/137-otus-alfredi-v4-adults-support.png",
+        "reinspection": "full plate plus juvenile and adults/support crops opened; exact text/count, compact solid-rufous adult identity, near-equal adults, down-rich short-winged short-tailed age-unknown juvenile, dark indeterminate juvenile iris and all six branch contacts pass",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "unresolved": [
+          "exact juvenile age",
+          "juvenile iris colour",
+          "sustained-flight ability",
+          "sex-size direction",
+          "exact feather-map geometry"
+        ],
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T00:52:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261106T222600+0800",
+      "cycle": 6,
+      "stage": "ARCHIVED",
+      "at": "2026-11-07T00:37:00+08:00",
+      "run_id": "20261106T2343000800-cycle-6",
+      "species_id": 137,
+      "credited": false,
+      "evidence": {
+        "concept": "owl-pet/design/concepts/137-otus-alfredi-v4.png",
+        "concept_blob": "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b",
+        "generated": "owl-pet/production/generated/137-otus-alfredi-v4-generated-master.png",
+        "edited": [
+          "owl-pet/production/generated/137-otus-alfredi-v4-edit1.png",
+          "owl-pet/production/generated/137-otus-alfredi-v4-edit2.png"
+        ],
+        "reviewed": "owl-pet/production/reviewed/137-otus-alfredi-v4-reviewed-master.png",
+        "manifest_counts": {
+          "design_image": 746,
+          "design_legacy": 747,
+          "production": 737
+        },
+        "unique_species_count": 176,
+        "total_species": 251,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "scientifically_verified": false,
+        "readback_pending": true,
+        "lease_expires_at": "2026-11-07T00:52:00+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261106T193155+0800",
@@ -37985,22 +38123,24 @@
     "lease": {
       "owner": "codex-production",
       "run_id": "20261106T2343000800-cycle-6",
-      "heartbeat_at": "2026-11-07T00:30:00+08:00",
-      "expires_at": "2026-11-07T00:45:00+08:00"
+      "heartbeat_at": "2026-11-07T00:37:00+08:00",
+      "expires_at": "2026-11-07T00:52:00+08:00"
     },
     "in_progress": {
       "cycle": 6,
       "run_id": "20261106T2343000800-cycle-6",
       "species_id": 137,
       "species": "Otus alfredi",
-      "stage": "RESEARCH_READY",
+      "stage": "ARCHIVED",
       "started_at": "2026-11-06T23:43:00+08:00",
       "run_record": "owl-pet/production/runs/20261106T2343000800-cycle-6.md",
       "resumed_at": "2026-11-07T00:30:00+08:00",
-      "research_record": "owl-pet/research/species/137-otus-alfredi-v4.md"
+      "research_record": "owl-pet/research/species/137-otus-alfredi-v4.md",
+      "edit_count": 2,
+      "review_result": "PASS_WITH_LIMITATIONS"
     },
     "started_at": "2026-11-06T22:26:00+08:00",
-    "updated_at": "2026-11-07T00:30:00+08:00",
+    "updated_at": "2026-11-07T00:37:00+08:00",
     "stage_events": [
       {
         "cycle": 1,
@@ -38511,6 +38651,58 @@
         "source_index": "owl-pet/research/SOURCE_INDEX.md",
         "mikkola_upload_accessible": false,
         "juvenile_stage": "museum specimen, age unknown, 185 mm total length; retained natal down and clearer tail banding",
+        "scientifically_verified": false
+      },
+      {
+        "cycle": 6,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-07T00:35:00+08:00",
+        "species_id": 137,
+        "species": "Otus alfredi",
+        "path": "owl-pet/production/generated/137-otus-alfredi-v4-generated-master.png",
+        "blob": "b7c362ad955ead9a20f6f4eb844f89f53b022440",
+        "sha256": "c025c331b4e6a1e96dce349face2995927dc27c8f985145cc08690c9429d4532",
+        "size_bytes": 3001707,
+        "dimensions": "1536x1024",
+        "generation_wait_seconds": 46,
+        "edit_count": 2,
+        "scientifically_verified": false
+      },
+      {
+        "cycle": 6,
+        "stage": "REVIEWED",
+        "at": "2026-11-07T00:36:00+08:00",
+        "species_id": 137,
+        "species": "Otus alfredi",
+        "review_file": "owl-pet/research/reviews/137-otus-alfredi-v4-review.md",
+        "reviewed_path": "owl-pet/production/reviewed/137-otus-alfredi-v4-reviewed-master.png",
+        "review_crops": [
+          "owl-pet/production/review-crops/137-otus-alfredi-v4-juvenile.png",
+          "owl-pet/production/review-crops/137-otus-alfredi-v4-adults-support.png"
+        ],
+        "edit_count": 2,
+        "result": "PASS_WITH_LIMITATIONS",
+        "reviewed_sha256": "f8a34b722de82ce586a72b240c134fab4a6f0c97a5a0af32e6d84ef81fa5b4dc",
+        "reviewed_size_bytes": 2703740,
+        "full_and_crops_opened": true,
+        "scientifically_verified": false
+      },
+      {
+        "cycle": 6,
+        "stage": "ARCHIVED",
+        "at": "2026-11-07T00:37:00+08:00",
+        "species_id": 137,
+        "species": "Otus alfredi",
+        "concept_path": "owl-pet/design/concepts/137-otus-alfredi-v4.png",
+        "concept_blob": "8dd3835ef4d775cae7e37a96c98246ccb1e51e7b",
+        "manifest_counts": {
+          "design_image": 746,
+          "design_legacy": 747,
+          "production": 737
+        },
+        "unique_species_count": 176,
+        "total_scope": 251,
+        "readback_pending": true,
         "scientifically_verified": false
       }
     ],

@@ -1,3 +1,7 @@
+### Batch 20261107T012800+0800 COMPLETE 6/6
+
+Cycle 6 #143 v3 ledger credited from verification `166167870b15e89684913e5dcd4c0a9e2c5be71c` after immutable archive `270e1331af485c9a64785ba23401f39d06aaa160`. Six revisions completed; unique ledger remains 176/251; no active lease and no next batch started.
+
 ### #143 v3 immutable archive VERIFIED — ledger credit pending
 
 Archive `270e1331af485c9a64785ba23401f39d06aaa160` / tree `ba568d56cc1e09da86e9311e371b5d1843e99b80` returned 3619 non-truncated entries. 17 required paths, six exact binary path/blob/byte tuples and manifests 752/753/743 passed. PASS_WITH_LIMITATIONS; science false; ledger credit pending.

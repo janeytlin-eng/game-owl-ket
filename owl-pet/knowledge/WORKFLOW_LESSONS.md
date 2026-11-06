@@ -1006,3 +1006,11 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Evidence-based correction:** when exact age/flight is unknown, pair “formed” with “short rounded outline, irregular down overlap, short partly hidden tail, both feet supported, no flight claim.”
 - **Applied:** one targeted #116 v4 juvenile-only edit; adults/text/cavity/support locked.
 - **Validated:** edited full plate plus juvenile and adults/feet crops were reopened; wing maturity and support improved without drift. One-species validation only; future plates still require individual review.
+
+
+## 2026-11-06 — “downy” needs a visible wing-endpoint test (#121 v4)
+
+- **Found:** even with a dark fluffy juvenile prompt, generation can expose a long, orderly folded wing that visually implies a later/more flight-ready stage than the evidence establishes.
+- **Applied:** compare the wing endpoint with the feet and support, then shorten it to an irregular plain-brown remige cluster mostly buried by down; keep the tail concealed and action stationary.
+- **Verified in use:** #121 *Ninox leucopsis* v4 edit 1 passed the full plate plus juvenile and adults/support crop review. This validates the correction for this asset only, not a universal owl feather schedule.
+- Evidence: `owl-pet/research/reviews/121-ninox-leucopsis-v4-review.md`.

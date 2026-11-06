@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T19:42:46+08:00",
+  "updated": "2026-11-06T19:55:10+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -24991,7 +24991,71 @@
       "verified_at": "2026-11-06T19:42:46+08:00",
       "verification_result": "PASS_WITH_LIMITATIONS",
       "verification_note": "Immutable archive commit 7d64eac996988a3338333c7e8d9ed49e78274113 resolved all 16 required paths in a non-truncated 3,465-entry recursive tree. Six image path/blob/byte tuples matched: concept/edit/reviewed = 04e25c97… (2,958,647 bytes), original generation = cdfc106e… (3,265,107 bytes), and both crop blobs/bytes matched. Archive manifests parsed at 735/736/726 and ended with #116 v4. Science remains false."
+    },
+    {
+      "id": "121-ninox-leucopsis-v4",
+      "path": "design/concepts/121-ninox-leucopsis-v4.png",
+      "species_id": 121,
+      "scientific_name": "Ninox leucopsis",
+      "historical_names": [
+        "Ninox novaeseelandiae leucopsis",
+        "Ninox boobook leucopsis",
+        "Athene leucopsis"
+      ],
+      "common_name": "Tasmanian Boobook",
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "edit_count": 1,
+      "status": "ARCHIVED",
+      "source_ids": [
+        "TBO-ABSA-AGEING-2019",
+        "TBO-AFO-TSANG-2022",
+        "TBO-AFD-ALA-2026",
+        "TBO-ITIS-1244677-2026",
+        "TBO-OLSEN-DEBUS-2013-FIG1",
+        "TBO-MIKKOLA-2013-P463"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/121-ninox-leucopsis-v4.md",
+      "review_record": "research/reviews/121-ninox-leucopsis-v4-review.md",
+      "run_record": "production/runs/20261106T194601+0800-cycle-2.md",
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
+      "size_bytes": 3019763,
+      "sha256": "af9ff3d1c14982ab11e45d307280a433ac1a3cea2757827cb5127f532b9d8b1f",
+      "git_blob": "f3f2b6947ce578d3167020b3d816ce7daeb16bf5",
+      "generated_path": "production/generated/121-ninox-leucopsis-v4-generated-master.png",
+      "generated_blob": "bf033e32d03a9e4577556636d0c596a8da9c9f89",
+      "generated_sha256": "aa4a552687024f2ce9cb45e717bbec83d8b590fd14037799e81699e7e05fb337",
+      "generated_size_bytes": 3197312,
+      "edit_path": "production/edits/121-ninox-leucopsis-v4-edit1.png",
+      "edit_blob": "f3f2b6947ce578d3167020b3d816ce7daeb16bf5",
+      "reviewed_path": "production/reviewed/121-ninox-leucopsis-v4-reviewed-master.png",
+      "reviewed_blob": "f3f2b6947ce578d3167020b3d816ce7daeb16bf5",
+      "juvenile_review_crop": "production/review-crops/121-ninox-leucopsis-v4-juvenile.png",
+      "juvenile_review_blob": "7ba48aa863b5e2d30b7c7daa7eba993b5b21558d",
+      "juvenile_review_size_bytes": 708984,
+      "juvenile_review_sha256": "f51aec0794bac7adb4f0292529d83f72a20cc31c62747ef51ee17ca77b9213b0",
+      "adults_review_crop": "production/review-crops/121-ninox-leucopsis-v4-adults-support.png",
+      "adults_review_blob": "9ccf84692affdc6f079a9bff85d9730010c2ff89",
+      "adults_review_size_bytes": 2290271,
+      "adults_review_sha256": "514485d506743e39543aa7d0de55764329e666dda8b5757855176decec26e4c4",
+      "reviewed_at": "2026-11-06T19:53:20+08:00",
+      "readback_pending": true,
+      "exact_readback": false,
+      "archive_note": "V4 preserves v1-v3. AFD/ALA and ITIS stabilize current/old-name mapping; ABSA overlapping adult measurements prevent a fixed female-larger scale. One targeted edit shortened and softened the original young wing while retaining a photo/handbook-supported dark fluffy, yellow-eyed later juvenile with bilateral cavity support. Exact young age/sex/flight, iris chronology, literal feather map, universal cavity geometry and fixed sex ratio remain unknown; science false."
     }
   ],
-  "updated_at": "2026-11-06T19:42:46+08:00"
+  "updated_at": "2026-11-06T19:55:10+08:00"
 }

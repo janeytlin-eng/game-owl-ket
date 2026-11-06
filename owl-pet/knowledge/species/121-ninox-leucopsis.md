@@ -19,3 +19,12 @@ Evidence-bounded rebuild followed by one actual juvenile-only edit/view. Initial
 Sources new2/reused1/corrected0: `TBO-ABSA-AGEING-2019`, `TBO-AFO-TSANG-2022`; reused `TBO-BIRDLIFE-FACTSHEET`. Image commit `4d0ea89ed2507a46fca1ec4a12b895ad0b766674`; 1536×1024 PNG, 2,665,228 bytes; SHA-256 `90561d31c4cc57c48ebe872fcdfa9a1d6509d12b73b1e9f35a1a6bf25af3dc67`; Git blob `74889abc20ba5321075ba94a10bb4db0b2ae9b48`. Unique species remains 157/251.
 
 [Original](../../design/concepts/121-ninox-leucopsis-v2.png) · [Sources](../../research/SOURCE_INDEX.md) · [Run](../../production/runs/2026-10-24T1630+0800-cycle-4.md)
+
+
+## ARCHIVED 2026-11-06 — 121-ninox-leucopsis-v4
+
+V4 preserves v1–v3 and adds stable AFD/ALA plus ITIS current/old-name mapping. ABSA p.1 adult measurement ranges overlap strongly, so adults remain near-equal with only a subtly fuller female. The selected young is a dark fluffy, yellow-eyed later juvenile of unknown age, with both feet on a natural eucalypt cavity lip. One targeted edit replaced the original long, fully exposed adult-like wing with a compact irregular plain-brown remige cluster under down and kept the tail concealed.
+
+Exact young age/sex/flight, iris chronology, literal feather map, universal cavity geometry and fixed sex-size ratio remain unknown; `scientifically_verified=false`. New sources 2, reused 4, corrected 0. Unique count remains 176/251.
+
+[Concept](../../design/concepts/121-ninox-leucopsis-v4.png) · [Sources](../../research/SOURCE_INDEX.md) · [Research](../../research/species/121-ninox-leucopsis-v4.md) · [Review](../../research/reviews/121-ninox-leucopsis-v4-review.md) · [Run](../../production/runs/20261106T194601+0800-cycle-2.md)

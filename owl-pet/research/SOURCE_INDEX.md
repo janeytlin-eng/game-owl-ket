@@ -1803,3 +1803,25 @@
 ### Reuse, correction and unknowns
 - Reused repository-pinned Mikkola printed p.447/PDF p.449 and #93 v3 research; uploaded original unavailable, so no fresh-upload claim.
 - New detailed sources3 / reused2 / corrected boundaries4. Adult scale remains near-equal; labels do not assert visually diagnosable sex. Exact nestling sex, tract chronology, 24-day flight competence, pair ratio and fine toe geometry remain unknown. Scientific verification remains false.
+
+
+## 2026-11-06 — #95 *Pulsatrix melanota* v5 — fledgling colour transition and exposed-fork support
+
+### MEL-RIVAS-FUENZALIDA-BURGOS-2022-84-88
+- **Title/authors/year:** “Primer registro de nidificación y otras observaciones sobre el Búho ventribandeado (*Pulsatrix melanota*)” — Rivas-Fuenzalida & Burgos-Andrade, 2022, *Ornitología Neotropical* 33:84–88.
+- **DOI/URL/accessed:** https://doi.org/10.58843/ornneo.v33i1.921 ; https://www.researchgate.net/publication/361692223_PRIMER_REGISTRO_DE_NIDIFICACION_Y_OTRAS_OBSERVACIONES_SOBRE_EL_BUHO_VENTRIBANDEADO_PULSATRIX_MELANOTA ; primary full text/Figs.1–3 read 2026-11-06.
+- **Facts/design use:** pp.84–86: light-cinnamon few-day chick with white throat/periocular area, yellow cere/culmen and dark iris; exposed unlined Albizia fork with moss/leaves/bark/epiphytes; fledglings cinnamon with black disc/dark iris; crown changes cinnamon→white as first chest feathers emerge. Use an age-unknown, fully fork-supported fledgling; no exact age/flight claim. High confidence for described cases; small sample.
+- **Links:** `owl-pet/research/species/95-pulsatrix-melanota-v5.md`; v5 concept/review; `owl-pet/production/runs/20261106T084500+0800-cycle-3.md`.
+
+### MEL-ITIS-555443-2026
+- **Institution/accessed:** ITIS TSN 555443, read 2026-11-06.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555443
+- **Facts/use:** valid *P. melanota*; synonym *Noctua melanota*; two listed subspecies. Taxonomy only.
+
+### MEL-CORREA-USP-2016
+- **Title/author/year:** “Taxonomia e distribuição geográfica dos representantes do gênero *Pulsatrix*” — A.H. Corrêa, USP master's dissertation, 2016.
+- **DOI/URL/accessed:** https://doi.org/10.11606/D.41.2017.tde-15122016-115143 ; repository abstract read 2026-11-06.
+- **Facts/conflict/use:** 475 specimens; proposes three monotypic species. Current ITIS retains two *P. melanota* subspecies, so v5 stays species-level and makes no subspecies inference. Taxonomy support only.
+
+### Reuse and unknowns
+- Reused Mikkola repository extraction and v4 records; upload unavailable. Re-read1/new2/reused2/corrected3. Exact fledgling age/sex/flight, tract sequence, adult pair ratio and universal nest choice unknown; science false.

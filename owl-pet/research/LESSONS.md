@@ -46,3 +46,11 @@ undefined
 - A rare-species juvenile need not be forced into a helpless downy stage when a read field record documents retained juvenile facial feathering together with short flight and perching.
 - Translate the evidence into an older mobile immature: open eyes, natural two-foot support, intermediate wing/tail structure and the documented juvenile face; do not add nest, age-in-days or hatchling detail.
 - Applied to the #153 v3 prompt. Effectiveness is not claimed until full/crop review.
+
+
+## 2026-11-07 — #153 stage-by-ability rule validated for this plate
+
+- Initial #153 generation correctly retained the white juvenile face but still made the folded wing and tail too adult-long/crisp.
+- One juvenile-only edit kept open eyes and two-foot support while shortening/softening the functional wing and tail.
+- Full plate and both crops were opened; the evidence-led intermediate stage passed without changing adults or text.
+- Validation is limited to this plate; it does not establish exact age or a general Maned Owl molt schedule.

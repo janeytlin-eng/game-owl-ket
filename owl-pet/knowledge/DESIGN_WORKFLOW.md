@@ -926,3 +926,9 @@ If a caption says a chick was photographed “about two weeks after discovery”
 - **Problem/evidence:** the source directly describes rich golden-brown second down and illustrates a female at 55/69 days, but its day-57 table leaves wing and tail blank. A missing measurement is not evidence for adult remiges, a visible tail or flight ability.
 - **Applied:** #103 v5 keeps the approximately-55-day young as a compact golden powder-puff mesoptile with partial pink face, down-concealed wing and tail, and full ground support. Adult scale is restrained; sex-colour direction is used without a universal female-larger formula.
 - **Visually checked:** full plate plus mesoptile and adults/support crops passed without edit. This validates the no-interpolation gate for this asset only; it does not establish a wild timetable or scientific sign-off.
+
+### 2026-11-06 — A separate figure cannot inherit a study brood's exact age (#104 v5)
+
+- **Problem/evidence:** the primary chapter measures one brood's movements at 36/42/64 days, but Fig.12.20 is a different fledgling found elsewhere. The initial render combined the valid older-mesoptile direction with an overlong adult-like wing.
+- **Applied:** #104 v5 keeps the young explicitly age unknown and branch-supported. One edit shortened/rounded the formed wing, disrupted regular remige rows with down overlap, concealed the tail and improved adult proximal toe feathering without inventing a toe-by-toe map.
+- **Visually checked:** full plate plus juvenile and all-feet crops passed. This validates the figure/separate-timeline audit for this asset only; branch movement still does not prove sustained flight or a universal schedule.

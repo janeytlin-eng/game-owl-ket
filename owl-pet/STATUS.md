@@ -1,3 +1,8 @@
+## 2026-11-06 #100 *Strix huhula* v5 VERIFIED — ledger credit pending
+
+- Archive `3ba1bcd30552a2f217743d8645d8604c8c6835fc`, tree `bdb2f54d903bc807793f4e063ec1ca81216f412a`, returned 3,306 non-truncated entries; five exact binary path/blob/byte tuples passed. Manifests parse at 718/717/708 and the concept path returns blob `9dab2aeafb308c366b3025f743abd1d8dbc31e61`.
+- PASS_WITH_LIMITATIONS; science false; unique remains 176/251. Ledger credit pending.
+
 ## 2026-11-06 #100 *Strix huhula* v5 ARCHIVED — immutable readback pending
 
 - New active batch `20261106T105700+0800`, cycle 1/6. Research, generated master, actual full/crop inspection and archive paths are present; no image edit was required.

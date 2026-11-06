@@ -22750,7 +22750,7 @@
       "unique_species_increment": 0,
       "revision_increment": 1,
       "edit_count": 0,
-      "status": "ARCHIVED_PENDING_READBACK",
+      "status": "VERIFIED",
       "source_ids": [
         "HUH-BC2013",
         "HUH-MUNOZ-2019",
@@ -22785,8 +22785,53 @@
       "juvenile_review_size_bytes": 864937,
       "juvenile_review_sha256": "190ea4541f16f41d7601e6c0c300565dde4a86ae049eba39f6740336717cc38c",
       "reviewed_at": "2026-11-06T11:13:00.000+08:00",
-      "readback_pending": true,
-      "archive_note": "V5 preserves v1-v4 and uses the directly described exact-age-unknown late nest stage: pale-grey-dominant down/mesoptile, horizontal black bars, heart mask with white border, yellow bill/feet, active supported standing, compact soft wing and concealed tail. Full plate and two crops passed without edit. Exact age/sex, tract chronology, first-flight date, robust adult dimorphism and generality of the recorded angico-fork nest remain unknown; science false."
+      "readback_pending": false,
+      "archive_note": "V5 preserves v1-v4 and uses the directly described exact-age-unknown late nest stage: pale-grey-dominant down/mesoptile, horizontal black bars, heart mask with white border, yellow bill/feet, active supported standing, compact soft wing and concealed tail. Full plate and two crops passed without edit. Exact age/sex, tract chronology, first-flight date, robust adult dimorphism and generality of the recorded angico-fork nest remain unknown; science false.",
+      "archive_commit": "3ba1bcd30552a2f217743d8645d8604c8c6835fc",
+      "archive_tree": "bdb2f54d903bc807793f4e063ec1ca81216f412a",
+      "verified_at": "2026-11-06T11:32:57.000+08:00",
+      "verification_result": "archive tree returned 3306 non-truncated entries; concept/generated/reviewed and two review crops matched exact path/blob/byte tuples; three manifests parsed at 718/717/708; research/review/run text and concept blob were readable",
+      "exact_readback": true,
+      "readback": {
+        "status": "VERIFIED",
+        "archive_commit": "3ba1bcd30552a2f217743d8645d8604c8c6835fc",
+        "archive_tree": "bdb2f54d903bc807793f4e063ec1ca81216f412a",
+        "tree_entries": 3306,
+        "truncated": false,
+        "manifest_counts": {
+          "design": 718,
+          "legacy": 717,
+          "production": 708
+        },
+        "assets": {
+          "concept": {
+            "path": "owl-pet/design/concepts/100-strix-huhula-v5.png",
+            "blob": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
+            "size_bytes": 3456295
+          },
+          "generated": {
+            "path": "owl-pet/production/generated/100-strix-huhula-v5-generated-master.png",
+            "blob": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
+            "size_bytes": 3456295
+          },
+          "reviewed": {
+            "path": "owl-pet/production/reviewed/100-strix-huhula-v5-reviewed-master.png",
+            "blob": "9dab2aeafb308c366b3025f743abd1d8dbc31e61",
+            "size_bytes": 3456295
+          },
+          "juvenile_crop": {
+            "path": "owl-pet/production/review-crops/100-strix-huhula-v5-juvenile.png",
+            "blob": "e97a97b83ad34c2042272aacd7c8208c8cc0672c",
+            "size_bytes": 864937
+          },
+          "adults_support_crop": {
+            "path": "owl-pet/production/review-crops/100-strix-huhula-v5-adults-support.png",
+            "blob": "e7589c7fd5a3260a630d8835ebdd00356d69a5c3",
+            "size_bytes": 2430329
+          }
+        },
+        "science": false
+      }
     }
   ],
   "updated_at": "2026-11-06T11:18:00.000+08:00"

@@ -26973,7 +26973,7 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:49:00+08:00",
+      "updated_at": "2026-11-07T05:31:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27199,21 +27199,37 @@
           "edit_count": 0,
           "preliminary_inspection": "exact title/name/count/labels; adult identity traits and near-equal size pass; age-unknown juvenile eyes closed with wing/tail concealed; all six supports visible",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T05:31:00+08:00",
+          "species_id": 147,
+          "species": "Ninox leventisi",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "edit_count": 0,
+          "review_record": "owl-pet/research/reviews/147-ninox-leventisi-v3-review.md",
+          "scientifically_verified": false
         }
       ],
       "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
-      "current_stage": "IMAGE_GENERATED",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "in_progress": {
         "cycle": 3,
         "species_id": 147,
         "species": "Ninox leventisi",
         "version": 3,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261107T053400+0800-cycle-3",
         "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md"
       },
-      "stop_reason": "Execution context ended after durable IMAGE_GENERATED checkpoint; REVIEWED, ARCHIVED, VERIFIED and LEDGER_CREDITED remain pending. No platform fixed-duration telemetry was available."
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261107T053400+0800-cycle-3",
+        "heartbeat_at": "2026-11-07T05:31:00+08:00",
+        "expires_at": "2026-11-07T05:46:00+08:00"
+      }
     }
   ],
   "lease": {
@@ -32598,6 +32614,29 @@
         "edit_count": 0,
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T06:02:00+08:00"
+      }
+    },
+    {
+      "batch_id": "20261107T043300+0800",
+      "cycle": 3,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T05:31:00+08:00",
+      "run_id": "20261107T053400+0800-cycle-3",
+      "species_id": 147,
+      "species": "Ninox leventisi",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/147-ninox-leventisi-v3-reviewed-master.png",
+        "reviewed_blob": "cdf02e5446f1372027db00bc0b7e9aabc652790c",
+        "review_crops": [
+          "owl-pet/production/review-crops/147-ninox-leventisi-v3-juvenile.png",
+          "owl-pet/production/review-crops/147-ninox-leventisi-v3-adults-support.png"
+        ],
+        "edit_count": 0,
+        "result": "PASS_WITH_LIMITATIONS",
+        "full_and_crops_opened": true,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T05:46:00+08:00"
       }
     }
   ],

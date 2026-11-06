@@ -1062,3 +1062,10 @@ When an age-unknown, down-rich owl juvenile is directly photographed with narrow
 - **Evidence:** McGregor 1904 pp.16–17 immediately identifies the specimen as an adult male and compares it with the female type.
 - **Applied rule:** preserve the quoted context in research, prohibit it as juvenile evidence, and render an explicitly age-unknown juvenile only with closed/downcast eyes, concealed wing/tail and bilateral support.
 - **Verification:** whole plate and two crops were opened; the final image avoided a mature juvenile wing/tail and kept all six foot contacts. This validates one asset-level use, not the species’ unknown juvenile chronology.
+
+
+## 2026-11-07 — #147 sparse-immature evidence rule (applied and verified)
+
+- **Evidence:** Rasmussen et al. 2012 explicitly excluded immatures from diagnoses because data were sparse.
+- **Applied rule:** when the primary description flags sparse immature data, do not borrow another island form’s juvenile markings; use an explicitly age-unknown, down-dominant subject with closed eyes, concealed wing/tail and visible bilateral support.
+- **Verification:** whole plate and two crops were opened; no mature juvenile wing/tail was visible and all six supports remained intact. One-asset validation only.

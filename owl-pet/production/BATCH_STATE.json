@@ -26973,7 +26973,7 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T04:33:00+08:00",
-      "updated_at": "2026-11-07T05:47:00+08:00",
+      "updated_at": "2026-11-07T05:49:00+08:00",
       "stage_events": [
         {
           "cycle": 1,
@@ -27204,12 +27204,6 @@
       "last_verified_commit": "c655ae6389f7a3a8f84238bfe47830b82176389b",
       "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T053400+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T05:47:00+08:00",
-        "expires_at": "2026-11-07T06:02:00+08:00"
-      },
       "in_progress": {
         "cycle": 3,
         "species_id": 147,
@@ -27218,7 +27212,8 @@
         "stage": "IMAGE_GENERATED",
         "run_id": "20261107T053400+0800-cycle-3",
         "run_record": "owl-pet/production/runs/20261107T053400+0800-cycle-3.md"
-      }
+      },
+      "stop_reason": "Execution context ended after durable IMAGE_GENERATED checkpoint; REVIEWED, ARCHIVED, VERIFIED and LEDGER_CREDITED remain pending. No platform fixed-duration telemetry was available."
     }
   ],
   "lease": {

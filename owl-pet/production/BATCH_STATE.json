@@ -28058,8 +28058,8 @@
   "lease": {
     "owner": "codex",
     "run_id": "20261107T070200+0800-cycle-3",
-    "heartbeat_at": "2026-11-07T07:35:10+08:00",
-    "expires_at": "2026-11-07T07:50:10+08:00"
+    "heartbeat_at": "2026-11-07T07:39:20+08:00",
+    "expires_at": "2026-11-07T07:54:20+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -46258,22 +46258,60 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T07:50:10+08:00"
       }
+    },
+    {
+      "batch_id": "20261107T062903+0800",
+      "cycle": 3,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T07:39:20+08:00",
+      "run_id": "20261107T070200+0800-cycle-3",
+      "species_id": 158,
+      "species": "Phodilus badius",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/158-phodilus-badius-v3-reviewed-master.png",
+        "reviewed_blob": "1dc8ac940e618f31b92ff750bc4b393041022263",
+        "edit_path": "owl-pet/production/generated/158-phodilus-badius-v3-edit1.png",
+        "edit_blob": "1dc8ac940e618f31b92ff750bc4b393041022263",
+        "edit_count": 1,
+        "review_record": "owl-pet/research/reviews/158-phodilus-badius-v3-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/158-phodilus-badius-v3-juvenile.png",
+          "owl-pet/production/review-crops/158-phodilus-badius-v3-adults-support.png"
+        ],
+        "crop_blobs": [
+          "8c33359e684a7b4c79509a5324e4290bf00705cf",
+          "0bc7e375aaf9f676e7ed09d8d324422c7d6e894c"
+        ],
+        "reinspection": "edited full plate plus juvenile and adults/support crops opened; juvenile wing short/down-soft/tail concealed; adults, exact text/count and six supports preserved",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T07:54:20+08:00"
+      }
     }
   ],
   "ledger_credit_pending": false,
   "last_verified_commit": "8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0",
   "completed_cycles": 2,
-  "updated": "2026-11-07T07:35:10+08:00",
-  "stage": "IMAGE_GENERATED",
+  "updated": "2026-11-07T07:39:20+08:00",
+  "stage": "REVIEWED",
   "stage_evidence": {
-    "generated_path": "owl-pet/production/generated/158-phodilus-badius-v3-generated-master.png",
-    "image_blob": "09964e50b5bf0539c614e8e59214f59ce5156b07",
-    "width": 1536,
-    "height": 1024,
-    "bytes": 3262725,
-    "sha256": "045cd92948b9f015d660ae4027a881fa6ba3c450c03435a3ce439b3e99d14ed4",
-    "preliminary_inspection": "exact title/name/count/labels; adults near-equal with dark eyes, divided face and supported feet; natural cavity; juvenile has overlong layered mature-looking left wing",
-    "edit_required": true,
+    "reviewed_path": "owl-pet/production/reviewed/158-phodilus-badius-v3-reviewed-master.png",
+    "reviewed_blob": "1dc8ac940e618f31b92ff750bc4b393041022263",
+    "edit_path": "owl-pet/production/generated/158-phodilus-badius-v3-edit1.png",
+    "edit_blob": "1dc8ac940e618f31b92ff750bc4b393041022263",
+    "edit_count": 1,
+    "review_record": "owl-pet/research/reviews/158-phodilus-badius-v3-review.md",
+    "review_crops": [
+      "owl-pet/production/review-crops/158-phodilus-badius-v3-juvenile.png",
+      "owl-pet/production/review-crops/158-phodilus-badius-v3-adults-support.png"
+    ],
+    "crop_blobs": [
+      "8c33359e684a7b4c79509a5324e4290bf00705cf",
+      "0bc7e375aaf9f676e7ed09d8d324422c7d6e894c"
+    ],
+    "reinspection": "edited full plate plus juvenile and adults/support crops opened; juvenile wing short/down-soft/tail concealed; adults, exact text/count and six supports preserved",
+    "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false
   }
 }

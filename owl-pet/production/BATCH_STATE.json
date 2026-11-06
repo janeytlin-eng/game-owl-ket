@@ -22753,11 +22753,28 @@
         }
       ],
       "next_cycle": 5,
-      "active_cycle": null,
-      "active_lease": null,
-      "lease": null,
-      "in_progress": null,
-      "current_stage": "LEDGER_CREDITED",
+      "active_cycle": 5,
+      "active_lease": {
+        "owner": "codex-owl-production",
+        "run_id": "20261106T151000+0800-cycle-5",
+        "heartbeat_at": "2026-11-06T15:10:00.000+08:00",
+        "expires_at": "2026-11-06T15:25:00.000+08:00"
+      },
+      "lease": {
+        "owner": "codex-owl-production",
+        "run_id": "20261106T151000+0800-cycle-5",
+        "heartbeat_at": "2026-11-06T15:10:00.000+08:00",
+        "expires_at": "2026-11-06T15:25:00.000+08:00"
+      },
+      "in_progress": {
+        "cycle": 5,
+        "species_id": 120,
+        "species": "Megascops ingens",
+        "version": 4,
+        "run_id": "20261106T151000+0800-cycle-5",
+        "stage": "STARTED"
+      },
+      "current_stage": "STARTED",
       "events": [
         {
           "batch_id": "20261106T123716+0800",
@@ -23430,6 +23447,22 @@
             "unique_species_increment": 0,
             "revision_increment": 1,
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261106T123716+0800",
+          "cycle": 5,
+          "stage": "STARTED",
+          "at": "2026-11-06T15:10:00.000+08:00",
+          "run_id": "20261106T151000+0800-cycle-5",
+          "species_id": 120,
+          "credited": false,
+          "evidence": {
+            "selection": "science revision of #120 Megascops ingens v3 because its manifest archive_commit is present but exact_readback is false; preserve v1-v3 and reopen adult identity, sex-size evidence, juvenile stage, wing/tail/action boundary, support, habitat and taxonomy mapping",
+            "baseline_commit": "6a34a934c5c9f64627954887fcdaab27dcd98c8e",
+            "prior_version": "owl-pet/design/concepts/120-megascops-ingens-v3.png",
+            "run_record": "owl-pet/production/runs/20261106T151000+0800-cycle-5.md",
+            "lease_expires_at": "2026-11-06T15:25:00.000+08:00"
           }
         }
       ]

@@ -2345,3 +2345,39 @@
 ### LTSC-ITIS-686677 — newly indexed taxonomy mapping
 - Integrated Taxonomic Information System, TSN 686677, accessed 2026-11-06: https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=686677&source=to_print
 - Current valid *Megascops sanctaecatarinae*; synonyms *Otus sanctaecatarinae* and *Scops sanctaecatarinae*; English Long-tufted Screech Owl. High confidence for names only; no morphology or development support.
+
+
+### GHO-HOFFMEISTER-SETZER-1947
+- **Title / author / year:** The Postnatal Development of Two Broods of Great Horned Owls / Donald F. Hoffmeister & Henry W. Setzer / 1947
+- **URL:** https://www.gutenberg.org/cache/epub/35118/pg35118-images.html
+- **Accessed / type:** 2026-11-06 / primary longitudinal nest-development study, University of Kansas Museum
+- **Species / stage:** *Bubo virginianus*; hatch to 49-day young
+- **Useful evidence:** pp.165–166; daily-observed young left at 43–49 d, one 43-d bird lacked coordinated flight, feather tables show substantial erupted remiges by late nestling stage, and immature down remained relevant.
+- **Limits / confidence:** four young, local Kansas nests, historic study; high for observed individuals and stage bounds, not a universal continuous schedule.
+- **Decision links:** #56 v2 c.44–46 d supported brancher; substantial irregular down-veiled folded wing, no sustained-flight pose. Research/review: `research/species/56-bubo-virginianus-v2.md`.
+
+### GHO-MCGILLIVRAY-1989
+- **Title / author / year:** Geographic Variation in Size and Reverse Size Dimorphism of the Great Horned Owl in North America / W. Bruce McGillivray / 1989
+- **DOI / URL:** 10.2307/1368060 / https://academic.oup.com/condor/article-abstract/91/4/777/5189226
+- **Accessed / type:** 2026-11-06 / peer-reviewed specimen study; abstract read
+- **Species / stage:** *Bubo virginianus* adults; 418 specimens, 18 variables
+- **Useful evidence:** reverse size dimorphism virtually constant among regions, while absolute size varied geographically/subspecifically.
+- **Limits / confidence:** only abstract accessible; does not supply one plate-ready pair ratio. High for direction, bounded for depiction magnitude.
+- **Decision links:** moderately fuller/slightly taller female, no fixed numeric ratio or subspecies claim in #56 v2.
+
+### GHO-CORNELL-CAM-2022
+- **Title / institution / date:** Great Horned Owl Cam Timeline / Cornell Lab Bird Cams / 2022 timeline
+- **URL:** https://www.allaboutbirds.org/cams/great-horned-owl-cam-timeline/
+- **Accessed / type:** 2026-11-06 / institutional direct camera chronology
+- **Species / stage:** *Bubo virginianus*, known-age branching/fledging
+- **Useful evidence:** one chick branched at 46 d and made short limb-to-limb flight at 55 d; institutional summary says 6-week birds branch/climb and 7-week birds make tiring short flights.
+- **Limits / confidence:** one camera individual plus institutional generalization; high for that individual, moderate for broad timing.
+- **Decision links:** supported brancher, no airborne pose in #56 v2.
+
+### GHO-ITIS-177884
+- **Title / institution:** ITIS Report — *Bubo virginianus*, TSN 177884 / Integrated Taxonomic Information System
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=177884&source=to_print
+- **Accessed / type:** 2026-11-06 / taxonomic authority record
+- **Species:** current *Bubo virginianus* (Gmelin, 1788); synonym *Strix virginiana*
+- **Limits / confidence:** taxonomy only; no plumage/development evidence.
+- **Decision links:** name mapping for #56 v2.

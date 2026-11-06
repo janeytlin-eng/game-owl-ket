@@ -47,3 +47,11 @@ MEL-RIVAS2022 pp.84–88/Figs.1–3 and MEL-ECUADOR-DIET-2022 §2.13/Fig.2 were 
 
 
 Fixed readback 2026-10-31T07:32:00+08:00: archive `0090a021f6e578d17e9dac204e12b1691b5468a8`; exact four assets and manifests 597/596/587 matched; science remains false.
+
+
+## V5 science revision — 2026-11-06T08:52:57+08:00
+
+- Problem: v4 did not clearly encode the primary paper's cinnamon→white crown transition; v5 draft retained an adult-like long hard juvenile wing.
+- Evidence: Rivas-Fuenzalida & Burgos 2022, printed pp.84–86/Figs.1–3.
+- Change: patchy white crown and first chest feathers on a cinnamon, black-faced/dark-eyed age-unknown fledgling; one center-only edit shortened/softened the wing, concealed the tail and retained belly/two-foot fork support.
+- Recheck: full plate and two crops opened; pass with explicit unknowns; science false.

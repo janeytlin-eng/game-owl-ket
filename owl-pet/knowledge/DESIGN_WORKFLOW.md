@@ -1,3 +1,9 @@
+## 2026-11-06 — #102 *Strix nigrolineata* v4 validated application
+
+- **Observed failure:** a prompt that said “blackish wing coverts with a few pale bars” still produced a complete adult-like folded wing.
+- **Applied correction:** for age-unknown older juveniles, separate evidence-backed **coverts colour/pattern** from unsupported **remige length**; explicitly bound the folded wing to a short, rounded, soft mass ending high on the flank and conceal the tail when flight age is unknown.
+- **Validation:** one targeted edit was reopened at full plate and crop scale; adult identity/text/support remained intact and the juvenile wing/tail boundary passed. This is validated for this image, not a universal developmental timetable.
+
 ## 2026-11-06 verified prompt/check rule — qualitative juvenile records
 
 When an institutional source says only that juveniles are paler/low-contrast and lacks an exact age or feather chronology, label the bird `AGE-UNKNOWN IMMATURE`, use the qualitative colour/contrast fact, and keep wing/tail/action conservative. Do not convert an adult specimen measurement or one unsexed specimen into a sex-size rule. This rule was applied to #101 v8: the first render's orderly juvenile wing was edited to a short down-dominant contour and passed full/crop reinspection; it remains a design-validation rule, not scientific sign-off.

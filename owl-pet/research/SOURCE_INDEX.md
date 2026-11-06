@@ -2570,3 +2570,26 @@
 - **Decision:** confirms that some older *hockingi* fledglings can perch/fly, but #130 v4 deliberately makes no flight claim.
 
 **Reused/re-read:** KOEP-MIK2013-222 (PDF 224–225 / print 222–223), KOEP-ALARCON-2023 (pp.93–114, species section/Fig.1c), KOEP-ORDONEZ-FREILE-2019 (pp.25–29). See [species v4 record](species/130-megascops-koepckeae-v4.md).
+
+
+## 2026-11-06 — #131 *Megascops watsonii* v4 — taxonomy dispute and current/old-name mapping
+
+### WAT-SACC-937-2022 — new
+- **Title / institution / year:** Species limits within the *Megascops watsonii* complex / South American Classification Committee / 2022.
+- **URL:** https://www.museum.lsu.edu/~Remsen/SACCprop937.htm
+- **Accessed / type:** 2026-11-06 / institutional taxonomic proposal and recorded expert discussion.
+- **Actually read:** lines 8–49 and references lines 53–66.
+- **Useful evidence:** records that the 2021 proposed splits rest primarily on genetic clades while concrete morphological/vocal diagnoses are lacking; recommends caution pending denser genomic/contact-zone sampling.
+- **Limits / confidence:** committee proposal and expert interpretation, not a morphology or development study. High for documenting the taxonomic dispute, none for juvenile detail.
+- **Decision:** v4 labels the geographic unit but does not invent a visually diagnostic Guiana character or call the taxon scientifically resolved.
+
+### WAT-ITIS-686672-2026 — new
+- **Institution / record:** Integrated Taxonomic Information System, TSN 686672.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686672
+- **Accessed / type:** 2026-11-06 / verified nomenclatural database.
+- **Actually read:** lines 42–114.
+- **Useful evidence:** current valid *Megascops watsonii*; synonyms/old combinations *Otus watsonii* and *Ephialtes watsonii*.
+- **Limits / confidence:** taxonomy only; no morphology, sex-size or development evidence. High for name mapping.
+- **Decision:** v4 current/old-name mapping only.
+
+**Reused/re-read:** WAT-DANTAS-2021 (journal page; prior PDF pp.402, 406–407, 427–428), WAT-MIK2013-235 (uploaded PDF p.237 / printed p.235), WAT-DAFFONSECA-2017, WAT-SCAUP-2024, WAT-BARROS-CINTRA-2009. The uploaded guide explicitly says the juvenile is not known; the v4 young therefore remains the directly photographed age-unknown Manaus stage. Full prompt and boundaries: `research/species/131-megascops-watsonii-v4.md`. Science remains false.

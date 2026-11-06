@@ -2733,3 +2733,35 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Historical-name note:** the primary description documents former assignment of the Lombok material to *Pisorhina albiventris*, *Scops albiventris* and *Otus magicus albiventris*; these are historical specimen assignments, not ITIS-listed synonyms.
 - **Limits / confidence:** taxonomy only; not used for morphology, sex, development, behaviour or nest claims.
 - **Design decision:** retain roster name *Otus jolandae* and record the historical assignments without altering the 251-species scope.
+
+
+## 2026-11-07 — #140 *Otus rufescens* v4 — adult neutral-size and documented downy chick
+
+### RFS-MIKKOLA-2013-P178 — user-uploaded photographic guide page actually read
+- **Title / author / year:** *Owls of the World: A Photographic Guide*; Heimo Mikkola; 2013.
+- **Location:** printed p.178 / PDF p.180, species account 63.
+- **Access:** user-uploaded Library PDF, read 2026-11-07.
+- **Type / scope:** photographic guide; adult identification, juvenile summary, habitat.
+- **Facts:** no sexual-size data; nominate light-morph markings and soft-part colors; reddish-brown downy chick darker on crown/mantle and paler on rump; mesoptile adult-like but less speckled; lowland rainforest/evergreen-forest habitat.
+- **Limits / confidence:** secondary source; no exact age, eye chronology, flight ability or nest description. High for the printed account, not a complete developmental study.
+- **Design use:** near-equal adults, nominate palette, supported downy chick with no mature flight feathers.
+
+### RFS-WARAKAGODA-RASMUSSEN-2004-P102 — primary museum/specimen comparison actually read
+- **Authors / title / year:** Deepal H. Warakagoda & Pamela C. Rasmussen, “A new species of scops-owl from Sri Lanka,” 2004, *Bulletin of the British Ornithologists’ Club* 124(2):85–105.
+- **URL:** https://www.biodiversitylibrary.org/part/71127
+- **Location:** p.102.
+- **Type / scope:** original comparative paper using museum material; NNM *O. rufescens* mesoptile specimen.
+- **Facts:** almost uniform rich rufescent-brown mesoptile; weakly defined dark facial-disc rim; very vague dark barring strongest on hindcrown/upper mantle.
+- **Limits / confidence:** one cited museum specimen; no exact day age, sex, iris, flight ability or nest. High for the quoted specimen phenotype only.
+- **Design use:** prevents adult-like spotted wings/long mature remiges on the juvenile; does not authorize invented chronology.
+
+### RFS-ITIS-555364-2026 — current and original-name verification actually read
+- **Institution / access:** Integrated Taxonomic Information System, TSN 555364; accessed 2026-11-07.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555364&source=to_print
+- **Type / scope:** authoritative taxonomy record.
+- **Facts:** current valid *Otus rufescens* (Horsfield, 1821); original combination *Strix rufescens* Horsfield, 1821; nominate and *malayensis* listed.
+- **Limits / confidence:** taxonomy only; not used for morphology or development.
+- **Design use:** preserves roster name and old-name mapping without changing the 251-species scope.
+
+- Reused project records: `research/species/140-otus-rufescens-v3.md`, `production/runs/2026-10-19T0929+0800-cycle-1.md`.
+- Correction: historical v3 metadata claimed four new index rows, but those rows were absent from the current index; this v4 inserts three actually read stable entries and does not recreate unverified lines.

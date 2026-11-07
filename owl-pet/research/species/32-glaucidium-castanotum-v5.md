@@ -34,3 +34,7 @@ Scene: shaded Sri Lankan wet-zone evergreen forest resembling Sinharaja or Kitul
 - near-equal adults, female subtly fuller only;
 - lower fully supported older juvenile, diffuse markings, compact wing, short tail, no flight/prey;
 - shaded Sri Lankan wet-zone evergreen forest, all six feet supported.
+
+
+## Image review — 2026-11-08T01:21:29+08:00
+The generated 1536×1024 original and three role crops were actually opened. Exact title/count/labels, adult identity, near-equal sex scale, older-dependent stage, all six feet and wet forest passed. No edit was required. Result **PASS_WITH_LIMITATIONS**; the five listed scientific unknowns remain, so scientific verification stays false.

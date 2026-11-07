@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T14:48:36+08:00",
+  "updated": "2026-11-07",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -28244,7 +28244,65 @@
       "verification_commit": "c6d0e3a4d613c54155a55b4592716305d6b82630",
       "verification_tree": "42a50018f86f69d86b9dca72733e157225209364",
       "credited_at": "2026-11-07T14:48:36+08:00"
+    },
+    {
+      "id": "177-otus-hartlaubi-v3",
+      "path": "design/concepts/177-otus-hartlaubi-v3.png",
+      "species_id": 177,
+      "scientific_name": "Otus hartlaubi",
+      "historical_names": [
+        "Athene hartlaubi"
+      ],
+      "common_name": "São Tomé Scops-owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新增并实读两组圣多美成鸟实物照片，复用Melo等2022标本测量、IUCN鉴别资料、Mikkola 2013第136页仓库转录、Jones等1991与ITIS旧名对应。成年雌雄近等体型、同一灰褐色型，不套用雌大雄小；幼鸟限定为年龄未知中雏羽，深色/不确定虹膜、中性角灰喙、短软翼尾与自然落脚支撑。生成后先修正无证据的幼鸟黄喙，再修正雄鸟略大/略高，共2项科学编辑；全图、成鸟裁切、中雏羽裁切和传输原图均实际打开复查。PASS_WITH_LIMITATIONS；精确幼鸟年龄/性别、虹膜与软部颜色时序、翼尾/飞行时序、巢位及量化性别体型差异未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 2,
+      "source_ids": [
+        "STSO-COMMONS-INAT-2018-12933236",
+        "STSO-AFRICANBIRDCLUB-SINEUX-2020-ADULT",
+        "STSO-MELO-ETAL-2022-P7-P27",
+        "STSO-IUCN-2018-ID",
+        "STSO-MIKKOLA-2013-P136",
+        "STSO-IUCN-JONES-ETAL-1991-P72-73",
+        "STSO-ITIS-555374-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/177-otus-hartlaubi-v3.md",
+      "run_record": "production/runs/20261107T144945+0800-cycle-2.md",
+      "review_record": "research/reviews/177-otus-hartlaubi-v3-review.md",
+      "reviewed_at": "2026-11-07T15:42:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "0a17627a2b131526752418b56ebf44e52da8c22ceeefa22ab7714fa179d86a15",
+      "size_bytes": 587877,
+      "git_blob": "a510b3edf51f6d46baf7653cd21e1cf5e5d2f972",
+      "generated_path": "production/generated/177-otus-hartlaubi-v3-generated-master.png",
+      "generated_blob": "a510b3edf51f6d46baf7653cd21e1cf5e5d2f972",
+      "generated_sha256": "0a17627a2b131526752418b56ebf44e52da8c22ceeefa22ab7714fa179d86a15",
+      "generated_size_bytes": 587877,
+      "full_color_source_sha256": "666cfe395cb76472d2521a0902ebf22b84abfe0c9ea9efe413b3bdf965cb97b8",
+      "full_color_source_size_bytes": 2767753,
+      "reviewed_path": "production/reviewed/177-otus-hartlaubi-v3-reviewed-master.png",
+      "reviewed_blob": "a510b3edf51f6d46baf7653cd21e1cf5e5d2f972",
+      "reviewed_sha256": "0a17627a2b131526752418b56ebf44e52da8c22ceeefa22ab7714fa179d86a15",
+      "reviewed_size_bytes": 587877,
+      "review_crop_path": "production/review-crops/177-otus-hartlaubi-v3-mesoptile.png",
+      "review_crop_blob": "d054837188ef582fdf9627899019eaccc37e8028",
+      "review_crop_sha256": "c007fc94ff3a5963d9a48c9a939a3fd51e337432f3b764a37ea13607af9916da",
+      "review_crop_size_bytes": 160965,
+      "auxiliary_review_crop_path": "production/review-crops/177-otus-hartlaubi-v3-adults.png",
+      "auxiliary_review_crop_blob": "8eb3d485eaba3bf98e88a8b8a3677eb115d7dd06",
+      "auxiliary_review_crop_sha256": "bedd34a153bc0c65754c73ef845c4d7bfc5e429da9c4944dd6fc9197351fffe7",
+      "auxiliary_review_crop_size_bytes": 316224,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-07T14:48:36+08:00"
+  "updated_at": "2026-11-07T15:45:00+08:00"
 }

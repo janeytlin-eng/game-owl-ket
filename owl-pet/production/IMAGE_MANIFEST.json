@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T01:50:47.000+08:00",
+  "updated": "2026-11-08T01:58:47.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29489,7 +29489,87 @@
       "verified_at": "2026-11-08T01:50:47.000+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,052 entries). All 23 required paths were present; nine binary paths matched exact Git blob SHA and byte size, including the 3,482,040-byte original reused by six archival paths and three separately reviewed crop blobs. All three manifests parsed at 800/797/790 with #34 v5 as the newest entry."
+    },
+    {
+      "id": "35-glaucidium-jardinii-v5",
+      "path": "design/concepts/35-glaucidium-jardinii-v5.png",
+      "species_id": 35,
+      "scientific_name": "Glaucidium jardinii",
+      "historical_names": [
+        "Phalaenopsis jardinii Bonaparte, 1855"
+      ],
+      "common_name": "Andean Pygmy Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v2–v4. Fresh external re-read recovered ITIS, Banco de la República/Cervantes and PeruAves into the stable index. Adults remain near-equal in crown height; female mass values support only subtle fullness. The end-of-nest-life juvenile has a plain/fine-streaked crown, dull iris, soft formed wing, short tail and complete cavity support. Exact age/sex, iris chronology, first-flight threshold, independence and population-level sex-size direction remain unknown.",
+      "source_ids": [
+        "ANPO-ITIS-2025",
+        "ANPO-BANREP-CERVANTES-2016",
+        "ANPO-PERUAVES-2026",
+        "ANPO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/35-glaucidium-jardinii-v5.md",
+      "review_record": "research/reviews/35-glaucidium-jardinii-v5-review.md",
+      "run_record": "production/runs/20261108T015228+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3519692,
+      "sha256": "0ff96ffd8379f8a80fe27904493d5e9efef43a2b6f8b799344f09dfbd6b5af03",
+      "git_blob": "aa5f24b972f106dc99e778a20ccbd0fef0189232",
+      "initial_original_path": "production/generated/35-glaucidium-jardinii-v5-initial-original.png",
+      "initial_original_blob": "aa5f24b972f106dc99e778a20ccbd0fef0189232",
+      "initial_original_size_bytes": 3519692,
+      "initial_original_sha256": "0ff96ffd8379f8a80fe27904493d5e9efef43a2b6f8b799344f09dfbd6b5af03",
+      "final_original_path": "production/generated/35-glaucidium-jardinii-v5-final-original.png",
+      "final_original_blob": "aa5f24b972f106dc99e778a20ccbd0fef0189232",
+      "final_original_size_bytes": 3519692,
+      "final_original_sha256": "0ff96ffd8379f8a80fe27904493d5e9efef43a2b6f8b799344f09dfbd6b5af03",
+      "full_color_source_path": "production/generated/35-glaucidium-jardinii-v5-full-color.png",
+      "full_color_source_blob": "aa5f24b972f106dc99e778a20ccbd0fef0189232",
+      "full_color_source_size_bytes": 3519692,
+      "full_color_source_sha256": "0ff96ffd8379f8a80fe27904493d5e9efef43a2b6f8b799344f09dfbd6b5af03",
+      "generated_path": "production/generated/35-glaucidium-jardinii-v5-generated-master.png",
+      "generated_blob": "aa5f24b972f106dc99e778a20ccbd0fef0189232",
+      "generated_size_bytes": 3519692,
+      "reviewed_path": "production/reviewed/35-glaucidium-jardinii-v5-reviewed-master.png",
+      "reviewed_blob": "aa5f24b972f106dc99e778a20ccbd0fef0189232",
+      "reviewed_size_bytes": 3519692,
+      "review_crops": [
+        {
+          "path": "production/review-crops/35-glaucidium-jardinii-v5-adult-male.png",
+          "blob": "9c391f10568d9154c1f026e11b69c85a7f8748a2",
+          "size_bytes": 746706,
+          "sha256": "bd876e1efaf9c07fa735686c7d07f18a8a820395977d3c697b4f99ae0e6b7bbd"
+        },
+        {
+          "path": "production/review-crops/35-glaucidium-jardinii-v5-late-nest-juvenile.png",
+          "blob": "76376b74891a8d642879f6100d1a9d9c7054b9ee",
+          "size_bytes": 794049,
+          "sha256": "ce77deed6078f86ffd7b08a0a2c772b4609e9f1036c7ff264c88e20ee7a804df"
+        },
+        {
+          "path": "production/review-crops/35-glaucidium-jardinii-v5-adult-female.png",
+          "blob": "6d4e2cb6fadf65e72f214d6f0b387c2538f4a475",
+          "size_bytes": 730780,
+          "sha256": "22d7a21f878d43342cceead8cdbc3d738e8a3e5f637b9e560acd9588f34d7722"
+        }
+      ],
+      "archive_note": "Full original and three role crops opened. First render passed without edit. Late-nest juvenile remains fully supported and makes no flight/independence claim. Archive readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T01:50:47.000+08:00"
+  "updated_at": "2026-11-08T01:58:47.000+08:00"
 }

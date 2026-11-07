@@ -1026,3 +1026,11 @@ When a species guide says “juvenile not known” but a regional field photogra
 - **Evidence:** Vielliard (1989), printed pp.691–692, and Deville & Ingels (2012), pp.23–26.
 - **Rule applied:** use the documented cavity-stage young with plain soft crown, indeterminate dull iris and complete cavity support; encode near-equal adults because published wing ranges overlap; expose the male nape pattern only through a natural side/rear pose.
 - **Validation:** full plate and three crops passed on the first render. This is validated for #34 v5 only; other species require their own developmental and measurement evidence.
+
+
+## 2026-11-08 — applied rule from #35 v5
+
+- **Problem:** sexed mass and the phrase “end of nest life” invite two unsupported visual jumps: a categorically taller female and a flight-capable juvenile.
+- **Evidence:** ANPO-BANREP-CERVANTES-2016 institutional synthesis, re-read lines 21–32; PeruAves adult/juvenile comparison.
+- **Rule applied:** preserve near-equal adult crown height with only subtle female fullness; use a fully supported, dull-eyed, plain-crowned late-nest juvenile with soft formed wing and short tail.
+- **Validation:** full plate and three crops passed on first render; no unsupported flight or independence pose. Applies to #35 v5 only.

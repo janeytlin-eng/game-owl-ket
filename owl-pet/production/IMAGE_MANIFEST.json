@@ -28330,8 +28330,33 @@
         }
       ],
       "archive_note": "Initial full plate was opened; one targeted juvenile wing/tail edit was made and the edited full-colour plate, transport master and three crops were reopened. Adult standing-height cue is restrained because measurement ranges overlap. Scientific verification remains false.",
-      "readback_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "exact_readback": true,
+      "archive_commit": "bfe64e94c90d7bcb910ebe31fb188deafa0cd6d8",
+      "fixed_archive_commit": "bfe64e94c90d7bcb910ebe31fb188deafa0cd6d8",
+      "verified_at": "2026-11-07T20:00:00+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "immutable archive commit recursive-tree exact path/blob check plus eight complete base64 stream readbacks; local edited full/crop inspection",
+        "tree_sha": "a088e53f330e3013d3fc066acdd50cfd824bc7b9",
+        "tree_count": 3910,
+        "recursive_tree_truncated": false,
+        "paths_verified": 18,
+        "binary_paths_verified": 8,
+        "unique_binary_streams_read_back": 7,
+        "all_git_blobs_match": true,
+        "full_binary_stream_readback": true,
+        "concept": {
+          "path": "design/concepts/197-otus-megalotis-v3.png",
+          "blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
+          "size_bytes": 754802
+        },
+        "manifest_counts": {
+          "design_legacy": 786,
+          "design_image": 785,
+          "production": 776
+        }
+      }
     }
   ],
   "updated_at": "2026-11-07T19:44:00+08:00"

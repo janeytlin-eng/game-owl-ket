@@ -1,6 +1,6 @@
 ## 2026-11-07 — #197 *Otus megalotis* v3
 
-Archived a non-destructive science revision with current-name/alias mapping, sex-scale restraint from overlapping specimen measurements, complete prompts, initial and edited full-colour originals, transport/review masters and three crops. One targeted juvenile wing/tail edit passed reinspection. Unique coverage remains 176/251; revision +1; immutable readback pending.
+Archived a non-destructive science revision with current-name/alias mapping, sex-scale restraint from overlapping specimen measurements, complete prompts, initial and edited full-colour originals, transport/review masters and three crops. One targeted juvenile wing/tail edit passed reinspection. Unique coverage remains 176/251; revision +1; immutable readback passed against the archive commit.
 
 ## 2026-11-07 — #195 *Otus brookii solokensis* v3
 

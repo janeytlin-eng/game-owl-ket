@@ -731,3 +731,15 @@ Right recent fledgling: sex and exact age unknown, post-cavity but still depende
 Composition/framing: male left, female center, fledgling right; different natural head/body poses; all three full bodies separately readable; branch and talons unobstructed; title and labels fully legible.
 Constraints: exactly three birds; exact text; near-equal adults; no prey, eggs, extra chicks, people or nest box; natural cavity only; no unsupported limb or merged talons.
 Avoid: female giant, cloned adult poses, ear tufts, adult-perfect wing/scapular rows or long adult tail on fledgling, newborn/down-only chick, spread-wing flight, floating feet, text errors, watermark.
+
+
+## #92 *Ninox japonica* v5 — targeted fledgling edit — 2026-11-08T04:31:18.967+08:00
+
+```text
+Use case: precise-object-edit
+Asset type: owl electronic-pet scientific concept plate revision
+Primary request: Edit ONLY the right-hand bird labeled "RECENT FLEDGLING" in the existing three-panel Northern Boobook plate. Shorten and soften its folded wing so it is compact, rounded, and down-softened, with incomplete developing remiges rather than a long orderly adult primary panel. Keep the tail very short or concealed behind the body. Remove any adult-like regular shoulder spots from the fledgling. Preserve its paler fluffy underparts, open begging beak, large dark juvenile-looking eye, small rounded body, both feet firmly supported on the branch beside the natural tree cavity.
+Text (verbatim): "92 · NORTHERN BOOBOOK · Ninox japonica"; "ADULT MALE"; "ADULT FEMALE"; "RECENT FLEDGLING"
+Constraints: Change only the right-hand fledgling's wing/tail development. Keep both adults pixel-consistent in identity, pose, scale, plumage, eye color, feet, and branches. Preserve exact title, labels, three-panel layout, typography, orchard/cavity habitat, lighting, framing, and all foot support. Exactly three birds. No new birds or objects.
+Avoid: adult-length fledgling primaries, orderly adult wing panel, adult shoulder spots on fledgling, long barred fledgling tail, unsupported feet, flight pose, newborn naked chick, altered text, misspelling, watermark.
+```

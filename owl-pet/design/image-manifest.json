@@ -28914,10 +28914,23 @@
       "secondary_auxiliary_review_crop_blob": "23528bef45b48742bc25c15f9196b77fe6419dcd",
       "secondary_auxiliary_review_crop_sha256": "53520a4747afb0804027359dac58aa2ea6cd0dba9e77b1799289acff48ecc0fa",
       "secondary_auxiliary_review_crop_size_bytes": 209825,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "ledger_credit_pending": true
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "ledger_credit_pending": true,
+      "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
+      "archive_tree": "d2304fee61593a766b5dd12bc7344621060aa9f2",
+      "verified_at": "2026-11-07T19:43:00+08:00",
+      "connector_full_binary_stream_readback": true,
+      "browser_original_access_readback": false,
+      "concept_path_accessible": true,
+      "required_paths_verified": 18,
+      "exact_binary_paths_verified": 8,
+      "unique_binary_streams_read_back": 7,
+      "tree_entries": 3899,
+      "tree_truncated": false,
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "readback_note": "Archive commit tree was complete and non-truncated. Eight binary paths (seven unique streams) were read back as complete base64 via the GitHub connector and matched expected path/blob/byte length; ten text/manifest/research paths were present, and all three manifest counts/entry blobs were re-read. Browser renderer was not used, so no browser-access claim is made."
     }
   ],
-  "updated_at": "2026-11-07T19:40:00+08:00"
+  "updated_at": "2026-11-07T19:43:00+08:00"
 }

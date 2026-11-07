@@ -32342,14 +32342,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:40:00+08:00",
-      "current_stage": "ARCHIVED",
+      "updated_at": "2026-11-07T19:43:00+08:00",
+      "current_stage": "VERIFIED",
       "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T193000+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T19:40:00+08:00",
-        "expires_at": "2026-11-07T19:55:00+08:00"
+        "heartbeat_at": "2026-11-07T19:43:00+08:00",
+        "expires_at": "2026-11-07T19:58:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -32358,7 +32358,7 @@
         "species": "Otus brookii",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md"
       },
       "active": {
@@ -32643,6 +32643,40 @@
             "scientifically_verified": false,
             "readback_pending": true,
             "lease_expires_at": "2026-11-07T19:55:00+08:00"
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T19:43:00+08:00",
+          "run_id": "20261107T193000+0800-cycle-2",
+          "species_id": 195,
+          "species": "Otus brookii",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
+            "archive_tree": "d2304fee61593a766b5dd12bc7344621060aa9f2",
+            "required_paths_verified": 18,
+            "exact_binary_paths_verified": 8,
+            "unique_binary_streams_read_back": 7,
+            "tree_entries": 3899,
+            "tree_truncated": false,
+            "manifest_counts": {
+              "design_legacy": 785,
+              "design_image": 784,
+              "production": 775
+            },
+            "concept_blob": "1d9c162a61076c9751ecf0527d3fcea9d3469baf",
+            "initial_source_blob": "d00dcb162988ed98a8185842e03a94e1cc5d53b0",
+            "edited_source_blob": "51b47e1dd804dea200f51ec9664f9dc5cf6eaa2a",
+            "generated_blob": "ca5e140b638a3598e0db92462da9d296c0d0d77d",
+            "reviewed_blob": "1d9c162a61076c9751ecf0527d3fcea9d3469baf",
+            "full_binary_stream_readback": true,
+            "browser_renderer": false,
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T19:58:00+08:00"
           }
         }
       ]

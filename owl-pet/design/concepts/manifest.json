@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T04:33:10.150+08:00",
+  "updated": "2026-11-08T04:34:24.579+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30770,9 +30770,19 @@
         }
       ],
       "archive_note": "Initial full plate and three crops opened; one juvenile-wing edit; edited full plate and all three final crops reopened. Full-size originals retained; immutable readback pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "50303cdf51206912fa1d23b69d42cc8d7cf56a69",
+      "archive_tree": "e5de7455fb49e3b2989356eddc293b6c82f3a64e",
+      "archive_tree_entries": 4157,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 20,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 5,
+      "verified_at": "2026-11-08T04:34:24.579+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable archive tree was non-truncated (4,157 entries). All 20 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Manifests parsed at 808/805/798 with #92 v5 newest and exactly once."
     }
   ],
-  "updated_at": "2026-11-08T04:33:10.150+08:00"
+  "updated_at": "2026-11-08T04:34:24.579+08:00"
 }

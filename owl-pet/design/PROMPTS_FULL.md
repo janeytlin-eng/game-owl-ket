@@ -634,3 +634,16 @@ RIGHT ADULT FEMALE: same adult plumage and essentially equal displayed crown hei
 Environment: dead emergent trunk beside humid Amazonian primary lowland forest and a regrowing Cecropia clearing, filtered tropical daylight. Cavity is an old woodpecker hole, not a nest box; no eggs, nest material, prey or extra young. All six feet/support relationships must be anatomically credible.
 
 Critical negatives: no ear tufts; no extra bird; no exaggerated female; no sex-coded adult colour; no mature white-spotted juvenile wing; no bright asserted juvenile iris; no long adult tail on young; no airborne or unsupported young; no prey; no watermark; no text beyond the exact title and three labels.
+
+
+## 2026-11-08 — #35 *Glaucidium jardinii* v5
+
+Create one 3:2 horizontal warm hand-painted digital gouache scientific concept sheet, 1536×1024, softly textured cream paper and restrained humid-cloud-forest palette, matching the established owl-pet series. Title at top exactly: “35 · ANDEAN PYGMY OWL · Glaucidium jardinii”. Exactly three birds and no other birds. Put labels exactly “ADULT MALE”, “LATE-NEST JUVENILE”, and “ADULT FEMALE” below the corresponding birds. Use one coherent natural scene, not separate boxes or a collage.
+
+Species identity: tiny Andean Pygmy Owl, 15–16 cm, rounded head with absolutely no ear tufts. Adults in the common dark-brown morph: yellow irises, yellow cere/bill and yellow tarsi; fine small pale dots on crown and nape; short white brows, white moustachial marks and broad white throat; paired black-and-buff false-eye patches on the nape; irregular dark-brown breast band; white underparts with dark longitudinal spots/bars strongest along sides; short dark tail with about four pale bands. Do not turn them into generic spotted owlets.
+
+Composition: adult male on the left, turned naturally three-quarters away but looking back so the two paired occipital false-eye patches are coherent and readable, not a second face. Adult female on the right facing front/three-quarter. Keep adult crown heights near equal; available mass values do not prove a fixed standing-height ratio. The female may be subtly fuller through the body only, not conspicuously taller. Both adults have closed wings and fully supported feet on mossy cloud-forest branches.
+
+Center late-nest juvenile: age unknown, at the end of nest life, fully supported with both feet at a dark natural mossy cavity lip. Give it a cautious low sidestep/head-turn pose while remaining grounded. Crown and nape plain or only extremely finely streaked, not adult-spotted. Underparts weaker and softer than adults. Wing and short tail formed but soft and low-contrast, without neat adult rows of bright covert spots or mature long flight feathers. Use a neutral/dusky iris because juvenile iris chronology is not verified. No flight, hovering, wing-spread display, unsupported leap, exact-age cue or claim of independence.
+
+Habitat: humid high-Andean cloud forest, moss, lichens, epiphytes and a natural tree cavity; no nest box, eggs, prey or decorative loose feathers. Show correct talons and natural support. No watermark, signature, border, extra labels or extra text.

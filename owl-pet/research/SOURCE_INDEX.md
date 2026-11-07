@@ -1,5 +1,38 @@
 
 
+## 2026-11-08 — #35 *Glaucidium jardinii* v5 — stable-index recovery and external re-read
+
+### ANPO-ITIS-2025
+- **Title / institution / year:** “Glaucidium jardinii”, TSN 555456 / Integrated Taxonomic Information System / IOC v15.1 source acquired 2025.
+- **URL / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555456 / 2026-11-08.
+- **Type / scope:** government-partner taxonomy database; species/current and historical names.
+- **Sections read:** Taxonomy and Nomenclature lines 42–71; References lines 89–110.
+- **Evidence:** accepts *Glaucidium jardinii* and lists *Phalaenopsis jardinii* Bonaparte, 1855 as synonym/original combination. Taxonomy only; no morphology/development claim.
+- **Design link:** [v5 research](species/35-glaucidium-jardinii-v5.md); v5 image pending.
+
+### ANPO-BANREP-CERVANTES-2016
+- **Title / author-institution / year:** “Glaucidium jardinii” / Daniel Uribe Restrepo; Biblioteca Virtual Miguel de Cervantes and Banco de la República / 2016.
+- **URL / accessed:** https://www.cervantesvirtual.com/obra/glaucidium-jardinii-852836/ / 2026-11-08.
+- **Type / scope:** institutional secondary synthesis; adult male/female and end-of-nest-life juvenile.
+- **Section read:** bibliographic general note lines 21–32.
+- **Evidence:** 15–16 cm; cited mass 56–63 g male and 65–75 g female; adult dotted crown/false eyes/tail bands; juvenile crown/nape unmarked or very finely streaked; “juvenile” footnote is end of nest life.
+- **Limits:** not primary, not known-age and not linear sex measurements. Supports near-equal adult height with only subtle female fullness; cannot support exact juvenile age, iris or flight.
+- **Design link:** [v5 research](species/35-glaucidium-jardinii-v5.md); v5 image pending.
+
+### ANPO-PERUAVES-2026
+- **Title / institution:** “Andean Pygmy-Owl (*Glaucidium jardinii*)” / PeruAves.
+- **URL / accessed:** https://www.peruaves.org/strigidae/andean-pygmy-owl-glaucidium-jardinii/ / 2026-11-08.
+- **Type / scope:** secondary identification page with adult and juvenile field photographs.
+- **Section read:** Identification & Behavior and age/location captions.
+- **Evidence:** adult spotted head versus juvenile streaked/plainer head; false-eye placement; humid montane range context.
+- **Limits:** no known-age or capability series; photos do not establish flight threshold.
+- **Design link:** [v5 research](species/35-glaucidium-jardinii-v5.md); v5 image pending.
+
+### Unverified lead — ANPO-ROBBINS-STILES-1999
+- **Citation / DOI:** Robbins & Stiles, 1999, “A New Species of Pygmy-Owl … Northern Andes,” *The Auk* 116(2):305–315; https://doi.org/10.2307/4089365.
+- **Status:** abstract read; full text inaccessible in this execution. Species-delimitation context only; not treated as verified juvenile or sex-size evidence.
+
+
 ## 2026-11-08 — #34 *Glaucidium hardyi* v5 — original-description table and primary cavity-young re-read
 
 ### Re-read / direct-page verification — APOW-VIELLIARD-1989

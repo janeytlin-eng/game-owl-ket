@@ -32342,14 +32342,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:33:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T19:37:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T193000+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T19:33:00+08:00",
-        "expires_at": "2026-11-07T19:48:00+08:00"
+        "heartbeat_at": "2026-11-07T19:37:00+08:00",
+        "expires_at": "2026-11-07T19:52:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -32358,7 +32358,7 @@
         "species": "Otus brookii",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md"
       },
       "active": {
@@ -32556,6 +32556,33 @@
             ],
             "mikkola_access": "page-specific repository transcription reused; uploaded guide unavailable this execution",
             "lease_expires_at": "2026-11-07T19:48:00+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T19:37:00+08:00",
+          "run_id": "20261107T193000+0800-cycle-2",
+          "species_id": 195,
+          "species": "Otus brookii",
+          "credited": false,
+          "evidence": {
+            "initial_path": "owl-pet/production/generated/195-otus-brookii-v3-initial-full-color.jpg",
+            "initial_blob": "d00dcb162988ed98a8185842e03a94e1cc5d53b0",
+            "edited_path": "owl-pet/production/generated/195-otus-brookii-v3-full-color.jpg",
+            "edited_blob": "51b47e1dd804dea200f51ec9664f9dc5cf6eaa2a",
+            "generated_master": "owl-pet/production/generated/195-otus-brookii-v3-generated-master.png",
+            "generated_blob": "ca5e140b638a3598e0db92462da9d296c0d0d77d",
+            "initial_sha256": "81325eb3ece5ba2776f25b3b553bc6db09d8246028072c930d7cc484fa63431b",
+            "edited_sha256": "9c287d871887ecd487cf6638d66c87b989a6df0844b0d5122dd13fc1925074a1",
+            "master_sha256": "9ddd6435b7fbfb87da2094b45e92774d2aa3e03eb88c300f6cc92f72761968fe",
+            "geometry": "1536x1024",
+            "generation_seconds": 45,
+            "edit_seconds": 38.2,
+            "edit_count": 1,
+            "preliminary_inspection": "initial full plate opened; adults/labels/support passed but older juvenile wing and tail were too long/rigid. Targeted edit shortened and softened only the juvenile wing/tail; edited plate reopened and passed preliminary review.",
+            "lease_expires_at": "2026-11-07T19:52:00+08:00",
             "scientifically_verified": false
           }
         }

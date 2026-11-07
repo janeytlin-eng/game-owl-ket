@@ -1,3 +1,7 @@
+## 2026-11-07 23:40 +08 — #28 v5 LEDGER_CREDITED — active batch 3/6
+
+Verification [`583ee0c2fdb74066fe6fcfb1cc0b72cf1318d156`](https://github.com/janeytlin-eng/game-owl-ket/commit/583ee0c2fdb74066fe6fcfb1cc0b72cf1318d156) was read back after archive [`fbbeab7444c6271a57addcc775463fb2980739f0`](https://github.com/janeytlin-eng/game-owl-ket/commit/fbbeab7444c6271a57addcc775463fb2980739f0). Cycle 3 credited once; lease released; next cycle 4. Unique coverage remains 176/251; revision +1; science=false.
+
 ## 2026-11-07 23:39 +08 — #28 *Glaucidium perlatum* v5 immutable archive VERIFIED; ledger credit pending
 
 Archive [`fbbeab7444c6271a57addcc775463fb2980739f0`](https://github.com/janeytlin-eng/game-owl-ket/commit/fbbeab7444c6271a57addcc775463fb2980739f0) returned all 16 required paths. Seven binary paths matched exact blob/byte tuples and five unique binary bodies streamed completely; manifests parsed at 794/791/784. `PASS_WITH_LIMITATIONS`; science=false; unique 176/251; cycle credit still pending.

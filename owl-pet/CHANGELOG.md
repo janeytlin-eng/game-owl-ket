@@ -1,3 +1,7 @@
+## 2026-11-07 — #28 v5 ledger credited
+
+- Verification `583ee0c2fdb74066fe6fcfb1cc0b72cf1318d156` read back; cycle 3/6 credited once; next cycle 4; unique 176/251.
+
 ## 2026-11-07 — #28 v5 immutable archive verified
 
 - Archive `fbbeab7444c6271a57addcc775463fb2980739f0`: 16 required paths, 7 binary paths / 5 unique complete streams; manifests 794/791/784.

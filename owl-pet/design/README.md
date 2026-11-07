@@ -1,7 +1,7 @@
 ## Latest concept: #188 Japanese Scops Owl — *Otus semitorques* v3
 
 - [Concept](concepts/188-otus-semitorques-v3.png) · [Full-colour source](../production/generated/188-otus-semitorques-v3-full-color.jpg) · [Research](../research/species/188-otus-semitorques-v3.md) · [Review](../research/reviews/188-otus-semitorques-v3-review.md) · [Run](../production/runs/20261107T171100+0800-cycle-6.md)
-- V3 preserves v1–v2, uses near-equal same-plumage adults and the directly documented Honshu recent-fledgling boundary. One edit replaced a long adult-like juvenile wing with a compact down-covered developing wing. No nest, exact age or flight claim. `PASS_WITH_LIMITATIONS`; science=false; immutable archive verified; ledger credit pending.
+- V3 preserves v1–v2, uses near-equal same-plumage adults and the directly documented Honshu recent-fledgling boundary. One edit replaced a long adult-like juvenile wing with a compact down-covered developing wing. No nest, exact age or flight claim. `PASS_WITH_LIMITATIONS`; science=false; immutable archive verified and ledger credited; batch 6/6 complete.
 
 ## Latest concept: #176 Pemba Scops-owl — *Otus pembaensis* v3
 

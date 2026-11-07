@@ -1,3 +1,7 @@
+### Batch 20261107T143537+0800 COMPLETE 6/6 — #188 v3 credited
+
+Cycle 6 #188 *Otus semitorques* v3 credited once from verification `0b90df88c792b8579fd6577f8b90a94ba3cdb54c` after repaired immutable archive `51cf1e0f`. The batch's six science revisions are complete; lease released. Unique ledger remains 176/251; #188 adds one revision, not a duplicate species. No other incomplete batch is registered; next production start is a new batch cycle 1.
+
 ### #188 *Otus semitorques* v3 immutable archive VERIFIED — ledger credit pending
 
 Archive `51cf1e0ffb4ddd04d1cce4213fa08282a70360da` / tree `84dbcf17a64bbcfc11a90fe5a3d98eb12ba5bb3a` returned 3,878 non-truncated entries. Nineteen required paths and six exact binary path/blob/byte tuples passed after pre-credit repair; manifests 782/783/773 parsed and the GitHub concept page rendered 1536×1024. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

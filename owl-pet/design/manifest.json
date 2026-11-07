@@ -28580,7 +28580,7 @@
       "auxiliary_review_crop_size_bytes": 357912,
       "archive_commit_pending": false,
       "readback_pending": false,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "archive_note": "Immutable tree readback caught connector-truncated PNG objects for the full-colour source and adults crop before cycle credit. They were replaced with a visually re-opened 605,125-byte high-quality JPEG source and 357,912-byte indexed PNG crop; manifests and paths were corrected before verification.",
       "archive_commit": "51cf1e0ffb4ddd04d1cce4213fa08282a70360da",
       "archive_tree": "84dbcf17a64bbcfc11a90fe5a3d98eb12ba5bb3a",
@@ -28593,8 +28593,11 @@
       "tree_entries": 3878,
       "tree_truncated": false,
       "verification_result": "PASS_WITH_LIMITATIONS",
-      "ledger_credit_pending": true
+      "ledger_credit_pending": false,
+      "verification_commit": "0b90df88c792b8579fd6577f8b90a94ba3cdb54c",
+      "verification_tree": "9515c0940d6bdc134c19a45bdb5ea0c0d6cba735",
+      "credited_at": "2026-11-07T17:54:17+08:00"
     }
   ],
-  "updated_at": "2026-11-07T17:52:51+08:00"
+  "updated_at": "2026-11-07T17:54:17+08:00"
 }

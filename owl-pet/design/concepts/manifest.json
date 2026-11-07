@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T03:51:40+08:00",
+  "updated": "2026-11-08T04:33:10.150+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30688,7 +30688,91 @@
       "verified_at": "2026-11-08T03:51:40+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,145 entries). All 20 unique required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Manifests parsed at 807/804/797 with #86 v5 newest and exactly once. Connector full-body blob streaming was not required because immutable tree path/blob/size verification succeeded."
+    },
+    {
+      "id": "92-ninox-japonica-v5",
+      "path": "design/concepts/92-ninox-japonica-v5.png",
+      "species_id": 92,
+      "scientific_name": "Ninox japonica",
+      "historical_names": [
+        "Ninox scutulata japonica",
+        "Ninox scutulata totogo"
+      ],
+      "common_name": "Northern Boobook",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v3; no v4 exists. Current Taiwan sources conflict on whether totogo is a synonym of japonica or a valid subspecies, so the plate remains species-level. Lin et al. 2012 found no significant adult sex differences, so adults remain near-equal. One targeted edit replaced the initial long orderly fledgling wing with a compact rounded down-softened developing wing and concealed short tail. Exact fledgling age/sex, iris chronology, continuous feather sequence, first-flight threshold, independence and totogo rank remain unknown.",
+      "source_ids": [
+        "JAP-TBN-2025-REREAD",
+        "JAP-ITIS-2026-REREAD",
+        "JAP-NTM-COLLECTION-2026-REREAD",
+        "JAP-LIN-LIN-TSENG-2012-PP164-166",
+        "JAP-TAIEOL2013",
+        "JAP-MIK2013-466"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/92-ninox-japonica-v5.md",
+      "review_record": "research/reviews/92-ninox-japonica-v5-review.md",
+      "run_record": "production/runs/20261108T035350+0800-cycle-5.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3116170,
+      "sha256": "436007fe2fbe14b4f14ce60124501d07101ebbff50bfeb75c0050869074641e6",
+      "git_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
+      "initial_original_path": "production/generated/92-ninox-japonica-v5-initial-original.png",
+      "initial_original_blob": "2df8d043532558720bd1654c828271e081ebac4b",
+      "initial_original_size_bytes": 3312188,
+      "initial_original_sha256": "3b96f51efafec137611a6c1bf67e7c666096776176140613a4fcf7f73b320af1",
+      "final_original_path": "production/generated/92-ninox-japonica-v5-final-original.png",
+      "final_original_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
+      "final_original_size_bytes": 3116170,
+      "final_original_sha256": "436007fe2fbe14b4f14ce60124501d07101ebbff50bfeb75c0050869074641e6",
+      "full_color_source_path": "production/generated/92-ninox-japonica-v5-full-color.png",
+      "full_color_source_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
+      "full_color_source_size_bytes": 3116170,
+      "full_color_source_sha256": "436007fe2fbe14b4f14ce60124501d07101ebbff50bfeb75c0050869074641e6",
+      "generated_path": "production/generated/92-ninox-japonica-v5-generated-master.png",
+      "generated_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
+      "generated_size_bytes": 3116170,
+      "reviewed_path": "production/reviewed/92-ninox-japonica-v5-reviewed-master.png",
+      "reviewed_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
+      "reviewed_size_bytes": 3116170,
+      "review_crops": [
+        {
+          "path": "production/review-crops/92-ninox-japonica-v5-adult-male.png",
+          "blob": "a4edaa136d14273d06a453d79a1966dbf7cc00a7",
+          "size_bytes": 928248,
+          "sha256": "9d7a74c2943a3c8aee60df6d8f417f9bfc9a0eb6cb5d0bcd3d25b77a52a9f9bd"
+        },
+        {
+          "path": "production/review-crops/92-ninox-japonica-v5-adult-female.png",
+          "blob": "5b839bb846453896aeb3151a3aba6715ae590afd",
+          "size_bytes": 936860,
+          "sha256": "ba0bdcb7efd304aef6b20e21ec396cc3e11f09a450d98dd3e285af3ebbeca3e3"
+        },
+        {
+          "path": "production/review-crops/92-ninox-japonica-v5-recent-fledgling.png",
+          "blob": "9a03b9c8824431e5d5e071dc2eace3b99d411608",
+          "size_bytes": 999926,
+          "sha256": "720ff8856e9c8a46e3ded023556ad99adf557fa3677ac5b02a5e2bd675a6e975"
+        }
+      ],
+      "archive_note": "Initial full plate and three crops opened; one juvenile-wing edit; edited full plate and all three final crops reopened. Full-size originals retained; immutable readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T03:51:40+08:00"
+  "updated_at": "2026-11-08T04:33:10.150+08:00"
 }

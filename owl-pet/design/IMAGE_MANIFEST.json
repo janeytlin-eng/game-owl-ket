@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T01:38:15.874+08:00",
+  "updated": "2026-11-08T01:48:48.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29922,7 +29922,86 @@
       "verified_at": "2026-11-08T01:38:15.874+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,036 entries). All 23 required paths were present; nine binary paths matched exact Git blob SHA and byte size, including the 3,306,125-byte original reused by six archival paths and three reviewed crop blobs. All three manifests parsed at 799/796/789 with #33 v5 as the newest entry."
+    },
+    {
+      "id": "34-glaucidium-hardyi-v5",
+      "path": "design/concepts/34-glaucidium-hardyi-v5.png",
+      "species_id": 34,
+      "scientific_name": "Glaucidium hardyi",
+      "historical_names": [],
+      "common_name": "Amazonian Pygmy Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1–v4. The original description and primary nest record support near-equal definitive adults and an almost-full-grown young observed at an old woodpecker cavity in a dead tree. The first render passed full-plate and crop review: the male exposes coherent occipital false-eye elements; the young has a plain soft crown, dull indeterminate iris and complete cavity support. Exact juvenile age/sex, iris chronology, flight threshold, independence and population-level sex-size direction remain unknown.",
+      "source_ids": [
+        "AMPO-VIELLIARD-1989",
+        "AMPO-DEVILLE-INGELS-2012",
+        "AMPO-BIRDSCOLOMBIA-2020",
+        "AMPO-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/34-glaucidium-hardyi-v5.md",
+      "review_record": "research/reviews/34-glaucidium-hardyi-v5-review.md",
+      "run_record": "production/runs/20261108T014015+0800-cycle-3.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3482040,
+      "sha256": "3e4775e3d770f44fdb34f7df9a47445c9152af941aa415538188a2afb9c7e35d",
+      "git_blob": "20c3431663fd7dfe0df2c6af5ea47267bad986cd",
+      "initial_original_path": "production/generated/34-glaucidium-hardyi-v5-initial-original.png",
+      "initial_original_blob": "20c3431663fd7dfe0df2c6af5ea47267bad986cd",
+      "initial_original_size_bytes": 3482040,
+      "initial_original_sha256": "3e4775e3d770f44fdb34f7df9a47445c9152af941aa415538188a2afb9c7e35d",
+      "final_original_path": "production/generated/34-glaucidium-hardyi-v5-final-original.png",
+      "final_original_blob": "20c3431663fd7dfe0df2c6af5ea47267bad986cd",
+      "final_original_size_bytes": 3482040,
+      "final_original_sha256": "3e4775e3d770f44fdb34f7df9a47445c9152af941aa415538188a2afb9c7e35d",
+      "full_color_source_path": "production/generated/34-glaucidium-hardyi-v5-full-color.png",
+      "full_color_source_blob": "20c3431663fd7dfe0df2c6af5ea47267bad986cd",
+      "full_color_source_size_bytes": 3482040,
+      "full_color_source_sha256": "3e4775e3d770f44fdb34f7df9a47445c9152af941aa415538188a2afb9c7e35d",
+      "generated_path": "production/generated/34-glaucidium-hardyi-v5-generated-master.png",
+      "generated_blob": "20c3431663fd7dfe0df2c6af5ea47267bad986cd",
+      "generated_size_bytes": 3482040,
+      "reviewed_path": "production/reviewed/34-glaucidium-hardyi-v5-reviewed-master.png",
+      "reviewed_blob": "20c3431663fd7dfe0df2c6af5ea47267bad986cd",
+      "reviewed_size_bytes": 3482040,
+      "review_crops": [
+        {
+          "path": "production/review-crops/34-glaucidium-hardyi-v5-adult-male.png",
+          "blob": "b137245cd9dd42aa36675aee58ccc86f731a0e0e",
+          "size_bytes": 692383,
+          "sha256": "a7fd6719e7db7448dc0af3b1727a5f424819252c19e244aa0086b5685aa330d5"
+        },
+        {
+          "path": "production/review-crops/34-glaucidium-hardyi-v5-young.png",
+          "blob": "8dd1d3a85b0ef3936b93e33c515f56cd3e79965e",
+          "size_bytes": 816624,
+          "sha256": "5f4c9730c7a74e5abf553ef798db4c462f70e611bbaf8d8807eb9e19b38a58b4"
+        },
+        {
+          "path": "production/review-crops/34-glaucidium-hardyi-v5-adult-female.png",
+          "blob": "301ead66b9090e669f136c518806d7dc50b9d840",
+          "size_bytes": 703045,
+          "sha256": "7f1ca11ee0eed9456fe4589fe8f8c63254faf02c4e6a260b6ee23694793b44b0"
+        }
+      ],
+      "archive_note": "Full original and three role crops opened. First render passed without edit. The almost-full-grown cavity young remains fully supported and makes no flight/independence claim. Archive readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T01:38:15.874+08:00"
+  "updated_at": "2026-11-08T01:48:48.000+08:00"
 }

@@ -3933,3 +3933,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Verification commit `779f61778d4b35a561414acffa2abb684c28a4a8` and archive commit `40318caef977b4a5487883450ac69800414a8a83` were read back.
 - Credited as batch 20261108T011416+0800 cycle 2/6; next cycle 3.
 - Unique coverage remains 176/251; revision +1; science=false; lease released.
+
+
+## 2026-11-08 — #34 v5 archive staged
+
+- Preserved v1–v4; staged `34-glaucidium-hardyi-v5` as a science revision (unique +0, revision +1).
+- Full plate and three crops actually opened; first render passed without edit. Near-equal adults, coherent male occipital pattern, and a fully supported almost-full-grown cavity young match the evidence boundary.
+- Manifests staged at 800 / 797 / 790. Immutable archive readback pending; science=false.

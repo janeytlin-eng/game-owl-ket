@@ -3759,3 +3759,5 @@ Verification commit `391498b03379e62923d15eb0671c30f6aa767550` was read back aft
 - Full nest paper read and source index corrected; exceptional ground nest explicitly excluded from chick design.
 - Exactly three birds; one edit softened/shortened the older immature wing and tail. Concept plus two crops opened. Unique remains 176/251; revision +1; science=false.
 - Transport SHA-256 `a61f40f6734fa52b975491a5ecaa00214c68e107d64d1d840d1bec0bf5335e98`; immutable tree/readback pending.
+
+- 2026-11-07T16:15:00+08:00 — #173 v3 VERIFIED at archive `3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a` / tree `8a199816ca27c028dbb06d4eb0bfc72deade5f02`: 17/17 required paths, 5/5 exact binary blobs, 3,811-entry non-truncated tree, manifests 774/775/765. Ledger credit pending; science=false.

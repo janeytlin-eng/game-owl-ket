@@ -35,4 +35,4 @@ Environment: southern Chilean Andean temperate secondary-forest edge with old co
 
 ## Scientific status
 
-Pending image generation and visual review. This evidence does not justify full scientific verification.
+PASS_WITH_LIMITATIONS after one targeted juvenile-wing/tail edit and full/crop recheck. Exact juvenile age/sex, iris chronology, first-flight threshold, independence, continuous feather sequence and population transfer remain unknown. scientifically_verified=false.

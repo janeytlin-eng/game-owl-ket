@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T02:25:46+08:00",
+  "updated": "2026-11-08T02:43:41+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30340,7 +30340,90 @@
       "verified_at": "2026-11-08T02:25:46+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,097 entries). All 23 required paths were present; nine binary paths matched exact Git blob SHA and byte size. Manifests parsed at 803/800/793 with #37 v5 newest."
+    },
+    {
+      "id": "38-glaucidium-nana-v5",
+      "path": "design/concepts/38-glaucidium-nana-v5.png",
+      "species_id": 38,
+      "scientific_name": "Glaucidium nana",
+      "historical_names": [
+        "Glaucidium nanum (P. P. King, 1827)",
+        "Strix nana P. P. King, 1827"
+      ],
+      "common_name": "Austral Pygmy Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v4 and adds species-specific morphometric direction from Jiménez & Jaksic 1989: females had significantly longer wing chords and tails, while the small weight sample did not prove a heavier body. Adults therefore remain near equal in standing height with only subtly longer female wing/tail contours. One targeted edit replaced the initial adult-like juvenile primaries and long barred tail with a short soft folded wing and tiny tail tuft. The age-unknown branch fledgling is fully supported and makes no exact-age, flight or independence claim.",
+      "source_ids": [
+        "AUPO-JIMENEZ-JAKSIC-1989-REREAD",
+        "AUPO-IBARRA-2015-REREAD",
+        "AUPO-MARKS-2018-REREAD",
+        "AUPO-ITIS-2025-REREAD",
+        "SRC-BOOK-038-01"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/38-glaucidium-nana-v5.md",
+      "review_record": "research/reviews/38-glaucidium-nana-v5-review.md",
+      "run_record": "production/runs/20261108T023550+0800-cycle-1.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3180310,
+      "sha256": "684950feed19ad36999a7da4dfe76e4a06513bc8ef6f2932fa0bd3875900cd24",
+      "git_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
+      "initial_original_path": "production/generated/38-glaucidium-nana-v5-initial-original.png",
+      "initial_original_blob": "a88d6729e799a3b0ac9775543285f0d596bfbf78",
+      "initial_original_size_bytes": 3472234,
+      "initial_original_sha256": "db073432963684ca3a85f302075dde6fa82109d80a109388ee96185595e21132",
+      "final_original_path": "production/generated/38-glaucidium-nana-v5-final-original.png",
+      "final_original_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
+      "final_original_size_bytes": 3180310,
+      "final_original_sha256": "684950feed19ad36999a7da4dfe76e4a06513bc8ef6f2932fa0bd3875900cd24",
+      "full_color_source_path": "production/generated/38-glaucidium-nana-v5-full-color.png",
+      "full_color_source_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
+      "full_color_source_size_bytes": 3180310,
+      "full_color_source_sha256": "684950feed19ad36999a7da4dfe76e4a06513bc8ef6f2932fa0bd3875900cd24",
+      "generated_path": "production/generated/38-glaucidium-nana-v5-generated-master.png",
+      "generated_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
+      "generated_size_bytes": 3180310,
+      "reviewed_path": "production/reviewed/38-glaucidium-nana-v5-reviewed-master.png",
+      "reviewed_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
+      "reviewed_size_bytes": 3180310,
+      "review_crops": [
+        {
+          "path": "production/review-crops/38-glaucidium-nana-v5-adult-male.png",
+          "blob": "08009e71211e7876b874d7a87c7493825fe4c6f1",
+          "size_bytes": 776951,
+          "sha256": "3815b5b87606f39a90c510afaafe27bb6bf78e905779617c06340ccab7f50cb2"
+        },
+        {
+          "path": "production/review-crops/38-glaucidium-nana-v5-adult-female.png",
+          "blob": "6a63124c6f884663f18954080672f197b0606af5",
+          "size_bytes": 753015,
+          "sha256": "9c13f586011987c3a9c28030eb2bebcca74dbf9445ecf576d6298c1ebc16bf81"
+        },
+        {
+          "path": "production/review-crops/38-glaucidium-nana-v5-juvenile.png",
+          "blob": "e4db48e1a3df050465a23b0266086d9b795eabb6",
+          "size_bytes": 800500,
+          "sha256": "0ec77105fb5b07a8fdc717471372a711b333828b8d299172acf071df1f18d1dd"
+        }
+      ],
+      "archive_note": "Initial and edited originals plus three role crops opened. One edit corrected juvenile wing/tail maturity while preserving adults, text and support. Archive readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T02:25:46+08:00"
+  "updated_at": "2026-11-08T02:43:41+08:00"
 }

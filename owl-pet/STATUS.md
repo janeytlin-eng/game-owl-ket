@@ -4020,3 +4020,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 - Verification `fb8e899d8bc67dd29cbd7bc7b4bb030984898eb5` and archive `61a08d130019ac43b90fb274347e5b76272297ef` read back.
 - Credited cycle 6/6; batch `20261108T011416+0800` is COMPLETE. Coverage 176/251; revision +1; science=false; lease released.
+
+
+## 2026-11-08 — #38 *Glaucidium nana* v5 ARCHIVED (readback pending)
+
+- Direct re-read: Jiménez & Jaksic 1989 Table 1 supports significantly longer female wing/tail, but not a proven heavier body; v5 uses only subtle contour direction at near-equal standing height.
+- Initial juvenile wing/tail was too adult-like; one targeted edit shortened and softened both. Edited full plate and three crops opened.
+- PASS_WITH_LIMITATIONS, science=false. Exact juvenile age/sex, iris chronology, first-flight threshold and independence remain unknown.
+- Manifests staged at 804 / 801 / 794; archive commit and immutable readback pending.

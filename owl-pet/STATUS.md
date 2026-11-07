@@ -4006,3 +4006,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Final blob `253225342d928489e65e66d0abef3a1e4dc775d5`, 3,474,471 bytes. Full plate and three crops opened; no edit required.
 - Juvenile is age-unknown and fully supported on a broad adobe ledge; no nest/burrow, exact-age, flight or independence claim. PASS_WITH_LIMITATIONS; science=false.
 - Manifests staged at 803 / 800 / 793; archive commit and immutable readback pending.
+
+
+## 2026-11-08 — #37 v5 VERIFIED
+
+- Archive commit `61a08d130019ac43b90fb274347e5b76272297ef`; tree `ad73d249a0c4adff4223b3c9c0ad848d6cfd0a7b`.
+- Immutable tree non-truncated, 4,097 entries; required paths 23/23; binary exact SHA/size 9/9.
+- Original/final blob `253225342d928489e65e66d0abef3a1e4dc775d5`, 3,474,471 bytes; manifests 803 / 800 / 793.
+- PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

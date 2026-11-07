@@ -3976,3 +3976,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 - Verification `b442855775eb6cfdd5f820d179e08194c6916ff7` and archive `59792b31829728ea6580fcb3e4468762d28da979` read back.
 - Credited cycle 4/6; next cycle 5. Coverage 176/251; revision +1; science=false; lease released.
+
+
+## 2026-11-08 — #36 *Glaucidium bolivianum* v5 ARCHIVED (readback pending)
+
+- Direct primary re-read: König 1991 printed pp.36–42. Corrected v4’s tail direction to relatively longer than *G. jardinii* while remaining compact in absolute silhouette.
+- Initial blob `6ad20ce4db29e18fb884dd8b41f0ca1af3f11be4` exposed a missing male nape false-eye view. One evidence-driven edit produced final blob `0814a3870634e622c8c53888d19f2b9bae6b60ac`, 3,175,024 bytes.
+- Full plate and three crops opened; PASS_WITH_LIMITATIONS, science=false. Exact juvenile age/flight/iris chronology and population sex-size direction remain unknown.
+- Manifests staged at 802 / 799 / 792; archive commit and immutable readback pending.

@@ -455,7 +455,7 @@ Older juvenile boundary: centre bird is explicitly an older, branch-supported ju
 Environment: sea-level Mantanani forest edge on a coralline island, natural leafy forest with Casuarina and coconut grove cues, soft dappled daylight, subdued greens and sandy limestone hints. Keep habitat secondary to the birds. One species only, exactly three birds, accurate anatomy, no extra feet or birds, no text except the exact title, subtitle and three labels.
 
 
-## #25 *Glaucidium brasilianum cactorum* v3 — 2026-11-07
+## #25 *Glaucidium brasilianum cactorum* v4 — 2026-11-07
 
 Create one 3:2 landscape scientific character-design plate for the owl electronic-pet project, 1536×1024 pixels, with exactly three Cactus Ferruginous Pygmy-Owls, Glaucidium brasilianum cactorum, no other birds or animals. Match the established approved style: warm hand-painted natural-history gouache, soft cream paper texture, realistic but gently rounded electronic-pet character proportions, clean silhouettes, fine feather detail, muted Sonoran dawn palette, no frames or UI.
 

@@ -3704,14 +3704,14 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Correction:** v2's adult-hard juvenile wing/tail is not supported. V3 uses an older, branch-supported, compact soft-winged juvenile and records exact nominate juvenile detail as unknown.
 
 
-## 2026-11-07 — #25 *Glaucidium brasilianum cactorum* v3 — direct 28–40-day fledgling correction
+## 2026-11-07 — #25 *Glaucidium brasilianum cactorum* v4 — direct 28–40-day fledgling correction
 
 ### CFPO-AGFD-1996-P22-23
 - **Title / authors / year:** *Cactus Ferruginous Pygmy-Owl Surveys and Nest Monitoring in the Tucson Basin Area, Arizona—1996* — Abbate, Ditty, Richardson & Olding, 1996.
 - **URL / accessed / type:** https://downloads.regulations.gov/FWS-R2-ES-2021-0098-0002/attachment_1.pdf ; Arizona Game and Fish direct nest-monitoring report; read 2026-11-07.
 - **Species / stage / pages:** *G. b. cactorum*; adults and 28–40-day fledglings; printed pp.22–23.
 - **Facts / design use:** 28–31-day fledglings fully feathered without down; lighter smaller face, chocolate/light-brown upperparts, whiter less-streaked underside, no adult crown flecks, short rufous barred tail, grayish indistinct nape patches lacking adult white outline; first-week flights usually ≤6 m and first-day perching unstable. Female slightly larger/more rufous; male darker charcoal in the monitored pair.
-- **Limits:** one Arizona brood/pair for detailed colour and behaviour; fledgling sex and exact hatch date unknown. Supports v3 stage, support posture and correction of v2 iris/nape simplification, not universal quantitative ratios.
+- **Limits:** one Arizona brood/pair for detailed colour and behaviour; fledgling sex and exact hatch date unknown. Supports v4 stage, support posture and correction of v2 iris/nape simplification, not universal quantitative ratios.
 
 ### CFPO-USFS-GTR43-2000-P7
 - **Title / institution / year:** *Ecology and Conservation of the Cactus Ferruginous Pygmy-Owl in Arizona* — USDA Forest Service RMRS-GTR-43, Cartron & Finch eds., 2000.
@@ -3731,5 +3731,5 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Facts / design use:** current U.S. treatment *G. b. cactorum*; male 58–66 g, female 70–75 g; yellow eyes, lightly streaked crown, dark white-outlined nape patches, long barred rufous tail; tree/columnar-cactus cavity nesting.
 - **Limits:** synthesis, not a development experiment; supports current name and broad adult direction.
 
-- **Links:** `research/species/25-glaucidium-brasilianum-cactorum-v3.md`; planned `design/concepts/25-glaucidium-brasilianum-cactorum-v3.png`; run `production/runs/20261107T212500+0800-cycle-6.md`.
-- **Correction:** v2 retained but its “subdued eye colour / no nape eyespots” boundary is superseded for the chosen 28–31-day stage by direct observation: lemon-yellow iris, lighter indistinct gray nape patches, full feathering, and short rufous tail. New4 / reused0 / corrected1; science false.
+- **Links:** `research/species/25-glaucidium-brasilianum-cactorum-v4.md`; planned `design/concepts/25-glaucidium-brasilianum-cactorum-v4.png`; run `production/runs/20261107T212500+0800-cycle-6.md`.
+- **Correction:** v2/v3 retained but its “subdued eye colour / no nape eyespots” boundary is superseded for the chosen 28–31-day stage by direct observation: lemon-yellow iris, lighter indistinct gray nape patches, full feathering, and short rufous tail. New4 / reused0 / corrected1; science false.

@@ -3832,3 +3832,8 @@ Verification commit `ff05129f`; accepted archive `02518c3e`; science revision +1
 ### #201 v3 remote verification — 2026-11-07T20:50:00+08:00
 
 Archive commit `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9` verified: 18 paths, 8 binary paths, 6 complete distinct binary streams, non-truncated 3921-entry tree, manifest counts 787/786/777. Ledger credit pending; science remains false.
+
+
+### #201 v3 ledger credit — 2026-11-07T20:52:00+08:00
+
+Batch `20261107T183000+0800` is now 4/6; next cycle 5. Unique coverage remains 176/251; revision increment +1. Archive `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9`; verification `d5a2330002cb80250a4504edc560154b8414d1eb`.

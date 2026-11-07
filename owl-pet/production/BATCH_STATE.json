@@ -32387,14 +32387,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T21:03:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T21:08:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T205300+0800-cycle-5",
-        "heartbeat_at": "2026-11-07T21:03:00+08:00",
-        "expires_at": "2026-11-07T21:18:00+08:00"
+        "heartbeat_at": "2026-11-07T21:08:00+08:00",
+        "expires_at": "2026-11-07T21:23:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -32410,7 +32410,7 @@
         "run_id": "20261107T205300+0800-cycle-5",
         "species_id": 184,
         "species": "Otus spilocephalus",
-        "stage": "RESEARCH_READY"
+        "stage": "IMAGE_GENERATED"
       },
       "stage_events": [
         {
@@ -33113,6 +33113,30 @@
             "design_boundary": "Taiwan recent fledgling, exact age/sex/iris/flight unknown; supported short soft partly formed wing and short hidden tail; near-equal same-plumage adults",
             "mikkola_access": "repository p.148 transcription reused; uploaded guide unavailable this execution",
             "lease_expires_at": "2026-11-07T21:18:00+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T21:08:00+08:00",
+          "run_id": "20261107T205300+0800-cycle-5",
+          "species_id": 184,
+          "species": "Otus spilocephalus",
+          "credited": false,
+          "evidence": {
+            "initial_path": "owl-pet/production/generated/184-otus-spilocephalus-v3-initial-full-color.jpg",
+            "edited_path": "owl-pet/production/generated/184-otus-spilocephalus-v3-full-color.jpg",
+            "generated_master": "owl-pet/production/generated/184-otus-spilocephalus-v3-generated-master.png",
+            "initial_sha256": "981f9902fbdf90635b37efea022442ae50af8666d7260433d666d6a9c5551a98",
+            "edited_sha256": "acec68b0a1a178a8a4256815b1cd71c635f8b70d7fa54efa70b00d093c93b328",
+            "master_sha256": "58766afc9434d3769d806845efa706dc142855af7cf283a45638682159963a62",
+            "geometry": "1536x1024",
+            "generation_seconds": 58,
+            "edit_seconds": 45,
+            "edit_count": 1,
+            "preliminary_inspection": "Initial plate opened: labels, adults, colour and support passed; juvenile wing was too long and adult-like. One targeted edit shortened/softened only the juvenile wing, concealed the tail and lowered the body onto the fork. Edited full plate reopened and passed preliminary review.",
+            "lease_expires_at": "2026-11-07T21:23:00+08:00",
             "scientifically_verified": false
           }
         }

@@ -4116,3 +4116,28 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Institution / record:** ITIS, *Glaucidium griseiceps*, TSN 555453.
 - **URL / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555453&source=to_print / 2026-11-08.
 - **Evidence / limit:** valid current name plus historical lower-rank names *occultum* and *rarum*; nomenclature only.
+
+
+## 2026-11-08 — #40 *Glaucidium nubicola* v5 — original-description and juvenile-behavior re-read
+
+### CFPO-ROBBINS-STILES-1999-REREAD
+- **Title / authors / year:** “A New Species of Pygmy-Owl (Strigidae: *Glaucidium*) from the Pacific Slope of the Northern Andes” / Robbins & Stiles / 1999.
+- **DOI / URL / accessed:** https://doi.org/10.2307/4089365 ; https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Glaucidium/Glaucidium%20nubicola%20%28Robbins%20%26%20Stiles%29%201999%2C%20Auk%2C%20116%2C%20pages%20305-315%20%28front%20cover%29..pdf / 2026-11-08.
+- **Type / species / stages:** primary original description; *Glaucidium nubicola*; adults.
+- **Pages / figures:** pp.305–309; Fig.1 p.306.
+- **Evidence:** very wet 1,400–2,000 m Pacific-slope cloud forest; compact short tail; sparse non-rufous dorsal/flank marks; bold scapular/wing spots; white-bordered false eyes; yellow iris and greenish-yellow bare parts; five incomplete pale tail bands in non-rufous birds.
+- **Limit / design use:** only six males and one female; the lone female was extreme rufous and had six tail bands. Supports near-equal brown adults and explicitly does not support a general female-rufous or female-larger rule.
+- **Links:** [v5 research](species/40-glaucidium-nubicola-v5.md); v5 image pending.
+
+### CFPO-CADENA-ORTIZ-2022-REREAD
+- **Title / authors / year:** “What Do We Know about the Diet of Ecuadorian Owls?” / Cadena-Ortiz et al. / 2022.
+- **DOI / URL / accessed:** https://doi.org/10.5772/intechopen.108594 ; https://www.intechopen.com/chapters/84057 / 2026-11-08.
+- **Type / species / stage:** peer-reviewed synthesis citing primary natural-history records; *G. nubicola* juvenile dependence.
+- **Section / evidence:** species account and reference list; reports an adult feeding a juvenile with a lizard.
+- **Limit / design use:** supports only a dependent, perch-capable juvenile; no exact age, sex, iris, nest, feather sequence, flight or independence details. The chapter is not the unavailable user-uploaded Mikkola photographic guide.
+
+### CFPO-BIRDSCOLOMBIA-2024-REREAD
+- **Title / institution / date:** “Cloud-forest Pygmy-Owl” / BirdsColombia / 2019, updated 2024.
+- **URL / accessed:** https://birdscolombia.com/2019/03/03/cloud-forest-pygmy-owl-glaucidium-nubicola/ / 2026-11-08.
+- **Type:** secondary species account.
+- **Evidence / limit:** cross-checks current name, habitat and adult marks; original Robbins & Stiles paper supersedes its sex inference from the tiny sample.

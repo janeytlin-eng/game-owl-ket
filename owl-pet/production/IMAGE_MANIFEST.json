@@ -28251,6 +28251,87 @@
       "verification_commit": "0cccb0814e6bc9ef09b9c4419543cdad8b10c380",
       "verification_tree": "43f75278105786b499f5c47b6dcda710385efe5f",
       "credited_at": "2026-11-07T19:44:00+08:00"
+    },
+    {
+      "id": "197-otus-megalotis-v3",
+      "species_id": 197,
+      "scientific_name": "Otus megalotis",
+      "historical_names": [
+        "Luzon Lowland Scops Owl",
+        "Luzon Lowland Scops-owl",
+        "Scops megalotis",
+        "Lempijius megalotis",
+        "Otus megalotis megalotis"
+      ],
+      "common_name": "Philippine Scops Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/197-otus-megalotis-v3.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V3 preserves v1/v2, updates the visible current display name to Philippine Scops Owl while retaining the Luzon Lowland alias, and prevents overlapping sexed wing/tail measurements from becoming a fixed standing-height/body-size multiplier. Adults use the common intermediate grey-brown morph with orange-red iris, scapular stripes and feathered tarsi. One targeted edit shortened/softened the older juvenile wing and tail; it remains branch-supported and age-unknown. Exact age/sex, iris chronology, first-flight threshold, hatchling appearance and live-body sexual dimorphism remain unknown; science=false.",
+      "source_ids": [
+        "LLSO-MIRANDA-2011-P446-450",
+        "LLSO-AVIBASE-2026-NAME",
+        "LLSO-MARSHALL-1978-P26",
+        "LLSO-SANCHEZ-2012-P98-100",
+        "LLSO-WOODS-2003-JAN-APR-P29",
+        "LLSO-OWL-PAGES-2012-JUV",
+        "LLSO-PNA-DENR-2026-JUV-LEADS"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--197-otus-megalotis-v3",
+      "research_record": "research/species/197-otus-megalotis-v3.md",
+      "review_record": "research/reviews/197-otus-megalotis-v3-review.md",
+      "run_record": "production/runs/20261107T194600+0800-cycle-3.md",
+      "reviewed_at": "2026-11-07T19:57:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 754802,
+      "sha256": "1e2ac3f86743efaa7c8a9075d413a8d5846baf58ec1e1e411f44b9b854e2c38f",
+      "git_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
+      "initial_source_path": "production/generated/197-otus-megalotis-v3-initial-full-color.jpg",
+      "initial_source_blob": "9256d361f467c0be05bb20ba6e15fe2294f64d4b",
+      "initial_source_size_bytes": 426469,
+      "initial_source_sha256": "947cdabc3f9cf3a6909e2261e741c5bab7fe1173b0e83bb03b4f0492a85f634e",
+      "edited_source_path": "production/generated/197-otus-megalotis-v3-full-color.jpg",
+      "edited_source_blob": "4070ced1573480d9c48aa11c45773dea23029e2a",
+      "edited_source_size_bytes": 384815,
+      "edited_source_sha256": "dfaca8c62d28f1d3268441ffbc2167a967898aff513f95c1211dde778597e502",
+      "generated_path": "production/generated/197-otus-megalotis-v3-generated-master.png",
+      "generated_blob": "2207440f4f6bf66fa1f2f4ba0cada773e757b730",
+      "generated_size_bytes": 740844,
+      "generated_sha256": "f6cbe9b5b610c2c5587c6943d2b918673d23f574a9b0ae22c3170ebc1928b5f7",
+      "reviewed_path": "production/reviewed/197-otus-megalotis-v3-reviewed-master.png",
+      "reviewed_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
+      "review_crops": [
+        {
+          "path": "production/review-crops/197-otus-megalotis-v3-adult-male-pattern-feet.png",
+          "blob": "8ff7b229272f211b78520ff9fd9b29a3ac715786",
+          "size_bytes": 212919,
+          "sha256": "68c32645bb0af4f7098e9915c46baa70ffcc95daafe9c23c2a47370905caaa2c"
+        },
+        {
+          "path": "production/review-crops/197-otus-megalotis-v3-older-juvenile.png",
+          "blob": "e9b70cc6e6321f0c5572be3489c027c51a4ada6c",
+          "size_bytes": 149323,
+          "sha256": "9fc6a531d0218f09f7841747b4147d619e223c82b5a68de2c0c4cce02afad3af"
+        },
+        {
+          "path": "production/review-crops/197-otus-megalotis-v3-adult-female-pattern-feet.png",
+          "blob": "c598e62dbb6753a591b02edd1d5188fd17c07fae",
+          "size_bytes": 199725,
+          "sha256": "14cdc5b7ea0efa0f96a4dd0fa6f5642986e6b02ba9d72c631e93dee52273fbe0"
+        }
+      ],
+      "archive_note": "Initial full plate was opened; one targeted juvenile wing/tail edit was made and the edited full-colour plate, transport master and three crops were reopened. Adult standing-height cue is restrained because measurement ranges overlap. Scientific verification remains false.",
+      "readback_pending": true,
+      "exact_readback": false
     }
   ],
   "updated_at": "2026-11-07T19:44:00+08:00"

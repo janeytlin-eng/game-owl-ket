@@ -32357,14 +32357,14 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:55:00+08:00",
-      "current_stage": "REVIEWED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-07T19:57:00+08:00",
+      "current_stage": "ARCHIVED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T194600+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T19:55:00+08:00",
-        "expires_at": "2026-11-07T20:10:00+08:00"
+        "heartbeat_at": "2026-11-07T19:57:00+08:00",
+        "expires_at": "2026-11-07T20:12:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -32373,7 +32373,7 @@
         "species": "Otus megalotis",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md"
       },
       "active": {
@@ -32811,6 +32811,36 @@
             "review_result": "PASS_WITH_LIMITATIONS",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T20:10:00+08:00"
+          }
+        },
+        {
+          "cycle": 3,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T19:57:00+08:00",
+          "run_id": "20261107T194600+0800-cycle-3",
+          "species_id": 197,
+          "species": "Otus megalotis",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/197-otus-megalotis-v3.png",
+            "concept_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
+            "initial_source": "owl-pet/production/generated/197-otus-megalotis-v3-initial-full-color.jpg",
+            "edited_source": "owl-pet/production/generated/197-otus-megalotis-v3-full-color.jpg",
+            "generated": "owl-pet/production/generated/197-otus-megalotis-v3-generated-master.png",
+            "reviewed": "owl-pet/production/reviewed/197-otus-megalotis-v3-reviewed-master.png",
+            "review_crops": 3,
+            "manifest_counts": {
+              "design_legacy": 786,
+              "design_image": 785,
+              "production": 776
+            },
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-07T20:12:00+08:00"
           }
         }
       ]

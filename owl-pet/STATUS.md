@@ -1,3 +1,13 @@
+## 2026-11-07 19:57 +08 — #197 Philippine Scops Owl — *Otus megalotis* v3 ARCHIVED
+
+V3科学修订，保留v1/v2且不增加唯一物种。可见标题改用当前主名 Philippine Scops Owl，Luzon Lowland Scops Owl 作为历史/项目别名保留。Miranda 2011 的雌雄翼、尾均值有方向但范围重叠，因此成年雌雄保持近等站立高度，只以轻微折翼/尾轮廓提示，不使用固定雌大雄小倍率。首版幼鸟翼尾偏长偏硬，经一次定向编辑缩短并软化；修订原图、104色审查版和三张裁切均实际打开。结果 PASS_WITH_LIMITATIONS，science=false。
+
+- Concept: `design/concepts/197-otus-megalotis-v3.png`
+- Initial / edited originals: `production/generated/197-otus-megalotis-v3-initial-full-color.jpg`, `production/generated/197-otus-megalotis-v3-full-color.jpg`
+- Research / review: `research/species/197-otus-megalotis-v3.md`, `research/reviews/197-otus-megalotis-v3-review.md`
+- Run: `production/runs/20261107T194600+0800-cycle-3.md`
+- Unique coverage: 176/251; revision +1; immutable readback pending.
+
 ## 2026-11-07 19:40 +08 — #195 *Otus brookii solokensis* v3 VERIFIED, ledger credited
 
 v3科学修订，保留v1/v2且不增加唯一物种。纠正了把 bakkamoena group 的“雌鸟较大”错误迁移到 O. brookii 的风险：成年雌雄按近等尺度呈现，不设体型方向。初稿幼鸟翼尾偏硬偏长，经一次定向编辑改为短而柔软的折翼与尾簇；整图、96色传输版及三张裁切均实际打开复查。物种辨识、虹膜/喙、断续领纹、足羽与六足支撑、巢洞环境及文字通过。幼鸟精确年龄/性别、飞行阈值、虹膜时序、孵化外观与量化性别体差仍未知；PASS_WITH_LIMITATIONS，science=false。

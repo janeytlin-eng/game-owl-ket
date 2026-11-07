@@ -1,3 +1,10 @@
+## 2026-11-07 — overlapping sexed measurements are not a height multiplier
+
+- **Problem:** sexed museum means can tempt a prompt to impose a uniform “female larger” body ratio.
+- **Evidence:** *O. megalotis* female wing/tail means exceed male means, but the observed ranges overlap; the study does not prescribe standing height or individual pairing.
+- **Applied rule:** translate overlapping mean directions only into an optional, subtle folded-wing/tail silhouette; keep standing height and mass impression near-equal unless a stronger source supports a fixed direction.
+- **Validation:** applied to #197 v3; full plate and adult crops reopened. It prevented an exaggerated size split while retaining the documented direction. Rule remains evidence-conditional, not universal across owls.
+
 ## 2026-11-07 — do not transfer a neighbouring-group sex-size statement
 
 - **Problem:** a monograph sentence immediately before a species account said females were larger in the *bakkamoena* group; v2 converted that into a “female subtly fuller” cue for *O. brookii*.

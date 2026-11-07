@@ -28580,21 +28580,21 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T11:15:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T11:20:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T110600+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T11:15:00+08:00",
-        "expires_at": "2026-11-07T11:30:00+08:00"
+        "heartbeat_at": "2026-11-07T11:20:00+08:00",
+        "expires_at": "2026-11-07T11:35:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28603,7 +28603,7 @@
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28831,6 +28831,33 @@
             "edit_required": false,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T11:30:00+08:00"
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T11:20:00+08:00",
+          "run_id": "20261107T110600+0800-cycle-2",
+          "species_id": 164,
+          "species": "Strix hadorami",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/164-strix-hadorami-v3-reviewed-master.png",
+            "reviewed_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
+            "edit_count": 0,
+            "review_record": "owl-pet/research/reviews/164-strix-hadorami-v3-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/164-strix-hadorami-v3-adults.png",
+              "owl-pet/production/review-crops/164-strix-hadorami-v3-mesoptile.png"
+            ],
+            "crop_blobs": [
+              "14821e78fd56d2dce81ca59692acc51d606c7a86",
+              "96d6c3d1aae7cb2379fb6cc48e9ffa7dbb8b048a"
+            ],
+            "reinspection": "full plate and crops opened; near-equal adult height with subtle female fullness; supported pale mesoptile with short emerging wing and concealed tail",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T11:35:00+08:00"
           }
         }
       ]

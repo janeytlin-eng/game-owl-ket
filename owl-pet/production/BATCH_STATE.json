@@ -28589,21 +28589,21 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T11:34:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-07T11:39:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T113400+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T11:34:00+08:00",
-        "expires_at": "2026-11-07T11:49:00+08:00"
+        "heartbeat_at": "2026-11-07T11:39:00+08:00",
+        "expires_at": "2026-11-07T11:54:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
         "species_id": 165,
         "species": "Ninox punctulata",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T113400+0800-cycle-3",
         "run_record": "owl-pet/production/runs/20261107T113400+0800-cycle-3.md"
       },
@@ -28612,7 +28612,7 @@
         "species_id": 165,
         "species": "Ninox punctulata",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T113400+0800-cycle-3",
         "run_record": "owl-pet/production/runs/20261107T113400+0800-cycle-3.md"
       },
@@ -28961,6 +28961,28 @@
             "selection_note": "#165 Ninox punctulata has archived v1/v2 and no v3; v2 remains science=false and its recent-young wing softness/support require direct recheck",
             "lease_expires_at": "2026-11-07T11:49:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 3,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T11:39:00+08:00",
+          "run_id": "20261107T113400+0800-cycle-3",
+          "species_id": 165,
+          "species": "Ninox punctulata",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/165-ninox-punctulata-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_sources": 0,
+            "reused_sources": 2,
+            "corrected_sources": 2,
+            "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
+            "direct_v2_review": true,
+            "design_boundary": "dark fluffy age-unknown juvenile with short buried wing and full root support; near-equal dark-eyed adults",
+            "mikkola_access": "unavailable this execution",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T11:54:00+08:00"
           }
         }
       ]

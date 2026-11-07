@@ -3276,3 +3276,15 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Facts: current *S. hadorami* is the widespread western population formerly called *S. butleri*; no pronounced sexual dimorphism, females only slightly larger on average; small sample and individual colour variation. Use: near-equal adult height, only subtle female fullness; reject v2 male-larger reversal.
 - Link: [#164 v3 research](species/164-strix-hadorami-v3.md).
 
+
+
+## 2026-11-07 — #165 *Ninox punctulata* v3 — direct juvenile-figure correction
+
+### SPBO-OCONNELL-ETAL-2022-P291-292 — corrected/re-read primary evidence
+- O’Connell et al., 2022, *BBOC* 142(3):278–301, DOI 10.25226/bboc.v142i3.2022.a2; https://boc-online.org/bulletins/downloads/BBOC1423-PDFa.pdf
+- Re-read 2026-11-07: pp.291–292, species paragraph and Fig.3A/caption. The Buton 8 Aug 2013 bird was found at the base of a large tree; Fig.3A is a dark fluffy juvenile. This corrects v2’s too warm, strongly spotted, long-winged juvenile toward dark loose down, diffuse markings, short buried wing and complete root support. Exact age/flight/iris/feather sequence remain unknown.
+- Link: [#165 v3 research](species/165-ninox-punctulata-v3.md).
+
+### SPBO-SHARPE-1875-P183 — reused historical adult female account
+- Sharpe, 1875, *Catalogue of the Birds in the British Museum*, p.183; https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf
+- Re-read indexed page text 2026-11-07. Supports deep chocolate adults with minute dull buff spots, white throat/cheeks/centre, narrow chest bar and five faint tail bars. It does not support sex-size or juvenile inference.

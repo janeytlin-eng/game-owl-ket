@@ -181,3 +181,21 @@ Environment: arid rocky wadi/cliff, broad ledge with natural sandstone support, 
 
 Avoid: ear tufts, heart-shaped Tyto face, dark eyes, exaggerated white facial disc, heavy chest streaks, strongly dimorphic plumage, male larger than female, mature juvenile wings/tail, unsupported juvenile, flight pose, extra birds/limbs/text, logo or watermark.
 ```
+
+
+## #165 v3 — *Ninox punctulata* — batch 20261107T103800+0800 cycle 3/6
+
+### Generation
+
+```text
+Use case: scientific-educational.
+Create a new 1536×1024 landscape owl-pet triptych for #165 SPECKLED BOOBOOK, Ninox punctulata, in the established tactile naturalistic high-detail 3D character style shown by the reference image. The reference image is style-only; do not copy its species, desert habitat or Strix proportions. Exactly three complete birds on one broad mossy buttress/root at the base of a large tree in humid Buton lowland rainforest: ADULT MALE left, ADULT FEMALE center, DARK FLUFFY JUVENILE · AGE UNKNOWN right. Title exactly “SPECKLED BOOBOOK”; italic “Ninox punctulata”; exact labels only.
+
+Adults: small compact earless hawk-owls with weak facial discs, near-equal standing height and same plumage because no supported quantitative sex direction is available. Deep chocolate-brown crown/back/wings densely covered with minute dull whitish-buff speckles, a little larger on hindneck but not arranged in neat bars. Thin separate white brow arcs, pure white cheeks and throat, white central underparts; narrow chocolate chest bar and brown flanks spotted/barred whitish. Five faint pale tail bars. Entirely dark chocolate irises, horn-black bill with paler horn lower mandible, pale whitish feathered feet with dark claws. Do not use yellow adult eyes.
+
+Juvenile: directly anchored to O’Connell et al. 2022 Fig. 3A, Buton, August 2013, described/visible as a dark fluffy juvenile. Show an age-unknown recent young, lower and rounder than adults, fully supported on both feet and belly/low stance on the broad root. Loose deep chocolate-to-sooty brown down with only diffuse muted buff mottling; soft pale smudges around face/underparts, not a miniature adult spot pattern. Very short rounded soft wing partly buried in down and short hidden tail; no long layered hard remiges, flight pose or precise fledging claim. Dark-indeterminate irises. The field bird was found at a tree base and possibly fell; show a natural supported ground/root stage, not a hand, cage, rescue scene or invented nest.
+
+Environment: lowland tropical forest near Labundobundo, Buton; large trunk, moss, leaf litter, filtered humid daylight. No nest cavity, eggs, humans, prey or captivity.
+
+Avoid ear tufts, yellow irises, strong facial disc, oversized head, adult-like juvenile wing/tail, unsupported chick, exact-age claim, exaggerated sex size difference, extra birds/limbs/text, watermark or misspelling.
+```

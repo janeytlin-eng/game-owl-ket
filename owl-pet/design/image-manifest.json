@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T11:59:00+08:00",
+  "updated": "2026-11-07T12:38:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27452,7 +27452,64 @@
       "verification_commit": "98596a1e5a4a7112286d91c85f019b9d63987e61",
       "verification_tree": "132221ccc9269f4de5f81e5eebc84b5a597b8845",
       "ledger_credited_at": "2026-11-07T11:59:00+08:00"
+    },
+    {
+      "id": "166-bubo-cinerascens-v3",
+      "path": "design/concepts/166-bubo-cinerascens-v3.png",
+      "species_id": 166,
+      "scientific_name": "Bubo cinerascens",
+      "historical_names": [
+        "Bubo africanus cinerascens"
+      ],
+      "common_name": "Greyish Eagle-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。重读Barlow et al. 2022全文pp.22–27、Table 2及Figs 4–6，并复用Mikkola 2013 p.282仓库转录。成年雄鸟、雌鸟采用近等体型的中性灰褐色，雌鸟仅略丰满；幼鸟采用有直接记录的35–43日龄全羽阶段：灰色似亲鸟、折翼已形成但体态更紧凑、短尾、双足在外露根系上完整支撑，不作飞行能力推断。全图与两裁图实际查看通过，无需编辑。PASS_WITH_LIMITATIONS；精确日龄、首飞时间、性别、虹膜时序、量化雌雄比例与准确巢树几何未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "GREO-BARLOW-2022-FULL",
+        "GREO-MIKKOLA-2013-P282"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--166-bubo-cinerascens-v3--fully-feathered-flight-unproven-calibration",
+      "research_record": "research/species/166-bubo-cinerascens-v3.md",
+      "run_record": "production/runs/20261107T120200+0800-cycle-4.md",
+      "review_record": "research/reviews/166-bubo-cinerascens-v3-review.md",
+      "reviewed_at": "2026-11-07T12:34:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "eed3cf04816d07559fc6d84a491e41657444c94f3e7968bbb3d5e58ca9919161",
+      "size_bytes": 752061,
+      "git_blob": "4cf25e25b1a3ba6459ca302c8310909dcc428840",
+      "generated_path": "production/generated/166-bubo-cinerascens-v3-generated-master.png",
+      "generated_blob": "4cf25e25b1a3ba6459ca302c8310909dcc428840",
+      "generated_sha256": "eed3cf04816d07559fc6d84a491e41657444c94f3e7968bbb3d5e58ca9919161",
+      "generated_size_bytes": 752061,
+      "full_color_source_sha256": "bd3b959c2137298d66281cb358cbbf77de27139e12293076a3a2bda679216c77",
+      "full_color_source_size_bytes": 3530600,
+      "reviewed_path": "production/reviewed/166-bubo-cinerascens-v3-reviewed-master.png",
+      "reviewed_blob": "4cf25e25b1a3ba6459ca302c8310909dcc428840",
+      "reviewed_sha256": "eed3cf04816d07559fc6d84a491e41657444c94f3e7968bbb3d5e58ca9919161",
+      "reviewed_size_bytes": 752061,
+      "review_crop_path": "production/review-crops/166-bubo-cinerascens-v3-young.png",
+      "review_crop_blob": "400ad59d4097d185e939e22f78d31be743ebafae",
+      "review_crop_sha256": "cc2c704d521c1809c756ceef85b4c3433d2a3dd9ff8a358092243c719d9b9662",
+      "review_crop_size_bytes": 216454,
+      "auxiliary_review_crop_path": "production/review-crops/166-bubo-cinerascens-v3-adults.png",
+      "auxiliary_review_crop_blob": "de3e61403462f02efda3b7591cff3147971e0277",
+      "auxiliary_review_crop_sha256": "700af5c5f38dd04da06fda11f2fc7d570f99e38805b2473948d0c1cbff033038",
+      "auxiliary_review_crop_size_bytes": 443645,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact age within 35–43 days, sex of the young, iris ontogeny, first-flight timing, quantitative adult sex-size ratio and exact nest/tree geometry remain unknown; Mikkola upload unavailable this execution.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained; transport derivative and both crops actually opened after optimization."
     }
   ],
-  "updated_at": "2026-11-07T11:59:00+08:00"
+  "updated_at": "2026-11-07T12:38:00+08:00"
 }

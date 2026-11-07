@@ -29676,38 +29676,30 @@
           "archive_commit": "254177143b89aec101183533699cab9ae5991a4c",
           "run_record": "owl-pet/production/runs/20261107T151400+0800-cycle-3.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species": "Otus madagascariensis",
+          "species_id": 173,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "45a7d89255f677a388461886885abd29c429c59d",
+          "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+          "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
-      "active_cycle": 4,
+      "next_cycle": 5,
+      "active_cycle": null,
       "started_at": "2026-11-07T14:00:00+08:00",
-      "updated_at": "2026-11-07T15:48:00+08:00",
-      "current_stage": "VERIFIED",
+      "updated_at": "2026-11-07T16:18:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
       "ledger_credit_pending": false,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T154800+0800-cycle-4",
-        "heartbeat_at": "2026-11-07T16:15:00+08:00",
-        "expires_at": "2026-11-07T16:30:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 4,
-        "species_id": 173,
-        "species": "Otus madagascariensis",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T154800+0800-cycle-4",
-        "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md"
-      },
-      "active": {
-        "cycle": 4,
-        "species_id": 173,
-        "species": "Otus madagascariensis",
-        "version": 3,
-        "stage": "STARTED",
-        "run_id": "20261107T154800+0800-cycle-4",
-        "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md"
-      },
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -30388,15 +30380,37 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T16:30:00+08:00"
           }
+        },
+        {
+          "cycle": 4,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T16:18:00+08:00",
+          "run_id": "20261107T154800+0800-cycle-4",
+          "species_id": 173,
+          "species": "Otus madagascariensis",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "45a7d89255f677a388461886885abd29c429c59d",
+            "verification_tree": "fd9d9a1210e558e5e8cb48ce9329f33ee0a96d6c",
+            "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+            "archive_tree": "8a199816ca27c028dbb06d4eb0bfc72deade5f02",
+            "batch_progress": "4/6",
+            "next_cycle": 5,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
       ],
-      "stage": "VERIFIED",
+      "stage": "LEDGER_CREDITED",
       "last_checkpoint": {
         "batch_id": "20261107T140000+0800",
         "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T16:15:00+08:00",
-        "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md"
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-07T16:18:00+08:00",
+        "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
+        "commit_sha": "45a7d89255f677a388461886885abd29c429c59d"
       },
       "events": [
         {
@@ -30540,6 +30554,27 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T16:30:00+08:00"
           }
+        },
+        {
+          "cycle": 4,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T16:18:00+08:00",
+          "run_id": "20261107T154800+0800-cycle-4",
+          "species_id": 173,
+          "species": "Otus madagascariensis",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "45a7d89255f677a388461886885abd29c429c59d",
+            "verification_tree": "fd9d9a1210e558e5e8cb48ce9329f33ee0a96d6c",
+            "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+            "archive_tree": "8a199816ca27c028dbb06d4eb0bfc72deade5f02",
+            "batch_progress": "4/6",
+            "next_cycle": 5,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
       ],
       "timestamps": {
@@ -30547,7 +30582,8 @@
         "IMAGE_GENERATED": "2026-11-07T16:00:00+08:00",
         "REVIEWED": "2026-11-07T16:05:00+08:00",
         "ARCHIVED": "2026-11-07T16:10:00+08:00",
-        "VERIFIED": "2026-11-07T16:15:00+08:00"
+        "VERIFIED": "2026-11-07T16:15:00+08:00",
+        "LEDGER_CREDITED": "2026-11-07T16:18:00+08:00"
       },
       "stage_evidence": {
         "RESEARCH_READY": {
@@ -30646,16 +30682,23 @@
           "scientifically_verified": false,
           "ledger_credit_pending": true,
           "lease_expires_at": "2026-11-07T16:30:00+08:00"
+        },
+        "LEDGER_CREDITED": {
+          "verification_commit": "45a7d89255f677a388461886885abd29c429c59d",
+          "verification_tree": "fd9d9a1210e558e5e8cb48ce9329f33ee0a96d6c",
+          "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+          "archive_tree": "8a199816ca27c028dbb06d4eb0bfc72deade5f02",
+          "batch_progress": "4/6",
+          "next_cycle": 5,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       }
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261107T154800+0800-cycle-4",
-    "heartbeat_at": "2026-11-07T16:15:00+08:00",
-    "expires_at": "2026-11-07T16:30:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -30798,12 +30841,7 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261107T154800+0800-cycle-4",
-    "heartbeat_at": "2026-11-07T16:15:00+08:00",
-    "expires_at": "2026-11-07T16:30:00+08:00"
-  },
+  "active_lease": null,
   "last_updated_at": "2026-11-07T15:48:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
@@ -31601,15 +31639,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 4,
-    "species_id": 173,
-    "species": "Otus madagascariensis",
-    "version": 3,
-    "stage": "VERIFIED",
-    "run_id": "20261107T154800+0800-cycle-4",
-    "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 3,
@@ -31620,9 +31650,10 @@
   "last_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 4,
-    "stage": "VERIFIED",
-    "at": "2026-11-07T16:15:00+08:00",
-    "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md"
+    "stage": "LEDGER_CREDITED",
+    "at": "2026-11-07T16:18:00+08:00",
+    "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
+    "commit_sha": "45a7d89255f677a388461886885abd29c429c59d"
   },
   "history": [
     {
@@ -36164,9 +36195,9 @@
     }
   ],
   "active_batch_id": "20261107T140000+0800",
-  "active_cycle": 4,
-  "current_stage": "VERIFIED",
-  "next_cycle": 4,
+  "active_cycle": null,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -45540,6 +45571,27 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T16:30:00+08:00"
       }
+    },
+    {
+      "cycle": 4,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T16:18:00+08:00",
+      "run_id": "20261107T154800+0800-cycle-4",
+      "species_id": 173,
+      "species": "Otus madagascariensis",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "45a7d89255f677a388461886885abd29c429c59d",
+        "verification_tree": "fd9d9a1210e558e5e8cb48ce9329f33ee0a96d6c",
+        "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+        "archive_tree": "8a199816ca27c028dbb06d4eb0bfc72deade5f02",
+        "batch_progress": "4/6",
+        "next_cycle": 5,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
   "last_completed_batch_id": "20261107T103800+0800",
@@ -51161,6 +51213,27 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T16:30:00+08:00"
       }
+    },
+    {
+      "cycle": 4,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T16:18:00+08:00",
+      "run_id": "20261107T154800+0800-cycle-4",
+      "species_id": 173,
+      "species": "Otus madagascariensis",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "45a7d89255f677a388461886885abd29c429c59d",
+        "verification_tree": "fd9d9a1210e558e5e8cb48ce9329f33ee0a96d6c",
+        "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+        "archive_tree": "8a199816ca27c028dbb06d4eb0bfc72deade5f02",
+        "batch_progress": "4/6",
+        "next_cycle": 5,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -51207,10 +51280,24 @@
       "archive_commit": "254177143b89aec101183533699cab9ae5991a4c",
       "run_record": "owl-pet/production/runs/20261107T151400+0800-cycle-3.md",
       "scientifically_verified": false
+    },
+    {
+      "batch_id": "20261107T140000+0800",
+      "cycle": 4,
+      "species": "Otus madagascariensis",
+      "species_id": 173,
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "45a7d89255f677a388461886885abd29c429c59d",
+      "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+      "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
+      "scientifically_verified": false
     }
   ],
   "updated": "2026-11-07T15:48:00+08:00",
-  "stage": "VERIFIED",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
     "baseline_main": "27f57fdd9785164a39369ffdcffd7c1ec70aff7b",
@@ -51313,6 +51400,18 @@
       "scientifically_verified": false,
       "ledger_credit_pending": true,
       "lease_expires_at": "2026-11-07T16:30:00+08:00"
+    },
+    "LEDGER_CREDITED": {
+      "verification_commit": "45a7d89255f677a388461886885abd29c429c59d",
+      "verification_tree": "fd9d9a1210e558e5e8cb48ce9329f33ee0a96d6c",
+      "archive_commit": "3355d7fc8af254305496ed9f9e0d2b1f6ef5bb8a",
+      "archive_tree": "8a199816ca27c028dbb06d4eb0bfc72deade5f02",
+      "batch_progress": "4/6",
+      "next_cycle": 5,
+      "unique_species_count": 176,
+      "total_species": 251,
+      "revision_increment": 1,
+      "scientifically_verified": false
     }
   },
   "last_verification_commit": "391498b03379e62923d15eb0671c30f6aa767550",
@@ -51321,6 +51420,7 @@
     "IMAGE_GENERATED": "2026-11-07T16:00:00+08:00",
     "REVIEWED": "2026-11-07T16:05:00+08:00",
     "ARCHIVED": "2026-11-07T16:10:00+08:00",
-    "VERIFIED": "2026-11-07T16:15:00+08:00"
+    "VERIFIED": "2026-11-07T16:15:00+08:00",
+    "LEDGER_CREDITED": "2026-11-07T16:18:00+08:00"
   }
 }

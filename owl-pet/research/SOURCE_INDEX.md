@@ -4190,3 +4190,30 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Evidence:** same-shape sexes; no ear tufts; white between-eye patch; shoulder spots; broad ventral streaks; yellow iris; bristled yellow toes; young paler with sparser/blurred ventral streaks.
 - **Limit / design use:** not a continuous growth series; implausible numeric fields ignored. Supports qualitative identity and older juvenile boundary only.
 - **Links:** [v5 research](species/92-ninox-japonica-v5.md); v5 image pending.
+
+
+## 2026-11-08 — #93 *Aegolius harrisii iheringi* v5 — primary development and nest re-read
+
+### HAR-BODRATI-ETAL-2019-REREAD
+- **Title / authors / year:** “Nidificación de la Lechucita Canela (*Aegolius harrisii*) en Misiones, Argentina” / Bodrati, Gómez, Ferreyra & Cockle / 2019.
+- **DOI / URL / accessed:** https://doi.org/10.58843/ornneo.v30i0.479 ; https://www.researchgate.net/publication/335456226_NIDIFICACION_DE_LA_LECHUCITA_CANELA_AEGOLIUS_HARRISII_EN_MISIONES_ARGENTINA ; 2026-11-08.
+- **Type / stage / pages:** primary monitored nest; hatch to fledging; printed pp.151–156, especially Fig.1 and development text.
+- **Facts:** old Lineated Woodpecker cavity 9.6 m high in dead garapa, primary Atlantic Forest; sparse dark-grey natal down; facial disc beginning by 10 d; adult-like by 24 d; fledged 35–37 d; sex roles unresolved.
+- **Limits / use:** one nest; supports a supported ~24-day cavity-floor nestling but not exact sex, full feather sequence, flight at 24 d or a fixed adult sex ratio.
+
+### HAR-UBAID-ETAL-2012-BHL
+- **Title / authors / year:** “Range extension and first record of the Buff-fronted Owl…” / Ubaid, Maffei, Moya & Donatelli / 2012, *Bull. B.O.C.* 132:175–179.
+- **URL / accessed:** https://www.biodiversitylibrary.org/page/40855939 ; 2026-11-08.
+- **Type / pages:** primary field/nest report; printed pp.175–179.
+- **Facts:** buff face/underparts; dark upperparts; black facial/neck lines; buff-ochre scapular spots; round pale wing spots; tail with two white-spotted bars. Dead-palm hollow about 9 m high, 40.5 cm deep, entrance about 10.5×8.5 cm; wood chips, feathers and prey remains; cerrado/eucalyptus/riparian mosaic.
+- **Limits / use:** one bird only “possibly male” by smaller size; does not establish population dimorphism. Supports adult identity and natural-cavity material/environment.
+
+### HAR-AGRIS-FAO-2026-REREAD
+- **Institution / record / accessed:** FAO AGRIS metadata/open-access record for Bodrati et al. 2019; https://agris.fao.org/search/en/providers/122436/records/675ad5fb0ce2cede71d2d0b1 ; 2026-11-08.
+- **Type / use:** institutional bibliographic cross-check and abstract-level confirmation.
+- **Limits:** not an independent growth study; no additional morphology or age claims.
+
+### Reused mappings and access limits
+- `HAR-ITIS-555474-2026`, `HAR-AVIBASE-IHERINGI-2026`, and `HAR-MIK2013-447` reused.
+- Uploaded Mikkola guide unavailable; repository-pinned printed p.447/PDF p.449 record reused without claiming a fresh page read.
+- Design/review link: [v5 research](species/93-aegolius-harrisii-v5.md).

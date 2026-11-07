@@ -3502,3 +3502,9 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **SSCO-CURRIE-ETAL-2004-P123-137:** DOI 10.1017/S0959270904000140, printed pp.123–137; recent fledgling c.8–12 weeks is fluffy/barred/clumsy, with some leaving before flight and perching 3–5 m above the cavity; cavity/nest facts do not support lining reconstruction.
 - **SSCO-MIKKOLA-2013-P138 / SSCO-ITIS-202272-2026:** morphology/taxonomy reused; uploaded Mikkola volume unavailable this execution.
 - Exact individual juvenile sex, feather-by-feather plumage, first-flight timing, universal iris colour and nest lining remain unknown. [Research](species/178-otus-insularis-v3.md). Science=false.
+
+
+## 2026-11-07 — #179 *Otus mayottensis* v3 — new living-adult calibration; immature boundary unchanged
+- **MAYS-COMMONS-NONOMANE-2025-ADULT** — Nonomane, `Otus mayottensis.jpg`, 13 Feb 2025, https://commons.wikimedia.org/wiki/File:Otus_mayottensis.jpg . Full CC0 page and displayed 2296×4080 living-bird photo read. Species-level compact outline, short tufts, yellow eyes and grey-brown pattern only; sex/age unknown.
+- **MAYS-OISEAUX-BAUER-2008-ADULT** — Mikael Bauer, adult at Combani Forest Reserve, Dec 2008, https://www.oiseaux.net/photos/mikael.bauer/petit-duc.de.mayotte.1.html . Adult field calibration; sex unknown.
+- Reused primary museum **MAYS-MNHN-VOISIN-2011-P15-16**, repository transcription **MAYS-MIKKOLA-2013-P139**, and **MAYS-ITIS-686656-2026**. Museum source confirms one undated immature only; exact age/iris/flight/feather sequence/nest remain unknown. [Research](species/179-otus-mayottensis-v3.md). Science=false.

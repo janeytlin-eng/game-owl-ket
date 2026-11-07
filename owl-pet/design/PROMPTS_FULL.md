@@ -382,3 +382,13 @@ Evidence boundary: primary study reports c.8–12-week recent fledglings as fluf
 
 Avoid exaggerated female size, sex-coded colour morphs, tall ear tufts, feathered tarsi, adult-hard fledgling wings, unsupported feet, flight action, nest reconstruction, eggs, prey, extra birds/text, watermark or orange grading. Target PASS_WITH_LIMITATIONS; scientifically_verified=false.
 ```
+
+
+## 2026-11-07 — #179 *Otus mayottensis* v3 SCIENCE_REVISION
+```text
+Use case scientific-educational. Create one 1536×1024 premium naturalistic 3D owl-pet triptych for #179 MAYOTTE SCOPS-OWL, italic Otus mayottensis, historical Otus rutilus mayottensis / Scops humbloti nomen nudum only. Exactly three complete birds on one broad supported branch in humid Mayotte secondary forest. Exact labels ADULT MALE, ADULT FEMALE, AGE-UNKNOWN OLDER IMMATURE. No other text/birds.
+
+Adults: compact short-tailed grey-brown Mayotte Scops Owls, short low ear tufts, yellow eyes, grey-horn bill, feathered tarsi to toes, sparse pale scapular flecks, dark shaft streaks, restrained fine barring. Same morph. Near-equal body scale; female only subtly longer in folded wing, not generally larger. New actually viewed adult photographs calibrate compact outline, short tufts and yellow eyes only because sex is unknown.
+
+Older immature: museum-confirmed but undated, adult-like overall yet visibly softer/less regular, dark/indeterminate iris, tiny soft tufts, compact rounded partly formed wing with fewer hard layers, mostly hidden short tail, both feet gripping and belly naturally supported. Do not call it chick or assign age/flight. No nest/cavity/eggs. Avoid adult-hard layered immature remiges, long horn tufts, bold white shoulder patches, sex-size stereotype, unsupported feet, flight or extra text. PASS_WITH_LIMITATIONS; science=false.
+```

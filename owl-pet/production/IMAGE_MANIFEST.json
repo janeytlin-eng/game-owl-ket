@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T13:52:00+08:00",
+  "updated": "2026-11-07T13:55:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27155,13 +27155,13 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Exact young age/sex, living juvenile soft-part ontogeny, first flight, continuous molt sequence and population-wide adult sex dichromatism remain unknown; Mikkola upload unavailable.",
       "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; edited full-colour ImageGen source SHA retained; transport board and final crops actually opened.",
       "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
       "archive_tree": "404fe616d45f4a294737c0a0d153cf8b4abbe33c",
       "verified_at": "2026-11-07T13:52:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 16,
@@ -27175,8 +27175,11 @@
           "production": 761
         },
         "connector_full_binary_stream_readback": false
-      }
+      },
+      "verification_commit": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
+      "verification_tree": "32b6ec98b86b99f00f54fc8b3613b67b188eef01",
+      "ledger_credited_at": "2026-11-07T13:55:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T13:52:00+08:00"
+  "updated_at": "2026-11-07T13:55:00+08:00"
 }

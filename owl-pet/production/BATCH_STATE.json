@@ -28564,7 +28564,7 @@
     },
     {
       "batch_id": "20261107T103800+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -28611,38 +28611,30 @@
           "commit_sha": "ea8b87f73a0323c6c6c1207f9d5f36168975da17",
           "archive_commit": "79b83fb310f0d00f7e1a28f4af55157628fca1fc",
           "run_record": "owl-pet/production/runs/20261107T125000+0800-cycle-5.md"
+        },
+        {
+          "cycle": 6,
+          "species": "Ketupa leucosticta",
+          "species_id": 168,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
+          "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
+          "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
+      "next_cycle": null,
+      "active_cycle": null,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T13:52:00+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T13:52:00+08:00",
-        "expires_at": "2026-11-07T14:07:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 6,
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md"
-      },
-      "active": {
-        "cycle": 6,
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "version": 3,
-        "stage": "VERIFIED",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md"
-      },
+      "updated_at": "2026-11-07T13:55:00+08:00",
+      "current_stage": "COMPLETE",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -29617,16 +29609,32 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T14:07:00+08:00"
           }
+        },
+        {
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T13:55:00+08:00",
+          "run_id": "20261107T132400+0800-cycle-6",
+          "species_id": 168,
+          "species": "Ketupa leucosticta",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
+            "verification_tree": "32b6ec98b86b99f00f54fc8b3613b67b188eef01",
+            "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
+            "archive_tree": "404fe616d45f4a294737c0a0d153cf8b4abbe33c",
+            "batch_progress": "6/6",
+            "next_cycle": null,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261107T132400+0800-cycle-6",
-    "heartbeat_at": "2026-11-07T13:52:00+08:00",
-    "expires_at": "2026-11-07T14:07:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -29760,7 +29768,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T13:52:00+08:00",
+  "updated_at": "2026-11-07T13:55:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -29769,13 +29777,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261107T132400+0800-cycle-6",
-    "heartbeat_at": "2026-11-07T13:52:00+08:00",
-    "expires_at": "2026-11-07T14:07:00+08:00"
-  },
-  "last_updated_at": "2026-11-07T13:52:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-07T13:55:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -30572,15 +30575,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 6,
-    "species_id": 168,
-    "species": "Ketupa leucosticta",
-    "version": 3,
-    "stage": "VERIFIED",
-    "run_id": "20261107T132400+0800-cycle-6",
-    "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -30590,11 +30585,13 @@
     "at": "2026-11-06T13:52:00.000+08:00"
   },
   "last_checkpoint": {
-    "batch_id": "20261107T062903+0800",
+    "batch_id": "20261107T103800+0800",
     "cycle": 6,
-    "stage": "STARTED",
-    "at": "2026-11-07T09:47:00+08:00",
-    "run_record": "owl-pet/production/runs/20261107T094700+0800-cycle-6.md"
+    "stage": "LEDGER_CREDITED",
+    "at": "2026-11-07T13:55:00+08:00",
+    "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md",
+    "commit_sha": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
+    "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3"
   },
   "history": [
     {
@@ -31873,7 +31870,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T13:52:00+08:00",
+  "last_updated": "2026-11-07T13:55:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -35135,10 +35132,10 @@
       }
     }
   ],
-  "active_batch_id": "20261107T103800+0800",
-  "active_cycle": 6,
-  "current_stage": "VERIFIED",
-  "next_cycle": 6,
+  "active_batch_id": null,
+  "active_cycle": null,
+  "current_stage": "COMPLETE",
+  "next_cycle": null,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -43949,1067 +43946,19 @@
       "run_id": "20261107T132400+0800-cycle-6",
       "species_id": 168,
       "credited": false
+    },
+    {
+      "batch_id": "20261107T103800+0800",
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T13:55:00+08:00",
+      "run_id": "20261107T132400+0800-cycle-6",
+      "species_id": 168,
+      "credited": true
     }
   ],
-  "last_completed_batch_id": "20261107T062903+0800",
-  "active_batch": {
-    "batch_id": "20261107T103800+0800",
-    "status": "PARTIAL",
-    "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Glaucidium gnoma",
-        "species_id": 163,
-        "version": 3,
-        "commit_sha": "c6a133491f5a11cf99c8220a11d937ecc4afd8da",
-        "archive_commit": "b1c9df704af877366e1443e4f970d9c410a7c58d",
-        "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
-      },
-      {
-        "cycle": 2,
-        "species": "Strix hadorami",
-        "species_id": 164,
-        "version": 3,
-        "commit_sha": "6a4a28723c6eef446bc7a939861a3afeaf09a1ba",
-        "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
-        "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
-      },
-      {
-        "cycle": 3,
-        "species": "Ninox punctulata",
-        "species_id": 165,
-        "version": 3,
-        "commit_sha": "98596a1e5a4a7112286d91c85f019b9d63987e61",
-        "archive_commit": "5869ac6de6eee497502676974a2d5426ec15543a",
-        "run_record": "owl-pet/production/runs/20261107T113400+0800-cycle-3.md"
-      },
-      {
-        "cycle": 4,
-        "species": "Bubo cinerascens",
-        "species_id": 166,
-        "version": 3,
-        "commit_sha": "01d60cfbe52d9a513b9011b8bc1a2470b2fab3a6",
-        "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
-        "run_record": "owl-pet/production/runs/20261107T120200+0800-cycle-4.md"
-      },
-      {
-        "cycle": 5,
-        "species": "Ketupa poensis",
-        "species_id": 167,
-        "version": 3,
-        "commit_sha": "ea8b87f73a0323c6c6c1207f9d5f36168975da17",
-        "archive_commit": "79b83fb310f0d00f7e1a28f4af55157628fca1fc",
-        "run_record": "owl-pet/production/runs/20261107T125000+0800-cycle-5.md"
-      }
-    ],
-    "next_cycle": 6,
-    "active_cycle": 6,
-    "started_at": "2026-11-07T10:38:00+08:00",
-    "updated_at": "2026-11-07T13:52:00+08:00",
-    "current_stage": "VERIFIED",
-    "ledger_credit_pending": true,
-    "lease": {
-      "owner": "codex",
-      "run_id": "20261107T132400+0800-cycle-6",
-      "heartbeat_at": "2026-11-07T13:52:00+08:00",
-      "expires_at": "2026-11-07T14:07:00+08:00"
-    },
-    "in_progress": {
-      "cycle": 6,
-      "species_id": 168,
-      "species": "Ketupa leucosticta",
-      "version": 3,
-      "stage": "VERIFIED",
-      "run_id": "20261107T132400+0800-cycle-6",
-      "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md"
-    },
-    "active": {
-      "cycle": 6,
-      "species_id": 168,
-      "species": "Ketupa leucosticta",
-      "version": 3,
-      "stage": "VERIFIED",
-      "run_id": "20261107T132400+0800-cycle-6",
-      "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md"
-    },
-    "stage_events": [
-      {
-        "cycle": 1,
-        "stage": "STARTED",
-        "at": "2026-11-07T10:38:00+08:00",
-        "run_id": "20261107T103800+0800-cycle-1",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md",
-          "baseline_main": "e0785f66d1b7bfe58311984e4867cd4b33d9cb25",
-          "selection_note": "#163 Glaucidium gnoma is the current manifest species with archived v1/v2 and no v3; misnumbered historical #163 Athene cunicularia is preserved but excluded by authoritative duplicate correction",
-          "lease_expires_at": "2026-11-07T10:53:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T10:42:00+08:00",
-        "run_id": "20261107T103800+0800-cycle-1",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/163-glaucidium-gnoma-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 2,
-          "reused_sources": 4,
-          "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-          "direct_v2_review": true,
-          "design_boundary": "same-height adult pair; female subtly fuller; age-unknown supported gray mesoptile; modest illustrative cavity lip",
-          "mikkola_access": "repository page-verified transcription reused; upload unavailable this execution",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T10:57:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T10:47:00+08:00",
-        "run_id": "20261107T103800+0800-cycle-1",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/163-glaucidium-gnoma-v3-generated-master.png",
-          "generated_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
-          "full_color_sha256": "4251fdbe39f2e19beec125f23bd743425db4d46460365f3e4346b4843e55b5e4",
-          "full_color_bytes": 3282330,
-          "transport_sha256": "e4fb4c896a955df99e36c80911ce077ce1a3ca24c2e3d31d150c21abfa90b77e",
-          "transport_bytes": 659656,
-          "width": 1536,
-          "height": 1024,
-          "preliminary_inspection": "exact title/name/count/order/labels; near-equal adults; nape false-eye patch visible; dark-eyed supported mesoptile",
-          "edit_required": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T11:02:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T10:50:00+08:00",
-        "run_id": "20261107T103800+0800-cycle-1",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/163-glaucidium-gnoma-v3-reviewed-master.png",
-          "reviewed_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
-          "edit_count": 0,
-          "review_record": "owl-pet/research/reviews/163-glaucidium-gnoma-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-adults.png",
-            "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-mesoptile.png"
-          ],
-          "crop_blobs": [
-            "f9103b0ca25c44cfd3819c1bf43e9a3f0a90af97",
-            "8e2026fc18d8a9ecfd1ef1363fb51d9a8f4f731f"
-          ],
-          "reinspection": "full-colour image plus 64-colour full plate and two crops opened; adult sex scale restrained; nape false-eye visible; dark-eyed gray mesoptile supported at modest cavity lip",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T11:05:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T10:54:00+08:00",
-        "run_id": "20261107T103800+0800-cycle-1",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/163-glaucidium-gnoma-v3.png",
-          "concept_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
-          "generated": "owl-pet/production/generated/163-glaucidium-gnoma-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/163-glaucidium-gnoma-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-adults.png",
-            "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-mesoptile.png"
-          ],
-          "manifest_counts": {
-            "design_image": 765,
-            "design_legacy": 766,
-            "production": 756
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T11:09:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T11:00:00+08:00",
-        "run_id": "20261107T103800+0800-cycle-1",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "b1c9df704af877366e1443e4f970d9c410a7c58d",
-          "archive_tree": "c96ada938c1a0aa48e2ab47c5118302ccfc07d78",
-          "required_paths": 16,
-          "exact_binary_paths": 5,
-          "tree_entries": 3736,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 765,
-            "design_legacy": 766,
-            "production": 756
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T11:15:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T11:03:00+08:00",
-        "run_id": "20261107T103800+0800-cycle-1",
-        "species_id": 163,
-        "species": "Glaucidium gnoma",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "c6a133491f5a11cf99c8220a11d937ecc4afd8da",
-          "verification_tree": "0f75265b2588a4f744e04e0ee94520c054c225c6",
-          "archive_commit": "b1c9df704af877366e1443e4f970d9c410a7c58d",
-          "archive_tree": "c96ada938c1a0aa48e2ab47c5118302ccfc07d78",
-          "batch_progress": "1/6",
-          "next_cycle": 2,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-07T11:06:00+08:00",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md",
-          "baseline_main": "310400adb60f8c1827c8306c22a636687ec34773",
-          "selection_note": "#164 Strix hadorami has archived v1/v2 and no v3; historical #164 Athene noctua excluded by authoritative duplicate correction",
-          "lease_expires_at": "2026-11-07T11:21:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T11:10:00+08:00",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/164-strix-hadorami-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 2,
-          "reused_sources": 3,
-          "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-          "direct_v2_review": true,
-          "design_boundary": "near-equal adult height; female subtly fuller; supported c.25–30-day pale mesoptile on broad sandstone shelf",
-          "mikkola_access": "repository transcription reused; upload unavailable this execution",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T11:25:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T11:15:00+08:00",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/164-strix-hadorami-v3-generated-master.png",
-          "generated_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
-          "full_color_sha256": "45da55793bcfcf448258fcf1ebe5f0918c5849c30e792209f4ee764bd3658ebb",
-          "full_color_bytes": 2976307,
-          "transport_sha256": "8c9ffb3d1030c9ad296d2873971ea30ffdd96854966c643a7ec2ae30d5f5e870",
-          "transport_bytes": 632744,
-          "width": 1536,
-          "height": 1024,
-          "preliminary_inspection": "exact title/name/count/order/labels; adults near equal with subtly fuller female; supported c.25–30-day mesoptile with short emerging wing",
-          "edit_required": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T11:30:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T11:20:00+08:00",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/164-strix-hadorami-v3-reviewed-master.png",
-          "reviewed_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
-          "edit_count": 0,
-          "review_record": "owl-pet/research/reviews/164-strix-hadorami-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/164-strix-hadorami-v3-adults.png",
-            "owl-pet/production/review-crops/164-strix-hadorami-v3-mesoptile.png"
-          ],
-          "crop_blobs": [
-            "14821e78fd56d2dce81ca59692acc51d606c7a86",
-            "96d6c3d1aae7cb2379fb6cc48e9ffa7dbb8b048a"
-          ],
-          "reinspection": "full plate and crops opened; near-equal adult height with subtle female fullness; supported pale mesoptile with short emerging wing and concealed tail",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T11:35:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T11:24:00+08:00",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/164-strix-hadorami-v3.png",
-          "concept_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
-          "generated": "owl-pet/production/generated/164-strix-hadorami-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/164-strix-hadorami-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/164-strix-hadorami-v3-adults.png",
-            "owl-pet/production/review-crops/164-strix-hadorami-v3-mesoptile.png"
-          ],
-          "manifest_counts": {
-            "design_image": 766,
-            "design_legacy": 767,
-            "production": 757
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T11:39:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T11:28:00+08:00",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
-          "archive_tree": "e1ab6cc86df5b6401f15b1117a1125d7caa02597",
-          "required_paths": 16,
-          "exact_binary_paths": 5,
-          "tree_entries": 3744,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 766,
-            "design_legacy": 767,
-            "production": 757
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T11:43:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T11:31:00+08:00",
-        "run_id": "20261107T110600+0800-cycle-2",
-        "species_id": 164,
-        "species": "Strix hadorami",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "6a4a28723c6eef446bc7a939861a3afeaf09a1ba",
-          "verification_tree": "26c8d6849327fa346508b86b4f37692422cf47d2",
-          "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
-          "archive_tree": "e1ab6cc86df5b6401f15b1117a1125d7caa02597",
-          "batch_progress": "2/6",
-          "next_cycle": 3,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-07T11:34:00+08:00",
-        "run_id": "20261107T113400+0800-cycle-3",
-        "species_id": 165,
-        "species": "Ninox punctulata",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T113400+0800-cycle-3.md",
-          "baseline_main": "8ea9215b86dcc1d0416e3f0df769af433fbfea07",
-          "selection_note": "#165 Ninox punctulata has archived v1/v2 and no v3; v2 remains science=false and its recent-young wing softness/support require direct recheck",
-          "lease_expires_at": "2026-11-07T11:49:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T11:39:00+08:00",
-        "run_id": "20261107T113400+0800-cycle-3",
-        "species_id": 165,
-        "species": "Ninox punctulata",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/165-ninox-punctulata-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 0,
-          "reused_sources": 2,
-          "corrected_sources": 2,
-          "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-          "direct_v2_review": true,
-          "design_boundary": "dark fluffy age-unknown juvenile with short buried wing and full root support; near-equal dark-eyed adults",
-          "mikkola_access": "unavailable this execution",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T11:54:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T11:44:00+08:00",
-        "run_id": "20261107T113400+0800-cycle-3",
-        "species_id": 165,
-        "species": "Ninox punctulata",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/165-ninox-punctulata-v3-generated-master.png",
-          "generated_blob": "599216ff8a63a19c5b421bada0cf4a26718aa532",
-          "full_color_sha256": "14b8a719556f3d004c8b8734a518e0beb702121836a60d47071b378bf47a0ab6",
-          "full_color_bytes": 3180940,
-          "transport_sha256": "938a1a5388be8ffd6dee139fab3f1727461508f470040884137d2dd0b5be3828",
-          "transport_bytes": 729072,
-          "width": 1536,
-          "height": 1024,
-          "preliminary_inspection": "exact title/name/count/order/labels; dark-eyed near-equal adults; dark fluffy fully supported juvenile with short covered wing",
-          "edit_required": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T11:59:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T11:48:00+08:00",
-        "run_id": "20261107T113400+0800-cycle-3",
-        "species_id": 165,
-        "species": "Ninox punctulata",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/165-ninox-punctulata-v3-reviewed-master.png",
-          "reviewed_blob": "599216ff8a63a19c5b421bada0cf4a26718aa532",
-          "edit_count": 0,
-          "review_record": "owl-pet/research/reviews/165-ninox-punctulata-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/165-ninox-punctulata-v3-adults.png",
-            "owl-pet/production/review-crops/165-ninox-punctulata-v3-dark-fluffy-juvenile.png"
-          ],
-          "crop_blobs": [
-            "91e90c43eaff6bacab95ddecc4e3090088041fc9",
-            "12326817d520bc5120cfe8323d00dd842d3f24a0"
-          ],
-          "reinspection": "full colour, 64-colour board and two crops opened; adults dark-eyed and near-equal; dark loose-down juvenile supported with short covered wing",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T12:03:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T11:52:00+08:00",
-        "run_id": "20261107T113400+0800-cycle-3",
-        "species_id": 165,
-        "species": "Ninox punctulata",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/165-ninox-punctulata-v3.png",
-          "concept_blob": "599216ff8a63a19c5b421bada0cf4a26718aa532",
-          "generated": "owl-pet/production/generated/165-ninox-punctulata-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/165-ninox-punctulata-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/165-ninox-punctulata-v3-adults.png",
-            "owl-pet/production/review-crops/165-ninox-punctulata-v3-dark-fluffy-juvenile.png"
-          ],
-          "manifest_counts": {
-            "design_image": 767,
-            "design_legacy": 768,
-            "production": 758
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T12:07:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T11:56:00+08:00",
-        "run_id": "20261107T113400+0800-cycle-3",
-        "species_id": 165,
-        "species": "Ninox punctulata",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "5869ac6de6eee497502676974a2d5426ec15543a",
-          "archive_tree": "4edc8513f1ddde61e75148a4709e28a9c2b327c8",
-          "required_paths": 16,
-          "exact_binary_paths": 5,
-          "tree_entries": 3752,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 767,
-            "design_legacy": 768,
-            "production": 758
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T12:11:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T11:59:00+08:00",
-        "run_id": "20261107T113400+0800-cycle-3",
-        "species_id": 165,
-        "species": "Ninox punctulata",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "98596a1e5a4a7112286d91c85f019b9d63987e61",
-          "verification_tree": "132221ccc9269f4de5f81e5eebc84b5a597b8845",
-          "archive_commit": "5869ac6de6eee497502676974a2d5426ec15543a",
-          "archive_tree": "4edc8513f1ddde61e75148a4709e28a9c2b327c8",
-          "batch_progress": "3/6",
-          "next_cycle": 4,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-07T12:02:00+08:00",
-        "run_id": "20261107T120200+0800-cycle-4",
-        "species_id": 166,
-        "species": "Bubo cinerascens",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T120200+0800-cycle-4.md",
-          "baseline_main": "a3845edbda0b3e403ca1036373770128874fc82a",
-          "selection_note": "#166 Bubo cinerascens has archived v1/v2 and no v3; selected from latest manifests after #165 ledger credit",
-          "lease_expires_at": "2026-11-07T12:17:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T12:07:00+08:00",
-        "run_id": "20261107T120200+0800-cycle-4",
-        "species_id": 166,
-        "species": "Bubo cinerascens",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/166-bubo-cinerascens-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 0,
-          "reused_sources": 2,
-          "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-          "design_boundary": "near-equal neutral grey-brown adults; fully feathered greyish 35–43-day young with formed folded wings, root support, no flight claim",
-          "mikkola_access": "repository transcription reused; upload unavailable this execution",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T12:22:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T12:12:00+08:00",
-        "run_id": "20261107T120200+0800-cycle-4",
-        "species_id": 166,
-        "species": "Bubo cinerascens",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/166-bubo-cinerascens-v3-generated-master.png",
-          "generated_blob": "4cf25e25b1a3ba6459ca302c8310909dcc428840",
-          "full_color_sha256": "bd3b959c2137298d66281cb358cbbf77de27139e12293076a3a2bda679216c77",
-          "full_color_bytes": 3530600,
-          "transport_sha256": "eed3cf04816d07559fc6d84a491e41657444c94f3e7968bbb3d5e58ca9919161",
-          "transport_bytes": 752061,
-          "width": 1536,
-          "height": 1024,
-          "preliminary_inspection": "actual board and crops opened; exact order; neutral adults; fully feathered supported young; no flight",
-          "edit_required": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T12:27:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T12:34:00+08:00",
-        "run_id": "20261107T120200+0800-cycle-4",
-        "species_id": 166,
-        "species": "Bubo cinerascens",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/166-bubo-cinerascens-v3-reviewed-master.png",
-          "reviewed_blob": "4cf25e25b1a3ba6459ca302c8310909dcc428840",
-          "edit_count": 0,
-          "review_record": "owl-pet/research/reviews/166-bubo-cinerascens-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/166-bubo-cinerascens-v3-adults.png",
-            "owl-pet/production/review-crops/166-bubo-cinerascens-v3-young.png"
-          ],
-          "crop_blobs": [
-            "de3e61403462f02efda3b7591cff3147971e0277",
-            "400ad59d4097d185e939e22f78d31be743ebafae"
-          ],
-          "reinspection": "full-colour source, 64-colour transport board and two crops actually opened; neutral grey-brown near-equal adults; fully feathered compact supported young with formed folded wing and no flight pose",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T12:49:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T12:38:00+08:00",
-        "run_id": "20261107T120200+0800-cycle-4",
-        "species_id": 166,
-        "species": "Bubo cinerascens",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/166-bubo-cinerascens-v3.png",
-          "concept_blob": "4cf25e25b1a3ba6459ca302c8310909dcc428840",
-          "generated": "owl-pet/production/generated/166-bubo-cinerascens-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/166-bubo-cinerascens-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/166-bubo-cinerascens-v3-adults.png",
-            "owl-pet/production/review-crops/166-bubo-cinerascens-v3-young.png"
-          ],
-          "manifest_counts": {
-            "design_image": 768,
-            "design_legacy": 769,
-            "production": 759
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T12:53:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T12:43:00+08:00",
-        "run_id": "20261107T120200+0800-cycle-4",
-        "species_id": 166,
-        "species": "Bubo cinerascens",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
-          "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
-          "required_paths": 16,
-          "exact_binary_paths": 5,
-          "tree_entries": 3760,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 768,
-            "design_legacy": 769,
-            "production": 759
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T12:58:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T12:46:00+08:00",
-        "run_id": "20261107T120200+0800-cycle-4",
-        "species_id": 166,
-        "species": "Bubo cinerascens",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "01d60cfbe52d9a513b9011b8bc1a2470b2fab3a6",
-          "verification_tree": "bc9a211b4582ecb667147254b1d9706b61987c79",
-          "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
-          "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
-          "batch_progress": "4/6",
-          "next_cycle": 5,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-07T12:50:00+08:00",
-        "run_id": "20261107T125000+0800-cycle-5",
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T125000+0800-cycle-5.md",
-          "baseline_main": "f179831ed58946479e10e3d7a08e29108596e96a",
-          "selection_note": "#167 Ketupa poensis has archived v1/v2 and no v3; selected from the latest manifests after #166 ledger credit",
-          "lease_expires_at": "2026-11-07T13:05:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T12:57:00+08:00",
-        "run_id": "20261107T125000+0800-cycle-5",
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/167-ketupa-poensis-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 2,
-          "reused_sources": 3,
-          "corrected_sources": 1,
-          "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-          "direct_v2_review": "repository v2 research/review evidence reread; binary v2 master retained but not re-downloaded by connector",
-          "design_boundary": "western nominate; standard male/female/young order; adults warm rufous-brown with conspicuous irregular silvery shoulder patches and visible feathered tarsi; pale narrow-barred age-unknown young supported low, no flight claim",
-          "mikkola_access": "repository page-verified transcription reused; upload unavailable this execution",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T13:12:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T13:04:00+08:00",
-        "run_id": "20261107T125000+0800-cycle-5",
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/167-ketupa-poensis-v3-generated-master.png",
-          "generated_blob": "ff9666d13d4e3e809a09990797fbfb2ac42207a4",
-          "full_color_sha256": "d7e9d6452178791711d09b9d72970c5ae6f1d27e3082f4d36140f94119deb5f8",
-          "full_color_bytes": 3265597,
-          "transport_sha256": "0071955f013bf6c243f2748f443c39adeb2c089f7508a3eb3add259ccde324b5",
-          "transport_bytes": 682559,
-          "width": 1536,
-          "height": 1024,
-          "preliminary_inspection": "full-colour board, transport board and two crops opened; exact order/labels; dark-eyed warm adults with conspicuous irregular pale shoulder patches and barred feathered tarsi; pale narrow-barred fully supported young with softer contour",
-          "edit_required": false,
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T13:19:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T13:09:00+08:00",
-        "run_id": "20261107T125000+0800-cycle-5",
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/167-ketupa-poensis-v3-reviewed-master.png",
-          "reviewed_blob": "ff9666d13d4e3e809a09990797fbfb2ac42207a4",
-          "edit_count": 0,
-          "review_record": "owl-pet/research/reviews/167-ketupa-poensis-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/167-ketupa-poensis-v3-adults.png",
-            "owl-pet/production/review-crops/167-ketupa-poensis-v3-young.png"
-          ],
-          "crop_blobs": [
-            "125931203d399d3b76ca9d171ee70039f781dbb5",
-            "471a09947df61ef22fab8c65fce65de64440f94a"
-          ],
-          "reinspection": "full-colour board, 64-colour board and final isolated crops opened; adult irregular silvery shoulder patch visible without collar; dark eyes/slate bill; female subtly fuller; pale age-unknown young narrow-barred, soft-contoured and fully supported",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T13:24:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T13:13:00+08:00",
-        "run_id": "20261107T125000+0800-cycle-5",
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/167-ketupa-poensis-v3.png",
-          "concept_blob": "ff9666d13d4e3e809a09990797fbfb2ac42207a4",
-          "generated": "owl-pet/production/generated/167-ketupa-poensis-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/167-ketupa-poensis-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/167-ketupa-poensis-v3-adults.png",
-            "owl-pet/production/review-crops/167-ketupa-poensis-v3-young.png"
-          ],
-          "manifest_counts": {
-            "design_image": 769,
-            "design_legacy": 770,
-            "production": 760
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T13:28:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T13:17:00+08:00",
-        "run_id": "20261107T125000+0800-cycle-5",
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "79b83fb310f0d00f7e1a28f4af55157628fca1fc",
-          "archive_tree": "7f8668e62f8657877171d76f6dde84b3859be925",
-          "required_paths": 16,
-          "exact_binary_paths": 5,
-          "tree_entries": 3768,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 769,
-            "design_legacy": 770,
-            "production": 760
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T13:32:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T13:20:00+08:00",
-        "run_id": "20261107T125000+0800-cycle-5",
-        "species_id": 167,
-        "species": "Ketupa poensis",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "ea8b87f73a0323c6c6c1207f9d5f36168975da17",
-          "verification_tree": "65894816860e7d764f4be0a19d68cc0929ca01ff",
-          "archive_commit": "79b83fb310f0d00f7e1a28f4af55157628fca1fc",
-          "archive_tree": "7f8668e62f8657877171d76f6dde84b3859be925",
-          "batch_progress": "5/6",
-          "next_cycle": 6,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "revision_increment": 1,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-07T13:24:00+08:00",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md",
-          "baseline_main": "bc623aa298b0ebae0bae1eb973c856938ced29a1",
-          "selection_note": "#168 Ketupa leucosticta has archived v1/v2 and no v3; v2 required one young-wing/tail edit and remains science=false",
-          "lease_expires_at": "2026-11-07T13:39:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T13:31:00+08:00",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/168-ketupa-leucosticta-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "new_sources": 3,
-          "reused_sources": 3,
-          "corrected_sources": 2,
-          "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-          "direct_v2_review": "v2 run/research/knowledge and documented edit cause reread",
-          "design_boundary": "standard male/female/young order; supported adult plumage contrast (male darker, female more reddish) kept subtle; yellow-eyed weak-billed adults; nearly white soft short-winged age-unknown young fully supported",
-          "mikkola_access": "repository page transcription reused; upload unavailable",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T13:46:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T13:38:00+08:00",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "credited": false,
-        "evidence": {
-          "generated_path": "owl-pet/production/generated/168-ketupa-leucosticta-v3-generated-master.png",
-          "generated_blob": "bae5c7a4ab7cbc5b99563cb6e499ddec46801231",
-          "full_color_sha256": "8f9ef0a4ca519be21fecd8bc00d06451cd7c4eee5a87393068662e37c43713c6",
-          "full_color_bytes": 2902141,
-          "transport_sha256": "e845a1e0c3ba355387ff83686094018b9fecfd48d92718d85616db19abde8490",
-          "transport_bytes": 649882,
-          "width": 1536,
-          "height": 1024,
-          "preliminary_inspection": "initial board opened and young crop exposed adult-like long primaries; one evidence-led edit replaced them with a short rounded downy juvenile wing, concealed tail and full branch support; edited board and isolated young crop reopened",
-          "edit_required": true,
-          "edit_count": 1,
-          "edit_wait_seconds": 32.3,
-          "initial_generation_wait_seconds": "not retained after context compaction",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T13:53:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T13:43:00+08:00",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/168-ketupa-leucosticta-v3-reviewed-master.png",
-          "reviewed_blob": "bae5c7a4ab7cbc5b99563cb6e499ddec46801231",
-          "edit_count": 1,
-          "review_record": "owl-pet/research/reviews/168-ketupa-leucosticta-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/168-ketupa-leucosticta-v3-adults.png",
-            "owl-pet/production/review-crops/168-ketupa-leucosticta-v3-young.png"
-          ],
-          "crop_blobs": [
-            "54c4aa01db9732c3ec647a1b4f7152e163f44257",
-            "e36f82a5374aa96c084dcedc24e5173896b4220e"
-          ],
-          "reinspection": "edited full-colour board, 64-colour transport board, adult crop and young crop opened; restrained male-darker/female-rufous contrast, yellow eyes, pale inner tuft fringes and weak yellowish bills; near-white young has short rounded downy wing, hidden tail, dark eyes and complete supported feet",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T13:58:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T13:47:00+08:00",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/168-ketupa-leucosticta-v3.png",
-          "concept_blob": "bae5c7a4ab7cbc5b99563cb6e499ddec46801231",
-          "generated": "owl-pet/production/generated/168-ketupa-leucosticta-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/168-ketupa-leucosticta-v3-reviewed-master.png",
-          "review_crops": [
-            "owl-pet/production/review-crops/168-ketupa-leucosticta-v3-adults.png",
-            "owl-pet/production/review-crops/168-ketupa-leucosticta-v3-young.png"
-          ],
-          "manifest_counts": {
-            "design_image": 770,
-            "design_legacy": 771,
-            "production": 761
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T14:02:00+08:00"
-        }
-      },
-      {
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T13:52:00+08:00",
-        "run_id": "20261107T132400+0800-cycle-6",
-        "species_id": 168,
-        "species": "Ketupa leucosticta",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
-          "archive_tree": "404fe616d45f4a294737c0a0d153cf8b4abbe33c",
-          "required_paths": 16,
-          "exact_binary_paths": 5,
-          "tree_entries": 3776,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_image": 770,
-            "design_legacy": 771,
-            "production": 761
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T14:07:00+08:00"
-        }
-      }
-    ]
-  },
+  "last_completed_batch_id": "20261107T103800+0800",
+  "active_batch": null,
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -49926,39 +48875,59 @@
         "lease_expires_at": "2026-11-07T10:53:00+08:00",
         "scientifically_verified": false
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T13:55:00+08:00",
+      "run_id": "20261107T132400+0800-cycle-6",
+      "species_id": 168,
+      "species": "Ketupa leucosticta",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
+        "verification_tree": "32b6ec98b86b99f00f54fc8b3613b67b188eef01",
+        "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
+        "archive_tree": "404fe616d45f4a294737c0a0d153cf8b4abbe33c",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "ea8b87f73a0323c6c6c1207f9d5f36168975da17",
+  "ledger_credit_pending": false,
+  "last_verified_commit": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
   "completed_cycles": [
     {
       "batch_id": "20261107T103800+0800",
-      "cycle": 5,
-      "species": "Ketupa poensis",
-      "species_id": 167,
+      "cycle": 6,
+      "species": "Ketupa leucosticta",
+      "species_id": 168,
       "version": 3,
-      "commit_sha": "ea8b87f73a0323c6c6c1207f9d5f36168975da17",
-      "archive_commit": "79b83fb310f0d00f7e1a28f4af55157628fca1fc",
-      "run_record": "owl-pet/production/runs/20261107T125000+0800-cycle-5.md"
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
+      "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
+      "run_record": "owl-pet/production/runs/20261107T132400+0800-cycle-6.md",
+      "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-07T13:52:00+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-07T13:55:00+08:00",
+  "stage": "COMPLETE",
   "stage_evidence": {
+    "verification_commit": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
+    "verification_tree": "32b6ec98b86b99f00f54fc8b3613b67b188eef01",
     "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
     "archive_tree": "404fe616d45f4a294737c0a0d153cf8b4abbe33c",
-    "required_paths": 16,
-    "exact_binary_paths": 5,
-    "tree_entries": 3776,
-    "tree_truncated": false,
-    "manifest_counts": {
-      "design_image": 770,
-      "design_legacy": 771,
-      "production": 761
-    },
-    "verification_result": "PASS_WITH_LIMITATIONS",
-    "scientifically_verified": false,
-    "ledger_credit_pending": true,
-    "lease_expires_at": "2026-11-07T14:07:00+08:00"
+    "batch_progress": "6/6",
+    "next_cycle": null,
+    "unique_species_count": 176,
+    "total_species": 251,
+    "revision_increment": 1,
+    "scientifically_verified": false
   }
 }

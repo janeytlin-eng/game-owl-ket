@@ -4043,3 +4043,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Required paths 21/21; binary exact SHA/size 9/9. Initial 3,472,234 bytes; final 3,180,310 bytes; three crop objects 776,951 / 753,015 / 800,500 bytes.
 - Manifests 804 / 801 / 794 with #38 v5 newest. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
 - Connector full-body binary streaming returned UNKNOWN, so verification is exact Git path/object/size rather than claimed full response-body streaming.
+
+
+## 2026-11-08 — #38 v5 batch ledger credit
+
+- Verification `32ffd7b47affd2bfb624aec1a8d10611fb12f073` and repaired archive `5027ec7ab4f4e447c1f40e543075650056ca3707` read back.
+- Credited cycle 1/6 exactly once; next cycle 2. Coverage 176/251; revision +1; science=false; lease released.

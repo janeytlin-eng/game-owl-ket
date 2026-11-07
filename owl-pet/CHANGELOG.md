@@ -1697,3 +1697,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Preserved v1/v2 and added v3 science revision without changing unique-species count.
 - Replaced the adult-hard juvenile template with a shorter, softer wing/tail and a low supported posture after one actual imagegen edit and reinspection.
 - Added two read source records, reused four, corrected one design boundary, and retained unresolved juvenile/sex/nest details as unknown.
+
+- 2026-11-07T22:59:17.142+08:00: archived #27 *Glaucidium passerinum* v5 science revision with research/review evidence, initial+edited originals, review master/crops and three manifest entries; immutable readback pending.

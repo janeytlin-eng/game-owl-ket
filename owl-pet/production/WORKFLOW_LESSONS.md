@@ -51,3 +51,7 @@ For taxa diagnosed by absence of white, write the negative as a whole-body ident
 - Evidence boundary: Pyle et al. 2004 gives calendar-age plumage characters, not exact day, nest position, first-flight ability or a universal iris timetable.
 - Applied change: #26 *Glaucidium siju* v5 moved the juvenile to a broad living branch, kept it low and fully supported, and made wing/tail cues soft and subordinate; no nest-stage or flight claim.
 - Validation: original, transport and juvenile crop reopened; the juvenile retained the documented unmarked-back/streaked-underpart direction without adult wing rows or a long adult tail. Rule is verified for this plate only, not universal across owl species.
+
+## 2026-11-07T22:59:17.142+08:00 — Flight evidence does not require a flight pose
+
+When primary sources say a recent fledgling can fly but lands poorly, that evidence does not justify depicting flight. If feather sequence and landing ability are not individually documented, use a fully supported low perch and keep wings compact. For adult sexual dimorphism reported as overlapping linear measurements, show only a modest directional difference rather than categorical female gigantism. Applied and visually rechecked on #27 *Glaucidium passerinum* v5; effectiveness is limited to this plate until later cross-species review.

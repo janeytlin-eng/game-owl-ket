@@ -3352,3 +3352,5 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 
 Verification follow-up for #201 v3: immutable archive commit `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9` passed exact path/blob and complete-stream checks; the compact soft-wing juvenile correction remained the reviewed concept. This validates that the rule was both applied and archived, not that the unknown juvenile biology was resolved.
+
+- [#27 *Glaucidium passerinum* v5](concepts/27-glaucidium-passerinum-v5.png) — science revision preserving v1–v4; unsexed recent fledgling, fully supported; one wing/scale edit; PASS_WITH_LIMITATIONS.

@@ -3837,3 +3837,5 @@ Archive commit `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9` verified: 18 paths, 8 
 ### #201 v3 ledger credit — 2026-11-07T20:52:00+08:00
 
 Batch `20261107T183000+0800` is now 4/6; next cycle 5. Unique coverage remains 176/251; revision increment +1. Archive `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9`; verification `d5a2330002cb80250a4504edc560154b8414d1eb`.
+
+- 2026-11-07T22:59:17.142+08:00: #27 *Glaucidium passerinum* v5 ARCHIVED pending immutable readback. Three new verified sources, two reused; one wing/scale edit; manifests 793/790/783; unique 176/251; science=false.

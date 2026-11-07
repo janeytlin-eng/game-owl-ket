@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T22:47:28.016+08:00",
+  "updated": "2026-11-07T22:59:17.142+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29346,7 +29346,85 @@
       "verified_at": "2026-11-07T22:47:28.016+08:00",
       "exact_readback": true,
       "verification_result": "Concept/generated/reviewed masters and three crops returned complete base64 streams with exact expected byte lengths and blob SHAs; ImageGen original path/blob matched but the connector did not stream its 2.9 MB body. Research, review, source index, manifests, workflow lesson, run and ledger paths were read back from the immutable archive commit."
+    },
+    {
+      "id": "27-glaucidium-passerinum-v5",
+      "path": "design/concepts/27-glaucidium-passerinum-v5.png",
+      "species_id": 27,
+      "scientific_name": "Glaucidium passerinum",
+      "common_name": "Eurasian Pygmy-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v4 and replaces the precise secondary-only cavity-threshold presentation with an evidence-bounded unsexed recent fledgling. Adults retain the same plumage pattern and an overlapping, modest female size direction. The fledgling is low and fully supported with soft dark juvenile contour, compact shortened wing, concealed short tail and no flight/begging pose. Exact day, sex, iris chronology, feather sequence and independent-flight threshold remain unknown.",
+      "source_ids": [
+        "EUPO-PACENOVSKY-SOTNAR-2010-PP71-73",
+        "EUPO-EGE-2024-FLEDGING",
+        "EUPO-VASSEN-WMC-2014-JUVENILE",
+        "EUPO-SOVADINOVA-2024",
+        "EUPO-ADW-2018"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/27-glaucidium-passerinum-v5.md",
+      "review_record": "research/reviews/27-glaucidium-passerinum-v5-review.md",
+      "run_record": "production/runs/20261107T225200+0800-cycle-2.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 769128,
+      "sha256": "7f11803b48a74a7fc0fb74fc6e18c7d83571e28e08558ebc0e13d834b0a23fa8",
+      "git_blob": "ff798b7f96895507fa40d63b5b9d18c1ca05fcff",
+      "initial_original_path": "production/generated/27-glaucidium-passerinum-v5-initial-original.png",
+      "initial_original_blob": "aafa366a48d94ce6ffd6758aeb47bc5eaf419169",
+      "initial_original_size_bytes": 3024314,
+      "initial_original_sha256": "3ca16dd23130c668b8d92e857e992f29b738ff5f4c5120d780c37ba6f4d5f87e",
+      "edited_original_path": "production/generated/27-glaucidium-passerinum-v5-final-original.png",
+      "edited_original_blob": "4e7c3506b6cad0f45db96f3d67370210362f13e5",
+      "edited_original_size_bytes": 2861221,
+      "edited_original_sha256": "3a835fe2b5c68bec1d04c5facad5d48725fe15492a06c6ba2556c95368b599b3",
+      "generated_path": "production/generated/27-glaucidium-passerinum-v5-generated-master.png",
+      "generated_blob": "ff798b7f96895507fa40d63b5b9d18c1ca05fcff",
+      "generated_size_bytes": 769128,
+      "reviewed_path": "production/reviewed/27-glaucidium-passerinum-v5-reviewed-master.png",
+      "reviewed_blob": "ff798b7f96895507fa40d63b5b9d18c1ca05fcff",
+      "reviewed_size_bytes": 769128,
+      "review_crops": [
+        {
+          "path": "production/review-crops/27-glaucidium-passerinum-v5-adult-male.png",
+          "blob": "7bf27f6194d5cbcc5c7496ef23bf450255d022dc",
+          "size_bytes": 213944,
+          "sha256": "3df13db413dcb7702c4921cd52153298f4cfb52495daecc94b74f6ba6e9410c3"
+        },
+        {
+          "path": "production/review-crops/27-glaucidium-passerinum-v5-recent-fledgling.png",
+          "blob": "f3c236b72afe44fcac6b132e454475d032d39df0",
+          "size_bytes": 206316,
+          "sha256": "59d4dd7883a7f25bf4ad6f5a96fbf54291dd4794d5d92754dd2e9c6b9ca89f00"
+        },
+        {
+          "path": "production/review-crops/27-glaucidium-passerinum-v5-adult-female.png",
+          "blob": "daefe390635394e438534ffdce192fef4fbdf92c",
+          "size_bytes": 202935,
+          "sha256": "cf9ab40225c2214a61523d4163ab8d969c1ec45ebcf5dc714bd6215bfabff9bb"
+        }
+      ],
+      "archive_note": "Initial plate, edited plate, review-safe master and three crops were opened. One edit shortened/softened the fledgling wing and reduced excessive female scale. V1–v4 remain immutable; exact fledgling day/sex/iris/feather sequence/independence remain unknown.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archive_commit": null,
+      "verified_at": null,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-07T22:47:28.016+08:00"
+  "updated_at": "2026-11-07T22:59:17.142+08:00"
 }

@@ -4014,3 +4014,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Immutable tree non-truncated, 4,097 entries; required paths 23/23; binary exact SHA/size 9/9.
 - Original/final blob `253225342d928489e65e66d0abef3a1e4dc775d5`, 3,474,471 bytes; manifests 803 / 800 / 793.
 - PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
+
+## 2026-11-08 — #37 v5 batch ledger credit and batch closure
+
+- Verification `fb8e899d8bc67dd29cbd7bc7b4bb030984898eb5` and archive `61a08d130019ac43b90fb274347e5b76272297ef` read back.
+- Credited cycle 6/6; batch `20261108T011416+0800` is COMPLETE. Coverage 176/251; revision +1; science=false; lease released.

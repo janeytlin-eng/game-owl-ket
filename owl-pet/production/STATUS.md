@@ -3902,3 +3902,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Preserved v2–v4; staged `35-glaucidium-jardinii-v5` as revision +1, unique +0.
 - Full plate and three crops opened; no edit required. Adult sex-size and late-nest juvenile capability remain evidence-bounded.
 - Manifests staged at 801 / 798 / 791; immutable readback pending; science=false.
+
+
+## 2026-11-08 — #35 v5 immutable archive verification
+
+- Archive commit `59792b31829728ea6580fcb3e4468762d28da979`; non-truncated 4,065-entry tree.
+- Required paths 23/23; binary exact SHA/size 9/9; original blob `aa5f24b972f106dc99e778a20ccbd0fef0189232`, 3,519,692 bytes.
+- Manifests parse to 801 / 798 / 791 with #35 v5 newest. PASS_WITH_LIMITATIONS; science=false; credit pending.

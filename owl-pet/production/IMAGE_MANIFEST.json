@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T00:46:04.772+08:00",
+  "updated": "2026-11-08T00:48:04.086+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29135,9 +29135,13 @@
         }
       ],
       "archive_note": "Initial and edited originals, full-colour plate, archival master and all three role crops were opened. One evidence-led juvenile-wing edit was applied and rechecked. Exact juvenile age/sex, flight threshold, independence and sex-size direction remain unknown.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "39f2f54fd69d96e0317cb4c8209c8fd9742981ab",
+      "verified_at": "2026-11-08T00:48:04.086+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable archive returned 17 required text/binary paths. Nine binary paths matched expected Git blob SHAs. Five transport-safe unique bodies (master/concept/reviewed, full-colour source and three crops) returned complete base64 streams with exact decoded byte lengths; both imagegen original paths matched exact immutable blob SHAs but full streams exceeded the connector response ceiling. Research, review, source index, workflow lesson, run and all three manifests read back; manifests parsed at 796/793/786."
     }
   ],
-  "updated_at": "2026-11-08T00:46:04.772+08:00"
+  "updated_at": "2026-11-08T00:48:04.086+08:00"
 }

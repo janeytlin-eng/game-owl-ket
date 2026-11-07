@@ -1,3 +1,7 @@
+## 2026-11-08 — #30 v5 immutable archive VERIFIED; ledger credit pending
+
+Archive [`39f2f54fd69d96e0317cb4c8209c8fd9742981ab`](https://github.com/janeytlin-eng/game-owl-ket/commit/39f2f54fd69d96e0317cb4c8209c8fd9742981ab) returned all required paths. Nine binary paths matched expected blob SHAs; five transport-safe unique bodies returned complete base64 streams at exact decoded lengths. Initial and final imagegen originals are accessible at immutable paths and matched their blob SHAs, while their full connector streams hit the response ceiling. Manifests parsed at 796/793/786. `PASS_WITH_LIMITATIONS`; science=false; unique 176/251; cycle credit still pending.
+
 ## 2026-11-08 — #30 Asian Barred Owlet — *Glaucidium cuculoides* v5 ARCHIVED, readback pending
 
 V5科学修订保留v1–v4。香港观鸟会物种资料支持黄眼、密横斑、无后颈假眼及幼鸟额冠斑点；鸟类报告支持2010年6月5日拍摄到离巢幼鸟，但不支持精确日龄或首次飞行阈值。初图幼鸟折翼偏长且白斑覆羽列过于成鸟化，已用一次局部imagegen编辑缩短并软化，复查未见成鸟、文字或环境漂移。结果 `PASS_WITH_LIMITATIONS`，science=false。

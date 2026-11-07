@@ -1,3 +1,9 @@
+## 2026-11-08 — #30 v5 immutable archive verified
+
+- Archive `39f2f54fd69d96e0317cb4c8209c8fd9742981ab` returned 17 required paths; all nine binary paths matched exact Git blob SHAs.
+- Five transport-safe unique bodies streamed completely; both original imagegen paths matched immutable blobs but exceeded the response ceiling for full-stream return.
+- Manifests parsed at 796/793/786; ledger credit pending; science=false.
+
 ## 2026-11-08 — #30 *Glaucidium cuculoides* v5 archived
 
 - Preserved v1–v4; fresh Hong Kong institutional evidence bounds an undated yellow-eyed fledgling with spotted crown near a natural cavity.

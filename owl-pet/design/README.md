@@ -1,3 +1,7 @@
+## 2026-11-08 — #30 *Glaucidium cuculoides* v5 immutable archive VERIFIED; ledger credit pending
+
+Archive `39f2f54fd69d96e0317cb4c8209c8fd9742981ab` returned all required paths. Binary path/blob checks passed; five transport-safe bodies streamed completely, and both exact original paths matched immutable blob SHAs. Manifests 796/793/786. `PASS_WITH_LIMITATIONS`; science=false.
+
 ## 2026-11-08 — #30 *Glaucidium cuculoides* v5 ARCHIVED; ledger credit pending
 
 V5 preserves v1–v4. An undated yellow-eyed recent fledgling is kept low and fully supported near a natural cavity; spotted crown/forehead is retained, while exact age, flight threshold and independence remain unclaimed. One targeted edit shortened/softened the juvenile wing and removed adult-style white covert rows. `PASS_WITH_LIMITATIONS`; science=false; unique coverage 176/251.

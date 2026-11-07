@@ -36187,8 +36187,8 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-08T02:35:50+08:00",
-      "updated_at": "2026-11-08T03:41:11+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-08T03:43:01+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -36196,15 +36196,15 @@
         "batch_id": "20261108T023550+0800",
         "cycle": 4,
         "species_id": 86,
-        "heartbeat_at": "2026-11-08T03:41:11+08:00",
-        "expires_at": "2026-11-08T03:56:11+08:00"
+        "heartbeat_at": "2026-11-08T03:43:01+08:00",
+        "expires_at": "2026-11-08T03:58:01+08:00"
       },
       "in_progress": {
         "run_id": "20261108T034111+0800-cycle-4",
         "cycle": 4,
         "species_id": 86,
         "species": "Otus elegans",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261108T034111+0800-cycle-4.md"
       },
       "active": {
@@ -36914,6 +36914,37 @@
             "lease_expires_at": "2026-11-08T03:56:11+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261108T023550+0800",
+          "cycle": 4,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-08T03:43:01+08:00",
+          "run_id": "20261108T034111+0800-cycle-4",
+          "species_id": 86,
+          "species": "Otus elegans",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/86-otus-elegans-v5.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
+            "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
+            "new_verified_sources": 2,
+            "new_taxonomy_sources": 1,
+            "reused_or_reread_sources": 2,
+            "corrected_inferences": 1,
+            "design_boundary": "near-equal adults with only subtle female fullness; age-unknown post-fledging dependent young low on a broad Casuarina branch; no exact day/flight/independence claim",
+            "mikkola_access": "uploaded guide unavailable; repository printed pp.160–161 reused without new page claim",
+            "unknowns": [
+              "exact fledgling age and sex",
+              "iris chronology",
+              "continuous feather sequence",
+              "first-flight threshold",
+              "independence"
+            ],
+            "lease_expires_at": "2026-11-08T03:58:01+08:00",
+            "scientifically_verified": false
+          }
         }
       ]
     }
@@ -36924,8 +36955,8 @@
     "batch_id": "20261108T023550+0800",
     "cycle": 4,
     "species_id": 86,
-    "heartbeat_at": "2026-11-08T03:41:11+08:00",
-    "expires_at": "2026-11-08T03:56:11+08:00"
+    "heartbeat_at": "2026-11-08T03:43:01+08:00",
+    "expires_at": "2026-11-08T03:58:01+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -37075,8 +37106,8 @@
     "batch_id": "20261108T023550+0800",
     "cycle": 4,
     "species_id": 86,
-    "heartbeat_at": "2026-11-08T03:41:11+08:00",
-    "expires_at": "2026-11-08T03:56:11+08:00"
+    "heartbeat_at": "2026-11-08T03:43:01+08:00",
+    "expires_at": "2026-11-08T03:58:01+08:00"
   },
   "last_updated_at": "2026-11-08T03:26:20+08:00",
   "audit_notes": [
@@ -53456,19 +53487,32 @@
       "batch_id": "20261108T023550+0800"
     }
   ],
-  "updated": "2026-11-08T03:41:11+08:00",
-  "stage": "STARTED",
+  "updated": "2026-11-08T03:43:01+08:00",
+  "stage": "RESEARCH_READY",
   "stage_evidence": {
-    "run_record": "owl-pet/production/runs/20261108T034111+0800-cycle-4.md",
-    "baseline_main": "6c5011d8752ae5182999c83f2596983ba34cdcd8",
-    "selection_note": "#86 Otus elegans (repository v4 treated as O. e. interpositus) is the next uncompleted science-revision target after skipping already verified v5 records #41–52, duplicate #53/#08, verified #54–55, duplicate #56/#14, and verified v5 records #57–85. Existing v1–v4 remain preserved. V5 will re-check current-name/subspecies mapping, adult sex evidence and an evidence-bounded juvenile stage before generation.",
-    "prior_version": "owl-pet/design/concepts/86-otus-elegans-v4.png",
-    "lease_expires_at": "2026-11-08T03:56:11+08:00",
+    "research_record": "owl-pet/research/species/86-otus-elegans-v5.md",
+    "source_index": "owl-pet/research/SOURCE_INDEX.md",
+    "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
+    "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
+    "new_verified_sources": 2,
+    "new_taxonomy_sources": 1,
+    "reused_or_reread_sources": 2,
+    "corrected_inferences": 1,
+    "design_boundary": "near-equal adults with only subtle female fullness; age-unknown post-fledging dependent young low on a broad Casuarina branch; no exact day/flight/independence claim",
+    "mikkola_access": "uploaded guide unavailable; repository printed pp.160–161 reused without new page claim",
+    "unknowns": [
+      "exact fledgling age and sex",
+      "iris chronology",
+      "continuous feather sequence",
+      "first-flight threshold",
+      "independence"
+    ],
+    "lease_expires_at": "2026-11-08T03:58:01+08:00",
     "scientifically_verified": false
   },
   "last_verification_commit": "fff238757a66b1bf4135bc16d30d57542702151e",
   "timestamps": {
-    "RESEARCH_READY": "2026-11-08T03:30:36+08:00",
+    "RESEARCH_READY": "2026-11-08T03:43:01+08:00",
     "IMAGE_GENERATED": "2026-11-08T03:32:55+08:00",
     "REVIEWED": "2026-11-08T03:36:19+08:00",
     "ARCHIVED": "2026-11-08T03:37:28+08:00",
@@ -53480,7 +53524,7 @@
     "verified_at": "2026-11-08T03:38:42+08:00",
     "ledger_credited_at": "2026-11-08T03:39:17+08:00",
     "started_at": "2026-11-08T03:41:11+08:00",
-    "research_ready_at": "2026-11-08T03:30:36+08:00",
+    "research_ready_at": "2026-11-08T03:43:01+08:00",
     "image_generated_at": "2026-11-08T03:32:55+08:00",
     "lease_recovered_at": "2026-11-07T23:29:26.092+08:00"
   },
@@ -54063,6 +54107,37 @@
         "selection_note": "#86 Otus elegans (repository v4 treated as O. e. interpositus) is the next uncompleted science-revision target after skipping already verified v5 records #41–52, duplicate #53/#08, verified #54–55, duplicate #56/#14, and verified v5 records #57–85. Existing v1–v4 remain preserved. V5 will re-check current-name/subspecies mapping, adult sex evidence and an evidence-bounded juvenile stage before generation.",
         "prior_version": "owl-pet/design/concepts/86-otus-elegans-v4.png",
         "lease_expires_at": "2026-11-08T03:56:11+08:00",
+        "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261108T023550+0800",
+      "cycle": 4,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-08T03:43:01+08:00",
+      "run_id": "20261108T034111+0800-cycle-4",
+      "species_id": 86,
+      "species": "Otus elegans",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/86-otus-elegans-v5.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
+        "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
+        "new_verified_sources": 2,
+        "new_taxonomy_sources": 1,
+        "reused_or_reread_sources": 2,
+        "corrected_inferences": 1,
+        "design_boundary": "near-equal adults with only subtle female fullness; age-unknown post-fledging dependent young low on a broad Casuarina branch; no exact day/flight/independence claim",
+        "mikkola_access": "uploaded guide unavailable; repository printed pp.160–161 reused without new page claim",
+        "unknowns": [
+          "exact fledgling age and sex",
+          "iris chronology",
+          "continuous feather sequence",
+          "first-flight threshold",
+          "independence"
+        ],
+        "lease_expires_at": "2026-11-08T03:58:01+08:00",
         "scientifically_verified": false
       }
     }

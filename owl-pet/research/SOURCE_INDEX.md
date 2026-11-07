@@ -4141,3 +4141,25 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **URL / accessed:** https://birdscolombia.com/2019/03/03/cloud-forest-pygmy-owl-glaucidium-nubicola/ / 2026-11-08.
 - **Type:** secondary species account.
 - **Evidence / limit:** cross-checks current name, habitat and adult marks; original Robbins & Stiles paper supersedes its sex inference from the tiny sample.
+
+
+## 2026-11-08 — #86 *Otus elegans* v5 — post-fledging and current-taxonomy re-read
+
+### ELE-MOE-JAPAN-2026-REREAD
+- **Institution / record:** Japan Ministry of the Environment, Daito Scops Owl RL/RDB account.
+- **URL / accessed:** https://ikilog.biodic.go.jp/rl_rdb/a/792.html / 2026-11-08.
+- **Type / species / stages:** current government assessment; *Otus elegans interpositus*; adults, fledglings and post-fledging dependence.
+- **Sections / evidence:** morphology and life history; about 86 g male / 96 g female with large individual variation; June–July fledging followed by continued parental feeding; narrow shelterbelt/cane-field habitat and mainly Casuarina cavities.
+- **Limit / design use:** supports subtle female fullness and an age-unknown supported recent fledgling; not exact feather day, iris chronology, sustained flight or independence.
+
+### ELE-HORIUCHI-ETAL-2026-REREAD
+- **Title / authors / year:** “Do Ryukyu Scops Owl owlets on Minami-daito Island recognize kin relationships based on male hoots?” / Horiuchi et al. / 2026.
+- **DOI / URL / accessed:** https://doi.org/10.2326/osj.OSJ-2025-033 ; https://www.jstage.jst.go.jp/article/osj/25/2/25_OSJ-2025-033/_article/-char/en / 2026-11-08.
+- **Type / stage:** primary behavioral experiment; owlets.
+- **Evidence:** owlets typically gave begging calls after conspecific hoots; no response difference among the tested kin categories.
+- **Limit / design use:** optional alert/begging posture only; no age, feather, iris, flight or independence claim.
+
+### ELE-ITIS-2026-REREAD
+- **Institution / records:** ITIS TSN 555377 and 686839.
+- **URLs / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555377 ; https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686839 / 2026-11-08.
+- **Evidence / limit:** current valid *Otus elegans* and *O. e. interpositus*; historical *Ephialtes elegans* and *Otus japonicus interpositus*. Taxonomy only.

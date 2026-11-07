@@ -8460,12 +8460,8 @@
           "unique_species_increment": 0,
           "commit_sha": "19ddaf91a4cf11f863bed3deac623a1b1d79bfa3",
           "run_record": "owl
-... 1683786 bytes omitted ...
-_path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
-        "edited_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
-        "generated_master": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
-        "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-        "initial_sha256": "396fe8805955d97992b4fe95e2fcbe79ba266bb0f96a7bdf4b01cc1c961d6320",
+... 1685158 bytes omitted ...
+805955d97992b4fe95e2fcbe79ba266bb0f96a7bdf4b01cc1c961d6320",
         "edited_sha256": "ca2a1d8e1e2819133410dc10095c0ba591368435680d7ab904285eb8eff2260d",
         "master_sha256": "fa73c8dd7b00a483dcc45da69713164b83b77d12a90fa68023433a111ace5b83",
         "geometry": "1536x1024",
@@ -11523,6 +11519,27 @@ _path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
         "lease_expires_at": "2026-11-08T05:58:52.063+08:00",
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261108T045200+0800",
+      "cycle": 2,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-08T05:47:02.379+08:00",
+      "run_id": "20261108T054352+0800-cycle-2",
+      "species_id": 102,
+      "species": "Strix nigrolineata",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/102-strix-nigrolineata-v5.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "new_verified_sources": 3,
+        "reused_or_reread_sources": 3,
+        "corrected_inferences": 1,
+        "design_boundary": "near-equal crown height; female fuller and subtly longer-tailed from one measured pair; supported age-unknown pale barred older mesoptile; no flight claim",
+        "full_prompt_persisted": true,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-08T06:02:02.379+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261108T023550+0800",
@@ -11551,8 +11568,8 @@ _path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
     "next_cycle": 2,
     "active_cycle": 2,
     "started_at": "2026-11-08T04:51:43.588+08:00",
-    "updated_at": "2026-11-08T05:43:52.063+08:00",
-    "current_stage": "STARTED",
+    "updated_at": "2026-11-08T05:47:02.379+08:00",
+    "current_stage": "RESEARCH_READY",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-owl-production",
@@ -11560,15 +11577,15 @@ _path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
       "batch_id": "20261108T045200+0800",
       "cycle": 2,
       "species_id": 102,
-      "heartbeat_at": "2026-11-08T05:43:52.063+08:00",
-      "expires_at": "2026-11-08T05:58:52.063+08:00"
+      "heartbeat_at": "2026-11-08T05:47:02.379+08:00",
+      "expires_at": "2026-11-08T06:02:02.379+08:00"
     },
     "in_progress": {
       "run_id": "20261108T054352+0800-cycle-2",
       "cycle": 2,
       "species_id": 102,
       "species": "Strix nigrolineata",
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
     },
     "active": {
@@ -11576,7 +11593,7 @@ _path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
       "cycle": 2,
       "species_id": 102,
       "species": "Strix nigrolineata",
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
     },
     "stage_events": [
@@ -11763,6 +11780,27 @@ _path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
           "prior_version": "owl-pet/design/concepts/102-strix-nigrolineata-v4.png",
           "lease_expires_at": "2026-11-08T05:58:52.063+08:00",
           "scientifically_verified": false
+        }
+      },
+      {
+        "batch_id": "20261108T045200+0800",
+        "cycle": 2,
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-08T05:47:02.379+08:00",
+        "run_id": "20261108T054352+0800-cycle-2",
+        "species_id": 102,
+        "species": "Strix nigrolineata",
+        "credited": false,
+        "evidence": {
+          "research_record": "owl-pet/research/species/102-strix-nigrolineata-v5.md",
+          "source_index": "owl-pet/research/SOURCE_INDEX.md",
+          "new_verified_sources": 3,
+          "reused_or_reread_sources": 3,
+          "corrected_inferences": 1,
+          "design_boundary": "near-equal crown height; female fuller and subtly longer-tailed from one measured pair; supported age-unknown pale barred older mesoptile; no flight claim",
+          "full_prompt_persisted": true,
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-08T06:02:02.379+08:00"
         }
       }
     ],
@@ -19808,52 +19846,17 @@ _path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
     }
   ],
   "updated": "2026-11-08T05:40:36.411+08:00",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stage_evidence": {
-    "final_original": "owl-pet/production/generated/97-lophostrix-cristata-v5-final-original.png",
-    "final_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
-    "final_bytes": 3118927,
-    "final_sha256": "3bb79aaa261b899e081880d7c331c9d9ea7d279e5791547686ac8b39b2023218",
-    "edit_count": 0,
-    "imagegen_invocations": 1,
-    "reviewed_path": "owl-pet/production/reviewed/97-lophostrix-cristata-v5-reviewed-master.png",
-    "reviewed_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
-    "review_record": "owl-pet/research/reviews/97-lophostrix-cristata-v5-review.md",
-    "review_crops": [
-      "owl-pet/production/review-crops/97-lophostrix-cristata-v5-adult-male.png",
-      "owl-pet/production/review-crops/97-lophostrix-cristata-v5-older-juvenile.png",
-      "owl-pet/production/review-crops/97-lophostrix-cristata-v5-adult-female.png"
-    ],
-    "crop_blobs": [
-      "a7c7ad48c90fd25944d990eff657de9b3823c463",
-      "ab0402043550d382707f280f320af871ee63e4e3",
-      "1e3f6dd67658647ab06122c229f651c4be6ee03a"
-    ],
-    "review_result": "PASS_WITH_LIMITATIONS",
+    "research_record": "owl-pet/research/species/102-strix-nigrolineata-v5.md",
+    "source_index": "owl-pet/research/SOURCE_INDEX.md",
+    "new_verified_sources": 3,
+    "reused_or_reread_sources": 3,
+    "corrected_inferences": 1,
+    "design_boundary": "near-equal crown height; female fuller and subtly longer-tailed from one measured pair; supported age-unknown pale barred older mesoptile; no flight claim",
+    "full_prompt_persisted": true,
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-08T05:54:28.507+08:00",
-    "concept_path": "owl-pet/design/concepts/97-lophostrix-cristata-v5.png",
-    "concept_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
-    "concept_bytes": 3118927,
-    "manifest_counts": {
-      "design": 810,
-      "production": 800,
-      "legacy": 807
-    },
-    "archive_commit": "94db1071e7f69002dff410a8c2ea3f4df9314d96",
-    "archive_tree": "eee7e38625a0899717b9e53c24b490e1ae827fde",
-    "archive_tree_entries": 4182,
-    "archive_tree_truncated": false,
-    "required_paths_verified": 20,
-    "exact_binary_paths_verified": 9,
-    "unique_binary_streams_verified": 4,
-    "verified_at": "2026-11-08T05:39:28.507+08:00",
-    "exact_readback": true,
-    "ledger_credited_at": "2026-11-08T05:40:36.411+08:00",
-    "verification_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
-    "batch_progress": "1/6",
-    "next_cycle": 2,
-    "lease_released": true
+    "lease_expires_at": "2026-11-08T06:02:02.379+08:00"
   },
   "last_verification_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
   "timestamps": {

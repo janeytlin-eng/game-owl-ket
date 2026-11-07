@@ -553,6 +553,41 @@
 - **Limits:** no exact age/sex/flight data; site notes AI-generated illustrations, so text and listed real photo are used cautiously. Moderate confidence.
 - **Design use:** age-unknown older juvenile plumage, not development timing.
 
+## 2026-11-08 — #102 *Strix nigrolineata* v5 — dimorphism, taxonomy and scope correction
+
+### BWO-GERHARDT-GERHARDT-1997-USFS
+- **Title/authors/institution:** “Size, Dimorphism, and Related Characteristics of Ciccaba Owls From Guatemala”; Richard P. Gerhardt & Dawn McAnnis Gerhardt; USDA Forest Service / 2nd Owl Symposium.
+- **Year/URL:** 1997; https://www.nrs.fs.usda.gov/pubs/gtr/gtr_nc190/gtr_nc190_190.pdf ; institutional record https://research.fs.usda.gov/treesearch/15479
+- **Accessed/type:** 2026-11-08; primary field-study conference paper; full PDF read.
+- **Scope/stage/location:** breeding adults and reproductive/ecological data, Tikal National Park, Guatemala; printed pp.190–196, especially pp.191–192.
+- **Useful facts:** one measured Black-and-white Owl pair: female 535 g, wing 29.3 cm, tail 18.7 cm; male 436 g, 28.6 cm, 16.5 cm. Mass/tail differed more than wing; other pairs looked similarly different but were not captured. All pellets had insect remains and 74% also vertebrate remains. Four eggs averaged 33.8 ± 2.3 g; four clutches each contained one egg.
+- **Limits/conflict/confidence:** high confidence for the measured pair and quoted sample; only one measured pair, so no population ratio. Body mass is not a standing-height multiplier. Diet/egg facts do not support adding prey or eggs to the identity plate.
+- **Design decision/links:** fuller-bodied, subtly longer-tailed female at near-equal crown height; no prey/egg. Links: `research/species/102-strix-nigrolineata-v5.md`, planned `design/concepts/102-strix-nigrolineata-v5.png`.
+
+### BWO-GERHARDT-ETAL-1994-FOOD
+- **Title/authors:** “The food habits of sympatric Ciccaba owls in northern Guatemala”; Gerhardt, Gerhardt, Flatten & Bonilla.
+- **Year/URL:** 1994; https://sora.unm.edu/sites/default/files/journals/jfo/v065n02/p0258-p0264.pdf
+- **Accessed/type:** 2026-11-08; primary field paper; original PDF read.
+- **Scope/stage/location:** one nesting Black-and-white Owl pair, northern Guatemala; *Journal of Field Ornithology* 65(2):258–264.
+- **Useful facts:** insects were present in all examined pellets and bat remains were frequent; ecological context only.
+- **Limits/confidence:** one pair; no juvenile morphology, feather sequence or sex-size sample. High for reported diet, not relevant to depicting a prey item.
+- **Design decision/links:** no prey is shown; link `research/species/102-strix-nigrolineata-v5.md`.
+
+### BWO-ITIS-1063255-2026
+- **Title/institution:** ITIS report TSN 1063255, *Strix nigrolineata*; Integrated Taxonomic Information System.
+- **URL/accessed/type:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063255&source=to_print ; accessed 2026-11-08; governmental taxonomic database.
+- **Scope/location:** current scientific name and synonymy; web report, no printed pagination; cites IOC World Bird List 15.1.
+- **Useful facts:** *Strix nigrolineata* is the valid current name; *Ciccaba nigrolineata* is listed as a synonym/historical combination.
+- **Limits/confidence:** authoritative nomenclatural support; no morphology or development evidence.
+- **Design decision/links:** current name appears in title; old combination retained in research crosswalk. Link `research/species/102-strix-nigrolineata-v5.md`.
+
+### BWO-MIKKOLA-2013-P339
+- **Title/author:** *Owls of the World: A Photographic Guide*, 2nd ed.; Heimo Mikkola.
+- **Year/location/type:** 2013; printed p.339 / repository prior extraction; photographic guide.
+- **Access status:** reused on 2026-11-08 from the repository's earlier page-specific transcription. The uploaded guide itself was unavailable in this execution and was not freshly read.
+- **Useful facts/limits:** supports the existing adult and older-juvenile visual boundary already recorded for #102; no new page fact or developmental timing is claimed here.
+- **Design decision/links:** keep the age-unknown pale barred mesoptile and mark science false. Link `research/species/102-strix-nigrolineata-v5.md`.
+
 ## 2026-11-06 — #101 *Otus spilocephalus* v8 — Taiwan adult/immature boundary
 
 ### MOSO-NTM-TMAV3451-2026

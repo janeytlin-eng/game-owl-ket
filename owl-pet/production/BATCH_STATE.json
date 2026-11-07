@@ -28578,14 +28578,35 @@
         }
       ],
       "next_cycle": 2,
-      "active_cycle": null,
+      "active_cycle": 2,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T11:03:00+08:00",
-      "current_stage": "LEDGER_CREDITED",
+      "updated_at": "2026-11-07T11:06:00+08:00",
+      "current_stage": "STARTED",
       "ledger_credit_pending": false,
-      "lease": null,
-      "in_progress": null,
-      "active": null,
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261107T110600+0800-cycle-2",
+        "heartbeat_at": "2026-11-07T11:06:00+08:00",
+        "expires_at": "2026-11-07T11:21:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 2,
+        "species_id": 164,
+        "species": "Strix hadorami",
+        "version": 3,
+        "stage": "STARTED",
+        "run_id": "20261107T110600+0800-cycle-2",
+        "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
+      },
+      "active": {
+        "cycle": 2,
+        "species_id": 164,
+        "species": "Strix hadorami",
+        "version": 3,
+        "stage": "STARTED",
+        "run_id": "20261107T110600+0800-cycle-2",
+        "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
+      },
       "stage_events": [
         {
           "cycle": 1,
@@ -28749,6 +28770,22 @@
             "unique_species_count": 176,
             "total_species": 251,
             "revision_increment": 1,
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "STARTED",
+          "at": "2026-11-07T11:06:00+08:00",
+          "run_id": "20261107T110600+0800-cycle-2",
+          "species_id": 164,
+          "species": "Strix hadorami",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md",
+            "baseline_main": "310400adb60f8c1827c8306c22a636687ec34773",
+            "selection_note": "#164 Strix hadorami has archived v1/v2 and no v3; historical #164 Athene noctua excluded by authoritative duplicate correction",
+            "lease_expires_at": "2026-11-07T11:21:00+08:00",
             "scientifically_verified": false
           }
         }
@@ -47786,18 +47823,13 @@
   "ledger_credit_pending": false,
   "last_verified_commit": "c6a133491f5a11cf99c8220a11d937ecc4afd8da",
   "completed_cycles": 1,
-  "updated": "2026-11-07T11:03:00+08:00",
-  "stage": "LEDGER_CREDITED",
+  "updated": "2026-11-07T11:06:00+08:00",
+  "stage": "STARTED",
   "stage_evidence": {
-    "verification_commit": "c6a133491f5a11cf99c8220a11d937ecc4afd8da",
-    "verification_tree": "0f75265b2588a4f744e04e0ee94520c054c225c6",
-    "archive_commit": "b1c9df704af877366e1443e4f970d9c410a7c58d",
-    "archive_tree": "c96ada938c1a0aa48e2ab47c5118302ccfc07d78",
-    "batch_progress": "1/6",
-    "next_cycle": 2,
-    "unique_species_count": 176,
-    "total_species": 251,
-    "revision_increment": 1,
+    "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md",
+    "baseline_main": "310400adb60f8c1827c8306c22a636687ec34773",
+    "selection_note": "#164 Strix hadorami has archived v1/v2 and no v3; historical #164 Athene noctua excluded by authoritative duplicate correction",
+    "lease_expires_at": "2026-11-07T11:21:00+08:00",
     "scientifically_verified": false
   }
 }

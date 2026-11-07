@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T03:38:42+08:00",
+  "updated": "2026-11-08T03:49:16+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30524,7 +30524,91 @@
       "verified_at": "2026-11-08T03:38:42+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,133 entries). All 21 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Manifests parsed at 806/803/796 with #40 v5 newest and exactly once. Connector full-body blob streaming was not required because immutable tree path/blob/size verification succeeded."
+    },
+    {
+      "id": "86-otus-elegans-v5",
+      "path": "design/concepts/86-otus-elegans-v5.png",
+      "species_id": 86,
+      "scientific_name": "Otus elegans",
+      "subspecies_focus": "Otus elegans interpositus",
+      "historical_names": [
+        "Ephialtes elegans",
+        "Otus japonicus interpositus"
+      ],
+      "common_name": "Ryukyu Scops Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v4 and recalibrates the Minami-daito O. e. interpositus treatment with current institutional, primary sexual-dimorphism and behavior sources. Adults remain near-equal with only subtle female fullness because trait direction varies. One targeted edit replaced the recent fledgling's long orderly wing with a short compact rounded soft developing wing. The final dependent young is low and fully supported; exact age, iris chronology, feather sequence, first-flight threshold and independence remain unknown.",
+      "source_ids": [
+        "ELE-SAWADA-IWASAKI-ETAL-2021-RSD",
+        "ELE-MOE-JAPAN-2026-REREAD",
+        "ELE-HORIUCHI-ETAL-2026-REREAD",
+        "ELE-ITIS-2026-REREAD",
+        "ELE-MIK2013-160"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/86-otus-elegans-v5.md",
+      "review_record": "research/reviews/86-otus-elegans-v5-review.md",
+      "run_record": "production/runs/20261108T034111+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3179178,
+      "sha256": "9820d534e22c5a5f30f731402021697a9c4e010ef197c3f43f8fdae0b6bd4d5e",
+      "git_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
+      "initial_original_path": "production/generated/86-otus-elegans-v5-initial-original.png",
+      "initial_original_blob": "d5d0c1a6afc6a40f63145d1106436579d994a734",
+      "initial_original_size_bytes": 3525724,
+      "initial_original_sha256": "e796cd856723acb3100cd6d6478e4a30ac881e5491ffb029a5d4f979e3232bbf",
+      "final_original_path": "production/generated/86-otus-elegans-v5-final-original.png",
+      "final_original_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
+      "final_original_size_bytes": 3179178,
+      "final_original_sha256": "9820d534e22c5a5f30f731402021697a9c4e010ef197c3f43f8fdae0b6bd4d5e",
+      "full_color_source_path": "production/generated/86-otus-elegans-v5-full-color.png",
+      "full_color_source_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
+      "full_color_source_size_bytes": 3179178,
+      "full_color_source_sha256": "9820d534e22c5a5f30f731402021697a9c4e010ef197c3f43f8fdae0b6bd4d5e",
+      "generated_path": "production/generated/86-otus-elegans-v5-generated-master.png",
+      "generated_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
+      "generated_size_bytes": 3179178,
+      "reviewed_path": "production/reviewed/86-otus-elegans-v5-reviewed-master.png",
+      "reviewed_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
+      "reviewed_size_bytes": 3179178,
+      "review_crops": [
+        {
+          "path": "production/review-crops/86-otus-elegans-v5-adult-male.png",
+          "blob": "22420d89f595344cfaae3c777640935e36f977e0",
+          "size_bytes": 957275,
+          "sha256": "02e96c83e6946740727ad098202fe791cb4213bcb5f6bf99cad145bbac9c7908"
+        },
+        {
+          "path": "production/review-crops/86-otus-elegans-v5-adult-female.png",
+          "blob": "064860c688c5f587d3c1c3ce2ff30d087d98045e",
+          "size_bytes": 971501,
+          "sha256": "db746d75c57bf65c5b69d2b2e68c0b48f599b25fbab7f4a0158dadeb9b43e505"
+        },
+        {
+          "path": "production/review-crops/86-otus-elegans-v5-recent-fledgling.png",
+          "blob": "dfc3338529df1b998e06249ff37b54b275433b34",
+          "size_bytes": 982688,
+          "sha256": "861ba32aa37d037bcf4707164cb3b207a9c1205c8b1f01b62cca5d15ec33ad8d"
+        }
+      ],
+      "archive_note": "Initial full plate, edited full plate and three final crops opened. One targeted fledgling-wing edit. Full-size originals retained; immutable readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T03:38:42+08:00"
+  "updated_at": "2026-11-08T03:49:16+08:00"
 }

@@ -32372,14 +32372,14 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T20:40:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T20:44:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T203821+0800-cycle-4",
-        "heartbeat_at": "2026-11-07T20:40:00+08:00",
-        "expires_at": "2026-11-07T20:55:00+08:00"
+        "heartbeat_at": "2026-11-07T20:44:00+08:00",
+        "expires_at": "2026-11-07T20:59:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -32389,7 +32389,7 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261107T203821+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-        "stage": "RESEARCH_READY"
+        "stage": "IMAGE_GENERATED"
       },
       "active": null,
       "stage_events": [
@@ -32920,31 +32920,26 @@
         },
         {
           "cycle": 4,
-          "stage": "RESEARCH_READY",
-          "at": "2026-11-07T20:40:00+08:00",
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T20:44:00+08:00",
           "run_id": "20261107T203821+0800-cycle-4",
           "species_id": 201,
           "species": "Otus mantananensis",
           "credited": false,
           "evidence": {
-            "research_record": "owl-pet/research/species/201-otus-mantananensis-v3.md",
-            "source_index": "owl-pet/research/SOURCE_INDEX.md",
-            "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-            "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-            "new_sources": 2,
-            "reused_sources": 4,
-            "corrected_sources": 1,
-            "design_boundary": "near-equal adults; older supported juvenile with compact soft wing/tail; romblonis only cross-population appearance boundary",
-            "unknowns": [
-              "exact nominate juvenile plumage/age/sex",
-              "iris chronology",
-              "first-flight threshold",
-              "hatchling appearance",
-              "quantitative sexual dimorphism",
-              "nest structure"
-            ],
-            "mikkola_access": "printed pp.199–200 read through a third-party text mirror; user-uploaded volume unavailable",
-            "lease_expires_at": "2026-11-07T20:55:00+08:00",
+            "initial_path": "owl-pet/production/generated/201-otus-mantananensis-v3-initial-full-color.jpg",
+            "initial_blob": "b5f8b48de7eb0417675eafcc3128a1cdd216fbc9",
+            "edited_path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
+            "edited_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
+            "generated_master": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
+            "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+            "initial_sha256": "396fe8805955d97992b4fe95e2fcbe79ba266bb0f96a7bdf4b01cc1c961d6320",
+            "edited_sha256": "ca2a1d8e1e2819133410dc10095c0ba591368435680d7ab904285eb8eff2260d",
+            "master_sha256": "fa73c8dd7b00a483dcc45da69713164b83b77d12a90fa68023433a111ace5b83",
+            "geometry": "1536x1024",
+            "edit_count": 1,
+            "preliminary_inspection": "initial plate opened: title/name/count/order/labels, near-equal adults and six-foot support passed; juvenile wing/tail remained too long and hard. One targeted imagegen edit shortened/softened only juvenile wing/tail and lowered/rounded its posture; edited plate reopened and passed preliminary inspection.",
+            "lease_expires_at": "2026-11-07T20:59:00+08:00",
             "scientifically_verified": false
           }
         }
@@ -56769,27 +56764,22 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-07T20:40:00+08:00",
-  "stage": "RESEARCH_READY",
+  "updated": "2026-11-07T20:44:00+08:00",
+  "stage": "IMAGE_GENERATED",
   "stage_evidence": {
-    "research_record": "owl-pet/research/species/201-otus-mantananensis-v3.md",
-    "source_index": "owl-pet/research/SOURCE_INDEX.md",
-    "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-    "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-    "new_sources": 2,
-    "reused_sources": 4,
-    "corrected_sources": 1,
-    "design_boundary": "near-equal adults; older supported juvenile with compact soft wing/tail; romblonis only cross-population appearance boundary",
-    "unknowns": [
-      "exact nominate juvenile plumage/age/sex",
-      "iris chronology",
-      "first-flight threshold",
-      "hatchling appearance",
-      "quantitative sexual dimorphism",
-      "nest structure"
-    ],
-    "mikkola_access": "printed pp.199–200 read through a third-party text mirror; user-uploaded volume unavailable",
-    "lease_expires_at": "2026-11-07T20:55:00+08:00",
+    "initial_path": "owl-pet/production/generated/201-otus-mantananensis-v3-initial-full-color.jpg",
+    "initial_blob": "b5f8b48de7eb0417675eafcc3128a1cdd216fbc9",
+    "edited_path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
+    "edited_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
+    "generated_master": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
+    "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+    "initial_sha256": "396fe8805955d97992b4fe95e2fcbe79ba266bb0f96a7bdf4b01cc1c961d6320",
+    "edited_sha256": "ca2a1d8e1e2819133410dc10095c0ba591368435680d7ab904285eb8eff2260d",
+    "master_sha256": "fa73c8dd7b00a483dcc45da69713164b83b77d12a90fa68023433a111ace5b83",
+    "geometry": "1536x1024",
+    "edit_count": 1,
+    "preliminary_inspection": "initial plate opened: title/name/count/order/labels, near-equal adults and six-foot support passed; juvenile wing/tail remained too long and hard. One targeted imagegen edit shortened/softened only juvenile wing/tail and lowered/rounded its posture; edited plate reopened and passed preliminary inspection.",
+    "lease_expires_at": "2026-11-07T20:59:00+08:00",
     "scientifically_verified": false
   },
   "last_verification_commit": "2e10f20b7a524a9c18c35765e6523d7e1c571391",

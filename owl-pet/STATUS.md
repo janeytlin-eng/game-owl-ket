@@ -4056,3 +4056,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Official 2008 species record and Wetmore 1968 pp.167–168 re-read; ITIS nomenclature refreshed. New source records 0, re-read/reused 3.
 - Full plate and all three role crops opened. Wet age-unknown juvenile on leaf litter/root passed; male false-eye is only partial; no edit.
 - PASS_WITH_LIMITATIONS, science=false. Manifests staged at 805 / 802 / 795; coverage remains 176/251; revision +1; immutable readback pending.
+
+
+## 2026-11-08 — #39 v5 VERIFIED
+
+- Archive `2a76e7280c3a4b04415460f0c5323fa627279b2c`; tree `ff1dec85d88104c166024aef657188cf714e49ef` non-truncated with 4,121 entries.
+- Required paths 21/21; binary exact SHA/size 9/9. Original 3,302,821 bytes; three crop objects 822,368 / 814,922 / 889,657 bytes.
+- Manifests 805 / 802 / 795 with #39 v5 newest. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+- Connector full-body binary streaming returned UNKNOWN; verification is exact Git path/object/size evidence.

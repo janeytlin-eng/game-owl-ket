@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T02:59:04+08:00",
+  "updated": "2026-11-08T03:01:05+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30507,9 +30507,14 @@
         }
       ],
       "archive_note": "Full plate and all three role crops opened. First render passed without edit. Partial male false-eye and evidence-limited juvenile details are explicitly retained as limitations. Immutable readback pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "2a76e7280c3a4b04415460f0c5323fa627279b2c",
+      "fixed_commit": "2a76e7280c3a4b04415460f0c5323fa627279b2c",
+      "verified_at": "2026-11-08T03:01:05+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable archive tree was non-truncated (4,121 entries). All 21 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Manifests parsed at 805/802/795 with #39 v5 newest. Connector full-body blob streaming returned UNKNOWN for large binaries, but path/tree SHA and byte verification succeeded."
     }
   ],
-  "updated_at": "2026-11-08T02:59:04+08:00"
+  "updated_at": "2026-11-08T03:01:05+08:00"
 }

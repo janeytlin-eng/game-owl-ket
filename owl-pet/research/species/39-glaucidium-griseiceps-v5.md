@@ -43,3 +43,11 @@ PASS_WITH_LIMITATIONS after actual full-plate and role-crop review. Evidence rem
 - Image: `owl-pet/design/concepts/39-glaucidium-griseiceps-v5.png`
 - Review: `owl-pet/research/reviews/39-glaucidium-griseiceps-v5-review.md`
 - Result: PASS_WITH_LIMITATIONS; scientifically_verified=false; readback pending.
+
+
+## Verification
+
+- Verified: 2026-11-08T03:01:05+08:00
+- Archive commit: `2a76e7280c3a4b04415460f0c5323fa627279b2c`; tree `ff1dec85d88104c166024aef657188cf714e49ef` (4,121 entries, non-truncated).
+- Required paths 21/21; binary SHA/byte checks 9/9; manifests 805 / 802 / 795.
+- Result: PASS_WITH_LIMITATIONS; scientifically_verified=false.

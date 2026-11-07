@@ -1,3 +1,11 @@
+### Batch 20261107T140000+0800 COMPLETE 6/6
+
+Cycles 1–6 (#170–#175 v3) are independently archived, read back and ledger-credited. Final cycle #175 verification `3d33f9d3e3ec2d24dcedd5023ae4fa05ee02f03c` followed immutable archive `dce3dcf1001213342062d337fff7b89de178df99`. Unique species remains 176/251 because all six cycles were scientific revisions; leases released.
+
+### #175 v3 LEDGER_CREDITED — batch 6/6
+
+Verification `3d33f9d3e3ec2d24dcedd5023ae4fa05ee02f03c` / tree `f97832cfa04e8bfdb3b31f5baa4a2a69ec7e89a5` credited once after archive `dce3dcf1001213342062d337fff7b89de178df99`. Batch complete; no active lease; unique 176/251; revision +1; science=false.
+
 ### #175 v3 immutable archive VERIFIED — ledger credit pending
 
 Archive `dce3dcf1001213342062d337fff7b89de178df99` / tree `ca2d590acb8c9338bcf8c1057bb856ea65076baf` returned 3,827 non-truncated entries. All 18 required paths, five exact binary tuples, complete connector concept stream and manifest counts 776/777/767 passed. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

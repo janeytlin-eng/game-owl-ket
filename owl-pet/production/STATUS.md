@@ -1,3 +1,7 @@
+### #174 v3 LEDGER_CREDITED — active batch 5/6
+
+Verification `e8231826f302fb4099dd3d370f6de8dcf4cc0eec` / tree `e594ccd4f8ca26d8809276e52dbde61afcfde8f7` credited once after archive `84cfcc33eb91b0c016e914a1299217ea67736519`. Next cycle 6; lease released; unique 176/251; science=false.
+
 ### #174 v3 immutable archive VERIFIED — ledger credit pending
 
 Archive `84cfcc33eb91b0c016e914a1299217ea67736519` / tree `f3e2530f587490277d01840764f665acf1f84447` returned 3,819 non-truncated entries. All 17 required paths, five exact binary tuples, complete connector concept stream and manifest counts 775/776/766 passed. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

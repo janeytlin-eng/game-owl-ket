@@ -4003,3 +4003,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Required paths 21/21; binary exact SHA/size 9/9. Original 3,302,821 bytes; three crop objects 822,368 / 814,922 / 889,657 bytes.
 - Manifests 805 / 802 / 795 with #39 v5 newest. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
 - Connector full-body binary streaming returned UNKNOWN; verification is exact Git path/object/size evidence.
+
+
+## 2026-11-08 — #39 v5 batch ledger credit
+
+- Verification `68cd3c050eb407bfb2701b635ad2627b1528e45c` and archive `2a76e7280c3a4b04415460f0c5323fa627279b2c` read back.
+- Credited cycle 2/6 exactly once; next cycle 3. Coverage 176/251; revision +1; science=false; lease released.

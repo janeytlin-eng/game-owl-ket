@@ -1,3 +1,9 @@
+## 2026-11-07 — #28 *Glaucidium perlatum* v5 archived
+
+- Preserved v1–v4; replaced exact ~31-day juvenile visual claim with age-unknown recent-fledgling boundary supported by two secondary life-history syntheses.
+- Added central source records, complete prompt, full-colour source, concept/review master, three reviewed crops and run evidence.
+- One imagegen invocation; no edit required; PASS_WITH_LIMITATIONS; science=false; unique 176/251; archive readback pending.
+
 ## 2026-11-07 — #197 *Otus megalotis* v3
 
 Archived a non-destructive science revision with current-name/alias mapping, sex-scale restraint from overlapping specimen measurements, complete prompts, initial and edited full-colour originals, transport/review masters and three crops. One targeted juvenile wing/tail edit passed reinspection. Unique coverage remains 176/251; revision +1; immutable readback passed against the archive commit.

@@ -55,3 +55,11 @@ For taxa diagnosed by absence of white, write the negative as a whole-body ident
 ## 2026-11-07T22:59:17.142+08:00 — Flight evidence does not require a flight pose
 
 When primary sources say a recent fledgling can fly but lands poorly, that evidence does not justify depicting flight. If feather sequence and landing ability are not individually documented, use a fully supported low perch and keep wings compact. For adult sexual dimorphism reported as overlapping linear measurements, show only a modest directional difference rather than categorical female gigantism. Applied and visually rechecked on #27 *Glaucidium passerinum* v5; effectiveness is limited to this plate until later cross-species review.
+
+
+## 2026-11-07 — Behavioural-age intervals are not visual day-age calibrations
+
+- **Finding:** independent secondary sources may agree on a 27–32-day cavity-departure interval without providing a primary daily feather or iris sequence.
+- **Applied:** #28 v5 replaced “approximately 31-day appearance” with an age-unknown recent fledgling; kept only supported behaviour (near nest, parent-dependent, low support) and conservative juvenile directions already indexed.
+- **Verified:** the generated plate passed whole-image and crop review without an edit: short/soft wing, short/mostly hidden tail, dim indeterminate iris, six-foot support, no flight claim.
+- **Rule:** never translate a behavioural fledging interval into exact visual age unless a readable age-linked growth/photographic series supports it. Record the applied life stage and unresolved chronology separately.

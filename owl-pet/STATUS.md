@@ -1,3 +1,13 @@
+## 2026-11-07 23:37 +08 — #28 Pearl-spotted Owlet — *Glaucidium perlatum* v5 ARCHIVED, readback pending
+
+V5科学修订，保留v1–v4且不增加唯一物种。撤销v4把幼鸟外观精确指定为“约31日龄”的过度推断：现有可读资料只支持离巢期区间、近巢密灌丛活动与持续亲鸟喂养，不能把某一羽衣状态锁定到单日。新图采用年龄/性别未知的刚离巢幼鸟，低位、双足与腹部自然支撑，翼短而柔软、尾短且大部遮蔽、虹膜不作时序断言；成年雌雄同羽色且近等站立高度。整图、112色审查版和三张裁切均实际打开，无需编辑。结果 `PASS_WITH_LIMITATIONS`，science=false。
+
+- Concept: `design/concepts/28-glaucidium-perlatum-v5.png`
+- Full-colour source / review master: `production/generated/28-glaucidium-perlatum-v5-full-color.jpg`, `production/reviewed/28-glaucidium-perlatum-v5-reviewed-master.png`
+- Research / review: `research/species/28-glaucidium-perlatum-v5.md`, `research/reviews/28-glaucidium-perlatum-v5-review.md`
+- Run: `production/runs/20261107T230149+0800-cycle-3.md`
+- Unique coverage remains 176/251; revision +1; immutable readback pending.
+
 ## 2026-11-07 19:57 +08 — #197 Philippine Scops Owl — *Otus megalotis* v3 VERIFIED
 
 V3科学修订，保留v1/v2且不增加唯一物种。可见标题改用当前主名 Philippine Scops Owl，Luzon Lowland Scops Owl 作为历史/项目别名保留。Miranda 2011 的雌雄翼、尾均值有方向但范围重叠，因此成年雌雄保持近等站立高度，只以轻微折翼/尾轮廓提示，不使用固定雌大雄小倍率。首版幼鸟翼尾偏长偏硬，经一次定向编辑缩短并软化；修订原图、104色审查版和三张裁切均实际打开。结果 PASS_WITH_LIMITATIONS，science=false。

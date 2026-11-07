@@ -28570,21 +28570,21 @@
       "next_cycle": 1,
       "active_cycle": 1,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T10:42:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T10:47:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T103800+0800-cycle-1",
-        "heartbeat_at": "2026-11-07T10:42:00+08:00",
-        "expires_at": "2026-11-07T10:57:00+08:00"
+        "heartbeat_at": "2026-11-07T10:47:00+08:00",
+        "expires_at": "2026-11-07T11:02:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
         "species_id": 163,
         "species": "Glaucidium gnoma",
         "version": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T103800+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
       },
@@ -28593,7 +28593,7 @@
         "species_id": 163,
         "species": "Glaucidium gnoma",
         "version": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T103800+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
       },
@@ -28633,6 +28633,29 @@
             "mikkola_access": "repository page-verified transcription reused; upload unavailable this execution",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T10:57:00+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T10:47:00+08:00",
+          "run_id": "20261107T103800+0800-cycle-1",
+          "species_id": 163,
+          "species": "Glaucidium gnoma",
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/163-glaucidium-gnoma-v3-generated-master.png",
+            "generated_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
+            "full_color_sha256": "4251fdbe39f2e19beec125f23bd743425db4d46460365f3e4346b4843e55b5e4",
+            "full_color_bytes": 3282330,
+            "transport_sha256": "e4fb4c896a955df99e36c80911ce077ce1a3ca24c2e3d31d150c21abfa90b77e",
+            "transport_bytes": 659656,
+            "width": 1536,
+            "height": 1024,
+            "preliminary_inspection": "exact title/name/count/order/labels; near-equal adults; nape false-eye patch visible; dark-eyed supported mesoptile",
+            "edit_required": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T11:02:00+08:00"
           }
         }
       ]
@@ -47669,18 +47692,20 @@
   "ledger_credit_pending": false,
   "last_verified_commit": "04a29769901001886ef01710ee622a98b57731d6",
   "completed_cycles": 5,
-  "updated": "2026-11-07T10:42:00+08:00",
-  "stage": "RESEARCH_READY",
+  "updated": "2026-11-07T10:47:00+08:00",
+  "stage": "IMAGE_GENERATED",
   "stage_evidence": {
-    "research_record": "owl-pet/research/species/163-glaucidium-gnoma-v3.md",
-    "source_index": "owl-pet/research/SOURCE_INDEX.md",
-    "new_sources": 2,
-    "reused_sources": 4,
-    "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-    "direct_v2_review": true,
-    "design_boundary": "same-height adult pair; female subtly fuller; age-unknown supported gray mesoptile; modest illustrative cavity lip",
-    "mikkola_access": "repository page-verified transcription reused; upload unavailable this execution",
+    "generated_path": "owl-pet/production/generated/163-glaucidium-gnoma-v3-generated-master.png",
+    "generated_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
+    "full_color_sha256": "4251fdbe39f2e19beec125f23bd743425db4d46460365f3e4346b4843e55b5e4",
+    "full_color_bytes": 3282330,
+    "transport_sha256": "e4fb4c896a955df99e36c80911ce077ce1a3ca24c2e3d31d150c21abfa90b77e",
+    "transport_bytes": 659656,
+    "width": 1536,
+    "height": 1024,
+    "preliminary_inspection": "exact title/name/count/order/labels; near-equal adults; nape false-eye patch visible; dark-eyed supported mesoptile",
+    "edit_required": false,
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-07T10:57:00+08:00"
+    "lease_expires_at": "2026-11-07T11:02:00+08:00"
   }
 }

@@ -3375,3 +3375,9 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **TMO-ITIS-686716-2026** — ITIS TSN 686716, accessed 2026-11-07; current subspecies *T. n. castanops* and synonym mapping to *T. castanops*/*Strix castanops*. Taxonomy only.
 - **TMO-GOULD-1838-BHL-LEAD** — BHL metadata/DOI 10.5962/p.363668 read; article open returned 403. Unverified descriptive-text lead, not morphology evidence.
 - Reused TMO-ABSA-2019-P2 and TMO-DEBUS-WOOD-2007-P49-52. V3 withdraws exact “~5-week” castanops label; age-unknown cream mesoptile only. Exact chronology/flight/nest interior unknown; science=false. [Research](species/172-tyto-castanops-v3.md).
+
+
+## 2026-11-07 — #173 *Otus madagascariensis* v3 — full nest paper and bounded older immature
+- **TSO-RENE-THORSTROM-2009-P87-88** — corrected from abstract-only to full-paper read. René de Roland & Thorstrom 2009, pp.87–88; https://www.biodiversitylibrary.org/page/56261159 . Exceptional Berenty ground nest: ~20 mm depression, four white eggs, no material, abandoned before any observed hatching. Ordinary Tsimembo tree holes averaged 5.8 ± 2.2 m (n=7), clutch 2.4 ± 0.9 (n=5); mean mass 108 g (n=8). Supports dry western habitat and a strict “do not generalize ground nest / no chick inference” rule.
+- **TSO-GRANDIDIER-1867-P85-86-LEAD** — new unverified original-description lead. Grandidier 1867 pp.85–86, protonym *Otus Madagascariensis*; metadata read via Avibase/BHL. Original text not read because BHL returned 403 and alternate scan was too large for retrieval. Naming/type-locality lead only.
+- Reused **TSO-FUCHS-ETAL-2007-P408-418**, **TSO-ITIS-686657-2025** and repository transcription **TSO-MIKKOLA-2013-P145**. The Mikkola upload was unavailable this run. Exact immature age/sex, soft-part ontogeny, flight threshold, down sequence and species-specific sex-size ratio remain unknown. [Research](species/173-otus-madagascariensis-v3.md). Science=false.

@@ -51,3 +51,13 @@ Open the full image, an adult-pattern/feet crop, a juvenile wing/support crop, a
 ## Unknowns retained
 
 Exact juvenile age/sex, first-flight threshold, iris chronology, hatchling appearance, and quantitative sex dimorphism.
+
+## Production / review result
+
+- Initial plate generated 1536×1024 and opened.
+- One targeted edit shortened/softened the older juvenile wing and tail; edited full plate, transport master and three crops reopened.
+- Result: PASS_WITH_LIMITATIONS; science=false.
+- Durable initial full-colour JPEG: `production/generated/195-otus-brookii-v3-initial-full-color.jpg`, SHA-256 `81325eb3ece5ba2776f25b3b553bc6db09d8246028072c930d7cc484fa63431b`.
+- Durable edited full-colour JPEG: `production/generated/195-otus-brookii-v3-full-color.jpg`, SHA-256 `9c287d871887ecd487cf6638d66c87b989a6df0844b0d5122dd13fc1925074a1`.
+- Reviewed master: `production/reviewed/195-otus-brookii-v3-reviewed-master.png`, SHA-256 `9a627ef77d81bfe9593cafea26cd9be0b577938dea9b448a31ca03e8f89a863d`.
+- Review: `research/reviews/195-otus-brookii-v3-review.md`.

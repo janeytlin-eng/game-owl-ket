@@ -32342,14 +32342,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:37:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T19:39:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T193000+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T19:37:00+08:00",
-        "expires_at": "2026-11-07T19:52:00+08:00"
+        "heartbeat_at": "2026-11-07T19:39:00+08:00",
+        "expires_at": "2026-11-07T19:54:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -32358,7 +32358,7 @@
         "species": "Otus brookii",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md"
       },
       "active": {
@@ -32584,6 +32584,35 @@
             "preliminary_inspection": "initial full plate opened; adults/labels/support passed but older juvenile wing and tail were too long/rigid. Targeted edit shortened and softened only the juvenile wing/tail; edited plate reopened and passed preliminary review.",
             "lease_expires_at": "2026-11-07T19:52:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T19:39:00+08:00",
+          "run_id": "20261107T193000+0800-cycle-2",
+          "species_id": 195,
+          "species": "Otus brookii",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/195-otus-brookii-v3-reviewed-master.png",
+            "reviewed_blob": "1d9c162a61076c9751ecf0527d3fcea9d3469baf",
+            "review_record": "owl-pet/research/reviews/195-otus-brookii-v3-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/195-otus-brookii-v3-adult-male-pattern-feet.png",
+              "owl-pet/production/review-crops/195-otus-brookii-v3-older-mesoptile.png",
+              "owl-pet/production/review-crops/195-otus-brookii-v3-adult-female-pattern-feet.png"
+            ],
+            "crop_blobs": [
+              "8e87241834cd167ba77177b68ea1a63f85011569",
+              "e567e194752b07a44ff478a5a6f85775f2e0fd8a",
+              "23528bef45b48742bc25c15f9196b77fe6419dcd"
+            ],
+            "edit_count": 1,
+            "reinspection": "edited full-colour plate, 96-colour transport master, adult male/female crops and older-mesoptile crop opened; near-equal adult scale, six-foot support, exact text, broken collar pattern and compact juvenile wing/tail passed",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T19:54:00+08:00"
           }
         }
       ]

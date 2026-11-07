@@ -32387,14 +32387,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T21:15:00+08:00",
+      "updated_at": "2026-11-07T21:18:00+08:00",
       "current_stage": "ARCHIVED",
       "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T205300+0800-cycle-5",
-        "heartbeat_at": "2026-11-07T21:15:00+08:00",
-        "expires_at": "2026-11-07T21:30:00+08:00"
+        "heartbeat_at": "2026-11-07T21:18:00+08:00",
+        "expires_at": "2026-11-07T21:33:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -33203,7 +33203,15 @@
             "revision_increment": 1,
             "scientifically_verified": false,
             "ledger_credit_pending": true,
-            "lease_expires_at": "2026-11-07T21:30:00+08:00"
+            "lease_expires_at": "2026-11-07T21:33:00+08:00",
+            "source_transport_correction": {
+              "reason": "connector full-readback truncation for base64 over 1048592 chars",
+              "initial_blob": "b57727f384c1fdeacda70aae2b760d2c143bc471",
+              "initial_bytes": 471886,
+              "edited_blob": "61d00de6098d374325f8e75033e657534ea66b41",
+              "edited_bytes": 449610,
+              "lossless_master_unchanged": true
+            }
           }
         }
       ]

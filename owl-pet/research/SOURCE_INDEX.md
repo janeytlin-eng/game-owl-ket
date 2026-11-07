@@ -4151,6 +4151,7 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Type / species / stages:** current government assessment; *Otus elegans interpositus*; adults, fledglings and post-fledging dependence.
 - **Sections / evidence:** morphology and life history; about 86 g male / 96 g female with large individual variation; June–July fledging followed by continued parental feeding; narrow shelterbelt/cane-field habitat and mainly Casuarina cavities.
 - **Limit / design use:** supports subtle female fullness and an age-unknown supported recent fledgling; not exact feather day, iris chronology, sustained flight or independence.
+- **Links:** [v5 research](species/86-otus-elegans-v5.md); [v5 concept](../design/concepts/86-otus-elegans-v5.png); [v5 review](reviews/86-otus-elegans-v5-review.md).
 
 ### ELE-HORIUCHI-ETAL-2026-REREAD
 - **Title / authors / year:** “Do Ryukyu Scops Owl owlets on Minami-daito Island recognize kin relationships based on male hoots?” / Horiuchi et al. / 2026.
@@ -4158,8 +4159,10 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Type / stage:** primary behavioral experiment; owlets.
 - **Evidence:** owlets typically gave begging calls after conspecific hoots; no response difference among the tested kin categories.
 - **Limit / design use:** optional alert/begging posture only; no age, feather, iris, flight or independence claim.
+- **Links:** [v5 research](species/86-otus-elegans-v5.md); [v5 concept](../design/concepts/86-otus-elegans-v5.png); [v5 review](reviews/86-otus-elegans-v5-review.md).
 
 ### ELE-ITIS-2026-REREAD
 - **Institution / records:** ITIS TSN 555377 and 686839.
 - **URLs / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555377 ; https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686839 / 2026-11-08.
 - **Evidence / limit:** current valid *Otus elegans* and *O. e. interpositus*; historical *Ephialtes elegans* and *Otus japonicus interpositus*. Taxonomy only.
+- **Links:** [v5 research](species/86-otus-elegans-v5.md); [v5 concept](../design/concepts/86-otus-elegans-v5.png); [v5 review](reviews/86-otus-elegans-v5-review.md).

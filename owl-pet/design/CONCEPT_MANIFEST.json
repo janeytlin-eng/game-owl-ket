@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T02:14:19+08:00",
+  "updated": "2026-11-08T02:24:24+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30175,7 +30175,97 @@
       "verified_at": "2026-11-08T02:14:19+08:00",
       "exact_readback": true,
       "verification_result": "Immutable fixed archive tree was non-truncated (4,084 entries). All 23 required paths were present after adding the canonical older-juvenile crop path; nine binary paths matched exact Git blob SHA and byte size. Manifests parsed at 802/799/792 with #36 v5 newest."
+    },
+    {
+      "id": "37-glaucidium-peruanum-v5",
+      "path": "design/concepts/37-glaucidium-peruanum-v5.png",
+      "species_id": 37,
+      "scientific_name": "Glaucidium peruanum",
+      "historical_names": [
+        "formerly treated in the Glaucidium brasilianum complex",
+        "Pacific Pygmy Owl (current alternative English name)"
+      ],
+      "common_name": "Peruvian Pygmy Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1–v4 and corrects the v4 source-boundary note. Lüthi 2011 printed p.49 contains two G. peruanum young/juvenile observations before the Athene cunicularia heading; v5 uses only an age-unknown fully feathered juvenile calmly supported on an adobe ledge, not a nest/burrow, exact age or flight claim. Adults remain near equal, with paired male nape false eyes and adult long broken-barred tails. Exact juvenile age, feather sequence, iris chronology, flight threshold, independence and population sex-size direction remain unknown.",
+      "source_ids": [
+        "PEPO-LUTHI-2011",
+        "PEPO-GREENEY-2020",
+        "PEPO-ITIS-2025",
+        "PEPO-AVIBASE-2026",
+        "PEPO-KONIG-1991",
+        "SRC-BOOK-037-01",
+        "PEPO-PF-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/37-glaucidium-peruanum-v5.md",
+      "review_record": "research/reviews/37-glaucidium-peruanum-v5-review.md",
+      "run_record": "production/runs/20261108T021604+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3474471,
+      "sha256": "619bc185d4c1a0fc51daf778220dbca5ffddc057b256b4f485aabd97d6bd62b5",
+      "git_blob": "253225342d928489e65e66d0abef3a1e4dc775d5",
+      "initial_original_path": "production/generated/37-glaucidium-peruanum-v5-initial-original.png",
+      "initial_original_blob": "253225342d928489e65e66d0abef3a1e4dc775d5",
+      "initial_original_size_bytes": 3474471,
+      "initial_original_sha256": "619bc185d4c1a0fc51daf778220dbca5ffddc057b256b4f485aabd97d6bd62b5",
+      "final_original_path": "production/generated/37-glaucidium-peruanum-v5-final-original.png",
+      "final_original_blob": "253225342d928489e65e66d0abef3a1e4dc775d5",
+      "final_original_size_bytes": 3474471,
+      "final_original_sha256": "619bc185d4c1a0fc51daf778220dbca5ffddc057b256b4f485aabd97d6bd62b5",
+      "full_color_source_path": "production/generated/37-glaucidium-peruanum-v5-full-color.png",
+      "full_color_source_blob": "253225342d928489e65e66d0abef3a1e4dc775d5",
+      "full_color_source_size_bytes": 3474471,
+      "full_color_source_sha256": "619bc185d4c1a0fc51daf778220dbca5ffddc057b256b4f485aabd97d6bd62b5",
+      "generated_path": "production/generated/37-glaucidium-peruanum-v5-generated-master.png",
+      "generated_blob": "253225342d928489e65e66d0abef3a1e4dc775d5",
+      "generated_size_bytes": 3474471,
+      "reviewed_path": "production/reviewed/37-glaucidium-peruanum-v5-reviewed-master.png",
+      "reviewed_blob": "253225342d928489e65e66d0abef3a1e4dc775d5",
+      "reviewed_size_bytes": 3474471,
+      "review_crops": [
+        {
+          "path": "production/review-crops/37-glaucidium-peruanum-v5-adult-male.png",
+          "blob": "9e742f2b7ae6537b4608dc13a755d25ab4e8c005",
+          "size_bytes": 910297,
+          "sha256": "d2ca59332fc8c5d4d200f9a4fe5ff43d23f58745781927e17a5b14b6895ab892"
+        },
+        {
+          "path": "production/review-crops/37-glaucidium-peruanum-v5-older-juvenile.png",
+          "blob": "cac2f4f852fe9c025a37b70ab78f7698ad27a79f",
+          "size_bytes": 888340,
+          "sha256": "586a0afdab5e94818d83165620ed89167e58d618fbd81a0ce58c591f43d271b6"
+        },
+        {
+          "path": "production/review-crops/37-glaucidium-peruanum-v5-adult-female.png",
+          "blob": "b08e15f9a3897fe60af28e6384e3adfe4f6cdb46",
+          "size_bytes": 887691,
+          "sha256": "019563b8dba466633aeaf837107442aab97e0a13b1eab01e1dd2003b704b7437"
+        }
+      ],
+      "archive_note": "Full original and three role crops opened. First render passed without edit. Juvenile adobe ledge is documented perch context, not a nest claim. Archive readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archive_commit": null,
+      "fixed_commit": null,
+      "verified_at": null,
+      "exact_readback": false,
+      "verification_result": null
     }
   ],
-  "updated_at": "2026-11-08T02:14:19+08:00"
+  "updated_at": "2026-11-08T02:24:24+08:00"
 }

@@ -1042,3 +1042,11 @@ When a species guide says “juvenile not known” but a regional field photogra
 - **Evidence:** König 1991 primary diagnosis, printed pp.36–42, states the tail is relatively longer than in *G. jardinii* and records morphs plus 5–6 pale tail spots for brown/gray forms.
 - **Rule applied:** when a diagnostic nape patch is part of the evidence boundary, require a rear three-quarter adult role; distinguish “compact absolute silhouette” from a relative interspecific tail comparison; never map documented morphs onto sex.
 - **Validation:** one edit changed only the male pose/pattern. Edited full plate plus all three crops reopened and passed. Validated for #36 v5; broader applicability requires species-specific evidence.
+
+
+## 2026-11-08 — #37 *Glaucidium peruanum* v5 source-boundary correction
+
+- **Observed failure:** v4 correctly excluded a later *Athene cunicularia* block but its summary also obscured valid *G. peruanum* young/juvenile observations immediately before the next species heading.
+- **Evidence:** Lüthi 2011 printed p.49, lines 2129–2154; the *Athene* heading begins only at line 2155.
+- **Rule applied:** when excluding cross-species text, anchor the exclusion at the explicit species heading and retain preceding same-species observations. Use the retained observation only at its supported resolution: age-unknown juvenile on adobe support, not nest, age or flight inference.
+- **Validation:** full plate plus male, juvenile and female crops opened; first render passed. Validated for #37 v5; generalize only as a source-parsing rule, not as a universal owl habitat rule.

@@ -3937,3 +3937,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 
 - Verification `46876b42199b8ba5eb24dbaf3bd6821cecfe7310` and fixed archive `a9410a1457e60118bf8f4164f4e6d1e1c950c3f5` read back.
 - Credited cycle 5/6; next cycle 6. Coverage 176/251; revision +1; science=false; lease released.
+
+
+## 2026-11-08 — #37 *Glaucidium peruanum* v5 ARCHIVED (readback pending)
+
+- Active research corrected v4’s source-boundary interpretation: Lüthi 2011 printed p.49 lines 2129–2154 contains two *G. peruanum* young/juvenile records before the *Athene cunicularia* heading.
+- Final blob `253225342d928489e65e66d0abef3a1e4dc775d5`, 3,474,471 bytes. Full plate and three crops opened; no edit required.
+- Juvenile is age-unknown and fully supported on a broad adobe ledge; no nest/burrow, exact-age, flight or independence claim. PASS_WITH_LIMITATIONS; science=false.
+- Manifests staged at 803 / 800 / 793; archive commit and immutable readback pending.

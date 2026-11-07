@@ -1,3 +1,7 @@
+## 2026-11-08 — #30 *Glaucidium cuculoides* v5 ledger credited
+
+Verification `eb2b0ded23e99ef41f237e51af24e0321938aa04` read back; cycle 5/6 credited once; next cycle 6. Unique coverage remains 176/251; science=false.
+
 ## 2026-11-08 — #30 *Glaucidium cuculoides* v5 immutable archive VERIFIED; ledger credit pending
 
 Archive `39f2f54fd69d96e0317cb4c8209c8fd9742981ab` returned all required paths. Binary path/blob checks passed; five transport-safe bodies streamed completely, and both exact original paths matched immutable blob SHAs. Manifests 796/793/786. `PASS_WITH_LIMITATIONS`; science=false.

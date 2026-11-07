@@ -1,3 +1,7 @@
+## 2026-11-08 — #30 v5 LEDGER_CREDITED — active batch 5/6
+
+Verification [`eb2b0ded23e99ef41f237e51af24e0321938aa04`](https://github.com/janeytlin-eng/game-owl-ket/commit/eb2b0ded23e99ef41f237e51af24e0321938aa04) was read back after archive [`39f2f54fd69d96e0317cb4c8209c8fd9742981ab`](https://github.com/janeytlin-eng/game-owl-ket/commit/39f2f54fd69d96e0317cb4c8209c8fd9742981ab). Cycle 5 credited once; lease released; next cycle 6. Unique coverage remains 176/251; revision +1; science=false.
+
 ## 2026-11-08 — #30 v5 immutable archive VERIFIED; ledger credit pending
 
 Archive [`39f2f54fd69d96e0317cb4c8209c8fd9742981ab`](https://github.com/janeytlin-eng/game-owl-ket/commit/39f2f54fd69d96e0317cb4c8209c8fd9742981ab) returned all required paths. Nine binary paths matched expected blob SHAs; five transport-safe unique bodies returned complete base64 streams at exact decoded lengths. Initial and final imagegen originals are accessible at immutable paths and matched their blob SHAs, while their full connector streams hit the response ceiling. Manifests parsed at 796/793/786. `PASS_WITH_LIMITATIONS`; science=false; unique 176/251; cycle credit still pending.

@@ -28233,7 +28233,7 @@
       "secondary_auxiliary_review_crop_size_bytes": 209825,
       "archive_commit_pending": false,
       "readback_pending": false,
-      "ledger_credit_pending": true,
+      "ledger_credit_pending": false,
       "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
       "archive_tree": "d2304fee61593a766b5dd12bc7344621060aa9f2",
       "verified_at": "2026-11-07T19:43:00+08:00",
@@ -28246,8 +28246,12 @@
       "tree_entries": 3899,
       "tree_truncated": false,
       "verification_result": "PASS_WITH_LIMITATIONS",
-      "readback_note": "Archive commit tree was complete and non-truncated. Eight binary paths (seven unique streams) were read back as complete base64 via the GitHub connector and matched expected path/blob/byte length; ten text/manifest/research paths were present, and all three manifest counts/entry blobs were re-read. Browser renderer was not used, so no browser-access claim is made."
+      "readback_note": "Archive commit tree was complete and non-truncated. Eight binary paths (seven unique streams) were read back as complete base64 via the GitHub connector and matched expected path/blob/byte length; ten text/manifest/research paths were present, and all three manifest counts/entry blobs were re-read. Browser renderer was not used, so no browser-access claim is made.",
+      "ledger_credited": true,
+      "verification_commit": "0cccb0814e6bc9ef09b9c4419543cdad8b10c380",
+      "verification_tree": "43f75278105786b499f5c47b6dcda710385efe5f",
+      "credited_at": "2026-11-07T19:44:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T19:43:00+08:00"
+  "updated_at": "2026-11-07T19:44:00+08:00"
 }

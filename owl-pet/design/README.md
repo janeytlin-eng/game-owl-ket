@@ -1,13 +1,13 @@
 ## Latest concept: #195 Rajah Scops Owl — *Otus brookii solokensis* v3
 
-## 2026-11-07 19:40 +08 — #195 *Otus brookii solokensis* v3 VERIFIED, ledger credit pending
+## 2026-11-07 19:40 +08 — #195 *Otus brookii solokensis* v3 VERIFIED, ledger credited
 
 v3科学修订，保留v1/v2且不增加唯一物种。纠正了把 bakkamoena group 的“雌鸟较大”错误迁移到 O. brookii 的风险：成年雌雄按近等尺度呈现，不设体型方向。初稿幼鸟翼尾偏硬偏长，经一次定向编辑改为短而柔软的折翼与尾簇；整图、96色传输版及三张裁切均实际打开复查。物种辨识、虹膜/喙、断续领纹、足羽与六足支撑、巢洞环境及文字通过。幼鸟精确年龄/性别、飞行阈值、虹膜时序、孵化外观与量化性别体差仍未知；PASS_WITH_LIMITATIONS，science=false。
 
 - Concept: `design/concepts/195-otus-brookii-v3.png`
 - Initial / edited originals: `production/generated/195-otus-brookii-v3-initial-full-color.jpg`, `production/generated/195-otus-brookii-v3-full-color.jpg`
 - Research / review: `research/species/195-otus-brookii-v3.md`, `research/reviews/195-otus-brookii-v3-review.md`
-- Coverage remains 176/251; revision +1; archive readback passed; ledger credit pending.
+- Coverage remains 176/251; revision +1; archive readback passed; ledger credited; current batch 2/6, next cycle 3.
 
 ## Latest concept: #188 Japanese Scops Owl — *Otus semitorques* v3
 

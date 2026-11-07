@@ -32337,38 +32337,32 @@
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "credited_at": "2026-11-07T18:45:00+08:00"
+        },
+        {
+          "cycle": 2,
+          "species": "Otus brookii",
+          "species_id": 195,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "0cccb0814e6bc9ef09b9c4419543cdad8b10c380",
+          "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
+          "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "credited_at": "2026-11-07T19:44:00+08:00"
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
+      "next_cycle": 3,
+      "active_cycle": null,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:43:00+08:00",
+      "updated_at": "2026-11-07T19:44:00+08:00",
       "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work-production",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T19:43:00+08:00",
-        "expires_at": "2026-11-07T19:58:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md"
-      },
-      "active": {
-        "cycle": 2,
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "version": 3,
-        "action": "SCIENCE_REVISION"
-      },
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -32677,6 +32671,23 @@
             "scientifically_verified": false,
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T19:58:00+08:00"
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T19:44:00+08:00",
+          "run_id": "20261107T193000+0800-cycle-2",
+          "species_id": 195,
+          "species": "Otus brookii",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "0cccb0814e6bc9ef09b9c4419543cdad8b10c380",
+            "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
+            "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md",
+            "next_cycle": 3,
+            "unique_species_increment": 0,
+            "revision_increment": 1
           }
         }
       ]

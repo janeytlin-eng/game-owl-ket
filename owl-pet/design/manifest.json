@@ -28658,9 +28658,23 @@
       "auxiliary_review_crop_blob": "67820ef8b55ed85da9d62316c084c09a3cb46bae",
       "auxiliary_review_crop_sha256": "cfb1979a63eee2820bb8b37e2abd5edcee61587817abd1e760b02004a145104d",
       "auxiliary_review_crop_size_bytes": 321148,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "ledger_credited": false
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "ledger_credited": false,
+      "archive_commit": "125474f4c87b41ec218f0efb65f750746a1046ed",
+      "archive_tree": "9791ff62dd20c815a2880645a8e76e9f5898840f",
+      "verified_at": "2026-11-07T18:43:00+08:00",
+      "connector_full_binary_stream_readback": true,
+      "browser_original_access_readback": false,
+      "concept_path_accessible": true,
+      "required_paths_verified": 17,
+      "exact_binary_paths_verified": 6,
+      "unique_binary_streams_read_back": 4,
+      "tree_entries": 3888,
+      "tree_truncated": false,
+      "verification_result": "PASS_WITH_LIMITATIONS",
+      "ledger_credit_pending": true,
+      "readback_note": "Git tree/path/blob/size verified for 17 required paths. GitHub connector returned complete base64 streams for the concept/master blob, full-colour JPG and both distinct review crops; generated and reviewed masters share the verified concept blob. Browser renderer was disabled in this execution, so no browser claim is made."
     }
   ],
   "updated_at": "2026-11-07T18:40:00+08:00"

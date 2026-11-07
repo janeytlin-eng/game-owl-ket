@@ -32326,14 +32326,14 @@
       "next_cycle": 1,
       "active_cycle": 1,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T18:40:00+08:00",
-      "current_stage": "ARCHIVED",
+      "updated_at": "2026-11-07T18:43:00+08:00",
+      "current_stage": "VERIFIED",
       "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T183000+0800-cycle-1",
-        "heartbeat_at": "2026-11-07T18:40:00+08:00",
-        "expires_at": "2026-11-07T18:55:00+08:00"
+        "heartbeat_at": "2026-11-07T18:43:00+08:00",
+        "expires_at": "2026-11-07T18:58:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
@@ -32447,6 +32447,34 @@
             "manifests": 3,
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-07T18:55:00+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T18:43:00+08:00",
+          "run_id": "20261107T183000+0800-cycle-1",
+          "species_id": 190,
+          "species": "Otus lempiji",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "125474f4c87b41ec218f0efb65f750746a1046ed",
+            "archive_tree": "9791ff62dd20c815a2880645a8e76e9f5898840f",
+            "required_paths_verified": 17,
+            "exact_binary_paths_verified": 6,
+            "unique_binary_streams_read_back": 4,
+            "tree_entries": 3888,
+            "tree_truncated": false,
+            "concept_blob": "83dc5231fa5f437166d0caaee0a68b3a13ec8793",
+            "concept_bytes": 558982,
+            "source_blob": "bf209db49c2f2da3e6aa67e8e62759133f71a8ef",
+            "source_bytes": 483185,
+            "adults_blob": "67820ef8b55ed85da9d62316c084c09a3cb46bae",
+            "juvenile_blob": "2f172c31d0efa290872e639505bc796ed7e43da6",
+            "full_binary_stream_readback": true,
+            "browser_renderer": false,
+            "scientifically_verified": false,
+            "ledger_credit_pending": true
           }
         }
       ]

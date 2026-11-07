@@ -3910,3 +3910,22 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Limits:** exact age and sex of photographed chicks, daily feather/iris sequence and sustained-flight threshold are not supplied.
 - **Design use:** low, fully supported recent fledgling making one short-wing stretch; no airborne pose or exact day claim.
 - **Links:** research/species/29-glaucidium-capense-v5.md; design/concepts/29-glaucidium-capense-v5.png.
+
+
+## 2026-11-08 — #32 *Glaucidium castanotum* v5 — current name, field identity and evidence-bounded older dependent
+
+### CBOW-ITIS-2025
+- **Title / institution / accessed:** “ITIS Report: *Glaucidium castanotum*” / Integrated Taxonomic Information System / accessed 2026-11-08.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=1063259
+- **Type / scope:** government-integrated taxonomic authority; current name and synonymy.
+- **Facts read:** *Glaucidium castanotum* (Blyth, 1851), TSN 1063259, is valid; *Glaucidium castanonotum* and *Athene castanotus* are synonyms; Chestnut-backed Owlet is the English common name.
+- **Section / lines:** Taxonomy and Nomenclature, retrieved lines 42–71 and 87–110.
+- **Limits / confidence:** nomenclature only; does not support plumage, development or sex-size direction. High confidence for name mapping.
+- **Design use:** retain roster name *G. castanotum* and historical search mappings; no morphology inferred from taxonomy.
+
+### V5 evidence reconciliation
+- CBOW-EDIRISINGHE-2025 re-read at printed p.72 (PDF lines 1414–1425): seven wet-zone Chestnut-backed Owlets and eight dry-zone Jungle Owlets were captured; Chestnut-backed Owlet had a much redder mantle and fewer chest bars. The abstract does not age- or sex-stratify its sample.
+- CBOW-CEYLONBIRDCLUB-2009 re-read at page lines 47–63: yellow-eyed, untufted wet-zone bird; 2001 and 2006 cavities held young; both adults fed young and chicks replied/peeped from the cavity. This supports pair care, cavity context and a dependent-young action, not a day-age or plumage sequence.
+- CBOW-COMMONS-ABEY2019 and CBOW-FLICKR-KALUBOWILA-2014 reused for an age-unknown fully feathered naturally supported older juvenile. “Few months” remains an observer estimate.
+- **Corrected boundary:** no source supports a quantified male/female standing-height difference. V5 keeps adults near equal; the juvenile is fully feathered, lower and supported, with no flight or independence claim.
+- **Uploaded guide:** unavailable in this execution. The repository’s prior page-verified CBOW-MIKKOLA-2013 record (printed p.406) is reused without a new page claim.

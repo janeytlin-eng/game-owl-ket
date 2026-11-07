@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-07T11:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26859,7 +26859,62 @@
       "verification_commit": "6a4a28723c6eef446bc7a939861a3afeaf09a1ba",
       "verification_tree": "26c8d6849327fa346508b86b4f37692422cf47d2",
       "ledger_credited_at": "2026-11-07T11:31:00+08:00"
+    },
+    {
+      "id": "165-ninox-punctulata-v3",
+      "path": "design/concepts/165-ninox-punctulata-v3.png",
+      "species_id": 165,
+      "scientific_name": "Ninox punctulata",
+      "historical_names": [],
+      "common_name": "Speckled Boobook",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。直接查看v2并重读O’Connell et al. 2022原始论文和Sharpe 1875标本描述；修正v2幼鸟偏暖、斑纹与翼尾过成熟的问题。v3成鸟近等体型、深色眼、深巧克力褐上体与细小浅斑；幼鸟采用论文图示的dark fluffy阶段，短翼藏于深色松散绒羽、短尾隐藏、双足和腹部在大树根上有完整支撑。全图及两裁图复查通过，无需编辑。PASS_WITH_LIMITATIONS；幼鸟精确日龄、性别、虹膜时序、飞行能力、连续羽序及准确巢位未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "SPBO-OCONNELL-ETAL-2022-P291-292",
+        "SPBO-SHARPE-1875-P183"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--165-ninox-punctulata-v3--dark-fluffy-juvenile-correction",
+      "research_record": "research/species/165-ninox-punctulata-v3.md",
+      "run_record": "production/runs/20261107T113400+0800-cycle-3.md",
+      "review_record": "research/reviews/165-ninox-punctulata-v3-review.md",
+      "reviewed_at": "2026-11-07T11:48:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "938a1a5388be8ffd6dee139fab3f1727461508f470040884137d2dd0b5be3828",
+      "size_bytes": 729072,
+      "git_blob": "599216ff8a63a19c5b421bada0cf4a26718aa532",
+      "generated_path": "production/generated/165-ninox-punctulata-v3-generated-master.png",
+      "generated_blob": "599216ff8a63a19c5b421bada0cf4a26718aa532",
+      "generated_sha256": "938a1a5388be8ffd6dee139fab3f1727461508f470040884137d2dd0b5be3828",
+      "generated_size_bytes": 729072,
+      "full_color_source_sha256": "14b8a719556f3d004c8b8734a518e0beb702121836a60d47071b378bf47a0ab6",
+      "full_color_source_size_bytes": 3180940,
+      "reviewed_path": "production/reviewed/165-ninox-punctulata-v3-reviewed-master.png",
+      "reviewed_blob": "599216ff8a63a19c5b421bada0cf4a26718aa532",
+      "reviewed_sha256": "938a1a5388be8ffd6dee139fab3f1727461508f470040884137d2dd0b5be3828",
+      "reviewed_size_bytes": 729072,
+      "review_crop_path": "production/review-crops/165-ninox-punctulata-v3-dark-fluffy-juvenile.png",
+      "review_crop_blob": "12326817d520bc5120cfe8323d00dd842d3f24a0",
+      "review_crop_sha256": "4208084fae61bf36febfe877871156ae12b4a5be59e38ffb99b62f3a7ab8bc81",
+      "review_crop_size_bytes": 211195,
+      "auxiliary_review_crop_path": "production/review-crops/165-ninox-punctulata-v3-adults.png",
+      "auxiliary_review_crop_blob": "91e90c43eaff6bacab95ddecc4e3090088041fc9",
+      "auxiliary_review_crop_sha256": "52e65f7726c777814d5785c7655d20300c8b361be1085ed5059bcb62839a7c2b",
+      "auxiliary_review_crop_size_bytes": 414573,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact juvenile age, sex, iris ontogeny, flight capability, continuous feather sequence and exact nest/tree geometry remain unknown; adult lower body may be brighter/cleaner than the specimen wording; Mikkola upload unavailable this execution.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative and both crops actually opened after optimization."
     }
   ],
-  "updated_at": "2026-11-07T11:31:00+08:00"
+  "updated_at": "2026-11-07T11:52:00+08:00"
 }

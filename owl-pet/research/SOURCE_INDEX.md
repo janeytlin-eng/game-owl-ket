@@ -4095,3 +4095,24 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **URL / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686695 / 2026-11-08.
 - **Sections:** taxonomy/nomenclature and references, lines 42–70 and 99–112.
 - **Evidence / limit:** current valid *Glaucidium nana*; historical *G. nanum* and *Strix nana*. Taxonomy only, no morphology or development support.
+
+
+## 2026-11-08 — #39 *Glaucidium griseiceps* v5 — official-source re-read
+
+### CAPO-MORENO-RODRIGUEZ-2008-REREAD
+- **Title / authors / year:** “Nuevo registro del mochuelo cabecigrís…” / Moreno-Palacios & Rodríguez-Ortíz / 2008.
+- **URL / accessed:** https://revistas.ornitologiacolombiana.com/index.php/roc/issue/view/11 / 2026-11-08; article pp.92–95 and Fig.1.
+- **Type / stage:** primary field record; age-unknown juvenile and adult.
+- **Evidence:** a very wet juvenile on forest-floor leaf litter after a strong storm at Reserva El Paujil; mottled head and unmarked back.
+- **Limits / design use:** no exact age, iris, nest stage, fall, flight or independence evidence; use only the supported wet, low, fully grounded posture.
+
+### CAPO-WETMORE-1968-REREAD
+- **Title / author/institution:** *The Birds of the Republic of Panamá*, Part 2 / Alexander Wetmore / Smithsonian Institution.
+- **URL / accessed:** https://repository.si.edu/bitstream/handle/10088/23810/1965%20vol%20150%20pt%202.pdf / 2026-11-08.
+- **Pages / evidence:** printed pp.167–168; adult sexes alike, adult/immature diagnosis, three male wings 88.7–90.5 mm and one female 93.4 mm.
+- **Limits / design use:** historical lower-rank treatment and one female; near-equal adults, no categorical female-larger rule.
+
+### CAPO-ITIS-2025-REREAD
+- **Institution / record:** ITIS, *Glaucidium griseiceps*, TSN 555453.
+- **URL / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555453&source=to_print / 2026-11-08.
+- **Evidence / limit:** valid current name plus historical lower-rank names *occultum* and *rarum*; nomenclature only.

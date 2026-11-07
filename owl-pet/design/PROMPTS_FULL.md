@@ -647,3 +647,16 @@ Composition: adult male on the left, turned naturally three-quarters away but lo
 Center late-nest juvenile: age unknown, at the end of nest life, fully supported with both feet at a dark natural mossy cavity lip. Give it a cautious low sidestep/head-turn pose while remaining grounded. Crown and nape plain or only extremely finely streaked, not adult-spotted. Underparts weaker and softer than adults. Wing and short tail formed but soft and low-contrast, without neat adult rows of bright covert spots or mature long flight feathers. Use a neutral/dusky iris because juvenile iris chronology is not verified. No flight, hovering, wing-spread display, unsupported leap, exact-age cue or claim of independence.
 
 Habitat: humid high-Andean cloud forest, moss, lichens, epiphytes and a natural tree cavity; no nest box, eggs, prey or decorative loose feathers. Show correct talons and natural support. No watermark, signature, border, extra labels or extra text.
+
+
+## 2026-11-08 — #36 *Glaucidium bolivianum* v5
+
+Create one 3:2 horizontal warm hand-painted digital gouache scientific concept sheet, 1536×1024, softly textured cream paper, matching the established owl-pet series. Title at top exactly: “36 · YUNGAS PYGMY OWL · Glaucidium bolivianum”. Exactly three birds, no others. Put labels exactly “ADULT MALE”, “OLDER JUVENILE”, and “ADULT FEMALE” below the corresponding birds. One coherent Yungas forest scene, not separate boxes.
+
+Species identity: very small untufted Yungas Pygmy Owl, rounded head, yellow adult irises/cere/bill/tarsi. Adults show dense small pale spotting across crown, nape, back and wing coverts; paired dark false-eye patches on the nape; whitish underparts with fine rufous-brown longitudinal shaft streaks/cross marks; compact rounded wings. Correct the tail relation: the primary diagnosis says the tail is relatively longer than in Glaucidium jardinii, though still compact in this tiny owl; show about 5–6 pale oval marks/bands, never an exaggerated long tail.
+
+Adult male left in the documented brown morph, rear three-quarter pose with coherent paired nape false eyes. Adult female right in the documented rufous morph, forward/three-quarter pose. Morph is not sex-linked: these are two documented forms, not male/female rules. Keep adults near equal in standing height; the primary sample is only two males and one female and does not establish a population-wide display ratio.
+
+Center older juvenile: no species-specific known-age series exists. Show an age-unknown fully feathered juvenile in a low alert crouch with a gentle head tilt, both feet firmly supported in a mossy branch fork, never a cavity claim. Use softer lower-contrast brown plumage, reduced/diffuse upperpart marks, plain or faint crown/nape, short soft rounded folded wing and a partly concealed compact tail without neat adult spot rows. Use a dusky/neutral iris. No flight, hovering, jumping, wing spread, begging gape, exact-age cue or claim of independence.
+
+Habitat: humid montane Yungas/cloud forest, mist, moss, lichens, ferns and epiphytes. Natural support for all feet. No nest box, cavity, eggs, prey, extra birds, watermark, signature, border or extra text.

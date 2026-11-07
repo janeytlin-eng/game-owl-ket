@@ -1,5 +1,29 @@
 
 
+## 2026-11-08 — #36 *Glaucidium bolivianum* v5 — primary-diagnosis correction and juvenile boundary
+
+### YPOW-KONIG-1991
+- **Title / author / year:** “Zur Taxonomie und Ökologie der Sperlingskäuze … des Andenraumes” / Claus König / 1991, *Ökologie der Vögel* 13:15–76.
+- **URL / accessed:** https://www.zobodat.at/pdf/Oekologie-Voegel_13_0015-0076.pdf / 2026-11-08.
+- **Type / stages:** primary diagnosis; adults only.
+- **Pages:** printed 36–42, diagnosis/measurements 36–38, habitat 41–42; Figs.10 and 17.
+- **Evidence:** gray/brown/rufous morphs; 5–6 pale tail spots in brown/gray forms; two male measurements (wing 94/102, tail 67/67.5) and one female (103/72.5); rounded wing; tail relatively longer than *G. jardinii*; humid Yungas habitat.
+- **Correction/limit:** corrects v4 “shorter tail” inference. Sample n=3 and contains no juvenile series; does not establish population-wide sex ratio or development.
+- **Design link:** [v5 research](species/36-glaucidium-bolivianum-v5.md); v5 image pending.
+
+### YPOW-ITIS-2025
+- **Title / institution:** “Glaucidium bolivianum”, TSN 555457 / ITIS; IOC v15.1 source acquired 2025.
+- **URL / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555457 / 2026-11-08.
+- **Sections:** Taxonomy lines 42–68; References 85–106.
+- **Evidence/limit:** current valid name and English name only; no morphology or development.
+- **Design link:** [v5 research](species/36-glaucidium-bolivianum-v5.md).
+
+### Rejected breeding-detail lead — EcoRegistros 2026
+- **URL:** https://www.ecoregistros.org/sheet/Glaucidium-bolivianum
+- **Read:** adult/habitat description and photo caption; accessed 2026-11-08.
+- **Status:** uncited precise clutch/nest assertions were not accepted. Not used to infer juvenile age, cavity stage or flight.
+
+
 ## 2026-11-08 — #35 *Glaucidium jardinii* v5 — stable-index recovery and external re-read
 
 ### ANPO-ITIS-2025

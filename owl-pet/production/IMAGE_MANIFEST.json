@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T00:48:04.086+08:00",
+  "updated": "2026-11-08T01:02:47+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29141,6 +29141,87 @@
       "verified_at": "2026-11-08T00:48:04.086+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive returned 17 required text/binary paths. Nine binary paths matched expected Git blob SHAs. Five transport-safe unique bodies (master/concept/reviewed, full-colour source and three crops) returned complete base64 streams with exact decoded byte lengths; both imagegen original paths matched exact immutable blob SHAs but full streams exceeded the connector response ceiling. Research, review, source index, workflow lesson, run and all three manifests read back; manifests parsed at 796/793/786."
+    },
+    {
+      "id": "31-glaucidium-radiatum-v5",
+      "path": "design/concepts/31-glaucidium-radiatum-v5.png",
+      "species_id": 31,
+      "scientific_name": "Glaucidium radiatum",
+      "historical_names": [
+        "Strix radiata"
+      ],
+      "common_name": "Jungle Owlet",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v4. ITIS supports the current name and historical Strix radiata; a dated January 2026 Pīlībhīt photograph supports a yellow-eyed fully feathered branch-supported immature, while museum and morphology sources support woodland tree-cavity context, same-plumage adults, weaker juvenile lower barring and browner tail bars. One targeted edit compacted and softened only the immature wing and tail. Exact age, sex, first-flight threshold, independence, continuous feather sequence, subspecies shown and population sex-size direction remain unknown.",
+      "source_ids": [
+        "JUOW-ITIS-2025",
+        "JUOW-MADRAS-MUSEUM-1979",
+        "JUOW-OISEAUXNET-LEBOFF-2026",
+        "JUOW-OISEAUXBIRDS-BOUGLOUAN-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/31-glaucidium-radiatum-v5.md",
+      "review_record": "research/reviews/31-glaucidium-radiatum-v5-review.md",
+      "run_record": "production/runs/20261108T005000+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 809944,
+      "sha256": "d66994900be4fb02ee923ae4419fe5587c290ac9268f7c9329f656a88260e6da",
+      "git_blob": "c34c2a9501fbf5907d8a30a94fe23bd25970c933",
+      "initial_original_path": "production/generated/31-glaucidium-radiatum-v5-initial-original.png",
+      "initial_original_blob": "177ecd13c83c420507876067c86277456cc13779",
+      "initial_original_size_bytes": 3189266,
+      "initial_original_sha256": "0c47b03e8f0d45ca116a9322786e1b8e515c59a19246ff55762b3dca9945007d",
+      "final_original_path": "production/generated/31-glaucidium-radiatum-v5-final-original.png",
+      "final_original_blob": "66bf482c9cb03aa265cb7fa963bc227afcb50924",
+      "final_original_size_bytes": 3000198,
+      "final_original_sha256": "e1099023d4e0c1f83ab76e2bb33292a4b983495e05ca491606d039cd56ae1c1d",
+      "full_color_source_path": "production/generated/31-glaucidium-radiatum-v5-full-color.jpg",
+      "full_color_source_blob": "8833fbea733438f80aa2ae340a4a2adf643d048a",
+      "full_color_source_size_bytes": 802736,
+      "full_color_source_sha256": "035e4d2141865494acb38bd8cb67437c407db441478c853f7dd040a979d818bb",
+      "generated_path": "production/generated/31-glaucidium-radiatum-v5-generated-master.png",
+      "generated_blob": "c34c2a9501fbf5907d8a30a94fe23bd25970c933",
+      "generated_size_bytes": 809944,
+      "reviewed_path": "production/reviewed/31-glaucidium-radiatum-v5-reviewed-master.png",
+      "reviewed_blob": "c34c2a9501fbf5907d8a30a94fe23bd25970c933",
+      "reviewed_size_bytes": 809944,
+      "review_crops": [
+        {
+          "path": "production/review-crops/31-glaucidium-radiatum-v5-adult-male.png",
+          "blob": "361690d7878570ce131dce728d0ffa28aba673cd",
+          "size_bytes": 670717,
+          "sha256": "0e14a4483f02c94c57331aab60a8fd17576551f797da6b4ba770e192fd6b6326"
+        },
+        {
+          "path": "production/review-crops/31-glaucidium-radiatum-v5-juvenile.png",
+          "blob": "80b4231d0d1e4cff66341cc7fddc9e1fe2698dbe",
+          "size_bytes": 647604,
+          "sha256": "8037f686d7d1bfedde2e634c582213b31f55ecf7f672a00007cc6f0f0370e33b"
+        },
+        {
+          "path": "production/review-crops/31-glaucidium-radiatum-v5-adult-female.png",
+          "blob": "28a4da69ad61cae24617a1e5699b5e1307ef7382",
+          "size_bytes": 660369,
+          "sha256": "472336e54a7c6daa00bfcaa383be79e24079f87504803a82f5765a74ed613ab6"
+        }
+      ],
+      "archive_note": "Initial and edited originals, transport master and all three role crops were opened. One center-bird-only edit compacted the older immature wing and tail without material adult/text/habitat drift. Exact age/sex, flight threshold, independence, feather sequence and sex-size direction remain unknown.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
   "updated_at": "2026-11-08T00:48:04.086+08:00"

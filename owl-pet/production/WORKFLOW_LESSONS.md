@@ -1,5 +1,14 @@
 
 
+## 2026-11-08 — “fully feathered immature” still requires a wing/tail contour check
+
+**Problem:** #31 v5 correctly used a dated fully feathered immature reference, yet the first render retained a long mature-looking folded wing and tail.
+
+**Evidence/application:** the dated reference supports the stage, yellow eyes and branch support, while the morphology synthesis supports weaker lower barring and browner tail bars; neither licenses a fully mature wing/tail contour. A center-bird-only edit compacted and softened the wing and shortened/browned the tail.
+
+**Verified visual result:** the edited full plate, transport master and three subject crops were opened; the immature correction held without material drift in adults, text, cavity context or support. Apply this as a review trigger for older immatures, not as an exact feather-age rule.
+
+
 ## 2026-11-08 — juvenile crown evidence does not license adult wing organization
 
 **Problem:** #30 v5 initially rendered the evidence-supported spotted juvenile crown correctly but paired it with a long folded wing and neat adult-like white covert rows.

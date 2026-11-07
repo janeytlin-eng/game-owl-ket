@@ -45,3 +45,10 @@ undefined
 - **Rule derived:** when a source specifies feathered toes, prompt the full toe-to-claw-base extent separately from tarsal feathering, while requiring exposed claws and explicit branch support.
 - **Applied:** one targeted edit to all three #174 birds.
 - **Verified:** the reopened adult and fledgling crops show short dense toe feathering reaching the claw bases, visible dark claws and firm bilateral support. Verified for #174 v3 only; other Strix plates require source-specific recheck.
+
+## 2026-11-07 — Separate stage evidence from nest-location evidence
+
+- **Discovery:** a reliable fledgling record does not by itself establish nest location, cavity form, substrate or clutch details; Cameron (2002) records Sokoke Scops Owl fledglings while the dedicated 2001 search still failed to locate a nest.
+- **Rule:** treat life-stage evidence and nest-site evidence as independent gates. A fledgling may be shown when its observable stage is supported, but nest/cavity/egg details require separate direct evidence.
+- **Applied:** #175 *Otus ireneae* v3 uses an age-unknown supported fledgling and omits nest, cavity and eggs.
+- **Verified:** visually effective for #175 v3; not yet validated across earlier plates.

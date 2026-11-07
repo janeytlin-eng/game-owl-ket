@@ -29707,21 +29707,21 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-07T14:00:00+08:00",
-      "updated_at": "2026-11-07T13:30:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T13:34:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T165200+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T13:30:00+08:00",
-        "expires_at": "2026-11-07T13:45:00+08:00"
+        "heartbeat_at": "2026-11-07T13:34:00+08:00",
+        "expires_at": "2026-11-07T13:49:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "species_id": 175,
         "species": "Otus ireneae",
         "version": 3,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261107T165200+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
       },
@@ -29730,7 +29730,7 @@
         "species_id": 175,
         "species": "Otus ireneae",
         "version": 3,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261107T165200+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
       },
@@ -30668,6 +30668,48 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T13:45:00+08:00",
             "recovery_note": "prior future-dated lease contradicted Git commit time; resumed after checking no newer main commit"
+          }
+        },
+        {
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T13:34:00+08:00",
+          "run_id": "20261107T165200+0800-cycle-6",
+          "species_id": 175,
+          "species": "Otus ireneae",
+          "credited": false,
+          "evidence": {
+            "result": "PASS_WITH_LIMITATIONS",
+            "edit_count": 0,
+            "final_fullcolor_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+            "final_fullcolor_bytes": 3023501,
+            "dimensions": "1536x1024",
+            "checked_views": [
+              "full plate",
+              "adult pair crop",
+              "age-unknown fledgling crop"
+            ],
+            "passed": [
+              "exact species number/name/title",
+              "exact three labels and three complete birds",
+              "adult near-equal height and same morph direction",
+              "small relaxed tufts and pale-yellow adult eyes",
+              "fledgling dark iris and soft contour",
+              "short rounded folded wing and short supported tail",
+              "six supported feet",
+              "dense Cynometra-like understory",
+              "no invented nest/eggs/prey"
+            ],
+            "limitations": [
+              "exact fledgling age unknown",
+              "fledgling sex unknown",
+              "iris chronology unknown",
+              "wing/flight chronology unknown",
+              "nest location/geometry unknown because field search failed"
+            ],
+            "review_record": "owl-pet/research/reviews/175-otus-ireneae-v3-review.md",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T13:49:00+08:00"
           }
         }
       ],
@@ -32147,8 +32189,8 @@
   "last_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 6,
-    "stage": "IMAGE_GENERATED",
-    "at": "2026-11-07T13:30:00+08:00",
+    "stage": "REVIEWED",
+    "at": "2026-11-07T13:34:00+08:00",
     "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
   },
   "history": [
@@ -52175,6 +52217,48 @@
         "lease_expires_at": "2026-11-07T13:45:00+08:00",
         "recovery_note": "prior future-dated lease contradicted Git commit time; resumed after checking no newer main commit"
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T13:34:00+08:00",
+      "run_id": "20261107T165200+0800-cycle-6",
+      "species_id": 175,
+      "species": "Otus ireneae",
+      "credited": false,
+      "evidence": {
+        "result": "PASS_WITH_LIMITATIONS",
+        "edit_count": 0,
+        "final_fullcolor_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+        "final_fullcolor_bytes": 3023501,
+        "dimensions": "1536x1024",
+        "checked_views": [
+          "full plate",
+          "adult pair crop",
+          "age-unknown fledgling crop"
+        ],
+        "passed": [
+          "exact species number/name/title",
+          "exact three labels and three complete birds",
+          "adult near-equal height and same morph direction",
+          "small relaxed tufts and pale-yellow adult eyes",
+          "fledgling dark iris and soft contour",
+          "short rounded folded wing and short supported tail",
+          "six supported feet",
+          "dense Cynometra-like understory",
+          "no invented nest/eggs/prey"
+        ],
+        "limitations": [
+          "exact fledgling age unknown",
+          "fledgling sex unknown",
+          "iris chronology unknown",
+          "wing/flight chronology unknown",
+          "nest location/geometry unknown because field search failed"
+        ],
+        "review_record": "owl-pet/research/reviews/175-otus-ireneae-v3-review.md",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T13:49:00+08:00"
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -52247,7 +52331,7 @@
     }
   ],
   "updated": "2026-11-07T17:00:00+08:00",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
     "baseline_main": "27f57fdd9785164a39369ffdcffd7c1ec70aff7b",
@@ -52288,27 +52372,36 @@
     },
     "REVIEWED": {
       "result": "PASS_WITH_LIMITATIONS",
-      "edit_count": 1,
-      "final_fullcolor_sha256": "5881f172eb03cdeb567708bd7f2cdd0b9db284a3b81e5cebf9fe83a78d105e99",
-      "final_fullcolor_bytes": 2712237,
+      "edit_count": 0,
+      "final_fullcolor_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+      "final_fullcolor_bytes": 3023501,
       "dimensions": "1536x1024",
       "checked_views": [
         "full plate",
         "adult pair crop",
-        "flight-capable fledgling crop"
+        "age-unknown fledgling crop"
       ],
-      "fixed": [
-        "toe feathering extended to claw bases while claws/support stayed visible"
+      "passed": [
+        "exact species number/name/title",
+        "exact three labels and three complete birds",
+        "adult near-equal height and same morph direction",
+        "small relaxed tufts and pale-yellow adult eyes",
+        "fledgling dark iris and soft contour",
+        "short rounded folded wing and short supported tail",
+        "six supported feet",
+        "dense Cynometra-like understory",
+        "no invented nest/eggs/prey"
       ],
       "limitations": [
-        "exact fledgling age/sex and feather chronology unknown",
-        "first-flight timing unknown",
-        "species sex ratio unknown",
-        "nest and clutch not reconstructed"
+        "exact fledgling age unknown",
+        "fledgling sex unknown",
+        "iris chronology unknown",
+        "wing/flight chronology unknown",
+        "nest location/geometry unknown because field search failed"
       ],
-      "review_record": "owl-pet/research/reviews/174-strix-sartorii-v3-review.md",
+      "review_record": "owl-pet/research/reviews/175-otus-ireneae-v3-review.md",
       "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T16:51:00+08:00"
+      "lease_expires_at": "2026-11-07T13:49:00+08:00"
     },
     "ARCHIVED": {
       "concept_path": "owl-pet/design/concepts/174-strix-sartorii-v3.png",
@@ -52373,7 +52466,7 @@
   "timestamps": {
     "RESEARCH_READY": "2026-11-07T17:00:00+08:00",
     "IMAGE_GENERATED": "2026-11-07T13:30:00+08:00",
-    "REVIEWED": "2026-11-07T16:36:00+08:00",
+    "REVIEWED": "2026-11-07T13:34:00+08:00",
     "ARCHIVED": "2026-11-07T16:41:00+08:00",
     "VERIFIED": "2026-11-07T16:45:00+08:00",
     "LEDGER_CREDITED": "2026-11-07T16:48:00+08:00",

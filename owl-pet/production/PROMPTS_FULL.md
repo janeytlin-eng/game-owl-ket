@@ -117,3 +117,32 @@ Do not add: cavity interior, eggs, feeding, artificial nest material, extra bird
 ## 161-ketupa-blakistoni-v3 — 2026-11-07
 
 Scientific wildlife photographic review-board plate, 1536×1024 landscape, exactly three whole birds in one coherent Hokkaido riparian old-growth scene. Dark neutral title strip at top with exact text “161 BLAKISTON'S FISH-OWL · Ketupa blakistoni”. Bottom labels exactly “ADULT MALE”, “~50-DAY NESTLING”, “ADULT FEMALE”. Left and right adults are Hokkaido/insular Ketupa blakistoni sensu stricto: enormous rounded fish-owl build, broad head, flexible tousled sideways ear-tufts, faded lemon-yellow irides, grey to bluish-grey cere and bill, ashy/tawny-brown face without a pale rim, tiny white throat patch, warm brown upperparts with dark shaft streaks and restrained irregular buff marks, pale grey-yellow-brown underparts with long dark streaks and fine wavy crossbars, cream-feathered tarsi, bare lead-grey toes. Adult sexes share plumage; keep crown height nearly equal, female only subtly fuller/heavier, never a fixed large female/small male ratio. Do not add the conspicuous white nape/back patch or near-white tail attributed to continental Ketupa doerriesi. Center bird is the species-documented approximately 50-day late nestling at the threshold/floor of a very large old broadleaf-tree cavity: smoke-grey/grey-brown fluffy mesoptile, dark developing facial mask, open eyes, short tail mostly hidden, soft short rounded developing folded wings partly concealed by down, no crisp adult barred remiges, no flight pose. Belly and both feet naturally supported by dry wood fibres/cavity floor; low crouched posture. Both adults grip broad mossy branches with all feet supported. Environment: Hokkaido riverine broadleaf/mixed forest beside an ice-free stream; cool soft daylight, natural muted colour, realistic anatomy, field-photo texture. Preserve exact count of three, exact labels, legibility, spatial separation and natural support. Avoid extra birds, duplicate heads/feet, adult-hard juvenile wings, exposed long juvenile tail, waterfowl-like body, oversized talons, fish props, nest bowl, flight action, exaggerated sex size, continental doerriesi white nape/white tail, decorative fantasy, painterly/cartoon style. Evidence boundary: source facts guide morphology/stage/habitat; exact individual feather map, exact 50-day flight threshold and universal sex ratio remain unknown; output is a concept, not scientific verification.
+
+
+## #162 v2 — *Aegolius acadicus* — batch 20261107T062903+0800 cycle 6/6
+
+### Generation / targeted v1 revision
+
+```text
+Use case: scientific-educational.
+Asset type: polished owl-pet prototype species plate, revision of the provided #162 v1 while preserving the established painterly-photographic concept style and three-column composition.
+
+Canvas: exactly 1536 × 1024 landscape.
+Title, exact: 162 NORTHERN SAW-WHET OWL
+Scientific subtitle, exact and italic: Aegolius acadicus
+
+Exactly three birds, no extra bird silhouettes:
+LEFT label exact: ADULT MALE
+CENTER label exact: LATE CAVITY NESTLING
+RIGHT label exact: ADULT FEMALE
+
+Adult identity: tiny compact round-headed owl, absolutely no ear tufts; orange-yellow eyes, blackish bill; warm coffee-brown upperparts with irregular white spots and a white-streaked crown; pale underparts with warm rusty-brown vertical streaking. Adult male and female visually similar and near equal height; female only subtly fuller, never dramatically larger. Natural alert but calm posture.
+
+Juvenile: defensible late cavity nestling / near-fledging juvenal plumage, not a hatchling and not a miniature adult. Dark chocolate/fulvous head and back, cinnamon belly, dark facial mask with a bold white V/brows. Plain unspotted chocolate wing and back: NO adult crown streaking, NO ordered adult white wing/back spots. Show a short rounded formed juvenal wing with soft edges, not long mature layered remiges; short tail. Belly and both feet visibly supported on the cavity lip. Do not imply flight and do not write an exact age.
+
+Environment/support: old woodpecker or flicker cavity in mature conifer or mixed woodland, soft natural daylight. All six adult/juvenile feet supported; no floating perches. No invented eggs, prey, nest lining or exact cavity height.
+
+Revision target from v1: specifically remove the juvenile's adult-like pale wing spots and reduce the adults' overly uniform dot pattern while preserving the useful composition, readable labels and established visual style.
+
+Text constraints: exact title, exact italic scientific name, exact three role labels only. No other prose, legends, logos or watermark.
+```

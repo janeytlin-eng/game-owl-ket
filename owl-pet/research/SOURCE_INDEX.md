@@ -3189,3 +3189,46 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Reused repository records **BLF-MIKKOLA-2013-P296**, **BLF-OWLPAGES-2020**, **BLF-MOVIN-2022** and **BLF-IOC13-1-2023** only within their previously indexed limits. The user-uploaded Mikkola guide was not mounted in this execution, so no fresh page claim is made.
 - Adult plumage is alike; measured mass direction supports a fuller/heavier female but not a fixed standing-height ratio. Exact 50-day flight ability, continuous feather chronology, individual feather map and universal sex ratio remain unknown.
 - Full prompt: [PROMPTS_FULL.md](../production/PROMPTS_FULL.md#161-ketupa-blakistoni-v3-2026-11-07). Research card: [161 v3](species/161-ketupa-blakistoni-v3.md). Scientific verification remains false.
+
+
+## 2026-11-07 — #162 *Aegolius acadicus* v2 — juvenal plumage and sex-ratio correction
+
+### NSWO-MCCULLOUGH-CONWAY-2017
+- **Title / authors / year:** “Breeding behavior of Northern Saw-whet Owls in Oregon” — McCullough & Conway, 2017.
+- **URL / DOI / accessed:** https://doi.org/10.3955/046.091.0211 ; USGS publication record and abstract read 2026-11-07.
+- **Type / species / stage:** primary nest-camera study; *A. acadicus*, incubation and nestling.
+- **Facts / location:** 858 h video from two artificial nest boxes; one successful nest; accessible abstract reports 30-day incubation and nestling periods and stage-dependent female attendance/prey delivery.
+- **Limits / design use:** one successful nest; supports “late cavity nestling,” not an exact pictured age or universal schedule.
+- **Links:** `research/species/162-aegolius-acadicus-v2.md`; v2 prompt/review.
+
+### NSWO-PROJECT-OWLNET-HY
+- **Title / institution / accessed:** “Hatching Year” — Project Owlnet; read 2026-11-07, section “Hatching Year Northern Saw-whet Owls.”
+- **URL:** https://www.projectowlnet.org/hatching-year
+- **Type / species / stage:** institutional field-ageing guide; juvenal plumage through first prebasic molt.
+- **Facts:** near-fledging young acquire fulvous/chocolate juvenal plumage in the cavity; juvenal flight feathers are retained while body plumage changes later.
+- **Limits / design use:** not a controlled growth series; supports a formed short juvenal wing without adult-pattern spot rows or a flight claim.
+- **Links:** #162 v2 research, prompt and review.
+
+### NSWO-CORNELL-GALLERY
+- **Title / institution / accessed:** Northern Saw-whet Owl photo gallery — Cornell Lab of Ornithology, All About Birds; juvenile/adult captions and images read 2026-11-07.
+- **URL:** https://www.allaboutbirds.org/guide/Northern_Saw-whet_Owl/photo-gallery/
+- **Type / species / stage:** curated field photographs; adults and juveniles.
+- **Facts:** juvenile references show cinnamon belly, plain dark brown back and bold pale facial V; adult references show white crown streaking and white-spotted brown upperparts.
+- **Limits / design use:** selected photographs with variable locality/age; supports pattern separation, not exact growth timing.
+- **Links:** #162 v2 research and review.
+
+### NSWO-PAXTON-WATTS-2008
+- **Title / authors / year:** “Mass variation in Northern Saw-whet Owls” — Paxton & Watts, 2008.
+- **URL / DOI / pages / accessed:** https://doi.org/10.1111/j.1557-9263.2008.00145.x ; *Journal of Field Ornithology* 79(1):53–57; abstract/results read 2026-11-07.
+- **Type / species / stage:** primary recapture study; adults/older birds, sex classification.
+- **Facts:** recaptures (n=372) showed variable mass and instability in mass-based sex assignment; wing-chord thresholds overlap.
+- **Limits / design use:** does not establish appearance of one individual; rejects a fixed female/male display ratio.
+- **Links:** #162 v2 research and prompt.
+
+### NSWO-PRIESTLEY-ETAL-2026
+- **Title / authors / year:** “Classifying the Sex of Northern Saw-whet Owls Using Morphometrics” — Priestley et al., 2026.
+- **URL / DOI / accessed:** https://doi.org/10.3356/jrr2573 ; *Journal of Raptor Research* 60(3), abstract/results read 2026-11-07.
+- **Type / species / stage:** primary DNA-sexed morphometric study; autumn migrants.
+- **Facts:** Alberta sample (n=445) found average female mass/wing chord above male means and a 93% model; authors caution that regional calibration is required.
+- **Limits / design use:** overlapping distributions and migrant sample; only a subtle fuller female, never deterministic enlargement.
+- **Links:** #162 v2 research, prompt and review.

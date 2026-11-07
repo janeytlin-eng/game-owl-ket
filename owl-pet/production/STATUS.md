@@ -4009,3 +4009,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 
 - Verification `68cd3c050eb407bfb2701b635ad2627b1528e45c` and archive `2a76e7280c3a4b04415460f0c5323fa627279b2c` read back.
 - Credited cycle 2/6 exactly once; next cycle 3. Coverage 176/251; revision +1; science=false; lease released.
+
+## 2026-11-08 — #102 *Strix nigrolineata* v5 archive pending verification
+
+- Initial and edited originals, concept/master aliases, reviewed master and three opened review crops are staged.
+- Initial juvenile wing repeated v4's adult-remige error; one imagegen edit corrected it to a compact down-softened coverts patch. Adults keep near-equal crown height with evidence-bounded female fullness.
+- `PASS_WITH_LIMITATIONS`; science=false; manifests 811 / 808 / 801; immutable readback pending.

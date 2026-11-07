@@ -3392,3 +3392,8 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 Verification follow-up for #201 v3: immutable archive commit `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9` passed exact path/blob and complete-stream checks; the compact soft-wing juvenile correction remained the reviewed concept. This validates that the rule was both applied and archived, not that the unknown juvenile biology was resolved.
 
 - [#27 *Glaucidium passerinum* v5](concepts/27-glaucidium-passerinum-v5.png) — science revision preserving v1–v4; unsexed recent fledgling, fully supported; one wing/scale edit; PASS_WITH_LIMITATIONS.
+
+## #102 Black-and-white Owl — *Strix nigrolineata* — v5
+
+- [Concept](concepts/102-strix-nigrolineata-v5.png) · [Research](../research/species/102-strix-nigrolineata-v5.md) · [Review](../research/reviews/102-strix-nigrolineata-v5-review.md) · [Run](../production/runs/20261108T054352+0800-cycle-2.md)
+- V5 preserves v1–v4. One measured Tikal pair supports female fullness and a subtly longer tail but not a fixed standing-height ratio. One juvenile-wing edit removed long adult-like remiges; full plate and three crops passed with limitations. Exact juvenile chronology and population-wide dimorphism remain unknown; science=false; immutable readback pending.

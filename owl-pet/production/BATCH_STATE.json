@@ -8460,24 +8460,8 @@
           "unique_species_increment": 0,
           "commit_sha": "19ddaf91a4cf11f863bed3deac623a1b1d79bfa3",
           "run_record": "owl
-... 1695088 bytes omitted ...
-es/184-otus-spilocephalus-v3.md",
-        "source_index": "owl-pet/research/SOURCE_INDEX.md",
-        "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-        "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-        "new_sources": 2,
-        "reused_sources": 4,
-        "corrected_sources": 1,
-        "design_boundary": "Taiwan recent fledgling, exact age/sex/iris/flight unknown; supported short soft partly formed wing and short hidden tail; near-equal same-plumage adults",
-        "mikkola_access": "repository p.148 transcription reused; uploaded guide unavailable this execution",
-        "lease_expires_at": "2026-11-07T21:18:00+08:00",
-        "scientifically_verified": false
-      }
-    },
-    {
-      "cycle": 5,
-      "stage": "IMAGE_GENERATED",
-      "at": "2026-11-07T21:08:00+08:00",
+... 1696759 bytes omitted ...
++08:00",
       "run_id": "20261107T205300+0800-cycle-5",
       "species_id": 184,
       "species": "Otus spilocephalus",
@@ -11451,6 +11435,29 @@ es/184-otus-spilocephalus-v3.md",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-08T06:09:02.294+08:00"
       }
+    },
+    {
+      "batch_id": "20261108T045200+0800",
+      "cycle": 2,
+      "stage": "ARCHIVED",
+      "at": "2026-11-08T05:57:11.135+08:00",
+      "run_id": "20261108T054352+0800-cycle-2",
+      "species_id": 102,
+      "species": "Strix nigrolineata",
+      "credited": false,
+      "evidence": {
+        "archive_commit_pending": true,
+        "concept_path": "owl-pet/design/concepts/102-strix-nigrolineata-v5.png",
+        "concept_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+        "concept_bytes": 2994861,
+        "manifest_counts": {
+          "design_upper": 811,
+          "design_lower": 808,
+          "production": 801
+        },
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-08T06:12:11.135+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261108T023550+0800",
@@ -11479,8 +11486,8 @@ es/184-otus-spilocephalus-v3.md",
     "next_cycle": 2,
     "active_cycle": 2,
     "started_at": "2026-11-08T04:51:43.588+08:00",
-    "updated_at": "2026-11-08T05:54:02.294+08:00",
-    "current_stage": "REVIEWED",
+    "updated_at": "2026-11-08T05:57:11.135+08:00",
+    "current_stage": "ARCHIVED",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-owl-production",
@@ -11488,15 +11495,15 @@ es/184-otus-spilocephalus-v3.md",
       "batch_id": "20261108T045200+0800",
       "cycle": 2,
       "species_id": 102,
-      "heartbeat_at": "2026-11-08T05:54:02.294+08:00",
-      "expires_at": "2026-11-08T06:09:02.294+08:00"
+      "heartbeat_at": "2026-11-08T05:57:11.135+08:00",
+      "expires_at": "2026-11-08T06:12:11.135+08:00"
     },
     "in_progress": {
       "run_id": "20261108T054352+0800-cycle-2",
       "cycle": 2,
       "species_id": 102,
       "species": "Strix nigrolineata",
-      "stage": "REVIEWED",
+      "stage": "ARCHIVED",
       "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
     },
     "active": {
@@ -11504,7 +11511,7 @@ es/184-otus-spilocephalus-v3.md",
       "cycle": 2,
       "species_id": 102,
       "species": "Strix nigrolineata",
-      "stage": "REVIEWED",
+      "stage": "ARCHIVED",
       "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
     },
     "stage_events": [
@@ -11773,6 +11780,29 @@ es/184-otus-spilocephalus-v3.md",
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-08T06:09:02.294+08:00"
+        }
+      },
+      {
+        "batch_id": "20261108T045200+0800",
+        "cycle": 2,
+        "stage": "ARCHIVED",
+        "at": "2026-11-08T05:57:11.135+08:00",
+        "run_id": "20261108T054352+0800-cycle-2",
+        "species_id": 102,
+        "species": "Strix nigrolineata",
+        "credited": false,
+        "evidence": {
+          "archive_commit_pending": true,
+          "concept_path": "owl-pet/design/concepts/102-strix-nigrolineata-v5.png",
+          "concept_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+          "concept_bytes": 2994861,
+          "manifest_counts": {
+            "design_upper": 811,
+            "design_lower": 808,
+            "production": 801
+          },
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-08T06:12:11.135+08:00"
         }
       }
     ],
@@ -19818,30 +19848,19 @@ es/184-otus-spilocephalus-v3.md",
     }
   ],
   "updated": "2026-11-08T05:40:36.411+08:00",
-  "stage": "REVIEWED",
+  "stage": "ARCHIVED",
   "stage_evidence": {
-    "final_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-final-original.png",
-    "final_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
-    "final_bytes": 2994861,
-    "final_sha256": "cebda436096e53e326f70273d24499af80ce7de0fda21cf2f65a2dbe539b74f6",
-    "edit_count": 1,
-    "imagegen_invocations": 2,
-    "reviewed_path": "owl-pet/production/reviewed/102-strix-nigrolineata-v5-reviewed-master.png",
-    "reviewed_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
-    "review_record": "owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md",
-    "review_crops": [
-      "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-male.png",
-      "owl-pet/production/review-crops/102-strix-nigrolineata-v5-older-juvenile.png",
-      "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-female.png"
-    ],
-    "crop_blobs": [
-      "1ed8cf397a8163a30df125182567593e16b611a8",
-      "d88a5d05d19eebf874c8c823f6b1b9e799f3e6aa",
-      "a4bf3039a270f59c2b4128c316fccd3e49c65fb5"
-    ],
-    "review_result": "PASS_WITH_LIMITATIONS",
+    "archive_commit_pending": true,
+    "concept_path": "owl-pet/design/concepts/102-strix-nigrolineata-v5.png",
+    "concept_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+    "concept_bytes": 2994861,
+    "manifest_counts": {
+      "design_upper": 811,
+      "design_lower": 808,
+      "production": 801
+    },
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-08T06:09:02.294+08:00"
+    "lease_expires_at": "2026-11-08T06:12:11.135+08:00"
   },
   "last_verification_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
   "timestamps": {

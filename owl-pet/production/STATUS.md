@@ -1,3 +1,7 @@
+### #176 v3 immutable archive VERIFIED — ledger credit pending
+
+Archive `56be53f3a60c78ad04a9cc3a37eee235d2e8b671` / tree `1236907a8460bdd7c690cc1b58e51ba9b55aa7c7` returned 3,836 non-truncated entries. All 17 required paths, five binary tuples, normalized connector concept stream and manifest counts 777/778/768 passed. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
 ### #176 v3 ARCHIVED — readback pending
 
 One edited transport board, generated/reviewed masters and two review crops are archived. Manifests advance to 777/778/768; unique species stays 176/251 because this is a v3 revision. Source index adds three verified sources and reuses/re-reads three. PASS_WITH_LIMITATIONS; science=false; connector readback pending.

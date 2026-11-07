@@ -3770,3 +3770,7 @@ Verification `8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0` was read back after arch
 - Hokkaido sensu-stricto scope under Clements/eBird 2026 split; no continental *K. doerriesi* white nape/near-white tail.
 - One targeted juvenile-wing edit; full plate and two crops opened. Result PASS_WITH_LIMITATIONS; scientific status false.
 - Concept: `design/concepts/161-ketupa-blakistoni-v3.png`; reviewed blob `787f24c17be0bb3b5a1dfa4456d5a177bacb97ab`; archive commit pending immutable readback.
+
+
+### 2026-11-07 09:50 +08:00 — #161 archive transport correction
+Initial archive commit `f12e5669` failed immutable size checks because the connector truncated large PNGs. Before any ledger credit, all six binary paths were replaced by complete full-resolution indexed PNG derivatives under the connector ceiling and reopened. Correction readback is pending; science remains false.

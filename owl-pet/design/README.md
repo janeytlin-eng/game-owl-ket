@@ -1,3 +1,7 @@
+## 2026-11-08 00:35 +08 — #29 *Glaucidium capense* v5 LEDGER_CREDITED
+
+Verification [`69383cc3369056756fb88702068fe65745a73292`](https://github.com/janeytlin-eng/game-owl-ket/commit/69383cc3369056756fb88702068fe65745a73292) was read back. Cycle 4/6 is credited; next_cycle=5. Unique coverage remains 176/251; revision +1; science=false.
+
 ## 2026-11-08 00:33 +08 — #29 *Glaucidium capense* v5 immutable archive VERIFIED; ledger credit pending
 
 Archive [`864becd671da096224dd46f164e0d6476284298f`](https://github.com/janeytlin-eng/game-owl-ket/commit/864becd671da096224dd46f164e0d6476284298f) passed immutable readback for the concept, full-colour source, generated/reviewed master, three crops and supporting records. Three manifests parsed at 795/792/785. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251.

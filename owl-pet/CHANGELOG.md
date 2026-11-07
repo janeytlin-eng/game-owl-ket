@@ -1,3 +1,8 @@
+## 2026-11-08 — #29 v5 ledger credited
+
+- Verification `69383cc3369056756fb88702068fe65745a73292` read back; cycle 4/6 credited and the batch advances to next_cycle 5.
+- Unique coverage remains 176/251; revision +1; science=false; lease released.
+
 ## 2026-11-08 — #29 *Glaucidium capense* v5 archived
 
 - Preserved v1–v4 and applied the directly observed near-nest short-hop/wing-stretch boundary to an age-unknown recent fledgling.

@@ -28601,7 +28601,7 @@
       "auxiliary_review_crop_size_bytes": 1587619,
       "archive_commit_pending": false,
       "readback_pending": false,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "archive_commit": "994b1bcd4b68ee39547de2c25cadf81dd0c5fa62",
       "archive_tree": "060ed350186490df114d8651b80c8cb8c31ceab6",
       "verified_at": "2026-11-07T16:45:00+08:00",
@@ -28610,8 +28610,11 @@
       "connector_binary_readback_error": "UnicodeDecodeError on repository PNG; Git tree blob/size and GitHub rendered original page independently verified",
       "required_paths_verified": 15,
       "tree_entries": 3860,
-      "tree_truncated": false
+      "tree_truncated": false,
+      "verification_commit": "d42588d6ea43019bb6d7197bcb6c5ef261080f55",
+      "verification_tree": "0abbee5eef2adb87ce90f3f47a25f511a3364199",
+      "credited_at": "2026-11-07T16:46:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T16:45:00+08:00"
+  "updated_at": "2026-11-07T16:46:00+08:00"
 }

@@ -1,3 +1,8 @@
+## 2026-11-07 — #28 v5 immutable archive verified
+
+- Archive `fbbeab7444c6271a57addcc775463fb2980739f0`: 16 required paths, 7 binary paths / 5 unique complete streams; manifests 794/791/784.
+- PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
 ## 2026-11-07 — #28 *Glaucidium perlatum* v5 archived
 
 - Preserved v1–v4; replaced exact ~31-day juvenile visual claim with age-unknown recent-fledgling boundary supported by two secondary life-history syntheses.

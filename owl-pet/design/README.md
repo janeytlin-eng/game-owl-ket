@@ -1,3 +1,7 @@
+## 2026-11-07 23:39 +08 — #28 *Glaucidium perlatum* v5 immutable archive VERIFIED; ledger credit pending
+
+Archive [`fbbeab7444c6271a57addcc775463fb2980739f0`](https://github.com/janeytlin-eng/game-owl-ket/commit/fbbeab7444c6271a57addcc775463fb2980739f0) returned all 16 required paths. Seven binary paths matched exact blob/byte tuples and five unique binary bodies streamed completely; manifests parsed at 794/791/784. `PASS_WITH_LIMITATIONS`; science=false; unique 176/251; cycle credit still pending.
+
 ## 2026-11-07 23:37 +08 — #28 Pearl-spotted Owlet — *Glaucidium perlatum* v5 ARCHIVED, readback pending
 
 V5科学修订，保留v1–v4且不增加唯一物种。撤销v4把幼鸟外观精确指定为“约31日龄”的过度推断：现有可读资料只支持离巢期区间、近巢密灌丛活动与持续亲鸟喂养，不能把某一羽衣状态锁定到单日。新图采用年龄/性别未知的刚离巢幼鸟，低位、双足与腹部自然支撑，翼短而柔软、尾短且大部遮蔽、虹膜不作时序断言；成年雌雄同羽色且近等站立高度。整图、112色审查版和三张裁切均实际打开，无需编辑。结果 `PASS_WITH_LIMITATIONS`，science=false。

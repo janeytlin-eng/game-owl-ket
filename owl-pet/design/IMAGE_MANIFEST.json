@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T23:36:55.461+08:00",
+  "updated": "2026-11-07T23:38:51.658+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29497,9 +29497,13 @@
         }
       ],
       "archive_note": "Full-colour plate, 112-colour master and all three subject crops were opened. Initial generation passed without edit. Exact juvenile age/sex, primary feather sequence, iris chronology, first-flight threshold, sex-separated dimensions and race remain unknown.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "fbbeab7444c6271a57addcc775463fb2980739f0",
+      "verified_at": "2026-11-07T23:38:51.658+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable archive returned 16 required paths. Seven binary paths matched expected Git blob SHA and byte size; five unique binary bodies (concept/master, full-colour source and three crops) returned complete base64 streams with exact decoded byte lengths. Research, review, source index, workflow lesson, run and all three manifests read back; manifests parsed at 794/791/784."
     }
   ],
-  "updated_at": "2026-11-07T23:36:55.461+08:00"
+  "updated_at": "2026-11-07T23:38:51.658+08:00"
 }

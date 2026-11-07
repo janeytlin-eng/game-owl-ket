@@ -33531,14 +33531,14 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T22:32:35+08:00",
-      "updated_at": "2026-11-07T23:36:55.461+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-07T23:38:51.658+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-work",
         "run_id": "20261107T230149+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T23:36:55.461+08:00",
-        "expires_at": "2026-11-07T23:51:55.461+08:00"
+        "heartbeat_at": "2026-11-07T23:38:51.658+08:00",
+        "expires_at": "2026-11-07T23:53:51.658+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -33546,7 +33546,7 @@
         "species_id": 28,
         "species": "Glaucidium perlatum",
         "version": 5,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261107T230149+0800-cycle-3.md"
       },
       "active": {
@@ -33555,7 +33555,7 @@
         "species_id": 28,
         "species": "Glaucidium perlatum",
         "version": 5,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_record": "owl-pet/production/runs/20261107T230149+0800-cycle-3.md"
       },
       "stage_events": [
@@ -33997,6 +33997,41 @@
             "archive_commit_pending": true,
             "readback_pending": true,
             "lease_expires_at": "2026-11-07T23:51:55.461+08:00"
+          }
+        },
+        {
+          "batch_id": "20261107T223235+0800",
+          "cycle": 3,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T23:38:51.658+08:00",
+          "run_id": "20261107T230149+0800-cycle-3",
+          "species_id": 28,
+          "species": "Glaucidium perlatum",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "fbbeab7444c6271a57addcc775463fb2980739f0",
+            "archive_tree": "a9c34a307f4b2df0feb2d2e9b66a562ac943876d",
+            "required_paths_verified": 16,
+            "binary_paths_verified": 7,
+            "unique_binary_complete_streams": 5,
+            "concept_blob": "9b3ccd1edf1f46774ef83f0b4b318088ef59f63a",
+            "concept_bytes": 718675,
+            "full_color_blob": "4f928a62bcf566f9cf63aeec7224749d63d919b7",
+            "full_color_bytes": 752547,
+            "crop_blobs": [
+              "8fe42355facea98fad0617913bae29a21716ee43",
+              "08c1df3a2ec6d53939597b7a22ec637eac3c5d02",
+              "2347cd3d5ca4c033a4a09239ec881006aba68d33"
+            ],
+            "manifest_counts": {
+              "design_upper": 794,
+              "design_lower": 791,
+              "production": 784
+            },
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T23:53:51.658+08:00"
           }
         }
       ]
@@ -41280,6 +41315,41 @@
         "readback_pending": true,
         "lease_expires_at": "2026-11-07T23:51:55.461+08:00"
       }
+    },
+    {
+      "batch_id": "20261107T223235+0800",
+      "cycle": 3,
+      "stage": "VERIFIED",
+      "at": "2026-11-07T23:38:51.658+08:00",
+      "run_id": "20261107T230149+0800-cycle-3",
+      "species_id": 28,
+      "species": "Glaucidium perlatum",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "fbbeab7444c6271a57addcc775463fb2980739f0",
+        "archive_tree": "a9c34a307f4b2df0feb2d2e9b66a562ac943876d",
+        "required_paths_verified": 16,
+        "binary_paths_verified": 7,
+        "unique_binary_complete_streams": 5,
+        "concept_blob": "9b3ccd1edf1f46774ef83f0b4b318088ef59f63a",
+        "concept_bytes": 718675,
+        "full_color_blob": "4f928a62bcf566f9cf63aeec7224749d63d919b7",
+        "full_color_bytes": 752547,
+        "crop_blobs": [
+          "8fe42355facea98fad0617913bae29a21716ee43",
+          "08c1df3a2ec6d53939597b7a22ec637eac3c5d02",
+          "2347cd3d5ca4c033a4a09239ec881006aba68d33"
+        ],
+        "manifest_counts": {
+          "design_upper": 794,
+          "design_lower": 791,
+          "production": 784
+        },
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-07T23:53:51.658+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261107T183000+0800",
@@ -41291,7 +41361,7 @@
     "species_id": 28,
     "species": "Glaucidium perlatum",
     "version": 5,
-    "stage": "ARCHIVED"
+    "stage": "VERIFIED"
   },
   "events": [
     {
@@ -47924,43 +47994,45 @@
       "credited_at": "2026-11-07T23:01:04.770+08:00"
     }
   ],
-  "updated": "2026-11-07T23:36:55.461+08:00",
-  "stage": "ARCHIVED",
+  "updated": "2026-11-07T23:38:51.658+08:00",
+  "stage": "VERIFIED",
   "stage_evidence": {
-    "concept": "owl-pet/design/concepts/28-glaucidium-perlatum-v5.png",
+    "archive_commit": "fbbeab7444c6271a57addcc775463fb2980739f0",
+    "archive_tree": "a9c34a307f4b2df0feb2d2e9b66a562ac943876d",
+    "required_paths_verified": 16,
+    "binary_paths_verified": 7,
+    "unique_binary_complete_streams": 5,
     "concept_blob": "9b3ccd1edf1f46774ef83f0b4b318088ef59f63a",
-    "full_color_source": "owl-pet/production/generated/28-glaucidium-perlatum-v5-full-color.jpg",
+    "concept_bytes": 718675,
     "full_color_blob": "4f928a62bcf566f9cf63aeec7224749d63d919b7",
-    "reviewed": "owl-pet/production/reviewed/28-glaucidium-perlatum-v5-reviewed-master.png",
-    "review_crops": 3,
-    "manifests": 3,
+    "full_color_bytes": 752547,
+    "crop_blobs": [
+      "8fe42355facea98fad0617913bae29a21716ee43",
+      "08c1df3a2ec6d53939597b7a22ec637eac3c5d02",
+      "2347cd3d5ca4c033a4a09239ec881006aba68d33"
+    ],
     "manifest_counts": {
       "design_upper": 794,
       "design_lower": 791,
       "production": 784
     },
-    "unique_species_count": 176,
-    "total_species": 251,
-    "unique_species_increment": 0,
-    "revision_increment": 1,
-    "review_result": "PASS_WITH_LIMITATIONS",
+    "verification_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false,
-    "archive_commit_pending": true,
-    "readback_pending": true,
-    "lease_expires_at": "2026-11-07T23:51:55.461+08:00"
+    "ledger_credit_pending": true,
+    "lease_expires_at": "2026-11-07T23:53:51.658+08:00"
   },
-  "last_verification_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
+  "last_verification_commit": "fbbeab7444c6271a57addcc775463fb2980739f0",
   "timestamps": {
     "RESEARCH_READY": "2026-11-07T23:31:29.786+08:00",
     "IMAGE_GENERATED": "2026-11-07T23:34:00.468+08:00",
     "REVIEWED": "2026-11-07T23:35:17.488+08:00",
     "ARCHIVED": "2026-11-07T23:36:55.461+08:00",
-    "VERIFIED": "2026-11-07T23:00:33.396+08:00",
+    "VERIFIED": "2026-11-07T23:38:51.658+08:00",
     "LEDGER_CREDITED": "2026-11-07T23:01:04.770+08:00",
     "STARTED": "2026-11-07T23:29:26.092+08:00",
     "reviewed_at": "2026-11-07T22:57:01.313+08:00",
     "archived_at": "2026-11-07T23:36:55.461+08:00",
-    "verified_at": "2026-11-07T23:00:33.396+08:00",
+    "verified_at": "2026-11-07T23:38:51.658+08:00",
     "ledger_credited_at": "2026-11-07T23:01:04.770+08:00",
     "started_at": "2026-11-07T23:01:49.398+08:00",
     "research_ready_at": "2026-11-07T22:51:12.950+08:00",

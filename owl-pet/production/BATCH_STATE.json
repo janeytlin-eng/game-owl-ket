@@ -32357,14 +32357,14 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:53:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T19:55:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T194600+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T19:53:00+08:00",
-        "expires_at": "2026-11-07T20:08:00+08:00"
+        "heartbeat_at": "2026-11-07T19:55:00+08:00",
+        "expires_at": "2026-11-07T20:10:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -32373,7 +32373,7 @@
         "species": "Otus megalotis",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md"
       },
       "active": {
@@ -32782,6 +32782,35 @@
             "preliminary_inspection": "initial plate opened: adults, text, sex-scale restraint and six-foot support passed; juvenile wing/tail adult-hard and overlong. One targeted edit shortened/softened only juvenile wing/tail; edited plate reopened and passed preliminary inspection.",
             "lease_expires_at": "2026-11-07T20:08:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T19:55:00+08:00",
+          "run_id": "20261107T194600+0800-cycle-3",
+          "species_id": 197,
+          "species": "Otus megalotis",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/197-otus-megalotis-v3-reviewed-master.png",
+            "reviewed_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
+            "review_record": "owl-pet/research/reviews/197-otus-megalotis-v3-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/197-otus-megalotis-v3-adult-male-pattern-feet.png",
+              "owl-pet/production/review-crops/197-otus-megalotis-v3-older-juvenile.png",
+              "owl-pet/production/review-crops/197-otus-megalotis-v3-adult-female-pattern-feet.png"
+            ],
+            "crop_blobs": [
+              "8ff7b229272f211b78520ff9fd9b29a3ac715786",
+              "e9b70cc6e6321f0c5572be3489c027c51a4ada6c",
+              "c598e62dbb6753a591b02edd1d5188fd17c07fae"
+            ],
+            "edit_count": 1,
+            "reinspection": "edited full-colour plate, 104-colour transport master and all three crops opened; adult diagnostic direction, near-equal standing height, exact text, six-foot support and compact juvenile wing/tail passed",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T20:10:00+08:00"
           }
         }
       ]

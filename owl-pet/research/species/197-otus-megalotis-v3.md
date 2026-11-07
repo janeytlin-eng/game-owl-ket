@@ -46,3 +46,8 @@ Adults: common intermediate grey-brown morph, not red morph; large orange-red ir
 Older juvenile: evidence-bounded naturally perched stage, not hatchling and not miniature adult. Compact fluffy rufous-buff to muted brown head/body, soft irregular fine dark barring, reduced soft ear tufts, dark shaded amber-brown eyes (not adult orange-red), short soft folded wing and short tail with rounded developing feather edges, both feet gripping a mossy branch. No spread wings, no flight, no nest interior, no unsupported pose.
 
 Background: Greater Luzon lowland/foothill secondary forest at dusk, layered dark-green foliage and humid moss, soft atmospheric depth. Preserve anatomical realism, three distinct silhouettes, correct support, and the established field-guide composition.
+
+
+## Image review result
+
+Initial plate: adult/title/support checks passed, but juvenile wing and tail were overlong and adult-hard. One targeted edit shortened and softened only the juvenile wing/tail. Edited full-colour plate, transport master and three crops were opened. Result: `PASS_WITH_LIMITATIONS`; exact juvenile age/sex, iris chronology and first-flight state remain unknown, so this is not a scientific verification.

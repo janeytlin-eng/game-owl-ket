@@ -437,3 +437,8 @@ Adults: common intermediate grey-brown morph, not red morph; large orange-red ir
 Older juvenile: evidence-bounded naturally perched stage, not hatchling and not miniature adult. Compact fluffy rufous-buff to muted brown head/body, soft irregular fine dark barring, reduced soft ear tufts, dark shaded amber-brown eyes (not adult orange-red), short soft folded wing and short tail with rounded developing feather edges, both feet gripping a mossy branch. No spread wings, no flight, no nest interior, no unsupported pose.
 
 Background: Greater Luzon lowland/foothill secondary forest at dusk, layered dark-green foliage and humid moss, soft atmospheric depth. Preserve anatomical realism, three distinct silhouettes, correct support, and the established field-guide composition.
+
+
+### Targeted edit prompt
+
+Edit only the CENTRAL OLDER JUVENILE in this existing natural-history plate. Preserve the entire composition, border, background, title, subtitle, all three labels, both adult owls, adult sizes, adult plumage, all feet, branches, lighting and painterly style exactly. Correct the juvenile so it no longer looks like a miniature adult: shorten and soften its folded wing drastically so the rounded developing wing ends well above the branch, with fluffy downy coverts and only short soft emerging feather tips; shorten the tail drastically to a small rounded developing tail barely extending below the branch, not long adult rectrices. Keep the juvenile fully supported with both feet gripping the mossy branch, compact rufous-buff fluffy body, reduced soft ear tufts and dark shaded amber-brown eyes. Do not add or remove birds or text. Do not change either adult.

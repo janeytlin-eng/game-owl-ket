@@ -1,5 +1,14 @@
 
 
+## 2026-11-08 — never stream >786 KiB binary through one shell-output result
+
+**Problem:** #31's first archive commit preserved paths but truncated five large bodies near 786 KiB. Git path existence and blob equality to the upload response were insufficient because the upload input itself had been truncated.
+
+**Fix applied:** split local files into 600000-byte chunks (divisible by 3), base64 each chunk, concatenate, then create the Git blob. Verify immutable tree blob *and exact size* before credit.
+
+**Status:** applied to #31 repair; final verification is a separate required stage.
+
+
 ## 2026-11-08 — “fully feathered immature” still requires a wing/tail contour check
 
 **Problem:** #31 v5 correctly used a dated fully feathered immature reference, yet the first render retained a long mature-looking folded wing and tail.

@@ -33522,8 +33522,8 @@
       "lease": {
         "owner": "codex-work",
         "run_id": "20261107T225200+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T22:53:55.891+08:00",
-        "expires_at": "2026-11-07T23:08:55.891+08:00"
+        "heartbeat_at": "2026-11-07T22:57:01.313+08:00",
+        "expires_at": "2026-11-08T13:57:01.314+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -33531,7 +33531,8 @@
         "species_id": 27,
         "species": "Glaucidium passerinum",
         "version": 5,
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED",
+        "run_record": "owl-pet/production/runs/20261107T225200+0800-cycle-2.md"
       },
       "active": {
         "cycle": 2,
@@ -47581,44 +47582,109 @@
       "credited_at": "2026-11-07T22:48:14.542+08:00"
     }
   ],
-  "updated": "2026-11-07T22:53:55.891+08:00",
-  "stage": "IMAGE_GENERATED",
+  "updated": "2026-11-07T22:57:01.313+08:00",
+  "stage": "REVIEWED",
   "stage_evidence": {
-    "initial_original": "owl-pet/production/generated/27-glaucidium-passerinum-v5-initial-original.png",
-    "initial_blob": "aafa366a48d94ce6ffd6758aeb47bc5eaf419169",
-    "initial_bytes": 3024314,
-    "initial_sha256": "3ca16dd23130c668b8d92e857e992f29b738ff5f4c5120d780c37ba6f4d5f87e",
-    "final_original": "owl-pet/production/generated/27-glaucidium-passerinum-v5-final-original.png",
-    "final_blob": "4e7c3506b6cad0f45db96f3d67370210362f13e5",
-    "final_bytes": 2861221,
-    "final_sha256": "3a835fe2b5c68bec1d04c5facad5d48725fe15492a06c6ba2556c95368b599b3",
-    "generated_master": "owl-pet/production/generated/27-glaucidium-passerinum-v5-generated-master.png",
-    "generated_blob": "ff798b7f96895507fa40d63b5b9d18c1ca05fcff",
-    "generated_bytes": 769128,
-    "generated_sha256": "7f11803b48a74a7fc0fb74fc6e18c7d83571e28e08558ebc0e13d834b0a23fa8",
-    "geometry": "1536x1024",
-    "generation_seconds": 45.2,
-    "edit_seconds": 39,
+    "review_record": "owl-pet/research/reviews/27-glaucidium-passerinum-v5-review.md",
+    "reviewed_master": "owl-pet/production/reviewed/27-glaucidium-passerinum-v5-reviewed-master.png",
+    "reviewed_blob": "ff798b7f96895507fa40d63b5b9d18c1ca05fcff",
+    "review_crops": {
+      "adult_male": {
+        "path": "owl-pet/production/review-crops/27-glaucidium-passerinum-v5-adult-male.png",
+        "blob": "7bf27f6194d5cbcc5c7496ef23bf450255d022dc",
+        "sha256": "3df13db",
+        "bytes": 213944
+      },
+      "recent_fledgling": {
+        "path": "owl-pet/production/review-crops/27-glaucidium-passerinum-v5-recent-fledgling.png",
+        "blob": "f3c236b72afe44fcac6b132e454475d032d39df0",
+        "sha256": "59d4dd",
+        "bytes": 206316
+      },
+      "adult_female": {
+        "path": "owl-pet/production/review-crops/27-glaucidium-passerinum-v5-adult-female.png",
+        "blob": "daefe390635394e438534ffdce192fef4fbdf92c",
+        "sha256": "cf9ab4",
+        "bytes": 202935
+      }
+    },
+    "result": "PASS_WITH_LIMITATIONS",
     "edit_count": 1,
-    "preliminary_inspection": "Initial full plate opened: count/text/support passed, but fledgling wing was too long and rigid and female scale exceeded the evidence-bounded linear direction. One targeted edit shortened/softened the fledgling wing and reduced female scale; edited full plate reopened and passed preliminary inspection.",
-    "lease_expires_at": "2026-11-07T23:08:55.891+08:00",
+    "inspection": "Final edited plate and all three crops opened. Exactly three separated birds and exact labels; male nape false-eye present; adult plumage matched; female only modestly fuller; recent fledgling low, soft-contoured, shortened rounded wing, short concealed tail, all feet supported, no flight pose.",
+    "unresolved": [
+      "exact fledging day",
+      "juvenile sex",
+      "iris chronology",
+      "feather-by-feather developmental sequence",
+      "independent-flight threshold"
+    ],
+    "lease_expires_at": "2026-11-08T13:57:01.314+08:00",
     "scientifically_verified": false
   },
   "last_verification_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
   "timestamps": {
     "RESEARCH_READY": "2026-11-07T22:51:12.950+08:00",
     "IMAGE_GENERATED": "2026-11-07T22:53:55.891+08:00",
-    "REVIEWED": "2026-11-07T22:43:14.652+08:00",
+    "REVIEWED": "2026-11-07T22:57:01.313+08:00",
     "ARCHIVED": "2026-11-07T22:45:57.721+08:00",
     "VERIFIED": "2026-11-07T22:47:28.016+08:00",
     "LEDGER_CREDITED": "2026-11-07T22:48:14.542+08:00",
     "STARTED": "2026-11-07T22:49:06.062+08:00",
-    "reviewed_at": "2026-11-07T22:43:14.652+08:00",
+    "reviewed_at": "2026-11-07T22:57:01.313+08:00",
     "archived_at": "2026-11-07T22:45:57.721+08:00",
     "verified_at": "2026-11-07T22:47:28.016+08:00",
     "ledger_credited_at": "2026-11-07T22:48:14.542+08:00",
     "started_at": "2026-11-07T22:49:06.062+08:00",
     "research_ready_at": "2026-11-07T22:51:12.950+08:00",
     "image_generated_at": "2026-11-07T22:53:55.891+08:00"
-  }
+  },
+  "production_log": [
+    {
+      "batch_id": "20261107T223235+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T22:57:01.313+08:00",
+      "run_id": "20261107T225200+0800-cycle-2",
+      "species_id": 27,
+      "species": "Glaucidium passerinum",
+      "credited": false,
+      "evidence": {
+        "review_record": "owl-pet/research/reviews/27-glaucidium-passerinum-v5-review.md",
+        "reviewed_master": "owl-pet/production/reviewed/27-glaucidium-passerinum-v5-reviewed-master.png",
+        "reviewed_blob": "ff798b7f96895507fa40d63b5b9d18c1ca05fcff",
+        "review_crops": {
+          "adult_male": {
+            "path": "owl-pet/production/review-crops/27-glaucidium-passerinum-v5-adult-male.png",
+            "blob": "7bf27f6194d5cbcc5c7496ef23bf450255d022dc",
+            "sha256": "3df13db",
+            "bytes": 213944
+          },
+          "recent_fledgling": {
+            "path": "owl-pet/production/review-crops/27-glaucidium-passerinum-v5-recent-fledgling.png",
+            "blob": "f3c236b72afe44fcac6b132e454475d032d39df0",
+            "sha256": "59d4dd",
+            "bytes": 206316
+          },
+          "adult_female": {
+            "path": "owl-pet/production/review-crops/27-glaucidium-passerinum-v5-adult-female.png",
+            "blob": "daefe390635394e438534ffdce192fef4fbdf92c",
+            "sha256": "cf9ab4",
+            "bytes": 202935
+          }
+        },
+        "result": "PASS_WITH_LIMITATIONS",
+        "edit_count": 1,
+        "inspection": "Final edited plate and all three crops opened. Exactly three separated birds and exact labels; male nape false-eye present; adult plumage matched; female only modestly fuller; recent fledgling low, soft-contoured, shortened rounded wing, short concealed tail, all feet supported, no flight pose.",
+        "unresolved": [
+          "exact fledging day",
+          "juvenile sex",
+          "iris chronology",
+          "feather-by-feather developmental sequence",
+          "independent-flight threshold"
+        ],
+        "lease_expires_at": "2026-11-08T13:57:01.314+08:00",
+        "scientifically_verified": false
+      }
+    }
+  ]
 }

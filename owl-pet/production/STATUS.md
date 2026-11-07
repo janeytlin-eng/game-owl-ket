@@ -1,3 +1,7 @@
+### #174 v3 ARCHIVED — readback pending
+
+Transport board and two review crops were visually reopened after one toe-feathering edit. Five binary paths, three manifests, research/review/run records and staged ledger are committed; immutable recursive-tree and connector binary readback are still pending. Unique ledger remains 176/251; science=false.
+
 ### Batch 20261107T012800+0800 COMPLETE 6/6
 
 Cycle 6 #143 v3 ledger credited from verification `166167870b15e89684913e5dcd4c0a9e2c5be71c` after immutable archive `270e1331af485c9a64785ba23401f39d06aaa160`. Six revisions completed; unique ledger remains 176/251; no active lease and no next batch started.

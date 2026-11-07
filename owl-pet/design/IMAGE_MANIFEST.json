@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T16:18:00+08:00",
+  "updated": "2026-11-07T16:41:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -28209,7 +28209,63 @@
       "verification_commit": "45a7d89255f677a388461886885abd29c429c59d",
       "verification_tree": "fd9d9a1210e558e5e8cb48ce9329f33ee0a96d6c",
       "ledger_credited_at": "2026-11-07T16:18:00+08:00"
+    },
+    {
+      "id": "174-strix-sartorii-v3",
+      "path": "design/concepts/174-strix-sartorii-v3.png",
+      "species_id": 174,
+      "scientific_name": "Strix sartorii",
+      "historical_names": [
+        "Strix varia sartorii",
+        "Syrnium sartorii"
+      ],
+      "common_name": "Cinereous Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。读取Baird/Ridgway 1874 p.29雌性模式描述、2020西墨西哥调查论文与2015直接幼鸟野外记录。成年雌雄维持近等体型，不套用雌大雄小；冷黑褐/白羽色、深色虹膜及较素面盘保留。幼鸟限定为年龄未知但有直接飞行观察的乞食离巢幼鸟。首次成图足趾过裸，经1次定向编辑将短密羽被延伸至爪基并保留抓握。PASS_WITH_LIMITATIONS；精确幼鸟年龄/性别/羽序、首飞时间、巢窝信息和物种性别体型比未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "CIO-BAIRD-RIDGWAY-1874-P29",
+        "CIO-PIEPLOW-ETAL-2020-P221-227",
+        "CIO-EARBIRDING-2015-FLEDGLING",
+        "CIO-AOS-2021-P263",
+        "CIO-MEXICANBIRDING-2020-PHOTO"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--174-strix-sartorii-v3--type-description-flight-capable-fledgling-and-toe-feathering",
+      "research_record": "research/species/174-strix-sartorii-v3.md",
+      "run_record": "production/runs/20261107T162000+0800-cycle-5.md",
+      "review_record": "research/reviews/174-strix-sartorii-v3-review.md",
+      "reviewed_at": "2026-11-07T16:36:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "d02486ee0d9138eaa2dc2bb43bab35e1de8032bde027a9e229c569f3e0e7bb26",
+      "size_bytes": 604378,
+      "git_blob": "997cf98b0d1af1114342274375603ab4efb4e8a2",
+      "generated_path": "production/generated/174-strix-sartorii-v3-generated-master.png",
+      "generated_blob": "997cf98b0d1af1114342274375603ab4efb4e8a2",
+      "generated_sha256": "d02486ee0d9138eaa2dc2bb43bab35e1de8032bde027a9e229c569f3e0e7bb26",
+      "generated_size_bytes": 604378,
+      "full_color_source_sha256": "5881f172eb03cdeb567708bd7f2cdd0b9db284a3b81e5cebf9fe83a78d105e99",
+      "full_color_source_size_bytes": 2712237,
+      "reviewed_path": "production/reviewed/174-strix-sartorii-v3-reviewed-master.png",
+      "reviewed_blob": "997cf98b0d1af1114342274375603ab4efb4e8a2",
+      "reviewed_sha256": "d02486ee0d9138eaa2dc2bb43bab35e1de8032bde027a9e229c569f3e0e7bb26",
+      "reviewed_size_bytes": 604378,
+      "review_crop_path": "production/review-crops/174-strix-sartorii-v3-flight-capable-fledgling.png",
+      "review_crop_blob": "03572fe11e449a7925511242a13150f902d6503f",
+      "review_crop_sha256": "e128cbd68d5311de9d9326528e8234e71de854e473cbe69f0c8fecc764f6423c",
+      "review_crop_size_bytes": 189948,
+      "auxiliary_review_crop_path": "production/review-crops/174-strix-sartorii-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "b72f1efb4ab6d4e1cb71a639106b90f40d3591aa",
+      "auxiliary_review_crop_sha256": "9833c9e7789e9e9d4d50734ac14e7cc73abfbd2d1cd518a56d6bfd628637cfeb",
+      "auxiliary_review_crop_size_bytes": 422200,
+      "archive_commit_pending": true,
+      "readback_pending": true
     }
   ],
-  "updated_at": "2026-11-07T16:18:00+08:00"
+  "updated_at": "2026-11-07T16:41:00+08:00"
 }

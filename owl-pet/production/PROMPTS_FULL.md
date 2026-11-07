@@ -1,5 +1,16 @@
 # Full ImageGen prompts
 
+## #190 v2 — *Otus lempiji* — batch 20261107T183000+0800 cycle 1/6
+
+### Generation prompt
+
+Create a 3:2 horizontal natural-history concept plate, 1536×1024, in the repository's established warm painterly owl electronic-pet concept style: softly realistic gouache/watercolor texture, natural feather detail, muted tropical woodland palette, restrained sepia field-guide border, no photorealism, no pixel art, no mascot exaggeration, no watermark. Exactly three Sunda Scops Owls (Otus lempiji), each fully visible with natural branch support and no extra birds: LEFT adult male, CENTER older age-unknown juvenile, RIGHT adult female. Preserve near-equal adult size and do not imply a fixed female-larger rule. Adults: same grey-brown morph; compact small scops-owl proportions; short but distinct ear tufts with dark outer edging; dark facial disc with pale collar; deep orange iris within dark-looking eyes; pale horn bill; brown mottled upperparts; pale sandy-buff underparts with fine dark vertical streaking and small chevrons; fully feathered tarsi; toes gripping branches. Adult postures differ subtly but remain calm, alert, and anatomically plausible. Juvenile: an older mobile age-unknown bird matching the directly observed Singapore Hillview stage, smaller and fluffier, pale grey-buff mesoptile with fine head barring and soft indistinct body marks, reduced/indistinct ear tufts, formed but compact folded wing and short tail, stable two-foot branch support, begging posture with slightly open bill and lifted head; no hatchling pose, no mature adult wing pattern, no unsupported exact age. Setting: shaded secondary woodland/urban-edge grove in Singapore, Albizia-like branch structure and foliage; do not show an active nest or egg. Composition must make all feet/supports visible. At top write exactly “SUNDA SCOPS OWL” and underneath “Otus lempiji”. Under each bird write exactly “ADULT MALE”, “AGE-UNKNOWN JUVENILE”, and “ADULT FEMALE”. Scientific guardrails: no large adult sex-size gap; no yellow eyes; no naked long legs; no oversized horn tufts; no juvenile in flight; no prey; no invented nest lining; no extra species.
+
+### Evidence boundary
+
+Sources: SUN-LOK-2009 (pp.33–37, Figs.5–9), SUSO-NPARKS-2025, SUSO-MEES-2006-LEMPIJI (printed p.115), SUN-ITIS-1063234, SUSO-BOS-2026, and repository-indexed Mikkola 2013 printed p.162/uploaded p.164. Unknown: exact juvenile age/sex, iris chronology, first-flight threshold, quantitative Singapore sex ratio. Science remains false.
+
+
 ## #177 v3 — *Otus hartlaubi* — batch 20261107T143537+0800 cycle 2/6
 
 ### Generation

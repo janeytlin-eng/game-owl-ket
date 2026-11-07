@@ -1,3 +1,32 @@
+## 2026-11-07 — #190 *Otus lempiji* v2 — Singapore juvenile behaviour and adult size-direction correction
+
+### SUSO-NPARKS-2025
+- **Title / institution / date:** “Birds of Singapore — Sunda Scops Owl” / National Parks Board Singapore / page accessed 2026-11-07; article page current in retrieval.
+- **URL:** https://www.nparks.gov.sg/florafaunaweb/fauna/1/3/137
+- **Accessed / type:** 2026-11-07 / government biodiversity account and adult reference photographs.
+- **Species / stage:** *Otus lempiji*; adult morphology and Singapore habitat.
+- **Actually read:** retrieved page lines 81–87.
+- **Useful evidence:** short ear tufts, pale-brown collar, brown underparts with faint black streaking, dark-brown-looking eyes with deep-orange irides; Singapore wooded habitat.
+- **Limits / confidence:** adult account only; no sexed morphometrics or juvenile feather chronology. High for listed adult field marks, not a size-ratio source.
+- **Decision links:** #190 v2 adult field marks and Singapore secondary-woodland setting; does not justify female-larger scaling.
+
+### SUSO-MEES-2006-LEMPIJI
+- **Title / author / year:** “The avifauna of Flores (Lesser Sunda Islands)” / G. F. Mees / 2006, Zoologische Mededelingen 80.
+- **URL:** https://repository.naturalis.nl/document/41318
+- **Accessed / type:** 2026-11-07 / Naturalis museum monograph.
+- **Actually read:** printed p.115, repository text lines 8805–8827; comparative *lempiji* series.
+- **Useful evidence:** a Java/Bali *lempiji* comparison reports wing 135–149 mm (n=20) versus 136–151 mm (n=22) and calls the sexual size difference marginal, about 1.5%.
+- **Limits / confidence:** comparison concerns Java/Bali nominate material, not a Singapore sexed series and not an individual-pair prescription. Medium-high for rejecting a large universal female-larger gap; not transferable as an exact Singapore ratio.
+- **Decision links:** #190 v2 adults remain near-equal; no exact percentage is illustrated.
+
+### SUN-LOK-2009 — reused and corrected/expanded reading
+- **Fresh read:** pp.33–37, especially Fig.5 pair of juveniles, Fig.6 begging juvenile, Figs.7–9 feeding sequence, and text on p.37.
+- **Useful evidence:** in October 2008 two mobile juveniles perched in an Albizia at Hillview; both begged, one flew to the adult's branch and handled prey. This directly supports an older, mobile, branch-supported juvenile and a begging action.
+- **Limits:** exact age, molt sequence, sex, iris chronology and flight threshold were not established; flash exposure was deliberately limited.
+- **Decision links:** #190 v2 uses one age-unknown supported begging juvenile, not a hatchling and not a precise-age reconstruction.
+
+**Reused:** `SUN-LOK-2009`, `SUN-ITIS-1063234`, `SUSO-BOS-2026`, and repository-verified Mikkola 2013 printed p.162 / uploaded PDF p.164. The uploaded guide itself was not available to reopen in this execution; only its already indexed page-specific record is reused. Full design boundary and prompt: `research/species/190-otus-lempiji-v2.md`. Science remains false pending expert review.
+
 ## 2026-11-07 — #177 *Otus hartlaubi* v3 — adult photo cross-check and evidence-limited mesoptile
 
 ### STSO-COMMONS-INAT-2018-12933236 — new verified adult photograph

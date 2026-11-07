@@ -1,5 +1,24 @@
 
 
+## 2026-11-08 — #33 *Taenioptynx brodiei* v5 — primary-paper re-read, current combination and 56-day fledgling boundary
+
+### Re-read / correction — COOW-LIN-ETAL-2014
+- **Title / authors / year:** “Colour Morphs in the Collared Pygmy Owl *Glaucidium brodiei* are Age-Related, not a Polymorphism” / Wen-Loung Lin, Si-Min Lin & Hui-Yun Tseng / 2014, *Ardea* 102(1):95–99.
+- **DOI / URL / accessed:** https://doi.org/10.5253/078.102.0115 ; author-uploaded full text read at https://www.researchgate.net/publication/264422734_Colour_Morphs_in_the_Collared_Pygmy_Owl_Glaucidium_brodiei_are_Age-Related_not_a_Polymorphism ; accessed 2026-11-08.
+- **Type / scope:** primary longitudinal nest-box, banding and recapture study at Lien-hua-chih, central Taiwan, supplemented by 68 museum specimens.
+- **Facts actually read:** 63 owls were banded, including 32 nestlings. A known individual hatched 15 June 2010 and at first recapture on 10 August (56 days) was fully grown but retained fledgling plumage: fewer bars/spots on back and crown and an incompletely formed occipital pattern. At 165 days it was rufous with formed occipital pattern; at 394 and 720 days it was grey. The study concludes fledgling plumage occurs at 2–3 months, rufous at 4–7 months and definitive plumage at about 10–11 months. Adult/breeding-pair mass direction is male lighter than female, but measured ranges overlap (male 52–72 g; female 58–92 g).
+- **Pages / figures:** printed pp.95–99; methods and mass p.96; results/discussion and Fig.3 pp.97–98.
+- **Correction applied:** do not treat rufous and grey as stable sex-independent adult colour morphs. V5 uses definitive grey adults and a known-age 56-day fledgling with reduced dorsal/crown pattern and incomplete occipital marking. The overlapping masses permit only a subtle fuller female impression, not a universal height ratio.
+- **Limits:** Taiwan study population; no quantitative wing/tail growth series or first-flight measurement. “Fully grown” does not establish independent flight performance. High confidence for the documented plumage sequence, moderate transfer outside the studied population.
+- **Links:** research/species/33-taenioptynx-brodiei-v5.md; design/concepts/33-taenioptynx-brodiei-v5.png.
+
+### Re-read / correction — COOW-ITIS-2026
+- **Institution / records / accessed:** Integrated Taxonomic Information System; *Taenioptynx brodiei brodiei* TSN 1244720 and *Glaucidium brodiei brodiei* TSN 687017; accessed 2026-11-08.
+- **URLs:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1244720&source=to_print ; https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=687017&source=to_print
+- **Facts actually read:** *Taenioptynx brodiei* is the valid species combination in the current hierarchy; *Glaucidium brodiei brodiei* is an invalid subsequent combination mapped to *Taenioptynx brodiei brodiei*. IOC World Bird List v15.1 is among the current record sources.
+- **Limits / design use:** nomenclature only; does not support plumage, development or sex-size claims. Use current label *Taenioptynx brodiei* and preserve *Glaucidium brodiei* (and project historical *Noctua brodiei*) in the crosswalk.
+
+
 ## 2026-11-08 — #31 *Glaucidium radiatum* v5 — current name, cavity context and older-immature boundary
 
 ### JUOW-ITIS-2025

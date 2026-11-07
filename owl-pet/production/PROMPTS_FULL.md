@@ -570,3 +570,22 @@ Adult male left and adult female right perch on the same broad moss-and-lichen-c
 The center bird is an age-unknown fully feathered older dependent juvenile, grounded by a dated Sinharaja photograph and a parent-associated field observation. It perches lower in the fork with both feet visibly gripping wood and its belly naturally supported. Keep Chestnut-backed Owlet identity while making plumage softer and less organized: muted chestnut mantle, fewer diffuse crown bars, softer incomplete underpart streaks, compact rounded folded wing with muted irregular markings rather than repeated adult white spot rows, and a short soft low-contrast tail. Show a small alert head-turn toward an arriving-parent direction, but no wing display, leap, prey, flight or independence claim. Do not make it a downy hatchling or a miniature adult.
 
 Scene: shaded Sri Lankan wet-zone evergreen forest resembling Sinharaja or Kitulgala, dense soft green foliage, moss, lichens and filtered daylight. Natural support must be unambiguous: all six feet contact the branch/fork. No nest box, no eggs, no exposed open nest, no prey, no watermark, no additional text.
+
+
+## #33 v5 — *Taenioptynx brodiei* — batch 20261108T011416+0800 cycle 2/6
+
+Create one 3:2 horizontal owl-pet scientific character review board, 1536×1024, matching the approved warm hand-painted digital-gouache natural-history style, soft cream paper texture, realistic feather detail and gently rounded electronic-pet proportions. Show exactly three Collared Owlets and no other birds or animals.
+
+Text must be exact and legible:
+top title: “33 · COLLARED OWLET · Taenioptynx brodiei”
+bottom labels left to right: “ADULT MALE”, “56-DAY FLEDGLING”, “ADULT FEMALE”
+
+LEFT ADULT MALE: definitive grey adult plumage, tiny compact round untufted head, lemon-golden eyes, pale greenish-yellow bill, whitish collar, grey-brown crown/back with organized pale spots and bars, white shoulder stripe, pale underparts with broad dark drop-shaped longitudinal marks and crossbars, short barred tail, feathered legs. Pose partly rearward while keeping one facial eye visible, exposing one coherent paired dark nape false-eye pattern with pale borders. Perch naturally with both feet gripping a mossy branch.
+
+CENTER 56-DAY FLEDGLING: the known-age stage documented by Lin, Lin & Tseng (2014), fully grown in body but still in fledgling plumage. Perch lower on a broad fork with both feet and belly naturally supported. Use a soft grey-brown juvenile contour, fewer and weaker bars/spots on back and crown than adults, incomplete muted occipital false-eye pattern rather than crisp adult patches, compact formed folded wings and a short supported tail. The posture is a low alert head-turn, not flight, hopping or begging. Do not infer first-flight ability or independence.
+
+RIGHT ADULT FEMALE: same definitive grey plumage and near-equal displayed crown height as male. She may look subtly fuller in body volume because breeding-pair masses trend higher but ranges overlap; do not make her a separate size class or dramatically taller. Front/three-quarter pose with lemon-golden eye, pale bill, whitish collar, organized adult crown/back pattern, white shoulder stripe and dark underpart marks; both feet visibly supported.
+
+Environment: central-Taiwan-type broadleaf and planted montane woodland edge, filtered morning light, mossy branch and dense soft foliage. A small natural-looking cavity or research nest-box may remain distant background context only; no eggs, nestlings, prey or visible lining. All six feet must be anatomically plausible and visibly supported.
+
+Critical negatives: no ear tufts; no orange adult eyes; no rufous adult “morph” treated as permanent; no extra bird; no mature crisp occipital pattern on the fledgling; no adult-density crown/back spotting on the fledgling; no long mature juvenile tail; no airborne or unsupported juvenile; no exaggerated female size; no watermark; no text beyond the exact title and three labels.

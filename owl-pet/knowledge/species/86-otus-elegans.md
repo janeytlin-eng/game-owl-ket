@@ -47,3 +47,8 @@ Fixed archive `c3d7062aaa9b4fa7d3cf16f3582bf5de2607c33b`; non-truncated recursiv
 ## v5 reviewed and archived — 2026-11-08T03:49:16+08:00
 
 V5 preserves v1–v4 and remains a science revision with no unique-species increment. Fresh evidence supports the Minami-daito *O. e. interpositus* focus, mixed trait directions in sexual dimorphism, post-fledging parental feeding and begging to conspecific hoots. Adults are therefore near-equal with only subtle female fullness. The initial long/orderly fledgling wing was edited to a short compact rounded soft developing wing; edited full plate and all three crops passed. Exact fledgling age/sex, iris chronology, continuous feather sequence, first-flight threshold, independence and transfer beyond *interpositus* remain unknown. Scientific verification stays false pending immutable archive readback.
+
+
+## v5 VERIFIED — 2026-11-08T03:52:33+08:00
+
+Immutable archive `7ac68fa6b297c401927845778dc17bca22e46e5d` passed non-truncated tree, exact image blob/byte and manifest-uniqueness checks. Verification commit `f32c47c1958140580da3a460dd1ec6bfb3eba658`; science revision only, unique increment 0, scientifically_verified=false. [Original](../../design/concepts/86-otus-elegans-v5.png) · [Run](../../production/runs/20261108T034111+0800-cycle-4.md).

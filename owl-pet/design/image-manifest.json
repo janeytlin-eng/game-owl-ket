@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T10:00:00+08:00",
+  "updated": "2026-11-07T10:31:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27188,13 +27188,31 @@
       "auxiliary_review_crop_blob": "c71487f86507803563b3cc712bd5809cf87fc29e",
       "auxiliary_review_crop_sha256": "7b05bee1c743a70fe57d5ec9464a81b36d69e189115bb4703834ef1d3cfa795a",
       "auxiliary_review_crop_size_bytes": 525151,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact juvenile age and individual flight ability are not asserted; adult sex is not visually diagnosable and the slight female fullness is only a regional-evidence-informed design cue; Mikkola upload unavailable.",
-      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization."
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization.",
+      "archive_commit": "98243a5a2d9ab9eaaf80838de77beb4367b9c13e",
+      "archive_tree": "796cc6b09e97914c9d3f60b32d87802ecbcfff20",
+      "verified_at": "2026-11-07T10:31:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 15,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3727,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 764,
+          "design_legacy": 765,
+          "production": 755
+        },
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T10:00:00+08:00"
+  "updated_at": "2026-11-07T10:31:00+08:00"
 }

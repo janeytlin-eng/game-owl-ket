@@ -29260,7 +29260,92 @@
       "verification_commit": "0bb4601c073b17a810032eb2f0f530a6c5683aa7",
       "ledger_credited": true,
       "credited_at": "2026-11-07T21:24:00+08:00"
+    },
+    {
+      "id": "25-glaucidium-brasilianum-cactorum-v4",
+      "path": "design/concepts/25-glaucidium-brasilianum-cactorum-v4.png",
+      "species_id": 25,
+      "scientific_name": "Glaucidium brasilianum cactorum",
+      "common_name": "Cactus Ferruginous Pygmy-Owl",
+      "historical_names": [
+        "Glaucidium brasilianum cactorum (protonym unchanged; Van Rossem 1937)"
+      ],
+      "version": 4,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "SCIENCE_REVISION; PASS_WITH_LIMITATIONS. Direct Arizona nest monitoring bounds the center bird to 28–31 days: fully feathered, chocolate/light brown, whiter and less streaked below, no adult crown flecks, short rufous barred tail and unstable early perching. One edit removed adult-like neat wing rows/long remiges and retained irregular juvenile teardrop tips. Adults show darker/slimmer male and fuller cinnamon-rufous female without exaggerated standing height. Juvenile iris chronology and full nape-patch view remain unknown.",
+      "source_ids": [
+        "CFPO-AGFD-1996-P22-23",
+        "CFPO-USFS-GTR43-2000-P7",
+        "CFPO-VANROSSEM-1937-P27-28",
+        "CFPO-USFWS-FR2023-P46915"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/25-glaucidium-brasilianum-cactorum-v4.md",
+      "review_record": "research/reviews/25-glaucidium-brasilianum-cactorum-v4-review.md",
+      "run_record": "production/runs/20261107T212500+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 807574,
+      "sha256": "50601f4f7008e5ebec42e7ab5b6c0dc4c161eddd676c2aa87a34c929ec5a61b2",
+      "git_blob": "77aac31d0f93b84e51f84c5c51b509a38225ebc5",
+      "initial_original_path": "production/generated/25-glaucidium-brasilianum-cactorum-v4-initial-original.png",
+      "initial_original_blob": "1109963f05df59ec18e20597456d6c0480348e10",
+      "initial_original_size_bytes": 3229537,
+      "initial_original_sha256": "dc00fb918ea138994c51d6cdcd1643bf7107d9f5e540e1b3baf6ad199258e49b",
+      "edited_original_path": "production/generated/25-glaucidium-brasilianum-cactorum-v4-final-original.png",
+      "edited_original_blob": "abb1ea8105d3a3fa8439a7a6d233df5d3c781ffc",
+      "edited_original_size_bytes": 3033313,
+      "edited_original_sha256": "817a214657aeda425f71776ddb41a1b7dfecf161b034baa5c80754d4bcf456ae",
+      "initial_source_path": "production/generated/25-glaucidium-brasilianum-cactorum-v4-initial-full-color.jpg",
+      "initial_source_blob": "f2632588fb77e55a486973fdf612e35eb3a47a8d",
+      "initial_source_size_bytes": 470076,
+      "initial_source_sha256": "6ee8db03adda2cc536a10775c6e6f2c886792ed5f1917d0e33f90560095d8722",
+      "edited_source_path": "production/generated/25-glaucidium-brasilianum-cactorum-v4-full-color.jpg",
+      "edited_source_blob": "08379266dc5dd4e69ab8ab931359a52e2f9b466f",
+      "edited_source_size_bytes": 441003,
+      "edited_source_sha256": "2a047f0c4aca01eb43ecd1de8cc83ae2b0ca28f97f480edc0b50bd8d317eb28e",
+      "generated_path": "production/generated/25-glaucidium-brasilianum-cactorum-v4-generated-master.png",
+      "generated_blob": "77aac31d0f93b84e51f84c5c51b509a38225ebc5",
+      "generated_size_bytes": 807574,
+      "reviewed_path": "production/reviewed/25-glaucidium-brasilianum-cactorum-v4-reviewed-master.png",
+      "reviewed_blob": "77aac31d0f93b84e51f84c5c51b509a38225ebc5",
+      "reviewed_size_bytes": 807574,
+      "review_crops": [
+        {
+          "path": "production/review-crops/25-glaucidium-brasilianum-cactorum-v4-adult-male.png",
+          "blob": "eb94526cef0e8650776d9baa04376c70bba80d5c",
+          "size_bytes": 225650,
+          "sha256": "edbbf5730fe7a6494495ea0c5c676aaef18e5e034ecf2412f51c39f1fe507f0b"
+        },
+        {
+          "path": "production/review-crops/25-glaucidium-brasilianum-cactorum-v4-recent-fledgling.png",
+          "blob": "fc240b857f3857898c727b2b3a40380438bdda83",
+          "size_bytes": 225109,
+          "sha256": "a8ea2353facfc5ecd1465378d79fad0a0759d04580745bc0d511ec092ef953ee"
+        },
+        {
+          "path": "production/review-crops/25-glaucidium-brasilianum-cactorum-v4-adult-female.png",
+          "blob": "d01d6f7c24aaf55b3df5f9766151011648e00ac1",
+          "size_bytes": 205851,
+          "sha256": "ef0898e1f67911dc127b7e9a7b425ab06aa541fa25f8fe399de32aa6396cbdb1"
+        }
+      ],
+      "archive_note": "Initial full image, edited full image, transport master and three crops were opened. One juvenile-only edit removed adult-style wing rows and long remiges. Historical v3 manifest omission was discovered and repaired without overwriting v3. Iris chronology and full juvenile nape view remain unknown.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-07T21:24:00+08:00"
+  "updated_at": "2026-11-07T21:39:00+08:00"
 }

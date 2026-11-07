@@ -1,3 +1,24 @@
+## 2026-11-07 — #177 *Otus hartlaubi* v3 — adult photo cross-check and evidence-limited mesoptile
+
+### STSO-COMMONS-INAT-2018-12933236 — new verified adult photograph
+- **Credit/date/URL:** thibaudaronson, 2018; https://commons.wikimedia.org/wiki/File:Otus_hartlaubi_12933236.jpg
+- **Read:** image and metadata/licence lines 102–152, accessed 2026-11-07.
+- **Use/limit:** compact adult and low-tuft calibration; sex unknown, adult only; CC BY-SA image not copied.
+
+### STSO-AFRICANBIRDCLUB-SINEUX-2020-ADULT — new verified adult photograph
+- **Institution/credit/date/URL:** African Bird Club; Lionel Sineux; Feb 2020; https://africanbirdclub.org/afbid/search/birddetails/birder/805/37008
+- **Read:** image page lines 33–78.
+- **Use/limit:** adult São Tomé field cross-check; no sex or young data.
+
+### Reused/re-read
+- **STSO-MELO-ETAL-2022-P7-P27:** unsexed five-bird measurements support compact scale, not sex dimorphism.
+- **STSO-IUCN-2018-ID:** adult identification and only “juvenile paler”; no age/iris/wing evidence.
+- **STSO-MIKKOLA-2013-P136:** repository transcription supports paler finely barred mesoptile; upload unavailable; downy chick undescribed.
+- **STSO-IUCN-JONES-ETAL-1991-P72-73 / STSO-ITIS-555374-2026:** habitat/timing and name mapping only.
+
+- **Species record:** [#177 v3 research](species/177-otus-hartlaubi-v3.md)
+- **Image:** `design/concepts/177-otus-hartlaubi-v3.png` pending generation.
+
 ## 2026-11-07 — #176 *Otus pembaensis* v3 — old-name correction, adult field texture and evidence-limited mesoptile
 
 ### PESO-FUCHS-ETAL-2008-PMC2483963 — new verified original phylogeny

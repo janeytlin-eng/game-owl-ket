@@ -1,5 +1,22 @@
 # Full ImageGen prompts
 
+## #177 v3 — *Otus hartlaubi* — batch 20261107T143537+0800 cycle 2/6
+
+### Generation
+
+```text
+Use case: scientific-educational.
+Asset: premium tactile naturalistic 3D maquette owl-pet triptych, v3 science revision.
+Species: #177 SÃO TOMÉ SCOPS-OWL — Otus hartlaubi (Giebel, 1872); historical synonym Athene hartlaubi only.
+Canvas: 1536×1024 landscape, warm humid São Tomé middle-altitude forest, restrained moss and broad leaves, museum-quality hand-modelled feather planes, readable but natural. Exactly three complete birds on one broad living branch, all feet supported. Title exactly "177 SÃO TOMÉ SCOPS-OWL" with italic "Otus hartlaubi". Labels exactly: "ADULT MALE" left, "ADULT FEMALE" center, "AGE-UNKNOWN MESOPTILE" right. No other text or birds.
+
+Adults: extremely small compact short-tailed scops-owls in the same controlled grey-brown morph; tiny low ear tufts nearly absent at rest, deep yellow eyes, small yellow bill/cere partly masked by facial bristles, light brown facial disc darker close to eyes, dark grey-brown upperparts with subtle rufous/brown vermiculation and narrow dark shaft streaks, broken conspicuous pale scapular patches, pale underparts with fine brown/rufous barring and restrained darker streaks, narrow buff tail bars. Distal quarter of tarsus only lightly feathered; no long bare legs. Adults near-equal in height and body scale. Female may be only subtly fuller, not taller/larger; do not encode morph or colour as sex. The two newly read adult photographs calibrate compact outline only because sex is not supplied.
+
+Young: AGE-UNKNOWN MESOPTILE, not hatchling and not claimed fledgling. Paler than adults, soft fluffy contour with fine light-brown barring across upper- and underparts, round head with tiny low tufts or none, dark/indeterminate iris, short soft partly formed rounded wings mostly dissolved into fluff, no long adult-hard layered remiges, short partly hidden tail. Calm low stationary posture with both feet gripping the broad branch and belly naturally supported. Do not claim age, sex, flight ability or adult eye chronology.
+
+No nest, cavity, eggs, prey, flight, begging, spread wing, cliff or savanna. Exact young age, iris/wing/tail/flight chronology, nest geometry and robust sex-size ratio remain unknown. Target PASS_WITH_LIMITATIONS; scientifically_verified=false.
+```
+
 ## #176 v3 — *Otus pembaensis* — batch 20261107T143537+0800 cycle 1/6
 
 ### Generation

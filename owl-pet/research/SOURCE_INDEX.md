@@ -3825,3 +3825,17 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Accessed:** 2026-11-07.
 - **Status:** UNVERIFIED DEVELOPMENTAL LEAD. Only abstract/longevity information was accessible; the PDF route failed.
 - **Limits / design use:** no developmental assertion used.
+
+
+## 2026-11-07 — #29 *Glaucidium capense* v5 — short-hop fledgling evidence
+
+### ABOW-VENTER-BIRDLIFE-2019-PP23-28
+- **Title / author / year:** “Enchanted evenings with African Barred Owlets” — Albie Venter, 2019.
+- **Publication / pages:** *African Birdlife*, May/June 2019, pp.23–28; BirdLife South Africa.
+- **URL:** https://www.birdlife.org.za/22-28_barred-owlets_new3/
+- **Accessed / type:** 2026-11-07; direct field observation and photographic account.
+- **Taxon/stage:** *Glaucidium capense*; adults, nestlings and newly fledged dependent young at Thornybush, Limpopo.
+- **Facts:** natural rot hole in marula; post-departure chicks roosted in nearby trees, made only short hops, did not travel far, and stretched flight muscles; adults continued provisioning.
+- **Limits:** exact age and sex of photographed chicks, daily feather/iris sequence and sustained-flight threshold are not supplied.
+- **Design use:** low, fully supported recent fledgling making one short-wing stretch; no airborne pose or exact day claim.
+- **Links:** research/species/29-glaucidium-capense-v5.md; design/concepts/29-glaucidium-capense-v5.png.

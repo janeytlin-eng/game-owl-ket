@@ -547,3 +547,16 @@ Recent fledgling: age and sex unknown, newly outside the cavity and still parent
 Text (verbatim): top title "28 PEARL-SPOTTED OWLET"; below it italic "Glaucidium perlatum"; labels "ADULT MALE", "RECENT FLEDGLING", "ADULT FEMALE". No other words.
 Constraints: exact three birds; natural six-foot support; adult sexes same plumage; near-equal adult scale; false eyes anatomically coherent; juvenile remains fully supported; habitat and cavity context plausible.
 Avoid: ear tufts, dramatically larger female, sex-coded adult colour differences, extra birds, prey, eggs, visible nest contents, airborne juvenile, unsupported feet, adult-length juvenile tail, mature ordered pearl rows or rigid adult wing on the fledgling, invented iris chronology, watermark, extra text.
+
+
+## #29 African Barred Owlet · *Glaucidium capense* · v5 · 2026-11-07
+
+Use case: scientific-educational
+Asset type: owl-pet 1536×1024 natural-history prototype group plate
+Primary request: Exactly three African Barred Owlets, Glaucidium capense, in the established polished realistic field-guide style.
+Scene/backdrop: mature southern African riparian woodland/bushveld garden at dusk, marula/ana branches and a natural rot-hole nest tree softly behind; no visible eggs or nestlings.
+Composition: left ADULT MALE, center RECENT FLEDGLING, right ADULT FEMALE. Adults on one broad branch at near-equal crown height; female only subtly fuller. Center fledgling is lower on a fork, both feet and belly supported, making a documented short-hop preparation/wing-stretch: one short soft developing wing partly raised while the other stays folded; not airborne.
+Adults: rounded tuftless heads; yellow eyes; fine dense brown-and-white barring on crown, upperparts and breast; bold white shoulder/scapular patches; darker lower-belly spots; short barred tails; NO nape false eyes; same plumage in both sexes.
+Fledgling: age unknown but freshly out of nest and still parent-dependent; soft dark-brown contour, weak incomplete pale barring, no bold adult shoulder patch, short soft developing wing and short partly hidden tail, dim indeterminate iris. Natural support and ability limited to short hops.
+Text verbatim: "29 AFRICAN BARRED OWLET"; italic "Glaucidium capense"; labels "ADULT MALE", "RECENT FLEDGLING", "ADULT FEMALE". No other text.
+Avoid: nape false eyes, ear tufts, oversized female, sex-coded colours, adult-neat juvenile covert rows, long rigid juvenile wing/tail, airborne fledgling, unsupported feet, prey, extra bird, watermark, extra text.

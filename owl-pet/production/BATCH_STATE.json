@@ -29695,20 +29695,20 @@
       "active_cycle": 5,
       "started_at": "2026-11-07T14:00:00+08:00",
       "updated_at": "2026-11-07T16:20:00+08:00",
-      "current_stage": "STARTED",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T162000+0800-cycle-5",
-        "heartbeat_at": "2026-11-07T16:20:00+08:00",
-        "expires_at": "2026-11-07T16:35:00+08:00"
+        "heartbeat_at": "2026-11-07T16:28:00+08:00",
+        "expires_at": "2026-11-07T16:43:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
         "species_id": 174,
         "species": "Strix sartorii",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T162000+0800-cycle-5",
         "run_record": "owl-pet/production/runs/20261107T162000+0800-cycle-5.md"
       },
@@ -30438,14 +30438,37 @@
             "lease_expires_at": "2026-11-07T16:35:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "cycle": 5,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T16:28:00+08:00",
+          "run_id": "20261107T162000+0800-cycle-5",
+          "species_id": 174,
+          "species": "Strix sartorii",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/174-strix-sartorii-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "prompt_record": "owl-pet/design/PROMPTS_FULL.md",
+            "sources": {
+              "newly_indexed": 5,
+              "newly_read_or_recovered": 2,
+              "reread_existing": 3
+            },
+            "age_boundary": "age unknown; observed flying and apparent feeding",
+            "mikkola_upload_accessible": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T16:43:00+08:00"
+          }
         }
       ],
-      "stage": "STARTED",
+      "stage": "RESEARCH_READY",
       "last_checkpoint": {
         "batch_id": "20261107T140000+0800",
         "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-07T16:20:00+08:00",
+        "stage": "RESEARCH_READY",
+        "at": "2026-11-07T16:28:00+08:00",
         "run_record": "owl-pet/production/runs/20261107T162000+0800-cycle-5.md"
       },
       "events": [
@@ -30627,10 +30650,33 @@
             "lease_expires_at": "2026-11-07T16:35:00+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "cycle": 5,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T16:28:00+08:00",
+          "run_id": "20261107T162000+0800-cycle-5",
+          "species_id": 174,
+          "species": "Strix sartorii",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/174-strix-sartorii-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "prompt_record": "owl-pet/design/PROMPTS_FULL.md",
+            "sources": {
+              "newly_indexed": 5,
+              "newly_read_or_recovered": 2,
+              "reread_existing": 3
+            },
+            "age_boundary": "age unknown; observed flying and apparent feeding",
+            "mikkola_upload_accessible": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T16:43:00+08:00"
+          }
         }
       ],
       "timestamps": {
-        "RESEARCH_READY": "2026-11-07T15:58:00+08:00",
+        "RESEARCH_READY": "2026-11-07T16:28:00+08:00",
         "IMAGE_GENERATED": "2026-11-07T16:00:00+08:00",
         "REVIEWED": "2026-11-07T16:05:00+08:00",
         "ARCHIVED": "2026-11-07T16:10:00+08:00",
@@ -30640,19 +30686,18 @@
       },
       "stage_evidence": {
         "RESEARCH_READY": {
-          "research_record": "owl-pet/research/species/173-otus-madagascariensis-v3.md",
+          "research_record": "owl-pet/research/species/174-strix-sartorii-v3.md",
           "source_index": "owl-pet/research/SOURCE_INDEX.md",
           "prompt_record": "owl-pet/design/PROMPTS_FULL.md",
           "sources": {
-            "reused": 3,
-            "corrected": 1,
-            "new_verified": 0,
-            "new_unverified_leads": 1
+            "newly_indexed": 5,
+            "newly_read_or_recovered": 2,
+            "reread_existing": 3
           },
-          "age_boundary": "age-unknown older immature; exact age/sex/flight unknown",
+          "age_boundary": "age unknown; observed flying and apparent feeding",
           "mikkola_upload_accessible": false,
           "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T16:13:00+08:00"
+          "lease_expires_at": "2026-11-07T16:43:00+08:00"
         },
         "IMAGE_GENERATED": {
           "generation_sha256": "3a537d7fecfd285ba1426bb08001b06b48a750d94bb22cc47a7323dc46e59801",
@@ -30761,8 +30806,8 @@
   "lease": {
     "owner": "codex",
     "run_id": "20261107T162000+0800-cycle-5",
-    "heartbeat_at": "2026-11-07T16:20:00+08:00",
-    "expires_at": "2026-11-07T16:35:00+08:00"
+    "heartbeat_at": "2026-11-07T16:28:00+08:00",
+    "expires_at": "2026-11-07T16:43:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -30909,8 +30954,8 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261107T162000+0800-cycle-5",
-    "heartbeat_at": "2026-11-07T16:20:00+08:00",
-    "expires_at": "2026-11-07T16:35:00+08:00"
+    "heartbeat_at": "2026-11-07T16:28:00+08:00",
+    "expires_at": "2026-11-07T16:43:00+08:00"
   },
   "last_updated_at": "2026-11-07T15:48:00+08:00",
   "audit_notes": [
@@ -31714,7 +31759,7 @@
     "species_id": 174,
     "species": "Strix sartorii",
     "version": 3,
-    "stage": "STARTED",
+    "stage": "RESEARCH_READY",
     "run_id": "20261107T162000+0800-cycle-5",
     "run_record": "owl-pet/production/runs/20261107T162000+0800-cycle-5.md"
   },
@@ -31728,8 +31773,8 @@
   "last_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 5,
-    "stage": "STARTED",
-    "at": "2026-11-07T16:20:00+08:00",
+    "stage": "RESEARCH_READY",
+    "at": "2026-11-07T16:28:00+08:00",
     "run_record": "owl-pet/production/runs/20261107T162000+0800-cycle-5.md"
   },
   "history": [
@@ -36273,7 +36318,7 @@
   ],
   "active_batch_id": "20261107T140000+0800",
   "active_cycle": 5,
-  "current_stage": "STARTED",
+  "current_stage": "RESEARCH_READY",
   "next_cycle": 5,
   "unique_species_count": 176,
   "total_species": 251,
@@ -45685,6 +45730,29 @@
         "lease_expires_at": "2026-11-07T16:35:00+08:00",
         "scientifically_verified": false
       }
+    },
+    {
+      "cycle": 5,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-07T16:28:00+08:00",
+      "run_id": "20261107T162000+0800-cycle-5",
+      "species_id": 174,
+      "species": "Strix sartorii",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/174-strix-sartorii-v3.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "prompt_record": "owl-pet/design/PROMPTS_FULL.md",
+        "sources": {
+          "newly_indexed": 5,
+          "newly_read_or_recovered": 2,
+          "reread_existing": 3
+        },
+        "age_boundary": "age unknown; observed flying and apparent feeding",
+        "mikkola_upload_accessible": false,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T16:43:00+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261107T103800+0800",
@@ -51343,6 +51411,29 @@
         "lease_expires_at": "2026-11-07T16:35:00+08:00",
         "scientifically_verified": false
       }
+    },
+    {
+      "cycle": 5,
+      "stage": "RESEARCH_READY",
+      "at": "2026-11-07T16:28:00+08:00",
+      "run_id": "20261107T162000+0800-cycle-5",
+      "species_id": 174,
+      "species": "Strix sartorii",
+      "credited": false,
+      "evidence": {
+        "research_record": "owl-pet/research/species/174-strix-sartorii-v3.md",
+        "source_index": "owl-pet/research/SOURCE_INDEX.md",
+        "prompt_record": "owl-pet/design/PROMPTS_FULL.md",
+        "sources": {
+          "newly_indexed": 5,
+          "newly_read_or_recovered": 2,
+          "reread_existing": 3
+        },
+        "age_boundary": "age unknown; observed flying and apparent feeding",
+        "mikkola_upload_accessible": false,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T16:43:00+08:00"
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -51406,7 +51497,7 @@
     }
   ],
   "updated": "2026-11-07T15:48:00+08:00",
-  "stage": "STARTED",
+  "stage": "RESEARCH_READY",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
     "baseline_main": "27f57fdd9785164a39369ffdcffd7c1ec70aff7b",
@@ -51414,19 +51505,18 @@
     "lease_expires_at": "2026-11-07T16:03:00+08:00",
     "scientifically_verified": false,
     "RESEARCH_READY": {
-      "research_record": "owl-pet/research/species/173-otus-madagascariensis-v3.md",
+      "research_record": "owl-pet/research/species/174-strix-sartorii-v3.md",
       "source_index": "owl-pet/research/SOURCE_INDEX.md",
       "prompt_record": "owl-pet/design/PROMPTS_FULL.md",
       "sources": {
-        "reused": 3,
-        "corrected": 1,
-        "new_verified": 0,
-        "new_unverified_leads": 1
+        "newly_indexed": 5,
+        "newly_read_or_recovered": 2,
+        "reread_existing": 3
       },
-      "age_boundary": "age-unknown older immature; exact age/sex/flight unknown",
+      "age_boundary": "age unknown; observed flying and apparent feeding",
       "mikkola_upload_accessible": false,
       "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T16:13:00+08:00"
+      "lease_expires_at": "2026-11-07T16:43:00+08:00"
     },
     "IMAGE_GENERATED": {
       "generation_sha256": "3a537d7fecfd285ba1426bb08001b06b48a750d94bb22cc47a7323dc46e59801",
@@ -51532,7 +51622,7 @@
   },
   "last_verification_commit": "391498b03379e62923d15eb0671c30f6aa767550",
   "timestamps": {
-    "RESEARCH_READY": "2026-11-07T15:58:00+08:00",
+    "RESEARCH_READY": "2026-11-07T16:28:00+08:00",
     "IMAGE_GENERATED": "2026-11-07T16:00:00+08:00",
     "REVIEWED": "2026-11-07T16:05:00+08:00",
     "ARCHIVED": "2026-11-07T16:10:00+08:00",

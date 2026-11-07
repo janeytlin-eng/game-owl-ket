@@ -294,3 +294,16 @@ Edit this existing scientific owl plate only where needed. Preserve the title, a
 
 Correct only the right AGE-UNKNOWN OLDER IMMATURE: make its folded wing visibly shorter, softer and less adult-layered, with fluffy covert edges and fewer exposed hard remex layers; shorten and partly conceal the tail behind its body and branch while retaining only subtle narrower pointed rectrix tips. Keep it clearly an older immature, not a newborn: eyes open and yellow, adult-like face, soft fluffy body, both feet fully and naturally supported on the branch. Do not add a nest, cavity, eggs, flight, extra birds or extra text. Keep the short low ear tufts rather than tall theatrical tufts.
 ```
+
+
+## 174 *Strix sartorii* v3 — 2026-11-07
+
+Create a polished 1536×1024 landscape scientific owl-pet plate in the repository’s established premium stylized 3D maquette look. Title exactly “174 CINEREOUS OWL · Strix sartorii”. Exactly three complete earless Strix owls in order and labels: left “ADULT MALE”, centre “ADULT FEMALE”, right “AGE-UNKNOWN FLIGHT-CAPABLE FLEDGLING”.
+
+Adults: large rounded heads with no ear tufts; very dark brown-black irises; yellowish horn bills; broad plain dirty-white to cool pale-grey facial discs completely without dark concentric rings. Plumage is cold blackish-sepia and grey-brown, distinctly darker and less reddish than Barred Owl: restrained pale barring across crown, neck and upper breast; off-white to clear-white lower underparts with long nearly black sepia longitudinal streaks; subdued pale bars on wings and tail. Toes are feathered to the claw bases; dark claws; both feet naturally grip the branch. Male and female share the same plumage and near-equal standing height; make the female only subtly fuller because the known female type measurement does not establish a sex ratio.
+
+The right bird is the directly documented Nayarit stage: exact age unknown, but observed flying out of sight and apparently receiving food. Show a clearly juvenile soft/fluffy contour and softer head, with developed but not exaggerated folded flight feathers adequate for that observed capability, a short supported tail, and both feet gripping the branch in a low stable pose. Do not depict a white hatchling or a miniature finished adult; do not show it flying.
+
+Habitat: neutral cool daylight in relatively humid montane pine–oak forest around Cerro San Juan/Rancho La Noria, Nayarit, about 1,650 m, with grey pine trunks, oak foliage, moss and restrained highland depth. Distinct calm three-quarter poses and clear support.
+
+Avoid ear tufts, warm Fulvous-Owl golden palette, Barred-Owl facial rings, exaggerated female size, sex colour split, yellow adult irises, unsupported feet, overlong hard adult-like juvenile wing layers, white downy hatchling, nest, eggs, prey, extra birds, extra text, decorative border, watermark or orange sunset grading.

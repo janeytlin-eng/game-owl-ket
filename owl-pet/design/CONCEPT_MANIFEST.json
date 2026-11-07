@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T04:49:16.620+08:00",
+  "updated": "2026-11-08T05:38:09.875+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30803,7 +30803,91 @@
       "verified_at": "2026-11-08T04:49:16.620+08:00",
       "exact_readback": true,
       "verification_result": "Immutable repaired archive tree was non-truncated (4,169 entries). All 20 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Three manifests parsed at 809/806/799 with #93 v5 newest and exactly once."
+    },
+    {
+      "id": "97-lophostrix-cristata-v5",
+      "path": "design/concepts/97-lophostrix-cristata-v5.png",
+      "species_id": 97,
+      "scientific_name": "Lophostrix cristata",
+      "historical_names": [
+        "Syrnium griseatum"
+      ],
+      "common_name": "Crested Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1–v4. Wetmore 1968 sexed museum ranges overlap and reverse direction between sampled subspecies, so adults remain near-equal with only subtle female fullness. The age- and sex-unknown older mesoptile retains evidence-supported white body/head, dark rufous disc, short tufts and formed brown folded wing/tail, fully supported on a mossy branch. Barros & Cintra 2009 supports mature lowland forest with more snags as habitat context, not a nest claim. Exact age, sex, flight threshold, independence, feather sequence, population dimorphism and universal nest form remain unknown.",
+      "source_ids": [
+        "CRI-WETMORE-1968-P159-161",
+        "CRI-BARROS-CINTRA-2009",
+        "CRI-STORER-1972-METADATA",
+        "CRI-MIK2013-358",
+        "CRI-BIRDS-BOLIVIA-2026",
+        "CRI-SPRINGER-ERRATUM-2014"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/97-lophostrix-cristata-v5.md",
+      "review_record": "research/reviews/97-lophostrix-cristata-v5-review.md",
+      "run_record": "production/runs/20261108T045200+0800-cycle-1.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3118927,
+      "sha256": "3bb79aaa261b899e081880d7c331c9d9ea7d279e5791547686ac8b39b2023218",
+      "git_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
+      "initial_original_path": "production/generated/97-lophostrix-cristata-v5-initial-original.png",
+      "initial_original_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
+      "initial_original_size_bytes": 3118927,
+      "initial_original_sha256": "3bb79aaa261b899e081880d7c331c9d9ea7d279e5791547686ac8b39b2023218",
+      "final_original_path": "production/generated/97-lophostrix-cristata-v5-final-original.png",
+      "final_original_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
+      "final_original_size_bytes": 3118927,
+      "final_original_sha256": "3bb79aaa261b899e081880d7c331c9d9ea7d279e5791547686ac8b39b2023218",
+      "full_color_source_path": "production/generated/97-lophostrix-cristata-v5-full-color.png",
+      "full_color_source_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
+      "full_color_source_size_bytes": 3118927,
+      "full_color_source_sha256": "3bb79aaa261b899e081880d7c331c9d9ea7d279e5791547686ac8b39b2023218",
+      "generated_path": "production/generated/97-lophostrix-cristata-v5-generated-master.png",
+      "generated_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
+      "generated_size_bytes": 3118927,
+      "reviewed_path": "production/reviewed/97-lophostrix-cristata-v5-reviewed-master.png",
+      "reviewed_blob": "b5c0e0c7d907f9ccc78eab7e3d96866b93c0507c",
+      "reviewed_size_bytes": 3118927,
+      "review_crops": [
+        {
+          "path": "production/review-crops/97-lophostrix-cristata-v5-adult-male.png",
+          "blob": "a7c7ad48c90fd25944d990eff657de9b3823c463",
+          "size_bytes": 984707
+        },
+        {
+          "path": "production/review-crops/97-lophostrix-cristata-v5-older-juvenile.png",
+          "blob": "ab0402043550d382707f280f320af871ee63e4e3",
+          "size_bytes": 930457
+        },
+        {
+          "path": "production/review-crops/97-lophostrix-cristata-v5-adult-female.png",
+          "blob": "1e3f6dd67658647ab06122c229f651c4be6ee03a",
+          "size_bytes": 979836
+        }
+      ],
+      "archive_note": "Recovered from the prior REVIEWED checkpoint without regeneration. Full plate and three role crops had been opened and passed. Full-size originals retained; immutable readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "archive_commit": null,
+      "exact_readback": false,
+      "archived_at": "2026-11-08T05:38:09.875+08:00"
     }
   ],
-  "updated_at": "2026-11-08T04:49:16.620+08:00"
+  "updated_at": "2026-11-08T05:38:09.875+08:00"
 }

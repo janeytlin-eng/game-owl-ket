@@ -4070,3 +4070,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 - Verification `68cd3c050eb407bfb2701b635ad2627b1528e45c` and archive `2a76e7280c3a4b04415460f0c5323fa627279b2c` read back.
 - Credited cycle 2/6 exactly once; next cycle 3. Coverage 176/251; revision +1; science=false; lease released.
+
+
+## 2026-11-08 — #97 v5 ARCHIVED pending readback
+
+- Recovered prior REVIEWED checkpoint without regeneration; concept/original/reviewed aliases and three role crops persisted.
+- Wetmore sexed samples do not support a universal female-larger rule; older mesoptile remains age/sex unknown and branch-supported.
+- PASS_WITH_LIMITATIONS, science=false; unique coverage remains 176/251; revision +1 only after verification.
+- Manifests staged at 810 / 807 / 800; immutable readback pending.

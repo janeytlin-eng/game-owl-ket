@@ -1741,3 +1741,6 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - Added two read source records, reused four, corrected one design boundary, and retained unresolved juvenile/sex/nest details as unknown.
 
 - 2026-11-07T22:59:17.142+08:00: archived #27 *Glaucidium passerinum* v5 science revision with research/review evidence, initial+edited originals, review master/crops and three manifest entries; immutable readback pending.
+
+
+- 2026-11-08T05:38:09.875+08:00: #97 *Lophostrix cristata* v5 archived from the recoverable REVIEWED checkpoint; no regeneration or edit, concept/master/crops and three manifests persisted; immutable readback pending; science=false.

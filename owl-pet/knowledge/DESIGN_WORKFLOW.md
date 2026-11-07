@@ -1018,3 +1018,10 @@ When a species guide says “juvenile not known” but a regional field photogra
 - **Evidence:** Lin, Lin & Tseng (2014), pp.95–99, known-age recapture sequence and Fig.3.
 - **Rule applied:** encode the documented age plumage directly; use definitive grey for adults; make the 56-day fledgling visibly less patterned with incomplete occipital design; treat “fully grown” as body/plumage evidence only.
 - **Validation:** first render and three crops passed; no unsupported flight, leap or independence pose. This validation applies to #33 v5 only; other species require their own developmental evidence.
+
+
+## 2026-11-08 — conflicting subspecies sex ranges block a universal dimorphism rule (#97 v5)
+
+- **Problem/evidence:** sexed museum measurements overlap, and the apparent direction differs between sampled subspecies; a habitat association with snags is not nest evidence.
+- **Applied:** keep adults near equal with only subtle presentation fullness, and keep the age-unknown older mesoptile on a broad supported branch without flight, independence or nest claims.
+- **Validated:** the prior full plate and three role crops passed with zero edits; this is local visual validation for #97 v5, not a universal sex-size or developmental rule.

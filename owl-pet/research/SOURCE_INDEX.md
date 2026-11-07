@@ -1,3 +1,42 @@
+
+
+## 2026-11-08 — #31 *Glaucidium radiatum* v5 — current name, cavity context and older-immature boundary
+
+### JUOW-ITIS-2025
+- **Title / institution / accessed:** “ITIS Report: *Glaucidium radiatum*” / Integrated Taxonomic Information System / accessed 2026-11-08.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555463&source=to_print
+- **Type / scope:** government-integrated taxonomic authority; species name and synonymy.
+- **Facts read:** *Glaucidium radiatum* (Tickell, 1833) is valid; *Strix radiata* Tickell, 1833 is a synonym; two direct children are *G. r. radiatum* and *G. r. malabaricum*.
+- **Section / lines:** Taxonomy and Nomenclature, retrieved lines 6–16 and 45–49.
+- **Limits / confidence:** supports nomenclature, not plumage, development or sex-size direction. High confidence for name mapping.
+- **Design use:** current label *Glaucidium radiatum*; retain *Strix radiata* as historical mapping; do not use taxonomy as morphology evidence.
+
+### JUOW-MADRAS-MUSEUM-1979
+- **Title / author / year / accessed:** *Birds’ Eggs and Nests in the Collection of the Madras Government Museum* / S. Thomas Satyamurti, Government Museum Madras / 1979 / accessed 2026-11-08.
+- **URL:** https://govtmuseumchennai.org/uploads/topics/16528786805140.pdf
+- **Type / scope:** government museum catalogue with nidification notes; nominate *G. r. radiatum*.
+- **Facts read:** wooded/forest tracts; April–May breeding with earlier records; two to four white eggs in hollow trees; natural holes are usual, deserted barbet/woodpecker holes less frequent; thin deciduous and dense evergreen forest both recorded.
+- **Page / lines:** printed p.145, retrieved lines 2556–2564.
+- **Limits / confidence:** historical synthesis; no juvenile plumage, growth series or sexed measurements. High confidence for cavity and habitat context, moderate for broad breeding summary.
+- **Design use:** natural deciduous-tree cavity background only; no exposed nest or invented nesting material.
+
+### JUOW-OISEAUXNET-LEBOFF-2026
+- **Title / author / date / accessed:** “Jungle Owlet — gale387974” / Anne and Gabriel Leboff / photograph dated January 2026; page accessed 2026-11-08.
+- **URL:** https://www.oiseaux.net/en/photos/gabriel.leboff/jungle.owlet.7.html?ctx=espece
+- **Type / scope:** dated, locality-tagged field photograph; Pīlībhīt, Uttar Pradesh; explicitly tagged “immature”.
+- **Facts read/viewed:** the page identifies *G. radiatum*, labels the plumage immature, and gives January 2026, Pīlībhīt, Uttar Pradesh. The photographed individual is fully feathered, yellow-eyed and naturally branch-supported.
+- **Section / lines:** photo metadata, retrieved lines 45–50 and 65–87; image itself viewed on the page.
+- **Limits / confidence:** one unsexed individual; no exact age, flight threshold or independence data. High confidence for this older-immature visual boundary only. Copyright respected: link and concise observations, no image copied.
+- **Design use:** age-unknown fully feathered older immature with yellow eyes, compact formed wing, short supported pose; no exact day-age or flight claim.
+
+### JUOW-OISEAUXBIRDS-BOUGLOUAN-2026
+- **Title / author / accessed:** “Jungle Owlet” / Nicole Bouglouan, Oiseaux-Birds / accessed 2026-11-08.
+- **URL:** https://www.oiseaux-birds.com/card-jungle-owlet.html
+- **Type / scope:** secondary species synthesis citing HBW, König/Weick and Mikkola.
+- **Facts read:** adults 20–22 cm; round untufted head, yellow eyes, green-yellow/yellow-gray bill, dense barring, rufous upperwing, no false eyes; male and female similar; juvenile has less distinct underpart barring and browner tail bars; mixed deciduous/secondary habitat and tree cavities.
+- **Section / lines:** Description and Habitat, retrieved lines 84–121; juvenile and sex statements lines 112–119.
+- **Limits / confidence:** secondary synthesis, not a sexed measurement table or continuous development series. Moderate-high for identity, moderate for juvenile summary.
+- **Design use:** near-equal same-plumage adults; older immature with softer lower barring and browner short tail; no categorical female-larger claim.
 ## 2026-11-08 — #30 *Glaucidium cuculoides* v5 — official Hong Kong fledgling boundary and nest-context restraint
 
 ### ASBO-HKBWS-AVIFAUNA-2024

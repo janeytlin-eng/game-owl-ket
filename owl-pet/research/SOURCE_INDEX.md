@@ -1,3 +1,26 @@
+## 2026-11-07 — #195 *Otus brookii solokensis* v3 — sex-size transfer correction and juvenile boundary
+
+### RAJ-AVIBASE-8F4D4FC5-2026
+- **Title / institution / accessed:** Rajah Scops Owl (*solokensis*) taxon page / Avibase-BSC-EOC / 2026-11-07.
+- **URL:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=8F4D4FC5D98E481A&lang=EN
+- **Type / scope:** checklist aggregator; current taxonomy, original combination and distribution.
+- **Facts:** *Otus brookii solokensis* is the Sumatran montane-forest subspecies; protonym *Pisorhina solokensis*; Solok/Padang Highlands type locality.
+- **Limits / confidence:** high for mapping to the cited checklists, no morphology or development; used only for name/scope.
+- **Design use / links:** name and Sumatran scope for `research/species/195-otus-brookii-v3.md` and concept v3.
+
+### RAJ-FLICKR-VINCE-2019
+- **Title / author / accessed:** “Lifer—Rajah Scops Owl (*Otus brookii solokensis*)” / Vince_Adam Photography / photograph taken and posted 2019; page read 2026-11-07.
+- **URL:** https://www.flickr.com/photos/65586506@N04/48411745371
+- **Type / scope:** field photograph and photographer metadata; Sumatran adult.
+- **Facts:** page image/metadata show dark adult, blackish crown, white ear tufts, thick underpart streaks and orange iris.
+- **Limits / conflict:** adult only; accompanying juvenile statement concerns nominate *brookii* and does not establish *solokensis* development.
+- **Design use / links:** adult visual cross-check only; `research/species/195-otus-brookii-v3.md`.
+
+### Applied correction using existing primary sources
+- Re-read `RAJ-GOODDIE-2015-P70-81` at printed pp.74–75 / direct PDF lines 616–639 and `RAJ-MARSHALL-1978-P20` at printed p.20 / direct PDF lines 1408–1420.
+- Marshall’s “females are larger” sentence is explicitly attached to the *bakkamoena* group before the *O. brookii* account. V2’s “female subtly fuller” direction is therefore removed rather than transferred across taxa.
+- `RAJ-MIK2013-P168` and `RAJ-BOWMAN2014-JUV` are reused for the older mesoptile only. The upload was unavailable to reopen; exact age, flight, sex and iris chronology remain unknown.
+
 ## 2026-11-07 — #190 *Otus lempiji* v2 — Singapore juvenile behaviour and adult size-direction correction
 
 ### SUSO-NPARKS-2025

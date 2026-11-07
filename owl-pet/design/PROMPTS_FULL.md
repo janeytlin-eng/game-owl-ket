@@ -435,3 +435,16 @@ Evidence boundary: adult diagnostic soft parts and hind-neck patch plus the rece
 
 Avoid: exaggerated sex size difference, different sex morphs, overlong horn-like tufts, yellow juvenile eyes, mature juvenile remiges/tail, unsupported feet, flight action, reconstructed nest/cavity, extra text/birds, watermark or orange grading. Target PASS_WITH_LIMITATIONS; scientifically_verified=false.
 ~~~
+
+
+## #195 Rajah Scops Owl — *Otus brookii solokensis* v3 (2026-11-07)
+
+```text
+Create one premium photorealistic scientific owl-pet concept plate, landscape 3:2, 1536×1024, matching the repository’s established warm natural-history comparison-board style. Exact title: “RAJAH SCOPS OWL”. Exact italic subtitle: “Otus brookii solokensis”. Exactly three full-body birds and exactly three labels: left “ADULT MALE”, center “OLDER JUVENILE”, right “ADULT FEMALE”. Humid Sumatran montane rain forest around 1,300 m, warm filtered daylight, an old mossy trunk with a natural cavity visible in the background but no eggs, prey, nest box, invented lining or extra birds. All three birds stand on a sturdy mossy branch with both feet visibly and naturally supported.
+
+Adults: Sumatran Rajah Scops Owls of the same morph and exactly near-equal displayed scale; do not infer or encode any sex-size direction. Different relaxed poses only. Compact scops-owl proportions, exceptionally soft deep-fuscous upperparts, blackish crown sharply contrasting with a warm rufous face, broken white supercilia and nearly white inner ear-tuft webs, subdued broken pale hindneck collar suggestions rather than clean rings, sparse enlarged irregular blackish pattern rather than repeated tiles, broad irregular dark shaft streaks over whitish-rufous underparts, pale yellow-orange irises, pale horn-yellow bill, heavily feathered tarsi and feathering extending onto the basal toes. Long but natural ear tufts, realistic feather microstructure, no eyelashes or gender props.
+
+Juvenile: evidence-bounded age-unknown older Sumatran mesoptile, not a hatchling and not a miniature crisp adult. Smaller, rounder and softer, reddish-brown mesoptile with fine uneven dark cross-bars and a whitish-rufous underside freckled or streaked darker; small emerging tufts; subdued amber-orange eyes consistent with the previously photographed stage but do not imply a universal developmental iris sequence. Show a compact soft folded wing and short supported tail, no long rigid adult remiges, no adult scapular rows, no flying or unsupported begging. Both feet grip the branch and belly rests naturally near it.
+
+Composition: generous title field, balanced spacing, no overlap, all feet and tails fully in frame, adults not clones, readable exact text. Avoid: dramatic female size, three clean white collar rings, regular graphic barring, borrowed Sunda Scops Owl pattern, extra birds, eggs, prey, flight, detached toes, branch-through-body errors, cropped feet, watermark, misspelling, extra text.
+```

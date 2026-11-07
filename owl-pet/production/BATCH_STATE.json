@@ -32342,14 +32342,14 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:30:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-07T19:33:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T193000+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T19:30:00+08:00",
-        "expires_at": "2026-11-07T19:45:00+08:00"
+        "heartbeat_at": "2026-11-07T19:33:00+08:00",
+        "expires_at": "2026-11-07T19:48:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
@@ -32358,7 +32358,7 @@
         "species": "Otus brookii",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md"
       },
       "active": {
@@ -32527,6 +32527,35 @@
             "baseline_main": "3a915a6fb650123c161b22da48c7724dcebee94c",
             "selection_note": "#195 Otus brookii solokensis has archived v1/v2 but no v3. Its v2 prompt applied an unsupported female-fuller direction despite the cited museum series not verifying a sex-size direction, and juvenile iris/age limits need a fresh source check. V1/v2 remain preserved; this is a non-destructive science revision.",
             "lease_expires_at": "2026-11-07T19:45:00+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T19:33:00+08:00",
+          "run_id": "20261107T193000+0800-cycle-2",
+          "species_id": 195,
+          "species": "Otus brookii",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/195-otus-brookii-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
+            "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
+            "new_sources": 2,
+            "reused_sources": 6,
+            "corrected_sources": 1,
+            "design_boundary": "adults near-equal with no sex-size direction; older branch-supported mesoptile with compact soft wing/tail; no hatchling/flight/iris chronology claim",
+            "unknowns": [
+              "exact juvenile age/sex",
+              "first-flight threshold",
+              "iris chronology",
+              "hatchling appearance",
+              "quantitative sex dimorphism"
+            ],
+            "mikkola_access": "page-specific repository transcription reused; uploaded guide unavailable this execution",
+            "lease_expires_at": "2026-11-07T19:48:00+08:00",
             "scientifically_verified": false
           }
         }

@@ -26832,13 +26832,31 @@
       "auxiliary_review_crop_blob": "14821e78fd56d2dce81ca59692acc51d606c7a86",
       "auxiliary_review_crop_sha256": "b65223c826879579f6cb6af8b4c1914c9d247a15b9e4d6c5bc49dbacdac1b87e",
       "auxiliary_review_crop_size_bytes": 424607,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact juvenile age, iris chronology, feather sequence, geographic colour variation, nest-crevice geometry and universal quantitative sex ratio remain unknown; Mikkola upload unavailable this execution.",
-      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization."
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization.",
+      "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
+      "archive_tree": "e1ab6cc86df5b6401f15b1117a1125d7caa02597",
+      "verified_at": "2026-11-07T11:28:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 16,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3744,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 766,
+          "design_legacy": 767,
+          "production": 757
+        },
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T11:24:00+08:00"
+  "updated_at": "2026-11-07T11:28:00+08:00"
 }

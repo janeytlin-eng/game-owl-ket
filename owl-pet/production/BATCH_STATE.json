@@ -28580,21 +28580,21 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T11:24:00+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-07T11:28:00+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T110600+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T11:24:00+08:00",
-        "expires_at": "2026-11-07T11:39:00+08:00"
+        "heartbeat_at": "2026-11-07T11:28:00+08:00",
+        "expires_at": "2026-11-07T11:43:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28603,7 +28603,7 @@
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28889,6 +28889,32 @@
             "scientifically_verified": false,
             "readback_pending": true,
             "lease_expires_at": "2026-11-07T11:39:00+08:00"
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T11:28:00+08:00",
+          "run_id": "20261107T110600+0800-cycle-2",
+          "species_id": 164,
+          "species": "Strix hadorami",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "a9c75a083cfbb2ead876504a2350edf2b21a897c",
+            "archive_tree": "e1ab6cc86df5b6401f15b1117a1125d7caa02597",
+            "required_paths": 16,
+            "exact_binary_paths": 5,
+            "tree_entries": 3744,
+            "tree_truncated": false,
+            "manifest_counts": {
+              "design_image": 766,
+              "design_legacy": 767,
+              "production": 757
+            },
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T11:43:00+08:00"
           }
         }
       ]

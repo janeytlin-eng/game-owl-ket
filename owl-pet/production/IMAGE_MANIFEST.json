@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T10:54:00+08:00",
+  "updated": "2026-11-07T11:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26754,13 +26754,31 @@
       "auxiliary_review_crop_blob": "f9103b0ca25c44cfd3819c1bf43e9a3f0a90af97",
       "auxiliary_review_crop_sha256": "daa358d93779d065377d6ebb01d3907ffb51a8a80df347793b06f634d9901177",
       "auxiliary_review_crop_size_bytes": 363656,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Historical broad-name Oregon studies are not treated as current Mountain Pygmy-Owl juvenile chronology; exact juvenile age/iris/flight, quantified standing-height ratio and cavity dimensions remain unknown; Mikkola upload unavailable this execution.",
-      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization."
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization.",
+      "archive_commit": "b1c9df704af877366e1443e4f970d9c410a7c58d",
+      "archive_tree": "c96ada938c1a0aa48e2ab47c5118302ccfc07d78",
+      "verified_at": "2026-11-07T11:00:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 16,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3736,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 765,
+          "design_legacy": 766,
+          "production": 756
+        },
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T10:54:00+08:00"
+  "updated_at": "2026-11-07T11:00:00+08:00"
 }

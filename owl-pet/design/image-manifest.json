@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T09:50:00+08:00",
+  "updated": "2026-11-07T09:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27104,14 +27104,33 @@
       "auxiliary_review_crop_blob": "c242c32bf86978e8b6f125db57c5a1bc68ccdc9d",
       "auxiliary_review_crop_sha256": "f866955571d817853ebf992ce380204143f3795ee71bf56c4db7ba71281e1ef1",
       "auxiliary_review_crop_size_bytes": 754643,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact individual flight ability at about 50 days, continuous feather chronology, universal sex-size ratio and individual plumage map remain unknown; current taxonomy treatment may differ among authorities; Mikkola upload unavailable.",
       "archive_encoding": "full-resolution PNG8 transport derivatives; generated 64-colour no-dither, reviewed/edit/concept 64-colour no-dither, juvenile crop 96-colour no-dither, adult/support crop 96-colour no-dither; full-colour local SHA-256 retained in run record",
-      "archive_correction": "Initial archive commit f12e5669239be06ad33530c5f66cb1fa21bf7927 exposed connector truncation at ~786444 bytes; every affected binary path is replaced in the correction commit before verification/credit."
+      "archive_correction": "Initial archive commit f12e5669239be06ad33530c5f66cb1fa21bf7927 exposed connector truncation at ~786444 bytes; every affected binary path is replaced in the correction commit before verification/credit.",
+      "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
+      "archive_tree": "0906afc68af348255bd64682e51e90a9939823c5",
+      "verified_at": "2026-11-07T09:54:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable corrected archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 19,
+        "exact_binary_paths": 6,
+        "all_git_blobs_match": true,
+        "tree_entries": 3719,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 763,
+          "design_legacy": 764,
+          "production": 754
+        },
+        "initial_truncated_archive_rejected": "f12e5669239be06ad33530c5f66cb1fa21bf7927",
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T09:50:00+08:00"
+  "updated_at": "2026-11-07T09:54:00+08:00"
 }

@@ -3722,3 +3722,7 @@ Verification `2247ee543ebbfafaae0c5eda7c77e6f4e3ddda3e` was read back after immu
 
 ### 2026-11-07 09:50 +08:00 — #161 archive transport correction
 Initial archive commit `f12e5669` failed immutable size checks because the connector truncated large PNGs. Before any ledger credit, all six binary paths were replaced by complete full-resolution indexed PNG derivatives under the connector ceiling and reopened. Correction readback is pending; science remains false.
+
+
+### 2026-11-07 09:54 +08:00 — #161 corrected archive VERIFIED
+Accepted immutable archive `02518c3e` / tree `0906afc6`: non-truncated 3,719-entry tree; 19/19 required paths and six exact binary blob/size tuples; manifests 763/764/754. Result PASS_WITH_LIMITATIONS, science false; ledger credit pending.

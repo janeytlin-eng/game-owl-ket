@@ -31363,14 +31363,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-07T14:35:37+08:00",
-      "updated_at": "2026-11-07T17:48:29+08:00",
+      "updated_at": "2026-11-07T17:50:34+08:00",
       "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T171100+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T17:48:29+08:00",
-        "expires_at": "2026-11-07T18:03:29+08:00"
+        "heartbeat_at": "2026-11-07T17:50:34+08:00",
+        "expires_at": "2026-11-07T18:05:34+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -32224,10 +32224,10 @@
             "concept_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
             "concept_sha256": "b26d7b2c20bfb6d95ffdf5be4409d5c1331b60137c2ebdedb27ddd782ffc782d",
             "concept_bytes": 676271,
-            "full_color_path": "owl-pet/production/generated/188-otus-semitorques-v3-full-color.png",
-            "full_color_blob": "057dc5a560baaa186acb038b61cdac71f23704c9",
-            "full_color_source_sha256": "6be6e39f3b6a545f3d4907df7b3c5b2f8aa3f812e5c6214a53a0283f4fba141e",
-            "full_color_source_bytes": 3020431,
+            "full_color_path": "owl-pet/production/generated/188-otus-semitorques-v3-full-color.jpg",
+            "full_color_blob": "51e5520f83af8febdecd2657b6431d8cd51f0cb6",
+            "full_color_source_sha256": "274c601b7be21c768479db83223d8ad84af13910ff1ffac9cb429b1d23d040d7",
+            "full_color_source_bytes": 605125,
             "binary_paths": 5,
             "manifest_counts": {
               "design_image": 782,
@@ -32242,7 +32242,31 @@
             "archive_commit_pending": true,
             "readback_pending": true,
             "scientifically_verified": false,
-            "lease_expires_at": "2026-11-07T18:03:29+08:00"
+            "lease_expires_at": "2026-11-07T18:05:34+08:00",
+            "auxiliary_review_crop_blob": "13e59ccb56eb4dca581d5c818efd285d8991331f",
+            "auxiliary_review_crop_sha256": "41b510ffccb49d35d605d609f5d6e08956fe47187ed9e1b7733608e83cfe9bcb",
+            "auxiliary_review_crop_bytes": 357912,
+            "precredit_binary_repair": true
+          }
+        },
+        {
+          "cycle": 6,
+          "stage": "ARCHIVE_BINARY_REPAIR",
+          "at": "2026-11-07T17:50:34+08:00",
+          "run_id": "20261107T171100+0800-cycle-6",
+          "species_id": 188,
+          "species": "Otus semitorques",
+          "credited": false,
+          "evidence": {
+            "reason": "immutable tree size check caught connector-truncated full-colour PNG and adult crop before cycle credit",
+            "replacement_full_color_path": "owl-pet/production/generated/188-otus-semitorques-v3-full-color.jpg",
+            "replacement_full_color_blob": "51e5520f83af8febdecd2657b6431d8cd51f0cb6",
+            "replacement_full_color_bytes": 605125,
+            "replacement_adults_crop_blob": "13e59ccb56eb4dca581d5c818efd285d8991331f",
+            "replacement_adults_crop_bytes": 357912,
+            "visual_reinspection": true,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T18:05:34+08:00"
           }
         }
       ]

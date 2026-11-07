@@ -1,3 +1,7 @@
+### #188 v3 archive binary repair — readback pending
+
+The first archive tree exposed two connector-truncated PNGs before credit. Replaced them with an opened 605,125-byte high-quality JPEG source and an opened 357,912-byte adult crop; concept/master, juvenile crop and texts were already intact. Manifests corrected; immutable readback restarted.
+
 ### #188 *Otus semitorques* v3 ARCHIVED — immutable readback pending
 
 Batch `20261107T143537+0800` cycle 6/6. Re-read direct Honshu adult/recent-fledgling evidence, generated a new plate, rejected an adult-like juvenile wing, applied one localized edit, and reopened full/crop/transport images. Concept plus full-colour source, transport master, reviewed master and two crops archived; manifests 782/783/773. Unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false; immutable readback pending.

@@ -28045,10 +28045,10 @@
       "generated_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
       "generated_sha256": "b26d7b2c20bfb6d95ffdf5be4409d5c1331b60137c2ebdedb27ddd782ffc782d",
       "generated_size_bytes": 676271,
-      "full_color_source_path": "production/generated/188-otus-semitorques-v3-full-color.png",
-      "full_color_source_blob": "057dc5a560baaa186acb038b61cdac71f23704c9",
-      "full_color_source_sha256": "6be6e39f3b6a545f3d4907df7b3c5b2f8aa3f812e5c6214a53a0283f4fba141e",
-      "full_color_source_size_bytes": 3020431,
+      "full_color_source_path": "production/generated/188-otus-semitorques-v3-full-color.jpg",
+      "full_color_source_blob": "51e5520f83af8febdecd2657b6431d8cd51f0cb6",
+      "full_color_source_sha256": "274c601b7be21c768479db83223d8ad84af13910ff1ffac9cb429b1d23d040d7",
+      "full_color_source_size_bytes": 605125,
       "reviewed_path": "production/reviewed/188-otus-semitorques-v3-reviewed-master.png",
       "reviewed_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
       "reviewed_sha256": "b26d7b2c20bfb6d95ffdf5be4409d5c1331b60137c2ebdedb27ddd782ffc782d",
@@ -28058,13 +28058,14 @@
       "review_crop_sha256": "2cdfb5e95aa74d48d9824f917b4242a01210a75ab3a350a69a158f8edaad583d",
       "review_crop_size_bytes": 716533,
       "auxiliary_review_crop_path": "production/review-crops/188-otus-semitorques-v3-adults.png",
-      "auxiliary_review_crop_blob": "9c51ab94b4588f5035c5ff20756cdb762b7d2791",
-      "auxiliary_review_crop_sha256": "ec360395e04cf2e58d47493fa41e2c3b99fa4ceaf302329bc79cca66c265ce0e",
-      "auxiliary_review_crop_size_bytes": 1475446,
+      "auxiliary_review_crop_blob": "13e59ccb56eb4dca581d5c818efd285d8991331f",
+      "auxiliary_review_crop_sha256": "41b510ffccb49d35d605d609f5d6e08956fe47187ed9e1b7733608e83cfe9bcb",
+      "auxiliary_review_crop_size_bytes": 357912,
       "archive_commit_pending": true,
       "readback_pending": true,
-      "ledger_credited": false
+      "ledger_credited": false,
+      "archive_note": "Immutable tree readback caught connector-truncated PNG objects for the full-colour source and adults crop before cycle credit. They were replaced with a visually re-opened 605,125-byte high-quality JPEG source and 357,912-byte indexed PNG crop; manifests and paths were corrected before verification."
     }
   ],
-  "updated_at": "2026-11-07T17:48:29+08:00"
+  "updated_at": "2026-11-07T17:50:34+08:00"
 }

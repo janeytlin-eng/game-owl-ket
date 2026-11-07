@@ -1,3 +1,5 @@
+- #188 v3 pre-credit binary repair: immutable tree size check caught two connector-truncated PNGs. Replaced the full-colour source with a re-opened high-quality JPEG and the adult crop with a re-opened indexed PNG; manifests corrected before verification.
+
 ## 2026-11-07 — #188 *Otus semitorques* v3 ARCHIVED, readback pending
 
 Science revision preserving v1–v2. Re-read Nohara & Honda 2025 pp.75–78 and two supporting institutional sources; added four verified/reused source entries plus one unverified specimen lead. One targeted edit corrected a long adult-like recent-fledgling wing. Full plate, two crops and 32-colour transport opened and passed with limitations. Manifests 782/783/773; unique 176/251; science=false; immutable readback pending.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-07T14:45:19+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27660,7 +27660,64 @@
       "verification_commit": "3d33f9d3e3ec2d24dcedd5023ae4fa05ee02f03c",
       "verification_tree": "f97832cfa04e8bfdb3b31f5baa4a2a69ec7e89a5",
       "credited_at": "2026-11-07T13:46:00+08:00"
+    },
+    {
+      "id": "176-otus-pembaensis-v3",
+      "path": "design/concepts/176-otus-pembaensis-v3.png",
+      "species_id": 176,
+      "scientific_name": "Otus pembaensis",
+      "historical_names": [
+        "Otus rutilus pembaensis"
+      ],
+      "common_name": "Pemba Scops-owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。重读Melo等2022标本表、Nahonyo等2005印刷页54–55，并新增Fuchs等2008系统发育与两组彭巴实物照片来源。旧名Otus rutilus pembaensis仅作历史对应，不借用马岛种形态。成年雌雄近等体型、同一暖褐至赤褐色型，不套用雌大雄小；仅将雄鸟折翼略长作为轻微方向。幼鸟限定为年龄未知中雏羽，深色/不确定虹膜、短软圆翼、短而有支撑的带纹尾。首版雄鸟过大且幼鸟翼羽过熟，经1次编辑后复查通过。PASS_WITH_LIMITATIONS；精确幼鸟年龄/性别、虹膜/翼羽/飞行时序、巢位及绒雏细节未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "PESO-FUCHS-ETAL-2008-PMC2483963",
+        "PESO-OISEAUX-VANGIERSBERGEN-2021-ADULT",
+        "PESO-TANZANIABIRDS-ADULT-PHOTOS",
+        "PESO-MELO-ETAL-2022-P7-S47",
+        "PESO-NAHONYO-ETAL-2005-P54-55",
+        "PESO-MIKKOLA-2013-P135"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/176-otus-pembaensis-v3.md",
+      "run_record": "production/runs/20261107T143537+0800-cycle-1.md",
+      "review_record": "research/reviews/176-otus-pembaensis-v3-review.md",
+      "reviewed_at": "2026-11-07T14:42:44+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "4ea444d180246ebb6553039f2ed12015165c4d9a4a01cd63d6c1acb6e42db690",
+      "size_bytes": 657635,
+      "git_blob": "c7dbbc258e1e024d8de5d6b8546e93f5c2ed1d79",
+      "generated_path": "production/generated/176-otus-pembaensis-v3-generated-master.png",
+      "generated_blob": "c7dbbc258e1e024d8de5d6b8546e93f5c2ed1d79",
+      "generated_sha256": "4ea444d180246ebb6553039f2ed12015165c4d9a4a01cd63d6c1acb6e42db690",
+      "generated_size_bytes": 657635,
+      "full_color_source_sha256": "13823eae6e6df92b1b7e413a2717856b2417bb630d5014acc9fa5cc9daab548f",
+      "full_color_source_size_bytes": 2707157,
+      "reviewed_path": "production/reviewed/176-otus-pembaensis-v3-reviewed-master.png",
+      "reviewed_blob": "c7dbbc258e1e024d8de5d6b8546e93f5c2ed1d79",
+      "reviewed_sha256": "4ea444d180246ebb6553039f2ed12015165c4d9a4a01cd63d6c1acb6e42db690",
+      "reviewed_size_bytes": 657635,
+      "review_crop_path": "production/review-crops/176-otus-pembaensis-v3-mesoptile.png",
+      "review_crop_blob": "43017617977632508eb5c5422bfe1df1b5489b42",
+      "review_crop_sha256": "11f8445c9115ca440657531001b5ea0ecc86b30d1636de4bcc039d3caa36aa13",
+      "review_crop_size_bytes": 193146,
+      "auxiliary_review_crop_path": "production/review-crops/176-otus-pembaensis-v3-adults.png",
+      "auxiliary_review_crop_blob": "ceefb58c694545a349d383c106796014dbd0cf5f",
+      "auxiliary_review_crop_sha256": "6e4cf802b5faa96157a8f240fc7e26b12537289cdd1e8cbeff8190da1ab7d23d",
+      "auxiliary_review_crop_size_bytes": 341468,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-07T13:46:00+08:00"
+  "updated_at": "2026-11-07T14:45:19+08:00"
 }

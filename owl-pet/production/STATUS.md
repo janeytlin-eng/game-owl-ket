@@ -1,3 +1,7 @@
+### #176 v3 ARCHIVED — readback pending
+
+One edited transport board, generated/reviewed masters and two review crops are archived. Manifests advance to 777/778/768; unique species stays 176/251 because this is a v3 revision. Source index adds three verified sources and reuses/re-reads three. PASS_WITH_LIMITATIONS; science=false; connector readback pending.
+
 ### Batch 20261107T140000+0800 COMPLETE 6/6
 
 Cycles 1–6 (#170–#175 v3) are independently archived, read back and ledger-credited. Final cycle #175 verification `3d33f9d3e3ec2d24dcedd5023ae4fa05ee02f03c` followed immutable archive `dce3dcf1001213342062d337fff7b89de178df99`. Unique species remains 176/251 because all six cycles were scientific revisions; leases released.

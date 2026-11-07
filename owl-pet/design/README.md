@@ -1,3 +1,8 @@
+## Latest concept: #176 Pemba Scops-owl — *Otus pembaensis* v3
+
+- [Concept](concepts/176-otus-pembaensis-v3.png) · [Research](../research/species/176-otus-pembaensis-v3.md) · [Review](../research/reviews/176-otus-pembaensis-v3-review.md) · [Run](../production/runs/20261107T143537+0800-cycle-1.md)
+- V3 preserves v1–v2, corrects the old-name relationship, uses near-equal same-morph adults and an age-unknown supported mesoptile. First output's oversized male and over-mature young wing were edited and rechecked. No nest or flight claim. `PASS_WITH_LIMITATIONS`; science=false; immutable readback pending.
+
 ## Latest concept: #175 Sokoke Scops Owl — *Otus ireneae* v3
 
 - [Concept](concepts/175-otus-ireneae-v3.png) · [Research](../research/species/175-otus-ireneae-v3.md) · [Review](../research/reviews/175-otus-ireneae-v3-review.md) · [Run](../production/runs/20261107T165200+0800-cycle-6.md)

@@ -30,3 +30,7 @@ Create a polished 1536×1024 landscape scientific owl-pet plate in the repositor
 
 ## Unknowns
 Exact castanops mesoptile age, feather chronology, iris/bill development, first-flight threshold, inspected occupied-nest interior and a universal adult height ratio remain unknown.
+
+
+## Image comparison and review — 2026-11-07T15:31:00+08:00
+The first generated v3 plate was checked against every design boundary at full resolution and in adult/young crops. It passed without editing: adult colour/body-mass direction is visible without a two-times standing-height caricature; the young has cream down, a developed mask, a down-buried wing, concealed tail and two supported feet; the senescent eucalypt hollow is external context rather than an invented nest interior. Exact age, flight ability and occupied-cavity contents remain unknown. Result: PASS_WITH_LIMITATIONS; science=false.

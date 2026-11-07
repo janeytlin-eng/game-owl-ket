@@ -1,3 +1,7 @@
+### #176 v3 LEDGER_CREDITED — new batch 1/6
+
+Verification `c6d0e3a4d613c54155a55b4592716305d6b82630` / tree `42a50018f86f69d86b9dca72733e157225209364` credited once after archive `56be53f3a60c78ad04a9cc3a37eee235d2e8b671`. Batch `20261107T143537+0800` is PARTIAL 1/6; next cycle 2; lease released. Unique species remains 176/251; revision +1; science=false.
+
 ### #176 v3 immutable archive VERIFIED — ledger credit pending
 
 Archive `56be53f3a60c78ad04a9cc3a37eee235d2e8b671` / tree `1236907a8460bdd7c690cc1b58e51ba9b55aa7c7` returned 3,836 non-truncated entries. All 17 required paths, five binary tuples, normalized connector concept stream and manifest counts 777/778/768 passed. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

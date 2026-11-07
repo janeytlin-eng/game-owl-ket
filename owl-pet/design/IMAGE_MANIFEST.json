@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T14:25:00+08:00",
+  "updated": "2026-11-07T14:29:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27898,11 +27898,11 @@
       "size_bytes": 541370,
       "git_blob": "fc9aff18c2e8878a214c40e3d2746ed7ccf7ab6b",
       "generated_path": "production/generated/170-glaucidium-sanchezi-v3-generated-master.png",
-      "generated_blob": "389ff400166af4a9cb7d52125ca97dd37d17d6df",
-      "generated_sha256": "776e55e09da14c85a2b30437ff90c8a8e4d754b1add64c651a8f00f392a360a1",
-      "generated_size_bytes": 2923684,
+      "generated_blob": "9b46f47a0cde3b62cf04111f5ba5a2f006b4a6e4",
+      "generated_sha256": "0824825537646822e46550ad09cd83d52e99d91a50f8f16e5e2eb7c322683357",
+      "generated_size_bytes": 570943,
       "edit_path": "production/generated/170-glaucidium-sanchezi-v3-edit1.png",
-      "edit_blob": "961823bc4491caffec356ca1e9357df86cd2eb85",
+      "edit_blob": "fc9aff18c2e8878a214c40e3d2746ed7ccf7ab6b",
       "full_color_source_sha256": "1c5ab29c321baa2e86fc001c45e7a3e863a74a72f338f8d3e525aa580822c0dc",
       "full_color_source_size_bytes": 2784534,
       "reviewed_path": "production/reviewed/170-glaucidium-sanchezi-v3-reviewed-master.png",
@@ -27922,8 +27922,24 @@
       "exact_readback": false,
       "ledger_credited": false,
       "evidence_limit": "Exact immature age/sex, living iris/bill ontogeny, first flight, continuous feather sequence, occupied nest geometry, regional variation and quantified sex-size ratio remain unknown; Mikkola upload unavailable.",
-      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; initial and edited full-colour ImageGen sources preserved; transport board and final crops actually opened."
+      "archive_encoding": "All five archived binary paths use complete 64-color no-dither indexed PNG transport assets; initial and edited full-colour ImageGen SHA-256/byte counts retained as provenance; transport board and final crops actually opened.",
+      "edit_sha256": "9f0c612bc75e8446aaa7fd2062f72ba749335451c74f8be292e53a62d666649a",
+      "edit_size_bytes": 541370,
+      "initial_full_color_sha256": "776e55e09da14c85a2b30437ff90c8a8e4d754b1add64c651a8f00f392a360a1",
+      "initial_full_color_size_bytes": 2923684,
+      "binary_transfer_repair": {
+        "failed_archive_commit": "ed4bfacdd94f6981e31b08a7dd819447eeede8db",
+        "reason": "connector base64 command output truncated before blob creation for two full-colour sources; detected by immutable blob-size readback",
+        "superseded_blobs": [
+          "389ff400166af4a9cb7d52125ca97dd37d17d6df",
+          "961823bc4491caffec356ca1e9357df86cd2eb85"
+        ],
+        "replacement_blobs": [
+          "9b46f47a0cde3b62cf04111f5ba5a2f006b4a6e4",
+          "fc9aff18c2e8878a214c40e3d2746ed7ccf7ab6b"
+        ]
+      }
     }
   ],
-  "updated_at": "2026-11-07T14:25:00+08:00"
+  "updated_at": "2026-11-07T14:29:00+08:00"
 }

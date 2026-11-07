@@ -1746,3 +1746,5 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-11-08T05:38:09.875+08:00: #97 *Lophostrix cristata* v5 archived from the recoverable REVIEWED checkpoint; no regeneration or edit, concept/master/crops and three manifests persisted; immutable readback pending; science=false.
 
 - 2026-11-08T05:39:28.507+08:00: #97 v5 immutable readback passed archive `94db1071e7f69002dff410a8c2ea3f4df9314d96` / tree `eee7e38625a0899717b9e53c24b490e1ae827fde`: 20 paths, nine exact binary tuples, manifests 810/807/800; ledger credit pending.
+
+- 2026-11-08T05:40:36.411+08:00: #97 *Lophostrix cristata* v5 LEDGER_CREDITED after verification `6e81be91d60bbad92ef2bbc98d4428a03a0a6f62`; batch 1/6, next cycle 2, lease released; unique 176/251; science false.

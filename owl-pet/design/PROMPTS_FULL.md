@@ -285,3 +285,12 @@ The right bird is explicitly an age-unknown older immature, not a hatchling: adu
 Set all three in neutral daylight in western/southwestern Madagascar dry deciduous–spiny gallery forest, with subtle baobab and Alluaudia cues. Use distinct calm three-quarter poses and natural branch support. No nest scene: the published ground nest was exceptional and failed before hatching, while ordinary nests are tree holes.
 
 Avoid tall theatrical ear tufts, rufous morph, huge female, newborn/downy chick, flight, adult-hard immature wing layering, ground nest, cavity interior, eggs, prey, unsupported feet, extra birds, extra text, decorative border or orange sunset grading.
+
+
+### #173 v3 edit 1 — soften evidence-bounded older immature wing/tail
+
+```text
+Edit this existing scientific owl plate only where needed. Preserve the title, all three labels, the two adult birds, their short low ear tufts, proportions, dry western Madagascar habitat, exact three-bird layout and overall 1536×1024 premium stylized 3D maquette look.
+
+Correct only the right AGE-UNKNOWN OLDER IMMATURE: make its folded wing visibly shorter, softer and less adult-layered, with fluffy covert edges and fewer exposed hard remex layers; shorten and partly conceal the tail behind its body and branch while retaining only subtle narrower pointed rectrix tips. Keep it clearly an older immature, not a newborn: eyes open and yellow, adult-like face, soft fluffy body, both feet fully and naturally supported on the branch. Do not add a nest, cavity, eggs, flight, extra birds or extra text. Keep the short low ear tufts rather than tall theatrical tufts.
+```

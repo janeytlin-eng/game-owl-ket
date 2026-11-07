@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T13:47:00+08:00",
+  "updated": "2026-11-07T13:52:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27835,13 +27835,31 @@
       "auxiliary_review_crop_blob": "54c4aa01db9732c3ec647a1b4f7152e163f44257",
       "auxiliary_review_crop_sha256": "06a44801095b98e093f987f6287089e57529fbe266af66b63f664eca308e717e",
       "auxiliary_review_crop_size_bytes": 463211,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact young age/sex, living juvenile soft-part ontogeny, first flight, continuous molt sequence and population-wide adult sex dichromatism remain unknown; Mikkola upload unavailable.",
-      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; edited full-colour ImageGen source SHA retained; transport board and final crops actually opened."
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; edited full-colour ImageGen source SHA retained; transport board and final crops actually opened.",
+      "archive_commit": "810990b4f829aecdb73ec91ecda6c38b1e8bf8d3",
+      "archive_tree": "404fe616d45f4a294737c0a0d153cf8b4abbe33c",
+      "verified_at": "2026-11-07T13:52:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 16,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3776,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 770,
+          "design_legacy": 771,
+          "production": 761
+        },
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T13:47:00+08:00"
+  "updated_at": "2026-11-07T13:52:00+08:00"
 }

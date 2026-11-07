@@ -29707,21 +29707,21 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-07T14:00:00+08:00",
-      "updated_at": "2026-11-07T17:00:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T13:30:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T165200+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T17:00:00+08:00",
-        "expires_at": "2026-11-07T17:15:00+08:00"
+        "heartbeat_at": "2026-11-07T13:30:00+08:00",
+        "expires_at": "2026-11-07T13:45:00+08:00"
       },
       "in_progress": {
         "cycle": 6,
         "species_id": 175,
         "species": "Otus ireneae",
         "version": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T165200+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
       },
@@ -29730,7 +29730,7 @@
         "species_id": 175,
         "species": "Otus ireneae",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T165200+0800-cycle-6",
         "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
       },
@@ -30645,6 +30645,29 @@
             "mikkola_upload_accessible": false,
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T17:15:00+08:00"
+          }
+        },
+        {
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T13:30:00+08:00",
+          "run_id": "20261107T165200+0800-cycle-6",
+          "species_id": 175,
+          "species": "Otus ireneae",
+          "credited": false,
+          "evidence": {
+            "generation_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+            "generation_bytes": 3023501,
+            "dimensions": "1536x1024",
+            "local_checkpoint": "owl-pet-work/175/175-otus-ireneae-v3-fullcolor.png",
+            "subjects": 3,
+            "layout": "adult male / adult female / age-unknown fledgling",
+            "preliminary_inspection": "full plate and two crops opened; exact title/labels, three birds, near-equal same-morph adults, pale-yellow adult eyes, small tufts, dark-eyed soft-contour fledgling, short rounded folded wing, short supported tail and six supported feet passed; no nest/eggs",
+            "edit_count": 0,
+            "edit_required": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T13:45:00+08:00",
+            "recovery_note": "prior future-dated lease contradicted Git commit time; resumed after checking no newer main commit"
           }
         }
       ],
@@ -32124,8 +32147,8 @@
   "last_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 6,
-    "stage": "RESEARCH_READY",
-    "at": "2026-11-07T17:00:00+08:00",
+    "stage": "IMAGE_GENERATED",
+    "at": "2026-11-07T13:30:00+08:00",
     "run_record": "owl-pet/production/runs/20261107T165200+0800-cycle-6.md"
   },
   "history": [
@@ -52129,6 +52152,29 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T17:15:00+08:00"
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-07T13:30:00+08:00",
+      "run_id": "20261107T165200+0800-cycle-6",
+      "species_id": 175,
+      "species": "Otus ireneae",
+      "credited": false,
+      "evidence": {
+        "generation_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+        "generation_bytes": 3023501,
+        "dimensions": "1536x1024",
+        "local_checkpoint": "owl-pet-work/175/175-otus-ireneae-v3-fullcolor.png",
+        "subjects": 3,
+        "layout": "adult male / adult female / age-unknown fledgling",
+        "preliminary_inspection": "full plate and two crops opened; exact title/labels, three birds, near-equal same-morph adults, pale-yellow adult eyes, small tufts, dark-eyed soft-contour fledgling, short rounded folded wing, short supported tail and six supported feet passed; no nest/eggs",
+        "edit_count": 0,
+        "edit_required": false,
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T13:45:00+08:00",
+        "recovery_note": "prior future-dated lease contradicted Git commit time; resumed after checking no newer main commit"
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -52201,7 +52247,7 @@
     }
   ],
   "updated": "2026-11-07T17:00:00+08:00",
-  "stage": "RESEARCH_READY",
+  "stage": "IMAGE_GENERATED",
   "stage_evidence": {
     "run_record": "owl-pet/production/runs/20261107T154800+0800-cycle-4.md",
     "baseline_main": "27f57fdd9785164a39369ffdcffd7c1ec70aff7b",
@@ -52227,13 +52273,18 @@
       "lease_expires_at": "2026-11-07T17:15:00+08:00"
     },
     "IMAGE_GENERATED": {
-      "generation_sha256": "576b0153c4e51f0f5a2a856cff950d5e95252748f8dbc23dd2b2a7d87d4101dc",
-      "generation_bytes": 2978330,
-      "local_checkpoint": "owl-pet-work/174/174-strix-sartorii-v3-generation-v1-fullcolor.png",
+      "generation_sha256": "9291f735b83eb6e3546cc14b75723d41b4cd71e455d2bf92a483e968d238c0d3",
+      "generation_bytes": 3023501,
+      "dimensions": "1536x1024",
+      "local_checkpoint": "owl-pet-work/175/175-otus-ireneae-v3-fullcolor.png",
       "subjects": 3,
-      "layout": "adult male / adult female / age-unknown flight-capable fledgling",
+      "layout": "adult male / adult female / age-unknown fledgling",
+      "preliminary_inspection": "full plate and two crops opened; exact title/labels, three birds, near-equal same-morph adults, pale-yellow adult eyes, small tufts, dark-eyed soft-contour fledgling, short rounded folded wing, short supported tail and six supported feet passed; no nest/eggs",
+      "edit_count": 0,
+      "edit_required": false,
       "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T16:46:00+08:00"
+      "lease_expires_at": "2026-11-07T13:45:00+08:00",
+      "recovery_note": "prior future-dated lease contradicted Git commit time; resumed after checking no newer main commit"
     },
     "REVIEWED": {
       "result": "PASS_WITH_LIMITATIONS",
@@ -52321,7 +52372,7 @@
   "last_verification_commit": "391498b03379e62923d15eb0671c30f6aa767550",
   "timestamps": {
     "RESEARCH_READY": "2026-11-07T17:00:00+08:00",
-    "IMAGE_GENERATED": "2026-11-07T16:31:00+08:00",
+    "IMAGE_GENERATED": "2026-11-07T13:30:00+08:00",
     "REVIEWED": "2026-11-07T16:36:00+08:00",
     "ARCHIVED": "2026-11-07T16:41:00+08:00",
     "VERIFIED": "2026-11-07T16:45:00+08:00",

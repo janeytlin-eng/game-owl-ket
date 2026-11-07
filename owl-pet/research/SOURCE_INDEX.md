@@ -1,5 +1,26 @@
 
 
+## 2026-11-08 — #34 *Glaucidium hardyi* v5 — original-description table and primary cavity-young re-read
+
+### Re-read / direct-page verification — APOW-VIELLIARD-1989
+- **Title / author / year:** “Uma nova espécie de *Glaucidium* (Aves, Strigidae) da Amazônia” / Jacques M. E. Vielliard / 1989, *Revista Brasileira de Zoologia* 6(4):685–693.
+- **DOI / direct PDF / accessed:** https://doi.org/10.1590/S0101-81751989000400014 ; https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Glaucidium/Glaucidium%20hardyi%20(Vielliard)%201990,%20Revue%20Brasil%20Zoologie,%206%20(1989),%20pages%20685-693..PDF ; accessed 2026-11-08.
+- **Type / scope:** primary original species description; museum series and vocal diagnosis.
+- **Pages actually viewed:** printed pp.691–692 (PDF pp.7–8), including Table I and holotype/species diagnosis.
+- **Facts read/viewed:** Table I reports *G. hardyi* wing roughly 91–97 mm and tail 41–46 mm in the listed series; the one female wing value (94 mm) lies within male values, so the sample does not establish a general female-larger visual rule. The diagnosis emphasizes grey crown, large pale spots and plain rufous back, and separates the species from *G. minutissimum* by morphology and voice.
+- **Limits / confidence:** tiny type series, not a population sex-morphometric study; no juvenile development. High for adult diagnosis and specimen ranges, low for population sex direction.
+- **Design use:** near-equal adults; grey speckled head against plain warm rufous mantle/back; short tail and relatively long round wing.
+
+### Re-read — APOW-DEVILLE-2012
+- **Title / authors / year:** “Observations at a nest of Amazonian Pygmy Owl *Glaucidium hardyi* in French Guiana” / Tanguy Deville & Johan Ingels / 2012, *Neotropical Birding* 11:23–26.
+- **URL / accessed:** https://tanguydeville.net/wp-content/uploads/2019/05/2012-02-observations-at-a-nest-of-amazonian-pygmy-owl-glaucidium-hardyi-in-french-guiana-neotropical-birding-nc2b011.pdf ; accessed 2026-11-08.
+- **Type / scope:** primary field observation and photographs at one nest.
+- **Pages / figures actually read:** pp.23–26, especially nest description pp.23–24 and Figs.2–4.
+- **Facts:** old woodpecker hole about 25 m high in a dead c.35 m tree, entrance c.7.5 cm; it contained almost full-grown young. Only one young was ever seen at the entrance. Adults entered directly rather than pausing on the rim. Fig.2 documents adult occipital false eyes.
+- **Limits / confidence:** one nest and one visually observed young; no exact age, iris chronology, flight threshold or continuous feather series. High for cavity context and “almost full-grown” stage only.
+- **Design use:** one almost-full-grown juvenile fully supported at the vertical cavity lip; no flight, leap or independence claim.
+
+
 ## 2026-11-08 — #33 *Taenioptynx brodiei* v5 — primary-paper re-read, current combination and 56-day fledgling boundary
 
 ### Re-read / correction — COOW-LIN-ETAL-2014

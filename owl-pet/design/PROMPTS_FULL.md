@@ -615,3 +615,22 @@ RIGHT ADULT FEMALE: same definitive grey plumage and near-equal displayed crown 
 Environment: central-Taiwan-type broadleaf and planted montane woodland edge, filtered morning light, mossy branch and dense soft foliage. A small natural-looking cavity or research nest-box may remain distant background context only; no eggs, nestlings, prey or visible lining. All six feet must be anatomically plausible and visibly supported.
 
 Critical negatives: no ear tufts; no orange adult eyes; no rufous adult “morph” treated as permanent; no extra bird; no mature crisp occipital pattern on the fledgling; no adult-density crown/back spotting on the fledgling; no long mature juvenile tail; no airborne or unsupported juvenile; no exaggerated female size; no watermark; no text beyond the exact title and three labels.
+
+
+## #34 v5 — *Glaucidium hardyi* — batch 20261108T011416+0800 cycle 3/6
+
+Create one 3:2 horizontal owl-pet scientific character review board, 1536×1024, in the established warm hand-painted digital-gouache natural-history style with soft cream title strip, realistic feather texture and gently rounded electronic-pet proportions. Show exactly three Amazonian Pygmy Owls and no other birds or animals.
+
+Text must be exact and legible:
+top title: “34 · AMAZONIAN PYGMY OWL · Glaucidium hardyi”
+bottom labels left to right: “ADULT MALE”, “ALMOST FULL-GROWN YOUNG”, “ADULT FEMALE”
+
+LEFT ADULT MALE: tiny 14–15 cm untufted pygmy owl on a natural branch, partly rearward while one facial eye remains visible. Bright yellow iris, pale yellow-green bill/cere, grey crown and nape densely but finely marked with small whitish spots, one coherent paired black occipital false-eye pattern with pale rims, plain warm rufous-brown mantle/back contrasting with grey head, white central throat and belly, broad rufous-brown vertical flank streaks, short tail with about four dark bars, relatively long rounded folded wing. Both feet visibly grip bark.
+
+CENTER ALMOST FULL-GROWN YOUNG: the evidence-bounded single young documented at an old woodpecker cavity in French Guiana. It stands at the rough lip of a vertical dead-tree cavity, with both feet and lower belly fully supported by the cavity floor/lip. Plain unspotted grey-brown crown, weak diffuse ventral streaking, formed but soft low-contrast folded wings without repeated crisp adult white spot rows, short partly concealed tail. Keep iris dull/indeterminate in cavity shade rather than asserting adult-yellow chronology. Alert but quiet, not flying, hopping, begging or leaning unsupported. No exact age or independence claim.
+
+RIGHT ADULT FEMALE: same adult plumage and essentially equal displayed crown height as male. One female specimen overlaps male wing measurements, so do not depict a universal larger female. Front/three-quarter pose: bright yellow iris, grey finely spotted crown, plain warm rufous mantle/back, white central throat/belly, broad rufous vertical flank streaks, short barred tail and natural foot support.
+
+Environment: dead emergent trunk beside humid Amazonian primary lowland forest and a regrowing Cecropia clearing, filtered tropical daylight. Cavity is an old woodpecker hole, not a nest box; no eggs, nest material, prey or extra young. All six feet/support relationships must be anatomically credible.
+
+Critical negatives: no ear tufts; no extra bird; no exaggerated female; no sex-coded adult colour; no mature white-spotted juvenile wing; no bright asserted juvenile iris; no long adult tail on young; no airborne or unsupported young; no prey; no watermark; no text beyond the exact title and three labels.

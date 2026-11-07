@@ -28580,21 +28580,21 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T11:10:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T11:15:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T110600+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T11:10:00+08:00",
-        "expires_at": "2026-11-07T11:25:00+08:00"
+        "heartbeat_at": "2026-11-07T11:15:00+08:00",
+        "expires_at": "2026-11-07T11:30:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28603,7 +28603,7 @@
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28808,6 +28808,29 @@
             "mikkola_access": "repository transcription reused; upload unavailable this execution",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T11:25:00+08:00"
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T11:15:00+08:00",
+          "run_id": "20261107T110600+0800-cycle-2",
+          "species_id": 164,
+          "species": "Strix hadorami",
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/164-strix-hadorami-v3-generated-master.png",
+            "generated_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
+            "full_color_sha256": "45da55793bcfcf448258fcf1ebe5f0918c5849c30e792209f4ee764bd3658ebb",
+            "full_color_bytes": 2976307,
+            "transport_sha256": "8c9ffb3d1030c9ad296d2873971ea30ffdd96854966c643a7ec2ae30d5f5e870",
+            "transport_bytes": 632744,
+            "width": 1536,
+            "height": 1024,
+            "preliminary_inspection": "exact title/name/count/order/labels; adults near equal with subtly fuller female; supported c.25–30-day mesoptile with short emerging wing",
+            "edit_required": false,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T11:30:00+08:00"
           }
         }
       ]

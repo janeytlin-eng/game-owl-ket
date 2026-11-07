@@ -28570,21 +28570,21 @@
       "next_cycle": 1,
       "active_cycle": 1,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T10:50:00+08:00",
-      "current_stage": "REVIEWED",
+      "updated_at": "2026-11-07T10:54:00+08:00",
+      "current_stage": "ARCHIVED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T103800+0800-cycle-1",
-        "heartbeat_at": "2026-11-07T10:50:00+08:00",
-        "expires_at": "2026-11-07T11:05:00+08:00"
+        "heartbeat_at": "2026-11-07T10:54:00+08:00",
+        "expires_at": "2026-11-07T11:09:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
         "species_id": 163,
         "species": "Glaucidium gnoma",
         "version": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261107T103800+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
       },
@@ -28593,7 +28593,7 @@
         "species_id": 163,
         "species": "Glaucidium gnoma",
         "version": 3,
-        "stage": "REVIEWED",
+        "stage": "ARCHIVED",
         "run_id": "20261107T103800+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
       },
@@ -28683,6 +28683,37 @@
             "review_result": "PASS_WITH_LIMITATIONS",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T11:05:00+08:00"
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T10:54:00+08:00",
+          "run_id": "20261107T103800+0800-cycle-1",
+          "species_id": 163,
+          "species": "Glaucidium gnoma",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/163-glaucidium-gnoma-v3.png",
+            "concept_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
+            "generated": "owl-pet/production/generated/163-glaucidium-gnoma-v3-generated-master.png",
+            "reviewed": "owl-pet/production/reviewed/163-glaucidium-gnoma-v3-reviewed-master.png",
+            "review_crops": [
+              "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-adults.png",
+              "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-mesoptile.png"
+            ],
+            "manifest_counts": {
+              "design_image": 765,
+              "design_legacy": 766,
+              "production": 756
+            },
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-07T11:09:00+08:00"
           }
         }
       ]
@@ -47719,24 +47750,28 @@
   "ledger_credit_pending": false,
   "last_verified_commit": "04a29769901001886ef01710ee622a98b57731d6",
   "completed_cycles": 5,
-  "updated": "2026-11-07T10:50:00+08:00",
-  "stage": "REVIEWED",
+  "updated": "2026-11-07T10:54:00+08:00",
+  "stage": "ARCHIVED",
   "stage_evidence": {
-    "reviewed_path": "owl-pet/production/reviewed/163-glaucidium-gnoma-v3-reviewed-master.png",
-    "reviewed_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
-    "edit_count": 0,
-    "review_record": "owl-pet/research/reviews/163-glaucidium-gnoma-v3-review.md",
+    "concept": "owl-pet/design/concepts/163-glaucidium-gnoma-v3.png",
+    "concept_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
+    "generated": "owl-pet/production/generated/163-glaucidium-gnoma-v3-generated-master.png",
+    "reviewed": "owl-pet/production/reviewed/163-glaucidium-gnoma-v3-reviewed-master.png",
     "review_crops": [
       "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-adults.png",
       "owl-pet/production/review-crops/163-glaucidium-gnoma-v3-mesoptile.png"
     ],
-    "crop_blobs": [
-      "f9103b0ca25c44cfd3819c1bf43e9a3f0a90af97",
-      "8e2026fc18d8a9ecfd1ef1363fb51d9a8f4f731f"
-    ],
-    "reinspection": "full-colour image plus 64-colour full plate and two crops opened; adult sex scale restrained; nape false-eye visible; dark-eyed gray mesoptile supported at modest cavity lip",
-    "review_result": "PASS_WITH_LIMITATIONS",
+    "manifest_counts": {
+      "design_image": 765,
+      "design_legacy": 766,
+      "production": 756
+    },
+    "unique_species_count": 176,
+    "total_species": 251,
+    "unique_species_increment": 0,
+    "revision_increment": 1,
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-07T11:05:00+08:00"
+    "readback_pending": true,
+    "lease_expires_at": "2026-11-07T11:09:00+08:00"
   }
 }

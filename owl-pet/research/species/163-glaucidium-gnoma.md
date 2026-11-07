@@ -17,3 +17,10 @@
 ## Links
 - [Source index](../SOURCE_INDEX.md#2026-10-27-163-mountain-pygmy-owl--glaucidium-gnoma-v1)
 - [Run](../../production/runs/2026-10-27T1335+0800-cycle-2.md)
+
+
+## V3 revision (2026-11-07)
+- Fresh research and source-limit analysis: [v3 record](163-glaucidium-gnoma-v3.md).
+- Review: [v3 review](../reviews/163-glaucidium-gnoma-v3-review.md).
+- Direct v2 inspection identified an oversized hollow/order problem; v3 corrects composition and cavity implication while preserving the evidence-bounded gray mesoptile.
+- Scientific verification remains false.

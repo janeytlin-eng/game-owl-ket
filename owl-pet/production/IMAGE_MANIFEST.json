@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T10:33:00+08:00",
+  "updated": "2026-11-07T10:54:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26698,7 +26698,69 @@
       "verification_commit": "04a29769901001886ef01710ee622a98b57731d6",
       "verification_tree": "e33520d72b421ba731c854a45bd6340a69af656f",
       "ledger_credited_at": "2026-11-07T10:33:00+08:00"
+    },
+    {
+      "id": "163-glaucidium-gnoma-v3",
+      "path": "design/concepts/163-glaucidium-gnoma-v3.png",
+      "species_id": 163,
+      "scientific_name": "Glaucidium gnoma",
+      "historical_names": [
+        "Glaucidium gnoma gnoma",
+        "Northern Pygmy-Owl (historical broad usage)"
+      ],
+      "common_name": "Mountain Pygmy Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。直接复查v2后，保留已纠正的幼鸟中性暗眼与短软翼；新读Deshler 2020性别二型摘要及Cornell Macaulay ML418673981，并重读Deshler & Murphy 2012。俄勒冈广义种资料在现行拆分下不直接外推到Mountain Pygmy Owl，因此不赋予幼鸟精确日龄或飞行动作。v3改为雄成鸟—雌成鸟—中幼羽幼鸟顺序，成鸟近等高且雌鸟仅略丰满，雌鸟三分之四侧转露出后颈假眼斑；幼鸟在较小的示意性啄木鸟旧洞口受完整支撑。全图与两裁图复查通过，无需编辑。PASS_WITH_LIMITATIONS；精确幼鸟日龄、虹膜转变、飞行阈值、羽序、成鸟站立高度比及巢腔尺寸未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "MTPO-MIKKOLA-2013",
+        "MTPO-ORI-2026",
+        "MTPO-OWLPAGES-2020",
+        "GNOMA-DESHLER-2020-RSD-ABSTRACT",
+        "NPO-MACAULAY-418673981-2008",
+        "NPO-DESHLER-MURPHY-2012-CONDOR-P314-322"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--163-glaucidium-gnoma-v3--species-limit-boundary-and-supported-mesoptile",
+      "research_record": "research/species/163-glaucidium-gnoma-v3.md",
+      "run_record": "production/runs/20261107T103800+0800-cycle-1.md",
+      "review_record": "research/reviews/163-glaucidium-gnoma-v3-review.md",
+      "reviewed_at": "2026-11-07T10:50:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "e4fb4c896a955df99e36c80911ce077ce1a3ca24c2e3d31d150c21abfa90b77e",
+      "size_bytes": 659656,
+      "git_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
+      "generated_path": "production/generated/163-glaucidium-gnoma-v3-generated-master.png",
+      "generated_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
+      "generated_sha256": "e4fb4c896a955df99e36c80911ce077ce1a3ca24c2e3d31d150c21abfa90b77e",
+      "generated_size_bytes": 659656,
+      "full_color_source_sha256": "4251fdbe39f2e19beec125f23bd743425db4d46460365f3e4346b4843e55b5e4",
+      "full_color_source_size_bytes": 3282330,
+      "reviewed_path": "production/reviewed/163-glaucidium-gnoma-v3-reviewed-master.png",
+      "reviewed_blob": "997e92fe22bd28c891708d343dc5c9655194796c",
+      "reviewed_sha256": "e4fb4c896a955df99e36c80911ce077ce1a3ca24c2e3d31d150c21abfa90b77e",
+      "reviewed_size_bytes": 659656,
+      "review_crop_path": "production/review-crops/163-glaucidium-gnoma-v3-mesoptile.png",
+      "review_crop_blob": "8e2026fc18d8a9ecfd1ef1363fb51d9a8f4f731f",
+      "review_crop_sha256": "43c7e53e1b06626bbc46c5846790c46324248bd5614ccd9a777bdc38d799af79",
+      "review_crop_size_bytes": 247977,
+      "auxiliary_review_crop_path": "production/review-crops/163-glaucidium-gnoma-v3-adults.png",
+      "auxiliary_review_crop_blob": "f9103b0ca25c44cfd3819c1bf43e9a3f0a90af97",
+      "auxiliary_review_crop_sha256": "daa358d93779d065377d6ebb01d3907ffb51a8a80df347793b06f634d9901177",
+      "auxiliary_review_crop_size_bytes": 363656,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Historical broad-name Oregon studies are not treated as current Mountain Pygmy-Owl juvenile chronology; exact juvenile age/iris/flight, quantified standing-height ratio and cavity dimensions remain unknown; Mikkola upload unavailable this execution.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization."
     }
   ],
-  "updated_at": "2026-11-07T10:33:00+08:00"
+  "updated_at": "2026-11-07T10:54:00+08:00"
 }

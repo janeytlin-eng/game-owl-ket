@@ -3259,3 +3259,20 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Direct v2 inspection found already-corrected neutral-dark juvenile iris but an oversized theatrical central hollow and adult–juvenile–adult order. V3 uses adult male–adult female–supported mesoptile order, a modest illustrative woodpecker-cavity lip, and one adult three-quarter turn to expose a nape false-eye patch.
 - Unknown: current-species juvenile age/iris/flight threshold and daily feather sequence; exact sex-specific standing height; measured cavity geometry. Scientific verification remains false.
 - Source accounting: new verified 2; reused and freshly re-opened 1; earlier page-verified sources reused 3; source-conflict boundary added 1.
+
+
+## 2026-11-07 — #164 *Strix hadorami* v3 — sex-size and nest-shelf juvenile correction
+
+### DESERTOWL-BENDOV-2017 — newly read primary breeding study
+- Ben Dov, Atar, Baruchi, Levi & Sapir, 2017, “Breeding biology of Desert Owl in Israel,” *Dutch Birding* 39:285–307.
+- URLs: https://cris.haifa.ac.il/en/publications/breeding-biology-of-desert-owl-in-israel/ ; https://www.researchgate.net/publication/320517643_Breeding_Biology_of_Desert_Owl_in_Israel
+- Accessed 2026-11-07; pp. 298–305, Table 4 p.299, plates 419–420 pp.300–301.
+- Facts: wing flapping c.20–25 d; first stand on nest shelf c.25 d; first flight c.30 d; leave nest site c.34 d. Use: supported open-eyed c.25–30 d pale mesoptile on broad ledge, no airborne action. Limits: small Israeli sample; no exact feather sequence or universal cavity geometry.
+- Link: [#164 v3 research](species/164-strix-hadorami-v3.md).
+
+### DESERTOWL-KIRWAN-2015 — newly read primary taxonomy/morphometry study
+- Kirwan, Schweizer & Copete, 2015, *Zootaxa* 3904(1):28–50. DOI: https://doi.org/10.11646/zootaxa.3904.1.2 ; open copy: https://nnhc.huji.ac.il/sites/default/files/nnhc/files/15-zootaxa-kirwan_schweizer_copete_compressed.pdf
+- Accessed 2026-11-07; Table 1, pp.41–42, Figs.7–8.
+- Facts: current *S. hadorami* is the widespread western population formerly called *S. butleri*; no pronounced sexual dimorphism, females only slightly larger on average; small sample and individual colour variation. Use: near-equal adult height, only subtle female fullness; reject v2 male-larger reversal.
+- Link: [#164 v3 research](species/164-strix-hadorami-v3.md).
+

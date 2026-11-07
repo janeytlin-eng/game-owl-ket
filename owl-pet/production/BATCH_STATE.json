@@ -28580,21 +28580,21 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T11:06:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-07T11:10:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T110600+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T11:06:00+08:00",
-        "expires_at": "2026-11-07T11:21:00+08:00"
+        "heartbeat_at": "2026-11-07T11:10:00+08:00",
+        "expires_at": "2026-11-07T11:25:00+08:00"
       },
       "in_progress": {
         "cycle": 2,
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28603,7 +28603,7 @@
         "species_id": 164,
         "species": "Strix hadorami",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T110600+0800-cycle-2",
         "run_record": "owl-pet/production/runs/20261107T110600+0800-cycle-2.md"
       },
@@ -28787,6 +28787,27 @@
             "selection_note": "#164 Strix hadorami has archived v1/v2 and no v3; historical #164 Athene noctua excluded by authoritative duplicate correction",
             "lease_expires_at": "2026-11-07T11:21:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 2,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T11:10:00+08:00",
+          "run_id": "20261107T110600+0800-cycle-2",
+          "species_id": 164,
+          "species": "Strix hadorami",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/164-strix-hadorami-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_sources": 2,
+            "reused_sources": 3,
+            "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
+            "direct_v2_review": true,
+            "design_boundary": "near-equal adult height; female subtly fuller; supported c.25–30-day pale mesoptile on broad sandstone shelf",
+            "mikkola_access": "repository transcription reused; upload unavailable this execution",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T11:25:00+08:00"
           }
         }
       ]

@@ -163,3 +163,21 @@ Environment: cool montane Mexican pine-oak/conifer forest, lichen and moss on a 
 Composition: adults share the main branch; juvenile at the right cavity lip; all six feet visible or clearly supported; no bird overlaps that obscures diagnostic plumage.
 Avoid: large theatrical hollow trunk, Oregon-specific fledgling claims, exact day label, unsupported flight ability, bright yellow juvenile irises, adult-like juvenile wings/tail, large female, ear tufts, repeated bead-like spots, uniform breast stripes, extra birds, eggs, prey, watermark, misspelled labels.
 ```
+
+
+## #164 v3 — *Strix hadorami* — batch 20261107T103800+0800 cycle 2/6
+
+### Generation
+
+```text
+Use case: scientific-educational.
+Create a new 1536×1024 landscape owl-pet triptych revision for #164 Desert Owl, Strix hadorami. Preserve the established tactile, naturalistic high-detail 3D character concept style, warm restrained desert-dawn light, clean typography, no watermark. Exactly three whole birds on one continuous broad sandstone nest shelf outside a shallow sheltered cliff crevice: ADULT MALE left, ADULT FEMALE right, MESOPTILE JUVENILE · c.25–30 DAYS lower centre. Title exactly “DESERT OWL”; italic “Strix hadorami”; exact labels only.
+
+Adults: round-headed, earless medium Strix; pale sandy-gray facial discs with fine dark rims, warm yellow to brownish-orange irides, gray-blue horn bill and pale cere. Sandy ochre-gray upperparts with subdued brown mottling, a visible pale scapular row, restrained pale wing spots, clearly barred remiges and tail. Pale buff-white underparts with fine light rufous-brown cross-barring, not vertical streaking. No pronounced sex-linked plumage. Correct the v2 size reversal: male and female must appear nearly equal in standing height; female may be only subtly fuller/heavier (about 3–5% visual fullness), never shorter/smaller. Different natural head turns only.
+
+Juvenile: directly bounded to Ben Dov et al. 2017 field observations. Depict a c.25–30-day nest-shelf juvenile before or around first flight: pale fluffy mesoptile, open eyes, emerging but still soft/short wing feathers without fully layered adult remiges, very short mostly hidden tail, low stable stance with both feet planted on the broad sandstone shelf. No airborne action, no adult plumage clone. The crevice is a sheltered roost/nest context only; do not invent eggs, hatchling anatomy, nest lining or exact cavity geometry.
+
+Environment: arid rocky wadi/cliff, broad ledge with natural sandstone support, sparse desert vegetation and distant dry valley. Avoid lush forest. Preserve species identity rather than making a generic tawny owl.
+
+Avoid: ear tufts, heart-shaped Tyto face, dark eyes, exaggerated white facial disc, heavy chest streaks, strongly dimorphic plumage, male larger than female, mature juvenile wings/tail, unsupported juvenile, flight pose, extra birds/limbs/text, logo or watermark.
+```

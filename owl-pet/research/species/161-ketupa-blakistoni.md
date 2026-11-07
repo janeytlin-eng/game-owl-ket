@@ -37,3 +37,12 @@ Movin et al. (2022, DOI 10.1016/j.avrs.2022.100021) analyzed 192 duets from 22 p
 New adult cross-check: The Owl Pages lines 64–69 agree on yellow iris, grayish bill, deep-brown wings with buff-yellow bars, 7–8 cream-yellow tail bars, cream-feathered tarsi and bare lead-gray toes. This secondary account refines checking but does not replace the primary/guide juvenile anchors.
 
 Unknowns remain exact individual plumage map, universal sex ratio, exact 50-day flight ability and continuous feather chronology. Scientific status remains pending.
+
+
+## v3 science revision — 2026-11-07
+
+The October 2026 Clements/eBird update now splits continental Northern Fish-Owl *Ketupa doerriesi* from monotypic Hokkaido/insular *K. blakistoni*. V3 therefore narrows to Hokkaido *K. blakistoni* sensu stricto and treats older broad-sense *Bubo/Ketupa blakistoni* records as scope-sensitive. Do not borrow the conspicuous continental white nape/back patch or near-white tail.
+
+Hayashi/Japan Bird Research 2010 printed pp.3–4 was re-read: large broadleaf cavities are the normal natural nest; incubation is 35–38 days; usual fledging is 48–60 days; Photo 2 identifies a nestling at about 50 days. The juvenile remains a fully supported late nestling with soft short down-veiled wings and short/hidden tail; exact flight ability is unknown. Hayashi 1997 supports Hokkaido riparian dependence and prolonged natal-area use, not plumage detail.
+
+Detailed source records, full prompt and boundaries: [v3 research](161-ketupa-blakistoni-v3.md) and [source index](../SOURCE_INDEX.md#2026-11-07--161-ketupa-blakistoni-v3--hokkaido-scope-late-nestling-stage-and-2026-split). Scientific status remains pending.

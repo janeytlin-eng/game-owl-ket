@@ -22,3 +22,10 @@ Concept-science calibration remains pending. Unknowns include exact 50-day fligh
 
 ## Evidence
 [Research card](../../research/species/161-ketupa-blakistoni.md) · [Source index](../../research/SOURCE_INDEX.md#161-blakistons-fish-owl--ketupa-blakistoni--2026-10-27)
+
+
+## 2026-11-07 taxonomy/development correction
+- Current Clements/eBird 2026 treatment restricts monotypic *K. blakistoni* to Hokkaido/northern Japan and adjacent insular Russia and separates continental *K. doerriesi*. Historical broad-sense *Bubo/Ketupa blakistoni* sources require scope checking.
+- For a Hokkaido plate, exclude the conspicuous white nape/back patch and near-white tail attributed to continental *doerriesi*.
+- Re-read Hayashi/Japan Bird Research printed pp.3–4: use the directly captioned approximately 50-day nestling; normal fledging 48–60 days does not prove this individual could fly. Keep cavity-floor support, down-soft short wings and hidden short tail.
+- Scientific verification remains false.

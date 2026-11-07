@@ -3156,3 +3156,36 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Reused MIN-FITZSIMONS-2010-P143, MIN-SCHLEGEL-1879-NATURALIS, MIN-ITIS-555350, MIN-IOC15-2-2026, MIN-EBIRD-2025 and MIN-OWLPAGES-2020 from the v2 record.
 - Fitzsimons remains decisive: the published two-adult-plus-juvenile observation was questioned as possible *Tyto rosenbergii*. The v3 juvenile therefore remains an explicitly age-unknown older-young design inference, not a documented species-specific fledgling.
 - Exact juvenile age, plumage sequence, iris chronology, flight threshold, nest interior and quantitative sex-size direction remain unknown. Mikkola upload was not mounted. Scientific verification remains false.
+
+
+## 2026-11-07 — #161 *Ketupa blakistoni* v3 — Hokkaido scope, late-nestling stage and 2026 split
+
+### BLF-BIRDRESEARCH-HAYASHI-2010-P1-4 — newly re-read institutional ecological guide
+- **Title / author / institution / year:** “Blakiston’s Fish Owl”; Yoshihiro Hayashi / Japan Bird Research Association, *Bird Research News* 7(2), 2010.
+- **URL:** https://www.bird-research.jp/1_shiryo/seitai/shimafukuro.pdf
+- **Accessed / type:** 2026-11-07; institutional species guide citing field work and literature; full indexed text actually read. Screenshot rendering of PDF pp.3–4 failed after text retrieval and is recorded as a tooling limit.
+- **Pages / stage:** printed pp.1–4; p.3 breeding and nesting; p.4 growth/dispersal; Photo 2 caption identifies a nestling at about 50 days.
+- **Facts:** riparian broadleaf/mixed forest beside rivers, lakes, marshes and seashore; ice-free water is important. Female broods while male provisions. Natural nests are chiefly cavities in very large broadleaf trees; nest boxes are also used, with rare kite-nest/cliff-ledge cases. Incubation 35–38 days; usual fledging 48–60 days, one 69-day report; young are normally fed until autumn and sometimes winter.
+- **Design/check use:** choose the directly documented ~50-day late nestling, low and fully supported at a large-tree cavity threshold; do not claim flight. Use Hokkaido riverine old-growth rather than a generic nest bowl.
+- **Limits/confidence:** high for quoted guide facts and the pictured/captioned stage; synthesis rather than a single controlled development series. It does not provide a feather-tract timetable or individual flight test.
+
+### BLF-HAYASHI-1997-283-285 — newly indexed primary telemetry note
+- **Title / author / year:** “Home Range, Habitat Use and Natal Dispersal of Blakiston’s Fish-Owls”; Yoshihiro Hayashi, 1997, *Journal of Raptor Research* 31(3):283–285.
+- **URL:** https://sora.unm.edu/sites/default/files/journals/jrr/v031n03/p00283-p00285.pdf
+- **Accessed / type:** 2026-11-07; primary field/radio-telemetry paper; pp.283–285 actually read.
+- **Facts:** Hokkaido population depends on riparian forest; fledglings had been colour-marked since 1987; one radio-tagged male fledgling remained in its natal area for about a year before dispersal.
+- **Design/check use:** supports an extended post-fledging dependence context and strict riparian setting, but not plumage reconstruction.
+- **Limits/confidence:** high for tracked individuals; no exact plumage, sex-dimorphism or 50-day locomotor description.
+
+### BLF-CLEMENTS-2026-SPLIT — newly indexed current taxonomy change
+- **Title / institution / date:** “2026 Taxonomy Update”; Clements/eBird taxonomy, Cornell Lab of Ornithology, October 2026.
+- **URL:** https://www.birds.cornell.edu/clementschecklist/updates-corrections-october-2026/
+- **Accessed / type:** 2026-11-07; current institutional checklist update, section “Northern Fish-Owl”.
+- **Facts:** Northern Fish-Owl *Ketupa doerriesi* is split from Blakiston’s Fish-Owl *K. blakistoni*. The retained *K. blakistoni* is monotypic and restricted to Hokkaido/northern Japan and adjacent insular Russia; continental northeast Asian birds are *K. doerriesi*. The update cites vocal and plumage differences including a white nape patch and tail pattern.
+- **Design/check use:** v3 is explicitly Hokkaido *K. blakistoni* sensu stricto and must not borrow the conspicuous white nape/back patch or near-white tail of continental *doerriesi*. Historical broad-sense *Bubo/Ketupa blakistoni* references are scope-checked before transfer.
+- **Limits/confidence:** high for current Clements/eBird treatment; other authorities may update on different schedules. This naming correction does not itself establish development.
+
+### Reuse and evidence boundary
+- Reused repository records **BLF-MIKKOLA-2013-P296**, **BLF-OWLPAGES-2020**, **BLF-MOVIN-2022** and **BLF-IOC13-1-2023** only within their previously indexed limits. The user-uploaded Mikkola guide was not mounted in this execution, so no fresh page claim is made.
+- Adult plumage is alike; measured mass direction supports a fuller/heavier female but not a fixed standing-height ratio. Exact 50-day flight ability, continuous feather chronology, individual feather map and universal sex ratio remain unknown.
+- Full prompt: [PROMPTS_FULL.md](../production/PROMPTS_FULL.md#161-ketupa-blakistoni-v3-2026-11-07). Research card: [161 v3](species/161-ketupa-blakistoni-v3.md). Scientific verification remains false.

@@ -4028,3 +4028,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Initial juvenile wing/tail was too adult-like; one targeted edit shortened and softened both. Edited full plate and three crops opened.
 - PASS_WITH_LIMITATIONS, science=false. Exact juvenile age/sex, iris chronology, first-flight threshold and independence remain unknown.
 - Manifests staged at 804 / 801 / 794; archive commit and immutable readback pending.
+
+
+## 2026-11-08 — #38 v5 archive transport repair
+
+- Pre-credit immutable readback found both large originals truncated to 500,000 bytes; crops/text were intact.
+- Re-uploaded initial blob `107fb938dda45cdc44defa8ac22016f349da9158` at 3,472,234 bytes and final blob `045e98040fdfdc5f5e3c54c89e24ee30f0837136` at 3,180,310 bytes with corrected divisible chunks.
+- All concept/generated/reviewed aliases and three manifests now point to complete blobs. Readback restarted; no cycle credit yet.

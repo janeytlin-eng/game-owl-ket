@@ -44,3 +44,10 @@ For taxa diagnosed by absence of white, write the negative as a whole-body ident
 - **Applied:** edit the immature only; end the wing high above the feet, hide nearly all of the tail, retain bilateral branch support and keep the adult sex-palette comparison unchanged.
 - **Verified in this asset:** the edited full-colour plate, 64-colour transport plate and immature crop were opened; the adult-style long tail was removed and support preserved.
 - **Reuse boundary:** for sparse skin-based immature evidence, prompt and inspect wing maturity **and tail exposure separately**. This is one validated application, not a universal owl development schedule.
+
+## 2026-11-07 — Calendar-age evidence is not a nest-stage clock (applied and visually verified)
+
+- Problem: a banding study's HY/juvenal-plumage category was previously converted into a precise cavity-threshold stage.
+- Evidence boundary: Pyle et al. 2004 gives calendar-age plumage characters, not exact day, nest position, first-flight ability or a universal iris timetable.
+- Applied change: #26 *Glaucidium siju* v5 moved the juvenile to a broad living branch, kept it low and fully supported, and made wing/tail cues soft and subordinate; no nest-stage or flight claim.
+- Validation: original, transport and juvenile crop reopened; the juvenile retained the documented unmarked-back/streaked-underpart direction without adult wing rows or a long adult tail. Rule is verified for this plate only, not universal across owl species.

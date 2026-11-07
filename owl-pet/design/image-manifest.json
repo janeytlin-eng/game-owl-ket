@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-07T22:45:57.721+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29348,7 +29348,76 @@
       "archive_commit": "ba60744e8901348c92d8f46dc5d69accdced4d83",
       "verified_at": "2026-11-07T21:48:00+08:00",
       "verification_result": "Eight readback-safe binary paths returned complete base64 streams with exact expected lengths and Git blob SHAs; two lossless imagegen originals returned exact path/blob SHAs but connector did not stream their >3 MB bodies. Historical v3 concept and research blob were recovered and read back by exact SHA."
+    },
+    {
+      "id": "26-glaucidium-siju-v5",
+      "path": "design/concepts/26-glaucidium-siju-v5.png",
+      "species_id": 26,
+      "scientific_name": "Glaucidium siju",
+      "common_name": "Cuban Pygmy-Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1–v4 and withdraws v4's unsupported precise cavity-threshold nest-stage inference. Adults retain evidence-bounded gray-brown male and reddish-brown subtly fuller female directions at near-equal displayed height. The center bird is age/sex unknown in juvenal body plumage: soft downy contour, plain unmarked back, streaked underparts, indistinct crown flecks, dull indeterminate iris, compact soft wing/tail and quiet two-foot support on a broad living branch. No exact day, nest-stage, flight or iris chronology is claimed.",
+      "source_ids": [
+        "CUPO-PYLE-ETAL-2004-JFO",
+        "CUPO-GARRIDO-2002",
+        "CUPO-USNM-TYPE-LEAD-UNVERIFIED-2026"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/26-glaucidium-siju-v5.md",
+      "review_record": "research/reviews/26-glaucidium-siju-v5-review.md",
+      "run_record": "production/runs/20261107T223235+0800-cycle-1.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 726917,
+      "sha256": "683b4810b90547f4df351be9fbb1255208fee43d48e2d18ce2d6205946fdf464",
+      "git_blob": "f17c0aa85021deff4d743ef73befeb586b159ca7",
+      "original_path": "production/generated/26-glaucidium-siju-v5-original.png",
+      "original_blob": "7228f25d7c3501ec50ead4983e1874a9e2548d73",
+      "original_size_bytes": 2896822,
+      "original_sha256": "82b26339a32bf00aa8aaf336d87edca0a02a7fa842011b19e326af4166a18ff0",
+      "generated_path": "production/generated/26-glaucidium-siju-v5-generated-master.png",
+      "generated_blob": "f17c0aa85021deff4d743ef73befeb586b159ca7",
+      "generated_size_bytes": 726917,
+      "reviewed_path": "production/reviewed/26-glaucidium-siju-v5-reviewed-master.png",
+      "reviewed_blob": "f17c0aa85021deff4d743ef73befeb586b159ca7",
+      "reviewed_size_bytes": 726917,
+      "review_crops": [
+        {
+          "path": "production/review-crops/26-glaucidium-siju-v5-adult-male.png",
+          "blob": "be0f63049e24290fadeba541eebd8ad0c99870ae",
+          "size_bytes": 206503,
+          "sha256": "926c74393642fee578a30618251639c373b85bc96f0a1e569ad22bf6d4a1dec4"
+        },
+        {
+          "path": "production/review-crops/26-glaucidium-siju-v5-juvenile.png",
+          "blob": "37cad4d105b761ab22162c204a29bcc27d20e4c4",
+          "size_bytes": 193325,
+          "sha256": "721fb3bc594c2bdc6ac71cfee3f71408a5a3d2f7caa70186912273916e519620"
+        },
+        {
+          "path": "production/review-crops/26-glaucidium-siju-v5-adult-female.png",
+          "blob": "7e9b51e71623f2e5f581937fec8438090e4e4337",
+          "size_bytes": 214326,
+          "sha256": "9715f29b6924b46f4dcdd37b6020e4de19ca62f57d68c5d2d40e91aa43ef143d"
+        }
+      ],
+      "archive_note": "ImageGen original, 112-colour transport and three crops were opened. No edit was required. V4 remains immutable but its cavity-threshold inference is not carried forward. Exact juvenile age/sex, iris chronology, first-flight threshold, race and individual colour overlap remain unknown.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T21:48:00+08:00"
+  "updated_at": "2026-11-07T22:45:57.721+08:00"
 }

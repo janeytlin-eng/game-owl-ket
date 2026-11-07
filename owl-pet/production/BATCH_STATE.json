@@ -33561,14 +33561,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-07T22:32:35+08:00",
-      "updated_at": "2026-11-08T00:41:30.000+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-08T00:41:52.639+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work",
         "run_id": "20261108T003630+0800-cycle-5",
-        "heartbeat_at": "2026-11-08T00:41:30.000+08:00",
-        "expires_at": "2026-11-08T00:56:30.000+08:00"
+        "heartbeat_at": "2026-11-08T00:41:52.639+08:00",
+        "expires_at": "2026-11-08T00:56:52.640+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -33576,7 +33576,7 @@
         "species_id": 30,
         "species": "Glaucidium cuculoides",
         "version": 5,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261108T003630+0800-cycle-5.md"
       },
       "active": {
@@ -33585,7 +33585,7 @@
         "species_id": 30,
         "species": "Glaucidium cuculoides",
         "version": 5,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261108T003630+0800-cycle-5.md"
       },
       "stage_events": [
@@ -34316,6 +34316,92 @@
             "mikkola_access": "uploaded guide unavailable; no page claim",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-08T00:56:30.000+08:00"
+          }
+        },
+        {
+          "batch_id": "20261107T223235+0800",
+          "cycle": 5,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-08T00:41:52.639+08:00",
+          "run_id": "20261108T003630+0800-cycle-5",
+          "species_id": 30,
+          "species": "Glaucidium cuculoides",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/30-glaucidium-cuculoides-v5-initial-original.png",
+            "initial_blob": "c462006bd1937b03cb7ce1990ff10426dc14c41d",
+            "initial_bytes": 2872415,
+            "initial_sha256": "d9dcc573535ae00f708c5740c8e1f25d4033f612da192413c1907cc66bb4b8bc",
+            "final_original": "owl-pet/production/generated/30-glaucidium-cuculoides-v5-final-original.png",
+            "final_blob": "86bb3dddf07f44623a6e21452ec899ba616fbc1f",
+            "final_bytes": 2719113,
+            "final_sha256": "aa80e4cf11a20547965f574d69f1074e668aef9e6108a170248bca49b4745414",
+            "full_color_source": "owl-pet/production/generated/30-glaucidium-cuculoides-v5-full-color.jpg",
+            "full_color_blob": "e4095bdf7dbf0698936342092784ca95c1f867d3",
+            "full_color_bytes": 700993,
+            "full_color_sha256": "75aaa56109f0a6e1244ac226b864436f5a1ccd6b6d5d247324f65eb999ae1aa0",
+            "generated_master": "owl-pet/production/generated/30-glaucidium-cuculoides-v5-generated-master.png",
+            "generated_blob": "963faaec89ffb11cfe8fe9c8baa4d97ceec0bcea",
+            "generated_bytes": 700487,
+            "generated_sha256": "76038ee916aa3e754820872a79b204cd82a75dc2671827025c7c1e9841d30ad1",
+            "geometry": "1536x1024",
+            "generation_seconds": 47.6,
+            "edit_seconds": 38.6,
+            "edit_count": 1,
+            "preliminary_inspection": "Initial full plate opened: count, text, adult identity, support and habitat passed, but the center fledgling had an overlong folded wing with neat adult-like white covert rows. A targeted imagegen edit shortened and softened only the juvenile wing and removed the adult-like rows. Edited full plate reopened: exact three birds and all labels passed; yellow-eyed spotted-crown fledgling remained low with both feet supported; adults and environment showed no material drift.",
+            "lease_expires_at": "2026-11-08T00:56:52.640+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261107T223235+0800",
+          "cycle": 5,
+          "stage": "REVIEWED",
+          "at": "2026-11-08T00:41:52.639+08:00",
+          "run_id": "20261108T003630+0800-cycle-5",
+          "species_id": 30,
+          "species": "Glaucidium cuculoides",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/30-glaucidium-cuculoides-v5-reviewed-master.png",
+            "review_record": "owl-pet/research/reviews/30-glaucidium-cuculoides-v5-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/30-glaucidium-cuculoides-v5-adult-male.png",
+              "owl-pet/production/review-crops/30-glaucidium-cuculoides-v5-juvenile.png",
+              "owl-pet/production/review-crops/30-glaucidium-cuculoides-v5-adult-female.png"
+            ],
+            "crop_blobs": [
+              "753890a01d0528820a23592de877757074671515",
+              "e57c364e635746577fb32bf2a0b7f6205a35b601",
+              "61190e6ed8907d493ae72ca13a5cd7401e9b827a"
+            ],
+            "edit_count": 1,
+            "imagegen_invocations": 2,
+            "actual_views": [
+              "initial full-colour plate",
+              "edited full-colour plate",
+              "112-colour transport master",
+              "adult male crop",
+              "juvenile crop",
+              "adult female crop"
+            ],
+            "checks": {
+              "identity": "PASS",
+              "sex_direction": "PASS_WITH_LIMITATION",
+              "juvenile_stage": "PASS_WITH_LIMITATIONS",
+              "support": "PASS",
+              "text_labels": "PASS",
+              "habitat": "PASS"
+            },
+            "unknowns": [
+              "exact juvenile age and sex",
+              "first-flight threshold",
+              "degree of independence",
+              "population-level sex size direction"
+            ],
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-08T00:56:52.640+08:00"
           }
         }
       ]

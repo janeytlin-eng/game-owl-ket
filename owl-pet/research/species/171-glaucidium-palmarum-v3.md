@@ -64,3 +64,11 @@ Avoid ear tufts, bold white scapular patches, male/female colour split, huge fem
 
 ## Unknowns retained
 Exact immature age/sex, iris/bill development, daily feather sequence, first-flight threshold, occupied nest geometry, universal living colour variation, and a population-wide sex-size ratio remain unknown. Scientific verification remains false.
+
+
+## Actual image review — 2026-11-07
+- Generated one full-colour 1536×1024 plate; no edit required.
+- Full plate, palette-reduced transport plate, adult/support crop and immature crop were opened.
+- PASS: exact title/count/order; adults share one palette and near-equal height; subdued wing marks/no bold scapular blocks; all six feet supported; dry western-Mexico context.
+- PASS: immature has grey sparsely flecked crown, dark/indeterminate iris, very short soft wing, concealed tail and no flight/nest claim.
+- PASS_WITH_LIMITATIONS: tail bars are visually restrained, but five versus six/seven source conflict remains unresolved; exact development and universal ratios remain unknown. Scientific verification remains false.

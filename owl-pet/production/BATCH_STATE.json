@@ -36132,7 +36132,7 @@
     },
     {
       "batch_id": "20261108T023550+0800",
-      "status": "PARTIAL",
+      "status": "COMPLETE",
       "target_cycles": 6,
       "completed_cycles": [
         {
@@ -36214,39 +36214,33 @@
           "scientifically_verified": false,
           "credited_at": "2026-11-08T04:35:09.828+08:00",
           "batch_id": "20261108T023550+0800"
+        },
+        {
+          "cycle": 6,
+          "species": "Aegolius harrisii",
+          "species_id": 93,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "e48fed1f667787287601f024ea0fec51b443b226",
+          "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
+          "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "credited_at": "2026-11-08T04:50:24.556+08:00",
+          "batch_id": "20261108T023550+0800"
         }
       ],
-      "next_cycle": 6,
-      "active_cycle": 6,
+      "next_cycle": null,
+      "active_cycle": null,
       "started_at": "2026-11-08T02:35:50+08:00",
-      "updated_at": "2026-11-08T04:49:16.620+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-owl-production",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "species_id": 93,
-        "heartbeat_at": "2026-11-08T04:49:16.620+08:00",
-        "expires_at": "2026-11-08T05:04:16.620+08:00"
-      },
-      "in_progress": {
-        "run_id": "20261108T043600+0800-cycle-6",
-        "cycle": 6,
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md"
-      },
-      "active": {
-        "run_id": "20261108T043600+0800-cycle-6",
-        "cycle": 6,
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "stage": "ARCHIVED",
-        "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md"
-      },
+      "updated_at": "2026-11-08T04:50:24.556+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "batch_id": "20261108T023550+0800",
@@ -37642,19 +37636,36 @@
             "ledger_credit_pending": true,
             "lease_expires_at": "2026-11-08T05:04:16.620+08:00"
           }
+        },
+        {
+          "batch_id": "20261108T023550+0800",
+          "cycle": 6,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-08T04:50:24.556+08:00",
+          "run_id": "20261108T043600+0800-cycle-6",
+          "species_id": 93,
+          "species": "Aegolius harrisii",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "e48fed1f667787287601f024ea0fec51b443b226",
+            "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
+            "archive_tree": "0508932475337c9b722a2a34442913d40a44ba60",
+            "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
+            "batch_progress": "6/6",
+            "next_cycle": null,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "scientifically_verified": false,
+            "batch_status": "COMPLETE"
+          }
         }
-      ]
+      ],
+      "completed_at": "2026-11-08T04:50:24.556+08:00"
     }
   ],
-  "lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261108T043600+0800-cycle-6",
-    "batch_id": "20261108T023550+0800",
-    "cycle": 6,
-    "species_id": 93,
-    "heartbeat_at": "2026-11-08T04:49:16.620+08:00",
-    "expires_at": "2026-11-08T05:04:16.620+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -37788,7 +37799,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-08T04:49:16.620+08:00",
+  "updated_at": "2026-11-08T04:50:24.556+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -37797,16 +37808,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex-owl-production",
-    "run_id": "20261108T043600+0800-cycle-6",
-    "batch_id": "20261108T023550+0800",
-    "cycle": 6,
-    "species_id": 93,
-    "heartbeat_at": "2026-11-08T04:49:16.620+08:00",
-    "expires_at": "2026-11-08T05:04:16.620+08:00"
-  },
-  "last_updated_at": "2026-11-08T04:49:16.620+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-08T04:50:24.556+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -38603,14 +38606,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "run_id": "20261108T035350+0800-cycle-5",
-    "cycle": 5,
-    "species_id": 92,
-    "species": "Ninox japonica",
-    "stage": "IMAGE_GENERATED",
-    "run_record": "owl-pet/production/runs/20261108T035350+0800-cycle-5.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 3,
@@ -38619,11 +38615,11 @@
     "run_record": "owl-pet/production/runs/20261107T151400+0800-cycle-3.md"
   },
   "last_checkpoint": {
-    "batch_id": "20261107T183000+0800",
-    "cycle": 5,
-    "stage": "RESEARCH_READY",
-    "at": "2026-11-07T21:03:00+08:00",
-    "run_record": "owl-pet/production/runs/20261107T205300+0800-cycle-5.md"
+    "batch_id": "20261108T023550+0800",
+    "cycle": 6,
+    "stage": "LEDGER_CREDITED",
+    "verification_commit": "e48fed1f667787287601f024ea0fec51b443b226",
+    "at": "2026-11-08T04:50:24.556+08:00"
   },
   "history": [
     {
@@ -39915,7 +39911,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-08T04:49:16.620+08:00",
+  "last_updated": "2026-11-08T04:50:24.556+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -44075,12 +44071,36 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-08T05:04:16.620+08:00"
       }
+    },
+    {
+      "batch_id": "20261108T023550+0800",
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-08T04:50:24.556+08:00",
+      "run_id": "20261108T043600+0800-cycle-6",
+      "species_id": 93,
+      "species": "Aegolius harrisii",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "e48fed1f667787287601f024ea0fec51b443b226",
+        "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
+        "archive_tree": "0508932475337c9b722a2a34442913d40a44ba60",
+        "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false,
+        "batch_status": "COMPLETE"
+      }
     }
   ],
-  "active_batch_id": "20261108T023550+0800",
-  "active_cycle": 6,
-  "current_stage": "VERIFIED",
-  "next_cycle": 6,
+  "active_batch_id": null,
+  "active_cycle": null,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": null,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -47473,1524 +47493,34 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-08T05:04:16.620+08:00"
       }
-    }
-  ],
-  "last_completed_batch_id": "20261108T011416+0800",
-  "active_batch": {
-    "batch_id": "20261108T023550+0800",
-    "status": "PARTIAL",
-    "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Glaucidium nana",
-        "species_id": 38,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "32ffd7b47affd2bfb624aec1a8d10611fb12f073",
-        "archive_commit": "5027ec7ab4f4e447c1f40e543075650056ca3707",
-        "run_record": "owl-pet/production/runs/20261108T023550+0800-cycle-1.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-08T02:48:11+08:00",
-        "batch_id": "20261108T023550+0800"
-      },
-      {
-        "cycle": 2,
-        "species": "Glaucidium griseiceps",
-        "species_id": 39,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "68cd3c050eb407bfb2701b635ad2627b1528e45c",
-        "archive_commit": "2a76e7280c3a4b04415460f0c5323fa627279b2c",
-        "run_record": "owl-pet/production/runs/20261108T024902+0800-cycle-2.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-08T03:26:20+08:00",
-        "batch_id": "20261108T023550+0800"
-      },
-      {
-        "cycle": 3,
-        "species": "Glaucidium nubicola",
-        "species_id": 40,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "fff238757a66b1bf4135bc16d30d57542702151e",
-        "archive_commit": "8c739c70700bbb52eab78c17de881a37888256f9",
-        "run_record": "owl-pet/production/runs/20261108T032852+0800-cycle-3.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-08T03:39:17+08:00",
-        "batch_id": "20261108T023550+0800"
-      },
-      {
-        "cycle": 4,
-        "species": "Otus elegans",
-        "species_id": 86,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "f32c47c1958140580da3a460dd1ec6bfb3eba658",
-        "archive_commit": "7ac68fa6b297c401927845778dc17bca22e46e5d",
-        "run_record": "owl-pet/production/runs/20261108T034111+0800-cycle-4.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-08T03:52:33+08:00",
-        "batch_id": "20261108T023550+0800"
-      },
-      {
-        "cycle": 5,
-        "species": "Ninox japonica",
-        "species_id": 92,
-        "version": 5,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "f057bda43e2f4fbdcff9a640e507bd735a33fb2a",
-        "archive_commit": "50303cdf51206912fa1d23b69d42cc8d7cf56a69",
-        "run_record": "owl-pet/production/runs/20261108T035350+0800-cycle-5.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-08T04:35:09.828+08:00",
-        "batch_id": "20261108T023550+0800"
-      }
-    ],
-    "next_cycle": 6,
-    "active_cycle": 6,
-    "started_at": "2026-11-08T02:35:50+08:00",
-    "updated_at": "2026-11-08T04:49:16.620+08:00",
-    "current_stage": "VERIFIED",
-    "ledger_credit_pending": true,
-    "lease": {
-      "owner": "codex-owl-production",
-      "run_id": "20261108T043600+0800-cycle-6",
+    },
+    {
       "batch_id": "20261108T023550+0800",
       "cycle": 6,
-      "species_id": 93,
-      "heartbeat_at": "2026-11-08T04:49:16.620+08:00",
-      "expires_at": "2026-11-08T05:04:16.620+08:00"
-    },
-    "in_progress": {
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-08T04:50:24.556+08:00",
       "run_id": "20261108T043600+0800-cycle-6",
-      "cycle": 6,
       "species_id": 93,
       "species": "Aegolius harrisii",
-      "stage": "ARCHIVED",
-      "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md"
-    },
-    "active": {
-      "run_id": "20261108T043600+0800-cycle-6",
-      "cycle": 6,
-      "species_id": 93,
-      "species": "Aegolius harrisii",
-      "stage": "ARCHIVED",
-      "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md"
-    },
-    "stage_events": [
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "STARTED",
-        "at": "2026-11-08T02:35:50+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261108T023550+0800-cycle-1.md",
-          "baseline_main": "8f362981b687665b81ea0069e140c0ac11e3f38e",
-          "selection_note": "#38 Glaucidium nana is the next numbered repository-backed task after verified #37 v5. V1–v4 are preserved; v4 is PASS_WITH_LIMITATIONS/science=false. V5 will re-check taxonomy, adult sexual-size evidence and the photo-supported branch fledgling while withholding exact age, flight threshold and independence.",
-          "prior_version": "owl-pet/design/concepts/38-glaucidium-nana-v4.png",
-          "lease_expires_at": "2026-11-08T02:50:50+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-08T02:36:55+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/38-glaucidium-nana-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_verified_sources": 4,
-          "reused_or_reread_sources": 5,
-          "corrected_inferences": 1,
-          "design_boundary": "near-equal adults; female subtly longer wing/tail without heavier-body claim; age-unknown branch fledgling with short soft wing/tail; no flight/independence claim",
-          "mikkola_access": "uploaded guide unavailable; repository printed-p.400 record reused without new page claim",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T02:51:55+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-08T02:41:08+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/38-glaucidium-nana-v5-initial-original.png",
-          "initial_blob": "a88d6729e799a3b0ac9775543285f0d596bfbf78",
-          "initial_bytes": 3472234,
-          "initial_sha256": "db073432963684ca3a85f302075dde6fa82109d80a109388ee96185595e21132",
-          "final_original": "owl-pet/production/generated/38-glaucidium-nana-v5-final-original.png",
-          "final_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
-          "final_bytes": 3180310,
-          "final_sha256": "684950feed19ad36999a7da4dfe76e4a06513bc8ef6f2932fa0bd3875900cd24",
-          "geometry": "1536x1024",
-          "generation_seconds": 49.5,
-          "edit_seconds": 37.6,
-          "edit_count": 1,
-          "preliminary_inspection": "Full plate and initial juvenile crop opened. Exact title/count/labels, near-equal adults with subtle female longer wing/tail, male occipital false-eye view and all-foot support passed. Initial juvenile wing/tail was too mature; one targeted edit produced short soft folded wing and tiny tail tuft while preserving text/adults/support. Detailed crop review pending.",
-          "lease_expires_at": "2026-11-08T02:56:08+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-08T02:42:00+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/38-glaucidium-nana-v5-reviewed-master.png",
-          "reviewed_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
-          "edit_count": 1,
-          "imagegen_invocations": 2,
-          "review_record": "owl-pet/research/reviews/38-glaucidium-nana-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/38-glaucidium-nana-v5-adult-male.png",
-            "owl-pet/production/review-crops/38-glaucidium-nana-v5-adult-female.png",
-            "owl-pet/production/review-crops/38-glaucidium-nana-v5-juvenile.png"
-          ],
-          "crop_blobs": [
-            "08009e71211e7876b874d7a87c7493825fe4c6f1",
-            "6a63124c6f884663f18954080672f197b0606af5",
-            "e4db48e1a3df050465a23b0266086d9b795eabb6"
-          ],
-          "actual_views": [
-            "initial full plate",
-            "initial juvenile crop",
-            "edited full plate",
-            "adult male crop",
-            "adult female crop",
-            "edited juvenile crop"
-          ],
-          "checks": {
-            "identity": "PASS",
-            "male_occipital_pattern": "PASS",
-            "sex_direction": "PASS_WITH_LIMITATION",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS"
-          },
-          "unknowns": [
-            "exact juvenile age and sex",
-            "iris chronology",
-            "first-flight threshold",
-            "degree of independence",
-            "continuous wing/tail feather sequence",
-            "population transfer of aggregated morphometrics"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T02:57:00+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-08T02:43:41+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/38-glaucidium-nana-v5.png",
-          "concept_blob": "ee18e0763ba5a580e6c23303cf289855c198c5dd",
-          "initial_original": "production/generated/38-glaucidium-nana-v5-initial-original.png",
-          "final_original": "production/generated/38-glaucidium-nana-v5-final-original.png",
-          "full_color_source": "production/generated/38-glaucidium-nana-v5-full-color.png",
-          "reviewed": "production/reviewed/38-glaucidium-nana-v5-reviewed-master.png",
-          "review_crops": 3,
-          "manifests": 3,
-          "manifest_counts": {
-            "design_upper": 804,
-            "design_lower": 801,
-            "production": 794
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "archive_commit_pending": true,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T02:58:41+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "ARCHIVE_REPAIRED",
-        "at": "2026-11-08T02:45:47+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": false,
-        "evidence": {
-          "reason": "pre-credit readback found initial/final image blobs truncated to 500000 bytes by internal base64 padding",
-          "initial_blob": "107fb938dda45cdc44defa8ac22016f349da9158",
-          "initial_bytes": 3472234,
-          "final_blob": "045e98040fdfdc5f5e3c54c89e24ee30f0837136",
-          "final_bytes": 3180310,
-          "crops_unchanged": true,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T03:00:47+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-08T02:47:08+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "5027ec7ab4f4e447c1f40e543075650056ca3707",
-          "archive_tree": "6413faf2b58d000f9d1fd90a7ac9823a21e11273",
-          "required_paths_verified": 21,
-          "binary_paths_verified": 9,
-          "exact_blob_sha_and_size_verified": 9,
-          "tree_entries": 4109,
-          "tree_truncated": false,
-          "initial_blob": "107fb938dda45cdc44defa8ac22016f349da9158",
-          "initial_bytes": 3472234,
-          "concept_blob": "045e98040fdfdc5f5e3c54c89e24ee30f0837136",
-          "concept_bytes": 3180310,
-          "crop_blobs": [
-            "08009e71211e7876b874d7a87c7493825fe4c6f1",
-            "6a63124c6f884663f18954080672f197b0606af5",
-            "e4db48e1a3df050465a23b0266086d9b795eabb6"
-          ],
-          "manifest_counts": {
-            "design_upper": 804,
-            "design_lower": 801,
-            "production": 794
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "connector_full_body_stream": "UNKNOWN",
-          "lease_expires_at": "2026-11-08T03:02:08+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 1,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-08T02:48:11+08:00",
-        "run_id": "20261108T023550+0800-cycle-1",
-        "species_id": 38,
-        "species": "Glaucidium nana",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "32ffd7b47affd2bfb624aec1a8d10611fb12f073",
-          "archive_commit": "5027ec7ab4f4e447c1f40e543075650056ca3707",
-          "archive_tree": "6413faf2b58d000f9d1fd90a7ac9823a21e11273",
-          "run_record": "owl-pet/production/runs/20261108T023550+0800-cycle-1.md",
-          "batch_progress": "1/6",
-          "next_cycle": 2,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-08T02:49:02+08:00",
-        "run_id": "20261108T024902+0800-cycle-2",
-        "species_id": 39,
-        "species": "Glaucidium griseiceps",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261108T024902+0800-cycle-2.md",
-          "baseline_main": "5a8605c1bf6c81cddc06cd49441b9c7942c72989",
-          "selection_note": "#39 Glaucidium griseiceps is the next numbered repository-backed task. V2–v4 are preserved; v4 is PASS_WITH_LIMITATIONS/science=false. V5 will re-read the adult/immature diagnosis and the 2008 storm-ground juvenile record, keeping the wet age-unknown juvenile fully supported and withholding iris/flight/age claims.",
-          "prior_version": "owl-pet/design/concepts/39-glaucidium-griseiceps-v4.png",
-          "lease_expires_at": "2026-11-08T03:04:02+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-08T02:49:52+08:00",
-        "run_id": "20261108T024902+0800-cycle-2",
-        "species_id": 39,
-        "species": "Glaucidium griseiceps",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/39-glaucidium-griseiceps-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_verified_sources": 0,
-          "reused_or_reread_sources": 3,
-          "corrected_inferences": 0,
-          "design_boundary": "near-equal adults; muted-iris wet age-unknown ground juvenile fully supported on leaf/root; no nest/flight claim",
-          "mikkola_access": "uploaded guide unavailable; no new page claim",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T03:04:52+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-08T02:56:10+08:00",
-        "run_id": "20261108T024902+0800-cycle-2",
-        "species_id": 39,
-        "species": "Glaucidium griseiceps",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/39-glaucidium-griseiceps-v5-initial-original.png",
-          "initial_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
-          "initial_bytes": 3302821,
-          "initial_sha256": "6f7981a69e47bcb0089c5f22d439e11c438e23ff5204a19dee6ad15f897edb30",
-          "final_original": "owl-pet/production/generated/39-glaucidium-griseiceps-v5-final-original.png",
-          "final_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
-          "final_bytes": 3302821,
-          "final_sha256": "6f7981a69e47bcb0089c5f22d439e11c438e23ff5204a19dee6ad15f897edb30",
-          "geometry": "1536x1024",
-          "generation_seconds": 146,
-          "edit_seconds": 0,
-          "edit_count": 0,
-          "preliminary_inspection": "Full plate opened. Exact title/count/labels and all-foot support passed. Adults are near equal; male shows lateral/partial nape view but the occipital false-eye is not fully legible. Wet age-unknown juvenile is low on leaf litter against a buttress root, with muted dark iris, plain wet back, compact closed wing, concealed tail and no flight or nest claim. Detailed crops opened next.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T03:11:10+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-08T02:57:16+08:00",
-        "run_id": "20261108T024902+0800-cycle-2",
-        "species_id": 39,
-        "species": "Glaucidium griseiceps",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/39-glaucidium-griseiceps-v5-reviewed-master.png",
-          "reviewed_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
-          "edit_count": 0,
-          "imagegen_invocations": 1,
-          "review_record": "owl-pet/research/reviews/39-glaucidium-griseiceps-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-male.png",
-            "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-female.png",
-            "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-juvenile.png"
-          ],
-          "crop_blobs": [
-            "4b55d330d99a1ab703ff71508bf0b8068d3cb5c2",
-            "5fc37564ba9e0cfd0d2ad47e5cfe840c7e4319fa",
-            "d530c33603781e72fda89c180d43536d478db72e"
-          ],
-          "actual_views": [
-            "generated full plate",
-            "adult male crop",
-            "adult female crop",
-            "juvenile crop"
-          ],
-          "checks": {
-            "identity": "PASS",
-            "male_occipital_pattern": "PASS_WITH_LIMITATION",
-            "sex_direction": "PASS_WITH_LIMITATION",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS"
-          },
-          "unknowns": [
-            "exact juvenile age and sex",
-            "iris chronology",
-            "juvenile flight capability and independence",
-            "population-level sexual size direction",
-            "diagnostic value of the partially visible occipital pattern"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T03:12:16+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-08T02:59:04+08:00",
-        "run_id": "20261108T024902+0800-cycle-2",
-        "species_id": 39,
-        "species": "Glaucidium griseiceps",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/39-glaucidium-griseiceps-v5.png",
-          "concept_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
-          "initial_original": "production/generated/39-glaucidium-griseiceps-v5-initial-original.png",
-          "final_original": "production/generated/39-glaucidium-griseiceps-v5-final-original.png",
-          "full_color_source": "production/generated/39-glaucidium-griseiceps-v5-full-color.png",
-          "reviewed": "production/reviewed/39-glaucidium-griseiceps-v5-reviewed-master.png",
-          "review_crops": 3,
-          "manifests": 3,
-          "manifest_counts": {
-            "design_upper": 805,
-            "design_lower": 802,
-            "production": 795
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "archive_commit_pending": true,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T03:14:04+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-08T03:01:05+08:00",
-        "run_id": "20261108T024902+0800-cycle-2",
-        "species_id": 39,
-        "species": "Glaucidium griseiceps",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "2a76e7280c3a4b04415460f0c5323fa627279b2c",
-          "archive_tree": "ff1dec85d88104c166024aef657188cf714e49ef",
-          "required_paths_verified": 21,
-          "binary_paths_verified": 9,
-          "exact_blob_sha_and_size_verified": 9,
-          "tree_entries": 4121,
-          "tree_truncated": false,
-          "initial_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
-          "initial_bytes": 3302821,
-          "concept_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
-          "concept_bytes": 3302821,
-          "crop_blobs": [
-            "4b55d330d99a1ab703ff71508bf0b8068d3cb5c2",
-            "5fc37564ba9e0cfd0d2ad47e5cfe840c7e4319fa",
-            "d530c33603781e72fda89c180d43536d478db72e"
-          ],
-          "manifest_counts": {
-            "design_upper": 805,
-            "design_lower": 802,
-            "production": 795
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "connector_full_body_stream": "UNKNOWN",
-          "lease_expires_at": "2026-11-08T03:16:05+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-08T03:26:20+08:00",
-        "run_id": "20261108T024902+0800-cycle-2",
-        "species_id": 39,
-        "species": "Glaucidium griseiceps",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "68cd3c050eb407bfb2701b635ad2627b1528e45c",
-          "archive_commit": "2a76e7280c3a4b04415460f0c5323fa627279b2c",
-          "archive_tree": "ff1dec85d88104c166024aef657188cf714e49ef",
-          "run_record": "owl-pet/production/runs/20261108T024902+0800-cycle-2.md",
-          "batch_progress": "2/6",
-          "next_cycle": 3,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-08T03:28:52+08:00",
-        "run_id": "20261108T032852+0800-cycle-3",
-        "species_id": 40,
-        "species": "Glaucidium nubicola",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261108T032852+0800-cycle-3.md",
-          "baseline_main": "81e74f0f4eaf4051e86b88137bbd68ec95d6154f",
-          "selection_note": "#40 Glaucidium nubicola is the next numbered repository-backed science-revision task. V1–v4 remain preserved; v4 is PASS_WITH_LIMITATIONS/science=false. V5 will re-read the original species description and a peer-reviewed juvenile-feeding record, keep adults near-equal because the type series has only one female, and use an age-unknown supported juvenile without claiming an exact nest, iris, or flight stage.",
-          "prior_version": "owl-pet/design/concepts/40-glaucidium-nubicola-v4.png",
-          "lease_expires_at": "2026-11-08T03:43:52+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-08T03:30:36+08:00",
-        "run_id": "20261108T032852+0800-cycle-3",
-        "species_id": 40,
-        "species": "Glaucidium nubicola",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/40-glaucidium-nubicola-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_verified_sources": 2,
-          "new_secondary_sources": 1,
-          "reused_sources": 0,
-          "corrected_inferences": 1,
-          "design_boundary": "near-equal brown adults; five incomplete adult tail bands; age-unknown dependent juvenile low on a broad mossy branch; no exact nest/iris/flight claim",
-          "mikkola_access": "user-uploaded photographic guide unavailable; Cadena-Ortiz chapter in a Mikkola-edited volume read but not conflated with the upload",
-          "unknowns": [
-            "exact juvenile age and sex",
-            "iris chronology",
-            "nest stage",
-            "juvenile feather sequence",
-            "flight threshold",
-            "independence"
-          ],
-          "lease_expires_at": "2026-11-08T03:45:36+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-08T03:32:55+08:00",
-        "run_id": "20261108T032852+0800-cycle-3",
-        "species_id": 40,
-        "species": "Glaucidium nubicola",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/40-glaucidium-nubicola-v5-initial-original.png",
-          "initial_blob": "98a0faf60ae419f31ecf89e64f6435c329658455",
-          "initial_bytes": 3157252,
-          "initial_sha256": "0df36f45460b55c7b93bdd463e8b9b2a44c80670de85b973d1cd779aeacdfa81",
-          "geometry": "1536x1024",
-          "generation_seconds": 45.4,
-          "edit_required": true,
-          "preliminary_inspection": "Full generated plate and three cropped birds opened. Exact title, three exact labels, near-equal brown adults, adult male white-bordered nape false-eye, wet cloud-forest context and all-foot support pass. Juvenile is low, amber-eyed and naturally supported, but its folded wing is too long and retains pale adult-like feather edging; one targeted juvenile-wing edit is required before review.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T03:47:55+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-08T03:36:19+08:00",
-        "run_id": "20261108T032852+0800-cycle-3",
-        "species_id": 40,
-        "species": "Glaucidium nubicola",
-        "credited": false,
-        "evidence": {
-          "final_original": "owl-pet/production/generated/40-glaucidium-nubicola-v5-final-original.png",
-          "final_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
-          "final_bytes": 2850815,
-          "final_sha256": "97bc385c39e1fc3190af2be778e4f568ca2c9ea855b17aeb612abed1e6644d17",
-          "geometry": "1536x1024",
-          "generation_seconds": 45.4,
-          "edit_seconds": 36.7,
-          "edit_count": 1,
-          "reviewed_path": "owl-pet/production/reviewed/40-glaucidium-nubicola-v5-reviewed-master.png",
-          "reviewed_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
-          "review_record": "owl-pet/research/reviews/40-glaucidium-nubicola-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/40-glaucidium-nubicola-v5-adult-male.png",
-            "owl-pet/production/review-crops/40-glaucidium-nubicola-v5-adult-female.png",
-            "owl-pet/production/review-crops/40-glaucidium-nubicola-v5-juvenile.png"
-          ],
-          "crop_blobs": [
-            "d731fdddb4350ea21cd8ba9e4a0daf3b0ffe5946",
-            "255c7bc647aba33bc20df784c484b8a1ed815d52",
-            "f7a0929b056bcb3e050af2bb637413347eeca122"
-          ],
-          "actual_views": [
-            "initial full plate",
-            "three initial crops",
-            "edited full plate",
-            "adult male final crop",
-            "adult female final crop",
-            "juvenile final crop"
-          ],
-          "checks": {
-            "identity": "PASS",
-            "male_occipital_pattern": "PASS",
-            "sex_direction": "PASS_WITH_LIMITATION",
-            "tail_bands": "PASS_WITH_LIMITATION",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS"
-          },
-          "unknowns": [
-            "exact juvenile age and sex",
-            "iris chronology",
-            "feather sequence",
-            "nest stage",
-            "flight threshold",
-            "independence"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T03:51:19+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-08T03:37:28+08:00",
-        "run_id": "20261108T032852+0800-cycle-3",
-        "species_id": 40,
-        "species": "Glaucidium nubicola",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/40-glaucidium-nubicola-v5.png",
-          "concept_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
-          "initial_original": "production/generated/40-glaucidium-nubicola-v5-initial-original.png",
-          "final_original": "production/generated/40-glaucidium-nubicola-v5-final-original.png",
-          "full_color_source": "production/generated/40-glaucidium-nubicola-v5-full-color.png",
-          "reviewed": "production/reviewed/40-glaucidium-nubicola-v5-reviewed-master.png",
-          "review_crops": 3,
-          "manifests": 3,
-          "manifest_counts": {
-            "design_upper": 806,
-            "design_lower": 803,
-            "production": 796
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "archive_commit_pending": true,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T03:52:28+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-08T03:38:42+08:00",
-        "run_id": "20261108T032852+0800-cycle-3",
-        "species_id": 40,
-        "species": "Glaucidium nubicola",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "8c739c70700bbb52eab78c17de881a37888256f9",
-          "archive_tree": "243d6289fcdb9596d8a6adc30e58d02735699f71",
-          "required_paths_verified": 21,
-          "binary_paths_verified": 9,
-          "exact_blob_sha_and_size_verified": 9,
-          "tree_entries": 4133,
-          "tree_truncated": false,
-          "initial_blob": "98a0faf60ae419f31ecf89e64f6435c329658455",
-          "initial_bytes": 3157252,
-          "concept_blob": "eaa428fb02257c5b24deedd20e5539b146d18b56",
-          "concept_bytes": 2850815,
-          "crop_blobs": [
-            "d731fdddb4350ea21cd8ba9e4a0daf3b0ffe5946",
-            "255c7bc647aba33bc20df784c484b8a1ed815d52",
-            "f7a0929b056bcb3e050af2bb637413347eeca122"
-          ],
-          "manifest_counts": {
-            "design_upper": 806,
-            "design_lower": 803,
-            "production": 796
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-08T03:53:42+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-08T03:39:17+08:00",
-        "run_id": "20261108T032852+0800-cycle-3",
-        "species_id": 40,
-        "species": "Glaucidium nubicola",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "fff238757a66b1bf4135bc16d30d57542702151e",
-          "archive_commit": "8c739c70700bbb52eab78c17de881a37888256f9",
-          "archive_tree": "243d6289fcdb9596d8a6adc30e58d02735699f71",
-          "run_record": "owl-pet/production/runs/20261108T032852+0800-cycle-3.md",
-          "batch_progress": "3/6",
-          "next_cycle": 4,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-08T03:41:11+08:00",
-        "run_id": "20261108T034111+0800-cycle-4",
-        "species_id": 86,
-        "species": "Otus elegans",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261108T034111+0800-cycle-4.md",
-          "baseline_main": "6c5011d8752ae5182999c83f2596983ba34cdcd8",
-          "selection_note": "#86 Otus elegans (repository v4 treated as O. e. interpositus) is the next uncompleted science-revision target after skipping already verified v5 records #41–52, duplicate #53/#08, verified #54–55, duplicate #56/#14, and verified v5 records #57–85. Existing v1–v4 remain preserved. V5 will re-check current-name/subspecies mapping, adult sex evidence and an evidence-bounded juvenile stage before generation.",
-          "prior_version": "owl-pet/design/concepts/86-otus-elegans-v4.png",
-          "lease_expires_at": "2026-11-08T03:56:11+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 4,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-08T03:43:01+08:00",
-        "run_id": "20261108T034111+0800-cycle-4",
-        "species_id": 86,
-        "species": "Otus elegans",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/86-otus-elegans-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_verified_sources": 2,
-          "new_taxonomy_sources": 1,
-          "reused_or_reread_sources": 2,
-          "corrected_inferences": 1,
-          "design_boundary": "near-equal adults with only subtle female fullness; age-unknown post-fledging dependent young low on a broad Casuarina branch; no exact day/flight/independence claim",
-          "mikkola_access": "uploaded guide unavailable; repository printed pp.160–161 reused without new page claim",
-          "unknowns": [
-            "exact fledgling age and sex",
-            "iris chronology",
-            "continuous feather sequence",
-            "first-flight threshold",
-            "independence"
-          ],
-          "lease_expires_at": "2026-11-08T03:58:01+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-08T03:44:43+08:00",
-        "run_id": "20261108T034111+0800-cycle-4",
-        "species_id": 86,
-        "species": "Otus elegans",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/86-otus-elegans-v5-initial-original.png",
-          "initial_blob": "d5d0c1a6afc6a40f63145d1106436579d994a734",
-          "initial_bytes": 3525724,
-          "initial_sha256": "e796cd856723acb3100cd6d6478e4a30ac881e5491ffb029a5d4f979e3232bbf",
-          "geometry": "1536x1024",
-          "generation_seconds": 45.6,
-          "edit_required": true,
-          "preliminary_inspection": "Full plate opened. Exact title/count/labels, near-equal adults, subtle female fullness, bare gray-white toes, Casuarina/cane setting, recent-fledgling begging posture and all-foot support passed. Juvenile folded wing was too long and orderly, resembling mature remiges; targeted edit required.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T03:59:43+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 4,
-        "stage": "REVIEWED",
-        "at": "2026-11-08T03:47:52+08:00",
-        "run_id": "20261108T034111+0800-cycle-4",
-        "species_id": 86,
-        "species": "Otus elegans",
-        "credited": false,
-        "evidence": {
-          "final_original": "owl-pet/production/generated/86-otus-elegans-v5-final-original.png",
-          "final_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
-          "final_bytes": 3179178,
-          "final_sha256": "9820d534e22c5a5f30f731402021697a9c4e010ef197c3f43f8fdae0b6bd4d5e",
-          "geometry": "1536x1024",
-          "generation_seconds": 45.6,
-          "edit_seconds": 36.2,
-          "edit_count": 1,
-          "imagegen_invocations": 2,
-          "reviewed_path": "owl-pet/production/reviewed/86-otus-elegans-v5-reviewed-master.png",
-          "reviewed_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
-          "review_record": "owl-pet/research/reviews/86-otus-elegans-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/86-otus-elegans-v5-adult-male.png",
-            "owl-pet/production/review-crops/86-otus-elegans-v5-adult-female.png",
-            "owl-pet/production/review-crops/86-otus-elegans-v5-recent-fledgling.png"
-          ],
-          "crop_blobs": [
-            "22420d89f595344cfaae3c777640935e36f977e0",
-            "064860c688c5f587d3c1c3ce2ff30d087d98045e",
-            "dfc3338529df1b998e06249ff37b54b275433b34"
-          ],
-          "actual_views": [
-            "initial full plate",
-            "edited full plate",
-            "adult male crop",
-            "adult female crop",
-            "edited recent-fledgling crop"
-          ],
-          "checks": {
-            "identity": "PASS_WITH_LIMITATION",
-            "sex_direction": "PASS_WITH_LIMITATION",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "wing_development": "PASS_AFTER_EDIT",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS_WITH_LIMITATION"
-          },
-          "unknowns": [
-            "exact fledgling age and sex",
-            "iris chronology",
-            "continuous feather sequence",
-            "first-flight threshold",
-            "independence",
-            "transferability from Minami-daito interpositus to other O. elegans subspecies"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T04:02:52+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-08T03:49:16+08:00",
-        "run_id": "20261108T034111+0800-cycle-4",
-        "species_id": 86,
-        "species": "Otus elegans",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/86-otus-elegans-v5.png",
-          "concept_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
-          "initial_original": "production/generated/86-otus-elegans-v5-initial-original.png",
-          "final_original": "production/generated/86-otus-elegans-v5-final-original.png",
-          "full_color_source": "production/generated/86-otus-elegans-v5-full-color.png",
-          "reviewed": "production/reviewed/86-otus-elegans-v5-reviewed-master.png",
-          "review_crops": 3,
-          "manifests": 3,
-          "manifest_counts": {
-            "design_upper": 807,
-            "design_lower": 804,
-            "production": 797
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "archive_commit_pending": true,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T04:04:16+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-08T03:51:40+08:00",
-        "run_id": "20261108T034111+0800-cycle-4",
-        "species_id": 86,
-        "species": "Otus elegans",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "7ac68fa6b297c401927845778dc17bca22e46e5d",
-          "archive_tree": "b3cc0a481d89072ba2bea78ce37e7fee15891eae",
-          "required_paths_verified": 20,
-          "binary_paths_verified": 9,
-          "exact_blob_sha_and_size_verified": 9,
-          "tree_entries": 4145,
-          "tree_truncated": false,
-          "initial_blob": "d5d0c1a6afc6a40f63145d1106436579d994a734",
-          "initial_bytes": 3525724,
-          "concept_blob": "8726f94680db06be23edf48a1307ef2b87d79d62",
-          "concept_bytes": 3179178,
-          "crop_blobs": [
-            "22420d89f595344cfaae3c777640935e36f977e0",
-            "064860c688c5f587d3c1c3ce2ff30d087d98045e",
-            "dfc3338529df1b998e06249ff37b54b275433b34"
-          ],
-          "manifest_counts": {
-            "design_upper": 807,
-            "design_lower": 804,
-            "production": 797
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-08T04:06:40+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-08T03:52:33+08:00",
-        "run_id": "20261108T034111+0800-cycle-4",
-        "species_id": 86,
-        "species": "Otus elegans",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "f32c47c1958140580da3a460dd1ec6bfb3eba658",
-          "archive_commit": "7ac68fa6b297c401927845778dc17bca22e46e5d",
-          "archive_tree": "b3cc0a481d89072ba2bea78ce37e7fee15891eae",
-          "run_record": "owl-pet/production/runs/20261108T034111+0800-cycle-4.md",
-          "batch_progress": "4/6",
-          "next_cycle": 5,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-08T03:53:50+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261108T035350+0800-cycle-5.md",
-          "baseline_main": "8fa1538595b5ddefe75d3b634648ceef531a2f53",
-          "selection_note": "#92 Ninox japonica is the next numbered repository-backed target without a v5 concept after #86–91 were found already archived at v5 (including #88 as .jpg). Existing v1–v3 remain preserved; no v4 exists. V5 will re-read the Taiwan breeding study, current taxonomy and age-bounded juvenile evidence, keep adults near-equal unless fresh evidence supports a direction, and avoid assigning exact feather-day or flight ability.",
-          "prior_version": "owl-pet/design/concepts/92-ninox-japonica-v3.png",
-          "lease_expires_at": "2026-11-08T04:08:50+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-08T03:55:01+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/92-ninox-japonica-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_verified_sources": 3,
-          "reused_or_reread_sources": 3,
-          "corrected_inferences": 2,
-          "design_boundary": "near-equal Taiwan adults; age-unknown dependent recent fledgling with paler, softer streaking and compact wing, fully supported near a natural cavity; no exact day/flight/subspecies-resolution claim",
-          "mikkola_access": "uploaded guide unavailable; repository printed pp.466–467/PDF pp.468–469 reused without new page claim",
-          "unknowns": [
-            "exact fledgling age and sex",
-            "iris chronology",
-            "continuous feather sequence",
-            "first-flight threshold",
-            "independence",
-            "Taiwan resident subspecies resolution"
-          ],
-          "lease_expires_at": "2026-11-08T04:10:01+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-08T03:57:46+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/92-ninox-japonica-v5-initial-original.png",
-          "initial_blob": "2df8d043532558720bd1654c828271e081ebac4b",
-          "initial_bytes": 3312188,
-          "initial_sha256": "3b96f51efafec137611a6c1bf67e7c666096776176140613a4fcf7f73b320af1",
-          "geometry": "1536x1024",
-          "generation_seconds": 43.5,
-          "edit_required": "PENDING_CROP_REVIEW",
-          "preliminary_inspection": "Full generated plate opened. Exact title/count/labels, near-equal adults, no ear tufts, yellow eyes, adult white shoulder marks, central-Taiwan cavity/secondary-grove context, recent-fledgling begging posture and all-foot support passed. Separate role crops pending before edit decision.",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T04:12:46+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "LEASE_RESUMED",
-        "at": "2026-11-08T04:27:59.354+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": false,
-        "evidence": {
-          "resume_from": "IMAGE_GENERATED",
-          "previous_lease_expired_at": "2026-11-08T04:12:46+08:00",
-          "baseline_main": "6614a6339e95b1b608dd60171600598accdbbee4",
-          "initial_original": "owl-pet/production/generated/92-ninox-japonica-v5-initial-original.png",
-          "reason": "Expired lease; unchanged main; resume persisted image for crop review/edit decision without regenerating.",
-          "lease_expires_at": "2026-11-08T04:42:59.354+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-08T04:31:18.967+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": false,
-        "evidence": {
-          "final_original": "owl-pet/production/generated/92-ninox-japonica-v5-final-original.png",
-          "final_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
-          "final_bytes": 3116170,
-          "final_sha256": "436007fe2fbe14b4f14ce60124501d07101ebbff50bfeb75c0050869074641e6",
-          "geometry": "1536x1024",
-          "edit_count": 1,
-          "imagegen_invocations": 2,
-          "reviewed_path": "owl-pet/production/reviewed/92-ninox-japonica-v5-reviewed-master.png",
-          "reviewed_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
-          "review_record": "owl-pet/research/reviews/92-ninox-japonica-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/92-ninox-japonica-v5-adult-male.png",
-            "owl-pet/production/review-crops/92-ninox-japonica-v5-adult-female.png",
-            "owl-pet/production/review-crops/92-ninox-japonica-v5-recent-fledgling.png"
-          ],
-          "crop_blobs": [
-            "a4edaa136d14273d06a453d79a1966dbf7cc00a7",
-            "5b839bb846453896aeb3151a3aba6715ae590afd",
-            "9a03b9c8824431e5d5e071dc2eace3b99d411608"
-          ],
-          "actual_views": [
-            "initial full plate",
-            "initial adult male crop",
-            "initial adult female crop",
-            "initial recent-fledgling crop",
-            "edited full plate",
-            "edited adult male crop",
-            "edited adult female crop",
-            "edited recent-fledgling crop"
-          ],
-          "checks": {
-            "identity": "PASS_WITH_LIMITATION",
-            "sex_direction": "PASS_WITH_LIMITATION",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "wing_development": "PASS_AFTER_EDIT",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS_WITH_LIMITATION",
-            "taxonomy": "PASS_WITH_CONFLICT_RETAINED"
-          },
-          "unknowns": [
-            "exact fledgling age and sex",
-            "iris chronology",
-            "continuous feather sequence",
-            "first-flight threshold",
-            "degree of independence",
-            "totogo subspecies treatment"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T04:46:18.967+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-08T04:33:10.150+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/92-ninox-japonica-v5.png",
-          "concept_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
-          "initial_original": "production/generated/92-ninox-japonica-v5-initial-original.png",
-          "final_original": "production/generated/92-ninox-japonica-v5-final-original.png",
-          "full_color_source": "production/generated/92-ninox-japonica-v5-full-color.png",
-          "reviewed": "production/reviewed/92-ninox-japonica-v5-reviewed-master.png",
-          "review_crops": 3,
-          "manifests": 3,
-          "manifest_counts": {
-            "design_upper": 808,
-            "design_lower": 805,
-            "production": 798
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "archive_commit_pending": true,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T04:48:10.150+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-08T04:34:24.579+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "50303cdf51206912fa1d23b69d42cc8d7cf56a69",
-          "archive_tree": "e5de7455fb49e3b2989356eddc293b6c82f3a64e",
-          "required_paths_verified": 20,
-          "binary_paths_verified": 9,
-          "exact_blob_sha_and_size_verified": 9,
-          "unique_binary_streams": 5,
-          "tree_entries": 4157,
-          "tree_truncated": false,
-          "initial_blob": "2df8d043532558720bd1654c828271e081ebac4b",
-          "initial_bytes": 3312188,
-          "concept_blob": "49139b0d1f442f6be30cf08f850811061c7ecea9",
-          "concept_bytes": 3116170,
-          "crop_blobs": [
-            "a4edaa136d14273d06a453d79a1966dbf7cc00a7",
-            "5b839bb846453896aeb3151a3aba6715ae590afd",
-            "9a03b9c8824431e5d5e071dc2eace3b99d411608"
-          ],
-          "manifest_counts": {
-            "design_upper": 808,
-            "design_lower": 805,
-            "production": 798
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-08T04:49:24.579+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-08T04:35:09.828+08:00",
-        "run_id": "20261108T035350+0800-cycle-5",
-        "species_id": 92,
-        "species": "Ninox japonica",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "f057bda43e2f4fbdcff9a640e507bd735a33fb2a",
-          "archive_commit": "50303cdf51206912fa1d23b69d42cc8d7cf56a69",
-          "archive_tree": "e5de7455fb49e3b2989356eddc293b6c82f3a64e",
-          "run_record": "owl-pet/production/runs/20261108T035350+0800-cycle-5.md",
-          "batch_progress": "5/6",
-          "next_cycle": 6,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "stage": "STARTED",
-        "at": "2026-11-08T04:35:56.801+08:00",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
-          "baseline_main": "7fc6c7b2068cd4d4341af8397210e4c66d25647f",
-          "selection_note": "#93 Aegolius harrisii is the next numbered repository-backed target without a v5 concept after #92 v5 was verified and credited. Existing v1–v4 remain preserved. V5 will re-read current taxonomy, adult sex evidence, nesting habitat and an evidence-bounded juvenile stage before generation.",
-          "prior_version": "owl-pet/design/concepts/93-aegolius-harrisii-v4.png",
-          "lease_expires_at": "2026-11-08T04:50:56.801+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-08T04:39:30.764+08:00",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/93-aegolius-harrisii-v5.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_verified_sources": 1,
-          "new_primary_sources": 1,
-          "reused_or_reread_sources": 4,
-          "corrected_inferences": 1,
-          "design_boundary": "near-equal adults; supported ~24-day cavity-floor nestling with residual dark-grey down, short soft wing and concealed tail; no flight or fixed sex-ratio claim",
-          "mikkola_access": "uploaded guide unavailable; repository printed p.447/PDF p.449 reused without new page claim",
-          "unknowns": [
-            "exact nestling sex and within-day age",
-            "iris chronology",
-            "tract-by-tract feather sequence",
-            "flight competence at 24 days",
-            "population sex-size ratio",
-            "cutaway geometry"
-          ],
-          "lease_expires_at": "2026-11-08T04:54:30.764+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-08T04:41:40.616+08:00",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "credited": false,
-        "evidence": {
-          "initial_original": "owl-pet/production/generated/93-aegolius-harrisii-v5-initial-original.png",
-          "initial_blob": "5a557b32addc2eb09bf599dac1025cc120357c1f",
-          "initial_bytes": 3629435,
-          "initial_sha256": "47df380cc530aaa056fcce55008f9213784771bd017e24d332b2f040f06790f9",
-          "geometry": "1536x1024",
-          "generation_seconds": 49.6,
-          "edit_required": "PENDING_CROP_REVIEW",
-          "preliminary_inspection": "Full plate opened. Exact title/name/count/labels, near-equal adults, no ear tufts, yellow eyes, pale bills, cinnamon face, spotted wings, natural cavity and continuous support passed. The ~24-day nestling has residual grey down and cavity-floor support; separate role crops pending to decide whether folded wing/tail are too mature.",
-          "lease_expires_at": "2026-11-08T04:56:40.616+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "stage": "REVIEWED",
-        "at": "2026-11-08T04:44:23.873+08:00",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "credited": false,
-        "evidence": {
-          "final_original": "owl-pet/production/generated/93-aegolius-harrisii-v5-final-original.png",
-          "final_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
-          "final_bytes": 3311893,
-          "final_sha256": "d6c689d98d1ae7780d34051c4c38da42e66458dba7fb630d193849ab45b0ac8f",
-          "geometry": "1536x1024",
-          "generation_seconds": 49.6,
-          "edit_seconds": 42.5,
-          "edit_count": 1,
-          "imagegen_invocations": 2,
-          "reviewed_path": "owl-pet/production/reviewed/93-aegolius-harrisii-v5-reviewed-master.png",
-          "reviewed_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
-          "review_record": "owl-pet/research/reviews/93-aegolius-harrisii-v5-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/93-aegolius-harrisii-v5-adult-male.png",
-            "owl-pet/production/review-crops/93-aegolius-harrisii-v5-adult-female.png",
-            "owl-pet/production/review-crops/93-aegolius-harrisii-v5-nestling.png"
-          ],
-          "crop_blobs": [
-            "f64962cf92e57dd7b5f89fca2811b7e784e77e10",
-            "15ea545f18e0d5ee1a837bbb32c53454ab7f4e89",
-            "c821b3bc64faaa7205ff0344372c381cfc87d577"
-          ],
-          "actual_views": [
-            "initial full plate",
-            "initial adult male crop",
-            "initial nestling crop",
-            "initial adult female crop",
-            "edited full plate",
-            "edited adult male crop",
-            "edited nestling crop",
-            "edited adult female crop"
-          ],
-          "checks": {
-            "identity": "PASS",
-            "sex_direction": "PASS_WITH_LIMITATION",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "wing_development": "PASS_AFTER_EDIT",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS_WITH_LIMITATION"
-          },
-          "unknowns": [
-            "exact nestling sex and within-day age",
-            "iris chronology",
-            "tract-by-tract feather sequence",
-            "quantitative sex-size ratio",
-            "flight competence at 24 days",
-            "population transfer",
-            "cutaway geometry"
-          ],
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-08T04:59:23.873+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "stage": "ARCHIVED",
-        "at": "2026-11-08T04:46:01.470+08:00",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/93-aegolius-harrisii-v5.png",
-          "concept_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
-          "initial_original": "production/generated/93-aegolius-harrisii-v5-initial-original.png",
-          "final_original": "production/generated/93-aegolius-harrisii-v5-final-original.png",
-          "full_color_source": "production/generated/93-aegolius-harrisii-v5-full-color.png",
-          "reviewed": "production/reviewed/93-aegolius-harrisii-v5-reviewed-master.png",
-          "review_crops": 3,
-          "manifests": 3,
-          "manifest_counts": {
-            "design_upper": 809,
-            "design_lower": 806,
-            "production": 799
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "archive_commit_pending": true,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T05:01:01.470+08:00"
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "stage": "ARCHIVE_REPAIRED",
-        "at": "2026-11-08T04:48:00.179+08:00",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "credited": false,
-        "evidence": {
-          "reason": "pre-credit readback found five unique image blobs truncated to 500000 bytes by non-3-byte base64 chunk padding",
-          "initial_blob": "6f8930a7ca87b729321b229de64b4c72e36cff64",
-          "initial_bytes": 3629435,
-          "final_blob": "4a7b4232fa0029d774227b98194bd1869e76cba9",
-          "final_bytes": 3311893,
-          "crop_blobs": [
-            "d87316fb7f4ceaadb01007da6451de5df27043e3",
-            "e5d6f686494623e4287f279f4dd3e08f0048b7b2",
-            "05e67aa911ae10b8480cf95ff3227a82750faca1"
-          ],
-          "crop_bytes": [
-            988435,
-            980251,
-            1065288
-          ],
-          "aligned_chunk_bytes": 600000,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-08T05:03:00.179+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "batch_id": "20261108T023550+0800",
-        "cycle": 6,
-        "stage": "VERIFIED",
-        "at": "2026-11-08T04:49:16.620+08:00",
-        "run_id": "20261108T043600+0800-cycle-6",
-        "species_id": 93,
-        "species": "Aegolius harrisii",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
-          "archive_tree": "0508932475337c9b722a2a34442913d40a44ba60",
-          "required_paths_verified": 20,
-          "binary_paths_verified": 9,
-          "exact_blob_sha_and_size_verified": 9,
-          "unique_binary_streams": 5,
-          "tree_entries": 4169,
-          "tree_truncated": false,
-          "initial_blob": "6f8930a7ca87b729321b229de64b4c72e36cff64",
-          "initial_bytes": 3629435,
-          "concept_blob": "4a7b4232fa0029d774227b98194bd1869e76cba9",
-          "concept_bytes": 3311893,
-          "crop_blobs": [
-            "d87316fb7f4ceaadb01007da6451de5df27043e3",
-            "e5d6f686494623e4287f279f4dd3e08f0048b7b2",
-            "05e67aa911ae10b8480cf95ff3227a82750faca1"
-          ],
-          "manifest_counts": {
-            "design_upper": 809,
-            "design_lower": 806,
-            "production": 799
-          },
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-08T05:04:16.620+08:00"
-        }
+      "credited": true,
+      "evidence": {
+        "verification_commit": "e48fed1f667787287601f024ea0fec51b443b226",
+        "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
+        "archive_tree": "0508932475337c9b722a2a34442913d40a44ba60",
+        "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false,
+        "batch_status": "COMPLETE"
       }
-    ]
-  },
+    }
+  ],
+  "last_completed_batch_id": "20261108T023550+0800",
+  "active_batch": null,
   "events": [
     {
       "batch_id": "20261105T183434+0800",
@@ -56732,9 +55262,33 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-08T05:04:16.620+08:00"
       }
+    },
+    {
+      "batch_id": "20261108T023550+0800",
+      "cycle": 6,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-08T04:50:24.556+08:00",
+      "run_id": "20261108T043600+0800-cycle-6",
+      "species_id": 93,
+      "species": "Aegolius harrisii",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "e48fed1f667787287601f024ea0fec51b443b226",
+        "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
+        "archive_tree": "0508932475337c9b722a2a34442913d40a44ba60",
+        "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
+        "batch_progress": "6/6",
+        "next_cycle": null,
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "scientifically_verified": false,
+        "batch_status": "COMPLETE"
+      }
     }
   ],
-  "ledger_credit_pending": true,
+  "ledger_credit_pending": false,
   "last_verified_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
   "completed_cycles": [
     {
@@ -56877,37 +55431,39 @@
       "scientifically_verified": false,
       "credited_at": "2026-11-08T03:26:20+08:00",
       "batch_id": "20261108T023550+0800"
+    },
+    {
+      "cycle": 6,
+      "species": "Aegolius harrisii",
+      "species_id": 93,
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "e48fed1f667787287601f024ea0fec51b443b226",
+      "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
+      "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "credited_at": "2026-11-08T04:50:24.556+08:00",
+      "batch_id": "20261108T023550+0800"
     }
   ],
-  "updated": "2026-11-08T04:49:16.620+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-08T04:50:24.556+08:00",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
+    "verification_commit": "e48fed1f667787287601f024ea0fec51b443b226",
     "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
     "archive_tree": "0508932475337c9b722a2a34442913d40a44ba60",
-    "required_paths_verified": 20,
-    "binary_paths_verified": 9,
-    "exact_blob_sha_and_size_verified": 9,
-    "unique_binary_streams": 5,
-    "tree_entries": 4169,
-    "tree_truncated": false,
-    "initial_blob": "6f8930a7ca87b729321b229de64b4c72e36cff64",
-    "initial_bytes": 3629435,
-    "concept_blob": "4a7b4232fa0029d774227b98194bd1869e76cba9",
-    "concept_bytes": 3311893,
-    "crop_blobs": [
-      "d87316fb7f4ceaadb01007da6451de5df27043e3",
-      "e5d6f686494623e4287f279f4dd3e08f0048b7b2",
-      "05e67aa911ae10b8480cf95ff3227a82750faca1"
-    ],
-    "manifest_counts": {
-      "design_upper": 809,
-      "design_lower": 806,
-      "production": 799
-    },
-    "verification_result": "PASS_WITH_LIMITATIONS",
+    "run_record": "owl-pet/production/runs/20261108T043600+0800-cycle-6.md",
+    "batch_progress": "6/6",
+    "next_cycle": null,
+    "unique_species_increment": 0,
+    "revision_increment": 1,
+    "unique_species_count": 176,
+    "total_species": 251,
     "scientifically_verified": false,
-    "ledger_credit_pending": true,
-    "lease_expires_at": "2026-11-08T05:04:16.620+08:00"
+    "batch_status": "COMPLETE"
   },
   "last_verification_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
   "timestamps": {
@@ -56921,11 +55477,12 @@
     "reviewed_at": "2026-11-08T04:44:23.873+08:00",
     "archived_at": "2026-11-08T04:46:01.470+08:00",
     "verified_at": "2026-11-08T04:49:16.620+08:00",
-    "ledger_credited_at": "2026-11-08T03:39:17+08:00",
+    "ledger_credited_at": "2026-11-08T04:50:24.556+08:00",
     "started_at": "2026-11-08T03:41:11+08:00",
     "research_ready_at": "2026-11-08T04:39:30.764+08:00",
     "image_generated_at": "2026-11-08T04:41:40.616+08:00",
-    "lease_recovered_at": "2026-11-07T23:29:26.092+08:00"
+    "lease_recovered_at": "2026-11-07T23:29:26.092+08:00",
+    "batch_completed_at": "2026-11-08T04:50:24.556+08:00"
   },
   "production_log": [
     {

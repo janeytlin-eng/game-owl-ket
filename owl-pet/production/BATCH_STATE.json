@@ -32387,14 +32387,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T21:11:00+08:00",
-      "current_stage": "REVIEWED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-07T21:15:00+08:00",
+      "current_stage": "ARCHIVED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T205300+0800-cycle-5",
-        "heartbeat_at": "2026-11-07T21:11:00+08:00",
-        "expires_at": "2026-11-07T21:26:00+08:00"
+        "heartbeat_at": "2026-11-07T21:15:00+08:00",
+        "expires_at": "2026-11-07T21:30:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -32410,7 +32410,7 @@
         "run_id": "20261107T205300+0800-cycle-5",
         "species_id": 184,
         "species": "Otus spilocephalus",
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       },
       "stage_events": [
         {
@@ -33176,6 +33176,34 @@
             ],
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T21:26:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T21:15:00+08:00",
+          "run_id": "20261107T205300+0800-cycle-5",
+          "species_id": 184,
+          "species": "Otus spilocephalus",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/184-otus-spilocephalus-v3.png",
+            "initial_source": "owl-pet/production/generated/184-otus-spilocephalus-v3-initial-full-color.jpg",
+            "edited_source": "owl-pet/production/generated/184-otus-spilocephalus-v3-full-color.jpg",
+            "generated_master": "owl-pet/production/generated/184-otus-spilocephalus-v3-generated-master.png",
+            "reviewed": "owl-pet/production/reviewed/184-otus-spilocephalus-v3-reviewed-master.png",
+            "review_crops": 3,
+            "manifests": 3,
+            "manifest_counts": {
+              "design_legacy": 788,
+              "design_image": 787,
+              "production": 778
+            },
+            "unique_species": "176/251",
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T21:30:00+08:00"
           }
         }
       ]

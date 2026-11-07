@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T20:52:00+08:00",
+  "updated": "2026-11-07",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29151,7 +29151,87 @@
       "verification_commit": "d5a2330002cb80250a4504edc560154b8414d1eb",
       "ledger_credited": true,
       "credited_at": "2026-11-07T20:52:00+08:00"
+    },
+    {
+      "id": "184-otus-spilocephalus-v3",
+      "species_id": 184,
+      "scientific_name": "Otus spilocephalus",
+      "subspecies_focus": "Otus spilocephalus hambroecki",
+      "historical_names": [
+        "Ephialtes hambroecki",
+        "Otus hambroecki",
+        "Spotted Scops Owl"
+      ],
+      "common_name": "Mountain Scops Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "path": "design/concepts/184-otus-spilocephalus-v3.png",
+      "scientifically_verified": false,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "status": "V3 preserves v1/v2 and replaces the cross-subspecies older-juvenile boundary with a Taiwan-specific recent fledgling. Adults are near-equal with no unsupported sex-size direction, showing warm tea/rufous-brown plumage, small tufts, yellow eyes, cream-yellow bills and feathered tarsi. One targeted edit shortened/softened the juvenile wing, concealed the tail and lowered the body onto a supported fork. Exact juvenile age/sex, iris chronology, first-flight threshold and quantitative dimorphism remain unknown; science=false.",
+      "source_ids": [
+        "MOSO-FB-2005-PP46-47",
+        "MOSO-YMSNP-FLEDGLING-2026",
+        "MOSO-NTM-SPECIMEN-2026",
+        "MOSO-MIKKOLA-2013-P148",
+        "MOSO-AVIBASE-HAMBROECKI-2026",
+        "MOSO-SWINHOE-1871-P438"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--184-otus-spilocephalus-hambroecki-v3--taiwan-fledgling-correction",
+      "research_record": "research/species/184-otus-spilocephalus-v3.md",
+      "review_record": "research/reviews/184-otus-spilocephalus-v3-review.md",
+      "run_record": "production/runs/20261107T205300+0800-cycle-5.md",
+      "reviewed_at": "2026-11-07T21:11:00+08:00",
+      "dimensions": "1536x1024",
+      "size_bytes": 728553,
+      "sha256": "58766afc9434d3769d806845efa706dc142855af7cf283a45638682159963a62",
+      "git_blob": "11a6a3a91be4c16eb00a6d47b4ce4a9a404c0b9a",
+      "initial_source_path": "production/generated/184-otus-spilocephalus-v3-initial-full-color.jpg",
+      "initial_source_blob": "b4132c5695f638a429864e570a0d6d76e934bb40",
+      "initial_source_size_bytes": 911816,
+      "initial_source_sha256": "981f9902fbdf90635b37efea022442ae50af8666d7260433d666d6a9c5551a98",
+      "edited_source_path": "production/generated/184-otus-spilocephalus-v3-full-color.jpg",
+      "edited_source_blob": "c2193a67ec9ce45f0af4671840d858c68756ee84",
+      "edited_source_size_bytes": 860979,
+      "edited_source_sha256": "acec68b0a1a178a8a4256815b1cd71c635f8b70d7fa54efa70b00d093c93b328",
+      "generated_path": "production/generated/184-otus-spilocephalus-v3-generated-master.png",
+      "generated_blob": "11a6a3a91be4c16eb00a6d47b4ce4a9a404c0b9a",
+      "generated_size_bytes": 728553,
+      "generated_sha256": "58766afc9434d3769d806845efa706dc142855af7cf283a45638682159963a62",
+      "reviewed_path": "production/reviewed/184-otus-spilocephalus-v3-reviewed-master.png",
+      "reviewed_blob": "11a6a3a91be4c16eb00a6d47b4ce4a9a404c0b9a",
+      "review_crops": [
+        {
+          "path": "production/review-crops/184-otus-spilocephalus-v3-adult-male-pattern-feet.png",
+          "blob": "2e1d771528c7e50bac8ba431e8282beeb0e60d2c",
+          "size_bytes": 553141,
+          "sha256": "bd593fda2d5a4c81c1278a446834fc6f7cfe6846ecedf5bca1e5f4b3f973ff3c"
+        },
+        {
+          "path": "production/review-crops/184-otus-spilocephalus-v3-recent-fledgling.png",
+          "blob": "729600687a16296f54dbc91c6b8a76bc8f2d7cd4",
+          "size_bytes": 564973,
+          "sha256": "e536ba526ad3dc313a1802e2c2fcaee05bda1baf5f0d7ceaa97d512cfc785ab3"
+        },
+        {
+          "path": "production/review-crops/184-otus-spilocephalus-v3-adult-female-pattern-feet.png",
+          "blob": "1dc016094400f901db1f1f59beb1d0ebb1cc0f1f",
+          "size_bytes": 533227,
+          "sha256": "ec6775c629971974cbb9b81d4493790e44a8fe798ed9f55d0d353d6336949c9f"
+        }
+      ],
+      "archive_note": "Initial and edited plates were opened. One targeted juvenile-wing/support edit was made; edited full colour, transport master and three crops were reopened. Taiwan sources bound the juvenile only as a recent fledgling, so age/sex/iris/flight details remain unknown.",
+      "readback_pending": true,
+      "archive_commit_pending": true,
+      "exact_readback": false
     }
   ],
-  "updated_at": "2026-11-07T20:52:00+08:00"
+  "updated_at": "2026-11-07T21:15:00+08:00"
 }

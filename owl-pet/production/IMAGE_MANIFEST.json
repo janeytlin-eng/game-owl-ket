@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T16:41:00+08:00",
+  "updated": "2026-11-07T16:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27580,9 +27580,16 @@
       "auxiliary_review_crop_blob": "b72f1efb4ab6d4e1cb71a639106b90f40d3591aa",
       "auxiliary_review_crop_sha256": "9833c9e7789e9e9d4d50734ac14e7cc73abfbd2d1cd518a56d6bfd628637cfeb",
       "auxiliary_review_crop_size_bytes": 422200,
-      "archive_commit_pending": true,
-      "readback_pending": true
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "archive_commit": "84cfcc33eb91b0c016e914a1299217ea67736519",
+      "archive_tree": "f3e2530f587490277d01840764f665acf1f84447",
+      "verified_at": "2026-11-07T16:45:00+08:00",
+      "connector_full_binary_stream_readback": true,
+      "required_paths_verified": 17,
+      "tree_entries": 3819,
+      "tree_truncated": false
     }
   ],
-  "updated_at": "2026-11-07T16:41:00+08:00"
+  "updated_at": "2026-11-07T16:45:00+08:00"
 }

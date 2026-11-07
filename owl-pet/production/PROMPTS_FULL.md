@@ -199,3 +199,14 @@ Environment: lowland tropical forest near Labundobundo, Buton; large trunk, moss
 
 Avoid ear tufts, yellow irises, strong facial disc, oversized head, adult-like juvenile wing/tail, unsupported chick, exact-age claim, exaggerated sex size difference, extra birds/limbs/text, watermark or misspelling.
 ```
+
+
+## #166 *Bubo cinerascens* v3 — 2026-11-07
+
+Create a polished 1536×1024 landscape zoological character plate in the established realistic painterly owl-pet style. Exact title: “GREYISH EAGLE-OWL”; italic subtitle: “Bubo cinerascens”. Exactly three fully visible birds left-to-right: “ADULT MALE”, “ADULT FEMALE”, “35–43 DAY FULLY FEATHERED YOUNG”. One continuous low earthen and exposed-Neem-root ledge in neutral open shade at a Gambian riverside/Sahel woodland edge. No orange sunset cast.
+
+Adults: medium eagle-owls, near-equal standing height, female only subtly fuller. Short low soft ear tufts; pale grey-brown facial discs with fine dark concentric vermiculation and whitish brows; blackish outer ruff; deep brown to brown-olive eyes; lead-grey bill with pale tip; dense fine neutral grey-brown upperpart and underpart vermiculation with subdued mottling; barred folded flights and few tail bars; feathered tarsi, partly bare grey-brown toes and dark claws. Do not invent a sex-colour difference.
+
+Young: the directly documented 35–43-day stage from Barlow et al. 2022, fully feathered and greyish like the parents but unmistakably younger: compact lower stance, softer rounder contour, short low tuft beginnings, less crisp vermiculation, formed complete folded wings that stay softer and shorter-looking than adults, short tail, dark brown/olive-neutral eyes. Both feet supported among exposed roots. No flight pose. Do not regress to a white/downy chick and do not claim exact age within the range or confirmed flight.
+
+Environment is a conservative post-departure design inference: exposed Neem roots, dry grass and scattered open woodland, not dense rainforest; no eggs, nest scrape, aqueduct, prey or human structure. Distinct silhouettes, correct toes, no cloned symmetry, no cropped birds, no extra birds, no border, logo or watermark, and no text other than exact title, subtitle and labels.

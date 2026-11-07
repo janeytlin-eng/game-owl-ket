@@ -3288,3 +3288,12 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 ### SPBO-SHARPE-1875-P183 — reused historical adult female account
 - Sharpe, 1875, *Catalogue of the Birds in the British Museum*, p.183; https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf
 - Re-read indexed page text 2026-11-07. Supports deep chocolate adults with minute dull buff spots, white throat/cheeks/centre, narrow chest bar and five faint tail bars. It does not support sex-size or juvenile inference.
+
+
+## 2026-11-07 — #166 Bubo cinerascens v3 — fully feathered does not prove flight
+
+- Stable IDs reused/corrected: `GREO-BARLOW-2022-FULL`, `GREO-MIKKOLA-2013-P282`; new IDs: 0.
+- Primary full text re-read: Barlow et al. 2022, *Malimbus* 44:19–29, pp.22–27, Table 2, Figs 4–6. At Day 43 both young were fully feathered amid exposed Neem roots; uncertain hatching yields age 35–43 days. The paper states greyish parent-like plumage but not an exact first-flight day.
+- Design decision: retain formed folded juvenile wings, compact young contour and root support; prohibit flight pose and exact-flight claim. Adult sex scale remains near-equal because no quantitative ratio was found.
+- Linked research: `research/species/166-bubo-cinerascens-v3.md`; image v3 and review pending.
+- Mikkola upload unavailable; old page transcription reused, not freshly page-read.

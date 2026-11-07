@@ -31363,14 +31363,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-07T14:35:37+08:00",
-      "updated_at": "2026-11-07T17:38:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T17:45:04+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T171100+0800-cycle-6",
-        "heartbeat_at": "2026-11-07T17:38:00+08:00",
-        "expires_at": "2026-11-07T17:53:00+08:00"
+        "heartbeat_at": "2026-11-07T17:45:04+08:00",
+        "expires_at": "2026-11-07T10:00:04.000+00:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -31386,7 +31386,7 @@
         "run_id": "20261107T171100+0800-cycle-6",
         "species_id": 188,
         "species": "Otus semitorques",
-        "stage": "RESEARCH_READY"
+        "stage": "IMAGE_GENERATED"
       },
       "stage_events": [
         {
@@ -32154,6 +32154,32 @@
             "mikkola_access": "retained repository p.158 evidence reused; uploaded volume unavailable",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T17:53:00+08:00"
+          }
+        },
+        {
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T17:45:04+08:00",
+          "run_id": "20261107T171100+0800-cycle-6",
+          "species_id": 188,
+          "species": "Otus semitorques",
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/188-otus-semitorques-v3-generated-master.png",
+            "full_color_path": "owl-pet/production/generated/188-otus-semitorques-v3-full-color.png",
+            "generated_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
+            "full_color_blob": "057dc5a560baaa186acb038b61cdac71f23704c9",
+            "full_color_sha256": "6be6e39f3b6a545f3d4907df7b3c5b2f8aa3f812e5c6214a53a0283f4fba141e",
+            "full_color_bytes": 3020431,
+            "transport_sha256": "b26d7b2c20bfb6d95ffdf5be4409d5c1331b60137c2ebdedb27ddd782ffc782d",
+            "transport_bytes": 676271,
+            "width": 1536,
+            "height": 1024,
+            "edit_count": 1,
+            "edit_reason": "first output gave the recent fledgling a long, layered adult-like exposed wing; edited to a compact down-covered developing wing with only short feather tips",
+            "preliminary_inspection": "edited full-colour image and 32-colour transport opened; exact title/name/count/order/labels, near-equal adult scale, adult orange eyes, feathered toes, supported dark-eyed down-rich recent fledgling with short soft wing, all six feet and no nest/flight claim pass",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T10:00:04.000+00:00"
           }
         }
       ]

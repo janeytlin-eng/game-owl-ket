@@ -29641,21 +29641,21 @@
       "next_cycle": 1,
       "active_cycle": 1,
       "started_at": "2026-11-07T14:00:00+08:00",
-      "updated_at": "2026-11-07T14:08:00+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-07T14:15:00+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T140000+0800-cycle-1",
-        "heartbeat_at": "2026-11-07T14:08:00+08:00",
-        "expires_at": "2026-11-07T14:23:00+08:00"
+        "heartbeat_at": "2026-11-07T14:15:00+08:00",
+        "expires_at": "2026-11-07T14:30:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
         "species_id": 170,
         "species": "Glaucidium sanchezi",
         "version": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T140000+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T140000+0800-cycle-1.md"
       },
@@ -29664,7 +29664,7 @@
         "species_id": 170,
         "species": "Glaucidium sanchezi",
         "version": 3,
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_id": "20261107T140000+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T140000+0800-cycle-1.md"
       },
@@ -29705,6 +29705,33 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T14:23:00+08:00"
           }
+        },
+        {
+          "cycle": 1,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T14:15:00+08:00",
+          "run_id": "20261107T140000+0800-cycle-1",
+          "species_id": 170,
+          "species": "Glaucidium sanchezi",
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-generated-master.png",
+            "generated_blob": "389ff400166af4a9cb7d52125ca97dd37d17d6df",
+            "edit_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-edit1.png",
+            "edit_blob": "961823bc4491caffec356ca1e9357df86cd2eb85",
+            "initial_sha256": "776e55e09da14c85a2b30437ff90c8a8e4d754b1add64c651a8f00f392a360a1",
+            "edited_sha256": "1c5ab29c321baa2e86fc001c45e7a3e863a74a72f338f8d3e525aa580822c0dc",
+            "initial_bytes": 2925764,
+            "edited_bytes": 2784523,
+            "width": 1536,
+            "height": 1024,
+            "generation_seconds": 42.9,
+            "edit_seconds": 37.1,
+            "edit_count": 1,
+            "preliminary_inspection": "initial full plate opened: adults and labels passed, but immature tail was long and regularly barred and wing adult-hard; edit1 shortened/concealed tail and shortened/softened wing; edited full plate reopened",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T14:30:00+08:00"
+          }
         }
       ]
     }
@@ -29712,8 +29739,8 @@
   "lease": {
     "owner": "codex",
     "run_id": "20261107T140000+0800-cycle-1",
-    "heartbeat_at": "2026-11-07T14:08:00+08:00",
-    "expires_at": "2026-11-07T14:23:00+08:00"
+    "heartbeat_at": "2026-11-07T14:15:00+08:00",
+    "expires_at": "2026-11-07T14:30:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -29848,7 +29875,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T14:08:00+08:00",
+  "updated_at": "2026-11-07T14:15:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -29860,10 +29887,10 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261107T140000+0800-cycle-1",
-    "heartbeat_at": "2026-11-07T14:08:00+08:00",
-    "expires_at": "2026-11-07T14:23:00+08:00"
+    "heartbeat_at": "2026-11-07T14:15:00+08:00",
+    "expires_at": "2026-11-07T14:30:00+08:00"
   },
-  "last_updated_at": "2026-11-07T14:08:00+08:00",
+  "last_updated_at": "2026-11-07T14:15:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -30665,7 +30692,7 @@
     "species_id": 170,
     "species": "Glaucidium sanchezi",
     "version": 3,
-    "stage": "RESEARCH_READY",
+    "stage": "IMAGE_GENERATED",
     "run_id": "20261107T140000+0800-cycle-1",
     "run_record": "owl-pet/production/runs/20261107T140000+0800-cycle-1.md"
   },
@@ -30680,8 +30707,8 @@
   "last_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 1,
-    "stage": "RESEARCH_READY",
-    "at": "2026-11-07T14:08:00+08:00",
+    "stage": "IMAGE_GENERATED",
+    "at": "2026-11-07T14:15:00+08:00",
     "run_record": "owl-pet/production/runs/20261107T140000+0800-cycle-1.md"
   },
   "history": [
@@ -31961,7 +31988,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T14:08:00+08:00",
+  "last_updated": "2026-11-07T14:15:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -35225,7 +35252,7 @@
   ],
   "active_batch_id": "20261107T140000+0800",
   "active_cycle": 1,
-  "current_stage": "RESEARCH_READY",
+  "current_stage": "IMAGE_GENERATED",
   "next_cycle": 1,
   "unique_species_count": 176,
   "total_species": 251,
@@ -44064,6 +44091,15 @@
       "run_id": "20261107T140000+0800-cycle-1",
       "species_id": 170,
       "credited": false
+    },
+    {
+      "batch_id": "20261107T140000+0800",
+      "cycle": 1,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-07T14:15:00+08:00",
+      "run_id": "20261107T140000+0800-cycle-1",
+      "species_id": 170,
+      "credited": false
     }
   ],
   "last_completed_batch_id": "20261107T103800+0800",
@@ -44075,21 +44111,21 @@
     "next_cycle": 1,
     "active_cycle": 1,
     "started_at": "2026-11-07T14:00:00+08:00",
-    "updated_at": "2026-11-07T14:08:00+08:00",
-    "current_stage": "RESEARCH_READY",
+    "updated_at": "2026-11-07T14:15:00+08:00",
+    "current_stage": "IMAGE_GENERATED",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex",
       "run_id": "20261107T140000+0800-cycle-1",
-      "heartbeat_at": "2026-11-07T14:08:00+08:00",
-      "expires_at": "2026-11-07T14:23:00+08:00"
+      "heartbeat_at": "2026-11-07T14:15:00+08:00",
+      "expires_at": "2026-11-07T14:30:00+08:00"
     },
     "in_progress": {
       "cycle": 1,
       "species_id": 170,
       "species": "Glaucidium sanchezi",
       "version": 3,
-      "stage": "RESEARCH_READY",
+      "stage": "IMAGE_GENERATED",
       "run_id": "20261107T140000+0800-cycle-1",
       "run_record": "owl-pet/production/runs/20261107T140000+0800-cycle-1.md"
     },
@@ -44098,7 +44134,7 @@
       "species_id": 170,
       "species": "Glaucidium sanchezi",
       "version": 3,
-      "stage": "RESEARCH_READY",
+      "stage": "IMAGE_GENERATED",
       "run_id": "20261107T140000+0800-cycle-1",
       "run_record": "owl-pet/production/runs/20261107T140000+0800-cycle-1.md"
     },
@@ -44138,6 +44174,33 @@
           "mikkola_access": "repository transcription reused; upload unavailable this execution",
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-07T14:23:00+08:00"
+        }
+      },
+      {
+        "cycle": 1,
+        "stage": "IMAGE_GENERATED",
+        "at": "2026-11-07T14:15:00+08:00",
+        "run_id": "20261107T140000+0800-cycle-1",
+        "species_id": 170,
+        "species": "Glaucidium sanchezi",
+        "credited": false,
+        "evidence": {
+          "generated_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-generated-master.png",
+          "generated_blob": "389ff400166af4a9cb7d52125ca97dd37d17d6df",
+          "edit_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-edit1.png",
+          "edit_blob": "961823bc4491caffec356ca1e9357df86cd2eb85",
+          "initial_sha256": "776e55e09da14c85a2b30437ff90c8a8e4d754b1add64c651a8f00f392a360a1",
+          "edited_sha256": "1c5ab29c321baa2e86fc001c45e7a3e863a74a72f338f8d3e525aa580822c0dc",
+          "initial_bytes": 2925764,
+          "edited_bytes": 2784523,
+          "width": 1536,
+          "height": 1024,
+          "generation_seconds": 42.9,
+          "edit_seconds": 37.1,
+          "edit_count": 1,
+          "preliminary_inspection": "initial full plate opened: adults and labels passed, but immature tail was long and regularly barred and wing adult-hard; edit1 shortened/concealed tail and shortened/softened wing; edited full plate reopened",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T14:30:00+08:00"
         }
       }
     ]
@@ -49116,6 +49179,33 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T14:23:00+08:00"
       }
+    },
+    {
+      "cycle": 1,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-07T14:15:00+08:00",
+      "run_id": "20261107T140000+0800-cycle-1",
+      "species_id": 170,
+      "species": "Glaucidium sanchezi",
+      "credited": false,
+      "evidence": {
+        "generated_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-generated-master.png",
+        "generated_blob": "389ff400166af4a9cb7d52125ca97dd37d17d6df",
+        "edit_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-edit1.png",
+        "edit_blob": "961823bc4491caffec356ca1e9357df86cd2eb85",
+        "initial_sha256": "776e55e09da14c85a2b30437ff90c8a8e4d754b1add64c651a8f00f392a360a1",
+        "edited_sha256": "1c5ab29c321baa2e86fc001c45e7a3e863a74a72f338f8d3e525aa580822c0dc",
+        "initial_bytes": 2925764,
+        "edited_bytes": 2784523,
+        "width": 1536,
+        "height": 1024,
+        "generation_seconds": 42.9,
+        "edit_seconds": 37.1,
+        "edit_count": 1,
+        "preliminary_inspection": "initial full plate opened: adults and labels passed, but immature tail was long and regularly barred and wing adult-hard; edit1 shortened/concealed tail and shortened/softened wing; edited full plate reopened",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T14:30:00+08:00"
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -49136,18 +49226,24 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-07T14:08:00+08:00",
-  "stage": "RESEARCH_READY",
+  "updated": "2026-11-07T14:15:00+08:00",
+  "stage": "IMAGE_GENERATED",
   "stage_evidence": {
-    "research_record": "owl-pet/research/species/170-glaucidium-sanchezi-v3.md",
-    "source_index": "owl-pet/research/SOURCE_INDEX.md",
-    "new_sources": 3,
-    "reused_sources": 2,
-    "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
-    "direct_v2_review": true,
-    "design_boundary": "male greyer/female more rufous but near-equal height; age-unknown older immature with plain grey head, compact soft folded wing, short supported tail and no nest/flight claim",
-    "mikkola_access": "repository transcription reused; upload unavailable this execution",
+    "generated_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-generated-master.png",
+    "generated_blob": "389ff400166af4a9cb7d52125ca97dd37d17d6df",
+    "edit_path": "owl-pet/production/generated/170-glaucidium-sanchezi-v3-edit1.png",
+    "edit_blob": "961823bc4491caffec356ca1e9357df86cd2eb85",
+    "initial_sha256": "776e55e09da14c85a2b30437ff90c8a8e4d754b1add64c651a8f00f392a360a1",
+    "edited_sha256": "1c5ab29c321baa2e86fc001c45e7a3e863a74a72f338f8d3e525aa580822c0dc",
+    "initial_bytes": 2925764,
+    "edited_bytes": 2784523,
+    "width": 1536,
+    "height": 1024,
+    "generation_seconds": 42.9,
+    "edit_seconds": 37.1,
+    "edit_count": 1,
+    "preliminary_inspection": "initial full plate opened: adults and labels passed, but immature tail was long and regularly barred and wing adult-hard; edit1 shortened/concealed tail and shortened/softened wing; edited full plate reopened",
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-07T14:23:00+08:00"
+    "lease_expires_at": "2026-11-07T14:30:00+08:00"
   }
 }

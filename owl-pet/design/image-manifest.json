@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T11:03:00+08:00",
+  "updated": "2026-11-07",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27298,7 +27298,64 @@
       "verification_commit": "c6a133491f5a11cf99c8220a11d937ecc4afd8da",
       "verification_tree": "0f75265b2588a4f744e04e0ee94520c054c225c6",
       "ledger_credited_at": "2026-11-07T11:03:00+08:00"
+    },
+    {
+      "id": "164-strix-hadorami-v3",
+      "path": "design/concepts/164-strix-hadorami-v3.png",
+      "species_id": 164,
+      "scientific_name": "Strix hadorami",
+      "historical_names": [
+        "Strix butleri (widespread western population in pre-split sources)"
+      ],
+      "common_name": "Desert Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。直接查看v2并重读Ben Dov et al. 2017繁殖研究与Kirwan et al. 2015分类/形态研究；修正v2把雄鸟做得明显更大的方向错误。v3成鸟近等高、雌鸟仅略丰满；幼鸟采用约25–30日龄、睁眼、浅色中幼羽、双足落在宽砂岩巢台且不飞行。全图和两裁图复查通过，无需编辑。PASS_WITH_LIMITATIONS；幼鸟精确日龄、虹膜时序、羽序、地理色差、巢穴几何和定量性别比例仍未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "DESERTOWL-BENDOV-2017",
+        "DESERTOWL-KIRWAN-2015"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--164-strix-hadorami-v3--sex-size-and-nest-shelf-juvenile-correction",
+      "research_record": "research/species/164-strix-hadorami-v3.md",
+      "run_record": "production/runs/20261107T110600+0800-cycle-2.md",
+      "review_record": "research/reviews/164-strix-hadorami-v3-review.md",
+      "reviewed_at": "2026-11-07T11:20:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "8c9ffb3d1030c9ad296d2873971ea30ffdd96854966c643a7ec2ae30d5f5e870",
+      "size_bytes": 632744,
+      "git_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
+      "generated_path": "production/generated/164-strix-hadorami-v3-generated-master.png",
+      "generated_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
+      "generated_sha256": "8c9ffb3d1030c9ad296d2873971ea30ffdd96854966c643a7ec2ae30d5f5e870",
+      "generated_size_bytes": 632744,
+      "full_color_source_sha256": "45da55793bcfcf448258fcf1ebe5f0918c5849c30e792209f4ee764bd3658ebb",
+      "full_color_source_size_bytes": 2976307,
+      "reviewed_path": "production/reviewed/164-strix-hadorami-v3-reviewed-master.png",
+      "reviewed_blob": "d8ecda99cb213675ecea8adc64e78e75079038a7",
+      "reviewed_sha256": "8c9ffb3d1030c9ad296d2873971ea30ffdd96854966c643a7ec2ae30d5f5e870",
+      "reviewed_size_bytes": 632744,
+      "review_crop_path": "production/review-crops/164-strix-hadorami-v3-mesoptile.png",
+      "review_crop_blob": "96d6c3d1aae7cb2379fb6cc48e9ffa7dbb8b048a",
+      "review_crop_sha256": "891558c2402010296529372a2c3fb2ae1029c3777aaf367d7ce9793b0ec2dd00",
+      "review_crop_size_bytes": 123038,
+      "auxiliary_review_crop_path": "production/review-crops/164-strix-hadorami-v3-adults.png",
+      "auxiliary_review_crop_blob": "14821e78fd56d2dce81ca59692acc51d606c7a86",
+      "auxiliary_review_crop_sha256": "b65223c826879579f6cb6af8b4c1914c9d247a15b9e4d6c5bc49dbacdac1b87e",
+      "auxiliary_review_crop_size_bytes": 424607,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact juvenile age, iris chronology, feather sequence, geographic colour variation, nest-crevice geometry and universal quantitative sex ratio remain unknown; Mikkola upload unavailable this execution.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization."
     }
   ],
-  "updated_at": "2026-11-07T11:03:00+08:00"
+  "updated_at": "2026-11-07T11:24:00+08:00"
 }

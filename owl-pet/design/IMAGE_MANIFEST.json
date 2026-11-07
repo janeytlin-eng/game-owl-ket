@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T14:34:00+08:00",
+  "updated": "2026-11-07T14:38:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27920,7 +27920,7 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Exact immature age/sex, living iris/bill ontogeny, first flight, continuous feather sequence, occupied nest geometry, regional variation and quantified sex-size ratio remain unknown; Mikkola upload unavailable.",
       "archive_encoding": "All five archived binary paths use complete 64-color no-dither indexed PNG transport assets; initial and edited full-colour ImageGen SHA-256/byte counts retained as provenance; transport board and final crops actually opened.",
       "edit_sha256": "9f0c612bc75e8446aaa7fd2062f72ba749335451c74f8be292e53a62d666649a",
@@ -27942,7 +27942,7 @@
       "archive_commit": "6224c925c185e80deba23f891fa0e47e6f5ed576",
       "archive_tree": "ebf44437d558c32c43c07c090309ab55370dc8d0",
       "verified_at": "2026-11-07T14:34:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable correction archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 17,
@@ -27957,8 +27957,11 @@
         },
         "connector_full_binary_stream_readback": false,
         "full_color_source_provenance_only": true
-      }
+      },
+      "verification_commit": "34abb73d5e76f494b2517f65b0141e3392d68f71",
+      "verification_tree": "566f8b7bc7918781cfe22822afebca5d0c27a02a",
+      "ledger_credited_at": "2026-11-07T14:38:00+08:00"
     }
   ],
-  "updated_at": "2026-11-07T14:34:00+08:00"
+  "updated_at": "2026-11-07T14:38:00+08:00"
 }

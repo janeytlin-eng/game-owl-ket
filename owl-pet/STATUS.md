@@ -1,3 +1,7 @@
+### #188 *Otus semitorques* v3 immutable archive VERIFIED — ledger credit pending
+
+Archive `51cf1e0ffb4ddd04d1cce4213fa08282a70360da` / tree `84dbcf17a64bbcfc11a90fe5a3d98eb12ba5bb3a` returned 3,878 non-truncated entries. Nineteen required paths and six exact binary path/blob/byte tuples passed after pre-credit repair; manifests 782/783/773 parsed and the GitHub concept page rendered 1536×1024. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
 ### #188 v3 archive binary repair — readback pending
 
 The first archive tree exposed two connector-truncated PNGs before credit. Replaced them with an opened 605,125-byte high-quality JPEG source and an opened 357,912-byte adult crop; concept/master, juvenile crop and texts were already intact. Manifests corrected; immutable readback restarted.

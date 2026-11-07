@@ -1,3 +1,5 @@
+- Verified #188 v3 immutable archive `51cf1e0ffb4ddd04d1cce4213fa08282a70360da` / tree `84dbcf17a64bbcfc11a90fe5a3d98eb12ba5bb3a`: 3,878 non-truncated entries, 19 required paths, six exact image tuples, three manifests 782/783/773 and rendered GitHub concept page passed; ledger credit pending.
+
 - #188 v3 pre-credit binary repair: immutable tree size check caught two connector-truncated PNGs. Replaced the full-colour source with a re-opened high-quality JPEG and the adult crop with a re-opened indexed PNG; manifests corrected before verification.
 
 ## 2026-11-07 — #188 *Otus semitorques* v3 ARCHIVED, readback pending

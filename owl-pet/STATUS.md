@@ -3992,3 +3992,9 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Fixed tree `daf5fdc637883c4d573b6a43eeb0e375d309b9a4` is non-truncated with 4,084 entries.
 - Required paths 23/23; binary exact SHA/size 9/9; final original blob `0814a3870634e622c8c53888d19f2b9bae6b60ac`, 3,175,024 bytes.
 - Manifests parse to 802 / 799 / 792 with #36 v5 newest. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+
+
+## 2026-11-08 — #36 v5 batch ledger credit
+
+- Verification `46876b42199b8ba5eb24dbaf3bd6821cecfe7310` and fixed archive `a9410a1457e60118bf8f4164f4e6d1e1c950c3f5` read back.
+- Credited cycle 5/6; next cycle 6. Coverage 176/251; revision +1; science=false; lease released.

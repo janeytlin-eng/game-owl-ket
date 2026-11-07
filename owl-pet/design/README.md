@@ -3280,3 +3280,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 
 - #142 *Asio grammicus* v3 preserves v1–v2 and the #154 old-genus duplicate boundary. One juvenile-only edit removed a long hard adult-barred wing and restored a compact down-remnant stage with two-foot fork support. Full plate and two crops passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending. Original: [142-asio-grammicus-v3.png](concepts/142-asio-grammicus-v3.png).
+
+
+## #170 Tamaulipas Pygmy-Owl — *Glaucidium sanchezi* — v3
+
+- [Concept](concepts/170-glaucidium-sanchezi-v3.png) · [Research](../research/species/170-glaucidium-sanchezi-v3.md) · [Review](../research/reviews/170-glaucidium-sanchezi-v3-review.md) · [Run](../production/runs/20261107T140000+0800-cycle-1.md)
+- V3 preserves v1–v2, re-reads the 1949 original description and applies the documented grey-olive male versus more cinnamon female palette without a generic size exaggeration. One immature-only edit removed a long adult-style barred tail and shortened/softened the wing. Full-colour board, transport board and two crops passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.

@@ -44,3 +44,10 @@ Avoid ear tufts, enormous female, generic white scapular patches, bold continuou
 3. Male grey-olive versus female more cinnamon/rufous; adult structural height near-equal.
 4. Immature plain dusky-grey crown/nape, compact soft folded wing, short partly concealed tail, dark/indeterminate eyes and bilateral support.
 5. No nest/cavity, exact age, flight claim, eggs or extra birds.
+
+
+## Actual image review and iteration
+- Initial 1536×1024 board generated and opened. Adult palette/order/labels/support passed, but the age-unknown immature had a long exposed regularly barred tail and hard adult-like wing.
+- Edit 1 changed only the immature: wing shortened and softened above the feet; tail reduced to a tiny mostly concealed tip; dark eyes, grey crown/nape and bilateral branch support retained.
+- Edited full-colour board, 64-colour transport board and adult/immature crops opened. Result PASS_WITH_LIMITATIONS; science=false.
+- Exact unknowns remain as listed in the evidence boundary.

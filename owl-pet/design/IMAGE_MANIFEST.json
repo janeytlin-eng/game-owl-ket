@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T13:55:00+08:00",
+  "updated": "2026-11-07T14:25:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27862,7 +27862,68 @@
       "verification_commit": "bec6e6c22ac171f2bfa47448eb14693cf5226004",
       "verification_tree": "32b6ec98b86b99f00f54fc8b3613b67b188eef01",
       "ledger_credited_at": "2026-11-07T13:55:00+08:00"
+    },
+    {
+      "id": "170-glaucidium-sanchezi-v3",
+      "path": "design/concepts/170-glaucidium-sanchezi-v3.png",
+      "species_id": 170,
+      "scientific_name": "Glaucidium sanchezi",
+      "historical_names": [],
+      "common_name": "Tamaulipas Pygmy-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新读Lowery & Newman 1949原始描述pp.2–3、UNAM/MZFC馆藏记录和ITIS当前名录；统一雄、雌、年龄未知未成熟鸟顺序。成年雄鸟灰橄榄、雌鸟更红褐，但站立体型近等，不套用雌大雄小。初图未成熟鸟出现过长规则横斑尾与偏硬折翼；一次定向编辑将翼缩短绒化、尾几乎隐藏并保留双足支撑，整图及两份裁切复查通过。PASS_WITH_LIMITATIONS；精确日龄/性别、活体软部发育、首飞、连续羽序和量化雌雄体型差未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "TPO-LOWERY-NEWMAN-1949-P2-3",
+        "TPO-UNAM-MZFC-1999",
+        "TPO-ITIS-555452-2026",
+        "TPO-MIKKOLA-2013-P384"
+      ],
+      "unverified_leads": [
+        "Cornell/Macaulay ML647795249 direct page bot-blocked; metadata only"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--170-glaucidium-sanchezi-v3--original-diagnosis-current-name-and-evidence-bounded-immature",
+      "research_record": "research/species/170-glaucidium-sanchezi-v3.md",
+      "run_record": "production/runs/20261107T140000+0800-cycle-1.md",
+      "review_record": "research/reviews/170-glaucidium-sanchezi-v3-review.md",
+      "reviewed_at": "2026-11-07T14:20:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "9f0c612bc75e8446aaa7fd2062f72ba749335451c74f8be292e53a62d666649a",
+      "size_bytes": 541370,
+      "git_blob": "fc9aff18c2e8878a214c40e3d2746ed7ccf7ab6b",
+      "generated_path": "production/generated/170-glaucidium-sanchezi-v3-generated-master.png",
+      "generated_blob": "389ff400166af4a9cb7d52125ca97dd37d17d6df",
+      "generated_sha256": "776e55e09da14c85a2b30437ff90c8a8e4d754b1add64c651a8f00f392a360a1",
+      "generated_size_bytes": 2923684,
+      "edit_path": "production/generated/170-glaucidium-sanchezi-v3-edit1.png",
+      "edit_blob": "961823bc4491caffec356ca1e9357df86cd2eb85",
+      "full_color_source_sha256": "1c5ab29c321baa2e86fc001c45e7a3e863a74a72f338f8d3e525aa580822c0dc",
+      "full_color_source_size_bytes": 2784534,
+      "reviewed_path": "production/reviewed/170-glaucidium-sanchezi-v3-reviewed-master.png",
+      "reviewed_blob": "fc9aff18c2e8878a214c40e3d2746ed7ccf7ab6b",
+      "reviewed_sha256": "9f0c612bc75e8446aaa7fd2062f72ba749335451c74f8be292e53a62d666649a",
+      "reviewed_size_bytes": 541370,
+      "review_crop_path": "production/review-crops/170-glaucidium-sanchezi-v3-immature.png",
+      "review_crop_blob": "b58805c22b28951aeba91f9f175dc0e96cfdabed",
+      "review_crop_sha256": "52f7bb014279f0f7d7fd69a2d65b7f6c18f3ed5e04cc4c6e5c248349a3a361c6",
+      "review_crop_size_bytes": 137843,
+      "auxiliary_review_crop_path": "production/review-crops/170-glaucidium-sanchezi-v3-adults.png",
+      "auxiliary_review_crop_blob": "21380e4ae0dca468bf334f73f7f45bb4d1ae990d",
+      "auxiliary_review_crop_sha256": "478b5ac95fc47d997fb8e8647c3072dbbb904c1fa8416eb602c5f5bcdd176c3b",
+      "auxiliary_review_crop_size_bytes": 357891,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact immature age/sex, living iris/bill ontogeny, first flight, continuous feather sequence, occupied nest geometry, regional variation and quantified sex-size ratio remain unknown; Mikkola upload unavailable.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; initial and edited full-colour ImageGen sources preserved; transport board and final crops actually opened."
     }
   ],
-  "updated_at": "2026-11-07T13:55:00+08:00"
+  "updated_at": "2026-11-07T14:25:00+08:00"
 }

@@ -28826,7 +28826,7 @@
       "auxiliary_review_crop_size_bytes": 321148,
       "archive_commit_pending": false,
       "readback_pending": false,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "archive_commit": "125474f4c87b41ec218f0efb65f750746a1046ed",
       "archive_tree": "9791ff62dd20c815a2880645a8e76e9f5898840f",
       "verified_at": "2026-11-07T18:43:00+08:00",
@@ -28839,8 +28839,11 @@
       "tree_entries": 3888,
       "tree_truncated": false,
       "verification_result": "PASS_WITH_LIMITATIONS",
-      "ledger_credit_pending": true,
-      "readback_note": "Git tree/path/blob/size verified for 17 required paths. GitHub connector returned complete base64 streams for the concept/master blob, full-colour JPG and both distinct review crops; generated and reviewed masters share the verified concept blob. Browser renderer was disabled in this execution, so no browser claim is made."
+      "ledger_credit_pending": false,
+      "readback_note": "Git tree/path/blob/size verified for 17 required paths. GitHub connector returned complete base64 streams for the concept/master blob, full-colour JPG and both distinct review crops; generated and reviewed masters share the verified concept blob. Browser renderer was disabled in this execution, so no browser claim is made.",
+      "verification_commit": "79e00709ab05476191b40999d0b8e989370ac181",
+      "verification_tree": "a93b431072ebb52d08e524a85c73340ce56f88c3",
+      "credited_at": "2026-11-07T18:45:00+08:00"
     }
   ],
   "updated_at": "2026-11-07T18:40:00+08:00"

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T09:57:00+08:00",
+  "updated": "2026-11-07T10:00:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27133,7 +27133,68 @@
       "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
       "verification_tree": "9810f8aaa2f2e8b9a62f10cf16ab72c89914151f",
       "ledger_credited_at": "2026-11-07T09:57:00+08:00"
+    },
+    {
+      "id": "162-aegolius-acadicus-v2",
+      "path": "design/concepts/162-aegolius-acadicus-v2.png",
+      "species_id": 162,
+      "scientific_name": "Aegolius acadicus",
+      "historical_names": [
+        "Nyctala acadica",
+        "Cryptoglaux acadica"
+      ],
+      "common_name": "Northern Saw-whet Owl",
+      "version": 2,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v2科学校准。新读McCullough & Conway 2017巢箱摄像研究、Project Owlnet幼年羽龄指南、Cornell成幼鸟实物影像、Paxton & Watts 2008及Priestley et al. 2026性别形态研究。v1幼鸟翼上成人式白斑被纠正为纯深巧克力色短圆幼年翼，保留肉桂腹部、白色面部V、隐短尾和巢口双足/腹部支撑；成鸟近等大，雌鸟仅略丰满。全图与两裁图复查通过，无需编辑。PASS_WITH_LIMITATIONS；精确日龄、个体飞行能力和外观判性未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "NSWO-MCCULLOUGH-CONWAY-2017",
+        "NSWO-PROJECT-OWLNET-HY",
+        "NSWO-CORNELL-GALLERY",
+        "NSWO-PAXTON-WATTS-2008",
+        "NSWO-PRIESTLEY-ETAL-2026"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--162-aegolius-acadicus-v2--juvenal-plumage-and-sex-ratio-correction",
+      "research_record": "research/species/162-aegolius-acadicus-v2.md",
+      "run_record": "production/runs/20261107T094700+0800-cycle-6.md",
+      "review_record": "research/reviews/162-aegolius-acadicus-v2-review.md",
+      "reviewed_at": "2026-11-07T09:57:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "5db9c3937177e21f5336d3b691a986e793cfc293344c9a3d2a2fd8737dffb7a0",
+      "size_bytes": 709816,
+      "git_blob": "8dd1a2a20c82f1dff97c2306cdb68e40cab5e804",
+      "generated_path": "production/generated/162-aegolius-acadicus-v2-generated-master.png",
+      "generated_blob": "8dd1a2a20c82f1dff97c2306cdb68e40cab5e804",
+      "generated_sha256": "5db9c3937177e21f5336d3b691a986e793cfc293344c9a3d2a2fd8737dffb7a0",
+      "generated_size_bytes": 709816,
+      "full_color_source_sha256": "06d3798119da4e7793d283d69f9d5190faf3b7ff1785009be41ef2eda000fd6b",
+      "full_color_source_size_bytes": 3204777,
+      "reviewed_path": "production/reviewed/162-aegolius-acadicus-v2-reviewed-master.png",
+      "reviewed_blob": "8dd1a2a20c82f1dff97c2306cdb68e40cab5e804",
+      "reviewed_sha256": "5db9c3937177e21f5336d3b691a986e793cfc293344c9a3d2a2fd8737dffb7a0",
+      "reviewed_size_bytes": 709816,
+      "review_crop_path": "production/review-crops/162-aegolius-acadicus-v2-late-nestling.png",
+      "review_crop_blob": "55a46800226fa1463a4dae59cf947e0a2f3f455f",
+      "review_crop_sha256": "c9b2d6071b28bf256127bf404446347cf1712ce1cc9175645d01689d6b3c9488",
+      "review_crop_size_bytes": 202989,
+      "auxiliary_review_crop_path": "production/review-crops/162-aegolius-acadicus-v2-adults-support.png",
+      "auxiliary_review_crop_blob": "c71487f86507803563b3cc712bd5809cf87fc29e",
+      "auxiliary_review_crop_sha256": "7b05bee1c743a70fe57d5ec9464a81b36d69e189115bb4703834ef1d3cfa795a",
+      "auxiliary_review_crop_size_bytes": 525151,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact juvenile age and individual flight ability are not asserted; adult sex is not visually diagnosable and the slight female fullness is only a regional-evidence-informed design cue; Mikkola upload unavailable.",
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained in run/review; transport derivative opened after optimization."
     }
   ],
-  "updated_at": "2026-11-07T09:54:00+08:00"
+  "updated_at": "2026-11-07T10:00:00+08:00"
 }

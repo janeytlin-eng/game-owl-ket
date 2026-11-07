@@ -4035,3 +4035,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 - Pre-credit immutable readback found both large originals truncated to 500,000 bytes; crops/text were intact.
 - Re-uploaded initial blob `107fb938dda45cdc44defa8ac22016f349da9158` at 3,472,234 bytes and final blob `045e98040fdfdc5f5e3c54c89e24ee30f0837136` at 3,180,310 bytes with corrected divisible chunks.
 - All concept/generated/reviewed aliases and three manifests now point to complete blobs. Readback restarted; no cycle credit yet.
+
+
+## 2026-11-08 — #38 v5 VERIFIED
+
+- Repaired archive `5027ec7ab4f4e447c1f40e543075650056ca3707`; tree `6413faf2b58d000f9d1fd90a7ac9823a21e11273` non-truncated with 4,109 entries.
+- Required paths 21/21; binary exact SHA/size 9/9. Initial 3,472,234 bytes; final 3,180,310 bytes; three crop objects 776,951 / 753,015 / 800,500 bytes.
+- Manifests 804 / 801 / 794 with #38 v5 newest. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.
+- Connector full-body binary streaming returned UNKNOWN, so verification is exact Git path/object/size rather than claimed full response-body streaming.

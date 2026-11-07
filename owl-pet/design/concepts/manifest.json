@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T02:45:47+08:00",
+  "updated": "2026-11-08T02:47:08+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30421,9 +30421,14 @@
         }
       ],
       "archive_note": "Initial archive exposed connector-truncated 500,000-byte large PNGs before ledger credit. Both large originals were re-uploaded with 600,000-byte divisible chunks; all aliases now point to complete blobs. Immutable readback restarted.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "5027ec7ab4f4e447c1f40e543075650056ca3707",
+      "fixed_commit": "5027ec7ab4f4e447c1f40e543075650056ca3707",
+      "verified_at": "2026-11-08T02:47:08+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable repaired archive tree was non-truncated (4,109 entries). All 21 required paths were present. Nine binary paths matched expected Git blob SHA and exact byte size: initial 3,472,234; final reused by five paths at 3,180,310; three distinct crops at 776,951 / 753,015 / 800,500. Manifests parsed at 804/801/794 with #38 v5 newest. Connector full-body blob streaming returned UNKNOWN for large binaries, but path/tree SHA and byte verification succeeded."
     }
   ],
-  "updated_at": "2026-11-08T02:45:47+08:00"
+  "updated_at": "2026-11-08T02:47:08+08:00"
 }

@@ -3908,3 +3908,12 @@ Archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf
 
 ### #32 v5 LEDGER_CREDITED — new batch 1/6
 Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf5cc1fb16734b46dfe83`. Cycle 1 credited once; batch `20261108T011416+0800` is PARTIAL 1/6 with next_cycle=2 and lease released. Unique remains 176/251; revision +1; science false.
+
+
+## 2026-11-08 — #33 Collared Owlet v5 archive pending immutable readback
+
+- Revision only; unique coverage remains **176/251**.
+- Current label: *Taenioptynx brodiei*; historical *Glaucidium brodiei* / *Noctua brodiei* retained.
+- Primary paper re-read supports definitive-grey adults and a known-age 56-day fully grown fledgling with reduced back/crown pattern and incomplete occipital pattern.
+- Generated 1536×1024 original reviewed at full size and three crops; no edit required; result PASS_WITH_LIMITATIONS; science=false.
+- Original blob `d3666fd014e04a1468565c046ce9b10255e9cbdc`; archive readback pending.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T01:24:45+08:00",
+  "updated": "2026-11-08T01:36:37.003+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29909,7 +29909,90 @@
       "verified_at": "2026-11-08T01:24:45+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,024 entries). All 21 required paths were present; nine binary paths matched exact Git blob SHA and byte size, including the 3,238,990-byte original reused by six archival paths and three reviewed crop blobs. All three manifests parsed at 798/795/788 with #32 v5 as the newest entry."
+    },
+    {
+      "id": "33-taenioptynx-brodiei-v5",
+      "path": "design/concepts/33-taenioptynx-brodiei-v5.png",
+      "species_id": 33,
+      "scientific_name": "Taenioptynx brodiei",
+      "historical_names": [
+        "Glaucidium brodiei",
+        "Noctua brodiei"
+      ],
+      "common_name": "Collared Owlet",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1–v4. The primary longitudinal study shows Collared Owlet colour states are age plumages: the known-age 56-day bird was fully grown but retained fewer back/crown markings and incomplete occipital pattern, while grey is the definitive adult plumage. ITIS supplies the current Taenioptynx combination. First render passed after full and crop review. Flight ability, independence, continuous wing/tail growth, population transfer and an exact sex-size display ratio remain unknown.",
+      "source_ids": [
+        "COOW-ITIS-2026",
+        "COOW-LIN-ETAL-2014",
+        "COOW-OISEAUXNET-AUDEVARD-2010",
+        "COOW-GWEE-2019",
+        "COOW-MIKKOLA-2013"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/33-taenioptynx-brodiei-v5.md",
+      "review_record": "research/reviews/33-taenioptynx-brodiei-v5-review.md",
+      "run_record": "production/runs/20261108T012712+0800-cycle-2.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3306125,
+      "sha256": "c18d27ceb404decfd82c96ee855a6aa254ca5465a19f143cb6c587068edfc913",
+      "git_blob": "d3666fd014e04a1468565c046ce9b10255e9cbdc",
+      "initial_original_path": "production/generated/33-taenioptynx-brodiei-v5-initial-original.png",
+      "initial_original_blob": "d3666fd014e04a1468565c046ce9b10255e9cbdc",
+      "initial_original_size_bytes": 3306125,
+      "initial_original_sha256": "c18d27ceb404decfd82c96ee855a6aa254ca5465a19f143cb6c587068edfc913",
+      "final_original_path": "production/generated/33-taenioptynx-brodiei-v5-final-original.png",
+      "final_original_blob": "d3666fd014e04a1468565c046ce9b10255e9cbdc",
+      "final_original_size_bytes": 3306125,
+      "final_original_sha256": "c18d27ceb404decfd82c96ee855a6aa254ca5465a19f143cb6c587068edfc913",
+      "full_color_source_path": "production/generated/33-taenioptynx-brodiei-v5-full-color.png",
+      "full_color_source_blob": "d3666fd014e04a1468565c046ce9b10255e9cbdc",
+      "full_color_source_size_bytes": 3306125,
+      "full_color_source_sha256": "c18d27ceb404decfd82c96ee855a6aa254ca5465a19f143cb6c587068edfc913",
+      "generated_path": "production/generated/33-taenioptynx-brodiei-v5-generated-master.png",
+      "generated_blob": "d3666fd014e04a1468565c046ce9b10255e9cbdc",
+      "generated_size_bytes": 3306125,
+      "reviewed_path": "production/reviewed/33-taenioptynx-brodiei-v5-reviewed-master.png",
+      "reviewed_blob": "d3666fd014e04a1468565c046ce9b10255e9cbdc",
+      "reviewed_size_bytes": 3306125,
+      "review_crops": [
+        {
+          "path": "production/review-crops/33-taenioptynx-brodiei-v5-adult-male.png",
+          "blob": "e5cd03b1d04292935940135a3232317e24dcd2c7",
+          "size_bytes": 731289,
+          "sha256": "e660ea4032fb7bd936a9c49574144c830eb403bc08119e286fd6b9ea0593e137"
+        },
+        {
+          "path": "production/review-crops/33-taenioptynx-brodiei-v5-fledgling.png",
+          "blob": "5743dc38337e633ed9062fee511d713ef2e45196",
+          "size_bytes": 744387,
+          "sha256": "8540f30bcd3a16241d3060d46082946ee0ef598b0f5e642ded9b13d6c250c217"
+        },
+        {
+          "path": "production/review-crops/33-taenioptynx-brodiei-v5-adult-female.png",
+          "blob": "8ca3f986e2e5cb93a92c01f0d8547f229c236025",
+          "size_bytes": 724998,
+          "sha256": "484355bfd3a6a70eb5839317d7214d85eecb3d25ce23c28a31010aa40c90866b"
+        }
+      ],
+      "archive_note": "Full original and three role crops opened. First render passed without edit. The documented 56-day fledgling has reduced pattern and incomplete occipital design, remains low and naturally supported, and makes no flight/independence claim. Archive readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T01:24:45+08:00"
+  "updated_at": "2026-11-08T01:36:37.003+08:00"
 }

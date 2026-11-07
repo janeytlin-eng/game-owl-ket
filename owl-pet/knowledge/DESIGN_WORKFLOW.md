@@ -1010,3 +1010,11 @@ When a species guide says “juvenile not known” but a regional field photogra
 - **Evidence:** #32 v5 uses dated/repeated older-dependent observations plus CBC pair-care/cavity records; exact age and flight threshold remain unknown.
 - **Applied:** separate the juvenile by lower supported posture, softer incomplete markings, compact low-contrast wing/tail and a small head-turn; do not assert flight or independence.
 - **Validated:** full plate and three crops passed on the first render. This is validated for #32 v5 only, not a universal juvenile template.
+
+
+## 2026-11-08 — applied rule from #33 v5
+
+- **Problem:** age-related rufous/grey plumages can be misread as stable adult colour morphs, and “fully grown” can be overextended into a flight-performance claim.
+- **Evidence:** Lin, Lin & Tseng (2014), pp.95–99, known-age recapture sequence and Fig.3.
+- **Rule applied:** encode the documented age plumage directly; use definitive grey for adults; make the 56-day fledgling visibly less patterned with incomplete occipital design; treat “fully grown” as body/plumage evidence only.
+- **Validation:** first render and three crops passed; no unsupported flight, leap or independence pose. This validation applies to #33 v5 only; other species require their own developmental evidence.

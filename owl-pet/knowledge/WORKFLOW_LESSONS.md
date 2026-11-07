@@ -1,3 +1,10 @@
+## 2026-11-07 — do not transfer a neighbouring-group sex-size statement
+
+- **Problem:** a monograph sentence immediately before a species account said females were larger in the *bakkamoena* group; v2 converted that into a “female subtly fuller” cue for *O. brookii*.
+- **Evidence:** Marshall 1978 p.20 begins the *O. brookii* account separately and reports too much individual colour/size variation in few specimens to verify the Sumatran form; it supplies no sex-separated measurements for this species.
+- **Applied:** #195 v3 uses near-equal adults with pose differences only. The full plate and both adult crops were opened and passed.
+- **Reusable rule:** scope every dimorphism statement to its explicit taxon before prompting. A nearby paragraph, group-level rule or general owl tendency is not species evidence.
+
 ## 2026-11-07 — #143 *Asio solomonensis* v3 validated application
 
 ## 2026-11-07 — behaviour evidence is not an age clock

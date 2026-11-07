@@ -1,3 +1,7 @@
+## 2026-11-07 — #195 *Otus brookii solokensis* v3
+
+Archived a non-destructive science revision that removes an unsupported cross-taxon female-size cue. Direct PDF rereads, two new source-index entries, complete prompt, initial and edited full-colour plates, transport/review masters and three review crops were saved. One targeted juvenile wing/tail edit passed reinspection. Unique coverage remains 176/251; revision +1; verification pending.
+
 - Credited #188 v3 verification `0b90df88c792b8579fd6577f8b90a94ba3cdb54c` once and closed batch `20261107T143537+0800` at 6/6. Unique remains 176/251; revision +1; lease released; no other incomplete batch registered.
 
 ## 2026-11-07 — #190 *Otus lempiji* v2

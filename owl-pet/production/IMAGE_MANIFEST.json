@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:02:00+08:00",
+  "updated": "2026-11-07T15:06:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27332,13 +27332,32 @@
       "auxiliary_review_crop_blob": "0728c242c2ae5d14a4cb27bfd91dc3981b3b1a05",
       "auxiliary_review_crop_sha256": "a1f4c147e0bf3a218262a2e1c4aa3891334c1bdaaead7fa3ed90ae3f681ca9dd",
       "auxiliary_review_crop_size_bytes": 364645,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact immature age/sex, iris/bill ontogeny, first flight, daily feather sequence, occupied nest geometry, universal living colour, tail-bar count and sex-size ratio remain unknown; Mikkola upload unavailable.",
-      "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened."
+      "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened.",
+      "archive_commit": "93198752ae4141afa5f9450157fe1aae1bc926b4",
+      "archive_tree": "819b1ac1dd78d0f1264f64b3a46ab7b6f81785cf",
+      "verified_at": "2026-11-07T15:06:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 17,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3793,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 772,
+          "design_legacy": 773,
+          "production": 763
+        },
+        "connector_full_binary_stream_readback": false,
+        "full_color_source_provenance_only": true
+      }
     }
   ],
-  "updated_at": "2026-11-07T15:02:00+08:00"
+  "updated_at": "2026-11-07T15:06:00+08:00"
 }

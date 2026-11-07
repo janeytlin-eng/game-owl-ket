@@ -3735,3 +3735,5 @@ Verification commit `ff05129f`; accepted archive `02518c3e`; science revision +1
 
 
 - 2026-11-07 15:02 +0800: batch `20261107T140000+0800` cycle 2 ARCHIVED #171 *Glaucidium palmarum* v3 after 0 edits; original-type five versus later six/seven tail-mark conflict recorded, adults non-dichromatic/near-equal, grey-crowned dark-eyed immature with short soft wing and support passed full/crop review. Manifests 772/773/763; unique 176/251; science=false; immutable readback pending.
+
+- #171 v3 VERIFIED: archive `93198752ae4141afa5f9450157fe1aae1bc926b4` / tree `819b1ac1dd78d0f1264f64b3a46ab7b6f81785cf`; non-truncated 3,793-entry tree, 17 required paths and five exact binary paths passed. Manifests 772/773/763 parsed; ledger pending; science false.

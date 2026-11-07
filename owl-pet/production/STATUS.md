@@ -3879,3 +3879,12 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Preserved v1–v4; staged `34-glaucidium-hardyi-v5` as a science revision (unique +0, revision +1).
 - Full plate and three crops actually opened; first render passed without edit. Near-equal adults, coherent male occipital pattern, and a fully supported almost-full-grown cavity young match the evidence boundary.
 - Manifests staged at 800 / 797 / 790. Immutable archive readback pending; science=false.
+
+
+## 2026-11-08 — #34 v5 immutable archive verification
+
+- Archive commit `e5f5292e4dfb7c05383ddf5f2ec2c61882c94648`; tree `56c22d3513e571feb55839bc02010044218bfd6e` is non-truncated with 4,052 entries.
+- Required paths: 23/23. Binary exact Git blob SHA and size: 9/9.
+- Three manifests parse to 800 / 797 / 790; newest ID is `34-glaucidium-hardyi-v5`.
+- Original-access path resolves in the immutable tree to blob `20c3431663fd7dfe0df2c6af5ea47267bad986cd`, 3,482,040 bytes.
+- Review result PASS_WITH_LIMITATIONS; science=false. Ledger credit pending.

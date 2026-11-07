@@ -3900,3 +3900,7 @@ Batch `20261107T183000+0800` is now 4/6; next cycle 5. Unique coverage remains 1
 - One new taxonomy source, five re-read/reused records and one corrected inference. One imagegen render; no edit; full plate and three role crops opened.
 - Manifests prepared at 798/795/788. Result PASS_WITH_LIMITATIONS; exact age/sex, first flight, independence, feather chronology and population sex-size direction remain unknown; science false.
 - Immutable archive verification and cycle credit are pending.
+
+
+### #32 v5 VERIFIED — ledger credit pending
+Archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf5cc1fb16734b46dfe83` passed non-truncated 4,024-entry readback, 21 required paths, nine exact binary blob/size tuples and manifests 798/795/788. Unique remains 176/251; science false; ledger credit pending.

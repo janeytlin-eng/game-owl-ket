@@ -3839,3 +3839,7 @@ Verification commit `391498b03379e62923d15eb0671c30f6aa767550` was read back aft
 - Batch 20261108T011416+0800 cycle 1/6. Original plate, reviewed master, three crops, evidence, prompts and manifests persisted.
 - New source 1; re-read/reused 5; imagegen 1; edit 0; PASS_WITH_LIMITATIONS; science false; unique 176/251.
 - No cycle credit until immutable blob/size and manifest readback passes.
+
+
+### #32 v5 VERIFIED — 2026-11-08T01:24:45+08:00
+Archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf5cc1fb16734b46dfe83`: 21/21 paths, nine exact binary tuples, non-truncated 4,024-entry tree, manifests 798/795/788. Ledger credit pending; science false.

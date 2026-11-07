@@ -42,3 +42,7 @@ The generated 1536×1024 original and three role crops were actually opened. Exa
 
 ## Archive checkpoint — 2026-11-08T01:22:30+08:00
 Concept, original, generated/reviewed master and three crop paths are prepared in the repository. Manifests 798/795/788; unique remains 176/251; readback and ledger credit pending.
+
+
+## Immutable verification — 2026-11-08T01:24:45+08:00
+Archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf5cc1fb16734b46dfe83` passed: 4,024 non-truncated entries, 21/21 required paths, nine exact binary blob/size tuples and manifests 798/795/788. Ledger credit is still separate; science remains false.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T04:48:00.179+08:00",
+  "updated": "2026-11-08T04:49:16.620+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30791,9 +30791,19 @@
         }
       ],
       "archive_note": "Initial readback found all five unique image streams truncated to 500,000 bytes by non-3-byte base64 chunk padding. Re-uploaded with 600,000-byte aligned chunks and repointed all aliases; immutable readback pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "278012cbf29d25195791e6bf153506cdd0fcdeb4",
+      "archive_tree": "0508932475337c9b722a2a34442913d40a44ba60",
+      "archive_tree_entries": 4169,
+      "archive_tree_truncated": false,
+      "required_paths_verified": 20,
+      "exact_binary_paths_verified": 9,
+      "unique_binary_streams_read_back": 5,
+      "verified_at": "2026-11-08T04:49:16.620+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable repaired archive tree was non-truncated (4,169 entries). All 20 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Three manifests parsed at 809/806/799 with #93 v5 newest and exactly once."
     }
   ],
-  "updated_at": "2026-11-08T04:48:00.179+08:00"
+  "updated_at": "2026-11-08T04:49:16.620+08:00"
 }

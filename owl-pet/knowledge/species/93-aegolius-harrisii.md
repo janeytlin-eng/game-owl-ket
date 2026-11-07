@@ -65,3 +65,8 @@ Fixed archive `362281f4d87b5225fefbecfbb149ca9ee940868c`: exact four assets, non
 - **Scientific status:** `scientifically_verified=false`.
 
 [Original](../../design/concepts/93-aegolius-harrisii-v5.png) · [Research](../../research/species/93-aegolius-harrisii-v5.md) · [Review](../../research/reviews/93-aegolius-harrisii-v5-review.md) · [Run](../../production/runs/20261108T043600+0800-cycle-6.md)
+
+
+## VERIFIED — 2026-11-08T04:49:16.620+08:00
+
+Fixed repaired archive `278012cbf29d25195791e6bf153506cdd0fcdeb4` / tree `0508932475337c9b722a2a34442913d40a44ba60`: non-truncated 4,169-entry tree, 20/20 required paths, nine exact binary path checks, five unique streams, manifests 809/806/799 with #93 v5 exactly once. Result PASS_WITH_LIMITATIONS; external scientific approval remains false.

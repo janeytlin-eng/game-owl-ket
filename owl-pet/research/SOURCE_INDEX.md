@@ -4217,3 +4217,14 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - `HAR-ITIS-555474-2026`, `HAR-AVIBASE-IHERINGI-2026`, and `HAR-MIK2013-447` reused.
 - Uploaded Mikkola guide unavailable; repository-pinned printed p.447/PDF p.449 record reused without claiming a fresh page read.
 - Design/review link: [v5 research](species/93-aegolius-harrisii-v5.md).
+
+
+## 2026-11-08 — #97 *Lophostrix cristata* v5
+### CRI-WETMORE-1968-P159-161
+- Smithsonian/Wetmore 1968, printed pp.159–161; https://repository.si.edu/bitstream/handle/10088/23810/1965%20vol%20150%20pt%202.pdf ; accessed 2026-11-08.
+- Sexed museum samples overlap and do not give a consistent cross-subspecies female-larger direction. Adult identity/measurements only.
+### CRI-BARROS-CINTRA-2009
+- Primary Ducke Reserve transect study; https://doi.org/10.1590/S1984-46702009000100014 ; accessed 2026-11-08.
+- *L. cristata* occurrence/abundance associated with snags; habitat only.
+### CRI-STORER-1972-METADATA
+- DOI https://doi.org/10.2307/4084227; metadata verified, PDF 403; not used as freshly read plumage evidence.

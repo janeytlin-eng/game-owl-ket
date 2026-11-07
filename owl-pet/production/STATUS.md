@@ -3732,3 +3732,6 @@ Accepted immutable archive `02518c3e` / tree `0906afc6`: non-truncated 3,719-ent
 Verification commit `ff05129f`; accepted archive `02518c3e`; science revision +1, unique +0. Batch `20261107T062903+0800` is now 5/6, next cycle 6; unique species 176/251; science false. Lease released.
 
 - 2026-11-07 14:25 +0800: batch 20261107T140000+0800 cycle 1 archived #170 *Glaucidium sanchezi* v3 after one immature wing/tail edit; manifests 771/772/762; unique 176/251; science=false; immutable readback pending.
+
+
+- 2026-11-07 15:02 +0800: batch `20261107T140000+0800` cycle 2 ARCHIVED #171 *Glaucidium palmarum* v3 after 0 edits; original-type five versus later six/seven tail-mark conflict recorded, adults non-dichromatic/near-equal, grey-crowned dark-eyed immature with short soft wing and support passed full/crop review. Manifests 772/773/763; unique 176/251; science=false; immutable readback pending.

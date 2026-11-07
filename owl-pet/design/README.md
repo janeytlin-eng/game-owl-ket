@@ -3286,3 +3286,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/170-glaucidium-sanchezi-v3.png) · [Research](../research/species/170-glaucidium-sanchezi-v3.md) · [Review](../research/reviews/170-glaucidium-sanchezi-v3-review.md) · [Run](../production/runs/20261107T140000+0800-cycle-1.md)
 - V3 preserves v1–v2, re-reads the 1949 original description and applies the documented grey-olive male versus more cinnamon female palette without a generic size exaggeration. One immature-only edit removed a long adult-style barred tail and shortened/softened the wing. Full-colour board, transport board and two crops passed. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.
+
+
+## #171 Colima Pygmy-Owl — *Glaucidium palmarum* — v3
+
+- [Concept](concepts/171-glaucidium-palmarum-v3.png) · [Research](../research/species/171-glaucidium-palmarum-v3.md) · [Review](../research/reviews/171-glaucidium-palmarum-v3-review.md) · [Run](../production/runs/20261107T144200+0800-cycle-2.md)
+- V3 preserves v1–v2, reads the 1901 original description and records the five-versus-six/seven tail-marking conflict rather than treating one count as universal. Adults remain non-dichromatic and near-equal; the age-unknown immature has a grey sparsely flecked crown, dark iris, short soft wing and concealed supported tail. Full-colour board, transport board and two crops passed with 0 edits. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.

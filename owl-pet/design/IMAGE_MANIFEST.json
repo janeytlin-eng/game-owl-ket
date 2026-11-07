@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T14:38:00+08:00",
+  "updated": "2026-11-07T15:02:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27961,7 +27961,67 @@
       "verification_commit": "34abb73d5e76f494b2517f65b0141e3392d68f71",
       "verification_tree": "566f8b7bc7918781cfe22822afebca5d0c27a02a",
       "ledger_credited_at": "2026-11-07T14:38:00+08:00"
+    },
+    {
+      "id": "171-glaucidium-palmarum-v3",
+      "path": "design/concepts/171-glaucidium-palmarum-v3.png",
+      "species_id": 171,
+      "scientific_name": "Glaucidium palmarum",
+      "historical_names": [
+        "Glaucidium minutissimum palmarum (historical broad placement)"
+      ],
+      "common_name": "Colima Pygmy-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新读Nelson 1901原始描述p.46、ITIS TSN 555451和UNAM/MZFC馆藏元数据；复用Howell & Robbins、Buchanan、Mikkola转录及洞穴资源研究。成鸟同色、站立近等，雌鸟仅略丰满。原始模式标本5组尾斑与后续6–7条摘要冲突，图中采用克制中间值并明确不是固定诊断。年龄未知未成熟鸟为灰色稀疏前额斑、暗色虹膜、短软翼、隐尾和双足支撑。全彩图、传输图及两份裁切复查通过，0次编辑。PASS_WITH_LIMITATIONS；精确日龄/性别、软部发育、首飞、连续羽序、占用巢位和通用比例未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "CPO-NELSON-1901-P46",
+        "CPO-ITIS-555451-2026",
+        "CPO-UNAM-MZFC-1999",
+        "CPO-HOWELL-ROBBINS-1995-P17-20",
+        "CPO-BUCHANAN-1964-P104-106",
+        "CPO-MIKKOLA-2013-P385-386"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--171-glaucidium-palmarum-v3--original-diagnosis-tail-bar-conflict-and-current-name",
+      "research_record": "research/species/171-glaucidium-palmarum-v3.md",
+      "run_record": "production/runs/20261107T144200+0800-cycle-2.md",
+      "review_record": "research/reviews/171-glaucidium-palmarum-v3-review.md",
+      "reviewed_at": "2026-11-07T14:58:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "66887455525945b9cfe8e9d8e976197ad4ea50ca784068b061a5ac1f413ea415",
+      "size_bytes": 645853,
+      "git_blob": "43e6976dcb5a70417a456187471b9c5220de7ce3",
+      "generated_path": "production/generated/171-glaucidium-palmarum-v3-generated-master.png",
+      "generated_blob": "43e6976dcb5a70417a456187471b9c5220de7ce3",
+      "generated_sha256": "66887455525945b9cfe8e9d8e976197ad4ea50ca784068b061a5ac1f413ea415",
+      "generated_size_bytes": 645853,
+      "full_color_source_sha256": "5c99b1d8203242fb69024050d59a0298e43f619075af144adb5cff97d74cbcbf",
+      "full_color_source_size_bytes": 3003535,
+      "reviewed_path": "production/reviewed/171-glaucidium-palmarum-v3-reviewed-master.png",
+      "reviewed_blob": "43e6976dcb5a70417a456187471b9c5220de7ce3",
+      "reviewed_sha256": "66887455525945b9cfe8e9d8e976197ad4ea50ca784068b061a5ac1f413ea415",
+      "reviewed_size_bytes": 645853,
+      "review_crop_path": "production/review-crops/171-glaucidium-palmarum-v3-immature.png",
+      "review_crop_blob": "0d04315c4caac463cceddb325757bb89510e3ea0",
+      "review_crop_sha256": "f2bc21144ab4fb409e6edbd0fa4f92de2ddd79063dc1e84ae5a5da8e2e15d1e4",
+      "review_crop_size_bytes": 193061,
+      "auxiliary_review_crop_path": "production/review-crops/171-glaucidium-palmarum-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "0728c242c2ae5d14a4cb27bfd91dc3981b3b1a05",
+      "auxiliary_review_crop_sha256": "a1f4c147e0bf3a218262a2e1c4aa3891334c1bdaaead7fa3ed90ae3f681ca9dd",
+      "auxiliary_review_crop_size_bytes": 364645,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact immature age/sex, iris/bill ontogeny, first flight, daily feather sequence, occupied nest geometry, universal living colour, tail-bar count and sex-size ratio remain unknown; Mikkola upload unavailable.",
+      "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened."
     }
   ],
-  "updated_at": "2026-11-07T14:38:00+08:00"
+  "updated_at": "2026-11-07T15:02:00+08:00"
 }

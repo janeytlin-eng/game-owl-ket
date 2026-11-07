@@ -1,3 +1,17 @@
+## #30 v5 — *Glaucidium cuculoides* — batch 20261107T223235+0800 cycle 5/6
+
+### Generation prompt
+
+Use case: scientific-educational
+Asset type: owl-pet 1536×1024 natural-history prototype group plate
+Primary request: Exactly three Asian Barred Owlets, Glaucidium cuculoides, in the repository's established polished realistic field-guide style.
+Scene/backdrop: lowland Hong Kong fung shui woodland edge beside farmland at warm early evening, mature Chinese Banyan branch and a natural trunk cavity softly behind; restrained deep green foliage; no nest-box geometry, eggs or nestlings.
+Composition: left ADULT MALE, center RECENT FLEDGLING, right ADULT FEMALE. Adults on one broad branch at near-equal crown height; female only subtly fuller. Center fledgling stands lower on a diagonal side branch near the nest tree, both feet gripping bark and belly held low but not collapsed; fully supported and not airborne.
+Adults: compact 22–25 cm owlets; rounded tuftless heads; yellow eyes; pale greenish-yellow bills; long pale eyebrows and moustachial streaks; distinct white throat; dark rufous-brown head, neck, breast and upperparts closely crossed by narrow pale-buff bars; white lower underparts with irregular brown spots/streaks; short dark tail with narrow whitish bars; feathered tarsi; NO face-like nape false eyes; same plumage in both sexes.
+Fledgling: age and sex unknown; yellow iris only because the official Hong Kong development account explicitly identifies the undated fledgling stage; soft juvenile contour, spotted crown and forehead, less organized body barring, compact formed but soft-edged folded wings, short partly hidden tail. Calm branch perch only; no flight, prey handling or independent-feeding claim.
+Text verbatim: "30 ASIAN BARRED OWLET"; italic "Glaucidium cuculoides"; labels "ADULT MALE", "RECENT FLEDGLING", "ADULT FEMALE". No other text.
+Avoid: ear tufts, nape false eyes, exaggerated female size, sex-coded colours, adult-neat juvenile covert rows, long rigid juvenile wing/tail, airborne fledgling, unsupported feet, ground nest, nest box, prey, extra bird, watermark, extra text.
+
 # Full ImageGen prompts
 
 ## #190 v2 — *Otus lempiji* — batch 20261107T183000+0800 cycle 1/6

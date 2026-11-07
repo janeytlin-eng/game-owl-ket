@@ -1,3 +1,35 @@
+## 2026-11-08 — #30 *Glaucidium cuculoides* v5 — official Hong Kong fledgling boundary and nest-context restraint
+
+### ASBO-HKBWS-AVIFAUNA-2024
+- **Title / institution / accessed:** “Asian Barred Owlet *Glaucidium cuculoides*” / The Avifauna of Hong Kong, Hong Kong Bird Watching Society / updated 2024-01-09; accessed 2026-11-08.
+- **URL:** https://avifauna.hkbws.org.hk/species/0190/026900
+- **Type / scope:** institutional species account; Hong Kong population, identification, habitat, breeding and undated juvenile development.
+- **Facts read:** adults are 22–25 cm, rounded and untufted with yellow eyes, strong fine barring, white lower underparts with irregular brown marks and no face-like nape pattern; juveniles are spotted on crown/forehead. Most nests are natural tree holes 3–8 m high, especially Chinese Banyan. Fledglings occur near nest sites 3 May–3 June. Undated nest-box photographs show a final juvenile-plumage stage with yellow irides.
+- **Section / lines:** Identification and Breeding; lines 6–16 and 45–54 in the retrieved account.
+- **Limits / confidence:** authoritative regional synthesis, not a continuous measured growth series. Exact age, flight threshold and sex remain unknown. High confidence for Hong Kong *G. c. whiteleyi*; transfer to all subspecies is limited.
+- **Design use:** adult identity; no false eyes; an undated yellow-eyed juvenile with spotted crown/forehead; natural banyan cavity context and no exact-day claim.
+- **Links:** research/species/30-glaucidium-cuculoides-v5.md; design/concepts/30-glaucidium-cuculoides-v5.png.
+
+### ASBO-HKBWS-HKBR-2009-10
+- **Title / authors / year / accessed:** *Hong Kong Bird Report 2009–10: Systematic List* / HKBWS, editors John A. Allcock, Geoff J. Carey, Gary Chow and Geoff Welch / published 2012; accessed 2026-11-08.
+- **URL:** https://www.hkbws.org.hk/web/chi/documents/bird_report/2009-10_birdreport_protected.pdf
+- **Type / scope:** institutional annual bird report with dated field record and plate.
+- **Facts read:** at least one Asian Barred Owlet was present in Lam Tsuen valley during 2010 and a fledged juvenile was photographed on 5 June; Plate 22 shows an Asian Barred Owlet on a naturally supporting diagonal branch. This supports a branch-perched fledged stage, but not exact age or a flight-performance claim.
+- **Page / lines:** printed p.127–128; retrieved lines 4514–4532; Plate 22.
+- **Limits / confidence:** the text records a fledged juvenile, while the adjacent plate caption is a separate Kam Tin adult dated 10 May 2009. Do not treat Plate 22 as the 5 June juvenile. High confidence for occurrence/stage, limited visual detail for the juvenile.
+- **Design use:** recently fledged juvenile may be shown quietly gripping a diagonal branch near the nest, with no airborne or independence claim.
+- **Links:** research/species/30-glaucidium-cuculoides-v5.md; design/concepts/30-glaucidium-cuculoides-v5.png.
+
+### ASBO-SANKAMETHAWEE-PIERCE-2019
+- **Title / authors / year / accessed:** “Ground-nesting Attempt by Asian Barred Owlet *Glaucidium cuculoides*” / Wangworn Sankamethawee & Andrew J. Pierce / 2019; accessed 2026-11-08.
+- **URL:** https://www.researchgate.net/profile/Wangworn-Sankamethawee/publication/342520694_A_Ground_nesting_attempt_by_Asian_Barred_Owlet_Glaucidium_cuculoides/links/5ef9690592851c52d60698a0/A-Ground-nesting-attempt-by-Asian-Barred-Owlet-Glaucidium-cuculoides.pdf
+- **Type / scope:** peer-reviewed primary field note; exceptional failed egg-stage ground nesting in Thailand.
+- **Facts read:** the species normally uses natural tree cavities or old woodpecker/barbet holes; the documented exposed ground attempt failed. Body mass is summarized as about 150–240 g.
+- **Pages / lines:** pp.157–160; retrieved lines 0–28.
+- **Limits / confidence:** supplies no juvenile plumage or sex-size calibration; exceptional failed ground nesting must not be generalized.
+- **Design use:** preserve cavity-tree context and explicitly avoid depicting a successful ground nest.
+- **Links:** research/species/30-glaucidium-cuculoides-v5.md.
+
 ## 2026-11-07 — #197 *Otus megalotis* v3 — current-name mapping, sex-scale restraint and juvenile-source limits
 
 ### LLSO-AVIBASE-2026-NAME

@@ -33576,14 +33576,14 @@
       "next_cycle": 6,
       "active_cycle": 6,
       "started_at": "2026-11-07T22:32:35+08:00",
-      "updated_at": "2026-11-08T00:52:21.809+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-08T01:01:13+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work",
         "run_id": "20261108T005000+0800-cycle-6",
-        "heartbeat_at": "2026-11-08T00:52:21.809+08:00",
-        "expires_at": "2026-11-08T01:07:21.809+08:00"
+        "heartbeat_at": "2026-11-08T01:01:13+08:00",
+        "expires_at": "2026-11-08T01:16:13+08:00"
       },
       "in_progress": {
         "cycle": 6,
@@ -33591,7 +33591,7 @@
         "species_id": 31,
         "species": "Glaucidium radiatum",
         "version": 5,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261108T005000+0800-cycle-6.md"
       },
       "active": {
@@ -33600,7 +33600,7 @@
         "species_id": 31,
         "species": "Glaucidium radiatum",
         "version": 5,
-        "stage": "RESEARCH_READY",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261108T005000+0800-cycle-6.md"
       },
       "stage_events": [
@@ -34560,6 +34560,90 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-08T01:07:21.809+08:00"
           }
+        },
+        {
+          "cycle": 6,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-08T01:01:13+08:00",
+          "run_id": "20261108T005000+0800-cycle-6",
+          "species_id": 31,
+          "species": "Glaucidium radiatum",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/31-glaucidium-radiatum-v5-initial-original.png",
+            "initial_blob": "177ecd13c83c420507876067c86277456cc13779",
+            "initial_bytes": 3189266,
+            "initial_sha256": "0c47b03e8f0d45ca116a9322786e1b8e515c59a19246ff55762b3dca9945007d",
+            "final_original": "owl-pet/production/generated/31-glaucidium-radiatum-v5-final-original.png",
+            "final_blob": "66bf482c9cb03aa265cb7fa963bc227afcb50924",
+            "final_bytes": 3000198,
+            "final_sha256": "e1099023d4e0c1f83ab76e2bb33292a4b983495e05ca491606d039cd56ae1c1d",
+            "full_color_source": "owl-pet/production/generated/31-glaucidium-radiatum-v5-full-color.jpg",
+            "full_color_blob": "8833fbea733438f80aa2ae340a4a2adf643d048a",
+            "full_color_bytes": 802736,
+            "full_color_sha256": "035e4d2141865494acb38bd8cb67437c407db441478c853f7dd040a979d818bb",
+            "generated_master": "owl-pet/production/generated/31-glaucidium-radiatum-v5-generated-master.png",
+            "generated_blob": "c34c2a9501fbf5907d8a30a94fe23bd25970c933",
+            "generated_bytes": 809944,
+            "generated_sha256": "d66994900be4fb02ee923ae4419fe5587c290ac9268f7c9329f656a88260e6da",
+            "geometry": "1536x1024",
+            "generation_seconds": 40.9,
+            "edit_count": 1,
+            "preliminary_inspection": "Initial full plate opened: three birds, text, adult identity, yellow eyes, support and cavity habitat passed, but the older immature wing/tail remained too long and mature in outline. A targeted center-bird-only edit shortened and softened the wing and tail. Edited full plate reopened; adults, text and background remained stable.",
+            "lease_expires_at": "2026-11-08T01:16:13+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 6,
+          "stage": "REVIEWED",
+          "at": "2026-11-08T01:01:13+08:00",
+          "run_id": "20261108T005000+0800-cycle-6",
+          "species_id": 31,
+          "species": "Glaucidium radiatum",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/31-glaucidium-radiatum-v5-reviewed-master.png",
+            "review_record": "owl-pet/research/reviews/31-glaucidium-radiatum-v5-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/31-glaucidium-radiatum-v5-adult-male.png",
+              "owl-pet/production/review-crops/31-glaucidium-radiatum-v5-juvenile.png",
+              "owl-pet/production/review-crops/31-glaucidium-radiatum-v5-adult-female.png"
+            ],
+            "crop_blobs": [
+              "361690d7878570ce131dce728d0ffa28aba673cd",
+              "80b4231d0d1e4cff66341cc7fddc9e1fe2698dbe",
+              "28a4da69ad61cae24617a1e5699b5e1307ef7382"
+            ],
+            "edit_count": 1,
+            "imagegen_invocations": 2,
+            "actual_views": [
+              "initial full-colour plate",
+              "edited full-colour plate",
+              "112-colour transport master",
+              "adult male crop",
+              "older immature crop",
+              "adult female crop"
+            ],
+            "checks": {
+              "identity": "PASS",
+              "sex_direction": "PASS_WITH_LIMITATION",
+              "juvenile_stage": "PASS_WITH_LIMITATIONS",
+              "support": "PASS",
+              "text_labels": "PASS",
+              "habitat": "PASS"
+            },
+            "unknowns": [
+              "exact immature age and sex",
+              "first-flight threshold",
+              "degree of independence",
+              "continuous wing/tail feather sequence",
+              "population-level sex size direction"
+            ],
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-08T01:16:13+08:00"
+          }
         }
       ]
     }
@@ -34567,8 +34651,8 @@
   "lease": {
     "owner": "codex-work",
     "run_id": "20261108T005000+0800-cycle-6",
-    "heartbeat_at": "2026-11-08T00:52:21.809+08:00",
-    "expires_at": "2026-11-08T01:07:21.809+08:00"
+    "heartbeat_at": "2026-11-08T01:01:13+08:00",
+    "expires_at": "2026-11-08T01:16:13+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -34703,7 +34787,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-08T00:52:21.809+08:00",
+  "updated_at": "2026-11-08T01:01:13+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -34715,10 +34799,10 @@
   "active_lease": {
     "owner": "codex-work",
     "run_id": "20261108T005000+0800-cycle-6",
-    "heartbeat_at": "2026-11-08T00:52:21.809+08:00",
-    "expires_at": "2026-11-08T01:07:21.809+08:00"
+    "heartbeat_at": "2026-11-08T01:01:13+08:00",
+    "expires_at": "2026-11-08T01:16:13+08:00"
   },
-  "last_updated_at": "2026-11-08T00:52:21.809+08:00",
+  "last_updated_at": "2026-11-08T01:01:13+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -35521,7 +35605,7 @@
     "species_id": 31,
     "species": "Glaucidium radiatum",
     "version": 5,
-    "stage": "RESEARCH_READY",
+    "stage": "REVIEWED",
     "run_record": "owl-pet/production/runs/20261108T005000+0800-cycle-6.md"
   },
   "previous_checkpoint": {
@@ -36828,7 +36912,7 @@
       "lease_expires_at": "2026-11-07T21:08:00+08:00"
     }
   ],
-  "last_updated": "2026-11-08T00:52:21.809+08:00",
+  "last_updated": "2026-11-08T01:01:13+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -40349,7 +40433,7 @@
   ],
   "active_batch_id": "20261107T223235+0800",
   "active_cycle": 6,
-  "current_stage": "RESEARCH_READY",
+  "current_stage": "REVIEWED",
   "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
@@ -41986,18 +42070,104 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T23:59:04.216+08:00"
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-08T01:01:13+08:00",
+      "run_id": "20261108T005000+0800-cycle-6",
+      "species_id": 31,
+      "species": "Glaucidium radiatum",
+      "credited": false,
+      "evidence": {
+        "initial_original": "owl-pet/production/generated/31-glaucidium-radiatum-v5-initial-original.png",
+        "initial_blob": "177ecd13c83c420507876067c86277456cc13779",
+        "initial_bytes": 3189266,
+        "initial_sha256": "0c47b03e8f0d45ca116a9322786e1b8e515c59a19246ff55762b3dca9945007d",
+        "final_original": "owl-pet/production/generated/31-glaucidium-radiatum-v5-final-original.png",
+        "final_blob": "66bf482c9cb03aa265cb7fa963bc227afcb50924",
+        "final_bytes": 3000198,
+        "final_sha256": "e1099023d4e0c1f83ab76e2bb33292a4b983495e05ca491606d039cd56ae1c1d",
+        "full_color_source": "owl-pet/production/generated/31-glaucidium-radiatum-v5-full-color.jpg",
+        "full_color_blob": "8833fbea733438f80aa2ae340a4a2adf643d048a",
+        "full_color_bytes": 802736,
+        "full_color_sha256": "035e4d2141865494acb38bd8cb67437c407db441478c853f7dd040a979d818bb",
+        "generated_master": "owl-pet/production/generated/31-glaucidium-radiatum-v5-generated-master.png",
+        "generated_blob": "c34c2a9501fbf5907d8a30a94fe23bd25970c933",
+        "generated_bytes": 809944,
+        "generated_sha256": "d66994900be4fb02ee923ae4419fe5587c290ac9268f7c9329f656a88260e6da",
+        "geometry": "1536x1024",
+        "generation_seconds": 40.9,
+        "edit_count": 1,
+        "preliminary_inspection": "Initial full plate opened: three birds, text, adult identity, yellow eyes, support and cavity habitat passed, but the older immature wing/tail remained too long and mature in outline. A targeted center-bird-only edit shortened and softened the wing and tail. Edited full plate reopened; adults, text and background remained stable.",
+        "lease_expires_at": "2026-11-08T01:16:13+08:00",
+        "scientifically_verified": false
+      },
+      "batch_id": "20261107T223235+0800"
+    },
+    {
+      "cycle": 6,
+      "stage": "REVIEWED",
+      "at": "2026-11-08T01:01:13+08:00",
+      "run_id": "20261108T005000+0800-cycle-6",
+      "species_id": 31,
+      "species": "Glaucidium radiatum",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/31-glaucidium-radiatum-v5-reviewed-master.png",
+        "review_record": "owl-pet/research/reviews/31-glaucidium-radiatum-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/31-glaucidium-radiatum-v5-adult-male.png",
+          "owl-pet/production/review-crops/31-glaucidium-radiatum-v5-juvenile.png",
+          "owl-pet/production/review-crops/31-glaucidium-radiatum-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "361690d7878570ce131dce728d0ffa28aba673cd",
+          "80b4231d0d1e4cff66341cc7fddc9e1fe2698dbe",
+          "28a4da69ad61cae24617a1e5699b5e1307ef7382"
+        ],
+        "edit_count": 1,
+        "imagegen_invocations": 2,
+        "actual_views": [
+          "initial full-colour plate",
+          "edited full-colour plate",
+          "112-colour transport master",
+          "adult male crop",
+          "older immature crop",
+          "adult female crop"
+        ],
+        "checks": {
+          "identity": "PASS",
+          "sex_direction": "PASS_WITH_LIMITATION",
+          "juvenile_stage": "PASS_WITH_LIMITATIONS",
+          "support": "PASS",
+          "text_labels": "PASS",
+          "habitat": "PASS"
+        },
+        "unknowns": [
+          "exact immature age and sex",
+          "first-flight threshold",
+          "degree of independence",
+          "continuous wing/tail feather sequence",
+          "population-level sex size direction"
+        ],
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-08T01:16:13+08:00"
+      },
+      "batch_id": "20261107T223235+0800"
     }
   ],
   "last_completed_batch_id": "20261107T183000+0800",
   "active_batch": {
     "batch_id": "20261107T223235+0800",
-    "cycle": 5,
-    "run_id": "20261108T003630+0800-cycle-5",
+    "cycle": 6,
+    "run_id": "20261108T005000+0800-cycle-6",
     "status": "ACTIVE",
-    "species_id": 30,
-    "species": "Glaucidium cuculoides",
+    "species_id": 31,
+    "species": "Glaucidium radiatum",
     "version": 5,
-    "stage": "RESEARCH_READY"
+    "stage": "REVIEWED"
   },
   "events": [
     {
@@ -48660,7 +48830,7 @@
       "credited_at": "2026-11-08T00:34:30.000+08:00"
     }
   ],
-  "updated": "2026-11-07T23:44:04.216+08:00",
+  "updated": "2026-11-08T01:01:13+08:00",
   "stage": "REVIEWED",
   "stage_evidence": {
     "review_record": "owl-pet/research/reviews/29-glaucidium-capense-v5-review.md",

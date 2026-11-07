@@ -3856,3 +3856,12 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Primary paper re-read supports definitive-grey adults and a known-age 56-day fully grown fledgling with reduced back/crown pattern and incomplete occipital pattern.
 - Generated 1536×1024 original reviewed at full size and three crops; no edit required; result PASS_WITH_LIMITATIONS; science=false.
 - Original blob `d3666fd014e04a1468565c046ce9b10255e9cbdc`; archive readback pending.
+
+
+## 2026-11-08 — #33 v5 immutable archive verification
+
+- Archive commit `40318caef977b4a5487883450ac69800414a8a83`; tree `363c5d595e6b4a8eafd7b643ff588e94ad36a715` is non-truncated with 4,036 entries.
+- Required paths: 23/23. Binary exact Git blob SHA and size: 9/9.
+- Three manifests parse to 799 / 796 / 789; newest ID is `33-taenioptynx-brodiei-v5`.
+- Original-access path resolves in the immutable tree to blob `d3666fd014e04a1468565c046ce9b10255e9cbdc`, 3,306,125 bytes.
+- Review result PASS_WITH_LIMITATIONS; science=false. Ledger credit pending.

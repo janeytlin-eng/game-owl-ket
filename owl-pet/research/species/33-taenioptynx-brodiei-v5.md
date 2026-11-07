@@ -54,3 +54,14 @@ RIGHT ADULT FEMALE: same definitive grey plumage and near-equal displayed crown 
 Environment: central-Taiwan-type broadleaf and planted montane woodland edge, filtered morning light, mossy branch and dense soft foliage. A small natural-looking cavity or research nest-box may remain distant background context only; no eggs, nestlings, prey or visible lining. All six feet must be anatomically plausible and visibly supported.
 
 Critical negatives: no ear tufts; no orange adult eyes; no rufous adult “morph” treated as permanent; no extra bird; no mature crisp occipital pattern on the fledgling; no adult-density crown/back spotting on the fledgling; no long mature juvenile tail; no airborne or unsupported juvenile; no exaggerated female size; no watermark; no text beyond the exact title and three labels.
+
+
+## Archive verification
+
+- Archive commit: `40318caef977b4a5487883450ac69800414a8a83`
+- Archive tree: `363c5d595e6b4a8eafd7b643ff588e94ad36a715`
+- Non-truncated tree: 4,036 entries
+- Required paths: 23/23
+- Binary exact SHA and size: 9/9
+- Manifest counts: 799 / 796 / 789
+- Result: PASS_WITH_LIMITATIONS; science=false; ledger credit pending

@@ -515,3 +515,18 @@ Lighting/mood: restrained warm filtered woodland light; clear diagnostic colour 
 Text (verbatim): "26 CUBAN PYGMY-OWL" at top; italic-style subtitle "Glaucidium siju"; labels "ADULT MALE", "JUVENILE", "ADULT FEMALE" below the corresponding birds.
 Constraints: exact three birds; preserve near-equal adult displayed height; female colour/size direction is population-level and not a rigid individual rule; juvenile is calendar-age-unknown and must not be presented as a hatchling or confidently flying fledgling; no precise iris-age claim.
 Avoid: ear tufts, extra birds, eggs, prey, visible nest lining, invented hatchling detail, adult-like juvenile wing spot rows, long adult-barred juvenile tail, unsupported hovering, malformed or hidden support feet, vegetation intersecting bodies, extra text, watermark.
+
+
+## 2026-11-07 — #27 *Glaucidium passerinum* v5
+
+Use case: scientific-educational
+Asset type: owl-pet three-stage species concept plate
+Primary request: create a v5 concept plate for #27 Eurasian Pygmy-Owl, preserving v1–v4 while replacing the precise day-22 cavity-threshold claim with a directly supportable recent-fledgling stage.
+Scene/backdrop: old structured montane spruce/fir woodland with a weathered woodpecker cavity in a snag and a broad nearby spruce fork.
+Subject: exactly three Glaucidium passerinum. Left ADULT MALE: tiny round flat-topped untufted head, yellow eyes, pale yellow bill, gray-brown upperparts with small pale spots, white underparts with narrow brown longitudinal streaks, feathered legs, short five-banded brown tail; three-quarter turn exposes one white-bordered dark nape false-eye patch. Centre RECENT FLEDGLING: sex unknown, newly out of the cavity but not assigned an exact day; low quiet posture on the broad spruce fork, chest low and both feet fully supported; dense dark chocolate-brown soft juvenile contour, nearly plain upperparts, sparse soft brown longitudinal marks on the pale lower front, incomplete weak facial disc, indeterminate shaded iris rather than an asserted adult-bright yellow, compact softly folded wings with subtly incomplete flight-feather tips and no ordered adult white spot rows, short developing tail without a crisp adult five-band pattern. It is capable of some flight but the plate makes no flight or landing pose. Right ADULT FEMALE: same plumage pattern as male, modestly fuller and slightly longer-winged/tailed but near-equal standing height, not a different colour morph.
+Style/medium: naturalistic softly painted 3D wildlife field-guide concept art, realistic feather texture, restrained detail, established owl-pet visual language.
+Composition/framing: 1536×1024 landscape; adults flank the recent fledgling; all birds fully separated and fully visible; all six feet and their supports visible.
+Lighting/mood: soft filtered montane woodland daylight, calm protective adults, cautious secure fledgling.
+Text (verbatim): "27 EURASIAN PYGMY-OWL" at top; italic-style subtitle "Glaucidium passerinum"; labels "ADULT MALE", "RECENT FLEDGLING", "ADULT FEMALE" below corresponding birds.
+Constraints: exactly three birds; same-plumage adults; modest overlapping female size direction; recent fledgling is unsexed and not assigned exact age, iris chronology or independent-flight threshold; remote cavity is habitat context only.
+Avoid: ear tufts, extra birds, prey, eggs, visible nest contents, different female colour morph, huge female, adult-like fledgling wing rows, long fully barred adult tail on fledgling, begging pose, spread wings, unsupported body, hidden or malformed feet, extra text, watermark.

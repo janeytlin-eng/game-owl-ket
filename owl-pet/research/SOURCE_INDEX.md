@@ -3742,3 +3742,40 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **CUPO-SMITHSONIAN-VITTATUM-TYPE-2024:** new UNVERIFIED LEAD; search record identifies an adult male *G. s. vittatum* type with public-domain media, but direct page retrieval returned 404, so it is not used visually.
 - **Correction:** v5 removes v4's unsupported cavity-stage inference and uses a quiet, fully branch-supported age-unknown juvenile in juvenal body plumage. Exact age/sex/iris/flight/race remain unknown. New verified0 / reused2 / unverified1 / corrected1; science=false.
 - **Links:** `research/species/26-glaucidium-siju-v5.md`; planned `design/concepts/26-glaucidium-siju-v5.png`; run `production/runs/20261107T223235+0800-cycle-1.md`.
+
+## 2026-11-07 — #27 *Glaucidium passerinum* v5 recent-fledgling correction
+
+### EUPO-PACENOVSKY-SOTNAR-2010-PP71-73
+- Title: Notes on the reproduction, breeding biology and ethology of the Eurasian pygmy owl (*Glaucidium passerinum*) in Slovakia
+- Authors: Samuel Pačenovský; Karol Šotnár
+- Year: 2010; DOI: 10.2478/v10262-012-0046-y
+- URL: https://www.researchgate.net/publication/269515436_Notes_on_the_reproduction_breeding_biology_and_ethology_of_the_Eurasian_pygmy_owl_Glaucidium_passerinum_in_Slovakia
+- Accessed: 2026-11-07; type: primary multi-year field synthesis; verified full text
+- Species/stage: *G. passerinum*, nestlings and recently fledged juveniles
+- Pages/sections: printed pp.71–73; Table 3
+- Valuable facts: nestlings appear at cavity entrance at 21–25 days; reported fledging 27–34 days; direct Slovak observations say newly fledged birds could fly but landed less skillfully, remained in the family territory, and were followed for 27 days. One detailed family moved 30 m on fledging day and was still provisioned.
+- Limits/conflicts: does not provide a feather-by-feather plate, universal iris chronology or a single mandatory fledging day. Used to select a supported recent fledgling and avoid a precise day label or flight pose.
+- Design links: research/species/27-glaucidium-passerinum-v5.md; design/concepts/27-glaucidium-passerinum-v5.png
+- Confidence: high for behaviour/timing; not a photographic plumage source.
+
+### EUPO-EGE-2024-FLEDGING
+- Title: Der Sperlingskauz (*Glaucidium passerinum*)
+- Institution: Gesellschaft zur Erhaltung der Eulen e.V. (EGE)
+- Published/updated: 2024-11-24
+- URL: https://egeeulen.de/eulenarten/der-sperlingskauz-glaucidium-passerinum/
+- Accessed: 2026-11-07; type: specialist owl-conservation institutional account; verified page
+- Species/stage: *G. passerinum*, adult and recently fledged young
+- Section: Fortpflanzung; lines 65–87 in retrieved page
+- Valuable facts: nestling period normally 28–32 days; young leave somewhat flight-capable even though major flight feathers are not fully developed; family remains together about six weeks. Adult diagnostic direction and spruce/woodpecker-cavity context are also summarized.
+- Limits/conflicts: secondary institutional account, not individual-age plumage measurements; does not establish iris colour or exact feather geometry. Supports incomplete-flight-feather boundary only.
+- Confidence: medium-high.
+
+### EUPO-VASSEN-WMC-2014-JUVENILE
+- Title: Juvenile Eurasian Pygmy Owl (*Glaucidium passerinum*), Eastern Belgium (14444712289)
+- Photographer: Frank Vassen; repository: Wikimedia Commons/Flickr
+- Date: 2014-06-22; URL: https://commons.wikimedia.org/wiki/File:Juvenile_Eurasian_Pygmy_Owl_(Glaucidium_passerinum),_Eastern_Belgium_(14444712289).jpg
+- Accessed: 2026-11-07; type: identified real-bird photograph, CC BY 2.0; verified file page
+- Stage: labelled juvenile; exact age/sex unknown
+- Valuable information: reliable visual cross-check for overall soft dark juvenile contour and branch-supported posture.
+- Limits: no measured age, sex, flight history or iris chronology; it cannot establish a daily developmental sequence. Used only as visual direction, not for exact-stage claims.
+- Confidence: medium for visible phenotype, low for developmental timing.

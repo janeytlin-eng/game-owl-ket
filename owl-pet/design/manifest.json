@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T01:05:27+08:00",
+  "updated": "2026-11-08T01:06:21+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29812,8 +29812,13 @@
         }
       ],
       "archive_note": "Initial and edited originals, transport master and all three role crops were opened. One center-bird-only edit compacted the older immature wing and tail without material adult/text/habitat drift. Exact age/sex, flight threshold, independence, feather sequence and sex-size direction remain unknown. First archive readback detected five truncated large blobs; a chunked base64 repair replaced them before verification.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "ac4db639345587401787f087792d35eaf1fa5fd9",
+      "fixed_commit": "ac4db639345587401787f087792d35eaf1fa5fd9",
+      "verified_at": "2026-11-08T01:06:21+08:00",
+      "exact_readback": true,
+      "verification_result": "Repair commit immutable tree returned all 18 required paths. Nine binary paths matched exact repaired Git blob SHAs and exact byte sizes; tree was not truncated. First archive truncation is retained in the run/audit trail and received no cycle credit."
     }
   ],
   "updated_at": "2026-11-08T00:48:04.086+08:00"

@@ -31309,14 +31309,33 @@
         }
       ],
       "next_cycle": 2,
-      "active_cycle": null,
+      "active_cycle": 2,
       "started_at": "2026-11-07T14:35:37+08:00",
-      "updated_at": "2026-11-07T14:48:36+08:00",
-      "current_stage": "LEDGER_CREDITED",
+      "updated_at": "2026-11-07T14:49:45+08:00",
+      "current_stage": "STARTED",
       "ledger_credit_pending": false,
-      "lease": null,
-      "in_progress": null,
-      "active": null,
+      "lease": {
+        "owner": "codex-root",
+        "run_id": "20261107T144945+0800-cycle-2",
+        "heartbeat_at": "2026-11-07T14:49:45+08:00",
+        "expires_at": "2026-11-07T15:04:45+08:00"
+      },
+      "in_progress": {
+        "cycle": 2,
+        "species": "Otus hartlaubi",
+        "species_id": 177,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "run_id": "20261107T144945+0800-cycle-2",
+        "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md"
+      },
+      "active": {
+        "cycle": 2,
+        "run_id": "20261107T144945+0800-cycle-2",
+        "species_id": 177,
+        "species": "Otus hartlaubi",
+        "stage": "STARTED"
+      },
       "stage_events": [
         {
           "cycle": 1,
@@ -31493,11 +31512,32 @@
             "revision_increment": 1,
             "scientifically_verified": false
           }
+        },
+        {
+          "cycle": 2,
+          "stage": "STARTED",
+          "at": "2026-11-07T14:49:45+08:00",
+          "run_id": "20261107T144945+0800-cycle-2",
+          "species_id": 177,
+          "species": "Otus hartlaubi",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md",
+            "baseline_main": "f75eaf8f0030d5a1787611f83d0a065dd4a984ac",
+            "selection_note": "#177 Otus hartlaubi has archived v1/v2 and no v3; v2 is PASS_WITH_LIMITATIONS and science=false",
+            "lease_expires_at": "2026-11-07T15:04:45+08:00",
+            "scientifically_verified": false
+          }
         }
       ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex-root",
+    "run_id": "20261107T144945+0800-cycle-2",
+    "heartbeat_at": "2026-11-07T14:49:45+08:00",
+    "expires_at": "2026-11-07T15:04:45+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -31631,7 +31671,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T14:48:36+08:00",
+  "updated_at": "2026-11-07T14:49:45+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -31640,8 +31680,13 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-11-07T14:48:36+08:00",
+  "active_lease": {
+    "owner": "codex-root",
+    "run_id": "20261107T144945+0800-cycle-2",
+    "heartbeat_at": "2026-11-07T14:49:45+08:00",
+    "expires_at": "2026-11-07T15:04:45+08:00"
+  },
+  "last_updated_at": "2026-11-07T14:49:45+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -32438,7 +32483,15 @@
       "credited": false
     }
   ],
-  "in_progress": null,
+  "in_progress": {
+    "cycle": 2,
+    "species": "Otus hartlaubi",
+    "species_id": 177,
+    "version": 3,
+    "action": "SCIENCE_REVISION",
+    "run_id": "20261107T144945+0800-cycle-2",
+    "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md"
+  },
   "previous_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 3,
@@ -37166,11 +37219,27 @@
         "revision_increment": 1,
         "scientifically_verified": false
       }
+    },
+    {
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-07T14:49:45+08:00",
+      "run_id": "20261107T144945+0800-cycle-2",
+      "species_id": 177,
+      "species": "Otus hartlaubi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md",
+        "baseline_main": "f75eaf8f0030d5a1787611f83d0a065dd4a984ac",
+        "selection_note": "#177 Otus hartlaubi has archived v1/v2 and no v3; v2 is PASS_WITH_LIMITATIONS and science=false",
+        "lease_expires_at": "2026-11-07T15:04:45+08:00",
+        "scientifically_verified": false
+      }
     }
   ],
   "active_batch_id": "20261107T143537+0800",
-  "active_cycle": null,
-  "current_stage": "LEDGER_CREDITED",
+  "active_cycle": 2,
+  "current_stage": "STARTED",
   "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251,
@@ -46974,6 +47043,22 @@
         "revision_increment": 1,
         "scientifically_verified": false
       }
+    },
+    {
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-07T14:49:45+08:00",
+      "run_id": "20261107T144945+0800-cycle-2",
+      "species_id": 177,
+      "species": "Otus hartlaubi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md",
+        "baseline_main": "f75eaf8f0030d5a1787611f83d0a065dd4a984ac",
+        "selection_note": "#177 Otus hartlaubi has archived v1/v2 and no v3; v2 is PASS_WITH_LIMITATIONS and science=false",
+        "lease_expires_at": "2026-11-07T15:04:45+08:00",
+        "scientifically_verified": false
+      }
     }
   ],
   "last_completed_batch_id": "20261107T140000+0800",
@@ -46997,14 +47082,33 @@
       }
     ],
     "next_cycle": 2,
-    "active_cycle": null,
+    "active_cycle": 2,
     "started_at": "2026-11-07T14:35:37+08:00",
-    "updated_at": "2026-11-07T14:48:36+08:00",
-    "current_stage": "LEDGER_CREDITED",
+    "updated_at": "2026-11-07T14:49:45+08:00",
+    "current_stage": "STARTED",
     "ledger_credit_pending": false,
-    "lease": null,
-    "in_progress": null,
-    "active": null,
+    "lease": {
+      "owner": "codex-root",
+      "run_id": "20261107T144945+0800-cycle-2",
+      "heartbeat_at": "2026-11-07T14:49:45+08:00",
+      "expires_at": "2026-11-07T15:04:45+08:00"
+    },
+    "in_progress": {
+      "cycle": 2,
+      "species": "Otus hartlaubi",
+      "species_id": 177,
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "run_id": "20261107T144945+0800-cycle-2",
+      "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md"
+    },
+    "active": {
+      "cycle": 2,
+      "run_id": "20261107T144945+0800-cycle-2",
+      "species_id": 177,
+      "species": "Otus hartlaubi",
+      "stage": "STARTED"
+    },
     "stage_events": [
       {
         "cycle": 1,
@@ -47179,6 +47283,22 @@
           "unique_species_count": 176,
           "total_species": 251,
           "revision_increment": 1,
+          "scientifically_verified": false
+        }
+      },
+      {
+        "cycle": 2,
+        "stage": "STARTED",
+        "at": "2026-11-07T14:49:45+08:00",
+        "run_id": "20261107T144945+0800-cycle-2",
+        "species_id": 177,
+        "species": "Otus hartlaubi",
+        "credited": false,
+        "evidence": {
+          "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md",
+          "baseline_main": "f75eaf8f0030d5a1787611f83d0a065dd4a984ac",
+          "selection_note": "#177 Otus hartlaubi has archived v1/v2 and no v3; v2 is PASS_WITH_LIMITATIONS and science=false",
+          "lease_expires_at": "2026-11-07T15:04:45+08:00",
           "scientifically_verified": false
         }
       }
@@ -53352,6 +53472,22 @@
         "revision_increment": 1,
         "scientifically_verified": false
       }
+    },
+    {
+      "cycle": 2,
+      "stage": "STARTED",
+      "at": "2026-11-07T14:49:45+08:00",
+      "run_id": "20261107T144945+0800-cycle-2",
+      "species_id": 177,
+      "species": "Otus hartlaubi",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md",
+        "baseline_main": "f75eaf8f0030d5a1787611f83d0a065dd4a984ac",
+        "selection_note": "#177 Otus hartlaubi has archived v1/v2 and no v3; v2 is PASS_WITH_LIMITATIONS and science=false",
+        "lease_expires_at": "2026-11-07T15:04:45+08:00",
+        "scientifically_verified": false
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -53371,118 +53507,14 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-07T14:48:36+08:00",
-  "stage": "LEDGER_CREDITED",
+  "updated": "2026-11-07T14:49:45+08:00",
+  "stage": "STARTED",
   "stage_evidence": {
-    "run_record": "owl-pet/production/runs/20261107T143537+0800-cycle-1.md",
-    "baseline_main": "5370298161945062caa06883044ac742efde1f75",
-    "selection_note": "#176 Otus pembaensis has verified v1/v2 and no v3; v2 is PASS_WITH_LIMITATIONS and science=false, so v3 is the next non-duplicating science revision",
-    "lease_expires_at": "2026-11-07T14:50:37+08:00",
-    "scientifically_verified": false,
-    "RESEARCH_READY": {
-      "research_record": "owl-pet/research/species/176-otus-pembaensis-v3.md",
-      "source_index": "owl-pet/research/SOURCE_INDEX.md",
-      "prompt_records": [
-        "owl-pet/design/PROMPTS_FULL.md",
-        "owl-pet/production/PROMPTS_FULL.md"
-      ],
-      "sources": {
-        "new_verified": 3,
-        "reused": 3,
-        "corrected": 1
-      },
-      "age_boundary": "age-unknown mesoptile; exact age/iris/flight chronology unknown",
-      "nest_boundary": "January survey found no breeding; no nest reconstruction",
-      "mikkola_access": "repository p.135 transcription reused; uploaded volume unavailable this execution",
-      "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T14:51:39+08:00"
-    },
-    "IMAGE_GENERATED": {
-      "generated_path": "owl-pet/production/generated/176-otus-pembaensis-v3-generated-master.png",
-      "generated_blob": "c7dbbc258e1e024d8de5d6b8546e93f5c2ed1d79",
-      "full_color_sha256": "13823eae6e6df92b1b7e413a2717856b2417bb630d5014acc9fa5cc9daab548f",
-      "full_color_bytes": 2707157,
-      "transport_sha256": "4ea444d180246ebb6553039f2ed12015165c4d9a4a01cd63d6c1acb6e42db690",
-      "transport_bytes": 657635,
-      "width": 1536,
-      "height": 1024,
-      "preliminary_inspection": "edited once after direct view: adult male reduced to near-equal scale with female; mesoptile wing softened and shortened; exact title/name/count/order/labels, adult yellow eyes, dark-eyed supported young and all six feet pass; no nest/eggs",
-      "edit_count": 1,
-      "edit_reason": "first output exaggerated male size and gave the mesoptile an overly mature exposed wing",
-      "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T14:56:56+08:00"
-    },
-    "REVIEWED": {
-      "reviewed_path": "owl-pet/production/reviewed/176-otus-pembaensis-v3-reviewed-master.png",
-      "reviewed_blob": "c7dbbc258e1e024d8de5d6b8546e93f5c2ed1d79",
-      "edit_count": 1,
-      "review_record": "owl-pet/research/reviews/176-otus-pembaensis-v3-review.md",
-      "review_crops": [
-        "owl-pet/production/review-crops/176-otus-pembaensis-v3-adults.png",
-        "owl-pet/production/review-crops/176-otus-pembaensis-v3-mesoptile.png"
-      ],
-      "crop_blobs": [
-        "ceefb58c694545a349d383c106796014dbd0cf5f",
-        "43017617977632508eb5c5422bfe1df1b5489b42"
-      ],
-      "reinspection": "full-colour plate, adult crop, mesoptile crop and 32-colour transport opened after edit; near-equal adults, subtly longer male folded wing, pale dark-eyed soft-winged supported mesoptile and no nest passed",
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T14:57:44+08:00"
-    },
-    "ARCHIVED": {
-      "concept_path": "owl-pet/design/concepts/176-otus-pembaensis-v3.png",
-      "concept_blob": "c7dbbc258e1e024d8de5d6b8546e93f5c2ed1d79",
-      "concept_sha256": "4ea444d180246ebb6553039f2ed12015165c4d9a4a01cd63d6c1acb6e42db690",
-      "concept_bytes": 657635,
-      "binary_paths": 5,
-      "manifest_counts": {
-        "design_image": 777,
-        "design_legacy": 778,
-        "production": 768
-      },
-      "unique_species_count": 176,
-      "total_species": 251,
-      "unique_species_increment": 0,
-      "revision_increment": 1,
-      "full_color_source_sha256": "13823eae6e6df92b1b7e413a2717856b2417bb630d5014acc9fa5cc9daab548f",
-      "full_color_source_bytes": 2707157,
-      "review_result": "PASS_WITH_LIMITATIONS",
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "scientifically_verified": false,
-      "lease_expires_at": "2026-11-07T15:00:19+08:00"
-    },
-    "VERIFIED": {
-      "archive_commit": "56be53f3a60c78ad04a9cc3a37eee235d2e8b671",
-      "archive_tree": "1236907a8460bdd7c690cc1b58e51ba9b55aa7c7",
-      "required_paths": 17,
-      "exact_binary_paths": 5,
-      "tree_entries": 3836,
-      "tree_truncated": false,
-      "manifest_counts": {
-        "design_image": 777,
-        "design_legacy": 778,
-        "production": 768
-      },
-      "concept_blob": "c7dbbc258e1e024d8de5d6b8546e93f5c2ed1d79",
-      "concept_path_accessible": true,
-      "connector_full_binary_stream_readback": true,
-      "verification_result": "PASS_WITH_LIMITATIONS",
-      "scientifically_verified": false,
-      "ledger_credit_pending": true,
-      "lease_expires_at": "2026-11-07T15:02:44+08:00"
-    },
-    "LEDGER_CREDITED": {
-      "verification_commit": "c6d0e3a4d613c54155a55b4592716305d6b82630",
-      "verification_tree": "42a50018f86f69d86b9dca72733e157225209364",
-      "archive_commit": "56be53f3a60c78ad04a9cc3a37eee235d2e8b671",
-      "archive_tree": "1236907a8460bdd7c690cc1b58e51ba9b55aa7c7",
-      "batch_progress": "1/6",
-      "next_cycle": 2,
-      "unique_species_count": 176,
-      "total_species": 251,
-      "revision_increment": 1,
+    "STARTED": {
+      "run_record": "owl-pet/production/runs/20261107T144945+0800-cycle-2.md",
+      "baseline_main": "f75eaf8f0030d5a1787611f83d0a065dd4a984ac",
+      "selection_note": "#177 Otus hartlaubi has archived v1/v2 and no v3; v2 is PASS_WITH_LIMITATIONS and science=false",
+      "lease_expires_at": "2026-11-07T15:04:45+08:00",
       "scientifically_verified": false
     }
   },
@@ -53494,6 +53526,6 @@
     "ARCHIVED": "2026-11-07T14:45:19+08:00",
     "VERIFIED": "2026-11-07T14:47:44+08:00",
     "LEDGER_CREDITED": "2026-11-07T14:48:36+08:00",
-    "STARTED": "2026-11-07T14:35:37+08:00"
+    "STARTED": "2026-11-07T14:49:45+08:00"
   }
 }

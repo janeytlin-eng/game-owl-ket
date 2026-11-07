@@ -3778,3 +3778,7 @@ Initial archive commit `f12e5669` failed immutable size checks because the conne
 
 ### 2026-11-07 09:54 +08:00 — #161 corrected archive VERIFIED
 Accepted immutable archive `02518c3e` / tree `0906afc6`: non-truncated 3,719-entry tree; 19/19 required paths and six exact binary blob/size tuples; manifests 763/764/754. Result PASS_WITH_LIMITATIONS, science false; ledger credit pending.
+
+
+### 2026-11-07 09:57 +08:00 — #161 cycle 5 LEDGER_CREDITED
+Verification commit `ff05129f`; accepted archive `02518c3e`; science revision +1, unique +0. Batch `20261107T062903+0800` is now 5/6, next cycle 6; unique species 176/251; science false. Lease released.

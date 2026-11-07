@@ -27665,38 +27665,43 @@
           "archive_commit": "379fc1852b23ff86732a8bb32fd959be9bcfd7fe",
           "run_record": "owl-pet/production/runs/20261107T070200+0800-cycle-3.md",
           "scientifically_verified": false
+        },
+        {
+          "cycle": 4,
+          "species": "Tyto inexspectata",
+          "species_id": 160,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "e44fb4425e676ebd14692fa02c3d5037b8f8760a",
+          "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
+          "run_record": "owl-pet/production/runs/20261107T080000+0800-cycle-4.md",
+          "scientifically_verified": false
+        },
+        {
+          "cycle": 5,
+          "species": "Ketupa blakistoni",
+          "species_id": 161,
+          "version": 3,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "ff05129f16c422fd95159a07947ba352399f14db",
+          "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
+          "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md",
+          "scientifically_verified": false
         }
       ],
-      "next_cycle": 4,
-      "active_cycle": 4,
+      "next_cycle": 6,
+      "active_cycle": null,
       "started_at": "2026-11-07T06:29:03+08:00",
-      "updated_at": "2026-11-07T08:20:00+08:00",
-      "current_stage": "ARCHIVED",
+      "updated_at": "2026-11-07T09:57:00+08:00",
+      "current_stage": "LEDGER_CREDITED",
       "ledger_credit_pending": false,
-      "lease": {
-        "owner": "codex",
-        "run_id": "20261107T080000+0800-cycle-4",
-        "heartbeat_at": "2026-11-07T08:20:00+08:00",
-        "expires_at": "2026-11-07T08:35:00+08:00"
-      },
-      "in_progress": {
-        "cycle": 4,
-        "species_id": 160,
-        "species": "Tyto inexspectata",
-        "version": 3,
-        "stage": "ARCHIVED",
-        "run_id": "20261107T080000+0800-cycle-4",
-        "run_record": "owl-pet/production/runs/20261107T080000+0800-cycle-4.md"
-      },
-      "active": {
-        "cycle": 4,
-        "species_id": 160,
-        "species": "Tyto inexspectata",
-        "version": 3,
-        "stage": "ARCHIVED",
-        "run_id": "20261107T080000+0800-cycle-4",
-        "run_record": "owl-pet/production/runs/20261107T080000+0800-cycle-4.md"
-      },
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -28124,98 +28129,176 @@
         },
         {
           "cycle": 4,
-          "stage": "RESEARCH_READY",
-          "at": "2026-11-07T08:06:30+08:00",
+          "stage": "LEASE_RENEWED",
+          "at": "2026-11-07T09:26:00+08:00",
           "run_id": "20261107T080000+0800-cycle-4",
           "species_id": 160,
           "species": "Tyto inexspectata",
           "credited": false,
           "evidence": {
-            "research_file": "owl-pet/research/species/160-tyto-inexspectata-v3.md",
-            "source_index": "owl-pet/research/SOURCE_INDEX.md",
-            "new_sources": 3,
-            "reused_sources": 6,
-            "unverified_leads": 1,
-            "mikkola_upload_accessible": false,
-            "design_boundary": "near-equal adults; compact warm-rufous Minahasa form; disputed juvenile record means age-unknown older-young inference with short down-soft wing and support",
-            "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
-            "scientifically_verified": false,
-            "lease_expires_at": "2026-11-07T08:21:30+08:00"
+            "previous_lease_expired_at": "2026-11-07T08:35:00+08:00",
+            "resume_from": "ARCHIVED",
+            "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
+            "baseline_main": "beff61214ecd9048a35513d6b8761a887a3e0612",
+            "lease_expires_at": "2026-11-07T09:41:00+08:00",
+            "no_later_commit_confirmed": true
           }
         },
         {
           "cycle": 4,
-          "stage": "IMAGE_GENERATED",
-          "at": "2026-11-07T08:10:00+08:00",
+          "stage": "VERIFIED",
+          "at": "2026-11-07T09:29:00+08:00",
           "run_id": "20261107T080000+0800-cycle-4",
           "species_id": 160,
           "species": "Tyto inexspectata",
           "credited": false,
           "evidence": {
-            "generated_path": "owl-pet/production/generated/160-tyto-inexspectata-v3-generated-master.png",
-            "image_blob": "dffa5b1afc52dfcdebe2dd6ed5e80a6a9896901e",
-            "width": 1536,
-            "height": 1024,
-            "bytes": 742919,
-            "sha256": "b5d4f08d893d87bf28342b568619b8ee8b5fab7f64f52d6a749827a3f54f77d1",
-            "full_colour_local_sha256": "4c7e1a45051ab4a308a70c5b5cdee147b425b6a498d292851b21add3845f9f6b",
-            "transport_derivative": "full-resolution 96-colour no-dither indexed PNG; viewed; not bit-identical to full-colour source",
-            "preliminary_inspection": "exact title/name/count/labels; adults near-equal with dark eyes and supported feet; older-young down-soft face/body, short rounded wing, concealed tail and two-foot support",
-            "edit_required": false,
-            "scientifically_verified": false,
-            "lease_expires_at": "2026-11-07T08:25:00+08:00"
-          }
-        },
-        {
-          "cycle": 4,
-          "stage": "REVIEWED",
-          "at": "2026-11-07T08:16:00+08:00",
-          "run_id": "20261107T080000+0800-cycle-4",
-          "species_id": 160,
-          "species": "Tyto inexspectata",
-          "credited": false,
-          "evidence": {
-            "reviewed_path": "owl-pet/production/reviewed/160-tyto-inexspectata-v3-reviewed-master.png",
-            "reviewed_blob": "6b39f912b71c4ef8d4547370d72fb6895b36195d",
-            "edit_path": "owl-pet/production/generated/160-tyto-inexspectata-v3-edit1.png",
-            "edit_blob": "6b39f912b71c4ef8d4547370d72fb6895b36195d",
-            "edit_count": 1,
-            "review_record": "owl-pet/research/reviews/160-tyto-inexspectata-v3-review.md",
-            "review_crops": [
-              "owl-pet/production/review-crops/160-tyto-inexspectata-v3-older-young.png",
-              "owl-pet/production/review-crops/160-tyto-inexspectata-v3-adults-support.png"
-            ],
-            "crop_blobs": [
-              "0a636e78998619a7699e09f772af753a34e3a6f6",
-              "797a4a1ef1a49383a9f25b62075ede0a42b5d410"
-            ],
-            "reinspection": "edited full plate plus juvenile and adult/support crops opened; juvenile wing short/down-veiled/tail concealed/two feet supported; adults, exact text/count and supports preserved",
-            "review_result": "PASS_WITH_LIMITATIONS",
-            "scientifically_verified": false,
-            "lease_expires_at": "2026-11-07T08:31:00+08:00"
-          }
-        },
-        {
-          "cycle": 4,
-          "stage": "ARCHIVED",
-          "at": "2026-11-07T08:20:00+08:00",
-          "run_id": "20261107T080000+0800-cycle-4",
-          "species_id": 160,
-          "species": "Tyto inexspectata",
-          "credited": false,
-          "evidence": {
-            "concept": "owl-pet/design/concepts/160-tyto-inexspectata-v3.png",
-            "concept_blob": "6b39f912b71c4ef8d4547370d72fb6895b36195d",
-            "generated": "owl-pet/production/generated/160-tyto-inexspectata-v3-generated-master.png",
-            "reviewed": "owl-pet/production/reviewed/160-tyto-inexspectata-v3-reviewed-master.png",
-            "review_crops": [
-              "owl-pet/production/review-crops/160-tyto-inexspectata-v3-older-young.png",
-              "owl-pet/production/review-crops/160-tyto-inexspectata-v3-adults-support.png"
-            ],
+            "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
+            "archive_tree": "ec68397afe48ef6604e58a6689a07d4cd1adc46a",
+            "required_paths": 17,
+            "exact_binary_paths": 6,
+            "tree_entries": 3710,
+            "tree_truncated": false,
             "manifest_counts": {
               "design_image": 762,
               "design_legacy": 763,
               "production": 753
+            },
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T09:44:00+08:00"
+          }
+        },
+        {
+          "cycle": 4,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T09:31:00+08:00",
+          "run_id": "20261107T080000+0800-cycle-4",
+          "species_id": 160,
+          "species": "Tyto inexspectata",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "e44fb4425e676ebd14692fa02c3d5037b8f8760a",
+            "verification_tree": "a6959ef608fc88e39b6bcb161e7508d4c230db4d",
+            "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
+            "archive_tree": "ec68397afe48ef6604e58a6689a07d4cd1adc46a",
+            "batch_progress": "4/6",
+            "next_cycle": 5,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "STARTED",
+          "at": "2026-11-07T09:33:00+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md",
+            "baseline_main": "e724a644cc44c3689ce82b4af76db5d17d4e0502",
+            "selection_note": "#160 cycle 4 credited; #161 has archived v1/v2 but no v3 and is the next unresolved numbered science revision",
+            "lease_expires_at": "2026-11-07T09:48:00+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T09:38:00+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": false,
+          "evidence": {
+            "research_file": "owl-pet/research/species/161-ketupa-blakistoni-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_sources": 3,
+            "reused_sources": 4,
+            "unverified_leads": 0,
+            "mikkola_upload_accessible": false,
+            "design_boundary": "Hokkaido sensu-stricto adults near equal; female subtly fuller; no continental doerriesi white nape/near-white tail; supported ~50-day cavity nestling with short down-soft wing and hidden tail",
+            "full_prompt_path": "owl-pet/production/PROMPTS_FULL.md",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T09:53:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-07T09:38:30+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": false,
+          "evidence": {
+            "generated_path": "owl-pet/production/generated/161-ketupa-blakistoni-v3-generated-master.png",
+            "image_blob": "605ed87482354ae069dfe1dd893d5939503da105",
+            "width": 1536,
+            "height": 1024,
+            "bytes": 3422680,
+            "sha256": "4ffa10313d85f8ff35303d6840422d93304895552a1a68977d2e3c1f15a48c4a",
+            "preliminary_inspection": "exact title/name/count/labels; adults near-equal with Hokkaido riverine support; all feet supported; juvenile fully supported but first render concealed nearly all wing development, so targeted edit required",
+            "edit_required": true,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T09:53:30+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T09:41:30+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/161-ketupa-blakistoni-v3-reviewed-master.png",
+            "reviewed_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
+            "edit_path": "owl-pet/production/generated/161-ketupa-blakistoni-v3-edit1.png",
+            "edit_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
+            "edit_count": 1,
+            "review_record": "owl-pet/research/reviews/161-ketupa-blakistoni-v3-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-late-nestling.png",
+              "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-adults-support.png"
+            ],
+            "crop_blobs": [
+              "f876688c58f156423ed2be4850f91cbaf4b3060c",
+              "802f9b64556812d4c09b20c217aa724f0054d864"
+            ],
+            "reinspection": "edited full plate plus juvenile and adult/support crops opened; juvenile wings now short/down-soft/non-flight, tail hidden and belly/two feet supported; adult identity, exact text/count and supports preserved",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T09:56:30+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T09:45:00+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/161-ketupa-blakistoni-v3.png",
+            "concept_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
+            "generated": "owl-pet/production/generated/161-ketupa-blakistoni-v3-generated-master.png",
+            "reviewed": "owl-pet/production/reviewed/161-ketupa-blakistoni-v3-reviewed-master.png",
+            "review_crops": [
+              "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-late-nestling.png",
+              "owl-pet/production/review-crops/161-ketupa-blakistoni-v3-adults-support.png"
+            ],
+            "manifest_counts": {
+              "design_image": 763,
+              "design_legacy": 764,
+              "production": 754
             },
             "unique_species_count": 176,
             "total_species": 251,
@@ -28223,18 +28306,86 @@
             "revision_increment": 1,
             "scientifically_verified": false,
             "readback_pending": true,
-            "lease_expires_at": "2026-11-07T08:35:00+08:00"
+            "lease_expires_at": "2026-11-07T10:00:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "ARCHIVE_CORRECTED",
+          "at": "2026-11-07T09:50:00+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": false,
+          "evidence": {
+            "failed_archive_commit": "f12e5669239be06ad33530c5f66cb1fa21bf7927",
+            "failure": "all >786KB PNG writes truncated to connector ceiling; detected by immutable tree sizes before credit",
+            "replacement_blobs": {
+              "generated": "96497132d9135dbad48a37eff4c2cbbb33c5b425",
+              "concept_edit_reviewed": "462dd4e19dc581c931084223b45ba06bfcab22ca",
+              "juvenile_crop": "476181a0230253bfd8f23f47997d526402dcf648",
+              "adults_crop": "c242c32bf86978e8b6f125db57c5a1bc68ccdc9d"
+            },
+            "replacement_sizes": {
+              "generated": 756513,
+              "concept_edit_reviewed": 715220,
+              "juvenile_crop": 256176,
+              "adults_crop": 754643
+            },
+            "transport_derivatives_opened": true,
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T10:05:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T09:54:00+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
+            "archive_tree": "0906afc68af348255bd64682e51e90a9939823c5",
+            "rejected_truncated_archive": "f12e5669239be06ad33530c5f66cb1fa21bf7927",
+            "required_paths": 19,
+            "exact_binary_paths": 6,
+            "manifest_counts": {
+              "design_image": 763,
+              "design_legacy": 764,
+              "production": 754
+            },
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T10:09:00+08:00"
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "LEDGER_CREDITED",
+          "at": "2026-11-07T09:57:00+08:00",
+          "run_id": "20261107T093300+0800-cycle-5",
+          "species_id": 161,
+          "species": "Ketupa blakistoni",
+          "credited": true,
+          "evidence": {
+            "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
+            "verification_tree": "9810f8aaa2f2e8b9a62f10cf16ab72c89914151f",
+            "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
+            "batch_progress": "5/6",
+            "next_cycle": 6,
+            "unique_species_count": 176,
+            "total_species": 251,
+            "revision_increment": 1,
+            "scientifically_verified": false
           }
         }
       ]
     }
   ],
-  "lease": {
-    "owner": "codex",
-    "run_id": "20261107T093300+0800-cycle-5",
-    "heartbeat_at": "2026-11-07T09:54:00+08:00",
-    "expires_at": "2026-11-07T10:09:00+08:00"
-  },
+  "lease": null,
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -28368,7 +28519,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T09:54:00+08:00",
+  "updated_at": "2026-11-07T09:57:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -28377,13 +28528,8 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": {
-    "owner": "codex",
-    "run_id": "20261107T093300+0800-cycle-5",
-    "heartbeat_at": "2026-11-07T09:54:00+08:00",
-    "expires_at": "2026-11-07T10:09:00+08:00"
-  },
-  "last_updated_at": "2026-11-07T09:54:00+08:00",
+  "active_lease": null,
+  "last_updated_at": "2026-11-07T09:57:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -28650,7 +28796,8 @@
     "2026-10-31T10:19:00+08:00: #100 v4 first render persisted 159d152d3d596eb942bce4303386b4b0ba032e3c/3169613B; edit required.",
     "2026-10-31T10:23:00+08:00: #100 v4 REVIEWED master 7a2ba27f65953dc5830825328de7d3bdb8553a3d/3096893B crop 19e920195f255c4eb6a348ad3915f9954e307cce/743716B; edit1.",
     "2026-10-31T10:26:00+08:00: #100 v4 ARCHIVED; fixed readback pending.",
-    "2026-10-31T10:29:00+08:00: #100 v4 verified; batch3/6 next4."
+    "2026-10-31T10:29:00+08:00: #100 v4 verified; batch3/6 next4.",
+    "2026-11-07T09:57:00+08:00: cycle5 #161 Ketupa blakistoni v3 VERIFIED after one juvenile-wing edit and one pre-credit binary-transfer correction. Rejected truncated archive f12e5669; accepted archive 02518c3e, verification ff05129f. Manifests 763/764/754; unique176/251; batch5/6 next6; science false."
   ],
   "audit_trail": [
     {
@@ -29179,15 +29326,7 @@
       "credited": false
     }
   ],
-  "in_progress": {
-    "cycle": 5,
-    "species_id": 161,
-    "species": "Ketupa blakistoni",
-    "version": 3,
-    "stage": "VERIFIED",
-    "run_id": "20261107T093300+0800-cycle-5",
-    "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md"
-  },
+  "in_progress": null,
   "previous_checkpoint": {
     "batch_id": "20261106T123716+0800",
     "cycle": 3,
@@ -29199,9 +29338,10 @@
   "last_checkpoint": {
     "batch_id": "20261107T062903+0800",
     "cycle": 5,
-    "stage": "VERIFIED",
-    "at": "2026-11-07T09:54:00+08:00",
+    "stage": "LEDGER_CREDITED",
+    "at": "2026-11-07T09:57:00+08:00",
     "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md",
+    "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
     "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8"
   },
   "history": [
@@ -30481,7 +30621,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T09:54:00+08:00",
+  "last_updated": "2026-11-07T09:57:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -33744,9 +33884,9 @@
     }
   ],
   "active_batch_id": "20261107T062903+0800",
-  "active_cycle": 5,
-  "current_stage": "VERIFIED",
-  "next_cycle": 5,
+  "active_cycle": null,
+  "current_stage": "LEDGER_CREDITED",
+  "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
   "stage_events": [
@@ -42081,6 +42221,26 @@
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T10:09:00+08:00"
       }
+    },
+    {
+      "cycle": 5,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T09:57:00+08:00",
+      "run_id": "20261107T093300+0800-cycle-5",
+      "species_id": 161,
+      "species": "Ketupa blakistoni",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
+        "verification_tree": "9810f8aaa2f2e8b9a62f10cf16ab72c89914151f",
+        "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
+        "batch_progress": "5/6",
+        "next_cycle": 6,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
+      }
     }
   ],
   "last_completed_batch_id": "20261107T043300+0800",
@@ -42140,38 +42300,30 @@
         "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
         "run_record": "owl-pet/production/runs/20261107T080000+0800-cycle-4.md",
         "scientifically_verified": false
+      },
+      {
+        "cycle": 5,
+        "species": "Ketupa blakistoni",
+        "species_id": 161,
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "unique_species_increment": 0,
+        "revision_increment": 1,
+        "commit_sha": "ff05129f16c422fd95159a07947ba352399f14db",
+        "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
+        "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md",
+        "scientifically_verified": false
       }
     ],
-    "next_cycle": 5,
-    "active_cycle": 5,
+    "next_cycle": 6,
+    "active_cycle": null,
     "started_at": "2026-11-07T06:29:03+08:00",
-    "updated_at": "2026-11-07T09:54:00+08:00",
-    "current_stage": "VERIFIED",
-    "ledger_credit_pending": true,
-    "lease": {
-      "owner": "codex",
-      "run_id": "20261107T093300+0800-cycle-5",
-      "heartbeat_at": "2026-11-07T09:54:00+08:00",
-      "expires_at": "2026-11-07T10:09:00+08:00"
-    },
-    "in_progress": {
-      "cycle": 5,
-      "species_id": 161,
-      "species": "Ketupa blakistoni",
-      "version": 3,
-      "stage": "VERIFIED",
-      "run_id": "20261107T093300+0800-cycle-5",
-      "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md"
-    },
-    "active": {
-      "cycle": 5,
-      "species_id": 161,
-      "species": "Ketupa blakistoni",
-      "version": 3,
-      "stage": "VERIFIED",
-      "run_id": "20261107T093300+0800-cycle-5",
-      "run_record": "owl-pet/production/runs/20261107T093300+0800-cycle-5.md"
-    },
+    "updated_at": "2026-11-07T09:57:00+08:00",
+    "current_stage": "LEDGER_CREDITED",
+    "ledger_credit_pending": false,
+    "lease": null,
+    "in_progress": null,
+    "active": null,
     "stage_events": [
       {
         "cycle": 1,
@@ -42830,6 +42982,26 @@
           "scientifically_verified": false,
           "ledger_credit_pending": true,
           "lease_expires_at": "2026-11-07T10:09:00+08:00"
+        }
+      },
+      {
+        "cycle": 5,
+        "stage": "LEDGER_CREDITED",
+        "at": "2026-11-07T09:57:00+08:00",
+        "run_id": "20261107T093300+0800-cycle-5",
+        "species_id": 161,
+        "species": "Ketupa blakistoni",
+        "credited": true,
+        "evidence": {
+          "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
+          "verification_tree": "9810f8aaa2f2e8b9a62f10cf16ab72c89914151f",
+          "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
+          "batch_progress": "5/6",
+          "next_cycle": 6,
+          "unique_species_count": 176,
+          "total_species": 251,
+          "revision_increment": 1,
+          "scientifically_verified": false
         }
       }
     ]
@@ -47587,25 +47759,20 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
-  "last_verified_commit": "e44fb4425e676ebd14692fa02c3d5037b8f8760a",
-  "completed_cycles": 4,
-  "updated": "2026-11-07T09:54:00+08:00",
-  "stage": "VERIFIED",
+  "ledger_credit_pending": false,
+  "last_verified_commit": "ff05129f16c422fd95159a07947ba352399f14db",
+  "completed_cycles": 5,
+  "updated": "2026-11-07T09:57:00+08:00",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
+    "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
+    "verification_tree": "9810f8aaa2f2e8b9a62f10cf16ab72c89914151f",
     "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
-    "archive_tree": "0906afc68af348255bd64682e51e90a9939823c5",
-    "rejected_truncated_archive": "f12e5669239be06ad33530c5f66cb1fa21bf7927",
-    "required_paths": 19,
-    "exact_binary_paths": 6,
-    "manifest_counts": {
-      "design_image": 763,
-      "design_legacy": 764,
-      "production": 754
-    },
-    "verification_result": "PASS_WITH_LIMITATIONS",
-    "scientifically_verified": false,
-    "ledger_credit_pending": true,
-    "lease_expires_at": "2026-11-07T10:09:00+08:00"
+    "batch_progress": "5/6",
+    "next_cycle": 6,
+    "unique_species_count": 176,
+    "total_species": 251,
+    "revision_increment": 1,
+    "scientifically_verified": false
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T09:54:00+08:00",
+  "updated": "2026-11-07T09:57:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27107,14 +27107,14 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Exact individual flight ability at about 50 days, continuous feather chronology, universal sex-size ratio and individual plumage map remain unknown; current taxonomy treatment may differ among authorities; Mikkola upload unavailable.",
       "archive_encoding": "full-resolution PNG8 transport derivatives; generated 64-colour no-dither, reviewed/edit/concept 64-colour no-dither, juvenile crop 96-colour no-dither, adult/support crop 96-colour no-dither; full-colour local SHA-256 retained in run record",
       "archive_correction": "Initial archive commit f12e5669239be06ad33530c5f66cb1fa21bf7927 exposed connector truncation at ~786444 bytes; every affected binary path is replaced in the correction commit before verification/credit.",
       "archive_commit": "02518c3e98683088b119e7df9f9d3491f05249f8",
       "archive_tree": "0906afc68af348255bd64682e51e90a9939823c5",
       "verified_at": "2026-11-07T09:54:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable corrected archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 19,
@@ -27129,7 +27129,10 @@
         },
         "initial_truncated_archive_rejected": "f12e5669239be06ad33530c5f66cb1fa21bf7927",
         "connector_full_binary_stream_readback": false
-      }
+      },
+      "verification_commit": "ff05129f16c422fd95159a07947ba352399f14db",
+      "verification_tree": "9810f8aaa2f2e8b9a62f10cf16ab72c89914151f",
+      "ledger_credited_at": "2026-11-07T09:57:00+08:00"
     }
   ],
   "updated_at": "2026-11-07T09:54:00+08:00"

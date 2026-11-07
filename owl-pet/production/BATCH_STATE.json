@@ -28598,21 +28598,21 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T12:38:00+08:00",
-      "current_stage": "ARCHIVED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-07T12:43:00+08:00",
+      "current_stage": "VERIFIED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T120200+0800-cycle-4",
-        "heartbeat_at": "2026-11-07T12:38:00+08:00",
-        "expires_at": "2026-11-07T12:53:00+08:00"
+        "heartbeat_at": "2026-11-07T12:43:00+08:00",
+        "expires_at": "2026-11-07T12:58:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
         "species_id": 166,
         "species": "Bubo cinerascens",
         "version": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261107T120200+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261107T120200+0800-cycle-4.md"
       },
@@ -28621,7 +28621,7 @@
         "species_id": 166,
         "species": "Bubo cinerascens",
         "version": 3,
-        "stage": "ARCHIVED",
+        "stage": "VERIFIED",
         "run_id": "20261107T120200+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261107T120200+0800-cycle-4.md"
       },
@@ -29238,6 +29238,32 @@
             "readback_pending": true,
             "lease_expires_at": "2026-11-07T12:53:00+08:00"
           }
+        },
+        {
+          "cycle": 4,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T12:43:00+08:00",
+          "run_id": "20261107T120200+0800-cycle-4",
+          "species_id": 166,
+          "species": "Bubo cinerascens",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
+            "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
+            "required_paths": 16,
+            "exact_binary_paths": 5,
+            "tree_entries": 3760,
+            "tree_truncated": false,
+            "manifest_counts": {
+              "design_image": 768,
+              "design_legacy": 769,
+              "production": 759
+            },
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T12:58:00+08:00"
+          }
         }
       ]
     }
@@ -29245,8 +29271,8 @@
   "lease": {
     "owner": "codex",
     "run_id": "20261107T120200+0800-cycle-4",
-    "heartbeat_at": "2026-11-07T12:38:00+08:00",
-    "expires_at": "2026-11-07T12:53:00+08:00"
+    "heartbeat_at": "2026-11-07T12:43:00+08:00",
+    "expires_at": "2026-11-07T12:58:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -29381,7 +29407,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T12:38:00+08:00",
+  "updated_at": "2026-11-07T12:43:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -29393,10 +29419,10 @@
   "active_lease": {
     "owner": "codex",
     "run_id": "20261107T120200+0800-cycle-4",
-    "heartbeat_at": "2026-11-07T12:38:00+08:00",
-    "expires_at": "2026-11-07T12:53:00+08:00"
+    "heartbeat_at": "2026-11-07T12:43:00+08:00",
+    "expires_at": "2026-11-07T12:58:00+08:00"
   },
-  "last_updated_at": "2026-11-07T12:38:00+08:00",
+  "last_updated_at": "2026-11-07T12:43:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -30198,7 +30224,7 @@
     "species_id": 166,
     "species": "Bubo cinerascens",
     "version": 3,
-    "stage": "ARCHIVED",
+    "stage": "VERIFIED",
     "run_id": "20261107T120200+0800-cycle-4",
     "run_record": "owl-pet/production/runs/20261107T120200+0800-cycle-4.md"
   },
@@ -31494,7 +31520,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T12:38:00+08:00",
+  "last_updated": "2026-11-07T12:43:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -34758,7 +34784,7 @@
   ],
   "active_batch_id": "20261107T103800+0800",
   "active_cycle": 4,
-  "current_stage": "ARCHIVED",
+  "current_stage": "VERIFIED",
   "next_cycle": 4,
   "unique_species_count": 176,
   "total_species": 251,
@@ -43418,6 +43444,32 @@
         "readback_pending": true,
         "lease_expires_at": "2026-11-07T12:53:00+08:00"
       }
+    },
+    {
+      "cycle": 4,
+      "stage": "VERIFIED",
+      "at": "2026-11-07T12:43:00+08:00",
+      "run_id": "20261107T120200+0800-cycle-4",
+      "species_id": 166,
+      "species": "Bubo cinerascens",
+      "credited": false,
+      "evidence": {
+        "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
+        "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
+        "required_paths": 16,
+        "exact_binary_paths": 5,
+        "tree_entries": 3760,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 768,
+          "design_legacy": 769,
+          "production": 759
+        },
+        "verification_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "ledger_credit_pending": true,
+        "lease_expires_at": "2026-11-07T12:58:00+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261107T062903+0800",
@@ -43457,21 +43509,21 @@
     "next_cycle": 4,
     "active_cycle": 4,
     "started_at": "2026-11-07T10:38:00+08:00",
-    "updated_at": "2026-11-07T12:38:00+08:00",
-    "current_stage": "ARCHIVED",
-    "ledger_credit_pending": false,
+    "updated_at": "2026-11-07T12:43:00+08:00",
+    "current_stage": "VERIFIED",
+    "ledger_credit_pending": true,
     "lease": {
       "owner": "codex",
       "run_id": "20261107T120200+0800-cycle-4",
-      "heartbeat_at": "2026-11-07T12:38:00+08:00",
-      "expires_at": "2026-11-07T12:53:00+08:00"
+      "heartbeat_at": "2026-11-07T12:43:00+08:00",
+      "expires_at": "2026-11-07T12:58:00+08:00"
     },
     "in_progress": {
       "cycle": 4,
       "species_id": 166,
       "species": "Bubo cinerascens",
       "version": 3,
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "run_id": "20261107T120200+0800-cycle-4",
       "run_record": "owl-pet/production/runs/20261107T120200+0800-cycle-4.md"
     },
@@ -43480,7 +43532,7 @@
       "species_id": 166,
       "species": "Bubo cinerascens",
       "version": 3,
-      "stage": "ARCHIVED",
+      "stage": "VERIFIED",
       "run_id": "20261107T120200+0800-cycle-4",
       "run_record": "owl-pet/production/runs/20261107T120200+0800-cycle-4.md"
     },
@@ -44096,6 +44148,32 @@
           "scientifically_verified": false,
           "readback_pending": true,
           "lease_expires_at": "2026-11-07T12:53:00+08:00"
+        }
+      },
+      {
+        "cycle": 4,
+        "stage": "VERIFIED",
+        "at": "2026-11-07T12:43:00+08:00",
+        "run_id": "20261107T120200+0800-cycle-4",
+        "species_id": 166,
+        "species": "Bubo cinerascens",
+        "credited": false,
+        "evidence": {
+          "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
+          "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
+          "required_paths": 16,
+          "exact_binary_paths": 5,
+          "tree_entries": 3760,
+          "tree_truncated": false,
+          "manifest_counts": {
+            "design_image": 768,
+            "design_legacy": 769,
+            "production": 759
+          },
+          "verification_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "ledger_credit_pending": true,
+          "lease_expires_at": "2026-11-07T12:58:00+08:00"
         }
       }
     ]
@@ -49018,8 +49096,8 @@
       }
     }
   ],
-  "ledger_credit_pending": false,
-  "last_verified_commit": "98596a1e5a4a7112286d91c85f019b9d63987e61",
+  "ledger_credit_pending": true,
+  "last_verified_commit": "96dc218e4577359671454ede788b802eee4f9b35",
   "completed_cycles": [
     {
       "batch_id": "20261107T103800+0800",
@@ -49032,28 +49110,23 @@
       "run_record": "owl-pet/production/runs/20261107T113400+0800-cycle-3.md"
     }
   ],
-  "updated": "2026-11-07T12:38:00+08:00",
-  "stage": "ARCHIVED",
+  "updated": "2026-11-07T12:43:00+08:00",
+  "stage": "VERIFIED",
   "stage_evidence": {
-    "concept": "owl-pet/design/concepts/166-bubo-cinerascens-v3.png",
-    "concept_blob": "4cf25e25b1a3ba6459ca302c8310909dcc428840",
-    "generated": "owl-pet/production/generated/166-bubo-cinerascens-v3-generated-master.png",
-    "reviewed": "owl-pet/production/reviewed/166-bubo-cinerascens-v3-reviewed-master.png",
-    "review_crops": [
-      "owl-pet/production/review-crops/166-bubo-cinerascens-v3-adults.png",
-      "owl-pet/production/review-crops/166-bubo-cinerascens-v3-young.png"
-    ],
+    "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
+    "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
+    "required_paths": 16,
+    "exact_binary_paths": 5,
+    "tree_entries": 3760,
+    "tree_truncated": false,
     "manifest_counts": {
       "design_image": 768,
       "design_legacy": 769,
       "production": 759
     },
-    "unique_species_count": 176,
-    "total_species": 251,
-    "unique_species_increment": 0,
-    "revision_increment": 1,
+    "verification_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false,
-    "readback_pending": true,
-    "lease_expires_at": "2026-11-07T12:53:00+08:00"
+    "ledger_credit_pending": true,
+    "lease_expires_at": "2026-11-07T12:58:00+08:00"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T12:38:00+08:00",
+  "updated": "2026-11-07T12:43:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27503,13 +27503,31 @@
       "auxiliary_review_crop_blob": "de3e61403462f02efda3b7591cff3147971e0277",
       "auxiliary_review_crop_sha256": "700af5c5f38dd04da06fda11f2fc7d570f99e38805b2473948d0c1cbff033038",
       "auxiliary_review_crop_size_bytes": 443645,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact age within 35–43 days, sex of the young, iris ontogeny, first-flight timing, quantitative adult sex-size ratio and exact nest/tree geometry remain unknown; Mikkola upload unavailable this execution.",
-      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained; transport derivative and both crops actually opened after optimization."
+      "archive_encoding": "1536x1024 indexed PNG, 64-color no-dither; full-colour ImageGen source SHA retained; transport derivative and both crops actually opened after optimization.",
+      "archive_commit": "96dc218e4577359671454ede788b802eee4f9b35",
+      "archive_tree": "aa0f276da26c4657acad3ec7fc3976b999c37913",
+      "verified_at": "2026-11-07T12:43:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 16,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3760,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 768,
+          "design_legacy": 769,
+          "production": 759
+        },
+        "connector_full_binary_stream_readback": false
+      }
     }
   ],
-  "updated_at": "2026-11-07T12:38:00+08:00"
+  "updated_at": "2026-11-07T12:43:00+08:00"
 }

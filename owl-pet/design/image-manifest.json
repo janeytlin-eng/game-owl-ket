@@ -29342,10 +29342,13 @@
         }
       ],
       "archive_note": "Initial full image, edited full image, transport master and three crops were opened. One juvenile-only edit removed adult-style wing rows and long remiges. Historical v3 manifest omission was discovered and repaired without overwriting v3. Iris chronology and full juvenile nape view remain unknown. The 112-colour transport master was replaced by a visually re-opened 96-colour version (766,713 bytes) so its complete base64 stream stays below the connector readback ceiling; the 3,033,313-byte imagegen original remains archived unchanged.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "exact_readback": true,
+      "archive_commit": "ba60744e8901348c92d8f46dc5d69accdced4d83",
+      "verified_at": "2026-11-07T21:48:00+08:00",
+      "verification_result": "Eight readback-safe binary paths returned complete base64 streams with exact expected lengths and Git blob SHAs; two lossless imagegen originals returned exact path/blob SHAs but connector did not stream their >3 MB bodies. Historical v3 concept and research blob were recovered and read back by exact SHA."
     }
   ],
-  "updated_at": "2026-11-07T21:42:00+08:00"
+  "updated_at": "2026-11-07T21:48:00+08:00"
 }

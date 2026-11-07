@@ -36171,8 +36171,8 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-08T02:35:50+08:00",
-      "updated_at": "2026-11-08T03:30:36+08:00",
-      "current_stage": "RESEARCH_READY",
+      "updated_at": "2026-11-08T03:32:55+08:00",
+      "current_stage": "IMAGE_GENERATED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -36180,15 +36180,15 @@
         "batch_id": "20261108T023550+0800",
         "cycle": 3,
         "species_id": 40,
-        "heartbeat_at": "2026-11-08T03:30:36+08:00",
-        "expires_at": "2026-11-08T03:45:36+08:00"
+        "heartbeat_at": "2026-11-08T03:32:55+08:00",
+        "expires_at": "2026-11-08T03:47:55+08:00"
       },
       "in_progress": {
         "run_id": "20261108T032852+0800-cycle-3",
         "cycle": 3,
         "species_id": 40,
         "species": "Glaucidium nubicola",
-        "stage": "RESEARCH_READY",
+        "stage": "IMAGE_GENERATED",
         "run_record": "owl-pet/production/runs/20261108T032852+0800-cycle-3.md"
       },
       "active": {
@@ -36702,6 +36702,28 @@
             "lease_expires_at": "2026-11-08T03:45:36+08:00",
             "scientifically_verified": false
           }
+        },
+        {
+          "batch_id": "20261108T023550+0800",
+          "cycle": 3,
+          "stage": "IMAGE_GENERATED",
+          "at": "2026-11-08T03:32:55+08:00",
+          "run_id": "20261108T032852+0800-cycle-3",
+          "species_id": 40,
+          "species": "Glaucidium nubicola",
+          "credited": false,
+          "evidence": {
+            "initial_original": "owl-pet/production/generated/40-glaucidium-nubicola-v5-initial-original.png",
+            "initial_blob": "98a0faf60ae419f31ecf89e64f6435c329658455",
+            "initial_bytes": 3157252,
+            "initial_sha256": "0df36f45460b55c7b93bdd463e8b9b2a44c80670de85b973d1cd779aeacdfa81",
+            "geometry": "1536x1024",
+            "generation_seconds": 45.4,
+            "edit_required": true,
+            "preliminary_inspection": "Full generated plate and three cropped birds opened. Exact title, three exact labels, near-equal brown adults, adult male white-bordered nape false-eye, wet cloud-forest context and all-foot support pass. Juvenile is low, amber-eyed and naturally supported, but its folded wing is too long and retains pale adult-like feather edging; one targeted juvenile-wing edit is required before review.",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-08T03:47:55+08:00"
+          }
         }
       ]
     }
@@ -36712,8 +36734,8 @@
     "batch_id": "20261108T023550+0800",
     "cycle": 3,
     "species_id": 40,
-    "heartbeat_at": "2026-11-08T03:30:36+08:00",
-    "expires_at": "2026-11-08T03:45:36+08:00"
+    "heartbeat_at": "2026-11-08T03:32:55+08:00",
+    "expires_at": "2026-11-08T03:47:55+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -36863,8 +36885,8 @@
     "batch_id": "20261108T023550+0800",
     "cycle": 3,
     "species_id": 40,
-    "heartbeat_at": "2026-11-08T03:30:36+08:00",
-    "expires_at": "2026-11-08T03:45:36+08:00"
+    "heartbeat_at": "2026-11-08T03:32:55+08:00",
+    "expires_at": "2026-11-08T03:47:55+08:00"
   },
   "last_updated_at": "2026-11-08T03:26:20+08:00",
   "audit_notes": [
@@ -53244,34 +53266,24 @@
       "batch_id": "20261108T023550+0800"
     }
   ],
-  "updated": "2026-11-08T03:30:36+08:00",
-  "stage": "RESEARCH_READY",
+  "updated": "2026-11-08T03:32:55+08:00",
+  "stage": "IMAGE_GENERATED",
   "stage_evidence": {
-    "research_record": "owl-pet/research/species/40-glaucidium-nubicola-v5.md",
-    "source_index": "owl-pet/research/SOURCE_INDEX.md",
-    "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-    "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-    "new_verified_sources": 2,
-    "new_secondary_sources": 1,
-    "reused_sources": 0,
-    "corrected_inferences": 1,
-    "design_boundary": "near-equal brown adults; five incomplete adult tail bands; age-unknown dependent juvenile low on a broad mossy branch; no exact nest/iris/flight claim",
-    "mikkola_access": "user-uploaded photographic guide unavailable; Cadena-Ortiz chapter in a Mikkola-edited volume read but not conflated with the upload",
-    "unknowns": [
-      "exact juvenile age and sex",
-      "iris chronology",
-      "nest stage",
-      "juvenile feather sequence",
-      "flight threshold",
-      "independence"
-    ],
-    "lease_expires_at": "2026-11-08T03:45:36+08:00",
-    "scientifically_verified": false
+    "initial_original": "owl-pet/production/generated/40-glaucidium-nubicola-v5-initial-original.png",
+    "initial_blob": "98a0faf60ae419f31ecf89e64f6435c329658455",
+    "initial_bytes": 3157252,
+    "initial_sha256": "0df36f45460b55c7b93bdd463e8b9b2a44c80670de85b973d1cd779aeacdfa81",
+    "geometry": "1536x1024",
+    "generation_seconds": 45.4,
+    "edit_required": true,
+    "preliminary_inspection": "Full generated plate and three cropped birds opened. Exact title, three exact labels, near-equal brown adults, adult male white-bordered nape false-eye, wet cloud-forest context and all-foot support pass. Juvenile is low, amber-eyed and naturally supported, but its folded wing is too long and retains pale adult-like feather edging; one targeted juvenile-wing edit is required before review.",
+    "scientifically_verified": false,
+    "lease_expires_at": "2026-11-08T03:47:55+08:00"
   },
   "last_verification_commit": "68cd3c050eb407bfb2701b635ad2627b1528e45c",
   "timestamps": {
     "RESEARCH_READY": "2026-11-08T03:30:36+08:00",
-    "IMAGE_GENERATED": "2026-11-07T23:44:04.216+08:00",
+    "IMAGE_GENERATED": "2026-11-08T03:32:55+08:00",
     "REVIEWED": "2026-11-07T23:44:04.216+08:00",
     "ARCHIVED": "2026-11-07T23:36:55.461+08:00",
     "VERIFIED": "2026-11-07T23:38:51.658+08:00",
@@ -53283,7 +53295,7 @@
     "ledger_credited_at": "2026-11-07T23:39:44.747+08:00",
     "started_at": "2026-11-08T03:28:52+08:00",
     "research_ready_at": "2026-11-08T03:30:36+08:00",
-    "image_generated_at": "2026-11-07T22:53:55.891+08:00",
+    "image_generated_at": "2026-11-08T03:32:55+08:00",
     "lease_recovered_at": "2026-11-07T23:29:26.092+08:00"
   },
   "production_log": [
@@ -53670,6 +53682,28 @@
         ],
         "lease_expires_at": "2026-11-08T03:45:36+08:00",
         "scientifically_verified": false
+      }
+    },
+    {
+      "batch_id": "20261108T023550+0800",
+      "cycle": 3,
+      "stage": "IMAGE_GENERATED",
+      "at": "2026-11-08T03:32:55+08:00",
+      "run_id": "20261108T032852+0800-cycle-3",
+      "species_id": 40,
+      "species": "Glaucidium nubicola",
+      "credited": false,
+      "evidence": {
+        "initial_original": "owl-pet/production/generated/40-glaucidium-nubicola-v5-initial-original.png",
+        "initial_blob": "98a0faf60ae419f31ecf89e64f6435c329658455",
+        "initial_bytes": 3157252,
+        "initial_sha256": "0df36f45460b55c7b93bdd463e8b9b2a44c80670de85b973d1cd779aeacdfa81",
+        "geometry": "1536x1024",
+        "generation_seconds": 45.4,
+        "edit_required": true,
+        "preliminary_inspection": "Full generated plate and three cropped birds opened. Exact title, three exact labels, near-equal brown adults, adult male white-bordered nape false-eye, wet cloud-forest context and all-foot support pass. Juvenile is low, amber-eyed and naturally supported, but its folded wing is too long and retains pale adult-like feather edging; one targeted juvenile-wing edit is required before review.",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-08T03:47:55+08:00"
       }
     }
   ]

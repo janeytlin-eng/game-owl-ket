@@ -1,3 +1,7 @@
+## 2026-11-07 — #188 *Otus semitorques* v3 ARCHIVED, readback pending
+
+Science revision preserving v1–v2. Re-read Nohara & Honda 2025 pp.75–78 and two supporting institutional sources; added four verified/reused source entries plus one unverified specimen lead. One targeted edit corrected a long adult-like recent-fledgling wing. Full plate, two crops and 32-colour transport opened and passed with limitations. Manifests 782/783/773; unique 176/251; science=false; immutable readback pending.
+
 ## 2026-11-06 — #120 *Megascops ingens* v4 archived, verification pending
 
 Batch `20261106T123716+0800` cycle 5/6. The recovered first candidate had a long adult-like juvenile wing; one center-only edit replaced it with a compact down-veiled barred feather cluster above the feet, with tail concealed and continuous stump support. Full plate plus juvenile and adults/support crops pass with limitations. Manifests 727/728/718; unique remains 176/251; science false; immutable readback pending.

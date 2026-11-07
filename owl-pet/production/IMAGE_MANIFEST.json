@@ -28001,7 +28001,70 @@
       "verification_commit": "2e10f20b7a524a9c18c35765e6523d7e1c571391",
       "verification_tree": "6930a8b2320eb6122dd8d3218db353285ec043eb",
       "credited_at": "2026-11-07T17:09:00+08:00"
+    },
+    {
+      "id": "188-otus-semitorques-v3",
+      "path": "design/concepts/188-otus-semitorques-v3.png",
+      "species_id": 188,
+      "scientific_name": "Otus semitorques",
+      "historical_names": [
+        "Otus bakkamoena semitorques",
+        "Otus lempiji semitorques"
+      ],
+      "common_name": "Japanese Scops Owl",
+      "version": 3,
+      "prior_versions_retained": [
+        1,
+        2
+      ],
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准，保留v1/v2。重新实际读取Nohara & Honda 2025印刷页75–78（PDF页1–4）及成年/幼鸟图；成年雌雄同羽色、近等站立尺度，不把未知体差套成雌大雄小。幼鸟限定为直接记录的近期离巢个体：全身绒羽、深色/未知虹膜、少动、翼尾未完成、杉枝充分支撑；不推断巢、日龄、首飞或叫食。初稿幼鸟外露翼过长且分层成熟，经一次局部编辑缩短并软化为绒羽覆盖的发育翼。全图、成年裁切、幼鸟裁切和传输版复查通过。PASS_WITH_LIMITATIONS；science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "JPSO-NOHARA-HONDA-2025-P75-78",
+        "JPSO-TOYAMA-ETAL-2015-P841-847",
+        "JPSO-TOKYO-ZOO-2026",
+        "JPSO-MIKKOLA-2013-P158",
+        "JPSO-FEATHERBASE-4442-LEAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/188-otus-semitorques-v3.md",
+      "run_record": "production/runs/20261107T171100+0800-cycle-6.md",
+      "review_record": "research/reviews/188-otus-semitorques-v3-review.md",
+      "reviewed_at": "2026-11-07T17:48:29+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "b26d7b2c20bfb6d95ffdf5be4409d5c1331b60137c2ebdedb27ddd782ffc782d",
+      "size_bytes": 676271,
+      "git_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
+      "generated_path": "production/generated/188-otus-semitorques-v3-generated-master.png",
+      "generated_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
+      "generated_sha256": "b26d7b2c20bfb6d95ffdf5be4409d5c1331b60137c2ebdedb27ddd782ffc782d",
+      "generated_size_bytes": 676271,
+      "full_color_source_path": "production/generated/188-otus-semitorques-v3-full-color.png",
+      "full_color_source_blob": "057dc5a560baaa186acb038b61cdac71f23704c9",
+      "full_color_source_sha256": "6be6e39f3b6a545f3d4907df7b3c5b2f8aa3f812e5c6214a53a0283f4fba141e",
+      "full_color_source_size_bytes": 3020431,
+      "reviewed_path": "production/reviewed/188-otus-semitorques-v3-reviewed-master.png",
+      "reviewed_blob": "fae519346fad89e67f1f5366278d294cbc1c87c6",
+      "reviewed_sha256": "b26d7b2c20bfb6d95ffdf5be4409d5c1331b60137c2ebdedb27ddd782ffc782d",
+      "reviewed_size_bytes": 676271,
+      "review_crop_path": "production/review-crops/188-otus-semitorques-v3-recent-fledgling.png",
+      "review_crop_blob": "acff7f5177ca79912dd6c85c9f60273200e9a848",
+      "review_crop_sha256": "2cdfb5e95aa74d48d9824f917b4242a01210a75ab3a350a69a158f8edaad583d",
+      "review_crop_size_bytes": 716533,
+      "auxiliary_review_crop_path": "production/review-crops/188-otus-semitorques-v3-adults.png",
+      "auxiliary_review_crop_blob": "9c51ab94b4588f5035c5ff20756cdb762b7d2791",
+      "auxiliary_review_crop_sha256": "ec360395e04cf2e58d47493fa41e2c3b99fa4ceaf302329bc79cca66c265ce0e",
+      "auxiliary_review_crop_size_bytes": 1475446,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "ledger_credited": false
     }
   ],
-  "updated_at": "2026-11-07T17:09:00+08:00"
+  "updated_at": "2026-11-07T17:48:29+08:00"
 }

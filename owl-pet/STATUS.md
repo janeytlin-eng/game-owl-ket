@@ -1,3 +1,7 @@
+### #188 *Otus semitorques* v3 ARCHIVED — immutable readback pending
+
+Batch `20261107T143537+0800` cycle 6/6. Re-read direct Honshu adult/recent-fledgling evidence, generated a new plate, rejected an adult-like juvenile wing, applied one localized edit, and reopened full/crop/transport images. Concept plus full-colour source, transport master, reviewed master and two crops archived; manifests 782/783/773. Unique remains 176/251; revision +1; PASS_WITH_LIMITATIONS; science false; immutable readback pending.
+
 ### #160 v3 LEDGER_CREDITED — active batch 4/6
 
 Verification `e44fb4425e676ebd14692fa02c3d5037b8f8760a` was read back after archive `beff61214ecd9048a35513d6b8761a887a3e0612`. Cycle 4 credited once; next cycle 5; lease released. Unique 176/251; revision +1; science false.

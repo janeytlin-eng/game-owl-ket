@@ -3733,3 +3733,12 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 
 - **Links:** `research/species/25-glaucidium-brasilianum-cactorum-v4.md`; planned `design/concepts/25-glaucidium-brasilianum-cactorum-v4.png`; run `production/runs/20261107T212500+0800-cycle-6.md`.
 - **Correction:** v2/v3 retained. Direct observation supersedes the complete absence of juvenile nape patches: 28–40-day birds have lighter indistinct gray patches, full feathering and a short rufous tail. Juvenile iris chronology is not stated; yellow in v4 is an explicit design inference, not a verified age cue. New4 / reused0 / corrected1; science false.
+
+
+## 2026-11-07 — #26 *Glaucidium siju* v5 — juvenal-stage inference correction
+
+- **CUPO-PYLE-ETAL-2004-JFO:** primary study freshly reread at printed p.138/PDF p.3; juvenile plumage facts retained, but HY is calendar age and does not support v4's cavity-threshold stage. Supports plain downy back, streaked underparts, indistinct crown flecks and only tentative duller iris; no exact age/flight/nest claim.
+- **CUPO-GARRIDO-2002:** 152-specimen primary museum series freshly reread at printed pp.47–50; adult geographic variation and measurement direction retained; no juvenile development supplied.
+- **CUPO-SMITHSONIAN-VITTATUM-TYPE-2024:** new UNVERIFIED LEAD; search record identifies an adult male *G. s. vittatum* type with public-domain media, but direct page retrieval returned 404, so it is not used visually.
+- **Correction:** v5 removes v4's unsupported cavity-stage inference and uses a quiet, fully branch-supported age-unknown juvenile in juvenal body plumage. Exact age/sex/iris/flight/race remain unknown. New verified0 / reused2 / unverified1 / corrected1; science=false.
+- **Links:** `research/species/26-glaucidium-siju-v5.md`; planned `design/concepts/26-glaucidium-siju-v5.png`; run `production/runs/20261107T223235+0800-cycle-1.md`.

@@ -500,3 +500,18 @@ RIGHT adult female on a separate mesquite branch at nearly the same standing hei
 Environment: Sonoran desert-scrub/thornscrub edge with saguaro nest cavity, mesquite and palo verde foliage, shaded dense understory, natural branch supports visibly under all six feet. No nest material invented inside the cavity. Scientific plate is concept-calibrated, not a photorealistic composite.
 
 Critical negatives: no ear tufts; no orange/brown adult eyes; no extra bird; no eggs; no hatchling; no adult-like long tail on juvenile; no absent or black juvenile iris; no uniform female-larger template beyond evidence; no mature crisp false-eye pattern on juvenile; no text spelling errors.
+
+
+## 20261107T223235+0800-cycle-1 — #26 *Glaucidium siju* v5
+
+Use case: scientific-educational
+Asset type: owl-pet three-stage species concept plate
+Primary request: create a scientifically bounded v5 concept plate for #26 Cuban Pygmy-Owl, preserving the established owl-pet visual language while correcting the unsupported v4 cavity-stage inference.
+Scene/backdrop: semi-open lowland Cuban woodland edge with palms and native-looking leafy branches; a dark old cavity may appear in the distant trunk as habitat context only, but the juvenile is not at a nest and no nest contents are visible.
+Subject: exactly three *Glaucidium siju*. Left ADULT MALE: small round untufted head, grayish-brown upperparts with irregular small pale spots, yellow eyes, pale greenish-horn bill/cere, off-white underparts with brown-ochre longitudinal streaks, feathered tarsi and naturally gripping toes, brown-gray barred tail. Centre JUVENILE: age and sex unknown, in juvenal body plumage, soft downy rounded contour, plain unmarked warm gray-brown back, streaked underparts, only indistinct crown flecks, dull indeterminate iris rather than adult-bright yellow; quiet low posture on a broad living branch, both feet fully supported, no begging, flight or nest-stage claim; folded wing and tail present but visually soft and subordinate, without crisp adult white spot rows or a long sharply barred adult tail. Right ADULT FEMALE: reddish-brown, subtly fuller and slightly longer-winged than the male but near the same displayed crown height; yellow eye and species pattern; three-quarter turn showing one white-bordered dark nape false-eye patch.
+Style/medium: naturalistic softly painted 3D wildlife field-guide concept art, anatomically credible, realistic feather texture, consistent with prior owl-pet plates.
+Composition/framing: 1536×1024 landscape; three birds fully separated and fully visible; adults flank juvenile; all feet and supports visible; calm sentinel adults, juvenile low and secure.
+Lighting/mood: restrained warm filtered woodland light; clear diagnostic colour without theatrical saturation.
+Text (verbatim): "26 CUBAN PYGMY-OWL" at top; italic-style subtitle "Glaucidium siju"; labels "ADULT MALE", "JUVENILE", "ADULT FEMALE" below the corresponding birds.
+Constraints: exact three birds; preserve near-equal adult displayed height; female colour/size direction is population-level and not a rigid individual rule; juvenile is calendar-age-unknown and must not be presented as a hatchling or confidently flying fledgling; no precise iris-age claim.
+Avoid: ear tufts, extra birds, eggs, prey, visible nest lining, invented hatchling detail, adult-like juvenile wing spot rows, long adult-barred juvenile tail, unsupported hovering, malformed or hidden support feet, vegetation intersecting bodies, extra text, watermark.

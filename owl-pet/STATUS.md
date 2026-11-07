@@ -1,11 +1,3 @@
-## 2026-11-07 22:45 +08 — #26 Cuban Pygmy-Owl — *Glaucidium siju* v5 ARCHIVED (verification pending)
-
-V5 science revision preserves v1–v4 and withdraws the unsupported v4 cavity-threshold stage inference. The age/sex-unknown juvenile is shown in broad juvenal body plumage, low and fully branch-supported, without an exact age, nest-stage or flight claim. Original, transport and three crops were opened; no edit required. PASS_WITH_LIMITATIONS, science=false. Unique coverage remains 176/251.
-
-- Concept: `design/concepts/26-glaucidium-siju-v5.png`
-- Original: `production/generated/26-glaucidium-siju-v5-original.png`
-- Research/review/run: `research/species/26-glaucidium-siju-v5.md`, `research/reviews/26-glaucidium-siju-v5-review.md`, `production/runs/20261107T223235+0800-cycle-1.md`
-
 ## 2026-11-07 19:57 +08 — #197 Philippine Scops Owl — *Otus megalotis* v3 VERIFIED
 
 V3科学修订，保留v1/v2且不增加唯一物种。可见标题改用当前主名 Philippine Scops Owl，Luzon Lowland Scops Owl 作为历史/项目别名保留。Miranda 2011 的雌雄翼、尾均值有方向但范围重叠，因此成年雌雄保持近等站立高度，只以轻微折翼/尾轮廓提示，不使用固定雌大雄小倍率。首版幼鸟翼尾偏长偏硬，经一次定向编辑缩短并软化；修订原图、104色审查版和三张裁切均实际打开。结果 PASS_WITH_LIMITATIONS，science=false。

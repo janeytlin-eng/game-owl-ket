@@ -1,7 +1,3 @@
-## Latest concept: #26 Cuban Pygmy-Owl — *Glaucidium siju* v5
-
-V5 preserves v1–v4, applies calendar-age-safe juvenile interpretation, and is archived pending immutable readback. See `design/concepts/26-glaucidium-siju-v5.png` and the linked research/review/run records.
-
 ## Latest concept: #197 Philippine Scops Owl — *Otus megalotis* v3
 
 ## 2026-11-07 19:57 +08 — #197 Philippine Scops Owl — *Otus megalotis* v3 VERIFIED

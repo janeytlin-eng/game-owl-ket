@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T22:45:57.721+08:00",
+  "updated": "2026-11-07T22:47:28.016+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -28823,9 +28823,13 @@
         }
       ],
       "archive_note": "ImageGen original, 112-colour transport and three crops were opened. No edit was required. V4 remains immutable but its cavity-threshold inference is not carried forward. Exact juvenile age/sex, iris chronology, first-flight threshold, race and individual colour overlap remain unknown.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "664d099f577c98d03e7e4b0797fbf79b17183b57",
+      "verified_at": "2026-11-07T22:47:28.016+08:00",
+      "exact_readback": true,
+      "verification_result": "Concept/generated/reviewed masters and three crops returned complete base64 streams with exact expected byte lengths and blob SHAs; ImageGen original path/blob matched but the connector did not stream its 2.9 MB body. Research, review, source index, manifests, workflow lesson, run and ledger paths were read back from the immutable archive commit."
     }
   ],
-  "updated_at": "2026-11-07T22:45:57.721+08:00"
+  "updated_at": "2026-11-07T22:47:28.016+08:00"
 }

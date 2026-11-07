@@ -1,7 +1,3 @@
-## 2026-11-07 — #26 *Glaucidium siju* v5
-
-Archived a non-destructive science revision that removes an unsupported precise cavity-threshold stage inference. Full ImageGen original, review-safe master and three crops were actually opened; no edit required. Reconciled the missing historical v4 entry in two live manifests and added v5 to all three. Unique coverage remains 176/251; readback pending.
-
 ## 2026-11-07 — #197 *Otus megalotis* v3
 
 Archived a non-destructive science revision with current-name/alias mapping, sex-scale restraint from overlapping specimen measurements, complete prompts, initial and edited full-colour originals, transport/review masters and three crops. One targeted juvenile wing/tail edit passed reinspection. Unique coverage remains 176/251; revision +1; immutable readback passed against the archive commit.

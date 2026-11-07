@@ -1,5 +1,13 @@
 ## Latest concept: #188 Japanese Scops Owl — *Otus semitorques* v3
 
+## 2026-11-07 — #190 *Otus lempiji* v2 archived
+
+- Action: science revision; v1 retained; unique coverage unchanged at 176/251.
+- Result: PASS_WITH_LIMITATIONS, edit count 0, science=false.
+- Concept: [190 v2](concepts/190-otus-lempiji-v2.png); source: [full-colour JPG](../production/generated/190-otus-lempiji-v2-full-color.jpg); review: [record](../research/reviews/190-otus-lempiji-v2-review.md).
+- Evidence boundary: near-equal adults; older age-unknown, branch-supported begging juvenile; exact age/sex, iris/flight/feather chronology and Singapore quantitative dimorphism remain unknown.
+
+
 - [Concept](concepts/188-otus-semitorques-v3.png) · [Full-colour source](../production/generated/188-otus-semitorques-v3-full-color.jpg) · [Research](../research/species/188-otus-semitorques-v3.md) · [Review](../research/reviews/188-otus-semitorques-v3-review.md) · [Run](../production/runs/20261107T171100+0800-cycle-6.md)
 - V3 preserves v1–v2, uses near-equal same-plumage adults and the directly documented Honshu recent-fledgling boundary. One edit replaced a long adult-like juvenile wing with a compact down-covered developing wing. No nest, exact age or flight claim. `PASS_WITH_LIMITATIONS`; science=false; immutable archive verified and ledger credited; batch 6/6 complete.
 

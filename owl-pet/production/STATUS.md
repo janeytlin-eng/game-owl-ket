@@ -1,5 +1,15 @@
 ### #176 v3 LEDGER_CREDITED — new batch 1/6
 
+## 2026-11-07 18:40 +08 — #190 *Otus lempiji* v2 archived, verification pending
+
+v2科学修订，保留v1且不增加唯一物种。成年雌雄同羽色并采用近等站立尺度；新加坡Hillview直接记录支持一个可在枝间移动、枝上乞食但精确年龄未知的较大幼鸟。整图、成年裁切、幼鸟裁切及48色传输版均实际查看，标签、学名、虹膜、喙、羽纹、落脚支撑、性别比例和幼鸟动作逐项通过。无需图像编辑；PASS_WITH_LIMITATIONS。未知项仍包括精确幼龄/性别、虹膜时序、首飞阈值、连续换羽和新加坡量化性别体差；science=false。
+
+- Concept: `design/concepts/190-otus-lempiji-v2.png`
+- Source: `production/generated/190-otus-lempiji-v2-full-color.jpg`
+- Research/review: `research/species/190-otus-lempiji-v2.md`; `research/reviews/190-otus-lempiji-v2-review.md`
+- Batch: `20261107T183000+0800` cycle 1/6; unique coverage remains 176/251.
+
+
 Verification `c6d0e3a4d613c54155a55b4592716305d6b82630` / tree `42a50018f86f69d86b9dca72733e157225209364` credited once after archive `56be53f3a60c78ad04a9cc3a37eee235d2e8b671`. Batch `20261107T143537+0800` is PARTIAL 1/6; next cycle 2; lease released. Unique species remains 176/251; revision +1; science=false.
 
 ### #176 v3 immutable archive VERIFIED — ledger credit pending

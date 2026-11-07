@@ -1,5 +1,13 @@
 ## 2026-11-07 — #148 *Ninox rumseyi* v3: sex direction and brow length must be independently constrained
 
+## 2026-11-07 — behaviour evidence is not an age clock
+
+- **Problem:** a source can document a juvenile flying or begging without supplying hatch date, molt sequence or first-flight threshold.
+- **Evidence:** Lok et al. (2009) directly record mobile, begging Hillview juveniles but explicitly do not establish exact age; Mees (2006) gives only a population-level marginal adult sex-size comparison outside Singapore.
+- **Applied:** #190 v2 labels the bird AGE-UNKNOWN JUVENILE, gives full branch support, and keeps adults near-equal.
+- **Validated:** full plate and both crops passed the targeted checks; this validates the prompt constraint for this plate only, not a universal species-development rule.
+
+
 - **Observed failure:** the first generation obeyed male-larger direction but exaggerated it, and rendered “short separate supercilia” as broad arcs.
 - **Evidence:** primary field measurements imply only a modest direction and species diagnosis says short whitish supercilia.
 - **Applied change:** targeted only adult brow length and relative scale; preserved juvenile, text, environment and plumage.

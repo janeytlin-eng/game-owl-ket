@@ -1,5 +1,13 @@
 ## 2026-11-07 — #143 *Asio solomonensis* v3 validated application
 
+## 2026-11-07 — behaviour evidence is not an age clock
+
+- **Problem:** a source can document a juvenile flying or begging without supplying hatch date, molt sequence or first-flight threshold.
+- **Evidence:** Lok et al. (2009) directly record mobile, begging Hillview juveniles but explicitly do not establish exact age; Mees (2006) gives only a population-level marginal adult sex-size comparison outside Singapore.
+- **Applied:** #190 v2 labels the bird AGE-UNKNOWN JUVENILE, gives full branch support, and keeps adults near-equal.
+- **Validated:** full plate and both crops passed the targeted checks; this validates the prompt constraint for this plate only, not a universal species-development rule.
+
+
 - **Observed failure:** “emerging barred wing feathers” was expanded by the generator into a long, hard, adult-layered wing.
 - **Evidence boundary:** Loyn & Debus (2000), printed pp. 288–289 and Plate 79, supports long unbarred down plus emerging barred dorsal/wing feathers in one age/sex/flight-unknown rescued juvenile; it does not establish adult-length exposed remiges.
 - **Applied change:** constrain the juvenile wing to one short, compact, down-veiled barred patch ending well above the feet, then inspect a dedicated juvenile crop.

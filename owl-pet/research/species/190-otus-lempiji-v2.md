@@ -5,7 +5,7 @@
 - Historical mapping: *Otus lempiji cnephaeus* is retained as the name used by Lok et al. (2009); repository correction records treat it as a junior synonym of nominate *lempiji*. Older combinations include *Otus bakkamoena lempiji* and *Strix lempiji*.
 - Action: SCIENCE_REVISION of archived v1; preserve v1
 - Batch/cycle: `20261107T183000+0800` cycle 1/6
-- Stage at this record: RESEARCH_READY
+- Stage at this record: ARCHIVED
 - Scientific verification: false
 
 ## Evidence actually read
@@ -30,4 +30,4 @@ Create a 3:2 horizontal natural-history concept plate, 1536×1024, in the reposi
 
 ## Science state
 
-Concept prototype only. The source-to-design constraints are documented, but expert scientific approval has not been recorded; `science=false`.
+Concept prototype rendered and reviewed as PASS_WITH_LIMITATIONS. The source-to-design constraints are documented, but expert scientific approval has not been recorded; `science=false`.

@@ -3763,3 +3763,10 @@ Verification `92df887e6da967619a4b6aa9780627e99bbdd7d6` was read back after arch
 ### #153 v3 LEDGER_CREDITED — batch 2/6
 
 Verification `8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0` was read back after archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd` / tree `8dfe17c657c749a822c2714905b3808854bd0d70`. Cycle 2 credited once; batch PARTIAL 2/6, next_cycle=3, lease released. Unique 176/251; revision +1; science false.
+
+
+## 2026-11-07 09:45 +08:00 — #161 *Ketupa blakistoni* v3 ARCHIVED (readback pending)
+- Science revision; unique species remains 176/251; revision +1 only after verification.
+- Hokkaido sensu-stricto scope under Clements/eBird 2026 split; no continental *K. doerriesi* white nape/near-white tail.
+- One targeted juvenile-wing edit; full plate and two crops opened. Result PASS_WITH_LIMITATIONS; scientific status false.
+- Concept: `design/concepts/161-ketupa-blakistoni-v3.png`; reviewed blob `787f24c17be0bb3b5a1dfa4456d5a177bacb97ab`; archive commit pending immutable readback.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T09:31:00+08:00",
+  "updated": "2026-11-07T09:45:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -26530,7 +26530,70 @@
       "verification_commit": "e44fb4425e676ebd14692fa02c3d5037b8f8760a",
       "verification_tree": "a6959ef608fc88e39b6bcb161e7508d4c230db4d",
       "ledger_credited_at": "2026-11-07T09:31:00+08:00"
+    },
+    {
+      "id": "161-ketupa-blakistoni-v3",
+      "path": "design/concepts/161-ketupa-blakistoni-v3.png",
+      "species_id": 161,
+      "scientific_name": "Ketupa blakistoni",
+      "historical_names": [
+        "Bubo blakistoni",
+        "Ketupa blakistoni sensu lato (older literature; may include K. doerriesi)"
+      ],
+      "common_name": "Blakiston's Fish-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新读日本鸟类研究协会/Hayashi 2010印刷页1–4与Hayashi 1997 pp.283–285，并按Clements/eBird 2026拆分将画面限定为北海道单型K. blakistoni，不借用大陆K. doerriesi白色后颈/近白尾。首图的约50日龄幼鸟翼部几乎全被绒羽遮蔽；edit1增加短、圆、绒羽覆盖的发育翼，保留隐尾、巢腔地面与双足支撑。全图与两裁图复查通过。PASS_WITH_LIMITATIONS；精确50日龄飞行能力、连续羽序、通用雌雄比例与个体羽纹仍未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "BLF-BIRDRESEARCH-HAYASHI-2010-P1-4",
+        "BLF-HAYASHI-1997-283-285",
+        "BLF-CLEMENTS-2026-SPLIT",
+        "BLF-MIKKOLA-2013-P296",
+        "BLF-OWLPAGES-2020",
+        "BLF-MOVIN-2022",
+        "BLF-IOC13-1-2023"
+      ],
+      "unverified_leads": [],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--161-ketupa-blakistoni-v3--hokkaido-scope-late-nestling-stage-and-2026-split",
+      "research_record": "research/species/161-ketupa-blakistoni-v3.md",
+      "run_record": "production/runs/20261107T093300+0800-cycle-5.md",
+      "review_record": "research/reviews/161-ketupa-blakistoni-v3-review.md",
+      "reviewed_at": "2026-11-07T09:45:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "225e8e36481f4f93c1a6153e78f626702a10f3ddf8ab6c53e09552c2bd9e8d86",
+      "size_bytes": 3244522,
+      "git_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
+      "generated_path": "production/generated/161-ketupa-blakistoni-v3-generated-master.png",
+      "generated_blob": "605ed87482354ae069dfe1dd893d5939503da105",
+      "generated_sha256": "4ffa10313d85f8ff35303d6840422d93304895552a1a68977d2e3c1f15a48c4a",
+      "generated_size_bytes": 3422680,
+      "intermediate_edit_path": "production/generated/161-ketupa-blakistoni-v3-edit1.png",
+      "intermediate_edit_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
+      "reviewed_path": "production/reviewed/161-ketupa-blakistoni-v3-reviewed-master.png",
+      "reviewed_blob": "787f24c17be0bb3b5a1dfa4456d5a177bacb97ab",
+      "reviewed_sha256": "225e8e36481f4f93c1a6153e78f626702a10f3ddf8ab6c53e09552c2bd9e8d86",
+      "reviewed_size_bytes": 3244522,
+      "review_crop_path": "production/review-crops/161-ketupa-blakistoni-v3-late-nestling.png",
+      "review_crop_blob": "f876688c58f156423ed2be4850f91cbaf4b3060c",
+      "review_crop_sha256": "605d4e4ecf5ace28ccef818b0dd6ca2f32c16bd96ef3a8709505db0ab386b168",
+      "review_crop_size_bytes": 828813,
+      "auxiliary_review_crop_path": "production/review-crops/161-ketupa-blakistoni-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "802f9b64556812d4c09b20c217aa724f0054d864",
+      "auxiliary_review_crop_sha256": "5793f8c976f46eaeb9fca4364655990d61376d0ed30035ca75ff240a051bb846",
+      "auxiliary_review_crop_size_bytes": 2591045,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact individual flight ability at about 50 days, continuous feather chronology, universal sex-size ratio and individual plumage map remain unknown; current taxonomy treatment may differ among authorities; Mikkola upload unavailable.",
+      "archive_encoding": "original full-colour 1536x1024 PNG; generated and reviewed masters preserved separately"
     }
   ],
-  "updated_at": "2026-11-07T08:20:00+08:00"
+  "updated_at": "2026-11-07T09:45:00+08:00"
 }

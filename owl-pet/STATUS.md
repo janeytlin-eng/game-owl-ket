@@ -1,3 +1,7 @@
+## 2026-11-08 00:33 +08 — #29 v5 immutable archive VERIFIED; ledger credit pending
+
+Archive [`864becd671da096224dd46f164e0d6476284298f`](https://github.com/janeytlin-eng/game-owl-ket/commit/864becd671da096224dd46f164e0d6476284298f) returned 16 required paths. Seven binary paths matched expected blob and decoded byte length; five unique image bodies were fully streamed. Three manifests parsed at 795/792/785 and contain #29 v5. Result remains `PASS_WITH_LIMITATIONS`, science=false; cycle credit is not yet counted.
+
 ## 2026-11-08 00:30 +08 — #29 African Barred Owlet — *Glaucidium capense* v5 ARCHIVED, readback pending
 
 V5科学修订保留v1–v4。新读取的BirdLife South Africa直接观察支持离巢幼鸟近巢短跳并伸展飞行肌肉，但不支持精确日龄或立即飞行；新图采用低位双足与腹部支撑、单侧短软发育翼伸展，未表现为离枝飞行。成年雌雄同羽色且近等尺度，明确不添加后颈假眼。整图和三张主体裁切均已检查，无需编辑。结果 `PASS_WITH_LIMITATIONS`，science=false。

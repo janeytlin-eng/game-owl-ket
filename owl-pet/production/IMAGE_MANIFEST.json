@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T00:29:30.000+08:00",
+  "updated": "2026-11-08T00:32:30.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29054,9 +29054,13 @@
         }
       ],
       "archive_note": "Full-colour plate, review master and all three subject crops were opened. Initial generation passed without edit. Exact fledgling age/sex, iris chronology, feather sequence, sustained-flight day and subspecies remain unknown.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "864becd671da096224dd46f164e0d6476284298f",
+      "verified_at": "2026-11-08T00:32:30.000+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable archive returned the concept, full-colour source, generated/reviewed master and three crops with exact Git blob SHAs and decoded byte lengths. Research, review, source index, workflow lesson, run and all three manifests were read back; manifests parsed at 795/792/785."
     }
   ],
-  "updated_at": "2026-11-08T00:29:30.000+08:00"
+  "updated_at": "2026-11-08T00:32:30.000+08:00"
 }

@@ -1,3 +1,7 @@
+## 2026-11-08 00:33 +08 — #29 *Glaucidium capense* v5 immutable archive VERIFIED; ledger credit pending
+
+Archive [`864becd671da096224dd46f164e0d6476284298f`](https://github.com/janeytlin-eng/game-owl-ket/commit/864becd671da096224dd46f164e0d6476284298f) passed immutable readback for the concept, full-colour source, generated/reviewed master, three crops and supporting records. Three manifests parsed at 795/792/785. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251.
+
 ## 2026-11-08 00:30 +08 — #29 *Glaucidium capense* v5 ARCHIVED; ledger credit pending
 
 V5 preserves v1–v4. A directly observed recent-fledgling short-hop/wing-stretch boundary replaces any generic static juvenile assumption: the age-unknown dependent fledgling stays low and fully supported with one short soft wing partly raised, never airborne. Adults share plumage and near-equal displayed scale, and no nape false eyes are shown. Full-colour plate, review master and three crops passed. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T03:37:28+08:00",
+  "updated": "2026-11-08T03:38:42+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30591,10 +30591,15 @@
           "sha256": "9ce6cfb485364d37d67c76f90edcfa52b04e0576badf797786a8387f5550c909"
         }
       ],
-      "archive_note": "Initial full plate and three crops opened; one targeted juvenile-wing edit; edited full plate and all final crops reopened. Full-size originals retained. Immutable readback pending.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "archive_note": "Initial full plate and three crops opened; one targeted juvenile-wing edit; edited full plate and all final crops reopened. Full-size originals retained. Immutable readback passed.",
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "archive_commit": "8c739c70700bbb52eab78c17de881a37888256f9",
+      "fixed_commit": "8c739c70700bbb52eab78c17de881a37888256f9",
+      "verified_at": "2026-11-08T03:38:42+08:00",
+      "exact_readback": true,
+      "verification_result": "Immutable archive tree was non-truncated (4,133 entries). All 21 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Manifests parsed at 806/803/796 with #40 v5 newest and exactly once. Connector full-body blob streaming was not required because immutable tree path/blob/size verification succeeded."
     }
   ],
-  "updated_at": "2026-11-08T03:37:28+08:00"
+  "updated_at": "2026-11-08T03:38:42+08:00"
 }

@@ -272,3 +272,12 @@ Avoid ear tufts, bold white scapular patches, male/female colour split, huge fem
 ## 172 *Tyto castanops* v3 — 2026-11-07
 
 Create a polished 1536×1024 landscape scientific owl-pet plate in the repository’s established premium stylized 3D maquette look. Title exactly “172 TASMANIAN MASKED OWL · Tyto castanops”. Exactly three complete birds in order and labels: left “ADULT MALE”, centre “ADULT FEMALE”, right “AGE-UNKNOWN MESOPTILE”. Adults are robust dark-eyed Tyto with broad heart-shaped discs, pale horn bills, feathered legs and powerful supported feet. Male clearly smaller/slimmer and paler grey-brown/chestnut with irregular pale speckling and pale buff-white spotted underparts. Female substantially fuller/heavier with modestly greater standing height, deep chocolate/chestnut upperparts, richer chestnut dark-rimmed disc and darker warm-buff spotted underparts; do not turn mass dimorphism into a two-times height caricature. Right young is an evidence-bounded age-unknown cream second-down/mesoptile: thick cream fluff, developed heart-shaped mask, dark open eyes, pale bill, compact crouch, very short down-buried wing with no visible layered remiges, tail fully concealed, belly and both adult-sized feet supported at a broad senescent eucalypt hollow lip. Neutral Tasmanian eucalypt forest daylight, mature hollow-bearing tree; no eggs, prey, flight, extra birds, unsupported feet, exact age, adult-like young wing/tail, extra text or fantasy markings.
+
+
+## #174 v3 targeted edit — toe feathering
+
+```text
+Edit this existing Cinereous Owl scientific plate only where needed. Preserve the exact title, labels, three-bird order, adult proportions, dark eyes, plain pale facial discs without concentric rings, cold blackish-sepia/white plumage, flight-capable fledgling wing development, supported poses and humid Nayarit pine-oak setting.
+
+Correct the feet of all three birds: add natural short dense feathering along each toe all the way to the base of the dark claw, matching Cinereous/Barred-type feathered toes. Keep the claws visible and every foot firmly gripping the branch. Do not make fluffy snowshoe feet and do not hide the support geometry. Do not alter the birds’ faces, labels, wings, tails, body size or habitat. Add no birds, text, nest, eggs, prey or flight.
+```

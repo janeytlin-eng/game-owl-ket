@@ -37,3 +37,11 @@ undefined
 - **Rule derived:** when age is unknown and remex chronology is absent, request a shorter, softer folded wing with fewer exposed hard layers and a partly concealed tail; do not convert adult-like face into mature flight plumage.
 - **Applied:** one targeted edit to #173 v3.
 - **Verified:** crop recheck shows a visibly softer, shorter wing and concealed tail while preserving supported feet and adult-only details. The improvement is verified for this image only; broader back-check remains future work.
+
+
+## 2026-11-07 — #174 *Strix sartorii* v3 — toe feathering must reach the claw base
+- **Problem found:** the first render preserved feathered tarsi but left most toe surfaces visually bare.
+- **Evidence:** the directly read 2015 field account describes toe feathering extending to the bases of the claws; the edited crop makes that feature checkable without hiding grip or claws.
+- **Rule derived:** when a source specifies feathered toes, prompt the full toe-to-claw-base extent separately from tarsal feathering, while requiring exposed claws and explicit branch support.
+- **Applied:** one targeted edit to all three #174 birds.
+- **Verified:** the reopened adult and fledgling crops show short dense toe feathering reaching the claw bases, visible dark claws and firm bilateral support. Verified for #174 v3 only; other Strix plates require source-specific recheck.

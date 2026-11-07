@@ -3702,3 +3702,35 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 ### Reused evidence and v3 correction
 - Reused MANT-MARSHALL-1978-P14-15, MANT-SHELDON-MOYLE-KENNARD-2001-P143, MANT-PHOTOARK-ROMBLONIS-JUVENILE-2025 and MANT-ITIS-555378-AVIBASE-686833-2026.
 - **Correction:** v2's adult-hard juvenile wing/tail is not supported. V3 uses an older, branch-supported, compact soft-winged juvenile and records exact nominate juvenile detail as unknown.
+
+
+## 2026-11-07 — #184 *Otus spilocephalus hambroecki* v3 additions
+
+### MOSO-FB-2005-PP46-47
+- **Title / institution / year:** *九九峰自然保留區猛禽類資源調查* / Forestry Bureau Nantou Forest District & Taiwan Provincial Wild Bird Association / 2005
+- **URL:** https://conservation.forest.gov.tw/File.aspx?fno=62690
+- **Accessed:** 2026-11-07
+- **Type:** government-commissioned field research report
+- **Scope:** *Otus spilocephalus* in Taiwan; adult morphology, habitat, behaviour, nesting
+- **Location read:** printed pp.46–47, PDF text lines 1321–1357
+- **Facts:** 15–17 cm body and wing, ~8 cm tail; yellow-brown adult; dense forest low hills–2,600 m; foraging often near the ground; Taiwan records include tree hollows and branch depressions; 2–5 eggs generally and one Taiwan four-egg statement; incubation and rearing periods unknown.
+- **Limitations/confidence:** species-level/older secondary compilation plus local observations; no juvenile plumage or sexed measurements. High confidence for page content; moderate for broad natural-history generalization.
+- **Design support:** adult scale/habitat; do not invent incubation/rearing chronology or nest lining.
+- **Links:** [#184 v3 research](species/184-otus-spilocephalus-v3.md); [v3 review](reviews/184-otus-spilocephalus-v3-review.md).
+
+### MOSO-YMSNP-FLEDGLING-2026
+- **Title / institution / date:** “黃嘴角鴞” / Yangmingshan National Park / page current at access
+- **URL:** https://www.ymsnp.gov.tw/ch/florafauna/birds/380
+- **Accessed:** 2026-11-07
+- **Type:** national-park institutional species account
+- **Scope:** Taiwan *O. s. hambroecki*, recent fledgling behaviour
+- **Location read:** “Point” section, item reporting July–August one-syllable call practice by newly fledged young
+- **Facts:** recent fledglings may be heard practising a one-syllable call in mountain habitat in July–August.
+- **Limitations/confidence:** no exact age, sex, iris, wing/tail chronology, photo scale or flight threshold. Moderate-high for the stated seasonal behavioural boundary.
+- **Design support:** select a recent-fledgling stage with a slightly open bill and natural branch support; do not infer day-age or flight action.
+- **Links:** [#184 v3 research](species/184-otus-spilocephalus-v3.md); [v3 review](reviews/184-otus-spilocephalus-v3-review.md).
+
+### Mapping update
+- *Otus spilocephalus hambroecki* → adult morphology: MOSO-NTM-HAMBROECKI-2026, MOSO-MIKKOLA-2013-P148, MOSO-FB-2005-PP46-47.
+- *Otus spilocephalus hambroecki* → recent fledgling: MOSO-YMSNP-FLEDGLING-2026; juvenile colour progression: MOSO-NTM-HAMBROECKI-2026.
+- *Ephialtes Hambroecki* / *Otus hambroecki* → current *O. s. hambroecki*: MOSO-AVIBASE-HAMBROECKI-2026, MOSO-SWINHOE-1871-P438.

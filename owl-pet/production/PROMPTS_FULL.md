@@ -453,3 +453,16 @@ Species and adult boundary: nominate Mantanani Island Mantanani Scops Owl, very 
 Older juvenile boundary: centre bird is explicitly an older, branch-supported juvenile, not a hatchling and not an adult duplicate. Use the directly identified O. m. romblonis juvenile only as a conservative cross-population appearance boundary, not as nominate-specific proof: rounder head, minimal/flattened ear tufts, softer fluffy tawny-grey and warm brown finely barred contour plumage, softer facial disc, pale yellow-ochre eyes, horn-grey bill, compact formed but visibly shorter and softer wing, short tail, rounded fluffy abdomen, slightly crouched curious posture with both feet gripping the branch. No long hard adult remiges, no adult-length tail, no flight display, no nest, no unsupported standing, no claim of exact age or sex.
 
 Environment: sea-level Mantanani forest edge on a coralline island, natural leafy forest with Casuarina and coconut grove cues, soft dappled daylight, subdued greens and sandy limestone hints. Keep habitat secondary to the birds. One species only, exactly three birds, accurate anatomy, no extra feet or birds, no text except the exact title, subtitle and three labels.
+
+
+## #184 *Otus spilocephalus hambroecki* v3 — 20261107T205300+0800-cycle-5
+
+```text
+Use case scientific-educational. Create one 1536×1024 premium naturalistic 3D owl-pet triptych for #184 MOUNTAIN SCOPS OWL, italic Otus spilocephalus, Taiwan race Otus spilocephalus hambroecki only; historical Ephialtes Hambroecki / Otus hambroecki only. Exactly three complete birds on one broad mossy Taiwan broadleaf-forest branch. Exact labels ADULT MALE, RECENT FLEDGLING, ADULT FEMALE. No other text or birds.
+
+Adults: compact small Taiwan Mountain Scops Owls, short indistinct ear tufts, clear yellow irises, cream-yellow bills, tea to warm rufous-brown plumage, dark facial-disc border, restrained pale brows joining tufts as a V, dark vermiculations above, small irregular pale scapular marks, barred remiges and tail, feathered tarsi, exposed pink-brown toes. Same plumage and near-equal standing height/body scale; no generic female-larger rule because Taiwan sources state same plumage and do not quantify sexual size direction. Give different natural head angles and subtly different relaxed poses, not different morphs.
+
+Recent fledgling: choose the directly documented Taiwan July–August post-fledging boundary, exact age and sex unknown. Smaller/rounder and visibly softer than adults; yellowish/rufous-brown body; loose residual down around crown, cheeks, shoulders and belly; blurred narrow crown bars, broader soft back bars, faint underpart marks; dark/indeterminate irises; a short rounded partly formed wing with soft indistinct coverts, shorter than adult folded wings; tail short and mostly hidden. Both feet grip a fork and lower belly is gently supported. Slight open bill may imply one-syllable call practice, but do not show flight, wing exercise, a nest, eggs or hatchling anatomy.
+
+Habitat: dense low/mid-elevation humid Taiwan primary broadleaf-forest edge, moss, fern fronds and bark textures. Do not reconstruct a cavity or nest; no deep black hole. Avoid long horn tufts, bright white shoulder patches, adult-hard juvenile wing rows, long juvenile tail, unsupported feet, invented iris colour or exaggerated sexual dimorphism.
+```

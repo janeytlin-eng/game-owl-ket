@@ -4166,3 +4166,27 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **URLs / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=555377 ; https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686839 / 2026-11-08.
 - **Evidence / limit:** current valid *Otus elegans* and *O. e. interpositus*; historical *Ephialtes elegans* and *Otus japonicus interpositus*. Taxonomy only.
 - **Links:** [v5 research](species/86-otus-elegans-v5.md); [v5 concept](../design/concepts/86-otus-elegans-v5.png); [v5 review](reviews/86-otus-elegans-v5-review.md).
+
+
+### JAP-TBN-2025-REREAD
+- **Institution / record / date:** Taiwan Biodiversity Network / *Ninox japonica japonica* taxon record / updated 2025-04-27.
+- **URL / accessed:** https://www.tbn.org.tw/taxa/cada44ce-c5d7-4a2c-a2d4-7a4372b61898 / 2026-11-08.
+- **Type / taxon:** current government biodiversity-network taxonomy; *Ninox japonica*.
+- **Evidence:** record lists subspecies *japonica* and gives *N. japonica totogo* as synonym.
+- **Limit / design use:** conflicts with ITIS treatment of *totogo* as valid; taxonomy only. Supports species-level title and explicit uncertainty.
+- **Links:** [v5 research](species/92-ninox-japonica-v5.md); v5 image pending.
+
+### JAP-ITIS-2026-REREAD
+- **Institution / record / date:** Integrated Taxonomic Information System / TSN 1063655 / current record read 2026-11-08; cites IOC v15.1.
+- **URL:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=1063655&source=to_print
+- **Evidence:** *Ninox japonica totogo* current/valid; *N. scutulata totogo* synonym.
+- **Limit / design use:** taxonomy only; conflict with TBN is retained rather than silently resolved.
+- **Links:** [v5 research](species/92-ninox-japonica-v5.md); v5 image pending.
+
+### JAP-NTM-COLLECTION-2026-REREAD
+- **Institution / record:** National Taiwan Museum collection system, Brown Hawk Owl specimen record.
+- **URL / accessed:** https://collections.culture.tw/ntm_collectionsweb/Collection?GID=06M6MZ06MB / 2026-11-08.
+- **Type / stages:** institutional collection description; adult male and general immature comparison.
+- **Evidence:** same-shape sexes; no ear tufts; white between-eye patch; shoulder spots; broad ventral streaks; yellow iris; bristled yellow toes; young paler with sparser/blurred ventral streaks.
+- **Limit / design use:** not a continuous growth series; implausible numeric fields ignored. Supports qualitative identity and older juvenile boundary only.
+- **Links:** [v5 research](species/92-ninox-japonica-v5.md); v5 image pending.

@@ -1,3 +1,13 @@
+## 2026-11-08 00:30 +08 — #29 African Barred Owlet — *Glaucidium capense* v5 ARCHIVED, readback pending
+
+V5科学修订保留v1–v4。新读取的BirdLife South Africa直接观察支持离巢幼鸟近巢短跳并伸展飞行肌肉，但不支持精确日龄或立即飞行；新图采用低位双足与腹部支撑、单侧短软发育翼伸展，未表现为离枝飞行。成年雌雄同羽色且近等尺度，明确不添加后颈假眼。整图和三张主体裁切均已检查，无需编辑。结果 `PASS_WITH_LIMITATIONS`，science=false。
+
+- Concept: `design/concepts/29-glaucidium-capense-v5.png`
+- Full-colour source / review master: `production/generated/29-glaucidium-capense-v5-full-color.jpg`, `production/reviewed/29-glaucidium-capense-v5-reviewed-master.png`
+- Research / review: `research/species/29-glaucidium-capense-v5.md`, `research/reviews/29-glaucidium-capense-v5-review.md`
+- Run: `production/runs/20261107T234100+0800-cycle-4.md`
+- Unique coverage remains 176/251; revision +1; immutable readback pending.
+
 ## 2026-11-07 23:40 +08 — #28 v5 LEDGER_CREDITED — active batch 3/6
 
 Verification [`583ee0c2fdb74066fe6fcfb1cc0b72cf1318d156`](https://github.com/janeytlin-eng/game-owl-ket/commit/583ee0c2fdb74066fe6fcfb1cc0b72cf1318d156) was read back after archive [`fbbeab7444c6271a57addcc775463fb2980739f0`](https://github.com/janeytlin-eng/game-owl-ket/commit/fbbeab7444c6271a57addcc775463fb2980739f0). Cycle 3 credited once; lease released; next cycle 4. Unique coverage remains 176/251; revision +1; science=false.

@@ -1,3 +1,7 @@
+## 2026-11-08 00:30 +08 — #29 *Glaucidium capense* v5 ARCHIVED; ledger credit pending
+
+V5 preserves v1–v4. A directly observed recent-fledgling short-hop/wing-stretch boundary replaces any generic static juvenile assumption: the age-unknown dependent fledgling stays low and fully supported with one short soft wing partly raised, never airborne. Adults share plumage and near-equal displayed scale, and no nape false eyes are shown. Full-colour plate, review master and three crops passed. `PASS_WITH_LIMITATIONS`; science=false; unique coverage remains 176/251.
+
 ## 2026-11-07 23:39 +08 — #28 *Glaucidium perlatum* v5 immutable archive VERIFIED; ledger credit pending
 
 Archive [`fbbeab7444c6271a57addcc775463fb2980739f0`](https://github.com/janeytlin-eng/game-owl-ket/commit/fbbeab7444c6271a57addcc775463fb2980739f0) returned all 16 required paths. Seven binary paths matched exact blob/byte tuples and five unique binary bodies streamed completely; manifests parsed at 794/791/784. `PASS_WITH_LIMITATIONS`; science=false; unique 176/251; cycle credit still pending.

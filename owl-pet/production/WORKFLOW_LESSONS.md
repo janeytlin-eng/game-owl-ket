@@ -1,5 +1,14 @@
 
 
+## 2026-11-08 — stage-specific action can be added without inventing age
+
+**Problem:** juvenile plates can become static, while forcing an exact day-age from a field narrative would overclaim.
+
+**Evidence/application:** BirdLife South Africa's directly observed African Barred Owlet sequence reports newly fledged chicks staying near the nest, making short hops and stretching flight muscles. #29 v5 therefore uses a fully supported one-wing stretch and explicitly avoids airborne flight or exact age.
+
+**Verified result:** the full plate and three crops passed review without mature juvenile wing/tail anatomy. This rule is validated for this evidence pattern, not generalized to species lacking comparable direct observation.
+
+
 ## 2026-11-06 — conflict rule applied to #135 v4
 
 **Problem:** a prior revision translated a one-pair specimen direction into an explicit female-larger visual ratio. **Evidence:** Mees has only one adult per sex; Mikkola explicitly states there are no sexual-size data. **Change applied:** retain pose asymmetry but keep adults at comparable apparent scale. **Observed validation:** the new plate was opened in full and crop; poses remain distinct without a size claim. This is a verified prompt/review rule application, not population-level science verification.

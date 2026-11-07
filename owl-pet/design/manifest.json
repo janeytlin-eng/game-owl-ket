@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T23:38:51.658+08:00",
+  "updated": "2026-11-08T00:29:30.000+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29578,7 +29578,77 @@
       "verified_at": "2026-11-07T23:38:51.658+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive returned 16 required paths. Seven binary paths matched expected Git blob SHA and byte size; five unique binary bodies (concept/master, full-colour source and three crops) returned complete base64 streams with exact decoded byte lengths. Research, review, source index, workflow lesson, run and all three manifests read back; manifests parsed at 794/791/784."
+    },
+    {
+      "id": "29-glaucidium-capense-v5",
+      "path": "design/concepts/29-glaucidium-capense-v5.png",
+      "species_id": 29,
+      "scientific_name": "Glaucidium capense",
+      "common_name": "African Barred Owlet",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v1–v4 and applies a directly observed recent-fledgling action boundary: low fully supported short-hop preparation with one soft developing wing partly raised, never airborne. Adults retain same plumage and near-equal displayed scale; the species lacks nape false eyes. Exact fledgling age/sex, iris chronology, feather sequence, sustained-flight day and subspecies remain unknown.",
+      "source_ids": [
+        "ABOW-VENTER-BIRDLIFE-2019-PP23-28",
+        "ABOW-BIODIVEXPLORER-ROBERTS-2026",
+        "ABOW-OWLPAGES-2020",
+        "ABOW-UPemba-1953-P220"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/29-glaucidium-capense-v5.md",
+      "review_record": "research/reviews/29-glaucidium-capense-v5-review.md",
+      "run_record": "production/runs/20261107T234100+0800-cycle-4.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 775432,
+      "sha256": "25ec48679873995eb69d486dd7a78a1541bc1cfcac03a8b744411eee27ff2f70",
+      "git_blob": "018466966cb6d51e5544ea4620c2fd5462a2fa8c",
+      "full_color_source_path": "production/generated/29-glaucidium-capense-v5-full-color.jpg",
+      "full_color_source_blob": "a0f6208292d018f7a03e0e55941405d680027cdd",
+      "full_color_source_size_bytes": 666769,
+      "full_color_source_sha256": "0534cf72cff13fc8e00dacaadf96763a01a7f4972d8b27451130119f946a7aee",
+      "generated_path": "production/generated/29-glaucidium-capense-v5-generated-master.png",
+      "generated_blob": "018466966cb6d51e5544ea4620c2fd5462a2fa8c",
+      "generated_size_bytes": 775432,
+      "reviewed_path": "production/reviewed/29-glaucidium-capense-v5-reviewed-master.png",
+      "reviewed_blob": "018466966cb6d51e5544ea4620c2fd5462a2fa8c",
+      "reviewed_size_bytes": 775432,
+      "review_crops": [
+        {
+          "path": "production/review-crops/29-glaucidium-capense-v5-adult-male.png",
+          "blob": "61eb6428ee94bed3775023944b0022225a89c2c1",
+          "size_bytes": 223117,
+          "sha256": "380cbafd764ada2b29e7c2a0ea541b63bf12ce3b8c673a9dc0d095dbc1af9761"
+        },
+        {
+          "path": "production/review-crops/29-glaucidium-capense-v5-juvenile.png",
+          "blob": "aec271d652a4441361ccdf65b0d78e2a7982c271",
+          "size_bytes": 253590,
+          "sha256": "8f14f797a83b906fcb43aa9ca82d9e3f0911da530ce58a786deaa5bee81934d6"
+        },
+        {
+          "path": "production/review-crops/29-glaucidium-capense-v5-adult-female.png",
+          "blob": "bde49c7b34b982d52888e70f4c4a652983127093",
+          "size_bytes": 239256,
+          "sha256": "1dafcf90f13fd3a6e7eb7c5051cfee69d8b244c349fd18634d5607cf26ec11f8"
+        }
+      ],
+      "archive_note": "Full-colour plate, review master and all three subject crops were opened. Initial generation passed without edit. Exact fledgling age/sex, iris chronology, feather sequence, sustained-flight day and subspecies remain unknown.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-07T23:38:51.658+08:00"
+  "updated_at": "2026-11-08T00:29:30.000+08:00"
 }

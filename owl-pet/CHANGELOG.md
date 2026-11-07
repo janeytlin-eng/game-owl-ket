@@ -1,3 +1,9 @@
+## 2026-11-08 — #29 *Glaucidium capense* v5 archived
+
+- Preserved v1–v4 and applied the directly observed near-nest short-hop/wing-stretch boundary to an age-unknown recent fledgling.
+- Adults remain same-plumage and near-equal in displayed scale; no nape false eyes. Full plate and three crops passed without edit.
+- PASS_WITH_LIMITATIONS; science=false; unique coverage remains 176/251; immutable readback pending.
+
 ## 2026-11-07 — #28 v5 ledger credited
 
 - Verification `583ee0c2fdb74066fe6fcfb1cc0b72cf1318d156` read back; cycle 3/6 credited once; next cycle 4; unique 176/251.

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T07:55:20+08:00",
+  "updated": "2026-11-07T08:20:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27127,7 +27127,72 @@
       "verification_commit": "1d046099d3e696c3a75b41e52c69c63f754d68dc",
       "verification_tree": "04b9b8f39ebba0dfd8b0b6a6763d6eb165c444ea",
       "ledger_credited_at": "2026-11-07T07:55:20+08:00"
+    },
+    {
+      "id": "160-tyto-inexspectata-v3",
+      "path": "design/concepts/160-tyto-inexspectata-v3.png",
+      "species_id": 160,
+      "scientific_name": "Tyto inexspectata",
+      "historical_names": [
+        "Strix inexspectata"
+      ],
+      "common_name": "Minahasa Masked-Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新读Naturalis 2023类型目录印刷页175，确认Strix inexspectata=Tyto inexspectata及RMNH.AVES.88273为成年雌性lectotype；读取Roland Godon 2022北苏拉威西活体成鸟影像，另保留Macaulay元数据线索。雌雄近等尺度，不套用雌大雄小。首图裁切发现幼鸟仍有层叠成熟飞羽；edit1仅将双翼缩短并绒羽化、隐尾，保留双足支撑。全图和两裁图复查通过。PASS_WITH_LIMITATIONS；可见幼鸟记录有争议，精确日龄/羽序/虹膜/首飞、量化雌雄方向与巢内材料未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "source_ids": [
+        "MIN-NATURALIS-TYPECAT-2023-P175",
+        "MIN-COMMONS-GODON-2022-229399656",
+        "MIN-FITZSIMONS-2010-P143",
+        "MIN-SCHLEGEL-1879-NATURALIS",
+        "MIN-ITIS-555350",
+        "MIN-IOC15-2-2026",
+        "MIN-EBIRD-2025",
+        "MIN-OWLPAGES-2020"
+      ],
+      "unverified_leads": [
+        "MIN-MACAULAY-625386016-2024"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--160-tyto-inexspectata-v3--type-status-adult-identity-and-disputed-juvenile-boundary",
+      "research_record": "research/species/160-tyto-inexspectata-v3.md",
+      "run_record": "production/runs/20261107T080000+0800-cycle-4.md",
+      "review_record": "research/reviews/160-tyto-inexspectata-v3-review.md",
+      "reviewed_at": "2026-11-07T08:20:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "3d8058e390d7f1881569a304a0d4af8417f2da6a757acc9b5f91a9573ccc89ab",
+      "size_bytes": 735337,
+      "git_blob": "6b39f912b71c4ef8d4547370d72fb6895b36195d",
+      "generated_path": "production/generated/160-tyto-inexspectata-v3-generated-master.png",
+      "generated_blob": "dffa5b1afc52dfcdebe2dd6ed5e80a6a9896901e",
+      "generated_sha256": "b5d4f08d893d87bf28342b568619b8ee8b5fab7f64f52d6a749827a3f54f77d1",
+      "generated_size_bytes": 742919,
+      "intermediate_edit_path": "production/generated/160-tyto-inexspectata-v3-edit1.png",
+      "intermediate_edit_blob": "6b39f912b71c4ef8d4547370d72fb6895b36195d",
+      "reviewed_path": "production/reviewed/160-tyto-inexspectata-v3-reviewed-master.png",
+      "reviewed_blob": "6b39f912b71c4ef8d4547370d72fb6895b36195d",
+      "reviewed_sha256": "3d8058e390d7f1881569a304a0d4af8417f2da6a757acc9b5f91a9573ccc89ab",
+      "reviewed_size_bytes": 735337,
+      "review_crop_path": "production/review-crops/160-tyto-inexspectata-v3-older-young.png",
+      "review_crop_blob": "0a636e78998619a7699e09f772af753a34e3a6f6",
+      "review_crop_sha256": "5c82109b52bd97fb1e89b40ea5ca766a791a21e16a54ac704820b585d9fcf2c1",
+      "review_crop_size_bytes": 157033,
+      "auxiliary_review_crop_path": "production/review-crops/160-tyto-inexspectata-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "797a4a1ef1a49383a9f25b62075ede0a42b5d410",
+      "auxiliary_review_crop_sha256": "dfb531fe9f2bb446305bbd5fdf3a35bcd6a08e18e154a51519329ed7ee350e01",
+      "auxiliary_review_crop_size_bytes": 527537,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Species-specific juvenile age, feather timetable, iris chronology and first-flight threshold remain unknown; published visible juvenile identity was questioned; no verified quantitative sex comparison; Mikkola upload unavailable.",
+      "archive_encoding": "1536x1024 indexed PNG, 96-color no-dither; full-resolution imagegen output palette-optimized only for complete GitHub connector transfer; full-colour local SHA values retained in run record and not falsely marked as remotely verified."
     }
   ],
-  "updated_at": "2026-11-07T07:55:20+08:00"
+  "updated_at": "2026-11-07T08:20:00+08:00"
 }

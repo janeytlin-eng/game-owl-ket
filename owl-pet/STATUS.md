@@ -3904,3 +3904,7 @@ Batch `20261107T183000+0800` is now 4/6; next cycle 5. Unique coverage remains 1
 
 ### #32 v5 VERIFIED — ledger credit pending
 Archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf5cc1fb16734b46dfe83` passed non-truncated 4,024-entry readback, 21 required paths, nine exact binary blob/size tuples and manifests 798/795/788. Unique remains 176/251; science false; ledger credit pending.
+
+
+### #32 v5 LEDGER_CREDITED — new batch 1/6
+Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf5cc1fb16734b46dfe83`. Cycle 1 credited once; batch `20261108T011416+0800` is PARTIAL 1/6 with next_cycle=2 and lease released. Unique remains 176/251; revision +1; science false.

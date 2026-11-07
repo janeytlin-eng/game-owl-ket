@@ -3843,3 +3843,7 @@ Verification commit `391498b03379e62923d15eb0671c30f6aa767550` was read back aft
 
 ### #32 v5 VERIFIED — 2026-11-08T01:24:45+08:00
 Archive `e76e1faf48531410aafb22afd40a3c67a3192865` / tree `3fe142e7dfcd58131e9bf5cc1fb16734b46dfe83`: 21/21 paths, nine exact binary tuples, non-truncated 4,024-entry tree, manifests 798/795/788. Ledger credit pending; science false.
+
+
+### #32 v5 LEDGER_CREDITED — 2026-11-08T01:26:13+08:00
+Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credited once. Batch `20261108T011416+0800` is 1/6, next cycle 2, lease released. Unique 176/251; revision +1; science false.

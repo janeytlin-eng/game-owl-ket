@@ -35,3 +35,12 @@ For taxa diagnosed by absence of white, write the negative as a whole-body ident
 ## 2026-11-07 — #142 down-remnant juvenile boundary
 
 **Problem:** the model translated a down-remnant juvenile into a fluffy bird carrying a long, hard, adult-barred wing. **Evidence:** the guide documents down remnants and juvenile colour zones but not flight stage; the photographic comparator shows a compact mostly hidden wing/tail. **Change applied:** a juvenile-only edit shortened/softened and mostly concealed the wing, concealed the tail, and normalized dark-neutral eye alignment while retaining two-foot fork support. **Observed validation:** full plate plus juvenile and adult/support crops were opened; the unsupported maturity claim was removed. Rule validated for this case: “fluffy” alone does not prevent adult-wing leakage; explicitly combine compact/hidden wing, concealed tail and crop review.
+
+
+## 2026-11-07 — #170 prepared-skin immature boundary: tail maturity needs its own check
+
+- **Problem:** even when an age-unknown immature is prompted with a short soft wing, ImageGen may still give it a long, fully exposed, regularly barred adult tail.
+- **Evidence:** Lowery & Newman 1949 pp.2–3 describe prepared immature material but do not supply exact age, flight ability or a continuous wing/tail growth series.
+- **Applied:** edit the immature only; end the wing high above the feet, hide nearly all of the tail, retain bilateral branch support and keep the adult sex-palette comparison unchanged.
+- **Verified in this asset:** the edited full-colour plate, 64-colour transport plate and immature crop were opened; the adult-style long tail was removed and support preserved.
+- **Reuse boundary:** for sparse skin-based immature evidence, prompt and inspect wing maturity **and tail exposure separately**. This is one validated application, not a universal owl development schedule.

@@ -3888,3 +3888,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Three manifests parse to 800 / 797 / 790; newest ID is `34-glaucidium-hardyi-v5`.
 - Original-access path resolves in the immutable tree to blob `20c3431663fd7dfe0df2c6af5ea47267bad986cd`, 3,482,040 bytes.
 - Review result PASS_WITH_LIMITATIONS; science=false. Ledger credit pending.
+
+
+## 2026-11-08 — #34 v5 batch ledger credit
+
+- Verification commit `72811e980f8105d7bcefeb26594a2e4269256fbb` and archive commit `e5f5292e4dfb7c05383ddf5f2ec2c61882c94648` were read back.
+- Credited as batch 20261108T011416+0800 cycle 3/6; next cycle 4.
+- Unique coverage remains 176/251; revision +1; science=false; lease released.

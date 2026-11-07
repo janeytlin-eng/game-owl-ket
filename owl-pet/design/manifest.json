@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:37:00+08:00",
+  "updated": "2026-11-07T15:42:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27933,13 +27933,32 @@
       "auxiliary_review_crop_blob": "941accaeaa9e431f20e1ddee91881a8a3d496000",
       "auxiliary_review_crop_sha256": "b8115a381e0593d7a57764613fad522f08a302220188eb16202a24fa3966c20f",
       "auxiliary_review_crop_size_bytes": 491867,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "exact_readback": false,
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "exact_readback": true,
       "ledger_credited": false,
       "evidence_limit": "Exact castanops mesoptile age, feather chronology, iris/bill development, first-flight threshold, occupied nest interior and a universal adult height ratio remain unknown; Mikkola upload unavailable.",
-      "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened."
+      "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened.",
+      "archive_commit": "254177143b89aec101183533699cab9ae5991a4c",
+      "archive_tree": "9c358ab475009b2b34c4a23cfbb27c4c7648697f",
+      "verified_at": "2026-11-07T15:42:00+08:00",
+      "verification_commit_pending": true,
+      "readback": {
+        "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
+        "required_paths": 17,
+        "exact_binary_paths": 5,
+        "all_git_blobs_match": true,
+        "tree_entries": 3801,
+        "tree_truncated": false,
+        "manifest_counts": {
+          "design_image": 773,
+          "design_legacy": 774,
+          "production": 764
+        },
+        "connector_full_binary_stream_readback": false,
+        "full_color_source_provenance_only": true
+      }
     }
   ],
-  "updated_at": "2026-11-07T15:37:00+08:00"
+  "updated_at": "2026-11-07T15:42:00+08:00"
 }

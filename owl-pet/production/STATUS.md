@@ -3745,3 +3745,6 @@ Verification commit `b807ad5456d853e782e50b95ef82c3050b8de44b` was read back aft
 
 
 - #172 v3 ARCHIVED: *Tyto castanops* age label corrected from exact ~5 weeks to AGE-UNKNOWN MESOPTILE; adult female-fuller/darker direction retained without height caricature. Full board and both crops passed with 0 edits. Manifests 773/774/764; unique 176/251; science=false; immutable readback pending.
+
+
+- #172 v3 VERIFIED: archive `254177143b89aec101183533699cab9ae5991a4c` / tree `9c358ab475009b2b34c4a23cfbb27c4c7648697f`; non-truncated 3,801-entry tree, 17 required paths and five exact binary paths passed. Manifests 773/774/764 parsed; ledger pending; science false.

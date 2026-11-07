@@ -3678,3 +3678,27 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Accessed:** 2026-11-07
 - **Status:** UNVERIFIED LEAD. Search extraction indicated an anatomically sexed adult female from Shizuoka and feather measurements, but direct page retrieval failed in both research and browser checks.
 - **Limit:** not used to assert sex dimorphism, colour, or any juvenile feature.
+
+
+## 2026-11-07 — #201 *Otus mantananensis* v3 — juvenile-unknown correction
+
+### MANT-MIKKOLA-2013-P199-200-MIRROR
+- **Title / author / year:** *Owls of the World: A Photographic Guide*, 2nd ed. — Heimo Mikkola, 2013.
+- **URL / accessed:** https://dokumen.pub/owls-of-the-world-a-photographic-guide-second-edition-2nd-revised-1472905938-9781472905932.html ; accessed 2026-11-07.
+- **Type / pages / scope:** secondary photographic-guide account through a third-party readable text mirror, printed pp.199–200; nominate adult identification, measurements, sex-data limit, habitat and juvenile knowledge state.
+- **Facts:** 18–20 cm, 106–110 g, wing 152–180 mm; no sexual-size data; two morphs; grey-brown adult pattern, yellow eyes, greyish-horn bill, heavily feathered tarsus; forest/wooded areas, coconut groves and Casuarina plantations; juvenile explicitly unknown.
+- **Limits:** user's uploaded volume unavailable in this execution; mirror is not primary developmental evidence. No juvenile morphology, age, iris chronology or flight threshold.
+- **Design use:** near-equal same-morph adults; reject invented nominate juvenile detail and mature-wing juvenile template.
+- **Links:** research/species/201-otus-mantananensis-v3.md; concept v3; owl-pet/production/runs/20261107T203821+0800-cycle-4.md.
+
+### MANT-AVIBASE-ROMBLONIS-2026
+- **Institution / accessed:** Birds Canada / Avibase; accessed 2026-11-07.
+- **URL:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=3E88137700ACAC68&lang=EN
+- **Type / scope:** current taxonomy and subspecies mapping.
+- **Facts:** valid *O. m. romblonis*; McGregor 1905; protonym *Otus romblonis*; type locality Romblon; range includes Semirara.
+- **Limits:** no morphology or development.
+- **Design use:** keeps the Photo Ark juvenile explicitly cross-population rather than nominate-specific.
+
+### Reused evidence and v3 correction
+- Reused MANT-MARSHALL-1978-P14-15, MANT-SHELDON-MOYLE-KENNARD-2001-P143, MANT-PHOTOARK-ROMBLONIS-JUVENILE-2025 and MANT-ITIS-555378-AVIBASE-686833-2026.
+- **Correction:** v2's adult-hard juvenile wing/tail is not supported. V3 uses an older, branch-supported, compact soft-winged juvenile and records exact nominate juvenile detail as unknown.

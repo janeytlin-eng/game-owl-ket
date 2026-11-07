@@ -3923,3 +3923,11 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` read back; cycle 1 credi
 - Initial blob `6ad20ce4db29e18fb884dd8b41f0ca1af3f11be4` exposed a missing male nape false-eye view. One evidence-driven edit produced final blob `0814a3870634e622c8c53888d19f2b9bae6b60ac`, 3,175,024 bytes.
 - Full plate and three crops opened; PASS_WITH_LIMITATIONS, science=false. Exact juvenile age/flight/iris chronology and population sex-size direction remain unknown.
 - Manifests staged at 802 / 799 / 792; archive commit and immutable readback pending.
+
+
+## 2026-11-08 — #36 v5 VERIFIED
+
+- Archive commit `602902e59f33ccc927378bac14e0a9e60ead0b23`; canonical crop-path fix `a9410a1457e60118bf8f4164f4e6d1e1c950c3f5`.
+- Fixed tree `daf5fdc637883c4d573b6a43eeb0e375d309b9a4` is non-truncated with 4,084 entries.
+- Required paths 23/23; binary exact SHA/size 9/9; final original blob `0814a3870634e622c8c53888d19f2b9bae6b60ac`, 3,175,024 bytes.
+- Manifests parse to 802 / 799 / 792 with #36 v5 newest. PASS_WITH_LIMITATIONS; science=false; ledger credit pending.

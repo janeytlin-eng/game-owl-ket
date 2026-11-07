@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T04:34:24.579+08:00",
+  "updated": "2026-11-08T04:46:01.470+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30782,7 +30782,93 @@
       "verified_at": "2026-11-08T04:34:24.579+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive tree was non-truncated (4,157 entries). All 20 required paths were present; nine binary paths matched expected Git blob SHA and exact byte size. Manifests parsed at 808/805/798 with #92 v5 newest and exactly once."
+    },
+    {
+      "id": "93-aegolius-harrisii-v5",
+      "path": "design/concepts/93-aegolius-harrisii-v5.png",
+      "species_id": 93,
+      "scientific_name": "Aegolius harrisii",
+      "subspecies": "Aegolius harrisii iheringi",
+      "historical_names": [
+        "Gisella iheringi",
+        "Nyctale harrisii"
+      ],
+      "common_name": "Buff-fronted Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "prior_versions_retained": true,
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v4. Bodrati et al. 2019 supports the single-nest ~24-day boundary and 35–37-day fledging; Ubaid et al. 2012 supports adult identity and natural-cavity context but only calls one bird possibly male, so no fixed dimorphism is imposed. Initial juvenile wing was too adult-perfect and the down halo too plush. One targeted edit produced a shorter rounded softer irregular juvenile wing, sparse integrated dark-grey down, concealed tail and full cavity-floor support. Exact age/sex, iris chronology, feather sequence, population sex-size ratio, flight competence at 24 days, transferability and cutaway geometry remain unknown.",
+      "source_ids": [
+        "HAR-BODRATI-ETAL-2019-REREAD",
+        "HAR-UBAID-ETAL-2012-BHL",
+        "HAR-AGRIS-FAO-2026-REREAD",
+        "HAR-ITIS-555474-2026",
+        "HAR-AVIBASE-IHERINGI-2026",
+        "HAR-MIK2013-447"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/93-aegolius-harrisii-v5.md",
+      "review_record": "research/reviews/93-aegolius-harrisii-v5-review.md",
+      "run_record": "production/runs/20261108T043600+0800-cycle-6.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3311893,
+      "sha256": "d6c689d98d1ae7780d34051c4c38da42e66458dba7fb630d193849ab45b0ac8f",
+      "git_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
+      "initial_original_path": "production/generated/93-aegolius-harrisii-v5-initial-original.png",
+      "initial_original_blob": "5a557b32addc2eb09bf599dac1025cc120357c1f",
+      "initial_original_size_bytes": 3629435,
+      "initial_original_sha256": "47df380cc530aaa056fcce55008f9213784771bd017e24d332b2f040f06790f9",
+      "final_original_path": "production/generated/93-aegolius-harrisii-v5-final-original.png",
+      "final_original_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
+      "final_original_size_bytes": 3311893,
+      "final_original_sha256": "d6c689d98d1ae7780d34051c4c38da42e66458dba7fb630d193849ab45b0ac8f",
+      "full_color_source_path": "production/generated/93-aegolius-harrisii-v5-full-color.png",
+      "full_color_source_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
+      "full_color_source_size_bytes": 3311893,
+      "full_color_source_sha256": "d6c689d98d1ae7780d34051c4c38da42e66458dba7fb630d193849ab45b0ac8f",
+      "generated_path": "production/generated/93-aegolius-harrisii-v5-generated-master.png",
+      "generated_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
+      "generated_size_bytes": 3311893,
+      "reviewed_path": "production/reviewed/93-aegolius-harrisii-v5-reviewed-master.png",
+      "reviewed_blob": "f1a96f1ba4624f0888d21b811a4bcdc1b8a2804c",
+      "reviewed_size_bytes": 3311893,
+      "review_crops": [
+        {
+          "path": "production/review-crops/93-aegolius-harrisii-v5-adult-male.png",
+          "blob": "f64962cf92e57dd7b5f89fca2811b7e784e77e10",
+          "size_bytes": 988435,
+          "sha256": "1ab966e6db7fe5989ac02f80c9fe8bc1edbb961440a4d8736b035570dbe93d2d"
+        },
+        {
+          "path": "production/review-crops/93-aegolius-harrisii-v5-adult-female.png",
+          "blob": "15ea545f18e0d5ee1a837bbb32c53454ab7f4e89",
+          "size_bytes": 980251,
+          "sha256": "70ea5681676c21a892e1eaac6ef6158642b5a86871fcd03c500ffcf18627e552"
+        },
+        {
+          "path": "production/review-crops/93-aegolius-harrisii-v5-nestling.png",
+          "blob": "c821b3bc64faaa7205ff0344372c381cfc87d577",
+          "size_bytes": 1065288,
+          "sha256": "2d363ff3e0ba1f4ed4d476324240cbce2ee27314aac5fbef4a69a8adfba6cfe2"
+        }
+      ],
+      "archive_note": "Initial full plate and all initial crops opened; one targeted juvenile-wing/down edit; edited full plate and all final crops reopened. Full-size originals retained; immutable readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T04:34:24.579+08:00"
+  "updated_at": "2026-11-08T04:46:01.470+08:00"
 }

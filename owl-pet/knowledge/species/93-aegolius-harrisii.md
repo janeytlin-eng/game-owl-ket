@@ -52,3 +52,16 @@ Fixed archive `362281f4d87b5225fefbecfbb149ca9ee940868c`: exact four assets, non
 - **Rule status:** “adult-like by 24 d” may guide face/body identity but must not be expanded into adult-perfect remiges, long tail or flight. Applied and visually verified for v4; external scientific approval remains false.
 
 [Research](../../research/species/93-aegolius-harrisii-v4.md) · [Review](../../research/reviews/93-aegolius-harrisii-v4-review.md)
+
+
+## V5 science revision — 2026-11-08T04:46:01.470+08:00
+
+- **Evidence added/re-read:** Bodrati et al. 2019 primary known-age single nest; Ubaid et al. 2012 primary adult/nest account; FAO AGRIS bibliographic cross-check; ITIS, Avibase and repository-pinned Mikkola p.447 reused.
+- **Sex boundary:** near-equal standing height. One bird described as “possibly male” by smaller size is not a population dimorphism rule.
+- **Juvenile boundary:** approximately 24 days in the documented Misiones nest; facial disc recognizable, residual sparse dark-grey down, short/round/soft developing wing, tail concealed, both feet and lower body supported on wood chips, no flight claim.
+- **Actual correction:** initial juvenile wing remained long and adult-layered and its down halo was too plush. A targeted edit shortened and softened the wing, removed mature spot rhythm, integrated the down and preserved all text/adults/support.
+- **Actual recheck:** initial and edited full plates plus all role crops were opened; final result PASS_WITH_LIMITATIONS.
+- **Unknowns:** exact sex/within-day age, iris chronology, tract sequence, quantitative sex-size ratio, 24-day flight competence, population transfer and cutaway geometry.
+- **Scientific status:** `scientifically_verified=false`.
+
+[Original](../../design/concepts/93-aegolius-harrisii-v5.png) · [Research](../../research/species/93-aegolius-harrisii-v5.md) · [Review](../../research/reviews/93-aegolius-harrisii-v5-review.md) · [Run](../../production/runs/20261108T043600+0800-cycle-6.md)

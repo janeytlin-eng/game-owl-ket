@@ -364,3 +364,21 @@ Environment: dense lower *Cynometra* canopy and tangled East African coastal-for
 Avoid female-larger stereotype, sex-coded colour morphs, tall ear tufts, bright-yellow fledgling iris, adult-hard fledgling wing, unsupported feet, flight action, nest reconstruction, extra birds/text, prey, watermark or orange grading.
 
 ```
+
+
+## 2026-11-07 — #178 *Otus insularis* v3 SCIENCE_REVISION
+
+```text
+Use case: scientific-educational.
+Asset: premium tactile naturalistic 3D maquette owl-pet triptych, v3 science revision.
+Species: #178 SEYCHELLES SCOPS-OWL — Otus insularis (Tristram, 1880); protonym Gymnoscops insularis only.
+Canvas: 1536×1024 landscape, misty mature secondary/native montane forest on Mahé with mossy granite and broad-leaved trees. Museum-quality hand-modelled feather planes, natural restrained colour and readable silhouettes. Exactly three complete birds on one broad mossy branch, all feet supported. Title exactly "178 SEYCHELLES SCOPS-OWL" with italic "Otus insularis". Labels exactly: "ADULT MALE" left, "ADULT FEMALE" center, "RECENT FLEDGLING (C. 8–12 WEEKS)" right. No other text or birds.
+
+Adults: compact practically earless scops-owls with tiny low often-invisible tufts. Same cryptic brown plumage in both sexes: light yellow-brown facial disc with darker mottling and prominent ruff, crown white-spotted with narrow black streaks, buff-brown upperparts irregularly mottled, dark-edged whitish scapular webs forming broken shoulder marks, pale underparts with broad blackish streaks and faint irregular barring, barred flight feathers and tail. Yellow to green-yellow eyes; greyish-yellow bill with dark tip. Tarsi and feet fully unfeathered, long pale grey-yellow/greenish toes and dark horn claws, anatomically natural rather than stilt-like. Adult field photographs read this cycle calibrate compact posture, yellow eyes and low tufts only because sex is not supplied. Male slightly slimmer. Female clearly fuller/deeper-bodied and modestly heavier-looking, but only about 3% longer-winged on the source means and not conspicuously taller; all measurements overlap. Do not give sexes different plumage morphs.
+
+Young: directly documented RECENT FLEDGLING approximately 8–12 weeks, not hatchling and not mature 16–20-week fledgling. Smaller, fluffy rounded head/body, tiny or hidden tufts, distinctive barred chest, softer less-crisp brown juvenile pattern. Developed rounded folded juvenile wings appropriate to documented clumsy flight, but shorter/softer and with fewer hard layers than adults; short soft tail. Muted dull green-yellow iris as an evidence-permitted non-universal choice; do not imply a fixed age-to-eye-colour rule. Calm low crouch with both feet gripping the branch and belly naturally supported, beside but not inside a restrained natural trunk fissure. No wing spread or airborne pose.
+
+Evidence boundary: primary study reports c.8–12-week recent fledglings as fluffy, barred and clumsy fliers; some left cavities before flight and perched 3–5 m above them. Eight nests were narrow tree fissure/cavity sites 7–25 m high with one egg or chick, but no lining reconstruction is supported. Show the fissure only as habitat/post-fledging context: no nest interior, lining, egg or chick. Exact individual juvenile sex, feather-by-feather appearance, first-flight date and universal iris colour remain unknown.
+
+Avoid exaggerated female size, sex-coded colour morphs, tall ear tufts, feathered tarsi, adult-hard fledgling wings, unsupported feet, flight action, nest reconstruction, eggs, prey, extra birds/text, watermark or orange grading. Target PASS_WITH_LIMITATIONS; scientifically_verified=false.
+```

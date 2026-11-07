@@ -3477,3 +3477,28 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **URL:** linked from Center for Biological Diversity Global Owl Project description index: https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Otus.html
 - **Accessed:** 2026-11-07; bibliographic index entry read; linked scan not recovered in this execution.
 - **Status:** **unverified lead**, not used for morphology decisions.
+
+
+## 2026-11-07 — #178 *Otus insularis* v3 — living-adult calibration and rechecked recent-fledgling boundary
+
+### SSCO-COMMONS-BAKKER-2024-453454988
+- **Title / creator / date:** “Otus insularis 453454988.jpg,” Michael Bakker Paiva, photographed 20 November 2024; Commons review 11 March 2025.
+- **Original URL:** https://commons.wikimedia.org/wiki/File:Otus_insularis_453454988.jpg
+- **Accessed:** 2026-11-07; full page and displayed image read; original 2048×1536 metadata and CC BY 4.0 record checked.
+- **Type / taxa / stage:** living-bird photograph; *Otus insularis*; adult/life stage not explicitly sexed.
+- **Useful facts:** compact field outline, low tufts, brown mottled surface and yellow-eye calibration.
+- **Limits / confidence:** sex and precise age absent; high for species-level adult appearance, unusable for sex ratio or juvenile development. Image linked, not copied.
+
+### SSCO-BOW-2020-ADULT-PHOTOS
+- **Title / institution:** Seychelles Scops-Owl species account and Macaulay photo panel, Cornell Lab of Ornithology Birds of the World; Holt et al. 2020.
+- **URL / DOI:** https://birdsoftheworld.org/bow/species/sesowl1/cur/introduction?media=photos ; https://doi.org/10.2173/bow.sesowl1.01
+- **Accessed:** 2026-11-07; identity/protonym, credits and displayed adult photographs read.
+- **Type / taxa / stage:** institutional species account and living-bird photographs; *Otus insularis* adults.
+- **Useful facts:** current name and protonym *Gymnoscops insularis*; compact body, tiny/low tufts, yellow eyes, broken pale scapular marks and cryptic brown barring.
+- **Limits / confidence:** accessible images not sexed/aged; visual calibration only, not biometric or development evidence.
+
+### Reused/re-read sources
+- **SSCO-CURRIE-ETAL-2002-P16-18:** sexed adult biometrics; female mean mass +16.8% and wing +3.1%, but all measurements overlap and plumage is not sex-linked.
+- **SSCO-CURRIE-ETAL-2004-P123-137:** DOI 10.1017/S0959270904000140, printed pp.123–137; recent fledgling c.8–12 weeks is fluffy/barred/clumsy, with some leaving before flight and perching 3–5 m above the cavity; cavity/nest facts do not support lining reconstruction.
+- **SSCO-MIKKOLA-2013-P138 / SSCO-ITIS-202272-2026:** morphology/taxonomy reused; uploaded Mikkola volume unavailable this execution.
+- Exact individual juvenile sex, feather-by-feather plumage, first-flight timing, universal iris colour and nest lining remain unknown. [Research](species/178-otus-insularis-v3.md). Science=false.

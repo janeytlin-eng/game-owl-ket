@@ -31324,14 +31324,14 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T14:35:37+08:00",
-      "updated_at": "2026-11-07T15:58:00+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T16:00:00+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T154800+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T15:58:00+08:00",
-        "expires_at": "2026-11-07T16:13:00+08:00"
+        "heartbeat_at": "2026-11-07T16:00:00+08:00",
+        "expires_at": "2026-11-07T16:15:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -31347,7 +31347,7 @@
         "run_id": "20261107T154800+0800-cycle-3",
         "species_id": 178,
         "species": "Otus insularis",
-        "stage": "IMAGE_GENERATED"
+        "stage": "REVIEWED"
       },
       "stage_events": [
         {
@@ -31766,6 +31766,33 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T16:13:00+08:00"
           }
+        },
+        {
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T16:00:00+08:00",
+          "run_id": "20261107T154800+0800-cycle-3",
+          "species_id": 178,
+          "species": "Otus insularis",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/178-otus-insularis-v3-reviewed-master.png",
+            "reviewed_blob": "a0addd9b13f01c379abc957cb714c169bc0ab60e",
+            "edit_count": 1,
+            "review_record": "owl-pet/research/reviews/178-otus-insularis-v3-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/178-otus-insularis-v3-adults.png",
+              "owl-pet/production/review-crops/178-otus-insularis-v3-recent-fledgling.png"
+            ],
+            "crop_blobs": [
+              "b7bbfec52f6f9a4d422cf1a97baf14f5275b01e5",
+              "3734befbb693a12c413901c0acead1b1fed159c9"
+            ],
+            "reinspection": "final full-colour plate, adult crop, recent-fledgling crop and 32-colour transport opened; fuller but not exaggerated female, same morph, bare tarsi, supported fluffy/barred young with shorter soft wing and shallow fissure context pass",
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T16:15:00+08:00"
+          }
         }
       ]
     }
@@ -31773,8 +31800,8 @@
   "lease": {
     "owner": "codex-root",
     "run_id": "20261107T154800+0800-cycle-3",
-    "heartbeat_at": "2026-11-07T15:58:00+08:00",
-    "expires_at": "2026-11-07T16:13:00+08:00"
+    "heartbeat_at": "2026-11-07T16:00:00+08:00",
+    "expires_at": "2026-11-07T16:15:00+08:00"
   },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
@@ -31909,7 +31936,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T15:58:00+08:00",
+  "updated_at": "2026-11-07T16:00:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -31921,10 +31948,10 @@
   "active_lease": {
     "owner": "codex-root",
     "run_id": "20261107T154800+0800-cycle-3",
-    "heartbeat_at": "2026-11-07T15:58:00+08:00",
-    "expires_at": "2026-11-07T16:13:00+08:00"
+    "heartbeat_at": "2026-11-07T16:00:00+08:00",
+    "expires_at": "2026-11-07T16:15:00+08:00"
   },
-  "last_updated_at": "2026-11-07T15:58:00+08:00",
+  "last_updated_at": "2026-11-07T16:00:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -34021,7 +34048,7 @@
       "credited": true
     }
   ],
-  "last_updated": "2026-11-07T15:58:00+08:00",
+  "last_updated": "2026-11-07T16:00:00+08:00",
   "audit_log": [
     {
       "at": "2026-10-31T18:36:48+08:00",
@@ -37522,7 +37549,7 @@
   ],
   "active_batch_id": "20261107T143537+0800",
   "active_cycle": 3,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 3,
   "unique_species_count": 176,
   "total_species": 251,
@@ -47567,6 +47594,33 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T16:13:00+08:00"
       }
+    },
+    {
+      "cycle": 3,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T16:00:00+08:00",
+      "run_id": "20261107T154800+0800-cycle-3",
+      "species_id": 178,
+      "species": "Otus insularis",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/178-otus-insularis-v3-reviewed-master.png",
+        "reviewed_blob": "a0addd9b13f01c379abc957cb714c169bc0ab60e",
+        "edit_count": 1,
+        "review_record": "owl-pet/research/reviews/178-otus-insularis-v3-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/178-otus-insularis-v3-adults.png",
+          "owl-pet/production/review-crops/178-otus-insularis-v3-recent-fledgling.png"
+        ],
+        "crop_blobs": [
+          "b7bbfec52f6f9a4d422cf1a97baf14f5275b01e5",
+          "3734befbb693a12c413901c0acead1b1fed159c9"
+        ],
+        "reinspection": "final full-colour plate, adult crop, recent-fledgling crop and 32-colour transport opened; fuller but not exaggerated female, same morph, bare tarsi, supported fluffy/barred young with shorter soft wing and shallow fissure context pass",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T16:15:00+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261107T140000+0800",
@@ -47605,14 +47659,14 @@
     "next_cycle": 3,
     "active_cycle": 3,
     "started_at": "2026-11-07T14:35:37+08:00",
-    "updated_at": "2026-11-07T15:58:00+08:00",
-    "current_stage": "IMAGE_GENERATED",
+    "updated_at": "2026-11-07T16:00:00+08:00",
+    "current_stage": "REVIEWED",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-root",
       "run_id": "20261107T154800+0800-cycle-3",
-      "heartbeat_at": "2026-11-07T15:58:00+08:00",
-      "expires_at": "2026-11-07T16:13:00+08:00"
+      "heartbeat_at": "2026-11-07T16:00:00+08:00",
+      "expires_at": "2026-11-07T16:15:00+08:00"
     },
     "in_progress": {
       "cycle": 3,
@@ -47628,7 +47682,7 @@
       "run_id": "20261107T154800+0800-cycle-3",
       "species_id": 178,
       "species": "Otus insularis",
-      "stage": "IMAGE_GENERATED"
+      "stage": "REVIEWED"
     },
     "stage_events": [
       {
@@ -48046,6 +48100,33 @@
           "preliminary_inspection": "edited juvenile wing shorter/softer and reduced cavity to shallow fissure; exact title/name/count/order/labels, evidence-based fuller female, same morph, fully bare tarsi, supported fluffy barred recent fledgling and no nest interior pass",
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-07T16:13:00+08:00"
+        }
+      },
+      {
+        "cycle": 3,
+        "stage": "REVIEWED",
+        "at": "2026-11-07T16:00:00+08:00",
+        "run_id": "20261107T154800+0800-cycle-3",
+        "species_id": 178,
+        "species": "Otus insularis",
+        "credited": false,
+        "evidence": {
+          "reviewed_path": "owl-pet/production/reviewed/178-otus-insularis-v3-reviewed-master.png",
+          "reviewed_blob": "a0addd9b13f01c379abc957cb714c169bc0ab60e",
+          "edit_count": 1,
+          "review_record": "owl-pet/research/reviews/178-otus-insularis-v3-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/178-otus-insularis-v3-adults.png",
+            "owl-pet/production/review-crops/178-otus-insularis-v3-recent-fledgling.png"
+          ],
+          "crop_blobs": [
+            "b7bbfec52f6f9a4d422cf1a97baf14f5275b01e5",
+            "3734befbb693a12c413901c0acead1b1fed159c9"
+          ],
+          "reinspection": "final full-colour plate, adult crop, recent-fledgling crop and 32-colour transport opened; fuller but not exaggerated female, same morph, bare tarsi, supported fluffy/barred young with shorter soft wing and shallow fissure context pass",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-07T16:15:00+08:00"
         }
       }
     ]
@@ -54459,6 +54540,33 @@
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-07T16:13:00+08:00"
       }
+    },
+    {
+      "cycle": 3,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T16:00:00+08:00",
+      "run_id": "20261107T154800+0800-cycle-3",
+      "species_id": 178,
+      "species": "Otus insularis",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/178-otus-insularis-v3-reviewed-master.png",
+        "reviewed_blob": "a0addd9b13f01c379abc957cb714c169bc0ab60e",
+        "edit_count": 1,
+        "review_record": "owl-pet/research/reviews/178-otus-insularis-v3-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/178-otus-insularis-v3-adults.png",
+          "owl-pet/production/review-crops/178-otus-insularis-v3-recent-fledgling.png"
+        ],
+        "crop_blobs": [
+          "b7bbfec52f6f9a4d422cf1a97baf14f5275b01e5",
+          "3734befbb693a12c413901c0acead1b1fed159c9"
+        ],
+        "reinspection": "final full-colour plate, adult crop, recent-fledgling crop and 32-colour transport opened; fuller but not exaggerated female, same morph, bare tarsi, supported fluffy/barred young with shorter soft wing and shallow fissure context pass",
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T16:15:00+08:00"
+      }
     }
   ],
   "ledger_credit_pending": false,
@@ -54491,22 +54599,25 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-07T15:58:00+08:00",
-  "stage": "IMAGE_GENERATED",
+  "updated": "2026-11-07T16:00:00+08:00",
+  "stage": "REVIEWED",
   "stage_evidence": {
-    "generated_path": "owl-pet/production/generated/178-otus-insularis-v3-generated-master.png",
-    "generated_blob": "a0addd9b13f01c379abc957cb714c169bc0ab60e",
-    "full_color_sha256": "84aea973c7d986852c86967d9dfd50ca91fba1f9146c795e837727dd0c8312cf",
-    "full_color_bytes": 3003328,
-    "transport_sha256": "e913d4f25750d0be75144dc7c347aa7bc7535eeb8136ce10c43713f0da805f76",
-    "transport_bytes": 511277,
-    "width": 1536,
-    "height": 1024,
+    "reviewed_path": "owl-pet/production/reviewed/178-otus-insularis-v3-reviewed-master.png",
+    "reviewed_blob": "a0addd9b13f01c379abc957cb714c169bc0ab60e",
     "edit_count": 1,
-    "edit_reason": "recent-fledgling wing was too long/hard and large dark opening could read as reconstructed nest cavity",
-    "preliminary_inspection": "edited juvenile wing shorter/softer and reduced cavity to shallow fissure; exact title/name/count/order/labels, evidence-based fuller female, same morph, fully bare tarsi, supported fluffy barred recent fledgling and no nest interior pass",
+    "review_record": "owl-pet/research/reviews/178-otus-insularis-v3-review.md",
+    "review_crops": [
+      "owl-pet/production/review-crops/178-otus-insularis-v3-adults.png",
+      "owl-pet/production/review-crops/178-otus-insularis-v3-recent-fledgling.png"
+    ],
+    "crop_blobs": [
+      "b7bbfec52f6f9a4d422cf1a97baf14f5275b01e5",
+      "3734befbb693a12c413901c0acead1b1fed159c9"
+    ],
+    "reinspection": "final full-colour plate, adult crop, recent-fledgling crop and 32-colour transport opened; fuller but not exaggerated female, same morph, bare tarsi, supported fluffy/barred young with shorter soft wing and shallow fissure context pass",
+    "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-07T16:13:00+08:00"
+    "lease_expires_at": "2026-11-07T16:15:00+08:00"
   },
   "last_verification_commit": "e289f9ab8aa90091d60ba73f6217b3f56d3adcf8",
   "timestamps": {
@@ -54517,7 +54628,7 @@
     "VERIFIED": "2026-11-07T14:47:44+08:00",
     "LEDGER_CREDITED": "2026-11-07T14:48:36+08:00",
     "STARTED": "2026-11-07T14:49:45+08:00",
-    "reviewed_at": "2026-11-07T15:42:00+08:00",
+    "reviewed_at": "2026-11-07T16:00:00+08:00",
     "archived_at": "2026-11-07T15:45:00+08:00",
     "verified_at": "2026-11-07T15:46:00+08:00",
     "ledger_credited_at": "2026-11-07T15:47:00+08:00",

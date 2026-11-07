@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T09:29:00+08:00",
+  "updated": "2026-11-07T09:31:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27023,13 +27023,13 @@
       "archive_commit_pending": false,
       "readback_pending": false,
       "exact_readback": true,
-      "ledger_credited": false,
+      "ledger_credited": true,
       "evidence_limit": "Species-specific juvenile age, feather timetable, iris chronology and first-flight threshold remain unknown; published visible juvenile identity was questioned; no verified quantitative sex comparison; Mikkola upload unavailable.",
       "archive_encoding": "1536x1024 indexed PNG, 96-color no-dither; full-resolution imagegen output palette-optimized only for complete GitHub connector transfer; full-colour local SHA values retained in run record and not falsely marked as remotely verified.",
       "archive_commit": "beff61214ecd9048a35513d6b8761a887a3e0612",
       "archive_tree": "ec68397afe48ef6604e58a6689a07d4cd1adc46a",
       "verified_at": "2026-11-07T09:29:00+08:00",
-      "verification_commit_pending": true,
+      "verification_commit_pending": false,
       "readback": {
         "method": "immutable archive exact path/blob/size plus non-truncated recursive tree and manifest cross-check",
         "required_paths": 17,
@@ -27043,7 +27043,10 @@
           "production": 753
         },
         "connector_full_binary_stream_readback": false
-      }
+      },
+      "verification_commit": "e44fb4425e676ebd14692fa02c3d5037b8f8760a",
+      "verification_tree": "a6959ef608fc88e39b6bcb161e7508d4c230db4d",
+      "ledger_credited_at": "2026-11-07T09:31:00+08:00"
     }
   ],
   "updated_at": "2026-11-07T08:20:00+08:00"

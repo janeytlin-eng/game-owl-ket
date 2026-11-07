@@ -1,3 +1,7 @@
+### #160 v3 LEDGER_CREDITED — active batch 4/6
+
+Verification `e44fb4425e676ebd14692fa02c3d5037b8f8760a` was read back after archive `beff61214ecd9048a35513d6b8761a887a3e0612`. Cycle 4 credited once; next cycle 5; lease released. Unique 176/251; revision +1; science false.
+
 ### #160 *Tyto inexspectata* v3 immutable archive VERIFIED — ledger credit pending
 
 Archive `beff61214ecd9048a35513d6b8761a887a3e0612` / tree `ec68397afe48ef6604e58a6689a07d4cd1adc46a` returned 3,710 non-truncated entries. Seventeen required paths and six exact binary path/blob/byte tuples passed; manifests 762/763/753 match. PASS_WITH_LIMITATIONS; science false; ledger credit pending.

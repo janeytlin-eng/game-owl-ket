@@ -32372,14 +32372,14 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T20:49:00+08:00",
-      "current_stage": "ARCHIVED",
+      "updated_at": "2026-11-07T20:50:00+08:00",
+      "current_stage": "VERIFIED",
       "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T203821+0800-cycle-4",
-        "heartbeat_at": "2026-11-07T20:49:00+08:00",
-        "expires_at": "2026-11-07T21:04:00+08:00"
+        "heartbeat_at": "2026-11-07T20:50:00+08:00",
+        "expires_at": "2026-11-07T21:05:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -32389,7 +32389,7 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261107T203821+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-        "stage": "ARCHIVED"
+        "stage": "VERIFIED"
       },
       "active": null,
       "stage_events": [
@@ -33001,6 +33001,40 @@
             "scientifically_verified": false,
             "readback_pending": true,
             "lease_expires_at": "2026-11-07T21:04:00+08:00"
+          }
+        },
+        {
+          "cycle": 4,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T20:50:00+08:00",
+          "run_id": "20261107T203821+0800-cycle-4",
+          "species_id": 201,
+          "species": "Otus mantananensis",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
+            "archive_tree": "246bb0c63dcd0fa1a16dde7e54b040e90bb4972d",
+            "required_paths_verified": 18,
+            "exact_binary_paths_verified": 8,
+            "unique_binary_streams_read_back": 6,
+            "tree_entries": 3921,
+            "tree_truncated": false,
+            "manifest_counts": {
+              "design_legacy": 787,
+              "design_image": 786,
+              "production": 777
+            },
+            "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+            "initial_source_blob": "b5f8b48de7eb0417675eafcc3128a1cdd216fbc9",
+            "edited_source_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
+            "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+            "reviewed_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+            "full_binary_stream_readback": true,
+            "browser_renderer": false,
+            "verification_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "ledger_credit_pending": true,
+            "lease_expires_at": "2026-11-07T21:05:00+08:00"
           }
         }
       ]
@@ -56824,28 +56858,32 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-07T20:49:00+08:00",
-  "stage": "ARCHIVED",
+  "updated": "2026-11-07T20:50:00+08:00",
+  "stage": "VERIFIED",
   "stage_evidence": {
-    "concept": "owl-pet/design/concepts/201-otus-mantananensis-v3.png",
-    "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-    "initial_source": "owl-pet/production/generated/201-otus-mantananensis-v3-initial-full-color.jpg",
-    "edited_source": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
-    "generated": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
-    "reviewed": "owl-pet/production/reviewed/201-otus-mantananensis-v3-reviewed-master.png",
-    "review_crops": 3,
+    "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
+    "archive_tree": "246bb0c63dcd0fa1a16dde7e54b040e90bb4972d",
+    "required_paths_verified": 18,
+    "exact_binary_paths_verified": 8,
+    "unique_binary_streams_read_back": 6,
+    "tree_entries": 3921,
+    "tree_truncated": false,
     "manifest_counts": {
       "design_legacy": 787,
       "design_image": 786,
       "production": 777
     },
-    "unique_species_count": 176,
-    "total_species": 251,
-    "unique_species_increment": 0,
-    "revision_increment": 1,
+    "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+    "initial_source_blob": "b5f8b48de7eb0417675eafcc3128a1cdd216fbc9",
+    "edited_source_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
+    "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+    "reviewed_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+    "full_binary_stream_readback": true,
+    "browser_renderer": false,
+    "verification_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false,
-    "readback_pending": true,
-    "lease_expires_at": "2026-11-07T21:04:00+08:00"
+    "ledger_credit_pending": true,
+    "lease_expires_at": "2026-11-07T21:05:00+08:00"
   },
   "last_verification_commit": "2e10f20b7a524a9c18c35765e6523d7e1c571391",
   "timestamps": {

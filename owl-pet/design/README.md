@@ -3351,6 +3351,4 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 - Science revision: full 2009 nest paper read; exceptional ground nest not generalized. Grey/yellow-brown adults with short tufts; age-unknown older immature; one wing/tail softening edit. PASS_WITH_LIMITATIONS, science=false.
 
 
-### #201 *Otus mantananensis* v3 — verified rule application pending remote readback
-
-Applied the evidence-backed “juvenile unknown” rule: when the species account says juvenile unknown and only a different subspecies has an identified juvenile image, show an older supported bird with compact soft wing/tail, state the cross-population limit, and do not promote it to a nominate developmental description. This rule was actually applied and visually rechecked in v3; remote archive verification is still pending.
+Verification follow-up for #201 v3: immutable archive commit `4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9` passed exact path/blob and complete-stream checks; the compact soft-wing juvenile correction remained the reviewed concept. This validates that the rule was both applied and archived, not that the unknown juvenile biology was resolved.

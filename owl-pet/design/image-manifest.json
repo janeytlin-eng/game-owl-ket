@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T20:49:00+08:00",
+  "updated": "2026-11-07T20:50:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29119,9 +29119,36 @@
         }
       ],
       "archive_note": "Initial full plate was opened; one targeted juvenile wing/tail edit was made. Edited full colour, transport master and three crops were reopened. Mikkola explicitly reports juvenile unknown, so cross-population romblonis appearance is labelled as a limit. Scientific verification remains false.",
-      "readback_pending": true,
-      "archive_commit_pending": true
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "exact_readback": true,
+      "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
+      "fixed_archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
+      "verified_at": "2026-11-07T20:50:00+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "immutable archive commit recursive-tree exact path/blob check plus six complete base64 stream readbacks; local edited full/master/crop inspection",
+        "tree_sha": "246bb0c63dcd0fa1a16dde7e54b040e90bb4972d",
+        "tree_count": 3921,
+        "recursive_tree_truncated": false,
+        "paths_verified": 18,
+        "binary_paths_verified": 8,
+        "unique_binary_streams_read_back": 6,
+        "all_git_blobs_match": true,
+        "full_binary_stream_readback": true,
+        "concept": {
+          "path": "design/concepts/201-otus-mantananensis-v3.png",
+          "blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+          "size_bytes": 717007
+        },
+        "manifest_counts": {
+          "design_legacy": 787,
+          "design_image": 786,
+          "production": 777
+        },
+        "ledger_readback": true
+      }
     }
   ],
-  "updated_at": "2026-11-07T20:49:00+08:00"
+  "updated_at": "2026-11-07T20:50:00+08:00"
 }

@@ -32387,14 +32387,14 @@
       "next_cycle": 5,
       "active_cycle": 5,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T21:18:00+08:00",
-      "current_stage": "ARCHIVED",
+      "updated_at": "2026-11-07T21:21:00+08:00",
+      "current_stage": "VERIFIED",
       "ledger_credit_pending": true,
       "lease": {
         "owner": "codex-root",
         "run_id": "20261107T205300+0800-cycle-5",
-        "heartbeat_at": "2026-11-07T21:18:00+08:00",
-        "expires_at": "2026-11-07T21:33:00+08:00"
+        "heartbeat_at": "2026-11-07T21:21:00+08:00",
+        "expires_at": "2026-11-07T21:36:00+08:00"
       },
       "in_progress": {
         "cycle": 5,
@@ -32410,7 +32410,7 @@
         "run_id": "20261107T205300+0800-cycle-5",
         "species_id": 184,
         "species": "Otus spilocephalus",
-        "stage": "ARCHIVED"
+        "stage": "VERIFIED"
       },
       "stage_events": [
         {
@@ -33212,6 +33212,38 @@
               "edited_bytes": 449610,
               "lossless_master_unchanged": true
             }
+          }
+        },
+        {
+          "cycle": 5,
+          "stage": "VERIFIED",
+          "at": "2026-11-07T21:21:00+08:00",
+          "run_id": "20261107T205300+0800-cycle-5",
+          "species_id": 184,
+          "species": "Otus spilocephalus",
+          "credited": false,
+          "evidence": {
+            "archive_commit": "a7072a5d122738f7775835e7c0ababcf83420088",
+            "archive_tree": "e1312e06612501342c7e4bd2f183dd9607646c10",
+            "required_paths_verified": 19,
+            "exact_binary_paths_verified": 8,
+            "unique_binary_streams_read_back": 6,
+            "tree_entries": 3933,
+            "tree_truncated": false,
+            "concept_blob": "11a6a3a91be4c16eb00a6d47b4ce4a9a404c0b9a",
+            "concept_bytes": 728553,
+            "initial_source_blob": "b57727f384c1fdeacda70aae2b760d2c143bc471",
+            "initial_source_bytes": 471886,
+            "edited_source_blob": "61d00de6098d374325f8e75033e657534ea66b41",
+            "edited_source_bytes": 449610,
+            "full_binary_stream_readback": true,
+            "manifest_counts": {
+              "design_legacy": 788,
+              "design_image": 787,
+              "production": 778
+            },
+            "scientifically_verified": false,
+            "ledger_credit_pending": true
           }
         }
       ]

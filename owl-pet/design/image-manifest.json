@@ -29228,9 +29228,35 @@
         }
       ],
       "archive_note": "Initial and edited plates were opened. One targeted juvenile-wing/support edit was made; edited full colour, transport master and three crops were reopened. Taiwan sources bound the juvenile only as a recent fledgling, so age/sex/iris/flight details remain unknown. JPEG source transports were recompressed after the first immutable readback exposed connector truncation above 1,048,592 base64 characters; the lossless PNG concept/master is unchanged.",
-      "readback_pending": true,
-      "archive_commit_pending": true,
-      "exact_readback": false
+      "readback_pending": false,
+      "archive_commit_pending": false,
+      "exact_readback": true,
+      "archive_commit": "a7072a5d122738f7775835e7c0ababcf83420088",
+      "fixed_archive_commit": "a7072a5d122738f7775835e7c0ababcf83420088",
+      "verified_at": "2026-11-07T21:21:00+08:00",
+      "readback": {
+        "status": "VERIFIED_EVIDENCE",
+        "method": "immutable archive commit recursive-tree exact path/blob check plus six complete base64 stream readbacks; local edited full/master/crop inspection",
+        "tree_sha": "e1312e06612501342c7e4bd2f183dd9607646c10",
+        "tree_count": 3933,
+        "recursive_tree_truncated": false,
+        "paths_verified": 19,
+        "binary_paths_verified": 8,
+        "unique_binary_streams_read_back": 6,
+        "all_git_blobs_match": true,
+        "full_binary_stream_readback": true,
+        "concept": {
+          "path": "design/concepts/184-otus-spilocephalus-v3.png",
+          "blob": "11a6a3a91be4c16eb00a6d47b4ce4a9a404c0b9a",
+          "size_bytes": 728553
+        },
+        "manifest_counts": {
+          "design_legacy": 788,
+          "design_image": 787,
+          "production": 778
+        },
+        "ledger_readback": false
+      }
     }
   ],
   "updated_at": "2026-11-07T21:15:00+08:00"

@@ -36155,8 +36155,8 @@
       "next_cycle": 2,
       "active_cycle": 2,
       "started_at": "2026-11-08T02:35:50+08:00",
-      "updated_at": "2026-11-08T02:56:10+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-08T02:57:16+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-owl-production",
@@ -36164,15 +36164,15 @@
         "batch_id": "20261108T023550+0800",
         "cycle": 2,
         "species_id": 39,
-        "heartbeat_at": "2026-11-08T02:56:10+08:00",
-        "expires_at": "2026-11-08T03:11:10+08:00"
+        "heartbeat_at": "2026-11-08T02:57:16+08:00",
+        "expires_at": "2026-11-08T03:12:16+08:00"
       },
       "in_progress": {
         "cycle": 2,
         "species_id": 39,
         "species": "Glaucidium griseiceps",
         "version": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_id": "20261108T024902+0800-cycle-2"
       },
       "active": true,
@@ -36482,6 +36482,58 @@
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-08T03:11:10+08:00"
           }
+        },
+        {
+          "batch_id": "20261108T023550+0800",
+          "cycle": 2,
+          "stage": "REVIEWED",
+          "at": "2026-11-08T02:57:16+08:00",
+          "run_id": "20261108T024902+0800-cycle-2",
+          "species_id": 39,
+          "species": "Glaucidium griseiceps",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/39-glaucidium-griseiceps-v5-reviewed-master.png",
+            "reviewed_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+            "edit_count": 0,
+            "imagegen_invocations": 1,
+            "review_record": "owl-pet/research/reviews/39-glaucidium-griseiceps-v5-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-male.png",
+              "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-female.png",
+              "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-juvenile.png"
+            ],
+            "crop_blobs": [
+              "4b55d330d99a1ab703ff71508bf0b8068d3cb5c2",
+              "5fc37564ba9e0cfd0d2ad47e5cfe840c7e4319fa",
+              "d530c33603781e72fda89c180d43536d478db72e"
+            ],
+            "actual_views": [
+              "generated full plate",
+              "adult male crop",
+              "adult female crop",
+              "juvenile crop"
+            ],
+            "checks": {
+              "identity": "PASS",
+              "male_occipital_pattern": "PASS_WITH_LIMITATION",
+              "sex_direction": "PASS_WITH_LIMITATION",
+              "juvenile_stage": "PASS_WITH_LIMITATIONS",
+              "support": "PASS",
+              "text_labels": "PASS",
+              "habitat": "PASS"
+            },
+            "unknowns": [
+              "exact juvenile age and sex",
+              "iris chronology",
+              "juvenile flight capability and independence",
+              "population-level sexual size direction",
+              "diagnostic value of the partially visible occipital pattern"
+            ],
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-08T03:12:16+08:00"
+          }
         }
       ]
     }
@@ -36643,10 +36695,10 @@
     "batch_id": "20261108T023550+0800",
     "cycle": 2,
     "species_id": 39,
-    "heartbeat_at": "2026-11-08T02:56:10+08:00",
-    "expires_at": "2026-11-08T03:11:10+08:00"
+    "heartbeat_at": "2026-11-08T02:57:16+08:00",
+    "expires_at": "2026-11-08T03:12:16+08:00"
   },
-  "last_updated_at": "2026-11-08T02:56:10+08:00",
+  "last_updated_at": "2026-11-08T02:57:16+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -42276,7 +42328,7 @@
   ],
   "active_batch_id": "20261108T023550+0800",
   "active_cycle": 2,
-  "current_stage": "IMAGE_GENERATED",
+  "current_stage": "REVIEWED",
   "next_cycle": 2,
   "unique_species_count": 176,
   "total_species": 251,
@@ -45300,6 +45352,58 @@
         "preliminary_inspection": "Full plate opened. Exact title/count/labels and all-foot support passed. Adults are near equal; male shows lateral/partial nape view but the occipital false-eye is not fully legible. Wet age-unknown juvenile is low on leaf litter against a buttress root, with muted dark iris, plain wet back, compact closed wing, concealed tail and no flight or nest claim. Detailed crops opened next.",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-08T03:11:10+08:00"
+      }
+    },
+    {
+      "batch_id": "20261108T023550+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-08T02:57:16+08:00",
+      "run_id": "20261108T024902+0800-cycle-2",
+      "species_id": 39,
+      "species": "Glaucidium griseiceps",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/39-glaucidium-griseiceps-v5-reviewed-master.png",
+        "reviewed_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+        "edit_count": 0,
+        "imagegen_invocations": 1,
+        "review_record": "owl-pet/research/reviews/39-glaucidium-griseiceps-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-male.png",
+          "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-female.png",
+          "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-juvenile.png"
+        ],
+        "crop_blobs": [
+          "4b55d330d99a1ab703ff71508bf0b8068d3cb5c2",
+          "5fc37564ba9e0cfd0d2ad47e5cfe840c7e4319fa",
+          "d530c33603781e72fda89c180d43536d478db72e"
+        ],
+        "actual_views": [
+          "generated full plate",
+          "adult male crop",
+          "adult female crop",
+          "juvenile crop"
+        ],
+        "checks": {
+          "identity": "PASS",
+          "male_occipital_pattern": "PASS_WITH_LIMITATION",
+          "sex_direction": "PASS_WITH_LIMITATION",
+          "juvenile_stage": "PASS_WITH_LIMITATIONS",
+          "support": "PASS",
+          "text_labels": "PASS",
+          "habitat": "PASS"
+        },
+        "unknowns": [
+          "exact juvenile age and sex",
+          "iris chronology",
+          "juvenile flight capability and independence",
+          "population-level sexual size direction",
+          "diagnostic value of the partially visible occipital pattern"
+        ],
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-08T03:12:16+08:00"
       }
     }
   ],
@@ -53082,6 +53186,58 @@
         "preliminary_inspection": "Full plate opened. Exact title/count/labels and all-foot support passed. Adults are near equal; male shows lateral/partial nape view but the occipital false-eye is not fully legible. Wet age-unknown juvenile is low on leaf litter against a buttress root, with muted dark iris, plain wet back, compact closed wing, concealed tail and no flight or nest claim. Detailed crops opened next.",
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-08T03:11:10+08:00"
+      }
+    },
+    {
+      "batch_id": "20261108T023550+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-08T02:57:16+08:00",
+      "run_id": "20261108T024902+0800-cycle-2",
+      "species_id": 39,
+      "species": "Glaucidium griseiceps",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/39-glaucidium-griseiceps-v5-reviewed-master.png",
+        "reviewed_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+        "edit_count": 0,
+        "imagegen_invocations": 1,
+        "review_record": "owl-pet/research/reviews/39-glaucidium-griseiceps-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-male.png",
+          "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-adult-female.png",
+          "owl-pet/production/review-crops/39-glaucidium-griseiceps-v5-juvenile.png"
+        ],
+        "crop_blobs": [
+          "4b55d330d99a1ab703ff71508bf0b8068d3cb5c2",
+          "5fc37564ba9e0cfd0d2ad47e5cfe840c7e4319fa",
+          "d530c33603781e72fda89c180d43536d478db72e"
+        ],
+        "actual_views": [
+          "generated full plate",
+          "adult male crop",
+          "adult female crop",
+          "juvenile crop"
+        ],
+        "checks": {
+          "identity": "PASS",
+          "male_occipital_pattern": "PASS_WITH_LIMITATION",
+          "sex_direction": "PASS_WITH_LIMITATION",
+          "juvenile_stage": "PASS_WITH_LIMITATIONS",
+          "support": "PASS",
+          "text_labels": "PASS",
+          "habitat": "PASS"
+        },
+        "unknowns": [
+          "exact juvenile age and sex",
+          "iris chronology",
+          "juvenile flight capability and independence",
+          "population-level sexual size direction",
+          "diagnostic value of the partially visible occipital pattern"
+        ],
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-08T03:12:16+08:00"
       }
     }
   ]

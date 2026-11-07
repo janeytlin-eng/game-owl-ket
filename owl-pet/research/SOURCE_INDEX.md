@@ -3368,3 +3368,10 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Reused **CPO-HOWELL-ROBBINS-1995-P17-20**, **CPO-BUCHANAN-1964-P104-106**, **CPO-MEDINA-ETAL-2022-P8-9**, **CPO-MIKKOLA-2013-P385-386** and the bounded **CPO-BITRAN-2018-JUV** lead without duplicating their source records.
 - Mikkola upload unavailable; only the repository transcription was reused.
 - Exact immature age/sex, soft-part ontogeny, flight threshold, feather sequence, occupied nest geometry and universal sex-size/tail-bar ratios remain unknown. Full prompt and decisions: [#171 v3 research](species/171-glaucidium-palmarum-v3.md). Scientific verification remains false.
+
+
+## 2026-11-07 — #172 *Tyto castanops* v3 — taxonomic conflict, strong sex dimorphism and age-label correction
+- **TMO-YOUNG-BELL-MOONEY-2021-P13-18** — Young, Bell & Mooney 2021, AFO 38:13–18, DOI 10.20938/afo38013018; https://afo.birdlife.org.au/afo/index.php/afo/article/download/2209/2230 ; full paper read. Radio-tracked juvenile female/adult female/adult male; extreme reverse size dimorphism; Huon Valley forest–pasture/riparian mature-Stringybark hollow context. Juvenile was post-fledging by behaviour, not nestling plumage evidence. Suspected nest interior uninspected.
+- **TMO-ITIS-686716-2026** — ITIS TSN 686716, accessed 2026-11-07; current subspecies *T. n. castanops* and synonym mapping to *T. castanops*/*Strix castanops*. Taxonomy only.
+- **TMO-GOULD-1838-BHL-LEAD** — BHL metadata/DOI 10.5962/p.363668 read; article open returned 403. Unverified descriptive-text lead, not morphology evidence.
+- Reused TMO-ABSA-2019-P2 and TMO-DEBUS-WOOD-2007-P49-52. V3 withdraws exact “~5-week” castanops label; age-unknown cream mesoptile only. Exact chronology/flight/nest interior unknown; science=false. [Research](species/172-tyto-castanops-v3.md).

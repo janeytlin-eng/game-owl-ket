@@ -33531,14 +33531,14 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T22:32:35+08:00",
-      "updated_at": "2026-11-07T23:34:00.468+08:00",
-      "current_stage": "IMAGE_GENERATED",
+      "updated_at": "2026-11-07T23:35:17.488+08:00",
+      "current_stage": "REVIEWED",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work",
         "run_id": "20261107T230149+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T23:34:00.468+08:00",
-        "expires_at": "2026-11-07T23:49:00.468+08:00"
+        "heartbeat_at": "2026-11-07T23:35:17.488+08:00",
+        "expires_at": "2026-11-07T23:50:17.488+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -33546,7 +33546,7 @@
         "species_id": 28,
         "species": "Glaucidium perlatum",
         "version": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261107T230149+0800-cycle-3.md"
       },
       "active": {
@@ -33555,7 +33555,7 @@
         "species_id": 28,
         "species": "Glaucidium perlatum",
         "version": 5,
-        "stage": "IMAGE_GENERATED",
+        "stage": "REVIEWED",
         "run_record": "owl-pet/production/runs/20261107T230149+0800-cycle-3.md"
       },
       "stage_events": [
@@ -33920,6 +33920,50 @@
             "persistence_note": "The exact 2.93 MB built-in PNG exceeded the connector base64 response ceiling; a visually checked 1536×1024 quality-94 full-colour JPEG plus 112-colour PNG master are persisted. Exact PNG hash/bytes retained in run evidence.",
             "lease_expires_at": "2026-11-07T23:49:00.468+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "batch_id": "20261107T223235+0800",
+          "cycle": 3,
+          "stage": "REVIEWED",
+          "at": "2026-11-07T23:35:17.488+08:00",
+          "run_id": "20261107T230149+0800-cycle-3",
+          "species_id": 28,
+          "species": "Glaucidium perlatum",
+          "credited": false,
+          "evidence": {
+            "reviewed_path": "owl-pet/production/reviewed/28-glaucidium-perlatum-v5-reviewed-master.png",
+            "review_record": "owl-pet/research/reviews/28-glaucidium-perlatum-v5-review.md",
+            "review_crops": [
+              "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-adult-male.png",
+              "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-juvenile.png",
+              "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-adult-female.png"
+            ],
+            "crop_blobs": [
+              "8fe42355facea98fad0617913bae29a21716ee43",
+              "08c1df3a2ec6d53939597b7a22ec637eac3c5d02",
+              "2347cd3d5ca4c033a4a09239ec881006aba68d33"
+            ],
+            "edit_count": 0,
+            "imagegen_invocations": 1,
+            "actual_views": [
+              "full-colour plate",
+              "112-colour transport master",
+              "adult male crop",
+              "juvenile crop",
+              "adult female crop"
+            ],
+            "checks": {
+              "identity": "PASS",
+              "sex_direction": "PASS_WITH_LIMITATION",
+              "juvenile_stage": "PASS_WITH_LIMITATIONS",
+              "support": "PASS",
+              "text_labels": "PASS",
+              "habitat": "PASS"
+            },
+            "review_result": "PASS_WITH_LIMITATIONS",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T23:50:17.488+08:00"
           }
         }
       ]
@@ -41126,6 +41170,50 @@
         "lease_expires_at": "2026-11-07T23:49:00.468+08:00",
         "scientifically_verified": false
       }
+    },
+    {
+      "batch_id": "20261107T223235+0800",
+      "cycle": 3,
+      "stage": "REVIEWED",
+      "at": "2026-11-07T23:35:17.488+08:00",
+      "run_id": "20261107T230149+0800-cycle-3",
+      "species_id": 28,
+      "species": "Glaucidium perlatum",
+      "credited": false,
+      "evidence": {
+        "reviewed_path": "owl-pet/production/reviewed/28-glaucidium-perlatum-v5-reviewed-master.png",
+        "review_record": "owl-pet/research/reviews/28-glaucidium-perlatum-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-adult-male.png",
+          "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-juvenile.png",
+          "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "8fe42355facea98fad0617913bae29a21716ee43",
+          "08c1df3a2ec6d53939597b7a22ec637eac3c5d02",
+          "2347cd3d5ca4c033a4a09239ec881006aba68d33"
+        ],
+        "edit_count": 0,
+        "imagegen_invocations": 1,
+        "actual_views": [
+          "full-colour plate",
+          "112-colour transport master",
+          "adult male crop",
+          "juvenile crop",
+          "adult female crop"
+        ],
+        "checks": {
+          "identity": "PASS",
+          "sex_direction": "PASS_WITH_LIMITATION",
+          "juvenile_stage": "PASS_WITH_LIMITATIONS",
+          "support": "PASS",
+          "text_labels": "PASS",
+          "habitat": "PASS"
+        },
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-07T23:50:17.488+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261107T183000+0800",
@@ -41137,7 +41225,7 @@
     "species_id": 28,
     "species": "Glaucidium perlatum",
     "version": 5,
-    "stage": "IMAGE_GENERATED"
+    "stage": "REVIEWED"
   },
   "events": [
     {
@@ -47770,32 +47858,47 @@
       "credited_at": "2026-11-07T23:01:04.770+08:00"
     }
   ],
-  "updated": "2026-11-07T23:34:00.468+08:00",
-  "stage": "IMAGE_GENERATED",
+  "updated": "2026-11-07T23:35:17.488+08:00",
+  "stage": "REVIEWED",
   "stage_evidence": {
-    "full_color_source": "owl-pet/production/generated/28-glaucidium-perlatum-v5-full-color.jpg",
-    "full_color_blob": "4f928a62bcf566f9cf63aeec7224749d63d919b7",
-    "full_color_bytes": 752547,
-    "full_color_sha256": "d7e69b4ad831ecc6f01e4944678f2ca6ddbdf78130371e4bdefc23bc37ea9273",
-    "generated_master": "owl-pet/production/generated/28-glaucidium-perlatum-v5-generated-master.png",
-    "generated_blob": "9b3ccd1edf1f46774ef83f0b4b318088ef59f63a",
-    "generated_bytes": 718675,
-    "generated_sha256": "b547906072b68ba2883409b4fd797701535c78fb563d4567e1ddae2158ba904e",
-    "local_builtin_png_sha256": "b2487a0c793dcb5b1100acb726fb029f258dd5fb0cc108f86a51a00e41dc5722",
-    "local_builtin_png_bytes": 2928302,
-    "geometry": "1536x1024",
-    "generation_seconds": 47.227,
+    "reviewed_path": "owl-pet/production/reviewed/28-glaucidium-perlatum-v5-reviewed-master.png",
+    "review_record": "owl-pet/research/reviews/28-glaucidium-perlatum-v5-review.md",
+    "review_crops": [
+      "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-adult-male.png",
+      "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-juvenile.png",
+      "owl-pet/production/review-crops/28-glaucidium-perlatum-v5-adult-female.png"
+    ],
+    "crop_blobs": [
+      "8fe42355facea98fad0617913bae29a21716ee43",
+      "08c1df3a2ec6d53939597b7a22ec637eac3c5d02",
+      "2347cd3d5ca4c033a4a09239ec881006aba68d33"
+    ],
     "edit_count": 0,
-    "preliminary_inspection": "Full plate and juvenile crop opened. Exactly three birds; exact title/scientific name/role labels; near-equal adult crown height; same adult plumage; one coherent paired nape false-eye pattern; all six feet supported; juvenile is low, downy, compact-winged and short-tailed with dim iris and no flight pose. No image edit required.",
-    "persistence_note": "The exact 2.93 MB built-in PNG exceeded the connector base64 response ceiling; a visually checked 1536×1024 quality-94 full-colour JPEG plus 112-colour PNG master are persisted. Exact PNG hash/bytes retained in run evidence.",
-    "lease_expires_at": "2026-11-07T23:49:00.468+08:00",
-    "scientifically_verified": false
+    "imagegen_invocations": 1,
+    "actual_views": [
+      "full-colour plate",
+      "112-colour transport master",
+      "adult male crop",
+      "juvenile crop",
+      "adult female crop"
+    ],
+    "checks": {
+      "identity": "PASS",
+      "sex_direction": "PASS_WITH_LIMITATION",
+      "juvenile_stage": "PASS_WITH_LIMITATIONS",
+      "support": "PASS",
+      "text_labels": "PASS",
+      "habitat": "PASS"
+    },
+    "review_result": "PASS_WITH_LIMITATIONS",
+    "scientifically_verified": false,
+    "lease_expires_at": "2026-11-07T23:50:17.488+08:00"
   },
   "last_verification_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
   "timestamps": {
     "RESEARCH_READY": "2026-11-07T23:31:29.786+08:00",
     "IMAGE_GENERATED": "2026-11-07T23:34:00.468+08:00",
-    "REVIEWED": "2026-11-07T22:57:01.313+08:00",
+    "REVIEWED": "2026-11-07T23:35:17.488+08:00",
     "ARCHIVED": "2026-11-07T22:59:17.142+08:00",
     "VERIFIED": "2026-11-07T23:00:33.396+08:00",
     "LEDGER_CREDITED": "2026-11-07T23:01:04.770+08:00",

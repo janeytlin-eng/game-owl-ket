@@ -1,5 +1,42 @@
 
 
+## 2026-11-08 — #37 *Glaucidium peruanum* v5 — juvenile-record correction and taxonomy refresh
+
+### PEPO-LUTHI-2011
+- **Title / author / year:** “Birdwatching in Peru: 1963–2006” / Hansjakob Lüthi / 2011, *Revista Peruana de Biología* 18(1):27–90.
+- **URL / accessed:** https://www.scielo.org.pe/pdf/rpb/v18n1/a04v18n1.pdf / 2026-11-08.
+- **Type / stages:** primary long-term field observations; adults plus age-unknown young/juvenile.
+- **Pages/lines:** printed p.49, species 128; extracted lines 2129–2154.
+- **Evidence:** pair on 2–3 m adobe walls, sometimes with a third “probably young”; later a pair on an adobe wall with a juvenile at some distance; deciduous/riparian forest, montane scrub, gardens, old-willow roosts and alarm tail-flicking.
+- **Correction/limit:** restores two *G. peruanum* juvenile observations that v4 wording over-excluded; the later text after the *Athene cunicularia* heading remains excluded. No exact age, plumage series, nest proof or flight test.
+- **Design link:** [v5 research](species/37-glaucidium-peruanum-v5.md); v5 image pending.
+
+### PEPO-GREENEY-2020
+- **Title / authors / year:** “Notes on the breeding biology of the Tumbesian avifauna…” / Greeney et al. / 2020.
+- **DOI / URL / accessed:** https://doi.org/10.18272/reo.vi6.1146 ; https://revistas.usfq.edu.ec/index.php/reo/en/article/view/1146 / 2026-11-08.
+- **Type / scope:** primary compilation of breeding records; repository extraction at printed p.37.
+- **Evidence:** two 2006 records and one nest in a hollowed-out Pale-legged Hornero nest.
+- **Limits:** no known-age growth series or flight threshold; not used to depict the adobe ledge as a nest.
+
+### PEPO-ITIS-2025
+- **Title / institution:** “Glaucidium peruanum”, TSN 555454 / ITIS; IOC v15.1 source acquired 2025.
+- **URL / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555454&source=to_print / 2026-11-08.
+- **Sections:** taxonomy lines 6–32; references lines 49–75.
+- **Evidence/limit:** valid scientific name and Peruvian/Pacific English names only; no morphology/development.
+
+### PEPO-AVIBASE-2026
+- **Title / institution:** “Glaucidium peruanum (Pacific Pygmy Owl)” / Avibase.
+- **URL / accessed:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=7C26D709EBD5F72C / 2026-11-08.
+- **Sections:** lines 35–72, 88–95, 164–190.
+- **Evidence:** protonym, König 1991 citation, type locality and current-authority common-name mapping.
+- **Limits:** nomenclature/range only; no development evidence.
+
+### Reused evidence and access limits
+- **PEPO-KONIG-1991:** printed pp.56–61 prior repository extraction reused; direct PDF fetch returned HTTP 403 this run.
+- **SRC-BOOK-037-01:** Mikkola printed pp.398–399 prior repository extraction reused; uploaded guide unavailable this run.
+- **PEPO-PF-2026 / PEPO-MACIAS-2015:** retained only for the uncertainty boundary; no exact juvenile age or flight claim.
+
+
 ## 2026-11-08 — #36 *Glaucidium bolivianum* v5 — primary-diagnosis correction and juvenile boundary
 
 ### YPOW-KONIG-1991

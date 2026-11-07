@@ -281,3 +281,21 @@ Edit this existing Cinereous Owl scientific plate only where needed. Preserve th
 
 Correct the feet of all three birds: add natural short dense feathering along each toe all the way to the base of the dark claw, matching Cinereous/Barred-type feathered toes. Keep the claws visible and every foot firmly gripping the branch. Do not make fluffy snowshoe feet and do not hide the support geometry. Do not alter the birds’ faces, labels, wings, tails, body size or habitat. Add no birds, text, nest, eggs, prey or flight.
 ```
+
+
+## 175 *Otus ireneae* v3 — cycle 6
+
+```text
+Create a polished 1536×1024 landscape scientific owl-pet plate in the repository’s established premium tactile naturalistic 3D maquette style.
+
+Title exactly “175 SOKOKE SCOPS OWL · Otus ireneae”. Exactly three complete birds on one low branching perch in dense coastal *Cynometra* forest: left “ADULT MALE”, centre “ADULT FEMALE”, right “AGE-UNKNOWN FLEDGLING”.
+
+Adults: same standing height and near-equal bulk; no evidence supports sexual size difference. Both are the same grey-to-dark-brown morph, not sex-coded. Very small scops owls with tiny relaxed ear tufts, pale-yellow eyes, light greenish-yellow bills, pinkish-grey ceres, feathered tarsi, grey-yellow toes and dark claws. Blackish crown streaks, mottled/spotted grey-brown mantle, broken whitish scapular stripe, fine dark vermiculation and subtly barred wing/tail; faint darker facial-disc lines only.
+
+Fledgling: smaller and softer, neutral dark/indeterminate iris, tiny soft tufts, adult-like basic grey-brown pattern but looser contour, short rounded folded wing with fewer hard layers, short tail resting on/above branch, both feet gripping. It is directly bounded as an age-unknown fledgling; do not state exact age, sex or first-flight threshold.
+
+Environment: dense lower *Cynometra* canopy and tangled East African coastal-forest understory, soft neutral daylight. The intensive 2001 search failed to find a nest; show no cavity, nest box, eggs or nest material.
+
+Avoid female-larger stereotype, sex-coded colour morphs, tall ear tufts, bright-yellow fledgling iris, adult-hard fledgling wing, unsupported feet, flight action, nest reconstruction, extra birds/text, prey, watermark or orange grading.
+
+```

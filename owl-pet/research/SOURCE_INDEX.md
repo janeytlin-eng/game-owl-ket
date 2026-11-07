@@ -3390,3 +3390,27 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **CIO-AOS-2021-P263** — newly indexed/revalidated checklist source, DOI 10.1093/ornithology/ukab037. Species rank, protonym and pine/pine–oak habitat; taxonomy only.
 - **CIO-MEXICANBIRDING-2020-PHOTO** — newly read supplemental living-adult photograph/page, Antonio Robles, Rancho La Noria July 2020: https://www.mexicanbirding.com/cinereous-owl/ . Adult/habitat corroboration; sex unconfirmed and not a measurement study.
 - Exact fledgling age/sex, feather chronology, nest/clutch, flight onset and species-specific sex-size ratio remain unknown. Mikkola upload unavailable. [Research](species/174-strix-sartorii-v3.md). Science=false.
+
+
+## 2026-11-07 — #175 *Otus ireneae* v3 — fledgling records and failed nest search
+
+### SSO-CAMERON-2002-P30-35
+- **Title / author / source:** “Nest Quest,” Alison Cameron, *Swara* 25(2), May–August 2002, pp.30–35.
+- **Original URL:** https://eawildlife.org/archive/swaraonline/swaras/swaraIssues/EAWLS_SwaraMagazine_02_2002.pdf
+- **Accessed:** 2026-11-07; full article text read, especially printed pp.31, 33–35.
+- **Type / taxa / stage:** field project account; *Otus ireneae* adults and fledglings.
+- **Useful facts:** pp.31 states only a few reliable fledgling records and three adult colour morphs; sightings clustered mid-February–early April. pp.33 describes one juvenile inferred to have fledged near project start but gives no exact age or plumage chronology. pp.34–35 reports hundreds of potential holes in *Cynometra webberi* and *Brachylaena huillensis* and explicitly says the project failed to locate a nest.
+- **Limits / confidence:** direct project narrative, not a measured development series; “fledged” timing is inferred. High for search outcome and habitat, moderate for timing. It supports an age-unknown branch-perched fledgling and forbids a claimed nest interior.
+
+### SSO-BIRDLIFE-DATAZONE-2026
+- **Title / institution:** Sokoke Scops-owl species factsheet, BirdLife DataZone.
+- **URL:** https://datazone.birdlife.org/species/factsheet/sokoke-scops-owl-otus-ireneae
+- **Accessed:** 2026-11-07; ecology section read.
+- **Facts:** strongest Kenya densities in good-quality *Cynometra* forest; roosts/forages in dense lower canopy; natural cavities in large/old *Brachylaena* remain a possibility rather than a documented nest.
+- **Limits:** institutional synthesis; not juvenile morphology evidence. Supports dense lower-canopy environment only.
+
+### SSO-RIPLEY-1966-P136-LEAD
+- **Title / author:** Ripley 1966 original description, *Ibis* 108:136.
+- **URL:** linked from Center for Biological Diversity Global Owl Project description index: https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Otus.html
+- **Accessed:** 2026-11-07; bibliographic index entry read; linked scan not recovered in this execution.
+- **Status:** **unverified lead**, not used for morphology decisions.

@@ -3508,3 +3508,38 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **MAYS-COMMONS-NONOMANE-2025-ADULT** — Nonomane, `Otus mayottensis.jpg`, 13 Feb 2025, https://commons.wikimedia.org/wiki/File:Otus_mayottensis.jpg . Full CC0 page and displayed 2296×4080 living-bird photo read. Species-level compact outline, short tufts, yellow eyes and grey-brown pattern only; sex/age unknown.
 - **MAYS-OISEAUX-BAUER-2008-ADULT** — Mikael Bauer, adult at Combani Forest Reserve, Dec 2008, https://www.oiseaux.net/photos/mikael.bauer/petit-duc.de.mayotte.1.html . Adult field calibration; sex unknown.
 - Reused primary museum **MAYS-MNHN-VOISIN-2011-P15-16**, repository transcription **MAYS-MIKKOLA-2013-P139**, and **MAYS-ITIS-686656-2026**. Museum source confirms one undated immature only; exact age/iris/flight/feather sequence/nest remain unknown. [Research](species/179-otus-mayottensis-v3.md). Science=false.
+
+
+## 2026-11-07 — #184 *Otus spilocephalus hambroecki* v2 additions
+
+### MOSO-COMMONS-ARNDT-2024-TAICHUNG
+- **Title / author / date:** “Mountain Scops-Owl *Otus spilocephalus hambroecki* in Taichung City, Republic of China”; Friedemann Arndt; photographed 2024-09-24, Commons upload history 2026.
+- **URL:** https://commons.wikimedia.org/wiki/File:Mountain_Scops-Owl_Otus_spilocephalus_hambroecki_in_Taichung_City,_Republic_of_China.jpg
+- **Accessed / type:** 2026-11-07; licensed living-bird photograph (CC BY 4.0), original 2400×1364, actually opened.
+- **Taxon / stage:** Taiwan race *O. s. hambroecki*; age and sex not supplied.
+- **Useful facts:** calibrates compact outline, short tufts, tea/rufous-brown adult-like colour, yellow eyes, cream bill and feathered legs.
+- **Section / figure:** full file page and original image, Commons lines 100–146.
+- **Limits / confidence:** visual calibration only; no sex, age or measurement claim. High for depicted individual, not population range.
+- **Design support:** adult outline and soft-part palette for #184 v2; cannot support dimorphism.
+
+### MOSO-COMMONS-ATOANO44-2018-JUV
+- **Title / author / date:** “Mountain scops owl juv”; Atoano44; 2018-05-26.
+- **URL:** https://commons.wikimedia.org/wiki/File:Mountain_scops_owl_juv.jpg
+- **Accessed / type:** 2026-11-07; licensed field photograph (CC BY-SA 4.0), original 3749×2503, actually opened.
+- **Taxon / stage:** *O. spilocephalus* juvenile photographed at Sattal, India; not Taiwan race.
+- **Useful facts:** documents a naturally perched juvenile with fluffy/soft body plumage and formed but compact wings.
+- **Section / figure:** full file page/original; Commons lines 102–149 and description lines 121–124.
+- **Limits / confidence:** cross-subspecies and no exact age/sex; excludes transfer of colour, iris chronology, flight threshold or Taiwan-race detail.
+- **Design support:** posture/support and soft-vs-formed wing boundary only for #184 v2.
+
+### MOSO-NTM-TMAV4405-2021
+- **Title / institution / date:** 黃嘴角鴞 specimen TMAV4405; National Taiwan Museum; specimen collected 2014-04-14, identified 2021-03-17.
+- **URL:** https://collections.culture.tw/ntm_collectionsweb/Collection?GID=MSMPMEMRMQMAMRMLME
+- **Accessed / type:** 2026-11-07; museum specimen catalogue and displayed specimen figure, actually opened.
+- **Taxon / stage:** *O. s. hambroecki*; sex and age not supplied.
+- **Useful facts:** independent Taiwan-race specimen with bill 9.87 mm, wing 138.72 mm, tail 80.74 mm, tarsus 36.71 mm.
+- **Section / figure:** catalogue lines 19–55; displayed collection figure 1.
+- **Limits / confidence:** one prepared skin; body-posture, live colour and dimorphism cannot be inferred.
+- **Design support:** confirms compact proportions only; not a sex-size rule.
+
+**Mapping:** *Otus spilocephalus* → adult morphology: MOSO-COMMONS-ARNDT-2024-TAICHUNG, MOSO-NTM-TMAV4405-2021; older juvenile support/wing boundary: MOSO-COMMONS-ATOANO44-2018-JUV (cross-subspecies limit); reused foundation: MOSO-MIKKOLA-2013-P148, MOSO-NTM-HAMBROECKI-2026, MOSO-AVIBASE-HAMBROECKI-2026.

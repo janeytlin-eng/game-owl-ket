@@ -366,3 +366,16 @@ Adults: compact short-tailed grey-brown Mayotte Scops Owls, short low ear tufts,
 
 Older immature: museum-confirmed but undated, adult-like overall yet visibly softer/less regular, dark/indeterminate iris, tiny soft tufts, compact rounded partly formed wing with fewer hard layers, mostly hidden short tail, both feet gripping and belly naturally supported. Do not call it chick or assign age/flight. No nest/cavity/eggs. Avoid adult-hard layered immature remiges, long horn tufts, bold white shoulder patches, sex-size stereotype, unsupported feet, flight or extra text. PASS_WITH_LIMITATIONS; science=false.
 ```
+
+
+## 2026-11-07 — #184 *Otus spilocephalus hambroecki* v2
+
+```text
+Use case scientific-educational. Create one 1536×1024 premium naturalistic 3D owl-pet triptych for #184 MOUNTAIN SCOPS OWL, italic Otus spilocephalus, Taiwan race Otus spilocephalus hambroecki only; historical Ephialtes Hambroecki / Otus hambroecki only. Exactly three complete birds on one broad mossy supported branch at humid low/mid-elevation Taiwan primary broadleaf-forest edge. Exact labels ADULT MALE, ADULT FEMALE, AGE-UNKNOWN OLDER JUVENILE. No other text/birds.
+
+Adults: compact small Taiwan Mountain Scops Owls, short indistinct ear tufts, yellow eyes, cream-yellow bill, tea/warm rufous-brown plumage, dark facial-disc border, pale brows joining the tufts as a restrained V, dark vermiculations above, pale scapular row, barred remiges/tail, feathered tarsi and exposed pink-brown toes. Same plumage and near-equal body scale; do not make female generally larger because the Taiwan museum states sexes are alike and supplies no dimorphism magnitude. The newly viewed 2024 Taichung hambroecki photograph calibrates compact outline, tea-brown colour, yellow eyes, cream bill and feathered legs only because sex/age are not supplied.
+
+Older juvenile: Taiwan museum description only supports yellowish/rufous-brown, fluffier and less distinct markings that darken/sharpen with age. Render an age-unknown older juvenile, smaller/rounder and visibly softer than adults, blurred narrow crown bars and broader soft back bars, faint below, dark/indeterminate iris, compact rounded partly formed wings shorter/softer than adults, short mostly hidden tail, both feet gripping and belly naturally supported. A viewed juvenile photo from Sattal, India is a cross-subspecies posture/soft-body reference only; do not transfer its colour as Taiwan-race evidence or claim exact age/flight.
+
+No nest interior, eggs or hatchling; a shallow bark fissure is acceptable but must not reconstruct a cavity. Avoid sex-size stereotype, long horn tufts, bright white shoulder patches, adult-hard juvenile wing layers, exposed long tail, unsupported feet, flight or extra text. PASS_WITH_LIMITATIONS; science=false.
+```

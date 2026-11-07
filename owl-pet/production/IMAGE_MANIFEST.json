@@ -27916,10 +27916,19 @@
       "auxiliary_review_crop_blob": "dd4df2c062db7ad3fe19f39fae33de7d06657ab0",
       "auxiliary_review_crop_sha256": "339219196f2d82912594bbc7541c699df68081215b6be856df00cca9edd900d7",
       "auxiliary_review_crop_size_bytes": 1587619,
-      "archive_commit_pending": true,
-      "readback_pending": true,
-      "ledger_credited": false
+      "archive_commit_pending": false,
+      "readback_pending": false,
+      "ledger_credited": false,
+      "archive_commit": "994b1bcd4b68ee39547de2c25cadf81dd0c5fa62",
+      "archive_tree": "060ed350186490df114d8651b80c8cb8c31ceab6",
+      "verified_at": "2026-11-07T16:45:00+08:00",
+      "connector_full_binary_stream_readback": false,
+      "browser_original_access_readback": true,
+      "connector_binary_readback_error": "UnicodeDecodeError on repository PNG; Git tree blob/size and GitHub rendered original page independently verified",
+      "required_paths_verified": 15,
+      "tree_entries": 3860,
+      "tree_truncated": false
     }
   ],
-  "updated_at": "2026-11-07T16:42:00+08:00"
+  "updated_at": "2026-11-07T16:45:00+08:00"
 }

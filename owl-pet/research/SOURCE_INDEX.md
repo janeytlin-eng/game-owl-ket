@@ -3232,3 +3232,30 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Facts:** Alberta sample (n=445) found average female mass/wing chord above male means and a 93% model; authors caution that regional calibration is required.
 - **Limits / design use:** overlapping distributions and migrant sample; only a subtle fuller female, never deterministic enlargement.
 - **Links:** #162 v2 research, prompt and review.
+
+
+## 2026-11-07 — #163 *Glaucidium gnoma* v3 — species-limit boundary and supported mesoptile
+
+### GNOMA-DESHLER-2020-RSD-ABSTRACT — newly read abstract
+- **Title / author / year:** *Higher reversed sexual size dimorphism among nesting pairs of Northern Pygmy-Owls (Glaucidium gnoma) in northwestern Oregon than among specimens collected at the range-wide scale* — John F. Deshler, 2020.
+- **DOI / URL / type / location / accessed:** https://doi.org/10.1676/19-132 ; https://www.researchgate.net/publication/351181106_Higher_reversed_sexual_size_dimorphism_among_nesting_pairs_of_Northern_Pygmy-Owls_Glaucidium_gnoma_in_northwestern_Oregon_than_among_specimens_collected_at_the_range-wide_scale ; journal abstract, lines 18–21; accessed 2026-11-07.
+- **Facts:** Oregon breeding females averaged heavier and longer-winged than males; range-wide material overlapped more.
+- **Limits / decision:** pre/current-split broad name and Oregon population make direct application to current Mountain *G. gnoma* uncertain. Supports only subtle female-fuller direction and rejection of a fixed standing-height ratio.
+
+### NPO-MACAULAY-418673981-2008 — newly read institutional field record
+- **Institution / contributor / date:** Cornell Lab Macaulay Library ML418673981; John Deshler; 11 June 2008.
+- **URL / type / lines / accessed:** https://macaulaylibrary.org/asset/418673981 ; institutional field video record with observer notes, lines 54–106; accessed 2026-11-07.
+- **Facts:** observer describes a 23–24-day nestling making a short flight from a stump nest with an unusually large natural side opening.
+- **Limits / decision:** Oregon broad-name population, unusual nest opening, and unresolved current-species mapping. Not used for a day label, flight action, or large side-opening cavity in Mountain *G. gnoma* v3.
+
+### NPO-DESHLER-MURPHY-2012-CONDOR-P314-322 — reused and freshly re-opened
+- **Title / authors / year:** *The Breeding Biology of the Northern Pygmy Owl: Do the Smallest of the Small Have an Advantage?* — John F. Deshler & Michael T. Murphy, 2012.
+- **DOI / URL / pages / type:** https://doi.org/10.1525/cond.2012.100140 ; https://academic.oup.com/condor/article/114/2/314/5152768 ; primary breeding study, pp.314–322.
+- **Facts:** c.30-day incubation and mean c.27-day nestling period in northwestern Oregon.
+- **Limits / decision:** broad-name Oregon study and no daily plumage series; not used to reconstruct current Mountain *G. gnoma* feather chronology.
+
+### Reuse, conflict, and design boundary
+- Reused repository page-verified Mikkola printed p.375/PDF p.377, ORI and Owl Pages evidence. The uploaded guide itself was unavailable in this execution.
+- Direct v2 inspection found already-corrected neutral-dark juvenile iris but an oversized theatrical central hollow and adult–juvenile–adult order. V3 uses adult male–adult female–supported mesoptile order, a modest illustrative woodpecker-cavity lip, and one adult three-quarter turn to expose a nape false-eye patch.
+- Unknown: current-species juvenile age/iris/flight threshold and daily feather sequence; exact sex-specific standing height; measured cavity geometry. Scientific verification remains false.
+- Source accounting: new verified 2; reused and freshly re-opened 1; earlier page-verified sources reused 3; source-conflict boundary added 1.

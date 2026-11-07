@@ -146,3 +146,20 @@ Revision target from v1: specifically remove the juvenile's adult-like pale wing
 
 Text constraints: exact title, exact italic scientific name, exact three role labels only. No other prose, legends, logos or watermark.
 ```
+
+
+## #163 v3 — *Glaucidium gnoma* — batch 20261107T103800+0800 cycle 1/6
+
+### Generation / edit from directly inspected v2
+
+```text
+Use case: scientific-educational.
+Create a new 1536×1024 landscape owl-pet triptych revision for #163 Mountain Pygmy Owl, Glaucidium gnoma. Exactly three whole birds, ordered left-to-right: ADULT MALE, ADULT FEMALE, MESOPTILE JUVENILE. Readable title MOUNTAIN PYGMY OWL, italic Glaucidium gnoma, exact bottom labels ADULT MALE, ADULT FEMALE, MESOPTILE JUVENILE. Approved tactile high-detail naturalistic 3D character concept art; restrained warm dawn light, no photoreal photo collage.
+
+Adult identity: tiny compact round-headed owl without ear tufts; yellow irises, horn-yellow bill/cere direction, short pale brows, fine irregular pale crown speckles, pale-spotted brown back and scapulars, paired dark nape false-eye patches edged pale, short pale-barred tail. Underparts: plain pale throat and cleaner lower-breast centre, with brown streaking/mottling concentrated along breast and flanks rather than uniform decorative rows. Show the female in a slight three-quarter turn so a scientifically important nape false-eye patch is legible while her real face remains visible.
+Sex boundary: same standing height and near-equal linear scale. Female only subtly fuller/heavier and slightly browner; do not impose a large standing-height difference.
+Juvenile boundary: age-unknown supported mesoptile, gray fluffy body, smooth unspotted gray crown, grayer cere, visible irises neutral dark rather than adult-yellow, short soft folded wing and very short tail with no adult spot rows and no long mature remiges. The juvenile is stationary at the lip of a modest old woodpecker cavity in a broken pine-oak snag; both feet and belly naturally supported, no flight action.
+Environment: cool montane Mexican pine-oak/conifer forest, lichen and moss on a naturally forked branch and modest dead-snag cavity entrance. Keep cavity geometry visually plausible but not measured or diagrammatic.
+Composition: adults share the main branch; juvenile at the right cavity lip; all six feet visible or clearly supported; no bird overlaps that obscures diagnostic plumage.
+Avoid: large theatrical hollow trunk, Oregon-specific fledgling claims, exact day label, unsupported flight ability, bright yellow juvenile irises, adult-like juvenile wings/tail, large female, ear tufts, repeated bead-like spots, uniform breast stripes, extra birds, eggs, prey, watermark, misspelled labels.
+```

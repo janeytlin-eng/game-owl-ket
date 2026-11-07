@@ -28570,21 +28570,21 @@
       "next_cycle": 1,
       "active_cycle": 1,
       "started_at": "2026-11-07T10:38:00+08:00",
-      "updated_at": "2026-11-07T10:38:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-07T10:42:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T103800+0800-cycle-1",
-        "heartbeat_at": "2026-11-07T10:38:00+08:00",
-        "expires_at": "2026-11-07T10:53:00+08:00"
+        "heartbeat_at": "2026-11-07T10:42:00+08:00",
+        "expires_at": "2026-11-07T10:57:00+08:00"
       },
       "in_progress": {
         "cycle": 1,
         "species_id": 163,
         "species": "Glaucidium gnoma",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T103800+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
       },
@@ -28593,7 +28593,7 @@
         "species_id": 163,
         "species": "Glaucidium gnoma",
         "version": 3,
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_id": "20261107T103800+0800-cycle-1",
         "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md"
       },
@@ -28612,6 +28612,27 @@
             "selection_note": "#163 Glaucidium gnoma is the current manifest species with archived v1/v2 and no v3; misnumbered historical #163 Athene cunicularia is preserved but excluded by authoritative duplicate correction",
             "lease_expires_at": "2026-11-07T10:53:00+08:00",
             "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 1,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T10:42:00+08:00",
+          "run_id": "20261107T103800+0800-cycle-1",
+          "species_id": 163,
+          "species": "Glaucidium gnoma",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/163-glaucidium-gnoma-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "new_sources": 2,
+            "reused_sources": 4,
+            "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
+            "direct_v2_review": true,
+            "design_boundary": "same-height adult pair; female subtly fuller; age-unknown supported gray mesoptile; modest illustrative cavity lip",
+            "mikkola_access": "repository page-verified transcription reused; upload unavailable this execution",
+            "scientifically_verified": false,
+            "lease_expires_at": "2026-11-07T10:57:00+08:00"
           }
         }
       ]
@@ -47648,13 +47669,18 @@
   "ledger_credit_pending": false,
   "last_verified_commit": "04a29769901001886ef01710ee622a98b57731d6",
   "completed_cycles": 5,
-  "updated": "2026-11-07T10:38:00+08:00",
-  "stage": "STARTED",
+  "updated": "2026-11-07T10:42:00+08:00",
+  "stage": "RESEARCH_READY",
   "stage_evidence": {
-    "run_record": "owl-pet/production/runs/20261107T103800+0800-cycle-1.md",
-    "baseline_main": "e0785f66d1b7bfe58311984e4867cd4b33d9cb25",
-    "selection_note": "#163 Glaucidium gnoma is the current manifest species with archived v1/v2 and no v3; misnumbered historical #163 Athene cunicularia is preserved but excluded by authoritative duplicate correction",
-    "lease_expires_at": "2026-11-07T10:53:00+08:00",
-    "scientifically_verified": false
+    "research_record": "owl-pet/research/species/163-glaucidium-gnoma-v3.md",
+    "source_index": "owl-pet/research/SOURCE_INDEX.md",
+    "new_sources": 2,
+    "reused_sources": 4,
+    "prompt_record": "owl-pet/production/PROMPTS_FULL.md",
+    "direct_v2_review": true,
+    "design_boundary": "same-height adult pair; female subtly fuller; age-unknown supported gray mesoptile; modest illustrative cavity lip",
+    "mikkola_access": "repository page-verified transcription reused; upload unavailable this execution",
+    "scientifically_verified": false,
+    "lease_expires_at": "2026-11-07T10:57:00+08:00"
   }
 }

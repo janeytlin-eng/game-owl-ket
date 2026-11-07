@@ -4049,3 +4049,10 @@ Verification `c46cef4ce9f9059ac013207b1e8fa13c061d91e0` was read back after arch
 
 - Verification `32ffd7b47affd2bfb624aec1a8d10611fb12f073` and repaired archive `5027ec7ab4f4e447c1f40e543075650056ca3707` read back.
 - Credited cycle 1/6 exactly once; next cycle 2. Coverage 176/251; revision +1; science=false; lease released.
+
+
+## 2026-11-08 — #39 *Glaucidium griseiceps* v5 ARCHIVED (readback pending)
+
+- Official 2008 species record and Wetmore 1968 pp.167–168 re-read; ITIS nomenclature refreshed. New source records 0, re-read/reused 3.
+- Full plate and all three role crops opened. Wet age-unknown juvenile on leaf litter/root passed; male false-eye is only partial; no edit.
+- PASS_WITH_LIMITATIONS, science=false. Manifests staged at 805 / 802 / 795; coverage remains 176/251; revision +1; immutable readback pending.

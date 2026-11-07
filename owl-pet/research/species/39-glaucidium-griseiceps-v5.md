@@ -34,4 +34,12 @@ Environment: humid tropical primary forest around 650 m in the middle Magdalena 
 
 ## Scientific status
 
-Pending image generation and visual review; evidence remains insufficient for full scientific verification.
+PASS_WITH_LIMITATIONS after actual full-plate and role-crop review. Evidence remains insufficient for full scientific verification; male false-eye is only partial in the image and all juvenile developmental thresholds remain unknown.
+
+
+## Archive checkpoint
+
+- Archived: 2026-11-08T02:59:04+08:00
+- Image: `owl-pet/design/concepts/39-glaucidium-griseiceps-v5.png`
+- Review: `owl-pet/research/reviews/39-glaucidium-griseiceps-v5-review.md`
+- Result: PASS_WITH_LIMITATIONS; scientifically_verified=false; readback pending.

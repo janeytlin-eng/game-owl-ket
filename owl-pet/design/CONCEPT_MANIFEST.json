@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T02:47:08+08:00",
+  "updated": "2026-11-08T02:59:04+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -30353,7 +30353,88 @@
       "verified_at": "2026-11-08T02:47:08+08:00",
       "exact_readback": true,
       "verification_result": "Immutable repaired archive tree was non-truncated (4,109 entries). All 21 required paths were present. Nine binary paths matched expected Git blob SHA and exact byte size: initial 3,472,234; final reused by five paths at 3,180,310; three distinct crops at 776,951 / 753,015 / 800,500. Manifests parsed at 804/801/794 with #38 v5 newest. Connector full-body blob streaming returned UNKNOWN for large binaries, but path/tree SHA and byte verification succeeded."
+    },
+    {
+      "id": "39-glaucidium-griseiceps-v5",
+      "path": "design/concepts/39-glaucidium-griseiceps-v5.png",
+      "species_id": 39,
+      "scientific_name": "Glaucidium griseiceps",
+      "historical_names": [
+        "Glaucidium griseiceps occultum",
+        "Glaucidium griseiceps rarum",
+        "Glaucidium minutissimum rarum (historical treatment)"
+      ],
+      "common_name": "Central American Pygmy Owl",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "imagegen_invocations": 1,
+      "status": "V5 preserves v2–v4 and re-reads the official 2008 wet forest-floor juvenile record plus Wetmore 1968 adult/immature diagnosis. Adults stay near equal because one longer-winged female versus three males cannot establish a population rule. The age-unknown juvenile is rain-soaked, dark-eyed, plain-backed and fully supported on wet leaf litter/root with no nest, fall, flight or independence claim. Adult false-eye is only partially legible, so science remains false.",
+      "source_ids": [
+        "CAPO-MORENO-RODRIGUEZ-2008-REREAD",
+        "CAPO-WETMORE-1968-REREAD",
+        "CAPO-ITIS-2025-REREAD"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/39-glaucidium-griseiceps-v5.md",
+      "review_record": "research/reviews/39-glaucidium-griseiceps-v5-review.md",
+      "run_record": "production/runs/20261108T024902+0800-cycle-2.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 3302821,
+      "sha256": "6f7981a69e47bcb0089c5f22d439e11c438e23ff5204a19dee6ad15f897edb30",
+      "git_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+      "initial_original_path": "production/generated/39-glaucidium-griseiceps-v5-initial-original.png",
+      "initial_original_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+      "initial_original_size_bytes": 3302821,
+      "initial_original_sha256": "6f7981a69e47bcb0089c5f22d439e11c438e23ff5204a19dee6ad15f897edb30",
+      "final_original_path": "production/generated/39-glaucidium-griseiceps-v5-final-original.png",
+      "final_original_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+      "final_original_size_bytes": 3302821,
+      "final_original_sha256": "6f7981a69e47bcb0089c5f22d439e11c438e23ff5204a19dee6ad15f897edb30",
+      "full_color_source_path": "production/generated/39-glaucidium-griseiceps-v5-full-color.png",
+      "full_color_source_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+      "full_color_source_size_bytes": 3302821,
+      "full_color_source_sha256": "6f7981a69e47bcb0089c5f22d439e11c438e23ff5204a19dee6ad15f897edb30",
+      "generated_path": "production/generated/39-glaucidium-griseiceps-v5-generated-master.png",
+      "generated_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+      "generated_size_bytes": 3302821,
+      "reviewed_path": "production/reviewed/39-glaucidium-griseiceps-v5-reviewed-master.png",
+      "reviewed_blob": "5ffcbe3d8f88694b02324cd3016f685de089d0eb",
+      "reviewed_size_bytes": 3302821,
+      "review_crops": [
+        {
+          "path": "production/review-crops/39-glaucidium-griseiceps-v5-adult-male.png",
+          "blob": "4b55d330d99a1ab703ff71508bf0b8068d3cb5c2",
+          "size_bytes": 822368,
+          "sha256": "e1f8e97743f0a11dce8c4286041b2744c58d995394dac5d536476116ad811e28"
+        },
+        {
+          "path": "production/review-crops/39-glaucidium-griseiceps-v5-adult-female.png",
+          "blob": "5fc37564ba9e0cfd0d2ad47e5cfe840c7e4319fa",
+          "size_bytes": 814922,
+          "sha256": "4ccfde5ec11351e462cef0e9cb9145118729b8dea2af515db2c7dcf04913f057"
+        },
+        {
+          "path": "production/review-crops/39-glaucidium-griseiceps-v5-juvenile.png",
+          "blob": "d530c33603781e72fda89c180d43536d478db72e",
+          "size_bytes": 889657,
+          "sha256": "dbf99e980b5f7438b410e68c16463f0cda9c4438c5b542679b6fc62ebe0d82ea"
+        }
+      ],
+      "archive_note": "Full plate and all three role crops opened. First render passed without edit. Partial male false-eye and evidence-limited juvenile details are explicitly retained as limitations. Immutable readback pending.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T02:47:08+08:00"
+  "updated_at": "2026-11-08T02:59:04+08:00"
 }

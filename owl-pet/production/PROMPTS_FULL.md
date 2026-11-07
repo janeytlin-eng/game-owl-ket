@@ -232,3 +232,22 @@ Adults are compact small forest eagle-owls with diagnostic yellow to greenish-ye
 Young: age unknown, nearly white/pale cream body with widely spaced reddish-brown bars, dark-looking eyes only as a photo-visible cross-check, weak fuzzy tufts, compact round posture, abundant soft edges. Folded wings must be short and soft with simplified pale/brown barring, no crisp adult spot rows; tail short and mostly hidden. Both feet and lower body naturally supported low on the branch. Do not claim exact age, sex, flight ability, first-flight timing or a continuous feather sequence.
 
 Environment: broad mossy mid-canopy branch at a humid Gold Coast-to-Gabon lowland forest edge under neutral overcast/open shade, deep green foliage and lianas, no orange sunset. This is not an active nest: no eggs, cavity, ground scrape, prey or human object. Distinct asymmetric faces/silhouettes, anatomically sound wings/toes.
+
+
+## 170 *Glaucidium sanchezi* v3 — 2026-11-07
+
+Create a polished 1536×1024 landscape scientific owl-pet concept plate in the established premium stylized 3D natural-history maquette look.
+
+Title exactly: “170 TAMAULIPAS PYGMY-OWL · Glaucidium sanchezi”
+Show exactly three complete owls on a naturally supportive mossy forked branch in neutral daylight within intact north-eastern Mexican montane cloud forest. Order left to right and label exactly: “ADULT MALE”, “ADULT FEMALE”, “AGE-UNKNOWN IMMATURE”.
+
+All birds: extremely small compact round-headed pygmy-owls, absolutely no ear tufts; yellow irises; pale horn to yellow-green bill/cere; feathered tarsi, yellowish bristled toes and dark-tipped claws; both feet visibly gripping natural support; longish but compact barred tails; subtle nape false-eye pattern visible through slightly different head angles.
+
+Adult male: grey-olive to olive-brown crown/nape/upperparts, only reduced fine pale cinnamon/whitish forecrown flecks, pale cinnamon wing-covert spots, whitish underparts with narrow dark olive-tawny streaks, tail with about five or six broken pale bars.
+Adult female: same structural height and only subtly fuller, never dramatically larger; distinctly more cinnamon/rufous crown, nape and upperparts, richer rufous-brown underpart streaks and buff/cinnamon tail bars. Do not encode colour morph as age.
+Age-unknown immature: visibly smaller and softer but not a helpless chick; plain dusky-grey unspotted crown and nape contrasting with browner upperparts, very sparse forehead flecks, softer round contour, a compact formed folded wing whose end is high on the flank with diffuse irregular edging rather than crisp repeated adult spot rows, short partly concealed supported tail, dark/indeterminate-looking eyes rather than an invented adult-yellow claim; stationary low crouch with both feet gripping the fork. Do not assign exact age, sex or flight ability.
+
+Use three distinct natural poses, comparable scale and clear diagnostic comparison. No nest interior or cavity reconstruction.
+
+Avoid ear tufts, enormous female, generic white scapular patches, bold continuous white eyebrows, adult crown spotting on the immature, long hard immature primaries, crisp regular adult wing spots on the immature, long flight-ready tail, unsupported feet, eggs, prey, extra birds, extra labels, decorative border, warm sunset grading.
+

@@ -3312,3 +3312,33 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **AKUN-SHARPE-BATES-1904-P443** — R.B. Sharpe; 1904; *Ibis* p.443, Efulen 1902–03 series; https://upload.wikimedia.org/wikipedia/commons/0/02/The_Ibis_%28IA_ibis841904brit%29.pdf ; accessed 2026-11-07. Facts: adult males much darker (one blackish), females predominantly reddish-brown. Limits: small historical regional series; phases/locality/specimen effects unresolved. Design: subtle male-darker/female-rufous contrast only, science=false.
 - **AKUN-NATURALIS-TYPES-2023-P178** — van der Mije, Kamminga & Dekker; 2023; *ZooKeys* 1155, p.178, DOI 10.3897/zookeys.1155.98097; type catalogue; https://zookeys.pensoft.net/article/98097/download/pdf/ ; accessed 2026-11-07. Facts: sexed adult male/female syntypes RMNH.AVES.88284–88285 from Dabocrom, Ghana; historical name mapping. Design: taxonomic/sex specimen corroboration only.
 - Reused: **AKUN-TOBIAS-WILLIAMS-2022-P76-77**, **AKUN-KING-2022-JUV**, **AKUN-MIKKOLA-2013-P278**. Links: [research](species/168-ketupa-leucosticta-v3.md); v3 image pending.
+
+
+## 2026-11-07 — #170 *Glaucidium sanchezi* v3 — original diagnosis, current name and evidence-bounded immature
+
+### TPO-LOWERY-NEWMAN-1949-P2-3 — newly read original species description
+- **Title / authors / year:** “New Birds from the State of San Luis Potosí and the Tuxtla Mountains of Veracruz, México,” G. H. Lowery Jr. & R. J. Newman, 1949, *Occasional Papers of the Museum of Zoology* 22.
+- **URL:** https://www.biologicaldiversity.org/campaigns/global_owl_project/descriptions/Glaucidium/Glaucidium%20sanchezi%20(Lowery%20%26%20Newman)%201949,%20Occasional%20Papers%20of%20the%20Museum%20of%20Zoology,%20Louisiana.PDF
+- **Accessed / type:** 2026-11-07; primary taxonomic/specimen description; all four PDF pages opened, printed pp.2–3 used.
+- **Species/stage:** adult male holotype, adult female comparison and age-uncertain immature/young material from north-eastern Mexico.
+- **Facts:** tiny earless pygmy-owl; adult male olive/grey-brown with reduced pale forecrown flecks, false-eye nape marks, pale-spotted coverts and barred tail; adult female is distinctly more cinnamon/rufous, especially crown/nape/upperparts and underpart streaks. The immature diagnosis supports a plainer dusky-grey crown/nape and less adult-like head pattern, but the prepared skins do not establish exact age, living soft parts, posture, nest or flight.
+- **Design/check use:** encode the documented male greyer versus female more rufous palette; keep structural standing height near-equal and female only subtly fuller. Use an explicitly age-unknown older immature with formed but compact/soft folded wing, shortened supported tail and full bilateral perch contact.
+- **Limitations/confidence:** high for described skins and name; no growth sequence, quantified population sex ratio or locomotor test.
+
+### TPO-UNAM-MZFC-1999 — newly read institutional specimen record
+- **Institution/title/year:** Museo de Zoología Alfonso L. Herrera / UNAM, *Glaucidium sanchezi* specimen record; assigned 1999.
+- **URL:** https://repositorio.unam.mx/contenidos/ficha/glaucidium-sanchezi-lowery-newman-1949-1689410
+- **Accessed/type:** 2026-11-07; university museum collection metadata, page sections “Procedencia,” “Cita” and “Descripción.”
+- **Facts/use:** independently confirms current specimen identity in the MZFC bird collection and the Lowery & Newman name; taxonomy/provenance only.
+- **Limitations:** the opened record does not provide sex, age, measurements, plumage or development; no visual detail transferred.
+
+### TPO-ITIS-555452-2026 — newly read current-name authority
+- **Institution/accessed:** Integrated Taxonomic Information System, TSN 555452; accessed 2026-11-07.
+- **URL:** https://itis.gov/servlet/SingleRpt/SingleRpt?print_version=PRT&search_topic=TSN&search_value=555452&source=to_print
+- **Facts/use:** valid species *Glaucidium sanchezi* Lowery & R. J. Newman, 1949; verified-standards record referencing IOC v15.1 and Clements. Current/old-name mapping only.
+- **Limitations:** no morphology, sex or juvenile evidence.
+
+### Reuse and unresolved limits
+- Reused repository record **TPO-MIKKOLA-2013-P384** and v2 research boundaries; the user-uploaded guide itself was unavailable in this execution, so no new page-reading claim is made.
+- A 2025 Cornell/Macaulay adult asset (ML647795249) was found, but direct page access was bot-blocked; only catalogue metadata was read and it is not used as visual evidence.
+- Exact immature age/sex, iris and bill ontogeny, flight threshold, daily feather sequence, occupied nest geometry and quantified sex-size ratio remain unknown. Scientific verification remains false.

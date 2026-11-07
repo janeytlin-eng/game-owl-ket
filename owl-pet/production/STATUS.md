@@ -3742,3 +3742,6 @@ Verification commit `ff05129f`; accepted archive `02518c3e`; science revision +1
 ### #171 v3 LEDGER_CREDITED — batch 2/6
 
 Verification commit `b807ad5456d853e782e50b95ef82c3050b8de44b` was read back after immutable archive `93198752ae4141afa5f9450157fe1aae1bc926b4` / tree `819b1ac1dd78d0f1264f64b3a46ab7b6f81785cf`. Cycle 2 is credited exactly once; batch `20261107T140000+0800` is PARTIAL 2/6 with next_cycle=3 and lease released. Unique species remains 176/251; revision +1; science false.
+
+
+- #172 v3 ARCHIVED: *Tyto castanops* age label corrected from exact ~5 weeks to AGE-UNKNOWN MESOPTILE; adult female-fuller/darker direction retained without height caricature. Full board and both crops passed with 0 edits. Manifests 773/774/764; unique 176/251; science=false; immutable readback pending.

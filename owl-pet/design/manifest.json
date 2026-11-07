@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T15:10:00+08:00",
+  "updated": "2026-11-07T15:37:00+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -27877,7 +27877,69 @@
       "verification_commit": "b807ad5456d853e782e50b95ef82c3050b8de44b",
       "verification_tree": "bcec6c5469880a83e8ecd319fc47bdf6122efd66",
       "ledger_credited_at": "2026-11-07T15:10:00+08:00"
+    },
+    {
+      "id": "172-tyto-castanops-v3",
+      "path": "design/concepts/172-tyto-castanops-v3.png",
+      "species_id": 172,
+      "scientific_name": "Tyto castanops",
+      "historical_names": [
+        "Tyto novaehollandiae castanops",
+        "Strix castanops"
+      ],
+      "common_name": "Tasmanian Masked Owl",
+      "version": 3,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "status": "v3科学校准。新读Young、Bell & Mooney 2021完整论文和ITIS TSN 686716；Gould 1838仅保留为未核验元数据线索；复用ABSA形态测量、Debus & Wood指名亚种发育序列、Mikkola转录及Australian Museum。撤回v2“约5周”精确日龄，改为年龄未知中雏绒羽期。雄鸟较小较浅，雌鸟更丰满更深色但不作倍高夸张；幼鸟厚奶油色绒羽、面盘已成形、短翼埋于绒羽、尾羽隐藏、双足支撑。全彩图、传输图及两份裁切复查通过，0次编辑。PASS_WITH_LIMITATIONS；精确日龄/羽序/软部发育/首飞/占用巢室内部和通用高度比未知，science=false。",
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 0,
+      "source_ids": [
+        "TMO-YOUNG-BELL-MOONEY-2021-P13-18",
+        "TMO-ITIS-686716-2026",
+        "TMO-GOULD-1838-BHL-LEAD",
+        "TMO-ABSA-2019-P2",
+        "TMO-DEBUS-WOOD-2007-P49-52",
+        "TMO-MIKKOLA-2013-P110",
+        "TMO-AUSMUSEUM-2024"
+      ],
+      "source_index": "research/SOURCE_INDEX.md#2026-11-07--172-tyto-castanops-v3--taxonomic-conflict-strong-sex-dimorphism-and-age-label-correction",
+      "research_record": "research/species/172-tyto-castanops-v3.md",
+      "run_record": "production/runs/20261107T151400+0800-cycle-3.md",
+      "review_record": "research/reviews/172-tyto-castanops-v3-review.md",
+      "reviewed_at": "2026-11-07T15:31:00+08:00",
+      "dimensions": "1536x1024",
+      "sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+      "size_bytes": 737545,
+      "git_blob": "5126b4bbc2d637aad4848b6c8a3825e7ef9bd05b",
+      "generated_path": "production/generated/172-tyto-castanops-v3-generated-master.png",
+      "generated_blob": "5126b4bbc2d637aad4848b6c8a3825e7ef9bd05b",
+      "generated_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+      "generated_size_bytes": 737545,
+      "full_color_source_sha256": "61e77ceb0bfca04e4c861c9eabf63f3a31ed419015f7b09e97ff41bbe9e5fafc",
+      "full_color_source_size_bytes": 3403715,
+      "reviewed_path": "production/reviewed/172-tyto-castanops-v3-reviewed-master.png",
+      "reviewed_blob": "5126b4bbc2d637aad4848b6c8a3825e7ef9bd05b",
+      "reviewed_sha256": "881dec86e0e66ab2ad0781db86a3b719b35e710d2be1a1606d761a9d0908483d",
+      "reviewed_size_bytes": 737545,
+      "review_crop_path": "production/review-crops/172-tyto-castanops-v3-mesoptile.png",
+      "review_crop_blob": "2915b7c86316359ff2b8cbd26eb174bfa0280613",
+      "review_crop_sha256": "05664b905e4948f8e59092ba7c1ad5c6b978d0cbda94e6e01222f16ccb7f50dc",
+      "review_crop_size_bytes": 239551,
+      "auxiliary_review_crop_path": "production/review-crops/172-tyto-castanops-v3-adults-support.png",
+      "auxiliary_review_crop_blob": "941accaeaa9e431f20e1ddee91881a8a3d496000",
+      "auxiliary_review_crop_sha256": "b8115a381e0593d7a57764613fad522f08a302220188eb16202a24fa3966c20f",
+      "auxiliary_review_crop_size_bytes": 491867,
+      "archive_commit_pending": true,
+      "readback_pending": true,
+      "exact_readback": false,
+      "ledger_credited": false,
+      "evidence_limit": "Exact castanops mesoptile age, feather chronology, iris/bill development, first-flight threshold, occupied nest interior and a universal adult height ratio remain unknown; Mikkola upload unavailable.",
+      "archive_encoding": "All archived binary paths use complete 64-colour no-dither indexed PNG transport assets; full-colour ImageGen SHA-256/byte count retained as provenance; board and both crops actually opened."
     }
   ],
-  "updated_at": "2026-11-07T15:10:00+08:00"
+  "updated_at": "2026-11-07T15:37:00+08:00"
 }

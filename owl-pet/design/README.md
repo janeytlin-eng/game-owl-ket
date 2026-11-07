@@ -3292,3 +3292,9 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 
 - [Concept](concepts/171-glaucidium-palmarum-v3.png) · [Research](../research/species/171-glaucidium-palmarum-v3.md) · [Review](../research/reviews/171-glaucidium-palmarum-v3-review.md) · [Run](../production/runs/20261107T144200+0800-cycle-2.md)
 - V3 preserves v1–v2, reads the 1901 original description and records the five-versus-six/seven tail-marking conflict rather than treating one count as universal. Adults remain non-dichromatic and near-equal; the age-unknown immature has a grey sparsely flecked crown, dark iris, short soft wing and concealed supported tail. Full-colour board, transport board and two crops passed with 0 edits. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.
+
+
+## #172 Tasmanian Masked Owl — *Tyto castanops* — v3
+
+- [Concept](concepts/172-tyto-castanops-v3.png) · [Research](../research/species/172-tyto-castanops-v3.md) · [Review](../research/reviews/172-tyto-castanops-v3-review.md) · [Run](../production/runs/20261107T151400+0800-cycle-3.md)
+- V3 preserves v1–v2 and withdraws an exact “~5-week” label that was supported only by a nominate-subspecies growth series. Adults show documented strong female-fuller/darker direction without doubled standing height; the age-unknown cream mesoptile has a down-buried wing, concealed tail and full hollow-lip support. Full-colour board, transport board and two crops passed with 0 edits. `PASS_WITH_LIMITATIONS`; science false; unique remains 176/251; immutable readback pending.

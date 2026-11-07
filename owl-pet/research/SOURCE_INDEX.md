@@ -1,3 +1,45 @@
+## 2026-11-07 — #176 *Otus pembaensis* v3 — old-name correction, adult field texture and evidence-limited mesoptile
+
+### PESO-FUCHS-ETAL-2008-PMC2483963 — new verified original phylogeny
+- **Title/authors/year:** “Tracing the colonization history of the Indian Ocean scops-owls…”, Jérôme Fuchs et al., 2008.
+- **URL/DOI:** https://pmc.ncbi.nlm.nih.gov/articles/PMC2483963/ ; https://doi.org/10.1186/1471-2148-8-197
+- **Read/accessed:** abstract/results and Table 1, 2026-11-07.
+- **Fact:** *O. pembaensis* is close to mainland *O. senegalensis*, not Malagasy *O. rutilus*; Pemba split estimate 1.7 mya (95% HPD 0.7–3.3).
+- **Decision/limit:** supports current-name/old-name correction only; no morphology, sex or development inference.
+
+### PESO-OISEAUX-VANGIERSBERGEN-2021-ADULT — new verified adult field photograph
+- **Credit/date/place:** Paul van Giersbergen, Dec. 2021, Ngezi Forest, Pemba North.
+- **URL:** https://www.oiseaux.net/photos/paul.van.giersbergen/petit-duc.de.pemba.1.html?ctx=espece
+- **Read/accessed:** image page and metadata, 2026-11-07.
+- **Fact/use:** adult identification and compact warm-brown/russet field texture.
+- **Limit:** one sex-unknown adult; no young or sex comparison; copyright remains with photographer.
+
+### PESO-TANZANIABIRDS-ADULT-PHOTOS — new verified curated field-photo page
+- **Institution/credits:** TanzaniaBirds.net; Stratton Hatfield and Per Holmen photographs.
+- **URL:** https://www.tanzaniabirds.net/African_birds/scops-owl_pemba/pso.htm
+- **Read/accessed:** whole short page, 2026-11-07.
+- **Fact/use:** adults vary light brown to russet; one photograph from Ngezi Forest Reserve; use one shared morph direction, not sex-coded colour.
+- **Limit:** not a specimen study; no sex or juvenile labels.
+
+### PESO-MELO-ETAL-2022-P7-S47 — reused original specimen measurements
+- **URL/ID:** https://pmc.ncbi.nlm.nih.gov/articles/PMC9836643/ ; PMCID PMC9836643.
+- **Read:** Table 1 and Supplementary material 4.
+- **Fact/use:** seven specimens, wing 150–155 mm and tail 73–80 mm; mostly unsexed/pooled, so no female-larger rule.
+- **Limit:** inadequate sex sample.
+
+### PESO-NAHONYO-ETAL-2005-P54-55 — re-read institutional field report
+- **URL:** https://www.cepf.net/sites/default/files/udsm_ngezi_biodiversity_survey.pdf
+- **Read:** printed pp. 54–55.
+- **Fact/use:** mid-canopy, dense forest/clove/mangrove/graveyard patches; January survey observed no breeding activity; supports habitat but no nest reconstruction.
+- **Limit:** January/site-bound observation.
+
+### PESO-MIKKOLA-2013-P135 — reused repository page transcription
+- **Fact/use:** compact short-tufted adult with yellow eyes; evidence-limited pale barred mesoptile and short banded tail.
+- **Access/limit:** uploaded guide unavailable this execution; exact young age, iris/flight chronology and downy chick remain unknown.
+
+- **Species record:** [#176 v3 research](species/176-otus-pembaensis-v3.md)
+- **Image version:** `design/concepts/176-otus-pembaensis-v3.png` (pending generation at RESEARCH_READY).
+
 ## 2026-11-07 — #149 *Ninox odiosa* v3 — sexed adult specimen text and current name
 
 ### NBBOO-GOULD-SHARPE-1884-TEXT — newly read public-domain specimen account

@@ -1,5 +1,27 @@
 # Full ImageGen prompts
 
+## #176 v3 — *Otus pembaensis* — batch 20261107T143537+0800 cycle 1/6
+
+### Generation
+
+```text
+Use case: scientific-educational.
+Asset type: polished game owl-pet species prototype triptych, v3 science revision.
+Species: #176 PEMBA SCOPS-OWL — Otus pembaensis (Pakenham, 1937). Historical crosswalk only: formerly treated as Otus rutilus pembaensis; do not depict Madagascar Scops-owl.
+
+Canvas: 1536×1024 landscape. Premium tactile naturalistic 3D maquette / museum-quality owl-pet prototype, soft hand-modelled feather planes, subtly stylized but anatomically credible. Warm diffused forest light, restrained earthy palette, shallow depth of field, high legibility. Exactly three complete birds, fully visible head to supported feet, with clean title at top: "176 PEMBA SCOPS-OWL" and italic subtitle "Otus pembaensis". Exact labels beneath birds: "ADULT MALE" left, "ADULT FEMALE" center, "AGE-UNKNOWN MESOPTILE" right. No extra birds, no repeated heads, no inset portraits, no badges, no explanatory prose.
+
+Adult identity: very small compact African scops-owl, rounded compact body, short relaxed ear tufts, compact tail, warm light-brown to rich russet-brown plumage direction supported by Pemba field photographs. Yellow adult irides; small grayish horn bill partly hidden by facial bristles; fine warm mottling and barring rather than bold generic owl stripes; pale scapular line/patches; short compact wings and tail. Keep both adults in the same warm russet morph direction so colour is not sex-coded. Put both adults on the same broad mossy branch in dense leafy Ngezi/Pemba mid-canopy forest.
+
+Sex/scale boundary: adult sexes near-equal height and body mass direction. Do not default to female larger. Most measured museum specimens are unsexed or pooled; the only narrow direction retained from the repository guide is that the male folded wing may read subtly longer. Show this only as a very slight folded-wing length cue, not a body-size gap.
+
+Young bird: evidence-limited AGE-UNKNOWN MESOPTILE, not a hatchling and not a flying juvenile. Pale whitish to creamy-buff soft mesoptile with vague yellow-brown barring; crown softly white-barred but not adult-streaked; dark/indeterminate iris; short soft rounded partly formed wings with mesoptile still dominant, no long mature primaries; short somewhat banded tail; stable low posture with both feet gripping the wide branch and body naturally supported. Make the young visually smaller and fluffier, alert but stationary. Do not claim sex, exact age, fledging, flight ability, or adult iris colour.
+
+Environment and exclusions: dense Pemba/Ngezi leafy mid-canopy, humid green-brown forest atmosphere, natural branch support for all six feet. No nest, nest hole, eggs, prey, flight pose, fully spread wing, cliff, desert, snow, or generic savanna. A January Ngezi survey explicitly observed no breeding activity, so do not reconstruct breeding details. Avoid oversized ear tufts, orange/red adult eyes, a white facial heart, strong horned-owl silhouette, or adult-patterned mesoptile.
+
+Scientific status: concept art, PASS_WITH_LIMITATIONS target, scientifically_verified=false. Exact mesoptile age, iris chronology, wing/flight chronology, nest location/geometry, and sex-specific size remain unknown.
+```
+
 ## #148 v3 — *Ninox rumseyi* — batch 20261107T043300+0800 cycle 4/6
 
 ### Generation

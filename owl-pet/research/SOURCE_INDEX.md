@@ -4063,3 +4063,35 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - CBOW-COMMONS-ABEY2019 and CBOW-FLICKR-KALUBOWILA-2014 reused for an age-unknown fully feathered naturally supported older juvenile. “Few months” remains an observer estimate.
 - **Corrected boundary:** no source supports a quantified male/female standing-height difference. V5 keeps adults near equal; the juvenile is fully feathered, lower and supported, with no flight or independence claim.
 - **Uploaded guide:** unavailable in this execution. The repository’s prior page-verified CBOW-MIKKOLA-2013 record (printed p.406) is reused without a new page claim.
+
+
+## 2026-11-08 — #38 *Glaucidium nana* v5 — sex-morphometry correction and fledgling boundary
+
+### AUPO-JIMENEZ-JAKSIC-1989-REREAD
+- **Title / authors / year:** “Biology of the Austral Pygmy-Owl” / Jaime E. Jiménez & Fabián M. Jaksic / 1989.
+- **URL / accessed:** https://sora.unm.edu/sites/default/files/journals/wilson/v101n03/p0377-p0389.pdf / 2026-11-08.
+- **Type / stages:** primary museum-specimen synthesis plus field observations; adults.
+- **Pages / evidence:** printed pp.377–381; Table 1 p.380. Females (n=88) had significantly longer wing chords and tails than males (n=76; P<0.001). Weight samples were only eight per sex and not significantly different.
+- **Limit / design use:** historical range aggregation; supports only subtle female longer-wing/longer-tail contours at near-equal standing height, not a universal heavier body or fixed ratio.
+- **Links:** [v5 research](species/38-glaucidium-nana-v5.md); v5 image pending.
+
+### AUPO-IBARRA-2015-REREAD
+- **Title / authors / year:** “Historia natural y autoecología del chuncho…” / Ibarra et al. / 2015.
+- **URL / accessed:** https://www.aveschile.cl/wp-content/uploads/2019/03/Art03-Ibarra-et-al-1.pdf / 2026-11-08.
+- **Type / stages:** primary six-year field study; nests, nestlings and fledglings.
+- **Pages / figures:** printed p.36 / PDF p.8, Fig.5; abstract and breeding section pp.29–40.
+- **Evidence:** Fig.5 shows a branch-perched fledgling photographed 11 February 2013; three secondary-forest cavity nests produced fledglings.
+- **Limit / design use:** no exact age, sex, first-flight threshold, independence or continuous feather series; use only an age-unknown naturally supported branch fledgling.
+
+### AUPO-MARKS-2018-REREAD
+- **Title / authors / year:** “Incubation Period of the Austral Pygmy-Owl (*Glaucidium nana*): A Correction” / Marks, Santillán, Procopio & Travaini / 2018.
+- **DOI / URL / accessed:** https://doi.org/10.3356/JRR-17-29.1 ; https://www.researchgate.net/publication/323564345_Incubation_Period_of_the_Austral_Pygmy-Owl_Glaucidium_nana_A_Correction / 2026-11-08.
+- **Type / pages:** primary correction letter, *J. Raptor Res.* 52(1):118.
+- **Evidence:** 15–17 d was unsupported; captive evidence was 26–28 d and three wild nest boxes 27–29 d.
+- **Limit / design use:** incubation evidence does not establish the photographed fledgling’s exact age.
+
+### AUPO-ITIS-2025-REREAD
+- **Title / institution:** “*Glaucidium nana*,” TSN 686695 / ITIS.
+- **URL / accessed:** https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&search_value=686695 / 2026-11-08.
+- **Sections:** taxonomy/nomenclature and references, lines 42–70 and 99–112.
+- **Evidence / limit:** current valid *Glaucidium nana*; historical *G. nanum* and *Strix nana*. Taxonomy only, no morphology or development support.

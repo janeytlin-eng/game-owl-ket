@@ -32400,13 +32400,26 @@
         }
       ],
       "next_cycle": 6,
-      "active_cycle": null,
+      "active_cycle": 6,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T21:24:00+08:00",
-      "current_stage": "LEDGER_CREDITED",
+      "updated_at": "2026-11-07T21:25:00+08:00",
+      "current_stage": "STARTED",
       "ledger_credit_pending": false,
-      "lease": null,
-      "in_progress": null,
+      "lease": {
+        "owner": "codex",
+        "run_id": "20261107T212500+0800-cycle-6",
+        "heartbeat_at": "2026-11-07T21:25:00+08:00",
+        "expires_at": "2026-11-07T21:40:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 6,
+        "run_id": "20261107T212500+0800-cycle-6",
+        "species_id": 25,
+        "species": "Glaucidium brasilianum cactorum",
+        "version": 3,
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261107T212500+0800-cycle-6.md"
+      },
       "active": null,
       "stage_events": [
         {
@@ -33258,11 +33271,32 @@
             "unique_species_increment": 0,
             "revision_increment": 1
           }
+        },
+        {
+          "cycle": 6,
+          "stage": "STARTED",
+          "at": "2026-11-07T21:25:00+08:00",
+          "run_id": "20261107T212500+0800-cycle-6",
+          "species_id": 25,
+          "species": "Glaucidium brasilianum cactorum",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261107T212500+0800-cycle-6.md",
+            "baseline_main": "d0db84b087c9415ddced37249f15926915b69e9d",
+            "selection_note": "#25 Glaucidium brasilianum cactorum has archived v1/v2 but no later version. V2 remains science=false and depicts an age-unknown fledgling with subdued eye colour and absent nape eyespots; the newly read 1996 Arizona Game and Fish nest-monitoring report provides direct 28–40 day fledgling plumage, nape-eye, tail and first-week flight evidence that materially corrects that design. V1/v2 remain preserved; v3 is a non-destructive science revision.",
+            "lease_expires_at": "2026-11-07T21:40:00+08:00",
+            "scientifically_verified": false
+          }
         }
       ]
     }
   ],
-  "lease": null,
+  "lease": {
+    "owner": "codex",
+    "run_id": "20261107T212500+0800-cycle-6",
+    "heartbeat_at": "2026-11-07T21:25:00+08:00",
+    "expires_at": "2026-11-07T21:40:00+08:00"
+  },
   "notes": [
     "Initial recovery includes two directly verified recent incomplete batches; audit earlier run records and append any other incomplete batches without duplicate credit.",
     "Runtime budget cause is reported by run records, not independently confirmed by platform timeout telemetry.",
@@ -33396,7 +33430,7 @@
     "2026-11-06T06:49:00+08:00: cycle4 #87 Bubo ascalaphus v5 VERIFIED after one evidence-led edit; manifests 709/708/699; unique176/251; science false; batch4/6 next5; lease released.",
     "2026-11-07T01:44:35+08:00: cycle 1 revised and verified #138 Otus mentawi v4 after two juvenile wing-tail edits; archive commit 4b15e2924d3bbc7a6e7adf148ee7fcecd2ed6221, verification commit 928734acfc4c105e942605761b75e6b84213e5da; unique species remains 176/251; batch advances to 1/6, next_cycle 2; science false; lease released."
   ],
-  "updated_at": "2026-11-07T21:24:00+08:00",
+  "updated_at": "2026-11-07T21:25:00+08:00",
   "recovery_notes": [
     "2026-10-24 21:56 +0800: batch cycle 1 revised and verified #98 Strix chacoensis v4; yellowish bill/cere and feathering over tarsi plus basal half of toes were applied, with an older fluffy juvenile kept age-uncertain. Historical v3 was restored after collision detection. Archive commit 336aaf1970f09c84e9c9b18147a93809f0213765, new v4 Git blob ed6b0b56834b11908dbef0e32420634fae3c43cf; unique species remains 157/251.",
     "2026-10-25 02:45 +0800: batch cycle 5 revised and verified #128 Megascops marshalli v7; broad pale forehead arc removed through evidence-bounded full rebuild while dark irises, adult identity, age-unknown older immature and natural support were retained. Archive commit 504f92d317afc040f5a12172e75638abe65b7712, Git blob a3317737c2a42efe57af302fad2ebd224f3839c4. Unique species remains 157/251; batch advances to 5/6, next_cycle 6.",
@@ -33405,8 +33439,13 @@
     "2026-10-26 14:12 +0800: batch cycle 6 revised and verified #36 Glaucidium bolivianum v2; first render's crisp adult-like juvenile wing spots were removed and the wing shortened/softened. Archive commit d7a32c6f96892d2e8b13eb9a9a5662b68408194e, Git blob f0b16955903b9c3337e800394822abda33eabf18; verification commit f05ff0a9f37ea1f3069e329214882649434abc51. Unique remains 159/251; batch 2026-10-26T1128+0800 closes COMPLETE 6/6.",
     "2026-10-30T18:12:00+08:00 ledger normalization: historical batch 2026-10-16T0430+0800 already COMPLETE with six preserved completed_cycles; stale next_cycle 7 changed to null. No cycle count or evidence changed."
   ],
-  "active_lease": null,
-  "last_updated_at": "2026-11-07T21:24:00+08:00",
+  "active_lease": {
+    "owner": "codex",
+    "run_id": "20261107T212500+0800-cycle-6",
+    "heartbeat_at": "2026-11-07T21:25:00+08:00",
+    "expires_at": "2026-11-07T21:40:00+08:00"
+  },
+  "last_updated_at": "2026-11-07T21:25:00+08:00",
   "audit_notes": [
     "2026-10-26 21:02 +0800: batch cycle 4 revised and verified #52 Strix hylophila v2 after one juvenile-wing edit. The first 3,103,170-byte binary transfer was detected truncated and superseded before credit by complete 722,261-byte blob 3cbc698bd929dd05fb41b73aed038f0445d334d0 in correction commit e1af257bff72a89176c4990b77e3ca517377a4ff; verification commit 0515cf857249647b1dc441dff99352ccb4b9a239. Unique species remains 159/251; batch advances to 4/6, next_cycle 5.",
     "2026-10-26 23:49 +0800: batch cycle 5 revised and verified #61 Ketupa ketupu v2; first render passed original-resolution review. A detected binary-transfer mismatch in initial commit 290ff699 was superseded before credit by complete 779,205-byte blob 3dc82943f74da20e5cb493988a08ba014e35a8a0 in archive commit c22d9a5b1040bdb45047083d37fbadad01a67bd8; verification commit b6657bbf97d525c170e75f5252677283547c5022. Unique species remains unchanged; batch advances to 5/6, next_cycle 6.",
@@ -34203,7 +34242,15 @@
       "credited": false
     }
   ],
-  "in_progress": null,
+  "in_progress": {
+    "cycle": 6,
+    "run_id": "20261107T212500+0800-cycle-6",
+    "species_id": 25,
+    "species": "Glaucidium brasilianum cactorum",
+    "version": 3,
+    "stage": "STARTED",
+    "run_record": "owl-pet/production/runs/20261107T212500+0800-cycle-6.md"
+  },
   "previous_checkpoint": {
     "batch_id": "20261107T140000+0800",
     "cycle": 3,
@@ -39028,8 +39075,8 @@
     }
   ],
   "active_batch_id": "20261107T183000+0800",
-  "active_cycle": null,
-  "current_stage": "LEDGER_CREDITED",
+  "active_cycle": 6,
+  "current_stage": "STARTED",
   "next_cycle": 6,
   "unique_species_count": 176,
   "total_species": 251,
@@ -39883,951 +39930,34 @@
         "unique_species_increment": 0,
         "revision_increment": 1
       }
+    },
+    {
+      "cycle": 6,
+      "stage": "STARTED",
+      "at": "2026-11-07T21:25:00+08:00",
+      "run_id": "20261107T212500+0800-cycle-6",
+      "species_id": 25,
+      "species": "Glaucidium brasilianum cactorum",
+      "credited": false,
+      "evidence": {
+        "run_record": "owl-pet/production/runs/20261107T212500+0800-cycle-6.md",
+        "baseline_main": "d0db84b087c9415ddced37249f15926915b69e9d",
+        "selection_note": "#25 Glaucidium brasilianum cactorum has archived v1/v2 but no later version. V2 remains science=false and depicts an age-unknown fledgling with subdued eye colour and absent nape eyespots; the newly read 1996 Arizona Game and Fish nest-monitoring report provides direct 28–40 day fledgling plumage, nape-eye, tail and first-week flight evidence that materially corrects that design. V1/v2 remain preserved; v3 is a non-destructive science revision.",
+        "lease_expires_at": "2026-11-07T21:40:00+08:00",
+        "scientifically_verified": false
+      }
     }
   ],
   "last_completed_batch_id": "20261107T140000+0800",
   "active_batch": {
     "batch_id": "20261107T183000+0800",
-    "status": "PARTIAL",
-    "target_cycles": 6,
-    "completed_cycles": [
-      {
-        "cycle": 1,
-        "species": "Otus lempiji",
-        "species_id": 190,
-        "version": 2,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "79e00709ab05476191b40999d0b8e989370ac181",
-        "archive_commit": "125474f4c87b41ec218f0efb65f750746a1046ed",
-        "run_record": "owl-pet/production/runs/20261107T183000+0800-cycle-1.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-07T18:45:00+08:00"
-      },
-      {
-        "cycle": 2,
-        "species": "Otus brookii",
-        "species_id": 195,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "0cccb0814e6bc9ef09b9c4419543cdad8b10c380",
-        "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
-        "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-07T19:44:00+08:00"
-      },
-      {
-        "cycle": 3,
-        "species": "Otus megalotis",
-        "species_id": 197,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "32444b82aa8873131f8c6c599f985664045c16d9",
-        "archive_commit": "bfe64e94c90d7bcb910ebe31fb188deafa0cd6d8",
-        "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-07T20:02:00+08:00"
-      },
-      {
-        "cycle": 4,
-        "species": "Otus mantananensis",
-        "species_id": 201,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "d5a2330002cb80250a4504edc560154b8414d1eb",
-        "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
-        "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-07T20:52:00+08:00"
-      },
-      {
-        "cycle": 5,
-        "species": "Otus spilocephalus",
-        "species_id": 184,
-        "version": 3,
-        "action": "SCIENCE_REVISION",
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "commit_sha": "0bb4601c073b17a810032eb2f0f530a6c5683aa7",
-        "archive_commit": "a7072a5d122738f7775835e7c0ababcf83420088",
-        "run_record": "owl-pet/production/runs/20261107T205300+0800-cycle-5.md",
-        "review_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "credited_at": "2026-11-07T21:24:00+08:00"
-      }
-    ],
-    "next_cycle": 6,
-    "active_cycle": null,
-    "started_at": "2026-11-07T18:30:00+08:00",
-    "updated_at": "2026-11-07T21:24:00+08:00",
-    "current_stage": "LEDGER_CREDITED",
-    "ledger_credit_pending": false,
-    "lease": null,
-    "in_progress": null,
-    "active": null,
-    "stage_events": [
-      {
-        "cycle": 1,
-        "stage": "STARTED",
-        "at": "2026-11-07T18:30:00+08:00",
-        "run_id": "20261107T183000+0800-cycle-1",
-        "species_id": 190,
-        "species": "Otus lempiji",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T183000+0800-cycle-1.md",
-          "baseline_main": "1147b6add5838fc76ea86bb7836245111993eb86",
-          "selection_note": "#180–183 and #185–187/#189 have no live task records; #190 Otus lempiji has an archived v1 and no v2, remains science=false, so v2 is the next non-destructive science revision. It is a revision and does not increase unique coverage.",
-          "lease_expires_at": "2026-11-07T18:45:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T18:35:00+08:00",
-        "run_id": "20261107T183000+0800-cycle-1",
-        "species_id": 190,
-        "species": "Otus lempiji",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/190-otus-lempiji-v2.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_sources": 2,
-          "reused_sources": 4,
-          "corrected_sources": 1,
-          "unknowns": [
-            "exact juvenile age/sex",
-            "iris chronology",
-            "first-flight threshold",
-            "quantitative Singapore dimorphism"
-          ],
-          "lease_expires_at": "2026-11-07T18:50:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T18:37:00+08:00",
-        "run_id": "20261107T183000+0800-cycle-1",
-        "species_id": 190,
-        "species": "Otus lempiji",
-        "credited": false,
-        "evidence": {
-          "source_path": "owl-pet/production/generated/190-otus-lempiji-v2-full-color.jpg",
-          "generated_master": "owl-pet/production/generated/190-otus-lempiji-v2-generated-master.png",
-          "source_sha256": "83d7a4e6b0d21e58897a2af926e94225a484856ba1ac82f31543a3a588a96909",
-          "master_sha256": "baa5f2f60e3acb81b5aa73844c360460eac06ea9dd43f99b6ba597acf2d93986",
-          "geometry": "1536x1024",
-          "generation_seconds": 29.2,
-          "lease_expires_at": "2026-11-07T18:52:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T18:39:00+08:00",
-        "run_id": "20261107T183000+0800-cycle-1",
-        "species_id": 190,
-        "species": "Otus lempiji",
-        "credited": false,
-        "evidence": {
-          "review_record": "owl-pet/research/reviews/190-otus-lempiji-v2-review.md",
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 0,
-          "viewed": [
-            "full",
-            "adults crop",
-            "juvenile crop",
-            "transport master"
-          ],
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T18:40:00+08:00",
-        "run_id": "20261107T183000+0800-cycle-1",
-        "species_id": 190,
-        "species": "Otus lempiji",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/190-otus-lempiji-v2.png",
-          "source": "owl-pet/production/generated/190-otus-lempiji-v2-full-color.jpg",
-          "reviewed": "owl-pet/production/reviewed/190-otus-lempiji-v2-reviewed-master.png",
-          "review_crops": 2,
-          "manifests": 3,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T18:55:00+08:00"
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T18:43:00+08:00",
-        "run_id": "20261107T183000+0800-cycle-1",
-        "species_id": 190,
-        "species": "Otus lempiji",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "125474f4c87b41ec218f0efb65f750746a1046ed",
-          "archive_tree": "9791ff62dd20c815a2880645a8e76e9f5898840f",
-          "required_paths_verified": 17,
-          "exact_binary_paths_verified": 6,
-          "unique_binary_streams_read_back": 4,
-          "tree_entries": 3888,
-          "tree_truncated": false,
-          "concept_blob": "83dc5231fa5f437166d0caaee0a68b3a13ec8793",
-          "concept_bytes": 558982,
-          "source_blob": "bf209db49c2f2da3e6aa67e8e62759133f71a8ef",
-          "source_bytes": 483185,
-          "adults_blob": "67820ef8b55ed85da9d62316c084c09a3cb46bae",
-          "juvenile_blob": "2f172c31d0efa290872e639505bc796ed7e43da6",
-          "full_binary_stream_readback": true,
-          "browser_renderer": false,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true
-        }
-      },
-      {
-        "cycle": 1,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T18:45:00+08:00",
-        "run_id": "20261107T183000+0800-cycle-1",
-        "species_id": 190,
-        "species": "Otus lempiji",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "79e00709ab05476191b40999d0b8e989370ac181",
-          "archive_commit": "125474f4c87b41ec218f0efb65f750746a1046ed",
-          "run_record": "owl-pet/production/runs/20261107T183000+0800-cycle-1.md",
-          "next_cycle": 2,
-          "unique_species_increment": 0,
-          "revision_increment": 1
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "STARTED",
-        "at": "2026-11-07T19:30:00+08:00",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md",
-          "baseline_main": "3a915a6fb650123c161b22da48c7724dcebee94c",
-          "selection_note": "#195 Otus brookii solokensis has archived v1/v2 but no v3. Its v2 prompt applied an unsupported female-fuller direction despite the cited museum series not verifying a sex-size direction, and juvenile iris/age limits need a fresh source check. V1/v2 remain preserved; this is a non-destructive science revision.",
-          "lease_expires_at": "2026-11-07T19:45:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T19:33:00+08:00",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/195-otus-brookii-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_sources": 2,
-          "reused_sources": 6,
-          "corrected_sources": 1,
-          "design_boundary": "adults near-equal with no sex-size direction; older branch-supported mesoptile with compact soft wing/tail; no hatchling/flight/iris chronology claim",
-          "unknowns": [
-            "exact juvenile age/sex",
-            "first-flight threshold",
-            "iris chronology",
-            "hatchling appearance",
-            "quantitative sex dimorphism"
-          ],
-          "mikkola_access": "page-specific repository transcription reused; uploaded guide unavailable this execution",
-          "lease_expires_at": "2026-11-07T19:48:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T19:37:00+08:00",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "credited": false,
-        "evidence": {
-          "initial_path": "owl-pet/production/generated/195-otus-brookii-v3-initial-full-color.jpg",
-          "initial_blob": "d00dcb162988ed98a8185842e03a94e1cc5d53b0",
-          "edited_path": "owl-pet/production/generated/195-otus-brookii-v3-full-color.jpg",
-          "edited_blob": "51b47e1dd804dea200f51ec9664f9dc5cf6eaa2a",
-          "generated_master": "owl-pet/production/generated/195-otus-brookii-v3-generated-master.png",
-          "generated_blob": "ca5e140b638a3598e0db92462da9d296c0d0d77d",
-          "initial_sha256": "81325eb3ece5ba2776f25b3b553bc6db09d8246028072c930d7cc484fa63431b",
-          "edited_sha256": "9c287d871887ecd487cf6638d66c87b989a6df0844b0d5122dd13fc1925074a1",
-          "master_sha256": "9ddd6435b7fbfb87da2094b45e92774d2aa3e03eb88c300f6cc92f72761968fe",
-          "geometry": "1536x1024",
-          "generation_seconds": 45,
-          "edit_seconds": 38.2,
-          "edit_count": 1,
-          "preliminary_inspection": "initial full plate opened; adults/labels/support passed but older juvenile wing and tail were too long/rigid. Targeted edit shortened and softened only the juvenile wing/tail; edited plate reopened and passed preliminary review.",
-          "lease_expires_at": "2026-11-07T19:52:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T19:39:00+08:00",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/195-otus-brookii-v3-reviewed-master.png",
-          "reviewed_blob": "1d9c162a61076c9751ecf0527d3fcea9d3469baf",
-          "review_record": "owl-pet/research/reviews/195-otus-brookii-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/195-otus-brookii-v3-adult-male-pattern-feet.png",
-            "owl-pet/production/review-crops/195-otus-brookii-v3-older-mesoptile.png",
-            "owl-pet/production/review-crops/195-otus-brookii-v3-adult-female-pattern-feet.png"
-          ],
-          "crop_blobs": [
-            "8e87241834cd167ba77177b68ea1a63f85011569",
-            "e567e194752b07a44ff478a5a6f85775f2e0fd8a",
-            "23528bef45b48742bc25c15f9196b77fe6419dcd"
-          ],
-          "edit_count": 1,
-          "reinspection": "edited full-colour plate, 96-colour transport master, adult male/female crops and older-mesoptile crop opened; near-equal adult scale, six-foot support, exact text, broken collar pattern and compact juvenile wing/tail passed",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T19:54:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T19:40:00+08:00",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/195-otus-brookii-v3.png",
-          "concept_blob": "1d9c162a61076c9751ecf0527d3fcea9d3469baf",
-          "initial_source": "owl-pet/production/generated/195-otus-brookii-v3-initial-full-color.jpg",
-          "edited_source": "owl-pet/production/generated/195-otus-brookii-v3-full-color.jpg",
-          "generated": "owl-pet/production/generated/195-otus-brookii-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/195-otus-brookii-v3-reviewed-master.png",
-          "review_crops": 3,
-          "manifest_counts": {
-            "design_legacy": 785,
-            "design_image": 784,
-            "production": 775
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T19:55:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T19:43:00+08:00",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
-          "archive_tree": "d2304fee61593a766b5dd12bc7344621060aa9f2",
-          "required_paths_verified": 18,
-          "exact_binary_paths_verified": 8,
-          "unique_binary_streams_read_back": 7,
-          "tree_entries": 3899,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_legacy": 785,
-            "design_image": 784,
-            "production": 775
-          },
-          "concept_blob": "1d9c162a61076c9751ecf0527d3fcea9d3469baf",
-          "initial_source_blob": "d00dcb162988ed98a8185842e03a94e1cc5d53b0",
-          "edited_source_blob": "51b47e1dd804dea200f51ec9664f9dc5cf6eaa2a",
-          "generated_blob": "ca5e140b638a3598e0db92462da9d296c0d0d77d",
-          "reviewed_blob": "1d9c162a61076c9751ecf0527d3fcea9d3469baf",
-          "full_binary_stream_readback": true,
-          "browser_renderer": false,
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T19:58:00+08:00"
-        }
-      },
-      {
-        "cycle": 2,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T19:44:00+08:00",
-        "run_id": "20261107T193000+0800-cycle-2",
-        "species_id": 195,
-        "species": "Otus brookii",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "0cccb0814e6bc9ef09b9c4419543cdad8b10c380",
-          "archive_commit": "3be5710239aaa0d6b9c6d70bcc7c884da106e5c6",
-          "run_record": "owl-pet/production/runs/20261107T193000+0800-cycle-2.md",
-          "next_cycle": 3,
-          "unique_species_increment": 0,
-          "revision_increment": 1
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "STARTED",
-        "at": "2026-11-07T19:46:00+08:00",
-        "run_id": "20261107T194600+0800-cycle-3",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md",
-          "baseline_main": "89341cb401dd23a0fc145dbaff9b0934324f3180",
-          "selection_note": "#191–194 and #196 have no live task records; #197 Otus megalotis has archived v1/v2 and no v3. V2 is science=false and requires a fresh check that sexed wing/tail mean differences are not converted into standing-height/body-size exaggeration and that the older juvenile remains evidence-bounded.",
-          "lease_expires_at": "2026-11-07T20:01:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T19:49:00+08:00",
-        "run_id": "20261107T194600+0800-cycle-3",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/197-otus-megalotis-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_sources": 2,
-          "reused_sources": 6,
-          "corrected_sources": 1,
-          "design_boundary": "near-equal standing height; subtle overlapping female folded-wing/tail cue only; common intermediate morph; older supported juvenile with compact soft wing/tail",
-          "unknowns": [
-            "exact juvenile age/sex",
-            "iris chronology",
-            "first-flight threshold",
-            "hatchling appearance",
-            "quantitative live-body sexual dimorphism"
-          ],
-          "blocked_leads": "PNA login redirect; DENR HTTP 403; not used as visual evidence",
-          "mikkola_access": "page-specific repository transcription reused; uploaded guide unavailable this execution",
-          "lease_expires_at": "2026-11-07T20:04:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T19:53:00+08:00",
-        "run_id": "20261107T194600+0800-cycle-3",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "credited": false,
-        "evidence": {
-          "initial_path": "owl-pet/production/generated/197-otus-megalotis-v3-initial-full-color.jpg",
-          "initial_blob": "9256d361f467c0be05bb20ba6e15fe2294f64d4b",
-          "edited_path": "owl-pet/production/generated/197-otus-megalotis-v3-full-color.jpg",
-          "edited_blob": "4070ced1573480d9c48aa11c45773dea23029e2a",
-          "generated_master": "owl-pet/production/generated/197-otus-megalotis-v3-generated-master.png",
-          "generated_blob": "2207440f4f6bf66fa1f2f4ba0cada773e757b730",
-          "initial_sha256": "947cdabc3f9cf3a6909e2261e741c5bab7fe1173b0e83bb03b4f0492a85f634e",
-          "edited_sha256": "dfaca8c62d28f1d3268441ffbc2167a967898aff513f95c1211dde778597e502",
-          "master_sha256": "f6cbe9b5b610c2c5587c6943d2b918673d23f574a9b0ae22c3170ebc1928b5f7",
-          "geometry": "1536x1024",
-          "generation_seconds": 42.8,
-          "edit_seconds": 37.1,
-          "edit_count": 1,
-          "preliminary_inspection": "initial plate opened: adults, text, sex-scale restraint and six-foot support passed; juvenile wing/tail adult-hard and overlong. One targeted edit shortened/softened only juvenile wing/tail; edited plate reopened and passed preliminary inspection.",
-          "lease_expires_at": "2026-11-07T20:08:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T19:55:00+08:00",
-        "run_id": "20261107T194600+0800-cycle-3",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/197-otus-megalotis-v3-reviewed-master.png",
-          "reviewed_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
-          "review_record": "owl-pet/research/reviews/197-otus-megalotis-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/197-otus-megalotis-v3-adult-male-pattern-feet.png",
-            "owl-pet/production/review-crops/197-otus-megalotis-v3-older-juvenile.png",
-            "owl-pet/production/review-crops/197-otus-megalotis-v3-adult-female-pattern-feet.png"
-          ],
-          "crop_blobs": [
-            "8ff7b229272f211b78520ff9fd9b29a3ac715786",
-            "e9b70cc6e6321f0c5572be3489c027c51a4ada6c",
-            "c598e62dbb6753a591b02edd1d5188fd17c07fae"
-          ],
-          "edit_count": 1,
-          "reinspection": "edited full-colour plate, 104-colour transport master and all three crops opened; adult diagnostic direction, near-equal standing height, exact text, six-foot support and compact juvenile wing/tail passed",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T20:10:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T19:57:00+08:00",
-        "run_id": "20261107T194600+0800-cycle-3",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/197-otus-megalotis-v3.png",
-          "concept_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
-          "initial_source": "owl-pet/production/generated/197-otus-megalotis-v3-initial-full-color.jpg",
-          "edited_source": "owl-pet/production/generated/197-otus-megalotis-v3-full-color.jpg",
-          "generated": "owl-pet/production/generated/197-otus-megalotis-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/197-otus-megalotis-v3-reviewed-master.png",
-          "review_crops": 3,
-          "manifest_counts": {
-            "design_legacy": 786,
-            "design_image": 785,
-            "production": 776
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T20:12:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T20:00:00+08:00",
-        "run_id": "20261107T194600+0800-cycle-3",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "bfe64e94c90d7bcb910ebe31fb188deafa0cd6d8",
-          "archive_tree": "a088e53f330e3013d3fc066acdd50cfd824bc7b9",
-          "required_paths_verified": 18,
-          "exact_binary_paths_verified": 8,
-          "unique_binary_streams_read_back": 7,
-          "tree_entries": 3910,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_legacy": 786,
-            "design_image": 785,
-            "production": 776
-          },
-          "concept_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
-          "initial_source_blob": "9256d361f467c0be05bb20ba6e15fe2294f64d4b",
-          "edited_source_blob": "4070ced1573480d9c48aa11c45773dea23029e2a",
-          "generated_blob": "2207440f4f6bf66fa1f2f4ba0cada773e757b730",
-          "reviewed_blob": "2bd10a9c034bcd6f1cd1a4f0ba33fcd347c7f5a3",
-          "full_binary_stream_readback": true,
-          "browser_renderer": false,
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T20:15:00+08:00"
-        }
-      },
-      {
-        "cycle": 3,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T20:02:00+08:00",
-        "run_id": "20261107T194600+0800-cycle-3",
-        "species_id": 197,
-        "species": "Otus megalotis",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "32444b82aa8873131f8c6c599f985664045c16d9",
-          "archive_commit": "bfe64e94c90d7bcb910ebe31fb188deafa0cd6d8",
-          "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md",
-          "next_cycle": 4,
-          "unique_species_increment": 0,
-          "revision_increment": 1
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "STARTED",
-        "at": "2026-11-07T20:38:21+08:00",
-        "run_id": "20261107T203821+0800-cycle-4",
-        "species_id": 201,
-        "species": "Otus mantananensis",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-          "baseline_main": "a89ac524501a1798d959af473283d8b8741a6458",
-          "selection_note": "#198–200 have no live task records; #201 Otus mantananensis has archived v1/v2 and no v3. Visual inspection of v2 found the juvenile rendered with adult-hard, long remiges/tail and near-adult structure, while nominate juvenile plumage remains undescribed in the available Bornean-region field-guide evidence. V1/v2 remain preserved; v3 is a non-destructive science revision.",
-          "lease_expires_at": "2026-11-07T20:53:21+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T20:44:00+08:00",
-        "run_id": "20261107T203821+0800-cycle-4",
-        "species_id": 201,
-        "species": "Otus mantananensis",
-        "credited": false,
-        "evidence": {
-          "initial_path": "owl-pet/production/generated/201-otus-mantananensis-v3-initial-full-color.jpg",
-          "initial_blob": "b5f8b48de7eb0417675eafcc3128a1cdd216fbc9",
-          "edited_path": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
-          "edited_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
-          "generated_master": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
-          "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-          "initial_sha256": "396fe8805955d97992b4fe95e2fcbe79ba266bb0f96a7bdf4b01cc1c961d6320",
-          "edited_sha256": "ca2a1d8e1e2819133410dc10095c0ba591368435680d7ab904285eb8eff2260d",
-          "master_sha256": "fa73c8dd7b00a483dcc45da69713164b83b77d12a90fa68023433a111ace5b83",
-          "geometry": "1536x1024",
-          "edit_count": 1,
-          "preliminary_inspection": "initial plate opened: title/name/count/order/labels, near-equal adults and six-foot support passed; juvenile wing/tail remained too long and hard. One targeted imagegen edit shortened/softened only juvenile wing/tail and lowered/rounded its posture; edited plate reopened and passed preliminary inspection.",
-          "lease_expires_at": "2026-11-07T20:59:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T20:46:00+08:00",
-        "run_id": "20261107T203821+0800-cycle-4",
-        "species_id": 201,
-        "species": "Otus mantananensis",
-        "credited": false,
-        "evidence": {
-          "reviewed_path": "owl-pet/production/reviewed/201-otus-mantananensis-v3-reviewed-master.png",
-          "reviewed_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-          "review_record": "owl-pet/research/reviews/201-otus-mantananensis-v3-review.md",
-          "review_crops": [
-            "owl-pet/production/review-crops/201-otus-mantananensis-v3-adult-male-pattern-feet.png",
-            "owl-pet/production/review-crops/201-otus-mantananensis-v3-older-juvenile.png",
-            "owl-pet/production/review-crops/201-otus-mantananensis-v3-adult-female-pattern-feet.png"
-          ],
-          "crop_blobs": [
-            "ff99e035db98e076b31ede49ed88ac068d70d718",
-            "3d8f5ffe3d27bd5c374d9cc2ded5a520f9bdf275",
-            "45c6782b70162a1439a062e54b439d2d4352d681"
-          ],
-          "edit_count": 1,
-          "imagegen_invocations": 2,
-          "reinspection": "edited full-colour plate, 104-colour transport master and all three crops opened; exact text, near-equal adults, six-foot support, adult diagnostic direction and compact soft-winged supported older juvenile passed",
-          "review_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T21:01:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T20:49:00+08:00",
-        "run_id": "20261107T203821+0800-cycle-4",
-        "species_id": 201,
-        "species": "Otus mantananensis",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/201-otus-mantananensis-v3.png",
-          "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-          "initial_source": "owl-pet/production/generated/201-otus-mantananensis-v3-initial-full-color.jpg",
-          "edited_source": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
-          "generated": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/201-otus-mantananensis-v3-reviewed-master.png",
-          "review_crops": 3,
-          "manifest_counts": {
-            "design_legacy": 787,
-            "design_image": 786,
-            "production": 777
-          },
-          "unique_species_count": 176,
-          "total_species": 251,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "readback_pending": true,
-          "lease_expires_at": "2026-11-07T21:04:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T20:50:00+08:00",
-        "run_id": "20261107T203821+0800-cycle-4",
-        "species_id": 201,
-        "species": "Otus mantananensis",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
-          "archive_tree": "246bb0c63dcd0fa1a16dde7e54b040e90bb4972d",
-          "required_paths_verified": 18,
-          "exact_binary_paths_verified": 8,
-          "unique_binary_streams_read_back": 6,
-          "tree_entries": 3921,
-          "tree_truncated": false,
-          "manifest_counts": {
-            "design_legacy": 787,
-            "design_image": 786,
-            "production": 777
-          },
-          "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-          "initial_source_blob": "b5f8b48de7eb0417675eafcc3128a1cdd216fbc9",
-          "edited_source_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
-          "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-          "reviewed_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-          "full_binary_stream_readback": true,
-          "browser_renderer": false,
-          "verification_result": "PASS_WITH_LIMITATIONS",
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T21:05:00+08:00"
-        }
-      },
-      {
-        "cycle": 4,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T20:52:00+08:00",
-        "run_id": "20261107T203821+0800-cycle-4",
-        "species_id": 201,
-        "species": "Otus mantananensis",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "d5a2330002cb80250a4504edc560154b8414d1eb",
-          "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
-          "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-          "next_cycle": 5,
-          "unique_species_increment": 0,
-          "revision_increment": 1,
-          "batch_progress": "4/6",
-          "unique_species_count": 176,
-          "total_species": 251,
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "STARTED",
-        "at": "2026-11-07T20:53:00+08:00",
-        "run_id": "20261107T205300+0800-cycle-5",
-        "species_id": 184,
-        "species": "Otus spilocephalus",
-        "credited": false,
-        "evidence": {
-          "run_record": "owl-pet/production/runs/20261107T205300+0800-cycle-5.md",
-          "baseline_main": "515ef1ec58fd7cae12d63b0cb5509fc548268c23",
-          "selection_note": "#184 Otus spilocephalus has archived v1/v2 but no v3. Repository live-task scan found no valid tasks for #202–251 and no live records for the skipped high-number gaps; #184 v2 remains PASS_WITH_LIMITATIONS and science=false. V1/v2 remain preserved; v3 is a non-destructive science revision.",
-          "lease_expires_at": "2026-11-07T21:08:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "RESEARCH_READY",
-        "at": "2026-11-07T21:03:00+08:00",
-        "run_id": "20261107T205300+0800-cycle-5",
-        "species_id": 184,
-        "species": "Otus spilocephalus",
-        "credited": false,
-        "evidence": {
-          "research_record": "owl-pet/research/species/184-otus-spilocephalus-v3.md",
-          "source_index": "owl-pet/research/SOURCE_INDEX.md",
-          "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
-          "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
-          "new_sources": 2,
-          "reused_sources": 4,
-          "corrected_sources": 1,
-          "design_boundary": "Taiwan recent fledgling, exact age/sex/iris/flight unknown; supported short soft partly formed wing and short hidden tail; near-equal same-plumage adults",
-          "mikkola_access": "repository p.148 transcription reused; uploaded guide unavailable this execution",
-          "lease_expires_at": "2026-11-07T21:18:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "IMAGE_GENERATED",
-        "at": "2026-11-07T21:08:00+08:00",
-        "run_id": "20261107T205300+0800-cycle-5",
-        "species_id": 184,
-        "species": "Otus spilocephalus",
-        "credited": false,
-        "evidence": {
-          "initial_path": "owl-pet/production/generated/184-otus-spilocephalus-v3-initial-full-color.jpg",
-          "edited_path": "owl-pet/production/generated/184-otus-spilocephalus-v3-full-color.jpg",
-          "generated_master": "owl-pet/production/generated/184-otus-spilocephalus-v3-generated-master.png",
-          "initial_sha256": "981f9902fbdf90635b37efea022442ae50af8666d7260433d666d6a9c5551a98",
-          "edited_sha256": "acec68b0a1a178a8a4256815b1cd71c635f8b70d7fa54efa70b00d093c93b328",
-          "master_sha256": "58766afc9434d3769d806845efa706dc142855af7cf283a45638682159963a62",
-          "geometry": "1536x1024",
-          "generation_seconds": 58,
-          "edit_seconds": 45,
-          "edit_count": 1,
-          "preliminary_inspection": "Initial plate opened: labels, adults, colour and support passed; juvenile wing was too long and adult-like. One targeted edit shortened/softened only the juvenile wing, concealed the tail and lowered the body onto the fork. Edited full plate reopened and passed preliminary review.",
-          "lease_expires_at": "2026-11-07T21:23:00+08:00",
-          "scientifically_verified": false
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "REVIEWED",
-        "at": "2026-11-07T21:11:00+08:00",
-        "run_id": "20261107T205300+0800-cycle-5",
-        "species_id": 184,
-        "species": "Otus spilocephalus",
-        "credited": false,
-        "evidence": {
-          "review_record": "owl-pet/research/reviews/184-otus-spilocephalus-v3-review.md",
-          "reviewed_path": "owl-pet/production/reviewed/184-otus-spilocephalus-v3-reviewed-master.png",
-          "result": "PASS_WITH_LIMITATIONS",
-          "edit_count": 1,
-          "viewed": [
-            "edited full plate",
-            "transport master",
-            "adult male pattern/feet crop",
-            "recent fledgling crop",
-            "adult female pattern/feet crop"
-          ],
-          "checks": {
-            "identity": "PASS",
-            "sex_direction": "PASS_NEAR_EQUAL",
-            "juvenile_stage": "PASS_WITH_LIMITATIONS",
-            "support": "PASS",
-            "text_labels": "PASS",
-            "habitat": "PASS"
-          },
-          "unknowns": [
-            "exact juvenile age and sex",
-            "juvenile iris chronology",
-            "first-flight threshold",
-            "quantitative sex dimorphism in O. s. hambroecki"
-          ],
-          "scientifically_verified": false,
-          "lease_expires_at": "2026-11-07T21:26:00+08:00"
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "ARCHIVED",
-        "at": "2026-11-07T21:15:00+08:00",
-        "run_id": "20261107T205300+0800-cycle-5",
-        "species_id": 184,
-        "species": "Otus spilocephalus",
-        "credited": false,
-        "evidence": {
-          "concept": "owl-pet/design/concepts/184-otus-spilocephalus-v3.png",
-          "initial_source": "owl-pet/production/generated/184-otus-spilocephalus-v3-initial-full-color.jpg",
-          "edited_source": "owl-pet/production/generated/184-otus-spilocephalus-v3-full-color.jpg",
-          "generated_master": "owl-pet/production/generated/184-otus-spilocephalus-v3-generated-master.png",
-          "reviewed": "owl-pet/production/reviewed/184-otus-spilocephalus-v3-reviewed-master.png",
-          "review_crops": 3,
-          "manifests": 3,
-          "manifest_counts": {
-            "design_legacy": 788,
-            "design_image": 787,
-            "production": 778
-          },
-          "unique_species": "176/251",
-          "revision_increment": 1,
-          "scientifically_verified": false,
-          "ledger_credit_pending": true,
-          "lease_expires_at": "2026-11-07T21:33:00+08:00",
-          "source_transport_correction": {
-            "reason": "connector full-readback truncation for base64 over 1048592 chars",
-            "initial_blob": "b57727f384c1fdeacda70aae2b760d2c143bc471",
-            "initial_bytes": 471886,
-            "edited_blob": "61d00de6098d374325f8e75033e657534ea66b41",
-            "edited_bytes": 449610,
-            "lossless_master_unchanged": true
-          }
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "VERIFIED",
-        "at": "2026-11-07T21:21:00+08:00",
-        "run_id": "20261107T205300+0800-cycle-5",
-        "species_id": 184,
-        "species": "Otus spilocephalus",
-        "credited": false,
-        "evidence": {
-          "archive_commit": "a7072a5d122738f7775835e7c0ababcf83420088",
-          "archive_tree": "e1312e06612501342c7e4bd2f183dd9607646c10",
-          "required_paths_verified": 19,
-          "exact_binary_paths_verified": 8,
-          "unique_binary_streams_read_back": 6,
-          "tree_entries": 3933,
-          "tree_truncated": false,
-          "concept_blob": "11a6a3a91be4c16eb00a6d47b4ce4a9a404c0b9a",
-          "concept_bytes": 728553,
-          "initial_source_blob": "b57727f384c1fdeacda70aae2b760d2c143bc471",
-          "initial_source_bytes": 471886,
-          "edited_source_blob": "61d00de6098d374325f8e75033e657534ea66b41",
-          "edited_source_bytes": 449610,
-          "full_binary_stream_readback": true,
-          "manifest_counts": {
-            "design_legacy": 788,
-            "design_image": 787,
-            "production": 778
-          },
-          "scientifically_verified": false,
-          "ledger_credit_pending": true
-        }
-      },
-      {
-        "cycle": 5,
-        "stage": "LEDGER_CREDITED",
-        "at": "2026-11-07T21:24:00+08:00",
-        "run_id": "20261107T205300+0800-cycle-5",
-        "species_id": 184,
-        "species": "Otus spilocephalus",
-        "credited": true,
-        "evidence": {
-          "verification_commit": "0bb4601c073b17a810032eb2f0f530a6c5683aa7",
-          "archive_commit": "a7072a5d122738f7775835e7c0ababcf83420088",
-          "run_record": "owl-pet/production/runs/20261107T205300+0800-cycle-5.md",
-          "next_cycle": 6,
-          "unique_species_increment": 0,
-          "revision_increment": 1
-        }
-      }
-    ]
+    "cycle": 6,
+    "run_id": "20261107T212500+0800-cycle-6",
+    "status": "ACTIVE",
+    "species_id": 25,
+    "species": "Glaucidium brasilianum cactorum",
+    "version": 3,
+    "stage": "STARTED"
   },
   "events": [
     {

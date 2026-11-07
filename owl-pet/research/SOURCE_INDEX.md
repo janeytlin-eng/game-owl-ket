@@ -3297,3 +3297,10 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - Design decision: retain formed folded juvenile wings, compact young contour and root support; prohibit flight pose and exact-flight claim. Adult sex scale remains near-equal because no quantitative ratio was found.
 - Linked research: `research/species/166-bubo-cinerascens-v3.md`; image v3 and review pending.
 - Mikkola upload unavailable; old page transcription reused, not freshly page-read.
+
+
+## 2026-11-07 — #167 *Ketupa poensis* v3 — primary young and scapular calibration
+
+- **FREO-SHARPE-1875-P42** — R. Bowdler Sharpe; 1875; *Catalogue of the Striges...*, p.42; primary historical specimen catalogue; https://wallace-online.org/converted/supplementary/specimens/1875_BMbirds_WSPEC351.2.pdf ; accessed 2026-11-07. Taxon: western *Bubo/Ketupa poensis*, adult and young study skins. Facts: conspicuous silvery-white external scapular webs in adults; dense narrow tarsal barring; young much lighter, tawny-fulvous and narrowly barred above, whitish with very narrow brown cross-lines below. Limits: skins do not establish age, living soft parts, posture or flight. Design: visible irregular shoulder patch, pale narrow-barred age-unknown young. Links: [research](species/167-ketupa-poensis-v3.md), v3 image/review pending at RESEARCH_READY.
+- **FREO-TOBIAS-WILLIAMS-2022-FIG2-5** — J.A. Tobias & R.S.R. Williams; 2022; *Bull. ABC* 29(1):72–78, Figs 2–5, pp.74–75; comparative field/specimen paper; https://www.tobiaslab.net/wp-content/uploads/2022/04/Tobias-Williams-2022-Shelleys-Eagle-Owl.-Bull-ABC.pdf ; accessed 2026-11-07. Taxon: adult western Fraser’s compared with Shelley’s/Akun. Facts: Buteo-sized, rufous, dark-eyed, conspicuous pale scapular/coverts patches, narrow flight barring; NHM dorsal/ventral photos. Limits: not a developmental paper. Design: prevent oversized dark-uniform drift and corroborate shoulder pattern.
+- Reused without duplication: **FREO-CLEMENTS-2022-LUMP**, **FREO-MNHN-MO-1971-66**, **FREO-MIKKOLA-2013-P284**. Current-name mapping and age limits unchanged.

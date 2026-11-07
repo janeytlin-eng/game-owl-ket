@@ -3732,4 +3732,4 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Limits:** synthesis, not a development experiment; supports current name and broad adult direction.
 
 - **Links:** `research/species/25-glaucidium-brasilianum-cactorum-v4.md`; planned `design/concepts/25-glaucidium-brasilianum-cactorum-v4.png`; run `production/runs/20261107T212500+0800-cycle-6.md`.
-- **Correction:** v2/v3 retained but its “subdued eye colour / no nape eyespots” boundary is superseded for the chosen 28–31-day stage by direct observation: lemon-yellow iris, lighter indistinct gray nape patches, full feathering, and short rufous tail. New4 / reused0 / corrected1; science false.
+- **Correction:** v2/v3 retained. Direct observation supersedes the complete absence of juvenile nape patches: 28–40-day birds have lighter indistinct gray patches, full feathering and a short rufous tail. Juvenile iris chronology is not stated; yellow in v4 is an explicit design inference, not a verified age cue. New4 / reused0 / corrected1; science false.

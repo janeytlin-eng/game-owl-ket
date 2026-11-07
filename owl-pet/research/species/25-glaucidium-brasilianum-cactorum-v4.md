@@ -38,7 +38,7 @@ Read p.46915. Current U.S. treatment retains *G. b. cactorum*. It summarizes mal
 
 ## Conflict correction and design boundary
 
-V2’s “subdued eye color” and complete absence of nape eyespots are not supported by the direct 1996 observations. V4 will show lemon-yellow juvenile eyes, a fully feathered 28–31-day bird, and lighter grayish indistinct nape patches without the adult white outline. It will not use a fluffy nestling or erase all formed juvenile wing feathers. The first-day balance problem supports a low crouch on a broad fork with one short wing slightly open for balance; it does not support flight.
+V2’s complete absence of nape eyespots conflicts with the direct 1996 observations. Those observations do not state a juvenile iris chronology. V4 uses lemon-yellow juvenile eyes only as a conservative design inference from adult soft-part colour and the institutional fledgling imagery; it is not treated as a verified age cue. V4 shows a fully feathered 28–31-day bird and, where visible, lighter grayish indistinct nape patches without the adult white outline. It will not use a fluffy nestling or erase all formed juvenile wing feathers. The first-day balance problem supports a low crouch on a broad fork with one short wing slightly open for balance; it does not support flight.
 
 Adult female is somewhat fuller/larger and more rufous, male slightly smaller/darker, but standing height remains nearly equal and the 64 g/75 g averages are not converted into a rigid universal scale.
 

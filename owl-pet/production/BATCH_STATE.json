@@ -33511,38 +33511,32 @@
           "review_result": "PASS_WITH_LIMITATIONS",
           "scientifically_verified": false,
           "credited_at": "2026-11-07T22:48:14.542+08:00"
+        },
+        {
+          "cycle": 2,
+          "species": "Glaucidium passerinum",
+          "species_id": 27,
+          "version": 5,
+          "action": "SCIENCE_REVISION",
+          "unique_species_increment": 0,
+          "revision_increment": 1,
+          "commit_sha": "9ae062ddf3b5c2c701e5ffa8cf9288c17b1eadcf",
+          "archive_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
+          "run_record": "owl-pet/production/runs/20261107T225200+0800-cycle-2.md",
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "credited_at": "2026-11-07T23:01:04.770+08:00"
         }
       ],
-      "next_cycle": 2,
-      "active_cycle": 2,
+      "next_cycle": 3,
+      "active_cycle": 3,
       "started_at": "2026-11-07T22:32:35+08:00",
-      "updated_at": "2026-11-07T23:00:33.396+08:00",
-      "current_stage": "VERIFIED",
-      "ledger_credit_pending": true,
-      "lease": {
-        "owner": "codex-work",
-        "run_id": "20261107T225200+0800-cycle-2",
-        "heartbeat_at": "2026-11-07T23:00:33.396+08:00",
-        "expires_at": "2026-11-07T23:15:33.396+08:00"
-      },
-      "in_progress": {
-        "cycle": 2,
-        "run_id": "20261107T225200+0800-cycle-2",
-        "species_id": 27,
-        "species": "Glaucidium passerinum",
-        "version": 5,
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261107T225200+0800-cycle-2.md"
-      },
-      "active": {
-        "cycle": 2,
-        "run_id": "20261107T225200+0800-cycle-2",
-        "species_id": 27,
-        "species": "Glaucidium passerinum",
-        "version": 5,
-        "stage": "VERIFIED",
-        "run_record": "owl-pet/production/runs/20261107T225200+0800-cycle-2.md"
-      },
+      "updated_at": "2026-11-07T23:01:04.770+08:00",
+      "current_stage": "LEDGER_CREDITED",
+      "ledger_credit_pending": false,
+      "lease": null,
+      "in_progress": null,
+      "active": null,
       "stage_events": [
         {
           "cycle": 1,
@@ -47564,7 +47558,7 @@
       }
     }
   ],
-  "ledger_credit_pending": true,
+  "ledger_credit_pending": false,
   "last_verified_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
   "completed_cycles": [
     {
@@ -47581,40 +47575,35 @@
       "review_result": "PASS_WITH_LIMITATIONS",
       "scientifically_verified": false,
       "credited_at": "2026-11-07T22:48:14.542+08:00"
+    },
+    {
+      "cycle": 2,
+      "species": "Glaucidium passerinum",
+      "species_id": 27,
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "commit_sha": "9ae062ddf3b5c2c701e5ffa8cf9288c17b1eadcf",
+      "archive_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
+      "run_record": "owl-pet/production/runs/20261107T225200+0800-cycle-2.md",
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "scientifically_verified": false,
+      "credited_at": "2026-11-07T23:01:04.770+08:00"
     }
   ],
-  "updated": "2026-11-07T23:00:33.396+08:00",
-  "stage": "VERIFIED",
+  "updated": "2026-11-07T23:01:04.770+08:00",
+  "stage": "LEDGER_CREDITED",
   "stage_evidence": {
+    "verification_commit": "9ae062ddf3b5c2c701e5ffa8cf9288c17b1eadcf",
     "archive_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
-    "archive_tree": "f7563e3959d57cb86edeaf70df7ef9f6b35cbcc6",
-    "required_paths_verified": 17,
-    "safe_binary_paths_verified": 6,
-    "safe_binary_complete_streams": 6,
-    "imagegen_original_paths_verified": 2,
-    "original_full_streams": 0,
-    "original_stream_limit": "connector response ceiling; exact immutable Git path/blob SHAs matched",
-    "concept_blob": "ff798b7f96895507fa40d63b5b9d18c1ca05fcff",
-    "concept_bytes": 769128,
-    "original_blobs": [
-      "aafa366a48d94ce6ffd6758aeb47bc5eaf419169",
-      "4e7c3506b6cad0f45db96f3d67370210362f13e5"
-    ],
-    "crop_blobs": [
-      "7bf27f6194d5cbcc5c7496ef23bf450255d022dc",
-      "f3c236b72afe44fcac6b132e454475d032d39df0",
-      "daefe390635394e438534ffdce192fef4fbdf92c"
-    ],
-    "manifest_counts": {
-      "design_image": 793,
-      "design_legacy": 790,
-      "production": 783
-    },
-    "manifest_v5_exactly_once": true,
-    "verification_result": "PASS_WITH_LIMITATIONS",
-    "scientifically_verified": false,
-    "ledger_credit_pending": true,
-    "lease_expires_at": "2026-11-07T23:15:33.396+08:00"
+    "run_record": "owl-pet/production/runs/20261107T225200+0800-cycle-2.md",
+    "batch_progress": "2/6",
+    "next_cycle": 3,
+    "unique_species_count": 176,
+    "total_species": 251,
+    "revision_increment": 1,
+    "scientifically_verified": false
   },
   "last_verification_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
   "timestamps": {
@@ -47623,12 +47612,12 @@
     "REVIEWED": "2026-11-07T22:57:01.313+08:00",
     "ARCHIVED": "2026-11-07T22:59:17.142+08:00",
     "VERIFIED": "2026-11-07T23:00:33.396+08:00",
-    "LEDGER_CREDITED": "2026-11-07T22:48:14.542+08:00",
+    "LEDGER_CREDITED": "2026-11-07T23:01:04.770+08:00",
     "STARTED": "2026-11-07T22:49:06.062+08:00",
     "reviewed_at": "2026-11-07T22:57:01.313+08:00",
     "archived_at": "2026-11-07T22:59:17.142+08:00",
     "verified_at": "2026-11-07T23:00:33.396+08:00",
-    "ledger_credited_at": "2026-11-07T22:48:14.542+08:00",
+    "ledger_credited_at": "2026-11-07T23:01:04.770+08:00",
     "started_at": "2026-11-07T22:49:06.062+08:00",
     "research_ready_at": "2026-11-07T22:51:12.950+08:00",
     "image_generated_at": "2026-11-07T22:53:55.891+08:00"
@@ -47746,6 +47735,27 @@
         "scientifically_verified": false,
         "ledger_credit_pending": true,
         "lease_expires_at": "2026-11-07T23:15:33.396+08:00"
+      }
+    },
+    {
+      "batch_id": "20261107T223235+0800",
+      "cycle": 2,
+      "stage": "LEDGER_CREDITED",
+      "at": "2026-11-07T23:01:04.770+08:00",
+      "run_id": "20261107T225200+0800-cycle-2",
+      "species_id": 27,
+      "species": "Glaucidium passerinum",
+      "credited": true,
+      "evidence": {
+        "verification_commit": "9ae062ddf3b5c2c701e5ffa8cf9288c17b1eadcf",
+        "archive_commit": "055fa757897ae9057257cb81947bbd90ed8b2a66",
+        "run_record": "owl-pet/production/runs/20261107T225200+0800-cycle-2.md",
+        "batch_progress": "2/6",
+        "next_cycle": 3,
+        "unique_species_count": 176,
+        "total_species": 251,
+        "revision_increment": 1,
+        "scientifically_verified": false
       }
     }
   ]

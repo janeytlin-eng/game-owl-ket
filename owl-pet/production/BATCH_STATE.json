@@ -32355,14 +32355,35 @@
         }
       ],
       "next_cycle": 3,
-      "active_cycle": null,
+      "active_cycle": 3,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:44:00+08:00",
-      "current_stage": "VERIFIED",
+      "updated_at": "2026-11-07T19:46:00+08:00",
+      "current_stage": "STARTED",
       "ledger_credit_pending": false,
-      "lease": null,
-      "in_progress": null,
-      "active": null,
+      "lease": {
+        "owner": "codex-work-production",
+        "run_id": "20261107T194600+0800-cycle-3",
+        "heartbeat_at": "2026-11-07T19:46:00+08:00",
+        "expires_at": "2026-11-07T20:01:00+08:00"
+      },
+      "in_progress": {
+        "cycle": 3,
+        "run_id": "20261107T194600+0800-cycle-3",
+        "species_id": 197,
+        "species": "Otus megalotis",
+        "version": 3,
+        "action": "SCIENCE_REVISION",
+        "stage": "STARTED",
+        "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md"
+      },
+      "active": {
+        "cycle": 3,
+        "run_id": "20261107T194600+0800-cycle-3",
+        "species_id": 197,
+        "species": "Otus megalotis",
+        "version": 3,
+        "action": "SCIENCE_REVISION"
+      },
       "stage_events": [
         {
           "cycle": 1,
@@ -32688,6 +32709,22 @@
             "next_cycle": 3,
             "unique_species_increment": 0,
             "revision_increment": 1
+          }
+        },
+        {
+          "cycle": 3,
+          "stage": "STARTED",
+          "at": "2026-11-07T19:46:00+08:00",
+          "run_id": "20261107T194600+0800-cycle-3",
+          "species_id": 197,
+          "species": "Otus megalotis",
+          "credited": false,
+          "evidence": {
+            "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md",
+            "baseline_main": "89341cb401dd23a0fc145dbaff9b0934324f3180",
+            "selection_note": "#191–194 and #196 have no live task records; #197 Otus megalotis has archived v1/v2 and no v3. V2 is science=false and requires a fresh check that sexed wing/tail mean differences are not converted into standing-height/body-size exaggeration and that the older juvenile remains evidence-bounded.",
+            "lease_expires_at": "2026-11-07T20:01:00+08:00",
+            "scientifically_verified": false
           }
         }
       ]

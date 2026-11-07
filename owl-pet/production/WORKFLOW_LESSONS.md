@@ -1,5 +1,14 @@
 
 
+## 2026-11-08 — juvenile crown evidence does not license adult wing organization
+
+**Problem:** #30 v5 initially rendered the evidence-supported spotted juvenile crown correctly but paired it with a long folded wing and neat adult-like white covert rows.
+
+**Evidence/application:** the sources support a juvenile/fledgling stage and yellow iris, not adult-complete wing organization or a flight threshold. A targeted edit shortened and softened only the center bird's wing and removed neat adult-style rows while retaining full branch support.
+
+**Verified result:** edited full plate, archival master and juvenile crop were opened; the correction held without material drift in adults, labels or habitat. Apply this as a review trigger, not a universal claim about exact feather timing.
+
+
 ## 2026-11-08 — stage-specific action can be added without inventing age
 
 **Problem:** juvenile plates can become static, while forcing an exact day-age from a field narrative would overclaim.

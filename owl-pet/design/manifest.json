@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T00:32:30.000+08:00",
+  "updated": "2026-11-08T00:46:04.772+08:00",
   "images": [
     {
       "id": "generic-owl-v1",
@@ -29652,7 +29652,84 @@
       "verified_at": "2026-11-08T00:32:30.000+08:00",
       "exact_readback": true,
       "verification_result": "Immutable archive returned the concept, full-colour source, generated/reviewed master and three crops with exact Git blob SHAs and decoded byte lengths. Research, review, source index, workflow lesson, run and all three manifests were read back; manifests parsed at 795/792/785."
+    },
+    {
+      "id": "30-glaucidium-cuculoides-v5",
+      "path": "design/concepts/30-glaucidium-cuculoides-v5.png",
+      "species_id": 30,
+      "scientific_name": "Glaucidium cuculoides",
+      "common_name": "Asian Barred Owlet",
+      "version": 5,
+      "action": "SCIENCE_REVISION",
+      "previous_versions": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "unique_species_increment": 0,
+      "revision_increment": 1,
+      "scientifically_verified": false,
+      "concept_checked": true,
+      "review_result": "PASS_WITH_LIMITATIONS",
+      "edit_count": 1,
+      "imagegen_invocations": 2,
+      "status": "V5 preserves v1–v4. Evidence supports same-plumage near-equal adults and an undated yellow-eyed recent fledgling with spotted crown/forehead near a natural cavity. One targeted edit shortened and softened the fledgling wing and removed adult-like white covert rows. Exact age, sex, first-flight threshold, independence and population sex-size direction remain unknown.",
+      "source_ids": [
+        "ASBO-HKBWS-AVIFAUNA-2024",
+        "ASBO-HKBWS-HKBR-2009-10",
+        "ASBO-SANKAMETHAWEE-PIERCE-2019"
+      ],
+      "source_index": "research/SOURCE_INDEX.md",
+      "research_record": "research/species/30-glaucidium-cuculoides-v5.md",
+      "review_record": "research/reviews/30-glaucidium-cuculoides-v5-review.md",
+      "run_record": "production/runs/20261108T003630+0800-cycle-5.md",
+      "dimensions": "1536x1024",
+      "size_bytes": 700487,
+      "sha256": "76038ee916aa3e754820872a79b204cd82a75dc2671827025c7c1e9841d30ad1",
+      "git_blob": "963faaec89ffb11cfe8fe9c8baa4d97ceec0bcea",
+      "initial_original_path": "production/generated/30-glaucidium-cuculoides-v5-initial-original.png",
+      "initial_original_blob": "c462006bd1937b03cb7ce1990ff10426dc14c41d",
+      "initial_original_size_bytes": 2872415,
+      "initial_original_sha256": "d9dcc573535ae00f708c5740c8e1f25d4033f612da192413c1907cc66bb4b8bc",
+      "final_original_path": "production/generated/30-glaucidium-cuculoides-v5-final-original.png",
+      "final_original_blob": "86bb3dddf07f44623a6e21452ec899ba616fbc1f",
+      "final_original_size_bytes": 2719113,
+      "final_original_sha256": "aa80e4cf11a20547965f574d69f1074e668aef9e6108a170248bca49b4745414",
+      "full_color_source_path": "production/generated/30-glaucidium-cuculoides-v5-full-color.jpg",
+      "full_color_source_blob": "e4095bdf7dbf0698936342092784ca95c1f867d3",
+      "full_color_source_size_bytes": 700993,
+      "full_color_source_sha256": "75aaa56109f0a6e1244ac226b864436f5a1ccd6b6d5d247324f65eb999ae1aa0",
+      "generated_path": "production/generated/30-glaucidium-cuculoides-v5-generated-master.png",
+      "generated_blob": "963faaec89ffb11cfe8fe9c8baa4d97ceec0bcea",
+      "generated_size_bytes": 700487,
+      "reviewed_path": "production/reviewed/30-glaucidium-cuculoides-v5-reviewed-master.png",
+      "reviewed_blob": "963faaec89ffb11cfe8fe9c8baa4d97ceec0bcea",
+      "reviewed_size_bytes": 700487,
+      "review_crops": [
+        {
+          "path": "production/review-crops/30-glaucidium-cuculoides-v5-adult-male.png",
+          "blob": "753890a01d0528820a23592de877757074671515",
+          "size_bytes": 154551,
+          "sha256": "cd046646e35ac8054bd4315ac9f26849242c75171b34f0c78de95335ea61fdfd"
+        },
+        {
+          "path": "production/review-crops/30-glaucidium-cuculoides-v5-juvenile.png",
+          "blob": "e57c364e635746577fb32bf2a0b7f6205a35b601",
+          "size_bytes": 153972,
+          "sha256": "659f5b07cc88e530dedf5b000ecac811e77a38510f391c64d6ed452107cfe8cb"
+        },
+        {
+          "path": "production/review-crops/30-glaucidium-cuculoides-v5-adult-female.png",
+          "blob": "61190e6ed8907d493ae72ca13a5cd7401e9b827a",
+          "size_bytes": 187125,
+          "sha256": "36b127b68bddc92fc16f220e81732e1b29f24c059c89da20d7697f2bf6ede985"
+        }
+      ],
+      "archive_note": "Initial and edited originals, full-colour plate, archival master and all three role crops were opened. One evidence-led juvenile-wing edit was applied and rechecked. Exact juvenile age/sex, flight threshold, independence and sex-size direction remain unknown.",
+      "readback_pending": true,
+      "archive_commit_pending": true
     }
   ],
-  "updated_at": "2026-11-08T00:32:30.000+08:00"
+  "updated_at": "2026-11-08T00:46:04.772+08:00"
 }

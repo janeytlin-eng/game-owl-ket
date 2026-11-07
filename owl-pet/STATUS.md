@@ -1,3 +1,13 @@
+## 2026-11-08 — #30 Asian Barred Owlet — *Glaucidium cuculoides* v5 ARCHIVED, readback pending
+
+V5科学修订保留v1–v4。香港观鸟会物种资料支持黄眼、密横斑、无后颈假眼及幼鸟额冠斑点；鸟类报告支持2010年6月5日拍摄到离巢幼鸟，但不支持精确日龄或首次飞行阈值。初图幼鸟折翼偏长且白斑覆羽列过于成鸟化，已用一次局部imagegen编辑缩短并软化，复查未见成鸟、文字或环境漂移。结果 `PASS_WITH_LIMITATIONS`，science=false。
+
+- Concept: `design/concepts/30-glaucidium-cuculoides-v5.png`
+- Initial/final originals: `production/generated/30-glaucidium-cuculoides-v5-initial-original.png`, `production/generated/30-glaucidium-cuculoides-v5-final-original.png`
+- Research/review: `research/species/30-glaucidium-cuculoides-v5.md`, `research/reviews/30-glaucidium-cuculoides-v5-review.md`
+- Run: `production/runs/20261108T003630+0800-cycle-5.md`
+- Unique coverage remains 176/251; revision +1; immutable readback pending.
+
 ## 2026-11-08 00:35 +08 — #29 v5 LEDGER_CREDITED — active batch 4/6
 
 Verification [`69383cc3369056756fb88702068fe65745a73292`](https://github.com/janeytlin-eng/game-owl-ket/commit/69383cc3369056756fb88702068fe65745a73292) was read back and cycle 4/6 was credited. Batch `20261107T223235+0800` now has four verified cycles; next_cycle=5. Unique coverage remains 176/251; revision +1; science=false; lease released.

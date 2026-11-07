@@ -1,3 +1,9 @@
+## 2026-11-08 — #30 *Glaucidium cuculoides* v5 archived
+
+- Preserved v1–v4; fresh Hong Kong institutional evidence bounds an undated yellow-eyed fledgling with spotted crown near a natural cavity.
+- One targeted edit removed adult-like white covert rows and shortened the juvenile wing; adults remain same-plumage and near-equal.
+- PASS_WITH_LIMITATIONS; science=false; unique coverage remains 176/251; immutable readback pending.
+
 ## 2026-11-08 — #29 v5 ledger credited
 
 - Verification `69383cc3369056756fb88702068fe65745a73292` read back; cycle 4/6 credited and the batch advances to next_cycle 5.

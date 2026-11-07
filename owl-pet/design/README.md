@@ -1,3 +1,7 @@
+## 2026-11-08 — #30 *Glaucidium cuculoides* v5 ARCHIVED; ledger credit pending
+
+V5 preserves v1–v4. An undated yellow-eyed recent fledgling is kept low and fully supported near a natural cavity; spotted crown/forehead is retained, while exact age, flight threshold and independence remain unclaimed. One targeted edit shortened/softened the juvenile wing and removed adult-style white covert rows. `PASS_WITH_LIMITATIONS`; science=false; unique coverage 176/251.
+
 ## 2026-11-08 00:35 +08 — #29 *Glaucidium capense* v5 LEDGER_CREDITED
 
 Verification [`69383cc3369056756fb88702068fe65745a73292`](https://github.com/janeytlin-eng/game-owl-ket/commit/69383cc3369056756fb88702068fe65745a73292) was read back. Cycle 4/6 is credited; next_cycle=5. Unique coverage remains 176/251; revision +1; science=false.

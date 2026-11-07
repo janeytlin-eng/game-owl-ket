@@ -764,3 +764,19 @@ Edit ONLY the center ~24-DAY NESTLING in this existing owl concept plate. Preser
 ```text
 Create one landscape 3:2 owl field-guide concept plate, 1536×1024, refined digital gouache with controlled realistic feather detail, warm lowland rainforest light, not photographic and not cartoon. Show exactly THREE Crested Owls, Lophostrix cristata, on separate natural mossy supports in mature humid lowland forest with a few standing dead snags in the background. LEFT ADULT MALE and RIGHT ADULT FEMALE: near-equal visible standing height, female only subtly fuller; dark brown morph; huge distinctive long pale-white eyebrow plumes continuing into long ear tufts that can form a dramatic V, rufous-brown facial disc with black rim, dark orange-brown iris, pale horn bill, dark brown upperparts with white scapular/wing marks, finely vermiculated warm brown underparts, relatively long barred tail, small fully supported feet. CENTER OLDER JUVENILE: age unknown, sex unknown, low stable crouch on a broad mossy branch with both feet and lower body supported; fluffy white juvenile head/body plumage, dark rufous facial disc, short developing ear tufts, already formed folded brown/barred flight feathers and short formed tail, but still rounder and softer than adults. Do not claim flight, independence, exact age or a nest. Exact unobstructed typography: top-left “97 CRESTED OWL”; below italic “Lophostrix cristata”; bottom labels “ADULT MALE”, “OLDER JUVENILE”, “ADULT FEMALE”; small locality “Humid lowland forest · Neotropics”. Exactly three birds. No eggs, prey, cavity claim, extra birds, watermark or logo.
 ```
+
+
+## #102 *Strix nigrolineata* v5 — 2026-11-08T05:47:02.379+08:00
+
+```text
+Create a 1536×1024 landscape scientific-educational owl electronic-pet concept plate in the established premium naturalistic digital-gouache / softly dimensional 3D storybook realism. Exact title: “102 · BLACK-AND-WHITE OWL · Strix nigrolineata”. Exact labels: “ADULT MALE”, “AGE-UNKNOWN OLDER JUVENILE”, “ADULT FEMALE”. Exactly three fully visible birds on a living bromeliad-and-orchid epiphyte platform in humid Neotropical canopy, all naturally supported.
+
+Adults: rounded untufted heads, sooty black-brown upperparts, restrained pale facial-ruff flecks and narrow flight/tail bars, dark reddish/orange-brown irides, orange-yellow bills, black bibs, white underparts with dense narrow black horizontal barring. Near-equal crown height; female fuller and only subtly longer-tailed, not dramatically taller. Center age-unknown older juvenile: pale tightly barred fluffy mesoptile, dark eyes, pale bill, short rounded down-softened wing with only a compact blackish coverts patch, short/concealed tail, low supported crouch. Regional Tikal epiphyte context only. No flight, extra birds, eggs, prey, cavity, constructed nest, watermark or extra text.
+```
+
+### #102 v5 targeted juvenile-wing correction
+
+```text
+Edit only the center juvenile: replace long layered adult-like remiges with a much shorter compact rounded down-softened immature wing ending high on the body, retaining only a small dark coverts patch and a few short pale bars. Preserve both adults, exact text, exact count, support, lighting and environment. Keep tail short/concealed and both juvenile feet supported. No other change.
+```
+

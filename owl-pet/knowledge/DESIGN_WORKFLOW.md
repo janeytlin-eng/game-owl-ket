@@ -1025,3 +1025,10 @@ When a species guide says “juvenile not known” but a regional field photogra
 - **Problem/evidence:** sexed museum measurements overlap, and the apparent direction differs between sampled subspecies; a habitat association with snags is not nest evidence.
 - **Applied:** keep adults near equal with only subtle presentation fullness, and keep the age-unknown older mesoptile on a broad supported branch without flight, independence or nest claims.
 - **Validated:** the prior full plate and three role crops passed with zero edits; this is local visual validation for #97 v5, not a universal sex-size or developmental rule.
+
+## 2026-11-08 — measured mass difference is not an illustrated height multiplier (#102 v5)
+
+- **Problem/evidence:** one measured Black-and-white Owl pair differed strongly in mass and moderately in tail length, but little in wing chord; the sample does not establish a population-wide standing-height ratio. The initial generated juvenile also repeated v4's unsupported adult-length folded wing.
+- **Applied:** keep adult crown heights near equal, express the measured direction as female body fullness and a subtly longer tail, and evaluate juvenile coverts separately from remige endpoint. One targeted edit shortened the age-unknown mesoptile's wing to a compact down-softened coverts patch.
+- **Validated:** the edited full plate and three role crops passed for #102 v5. This validates the mass-to-fullness and juvenile-wing-endpoint checks for this asset only; it does not create a universal female-larger or developmental rule.
+- Evidence: `owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md`.

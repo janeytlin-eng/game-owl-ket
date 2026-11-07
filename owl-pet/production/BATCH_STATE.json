@@ -8460,92 +8460,8 @@
           "unique_species_increment": 0,
           "commit_sha": "19ddaf91a4cf11f863bed3deac623a1b1d79bfa3",
           "run_record": "owl
-... 1690109 bytes omitted ...
-ing": true,
-        "lease_expires_at": "2026-11-07T21:04:00+08:00"
-      }
-    },
-    {
-      "cycle": 4,
-      "stage": "VERIFIED",
-      "at": "2026-11-07T20:50:00+08:00",
-      "run_id": "20261107T203821+0800-cycle-4",
-      "species_id": 201,
-      "species": "Otus mantananensis",
-      "credited": false,
-      "evidence": {
-        "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
-        "archive_tree": "246bb0c63dcd0fa1a16dde7e54b040e90bb4972d",
-        "required_paths_verified": 18,
-        "exact_binary_paths_verified": 8,
-        "unique_binary_streams_read_back": 6,
-        "tree_entries": 3921,
-        "tree_truncated": false,
-        "manifest_counts": {
-          "design_legacy": 787,
-          "design_image": 786,
-          "production": 777
-        },
-        "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-        "initial_source_blob": "b5f8b48de7eb0417675eafcc3128a1cdd216fbc9",
-        "edited_source_blob": "ea2692302b3af13df8cdc3358f5ec9a6832ae404",
-        "generated_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-        "reviewed_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-        "full_binary_stream_readback": true,
-        "browser_renderer": false,
-        "verification_result": "PASS_WITH_LIMITATIONS",
-        "scientifically_verified": false,
-        "ledger_credit_pending": true,
-        "lease_expires_at": "2026-11-07T21:05:00+08:00"
-      }
-    },
-    {
-      "cycle": 4,
-      "stage": "LEDGER_CREDITED",
-      "at": "2026-11-07T20:52:00+08:00",
-      "run_id": "20261107T203821+0800-cycle-4",
-      "species_id": 201,
-      "species": "Otus mantananensis",
-      "credited": true,
-      "evidence": {
-        "verification_commit": "d5a2330002cb80250a4504edc560154b8414d1eb",
-        "archive_commit": "4e0525c59b76a14aeb06ef6dc22df3f3bb25fdd9",
-        "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-        "next_cycle": 5,
-        "unique_species_increment": 0,
-        "revision_increment": 1,
-        "batch_progress": "4/6",
-        "unique_species_count": 176,
-        "total_species": 251,
-        "scientifically_verified": false
-      }
-    },
-    {
-      "cycle": 5,
-      "stage": "STARTED",
-      "at": "2026-11-07T20:53:00+08:00",
-      "run_id": "20261107T205300+0800-cycle-5",
-      "species_id": 184,
-      "species": "Otus spilocephalus",
-      "credited": false,
-      "evidence": {
-        "run_record": "owl-pet/production/runs/20261107T205300+0800-cycle-5.md",
-        "baseline_main": "515ef1ec58fd7cae12d63b0cb5509fc548268c23",
-        "selection_note": "#184 Otus spilocephalus has archived v1/v2 but no v3. Repository live-task scan found no valid tasks for #202–251 and no live records for the skipped high-number gaps; #184 v2 remains PASS_WITH_LIMITATIONS and science=false. V1/v2 remain preserved; v3 is a non-destructive science revision.",
-        "lease_expires_at": "2026-11-07T21:08:00+08:00",
-        "scientifically_verified": false
-      }
-    },
-    {
-      "cycle": 5,
-      "stage": "RESEARCH_READY",
-      "at": "2026-11-07T21:03:00+08:00",
-      "run_id": "20261107T205300+0800-cycle-5",
-      "species_id": 184,
-      "species": "Otus spilocephalus",
-      "credited": false,
-      "evidence": {
-        "research_record": "owl-pet/research/species/184-otus-spilocephalus-v3.md",
+... 1695088 bytes omitted ...
+es/184-otus-spilocephalus-v3.md",
         "source_index": "owl-pet/research/SOURCE_INDEX.md",
         "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
         "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
@@ -11501,6 +11417,40 @@ ing": true,
         "scientifically_verified": false,
         "lease_expires_at": "2026-11-08T06:05:57.070+08:00"
       }
+    },
+    {
+      "batch_id": "20261108T045200+0800",
+      "cycle": 2,
+      "stage": "REVIEWED",
+      "at": "2026-11-08T05:54:02.294+08:00",
+      "run_id": "20261108T054352+0800-cycle-2",
+      "species_id": 102,
+      "species": "Strix nigrolineata",
+      "credited": false,
+      "evidence": {
+        "final_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-final-original.png",
+        "final_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+        "final_bytes": 2994861,
+        "final_sha256": "cebda436096e53e326f70273d24499af80ce7de0fda21cf2f65a2dbe539b74f6",
+        "edit_count": 1,
+        "imagegen_invocations": 2,
+        "reviewed_path": "owl-pet/production/reviewed/102-strix-nigrolineata-v5-reviewed-master.png",
+        "reviewed_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+        "review_record": "owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md",
+        "review_crops": [
+          "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-male.png",
+          "owl-pet/production/review-crops/102-strix-nigrolineata-v5-older-juvenile.png",
+          "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-female.png"
+        ],
+        "crop_blobs": [
+          "1ed8cf397a8163a30df125182567593e16b611a8",
+          "d88a5d05d19eebf874c8c823f6b1b9e799f3e6aa",
+          "a4bf3039a270f59c2b4128c316fccd3e49c65fb5"
+        ],
+        "review_result": "PASS_WITH_LIMITATIONS",
+        "scientifically_verified": false,
+        "lease_expires_at": "2026-11-08T06:09:02.294+08:00"
+      }
     }
   ],
   "last_completed_batch_id": "20261108T023550+0800",
@@ -11529,8 +11479,8 @@ ing": true,
     "next_cycle": 2,
     "active_cycle": 2,
     "started_at": "2026-11-08T04:51:43.588+08:00",
-    "updated_at": "2026-11-08T05:50:57.070+08:00",
-    "current_stage": "IMAGE_GENERATED",
+    "updated_at": "2026-11-08T05:54:02.294+08:00",
+    "current_stage": "REVIEWED",
     "ledger_credit_pending": false,
     "lease": {
       "owner": "codex-owl-production",
@@ -11538,15 +11488,15 @@ ing": true,
       "batch_id": "20261108T045200+0800",
       "cycle": 2,
       "species_id": 102,
-      "heartbeat_at": "2026-11-08T05:50:57.070+08:00",
-      "expires_at": "2026-11-08T06:05:57.070+08:00"
+      "heartbeat_at": "2026-11-08T05:54:02.294+08:00",
+      "expires_at": "2026-11-08T06:09:02.294+08:00"
     },
     "in_progress": {
       "run_id": "20261108T054352+0800-cycle-2",
       "cycle": 2,
       "species_id": 102,
       "species": "Strix nigrolineata",
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
     },
     "active": {
@@ -11554,7 +11504,7 @@ ing": true,
       "cycle": 2,
       "species_id": 102,
       "species": "Strix nigrolineata",
-      "stage": "IMAGE_GENERATED",
+      "stage": "REVIEWED",
       "run_record": "owl-pet/production/runs/20261108T054352+0800-cycle-2.md"
     },
     "stage_events": [
@@ -11789,6 +11739,40 @@ ing": true,
           "preliminary_inspection": "Initial full plate opened: exact text/count, adult identity, dimorphism, support and habitat passed; juvenile wing was too long and adult-like. Targeted edit shortened and softened only the juvenile wing while preserving adults, text and setting.",
           "scientifically_verified": false,
           "lease_expires_at": "2026-11-08T06:05:57.070+08:00"
+        }
+      },
+      {
+        "batch_id": "20261108T045200+0800",
+        "cycle": 2,
+        "stage": "REVIEWED",
+        "at": "2026-11-08T05:54:02.294+08:00",
+        "run_id": "20261108T054352+0800-cycle-2",
+        "species_id": 102,
+        "species": "Strix nigrolineata",
+        "credited": false,
+        "evidence": {
+          "final_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-final-original.png",
+          "final_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+          "final_bytes": 2994861,
+          "final_sha256": "cebda436096e53e326f70273d24499af80ce7de0fda21cf2f65a2dbe539b74f6",
+          "edit_count": 1,
+          "imagegen_invocations": 2,
+          "reviewed_path": "owl-pet/production/reviewed/102-strix-nigrolineata-v5-reviewed-master.png",
+          "reviewed_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+          "review_record": "owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md",
+          "review_crops": [
+            "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-male.png",
+            "owl-pet/production/review-crops/102-strix-nigrolineata-v5-older-juvenile.png",
+            "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-female.png"
+          ],
+          "crop_blobs": [
+            "1ed8cf397a8163a30df125182567593e16b611a8",
+            "d88a5d05d19eebf874c8c823f6b1b9e799f3e6aa",
+            "a4bf3039a270f59c2b4128c316fccd3e49c65fb5"
+          ],
+          "review_result": "PASS_WITH_LIMITATIONS",
+          "scientifically_verified": false,
+          "lease_expires_at": "2026-11-08T06:09:02.294+08:00"
         }
       }
     ],
@@ -19834,23 +19818,30 @@ ing": true,
     }
   ],
   "updated": "2026-11-08T05:40:36.411+08:00",
-  "stage": "IMAGE_GENERATED",
+  "stage": "REVIEWED",
   "stage_evidence": {
-    "initial_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-initial-original.png",
-    "initial_blob": "cf8a1290ee58eea880a71915b4f36dba48fb37cc",
-    "initial_bytes": 3130954,
-    "initial_sha256": "02859ecb5953c7f4e771db1a7feb6f35ab75448a61846fe8f0cf66bc1b0465c2",
-    "edit_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-edit1-original.png",
-    "edit_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
-    "edit_bytes": 2994861,
-    "edit_sha256": "cebda436096e53e326f70273d24499af80ce7de0fda21cf2f65a2dbe539b74f6",
-    "geometry": "1536x1024",
-    "generation_seconds": 48.1,
-    "edit_seconds": 38.1,
-    "edit_required": true,
-    "preliminary_inspection": "Initial full plate opened: exact text/count, adult identity, dimorphism, support and habitat passed; juvenile wing was too long and adult-like. Targeted edit shortened and softened only the juvenile wing while preserving adults, text and setting.",
+    "final_original": "owl-pet/production/generated/102-strix-nigrolineata-v5-final-original.png",
+    "final_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+    "final_bytes": 2994861,
+    "final_sha256": "cebda436096e53e326f70273d24499af80ce7de0fda21cf2f65a2dbe539b74f6",
+    "edit_count": 1,
+    "imagegen_invocations": 2,
+    "reviewed_path": "owl-pet/production/reviewed/102-strix-nigrolineata-v5-reviewed-master.png",
+    "reviewed_blob": "aa0595591d11bdf9796a4bf0617ec4c44f1fc186",
+    "review_record": "owl-pet/research/reviews/102-strix-nigrolineata-v5-review.md",
+    "review_crops": [
+      "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-male.png",
+      "owl-pet/production/review-crops/102-strix-nigrolineata-v5-older-juvenile.png",
+      "owl-pet/production/review-crops/102-strix-nigrolineata-v5-adult-female.png"
+    ],
+    "crop_blobs": [
+      "1ed8cf397a8163a30df125182567593e16b611a8",
+      "d88a5d05d19eebf874c8c823f6b1b9e799f3e6aa",
+      "a4bf3039a270f59c2b4128c316fccd3e49c65fb5"
+    ],
+    "review_result": "PASS_WITH_LIMITATIONS",
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-08T06:05:57.070+08:00"
+    "lease_expires_at": "2026-11-08T06:09:02.294+08:00"
   },
   "last_verification_commit": "6e81be91d60bbad92ef2bbc98d4428a03a0a6f62",
   "timestamps": {

@@ -32372,14 +32372,14 @@
       "next_cycle": 4,
       "active_cycle": 4,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T20:46:00+08:00",
-      "current_stage": "REVIEWED",
-      "ledger_credit_pending": false,
+      "updated_at": "2026-11-07T20:49:00+08:00",
+      "current_stage": "ARCHIVED",
+      "ledger_credit_pending": true,
       "lease": {
         "owner": "codex",
         "run_id": "20261107T203821+0800-cycle-4",
-        "heartbeat_at": "2026-11-07T20:46:00+08:00",
-        "expires_at": "2026-11-07T21:01:00+08:00"
+        "heartbeat_at": "2026-11-07T20:49:00+08:00",
+        "expires_at": "2026-11-07T21:04:00+08:00"
       },
       "in_progress": {
         "cycle": 4,
@@ -32389,7 +32389,7 @@
         "action": "SCIENCE_REVISION",
         "run_id": "20261107T203821+0800-cycle-4",
         "run_record": "owl-pet/production/runs/20261107T203821+0800-cycle-4.md",
-        "stage": "REVIEWED"
+        "stage": "ARCHIVED"
       },
       "active": null,
       "stage_events": [
@@ -32971,6 +32971,36 @@
             "review_result": "PASS_WITH_LIMITATIONS",
             "scientifically_verified": false,
             "lease_expires_at": "2026-11-07T21:01:00+08:00"
+          }
+        },
+        {
+          "cycle": 4,
+          "stage": "ARCHIVED",
+          "at": "2026-11-07T20:49:00+08:00",
+          "run_id": "20261107T203821+0800-cycle-4",
+          "species_id": 201,
+          "species": "Otus mantananensis",
+          "credited": false,
+          "evidence": {
+            "concept": "owl-pet/design/concepts/201-otus-mantananensis-v3.png",
+            "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+            "initial_source": "owl-pet/production/generated/201-otus-mantananensis-v3-initial-full-color.jpg",
+            "edited_source": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
+            "generated": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
+            "reviewed": "owl-pet/production/reviewed/201-otus-mantananensis-v3-reviewed-master.png",
+            "review_crops": 3,
+            "manifest_counts": {
+              "design_legacy": 787,
+              "design_image": 786,
+              "production": 777
+            },
+            "unique_species_count": 176,
+            "total_species": 251,
+            "unique_species_increment": 0,
+            "revision_increment": 1,
+            "scientifically_verified": false,
+            "readback_pending": true,
+            "lease_expires_at": "2026-11-07T21:04:00+08:00"
           }
         }
       ]
@@ -56794,28 +56824,28 @@
       "scientifically_verified": false
     }
   ],
-  "updated": "2026-11-07T20:46:00+08:00",
-  "stage": "REVIEWED",
+  "updated": "2026-11-07T20:49:00+08:00",
+  "stage": "ARCHIVED",
   "stage_evidence": {
-    "reviewed_path": "owl-pet/production/reviewed/201-otus-mantananensis-v3-reviewed-master.png",
-    "reviewed_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
-    "review_record": "owl-pet/research/reviews/201-otus-mantananensis-v3-review.md",
-    "review_crops": [
-      "owl-pet/production/review-crops/201-otus-mantananensis-v3-adult-male-pattern-feet.png",
-      "owl-pet/production/review-crops/201-otus-mantananensis-v3-older-juvenile.png",
-      "owl-pet/production/review-crops/201-otus-mantananensis-v3-adult-female-pattern-feet.png"
-    ],
-    "crop_blobs": [
-      "ff99e035db98e076b31ede49ed88ac068d70d718",
-      "3d8f5ffe3d27bd5c374d9cc2ded5a520f9bdf275",
-      "45c6782b70162a1439a062e54b439d2d4352d681"
-    ],
-    "edit_count": 1,
-    "imagegen_invocations": 2,
-    "reinspection": "edited full-colour plate, 104-colour transport master and all three crops opened; exact text, near-equal adults, six-foot support, adult diagnostic direction and compact soft-winged supported older juvenile passed",
-    "review_result": "PASS_WITH_LIMITATIONS",
+    "concept": "owl-pet/design/concepts/201-otus-mantananensis-v3.png",
+    "concept_blob": "aaff46aab1acdc5603a35d33452087604aa316f7",
+    "initial_source": "owl-pet/production/generated/201-otus-mantananensis-v3-initial-full-color.jpg",
+    "edited_source": "owl-pet/production/generated/201-otus-mantananensis-v3-full-color.jpg",
+    "generated": "owl-pet/production/generated/201-otus-mantananensis-v3-generated-master.png",
+    "reviewed": "owl-pet/production/reviewed/201-otus-mantananensis-v3-reviewed-master.png",
+    "review_crops": 3,
+    "manifest_counts": {
+      "design_legacy": 787,
+      "design_image": 786,
+      "production": 777
+    },
+    "unique_species_count": 176,
+    "total_species": 251,
+    "unique_species_increment": 0,
+    "revision_increment": 1,
     "scientifically_verified": false,
-    "lease_expires_at": "2026-11-07T21:01:00+08:00"
+    "readback_pending": true,
+    "lease_expires_at": "2026-11-07T21:04:00+08:00"
   },
   "last_verification_commit": "2e10f20b7a524a9c18c35765e6523d7e1c571391",
   "timestamps": {

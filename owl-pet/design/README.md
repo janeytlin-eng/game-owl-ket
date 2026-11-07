@@ -3349,3 +3349,8 @@ Science revision and archive reconciliation. V7 preserves v1–v6, resolves conf
 ## #173 Torotoroka Scops Owl — *Otus madagascariensis* — v3
 - [Concept](concepts/173-otus-madagascariensis-v3.png) · [Research](../research/species/173-otus-madagascariensis-v3.md) · [Review](../research/reviews/173-otus-madagascariensis-v3-review.md) · [Run](../production/runs/20261107T154800+0800-cycle-4.md)
 - Science revision: full 2009 nest paper read; exceptional ground nest not generalized. Grey/yellow-brown adults with short tufts; age-unknown older immature; one wing/tail softening edit. PASS_WITH_LIMITATIONS, science=false.
+
+
+### #201 *Otus mantananensis* v3 — verified rule application pending remote readback
+
+Applied the evidence-backed “juvenile unknown” rule: when the species account says juvenile unknown and only a different subspecies has an identified juvenile image, show an older supported bird with compact soft wing/tail, state the cross-population limit, and do not promote it to a nominate developmental description. This rule was actually applied and visually rechecked in v3; remote archive verification is still pending.

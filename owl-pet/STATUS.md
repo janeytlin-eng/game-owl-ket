@@ -3827,3 +3827,13 @@ Accepted immutable archive `02518c3e` / tree `0906afc6`: non-truncated 3,719-ent
 
 ### 2026-11-07 09:57 +08:00 — #161 cycle 5 LEDGER_CREDITED
 Verification commit `ff05129f`; accepted archive `02518c3e`; science revision +1, unique +0. Batch `20261107T062903+0800` is now 5/6, next cycle 6; unique species 176/251; science false. Lease released.
+
+
+## 2026-11-07 20:49 +08 — #201 *Otus mantananensis* v3 archived pending readback
+
+- Revision only: unique coverage remains **176/251**; revision increment +1 after verification.
+- Concept: `design/concepts/201-otus-mantananensis-v3.png`; v1/v2 preserved.
+- Review: PASS_WITH_LIMITATIONS; one imagegen edit corrected adult-hard juvenile wing/tail; science=false.
+- Evidence: Mikkola pp.199–200 readable mirror explicitly says juvenile unknown; Marshall pp.14–15 fully grown young without description; identified *romblonis* juvenile used only as cross-population boundary.
+- Unknown: exact nominate juvenile plumage/age/sex, iris chronology, first-flight threshold, hatchling, nest and quantitative dimorphism.
+- Archive commit/readback pending at this line; see batch state and run record for immutable verification.

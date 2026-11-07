@@ -1690,3 +1690,10 @@ Added evidence-bounded dependent post-fledging branch stage. One edit corrected 
 - 2026-11-07T06:58:20+08:00: #153 v3 VERIFIED at archive `36a01f385a6f32501ddaff3076c13d551b5aa5fd`, tree `8dfe17c657c749a822c2714905b3808854bd0d70`; 19 paths, six exact binary identities and manifests 760/761/751 passed; ledger credit pending; science false.
 
 - 2026-11-07T07:00:05+08:00: #153 *Jubula lettii* v3 LEDGER_CREDITED after verification `8624d4a4b7aa596aec5d6d4c8bd0ffdd9599ddd0`; batch 2/6, next cycle 3, lease released; unique176/251; science false.
+
+
+## 2026-11-07 — #201 Mantanani Scops Owl v3
+
+- Preserved v1/v2 and added v3 science revision without changing unique-species count.
+- Replaced the adult-hard juvenile template with a shorter, softer wing/tail and a low supported posture after one actual imagegen edit and reinspection.
+- Added two read source records, reused four, corrected one design boundary, and retained unresolved juvenile/sex/nest details as unknown.

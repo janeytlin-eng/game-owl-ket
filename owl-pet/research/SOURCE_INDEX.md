@@ -1,3 +1,25 @@
+## 2026-11-07 — #197 *Otus megalotis* v3 — current-name mapping, sex-scale restraint and juvenile-source limits
+
+### LLSO-AVIBASE-2026-NAME
+- **Title / institution / accessed:** *Otus megalotis* taxonomic concepts / Avibase–Birds Canada / 2026-11-07.
+- **URL:** https://avibase.bsc-eoc.org/species.jsp?avibaseid=7D1ACC3EF48A7128&lang=EN
+- **Type / scope:** checklist crosswalk; names and taxonomic concepts.
+- **Facts read:** AviList 2026, IOC 15.2 and Clements/eBird histories use Philippine Scops Owl; HBW/BirdLife histories use Luzon Lowland Scops-owl. Synonyms include *Scops megalotis*, *Lempijius megalotis* and *O. m. megalotis*.
+- **Limits / design use:** taxonomy/name source only. V3 visible title follows the current main-list name; older project/BirdLife alias is preserved in metadata.
+
+### LLSO-PNA-DENR-2026-JUV-LEADS
+- **Title / institutions / accessed:** 2026 Philippine juvenile-rescue reports / Philippine News Agency and DENR Bicol / 2026-11-07.
+- **URLs:** https://www.pna.gov.ph/articles/1278687 ; https://r5.denr.gov.ph/news-events/juvenile-philippine-scops-owl-rescued-in-camalig-albay/
+- **Type / scope:** government rescue reports; juvenile leads.
+- **Read status / limitation:** PNA redirected to Facebook login and DENR returned HTTP 403 in this execution. The leads are indexed as **unverified** and were not used as feather-stage evidence.
+- **Design use:** none until the original article/image can be read.
+
+### Reuse / correction / application
+- Reused `LLSO-MIRANDA-2011-P446-450`, `LLSO-MARSHALL-1978-P26`, `LLSO-SANCHEZ-2012-P98-100`, `LLSO-WOODS-2003-JAN-APR-P29`, `LLSO-OWL-PAGES-2012-JUV`, repository Mikkola p.170 transcription and Macaulay metadata with their existing limits.
+- Miranda Table 2 was re-read: female means exceed male means, but wing and tail ranges overlap. V3 applies only a subtle folded-wing/tail cue and explicitly forbids a standing-height/body-ratio exaggeration.
+- Common intermediate grey-brown morph selected; the red morph (2/21 in the museum series) is not sex-coded.
+- Links: `research/species/197-otus-megalotis-v3.md`; `production/runs/20261107T194600+0800-cycle-3.md`; planned concept v3.
+
 ## 2026-11-07 — #195 *Otus brookii solokensis* v3 — sex-size transfer correction and juvenile boundary
 
 ### RAJ-AVIBASE-8F4D4FC5-2026

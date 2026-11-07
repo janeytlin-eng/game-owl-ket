@@ -32357,14 +32357,14 @@
       "next_cycle": 3,
       "active_cycle": 3,
       "started_at": "2026-11-07T18:30:00+08:00",
-      "updated_at": "2026-11-07T19:46:00+08:00",
-      "current_stage": "STARTED",
+      "updated_at": "2026-11-07T19:49:00+08:00",
+      "current_stage": "RESEARCH_READY",
       "ledger_credit_pending": false,
       "lease": {
         "owner": "codex-work-production",
         "run_id": "20261107T194600+0800-cycle-3",
-        "heartbeat_at": "2026-11-07T19:46:00+08:00",
-        "expires_at": "2026-11-07T20:01:00+08:00"
+        "heartbeat_at": "2026-11-07T19:49:00+08:00",
+        "expires_at": "2026-11-07T20:04:00+08:00"
       },
       "in_progress": {
         "cycle": 3,
@@ -32373,7 +32373,7 @@
         "species": "Otus megalotis",
         "version": 3,
         "action": "SCIENCE_REVISION",
-        "stage": "STARTED",
+        "stage": "RESEARCH_READY",
         "run_record": "owl-pet/production/runs/20261107T194600+0800-cycle-3.md"
       },
       "active": {
@@ -32724,6 +32724,36 @@
             "baseline_main": "89341cb401dd23a0fc145dbaff9b0934324f3180",
             "selection_note": "#191–194 and #196 have no live task records; #197 Otus megalotis has archived v1/v2 and no v3. V2 is science=false and requires a fresh check that sexed wing/tail mean differences are not converted into standing-height/body-size exaggeration and that the older juvenile remains evidence-bounded.",
             "lease_expires_at": "2026-11-07T20:01:00+08:00",
+            "scientifically_verified": false
+          }
+        },
+        {
+          "cycle": 3,
+          "stage": "RESEARCH_READY",
+          "at": "2026-11-07T19:49:00+08:00",
+          "run_id": "20261107T194600+0800-cycle-3",
+          "species_id": 197,
+          "species": "Otus megalotis",
+          "credited": false,
+          "evidence": {
+            "research_record": "owl-pet/research/species/197-otus-megalotis-v3.md",
+            "source_index": "owl-pet/research/SOURCE_INDEX.md",
+            "full_prompt_design": "owl-pet/design/PROMPTS_FULL.md",
+            "full_prompt_production": "owl-pet/production/PROMPTS_FULL.md",
+            "new_sources": 2,
+            "reused_sources": 6,
+            "corrected_sources": 1,
+            "design_boundary": "near-equal standing height; subtle overlapping female folded-wing/tail cue only; common intermediate morph; older supported juvenile with compact soft wing/tail",
+            "unknowns": [
+              "exact juvenile age/sex",
+              "iris chronology",
+              "first-flight threshold",
+              "hatchling appearance",
+              "quantitative live-body sexual dimorphism"
+            ],
+            "blocked_leads": "PNA login redirect; DENR HTTP 403; not used as visual evidence",
+            "mikkola_access": "page-specific repository transcription reused; uploaded guide unavailable this execution",
+            "lease_expires_at": "2026-11-07T20:04:00+08:00",
             "scientifically_verified": false
           }
         }

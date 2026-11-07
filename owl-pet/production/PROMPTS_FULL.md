@@ -422,3 +422,18 @@ Juvenile: evidence-bounded age-unknown older Sumatran mesoptile, not a hatchling
 
 Composition: generous title field, balanced spacing, no overlap, all feet and tails fully in frame, adults not clones, readable exact text. Avoid: dramatic female size, three clean white collar rings, regular graphic barring, borrowed Sunda Scops Owl pattern, extra birds, eggs, prey, flight, detached toes, branch-through-body errors, cropped feet, watermark, misspelling, extra text.
 ```
+
+
+## #197 v3 — *Otus megalotis* — batch 20261107T183000+0800 cycle 3/6
+
+### Generation prompt
+
+Create a 3:2 horizontal natural-history concept plate, 1536×1024, in the repository's established warm painterly owl electronic-pet concept style: softly realistic gouache/watercolor texture, natural feather detail, muted Philippine lowland-forest palette, restrained sepia field-guide border, no photorealism, no pixel art, no mascot exaggeration, no watermark.
+
+Exactly three Philippine Scops Owls (Otus megalotis), full bodies and feet visible, each on a separate naturally supportive mossy branch: left ADULT MALE, centre OLDER JUVENILE, right ADULT FEMALE. Title exactly “PHILIPPINE SCOPS OWL”; subtitle exactly “Otus megalotis”; labels exactly “ADULT MALE”, “OLDER JUVENILE”, “ADULT FEMALE”. No other text.
+
+Adults: common intermediate grey-brown morph, not red morph; large orange-red irises, ivory-horn bill/cere, broad pale grey-brown facial disc with a dark rim, moderate ear tufts, brownish nape, ashy-brown underparts with irregular dark shaft streaks and mottling, diagnostic pale scapular stripes, densely feathered tarsi reaching the upper foot. Keep male and female essentially equal in standing height and body mass impression because measured wing/tail ranges overlap; allow the female only a very subtle longer folded-wing and tail silhouette, never a fixed taller/larger body ratio. Both adults calm upright, all toes gripping branch.
+
+Older juvenile: evidence-bounded naturally perched stage, not hatchling and not miniature adult. Compact fluffy rufous-buff to muted brown head/body, soft irregular fine dark barring, reduced soft ear tufts, dark shaded amber-brown eyes (not adult orange-red), short soft folded wing and short tail with rounded developing feather edges, both feet gripping a mossy branch. No spread wings, no flight, no nest interior, no unsupported pose.
+
+Background: Greater Luzon lowland/foothill secondary forest at dusk, layered dark-green foliage and humid moss, soft atmospheric depth. Preserve anatomical realism, three distinct silhouettes, correct support, and the established field-guide composition.

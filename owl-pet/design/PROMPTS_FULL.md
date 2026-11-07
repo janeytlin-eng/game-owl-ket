@@ -481,14 +481,22 @@ Older juvenile boundary: centre bird is explicitly an older, branch-supported ju
 Environment: sea-level Mantanani forest edge on a coralline island, natural leafy forest with Casuarina and coconut grove cues, soft dappled daylight, subdued greens and sandy limestone hints. Keep habitat secondary to the birds. One species only, exactly three birds, accurate anatomy, no extra feet or birds, no text except the exact title, subtitle and three labels.
 
 
-## #184 *Otus spilocephalus hambroecki* v3 — 20261107T205300+0800-cycle-5
+## #25 *Glaucidium brasilianum cactorum* v3 — 2026-11-07
 
-```text
-Use case scientific-educational. Create one 1536×1024 premium naturalistic 3D owl-pet triptych for #184 MOUNTAIN SCOPS OWL, italic Otus spilocephalus, Taiwan race Otus spilocephalus hambroecki only; historical Ephialtes Hambroecki / Otus hambroecki only. Exactly three complete birds on one broad mossy Taiwan broadleaf-forest branch. Exact labels ADULT MALE, RECENT FLEDGLING, ADULT FEMALE. No other text or birds.
+Create one 3:2 landscape scientific character-design plate for the owl electronic-pet project, 1536×1024 pixels, with exactly three Cactus Ferruginous Pygmy-Owls, Glaucidium brasilianum cactorum, no other birds or animals. Match the established approved style: warm hand-painted natural-history gouache, soft cream paper texture, realistic but gently rounded electronic-pet character proportions, clean silhouettes, fine feather detail, muted Sonoran dawn palette, no frames or UI.
 
-Adults: compact small Taiwan Mountain Scops Owls, short indistinct ear tufts, clear yellow irises, cream-yellow bills, tea to warm rufous-brown plumage, dark facial-disc border, restrained pale brows joining tufts as a V, dark vermiculations above, small irregular pale scapular marks, barred remiges and tail, feathered tarsi, exposed pink-brown toes. Same plumage and near-equal standing height/body scale; no generic female-larger rule because Taiwan sources state same plumage and do not quantify sexual size direction. Give different natural head angles and subtly different relaxed poses, not different morphs.
+Text must be exact and legible:
+top title: CACTUS FERRUGINOUS PYGMY-OWL
+under it: Glaucidium brasilianum cactorum
+bottom labels left to right: ADULT MALE — RECENT FLEDGLING 28–31 DAYS — ADULT FEMALE
 
-Recent fledgling: choose the directly documented Taiwan July–August post-fledging boundary, exact age and sex unknown. Smaller/rounder and visibly softer than adults; yellowish/rufous-brown body; loose residual down around crown, cheeks, shoulders and belly; blurred narrow crown bars, broader soft back bars, faint underpart marks; dark/indeterminate irises; a short rounded partly formed wing with soft indistinct coverts, shorter than adult folded wings; tail short and mostly hidden. Both feet grip a fork and lower belly is gently supported. Slight open bill may imply one-syllable call practice, but do not show flight, wing exercise, a nest, eggs or hatchling anatomy.
+Composition:
+LEFT adult male perched on a mesquite branch, body near-front three-quarter view and head turned far enough to reveal one complete nape false-eye patch. Small untufted round head, lemon-yellow iris, pale horn bill, charcoal-gray-brown upperparts, finely buff-flecked crown, conspicuous black nape patch with crisp white outline, plain rusty-brown back, white underparts with strong vertical brown streaks, long rufous tail with 7–8 dark crossbars. Darker and a little smaller/slimmer than female.
 
-Habitat: dense low/mid-elevation humid Taiwan primary broadleaf-forest edge, moss, fern fronds and bark textures. Do not reconstruct a cavity or nest; no deep black hole. Avoid long horn tufts, bright white shoulder patches, adult-hard juvenile wing rows, long juvenile tail, unsupported feet, invented iris colour or exaggerated sexual dimorphism.
-```
+CENTER 28–31-day recent fledgling on a broad fork directly below a saguaro cavity, crouched and balancing with both feet gripping the fork; one short wing held slightly away only for balance, not flying. Fully feathered with no remaining down. Smaller/lighter facial disc, light chocolate-brown head/back/wings, white chest and abdomen with fewer streaks, crown lacking adult buff-white flecks, lighter grayish indistinct nape false-eye patches without crisp white outlines, lemon-yellow eyes (do not mute iris), short rich-rufous tail with dark bars, short fully feathered juvenile wing. Do not make a fluffy nestling, do not give adult tail length, crisp adult nape eyespots, adult crown flecks, or unsupported flight.
+
+RIGHT adult female on a separate mesquite branch at nearly the same standing height, visibly fuller and about 15–17% heavier in body impression but not dramatically taller. Lemon-yellow eyes, pale horn bill, more cinnamon-rufous coverts/remiges/occipitals/scapulars than the male, fine crown flecks, crisp black-and-white nape false-eye patch partly visible, white breast with vertical brown streaks, long rufous barred tail.
+
+Environment: Sonoran desert-scrub/thornscrub edge with saguaro nest cavity, mesquite and palo verde foliage, shaded dense understory, natural branch supports visibly under all six feet. No nest material invented inside the cavity. Scientific plate is concept-calibrated, not a photorealistic composite.
+
+Critical negatives: no ear tufts; no orange/brown adult eyes; no extra bird; no eggs; no hatchling; no adult-like long tail on juvenile; no absent or black juvenile iris; no uniform female-larger template beyond evidence; no mature crisp false-eye pattern on juvenile; no text spelling errors.

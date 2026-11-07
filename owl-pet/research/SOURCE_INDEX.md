@@ -3704,33 +3704,32 @@ Reused: `CIN-FITZPATRICK-ONEILL-1986`, `CIN-ALARCON-SHANEE-2022`. Full v4 record
 - **Correction:** v2's adult-hard juvenile wing/tail is not supported. V3 uses an older, branch-supported, compact soft-winged juvenile and records exact nominate juvenile detail as unknown.
 
 
-## 2026-11-07 — #184 *Otus spilocephalus hambroecki* v3 additions
+## 2026-11-07 — #25 *Glaucidium brasilianum cactorum* v3 — direct 28–40-day fledgling correction
 
-### MOSO-FB-2005-PP46-47
-- **Title / institution / year:** *九九峰自然保留區猛禽類資源調查* / Forestry Bureau Nantou Forest District & Taiwan Provincial Wild Bird Association / 2005
-- **URL:** https://conservation.forest.gov.tw/File.aspx?fno=62690
-- **Accessed:** 2026-11-07
-- **Type:** government-commissioned field research report
-- **Scope:** *Otus spilocephalus* in Taiwan; adult morphology, habitat, behaviour, nesting
-- **Location read:** printed pp.46–47, PDF text lines 1321–1357
-- **Facts:** 15–17 cm body and wing, ~8 cm tail; yellow-brown adult; dense forest low hills–2,600 m; foraging often near the ground; Taiwan records include tree hollows and branch depressions; 2–5 eggs generally and one Taiwan four-egg statement; incubation and rearing periods unknown.
-- **Limitations/confidence:** species-level/older secondary compilation plus local observations; no juvenile plumage or sexed measurements. High confidence for page content; moderate for broad natural-history generalization.
-- **Design support:** adult scale/habitat; do not invent incubation/rearing chronology or nest lining.
-- **Links:** [#184 v3 research](species/184-otus-spilocephalus-v3.md); [v3 review](reviews/184-otus-spilocephalus-v3-review.md).
+### CFPO-AGFD-1996-P22-23
+- **Title / authors / year:** *Cactus Ferruginous Pygmy-Owl Surveys and Nest Monitoring in the Tucson Basin Area, Arizona—1996* — Abbate, Ditty, Richardson & Olding, 1996.
+- **URL / accessed / type:** https://downloads.regulations.gov/FWS-R2-ES-2021-0098-0002/attachment_1.pdf ; Arizona Game and Fish direct nest-monitoring report; read 2026-11-07.
+- **Species / stage / pages:** *G. b. cactorum*; adults and 28–40-day fledglings; printed pp.22–23.
+- **Facts / design use:** 28–31-day fledglings fully feathered without down; lighter smaller face, chocolate/light-brown upperparts, whiter less-streaked underside, no adult crown flecks, short rufous barred tail, grayish indistinct nape patches lacking adult white outline; first-week flights usually ≤6 m and first-day perching unstable. Female slightly larger/more rufous; male darker charcoal in the monitored pair.
+- **Limits:** one Arizona brood/pair for detailed colour and behaviour; fledgling sex and exact hatch date unknown. Supports v3 stage, support posture and correction of v2 iris/nape simplification, not universal quantitative ratios.
 
-### MOSO-YMSNP-FLEDGLING-2026
-- **Title / institution / date:** “黃嘴角鴞” / Yangmingshan National Park / page current at access
-- **URL:** https://www.ymsnp.gov.tw/ch/florafauna/birds/380
-- **Accessed:** 2026-11-07
-- **Type:** national-park institutional species account
-- **Scope:** Taiwan *O. s. hambroecki*, recent fledgling behaviour
-- **Location read:** “Point” section, item reporting July–August one-syllable call practice by newly fledged young
-- **Facts:** recent fledglings may be heard practising a one-syllable call in mountain habitat in July–August.
-- **Limitations/confidence:** no exact age, sex, iris, wing/tail chronology, photo scale or flight threshold. Moderate-high for the stated seasonal behavioural boundary.
-- **Design support:** select a recent-fledgling stage with a slightly open bill and natural branch support; do not infer day-age or flight action.
-- **Links:** [#184 v3 research](species/184-otus-spilocephalus-v3.md); [v3 review](reviews/184-otus-spilocephalus-v3-review.md).
+### CFPO-USFS-GTR43-2000-P7
+- **Title / institution / year:** *Ecology and Conservation of the Cactus Ferruginous Pygmy-Owl in Arizona* — USDA Forest Service RMRS-GTR-43, Cartron & Finch eds., 2000.
+- **URL / pages / type / accessed:** https://www.govinfo.gov/content/pkg/GOVPUB-A13-PURL-gpo111726/pdf/GOVPUB-A13-PURL-gpo111726.pdf ; institutional technical synthesis with field photographs; printed p.7 and Fig.1-3; read 2026-11-07.
+- **Facts / design use:** adult cactorum paler/grayer, lemon-yellow eyes, crown buff flecks, crisp black-white nape patches, plain rusty back, vertically streaked white breast, long rufous 7–8-bar tail. Reported averages c.64 g male / 75 g female; female more cinnamon-rufous. Recent fledgling shorter-tailed, chocolate-brown except rufous tail, lighter nape patches, no crown buff, more white below.
+- **Limits:** several measurements compile unpublished data; used as direction and cross-check, not a rigid universal size ratio.
 
-### Mapping update
-- *Otus spilocephalus hambroecki* → adult morphology: MOSO-NTM-HAMBROECKI-2026, MOSO-MIKKOLA-2013-P148, MOSO-FB-2005-PP46-47.
-- *Otus spilocephalus hambroecki* → recent fledgling: MOSO-YMSNP-FLEDGLING-2026; juvenile colour progression: MOSO-NTM-HAMBROECKI-2026.
-- *Ephialtes Hambroecki* / *Otus hambroecki* → current *O. s. hambroecki*: MOSO-AVIBASE-HAMBROECKI-2026, MOSO-SWINHOE-1871-P438.
+### CFPO-VANROSSEM-1937-P27-28
+- **Title / author / year:** “The Ferruginous Pigmy Owl of Northwestern Mexico and Arizona” — A. J. van Rossem, 1937.
+- **URL / pages / type / accessed:** https://upload.wikimedia.org/wikipedia/commons/9/98/Proceedings_of_the_Biological_Society_of_Washington_%28IA_proceedingsofbi501937biol%29.pdf ; original subspecies description, pp.27–28; read 2026-11-07.
+- **Facts:** type adult male from giant-cactus grove near Guaymas/Empalme; cactorum shorter-winged, longer-tailed and paler/grayer than *G. b. ridgwayi*.
+- **Limits:** adult type series only; no juvenile chronology.
+
+### CFPO-USFWS-FR2023-P46915
+- **Title / institution / year:** Threatened species final rule for Cactus Ferruginous Pygmy-Owl — U.S. Fish and Wildlife Service, 2023.
+- **URL / page / type / accessed:** https://www.govinfo.gov/content/pkg/FR-2023-07-20/pdf/2023-14486.pdf ; regulatory taxonomic/morphology synthesis; p.46915; read 2026-11-07.
+- **Facts / design use:** current U.S. treatment *G. b. cactorum*; male 58–66 g, female 70–75 g; yellow eyes, lightly streaked crown, dark white-outlined nape patches, long barred rufous tail; tree/columnar-cactus cavity nesting.
+- **Limits:** synthesis, not a development experiment; supports current name and broad adult direction.
+
+- **Links:** `research/species/25-glaucidium-brasilianum-cactorum-v3.md`; planned `design/concepts/25-glaucidium-brasilianum-cactorum-v3.png`; run `production/runs/20261107T212500+0800-cycle-6.md`.
+- **Correction:** v2 retained but its “subdued eye colour / no nape eyespots” boundary is superseded for the chosen 28–31-day stage by direct observation: lemon-yellow iris, lighter indistinct gray nape patches, full feathering, and short rufous tail. New4 / reused0 / corrected1; science false.

@@ -1,38 +1,67 @@
-# #25 *Glaucidium brasilianum cactorum* v3 research boundary
+# #25 *Glaucidium brasilianum cactorum* v3 research card
 
-- Research date: 2026-10-30 (Asia/Shanghai)
-- Action: science revision of v2; fixed roster slot and prior versions retained
-- Current-name mapping: U.S. Fish & Wildlife Service continues to treat *G. b. cactorum* as a subspecies of *Glaucidium brasilianum*. Historical combinations and the broader species name do not create a second roster unit.
-- Intended depicted juvenile stage: newly fledged bird, approximately 20–30 days after hatching, within its first day/week outside the cavity. Exact individual age and sex are unknown.
+- Current name: *Glaucidium brasilianum cactorum* Van Rossem, 1937.
+- Historical/protonym mapping: Van Rossem described the taxon under the same trinomial; older regional literature also treats it within the Ferruginous Pygmy-Owl complex. Preserve repository ID 25 and all v1/v2 files.
+- Target stage: 28–31-day recent fledgling, first 24–72 h after leaving the cavity.
+- Accessed: 2026-11-07.
+- Science status: evidence-bounded concept only; not scientifically verified.
 
-## Freshly read sources
+## Sources actually read
 
-### CFPO-FWS-RECOVERY-2024-P5
+### CFPO-AGFD-1996-P22-23 — direct nest monitoring
 
-The U.S. Fish & Wildlife Service recovery outline was read at printed p.6 / PDF p.5. It gives adult length about 17 cm; male mass 58–66 g and female mass 70–75 g; reddish-brown to grayish-brown variation; lightly streaked crown; white-outlined dark nape false eyes; yellow eyes; no obvious ear tufts; long barred tail; and different pale-versus-rufous interbar colour direction in males and females. The same page gives fledging at 20–28 days and describes Sonoran desertscrub/thornscrub, habitat edges, giant cacti and secondary cavity nesting.
+Abbate, Ditty, Richardson & Olding. 1996. *Cactus Ferruginous Pygmy-Owl Surveys and Nest Monitoring in the Tucson Basin Area, Arizona—1996*. Arizona Game and Fish Department, Final Report U95503.  
+URL: https://downloads.regulations.gov/FWS-R2-ES-2021-0098-0002/attachment_1.pdf  
+Read printed pp.22–23, especially “Fledgling and Adult Field Identification Characteristics.”
 
-Limit: pooled account and cited ranges do not authorize an exaggerated height gap, one universal male/female colour pair, or a day-specific juvenile feather map. Design uses a subtly fuller female at near-equal displayed height.
+Observed facts: fledglings first seen at 28–31 days were fully feathered with no down; facial disc initially smaller/lighter; head/back/wings light brown; breast/abdomen white with fewer streaks; crown lacked adult white flecks; outer primaries and tail distinctly rufous. At 28–40 days the tail was much shorter; nape “eye patches” were grayish, lighter/less distinct and lacked the adult’s crisp white outline. Tail reached full length about three weeks after fledging. During the first week fledglings flew little, generally ≤6 m; in the first 24 h they slipped, struggled to perch and caught wings in branches. The monitored female was a little larger and more rufous; the male appeared more charcoal gray. Limitation: adult sex colour comparison is one pair, though the authors say it matched Texas observations; no individual fledgling sex or exact hatch date was known.
 
-### CFPO-USDA-2000-P10-P13
+### CFPO-USFS-GTR43-2000-P7 — institutional synthesis and photographs
 
-The USDA Forest Service monograph was reread at printed p.10 / PDF p.14 and printed p.11 / PDF p.15, plus printed p.13 / PDF p.17. It reports moderate-to-dense understory as important for fledgling survival; natural or abandoned woodpecker cavities in trees or large columnar cacti, with Arizona nests in saguaros and no added lining; fledging at 21–30 days; initial post-fledge use of dense thorny shrubs/trees near the nest; and initial inexperience/lack of coordinated flight. It also documents collision/grounding/entanglement hazards during the first 24 hours.
+Cartron & Finch (tech. eds.). 2000. *Ecology and Conservation of the Cactus Ferruginous Pygmy-Owl in Arizona*. USDA Forest Service RMRS-GTR-43.  
+URL: https://www.govinfo.gov/content/pkg/GOVPUB-A13-PURL-gpo111726/pdf/GOVPUB-A13-PURL-gpo111726.pdf  
+Read printed p.7 and Fig.1-3.
 
-Design use: the juvenile stays low and fully supported in dense thorny cover, crouches with both feet gripping and one short soft wing slightly opened for balance. This is a cautious design inference from locomotor evidence, not a literal observed individual.
+Facts: cactorum is 16.5–18 cm, pale/gray relative to neighbouring subspecies, with lemon-yellow eyes, crown buff flecks, crisp black-and-white nape patches, plain rusty-brown back, strongly streaked white breast, long rufous tail with 7–8 dark bars. Reported averages are about 64 g male and 75 g female; females are more cinnamon-rufous. Recent fledglings have shorter tails, teardrop pale feather tips from shoulder to rump, lighter nape patches, no crown buff and more white below; Arizona fledglings are chocolate brown except the rufous tail. Limitation: the mass figures and some plumage statements compile unpublished/earlier work, so they bound design direction rather than prove a universal ratio.
 
-## Reused and corrected evidence
+### CFPO-VANROSSEM-1937-P27-28 — original subspecies description
 
-- Reused `CFPO-TAMUK-BIOLOGY-1998` (corrected bibliography: Proudfoot, Beasom & Chavez-Ramirez 1999 bulletin, printed pp.2–4): dark-brown male / cinnamon-rufous female direction; first four post-fledge weeks lack white crown streaks and false eyespots; dense cover while flight develops. The bulletin does not establish exact day-specific iris, remex or rectrix lengths.
-- Reused `CFPO-USDA-2000`, `CFPO-FWS-TAXONOMY-2026`, `CFPO-CORNELL-ID-2026` and `CFPO-TBBA-BREEDING-2006` from the existing index. V2's visible white crown marks, long barred juvenile tail and adult-like layered/spotted wing are corrected because they contradict the selected recent-fledgling boundary.
-- The user-uploaded Mikkola guide was not accessible in this runtime; no new page claim is made. Existing repository records are retained without pretending the upload was reread.
+A. J. van Rossem. 1937. “The Ferruginous Pigmy Owl of Northwestern Mexico and Arizona.” *Proceedings of the Biological Society of Washington* 50:27–28.  
+URL: https://upload.wikimedia.org/wikipedia/commons/9/98/Proceedings_of_the_Biological_Society_of_Washington_%28IA_proceedingsofbi501937biol%29.pdf  
+Facts: the type is an adult breeding male from a giant-cactus grove near Guaymas/Empalme, Sonora; compared with *G. b. ridgwayi*, cactorum has shorter wing, longer tail and paler/grayer coloration. Limitation: adult type series; no developmental stage.
 
-## Design boundary and unknowns
+### CFPO-USFWS-FR2023-P46915 — current U.S. taxon and morphology
 
-Facts and inferences are kept separate. Adults may show diagnostic yellow eyes, long barred tails and one three-quarter rear view exposing the nape false eyes. The juvenile must have a plain crown and no false-eye claim, more white below, soft chocolate/gray-brown body, short rounded developing wing and short developing tail; no flight pose. Juvenile sex, exact age, iris colour, precise wing/tail feather lengths, individual regional colour and quantitative linear dimorphism remain unknown. Therefore `scientifically_verified=false` even if visual review passes.
+U.S. Fish and Wildlife Service. 2023. Threatened species final rule, Federal Register 88:46910–46950.  
+URL: https://www.govinfo.gov/content/pkg/FR-2023-07-20/pdf/2023-14486.pdf  
+Read p.46915. Current U.S. treatment retains *G. b. cactorum*. It summarizes male mass 58–66 g and female 70–75 g, lemon-yellow eyes, lightly streaked crown, white-outlined dark nape patches, long rufous-brown barred tail and cavity nesting in trees/columnar cacti. Limitation: regulatory synthesis, not a plumage-development experiment.
+
+## Conflict correction and design boundary
+
+V2’s “subdued eye color” and complete absence of nape eyespots are not supported by the direct 1996 observations. V3 will show lemon-yellow juvenile eyes, a fully feathered 28–31-day bird, and lighter grayish indistinct nape patches without the adult white outline. It will not use a fluffy nestling or erase all formed juvenile wing feathers. The first-day balance problem supports a low crouch on a broad fork with one short wing slightly open for balance; it does not support flight.
+
+Adult female is somewhat fuller/larger and more rufous, male slightly smaller/darker, but standing height remains nearly equal and the 64 g/75 g averages are not converted into a rigid universal scale.
+
+## Environment and unknowns
+
+Use a saguaro cavity and adjacent mesquite/palo verde thornscrub with all feet supported. Do not invent a nest lining. Unknown: exact individual age within 28–31 d, sex, age-specific iris ontogeny beyond observation, exact wing/tail length, population colour variation, universal sex ratio, and cavity geometry.
 
 ## Complete imagegen prompt
 
-Create a 1536×1024 landscape naturalistic wildlife field-guide concept plate in the already established owl-pet visual language: softly painted but anatomically credible birds, warm restrained light, realistic feather texture, uncluttered scientific presentation. Show exactly three Cactus Ferruginous Pygmy-Owls (*Glaucidium brasilianum cactorum*) in Sonoran-desert thorn scrub beside a saguaro cavity, with dense protective understory and natural branch support. Exact title at top: “25 CACTUS FERRUGINOUS PYGMY-OWL”. Exact italic-style subtitle beneath: “Glaucidium brasilianum cactorum”. Exact small labels below the birds: “MALE”, “JUVENILE”, “FEMALE”. Left adult male: compact pygmy-owl, homogeneous dark brown/rufous-brown upperparts rather than white-spotted back, lemon-yellow eyes, greenish-yellow bill/toes, cream belly with brown longitudinal streaks, long tail with dark bars and paler interspaces, no ear tufts. Right adult female: cinnamon-rufous and subtly fuller/heavier but near the same displayed height, lemon-yellow eyes, greenish-yellow bill/toes, long barred tail with darker rufous interspaces, no ear tufts; pose her three-quarter turned so the black/dark-brown nape false-eye patches outlined in white are visible while the real eye remains legible. Center juvenile: newly fledged approximate 20–30-day bird, age and sex unspecified, plain dark chocolate/gray-brown crown with absolutely no white crown streaks and no false-eye patch claim, soft fluffy body with more white on breast, short rounded developing wings with diffuse soft coverts and no crisp adult spots, no long layered adult remiges, short developing tail with minimal/faint barring rather than a long adult tail. Give the juvenile an awkward first-day/first-week post-fledge balance pose: body low and slightly crouched, both feet visibly gripping a low thorn-free branch fork, one short soft wing only slightly opened for balance; it is supported, not flying, not hovering, not standing on cactus spines. Adults are calm sentinels on adjacent supported branches. No extra birds, prey, eggs, nestlings, large ear tufts, human objects, watermark or extra text. Keep all feet anatomically correct and visibly supported; keep dense thorny cover behind, not intersecting birds.
+Create one 3:2 landscape scientific character-design plate for the owl electronic-pet project, 1536×1024 pixels, with exactly three Cactus Ferruginous Pygmy-Owls, Glaucidium brasilianum cactorum, no other birds or animals. Match the established approved style: warm hand-painted natural-history gouache, soft cream paper texture, realistic but gently rounded electronic-pet character proportions, clean silhouettes, fine feather detail, muted Sonoran dawn palette, no frames or UI.
 
-## Source accounting
+Text must be exact and legible:
+top title: CACTUS FERRUGINOUS PYGMY-OWL
+under it: Glaucidium brasilianum cactorum
+bottom labels left to right: ADULT MALE — RECENT FLEDGLING 28–31 DAYS — ADULT FEMALE
 
-New 2; reused 5; corrected 1. This stage is research-ready only and gives no cycle credit.
+Composition:
+LEFT adult male perched on a mesquite branch, body near-front three-quarter view and head turned far enough to reveal one complete nape false-eye patch. Small untufted round head, lemon-yellow iris, pale horn bill, charcoal-gray-brown upperparts, finely buff-flecked crown, conspicuous black nape patch with crisp white outline, plain rusty-brown back, white underparts with strong vertical brown streaks, long rufous tail with 7–8 dark crossbars. Darker and a little smaller/slimmer than female.
+
+CENTER 28–31-day recent fledgling on a broad fork directly below a saguaro cavity, crouched and balancing with both feet gripping the fork; one short wing held slightly away only for balance, not flying. Fully feathered with no remaining down. Smaller/lighter facial disc, light chocolate-brown head/back/wings, white chest and abdomen with fewer streaks, crown lacking adult buff-white flecks, lighter grayish indistinct nape false-eye patches without crisp white outlines, lemon-yellow eyes (do not mute iris), short rich-rufous tail with dark bars, short fully feathered juvenile wing. Do not make a fluffy nestling, do not give adult tail length, crisp adult nape eyespots, adult crown flecks, or unsupported flight.
+
+RIGHT adult female on a separate mesquite branch at nearly the same standing height, visibly fuller and about 15–17% heavier in body impression but not dramatically taller. Lemon-yellow eyes, pale horn bill, more cinnamon-rufous coverts/remiges/occipitals/scapulars than the male, fine crown flecks, crisp black-and-white nape false-eye patch partly visible, white breast with vertical brown streaks, long rufous barred tail.
+
+Environment: Sonoran desert-scrub/thornscrub edge with saguaro nest cavity, mesquite and palo verde foliage, shaded dense understory, natural branch supports visibly under all six feet. No nest material invented inside the cavity. Scientific plate is concept-calibrated, not a photorealistic composite.
+
+Critical negatives: no ear tufts; no orange/brown adult eyes; no extra bird; no eggs; no hatchling; no adult-like long tail on juvenile; no absent or black juvenile iris; no uniform female-larger template beyond evidence; no mature crisp false-eye pattern on juvenile; no text spelling errors.
